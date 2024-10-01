@@ -8,28 +8,30 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: cf722e3dc021cf4302e9542fd65a0e5dd0043de5
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '808'
 ht-degree: 1%
 
 ---
 
 # 使用版面配置範本自訂新首頁
 
-您可以使用版面配置範本來設定使用者在開啟新首頁時看到的內容。
+您可以使用版面配置範本來設定使用者第一次開啟新首頁時看到的內容。
 
 您可以設定：
 
-* 預設工作區中顯示哪些Widget，及其在頁面上的版面
+* 工作區預設顯示哪些Widget
 * 選取哪個背景
 * 特定Widget設定，包括哪些篩選器和群組可用於「我的專案」、「我的任務」和「我的問題」Widget，以及其預設值
 
 >[!IMPORTANT]
 >
->本頁所述的管理員配置範本選擇會覆寫個別使用者的自訂選擇。
->
->儲存對版面配置範本的變更後，該版面配置範本的使用者將會變更其新首頁以符合版面配置範本，而其現有的Widget選取專案將會推送至頁面底部。 雖然管理員選取的Widget可由使用者重新定位及調整大小，但無法移除。
+>套用版面配置範本後，一般使用者可以變更其背景，並重新排序頁面上的Widget。 他們無法移除Workfront管理員包含的Widget。
+> <br>
+>管理員可以為使用者新增Widget。 但是，如果使用者已經自訂了其Widget順序或背景選擇，這些特定的自訂不會變更。
+
+
 
 如需新首頁的詳細資訊，請參閱[開始使用新首頁](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)。
 
@@ -72,6 +74,8 @@ ht-degree: 1%
 +++
 
 ## 使用版面配置範本自訂新首頁
+
+若要使用版面配置範本自訂「新首頁」：
 
 1. 開始使用版面配置範本，如[建立和管理版面配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)中所述。
 
