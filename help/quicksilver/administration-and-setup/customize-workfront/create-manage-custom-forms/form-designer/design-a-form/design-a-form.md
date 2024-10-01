@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 9a8498adb51f5bc18747667865ebf4b248e57bb5
+source-git-commit: eee683edc36b33b74d67a9ffbcab9697826e3a86
 workflow-type: tm+mt
-source-wordcount: '5541'
+source-wordcount: '5575'
 ht-degree: 5%
 
 ---
 
 # 使用表單設計工具設計表單
+
+{{highlighted-preview}}
 
 您可以使用表單設計工具來設計自訂表單。 您可以將自訂表單附加至不同的Workfront物件，以擷取這些物件的相關資料。
 
@@ -89,6 +91,8 @@ ht-degree: 5%
 ## 新增欄位或現有欄位至您的自訂表單
 
 在設計自訂表單時，您可以使用新的或現有的欄位。
+
+<span class="preview">自訂表單限製為500個欄位。 左下方的計數器會顯示表單上使用的欄位數，當您在表單設計工具中捲動時，它始終可見。</span>
 
 ### 重複使用已在其他自訂表單中使用的現有欄位或Widget
 
