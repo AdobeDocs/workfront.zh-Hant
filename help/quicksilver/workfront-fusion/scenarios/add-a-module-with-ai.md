@@ -9,22 +9,22 @@ feature: Workfront Fusion
 hide: true
 hidefromtoc: true
 exl-id: 899641a0-a104-4be9-b423-34a32e985b53
-source-git-commit: fe096ba36da9b56e0e38f6061481b66cfbeee5c6
+source-git-commit: 67e1d158b09ca339d25473ebedf8851155b2c1c0
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 1%
+source-wordcount: '408'
+ht-degree: 0%
 
 ---
 
-# 使用AI產生模組
+# 使用AI產生案例區段
 
 <!--DO NOT DELETE - linked through CSH-->
 
 >[!IMPORTANT]
 >
->由於此功能仍處於開發初期，因此僅供內部Workfront使用者使用。
+>由於此功能位於Beta中，因此僅供部分Workfront使用者使用。
 
-您可以使用AI輸入文字提示，說明您需要模組做什麼。 然後Fusion將產生HTTP模組，該模組將連線到所需API的正確端點。
+您可以使用AI輸入文字提示，說明您需要將情境的某個區段執行哪些操作。 然後Fusion將產生模組來執行這些動作，您可在場景中使用。
 
 和從AI產生的任何專案一樣，我們建議您仔細檢查並測試產生的模組，以確保模組如預期般執行。
 
@@ -52,41 +52,52 @@ Fusion AI目前可以產生連線到以下應用程式的模組：
 
 ## 產生模組
 
-1. 新增模組並從應用程式清單中選取&#x200B;**使用AI產生**。
+1. 開始新增模組，並從應用程式清單中選取&#x200B;**使用AI產生**。
 
    或
 
-   在案例編輯器的空白區域上按一下滑鼠右鍵，然後選取&#x200B;**使用AI產生**。
+   按一下案例編輯器頁面底部附近的「使用AI產生」圖示![使用AI產生](assets/generate-with-ai-icon-beta.png)。
+
+   該AI助理面板隨即開啟。
 1. 在方塊中輸入文字提示。
 
    如需提示的相關提示，請參閱本文中的[建立文字提示的提示](#tips-for-creating-text-prompts)。
-1. 將應用程式的API Token新增至模組。
-1. 檢查模組，確保模組已針對適當的應用程式和動作進行設定。
-1. （視條件而定）如果模組未附加至您的案例，請將其拖曳至適當位置。
 
-我們建議測試模組，以確保產生的模組如預期般執行。
+   模組或模組集隨即產生。
+1. （視條件而定）如有需要，請將應用程式的API Token新增至模組。
+1. 檢查模組，確保針對適當的應用程式和動作來設定它們。
+1. （視條件而定）如果產生的案例區段未附加至您的案例，請將其拖曳至適當位置。
+
+我們建議測試這些模組，以確保它們按預期執行。
 
 ## 建立文字提示的提示
 
 文字提示應至少包含下列資訊：
 
 * 您連線到的應用程式
-* 您要執行的動作
+* 您要執行的一個或多個動作
+
+>[!IMPORTANT]
+>
+>您可以一次產生多個模組，但一次只能為一個應用程式產生模組。
 
 >[!INFO]
 >
 >**範例**：
 >
->* `Retrieve a list of my calendars from Google Calendar`
+>* `Delete the records 'xyz-123', 'xyz-456', 'xyz-789' from Adobe Workfront Planning`
+>這包括應用程式`Workfront Planning`和動作`delete records`。 此提示會建立三個模組，每個要刪除的記錄各一個。
+>* `Change campaign summary of the record 'xyz-123' from Adobe Workfront Planning`
+>這包括應用程式`Workfront Planning`和動作`change campaign summary`。
+>* `Get all field details in the record type with ID 'test-record' from Adobe Workfront Planning`
+>這包括應用程式`Workfront Planning`和動作`get field details`。
 >
->   這包括應用程式`Google Calendar`和動作`Retrieve a list of my calendars`。
+>下列範例不正確：
+>* `Generate an image in Adobe Firefly and upload it to Dropbox`
 >
->* `Retrieve popular songs from Spotify`
->
->   這包括應用程式`Spotify`和動作`Retrieve popular songs`。
+>    此範例不正確，因為它包含多個應用程式
 
 建立文字提示時，請考量下列事項：
 
-* 由於每個Fusion模組會執行單一動作，因此您的文字提示應說明一個特定動作。
 * 使用直接、簡單的語言。
 * 檢查並測試您的模組。 如果無法如預期執行，請調整您的提示，然後再試一次。
