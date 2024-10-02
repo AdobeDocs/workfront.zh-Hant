@@ -10,9 +10,9 @@ description: 使用 [!DNL Adobe Workfront Fusion], you can start a scenario base
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
+source-git-commit: 993d10a93eca28573aaa38e4ce76e5a1b30ec42e
 workflow-type: tm+mt
-source-wordcount: '1647'
+source-wordcount: '1706'
 ht-degree: 0%
 
 ---
@@ -127,20 +127,28 @@ ht-degree: 0%
                   <td>輸入您[!DNL Adobe Experience Manager]執行個體的URL。 請勿在URL的結尾包含斜線<code>/</code>。</td>
               </tr>
               <tr>
+                  <td role="rowheader">[！UICONTROL帳戶詳細資料填寫選項]</td>
+                  <td>選取是否要提供描述您帳戶詳細資料的JSON，或是否要手動輸入詳細資料。</td>
+              </tr>
+              <tr>
+                  <td role="rowheader">[！UICONTROL技術帳戶詳細資料（JSON格式）</td>
+                  <td>若提供JSON，請輸入或貼上描述您帳戶詳細資料的JSON。</td>
+              </tr>
+              <tr>
                   <td role="rowheader">[！UICONTROL使用者端ID]</td>
-                  <td>輸入在[！UICONTROL伺服器對伺服器]安裝程式中產生的使用者端ID。</td>
+                  <td>如果手動輸入詳細資料，請輸入在[！UICONTROL伺服器對伺服器]設定中產生的使用者端ID。</td>
               </tr>
               <tr>
                   <td role="rowheader">[！UICONTROL使用者端密碼]</td>
-                  <td>輸入在[！UICONTROL伺服器對伺服器]安裝程式中產生的使用者端密碼。</td>
+                  <td>如果手動輸入詳細資料，請輸入在[！UICONTROL伺服器對伺服器]設定中產生的使用者端密碼。</td>
               </tr>
               <tr>
                   <td role="rowheader">[！UICONTROL技術帳戶ID]</td>
-                  <td>輸入技術帳戶的ID。 這是使用者端憑證JSON檔案中的「[！UICONTROL id]」欄位。</td>
+                  <td>如果手動輸入詳細資料，請輸入技術帳戶的ID。 這是使用者端憑證JSON檔案中的「[！UICONTROL id]」欄位。</td>
               </tr>
               <tr>
                   <td role="rowheader">[！UICONTROL組織ID]</td>
-                  <td class="">輸入組織的ID。 這是使用者端憑證JSON檔案中的「[！UICONTROL org]」欄位。</td>
+                  <td class="">如果以手動方式輸入明細，請輸入貴組織的識別碼。 這是使用者端憑證JSON檔案中的「[！UICONTROL org]」欄位。</td>
               </tr>
               <tr>
                   <td role="rowheader">[！UICONTROL中繼範圍]</td>
