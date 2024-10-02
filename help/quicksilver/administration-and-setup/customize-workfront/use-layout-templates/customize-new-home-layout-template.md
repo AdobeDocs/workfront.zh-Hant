@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: cf722e3dc021cf4302e9542fd65a0e5dd0043de5
+source-git-commit: 21e81e6395680e3ea7ffd05424217e5352fff0f6
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '830'
 ht-degree: 1%
 
 ---
@@ -114,7 +114,7 @@ ht-degree: 1%
       <p>選取您要編輯的Widget後，可用選項將顯示在右側。 這些選項包括<b>篩選器</b>、<b>欄</b>和<b>群組</b>。 您可以：</p>
       <ul>
       <li><p><b>選取並排序使用者可用的篩選器、欄或群組：</b></p>
-      <p>勾選清單中所有選項旁的方塊，讓使用者能夠使用。 使用者看不到未核取的選項。 拖放清單中的選項以設定順序。</li></p>
+      <p>勾選清單中所有選項旁的方塊，讓使用者能夠使用。 這些選項不會延伸至「摘要」面板。 您必須在「版面配置範本」的「摘要」標籤中設定該區域。 使用者看不到未核取的選項。 拖放清單中的選項以設定順序。</li></p>
       <p>
 
 >[!IMPORTANT]
