@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '611'
 ht-degree: 1%
 
 ---
@@ -39,6 +39,45 @@ Workfront Data Connect可讓您將組織的Workfront資料與商業智慧工具�
 >將一個專案新增到IP允許清單後，將不再允許所有其他IP位址。 在嘗試使用視覺化工具之前，請確定您已輸入所有必要的IP位址（包括建置和讀取視覺化工具的體驗）。 否則，您可能會遇到有關無效認證的錯誤。
 >
 >如果您的允許清單中未包含任何IP位址，但連線至BI工具時仍有問題，請檢查BI工具的Proxy伺服器設定。
+
+## 存取需求
+
++++ 展開以檢視存取需求。
+
+您必須具有下列存取權才能執行本文中的步驟：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td><p>包含在下列計畫中：</p>
+    <ul>
+        <li>Ultimate</li> 
+    </ul>    
+   <p>可作為下列計畫的附加元件購買：</p> 
+    <ul>
+        <li>選取</li> 
+        <li>Prime</li>
+    </ul> 
+    <p>Workfront Data Connect不適用於舊版Workfront計畫。</p> 
+   </td> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td>計劃</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>您必須是Workfront管理員。</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 將IP新增至允許清單
 

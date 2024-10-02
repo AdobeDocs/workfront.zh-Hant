@@ -4,9 +4,9 @@ description: 2024年第四季首頁增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c32d08a0b32c6695a29ef45400a7eb1e10e665fd
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '187'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 0%
 如需2024年第四季版本週期目前可用的所有變更清單，請參閱[2024年第四季版本概觀](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)。
 
 ## 透過優先順序簡化任務擁有者的Workfront體驗
+
+>[!NOTE]
+>
+>預覽版本： 2024年10月3日；適用於所有客戶的生產版本：搭配24.10版（2024年10月17日）。
 
 推出優先順序：為任務擁有者提供更簡單、簡化且更直覺的Workfront體驗。
 

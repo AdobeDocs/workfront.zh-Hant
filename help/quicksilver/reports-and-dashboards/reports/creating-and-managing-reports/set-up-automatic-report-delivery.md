@@ -6,9 +6,9 @@ description: 排程自動報告傳送
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-source-git-commit: 4bd88c0e4a3d27e30580fefea993224fe5446e32
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1272'
 ht-degree: 2%
 
 ---
@@ -160,6 +160,12 @@ ht-degree: 2%
    報告會顯示在&#x200B;**重複傳遞**&#x200B;區段（在&#x200B;**傳送報告**&#x200B;對話方塊中）中，並將於排程時間傳送。
 
    如需可能影響報表傳送之大小限制的相關資訊，請參閱[報表傳送限制](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#understanding-export-limits)與[匯出限制](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#export)小節。
+
+>[!IMPORTANT]
+>
+>處理排程報表以進行傳送時，受內部時間限制。 如果報告花費的時間超過傳送限制，您將收到通知，且無論剩餘的任何排程傳送，都將不再傳送報告。 若要繼續傳送報告，請先嘗試透過篩選器和檢視縮小報告大小，然後建立新的排程傳送。
+>
+>如果您使用排程報表傳送來透過BI工具分析Workfront資料，建議您改用Workfront Data Connect 。 如需詳細資訊，請參閱[Workfront Data Connect總覽](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md)。
 
 1. （選擇性）若要刪除排程的傳送：
 

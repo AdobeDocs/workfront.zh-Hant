@@ -4,9 +4,9 @@ description: 2024年第四季報表與控制面板增強功能
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2c6d01d009e3dc09b65d7c414e1a3d8536d384e0
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->適用於所有客戶的生產版本：24.10版本（2024年10月）
+>適用於所有客戶的生產版本：24.10版本（2024年10月17日）
 >
 >_僅適用於其中一個新Adobe Workfront計畫中的組織。 Data Connect包含在Ultimate計畫中，或可作為Prime和Select計畫的附加元件購買。_
 

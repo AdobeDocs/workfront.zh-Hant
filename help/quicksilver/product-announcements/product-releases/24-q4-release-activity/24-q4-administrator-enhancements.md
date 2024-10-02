@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
-source-git-commit: b0b56dfb8d50fbbd40e2a1de82f95352c182615a
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽版本： 2024年8月29日；快速發行生產：24.9版（2024年9月12日）；每季發行生產：24.10版（2024年10月）
+>預覽版本： 2024年8月29日；快速發行生產：24.9版（2024年9月12日）；每季發行生產：24.10版（2024年10月17日）
 
 為了讓環境升級更靈活且更易於使用，我們啟用了復原功能。 現在，您可以在24小時內復原套件，讓您更輕鬆地還原受環境促銷活動套件影響的先前設定。
 

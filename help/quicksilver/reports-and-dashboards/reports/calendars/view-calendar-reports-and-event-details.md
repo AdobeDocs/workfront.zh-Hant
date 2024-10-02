@@ -6,7 +6,7 @@ description: 您可以在Adobe Workfront中檢視您建立或與您共用的行�
 author: Lisa
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: e5a3024b1657942cd7abdfff76a7a6795127a4f5
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 0%
@@ -54,14 +54,14 @@ ht-degree: 0%
 
    根據您的存取層級，您可能會看到下列行事曆：
 
-   * 您的預設[!DNL Adobe Workfront]行事曆\
+   * 您的預設[!DNL Adobe Workfront]行事曆
 
      Workfront會根據指派給您的專案、任務和問題或是指派給您受指派的團隊、群組或角色的問題，為您建立行事曆。
-   * 您已建立的行事曆\
+   * 您已建立的行事曆
 
      若要瞭解如何建立行事曆，請參閱[行事曆報告總覽](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md)。
 
-   * 其他使用者與您共用的行事曆\
+   * 其他使用者與您共用的行事曆
 
      若要瞭解共用行事曆，請參閱[[!UICONTROL 共用行事曆]報告](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)。
 

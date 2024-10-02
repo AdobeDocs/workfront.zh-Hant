@@ -6,9 +6,9 @@ description: 控制面板的用途是提供資訊的快速存取。 您可將報
 author: Nolan
 feature: Reports and Dashboards
 exl-id: de15ab45-4bcd-4638-b3d7-fc70a0866d2d
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '536'
 ht-degree: 1%
 
 ---
@@ -21,10 +21,6 @@ ht-degree: 1%
 
   如需建立報告的詳細資訊，請參閱[建立自訂報告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
-* 行事曆
-
-  如需建立行事曆的詳細資訊，請參閱[行事曆：文章索引](../../../reports-and-dashboards/reports/calendars/calendars.md)。
-
 * 外部頁面
 
   如需建立外部頁面的詳細資訊，請參閱[將外部網頁內嵌在儀表板中](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md)。
@@ -33,7 +29,7 @@ ht-degree: 1%
 
 對儀表板所做的任何變更都將影響有權存取該儀表板的所有使用者。
 
-當您與使用者共用控制面板時，所有報告、行事曆和外部頁面也會與相同的使用者共用。
+當您與使用者共用控制面板時，所有報表和外部頁面也會與相同的使用者共用。
 
 ## 存取需求
 
@@ -86,7 +82,7 @@ ht-degree: 1%
    * **名稱**：編輯儀表板的名稱。
    * **描述**：指定儀表板的描述。
 
-1. 在&#x200B;**可用的報告與行事曆**&#x200B;區段中，開始在&#x200B;**依名稱或型別搜尋……**&#x200B;欄位中輸入報告、行事曆或外部頁面的名稱，然後將報告或行事曆拖放到右邊的配置窗格中。
+1. 在&#x200B;**可用報表**&#x200B;區段中，開始在&#x200B;**依名稱或型別搜尋……**&#x200B;欄位中輸入報表或外部頁面的名稱，然後將報表拖放到版面配置窗格的右側。
 
    >[!NOTE]
    >

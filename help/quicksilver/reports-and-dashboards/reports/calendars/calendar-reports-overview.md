@@ -7,9 +7,9 @@ description: 行事曆報告是一種動態報告，可提供工作的視覺化�
 author: Lisa
 feature: Reports and Dashboards
 exl-id: c65cf8ab-e37f-42a4-9a81-70962629e9ba
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '352'
 ht-degree: 4%
 
 ---
@@ -57,7 +57,3 @@ ht-degree: 4%
 >[!NOTE]
 >
 >如果您在執行行事曆報告時看到504錯誤，報告中可能會有太多篩選器。 減少篩選器的數量應該可以讓報表執行。
-
-## 將行事曆新增到儀表板
-
-您可以在控制面板上顯示行事曆報表，以快速存取這些報表。 若要瞭解如何新增行事曆至儀表板，請參閱[編輯儀表板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/edit-dashboard.md)。

@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: c3e18716aa74ed91e21e542437a017586a58d0b3
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,21 @@ ht-degree: 0%
 
 如需2024年第四季版本的所有變更清單，請參閱[2024年第四季版本概觀](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)。
 
+## 儀表板的外觀與操作方式更新
+
+>[!NOTE]
+>
+>預覽版本： 2024年9月19日；適用於所有客戶的生產版本：搭配24.10版（2024年10月17日）
+
+我們已對控制面板介面進行各種更新，以符合Workfront其他區域的設計需求。 這些變更包括列印儀表板時新的列印預覽畫面，以及移除將行事曆放入儀表板的功能。 儀表板上的現有行事曆將會顯示行事曆的連結。
+
+如需儀表板的詳細資訊，請參閱[建立和管理儀表板](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md)。 如需行事曆的詳細資訊，請參閱[行事曆報告總覽](/help/quicksilver/reports-and-dashboards/reports/calendars/calendar-reports-overview.md)。
+
 ## 系統偏好設定頁面的外觀更新
 
 >[!NOTE]
 >
->預覽版本： 2024年7月18日；快速發行生產：24.9版（2024年9月12日）；每季發行生產：24.10版（2024年10月）
+>預覽版本： 2024年7月18日；快速發行生產：24.9版（2024年9月12日）；每季發行生產：24.10版（2024年10月17日）
 
 我們已將「設定>系統>偏好設定」頁面更新為更現代的設計，與Workfront的其他區域一致。
 
@@ -32,7 +42,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽版本： 2024年8月1日；快速發行生產：24.8版（2024年8月15日）；每季發行生產：24.10版（2024年10月）
+>預覽版本： 2024年8月1日；快速發行生產：24.8版（2024年8月15日）；每季發行：24.10版（2024年10月17日）
 
 刪除使用者及停用使用者確認訊息（使用者在刪除或停用使用者時看到的訊息）已更新為更現代的設計，與Workfront的其他區域一致。
 
@@ -42,7 +52,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽版本： 2024年8月1日；快速發行生產：24.8版（2024年8月15日）；每季發行生產：24.10版（2024年10月）
+>預覽版本： 2024年8月1日；快速發行生產：24.8版（2024年8月15日）；每季發行：24.10版（2024年10月17日）
 
 我們以與Workfront其他區域一致的更現代設計更新了「資源集區」頁面。
 
@@ -62,7 +72,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽版本： 2024年7月17日；快速發行生產：24.8版（2024年8月15日）；每季發行生產：24.10版（2024年10月）
+>預覽版本： 2024年7月17日；快速發行生產：24.8版（2024年8月15日）；每季發行生產：24.10版（2024年10月17日）
 
 我們已更新「通知」頁面（按一下主工具列上的「通知」圖示，然後按一下「所有通知」），使其採用與Workfront其他區域一致的更現代化設計。
 
