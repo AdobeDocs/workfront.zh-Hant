@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
+source-git-commit: a3b172a40dc539504da356f37377d2332edad4dc
 workflow-type: tm+mt
 source-wordcount: '1729'
 ht-degree: 0%
@@ -173,7 +173,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md">介紹優先順序：為任務擁有者提供更簡單、簡化且直覺式的Workfront體驗。</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md">介紹優先順序：為任務擁有者提供更簡單、簡化且直覺式的Workfront體驗</a></p>
                         <p>優先順序可加強關注度與生產力，協助客戶在更短的時間內完成更多工作。</p>
                         <p>優先順序可讓您享受：</p>
                         <ul>

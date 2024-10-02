@@ -5,9 +5,9 @@ description: 優先順序是為任務所有者量身打造的簡化且直覺式�
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: fa7bb26215caba62edfbe8eabc15526427abd0b8
+source-git-commit: 08221eb867a052187138be5c51a8720bb095f31b
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '832'
 ht-degree: 3%
 
 ---
@@ -182,6 +182,7 @@ ht-degree: 3%
 
 ## 考量事項
 
+* Workfront管理員目前無法透過版面配置範本自訂優先順序。
 * 在優先順序中存取任務會跨越標籤。 我們計畫在未來新增其他標籤，例如檔案、子任務、核准等。 使用&#x200B;**提供意見反應**&#x200B;按鈕提交意見反應，讓我們知道您需要這些專案。
 
 
