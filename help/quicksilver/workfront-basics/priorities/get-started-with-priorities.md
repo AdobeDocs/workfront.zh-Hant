@@ -5,17 +5,15 @@ description: 優先順序是為任務所有者量身打造的簡化且直覺式�
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 08221eb867a052187138be5c51a8720bb095f31b
+source-git-commit: 4e2b59a93137e6b4cbe9dab0d4e6c1467bc0cc4b
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '883'
 ht-degree: 3%
 
 ---
 
 
 # 開始使用優先順序
-
-<span class="preview">優先順序將於2024年10月3日在「預覽」中提供</span>
 
 優先順序是為任務所有者量身打造的簡化且直覺式體驗。 優先順序將分階段推出，從工作清單開始。
 
@@ -118,6 +116,16 @@ ht-degree: 3%
 ## 處理任務和問題
 
 在「優先順序」中，您可以更新工作專案以保持工作專案詳細資訊最新、記錄時間以準確追蹤您的工作時間、上傳資產而無需導覽至專案，以及新增快速連結以輕鬆存取常用資源。
+
+>[!NOTE]
+>
+>輕量、檢閱、貢獻者和請求者授權對「優先順序」的存取權有限。 如需這些授權型別如何與任務和問題互動的詳細資訊，請參閱
+>
+>* [新授權的使用者存取物件與區域](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
+>* [可用於新存取層級之每個物件型別的功能](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
+>* [依照授權型別存取物件和區域](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
+>* [每個物件型別可用的功能](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
+
 
 ### 新增和檢視更新
 

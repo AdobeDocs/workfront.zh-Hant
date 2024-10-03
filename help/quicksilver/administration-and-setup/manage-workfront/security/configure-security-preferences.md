@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
+source-git-commit: 21c8c8d6aed7620dc2d7b99fd01c6be41f918eeb
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '905'
 ht-degree: 5%
 
 ---
@@ -128,8 +128,12 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
       <td>可讓您指定使用者是否預設會看到新首頁體驗。 啟用後，使用者預設將會看到新首頁體驗，但仍可依個人情況選擇啟用或停用新首頁。 停用時，使用者將不會看到可讓他們切換至新首頁的橫幅，但是，他們仍然可以透過在執行個體URL結尾手動輸入<code>/home/workspaces</code>來瀏覽至他們的新首頁。 此設定預設為啟用。</td> 
      </tr>
      <tr> 
+      <td role="rowheader">啟用優先順序工作清單 </td> 
+      <td>可讓您選擇為使用者啟用或停用優先順序工作清單體驗。 <!--Users will still see the Priorities icons in Workfront, but they will not have access to the functionality.-->如需優先順序的詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">開始使用優先順序</a>。</td> 
+     </tr>
+     <tr> 
       <td role="rowheader">測試環境</td> 
-      <td>可讓您存取Workfront測試環境。 如需詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Adobe Workfront預覽沙箱環境</a>。</p></td> 
+      <td>可讓您存取Workfront測試環境。 如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md">Adobe Workfront預覽沙箱環境</a>。</p></td> 
     </tbody> 
    </table>
 

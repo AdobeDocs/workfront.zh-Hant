@@ -4,9 +4,9 @@ description: 2024年第四季首頁增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
+source-git-commit: 0d2bb434b1b52ea175ad912c554b4aa07d5d2f7d
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
@@ -38,3 +38,15 @@ ht-degree: 0%
 如需詳細資訊，請參閱[開始使用優先順序](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md)
 
 [觀看此功能的影片示範](https://video.tv.adobe.com/v/3434848/){target=_blank}
+
+## 使用24.10取代舊版首頁體驗
+
+我們將正式淘汰24.10版本的舊版家用體驗。
+
+經過此變更後，配置範本中的&#x200B;_首頁和摘要_&#x200B;區域將重新命名為&#x200B;_摘要面板_。 此區域的自訂仍會套用至新首頁的「摘要」面板。 如需詳細資訊，請參閱[使用配置範本自訂首頁和摘要](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)。
+
+建議使用者開始使用新的首頁，在棄用之前，此首頁將繼續以其他功能來增強。 如需轉換的詳細資訊，包括使用者與管理員可以準備哪些工作的建議，請參閱[舊版首頁淘汰指南](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md)。
+
+>[!NOTE]
+>
+>舊版首頁被取代後，_新首頁_&#x200B;在Workfront中將稱為&#x200B;_首頁_。 所有&#x200B;_新首頁_&#x200B;檔案將重新命名為&#x200B;_首頁_。

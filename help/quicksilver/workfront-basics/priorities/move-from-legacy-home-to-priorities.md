@@ -5,17 +5,15 @@ description: 舊版首頁將於2017年第4季版本中從Workfront移除。 本�
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: e0eeb62dc1e29849258fa7b111ccce6480767812
+source-git-commit: 4e2b59a93137e6b4cbe9dab0d4e6c1467bc0cc4b
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '556'
 ht-degree: 3%
 
 ---
 
 
 # 從舊版首頁移至優先順序
-
-<span class="preview">優先順序將於2024年10月3日在「預覽」中提供</span>
 
 舊版首頁將於2017年第4季版本中從Workfront移除。 本文提供哪些功能可在「優先順序」中使用的資訊，以及Workfront管理員將使用者移至「優先順序」的建議。
 

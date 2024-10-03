@@ -8,14 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: 115757a829b92c13cb684369120e26602b9a1782
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '1006'
 ht-degree: 2%
 
 ---
 
 # 使用版面配置範本自訂首頁和摘要
+
+<span class="preview">在10月17日第四季發行中，從Workfront移除舊版首頁時，本文會重新命名為「使用版面配置範本自訂摘要面板」。 2024.</span>
 
 您可以使用版面配置範本來設定當使用者按一下首頁和摘要中的任務或問題時會看到的內容。 您使用下列步驟進行的每個設定都會以相同方式影響「首頁」區域和「摘要」面板。 這些自訂不適用於「檔案摘要」面板。
 
