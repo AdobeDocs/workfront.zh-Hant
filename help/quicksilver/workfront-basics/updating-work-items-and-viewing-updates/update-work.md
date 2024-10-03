@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront物件（專案、任務或問題）上�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '3007'
+source-wordcount: '3037'
 ht-degree: 0%
 
 ---
@@ -130,12 +130,19 @@ ht-degree: 0%
 
    * 從Workfront物件，在更新區段（專案、任務和問題）
    * 從首頁區域（用於任務和問題）
+
+     如需詳細資訊，請參閱[使用「我的工作」Widget](/help/quicksilver/workfront-basics/using-home/new-home/my-work-widget.md)管理您的工作。
    * 從「摘要」面板的下列區域（針對任務、問題和檔案）：
 
       * 物件清單
       * 時程表
       * 首頁
       * 工作負載平衡器
+
+     如需詳細資訊，請參閱下列文章：
+
+      * [摘要概觀](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+      * [使用摘要更新工作負載平衡器中的工作項](/help/quicksilver/resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
 
 <!--info for April 11: hide the section below: add an update to a work item-->
 

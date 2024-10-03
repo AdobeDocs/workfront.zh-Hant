@@ -9,9 +9,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1071'
 ht-degree: 1%
 
 ---
@@ -35,6 +35,8 @@ ht-degree: 1%
 >新評論體驗的Beta版計畫從2023年4月開始，於2023年10月結束，並於2023年10月發行。
 >
 >自2024年4月11日起，所有客戶都可在生產環境中使用新評論體驗的所有功能。
+>
+> 先前評論體驗已從Workfront中移除。
 
 ## 功能
 
@@ -47,7 +49,7 @@ ht-degree: 1%
 * 將新註解新增至物件時的即時指示器
 * 在提交評論後進行編輯
 
-下列功能已移除或將從新體驗中棄用：
+下列功能已從新體驗中移除：
 
 * 在系統更新上加上註解。 過去新增至系統更新的註解已在新的「系統活動」標籤中匯入為唯讀註解。
 * 可在評論任務和問題時編輯狀態、條件、認可日期和完成百分比。
@@ -85,13 +87,10 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td><strong>存在於新的註解體驗</strong>中
    </td>
-   <td><strong>將被引入新的評論體驗</strong>
+
+<td><strong>引入新評論體驗</strong>
    </td>
-   <td><strong>何時將引進新的評論體驗</strong>
-   </td>
-   <td><strong>正在研究</strong>
-   </td>
-  </tr>
+   </tr>
   <tr>
    <td>建立/讀取/回覆/刪除註解 
    </td>
@@ -99,13 +98,11 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   </td>
    <td>✓ (A) 
    </td>
-   <td> 
+
+<td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
    <td>RTF文字（不包括引號和emoji）
    </td>
@@ -113,12 +110,10 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td>✓ (A)
    </td>
-   <td> 
+
+<td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
+   &gt;
   </tr>
 
 <tr>
@@ -130,11 +125,8 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
 
 <tr>
    <td>RTF文字（區塊引號）
@@ -143,13 +135,10 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> ✓ (A)
    </td>
-   <td> 
+    <td> 2023年第2季
    </td>
-   <td> 2023年第2季
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
 <tr>
    <td> 報價註解
@@ -158,13 +147,10 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> ✓ (A)
    </td>
-   <td> 
-   </td>
    <td> 2023年第2季
    </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
    <td>對評論做出反應（類似） 
    </td>
@@ -174,11 +160,8 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
    <td>將影像附加至註解 
    </td>
@@ -186,13 +169,10 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td>✓ (A) 
    </td>
-   <td> 
+      <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
    <td>在評論中標籤人員 
    </td>
@@ -202,11 +182,8 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
    <td>移除執行緒參與者
    </td>
@@ -216,23 +193,13 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
   </tr>
-
-
-<tr>
+  <tr>
    <td>自動標籤所有執行緒參與者
    </td>
    <td> 
    </td>
    <td>✓ (A)
-   </td>
-   <td> 
-   </td>
-   <td> 
    </td>
    <td> 
    </td>
@@ -247,10 +214,6 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
   </tr>
   <tr>
    <td>還原評論的張貼 
@@ -259,11 +222,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td>已取代為編輯註解 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
+     <td> 
    </td>
   </tr>
   <tr>
@@ -275,11 +234,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
   <tr>
    <td>編輯評論 
    </td>
@@ -289,11 +244,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
   <tr>
    <td>離開頁面時儲存註解草稿 
    </td>
@@ -303,21 +254,13 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
   <tr>
    <td>即時檢視新註解（包括刪除註解時檢視）
    </td>
    <td> 
    </td>
    <td>✓ (A)
-   </td>
-   <td> 
-   </td>
-   <td> 
    </td>
    <td> 
    </td>
@@ -331,10 +274,6 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
   </tr>
     <tr>
    <td>複製對話連結 
@@ -343,11 +282,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 已取代為複製連結
    </td>
-   <td> 
-   </td>
    <td>2023年第2季 
-   </td>
-   <td> 
    </td>
   </tr>
   <tr>
@@ -359,11 +294,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
   <tr>
    <td>報價註解文字 
    </td>
@@ -371,13 +302,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td>✓ (A)
    </td>
-   <td> 
+  <td>2023年第2季 
    </td>
-   <td>2023年第2季 
-   </td>
-   <td> 
-   </td>
-  </tr>
+   </tr>
   <tr>
    <td>複製本文 
    </td>
@@ -385,13 +312,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> ✓ (A)
    </td>
-   <td> 
-   </td>
    <td>
    </td>
-   <td> 
-   </td>
-  </tr>
+   </tr>
     <tr>
    <td>在評論中搜尋 
    </td>
@@ -399,13 +322,10 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> ✓ (A)
    </td>
-   <td> 
-   </td>
    <td>2024年第1季度 
    </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
 
 <tr>
    <td>在註解中複製並貼上影像
@@ -414,13 +334,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> ✓ (A)
    </td>
-   <td> 
-   </td>
    <td>2024年第1季度 
    </td>
-   <td> 
-   </td>
-  </tr>
+     </tr>
 
 <tr>
    <td>在註解中拖放影像
@@ -429,22 +345,14 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> ✓ (A)
    </td>
-   <td> 
-   </td>
    <td>2024年第1季度 
    </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
 
 <tr>
    <td>編輯自訂表單 
    </td>
    <td>✓ (A) 
-   </td>
-   <td> 
-   </td>
-   <td> 
    </td>
    <td> 
    </td>
@@ -460,10 +368,6 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td>
-   </td>
   </tr>
 <tr>
    <td>回覆系統更新 
@@ -472,11 +376,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
    <td>
-   </td>
-   <td> 
    </td>
   </tr>
 <tr>
@@ -486,11 +386,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> ✓ (A)
    </td>
-   <td> 
-   </td>
    <td>
-   </td>
-   <td> 
    </td>
   </tr>
 
@@ -499,13 +395,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> ✓ (A)
    </td>
-   <td> 日後可能會發行
-   </td>
    <td> 
    </td>
-   <td>
-   </td>
-   <td> ✓ (A)
+   <td> 
    </td>
   </tr>
 </table>
@@ -519,41 +411,41 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 >如需管理Workfront物件更新的詳細資訊，請參閱[更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
 
-以下是新註解體驗發行至生產環境的計畫時間表，其中包含關鍵里程碑。 除了下列里程碑，我們將繼續透過較小的增強功能改善評論體驗。
+以下資訊說明向生產環境發佈新評論體驗的時間表及重要里程碑。 除了下列里程碑，我們將繼續透過較小的增強功能改善評論體驗。
 
-如需有關Beta版結束後針對新評論體驗所發行功能的資訊，請參閱目前的版本概觀頁面。
+如需有關Beta版結束後針對新評論體驗所發行功能的資訊，請參閱目前的版本概觀頁面。 如需詳細資訊，請參閱[產品版本](/help/quicksilver/product-announcements/product-releases/product-releases.md)。
 
 以下是新評論體驗發行的計畫時間表：
 
 * 第23.2發行版本（2023年4月6日）：
-   * 啟動問題的評論體驗Beta
-   * 發佈目標的新評論體驗（作為唯一體驗）
+   * 推出問題的Beta評論體驗
+   * 發佈新的目標評論體驗（作為唯一體驗）
 * 第23.3發行版本（2023年7月20日）：
-   * 啟動專案、任務和檔案的評論體驗Beta 。
-   * 針對展示板區域中的卡片發行新的註解體驗（作為唯一體驗）
+   * 為專案、任務和檔案啟動評論體驗Beta 。
+   * 已針對面板區域中的卡片發行新的註解體驗（作為唯一體驗）
 * 在2023年第四季版本（限量版，僅供選擇快速版本的客戶使用）：
-   * 發行新的範本、範本任務、計畫、投資組合、團隊、使用者和時程表的評論體驗（作為唯一體驗）
-   * 更新專案、任務、問題和檔案的評論體驗Beta ，使其成為預設選項。 「Beta」標籤已移除。
+   * 發行新的範本、範本任務、計畫、投資組合、團隊、使用者和時程表的註解體驗（作為唯一體驗）
+   * 更新專案、任務、問題和檔案的註釋體驗Beta ，成為預設選項。 已移除「Beta」標籤。
 * 2023年第四季(23.10)版本（2023年10月26日）
-   * 發行新的範本、範本任務、計畫、投資組合、團隊、使用者和時程表的評論體驗（作為唯一的體驗）給所有客戶。
+   * 針對所有客戶的範本、範本任務、計畫、產品組合、團隊、使用者和時程表發佈新的評論體驗（作為唯一體驗）。
    * 將專案、任務、問題和檔案的新註解體驗設為預設選項。
 
   >[!IMPORTANT]
   >
-  >    這將為全新評論體驗的Beta階段畫上句號。
+  >    這結束了新評論體驗的Beta階段。
 
-   * 自此日期開始針對新評論體驗發佈的所有功能，都是目前定期每月和季度發佈的一部分。
+   * 自此日期起針對新評論體驗發佈的所有功能成為目前定期每月和季度發佈的一部分。
 * 2023年底：
-   * 將舊版註釋體驗保留為下列物件的次要選項：專案、任務、問題和檔案。 新的註解體驗是這些物件之所有使用者的預設選項。
+   * 保留舊版註釋體驗作為下列物件的次要選項：專案、任務、問題和檔案。 新的註解體驗是這些物件之所有使用者的預設選項。
    * 讓新的註解體驗成為所有其他物件的唯一體驗。
-
-  >[!NOTE]
-  >
-  >    反複專案將繼續擁有舊版評論體驗。 新的註解體驗將不可用於反複專案。
 
 * 2024年第二季發行版本（2024年4月11日）：
 
-  移除切換回舊版註解資料流的選項，並讓新註解資料流成為所有物件的唯一體驗。
+  移除切換回舊版註解資料流的選項，並使新註解資料流成為所有物件的唯一體驗。
+
+* 2024年10月3日：
+
+  移除「更新」區域中的「留下回饋」按鈕。
 
 ## 找出新的註解體驗
 

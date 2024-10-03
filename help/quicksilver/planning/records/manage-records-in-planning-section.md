@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 64a8d2ff8546874cf829738dcea03b2946c360cb
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '797'
 ht-degree: 1%
 
 ---
@@ -110,14 +110,16 @@ ht-degree: 1%
 
 ## 關於Workfront物件Planning區段的考量事項
 
-* Workfront Planning記錄型別必須連線至Workfront物件型別。
+當您從Workfront物件的Planning區段檢視Workfront Planning記錄時，請考量下列事項：
+
+* Workfront Planning記錄型別必須先連線至Workfront物件型別。
 
   如需詳細資訊，請參閱下列文章：
 
    * [連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)
    * [連接記錄](/help/quicksilver/planning/records/connect-records.md)
-* 即使沒有與Workfront物件相關聯的記錄，您仍可以在Workfront物件中檢視Planning區段。
-* 當至少有一筆記錄連線至Workfront物件時，您可以在Planning區段中，將Planning記錄與Workfront的Workfront物件連線。
+* 您可以從Workfront物件檢視Planning區段，即使沒有與Workfront物件相關聯的記錄亦然。
+* 除了從Workfront的Planning區域連線Workfront物件之外，您還可以從Planning區段將Planning記錄與Workfront的Workfront物件連線。
 
 ## 管理Planning區段中的記錄
 
@@ -131,6 +133,10 @@ ht-degree: 1%
 1. 在表格檢視或記錄的詳細資訊頁面中，移至與Workfront物件有連線的已連線記錄欄位。 如需詳細資訊，請參閱[連線記錄](/help/quicksilver/planning/records/connect-records.md)。
 1. 在連線的記錄欄位中按一下Workfront物件的名稱。
 物件的頁面會在Workfront中開啟。
+
+   >[!NOTE]
+   >
+   >  如果您知道Workfront物件已連線至Planning記錄，則可以從Workfront物件導覽至Planning區段。
 
 1. 按一下左側面板中的&#x200B;**規劃**。
 
@@ -152,7 +158,7 @@ ht-degree: 1%
 1. 按一下記錄卡以顯示有關記錄的更多資訊。 記錄預覽方塊隨即顯示。
 1. （選用）開始修改記錄預覽方塊中的欄位。 您的變更會自動儲存。
 1. （選擇性）按一下預覽方塊右上角的&#x200B;**在新索引標籤中開啟**&#x200B;圖示![](assets/open-details-in-a-new-tab-icon.png)以開啟記錄的詳細資訊頁面。 記錄的詳細資訊頁面會在Workfront Planning中開啟。
-1. 將游標停留在記錄卡上，然後按一下中斷連線記錄圖示&#x200B;**-**，然後按一下&#x200B;**中斷連線**。
+1. （選擇性）將游標停留在記錄卡上，然後按一下中斷連線記錄圖示&#x200B;**-**，然後按一下&#x200B;**中斷連線**。
 會發生下列情況：
    * 記錄不再連線至Workfront物件。
    * Workfront物件也會從Workfront Planning的記錄連線欄位中移除。

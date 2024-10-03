@@ -6,14 +6,16 @@ description: 您可以更新任務的狀態，以通知其他人該任務在何�
 author: Alina
 feature: Work Management
 exl-id: e1efc676-e110-486e-91dc-f521421575e8
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '648'
 ht-degree: 1%
 
 ---
 
 # 更新任務狀態
+
+<!--Audited: 10/2024-->
 
 您可以更新任務的狀態，以通知其他人該任務在何處（以及整個專案）及其進行方式。
 
@@ -22,6 +24,8 @@ ht-degree: 1%
 您可以手動更新任務狀態，也可以讓Workfront在某些動作發生時自動更新。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能手動更新任務：
 
@@ -51,7 +55,9 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。 如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 更新任務狀態的注意事項
 

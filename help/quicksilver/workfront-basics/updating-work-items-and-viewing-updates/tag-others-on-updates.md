@@ -1,14 +1,14 @@
 ---
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
-title: 標籤其他人的更新
+title: 標籤其他更新的專案
 description: 在Adobe Workfront物件上提供更新註解時，專案上的所有使用者都可以看到提交的資訊。 不過，有時候，不在專案中的使用者可以從檢視此資訊中獲益。 您可以在更新中標籤這些使用者，以便與他們共用，而不將他們包含在專案中。 標籤的使用者會收到事件通知。
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '1008'
 ht-degree: 0%
 
 ---
@@ -55,6 +55,8 @@ ht-degree: 0%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto">
@@ -82,6 +84,8 @@ ht-degree: 0%
 </table>
 
 *若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。 如需詳細資訊，請參閱[Workfront檔案的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 標籤其他人的更新
 

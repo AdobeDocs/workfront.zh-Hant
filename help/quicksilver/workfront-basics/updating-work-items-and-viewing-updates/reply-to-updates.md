@@ -1,16 +1,16 @@
 ---
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
-title: 回覆更新內容
+title: 回覆更新
 description: 當有人在工作物件上新增或回覆更新時，他們的回覆會出現在物件「更新」區段的通訊系線中。 如果您擁有物件的「檢視」存取權，則可以將回覆新增至更新或「讚」。
 author: Nolan and Alina
 feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '736'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,8 @@ ht-degree: 0%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
@@ -80,6 +82,8 @@ ht-degree: 0%
 </table>
 
 *若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。 如需詳細資訊，請參閱[Workfront檔案的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 在Workfront中回覆更新或回覆
 

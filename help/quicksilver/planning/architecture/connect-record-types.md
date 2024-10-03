@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 969f7c609afcc0029fa9ba054de113904a10917b
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '2197'
+source-wordcount: '2196'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 <!--
 You can use Adobe Workfront Planning to design fully-customizable workspaces that contain record types needed in your organization. A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Workfront Planning record types with object types from other applications to enhance your users' experience and keep their focus in one application. -->
 
-您可以將記錄型別連結到其他應用程式，或使用其他應用程式的物件型別來記錄型別。
+您可以將記錄型別彼此連線，也可以將記錄型別與其他應用程式的物件型別連線。
 
 本文說明如何將兩個Workfront Planning記錄型別或Workfront Planning記錄型別與其他應用程式的物件連線。
 
@@ -183,7 +183,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
 1. 在&#x200B;**記錄型別**&#x200B;欄位中，搜尋記錄型別，或選取下列其中一項：
 
-   * 來自您選取之工作區的另一個記錄型別
+   * 來自目前工作區的另一個記錄型別
 
      <span class="preview">![](assets/many-to-many-connection-picker.png)</span>
      >[!TIP]
@@ -198,7 +198,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
      >[!TIP]
      >
-     >如果沒有已設定為可從其他工作區連線的記錄型別，工作區區段就不會顯示。
+     >如果沒有記錄型別被設定為從其他工作區連線，則工作區區段不會顯示。
 
 
    * 來自&#x200B;**Workfront物件型別**&#x200B;區段的&#x200B;**專案、Portfolio、方案、公司**&#x200B;或&#x200B;**群組**。
@@ -218,7 +218,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    >您可以有多個連線連線到相同的記錄或物件型別。 如果您不編輯已連線的欄位名稱，Workfront會在已連線記錄的名稱后新增一個數字，以表示相同名稱的已連線記錄型別數目。
 
    * **描述**：有關連線記錄欄位的額外資訊。 當您將滑鼠游標停留在表格中的欄位欄位上時，會顯示欄位說明。
-   * **允許多筆記錄**：選取此選項表示當連結的記錄型別欄位顯示在原始記錄上時，您可以允許使用者新增多筆記錄。 依預設會選取此選項。
+   * **允許多筆記錄**：選取此選項以表示當連結的記錄型別欄位顯示在原始記錄上時，允許使用者新增多筆記錄。 依預設會選取此選項。
 
      只有在連線來自兩個不同工作區的記錄或記錄和Adobe Experience Manager資產物件時，才能使用此選項。
 
@@ -237,7 +237,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
      如需連線型別的詳細資訊，請參閱[連線記錄型別概觀](/help/quicksilver/planning/architecture/connect-record-types-overview.md)。
 
-   * **選取查詢欄位**：選取此選項以從選取的記錄型別新增欄位。 查閱欄位是與您要連結的記錄或物件型別相關聯的欄位。 連結它們會顯示您連結的記錄或物件在您所連結的記錄上的資訊。 依預設會選取此選項。
+   * **選取查詢欄位**：選取此選項以從選取的記錄型別新增欄位。 查閱欄位是與您要連結的記錄或物件型別相關聯的欄位。 連結它們會顯示您連結的記錄或物件在您連結的記錄上的資訊。 依預設會選取此選項。
 
      >[!TIP]
      >
@@ -305,7 +305,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
    * 記錄會依每個欄位值的唯一組合分組
 
-   * 時間表檢視是根據第一個日期值建置。
+   * 時間表檢視是根據第一個日期值建置
 
    >[!IMPORTANT]
    >
@@ -353,11 +353,11 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
      `<Name of the original field on the linked record> (from <Name of your linked field>)`
 
-     例如，如果您連結的行銷活動記錄型別具有「方案」記錄型別，並將方案連結記錄欄位命名為「方案資訊」，然後選取還要在行銷活動表格檢視中顯示「方案」的「預算」欄位，則連結的欄位在行銷活動表格檢視中會自動命名為`Budget (from Program information)`。
+     例如，如果您連結的行銷活動記錄型別具有方案記錄型別，並將方案連結記錄欄位命名為「方案資訊」，然後選取此選項以在行銷活動表格檢視中同時顯示方案的預算欄位，則連結的欄位在行銷活動表格檢視中會自動命名為`Budget (from Program information)`。
 
    * 當您將記錄型別連結到彼此時，連結的記錄欄位也會新增到您連結到的記錄型別上。 連結的記錄型別上連結的記錄欄位名稱是您連結的記錄型別名稱。
 
-     例如，如果您從「行銷活動」記錄型別連結「產品」記錄型別，並將行銷活動的已連線欄位命名為「連結的產品」，則會為「產品」記錄型別建立「行銷活動」連結記錄欄位。
+     例如，如果您從「促銷活動」記錄型別連結「產品」記錄型別，並命名促銷活動「連結的產品」的已連線欄位，則會為「產品」記錄型別建立「促銷活動」連結記錄欄位。
 
      >[!TIP]
      >
@@ -365,7 +365,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
 1. （選擇性和條件性）在原始記錄型別或連結記錄型別表格檢視中，按一下連結記錄欄位標題中的向下箭頭，然後按一下下列其中一項：
 
-   * **編輯欄位**：您可以更新欄位的&#x200B;**名稱**&#x200B;和&#x200B;**描述**&#x200B;資訊。
+   * **編輯欄位**：更新欄位的&#x200B;**名稱**&#x200B;和&#x200B;**描述**&#x200B;資訊。
    * **編輯查閱欄位**：新增或移除任何連結記錄的欄位。
 
    ![](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)

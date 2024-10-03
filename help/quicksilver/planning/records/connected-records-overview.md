@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
+source-git-commit: 64a8d2ff8546874cf829738dcea03b2946c360cb
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
-
 
 # 連線記錄概觀
 
@@ -30,9 +30,9 @@ ht-degree: 0%
 * 您可以從連結記錄欄位中瀏覽並新增連結記錄的記錄和物件以及物件型別。
 * 您可以在連結的記錄型別表格中，新增連結的記錄型別的欄位（查詢欄位）。
 
-  您可以在要連結的記錄型別表格中，新增您要連結之記錄型別的欄位（查詢欄位）。
+  此外，您也可以在您連結的記錄型別表格中，新增您正在連結的記錄型別的欄位（查詢欄位）。
 
-  例如，如果您從促銷活動的記錄型別連結產品的記錄型別，您可以顯示促銷活動的產品欄位，以及產品的促銷活動欄位。
+  例如，如果您從促銷活動的記錄型別連結產品的記錄型別，則可以顯示促銷活動的產品欄位，以及產品的促銷活動欄位。
 * 您無法手動更新您連結之記錄中的查閱欄位值。
 
   查詢欄位的值會在原始記錄或物件上更新後，自動填入您正在連結的Workfront Planning記錄。
@@ -54,4 +54,3 @@ ht-degree: 0%
 * 您可以在下列區域將Workfront物件連線至Workfront Planning記錄：
 
    * 從Workfront物件的Planning區段。
-
