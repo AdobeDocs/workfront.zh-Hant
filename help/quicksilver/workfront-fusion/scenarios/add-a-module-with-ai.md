@@ -9,9 +9,9 @@ feature: Workfront Fusion
 hide: true
 hidefromtoc: true
 exl-id: 899641a0-a104-4be9-b423-34a32e985b53
-source-git-commit: 7013c8a88f047c5c8e769a4d7b71f2033c767b4a
+source-git-commit: 5de5b96bc74ce9b819acfa7b5f16652509ccade1
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
@@ -58,14 +58,14 @@ Fusion AI目前可以產生連線到以下應用程式的模組：
 
    按一下案例編輯器頁面底部附近的「使用AI產生」圖示![使用AI產生](assets/generate-with-ai-icon-beta.png)。
 
-   該AI助理面板隨即開啟。
+   AI助理面板隨即開啟。
 1. 在方塊中輸入文字提示。
 
    如需提示的相關提示，請參閱本文中的[建立文字提示的提示](#tips-for-creating-text-prompts)。
 
-   模組或模組集隨即產生。
+   AI助理會產生模組或模組集。
 1. （視條件而定）如有需要，請將應用程式的API Token新增至模組。
-1. 檢查模組，確保針對適當的應用程式和動作來設定它們。
+1. 檢查模組，確定模組已針對適當的應用程式和動作進行設定。
 1. （視條件而定）如果產生的案例區段未附加至您的案例，請將其拖曳至適當位置。
 
 我們建議測試這些模組，以確保它們按預期執行。
