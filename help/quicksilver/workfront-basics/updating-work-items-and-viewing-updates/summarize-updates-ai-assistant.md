@@ -1,31 +1,24 @@
 ---
-title: 使用AI助理摘要
-content-type: reference
-description: 您可以使用「摘要」這項功能，快速摘要工作專案和檔案。
+product-area: projects
+navigation-topic: update-work-items-and-view-updates
+title: 使用AI助理概述更新
+description: 「更新」是物件的內容，其中包含使用AI助理來摘要更新的按鈕。
 author: Becky
 feature: Get Started with Workfront
-exl-id: b7d4d9a5-cdc5-43a6-a58f-57480f702034
-source-git-commit: bec1318d83938964697d76b83062ef11745802e3
+source-git-commit: 11e7a376719e52db3f5e98afff44cb4b4d07db01
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 1%
+source-wordcount: '401'
+ht-degree: 0%
 
 ---
 
-# 使用AI助理摘要
+# 使用AI助理概述更新
+
+Workfront的AI助理可以摘要更新資料流的內容，讓您快速了解圍繞Workfront物件發生的評論和討論。
+
+您可以使用「摘要內容」按鈕來產生摘要，也可以在AI小幫手中輸入提示。
 
 <span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽Sandbox」環境中使用。</span>
-
-Workfront的AI助理可以摘要某些物件，讓您以高階檢視檢視物件的意圖或詳細資訊。
-
-例如，如果您要求AI助理摘要專案，它會傳回專案用途和狀態的簡短描述、提供已完成和仍在擱置中的任務範例，並提供一些其他詳細資訊和附註。
-
-AI助理可以總結下列物件：
-
-* 專案
-* 任務
-* 問題
-* 文件
 
 >[!NOTE]
 >
@@ -69,18 +62,12 @@ AI助理可以總結下列物件：
 
 <div class="preview">
 
-## 使用「摘要」按鈕摘要
+## 使用「摘要內容」按鈕摘要
 
-下列區域有使用AI助理產生摘要的按鈕：
+1. 導覽至您要摘要的更新流。
+1. 按一下&#x200B;**摘要內容**&#x200B;按鈕。
 
-* 專案標題：專案摘要
-* 更新區域：摘要內容
-
-若要使用「專案摘要」或「摘要內容」按鈕：
-
-1. 按一下按鈕。
-
-   AI助理隨即開啟，並出現提示以摘要專案或更新流上過去7天的評論。
+   AI助理隨即開啟，並出現提示，摘要更新資料流上過去7天的註解。
 
    AI Assistant可能需要一些時間才能產生摘要，端視物件的大小或複雜程度而定。
 

@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: ada8aa9f72b57d6008473c6d9dcc17765d8656c4
+source-git-commit: a2810eae52a0392107a214967e50a662239e1e5f
 workflow-type: tm+mt
-source-wordcount: '14445'
+source-wordcount: '14455'
 ht-degree: 2%
 
 ---
@@ -925,6 +925,7 @@ ht-degree: 2%
       * [標籤其他人的更新](workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
       * [在備註報告中檢視所有更新](workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
       * [處理它並完成按鈕總覽](workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)
+      * [使用AI助理概述更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/summarize-updates-ai-assistant.md)
    * 使用自訂表單{#work-with-custom-forms}
       * [使用自訂表格](workfront-basics/work-with-custom-forms/work-with-custom-forms.md)
       * [新增自訂表單至物件](workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)
@@ -1246,6 +1247,7 @@ ht-degree: 2%
          * [在敏捷檢視中管理專案](manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
          * [專案量度概觀](manage-work/projects/manage-projects/project-metrics.md)
          * [專案限制總覽](manage-work/projects/manage-projects/project-maximums.md)
+         * [使用AI助理概述更新](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)
       * 建立和管理專案範本 {#create-and-manage-project-templates}
          * [建立及管理專案範本：文章索引](manage-work/projects/create-and-manage-templates/create-manage-templates.md)
          * [專案範本概觀](manage-work/projects/create-and-manage-templates/project-template-overview.md)

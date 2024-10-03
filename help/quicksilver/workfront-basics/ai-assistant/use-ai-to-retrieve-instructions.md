@@ -5,10 +5,10 @@ description: 您可以使用「摘要」這項功能，快速摘要工作專案�
 author: Becky
 feature: Get Started with Workfront
 exl-id: c7460e8f-a7ae-415a-8db0-29736e8be0f8
-source-git-commit: 09c05db7c6a5db7db74dd95ca323415f4318489d
+source-git-commit: bec1318d83938964697d76b83062ef11745802e3
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 0%
+source-wordcount: '297'
+ht-degree: 1%
 
 ---
 
@@ -42,6 +42,15 @@ AI Assistant可以從Workfront檔案中尋找資訊，讓您無須造訪Adobe Ex
 </table>
 
 如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
+## 先決條件
+
+* 您的Workfront管理員必須為貴組織啟用AI助理。
+
+  如需詳細資訊，請參閱AI助理總覽一文中的[ AI助理的必要條件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
+* 您的Workfront管理員必須為您的存取層級啟用AI助理。
+
+  如需詳細資訊，請參閱[啟用或停用AI助理](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)。
 
 ## 從AI助理取得資訊
 

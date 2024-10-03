@@ -1,31 +1,24 @@
 ---
-title: 使用AI助理摘要
-content-type: reference
-description: 您可以使用「摘要」這項功能，快速摘要工作專案和檔案。
+product-area: projects
+navigation-topic: update-work-items-and-view-updates
+title: 使用AI助理摘要專案
+description: 專案標題包含使用AI助理來摘要專案的按鈕。
 author: Becky
 feature: Get Started with Workfront
-exl-id: b7d4d9a5-cdc5-43a6-a58f-57480f702034
 source-git-commit: bec1318d83938964697d76b83062ef11745802e3
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '389'
 ht-degree: 1%
 
 ---
 
-# 使用AI助理摘要
+# 使用AI助理概述更新
+
+Workfront的AI助理可以彙總專案，讓您快速瞭解專案用途和狀態等專案資訊，提供已完成和仍在擱置中的任務範例，並提供一些其他詳細資訊和附註。
+
+您可以使用「專案摘要」按鈕來產生摘要，也可以在「AI小幫手」中輸入提示。
 
 <span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽Sandbox」環境中使用。</span>
-
-Workfront的AI助理可以摘要某些物件，讓您以高階檢視檢視物件的意圖或詳細資訊。
-
-例如，如果您要求AI助理摘要專案，它會傳回專案用途和狀態的簡短描述、提供已完成和仍在擱置中的任務範例，並提供一些其他詳細資訊和附註。
-
-AI助理可以總結下列物件：
-
-* 專案
-* 任務
-* 問題
-* 文件
 
 >[!NOTE]
 >
@@ -53,6 +46,13 @@ AI助理可以總結下列物件：
        <p>或</p>
        <p>目前：無法使用</p></td>
   </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td><p>新增：標準</p>
+       <p>或</p>
+       <p>目前：無法使用</p></td>
+  </tr> 
+ </tbody> 
  </tbody> 
 </table>
 
@@ -67,27 +67,21 @@ AI助理可以總結下列物件：
 
   如需詳細資訊，請參閱[啟用或停用AI助理](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)。
 
+
+
 <div class="preview">
 
-## 使用「摘要」按鈕摘要
+## 使用專案摘要按鈕摘要
 
-下列區域有使用AI助理產生摘要的按鈕：
+1. 導覽至您要摘要的更新流。
+1. 按一下&#x200B;**專案摘要**&#x200B;按鈕。
 
-* 專案標題：專案摘要
-* 更新區域：摘要內容
-
-若要使用「專案摘要」或「摘要內容」按鈕：
-
-1. 按一下按鈕。
-
-   AI助理隨即開啟，並出現提示以摘要專案或更新流上過去7天的評論。
+   AI助理隨即開啟，並出現摘要專案的提示。
 
    AI Assistant可能需要一些時間才能產生摘要，端視物件的大小或複雜程度而定。
 
 1. 在AI助理面板中檢視AI摘要。
 1. （選擇性）調整提示，確保提供您所需的資訊。
-
-   例如，您可以調整「摘要內容」提示，以摘要過去14天（而不是過去7天）的評論。
 
    </div>
 
