@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
-source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
+source-git-commit: 4f7e664123785235179418faa2a630e3c4c1c4d0
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '480'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,18 @@ ht-degree: 0%
 此頁面說明2024年第四季版本對「預覽」環境所做的所有管理員增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2024年第四季版本週期目前可用的所有變更清單，請參閱[2024年第四季版本概觀](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)。
+
+## 自訂表單上的計數器會顯示欄位數
+
+>[!NOTE]
+>
+>預覽版本： 2024年10月1日；適用於所有客戶的生產版本：搭配24.10版（2024年10月17日）
+
+自訂表單限製為500個欄位。 在長表格中，可能很難知道表格中有多少欄位，以及您是否接近上限。
+
+在左下方的自訂表單中新增了計數器。 計數器會顯示表單上使用的欄位數，當您在表單設計工具中捲動時，它始終可見。
+
+如需詳細資訊，請參閱[使用表單設計工具](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)設計表單。
 
 ## 版面配置範本中現在提供「全選」選項
 

@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: a3b172a40dc539504da356f37377d2332edad4dc
+source-git-commit: 4f7e664123785235179418faa2a630e3c4c1c4d0
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '2017'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,7 @@ ht-degree: 0%
 ## Adobe Workfront增強功能
 
 * [管理員增強功能](#administrator-enhancements)
+* [檔案管理增強功能](#document-management-enhancements)
 * [整合增強功能](#integration-enhancements)
 * [首頁增強功能](#home-enhancements)
 * [專案增強功能](#project-enhancements)
@@ -46,8 +47,8 @@ ht-degree: 0%
 ### 管理員增強功能
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -57,6 +58,22 @@ ht-degree: 0%
                     <td>
                         <p><span class="bold">發行日期</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">自訂表單上的計數器會顯示欄位數</a></p>
+                        <p>自訂表單限製為500個欄位。 在長表格中，可能很難知道表格中有多少欄位，以及您是否接近上限。 在左下方的自訂表單中新增了計數器。 計數器會顯示表單上使用的欄位數，當您在表單設計工具中捲動時，它始終可見。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2024年10月1日</p>
+                            </li>
+                            <li>
+                                <p>適用於所有客戶的生產版本：24.10版本（2024年10月17日）</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
@@ -117,13 +134,68 @@ ht-degree: 0%
                     </td>
                 </tr>
            </tbody>
-        </table>
+</table>
+
+### 檔案管理增強功能
+
+>[!IMPORTANT]
+>
+>**檔案管理增強功能**&#x200B;中列出的功能屬於分階段發行，僅供特定客戶使用。
+
+<table>
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">功能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">發行日期</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-document-mgmt-enhancements.md">直接在檔案清單中檢視檔案決定狀態</a></p>
+                        <p>您現在可以直接在檔案清單中檢視檔案的決定狀態。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2024年10月3日</p>
+                            </li>
+                            <li>
+                                <p>適用於所有客戶的生產版本：24.10版本（2024年10月17日）</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-document-mgmt-enhancements.md">快速將先前的稽核者和核准者新增至新檔案版本</a></p>
+                        <p>您現在可以從先前的檔案版本快速新增稽核者和核准者。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2024年10月3日</p>
+                            </li>
+                            <li>
+                                <p>適用於所有客戶的生產版本：24.10版本（2024年10月17日）</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+</table>
 
 ### 整合增強功能
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -153,13 +225,13 @@ ht-degree: 0%
                     </td>
                 </tr>
            </tbody>
-        </table>
+</table>
 
 ### 首頁增強功能
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -194,14 +266,14 @@ ht-degree: 0%
                     </td>
                 </tr>
            </tbody>
-        </table>
+</table>
 
 
 ### 專案增強功能
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -254,13 +326,13 @@ ht-degree: 0%
                     </td>
                 </tr>
            </tbody>
-        </table>
+</table>
 
 ### 校訂增強功能
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -275,6 +347,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">案頭校訂檢視器的複製/貼上問題修正</a></p>
+                        [！BADGE In Production ]{type=Informative}
                         <p>我們已修正「案頭校樣」檢視器的「更新」區段中內容貼錯的問題。</p>
                         <p>新版本：2.1.39</p>
                     </td>
@@ -325,13 +398,13 @@ ht-degree: 0%
                     </td>
                 </tr>
            </tbody>
-        </table>
+</table>
 
 ### 報表與控制面板增強功能
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -351,21 +424,37 @@ ht-degree: 0%
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
                             <li>
-                                <p><span class="preview">適用於所有客戶的生產版本：24.10版本（2024年10月17日）</span></p>
+                                <p>適用於所有客戶的生產版本：24.10版本（2024年10月17日）</p>
                             </li>
                         </ul>
                         <p><i>僅適用於其中一個新Adobe Workfront計畫的組織。 Data Connect包含在Ultimate計畫中，或可作為Prime和Select計畫的附加元件購買。</i></p>
                     </td>
                 </tr>
            </tbody>
-        </table>
+</table>
 
 ### 其他增強功能
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">按一下即可摘要專案或更新</a></p>
+                        <p>為了更方便快速檢視專案或更新資料流的摘要，我們將「摘要」按鈕新增到Workfront的這些區域。 現在，您可以按一下按鈕以在AI助理中產生摘要。</p><p>之前，使用者可以開啟AI助理並輸入提示以建立專案摘要或更新資料流。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2024年10月3日</p>
+                            </li>
+                            <li>
+                                <p>適用於所有客戶的生產版本：24.10版本（2024年10月17日）</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Planning一般可用性</a></p>
@@ -421,7 +510,7 @@ ht-degree: 0%
                     </td>
                 </tr>                            
            </tbody>
-        </table>
+</table>
 
 ### 即將從Workfront移除的功能
 
