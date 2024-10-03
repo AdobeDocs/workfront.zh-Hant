@@ -5,14 +5,14 @@ title: 使用AI助理摘要專案
 description: 專案標題包含使用AI助理來摘要專案的按鈕。
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: bec1318d83938964697d76b83062ef11745802e3
+source-git-commit: df10444228de70dd460c4df72c4ba7dba6455f15
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 1%
 
 ---
 
-# 使用AI助理概述更新
+# 使用AI助理摘要專案
 
 Workfront的AI助理可以彙總專案，讓您快速瞭解專案用途和狀態等專案資訊，提供已完成和仍在擱置中的任務範例，並提供一些其他詳細資訊和附註。
 
