@@ -5,13 +5,13 @@ title: 一起使用新檔案核准和校樣
 description: 您可以將新檔案核准與校訂搭配使用。
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 8dc9df69bbce86f141ac451381fcc41a112ca0bc
+exl-id: be484629-6e70-4809-ad4c-a489d5814da6
+source-git-commit: bea547e7a7400798d4544fb4f299f72e18a700be
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '940'
 ht-degree: 0%
 
 ---
-
 
 # 一起使用新檔案核准和校樣
 
@@ -85,9 +85,9 @@ Workfront中的新檔案核准引進了新功能集，可幫助您檢閱和核�
 
 1. （選用）設定核准的截止日期。 若在指定期限前72小時通知使用者和團隊。
 
-1. 若要新增核准者，請按一下「核准者」按鈕，然後開始輸入使用者或團隊名稱。
+1. 若要新增核准者，請按一下[核准者]按鈕，然後開始輸入使用者或團隊名稱，<span class="preview">，或選擇先前版本的核准者。</span>
 
-1. 若要新增稽核者，請按一下「稽核者」按鈕，然後開始輸入使用者或團隊名稱。
+1. 若要新增檢閱者，請按一下[檢閱者]按鈕，然後開始輸入使用者或團隊名稱<span class="preview">，或從先前版本選擇檢閱者。</span>
 
    ![](assets/add-approvers.png)
 
@@ -125,4 +125,3 @@ Workfront中的新檔案核准引進了新功能集，可幫助您檢閱和核�
    * **需要工作**：檔案需要變更，而且尚未準備好使用。 完成指定的變更後，檔案必須上傳為新版本，並經過另一輪核准。 如需上傳新版本的詳細資訊，請參閱本文中的[視需要建立新版本](#create-a-new-version-as-needed)。
 
 做出決定後，檔案所有者會透過電子郵件收到通知。
-

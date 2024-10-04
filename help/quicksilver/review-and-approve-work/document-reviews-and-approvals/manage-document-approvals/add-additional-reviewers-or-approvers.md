@@ -6,9 +6,9 @@ description: 您可以將其他核准者或稽核者新增至已有待核准的�
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: f3d94dff-a855-44ae-9e85-1dcbc4d417a0
-source-git-commit: 850d21fafcf2192600f9011ee936a9bc40f969a4
+source-git-commit: a1a5c2bb9395748c4e0103d10dcf66624238032b
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
@@ -75,6 +75,10 @@ ht-degree: 0%
 1. 向下捲動至[檔案摘要]窗格中的&#x200B;**核准**&#x200B;區段，其中列出所有現有的核准者和稽核者。 若要新增核准者，請確定已核取&#x200B;**核准者**&#x200B;核取方塊，然後開始輸入&#x200B;**檢閱者**&#x200B;文字方塊。 您可以依名稱新增Workfront使用者或團隊。 如果您要新增檢閱者，只需取消勾選&#x200B;**核准者**&#x200B;核取方塊，再輸入即可。
 
 1. 重複上一步驟以新增其他核准者或稽核者。
+
+## 從舊版新增其他稽核和核准者
+
+如果您需要新檔案版本的核准，可以輕鬆新增
 
 <!--
 ## Add additional approvers or reviewers from Home
