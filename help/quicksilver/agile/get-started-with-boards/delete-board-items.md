@@ -6,9 +6,9 @@ description: 當您從展示板中刪除卡片時，該卡片將會永久刪除�
 author: Lisa
 feature: Agile
 exl-id: 68b7d2e5-92f0-462d-8122-eaecb1e6b87c
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 81e87793905fd925db00c7a0ac107150263a1365
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 當您從任何其他具有輸入欄的展示板型別中刪除已連線的卡片時，如果連線的工作或問題尚未標籤為完成，則當您重新整理展示板時，該卡片將重新出現在輸入欄中。 如需輸入資料行的詳細資訊，請參閱[將輸入資料行新增到展示板](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)。
 
 封存卡片會將卡片傳送至封存，您稍後可以將其還原至展示板。
+
+封存的卡片不會同步至Workfront任務和問題。 如果您還原卡片，卡片會再次同步。
 
 ## 存取需求
 
@@ -71,7 +73,7 @@ ht-degree: 0%
 
 1. 若要還原已封存的卡片，請按一下卡片上的&#x200B;**[!UICONTROL 更多]**&#x200B;功能表![更多](assets/more-icon-spectrum.png)，然後選取&#x200B;**[!UICONTROL 還原]**。
 
-## 篩選展示板以顯示已封存的卡片 {#filter-a-board-to-show-archived-cards}
+## 篩選展示板以顯示已封存的卡片
 
 依預設，電路板上只會顯示作用中的卡片。 您可以篩選展示板以顯示任何已封存的卡片。
 
