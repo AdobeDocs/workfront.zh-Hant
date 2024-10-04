@@ -2,23 +2,29 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: 在Adobe Workfront Fusion中檢視案例的執行歷史記錄
+title: 在Adobe Workfront Fusion中檢視情境歷史記錄
 description: 您可以顯示某個案例所有執行的相關資訊，也可以搜尋特定資料之案例的所有執行。
 author: Becky
 feature: Workfront Fusion
 exl-id: cc2c3f87-34dc-4a06-9f5f-1a7fb10a3b82
-source-git-commit: 1b729960a23e43252bda16d9bfb7ca9656a115a1
+source-git-commit: 2e26c4e4b5f331ed2e609381ef442f45e90c4faa
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '972'
 ht-degree: 0%
 
 ---
 
-# 在[!DNL Adobe Workfront Fusion]中檢視案例的執行歷史記錄
+# 在[!DNL Adobe Workfront Fusion]中檢視情境歷史記錄
 
-您可以顯示某個案例所有執行的相關資訊，也可以搜尋特定資料之案例的所有執行。
+您可以顯示情境的事件或執行相關資訊，也可以搜尋情境的所有執行以尋找特定資料。
 
-案例的執行歷史記錄會顯示案例在過去30天中的所有執行。
+案例執行代表案例的單一執行。
+
+案例事件是對案例的修改，例如編輯、啟用或停用。
+
+>[!NOTE]
+>
+>情境歷史記錄會顯示情境過去30天的所有事件和執行。
 
 ## 存取需求
 
@@ -59,9 +65,9 @@ ht-degree: 0%
 
 如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md)。
 
-## 檢視案例的所有執行
+## 檢視案例歷史記錄
 
-### 在[!UICONTROL 案例詳細資料]頁面上檢視案例執行歷史記錄
+### 在[!UICONTROL 案例詳細資料]頁面上檢視案例歷史記錄
 
 1. 按一下左側面板中的&#x200B;**[!UICONTROL 案例]**&#x200B;索引標籤，然後按一下案例。
 
@@ -69,9 +75,7 @@ ht-degree: 0%
 
    如果您正在案例編輯器中處理案例，請按一下視窗左上角附近的向左箭頭![](assets/exit-editing-arrow.png)。
 
-1. 檢視右側清單中的資訊。
-
-   您也可以按一下，檢視此資訊的完整頁面檢視。 全頁檢視可讓您篩選歷史記錄，以檢視特定執行。
+1. 在右側面板的&#x200B;**History**&#x200B;索引標籤中檢視執行歷史記錄。
 
    以下是此情境每次執行的詳細資料：
 
@@ -80,13 +84,16 @@ ht-degree: 0%
    * 執行&#x200B;**[!UICONTROL 持續時間]**
    * **[!UICONTROL 作業數目]**
    * **[!UICONTROL 資料傳輸]**&#x200B;的大小
-   * 連結至&#x200B;**[!UICONTROL 詳細資料]**
 
->[!NOTE]
->
->案例歷史記錄會在最近執行的案例旁邊顯示&#x200B;**處理**&#x200B;徽章，而執行詳細資訊會寫入儲存體。 處理會在案例執行後立即發生。 和不應超過幾分鐘。 處理執行時，可能無法看到案例執行的詳細資訊。
+   >[!NOTE]
+   >
+   >案例歷史記錄會在最近執行的案例旁邊顯示&#x200B;**處理**&#x200B;徽章，而執行詳細資訊會寫入儲存體。 處理會在案例執行後立即發生。 和不應超過幾分鐘。 處理執行時，可能無法看到案例執行的詳細資訊。
 
-### 在[!UICONTROL 歷程記錄]索引標籤上檢視案例執行歷程記錄
+1. 若要檢視特定案例執行的詳細資訊，請按一下右側面板中的該執行。
+1. 若要檢視事件，請按一下右側面板的&#x200B;**事件**&#x200B;標籤。
+
+
+### 在[!UICONTROL 歷程記錄]標籤上檢視案例歷程記錄
 
 [!UICONTROL 歷程記錄]索引標籤顯示的詳細資訊比[!UICONTROL 案例詳細資料]頁面上提供的還多。 您也可以在[!UICONTROL 歷程記錄]索引標籤上篩選及排序執行。
 
@@ -97,7 +104,7 @@ ht-degree: 0%
    如果您正在案例編輯器中處理案例，請按一下視窗左上角附近的向左箭頭![](assets/exit-editing-arrow.png)。
 
 1. 按一下頁面左上角附近的&#x200B;**[!UICONTROL 歷程記錄]**&#x200B;索引標籤
-1. （選擇性）如需所選取案例執行的詳細資訊，包括已處理的組合，請按一下&#x200B;**[!UICONTROL 詳細資料]**&#x200B;連結。
+1. （選擇性）如需所選取案例執行的詳細資訊，包括已處理哪些組合，請按一下該行中的&#x200B;**[!UICONTROL 詳細資料]**&#x200B;按鈕。
 
    如需有關處理套裝的詳細資訊，請參閱 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-flow.md)中的[案例執行流程。
 
@@ -106,6 +113,8 @@ ht-degree: 0%
    >* [!UICONTROL 詳細資料]連結只有在執行有可用的詳細資料時才可見。
    >
    >* 案例歷史記錄會在最近執行的案例旁邊顯示&#x200B;**處理歷史記錄**&#x200B;徽章，而執行詳細資訊會寫入儲存體。 處理會在案例執行後立即發生。 和不應超過幾分鐘。 處理執行時，可能無法看到案例執行的詳細資訊。
+
+1. 若要檢視事件，請啟用&#x200B;**顯示事件**&#x200B;切換。
 
 ## 篩選案例執行歷史記錄
 
@@ -128,13 +137,7 @@ ht-degree: 0%
 
 ## 搜尋情境的所有執行
 
-1. 按一下左側面板中的&#x200B;**[!UICONTROL 案例]**&#x200B;圖示![](assets/scenarios-icon.png)，然後按一下案例。
-
-   或
-
-   如果您正在案例編輯器中處理案例，請按一下視窗左上角附近的向左箭頭![](assets/exit-editing-arrow.png)。
-
-1. 按一下畫面左上角附近的&#x200B;**[!UICONTROL 歷程記錄]**&#x200B;標籤。
+1. 開啟情境的全頁記錄，如本文中[!UICONTROL 歷程記錄]索引標籤](#view-scenario-execution-history-on-the-history-tab)上的[檢視情境執行歷程記錄中所述。
 1. 按一下執行清單頂端的&#x200B;**[!UICONTROL 全文檢索搜尋]**。
 
    或
