@@ -9,9 +9,9 @@ description: 您可以使用Adobe Workfront Fusion Adobe Workfront聯結器在Wo
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
+source-git-commit: 3eb7f8988f441cfa5b353274526450510810b156
 workflow-type: tm+mt
-source-wordcount: '6280'
+source-wordcount: '6518'
 ht-degree: 2%
 
 ---
@@ -744,7 +744,7 @@ ht-degree: 2%
 
 +++ **[!UICONTROL 上傳檔案]**
 
-此動作模組會將檔案上傳到[!DNL Workfront]物件，例如專案、任務或問題。
+此動作模組會將檔案上傳到[!DNL Workfront]物件，例如專案、任務或問題。 此模組會以區塊上傳檔案，讓Workfront的上傳程式更順暢。
 
 您可以指定檔案的位置、要上傳的檔案，以及檔案的可選新名稱。
 
@@ -767,6 +767,51 @@ ht-degree: 2%
   <tr> 
    <td>[！UICONTROL相關記錄型別]</td> 
    <td>選取您希望模組上傳檔案的[!DNL Workfront]記錄型別。</td> 
+  </tr> 
+  <tr> 
+   <td>[！UICONTROL資料夾ID]</td> 
+   <td>視相關記錄的型別而定，您可能需要輸入或對映資料夾ID。</td> 
+  </tr> 
+  <tr> 
+   <td>[！UICONTROL Source檔案]</td> 
+   <td> <p>從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+檢視您可以在每個 [!DNL Workfront] 模組](#workfront-object-types-available-for-each-workfront-module)可用的[[!DNL Workfront] 物件型別中使用此模組的[!DNL Workfront]物件型別清單。
+
++++
+
++++ **[!UICONTROL 上傳檔案（舊版）]**
+
+此動作模組會將檔案上傳到[!DNL Workfront]物件，例如專案、任務或問題。 它會一次上傳整個檔案。
+
+您可以指定檔案的位置、要上傳的檔案，以及檔案的可選新名稱。
+
+模組會傳回檔案ID和任何關聯欄位，以及連線存取的任何自訂欄位和值。 您可以在情境中的後續模組中對應此資訊。
+
+當您設定此模組時，會顯示下列欄位。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[！UICONTROL Connection]</td> 
+   <td> <p>如需有關將[!DNL Workfront]應用程式連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">將[!DNL Workfront]連線到[!DNL Workfront Fusion]</a>。</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[！UICONTROL相關記錄ID]</td> 
+   <td>輸入您要將檔案上傳到其中之記錄的唯一[!DNL Workfront]識別碼。</td> 
+  </tr> 
+  <tr> 
+   <td>[！UICONTROL相關記錄型別]</td> 
+   <td>選取您希望模組上傳檔案的[!DNL Workfront]記錄型別。</td> 
+  </tr> 
+  <tr> 
+   <td>[！UICONTROL資料夾ID]</td> 
+   <td>視相關記錄的型別而定，您可能需要輸入或對映資料夾ID。</td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL Source檔案]</td> 
