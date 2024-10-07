@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 3c87c88245e79581c2a880c13038bcedb24caf4b
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: '1729'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->新的[!DNL SharePoint]整合已在22.3版（2022年7月）中發佈至生產環境。 雖然您的使用者仍然可以存取透過舊版[!DNL SharePoint]整合連結的檔案，但是他們必須使用新的[!DNL SharePoint]整合來連結來自SharePoint的檔案。
+>新的[!DNL SharePoint]整合已在22.3版（2022年7月）中發佈至生產環境。
+>
+>* 雖然您的使用者仍然可以存取透過舊版[!DNL SharePoint]整合連結的檔案，但他們無法透過該整合連結檔案。 他們必須使用新的[!DNL SharePoint]整合以從SharePoint連結檔案。
+>
+>* 如果您尚未設定舊版SharePoint整合，則無法新增。 您必須使用新的SharePoint整合，將檔案連結至SharePoint。
 >
 >* 新的SharePoint整合可能不需要管理員進行設定，也可能由個別使用者進行設定。 不過，為確保順利轉換至新的SharePoint整合，Workfront管理員必須在Workfront設定區域中變更幾項設定。
 >

@@ -6,9 +6,9 @@ description: Adobe Workfront客戶可以透過電話或線上提交票證聯絡W
 feature: Get Started with Workfront
 author: Becky
 exl-id: fa8e0559-7af6-4049-9c24-76d1bcbebf84
-source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
+source-git-commit: 5d924e510ad94098b9f417494f9fc6e8696c90d6
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
@@ -52,19 +52,14 @@ ht-degree: 0%
 
    從[!UICONTROL 支援]首頁，您可以瀏覽至未解決的支援案例、登入新案例、檢視前[!UICONTROL 個支援]文章，或存取其他學習來源。
 
-1. 若要提交案例，請選取選項&#x200B;**[!UICONTROL 開啟支援案例]**，然後按一下&#x200B;**[!UICONTROL 登入]**。
+<!--1. To submit a case, select the option **[!UICONTROL Open a support case]**, then click **[!UICONTROL Sign] In**.-->
 
-1. 按一下左側邊欄中的&#x200B;**[!UICONTROL 開啟大小寫]**。
-
-<!--
-   ![](assets/left-nav-bar-for-exl-support-portal.png)
--->
-
+1. 按一下左側邊欄中的&#x200B;**[!UICONTROL 開啟票證]**。
 [!UICONTROL 案例建立]頁面隨即開啟，您可以在其中輸入產品名稱（[!DNL Adobe Workfront]、[!DNL Adobe Workfront Fusion]等）、案例標題及案例說明。
 
->[!TIP]
->
->在描述您面臨的問題時，請儘可能提供說明，以協助我們加快疑難排解流程。
+   >[!TIP]
+   >
+   >在描述您面臨的問題時，請儘可能提供說明，以協助我們加快疑難排解流程。
 
 
 1. 填寫下列欄位的資訊，以提供我們更具體的詳細資料：
@@ -87,7 +82,7 @@ ht-degree: 0%
 
 ## 檢視及管理您的支援案例
 
-1. 瀏覽至&#x200B;**[!UICONTROL 我的案例]**&#x200B;頁面。 當您提交案例時，此頁面便會開啟；或者，您可以按一下左側導覽中的&#x200B;**[!UICONTROL 我的案例]**，開啟此頁面。
+1. 瀏覽至&#x200B;**[!UICONTROL 我的案例]**&#x200B;頁面。 當您提交案例時，此頁面便會開啟；或者，您可以按一下左側導覽中的&#x200B;**[!UICONTROL 我的案例]**&#x200B;來開啟此頁面。
 
 1. （選擇性）使用頁面頂端的選項，依&#x200B;**產品（[!DNL Experience Cloud]解決方案）**&#x200B;或大小寫&#x200B;**[!UICONTROL 狀態]** （[!UICONTROL 開啟]或Closed）篩選。 您也可以使用[!UICONTROL 搜尋]方塊來搜尋與您的支援案例相關的任何關鍵字。
 
@@ -97,9 +92,9 @@ ht-degree: 0%
 
 1. （選擇性）在案例檢視中，與指派的案例擁有者一起檢閱最新的註解，並新增任何其他附件或回應。
 
-1. （選擇性）若要呈報案例，請按一下頁面右側[!UICONTROL 案例詳細資料]下方的**0}呈報給管理層&#x200B;]**。**[!UICONTROL 
+1. （選擇性）若要呈報案例，請按一下頁面右側&#x200B;**[!UICONTROL 案例詳細資料]**&#x200B;下方的&#x200B;**[!UICONTROL 呈報給管理層]**。
 
-1. 按一下&#x200B;**[!UICONTROL 關閉案例]**&#x200B;按鈕以關閉案例。
+1. （選擇性）若要關閉案例，請按一下&#x200B;**[!UICONTROL 關閉案例]**&#x200B;按鈕。
 
 
 <!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737)

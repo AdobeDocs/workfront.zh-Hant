@@ -5,16 +5,20 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 94e0b205-140c-41c9-bb5a-f89b4c3aaea0
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 5d924e510ad94098b9f417494f9fc6e8696c90d6
 workflow-type: tm+mt
-source-wordcount: '3436'
+source-wordcount: '3485'
 ht-degree: 10%
 
 ---
 
 # 可設定的每種物件型別功能存取權
 
-本文說明您可以允許作為Adobe Workfront管理員，在每個存取層級中用於每個物件型別的內容。 本檔案也會說明每種存取層級型別的預設設定。
+為組織設定存取層級時，您可以決定哪些特定動作可供存取層級使用。
+
+本文說明Adobe Workfront管理員可以在每個存取層級中為每個物件型別選取的選項。 本檔案也會說明每種存取層級型別的預設設定。
+
+例如，如果Workfront管理員針對指定存取層級的專案選取「檢視」，具有該存取層級的使用者將只能檢視專案，不能編輯專案。
 
 如需每個存取層級中物件型別所有可用功能的相關資訊，請參閱[每個物件型別可用的功能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)。
 
