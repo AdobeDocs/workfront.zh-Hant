@@ -9,9 +9,9 @@ description: 您可以使用Adobe Workfront Fusion Adobe Workfront聯結器在Wo
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 3eb7f8988f441cfa5b353274526450510810b156
+source-git-commit: 3fde10cfa0428971b289a9de57cf49e24a15a0e8
 workflow-type: tm+mt
-source-wordcount: '6518'
+source-wordcount: '6558'
 ht-degree: 2%
 
 ---
@@ -324,6 +324,10 @@ ht-degree: 2%
 * 將問題轉換為任務
 * 將任務轉換為專案
 
+>[!NOTE]
+>
+>自2024年7月起，轉換物件時可包含自訂表單。
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -603,6 +607,10 @@ ht-degree: 2%
 +++ **[!UICONTROL 其他動作]**
 
 此動作模組可讓您對API執行動作。
+
+>[!NOTE]
+>
+>截至2024年7月，`convertToProject`動作包含欄位`copyCategories`。 設定為`TRUE`時，所有自訂表單都將包含在問題轉換為的專案中。
 
 當您設定此模組時，會顯示下列欄位。
 
