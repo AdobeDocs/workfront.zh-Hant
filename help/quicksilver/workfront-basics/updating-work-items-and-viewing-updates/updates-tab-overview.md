@@ -7,10 +7,10 @@ description: 物件的「更新」區段會顯示使用者對物件所做的註�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 5%
+source-wordcount: '1088'
+ht-degree: 4%
 
 ---
 
@@ -75,8 +75,12 @@ ht-degree: 5%
 * 時程表
 * 團隊
 * 目標
-* 面板區域中的卡片
 * 疊代
+
+下列物件有可以新增註釋及檢閱系統更新的區域：
+
+* 展示板上的卡片
+* Workfront Planning中的記錄
 
 <!--info for April 11: remove all the information below, all the way down to the following section: -->
 
@@ -120,20 +124,24 @@ Depending on what objects you access the commenting experience for, you might fi
 
 <!--Info for April 11: reword the section title below to: Overview of the Updates section; and remove the preview tags-->
 
-### 「更新」區段的總覽
+### 更新區段標籤總覽
 
 ![更新區段](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
 
 * 「更新」區段會在下列標籤中顯示資訊：
 
    * **註解**：顯示使用者所做的註解以及這些註解的回覆。 使用「註解」標籤來新增註解或回覆現有註解。 如需有關更新物件的資訊，請參閱[更新工作](../updating-work-items-and-viewing-updates/update-work.md)。
-   * **系統活動**：顯示系統更新，這些是Workfront建立的資訊訊息，用來在物件上記錄特定事件。 例如，狀態、名稱或自訂欄位的變更會透過系統更新擷取。 您的Workfront或群組管理員可以為您的物件啟用系統更新。 在舊版註解體驗中對系統活動記錄所做的任何回覆，都會以唯讀形式填入系統活動標籤中。 如需詳細資訊，請參閱[設定系統更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)。
+   * **系統活動**：顯示系統更新，這些是Workfront建立的資訊訊息，用來在物件上記錄特定事件。 例如，狀態、名稱或自訂欄位的變更會透過系統更新擷取。 您的Workfront或群組管理員可以為您的物件啟用系統更新。 對舊版評論體驗中系統活動記錄所做的任何回覆，都會以唯讀形式填入系統活動標籤中。 如需詳細資訊，請參閱[設定系統更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)。
    * **全部（唯讀）**：在一個位置同時顯示使用者註解和系統活動註解。 這是僅供檢視的標籤。 您無法在[全部]索引標籤的現有註解中回覆註解或標籤其他使用者。 若要回覆特定註解，請使用「全部」標籤到「註解」標籤的連結。 如需有關更新物件的資訊，請參閱[更新工作](../updating-work-items-and-viewing-updates/update-work.md)。
 
      >[!NOTE]
      >
-     >「註解」和「系統活動」標籤會即時更新。 您必須重新整理[全部]索引標籤才能檢視最近的更新。
+     >「註解」和「系統」活動標籤會即時更新。 您必須重新整理[全部]索引標籤才能檢視最近的更新。
 
+
+### 不同物件「更新」區域的異同
+
+不同物件的註釋和更新顯示方式有所不同。
 
 * 以下物件在更新區段的所有三個索引標籤中具有類似的體驗：
 
@@ -145,17 +153,30 @@ Depending on what objects you access the commenting experience for, you might fi
    * 使用者
    * 時程表
 
-* 下列物件沒有「系統活動」標籤或「全部」標籤，「註解」標籤中的體驗符合所有其他物件的體驗：
+* 下列物件沒有「系統」活動標籤或「全部」標籤，且「註解」標籤中的體驗符合所有其他物件的體驗：
 
    * 團隊
    * 範本
    * 範本任務
 
-* 下列物件沒有「系統活動」標籤或「全部」標籤，且「註解」標籤中的體驗與所有其他物件的體驗不同：
+* 下列物件沒有「系統」活動標籤或「全部」標籤，且「註解」標籤中的體驗與所有其他物件的體驗不同：
+
    * 疊代
-   * 臨機卡
+   * 面板區域中的臨時卡片
 
      如需卡片更新的詳細資訊，請參閱[將臨機卡片新增到展示板](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md)。
+
+* 下列物件有「系統」活動標籤，沒有「全部」標籤：
+
+   * 面板區域中的已連線卡片
+
+     如需詳細資訊，請參閱[使用主機板上的連線卡](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)。
+
+* 下列物件具有「歷史記錄」標籤，可取代「系統」活動標籤：
+
+   * Workfront Planning中的記錄
+
+     如需詳細資訊，請參閱[歷程記錄區段總覽](/help/quicksilver/planning/records/history-section-overview.md)。
 
 * 下列物件沒有「全部」標籤，「註解」標籤中的體驗符合大多數物件的體驗：
 

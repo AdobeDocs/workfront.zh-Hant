@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront物件（專案、任務或問題）上�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
 workflow-type: tm+mt
-source-wordcount: '3037'
+source-wordcount: '3075'
 ht-degree: 0%
 
 ---
@@ -51,11 +51,15 @@ ht-degree: 0%
 ><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process. </span>
 -->
 
-您可以在Adobe Workfront物件上新增更新，與他人溝通物件的進度。 如需您可以在Workfront中新增更新的物件詳細資訊，請參閱[更新區段總覽](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)。
+您可以新增註解至Adobe Workfront物件，以通知其他人物件的狀態或進度，或要求更多資訊或其他資源，藉此為物件新增更新。
 
-本文中的資訊說明如何為專案、任務和問題加上註解和更新資訊。 指派或訂閱物件的使用者可以檢視您的更新。 您也可以標籤使用者，以吸引他們注意更新。
+如需您可以在Workfront中新增更新的物件詳細資訊，請參閱[更新區段總覽](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)。
 
-將註解新增到其他物件類似於更新專案、任務和問題。 如需關於卡片及目標註解的詳細資訊，另請參閱下列文章：
+本文中的資訊說明如何評論專案、任務和問題。 指派給物件或訂閱物件的使用者可以檢視您的更新。 您也可以標籤使用者，以吸引他們注意更新。
+
+將註解新增至其他Workfront物件與更新專案、任務和問題類似。
+
+如需在Workfront Planning中評論卡片、目標和記錄的其他資訊，另請參閱下列文章：
 
 * [在Adobe Workfront目標中管理目標註解](../../workfront-goals/goal-management/manage-goal-comments.md)。
 
@@ -65,7 +69,7 @@ ht-degree: 0%
 
 * [在展示板上使用連線的卡片](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)
 
-<!--Add a bullet for record comments when Planning is in GA: help/quicksilver/planning/records/manage-record-comments.md-->
+* [管理記錄註解](/help/quicksilver/planning/records/manage-record-comments.md)
 
 ## 存取需求
 
@@ -84,7 +88,7 @@ ht-degree: 0%
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront授權</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront授權*</strong></td> 
    <td> 
    <p>目前：問題與檔案的要求或更高；所有其他物件的檢閱或更高</p>
    <p>新增：問題和檔案的貢獻者或更高：所有其他物件的輕度或更高</p> 
@@ -101,11 +105,11 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
-## 更新工作的相關考量事項
+## 關於註解物件的考量事項
 
 * 您可以在「更新」區段中，將註解新增至Adobe Workfront中的大部分物件。 如需有關哪些物件顯示「更新」區段的詳細資訊，請參閱[更新區段概觀](../updating-work-items-and-viewing-updates/updates-tab-overview.md)。
 
@@ -234,23 +238,13 @@ You can add updates to the following objects:
 
 <!--info for April 11: reword the title of this section to: "Add an update to a work item"; take out the step that says you need to enable the "New commenting" toggle (I think it is step 3??)-->
 
-## 將更新新增至工作專案
+## 將註解新增至工作專案
 
 本文會介紹如何更新專案、任務或問題。 更新大多數其他物件類似。
 
-1. 找到您要更新的物件，然後按一下其名稱以開啟物件的頁面。
+1. 找到您要新增註解的物件，然後按一下其名稱以開啟物件的頁面。
 1. 按一下左側面板中的&#x200B;**更新**。
 預設會選取**註解**&#x200B;標籤。
-
-   <!--
-   1. (Conditional) If the **New commenting** option is disabled, click to enable it. 
-
-      This enables the new commenting experience. 
-
-         >[!TIP]
-         >
-         ><span class="preview">The New commenting option has been removed in the Preview environment.</span>
-   -->
 
 1. 開始在&#x200B;**新註解**&#x200B;方塊中輸入註解。
 
@@ -329,12 +323,12 @@ You can add updates to the following objects:
    >
    >您無法在[全部]索引標籤的現有註解中回覆註解或標籤其他使用者。 若要在[全部]索引標籤中回複評論，請按一下[在評論中回覆]****，在[評論]索引標籤中開啟評論。
 
-## 在Workfront更新中使用RTF文字{#use-rich-text-in-a-workfront-update}
+## 在Workfront註解中使用RTF文字{#use-rich-text-in-a-workfront-comment}
 
-您可以使用RTF或新增各種專案（例如emoji、連結或影像）來增強更新。
+您可以使用RTF或新增各種專案（例如emoji、連結或影像）來增強您的註解。
 
-1. 前往Workfront物件的&#x200B;**更新**&#x200B;區域並開始輸入註解。
-1. （選擇性）若要新增RTF格式至更新中，請在輸入時使用&#x200B;**RTF**&#x200B;工具列上的任何屬性。
+1. 前往Workfront物件的&#x200B;**更新**&#x200B;區域，開啟&#x200B;**註解**&#x200B;索引標籤並開始輸入註解。
+1. （選擇性）若要將RTF格式新增至您的註解，請在輸入時使用&#x200B;**RTF**&#x200B;工具列上的任何屬性。
 
    ![](assets/rich-text-toolbar.png)
 
@@ -444,19 +438,17 @@ You can add updates to the following objects:
 
 <!-- when we release search to production, check above and make sure you don't have to add that the users tagged/ owners are also searchable-->
 
-## 複製更新
+## 複製註解
 
-有幾種方式可以複製更新。
+有幾種方法可以複製註解。
 
-您可以複製更新的連結，或複製更新的內容以將其用於新的更新。
+您可以複製註釋的連結，或複製註釋的內容以將其用於新的更新。
 
 <!--Copying an update differs depending on which commenting experience you use.-->
 
 <!--info for April 11: take the sentence above out and reword the section title below to: Copy an update-->
 
-### 複製更新<!--in the new commenting experience-->
-
-<!--For information about what features are available for the new commenting experience and for what objects, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).-->
+### 複製評論
 
 您可以執行下列任一項作業，從現有註解複製資訊：
 
@@ -466,11 +458,11 @@ You can add updates to the following objects:
 
 ![](assets/copy-comment-ways-from-more-menu-on-comment.png)
 
-#### 複製連結
+#### 複製評論連結
 
 「複製連結」選項可將註解或對話串連結複製到剪貼簿，以便與其他使用者共用註解或整個對話串。
 
-1. 前往要複製其連結的更新。
+1. 前往您要複製其連結的註解。
 
 1. 按一下&#x200B;**更多**&#x200B;功能表，然後按一下&#x200B;**複製連結**。
 
@@ -484,16 +476,16 @@ You can add updates to the following objects:
 
 #### 複製本文
 
-「複製內文」選項可將文字從特定更新複製到剪貼簿。
+「複製內文」選項會將文字從特定註解複製到剪貼簿。
 
-1. 前往更新或您要複製的回覆。
+1. 移至您要複製的註解或回覆。
 1. 按一下&#x200B;**更多**&#x200B;功能表，然後按一下&#x200B;**複製內文**。
 
 #### 引用回覆
 
 「報價」回複選項會將原始註解複製到新的回覆，做為區塊報價。
 
-1. 前往更新或您要複製的回覆。
+1. 移至您要複製的註解或回覆。
 1. 按一下&#x200B;**更多**&#x200B;功能表，然後按一下&#x200B;**報價回覆**。
 
    新註解方塊開啟，引述的回覆會包含在新的註解中，並標示為區塊引號。
@@ -563,14 +555,16 @@ The Quote Reply option copies the original comment to a new reply as a block quo
 1. Continue adding your update and click **Reply** to add the comment.
 -->
 
-## 刪除更新或回覆
+## 刪除評論或回覆
 
-根據Workfront管理員賦予您的存取權，您或許可以刪除在物件的「更新」標籤上新增的更新。 如需詳細資訊，請參閱文章[建立或修改自訂存取層級](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)中的[建立或修改自訂存取層級](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch)。
+根據Workfront管理員賦予您的存取權，您或許可以刪除在物件的「更新」區段中新增的註解。
+
+如需詳細資訊，請參閱文章[建立或修改自訂存取層級](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)中的[建立或修改自訂存取層級](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch)。
 
 Workfront使用者(包括Workfront管理員)無法刪除其他使用者所做的更新。 但是，如果使用者的存取層級允許他們刪除自己的更新，Workfront管理員可以以該使用者的身分登入，並刪除他們所做的更新。 如需詳細資訊，請參閱[建立或修改自訂存取層級](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch)和[以其他使用者身分登入](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md)。
 
-1. 前往更新或您要刪除的回覆。
-1. 按一下您要刪除的更新或回覆旁的&#x200B;**更多**&#x200B;功能表，然後按一下&#x200B;**刪除**。
+1. 前往您要刪除的註解或回覆。
+1. 按一下您要刪除的評論或回覆旁的&#x200B;**更多**&#x200B;功能表，然後按一下&#x200B;**刪除**。
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
@@ -608,7 +602,7 @@ Workfront物件的更新區段會顯示兩種型別的資訊：
    * 範本任務
    * 臨機卡
 
-如需「更新」章節中有關系統更新的詳細資訊，請參閱[更新章節概述](../updating-work-items-and-viewing-updates/updates-tab-overview.md)。
+如需有關使用者和系統更新以及它們在Workfront物件更新區段中如何顯示的詳細資訊，請參閱[更新區段概觀](../updating-work-items-and-viewing-updates/updates-tab-overview.md)。
 
 
 <!--

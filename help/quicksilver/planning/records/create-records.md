@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 83827c24bd9157d2a4fb151e61c38cd6892a7c86
 workflow-type: tm+mt
-source-wordcount: '1448'
+source-wordcount: '1512'
 ht-degree: 0%
 
 ---
@@ -23,13 +23,11 @@ ht-degree: 0%
 
 您可以執行下列其中一項作業來建立記錄：
 
-* 從表格檢視中的記錄型別頁面新增記錄
-* 從外部清單複製並貼上記錄清單
-* 從表格檢視複製記錄
-* 從其他記錄連線記錄時建立記錄
-* 透過提交請求表單到記錄型別來建立它們
-
-本文會介紹如何建立記錄。
+* [從表格檢視中的記錄型別頁面新增記錄](#create-records-by-adding-them-to-a-record-type-in-a-record-type-table)
+* [從外部清單複製並貼上記錄清單](#create-records-by-copying-and-pasting-them-from-an-external-list)
+* [從表格檢視複製記錄](#create-records-by-duplicating-them)
+* [從其他記錄連線記錄時建立記錄](#create-records-as-you-connect-them)
+* [透過提交請求表單到記錄型別來建立它們](#create-records-by-submitting-a-request-form-to-a-record-type)
 
 如需有關管理表格或時間表檢視中的記錄的資訊，請參閱下列文章：
 
@@ -106,62 +104,6 @@ ht-degree: 0%
 </table>
 
 *如需Workfront存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
-
-<!--OLD info: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>New: Standard</p>
-   <p>Current: Plan</p>  
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configurations</p></td>
-   <td> <p>There are no access controls for Adobe Workfront Planning </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Contribute or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-
- </tbody>
-</table>
-
-*For more information, see [Access requirements for Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
 
 +++
 
@@ -305,6 +247,15 @@ You can import records from other applications by linking them to existing recor
    ![](assets/add-button-to-create-records-in-context-highlighted.png)
 
    記錄已建立並新增至連線的記錄欄位。
+
+   >[!IMPORTANT]
+   >
+   >* 從記錄連線專案和投資組合時，您只能在Workfront中建立專案和投資組合。
+   >
+   >* 從Workfront Planning中的記錄連線方案、群組或公司時，您無法建立它們。
+   >
+   >* 當您從記錄連線專案以建立專案時，無法從範本建立專案。 將任務和專案資訊或範本新增到記錄後，您必須手動將其新增到新專案。
+
 1. （選擇性）移至您建立其記錄的記錄型別的表格檢視。 新記錄會顯示在檢視的最後一列。
 1. （選擇性）開始為表格檢視中的新記錄新增資訊
 或
