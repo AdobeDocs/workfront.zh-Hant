@@ -5,9 +5,9 @@ title: 從舊版首頁移至新首頁
 description: 舊版首頁將於2017年第4季版本中從Workfront移除。 本文提供新首頁將可使用哪些功能的相關資訊，以及將使用者移至「新首頁」體驗的建議。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 8666870341227f2bdcd08ad77753a28748ed9847
+source-git-commit: 9a71080c732363bf346b18d3bf61353c6c3859f7
 workflow-type: tm+mt
-source-wordcount: '1632'
+source-wordcount: '1641'
 ht-degree: 5%
 
 ---
@@ -271,6 +271,7 @@ Workfront管理員可使用版面配置範本自訂「新首頁」中可用的Wi
 
 **培訓**
 
+* [在首頁教學課程中移除、新增及重新排列Widget](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
 * [Adobe Workfront中的Worker基礎知識](https://adobe-ats.sabacloud.com/Saba/Web_spf/PRODTNT100/app/me/learningeventdetail/cours000000000098821?regId=regdw000000001250612)
 
 >[!IMPORTANT]

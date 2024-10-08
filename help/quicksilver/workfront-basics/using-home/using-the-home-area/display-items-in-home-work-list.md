@@ -6,9 +6,9 @@ description: '[!UICONTROL 首頁]區域中的[!UICONTROL 工作清單]會顯示�
 author: Nolan
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: d614d5cbded1de6fd899a47495a6e058f9eaf3cf
 workflow-type: tm+mt
-source-wordcount: '1837'
+source-wordcount: '1843'
 ht-degree: 0%
 
 ---
@@ -94,6 +94,7 @@ ht-degree: 0%
         <p>僅顯示已準備好要啟動的任務。 下列兩個陳述式都必須為true：</p> 
         <ul> 
          <li> <p>任務及其父項沒有前置任務或任務限制而無法處理。</p> </li> 
+         <li> <p>所有前置任務已完成。</p> </li> 
          <li> <p>任務的[！UICONTROL規劃開始日期]是過去或未來最多兩週。</p> </li> 
         </ul> 
        </div> </td> 
