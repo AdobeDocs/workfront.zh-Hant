@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: 2801c18cebbc7e1338c29652bc87303029a2e289
+source-git-commit: 2e4bcd6400971104e9138fab0faf20d33af32e51
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '726'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,9 @@ ht-degree: 0%
 
 ## 編輯或組合現有套件
 
-1. 前往您要在其中建立套件的環境。 這是您從&#x200B;**複製物件**&#x200B;的環境。
+套件必須處於`DRAFT`狀態才能進行編輯。
+
+1. 移至您想要在其中編輯套件的環境。 這是最初建立套件的環境。
 1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![設定圖示](/help/_includes/assets/gear-icon-setup.png)。
 1. 在左側導覽中選取&#x200B;**系統**，然後選取&#x200B;**環境升級**。
 1. 從顯示的清單中選取封裝。
@@ -99,6 +101,7 @@ ht-degree: 0%
 1. （選擇性）若要檢視內容（包括所有物件及其子物件），請在&#x200B;**內容**&#x200B;區段中按一下物件型別旁的下拉箭頭。
 1. （選擇性）若要檢視此套裝程式的先前安裝與安裝嘗試，請按一下&#x200B;**部署**。
 1. （選擇性）若要編輯封裝，請按一下畫面右上角的&#x200B;**編輯封裝**。
+套件必須處於`DRAFT`狀態才能進行編輯。 若要將封裝移動到`DRAFT`狀態，請在&#x200B;**狀態**&#x200B;欄位中選取`Draft`。 然後，您可以繼續編輯封裝。
 1. 若要安裝套件，請按一下畫面右上角的&#x200B;**安裝**。
 
    如需安裝套件的說明，請參閱[安裝環境升級套件](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)。
