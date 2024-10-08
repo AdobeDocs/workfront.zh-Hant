@@ -6,14 +6,19 @@ description: 資源集區是使用者的集合，可協助您更輕鬆地在Adob
 author: Lisa
 feature: Resource Management
 exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: 2f5e0b8ba4ec4f32ae0457a6a901a43d03389773
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '606'
 ht-degree: 2%
 
 ---
 
-# 建立資源集區
+# 建立資源集區 {#create-resource-pools}
+
+>[!CONTEXTUALHELP]
+>id="wf_resource_pools"
+>title="資源集區"
+>abstract="資源集區是同時需要用來完成專案的使用者集合。 建立資源集區後，您可以將其與專案和範本建立關聯。"
 
 {{preview-and-fast-release-Q424}}
 
