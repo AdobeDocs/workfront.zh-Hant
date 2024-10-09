@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: 21e81e6395680e3ea7ffd05424217e5352fff0f6
+source-git-commit: 7bae31a9454c88bd0e5525f4b4d11cd9e76ccd39
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '827'
 ht-degree: 1%
 
 ---
@@ -145,7 +145,6 @@ ht-degree: 1%
 
    如果您已完成自訂，請按一下左下角的&#x200B;**儲存**。
 
-
->[!NOTE]
+>[!IMPORTANT]
 >
->管理員自訂自己的版面配置範本，必須重新整理頁面才能看到變更。
+>您必須重新整理新的首頁，才能檢視版面配置範本中的自訂專案。

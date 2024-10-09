@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 21c8c8d6aed7620dc2d7b99fd01c6be41f918eeb
+source-git-commit: 222e940432f9cdea2b7da7fefbb429d75a3824d7
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '923'
 ht-degree: 5%
 
 ---
@@ -129,7 +129,7 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
      </tr>
      <tr> 
       <td role="rowheader">啟用優先順序工作清單 </td> 
-      <td>可讓您選擇為使用者啟用或停用優先順序工作清單體驗。 <!--Users will still see the Priorities icons in Workfront, but they will not have access to the functionality.-->如需優先順序的詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">開始使用優先順序</a>。</td> 
+      <td>可讓您選擇為使用者啟用或停用優先順序工作清單體驗。 使用者仍可在Workfront中看到優先順序圖示，但無法存取該功能。 如需有關優先順序的詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">開始使用優先順序</a>。</td> 
      </tr>
      <tr> 
       <td role="rowheader">測試環境</td> 
