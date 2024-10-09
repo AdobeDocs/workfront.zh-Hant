@@ -6,9 +6,8 @@ title: Workfront Data Connect資料字典
 description: 本頁包含有關Workfront Data Connect中資料結構和內容的資訊。
 author: Nolan
 feature: Reports and Dashboards
-recommendations: noDisplay, noCatalog
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: c3e18716aa74ed91e21e542437a017586a58d0b3
+source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
 workflow-type: tm+mt
 source-wordcount: '4294'
 ht-degree: 4%

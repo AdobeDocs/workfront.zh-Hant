@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5224c12a-7879-491b-87ec-6173bcf9525c
-source-git-commit: 84f7f80314e4acafb0414b806f7b1e1e4b2845fc
+source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '165'
 ht-degree: 0%
 
 ---
@@ -34,3 +34,4 @@ Workfront Data Connect可讓您使用Snowflake技術前所未有地存取Workfro
 * [建立與Workfront資料連線的連線](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)
 * [Workfront Data Connect資料字典](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md)
 * [Workfront Data Connect查詢範例](/help/quicksilver/reports-and-dashboards/data-lake/basic-query-examples.md)
+* [檢視Workfront Data Connect使用度量](/help/quicksilver/reports-and-dashboards/data-lake/view-usage-metrics.md)

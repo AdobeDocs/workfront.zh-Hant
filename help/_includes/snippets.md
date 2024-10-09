@@ -1,7 +1,7 @@
 ---
-source-git-commit: 385dbe63d0db9b13692fb6f5c78ed56bd0d823c4
+source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
 workflow-type: tm+mt
-source-wordcount: '2550'
+source-wordcount: '2586'
 ht-degree: 1%
 
 ---
@@ -154,6 +154,10 @@ ht-degree: 1%
 >* 以自訂的影像取代，以說明您的組織。 在此情況下，圖示看起來將會與本文中所顯示的不同。
 >* 使用其他頁面取代連結至該頁面的頁面。 在此情況下，請按一下頁面右上角的&#x200B;**[!UICONTROL 主功能表]** ![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果可用）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
 >
+
+## 步驟1 — 前往優先順序 —  {#step1-to-priorities}
+
+1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 優先順序]**。
 
 <!-- Integrations -->
 

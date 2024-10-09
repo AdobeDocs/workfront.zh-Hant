@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 1944c21c8234755ac5bc1c6caaed10b817ef409e
+source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
 workflow-type: tm+mt
-source-wordcount: '14476'
+source-wordcount: '14482'
 ht-degree: 2%
 
 ---
@@ -1758,6 +1758,7 @@ ht-degree: 2%
       * [建立與Workfront資料連線的連線](reports-and-dashboards/data-lake/share-data-externally.md)
       * [Workfront Data Connect資料字典](reports-and-dashboards/data-lake/data-dictionary.md)
       * [Workfront Data Connect查詢範例](reports-and-dashboards/data-lake/basic-query-examples.md)
+      * [檢視Workfront Data Connect使用度量](reports-and-dashboards/data-lake/view-usage-metrics.md)
 * 管理資源 {#manage-resources}
    * [管理資源](resource-mgmt/manage-resources.md)
    * 資源管理 {#resource-management}
