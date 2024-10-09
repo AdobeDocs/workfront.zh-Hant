@@ -9,9 +9,9 @@ description: 您可以使用Adobe Workfront Fusion Adobe Workfront聯結器在Wo
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 3fde10cfa0428971b289a9de57cf49e24a15a0e8
+source-git-commit: 38b6fef43157f47c93dcd9cf543f1001142d86dd
 workflow-type: tm+mt
-source-wordcount: '6558'
+source-wordcount: '6621'
 ht-degree: 2%
 
 ---
@@ -138,6 +138,9 @@ ht-degree: 2%
 >   如需有關SSO的詳細資訊，請參閱[單一登入概述 [!DNL Adobe Workfront]](../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
 >   
 >* [!DNL Workfront] API的OAuth 2.0連線不再依賴API金鑰。
+>* 若要建立與Workfront沙箱環境的連線，您必須在該環境中建立OAuth2應用程式，然後在您的連線中使用該應用程式產生的使用者端ID和使用者端密碼。
+>
+>   如需在Workfront中建立OAuth2應用程式的指示，請參閱為Workfront整合建立OAuth2應用程式一文中的[使用使用者認證（授權代碼流程）建立OAuth2應用程式](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-application-using-user-credentials-authorization-code-flow)。
 
 ## [!DNL Workfront]模組及其欄位
 
