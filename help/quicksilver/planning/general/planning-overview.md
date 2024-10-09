@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
 workflow-type: tm+mt
 source-wordcount: '2102'
 ht-degree: 1%
@@ -183,7 +183,7 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
 
   如需詳細資訊，請參閱[建立工作區](/help/quicksilver/planning/architecture/create-workspaces.md)。
 
-* **記錄型別**：物件型別或Workfront規劃。
+* **記錄型別**： Workfront計畫的物件型別。
 
   與Workfront （預先定義物件型別）不同，您可以在Workfront Planning中建立自己的物件型別。
 
@@ -199,7 +199,7 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
 
   將記錄型別新增至工作區後，您就可以開始在記錄型別的頁面上新增該型別的記錄。
 
-  例如，「Campaign」可以是記錄型別，「Summer Campaign for EMEA」是Campaign記錄型別的記錄
+  例如，「Campaign」可以是記錄型別，「Summer Campaign for EMEA」是Campaign記錄型別的記錄。
 
   如需詳細資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md)。
 

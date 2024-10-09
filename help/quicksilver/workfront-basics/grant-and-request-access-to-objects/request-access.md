@@ -6,9 +6,9 @@ description: 您對Adobe Workfront中物件的可見性取決於您對該物件�
 author: Alina
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
+source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1421'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 >
 >* 「Adobe Workfront情境規劃工具」中的「情境規劃工具」計畫。 如需詳細資訊，請參閱[在Scenario Planner](../../scenario-planner/request-access-to-plan.md)中要求計畫的存取權。 這需要額外的授權。
 >
->* Workfront Planning中的檢視和工作區。 如需詳細資訊，請參閱[在Adobe Workfront Planning中共用許可權的總覽](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
+>* Workfront Planning中的檢視和工作區。 如需詳細資訊，請參閱[在Adobe Workfront Planning中共用許可權的總覽](/help/quicksilver/planning/access/sharing-permissions-overview.md)。 這需要額外的授權。
 
 
 您的Workfront管理員會在存取層級中設定您對某個物件型別的存取權。 如需詳細資訊，請參閱[存取層級和許可權如何搭配運作](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)。

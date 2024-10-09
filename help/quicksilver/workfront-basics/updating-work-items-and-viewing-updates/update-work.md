@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront物件（專案、任務或問題）上�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
+source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
 workflow-type: tm+mt
-source-wordcount: '3075'
+source-wordcount: '3065'
 ht-degree: 0%
 
 ---
@@ -62,8 +62,6 @@ ht-degree: 0%
 如需在Workfront Planning中評論卡片、目標和記錄的其他資訊，另請參閱下列文章：
 
 * [在Adobe Workfront目標中管理目標註解](../../workfront-goals/goal-management/manage-goal-comments.md)。
-
-  您必須額外擁有授權才能存取Workfront目標。
 
 * [新增臨機卡到展示板](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md)
 

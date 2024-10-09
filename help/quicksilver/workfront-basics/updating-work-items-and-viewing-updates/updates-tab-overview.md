@@ -7,7 +7,7 @@ description: 物件的「更新」區段會顯示使用者對物件所做的註�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
+source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
 workflow-type: tm+mt
 source-wordcount: '1088'
 ht-degree: 4%
@@ -128,16 +128,15 @@ Depending on what objects you access the commenting experience for, you might fi
 
 ![更新區段](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
 
-* 「更新」區段會在下列標籤中顯示資訊：
+「更新」區段會在下列標籤中顯示資訊：
 
-   * **註解**：顯示使用者所做的註解以及這些註解的回覆。 使用「註解」標籤來新增註解或回覆現有註解。 如需有關更新物件的資訊，請參閱[更新工作](../updating-work-items-and-viewing-updates/update-work.md)。
-   * **系統活動**：顯示系統更新，這些是Workfront建立的資訊訊息，用來在物件上記錄特定事件。 例如，狀態、名稱或自訂欄位的變更會透過系統更新擷取。 您的Workfront或群組管理員可以為您的物件啟用系統更新。 對舊版評論體驗中系統活動記錄所做的任何回覆，都會以唯讀形式填入系統活動標籤中。 如需詳細資訊，請參閱[設定系統更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)。
-   * **全部（唯讀）**：在一個位置同時顯示使用者註解和系統活動註解。 這是僅供檢視的標籤。 您無法在[全部]索引標籤的現有註解中回覆註解或標籤其他使用者。 若要回覆特定註解，請使用「全部」標籤到「註解」標籤的連結。 如需有關更新物件的資訊，請參閱[更新工作](../updating-work-items-and-viewing-updates/update-work.md)。
+* **註解**：顯示使用者所做的註解以及這些註解的回覆。 使用「註解」標籤來新增註解或回覆現有註解。 如需有關更新物件的資訊，請參閱[更新工作](../updating-work-items-and-viewing-updates/update-work.md)。
+* **系統活動**：顯示系統更新，這些是Workfront建立的資訊訊息，用來在物件上記錄特定事件。 例如，狀態、名稱或自訂欄位的變更會透過系統更新擷取。 您的Workfront或群組管理員可以為您的物件啟用系統更新。 對舊版評論體驗中系統活動記錄所做的任何回覆，都會以唯讀形式填入系統活動標籤中。 如需詳細資訊，請參閱[設定系統更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)。
+* **全部（唯讀）**：在一個位置同時顯示使用者註解和系統活動註解。 這是僅供檢視的標籤。 您無法在[全部]索引標籤的現有註解中回覆註解或標籤其他使用者。 若要回覆特定註解，請使用「全部」標籤到「註解」標籤的連結。 如需有關更新物件的資訊，請參閱[更新工作](../updating-work-items-and-viewing-updates/update-work.md)。
 
-     >[!NOTE]
-     >
-     >「註解」和「系統」活動標籤會即時更新。 您必須重新整理[全部]索引標籤才能檢視最近的更新。
-
+  >[!NOTE]
+  >
+  >「註解」和「系統」活動標籤會即時更新。 您必須重新整理[全部]索引標籤才能檢視最近的更新。
 
 ### 不同物件「更新」區域的異同
 

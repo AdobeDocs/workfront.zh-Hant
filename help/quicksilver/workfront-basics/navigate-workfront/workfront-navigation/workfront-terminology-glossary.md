@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront] 字彙表列出 [!DNL Adobe Workfront]. Yo
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
+source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
 workflow-type: tm+mt
-source-wordcount: '20384'
+source-wordcount: '20938'
 ht-degree: 0%
 
 ---
@@ -629,8 +629,37 @@ ht-degree: 0%
   <tr> 
    <td>[！UICONTROL條件更新]</td> 
    <td> <p>此欄位顯示任務、專案或問題的目前狀況。 此選項會顯示任務、專案或問題的擁有者在[！UICONTROL更新狀態]欄位中提供的最新更新，以及新條件。</p> <p>條件更新的註解不會顯示在[！UICONTROL條件更新]欄中；只會顯示主要更新。</p> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
+   <td>[！UICONTROL連線的記錄型別]</td> 
+   <td> <p>在Workfront Planning中，您可以在下列其中一個專案之間建立連線： </p>
+   <ul>
+   <li>兩種記錄型別</li>
+   <li>記錄型別和Workfront物件型別</li>
+   <li>記錄型別和Adobe Experience Manager資產</li></ul>
+   <p>連線記錄型別可讓您顯示來自某一記錄或另一記錄型別物件型別的資訊。</p>
+   <p>如需詳細資訊，請參閱<a href="/help/quicksilver/planning/architecture/connect-record-types-overview.md">連線記錄型別概觀</a>  </p>
+  <p>Workfront Planning需要額外的授權。 </p>
+ </td> 
+  </tr>
+
+<tr> 
+   <td>[！UICONTROL連線記錄]</td> 
+   <td> <p>在Workfront Planning中，連線兩個記錄型別後，可以將這些型別的兩個個別記錄彼此連線。  </p>
+   <p>連線記錄可讓您顯示來自一個記錄的資訊，或來自另一個記錄上另一個應用程式的物件。</p>
+   <p>如需詳細資訊，請參閱<a href="/help/quicksilver/planning/records/connected-records-overview.md">連線記錄總覽</a>。 </p>
+
+<p>Workfront Planning需要額外的授權。 </p>
+ </td> 
+  </tr>
+
+<tr> 
+   <td>[！UICONTROL Connections]</td> 
+   <td> <p>在Workfront Planning中，連線可能指已連線的記錄型別或已連線的記錄。 Workfront Planning需要額外的授權。</p> </td> 
+  </tr>
+
+<tr> 
    <td>[！UICONTROL限制日期]</td> 
    <td> <p>若您使用繫結至特定日期的[！UICONTROL任務限制]，例如[！UICONTROL必須開始日期]，則該特定日期會成為任務的[！UICONTROL限制日期]。</p> <p>下列任務限制會更新[！UICONTROL限制日期]欄位：</p> 
     <ul> 
@@ -882,11 +911,11 @@ ht-degree: 0%
 
 <p>如需詳細資訊，請參閱<a href="../../../wf-api/general/api-explorer.md">API總管</a>和<a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md">文字模式總覽</a>。</p>
 
-<p>依預設，Workfront隨附一組定義物件及其資訊的欄位。 您也可以建立自訂欄位來定義物件，但無法建立自訂物件。</p> 
-   </td> 
-  </tr>
+<p>依預設，Workfront隨附一組定義物件及其資訊的欄位。 您也可以建立自訂欄位來定義物件，但無法建立自訂物件。</p>
 
-<tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
+<p>在Workfront Planning中，您可以為所有記錄型別建立自訂欄位。 Workfront記錄型別的欄位數量非常有限。 您必須從頭開始建立所有欄位，並將其與記錄型別建立關聯。 如需詳細資訊，請參閱<a href="/help/quicksilver/planning/fields/fields-overview.md">欄位概述</a>。 </p> <p>Workfront Planning需要額外的授權。 </p>   
+  </tr>
+  <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[！UICONTROL篩選器]</td> 
    <td> <p>定義要在畫面上顯示之資訊的報告或清單元素的主要建置區塊之一。 如需報告元素的詳細資訊，請參閱<a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">報告元素：篩選器、檢視和群組</a>。</p> <p>此篩選器會決定要在報表或[!DNL Workfront]面板清單中顯示的結果，例如專案、任務或問題。</p> </td> 
   </tr> 
@@ -1032,7 +1061,6 @@ The designated full time equivalency for users. A full-time user should have 100
    <li><b>已記帳與核准</b>：專案所有者已記錄與核準時數，且記帳記錄狀態已標示為已記帳。</li>
    </ul>
 
-
 <p>當時數是計費記錄的一部分時，時數狀態會指示時數是否已核准或他們所屬的計費記錄是否已計費。 小時輸入項的小時狀態僅會顯示在小時清單或報告中。 </p>
 
 <p>如需有關新增時數到計費記錄的詳細資訊，請參閱文章<a href="../../../manage-work/projects/project-finances/create-billing-records.md" >建立計費記錄</a>中的「新增時數到計費記錄」一節。</p>
@@ -1043,8 +1071,6 @@ The designated full time equivalency for users. A full-time user should have 100
 
 <p>未直接在工作專案上記錄的一般時數不會顯示時數狀態。 </p> </td> 
   </tr>
-
-
 
 <tr> 
    <td>[！UICONTROL小時型別]</td> 
@@ -1248,6 +1274,14 @@ The designated full time equivalency for users. A full-time user should have 100
   <tr> 
    <td>[！UICONTROL清單控制項]</td> 
    <td> <p>[！UICONTROL介面設定]的一部分，可將自訂篩選器、檢視和群組連結至個別使用者或全域連結至所有使用者。</p> </td> 
+  </tr> 
+<tr> 
+   <td>[！UICONTROL查詢欄位]</td> 
+   <td> <p>在Workfront Planning中，當您建立兩個記錄型別之間的連線，並將個別記錄連結在一起後，即可參照連結的記錄欄位。</p>
+   <p>例如，如果您將Campaign記錄型別與Workfront專案物件型別連線，則可以在行銷活動記錄上顯示已連線專案的「預算」欄位。 「預算」專案欄位是促銷活動專案的查詢欄位。</p> <p>查閱欄位的值會自動填入到其連線的記錄中。</p>
+   <p>如需詳細資訊，請參閱<a href="/help/quicksilver/planning/records/connected-records-overview.md">連線記錄總覽</a>。</p>
+   <p>Workfront Planning需要額外的授權。</p>
+    </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1798,8 +1832,26 @@ The designated full time equivalency for users. A full-time user should have 100
   <tr> 
    <td>[！UICONTROL就緒]</td> 
    <td> <p>任務報告上的此欄位會指出待處理專案上的[！UICONTROL Agile]任務是否已標籤為[！UICONTROL Ready]。 此標幟僅適用於[！UICONTROL Agile]任務，這些任務是指派給[！UICONTROL Agile]團隊的任務。 </p> </td> 
-  </tr> 
-  <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+  </tr>
+
+<tr> 
+   <td>[！UICONTROL記錄]</td> 
+   <td> <p>在Workfront Planning中，記錄是記錄型別的唯一例項。</p>
+<p>將記錄型別新增至工作區後，您就可以開始在記錄型別的頁面上新增該型別的記錄。</p>
+<p>例如，「Campaign」可以是記錄型別，「Summer Campaign for EMEA」是Campaign記錄型別的記錄。</p>
+<p>如需有關建立記錄的資訊，請參閱<a href="/help/quicksilver/planning/records/create-records.md">建立記錄</a>。 </p> <p>Workfront Planning需要額外的授權。 </p></td> 
+  </tr>
+
+
+<tr> 
+   <td>[！UICONTROL記錄型別]</td> 
+   <td> <p>Workfront計畫的物件型別。</p>
+<p>與Workfront預先定義物件型別不同，在Workfront Planning中，您可以建立自己的物件型別。Workfront Planning物件型別稱為記錄型別。</p>
+<p>例如，在Workfront中，已建立方案、Portfolio、專案、任務或問題的物件型別。</p>
+<p>在Workfront Planning中，您可以建立符合組織工作流程的任何記錄型別。 稍後，您可以定義記錄型別如何相互關聯或表單相依性。</p> 如需有關建立記錄型別的資訊，請參閱<a href="/help/quicksilver/planning/architecture/create-record-types.md">建立記錄型別</a>。 </p> <p>Workfront Planning需要額外的授權。 </p></td> 
+  </tr>
+
+<tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td>[！UICONTROL遞回頻率]</td> 
    <td> <p>顯示在[！UICONTROL任務詳細資訊]或遞回任務之父級的[！UICONTROL編輯任務]方塊中的欄位。 這是工作週期性發生的頻率。 如需有關建立週期性工作的資訊，請參閱<a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">建立週期性工作</a>。 </p> </td> 
   </tr> 
@@ -2340,7 +2392,14 @@ The designated full time equivalency for users. A full-time user should have 100
   <tr> 
    <td>[！UICONTROL檢視]</td> 
    <td> <p>檢視參考報表元素，可讓您修改報表或物件清單中的欄。</p> 
-   <p> 檢視也指使用者根據其存取層級或物件的許可權共用層級，僅檢視物件資訊的權利。</p> </td> 
+   <p> 檢視也指使用者根據其存取層級或物件的許可權共用層級，僅檢視物件資訊的權利。</p> 
+   <p>在Workfront Planning中，記錄會以下列檢視型別之一顯示在記錄型別頁面上：</p>
+   <ul><li>表格</li>
+   <li>時間表</li>
+   <li>行事曆</li></ul>
+   <p>在Workfront Planning中，檢視包括套用至畫面上記錄的篩選器、群組、排序和其他設定。</p> <p>如需詳細資訊，請參閱<a href="/help/quicksilver/planning/views/manage-record-views.md">管理記錄檢視</a>。</p>   
+   <p>Workfront Planning需要額外的授權。</p>
+   </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL檢檢視示]</td> 
@@ -2481,6 +2540,15 @@ The designated full time equivalency for users. A full-time user should have 100
    <p>valueformat=HTML</p>
    </code>
     <p>如需有關使用文字模式的資訊，請參閱<a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">文字模式語法概述</a>。 </p> </td> 
+  </tr>
+
+<tr> 
+   <td>[！UICONTROL Workspace] </td> 
+   <td> <p>在Workfront Planning中，工作區是定義特定組織作業生命週期的記錄型別集合。 工作區是組織單位的工作框架。</p>
+   <p>Workfront Planning需要額外的授權。 </p>
+   <p>如需詳細資訊，請參閱<a href="/help/quicksilver/planning/architecture/create-workspaces.md">建立工作區</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+
