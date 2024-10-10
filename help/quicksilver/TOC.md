@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
+source-git-commit: ac14cbb856181f2bef5ab69a9d5408ef8137190f
 workflow-type: tm+mt
-source-wordcount: '14482'
+source-wordcount: '14488'
 ht-degree: 2%
 
 ---
@@ -2319,7 +2319,7 @@ ht-degree: 2%
       * [MariaDB模組](workfront-fusion/apps-and-their-modules/mariadb-modules.md)
       * [Markdown模組](workfront-fusion/apps-and-their-modules/markdown-modules.md)
       * [Marketo模組](workfront-fusion/apps-and-their-modules/marketo-modules.md)
-      * [Math](workfront-fusion/apps-and-their-modules/math-module.md)
+      * [數學](workfront-fusion/apps-and-their-modules/math-module.md)
       * [Microsoft Dynamics 365模組](workfront-fusion/apps-and-their-modules/microsoft-dynamics-365-modules.md)
       * [Microsoft Office 365行事曆](workfront-fusion/apps-and-their-modules/microsoft-365-calendar-modules.md)
       * [Microsoft Office 365電子郵件](workfront-fusion/apps-and-their-modules/microsoft-365-email-modules.md)
@@ -2704,6 +2704,7 @@ ht-degree: 2%
       * [使用JWT流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-jwt-flow.md)
       * [使用PKCE流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-pkce-flow.md)
       * [棄用API — 內部](wf-api/api/deprecation-api-internal.md)
+      * [ API 19](wf-api/api/new-api-version-19.md)版的新增功能
       * [API 18版的新增功能](wf-api/api/new-api-version-18.md)
       * [API 17版的新增功能](wf-api/api/new-api-version-17.md)
       * [API 16版的新增功能](wf-api/api/new-api-version-16.md)
