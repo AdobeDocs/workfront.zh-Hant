@@ -5,9 +5,9 @@ title: 從舊版首頁移至新首頁
 description: 舊版首頁將於2017年第4季版本中從Workfront移除。 本文提供新首頁將可使用哪些功能的相關資訊，以及將使用者移至「新首頁」體驗的建議。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 9a71080c732363bf346b18d3bf61353c6c3859f7
+source-git-commit: e63180a5d2b542f98c96ec5a2bd2fb0df078bb11
 workflow-type: tm+mt
-source-wordcount: '1641'
+source-wordcount: '1596'
 ht-degree: 5%
 
 ---
@@ -51,12 +51,12 @@ ht-degree: 5%
 * 我的工作
 * 我的任務
 * 我的問題
-* 等待我的核准
+* 我的核准
 
 使用者可在下列Widget中找到委派給他們的工作：
 
 * 使用「委派給我」篩選器的我的工作Widget
-* 使用已委派核准篩選器等待我的核准
+* 使用受委派核准篩選器的我的核准
 
 | **舊版首頁** | **新首頁** |
 |------------|-----------|
@@ -72,10 +72,7 @@ ht-degree: 5%
 
 #### 檢視我已提交的核准
 
-使用者無法檢視他們已在新首頁提交的核准。 如果您的組織中的使用者需要此功能，您可以建置核准報告作為因應措施，或在以下社群貼文中投票或發表評論：
-
-* [新增「我已提交的核准」Widget](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/add-quot-approvals-i-submitted-quot-widget-to-new-home/idc-p/704664#M25269)
-* [新增[我已提交的核准]至新首頁](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/add-quot-approvals-i-submitted-quot-widget-to-new-home/idc-p/704664#M25269)
+使用者可以使用我已提交的核准篩選器，在我核准的Widget中檢視他們在新首頁提交的核准。
 
 #### 新增專案至我的優先順序
 
@@ -131,7 +128,7 @@ Workfront管理員可以自訂哪些欄位會出現在版面配置範本的摘�
 
 使用者仍然可以使用以下Widget在「新首頁」中管理核准和團隊請求：
 
-* 正等待我的核准
+* 我的核准
 * 所有核准
 * 團隊請求
 
@@ -167,7 +164,7 @@ Workfront管理員可使用版面配置範本自訂「新首頁」中可用的Wi
 * **團隊要求**\
     顯示您所在團隊的所有待處理請求 (依團隊排序)，以及用於直接將請求指派給使用者或自行處理請求的按鈕。
 
-* **正在等待我的核准**\
+* **我的核准**\
     顯示所有待指派或委派的核准、用於委派核准的按鈕，以及用於直接在 Widget 中做出核准決策的按鈕。
 
 * **所有核准**\
@@ -202,15 +199,15 @@ Workfront管理員可使用版面配置範本自訂「新首頁」中可用的Wi
     </tr>
     <tr>
         <td>精簡</td>
-        <td>我的工作，等待我的核准</td>
+        <td>我的工作，我的核准</td>
     </tr>
     <tr>
         <td>貢獻者</td>
-        <td>我的請求、提及、等待我的核准、面板</td>
+        <td>我的請求、提及、我的核准、面板</td>
     </tr>
     <tr>
         <td>外部</td>
-        <td>等待我的核准</td>
+        <td>我的核准</td>
     </tr>
 </table>
 
@@ -233,7 +230,7 @@ Workfront管理員可使用版面配置範本自訂「新首頁」中可用的Wi
     </tr>
     <tr>
         <td>請求</td>
-        <td>我的專案，等待我的核准</td>
+        <td>我的專案，我的核准</td>
     </tr>
     <tr>
         <td>參與</td>
@@ -241,7 +238,7 @@ Workfront管理員可使用版面配置範本自訂「新首頁」中可用的Wi
     </tr>
     <tr>
         <td>外部</td>
-        <td>等待我的核准</td>
+        <td>我的核准</td>
     </tr>
 </table>
 

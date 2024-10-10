@@ -5,9 +5,9 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f69cbb95-e7fe-4f8f-a7e7-7693c968e76c
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '851'
 ht-degree: 0%
 
 ---
@@ -32,13 +32,13 @@ ht-degree: 0%
 
 ## 新的貢獻者預設登陸頁面：新首頁
 
-新首頁現在是貢獻者/請求者帳戶的預設登陸頁面。 這個新的預設首頁包含許多特別選取的Widget，以便最佳地讓貢獻者立即管理其工作。 第一次造訪頁面時，系統也會指示貢獻者使用新首頁，以及自訂逐步說明中預設可用的特定Widget。 貢獻者的預設Widget包括：我的請求、提及、等待我的核准，以及面板。 請注意，如果貢獻者帳戶目前正在使用具有自訂首頁的版面，則仍將保留其首頁。
+新首頁現在是貢獻者/請求者帳戶的預設登陸頁面。 這個新的預設首頁包含許多特別選取的Widget，以便最佳地讓貢獻者立即管理其工作。 第一次造訪頁面時，系統也會指示貢獻者使用新首頁，以及自訂逐步說明中預設可用的特定Widget。 貢獻者的預設Widget包括：我的請求、提及、我的核准和面板。 請注意，如果貢獻者帳戶目前正在使用具有自訂首頁的版面，則仍將保留其首頁。
 
 如需有關使用新首頁的詳細資訊，請參閱[開始使用新首頁](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)。
 
 ## 新首頁中的工作追蹤的變更
 
-根據使用者回饋，我們已移除頁面範圍時間範圍篩選器和摘要列，用於統計到期和完成的工作。 專案、任務和問題Widget各有內建的篩選功能，可讓您依個人情況自訂其範圍。 此外，這些Widget現在只會包含目前根據狀態為作用中的內容，確保他們追蹤的工作永遠相關。 我們也將顯示專案計數泡泡的Widget限制在最實用的地方：我的工作、提及、等待我的核准和待辦事項。
+根據使用者回饋，我們已移除頁面範圍時間範圍篩選器和摘要列，用於統計到期和完成的工作。 專案、任務和問題Widget各有內建的篩選功能，可讓您依個人情況自訂其範圍。 此外，這些Widget現在只會包含目前根據狀態為作用中的內容，確保他們追蹤的工作永遠相關。 我們也已將顯示專案計數泡泡的Widget限製為最實用的專案：我的工作、提及、我的核准和待辦事項。
 
 如需新首頁追蹤工作的詳細資訊，請參閱[開始使用新首頁](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)。
 

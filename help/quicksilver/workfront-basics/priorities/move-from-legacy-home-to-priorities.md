@@ -5,9 +5,9 @@ description: 舊版首頁將於2017年第4季版本中從Workfront移除。 本�
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 4e2b59a93137e6b4cbe9dab0d4e6c1467bc0cc4b
+source-git-commit: e63180a5d2b542f98c96ec5a2bd2fb0df078bb11
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '564'
 ht-degree: 3%
 
 ---
@@ -80,13 +80,13 @@ ht-degree: 3%
 
 #### 檢視我已提交的核准
 
-使用者無法檢視他們在「優先順序」中提交的核准。 作為因應措施，使用者可以建立核准報告以檢視此資訊。
+使用者無法檢視他們在「優先順序」中提交的核准。 作為因應措施，使用者可以使用我已提交的核准篩選選項，在首頁中的我的核准Widget中檢視此資訊。
 
 ### 檢視核准和團隊請求
 
 使用者無法在「優先順序」中與核准和團隊請求互動。 但是，他們可以使用以下Widget在「新首頁」中管理核准和團隊請求：
 
-* 正等待我的核准
+* 我的核准
 * 所有核准
 * 團隊請求
 

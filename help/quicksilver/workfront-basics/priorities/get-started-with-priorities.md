@@ -5,9 +5,9 @@ description: 優先順序是為任務所有者量身打造的簡化且直覺式�
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 4e2b59a93137e6b4cbe9dab0d4e6c1467bc0cc4b
+source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '882'
 ht-degree: 3%
 
 ---
@@ -176,7 +176,7 @@ ht-degree: 3%
 
 檢閱和核准資產的能力在優先順序藍圖上。
 
-目前，我們建議在新首頁中使用等待我核准和所有核准Widget。
+目前，我們建議在新首頁中使用我的核准和所有核准Widget 。
 
 如需詳細資訊，請參閱新首頁](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)中的[新增、編輯或移除Widget。
 

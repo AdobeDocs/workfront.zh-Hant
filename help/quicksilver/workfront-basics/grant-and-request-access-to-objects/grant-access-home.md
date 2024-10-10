@@ -6,9 +6,9 @@ description: 使用者可以要求存取Adobe Workfront中的物件。 如需請
 author: Alina
 feature: Get Started with Workfront
 exl-id: e0a69ed5-57c3-47ac-bb7a-65495f93b3e3
-source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
+source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ ht-degree: 0%
 
 1. （視條件而定）從新的「首頁」區域，執行下列動作：
 
-   1. 移至&#x200B;**等待我的核准** Widget並尋找更多存取權的要求，然後按一下&#x200B;**授與存取權**。
+   1. 移至&#x200B;**我的核准** Widget並尋找更多存取權的要求，然後按一下&#x200B;**授與存取權**。
 
       ![](assets/request-for-access-to-project-in-new-home-approvals-widget.png)
 

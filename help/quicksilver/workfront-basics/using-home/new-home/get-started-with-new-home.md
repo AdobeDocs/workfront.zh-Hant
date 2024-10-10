@@ -6,10 +6,10 @@ description: 新首頁是管理您工作的強大新功能。 您可以自訂此
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 233016ccc574118df705b857092d647767c05835
+source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
 workflow-type: tm+mt
-source-wordcount: '1173'
-ht-degree: 5%
+source-wordcount: '1168'
+ht-degree: 3%
 
 ---
 
@@ -56,8 +56,8 @@ Widget是新首頁的基礎。 將Widget新增至首頁後，您就可以選擇�
 * **團隊要求**\
     顯示您所在團隊的所有待處理請求 (依團隊排序)，以及用於直接將請求指派給使用者或自行處理請求的按鈕。
 
-* **正在等待我的核准**\
-    顯示所有待指派或委派的核准、用於委派核准的按鈕，以及用於直接在 Widget 中做出核准決策的按鈕。
+* **我的核准**\
+    顯示所有擱置、已指派、已委派及已提交的核准；委派核准的按鈕；以及直接在Widget內做出核准決策的按鈕。
 
 * **所有核准**\
         顯示2個圖表，內含平均核准時間和決定的相關資訊，以及擱置和逾期核准的清單檢視。 <span style="color: #ff0000;">此功能是分階段發行的一部分，目前僅供特定客戶使用。</span>
@@ -85,15 +85,15 @@ Widget是新首頁的基礎。 將Widget新增至首頁後，您就可以選擇�
     </tr>
     <tr>
         <td>精簡</td>
-        <td>我的工作，等待我的核准</td>
+        <td>我的工作，我的核准</td>
     </tr>
     <tr>
         <td>貢獻者</td>
-        <td>我的請求、提及、等待我的核准、面板</td>
+        <td>我的請求、提及、我的核准、面板</td>
     </tr>
     <tr>
         <td>外部</td>
-        <td>等待我的核准</td>
+        <td>我的核准</td>
     </tr>
 </table>
 
@@ -116,7 +116,7 @@ Widget是新首頁的基礎。 將Widget新增至首頁後，您就可以選擇�
     </tr>
     <tr>
         <td>請求</td>
-        <td>我的專案，等待我的核准</td>
+        <td>我的專案，我的核准</td>
     </tr>
     <tr>
         <td>參與</td>
@@ -124,7 +124,7 @@ Widget是新首頁的基礎。 將Widget新增至首頁後，您就可以選擇�
     </tr>
     <tr>
         <td>外部</td>
-        <td>等待我的核准</td>
+        <td>我的核准</td>
     </tr>
 </table>
 
