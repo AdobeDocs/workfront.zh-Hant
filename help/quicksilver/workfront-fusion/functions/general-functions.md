@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion對應面板中有以下一般函式。
 author: Becky
 feature: Workfront Fusion
 exl-id: 74bfda4e-5690-4b8c-ac58-20cf261f188d
-source-git-commit: 4cca9738ad9537247234faa0b1c441163d4e315f
+source-git-commit: 5cd1cbd1976d5574668098be53daee780a9cc1fb
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -161,3 +161,8 @@ ht-degree: 0%
 >`pick(`使用者`;`密碼`;`電子郵件`)`
 >
 >只傳回使用者密碼和電子郵件地址的集合。
+
+## mergeCollections(collection1 ； collection2)
+
+結合兩個集合的機碼值組以將其合併。 如果兩個集合包含相同的索引鍵，則第二個集合的值會覆寫第一個集合的值。
+

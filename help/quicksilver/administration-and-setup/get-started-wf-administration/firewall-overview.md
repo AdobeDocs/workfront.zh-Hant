@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: 5cd1cbd1976d5574668098be53daee780a9cc1fb
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '724'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 這是透過允許清單來完成，其實質為「允許」透過防火牆傳送或接收資料的網站「清單」。 您可以使用下列兩種方式之一來識別網站：
 
 * **IP位址**：一系列數字，例如52.31.132.175
-* **網域**： URL的一部分，例如www.thisdomain.com中的「thisdomain」
+* **網域**： URL的一部分，例如`www.thisdomain.com`中的`thisdomain`。
 
 Workfront使用特定的IP位址和網域進行網頁通訊。 必須先將這些專案新增到貴組織的允許清單中，您才能在組織中使用Workfront。
 
