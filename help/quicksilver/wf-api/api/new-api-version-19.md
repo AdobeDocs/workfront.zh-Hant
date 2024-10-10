@@ -6,9 +6,9 @@ description: Adobe Workfront於2022年4月6日發行API第19版。 API 19版具�
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: e3f50efa03a43c44e9defd0a724b0516504b0e83
+source-git-commit: 13910328903744aa9bf619e8b4c376520c21b89e
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '970'
 ht-degree: 0%
 
 ---
@@ -384,7 +384,7 @@ Parameter物件是自訂欄位。
             </ul>
           </li>
           <li>
-            <p><b>顯示型別</b></p><p>已新增下列可能值：
+            <p><b>顯示型別</b></p><p>為了建立更方便使用者且更彈性的系統，<b>Widget (WIDGET)</b>欄位型別已過時，並分割為下列欄位型別：
             <ul>
             <li>Adobe XD (ADOBEXD)</li>
             <li>影像（影像）</li>
@@ -444,7 +444,7 @@ ScoreCardQuestion物件代表已新增至計分卡的問題。 這些問題通�
     <tr>
       <td role="rowheader">直接欄位</td>
       <td>
-            <p><b>顯示型別</b></p><p>已新增下列可能值：
+            <p><b>顯示型別</b></p><p>為了建立更方便使用者且更彈性的系統，<b>Widget (WIDGET)</b>欄位型別已過時，並分割為下列欄位型別：
             <ul>
             <li>Adobe XD (ADOBEXD)</li>
             <li>影像（影像）</li>
