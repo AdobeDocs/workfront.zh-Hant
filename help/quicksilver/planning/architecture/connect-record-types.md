@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 7b5441b2aa17b22f0fd54cfe4921aa5dab2e0461
 workflow-type: tm+mt
-source-wordcount: '2196'
+source-wordcount: '2222'
 ht-degree: 1%
 
 ---
@@ -268,13 +268,15 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
    沒有縮圖影像的記錄會改為顯示記錄型別圖示。 在&#x200B;**記錄外觀**&#x200B;區域顯示連線記錄的範例。
 
-   >[!TIP]
+   >[!NOTE]
    >
-   >    當您允許連結多個記錄時，只顯示縮圖可能會節省較小區域（例如記錄檢視）的空間。
+   >* 當您允許連結多個記錄時，只顯示縮圖可能會節省較小區域（例如記錄檢視）的空間。
    >
-   >記錄的名稱是記錄的主要欄位。 如需詳細資訊，請參閱[主要欄位概述](/help/quicksilver/planning/fields/primary-field-overview.md)。
+   >* 記錄的名稱是記錄的主要欄位。 如需詳細資訊，請參閱[主要欄位概述](/help/quicksilver/planning/fields/primary-field-overview.md)。
    >
-   >選取Workfront物件型別時，無法選取記錄外觀。
+   >* 選取Workfront物件型別時，無法選取記錄外觀。
+   >
+   >* 您在「記錄」外觀區域中選取的內容會決定記錄在系統所有位置的連線中的顯示方式，包括所有檢視和「詳細資訊」頁面。
 
 1. 按一下「**建立**」。
 

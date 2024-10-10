@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 39ea0d53-ec31-4644-b772-cfe260b8e013
-source-git-commit: 85e27a1e7979eadf2731be9aaca9279a82587bbf
+source-git-commit: 7b5441b2aa17b22f0fd54cfe4921aa5dab2e0461
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 0%
+source-wordcount: '941'
+ht-degree: 1%
 
 ---
 
@@ -62,6 +62,7 @@ Workfront檔案how-to文章包含一個表格，說明該程式所需的存取�
    <li>Workfront Fusion</li>
    <li>Workfront Goals</li>
    <li>Workfront 情境規劃工具</li>
+   <li>Workfront 規劃</li>
    </ul>
    <p>若要瞭解您的組織是否已購買這些額外產品之一，請聯絡您的Workfront管理員。</p></td> 
   </tr> 
