@@ -4,9 +4,9 @@ description: 2024年第四季首頁增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 9de54aafb07d5c5858494c51356ae9322e1a0f79
+source-git-commit: e48ef14cc3d0377a6d95f68b502f952ffe4880c4
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,19 @@ ht-degree: 0%
 本頁說明2024年第四季版本對「預覽」環境所做的所有首頁增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2024年第四季版本週期目前可用的所有變更清單，請參閱[2024年第四季版本概觀](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)。
+
+## 新首頁等待我核准Widget的更新
+
+>[!NOTE]
+>
+>預覽版本： 2024年10月10日；適用於所有客戶的生產版本： 2024年10月10日。
+
+我們已對「等待我的核准」Widget進行下列變更：
+
+* **已重新命名Widget**：此Widget的名稱現在是「我的核准」。
+* **已新增我作為篩選選項提交的核准**：您現在可以使用此Widget檢視您在新首頁提交的核准。
+
+如需詳細資訊，請參閱[開始使用新首頁](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)。
 
 ## 透過優先順序簡化任務擁有者的Workfront體驗
 

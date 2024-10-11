@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
-source-git-commit: 4f7e664123785235179418faa2a630e3c4c1c4d0
+source-git-commit: e48ef14cc3d0377a6d95f68b502f952ffe4880c4
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 0%
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽版本：~~2024年8月12日~~；快速版本的生產：不適用；每季發行的生產：不適用
+>~~預覽版本：2024年8月12日~~；快速版本的生產：不適用；每季發行的生產：不適用
 >
 >_此功能已從[預覽]中移除，未來任何發行版本都不會發行此功能。_
 

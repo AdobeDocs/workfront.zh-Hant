@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 4f7e664123785235179418faa2a630e3c4c1c4d0
+source-git-commit: e48ef14cc3d0377a6d95f68b502f952ffe4880c4
 workflow-type: tm+mt
-source-wordcount: '2017'
+source-wordcount: '2098'
 ht-degree: 0%
 
 ---
@@ -36,8 +36,8 @@ ht-degree: 0%
 
 * [管理員增強功能](#administrator-enhancements)
 * [檔案管理增強功能](#document-management-enhancements)
-* [整合增強功能](#integration-enhancements)
 * [首頁增強功能](#home-enhancements)
+* [整合增強功能](#integration-enhancements)
 * [專案增強功能](#project-enhancements)
 * [校訂增強功能](#proofing-enhancements)
 * [報表與控制面板增強功能](#report-and-dashboard-enhancements)
@@ -164,6 +164,23 @@ ht-degree: 0%
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
                             <li>
+                                <p><s>預覽版本： 2024年10月3日</s></p>
+                            </li>
+                            <li>
+                                <p>適用於所有客戶的生產版本：24.10版本（2024年10月17日）</p>
+                            </li>
+                            <p><i>此功能已暫時從預覽中移除。</i></p>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-document-mgmt-enhancements.md">快速將先前的稽核者和核准者新增至新檔案版本</a></p>
+                        <p>您現在可以從先前的檔案版本快速新增稽核者和核准者。</p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
                                 <p>預覽版本： 2024年10月3日</p>
                             </li>
                             <li>
@@ -172,10 +189,56 @@ ht-degree: 0%
                         </ul>
                     </td>
                 </tr>
+           </tbody>
+</table>
+
+### 首頁增強功能
+
+<table>
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
+            <tbody>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-document-mgmt-enhancements.md">快速將先前的稽核者和核准者新增至新檔案版本</a></p>
-                        <p>您現在可以從先前的檔案版本快速新增稽核者和核准者。</p>
+                        <p><span class="bold">功能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">發行日期</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md">新首頁中「等待我核准」Widget的更新</a></p>
+                        [！BADGE In Production ]{type=Informative}
+                        <p>我們已對「等待我的核准」Widget進行下列變更：</p>
+                            <ul>
+                                <li>已重新命名Widget：此Widget的名稱現在是「我的核准」。</li>
+                                <li>新增我已提交作為篩選選項的核准：您現在可以使用此Widget檢視您在新首頁提交的核准。</li>
+                            </ul>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本： 2024年10月10日</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">所有客戶的生產版本： 2024年10月10日</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md">介紹優先順序：為任務擁有者提供更簡單、簡化且直覺式的Workfront體驗</a></p>
+                        <p>優先順序可加強關注度與生產力，協助客戶在更短的時間內完成更多工作。</p>
+                        <p>優先順序可讓您享受：</p>
+                            <ul>
+                                <li>管理日常工作並排定優先順序：透過整合式導覽來整理您的日或周，以更清楚明瞭。</li>
+                                <li>提高生產力：存取專案情境，並透過更少的點按動作更快執行工作。</li>
+                                <li>個人化功能：受益於專為任務所有者設計的功能。</li>
+                            </ul>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
@@ -226,48 +289,6 @@ ht-degree: 0%
                 </tr>
            </tbody>
 </table>
-
-### 首頁增強功能
-
-<table>
-        <col style="width: 50%;" />
-        <col style="width: 50%;" />
-            <tbody>
-                <tr>
-                    <td>
-                        <p><span class="bold">功能</span>
-                        </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">發行日期</span>
-                        </p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md">介紹優先順序：為任務擁有者提供更簡單、簡化且直覺式的Workfront體驗</a></p>
-                        <p>優先順序可加強關注度與生產力，協助客戶在更短的時間內完成更多工作。</p>
-                        <p>優先順序可讓您享受：</p>
-                        <ul>
-                        <li>管理日常工作並排定優先順序：透過整合式導覽來整理您的日或周，以更清楚明瞭</li>
-                        <li>提高生產力：存取專案情境，並透過更少的點按動作更快執行工作</li>
-                        <li>個人化功能：受益於專為任務所有者設計的功能</li>
-                        </ul>
-                    </td>
-                    <td><p><b>將於下列日期提供：</b></p>
-                        <ul>
-                            <li>
-                                <p>預覽版本： 2024年10月3日</p>
-                            </li>
-                            <li>
-                                <p>適用於所有客戶的生產版本：24.10版本（2024年10月17日）</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-           </tbody>
-</table>
-
 
 ### 專案增強功能
 
@@ -542,11 +563,11 @@ Workfront Planning的新功能可在生產環境中使用。 如需最新功能�
 
 此版本中目前沒有Workfront目標更新。 在有更新可用時，此區域將會更新。
 
-### API 18版
+### API 19版
 
-針對API版本18，我們已修改一些資源和端點。 有些變更支援新功能，有些則讓您更輕鬆地透過API使用可用資訊。
+針對API版本19，我們已修改一些資源和端點。 有些變更支援新功能，有些則讓您更輕鬆地透過API使用可用資訊。
 
-如需新增和更新的詳細資訊，請參閱[ API 18](/help/quicksilver/wf-api/api/new-api-version-18.md)版的新增功能。
+如需新增和更新的詳細資訊，請參閱[ API 19](/help/quicksilver/wf-api/api/new-api-version-19.md)版的新增功能。
 
 如需API版本的資訊，請參閱[API版本設定與支援排程](/help/quicksilver/wf-api/api/api-version-support-schedule.md)。
 
