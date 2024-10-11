@@ -7,9 +7,9 @@ description: Workfront Proof可讓您從檔案或網站建立校樣，並和其�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 49657851-2948-4d3b-b2ce-c8359eeb315b
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
-source-wordcount: '2253'
+source-wordcount: '2257'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ ht-degree: 0%
 
      如需共用校訂的詳細資訊，請參閱[在 [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)內共用校訂{新增使用者至校訂}。
 
-   * **自動化：**&#x200B;選取此選項，可在您有複雜的稽核程式，或您定期傳送內容給相同群組人員稽核時，管理內容稽核與核准。 使用自動化工作流程時，校樣會從不同階段移至不同階段，直到最後核准為止。 任何時候需要相關使用者進行核準時，他們都會收到通知。
+   * **自動化：**&#x200B;選取此選項，可在您有複雜的稽核程式，或您定期傳送內容給相同群組人員稽核時，管理內容稽核與核准。 使用自動化工作流程時，校樣會從不同階段移至不同階段，直到最後核准為止。 任何時候相關使用者都需要進行核準時，都會收到通知。
 
      如需有關建立自動化工作流程的詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md#create2)中使用自動化工作流程設定校訂。
 
@@ -106,7 +106,7 @@ ht-degree: 0%
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">此證明只需一個決定</td> 
+      <td role="rowheader">此校訂只需要一個決定</td> 
       <td> <p>選取此選項時，稽核會在其中一位決策者做出決定後完成。</p> <p>此選項預設為停用。</p> </td> 
      </tr> 
      <tr> 
@@ -122,7 +122,7 @@ ht-degree: 0%
       <td> <p><strong></strong> 選取此選項時，稽核者可下載從中建立校訂的原始檔案。</p> <p>取消選取此選項時，不再顯示「下載」圖示。<br>此選項預設為啟用。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">透過公開URL或內嵌代碼共用校訂</td> 
+      <td role="rowheader">透過公開URL或內嵌程式碼共用校訂</td> 
       <td>選取此選項時，可透過公用URL或內嵌程式碼共用校訂。</td> 
      </tr> 
      <tr> 
@@ -199,7 +199,7 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader">互動</td> 
-      <td> <p>建立校訂，讓檢閱者導覽網站、檢視HTML5影像、Flash元素等。</p> <p>為了建立互動式校樣，網站必須以安全通訊協定(https)託管。 此外，無法在iframe中嵌入的網站無法產生為互動式校樣（iframe嵌入限制由您嘗試嵌入的網站控制）。</p> <p>建立初始校訂後，建立後續版本時無法變更此設定。</p> <p>如需互動式校訂的詳細資訊，請參閱<a href="#generate-a-proof-for-interactive-content" class="MCXref xref">產生互動式內容的校訂</a>。</p> </td> 
+      <td> <p>建立校訂，讓檢閱者導覽網站、檢視HTML5影像、Flash元素等。</p> <p>若要建立互動式校樣，網站必須以安全通訊協定(https)代管。 此外，無法在iframe中嵌入的網站無法產生為互動式校樣（iframe嵌入限制由您嘗試嵌入的網站控制）。</p> <p>建立初始校訂後，建立後續版本時無法變更此設定。</p> <p>如需互動式校訂的詳細資訊，請參閱<a href="#generate-a-proof-for-interactive-content" class="MCXref xref">產生互動式內容的校訂</a>。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">熒幕擷圖解析度</td> 
@@ -220,7 +220,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL 完成]**。
 
-   如果您將新版本新增至現有的URL校訂，此版本會維護在原始校訂或先前版本設定的任何選項。如果您將新版本新增至現有的URL校訂，此版本會維護在原始校訂或先前版本設定的任何選項。
+   如果您將新版本新增至現有的URL校訂，任何在原始校訂或先前版本上設定的選項將保留在此版本中。 如果您將新版本新增至現有的URL校訂，任何在原始校訂或先前版本上設定的選項將保留在此版本中。
 
 1. 按一下&#x200B;**[!UICONTROL 建立校訂]**。
 

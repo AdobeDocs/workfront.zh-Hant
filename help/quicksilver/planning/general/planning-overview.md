@@ -1,14 +1,14 @@
 ---
 title: Adobe Workfront規劃概觀
-description: Adobe Workfront規劃是Adobe Workfront的新產品。 您可以建立可完全自訂的工作區，以定義符合企業內每個組織單位需求的工作流程。
+description: Adobe Workfront Planning是Adobe Workfront的額外功能。 您可以建立可完全自訂的工作區，以定義符合企業內每個組織單位需求的工作流程。
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
-source-wordcount: '2102'
+source-wordcount: '2116'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->本文資訊旨在說明Adobe Workfront的新產品Adobe Workfront Planning。
+>本文資訊說明Adobe Workfront的額外功能Adobe Workfront Planning。
 >
 >您必須具備下列專案才能存取Workfront Planning：
 >
@@ -44,9 +44,9 @@ ht-degree: 1%
 
 ## Adobe Workfront規劃簡介
 
-Adobe Workfront規劃是Adobe Workfront的新產品。 Workfront Planning的目的在於全面掌握組織的營運細節，並回答工作管理生命週期各階段的關鍵業務問題。
+Adobe Workfront Planning是Adobe Workfront的額外功能。 Workfront Planning的目的在於全面掌握組織的營運細節，並回答工作管理生命週期各階段的關鍵業務問題。
 
-團隊和領導力需要這些問題的明確答案，例如：
+Workfront Planning可回答下列問題：
 
 * 第4季我們在EMEA執行多少行銷活動？
 * 並行行銷活動之間是否有任何對象重疊？
@@ -69,7 +69,7 @@ Adobe Workfront規劃是Adobe Workfront的新產品。 Workfront Planning的目�
 
 如需新功能及其發行時間的詳細資訊，請參閱[2024年Adobe Workfront計畫發行活動](/help/quicksilver/planning/general/release-activity.md)。
 
-下列是目前可在Workfront Planning中使用的功能：
+Workfront Planning目前提供下列功能：
 
 * 建立工作區
 * 建立記錄型別
@@ -92,7 +92,7 @@ Adobe Workfront規劃是Adobe Workfront的新產品。 Workfront Planning的目�
 * 自訂記錄頁面的配置
 * 共用工作區
 * 共用檢視
-* 與外部資源公開共用檢視
+* 與任何外部資源公開共用檢視，包括非Workfront使用者的使用者
 * 重複檢視
 * 提交請求以建立記錄
 * 將記錄詳細資料匯出至Word <span class="preview">和PDF。</span>
@@ -161,11 +161,11 @@ Adobe Workfront規劃是Adobe Workfront的新產品。 Workfront Planning的目�
 
 ## 為您的Workfront例項中的使用者啟用Workfront Planning
 
-貴組織購買Workfront Planning的授權後，必須先具備下列條件，您才能存取Workfront Planning：
+貴組織購買Workfront Planning的授權後，身為Workfront管理員，您必須確保已具備下列專案，使用者才能存取Workfront Planning：
 
-* 您的Workfront管理員必須將您指派給配置範本，該範本包含主功能表中的Planning。 如需詳細資訊，請參閱[使用配置範本自訂主功能表](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)和[將使用者指派給配置範本](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)。
+* 指派需要存取Planning版面配置範本的使用者，該範本包含主功能表中的Planning。 如需詳細資訊，請參閱[使用配置範本自訂主功能表](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)和[將使用者指派給配置範本](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)。
 
-* 您的Workfront管理員必須為您指派Workfront授權和Workfront Planning許可權，以允許您在Workfront Planning中檢視或建立物件。 如需授與存取權給其他人以及允許其他人使用Workfront Planning的詳細資訊，請參閱[存取權概觀](/help/quicksilver/planning/access/access-overview.md)。
+* 為使用者指派Workfront授權和Workfront Planning許可權，讓您以5554hview在Workfront Planning中建立物件。 如需授與存取權給其他人以及允許其他人使用Workfront Planning的詳細資訊，請參閱[存取權概觀](/help/quicksilver/planning/access/access-overview.md)。
 
 ## Workfront規劃術語
 
@@ -183,7 +183,7 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
 
   如需詳細資訊，請參閱[建立工作區](/help/quicksilver/planning/architecture/create-workspaces.md)。
 
-* **記錄型別**： Workfront計畫的物件型別。
+* **記錄型別**： Workfront Planning中的物件型別名稱。
 
   與Workfront （預先定義物件型別）不同，您可以在Workfront Planning中建立自己的物件型別。
 
@@ -298,7 +298,7 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
 
   ![](assets/view-types-drop-down-from-record-type-list.png)
 
-  檢視包含特定檢視型別的個人化設定，例如欄位清單（欄）、記錄清單（列）、其順序（排序）、套用或適用的篩選和分組。
+  檢視包含特定檢視型別的個人化設定，例如欄位清單（欄）、記錄清單（列）、其順序（排序）、套用或適用的篩選以及分組。
 
   以下是您可以套用至記錄型別頁面的檢視型別：
 
@@ -318,7 +318,7 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
 
 ## 找到Adobe Workfront Planning
 
-確保您的組織已獲得Workfront Planning的存取權，且您的系統或群組管理員已將Planning區域新增至您的主功能表。 如需詳細資訊，請參閱[存取總覽](/help/quicksilver/planning/access/access-overview.md)。
+若要尋找Adobe計畫，請確保貴組織已獲得Workfront計畫的存取權，且您的系統或群組管理員已將「計畫」區域新增至您的主功能表。 如需詳細資訊，請參閱[存取總覽](/help/quicksilver/planning/access/access-overview.md)。
 
 若要找到Workfront Planning：
 

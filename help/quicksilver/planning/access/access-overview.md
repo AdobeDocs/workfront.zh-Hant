@@ -6,7 +6,7 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 3232676a77c8e9fcb58e97374a4e7686620136da
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->本文資訊旨在說明Adobe Workfront的新產品Adobe Workfront Planning。
+>本文資訊說明Adobe Workfront的額外功能Adobe Workfront Planning。
 >
 >貴公司必須購買Workfront Planning的額外授權，才能存取其功能。
 >

@@ -1,5 +1,5 @@
 ---
-source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
 source-wordcount: '2586'
 ht-degree: 1%
@@ -281,7 +281,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->本文資訊旨在說明Adobe Workfront的新產品Adobe Workfront Planning。
+>本文資訊說明Adobe Workfront的額外功能Adobe Workfront Planning。
 >
 >您必須具備下列專案才能存取Workfront Planning：
 >

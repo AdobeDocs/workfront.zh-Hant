@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
 source-wordcount: '2713'
 ht-degree: 1%
@@ -122,66 +122,6 @@ ht-degree: 1%
 
 *如需Workfront存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-<!--OLD:
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> 
-   <p>To connect Adobe Workfront Planning records with Experience Manager Assets, you must have an Adobe Experience Manager Assets license and your organization's instance of Workfront must be onboarded to the Adobe Unified Experience. For information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>.</p>
-   </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>New: Standard</p>
-   <p>Current: Plan</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configuration</p></td>
-   <td> <p>There are no access level controls for Workfront Planning</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a workspace to connect records </p>  
-   <p>View or higher permissions to a workspace to view all connections to objects and fields from other applications, regardless of your access in the other application. </p>
-   <p>View or higher permissions to the objects you want to link from Workfront or Experience Manager Assets. </p>
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create.</p>
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-
- </tbody>
-</table>
-
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
-
 +++
 
 ## 連線記錄的先決條件
@@ -210,7 +150,7 @@ ht-degree: 1%
 
 {{step1-to-planning}}
 
-1. 按一下您要連線其記錄的工作區
+1. 按一下您要連線其記錄的工作區。
 
    工作區隨即開啟，且記錄型別會顯示為卡片。
 1. 按一下記錄型別的卡片以開啟記錄型別頁面。
@@ -225,7 +165,7 @@ ht-degree: 1%
    * 從清單中按一下已連線的記錄名稱，將其新增至選取的記錄。 記錄會自動新增。
    * 開始輸入記錄的名稱，並在它顯示在清單中時按一下它。 記錄會自動新增。
 
-1. （選擇性）如果您找不到要連線的記錄或物件，而且您想要新增該記錄，請按一下[新增] **+ [新增]**&#x200B;以新增記錄。 如需詳細資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md)一文中的「連線時建立記錄」。
+1. （選擇性）如果您找不到要連線的記錄或物件，而且您想要新增該記錄，請按一下[新增] **+ [新增]**&#x200B;以新增記錄。 如需詳細資訊，請參閱文章[建立記錄](/help/quicksilver/planning/records/create-records.md)中的「連線時建立記錄」一節。
 
    >[!TIP]
    >
@@ -307,11 +247,11 @@ ht-degree: 1%
 
 1. （選擇性）如果您找不到要連線的物件，而且您想要新增該物件，請按一下[新增] **+ [新增]**&#x200B;以建立並新增專案或投資組合。
 
-   將沒有範本或投資組合的專案連線到Planning記錄時，您只能新增它們。 您無法新增程式、使用者或公司。
+   將沒有範本或投資組合的專案連線到Planning記錄時，您只能新增它們。 您無法新增程式、群組或公司。
 
 1. （選擇性）按一下「檢視全部&#x200B;**」以顯示您至少擁有檢視許可權的所有物件。**
 
-1. （視條件而定）如果您在上一步中按一下&#x200B;**檢視全部**，會顯示&#x200B;**連線物件**&#x200B;方塊。
+   如果您在上一個步驟中按一下「**檢視全部**」，則會顯示「**連線物件**」方塊。
 
    ![](assets/connect-objects-box-to-select-projects.png)
 
@@ -473,7 +413,7 @@ ht-degree: 1%
 1. （視條件而定）按一下&#x200B;**連線**&#x200B;以新增更多相同型別的記錄或物件。
 1. 請依照前幾節所述的步驟，從Workfront Planning連線記錄，或從Workfront或Experience Manager Assets連線物件。
 記錄與物件會立即新增。
-1. （選擇性）將滑鼠停留在記錄或物件的連線卡片上，然後按一下&#x200B;**中斷連線記錄**&#x200B;圖示&#x200B;**-**，中斷連線至選取的記錄。
+1. （選擇性）將滑鼠停留在記錄或物件的連線卡片上，然後按一下&#x200B;**中斷連線記錄**&#x200B;圖示![](assets/disconnect-icon-with-tooltip.png)以中斷連線至選取的記錄。
 
    ![](assets/disconnect-record-icon-with-tooltip-on-connections-tab.png)
 

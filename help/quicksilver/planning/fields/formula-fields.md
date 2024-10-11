@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '591'
 ht-degree: 7%
 
 ---
@@ -175,7 +175,7 @@ OLD:
 
 ## 支援的公式
 
-Adobe Workfront Planning公式欄位支援Workfront計算欄位的所有運算式。 如需詳細資訊，請參閱[計算資料運算式概觀](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)。
+Adobe Workfront Planning公式欄位支援Workfront計算欄位的所有運算式。 如需Workfront運算式清單，請參閱[計算資料運算式概觀](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)。
 
 此外，我們為Workfront Planning公式欄位支援下列運算式：
 
