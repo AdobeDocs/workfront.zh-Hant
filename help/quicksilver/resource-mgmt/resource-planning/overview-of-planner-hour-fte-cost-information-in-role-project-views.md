@@ -7,7 +7,7 @@ description: 資源規劃工具之專案與角色檢視中的時數、約當全�
 author: Lisa
 feature: Resource Management
 exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
 workflow-type: tm+mt
 source-wordcount: '2977'
 ht-degree: 0%
@@ -329,7 +329,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->**當淨時數、約當全職人數或成本顯示為紅色時，可用的時間或預算不足以涵蓋預算的**，或與工作相關的計畫時間或成本。 在這種情況下，資源會過度配置。
+>當「淨時數」、「約當全職人數」或「成本」顯示為紅色時，沒有足夠的「可用時間」或「預算」可涵蓋與工作相關的預算或計畫時間或成本。 在這種情況下，資源會過度配置。
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(the table below is ideal but it does not transfer to Markdown)</p>

@@ -7,9 +7,9 @@ description: 您可以使用工作負載平衡器來排程工作資源，或檢�
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '704'
 ht-degree: 0%
 
 ---
@@ -102,18 +102,18 @@ ht-degree: 0%
 
 您的主團隊頁面隨即顯示。
 
-    按一下左側面板中的**工作負載平衡器**。
-    
-    ！[](assets/nwe-balancer-team-350x172.png)
-    
-    團隊的工作負載平衡器預設會顯示下列資訊： 
-    
-    * **未指派的工作**：指派給團隊且未指派給使用者的專案。
-    * **指派的工作**：團隊的所有成員及其所有指派。
-    
-    >[！TIP]
-    >
-    >團隊成員可能會被指派給同時被指派給團隊的工作或指派給其他團隊或角色的工作。
+1. 按一下左側面板中的&#x200B;**工作負載平衡器**。
+
+![](assets/nwe-balancer-team-350x172.png)
+
+依預設，團隊的工作負載平衡器顯示以下資訊：
+
+* **未指派的工作**：指派給團隊且未指派給使用者的專案。
+* **已指派的工作**：團隊的所有成員及其所有指派。
+
+  >[!TIP]
+  >
+  >團隊成員可能被指派給同時被指派給團隊或指派給其他團隊或角色的工作。
 
 ### 存取專案的工作負載平衡器
 

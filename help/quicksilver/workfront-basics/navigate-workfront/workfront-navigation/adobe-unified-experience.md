@@ -6,14 +6,16 @@ description: 透過Adobe Experience Cloud存取 [!DNL Workfront] 可讓您以順
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: e6688408c3316a3f99fdb051adeb306f359057d1
+source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
 
 # [!DNL Workfront]的[!DNL Adobe Unified Experience]
+
+<!--Audited: 10/2024-->
 
 透過[!DNL Adobe Experience Cloud]存取[!DNL Workfront]可讓您以順暢、統一的體驗管理所有[!DNL Adobe]應用程式。 單一身分管理可為您提供一個登入位置，不需要多個URL或登入ID。
 
@@ -25,6 +27,8 @@ ht-degree: 0%
 | experience.adobe.com | Adobe統一體驗 |
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -38,23 +42,26 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>[！UICONTROL Request]或更高版本</p> </td> 
+   <td> <p>新增：[！UICONTROL Contributor]或以上</p> 
+   <p>目前： [！UICONTROL Request]或以上</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先決條件
 
-您組織的[!DNL Workfront]執行個體必須上線到[!DNL Adobe Business Platform] / [!DNL Adobe Admin Console]。
+您組織的[!DNL Workfront]執行個體必須上線到[!DNL Adobe Business Platform]或[!DNL Adobe Admin Console]。
 
 如果您對加入[!DNL Adobe Admin Console]有任何疑問，請參閱[[!DNL Adobe Unified Experience] 常見問答](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md/)。
 
 ## 登入[!DNL Adobe Experience Cloud]
 
 1. 開啟瀏覽器視窗並移至<https://experience.adobe.com>。
-1. 在[!UICONTROL 登入]畫面上，輸入您的電子郵件地址並按一下&#x200B;**[!UICONTROL 繼續]**。
+1. 在&#x200B;[!UICONTROL **登入**]&#x200B;畫面上，輸入您的電子郵件地址並按一下&#x200B;**[!UICONTROL 繼續]**。
 
    ![登入[!DNL Adobe Experience Cloud]](assets/aec-login-page.png)
 

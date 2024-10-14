@@ -6,7 +6,7 @@ description: 您可以與其他可能沒有資源區域可用的使用者共用�
 author: Lisa
 feature: Resource Management
 exl-id: e2d6b1f8-bdc9-4a34-bdc3-b56f7aa2e7a5
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
 workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 1%
@@ -136,4 +136,4 @@ ht-degree: 1%
 
      >[!IMPORTANT]
      >
-     >當您將工作負載平衡器新增到物件的自訂區段時，工作負載平衡器中的資訊未由物件篩選。 工作負載平衡器顯示按最初套用的篩選器篩選的資訊。
+     >當您將工作負載平衡器新增到物件的自訂區段時，工作負載平衡器中的資訊未由物件篩選。 工作負載平衡器顯示按最初套用的篩選器篩選的資訊。

@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
 workflow-type: tm+mt
-source-wordcount: '3856'
+source-wordcount: '3830'
 ht-degree: 0%
 
 ---
@@ -335,10 +335,8 @@ ht-degree: 0%
 
 您可以在「首頁」中記錄專案特定時間。
 
-如需使用「首頁」區域的一般資訊，請參閱下列章節：
+如需有關使用首頁區域的一般資訊，請參閱[使用首頁區域](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md)。
 
-* 如需有關使用舊版首頁區域的資訊，請參閱[使用首頁區域](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md)。
-* 如需有關使用新首頁區域的資訊，請參閱[開始使用新首頁](../../workfront-basics/using-home/new-home/get-started-with-new-home.md)。
 
 #### 從新的首頁區域在工作專案上記錄時間
 

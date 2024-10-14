@@ -7,9 +7,9 @@ description: 您可以在Workfront Proof中存取「註解」摘要。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 212d465c-5605-4bb9-af5a-cea377619cfe
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -30,13 +30,13 @@ ht-degree: 0%
 
 ### 校訂檢視器 {#the-proof-viewer}
 
-您可以按一下校訂檢視器中的&#x200B;**[!UICONTROL 列印]**&#x200B;圖示，列印校訂的評論摘要，包括校訂的縮圖或完整檢視影像。 (1)
+您可以按一下校訂檢視器中的&#x200B;**[!UICONTROL 列印]**&#x200B;圖示，列印校訂的評論摘要，包括校訂的縮圖或完整檢視影像。
 
 ![PV_print_all_comm.png](assets/pv-print-all-comm-350x158.png)
 
 ### 校訂詳細資訊頁面 {#the-proof-details-page}
 
-您可以按一下校樣詳細資訊頁面上的&#x200B;**[!UICONTROL 列印]**&#x200B;圖示，以列印校樣的評論摘要。 (2)
+您可以按一下校樣詳細資訊頁面上的&#x200B;**[!UICONTROL 列印]**&#x200B;圖示，以列印校樣的評論摘要。
 
 ![proof_details_page.png](assets/proof-details-page-350x231.png)
 
@@ -46,17 +46,18 @@ ht-degree: 0%
 
 若要從清單檢視存取[!UICONTROL 評論摘要]頁面：
 
-1. 按一下&#x200B;**[!UICONTROL 動作]**&#x200B;功能表。 (3)
-1. 選取&#x200B;**[!UICONTROL 列印註解]**。 (4)
+1. 按一下&#x200B;**[!UICONTROL 動作]**&#x200B;功能表。
+1. 選取&#x200B;**[!UICONTROL 列印註解]**。
 
-![List_view.png](assets/list-view-350x155.png)\
-在「註解」摘要頁面上，您可以選擇下列列印選項：
+   ![List_view.png](assets/list-view-350x155.png)
 
-* 縮圖檢視(1)
-* 全頁檢視(2)
-* 列印頁面(3)
-* 將含有註解的校樣匯出至PDF檔案(4)
-* 將校訂註解匯出至[!DNL Excel]檔案(5)
+   在「註解」摘要頁面上，您可以選擇下列列印選項：
+
+   * 縮圖檢視(1)
+   * 全頁檢視(2)
+   * 列印頁面(3)
+   * 將含有註解的校樣匯出至PDF檔案(4)
+   * 將校訂註解匯出至[!DNL Excel]檔案(5)
 
 ![PV_thumb_full_option_callouts.png](assets/pv-thumb-full-option-callouts-350x154.png)
 
@@ -89,7 +90,8 @@ ht-degree: 0%
 若要從校訂詳細資訊頁面下載[!DNL Excel]摘要：
 
 1. 按一下「匯出至&#x200B;**[!DNL Excel]**」圖示。 (2)
-1. ![Export_to_excel.png](assets/export-to-excel-350x185.png)
+
+   ![Export_to_excel.png](assets/export-to-excel-350x185.png)
 
 ## 匯出至PDF
 
