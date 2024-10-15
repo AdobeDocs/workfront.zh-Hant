@@ -6,9 +6,9 @@ description: 當您將 [!DNL Jira] 問題連結至 [!DNL Adobe Workfront] 個任
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 79ac6ff1-2f7d-4abc-8735-398f6aac5191
-source-git-commit: e01f5eaf3133fa1bdaedf4dad56e9a8175b70667
+source-git-commit: 99924f690c53584c090d19fff90d23d84ec306d4
 workflow-type: tm+mt
-source-wordcount: '1570'
+source-wordcount: '1576'
 ht-degree: 0%
 
 ---
@@ -122,7 +122,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[！UICONTROL註解]</td> 
-   <td> <p>註解已新增至[!DNL Jira]問題的<strong>[!DNL Workfront]</strong>索引標籤。 未新增至[!DNL Jira]問題的<strong>[！UICONTROL註解]</strong>索引標籤</p> <p>注意：當您手動連結兩個現有專案時，在連結至[!DNL Jira]之前新增至[!DNL Workfront]專案的評論不會同步至[!DNL Jira]問題。 </p> </td> 
+   <td> <p>註解已新增至[!DNL Jira]問題的<strong>[!DNL Workfront]</strong>索引標籤。 未新增至[!DNL Jira]問題的<strong>[！UICONTROL註解]</strong>索引標籤</p> <p>注意：當您手動連結兩個現有專案時，在連結至[!DNL Jira]之前新增至[!DNL Workfront]專案的評論不會同步至[!DNL Jira]問題。 </p> <p>Jira註解會同步至Workfront。</td> 
   </tr> 
  </tbody> 
 </table>

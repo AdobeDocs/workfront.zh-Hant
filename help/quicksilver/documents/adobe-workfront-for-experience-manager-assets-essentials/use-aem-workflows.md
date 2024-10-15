@@ -6,7 +6,7 @@ description: 在Experience Manager Assets Essentials整合中使用工作流程
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
+source-git-commit: 99924f690c53584c090d19fff90d23d84ec306d4
 workflow-type: tm+mt
 source-wordcount: '1053'
 ht-degree: 0%
@@ -15,7 +15,9 @@ ht-degree: 0%
 
 # 在Experience Manager Assets整合中使用工作流程
 
-工作流程是一組將Workfront連線至Adobe Experience Manager as a Cloud Service的動作。 Workfront管理員可以在Workfront中設定工作流程，然後將它們指派給專案範本。 使用指派了工作流程的專案範本建立專案時，會觸發工作流程中定義的動作。
+工作流程是一組將Workfront連線至Adobe Experience Manager as a Cloud Service的動作。 Workfront管理員可以在Workfront中設定工作流程，然後將它們指派給專案範本。
+
+使用指派了工作流程的專案範本建立專案時，會觸發工作流程中定義的動作。
 
 >[!NOTE]
 >
