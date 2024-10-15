@@ -6,9 +6,9 @@ description: ' [!DNL Workfront] 和Adobe Experience Cloud的一些功能不同�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: be60ec38495a7c25d88e325cf4ba96decf083ea3
+source-git-commit: d4ae54f14c2328888ce80902275b0d390fb4fbb7
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1363'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,7 @@ ht-degree: 0%
 | 校訂檢視器會在新標籤中開啟 | 校訂檢視器會在Workfront中開啟 |
 | 用來存取Workfront的URL為`experience.adobe.com` | 用來存取Workfront的URL為`(CompanyName).my.workfront.com` |
 | 日期格式（例如YYYY/MM/DD）是以Unified Experience語言設定為基礎。 如果使用者尚未更新其語言設定，則會使用`en-US`設定。 | 日期格式（例如YYYY/MM/DD）是根據瀏覽器偏好設定 |
+| 不支援JumpSeat整合 | 支援Jumpseat整合 |
 
 {style="table-layout:auto"}
 

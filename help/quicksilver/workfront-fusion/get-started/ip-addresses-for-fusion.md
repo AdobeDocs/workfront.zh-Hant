@@ -8,9 +8,9 @@ description: 除了Adobe Workfront授權，Adobe Workfront Fusion還需要Adobe 
 author: Becky
 feature: Workfront Fusion
 exl-id: f6295cc7-367f-4c8b-891b-cc11ff42a225
-source-git-commit: 55a4fda46f6d314c71d9ef98864b21b84f946b09
+source-git-commit: d4ae54f14c2328888ce80902275b0d390fb4fbb7
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,28 @@ ht-degree: 0%
 >除了[!DNL Adobe Workfront license]之外，[!DNL Adobe Workfront Fusion]還需要[!DNL Adobe Workfront Fusion]授權。
 
 如果您的防火牆或郵件伺服器設定為僅允許存取特定廠商，則必須將特定IP位址新增至其允許清單，以允許您的環境與[!DNL Adobe Workfront Fusion]之間的開放通訊。
+
+## 識別您的資料中心
+
+IP位址會依您儲存資料的位置而有所不同。
+
+如果您透過URL存取Fusion，則可檢查URL以找出您的資料中心。
+
+| URL | 資料中心 |
+| --- | --- |
+| `https://app.workfrontfusion.com/` | 美國資料中心 |
+| `https://app-eu.workfrontfusion.com/` | 歐盟資料中心 |
+| `https://app-az.workfrontfusion.com/` | Azure資料中心 |
+
+如果您透過experience.adobe.com存取Fusion，可以檢查瀏覽器中的網路索引標籤，以識別資料中心。
+
+| URL | 資料中心 |
+| --- | --- |
+| 呼叫`https://fusion.adobe.com` | 美國資料中心 |
+| 呼叫`https://eu.fusion.adobe.com` | 歐盟資料中心 |
+| 呼叫`https://az.fusion.adobe.com` | Azure資料中心 |
+
+## Workfront Fusion的IP位址
 
 將下列IP位址新增至您的允許清單，讓[!DNL Workfront Fusion]能夠存取您的系統。
 
