@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1433'
 ht-degree: 1%
 
 ---
@@ -43,7 +43,7 @@ This article describes how you can share a view with others. For information abo
 
 <!--at GA, check that the Workfront plans article linked below has Planning info-->
 
-您必須具備下列專案才能存取Workfront Planning：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
 <col> 

@@ -6,9 +6,9 @@ description: 提交您的時程表以供核准，讓您的經理可以檢視您�
 author: Alina
 feature: Timesheets
 exl-id: 253e20c8-58f8-4b23-a769-b0e36557066a
-source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: '855'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
+   <td role="rowheader">Adobe Workfront授權*</td> 
    <td> <p>新增：淺色或更高 </p>
    <p>目前：檢閱或以上 </p>
   </tr> 
@@ -49,7 +49,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
    **提交以供核准**&#x200B;按鈕已由&#x200B;**核准**、**拒絕**&#x200B;和&#x200B;**撤銷**&#x200B;按鈕取代。 時程表的狀態變更為&#x200B;**已提交**。
 
-   當您提交時程表以供核準時，核准者會在&#x200B;**首頁**&#x200B;頁面的&#x200B;**核准**&#x200B;區域中看到列出的時程表。 可能會發生下列情況：
+   當您的時程表提交以進行核準時，核准者會在&#x200B;**首頁**&#x200B;區域的&#x200B;**我的核准** Widget中看到時程表清單。 可能會發生下列情況：
 
    * 如果他們核准，**撤銷**&#x200B;按鈕將變更為&#x200B;**重新開啟**，而時程表狀態更新為&#x200B;**開啟**。
    * 如果他們拒絕它，則&#x200B;**提交以進行核准**&#x200B;按鈕會取代&#x200B;**撤銷**&#x200B;按鈕和時程表狀態更新為&#x200B;**已拒絕**。

@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '614'
 ht-degree: 0%
 
 ---
-
 
 # 要求檢視或工作區的許可權
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 +++ 展開以檢視Workfront Planning的存取需求。
 
-您必須具備下列專案才能存取Workfront Planning：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
 <col> 
@@ -131,5 +131,3 @@ ht-degree: 0%
      ![](assets/email-notification-for-access-request.png)
 
 1. （視條件而定）當檢視或工作區管理員授予您檢視或工作區的許可權時，您會收到電子郵件通知和應用程式內通知，其中包含已授予許可權的確認。<!--check this - I was not able to test this, but Isk confirmed.-->
-
-

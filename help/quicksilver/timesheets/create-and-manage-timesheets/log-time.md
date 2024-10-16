@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '3830'
+source-wordcount: '3650'
 ht-degree: 0%
 
 ---
@@ -46,9 +46,8 @@ ht-degree: 0%
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增： </p>
-   <p>將專案、任務、問題或一般時數記錄到時程表上的小時數精簡或更高</p>
+   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td> <p>新增：在時程表上將專案、任務、問題或一般時數記錄為輕度或更高的時數</p>
    <p>目前： 
    <ul><li>檢閱或更高版本以在時程表中記錄一般時數</li>
    <li>在專案、任務或問題上記錄小時數的工作或更高</li></ul> </td> 
@@ -64,7 +63,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -338,15 +337,15 @@ ht-degree: 0%
 如需有關使用首頁區域的一般資訊，請參閱[使用首頁區域](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md)。
 
 
-#### 從新的首頁區域在工作專案上記錄時間
+<!--#### Log time on a work item from the new Home area-->
 
 您可以使用「首頁」區域的「摘要」面板，將時間記錄到任何介面工具中的任務和問題。 如需詳細資訊，請參閱本文中的[摘要面板](#summary-panel)一節。
 
 此外，若要在「我的工作」小工具中記錄專案的時間：
 
-1. 已移至&#x200B;**首頁**&#x200B;區域。
+1. 移至&#x200B;**首頁**&#x200B;區域。
 1. 將&#x200B;**我的工作** Widget新增至您的首頁。
-1. （選擇性）在清單中選取任務、問題或請求，然後按一下&#x200B;**處理它**
+1. （選擇性）在清單中選取任務、問題或請求，然後按一下&#x200B;**處理它**。
 1. 暫留在您要記錄時間的任務或問題上，然後按一下任務資訊右側的&#x200B;**記錄時間**&#x200B;圖示![](assets/log-time-icon-in-new-home.png)。
 
    ![](assets/log-time-ui-for-task-from-new-home.png)
@@ -355,19 +354,19 @@ ht-degree: 0%
 
    記錄時間會顯示在物件的「小時」區段和您的時程表中。
 
-#### 從舊版「首頁」區域在工作專案上記錄時間
+<!--#### Log time on a work item from the legacy Home area
 
-1. 在&#x200B;**工作清單**&#x200B;區域中，選取您要記錄時間的專案。
-1. 在右側面板中，按一下&#x200B;**記錄時間**。
+1. In the **Work List** area, select the item where you want to log time.
+1. In the right panel, click **Log Time**.  
+  
+   ![](assets/log-time-home-350x181.png)  
 
-   ![](assets/log-time-home-350x181.png)
+1. In the **Enter Hours** drop-down menu, select the appropriate hour type.  
+   Hour types are available depending on what has been defined at the system, project, and user levels, as described in [Define hour types and availability](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+1. (Conditional) If your Workfront or group administrator has enabled the **Assign job roles to hour entries manually** setting, select a job role from the drop-down menu. The role specified when you are assigned to the work item displays by default. If you are not assigned a role on the object, your Primary Role displays as the default. For more information on this setting, see the article [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+1. Specify the time you want to log, then click **Log Time**.
 
-1. 在&#x200B;**輸入小時**&#x200B;下拉式功能表中，選取適當的小時型別。\
-   可用時數型別取決於系統、專案和使用者層級已定義的專案，如[定義時數型別和可用性](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)中所述。
-1. （視條件而定）如果您的Workfront或群組管理員已啟用&#x200B;**手動將工作角色指派至時數專案**&#x200B;設定，請從下拉式選單中選取工作角色。 依預設，系統會顯示指派給工作專案時所指定的角色。 如果您在物件上未被指派角色，您的「主要角色」會顯示為預設值。 如需此設定的詳細資訊，請參閱文章[設定時程表和小時偏好設定](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)。
-1. 指定您要記錄的時間，然後按一下&#x200B;**記錄時間**。
-
-   記錄時間會顯示在物件的「小時」區段和您的時程表中。
+   The logged time displays in the object's Hours section, nad in your timesheet. -->
 
 ### 專案、任務或問題 {#project-task-or-issue}
 

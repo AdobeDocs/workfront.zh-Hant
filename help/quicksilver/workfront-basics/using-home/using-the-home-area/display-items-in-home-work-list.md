@@ -6,9 +6,9 @@ description: '[!UICONTROL 首頁]區域中的[!UICONTROL 工作清單]會顯示�
 author: Nolan
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: d614d5cbded1de6fd899a47495a6e058f9eaf3cf
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1840'
 ht-degree: 0%
 
 ---
@@ -141,7 +141,7 @@ ht-degree: 0%
       <td> 
        <div> 
         <p>僅顯示您已委派給其他使用者的工作專案。</p> 
-        <p>如需委派工作的詳細資訊，請參閱<a href="/help/quicksilver/manage-work/delegate-work/how-to-delegate-work.md#delegate-tasks-and-issues-to-another-user" class="MCXref xref">將工作與問題委派給其他使用者</a>。
+        <p>如需委派工作的詳細資訊，請參閱<a href="/help/quicksilver/manage-work/delegate-work/how-to-delegate-work.md#delegate-tasks-and-issues-to-another-user" class="MCXref xref">委派工作與問題</a>。
        </div> </td> 
      </tr> 
      <tr> 

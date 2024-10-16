@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '2801'
+source-wordcount: '2802'
 ht-degree: 3%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 3%
 
 +++ 展開以檢視Workfront Planning的存取需求。
 
-您必須具備下列專案才能存取Workfront Planning：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
 <col> 

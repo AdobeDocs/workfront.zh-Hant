@@ -3,19 +3,19 @@ filename: how-to-delegate-work
 navigation-topic: delegate-work
 title: 委派任務和問題
 description: 您不在辦公室時，可以暫時委派指派給您的工作。 本文介紹如何委派任務和問題指派。
-author: Lisa
+author: Alina
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '1460'
+source-wordcount: '1518'
 ht-degree: 0%
 
 ---
 
-# 管理任務和問題
+# 委派任務和問題
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 10/2024 -->
 
 
 <!--
@@ -59,7 +59,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
    <td> <p>新增：投稿人或更高版本</p><p>或</p><p>目前：檢閱或以上</p>
 
 >[!NOTE]
@@ -80,7 +80,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -92,7 +92,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 
 您必須先確定下列事項，才能執行本文所述的活動：
 
-* 您的[!DNL Workfront]或群組管理員已在[!DNL Workfront]執行個體的[!UICONTROL 設定]區域中啟用[!UICONTROL 允許使用者刪除具有記錄時數的任務和問題]。
+* 您的[!DNL Workfront]或群組管理員已啟用[!DNL Workfront]執行個體之[!UICONTROL 設定]區域的[!UICONTROL 任務和問題偏好設定]區段中的&#x200B;[!UICONTROL **允許使用者委派其任務和問題**]&#x200B;設定。
 
   如需詳細資訊，請參閱[設定全系統的任務和問題偏好設定](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)。
 
@@ -104,11 +104,16 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 
 若要將您的任務和問題委派給其他人：
 
-1. 移至&#x200B;[!UICONTROL **首頁**]&#x200B;區域，然後按一下&#x200B;[!UICONTROL **工作清單**]&#x200B;頂端的&#x200B;[!UICONTROL **代理人**]。
+1. 移至&#x200B;[!UICONTROL **首頁**]&#x200B;區域。
+1. 確定您已將&#x200B;[!UICONTROL **我的工作**]、[!UICONTROL **我的任務**]&#x200B;或&#x200B;[!UICONTROL **我的問題**] Widget新增到您的&#x200B;[!UICONTROL **首頁**]。
 
-   ![](assets/delegate-button-in-home.png)
+   如需詳細資訊，請參閱[在首頁新增、編輯或移除Widget](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
 
-1. 在&#x200B;[!UICONTROL **委派任務和問題**]&#x200B;索引標籤中，更新下列專案：
+1. 按一下&#x200B;[!UICONTROL **我的工作**]、[!UICONTROL **我的任務**]&#x200B;或&#x200B;[!UICONTROL **我的問題**] Widget左上角的&#x200B;[!UICONTROL **代理人**]。
+
+   ![](assets/delegate-button-on-my-work-widget.png)
+
+1. 更新下列專案：
 
    * [!UICONTROL **將您的任務和問題委派給**]：開始輸入您要將您的任務和問題委派給的使用者名稱，然後在其顯示在清單中時選取它。 您只能選取一個使用者。
 
@@ -129,6 +134,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
      >如果您將「結束日期」欄位保留空白，而未選取「無結束日期」選項，則委派僅會針對當天設定。
 
      ![](assets/delegate-box-expanded-in-home.png)
+     <!--check screen shot - submitted bug for casing-->
 
 1. 按一下「[!UICONTROL **儲存**]」。
 
@@ -141,18 +147,18 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
      >   日期在委派時間範圍內的已完成工作專案不會委派。
 
 
-   * 您會在畫面的右上角收到一則訊息，確認您已啟用將您的工作委派給其他使用者。 委派使用者的名稱會顯示在確認訊息中。
+   * 您會在畫面底部收到訊息，確認您已啟用將您的工作委派給其他使用者。 委派使用者的名稱會顯示在確認訊息中。
 
    * 大部分割槽域都會顯示您的任務和問題已委派給其他使用者，而您可以在[!DNL Workfront]中看到這些工作分派。 如需哪些區域不包含代理人名稱的詳細資訊，請參閱[代理人工作概觀](delegate-work-overview.md)。
 
-   * [!UICONTROL 首頁]區域中的&#x200B;[!UICONTROL **委派**]&#x200B;按鈕變更為&#x200B;[!UICONTROL **編輯委派**]，表示已有委派。
-   <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   (NOTE: is this shot correct?&nbsp;See UI - this is a mock)
-   </MadCap:conditionalText>
-   -->
+   * [!UICONTROL **首頁**]&#x200B;區域中的&#x200B;[!UICONTROL **委派**]&#x200B;按鈕變更為&#x200B;[!UICONTROL **編輯委派**]，表示已有委派。
+     <!--
+      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+      (NOTE: is this shot correct?&nbsp;See UI - this is a mock)
+      </MadCap:conditionalText>
+      -->
 
-   ![](assets/work-delegated-button-in-home.png)
+     ![](assets/edit-delegation-button-on-my-work-widget.png)
 
    * 如果已啟用事件通知和個人通知，您也會收到委派電子郵件確認。
 
@@ -164,8 +170,8 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 
 如果您選取了「結束日期」，您可以讓委派過期，也可以手動停止委派。 如果委派日期已變更，您也可以修改委派的時間範圍。
 
-1. 移至[!UICONTROL 首頁]區域，然後按一下工作清單右上角的[!UICONTROL 編輯委派]。
-1. 在[!UICONTROL 委派任務和問題]索引標籤中，執行下列任一項作業：
+1. 移至&#x200B;[!UICONTROL **首頁**]&#x200B;區域，然後按一下下列任一Widget中的&#x200B;[!UICONTROL **編輯委派**]： **我的工作**、**我的任務**&#x200B;或&#x200B;**我的問題**。
+1. 在[!UICONTROL 停止委派任務和問題]方塊中，執行下列任一項作業：
    * 修改開始日期&#x200B;[!UICONTROL **或[!UICONTROL **&#x200B;結束日期&#x200B;**]**]
    * 按一下&#x200B;[!UICONTROL **停止委派**]
 
@@ -173,7 +179,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
    >
    >    如果委派已開始，則只能編輯委派的「結束」日期。
 
-   ![](assets/stop-delegation-screen-in-home.png)
+   ![](assets/stop-delegation-box-new-home-tasks-and-issues.png)
 
 1. （視條件而定）按一下&#x200B;[!UICONTROL **儲存**]&#x200B;以儲存新的委派日期
 
@@ -182,7 +188,6 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
    在確認方塊中按一下&#x200B;[!UICONTROL **停止委派**]&#x200B;以確認停止委派。
 
    委派已更新日期或已停止，並且委派的使用者已從您的任務和問題中移除。 他們對任務和問題的許可權維持不變。
-
 
 ## 找出委派的工作和委派資訊
 
@@ -229,24 +234,31 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 
 ### 在[!UICONTROL 首頁]找到委派的工作
 
-1. 移至&#x200B;[!UICONTROL **首頁**]&#x200B;區域，然後按一下篩選器下拉式功能表，並選取下列一或多個選項：
+1. 移至&#x200B;[!UICONTROL **我的工作**] Widget中的&#x200B;[!UICONTROL **首頁**]&#x200B;區域。
+1. 按一下篩選器下拉式功能表，然後選取下列一或多個選項：
    * [!UICONTROL **已委派**]：檢視委派給您或由您委派的任務和問題。
    * [!UICONTROL **已委派給我**]：檢視其他使用者委派給您的任務和問題。
    * [!UICONTROL **由我委派**]：檢視您委派給其他使用者的任務和問題。
 
-   ![](assets/delegated-to-me-or-by-me-filters-in-home.png)
+     ![](assets/delegated-tasks-and-issues-new-home-filter.png)
 
-1. 按一下[!UICONTROL 排序]下拉式功能表，依下列條件排序清單：
-   * [!UICONTROL 計畫完成]。 這是預設的排序選項。
-   * [!UICONTROL 計劃開始]
-   * [!UICONTROL 認可日期]
+1. （選擇性）按一下&#x200B;[!UICONTROL **排序**]&#x200B;下拉式功能表，依下列條件排序清單：
+   * [!UICONTROL 到期日期]。 這是預設的排序選項。
+   * [!UICONTROL 名稱]
+   * [!UICONTROL 完成百分比]
+   * [!UICONTROL 狀態]
+1. （可選）展開&#x200B;[!UICONTROL **我的工作**] Widget右上角的群組下拉式功能表，然後依下列其中一個條件進行群組：
+   * 沒有內容。 這是預設分組選項。
    * [!UICONTROL 專案]
-   * [!UICONTROL 我的優先順序]
-1. 展開&#x200B;[!UICONTROL **工作清單**]&#x200B;中的群組以檢視委派的工作專案。 存在下列情況：
-   * 對於您委派給其他人的專案，委派名稱會顯示在&#x200B;[!UICONTROL **工作清單**]&#x200B;以及右側的&#x200B;[!UICONTROL **指派與委派**]&#x200B;欄位中。
+   * [!UICONTROL 狀態]
+   * [!UICONTROL 到期日期]
 
-   * 對於委派給您的專案，受指派人的名稱會顯示在&#x200B;[!UICONTROL **工作清單**]&#x200B;以及右側的&#x200B;**[!UICONTROL 指派和委派]**&#x200B;欄位中。
+1. 若要檢視您委派或已委派給您的專案，請檢視下列其中一項：
 
-   >[!TIP]
-   >
-   >    如果委派設定在今天日期之後的某個日期開始，則委派的開始日期也會顯示在[!UICONTROL 工作清單]中。 委派的專案會根據群組的型別，顯示在您為[!UICONTROL 工作清單]選取的群組中。 例如，如果您依[!UICONTROL 計畫完成日期]分組，則委派的專案會顯示在符合其計畫完成日期的分組中。
+   * 對於您委派給其他人的專案，請在&#x200B;[!UICONTROL **委派給**]&#x200B;之後，在任務或問題的狀態下找到委派者的名稱。
+
+   * 對於委派給您的專案，在&#x200B;[!UICONTROL **由**]&#x200B;委派給您之後，在任務或問題的狀態下找到受指派人的名稱。
+
+     >[!TIP]
+     >
+     >    如果委派設定在今天日期之後的某個日期開始，則委派的開始日期也會顯示在[!UICONTROL 工作清單]中。 委派的專案會根據群組的型別，顯示在您為[!UICONTROL 工作清單]選取的群組中。 例如，如果您依[!UICONTROL 計畫完成日期]分組，則委派的專案會顯示在符合其計畫完成日期的分組中。

@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 00a1876e005f0f0c47bdebaab77bbcfe42318612
+source-git-commit: 426b7f7d556933dea26d27c82aa2082738d39767
 workflow-type: tm+mt
-source-wordcount: '14530'
+source-wordcount: '14529'
 ht-degree: 2%
 
 ---
@@ -1511,7 +1511,7 @@ ht-degree: 2%
    * 委派工作{#delegate-work}
       * [委派工作](manage-work/delegate-work/delegate-work.md)
       * [委派任務和問題總覽](manage-work/delegate-work/delegate-work-overview.md)
-      * [管理任務和問題](manage-work/delegate-work/how-to-delegate-work.md)
+      * [委派任務和問題](manage-work/delegate-work/how-to-delegate-work.md)
 * 團隊和群組{#teams-groups}
    * [團隊和群組](people-teams-and-groups/people-teams-and-groups.md)
    * 建立及管理團隊{#create-manage-teams}

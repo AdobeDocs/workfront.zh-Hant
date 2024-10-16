@@ -7,9 +7,9 @@ author: Lisa
 feature: Resource Management
 role: User
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '721'
 ht-degree: 1%
 
 ---
@@ -105,7 +105,7 @@ ht-degree: 1%
 
    >[!TIP]
    >
-   > 如果您的Workfront或群組管理員在您的環境中啟用了委派，請使用「工作總攬」標籤將使用者指派給任務或問題。 使用「委派」標籤可檢視委派給工作專案的使用者。 如需委派工作的相關資訊，請參閱[管理任務和問題委派](../../manage-work/delegate-work/how-to-delegate-work.md)。
+   > 如果您的Workfront或群組管理員在您的環境中啟用了委派，請使用「工作總攬」標籤將使用者指派給任務或問題。 使用「委派」標籤可檢視委派給工作專案的使用者。 如需委派工作的相關資訊，請參閱[委派任務和問題](../../manage-work/delegate-work/how-to-delegate-work.md)。
 
 
    這會將工作專案指派或重新指派給指定的受指派人。

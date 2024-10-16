@@ -6,9 +6,9 @@ description: 使用工作負載平衡器瞭解資源的可用性，並將工作�
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '4068'
+source-wordcount: '4067'
 ht-degree: 0%
 
 ---
@@ -323,7 +323,7 @@ ht-degree: 0%
 
      >[!TIP]
      >
-     >如果您的Workfront或群組管理員在您的環境中啟用了委派，請使用「工作總攬」標籤將使用者指派給任務或問題。 如需委派工作的相關資訊，請參閱[管理任務和問題委派](../../manage-work/delegate-work/how-to-delegate-work.md)。
+     >如果您的Workfront或群組管理員在您的環境中啟用了委派，請使用「工作總攬」標籤將使用者指派給任務或問題。 如需委派工作的相關資訊，請參閱[委派任務和問題](../../manage-work/delegate-work/how-to-delegate-work.md)。
 
    * **編輯配置**，然後編輯使用者的每日或每週配置。 如需有關管理使用者配置的資訊，請參閱[在工作負載平衡器](../workload-balancer/manage-user-allocations-workload-balancer.md)中管理使用者配置。
 

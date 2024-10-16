@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '2116'
+source-wordcount: '2100'
 ht-degree: 1%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 1%
 
 <!--do not use the snippet for IMPORTANT as it links to this article-->
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽」環境中供所有客戶使用，或在「生產」環境中供啟用快速發行的客戶使用。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">如需目前版本的相關資訊，請參閱[2023年第四季版本總覽](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)。</span>
+<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>-->
 
 >[!IMPORTANT]
 >
@@ -86,7 +86,9 @@ Workfront Planning目前提供下列功能：
 * 連線屬於相同工作區的記錄
 * 連線屬於不同工作區的記錄
 * 將Workfront Planning記錄連線至Workfront專案、方案、投資組合、公司、群組
-* 將Workfront Planning記錄連線至Adobe Experience Manager資產
+* 將Workfront Planning記錄連線至Adobe Experience Manager資產\
+  您必須擁有Adobe Experience Manager Assets授權，以及AEM Assets與Workfront之間的整合。
+如需詳細資訊，請參閱[Experience Manager Assets與Assets Essentials的Adobe Workfront：文章索引](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)。
 * 在詳細資訊標籤中檢視記錄資訊
 * 在連線標籤中檢視記錄連線
 * 自訂記錄頁面的配置
@@ -95,7 +97,7 @@ Workfront Planning目前提供下列功能：
 * 與任何外部資源公開共用檢視，包括非Workfront使用者的使用者
 * 重複檢視
 * 提交請求以建立記錄
-* 將記錄詳細資料匯出至Word <span class="preview">和PDF。</span>
+* 將記錄詳細資料匯出至Word和PDF。
 * 新增註解至記錄
 * 接收應用程式內通知
 * 接收電子郵件通知
@@ -108,7 +110,8 @@ Workfront Planning目前提供下列功能：
 * Workfront規劃公開API
 * Adobe Workfront Fusion的Adobe Workfront規劃模組
 * Workfront Planning AI助理
-* 報告Workfront Planning資訊（畫布控制面板）
+* 報告Workfront Planning資訊
+您可以使用「畫布控制面板」來報告Planning資訊。 如需詳細資訊，請參閱[畫布儀表板概觀](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)。
 
 <!--OLD: 
 
@@ -375,7 +378,7 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
 
 ## Workfront Planning的其他資源
 
-* [Adobe Workfront Planning：文章索引](/help/quicksilver/planning/planning-information.md)：包含所有文章的索引，這些文章包含有關Workfront Planning的檔案，並按興趣區域分組。
+* [Adobe Workfront Planning：文章索引](/help/quicksilver/planning/planning-information.md)：包含有關Workfront Planning檔案的所有文章的索引，依興趣區域分組。
 * [Adobe Workfront Planning AI Assistant總覽](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)：使用Workfront AI Assistant for Planning，您可以使用命令來搜尋記錄，或建立、更新和刪除記錄，並讓助理為您工作。
   <!--
     >[!NOTE]

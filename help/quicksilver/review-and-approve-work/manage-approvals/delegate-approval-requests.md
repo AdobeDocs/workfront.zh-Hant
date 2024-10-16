@@ -6,16 +6,16 @@ description: 委派核准請求可讓您指派另一名使用者，在一段時�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '1262'
+source-wordcount: '1261'
 ht-degree: 0%
 
 ---
 
 # 委派核准請求
 
-您不在辦公室時，可以暫時委派指派給您的工作。 您可以委派任務和問題指派，也可以委派核准請求。 本文會說明如何委派核准請求。 有關委派任務和問題指派的資訊，請參閱[管理任務和問題委派](../../manage-work/delegate-work/how-to-delegate-work.md)。
+您不在辦公室時，可以暫時委派指派給您的工作。 您可以委派任務和問題指派，也可以委派核准請求。 本文會說明如何委派核准請求。 有關委派任務和問題指派的資訊，請參閱[委派任務和問題](../../manage-work/delegate-work/how-to-delegate-work.md)。
 
 無論核准如何指派給您（無論是直接指派給您、您所屬的團隊或您的工作角色），您都可以委派下列型別的核准：
 

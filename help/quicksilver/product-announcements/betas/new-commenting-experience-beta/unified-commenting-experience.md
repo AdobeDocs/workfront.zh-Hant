@@ -9,7 +9,7 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
 source-wordcount: '1071'
 ht-degree: 1%
@@ -113,7 +113,6 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 
 <td> 
    </td>
-   &gt;
   </tr>
 
 <tr>

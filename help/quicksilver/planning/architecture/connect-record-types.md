@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 7b5441b2aa17b22f0fd54cfe4921aa5dab2e0461
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '2222'
+source-wordcount: '2248'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 # 連線記錄型別
 
-<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它只能在「預覽Sandbox」環境中使用。</span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>-->
 
 {{planning-important-intro}}
 
@@ -41,7 +41,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
 +++ 展開以檢視Workfront Planning的存取需求。
 
-您必須具備下列專案才能存取Workfront Planning：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
 <col> 
@@ -55,7 +55,12 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    <p> 產品</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront規劃<p></li></ul></td> 
+   <li><p> Adobe Workfront規劃<p></li>
+   <li><p> Adobe Experience Manager Assets (如果要連線AEM資產與Planning記錄型別)<p>
+   <p>您必須擁有Adobe Experience Manager Assets授權，以及AEM Assets與Workfront之間的整合。
+    如需詳細資訊，請參閱<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Experience Manager Assets與Assets Essentials的Adobe Workfront：文章索引</a>。 </p>
+   </li>
+   </ul></td> 
   </tr>   
 <tr> 
    <td role="rowheader"><p>Adobe Workfront計畫*</p></td> 
@@ -185,7 +190,8 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
    * 來自目前工作區的另一個記錄型別
 
-     <span class="preview">![](assets/many-to-many-connection-picker.png)</span>
+     ![](assets/many-to-many-connection-picker.png)
+
      >[!TIP]
      >
      > 
@@ -194,7 +200,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
    * 來自另一個工作區的記錄型別，該記錄型別被設定為從其他工作區連線。 如需詳細資訊，請參閱[編輯記錄型別](/help/quicksilver/planning/architecture/edit-record-types.md)。
 
-     <span class="preview">![](assets/new-connection-allow-multiple-records-box.png)</span>
+     ![](assets/new-connection-allow-multiple-records-box.png)
 
      >[!TIP]
      >
@@ -207,7 +213,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
    * 來自&#x200B;**Adobe應用程式**&#x200B;區段的&#x200B;**Experience Manager Assets**。
 
-     <span class="preview">![](assets/aem-assets-connection-selection.png)</span>
+     ![](assets/aem-assets-connection-selection.png)
 
 1. 更新下列資訊：
 
@@ -222,7 +228,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
      只有在連線來自兩個不同工作區的記錄或記錄和Adobe Experience Manager資產物件時，才能使用此選項。
 
-     <span class="preview">![](assets/new-connection-allow-multiple-records-box.png)</span>
+     ![](assets/new-connection-allow-multiple-records-box.png)
 
    * **連線型別**：選取下列其中一個選項，以指出它們可以連線到多少筆記錄，以及可從多少筆記錄連線：
 
@@ -233,7 +239,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
      此選項僅在連線來自相同工作區的記錄或記錄和Workfront物件型別時可用。
 
-     <span class="preview">![](assets/many-to-many-connection-picker.png)</span>
+     ![](assets/many-to-many-connection-picker.png)
 
      如需連線型別的詳細資訊，請參閱[連線記錄型別概觀](/help/quicksilver/planning/architecture/connect-record-types-overview.md)。
 
@@ -262,9 +268,9 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
 1. （視條件而定）如果您選取連線至Experience Manager Assets或Workfront Planning記錄型別，請在&#x200B;**記錄外觀**&#x200B;區域中選取下列其中一個選項：
 
-   * <span class="preview">**名稱和影像**：連線記錄的名稱和縮圖或圖示都會顯示在連線記錄欄位中。 這是預設選項。</span>
-   * <span class="preview">**名稱**：連線的記錄欄位中只會顯示連線記錄的名稱。</span>
-   * <span class="preview">**影像**：連線記錄欄位中只會顯示連線記錄的縮圖或圖示。</span>
+   * **名稱和影像**：連線記錄的名稱和縮圖或圖示都會顯示在連線記錄欄位中。 這是預設選項。
+   * **名稱**：連線的記錄欄位中只會顯示連線記錄的名稱。
+   * **影像**：連線記錄欄位中只會顯示連線記錄的縮圖或圖示。
 
    沒有縮圖影像的記錄會改為顯示記錄型別圖示。 在&#x200B;**記錄外觀**&#x200B;區域顯示連線記錄的範例。
 
@@ -276,7 +282,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    >
    >* 選取Workfront物件型別時，無法選取記錄外觀。
    >
-   >* 您在「記錄」外觀區域中選取的內容會決定記錄在系統所有位置的連線中的顯示方式，包括所有檢視和「詳細資訊」頁面。
+   >* 您在「記錄」外觀區域中選取的內容會決定記錄在系統所有位置的連線中的顯示方式，包括所有檢視和詳細資訊頁面。
 
 1. 按一下「**建立**」。
 

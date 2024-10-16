@@ -5,9 +5,10 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+exl-id: 635045c5-17e6-483e-912b-4e9617571137
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '658'
 ht-degree: 1%
 
 ---
@@ -30,7 +31,7 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具備下列專案才能存取Workfront Planning：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto">
  <col>
@@ -136,8 +137,3 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
 1. 按一下&#x200B;**提交**。
 
    您的表單已提交，並且新記錄已新增到與表單關聯的記錄型別。
-
-
-
-
-

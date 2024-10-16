@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '2713'
+source-wordcount: '2793'
 ht-degree: 1%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 1%
 
 +++ 展開以檢視Workfront Planning的存取需求。
 
-您必須具備下列專案才能存取Workfront Planning：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
 <col> 
@@ -70,7 +70,12 @@ ht-degree: 1%
    <p> 產品</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront規劃<p></li></ul></td> 
+   <li><p> Adobe Workfront規劃<p></li>
+   <li><p>Adobe Experience Manager Assets (如果要將AEM資產與Planning記錄連線)<p>
+   <p>您必須擁有Adobe Experience Manager Assets授權，以及AEM Assets與Workfront之間的整合。
+    如需詳細資訊，請參閱<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Experience Manager Assets與Assets Essentials的Adobe Workfront：文章索引</a>。 </p>
+   </li>  
+   </ul></td> 
   </tr>   
 <tr> 
    <td role="rowheader"><p>Adobe Workfront計畫*</p></td> 
@@ -146,7 +151,7 @@ ht-degree: 1%
 * 記錄的預覽或頁面在詳細資訊索引標籤的已連線記錄欄位中。
 * 記錄在「連線」標籤上的預覽或頁面。
 
-### 從表格檢視或記錄頁面的「詳細資訊」標籤連線Adobe Workfront Planning記錄
+### 從表格檢視或「詳細資訊」區域連線Adobe Workfront Planning記錄
 
 {{step1-to-planning}}
 
@@ -164,6 +169,11 @@ ht-degree: 1%
 
    * 從清單中按一下已連線的記錄名稱，將其新增至選取的記錄。 記錄會自動新增。
    * 開始輸入記錄的名稱，並在它顯示在清單中時按一下它。 記錄會自動新增。
+
+   >[!TIP]
+   >
+   >    如果只選擇在記錄型別連線時顯示的記錄影像，則連線的欄位中只會顯示記錄的縮圖或圖示。 如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
+
 
 1. （選擇性）如果您找不到要連線的記錄或物件，而且您想要新增該記錄，請按一下[新增] **+ [新增]**&#x200B;以新增記錄。 如需詳細資訊，請參閱文章[建立記錄](/help/quicksilver/planning/records/create-records.md)中的「連線時建立記錄」一節。
 

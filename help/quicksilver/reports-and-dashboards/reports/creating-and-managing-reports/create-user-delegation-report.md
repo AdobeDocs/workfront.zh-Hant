@@ -7,14 +7,16 @@ description: 建立使用者委派報告
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c860574b-0488-499e-8d36-d0f3f85aac2d
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '383'
 ht-degree: 1%
 
 ---
 
 # 建立使用者委派報告
+
+<!--Audited: 10/2024-->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: consider moving this to the Custom&nbsp;View, Filter, Grouping Samples section as an example of a report)</p>
@@ -39,6 +41,8 @@ ht-degree: 1%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
@@ -46,12 +50,13 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計劃 </p> </td> 
+   <td> <p>新增：標準 </p>
+   <p>目前：計畫 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
@@ -64,7 +69,8 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
++++
 
 ## 建立使用者委派報告
 
@@ -79,14 +85,14 @@ ht-degree: 1%
    |---|---|
    | **來自使用者** | 這是將其任務、問題和專案核准委派給其他使用者的使用者。 |
    | **至使用者** | 這是具有委派給他們的任務、問題和專案核准的使用者。 |
-   | **開始** | 這是進行委派的使用者離開辦公室時間的開始。 |
-   | **結束** | 這是進行委派的使用者結束外出時間。 |
+   | **開始日期** | 這是進行委派的使用者離開辦公室時間的開始。 |
+   | **結束日期** | 這是進行委派的使用者結束外出時間。 |
 
    {style="table-layout:auto"}
 
 1. （選用）在Report Builder中，修改下列專案：
 
-   * 欄
+   * 欄（檢視）
    * 群組
    * 篩選器
    * 圖表
@@ -94,7 +100,5 @@ ht-degree: 1%
    若要深入瞭解這些功能，請參閱[建立自訂報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
 1. 完成報表建置後，請按一下&#x200B;**儲存+關閉**。
-
-1. 在&#x200B;**報告名稱**&#x200B;欄位中輸入新名稱，然後按一下&#x200B;**儲存報告**。
 
    報表隨即顯示。

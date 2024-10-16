@@ -8,14 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1091'
 ht-degree: 0%
 
 ---
 
 # 使用版面配置範本自訂左側面板
+
+<!--Audited: 10/2024-->
 
 在版面配置範本中，您可以自訂使用者在整個[!DNL Adobe Workfront]的左側面板區域中看到的內容。
 
@@ -68,26 +70,19 @@ ht-degree: 0%
 ## 自訂[!DNL Workfront]中某個區域的左側面板：
 
 1. 開始使用版面配置範本，如[建立和管理版面配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)中所述。
-1. 按一下&#x200B;**[!UICONTROL 自訂使用者看到的內容]**&#x200B;下方的向下箭頭![](assets/dropdown-arrow.png)，然後按一下您要自訂的左側面板。
+1. 按一下&#x200B;**[!UICONTROL 自訂使用者看到的內容]**&#x200B;下方的向下箭頭![](assets/dropdown-arrow.png)，然後按一下您要自訂其左側面板的物件型別或[!DNL Workfront]區域的名稱。
 
-   >[!NOTE]
-   >
-   >如需此下拉式清單中[!UICONTROL 首頁]選項的相關資訊，請參閱[使用配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)自訂[!UICONTROL 首頁]和[!UICONTROL 摘要]。 如需[清單]選項的相關資訊，請參閱[使用版面配置範本自訂篩選器、檢視和群組](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)。
+   下表列出您可以自訂其左側面板的物件型別和[!DNL Workfront]區域：
 
-1. 在&#x200B;**[!UICONTROL 左側面板]**&#x200B;清單中，執行下列任一項作業，以決定使用者會在左側面板中看見您所選取的選項（[!DNL Workfront]區域或物件型別）的內容：
-
-   * 顯示![](assets/add-secondary-nav-item.png)或隱藏![](assets/delete-secondary-nav-item.png)專案。 無法隱藏任何沒有![](assets/add-secondary-nav-item.png)或![](assets/delete-secondary-nav-item.png)的專案。
-
-   * 拖曳專案![](assets/move-icon---dots.png)以變更其在左側面板上的順序。
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <col> 
     <thead> 
      <tr> 
-      <th>選項</th> 
+      <th>物件型別或[!DNL Workfront]區域</th> 
       <th>當使用者按一下以下時……</th> 
-      <th>他們看到您從下列選項中選擇的左側面板專案：</th> 
+      <th>在版面配置範本中顯示區段後，使用者會看到的左側面板區段：</th> 
      </tr> 
     </thead> 
     <tbody> 
@@ -206,24 +201,38 @@ ht-degree: 0%
 
    *貴公司必須購買Workfront Planning的額外授權，才能將此區域新增至專案、產品組合和計畫的左側面板。 如需詳細資訊，請參閱[Adobe Workfront規劃總覽](/help/quicksilver/planning/general/planning-overview.md)
 
+
+1. 在&#x200B;**[!UICONTROL 左側面板]**&#x200B;清單中，執行下列任一項作業，以決定使用者會在左側面板中看見您所選取的[!DNL Workfront]區域或物件型別：
+
+   * 按一下&#x200B;**顯示** ![](assets/add-secondary-nav-item.png)或&#x200B;**隱藏** ![](assets/delete-secondary-nav-item.png)圖示，以顯示或隱藏左側面板中的區段。 您無法隱藏沒有&#x200B;**顯示**&#x200B;或&#x200B;**隱藏**&#x200B;圖示的專案。
+
+   * 拖曳專案![](assets/move-icon---dots.png)以變更其在左側面板上的順序。
+
    >[!NOTE]
    >
-   >**[!UICONTROL 自訂使用者看到的專案]**&#x200B;下拉式清單（[!UICONTROL 清單]、[!UICONTROL 首頁和摘要]以及[!UICONTROL 品牌]）中的最後3個專案是用於設定左側面板以外的區域。 如需其相關資訊，請參閱下列文章：
+   >**[!UICONTROL 自訂使用者看到的內容]**&#x200B;下拉式清單中的下列專案，參照的是左側面板以外的區域：
+   >* [!UICONTROL 清單]
+   >* [!UICONTROL 摘要面板]
+   >* [!UICONTROL 首頁]
+   >* [!UICONTROL 品牌]
+   > 
+   >如需有關如何自訂其他區域的資訊，請參閱下列文章：
    >
    >* [使用配置範本自訂篩選器、檢視和群組](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-   >* [使用配置範本自訂[!UICONTROL 首頁]和[!UICONTROL 摘要]](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+   >* [使用配置範本自訂[!UICONTROL 摘要面板]](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+   >* [使用配置範本自訂首頁](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
    >* 使用版面配置範本的[品牌Adobe [!DNL Workfront] ](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 
 
 1. （選擇性）如果您想要新增連結至您組織其中一個儀表板的左側面板專案，請按一下「**[!UICONTROL 新增自訂區段]**」，為專案輸入「**[!UICONTROL 自訂區段標題]**」，然後新增儀表板。
 
-   儀表板專案會出現在左側面板的底部。 當使用者將滑鼠游標停留在左側面板上時，他們會看到您在控制面板專案旁鍵入的自訂區段標題。
+   儀表板專案會出現在左側面板的底部。 當使用者將滑鼠游標停留在左側面板中時，他們會看到您在控制面板專案旁鍵入的自訂區段標題。
 
    >[!NOTE]
    >
-   >使用者可以將自訂儀表板專案新增到自己的左側面板。 當您在版面配置範本中新增自訂儀表板專案時，您的專案會與其合併，而不會覆寫或重設它們。 如果您將使用者指派給具有自訂儀表板專案的新配置範本，也會發生這種情況。 若要瞭解使用者如何自訂左側面板，請參閱[建立自訂標籤或區段](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)。
-
-   如需儀表板的詳細資訊，請參閱[儀表板](../../../reports-and-dashboards/dashboards/dashboards-overview.md)。
+   >使用者可以將自訂儀表板專案新增到自己的左側面板。 當您在版面配置範本中新增自訂儀表板專案時，除了它們新增的專案外，還會顯示您的專案，而不會覆寫或重設它們。 如果您將使用者指派給具有自訂儀表板專案的新配置範本，也會發生這種情況。 若要瞭解使用者如何自訂左側面板，請參閱[建立自訂標籤或區段](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)。
+   >
+   >如需儀表板的詳細資訊，請參閱[儀表板](../../../reports-and-dashboards/dashboards/dashboards-overview.md)。
 
 1. 繼續自訂版面範本。
 
@@ -233,4 +242,4 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >您可以隨時按一下[儲存]來儲存進度，然後再繼續修改範本。
+   >您可以隨時按一下&#x200B;[!UICONTROL **儲存**]&#x200B;以儲存進度（這會關閉版面配置範本編輯器），然後稍後繼續修改範本。
