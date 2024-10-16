@@ -5,9 +5,9 @@ description: 舊版首頁將於2017年第4季版本中從Workfront移除。 本�
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: e63180a5d2b542f98c96ec5a2bd2fb0df078bb11
+source-git-commit: 00a1876e005f0f0c47bdebaab77bbcfe42318612
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '568'
 ht-degree: 3%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 3%
 
 | **篩選器** | **群組** |
 |------------|-----------|
-|  — 處理<br> — 準備開始<br> — 未就緒<br> — 已要求<br> — 已完成<br> — 專案<br> — 到期日期<br> — 狀態 |  — 無<br> — 周到期<br> — 狀態<br> — 專案 |
+|  — 處理中<br> — 準備開始<br> — 未就緒<br> — 已要求<br> — 已完成<br> — 專案<br> — 到期日<br> — 狀態<br> — 我的焦點 |  — 無<br> — 我的焦點<br> — 周到期日<br> — 狀態<br> — 專案 |
 
 
 **舊版主篩選器和群組選項在優先順序中無法使用**
