@@ -5,7 +5,7 @@ description: 您可以使用「摘要」這項功能，快速摘要工作專案�
 author: Becky
 feature: Get Started with Workfront
 exl-id: b7d4d9a5-cdc5-43a6-a58f-57480f702034
-source-git-commit: bec1318d83938964697d76b83062ef11745802e3
+source-git-commit: bbe4ad6a8528e7d0e3a5f6f2b669c1b5d8d2e313
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 1%
@@ -73,10 +73,10 @@ AI助理可以總結下列物件：
 
 下列區域有使用AI助理產生摘要的按鈕：
 
-* 專案標題：專案摘要
-* 更新區域：摘要內容
+* 專案標題：摘要專案
+* 更新區域：摘要評論
 
-若要使用「專案摘要」或「摘要內容」按鈕：
+若要使用「摘要」專案或「摘要註解」按鈕：
 
 1. 按一下按鈕。
 
