@@ -6,16 +6,14 @@ description: 雖然資源集區中的使用者數量沒有限制，但使用者�
 author: Lisa
 feature: Resource Management
 exl-id: b888aa95-8d42-4cc3-8a99-6842435c84d2
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: 854197fcb8c4d3a87e4d93fe2ae9e968a3254027
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 從資源集區中移除使用者
-
-{{preview-and-fast-release-Q424}}
 
 雖然資源集區中的使用者數量沒有限制，但使用者清單只會顯示前2000位使用者（按字母順序列出）。
 
@@ -73,15 +71,10 @@ ht-degree: 1%
    或\
    如果您想要移除與這些實體相關聯的所有使用者，請開始輸入公司、工作角色、團隊或群組的名稱。
 
-   <span class="preview">預覽環境中的範例影像：<span>
-
    ![從資源集區移除使用者](assets/remove-users-from-resource-pool.png)
 
-   生產環境中的影像範例：
-   ![搜尋資源集區](assets/search-inside-new-resource-pool-350x314.png)
-
-1. 按一下使用者層級的「x」圖示，從資源集區移除使用者。 它們會從所有出現的清單中移除。\
-   或\
-   若要移除與工作角色、群組、團隊或公司相關聯的所有使用者，請按一下工作角色、群組、團隊或公司層級的&#x200B;**移除**。 這會從資源集區中移除與該工作角色、群組、團隊或公司相關聯的所有使用者。
+1. 按一下使用者層級的X圖示，即可從資源集區移除使用者。 它們會從所有出現的清單中移除。
+   <!--Or  
+   To remove all users associated with a job role, group, team, or company, click **Remove** at the job role, group, team level, or company level. This removes all the users associated with that job role, group, team, or company from the Resource Pool.-->
 
 1. 按一下「**儲存**」。

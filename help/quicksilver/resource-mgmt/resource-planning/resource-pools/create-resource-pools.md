@@ -6,10 +6,10 @@ description: 資源集區是使用者的集合，可協助您更輕鬆地在Adob
 author: Lisa
 feature: Resource Management
 exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
-source-git-commit: 2f5e0b8ba4ec4f32ae0457a6a901a43d03389773
+source-git-commit: 854197fcb8c4d3a87e4d93fe2ae9e968a3254027
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,9 +18,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="wf_resource_pools"
 >title="資源集區"
->abstract="資源集區是同時需要用來完成專案的使用者集合。 建立資源集區後，您可以將其與專案和範本建立關聯。"
-
-{{preview-and-fast-release-Q424}}
+>abstract="資源集區是為了完成一件專案，而需要其同時存在之使用者們的集合。建立資源集區後，您可以將其與專案和範本關聯。"
 
 資源集區是使用者的集合，可協助您更輕鬆地在Adobe Workfront中管理資源。 如需資源集區的詳細資訊，請參閱[資源集區概觀](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)。
 
@@ -66,14 +64,10 @@ ht-degree: 2%
 {{step1-to-resourcing}}
 
 1. 按一下左側面板中的&#x200B;**資源集區**。
-
-   <span class="preview">預覽環境中的範例影像：</span>
-   <span class="preview">![資源集區](assets/list-of-resource-pools.png)</span>
-
-   生產環境中的影像範例：
-   ![資源集區](assets/resource-pools-tab-350x198.png)
-
 1. 按一下&#x200B;**新增資源集區**。
+
+   ![資源集區](assets/list-of-resource-pools.png)
+
 1. 指定下列專案：
 
    <table style="table-layout:auto">
@@ -108,11 +102,7 @@ ht-degree: 2%
    >
    >資源集區中的使用者數量沒有限制。 不過，我們建議不要將太多使用者新增至資源集區，否則資源管理可能會變成一項挑戰。 使用者清單只會顯示資源集區中的前2,000名使用者，而且會依字母順序列出。
 
-   <span class="preview">預覽環境中的範例影像：</span>
-   <span class="preview">![個使用者已新增至資源集區](assets/users-in-resource-pool2.png)</span>
-
-   生產環境中的影像範例：
-   ![個使用者已新增至資源集區](assets/resource-pools-new---undo-button-for-teams-groups-etc-350x113.png)
+   ![個使用者已新增至資源集區](assets/users-in-resource-pool2.png)
 
 1. （可選）按一下使用者名稱右側的X圖示可移除使用者。 如需有關從資源集區移除使用者的詳細資訊，請參閱[從資源集區移除使用者](../../../resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md)。
 1. （選擇性）使用&#x200B;**搜尋**&#x200B;選項在資源集區中尋找使用者。
