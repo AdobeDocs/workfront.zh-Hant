@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 70cbeaa132127d1fc879b04fb6b5eb339945ff78
+source-git-commit: 7a1df83c0dd7ddf7dd6cf41643ba65c5903d6eba
 workflow-type: tm+mt
-source-wordcount: '4395'
+source-wordcount: '4419'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,11 @@ Adobe Workfront API的目標是透過引入透過HTTP運作的REST-ful架構，�
 
 物件型別不區分大小寫，可以是縮寫的ObjCode （例如proj）或替代物件名稱（專案）。
 
-如需有效ObjCode的清單，請參閱  [API總管](../../wf-api/general/api-explorer.md)。
+如需物件、有效物件代碼和物件欄位的清單，請參閱  [API總管](../../wf-api/general/api-explorer.md)。
+
+>[!NOTE]
+>
+>在Workfront API的內容中，自訂表單是`Category`物件，自訂欄位是`Parameter`物件。
 
 ### 營運
 

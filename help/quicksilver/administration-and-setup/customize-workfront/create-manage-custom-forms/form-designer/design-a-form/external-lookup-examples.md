@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: bcc0054f761101ac19d1ced241329fce95be4e99
+source-git-commit: 7a1df83c0dd7ddf7dd6cf41643ba65c5903d6eba
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1314'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 自訂表單中的外部查詢欄位會呼叫外部API，並在下拉欄位中傳回值作為選項。 使用自訂表單附加至之物件的使用者可以從下拉式清單中選取一個或多個選項。
 
-本文提供使用外部查詢欄位來呼叫Workfront或公用API的相同例項的範例。 您也可以使用外部查詢與外部系統（例如Jira、Salesforce或ServiceNow）通訊。
+本文提供使用外部查詢欄位來呼叫Workfront或公用API的相同例項的範例。 您也可以使用外部查詢與外部系統(例如Jira、Salesforce或ServiceNow)通訊。
 
 如需將外部查閱欄位新增至自訂表單的詳細資訊，以及外部查閱元件的其他定義，請參閱[使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
@@ -35,10 +35,10 @@ ht-degree: 0%
 1. 在熒幕左側，尋找&#x200B;**外部查詢**&#x200B;並將其拖曳至畫布上的區段。
 1. 輸入欄位的&#x200B;**標籤**&#x200B;和&#x200B;**名稱**。
 1. 選取欄位的&#x200B;**格式**。
-1. 在&#x200B;**基本API URL**&#x200B;欄位中輸入API URL呼叫。
+1. 在&#x200B;**基本API URL**&#x200B;欄位中輸入API呼叫。
 
-   * 您可以新增$$HOST來參照相同例項。
-   * 您可以新增$$QUERY以根據查詢其他欄位來篩選結果。
+   * 若要參照自訂表單所在的相同Workfront例項，請在URL使用$$HOST。
+   * 若要根據查詢其他欄位來篩選結果，請新增$$QUERY。
 
    **範例**
    `$$HOST/attask/api/v15.0/project/search?status={DE:StatusQuery}&$$QUERY`
