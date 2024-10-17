@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 7a1df83c0dd7ddf7dd6cf41643ba65c5903d6eba
+source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1321'
 ht-degree: 0%
 
 ---
@@ -111,13 +111,15 @@ ht-degree: 0%
 
 ## 設定Workfront Planning API的外部查詢欄位
 
-[Workfront Planning API](/help/quicksilver/planning/general/planning-api-basics.md)中有端點可透過Get方法依記錄型別ID搜尋記錄。 您可以使用此端點來參考外部查閱欄位中的Planning記錄。
+Workfront Planning API中的端點可透過Get方法，依記錄型別ID搜尋記錄。 您可以使用此端點來參考外部查閱欄位中的Planning記錄。
 
 * **基礎API URL：** `$$HOST/maestro/api/v1/records/search?recordTypeId={recordTypeID}`
 * **HTTP方法：** Get
 * **JSON路徑：** `$.records[*].data.{fieldID}`
 
   **{fieldID}**&#x200B;是要在使用者自訂表單的外部查詢搜尋結果中顯示的欄位。
+
+如需詳細資訊，請參閱[Workfront Planning API](/help/quicksilver/planning/general/planning-api-basics.md)。
 
 ## 設定公用API的外部查詢欄位
 

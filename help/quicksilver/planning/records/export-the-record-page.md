@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '474'
 ht-degree: 1%
 
 ---
@@ -94,63 +94,6 @@ ht-degree: 1%
 
 +++
 
-<!--OLD:
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>New: Standard</p>
-   Or
-   <p>Current: Plan</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configurations</p></td>
-   <td> <p>There are no access controls for Adobe Workfront Planning</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-
- </tbody>
-</table>
-
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
-
 ## 匯出記錄詳細資訊的考量事項：
 
 * 您可以將記錄的詳細資訊匯出為下列檔案格式：
@@ -158,7 +101,7 @@ ht-degree: 1%
    * .docx Word
    * .pdf
 
-* 您可以匯出記錄頁面的「詳細資訊」標籤。 您無法匯出[連線]索引標籤。
+* 您可以匯出記錄頁面的「詳細資訊」標籤。
 
 * 匯出的檔案會保留記錄頁面的版面，包括縮圖和封面影像。
 
@@ -181,7 +124,7 @@ ht-degree: 1%
 
 1. 選擇&#x200B;**詳細資料**&#x200B;標籤。 詳細資訊標籤預設為開啟。
 
-1. 在預覽或記錄頁面中按一下&#x200B;**匯出**&#x200B;圖示![](assets/export-icon-in-record-details-page.png)，然後按一下下列其中一項：
+1. 在預覽或記錄頁面中按一下&#x200B;**匯出**&#x200B;功能表![](assets/export-icon-in-record-details-page.png)，然後按一下下列其中一項：
 
    * **Microsoft Word**
    * **Adobe PDF**

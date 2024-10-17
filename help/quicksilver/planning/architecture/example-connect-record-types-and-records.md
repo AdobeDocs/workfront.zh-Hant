@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 425c3d3afb892ac83a10bbd36efb4c7d9712c4dc
+source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
 workflow-type: tm+mt
-source-wordcount: '1949'
+source-wordcount: '1957'
 ht-degree: 0%
 
 ---
@@ -55,10 +55,13 @@ ht-degree: 0%
      >
      >從不同的工作區連線記錄或連線Experience Manager資產時，**連線型別**&#x200B;選項無法使用。 如需詳細資訊，請參閱[連線記錄型別概觀](/help/quicksilver/planning/architecture/connect-record-types-overview.md)。
 
-   * **錄製外觀**：如果您不想在將產品新增至行銷活動的「產品資訊」欄位時顯示產品名稱，請取消選取「**標題**」切換按鈕。 如果啟用，記錄會顯示縮圖和標題。 切換預設為啟用。
+   * **錄製外觀**：從下列選項中選擇：
+      * **名稱和影像**：顯示連線記錄的名稱和縮圖或圖示。 依預設會選取此選項。
+      * **名稱**：只顯示連線記錄的名稱。
+      * **影像**：只顯示連線記錄的縮圖或圖示。
    * **選取查閱欄位**：如果您保留選取此選項，則會接著開啟&#x200B;**新增查閱欄位**&#x200B;方塊，讓您將「產品」欄位與「促銷活動」記錄型別連結。 您可以按一下&#x200B;**跳過**&#x200B;以略過此步驟，並於稍後新增產品欄位。
 
-   ![](assets/new-connection-with-product-record-type.png)
+     ![](assets/new-connection-with-product-record-type.png)
 
 1. （視條件而定）如果您在上一步選取了&#x200B;**選取查閱欄位選項**，請從與&#x200B;**產品**&#x200B;記錄型別相關的欄位清單中，按一下&#x200B;**預算**&#x200B;欄位的&#x200B;**+**&#x200B;圖示，然後按一下&#x200B;**新增欄位**。 這會建立名為&#x200B;**Budget （來自產品資訊）**&#x200B;的欄位，這是連結欄位的名稱。 「產品預算」的任何資訊都會顯示在此欄位中的促銷活動記錄。
 
