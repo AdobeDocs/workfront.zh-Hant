@@ -6,9 +6,9 @@ description: 您可以從各種清單、報表、控制面板和搜尋匯出Adob
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '2164'
+source-wordcount: '2255'
 ht-degree: 0%
 
 ---
@@ -121,7 +121,6 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
   >匯出包含欄中集合參照的報告可能會導致錯誤，即使該報告在列出的匯出限制內也是如此。 如果參照的集合太大，匯出程式會逾時，並接著導致錯誤。
   >
   >為避免此錯誤，請在匯出之前排除參照大型集合的欄，或減小參照集合的大小。
-  >
 
   如果報表中的專案數超過上述限制，您會收到匯出失敗錯誤。 將您在畫面上看到的專案數減少到小於或等於這些限制的數字，以便能夠匯出結果。
 
@@ -151,6 +150,14 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 * **10MB檔案大小：**&#x200B;任何排定傳送之匯出報告的檔案大小限制。 如果附加至電子郵件的匯出檔案大於5MB，則會以電子郵件傳送可下載該檔案的連結，而非附加的匯出報告。
 * **65,530個超連結：**&#x200B;這是Excel對包含超過65,530個超連結的檔案所強加的限制。 以手動方式匯出或以傳送的報表傳送檔案時，無法開啟這些檔案。 請注意，一個Excel檔案可能只有200列資料，但如果檔案中有超過65,530個連結，則檔案不會開啟。 此限制僅存在於Excel檔案中，不存在於其他支援的格式中。 
 * **256欄**：這是Excel對包含超過256欄的檔案所施加的限制。 這些檔案無法手動匯出，或以傳送的報告傳送。 此限制僅存在於Excel檔案中，不存在於其他支援的格式中。
+
+  >[!IMPORTANT]
+  >
+  >匯出包含報告欄的報告可能會導致錯誤，即使該報告不在列出的匯出限制之內。
+  >
+  >如果您使用匯出功能來與他人共用包含「報表」欄的報表，請考慮改為將報表公開，以共用報表。 如需公開報告的詳細資訊，請參閱[在Adobe Workfront中共用報告](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)。
+  >
+  >如果您使用匯出功能從外部評估資料，建議您改用Workfront Data Connect 。 如需詳細資訊，請參閱[Workfront Data Connect總覽](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md)。
 
 如果您嘗試匯出超過限制的資料，您可能無法收到匯出中預期的所有資料。 而是會在限制內產生修改後的報表。
 

@@ -6,9 +6,9 @@ description: 您可以在建立特定報表元素時，使用萬用字元而非�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 759b0bea-729e-4206-808c-0a7216ded4ff
-source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '687'
 ht-degree: 1%
 
 ---
@@ -68,7 +68,6 @@ ht-degree: 1%
 
 1. 移至您要插入日期型萬用字元的報表。
 1. 按一下&#x200B;**報告動作**，然後按一下&#x200B;**編輯**。
-
 1. 按一下&#x200B;**篩選器**&#x200B;索引標籤。
 1. 按一下&#x200B;**新增篩選規則**。
 1. 開始輸入您要作為篩選依據的欄位名稱。\
@@ -79,7 +78,7 @@ ht-degree: 1%
    >
    >在Adobe Workfront中使用萬用字元時，您必須一律選取&#x200B;**等於**&#x200B;篩選器變數。
 
-1. 在&#x200B;**開始輸入名稱……**&#x200B;方塊中，如果要顯示報表執行當天發生的事項的相關資訊，請輸入： `$$TODAY`。
+1. 按一下&#x200B;**設定相對日期**&#x200B;切換按鈕，然後在顯示的文字方塊中輸入： `$$TODAY` （如果您想要顯示報表執行當天發生的資訊）。
 
    或
 
@@ -91,8 +90,6 @@ ht-degree: 1%
 1. （選擇性）如果您想要顯示在執行報告日期之前的時間範圍內所發生事件的相關資訊，請輸入`$$TODAY-1w`以顯示前一週的資訊，或輸入`$$TODAY-2m`以顯示前兩個月的資訊。 您也可以指出季度、小時、天或年的時間範圍。
 
    如需您可以在日期型萬用字元中使用的屬性、限定詞和運運算元的完整清單，請參閱文章[萬用字元篩選變數概觀](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)。
-
-   ![](assets/video-date-based-wildcard-in-task-filter-350x81.png)
 
 1. 按一下「**儲存並關閉**」。
 

@@ -6,9 +6,9 @@ description: '注意：在文章中新增區段：/Content/Reports and Dashboard
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '482'
 ht-degree: 1%
 
 ---
@@ -97,13 +97,11 @@ ht-degree: 1%
    >
    >若要使用文字模式編輯檢視，您必須一次編輯一欄。
 
-1. 按一下產生器右上角的&#x200B;**切換至文字模式**。
+1. 按一下產生器右上角的&#x200B;**切換至文字模式**，然後按一下&#x200B;**編輯文字模式**。
 
    >[!NOTE]
    >
    >當您以文字模式編輯欄時，Workfront會將`textmode=true`行程式碼新增至欄。 這表示在文字模式中修改了欄。
-
-   ![](assets/switch-to-text-mode-in-view-nwe-highlighted-350x447.png)
 
    下表概述文字模式檢視中的關鍵行：
 

@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 2d5cfabe17e4bc0f82c412e9144488160f13c717
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '1075'
 ht-degree: 0%
 
 ---
@@ -18,33 +18,51 @@ ht-degree: 0%
 
 如需2024年第四季版本的所有變更清單，請參閱[2024年第四季版本概觀](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)。
 
-## 儀表板的外觀與操作方式更新
-
->[!NOTE]
->
->預覽版： 10月15日；適用於所有客戶的生產版：24.10版（2024年10月17日）
-
-我們已對儀表板介面進行各種更新，以符合Workfront其他區域的設計，包括改進列印儀表板時的列印預覽畫面。
-
-如需儀表板的詳細資訊，請參閱[建立和管理儀表板](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md)。 如需行事曆的詳細資訊，請參閱[行事曆報告總覽](/help/quicksilver/reports-and-dashboards/reports/calendars/calendar-reports-overview.md)。
-
 ## 報表的外觀和感覺更新
 
 >[!NOTE]
 >
->預覽版本：自2024年9月12日起；適用於所有客戶的生產版本：多種多樣，所有更新將於2024年11月8日前提供
+>適用於所有客戶的生產版本：從24.10版本（2024年10月17日）開始逐步推出，於2024年11月8日完整推出
 
 我們已對報表介面進行各種更新，以符合Workfront其他區域的設計需求。 這些更新包括對各種報告功能的一些其他變更，包括：
 
-* 編輯報表欄時用於輸入文字模式的新按鈕
-* 對相對日期萬用字元和萬用字元捷徑的功能進行小幅變更
-* 條件式規則不再要求按一下「完成」按鈕才能建立
-* 報表中條件式格式規則的展開調色盤
-* 改善畫布儀表板中使用情況的現有報表變更
+* 已針對報表中的條件式格式規則新增擴充的調色盤。 如需條件式格式的詳細資訊，請參閱[在檢視中使用條件式格式](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)。
+* 在Report Builder中編輯欄時，已新增新的「編輯文字模式」按鈕以進入文字模式。 如需以文字模式編輯報告檢視的詳細資訊，請參閱[使用文字模式編輯檢視](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
+* 報告篩選介面已新增切換功能，以便依日期欄位篩選時，在行事曆日期選擇器和相對日期萬用字元文字欄位之間切換。 此外，在報告篩選器介面中選取相對日期萬用字元捷徑，現在會根據您的選取自動填入關聯的萬用字元欄位。 如需有關在報告篩選中使用相對日期萬用字元的詳細資訊，請參閱[使用日期萬用字元來一般化報告](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md)。
+* 報告篩選器中的使用者型萬用字元現在會根據您選取的欄位型別，建議自動完成的相關萬用字元。 如需報告篩選器中使用者萬用字元的詳細資訊，請參閱[使用使用者萬用字元來一般化報告](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md)。
+* 現在會顯示具有公開共用的提示的報告，不會透過公開共用連結為存取該報告的所有使用者套用提示。 直接存取報告的登入使用者仍可套用提示。 如需報告提示的相關資訊，請參閱[新增提示至報告](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)。
+* 變更現有報表，改善其與畫布控制面板的相容性。
 
-自2024年9月12日起，這些更新將在預覽和生產環境中個別實施。 所有更新將於2024年11月8日前在生產環境中針對所有客戶完全實施。
+_從2024年10月17日的24.10版開始，這些更新正在生產環境中逐步實作。 開始時，只有少數客戶可以使用變更，並隨著時間推移逐漸開放使用，直到2024年11月8日完全開放所有客戶使用。_
 
-如需Workfront中報告的詳細資訊，請參閱[開始使用報告](/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)。
+## 儀表板的外觀與操作方式更新
+
+>[!NOTE]
+>
+>適用於所有客戶的生產版本：從24.10版本（2024年10月17日）開始逐步推出，於2024年11月8日完整推出
+
+我們已對控制面板介面進行各種更新，以符合Workfront其他區域的設計需求。 這些更新包括對各種儀表板功能的一些其他變更，包括：
+
+* 已改善列印儀表板時的列印預覽畫面。 如需有關列印儀表板的資訊，請參閱[]
+
+如需儀表板的一般資訊，請參閱[建立和管理儀表板](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md)。
+
+_從2024年10月17日的24.10版開始，這些更新正在生產環境中逐步實作。 開始時，只有少數客戶可以使用變更，並隨著時間推移逐漸開放使用，直到2024年11月8日完全開放所有客戶使用。_
+
+## 篩選器和檢視的外觀和感覺更新
+
+>[!NOTE]
+>
+>適用於所有客戶的生產版本：從24.10版本（2024年10月17日）開始逐步推出，於2024年11月8日完整推出
+
+我們已對篩選器和檢視介面進行各種更新，以符合Workfront其他區域的設計。 這些更新包括對檢視和舊版篩選器介面的一些其他變更，包括：
+
+* 已針對報表中的條件式格式規則新增擴充的調色盤。 如需條件式格式的詳細資訊，請參閱[在檢視中使用條件式格式](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)。
+* 已新增新的「編輯文字模式」按鈕，以在建立新檢視時編輯欄進入文字模式。 如需以文字模式編輯檢視的詳細資訊，請參閱[使用文字模式編輯檢視](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)。
+* 在舊版篩選器介面中新增切換功能，以便依日期欄位篩選時，在行事曆日期選擇器和相對日期萬用字元文字欄位之間切換。 此外，在報告篩選器介面中選取相對日期萬用字元捷徑，現在會根據您的選取自動填入關聯的萬用字元欄位。
+* 舊版篩選器中的使用者型萬用字元現在會根據您選取的欄位型別，建議自動完成的相關萬用字元。 如需使用舊版篩選器的詳細資訊，請參閱[在Adobe Workfront中建立或編輯篩選器](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md)。
+
+_從2024年10月17日的24.10版開始，這些更新正在生產環境中逐步實作。 開始時，只有少數客戶可以使用變更，並隨著時間推移逐漸開放使用，直到2024年11月8日完全開放所有客戶使用。_
 
 ## 系統偏好設定頁面的外觀更新
 

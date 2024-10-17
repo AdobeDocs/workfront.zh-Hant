@@ -6,7 +6,7 @@ description: 您可以在建立特定報表元素時，使用萬用字元而非�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 216e2869-b4f8-4cc7-9497-a12ebe00fe49
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 1%
@@ -78,8 +78,6 @@ ht-degree: 1%
 1. 在&#x200B;**開始輸入名稱……**&#x200B;方塊中，輸入： `$$USER.ID`或`$$USER.name` （如果您希望報告顯示登入的使用者資訊，根據其名稱）。 您可以插入參考登入使用者群組、團隊、公司或其他資訊的其他萬用字元。
 
    如需使用者型萬用字元的完整清單，請參閱[萬用字元篩選變數概觀](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)。
-
-   ![](assets/user-based-wildcard-in-project-filter-350x74.png)
 
 1. 按一下「**儲存並關閉**」。
 

@@ -6,9 +6,9 @@ description: 當使用者指派存取層級時，您的Adobe Workfront管理員�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 225e815a-0354-493d-bbcf-59304ef77570
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '817'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >如果報告有提示且您公開共用，則執行報告的使用者必須登入Workfront，才能使用提示執行報告。 如果他們無法登入Workfront，將會看到未套用提示的報告。 如需有關共用具有提示之報表的限制的詳細資訊，請參閱文章[新增提示至報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)中的[共用提示之報表的限制](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports)小節。
+     >如果報表有提示且您將其公開共用，則透過公開共用連結執行報表的使用者將無法使用提示執行報表。 除非他們登入Workfront並存取報表，未使用公開共用連結，否則他們將會看見報表，但不套用提示。 如需有關共用具有提示之報表的限制的詳細資訊，請參閱文章[新增提示至報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)中的[共用提示之報表的限制](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports)小節。
 
    * **讓此在整個系統內可見：**&#x200B;選取此選項，讓Workfront中可存取報告的所有人都可以看到報告。
 

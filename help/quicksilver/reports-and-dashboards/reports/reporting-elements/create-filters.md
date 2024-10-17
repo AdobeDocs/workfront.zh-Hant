@@ -6,7 +6,7 @@ description: 您可以透過篩選條件限制在專案清單中熒幕顯示的�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
 source-wordcount: '2461'
 ht-degree: 1%
@@ -399,7 +399,7 @@ ht-degree: 1%
      >
      >當使用多個OR陳述式連線一組AND陳述式時，您必須對每個陳述式群組重複不會在OR陳述式之間變更的欄位。
      >
-     >![已連線的篩選器陳述式](assets/filters-and-statements-connected-by-or-statements-builder-ui-old-filters-2022.png)
+     >![已連線的篩選器陳述式](assets/filters-and-statements-connected-by-or-statements-builder-ui-legacy-filters.png)
      >
      >當您針對包含「行銷」一詞，且位於狀態為「目前」或「計畫」專案中的任務建立篩選時，您必須有下列篩選規則：
      >

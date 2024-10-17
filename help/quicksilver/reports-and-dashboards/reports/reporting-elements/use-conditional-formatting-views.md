@@ -6,9 +6,9 @@ description: 當您在Adobe Workfront中與其他使用者共用報表時，請�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 0ea65b3f-fbcf-40f4-a4d1-4dd91619c349
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1218'
 ht-degree: 3%
 
 ---
@@ -139,7 +139,7 @@ ht-degree: 3%
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>文字顏色</strong></td> 
-      <td> <p>選取顯示文字的顏色。 有8種顏色可供選擇。</p> <p><b>附註</b></p> <p> 如果欄位包含超連結，則文字顏色選取範圍不會套用至此欄位。</p> </td> 
+      <td> <p>使用顏色選取器選取文字的顯示顏色。</p> <p><b>附註</b></p> <p> 如果欄位包含超連結，則文字顏色選取範圍不會套用至此欄位。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>文字格式</strong></td> 
@@ -151,7 +151,7 @@ ht-degree: 3%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>背景</strong></td> 
-      <td>選取文字的背景顏色。 有8種顏色可供選擇。</td> 
+      <td>使用顏色選取器選取文字背景的顏色。</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>顯示圖示</strong></td> 
@@ -189,6 +189,6 @@ ht-degree: 3%
    * 再次為延遲專案的紅色背景新增欄規則。
    * 當您儲存規則和檢視時，紅色背景不會套用至已取消的專案。
 
-1. 按一下&#x200B;**完成**。
+1. 按一下「**儲存**」。
 1. 按一下「**儲存並關閉**」。\
    在報表中，如果符合指定的條件，使用者會看到格式變更。

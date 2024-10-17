@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
-source-git-commit: e48ef14cc3d0377a6d95f68b502f952ffe4880c4
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '567'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,18 @@ ht-degree: 0%
 此頁面說明2024年第四季版本對「預覽」環境所做的所有管理員增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2024年第四季版本週期目前可用的所有變更清單，請參閱[2024年第四季版本概觀](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)。
+
+## 環境升級現在提供存取層級
+
+>[!NOTE]
+>
+>預覽版本： 2024年10月17日；適用於所有客戶的生產版本：搭配24.10版（2024年10月17日）
+
+為了擴展環境升級功能的功能，我們新增了包含存取層級的功能。 現在，您可以在沙箱環境中設定存取層級，然後將該存取層級提升至您的生產環境。
+
+以前，存取層級無法用於環境升級。
+
+如需有關可用於環境推進的物件的詳細資訊，請參閱「環境推進概述」一文中的[環境推進的支援物件](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion)。
 
 ## 自訂表單上的計數器會顯示欄位數
 
