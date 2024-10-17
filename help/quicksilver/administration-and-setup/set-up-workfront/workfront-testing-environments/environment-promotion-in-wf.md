@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: e9df34c206dd65ccc2edec00087248eb4ed16f54
+source-git-commit: 094a742e62bbf222e695d984efca612b32d9fadf
 workflow-type: tm+mt
-source-wordcount: '1009'
+source-wordcount: '1014'
 ht-degree: 1%
 
 ---
@@ -97,6 +97,7 @@ ht-degree: 1%
 | 費用型別(EXPTYP) | 費用類型 |
 | 風險型別(RSKTYP) | 風險類型 |
 | 資源集區(RSPL) | 資源集區 |
+| 存取層級(ACSLVL) | 存取層級 |
 
 \*目前無法使用
 
