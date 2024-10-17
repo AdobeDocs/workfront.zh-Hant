@@ -5,16 +5,14 @@ description: 您可以使用「摘要」這項功能，快速摘要工作專案�
 author: Becky
 feature: Get Started with Workfront
 exl-id: b7d4d9a5-cdc5-43a6-a58f-57480f702034
-source-git-commit: bbe4ad6a8528e7d0e3a5f6f2b669c1b5d8d2e313
+source-git-commit: 59c74b6530df09cb664e146b611d246465cf0116
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '415'
 ht-degree: 1%
 
 ---
 
 # 使用AI助理摘要
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽Sandbox」環境中使用。</span>
 
 Workfront的AI助理可以摘要某些物件，讓您以高階檢視檢視物件的意圖或詳細資訊。
 
@@ -67,8 +65,6 @@ AI助理可以總結下列物件：
 
   如需詳細資訊，請參閱[啟用或停用AI助理](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)。
 
-<div class="preview">
-
 ## 使用「摘要」按鈕摘要
 
 下列區域有使用AI助理產生摘要的按鈕：
@@ -88,8 +84,6 @@ AI助理可以總結下列物件：
 1. （選擇性）調整提示，確保提供您所需的資訊。
 
    例如，您可以調整「摘要內容」提示，以摘要過去14天（而不是過去7天）的評論。
-
-   </div>
 
 ## 在AI助理中摘要物件
 
