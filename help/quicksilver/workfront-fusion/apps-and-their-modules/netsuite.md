@@ -9,9 +9,9 @@ description: 在Adobe Workfront Fusion案例中，您可以自動化使用 [!DNL
 author: Becky
 feature: Workfront Fusion
 exl-id: 66d2e59e-0945-4a6b-a0fe-5c313051ad4e
-source-git-commit: 57a9667edea9067f14a6c40a75f6cf56a00d5e7d
+source-git-commit: ff66cacc86532092e7a6805b7bf3c26d4437d9e9
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '559'
 ht-degree: 1%
 
 ---
@@ -67,7 +67,45 @@ ht-degree: 1%
 
 若要使用[!DNL NetSuite]模組，您必須有[!DNL NetSuite]帳戶。
 
+## 建立與NetSuite的連線
 
+若要為您的[!DNL NetSuite]模組建立連線：
+
+1. 在[!DNL NetSuite]模組中，按一下[連線]方塊旁的&#x200B;**[!UICONTROL 新增]**。
+
+1. 填寫下列欄位：
+
+   <table style="table-layout:auto"> 
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+      </col>
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+      </col>
+      <tbody>
+        <tr>
+          <td role="rowheader">[！UICONTROL連線名稱]</td>
+          <td>
+            <p>輸入此連線的名稱。</p>
+          </td>
+        </tr>
+        <tr>
+          <td role="rowheader">[！UICONTROL型別] </td>
+          <td>選取您要連線到服務帳戶還是個人帳戶。</p>
+        </tr>
+       <tr>
+          <td role="rowheader">[！UICONTROL帳戶ID] </td>
+          <td>輸入NetSuite帳戶的ID。</p>
+        </tr>
+        <tr>
+          <td role="rowheader">[！UICONTROL使用者端ID]</td>
+          <td>輸入您NetSuite帳戶的使用者端ID。 您可以在您的NetSuite使用者端認證中找到此專案。</p></td>
+        </tr>
+        <tr>
+          <td role="rowheader">[！UICONTROL使用者端密碼]</td>
+          <td>輸入您NetSuite帳戶的使用者端密碼。</p>
+        </tr>
+        </tbody>
+    </table>
+1. 按一下&#x200B;**[!UICONTROL 繼續]**&#x200B;以儲存連線並返回模組。
 
 ## [!DNL NetSuite]模組及其欄位
 
@@ -92,7 +130,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL Connection]</td> 
-   <td> <p>如需有關將[!DNL NetSuite]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#create-a-connection-to-netsuite-in-a-workfront-fusion-netsuite-module" class="MCXref xref">在Workfront Fusion NetSuite模組</a>中建立與[!DNL NetSuite]的連線。</p> </td> 
+   <td> <p>如需有關將您的[!DNL NetSuite]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#create-a-connection-to-netsuite" class="MCXref xref">建立與[!DNL NetSuite]</a>的連線。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL URL]</td> 
