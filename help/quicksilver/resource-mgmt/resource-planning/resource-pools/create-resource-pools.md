@@ -8,8 +8,8 @@ feature: Resource Management
 exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
 source-git-commit: 854197fcb8c4d3a87e4d93fe2ae9e968a3254027
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '575'
+ht-degree: 8%
 
 ---
 
