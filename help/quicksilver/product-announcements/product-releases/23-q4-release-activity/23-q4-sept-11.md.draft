@@ -31,10 +31,9 @@ For more information, see [Design a form with the form designer](/help/quicksilv
 
 Based on user feedback, we have removed the page-wide time range filter and summary bar that tallied tasks due and completed. Project, Task, and Issue widgets each have built-in filtering features allowing you to customize their scope on an individual basis. Additionally, these widgets will now only include content that is currently active based on status, ensuring the work they track is always relevant. We've also limited which widgets display item-count bubbles to those where it is most useful: My Work, Mentions, My approval, and To-dos.
 
-For more information on tracking work in New Home, see [Get started with New Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+
 
 ## New quick access buttons for the Project, Task, and Issue tracking widgets
 
 Further expanding  your ability to manage work directly from New Home, new quick access buttons have been added to the Project, Task, and Issue tracking widgets (including My Work). Found on each project, task, issue, or request in these widgets, these new buttons allow you to quickly open the summary pane, upload files, edit custom forms, create an update, and log time without leaving your New Home page—as well as a larger Work On It button.
 
-For more information on the widget capabilities in New Home, see [Get started with New Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
