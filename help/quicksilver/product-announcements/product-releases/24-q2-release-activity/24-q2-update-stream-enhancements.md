@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 29d8b581-27c9-4215-8147-8044b3e2bc5e
-source-git-commit: fcd3e565c10a952bd78b4f628b071c6718c92747
+source-git-commit: 145dd86575951d837e66e18ceb235dc3694571cc
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,6 @@ ht-degree: 0%
 
 我們現在已將新的註解功能新增到新首頁的「我的工作」、「我的專案」、「我的任務」和「我的問題」Widget中的&#x200B;**新增更新**&#x200B;快速動作按鈕。
 
-如需詳細資訊，請參閱[開始使用新的首頁](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)。
 
 ## 新評論體驗中可用的其他評論者資訊
 

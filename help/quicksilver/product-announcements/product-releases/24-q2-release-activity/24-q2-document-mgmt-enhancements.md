@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9f7873e0-3645-49db-8dec-fb0c6eff3e8d
-source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
+source-git-commit: 145dd86575951d837e66e18ceb235dc3694571cc
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 2%
+source-wordcount: '333'
+ht-degree: 3%
 
 ---
 
@@ -61,5 +61,3 @@ ht-degree: 2%
 * 逾期核准
 
 您可以向下展開至上述類別，以取得更詳細的檢視。 所有核准Widget都可在新首頁和畫布儀表板中使用。
-
-如需詳細資訊，請參閱[開始使用新首頁](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)。

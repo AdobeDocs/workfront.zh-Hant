@@ -6,22 +6,28 @@ description: 您可以使用 [!DNL Adobe Workfront Home] 中的[行事曆]檢視
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c8801cb4-0485-44a1-9a7d-a17a96bca419
-source-git-commit: d1babaf52c4035c20bf3990272af5a2f401b7fcb
+source-git-commit: 1131c2329d194f0c9181b6a5cbd39f19a5247ef0
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '53'
 ht-degree: 0%
 
 ---
 
 # 檢視[!UICONTROL 首頁行事曆]
 
-您可以在[!DNL Adobe Workfront Home]中使用[!UICONTROL 行事曆]檢視，在一個位置管理所有指派的工作專案。 您的[!UICONTROL 首頁行事曆]檢視只會顯示給您，而且只有您可以管理您的[!UICONTROL 首頁行事曆]。
+>[!IMPORTANT]
+>
+>此功能已於2014年10月17日汰除舊版首頁時移除。
 
-若要深入瞭解首頁行事曆，請參閱[首頁行事曆檢視](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md)。
+<!--
 
-## 存取需求
+You can use the [!UICONTROL Calendar] view in [!DNL Adobe Workfront Home] to manage all your assigned work items in one place. Your [!UICONTROL Home Calendar] view is visible only to you, and only you can manage your [!UICONTROL Home Calendar].
 
-您必須具有下列存取權才能執行本文中的步驟：
+To learn more about the Home Calendar, see [Home Calendar view](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md).
+
+## Access requirements
+
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,45 +37,47 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
-   <td> <p>任何</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>[！UICONTROL Work]或更高版本</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
+   <td> <p>[!UICONTROL Work] or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>存取層級設定*</strong></td> 
-   <td> <p>[！UICONTROL編輯]對任務和問題的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的[!DNL Workfront]管理員是否對您的存取層級設定了其他限制。 如需[!DNL Workfront]管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td role="rowheader"><strong>Access level configurations*</strong></td> 
+   <td> <p>[!UICONTROL Edit] access to Tasks and Issues</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>[！UICONTROL Contribute]許可權或以上到您要新增至行事曆的任務和問題</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td role="rowheader"><strong>Object permissions</strong></td> 
+   <td> <p>[!UICONTROL Contribute] permissions or higher to the tasks and issues you want to add to the calendar</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-## 檢視[!DNL Workfront] [!UICONTROL 首頁行事曆]
+## View the [!DNL Workfront] [!UICONTROL Home Calendar]
 
-1. 按一下Adobe Workfront左上角的&#x200B;**[!UICONTROL 首頁]**&#x200B;圖示![](assets/home-icon-30x29.png)。
+1. Click the **[!UICONTROL Home]** icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
 
    >[!NOTE]
    >
-   >您的[!DNL Workfront]管理員可能會對您環境中的[!UICONTROL 首頁]圖示進行下列變更：
+   >Your [!DNL Workfront] administrator might make the following changes to the [!UICONTROL Home] icon in your environment:
    >
-   >* 以自訂的影像取代，以說明您的組織。 在此情況下，圖示看起來將會與本文中顯示的有所不同。
-   >* 使用其他頁面取代連結至該頁面的頁面。 在此情況下，請按一下頁面右上角的&#x200B;**[!UICONTROL 主要功能表]** ![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
+   >* Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article.
+   >* Replace the page linked to it with a different page. In this case, click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner of the page, then click **[!UICONTROL Home]**.
 
 
-1. 按一下首頁左上角的&#x200B;**[!UICONTROL 工作清單]**，然後在下拉式功能表中按一下&#x200B;**[!UICONTROL 行事曆]**。
+1. Click **[!UICONTROL Work List]** in the upper-left corner of Home, then click **[!UICONTROL Calendar]** in the drop-down menu.
 
    ![](assets/work-list-calendar-drop-down-expanded-home-nwe.png)
 
-   顯示[!UICONTROL 首頁行事曆]檢視。
+   The [!UICONTROL Home Calendar] view displays.
 
    ![](assets/calendar-group-by-drop-down-home-nwe-350x135.png)
 
-   指派給您或指派給您的群組、團隊或角色的所有工作專案都會顯示在左側面板中。
+   All the work items assigned to you or assigned to your groups, teams, or roles display in the left panel.
 
-   您可以從左側面板拖放工作至行事曆，以管理您的工作日。 若要瞭解如何填入您的[!UICONTROL 首頁行事曆]，請參閱[使用[!UICONTROL 首頁行事曆]檢視](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md)。
+   You can manage your workday by dragging and dropping tasks from the left panel to your calendar. To learn about how to populate your [!UICONTROL Home Calendar], see [Use the [!UICONTROL Home Calendar] view](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md).
+
+-->

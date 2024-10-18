@@ -4,9 +4,9 @@ description: 2024年第四季首頁增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: e68972f7334a93f7fbd3db29919a2f2746ce64fe
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 * **已新增我作為篩選選項提交的核准**：您現在可以使用此Widget檢視您在新首頁提交的核准。
 * **截止日期**：如果已設定證明截止日期，您現在可以看到此日期。 如果未設定截止日期，則截止日期會預設為建立日期。
 
-如需詳細資訊，請參閱[開始使用新首頁](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)。
+如需詳細資訊，請參閱[開始使用首頁](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md)。
 
 ## 透過優先順序簡化任務擁有者的Workfront體驗
 

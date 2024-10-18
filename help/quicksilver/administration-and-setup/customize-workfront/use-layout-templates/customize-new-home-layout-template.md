@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: 7bae31a9454c88bd0e5525f4b4d11cd9e76ccd39
+source-git-commit: 1426f806b72d740712eba5e337c8424f8af6c9dc
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '824'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 
 
-如需新首頁的詳細資訊，請參閱[開始使用新首頁](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)。
+如需新首頁的詳細資訊，請參閱[開始使用首頁](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md)。
 
 如需有關建立版面配置範本的資訊，請參閱[建立和管理版面配置範本](../use-layout-templates/create-and-manage-layout-templates.md)。
 
@@ -91,8 +91,8 @@ ht-degree: 1%
       <td role="rowheader">設計與配置</td> 
       <td>
       <p>選取使用者工作區中將會出現的Widget、其位置，然後選擇背景。 請注意，雖然使用者無法移除選取的Widget，但他們可以自由移動及調整大小，以及新增其他Widget。</p>
-      <p>此索引標籤基本上是作為小型的新首頁工作區；因此，可根據<a href="/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">新首頁</a>中新增、編輯或移除Widget中所述的步驟來自訂它。 選取Widget，並依照您想要為使用者顯示的工作區來安排工作區。</p>
-      <p>若要變更背景，請依照<a href="/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md" class="MCXref xref">開始使用新首頁</a>中的<b>背景自訂</b>下的步驟操作。</p>
+      <p>此索引標籤基本上是作為小型的新首頁工作區；因此，可根據<a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">新增、編輯或移除首頁中的Widget</a>中所述的步驟來自訂它。 選取Widget，並依照您想要為使用者顯示的工作區來安排工作區。</p>
+      <p>若要變更背景，請依照<a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md" class="MCXref xref">開始使用首頁</a>中的<b>背景自訂</b>下的步驟操作。</p>
       <p>
 
 >[!NOTE]

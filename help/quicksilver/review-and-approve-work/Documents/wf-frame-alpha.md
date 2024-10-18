@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: 60eefed6b3931f681aa86ab2c533662e76793744
+source-git-commit: e68972f7334a93f7fbd3db29919a2f2746ce64fe
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '969'
 ht-degree: 1%
 
 ---
@@ -96,7 +96,6 @@ ht-degree: 1%
 
 您可以向下展開至上述類別，以取得更詳細的檢視。 所有核准Widget都可在新首頁和畫布儀表板中使用。
 
-如需詳細資訊，請參閱[開始使用新首頁](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)。
 
 ### 做出整體決定後鎖定您的檢閱和核准
 

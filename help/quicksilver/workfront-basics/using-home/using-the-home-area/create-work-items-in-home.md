@@ -1,25 +1,26 @@
 ---
 product-area: projects
 navigation-topic: use-the-home-area
-title: 從首頁區域建立工作專案
-description: 您可以從[!UICONTROL 首頁]區域建立工作專案。 您可以自行建立個人任務、向其他使用者請求工作，或將任務新增到特定專案。
-author: Nolan
+title: 從首頁區域建立工作專案和專案
+description: 您可以從[!UICONTROL 首頁]區域建立工作專案和專案。
+author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 644e2487dae0d3b2f7931660fb8e6ed68e6b8b93
+source-git-commit: 5ff0fabb60cb9e7c2a7b3506693efdb6c5d8e956
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 0%
+source-wordcount: '669'
+ht-degree: 3%
 
 ---
 
-# 從首頁區域建立工作專案
+# 從首頁區域建立工作專案和專案
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: From Courtney: Need to rename)</p>
--->
+您可以從[!UICONTROL 首頁]區域建立工作專案和專案。 在家中，您可以
 
-您可以從[!UICONTROL 首頁]區域建立工作專案。 您可以自行建立個人任務、向其他使用者請求工作，或將任務新增到特定專案。
+* 為您自己建立個人待辦事項
+* 提交請求
+* 將任務和問題新增到特定專案
+* 從範本、空白專案建立專案，或匯入MS專案。
 
 ## 存取需求
 
@@ -51,71 +52,117 @@ ht-degree: 0%
 
 &#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
 
-## 建立個人任務
+## 建立個人待辦事項
 
-您可以在[!UICONTROL 首頁]區域中建立僅供您使用的個人工作：
-
-1. 按一下右上角的&#x200B;**[!UICONTROL 主要功能表]** ![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
-1. 按一下&#x200B;**[!UICONTROL 新增工作]** > **[!UICONTROL 個人]**。
-
-   ![](assets/creating-work-items-new-task-personal-nwe-350x228.png)
-
-1. 在&#x200B;**[!UICONTROL 名稱]**&#x200B;欄位中，指定工作的名稱。
-1. （選擇性）按一下&#x200B;**[!UICONTROL 選取日期]**，然後選取工作到期的日期。 這會設定任務的[!UICONTROL 計畫完成日期]。\
-   您可以按一下右側面板中的日期或編輯&#x200B;**[!UICONTROL 直接在任務中完成]**&#x200B;日期，以變更&#x200B;**[!UICONTROL 規劃完成日期]**。
-
-1. 按一下&#x200B;**[!UICONTROL 建立]**&#x200B;以儲存工作。\
-   工作已指派給您，並可在[!UICONTROL 首頁]區域使用。
-
->[!NOTE]
->
->* 當您建立個人任務時，它會儲存在[!UICONTROL Workfront]中無法搜尋的「隱藏」專案中。 專案名為「&lt;使用者名稱>的任務」。 「使用者名稱」是建立任務之使用者的全名。 例如，只有在您從任務的階層連結按一下[!UICONTROL 首頁]區域中的個人任務時，才能存取此專案。
->
->* 不同於一般專案任務，個人任務在Workfront介面中可見的欄位集有限，並且不會影響任何專案的時間表或進度。 將個人任務重新指派給另一個使用者，會將所有工作列位新增至個人任務，但該任務仍保留在建立該任務之使用者的個人專案上。
->
->
->* 個人任務只有在記錄時數或將其釘選到時程表時，才會顯示在時程表上。 您只能在為任務記錄小時數時將個人任務釘選到時程表中。 如需詳細資訊，請參閱[記錄時間](../../../timesheets/create-and-manage-timesheets/log-time.md)。
-> 
->* 如果您想要將個人任務變成一般工作流程的一部分，建議您建立專案，並將任何個人任務移至專案。
->
-> ![[!UICONTROL 個人任務的專案]](assets/createworkitems-personal--project-350x105.png)
-
-## 請求其他使用者的工作
-
-您可以直接從「首頁」區域向其他使用者要求工作。 如本節所述，當您向其他使用者要求工作時，在使用者按一下&#x200B;**[!UICONTROL 處理它]**&#x200B;之前，工作會以要求形式顯示在使用者的[首頁]區域。
-
-若要從[!UICONTROL 首頁]區域向其他使用者要求工作：
+您可以在[!UICONTROL 首頁]區域中建立僅供您使用的個人待辦事項：
 
 1. 按一下右上角的&#x200B;**[!UICONTROL 主要功能表]** ![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
-1. 按一下&#x200B;**[!UICONTROL 新增工作]**，然後選取&#x200B;**[!UICONTROL 要求]**。
+1. （視條件而定）將待辦事項Widget新增至您的首頁畫面。 按一下&#x200B;**自訂**，然後找到&#x200B;**待辦事項**。
+1. 移至&#x200B;**待辦事項** Widget，然後按一下&#x200B;**新增待辦事項**。
+1. 輸入
+1. （選擇性）按一下&#x200B;**日期**&#x200B;圖示![](assets/date-icon.png)以新增專案的到期日。
+   ![](assets/my-work-to-dos.png)
 
-   ![](assets/creating-work-items-new-task-request-nwe-350x283.png)
 
-1. 在&#x200B;**[!UICONTROL 名稱]**&#x200B;欄位中，指定工作的名稱。
-1. 在&#x200B;**[!UICONTROL 指派給]**&#x200B;欄位中，開始輸入您要指派的使用者、團隊或角色名稱，然後在其出現在下拉式功能表中時按一下該名稱。
-1. 在[!UICONTROL 新增為]下拉式功能表中，選取是否要新增任務或問題。
-1. 按一下&#x200B;**[!UICONTROL 選取日期]**，然後選取工作到期的日期和時間。
-1. 按一下&#x200B;**[!UICONTROL 建立]**&#x200B;以儲存工作。\
-   在您指定之使用者的[!UICONTROL 首頁]區域中，任務會顯示為工作要求。
 
-## 將任務或問題新增至專案
+## 將任務新增至專案
 
-您可以直接從首頁區域將任務或問題新增到現有專案：
+您可以直接從「首頁」區域將任務新增到現有專案：
 
-1. 按一下右上角的&#x200B;**[!UICONTROL 主要功能表]** ![](assets/main-menu-icon.png)，然後按一下&#x200B;**首頁**。
-1. 按一下&#x200B;**[!UICONTROL 新增任務]**，然後選取&#x200B;**[!UICONTROL 專案任務]**。
+1. 按一下右上角的&#x200B;**[!UICONTROL 主要功能表]** ![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
+1. （視條件而定）將&#x200B;**我的任務** Widget新增至您的主畫面。 按一下&#x200B;**自訂**，然後尋找&#x200B;**我的工作**。
+1. 前往&#x200B;**我的工作** Widget，然後按一下&#x200B;**新增**。
+   ![](assets/create-new-task.png)
+1. 在&#x200B;**新增工作**&#x200B;對話方塊中，輸入工作名稱。
+1. 開始輸入專案名稱，然後從清單中選取名稱。
+1. （選擇性）在下列欄位中輸入資訊：
 
-   ![](assets/creating-work-items-new-project-task-nwe-350x358.png)
+   | 欄位 | 指示 |
+   |----------|----------|
+   | **說明** | 輸入說明。 |
+   | **指派** | 指派使用者。 |
+   | **期間** | 輸入持續時間。 |
+   | **計畫完成日期** | 選擇計畫完成日期。 |
+   | **更多選項** | 選擇更多選項，為工作設定更多設定。 如需建立工作的詳細資訊，請參閱[編輯工作](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md)。 |
 
-1. 在&#x200B;**[!UICONTROL 名稱]**&#x200B;欄位中，指定任務或問題的名稱。
-1. 在&#x200B;**[!UICONTROL 指派給]**&#x200B;欄位中，開始輸入您要指派的使用者、團隊或角色名稱，然後在其出現在下拉式功能表中時按一下該名稱。
-1. 開始輸入您要建立任務或問題的專案名稱，然後在名稱出現在下拉式選單中時按一下該名稱。
+1. 按一下&#x200B;**建立工作**。
 
-   >[!IMPORTANT]
-   >
-   >只有當專案[!UICONTROL 狀態]設定為[!UICONTROL 目前]時，任務或問題才會出現在[!UICONTROL 工作清單]上。
 
-1. （視條件而定）若要建立問題，請從&#x200B;**[!UICONTROL 新增為]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 問題]**。 預設會選取&#x200B;**[!UICONTROL 工作]**。
+## 將問題新增至專案
 
-1. 按一下&#x200B;**[!UICONTROL 選取日期]**，然後選取工作到期的日期和時間。
-1. 按一下&#x200B;**[!UICONTROL 建立]**&#x200B;以儲存工作。
+您可以直接從首頁區域將問題新增到現有專案：
+
+1. 按一下右上角的&#x200B;**[!UICONTROL 主要功能表]** ![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
+1. （視條件而定）將&#x200B;**我的問題** Widget新增至您的主畫面。 按一下&#x200B;**自訂**，然後尋找&#x200B;**我的問題**。
+1. 移至&#x200B;**我的問題** Widget，然後按一下&#x200B;**新增**。
+   ![](assets/create-new-issue.png)
+1. 在&#x200B;**新問題對話方塊**&#x200B;中，開始輸入專案名稱，然後從清單中選取名稱。
+1. 輸入問題名稱。
+1. （選擇性）在下列欄位中輸入資訊：
+
+   | 欄位 | 指示 |
+   |----------|----------|
+   | **說明** | 輸入說明。 |
+   | **指派** | 指派使用者。 |
+   | **優先順序** | 選擇優先等級。 |
+   | **文件** | 上傳檔案。 |
+
+1. 按一下&#x200B;**儲存新問題**。
+
+## 建立請求
+
+您可以直接從「首頁」區域建立請求：
+
+1. 按一下右上角的&#x200B;**[!UICONTROL 主要功能表]** ![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
+1. （視條件而定）將&#x200B;**我的請求** Widget新增至您的主畫面。 按一下&#x200B;**自訂**，找到&#x200B;**我的要求**。
+1. 移至&#x200B;**我的要求** Widget，然後按一下&#x200B;**新增**。
+   ![](assets/create-new-request.png)
+
+1. 在&#x200B;**新要求**&#x200B;對話方塊中，開始輸入要求佇列的名稱。
+1. 填寫相關欄位。
+1. 按一下&#x200B;**提交**。
+
+如需有關提交請求的詳細資訊，請參閱[建立及提交請求](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)。
+
+## 建立專案
+
+您可以直接從「首頁」區域建立專案：
+
+1. 按一下右上角的&#x200B;**[!UICONTROL 主要功能表]** ![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
+1. （視條件而定）將&#x200B;**我的專案** Widget新增至您的主畫面。 按一下&#x200B;**自訂**，然後尋找&#x200B;**我的專案**。
+1. 前往&#x200B;**我的專案** Widget，然後按一下&#x200B;**新增**。
+   ![](assets/create-new-project.png)
+1. 選擇下列其中一個選項：
+
+   | 欄位 | 指示 |
+   |----------|----------|
+   | 從範本 | 移至[使用範本建立專案](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md)，以取得有關使用範本建立專案的詳細指示。 |
+   | 空白專案 | 請移至[從頭開始建立專案](/help/quicksilver/manage-work/projects/create-projects/create-project.md#create-a-project-from-scratch)，取得建立空白專案的詳細指示。 |
+   | 匯入 MS Project | 請移至[從Microsoft專案匯入專案](/help/quicksilver/manage-work/projects/create-projects/import-project-from-ms-project.md)，取得匯入MS專案的詳細指示。 |
+
+
+<!--
+## Create a board
+
+You can create a board directly from the Home area:
+
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. (Conditional) Add the **Boards** widget to your home screen. Click **Customize**, and find **Boards**. -->
+
+
+
+
+
+<!--
+## Delete a to-do item
+
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Go to the to-do widget.
+1. Hover over the item, then click the **Delete** icon ![](assets/delete-to-do.png). 
+
+## Edit a to-do item
+
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Go to the to-do widget.
+1. Edit the item name.
+1. Click on the **Date** icon ![](assets/date-icon.png) to add or adjust a due date. -->

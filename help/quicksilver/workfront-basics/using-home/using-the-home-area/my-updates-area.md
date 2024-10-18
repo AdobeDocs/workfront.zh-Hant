@@ -3,21 +3,18 @@ product-area: projects
 navigation-topic: use-the-home-area
 title: 使用我的更新區域
 description: 您可以使用[!UICONTROL 我的更新]區域來快速檢閱等待您決定的核准或您已加入的交談。
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
+source-git-commit: bc60d2cd3dee9be2351d751bafff0e35267ea640
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
 
 # 使用[!UICONTROL 我的更新]區域
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: there is a similar article like this in the "My Work" folder that is conditioned for Classic only)</p>
--->
 
 您可以使用[!UICONTROL 我的更新]區域來快速檢閱等待您決定的核准或您已加入的交談。
 
@@ -28,6 +25,8 @@ ht-degree: 0%
 如果您的授權型別與[檢閱]不同，[!DNL Workfront]或群組管理員必須將[!UICONTROL 我的更新]區域新增到您的版面配置範本，才能在主要功能表中顯示它。 如需詳細資訊，請參閱[使用配置範本自訂[!UICONTROL 主功能表]](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -57,6 +56,8 @@ ht-degree: 0%
 </table>
 
 *若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。 如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先決條件
 

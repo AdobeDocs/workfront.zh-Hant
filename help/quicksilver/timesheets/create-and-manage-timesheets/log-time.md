@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
+source-git-commit: 114fb6282924cde478f17a1b754157b6e47a7e3b
 workflow-type: tm+mt
-source-wordcount: '3650'
+source-wordcount: '3652'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ ht-degree: 0%
 * 時程表包含所有記錄日期的總時間。 週末一律包括在內，即使時間表計算已設定為將其排除（如[設定全系統專案偏好設定](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)中所述）。
 * 時程表中最多可顯示45個專案。 如果超過45個專案的日期符合時程表時間範圍，則只會顯示最近更新的專案。
 * 計入計費計費記錄中的小時專案會變暗且無法在時程表中編輯。 如需詳細資訊，請參閱[建立付費記錄](../../manage-work/projects/project-finances/create-billing-records.md)。
-* 依預設，個人任務不會顯示在時程表中。 個人任務只有在記錄時間時才會顯示在時程表中。 在您將時間登入個人任務後，您可以將任務釘選到時程表中，如果它保持釘選狀態，將保留在時程表中。 如需詳細資訊，請參閱[從首頁區域建立工作專案](../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)。
+* 依預設，個人任務不會顯示在時程表中。 個人任務只有在記錄時間時才會顯示在時程表中。 在您將時間登入個人任務後，您可以將任務釘選到時程表中，如果它保持釘選狀態，將保留在時程表中。 如需詳細資訊，請參閱[從首頁區域建立工作專案和專案](../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)。
 
 ## 記錄時間 {#log-time-section}
 
@@ -335,7 +335,6 @@ ht-degree: 0%
 您可以在「首頁」中記錄專案特定時間。
 
 如需有關使用首頁區域的一般資訊，請參閱[使用首頁區域](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md)。
-
 
 <!--#### Log time on a work item from the new Home area-->
 

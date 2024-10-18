@@ -4,9 +4,9 @@ description: 2024年第一季度首頁增強功能
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 54bbcc0a86516f4e4b561a7fae8c73c3979e59a4
+source-git-commit: 145dd86575951d837e66e18ceb235dc3694571cc
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,6 @@ ht-degree: 0%
 
 為了讓您更輕鬆地檢視您擁有的專案上的核准和稽核狀態，我們已將一個新的未決核准Widget新增到首頁。 在這裡，您可以看到指派給核准或檢閱您專案之檔案的使用者清單、檢閱或核准的狀態，以及提醒檢閱者和核准者完成其檢閱或核准。
 
-如需首頁Widget的詳細資訊，請參閱[開始使用新的首頁](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)。
 
 ## 使用版面配置範本的新首頁的管理員控制項
 
@@ -34,5 +33,3 @@ ht-degree: 0%
 ## 我的工作快速動作按鈕已變更為僅在滑鼠懸停時顯示
 
 為了提高效能，現在只有當工作專案以滑鼠懸停在工作專案上時，才會顯示我的工作Widget中可用的快速動作按鈕。
-
-如需我的工作Widget中可用的快速動作按鈕的詳細資訊，請參閱[開始使用新首頁](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)。

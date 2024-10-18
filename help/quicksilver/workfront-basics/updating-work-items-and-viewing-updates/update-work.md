@@ -6,7 +6,7 @@ description: 您可以在Adobe Workfront物件（專案、任務或問題）上�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
+source-git-commit: 1426f806b72d740712eba5e337c8424f8af6c9dc
 workflow-type: tm+mt
 source-wordcount: '3065'
 ht-degree: 0%
@@ -133,7 +133,7 @@ ht-degree: 0%
    * 從Workfront物件，在更新區段（專案、任務和問題）
    * 從首頁區域（用於任務和問題）
 
-     如需詳細資訊，請參閱[使用「我的工作」Widget](/help/quicksilver/workfront-basics/using-home/new-home/my-work-widget.md)管理您的工作。
+     如需詳細資訊，請參閱[使用「我的工作」Widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-work-widget.md)管理您的工作。
    * 從「摘要」面板的下列區域（針對任務、問題和檔案）：
 
       * 物件清單

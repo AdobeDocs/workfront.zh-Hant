@@ -6,7 +6,7 @@ description: 您不在辦公室時，可以暫時委派指派給您的工作。 
 author: Alina
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 9d0caff0381ee50bf8dd7060bebafb5354c0f0d8
 workflow-type: tm+mt
 source-wordcount: '1518'
 ht-degree: 0%
@@ -107,7 +107,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 1. 移至&#x200B;[!UICONTROL **首頁**]&#x200B;區域。
 1. 確定您已將&#x200B;[!UICONTROL **我的工作**]、[!UICONTROL **我的任務**]&#x200B;或&#x200B;[!UICONTROL **我的問題**] Widget新增到您的&#x200B;[!UICONTROL **首頁**]。
 
-   如需詳細資訊，請參閱[在首頁新增、編輯或移除Widget](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
+   如需詳細資訊，請參閱[在首頁新增、編輯或移除Widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)
 
 1. 按一下&#x200B;[!UICONTROL **我的工作**]、[!UICONTROL **我的任務**]&#x200B;或&#x200B;[!UICONTROL **我的問題**] Widget左上角的&#x200B;[!UICONTROL **代理人**]。
 

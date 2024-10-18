@@ -7,83 +7,90 @@ description: 在[!UICONTROL 首頁]區域中的[!UICONTROL 首頁行事曆]檢�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 174bf68f-bbb7-4777-aeeb-53a0b3a8b1f7
-source-git-commit: 644e2487dae0d3b2f7931660fb8e6ed68e6b8b93
+source-git-commit: 1131c2329d194f0c9181b6a5cbd39f19a5247ef0
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '73'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL 首頁行事曆]檢視
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Updated for QS except for section about expanding a work item in the list--this isn't working yet in QS.</p>
--->
+>[!IMPORTANT]
+>
+>此功能已於2014年10月17日汰除舊版首頁時移除。
 
-在[!UICONTROL 首頁]區域中的[!UICONTROL 首頁行事曆]檢視可讓您檢視和管理工作週，以及個人工作行事曆上的工作指派（只有您能看見）。 您可以用它來排程您想要完成工作的時間。 而且您可以將其與外部行事曆(例如[!UICONTROL Microsoft Outlook]行事曆)整合。
+
+<!--
+
+
+
+The [!UICONTROL Home Calendar] view in the [!UICONTROL Home] area allows you to view and manage your work week and work assignments on a personal work calendar visible only to you. You can use it to schedule when you want to do your work. And you can integrate it with outside calendars such as a [!UICONTROL Microsoft Outlook] calendar. 
 
 >[!NOTE]
 >
->[!UICONTROL 首頁行事曆]檢視與[!UICONTROL 行事曆]報告不同。 如需[!UICONTROL 行事曆]報告的詳細資訊，請參閱[[!UICONTROL 行事曆]報告總覽](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md)。
+>The [!UICONTROL Home Calendar] view is different from [!UICONTROL Calendar] reports. For more information about [!UICONTROL Calendar] reports, see [[!UICONTROL Calendar] reports overview](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
-若您需要設定[!UICONTROL 首頁行事曆]的指示，請參閱[設定您的[!UICONTROL 首頁行事曆]檢視設定](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md)。
+If you need instructions on setting up your [!UICONTROL Home Calendar], see [Configure your [!UICONTROL Home Calendar] view settings](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md).
 
-如需有關存取[!UICONTROL 首頁行事曆]檢視的資訊，請參閱[檢視[!UICONTROL 首頁行事曆]](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md)。
+For information about accessing the [!UICONTROL Home Calendar] view, see [View the [!UICONTROL Home Calendar]](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md).
 
-如需整合您的[!UICONTROL 首頁行事曆]與外部行事曆的資訊，請參閱[[!UICONTROL 設定您的[！UICONTROL首頁行事曆]]檢視設定](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md)。
+For information integrating your [!UICONTROL Home Calendar] with an outside calendar, see [[!UICONTROL Configure your [!UICONTROL Home Calendar]] view settings](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md).
 
-本文中的其餘章節更詳細地說明[!UICONTROL 首頁行事曆]檢視的章節和功能。
+The remaining sections in this article explain sections and functions of the [!UICONTROL Home Calendar] View in more detail.
 
-## [!UICONTROL 首頁行事曆]上的工作清單
+## Work list on the [!UICONTROL Home Calendar] 
 
-指派給您、您的群組、您的團隊和您的角色的工作專案（任務、問題、請求和核准）會顯示在[!UICONTROL 首頁]區域行事曆左側的[!UICONTROL 工作清單]中。
+Work items (Tasks, Issues, Requests, and Approvals) assigned to you, your groups, your teams, and your roles display in the [!UICONTROL work list] on the left of the Calendar in the [!UICONTROL Home] area.
 
 ![](assets/calview-qs-350x185.png)
 
-您可以將工作專案從[!UICONTROL 工作清單]拖曳到您的[!UICONTROL 首頁行事曆]，以便排程處理工作專案的時間。 若要進一步瞭解排程您的工作，請參閱[使用[!UICONTROL 首頁行事曆]檢視](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md)。
+You can drag your work items from the [!UICONTROL work list] to your [!UICONTROL Home Calendar] to schedule when you want to work on them. To learn more about scheduling your work, see [Use the [!UICONTROL Home Calendar] view](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md).
 
-您可以按一下清單中的工作專案來檢視和更新進度。
+You can click a work item in the list to view and update your progress on it.
 
 ![](assets/work-item-cl-350x126.png)
 
-視專案而定，下列資訊可能會顯示在行事曆的左側，代表您在工作清單中選取的專案：
+Depending on the item, the following information might display on the left of the calendar, for the item that you select in the work list:
 
-* **[!UICONTROL 專案名稱]**：顯示在工作專案的左上方。 這是與專案相關聯的專案。 在上述範例中，專案標題為「2020年秋季行銷活動」。
-* **[!UICONTROL 工作專案名稱]**：顯示在專案名稱下方。 在上述範例中，工作專案的標題為「9月15日專刊」。
-* **[!UICONTROL 完成]**：按一下此按鈕，將工作指派的狀態變更為[!UICONTROL 完成]。 此按鈕僅在您被指派任務或問題時顯示。
-* **[!UICONTROL 完成我的零件]**：按一下[!UICONTROL 完成我的零件]按鈕，將工作指派的狀態變更為[!UICONTROL 完成]。
-* **[!UICONTROL 計畫]**：顯示資源管理員已針對專案上要完成的工作所配置的時數。 若要進一步瞭解計畫時數，請參閱[計畫時數總覽](../../../manage-work/tasks/task-information/planned-hours.md)。
+* **[!UICONTROL Project name]**: Displays in the top left of the work item. This is the project to which the item is associated. In the example above, the project title is "Fall in 2020 campaign."
+* **[!UICONTROL Work item name]**: Displays beneath the project name. In the example above, the title of the work item is "September 15 issue."
+* **[!UICONTROL Done]**: Click this button to change the status of your work assignment to [!UICONTROL Done]. This button only displays when you are assigned to the task or issue.
+* **[!UICONTROL Done with my part]**: Click the [!UICONTROL Done with my part] button to change the status of your work assignment to [!UICONTROL Done].
+* **[!UICONTROL Planned]**: Displays the hours a resource manager has allocated for work to be completed on the item. To learn more about planned hours, see [Planned Hours overview](../../../manage-work/tasks/task-information/planned-hours.md).
 
-* **[!UICONTROL 已登入]**：在時程表或專案的[!UICONTROL 更新]索引標籤中顯示您已登入工作專案的時數。 若要瞭解更多資訊，請參閱[從[!UICONTROL 首頁]區域](../../../workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)將時間記錄在工作專案上
+* **[!UICONTROL Logged]**: Displays the hours you have logged on the work item in either a timesheet or the [!UICONTROL Updates] tab for the item. To learn more, see [Log time on a work item from the [!UICONTROL Home] area](../../../workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
 
-* **[!UICONTROL 已排程]**：在[!UICONTROL 行事曆]檢視中顯示您為工作專案排程的時數。 若要進一步瞭解將工作專案移至您的[!UICONTROL 行事曆]檢視，請參閱[使用[!UICONTROL 首頁行事曆]檢視](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md)中的[排程[!UICONTROL 首頁行事曆]](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md#scheduling-work-items-in-home-calendar)中的工作專案。
+* **[!UICONTROL Scheduled]**: Displays the hours you have scheduled for the work item in the [!UICONTROL Calendar] view. To learn more about moving work items to your [!UICONTROL Calendar] view, see [Schedule work items in your [!UICONTROL Home Calendar]](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md#scheduling-work-items-in-home-calendar) in [Use the [!UICONTROL Home Calendar] view](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md).
 
-* **[!UICONTROL 詳細資料]**：按一下此按鈕，即可在[!UICONTROL 行事曆]檢視的右側面板中顯示工作專案的詳細資料。
-* **[!UICONTROL 處理它]**：按一下此按鈕，接受處理專案的指派。
+* **[!UICONTROL Details]**: Click this button to display the details of the work item in the right panel of the [!UICONTROL Calendar] view.
+* **[!UICONTROL Work On It]**: Click this button to accept the assignment to work on the item.
 
-## 配置列
+## Allocation bar
 
-當您設定[!UICONTROL 首頁行事曆]時，您指定了一週內通常工作的時數（請參閱[設定您的[!UICONTROL 首頁行事曆]檢視設定](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md)）。 [!DNL Adobe Workfront]使用此數字來決定您的總可分配工作時數。
+When you set up your [!UICONTROL Home Calendar], you specify the number of hours you typically work in a week (see [Configure your [!UICONTROL Home Calendar] view settings](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md)). [!DNL Adobe Workfront] uses this number to determine your total allocable work hours. 
 
-[!UICONTROL 配置]列以視覺化方式呈現您每週的工作時數以及您的使用方式。
+The [!UICONTROL Allocation] bar is a visual representation of the number of hours in your work week and how you are using them.
 
 ![](assets/allocation-bar-qs-350x181.png)
 
-[!UICONTROL 配置]列中的顏色表示下列資訊：
+The colors in the [!UICONTROL Allocation] bar indicate the following information:
 
-* **灰色**：從整合行事曆排程的事件時數。 如需整合行事曆的詳細資訊，請參閱[設定您的[!UICONTROL 首頁行事曆]檢視設定](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md)中的[設定您的[!UICONTROL 首頁行事曆]檢視設定](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md#configuring-your-home-calendar-view)一節。
+* **Grey**: Number of hours scheduled for events from integrated calendars. For more information about integrating calendars, see the section [Configure your [!UICONTROL Home Calendar] view settings](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md#configuring-your-home-calendar-view) in [Configure your [!UICONTROL Home Calendar] view settings](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md).
 
-* **藍色**：您已為指派給您的[!DNL Workfront]個工作專案排程的時數。 您可以從[!UICONTROL 工作清單]拖放專案到行事曆中，以排程工作。 如需排程工作的詳細資訊，請參閱[使用[!UICONTROL 首頁行事曆]檢視](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md)中的[排程您[!UICONTROL 首頁行事曆]](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md#scheduling-work-items-in-home-calendar)區段中的工作專案。
+* **Blue**: Number of hours you have scheduled for [!DNL Workfront] work items assigned to you. You can schedule work by dragging items from the [!UICONTROL Work List] and dropping them into your calendar. For more information about scheduling work, see the [Schedule work items in your [!UICONTROL Home Calendar]](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md#scheduling-work-items-in-home-calendar) section in [Use the [!UICONTROL Home Calendar] view](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md).
 
-* **淺藍色**：可供配置的可用時數。
-* **紅色**（未顯示於上面）：已排程的事件和工作專案已超過您一週的可用時數。
+* **Light Blue**: The number of free hours available for allocation.
+* **Red**(not shown above): Scheduled events and work items that have exceeded the number of hours you have available for the week.
 
-## [!UICONTROL 到期]列
+## [!UICONTROL Due] bar
 
-您的[!UICONTROL 首頁行事曆]上的[!UICONTROL 到期]列會顯示目前顯示的一週到期的專案，依據為其[!UICONTROL 規劃完成日期]。
+The [!UICONTROL Due] bar on your [!UICONTROL Home Calendar] displays the items that are due for the week currently displayed, according to their [!UICONTROL Planned Completion Date].
 
 ![](assets/duebar-qs-350x140.png)
 
 >[!NOTE]
 >
->如果您已將Microsoft行事曆與[!DNL Workfront]行事曆整合，除非您將專案從工作清單拖曳至您的[!DNL Workfront]行事曆，否則[!UICONTROL 到期]列中的專案不會出現在您的Microsoft行事曆中。 如需詳細資訊，請參閱上述[!UICONTROL 首頁行事曆]](#work-list-on-the-home-calendar)上的[工作清單一節，以及文章[設定您的[!UICONTROL 首頁行事曆]檢視設定](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md)。
+>If you have integrated your Microsoft calendar with your [!DNL Workfront] calendar, items in the [!UICONTROL Due] bar do not appear on your Microsoft calendar unless you have dragged them from the Work List to your [!DNL Workfront] Calendar. For more information, see the section  [Work list on the [!UICONTROL Home Calendar]](#work-list-on-the-home-calendar) above and the article  [Configure your [!UICONTROL Home Calendar] view settings](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md).
+
+-->

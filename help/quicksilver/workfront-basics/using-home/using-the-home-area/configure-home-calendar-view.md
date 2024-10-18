@@ -3,34 +3,38 @@ product-area: calendars;setup
 navigation-topic: use-the-home-area
 title: 設定您的首頁行事曆檢視設定
 description: 您可以設定[首頁行事曆]設定，以與Outlook網頁版整合，並協助您根據可用工作時數追蹤工作負載。
-author: Nolan
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 2acd930b-5923-452e-9d8d-a6121d8d37ac
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: 5ff0fabb60cb9e7c2a7b3506693efdb6c5d8e956
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 1%
+source-wordcount: '49'
+ht-degree: 0%
 
 ---
 
 # 設定您的[!UICONTROL 首頁行事曆]檢視設定
 
-<!--Audited: 01/2024-->
+>[!IMPORTANT]
+>
+>此功能已於2014年10月17日汰除舊版首頁時移除。
 
-您可以設定[!UICONTROL 首頁行事曆]設定，以執行下列動作：
+<!--
 
-* 與雲端託管的 [!DNL Office 365] 或 [!DNL Outlook Live] 之網頁版 [!DNL Outlook] 整合。您可以在Adobe Workfront中顯示Outlook行事曆的所有活動，以及您在[!UICONTROL 首頁行事曆]中選取的任何相關行事曆。
-* 協助您根據[!UICONTROL 配置]列上的可用工作時數追蹤工作負載。
+You can configure the [!UICONTROL Home Calendar] settings to do the following:
 
-若要深入瞭解首頁行事曆，請參閱[[!UICONTROL 首頁行事曆]檢視](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md)。
+* Integrate with a web-based version of [!DNL Outlook] in cloud-hosted [!DNL Office 365] or [!DNL Outlook Live]. You can display all events from your Outlook calendar and any associated calendars you select in your [!UICONTROL Home Calendar] in Adobe Workfront.
+* Help you track your workload against your available work hours on the [!UICONTROL Allocation] bar.
 
-本文說明如何設定首頁行事曆設定，以及如何將首頁行事曆與外部Outlook行事曆整合。
+To learn more about the Home Calendar, see [[!UICONTROL Home Calendar] view](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md).
 
-## 存取需求
+This article describes how you can configure the Home Calendar settings and integrate the Home Calendar with your external Outlook calendar. 
 
-+++ 展開以檢視本文中功能的存取需求。
+## Access requirements
 
-您必須具有下列存取權才能執行本文中的步驟：
++++ Expand to view access requirements for the functionality in this article.
+
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,88 +44,84 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
-   <td> <p>任何</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>目前： [！UICONTROL Work]或更高版本</p> 
-   或
-   <p>新增：[！UICONTROL Standard]</p> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
+   <td> <p>Current: [!UICONTROL Work] or higher</p> 
+   Or
+   <p>New: [!UICONTROL Standard]</p> 
    </td> 
   </tr> 
    </tbody> 
 </table>
 
-*若要瞭解您擁有的計畫或授權型別，請連絡您的[!DNL Workfront]管理員。 如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+*To find out what plan or license type you have, contact your [!DNL Workfront] administrator. For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## 關於整合[!DNL Microsoft Outlook]行事曆
+## About integrating [!DNL Microsoft Outlook] calendars
 
-當您使用[!DNL Microsoft Outlook]行事曆設定首頁行事曆時，請考慮下列事項：
+Consider the following as you configure your Home Calendar with your [!DNL Microsoft Outlook] calendar:
 
-* 您只能在雲端託管的[!DNL Office 365]或[!DNL Outlook Live]中整合[!DNL Outlook]的網頁型版本。
+* You can integrate only a web-based version of [!DNL Outlook] in cloud-hosted [!DNL Office 365] or [!DNL Outlook Live].
 
-  不支援雲端型企業[!DNL Exchange]伺服器上的內部部署[!DNL Outlook]和[!DNL Outlook]。
+   On-premise [!DNL Outlook] and [!DNL Outlook] on a cloud-based enterprise [!DNL Exchange] server are not supported.
 
-  如果您的組織使用單一登入，您需要[!DNL Microsoft 365 E3]或[!DNL E5]。
+   If your organization uses single sign-on, you need [!DNL Microsoft 365 E3] or [!DNL E5].
 
-* 與您的[!DNL Outlook]活動關聯的附件未附加到您的首頁行事曆中的[!DNL Outlook]活動。
-* 必須為每個使用者個別完成與[!DNL Outlook]行事曆的整合。
-* 出現在[!UICONTROL 到期]列中的事件不會出現在您的[!DNL Microsoft]行事曆上，除非您將其從[!UICONTROL 工作清單]拖曳到您的[!DNL Adobe Workfront]行事曆。 如需詳細資訊，請參閱[[!UICONTROL 首頁行事曆]檢視](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md)中[!UICONTROL 首頁行事曆]](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md#using-the-left-panel-of-the-home-view)的[[!UICONTROL 到期]列](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md#viewing-the-due-bar)和[工作清單。
+* Attachments associated with your [!DNL Outlook] events are not attached to the [!DNL Outlook] events in your Home Calendar.
+* Integration with an [!DNL Outlook] calendar must be completed for each user individually.
+* Events that appear in the [!UICONTROL Due] bar do not appear on your [!DNL Microsoft] calendar unless you have dragged them from the [!UICONTROL Work List] to your [!DNL Adobe Workfront] Calendar. For more information, see [[!UICONTROL Due] bar](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md#viewing-the-due-bar) and [Work list on the [!UICONTROL Home Calendar]](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md#using-the-left-panel-of-the-home-view) in [[!UICONTROL Home Calendar] view](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md).
 
-* 當您啟用與[!DNL Outlook]的整合時，只有從該時間點開始拖曳至[!UICONTROL 首頁行事曆]的工作專案才會同步。 在啟用整合之前位於首頁行事曆上的專案將不會顯示，如果您希望這些專案在[!DNL Outlook]中顯示，必須將其拖曳到首頁行事曆上。
-* 當您與其他人共用（或取消共用） [!DNL Outlook]行事曆，或變更與其他人共用行事曆的許可權層級時，此變更不會影響其行事曆約30分鐘。 如需詳細資訊，請參閱[!DNL Microsoft Outlook]檔案。\
-   因此，當您將[!DNL Workfront]行事曆與您與其他使用者共用的[!DNL Outlook]行事曆整合時，他們將在大約30分鐘內看不到您的[!DNL Workfront]行事曆專案。
+* When you enable the integration with [!DNL Outlook], only work items that are dragged onto the [!UICONTROL Home Calendar] from that point forward will sync. Items that were on the Home Calendar prior to enabling the integration will not appear, and you must drag them onto the Home Calendar again if you want them to appear in [!DNL Outlook].
+* When you share (or unshare) an [!DNL Outlook] calendar with other people, or when you change the permission level for a calendar you share with others, this change does not affect their calendars for about 30 minutes. For more information, consult the [!DNL Microsoft Outlook] documentation.\
+   Consequently, when you integrate [!DNL Workfront] Calendar with an [!DNL Outlook] calendar that you share with other users, they will not see your [!DNL Workfront] Calendar items for about 30 minutes.
 
 >[!NOTE]
 >
->[!DNL Outlook]行事曆設定與[!DNL Outlook]增益集完全不同（[!UICONTROL [!DNL Outlook]整合]或[!DNL Workfront Outlook]）。 設定行事曆不需要安裝，但[!DNL Outlook]增益集需要安裝。 如需[!DNL Outlook]增益集的詳細資訊，請參閱[設定 [!DNL Adobe Workfront for Outlook]](../../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)。
+>The [!DNL Outlook] calendar configuration is completely separate from the [!DNL Outlook] Add-in ([!UICONTROL [!DNL Outlook] Integration] or [!DNL Workfront Outlook]). There's no installation required to configure the calendar, but there is an installation needed for the [!DNL Outlook] Add-in. For more information on the [!DNL Outlook] Add-in see [Set up [!DNL Adobe Workfront for Outlook]](../../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md).
 
-## 設定您的[!UICONTROL 首頁行事曆]檢視設定，並將其與Outlook行事曆整合
+## Configure your [!UICONTROL Home Calendar] view settings and integrate it with Outlook calendars
 
-1. 在[!UICONTROL 首頁行事曆]檢視中，按一下右上角的&#x200B;**[!UICONTROL 設定]**&#x200B;齒輪圖示![行事曆設定_齒輪圖示.png](assets/calendar-settings-gear-icon.png)以開啟右邊的&#x200B;**[!UICONTROL 行事曆設定]**&#x200B;面板。
+1. In the [!UICONTROL Home Calendar] view, click the **[!UICONTROL Settings]** gear icon ![Calendar_Settings_gear_icon.png](assets/calendar-settings-gear-icon.png) in the upper right corner to open the **[!UICONTROL Calendar settings]** panel on the right.
 
-   如果您需要有關存取[!UICONTROL 首頁行事曆]檢視的資訊，請參閱[檢視[!UICONTROL 首頁行事曆]](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md)。
+   If you need information about accessing the [!UICONTROL Home Calendar] view, see [View the [!UICONTROL Home Calendar]](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md).
 
-1. （選擇性）若要整合您的[!DNL Microsoft Outlook]行事曆，請按一下&#x200B;**[!UICONTROL 行事曆設定]**&#x200B;面板右上角的&#x200B;**[!UICONTROL 新增帳戶]**。 然後，如果系統提示您這樣做，請輸入您的[!DNL Microsoft Outlook]登入資訊。 您可以重複此步驟以新增多個[!DNL Outlook]帳戶。
+1. (Optional) To integrate your [!DNL Microsoft Outlook] calendar, click **[!UICONTROL Add account]** in the upper-right corner of the **[!UICONTROL Calendar settings]** panel. Then, if you are prompted to do so, enter your [!DNL Microsoft Outlook] login information. You can repeat this step to add multiple [!DNL Outlook] accounts.
 
    >[!NOTE]
    >
-   >您必須授予[!DNL Workfront]許可權才能存取您的[!DNL Outlook]行事曆。 授與許可權可讓[!DNL Workfront]保持行事曆資料的存取權、讀取您的[!DNL outlook]設定檔，以及讀取和更新您的[!DNL Microsoft]行事曆。
+   >You must give [!DNL Workfront] permission to access your [!DNL Outlook] calendar. Granting permission allows [!DNL Workfront] to maintain access to calendar data, read your [!DNL outlook] profile, and read and update your [!DNL Microsoft] calendar.
 
-1. 重新整理瀏覽器視窗以在行事曆和[!UICONTROL 行事曆設定]面板中檢視您[!DNL Outlook]帳戶的資訊。
-1. 再按一下右上角的&#x200B;**[!UICONTROL 設定]**&#x200B;齒輪圖示以開啟&#x200B;**[!UICONTROL 行事曆設定]**&#x200B;面板。 ![Calendar_Settings_gear_icon.png](assets/calendar-settings-gear-icon.png)
+1. Refresh the browser window to see information from your [!DNL Outlook] account in the calendar and in the [!UICONTROL Calendar settings] panel.
+1. Click the **[!UICONTROL Settings]** gear icon again in the upper right corner to open the **[!UICONTROL Calendar settings]** panel. ![Calendar_Settings_gear_icon.png](assets/calendar-settings-gear-icon.png)
 
-1. （選擇性）在您在上一步中新增的每個[!DNL Microsoft]帳戶下，選取&#x200B;**[!UICONTROL 檢視]**&#x200B;或&#x200B;**[!UICONTROL 同步]**：
+1. (Optional) Under each [!DNL Microsoft] account you have added in the previous step, select **[!UICONTROL View]** or **[!UICONTROL Sync]**:
 
-   * **[!UICONTROL 檢視]**：這是唯讀選項，會在您的[!UICONTROL 首頁行事曆]上顯示[!DNL Microsoft]個行事曆事件。
-   * **[!UICONTROL 同步]**：此選項允許在您的[!DNL Microsoft]和[!UICONTROL 首頁]行事曆之間進行雙向同步。 換句話說，[!DNL Workfront]個[!UICONTROL 首頁行事曆]專案會匯出至您的[!DNL Microsoft]行事曆，而[!DNL Microsoft]個行事曆專案會匯入您的Workfront [!UICONTROL 首頁行事曆]即時完成。
+   * **[!UICONTROL View]**: This is a read-only option that displays [!DNL Microsoft] calendar events on your [!UICONTROL Home Calendar].
+   * **[!UICONTROL Sync]**: This option allows a two-way sync between your [!DNL Microsoft] and [!UICONTROL Home] calendars. In other words, [!DNL Workfront] [!UICONTROL Home Calendar] items export to your [!DNL Microsoft] calendar and [!DNL Microsoft] calendar items import to your Workfront [!UICONTROL Home Calendar] in real time.
 
-     ![](assets/view-sync-checkboxes-qs.png)
+      ![](assets/view-sync-checkboxes-qs.png)
 
-1. （選擇性）在您的[!DNL Workfront]帳戶或整合帳戶下，選取您想要在[!UICONTROL 首頁行事曆]上檢視的相關行事曆（例如您的PTO、生日或節假日行事曆），然後按一下瀏覽器的[!UICONTROL 重新整理]或[!UICONTROL 重新載入]按鈕以檢視您的變更。
+1. (Optional) Under your [!DNL Workfront] account or an integrated account, select the associated calendars you want to view on your [!UICONTROL Home Calendar] (such as your PTO, Birthdays, or Holidays calendar) then click your browser's [!UICONTROL Refresh] or [!UICONTROL Reload] button to see your changes.
 
-1. （選擇性）在&#x200B;**[!UICONTROL 每週開始日期]**&#x200B;下的&#x200B;**[!UICONTROL 一般]**&#x200B;區段中，選取您要在首頁行事曆中顯示為工作週第一天的日期。
+1. (Optional) In the **[!UICONTROL General]** section under **[!UICONTROL Start Week On]**, select the day you want to display  as the first day of your work week in the Home Calendar.
 
    ![](assets/general-section-home-calendar-settings-panel.png)
 
-1. 設定下列選項：
+1. Configure the following options:
 
-   * **[!UICONTROL 我的工作日]：**&#x200B;選取您工作的日。
-   * **[!UICONTROL 我的日常開始時間]：**&#x200B;選取您開始工作日的時間。
-   * **[!UICONTROL 我的日常結束時間]：**&#x200B;選取您結束工作日的時間。
+   * **[!UICONTROL My Work Days]:** Select the days you work.
+   * **[!UICONTROL My Usual Start Time]:** Select the time you start your work day.
+   * **[!UICONTROL My Usual End Time]:** Select the time you end your work day.
 
-   [!DNL Workfront]會使用這三個設定來計算您一週的工作時數。 此數字會影響[!UICONTROL 配置]列，可協助您根據可用工作時數追蹤工作負載。 如需詳細資訊，請參閱文章[[!UICONTROL 首頁行事曆]檢視](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md)中的[[!UICONTROL 配置]列](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md#understanding-the-allocation-of-time)。
+   [!DNL Workfront] uses these three settings to calculate the number of hours you work in a week. This number affects the [!UICONTROL Allocation] bar, which helps you track your workload against your available work hours. For more information, see [[!UICONTROL Allocation] bar](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md#understanding-the-allocation-of-time) in the article [[!UICONTROL Home Calendar] view](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md).
 
-1. 按一下&#x200B;**[!UICONTROL 行事曆設定]**&#x200B;區域外部以關閉它。
+1. Click outside the **[!UICONTROL Calendar settings]** area to close it.
 
-   [!DNL Workfront]會自動儲存您的變更。
+   [!DNL Workfront] saves your changes automatically.
 
-如需使用[!UICONTROL 行事曆]檢視來管理您的工作指派和整合行事曆事件的相關資訊，請參閱[使用[!UICONTROL 首頁行事曆]檢視](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md)。
+For information about using the [!UICONTROL Calendar] view to manage your work assignments and integrated calendar events, see [Use the [!UICONTROL Home Calendar] view](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md).
 
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-(NOTE: from Courtney: [step #] Type your weekly work hours under How many hours a week do you work?This number affects the Allocation bar, which helps you track your workload against your available work hours. For more information, see "Allocation Bar" in the article "Understanding the Home Calendar View.")
-</MadCap:conditionalText>
 -->

@@ -1,25 +1,24 @@
 ---
-title: 使用版面配置範本自訂首頁和摘要
+title: 使用版面配置範本自訂摘要面板
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-description: 您可以使用版面配置範本來設定當使用者按一下首頁和摘要中的任務或問題時會看到的內容。 您使用下列步驟進行的每個設定都會以相同方式影響「首頁」區域和「摘要」面板。 這些自訂不適用於「檔案摘要」面板。
+description: 您可以使用版面配置範本來設定當使用者按一下摘要中的任務或問題時會看到的內容。 您使用下列步驟進行的每個設定都會影響「摘要」面板。 這些自訂不適用於「檔案摘要」面板。
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 115757a829b92c13cb684369120e26602b9a1782
+source-git-commit: 507145d1afb1f497dc34072d455ee443263361fe
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '940'
 ht-degree: 2%
 
 ---
 
-# 使用版面配置範本自訂首頁和摘要
+# 使用版面配置範本自訂摘要面板
 
-<span class="preview">在10月17日第四季發行中，從Workfront移除舊版首頁時，本文會重新命名為「使用版面配置範本自訂摘要面板」。 2024.</span>
 
-您可以使用版面配置範本來設定當使用者按一下首頁和摘要中的任務或問題時會看到的內容。 您使用下列步驟進行的每個設定都會以相同方式影響「首頁」區域和「摘要」面板。 這些自訂不適用於「檔案摘要」面板。
+您可以使用版面配置範本來設定當使用者按一下摘要中的任務或問題時會看到的內容。 您使用下列步驟進行的每個設定都會影響「摘要」面板。 這些自訂不適用於「檔案摘要」面板。
 
 您可以設定：
 
@@ -28,7 +27,7 @@ ht-degree: 2%
 
 您也可以自訂當使用者按一下指派給他們的專案核准、檔案核准或檔案版本核準時，使用者在「首頁」區域中看到的欄位。
 
-如需首頁區域的詳細資訊，請參閱[使用首頁區域](../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md)。 如需「摘要」面板的相關資訊，請參閱[摘要概觀](../../../workfront-basics/the-new-workfront-experience/summary-overview.md)。
+如需「摘要」面板的相關資訊，請參閱[摘要概觀](../../../workfront-basics/the-new-workfront-experience/summary-overview.md)。
 
 如需有關建立版面配置範本的資訊，請參閱[建立和管理版面配置範本](../use-layout-templates/create-and-manage-layout-templates.md)。
 
@@ -68,11 +67,11 @@ ht-degree: 2%
 
 +++
 
-## 使用版面配置範本自訂首頁和摘要
+## 使用版面配置範本自訂摘要面板
 
 1. 開始使用版面配置範本，如[建立和管理版面配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)中所述。
 
-1. 按一下&#x200B;**自訂使用者看到的內容**&#x200B;下的向下箭頭![](assets/dropdown-arrow.png)，然後按一下&#x200B;**首頁與摘要**。
+1. 按一下&#x200B;**自訂使用者看到的內容**&#x200B;下的向下箭頭![](assets/dropdown-arrow.png)，然後按一下&#x200B;**摘要面板**。
 
 1. 在左側的清單中，按一下您要在首頁和摘要中自訂的物件型別（**任務**、**問題**、**專案**、**檔案**&#x200B;或&#x200B;**檔案版本**）。
 
@@ -82,23 +81,28 @@ ht-degree: 2%
     <tbody> 
      <tr> 
       <td role="rowheader">任務</td> 
-      <td> <p>在首頁中，此設定的組態會影響使用者按一下任務時任務右側的區域。 而且，在任務清單中，它會影響當使用者選擇任務，然後按一下「開啟摘要」圖示<img src="assets/summary-panel-icon.png">時顯示在頁面右側的「摘要」面板。</p> <p>例如，您可以決定當使用者在首頁中選擇任務時，使用者在詳細資訊區域中會看到哪些欄位：</p> <p><img src="assets/home-details-adobe branding.jpg"></p> <p>當他們在摘要中選取任務時：</p> <p> <img src="assets/summary-details.jpg"> </p> </td> 
+      <td><p> <img src="assets/summary-details.jpg"> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">問題</td> 
-      <td> <p>在首頁中，您對此設定的設定會影響使用者點按問題右側的區域。</p> <p>在問題清單中，此設定會影響當使用者選擇問題，然後按一下「開啟摘要」圖示<img src="assets/summary-panel-icon.png">時顯示在頁面右側的「摘要」面板。</p> </td> 
+      <td><p>在問題清單中，此設定會影響當使用者選擇問題，然後按一下「開啟摘要」圖示<img src="assets/summary-panel-icon.png">時顯示在頁面右側的「摘要」面板。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">專案</td> 
-      <td>在首頁中，當使用者按一下指派給他們的專案核準時，此設定的設定會影響核准右側的區域。</td> 
+      <td><p>在首頁中，當使用者按一下指派給他們的專案核準時，此設定的設定會影響核准右側的區域。</p>
+      <p>重要：這是一項過時的功能。 您對此區域所做的任何變更都與Workfront已移除的功能有關。 此選項將在稍後的維護更新中從Workfront移除。</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">文件</td> 
-      <td>在首頁中，當使用者按一下指派給他們的檔案核準時，您對此設定的設定會影響核准右側的區域。</td> 
+      <td><p>在首頁中，當使用者按一下指派給他們的檔案核準時，您對此設定的設定會影響核准右側的區域。</p>
+      <p>重要：這是一項過時的功能。 您對此區域所做的任何變更都與Workfront已移除的功能有關。 此選項將在稍後的維護更新中從Workfront移除。</p>
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">文件版本</td> 
-      <td>在首頁中，當使用者按一下指派給他們用於特定檔案版本的核準時，您對此設定的設定會影響核准右側的區域。</td> 
+      <td><p>在首頁中，當使用者按一下指派給他們用於特定檔案版本的核準時，您對此設定的設定會影響核准右側的區域。</p>
+      <p>重要：這是一項過時的功能。 您對此區域所做的任何變更都與Workfront已移除的功能有關。 此選項將在稍後的維護更新中從Workfront移除。</p>
+      </td> 
      </tr> 
     </tbody> 
    </table>
@@ -119,7 +123,7 @@ ht-degree: 2%
 
    ![](assets/lt-home-add-hide-fields-adobe-branding.png)
 
-1. 重複步驟3-6以自訂任何其他物件型別的「首頁」區域和「摘要」面板。
+1. 重複步驟3-6以自訂任何其他物件型別的「摘要」面板。
 1. 按一下左下角附近的&#x200B;**全域設定**，然後在首頁和摘要中啟用或停用與Adobe Workfront物件相關的下列任何選項：
 
    <table style="table-layout:auto"> 

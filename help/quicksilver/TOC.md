@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 426b7f7d556933dea26d27c82aa2082738d39767
+source-git-commit: c243aafc5d62fdd5ed2f209fe963e92f2548965c
 workflow-type: tm+mt
-source-wordcount: '14529'
+source-wordcount: '14514'
 ht-degree: 2%
 
 ---
@@ -894,22 +894,18 @@ ht-degree: 2%
       * [在優先順序中新增和管理快速連結](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md)
    * 首頁 {#home}
       * [首頁](workfront-basics/using-home/home.md)
-      * 新首頁{#new-home}
-         * [新首頁](workfront-basics/using-home/new-home/new-home.md)
-         * [開始使用新首頁](workfront-basics/using-home/new-home/get-started-with-new-home.md)
-         * [新增、編輯或移除新首頁中的Widget](workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
-         * [新首頁Widget篩選器概觀](workfront-basics/using-home/new-home/widget-filter-overview-new-home.md)
-         * [使用「我的工作」Widget管理您的工作](workfront-basics/using-home/new-home/my-work-widget.md)
       * 使用主區域{#use-home-area}
          * [使用首頁區域](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
-         * [從舊版首頁移至新首頁](workfront-basics/using-home/new-home/move-to-new-home.md)
          * [從舊版首頁移至優先順序](workfront-basics/priorities/move-from-legacy-home-to-priorities.md)
          * [開始使用首頁](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
+         * [新增、編輯或移除新首頁中的Widget](workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)
          * [在首頁區域的工作清單中顯示專案](workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
+         * [首頁Widget篩選器概觀](workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md)
+         * [使用「我的工作」Widget管理您的工作](workfront-basics/using-home/using-the-home-area/my-work-widget.md)
          * [排定首頁區域工作的優先順序](workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md)
          * [管理首頁區域的工作和團隊請求](workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)
          * [更新或編輯首頁區域的工作專案](workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)
-         * [從首頁區域建立工作專案](workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
+         * [從首頁區域建立工作專案和專案](workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
          * [從首頁區域在工作專案上記錄時間](workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
          * [在首頁區域將專案標示為完成](workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)
          * [首頁行事曆檢視](workfront-basics/using-home/using-the-home-area/home-calendar-view.md)

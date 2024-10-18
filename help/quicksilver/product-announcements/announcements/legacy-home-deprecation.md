@@ -6,9 +6,9 @@ description: 本頁包含即將淘汰舊版首頁的資訊。
 author: Nolan
 feature: Product Announcements
 exl-id: 1fef08c9-624d-4783-a0bd-8009413fc2bd
-source-git-commit: 695674b1f89aa116e592081d72403b4be568f931
+source-git-commit: e68972f7334a93f7fbd3db29919a2f2746ce64fe
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Adobe Workfront社群，我們有新聞了 — 我們很快就會淘汰舊版首
 
 **我可以改用哪些專案？**
 
-* 新首頁已經作為替代頁面提供。 請參閱[開始使用新首頁](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)，以取得有關使用新首頁的詳細資訊。 使用者可透過個人化選項自訂，管理員則可透過版面配置範本自訂。
+* 新首頁已經作為替代頁面提供。 請參閱[開始使用新首頁](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md)，以取得有關使用新首頁的詳細資訊。 使用者可透過個人化選項自訂，管理員則可透過版面配置範本自訂。
 
 * 優先順序正在開發中，將作為Adobe Workfront簡化工作管理體驗的另一個元素。
 
@@ -54,13 +54,13 @@ Adobe Workfront社群，我們有新聞了 — 我們很快就會淘汰舊版首
 
 1. 將其他使用者重新指派給新的首頁版面配置。
 
-如此一來，您的使用者就能儘快適應新體驗，並自訂新首頁，以最符合個人需求。 請參閱新首頁](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)中的[移除、新增和重新排列Widget，瞭解使用者如何在自己的新首頁上自訂這些Widget。
+如此一來，您的使用者就能儘快適應新體驗，並自訂新首頁，以最符合個人需求。 請參閱新首頁](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)中的[移除、新增和重新排列Widget，瞭解使用者如何在自己的新首頁上自訂這些Widget。
 
 ### 瞭解新的首頁和優先順序中的可用內容
 
 以下文章提供新首頁和優先順序中可用功能的相關資訊：
 
-* [從舊版首頁移至新首頁](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)
+<!--* [Move from Legacy Home to New Home](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)-->
 * [從舊版首頁移至優先順序](/help/quicksilver/workfront-basics/priorities/move-from-legacy-home-to-priorities.md)
 
 ### 隨著首頁開發的體驗進行

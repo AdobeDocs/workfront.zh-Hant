@@ -5,9 +5,9 @@ description: 優先順序是為任務所有者量身打造的簡化且直覺式�
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 00a1876e005f0f0c47bdebaab77bbcfe42318612
+source-git-commit: 61f4fef12ec53b77feb4adba7b8e4561248be2fd
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: '954'
 ht-degree: 3%
 
 ---
@@ -183,7 +183,7 @@ ht-degree: 3%
 
 目前，我們建議在新首頁中使用我的核准和所有核准Widget 。
 
-如需詳細資訊，請參閱新首頁](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)中的[新增、編輯或移除Widget。
+如需詳細資訊，請參閱[新增、編輯或移除首頁中的Widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)。
 
 
 ## 使用[!DNL Catch me up]檢視您錯過了什麼[!BADGE 即將推出]{type=Informative}

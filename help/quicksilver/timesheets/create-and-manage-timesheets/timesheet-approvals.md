@@ -6,7 +6,7 @@ description: 核準時程表的程式可讓經理檢視其直接下屬的工作�
 author: Alina
 feature: Timesheets
 exl-id: b27b3307-f61b-456d-8076-590d1c391b4b
-source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
+source-git-commit: 9d0caff0381ee50bf8dd7060bebafb5354c0f0d8
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 0%
@@ -122,7 +122,7 @@ Adobe Workfront提供設定時程表核准的功能，以支援此區域。
 
 「首頁」區域隨即開啟。
 
-1. 確保您已將&#x200B;**我的核准** Widget新增到您的首頁區域。 如需詳細資訊，請參閱新首頁](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)中的[新增、編輯或移除Widget。
+1. 確保您已將&#x200B;**我的核准** Widget新增到您的首頁區域。 如需詳細資訊，請參閱新首頁](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)中的[新增、編輯或移除Widget。
 1. 在我的核准Widget中尋找時程表核准。
 1. （選擇性）展開[核准]或[拒絕]按鈕右側的下拉式功能表，新增有關您決定的註解，然後按一下[新增]。****
 1. 按一下下列其中一個按鈕，即可做出核准決定：

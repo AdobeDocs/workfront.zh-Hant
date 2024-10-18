@@ -5,9 +5,9 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 588dc03b-3b39-4640-8a28-023c7f4a1972
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 145dd86575951d837e66e18ceb235dc3694571cc
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,6 @@ ht-degree: 0%
 
 新首頁在發行後將成為所有使用者的預設體驗。 不過，您可以選擇在我們繼續開發其功能時恢復為現有的「首頁」體驗。
 
-如需詳細資訊，請參閱[開始使用Adobe Workfront中的新首頁](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)。
 
 [觀看此功能的影片示範](https://video.tv.adobe.com/v/3420969/){target=_blank}
 

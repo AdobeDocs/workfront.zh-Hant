@@ -6,9 +6,9 @@ description: 下列通知可讓您瞭解在Adobe Workfront中提出的請求。
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 42771f71-dbf8-4e73-9a0e-8efea612af4a
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 9f351a16c2a741b922e8ee51efb3ea3d7d2d18e1
 workflow-type: tm+mt
-source-wordcount: '1427'
+source-wordcount: '1429'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 0%
    <td><strong>即時</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>我已指派給其他人的個人任務已完成</strong> </p> <p>當個人任務完成後，系統會向將個人任務指派給其他人的使用者傳送通知。 </p> <p>如需關於臨時工作的詳細資訊，請參閱<a href="../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md" class="MCXref xref">從[！UICONTROL首頁]區域建立工作專案</a>。</p> <p>即時通知電子郵件的主旨為： <em>任務完成： &lt;任務名稱&gt;</em></p> <p> <p>注意：您無法設定每日摘要電子郵件的此通知。</p> </p> </td> 
+   <td> <p><strong>我已指派給其他人的個人任務已完成</strong> </p> <p>當個人任務完成後，系統會向將個人任務指派給其他人的使用者傳送通知。 </p> <p>如需關於臨時工作的詳細資訊，請參閱<a href="../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md" class="MCXref xref">從[！UICONTROL首頁]區域建立工作專案和專案</a>。</p> <p>即時通知電子郵件的主旨為： <em>任務完成： &lt;任務名稱&gt;</em></p> <p> <p>注意：您無法設定每日摘要電子郵件的此通知。</p> </p> </td> 
    <td> 任務名稱<br>預設專案名稱（接收個人任務的使用者個人專案）<br>任務參考編號<br>任務擁有者名稱<br>新任務狀態<br>完成任務的日期和時間<br>先前的任務狀態<br><strong>[！UICONTROL檢視更多詳細資料]</strong>按鈕<br><br><br></td> 
    <td><strong>即時</strong> </td> 
   </tr> 

@@ -6,10 +6,10 @@ description: 核准工作
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6e43edbb-14dd-493d-a76b-84be6c3bef82
-source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
+source-git-commit: 216bf9ea9cb58294b42cc41d70ca0ab99b6dc827
 workflow-type: tm+mt
-source-wordcount: '1145'
-ht-degree: 0%
+source-wordcount: '896'
+ht-degree: 1%
 
 ---
 
@@ -66,68 +66,75 @@ ht-degree: 0%
 
 ## 核准來自首頁區域的工作
 
-1. 按一下Adobe Workfront左上角的&#x200B;**首頁**&#x200B;圖示![](assets/home-icon-30x29.png)。
+1. 按一下右上角的&#x200B;**[!UICONTROL 主要功能表]** ![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
+1. （視條件而定）按一下&#x200B;**自訂**&#x200B;以新增&#x200B;**我的核准** Widget。
+1. （視條件而定）按一下&#x200B;**篩選器**&#x200B;下拉式功能表，然後選取&#x200B;**全部**&#x200B;以檢視指派給您的核准和委派。
 
    >[!NOTE]
    >
-   >您的Workfront管理員可能會對您環境中的「首頁」圖示進行下列變更：
-   >
-   >   
-   >* 以自訂的影像取代，以說明您的組織。 在此情況下，圖示看起來將會與本文中顯示的有所不同。
-   >* 使用其他頁面取代連結至該頁面的頁面。 在此情況下，請按一下頁面右上角的&#x200B;**主要功能表** ![](assets/main-menu-icon.png)，然後按一下&#x200B;**首頁**。
+   >指派給工作角色或群組的核准未顯示在首頁中。 指派給團隊的核准會顯示在每個團隊成員的「我的核准」小工具中。
 
-1. 按一下&#x200B;**篩選器**&#x200B;下拉式功能表。
 
-   ![](assets/displaying-work-items-filters-nwe-350x401.png)
-
-1. 選取&#x200B;**核准**。\
-   需要您核准的所有工作專案都會顯示。 
-
-   >[!NOTE]
-   >
-   >指派給工作角色或群組的核准未顯示在首頁中。 指派給專案團隊的核准會顯示在工作清單的專案團隊請求分組中。
-
-1. （選擇性）變更核准的顯示順序，如文章[首頁區域的工作清單顯示專案](../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)中的「群組並按日期、專案或優先順序排序」一節中所述。
 1. 選取您要進行核准決定的專案。
 
-   ![](assets/task-approval-home-350x127.png)
+   ![](assets/my-approvals-widget.png)
 
 1. 在右側面板中作出核准決定時，按一下其中一個可用選項。 下列選項會根據您核准的專案型別，顯示在頁面的右上角：
 
-   * **專案：**&#x200B;按一下&#x200B;**核准**&#x200B;或&#x200B;**拒絕**。
+   <table>
+   <tr>
+      <td>
+      <p><strong>存取</strong></p>
+      </td>
+      <td>
+      <p><strong>工作專案</strong></p>
+      </td>
+      <td>
+      <p><strong>文件</strong></p>
+      </td>
+      <td>
+      <p><strong>校訂</strong></p>
+      </td>
+   </tr>
+   <tr>
+      <td>
+       <ul>
+      <li>授予</li>
+      <li>忽略</li>
+      </ul>
+      如有需要，您可以在<b>變更存取權</b>下拉式功能表中調整存取權等級。
+      </td>
+      <td>
+         <ul>
+         <li>核准</li>
+         <li>拒絕</li>
+         </ul>
+      您可以按一下決定按鈕中的下拉式功能表，在決定中留下註解。
+      </td>
+      <td>
+   已指派為核准者
+         <ul>
+         <li>核准</li>
+         <li>核准 (附帶變更)</li>
+         <li>需要工作</li>
+         </ul>
+   已指派為檢閱者
+         <ul>
+         <li>完成我的檢閱</li>
+         </ul>
+      此欄中的選項僅適用於新檔案核准。 舊版檔案核准看起來與工作專案核准相同。 
+      </td>
+      <td>
+         <ul>
+         <li>前往校訂</li>
+         </ul>
+         您會在校訂檢視器中做出決定。 如需檢閱校訂的相關資訊，請參閱<a href="../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md">在Adobe Workfront中檢閱校訂</a>。
+      </td>
+   </tr>
+   </table>
 
-   * **任務：**&#x200B;按一下&#x200B;**核准**&#x200B;或&#x200B;**拒絕**。
+在您做出決定後，核准會從我的核准Widget中移除。
 
-   * **問題：**&#x200B;按一下&#x200B;**核准**&#x200B;或&#x200B;**拒絕**。
-
-   * **時程表：**&#x200B;按一下&#x200B;**核准**&#x200B;或&#x200B;**拒絕**。
-
-   * **檔案：**&#x200B;按一下&#x200B;**核准**、**拒絕**&#x200B;或&#x200B;**變更**。\
-      檢視時請考量下列事項  核准：
-
-      * 當使用者與您共用校訂時，校訂核准會顯示在這裡，如文章[在Adobe Workfront中共用校訂](../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)中的「共用校訂連結」一節所述。
-      * 只有在您的Workfront環境已與Workfront Proof Premium帳戶整合時，首頁區域才會顯示校訂核准。 如果您無法使用此處所討論的校訂，請聯絡您的Workfront管理員。
-      * 您會收到應用程式內通知，通知您校訂核准。\
-        如需應用程式內通知的詳細資訊，請參閱[檢視及管理應用程式內通知](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md)。
-
-      * 要求核准的使用者名稱會顯示在「首頁」區域的縮圖影像旁，並包含以下文字：\
-        「*使用者A*&#x200B;希望您核准……」
-
-        <!--      
-        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">      
-        (NOTE:&nbsp;From&nbsp;Courtney: Is this true?)      
-        </MadCap:conditionalText>      
-        -->
-
-        如果使用者名稱無法使用，會顯示下列文字：\
-        「新版本的校訂已可供檢視」
-      * 若要對校訂做出核准決定，請按一下&#x200B;**前往校訂**，按一下&#x200B;**完成檢閱**，然後按一下其中一個可用選項。 核准校訂時可用的選項為： **已核准**、**已核准變更**、**需要變更**&#x200B;以及&#x200B;**不相關**。
-
-      * 對校訂做出決定後，校訂會保留在「我的核准」索引標籤中，並顯示「已做出決定」文字，直到您按一下「**重新整理**」按鈕或重新整理瀏覽器頁面為止。
-
-        如需檢閱校訂的相關資訊，請參閱[在Adobe Workfront中檢閱校訂](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)。
-
-   * **存取權：**&#x200B;在&#x200B;**變更存取權**&#x200B;下拉式功能表中選取要授與的存取權等級，然後按一下&#x200B;**授與存取權**。 或者，按一下&#x200B;**忽略**。
 
 ## 直接從專案、任務或問題核准工作
 
