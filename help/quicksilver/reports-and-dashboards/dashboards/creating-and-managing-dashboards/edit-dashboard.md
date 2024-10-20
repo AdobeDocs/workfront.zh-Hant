@@ -6,9 +6,9 @@ description: 控制面板的用途是提供資訊的快速存取。 您可將報
 author: Nolan
 feature: Reports and Dashboards
 exl-id: de15ab45-4bcd-4638-b3d7-fc70a0866d2d
-source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
+source-git-commit: 008713ef6587041310388c05909ad5f78fb9fa4c
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '538'
 ht-degree: 1%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 1%
    * **名稱**：編輯儀表板的名稱。
    * **描述**：指定儀表板的描述。
 
-1. 在&#x200B;**可用報表**&#x200B;區段中，開始在&#x200B;**依名稱或型別搜尋……**&#x200B;欄位中輸入報表或外部頁面的名稱，然後將報表拖放到版面配置窗格的右側。
+1. 在&#x200B;**可用的報表和行事曆**&#x200B;區段中，開始在搜尋列中鍵入報表、行事曆或外部頁面的名稱，然後將報表、行事曆或外部頁面在版面配置窗格中拖放到右側。
 
    >[!NOTE]
    >

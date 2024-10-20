@@ -6,9 +6,9 @@ description: 您可以建立控制面板，以快速存取Adobe Workfront中的�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 008713ef6587041310388c05909ad5f78fb9fa4c
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '496'
 ht-degree: 1%
 
 ---
@@ -86,7 +86,7 @@ ht-degree: 1%
       <td><p>這是您控制面板的名稱。</p><p>如果您未指定名稱，則預設情況下，圖示板上第一個報表的名稱會變成圖示板的名稱。</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>說明（選擇性）</strong></td>
+      <td role="rowheader"><strong>說明 (選擇性)</strong></td>
       <td>這是您控制面板的說明。</td>
      </tr>
     </tbody>
@@ -102,13 +102,13 @@ ht-degree: 1%
    Consider adding the information from this article above here, at some point, instead of linking to it.)
    -->
 
-1. 在&#x200B;**依名稱或型別搜尋……**&#x200B;欄位中搜尋報告、行事曆或外部頁面，然後將它們拖曳至配置窗格（當它們出現在清單中時）。
+1. 在&#x200B;**可用的報表和行事曆**&#x200B;區段中，開始在搜尋列中鍵入報表、行事曆或外部頁面的名稱，然後將報表、行事曆或外部頁面在版面配置窗格中拖放到右側。
 
    >[!NOTE]
    >
    >搜尋專案時，搜尋會傳回最近建立的2,000份報表中的任一份。 搜尋結果不會傳回包含Unicode字元的報表名稱。 最佳做法是，在Workfront中透過輸入名稱來命名物件時，避免包括Unicode字元，而不是從其他來源複製和貼上名稱。
 
-   ![搜尋報告](assets/qs-new-dashboard-ui-0722.png)
+   ![搜尋報告](assets/unshimmed-dashboard-ui.png)
 
 1. （選擇性）按一下&#x200B;**新增外部頁面**，以新增外部頁面至儀表板。
 

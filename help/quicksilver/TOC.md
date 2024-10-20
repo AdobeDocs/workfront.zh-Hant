@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: c243aafc5d62fdd5ed2f209fe963e92f2548965c
+source-git-commit: 393405424c0ce3334304643c9474369e12417406
 workflow-type: tm+mt
-source-wordcount: '14514'
+source-wordcount: '14505'
 ht-degree: 2%
 
 ---
@@ -445,8 +445,6 @@ ht-degree: 2%
          * [新的評論體驗](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
          * [新的評論體驗發行活動](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
          * [新的評論體驗常見問題集](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
-      * Workfront Data Connect Beta {#data-lake-beta}
-         * [Workfront Data Connect測試版資訊](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
 * 管理和設定 {#administration-and-setup}
    * [管理和設定：文章索引](administration-and-setup/administration-and-setup.md)
    * 開始使用管理{#get-started-administration}
