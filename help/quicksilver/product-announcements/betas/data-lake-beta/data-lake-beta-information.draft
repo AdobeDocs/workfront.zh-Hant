@@ -1,0 +1,97 @@
+---
+title: Workfront Data Connect beta information
+description: General information about the Workfront Data Connect beta
+hide: yes
+hidefromtoc: yes
+recommendations: noDisplay, noCatalog
+exl-id: 2daf7617-5b3e-49f7-b93b-4210b1b2ea49
+---
+# Workfront Data Connect beta information
+
+Workfront Data Connect has been released. For information about using Workfront Data Connect, see [Workfront Data Connect overview](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
+
+<!--**Beta schedule:**
+
+* Beta start date - April 15, 2024
+* Planned release date - October 17, 2024
+
+## Participate in the beta
+
+### Enroll
+
+>[!IMPORTANT] 
+>
+>You must be a Workfront system administrator to enroll in the Data Connect beta.
+
+To enroll your organization in the beta, please fill out and submit the form at the following link:
+
+[Workfront Data Connect beta enrollment](https://adobe.ly/workfrontdatalake)
+
+### Provide feedback
+
+Feedback is appreciated as we develop this tool over the course of the beta. Please follow the instructions below to share your experience with us.
+
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **Setup**.
+
+1. In the left panel, click **System** > **Data Access**.
+
+1. Click the **Send Feedback** button at the bottom of the page, then fill out the form with your feedback.
+
+## Planned features
+
+Below are lists of objects currently supported in the beta, objects we plan on adding support for over the course of the beta, and features included on our future roadmap for Data Connect.
+
+### Objects currently available
+
+* Assignment
+* Custom Enum (status, priority, severity, and condition)
+* Document
+* Document Version
+* Group
+* Hours
+* Hour Type
+* Milestone
+* Milestone Path
+* Notes
+* Optask (issue/request)
+* Portfolio
+* Program
+* Project
+* Role
+* Schedule
+* Task
+* Team
+* Timesheet
+* User
+
+### Objects in development
+
+* Access Level
+* Access Rule
+* Board
+* Board Card
+* Category (form)
+* Category Parameters
+* Company
+* Document Approval
+* Document Approval Decision
+* Expense
+* Expense Type
+* Object Categories
+* Parameter (fields)
+* Parameter Option
+* Rate
+* Reserved Time (PTO)
+* Schedule Exceptions
+* Template
+* Template Task
+* Workfront Planning Records
+* User Other Groups
+* User Other Roles
+* User Other Teams
+
+### Roadmap features
+
+* Limit available objects during reader account setup.
+* Associate a reader account with a specific group or groups in Workfront to limit visibility of records to only group members.
+-->
