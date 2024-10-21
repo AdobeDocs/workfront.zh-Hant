@@ -9,7 +9,7 @@ description: 透過Adobe Photoshop模組，您可以根據Adobe Photoshop帳戶�
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: f20192ea-e363-4fba-8bd2-b1d50443918d
-source-git-commit: cfd13f8eb422401644f7a1abf54e909218b2e8bf
+source-git-commit: c3187e3dc21b4705a0e249ed8cc6df66575ef06b
 workflow-type: tm+mt
 source-wordcount: '4308'
 ht-degree: 0%
@@ -240,7 +240,7 @@ ht-degree: 0%
       <td role="rowheader">
         <p>[！UICONTROL (Options) Fonts]</p>
       </td>
-   <td> 針對檔案所需的每一種字型，按一下「新增專案」並輸入字型的儲存位置和檔案位置。 </td> 
+   <td> 針對檔案所需的每種字型，按一下「新增專案」並輸入字型的儲存位置和檔案位置。 </td> 
     </tr>
     <tr>
       <td role="rowheader">
