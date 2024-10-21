@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 507145d1afb1f497dc34072d455ee443263361fe
+source-git-commit: 43cf88c533b80324266f0660648c6a1ab13ca8fc
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '905'
 ht-degree: 2%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 2%
 
 1. 按一下&#x200B;**自訂使用者看到的內容**&#x200B;下的向下箭頭![](assets/dropdown-arrow.png)，然後按一下&#x200B;**摘要面板**。
 
-1. 在左側的清單中，按一下您要在首頁和摘要中自訂的物件型別（**任務**、**問題**、**專案**、**檔案**&#x200B;或&#x200B;**檔案版本**）。
+1. 在左側的清單中，按一下您要在摘要面板中自訂的物件型別（**任務**、**問題**、**專案**、**檔案**&#x200B;或&#x200B;**檔案版本**）。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -115,7 +115,7 @@ ht-degree: 2%
 
    ![](assets/choose-cat-cstmz-nwe-adobe-branding.png)
 
-1. （視條件而定）如果出現「**設定主要動作」按鈕**」下拉式功能表（如果您在左側清單中選取「**任務**」或「**問題**」），請在使用者檢視任務或問題時，按一下「首頁」區域和「摘要」面板中您希望使用者可用的主要動作（**完成**&#x200B;或&#x200B;**狀態**）。
+1. （視條件而定）如果出現「**設定主要動作」按鈕**」下拉式功能表（如果您在左側清單中選取「**任務**」或「**問題**」），請在使用者檢視任務或問題時，按一下「摘要」面板中您希望使用者可用的主要動作（**完成**&#x200B;或&#x200B;**狀態**）。
 
    ![](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
 
@@ -124,7 +124,7 @@ ht-degree: 2%
    ![](assets/lt-home-add-hide-fields-adobe-branding.png)
 
 1. 重複步驟3-6以自訂任何其他物件型別的「摘要」面板。
-1. 按一下左下角附近的&#x200B;**全域設定**，然後在首頁和摘要中啟用或停用與Adobe Workfront物件相關的下列任何選項：
+1. 按一下左下角附近的&#x200B;**全域設定**，然後啟用或停用摘要中與Adobe Workfront物件相關的下列任何選項：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -132,7 +132,7 @@ ht-degree: 2%
     <tbody> 
      <tr> 
       <td role="rowheader">顯示工作的更新</td> 
-      <td>在首頁或摘要中顯示對所選任務或問題所做的任何更新。 這包括系統更新和使用者所做的更新。 使用者仍然可以篩選掉系統更新，如<a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">更新工作</a>中的<a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable" class="MCXref xref">啟用或停用系統更新</a>中所述。</td> 
+      <td>在「摘要」面板中顯示對選定任務或問題所做的任何更新。 這包括系統更新和使用者所做的更新。 使用者仍然可以篩選掉系統更新，如<a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">更新工作</a>中的<a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable" class="MCXref xref">啟用或停用系統更新</a>中所述。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">針對工作記錄時間</td> 
@@ -140,16 +140,16 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader">檢視與工作相關的檔案</td> 
-      <td>選擇任務或問題時在「首頁」和「摘要」中顯示「檔案」區域，列出附加到任務或問題的任何檔案。 使用者可以按一下檔案，在預覽視窗中檢視檔案。</td> 
+      <td>選擇任務或問題時在「摘要」面板中顯示「檔案」區域，列出附加到任務或問題的任何檔案。 使用者可以按一下檔案，在預覽視窗中檢視檔案。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">隱藏時間戳記</td> 
-      <td>在「首頁」和「摘要」中隱藏下列日期欄位的時間戳記：
+      <td>在「摘要」面板中隱藏下列日期欄位的時間戳記：
        <ul>
         <li>規劃完成日期</li>
         <li>認可日期</li>
         <li>提交日期</li>
-       </ul><p><b>附註</b>：</p> <p> 當啟用此選項時，過期的工作專案僅會根據日期而不是時間移至首頁工作清單中的延遲群組。</p></td> 
+       </ul></td> 
      </tr> 
     </tbody> 
    </table>

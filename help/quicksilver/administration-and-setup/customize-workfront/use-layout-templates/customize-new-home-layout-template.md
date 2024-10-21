@@ -3,21 +3,21 @@ title: 使用版面配置範本自訂新首頁
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-description: 您可以使用版面配置範本來設定使用者在開啟新首頁時看到的內容。
+description: 您可以使用版面配置範本來設定使用者在開啟「首頁」時看到的內容。
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: 1426f806b72d740712eba5e337c8424f8af6c9dc
+source-git-commit: 0a19683e2311b1acc57423f5cb5a7dd141c8b79c
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '841'
 ht-degree: 1%
 
 ---
 
-# 使用版面配置範本自訂新首頁
+# 使用版面範本自訂首頁
 
-您可以使用版面配置範本來設定使用者第一次開啟新首頁時看到的內容。
+您可以使用版面配置範本來設定使用者第一次開啟「首頁」時看到的內容。
 
 您可以設定：
 
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 
 
-如需新首頁的詳細資訊，請參閱[開始使用首頁](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md)。
+如需首頁的詳細資訊，請參閱[開始使用首頁](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md)。
 
 如需有關建立版面配置範本的資訊，請參閱[建立和管理版面配置範本](../use-layout-templates/create-and-manage-layout-templates.md)。
 
@@ -73,9 +73,9 @@ ht-degree: 1%
 
 +++
 
-## 使用版面配置範本自訂新首頁
+## 使用版面範本自訂首頁
 
-若要使用版面配置範本自訂「新首頁」：
+若要使用版面配置範本自訂首頁：
 
 1. 開始使用版面配置範本，如[建立和管理版面配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)中所述。
 
@@ -91,13 +91,13 @@ ht-degree: 1%
       <td role="rowheader">設計與配置</td> 
       <td>
       <p>選取使用者工作區中將會出現的Widget、其位置，然後選擇背景。 請注意，雖然使用者無法移除選取的Widget，但他們可以自由移動及調整大小，以及新增其他Widget。</p>
-      <p>此索引標籤基本上是作為小型的新首頁工作區；因此，可根據<a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">新增、編輯或移除首頁中的Widget</a>中所述的步驟來自訂它。 選取Widget，並依照您想要為使用者顯示的工作區來安排工作區。</p>
+      <p>此索引標籤的作用基本上是小型家用工作區；因此，可根據<a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">新增、編輯或移除家用小工具</a>中所述的步驟自訂此索引標籤。 選取Widget，並依照您想要為使用者顯示的工作區來安排工作區。</p>
       <p>若要變更背景，請依照<a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md" class="MCXref xref">開始使用首頁</a>中的<b>背景自訂</b>下的步驟操作。</p>
       <p>
 
 >[!NOTE]
 >
->只有在配置範本中移動或調整Widget大小時，不會觸發使用者的新首頁更新其配置。 不過，新增或移除Widget將會觸發使用者頁面的更新。
+>只有在配置範本中移動或調整Widget大小時，不會觸發使用者的首頁更新其配置。 不過，新增或移除Widget將會觸發使用者頁面的更新。
 
 </p>
      </td> 
@@ -119,7 +119,8 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->使用者必須至少具有對檢視的建立存取權，管理員資料行設定才能正確套用至他們的新首頁。
+>* 「篩選」、「欄」和「群組」選項連結到「版面配置範本」中的清單自訂選項。 此處所做的變更也將套用至這些設定。
+>* 使用者必須至少具有對檢視的建立存取權，管理員資料行設定才能正確套用至其首頁。
 
 </p>
       <li><p><b>設定Widget的預設篩選或群組：</b></p>
@@ -147,4 +148,4 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->您必須重新整理新的首頁，才能檢視版面配置範本中的自訂專案。
+>您必須重新整理首頁，才能檢視版面配置範本中的自訂專案。

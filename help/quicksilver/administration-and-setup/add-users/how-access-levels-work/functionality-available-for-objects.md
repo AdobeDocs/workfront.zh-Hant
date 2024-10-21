@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 2fa590235063e194d6277394f13b3d6be752ec4f
+source-git-commit: b2135fb5f29ebc794763ab6d3fb1c539de6125b4
 workflow-type: tm+mt
-source-wordcount: '1646'
+source-wordcount: '1644'
 ht-degree: 11%
 
 ---
@@ -113,7 +113,7 @@ ht-degree: 11%
 | 附加自訂表單 | ✓ (A) | ✓ (A) | ✓ (A) |   |
 | 編輯自訂欄位 | ✓ (A) | ✓ (A) | ✓ (A) |   |
 | 核准問題 | ✓ (A) | ✓ (A) | ✓ (A) |   |
-| 新增核准流程 | ✓ (A) | ✓ (A) | ✓ (A) |   |
+| 新增核准流程 | ✓ (A) |   |   |   |
 | 新增文件 | ✓ (A) | ✓ (A) | ✓ (A) |   |
 | 複製問題 | ✓ (A) | ✓ (A) | ✓ (A) |   |
 | 移動問題 | ✓ (A) | ✓ (A) | ✓ (A) |   |
