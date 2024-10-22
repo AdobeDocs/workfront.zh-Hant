@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '7484'
+source-wordcount: '7488'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 >
 >除了Workfront計畫之外，您必須購買Workfront計畫才能存取及使用Workfront計畫功能。
 >
->如需存取Workfront Planning的完整需求清單，請參閱[存取總覽](/help/quicksilver/planning/access/access-overview.md)。
+>如需存取Workfront Planning的完整需求清單，請參閱[AdobePlanning存取總覽](/help/quicksilver/planning/access/access-overview.md)。
 >如需Workfront Planning的概觀，請參閱[Adobe Workfront Planning概觀](/help/quicksilver/planning/general/planning-overview.md)。
 >
 
@@ -1259,7 +1259,7 @@ Adobe Workfront規劃功能已暫時從預覽和沙箱環境中移除。 它們�
 * 檢視：使用者可以從記錄型別頁面的「檢視」下拉式功能表中選取檢視。
 * 管理：使用者可以編輯、共用和刪除檢視。
 
-如需詳細資訊，請參閱[存取總覽](/help/quicksilver/planning/access/access-overview.md)和[在Adobe Workfront規劃功能中共用許可權總覽](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
+如需詳細資訊，請參閱[Adobe計畫存取總覽](/help/quicksilver/planning/access/access-overview.md)和[Adobe Workfront計畫功能中的共用許可權總覽](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
 
 ### 新公式欄位型別
 

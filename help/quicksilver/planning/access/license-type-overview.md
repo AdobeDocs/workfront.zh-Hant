@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 如需Workfront Planning中物件的許可權相關資訊，請參閱[在Adobe Workfront Planning中共用許可權概觀](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
 
-如需有關存取Workfront Planning的資訊，請參閱[存取總覽](/help/quicksilver/planning/access/access-overview.md)。
+如需有關存取Workfront Planning的資訊，請參閱[AdobePlanning存取總覽](/help/quicksilver/planning/access/access-overview.md)。
 
 ## Workfront授權型別與Workfront Planning許可權之間的關係
 

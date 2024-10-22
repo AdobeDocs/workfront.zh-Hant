@@ -8,10 +8,10 @@ author: Lisa and Alina
 feature: Get Started with Workfront
 role: User
 exl-id: cfda6702-1a9a-4645-b031-8b2f201ac0af
-source-git-commit: f5632af0fb87739fc41c4e2f41dc8ebab0f8be8b
+source-git-commit: 7b5018f546d4c654832298e85c10504375f380b4
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 0%
+source-wordcount: '776'
+ht-degree: 1%
 
 ---
 
@@ -38,19 +38,20 @@ ht-degree: 0%
   >
   >您可以使用開始按鈕取代處理它按鈕。 如需有關將[處理它]按鈕取代為[開始]按鈕的資訊，請參閱[將[處理它]按鈕取代為[開始]按鈕](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)。
 
-* 在您按一下「處理它接受」後，按鈕會依據您在Workfront中存取任務或問題的位置而變更為「標示為完成」或「完成」 。 有關您可以在何處存取「處理它」按鈕的資訊，請參閱本文中的[尋找處理它並完成按鈕](#locate-the-work-on-it-and-done-button)小節。
+* 按一下「處理它接受」後，按鈕會變更為「標籤為完成」。 有關您可以在何處存取「處理它」按鈕的資訊，請參閱本文中的[尋找處理它並完成按鈕](#locate-the-work-on-it-and-done-button)小節。
 
   ![](assets/nwe-mark-as-done-button-350x122.png)
 
-* 如果您不是唯一指派給任務或問題的人，並且您正從「首頁」區域的「工作清單」存取您的工作專案，則按鈕會變更為「完成我的零件」。
 
-  ![](assets/home-left-done-with-my-part-button-350x184.png)
+<!--If you are not the only one assigned to the task or issue and you are accessing your work item from the My Work widget in the Home area, the button changes to Done with my part.
 
-## 找到處理它的工作並完成按鈕 {#locate-the-work-on-it-and-done-button}
+  ![](assets/home-left-done-with-my-part-button-350x184.png)-->
 
-您可以在Workfront的下列區域中找到「處理它並完成」按鈕：
+## 找到處理它的工作並標籤為完成按鈕 {#locate-the-work-on-it-and-done-button}
 
-* 首頁區域，在工作清單或詳細資訊面板中
+您可以在Workfront的下列區域中找到「處理它並標籤為完成」按鈕：
+
+* 我的工作Widget中的首頁區域
 
   如需有關在首頁區域將專案標示為完成的資訊，請參閱[在首頁區域將專案標示為完成](../../workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)。
 
@@ -58,13 +59,13 @@ ht-degree: 0%
 
   如需物件標頭的詳細資訊，請參閱[新物件標頭](../../workfront-basics/the-new-workfront-experience/new-object-headers.md)。
 
-* 在任務或問題清單或工作負載平衡器中的摘要面板
+* 在任務或問題摘要面板中
 
   如需有關使用「摘要」面板的資訊，請參閱[摘要概觀](../../workfront-basics/the-new-workfront-experience/summary-overview.md)。
 
-## 按一下「處理它並完成」按鈕時自動更新的欄位概觀
+## 按一下處理它並標籤為完成按鈕時自動更新的欄位概觀
 
-使用它的工作和完成按鈕的好處是，您可以允許Workfront自動更新有關指派給您的工作專案的資訊。
+使用處理它和標籤為完成的按鈕的好處是，您可以允許Workfront自動更新有關指派給您的工作專案的資訊。
 
 * [處理它按鈕](#work-on-it-button)
 * [開始按鈕](#start-button)
@@ -111,7 +112,11 @@ ht-degree: 0%
 
 ### 完成按鈕 {#the-done-button}
 
-如果您有權編輯團隊，您可以設定團隊的「完成」按鈕，以在您將專案標籤為完成時更新任務或問題狀態。 當使用者以該團隊作為他們的主團隊按一下他們的專案上的完成按鈕，以下欄位將自動更新任務或問題：
+>[!NOTE]
+>
+>「完成」按鈕在Workfront的所有區域顯示為「標示為完成」 。
+
+如果您有權編輯團隊，您可以設定團隊的「完成」按鈕，以在您將專案標籤為完成時更新任務或問題狀態。 當使用者以該團隊作為其主團隊按一下他們的專案上的標籤為完成按鈕，以下欄位將在任務或問題上自動更新：
 
 * 狀態
 * 從工作到完成的指派狀態更新

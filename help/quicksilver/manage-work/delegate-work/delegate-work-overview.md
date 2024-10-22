@@ -7,9 +7,9 @@ description: 當您計畫短期不在辦公室時，您可以暫時將您的工�
 author: Lisa
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '902'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 1%
   如需詳細資訊，請參閱[設定全系統的任務和問題偏好設定](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)。
 
 * 您只能從[!UICONTROL 首頁]區域委派任務和問題。
-* 下列授權型別存在例外：
+* 委派工作時，下列授權型別會有例外：
 
    * 您可以將工作委派給檢閱者或要求者，但[!DNL Workfront]不建議這麼做。
    * 檢閱者可以將工作委派給其他人。 他們無法在其[!UICONTROL 首頁]區域中檢視工作專案。 他們只能檢視核准。

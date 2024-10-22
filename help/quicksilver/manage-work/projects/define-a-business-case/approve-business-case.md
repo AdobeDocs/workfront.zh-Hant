@@ -5,16 +5,16 @@ description: 在您完成並提交專案要求的業務案例後，業務案例�
 author: Alina
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
-source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
+source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '733'
 ht-degree: 0%
 
 ---
 
 # 核准業務案例
 
-在您完成並提交專案要求的業務案例後，業務案例必須獲得核准。 這取決於您組織中的工作流程。 專案可以不經業務案例核准而開始，但您的Adobe Workfront管理員和專案所有者可能認為不宜這樣做。 
+在您完成並提交專案要求的業務案例後，業務案例必須獲得核准。 這取決於您組織中的工作流程。 專案可以不經業務案例核准而開始，但您的Adobe Workfront管理員和專案所有者可能認為不宜這樣做。
 
 如需有關完成和提交業務案例的詳細資訊，請參閱文章[為專案建立業務案例](../../../manage-work/projects/define-a-business-case/create-business-case.md)。
 
@@ -51,16 +51,16 @@ ht-degree: 0%
 
 核准專案的業務案例時，請考量下列事項：
 
-* 您必須擁有專案的管理許可權才能核准其業務案例。 
-* 您將無法在首頁的[核准]下看到等待業務案例核准的專案。
+* 您必須擁有專案的管理許可權才能核准其業務案例。
+* 您將無法透過首頁中的我的核准Widget看到正在等待業務案例核准的專案。
 * 您必須手動前往需要業務案例核准的個別專案，以檢視他們處於未決核准。 沒有Workfront通知機制會提醒某人他們必須核准專案的業務案例。
-* 您可以透過建立專案報告或存取與其相關聯的投資組合，找到等待業務案例核准的專案。 
+* 您可以透過建立專案報告或存取與其相關聯的投資組合，找到等待業務案例核准的專案。
 
   如需Portfolio的詳細資訊，請參閱Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)中的文章[Portfolio概觀。
 
 ## 建立專案報告以核准業務案例
 
-您可以建立專案報告，以檢視哪些專案需要其業務案例核准。 
+您可以建立專案報告，以檢視哪些專案需要其業務案例核准。
 
 若要為擱置核准其業務案例的專案建立報告：
 
@@ -72,23 +72,23 @@ ht-degree: 0%
 
 1. 開始在&#x200B;**顯示在此欄**&#x200B;欄位中輸入「狀態」，並在此欄位出現在清單中時選取它。
 
-    此欄將顯示專案狀態。
+   此欄將顯示專案狀態。
 
 1. 選取報告的&#x200B;**篩選器**&#x200B;標籤，然後按一下&#x200B;**新增篩選器規則**。
 
 1. 開始在&#x200B;**只為我顯示含有……**&#x200B;欄位的專案中輸入「狀態」，並在它出現在清單中時選取它。
 1. 針對篩選修飾元選取&#x200B;**等於**。
-1. 開始在可用欄位中輸入「已要求」。 
+1. 開始在可用欄位中輸入「已要求」。
 
    這可確保報表僅包含處於請求狀態的專案。
 
-     ![requested_projects_filter.png](assets/requested-projects-filter-350x14.png)
+   ![requested_projects_filter.png](assets/requested-projects-filter-350x14.png)
 
 1. （選擇性）按一下&#x200B;**新增其他篩選規則**。
 
    您可以新增其他篩選器，以僅顯示您是專案所有者、專案贊助者或Portfolio所有者的專案。
 
-   例如，您可以使用以下篩選陳述式： 
+   例如，您可以使用以下篩選陳述式：
 
    ```
    Project Sponsor ID Equals $$USER.ID
@@ -106,7 +106,7 @@ ht-degree: 0%
    Project Portfolio Owner ID Equals $$USER. ID
    ```
 
-   以顯示您被指定為「Portfolio管理員」的位置。 
+   以顯示您被指定為「Portfolio管理員」的位置。
 
 1. 按一下&#x200B;**儲存+關閉**。
 

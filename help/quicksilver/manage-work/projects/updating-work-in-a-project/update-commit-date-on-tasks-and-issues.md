@@ -6,7 +6,7 @@ description: 您可以手動更新指派給您的任務或問題的認可日期�
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
 workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 0%
@@ -95,7 +95,7 @@ ht-degree: 0%
 >如需詳細資訊，請參閱下列文章：
 >
 >* [摘要概述](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
->* [使用配置範本自訂首頁和摘要](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)。
+>* [使用配置範本自訂摘要面板](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)。
 
 
 1. 前往指派您為&#x200B;**所有者**&#x200B;的任務或問題。

@@ -1,20 +1,20 @@
 ---
-title: 存取權總覽
+title: Adobe Workfront計畫存取許可權總覽
 description: 並非組織中的所有使用者都有相同的存取權和許可權來使用Adobe Workfront Planning。 本文說明使用者必須使用Adobe Workfront Planning功能的存取權和許可權。
 author: Alina
 feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '673'
 ht-degree: 1%
 
 ---
 
 
-# 存取權總覽
+# Adobe Workfront Planning存取權概觀
 
 <!--do not use the snippet for IMPORTANT , as it links to this article-->
 

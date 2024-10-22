@@ -3,12 +3,12 @@ product-area: user-management;setup
 navigation-topic: configure-your-user-profile
 title: 設定我的設定
 description: 您的 [!DNL Adobe Workfront] 個人資料包含有關您的資訊（例如您的姓名、電子郵件地址、地址、電話號碼、職稱等）。 它也包含您與 [!DNL Workfront] 及公司其他使用者的互動資訊。
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: ecf0aba451d530fa3be258d954f827e7cfc6b198
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '3319'
+source-wordcount: '3306'
 ht-degree: 1%
 
 ---
@@ -345,7 +345,7 @@ ht-degree: 1%
 
 <tr> 
    <td role="rowheader"><strong>[！UICONTROL將指派給我自己的工作傳送至我的[正在處理]索引標籤]</strong> </td> 
-   <td>選取此欄位會顯示您直接在[！UICONTROL Working On]索引標籤上指派給自己的工作，而非[！UICONTROL Work Requests]索引標籤。</td> 
+   <td>此欄位參考已從[!DNL Workfront]移除的過時功能。</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>（視條件而定）上傳檔案時自動產生校樣</strong></td> 

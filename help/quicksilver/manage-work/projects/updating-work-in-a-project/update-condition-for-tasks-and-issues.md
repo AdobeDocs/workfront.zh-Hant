@@ -6,7 +6,7 @@ description: 任務或問題的條件是在其上放置標誌以指示進展情�
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
 workflow-type: tm+mt
 source-wordcount: '1020'
 ht-degree: 1%
@@ -83,7 +83,7 @@ ht-degree: 1%
 
 * Workfront或群組管理員將任務或問題的標題新增到您的版面配置範本後。 如需詳細資訊，請參閱[使用配置範本自訂物件標頭](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)。
 
-* 在Workfront或群組管理員將其新增到您的版面配置範本後，顯示「摘要」面板。 如需詳細資訊，請參閱[使用配置範本自訂首頁和摘要](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)。
+* 在Workfront或群組管理員將其新增到您的版面配置範本後，顯示「摘要」面板。 如需詳細資訊，請參閱[使用配置範本自訂摘要面板](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)。
 
 * 當您在檢視或分組中顯示「條件」欄位時，會報告並列出。
 
@@ -116,7 +116,7 @@ ht-degree: 1%
 >如需詳細資訊，請參閱下列文章：
 >
 >* [摘要概述](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
->* [使用配置範本自訂首頁和摘要](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)。
+>* [使用配置範本自訂摘要面板](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)。
 
 
 <!--old Condition update - in the commenting stream: 

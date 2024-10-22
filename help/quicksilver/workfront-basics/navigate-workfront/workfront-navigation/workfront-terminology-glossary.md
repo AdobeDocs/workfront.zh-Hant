@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront] 字彙表列出 [!DNL Adobe Workfront]. Yo
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '20938'
+source-wordcount: '20901'
 ht-degree: 0%
 
 ---
@@ -471,7 +471,9 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[！UICONTROL行事曆]</td> 
-   <td> <p>[!DNL Workfront]中有兩種行事曆型別： [！UICONTROL首頁行事曆]和行事曆報告。</p> <p>[！UICONTROL首頁行事曆]是個人行事曆，可讓使用者根據他們在[!DNL Workfront]中的可用時數管理其工作量。 使用者也可以將其[！UICONTROL首頁行事曆]與[!DNL Outlook]整合（即將推出[!DNL Google]和[!DNL Microsoft]整合）。 </p> <p>如需[！UICONTROL首頁行事曆]的詳細資訊，請參閱<a href="../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md" class="MCXref xref">[！UICONTROL首頁行事曆]檢視</a>。</p> <p>行事曆報告是一種動態報告，使用者可以在其中檢視事件的日期和其他重要詳細資訊，包括到期日、工作狀態以及事件指派給的使用者。</p> <p> 如需行事曆報告的詳細資訊，請參閱<a href="../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md" class="MCXref xref">行事曆報告總覽</a>。</p> </td> 
+   <td> <p>在Workfront中，行事曆報告是動態報告，使用者可以在其中檢視事件的日期和其他重要詳細資訊，包括到期日、工作狀態以及事件指派給的使用者。</p> <p> 如需行事曆報告的詳細資訊，請參閱<a href="../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md" class="MCXref xref">行事曆報告總覽</a>。</p>
+   <p> 在Workfront Planning中，「行事曆」檢視是一種檢視型別，用於顯示行事曆上的記錄。 您必須有額外的授權才能存取Workfront Planning。 </p>
+    </td> 
   </tr> 
    <tr> 
    <td>[！UICONTROL可以開始]</td> 
@@ -1644,7 +1646,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[！UICONTROL入口網站設定檔]</td> 
-   <td>管理員定義的索引標籤和入口網站區段集合，會顯示在[!DNL Workfront]應用程式[！UICONTROL首頁]和其他控制面板上。</td> 
+   <td>管理員定義的標籤和區段集合，顯示在[!DNL Workfront]中。</td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL入口網站區域]</td> 
@@ -2395,7 +2397,7 @@ The designated full time equivalency for users. A full-time user should have 100
    <p> 檢視也指使用者根據其存取層級或物件的許可權共用層級，僅檢視物件資訊的權利。</p> 
    <p>在Workfront Planning中，記錄會以下列檢視型別之一顯示在記錄型別頁面上：</p>
    <ul><li>表格</li>
-   <li>時間表</li>
+   <li>時間軸</li>
    <li>行事曆</li></ul>
    <p>在Workfront Planning中，檢視包括套用至畫面上記錄的篩選器、群組、排序和其他設定。</p> <p>如需詳細資訊，請參閱<a href="/help/quicksilver/planning/views/manage-record-views.md">管理記錄檢視</a>。</p>   
    <p>Workfront Planning需要額外的授權。</p>

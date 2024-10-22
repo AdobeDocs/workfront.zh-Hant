@@ -4,10 +4,11 @@ navigation-topic: the-new-workfront-experience
 title: 物件標題概觀
 description: 檢閱 [!DNL Adobe Workfront] 中物件的標頭時，您可以一眼檢視物件的資訊。 標題中的資訊可包含物件的擁有者、狀態或完成百分比。
 feature: Get Started with Workfront
+author: Courtney
 exl-id: 76e21df0-9272-4bfb-8a97-c16ae5f4b5dc
-source-git-commit: 58dffc8a84c2bcaaf09dfc65c6555d57f0b2eeb4
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '3707'
+source-wordcount: '3697'
 ht-degree: 0%
 
 ---
@@ -31,12 +32,12 @@ ht-degree: 0%
 
    ![](assets/project-header-350x18.png)
 
-## [!UICONTROL Home]標題概述
+<!--## [!UICONTROL Home] header overview 
 
-首頁中有以下標頭：
+The following headers are available in Home:
 
-* 任務：如需有關如何使用此標題的詳細資訊，請參閱本文中的[任務標題概觀](#task-header-overview)。
-* 問題：如需如何使用此標題的詳細資訊，請參閱本文中的[問題標題概觀](#issue-header-overview)。
+* Task: For more information on how you can use this header, see the [Task header overview](#task-header-overview) in this article.
+* Issue: For more information on how you can use this header, see the [Issue header overview](#issue-header-overview) in this article.-->
 
 ## 可自訂的標頭
 
@@ -80,8 +81,8 @@ ht-degree: 0%
    <td> <p>文字「[！UICONTROL PROJECT]」顯示在標頭中專案名稱上方。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">任務的動作區域</td> 
-   <td> <p>專案名稱旁會顯示動作區域。</p> <p> <img src="assets/nwe-general-actions-area.png"> </p>  </td> 
+   <td role="rowheader">專案的動作區域</td> 
+   <td> <p>在專案名稱旁邊，會顯示包含<b>共用</b>選項的動作區域。</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL完成百分比]</td> 
@@ -144,7 +145,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">任務的動作區域</td> 
-   <td> <p>工作名稱旁會顯示[！UICONTROL actions]區域。</p> <p> <img src="assets/nwe-dependency-action-area.png"> </p> <p>如果顯示「相依性」圖示，您可以按一下該圖示來檢視任務的任何前置任務或後續任務。</p> </td> 
+   <td> <p>在工作名稱旁邊，會顯示包含<b>共用</b>選項的動作區域。</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </p> <p>如果顯示「相依性」圖示，您可以按一下該圖示來檢視任務的任何前置任務或後續任務。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL完成百分比]</td> 
@@ -207,7 +208,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">問題的動作區域</td> 
-   <td> <p>在問題名稱的旁邊，會顯示[！UICONTROL actions]區域。</p> <p> <img src="assets/nwe-dependency-action-area.png"> </p> <p>如果顯示[！UICONTROL相依性]圖示，您可以按一下圖示以檢視問題的任何前置任務或後續任務。</p>  </td> 
+   <td> <p>在問題名稱旁邊，會顯示包含<b>共用</b>選項的動作區域。</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> <p>如果顯示[！UICONTROL相依性]圖示，您可以按一下圖示以檢視問題的任何前置任務或後續任務。</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL完成百分比]</td> 
@@ -274,7 +275,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">計畫的動作區域</td> 
-   <td> <p>在程式名稱的旁邊，會顯示[！UICONTROL actions]區域。</p> <p> <img src="assets/nwe-general-actions-area.png"> </p> </td> 
+   <td> <p>在程式名稱旁邊，會顯示包含<b>共用</b>選項的動作區域。</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL完成百分比]</td> 
@@ -328,8 +329,8 @@ ht-degree: 0%
    <td> <p>如果投資組合停用，文字「[！UICONTROLPORTFOLIO已停用]」會在標題中的投資組合名稱上方顯示。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">投資組合的[！UICONTROL actions]區域</td> 
-   <td> <p>投資組合名稱旁會顯示[！UICONTROL actions]區域。</p> <p> <img src="assets/nwe-general-actions-area.png"> </p></td> 
+   <td role="rowheader">投資組合的動作區域</td> 
+   <td> <p>投資組合名稱旁會顯示[！UICONTROL actions]區域。</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROLPortfolio管理員]</td> 
@@ -392,7 +393,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">範本的動作區域</td> 
-   <td> <p>範本名稱旁會顯示動作區域。</p> <p> <img src="assets/nwe-general-actions-area.png"> </p> </td> 
+   <td> <p>範本名稱旁會顯示動作區域。</p> <p> <img src="assets/actions-area-icons-without-share-button.png"> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL範本所有者]</td> 
@@ -439,7 +440,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">範本任務的動作區域</td> 
-   <td> <p>範本任務名稱旁會顯示動作區域。</p> <p> <img src="assets/nwe-general-actions-area.png"> </p> </td> 
+   <td> <p>範本任務名稱旁會顯示動作區域。</p> <p> <img src="assets/actions-area-icons-without-share-button.png"> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL指定任務]</td> 
@@ -485,12 +486,15 @@ ht-degree: 0%
    <td> <p>文字「[！UICONTROL BILLING RECORD]」會顯示在標題中計費記錄名稱上方。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">計費記錄的動作區域</td> 
+   <td role="rowheader">計費記錄的「更多」功能表</td> 
    <td> <p>在計費記錄名稱旁邊，會顯示[！UICONTROL更多]功能表<img src="assets/more-menu.png">，可讓您選取下列選項：</p> 
     <ul> 
      <li> <p>[！UICONTROL編輯]</p> </li> 
-     <li> <p> </p> </li> 
-    </ul> </td> 
+     <li> <p> 刪除 </p> </li> 
+    </ul>
+    <p><b>附註</b></p>
+    <p>「已記帳」狀態的記帳記錄不會顯示「更多」功能表。 您無法編輯或刪除已記帳記錄。</p>
+     </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL記帳記錄總計]</td> 
@@ -542,7 +546,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">使用者的動作區域</td> 
-   <td> <p>使用者名稱旁會顯示動作區域。</p> <p> <img src="assets/nwe-general-actions-area.png"> </p></td> 
+   <td> <p>使用者名稱旁會顯示動作區域。</p> <p> <img src="assets/actions-area-icons-without-share-button.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">電子郵件地址</td> 
@@ -589,7 +593,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">專案團隊的動作區域</td> 
-   <td> <p>在專案團隊名稱旁邊，會顯示[！UICONTROL actions]區域。</p> <p> <img src="assets/nwe-switch-team-actions-area.png"> </p></td> 
+   <td> <p>專案團隊名稱旁會顯示動作區域。</p> <p> <img src="assets/actions-area-icons-for-a-team.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">團隊成員設定檔圖片</td> 
@@ -632,8 +636,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">反複專案的動作區域</td> 
-   <td> <p>在標題的右上角，會顯示動作區域。</p> <p> <img src="assets/nwe-iteration-action-area.png"> </p></td> 
-  </tr> 
+   <td> <p>在版序名稱旁邊，會顯示動作區域。</p> <p> <img src="assets/actions-area-icons-for-an-iteration.png">
   <tr> 
    <td role="rowheader">所有者</td> 
    <td>這是反複專案的[！UICONTROL擁有者]。 您無法編輯標頭中的[！UICONTROL Owner]。</td> 
@@ -735,7 +738,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">檔案的動作區域</td> 
-   <td> <p>檔名稱旁會顯示動作區域。</p> <p> <img src="assets/nwe-doc-version-actions-area.png"> </p></td> 
+   <td> <p>檔名稱旁會顯示動作區域。</p> <p> <img src="assets/actions-area-icons-for-a-document.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">核准[！UICONTROL決定]區域</td> 
@@ -773,7 +776,7 @@ ht-degree: 0%
    <td> <p>文字「[！UICONTROL COMPANY]」會顯示在標頭中的公司名稱上方。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">公司的動作區域</td> 
+   <td role="rowheader">公司的「更多」功能表</td> 
    <td> <p>在公司名稱旁邊，會顯示[！UICONTROL More]功能表<img src="assets/more-menu.png">，可讓您選取下列選項：</p> 
     <ul> 
      <li> <p>[！UICONTROL編輯]</p> </li> 
@@ -819,7 +822,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">計畫的動作區域</td> 
-   <td> <p>計畫名稱旁會顯示動作區域。</p> <p> <img src="assets/nwe-general-actions-area.png"> </p></td> 
+   <td> <p>計畫名稱旁會顯示動作區域。</p> <p> <img src="assets/actions-area-icons-without-share-button.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">其他計畫動作</td> 
@@ -885,9 +888,9 @@ ht-degree: 0%
    <td> <p>文字「[！UICONTROL GOAL]」會顯示在標頭中的目標名稱上方。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">目標的動作區域</td> 
-   <td> <p>在目標名稱旁邊，會顯示動作區域。</p> <p> <img src="assets/nwe-general-actions-area.png"> </p>
-   您可以從目標的動作區域執行下列動作：
+   <td role="rowheader">目標的更多選單</td> 
+   <td> <p>在目標名稱旁邊，顯示更多功能表<img src="assets/more-icon.png">。</p> </p>
+   您可以從目標的「更多」功能表執行下列動作：
    <ul><li>[！UICONTROL編輯]</li>
    <li>[！UICONTROL複製目標]</li>
    <li>[！UICONTROL刪除目標]</li>

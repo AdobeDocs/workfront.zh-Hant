@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '800'
 ht-degree: 1%
 
 ---
@@ -98,7 +98,7 @@ ht-degree: 1%
   </tr>
 <tr>
    <td role="rowheader"><p>版面配置範本</p></td>
-   <td> <p>必須為所有使用者(包括Workfront管理員)指派一個版面配置範本，該範本包含主功能表中的「規劃」區域，以及專案、投資組合和方案的「規劃」區域。 </p> 如需詳細資訊，請參閱<a href="/help/quicksilver/planning/access/access-overview.md">存取總覽</a>。 </p>  </p>  
+   <td> <p>必須為所有使用者(包括Workfront管理員)指派一個版面配置範本，該範本包含主功能表中的「規劃」區域，以及專案、投資組合和方案的「規劃」區域。 </p> 如需詳細資訊，請參閱<a href="/help/quicksilver/planning/access/access-overview.md">Adobe計畫存取總覽</a>。 </p>  </p>  
 </td>
   </tr>
  </tbody>

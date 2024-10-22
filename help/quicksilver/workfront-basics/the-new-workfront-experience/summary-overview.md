@@ -5,9 +5,9 @@ description: 您可以使用「摘要」面板，直接從任務問題、檔案�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '960'
 ht-degree: 2%
 
 ---
@@ -187,9 +187,7 @@ ht-degree: 2%
 
 使用[!UICONTROL 摘要]的[!UICONTROL 詳細資料]區段來檢視高階工作專案詳細資料、進行指派或新增開始日期。 按一下「**[!UICONTROL 檢視全部]**」直接前往任務或問題上的「[!UICONTROL 詳細資料]」標籤。
 
->[!NOTE]
->
->此區段中顯示的欄位，與首頁右側面板中顯示的欄位相同。 您可以使用配置範本](../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)自訂這些欄位[自訂[!UICONTROL 首頁]和[!UICONTROL 摘要]。
+
 
 摘要面板中的![詳細資訊區段](assets/summary-details-section.png)
 

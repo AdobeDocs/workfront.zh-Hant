@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 5180bbad9ae2767ebc540127bc92fb688431b5d1
+source-git-commit: fc321f099c2c6903d0a1cebdd041115ca8a716ff
 workflow-type: tm+mt
-source-wordcount: '14507'
+source-wordcount: '14512'
 ht-degree: 2%
 
 ---
@@ -1342,7 +1342,7 @@ ht-degree: 2%
          * [任務原始期間與原始計畫時數概觀](manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md)
          * [計畫期間與任務期間之間的差異](manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md)
       * 建立任務{#create-tasks}
-         * [建立任務](manage-work/tasks/create-tasks/create-tasks-overview-1.md)
+         * [建立任務：文章索引](manage-work/tasks/create-tasks/create-tasks-overview-1.md)
          * [建立任務總覽](manage-work/tasks/create-tasks/create-tasks-overview.md)
          * [在專案中建立任務](manage-work/tasks/create-tasks/create-tasks-in-project.md)
          * [建立子任務](manage-work/tasks/create-tasks/create-subtasks.md)
@@ -2092,7 +2092,7 @@ ht-degree: 2%
       * [主要欄位概述](planning/fields/primary-field-overview.md)
    * Adobe Workfront計畫存取權{#adobe-workfront-planning-access}
       * [Adobe Workfront Planning存取資訊：文章索引](planning/access/access-information.md)
-      * [存取權總覽](planning/access/access-overview.md)
+      * [Adobe Workfront Planning存取權概觀](planning/access/access-overview.md)
       * [在Adobe Workfront Planning中共用許可權的概觀](planning/access/sharing-permissions-overview.md)
       * [使用Adobe Workfront Planning時的授權型別概觀](planning/access/license-type-overview.md)
       * [共用工作區](planning/access/share-workspaces.md)

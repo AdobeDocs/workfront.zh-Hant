@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '2236'
+source-wordcount: '2213'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ ht-degree: 0%
        <ul> 
         <li><b>時區：</b>使用者的時區。</li> 
         <li><b>地區</b>：使用者偏好的地區。 這會影響來自Workfront之電子郵件中的數字和日期格式。</li> 
-        <li><b>將我指派給自己的工作傳送至我的[正在處理]索引標籤</b>：如果您希望使用者指派給自己的所有內容直接顯示在其[正在處理]索引標籤上，請核取此選項。 預設為在使用者的「工作請求」標籤上列出指派給使用者的所有內容。</li> 
+        <li><b>將我指派給自己的工作傳送至我的「正在處理」標籤</b>：此設定參考已從Workfront移除的已棄用功能。</li> 
        </ul> </td> 
      </tr> 
      <tr> 

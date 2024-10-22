@@ -7,7 +7,7 @@ description: 主功能表會隨著您的 [!DNL Adobe Workfront] 管理員指派�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 下列區域包含在[!UICONTROL 背景工作]的預設配置中：
 
-* **[!UICONTROL 首頁]**：指派給您的任務和問題會顯示在這裡。 這是Worker的預設登陸頁面，但是不會出現在[!UICONTROL 主要功能表]中，除非Workfront管理員將其新增到版面配置範本中。  如需詳細資訊，請參閱[開始使用[!UICONTROL 首頁]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md)。
+* **[!UICONTROL 首頁]**：指派給您的任務和問題會顯示在這裡。 這是Worker的預設登陸頁面，但不會出現在[!UICONTROL 主要功能表]中，除非Workfront管理員將其新增到版面配置範本中。  如需詳細資訊，請參閱[開始使用[!UICONTROL 首頁]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md)。
 
 * **[!UICONTROL 專案]**：與您共用的專案會顯示在這裡。 如需詳細資訊，請參閱[專案：文章索引](../../../manage-work/projects/projects-overview.md)。
 

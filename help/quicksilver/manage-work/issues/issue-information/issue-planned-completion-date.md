@@ -6,7 +6,7 @@ description: 問題的計畫完成日期是預期完成問題的日期。
 author: Alina
 feature: Work Management
 exl-id: bdb206dc-18f8-4f8a-862b-e881408a8408
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 0%
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 問題的計畫完成日期是預期完成問題的日期。
 
-您可以指定問題的規劃完成日期，或讓Adobe Workfront根據特定條件決定如何計算。 
+您可以指定問題的規劃完成日期，或讓Adobe Workfront根據特定條件決定如何計算。
 
-問題的計畫完成日期不會影響專案的計畫完成日期。 只有任務的計畫完成日期會影響專案的計畫完成日期。 如需有關專案計畫完成日期的詳細資訊，請參閱[設定專案計畫完成日期](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md)。
+問題的計畫完成日期不會影響專案的計畫完成日期。 只有任務的計畫完成日期會影響專案的計畫完成日期。 如需有關專案計畫完成日期的詳細資訊，請參閱[設定專案計畫完成日期](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md)。
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 您可以在Workfront的下列區域中手動設定問題的規劃完成日期：
 
-* 在「編輯問題」方塊中或在建立或編輯問題時在「問題詳細資訊」區域中。 如需詳細資訊，請參閱[編輯問題](../../../manage-work/issues/manage-issues/edit-issues.md)。
+* 在「編輯問題」方塊中或在建立或編輯問題時在「問題詳細資訊」區域中。 如需詳細資訊，請參閱[編輯問題](../../../manage-work/issues/manage-issues/edit-issues.md)。
 * 若在檢視問題時顯示規劃完成日期，則位於首頁區域。 如需詳細資訊，請參閱[更新或編輯首頁區域的工作專案](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)。
 * 在問題標題中。 如需詳細資訊，請參閱[新物件標頭](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md)。
 * 問題清單或報告中，規劃完成日期欄位何時顯示在檢視中。
@@ -50,17 +50,17 @@ ht-degree: 0%
 
 當Workfront自動計算問題的規劃完成日期時，以下專案可能會影響日期：
 
-* 計劃開始日期
+* 規劃開始日期
 
   輸入日期和計劃開始日期應在您首次建立問題時與問題相符。
 
-* 預設期間，如專案的佇列詳細資料區段中所設定。 如需詳細資訊，請參閱[建立要求佇列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
+* 預設期間，如專案的佇列詳細資料區段中所設定。 如需詳細資訊，請參閱[建立要求佇列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
 
   如果預設期間為0天，則計畫完成日期與問題的計劃開始日期匹配。
 
 * 專案排程
 
-自動設定時，「計畫完成日期」會根據下列計算方式決定： 
+自動設定時，「計畫完成日期」會根據下列計算方式決定：
 
 ```
 Planned Completion Date = Planned Start Date (or Entry Date + Default Duration
@@ -77,4 +77,4 @@ Planned Completion Date = Planned Start Date (or Entry Date + Default Duration
 >
 >在計算「計畫完成日期」時，Workfront會考量如假日和週末等排程例外。
 
- 
+

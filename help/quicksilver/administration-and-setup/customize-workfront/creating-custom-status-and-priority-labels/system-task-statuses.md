@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b8c751c3-aed3-4836-a888-f3f8a5f08421
-source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Workfront需要三種內建的系統任務狀態，這表示您可以解除鎖�
   <tr> 
    <td>完成（必要狀態）</td> 
    <td> <p>當工作完成時，您可以手動將工作標示為完成。</p> <p>當任務的「追蹤模式」設定為「自動完成」時，任務在達到「計畫完成日期」時會自動標籤為「完成」。</p> </td> 
-   <td> <p>任務完成時，任務的完成百分比會標籤為100%。 任務完成時，會從首頁區域的受指派人工作清單中移除。</p> <p>將任務標示為「完成」時，任務會顯示「實際完成日期」的值。</p> <p><b>注意</b>：如果任務有未完成的問題，而您將其狀態變更為「完成」，則狀態會自動變更為「完成 — 未決問題」。</p> </td> 
+   <td> <p>任務完成時，任務的完成百分比會標籤為100%。 任務完成時，會從受指派人位於首頁區域的「我的工作」清單中移除。</p> <p>將任務標示為「完成」時，任務會顯示「實際完成日期」的值。</p> <p><b>注意</b>：如果任務有未完成的問題，而您將其狀態變更為「完成」，則狀態會自動變更為「完成 — 未決問題」。</p> </td> 
   </tr> 
  </tbody> 
 </table>

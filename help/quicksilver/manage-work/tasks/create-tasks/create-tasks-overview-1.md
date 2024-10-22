@@ -2,22 +2,24 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: tasks
-title: 建立任務
-description: 您可以在特定專案中建立任務，也可以從「首頁」區域建立任務。
+title: 「建立任務：文章索引」
+description: 您可以在特定專案中建立任務。
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 5776570c-f303-4e62-bc80-5038191a83fd
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 7%
+source-wordcount: '46'
+ht-degree: 0%
 
 ---
 
-# 建立任務
+# 建立任務：文章索引
 
-您可以在特定專案中建立任務，也可以從「首頁」區域建立任務。
+<!--Audited: 10/2024-->
+
+您可以在Adobe Workfront中的特定專案中建立任務。
 
 本節包含下列文章：
 

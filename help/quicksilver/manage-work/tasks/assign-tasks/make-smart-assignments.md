@@ -6,9 +6,9 @@ description: 您可以使用智慧指派來識別最佳使用者是何人來完�
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,6 @@ ht-degree: 0%
    * 任務或問題標題
    * 任務或問題摘要面板
    * <span class="preview">新任務</span>或新問題方塊，當您新增<span class="preview">新任務</span>或問題至專案時
-   * 「首頁」區域中列出之專案的「工作總攬」欄位
    * 工作負載平衡器中的任務或問題
 
 1. 將游標置於「工作總攬」欄位中，並等候兩秒。

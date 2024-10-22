@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 98ca7d04-35c2-420a-a87c-50c00939853c
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 以下文章包含有關使用Workfront Planning功能時，使用者所需存取許可權的資訊：
 
-* [存取權總覽](/help/quicksilver/planning/access/access-overview.md)
+* [Adobe計畫存取權概觀](/help/quicksilver/planning/access/access-overview.md)
 * [在Adobe Workfront Planning中共用許可權的概觀](/help/quicksilver/planning/access/sharing-permissions-overview.md)
 * [共用工作區](/help/quicksilver/planning/access/share-workspaces.md)
 * [共用檢視](/help/quicksilver/planning/access/share-views.md)

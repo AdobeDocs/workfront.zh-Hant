@@ -7,9 +7,9 @@ description: 當任務準備開始時，Adobe Workfront會在任務中新增可�
 author: Alina
 feature: Work Management
 exl-id: 158f8370-9717-4c61-99fa-e3b76a9e61cb
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -24,8 +24,9 @@ ht-degree: 0%
 
 Workfront會在「可以開始」欄位將任務標籤為「True」之前，檢查下列專案：
 
-* 如果任務有父系，它會檢查父系的Can Start值是否設定為True。 如果父系的值是False，則所有子工作的值也會設定為False。 
-* 它也會檢查任務的前置任務及其父項的前置任務是否已完成。 如果任務完成，任務的「可以開始」值會設為True。 如果任一任務前置任務或其父項的前置任務未完成，或狀態為「完成 — 未決核准」，則任務的「可以開始」值會設為False。 
+* 如果任務有父系，其父系的「可以開始」值是否設定為True。 如果父系的值是False，則所有子工作的值也會設定為False。
+* 任務的前置任務及其父項的前置任務是否完整。 如果任務完成，任務的「可以開始」值會設為True。 如果任一任務前置任務或其父項的前置任務未完成，或狀態為「完成 — 未決核准」，則任務的「可以開始」值會設為False。
+* 工作相依性型別是「開始 — 開始」或「開始 — 完成」。 如果相依性型別為「開始 — 開始」或「開始 — 完成」，則相依任務會在父任務進行中之後（或父任務的完成百分比大於1%）將「可以開始」旗標設為True。<!--not sure if this should say PARENT or PREDECESSOR??; asking on the issue-->
 
   如需前置任務的相關資訊，請參閱[前置任務概觀](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md)。
 
