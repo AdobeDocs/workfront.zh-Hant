@@ -6,7 +6,7 @@ description: 建立團隊時，預設會成為團隊所有者。
 author: Lisa
 feature: People Teams and Groups
 exl-id: 4bef734c-de86-4c58-a0e8-fbb3c5785f4c
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL 切換團隊]**&#x200B;圖示![切換團隊圖示](assets/switch-team-icon.png)，然後按一下&#x200B;**[!UICONTROL 建立新團隊]**。
 
-   ![選取[建立新團隊]。](assets/create-new-team-350x198.png)
+   ![選取[建立新團隊]。](assets/create-new-team.png)
 
 1. 在顯示的&#x200B;**[!UICONTROL 新團隊]**&#x200B;方塊中，輸入下列資訊：
 

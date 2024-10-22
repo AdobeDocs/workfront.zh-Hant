@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 393405424c0ce3334304643c9474369e12417406
+source-git-commit: 5180bbad9ae2767ebc540127bc92fb688431b5d1
 workflow-type: tm+mt
-source-wordcount: '14505'
+source-wordcount: '14507'
 ht-degree: 2%
 
 ---
@@ -1515,7 +1515,7 @@ ht-degree: 2%
       * [建立及管理敏捷團隊](people-teams-and-groups/create-and-manage-teams/create-and-manage-agile-teams.md)
       * [編輯團隊設定](people-teams-and-groups/create-and-manage-teams/edit-team-settings.md)
       * [管理您的團隊正在處理的工作](people-teams-and-groups/create-and-manage-teams/manage-what-your-team-is-working-on.md)
-      * [停用團隊](people-teams-and-groups/create-and-manage-teams/deactivate-a-team.md)
+      * [停用或刪除團隊](people-teams-and-groups/create-and-manage-teams/deactivate-a-team.md)
       * [設定任務的「完成」按鈕](people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)
       * [設定問題的完成按鈕](people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
       * [將處理它按鈕取代為開始按鈕](people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)

@@ -6,9 +6,9 @@ description: Adobe Workfront可讓敏捷團隊以漸進式、有條理的方式�
 author: Lisa
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1003'
 ht-degree: 1%
 
 ---
@@ -98,7 +98,7 @@ ht-degree: 1%
 
 1. 按一下&#x200B;**[!UICONTROL 切換團隊]**&#x200B;圖示![切換團隊圖示](assets/switch-team-icon.png)，然後按一下&#x200B;**[!UICONTROL 建立新團隊]**。
 
-   ![選取[建立新團隊]。](assets/create-new-team-350x198.png)
+   ![選取[建立新團隊]](assets/create-new-team.png)
 
    「新專案團隊」方塊隨即顯示。
 
@@ -158,7 +158,7 @@ ht-degree: 1%
 1. 按一下&#x200B;**[!UICONTROL 更多]**&#x200B;功能表，然後選取&#x200B;**[!UICONTROL 編輯]**。
 
    只有擁有[!UICONTROL 標準]、[!UICONTROL 計畫]或[!UICONTROL 工作]授權的團隊成員才能看到此選項。
-   ![](assets/edit-team-settings-350x205.png)
+   ![選取編輯](assets/edit-team-settings.png)
 
 1. 在&#x200B;**[!UICONTROL Agile]**&#x200B;區段中，選取&#x200B;**[!UICONTROL 這是一個Agile團隊]**。
 

@@ -6,9 +6,9 @@ description: 您可以檢視您的團隊目前正在處理之任務和問題的�
 author: Lisa
 feature: People Teams and Groups
 exl-id: 4bdec4b9-18b0-4981-a067-f47e259bc708
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
@@ -21,4 +21,4 @@ ht-degree: 0%
 
 如需有關如何管理指派給團隊的工作的詳細資訊，請參閱[[!UICONTROL 工作負載平衡器]](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)。
 
-![](assets/team-page-with-team-requests-and-balancer-sections-left.png)
+![團隊頁面顯示工作負載平衡器](assets/team-page-workload-balancer.png)

@@ -6,9 +6,9 @@ description: Workfront管理員和擁有計畫或工作授權的使用者可以�
 author: Lisa
 feature: People Teams and Groups
 exl-id: b6761188-8630-446e-bc70-70fe272881ce
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
@@ -55,11 +55,11 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL 更多]**&#x200B;功能表![](assets/more-icon.png)，然後選取&#x200B;**[!UICONTROL 編輯]**。
 
-   只有擁有[!UICONTROL 計畫]或[!UICONTROL 工作]授權的團隊成員才能看到此選項。
+   只有擁有[!UICONTROL 標準]、[!UICONTROL 計畫]或[!UICONTROL 工作]授權的團隊成員才能看到此選項。
 
    如果您應該有[!UICONTROL 編輯]選項，但您未看見，請要求Workfront管理員確認[!UICONTROL Scrum團隊]、[!UICONTROL Kanban團隊]或[!UICONTROL 瀑布式團隊]的版面配置範本中是否顯示[!UICONTROL 團隊設定]。
 
-   ![](assets/edit-team-settings-1.png)
+   ![](assets/edit-team-settings.png)
 
 1. 在專案團隊設定中，您可以進行下列型別的變更：
 

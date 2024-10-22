@@ -6,9 +6,9 @@ description: Adobe Workfront的預設設定包含處理它的一個按鈕，用�
 author: Lisa
 feature: People Teams and Groups
 exl-id: 9387c5ae-2835-4d8f-80ec-22fcd16c5b6e
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '794'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**[!UICONTROL 團隊]**&#x200B;下拉式功能表中，選取團隊。\
    或\
-   按一下&#x200B;**[!UICONTROL 建立團隊]**。
+   按一下&#x200B;**[!UICONTROL 建立新團隊]**。
 
 1. 按一下&#x200B;**[!UICONTROL 更多]**&#x200B;圖示![](assets/more-icon.png)，然後按一下&#x200B;**[!UICONTROL 編輯]**。
 
