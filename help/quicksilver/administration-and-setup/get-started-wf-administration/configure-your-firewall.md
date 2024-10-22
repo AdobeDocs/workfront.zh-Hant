@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: d7565c00c7c81110e1292d8a1d6057d75036dd43
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: '1623'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ ht-degree: 0%
 
 ### 允許叢集1、2、3、5、7、8和9使用的IP位址 {#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9}
 
-如果您的生產環境位於叢集1、2、3、5或7，則必須允許下列IP位址。
+如果您的生產環境位於叢集1、2、3、5、7、8或9，則必須允許下列IP位址。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -622,4 +622,4 @@ Workfront應用程式的電子郵件會使用連線埠465和587加密傳送。 �
 
 ## Workfront支援的電子郵件通知
 
-如果您沒有收到來自Workfront支援的電子郵件，請務必新增所需的Salesforce IP位址和網域。 如需詳細資訊，請參閱有關Salesforce IP位址和要允許的網域的Salesforce說明文章。
+如果您沒有收到來自Workfront支援的電子郵件，請務必新增所需的Salesforce IP位址和網域。 如需詳細資訊，請參閱有關Salesforce IP位址和網域允許的Salesforce說明文章。
