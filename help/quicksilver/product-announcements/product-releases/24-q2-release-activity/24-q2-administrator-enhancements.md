@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a297ee8d-d949-45ab-a219-437316fa8fa3
-source-git-commit: a1386652f5181d4aa94ddab8e4f9714ef1c08b73
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '791'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Beta版自訂表單設計工具現在可讓您在預覽模式下測試顯示邏�
 
 當您將自訂表單附加至公司或使用者時，現在可以使用進階自訂表單功能，例如外部查詢欄位和Workfront原生欄位。 進階功能可在「公司詳細資訊」和「使用者詳細資訊」頁面上使用，而非「編輯公司」和「編輯使用者」對話方塊。 必須在新的表單設計工具中建立自訂表單，才能利用這些欄位型別。
 
-如需自訂表單欄位的詳細資訊，請參閱[使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+如需自訂表單欄位的詳細資訊，請參閱[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 ## JumpSeat整合現在可用於新封裝型別
 
@@ -64,7 +64,7 @@ Workfront原生欄位現在可讓您新增至自訂表單。 此新欄位型別�
 
 此功能僅在表單設計工具（測試版）中可用，不在舊版表單產生器中可用。
 
-如需詳細資訊，請參閱[使用表單設計工具](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)設計表單。
+如需詳細資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 [觀看此功能的影片示範。](https://video.tv.adobe.com/v/3427702/){target=_blank}
 

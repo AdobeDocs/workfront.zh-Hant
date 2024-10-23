@@ -6,9 +6,9 @@ description: 您的 [!DNL Adobe Workfront] 個人資料包含有關您的資訊�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '3306'
+source-wordcount: '3303'
 ht-degree: 1%
 
 ---
@@ -524,7 +524,7 @@ ht-degree: 1%
 
 所有使用者都可以檢視與其設定檔相關聯的自訂表單。
 
-您的[!DNL Workfront]管理員必須設定使用者物件的自訂表單，才能將自訂表單附加至使用者設定檔。 如需建立自訂表單的詳細資訊，請參閱[使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+您的[!DNL Workfront]管理員必須設定使用者物件的自訂表單，才能將自訂表單附加至使用者設定檔。 如需建立自訂表單的詳細資訊，請參閱[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 ### [!UICONTROL 註解]
 

@@ -6,9 +6,9 @@ description: 您可以編輯專案範本以反映專案流程和設定的變更�
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '4726'
+source-wordcount: '4720'
 ht-degree: 2%
 
 ---
@@ -624,12 +624,12 @@ By editing issue settings, you can prevent users from adding issues inline in th
          <td>新增範本的其他相關資訊。</td> 
        </tr> 
          <tr> 
-         <td role="rowheader"><strong>優先順序</strong></td> 
+         <td role="rowheader"><strong>優先等級</strong></td> 
          <td><p>這只是一個視覺化的標幟，可讓您為未來的專案設定優先順序。 從下列選項中選取：</p> 
          <ul> 
          <li><p><strong>無</strong></p></li> 
          <li><p><strong>低</strong></p></li> 
-         <li><p><strong>標準</strong></p></li> 
+         <li><p><strong>正常</strong></p></li> 
          <li><p><strong>高</strong></p></li> 
          <li><p><strong>緊急</strong></p></li> 
          </ul><p><p>根據Workfront管理員選取的專案偏好設定，您的優先順序名稱可能會不同。 如需有關編輯優先順序的詳細資訊，請參閱<a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">建立及自訂優先順序</a>。</p></p></td> 
@@ -771,7 +771,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 1. 在&#x200B;**新增自訂表單**&#x200B;欄位內按一下，然後選取您要與範本關聯的一或多個自訂表單。 您必須先建置自訂表單，才能在此欄位中選取它們。
 
-   清單中只會顯示作用中的自訂表單。 如需建立自訂表單的詳細資訊，請參閱[使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+   清單中只會顯示作用中的自訂表單。 如需建立自訂表單的詳細資訊，請參閱[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
    您最多可以新增10個自訂表單至範本。
 
@@ -927,7 +927,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
    ![](assets/edit-template-box-tax-settings-section.png)
 
 1. 在&#x200B;**任務預設核准流程**&#x200B;方塊中，選取當您新增至從此範本建立的專案時，要與所有新任務關聯的核准流程。 您必須先建立任務的核准流程，然後才能將其與任務建立關聯。 清單中只會顯示有效的核准流程。 如需有關建立核准流程的詳細資訊，請參閱[建立核准流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)。
-1. 在「**任務預設自訂Forms**」方塊中，選取當您新增至從此範本建立的專案時，要與所有新任務關聯的一個或多個自訂表單。 您必須先建置自訂表單，才能在此欄位中選取它們。 清單中只會顯示作用中的自訂表單。 如需建立自訂表單的詳細資訊，請參閱[使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。 您最多可以將十個自訂表單與任務建立關聯。
+1. 在「**任務預設自訂Forms**」方塊中，選取當您新增至從此範本建立的專案時，要與所有新任務關聯的一個或多個自訂表單。 您必須先建置自訂表單，才能在此欄位中選取它們。 清單中只會顯示作用中的自訂表單。 如需建立自訂表單的詳細資訊，請參閱[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。 您最多可以將十個自訂表單與任務建立關聯。
 1. （選擇性）如果您要在從範本建立的專案中使用工作量而非計畫時數來啟用管理任務付出，請選取&#x200B;**使用工作量自動計算任務計畫時數**。
 1. （條件式與選擇性）如果您選取使用工作量自動計算任務計畫時數，請按一下下拉式功能表，以更新每個工作量層級的百分比。 預設值為下列百分比值：
 

@@ -8,9 +8,9 @@ author: Lisa and Alina
 feature: Get Started with Workfront
 role: User
 exl-id: cfda6702-1a9a-4645-b031-8b2f201ac0af
-source-git-commit: 7b5018f546d4c654832298e85c10504375f380b4
+source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '768'
 ht-degree: 1%
 
 ---
@@ -25,6 +25,10 @@ ht-degree: 1%
 
 * 標準授權（新），或計畫或工作授權（目前）
 * 有限制的編輯存取權或任務或問題的較高許可權
+
+>[!NOTE]
+>
+>「完成」按鈕在Workfront的所有區域顯示為「標示為完成」 。
 
 ## 處理它和完成按鈕名稱
 
@@ -47,9 +51,9 @@ ht-degree: 1%
 
   ![](assets/home-left-done-with-my-part-button-350x184.png)-->
 
-## 找到處理它的工作並標籤為完成按鈕 {#locate-the-work-on-it-and-done-button}
+## 找到處理它的工作並完成按鈕 {#locate-the-work-on-it-and-done-button}
 
-您可以在Workfront的下列區域中找到「處理它並標籤為完成」按鈕：
+您可以在Workfront的下列區域中找到「處理它並完成」按鈕：
 
 * 我的工作Widget中的首頁區域
 
@@ -63,9 +67,9 @@ ht-degree: 1%
 
   如需有關使用「摘要」面板的資訊，請參閱[摘要概觀](../../workfront-basics/the-new-workfront-experience/summary-overview.md)。
 
-## 按一下處理它並標籤為完成按鈕時自動更新的欄位概觀
+## 按一下處理它或完成按鈕時自動更新的欄位概觀
 
-使用處理它和標籤為完成的按鈕的好處是，您可以允許Workfront自動更新有關指派給您的工作專案的資訊。
+使用它的工作和完成按鈕的好處是，您可以允許Workfront自動更新有關指派給您的工作專案的資訊。
 
 * [處理它按鈕](#work-on-it-button)
 * [開始按鈕](#start-button)
@@ -111,10 +115,6 @@ ht-degree: 1%
 >
 
 ### 完成按鈕 {#the-done-button}
-
->[!NOTE]
->
->「完成」按鈕在Workfront的所有區域顯示為「標示為完成」 。
 
 如果您有權編輯團隊，您可以設定團隊的「完成」按鈕，以在您將專案標籤為完成時更新任務或問題狀態。 當使用者以該團隊作為其主團隊按一下他們的專案上的標籤為完成按鈕，以下欄位將在任務或問題上自動更新：
 

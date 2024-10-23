@@ -5,15 +5,17 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
+source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
 workflow-type: tm+mt
 source-wordcount: '1438'
 ht-degree: 1%
 
 ---
 
-
 # 連線記錄型別概觀
+
+<!--see the commented out markers below for the Planning connection field, might not display in green; also add Preview tags for the article-->
 
 您可以透過連線個別記錄型別來指示它們彼此相關，或與來自其他應用程式的物件相關。
 
@@ -70,8 +72,10 @@ ht-degree: 1%
 
       * 連結的記錄欄位會在您連線的記錄型別上建立。 不會在其他應用程式的物件型別上自動建立任何連結的記錄欄位。
       * 無法從Workfront物件存取規劃記錄欄位。
-      * 當您的Workfront管理員透過Workfront與Adobe Experience Manager Assets之間的整合設定中繼資料對應時，可從Experience Manager資產存取規劃記錄欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en)。
       * Planning記錄會顯示於Workfront物件的Planning標籤中。 如需詳細資訊，請參閱[在Adobe Workfront物件的Planning區段管理記錄](/help/quicksilver/planning/records/manage-records-in-planning-section.md)。
+     <!--* Planning records are visible from a Workfront object's custom form when you add the Planning connection field type to the form. For information, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). -->
+      * 當您的Workfront管理員透過Workfront與Adobe Experience Manager Assets之間的整合設定中繼資料對應時，可從Experience Manager資產存取規劃記錄欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en)。
+
 
    * **當您從您連線的記錄或物件加入查閱欄位時**：除了建立連結的記錄欄位之外，您還可以從連線的記錄或物件型別連線到稱為查閱欄位的欄位。 連結（或查詢欄位）的資訊，來自於您所連線的記錄，顯示在您所連線的記錄上。
 
@@ -159,8 +163,3 @@ ht-degree: 1%
 一對一關係的實際例子，是個人與其國家/地區的唯一識別碼（例如社會保險號碼、護照ID、當地識別碼ID）之間存在的關係：每個人/地區只有一個唯一識別碼，每個唯一識別碼只能連結至一個人。
 
 當您選取此連線型別時，您稍後可以將其變更為任何其他連線型別。
-
-
-
-
-

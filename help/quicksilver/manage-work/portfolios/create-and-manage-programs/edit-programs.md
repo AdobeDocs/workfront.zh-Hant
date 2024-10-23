@@ -6,9 +6,9 @@ description: 您可以編輯已建立或其他使用者已建立之程式的資�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1007'
 ht-degree: 0%
 
 ---
@@ -168,7 +168,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >根據您的[!DNL Workfront]管理員在您自訂表單中設定區段許可權的方式，不是每個人都可以檢視或編輯指定自訂表單上的相同欄位。 編輯自訂表單區段中欄位的許可權取決於您對計畫本身的許可權。 如需設定自訂表單區段許可權的相關資訊，請參閱[使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+   >根據您的[!DNL Workfront]管理員在您自訂表單中設定區段許可權的方式，不是每個人都可以檢視或編輯指定自訂表單上的相同欄位。 編輯自訂表單區段中欄位的許可權取決於您對計畫本身的許可權。 如需有關設定自訂表單區段許可權的資訊，請參閱[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 1. 更新自訂表單中的任何欄位，然後按一下&#x200B;**[!UICONTROL 儲存變更]**&#x200B;或繼續下列區段。
 

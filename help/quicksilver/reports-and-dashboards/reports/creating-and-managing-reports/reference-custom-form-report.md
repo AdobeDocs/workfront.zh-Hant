@@ -6,9 +6,9 @@ description: 您可以在報表的檢視、篩選和群組中，參照物件的�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8b0d2e7f-cc92-4f43-a91c-ab2b2d8a1c01
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '994'
 ht-degree: 2%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 2%
 
 自訂表單必須存在，您才能在報表中參照。
 
-如需建立自訂表單的詳細資訊，請參閱[使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+如需建立自訂表單的詳細資訊，請參閱[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 ## 參考自訂表單的內容
 
@@ -61,7 +61,7 @@ ht-degree: 2%
 >[!NOTE]
 >
 >對於具有多個選項的欄位，報表的篩選和提示中會提供所有選項，包括隱藏的選項。\
->如需有關隱藏具有多個選項之自訂欄位中的選項的詳細資訊，請參閱文章[使用表單設計工具](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)設計表單。
+>如需有關隱藏具有多個選項之自訂欄位中的選項的詳細資訊，請參閱文章[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 建立報表時，只要使用表單的物件型別作為欄位來源，並使用自訂欄位名稱作為欄位名稱即可。
 

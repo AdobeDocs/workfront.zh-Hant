@@ -5,9 +5,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: eaafe79b-bdbc-4fb9-b449-23e5a4bc455a
-source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '772'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 您可以在「自訂Forms」區域中新增自訂檢視，以顯示哪些報表正在使用特定自訂欄位或Widget。 當您需要編輯或刪除欄位或Widget時，這個用法很有用，因為它可能已在一個或多個報告中實作。 請務必評估這些報表是否需要調整，才能繼續正常運作。
 
-如需自訂表單中自訂欄位和Widget的相關資訊，請參閱[使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+如需自訂表單中自訂欄位和Widget的相關資訊，請參閱[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 ## 存取需求
 

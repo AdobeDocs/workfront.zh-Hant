@@ -7,9 +7,9 @@ description: 下列計算欄位會顯示物件狀態標示為進行中(INP)的�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 55817a68-3655-4288-8cc7-48547829c46e
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -62,8 +62,8 @@ ht-degree: 0%
 
 1. 前往您要新增欄位的自訂表單。
 1. 按一下&#x200B;**計算**&#x200B;將計算自訂欄位新增至表單。
-1. 輸入自訂欄位的&#x200B;**標籤**，例如&#x200B;*狀態時間戳記自訂欄位*。
-1. 按一下&#x200B;**完成**，然後按一下&#x200B;**儲存+關閉**。
+1. 輸入自訂欄位的&#x200B;**標籤**。 例如，「狀態時間戳記自訂欄位」。
+1. 按一下&#x200B;**儲存+關閉**。
 1. 重新開啟自訂表單，然後在表單上選取新的&#x200B;**狀態時間戳記自訂欄位**。
 1. 在&#x200B;**計算**&#x200B;方塊中，複製並貼上自訂欄位的下列計算：
 

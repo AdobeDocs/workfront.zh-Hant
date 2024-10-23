@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '845'
 ht-degree: 2%
 
 ---
@@ -93,7 +93,7 @@ ht-degree: 2%
 
    * [建立路由規則](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
    * [建立主題群組](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
-   * [使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
+   * [建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
 
 1. 移至您選擇啟用為「說明要求佇列」的專案，以及您要建立新佇列主題的位置。\
    如需如何將專案指定為說明要求佇列的詳細資訊，請參閱[建立要求佇列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。

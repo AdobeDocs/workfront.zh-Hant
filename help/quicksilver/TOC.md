@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: fc321f099c2c6903d0a1cebdd041115ca8a716ff
+source-git-commit: e3e12718441c030c24a7a0625d3c1d1b63ddf974
 workflow-type: tm+mt
-source-wordcount: '14512'
+source-wordcount: '14518'
 ht-degree: 2%
 
 ---
@@ -614,7 +614,7 @@ ht-degree: 2%
          * [自訂表單概觀](administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
          * 設計自訂表單{#design-a-form}
             * [設計表單：文章索引](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form-toc.md)
-            * [使用表單設計工具設計表單](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
+            * [建立自訂表格](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
             * [從復本設計表單](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-from-copy.md)
             * [新增計算欄位至表單](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
             * [新增顯示邏輯和略過邏輯至表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)
@@ -1933,6 +1933,7 @@ ht-degree: 2%
             * [在校訂檢視器中檢視先前的校訂版本](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-previous-version.md)
             * [在校訂檢視器中變更互動式校訂解析度](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md)
             * [設定校訂檢視器設定](review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md)
+            * [使用Adobe Workfront稽核工具稽核互動式內容](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md)
          * 註解校訂{#comment-on-a-proof}
             * [校訂上的註解：文章索引](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)
             * [對校訂進行評論](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof-1.md)

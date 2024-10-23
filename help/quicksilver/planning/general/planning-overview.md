@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
 workflow-type: tm+mt
-source-wordcount: '2106'
+source-wordcount: '2108'
 ht-degree: 1%
 
 ---
@@ -105,7 +105,7 @@ Workfront Planning目前提供下列功能：
 * 檢視記錄變更的歷史記錄
 * 段落欄位的RTF格式
 * 從Workfront物件存取Planning記錄
-* 從Workfront物件連線Planning記錄
+* 從Workfront物件連線並中斷連線Planning記錄
 * 透過提交請求表單來建立Planning記錄
 * Workfront規劃公開API
 * Adobe Workfront Fusion的Adobe Workfront規劃模組

@@ -6,9 +6,9 @@ description: 本文會說明專案的業務案例領域。
 author: Alina
 feature: Work Management
 exl-id: 0646e4f0-e8fb-48f2-b533-358229543081
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1606'
+source-wordcount: '1603'
 ht-degree: 2%
 
 ---
@@ -179,7 +179,7 @@ Workfront管理員無法設定業務案例的&#x200B;**專案資訊**&#x200B;區
 
 若要套用自訂表單，您的Workfront管理員必須先建立自訂表單。
 
-如需建立自訂表單的詳細資訊，請參閱[使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+如需建立自訂表單的詳細資訊，請參閱[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 您可以使用自訂表單來收集未顯示在業務案例其他欄位中的其他資訊。
 

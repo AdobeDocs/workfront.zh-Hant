@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e5da58f-105a-4edf-8fc1-65e8762d43c6
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1138'
+source-wordcount: '1135'
 ht-degree: 0%
 
 ---
@@ -97,4 +97,4 @@ ht-degree: 0%
 
 ### 將自訂資料分發到相關表單
 
-儀表板Blueprint中包含的某些報表在報表的檢視、篩選或分組中有自訂資料欄位。 在某些情況下，Blueprint還將具有與這些欄位關聯的表單。 不過，自訂欄位通常不會套用至自訂表單。 為了使欄、篩選器或群組正常運作，這些欄位必須與連線到使用者、專案、任務或其他物件記錄的表單相關聯。 如需詳細資訊，請參閱[使用表單設計工具](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)設計表單。
+儀表板Blueprint中包含的某些報表在報表的檢視、篩選或分組中有自訂資料欄位。 在某些情況下，Blueprint還將具有與這些欄位關聯的表單。 不過，自訂欄位通常不會套用至自訂表單。 為了使欄、篩選器或群組正常運作，這些欄位必須與連線到使用者、專案、任務或其他物件記錄的表單相關聯。 如需詳細資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。

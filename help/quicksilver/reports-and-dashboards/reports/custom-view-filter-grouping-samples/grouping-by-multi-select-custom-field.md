@@ -7,9 +7,9 @@ description: 您只能使用文字模式，在Adobe Workfront報表中依多選�
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 530dff59-0d4c-490e-b464-1d3bb1d0f36f
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 0%
 若要能夠依多選自訂欄位分組，您必須具備下列先決條件：
 
 * 在自訂表單中建立多選自訂欄位。\
-  如需建立自訂表單及新增自訂欄位的相關資訊，請參閱文章[使用表單設計工具](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)設計表單。
+  如需有關建立自訂表單及新增自訂欄位的資訊，請參閱文章[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 * 將自訂表單附加到物件。
 * 在每個物件上填入多選自訂欄位。 

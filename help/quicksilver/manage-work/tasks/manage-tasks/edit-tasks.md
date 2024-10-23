@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '3684'
+source-wordcount: '3681'
 ht-degree: 3%
 
 ---
@@ -231,7 +231,7 @@ ht-degree: 3%
        <ul> 
       <li> <p> 無</p> </li> 
       <li> <p> 低 </p> </li> 
-      <li> <p>標準 </p> </li> 
+      <li> <p>正常 </p> </li> 
       <li> <p>高 </p> </li> 
       <li> <p> 緊急 </p> </li> 
        </ul> <p>根據Workfront管理員選取的專案偏好設定，您的優先順序名稱可能會不同。 如需工作優先順序的相關資訊，請參閱<a href="../../../manage-work/tasks/task-information/task-priority.md" class="MCXref xref">更新工作優先順序</a>。 </p> </td> 
@@ -487,7 +487,7 @@ ht-degree: 3%
 
 1. 按一下&#x200B;**新增自訂表單**，然後選取要與工作建立關聯的一或多個自訂表單。 您必須先建置自訂表單，才能在此欄位中選取它們。 清單中只會顯示作用中的自訂表單。
 
-   如需建立自訂表單的詳細資訊，請參閱[使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。您最多可以新增十個自訂表單至一項工作
+   如需有關建立自訂表單的詳細資訊，請參閱[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。您最多可以將十個自訂表單新增至一個工作
 
 1. （視條件而定）如果您將自訂表單附加到任務，請編輯表單上的任何欄位。 您必須先指定所有必填欄位，然後才能儲存任務。
 

@@ -5,9 +5,9 @@ description: 除了設定收入和追蹤費用外，您還可以在專案上建�
 author: Alina
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1934'
+source-wordcount: '1931'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ ht-degree: 0%
 
 1. （選擇性）在&#x200B;**自訂Forms**&#x200B;下，選取要新增至付費記錄的付費記錄自訂表單。
 
-   您（或其他可存取自訂表單的使用者）必須先建立自訂表單的計費記錄，您才能在這裡選取它。 清單中只會顯示作用中的自訂表單。 如需建立自訂表單的相關資訊，請參閱[使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+   您（或其他可存取自訂表單的使用者）必須先建立自訂表單的計費記錄，您才能在這裡選取它。 清單中只會顯示作用中的自訂表單。 如需建立自訂表單的相關資訊，請參閱[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
    您可以重複此步驟，以新增付費記錄所需的其他自訂表格。
 

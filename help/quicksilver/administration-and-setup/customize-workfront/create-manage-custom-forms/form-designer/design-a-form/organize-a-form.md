@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 8d9a9d8356f195d1e1fcbf0ae6c9b08f20ba4bbf
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1288'
 ht-degree: 0%
 
 ---
@@ -61,11 +61,11 @@ ht-degree: 0%
 
 如需物件許可權的相關資訊，請參閱[物件許可權共用簡介](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。
 
-如需自訂表單中自訂欄位和Widget的相關資訊，請參閱[使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+如需自訂表單中自訂欄位和Widget的相關資訊，請參閱[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 ### 建立及設定自訂表單中區段的存取權
 
-1. 開始建立或編輯自訂表單並新增欄位，如[使用表單設計工具](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)設計表單中所述。
+1. 開始建立或編輯自訂表單，並新增欄位，如[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)中所述。
 
 1. 按一下&#x200B;**分割槽符號**，然後將其拖曳到畫布上的所需位置。
 
@@ -147,7 +147,7 @@ ht-degree: 0%
 ## 在自訂表單中定位自訂欄位和Widget
 
 
-1. 開始建立或編輯自訂表單，如[使用表單設計工具](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)設計表單中所述。
+1. 開始建立或編輯自訂表單，如[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)中所述。
 
 1. 若要將自訂欄位和Widget放置在同一列，請將其中一個拖曳到另一個旁邊，直到它們之間出現線條為止。
 
@@ -166,7 +166,7 @@ ht-degree: 0%
 
 ## 預覽自訂表單
 
-1. 開始建立或編輯自訂表單並新增欄位，如[使用表單設計工具](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)設計表單中所述。
+1. 開始建立或編輯自訂表單，並新增欄位，如[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)中所述。
 
 1. 按一下右上角的&#x200B;**預覽**，檢視使用表單時的外觀，然後按一下&#x200B;**結束預覽**，返回編輯表單。
 

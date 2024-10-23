@@ -6,9 +6,9 @@ description: 專案與任務相關費用的建立與管理費用流程相同。 
 author: Alina
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '577'
 ht-degree: 1%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 1%
    * **可記帳：**&#x200B;若要對此費用記帳，請選取此選項。 建立付費記錄時，將費用分類為可付費很重要。
    * **可償還：**&#x200B;如果需要償還費用，請選取此選項。 然後，您可以在費用已償還後，將費用標示為已償還。
 
-1. 選取&#x200B;**自訂表格**&#x200B;並指定所需的任何其他資訊。 您必須先建立自訂表格，然後才能將其與費用建立關聯。 清單中只會顯示作用中的自訂表單。 如需建立自訂表單的相關資訊，請參閱文章[使用表單設計工具](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)設計表單。
+1. 選取&#x200B;**自訂表格**&#x200B;並指定所需的任何其他資訊。 您必須先建立自訂表格，然後才能將其與費用建立關聯。 清單中只會顯示作用中的自訂表單。 如需有關建立自訂表單的資訊，請參閱文章[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 1. 按一下「**儲存變更**」。
 

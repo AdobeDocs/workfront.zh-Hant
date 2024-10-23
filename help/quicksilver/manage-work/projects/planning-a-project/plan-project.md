@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1397'
+source-wordcount: '1394'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ ht-degree: 0%
   如需定義要在Workfront中追蹤哪些更新的詳細資訊，請參閱文章[系統追蹤的更新](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)。
 
 * 是否有任何您需要追蹤的資訊在Workfront中沒有儲存該資訊的欄位？ 如果有的話，請為可儲存此資訊的專案或任務建立自訂Forms 。\
-  如需建立自訂表單的詳細資訊，請參閱文章[使用表單設計工具](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)設計表單。
+  如需有關建立自訂表單的詳細資訊，請參閱文章[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 * 專案工作能夠繼續之前，是否有任何必須授與的核准檢查點？ 如果是，請針對您建置專案時可以使用的專案或作業建立「核准流程」。\
   如需核准流程的詳細資訊，請參閱文章[建立工作專案的核准流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)。

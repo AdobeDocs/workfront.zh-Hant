@@ -6,9 +6,9 @@ description: 您可以更新附加至一個物件的自訂表單的顯示順序�
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1106'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 ## 先決條件
 
-* 您的Workfront管理員或對自訂表單具有管理存取權的計畫使用者必須在您的環境中建立自訂表單。 如需詳細資訊，請參閱[使用表單設計工具](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)設計表單。
+* 您的Workfront管理員或對自訂表單具有管理存取權的計畫使用者必須在您的環境中建立自訂表單。 如需詳細資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 * 您必須將自訂表單附加至物件。
 
   如需如何將自訂表單套用至物件的詳細資訊，請參閱[新增自訂表單至物件](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)。

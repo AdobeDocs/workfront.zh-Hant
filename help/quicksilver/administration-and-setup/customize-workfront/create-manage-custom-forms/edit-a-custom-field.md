@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: 2e526059e240c45ca333bb52cd57e61f87a032f2
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 您也可以編輯自訂表單中使用的自訂欄位、分割槽符號或Widget的屬性。 其中包括專案的標籤、名稱、指示等。
 
-如需自訂表單中自訂欄位和Widget的相關資訊，請參閱[使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+如需自訂表單中自訂欄位和Widget的相關資訊，請參閱[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 ## 存取需求
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 1. 按一下&#x200B;**新增自訂欄位**。
 1. 在顯示的方塊中，輸入您要新增之專案的必要和選用資訊。
 
-   如需詳細資訊，請參閱[使用表單設計工具](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)設計表單。
+   如需詳細資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 1. 按一下「**建立**」。
 
@@ -77,6 +77,6 @@ ht-degree: 0%
 1. 選取自訂欄位、分割槽符號或Widget，然後按一下![編輯圖示](assets/edit-icon.png)。
 1. 在顯示的方塊中，變更您正在編輯的專案可用的任何選項。
 
-   如需詳細資訊，請參閱[使用表單設計工具](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)設計表單。
+   如需詳細資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 1. 完成時，按一下[編輯]。****

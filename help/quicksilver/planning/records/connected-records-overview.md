@@ -6,14 +6,16 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: 64a8d2ff8546874cf829738dcea03b2946c360cb
+source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
 
 # 連線記錄概觀
+
+<!--for the Planning connection field, see commented out below; also add preview tags-->
 
 {{planning-important-intro}}
 
@@ -54,3 +56,6 @@ ht-degree: 0%
 * 您可以在下列區域將Workfront物件連線至Workfront Planning記錄：
 
    * 從Workfront物件的Planning區段。
+  <!--* From a Planning connection field on a Workfront object's custom form. -->
+
+  如需詳細資訊，請參閱[管理來自Workfront物件的記錄連線](/help/quicksilver/planning/records/manage-records-in-planning-section.md)

@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '7534'
+source-wordcount: '7528'
 ht-degree: 1%
 
 ---
@@ -340,7 +340,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >您必須先建置自訂表單，才能在此欄位中選取它們。 只有作用中的自訂表單會出現在清單中。 如需建立自訂表單的詳細資訊，請參閱[使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。 您最多可以新增十個自訂表單至專案。
+   >您必須先建置自訂表單，才能在此欄位中選取它們。 只有作用中的自訂表單會出現在清單中。 如需建立自訂表單的詳細資訊，請參閱[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。 您最多可以新增十個自訂表單至專案。
 
 
 1. （視條件而定）如果您將自訂表單附加至專案，請編輯表單上的任何欄位。 您必須先指定所有必填欄位，才能儲存專案。
@@ -562,7 +562,7 @@ ht-degree: 1%
    * 當您從相同群組選取多個專案時，系統層次與群組特定作業核准流程都會顯示在此欄位中。
    * 當您從不同的群組選取多個專案時，此欄位中只會顯示系統層級的作業核准流程。
 
-1. 在「**任務預設自訂Forms**」方塊中，選取當您新增至專案時，要與所有新任務建立關聯的一或多個自訂表單。 您必須先建置自訂表單，才能在此欄位中選取它們。 清單中只會顯示作用中的自訂表單。 如需建立自訂表單的詳細資訊，請參閱[使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。 您最多可以將十個自訂表單與任務建立關聯。
+1. 在「**任務預設自訂Forms**」方塊中，選取當您新增至專案時，要與所有新任務建立關聯的一或多個自訂表單。 您必須先建置自訂表單，才能在此欄位中選取它們。 清單中只會顯示作用中的自訂表單。 如需建立自訂表單的詳細資訊，請參閱[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。 您最多可以將十個自訂表單與任務建立關聯。
 1. （選擇性）如果您想要透過使用工作量而非計畫時數來啟用管理任務付出，請選取&#x200B;**使用工作量以自動計算任務計畫時數**。
 
    ![](assets/nwe-work-effort-on-projects-350x182.png)

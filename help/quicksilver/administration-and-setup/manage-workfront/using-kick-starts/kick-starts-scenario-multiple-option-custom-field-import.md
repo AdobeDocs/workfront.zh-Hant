@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '2155'
+source-wordcount: '2146'
 ht-degree: 0%
 
 ---
@@ -210,7 +210,7 @@ ht-degree: 0%
 
    欄位的值是出現在報表中的名稱，而名稱顯示在附加到物件的自訂表單中。
 
-   如需詳細資訊，請參閱[使用表單設計工具](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)設計表單。
+   如需詳細資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
    ![](assets/parameter-sheet-filled-out-kick-starts.png)
 
@@ -231,7 +231,7 @@ ht-degree: 0%
 
    * **`setParameterID`** =與&#x200B;_品牌_&#x200B;自訂欄位對應的選項為&#x200B;**`setParameterID`** （共1個），而與&#x200B;_媒體_&#x200B;對應的選項為**`setParameterID`** （共2個）。 `PARAM`與`POPT`工作表會相互交叉參照，指出哪些選項屬於哪個自訂欄位。
    * **`setDisplayOrder`**=顯示順序欄表示選項在自訂欄位中的顯示順序。 您可以從1開始，然後依遞增順序繼續所有選項，無論它們屬於哪個欄位。 這裡重要的是每個選項都有唯一編號。
-   * **`setLabel`**&#x200B;和`**setValue`**欄通常包含相同的資訊，且應反映Workfront UI中所需的名稱。 選項的值是顯示在報表中的名稱，例如，而標籤在附加到物件時顯示在自訂表單中。 如需詳細資訊，請參閱[使用表單設計工具](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)設計表單。
+   * **`setLabel`**&#x200B;和`**setValue`**欄通常包含相同的資訊，且應反映Workfront UI中所需的名稱。 選項的值是顯示在報表中的名稱，例如，而標籤在附加到物件時顯示在自訂表單中。 如需詳細資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
    * **`setIsHidden`** =若要隱藏任何選項，請輸入`TRUE`。
 
    ![](assets/parameter-option-sheet-filled-out-kick-starts.png)
@@ -296,7 +296,7 @@ ht-degree: 0%
    >您匯入的新表單和欄位尚未連線。 匯入的表單沒有自訂欄位。 您必須手動將欄位新增至新自訂表單或其他現有自訂表單。
 
 
-   如需新增欄位至自訂表單的相關資訊，請參閱[使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+   如需有關新增欄位至自訂表單的資訊，請參閱[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 1. （條件式）如果匯入失敗，您會收到錯誤訊息，指出問題所在。 請嘗試識別發生問題的欄位、工作表和列號，並修正Excel檔案中的資訊，然後再次嘗試匯入檔案。
 

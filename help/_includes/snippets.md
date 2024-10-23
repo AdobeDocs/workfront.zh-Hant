@@ -1,7 +1,7 @@
 ---
-source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '2586'
+source-wordcount: '2583'
 ht-degree: 1%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 1%
 >
 >自2024年7月18日第24.7版發行起，舊版表單產生器已無法再使用。 表單設計人員現在是在Adobe Workfront中建立和編輯自訂表單的預設體驗。
 >
->如需詳細資訊，請參閱[使用表單設計工具](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)設計表單。
+>如需詳細資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 ## 將右側群組與團隊建立關聯 {#right-group-team}
 

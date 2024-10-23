@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1321'
+source-wordcount: '1318'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 本文提供使用外部查詢欄位來呼叫Workfront或公用API的相同例項的範例。 您也可以使用外部查詢與外部系統(例如Jira、Salesforce或ServiceNow)通訊。
 
-如需將外部查閱欄位新增至自訂表單的詳細資訊，以及外部查閱元件的其他定義，請參閱[使用表單設計工具設計表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+如需將外部查詢欄位新增至自訂表單的詳細資訊，以及外部查詢元件的其他定義，請參閱[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 ## 為相同的Workfront執行個體設定外部查詢欄位
 

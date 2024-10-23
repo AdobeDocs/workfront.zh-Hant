@@ -7,9 +7,9 @@ description: 您可以將現有的自訂表單新增至下列任何物件。 自
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '820'
 ht-degree: 2%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 2%
 
 ## 先決條件
 
-您的Workfront管理員或具有自訂表單計畫授權和管理存取權的使用者必須在您的環境中建立自訂表單，然後才能將其新增到物件。 如需詳細資訊，請參閱[使用表單設計工具](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)設計表單。
+您的Workfront管理員或具有自訂表單計畫授權和管理存取權的使用者必須在您的環境中建立自訂表單，然後才能將其新增到物件。 如需詳細資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 ## 新增自訂表單至物件
 

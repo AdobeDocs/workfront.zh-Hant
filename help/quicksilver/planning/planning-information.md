@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
 recommendations: noDisplay, noCatalog
-source-git-commit: 8b087b69a671852d7a71e1bb3fa4491bbac1b770
+source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 0%
@@ -83,7 +83,7 @@ ht-degree: 0%
    * 管理記錄頁面的配置
    * 「記錄註釋和歷史記錄」區段
    * 共用記錄
-   * Workfront物件的Workfront規劃區段
+   * 從Workfront管理Workfront規劃記錄
 
 * [Adobe Workfront規劃要求：文章索引](/help/quicksilver/planning/requests/requests-article-index.md)包含下列資訊：
 
