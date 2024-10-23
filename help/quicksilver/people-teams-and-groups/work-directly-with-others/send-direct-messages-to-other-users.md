@@ -7,14 +7,16 @@ description: Adobe Workfront可讓您快速輕鬆地將與任何工作專案無�
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: 2375cf5d7ae817340ce9552994d87cb5af9a054b
+source-git-commit: 8dd932fe0203fb4a0391f1cbc2d6b8b58a87a00a
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
 
 # 傳送直接訊息給其他使用者
+
+{{highlighted-preview}}
 
 [!DNL Adobe Workfront]可讓您快速輕鬆地直接傳送與任何工作專案無關的訊息給其他[!DNL Workfront]使用者。 依照此節所述傳送的訊息會顯示在使用者設定檔頁面的[!UICONTROL 更新]索引標籤中，且所有使用者皆可看到。 如需更新的其他資訊，請參閱[更新工作專案並檢視更新：文章索引](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)。
 
@@ -72,17 +74,18 @@ ht-degree: 0%
 1. 按一下&#x200B;**[!UICONTROL 更新]。**
 訊息會張貼在使用者設定檔頁面的**[!UICONTROL 更新]**&#x200B;索引標籤上的訊息清單頂端。
 
-<!--
-## Send a message to one or more users from the User list
+## 從使用者清單傳送訊息給一或多位使用者
 
-This option is only available if you have a Standard, Plan, or Work license.
+只有當您擁有「標準」、「計畫」或「工作」授權時，才能使用此選項。
 
 {{step-1-to-users}}
 
-1. Select the user or users you want to send a message to, and click [!UICONTROL **Send Update to User**].
-1. Type your message in the [!UICONTROL Send update to user] window.
-1. (Optional) Search for any additional users you want to tag on the message. You do not need to tag the users you already selected in the user list.
-1. (Optional) Select **[!UICONTROL Private to my company]** to make this message visible only to other users in your company.
-1. Click [!UICONTROL **Send**].
-   The message is posted at the top of the list of messages on the **[!UICONTROL Updates]** tab on each user's profile page.
--->
+1. 選取您要傳送訊息給的一或多位使用者，然後按一下&#x200B;[!UICONTROL **傳送更新給使用者**]。
+1. 在[!UICONTROL 傳送更新給使用者]視窗中輸入您的訊息。
+
+   傳送更新給使用者視窗上的<span class="preview">![訊息使用者](assets/send-message-to-user-dialog-from-user-list.png)</span>
+
+1. （選用）搜尋您要在訊息上加上標籤的任何其他使用者。 您不需要標籤已在使用者清單中選取的使用者。
+1. （選擇性）選取&#x200B;**[!UICONTROL 我的公司私有]**，讓此訊息僅對您公司的其他使用者可見。
+1. 按一下&#x200B;[!UICONTROL **傳送**]。
+此訊息張貼在每個使用者設定檔頁面的**[!UICONTROL 更新]**&#x200B;索引標籤上的訊息清單頂端。
