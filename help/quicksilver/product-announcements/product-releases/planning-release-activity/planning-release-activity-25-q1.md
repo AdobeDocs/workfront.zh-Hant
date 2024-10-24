@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 2b2c15f53602fd250ef490fd06a032fa80ccdcd7
+source-git-commit: df5f37e741f5bd771f91383f9b782ffab8e6160f
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -53,4 +53,6 @@ ht-degree: 0%
 目前無法大量編輯Workfront物件的Planning連線欄位。
 
 如需詳細資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+
+[觀看此功能的影片示範](https://video.tv.adobe.com/v/3435633/){target=_blank}
 
