@@ -6,7 +6,7 @@ description: 如果您無法開啟如下所述的校訂，請聯絡您的Adobe W
 author: Courtney
 feature: Digital Content and Documents
 exl-id: bff8bf09-fca7-41cb-b6bc-813f08d3e18f
-source-git-commit: 21d4fb3bd2a6c08b390338d28e357a80f4befeae
+source-git-commit: 4311e93964c7161b7de5d5aa680e3a822c67012a
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 5%
@@ -67,7 +67,3 @@ ht-degree: 5%
    >案頭校訂檢視器不支援需要您登入的網站。
 
 1. 在出現的畫面中按一下&#x200B;**開啟校訂**。 
-
- 
-
- 
