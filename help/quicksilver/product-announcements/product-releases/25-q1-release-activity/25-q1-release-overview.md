@@ -4,7 +4,7 @@ description: 本頁提供2025年第一季度版本中包含的功能相關資訊
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8dba597ac5f91a88ff71f57b13b563c398ef4c9b
+source-git-commit: e2db8c095acca049be72ad26ec090867f9590c04
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 >|----|----|
 >| <ul><li>24.11 （2024年11月14日）</li><li>24.12 （2024年12月12日）</li><li>25.1 （2025年1月15日）</li></ul> | <ul><li>25.1 （2025年1月16日）</li></ul> |
 >
->請注意，對於每季的最終發行（本季24.10版），快速發行排程中的使用者將提前一天收到發行。
+>請注意，對於每季的最終發行（本季25.1版），快速發行排程中的使用者將提早一天收到發行。
 >
 >如需快速發行程式的詳細資訊，請參閱[啟用或停用快速發行程式](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。
 
