@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
+source-git-commit: e82cf1b586ea3b08f419802bd1e88c6567b61b95
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '1493'
 ht-degree: 1%
 
 ---
@@ -18,27 +18,16 @@ ht-degree: 1%
 
 # 管理來自Workfront物件的記錄連線
 
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 {{planning-important-intro}}
 
-您可以在左側面板的Workfront物件的Planning區段中，顯示連線至Adobe Workfront物件的Workfront Planning記錄。
+您可以在Workfront的下列區域中，顯示Workfront Planning記錄及其連結至Adobe Workfront物件的個別記錄：
 
-<!--replace above with this: 
-
-You can display Workfront Planning records and their respective records connected to Adobe Workfront objects in the following areas in Workfront:
-
-* The Planning section of a Workfront object: Displays all record types connected to an object and their respective connected records. 
-* A Planning connection custom field: Displays one record type and its respective connected records .-->
-
-「規劃」區段適用於下列Workfront物件：
-
-* 專案
-* 專案組合
-* 方案
-<!--* Group
-* Company-->
-
-<!--move the above to a lower place below when releasing Planning connection custom field-->
-
+* Workfront物件的Planning區段：顯示連線到物件的所有記錄型別及其各自的連線記錄。
+* <span class="preview">Planning連線自訂欄位：顯示一個記錄型別及其個別的連線記錄。</span>
 
 ## 存取需求
 
@@ -102,13 +91,13 @@ You can display Workfront Planning records and their respective records connecte
    <td role="rowheader"><p>物件許可權</p></td>
    <td>
    <p>在Workfront中，檢視專案、投資組合或方案的或更高許可權</a> </p> 
-   <p>在Workfront Planning中，使用Contribute或更高的工作區許可權</a> </p>  
+   <p>在Workfront Planning中，檢視工作區許可權以檢視任何連線的記錄，或檢視Contribute或更高的工作區許可權，以連線或中斷記錄連線</a> </p>  
    <p>系統管理員擁有所有Workfront Planning工作區的許可權，包括他們未建立的工作區</p> 
   </td>
   </tr>
 <tr>
    <td role="rowheader"><p>版面配置範本</p></td>
-   <td> <p>必須為所有使用者(包括Workfront管理員)指派一個版面配置範本，該範本包含主功能表中的「規劃」區域，以及專案、投資組合和方案的「規劃」區域。 </p> 如需詳細資訊，請參閱<a href="/help/quicksilver/planning/access/access-overview.md">Adobe計畫存取總覽</a>。 </p>  </p>  
+   <td> <p>若要檢視Workfront物件的Planning區域或Planning區段，必須為所有使用者(包括Workfront管理員)指派一個版面配置範本，該範本包括主功能表中的Planning區域以及專案、投資組合和方案的Planning區域。 </p> 如需詳細資訊，請參閱<a href="/help/quicksilver/planning/access/access-overview.md">Adobe計畫存取總覽</a>。 </p>  </p>  
 </td>
   </tr>
  </tbody>
@@ -121,8 +110,13 @@ You can display Workfront Planning records and their respective records connecte
 ## 管理Planning區段中的記錄
 
 您可以使用Workfront物件的Planning區段來檢視連線到Workfront物件的所有記錄型別及其各自的記錄。
+「規劃」區段適用於下列Workfront物件：
 
-<!--move the section above starting with "The Planning section is available ..." here-->
+* 專案
+* 專案組合
+* 方案
+<!--* Group
+* Company-->
 
 ### 關於Workfront物件Planning區段的考量事項
 
@@ -165,7 +159,7 @@ You can display Workfront Planning records and their respective records connecte
       * 記錄名稱
       * 記錄縮圖
       * 在Workfront Planning中顯示的連線記錄欄位名稱。
-   * 記錄會顯示在各自的工作區下。
+   * 記錄會顯示在各自的工作區和記錄型別下。
 
    ![](assets/planning-section-on-project.png)
 
@@ -186,82 +180,79 @@ You can display Workfront Planning records and their respective records connecte
    * Workfront物件會新增至Workfront Planning記錄的已連線欄位。
    * 與Planning記錄連線之Workfront查詢欄位的值會填入Workfront Planning中。
 
-<!--
+<div class="preview">
 
-## Manage records in the Planning connection field type
+## 管理Planning連線欄位型別中的記錄
 
-You can use a Planning connection custom field on a Workfront object to view one record type and its respective records connected to the Workfront object. 
+您可以使用Workfront物件上的Planning連線自訂欄位，檢視連線至Workfront物件的記錄型別及其個別記錄。
 
-You can control which Planning records display for the Workfront object when you create Planning connection custom fields. 
+當您建立Planning連線自訂欄位時，可以控制為Workfront物件顯示哪些Planning記錄型別。
 
-* The Planning connection field can be populated with Planning records when it is attached to forms for the following Workfront objects:
+* Planning連線欄位會在建立連線之後，以及將該欄位附加到下列Workfront物件的表單時，顯示Planning記錄：
 
-   * Project
-   * Portfolio
-   * Program
-   * Group
-   * Company
+   * 專案
+   * 專案組合
+   * 方案
+   * 群組
+   * 公司
 
-For more information, see [Create a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). 
+如需詳細資訊，請參閱[建立表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
-### Considerations about the Planning connection field type
+### 有關Planning連線欄位型別的考量事項
 
-Consider the following when you view Workfront Planning records from a Planning connection field of a Workfront object: 
+當您從Workfront物件的Planning連線欄位檢視Workfront Planning記錄時，請考量下列事項：
 
-* You can associate only one record type with one Planning connection field.
-* Your Workfront or group administrator must add a Planning connection field on a Workfront custom form.
-* You must attach the custom form to a Workfront object that can be connected from Workfront Planning, if you have the correct access.
-* Workfront Planning record types must first be connected to Workfront object types. For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
-* You can connect or disconnect records from the Planning connection field of a Workfront object only for objects that can have Workfront Planning connections.
-* You must have Contribute permissions for a workspace in Workfront Planning to be able to connect or disconnect records from the Planning connection field of a Workfront object.
-* You can view a Planning connection field for a Workfront object, even when there are no records connected to the object yet. 
-* You cannot edit a Planning connection field when editing Workfront objects in bulk. 
+* 您只能將一個記錄型別與一個Planning連線欄位建立關聯。
+* 您必須將具有Planning連線自訂欄位的自訂表單附加至可從Workfront Planning連線的Workfront物件（如果您有正確的存取權）。
+* Workfront Planning記錄型別必須先連線至Workfront物件型別。 如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
+* 您只能針對可具有Workfront Planning連線的物件，從Workfront物件的Planning連線欄位連線或中斷連線記錄。
+* 您必須擁有Workfront Planning工作區的Contribute許可權，才能從Workfront物件的Planning連線欄位連線或中斷連線記錄。
+* 大量編輯Workfront物件時，您無法編輯Planning連線欄位。
 
-### Manage record connections from the Planning connection field type
+### 管理來自Planning連線欄位型別的記錄連線
 
-1. Go to one of the following object types that has been connected with a Workfront Planning record type: 
+1. 移至下列其中一個已連線至Workfront Planning記錄型別的物件型別：
 
-   * Project
-   * Portfolio
-   * Program
-   * Company
-   * Group
+   * 專案
+   * 專案組合
+   * 方案
+   * 公司
+   * 群組
 
-1. Click **< Object > Details** in the left panel.
-1. (Conditional) Add a custom form with at least one Planning connection field for the object you selected, if one is not present. 
+1. 按一下左側面板中的&#x200B;**&lt; Object > Details**。
+1. （視條件而定）為您選取的物件新增自訂表單，其中至少有一個Planning連線欄位（如果沒有）。
 
    >[!NOTE]
    >
-   >Your Workfront or group administrator must first create the form and add a Planning connection field on it before you can add it to an object. 
+   >您的Workfront或群組管理員必須先建立表單並在其上新增Planning連線欄位，才能將其新增至物件。
 
 
-1. Click inside the field to add connected records.
-1. Click the downward-pointing arrow inside the field, to select records from the list. 
+1. 按一下欄位內部以新增連線的記錄，然後按一下欄位內部的向下箭頭，以從清單中選取記錄。
 
    ![](assets/planning-connection-field-on-project-with-record-list-open.png)
 
    >[!TIP]
    >
-   >   You cannot add records to Planning connection fields that are associated with Workfront objects other than the object you selected. 
+   >您無法將記錄新增至與Workfront物件（設定該欄位時所選取的物件除外）關聯的Planning連線欄位。
    >
-   >For example, you cannot add records to a Planning connection field created for a Portfolio connection from a Project's custom form. 
+   >例如，您無法從專案的自訂表單將記錄新增至為Portfolio連線建立的Planning連線欄位。
    >
-   >There is an indication that the object of the field and the object you selected don't match.  
+   >有指示表示欄位的物件與您選取的物件不相符。
    >
    >![](assets/warning-unsupported-object-planning-connection-field-on-form.png)
 
-1. Click outside the list to close it. 
+1. 按一下清單外部以將其關閉。
 
-   The following things occur:
+   會發生下列情況：
 
-   * The records are immediately connected to the Workfront object and they display in the Planning connection field as well as the Planning section of the Workfront object. 
-   * The Workfront object is added to the Workfront Planning record's connected field. 
-   * The values for the Workfront lookup fields connected to the Planning record are populated in Workfront Planning. 
-1. (Optional) Click the name of a record in the Planning connection field to open it in Workfront Planning. 
-   The record details tab opens in Workfront Planning. 
-   You can review information about the record, or navigate to the record type page. 
+   * 記錄會立即連線至Workfront物件，並顯示在Planning連線欄位以及Workfront物件的Planning區段中。
+   * Workfront物件會新增至Workfront Planning記錄的已連線欄位。
+   * 與Planning記錄連線之Workfront查詢欄位的值會填入Workfront Planning中。
+1. （選用）在Planning連線欄位中按一下記錄名稱，以在Workfront Planning中開啟該記錄。
+記錄詳細資訊索引標籤會在Workfront Planning中開啟。
+您可以複查有關記錄的資訊，或瀏覽至記錄型別頁面。
 
-1. (Optional) From the custom form in Workfront, click the **Remove** icon ![](assets/remove-icon.png) on a record to remove it from the Planning connection field and disconnect it from the Workfront object. 
-   The Workfront object is disconnected from the Planning record, and any lookup information from Workfront is removed from the record. 
+1. （選擇性）從Workfront的自訂表單中，按一下記錄上的&#x200B;**移除**&#x200B;圖示![](assets/remove-icon.png)，將其從Planning連線欄位中移除，並將其從Workfront物件中中斷連線。
+Workfront物件與Planning記錄中斷連線，且任何來自Workfront的查閱資訊都會從記錄中移除。
 
--->
+</div>

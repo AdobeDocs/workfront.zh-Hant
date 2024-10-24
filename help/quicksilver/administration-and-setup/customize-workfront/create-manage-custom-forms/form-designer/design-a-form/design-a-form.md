@@ -8,14 +8,18 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
+source-git-commit: e82cf1b586ea3b08f419802bd1e88c6567b61b95
 workflow-type: tm+mt
-source-wordcount: '5537'
+source-wordcount: '6294'
 ht-degree: 5%
 
 ---
 
 # 建立自訂表格
+
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 您可以使用Adobe Workfront中的表單設計工具來設計自訂表單。 您可以將自訂表單附加至不同的Workfront物件，以擷取這些物件的相關資料。
 
@@ -85,7 +89,7 @@ ht-degree: 5%
    * [新增影像、PDF和影片](#add-images-pdfs-and-videos)
    * [新增Workfront原生欄位](#add-workfront-native-fields)
    * [新增Adobe XD檔案](#add-adobe-xd-files)
-     <!--* [Add Planning connection fields](#add-planning-connection-fields)-->
+   * <span class="preview">[新增Planning連線欄位](#add-planning-connection-fields)</span>
 
 ## 新增欄位或現有欄位至您的自訂表單
 
@@ -903,102 +907,102 @@ The Workfront Mobile app -->
 
    按一下&#x200B;**儲存並關閉**。
 
-<!--
-### Add Planning connection fields
+<div class="preview">
+
+### 新增Planning連線欄位
 
 >[!IMPORTANT]
 >
->The information in this section refers to Adobe Workfront Planning, an additional capability from Adobe Workfront. 
+>本節中的資訊說明Adobe Workfront的額外功能Adobe Workfront Planning。
 >
->You must have the following to access Workfront Planning:
+>您必須具備下列專案才能存取Workfront Planning：
 >
->* A new Workfront plan and license. Workfront Planning is not available for legacy Workfront plans or licenses. 
->* An additional license for Workfront Planning. 
->* Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience.
+>* 新的Workfront計畫和授權。 舊版Workfront計畫或授權無法使用Workfront計畫。
+>* Workfront Planning的額外授權。
+>* 貴組織的Workfront執行個體必須上線至Adobe統一體驗。
 >
-> For a complete list of requirements to access Workfront Planning, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
+> 如需存取Workfront Planning的完整需求清單，請參閱[Adobe Workfront Planning存取總覽](/help/quicksilver/planning/access/access-overview.md)。
 > 
->For more information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).
+>如需Workfront Planning的詳細資訊，請參閱[Adobe Workfront Planning概觀](/help/quicksilver/planning/general/planning-overview.md)。
 
-You can view records connected from Workfront Planning in a custom field on a Workfront object by adding a  Planning connection custom field to an object's custom form. 
+您可以將Workfront連線自訂欄位新增至物件的自訂表單，在Workfront物件的自訂欄位中檢視從Planning連線的記錄。
 
-You can add the Planning connection field to all objects' custom forms. However, you can display connected records only on the custom forms associated with Workfront objects that can be connected from Workfront Planning. 
+您可以將Planning連線欄位新增至所有物件的自訂表單。 不過，您只能在與Workfront物件(可從Workfront Planning連線)相關聯的自訂表單上顯示連線的記錄。
 
 >[!NOTE]
 >
->Users viewing information in the custom field must have access to Workfront Planning and to the workspaces that contain the record types connected to Workfront objects.
+>在自訂欄位中檢視資訊的使用者必須有權存取Workfront Planning，以及包含連線至Workfront物件之記錄型別的工作區。
 
+新增Planning連線欄位：
 
-To add a Planning connection field:
-
-1. On the left side of the screen, find **Planning connection** and drag it to a section on the canvas. 
-1. On the right side of the screen, configure the options for the custom field:
+1. 在熒幕左側，尋找&#x200B;**Planning連線**，並將其拖曳至畫布上的區段。
+1. 在畫面右側，設定自訂欄位的選項：
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Label</td> 
-      <td> <p>(Required) Type a descriptive label to display above the field. You can change the label at any time.</p> <p><b>IMPORTANT</b>:</p> <p>Avoid using special characters in this label.</p> 
-      <p>We recommend that you choose a label by which you can easily identify where the Planning record is coming from. Add information like the name of the workspace or the name of the record type. </p>   </td> 
+      <td role="rowheader">標籤</td> 
+      <td> <p>（必要）輸入描述性標籤以顯示於欄位上方。 您可以隨時變更標籤。</p> <p><b>重要</b>：</p> <p>請避免在此標籤中使用特殊字元。</p> 
+      <p>建議您選擇一個標籤，以便輕鬆識別Planning記錄的來源。 新增工作區名稱或記錄型別名稱之類的資訊。 </p>   </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Name</td>
-      <td> <p>(Required) The name is how the system identifies the field. When you are configuring the field for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.</p></td> 
+      <td role="rowheader">姓名</td>
+      <td> <p>（必要）名稱是系統識別欄位的方式。 當您第一次設定欄位並輸入標籤時，「名稱」欄位會自動填入以和欄位相符。 但是「標籤」和「名稱」欄位不同步，這可讓您自由地變更使用者看到的標籤，而不必變更系統看到的名稱。</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Instructions</td> 
-      <td> <p>(Recommended) Type any additional information about the field. When users fill out the custom form, they can hover over the question mark icon to view a tool tip containing the information you type here.</p>
-      <p>Here, you can add explicit information about the record and the objects you are connecting. </p>
+      <td role="rowheader">指示</td> 
+      <td> <p>（建議）輸入欄位的任何其他資訊。 當使用者填寫自訂表單時，可以將滑鼠指標暫留在問號圖示上，以檢視包含您在此處輸入資訊的工具提示。</p>
+      <p>在這裡，您可以新增有關記錄和您連線之物件的明確資訊。 </p>
       </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Object type</td> 
-      <td><p>(Required) Select a Workfront object type that is connected to a record type in Workfront Planning.</p>
-      You may select from the following object types:
-      <ul><li> Project</li>
-      <li> Portfolio</li><li> Program</li><li> Company</li><li> Group</li></ul>
-       <p>Only Workfront object types for the form's object types are available.</p> <p> For example, if the Object Types list at the top of the form designer shows Project, you can only select Project in this field, and you cannot select Portfolios, although portfolios can also be connected to record types.</p>
+      <td role="rowheader">物件類型</td> 
+      <td><p>（必要）選取已連線至Workfront Planning中記錄型別的Workfront物件型別。</p>
+      您可以從下列物件型別中選取：
+      <ul><li> 專案</li>
+      <li> 專案組合</li><li> 方案</li><li> 公司</li><li> 群組</li></ul>
+       <p>只有表單物件型別的Workfront物件型別可用。</p> <p> 例如，如果表單設計器頂端的「物件型別」清單顯示「專案」，則您只能在此欄位中選取「專案」，而且您無法選取Portfolio，儘管產品組合也可以連線到記錄型別。</p>
       </td>
      </tr>
      <tr> 
-      <td role="rowheader">Workspace</td> 
-      <td> <p>(Required) Select the workspace where the records you want to display in Workfront come from in Workfront Planning.</p> <p> Only workspaces that are connected to the object types you selected in the I=Object type field display. </td> 
+      <td role="rowheader">工作區</td> 
+      <td> <p>（必要）選取您要在Workfront中顯示之記錄來自的Planning工作區。</p> <p> 只有與您在「物件型別」欄位中選取的物件型別連線的工作區才會顯示。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Record Type</td> 
-      <td><p>(Required) Select the Workfornt Planning record type whose records are connected to the Workfront object associated with this form.</p><p>Only record types that have connections to the object type you selected in the Object type field display. </p></td> 
+      <td role="rowheader">記錄類型</td> 
+      <td><p>（必要）選取與Workfront物件型別有關聯的Workfront Planning記錄型別。</p><p>只有與您在「物件型別」欄位中選取的物件型別有連線的記錄型別才會顯示。 </p></td> 
      </tr>
      <tr> 
-      <td role="rowheader">Connection field</td> 
-      <td><p>(Required) Select the Workfront Planning connection field that displays the Workfront objects that are associated with this form.</p> <p> <b>NOTE</b></p><p>You can have multiple connection fields between the same object and record types.</p>  </td> 
+      <td role="rowheader">連線欄位</td> 
+      <td><p>（必要）選取要顯示在Workfront物件上的所選Planning記錄型別與Workfront物件型別之間的連線欄位。 </p> <p> <b>附註</b></p><p>相同物件和記錄型別之間可以有多個連線欄位，但只能選取一個欄位。</p>  </td> 
      </tr>
     </tbody> 
    </table>
 
-1. (Optional) Repeat the previous steps to add any other fields. 
+1. （可選）重複上述步驟以新增任何其他欄位。
 
-    or
+   或
 
-    To copy a field, hover over a field, and click the copy icon.
+   若要複製欄位，請將游標移至欄位上，然後按一下復製圖示。
 
-    ![copy icon](assets/copy-field.png)
+   ![復製圖示](assets/copy-field.png)
 
-1. To save your changes, click **Apply** and move on to another section to continue building your form.
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
-    or
+   或
 
-    Click **Save and Close**.
+   按一下&#x200B;**儲存並關閉**。
 
-    You can now attach the form to an object connected from Workfront Planning and do one of the following:
+   您現在可以將表單附加到從Workfront Planning連線的物件，並執行下列任一項作業：
 
-    * View Workfront Planning record types connected to the Workfront object
-    * Connect or disconnect records from the Workfront object associated with the form. 
+   * 檢視連線至Workfront物件的Workfront記錄型別（如果有的話）。
+   * 從Workfront物件連線或中斷連線記錄。
 
-    For more information, see [Manage record connections from Workfront objects](/help/quicksilver/planning/records/manage-records-in-planning-section.md)
+   如需詳細資訊，請參閱[管理來自Workfront物件的記錄連線](/help/quicksilver/planning/records/manage-records-in-planning-section.md)
 
--->
+</div>
 
 ## 使用表單設計工具來組織和預覽表單
 
