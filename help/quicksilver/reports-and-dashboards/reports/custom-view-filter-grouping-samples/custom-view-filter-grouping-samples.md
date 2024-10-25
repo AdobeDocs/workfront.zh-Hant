@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: beac1ea6-a983-4d12-8972-91150914f731
-source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
+source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '708'
 ht-degree: 0%
 
 ---
@@ -95,6 +95,7 @@ ht-degree: 0%
 
 * [篩選器：顯示不完整的跨專案前置任務](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-predecessors.md)
 * [篩選器：顯示不完整的跨專案後置任務](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-successors.md)
+* [篩選器：個人任務](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md)
 * [篩選器：顯示您目前擱置核准的專案](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-current-projects-pending-approval.md)
 * [篩選器：僅顯示核准狀態的專案](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-for-items-in-approval-status.md)
 * [篩選器：比較兩個欄位來排除清單中的專案](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-items-by-comparing-two-fields.md)

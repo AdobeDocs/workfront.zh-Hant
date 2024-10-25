@@ -6,10 +6,10 @@ description: 您可以從[!UICONTROL 首頁]區域建立工作專案和專案。
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 5ff0fabb60cb9e7c2a7b3506693efdb6c5d8e956
+source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 3%
+source-wordcount: '761'
+ht-degree: 2%
 
 ---
 
@@ -54,16 +54,20 @@ ht-degree: 3%
 
 ## 建立個人待辦事項
 
-您可以在[!UICONTROL 首頁]區域中建立僅供您使用的個人待辦事項：
+您可以在[!UICONTROL 首頁]區域中建立個人待辦事項。 待辦事項是您為自己建立的個人任務。
 
-1. 按一下右上角的&#x200B;**[!UICONTROL 主要功能表]** ![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
-1. （視條件而定）將待辦事項Widget新增至您的首頁畫面。 按一下&#x200B;**自訂**，然後找到&#x200B;**待辦事項**。
+您和其他使用者可以在個人任務報告中檢視您的個人任務。 如有需要，他們可以從該處將其新增至專案。
+
+若要建立待辦事項，請執行下列步驟：
+
+1. 按一下右上角的&#x200B;**[!UICONTROL 主功能表]** ![](assets/main-menu-icon.png)，或左上角的&#x200B;**主功能表** ![](assets/lines-main-menu.png) （如果可用），然後按一下&#x200B;**[!UICONTROL 首頁]**。
+1. （視條件而定）按一下「自訂」****，然後按一下「待辦事項」****，將待辦事項Widget新增至您的主畫面。
 1. 移至&#x200B;**待辦事項** Widget，然後按一下&#x200B;**新增待辦事項**。
-1. 輸入
+1. 輸入個人待辦事項的名稱，然後按一下「輸入」。
 1. （選擇性）按一下&#x200B;**日期**&#x200B;圖示![](assets/date-icon.png)以新增專案的到期日。
    ![](assets/my-work-to-dos.png)
-
-
+1. （選擇性）建立個人工作報告或篩選器。 如需有關建立個人工作篩選的資訊，請參閱[篩選：個人工作](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md)。
+您可以在個人任務報告中檢視您的待辦事項以及其他使用者的待辦事項。
 
 ## 將任務新增至專案
 

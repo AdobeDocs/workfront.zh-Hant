@@ -7,10 +7,10 @@ description: 此任務篩選器傳回不完整的跨專案前置任務。
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 7ee2432c-1d82-454e-a73a-f1f6b6a5c10d
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 1%
+source-wordcount: '247'
+ht-degree: 0%
 
 ---
 
@@ -54,11 +54,11 @@ ht-degree: 1%
 
 若要套用此篩選：
 
-1. 前往工作清單。
+1. 前往工作清單或工作報告。
 1. 從&#x200B;**篩選器**&#x200B;下拉式功能表中，選取&#x200B;**新增篩選器**。
 
-1. 按一下&#x200B;**切換到文字模式**。
-1. 在&#x200B;**設定報表**&#x200B;的篩選規則區域中，貼上下列程式碼：
+1. （視條件而定）如果您從清單存取篩選器，請按一下&#x200B;**文字模式**；如果您從報表存取篩選器，請按一下&#x200B;**切換至文字模式**。
+1. 在新區域中，貼上下列程式碼：
    <pre>前置任務MM：projectID=FIELD：projectID<br>前置任務MM：projectID_Mod=ne<br>percentComplete=100<br>percentComplete_Mod=ne</pre>
 
-1. 按一下「**儲存篩選器**」。
+1. （視條件而定）如果您從報表存取篩選器，請按一下&#x200B;**儲存篩選器**；如果您從工作清單存取篩選器，請按一下&#x200B;**套用**，然後按一下&#x200B;**另存為新篩選器**。

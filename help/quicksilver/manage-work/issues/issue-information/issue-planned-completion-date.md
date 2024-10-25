@@ -6,9 +6,9 @@ description: 問題的計畫完成日期是預期完成問題的日期。
 author: Alina
 feature: Work Management
 exl-id: bdb206dc-18f8-4f8a-862b-e881408a8408
-source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
+source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '592'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 0%
 您可以在Workfront的下列區域中手動設定問題的規劃完成日期：
 
 * 在「編輯問題」方塊中或在建立或編輯問題時在「問題詳細資訊」區域中。 如需詳細資訊，請參閱[編輯問題](../../../manage-work/issues/manage-issues/edit-issues.md)。
-* 若在檢視問題時顯示規劃完成日期，則位於首頁區域。 如需詳細資訊，請參閱[更新或編輯首頁區域的工作專案](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)。
+* 首頁區域中，如果規劃完成日期顯示在問題的摘要面板中。 如需詳細資訊，請參閱[更新或編輯首頁區域的工作專案](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)。
 * 在問題標題中。 如需詳細資訊，請參閱[新物件標頭](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md)。
 * 問題清單或報告中，規劃完成日期欄位何時顯示在檢視中。
 

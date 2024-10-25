@@ -1,16 +1,16 @@
 ---
-title: 使用版面配置範本自訂新首頁
+title: 使用版面範本自訂首頁
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-description: 您可以使用版面配置範本來設定使用者在開啟「首頁」時看到的內容。
+description: 您可以使用版面配置範本來設定使用者在Adobe Workfront中開啟「首頁」時看到的內容。
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: 0a19683e2311b1acc57423f5cb5a7dd141c8b79c
+source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '853'
 ht-degree: 1%
 
 ---
@@ -28,10 +28,8 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >套用版面配置範本後，一般使用者可以變更其背景，並重新排序頁面上的Widget。 他們無法移除Workfront管理員包含的Widget。
-> <br>
+> 
 >管理員可以為使用者新增Widget。 但是，如果使用者已經自訂了其Widget順序或背景選擇，這些特定的自訂不會變更。
-
-
 
 如需首頁的詳細資訊，請參閱[開始使用首頁](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md)。
 
@@ -81,7 +79,12 @@ ht-degree: 1%
 
 1. 按一下&#x200B;**自訂使用者看到的內容**&#x200B;下的向下箭頭![](assets/dropdown-arrow.png)，然後按一下&#x200B;**首頁Workspace**。
 
-1. 在右側顯示的標籤中，按一下&#x200B;**設計與配置**&#x200B;以選擇並排列Widget和背景，或按一下&#x200B;**Widget設定**&#x200B;以管理個別Widget的設定，例如可用的篩選器和群組。
+1. 在右側的標籤中，按一下下列其中一項：
+
+   * **設計與配置**：選取以選擇及排列Widget與背景
+   * **Widget設定**：選取此選項可管理個別Widget的設定，例如可用的篩選器和群組。
+
+   下表包含每個索引標籤的詳細資訊：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -90,55 +93,66 @@ ht-degree: 1%
      <tr> 
       <td role="rowheader">設計與配置</td> 
       <td>
-      <p>選取使用者工作區中將會出現的Widget、其位置，然後選擇背景。 請注意，雖然使用者無法移除選取的Widget，但他們可以自由移動及調整大小，以及新增其他Widget。</p>
-      <p>此索引標籤的作用基本上是小型家用工作區；因此，可根據<a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">新增、編輯或移除家用小工具</a>中所述的步驟自訂此索引標籤。 選取Widget，並依照您想要為使用者顯示的工作區來安排工作區。</p>
-      <p>若要變更背景，請依照<a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md" class="MCXref xref">開始使用首頁</a>中的<b>背景自訂</b>下的步驟操作。</p>
+      <p>選取要在使用者工作區中顯示的Widget、其位置，並選擇背景。</p> 
+      <p>請注意，雖然使用者無法移除選取的Widget，但可自由移動及調整其大小。 他們也可以新增更多Widget。</p>
+      <p>此索引標籤的主要功能是作為使用此版面配置範本的使用者將體驗到的實際首頁工作區預覽。</p> 
+      <p> 執行下列任一項作業： </p>
+      <ul><li>根據<a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">新增、編輯或移除首頁</a>中的Widget中所述的步驟自訂此索引標籤。 </li>
+      <li>選取Widget，並依照您想要為使用者顯示的工作區來安排工作區。</li>
+      <li>若要變更背景，請依照<a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md" class="MCXref xref">開始使用首頁</a>中的<b>背景自訂</b>下的步驟操作。</li></p>
       <p>
 
->[!NOTE]
->
->只有在配置範本中移動或調整Widget大小時，不會觸發使用者的首頁更新其配置。 不過，新增或移除Widget將會觸發使用者頁面的更新。
+   >[!NOTE]
+   >
+   >只有在配置範本中移動或調整Widget大小時，不會觸發使用者的首頁更新其配置。 不過，新增或移除Widget將會觸發使用者頁面的更新。
 
-</p>
+   </p>
      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Widget 設定</td> 
       <td>
-      <p>變更個別Widget設定。 目前僅支援三個Widget：</p>
+      <p>變更個別Widget設定。</p> 
+      <p>
+
+   >[!NOTE]
+   >
+   >這些選項不會延伸至「摘要」面板。 您必須在「版面配置範本」的「摘要」標籤中設定該區域。
+
+   </p>
+      <p> 從清單左側的下列介面工具中選取：</p>
       <ul>
         <li>我的專案</li>
         <li>我的任務</li>
         <li>我的問題</li>
       </ul>
-      <p>選取您要編輯的Widget後，可用選項將顯示在右側。 這些選項包括<b>篩選器</b>、<b>欄</b>和<b>群組</b>。 您可以：</p>
+      <p>在您選取要編輯的Widget後，請選取您想要在右側提供家用功能的<b>篩選器</b>、<b>欄</b>和<b>群組</b>。</p>
+      <p> 您可以：</p>
       <ul>
-      <li><p><b>選取並排序使用者可用的篩選器、欄或群組：</b></p>
-      <p>勾選清單中所有選項旁的方塊，讓使用者能夠使用。 這些選項不會延伸至「摘要」面板。 您必須在「版面配置範本」的「摘要」標籤中設定該區域。 使用者看不到未核取的選項。 拖放清單中的選項以設定順序。</li></p>
+      <li><p>勾選清單中選項旁的方塊，選取並排序使用者可用的篩選器、欄或群組。 使用者看不到未核取的選項。</p></li>
+      <li> <p>拖放清單中的選項以設定順序。</p></li>
       <p>
 
->[!IMPORTANT]
->
->* 「篩選」、「欄」和「群組」選項連結到「版面配置範本」中的清單自訂選項。 此處所做的變更也將套用至這些設定。
->* 使用者必須至少具有對檢視的建立存取權，管理員資料行設定才能正確套用至其首頁。
+   >[!IMPORTANT]
+   >
+   >* 「篩選」、「欄」和「群組」選項連結到「版面配置範本」中的清單自訂選項。 此處所做的變更也將套用至這些設定。
+   >* 使用者必須至少具有對檢視的建立存取權，管理員資料行設定才能正確套用至其首頁。
 
-</p>
-      <li><p><b>設定Widget的預設篩選或群組：</b></p>
-      <p>將滑鼠停留在選項上，會出現一個按鈕，可讓您將該選項設定為使用者的預設值。 目前預設的右側會有藍色的「預設」徽章。</li></p>
-      <li><p><b>將現有的篩選器、欄或群組新增至可用選項清單：</b></p>
-      <p>按一下每個清單底部的加號按鈕，將選項新增至該清單。 請注意，只有現有的篩選器、欄位（用於欄）或群組可以這種方式新增。</p></li>
+   </p>
+      <li><p>將游標移至選項上，然後按一下<b>設定為預設</b>，以設定Widget的預設篩選或群組。 目前的預設在其右側顯示藍色<b>預設</b>徽章。</p></li>
+      <li><p>按一下每個清單底部的加號按鈕，將現有的篩選、欄或群組新增至可用選項清單，即可將選項新增至該清單。 請注意，只有現有的篩選器、欄位（用於欄）或群組可以這種方式新增。</p></li>
       </ul>
       <p>
 
->[!NOTE]
->
->如果您使用版面配置範本為特定Widget設定預設篩選或群組，則由於現有使用者偏好設定，該選項可能不會立即生效。 若要立即套用新篩選器或群組，您或使用者可能需要將「/resetUser」附加至其URL結尾以重設其使用者偏好設定。
+   >[!NOTE]
+   >
+   >如果您使用版面配置範本為特定Widget設定預設篩選或群組，則由於現有使用者偏好設定，該選項可能不會立即生效。 若要立即套用新篩選器或群組，您或使用者可能需要將「/resetUser」附加至其URL結尾以重設其使用者偏好設定。
 
-</p>
-  </td> 
-  </tr>
-  </tbody> 
-  </table>
+   </p>
+      </td> 
+      </tr>
+      </tbody> 
+      </table>
 
 1. 繼續自訂版面範本。
 
@@ -146,6 +160,6 @@ ht-degree: 1%
 
    如果您已完成自訂，請按一下左下角的&#x200B;**儲存**。
 
->[!IMPORTANT]
->
->您必須重新整理首頁，才能檢視版面配置範本中的自訂專案。
+   >[!IMPORTANT]
+   >
+   >使用者必須重新整理首頁，才能檢視版面配置範本中的自訂專案。

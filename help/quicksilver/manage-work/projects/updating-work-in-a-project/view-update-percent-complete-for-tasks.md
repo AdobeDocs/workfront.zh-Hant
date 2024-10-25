@@ -6,7 +6,7 @@ description: 您可以更新任務的完成百分比，以指出完成任務的�
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
 workflow-type: tm+mt
 source-wordcount: '553'
 ht-degree: 0%
@@ -91,7 +91,7 @@ ht-degree: 0%
 
 * **首頁**：您可以從「首頁」區域的「摘要」面板或「我的工作」Widget更新任務或問題的完成百分比。
 
-如需詳細資訊，請參閱[首頁快速入門](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md)。
+  如需詳細資訊，請參閱[首頁快速入門](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md)。
 
 ## 更新任務完成百分比的考量事項
 
