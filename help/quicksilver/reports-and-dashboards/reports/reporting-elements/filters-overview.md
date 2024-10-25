@@ -7,9 +7,9 @@ description: 您可以使用Adobe Workfront中的篩選器，來減少在清單�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
 workflow-type: tm+mt
-source-wordcount: '1807'
+source-wordcount: '1821'
 ht-degree: 1%
 
 ---
@@ -71,8 +71,8 @@ Workfront中有多種型別的篩選器。 所有篩選器都符合限制熒幕�
 
 您可以在Workfront的下列使用內建篩選器或建置自訂篩選器：
 
-<!--* Home   
-  For information, see the [Filter the Work List](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md#filter-the-work-list) section in the article [Display items in the Work List in the Home area](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).-->
+* 首頁\
+  如需詳細資訊，請參閱[首頁區域的工作清單顯示專案](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)。
 * 請求區域。 您無法在請求區域中自訂篩選器。
 
   如需詳細資訊，請參閱[尋找已提交的請求](../../../manage-work/requests/create-requests/locate-submitted-requests.md)。

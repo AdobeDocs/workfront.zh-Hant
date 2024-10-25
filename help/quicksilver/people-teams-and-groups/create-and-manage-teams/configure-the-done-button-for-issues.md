@@ -6,9 +6,9 @@ description: 完成按鈕可以自動設定任務或問題的狀態。 依預設
 author: Lisa
 feature: People Teams and Groups
 exl-id: 2e72854a-2d49-4665-b307-b88f660b141e
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1183'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 1%
 # 設定問題的[!UICONTROL 完成]按鈕
 
 [!UICONTROL 完成]按鈕可以自動設定任務或問題的狀態。 依預設，當受指派人按一下其工作專案上的[!UICONTROL 完成]時，[!DNL Adobe Workfront]會將問題標示為[!UICONTROL 已解決]。
+
+>[!NOTE]
+>
+>「完成」按鈕在Workfront的所有區域顯示為「標示為完成」 。
 
 ## 概觀
 

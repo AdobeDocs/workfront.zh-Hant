@@ -6,7 +6,7 @@ description: 您可以透過建立報告，提供貴組織在Adobe Workfront中�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
+source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
 workflow-type: tm+mt
 source-wordcount: '1828'
 ht-degree: 1%
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 # 建立自訂報表
 
-<!--Audited: 12/2023-->
+<!--Audited: 10/2024-->
 
 您可以透過建立報告，提供貴組織在Adobe Workfront中所需資訊的存取權。 您可以使用Workfront中提供的任何內建報表，或從頭開始建立自訂報表。
 
@@ -126,7 +126,7 @@ ht-degree: 1%
 
    或
 
-   若要變更現有欄，請按一下欄，在Report Builder左上角的&#x200B;**顯示在此欄位欄位**&#x200B;方塊中，按一下目前欄位左側的&#x200B;**移除**&#x200B;圖示![](assets/x-icon-circled.png)，並開始輸入新欄位，然後在其顯示在清單中時按一下它。
+   若要變更現有欄，請按一下該欄，在Report Builder左上角的&#x200B;**顯示在此欄位欄位**&#x200B;區域中，按一下目前欄位右側的&#x200B;**移除**&#x200B;圖示![](assets/remove-column-icon.png)，並開始輸入新欄位，然後在其顯示在清單中時按一下它。
 
    如需有關您在欄中看到的欄位詳細資訊，請參閱[Adobe Workfront術語辭彙表](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)。
 

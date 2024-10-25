@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront的[!UICONTROL 首頁]區域內，檢視
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: 3786f62c16c7d295de3b19fd6b7ea5ec21fc8ce6
+source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '678'
 ht-degree: 4%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 4%
 
 您可以在[!UICONTROL 工作]清單中提供任何工作專案的更新：
 
-1. 按一下右上角的&#x200B;**[!UICONTROL 主要功能表]** ![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
+1. 按一下右上角的&#x200B;**[!UICONTROL 主功能表]** ![](assets/main-menu-icon.png)，或左上角的&#x200B;**主功能表** ![](assets/lines-main-menu.png) （如果可用），然後按一下&#x200B;**[!UICONTROL 首頁]**。
 1. （視條件而定）按一下&#x200B;**自訂**&#x200B;以新增下列任何Widget：
 
    | Widget | 說明 |
@@ -102,7 +102,7 @@ ht-degree: 4%
 
 您可以編輯任何您有權編輯的工作專案上的任何欄位。
 
-1. 按一下右上角的&#x200B;**[!UICONTROL 主要功能表]** ![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
+1. 按一下右上角的&#x200B;**[!UICONTROL 主功能表]** ![](assets/main-menu-icon.png)，或左上角的&#x200B;**主功能表** ![](assets/lines-main-menu.png) （如果可用），然後按一下&#x200B;**[!UICONTROL 首頁]**。
 1. （視條件而定）按一下&#x200B;**自訂**&#x200B;以新增下列任何Widget：
 
    | Widget | 說明 |

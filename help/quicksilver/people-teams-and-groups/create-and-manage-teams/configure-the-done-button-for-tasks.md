@@ -6,20 +6,24 @@ description: 完成按鈕可以自動設定任務或問題的狀態。 依預設
 author: Lisa
 feature: People Teams and Groups
 exl-id: 55cc5562-13d5-4089-8937-f33d0cde3cac
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '775'
 ht-degree: 1%
 
 ---
 
 # 設定任務的[!UICONTROL 完成]按鈕
 
-[!UICONTROL 完成]按鈕可以自動設定任務或問題的狀態。 依預設，當受指派人按一下其工作專案上的「完成」時，[!UICONTROL Adobe Workfront]會將任務標示為[!UICONTROL 已完成]。
+[!UICONTROL 完成]按鈕可以自動設定任務或問題的狀態。 依預設，當受指派人在工作專案上按一下「標籤為完成」時，[!UICONTROL Adobe Workfront]會將工作標籤為[!UICONTROL 已完成]。
+
+>[!NOTE]
+>
+>「完成」按鈕在Workfront的所有區域顯示為「標示為完成」 。
 
 ## 概觀
 
-具有特定許可權的使用者可以設定[!UICONTROL Done]按鈕，以反映系統中的特定狀態。 在[!UICONTROL Workfront]中，[!UICONTROL Done]按鈕有兩種不同的工作方式：
+具有特定許可權的使用者可以設定[!UICONTROL Done]按鈕，使其與系統中的特定狀態產生關聯。 在[!UICONTROL Workfront]中，[!UICONTROL Done]按鈕有兩種不同的工作方式：
 
 * 如果使用者擁有指派的主團隊，[!DNL Workfront]管理員或具有[!UICONTROL 計畫]授權的使用者可以設定[!UICONTROL 完成]按鈕以反映團隊成員的特定狀態。 請參閱本文中的[設定團隊](#configure-the-uicontrol-done-button-for-a-team)的[!UICONTROL 完成]按鈕。
 * 如果使用者沒有[!UICONTROL 主團隊]，但他們的設定檔中有[!UICONTROL 其他團隊]，Workfront會搜尋與使用者相關聯之任何團隊上的[!UICONTROL 完成]按鈕設定。 選擇是隨機的，與任何團隊關聯的狀態用於任務。
@@ -98,7 +102,7 @@ ht-degree: 1%
 1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)。
 
 1. 按一下&#x200B;**[!UICONTROL 使用者]**，然後選取您要與主團隊建立關聯的一或多個使用者。
-1. 按一下&#x200B;**[!UICONTROL 更多]**&#x200B;功能表，然後選取&#x200B;**[!UICONTROL 編輯]**。\
+1. 按一下&#x200B;**[!UICONTROL 更多]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 編輯]**。\
    ![](assets/user-settings-nwe-350x291.png)
 
 1. 在&#x200B;**[!UICONTROL 組織]**&#x200B;區段中，選取&#x200B;**[!UICONTROL 主團隊]**&#x200B;欄位。 開始輸入您想要與使用者建立關聯的團隊名稱。 當您在清單中看到團隊名稱時，請按一下該團隊的名稱。
