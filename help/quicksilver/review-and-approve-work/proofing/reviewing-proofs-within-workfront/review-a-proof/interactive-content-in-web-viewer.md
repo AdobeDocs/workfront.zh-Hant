@@ -6,14 +6,19 @@ description: 建議您使用「案頭校訂檢視器」來檢閱所有互動式�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: daddc225-62df-4e1a-98fd-8bb7c7c5553b
-source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
+source-git-commit: eeaf2f2cec65fae9e4b898ed43d8c9b781b29d9e
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
 
 # 在網路校訂檢視器中設定互動式內容校訂
+
+>[!IMPORTANT]
+>
+>這是舊版的瀏覽器擴充功能，已不再支援。 我們建議您安裝目前處於Beta版的新瀏覽器擴充功能： [Adobe Workfront檢閱工具](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md)。
+
 
 建議您使用「案頭校訂檢視器」來檢閱所有互動式內容。 但是，如果貴組織的原則防止此情況，您的Workfront管理員可以將您的系統設定為使用Web校訂檢視器進行互動校訂。 如需這兩個檢視器的比較資訊，請參閱[網頁校訂檢視器與案頭校訂檢視器之間的差異](../../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)。
 
@@ -47,5 +52,3 @@ Web校訂檢視器有下列限制：
 1. 在網頁校訂檢視器中，按一下&#x200B;**重新載入校訂**。
 
 您的瀏覽器已安裝擴充功能，每次您按一下&#x200B;**新增註解**&#x200B;時，校訂檢視器都會擷取您內容的靜態熒幕擷圖。 您可以在此熒幕擷圖中使用標示新增註解。
-
- 
