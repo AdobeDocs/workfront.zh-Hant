@@ -2,19 +2,21 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 依多選自訂欄位將報表分組
+title: 依多選自訂欄位對報表分組
 description: 您只能使用文字模式，在Adobe Workfront報表中依多選自訂欄位中的值分組。
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 530dff59-0d4c-490e-b464-1d3bb1d0f36f
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '513'
 ht-degree: 0%
 
 ---
 
 # 依多選自訂欄位將報表分組
+
+<!--Audited: 10/2024-->
 
 您只能使用文字模式，在Adobe Workfront報表中依多選自訂欄位中的值分組。
 
@@ -37,6 +39,8 @@ ht-degree: 0%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
@@ -44,28 +48,34 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>請求修改分組 </p>
-   <p>計畫修改報表</p> </td> 
+   <td> 
+    <p>新增：</p>
+   <ul><li><p>修改篩選器的貢獻者 </p></li>
+   <li><p>用於修改報告的標準</p></li> </ul>
+
+<p>目前：</p>
+   <ul><li><p>請求修改篩選器 </p></li>
+   <li><p>計畫修改報表</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯報告、儀表板、行事曆的存取權以修改報告</p> <p>編輯對篩選器、檢視、群組的存取權以修改群組</p> <p><b>附註</b>
-
-如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td>
-</tr>  
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>編輯報告、儀表板、行事曆的存取權以修改報告</p> <p>編輯篩選器、檢視和群組的存取權以修改篩選器</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>管理報表的許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>管理報表的許可權</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 依多選自訂欄位對報表分組
 
@@ -75,17 +85,17 @@ ht-degree: 0%
   如需有關建立自訂表單及新增自訂欄位的資訊，請參閱文章[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 * 將自訂表單附加到物件。
-* 在每個物件上填入多選自訂欄位。 
+* 在每個物件上填入多選自訂欄位。
 
 若要在報表中依多選自訂欄位分組：
 
 1. 建立報表或編輯要新增多選自訂欄位分組的現有報表。\
    如需有關建立報告的資訊，請參閱文章[建立自訂報告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
-
+1. 按一下&#x200B;**報告動作**，然後按一下&#x200B;**編輯**。
 1. 選取&#x200B;**群組**&#x200B;索引標籤。
 1. 按一下&#x200B;**切換到文字模式**。
 
-1. 在&#x200B;**將您的報告分組**&#x200B;方塊中選取文字，並以下列程式碼取代：
+1. 在&#x200B;**分組依據**&#x200B;方塊中選取文字，並以下列程式碼取代：
 
    <pre>
    group.0.displayname=多重選取自訂欄位名稱
@@ -94,7 +104,7 @@ ht-degree: 0%
    group.0.textmode=true
    </pre>
 
-1. 將「多選自訂欄位名稱」取代為您多選自訂欄位的實際名稱，如Workfront中所示。
+1. 將「多選自訂欄位名稱」取代為您多選自訂欄位的實際名稱，如您的Workfront例項中所示。
 1. 按一下&#x200B;**儲存並關閉**。
 
    報表中的物件會依多選自訂欄位的值分組。

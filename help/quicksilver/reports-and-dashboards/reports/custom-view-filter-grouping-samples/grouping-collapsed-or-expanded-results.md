@@ -4,17 +4,19 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 「群組：指示群組結果應使用文字模式摺疊或展開」
 description: 「群組：指示群組結果應使用文字模式摺疊或展開」
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 2880e06f-34f3-47b1-9462-5a15a20d6fee
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
 
 # 群組：指出群組結果應使用文字模式收合或展開
+
+<!--Audited: 10/2024-->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this article: NWE only; not possible in classic) </p>
@@ -36,6 +38,8 @@ ht-degree: 0%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
@@ -43,48 +47,51 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>請求修改分組 </p>
-   <p>計畫修改報表</p> </td> 
+   <td> 
+    <p>新增：</p>
+   <ul><li><p>修改篩選器的貢獻者 </p></li>
+   <li><p>用於修改報告的標準</p></li> </ul>
+
+<p>目前：</p>
+   <ul><li><p>請求修改篩選器 </p></li>
+   <li><p>計畫修改報表</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯報告、儀表板、行事曆的存取權以修改報告</p> <p>編輯對篩選器、檢視、群組的存取權以修改群組</p> <p><b>附註</b>
-
-如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td>
-</tr>  
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>編輯報告、儀表板、行事曆的存取權以修改報告</p> <p>編輯篩選器、檢視和群組的存取權以修改篩選器</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>管理報表的許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>管理報表的許可權</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 指示群組結果應使用文字模式收合或展開
 
 1. 移至物件清單。
 1. 從&#x200B;**群組**&#x200B;下拉式功能表中，選取&#x200B;**新群組**。
 
-1. 新增群組並按一下&#x200B;**切換到文字模式**。
+1. 新增群組，然後按一下&#x200B;**切換到文字模式**。
 
    或
 
    如果群組已處於文字模式，請將下列程式碼新增至您要摺疊顯示的群組層級：
 
-   ```
-   group.0.iscollapsed=true
-   ```
+   `group.0.iscollapsed=true`
 
 1. （選擇性）如果要展開群組顯示，請將下列程式碼新增至適當的群組層級：
 
-   ```
-   group.0.iscollapsed=false
-   ```
+   `group.0.iscollapsed=false`
 
 1. 按一下&#x200B;**完成**，然後按一下&#x200B;**儲存群組**。
+1. （選擇性）更新群組的名稱，然後按一下&#x200B;**儲存群組**。
