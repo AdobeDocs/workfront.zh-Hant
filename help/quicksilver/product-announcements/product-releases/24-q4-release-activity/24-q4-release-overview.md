@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 8bd7f0b7ed864bf8aa07dbd9ce1104b8da1edb4a
 workflow-type: tm+mt
-source-wordcount: '2208'
+source-wordcount: '2200'
 ht-degree: 0%
 
 ---
@@ -187,7 +187,6 @@ ht-degree: 0%
                         <li>
                             <p>適用於所有客戶的生產版本：24.10版本（2024年10月17日）</p>
                         </li>
-                        <p><i>此功能已暫時從預覽中移除。</i></p>
                     </ul>
                 </td>
             </tr>

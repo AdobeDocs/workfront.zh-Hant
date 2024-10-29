@@ -4,9 +4,9 @@ description: 2024年第四季檔案管理增強功能
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: e48ef14cc3d0377a6d95f68b502f952ffe4880c4
+source-git-commit: 8bd7f0b7ed864bf8aa07dbd9ce1104b8da1edb4a
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,6 @@ ht-degree: 0%
 >[!NOTE]
 >
 >~~預覽版本： 2024年10月3日~~；適用於所有客戶的生產： 24.10版本（2024年10月17日）
->
->_此功能已暫時從預覽移除。_
 
 您現在可以直接在檔案清單中檢視檔案的決定狀態。
 
