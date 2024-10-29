@@ -7,9 +7,9 @@ description: Adobe Workfront可讓您快速輕鬆地將與任何工作專案無�
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: 8dd932fe0203fb4a0391f1cbc2d6b8b58a87a00a
+source-git-commit: 019701abe441169f1f898df6b5cb1a6f743753f3
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -82,6 +82,8 @@ ht-degree: 0%
 
 1. 選取您要傳送訊息給的一或多位使用者，然後按一下&#x200B;[!UICONTROL **傳送更新給使用者**]。
 1. 在[!UICONTROL 傳送更新給使用者]視窗中輸入您的訊息。
+
+   <span class="preview">預覽環境中的範例影像：</span>
 
    傳送更新給使用者視窗上的<span class="preview">![訊息使用者](assets/send-message-to-user-dialog-from-user-list.png)</span>
 

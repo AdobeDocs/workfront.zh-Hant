@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 83995ccd5fc4a94d7d2574bfa7514f3df6f3618e
 workflow-type: tm+mt
-source-wordcount: '1288'
+source-wordcount: '1329'
 ht-degree: 0%
 
 ---
 
 # 組織和預覽表單
+
+{{highlighted-preview}}
 
 您可以使用表單設計工具來組織自訂表單，並預覽以確認其設定正確。
 
@@ -157,6 +159,14 @@ ht-degree: 0%
    >* 自訂欄位和Widget不一定會在表單中以相同的方式顯示，取決於使用者檢視時可用的熒幕空間。 例如，如果水準間距受限，欄位列中的第三個欄位可能會換成下一列欄位。
 
 1. （可選）若要將自訂欄位或Widget置於另一個欄位之上或之下，請將其拖曳至另一個欄位之上或之下，直到專案之間出現水準藍色線為止。
+
+<div class="preview">
+
+1. 若要將自訂欄位移動到表單上的另一個區段，您可以將其拖放到適當位置，或按一下欄位上的&#x200B;**移至**&#x200B;圖示並選取要移動它的區段。
+
+   ![將欄位移至區段](assets/move-field-to-section.png)
+
+</div>
 
 1. 若要儲存變更，請按一下[套用] ****
 
