@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: b2135fb5f29ebc794763ab6d3fb1c539de6125b4
+source-git-commit: 06c3cb557cf35d79b09e4f68e0f3e8cb69fbe4a6
 workflow-type: tm+mt
 source-wordcount: '1644'
 ht-degree: 11%
@@ -27,7 +27,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->本文會說明在目前Workfront計畫模型中可用於存取層級的功能。 若要檢視新計畫模型中可用的功能，請參閱[各種存取層級中每種物件型別的可用功能](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)。
+>本文會說明新Workfront計畫模型中可用於存取層級的功能。 若要檢視目前計畫模型中可用的功能，請參閱[各種存取層級中每種物件型別的可用功能](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)。
 
 
 ## 專案
