@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 83995ccd5fc4a94d7d2574bfa7514f3df6f3618e
+source-git-commit: bd1635dbcd9a49969b99901faf9e3a4744241001
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1335'
 ht-degree: 0%
 
 ---
@@ -160,13 +160,10 @@ ht-degree: 0%
 
 1. （可選）若要將自訂欄位或Widget置於另一個欄位之上或之下，請將其拖曳至另一個欄位之上或之下，直到專案之間出現水準藍色線為止。
 
-<div class="preview">
+1. 若要將自訂欄位移動到表單上的另一個區段，您可以將其拖放到適當位置，<span class="preview">或按一下欄位上的&#x200B;**移至**&#x200B;圖示，並選取要移動它的區段。</span>
 
-1. 若要將自訂欄位移動到表單上的另一個區段，您可以將其拖放到適當位置，或按一下欄位上的&#x200B;**移至**&#x200B;圖示並選取要移動它的區段。
-
+   <span class="preview">預覽環境中的範例影像：</span>
    ![將欄位移至區段](assets/move-field-to-section.png)
-
-</div>
 
 1. 若要儲存變更，請按一下[套用] ****
 
