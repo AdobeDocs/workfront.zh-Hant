@@ -4,17 +4,19 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: '報告：預算時數'
 description: '報告：預算時數'
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 2c0b60a6-fae4-4b29-8243-2a7f7d1f574b
-source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
+source-git-commit: a6874c3a2dfda02b8a25f78056767d8c59c888e9
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '658'
 ht-degree: 1%
 
 ---
 
 # 報告：預算時數
+
+<!--Audited: 10/2024-->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: From&nbsp;Alina: This is my article, but since it's about building a report, it is in the Reporting section. Please don't remove it -it's linked to Resource Management and it is super important.) </p>
@@ -26,9 +28,11 @@ ht-degree: 1%
 >
 >預算時數通常每小時在Adobe Workfront資料庫中更新一次（少數情況下，最多可能需要三個小時）。 重新整理報告不一定會重新整理報告中的小時資訊。 您可以在每個預算時數報表的右上角，檢視自上次更新以來的經過時間。 重新整理報告只會在上次更新後超過一小時時重新整理其中的資訊。
 >
->![](assets/budgeted-hour-report-time-sync-warning-350x74.png)>
+>![](assets/budgeted-hour-report-time-sync-warning-350x74.png)
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -37,66 +41,63 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計劃 </p> </td> 
+   <td> 
+    <p>新增：</p>
+   <ul><li><p>修改篩選器的貢獻者 </p></li>
+   <li><p>用於修改報告的標準</p></li> </ul>
+
+<p>目前：</p>
+   <ul><li><p>請求修改篩選器 </p></li>
+   <li><p>計畫修改報表</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯報告、儀表板、行事曆的存取權</p> <p>編輯對篩選器、檢視、群組的存取權</p> <p><b>附註</b>
-
-如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td>
-</tr> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>編輯報告、儀表板、行事曆的存取權以修改報告</p> <p>編輯篩選器、檢視和群組的存取權以修改篩選器</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>管理報表的許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>管理報表的許可權</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 建立預算時數報告
 
-1. 按一下右上角的&#x200B;**主要功能表** ![](assets/main-menu-icon.png)，然後按一下&#x200B;**報表**。
+1. 按一下右上角的&#x200B;**主功能表**&#x200B;圖示![](assets/main-menu-icon.png)，或左上角的&#x200B;**主功能表**&#x200B;圖示![](assets/lines-main-menu.png) （如果有的話），然後按一下&#x200B;**報表**。
 
-1. 按一下&#x200B;**新報告>預算時數**。
+1. 按一下「**新報告**」>「**更多**」>「**預算時數**」。
 
    預設檢視會套用至報表。
 
-1. （選擇性）若要讓報告更易於閱讀，請按一下&#x200B;**預算時數**&#x200B;欄，然後&#x200B;**切換至文字模式**，然後變更
-
-   ```
-   valuefield
-   ```
-
-   行至
-
-   ```
-   valueexpreesion
-   ```
-
-   並輸入舍入運算式。
+1. （選擇性）若要讓報表更易於閱讀，請按一下&#x200B;**Bud。 小時**&#x200B;欄，然後&#x200B;**切換到文字模式**，然後按一下&#x200B;**編輯文字模式**。
+1. 將`valuefield`行變更為`valueexpreesion`並輸入舍入運算式。
 
    這會將預算時數四捨五入為您指定的小數。
 
    如需有關如何在Workfront中舍入數字的資訊，請參閱文章[計算資料運算式概觀](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)。
 
+1. 按一下&#x200B;**完成**。
 1. （選擇性）按一下&#x200B;**新增欄**&#x200B;以新增其他欄。
 1. （選用）若要讓報表更易於閱讀，建議您將分組新增至報表。 我們建議進行下列分組：
 
    按一下&#x200B;**群組**&#x200B;標籤，然後執行下列一或數個動作：
 
-   1. 按一下&#x200B;**新增群組**&#x200B;並開始輸入「專案名稱」，然後當它出現在清單中時選取它。
-   1. 按一下&#x200B;**新增群組**&#x200B;並開始輸入「工作角色名稱」，然後當它出現在清單中時選取它。
-   1. 按一下&#x200B;**新增群組**&#x200B;並開始輸入&#x200B;**配置日期**，當它出現在清單中時選取它，然後從&#x200B;**依**&#x200B;的群組日期欄位選取您要依其進行群組的時間範圍。
+   * 按一下&#x200B;**新增群組**&#x200B;並開始輸入「專案名稱」，然後當它出現在清單中時選取它。
+   * 按一下&#x200B;**新增群組**&#x200B;並開始輸入「工作角色名稱」，然後當它出現在清單中時選取它。
+   * 按一下&#x200B;**新增群組**&#x200B;並開始輸入「分配日期」，當它出現在清單中時選取它，然後從&#x200B;**依**&#x200B;的群組日期欄位中選取您要依其進行群組的時間範圍。
 
 1. （選擇性）按一下&#x200B;**篩選器**&#x200B;以將篩選器新增至報表。
 1. （選擇性）按一下&#x200B;**圖表**&#x200B;將圖表新增至報表。
-1. 按一下&#x200B;**儲存+關閉**。
+1. 按一下「**儲存並關閉**」。
 
 ## 檢閱預算時數報告
 

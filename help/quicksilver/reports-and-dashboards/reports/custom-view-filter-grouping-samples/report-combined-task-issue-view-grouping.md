@@ -2,19 +2,21 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「報告：合併的任務和問題檢視和分組」
+title: 「報告：合併的任務和問題檢視與分組」
 description: 此工作專案報告顯示使用者已接受在一個報告中處理的任務和問題。 最好與自訂分組結合。
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 6eaae772-229d-44ea-b285-cbaf9e46eade
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: bc99e303047b989b972974b398420a9180e40874
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 1%
+source-wordcount: '411'
+ht-degree: 0%
 
 ---
 
 # 報告：合併的任務和問題檢視和分組
+
+<!--Audited: 10/2024-->
 
 此工作專案報告顯示使用者已接受在一個報告中處理的任務和問題。 最好與自訂分組結合。
 
@@ -22,11 +24,13 @@ ht-degree: 1%
 
 >[!TIP]
 >
-> 「工作專案」檢視只會顯示指派給他們的使用者所接受的任務和問題。 此報告不顯示尚未從「工作請求」或「團隊請求」清單移入使用者「正在處理」清單的工作專案。
+>  「工作專案」檢視只會顯示指派給他們的使用者所接受的任務和問題。 此報告不顯示尚未從「工作請求」或「團隊請求」清單移入使用者「正在處理」清單的工作專案。
 
 ![work_item_report.png](assets/work-item-report-350x46.png)
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -35,40 +39,47 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計劃 </p> </td> 
+   <td> 
+    <p>新增：</p>
+   <ul><li><p>修改篩選器的貢獻者 </p></li>
+   <li><p>用於修改報告的標準</p></li> </ul>
+
+<p>目前：</p>
+   <ul><li><p>請求修改篩選器 </p></li>
+   <li><p>計畫修改報表</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯報告、儀表板、行事曆的存取權</p> <p>編輯對篩選器、檢視、群組的存取權</p> <p><b>附註</b>
-
-如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td>
-</tr> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>編輯報告、儀表板、行事曆的存取權以修改報告</p> <p>編輯篩選器、檢視和群組的存取權以修改篩選器</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>管理報表的許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>管理報表的許可權</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 建立包含合併任務和問題的報告檢視和分組
 
 若要使用此檢視建立報表：
 
-1. 從&#x200B;**主功能表** ![](assets/main-menu-icon.png)，按一下&#x200B;**報表**。
+1. 按一下右上角的&#x200B;**主功能表**&#x200B;圖示![](assets/main-menu-icon.png)，或左上角的&#x200B;**主功能表**&#x200B;圖示![](assets/lines-main-menu.png) （如果有的話），然後按一下&#x200B;**報表**。
 
-1. 按一下&#x200B;**新報告**，然後從下拉式功能表中選取物件&#x200B;**工作專案**。
+1. 從下拉式功能表中按一下&#x200B;**新增報表** > **更多** > **工作專案**。
 
-1. 在&#x200B;**欄預覽**&#x200B;區域中，按一下唯一顯示的欄標題。
+1. 在&#x200B;**欄預覽**&#x200B;區域中，按一下唯一顯示的欄標題。 這是&#x200B;**外部參照**&#x200B;資料行。
 1. 按一下&#x200B;**切換到文字模式**。
-1. 將滑鼠移到文字模式區域上，然後按一下&#x200B;**按一下以編輯文字**。
-1. 移除您在&#x200B;**文字模式**&#x200B;方塊中找到的文字，並取代為下列程式碼：
+1. 將滑鼠移到文字模式區域上，然後按一下&#x200B;**編輯文字模式**。
+1. 移除您在文字模式方塊中找到的文字，並以下列程式碼取代：
 
    ```
    column.0.description=Task or Issue 
@@ -259,8 +270,9 @@ ht-degree: 1%
    column.15.width=1
    ```
 
+1. 按一下&#x200B;**完成**。
 1. （選用）按一下「**群組**」，將群組新增至報表。
-1. （選擇性）如果您正在新增群組，請按一下&#x200B;**切換到文字模式**。
+1. （選擇性和條件性）如果您正在新增群組，請按一下&#x200B;**切換到文字模式**。
 1. （可選）將分組文字模式區域中的文字取代為下列程式碼：
 
    ```
@@ -273,3 +285,4 @@ ht-degree: 1%
    此分組將所有任務和問題分組在一起。
 
 1. 按一下「**儲存並關閉**」。
+1. （選擇性）更新報表的名稱，然後按一下[套用]。****

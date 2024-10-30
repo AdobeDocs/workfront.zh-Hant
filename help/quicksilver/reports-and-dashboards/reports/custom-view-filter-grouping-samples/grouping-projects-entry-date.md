@@ -2,19 +2,21 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「群組：依輸入日期區分的專案」
+title: 「群組：依輸入日期排列的專案」
 description: 在此自訂專案分組中，您可以顯示按其輸入日期值分組的專案。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 511faad5-b5bd-4e2d-8daa-3fcde49a502c
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: a6874c3a2dfda02b8a25f78056767d8c59c888e9
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
 
 # 群組：依輸入日期排列的專案
+
+<!--Audited: 10/2024-->
 
 在此自訂專案分組中，您可以顯示按其輸入日期值分組的專案。
 
@@ -76,11 +78,14 @@ ht-degree: 0%
 1. 移除&#x200B;**依**&#x200B;分組區域中的文字。
 1. 將文字取代為下列程式碼：
 
+
+   ```
    group.0.linkedname=direct
-group.0.name=專案專案
-group.0.valueexpression=IF(ABS(DATEDIFF({entryDate}，$$TODAY))&lt;=30，&quot;Last 30 Days&quot;，IF(DATEDIFF({entryDate}，$$TODAY))>30&amp;&amp;ABS(DATEDIFF({entryDate}，$$TODAY))&lt;=60，&quot;30-60 Days&quot;，&quot;Older 60 days&quot;)
-group.0.valueformat=atDateAsMonthString
-textmode=true
+   group.0.name=Project Entry
+   group.0.valueexpression=IF(ABS(DATEDIFF({entryDate},$$TODAY))<=30,"Last 30 Days",IF(ABS(DATEDIFF({entryDate},$$TODAY))>30&&ABS(DATEDIFF({entryDate},$$TODAY))<=60,"30-60 Days","Older than 60 days"))
+   group.0.valueformat=atDateAsMonthString
+   textmode=true
+   ```
 
 1. 按一下&#x200B;**完成** > **儲存群組**。
 1. （選擇性）更新群組的名稱，然後按一下&#x200B;**儲存群組**。

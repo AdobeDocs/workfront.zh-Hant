@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 95f21f064c5298dc6d2e1c24872ee049f77c3fac
+source-git-commit: 82633fcb858273dee360fc44b031fec5a5cdff54
 workflow-type: tm+mt
-source-wordcount: '3612'
+source-wordcount: '3689'
 ht-degree: 2%
 
 ---
@@ -21,6 +21,11 @@ ht-degree: 2%
 <!--Do we need this for FORMULAS: when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula - not sure is needed??-->
 
 # 建立欄位
+
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 
 {{planning-important-intro}}
 
@@ -233,7 +238,7 @@ OLD:
 
 1. 在&#x200B;**新欄位**&#x200B;索引標籤中新增下列資訊：
    * **名稱**：欄位型別的名稱，它將顯示在資料表或記錄的詳細資訊頁面中。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **描述**：有關欄位的額外資訊。 當您將滑鼠懸停在表格中的欄位欄標題上時，會顯示欄位說明。
+   * **描述**：有關欄位的額外資訊。 當您將滑鼠游標停留在表格中的欄位欄位標題上時，會顯示欄位說明，或是在記錄的詳細資訊頁面中按一下欄位名稱旁的資訊圖示時顯示<span class="preview">。</span>
 1. 按一下「**建立**」。
 
    新的單行欄位會新增為記錄型別的欄，其值可以與記錄相關聯。
@@ -366,7 +371,7 @@ OLD:
 
 百分比欄位型別會以數字格式擷取資訊，後面接著百分比符號。
 
-1. 依照本文中[從頭開始建立欄位](#create-fields-from-scratch)一節的說明開始建立欄位，然後選取&#x200B;**百分比**&#x200B;欄位型別。
+1. 依照本文中[從頭開始建立欄位](#create-fields-from-scratch)一節的說明開始建立欄位，然後選取&#x200B;**百分比**&#x200B;欄位型別。<!--change screen shot for preview-->
 
    ![](assets/percentage-field-type.png)
 
@@ -376,9 +381,23 @@ OLD:
    * **精確度**：您要為欄位記錄的小數位數。 您最多可以顯示6個小數位數。
    * **允許負數**：若要允許此欄位中有負百分比值，請選取此選項。 預設會取消選取此選項。
 
-   >[!NOTE]
-   >
-   >    如果您選取「允許負數」，且負值儲存在附加欄位的記錄上，則以後無法再取消選取設定。
+     >[!NOTE]
+     >
+     >    如果您選取「允許負數」，且負值儲存在附加欄位的記錄上，則以後無法再取消選取設定。
+
+   <!--<div class="preview">  
+
+    * **Show as**: From the drop-down menu, choose how you want the percentage values to display in the table view. Select from the following options:
+        * **Number**: The percent value displays as a number followed by the percentage sign. 
+        * **Bar**: The percent value displays as a bar next to the percentage number. The fill color of the bar indicates the percent value. 
+        * **Circle**: The percent value displays as the outline of a circle next to the percentage number. The fill color of the circle's outline indicates the percent value.
+
+    >[!NOTE]
+    >
+    >* The selection you make in the Show as field only applies to the percentage value visible in the table view. The percent value of the field displays as a number followed by the percentage sign everywhere else in Workfront Planning. This also applies to the percentage-type field when it displays as a lookup field in other records' table views.
+    >* You can change the Show as selection when editing the field later. 
+    </div>-->
+
 
 1. 按一下「**建立**」。
 

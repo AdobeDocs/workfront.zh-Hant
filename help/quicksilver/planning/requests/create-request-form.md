@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 82633fcb858273dee360fc44b031fec5a5cdff54
 workflow-type: tm+mt
 source-wordcount: '1259'
 ht-degree: 2%
@@ -16,6 +16,11 @@ ht-degree: 2%
 # 在Adobe Workfront Planning中建立和管理請求表單
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--take Preview and Production references at Production time-->
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -143,6 +148,25 @@ ht-degree: 2%
      >    * 公式
      >    * 建立日期
      >    * 上次修改日期
+
+     <!--replace the above with this: 
+
+            >[!IMPORTANT]
+            >
+            > Depending on what environment you use to create a request form, the following scenarios exist:
+            >
+            >* Fields of the following types do not display in the request form in the Preview or Production environments: 
+            >
+            >    * People (includes Created by and Last modified by)
+            >    * Formula
+            >    * Created date
+            >    * Last modified date
+            >    * Workfront object connected fields
+            >    * Workfront objects connected lookup fields
+            >* <span class="preview">Fields of the following types do not display in the request form in the Production environment. They display in the Preview environment:</span>
+            >    * <span class="preview">Planning records' connected fields (includes connections with Workfront, and Experience Manager assets)</span>
+            >    * <span class="preview">Planning records' connected lookup fields</span>
+      -->
 
    * **預設的分節**：這是Workfront套用至要求表單的預設分割槽符號。 無法重新命名或移除「預設」區段。
    * **主旨**&#x200B;欄位：將在Workfront中識別要求的欄位。 此功能尚未提供。 主旨欄位的設定和值無法編輯。

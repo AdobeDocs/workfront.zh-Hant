@@ -1,14 +1,14 @@
 ---
 title: 連線記錄
-description: 在記錄型別之間建立連線後，可以將個別記錄彼此連線。
+description: 在記錄型別之間建立連線後，可以將個別記錄彼此連線。 您可以在連線記錄時，顯示來自另一筆記錄的資訊。
 recommendations: noDisplay, noCatalog
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 82633fcb858273dee360fc44b031fec5a5cdff54
 workflow-type: tm+mt
-source-wordcount: '2793'
+source-wordcount: '2988'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,13 @@ ht-degree: 1%
 
 # 連接記錄
 
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 {{planning-important-intro}}
 
-您可以將Adobe Workfront Planning記錄彼此連線，或從其他應用程式連線至物件。
+您可以將Adobe Workfront Planning記錄彼此連線，或從其他應用程式連線至物件。 您可以在連線記錄時，顯示來自另一筆記錄的資訊。
 
 本文會介紹如何連線記錄。 如需有關連線記錄的一般資訊，請參閱[連線記錄概觀](/help/quicksilver/planning/records/connected-records-overview.md)。
 
@@ -129,11 +133,11 @@ ht-degree: 1%
 
 +++
 
-## 連線記錄的先決條件
+## 連線記錄的考量事項
 
-若要將記錄與其他記錄或物件連線，您必須具備下列條件：
+* 若要將記錄與其他記錄或物件連線，您必須具備下列條件：
 
-* 至少一個工作區、記錄型別和記錄。
+   * 至少一個工作區、記錄型別和記錄。
 
   如需詳細資訊，請參閱下列文章：
 
@@ -141,7 +145,9 @@ ht-degree: 1%
    * [建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md)
    * [建立記錄](/help/quicksilver/planning/records/create-records.md)
 
-* 記錄型別之間的連線，或記錄型別與其他應用程式物件之間的連線。 如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
+   * 記錄型別之間的連線，或記錄型別與其他應用程式物件之間的連線。 如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
+
+* 您可以將一或多個記錄或物件彼此連線。 這取決於您在連線記錄或物件型別時選取的連線型別。 如需詳細資訊，請參閱[連線記錄型別概觀](/help/quicksilver/planning/architecture/connect-record-types-overview.md)。
 
 ## 從Workfront Planning連線記錄
 
@@ -172,9 +178,10 @@ ht-degree: 1%
 
    >[!TIP]
    >
-   >    如果只選擇在記錄型別連線時顯示的記錄影像，則連線的欄位中只會顯示記錄的縮圖或圖示。 如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
+   >如果只選擇在記錄型別連線時顯示的記錄影像，則連線的欄位中只會顯示記錄的縮圖或圖示。 如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
+   >
 
-
+1. <span class="preview"> （條件式）如果您在連線記錄型別時為「連線」型別選取「一對多」或「一對一」，而您嘗試連線記錄或已在其他地方連線的物件，您將會收到警告，指出再次連線會將它從原始連線中移除。 按一下&#x200B;**連線**&#x200B;以允許移除並連線記錄，或按一下&#x200B;**取消**&#x200B;返回欄位並選取其他記錄。</span>
 1. （選擇性）如果您找不到要連線的記錄或物件，而且您想要新增該記錄，請按一下[新增] **+ [新增]**&#x200B;以新增記錄。 如需詳細資訊，請參閱文章[建立記錄](/help/quicksilver/planning/records/create-records.md)中的「連線時建立記錄」一節。
 
    >[!TIP]
