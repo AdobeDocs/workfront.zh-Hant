@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: d3151a23f18ec91420f7f9b53f84386d8adc2bb1
+source-git-commit: 88ddadb8ea00d5c45ec414837bf10aa63d11200e
 workflow-type: tm+mt
-source-wordcount: '14559'
+source-wordcount: '14564'
 ht-degree: 2%
 
 ---
@@ -545,6 +545,7 @@ ht-degree: 2%
          * [透過新授權存取物件和區域](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
          * [可用於新存取層級之每種物件型別的功能](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
          * [停用新授權計畫上未付費使用者的自動升級選項](administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
+         * [比較不同授權模式的功能](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/comparing-old-and-new-license-models.md)
          * [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
       * 存取層級如何運作{#legacy-access-levels}
          * [存取層級的運作方式](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
@@ -2438,7 +2439,7 @@ ht-degree: 2%
       * [從Microsoft Teams建立Adobe Workfront任務](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md)
       * [從Microsoft Teams提交Adobe Workfront請求](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/submit-workfront-requests-from-ms-teams.md)
       * [在Microsoft Teams中管理Adobe Workfront通知](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md)
-   * Salesforce {#workfront-for-salesforce}的Adobe Workfront
+   * 適用於Salesforce {#workfront-for-salesforce}的Adobe Workfront
       * [適用於Salesforce的Adobe Workfront](workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce.md)
       * [適用於Salesforce的Adobe Workfront概觀](workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce-overview.md)
       * [安裝適用於Salesforce的Adobe Workfront](workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md)
