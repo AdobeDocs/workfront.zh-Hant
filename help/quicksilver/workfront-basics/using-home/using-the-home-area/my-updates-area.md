@@ -6,7 +6,7 @@ description: 您可以使用[!UICONTROL 我的更新]區域來快速檢閱等待
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: bc60d2cd3dee9be2351d751bafff0e35267ea640
+source-git-commit: 57b6453d4e67e1cb70c4233c1150620867f2e9d1
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 0%
@@ -146,8 +146,6 @@ ht-degree: 0%
 1. （選擇性）按一下&#x200B;**[!UICONTROL 忽略]**&#x200B;以從核准清單中清除存取要求，而不授予存取要求。
 1. 如果您有一段時間無法做出核准決定，請按一下&#x200B;**[!UICONTROL 委派我的核准]**&#x200B;以委派提交給您的核准。 如需委託核准的詳細資訊，請參閱[委託核准要求](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md)。
 1. 捲動至您核准下方的&#x200B;**[!UICONTROL 提及]**&#x200B;區域。 在這裡，您可以檢視您已包含在對話中的所有專案。
-
-   ![](assets/mentions-area-for-reviewers-nwe-350x191.png)
 
    >[!TIP]
    >

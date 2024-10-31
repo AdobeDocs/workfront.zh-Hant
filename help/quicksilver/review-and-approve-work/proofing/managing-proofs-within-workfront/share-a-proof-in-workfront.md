@@ -6,9 +6,9 @@ description: 您可以透過共用檔案或將使用者新增到校訂來在Adob
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a5438db3-6507-4ebc-a27c-65f02c45783e
-source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
+source-git-commit: aaf5beb8692b2fdbb797ba908796d78b4ee8866c
 workflow-type: tm+mt
-source-wordcount: '1233'
+source-wordcount: '1231'
 ht-degree: 0%
 
 ---
@@ -172,6 +172,6 @@ ht-degree: 0%
 
 ## 核准共用校訂
 
-當使用者將您新增到校訂並使用Automated Workflow授予核准者角色或檢閱者和核准者角色時，核准請求將顯示在您的「首頁」或「我的工作」區域的核准索引標籤上。 然後您可以直接從Workfront檢視校樣並對校樣做出核准決定。
+當使用者將您新增到校訂並使用Automated Workflow授予核准者角色或檢閱者和核准者角色時，核准請求將顯示在首頁區域的我的核准Widget中。 然後您可以直接從Workfront檢視校樣並對校樣做出核准決定。
 
-如需如何從「我的工作」區域做出核准決定的相關資訊，請參閱[核准來自首頁區域的工作](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-home-area)或[核准工作](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-my-work-area) （在[核准工作](../../../review-and-approve-work/manage-approvals/approving-work.md)）。
+如需如何從我的核准Widget做出核准決定的相關資訊，請參閱[從首頁區域核准工作](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-home-area)或[在[核准工作](../../../review-and-approve-work/manage-approvals/approving-work.md)中核准工作](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-my-work-area)。

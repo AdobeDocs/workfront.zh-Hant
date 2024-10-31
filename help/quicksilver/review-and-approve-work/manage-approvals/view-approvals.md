@@ -6,9 +6,9 @@ description: 核准流程提供了為專案、任務和問題建立多步驟核�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
-source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
+source-git-commit: b0b83e8a8a2a076ec20691183605e3d25d10129d
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '796'
 ht-degree: 0%
 
 ---
@@ -62,9 +62,9 @@ ht-degree: 0%
 
 * 在「首頁」區域中
 
-   * 當您選取檢視全部或核準時，所有等待您核准的專案、任務、問題、時程表、檔案和存取權都會顯示在首頁區域中。
-   * 您自己提交的核准也會顯示在首頁區域，在工作清單的「我已提交的核准」區段。 如需詳細資訊，請參閱本文中[首頁]區域](#review-work-you-submit-for-approval-in-the-home-area)一節中的[檢閱您提交核准的工作。
-   * 當關聯的專案、任務或問題標籤為「已解決」、「保留」、「已關閉」或「已取消」時，核准會從「首頁」區域移除。
+   * 所有等待您核准的專案、任務、問題、時程表、檔案和存取權都會顯示在首頁區域的我的核准Widget中。
+   * 當您選擇我已提交的核准篩選選項時，您自己提交的核准也會顯示在首頁區域的我的核准Widget中。 如需詳細資訊，請參閱本文中[首頁]區域](#review-work-you-submit-for-approval-in-the-home-area)一節中的[檢閱您提交核准的工作。
+   * 當關聯的專案、任務或問題標示為「已解決」、「保留」、「已關閉」或「已取消」時，核准會從「首頁」區域的「我的核准」小工具中移除。
 
   如需有關使用首頁的資訊，請參閱[開始使用首頁](../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md)。
 
@@ -82,19 +82,10 @@ ht-degree: 0%
 
 ## 在[首頁]區域中檢閱您提交核准的工作 {#review-work-you-submit-for-approval-in-the-home-area}
 
-1. 按一下Adobe Workfront左上角的&#x200B;**首頁**&#x200B;圖示![](assets/home-icon-30x29.png)。
+1. 按一下右上角的&#x200B;**[!UICONTROL 主要功能表]** ![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
+1. （視條件而定）按一下&#x200B;**自訂**&#x200B;以新增&#x200B;**我的核准** Widget。
+1. （視條件而定）按一下&#x200B;**篩選器**&#x200B;下拉式功能表，然後選取&#x200B;**我已提交的核准**，以檢視您已提交的核准。
 
-   >[!NOTE]
-   >
-   >您的Workfront管理員可能會對您環境中的「首頁」圖示進行下列變更：
-   >
-   >* 以自訂的影像取代，以說明您的組織。 在此情況下，圖示看起來將會與本文中顯示的有所不同。
-   >* 使用其他頁面取代連結至該頁面的頁面。 在此情況下，請按一下頁面右上角的&#x200B;**主要功能表** ![](assets/main-menu-icon.png)，然後按一下&#x200B;**首頁**。
-
-1. 選取&#x200B;**工作清單**，然後按一下&#x200B;**篩選器**&#x200B;下拉式功能表並選取&#x200B;**核准**。
-1. 展開我已提交的&#x200B;**核准**&#x200B;區段，並尋找您提交的核准。
-
-   ![](assets/approvals-submitted-section-in-home-nwe-350x401.png)
 
 ## 檢視物件的核准狀態
 

@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 452fc235-ff90-4451-b48b-354671227f6f
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '557'
 ht-degree: 0%
 
 ---
@@ -49,8 +49,6 @@ ht-degree: 0%
 使用「我的優先順序」排序選項，您現在可以優先處理工作清單中對您重要的任何工作專案。
 
 以前，您只能優先處理「我的工作」區域中的任務和問題。
-
-如需詳細資訊，請參閱[在首頁區域排定工作優先順序](../../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md)。
 
 ## 以群組管理員身分更新使用者設定檔中的角色 {#update-roles-in-the-user-profile-as-a-group-administrator}
 

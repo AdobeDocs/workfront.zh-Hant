@@ -6,9 +6,9 @@ description: 只有在您的Adobe Workfront環境已與Workfront Proof Premium�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 3f012b1d-69a8-4426-8894-3dafb1e6b837
-source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
+source-git-commit: b0b83e8a8a2a076ec20691183605e3d25d10129d
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -52,26 +52,16 @@ ht-degree: 0%
 
 ## 檢視提交的校訂核准
 
-1. 按一下Adobe Workfront左上角的&#x200B;**首頁**&#x200B;圖示![](assets/home-icon-30x29.png)。
+1. 按一下右上角的&#x200B;**[!UICONTROL 主要功能表]** ![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
+1. （視條件而定）按一下&#x200B;**自訂**&#x200B;以新增&#x200B;**我的核准** Widget。
+1. （視條件而定）按一下&#x200B;**篩選器**&#x200B;下拉式功能表，然後選取&#x200B;**我已提交的核准**，以檢視您已提交的核准。
 
-   >[!NOTE]
-   >
-   >您的Workfront管理員可能會對您環境中的「首頁」圖示進行下列變更：
-   >
-   >* 以自訂的影像取代，以說明您的組織。 在此情況下，圖示看起來將會與本文中顯示的有所不同。
-   >* 使用其他頁面取代連結至該頁面的頁面。 在此情況下，請按一下頁面右上角的&#x200B;**主要功能表** ![](assets/main-menu-icon.png)，然後按一下&#x200B;**首頁**。
-
-1. 在&#x200B;**工作清單**&#x200B;區域中，前往我已提交的&#x200B;**核准**&#x200B;群組。
-
-1. 在工作清單中按一下&#x200B;**校訂**&#x200B;核准。
-
-   這將開啟工作清單右側的校訂核准。
+   ![](assets/proof-approval.png)
 
    >[!NOTE]
    >
    > 如果您向來賓校訂使用者提交核准，則核准不會顯示在首頁。
 
-   ![](assets/proof-approval-pending-home-nwe-350x230.png)
 
 1. （選擇性）按一下右面板右上角的&#x200B;**前往校訂**&#x200B;以啟動校訂檢視器。
 

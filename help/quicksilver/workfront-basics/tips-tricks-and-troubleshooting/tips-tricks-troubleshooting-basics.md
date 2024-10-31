@@ -5,9 +5,9 @@ author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 89a1ac84-123b-487e-8c91-615a36e246c3
-source-git-commit: e6688408c3316a3f99fdb051adeb306f359057d1
+source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '79'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,6 @@ ht-degree: 0%
 * [[!UICONTROL 創新實驗室]](../../workfront-basics/tips-tricks-and-troubleshooting/idea-exchange.md)
 * [跨時區工作](../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md)
 * [[!DNL Workfront] [!UICONTROL 校訂管理員]許可權疑難排解](../../workfront-basics/tips-tricks-and-troubleshooting/wp-manager-permissions-troubleshooting.md)
-* [重複核准流程顯示在[!UICONTROL 首頁工作清單]中](../../workfront-basics/tips-tricks-and-troubleshooting/duplicate-apprval-processes-home.md)
 * [篩選器按鈕未顯示在頁首中](../../workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
 * [變更 [!DNL Adobe Workfront]中日期的格式](../tips-tricks-and-troubleshooting/change-date-format-chrome.md)
 * [我參與的專案篩選器包含未預期的結果](../tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)

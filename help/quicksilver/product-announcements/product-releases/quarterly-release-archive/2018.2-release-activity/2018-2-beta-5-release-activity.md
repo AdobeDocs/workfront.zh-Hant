@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0a8602aa-34c8-44d0-a102-9497d106f806
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
 workflow-type: tm+mt
-source-wordcount: '3165'
+source-wordcount: '3158'
 ht-degree: 1%
 
 ---
@@ -59,8 +59,6 @@ ht-degree: 1%
 * 更新指派給您的任務
 
 如果您使用Outlook中的行事曆，可以整合行事曆，以在[首頁行事曆]檢視中顯示Outlook事件。
-
-如需詳細資訊，請參閱[首頁行事曆檢視](../../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md)。
 
 ## 首頁工作清單（左側面板）的其他更新 {#additional-updates-to-the-work-list-left-panel-in-home}
 

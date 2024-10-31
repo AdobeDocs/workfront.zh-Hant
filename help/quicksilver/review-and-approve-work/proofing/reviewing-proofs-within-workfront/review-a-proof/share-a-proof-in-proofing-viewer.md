@@ -6,9 +6,9 @@ description: 如果校訂擁有者或建立者啟用共用，則您可以從校�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 20bd2d94-1401-4a38-9042-335d0cb32a3d
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: aaf5beb8692b2fdbb797ba908796d78b4ee8866c
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1509'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ ht-degree: 0%
 根據預設，您新增到校訂的使用者：
 
 * 接收內含證明連結的電子郵件通知。
-* 可以根據[核准工作](../../../../review-and-approve-work/manage-approvals/approving-work.md)中所述，從首頁或我的工作區域對校訂進行核准決定。
+* 可從[首頁]區域對校訂進行核准決定，如[核准工作](../../../../review-and-approve-work/manage-approvals/approving-work.md)中所述。
 * 不需要啟用校訂即可檢閱校訂。
 
 當啟用自動工作流程且您將使用者新增到Workfront中未啟用校訂的校訂時，會在自動工作流程中建立新階段。 您新增的使用者第一次檢視校訂時，會自動新增到此新階段。 如需詳細資訊，請參閱[自動化工作流程總覽](../../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md)。
