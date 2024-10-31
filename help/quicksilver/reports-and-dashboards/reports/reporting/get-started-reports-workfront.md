@@ -7,9 +7,9 @@ description: 報表可讓您檢視使用者和工作的最新狀況。 使用報
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 478512af-a47c-4488-878a-581e238e0064
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
 workflow-type: tm+mt
-source-wordcount: '3295'
+source-wordcount: '3296'
 ht-degree: 0%
 
 ---
@@ -64,8 +64,7 @@ ht-degree: 0%
 
 建立報表時，您可以在Report Builder中個別修改這些元素。
 
-增強報表中所包含資訊相關性的另一種方法，是將條件式格式套用至檢視。\
-如需使用條件式格式的資訊，請參閱[在檢視中使用條件式格式](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)。
+增強報表中所包含資訊相關性的另一種方法，是將條件式格式套用至檢視。 如需使用條件式格式的資訊，請參閱[在檢視中使用條件式格式](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)。
 
 ## 系統報表
 
@@ -81,17 +80,20 @@ Workfront提供數個系統報告，預設會載入您的系統。\
 若要建立報告，您可以執行下列任一項作業：
 
 * 從頭開始建立報表。
-* 複製現有報表。\
+* 複製現有報表。
+
   您必須至少具有「檢視」許可權，才能複製其他人建立的報表。 如需複製報告的詳細資訊，請參閱[建立報告復本](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md)。
 
-如需建立報表的相關資訊，請參閱[行事曆報表概述](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md)。
+如需建立報表的相關資訊，請參閱[建立自訂報表](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
 ### 建立報告的先決條件 {#prerequisites-for-creating-reports}
 
-* 您必須擁有Plan授權（目前的授權）或Standard授權（新的授權），才能建立您自己的報告。\
+* 您必須擁有Plan授權（目前的授權）或Standard授權（新的授權），才能建立您自己的報告。
+
   如需Workfront授權型別的相關資訊，請參閱目前授權的[授權總覽](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)，以及新授權的[新授權總覽](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)。
 
-* 您的Workfront管理員必須授予您存取層級中「編輯報表」的存取權。\
+* 您的Workfront管理員必須授予您存取層級中「編輯報表」的存取權。
+
   如需授與編輯報告存取權的相關資訊，請參閱[授與報告、儀表板和行事曆的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)。
 
 * 您的Workfront管理員必須授予您存取層級中編輯篩選器、檢視和群組的存取權。
@@ -109,7 +111,7 @@ Workfront提供數個系統報告，預設會載入您的系統。\
 
 您可以檢閱&#x200B;**輸入者**&#x200B;欄位，以檢視報表擁有者。
 
-![輸入者欄位](assets/nwe-entered-by-350x218.png)
+![輸入者欄位](assets/unshimmed-entered-by.png)
 
 ### 在產生器介面中建立報表 {#create-reports-in-the-builder-interface}
 
@@ -306,7 +308,7 @@ Workfront提供數個系統報告，預設會載入您的系統。\
    <td> <p>Report Builder中的標籤，儲存報表後的報表標籤，以及報表的可選元素，可讓您將圖表新增至任何報表。 建立圖表之前，您必須在報告中定義分組。</p> <p>下列圖表型別可新增至任何報表：<br></p> 
     <ul> 
      <li>直條</li> 
-     <li>條狀</li> 
+     <li>長條圖</li> 
      <li>圓形</li> 
      <li>折線</li> 
      <li>量測計</li> 

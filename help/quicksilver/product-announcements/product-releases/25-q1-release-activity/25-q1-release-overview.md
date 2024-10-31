@@ -4,9 +4,9 @@ description: 本頁提供2025年第一季度版本中包含的功能相關資訊
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: e2db8c095acca049be72ad26ec090867f9590c04
+source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
@@ -33,12 +33,49 @@ ht-degree: 0%
 
 ## Adobe Workfront增強功能
 
-<!--* [Administrator enhancements](#administrator-enhancements)-->
+* [管理員增強功能](#administrator-enhancements)
+  <!--* [Boards enhancements](#boards-enhancements)-->
 * [其他增強功能](#other-enhancements)
 
-<!--
+### 管理員增強功能
 
-### Administrator enhancements
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 50%;" />
+        <tbody>
+            <tr>
+                <td>
+                    <p><span class="bold">功能</span>
+                    </p>
+                </td>
+                <td>
+                    <p><span class="bold">發行日期</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">「移至」圖示已新增至自訂欄位</a></p>
+                    <p>當自訂表單包含具有多個欄位的多個區段時，透過拖放將欄位從一個區段移動到另一個區段會很困難。 每個欄位已新增「移至」圖示，可讓您選取欄位所在的區段。</p>
+                </td>
+                <td><p><b>將於下列日期提供：</b></p>
+                    <ul>
+                        <li>
+                            <p>預覽版本： 2024年10月29日</p>
+                        </li>
+                        <li>
+                            <p>快速發行生產：第24.11發行版本（2024年11月14日）</p>
+                        </li>
+                        <li>
+                            <p>所有客戶的生產版本：25.1版本（2025年1月）</p>
+                        </li>
+                   </ul>
+                </td>
+            </tr>
+        </tbody>
+</table>
+
+<!--### Boards enhancements
 
 <table>
     <col style="width: 50%;" />
@@ -56,13 +93,13 @@ ht-degree: 0%
             </tr>
             <tr>
                 <td>
-                    <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">"Move to" icon added to custom fields</a></p>
-                    <p>When a custom form contains multiple sections with many fields, it can be difficult to move a field from one section to another by dragging and dropping. A "move to" icon has been added to each field, allowing you to select the section that the field is placed in.</p>
+                    <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Change the owner of a board</a></p>
+                    <p>The creator of a board is the owner by default. The board owner is the only person who can delete that board or update its filters in the Configure panel. Functionality has been added to allow Workfront system administrators to change the owner of a board. The current owner of a board can also change the owner of that specific board.</p>
                 </td>
                 <td><p><b>Available on these dates:</b></p>
                     <ul>
                         <li>
-                            <p>Preview release: October 24, 2024</p>
+                            <p>Preview release: October 31, 2024</p>
                         </li>
                         <li>
                             <p>Production for fast release: With the 24.11 release (November 14, 2024)</p>
@@ -74,9 +111,7 @@ ht-degree: 0%
                 </td>
             </tr>
         </tbody>
-</table> 
-
--->
+</table>-->
 
 ### 其他增強功能
 
@@ -84,7 +119,26 @@ ht-degree: 0%
     <col style="width: 50%;" />
     <col style="width: 50%;" />
         <tbody>
-             <tr>
+            <tr>
+                <td>
+                    <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">AI助理現在可以處理專案、任務和問題</a></p>
+                    <p>為了更輕鬆地在Workfront中管理您的工作專案，我們已更新AI助理來處理專案、任務和問題。 現在，AI助理可以根據您指定的條件找到專案、任務和問題，例如「尋找本週到期的工作」。</p>
+                </td>
+                <td><p><b>將於下列日期提供：</b></p>
+                    <ul>
+                        <li>
+                            <p>預覽版本： 2024年10月31日</p>
+                        </li>
+                        <li>
+                            <p>快速發行生產：第24.11發行版本（2024年11月14日）</p>
+                        </li>
+                        <li>
+                            <p>所有客戶的生產版本：25.1版本（2025年1月）</p>
+                        </li>
+                   </ul>
+                </td>
+            </tr>
+            <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">在2025年第一季度時間範圍內的外觀和感覺更新</a></p>
                     <p>在2025年第一季時間範圍內，對Adobe Workfront應用程式的各個區域外觀和感覺進行了小幅更新。 檢閱特定發行日期的個別發行說明。</p>
@@ -108,7 +162,6 @@ ht-degree: 0%
 
 The following functionality is soon to be removed from Workfront:
 -->
-
 
 ## 公告
 

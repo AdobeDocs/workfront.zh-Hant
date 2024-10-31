@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: df5f37e741f5bd771f91383f9b782ffab8e6160f
+source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -34,13 +34,45 @@ ht-degree: 0%
 
 如需2024年8月28日一般可用性發行後Adobe Workfront Planning所發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
 
+## 請求表單現在支援連線欄位
+
+>[!NOTE]
+>
+>預覽版本： 2024年10月31日；快速發行生產：24.11版（2024年11月14日）；每季發行生產：25.1版（2025年1月）
+
+您現在可以將Workfront Planning記錄的已連線欄位新增至記錄型別請求表單。
+
+您無法在請求表單中為Workfront物件新增連線查詢欄位或連線欄位。
+
+在此增強功能之前，這些型別的欄位無法新增到Workfront Planning中的請求表單。
+
+如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
+
+## 連線已連結至其他記錄的記錄時出現連線警告
+
+>[!NOTE]
+>
+>預覽版本： 2024年10月31日；快速發行生產：24.11版（2024年11月14日）；每季發行生產：25.1版（2025年1月）
+
+當您嘗試連線已連線到其他位置且屬於透過「一對多」或「一對一」連線型別連線的記錄型別時，您現在會收到記錄已連線的警告。 如果您確認要繼續連線，則會從原始記錄中移除選取的記錄，並新增至您目前編輯的記錄。
+
+如需有關連線型別的資訊，請參閱[連線記錄型別概觀](/help/quicksilver/planning/architecture/connect-record-types-overview.md)。
+
+## 含有記錄詳細資訊頁面中欄位說明的新資訊圖示
+
+>[!NOTE]
+>
+>預覽版本： 2024年10月30日；快速發行生產：24.11版（2024年11月14日）；每季發行生產：25.1版（2025年1月）
+
+我們在記錄頁面的欄位名稱右側新增了資訊圖示。 當描述存在時，按一下資訊圖示會顯示欄位的描述。 在此增強功能之前，當您將滑鼠游標停留在欄位名稱上時，會顯示欄位說明。
+
+如需詳細資訊，請參閱[編輯記錄](/help/quicksilver/planning/records/edit-records.md)。
+
 ## 適用於Planning連線的新Workfront欄位型別
 
 >[!NOTE]
 >
->預覽版本： 2024年10月24日；快速發行生產：24.11版（2024年11月14日）；每季發行生產：25.1版（2024年1月16日）
-
-
+>預覽版本： 2024年10月24日；快速發行生產：24.11版（2024年11月14日）；每季發行生產：25.1版（2025年1月）
 
 為了繼續將Workfront物件橋接至Workfront Planning記錄，我們在Workfront自訂表單中新增了一個稱為Planning連線的欄位型別。 現在，您可以在Workfront自訂表單上新增此欄位型別，最終在Workfront物件上新增此欄位型別，以執行下列動作：
 
@@ -55,4 +87,3 @@ ht-degree: 0%
 如需詳細資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 [觀看此功能的影片示範](https://video.tv.adobe.com/v/3435633/){target=_blank}
-

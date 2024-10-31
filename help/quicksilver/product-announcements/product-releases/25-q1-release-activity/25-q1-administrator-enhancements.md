@@ -4,9 +4,9 @@ description: 2025年第一季度管理員增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0736b1913a8b5a58c88da19fefd55558eb7014eb
+source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '154'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽版本： 2024年10月24日；快速發行生產：24.11版（2024年11月14日）；每季發行生產：25.1版（2024年1月16日）
+>預覽版本： 2024年10月29日；快速發行生產：24.11版（2024年11月14日）；每季發行生產：25.1版（2025年1月）
 
 當自訂表單包含具有多個欄位的多個區段時，透過拖放將欄位從一個區段移動到另一個區段會很困難。 每個欄位已新增「移至」圖示，可讓您選取欄位所在的區段。
 
