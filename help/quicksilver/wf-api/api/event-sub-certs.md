@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 3606b6c3-b373-47ea-9cb5-813bd3af8da7
-source-git-commit: c547ff323ad9e43472074964ac365447755e4aa5
+source-git-commit: 8f8a5aea1eeecff76150b87a6e7fe38b21f7d033
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 2%
@@ -105,9 +105,9 @@ Listen 443
 
 按一下下列連結以下載使用者端憑證。
 
-* [使用者端憑證 — 生產環境](assets/event_subscription_nov_2023_production.crt)
-* [使用者端憑證 — 預覽環境](assets/event_subscription_nov_2023_preview.crt)
-* [使用者端憑證 — 沙箱環境](assets/event_subscription_nov_2023_sandboxes.crt)
+* [使用者端憑證 — 生產環境](assets/prod-environment-nov-2024.crt)
+* [使用者端憑證 — 預覽環境](assets/preview-environment-nov-2024.crt)
+* [使用者端憑證 — 沙箱環境](assets/sandbox-environment-nov-2024.crt)
 
 >[!NOTE]
 >
