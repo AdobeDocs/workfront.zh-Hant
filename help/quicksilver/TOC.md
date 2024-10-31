@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 88ddadb8ea00d5c45ec414837bf10aa63d11200e
+source-git-commit: 0a7d92d4a869e048ba11b84d5f78df06392d5f94
 workflow-type: tm+mt
-source-wordcount: '14564'
+source-wordcount: '14574'
 ht-degree: 2%
 
 ---
@@ -925,6 +925,7 @@ ht-degree: 2%
       * [使用AI助理摘要](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md)
       * [取得AI助理的協助](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md)
       * [使用AI助理修訂計算欄位公式](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md)
+      * [使用AI助理來處理專案、任務和問題](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md)
       * [啟用或停用AI助理](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)
    * 更新工作專案並檢視更新{#update-work-items-view-updates}
       * [更新工作專案和檢視更新：文章索引](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
