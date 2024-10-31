@@ -6,9 +6,9 @@ draft: Probably
 feature: Workfront API, Workfront Proof
 role: Developer
 exl-id: fcf89bd6-0e07-42a7-9ae3-9a1309e51946
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 79b6370ec3283922a16435e8eb8069f7f9560c55
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 這需要3個簡單的步驟：
 
-**步驟1**：透過Workfront Proof要求將檔案上傳至Post  [https://soap.proofhq.com/upload.php](https://soap.proofhq.com/upload.php)。 我們將傳回檔案雜湊 — 這非常重要！ 請注意，在這個階段，您不會看到帳戶中的任何內容，您目前所做的是將檔案傳送給我們，但沒有告訴我們應如何處理。
+**步驟1**：透過Post要求將檔案上傳至Workfront Proof  [https://soap.proofhq.com/upload.php](https://soap.proofhq.com/upload.php)。 我們將傳回檔案雜湊 — 這非常重要！ 請注意，在這個階段，您不會看到帳戶中的任何內容，您目前所做的是將檔案傳送給我們，但沒有告訴我們應如何處理。
 
 **步驟2**：如果您還沒有工作階段ID，請使用doLogin()或getSessionID()方法取得工作階段ID。 使用前者可使用使用者的電子郵件地址和密碼「登入」，如果您有使用者的電子郵件地址和驗證Token，則使用後者方法。
 
@@ -69,7 +69,4 @@ ht-degree: 0%
 `https://app.proofhq.com/viewer/proofingcode?referer=closingurl.com&customparam1=somevalue&customparam2=`必須編碼為 
 `https://app.proofhq.com/viewer/proofingcode?referer=closingurl.com%26customparam1=somevalue%26customparam2=`以便傳遞自訂引數。
 
-## 如何建立Java Web服務使用者端？
-
-[此影片](https://screencast.com/t/xsSNrqs5b)說明如何使用Eclipse和Workfront Proof WSDL定義來建立Java Web Service使用者端。
 
