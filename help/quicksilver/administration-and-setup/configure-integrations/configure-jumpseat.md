@@ -8,9 +8,9 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 author: Nolan, Becky
 exl-id: 23edb48b-8cad-47be-8ace-5238a5869677
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 01b7eb79028eb3fe47f988a31cb62ace31bba3f1
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '274'
 ht-degree: 4%
 
 ---
@@ -58,6 +58,12 @@ ht-degree: 4%
 
 * 在[!DNL JumpSeat]中新增並啟動[!DNL Workfront]作為應用程式。 如需詳細資訊，請參閱[如何新增或刪除應用程式](https://support.jumpseat.io/article/how-to-add-an-application/)。
 
+>[!IMPORTANT]
+>
+>如果您在Adobe統一體驗，您必須使用以下應用程式URL： `.workfront.adobe.com`。
+
+
+
 ## 設定[!DNL JumpSeat]整合
 
 我們建議您在預覽和生產環境中設定[!DNL JumpSeat]整合。
@@ -73,7 +79,15 @@ ht-degree: 4%
 1. 在左側面板中，按一下&#x200B;**[!UICONTROL 系統]** > **[!UICONTROL [!DNL JumpSeat]整合]**。
 1. 輸入您的&#x200B;**[!UICONTROL [!DNL JumpSeat]URL]**，您可在[!DNL JumpSeat]中的擴充功能圖示上找到。
 
-   **範例：** [!DNL https]：//{mycompanyname}.jumpseat.io
+>[!BEGINSHADEBOX]
+
+**範例：**
+
+https://{mycompanyname}.jumpseat.io
+
+>>
+
+>[!ENDSHADEBOX]
 
 1. 輸入&#x200B;**[!UICONTROL [!DNL JumpSeat]整合權杖]**。 您可以在[!DNL JumpSeat]的&#x200B;**[!UICONTROL 組態]**&#x200B;頁面上找到此專案。
 

@@ -4,9 +4,9 @@ description: 2025年第一季度發行時間範圍內的外觀與感覺更新
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
+source-git-commit: 4b92c4ede61690211dad2cb908c502dbb63d7c34
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,10 @@ ht-degree: 0%
 
 我們已升級Workfront導覽列以改善其效能。 外觀和感覺的變更很小。
 
-最明顯的變更是「我的最愛」和「最近」下拉式畫面不再有「關閉」按鈕。 您只需按一下離開熒幕，或按鍵盤上的ESC鍵以將其關閉。
+最明顯的變更如下：
+
+* 我的最愛和最近專案下拉式畫面不再有關閉按鈕。 您只需按一下離開熒幕，或按鍵盤上的ESC鍵以將其關閉。
+* 您無法再拖放釘選頁面來排列它們。 取而代之的是，有一個下拉式選單及其按鈕，可讓您移動釘選頁面。
 
 ## 傳送更新至使用者視窗的外觀更新
 
