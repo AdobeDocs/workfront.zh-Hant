@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 0e7651389a8762a2b09b0bcf87bf08c7be72adee
+source-git-commit: 81b003607634f39fbe2dd0ad076f88ce86d275cb
 workflow-type: tm+mt
-source-wordcount: '2353'
+source-wordcount: '2403'
 ht-degree: 0%
 
 ---
@@ -23,20 +23,35 @@ ht-degree: 0%
 
 * 單一內建欄位的簡單參考。
 
-  >[!INFO]
-  >
-  > **範例：**&#x200B;若要計算專案和工作產生的收入，您可以建立包含內建欄位「實際收入」的計算自訂欄位。 當有人將自訂表單附加到專案或任務時，專案或任務的收入會顯示在欄位中。
+<div style="padding-left: 2em">
+
+>[!BEGINSHADEBOX]
+
+**範例：**&#x200B;若要計算專案和工作產生的收入，您可以建立包含內建欄位「實際收入」的計算自訂欄位。 當有人將自訂表單附加到專案或任務時，專案或任務的收入會顯示在欄位中。
+
+>[!ENDSHADEBOX]
+
+</div>
 
 * 參考一或多個欄位的運算式。 這些可以是自訂欄位、其他計算自訂欄位和內建欄位。
 
-  >[!INFO]
-  >
-  >**範例：**&#x200B;若要計算專案和工作所產生的利潤，您可以建立名為Profit的計算自訂欄位，其中包含從收入中扣除成本的數學運算式。
-  >
-  >若要這麼做，您可以使用數學運算式SUB （減）搭配內建的Workfront欄位「實際成本」和「實際收入」。
-  >
-  >在下列步驟中，您可以看到如何執行此範例。
+<div style="padding-left: 2em">
 
+>[!BEGINSHADEBOX]
+
+**範例：**&#x200B;若要計算專案和工作所產生的利潤，您可以建立名為Profit的計算自訂欄位，其中包含從收入中扣除成本的數學運算式。
+
+若要這麼做，您可以使用數學運算式SUB （減）搭配內建的Workfront欄位「實際成本」和「實際收入」。
+
+在以下步驟中，您可以看到如何建立如以下範例的運算式。
+
+>[!ENDSHADEBOX]
+
+</div>
+
+>[!NOTE]
+>
+>直接欄位的變更會自動觸發計算欄位值的更新。 (直接欄位是Workfront API Explorer中可用的欄位，或是附加到物件的自訂表單中的自訂欄位。) 對參考或公式的變更需要手動重新計算欄位值。
 
 ## 存取需求
 
