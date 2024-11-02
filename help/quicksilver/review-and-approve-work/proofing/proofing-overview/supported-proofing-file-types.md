@@ -7,7 +7,7 @@ description: 您可以與檢閱者共用及檢閱各種型別的檔案，即使�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: 0a9bc92df7360565318d7776dae73b414c054fc2
+source-git-commit: b0454e68bdd6e9e78bd748868fc82a7b0cf8f379
 workflow-type: tm+mt
 source-wordcount: '1052'
 ht-degree: 0%
@@ -49,6 +49,7 @@ Workfront有下列限制：
 > * PPSX - Microsoft PowerPoint投影片
 > * XLT - Microsoft Excel範本
 > * xltx - Microsoft Excel範本
+> * EPS — 封裝式PostScript
 
 * ABC - LEAD進階位元壓縮
 * ABIC — 最適化雙層級影像壓縮
@@ -181,7 +182,6 @@ Workfront有下列限制：
 > * PPSX - Microsoft PowerPoint投影片
 > * XLT - Microsoft Excel範本
 > * xltx - Microsoft Excel範本
-> * EPS — 封裝式PostScript
 
 
 * AI - Adobe Illustrator圖稿
