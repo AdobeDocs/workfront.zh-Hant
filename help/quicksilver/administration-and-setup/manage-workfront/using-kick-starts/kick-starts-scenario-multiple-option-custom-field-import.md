@@ -9,14 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 7b9989b73f7be46690073f323203ae2d9ca1a4b5
 workflow-type: tm+mt
-source-wordcount: '2146'
+source-wordcount: '2175'
 ht-degree: 0%
 
 ---
 
 # Kick-Starts情境：將多個選項自訂欄位匯入Workfront
+
+{{highlighted-preview}}
 
 您可以使用Kick-Start功能，在Adobe Workfront中匯入具有多個選項的自訂欄位。
 
@@ -86,23 +88,23 @@ ht-degree: 0%
 
 1. 展開左側功能表中的&#x200B;**系統**，然後按一下&#x200B;**匯出資料(Kick-Starts)**。
 
-   ![](assets/export-data-kick-starts-link-in-setup.png)
-
 1. 選取&#x200B;**要包含的內容**&#x200B;區段中的&#x200B;**自訂資料**。
 
-   ![](assets/existing-custom-data-box-checked-kick-starts.png)
+   預覽環境中的範例影像：
+   ![選取自訂資料](assets/kickstarts-select-existing-data.png)
+
+   生產環境中的影像範例：
+   ![選取自訂資料](assets/existing-custom-data-box-checked-kick-starts.png)
 
 1. 在&#x200B;**下載格式**&#x200B;區段中選擇&#x200B;**.xlsx檔案**。
 
    >[!TIP]
    >
-   >    視您在系統中的自訂資料量而定，這可能需要很長的時間。
+   >視您在系統中的自訂資料量而定，這可能需要很長的時間。
 
-   ![](assets/download-button-for-kick-starts.png)
+1. 按一下&#x200B;**下載**。 將.xlsx檔案下載到您的電腦。 導覽至並開啟。
 
-1. 按一下&#x200B;**下載**。 將.xlsx檔案下載到您的電腦。 導覽至並開啟它。
-
-   ![](assets/existing-data-excel-parameter-sheet.png)
+   ![在Excel中匯出資料](assets/existing-data-excel-parameter-sheet.png)
 
 1. 檢查下載的檔案，並記下下列詳細資訊：
 
@@ -126,9 +128,10 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**匯入資料(Kick-Starts)**。
 
-   ![](assets/import-data-kick-starts-link-in-setup.png)
+1. 在&#x200B;**下載空白的Kick-Start試算表**&#x200B;區域中，選取&#x200B;**自訂資料**&#x200B;核取方塊並按一下&#x200B;**下載**。
 
-1. 在&#x200B;**下載空白的Kick-Start試算表**&#x200B;區域中，選擇&#x200B;**自訂資料**&#x200B;核取方塊，然後按一下&#x200B;**下載**。
+   預覽環境中的範例影像：
+   ![選取自訂資料](assets/kickstarts-select-existing-data.png)
 
    ![](assets/blank-custom-data-option-checked-kick-starts.png)
 
@@ -280,7 +283,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**使用Kick-Start試算表上傳資料**&#x200B;區段下的&#x200B;**選擇檔案**。
 
-1. 在電腦上瀏覽您準備的Excel試算表，並在找到時加以選取。  當Workfront識別檔案時， 「上傳」按鈕將變成藍色。
+1. 在電腦上瀏覽您準備的Excel試算表，並在找到時加以選取。 當Workfront辨識出檔案時，上傳按鈕會變成藍色。
 1. 按一下&#x200B;**上傳。**
 
    ![](assets/kick-start-file-selected-and-upload-blue-button.png)

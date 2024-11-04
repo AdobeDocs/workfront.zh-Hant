@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 7b9989b73f7be46690073f323203ae2d9ca1a4b5
 workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 8%
+source-wordcount: '1028'
+ht-degree: 7%
 
 ---
 
@@ -23,6 +23,8 @@ ht-degree: 8%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
+
+{{highlighted-preview}}
 
 身為Adobe Workfront管理員，您可以使用Kick-Starts資料匯出工具，從Workfront匯出資料。 匯出後可用於其他應用程式。
 
@@ -334,11 +336,15 @@ ht-degree: 8%
 
    您無法匯出矩陣報表。 如需矩陣報表的詳細資訊，請參閱[建立矩陣報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)。
 
-   Kick-Starts不支援文字模式篩選器。 若要成功匯出，報表篩選器必須切換至「標準模式」。
+   Kick-Starts不支援文字模式篩選器或群組。 若要成功匯出，報表篩選器和群組必須切換至「標準模式」。
 
-   您單次匯出最多可以選取100個控制面板和100個報表。
+   在單一匯出中，您最多可以選取100個儀表板和100個報表。
 
-   ![](assets/kickstart-export-350x381.png)
+   <span class="preview">預覽環境中的範例影像：</span>
+   ![Kickstart匯出](assets/kickstart-export-spreadsheet-options.png)
+
+   生產環境中的影像範例：
+   ![Kickstart匯出](assets/kickstart-export-350x381.png)
 
    您可以一次匯出多個物件。
 
@@ -346,4 +352,3 @@ ht-degree: 8%
 
    對於大型匯出，Workfront會在背景工作以產生Excel檔案，並會提供關於延遲的警告訊息。 下載完成後，系統會將kick-start檔案透過電子郵件傳送給您。
 
-   ![](assets/large-kick-start-file-warning-350x65.png)
