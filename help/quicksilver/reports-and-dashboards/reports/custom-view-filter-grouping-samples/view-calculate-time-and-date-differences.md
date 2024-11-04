@@ -4,19 +4,19 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 「檢視：計算時間和日期差異」
 description: 瞭解如何計算時間和日期差異。
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '613'
 ht-degree: 0%
 
 ---
 
 # 檢視：計算時間和日期差異
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 11/2024 -->
 
 >[!IMPORTANT]
 >
@@ -109,10 +109,8 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**新增欄**&#x200B;並開始在&#x200B;**顯示在此欄**&#x200B;欄位中輸入「規劃完成日期」，然後當它顯示在清單中時選取它。
 
-1. 按一下&#x200B;**新增資料行**，然後按一下&#x200B;**切換到文字模式**。
-
-1. 暫留在文字模式區域上，然後按一下&#x200B;**按一下以編輯文字**。
-1. 移除您在&#x200B;**文字模式**&#x200B;方塊中找到的文字，並以下列其中一個程式碼取代：
+1. 按一下&#x200B;**新增欄**，然後按一下&#x200B;**切換到文字模式** > **編輯文字模式**。
+1. 移除您在&#x200B;**編輯文字模式**&#x200B;方塊中找到的文字，並以下列其中一個程式碼取代：
 
    * 若要顯示專案與任務之計畫完成日期之間的差異：
 
@@ -131,4 +129,4 @@ ht-degree: 0%
       displayname=Parent Planned Completion - Planned Completion (Days)
      ```
 
-1. 按一下&#x200B;**儲存**，然後按一下&#x200B;**儲存檢視**。
+1. 按一下&#x200B;**完成**，然後按一下&#x200B;**儲存檢視**。

@@ -4,10 +4,10 @@ product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 「群組：任務清單的專案贊助者」
 description: 此任務分組允許您按專案贊助者將任務分組。
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 2d8f85ea-492e-4b08-82f5-726170acc7d5
-source-git-commit: a6874c3a2dfda02b8a25f78056767d8c59c888e9
+source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # 分組：任務清單的專案贊助者
+
+<!--Audited: 11/2024-->
 
 此任務分組允許您按專案贊助者將任務分組。
 
@@ -71,7 +73,11 @@ ht-degree: 0%
 1. 按一下&#x200B;**切換到文字模式**。
 1. 移除顯示區域中的文字，並使用下列程式碼加以取代：
 
-   `group.0.name=Project Sponsor<br>group.0.valuefield=project:sponsor:name<br>group.0.valueformat=string`
+   ```
+   group.0.name=Project Sponsor
+   group.0.valuefield=project:sponsor:name
+   group.0.valueformat=string
+   ```
 
 1. 按一下&#x200B;**完成**。
 1. 更新群組名稱，然後按一下[儲存群組]。****

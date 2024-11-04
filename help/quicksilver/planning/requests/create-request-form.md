@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: a7cdee912e5047f1c8ef224aff6a41eaa3633df6
+source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1367'
 ht-degree: 2%
 
 ---
@@ -139,20 +139,20 @@ ht-degree: 2%
 
    * 所選記錄型別的表格檢視中可用的記錄欄位。<!--they are working on removing the limitation below-->
 
-     >[!IMPORTANT]
-     >
-     > 根據您使用建立請求表單的環境，會有以下情況：
-     >
-     >* 下列型別的欄位未顯示在預覽</span>或生產環境的要求表單<span class="preview">中：
-     >
-     >    * 人員（包括「建立者」和「上次修改者」）
-     >    * 公式
-     >    * 建立日期
-     >    * 上次修改日期
-     >    * Workfront物件的已連線欄位或查詢欄位
-     >    * Workfront Planning記錄的已連線查閱欄位
-     >* 下列型別的欄位不會顯示在生產環境的請求表單中。 <span class="preview">它們顯示在預覽環境中：</span>
-     >    * <span class="preview"> Workfront Planning記錄的已連線欄位(包括與Workfront的連線，以及Experience Manager資產)</span>
+   >[!IMPORTANT]
+   >
+   > 根據您使用建立請求表單的環境，會有以下情況：
+   >
+   >* 下列型別的欄位未顯示在預覽</span>或生產環境的要求表單<span class="preview">中：
+   >
+   >    * 人員（包括「建立者」和「上次修改者」）
+   >    * 公式
+   >    * 建立日期
+   >    * 上次修改日期
+   >    * Workfront物件的已連線欄位或查詢欄位
+   >    * Workfront Planning記錄的已連線查閱欄位
+   >* 下列型別的欄位不會顯示在生產環境的請求表單中。 <span class="preview">它們顯示在預覽環境中：</span>
+   >    * <span class="preview">個Workfront Planning記錄&#39;已連線的欄位</span>
 
 
    * **預設的分節**：這是Workfront套用至要求表單的預設分割槽符號。 無法重新命名或移除「預設」區段。
