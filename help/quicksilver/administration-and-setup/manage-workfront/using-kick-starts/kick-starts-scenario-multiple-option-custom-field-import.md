@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 7b9989b73f7be46690073f323203ae2d9ca1a4b5
+source-git-commit: 7512f3e79b3a6af4917cebf631c3f8405baafa2b
 workflow-type: tm+mt
-source-wordcount: '2175'
+source-wordcount: '2184'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ ht-degree: 0%
 
 1. 選取&#x200B;**要包含的內容**&#x200B;區段中的&#x200B;**自訂資料**。
 
-   預覽環境中的範例影像：
+   <span class="preview">預覽環境中的範例影像：</span>
    ![選取自訂資料](assets/kickstarts-select-existing-data.png)
 
    生產環境中的影像範例：
@@ -130,10 +130,11 @@ ht-degree: 0%
 
 1. 在&#x200B;**下載空白的Kick-Start試算表**&#x200B;區域中，選取&#x200B;**自訂資料**&#x200B;核取方塊並按一下&#x200B;**下載**。
 
-   預覽環境中的範例影像：
+   <span class="preview">預覽環境中的範例影像：</span>
    ![選取自訂資料](assets/kickstarts-select-existing-data.png)
 
-   ![](assets/blank-custom-data-option-checked-kick-starts.png)
+   生產環境中的影像範例：
+   ![選取自訂資料](assets/blank-custom-data-option-checked-kick-starts.png)
 
    將空白的快速啟動檔案下載到您的電腦。
 
@@ -182,7 +183,7 @@ ht-degree: 0%
 
      >[!TIP]
      >
-     >    如果行代表Workfront中已存在的欄位，您應輸入&#x200B;**`isNew`** = **`FALSE`**。
+     >如果行代表Workfront中已存在的欄位，您應輸入&#x200B;**`isNew`** = **`FALSE`**。
 
    * **`ID`** =代表新欄位的每行必須是唯一的數字。 您可以使用任何從1開始的數字，但前提是每個新欄位都有唯一的數字。
    * **`setDataType`** =對於代表新欄位的每一行，輸入欄位支援的資料型別。 必須按在資料庫中顯示的形式輸入資料型別。 從下列資料型別中選取：
