@@ -6,16 +6,16 @@ description: 您可以透過篩選條件限制在專案清單中熒幕顯示的�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '2461'
+source-wordcount: '2419'
 ht-degree: 1%
 
 ---
 
 # 在Adobe Workfront中建立或編輯篩選器
 
-<!--Audited: 12/2023-->
+<!-- Audited: 11/2024 -->
 
 您可以透過篩選條件限制在專案清單中熒幕顯示的資訊量。 您可以根據物件的特定資訊來定義特定條件，並僅顯示符合這些條件的物件。
 
@@ -47,42 +47,36 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront授權*</strong></td> 
-   <td> <p>新增：投稿人或更高版本</p>
-
-或
-
-<p>目前：要求或以上</p>
-
-<p><b>注意：</b></p>
-
-若要編輯報告中的篩選器，您必須擁有下列授權：
-
-<p>新增：標準</p>
-
-或
-
-<p>目前：計畫</p>
-
-</td> 
+   <td> 
+      <p>新增：</p>
+         <ul>
+         <li><p>修改篩選器的貢獻者</p></li>
+         <li><p>在報告中修改篩選器的標準</p></li>
+         </ul>
+      <p>目前：</p>
+         <ul>
+         <li><p>請求修改篩選器</p></li>
+         <li><p>計畫修改報告中的篩選器</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>存取層級設定*</strong></td> 
    <td> <ul><li><p>編輯對篩選器、檢視和群組的存取權</p></li></ul>
-    <p><b>注意：</b></p>
-   若要編輯報告中的篩選器，您除了要編輯篩選器、檢視和群組的存取許可權之外，還必須有下列存取層級設定：
 
-<ul><li><p>編輯報告、儀表板和行事曆的存取權</p></li></ul>
+若要編輯報告中的篩選器，您除了要編輯篩選器、檢視和群組的存取許可權之外，還必須有下列存取層級設定：
 
-<p><b>注意：</b></p> <p> 如果您沒有存取權，請洽詢Workfront管理員，瞭解他們是否在您的存取層級設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+<ul><li><p>編輯報告、儀表板和行事曆的存取權</p></li></ul>   
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>管理篩選器的許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td role="rowheader"><strong>物件許可權*</strong></td> 
+   <td> <p>管理篩選器的許可權</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -369,19 +363,17 @@ ht-degree: 1%
 無論您使用何種方法來建立濾鏡，從頭開始或從現有濾鏡建立濾鏡都是類似的。
 
 1. 移至包含您要自訂之篩選器的清單或報表。
-1. 按一下&#x200B;**篩選器**&#x200B;圖示![篩選器圖示](assets/filter-nwepng.png)。
+1. 按一下&#x200B;**篩選器**&#x200B;圖示![篩選器圖示](assets/filter-nwepng.png)，然後按一下&#x200B;**更多**&#x200B;圖示![更多圖示](assets/more-icon.png)並按一下&#x200B;**返回舊版篩選器**。
 
    >[!TIP]
    >
    >報告建立者必須允許編輯篩選器，才能在報告中檢視篩選器下拉式清單。 預設情況下，「報表預設」篩選器會套用至報表。 「報表預設」篩選器只有在您編輯報表時才能自訂。
 
-   ![篩選器下拉式清單](assets/filter-drop-down-expanded-nwe.png)
-
-1. 按一下篩選器清單頂端的&#x200B;**新增篩選器**。
+1. 按一下篩選器清單頂端的&#x200B;**+新篩選器**。
 
    或
 
-   將滑鼠停留在您要修改的篩選器上，然後按一下&#x200B;**編輯**&#x200B;圖示![](assets/edit-icon.png)。
+   將滑鼠停留在您要修改的篩選器上，然後按一下&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)。
 
    自訂篩選的產生器啟動。
 
@@ -423,7 +415,7 @@ ht-degree: 1%
 
    或
 
-   按一下&#x200B;**另存為新篩選器**，從選取的篩選器建立篩選器。
+   按一下&#x200B;**另存為新篩選器**，從選取的篩選器建立新篩選器。
 
    新篩選器會顯示在篩選器清單中，並自動套用至您選取的清單或報表。
 

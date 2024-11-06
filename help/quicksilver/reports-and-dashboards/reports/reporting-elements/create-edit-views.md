@@ -6,14 +6,16 @@ description: 您可以使用檢視來自訂顯示在熒幕上的資訊型別。 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '1788'
+source-wordcount: '1718'
 ht-degree: 1%
 
 ---
 
 # 在Adobe Workfront中建立或編輯檢視
+
+<!-- Audited: 11/2024 -->
 
 您可以使用檢視來自訂顯示在熒幕上的資訊型別。 您可以在Adobe Workfront中使用數種檢視。
 
@@ -30,25 +32,36 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront計畫*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront計畫</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront授權*</strong></td> 
-   <td> <p>要求或更高版本</p> </td> 
+   <td> 
+      <p>新增：</p>
+         <ul>
+         <li><p>投稿人或以上</p></li>
+         </ul>
+      <p>目前：</p>
+         <ul>
+         <li><p>要求或更高版本</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>存取層級設定*</strong></td> 
-   <td> <p>編輯對篩選器、檢視、群組的存取權</p> <p>編輯對報告、儀表板、行事曆的存取權，以在報告中建立檢視</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td> <p>編輯對篩選器、檢視、群組的存取權</p> <p>編輯對報告、儀表板、行事曆的存取權，以在報告中建立檢視</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>管理報表的許可權，以建立或編輯報表中的檢視</p> <p>管理檢視的許可權以進行編輯</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td role="rowheader"><strong>物件許可權*</strong></td> 
+   <td> <p>管理報表的許可權，以建立或編輯報表中的檢視</p> <p>管理檢視的許可權以進行編輯</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -64,10 +77,11 @@ ht-degree: 1%
 您可以建立新的標準檢視，也可以自訂您先前建立的現有標準檢視。
 
 1. 在您要建立或自訂檢視的任何清單上，按一下&#x200B;**檢視**&#x200B;下拉式功能表。
-1. （可選）若要自訂現有的檢視，請選取您要自訂的標準檢視。\
-   在Workfront中，任何型別的清單（例如報告、專案清單或工作清單）都可以使用標準檢視。
-1. 按一下&#x200B;**檢視**&#x200B;下拉式功能表，然後按一下&#x200B;**自訂檢視**&#x200B;或&#x200B;**新檢視**。\
-   顯示&#x200B;**自訂檢視**&#x200B;對話方塊。
+
+1. 按一下「**+新增檢視**」按鈕以建立新檢視。
+或
+按一下滑鼠右邊要編輯的現有檢視右邊出現的**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)。
+顯示**自訂檢視**&#x200B;對話方塊。
 
 1. 在&#x200B;**資料行預覽**&#x200B;區段中，執行下列任一項作業：
 
@@ -121,7 +135,7 @@ ht-degree: 1%
           </tr> 
           <tr> 
            <td role="rowheader"><strong>欄規則</strong></td> 
-           <td><p>按一下<strong>新增此資料行的規則</strong>以定義資料行的規則。 新增規則後，您可以定義欄位和文字樣式，以顯示符合該規則的欄位。 完成規則定義後，按一下<strong>新增規則</strong>。</p></td> 
+           <td><p>按一下<strong>+為此資料行</strong>新增規則，以定義資料行的規則。 新增規則後，您可以定義欄位和文字樣式，以顯示符合該規則的欄位。 完成規則定義後，按一下<strong>新增規則</strong>。</p></td> 
           </tr> 
          </tbody> 
         </table>
@@ -234,7 +248,7 @@ ht-degree: 1%
     </tbody> 
    </table>
 
-1. 在&#x200B;**敏捷**&#x200B;區段中，在&#x200B;**其他欄位**&#x200B;區域中，按一下&#x200B;**新增欄位**，然後選取您要新增到故事卡的欄位。 （這些欄位與建立自訂檢視或建立報表欄位時可新增的欄位相同。）\
+1. 在&#x200B;**其他欄位**&#x200B;區域中，按一下&#x200B;**新增欄位**，然後選取您要新增到故事卡的欄位。 （這些欄位與建立自訂檢視或建立報表欄位時可新增的欄位相同。）\
    重複此程式，向劇本卡片新增最多三個額外的欄位。\
    當您新增欄位到內文卡時，欄位是僅供檢視的，並且只有在填入欄位時才顯示。
 

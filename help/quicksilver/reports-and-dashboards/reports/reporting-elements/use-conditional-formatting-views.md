@@ -6,16 +6,16 @@ description: 當您在Adobe Workfront中與其他使用者共用報表時，請�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 0ea65b3f-fbcf-40f4-a4d1-4dd91619c349
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '1218'
+source-wordcount: '1162'
 ht-degree: 3%
 
 ---
 
 # 在檢視中使用條件式格式
 
-<!--Audited: 01/2024-->
+<!-- Audited: 11/2024 -->
 
 當您在Adobe Workfront中與其他使用者共用報表時，請考慮自訂報表檢視，讓某些資訊更易於閱讀或突顯出來。
 
@@ -54,24 +54,23 @@ ht-degree: 3%
    <td> <p>新增：</p> 
    <ul><li>報告檢視的標準</li>
   <li> 清單檢視的投稿人或更新版本</li></ul>
-
-<p>目前：</p>
+   <p>目前：</p>
    <ul>
     <li> 規劃報告檢視 </li>
     <li> 要求或更高的清單檢視 </li> </ul></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>存取層級設定*</strong></td> 
-   <td> <p>編輯對篩選器、檢視、群組的存取權</p> <p>編輯報告、儀表板、行事曆的存取權，以編輯報告中的檢視</p> <p><b>附註</b></p> <p>如果您沒有存取權，請洽詢Workfront管理員，瞭解他們是否在您的存取層級設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td> <p>編輯對篩選器、檢視、群組的存取權</p> <p>編輯報告、儀表板、行事曆的存取權，以編輯報告中的檢視</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>管理報表的許可權，以建立或編輯報表中的檢視</p> <p>管理檢視的許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>管理報表的許可權，以建立或編輯報表中的檢視</p> <p>管理檢視的許可權</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

@@ -6,24 +6,26 @@ description: 您可以從頭開始建立自訂分組，或自訂現有分組。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 64cc52b7-d97b-4b41-9101-530e7db2d26e
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
 
 # 在Adobe Workfront中建立群組
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This is a third part of an article split in 3 about creating and customizing groupings (2 how-tos and one reference) </p>
--->
+<!-- Audited: 11/2024 -->
+
+<!--(NOTE: This is a third part of an article split in 3 about creating and customizing groupings (2 how-tos and one reference)-->
 
 報告或清單的結果可依分組進行組織。 分組會根據特定資訊來分類資訊。
 
 您可以從頭開始建立自訂分組，或自訂現有分組。 請依照下列步驟，從頭開始建立群組。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -37,20 +39,31 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront授權*</strong></td> 
-   <td> <p>要求或更高版本 </p> </td> 
+   <td> 
+      <p>新增：</p>
+         <ul>
+         <li><p>投稿人或以上</p></li>
+         </ul>
+      <p>目前：</p>
+         <ul>
+         <li><p>要求或更高版本</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>存取層級設定*</strong></td> 
-   <td> <p>編輯對篩選器、檢視、群組的存取權</p> <p>編輯對報告、儀表板、行事曆的存取權，以在報告中建立分組</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td> <p>編輯對篩選器、檢視、群組的存取權</p> <p>編輯對報告、儀表板、行事曆的存取權，以在報告中建立分組</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>管理報告的許可權以編輯報告中的分組</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td><p>管理報告的許可權以編輯報告中的分組</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 建立群組
 
@@ -59,10 +72,10 @@ ht-degree: 0%
 
    ![選取新群組](assets/newgrouping-nwe-standard-350x304.png)
 
-1. 按一下&#x200B;**新群組**。
+1. 按一下&#x200B;**+新群組**。
 建立群組的介面產生器隨即啟動。
 
-1. 在&#x200B;**群組預覽**&#x200B;區段中，按一下&#x200B;**新增群組**&#x200B;以定義您想要如何整理報告中的資訊。 報表中的群組預覽如下所示。
+1. 在&#x200B;**群組預覽**&#x200B;區域中，按一下&#x200B;**新增群組**&#x200B;以定義您想要如何整理報告中的資訊。 報表中的群組預覽如下所示。
 
 1. 開始輸入欄位名稱，代表您要在報告中組織資訊的方式，然後在下拉式清單中出現時按一下它。
 1. （選擇性和條件性）在更新的清單中建立群組時，如果您希望群組中的結果顯示摺疊而非展開，請依預設選取&#x200B;**摺疊此群組**。 此設定預設為停用，群組結果一律顯示在展開清單中。

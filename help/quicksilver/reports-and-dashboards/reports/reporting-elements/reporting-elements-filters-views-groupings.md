@@ -6,24 +6,22 @@ description: Workfront中每個清單和報告都必須具備的主要元素是�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5697905e-42c0-403b-85d4-798a1a3a2e7f
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '838'
 ht-degree: 0%
 
 ---
 
 # 報表元素：篩選器、檢視和群組
 
-<!--
-<div style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>AL: Add information here about all the different kinds of FVGs: in reports, in lists, beta, etc // OR: this article should be a high-level overview of reporting elements. Then, each type of element should have:</p>
+<!-- Audited: 11/2024 -->
+
+<!--AL: Add information here about all the different kinds of FVGs: in reports, in lists, beta, etc // OR: this article should be a high-level overview of reporting elements. Then, each type of element should have:</p>
 <p>- overview for Filters</p>
 <p>- create a filter</p>
 <p>- share a filter</p>
-<p>ALL in Reporting elements but the Shared ones should be linked to Basics> Sharing; some of the articles in the Basics> Navigation> Use lists might beed to link here as well</p>
-</div>
--->
+<p>ALL in Reporting elements but the Shared ones should be linked to Basics> Sharing; some of the articles in the Basics> Navigation> Use lists might beed to link here as well-->
 
 有數個元素可讓Adobe Workfront中的清單或報表變成可能。 每個清單和報表都必須具備的主要元素為篩選器、檢視和群組。 每個元素在任何報表中都會提供不同資訊。
 
@@ -56,11 +54,10 @@ ht-degree: 0%
 
   如需篩選的詳細資訊，請參閱文章[篩選概觀](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)。
 
-![篩選器圖示](assets/projects-list-with-filter-drop-down-highlighted-nwe.png)
-
 ## 檢視
 
-透過定義報表的檢視，您可以定義報表中包含的資訊。 如同所有報告元素，檢視是以一個物件型別為基礎。\
+透過定義報表的檢視，您可以定義報表中包含的資訊。 如同所有報告元素，檢視是以一個物件型別為基礎。
+
 例如，任務報告的檢視可以顯示「到期日」、包含主要財務詳細資訊（如「成本」），或用來顯示「指派」與「交貨日期」詳細資訊。 檢視可用於提供報表中資料的各種詳細資訊。
 
 檢視的某些屬性包括：

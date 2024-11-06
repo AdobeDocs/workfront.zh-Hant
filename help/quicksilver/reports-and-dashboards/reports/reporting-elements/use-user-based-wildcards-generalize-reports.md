@@ -6,14 +6,16 @@ description: 您可以在建立特定報表元素時，使用萬用字元而非�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 216e2869-b4f8-4cc7-9497-a12ebe00fe49
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '456'
 ht-degree: 1%
 
 ---
 
 # 使用以使用者為基礎的萬用字元來歸納報表
+
+<!-- Audited: 11/2024 -->
 
 您可以在建立特定報表元素時，使用萬用字元而非特定資訊來泛化報表。 例如，如果您想建立一個報告來顯示指派給特定使用者的任務，您可以在篩選器的「指派給」欄位中使用使用者的名稱。 但是，如果您想要建立一份報表來顯示指派給登入使用者的任務（無論該使用者是誰），您可以使用萬用字元來表示當有人檢視報表時，報表只會顯示與他們相關的資訊。 這樣的話，報表只需建置一次，但由於您在篩選器中使用萬用字元，因此每次有人閱讀時都會產生不同的結果。
 
@@ -24,6 +26,8 @@ ht-degree: 1%
 * 為欄新增規則時的檢視
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -37,20 +41,31 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront授權*</strong></td> 
-   <td> <p>計劃 </p> </td> 
+   <td> 
+      <p>新增：</p>
+         <ul>
+         <li><p>標準</p></li>
+         </ul>
+      <p>目前：</p>
+         <ul>
+         <li><p>計劃</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>存取層級設定*</strong></td> 
-   <td> <p>編輯對篩選器、檢視、群組的存取權</p> <p>編輯報告、儀表板、行事曆的存取權，以編輯報告中的報告元素</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td> <p>編輯對篩選器、檢視、群組的存取權</p> <p>編輯報告、儀表板、行事曆的存取權，以編輯報告中的報告元素</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>管理報表的許可權，以編輯報表中的報表元素</p> <p>管理檢視或篩選的許可權以編輯它們</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>管理報表的許可權，以編輯報表中的報表元素</p> <p>管理檢視或篩選的許可權以編輯它們</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先決條件
 

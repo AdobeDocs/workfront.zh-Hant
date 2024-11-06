@@ -7,7 +7,7 @@ description: 您可以使用Adobe Workfront中的篩選器，來減少在清單�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
-source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
 source-wordcount: '1821'
 ht-degree: 1%
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 # 篩選器概觀
 
-<!-- Audited: 01/2024 -->
+<!-- Audited: 11/2024 -->
 
 您可以使用Adobe Workfront中的篩選器，來減少在清單、報告或其他區域的畫面上顯示的資訊量。
 
@@ -71,13 +71,16 @@ Workfront中有多種型別的篩選器。 所有篩選器都符合限制熒幕�
 
 您可以在Workfront的下列使用內建篩選器或建置自訂篩選器：
 
-* 首頁\
+* 首頁
+
   如需詳細資訊，請參閱[首頁區域的工作清單顯示專案](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)。
+
 * 請求區域。 您無法在請求區域中自訂篩選器。
 
   如需詳細資訊，請參閱[尋找已提交的請求](../../../manage-work/requests/create-requests/locate-submitted-requests.md)。
 
-* 資源規劃工具\
+* 資源規劃工具
+
   如需相關資訊，請參閱文章[資源規劃工具](../../../resource-mgmt/resource-planning/filter-resource-planner.md)中的篩選資訊。
 
 * 使用率報告
@@ -104,9 +107,7 @@ Workfront中有多種型別的篩選器。 所有篩選器都符合限制熒幕�
   >
   >您無法在「情境規劃工具」中自訂篩選器。
 
-  <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the tip above: this might change with the beta filters??)</p>
-  -->
+  <!--(NOTE: the tip above: this might change with the beta filters??)-->
 
   您可對計畫、方案或專案使用內建篩選器，且可在「情境規劃工具」中自訂專案篩選器。
 

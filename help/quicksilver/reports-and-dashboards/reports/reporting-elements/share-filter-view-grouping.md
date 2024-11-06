@@ -6,21 +6,19 @@ description: 您可以與其他使用者共用您有權檢視的篩選器、檢�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
-source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '1211'
+source-wordcount: '1178'
 ht-degree: 1%
 
 ---
 
 # 共用篩選、檢視或分組
 
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>(NOTE: CONSIDER SPLITTING THIS in three articles for each reporting element?)</p>
-<p>(NOTE: This is linked from the TOC article in WF Basics > permissions section)&nbsp;</p>
-</div>
--->
+<!-- Audited: 11/2024 -->
+
+<!--(NOTE: CONSIDER SPLITTING THIS in three articles for each reporting element?)
+(NOTE: This is linked from the TOC article in WF Basics > permissions section)-->
 
 當使用者指派存取層級時，您的Adobe Workfront管理員會授予他們檢視或編輯物件的存取權。 如需授與物件存取權的詳細資訊，請參閱[建立或修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
@@ -38,7 +36,9 @@ ht-degree: 1%
 
 ## 存取需求
 
-您必須具備下列條件：
++++ 展開以檢視本文中功能的存取需求。
+
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -50,26 +50,35 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront授權*</strong></td> 
-   <td> <p>要求或更高版本</p> </td> 
+   <td> 
+      <p>新增：</p>
+         <ul>
+         <li><p>投稿人或以上</p></li>
+         </ul>
+      <p>目前：</p>
+         <ul>
+         <li><p>要求或更高版本</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>存取層級設定*</strong></td> 
-   <td> <p>檢視或更高許可權存取篩選器、檢視、群組</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td> <p>檢視或更高許可權存取篩選器、檢視、群組</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>檢視或具有存取許可權更高的許可權可共用檢視、篩選器或群組</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td><p>檢視或具有存取許可權更高的許可權可共用檢視、篩選器或群組</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 共用篩選、檢視或分組
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: when the beta filters/ groupings come out either consider splitting this in different kinds of FVGs or splitting this article in FVGs for showing sharing on each one of them??)</p>
--->
+<!--(NOTE: when the beta filters/ groupings come out either consider splitting this in different kinds of FVGs or splitting this article in FVGs for showing sharing on each one of them??)-->
 
 根據您用來共用篩選器的來源介面：標準或舊版，共用選取清單中的篩選器會有所不同。 如需有關篩選建立介面型別的資訊，請參閱[在Adobe Workfront中建立或編輯篩選器](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md)。
 

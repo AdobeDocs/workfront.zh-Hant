@@ -8,7 +8,7 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 7cec252f-e5be-4099-8fa6-308f80952a21
-source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
 source-wordcount: '30'
 ht-degree: 0%
@@ -16,6 +16,8 @@ ht-degree: 0%
 ---
 
 # 報表基本需知
+
+<!-- Audited: 11/2024 -->
 
 本節包含下列文章：
 

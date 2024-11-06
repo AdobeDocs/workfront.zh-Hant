@@ -7,18 +7,18 @@ description: 您可以新增群組來管理報告和清單中資訊的配置。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: d050372e-c4a0-4c49-b220-5b35334ab8d0
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
 
 # Adobe Workfront中的群組概觀
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This article was supposed to be replaced by "Groupings overview", but decided to keep this here because this is linked in too many places. "Create groupings" and "Edit existing groupings" have been added also (with videos) to replace portions of the old content here.) </p>
--->
+<!-- Audited: 11/2024 -->
+
+<!--(NOTE: This article was supposed to be replaced by "Groupings overview", but decided to keep this here because this is linked in too many places. "Create groupings" and "Edit existing groupings" have been added also (with videos) to replace portions of the old content here.)-->
 
 您可以新增群組來管理報告和清單中資訊的配置。
 
@@ -32,13 +32,13 @@ ht-degree: 0%
 
   如需從頭開始建立群組的詳細資訊，請參閱[在Adobe Workfront中建立群組](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)。
 
-依預設，群組在報表或清單中以灰色或藍色反白顯示。 報告或清單的結果會列在其個別群組下，不會反白顯示。
+依預設，群組在報表或清單中以灰色反白顯示。 報告或清單的結果會列在其個別群組下，不會反白顯示。
+
+![群組範例](assets/grouping-example-blue.png)
 
 您最多可以向一個報表新增三個群組。 您可以建立矩陣報表，將資訊組織成最多四個群組。 如需矩陣報表的詳細資訊，請參閱[建立矩陣報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)。
 
-在標準分組報表中，第一個分組的顏色較深，第二個和第三個分組則較淺。 您無法自訂群組反白顯示的顏色，或群組名稱的字型。 群組名稱后面括弧內的數字代表該群組下的結果數。 如果您的報告跨越多個頁面，請確定您在報告或清單中顯示&#x200B;*全部*&#x200B;個結果，以取得每個群組下結果的準確計數。
-
-![範例群組](assets/grouping-example-blue.png)
+群組名稱后面括弧內的數字代表該群組下的結果數。 如果您的報告跨越多個頁面，請確定您在報告或清單中顯示&#x200B;*全部*&#x200B;個結果，以取得每個群組下結果的準確計數。
 
 使用分組時，請考慮下列事項：
 

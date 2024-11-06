@@ -6,7 +6,7 @@ description: 您可以將「里程碑」檢視套用至專案清單或報告。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
 source-wordcount: '1302'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 使用里程碑檢視
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 11/2024 -->
 
 您可以將「里程碑」檢視套用至專案清單或報告。
 
@@ -42,8 +42,15 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront授權</strong></td> 
    <td> 
-   <p>新增：標準</p>
-   <p>目前：工作或以上 </p> </td> 
+      <p>新增：</p>
+         <ul>
+         <li><p>標準</p></li>
+         </ul>
+      <p>目前：</p>
+         <ul>
+         <li><p>工作或更高</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>存取層級設定*</strong></td> 
@@ -127,7 +134,7 @@ ht-degree: 0%
    * 有風險\
      ![](assets/gantt-atrisk.png)
 
-   * 延遲\
+   * 遲到\
      ![](assets/gantt-late.png)
 
   您可以停用這些狀態圖示的顯示，如本文中[設定里程碑檢視](#configure-what-information-displays-in-the-milestone-view)中顯示的資訊一節所述。\

@@ -6,20 +6,24 @@ description: 如果您已建立篩選器、檢視或分組或與您共用，則�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 422d262e-e19d-4070-85f1-77ecb7430342
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '809'
 ht-degree: 1%
 
 ---
 
 # 移除篩選器、視圖和分組
 
+<!-- Audited: 11/2024 -->
+
 如果您已建立篩選器、檢視或分組或與您共用，則可將其從清單和報告中移除。 您無法移除預設的篩選器、檢視或群組。
 
 ## 存取需求
 
-您必須具備下列條件：
++++ 展開以檢視本文中功能的存取需求。
+
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,20 +37,32 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront授權*</strong></td> 
-   <td> <p>要求或更高版本</p> </td> 
+   <td> 
+      <p>新增：</p>
+         <ul>
+         <li><p>投稿人或以上</p></li>
+         </ul>
+      <p>目前：</p>
+         <ul>
+         <li><p>要求或更高版本</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>存取層級設定*</strong></td> 
-   <td> <p>檢視或更高許可權存取篩選器、檢視、群組</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td><p>檢視或更高許可權存取篩選器、檢視、群組</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>檢視具有存取權的許可權，可共用您要移除的篩選器、檢視或群組</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td><p>檢視具有存取權的許可權，可共用您要移除的篩選器、檢視或群組</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 使用標準產生器移除或刪除篩選器
 
@@ -69,9 +85,6 @@ ht-degree: 1%
 1. 前往專案、任務、問題、投資組合、計畫、使用者、範本或群組的清單。
 1. 按一下&#x200B;**篩選器**&#x200B;圖示![篩選器圖示](assets/filter-nwepng.png)。
 1. 將游標停留在&#x200B;**與我共用**&#x200B;下的篩選器上，按一下&#x200B;**更多**&#x200B;功能表![更多圖示](assets/more-icon-spectrum.png)，然後按一下&#x200B;**移除**。
-
-   ![移除篩選器](assets/new-filters-more-menu-remove-filter.png)
-
 1. 在確認訊息上選取&#x200B;**移除**&#x200B;以永久移除篩選器。
 
 ### 使用標準產生器刪除篩選器
