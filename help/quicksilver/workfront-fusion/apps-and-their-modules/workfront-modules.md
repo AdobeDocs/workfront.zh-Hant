@@ -9,9 +9,9 @@ description: 您可以使用Adobe Workfront Fusion Adobe Workfront聯結器在Wo
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 38b6fef43157f47c93dcd9cf543f1001142d86dd
+source-git-commit: d14ea876ef58c190a38f1b3b1bfc205df5681bca
 workflow-type: tm+mt
-source-wordcount: '6621'
+source-wordcount: '6797'
 ht-degree: 2%
 
 ---
@@ -282,7 +282,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL記錄型別]</td> 
-   <td> <p>（在您選擇<strong>篩選器</strong>之後顯示。） 選取您希望模組觀看的[!DNL Workfront]記錄型別。</p> <p>例如，如果您要在每次建立新專案時啟動情境，請選取[！UICONTROL專案]</p> </td> 
+   <td> <p>（在您選擇<strong>篩選器</strong>之後顯示。）選取您要模組觀看的[!DNL Workfront]記錄型別。</p> <p>例如，如果您要在每次建立新專案時啟動情境，請選取[！UICONTROL專案]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL輸出]</td> 
@@ -631,7 +631,7 @@ ht-degree: 2%
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[！UICONTROL動作]</td> 
-   <td> <p>選取您希望模組執行的動作。</p> <p>視您選擇的[！UICONTROL記錄型別]和[！UICONTROL動作]而定，您可能需要填寫其他欄位。 這兩個設定的某些組合可能只需要記錄ID，而其他設定（例如<strong>[！UICONTROL記錄型別]</strong>的Project和<strong>[！UICONTROL動作]</strong>的[！UICONTROL附加範本]）則需要其他資訊（例如物件ID和範本ID）。</p> <p>如需個別欄位的詳細資訊，請參閱<a href="http://developer.workfront.com/">Workfront開發人員檔案</a>。 <p><strong>注意</strong>：開發人員檔案網站僅包含透過API版本14的資訊，但仍包含API呼叫的重要資訊。 </p> 
+   <td> <p>選取您希望模組執行的動作。</p> <p>視您選擇的[！UICONTROL記錄型別]和[！UICONTROL動作]而定，您可能需要填寫其他欄位。 這兩個設定的某些組合可能只需要記錄ID，而其他設定（例如<strong>[！UICONTROL記錄型別]</strong>的Project和<strong>[！UICONTROL動作]</strong>的[！UICONTROL附加範本]）則需要其他資訊（例如物件ID和範本ID）。</p><p>如需某些動作可用的選項，請參閱本文中的<a href="#misc-action-options" class="MCXref xref">其他動作選項</a>。</p> <p>如需個別欄位的詳細資訊，請參閱<a href="http://developer.workfront.com/">Workfront開發人員檔案</a>。 <p><strong>注意</strong>：開發人員檔案網站僅包含透過API版本14的資訊，但仍包含API呼叫的重要資訊。 </p> 
     <ol> 
      <li value="1"> <p>從[!DNL Workfront]開發人員檔案頁面的左側導覽選取記錄型別。 下列型別有自己的頁面：</p> 
       <ul> 
@@ -653,6 +653,156 @@ ht-degree: 2%
 </table>
 
 檢視您可以在每個 [!DNL Workfront] 模組](#workfront-object-types-available-for-each-workfront-module)可用的[[!DNL Workfront] 物件型別中使用此模組的[!DNL Workfront]物件型別清單。
+
+#### 其他動作選項
+
+##### 任務
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <th>動作</th> 
+   <th>選項</th> 
+  </tr> 
+  <tr> 
+   <td>複製</td> 
+   <td>
+   <ul>
+   <li>clearApprovers</li>
+   <li>clearAssigments</li>
+   <li>clearConstraints</li>
+   <li>clearCustomData</li>
+   <li>clearDocuments</li>
+   <li>clearExpenses</li>
+   <li>clearFinancials<p>清除財務資料</p></li>
+   <li>clearpermissions</li>
+   <li>clearPredecessors</li>
+   <li>clearProgress</li>
+   <li>clearTimedNotifications<p>清除提醒通知</p></li>
+   </ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td>移動</td> 
+   <td>
+   <ul>
+   <li>clearApprovers</li>
+   <li>clearAssigments</li>
+   <li>clearDocuments</li>
+   <li>clearConstraints</li>
+   <li>clearExpenses</li>
+   <li>clearFinancials<p>清除財務資料</p></li>
+   <li>clearpermissions</li>
+   <li>clearPredecessors</li>
+   <li>clearProgress</li>
+   <li>clearTimedNotifications<p>清除提醒通知</p></li>
+   </ul>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+##### 問題
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <th>動作</th> 
+   <th>選項</th> 
+  </tr> 
+  <tr> 
+   <td>複製</td> 
+   <td>
+   <ul>
+   <li>clearApprovers</li>
+   <li>clearAssigments</li>
+   <li>clearCustomData</li>
+   <li>clearDocuments</li>
+   <li>clearpermissions</li>
+   <li>clearProgress</li>
+   </ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td>轉換為任務</td> 
+   <td>
+   <ul>
+   <li>preserveIssue<p>保持初始問題並將其解決方案連結至此任務</p></li>
+   <li>preservePrimaryContact<p>允許問題的主要連絡人存取此任務</p></li>
+   <li>preserveCompletionDate<p>保持問題的計畫完成日期</p></li>
+   </ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td>轉換為專案</td> 
+   <td>
+   <ul>
+   <li>preserveIssue<p>保持初始問題並將其解決方案連結至此任務</p></li>
+   <li>preservePrimaryContact<p>允許問題的主要連絡人存取此任務</p></li>
+   </ul>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+##### 專案
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <th>動作</th> 
+   <th>選項</th> 
+  </tr> 
+  <tr> 
+   <td>複製</td> 
+   <td>
+   <ul>
+   <li>clearApprovers</li>
+   <li>clearAssigments</li>
+   <li>clearCustomData</li>
+   <li>clearDocuments</li>
+   <li>clearExpenses</li>
+   <li>clearFinancials<p>清除財務資料</p></li>
+   <li>clearpermissions</li>
+   <li>clearPredecessors</li>
+   <li>clearProgress</li>
+   <li>clearTimedNotifications<p>清除提醒通知</p></li>
+   </ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td>附加範本/另存為範本</td> 
+   <td>
+   <ul>
+   <li>clearApprovers</li>
+   <li>clearAssigments</li>
+   <li>clearBillingRates</li>
+   <li>clearConstraints</li>
+   <li>clearDeliverables<p>清除目標</p></li>
+   <li>clearDocuments</li>
+   <li>clearExpenses</li>
+   <li>clearFinancials<p>清除財務資料</p></li>
+   <li>clearHourTypes</li>
+   <li>Clearisssetup<p>清除佇列屬性和問題設定</p></li>
+   <li>clearPredecessors</li>
+   <li>clearrisks</li>
+   <li>clearSharingOptions</li>
+   <li>clearTimedNotifications<p>清除提醒通知</p></li>
+   </ul>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
 
 +++
 
@@ -929,6 +1079,7 @@ ht-degree: 2%
   </tr> 
  </tbody> 
 </table>
+
 +++
 
 +++ **[!UICONTROL 搜尋（舊版）]**
