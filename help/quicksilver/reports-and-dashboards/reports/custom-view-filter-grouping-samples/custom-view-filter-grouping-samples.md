@@ -8,7 +8,7 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: beac1ea6-a983-4d12-8972-91150914f731
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 0%
@@ -47,7 +47,7 @@ ht-degree: 0%
 * [檢視：在時數清單中合併任務和問題的詳細資訊](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-combined-task-issue-details-hour-list.md)
 * [檢視：在欄中顯示影像，而非字串](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-image-in-view.md)
 * [檢視：顯示未包含在標準介面中的物件](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-objects-not-in-standard-interface.md)
-* [檢視：顯示任務和專案清單上的原始問題資訊](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)
+* [檢視：在任務或專案清單上顯示原始問題資訊](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)
 * [檢視：在任務檢視中顯示程式和Portfolio資訊](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-program-portfolio-info-task-view.md)
 * [檢視：在任務清單中顯示任務縮排](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-task-identations.md)
 * [檢視：檔案報告，包含校訂的連結](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-document-report-with-proof-link.md)

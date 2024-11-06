@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d6bb889c-a057-453f-8f80-761cfb1ad4a1
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
 workflow-type: tm+mt
 source-wordcount: '1676'
 ht-degree: 0%
@@ -151,7 +151,7 @@ Workfront會分析所有可用使用者的目前工作指派，並為任何尚�
 
 在此變更之前，您無法報告此資訊。
 
-如需有關建立自訂文字模式檢視以擷取原始問題資訊的詳細資訊，請參閱[檢視：在任務和專案清單上顯示原始問題資訊](../../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)。
+如需有關建立自訂文字模式檢視以擷取原始問題資訊的詳細資訊，請參閱[檢視：在任務或專案清單上顯示原始問題資訊](../../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)。
 
 ## 更新流中的篩選器系統更新現在跨物件持續存在 {#filter-system-updates-in-the-update-stream-is-now-persistent-across-objects}
 

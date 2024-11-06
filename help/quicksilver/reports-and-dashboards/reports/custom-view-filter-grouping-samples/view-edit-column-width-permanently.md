@@ -4,19 +4,19 @@ product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 「檢視：永久編輯欄寬」
 description: 您可以拖放欄的邊界以符合想要的寬度，暫時修改欄的寬度。 如需詳細資訊，請參閱修改欄寬和順序。
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 42633036-8e42-4cec-876c-f20a5ece2478
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: 71c0bf664af66bec7122651c1b62dd1c28022565
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
 
 # 檢視：永久編輯欄寬
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 11/2024 -->
 
 您可以拖放欄的邊界以符合想要的寬度，暫時修改欄的寬度。 如需詳細資訊，請參閱[修改資料行寬度和順序](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)。
 
@@ -73,7 +73,7 @@ ht-degree: 0%
    按一下任何現有欄的欄標題。
 
 1. 按一下&#x200B;**切換到文字模式**。
-1. 暫留在文字模式區域上，然後按一下&#x200B;**按一下以編輯文字**。
+1. 按一下&#x200B;**編輯文字模式**。T
 1. 將下列程式碼新增至欄的文字模式：
 
    ```
@@ -83,6 +83,6 @@ ht-degree: 0%
 
    對於&#x200B;**寬度**&#x200B;行，請指定代表您希望欄在檢視中顯示之寬度範圍的任意數字（畫素）。
 
-1. 按一下&#x200B;**儲存**，然後按一下&#x200B;**儲存檢視**。
+1. 按一下&#x200B;**完成**，然後按一下&#x200B;**儲存檢視**。
 
 

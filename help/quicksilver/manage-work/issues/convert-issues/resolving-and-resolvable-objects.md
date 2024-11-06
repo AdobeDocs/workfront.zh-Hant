@@ -7,7 +7,7 @@ description: 可解析物件是其解析繫結至解析物件的問題。 解決
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
 workflow-type: tm+mt
 source-wordcount: '1743'
 ht-degree: 1%
@@ -228,7 +228,7 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
    <td>✓ (A)</td> 
   </tr> 
   <tr> 
-   <td><strong>原始問題名稱、原始問題輸入日期、建立者名稱</strong>：顯示原始問題的名稱和輸入日期，以及在文字模式自訂檢視中建立問題的使用者名稱。<br>如需有關為專案或任務報告或清單建立文字模式自訂檢視以顯示原始問題相關資訊的詳細資訊，請參閱<a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">檢視：在任務和專案清單上顯示原始問題資訊</a>。<br></td> 
+   <td><strong>原始問題名稱、原始問題輸入日期、建立者名稱</strong>：顯示原始問題的名稱和輸入日期，以及在文字模式自訂檢視中建立問題的使用者名稱。<br>如需有關建立專案或任務報告或清單的文字模式自訂檢視以顯示原始問題相關資訊的詳細資訊，請參閱<a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">檢視：在任務或專案清單上顯示原始問題資訊</a>。<br></td> 
    <td> </td> 
    <td> ✓ (A)</td> 
    <td> ✓ (A)</td> 

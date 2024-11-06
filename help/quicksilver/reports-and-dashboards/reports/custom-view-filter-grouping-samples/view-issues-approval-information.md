@@ -4,23 +4,27 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 「檢視：核准資訊的問題」
 description: 以下問題檢視顯示核准流程、步驟、核准者名稱和授予核准前問題的狀態。 有些欄位無法透過標準介面產生器存取。
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 4e123844-a0d6-474b-87fb-d30ed391ad07
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
 
 # 檢視：核准資訊的問題
 
+<!--Audited: 11/2024-->
+
 以下問題檢視顯示核准流程、步驟、核准者名稱和授予核准前問題的狀態。 有些欄位無法透過標準介面產生器存取。
 
 ![custom_issue_view_with_approval_info.png](assets/custom-issue-view-with-approval-info-350x46.png)
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -29,28 +33,27 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>請求修改檢視 </p>
-   <p>計畫修改報表</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>新增：<ul><li>修改檢視的貢獻者</li><li>用於修改報告的標準</li></ul></p><p>或</p>目前：<ul><li>請求修改檢視</li><li>計畫修改報表</li></ul></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯報告、儀表板、行事曆的存取權以修改報告</p> <p>編輯對篩選器、檢視、群組的存取權以修改檢視</p> <p><b>附註</b>
-
-如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td>
-</tr> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>編輯報告、儀表板、行事曆的存取權以修改報告</p> <p>編輯對篩選器、檢視、群組的存取權以修改檢視</p> </td> 
+  </tr>  
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>管理報表的許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>管理報表的許可權</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 檢視核准資訊的問題
 
@@ -58,9 +61,87 @@ ht-degree: 0%
 1. 從&#x200B;**檢視**&#x200B;下拉式功能表中，選取&#x200B;**新增檢視**。
 
 1. 在&#x200B;**資料行預覽**&#x200B;區域中，排除除一個資料行以外的所有資料行。
-1. 按一下剩餘欄的標題，然後按一下&#x200B;**切換到文字模式**。
-1. 將滑鼠移到文字模式區域上，然後按一下&#x200B;**按一下以編輯文字**。
-1. 移除您在&#x200B;**文字模式**&#x200B;方塊中找到的文字，並取代為下列程式碼：
-   <pre style="font-style: normal;">column.0.descriptionkey=name<br>column.0.link.linkproperty.0.name=ID<br>column.0.link.linkproperty.0.valuefield=ID<br>column.0.link.linkproperty.0.valueformat=int<br>column.0.link.lookup=link.view<br>column.0.link.valuefield=objCode<br>column.0.link.valueformat=val<br>column.0.link.dname=direct<br>column.0.listort=string(name){name)<br>column.0.namekey=name.abbr<br>column.0.querysort=name<br>column.0.shortview=false<br>column.0.stretch=40<br>column.0.valuefield=name<br>column.0.valueformat=HTML<br>column.0.width=220<br>column.1.descriptionkey=assignedto<br>column.1.listort=nestalled(assignedTo){stringTo)。string(name)。string(name) 18}column.1.namekey=assignedto<br>column.1.querysort=assignedTo：name<br>column.1.shortview=true<br>column.1.stretch=0<br>column.1.valuefield=assignedTo：name<br>column.1.valueformat=HTML<br>column.1.width=150<br>column.2.descriptionkey=role<br>column.2.linkedname=role{role<br>column.2.2.linkedname=role{role{role{role<br>column.2.2.2.listsort role)。string(name)<br>column.2.namekey=role<br>column.2.querysort=role：name<br>column.2.shortview=false<br>column.2.stretch=25<br>column.2.valuefield=name<br>column.2.valueformat=HTML<br>column.2.width=150<br>column.3.description=批准流程名稱<br>column.3.linkedname=direct<br>column.3.listsort=string （名稱）<br>column.3.name=批准流程名稱<br>column.3.querysort=name<br>column.3.shortview=false<br>column.3.stretch=35<br>column.3.valuefield=approvalProcess：name<br>column.3.valueformat=HTML<br>column.3.width=220<br>column.4.description=批准步驟名稱<br>column.linkedname=direct<br>column.listort.string=direct{direct{direct<br>column.listort （名稱）<br>column.4.name=批准步驟名稱<br>column.4.querysort=name<br>column.4.shortview=false<br>column.4.stretch=0<br>column.4.valuefield=currentApprovalStep：name<br>column.4.valueformat=HTML<br>column.4.width=220<br>column.5.description=Previous<br>column.5.linkedname=direct<br>column.5.listort(direct（字串） name)<br>column.5.name=Previous Status<br>column.5.querysort=name<br>column.5.shortview=false<br>column.5.stretch=0<br>column.5.valuefield=previousStatus<br>column.5.valueformat=HTML<br>column.5.width=220<br>column.6.linkedname=direct<br>column.6.listort=HTML(approvers){approvers7}column.6.namekey=approkey ver.plural.abbr<br>column.6.querysort=approversString<br>column.6.shortview=false<br>column.6.stretch=0<br>column.6.valuefield=approversString<br>column.6.valueformat=HTML<br>column.6.viewalias=approver.plural<br>column.6.width=200<br><br></pre>
+1. 按一下剩餘欄的標題，然後按一下&#x200B;**切換到文字模式**，然後按&#x200B;**編輯文字模式**。
+1. 移除您在&#x200B;**編輯文字模式**&#x200B;方塊中找到的文字，並取代為下列程式碼：
 
-1. 按一下「**儲存視圖**」。
+   ```
+   column.0.descriptionkey=name
+   column.0.link.linkproperty.0.name=ID
+   column.0.link.linkproperty.0.valuefield=ID
+   column.0.link.linkproperty.0.valueformat=int
+   column.0.link.lookup=link.view
+   column.0.link.valuefield=objCode
+   column.0.link.valueformat=val
+   column.0.linkedname=direct
+   column.0.listsort=string(name)
+   column.0.namekey=name.abbr
+   column.0.querysort=name
+   column.0.shortview=false
+   column.0.stretch=40
+   column.0.valuefield=name
+   column.0.valueformat=HTML
+   column.0.width=220
+   column.1.descriptionkey=assignedto
+   column.1.linkedname=assignedTo
+   column.1.listsort=nested(assignedTo).string(name)
+   column.1.namekey=assignedto
+   column.1.querysort=assignedTo:name
+   column.1.shortview=true
+   column.1.stretch=0
+   column.1.valuefield=assignedTo:name
+   column.1.valueformat=HTML
+   column.1.width=150
+   column.2.descriptionkey=role
+   column.2.linkedname=role
+   column.2.listsort=nested(role).string(name)
+   column.2.namekey=role
+   column.2.querysort=role:name
+   column.2.shortview=false
+   column.2.stretch=25
+   column.2.valuefield=role:name
+   column.2.valueformat=HTML
+   column.2.width=150
+   column.3.description=Approval Process Name
+   column.3.linkedname=direct
+   column.3.listsort=string(name)
+   column.3.name=Approval Process Name
+   column.3.querysort=name
+   column.3.shortview=false
+   column.3.stretch=35
+   column.3.valuefield=approvalProcess:name
+   column.3.valueformat=HTML
+   column.3.width=220
+   column.4.description=Approval Step Name
+   column.4.linkedname=direct
+   column.4.listsort=string(name)
+   column.4.name=Approval Step Name
+   column.4.querysort=name
+   column.4.shortview=false
+   column.4.stretch=0
+   column.4.valuefield=currentApprovalStep:name
+   column.4.valueformat=HTML
+   column.4.width=220
+   column.5.description=Previous Status
+   column.5.linkedname=direct
+   column.5.listsort=string(name)
+   column.5.name=Previous Status
+   column.5.querysort=name
+   column.5.shortview=false
+   column.5.stretch=0
+   column.5.valuefield=previousStatus
+   column.5.valueformat=HTML
+   column.5.width=220
+   column.6.linkedname=direct
+   column.6.listsort=HTML(approversString)
+   column.6.namekey=approver.plural.abbr
+   column.6.querysort=approversString
+   column.6.shortview=false
+   column.6.stretch=0
+   column.6.valuefield=approversString
+   column.6.valueformat=HTML
+   column.6.viewalias=approver.plural
+   column.6.width=200
+   ```
+
+1. 按一下&#x200B;**完成** > **儲存檢視**。
+1. （選擇性）更新檢視名稱，然後按一下&#x200B;**儲存檢視**。

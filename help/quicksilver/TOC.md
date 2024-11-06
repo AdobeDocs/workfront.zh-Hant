@@ -3,7 +3,7 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
 workflow-type: tm+mt
 source-wordcount: '14547'
 ht-degree: 2%
@@ -1658,7 +1658,7 @@ ht-degree: 2%
          * [檢視：在時數清單中合併任務和問題的詳細資訊](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-combined-task-issue-details-hour-list.md)
          * [檢視：在欄中顯示影像而非字串](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-image-in-view.md)
          * [檢視：顯示未包含在標準介面中的物件](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-objects-not-in-standard-interface.md)
-         * [檢視：顯示任務和專案清單上的原始問題資訊](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)
+         * [檢視：在任務或專案清單上顯示原始問題資訊](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)
          * [檢視：在作業檢視中顯示程式和Portfolio資訊](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-program-portfolio-info-task-view.md)
          * [檢視：在任務清單中顯示任務縮排](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-task-identations.md)
          * [檢視：透過縮排任務來顯示任務中的父子關係](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-parent-child-relationship-by-indenting-tasks-with-custom-view.md)
