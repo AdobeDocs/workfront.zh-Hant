@@ -5,9 +5,9 @@ title: 上傳新檔案版本並請求核准
 description: 您可以上傳新檔案版本，並向Adobe Workfront中的其他使用者請求核准。
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 66aa4c29743c031b1aff3b67364ff95f2b810ef8
+source-git-commit: cf2a6353df0ea0e3e1c473092dab5f263a98a2fd
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 如果標示的檔案需要在先前的稽核中工作，您可以將新版本上傳到原始檔案並開始另一輪核准。
 
 如果新版本的檔案名稱與先前版本的檔案名稱不同，則Workfront會顯示具有較新檔案名稱的檔案。
+
+當新版本新增到具有未完成核准的檔案時，先前版本的核准顯示為「已撤回」。 即使部分參與者尚未做出決定，先前的核准流程也會關閉。
 
 ## 存取需求
 

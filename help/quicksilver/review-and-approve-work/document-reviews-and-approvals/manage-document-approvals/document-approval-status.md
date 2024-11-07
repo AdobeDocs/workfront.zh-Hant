@@ -6,9 +6,9 @@ description: 列出並解釋檔案決策狀態
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 30a10ed9-ae11-4ff1-a66c-58ea94fe9959
-source-git-commit: bb889a181babe8c8641775871292c9a083d92818
+source-git-commit: 37c4b6d5609c429d6e0706e48d1143596eca9ea4
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '163'
 ht-degree: 5%
 
 ---
@@ -18,10 +18,6 @@ ht-degree: 5%
 您可以直接在檔案清單中檢視檔案的狀態：
 
 ![](assets/status-in-doc-list.png)
-
->[!IMPORTANT]
->
->在檔案清單中檢視檔案狀態的功能暫時無法使用。
 
 
 可使用下列狀態：

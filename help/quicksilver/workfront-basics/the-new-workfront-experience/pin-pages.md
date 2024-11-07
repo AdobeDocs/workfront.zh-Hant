@@ -5,10 +5,10 @@ description: 您可以釘選最重要的工作 [!DNL Adobe Workfront] 以增加�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
-source-git-commit: 73c24892c3adc30e3a2f7b331b2d818ce7f157ea
+source-git-commit: b42028c7f4934d7d2538e078372dd32262232729
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 1%
+source-wordcount: '413'
+ht-degree: 0%
 
 ---
 
@@ -70,33 +70,32 @@ ht-degree: 1%
 您可以變更釘選頁面的名稱，使其對您更有意義。
 
 1. 將滑鼠停留在頂端導覽列的釘選頁面上，或&#x200B;**[!UICONTROL 更多功能表]**。
-1. 按一下圖釘名稱旁的箭頭，然後選取&#x200B;**[!UICONTROL 重新命名圖釘]**。
+1. 按一下圖釘名稱旁的[更多]圖示![](assets/more-icon.png)，然後選取&#x200B;**[!UICONTROL 重新命名圖釘]**。
 
-   ![重新命名圖釘](assets/rename-remove-pin.png)
+   ![重新命名圖釘](assets/pin-menu.png)
 
-1. 輸入新的圖釘名稱，然後按一下核取記號圖示或按Enter鍵。
+1. 輸入新的pin名稱，然後按一下&#x200B;**儲存**。
 
-   ![按一下核取記號以重新命名圖釘](assets/rename-pin-click-checkmark.png)
+   ![按一下核取記號以重新命名圖釘](assets/new-pin-name.png)
 
-   按一下核取記號或按Enter鍵後，會出現一小型快顯視窗幾秒鐘，讓您在儲存圖釘之前復原圖釘名稱變更。
 
 ## 重新排序釘選頁面
 
 您可以重新排列釘選頁面的顯示順序。
 
-1. 將滑鼠停留在頂端導覽列的釘選頁面上，或&#x200B;**[!UICONTROL 更多功能表]**。 當您看到手掌游標時，按一下並將圖釘拖曳到所需的順序。
+1. 將游標停留在您要移動的釘選頁面上，然後按一下「**更多**」圖示。
+1. 選擇&#x200B;**向左移動**&#x200B;或&#x200B;**向右移動**&#x200B;以移動您的圖釘。
+1. （選擇性）選擇&#x200B;**移至前面**&#x200B;將圖釘移至圖釘列的右方位置。
+
+   ![移動圖釘](assets/pin-menu.png)
 
    您的變更會自動儲存，並在您下次存取Workfront時記住這些變更。
 
 ## 移除釘選頁面
 
-1. 按一下要取消釘選的釘選頁面。
-1. 按一下熒幕上方的&#x200B;**[!UICONTROL 取消釘選目前頁面]**。
+1. 按一下您要移除的釘選旁的「更多」圖示![](assets/more-icon.png)。
+1. 按一下&#x200B;**移除圖釘**。
 
-   或
-
-   按一下圖釘名稱旁的箭頭，然後選取&#x200B;**[!UICONTROL 移除圖釘]**。
-
-   ![移除圖釘](assets/rename-remove-pin.png)
+   ![移除圖釘](assets/pin-menu.png)
 
    無法再從[!DNL Workfront]中任何頁面的頂端存取該頁面。
