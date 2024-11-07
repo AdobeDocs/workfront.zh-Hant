@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
+source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '695'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,6 @@ ht-degree: 0%
 >
 >如需存取Workfront Planning的完整需求清單，請參閱[存取總覽](/help/quicksilver/planning/access/access-overview.md)。
 >如需Workfront Planning的概觀，請參閱[Adobe Workfront Planning概觀](/help/quicksilver/planning/general/planning-overview.md)。
->
 
 本文介紹2025年第一季版本中針對Workfront Planning發行的功能。
 
@@ -33,6 +32,24 @@ ht-degree: 0%
 <!--remove the general activity mention after First Quarter 2025 is released-->
 
 如需2024年8月28日一般可用性發行後Adobe Workfront Planning所發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## 表格檢視中百分比型別欄位的新顯示型別
+
+>[!NOTE]
+>
+>預覽版本： 2024年11月7日；快速發行生產：24.12版（2024年12月）；每季發行生產：25.1版（2025年1月）
+
+若要讓數字更容易在表格檢視中讀取，您現在可以從下列選項中選取，以變更「百分比型別」欄位在表格檢視中的顯示方式：
+
+* 數字
+* 長條圖
+* 圓形
+
+只有表格檢視才支援此顯示型別。
+
+在此增強功能之前，您只能將百分比值顯示為數字。
+
+如需詳細資訊，請參閱[建立欄位](/help/quicksilver/planning/fields/create-fields.md)。
 
 ## 請求表單現在支援連線欄位
 
