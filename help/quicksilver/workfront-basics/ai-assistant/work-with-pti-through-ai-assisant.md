@@ -4,9 +4,10 @@ content-type: reference
 description: 您可以使用「摘要」這項功能，快速摘要工作專案和檔案。
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: 0eeee68c45003525b9593ce985729f7aa12189cf
+exl-id: 5b0e1002-b6e9-4354-9ead-643de1de5bab
+source-git-commit: e02fd7dc6f1655b69c0433465a51f4c53d486570
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
@@ -31,27 +32,29 @@ AI助理可以協助您在Workfront中找到專案、任務和問題。
 1. 在AI助理面板中檢視回應。
 1. （可選）若要移至工作專案，請按一下AI助理面板中的連結。
 
-## 建立工作專案
+<!--
 
-1. 按一下熒幕右上角附近的&#x200B;**AI小幫手**&#x200B;圖示![AI小幫手圖示](assets/ai-assistant-icon.png)。
-1. 輸入提示，例如
+## Create a work item
 
-   * 建立專案「春季行銷活動」
-   * 將問題「UI錯誤」新增到專案「新UI」
-   * 在專案「春季行銷活動」中建立「拍照」任務
+1. Click the **AI Assistant** icon ![AI Assistant icon](assets/ai-assistant-icon.png) near the upper-right corner of the screen.
+1. Enter a prompt such as 
 
-1. 檢查AI助理回應，確認其正在採取所需的動作
-1. （視條件而定）如果回應描述正確的動作，請按一下&#x200B;**是**。
+   * Create project "Spring campaign"
+   * Add issue "UI Bug" to project "New UI" 
+   * Create "photoshoot" task in project "Spring campaign"
 
-   AI Assistant可能需要一些時間來建立專案，這取決於提示的大小或複雜程度，以及它需要搜尋多少記錄。
-1. （視條件而定）若要取消建立新專案，請按一下&#x200B;**否**。
-1. （可選）若要移至工作專案，請按一下AI助理面板中的連結。
+1. Check the AI Assistant response to ensure that it is taking the desired action
+1. (Conditional) If the response describes the correct action, click **Yes**.
+
+   AI Assistant may take a few moments to create the item, depending on how large or complex the prompt is and how many records it needs to search.
+1. (Conditional) To cancel the creation of the new item, click **No**.
+1. (Optional) To go to the work item, click the link in the AI Assistant panel.
 
 >[!NOTE]
 >
->我們建議檢查新專案，以確保其如預期般建立。
+>We recommend checking the new item to ensure that it was created as expected.
 
-
+-->
 
 <!--
 

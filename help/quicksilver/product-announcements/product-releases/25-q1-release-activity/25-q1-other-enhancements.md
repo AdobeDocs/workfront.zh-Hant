@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 67ec1535-d374-4133-9395-626fa7ae4072
-source-git-commit: afcb79d0fe3274f2748da535e82f2248578805e7
+source-git-commit: e02fd7dc6f1655b69c0433465a51f4c53d486570
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,7 @@ ht-degree: 0%
 >
 >預覽版本： 2024年10月31日；快速發行生產：24.11版（2024年11月14日）；每季發行生產：25.1版（2025年1月）
 
-為了更輕鬆地在Workfront中管理您的工作專案，我們已更新AI助理來處理專案、任務和問題。 現在，AI助理可以：
-
-* 根據您指定的條件尋找專案、任務和問題，例如「尋找本週到期的任務」。
-* 根據您提供的資訊建立專案、任務和問題，例如「在專案Spring Campaign中建立稱為「修訂校訂」的任務。
-
+為了更輕鬆地在Workfront中管理您的工作專案，我們已更新AI助理來處理專案、任務和問題。 現在，AI助理可以根據您指定的條件找到專案、任務和問題，例如「尋找本週到期的工作」。
 以前，AI助理無法直接處理專案、任務和問題。
 
 您的Workfront管理員可以為您的組織啟用或停用AI助理。 AI Assistant適用於Select、Prime和Ultimate計畫的例項。
