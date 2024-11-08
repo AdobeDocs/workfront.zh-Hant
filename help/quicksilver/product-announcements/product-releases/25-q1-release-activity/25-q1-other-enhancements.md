@@ -4,9 +4,10 @@ description: 2025年第一季度發行時間範圍內的其他增強功能
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
+exl-id: 67ec1535-d374-4133-9395-626fa7ae4072
+source-git-commit: afcb79d0fe3274f2748da535e82f2248578805e7
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -23,7 +24,10 @@ ht-degree: 0%
 >
 >預覽版本： 2024年10月31日；快速發行生產：24.11版（2024年11月14日）；每季發行生產：25.1版（2025年1月）
 
-為了更輕鬆地在Workfront中管理您的工作專案，我們已更新AI助理來處理專案、任務和問題。 現在，AI助理可以根據您指定的條件找到專案、任務和問題，例如「尋找本週到期的工作」。
+為了更輕鬆地在Workfront中管理您的工作專案，我們已更新AI助理來處理專案、任務和問題。 現在，AI助理可以：
+
+* 根據您指定的條件尋找專案、任務和問題，例如「尋找本週到期的任務」。
+* 根據您提供的資訊建立專案、任務和問題，例如「在專案Spring Campaign中建立稱為「修訂校訂」的任務。
 
 以前，AI助理無法直接處理專案、任務和問題。
 
