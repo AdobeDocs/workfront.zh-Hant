@@ -4,9 +4,10 @@ description: 2025年第一季度發行時間範圍內的外觀與感覺更新
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
+exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
+source-git-commit: 8fa0c5573008a625ae10af051eeabfb6a8519a01
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '411'
 ht-degree: 0%
 
 ---
@@ -49,19 +50,6 @@ ht-degree: 0%
 我們以與Workfront其他區域一致的更現代設計更新了設定區域中的「匯出資料(Kick-Start)」頁面。
 
 如需詳細資訊，請參閱[透過Kick-Starts從Workfront匯出資料](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)。
-
-## Workfront導覽列的外觀更新
-
->[!NOTE]
->
->適用於所有客戶的生產版本：24.11版本（2024年11月14日）之前
-
-我們已升級Workfront導覽列以改善其效能。 外觀和感覺的變更很小。
-
-最明顯的變更如下：
-
-* 我的最愛和最近專案下拉式畫面不再有關閉按鈕。 您只需按一下離開熒幕，或按鍵盤上的ESC鍵以將其關閉。
-* 您無法再拖放釘選頁面來排列它們。 取而代之的是，有一個下拉式選單及其按鈕，可讓您移動釘選頁面。
 
 ## 傳送更新至使用者視窗的外觀更新
 
