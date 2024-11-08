@@ -4,9 +4,10 @@ description: 2025年第一季度檔案管理增強功能
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
+exl-id: 0639cb37-212c-46d5-bfe0-b524efc085d3
+source-git-commit: 7ed4b36ef9297560ce9df6aa750b2ac24ac4a129
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---
@@ -27,4 +28,6 @@ ht-degree: 0%
 >
 >預覽版本： 2024年11月7日；快速發行生產：24.11版（2024年11月14日）；每季發行生產：25.1版（2025年1月）
 
-當新版本新增到具有未完成核准的檔案時，先前版本上的核准現在顯示為「已撤回」。 即使部分參與者尚未做出決定，先前的核准流程也會關閉。
+當新版本新增到具有待核准的檔案時，先前版本的核准現在將顯示為「已撤回」，表示由於新增新版本，先前核准流程已關閉。
+
+如需詳細資訊，請參閱[上傳新檔案版本並請求核准](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)。

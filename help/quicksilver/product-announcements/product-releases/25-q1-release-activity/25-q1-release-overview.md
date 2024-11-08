@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: afcb79d0fe3274f2748da535e82f2248578805e7
+source-git-commit: 7ed4b36ef9297560ce9df6aa750b2ac24ac4a129
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '921'
 ht-degree: 0%
 
 ---
@@ -135,7 +135,7 @@ ht-degree: 0%
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">檔案版本核准可用的新撤銷狀態</a></p>
-                <p>當新版本新增到具有未完成核准的檔案時，先前版本上的核准現在顯示為「已撤回」。 即使部分參與者尚未做出決定，先前的核准流程也會關閉。</p>
+                <p>當新版本新增到具有待核准的檔案時，先前版本的核准現在將顯示為「已撤回」，表示由於新增新版本，先前核准流程已關閉。</p>
             </td>
             <td><p><b>將於下列日期提供：</b></p>
                 <ul>
