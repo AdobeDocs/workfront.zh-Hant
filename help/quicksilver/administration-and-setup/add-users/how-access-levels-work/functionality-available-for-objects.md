@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 523c2fe466b0afb8f65730ae8f2434f613e31439
+source-git-commit: edbd33cbb343f8c9f3ebd09ebb067444dd9efcf5
 workflow-type: tm+mt
-source-wordcount: '1666'
+source-wordcount: '1668'
 ht-degree: 11%
 
 ---
@@ -228,7 +228,7 @@ ht-degree: 11%
 | 編輯詳細資料 | ✓ (A) | ✓ (A) | ✓ (A) |   |
 | 下載 | ✓ (A) | ✓ (A) | ✓ (A) | ✓ (A) |
 | 簽出 | ✓ (A) | ✓ (A) | ✓ (A) |   |
-| 新增核准者 | ✓ (A) | ✓ (A) | ✓ (A) |   |
+| 新增核准者（檔案） | ✓ (A) | ✓ (A) | ✓ (A) |   |
 | 核准檔案 | ✓ (A) | ✓ (A) | ✓ (A) | ✓ (A) |
 | 附加自訂表單 | ✓ (A) | ✓ (A) | ✓ (A) |   |
 | 編輯自訂欄位 | ✓ (A) | ✓ (A) | ✓ (A) |   |
@@ -238,8 +238,8 @@ ht-degree: 11%
 | 上傳新版本 | ✓ (A) | ✓ (A) | ✓ (A) |   |
 | 刪除版本 | ✓ (A) | ✓ (A) | ✓ (A) |   |
 | 預覽 | ✓ (A) | ✓ (A) | ✓ (A) | ✓ (A) |
-| 校樣 | ✓ (A) | ✓ (A) | ✓ (A) | ✓ (A) |
-| 產生校訂 | ✓ (A) |   |   |   |
+| 核准校樣 | ✓ (A) | ✓ (A) | ✓ (A) | ✓ (A) |
+| 產生校樣 | ✓ (A) |   |   |   |
 | 移除校訂 | ✓ (A) | ✓ (A) | ✓ (A) |   |
 | 新增/移除&#42;&#42; | ✓ (A) | ✓ (A) | ✓ (A) |   |
 | 重新命名&#42;&#42; | ✓ (A) | ✓ (A) | ✓ (A) |   |
