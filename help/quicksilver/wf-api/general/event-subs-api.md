@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: d92dc8581bef1f5fdbef7a853ac27ffc3fa7ddbe
+source-git-commit: be5c1dcba32efd95ae484c015b66977398f4b762
 workflow-type: tm+mt
 source-wordcount: '2157'
 ht-degree: 3%
@@ -336,39 +336,26 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 
 **回應本文範例：**
 
-<!-- [Copy](javascript:void(0);) -->
-
 ```
-                {
-                "subscriptions":                
-                [
-                {
-                "id": "37c4bcf5-e0b5-4256-aba3-a51cba7bf997",
-                "customerId": "504f9640000013401be513579fbebffa",
-                "objId": "ObjId1234",
-                "objCode": "TASK",
-                "url": "http://test.test.net/test/1234",
-                "eventType": "UPDATE",
-                "authToken": "auth_token"
-                },
-                {
-                "id": "750a636c-5628-48f5-ba26-26b7ce537ac2",
-                "customerId": "504f9640000013401be513579fbebffa",
-                "objId": null,
-                "objCode": "PROJ",
-                "url": "http://requestb.in/ua5hi2ua",
-                "eventType": "UPDATE",
-                "authToken": "authTokenWorkfrontRocks1234_"
-                }
-                ],
-                "meta":
-                {
-                "page": 1,
-                "page_count": 2,
-                "limit": 100,
-                "total_count": 150
-                }
-                }            
+{
+    "id": "750a636c-5628-48f5-ba26-26b7ce537ac2",
+    "date_created": "2024-04-11T17:10:10.305981",
+    "date_modified": "2024-04-11T17:10:10.305981",
+    "customerId": "504f9640000013401be513579fbebffa",
+    "objId": null,
+    "objCode": "PROJ",
+    "url": "http://requestb.in/ua5hi2ua",
+    "eventType": "UPDATE",
+    "authToken": "authTokenWorkfrontRocks1234_"
+    "subscription_url": {
+        "url": "http://requestb.in/ua5hi2ua",
+        "date_created": "2024-04-11T15:56:14.169489",
+        "successes": 11,
+        "failures": 2,
+        "disabled_at": null,
+        "frozen_at": null
+   }
+}
 ```
 
 位置
@@ -419,18 +406,28 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 **回應本文範例：**
 
-<!-- [Copy](javascript:void(0);) -->
+
 
 ```
 {
-                "id": "750a636c-5628-48f5-ba26-26b7ce537ac2",
-                "customerId": "504f9640000013401be513579fbebffa",
-                "objId": null,
-                "objCode": "PROJ",
-                "url": "http://requestb.in/ua5hi2ua",
-                "eventType": "UPDATE",
-                "authToken": "authTokenWorkfrontRocks1234_"
-                }
+    "id": "750a636c-5628-48f5-ba26-26b7ce537ac2",
+    "date_created": "2024-04-11T17:10:10.305981",
+    "date_modified": "2024-04-11T17:10:10.305981",
+    "customerId": "504f9640000013401be513579fbebffa",
+    "objId": null,
+    "objCode": "PROJ",
+    "url": "http://requestb.in/ua5hi2ua",
+    "eventType": "UPDATE",
+    "authToken": "authTokenWorkfrontRocks1234_"
+    "subscription_url": {
+        "url": "http://requestb.in/ua5hi2ua",
+        "date_created": "2024-04-11T15:56:14.169489",
+        "successes": 11,
+        "failures": 2,
+        "disabled_at": null,
+        "frozen_at": null
+   }
+}
 ```
 
 ## 事件訂閱篩選
