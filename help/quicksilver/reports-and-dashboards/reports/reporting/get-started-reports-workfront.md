@@ -7,9 +7,9 @@ description: 報表可讓您檢視使用者和工作的最新狀況。 使用報
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 478512af-a47c-4488-878a-581e238e0064
-source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
+source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
 workflow-type: tm+mt
-source-wordcount: '3296'
+source-wordcount: '3293'
 ht-degree: 0%
 
 ---
@@ -325,7 +325,7 @@ Workfront提供數個系統報告，預設會載入您的系統。\
   </tr> 
   <tr> 
    <td>欄位</td> 
-   <td> <p>是指物件的屬性。 例如，「狀態」是專案、任務或問題的欄位。 「Portfolio管理員」是Portfolio物件的欄位。</p> <p>您也可以建立自訂欄位，並將其新增至自訂表格。<br>如需建立自訂表單的相關資訊，請參閱文章<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">使用表單設計工具設計表單</a>。</p> </td> 
+   <td> <p>是指物件的屬性。 例如，「狀態」是專案、任務或問題的欄位。 「Portfolio管理員」是Portfolio物件的欄位。</p> <p>您也可以建立自訂欄位，並將其新增至自訂表格。<br>如需建立自訂表單的相關資訊，請參閱文章<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">建立自訂表單</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>欄位名稱 </td> 

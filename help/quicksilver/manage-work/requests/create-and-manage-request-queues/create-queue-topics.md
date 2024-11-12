@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '842'
 ht-degree: 2%
 
 ---
@@ -128,7 +128,7 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>自訂表單</strong> </td> 
-      <td>選取您要與佇列主題關聯的任何自訂表單。 您必須先建立問題的自訂表單，然後才能將其與佇列主題相關聯。 如需建立自訂表單的相關資訊，請參閱<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">使用表單設計工具設計表單</a>。</td> 
+      <td>選取您要與佇列主題關聯的任何自訂表單。 您必須先建立問題的自訂表單，然後才能將其與佇列主題相關聯。 如需建立自訂表單的相關資訊，請參閱<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">建立自訂表單</a>。</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>預設核准</strong></td> 

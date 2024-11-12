@@ -1,23 +1,23 @@
 ---
-title: 從復本設計表單
+title: 從副本建立表單
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: 您可以使用表單設計工具，從副本設計自訂表單。
+description: 您可以使用表單設計工具，從副本建立自訂表單。
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 578a8bd5-d93f-4327-bb4f-2c17b91b170a
-source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
+source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
 
-# 從復本設計表單
+# 從副本建立表單
 
-<!--add preview tags and see below in commet out-->
+<!--add preview tags and see below in comment out-->
 
 您可以根據現有表格設計新的自訂表格。 您可以將自訂表單附加至不同的Workfront物件，以擷取這些物件的相關資料。
 
@@ -89,12 +89,12 @@ ht-degree: 0%
 1. 如[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)文章的下列章節所說明，對表單進行任何變更：
 
    * [重複使用已在其他自訂表單中使用的現有欄位或Widget](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#reuse-an-existing-field-or-widget-already-used-in-another-custom-form)
-      * [新增文字欄位](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-text-fields)
-      * [新增計算欄位](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-calculated-fields)
-      * [新增選項按鈕、核取方塊群組和下拉式清單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkboxes-and-dropdowns)
-      * [新增預先輸入和日期欄位](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-typeahead-and-date-fields)
-      * [新增影像、PDF和影片](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-images-pdfs-and-videos)
-      * [新增Adobe XD檔案](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-adobe-xd-files)
-        <!--* [Add Planning connection fields](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-planning-connection-fields)-->
+   * [新增文字欄位](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-text-fields)
+   * [新增計算欄位](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-calculated-fields)
+   * [新增選項按鈕、核取方塊群組和下拉式清單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkboxes-and-dropdowns)
+   * [新增預先輸入和日期欄位](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-typeahead-and-date-fields)
+   * [新增影像、PDF和影片](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-images-pdfs-and-videos)
+   * [新增Adobe XD檔案](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-adobe-xd-files)
+     <!--* [Add Planning connection fields](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-planning-connection-fields)-->
 
-1. （選擇性）按一下&#x200B;**儲存+關閉**&#x200B;之後，將表單附加至您要使用它的物件，如[將自訂表單新增至物件](/help/quicksilver/workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)中所述。
+1. （選擇性）按一下&#x200B;**儲存並關閉**&#x200B;之後，將表單附加至您要使用它的物件，如[將自訂表單新增至物件](/help/quicksilver/workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)中所述。

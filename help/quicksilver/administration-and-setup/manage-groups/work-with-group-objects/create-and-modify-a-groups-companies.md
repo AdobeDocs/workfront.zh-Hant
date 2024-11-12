@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 407f6631-ecc1-4ed8-bfec-6d726ae87a3d
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '749'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 0%
      </tr>
      <tr> 
       <td role="rowheader">自訂Forms區段</td> 
-      <td> <p>如果有任何您想要新增至公司的欄位無法在Workfront中使用，您可以建置自訂表單並將其與公司建立關聯。 您可以從下拉式選單中選取此表單，以將其附加至您的公司。 下拉式功能表中只會列出作用中的公司。 如需建立自訂表單的相關資訊，請參閱<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">使用表單設計工具設計表單</a>。 </p> </td> 
+      <td> <p>如果有任何您想要新增至公司的欄位無法在Workfront中使用，您可以建置自訂表單並將其與公司建立關聯。 您可以從下拉式選單中選取此表單，以將其附加至您的公司。 下拉式功能表中只會列出作用中的公司。 如需建立自訂表單的相關資訊，請參閱<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">建立自訂表單</a>。 </p> </td> 
      </tr> 
     </tbody> 
    </table>

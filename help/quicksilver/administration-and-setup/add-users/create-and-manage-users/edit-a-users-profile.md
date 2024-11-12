@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
 workflow-type: tm+mt
-source-wordcount: '3264'
+source-wordcount: '3261'
 ht-degree: 0%
 
 ---
@@ -232,7 +232,7 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader">自訂表單</td> 
-      <td><p>將現有的使用者自訂表單與此使用者建立關聯。 您必須先建立自訂表單，然後才能將其與使用者建立關聯。 清單中只會顯示作用中的自訂表單。 您無權編輯的欄位不會顯示在個別自訂表單中。</p> <p><strong>注意：</strong>進階自訂表單功能，例如外部查詢欄位和Workfront原生欄位，只有在您開啟詳細資訊頁面上的使用者記錄時，才可使用，而不是在[編輯使用者]對話方塊上。 （從使用者清單中，按一下使用者名稱以開啟詳細資訊。）</p> <p>如需建立自訂表單的相關資訊，請參閱<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md" class="MCXref xref">使用表單設計工具設計表單</a>。</p></td> 
+      <td><p>將現有的使用者自訂表單與此使用者建立關聯。 您必須先建立自訂表單，然後才能將其與使用者建立關聯。 清單中只會顯示作用中的自訂表單。 您無權編輯的欄位不會顯示在個別自訂表單中。</p> <p><strong>注意：</strong>進階自訂表單功能，例如外部查詢欄位和Workfront原生欄位，只有在您開啟詳細資訊頁面上的使用者記錄時，才可使用，而不是在[編輯使用者]對話方塊上。 （從使用者清單中，按一下使用者名稱以開啟詳細資訊。）</p> <p>如需建立自訂表單的相關資訊，請參閱<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md" class="MCXref xref">建立自訂表單</a>。</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">評論</td> 
