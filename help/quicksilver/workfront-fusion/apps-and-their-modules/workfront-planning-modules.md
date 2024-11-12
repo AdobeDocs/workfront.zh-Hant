@@ -11,9 +11,9 @@ feature: Workfront Fusion
 hide: true
 hidefromtoc: true
 exl-id: 892fdaf3-935e-4e66-a01c-9e9b6e0daf3e
-source-git-commit: e067c5ff34c31060ca6fd392289d845f53a5ef3a
+source-git-commit: 8cb79a06f46c9a379f7394a6bef14f97d4ff7f98
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1143'
 ht-degree: 0%
 
 ---
@@ -65,15 +65,55 @@ ht-degree: 0%
 
 您可以直接從[!DNL Workfront Fusion]模組內建立與您的[!DNL Workfront Planning]帳戶的連線。
 
-1. 在任何[!DNL Workfront Planning]應用程式模組中，按一下[!UICONTROL 連線]方塊旁的&#x200B;**[!UICONTROL 新增]**。
-1. 輸入此連線的名稱。
-1. 選取您要連線至生產環境或非生產環境。
-1. 選取您要連線到服務帳戶還是個人帳戶。
-1. 按一下&#x200B;**[!UICONTROL SAML登入]**&#x200B;以建立連線並返回模組。
+1. 在任何[!DNL Adobe Workfront Planning]模組中，按一下[連線]方塊旁的&#x200B;**[!UICONTROL 新增]**。
+
+1. 填寫下列欄位：
+
+   <table style="table-layout:auto"> 
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+      </col>
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+      </col>
+      <tbody>
+        <tr>
+          <td role="rowheader">[！UICONTROL連線名稱]</td>
+          <td>
+            <p>輸入此連線的名稱。</p>
+          </td>
+        </tr>
+        <tr>
+          <td role="rowheader">[！UICONTROL環境]</td>
+          <td>選取您要連線到生產或非生產環境。</td>
+        </tr>
+        <tr>
+          <td role="rowheader">[！UICONTROL型別]</td>
+          <td>選取您是要連線到服務帳戶還是個人帳戶。</td>
+        </tr>
+        <tr>
+          <td role="rowheader">[！UICONTROL使用者端ID]<p>（可選）</p></td>
+          <td>輸入您的[!DNL Adobe] [！UICONTROL使用者端識別碼]。 這可以在[!DNL Adobe Developer Console]的[！UICONTROL認證詳細資料]區段中找到。</td>
+        </tr>
+        <tr>
+          <td role="rowheader">[！UICONTROL使用者端密碼]<p>（可選）</p></td>
+          <td>輸入您的[!DNL Adobe] [！UICONTROL使用者端密碼]。 這可以在[!DNL Adobe Developer Console]的[！UICONTROL認證詳細資料]區段中找到。
+        </tr>
+        <tr>
+          <td role="rowheader">[！UICONTROL驗證URL]<p>（可選）</p></td>
+          <td>輸入您的Workfront執行個體將用來驗證此連線的URL。 <p>預設值為<code>https://oauth.my.workfront.com/integrations/oauth2</code>。</p>
+        </tr>
+        <tr>
+          <td role="rowheader">[！UICONTROL主機前置詞]</td>
+          <td>輸入您的主機前置詞。<p>預設值為<code>origin-</code>。</p>
+        </tr>
+      </tbody>
+    </table>
+1. 按一下&#x200B;**[!UICONTROL 繼續]**&#x200B;以儲存連線並返回模組。
 
 ## [!DNL Adobe Workfront Planning]模組及其欄位
 
-### 觀看活動
+### 觸發器
+
+#### 觀看活動
 
 在Workfront Planning中建立、更新或刪除記錄、記錄型別或工作區時，此觸發模組會啟動案例。
 
@@ -110,7 +150,12 @@ ht-degree: 0%
   </tbody>
 </table>
 
-### 刪除記錄型別
+### 動作
+
+* [刪除記錄型別](#delete-a-record-type)
+* [進行自訂AI呼叫](#make-a-custom-api-call)
+
+#### 刪除記錄型別
 
 此動作模組會依據其ID刪除Workfront Planning中的單一記錄型別。
 
@@ -135,7 +180,7 @@ ht-degree: 0%
   </tbody>
 </table>
 
-### 進行自訂API呼叫
+#### 進行自訂API呼叫
 
 此模組會對[!DNL Adobe Workfront Planning] API發出自訂API呼叫。
 
@@ -149,26 +194,10 @@ ht-degree: 0%
     </tr>
      <tr>
       <td role="rowheader">
-        <p>[！UICONTROL路徑]</p>
+        <p>[！UICONTROL URL]</p>
       </td>
       <td>
-        <p>輸入相對於https://&amp;ltWORKFRONT_DOMAIN&gt;/attask/api/&amp;ltAPI_VERSION&gt;/</p>
-      </td>
-    </tr>
-     <tr>
-      <td role="rowheader">
-        <p>[！UICONTROL API版本]</p>
-      </td>
-      <td>
-        <p>選取您要使用的API版本。 如果您未選取版本，則預設會使用最新版本。</p>
-      </td>
-    </tr>
-     <tr>
-      <td role="rowheader">
-        <p>[！UICONTROL API路徑覆寫]</p>
-      </td>
-      <td>
-        <p>輸入相對於https://&amp;ltWORKFRONT_DOMAIN&gt;/attask/api/&amp;ltAPI_VERSION&gt;/</p>
+        <p>輸入相對於 <code>https://(YOUR_WORKFRONT_DOMAIN)/maestro/api/</code></p>
       </td>
     </tr>
     <tr>
@@ -201,57 +230,18 @@ ht-degree: 0%
 </table>
 
 <!--
+### Searches
 
-### Delete a field
+#### Search records
 
-This action module deletes a single field in Workfront Planning by its ID.
-
->[!WARNING]
->
->Deleting a field in Workfront Planning deletes it and any data in it from every object of that record type in Workfront Planning.
-
-<table style="table-layout:auto"> 
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>For instructions on creating a connection to [!DNL Adobe Workfront Planning], see <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Create a connection to [!DNL Adobe Workfront Planning]</a> in this article.</td>
-    </tr>
-     <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Field ID]</p>
-      </td>
-      <td>Enter or map the ID of the record type you want to delete.</td> 
-      </tr>
-  </tbody>
-</table>
-
-### Get a field 
-
-
-This action module retrieves a single field in Workfront Planning by its ID.
-
-<table style="table-layout:auto"> 
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>For instructions on creating a connection to [!DNL Adobe Workfront Planning], see <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Create a connection to [!DNL Adobe Workfront Planning]</a> in this article.</td>
-    </tr>
-     <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Field ID]</p>
-      </td>
-      <td>Enter or map the ID of the field you want to delete.</td> 
-      </tr>
-  </tbody>
-</table>
+This action module retrieves a list of records based on criteria you specify.
 
 -->
 
-### 建立記錄
+### 未分類
+
+
+#### 建立記錄
 
 這個動作會在Workfront Planning中建立單一記錄。
 
@@ -414,11 +404,3 @@ This action module retrieves all records from an [!DNL Adobe Workfront Planning]
      <tr>
   </tbody>
 </table>
-
-### 搜尋記錄
-
-此動作模組會根據您指定的條件擷取記錄清單。
-
->[!NOTE]
->
->此模組正在建構中。
