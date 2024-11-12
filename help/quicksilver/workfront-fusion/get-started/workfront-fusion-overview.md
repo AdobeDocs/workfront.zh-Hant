@@ -8,7 +8,7 @@ description: ' [!DNL Adobe Workfront Fusion] 的角色是自動化您的程式�
 author: Becky
 feature: Workfront Fusion
 exl-id: f1633a93-8f4e-4db0-8618-3ce7d8ba84b1
-source-git-commit: 7ad3fbcfa5be5074016f399560cca509d81f4714
+source-git-commit: 6c55cb0ad06e25f9ab3b7c483aada91c701f56f1
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 0%
@@ -78,7 +78,9 @@ Workfront Fusion也提供支援情境的功能，例如情境建立範本、執�
 
 * 如需Workfront Fusion訓練資源，請參閱[Workfront Fusion訓練概述](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/fusion/welcome-to-workfront-fusion/introduction-and-tech-strategy)。
 
+
 * 如需案例的詳細資訊，請參閱[案例概觀](/help/quicksilver/workfront-fusion/scenarios/scenario-overview.md)。
+
 
 * 若要開始建立實務案例，請參閱[建立實務案例](../../workfront-fusion/get-started/build-practice-scenarios/create-practice-scenarios.md)。
 
