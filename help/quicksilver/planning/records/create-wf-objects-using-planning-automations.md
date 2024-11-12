@@ -5,19 +5,19 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
-source-git-commit: d8631e16234486479aa70233aa3770b28ea0d218
+source-git-commit: cfaacc4137ebfa7f2ed057522d43bd82715011df
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '383'
 ht-degree: 1%
 
 ---
 
 
-# 使用Workfront Planning記錄自動化建立Workfront物件
+# 使用Workfront Planning記錄自動化建立物件
 
-您可以在Workfront Planning中設定自動化，以便在啟動時在Workfront中建立物件。
+您可以在Workfront Planning中設定自動化，以便在啟動時在Workfront或Workfront Planning中建立物件。
 
-您啟動記錄中的自動化。 Workfront中的物件已連線至您啟動自動化的Planning記錄。
+您啟動記錄中的自動化。 建立的物件會連線至您啟動自動化的Planning記錄。
 
 例如，您可以建立採用Workfront Planning行銷活動的自動化，並在Workfront中建立專案以追蹤該行銷活動的進度。 專案會連結至Workfront規劃行銷活動。
 
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 ## 在Workfront Planning中設定自動化
 
-您必須先在Workfront Planning中設定自動化，才能使用它來建立Workfront物件。
+您必須先在Workfront Planning中設定自動化，才能使用它來建立物件。
 
 1. 按一下&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)並選取&#x200B;**自動化**。
 
@@ -44,14 +44,14 @@ ht-degree: 1%
    * 方案
    * 群組
 
-1. 在&#x200B;**選取要用於專案名稱**&#x200B;欄位的欄位中，選取記錄欄位。 Workfront中的新專案會以此欄位的內容作為其名稱。
-1. 在&#x200B;**選取要連結已建立專案回溯的欄位**&#x200B;中，選取記錄欄位。 在Workfront Planning中檢視記錄時，Workfront中的新專案將顯示在此欄位中。
+1. 在&#x200B;**選取要用於專案名稱**&#x200B;欄位的欄位中，選取記錄欄位。 新物件會將此欄位的內容當作其名稱。
+1. 在&#x200B;**選取要連結已建立專案回溯的欄位**&#x200B;中，選取記錄欄位。 在Workfront Planning中檢視記錄時，新物件將出現在此欄位中。
 1. 選取您正在建立的物件型別可用的其他選項。
 1. 按一下&#x200B;**建立**
 
 自動化會出現在自動化清單中，並可用於記錄。
 
-## 使用Workfront Planning自動化建立Workfront物件
+## 使用Workfront Planning自動化來建立物件
 
 1. 在Workfront Planning中，開啟記錄型別頁面，其中包含您要用來建立Workfront物件的記錄。
 1. 選取一或多個記錄。
