@@ -5,9 +5,10 @@ title: 使用AI助理摘要專案
 description: 專案標題包含使用AI助理來摘要專案的按鈕。
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: df10444228de70dd460c4df72c4ba7dba6455f15
+exl-id: e0ac2a50-a75b-4453-8edf-850b8de74327
+source-git-commit: 769cacc12f35b019f8c97c243681f4adb3a3c0c9
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '367'
 ht-degree: 1%
 
 ---
@@ -17,8 +18,6 @@ ht-degree: 1%
 Workfront的AI助理可以彙總專案，讓您快速瞭解專案用途和狀態等專案資訊，提供已完成和仍在擱置中的任務範例，並提供一些其他詳細資訊和附註。
 
 您可以使用「專案摘要」按鈕來產生摘要，也可以在「AI小幫手」中輸入提示。
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽Sandbox」環境中使用。</span>
 
 >[!NOTE]
 >
@@ -69,8 +68,6 @@ Workfront的AI助理可以彙總專案，讓您快速瞭解專案用途和狀態
 
 
 
-<div class="preview">
-
 ## 使用專案摘要按鈕摘要
 
 1. 導覽至您要摘要的更新流。
@@ -82,8 +79,6 @@ Workfront的AI助理可以彙總專案，讓您快速瞭解專案用途和狀態
 
 1. 在AI助理面板中檢視AI摘要。
 1. （選擇性）調整提示，確保提供您所需的資訊。
-
-   </div>
 
 ## 在AI助理中摘要物件
 
@@ -99,4 +94,3 @@ Workfront的AI助理可以彙總專案，讓您快速瞭解專案用途和狀態
    AI Assistant可能需要一些時間才能產生摘要，端視物件的大小或複雜程度而定。
 
 1. 在AI助理面板中檢視AI摘要。
-

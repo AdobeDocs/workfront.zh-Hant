@@ -5,9 +5,10 @@ title: 使用AI助理概述更新
 description: 「更新」是物件的內容，其中包含使用AI助理來摘要更新的按鈕。
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: 11e7a376719e52db3f5e98afff44cb4b4d07db01
+exl-id: d0c26f90-a01b-4226-b6a0-647808f71e08
+source-git-commit: 769cacc12f35b019f8c97c243681f4adb3a3c0c9
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '379'
 ht-degree: 0%
 
 ---
@@ -17,8 +18,6 @@ ht-degree: 0%
 Workfront的AI助理可以摘要更新資料流的內容，讓您快速了解圍繞Workfront物件發生的評論和討論。
 
 您可以使用「摘要內容」按鈕來產生摘要，也可以在AI小幫手中輸入提示。
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽Sandbox」環境中使用。</span>
 
 >[!NOTE]
 >
@@ -60,8 +59,6 @@ Workfront的AI助理可以摘要更新資料流的內容，讓您快速了解圍
 
   如需詳細資訊，請參閱[啟用或停用AI助理](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)。
 
-<div class="preview">
-
 ## 使用「摘要內容」按鈕摘要
 
 1. 導覽至您要摘要的更新流。
@@ -75,8 +72,6 @@ Workfront的AI助理可以摘要更新資料流的內容，讓您快速了解圍
 1. （選擇性）調整提示，確保提供您所需的資訊。
 
    例如，您可以調整「摘要內容」提示，以摘要過去14天（而不是過去7天）的評論。
-
-   </div>
 
 ## 在AI助理中摘要物件
 
@@ -92,4 +87,3 @@ Workfront的AI助理可以摘要更新資料流的內容，讓您快速了解圍
    AI Assistant可能需要一些時間才能產生摘要，端視物件的大小或複雜程度而定。
 
 1. 在AI助理面板中檢視AI摘要。
-
