@@ -5,13 +5,13 @@ description: 檢視即將發行的「優先順序」發行資訊
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 5e103da5f938fabf01fead5161263c4324e1c703
+exl-id: 749f4da8-6ffb-4b23-bf3e-18f195df80c9
+source-git-commit: a6ab22e62fa15c6922d7f749b2df7350f6d7b5a6
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
-
 
 # 優先順序：即將發行的版本
 
@@ -21,8 +21,8 @@ ht-degree: 0%
   <tr>
     <td><strong>即將推出</strong>
     <ul>
-    <li><strong>從工作清單存取專案詳細資訊</strong>：專案詳細資訊標籤會顯示專案的詳細資訊、註解及檔案。</li>
-   <li><strong>在[檔案]索引標籤中檢視檔案</strong>：檔案索引標籤可讓您檢視上載至任務和問題的檔案。 您將能夠檢視預覽並在檔案上留下註解。 </li>
+
+<li><strong>在[檔案]索引標籤中檢視檔案</strong>：檔案索引標籤可讓您檢視上載至任務和問題的檔案。 您將能夠檢視預覽並在檔案上留下註解。 </li>
     </ul>
     </td>
   </tr>

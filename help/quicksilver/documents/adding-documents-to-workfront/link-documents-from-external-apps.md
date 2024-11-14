@@ -6,9 +6,9 @@ description: 您可以從外部來源將檔案和資料夾連結到Adobe Workfro
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: fde2ad9a8ef1b7f659f8f52c157726d0562b972a
 workflow-type: tm+mt
-source-wordcount: '2607'
+source-wordcount: '2608'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,7 @@ ht-degree: 0%
      <li>Microsoft OneDrive</li> 
      <li>Microsoft SharePoint</li> 
      <li>Google Drive</li> 
+     <li>Quip</li>
     </ul></td> 
   </tr> 
   <tr> 

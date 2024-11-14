@@ -6,10 +6,10 @@ description: Workfront與Experience Manager Assets或Assets Essentials之間的�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bdcf315c-5710-41dc-8528-0634e89907df
-source-git-commit: 63bcf5391dc982b53634dccd7150205a7d09f308
+source-git-commit: 68692d49420fe3f3a1f8294d77fe8b335845acc7
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 1%
+source-wordcount: '281'
+ht-degree: 3%
 
 ---
 
@@ -45,7 +45,7 @@ Workfront與Experience Manager Assets或Assets Essentials之間的整合可讓�
 * Adobe Experience Manager Assetsas a Cloud Service
 * Adobe Experience Manager Assets Essentials
 
-## 支援的雲端服務提供者
+## Workfront支援的雲端服務提供者
 
 * AWS (Amazon Web Services)
 * Azure
@@ -58,5 +58,5 @@ Workfront與Experience Manager Assets或Assets Essentials之間的整合可讓�
 1. 設定整合：
    1. [設定Experience Manager Assetsas a Cloud Service整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)
 或
-   1. [設定Experience Manager Assets Essentials整合](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
+   1. [設定 Experience Manager Assets Essentials 整合](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
 1. 使用整合：傳送資產、建立連結資料夾、對應中繼資料等。 如需詳細資訊，請參閱[適用於Experience Manager Assets和Assets Essentials的Adobe Workfront：文章索引](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)。
