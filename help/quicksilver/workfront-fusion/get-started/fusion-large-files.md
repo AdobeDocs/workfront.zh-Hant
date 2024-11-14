@@ -7,9 +7,9 @@ description: Workfront和HTTP聯結器目前提供大型檔案支援。
 author: Becky
 feature: Workfront Fusion
 exl-id: e0be458c-a5f4-48e4-a8fb-afd5d072b6ff
-source-git-commit: 5e32c0dd3378fc49f8687668f11daa5dc838c587
+source-git-commit: 4914e6e30d6c4a16de5bd2c91bc6f8e4f208c078
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '1100'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,8 @@ Workfront Fusion現在提供增強的資料傳輸功能，讓場景可以處理�
 
 * Workfront >上傳檔案
 * Adobe Experience Manager Assets >上傳檔案
+* Workfront Proof >上傳檔案
+* Adobe Authenticator >進行自訂API呼叫
 * HTTP
 
 未來版本將支援其他聯結器。
