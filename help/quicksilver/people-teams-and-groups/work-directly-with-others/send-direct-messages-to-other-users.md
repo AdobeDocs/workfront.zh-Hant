@@ -7,7 +7,7 @@ description: Adobe Workfront可讓您快速輕鬆地將與任何工作專案無�
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: 019701abe441169f1f898df6b5cb1a6f743753f3
+source-git-commit: 400ca2ac10a94ccfa79bef8daf06b924dadac230
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # 傳送直接訊息給其他使用者
 
-{{highlighted-preview}}
+{{preview-fast-release-general}}
 
 [!DNL Adobe Workfront]可讓您快速輕鬆地直接傳送與任何工作專案無關的訊息給其他[!DNL Workfront]使用者。 依照此節所述傳送的訊息會顯示在使用者設定檔頁面的[!UICONTROL 更新]索引標籤中，且所有使用者皆可看到。 如需更新的其他資訊，請參閱[更新工作專案並檢視更新：文章索引](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)。
 

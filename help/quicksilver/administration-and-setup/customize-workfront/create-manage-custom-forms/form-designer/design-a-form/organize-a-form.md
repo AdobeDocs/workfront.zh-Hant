@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: bd1635dbcd9a49969b99901faf9e3a4744241001
+source-git-commit: 400ca2ac10a94ccfa79bef8daf06b924dadac230
 workflow-type: tm+mt
 source-wordcount: '1335'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 組織和預覽表單
 
-{{highlighted-preview}}
+{{preview-fast-release-general}}
 
 您可以使用表單設計工具來組織自訂表單，並預覽以確認其設定正確。
 
