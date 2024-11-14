@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 67ec1535-d374-4133-9395-626fa7ae4072
-source-git-commit: e02fd7dc6f1655b69c0433465a51f4c53d486570
+source-git-commit: 8b69fc1e20ad255cb9874b70289fc11dcb03cdb0
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,16 @@ ht-degree: 0%
 本頁說明了2025年第一季度版本對預覽環境所做的增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2025年第一季發行週期目前可用的所有變更清單，請參閱[2025年第一季發行概觀](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)。
+
+## 自訂表單中的區段現在可摺疊且可展開
+
+>[!NOTE]
+>
+>預覽版本： 2024年11月11日；快速發行生產：24.12版（2024年12月）；每季發行生產：25.1版（2025年1月）
+
+當具有多個區段的自訂表單附加到物件時，您現在可以摺疊和展開表單頂端預設區段以外的所有區段。 管理員也可以在表單設計工具中預覽表單時看到此功能。
+
+如需新增區段至自訂表單的相關資訊，請參閱[整理並預覽表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)。
 
 ## AI助理現在可以處理專案、任務和問題
 

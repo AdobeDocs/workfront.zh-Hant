@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
-source-git-commit: 8fa0c5573008a625ae10af051eeabfb6a8519a01
+source-git-commit: 8b69fc1e20ad255cb9874b70289fc11dcb03cdb0
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,24 @@ ht-degree: 0%
 本頁說明在2025年第一季度發行時間範圍內對Adobe Workfront應用程式的各個區域外觀和感覺進行的小幅更新。
 
 如需2025年第一季度版本所有可用變更的清單，請參閱[2025年第一季度版本概觀](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)。
+
+## 檔案整合的外觀更新
+
+>[!NOTE]
+>
+>預覽版本： 2024年11月14日；適用於所有客戶的生產版本： 2024年11月14日
+
+我們已針對您在「設定」中設定自訂整合的區域進行效能升級：「設定>檔案>自訂整合」。 此升級包括區域的細微視覺變更。 功能未變更。
+
+## 公司成員與公司收費率頁面的外觀更新
+
+>[!NOTE]
+>
+>預覽版本： 2024年11月4日；快速發行生產：24.12版（2024年12月）；每季發行生產：25.1版（2025年1月）
+
+我們以更現代的設計更新了「公司成員」和「公司收費率」頁面，此設計與Workfront的其他區域一致。 公司成員資格是透過「設定>公司>選取公司名稱>在左側面板中選取公司成員」來存取。 公司收費率可透過「設定>公司>選取公司名稱>在左側面板中選取收費率」來存取。
+
+如需詳細資訊，請參閱[建立和編輯公司](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)和[管理公司成員資格](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)。
 
 ## 主要和次要導覽區域的外觀和感覺更新
 
