@@ -1,19 +1,21 @@
 ---
 product-area: projects
 navigation-topic: use-lists
-title: 在 [!DNL Adobe Workfront]的清單中內嵌編輯專案
+title: 在 [!DNL Adobe Workfront]中內嵌編輯清單中的專案
 description: 當物件顯示在清單或報表中時，您可以內嵌編輯物件。 當您編輯清單或報表中顯示的物件資訊時，物件會立即更新。
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 exl-id: a94b5aaf-71de-4fcd-946b-459ca3edf7e4
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
 
 # 在[!DNL Adobe Workfront]的清單中內嵌編輯專案
+
+<!--Audited: 11/2024-->
 
 當物件顯示在清單或報表中時，您可以內嵌編輯物件。 當您編輯清單或報表中顯示的物件資訊時，物件會立即更新。
 
@@ -24,14 +26,18 @@ ht-degree: 0%
 雖然大多數顯示在清單或報表中的物件都可以在[!DNL Adobe Workfront]中內嵌編輯，但有一些限制，包括：
 
 * 您無法編輯計算欄位或[!DNL Workfront]內建的計算欄位。
-* 您只能編輯與清單中物件直接關聯的欄位。 您無法編輯屬於與清單中物件相關聯之物件的欄位。\
-   例如，您可以在「任務」報告中編輯任務的狀態，但無法在同一報告中編輯與任務相關聯的專案名稱。 您只能在專案報告中編輯專案名稱。
-* 當清單的檢視未顯示預設貨幣時，您無法內聯編輯欄位。\
-   如需有關顯示預設貨幣的資訊，請參閱[建立具有唯一匯率的財務資料報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md)一文中的[使用唯一貨幣編輯報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md#editing-reports-with-unique-currencies)一節。
+* 您只能編輯與清單中物件直接關聯的欄位。 您無法編輯屬於與清單中物件相關聯之物件的欄位。
+
+  例如，您可以在「任務」報告中編輯任務的狀態，但無法在同一報告中編輯與任務相關聯的專案名稱。 您只能在專案報告中編輯專案名稱。
+* 當清單的檢視未顯示預設貨幣時，您無法內聯編輯欄位。
+
+  如需有關顯示預設貨幣的資訊，請參閱[建立具有唯一匯率的財務資料報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md)一文中的[使用唯一貨幣編輯報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md#editing-reports-with-unique-currencies)一節。
 * 您無法編輯清單中顯示的旗標和圖示。
 * 您無法內聯編輯源自其他報表的報表欄位。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -40,25 +46,34 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計畫*</strong></td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>[！UICONTROL Review]或更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td> 
+    <p>新增：</p>
+   <ul><li><p>投稿人或以上 </p></li>
+   </ul>
+
+<p>目前：</p>
+   <ul><li><p>要求或更高版本</p></li>
+    </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>存取層級設定*</strong></td> 
-   <td> <p>[！UICONTROL Edit]清單所在區域的存取權</p> <p>例如，若要內聯編輯專案中的任務，您需要[！UICONTROL Edit]專案存取權。</p> <p>注意：如果您還是沒有存取權，請詢問您的[!DNL Workfront]管理員是否對您的存取層級設定了其他限制。<br>如需[!DNL Workfront]管理員如何變更存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>[！UICONTROL Edit]清單所在區域的存取權</p> <p>例如，若要內聯編輯專案中的任務，您需要[！UICONTROL Edit]專案存取權。</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>[！UICONTROL管理]</p> <p>您也必須有權編輯特定欄位，例如自訂欄位、狀態等。</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>[！UICONTROL管理]</p> <p>您也必須有權編輯特定欄位，例如自訂欄位、狀態等。</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 編輯內嵌物件
 
@@ -72,13 +87,10 @@ ht-degree: 0%
    >
    >如果您有多個頁面，則可以使用以下方式找出物件：
    >
-   >   
-   >   
-   >   * **分頁**：按一下向後和向前箭號，在頁面之間導覽。\
+   >   * **分頁**：按一下向後和向前箭號，在頁面之間導覽。
    >     位於清單右下角，捲動清單時[!UICONTROL 分頁]區域會保持粘性。
-   >   * **快速篩選**：按一下篩選圖示或輸入Alt+F開啟快速篩選，然後輸入文字，僅顯示包含輸入文字的專案。\
+   >   * **快速篩選**：按一下篩選圖示或輸入Alt+F開啟快速篩選，然後輸入文字，僅顯示包含輸入文字的專案。
    >     快速篩選位於清單工具列中。 如需詳細資訊，請參閱[將快速篩選套用至清單](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md)。
-
 
    如果欄位可以編輯，這會將該欄位和清單中顯示的所有其他欄位轉換為可編輯的儲存格。
 

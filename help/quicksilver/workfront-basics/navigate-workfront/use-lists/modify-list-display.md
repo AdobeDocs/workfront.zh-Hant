@@ -3,16 +3,18 @@ navigation-topic: use-lists
 title: 修改清單的顯示方式
 description: 在 [!DNL Adobe Workfront]中，您可以自訂清單的顯示方式。 其他檢視清單的使用者看不到您的變更。
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 exl-id: 3ef7ff03-7293-4b56-9481-e89e1a47a904
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '717'
 ht-degree: 0%
 
 ---
 
 # 修改清單的顯示方式
+
+<!--Audited: 11/2024-->
 
 在[!DNL Adobe Workfront]中，您可以自訂清單的顯示方式。 其他檢視清單的使用者看不到您的變更。
 
@@ -32,6 +34,8 @@ ht-degree: 0%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
@@ -39,27 +43,36 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計畫*</strong></td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>[！UICONTROL Request]或更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td> 
+    <p>新增：</p>
+   <ul><li><p>投稿人或以上 </p></li>
+   </ul>
+
+<p>目前：</p>
+   <ul><li><p>要求或更高版本</p></li>
+    </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>存取層級設定*</strong></td> 
-   <td> <p>[！UICONTROL檢視]清單所在區域的存取權</p> <p>例如，若要修改專案的檢視，您需要[！UICONTROL檢視]專案的存取權。</p> <p>注意：如果您還是沒有存取權，請詢問您的[!DNL Workfront]管理員是否對您的存取層級設定了其他限制。<br>如需[!DNL Workfront]管理員如何變更存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>[！UICONTROL檢視]清單所在區域的存取權</p> <p>例如，若要修改專案的檢視，您需要[！UICONTROL檢視]專案的存取權。</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>[！UICONTROL檢視]或套用至清單之檢視的更高許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>[！UICONTROL檢視]或套用至清單之檢視的更高許可權</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-## 修改清單的顯示方式
++++
+
+## 修改清單
 
 1. 移至[!DNL Workfront]中您要修改的清單。
 
@@ -101,7 +114,8 @@ ht-degree: 0%
 
 1. 若要重新排序清單中的欄，請將滑鼠移至欄標題上以顯示手形工具，然後按一下以將欄拖曳到您要顯示的位置。
 
-   會儲存欄的位置，直到您重新整理頁面為止。\
+   會儲存欄的位置，直到您重新整理頁面為止。
+
    如需自訂清單中欄寬和順序的詳細資訊，請參閱文章[修改欄寬和順序](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)。
 
 1. 若要調整清單的排序順序，請按一下欄標題加以選取，然後在鍵盤上按住CMD鍵（在[!DNL Mac]上）或CTRL鍵（在[!DNL Windows]上），並選取最多2個要依其排序的其他欄標題。

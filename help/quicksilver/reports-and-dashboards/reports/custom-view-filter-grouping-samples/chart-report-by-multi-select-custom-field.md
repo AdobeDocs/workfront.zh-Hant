@@ -2,19 +2,21 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 依多選自訂欄位繪製報表圖表
+title: 依據多選自訂欄位繪製報表圖表
 description: 只有在您建立其他計算欄位(擷取多選自訂欄位中所選的選項後，才能根據多選自訂欄位繪製報表的圖表。
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 66de6c952272f52876f8e912c96d1526575b6f0b
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1004'
 ht-degree: 0%
 
 ---
 
 # 依多選自訂欄位繪製報表圖表
+
+<!--Audited: 11/2024-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
@@ -39,6 +41,8 @@ ht-degree: 0%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
@@ -46,25 +50,34 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計劃 </p> </td> 
+   <td> 
+    <p>新增：</p>
+   <ul><li><p>修改篩選器的貢獻者 </p></li>
+   <li><p>用於修改報告的標準</p></li> </ul>
+
+<p>目前：</p>
+   <ul><li><p>請求修改篩選器 </p></li>
+   <li><p>計畫修改報表</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯報告、儀表板、行事曆的存取權</p> <p>編輯對篩選器、檢視、群組的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>編輯報告、儀表板、行事曆的存取權以修改報告</p> <p>編輯篩選器、檢視和群組的存取權以修改篩選器</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>管理報表的許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>管理報表的許可權</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先決條件
 
@@ -102,7 +115,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**標籤**&#x200B;方塊中，將新的計算欄位命名以表示它參考多重選取自訂欄位。
 
-   例如：「計算的多選欄位」。
+   例如：「已計算的多重選取欄位」。
 
 1. 在&#x200B;**計算**&#x200B;方塊中，輸入下列程式碼：
 
@@ -114,12 +127,12 @@ ht-degree: 0%
 
    ![](assets/calculated-multi-select-custom-field-nwe-350x223.png)
 
-1. （選擇性）如果多重選取自訂欄位已在此表單上，而且此表單已附加至物件，請啟用&#x200B;**更新先前的計算（在背景中）**&#x200B;選項。
+1. （選擇性）如果多重選取自訂欄位已在此表單上，而且此表單已附加至物件，請啟用&#x200B;**套用至現有計算**&#x200B;選項。
 
    這可確保新的計算欄位自動填入多選自訂欄位的值，因為該值會新增到已附加到物件的表單中。
 
-1. 按一下&#x200B;**完成**。
-1. 按一下「**儲存並關閉**」。
+1. 按一下&#x200B;**套用**。
+1. 按一下&#x200B;**儲存並關閉**。
 
    計算出的自訂欄位會新增至自訂表單，如果表單目前已附加至物件，則會使用多選自訂欄位的資訊填入該欄位。
 
@@ -145,6 +158,6 @@ ht-degree: 0%
 1. 在&#x200B;**底部(X)軸**&#x200B;欄位中，選取要在圖表中顯示的<strong>計算多重選取欄位</strong>。
 1. 按一下「<strong>儲存並關閉</strong>」。
 
-   報表會以圖表顯示按計算的多重選取欄位分組的結果。
+   報表會以圖表顯示按「已計算的多重選取欄位」分組的結果。
 
    ![](assets/chart-multi-select-field-column-chart-example.png)

@@ -3,16 +3,18 @@ navigation-topic: use-lists
 title: 開始使用 [!DNL Adobe Workfront]中的清單
 description: 您可以檢視 [!DNL Adobe Workfront] 中的物件清單，以取得有關物件的資訊，例如它們的開始和到期日、指派給它們的使用者，以及與它們關聯的其他物件。
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
 workflow-type: tm+mt
-source-wordcount: '2386'
+source-wordcount: '2284'
 ht-degree: 0%
 
 ---
 
 # 開始使用[!DNL Adobe Workfront]中的清單
+
+<!--Audited: 11/2024-->
 
 您可以檢視[!DNL Adobe Workfront]中的物件清單，以取得它們的相關資訊，例如它們的開始和到期日、指派給它們的使用者，以及與它們關聯的其他物件。
 
@@ -29,6 +31,8 @@ ht-degree: 0%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
@@ -36,25 +40,64 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計畫*</strong></td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>[！UICONTROL Request]或更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td> 
+    <p>新增：</p>
+   <ul><li><p>投稿人或以上 </p></li>
+   </ul>
+
+<p>目前：</p>
+   <ul><li><p>要求或更高版本</p></li>
+    </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>存取層級設定*</strong></td> 
-   <td> <p>[！UICONTROL檢視]或更高的篩選器、檢視、群組存取權</p> <P>對於[！UICONTROL設定]區域中的專案，您需要該專案的管理存取權或[！UICONTROL系統管理員]存取層級。</P> <p>注意：如果您還是沒有存取權，請詢問您的[!DNL Workfront]管理員是否對您的存取層級設定了其他限制。<br>如需[!DNL Workfront]管理員如何變更存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>編輯對篩選器、檢視、群組的存取權 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>[！UICONTROL檢視]或具有共用存取權的更高許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td>
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>檢視或擁有共用存取權的篩選器、檢視或群組的更高許可權 </p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
+
+<!--Old access: 
+
+You must have the following access to perform the steps in this article:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
+   <td> <p>[!UICONTROL Request] or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Access level configurations*</strong></td> 
+   <td> <p>[!UICONTROL View] or higher access to filters, views, groupings</p> <P>For items in the [!UICONTROL Setup] area, you need administrative access for the item or the [!UICONTROL System Administrator] access level.</P> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level.<br>For information on how a [!DNL Workfront] administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Object permissions</strong></td> 
+   <td> <p>[!UICONTROL View] or higher permissions with access to share</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td>
+  </tr> 
+ </tbody> 
+</table>
+
+To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+-->
 
 ## 物件清單
 
@@ -315,19 +358,23 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td><strong>內嵌編輯</strong> </td> 
-   <td> <p>直接在清單中編輯物件及其資訊。</p> <p>如需詳細資訊，請參閱<a href="../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md" class="MCXref xref">在[!DNL Adobe Workfront]</a>的清單中內嵌編輯專案。</p> </td> 
+   <td> <p>直接在清單中編輯物件及其資訊。</p> <p>如需詳細資訊，請參閱<a href="../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md" class="MCXref xref">在[!DNL Adobe Workfront]</a>的清單中內嵌編輯專案。</p> 
+   <p><b>注意：</b></p>
+   <p>群組內無法進行內嵌編輯。</p>
+
+</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td><strong>更新為[！UICONTROL摘要]</strong> </td> 
-   <td> <p>使用[！UICONTROL摘要]面板更新專案層級的任務和問題。</p> <p>提示： 「摘要」並非適用於所有物件，且無法在「任務」或「問題」報告中使用。</p> <p>如需詳細資訊，請參閱<a href="../../../workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">摘要概觀</a>。</p> </td> 
+   <td> <p>使用[！UICONTROL摘要]面板更新專案層級的任務和問題。</p> <p><b>秘訣：</b></p> <p>摘要並非適用於所有物件，也不適用於「任務」或「問題」報告。</p> <p>如需詳細資訊，請參閱<a href="../../../workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">摘要概觀</a>。</p> </td> 
   </tr> 
   <tr> 
    <td><strong>自訂清單顯示</strong> </td> 
-   <td> <p>自訂清單的外觀和感覺、欄的排列、專案的排序順序或顯示的專案數。</p> <p>注意：當您登出[!DNL Workfront]或關閉瀏覽器時，您對要在頁面上顯示的專案數所做的變更將會還原。 變更也可能會在8小時後回覆。</p> <p>如需詳細資訊，請參閱<a href="../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md" class="MCXref xref">修改清單的顯示方式</a>。</p> </td> 
+   <td> <p>自訂清單的外觀和感覺、欄的排列、專案的排序順序或顯示的專案數。</p> <p><b>注意：</b></p> <p>您對要在頁面上顯示的專案數所做的變更，會在您登出[!DNL Workfront]或關閉瀏覽器時還原。 變更也可能會在8小時後回覆。</p> <p>如需詳細資訊，請參閱<a href="../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md" class="MCXref xref">修改清單的顯示方式</a>。</p> </td> 
   </tr> 
   <tr> 
    <td><strong>快速篩選</strong> </td> 
-   <td> <p>套用快速篩選以僅尋找對您重要的專案，以便您快速檢閱、更新或與他人共用這些專案。</p> <p>重要：您可以使用快速篩選來尋找包含搜尋字詞的專案，無論該專案是否顯示在您的熒幕上，或是在您捲動至頁面底部之後顯示。 使用瀏覽器的搜尋功能時，您只能找到畫面上已顯示的專案。 如果您的清單有多個頁面，快速篩選器只會尋找目前頁面上的專案。</p> <p>如需詳細資訊，請參閱<a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">將快速篩選套用至清單</a>。</p> </td> 
+   <td> <p>套用快速篩選以僅尋找對您重要的專案，以便您快速檢閱、更新或與他人共用這些專案。</p> <p><b>重要：</b></p> <p> 您可以使用快速篩選來尋找包含搜尋字詞的專案，無論該專案是否顯示在您的熒幕上，或是在您捲動至頁面底部之後顯示。 使用瀏覽器的搜尋功能時，您只能找到畫面上已顯示的專案。 如果您的清單有多個頁面，快速篩選器只會尋找目前頁面上的專案。</p> <p>如需詳細資訊，請參閱<a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">將快速篩選套用至清單</a>。</p> </td> 
   </tr> 
   <tr> 
    <td><strong>匯出</strong> </td> 
@@ -443,7 +490,7 @@ ht-degree: 0%
   <tr> 
    <td> <img src="assets/summary-panel-icon.png"> </td> 
    <td>[！UICONTROL摘要]</td> 
-   <td> <p>顯示或隱藏所選專案的[！UICONTROL摘要]方塊。</p> <p>這僅適用於任務和問題。</p> <p>如需新[!DNL Adobe Workfront]體驗中[！UICONTROL摘要]面板的相關資訊，請參閱<a href="/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">摘要概觀</a>。</p> </td> 
+   <td> <p>顯示或隱藏所選專案的[！UICONTROL摘要]方塊。</p> <p>這僅適用於任務和問題。</p> <p>如需[！UICONTROL摘要]面板的相關資訊，請參閱<a href="/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">摘要概觀</a>。</p> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/remove-icon---x-in-circle.png"> </td> 
@@ -583,13 +630,6 @@ ht-degree: 0%
 
   ![](assets/updated-list-screen-shot-gray-groupings-350x71.png)
 
-兩種型別的清單都出現在[!DNL Adobe Workfront]中。
-
-[!DNL Adobe Workfront]中的所有清單和報告都會更新，以下清單除外：
-
-* 在[!UICONTROL 設定]區域中的清單
-* 在[!UICONTROL 報表]區域中的清單
-
 下表顯示[!DNL Workfront]中舊版與更新清單之間的部分差異：
 
 <!--
@@ -604,16 +644,7 @@ ht-degree: 0%
    <td><b>舊版清單</b></td> 
    <td><b>更新的清單</b></td> 
   </tr> 
-  <tr> 
-   <td> <p>舊版字型、欄標題、藍色群組色彩配置</p> </td> 
-   <td> <p>更新字型、欄標題、灰色群組色彩配置</p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>較緩慢的內嵌編輯</p> </td> 
-   <td> <p>更快速的內嵌編輯</p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>依預設顯示<strong>100</strong>個專案</p> </td> 
+  <td> <p>依預設顯示<strong>100</strong>個專案</p> </td> 
    <td> <p>依預設顯示<strong>所有</strong>或最多<strong>2000</strong>個專案</p> </td> 
   </tr> 
   <tr> 
@@ -622,7 +653,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>您無法內嵌編輯具有RTF格式的自訂欄位。</td> 
-   <td> <p>自訂欄位中含格式的文字可設定為允許粗體、斜體、底線、專案符號、編號、超連結和區塊引號。</p> <p>如需詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">建立自訂表格/a&gt;。</p> </td> 
+   <td> <p>自訂欄位中含格式的文字可設定為允許粗體、斜體、底線、專案符號、編號、超連結和區塊引號。</p> <p>如需詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">建立自訂表格</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>條件式格式可以變更清單中連結的文字顏色</td> 

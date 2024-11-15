@@ -3,20 +3,18 @@ navigation-topic: use-lists
 title: 將快速篩選套用至清單
 description: 您可以使用物件清單中的快速篩選來協助您僅找出對您而言重要的專案，以便快速檢閱、更新或與他人共用這些專案。
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 exl-id: 363f7ad1-f4f8-4cb1-a631-ee4e5ea28e5a
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '838'
 ht-degree: 0%
 
 ---
 
 # 將快速篩選套用至清單
 
-<!--
-{{highlighted-preview}}
--->
+<!--Audited:11/2024-->
 
 您可以使用物件清單中的快速篩選來協助您僅找出對您而言重要的專案，以便快速檢閱、更新或與他人共用這些專案。
 
@@ -35,6 +33,7 @@ ht-degree: 0%
 * [!UICONTROL 報表]區域
 * 檔案清單與報告
 * 多個[!UICONTROL 設定]區域
+
   >[!NOTE]
   >
   >快速篩選器可用於下列設定區域： [!UICONTROL 群組]、[!UICONTROL 團隊]、[!UICONTROL 公司]、[!UICONTROL 排程]、[!UICONTROL 配置範本]以及[!UICONTROL 自訂Forms]。
@@ -52,6 +51,8 @@ ht-degree: 0%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
@@ -59,25 +60,35 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><b>[!DNL Adobe Workfront] 計畫*</b></td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><b>[!DNL Adobe Workfront] 授權*</b></td> 
-   <td> <p>[！UICONTROL Request]或更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td> 
+    <p>新增：</p>
+   <ul><li><p>投稿人或以上 </p></li>
+   </ul>
+
+<p>目前：</p>
+   <ul><li><p>要求或更高版本</p></li>
+    </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><b>存取層級設定*</b></td> 
-   <td> <p>檢視清單所在區域的存取權</p> <p>例如，若要將快速篩選套用至專案，您需要[！UICONTROL檢視]專案的存取權。</p> <p>注意：如果您還是沒有存取權，請詢問您的[!DNL Workfront]管理員是否對您的存取層級設定了其他限制。<br>如需[!DNL Workfront]管理員如何變更存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>檢視清單所在區域的存取權</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><b>物件許可權</b></td> 
-   <td> <p>[！UICONTROL檢視]</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>清單所在物件的[！UICONTROL View]許可權</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
+
 
 ## 將快速篩選套用至清單
 
@@ -109,7 +120,7 @@ ht-degree: 0%
    1. 選取清單中的所有或數個專案，然後按一下&#x200B;**[!UICONTROL 編輯]**&#x200B;以大量編輯專案。
    1. 完成編輯之後，請按一下&#x200B;**[!UICONTROL 儲存變更]**。
 
-1. （選擇性）若要匯出快速篩選找到的專案，請選取清單中的所有或數個專案，然後按一下[匯出]。****
+1. （選擇性）若要匯出快速篩選找到的專案，請選取清單中的所有或數個專案，然後按一下&#x200B;**[!UICONTROL 匯出]**&#x200B;圖示![](assets/export.png)。
 
    ![select_all_projects_with_highlight__1_.png](assets/select-all-projects-with-highlight--1--350x173.png)
 
@@ -118,6 +129,6 @@ ht-degree: 0%
    >只有您在快速篩選搜尋中找到的專案會匯出至您選取的檔案。 如果您在匯出清單之前未選取任何專案，則會匯出完整、未篩選的清單。\
    >如需詳細資訊，請參閱[匯出清單](../../../workfront-basics/navigate-workfront/use-lists/export-lists.md)。
 
-1. （選擇性）若要清除篩選的結果，請按一下視窗右上角的&#x200B;**[!UICONTROL 快速篩選]**&#x200B;圖示。\
-   或\
-   重新整理該頁面。
+1. （選擇性）若要清除篩選的結果，請按一下視窗右上角的&#x200B;**[!UICONTROL 快速篩選]**圖示。
+或
+重新整理頁面。

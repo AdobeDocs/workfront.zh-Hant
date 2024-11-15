@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0f643d36-6235-4fd3-b6d3-54fbd03c9b33
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 0%
@@ -16,6 +16,8 @@ ht-degree: 0%
 ---
 
 # 啟用專案的自訂季度
+
+<!--Audited: 11/2024-->
 
 若您組織的季度是根據行事曆日期以外的特定條件（例如營業日或購物日），基於報表目的，您可能會想要建立自訂季度。
 
