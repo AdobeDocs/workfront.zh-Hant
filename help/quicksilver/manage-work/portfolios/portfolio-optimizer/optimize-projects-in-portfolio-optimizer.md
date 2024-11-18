@@ -6,9 +6,9 @@ description: 您可以使用[!UICONTROL Portfolio最佳化工具]，根據專案
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 25debc5b-5d7d-453f-ab0a-9bf3fba05693
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b07b4926ab1b1eee9b7698a445644e1cd312fa09
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,9 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>投資組合的[！UICONTROL Manage]許可權</p> <p>Contribute或更高的專案許可權</p>  </td> 
+   <td> <p>投資組合的[！UICONTROL Manage]許可權</p> <p>Contribute或更高的專案許可權</p> 
+   <p>您必須擁有清單中所有專案的管理許可權，才能使用<b>設定專案優先順序</b>。</p>
+    </td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,7 +61,8 @@ ht-degree: 0%
 
 1. 按一下「**[!UICONTROL 最佳化]**」圖示。
 
-   ![](assets/optimize-icon-portfolio-optimizer.png)\
+   ![](assets/optimize-icon-portfolio-optimizer.png)
+
    專案可評分的類別會顯示在[!UICONTROL 最佳化]圖示的左側。
 
 1. 使用滑動圓，修改下列任何類別的最佳化：
@@ -78,9 +81,14 @@ ht-degree: 0%
 
 1. 在&#x200B;**[!UICONTROL Score]**&#x200B;欄設定正確的權重後，按一下&#x200B;**[!UICONTROL Score]**&#x200B;欄的標題以依此欄排序。 分數最高的專案會顯示在清單頂端。
 
-1. （可選）依照您的優先順序拖放專案。\
-   這會變更[!UICONTROL Portfolio最佳化工具]中的專案順序。
-1. （選擇性）按一下&#x200B;**[!UICONTROL 設定優先順序]**&#x200B;以儲存專案的新優先順序。\
+1. （可選）依照您的優先順序拖放專案。
+這會變更[!UICONTROL Portfolio最佳化工具]中的專案順序。
+1. （選擇性）按一下&#x200B;**[!UICONTROL 設定優先順序]**&#x200B;以儲存專案的新優先順序。
+
+   >[!NOTE]
+   >
+   >   您必須擁有清單中所有專案的管理許可權，才能使用&#x200B;**設定專案優先順序**。
+
    如需在[!UICONTROL Portfolio最佳化工具]中排定專案優先順序的詳細資訊，請參閱文章[在[!UICONTROL Portfolio最佳化工具]](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)中排定專案的優先順序。
 
 1. 按一下[儲存]****&#x200B;以儲存您的[!UICONTROL Portfolio最佳化工具]。

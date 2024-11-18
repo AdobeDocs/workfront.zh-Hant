@@ -7,9 +7,9 @@ description: '[!UICONTROL Portfolio最佳化工具]是用於專案評估與比�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1e48a24c-65de-49c2-85a8-dc931ac40c52
-source-git-commit: 1fd3b135682c096f1715e5da0455fed12e882582
+source-git-commit: b07b4926ab1b1eee9b7698a445644e1cd312fa09
 workflow-type: tm+mt
-source-wordcount: '1629'
+source-wordcount: '1649'
 ht-degree: 0%
 
 ---
@@ -168,7 +168,9 @@ ht-degree: 0%
   <tr> 
    <td> <img src="assets/nwe-set-priority-icon.png"> </td> 
    <td>[！UICONTROL設定專案優先順序]</td> 
-   <td>當您想要根據優先順序儲存專案順序時，請使用此圖示。 </td> 
+   <td><p>當您想要根據優先順序儲存專案順序時，請使用此圖示。</p>
+   <p>您必須擁有清單中所有專案的管理許可權，才能使用<b>設定專案優先順序</b></p>。
+    </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/nwe-optimize-icon-in-optimizer.png"> </td> 

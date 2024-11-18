@@ -6,9 +6,9 @@ description: 您可以在Portfolio最佳化工具中排定專案的優先順序�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 54e33746-5995-49de-8e21-bf973f0694a6
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b07b4926ab1b1eee9b7698a445644e1cd312fa09
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '534'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,9 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>投資組合的[！UICONTROL Manage]許可權</p> <p>Contribute或更高的專案許可權</p>  </td> 
+   <td> <p>投資組合的[！UICONTROL Manage]許可權</p> <p>Contribute或更高的專案許可權</p> 
+   <p>您必須擁有清單中所有專案的管理許可權，才能使用<b>設定專案優先順序</b>。</p>
+    </td> 
   </tr> 
  </tbody> 
 </table>
