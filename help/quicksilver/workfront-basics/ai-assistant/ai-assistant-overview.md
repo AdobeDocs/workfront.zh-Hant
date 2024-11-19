@@ -1,17 +1,22 @@
 ---
-title: 'AI助理概述'
+title: AI助理總覽
 content-type: reference
 description: AI助理總覽
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: 09c05db7c6a5db7db74dd95ca323415f4318489d
+exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
+source-git-commit: 64ad86e29bf18969f82dbdb54b98ca884d2ec26a
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 0%
+source-wordcount: '711'
+ht-degree: 1%
 
 ---
 
 # AI助理總覽
+
+<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 預覽環境中可供所有客戶使用，生產環境中可供已啟用每月發行的客戶使用。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 Workfront的AI助理可在自然語言對話中提供應用程式內資訊和建議，協助您完成工作。 AI助理可以透過以下方式為您提供更流暢的工作體驗
 
@@ -79,13 +84,35 @@ AI助理目前提供下列功能：
 
   如需詳細資訊，請參閱[從AI助理取得說明](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md)。
 
-* 產生或調整已計算自訂欄位的公式。
+<div class="preview">
+
+* 在Workfront中尋找特定專案。
+
+  如需詳細資訊，請參閱[使用AI助理來處理專案、任務和問題](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md)。
+
+</div>
+
+* 產生或修訂已計算自訂欄位的公式。
 
   >[!NOTE]
   >
   >此功能僅適用於Prime或Ultimate Workfront計畫上的組織。
 
   如需詳細資訊，請參閱[使用AI助理產生或修訂計算欄位公式](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md)。
+
+## AI助理可用的物件型別
+
+如果使用者在Workfront中擁有有效許可權，AI助理可以查詢與下列物件型別相關聯的資料：
+
+* 專案組合
+* 計劃
+* 專案
+* 任務
+* 問題
+* 自訂表單
+* 使用者
+* Workfront Planning記錄
+
 
 ## 存取AI助理
 
@@ -113,5 +140,3 @@ AI助理目前提供下列功能：
 1. 輸入貴組織將簽署AdobeGen AI合約之個人的名稱和電子郵件地址。
 
    合約將傳送給此人簽署。 簽署並傳回之後，就會為貴組織啟用AI小幫手。
-
-
