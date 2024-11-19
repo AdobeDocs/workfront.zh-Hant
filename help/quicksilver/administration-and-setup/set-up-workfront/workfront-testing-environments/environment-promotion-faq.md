@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
-source-git-commit: 2bbfd449d913a5134c9c36b1ee10567973c56eaa
+source-git-commit: 4ea4d7d8fd16d4c4d7c2fe5f7adb15c2b44b6705
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '292'
 ht-degree: 3%
 
 ---
@@ -59,11 +59,11 @@ ht-degree: 3%
 
 否，目前不支援共用。
 
-## 何時可以使用倒回功能？
+## 是否提供封裝復原？
 
 ### 解答
 
-復原是首要任務，目前正在開發中。 我們預計於2024年第3季或第4季發佈復原功能。
+安裝套裝軟體後24小時內即可對最新的套裝軟體執行套裝軟體回覆。
 
 ## 是否可選擇略過個別元件的促銷活動？ 在選項`Use Existing`、`Overwrite`和`Save with a new Name`存在的地方，可以新增`Skip`以跳過個別引數的升級？
 
