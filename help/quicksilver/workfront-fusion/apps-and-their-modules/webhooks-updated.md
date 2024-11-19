@@ -8,7 +8,7 @@ description: webhook是由事件觸發的HTTP呼叫。 您可以使用Webhook來
 author: Becky
 feature: Workfront Fusion
 exl-id: 987544a4-5840-40d4-9438-41a000aa22ee
-source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
+source-git-commit: 34d7edb6a3f9cb1e818f6c234a8dda88d01c5fc4
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 0%
@@ -16,6 +16,10 @@ ht-degree: 0%
 ---
 
 # Webhook
+
+
+
+<!--This information moved to the webhooks article in the create scenarios folders in the new repo-->
 
 webhook是由事件觸發的HTTP呼叫。 您可以使用Webhook來啟動即時觸發程式模組。 任何連線至網際網路並允許HTTP請求的應用程式都可以將Webhook傳送至Adobe Workfront Fusion。
 
