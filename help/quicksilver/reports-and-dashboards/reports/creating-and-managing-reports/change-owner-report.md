@@ -6,7 +6,7 @@ description: 您無法變更報表的擁有者。 不過，當您複製報表時
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8089cbeb-4258-48b8-b13a-dfbd739c526a
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 9396cd2ac073a57b7d99618cdf09e54ddcf95130
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # 變更報告的所有者
+
+<!-- Audited: 11/2024 -->
 
 您無法變更報表的擁有者。 不過，當您複製報表時，您會自動成為所複製報表的所有者。
 

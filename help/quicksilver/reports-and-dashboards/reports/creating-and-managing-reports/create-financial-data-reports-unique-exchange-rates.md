@@ -6,14 +6,16 @@ description: 如果已在Adobe Workfront中設定多個匯率，您可以在報�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a0837c70-8330-4c38-98dc-8cf2e7e2e4bd
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 2322415c173919a1fecffabb4b561645d33eea8d
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '978'
 ht-degree: 0%
 
 ---
 
 # 建立具有唯一匯率的財務資料報表
+
+<!-- Audited: 11/2024 -->
 
 如果已在Adobe Workfront中設定多個匯率，您可以在報表和清單中設定財務值，以顯示預設貨幣以外的貨幣。
 
@@ -27,6 +29,8 @@ ht-degree: 0%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
@@ -39,20 +43,31 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計劃 </p> </td> 
+   <td> 
+      <p>新增：</p>
+         <ul>
+         <li><p>標準</p></li>
+         </ul>
+      <p>目前：</p>
+         <ul>
+         <li><p>計劃</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯報告、儀表板、行事曆的存取權</p> <p>編輯對篩選器、檢視、群組的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td> <p>編輯報告、儀表板、行事曆的存取權</p> <p>編輯對篩選器、檢視、群組的存取權</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件許可權</td> 
-   <td> <p>管理報表的許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td role="rowheader">物件許可權*</td> 
+   <td> <p>管理報表的許可權</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先決條件
 
@@ -125,8 +140,6 @@ ht-degree: 0%
 1. 按一下「**儲存並關閉**」。
 
    **實際成本**&#x200B;的總計使用系統預設貨幣顯示在「群組」中，無論報告中的專案貨幣為何。
-
-   ![貨幣顯示在群組中](assets/qs-currency-displayed-in-groupings-2022-350x292.png)
 
    如果兩個專案的幣別不同，系統預設幣別也會顯示在報表的「群組」中。
 
