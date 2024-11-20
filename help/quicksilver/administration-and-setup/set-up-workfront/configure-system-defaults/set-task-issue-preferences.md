@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: f8f86eae11e7f175e130d7f0265d92519923402f
 workflow-type: tm+mt
-source-wordcount: '2110'
+source-wordcount: '2107'
 ht-degree: 0%
 
 ---
@@ -64,19 +64,20 @@ Linked to Converting Issues.-->
 
 1. 在左側面板中，按一下&#x200B;**[!UICONTROL 專案偏好設定]** >**[!UICONTROL 任務和問題]。**
 
-1. 在出現的頁面上，繼續下列的5個區段之一，以設定[!UICONTROL 新任務預設值]、[!UICONTROL 問題]、[!UICONTROL 刪除]、[!UICONTROL 實際日期]和[!UICONTROL 存取]的設定：
+1. 在出現的頁面上，繼續下列六個區段之一，設定[!UICONTROL 新任務預設值]、[!UICONTROL 問題]、[!UICONTROL 刪除]、[!UICONTROL 實際日期]和[!UICONTROL 存取]的設定：
 
    * [[!UICONTROL 新任務預設值]](#new-task-defaults)
    * [[!UICONTROL 問題]](#issues)
    * [[!UICONTROL 刪除]](#deletion)
    * [[!UICONTROL 實際日期]](#actual-dates)
    * [[!UICONTROL 委派]](#delegation)
+   * [[!UICONTROL 存取]](#access)
 
-   <!--
-<li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">處理它</a> </li>
-  —&gt;
+<!--
+  <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Work On It</a> </li>
+-->
 
-* [[!UICONTROL 存取]](#access)
+
 
 ### [!UICONTROL 新任務預設值] {#new-task-defaults}
 
