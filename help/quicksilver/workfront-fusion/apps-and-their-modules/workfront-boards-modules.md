@@ -9,10 +9,10 @@ description: 您可以使用Adobe Workfront面板聯結器在Workfront面板中�
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 0b4a25f7-a8f1-47f4-8929-7eff82f1dfdc
-source-git-commit: 0b7b63df57c9e99fb782c59af55d1165283dd634
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '2631'
-ht-degree: 0%
+source-wordcount: '2647'
+ht-degree: 1%
 
 ---
 
@@ -71,6 +71,21 @@ Adobe Workfront展示板是彈性的工具，可讓團隊透過提供對包含�
 ## 先決條件
 
 您必須先在Adobe Workfront中設定主機板，才能連線至該主機板。
+
+## Adobe Workfront面板API資訊
+
+Adobe Workfront面板聯結器會使用以下專案：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API標籤</td> 
+   <td>v1.23.6</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## 建立與Workfront展示板的連線
 

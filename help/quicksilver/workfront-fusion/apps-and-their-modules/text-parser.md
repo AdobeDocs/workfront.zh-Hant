@@ -8,9 +8,9 @@ description: 您可以使用文字剖析器工具來剖析文字，以供其他 
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 7d71cf64-4f86-42c5-81e7-8fc15333cbd7
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1048'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,21 @@ ht-degree: 0%
 若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
 
 如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md)。
+
+## 文字剖析器API資訊
+
+文字剖析器聯結器使用下列專案：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API標籤</td> 
+   <td>v2</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!UICONTROL 文字剖析器]模組及其欄位
 
@@ -180,7 +195,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[！UICONTROL單行]</td> 
-   <td>啟用此選項以確保句點(.) 符合新行字元(<code>\n</code>)。</td> 
+   <td>啟用此選項以確保句點(.)符合新行字元(<code>\n</code>)。</td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL即使模組未傳回任何結果，仍繼續執行路由]</td> 
@@ -223,7 +238,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[！UICONTROL單行]</td> 
-   <td>啟用此選項以確保句點(.) 符合新行字元(<code>\n</code>)。</td> 
+   <td>啟用此選項以確保句點(.)符合新行字元(<code>\n</code>)。</td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL Text] </td> 

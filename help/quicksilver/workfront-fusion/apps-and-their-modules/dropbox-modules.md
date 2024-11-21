@@ -9,9 +9,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以自動執行
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: a35631d7-40ac-4e7f-9a37-ad3879c0b6a2
-source-git-commit: 86be8b6e1c21f3fd5f5b66afa3bf930d6bafbd63
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '3208'
+source-wordcount: '3230'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,29 @@ ht-degree: 0%
 >Dropbox必須核准使用者超過50人的應用程式。
 >
 >如需詳細資訊，請在Dropbox開發人員指南中搜尋「生產核准」。
+
+## DropboxAPI資訊
+
+Dropbox聯結器會使用以下專案：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">基礎URL</td> 
+   <td> https://api.dropboxapi.com/2    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API版本</td> 
+   <td> 2 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API標籤</td> 
+   <td><ul><li><p>Dropbox</p><p>v5.3.9</p></li><li><p>Dropbox企業</p><p>v1.0.12</p></li></ul></td> 
+  </tr>
+ </tbody> 
+ </table>
 
 
 ## 建立與[!DNL Dropbox]的連線

@@ -9,10 +9,10 @@ description: 透過 [!DNL Adobe Campaign] 模組，您可以根據您 [!DNL Adob
 author: Becky
 feature: Workfront Fusion
 exl-id: 84e8fa35-0c3c-46bd-8886-88c6d8d9e1d5
-source-git-commit: 7decc5cbf4bb2c3d4d1802dec1f369ca061f6b48
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1434'
-ht-degree: 0%
+source-wordcount: '1448'
+ht-degree: 1%
 
 ---
 
@@ -65,6 +65,21 @@ ht-degree: 0%
 
 * 如需將IP位址新增至您的Campaign允許清單的指示，請參閱Adobe Campaign檔案中的[將IP位址新增至允許清單](https://experienceleague.adobe.com/en/docs/control-panel/using/sftp-management/ip-range-allow-listing#adding-ip-addresses-allow-list)。
 * 如需新增至允許清單的IP位址清單，請參閱[用於存取Adobe Workfront Fusion的IP位址](/help/quicksilver/workfront-fusion/get-started/ip-addresses-for-fusion.md)。
+
+## Adobe Campaign API資訊
+
+Adobe Campaign聯結器會使用以下專案：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API標籤</td> 
+   <td>v1.7.22</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## 將[!DNL Adobe Campaign]連線至[!DNL Adobe Workfront Fusion]
 

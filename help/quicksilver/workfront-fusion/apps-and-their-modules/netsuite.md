@@ -9,9 +9,9 @@ description: 在Adobe Workfront Fusion案例中，您可以自動化使用 [!DNL
 author: Becky
 feature: Workfront Fusion
 exl-id: 66d2e59e-0945-4a6b-a0fe-5c313051ad4e
-source-git-commit: ff66cacc86532092e7a6805b7bf3c26d4437d9e9
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '574'
 ht-degree: 1%
 
 ---
@@ -66,6 +66,25 @@ ht-degree: 1%
 ## 先決條件
 
 若要使用[!DNL NetSuite]模組，您必須有[!DNL NetSuite]帳戶。
+
+## NetSuite API資訊
+
+NetSuite聯結器使用下列專案：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API版本</td> 
+   <td> v1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API標籤</td> 
+   <td>v1.0.10</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## 建立與NetSuite的連線
 

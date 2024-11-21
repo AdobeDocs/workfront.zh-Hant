@@ -9,9 +9,9 @@ description: ' [!DNL Adobe Workfront Fusion Google Drive] 模組可讓您監視�
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 7d620c93-d1bf-4451-9f76-1d6fd850cec9
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '2941'
+source-wordcount: '2958'
 ht-degree: 0%
 
 ---
@@ -64,6 +64,29 @@ ht-degree: 0%
 若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
 
 如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md)。
+
+## Google Drive API資訊
+
+Google磁碟機聯結器使用下列專案：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">基礎URL</td> 
+   <td> https://www.googleapis.com/drive/v3</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API版本</td> 
+   <td> v3 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API標籤</td> 
+   <td>v4.1.22</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 
 
@@ -634,7 +657,7 @@ ht-degree: 0%
 
 * [欄位](#fields)
 * [值型別](#value-types)
-* [運運算元](#operators)
+* [運算子](#operators)
 * [範例](#examples)
 
 ### 欄位
@@ -648,7 +671,7 @@ ht-degree: 0%
   <tr> 
    <th>欄位 </th> 
    <th>值型別 </th> 
-   <th>運運算元</th> 
+   <th>運算子</th> 
    <th> <p> 說明</p> </th> 
   </tr> 
  </thead> 
@@ -779,7 +802,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-### 運運算元
+### 運算子
 
 <table style="table-layout:auto"> 
  <col> 
@@ -867,13 +890,13 @@ ht-degree: 0%
   <pre>fullText包含'"hello world"'fullText包含'"hello_world"'</pre>
 * 使用包含「\」字元的查詢來搜尋檔案（例如「\authors」）
   <pre>fullText包含'\\authors'</pre>
-* 搜尋使用者「test@example.org」可寫入的檔案
+* 搜尋使用者`test@example.org`可寫入的檔案
   <pre>中的'test@example.org' [!DNL writers]</pre>
 * 搜尋`parents`集合中的識別碼`1234567`。 這會尋找直接位於識別碼為`1234567`的資料夾中的所有檔案與資料夾。
   <pre>[！UICONTROL父項]中的'1234567'</pre>
 * 在`parents`集合中搜尋別名識別碼`appDataFolder`。 這會尋找位於[應用程式資料資料夾](https://developers.google.com/drive/api/v2/appdata)下方的全部檔案和資料夾。
   <pre>父級中的「appDataFolder」</pre>
-* 搜尋使用者&quot;test@example.org&quot;和&quot;test2@example.org&quot;可寫入的檔案
+* 搜尋使用者`test@example.org`和`test2@example.org`可寫入的檔案
   <pre>writer中的「test@example.org」及writer中的「test2@example.org」</pre>
 * 搜尋垃圾桶內包含「重要」文字的檔案
   <pre>fullText包含'important'且true = true</pre>

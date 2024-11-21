@@ -9,9 +9,9 @@ description: 使用Adobe I/O事件模組，您可以根據Adobe應用程式中�
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 18ad8098-9742-44d2-97cd-b0c2b5591538
-source-git-commit: db322faeb53a0ae4a061076d457f3c10c31ec33c
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '933'
 ht-degree: 1%
 
 ---
@@ -56,6 +56,25 @@ ht-degree: 1%
 使用Adobe I/O事件聯結器之前，您必須確保符合下列先決條件：
 
 * 您必須擁有使用中的Adobe帳戶。
+
+## Adobe I/O事件API資訊
+
+Adobe I/O事件聯結器會使用以下專案：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">基礎URL</td> 
+   <td>https://api.adobe.io/events</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API標籤</td> 
+   <td>v1.6.7</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## 建立與Adobe I/O事件的連線
 

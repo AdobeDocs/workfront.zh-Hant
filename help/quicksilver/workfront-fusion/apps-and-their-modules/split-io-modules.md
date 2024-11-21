@@ -9,9 +9,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以自動化使
 author: Becky
 feature: Workfront Fusion
 exl-id: 4576a2e4-b495-430e-a9de-4e1ec7379ab8
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '1801'
+source-wordcount: '1819'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,29 @@ ht-degree: 0%
 ## 先決條件
 
 若要使用[!DNL Split.io]模組，您必須有[!DNL Split.io]帳戶。
+
+## Split.io API資訊
+
+Split.io聯結器使用下列專案：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">基礎URL</td> 
+   <td> https://api.split.io/internal/api</td>
+   </tr> 
+  <tr> 
+   <td role="rowheader">API版本</td> 
+   <td> v2 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API標籤</td> 
+   <td>v1.34.1</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## 將[!DNL Split.io]連線至[!DNL Workfront Fusion] {#connect-split-io-to-workfront-fusion}
 

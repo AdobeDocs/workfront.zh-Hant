@@ -9,9 +9,9 @@ description: 在Adobe Workfront Fusion案例中，您可以自動化使用OpenAI
 author: Becky
 feature: Workfront Fusion
 exl-id: 3a747013-5fb6-4416-8d95-d656dfeeb7db
-source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '1320'
+source-wordcount: '1339'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,25 @@ ht-degree: 0%
 ## 先決條件
 
 若要使用[!DNL OpenAI (ChatGPT & DALL-E)]模組，您必須擁有[!DNL OpenAI]帳戶，包括API金鑰和組織識別碼。
+
+## OpenAI （ChatGPT和DALL-E） API資訊
+
+OpenAI (ChatGPT &amp; DALL-E)聯結器使用下列專案：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API版本</td> 
+   <td> v1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API標籤</td> 
+   <td>v1.11.1</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## 正在連線[!DNL OpenAI (ChatGPT & DALL-E)]至[!DNL Workfront Fusion]
 
@@ -330,6 +349,7 @@ This action module makes edits or creates variations of existing images.
     <li><p><b>擷取模型 </b></p><p>輸入或對應您要擷取的模型ID。 </p></li>
    </ul>
  </td> 
+  </tr>
  </tbody> 
 </table>
 

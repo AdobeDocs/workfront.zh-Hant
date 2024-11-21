@@ -9,9 +9,9 @@ description: 使用 [!DNL Adobe Workfront Fusion] Figma模組，您可以擷取�
 author: Becky
 feature: Workfront Fusion
 exl-id: d88db592-32d4-4765-952f-9ffb58cf1720
-source-git-commit: df4ac2c7fdf319fd8e2e8383cd395e8826e19df0
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '2313'
+source-wordcount: '2331'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,29 @@ ht-degree: 0%
 ## 先決條件
 
 若要使用[!DNL Figma]模組，您必須有[!DNL Figma]帳戶。
+
+## 圖表API資訊
+
+Figma聯結器使用下列專案：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">基礎URL</td> 
+   <td> https://api.figma.com/v1</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API版本</td> 
+   <td> v1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API標籤</td> 
+   <td>v1.8.25</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL Figma]模組及其欄位
 

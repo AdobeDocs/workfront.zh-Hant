@@ -9,9 +9,9 @@ description: 透過Adobe Photoshop模組，您可以根據Adobe Photoshop帳戶�
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: f20192ea-e363-4fba-8bd2-b1d50443918d
-source-git-commit: c3187e3dc21b4705a0e249ed8cc6df66575ef06b
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '4308'
+source-wordcount: '4325'
 ht-degree: 0%
 
 ---
@@ -73,6 +73,25 @@ ht-degree: 0%
 使用[!DNL Adobe Photoshop]聯結器之前，您必須確定符合下列先決條件：
 
 * 您必須擁有使用中的[!DNL Adobe Photoshop]帳戶。
+
+## Adobe Photoshop API資訊
+
+Adobe Photoshop聯結器會使用以下專案：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">基礎URL</td> 
+   <td>https://image.adobe.io/pie/psdService</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API標籤</td> 
+   <td>v1.12.31</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## 建立與[!DNL Adobe Photoshop]的連線
 

@@ -9,9 +9,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以自動執行
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 03bcd0a4-c8ec-4f44-b1e1-b57e79595309
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: d281d9eae03254d9cab4ff4bd86cd2d621cc7393
 workflow-type: tm+mt
-source-wordcount: '1844'
+source-wordcount: '1863'
 ht-degree: 0%
 
 ---
@@ -69,6 +69,29 @@ ht-degree: 0%
 
 * 您必須擁有使用中的[!UICONTROL Anaplan]帳戶。
 * 您必須先在[!UICONTROL Anaplan]帳戶中設定工作區、模型和其他[!DNL Anaplan]物件，然後[!DNL Workfront Fusion]才能與它們互動。
+
+## Anaplan API資訊
+
+Anaplan聯結器使用下列專案：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">基礎URL</td> 
+   <td>https://api.anaplan.com/2/0/
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API版本</td> 
+   <td> v2 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API標籤</td> 
+   <td>v1.11.5/td&gt; 
+ </tbody> 
+</table>
 
 ## 將[!DNL Anaplan]連線至[!DNL Workfront Fusion] {#connect-anaplan-to-workfront-fusion}
 

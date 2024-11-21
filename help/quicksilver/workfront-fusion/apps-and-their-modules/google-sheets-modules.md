@@ -9,9 +9,9 @@ description: 為了使用 [!DNL Google Sheets] 搭配 [!DNL Adobe Workfront Fusi
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 11d62222-df34-472d-93d7-f0d53eb95c9b
-source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '4000'
+source-wordcount: '4023'
 ht-degree: 0%
 
 ---
@@ -64,6 +64,29 @@ ht-degree: 0%
 ## 先決條件
 
 若要使用[!UICONTROL Google工作表]模組，您必須有[!UICONTROL Google]帳戶。
+
+## Google Sheets API資訊
+
+Google Sheets聯結器使用下列專案：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">基礎URL</td> 
+   <td> https://sheets.googleapis.com/v4</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API版本</td> 
+   <td> v4 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API標籤</td> 
+   <td>v2.5.7</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## 觸發器
 
@@ -720,7 +743,7 @@ ht-degree: 0%
    * 函式的名稱必須對應到您在步驟9中指定的名稱。
    * 將URL取代為您在步驟2中複製的webhook URL。
 
-     <pre>函式runScenario() {</pre><pre>UrlFetchApp.fetch("<webhook you copied>「)；</pre><pre>}</pre>
+     <pre>函式runScenario() {</pre><pre>UrlFetchApp.fetch("&lt;webhook you copied&gt;")；</pre><pre>}</pre>
 
 1. 按&#x200B;**[!UICONTROL Ctrl+S]**&#x200B;儲存指令碼檔案，輸入專案名稱並按一下&#x200B;**[!UICONTROL 確定]**。
 

@@ -9,9 +9,9 @@ description: ' [!DNL Adobe Workfront Fusion AWS] S3模組可讓您對S3儲存貯
 author: Becky
 feature: Workfront Fusion
 exl-id: 33623b5d-d9ff-4d41-b938-33378f50539e
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1373'
+source-wordcount: '1392'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,25 @@ ht-degree: 0%
 ## 先決條件
 
 若要使用[!UICONTROL AWS S3]模組，您必須有[!DNL Amazon Web Service]帳戶。
+
+## AWS S3 API資訊
+
+AWS S3聯結器使用下列專案：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">基礎URL</td> 
+   <td>https://s3.{{parameters.region}}.amazonaws.com</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API標籤</td> 
+   <td>v1.5.21</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## 將[!DNL AWS]連線至[!DNL Workfront Fusion] {#connect-aws-to-workfront-fusion}
 

@@ -9,9 +9,9 @@ description: ' [!DNL Adobe Workfront Fusion Google Forms] 模組可讓您在您�
 author: Becky
 feature: Workfront Fusion
 exl-id: 45c86879-bc4e-4134-b63c-02410b9de43b
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: '1435'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,21 @@ ht-degree: 0%
 ## 先決條件
 
 若要使用[!DNL Google Forms]模組，您必須有[!DNL Google]帳戶。
+
+## Google Forms API資訊
+
+Google Forms聯結器使用下列專案：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API標籤</td> 
+   <td>2.0.10</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## 從表單建立試算表
 

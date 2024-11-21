@@ -9,9 +9,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以自動化使
 author: Becky
 feature: Workfront Fusion
 exl-id: 3c94a6d8-6994-40b1-b4fe-2de09795799c
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '427'
 ht-degree: 1%
 
 ---
@@ -66,6 +66,29 @@ ht-degree: 1%
 ## 先決條件
 
 若要使用[!DNL Quickbase]模組，您必須有[!DNL Quickbase]帳戶。
+
+## Quickbase API資訊
+
+Quickbase聯結器使用下列專案：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">基礎URL</td> 
+   <td> https://api.quickbase.com/v1</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API版本</td> 
+   <td> v1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API標籤</td> 
+   <td>v1.0.12</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL Quickbase]模組及其欄位
 

@@ -5,9 +5,9 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e0a5736b-dbdb-43c6-83ff-e88a5625a5bf
-source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '3719'
+source-wordcount: '3738'
 ht-degree: 0%
 
 ---
@@ -88,6 +88,25 @@ Although [!DNL Workfront Fusion] does not require an [!DNL Adobe] account to use
 若要建立OAuth伺服器對伺服器，您必須在Adobe開發人員控制檯中新增Adobe PDF Services API 。 新增API時，請選取OAuth伺服器對伺服器選項。
 
 如需指示，請參閱Adobe開發人員檔案中的[使用OAuth將API新增至專案](https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/)。
+
+## Adobe PDF服務API資訊
+
+Adobe PDF服務聯結器會使用以下專案：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">基礎URL</td> 
+   <td>https://pdf-services-stage.adobe.io</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API標籤</td> 
+   <td>v2.1.4</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## 建立與[!DNL Adobe PDF Services]的連線
 

@@ -9,9 +9,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以自動化使
 author: Becky
 feature: Workfront Fusion
 exl-id: ecaa93c9-47bb-4fe1-87b4-d2e117cc68ae
-source-git-commit: ed7ea1d3409c39caea5fe8b107b7b2907dc87d76
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '1776'
+source-wordcount: '1791'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,25 @@ ht-degree: 0%
 ## 先決條件
 
 若要使用[!DNL Azure DevOps]模組，您必須有[!DNL Azure] DevOps帳戶。
+
+## [!DNL Azure DevOps] API資訊
+
+Azure DevOps聯結器使用下列專案：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API版本</td> 
+   <td> v5.1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API標籤</td> 
+   <td>v1.29.33</td> 
+  </tr>
+ </tbody> 
+</table>
 
 ## 將[!DNL Azure DevOps]連線至[!DNL Workfront Fusion] {#connect-azure-devops-to-workfront-fusion}
 

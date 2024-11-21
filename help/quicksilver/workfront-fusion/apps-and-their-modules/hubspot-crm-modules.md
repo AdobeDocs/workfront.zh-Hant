@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Workfront Fusion] HubSpot CRM模組可讓您監視 [!
 author: Becky
 feature: Workfront Fusion
 exl-id: d58e0c12-a798-495c-8f88-fbf2a532f8a4
-source-git-commit: d550ba76a5a6c1d241d1dc73e63e49ef4c22a40d
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '6394'
+source-wordcount: '6411'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,25 @@ ht-degree: 0%
 ## 先決條件
 
 若要使用[!DNL HubSpot CRM]模組，您必須有[!DNL HubSpot CRM]帳戶。
+
+## HubSpot CRM API資訊
+
+HubSpot CRM聯結器使用下列專案：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">基礎URL</td> 
+   <td>https://api.hubapi.com</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API標籤</td> 
+   <td>v2.0.14</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## 將[!DNL Adobe Workfront Fusion]連線至[!DNL HubSpot CRM]
 

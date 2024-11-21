@@ -5,9 +5,9 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: e21ef8a0-bec0-43fc-a495-c00b4023a273
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '3008'
+source-wordcount: '3026'
 ht-degree: 0%
 
 ---
@@ -46,6 +46,29 @@ ht-degree: 0%
   </tr> 
  </tbody> 
 </table>
+
+## CloudConvert API資訊
+
+CloudConvert聯結器會使用以下專案：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">基礎URL</td> 
+   <td> https://api.cloudconvert.com/v2/</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API版本</td> 
+   <td> v2 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API標籤</td> 
+   <td>v2.14.22</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## 將[!DNL CloudConvert]連線至[!DNL Workfront Fusion] {#connect-cloudconvert-to-workfront-fusion}
 

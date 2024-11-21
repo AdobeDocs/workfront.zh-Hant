@@ -10,10 +10,10 @@ description: 除了Adobe Workfront授權，Adobe Workfront Fusion還需要Adobe 
 author: Becky
 feature: Workfront Fusion
 exl-id: 1d78e0db-9a77-437d-a72f-88fb256981c0
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1862'
-ht-degree: 1%
+source-wordcount: '1877'
+ht-degree: 2%
 
 ---
 
@@ -60,6 +60,25 @@ ht-degree: 1%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information, see the tutorial .</p>
 -->
+
+## Airtable API資訊
+
+Airtable聯結器使用下列專案：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">基礎URL</td> 
+   <td>https://api.airtable.com/v0</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API標籤</td> 
+   <td>v3.3.28</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## 將Airtable連線至Workfront Fusion {#connect-airtable-to-workfront-fusion}
 

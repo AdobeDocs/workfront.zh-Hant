@@ -9,9 +9,9 @@ description: 在Adobe Workfront Fusion案例中，您可以自動化使用Salesf
 author: Becky
 feature: Workfront Fusion
 exl-id: 3c8adcd9-fb5f-400d-9edd-6d9fc30cc728
-source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '2740'
+source-wordcount: '2758'
 ht-degree: 0%
 
 ---
@@ -76,6 +76,29 @@ ht-degree: 0%
 ## 先決條件
 
 若要使用[!DNL Salesforce]模組，您必須有[!DNL Salesforce]帳戶。
+
+## Salesforce API資訊
+
+Salesforce聯結器會使用以下專案：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">基礎URL</td> 
+   <td> {{connection.instanceUrl}}</td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">API版本</td> 
+   <td> v46.0 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API標籤</td> 
+   <td>v1.15.14</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## 關於搜尋[!DNL Salesforce]物件
 

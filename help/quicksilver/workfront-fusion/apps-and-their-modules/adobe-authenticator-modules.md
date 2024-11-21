@@ -9,9 +9,9 @@ description: 透過Adobe Authenticator模組，您可以使用單一連線透過
 author: Becky
 feature: Workfront Fusion
 exl-id: 74c943fb-37ad-4d91-8af7-9808ba69992e
-source-git-commit: 4914e6e30d6c4a16de5bd2c91bc6f8e4f208c078
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1223'
 ht-degree: 1%
 
 ---
@@ -73,6 +73,21 @@ Adobe Authenticator模組可讓您使用單一連線來連線至任何AdobeAPI�
    * 將API新增至現有專案。
 
   如需有關在Adobe Developer Console上建立或新增API至專案的資訊，請參閱Adobe檔案中的[建立專案](https://developer.adobe.com/dep/guides/dev-console/create-project/)。
+
+## Adobe Authenticator API資訊
+
+Adobe Authenticator聯結器會使用以下專案：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API標籤</td> 
+   <td>v1.1.4</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## 建立連線
 

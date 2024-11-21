@@ -9,9 +9,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以自動執行
 author: Becky
 feature: Workfront Fusion
 exl-id: c95b9764-29a5-4d8c-8e6d-68a3969129e0
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1059'
 ht-degree: 1%
 
 ---
@@ -66,6 +66,25 @@ ht-degree: 1%
 ## 先決條件
 
 若要使用[!DNL Cvent]模組，您必須有[!DNL Cvent]帳戶。
+
+## Cvent API資訊
+
+Cvent聯結器使用下列專案：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API版本</td> 
+   <td> V200611.ASMX </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API標籤</td> 
+   <td>v1.7.14</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## 將[!DNL Cvent]連線至[!DNL Adobe Workfront Fusion] {#connect-cvent-to-adobe-workfront-fusion}
 

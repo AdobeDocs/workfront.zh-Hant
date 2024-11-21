@@ -5,9 +5,9 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: a6ebfe6f-dc3f-41f7-8129-bbc5775cff33
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1946'
+source-wordcount: '1959'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,21 @@ ht-degree: 0%
 ## 先決條件
 
 若要使用[!DNL DocuSign]模組，您必須有[!DNL DocuSign]帳戶。
+
+## DocuSign API資訊
+
+DocuSign聯結器使用下列專案：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API標籤</td> 
+   <td>1.18.11</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## 將[!DNL DocuSign]連線至[!DNL Workfront Fusion] {#connect-docusign-to-workfront-fusion}
 

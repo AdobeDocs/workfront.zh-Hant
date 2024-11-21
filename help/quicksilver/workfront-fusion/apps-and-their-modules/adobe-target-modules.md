@@ -9,9 +9,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以自動執行
 author: Becky
 feature: Workfront Fusion
 exl-id: 9597806b-d4bf-4627-b27d-30e24a1e6776
-source-git-commit: 43bd30c2db6219cd4e68380c1d9c0d1421f51592
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '2235'
+source-wordcount: '2249'
 ht-degree: 0%
 
 ---
@@ -75,6 +75,21 @@ ht-degree: 0%
 使用[!DNL Adobe Target]聯結器之前，您必須確定符合下列先決條件：
 
 * 您必須擁有使用中的[!DNL Adobe Target]帳戶。
+
+## Adobe Target API資訊
+
+Adobe Target聯結器會使用以下專案：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API標籤</td> 
+   <td>v1.7.33</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## 建立與[!DNL Adobe Target]的連線
 
