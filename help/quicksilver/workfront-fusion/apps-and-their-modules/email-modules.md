@@ -9,7 +9,7 @@ description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以將電子郵
 author: Becky
 feature: Workfront Fusion
 exl-id: 384ba60a-d79e-4126-a247-6d67b5154ede
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '2626'
 ht-degree: 0%
@@ -47,7 +47,7 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront]計畫，您的組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。 [!DNL Workfront Fusion]包含在[！UICONTROL Ultimate] [!DNL Workfront]計畫中。</p>
+   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront]計畫，貴組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。 [!DNL Workfront Fusion]包含在[！UICONTROL Ultimate] [!DNL Workfront]計畫中。</p>
    <p>或</p>
    <p>舊版產品需求：您的組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。</p>
    </td> 
@@ -374,7 +374,7 @@ SMAP連線可讓您從遠端存取信箱，並讀取或操作信箱中的郵件�
    <td>選取您要標示為已讀取的電子郵件資料夾。 範例： Primary。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL電子郵件識別碼(UID)]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL電子郵件ID (UID)]</p> </td> 
    <td> <p>輸入您要標示為已讀取之電子郵件的電子郵件UID 。</p> <p>您可以使用[！UICONTROL Email] &gt;[！UICONTROL Watch Email]模組或[！UICONTROL Search Email]模組來取得電子郵件的UID。</p> </td> 
   </tr> 
  </tbody> 
@@ -397,8 +397,8 @@ SMAP連線可讓您從遠端存取信箱，並讀取或操作信箱中的郵件�
    <td>選取您要標籤為未讀取的電子郵件資料夾。 範例： Primary。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL電子郵件識別碼(UID)]</p> </td> 
-   <td> <p>輸入您要標示為未讀取之電子郵件的電子郵件UID。</p> <p>您可以使用[！UICONTROL Email] &gt;[！UICONTROL Watch Email]模組或[！UICONTROL Search Email]模組來取得電子郵件的UID。</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL電子郵件ID (UID)]</p> </td> 
+   <td> <p>輸入您要標示為未讀取之電子郵件的電子郵件UID 。</p> <p>您可以使用[！UICONTROL Email] &gt;[！UICONTROL Watch Email]模組或[！UICONTROL Search Email]模組來取得電子郵件的UID。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -424,8 +424,8 @@ SMAP連線可讓您從遠端存取信箱，並讀取或操作信箱中的郵件�
    <td> <p> 選取您要新增電子郵件的資料夾。 範例：工作。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL電子郵件識別碼(UID)]</p> </td> 
-   <td> <p>輸入您要移至目的地資料夾之電子郵件的電子郵件UID。</p> <p>您可以使用[！UICONTROL Email] &gt;[！UICONTROL Watch Email]模組或[！UICONTROL Search Email]模組來取得電子郵件的UID。</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL電子郵件ID (UID)]</p> </td> 
+   <td> <p>輸入您要移至目的地資料夾之電子郵件的電子郵件UID 。</p> <p>您可以使用[！UICONTROL Email] &gt;[！UICONTROL Watch Email]模組或[！UICONTROL Search Email]模組來取得電子郵件的UID。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -451,8 +451,8 @@ SMAP連線可讓您從遠端存取信箱，並讀取或操作信箱中的郵件�
    <td> <p> 選取您要複製電子郵件的資料夾。 範例：工作。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL電子郵件識別碼(UID)]</p> </td> 
-   <td> <p>輸入您要複製到目的地資料夾之電子郵件的電子郵件UID。</p> <p>您可以使用[！UICONTROL Email] &gt;[！UICONTROL Watch Email]模組或[！UICONTROL Search Email]模組來取得電子郵件的UID。</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL電子郵件ID (UID)]</p> </td> 
+   <td> <p>輸入您要複製到目的地資料夾之電子郵件的電子郵件UID 。</p> <p>您可以使用[！UICONTROL Email] &gt;[！UICONTROL Watch Email]模組或[！UICONTROL Search Email]模組來取得電子郵件的UID。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -474,8 +474,8 @@ SMAP連線可讓您從遠端存取信箱，並讀取或操作信箱中的郵件�
    <td>選取要刪除的電子郵件資料夾。 範例： Primary。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL電子郵件識別碼(UID)]</p> </td> 
-   <td> <p>輸入您要刪除之電子郵件的電子郵件UID。</p> <p>您可以使用[！UICONTROL Email] &gt;[！UICONTROL Watch Email]模組或[！UICONTROL Search Email]模組來取得電子郵件的UID。</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL電子郵件ID (UID)]</p> </td> 
+   <td> <p>輸入您要刪除之電子郵件的電子郵件UID 。</p> <p>您可以使用[！UICONTROL Email] &gt;[！UICONTROL Watch Email]模組或[！UICONTROL Search Email]模組來取得電子郵件的UID。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL分段]</td> 
@@ -538,8 +538,8 @@ SMAP連線可讓您從遠端存取信箱，並讀取或操作信箱中的郵件�
    <td> <p>輸入或對應任何關鍵字，以僅擷取包含特定片語的電子郵件。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL電子郵件識別碼(UID)]</td> 
-   <td> <p> 輸入要擷取其詳細資訊之電子郵件的電子郵件ID (UID)。</p> <p>您可以使用[!DNL Workfront Fusion]的[！UICONTROL Watch Email]模組或[！UICONTROL Search Email]模組來取得電子郵件的UID。</p> </td> 
+   <td role="rowheader">[！UICONTROL電子郵件ID (UID)]</td> 
+   <td> <p> 輸入您要擷取其詳細資訊之電子郵件的電子郵件ID (UID)。</p> <p>您可以使用[!DNL Workfront Fusion]的[！UICONTROL Watch Email]模組或[！UICONTROL Search Email]模組，取得電子郵件的UID。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL結果數量上限]</td> 

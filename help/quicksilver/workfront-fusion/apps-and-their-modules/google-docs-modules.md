@@ -9,7 +9,7 @@ description: Adobe Workfront Fusion [!DNL Google Docs] 模組可讓您監視、�
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: fbe7d628-d833-43ce-83b8-8e4e6a812fd1
-source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '4105'
 ht-degree: 0%
@@ -53,7 +53,7 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront]計畫，您的組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。 [!DNL Workfront Fusion]包含在[！UICONTROL Ultimate] [!DNL Workfront]計畫中。</p>
+   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront]計畫，貴組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。 [!DNL Workfront Fusion]包含在[！UICONTROL Ultimate] [!DNL Workfront]計畫中。</p>
    <p>或</p>
    <p>舊版產品需求：您的組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。</p>
    </td> 

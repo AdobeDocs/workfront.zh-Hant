@@ -8,7 +8,7 @@ description: webhook是由事件觸發的HTTP呼叫。 您可以使用Webhook來
 author: Becky
 feature: Workfront Fusion
 exl-id: 987544a4-5840-40d4-9438-41a000aa22ee
-source-git-commit: 34d7edb6a3f9cb1e818f6c234a8dda88d01c5fc4
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 0%
@@ -50,7 +50,7 @@ webhook是由事件觸發的HTTP呼叫。 您可以使用Webhook來啟動即時�
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront]計畫，您的組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。 [!DNL Workfront Fusion]包含在[！UICONTROL Ultimate] [!DNL Workfront]計畫中。</p>
+   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront]計畫，貴組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。 [!DNL Workfront Fusion]包含在[！UICONTROL Ultimate] [!DNL Workfront]計畫中。</p>
    <p>或</p>
    <p>舊版產品需求：您的組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。</p>
    </td> 
