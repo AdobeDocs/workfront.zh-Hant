@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: e82cf1b586ea3b08f419802bd1e88c6567b61b95
+source-git-commit: 5ebb756ba2f054c37d486d7f54a9f86cf8513328
 workflow-type: tm+mt
-source-wordcount: '6294'
+source-wordcount: '6537'
 ht-degree: 5%
 
 ---
@@ -263,6 +263,10 @@ ht-degree: 5%
     <td> 如果要將超連結套用至您輸入的描述文字，請在此處新增。 描述性文字在附加表單的物件上顯示為連結。</td>
     <td><ul><li>描述文字</li></ul></td>
     </tr>
+    <tr> 
+      <td role="rowheader">建立必要欄位</td>
+      <td><p>如果您希望欄位是使用者完成自訂表單的必要欄位，請選取此選項。</p></td>
+    </tr> 
    </table>
 
 1. （選用）重複上一步驟，新增任何其他欄位或Widget。
@@ -795,7 +799,7 @@ The Workfront Mobile app -->
 | 規劃時數 | ✓ (A) | ✓ (A) | ✓ (A) |   | ✓ (A) |   |   |   |
 | 規劃開始日期 | ✓ (A) |   |   |   |   |   |   |   |
 | 專案組合 | ✓ (A) |   |   | ✓ (A) |   |   | ✓ (A) |   |
-| 優先等級 | ✓ (A) | ✓ (A) | ✓ (A) | ✓ (A) | ✓ (A) |   |   |   |
+| 優先順序 | ✓ (A) | ✓ (A) | ✓ (A) | ✓ (A) | ✓ (A) |   |   |   |
 | 方案 | ✓ (A) |   |   | ✓ (A) |   |   |   |   |
 | 預計完成日期 | ✓ (A) | ✓ (A) |   |   |   |   |   |   |
 | 預計期間 (分鐘) |   | ✓ (A) |   |   |   |   |   |   |
@@ -837,6 +841,27 @@ The Workfront Mobile app -->
       <td role="rowheader">參考欄位</td> 
       <td><p>（必要）選取Workfront原生欄位。<p><p>僅表單物件的原生欄位可用。 例如，如果表單設計器頂端的「物件型別」清單顯示「專案」，您將能夠選取專案的原生欄位，但不能選取任務特定的欄位。</p></td>
      </tr>
+     <tr>
+      <td role="rowheader"><span class="preview">新增篩選器</span></td>
+      <td><span class="preview"><p>為參考欄位新增篩選器，以限制使用者在使用欄位時可以選擇的專案清單。 </p> <p>例如，您可以限制欄位，以便只有在使用者符合以下條件時才可選取使用者名稱：</p> 
+       <ul>
+        <li>它們屬於您指定的群組</li> 
+        <li>它們與您指定的角色或職稱相關聯</li> 
+        <li>他們與使用欄位的人屬於同一群組</li> 
+       </ul>
+       <p>您必須使用「文字模式」語法來定義所選參考欄位的篩選器。 如需有關使用文字模式建立篩選的資訊，請參閱<a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">使用文字模式編輯篩選</a>。</p>
+       <p><b>附註</b>：
+       <ul> 
+        <li>篩選選項僅在您參考原生預先輸入欄位時可用，例如「Portfolio」、「公司」或「擁有者」。</li>
+        <li>如果您正在編輯現有的自訂表單，將篩選新增至原生欄位時，不會移除使用者已使用該欄位新增的任何物件（在篩選範圍之外）。</li> 
+        <li>此篩選器不適用於行動裝置。 如果您將篩選用於原生欄位，該欄位將會顯示在不受篩選影響之使用者的行動裝置上。</li> 
+        </ul></p></span></td> 
+      <td>
+     </tr>
+     <tr> 
+      <td role="rowheader">建立必要欄位</td>
+      <td><p>如果您希望欄位是使用者完成自訂表單的必要欄位，請選取此選項。</p></td>
+     </tr> 
      <tr> 
       <td role="rowheader">大小</td> 
       <td>（可選）視需要變更欄位的顯示大小。</td> 

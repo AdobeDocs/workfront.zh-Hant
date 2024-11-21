@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 6bebe5fa42e50f7aa68b4a87069d47b6ef3323b9
+source-git-commit: 5ebb756ba2f054c37d486d7f54a9f86cf8513328
 workflow-type: tm+mt
 source-wordcount: '1223'
 ht-degree: 0%
@@ -136,11 +136,11 @@ IF(
 
      <span class="preview">您可以在錯誤訊息中加入靜態URL，以連結至檔案或其他實用頁面，引導使用者如何在規則的限制內修改其動作。</span>
 
-     <span class="preview">在此範例中，「瞭解更多」將連結至URL。 `"You are not allowed to add a new expense in June.[Learn more](http://url)"` URL必須位於括弧中，但不需要括弧中的連結文字。 您可以顯示完整的URL，它將是一個可點按的連結。</span>
+     <span class="preview">在此範例中，「瞭解更多」將連結至URL。 `"You are not allowed to add a new project in November.[Learn more](http://url)"` URL必須位於括弧中，但不需要括弧中的連結文字。 您可以顯示完整的URL，它將是一個可點按的連結。</span>
 
    ![新增商業規則對話方塊](assets/add-business-rule-dialog-no-ai-button.png)
 
-   此範例是費用的商業規則。 如果當月是六月，則不允許使用者建立新費用，且訊息會說明此情況。
+   此範例是專案的業務規則。 如果目前月份是11月，則不允許使用者建立新專案，且訊息會說明此情況。
 
    如需商業規則的更多範例，請參閱本文中的[商業規則案例](#scenarios-for-business-rules)。
 
