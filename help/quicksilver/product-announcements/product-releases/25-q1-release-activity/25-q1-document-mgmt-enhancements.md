@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0639cb37-212c-46d5-bfe0-b524efc085d3
-source-git-commit: 7ed4b36ef9297560ce9df6aa750b2ac24ac4a129
+source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,19 @@ ht-degree: 0%
 
 如需2025年第一季發行週期目前可用的所有變更清單，請參閱[2025年第一季發行概觀](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)。
 
+## 一次編輯多份檔案
+
+>[!NOTE]
+>
+>預覽版本： 2024年11月21日；快速發行生產：24.12版（2024年12月）；每季發行生產：25.1版（2025年1月）
+
+您現在可以一次編輯多份檔案。 您可以編輯說明並更新自訂表格。
+
+<!--For more information, see [Edit documents in bulk](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md).-->
+
 >[!IMPORTANT]
 >
->此頁面上列出的功能屬於分階段發行的一部分，僅適用於特定客戶。
+>下列功能屬於分階段發行，僅供特定客戶使用。
 
 ## 可用於檔案版本核准的新撤回狀態
 

@@ -6,9 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
+exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
+source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '902'
 ht-degree: 0%
 
 ---
@@ -32,6 +33,29 @@ ht-degree: 0%
 <!--remove the general activity mention after First Quarter 2025 is released-->
 
 如需2024年8月28日一般可用性發行後Adobe Workfront Planning所發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## 可在記錄詳細資訊區域取得的AdobeAI助理
+
+>[!NOTE]
+>
+>預覽版本： 2024年11月21日；快速發行生產：24.12版（2024年12月）；每季發行生產：25.1版（2025年1月）
+
+為了讓您更輕鬆地完成工作，我們已將AdobeAI助理新增到記錄的詳細資料預覽或記錄頁面。 您可以在記錄頁面內使用AI助理員來更新有關記錄的資訊。
+
+如需詳細資訊，請參閱[Adobe Workfront Planning AI Assistant總覽](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)。
+
+## 新增縮圖和封面影像至記錄頁面的新體驗
+
+>[!NOTE]
+>
+>預覽版本： 2024年11月20日；快速發行生產：24.12版（2024年12月）；每季發行生產：25.1版（2025年1月）
+
+當您開啟記錄的預覽或頁面，且記錄沒有縮圖或封面影像時，您現在必須將滑鼠移至標題中記錄名稱上方的區域上，以檢視將封面和縮圖影像新增到記錄的選項。 在此增強功能之前，縮圖的空白預留位置影像和封面會顯示在記錄名稱上方。
+
+如需詳細資訊，請參閱下列文章：
+
+* [新增封面影像至記錄](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
+* [新增縮圖影像至記錄](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
 
 ## 表格檢視中百分比型別欄位的新顯示型別
 

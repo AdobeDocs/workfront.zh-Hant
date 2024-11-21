@@ -2,21 +2,23 @@
 content-type: reference
 product-area: reports and dashboards
 navigation-topic: data connect
-title: 建立用於Snowflake的讀取器（服務）帳戶
+title: 建立讀取器帳戶以進行Snowflake
 description: 若要存取Data Connect資料，您必須先建立Snowflake讀取器帳戶。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
-source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
+source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '666'
 ht-degree: 0%
 
 ---
 
-# 建立用於Snowflake的讀取器（服務）帳戶
+# 建立Reader帳戶或連線以進行Snowflake
 
-若要存取Data Connect資料，您必須先為每個新連線建立Snowflake讀取器（或服務）帳戶。 建立連線後，您可以在&#x200B;**現有連線**&#x200B;標籤下的&#x200B;**資料存取**&#x200B;頁面（**主功能表** > **設定** > **系統** > **資料存取**）上按一下連線，以找到其相關聯的URL和使用者名稱。
+若要存取Data Connect資料，您必須先為貴組織建立Snowflake讀取器（或服務）帳戶，然後為您想要存取Data Connect的每個使用者或工具建立新連線。
+
+建立連線後，您可以在&#x200B;**現有連線**&#x200B;標籤下的&#x200B;**資料連線**&#x200B;頁面（**主功能表** > **設定** > **系統** > **資料連線**）上按一下連線，以找到其相關聯的URL和使用者名稱。
 
 如需有關使用新建立的外部產品連線的資訊，請參閱[建立與Workfront Data Connect的連線](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)。
 
@@ -46,7 +48,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td>計劃</td> 
+   <td>規劃</td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -61,15 +63,35 @@ ht-degree: 0%
 
 ## 建立讀者帳戶
 
+您必須先為您的組織建立新的Snowflake讀取器帳戶，才能開始建立連線。
+
+>[!IMPORTANT]
+>
+>每個組織只需完成此程式一次。 如果&#x200B;**建立Reader帳戶**&#x200B;按鈕不存在於下述位置，則表示您的讀取器帳戶已經建立。
+
+若要建立讀取器帳戶：
+
 1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**設定**。
 
-1. 在左側面板中，按一下&#x200B;**系統** > **資料存取**。
+1. 在左側面板中，按一下&#x200B;**系統** > **資料連線**。
+
+1. 按一下&#x200B;**建立Reader帳戶**&#x200B;按鈕，開始建立組織的讀者帳戶。 此程式是自動的，但可能需要幾分鐘才能完成。
+
+1. 完成後，對話方塊視窗會顯示說明您的讀者帳戶目前為使用中的狀態。 重新整理瀏覽器頁面以取得&#x200B;**建立新連線**&#x200B;按鈕的存取權。
+
+![Reader帳戶已建立對話方塊](/help/quicksilver/reports-and-dashboards/data-lake/assets/data-connect-reader-account-created.png)
+
+## 建立連線
+
+1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**設定**。
+
+1. 在左側面板中，按一下&#x200B;**系統** > **資料連線**。
 
 1. 按一下&#x200B;**建立新連線**
 
 1. 在出現的視窗中，在&#x200B;**連線參考描述**&#x200B;中輸入連線的名稱，並在&#x200B;**連線使用者**&#x200B;中輸入使用者名稱，然後按一下&#x200B;**產生連線**。
 
-   ![建立讀取器帳戶](/help/quicksilver/reports-and-dashboards/data-lake/assets/new-reader-connection.png) {width="500"}
+   ![建立新連線](/help/quicksilver/reports-and-dashboards/data-lake/assets/new-reader-connection.png) {width="500"}
 
 1. 將會產生&#x200B;**預設密碼**，以及可透過Snowflake檢視您資料的URL。 您必須使用密碼搭配您選擇用來首次Snowflake的使用者名稱，以確保您同時保留該密碼和URL的記錄。 核取宣告您已完成此作業的方塊，然後按一下&#x200B;**關閉**。
 

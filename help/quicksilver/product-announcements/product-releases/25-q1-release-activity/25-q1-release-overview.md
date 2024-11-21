@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 8b69fc1e20ad255cb9874b70289fc11dcb03cdb0
+source-git-commit: cea70727aaaa867b55ce999f68a675c453840d41
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1635'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ ht-degree: 0%
 * [檔案管理增強功能](#document-management-enhancements)
 * [首頁增強功能](#home-enhancements)
 * [校訂增強功能](#proofing-enhancements)
+* [報表與控制面板增強功能](#report-and-dashboard-enhancements)
 * [其他增強功能](#other-enhancements)
 
 ### 管理員增強功能
@@ -52,6 +53,54 @@ ht-degree: 0%
         </td>
         <td>
             <p><span class="bold">發行日期</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            用於單一指派任務的專案或使用者排程的偏好設定</a></p>
+            [！BADGE New in Preview ]{type=Negative}
+            <p>作為系統或群組管理員，您現在有新的偏好設定，可指明Workfront在您指派一名使用者至任務，且專案和使用者都與排程相關聯時，是否應使用專案或使用者的排程來計算專案的時間表。</p>
+        </td>
+        <td>
+            <p><b>將於下列日期提供：</b></p>
+            <ul>
+                <li>預覽版本： 2024年11月21日</li>
+                <li>快速發行生產：第24.12發行版本（2024年12月）</li>
+                <li>所有客戶的生產版本：25.1版本（2025年1月）</li>
+            </ul>
+        </td>
+    </tr>     
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            商業規則現在支援超連結</a></p>
+            [！BADGE New in Preview ]{type=Negative}
+            <p>您現在可以在商業規則的自訂錯誤訊息中包含超連結，以指導使用者如何在規則的限制內修改其動作。 靜態URL可連結至對使用者有所幫助的檔案或其他頁面。</p>
+        </td>
+        <td>
+            <p><b>將於下列日期提供：</b></p>
+            <ul>
+                <li>預覽版本： 2024年11月21日</li>
+                <li>快速發行生產：第24.12發行版本（2024年12月）</li>
+                <li>所有客戶的生產版本：25.1版本（2025年1月）</li>
+            </ul>
+        </td>
+    </tr>    
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            現起提供原生預先輸入欄位上的篩選</a></p>
+            [！BADGE New in Preview ]{type=Negative}
+            <p>當您將原生欄位參考新增至自訂表單，並且它參考預先輸入欄位(例如，Portfolio、公司或所有者)時，現在可以使用篩選器選項。 篩選器可讓您限制使用者在使用欄位時可選擇的物件。 此自訂篩選的運作方式與自訂預先輸入欄位上的篩選相同，是使用文字模式來定義篩選。</p>
+        </td>
+        <td>
+            <p><b>將於下列日期提供：</b></p>
+            <ul>
+                <li>預覽版本： 2024年11月21日</li>
+                <li>快速發行生產：第24.12發行版本（2024年12月）</li>
+                <li>所有客戶的生產版本：25.1版本（2025年1月）</li>
+            </ul>
         </td>
     </tr>
     <tr>
@@ -122,6 +171,22 @@ ht-degree: 0%
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            一次編輯多份檔案</a></p>
+            [！BADGE New in Preview ]{type=Negative}
+            <p>您現在可以一次編輯多份檔案。 您可以編輯說明並更新自訂表格。</p>
+        </td>
+        <td>
+            <p><b>將於下列日期提供：</b></p>
+            <ul>
+                <li>預覽版本： 2024年11月21日</li>
+                <li>快速發行生產：第24.12發行版本（2024年12月）</li>
+                <li>所有客戶的生產版本：25.1版本（2025年1月）</li>
+            </ul>
+        </td>
+    </tr>    
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
             可用於檔案版本核准的新撤回狀態</a></p>
             [！BADGE In Production for Fast Release ]{type=Positive}
             <p>當新版本新增到具有待核准的檔案時，先前版本的核准現在將顯示為「已撤回」，表示由於新增新版本，先前核准流程已關閉。</p>
@@ -133,6 +198,7 @@ ht-degree: 0%
                 <li>快速發行生產：第24.11發行版本（2024年11月14日）</li>
                 <li>所有客戶的生產版本：25.1版本（2025年1月）</li>
             </ul>
+            <p><i>此功能屬於分階段發行，僅供特定客戶使用。</i></p>
         </td>
     </tr>
 </tbody>
@@ -225,12 +291,62 @@ ht-degree: 0%
 </tbody>
 </table>
 
+## 報表與控制面板增強功能
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><span class="bold">功能</span></p>
+        </td>
+        <td>
+            <p><span class="bold">發行日期</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Data Connect的首次讀取器帳戶建立按鈕</a></p>
+            <p>第一次存取Data Connect的管理員現在可以選擇按一下單一按鈕，以建立新的Snowflake讀取器帳戶。 此程式需要幾分鐘才能完成，但不需要進一步的動作。</p>
+        </td>
+        <td>
+            <p><b>將於下列日期提供：</b></p>
+            <ul>
+                <li>預覽版本： 2024年11月14日</li>
+                <li><span class="preview">所有客戶的生產版本： 2024年11月14日</span></li>
+            </ul>
+        </td>
+    </tr>
+</tbody>
+</table>
+
 ### 其他增強功能
 
 <table>
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            更新如何管理連結資料夾中移動或刪除的資產</a></p>
+            [！BADGE New in Preview ]{type=Negative}
+            <p>我們已變更使用Adobe Workfront與Experience Manager Assets和Assets Essentials整合時移動和刪除資產的處理方式：</p>
+            <ul>
+                <li>已刪除的資產：當資產在Assets或Assets Essentials中的連結資料夾內刪除時，已刪除的資產將保留在專案檔案區域。</li>
+                <li>移動的資產：當資產移出Assets或Assets Essentials中的連結資料夾時，移動的資產將保留在專案檔案區域中。</li>
+            </ul>
+        </td>
+        <td>
+            <p><b>將於下列日期提供：</b></p>
+            <ul>
+                <li>預覽版本： 2024年11月21日</li>
+                <li><span class="preview">所有客戶的生產版本： 2024年12月5日</span></li>
+            </ul>
+        </td>
+    </tr>
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">

@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: f69c974a620d5f39bc4ea18b455476c90cd4908e
+source-git-commit: 7d3d3e5ab8a0ee6dd3995ff417fb08d0d64d9a60
 workflow-type: tm+mt
-source-wordcount: '14597'
+source-wordcount: '14607'
 ht-degree: 2%
 
 ---
@@ -25,6 +25,7 @@ ht-degree: 2%
          * [2025年第1季檔案管理增強功能](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md)
          * [2025年第1季首頁增強功能](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md)
          * [2025年第1季校訂增強功能](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-proofing-enhancements.md)
+         * [2025年第1季報表與控制面板增強功能](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-report-and-dashboard-enhancements.md)
          * [2025年第一季度發行時間範圍內的其他增強功能](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md)
          * [2025年第1季度發佈時間範圍內的外觀和感覺更新](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-look-and-feel-updates.md)
       * 2024年第4季發行{#release-24-q4}
@@ -1768,7 +1769,7 @@ ht-degree: 2%
       * [在Enhanced Analytics中檢視依團隊的活動視覺效果](enhanced-analytics/activity-by-team-overview.md)
    * Workfront資料連線{#data-lake}
       * [Workfront Data Connect概觀](reports-and-dashboards/data-lake/data-lake-overview.md)
-      * [建立讀者帳戶](reports-and-dashboards/data-lake/create-a-reader-account.md)
+      * [建立Reader帳戶或連線以進行Snowflake](reports-and-dashboards/data-lake/create-a-reader-account.md)
       * [建立與Workfront資料連線的連線](reports-and-dashboards/data-lake/share-data-externally.md)
       * [Workfront Data Connect資料字典](reports-and-dashboards/data-lake/data-dictionary.md)
       * [Workfront Data Connect查詢範例](reports-and-dashboards/data-lake/basic-query-examples.md)
