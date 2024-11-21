@@ -5,13 +5,13 @@ title: 使用「我的工作」Widget管理您的工作
 description: 「我的工作」Widget會集中顯示您所有指派的任務、問題和請求。 在這裡，您可以篩選及組織您的工作、記錄時間、進行更新並將工作專案標籤為完成。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: de782d54a5ab6370b91e7447ed33e5d7511cc50d
+exl-id: e110f0f6-4ecb-419b-a368-c3f802de5920
+source-git-commit: 8880891c0f5fd8fecad6c2f58136d36a943105ae
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 5%
 
 ---
-
 
 # 使用「我的工作」Widget管理您的工作
 
@@ -157,7 +157,7 @@ ht-degree: 5%
 * 新增更新
 * 瀏覽至檔案區域以上傳檔案
 * 檢視工作專案詳細資料和更新自訂欄位
-Workfront管理員可以自訂哪些欄位會顯示在版面配置範本的摘要中。 如需詳細資訊，請參閱[使用配置範本自訂首頁和摘要](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)。
+Workfront管理員可以自訂哪些欄位會顯示在版面配置範本的摘要中。 如需詳細資訊，請參閱[使用配置範本自訂摘要面板](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)。
 * 變更工作專案狀態
 * 檢視子任務
 * 記錄時間
@@ -190,7 +190,3 @@ Workfront管理員可以自訂哪些欄位會顯示在版面配置範本的摘�
 * 團隊請求
 
 如需新增Widget至新首頁的詳細資訊，請參閱[新增、編輯或移除首頁中的Widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)。
-
-
-
-

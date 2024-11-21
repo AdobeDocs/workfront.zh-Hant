@@ -8,17 +8,23 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 43cf88c533b80324266f0660648c6a1ab13ca8fc
+source-git-commit: 8880891c0f5fd8fecad6c2f58136d36a943105ae
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '1027'
 ht-degree: 2%
 
 ---
 
 # 使用版面配置範本自訂摘要面板
 
+<!--Audited: 11/2024-->
 
-您可以使用版面配置範本來設定當使用者按一下摘要中的任務或問題時會看到的內容。 您使用下列步驟進行的每個設定都會影響「摘要」面板。 這些自訂不適用於「檔案摘要」面板。
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
+
+您可以使用版面配置範本來設定使用者按一下任務或問題時可在摘要面板中看到的內容。 您使用下列步驟進行的每個設定都會影響「摘要」面板。 這些自訂不適用於「檔案摘要」面板。
 
 您可以設定：
 
@@ -73,7 +79,9 @@ ht-degree: 2%
 
 1. 按一下&#x200B;**自訂使用者看到的內容**&#x200B;下的向下箭頭![](assets/dropdown-arrow.png)，然後按一下&#x200B;**摘要面板**。
 
-1. 在左側的清單中，按一下您要在摘要面板中自訂的物件型別（**任務**、**問題**、**專案**、**檔案**&#x200B;或&#x200B;**檔案版本**）。
+1. 在下方顯示的清單中，按一下您要自訂「摘要」面板的物件型別。
+
+   下表說明您可以為每個物件自訂的專案
 
    <table style="table-layout:auto"> 
     <col> 
@@ -81,7 +89,9 @@ ht-degree: 2%
     <tbody> 
      <tr> 
       <td role="rowheader">任務</td> 
-      <td><p> <img src="assets/summary-details.jpg"> </p> </td> 
+      <td> <p>在任務清單中，此設定會影響當使用者選擇任務，然後按一下「開啟摘要」圖示<img src="assets/summary-panel-icon.png">時顯示在頁面右側的「摘要」面板。</p>
+
+   <p> <img src="assets/summary-details.jpg"> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">問題</td> 
@@ -89,19 +99,24 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader">專案</td> 
-      <td><p>在首頁中，當使用者按一下指派給他們的專案核準時，此設定的設定會影響核准右側的區域。</p>
-      <p>重要：這是一項過時的功能。 您對此區域所做的任何變更都與Workfront已移除的功能有關。 此選項將在稍後的維護更新中從Workfront移除。</p></td> 
+      <td><ul><li><p>在首頁中，當使用者按一下指派給他們的專案核準時，此設定的設定會影響核准右側的區域。</p>
+      <p><b>重要：</b> </p><p>這是一項過時的功能。 您對此區域所做的任何變更都與Workfront已移除的功能有關。 此選項將在稍後的維護更新中從Workfront移除。</p></li>
+      <li><span class="preview"><p>此區域已從預覽環境中移除。</p></li></span></ul> 
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">文件</td> 
-      <td><p>在首頁中，當使用者按一下指派給他們的檔案核準時，您對此設定的設定會影響核准右側的區域。</p>
-      <p>重要：這是一項過時的功能。 您對此區域所做的任何變更都與Workfront已移除的功能有關。 此選項將在稍後的維護更新中從Workfront移除。</p>
+      <td>
+     <ul><li><p>在首頁中，當使用者按一下指派給他們的檔案核準時，您對此設定的設定會影響核准右側的區域。</p>
+      <p><b>重要：</b> </p><p> 這是一項過時的功能。 您對此區域所做的任何變更都與Workfront已移除的功能有關。 此選項將在稍後的維護更新中從Workfront移除。</p></li>
+      <li><span class="preview"><p>此區域已從預覽環境中移除。</p></li></span></ul>
       </td> 
      </tr> 
      <tr> 
       <td role="rowheader">文件版本</td> 
-      <td><p>在首頁中，當使用者按一下指派給他們用於特定檔案版本的核準時，您對此設定的設定會影響核准右側的區域。</p>
-      <p>重要：這是一項過時的功能。 您對此區域所做的任何變更都與Workfront已移除的功能有關。 此選項將在稍後的維護更新中從Workfront移除。</p>
+      <td><ul><li><p>在首頁中，當使用者按一下指派給他們用於特定檔案版本的核準時，您對此設定的設定會影響核准右側的區域。</p>
+      <p><p><b>重要：</b></p> 這是一項過時的功能。 您對此區域所做的任何變更都與Workfront已移除的功能有關。 此選項將在稍後的維護更新中從Workfront移除。</p></li>
+      <li><span class="preview"><p>此區域已從預覽環境中移除。</p></li></span></ul>
       </td> 
      </tr> 
     </tbody> 
@@ -113,15 +128,15 @@ ht-degree: 2%
 
 1. （視條件而定）如果您在上一步中按一下任務或問題，請選取您要自訂的任務或問題類別。
 
-   ![](assets/choose-cat-cstmz-nwe-adobe-branding.png)
+   <span class="preview">![](assets/choose-cat-cstmz-nwe-adobe-branding.png)</span>
 
 1. （視條件而定）如果出現「**設定主要動作」按鈕**」下拉式功能表（如果您在左側清單中選取「**任務**」或「**問題**」），請在使用者檢視任務或問題時，按一下「摘要」面板中您希望使用者可用的主要動作（**完成**&#x200B;或&#x200B;**狀態**）。
 
-   ![](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
+   <span class="preview">![](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)</span>
 
 1. 新增![](assets/add-item-plus-in-circle-blue.png)或隱藏所選物件型別的![](assets/close-or-hide---x.png)欄位。
 
-   ![](assets/lt-home-add-hide-fields-adobe-branding.png)
+   <span class="preview">![](assets/lt-home-add-hide-fields-adobe-branding.png)</span>
 
 1. 重複步驟3-6以自訂任何其他物件型別的「摘要」面板。
 1. 按一下左下角附近的&#x200B;**全域設定**，然後啟用或停用摘要中與Adobe Workfront物件相關的下列任何選項：

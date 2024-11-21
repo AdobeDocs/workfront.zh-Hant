@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 7d3d3e5ab8a0ee6dd3995ff417fb08d0d64d9a60
+source-git-commit: c34b1573b3a2dce344fcdd60ce5b3114cc095d11
 workflow-type: tm+mt
-source-wordcount: '14607'
+source-wordcount: '14611'
 ht-degree: 2%
 
 ---
@@ -612,7 +612,7 @@ ht-degree: 2%
          * [使用版面配置範本自訂物件標頭](administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)
          * [自訂左側面板](administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
          * [自訂詳細資料檢視](administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
-         * [自訂首頁和摘要](administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+         * [使用版面配置範本自訂摘要面板](administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
          * [自訂新首頁](administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
          * [自訂釘選頁面](administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
          * [自訂篩選器、檢視、群組](administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
