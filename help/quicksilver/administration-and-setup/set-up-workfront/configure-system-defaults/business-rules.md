@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 6bebe5fa42e50f7aa68b4a87069d47b6ef3323b9
 workflow-type: tm+mt
-source-wordcount: '1152'
+source-wordcount: '1223'
 ht-degree: 0%
 
 ---
 
 # 建立和編輯業務規則
+
+{{preview-fast-release-general}}
 
 商業規則可讓您套用驗證至Workfront物件，並防止使用者在滿足某些條件時建立、編輯或刪除物件。 商業規則可防止可能影響資料完整性的動作，有助於改善資料品質和營運效率。
 
@@ -131,6 +133,10 @@ IF(
    * 「動作」是您為規則選取的觸發程式：建立、編輯或刪除物件。
    * 由於物件和動作已定義，因此您不會將它們納入公式中。
    * 當使用者觸發商業規則時，就會向使用者顯示自訂錯誤訊息。 它應該提供明確的指示，說明哪裡出錯了，以及如何更正問題。
+
+     <span class="preview">您可以在錯誤訊息中加入靜態URL，以連結至檔案或其他實用頁面，引導使用者如何在規則的限制內修改其動作。</span>
+
+     <span class="preview">在此範例中，「瞭解更多」將連結至URL。 `"You are not allowed to add a new expense in June.[Learn more](http://url)"` URL必須位於括弧中，但不需要括弧中的連結文字。 您可以顯示完整的URL，它將是一個可點按的連結。</span>
 
    ![新增商業規則對話方塊](assets/add-business-rule-dialog-no-ai-button.png)
 
