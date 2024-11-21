@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
+source-git-commit: 170edee352f1219986057dbb7d77228f84d855b1
 workflow-type: tm+mt
-source-wordcount: '2108'
+source-wordcount: '2106'
 ht-degree: 1%
 
 ---
@@ -31,8 +31,8 @@ ht-degree: 1%
 >
 >您必須具備下列專案才能存取Workfront Planning：
 >
->* 新的Workfront計畫和授權。 舊版Workfront計畫或授權無法使用Workfront計畫。
->* Workfront Planning的額外授權。
+>* 新的Workfront套件和授權。 Workfront計畫不適用於舊版Workfront套件或授權。
+>* Workfront計畫套件。
 >* 貴組織的Workfront執行個體必須上線至Adobe統一體驗。
 >
 > 如需存取Workfront Planning的完整需求清單，請參閱[AdobePlanning存取總覽](/help/quicksilver/planning/access/access-overview.md)。

@@ -6,15 +6,21 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
+source-git-commit: 170edee352f1219986057dbb7d77228f84d855b1
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '612'
 ht-degree: 0%
 
 ---
 
 
 # Adobe Workfront Planning AI Assistant概觀
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> 
+-->
 
 {{planning-important-intro}}
 
@@ -59,9 +65,21 @@ ht-degree: 0%
 * 刪除記錄
 * 還原您剛剛刪除的記錄
 
+
+<!-- ## Locate the AI Assistant in Workfront Planning
+
+You can locate the AI Assistant in the following areas of Workfront Planning:
+
+* The main navigation bar, in the upper-right corner of the screen.
+* Inside the details area of a record, after you opened the record in the preview or after you opened the record's page. 
+
+-->
+
 ## 存取「規劃」區域的AI助理
 
-1. 登入Workfront，然後前往&#x200B;**規劃**&#x200B;區域。
+1. 登入Workfront，然後按一下熒幕右上角的&#x200B;**主功能表**&#x200B;圖示![](assets/dots-main-menu.png)，或左上角的&#x200B;**主功能表**&#x200B;圖示![](assets/lines-main-menu.png) （如果有的話）。
+
+。按一下&#x200B;**計畫**。 「規劃」區域隨即開啟。
 
 1. 按一下&#x200B;**工作區卡片**。
 
@@ -69,7 +87,7 @@ ht-degree: 0%
 
 1. （選擇性）按一下&#x200B;**記錄**&#x200B;以開啟記錄的&#x200B;**詳細資料**&#x200B;頁面。
 
-1. 按一下全域導覽列中熒幕右上角的&#x200B;**AI助理圖示**。
+1. 按一下全域導覽列<!--or in the upper-right corner of the record's preview or page.-->畫面右上角的&#x200B;**AI助理圖示**
 
    ![](assets/ai-assistant-icon-highlighted.png)
 
@@ -87,3 +105,6 @@ ht-degree: 0%
    AI助理處理命令時會顯示視覺指示器，設定回應時間的預期。
 
    收到成功回應後，請遵循提供的連結或注意左側的變更。
+
+
+

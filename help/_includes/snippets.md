@@ -1,5 +1,5 @@
 ---
-source-git-commit: 400ca2ac10a94ccfa79bef8daf06b924dadac230
+source-git-commit: 170edee352f1219986057dbb7d77228f84d855b1
 workflow-type: tm+mt
 source-wordcount: '2648'
 ht-degree: 1%
@@ -276,7 +276,7 @@ ht-degree: 1%
 
    Workfront Planning登陸頁面隨即開啟。
 
-1. （選擇性和條件性）如果您是Workfront管理員，請按一下以下標籤：
+1. （選擇性和條件性）如果您是Workfront管理員，請按一下以下其中一個標籤：
 
    * **我的工作區**：顯示您建立的工作區。
    * **其他工作區**：顯示Workfront Planning中的所有工作區，包括與您共用的工作區。
@@ -291,8 +291,8 @@ ht-degree: 1%
 >
 >您必須具備下列專案才能存取Workfront Planning：
 >
->* 新的Workfront計畫和授權。 舊版Workfront計畫或授權無法使用Workfront計畫。
->* Workfront Planning的額外授權。
+>* 新的Workfront套件和授權。 Workfront計畫不適用於舊版Workfront套件或授權。
+>* Workfront計畫套件。
 >* 貴組織的Workfront執行個體必須上線至Adobe統一體驗。
 >
 > 如需存取Workfront Planning的完整需求清單，請參閱[存取總覽](/help/quicksilver/planning/access/access-overview.md)。

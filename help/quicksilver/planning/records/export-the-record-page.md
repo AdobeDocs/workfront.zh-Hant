@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
-source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 1%
@@ -54,7 +54,7 @@ ht-degree: 1%
 <p>舊版Workfront計畫不提供Workfront計畫</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront規劃計畫*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront規劃套件*</p></td> 
    <td> 
 <p>任何 </p> 
 <p>如需每個Workfront計畫包含內容的詳細資訊，請聯絡您的Workfront客戶經理。 </p> 

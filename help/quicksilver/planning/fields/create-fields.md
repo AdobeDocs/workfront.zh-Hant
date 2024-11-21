@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 66de6c952272f52876f8e912c96d1526575b6f0b
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
-source-wordcount: '4106'
+source-wordcount: '4129'
 ht-degree: 1%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 1%
 <p>舊版Workfront計畫不提供Workfront計畫</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront規劃計畫*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront規劃套件*</p></td> 
    <td> 
 <p>任何 </p> 
 <p>如需每個Workfront計畫包含內容的詳細資訊，請聯絡您的Workfront客戶經理。 </p> 
@@ -206,6 +206,9 @@ OLD:
    將游標暫留在任何欄的標頭上，按一下欄位名稱后面的向下箭頭，然後按一下&#x200B;**插入左側**&#x200B;或&#x200B;**插入右側**&#x200B;以新增欄位。
 1. 在&#x200B;**新欄位**&#x200B;索引標籤中，搜尋&#x200B;**欄位型別**&#x200B;方塊中的欄位型別，或從下列欄位型別中選取：
 
+   在&#x200B;**新欄位**&#x200B;索引標籤中，搜尋&#x200B;**欄位型別**&#x200B;方塊<!--using any related keyword-->中的欄位型別，或從下列欄位型別中選取。
+
+
    * [單行文字](#single-line-text)
    * [段落](#paragraph)
    * [多選](#multi-select)
@@ -225,6 +228,9 @@ OLD:
    >[!IMPORTANT]
    >
    >    儲存欄位後，您無法變更欄位的欄位型別。
+
+   <!--Add this to the IMPORTANT above and make it a NOTE - should do directly to Prod:
+    * You can use any keyword that might be related to any of the field type names. For example, a search for "Budget" will display the Number or Currency field type.-->
 
 1. 繼續新增每個欄位，如下節所述。
 

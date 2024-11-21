@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
-source-wordcount: '1383'
+source-wordcount: '1402'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,13 @@ ht-degree: 1%
 # 任務期間與期間型別概觀
 
 <!-- Audited: 12/2023 -->
+
+<!--
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   
+-->
 
 任務期間是任務的計畫完成日期與計劃開始日期之間的差額。 「持續時間」表示任務可用的完成時間範圍。
 
@@ -31,7 +38,30 @@ ht-degree: 1%
 
 在Adobe Workfront中計算持續時間時，有兩種情況存在：
 
-* 如果任務指派給使用者Workfront，會依此精確順序使用下列其中一個排程來計算工期：
+<!--
+<div class="preview">
+* If the task is assigned to one user, the following scenarios exist based on what environment you use: 
+
+  * In the Production environment, Workfront uses one of the following schedules, in this exact order to calculate Duration:
+
+   1. Workfront takes into account the user's schedule. 
+   1. If the user is not associated with a schedule, Workfront takes into account the project's schedule.
+   1. If the project is not associated with a schedule, Workfront takes into account the Default Schedule of your system. For information about schedules, see [Create a schedule](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+
+   * In the Preview environment:
+
+      1. Workfront takes into account either the schedule of the project or that of the primary assignee.
+
+          Your Workfront or group administrator determines which schedule Workfront uses when a task is assigned to one  user. For information, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+
+      1. If the user or the project don't have a schedule, Workfront uses the system Default schedule. 
+
+      The steps are similar to the first scenario after understanding which schedule Workfront uses to calculate Duration.
+
+</div>
+-->
+
+* 如果任務指派給使用者，Workfront會依此確切順序使用下列其中一個排程，以計算「工期」：
 
    1. Workfront會考慮使用者的排程。
    1. 如果使用者未關聯排程，Workfront會考慮專案的排程。
@@ -41,7 +71,9 @@ ht-degree: 1%
 
    1. Workfront會考慮專案或主要受指派人的排程。
 
-  當任務指派給多個使用者時，您的Workfront管理員會決定Workfront使用的排程。 如需詳細資訊，請參閱[設定全系統的專案偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
+      當任務指派給多個使用者時，您的Workfront或群組管理員會決定Workfront使用的排程。 如需詳細資訊，請參閱[設定全系統的專案偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
+
+   1. 如果主要受指派人或專案沒有排程，Workfront會使用系統預設排程。
 
   這些步驟類似於瞭解Workfront使用哪個排程來計算持續時間後的第一個案例。
 

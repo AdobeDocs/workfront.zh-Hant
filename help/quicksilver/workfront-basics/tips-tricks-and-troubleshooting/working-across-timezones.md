@@ -5,9 +5,9 @@ title: 跨時區工作
 description: 瞭解 [!DNL Adobe Workfront] 如何使用時區來計算物件的時間欄位，以及在其他區域（例如電子郵件）中的時間會很有幫助。
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1149'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,13 @@ ht-degree: 0%
 # 跨時區工作
 
 <!-- Audited: 2/2024 -->
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   
+
+-->
 
 瞭解[!DNL Adobe Workfront]如何使用時區來計算下列專案會很有幫助：
 
@@ -91,20 +98,37 @@ ht-degree: 0%
 
   此排程可能與專案排程不同。 例如，當有人在專案中建立任務，但尚未指派任何人給它時，該任務就會使用專案排程。 將使用者指派給任務時，任務會使用該使用者的排程。
 
-  如果將多個使用者指派到一個任務，則系統會使用下列其中一項，如系統範圍專案偏好設定中所設定：
+  如果將多個使用者指派到一個任務，則系統會使用下列其中一項，如系統或群組範圍專案偏好設定中所設定：
 
    * 任務主要擁有者的排程時區
    * 專案排程的時區。
 
-  這可能會造成任務日期變更。
+<!--
+   <div class="preview">
 
-  **範例：** EST使用者被指派給排程在早上9:00 PST （亦即EST中午）開始的一日工作。 由於EST使用者一天只剩下2個工作小時，因此任務完成日期會延長約6小時，直到下一個工作日。
+   If one user is assigned to a task, the system uses one of the following, as configured in the system- or group-wide project preferences: 
 
-  如需[!UICONTROL 安裝程式]之[!UICONTROL 專案偏好設定]區域的相關資訊，請參閱[設定全系統的專案偏好設定](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
+   * The time zone for the schedule of the task's assignee
+   * The time zone for the schedule of the project.
 
-  如需將排程指派給專案或使用者的指示，請參閱[建立排程](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)。
+   </div>
+-->
 
-  如需排程中設定的時區如何影響[!UICONTROL 工作負載平衡器]中[!UICONTROL 規劃時數]的分佈的相關資訊，請參閱[在[!UICONTROL 工作負載平衡器]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)中管理使用者配置。
+這可能會造成任務日期變更。
+
+>[!BEGINSHADEBOX]
+
+**範例：**
+EST使用者會被指派給排程在早上9:00 PST （亦即EST中午）開始的一日工作。 由於EST使用者一天只剩下2個工作小時，因此任務完成日期會延長約6小時，直到下一個工作日。
+
+
+>[!ENDSHADEBOX]
+
+如需[!UICONTROL 安裝程式]之[!UICONTROL 專案偏好設定]區域的相關資訊，請參閱[設定全系統的專案偏好設定](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
+
+如需將排程指派給專案或使用者的指示，請參閱[建立排程](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)。
+
+如需排程中設定的時區如何影響[!UICONTROL 工作負載平衡器]中[!UICONTROL 規劃時數]的分佈的相關資訊，請參閱[在[!UICONTROL 工作負載平衡器]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)中管理使用者配置。
 
 
 ### 在自訂表單中使用計算的時間欄位 {#use-calculated-time-fields-in-a-custom-form}

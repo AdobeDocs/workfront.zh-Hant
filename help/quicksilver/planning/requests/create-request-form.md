@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
 source-wordcount: '1367'
 ht-degree: 2%
@@ -64,7 +64,7 @@ ht-degree: 2%
    </td>
 
 <tr>
-   <td role="rowheader"><p>Adobe Workfront規劃計畫*</p></td>
+   <td role="rowheader"><p>Adobe Workfront規劃套件*</p></td>
    <td>
 <p>任何 </p>  
 <p>如需每個Workfront計畫包含內容的詳細資訊，請聯絡您的Workfront客戶經理。 </td>
@@ -205,7 +205,8 @@ ht-degree: 2%
    * 對工作區具有貢獻或更高權限的任何人
    * 擁有此連結的任何人
 
-   >[!IMPORTANT]
+   >[!WARNING]
+   >
    >
    >當您選取&#x200B;**擁有連結的任何人**&#x200B;時，任何人都可以存取表單並提交新記錄，甚至組織外沒有Workfront帳戶的人也可以。
 
