@@ -10,9 +10,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 02350860-f997-4a76-8aec-c6c813d58e2d
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: ef7f5d00bd74feee5e06b935c4bb8a18ee8b08a8
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '864'
 ht-degree: 0%
 
 ---
@@ -21,12 +21,9 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  
-
--->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 您可以使用排程來定義您的工作週，並將排程與使用者或專案相關聯。 這可讓[!DNL Adobe Workfront]計算時間表和使用者可用性。 如需指示，請參閱[建立排程](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)。
 
@@ -68,23 +65,17 @@ ht-degree: 0%
 
 存在多個排程時，系統使用排程的順序為：
 
-<!--Replace the first bullet below with this when the setting releases: 
-* When one user is assigned to a task, the following scenarios exist, depending on what environment you use: 
 
-   * In the Production environment, [!DNL Workfront] uses the user's schedule for calculating the timeline of the task. This also includes the personal time of the user. The schedule of the project is ignored.
+* 將一位使用者指派給任務時，根據您使用的環境，將出現以下情境：
 
-      For more information about personal time, see [Configure personal time off](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+   * 在生產環境中，[!DNL Workfront]會使用使用者的排程來計算任務的時間表。 這也包括使用者的個人時間。 專案的排程會被忽略。
 
-   * <span class="preview">In the Preview environment, [!DNL Workfront] uses either one of the following schedules, as defined in the [!UICONTROL Project Preferences] area of [!UICONTROL Setup]:</span>
+     如需個人時間的詳細資訊，請參閱[設定個人休假](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)。
 
-      * <span class="preview">The schedule of the user who is assigned to the task </span>
-      * <span class="preview">The schedule associated with the project.</span>
+   * <span class="preview">在預覽環境中，[!DNL Workfront]會使用下列其中一個排程，如[!UICONTROL 設定]的[!UICONTROL 專案偏好設定]區域中所定義：</span>
 
--->
-
-* 將使用者指派給任務時，[!DNL Workfront]會使用使用者的排程來計算任務的時間表。 這也包括使用者的個人時間。 專案的排程會被忽略。
-
-  如需個人時間的詳細資訊，請參閱[設定個人休假](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)。
+      * <span class="preview">指派給工作</span>的使用者排程
+      * <span class="preview">與專案關聯的排程。</span>
 
 * 當多個使用者被指派到一個任務，並且該使用者在該任務的時間範圍內具有不同的排程時，[!DNL Workfront]會使用以下其中一個排程，如[!UICONTROL 設定]的[!UICONTROL 專案偏好設定]區域中所定義：
 
