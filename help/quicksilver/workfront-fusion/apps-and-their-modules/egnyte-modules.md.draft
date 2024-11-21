@@ -15,6 +15,30 @@ hidefromtoc: true
 
 In an Adobe Workfront Fusion scenario, you can automate workflows that use Egnyte, as well as connect it to multiple third-party applications and services.This allows you to monitor, list, retrieve, upload, download, move, copy, lock, unlock, and delete files and folders, as well as create and manage links, or watch events in your Egnyte account.
 
+## CloudConvert API information
+
+The CloudConvert connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Base URL</td> 
+   <td> https://(connection.domain_url)/pubapi/v1
+</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API version</td> 
+   <td> v1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API tag</td> 
+   <td>v1.65.11</td> 
+  </tr>
+ </tbody> 
+ </table>
+
 ## File system modules
 
 * [Watch Files](#watch-files) 
