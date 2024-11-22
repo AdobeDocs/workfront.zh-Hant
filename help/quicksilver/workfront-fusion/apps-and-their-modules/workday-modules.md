@@ -82,7 +82,7 @@ Workday聯結器會使用以下專案：
  <tbody> 
   <tr> 
    <td role="rowheader">基礎URL</td> 
-   <td>https://{{connection.servicesUrl}}/api</td> 
+   <td>https://&lbrace;&lbrace;connection.servicesUrl&rbrace;&rbrace;/api</td> 
   </tr>
   <tr> 
    <td role="rowheader">API標籤</td> 

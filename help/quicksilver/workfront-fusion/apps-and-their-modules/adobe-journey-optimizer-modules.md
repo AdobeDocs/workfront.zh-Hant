@@ -89,7 +89,7 @@ Adobe Journey Optimizer聯結器會使用以下專案：
  <tbody> 
   <tr> 
    <td role="rowheader">基礎URL</td> 
-   <td>{{connection.url}}</td> 
+   <td>&lbrace;&lbrace;connection.url&rbrace;&rbrace;</td> 
   </tr>
   <tr> 
    <td role="rowheader">API標籤</td> 
