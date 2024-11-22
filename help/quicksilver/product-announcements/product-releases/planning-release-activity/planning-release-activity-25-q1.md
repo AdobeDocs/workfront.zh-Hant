@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
+source-git-commit: 6f91c7c75c4565d5e91264481924daf50d3807ec
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '1010'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,21 @@ ht-degree: 0%
 <!--remove the general activity mention after First Quarter 2025 is released-->
 
 如需2024年8月28日一般可用性發行後Adobe Workfront Planning所發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+
+## 還原已刪除的記錄
+
+>[!NOTE]
+>
+>預覽版本： 2024年11月22日；快速發行生產：24.12版（2024年12月）；每季發行生產：25.1版（2025年1月）
+
+刪除記錄後，這些記錄現在會暫時移至「最近刪除」的紙匣30天。 您可以從記錄型別頁面存取「最近刪除」的資料匣，它只包含特定型別的記錄。
+
+Workspace管理員可在刪除記錄後，從垃圾桶還原記錄長達30天。 連線的記錄及其欄位資訊也會還原。
+
+在此增強功能之前，無法還原已刪除的記錄。
+
+如需詳細資訊，請參閱[還原已刪除的記錄](/help/quicksilver/planning/records/records-information.md)。
 
 ## 可在記錄詳細資訊區域取得的AdobeAI助理
 

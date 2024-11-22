@@ -1,14 +1,14 @@
 ---
 title: 刪除記錄
-description: 您可以刪除您或其他使用者建立的記錄。 您無法復原已刪除的記錄。
+description: 您可以刪除您或其他使用者建立的記錄。
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 9b528e751d23b04ae1e495f00e06ffef8aa60156
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '764'
 ht-degree: 2%
 
 ---
@@ -16,9 +16,15 @@ ht-degree: 2%
 
 # 刪除記錄
 
+<!--take Preview and Production references out at release-->
+
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 {{planning-important-intro}}
 
-您可以刪除Adobe Workfront Planning中不再相關的記錄。
+您可以刪除Adobe Workfront Planning中不再相關的記錄。 <span class="preview">刪除的記錄刪除後，您可以在30天內復原這些記錄。 如需有關復原已刪除記錄的資訊，請參閱[復原已刪除的記錄](/help/quicksilver/planning/records/restore-deleted-records.md)。</span>
 
 ## 存取需求
 
@@ -156,10 +162,9 @@ OLD
 ## 刪除記錄的相關考量事項
 
 * 您可以刪除您或其他使用者建立的記錄。
-* 您無法復原已刪除的記錄。<!--the above statements (and in the metadata description) will change with access levels and recycle bin??-->
+* 您無法復原生產環境中已刪除的記錄。 <span class="preview">您可以在預覽環境中復原已刪除的記錄。</span>
 * 如果刪除的記錄連結到其他記錄，則連結的記錄不會被刪除，但是已刪除的記錄中的資訊也會被刪除。
-* 您無法大量刪除記錄。<!--this will probably change-->
-* 您無法從時間表檢視中刪除記錄。
+* 您無法從時間軸或行事曆檢視中刪除記錄。
 
 ## 刪除記錄
 
@@ -192,7 +197,10 @@ OLD
 1. 按一下記錄名稱右側的&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，然後按一下&#x200B;**刪除**，再按一次&#x200B;**刪除**&#x200B;以進行確認。
 
    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
-記錄已刪除，無法復原。
+記錄已刪除。
+1. （選擇性和條件性）如果您在預覽環境中刪除記錄，請移至記錄頁面的表格檢視，然後按一下檢視右上角的&#x200B;**復原**&#x200B;圖示![](assets/undo-icon.png)，然後按一下&#x200B;**最近刪除**&#x200B;以復原刪除的記錄。
+
+如需有關復原已刪除記錄的資訊，請參閱[復原已刪除的記錄](/help/quicksilver/planning/records/restore-deleted-records.md)。
 
 ### 從記錄型別表格檢視中刪除記錄
 
@@ -211,15 +219,22 @@ OLD
 1. 執行下列其中一項：
 
    * 以滑鼠右鍵按一下記錄列，然後按一下&#x200B;**刪除**。
-   * 按一下記錄名稱右側的&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，然後按一下&#x200B;**刪除**
+   * 按一下記錄名稱右邊的&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，然後按一下&#x200B;**刪除**。
 
      ![](assets/contextual-menu-for-record-row.png)
 
    * 按一下&#x200B;**開啟詳細資料**&#x200B;圖示![](assets/open-details-icon-in-table-name-field.png)以開啟包含記錄詳細資訊的方塊，然後按一下記錄名稱右側的&#x200B;**更多** ![](assets/more-menu.png)，然後&#x200B;**刪除**。
 
-   記錄已刪除，無法復原。
+   記錄已刪除。
 
-1. （可選）使用下列鍵盤快速鍵來復原或重做刪除記錄：
+1. （選擇性）執行下列任一項作業，以復原或重做刪除記錄：
 
-   * CTRL + Z (Mac為⌘ + Z)可復原變更
-   * CTRL + Shift + Z (Mac為⌘ + Shift + Z)以重做變更
+   * <span class="preview">按一下&#x200B;**復原**&#x200B;圖示![](assets/undo-icon.png)，然後按一下&#x200B;**最近刪除的**&#x200B;以復原刪除的記錄。 如需有關復原已刪除記錄的資訊，請參閱[復原已刪除的記錄](/help/quicksilver/planning/records/restore-deleted-records.md)。</span>
+   * 使用下列鍵盤快速鍵來復原或重做刪除記錄：
+
+      * CTRL + Z (Mac為⌘ + Z)可復原刪除記錄
+      * CTRL + Shift + Z (Mac為⌘ + Shift + Z)以重做刪除記錄
+
+
+
+

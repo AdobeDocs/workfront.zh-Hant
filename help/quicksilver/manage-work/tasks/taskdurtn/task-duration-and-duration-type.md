@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: 06b5d8d7e3f2f3d0ff7ef614861a8898dd9df4eb
+source-git-commit: 6327e5625481ce7ff8d744bc6eb50d417cbb4413
 workflow-type: tm+mt
-source-wordcount: '1557'
+source-wordcount: '1647'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,13 @@ ht-degree: 1%
 
 如果任務的「實際開始日期」與「實際完成日期」在專案、主要受指派人或預設排程的排程之外，則任務「工期」為零。
 
-**範例：**&#x200B;如果您的排程從上午9:00開始到下午12:00結束，而工作排程從下午2:00開始到下午4:00結束，則工作的期間為零。
+>[!BEGINSHADEBOX]
+
+**範例**
+如果您的排程從上午9:00開始，到中午12:00結束，而任務的排程從下午2:00開始，到下午4:00結束，則任務的「工期」為零。
+
+
+>[!ENDSHADEBOX]
 
 在Adobe Workfront中計算持續時間時，有兩種情況存在：
 
@@ -70,6 +76,14 @@ ht-degree: 1%
 >[!NOTE]
 >
 >若將專案的主要受指派人休假列入考量，任務的計畫日期可能會調整，但任務的期間保持不變。 如需有關在規劃專案時考慮主要受指派人休假的資訊，請參閱[設定全系統專案偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
+
+## 父系任務的原始期間
+
+任務的原始期間是任務成為父任務之前的原始期間（以分鐘為單位）。
+
+當任務成為父系時，最早子系的計劃開始日期與最後一個子系的計畫完成日期之間的期間會累計至父系任務，並成為父系任務的期間。 這會取代原始任務的工期。
+
+如需詳細資訊，請參閱[任務原始期間與原始計畫時數概觀](/help/quicksilver/manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md)。
 
 ## 任務期間的時間單位
 

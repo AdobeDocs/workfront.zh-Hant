@@ -6,15 +6,19 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
 recommendations: noDisplay, noCatalog
-source-git-commit: 78a54ec94dd5a5746144e99e14c622e8b3a7ea71
+source-git-commit: 6327e5625481ce7ff8d744bc6eb50d417cbb4413
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '182'
 ht-degree: 1%
 
 ---
 
 
 # 記錄：文章索引
+
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -25,6 +29,7 @@ ht-degree: 1%
 * [建立記錄](/help/quicksilver/planning/records/create-records.md)
 * [編輯記錄](/help/quicksilver/planning/records/edit-records.md)
 * [刪除記錄](/help/quicksilver/planning/records/delete-records.md)
+* <span class="preview">[還原已刪除的記錄](/help/quicksilver/planning/records/restore-deleted-records.md)</span>
 * [共用記錄](/help/quicksilver/planning/records/share-records.md)
 * [連線記錄概觀](/help/quicksilver/planning/records/connected-records-overview.md)
 * [連接記錄](/help/quicksilver/planning/records/connect-records.md)
