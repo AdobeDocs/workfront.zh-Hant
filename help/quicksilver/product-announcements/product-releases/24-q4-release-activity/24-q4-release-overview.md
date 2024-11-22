@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 8bd7f0b7ed864bf8aa07dbd9ce1104b8da1edb4a
+source-git-commit: 8ad2ed8389fdc00649f0853e07d2e83d21ccb385
 workflow-type: tm+mt
-source-wordcount: '2200'
+source-wordcount: '2178'
 ht-degree: 0%
 
 ---
@@ -561,7 +561,7 @@ ht-degree: 0%
 
 #### 使用24.10取代舊版首頁體驗
 
-我們將正式淘汰24.10版本的舊版家用體驗。 建議使用者開始使用新的首頁，在棄用之前，此首頁將繼續以其他功能來增強。 如需轉換的詳細資訊，包括使用者與管理員可以準備哪些工作的建議，請參閱[舊版首頁淘汰指南](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md)。
+我們將正式淘汰24.10版本的舊版家用體驗。 建議使用者開始使用新的首頁，在棄用之前，此首頁將繼續以其他功能來增強。
 
 ## 公告
 

@@ -5,9 +5,9 @@ description: 「應用程式內通知可讓您瞭解兩種資訊：宣告通知�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c5da114-33cc-422b-84f4-67bc7fcd67c6
-source-git-commit: f3ba39e02d690dd3a0d50ecdb22af0c12a3d4ffb
+source-git-commit: 3210474976f435c75c8cfa38e263f9211b9d016d
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '947'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 0%
 
    ![最近的未讀取通知](assets/qs-notifications-350x330.png)
 
-   可捲動清單中會顯示最多80個通知。 若要檢視更多資訊，您可以按一下清單底部的&#x200B;**[!UICONTROL 所有通知]**，以檢視最多100個通知。 通知會在30天後自動刪除。
+   數字圖示會顯示一個可捲動清單，其中包含最多80個通知。 若要檢視更多資訊，您可以按一下清單底部的&#x200B;**[!UICONTROL 所有通知]**，以檢視最多500個通知。 通知會在30天後自動刪除。
 
    每個通知底部都會顯示[!UICONTROL 通知型別]和對應的識別圖示。 這些功能可協助您識別提及的[!DNL Workfront]專案所發生的情況，並在您有行動專案時提醒您：
 

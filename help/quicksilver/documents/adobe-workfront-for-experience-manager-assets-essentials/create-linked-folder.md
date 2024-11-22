@@ -7,9 +7,9 @@ description: 在Workfront中，您可以建立與Experience Manager Assets或Ass
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
+source-git-commit: 96830bad7480a99ca8f318dbd791ebcaceddd01e
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 # 建立與Experience Manager Assets或Assets Essentials連結的資料夾
 
 在Workfront中，您可以建立與Experience Manager Assets或Assets Essentials連結的資料夾。 由於資料夾已連結，因此新增至資料夾的任何資產都會自動顯示於Workfront和Experience Manger中。 如果資產位於連結的資料夾中，您不必手動傳送資產。
+
+如果從Experience Manager Assets或Assets Essentials內的連結資料夾中刪除或移動資產，Workfront會在「專案>檔案」區域中保留資產副本。
 
 
 ## 存取需求
@@ -35,7 +37,7 @@ ht-degree: 0%
   <tr>
    <td><strong>Adobe Workfront授權*</strong>
    </td>
-   <td>計劃
+   <td>規劃
    </td>
   </tr>
   <tr>

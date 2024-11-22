@@ -8,9 +8,9 @@ author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 985e4d3d-f07e-46df-b0e3-dd4b0ff59660
-source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
+source-git-commit: 060557085c6941fab4ca8df22641679199f5c55b
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---
@@ -37,3 +37,4 @@ ht-degree: 0%
 * [檢查檔案儲存限制](../../documents/managing-documents/check-document-storage.md)
 * [刪除檔案](../../documents/managing-documents/delete-documents.md)
 * [從剪貼簿貼上影像](../../documents/managing-documents/paste-image-clipboard.md)
+* [大量編輯檔案](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md)

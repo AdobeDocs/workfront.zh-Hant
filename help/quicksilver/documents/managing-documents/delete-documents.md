@@ -6,14 +6,14 @@ description: 您可以刪除上傳的檔案。 如果您被授予管理特定檔
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1a4c4849-bca1-4ae3-9111-d0ed4dacca14
-source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
+source-git-commit: 060557085c6941fab4ca8df22641679199f5c55b
 workflow-type: tm+mt
 source-wordcount: '234'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
-# 刪除文件
+# 刪除檔案
 
 您可以刪除上傳的檔案。 如果您被授予管理特定檔案的存取權，您也可以刪除這些檔案。
 
