@@ -77,7 +77,7 @@ Qualtrics聯結器使用下列專案：
  <tbody> 
   <tr> 
    <td role="rowheader">基礎URL</td> 
-   <td> https://{{connection.dataCenterCode}}.qualtrics.com/API/v3 </td> 
+   <td> https://&lbrace;&lbrace;connection.dataCenterCode&rbrace;&rbrace;.qualtrics.com/API/v3 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">API版本</td> 
