@@ -9,7 +9,7 @@ description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以自動化使
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 1e131c27-571d-4099-9243-69572bdb3f5a
-source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
+source-git-commit: a4c9f4cd4f28c28222826187a68ca4122eec1a8f
 workflow-type: tm+mt
 source-wordcount: '1315'
 ht-degree: 0%
@@ -293,7 +293,7 @@ Adobe Campaign聯結器會使用以下專案：
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL預設集]</td> 
-   <td>如果要使用預設樣式，請按一下「新增專案」，然後輸入或對應您要使用的樣式。<p>如需預設樣式清單，請參閱Adobe開發人員檔案中的<a href="https://developer.adobe.com/firefly-services/docs/firefly-api/guides/concepts/styles/" >影像模型樣式</a>。</td> 
+   <td>如果要使用預設樣式，請按一下「新增專案」，然後輸入或對應您要使用的樣式。<p>如需預設樣式清單，請參閱Adobe開發人員檔案中的<a href="https://developer.adobe.com/firefly-services/docs/firefly-api/guides/concepts/style-presets/" >影像模型樣式</a>。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL負面提示]</td> 
