@@ -8,9 +8,9 @@ description: 除了Adobe Workfront授權，Adobe Workfront Fusion還需要Adobe 
 author: Becky
 feature: Workfront Fusion
 exl-id: 13d6230d-51f6-4f68-8697-30f8ce6c8599
-source-git-commit: 27158301e491d4ff45ce7987a81f841fb4525b2a
+source-git-commit: f8ea4a1c40cd3fc4664a5a3b1c3a900e874d78b1
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,48 @@ ht-degree: 0%
 [!DNL Adobe Workfront Fusion]的角色是自動化您的程式，以便您可以專注於新任務，而不是一遍又一遍地重複相同的任務。 其運作方式是連結應用程式和服務內外的動作，以建立自動傳輸和轉換資料的情境。 您建立的案例會監視應用程式或服務中的資料，並處理該資料以提供您想要的結果。
 
 案例由一系列模組組成，這些模組會指出應如何在應用程式內轉換資料，或在應用程式和Web服務之間傳輸資料。
+
+## 情境元素概觀
+
+案例是由不同的元素所建置。 瞭解這些元素的術語可讓檔案使用起來更輕鬆。
+
+### 情境
+
+**情境**&#x200B;是使用者建立的自動化步驟系列，用來移動和操作資料。 「案例」一詞指的是整個連線步驟群組。
+
+![案例](assets/entire-scenario-scenario.png)
+
+### 觸發
+
+案例以&#x200B;**觸發器**&#x200B;開頭。 觸發器會監視新的和更新的資料，並在套用模組中設定的某些條件時啟動情境。 觸發器可設定為依排程（輪詢）開始案例，或每當資料變更發生時（即時）。
+
+![觸發器](assets/scenario-trigger.png)
+
+### 模組
+
+觸發程式後面接著許多&#x200B;**模組**。 模組代表執行特定動作之情境中的單一步驟。 模組會設定並鏈結在一起，以建立情境。
+
+![模組](assets/scenario-module.png)
+
+### 路由
+
+情境可分為&#x200B;**路由**。 路由是案例的一部分，不一定用於指定的資料束。 路由是使用路由器模組和篩選器來設定。
+
+![路由](assets/scenario-route.png)
+
+### 案例區段
+
+案例區段是案例的一個區段，該案例包含一系列全部連線到相同應用程式的連續模組。 案例區段通常代表應用程式中的簡短工作流程。
+
+![案例區段](assets/scenario-segment.png)
+
+### 聯結器
+
+聯結器是指定應用程式的一組模組。 Workfront Fusion提供許多常用工作應用程式的聯結器，例如Workfront、Salesforce和Jira，以及可用於任何Web服務的通用聯結器。
+
+![聯結器](assets/scenario-connectors.png)
+
+
 
 ## 範例：在[!DNL Adobe Workfront]內自動化處理序
 
