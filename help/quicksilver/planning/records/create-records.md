@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: d962d60294295dd1f3771d1f0b737c9d1f03dfef
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1617'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 0%
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # 建立記錄
+
+<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -28,6 +32,8 @@ ht-degree: 0%
 * [從表格檢視複製記錄](#create-records-by-duplicating-them)
 * [從其他記錄連線記錄時建立記錄](#create-records-as-you-connect-them)
 * [透過提交請求表單到記錄型別來建立它們](#create-records-by-submitting-a-request-form-to-a-record-type)
+* <span class="preview">[從CSV或Excel檔案匯入記錄型別時建立記錄](#create-records-when-importing-record-types-from-a-csv-or-excel-file)</span>
+
 
 如需有關管理表格或時間表檢視中的記錄的資訊，請參閱下列文章：
 
@@ -270,3 +276,13 @@ You can import records from other applications by linking them to existing recor
 如果您的Workfront使用者與組織外部的使用者具有請求表單的連結，則他們皆可提交請求給Planning記錄型別並建立記錄。
 
 如需詳細資訊，請參閱[提交Adobe Workfront Planning要求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)。
+
+<div class="preview">
+
+## 從CSV或Excel檔案匯入記錄型別時建立記錄
+
+當您使用CSV或Excel檔案匯入記錄型別時，可以匯入記錄。
+
+如需詳細資訊，請參閱[建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md)。
+
+</div>

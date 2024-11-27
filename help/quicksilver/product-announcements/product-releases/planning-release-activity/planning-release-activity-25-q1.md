@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 6f91c7c75c4565d5e91264481924daf50d3807ec
+source-git-commit: d27c25e4eedb6b4df67d23b997fdf1222b95da57
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1747'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,115 @@ ht-degree: 0%
 
 如需2024年8月28日一般可用性發行後Adobe Workfront Planning所發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
 
+
+## 將現有Workfront欄位匯入至Workfront Planning記錄型別
+
+>[!NOTE]
+>
+>預覽版本： 2024年11月27日；快速發行生產：24.12版（2024年12月）；每季發行生產：25.1版（2025年1月）
+
+現在，當您新增欄位到記錄型別時，您可以選擇匯入現有的Workfront自訂或原生欄位，並將其與您選取的記錄型別建立關聯。
+
+在此增強功能之前，您必須手動建立所有欄位，並將其與記錄型別建立關聯。
+
+目前不支援計算欄位。
+
+如需詳細資訊，請參閱[從Adobe Workfront匯入欄位](/help/quicksilver/planning/fields/import-fields-from-workfront.md)
+
+## 透過匯入CSV或Excel檔案來建立記錄型別、記錄和欄位
+
+>[!NOTE]
+>
+>預覽版本： 2024年11月27日；快速發行生產：24.12版（2024年12月）；每季發行生產：25.1版（2025年1月）
+
+您現在可以透過匯入CSV或Excel檔案來匯入新的記錄型別。
+
+下列資訊已匯入：
+
+* 工作表或檔案的名稱會匯入為記錄型別名稱。
+
+* 每欄的第一列都會匯入為新欄位。 每個匯入的工作表中最多可以有500個欄位。
+
+* 每一列都會匯入為新記錄。 每張工作表最多可有10,000筆記錄。
+
+如需詳細資訊，請參閱[建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md)。
+
+## 避免在公式中循環參照
+
+>[!NOTE]
+>
+>預覽版本： 2024年11月27日；快速發行生產：24.12版（2024年12月）；每季發行生產：25.1版（2025年1月）
+
+在編輯或建立公式欄位時，我們引進了警告訊息，這可能建立對本身或共用欄位的循環參照。 您無法儲存參照本身或參照計算中所參照專案的公式欄位。
+
+如需詳細資訊，請參閱[建立欄位](/help/quicksilver/planning/fields/create-fields.md)。
+
+## 新增連線的檢視頁面至記錄的頁面，以在表格檢視中顯示連線的記錄
+
+>[!NOTE]
+>
+>預覽版本： 2024年11月27日；快速發行生產：24.12版（2024年12月）；每季發行生產：25.1版（2025年1月）
+
+您可以將頁面新增至記錄的詳細資訊區域，以在表格檢視中顯示連線的記錄。 您可以為每個連線的記錄新增一頁。
+
+新增的頁面為唯讀。
+
+如需詳細資訊，請參閱[管理記錄頁面配置](/help/quicksilver/planning/records/manage-the-record-page.md)。
+
+## 在請求區域的已提交區段中新增計畫標籤
+
+>[!NOTE]
+>
+>預覽版本： 2024年11月27日；快速發行生產：24.12版（2024年12月）；每季發行生產：25.1版（2025年1月）
+
+您現在可以在Workfront請求區域的已提交區段找到Workfront計畫請求。 已提交區段現在顯示兩個標籤：在Workfront標籤上的Workfront中提交的請求，以及在Planning標籤中使用Workfront Planning請求表單提交的請求。
+
+您必須使用請求表單的連結，才能將請求新增至Workfront Planning記錄型別。 您稍後可以從Workfront的「請求」區域提交Workfront計畫請求。
+
+貴組織必須先購買Workfront Planning套件，您才能在「請求」區域使用「計畫」標籤。
+
+如需詳細資訊，請參閱[提交Adobe Workfront Planning要求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)。
+
+## 請求表單現在支援其他欄位型別
+
+>[!NOTE]
+>
+>預覽版本： 2024年11月27日；快速發行生產：24.12版（2024年12月）；每季發行生產：25.1版（2025年1月）
+
+您現在可以在Workfront Planning中將下列欄位型別新增至記錄型別請求表單：
+
+* 人員
+* Workfront連線
+
+在此增強功能之前，這些型別的欄位無法新增到Workfront Planning中的請求表單。
+
+如需詳細資訊，請參閱在Adobe Workfront Planning中建立及管理請求表單(/help/quicksilver/planning/requests/create-request-form.md)。
+
+## 限制公開共用包含特定欄位型別的請求表單
+
+>[!NOTE]
+>
+>預覽版本： 2024年11月27日；快速發行生產：24.12版（2024年12月）；每季發行生產：25.1版（2025年1月）
+
+如果表單包含以下任何欄位型別，您將無法再公開共用請求表單：
+
+* 公式
+* 連線
+* 查詢欄位
+* 人員
+
+如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
+
+
+## 在行事曆檢視中按周顯示記錄
+
+>[!NOTE]
+>
+>預覽版本： 2024年11月26日；快速發行生產：24.12版（2024年12月）；每季發行生產：25.1版（2025年1月）
+
+您現在可以按周在行事曆檢視中顯示記錄。 在此增強功能之前，您只能依月份顯示行事曆檢視。
+
+如需詳細資訊，請參閱[管理行事曆檢視](/help/quicksilver/planning/views/manage-the-calendar-view.md)。
 
 ## 還原已刪除的記錄
 

@@ -6,15 +6,20 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: d962d60294295dd1f3771d1f0b737c9d1f03dfef
 workflow-type: tm+mt
-source-wordcount: '1407'
+source-wordcount: '1485'
 ht-degree: 1%
 
 ---
 
 
 # 管理記錄檢視
+
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 
 {{planning-important-intro}}
 
@@ -218,6 +223,9 @@ ht-degree: 1%
 | 搜尋特定記錄 | ✓ (A) | ✓ (A) |
 | 與其他人共用檢視 | ✓ (A) | ✓ (A) | ✓ (A) |
 | 從檢視開啟記錄頁面 | ✓ (A) | ✓ (A) |    |
+| 依年份和季度顯示記錄 |           | ✓ (A) |    |
+| 依月份顯示記錄 |           | ✓ (A) | ✓ (A) |
+| <span class="preview">按周顯示記錄</span> |           |               | ✓ (A) |
 
 
 ## 建立或編輯檢視 {#create-or-edit-views}

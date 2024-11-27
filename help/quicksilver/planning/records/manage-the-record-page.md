@@ -6,15 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1631'
 ht-degree: 0%
 
 ---
 
 
 # 管理記錄頁面配置
+
+<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -249,4 +253,52 @@ ht-degree: 0%
    對於檢視記錄的所有使用者，相同型別的所有記錄預覽和頁面中的欄位新位置都會更新。
 
    對記錄預覽或頁面儲存的版面配置所做的所有變更都會自動完成。
+
+<span class="preview">
+
+## 將「連線」檢視頁面新增至記錄的頁面
+
+您可以將「已連線」檢視頁面新增至記錄的頁面。
+
+您無法將「已連線」檢視頁面新增至記錄的預覽區域。
+
+已連線的檢視頁面在表格檢視中顯示一個已連線的記錄頁面。 表格檢視是唯讀的。
+
+您可以為每個連線的記錄型別新增一個連線的檢視頁面。 <!--edit this when we can remove fields from this page-->
+
+若要新增「連線的檢視」頁面，請執行下列動作：
+
+1. 在記錄頁面檢視中，按一下記錄名稱以開啟記錄，然後按一下預覽頁面右上角的「在新標籤中開啟」圖示![](assets/open-details-in-a-new-tab-icon.png)。
+1. 按一下&#x200B;**新增頁面** > **連線的檢視**。
+1. 新增&#x200B;**頁面名稱**，然後按一下&#x200B;**建立**。
+
+   在新索引標籤中向記錄頁面新增一個額外頁面。
+1. 搜尋或按一下清單中連線記錄或物件型別的名稱。
+您選取之記錄型別的表格檢視會顯示，而連線的記錄會顯示在表格檢視中。
+表格檢視是唯讀的。
+
+   ![](assets/audience-connected-table-view-under-campaign-details-page.png)
+1. （可選）按兩下標籤的名稱
+
+   或
+
+   將游標暫留在索引標簽名稱上，然後按一下[其他] **![](assets/more-menu.png)，然後按一下[重新命名]** **以重新命名為新的[連線檢視]索引標籤。**
+1. （選擇性）使用工具列中的任何檢視元素來管理表格檢視。 如需詳細資訊，請參閱[管理資料表檢視](/help/quicksilver/planning/views/manage-the-table-view.md)。
+
+</span>
+
+<!--
+## Add a Brief page to a record's page
+
+You can add a Brief page to the record's preview or pages. 
+
+Brief pages contain the same information as the Details tab, in a read-only format. <!--edit this when we can remove fields from this page-->
+
+<!--
+1. From a record's page view, click the name of a record to open its preview or page.
+1. Click **Add page** > **Brief**. 
+1. Add the **Page name**, then click **Create**. 
+-->
+
+
 

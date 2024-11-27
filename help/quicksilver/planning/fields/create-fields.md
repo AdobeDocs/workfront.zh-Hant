@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 88c921b00fcde7dd530e999031e0227201a7cb1a
 workflow-type: tm+mt
-source-wordcount: '4129'
+source-wordcount: '4287'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,9 @@ ht-degree: 1%
 * 透過連線記錄型別
 * 藉由建立記錄型別
 * 從範本建立工作區
-  <!--* By importing record types using an Excel or CSV file-->
+* <span class="preview">使用Excel或CSV檔案匯入記錄型別</span>
+* <span class="preview">透過匯入現有Workfront欄位的復本</span>
+
 
 如需Workfront Planning欄位的詳細資訊，請參閱[欄位概觀](/help/quicksilver/planning/fields/fields-overview.md)。
 
@@ -178,6 +180,8 @@ OLD:
 ## 從頭開始建立欄位 {#create-fields-from-scratch}
 
 <!--in a table (not sure if this can be done elsewhere?!-->
+
+<!--the first 3 steps are the same as in Import fields from Workfron-->
 
 {{step1-to-planning}}
 
@@ -340,7 +344,7 @@ OLD:
       * **長**：2023年5月16日
       * **歐洲**： 16/05/2023
       * **ISO**： 2023-05-16
-      * **包含時間欄位**：若要包含時間戳記，請選取此選項。 預設會取消選取此選項。<!--update this setting name - submitted bug for it to be changed-->
+      * **包含時間**：若要包含時間戳記，請選取此選項。 預設會取消選取此選項。 您不能在保護欄位之後包含時間。
 
      從下列選項中選取：
 
@@ -467,6 +471,12 @@ OLD:
    ![](assets/description-of-formula-expression.png)
 
    如需支援哪些運算式的詳細資訊，請參閱[公式欄位概觀](/help/quicksilver/planning/fields/formula-fields.md)。
+
+
+   >[!TIP]
+   >
+   ><span class="preview">在編輯或建立公式欄位時，您將會收到警告訊息，此訊息可能會對本身或共用欄位造成循環參照。 您無法儲存參照本身或參照計算中所參照專案的公式欄位。 </span>
+
 
 1. 新增在Workfront Planning中顯示的欄位名稱，以在公式中參照它們。
 
@@ -647,3 +657,21 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 當您從範本建立工作區時，Adobe Workfront Planning會為記錄型別建立欄位。
 
 如需詳細資訊，請參閱[建立工作區](/help/quicksilver/planning/architecture/create-workspaces.md)。
+
+<div class="preview">
+
+## 從CSV或Excel檔案匯入記錄型別時建立欄位
+
+當您使用CSV或Excel檔案匯入記錄型別時，可以匯入欄位。
+
+如需詳細資訊，請參閱[建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md)。
+
+## 從Workfront匯入欄位，以建立欄位
+
+您可以匯入現有Workfront欄位的復本。 從Workfront匯入欄位會為Workfront Planning記錄型別建立每個欄位的副本。
+
+複製欄位後，這些欄位彼此獨立，不會交換資訊。
+
+如需詳細資訊，請參閱[從Workfront匯入欄位](/help/quicksilver/planning/fields/import-fields-from-workfront.md)。
+
+</div>

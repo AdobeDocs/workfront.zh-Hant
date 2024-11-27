@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
 workflow-type: tm+mt
-source-wordcount: '1367'
+source-wordcount: '1397'
 ht-degree: 2%
 
 ---
@@ -145,14 +145,18 @@ ht-degree: 2%
    >
    >* 下列型別的欄位未顯示在預覽</span>或生產環境的要求表單<span class="preview">中：
    >
-   >    * 人員（包括「建立者」和「上次修改者」）
+   >    * 建立者和上次修改者
    >    * 公式
-   >    * 建立日期
-   >    * 上次修改日期
-   >    * Workfront物件的已連線欄位或查詢欄位
-   >    * Workfront Planning記錄的已連線查閱欄位
+   >    * 建立日期和上次修改日期
+   >    * Workfront物件的查閱欄位
+   >    * Workfront Planning連線記錄的查詢欄位
+   >    * AEM Assets連結的欄位
    >* 下列型別的欄位不會顯示在生產環境的請求表單中。 <span class="preview">它們顯示在預覽環境中：</span>
    >    * <span class="preview">個Workfront Planning記錄&#39;已連線的欄位</span>
+   >    * <span class="preview">人員</span>
+   >    * <span class="preview">Workfront物件的已連線欄位</span>
+   >    * <span class="preview">AEM Assets已連線的欄位</span>
+
 
 
    * **預設的分節**：這是Workfront套用至要求表單的預設分割槽符號。 無法重新命名或移除「預設」區段。
@@ -208,7 +212,15 @@ ht-degree: 2%
    >[!WARNING]
    >
    >
-   >當您選取&#x200B;**擁有連結的任何人**&#x200B;時，任何人都可以存取表單並提交新記錄，甚至組織外沒有Workfront帳戶的人也可以。
+   >* 當您選取&#x200B;**擁有連結的任何人**&#x200B;時，任何人都可以存取表單並提交新記錄，甚至組織外沒有Workfront帳戶的人也可以。
+   >
+   > * <span class="preview">包含下列欄位型別的表單無法公開共用：</span>
+   >
+   >     * <span class="preview">公式</span>
+   >     * <span class="preview">Workfront或AEM Assets連線</span>
+   >     * <span class="preview">查詢欄位</span>
+   >     * <span class="preview">人員</span>
+   >
 
 1. （視條件而定）如果您在上一步選取了&#x200B;**任何擁有連結**&#x200B;的人，請從可用的行事曆中選取&#x200B;**連結到期日**。 連結過期後人員會收到錯誤，您必須先更新連結日期，才能再次存取表單。
 
