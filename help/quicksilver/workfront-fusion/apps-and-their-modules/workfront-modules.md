@@ -9,7 +9,7 @@ description: 您可以使用Adobe Workfront Fusion Adobe Workfront聯結器在Wo
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: f6b00b98d3375e5660d684f1fad682fa721517aa
 workflow-type: tm+mt
 source-wordcount: '6797'
 ht-degree: 2%
@@ -824,18 +824,15 @@ ht-degree: 2%
  <tbody> 
   <tr> 
     <td>[！UICONTROL Connection]</td>
-
-<td> <p>如需有關將[!DNL Workfront]應用程式連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">將[!DNL Workfront]連線到[!DNL Workfront Fusion]</a>。</p> </td> 
+    <td> <p>如需有關將[!DNL Workfront]應用程式連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">將[!DNL Workfront]連線到[!DNL Workfront Fusion]</a>。</p> </td> 
   </tr> 
   <tr> 
     <td>[！UICONTROL記錄型別]</td>
-
-<td>選擇您希望模組讀取的[!DNL Workfront]物件型別。</td> 
+     <td>選擇您希望模組讀取的[!DNL Workfront]物件型別。</td> 
   </tr> 
   <tr> 
     <td>[！UICONTROL輸出]</td>
-
-<td> <p>選取要包含在此模組輸出組合中的資訊。</p> </td> 
+     <td> <p>選取要包含在此模組輸出組合中的資訊。</p> </td> 
   </tr> 
   <tr> 
     <td>[！UICONTROL參考]</td>

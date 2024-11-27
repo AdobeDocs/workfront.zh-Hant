@@ -9,9 +9,9 @@ description: 透過Adobe Lightroom模組，您可以根據Adobe Lightroom帳戶�
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e48bdf18-49f0-436e-9182-16c9da2b3169
-source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
+source-git-commit: f6b00b98d3375e5660d684f1fad682fa721517aa
 workflow-type: tm+mt
-source-wordcount: '2255'
+source-wordcount: '2370'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,7 @@ ht-degree: 0%
 
 * 您必須擁有使用中的[!DNL Adobe Lightroom]帳戶。
 
+
 ## Adobe Lightroom API資訊
 
 Adobe Lightroom聯結器會使用以下專案：
@@ -90,7 +91,46 @@ Adobe Lightroom聯結器會使用以下專案：
  </tbody> 
  </table>
 
-<!--## Create a connection to Adobe Lightroom-->
+## 建立與Adobe Lightroom的連線
+
+若要為您的[!DNL Adobe Lightroom]模組建立連線：
+
+1. 按一下[連線]方塊旁的&#x200B;**[!UICONTROL 新增]**。
+
+1. 填寫下列欄位：
+
+   <table style="table-layout:auto"> 
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+      </col>
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+      </col>
+      <tbody>
+        <tr>
+        <td role="rowheader">[！UICONTROL連線名稱]</td>
+        <td>
+          <p>輸入此連線的名稱。</p>
+        </td>
+        </tr>
+        <tr>
+        <td role="rowheader">[！UICONTROL環境]</td>
+        <td>選取您要連線到生產或非生產環境。</td>
+        </tr>
+        <tr>
+        <td role="rowheader">[！UICONTROL型別]</td>
+        <td>選取您要連線到服務帳戶還是個人帳戶。</td>
+        </tr>
+        <tr>
+        <td role="rowheader">[！UICONTROL使用者端ID]</td>
+        <td>輸入您的[！UICONTROLAdobe] [！UICONTROL使用者端ID]。 您可在的[！UICONTROL Credentials]詳細資訊區段中找到 [!DNL Adobe Developer Console]</td>
+        </tr>
+        <tr>
+        <td role="rowheader">[！UICONTROL使用者端密碼]</td>
+        <td>輸入您的[!DNL Adobe] [！UICONTROL使用者端密碼]。 您可在的[！UICONTROL Credentials]詳細資訊區段中找到 [!DNL Adobe Developer Console]</td>
+        </tr>
+      </tbody>
+    </table>
+
+1. 按一下&#x200B;**[!UICONTROL 繼續]**&#x200B;以儲存連線並返回模組。
 
 
 

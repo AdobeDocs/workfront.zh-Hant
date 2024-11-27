@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: d74bf60a66326c71447679c463de0469cd0de9fa
+source-git-commit: f6b00b98d3375e5660d684f1fad682fa721517aa
 workflow-type: tm+mt
-source-wordcount: '14614'
+source-wordcount: '14642'
 ht-degree: 2%
 
 ---
@@ -184,6 +184,7 @@ ht-degree: 2%
          * [21.1其他增強功能](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Fusion發行活動{#fusion-release}
          * [Adobe Workfront Fusion發行活動](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+         * [Workfront Fusion發行活動： 2024年11月25日當週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-11-25.md)
          * [Workfront Fusion發行活動： 2024年11月11日起一週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-11-11.md)
          * [Workfront Fusion發行活動： 2024年11月4日當週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-11-4.md)
          * [Workfront Fusion發行活動： 2024年10月21日當週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-10-21.md)
@@ -1844,6 +1845,7 @@ ht-degree: 2%
       * [資產和檔案檢閱和核准：文章索引](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
       * [檔案核准概觀](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
       * [檔案決定狀態概觀](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
+      * [建立報表控制面板以供檢閱和核准](review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)
       * 設定及管理資產和檔案核准{#manage-asset-review-and-approval}
          * [設定及管理資產和檔案核准：文章索引](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
          * [建立檔案稽核或核准請求](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
@@ -2339,6 +2341,7 @@ ht-degree: 2%
       * [Marketo模組](workfront-fusion/apps-and-their-modules/marketo-modules.md)
       * [數學](workfront-fusion/apps-and-their-modules/math-module.md)
       * [Microsoft Dynamics 365模組](workfront-fusion/apps-and-their-modules/microsoft-dynamics-365-modules.md)
+      * [Microsoft Dynamics 365模組財務與營運](workfront-fusion/apps-and-their-modules/dynamics-finance-operations-modules.md)
       * [Microsoft Office 365行事曆](workfront-fusion/apps-and-their-modules/microsoft-365-calendar-modules.md)
       * [Microsoft Office 365電子郵件](workfront-fusion/apps-and-their-modules/microsoft-365-email-modules.md)
       * [Microsoft Office 365 Excel模組](workfront-fusion/apps-and-their-modules/microsoft-365-excel-modules.md)
@@ -2798,6 +2801,7 @@ ht-degree: 2%
       * [程式碼範例](proofhq-api/general/code-samples.md)
       * [SOAP API常見問題集](proofhq-api/general/soap-api-faqs.md)
 * [隱藏的測試檔案](hidden-test.md)
+* [2025年第一季度版本總覽 — 測試](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/release-overview-test.md)
 
 
 <!--
