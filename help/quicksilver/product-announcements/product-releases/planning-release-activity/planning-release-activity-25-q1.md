@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: d27c25e4eedb6b4df67d23b997fdf1222b95da57
+source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
 workflow-type: tm+mt
-source-wordcount: '1747'
+source-wordcount: '1769'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 0%
 >
 >預覽版本： 2024年11月27日；快速發行生產：24.12版（2024年12月）；每季發行生產：25.1版（2025年1月）
 
-現在，當您新增欄位到記錄型別時，您可以選擇匯入現有的Workfront自訂或原生欄位，並將其與您選取的記錄型別建立關聯。
+現在，當您新增欄位到記錄型別時，您可以選擇匯入現有的Workfront自訂或原生欄位，並將其與您選取的記錄型別建立關聯。 匯入現有欄位會在Workfront Planning中建立Workfront欄位的副本。 複製的欄位與其原始版本無關。
 
 在此增強功能之前，您必須手動建立所有欄位，並將其與記錄型別建立關聯。
 
@@ -89,13 +89,16 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[管理記錄頁面配置](/help/quicksilver/planning/records/manage-the-record-page.md)。
 
-## 在請求區域的已提交區段中新增計畫標籤
+## 在請求區域的已提交區段中新增Workfront和Planning標籤
 
 >[!NOTE]
 >
 >預覽版本： 2024年11月27日；快速發行生產：24.12版（2024年12月）；每季發行生產：25.1版（2025年1月）
 
-您現在可以在Workfront請求區域的已提交區段找到Workfront計畫請求。 已提交區段現在顯示兩個標籤：在Workfront標籤上的Workfront中提交的請求，以及在Planning標籤中使用Workfront Planning請求表單提交的請求。
+您現在可以在Workfront請求區域的已提交區段找到Workfront計畫請求。 已提交區段現在顯示以下標籤：
+
+* Workfront：顯示Workfront中提交的請求。
+* 計畫：顯示使用Workfront Planning請求表單提交的請求。
 
 您必須使用請求表單的連結，才能將請求新增至Workfront Planning記錄型別。 您稍後可以從Workfront的「請求」區域提交Workfront計畫請求。
 
@@ -127,7 +130,7 @@ ht-degree: 0%
 如果表單包含以下任何欄位型別，您將無法再公開共用請求表單：
 
 * 公式
-* 連線
+* Workfront與AEM Assets連線
 * 查詢欄位
 * 人員
 

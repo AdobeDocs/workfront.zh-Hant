@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 88c921b00fcde7dd530e999031e0227201a7cb1a
+source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
 workflow-type: tm+mt
 source-wordcount: '4287'
 ht-degree: 1%
@@ -668,7 +668,9 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 
 ## 從Workfront匯入欄位，以建立欄位
 
-您可以匯入現有Workfront欄位的復本。 從Workfront匯入欄位會為Workfront Planning記錄型別建立每個欄位的副本。
+您可以匯入現有Workfront欄位的復本。
+
+從Workfront匯入欄位會為Workfront Planning記錄型別建立每個欄位的副本。
 
 複製欄位後，這些欄位彼此獨立，不會交換資訊。
 

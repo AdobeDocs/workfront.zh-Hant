@@ -3,9 +3,9 @@ title: 核准請求
 description: 當使用者將請求提交到與Adobe Workfront Planning中的核准相關聯的請求表單時，核准者會收到有關待核准的通知和電子郵件。 他們必須在Workfront Planning建立物件前核准請求。
 hide: true
 hidefromTOC: true
-source-git-commit: a999b805016361bdd101a6cd9c61967284a71014
+source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '783'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,7 @@ recommendations: noDisplay, noCatalog
 已提交的請求會顯示在Workfront請求區域中「已提交」區段的「計畫」標籤中，且具有以下請求狀態之一：
 
 * **擱置檢閱**：當沒有核准者開啟要求物件時，會顯示此狀態。
-* **稽核中**：當至少一位核准者開啟要求物件時，狀態變更為&#x200B;**稽核中**。
+* **稽核中**：當至少一位核准者開啟要求物件時，狀態變更為&#x200B;**稽核中**。 在所有核准者核准要求之前，要求的狀態仍為&#x200B;**稽核中**。
 * **已核准**：當核准者核准請求物件時，其個別狀態會變成
 * **已核准**，但整體要求物件狀態仍為&#x200B;**稽核中**，直到所有核准者都做出決定為止。
 * **已完成**：如果所有核准者核准該要求物件，其狀態會變更為&#x200B;**已完成**，或者該要求不需要核准。
@@ -152,7 +152,13 @@ recommendations: noDisplay, noCatalog
 
 1. 執行下列其中一項：
 
-   * 從熒幕右上角的Workfront **主功能表** ![](assets/dots-menu.png)，或左上角的&#x200B;**主功能表** ![](assets/lines-menu.png) （若有），按一下&#x200B;**要求** > **已提交** > **規劃**，然後按一下狀態為&#x200B;**檢閱**&#x200B;的要求<!--did they change this to Pending approval; logged  a bug-->。
+   * 如果您有Workfront Planning的存取權，請按一下畫面右上角的&#x200B;**主功能表** ![](assets/dots-menu.png)，或左上角的&#x200B;**主功能表** ![](assets/lines-menu.png) （若有），然後按一下&#x200B;**要求** > **已提交** > **Planning**，然後按一下狀態為&#x200B;**稽核中**&#x200B;的要求<!--did they change this to Pending approval; logged  a bug-->。
+
+     >[!TIP]
+     >
+     >    如果您沒有Workfront Planning的存取權，您只能存取使用通知核准的請求。
+
+
    * 前往畫面右上角的&#x200B;**通知**&#x200B;區域，然後按一下擱置核准之要求的相關通知，以開啟要求。
    * 前往電子郵件中的電子郵件通知，通知您擱置核准的要求，然後按一下以開啟要求。<!--add the name of the button here, from the email-->
 
@@ -162,5 +168,5 @@ recommendations: noDisplay, noCatalog
 1. （選擇性）按一下請求右上角的&#x200B;**核准**&#x200B;圖示![](assets/approvals-icon.png)以檢視核准者。
 1. 按一下&#x200B;**檢閱並核准**，然後選擇下列其中一項： <!--did they fix the button and removed the &??-->
 
-   * **核准**：核准此要求。 系統會立即建立與請求表單相關之記錄型別的記錄。
-   * **拒絕**：拒絕要求。 不會針對與請求表單關聯的記錄型別建立記錄。<!--check to see if there is a notification sent to the requestor about it being rejected OR approved??-->
+   * **核准**：這會核准要求。 系統會立即建立與請求表單相關之記錄型別的記錄。
+   * **拒絕**：這會拒絕要求。 不會針對與請求表單關聯的記錄型別建立記錄。<!--check to see if there is a notification sent to the requestor about it being rejected OR approved??--> <!--checking with PM what happens with the other approvers when one of them is rejecting it: does it ask them to approve it? Deleted the request? -->

@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: 6327e5625481ce7ff8d744bc6eb50d417cbb4413
+source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
 workflow-type: tm+mt
-source-wordcount: '1647'
+source-wordcount: '1677'
 ht-degree: 1%
 
 ---
@@ -106,7 +106,14 @@ ht-degree: 1%
 
 {style="table-layout:auto"}
 
-**範例：**&#x200B;如果您想要指出任務的期間是3天，您應在任務清單的[期間]欄位中輸入「3 ED」。  您也可以在編輯任務時，從可用的下拉式功能表或「任務詳細資訊」區段中，選取「期間單位」的偏好選項。 如需有關編輯任務的資訊，請參閱[編輯任務](../../../manage-work/tasks/manage-tasks/edit-tasks.md)。
+>[!BEGINSHADEBOX]
+
+**範例**
+
+如果您想要指出任務的期間是3個經過的天數，應在任務清單的「期間」欄位中輸入「3 ED」。  您也可以在編輯任務時，從可用的下拉式功能表或「任務詳細資訊」區段中，選取「期間單位」的偏好選項。 如需有關編輯任務的資訊，請參閱[編輯任務](../../../manage-work/tasks/manage-tasks/edit-tasks.md)。
+
+
+>[!ENDSHADEBOX]
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: stays QS only forever; for the pictures below: make the first one classic at preview time and the second one stays QS always. The second one is yellow >> take out at 21.2 production!!)</p>
@@ -117,8 +124,8 @@ ht-degree: 1%
 指示任務的期間時，請考量下列事項：
 
 * 經過的時間是任務期間的時間單位。 這是任務的計劃開始日期與計畫完成日期之間的時間，包括假日、週末和休假。 換句話說，經過的時間就是行事曆的天數。
-* 正常時間會將假日、週末和休假列入考量，並將他們排除在任務的持續時間之外。
-
+* 天數代表系統中定義的工作日，可在「設定」區域中設定。 在大多數情況下，一天包含8小時。
+* 正常時間（日或工作日）會考量假日、週末和休假，並將它們排除在任務的工期之外。
 * 當您以周為單位指出任務的期間時，Workfront會根據您的Workfront管理員在「設定」的「專案偏好設定」區域中設定的「每週一般工作天數」和「每工作日一般小時數」設定，以天和小時計算期間。
 * Workfront在計算「月持續時間」時，會使用4週的預設一個月持續時間。
 
