@@ -6,7 +6,7 @@ description: 報表傳送概覽
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 1637df59-ca1d-4cf6-b83d-2b27936cdb96
-source-git-commit: 8d89bb511ac28905f5f0043cd0cda7d61611fad3
+source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
 workflow-type: tm+mt
 source-wordcount: '1531'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # 報表傳送概覽
+
+<!-- Audited: 11/2024 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This is linked to the UI in the Send Report box inside the Preview sandbox. If you change title, log bug for Dev to fix the link) </p>
@@ -159,7 +161,7 @@ ht-degree: 0%
 
 如需有關品牌化Workfront執行個體的詳細資訊，請參閱文章[品牌化Adobe Workfront執行個體](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)。
 
-### 格式化 {#formatting}
+### 格式設定 {#formatting}
 
 除非報表有特殊檢視，否則在傳送或排程傳送報表時，您一律會收到報表的詳細資訊標籤。
 
