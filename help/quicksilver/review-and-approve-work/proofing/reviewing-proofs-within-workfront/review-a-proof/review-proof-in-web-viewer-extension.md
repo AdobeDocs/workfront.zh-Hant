@@ -5,13 +5,13 @@ title: 在網路校訂檢視器擴充功能中檢閱互動式內容
 description: Adobe Workfront檢閱工具是瀏覽器擴充功能，可讓您校訂ZIP檔案或具有URL的互動式內容。
 author: Courtney
 feature: Digital Content and Documents
-source-git-commit: 5650ebfbf115908cbf2b89ffeab0551a4ecacc2d
+exl-id: 4fea13cc-2d56-466e-8851-6134782e7e80
+source-git-commit: 9bc1502149d99624d8494aef86e11e18a95f563b
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '495'
 ht-degree: 1%
 
 ---
-
 
 # 使用Adobe Workfront稽核工具稽核互動式內容
 
@@ -23,7 +23,11 @@ Adobe Workfront檢閱工具是網頁型瀏覽器擴充功能，可讓您校訂ZI
 * Chrome
 * Edge
 
-對於無法在iFrame中開啟網站的網站（例如Figma），建議使用「案頭校訂檢視器」。
+如果您需要檢閱的內容位於以下網站，我們建議您使用案頭校訂檢視器
+
+* 需要SSO驗證
+* 防止在iFrame中開啟其網站，例如Figma
+
 
 
 ## 將Adobe Workfront檢閱工具設為URL和ZIP校樣的預設檢視器
@@ -69,7 +73,3 @@ Adobe Workfront檢閱工具是網頁型瀏覽器擴充功能，可讓您校訂ZI
 >[!IMPORTANT]
 >
 >您必須移除舊版Web Viewer擴充功能，才能使用Adobe Workfront檢閱工具。
-
-
-
-

@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 59737844-e6ba-4f64-b2cc-a24c91525d37
-source-git-commit: d5f21f3568f72273aa0843a45b17053fc9ebf727
+source-git-commit: 1cb0a3380d21d5fe3fb2eb40c5f19ec64d8bbbb4
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: '1154'
 ht-degree: 2%
 
 ---
@@ -38,6 +38,7 @@ ht-degree: 2%
 
 <table>
 <col style="width: 20%;" />
+<col style="width: 50%;" />
 <tbody>
     <tr>
     <td>區域圖</td>
@@ -89,7 +90,6 @@ ht-degree: 2%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             「移至」圖示已新增到自訂欄位</a></p>
-            [！BADGE In Production for Fast Release ]{type=Positive}
             <p>當自訂表單包含具有多個欄位的多個區段時，透過拖放將欄位從一個區段移動到另一個區段會很困難。 每個欄位已新增「移至」圖示，可讓您選取欄位所在的區段。</p>
         </td>
         <td>2024 年 10 月 29 日</td>
@@ -173,8 +173,6 @@ ht-degree: 2%
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            「移至」圖示已新增到自訂欄位</a></p>
-            [！BADGE In Production for Fast Release ]{type=Positive}
             <p>當自訂表單包含具有多個欄位的多個區段時，透過拖放將欄位從一個區段移動到另一個區段會很困難。 每個欄位已新增「移至」圖示，可讓您選取欄位所在的區段。</p>
         </td>
         <td>2024 年 10 月 29 日</td>
