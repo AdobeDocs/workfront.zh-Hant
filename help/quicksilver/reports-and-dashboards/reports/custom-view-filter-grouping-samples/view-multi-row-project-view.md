@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「檢視：多列專案檢視」
+title: 檢視：多列專案檢視
 description: 瞭解報告中的多列專案檢視。
 author: Nolan
 feature: Reports and Dashboards

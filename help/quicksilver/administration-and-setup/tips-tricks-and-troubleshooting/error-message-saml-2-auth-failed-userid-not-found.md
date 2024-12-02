@@ -3,7 +3,7 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: 「錯誤訊息：SAML 2.0驗證失敗：找不到使用者識別碼」
+title: 錯誤訊息： SAML 2.0驗證失敗：找不到使用者識別碼
 description: 使用SAML 2.0時，「找不到SAML 2.0驗證失敗的使用者識別碼」錯誤表示未從ADFS宣告規則傳遞UID或NAME ID。
 author: Lisa
 feature: System Setup and Administration

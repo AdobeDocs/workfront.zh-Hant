@@ -1,7 +1,7 @@
 ---
 product-area: reporting
 navigation-topic: reporting-elements
-title: 「報表元素：篩選器、檢視和群組」
+title: 報表元素：篩選器、檢視和群組
 description: Workfront中每個清單和報告都必須具備的主要元素是篩選器、檢視和群組。 每個元素在任何報表中都會提供不同資訊。
 author: Nolan
 feature: Reports and Dashboards

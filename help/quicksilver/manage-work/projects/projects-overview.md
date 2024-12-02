@@ -2,7 +2,7 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: 「專案：文章索引」
+title: 專案：文章索引
 description: 請在下列章節中瞭解專案的相關資訊。
 author: Alina
 feature: Work Management

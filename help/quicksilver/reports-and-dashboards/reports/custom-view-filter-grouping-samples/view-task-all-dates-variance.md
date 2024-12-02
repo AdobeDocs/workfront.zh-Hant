@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「檢視：具有所有日期差異的任務」
+title: 檢視：具有所有日期差異的任務
 description: 此任務檢視類似於您的Adobe Workfront帳戶隨附的「所有日期」檢視。 此特定檢視包含「差異」欄，可計算日期之間的天數差異。
 author: Nolan
 feature: Reports and Dashboards

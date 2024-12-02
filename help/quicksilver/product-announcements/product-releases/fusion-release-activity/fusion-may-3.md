@@ -3,7 +3,7 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: 「Workfront Fusion發行活動： 2021年5月3日當週」
+title: Workfront Fusion發行活動： 2021年5月3日起一週
 description: 本頁說明2021年5月3日當週在Adobe Workfront Fusion中所做的所有增強功能。
 author: Luke
 feature: Product Announcements, Workfront Fusion
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ## Salesforce聯結器現在可以使用SOQL進行搜尋
 
-Salesforce > Search for records模組現在可選擇使用SOQL （Salesforce物件查詢語言）進行搜尋。 您也可以使用先前可用的選項（SOSL和簡單搜尋）進行搜尋。
+Salesforce >搜尋記錄模組現在可選擇使用SOQL (Salesforce物件查詢語言)進行搜尋。 您也可以使用先前可用的選項（SOSL和簡單搜尋）進行搜尋。
 
 如需詳細資訊，請參閱[Salesforce模組](../../../workfront-fusion/apps-and-their-modules/salesforce-modules.md)。
 

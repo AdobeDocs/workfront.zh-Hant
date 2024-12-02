@@ -2,7 +2,7 @@
 content-type: overview;reference
 product-area: documents
 navigation-topic: documents-navigation-topic
-title: 「檔案：文章索引」
+title: 檔案：文章索引
 description: 瞭解如何使用檔案。
 author: Courtney
 feature: Digital Content and Documents

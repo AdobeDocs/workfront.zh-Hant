@@ -1,5 +1,5 @@
 ---
-title: 「專案的秘訣、技巧和疑難排解：文章索引」
+title: 專案的秘訣、技巧和疑難排解：文章索引
 description: 專案的秘訣、技巧和疑難排解
 author: Alina
 draft: Probably

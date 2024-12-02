@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「檢視：計畫時數與任務檢視中每個指派的實際時數」
+title: 檢視：計畫時數與任務檢視中每個指派的實際時數
 description: 此任務檢視顯示任務的總計畫時數、分配給每個受指派人的計畫時數（當任務受指派給多個使用者時）、任務的總實際時數以及每個受指派人記錄的實際時數。
 author: Nolan
 feature: Reports and Dashboards

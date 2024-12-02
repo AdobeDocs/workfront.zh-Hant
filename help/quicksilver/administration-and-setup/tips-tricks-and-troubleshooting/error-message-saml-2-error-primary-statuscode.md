@@ -3,7 +3,7 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: 「錯誤訊息：SAML 2.0錯誤：主要狀態代碼」
+title: 錯誤訊息： SAML 2.0錯誤：主要狀態碼
 description: 您無法成功建立與ADFS的連線。
 author: Lisa
 feature: System Setup and Administration

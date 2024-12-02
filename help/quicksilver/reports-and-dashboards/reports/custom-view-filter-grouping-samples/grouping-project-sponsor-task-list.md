@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「群組：任務清單的專案贊助者」
+title: 分組：任務清單的專案贊助者
 description: 此任務分組允許您按專案贊助者將任務分組。
 author: Nolan
 feature: Reports and Dashboards

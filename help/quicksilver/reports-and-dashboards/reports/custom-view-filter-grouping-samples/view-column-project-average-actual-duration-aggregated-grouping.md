@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「檢視與群組：顯示依群組中平均值彙總的專案實際期間」
+title: 檢視與群組：顯示依群組中平均值彙總的專案實際期間
 description: 您可以在專案報表中新增下列欄，以顯示分組中彙總為平均的實際期間。
 author: Nolan
 feature: Reports and Dashboards

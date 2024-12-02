@@ -2,7 +2,7 @@
 content-type: reference
 product-area: documents
 navigation-topic: proofing-in-workfront-navigation-topic
-title: 「使用案頭校訂檢視器：文章索引」
+title: 使用案頭校訂檢視器：文章索引
 description: 安裝案頭校訂檢視器
 author: Courtney
 feature: Digital Content and Documents

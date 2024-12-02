@@ -2,7 +2,7 @@
 content-type: reference
 product-area: timesheets
 navigation-topic: timesheets-navigation-topic
-title: 「時程表詳細資料：文章索引」
+title: 時程表詳細資訊：文章索引
 description: 在以下文章中進一步瞭解時程表及其配置。
 author: Alina
 feature: Timesheets

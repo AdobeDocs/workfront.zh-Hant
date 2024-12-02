@@ -1,7 +1,7 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: 「通知：我提出的請求」
+title: 通知：我已進行的請求
 description: 下列通知可讓您瞭解在Adobe Workfront中提出的請求。
 author: Lisa
 feature: Get Started with Workfront

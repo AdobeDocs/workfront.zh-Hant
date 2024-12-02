@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「檢視：前置任務詳細資訊」
+title: 檢視：前置任務詳細資訊
 description: 此任務檢視使用集合檢視顯示任務前置任務的詳細資訊。 在集合檢視中，您可以顯示有關處於「一對多」關係中的物件的資訊。 在這種情況下，每個任務（一個）可以有多個前置任務（多個）。 該檢視顯示任務名稱，以及其前置任務名稱、前置任務專案名稱、前置任務計畫完成日期及前置任務狀態。
 author: Nolan
 feature: Reports and Dashboards

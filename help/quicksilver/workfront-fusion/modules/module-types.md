@@ -4,7 +4,7 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
 title: 模組型別
-description: 「Adobe Workfront Fusion會區分五種模組：動作模組、搜尋模組、觸發模組、彙總器和疊代器。 彙總器和迭代器適用於進階情況。
+description: Adobe Workfront Fusion區分五種模組：動作模組、搜尋模組、觸發模組、彙總器和疊代器。 「彙總」和「疊代」適用於進階案例。
 author: Becky
 feature: Workfront Fusion
 exl-id: 58b4aa76-6c4c-47fc-a42c-c5286da5633a

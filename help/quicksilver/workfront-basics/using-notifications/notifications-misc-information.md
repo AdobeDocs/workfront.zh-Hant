@@ -1,7 +1,7 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: 「通知：其他資訊」
+title: 通知：其他資訊
 description: 下列通知會提醒您正在贊助的專案上發生的活動。
 author: Lisa
 feature: Get Started with Workfront

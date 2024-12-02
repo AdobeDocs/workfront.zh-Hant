@@ -2,7 +2,7 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-
 navigation-topic: account-settings-workfront-proof
-title: '單一登入 [!DNL Workfront Proof]： AD FS設定'
+title: ' [!DNL Workfront Proof]中的單一登入： AD FS組態'
 description: 如果您是AD伺服器的管理員，則可以安裝和設定AD FS。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents

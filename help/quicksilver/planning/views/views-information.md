@@ -1,5 +1,5 @@
 ---
-title: 「檢視：文章索引」
+title: 檢視：文章索引
 description: 您可以在表格、時間表或行事曆檢視中顯示Adobe Workfront Planning記錄。 本文包含文章連結，說明如何建立檢視以及編輯或刪除現有檢視。
 author: Alina
 feature: Workfront Planning

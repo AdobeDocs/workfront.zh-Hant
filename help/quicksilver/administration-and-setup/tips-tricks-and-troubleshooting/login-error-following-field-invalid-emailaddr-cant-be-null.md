@@ -3,7 +3,7 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: 「登入錯誤：下列欄位無效： emailAddr不能為null」
+title: 登入錯誤：下列欄位無效： emailAddr不可為空
 description: 當我嘗試登入 [!DNL Adobe Workfront] 網域的URL時，系統會將我重新導向至SAML登入入口網站，然後再重新導向回 [!DNL Workfront] ，錯誤為emailAddr欄位不可為空。
 author: Lisa
 feature: System Setup and Administration

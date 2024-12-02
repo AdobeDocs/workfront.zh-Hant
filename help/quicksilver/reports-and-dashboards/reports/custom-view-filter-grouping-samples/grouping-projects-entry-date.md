@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「群組：依輸入日期排列的專案」
+title: 群組：依輸入日期排列的專案
 description: 在此自訂專案分組中，您可以顯示按其輸入日期值分組的專案。
 author: Nolan
 feature: Reports and Dashboards

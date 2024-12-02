@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「檢視：在任務檢視的相同欄中計畫時數內的實際時數」
+title: 檢視：在任務檢視的相同欄中，計畫時數內的實際時數
 description: 在此任務檢視中，任務上記錄的實際時數會顯示在針對每個任務計畫的時數中。 計畫時數與實際時數之間的時數差異也會顯示在單獨的欄中。
 author: Nolan
 feature: Reports and Dashboards

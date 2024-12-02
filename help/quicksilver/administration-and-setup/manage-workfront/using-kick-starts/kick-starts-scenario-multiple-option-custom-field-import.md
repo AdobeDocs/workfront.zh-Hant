@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: kickstart，kick-start，kickstart，kick-start
 navigation-topic: use-kick-starts
-title: 「Kick-Starts情境：將多個選項自訂欄位匯入Workfront」
+title: Kick-Starts情境：將多個選項自訂欄位匯入Workfront
 description: 您可以使用Kick-Start功能，在Adobe Workfront中匯入具有多個選項的自訂欄位。
 author: Lisa
 feature: System Setup and Administration

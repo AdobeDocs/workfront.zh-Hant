@@ -2,7 +2,7 @@
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: 疑難排解Adobe Experience Manager整合
-description: 「問題：Assets未儲存至Adobe Experience Manager」
+description: 問題： Assets未儲存至Adobe Experience Manager
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: f7e31e20-01e3-462d-9020-005e155f0259

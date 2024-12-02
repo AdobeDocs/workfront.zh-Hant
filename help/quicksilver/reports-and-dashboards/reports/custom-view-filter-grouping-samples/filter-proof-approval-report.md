@@ -2,7 +2,7 @@
 content-type: tips-tricks-troubleshooting
 product-area: reporting;user-management
 navigation-topic: tips-tricks-and-troubleshooting-reports
-title: 「篩選：校訂核准報告以省略先前的校訂版本」
+title: 篩選器：校訂核准報告以省略先前的校訂版本
 description: 在校訂核准報告中，您可以使用目前檔案版本篩選器以僅包含等待您核准的最新版校訂。
 author: Nolan
 feature: Reports and Dashboards

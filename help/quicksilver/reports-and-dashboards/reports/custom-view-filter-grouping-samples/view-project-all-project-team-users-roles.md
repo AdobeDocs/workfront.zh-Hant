@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「檢視：包含所有專案團隊使用者和角色的專案」
+title: 檢視：包含所有專案團隊使用者和角色的專案
 description: 此專案檢視會顯示指派給專案團隊的使用者和職位角色清單。
 author: Nolan
 feature: Reports and Dashboards

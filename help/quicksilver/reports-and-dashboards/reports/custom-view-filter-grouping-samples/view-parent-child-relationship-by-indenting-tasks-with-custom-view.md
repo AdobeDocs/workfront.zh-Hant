@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「檢視：透過縮排任務來顯示任務中的父子關係」
+title: 檢視：透過縮排任務來顯示任務中的父子關係
 description: 您可以在匯出的工作清單中維持父子關係的差異，方法是在工作清單中加入自訂檢視，並確保在您匯出清單之前已選取此檢視。
 author: Nolan
 feature: Reports and Dashboards

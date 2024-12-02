@@ -1,5 +1,5 @@
 ---
-title: 「Adobe Workfront規劃請求：文章索引」
+title: Adobe Workfront規劃請求：文章索引
 description: 您可以為每個記錄型別建立請求表單，與使用者共用，他們可以通過填寫並提交表單來新增記錄。
 feature: Workfront Planning
 role: User, Admin

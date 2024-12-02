@@ -2,8 +2,8 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '報告：預算時數'
-description: '報告：預算時數'
+title: 報告：預算時數
+description: 報告：預算時數
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2c0b60a6-fae4-4b29-8243-2a7f7d1f574b

@@ -2,7 +2,7 @@
 content-type: reference
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
-title: 「管理校訂通知：文章索引」
+title: 管理校訂通知：文章索引
 description: 管理校訂評論和決定的通知
 author: Courtney
 feature: Digital Content and Documents

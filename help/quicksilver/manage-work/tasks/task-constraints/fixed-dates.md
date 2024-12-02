@@ -2,7 +2,7 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: 「任務限制總覽：固定日期」
+title: 任務限制總覽：固定日期
 description: 當您想要指定任務的確切開始日期和結束日期時，可以使用固定日期任務限制。 如需有關任務限制的詳細資訊，請參閱任務限制總覽。
 author: Alina
 feature: Work Management

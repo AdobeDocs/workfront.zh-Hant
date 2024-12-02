@@ -2,7 +2,7 @@
 content-type: reference
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
-title: 「管理自動化校訂：文章索引」
+title: 管理自動化校訂：文章索引
 description: 在校訂上檢視自動化工作流程階段
 author: Courtney
 recommendations: noDisplay, noCatalog

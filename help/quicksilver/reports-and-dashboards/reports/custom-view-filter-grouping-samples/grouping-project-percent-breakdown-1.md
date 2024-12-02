@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「群組：專案百分比細目1」
+title: 分組：專案百分比細目1
 description: 在此自訂專案分組中，您可以顯示按專案完成百分比值範圍分組的專案。
 author: Nolan
 feature: Reports and Dashboards

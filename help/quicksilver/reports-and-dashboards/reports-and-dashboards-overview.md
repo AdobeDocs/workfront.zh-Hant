@@ -2,7 +2,7 @@
 content-type: reference;overview
 product-area: reporting;dashboards
 navigation-topic: reports-and-dashboards
-title: 「報表和控制面板：文章索引」
+title: 報表和控制面板：文章索引
 description: 您可以在Adobe Workfront中組織報表中的資訊。 您可以在控制面板上放置多個報表。 您可以與其他人共用報告和儀表板，以進行更好的共同作業。
 author: Nolan
 feature: Reports and Dashboards

@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「檢視：顯示欄中兩個欄位之間的計算結果」
+title: 檢視：顯示欄中兩個欄位之間的計算結果
 description: 您可以在欄中使用文字模式，以顯示兩個欄位之間的計算。
 author: Lisa and Nolan
 feature: Reports and Dashboards

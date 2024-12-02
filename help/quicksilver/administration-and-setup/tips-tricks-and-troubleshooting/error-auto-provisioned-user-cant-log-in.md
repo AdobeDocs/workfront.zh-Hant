@@ -3,7 +3,7 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: 「錯誤：自動布建的使用者無法登入」
+title: 錯誤：自動布建的使用者無法登入
 description: 如果自動布建的使用者首次嘗試登入，並收到系統未指派存取層級的錯誤，這可能是因為您的系統缺少與請求授權關聯的存取層級。
 author: Lisa
 feature: System Setup and Administration

@@ -2,7 +2,7 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
-title: 「電子郵件通知：文章索引」
+title: 電子郵件通知：文章索引
 description: Adobe Workfront管理員可設定使用者的事件通知、提醒通知和電子郵件範本。
 author: Nolan
 feature: System Setup and Administration

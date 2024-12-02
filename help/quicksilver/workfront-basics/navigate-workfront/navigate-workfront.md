@@ -1,7 +1,7 @@
 ---
 content-type: reference
 navigation-topic: get-started-with-workfront
-title: 「導覽 [!DNL Adobe Workfront]：文章索引」
+title: 導覽 [!DNL Adobe Workfront]：文章索引
 description: 請參閱這些文章以瞭解如何導覽Adobe Workfront並瞭解Workfront術語。
 feature: Get Started with Workfront
 author: Lisa

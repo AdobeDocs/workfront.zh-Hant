@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting
 navigation-topic: reports
-title: 「文字模式資源：文章索引」
+title: 文字模式資源：文章索引
 description: 文字模式資源
 author: Nolan
 feature: Reports and Dashboards

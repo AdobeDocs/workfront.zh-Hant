@@ -1,5 +1,5 @@
 ---
-title: 「Adobe Workfront校訂的秘訣、技巧和疑難排解：文章索引」
+title: Adobe Workfront校訂的秘訣、技巧和疑難排解：文章索引
 description: Adobe Workfront校訂的秘訣、技巧和疑難排解
 author: Courtney
 draft: Probably

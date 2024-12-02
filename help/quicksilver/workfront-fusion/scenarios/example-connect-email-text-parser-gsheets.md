@@ -2,7 +2,7 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: 「Adobe Workfront Fusion案例範例：連線電子郵件、文字剖析器和Google工作表」
+title: Adobe Workfront Fusion案例範例：連線電子郵件、文字剖析器和Google工作表
 description: 此案例可協助您建立所有電子郵件訊息的記錄，並在試算表中標籤這些訊息以供後續動作。 它會使用規則運算式(Regex)作為搜尋模式，擷取試算表中兩個個別表格中的電子郵件內文。 第一個模式會搜尋片語，第二個模式會搜尋相同的片語和電子郵件地址。
 author: Becky
 feature: Workfront Fusion

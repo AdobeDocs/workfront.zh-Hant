@@ -1,7 +1,7 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: 「開始使用面板：文章索引」
+title: 開始使用面板：文章索引
 description: 請檢閱這些文章，以瞭解如何在Workfront中使用面板。
 author: Lisa
 feature: Agile

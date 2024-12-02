@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「檢視：將父系任務的名稱顯示為全部大寫」
+title: 檢視：將父系任務的名稱顯示為全部大寫
 description: 您可以將此欄新增至工作檢視，以所有大寫字母顯示父系工作的名稱。
 author: Nolan
 feature: Reports and Dashboards

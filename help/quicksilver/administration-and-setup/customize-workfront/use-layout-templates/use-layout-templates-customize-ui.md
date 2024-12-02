@@ -1,5 +1,5 @@
 ---
-title: 「版面配置範本：文章索引」
+title: 版面配置範本：文章索引
 user-type: administrator
 content-type: reference
 product-area: system-administration;templates

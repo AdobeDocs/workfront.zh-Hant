@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「群組：Portfolio擁有者、方案擁有者、專案擁有者和專案狀態的4層級作業群組」
+title: 群組：Portfolio擁有者、方案擁有者、專案擁有者和專案狀態的4層級作業群組
 description: 此作業「群組」提供4個層次的「群組」。 在此情況下，任務會依Portfolio所有者、方案所有者、專案所有者和專案狀態分組。 使用標準介面，您最多只能有3個層級的「群組」。 若要新增第四個層級，您必須使用文字模式。 您無法同時依照超過4個准則將報表分組。
 author: Nolan
 feature: Reports and Dashboards

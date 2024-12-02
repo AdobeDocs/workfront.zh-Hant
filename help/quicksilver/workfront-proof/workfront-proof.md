@@ -3,7 +3,7 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: workfront-proof-navigation-topic
-title: 「Workfront Proof：文章索引」
+title: Workfront Proof：文章索引
 description: 瞭解如何使用Workfront Proof獨立產品。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents

@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「群組：時數的專案贊助者」
+title: 分組：時數的專案贊助者
 description: 此小時分組按記錄小時數的專案贊助者組織小時。 時數分組的標準Report Builder介面不提供專案贊助者欄位的對應。 您必須使用文字模式介面才能存取此欄位。
 author: Nolan
 feature: Reports and Dashboards

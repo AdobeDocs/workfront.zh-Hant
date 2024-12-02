@@ -2,8 +2,8 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「檢視：使用者個人休假」
-description: 「檢視：使用者個人休假」
+title: 檢視：使用者個人休假
+description: 檢視：使用者個人休假
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b55b302-5cdc-4437-9ce4-a15b5b43dccb

@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「檢視：問題的提交路徑」
+title: 檢視：問題的提交路徑
 description: 您可以在問題報告的檢視中顯示提交問題的路徑。 此路徑會指出最初提交問題的佇列、主題群組和佇列主題。
 author: Nolan
 feature: Reports and Dashboards

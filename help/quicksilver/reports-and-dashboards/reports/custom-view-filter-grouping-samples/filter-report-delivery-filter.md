@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「篩選器：顯示排程傳送的報告」
+title: 篩選器：顯示已排程傳送的報告
 description: 此報告篩選器會顯示所有排程在Adobe Workfront中自動傳送的報告。 最好搭配標準檢視使用。
 author: Lisa and Nolan
 feature: Reports and Dashboards

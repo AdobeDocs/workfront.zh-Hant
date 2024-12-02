@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「報告：合併的任務和問題檢視與分組」
+title: 報告：合併的任務和問題檢視與群組
 description: 此工作專案報告顯示使用者已接受在一個報告中處理的任務和問題。 最好與自訂分組結合。
 author: Nolan
 feature: Reports and Dashboards

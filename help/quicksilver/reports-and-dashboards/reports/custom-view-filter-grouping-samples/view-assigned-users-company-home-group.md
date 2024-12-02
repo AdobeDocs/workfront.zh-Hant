@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「檢視：指派使用者的公司和主群組」
+title: 檢視：指派使用者的公司和主群組
 description: 此任務檢視會顯示任務之主要擁有者的公司和主群組。 這些值在標準介面中無法使用，但可透過文字模式存取。
 author: Nolan
 feature: Reports and Dashboards

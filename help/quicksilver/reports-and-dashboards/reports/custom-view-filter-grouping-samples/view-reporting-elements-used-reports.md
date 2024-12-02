@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「檢視：報表中使用的報表元素」
+title: 檢視：報表中使用的報表元素
 description: 當您在報告清單中使用每個報告時，此檢視會顯示用來在Adobe Workfront中建立每個報告的檢視、篩選和分組。
 author: Nolan
 feature: Reports and Dashboards

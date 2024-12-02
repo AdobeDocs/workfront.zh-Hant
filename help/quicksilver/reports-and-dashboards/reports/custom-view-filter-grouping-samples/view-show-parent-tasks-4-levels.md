@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「檢視：顯示上層任務最多4個層級」
+title: 檢視：最多顯示4個層級的父系任務
 description: 此任務檢視會在第一欄顯示任務名稱，並在相同清單的不同欄中顯示最多4個父系任務（如果存在）。
 author: Nolan
 feature: Reports and Dashboards

@@ -2,7 +2,7 @@
 content-type: release-notes
 product-area: Workfront Proof
 navigation-topic: proof-release-activity
-title: 「Workfront Proof發行活動： 2021年5月17日當週」
+title: Workfront Proof發行活動： 2021年5月17日起一週
 description: 本頁說明對Workfront Proof （獨立校訂應用程式）所做的變更。 此處說明的變更不適用於Adobe Workfront應用程式內的校訂功能。
 author: Luke
 feature: Product Announcements, Workfront Proof

@@ -2,7 +2,7 @@
 content-type: reference;overview
 product-area: resource-management
 navigation-topic: resource-management-navigation-topic
-title: 「資源規劃：文章索引」
+title: 資源規劃：文章索引
 description: 本節中的文章包含有關Adobe Workfront資源區域規劃師和資源集區部分的功能資訊。
 author: Lisa
 feature: Resource Management

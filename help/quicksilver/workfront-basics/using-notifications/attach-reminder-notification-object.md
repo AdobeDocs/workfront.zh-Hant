@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
 title: 將提醒通知附加至物件
-description: 「您可以將提醒通知與數個不同物件型別建立關聯：專案、任務、問題、時程表、範本、範本任務和週期性時程表設定檔。」
+description: 您可以將提醒通知與數個不同物件型別建立關聯：專案、任務、問題、時程表、範本、範本任務和週期性時程表設定檔。
 author: Lisa
 feature: Get Started with Workfront
 exl-id: ea04d807-1a9f-4a23-96de-cd83f0821ba0

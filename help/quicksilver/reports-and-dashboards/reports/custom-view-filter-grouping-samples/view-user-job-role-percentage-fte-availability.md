@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「檢視：使用者工作角色可用性百分比」
+title: 檢視：使用者工作角色可用FTE的百分比
 description: 您可以在使用者清單的檢視中新增欄位，以顯示使用者相關聯的「工作角色」清單，以及每個工作角色的FTE可用性百分比（如使用者設定檔中所定義）。
 author: Nolan
 feature: Reports and Dashboards

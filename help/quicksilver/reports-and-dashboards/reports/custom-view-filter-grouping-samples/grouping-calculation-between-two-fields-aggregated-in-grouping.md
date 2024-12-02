@@ -3,7 +3,7 @@ content-type: reference
 product-area: reporting;projects
 keywords: 計算，彙總，進階，檢視
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「分組：顯示分組中多個計算值的彙總結果」
+title: 分組：顯示分組中多個計算值的彙總結果
 description: 您可以使用欄中的文字模式，在報表或清單檢視中的兩個欄位之間顯示計算。 每一行會顯示報表或清單中每個物件的計算。
 author: Nolan
 feature: Reports and Dashboards

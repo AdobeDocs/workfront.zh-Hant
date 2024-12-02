@@ -1,5 +1,5 @@
 ---
-title: 'AI助理：文章索引'
+title: AI助理：文章索引
 content-type: reference
 description: 檢視有關Workfront中AI助理的可用文章清單
 author: Becky

@@ -2,7 +2,7 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-duration
-title: 「期間型別概觀：計算的工作量」
+title: 期間型別概觀：計算的工作量
 description: 「計算的工作量」是一種期間型別，您可以在Adobe Workfront中為任務設定。 如需Workfront中期間型別的一般資訊，請參閱任務期間與期間型別概觀。
 author: Alina
 feature: Work Management

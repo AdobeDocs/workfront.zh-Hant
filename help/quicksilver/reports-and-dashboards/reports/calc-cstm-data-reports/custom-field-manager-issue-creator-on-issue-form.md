@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting
 navigation-topic: calculate-custom-data-reports
-title: 「計算自訂欄位範例：在問題自訂表單上顯示問題建立者的管理員」
+title: 計算自訂欄位範例：在問題自訂表單上顯示問題建立者的管理員
 description: 使用計算自訂欄位，您可以在附加到問題的自訂表單上顯示問題建立者的經理名稱。 使用相同的陳述式，您可以為專案、問題和其他物件建置類似的計算欄位。
 author: Nolan
 feature: Reports and Dashboards
@@ -38,7 +38,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p>Adobe Workfront授權*</p> </td> 
-   <td> <p>計劃 </p> </td> 
+   <td> <p>規劃 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>存取層級設定*</td> 

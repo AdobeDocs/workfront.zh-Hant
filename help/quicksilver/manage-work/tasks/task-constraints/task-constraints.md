@@ -2,7 +2,7 @@
 content-type: reference
 product-area: projects
 navigation-topic: tasks
-title: 「任務限制：文章索引」
+title: 任務限制：文章索引
 description: 任務限制決定任務在專案上何時開始和結束。 您可以使用數個「任務限制」來指示任務應該何時開始和結束。 如需Workfront中所有任務限制的相關資訊，請參閱下列文章。
 author: Alina
 feature: Work Management

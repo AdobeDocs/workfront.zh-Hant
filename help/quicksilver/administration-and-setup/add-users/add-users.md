@@ -3,7 +3,7 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;user-management
 navigation-topic: administration-and-setup
-title: 「使用者管理：文章索引」
+title: 使用者管理：文章索引
 description: 您可以從頭開始建立個別使用者，或複製現有使用者，以便在Adobe Workfront中新增使用者。
 author: Lisa
 feature: System Setup and Administration

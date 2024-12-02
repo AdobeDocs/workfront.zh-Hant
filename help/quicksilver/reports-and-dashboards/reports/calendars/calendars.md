@@ -2,7 +2,7 @@
 content-type: reference
 product-area: calendars
 navigation-topic: reports
-title: 「行事曆：文章索引」
+title: 行事曆：文章索引
 description: 行事曆報告是一種動態報告，可提供工作的視覺化呈現。 您可以在行事曆報告中顯示專案、任務和問題的日期資訊。 請參閱這些文章以瞭解Adobe Workfront中的行事曆報告。
 author: Lisa
 feature: Reports and Dashboards

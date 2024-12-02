@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: 2020-2-release-activity
-title: '2020.2資源管理增強功能：工作負載平衡器'
+title: 2020.2資源管理增強功能：工作負載平衡器
 description: 本頁說明2020.2版對生產環境所做的所有資源管理增強功能。 這些增強功能已在2020年5月11日當週的生產環境中推出。
 author: Luke
 feature: Product Announcements

@@ -3,7 +3,7 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: avoiding-spam-filters
 title: 設定 [!DNL Workfront Proof] 封電子郵件以避免垃圾郵件篩選器
-description: 「您的電子郵件使用者端的垃圾郵件篩選器有一個重要目的：保護您免受惱人的和可能的惡意垃圾郵件電子郵件的侵擾。 但是，如果垃圾郵件篩選器中沒有正確的設定，則可能會阻止您看到以下重要的 [!DNL Workfront Proof] 電子郵件：校訂電子郵件通知、電子報和特殊通訊。」
+description: 您的電子郵件使用者端的垃圾郵件篩選器有一個重要的用途：保護您免受惱人的和可能的惡意垃圾郵件電子郵件的侵擾。 但是，如果垃圾郵件篩選器中沒有正確的設定，則可能會阻止您看到以下重要的 [!DNL Workfront Proof] 電子郵件：校訂電子郵件通知、電子報和特殊通訊。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1fce3d83-fdce-4ded-8e78-3468243a59e1

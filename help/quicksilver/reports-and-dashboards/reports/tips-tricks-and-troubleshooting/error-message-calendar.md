@@ -2,7 +2,7 @@
 content-type: tips-tricks-troubleshooting
 product-area: reporting;calendars
 navigation-topic: tips-tricks-and-troubleshooting-reports
-title: 「行事曆上的錯誤訊息：『此行事曆擁有已停用使用者的檢視許可權。』」
+title: 行事曆上的錯誤訊息：「此行事曆擁有已停用使用者的檢視許可權。」
 description: 瞭解「此行事曆擁有已停用使用者的檢視許可權」錯誤訊息。
 author: Lisa
 feature: Reports and Dashboards

@@ -1,7 +1,7 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: 「通知：需要動作」
+title: 通知：需要動作
 description: 下列通知可讓您知道您是否需要對工作專案採取行動。 如需有關設定您收到哪些通知的資訊，請參閱修改您自己的電子郵件通知。
 author: Lisa
 feature: Get Started with Workfront

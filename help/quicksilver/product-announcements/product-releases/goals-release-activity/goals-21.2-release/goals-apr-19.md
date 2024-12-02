@@ -2,7 +2,7 @@
 product-previous: workfront-goals
 content-type: release-notes
 navigation-topic: goals-release-activity
-title: 「Adobe Workfront目標21.2發行活動：2021年4月19日起一週」
+title: Adobe Workfront Goals 21.2發行活動： 2021年4月19日起一週
 description: 本頁說明2021年4月19日當週預覽環境中Adobe Workfront目標的21.2版本所做的所有增強功能。 這些增強功能將於21.2第一季在生產環境中推出。
 author: Luke
 feature: Product Announcements, Workfront Goals

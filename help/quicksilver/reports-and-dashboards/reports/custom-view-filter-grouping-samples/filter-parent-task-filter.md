@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「篩選器：顯示父系任務」
+title: 篩選：顯示父系任務
 description: 您可以套用以下任務篩選器以顯示工作任務。 工作任務是可以獨立工作的任務，不是其他任務的父級任務。 在一個範例中，篩選器會識別可能是父系本身的子系任務。 在這種情況下，他們無法執行任務。
 author: Lisa and Nolan
 feature: Reports and Dashboards

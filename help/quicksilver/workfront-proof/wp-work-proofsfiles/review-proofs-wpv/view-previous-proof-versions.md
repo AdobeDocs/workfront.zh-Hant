@@ -3,7 +3,7 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: review-proofs-workfront-proofing-viewer
 title: 在網路校訂檢視器中檢視先前的校訂版本
-description: 「注意：本節中說明的資訊僅適用於Web Proofing Viewer，且僅可用於檢閱視訊或靜態（非互動式）校訂時。」
+description: 注意：本節中說明的資訊僅適用於Web Proofing Viewer，且僅可用於檢閱視訊或靜態（非互動式）校訂時。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 98a9917d-246d-438f-b6a6-98b5958df4a3

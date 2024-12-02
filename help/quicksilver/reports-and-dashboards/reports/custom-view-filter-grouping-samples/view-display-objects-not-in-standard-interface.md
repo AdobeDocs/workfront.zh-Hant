@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「檢視：顯示未包含在標準介面中的物件」
+title: 檢視：顯示未包含在標準介面中的物件
 description: 您可以在檢視中顯示未包含在標準模式介面中的物件。 您只能透過文字模式來參照它們。
 author: Nolan
 feature: Reports and Dashboards

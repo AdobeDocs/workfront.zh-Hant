@@ -1,7 +1,7 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: 「通知：核准資訊」
+title: 通知：核准資訊
 description: 下列通知會提醒您有關您參與之工作專案的核准活動。 如需有關設定您收到哪些通知的資訊，請參閱修改您自己的電子郵件通知。
 author: Lisa
 feature: Get Started with Workfront

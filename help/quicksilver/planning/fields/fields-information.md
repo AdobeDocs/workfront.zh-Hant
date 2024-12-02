@@ -1,5 +1,5 @@
 ---
-title: 「欄位：文章索引」
+title: 欄位：文章索引
 description: 您可以在Adobe Workfront Planning中新增反映組織生命週期的欄位。 欄位是記錄型別的屬性。
 feature: Workfront Planning
 role: User, Admin

@@ -1,7 +1,7 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: '通知：通訊'
+title: 通知：通訊
 description: 下列通知會提醒您有關您參與的工作專案上發生的通訊，例如更新註解。 如需有關設定您收到哪些通知的資訊，請參閱修改您自己的電子郵件通知。
 author: Lisa
 feature: Get Started with Workfront

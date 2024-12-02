@@ -2,7 +2,7 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: 「任務限制總覽：儘可能遲」
+title: 任務限制總覽：儘可能遲
 description: 儘可能延遲(ALAP)是Adobe Workfront任務限制，可將任務的完成時間儘可能置於專案結尾處。
 author: Alina
 feature: Work Management

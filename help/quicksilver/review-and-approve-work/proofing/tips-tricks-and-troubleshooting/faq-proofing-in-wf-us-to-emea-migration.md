@@ -2,7 +2,7 @@
 content-type: tips-tricks-troubleshooting
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-proofing-within-workfront
-title: 「常見問題集：Adobe Workfront內部校訂 — 美國移轉至EMEA」
+title: 常見問題集：Adobe Workfront內的校訂 — 美國移轉至EMEA
 description: Adobe Workfront會直接連絡所有受Workfront Proof美國影響的組織，以移轉至EMEA。
 author: Courtney
 feature: Digital Content and Documents

@@ -1,7 +1,7 @@
 ---
 content-type: reference
 navigation-topic: get-started-with-workfront
-title: "使用通知：文章索引"
+title: 使用通知：文章索引
 description: 請檢閱這些文章以瞭解如何在Adobe Workfront中使用通知。
 author: Nolan
 feature: Get Started with Workfront

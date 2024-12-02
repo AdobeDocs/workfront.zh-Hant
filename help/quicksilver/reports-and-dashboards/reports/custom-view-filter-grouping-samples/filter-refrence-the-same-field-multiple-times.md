@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「篩選：建立參照相同欄位（'AND'陳述式）的多個篩選規則」
+title: 篩選：建立參照相同欄位（「AND」陳述式）的多個篩選規則
 description: 在標準模式介面中，當您嘗試建立參照相同欄位的多個篩選器時（使用AND限定詞），當您儲存報表並退出Report Builder時會刪除其中一個篩選器。
 author: Nolan
 feature: Reports and Dashboards

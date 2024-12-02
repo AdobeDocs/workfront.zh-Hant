@@ -2,7 +2,7 @@
 content-type: reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: 「檢閱及核准檔案：文章索引」
+title: 檢閱和核准檔案：文章索引
 description: 本節包含在Adobe Workfront中檢閱檔案的相關文章。
 author: Courtney
 feature: Work Management, Digital Content and Documents

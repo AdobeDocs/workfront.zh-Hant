@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「篩選器：顯示不完整的跨專案前置任務」
+title: 篩選器：顯示不完整的跨專案前置任務
 description: 此任務篩選器傳回不完整的跨專案前置任務。
 author: Lisa and Nolan
 feature: Reports and Dashboards

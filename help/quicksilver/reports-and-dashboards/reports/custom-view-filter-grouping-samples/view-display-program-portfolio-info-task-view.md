@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects;portfolios;programs
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「檢視：在任務檢視中顯示程式和Portfolio資訊」
+title: 檢視：在作業檢視中顯示程式與Portfolio資訊
 description: 此任務檢視會顯示與任務專案關聯的方案和Portfolio。 建立任務檢視時，Report Builder中不提供此資訊。 只有文字模式才有此資訊。
 author: Nolan
 feature: Reports and Dashboards

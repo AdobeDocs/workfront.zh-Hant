@@ -2,7 +2,7 @@
 content-type: release-notes
 navigation-topic: product-releases-archive
 title: 2018.3版本活動概覽
-description: 「注意： 2018.3版在以下日期可在生產環境中使用(如需詳細日期和時間，請參閱trust.workfront.com)」
+description: 注意： 2018.3版在以下日期可在生產環境中取得(如需詳細日期和時間，請參閱trust.workfront.com)
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog

@@ -2,7 +2,7 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: 「可以開始工作概覽」
+title: 任務的「可以開始」總覽
 description: 當任務準備開始時，Adobe Workfront會在任務中新增可以開始指標，讓您輕鬆識別開始處理任務是否安全。 您可以在任務清單或報告的檢視中檢視此指標。
 author: Alina
 feature: Work Management

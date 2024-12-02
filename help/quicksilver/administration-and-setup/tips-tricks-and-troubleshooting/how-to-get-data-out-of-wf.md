@@ -3,7 +3,7 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: 「從Adobe Workfront匯出歷史資料：優點與缺點」
+title: 從Adobe Workfront匯出歷史資料：優缺點
 description: 本文說明可用來從Workfront匯出歷史資料的4個選項的優缺點。
 author: Lisa
 feature: System Setup and Administration

@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「檢視：展開的使用者詳細資訊」
+title: 檢視：展開的使用者詳細資訊
 description: 此「使用者」檢視會顯示有關使用者的資訊。 除了其名稱、存取層級和公司之外，它還會顯示其群組、團隊和工作角色的清單。
 author: Nolan
 feature: Reports and Dashboards

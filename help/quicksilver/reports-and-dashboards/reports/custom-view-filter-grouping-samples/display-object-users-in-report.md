@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「報表或清單：顯示與物件相關聯的使用者」
+title: 報表或清單：顯示與物件相關聯的使用者
 description: 您可以在報告或清單中顯示與物件相關聯的使用者、工作角色和專案團隊，並在篩選器中參照它們。 您無法依使用者、工作角色或與物件關聯的專案團隊來分組。
 author: Lisa and Nolan
 feature: Reports and Dashboards

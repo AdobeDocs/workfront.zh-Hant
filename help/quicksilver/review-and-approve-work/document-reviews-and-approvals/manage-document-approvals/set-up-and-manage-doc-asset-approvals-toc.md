@@ -2,7 +2,7 @@
 content-type: reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: 「設定及管理資產和檔案核准：文章索引」
+title: 設定及管理資產和檔案核准：文章索引
 description: 本節包含有關在Workfront中管理資產和檔案核准的文章。
 author: Courtney
 feature: Work Management, Digital Content and Documents

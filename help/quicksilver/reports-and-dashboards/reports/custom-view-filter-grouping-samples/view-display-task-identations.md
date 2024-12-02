@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects;portfolios;programs
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「檢視：在任務清單中顯示任務縮排」
+title: 檢視：在工作清單中顯示工作縮排
 description: 在此任務檢視中，您可以將程式碼新增至「任務名稱」欄，以顯示根據專案的「工作分解結構」縮排的任務。
 author: Nolan
 feature: Reports and Dashboards

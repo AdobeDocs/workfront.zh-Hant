@@ -2,7 +2,7 @@
 content-type: reference
 product-area: documents;workfront-integrations
 navigation-topic: documents-navigation-topic
-title: 「Experience Manager Assets Essentials適用的Adobe Workfront：文章索引」
+title: 適用於Experience Manager Assets Essentials的Adobe Workfront：文章索引
 description: 適用於Experience Manager Assets Essentials的Adobe Workfront
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps

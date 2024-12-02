@@ -3,7 +3,7 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: 「錯誤訊息：無法驗證XML數位簽名」
+title: 錯誤訊息：無法驗證XML數位簽章
 description: 您無法成功建立與ADFS的連線。
 author: Lisa
 feature: System Setup and Administration

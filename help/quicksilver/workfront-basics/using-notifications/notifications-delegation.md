@@ -1,7 +1,7 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: '通知：委派'
+title: 通知：委派
 description: 下列通知可讓您瞭解在Adobe Workfront中您已委派或其他人為您委派的任務和問題。
 author: Lisa
 feature: Get Started with Workfront

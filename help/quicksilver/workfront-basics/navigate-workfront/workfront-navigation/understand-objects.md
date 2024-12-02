@@ -1,8 +1,8 @@
 ---
 content-type: overview;reference
 navigation-topic: workfront-navigation
-title: '[!DNL Adobe Workfront]物件概觀'
-description: 「您在 [!DNL Adobe Workfront] 中顯示的資訊由儲存在 [!DNL Workfront] 資料庫中的物件表示。 物件是驅動 [!DNL Workfront]中資訊的專案。 請參閱本文以深入瞭解這些物件。」
+title: '[!DNL Adobe Workfront]物件總覽'
+description: 您在 [!DNL Adobe Workfront] 中顯示的資訊由儲存在 [!DNL Workfront] 資料庫中的物件表示。 物件是驅動 [!DNL Workfront]中資訊的專案。 在本文章中進一步瞭解這些物件。
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90

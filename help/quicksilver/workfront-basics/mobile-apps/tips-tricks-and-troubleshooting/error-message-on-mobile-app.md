@@ -2,8 +2,8 @@
 content-type: tips-tricks-troubleshooting
 product-previous: mobile
 navigation-topic: tips-tricks-and-troubleshooting-mobile-apps
-title: 「 [!DNL Adobe Workfront] 行動應用程式上的錯誤訊息：『您的帳戶未啟用API。』」
-description: 「 [!DNL Adobe Workfront] 行動應用程式上的錯誤訊息：『您的帳戶未啟用API。』」
+title: ' [!DNL Adobe Workfront] 行動應用程式上的錯誤訊息：「您的帳戶未啟用API。」'
+description: ' [!DNL Adobe Workfront] 行動應用程式上的錯誤訊息：「您的帳戶未啟用API。」'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 120e56f4-9fd5-4c41-890e-981937714db0
@@ -30,7 +30,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe[!DNL Workfront]授權</strong></td> 
-   <td> <p>計劃</p> </td> 
+   <td> <p>規劃</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>存取層級設定</strong></td> 

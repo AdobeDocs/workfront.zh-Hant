@@ -2,7 +2,7 @@
 content-type: tips-tricks-troubleshooting;reference
 product-area: timesheets
 navigation-topic: timesheets-navigation-topic
-title: 「時程表的提示、技巧和疑難排解：文章索引」
+title: 時程表的提示、技巧和疑難排解：文章索引
 description: 在以下文章中進一步瞭解常見時程表行為或如何疑難排解時程表潛在問題。
 author: Alina
 feature: Timesheets

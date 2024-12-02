@@ -2,7 +2,7 @@
 content-type: tips-tricks-troubleshooting
 product-area: reporting
 navigation-topic: tips-tricks-and-troubleshooting-reports
-title: 「執行報告時出現錯誤訊息：『您目前未登入。』」
+title: 執行報告時的錯誤訊息：「您目前未登入。」
 description: 瞭解「您目前未登入」錯誤訊息。
 author: Nolan
 feature: Reports and Dashboards

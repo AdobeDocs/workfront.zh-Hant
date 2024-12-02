@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「篩選器：比較兩個欄位來排除清單中的專案」
+title: 篩選器：比較兩個欄位來排除清單中的專案
 description: 您可以比較清單中兩個欄位，藉此篩選清單中的專案。 例如，您只能顯示任務的實際完成日期晚於計畫完成日期的任務。
 author: Lisa and Nolan
 feature: Reports and Dashboards

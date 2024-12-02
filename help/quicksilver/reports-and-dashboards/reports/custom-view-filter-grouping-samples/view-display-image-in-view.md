@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「檢視：顯示影像而非欄中的字串」
+title: 檢視：在欄中顯示影像而非字串
 description: 您可以使用文字模式將檢視中的物件名稱取代為影像。 您也可以將連結新增至影像，以開啟其取代的物件。
 author: Nolan
 feature: Reports and Dashboards

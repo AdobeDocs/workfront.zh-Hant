@@ -2,7 +2,7 @@
 content-type: reference
 product-area: templates
 navigation-topic: create-and-manage-projects
-title: 「建立及管理專案範本：文章索引」
+title: 建立及管理專案範本：文章索引
 description: 請在下列文章中瞭解如何建立和管理專案範本。
 author: Alina
 feature: Work Management

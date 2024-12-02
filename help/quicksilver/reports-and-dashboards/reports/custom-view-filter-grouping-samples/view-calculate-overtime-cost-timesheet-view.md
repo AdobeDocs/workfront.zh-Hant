@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;timesheets
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「檢視：在時程表檢視中計算加班成本」
+title: 檢視：在時程表檢視表中計算加班成本
 description: Adobe Workfront預設不會計算加班，但您可以建立計算加班的時程表報表。
 author: Nolan
 feature: Reports and Dashboards

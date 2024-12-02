@@ -2,7 +2,7 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: create-and-manage-projects
-title: 「建立專案：文章索引」
+title: 建立專案：文章索引
 description: 在下列文章中瞭解有關建立專案的資訊。
 author: Alina
 feature: Work Management

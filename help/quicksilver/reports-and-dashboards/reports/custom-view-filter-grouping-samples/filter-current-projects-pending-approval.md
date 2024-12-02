@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「篩選：顯示您目前的擱置核准專案」
+title: 篩選：顯示您目前的擱置核准專案
 description: 下列專案篩選器會顯示處於目前 — 未決核准狀態的專案，其中登入的使用者是專案贊助者或Portfolio經理。
 author: Lisa and Nolan
 feature: Reports and Dashboards

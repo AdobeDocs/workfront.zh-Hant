@@ -2,7 +2,7 @@
 content-type: reference
 product-area: timesheets
 navigation-topic: timesheets-navigation-topic
-title: 「時程表：文章索引」
+title: 時程表：文章索引
 description: 在以下章節中進一步瞭解如何建立、編輯、核准和管理時程表、時程表設定檔和小時型別。
 author: Alina
 feature: Timesheets

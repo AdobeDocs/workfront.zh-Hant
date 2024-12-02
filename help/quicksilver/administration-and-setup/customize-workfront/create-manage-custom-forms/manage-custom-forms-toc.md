@@ -1,5 +1,5 @@
 ---
-title: 「管理自訂Forms和欄位：文章索引」
+title: 管理自訂Forms和欄位：文章索引
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms

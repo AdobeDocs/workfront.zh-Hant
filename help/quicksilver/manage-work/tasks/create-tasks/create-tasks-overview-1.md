@@ -2,7 +2,7 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: tasks
-title: 「建立任務：文章索引」
+title: 建立任務：文章索引
 description: 您可以在特定專案中建立任務。
 author: Alina
 feature: Work Management

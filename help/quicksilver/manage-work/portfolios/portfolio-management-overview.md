@@ -2,7 +2,7 @@
 content-type: overview;reference
 product-area: portfolios
 navigation-topic: projects-navigation-topic
-title: 「Portfolio管理：文章索引」
+title: Portfolio管理：文章索引
 description: Portfolio是具有統一特性的專案集合。 請在下列章節中瞭解有關投資組合管理的資訊。
 author: Alina
 feature: Work Management, Strategic Planning

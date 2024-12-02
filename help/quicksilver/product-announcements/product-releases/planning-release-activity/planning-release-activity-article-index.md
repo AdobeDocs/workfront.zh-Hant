@@ -1,6 +1,6 @@
 ---
 content-type: release-notes
-title: 「Adobe Workfront規劃發行活動：文章索引」
+title: Adobe Workfront規劃發行活動：文章索引
 description: 這是Adobe Workfront Planning產品的發行活動。
 author: Alina
 feature: Product Announcements

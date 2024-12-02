@@ -3,7 +3,7 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: 「Workfront Fusion發行活動： 2021年1月11日起一週」
+title: Workfront Fusion發行活動： 2021年1月11日起一週
 description: 本頁說明2021年1月11日當週在Adobe Workfront Fusion中所做的所有增強功能。
 author: Luke
 feature: Product Announcements, Workfront Fusion
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 使用Datadog模組，您可以：
 
-* Post時間序列點
+* 發佈時間序列點
 * 執行自訂API呼叫
 
 如需Datadog模組的相關資訊，請參閱[Datadog模組](../../../workfront-fusion/apps-and-their-modules/datadog-modules.md)。
@@ -66,9 +66,9 @@ ht-degree: 0%
 
 ## Microsoft Dynamics 365聯結器和模組現已推出
 
-您現在可以使用Workfront Fusion 2.0連線至您的Microsoft Dynamics 365帳戶。 使用Microsoft Dynamics 365模組，您可以：
+您現在可以使用Workfront Fusion 2.0連線至您的Microsoft Dynamics 365帳戶。 透過Microsoft Dynamics 365模組，您可以：
 
-* 在Microsoft Dynamics 365中新增或更新記錄時觸發案例
+* 在Microsoft Dynamics 365中新增或更新記錄時觸發情境
 * 建立、讀取、更新或刪除Microsoft Dynamics 365記錄
 * 執行自訂API呼叫
 

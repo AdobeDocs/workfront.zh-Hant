@@ -2,8 +2,8 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「檢視：包含校訂連結的檔案報告」
-description: 「檢視：包含校訂連結的檔案報告」
+title: 檢視：包含校訂連結的檔案報告
+description: 檢視：包含校訂連結的檔案報告
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a38c5e86-9789-41ca-a832-2ee5eb0a570b

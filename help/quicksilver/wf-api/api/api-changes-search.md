@@ -3,7 +3,7 @@ filename: api-changes-search
 content-type: api
 keywords: 物件，狀態，搜尋，最佳，實務，回應
 navigation-topic: api-navigation-topic
-title: 「核心API變更：狀態搜尋回應」
+title: 核心API變更：狀態搜尋回應
 description: 變更Workfront儲存狀態物件的方式。
 feature: Workfront API
 role: Developer

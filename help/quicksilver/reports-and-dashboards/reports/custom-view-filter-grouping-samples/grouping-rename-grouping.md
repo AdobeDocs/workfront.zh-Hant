@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「群組：編輯群組中的顯示名稱」
+title: 群組：編輯群組中的顯示名稱
 description: 您可以將清單和報告中的群組重新命名為您的使用者更熟悉的專案。
 author: Nolan
 feature: Reports and Dashboards

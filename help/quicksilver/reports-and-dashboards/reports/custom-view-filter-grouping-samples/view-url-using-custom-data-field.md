@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「檢視：使用自訂資料欄位的外部URL」
+title: 檢視：使用自訂資料欄位的外部URL
 description: 您可以在任務檢視中使用名為「自訂URL」的計算自訂欄位，顯示內部自訂URL的連結。
 author: Nolan
 feature: Reports and Dashboards

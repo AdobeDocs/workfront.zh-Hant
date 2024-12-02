@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「檢視：計算時間和日期差異」
+title: 檢視：計算時間和日期差異
 description: 瞭解如何計算時間和日期差異。
 author: Nolan
 feature: Reports and Dashboards

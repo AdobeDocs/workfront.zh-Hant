@@ -1,5 +1,5 @@
 ---
-title: 「核准的秘訣、技巧和疑難排解：文章索引」
+title: 核准的秘訣、技巧和疑難排解：文章索引
 description: 核准的秘訣、技巧和疑難排解
 author: Courtney
 draft: Probably

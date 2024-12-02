@@ -1,5 +1,5 @@
 ---
-title: 「自訂Forms：文章索引」
+title: 自訂Forms：文章索引
 user-type: administrator
 content-type: reference
 product-area: system-administration

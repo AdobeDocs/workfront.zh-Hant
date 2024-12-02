@@ -2,7 +2,7 @@
 content-type: overview
 navigation-topic: notifications
 title: 應用程式內通知概觀
-description: 「本文列出您可收到的應用程式內通知。 應用程式內通知可讓您隨時瞭解兩種資訊：宣告通知和工作專案通知。 網頁應用程式和行動應用程式均可使用這些功能。」
+description: 本文列出您可收到的應用程式內通知。 應用程式內通知可讓您隨時瞭解兩種資訊：宣告通知和工作專案通知。 網頁應用程式和行動應用程式皆可提供。
 author: Lisa
 feature: Get Started with Workfront
 exl-id: afc8cfe7-d9a7-458a-b437-bd4c75838cb0

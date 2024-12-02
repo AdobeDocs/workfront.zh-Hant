@@ -1,5 +1,5 @@
 ---
-title: 「記錄：文章索引」
+title: 記錄：文章索引
 description: 在Adobe Workfront Planning中建立記錄型別之後，您可以建立這些型別的個別記錄。 以下文章說明如何在Adobe Workfront Planning中建立和管理記錄及其資訊。
 author: Alina
 feature: Workfront Planning

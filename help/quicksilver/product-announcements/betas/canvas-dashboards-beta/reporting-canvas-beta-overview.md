@@ -1,7 +1,7 @@
 ---
 content-type: reference
 navigation-topic: betas
-title: 「報告畫布測試版：概觀」
+title: 報告畫布Beta版：概觀
 description: 即將推出的Adobe Workfront報告畫布工具的Beta版計畫相關資訊
 author: Nolan
 feature: Product Announcements

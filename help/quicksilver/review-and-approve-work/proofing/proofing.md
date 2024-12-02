@@ -2,7 +2,7 @@
 content-type: reference
 product-area: documents
 navigation-topic: documents-navigation-topic
-title: 「校訂：文章索引」
+title: 校訂：文章索引
 description: 在創意團隊工作的同一檔案中檢閱和註解。 有了Workfront Proofing，您可以請求意見反應、檢視評論，以及取得擱置中及已完成核准的通知，同時維護評論和版本的稽核軌跡。
 author: Courtney
 feature: Digital Content and Documents

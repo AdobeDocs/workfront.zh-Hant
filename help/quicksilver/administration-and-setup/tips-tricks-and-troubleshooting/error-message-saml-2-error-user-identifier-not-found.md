@@ -3,7 +3,7 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: 「錯誤訊息： SAML 2.0錯誤：找不到使用者識別碼」
+title: 錯誤訊息： SAML 2.0錯誤：找不到使用者識別碼
 description: 您無法成功建立與ADFS的連線。
 author: Lisa
 feature: System Setup and Administration

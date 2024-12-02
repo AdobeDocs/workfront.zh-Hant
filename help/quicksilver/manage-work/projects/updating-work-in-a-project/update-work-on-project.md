@@ -2,7 +2,7 @@
 content-type: reference
 product-area: projects
 navigation-topic: create-and-manage-projects
-title: 「更新專案上的工作：文章索引」
+title: 更新專案上的工作：文章索引
 description: 若要更新專案的狀態和進度，您必須更新其任務的狀態和進度。 最終將統計並顯示專案的進度。
 author: Alina
 feature: Work Management

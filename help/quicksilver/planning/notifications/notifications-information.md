@@ -1,5 +1,5 @@
 ---
-title: 'Adobe Workfront規劃通知：文章索引'
+title: Adobe Workfront規劃通知：文章索引
 description: 當有人在記錄評論中標籤您，或請求或授予您檢視或工作區的許可權時，您可能會收到電子郵件或應用程式內通知。 下列文章說明您可能會收到的Workfront Planning通知型別，以及如何管理通知偏好設定。
 author: Alina
 feature: Workfront Planning

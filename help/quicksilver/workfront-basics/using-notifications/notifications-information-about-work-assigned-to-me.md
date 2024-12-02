@@ -1,7 +1,7 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: 「通知：指派給我的工作相關資訊」
+title: 通知：關於指派給我的工作的資訊
 description: 下列通知會提醒您工作專案上發生指派給您的活動。
 author: Lisa
 feature: Get Started with Workfront

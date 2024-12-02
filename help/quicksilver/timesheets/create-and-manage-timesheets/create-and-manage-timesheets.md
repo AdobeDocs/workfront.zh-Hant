@@ -1,7 +1,7 @@
 ---
 product-area: timesheets
 navigation-topic: configure-timesheet-preferences
-title: 「建立及管理時程表：文章索引」
+title: 建立和管理時程表：文章索引
 description: 您可以在Adobe Workfront中建立時程表，並追蹤完成工作所花費的時間。 在下列文章中瞭解有關建立、編輯和管理時程表的詳細資訊。
 author: Alina
 feature: Timesheets

@@ -2,7 +2,7 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: 使用文字模式編輯檢視
-description: '注意：在文章中新增區段：/Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-views.html ***此外，在文字模式概觀文章中草稿此區域)'
+description: 注意：在文章中新增區段：/Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-views.html ***此外，在文字模式概觀文章中草稿此區域)
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8

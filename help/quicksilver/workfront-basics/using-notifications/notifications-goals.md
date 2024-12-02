@@ -1,15 +1,15 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: 「通知：目標」
-description: 「通知：目標」
+title: 通知：目標
+description: 通知：目標
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 12e66711-4438-4fcf-af79-7fcc2c3b1522
 source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
 source-wordcount: '567'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 

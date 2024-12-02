@@ -2,7 +2,7 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: 編輯群組中的文字模式
-description: '注意：讓所有FVG文章在文字模式下編輯時都相同)'
+description: 注意：讓所有FVG文章在文字模式中編輯時都相同)
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2eeecc16-ea6d-4a56-8ea3-e213706e89bf
@@ -39,7 +39,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計劃 </p> </td> 
+   <td> <p>規劃 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 

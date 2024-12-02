@@ -2,7 +2,7 @@
 content-type: reference
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
-title: 「管理校訂版本：文章索引」
+title: 管理校訂版本：文章索引
 description: 建立新版本的校訂
 author: Courtney
 feature: Digital Content and Documents

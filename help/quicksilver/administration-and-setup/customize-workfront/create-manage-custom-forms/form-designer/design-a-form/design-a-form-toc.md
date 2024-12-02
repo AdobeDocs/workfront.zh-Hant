@@ -1,5 +1,5 @@
 ---
-title: 「設計表單：文章索引」
+title: 設計表單：文章索引
 user-type: administrator
 content-type: reference
 product-area: system-administration

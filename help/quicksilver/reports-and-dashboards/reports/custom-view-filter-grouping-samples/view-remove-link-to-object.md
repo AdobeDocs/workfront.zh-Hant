@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「檢視：移除欄中物件的連結」
+title: 檢視：移除欄中物件的連結
 description: 依預設，您在檢視連結中顯示的某些物件會連結到物件的「詳細資訊」頁面。 例如，顯示專案名稱的欄是專案的連結；顯示使用者名稱的欄是使用者設定檔頁面的連結。
 author: Nolan
 feature: Reports and Dashboards

@@ -2,8 +2,8 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「群組：指示群組結果應使用文字模式摺疊或展開」
-description: 「群組：指示群組結果應使用文字模式摺疊或展開」
+title: Grouping：指出應使用文字模式收合或展開群組結果
+description: 群組：指出群組結果應使用文字模式收合或展開
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2880e06f-34f3-47b1-9462-5a15a20d6fee

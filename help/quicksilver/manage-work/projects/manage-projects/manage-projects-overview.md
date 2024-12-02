@@ -2,7 +2,7 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: create-and-manage-projects
-title: 「管理專案：文章索引」
+title: 管理專案：文章索引
 description: 請在下列文章中瞭解有關管理專案的資訊。
 author: Alina
 feature: Work Management

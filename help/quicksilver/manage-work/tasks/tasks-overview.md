@@ -2,7 +2,7 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: 「任務：文章索引」
+title: 任務：文章索引
 description: 任務是Adobe Workfront中會影響專案完成的較小工作專案。 在下列文章中瞭解關於管理工作的資訊。
 author: Alina
 feature: Work Management

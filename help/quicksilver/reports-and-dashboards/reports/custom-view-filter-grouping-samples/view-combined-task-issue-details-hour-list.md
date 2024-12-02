@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「檢視：以時數清單合併任務和問題詳細資訊」
+title: 檢視：以時數清單合併任務和問題詳細資訊
 description: 此時數檢視結合了「任務」和「問題名稱」欄，以及使用sharecol標籤的「任務」和「問題計畫時數」。 由於小時條目只能屬於任務或問題，因此兩個物件不能同時出現在同一欄中。 檢視的每一行都會填入任務或問題的資訊。
 author: Nolan
 feature: Reports and Dashboards

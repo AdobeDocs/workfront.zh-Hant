@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「群組：依照群組中所有物件通用的計算值來組織清單結果」
+title: 群組：依照群組中所有物件通用的計算值來組織清單結果
 description: 您可能想要在0至25、26至50、51至75、75至99和100的範圍內檢視依完成百分比分組的任務。 您可以使用文字模式來建立分組。
 author: Nolan
 feature: Reports and Dashboards

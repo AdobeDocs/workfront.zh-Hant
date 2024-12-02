@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「檢視：建立者的公司名稱問題」
+title: 檢視：建立者的公司名稱問題
 description: 此問題檢視會顯示與提交問題之使用者相關聯的公司名稱。
 author: Nolan
 feature: Reports and Dashboards

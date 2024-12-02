@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「檢視：任務和專案的原始問題詳細資訊」
+title: 檢視：任務和專案的原始問題詳細資訊
 description: 當問題轉換為任務或專案時，會在任務或專案與問題之間建立解決物件關係。 此檢視表會顯示任務或專案完成時自動完成的問題欄位。
 author: Nolan
 feature: Reports and Dashboards

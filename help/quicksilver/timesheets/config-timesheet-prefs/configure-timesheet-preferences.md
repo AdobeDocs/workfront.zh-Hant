@@ -2,7 +2,7 @@
 content-type: reference
 product-area: timesheets;setup
 navigation-topic: timesheets-navigation-topic
-title: 「設定時間的記錄方式：文章索引」
+title: 設定時間的記錄方式：文章索引
 description: 在本節的文章中瞭解如何設定以小時或天為單位記錄時間。
 author: Alina
 feature: Timesheets

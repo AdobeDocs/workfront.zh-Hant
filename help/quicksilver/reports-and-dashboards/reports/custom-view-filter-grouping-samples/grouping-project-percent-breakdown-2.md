@@ -2,8 +2,8 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「群組：專案百分比劃分2」
-description: 「在此自訂專案分組中，您可以顯示按專案完成百分比值範圍分組的專案。 劃分會以10%的增量顯示完成百分比值：0-10%、11-20%、21-30%等。
+title: 分組：專案百分比細目2
+description: 在此自訂專案分組中，您可以顯示按專案完成百分比值範圍分組的專案。 劃分會以10%的增量顯示完成百分比值：0-10%、11-20%、21-30%等。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7845fd66-8304-4154-8630-e72482cd753f

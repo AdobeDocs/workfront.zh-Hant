@@ -3,8 +3,8 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: 「錯誤訊息：無效引數：轉換值」
-description: 「嘗試變更現有自訂表單上自訂欄位格式時，出現下列錯誤訊息：『無效引數：轉換值'&amp； lt；..&amp；gt；』」
+title: 錯誤訊息：無效引數：轉換值
+description: 嘗試變更現有自訂表單上自訂欄位格式時，收到下列錯誤訊息：「無效引數：轉換值'&amp； lt；..&amp；gt；」
 author: Lisa
 feature: System Setup and Administration
 role: Admin

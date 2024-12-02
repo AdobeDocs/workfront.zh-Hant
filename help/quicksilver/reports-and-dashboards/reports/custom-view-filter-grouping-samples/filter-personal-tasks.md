@@ -2,11 +2,12 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「篩選器：個人任務」
+title: 篩選器：個人任務
 description: 此任務篩選器會傳回傳送給使用者的臨時工作請求，或使用者在其首頁區域中新增的待辦事項。 個人任務未連線至專案，但如果需要，可將其移至專案。
 author: Nolan
 feature: Reports and Dashboards
-source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
+exl-id: 204cfae1-7c57-4223-9e00-ac94e1e2ba3a
+source-git-commit: 8428bfba81fa988cf370581af0692e4ff595c0ae
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%

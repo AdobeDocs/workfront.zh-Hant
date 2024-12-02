@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「檢視：核准資訊的問題」
+title: 檢視：核准資訊的問題
 description: 以下問題檢視顯示核准流程、步驟、核准者名稱和授予核准前問題的狀態。 有些欄位無法透過標準介面產生器存取。
 author: Nolan
 feature: Reports and Dashboards

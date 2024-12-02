@@ -2,7 +2,7 @@
 content-type: reference
 product-area: resource-management
 navigation-topic: resource-management-navigation-topic
-title: 「工作負載平衡器：文章索引」
+title: 工作負載平衡器：文章索引
 description: 工作負載平衡器是Adobe Workfront中的資源排程工具，可讓您將任務和問題指派給人員資源。
 author: Lisa
 feature: Resource Management

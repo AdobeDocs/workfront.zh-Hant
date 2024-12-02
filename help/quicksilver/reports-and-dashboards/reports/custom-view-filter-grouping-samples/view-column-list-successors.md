@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「檢視：在欄中新增任務後續任務清單」
+title: 檢視：在欄中新增任務後續任務清單
 description: 您可以將欄新增至任務檢視，以顯示任務的後續任務清單。 「工作後置任務」欄包含後置任務的數目以及名稱。
 author: Nolan
 feature: Reports and Dashboards

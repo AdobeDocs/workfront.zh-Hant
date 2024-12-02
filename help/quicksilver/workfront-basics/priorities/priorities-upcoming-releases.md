@@ -1,6 +1,6 @@
 ---
 navigation-topic: get-started-with-workfront
-title: 「優先順序：即將發行的版本」
+title: 優先順序：即將發行的版本
 description: 檢視即將發行的「優先順序」發行資訊
 author: Courtney
 feature: Get Started with Workfront

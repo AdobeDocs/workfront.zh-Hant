@@ -2,7 +2,7 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: create-and-manage-projects
-title: 「專案財務：文章索引」
+title: 專案財務：文章索引
 description: 下列文章包含您可以找到專案財務資訊的區域的相關資訊，以及如何管理專案財務的相關資訊。
 author: Alina
 feature: Work Management

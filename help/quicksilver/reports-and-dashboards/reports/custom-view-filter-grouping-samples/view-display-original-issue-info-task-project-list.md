@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「檢視：在任務或專案清單上顯示原始問題資訊」
+title: 檢視：在任務或專案清單上顯示原始問題資訊
 description: 當問題已轉換為清單中的任務和專案後，您可以在任務和專案清單的檢視上顯示原始問題的資訊。
 author: Nolan
 feature: Reports and Dashboards

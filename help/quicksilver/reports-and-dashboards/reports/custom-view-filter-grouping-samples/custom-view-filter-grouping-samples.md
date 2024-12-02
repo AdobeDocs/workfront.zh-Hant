@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting
 navigation-topic: reports
-title: 「自訂檢視、篩選和分組範例：文章索引」
+title: 自訂檢視、篩選和分組範例：文章索引
 description: 本節提供您可以在Adobe Workfront帳戶中使用的自訂檢視、篩選器和群組的範例。
 author: Nolan
 feature: Reports and Dashboards

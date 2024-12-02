@@ -3,7 +3,7 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: 「Workfront Fusion發行活動： 2022年7月11日起一週」
+title: Workfront Fusion發行活動： 2022年7月11日起一週
 description: 本頁說明2022年7月11日當週在Adobe Workfront Fusion中所做的所有增強功能。
 author: Luke
 feature: Product Announcements, Workfront Fusion
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 * 當您的Figma帳戶中發生事件時觸發案例
 
-* Post或刪除檔案上的註解
+* 在檔案上張貼或刪除註解
 
 * 列出檔案、檔案版本記錄、專案檔案或專案的註解。
 

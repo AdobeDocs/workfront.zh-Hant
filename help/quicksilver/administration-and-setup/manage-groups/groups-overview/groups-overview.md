@@ -3,7 +3,7 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;user-management
 navigation-topic: manage-groups
-title: 「群組：文章索引」
+title: 群組：文章索引
 description: 群組與類似，但與團隊和公司不同。 Workfront管理員會授予群組對其需要工作和溝通的Workfront區域的存取權。
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups

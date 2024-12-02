@@ -2,7 +2,7 @@
 content-type: reference
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
-title: 「管理校訂截止日期：文章索引」
+title: 管理校訂截止日期：文章索引
 description: 新增、編輯或刪除階段的截止日期
 author: Courtney
 feature: Digital Content and Documents

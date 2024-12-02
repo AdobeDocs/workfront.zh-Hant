@@ -2,7 +2,7 @@
 content-type: reference
 product-area: documents
 navigation-topic: proofing-in-workfront-navigation-topic
-title: 「校訂概觀：文章索引」
+title: 校訂概觀：文章索引
 description: 校訂許可權設定檔概述
 author: Courtney
 feature: Digital Content and Documents

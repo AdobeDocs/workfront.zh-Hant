@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「檢視：任務檢視中的工期與計畫工時的比較基準差異」
+title: 檢視：作業檢視中的工期與計畫工時的比較基準差異
 description: 檢視「工期」與「計畫工時」的比較基準差異。
 author: Nolan
 feature: Reports and Dashboards

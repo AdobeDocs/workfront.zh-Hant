@@ -3,7 +3,7 @@ content-type: tips-tricks-troubleshooting
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: tips-tricks-and-troubleshooting-account-administration-workfront-proof
-title: 「常見問題集：Workfront Proof — 美國移轉至EMEA」
+title: 常見問題集： Workfront Proof — 美國移轉至EMEA
 description: Workfront會直接連絡所有受Workfront Proof美國影響的組織，以移轉至EMEA。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents

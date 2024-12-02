@@ -2,7 +2,7 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
-title: 「建立實務案例：文章索引」
+title: 建立實務案例：文章索引
 description: 請依照下列範例瞭解如何在Adobe Workfront Fusion中建立情境
 author: Becky
 feature: Workfront Fusion

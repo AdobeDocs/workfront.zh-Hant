@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「檢視：合併一個共用欄中多個欄的資訊」
+title: 檢視：合併一個共用欄中多個欄的資訊
 description: 您可以合併顯示在多個獨立欄中的資訊，並將其顯示在一個共用欄中。
 author: Nolan
 feature: Reports and Dashboards

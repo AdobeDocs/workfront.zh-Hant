@@ -3,7 +3,7 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: add-users-to-workfront
-title: 「Workfront中的單一登入：文章索引」
+title: Workfront中的單一登入：文章索引
 description: 您可以整合Workfront與現有的企業SSO解決方案。 此設定易於設定和管理，適用於OnDemand和OnPremise Enterprise客戶。
 author: Becky
 feature: System Setup and Administration

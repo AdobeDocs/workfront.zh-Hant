@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「檢視：永久編輯欄寬」
+title: 檢視：永久編輯欄寬
 description: 您可以拖放欄的邊界以符合想要的寬度，暫時修改欄的寬度。 如需詳細資訊，請參閱修改欄寬和順序。
 author: Nolan
 feature: Reports and Dashboards

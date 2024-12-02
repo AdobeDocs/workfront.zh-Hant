@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「群組：時數清單中專案所有者的主群組」
+title: 群組：時數清單中專案所有者的主群組
 description: 您可以在時數清單或報告中顯示專案所有者主群組的名稱。
 author: Nolan
 feature: Reports and Dashboards

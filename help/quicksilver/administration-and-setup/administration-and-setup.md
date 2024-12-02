@@ -3,7 +3,7 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;setup
 navigation-topic: administration-and-setup
-title: 「管理與設定：文章索引」
+title: 管理和設定：文章索引
 description: 尋找管理 Workfront 系統所需的資訊。
 feature: System Setup and Administration
 role: Admin

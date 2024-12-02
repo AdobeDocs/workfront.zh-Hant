@@ -3,7 +3,7 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: workfront-proof-navigation-topic
-title: 「開始使用 [!DNL Workfront Proof]：文章索引」
+title: 開始使用 [!DNL Workfront Proof]：文章索引
 description: 瞭解如何開始使用Workfront Proof。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents

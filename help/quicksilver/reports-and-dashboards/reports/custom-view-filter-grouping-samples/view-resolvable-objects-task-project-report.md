@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「檢視：任務或專案報告中的可解析物件」
+title: 檢視：任務或專案報表中的可解析物件
 description: 您可以在專案、任務檢視或報告中顯示所有可解析物件的清單。
 author: Nolan
 feature: Reports and Dashboards

@@ -3,7 +3,7 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: 「錯誤：由於各種錯誤，SSO使用者無法登入 [!DNL Adobe Workfront] 」
+title: '錯誤：由於各種錯誤，SSO使用者無法登入 [!DNL Adobe Workfront] '
 description: 當您收到有關同盟單一登入的登入錯誤時，您的使用者名稱/密碼組合或您對 [!DNL Workfront], the problem might be that your [!DNL Workfront] 執行個體的存取使用SSO，而您嘗試使用不正確的URL登入。
 author: Lisa
 feature: System Setup and Administration

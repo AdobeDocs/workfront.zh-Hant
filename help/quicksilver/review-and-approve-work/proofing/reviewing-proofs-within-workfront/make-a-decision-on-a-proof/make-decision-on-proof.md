@@ -2,7 +2,7 @@
 content-type: reference
 product-area: documents
 navigation-topic: review-proofs-within-workfront
-title: 「對校訂做出決定：文章索引」
+title: 對校訂做出決定：文章索引
 description: 核准校訂
 author: Courtney
 feature: Digital Content and Documents

@@ -3,7 +3,7 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: 「錯誤訊息：發生輕微問題。 該欄位用於多表單設定」
+title: 錯誤訊息：發生輕微問題。 該欄位用於多表單設定
 description: 當您在自訂表單的計算自訂欄位中變更計算時，出現一則錯誤訊息，告知您該欄位用於多表單設定時，您需要將該欄位取代為包含您要使用計算的新欄位。
 author: Lisa
 feature: System Setup and Administration

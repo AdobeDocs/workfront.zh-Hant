@@ -1,7 +1,7 @@
 ---
 content-type: reference
 navigation-topic: betas
-title: 「Canvas Dashboards測試版：發行活動」
+title: Canvas Dashboards測試版：發行活動
 description: Adobe Workfront Canvas控制面板Beta版的每週發行活動
 author: Nolan
 feature: Product Announcements

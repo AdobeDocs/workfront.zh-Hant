@@ -3,7 +3,7 @@ content-type: reference
 product-area: reporting
 keywords: 稽核，追蹤，自訂，欄位
 navigation-topic: calculate-custom-data-reports
-title: 「計算自訂欄位範例：顯示欄位的編輯歷史記錄」
+title: 計算自訂欄位範例：顯示欄位的編輯歷史記錄
 description: 如果使用者定期更新自訂欄位，而您想要擷取對欄位進行的所有變更的記錄以及變更發生的日期，則可以在計算的自訂欄位中擷取此資訊。
 author: Nolan
 feature: Reports and Dashboards
@@ -52,7 +52,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p>Workfront授權*</p> </td> 
-   <td> <p>計劃 </p> </td> 
+   <td> <p>規劃 </p> </td> 
   </tr> 
   <tr> 
    <td><strong>存取層級設定*</strong> </td> 

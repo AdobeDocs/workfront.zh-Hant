@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「篩選器：當狀態與不同群組相關聯時，依相同名稱狀態顯示專案」
+title: 篩選：當狀態與不同群組相關聯時，依相同名稱狀態顯示專案
 description: 您可以將具有3個字母鍵NST的任務狀態指派給群組A （已命名的新狀態）。 您可能有另一個任務狀態指派給群組B，也命名為New Status ，帶有3個字母的索引鍵NES。 雖然2個狀態的名稱可以相同，但3個字母的程式碼永遠都是唯一的。 如需群組狀態的詳細資訊，請參閱建立或編輯群組狀態。
 author: Nolan
 feature: Reports and Dashboards

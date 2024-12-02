@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「分組：將第四個分組新增至清單」
+title: 分組：將第四個分組新增至清單
 description: 矩陣報表中可包含4個群組。 如需矩陣報表的詳細資訊，請參閱建立矩陣報表。
 author: Nolan
 feature: Reports and Dashboards

@@ -2,7 +2,7 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: 「任務限制總覽：最新可用時間」
+title: 任務限制總覽：最新可用時間
 description: 最新可用時間(LAT)是Adobe Workfront中的任務限制型別。
 author: Alina
 feature: Work Management

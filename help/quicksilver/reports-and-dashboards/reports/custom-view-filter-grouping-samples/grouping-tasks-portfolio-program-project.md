@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects;portfolios;programs
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「分組：按Portfolio、方案和專案任務」
+title: 分組：按Portfolio、方案和專案任務
 description: 使用此任務群組可依投資組合、依方案，然後依其關聯的專案來群組任務。
 author: Nolan
 feature: Reports and Dashboards

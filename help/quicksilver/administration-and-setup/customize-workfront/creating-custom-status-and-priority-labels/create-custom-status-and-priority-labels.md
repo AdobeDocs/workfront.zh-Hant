@@ -1,5 +1,5 @@
 ---
-title: 「建立自訂狀態和優先順序標籤：文章索引」
+title: 建立自訂狀態和優先順序標籤：文章索引
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -33,6 +33,6 @@ ht-degree: 3%
 * [刪除自訂狀態](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/delete-a-custom-status.md)
 * [使用特定狀態列出具有未決核准流程的物件](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/list-objects-pending-approval-certain-status.md)
 * [建立及自訂優先順序](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md)
-* [建立或自訂問題嚴重性](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md)
+* [建立或自訂問題嚴重程度](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md)
 
 如需群組層級狀態的資訊，請參閱[管理群組狀態](../../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md)。

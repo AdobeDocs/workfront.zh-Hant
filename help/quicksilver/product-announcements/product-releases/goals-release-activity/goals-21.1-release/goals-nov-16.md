@@ -2,7 +2,7 @@
 product-previous: workfront-goals
 content-type: release-notes
 navigation-topic: goals-release-activity
-title: 「Adobe Workfront目標21.1發行活動：2020年11月16日當週」
+title: Adobe Workfront Goals 21.1發行活動：2020年11月16日當週
 description: 本頁說明2020年11月30日當週預覽環境中Adobe Workfront目標的21.1版本所做的所有增強功能。 這些增強功能將於21.1第一季在生產環境中推出。
 author: Luke
 feature: Product Announcements, Workfront Goals

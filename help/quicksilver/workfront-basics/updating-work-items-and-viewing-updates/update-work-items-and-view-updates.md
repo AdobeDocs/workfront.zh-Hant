@@ -2,7 +2,7 @@
 content-type: reference
 product-area: projects
 navigation-topic: get-started-with-workfront
-title: 「更新工作專案並檢視更新：文章索引」
+title: 更新工作專案和檢視更新：文章索引
 description: 您可以使用大部分物件的「更新」區段來新增評論和回覆，或遵循物件上發生變更的系統追蹤更新。
 author: Alina
 feature: Get Started with Workfront

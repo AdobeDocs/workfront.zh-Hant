@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「檢視：解析物件詳細資料的問題」
+title: 檢視：解析物件詳細資料的問題
 description: 此問題檢視顯示問題的解決物件的名稱和完成百分比，即使沒有解決任務或專案的存取權，問題建立者也可以洞察問題的進度。
 author: Nolan
 feature: Reports and Dashboards

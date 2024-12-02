@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;projects
 keywords: kickstart，kick-start，kickstart，kick-start
 navigation-topic: use-kick-starts
-title: 「Kick-Starts情境：簡單的專案和任務匯入準備」
+title: Kick-Starts情境：簡單的專案和任務匯入準備
 description: 詳細說明使用Kick Start方法匯入基本專案和任務的可用設定和控制項。
 author: Lisa
 feature: System Setup and Administration

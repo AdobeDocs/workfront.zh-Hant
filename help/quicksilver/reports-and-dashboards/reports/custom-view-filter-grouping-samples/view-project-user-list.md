@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「檢視：具有工作角色的專案使用者清單」
+title: 檢視：具有工作角色的專案使用者清單
 description: 您可以在專案清單或報告中套用此檢視，以顯示與專案相關聯的使用者清單，以及他們在專案上執行的工作角色清單。
 author: Nolan
 feature: Reports and Dashboards

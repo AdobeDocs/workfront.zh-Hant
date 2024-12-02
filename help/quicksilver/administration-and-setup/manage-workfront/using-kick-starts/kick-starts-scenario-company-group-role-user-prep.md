@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: kickstart，kick-start，kickstart，kick-start
 navigation-topic: use-kick-starts
-title: 「Kick-Starts情境：公司、群組、角色和使用者Kick-Starts準備」
+title: Kick-Start情境：公司、群組、角色和使用者Kick-Start準備
 description: 開始實作Adobe Workfront時，您可以匯入客戶清單、內部部門、職位角色和使用者資訊，而不是手動輸入資料。
 author: Caroline
 feature: System Setup and Administration

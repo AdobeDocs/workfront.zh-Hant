@@ -2,7 +2,7 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: 「任務限制總覽：最早可用時間」
+title: 作業限制概要：最早可用時間
 description: 「最早可用時間」是一種「任務限制」，可在考慮任何前置任務關係後，將任務排定在最早可用時間開始。
 author: Alina
 feature: Work Management

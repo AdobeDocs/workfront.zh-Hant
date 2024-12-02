@@ -2,7 +2,7 @@
 content-type: reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: 「資產和檔案檢閱和核准：文章索引」
+title: 資產和檔案檢閱和核准：文章索引
 description: 本節包含有關Adobe Workfront中的檔案核准的文章。
 author: Courtney
 feature: Work Management, Digital Content and Documents

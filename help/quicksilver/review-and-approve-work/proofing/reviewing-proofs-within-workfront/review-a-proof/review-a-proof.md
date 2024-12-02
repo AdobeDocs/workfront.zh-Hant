@@ -2,7 +2,7 @@
 content-type: reference
 product-area: documents
 navigation-topic: review-proofs-within-workfront
-title: 「檢閱校訂：文章索引」
+title: 檢閱校訂：文章索引
 description: 在校訂中檢視內容
 author: Courtney
 feature: Digital Content and Documents

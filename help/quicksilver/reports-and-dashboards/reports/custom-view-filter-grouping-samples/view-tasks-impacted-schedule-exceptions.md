@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「檢視：受排程例外影響的任務」
+title: 檢視：受排程例外影響的作業
 description: 此任務檢視會識別因週末、個人休假或其他排程例外而必須延遲完成的任務。
 author: Nolan
 feature: Reports and Dashboards

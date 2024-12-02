@@ -3,7 +3,7 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: set-up-workfront
-title: 「開始使用Adobe Workfront管理：文章索引」
+title: 開始使用Adobe Workfront管理：文章索引
 description: 在本節中，您可以找到有關Adobe Workfront首次設定的資訊和指示，以及身為Workfront管理員所需的資訊。
 author: Lisa
 feature: System Setup and Administration

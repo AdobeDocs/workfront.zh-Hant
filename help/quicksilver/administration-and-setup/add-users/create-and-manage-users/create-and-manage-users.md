@@ -1,5 +1,5 @@
 ---
-title: 「建立和管理使用者：文章索引」
+title: 建立和管理使用者：文章索引
 user-type: administrator
 content-type: reference
 product-area: system-administration;user-management

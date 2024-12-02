@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「檢視：隱藏欄的內容」
+title: 檢視：隱藏欄的內容
 description: 您可能想要隱藏檢視欄中的資訊。 您可以修改欄的文字模式來完成此操作。
 author: Nolan
 feature: Reports and Dashboards

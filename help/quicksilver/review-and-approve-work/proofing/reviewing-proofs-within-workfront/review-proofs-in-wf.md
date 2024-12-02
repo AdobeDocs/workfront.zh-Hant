@@ -2,7 +2,7 @@
 content-type: reference
 product-area: documents
 navigation-topic: proofing-in-workfront-navigation-topic
-title: 「在Adobe Workfront中檢閱校訂：文章索引」
+title: 在Adobe Workfront中檢閱校訂：文章索引
 description: 瞭解如何在Workfront中檢閱校樣。
 author: Courtney
 feature: Digital Content and Documents

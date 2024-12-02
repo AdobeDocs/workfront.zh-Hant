@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「檢視：具有父系任務資訊的時數」
+title: 檢視：含有父系任務資訊的時數
 description: 此時數檢視顯示記錄時數的任務名稱以及父系任務的名稱。
 author: Nolan
 feature: Reports and Dashboards

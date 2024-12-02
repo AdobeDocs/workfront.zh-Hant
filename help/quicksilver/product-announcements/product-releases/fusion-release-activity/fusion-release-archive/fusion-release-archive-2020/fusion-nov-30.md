@@ -4,7 +4,7 @@ content-type: release-notes
 product-area: workfront-integrations
 keywords: 融合
 navigation-topic: fusion-release-activity
-title: 「Workfront Fusion發行活動： 2020年11月30日當週」
+title: Workfront Fusion發行活動： 2020年11月30日當週
 description: 本頁說明2020年11月30日當週在Adobe Workfront Fusion中所做的所有增強功能。
 author: Luke
 feature: Product Announcements, Workfront Fusion

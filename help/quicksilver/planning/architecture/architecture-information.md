@@ -1,5 +1,5 @@
 ---
-title: 「架構：文章索引」
+title: 架構：文章索引
 description: 以下文章說明如何設定Adobe Workfront Planning的架構。 在此設定中，您將瞭解如何建立工作區、記錄型別和自訂欄位，以對應出您要在Workfront Planning中管理的工作流程。
 author: Alina
 feature: Workfront Planning

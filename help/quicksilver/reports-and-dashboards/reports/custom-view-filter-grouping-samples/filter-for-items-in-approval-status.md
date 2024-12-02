@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「篩選器：僅顯示處於核准狀態的專案」
+title: 篩選：僅顯示處於核准狀態的專案
 description: 您只能顯示目前處於「未決核准」之特定狀態的專案。 對於任何其他具有核准狀態的物件，其運作方式都相同。
 author: Lisa and Nolan
 feature: Reports and Dashboards

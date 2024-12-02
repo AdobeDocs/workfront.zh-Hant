@@ -1,5 +1,5 @@
 ---
-title: 「Adobe Workfront規劃資訊：文章索引」
+title: Adobe Workfront規劃資訊：文章索引
 description: 身為行銷營運領導者，您可以使用Adobe Workfront Planning來組織所有團隊在行銷生命週期中的工作。 本節中的文章說明如何設定規劃功能，以及如何開始將它們用於行銷活動管理操作。
 author: Alina
 feature: Workfront Planning
