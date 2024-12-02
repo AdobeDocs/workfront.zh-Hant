@@ -9,7 +9,8 @@ author: Becky
 feature: Workfront Fusion
 hide: true
 hidefromtoc: true
-source-git-commit: 686113b6dd658db6390b425946e5b80593a4dbd1
+exl-id: d60dc97d-2da6-44f4-a2ee-bb5e56317695
+source-git-commit: ff455b5da1db6a4edb9f6de5d9ff50a7658f91bb
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
@@ -105,8 +106,4 @@ ht-degree: 0%
 1. 從行事曆選取日期範圍，然後（選擇性）輸入時間。
 1. 選取要匯出Excel檔案還是CSV檔案。
 1. 按一下&#x200B;**套用**。
-
-
-
-
 

@@ -8,7 +8,8 @@ author: Becky
 feature: Workfront Fusion
 hide: true
 hidefromtoc: true
-source-git-commit: ed100c6ba32a6fbff6fa68ac7a4bfb38db861b17
+exl-id: 144c8dbd-a3e9-4267-b3db-0768dac8f384
+source-git-commit: 7bc49dcd8988ef7fd781fb88eba5b03576ca7054
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 0%
@@ -79,8 +80,4 @@ ht-degree: 0%
 * 若使用Workfront即時觸發程式模組，則必須加以篩選。
 
   如需指示，請參閱 [!DNL Workfront] > [!UICONTROL 觀看活動]模組](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#event-subscription-filters-in-the-workfront--watch-events-module)中的[活動訂閱篩選器。
-
-
-
-
 
