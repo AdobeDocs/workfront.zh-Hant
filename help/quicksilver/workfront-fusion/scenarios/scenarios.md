@@ -9,9 +9,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 6e181c07-4419-486f-bde1-ace3db349a72
-source-git-commit: 75cf9af858e90a640c45b211d36f35b684128c2f
+source-git-commit: e2c8af4428fa7ef910dad3a29abcc375760855cb
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '149'
 ht-degree: 0%
 
 ---
@@ -45,3 +45,9 @@ ht-degree: 0%
 * [複製 [!DNL Adobe Workfront Fusion]中的模組或案例](../../workfront-fusion/scenarios/copy-modules-or-scenarios.md)
 * [在 [!DNL Adobe Workfront Fusion] 案例中將模組更新為新版本](../../workfront-fusion/scenarios/update-module-to-new-version.md)
 * [在 [!DNL Adobe Workfront Fusion]中檢視及管理鎖定的案例](../../workfront-fusion/scenarios/view-and-manage-locked-scenarios.md)
+* [在Adobe Workfront Fusion中執行情境評分專家](/help/quicksilver/workfront-fusion/scenarios/run-scenario-scoring.md)
+
+
+
+
+
