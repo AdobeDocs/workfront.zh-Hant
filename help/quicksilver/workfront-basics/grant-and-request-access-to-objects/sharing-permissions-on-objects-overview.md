@@ -6,9 +6,9 @@ description: 您可以共用或移除您所建立之物件或與您共用之物�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: e1ac95e8be0f6059700ddacb120b08c7c7b683b1
+source-git-commit: 56b5791fc2e4f875052692c285f43ff03fe91ea9
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1182'
 ht-degree: 1%
 
 ---
@@ -108,6 +108,7 @@ ht-degree: 1%
     <ul> 
      <li><p>檢視物件</p></li> 
      <li><p>將檔案新增至物件</p></li> 
+     <li><p>將問題新增至物件（如果它是任務或專案）</p></li> 
      <li><p>檢視物件的財務資訊</p></li> 
      <li> <p>共用物件<br></p> <p>當您共用物件時，您可以授予其他使用者與您僅擁有物件之許可權層級的相同許可權，而不是更高的層級。</p> </li> 
     </ul> </td> 
@@ -118,7 +119,6 @@ ht-degree: 1%
     <ul> 
      <li>檢視許可權所包含的所有動作。</li> 
      <li>新增費用</li> 
-     <li>新增問題（如果它是任務或專案）</li> 
      <li>新增任務（若為專案）</li> 
      <li>編輯其上的自訂Forms</li> 
      <li>在物件上記錄時數</li> 
