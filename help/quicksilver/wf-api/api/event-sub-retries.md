@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: b698cb60-4cff-4ccc-87d7-74afb5badc49
-source-git-commit: 0325d305c892c23046739feff17d4b1fc11100cc
+source-git-commit: 05f8dc8770c185720520fc631e19c75b925a70bf
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 0%
@@ -40,6 +40,7 @@ ht-degree: 0%
 * 如果訂閱URL連續失敗超過2,000次，而且上次成功是在超過72小時之前，或是在任何時間範圍內連續失敗超過50,000次，則訂閱URL為&#x200B;**凍結**。
 * **已停用**&#x200B;訂閱URL將繼續每10分鐘嘗試傳送一次，並在成功傳送後重新啟用。
 * **凍結**&#x200B;訂閱URL絕對不會嘗試傳送，除非透過發出API要求來手動啟用。
+
 
 
 

@@ -6,7 +6,7 @@ description: 您可以共用或移除您所建立之物件或與您共用之物�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: 56b5791fc2e4f875052692c285f43ff03fe91ea9
+source-git-commit: 05f8dc8770c185720520fc631e19c75b925a70bf
 workflow-type: tm+mt
 source-wordcount: '1182'
 ht-degree: 1%
@@ -166,6 +166,7 @@ Workfront中的許可權是階層式繼承的。 這表示如果您授予使用�
 如果您將「管理」許可權授與物件的使用者群組，並將「檢視」許可權授與相同物件之該群組中的個別使用者，則使用者會透過物件的群組成員資格獲得最高層級的許可權（管理）。 
 
 如果您想要將較低許可權授予已經屬於具有較高許可權層級之組織單位（群組、團隊、工作角色或公司）的使用者，您必須從組織單位中移除許可權，並個別新增具有較低許可權層級的使用者。
+
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
