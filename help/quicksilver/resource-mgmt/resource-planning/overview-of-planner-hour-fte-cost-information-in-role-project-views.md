@@ -7,9 +7,9 @@ description: 資源規劃工具之專案與角色檢視中的時數、約當全�
 author: Lisa
 feature: Resource Management
 exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: c9e77e11fafbf224639289977783e95ccb45a9e2
 workflow-type: tm+mt
-source-wordcount: '2977'
+source-wordcount: '3086'
 ht-degree: 0%
 
 ---
@@ -217,12 +217,6 @@ ht-degree: 0%
 
 使用預算時數時，請考慮下列事項：
 
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-(Duplicated below ??)
-</MadCap:conditionalText>
--->
-
 * 只有當您對專案具有「資源管理」和「財務資料」的「編輯」存取權和「管理財務」許可權時，才能為資源編列預算。
 
   如需有關預算資源所需存取權的資訊，請參閱文章[在Adobe Workfront中預算資源所需的存取權](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md)。
@@ -232,15 +226,23 @@ ht-degree: 0%
   如需有關專案和角色選項的詳細資訊，請參閱本文中資源規劃工具](#Budget)的專案和角色檢視中的[時數概觀、約當全職人數和成本資訊一節。
 
 * 您可以為預算小時、FTE或成本的最小期間是一週。 您無法編列一天的時數、約當全職人數或成本的預算。
-* 預算時數會平均分配給任務期間內的每一天，適用於指派給他們的每個資源。 「工期」是以任務的「計劃開始日期」和「完成日期」為基礎，並包含該時段內的每個行事曆日。\
-  將預算時數分配給使用者或專案時，Workfront會考慮使用者或專案的排程。 在這種情況下，預算時數會平均分配到工作期間內的每一天，週末除外，但包括休假和排程例外狀況。\
+* 預算時數會平均分配給任務期間內的每一天，適用於指派給他們的每個資源。 「工期」是以任務的「計劃開始日期」和「完成日期」為基礎，並包含該時段內的每個行事曆日。
+
+  將預算時數分配給使用者或專案時，Workfront會考慮使用者或專案的排程。 在這種情況下，預算時數會平均分配到工作期間內的每一天，週末除外，但包括休假和排程例外狀況。
+
   例如，如果按周顯示「資源規劃工具」，而您的任務跨越數週，則每週的預算時數取決於該周內的天數是任務「工期」的一部分。 週末會從此分佈中排除。 當按月或季度顯示資源規劃工具，以及任務跨越多個月或季度時，其作用類似。
 
-* 您可以選取預算時數作為新報告的報告物件，來報告預算時數。\
-  如需您可以在Workfront中報告哪些物件的相關資訊，請參閱[瞭解Adobe Workfront中的物件](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)一文中的「報告物件」一節。\
+* 您可以選取預算時數作為新報告的報告物件，來報告預算時數。
+
+  如需您可以在Workfront中報告哪些物件的相關資訊，請參閱[瞭解Adobe Workfront中的物件](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)一文中的「報告物件」一節。
+
   如需有關建立預算時數報表的資訊，請參閱文章[報表：預算時數](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md)。
 
 * 先前為稍後停用的使用者編列的時數不會顯示。
+
+  請注意，專案的預算勞力成本仍包含已在資源規劃工具中停用的使用者的預算時數。
+
+  例如：如果角色指派給兩個使用者，且已新增預算時數（每個使用者20小時，總計40小時），然後手動設定該角色的總計，則停用資源規劃工具中的其中一個使用者會導致在計算中不再考慮其時數（將總時數降至20小時）。 但是，專案預算會正確保留手動設定的角色總計，因此停用的使用者小時仍會包含在計算中（保持在40小時）。
 
 ### VAR （變數）欄 {#the-var-variance-column}
 
