@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 59737844-e6ba-4f64-b2cc-a24c91525d37
-source-git-commit: 1cb0a3380d21d5fe3fb2eb40c5f19ec64d8bbbb4
+source-git-commit: d9bfe029f99bf4c205686dc7a30598f046977afd
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1388'
 ht-degree: 2%
 
 ---
@@ -126,7 +126,7 @@ ht-degree: 2%
 
 ### 管理員增強功能
 
-<table style="table-layout:auto">
+<table>
 <col style="width: 50%;" />
 <tbody>
     <tr>
@@ -243,6 +243,53 @@ ht-degree: 2%
 </tbody>
 </table>
 
+### 檔案管理增強功能
+
+
+<table>
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><span class="bold">功能</span></p>
+        </td>
+        <td>預覽</td>
+        <td>快速發行</td>
+        <td>每季</td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            用於單一指派任務的專案或使用者排程的偏好設定</a></p>
+            <p>作為系統或群組管理員，您現在有新的偏好設定，可指明Workfront在您指派一名使用者至任務，且專案和使用者都與排程相關聯時，是否應使用專案或使用者的排程來計算專案的時間表。</p>
+        </td>
+        <td><p>2024年11月16日</p> <p>[！BADGE New in Preview ]{type=Negative}<p></td>
+        <td>2024年12</td>
+        <td>25.1</td>
+    </tr>     
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            商業規則現在支援超連結</a></p>
+            <p>您現在可以在商業規則的自訂錯誤訊息中包含超連結，以指導使用者如何在規則的限制內修改其動作。 靜態URL可連結至對使用者有所幫助的檔案或其他頁面。</p>
+        </td>
+        <td>11月14日 </td>
+        <td><p>11月14日</p> <p>[！BADGE Out-of-cycle ]{type=Negative}</p></td>
+        <td><p>11月14日</p> <p>[！BADGE Out-of-cycle ]{type=Negative}</p></td>
+    </tr>    
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            「移至」圖示已新增到自訂欄位</a></p>
+            <p>當自訂表單包含具有多個欄位的多個區段時，透過拖放將欄位從一個區段移動到另一個區段會很困難。 每個欄位已新增「移至」圖示，可讓您選取欄位所在的區段。</p>
+        </td>
+        <td>10月29日</td>
+          <td><p>2024年12</p><p> [！BADGE In Production for Fast Release ]{type=Positive}</p></td>
+        <td>25.1<p> [！BADGE In Production]{type=Positive}</p></td>
+    </tr>
+</tbody>
+</table>
+
 <!--
 ### Functionality soon to be removed from Workfront
 
@@ -253,6 +300,9 @@ The following functionality is soon to be removed from Workfront:
 
 * [Adobe Workfront Fusion發行活動](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)。
 * [Adobe Workfront規劃2025年第一季發行活動](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)。
+
+此版本尚無下列專案的更新：
+
 * 情境規劃工具
 * 校樣
 * 目標
