@@ -3,17 +3,19 @@ product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 title: 要求物件的存取權
 description: 您對Adobe Workfront中物件的可見性取決於您對該物件型別的存取權以及您對個別物件的許可權。
-author: Alina
+author: Becky
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
+source-git-commit: dbdcebe0fae91e7b688cad4fd11bd5aaafe51d3b
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: '1454'
 ht-degree: 0%
 
 ---
 
 # 要求物件的存取權
+
+{{preview-fast-release-general}}
 
 您對Adobe Workfront中物件的可見性取決於您對該物件型別的存取權以及您對個別物件的許可權。
 
@@ -92,14 +94,18 @@ ht-degree: 0%
 1. 按一下&#x200B;**要求存取權**。\
    顯示&#x200B;**要求存取**&#x200B;對話方塊。
 
-1. （視條件而定）如果超過一位使用者擁有授予您額外存取權的適當存取權，則該使用者名稱旁邊會顯示下拉箭頭。
-1. 從下拉式清單中選取您要接收存取要求的使用者。\
+1. （視條件而定）如果超過一位使用者擁有授予您額外存取權的適當存取權，則該使用者名稱旁邊會顯示下拉箭頭。 從下拉式清單中選取應接收存取要求的使用者。
+
    下拉式清單中只會顯示10位使用者。 清單會依字母排序。\
    如需此下拉式功能表中使用者順序的詳細資訊，請參閱「要求存取」和「要求更多存取權」下拉式功能表的[階層](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus)。
 
 1. 從下拉式清單中，選取您要求的存取型別。
 1. （選擇性）在&#x200B;**P.S.**&#x200B;欄位中，指定使用者需要其他存取權原因的備註。
 
+   <span class="preview">預覽環境中的範例影像：</span>
+   ![要求存取對話方塊](assets/request-access-to-project.png)
+
+   生產環境中的影像範例：
    ![](assets/request-access-dialog-350x314.png)
 
 如果您沒有物件的存取層級許可權，而您嘗試透過連結存取該物件，則會顯示一個畫面，通知您聯絡Workfront管理員。
@@ -115,7 +121,7 @@ ht-degree: 0%
 
 1. 按一下專案名稱右側的&#x200B;**更多**&#x200B;功能表，然後按一下&#x200B;**要求更多存取權**。
 
-   ![](assets/request-access-in-project-350x201.png)
+   ![要求更多存取權](assets/more-menu-request-more-access.png)
 
 1. （視條件而定）如果超過一位使用者擁有授予您額外存取權的適當存取權，則該使用者名稱旁邊會顯示下拉箭頭。
 1. 從下拉式清單中選取您要接收存取要求的使用者。\
@@ -124,7 +130,12 @@ ht-degree: 0%
 
 1. 從下拉式清單中，選取您要求的存取層級。
 1. （選擇性）在&#x200B;**P.S.**&#x200B;欄位中，指定有關您需要額外存取權的理由的備註。
-1. 按一下&#x200B;**要求存取權**。\
+1. 按一下&#x200B;**要求存取權**。
+
+   <span class="preview">預覽環境中的範例影像：</span>
+   ![要求存取對話方塊](assets/request-access-to-project.png)
+
+   生產環境中的影像範例：
    ![](assets/request-access-dialog-350x314.png)
 
 ## 「要求存取權」和「要求更多存取權」下拉式功能表的階層 {#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus}
