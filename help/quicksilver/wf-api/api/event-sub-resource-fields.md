@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: d92dc8581bef1f5fdbef7a853ac27ffc3fa7ddbe
+source-git-commit: 6844e1cef741b60f0d2663ddb9bc9038ec88714d
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '757'
 ht-degree: 9%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 9%
 # 事件訂閱資源欄位
 
 事件訂閱資源欄位代表事件的觸發器，該事件會導致事件訂閱傳送傳出訊息至已設定的端點。 編輯資源欄位時會觸發UPDATE事件。
+
+請注意，資料可使用巢狀篩選進行篩選。 如需詳細資訊，請參閱文章事件訂閱API中的[使用巢狀篩選器](/help/quicksilver/wf-api/general/event-subs-api.md#using-nested-filters)。
 
 下表列出事件訂閱資源可用的欄位：
 
