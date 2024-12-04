@@ -3,9 +3,9 @@ title: 核准請求
 description: 當使用者將請求提交到與Adobe Workfront Planning中的核准相關聯的請求表單時，核准者會收到有關待核准的通知和電子郵件。 他們必須在Workfront Planning建立物件前核准請求。
 hide: true
 hidefromTOC: true
-source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
+source-git-commit: ab78b82db567193f32f6c67880b2b037dc78e849
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '798'
 ht-degree: 1%
 
 ---
@@ -58,7 +58,7 @@ recommendations: noDisplay, noCatalog
 * **已核准**：當核准者核准請求物件時，其個別狀態會變成
 * **已核准**，但整體要求物件狀態仍為&#x200B;**稽核中**，直到所有核准者都做出決定為止。
 * **已完成**：如果所有核准者核准該要求物件，其狀態會變更為&#x200B;**已完成**，或者該要求不需要核准。
-* **已拒絕**：如果任何核准者拒絕要求物件，狀態會變成&#x200B;**已拒絕**。
+* **已拒絕**：如果任何核准者拒絕要求物件，狀態會變成&#x200B;**已拒絕**。 不會建立記錄，必須提交新請求才能建立記錄。
 
 ## 存取需求
 

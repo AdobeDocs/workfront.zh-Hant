@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
+source-git-commit: 5db940b197364e30ef6e1ea3e3c94ae3bda5b20c
 workflow-type: tm+mt
-source-wordcount: '1631'
+source-wordcount: '1683'
 ht-degree: 0%
 
 ---
@@ -256,23 +256,29 @@ ht-degree: 0%
 
 <span class="preview">
 
-## 將「連線」檢視頁面新增至記錄的頁面
+## 新增連線檢視頁面到記錄的頁面
 
-您可以將「已連線」檢視頁面新增至記錄的頁面。
+將「連線」檢視新增至記錄頁面時，請考量下列事項：
 
-您無法將「已連線」檢視頁面新增至記錄的預覽區域。
+* 您可以將連線檢視頁面新增到記錄的頁面。
 
-已連線的檢視頁面在表格檢視中顯示一個已連線的記錄頁面。 表格檢視是唯讀的。
+* 您無法將[連線]檢視頁面新增到記錄的預覽區域。
 
-您可以為每個連線的記錄型別新增一個連線的檢視頁面。 <!--edit this when we can remove fields from this page-->
+* 連線檢視頁面會在表格檢視中顯示一個連線記錄頁面。 表格檢視是唯讀的。
 
-若要新增「連線的檢視」頁面，請執行下列動作：
+* 您可以為每個連線的記錄型別新增一個連線檢視頁面。 <!--edit this when we can remove fields from this page-->
 
-1. 在記錄頁面檢視中，按一下記錄名稱以開啟記錄，然後按一下預覽頁面右上角的「在新標籤中開啟」圖示![](assets/open-details-in-a-new-tab-icon.png)。
-1. 按一下&#x200B;**新增頁面** > **連線的檢視**。
-1. 新增&#x200B;**頁面名稱**，然後按一下&#x200B;**建立**。
+* 將「連線」檢視頁面新增到記錄頁面後，該頁面會從記錄的預覽區域可見。
 
-   在新索引標籤中向記錄頁面新增一個額外頁面。
+若要新增「連線」檢視頁面：
+
+1. 從記錄頁面檢視中，按一下記錄名稱以開啟它，然後按一下預覽頁面右上角的&#x200B;**在新索引標籤中開啟**&#x200B;圖示![](assets/open-details-in-a-new-tab-icon.png)。
+1. 按一下&#x200B;**新增頁面** > **連線檢視**。
+
+   ![](assets/add-connection-view-page-modal.png)
+1. 新增&#x200B;**頁面名稱**，按一下&#x200B;**連線檢視**，然後按一下&#x200B;**建立**。
+
+   新索引標籤將新增到記錄的頁面。
 1. 搜尋或按一下清單中連線記錄或物件型別的名稱。
 您選取之記錄型別的表格檢視會顯示，而連線的記錄會顯示在表格檢視中。
 表格檢視是唯讀的。
@@ -284,6 +290,7 @@ ht-degree: 0%
 
    將游標暫留在索引標簽名稱上，然後按一下[其他] **![](assets/more-menu.png)，然後按一下[重新命名]** **以重新命名為新的[連線檢視]索引標籤。**
 1. （選擇性）使用工具列中的任何檢視元素來管理表格檢視。 如需詳細資訊，請參閱[管理資料表檢視](/help/quicksilver/planning/views/manage-the-table-view.md)。
+1. （選擇性）將游標暫留在索引標簽名稱上，然後按一下&#x200B;**更多** ![](assets/more-menu.png)，然後按一下&#x200B;**刪除**&#x200B;以移除至新的「連線檢視」索引標籤。
 
 </span>
 

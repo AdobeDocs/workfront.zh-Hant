@@ -6,13 +6,12 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: d7c7b09b033705142b2c658c9d275e63299d3fd0
+source-git-commit: 5db940b197364e30ef6e1ea3e3c94ae3bda5b20c
 workflow-type: tm+mt
 source-wordcount: '811'
 ht-degree: 0%
 
 ---
-
 
 # 提交Adobe Workfront Planning請求以建立記錄
 

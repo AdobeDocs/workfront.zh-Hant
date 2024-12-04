@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 5db940b197364e30ef6e1ea3e3c94ae3bda5b20c
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '478'
 ht-degree: 1%
 
 ---
@@ -101,7 +101,7 @@ ht-degree: 1%
    * .docx Word
    * .pdf
 
-* 您可以匯出記錄頁面的「詳細資訊」標籤。
+* 您只能匯出記錄頁面或預覽區域的詳細資訊標籤。
 
 * 匯出的檔案會保留記錄頁面的版面，包括縮圖和封面影像。
 
