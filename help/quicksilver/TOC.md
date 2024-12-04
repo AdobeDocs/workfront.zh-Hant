@@ -3,7 +3,7 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 6abcd9afbf57162ff1c2dc362e7979fab6d1d997
+source-git-commit: 7bb56395151d88595d446703d5d689c03b1e0372
 workflow-type: tm+mt
 source-wordcount: '14673'
 ht-degree: 2%
@@ -857,7 +857,7 @@ ht-degree: 2%
       * [儲存電子郵件標題檔案](administration-and-setup/tips-tricks-and-troubleshooting/save-an-email-header-file.md)
       * [共用會顯示多個許可權](administration-and-setup/tips-tricks-and-troubleshooting/sharing-shows-more-than-1-permission.md)
       * [未接受未驗證的電子郵件](administration-and-setup/tips-tricks-and-troubleshooting/unauthenticated-email-not-accepted-domains-dmarc-policy.md)
-      * [Workfront： ZScaler設定可能會導致效能降低](administration-and-setup/tips-tricks-and-troubleshooting/zscaler-affects-performance.md)
+      * [Workfront：ZScaler 設定可能導致效能下降](administration-and-setup/tips-tricks-and-troubleshooting/zscaler-affects-performance.md)
       * [使用者認證與SAML認證](administration-and-setup/tips-tricks-and-troubleshooting/wf-user-credentials-vs-saml-user-credentials.md)
       * [更新存取層級中的自動升級選項](administration-and-setup/tips-tricks-and-troubleshooting/update-auto-upgrade-in-access-levels.md)
 * Adobe Workfront基本概念{#basics}
@@ -1846,7 +1846,6 @@ ht-degree: 2%
       * [資產和檔案檢閱和核准：文章索引](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
       * [檔案核准概觀](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
       * [檔案決定狀態概觀](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
-      * [建立報表控制面板以供檢閱和核准](review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)
       * 設定及管理資產和檔案核准{#manage-asset-review-and-approval}
          * [設定及管理資產和檔案核准：文章索引](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
          * [建立檔案稽核或核准請求](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
@@ -1855,6 +1854,7 @@ ht-degree: 2%
          * [建立資產和檔案的核准範本](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
          * [一起使用新檔案核准和校樣](review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
          * [上傳新檔案版本並請求核准](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)
+         * [建立報表控制面板以供檢閱和核准](review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)
       * 檢閱及核准資產和檔案{#review-and-approve-documents}
          * [檢閱和核准檔案：文章索引](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
          * [檢閱檔案](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)

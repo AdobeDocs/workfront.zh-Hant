@@ -5,12 +5,10 @@ title: 建立檢閱和核准儀表板
 description: 您可以在畫布控制面板中檢閱核准量度。
 author: Courtney
 feature: Work Management, Digital Content and Documents
-hide: true
-hidefromtoc: true
 exl-id: 48f8605b-c342-493b-96e7-f73248e34b35
-source-git-commit: 6abe9f371d8121ccbd66a379ad4b25f47417d885
+source-git-commit: 53db0a80026d003250e3b31063fb9a502d2ddce1
 workflow-type: tm+mt
-source-wordcount: '1991'
+source-wordcount: '2054'
 ht-degree: 1%
 
 ---
@@ -48,10 +46,9 @@ ht-degree: 1%
 
 ### KPI
 
-<!--
->>[!IMPORTANT]
+>[!IMPORTANT]
 >
->New document approvals data currently refreshes during the evenings in the US Mountain timezone. Real-time updates are planned and coming soon.-->
+>新檔案核准資料目前會在美國山區時區的晚上重新整理。 即時更新已列入計畫並即將推出。
 
 ![KPI範例](assets/kpi-dashboard.png)
 
@@ -132,6 +129,10 @@ ht-degree: 1%
 
 ### 圖表
 
+>[!IMPORTANT]
+>
+>新檔案核准資料目前會在美國山區時區的晚上重新整理。 即時更新已列入計畫並即將推出。
+
 ![圖表範例](assets/chart-dashboard.png)
 
 #### 依決定長條圖的核准
@@ -178,6 +179,10 @@ ht-degree: 1%
 1. 按一下熒幕右上角的&#x200B;**完成**。
 
 ## 使用表格新增詳細的檢閱和核准資訊
+
+>[!IMPORTANT]
+>
+>新檔案核准資料目前會在美國山區時區的晚上重新整理。 即時更新已列入計畫並即將推出。
 
 ![資料表範例](assets/table-dashboard.png)
 
