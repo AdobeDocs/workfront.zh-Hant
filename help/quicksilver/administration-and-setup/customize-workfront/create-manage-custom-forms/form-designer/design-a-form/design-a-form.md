@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 5ebb756ba2f054c37d486d7f54a9f86cf8513328
+source-git-commit: e049ab7d27cf5eced12a43c3a2c08887a7c206ad
 workflow-type: tm+mt
-source-wordcount: '6537'
+source-wordcount: '6524'
 ht-degree: 5%
 
 ---
@@ -750,11 +750,11 @@ The Workfront Mobile app -->
 
    按一下&#x200B;**儲存並關閉**。
 
-#### 從檔案區域新增視訊Widget至自訂表單{#add-a-video-widget-to-a-custom-form-from-the-documents-area}
+#### 從檔案區域新增影像或視訊至自訂表單{#add-a-video-widget-to-a-custom-form-from-the-documents-area}
 
 >[!IMPORTANT]
 >
->以這種方式將視訊新增至自訂表單時，當使用者存取物件上的表單時，只有針對自訂表單設定的許可權會套用至視訊，而不是檔案區域中為視訊設定的許可權。
+>以這種方式將視訊新增至自訂表單時，使用者存取物件上的表單時，在「檔案」區域中設定的許可權會套用至視訊。
 
 1. 移至[檔案]區域中的視訊並產生其校訂，如[為網站或其他網頁內容建立互動式校訂](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md)中所述。
 1. 開啟校訂。
@@ -781,7 +781,7 @@ The Workfront Mobile app -->
 | 實際時數 | ✓ (A) |   | ✓ (A) |   |   |   |   |   |
 | 實際開始日期 | ✓ (A) | ✓ (A) | ✓ (A) |   |   |   |   |   |
 | 公司 | ✓ (A) |   |   | ✓ (A) |   |   |   |   |
-| 狀況 | ✓ (A) | ✓ (A) | ✓ (A) |   |   |   |   |   |
+| 條件 | ✓ (A) | ✓ (A) | ✓ (A) |   |   |   |   |   |
 | 狀況類型 | ✓ (A) |   |   | ✓ (A) |   |   |   |   |
 | 說明 | ✓ (A) | ✓ (A) | ✓ (A) | ✓ (A) | ✓ (A) | ✓ (A) | ✓ (A) | ✓ (A) |
 | 期間 |   | ✓ (A) |   |   | ✓ (A) |   |   |   |
