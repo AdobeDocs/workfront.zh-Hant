@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 7a1df83c0dd7ddf7dd6cf41643ba65c5903d6eba
+source-git-commit: a660fa9fedaf05582760029e062abb3d728106bd
 workflow-type: tm+mt
-source-wordcount: '4419'
+source-wordcount: '4383'
 ht-degree: 0%
 
 ---
@@ -26,10 +26,6 @@ Adobe Workfront API的目標是透過引入透過HTTP運作的REST-ful架構，�
 為了確保一致的Workfront隨選系統效能，Workfront API會限制並行API執行緒。 此護欄可防止濫用API呼叫所導致的系統問題。 沙箱環境已設定相同的同時API執行緒限制，讓客戶和合作夥伴能夠在將程式碼發佈到生產環境之前準確測試API呼叫。
 
 在生產、預覽和測試磁碟環境中，一般使用者請求的URI長度上限為8892個位元組，因為它們是透過Workfront CDN (Akamai)路由傳送。 此限制僅適用於透過CDN路由的URI。
-
->[!NOTE]
->
->此限制不適用於沙箱環境，因為沙箱環境不會透過CDN路由。
 
 ### 免責宣告
 
@@ -110,14 +106,6 @@ API會驗證每個請求，以確保使用者端有權檢視或修改請求的�
 ```
 GET /attask/api/v15.0/project/search
 SessionID: abc1234
-```
-
-#### 要求引數驗證
-
-您可以傳遞名為sessionID的請求引數來進行身分驗證，如下列範例所示： 
-
-```
-GET /attask/api/v15.0/project/4c78821c0000d6fa8d5e52f07a1d54d0?sessionID=abc1234
 ```
 
 #### Cookie型驗證
