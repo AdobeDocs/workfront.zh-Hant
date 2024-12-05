@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
-source-git-commit: 8b69fc1e20ad255cb9874b70289fc11dcb03cdb0
+source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 2%
+source-wordcount: '239'
+ht-degree: 1%
 
 ---
 
@@ -17,6 +17,16 @@ ht-degree: 2%
 本頁說明2025年第一季度版本對「預覽」環境所做的所有首頁增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2025年第一季發行週期目前可用的所有變更清單，請參閱[2025年第一季發行概觀](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)。
+
+## 從優先順序導覽至專案的詳細資訊頁面
+
+>[!NOTE]
+>
+>預覽版本： 2024年12月5日；適用於所有客戶的生產版本：搭配25.1版（2025年1月）
+
+您現在可以從優先順序工作清單直接導覽至Workfront中的專案。
+
+如需詳細資訊，請參閱「優先順序」工作清單](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md)中的[檢視專案與工作詳細資訊。
 
 ## 更新「優先順序」中「我的焦點」欄的選項
 

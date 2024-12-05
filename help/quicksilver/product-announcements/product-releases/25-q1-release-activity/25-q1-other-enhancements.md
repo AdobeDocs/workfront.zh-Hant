@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 67ec1535-d374-4133-9395-626fa7ae4072
-source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
+source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽版本： 2024年11月11日；快速發行生產：24.12版（2024年12月）；每季發行生產：25.1版（2025年1月）
+>預覽版本： 2024年11月11日；快速發行生產：24.12版（2024年12月12日）；每季發行生產：25.1版（2025年1月）
 
 當具有多個區段的自訂表單附加到物件時，您現在可以摺疊和展開表單頂端預設區段以外的所有區段。 管理員也可以在表單設計工具中預覽表單時看到此功能。
 

@@ -6,9 +6,9 @@ description: 篩選器和提示很類似，因為它們都會限制您在報表�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b4058fb3-7360-474f-8be1-1c6b584749b0
-source-git-commit: 9396cd2ac073a57b7d99618cdf09e54ddcf95130
+source-git-commit: 93fca2a98a8b9d4370841b10be10ed2ba15283c9
 workflow-type: tm+mt
-source-wordcount: '1258'
+source-wordcount: '1363'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 0%
          </ul>
       <p>目前：</p>
          <ul>
-         <li><p>計劃</p></li>
+         <li><p>規劃</p></li>
          </ul>
    </td>
   </tr> 
@@ -172,3 +172,5 @@ ht-degree: 0%
 * 當您排程要傳送的提示報告時，電子郵件附件中的報告會包含未提示的報告資料。 當使用者按一下電子郵件中的連結存取報告時，他們必須先登入才能檢視報告並自行執行提示。
 
   如需排程傳送報表的詳細資訊，請參閱[排程自動報表傳送](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md)。
+
+* 執行含有日期型提示的報告時，系統會根據瀏覽器的時區設定來篩選報告結果。 這可能會造成在已提示報表中顯示的日期範圍（位於月份的開始或結束日期）出現細微差異。 如果您的瀏覽器時區設定繫結至特定位置，則該位置當地時間的變化（例如遵循日光節約時間）也會納入到提示報表所顯示的日期中。 這可能會導致位於相同時區但位置設定不同的使用者之間出現細微的日期範圍差異。

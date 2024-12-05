@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
 workflow-type: tm+mt
-source-wordcount: '1610'
+source-wordcount: '1651'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 0%
             <p><b>將於下列日期提供：</b></p>
             <ul>
                 <li>預覽版本： 2024年11月21日</li>
-                <li>快速發行生產：第24.12發行版本（2024年12月）</li>
+                <li>快速發行生產：第24.12發行版本（2024年12月12日）</li>
                 <li>所有客戶的生產版本：25.1版本（2025年1月）</li>
             </ul>
         </td>
@@ -80,7 +80,7 @@ ht-degree: 0%
             <p><b>將於下列日期提供：</b></p>
             <ul>
                 <li>預覽版本： 2024年11月21日</li>
-                <li>快速發行生產：第24.12發行版本（2024年12月）</li>
+                <li>快速發行生產：第24.12發行版本（2024年12月12日）</li>
                 <li>所有客戶的生產版本：25.1版本（2025年1月）</li>
             </ul>
         </td>
@@ -95,7 +95,7 @@ ht-degree: 0%
             <p><b>將於下列日期提供：</b></p>
             <ul>
                 <li>預覽版本： 2024年11月21日</li>
-                <li>快速發行生產：第24.12發行版本（2024年12月）</li>
+                <li>快速發行生產：第24.12發行版本（2024年12月12日）</li>
                 <li>所有客戶的生產版本：25.1版本（2025年1月）</li>
             </ul>
         </td>
@@ -175,7 +175,7 @@ ht-degree: 0%
             <p><b>將於下列日期提供：</b></p>
             <ul>
                 <li>預覽版本： 2024年11月21日</li>
-                <li>快速發行生產：第24.12發行版本（2024年12月）</li>
+                <li>快速發行生產：第24.12發行版本（2024年12月12日）</li>
                 <li>所有客戶的生產版本：25.1版本（2025年1月）</li>
             </ul>
         </td>
@@ -212,6 +212,21 @@ ht-degree: 0%
         </td>
         <td>
             <p><span class="bold">發行日期</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            從優先順序導覽至專案的詳細資訊頁面</a></p>
+            [！BADGE New in Preview ]{type=Negative}
+            <p>您現在可以從優先順序工作清單直接導覽至Workfront中的專案。</p>
+        </td>
+        <td>
+            <p><b>將於下列日期提供：</b></p>
+            <ul>
+                <li>預覽版本： 2024年12月5日</li>
+                <li>所有客戶的生產版本：25.1版本（2025年1月）</li>
+            </ul>
         </td>
     </tr>
     <tr>
@@ -353,7 +368,7 @@ ht-degree: 0%
             <p><b>將於下列日期提供：</b></p>
             <ul>
                 <li>預覽版本： 2024年11月11日</li>
-                <li>快速發行生產：第24.12發行版本（2024年12月）</li>
+                <li>快速發行生產：第24.12發行版本（2024年12月12日）</li>
                 <li>所有客戶的生產版本：25.1版本（2025年1月）</li>
             </ul>
         </td>

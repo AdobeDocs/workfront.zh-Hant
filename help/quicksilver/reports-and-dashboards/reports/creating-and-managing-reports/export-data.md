@@ -6,9 +6,9 @@ description: 您可以從各種清單、報表、控制面板和搜尋匯出Adob
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
 workflow-type: tm+mt
-source-wordcount: '2255'
+source-wordcount: '2247'
 ht-degree: 0%
 
 ---
@@ -61,9 +61,14 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td>
-    <p>新增：淺色或更高</p>
-    <p>或</p>
-    <p>目前：檢閱或以上</p> </td> 
+    <p>新增：</p>
+      <ul>
+      <li>淺色或更高</li>
+      </ul>
+    <p>目前：</p>
+      <ul>
+      <li>評論或以上</li>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -76,7 +81,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -301,7 +306,7 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 * **PDF：**&#x200B;時間戳記會顯示在每個頁面的頁尾和檔案名稱中。
 * **Excel：**&#x200B;時間戳記會顯示在檔案名稱中。
 
-### 格式化 {#formatting}
+### 格式設定 {#formatting}
 
 將專案匯出為.pdf時，任何子任務都會以縮排顯示為其父任務。 匯出的清單不會摺疊任何父系任務。
 

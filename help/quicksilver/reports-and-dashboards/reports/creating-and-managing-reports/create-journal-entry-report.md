@@ -5,14 +5,16 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
+source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
 workflow-type: tm+mt
-source-wordcount: '2742'
+source-wordcount: '2734'
 ht-degree: 4%
 
 ---
 
 # 更新區域報告
+
+<!-- Audited: 11/2024 -->
 
 「日誌專案」報表會從專案、工作、問題和其他物件的更新區域顯示系統更新，這些先前只能透過Adobe Workfront API使用。 雖然此為適用於特定使用案例的進階報表，但格式越容易解讀，您就能更輕鬆地在Workfront中報告專案活動和系統更新。
 
@@ -45,7 +47,16 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：標準 </p><p>或 </p><p>目前：計畫 </p> </td> 
+      <td> 
+      <p>新增：</p>
+         <ul>
+         <li><p>標準</p></li>
+         </ul>
+      <p>目前：</p>
+         <ul>
+         <li><p>規劃</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -58,7 +69,7 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -88,7 +99,7 @@ ht-degree: 4%
  <thead> 
   <tr> 
    <th>欄位</th> 
-   <th>說明</th> 
+   <th>解釋</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -182,7 +193,7 @@ ht-degree: 4%
     <thead> 
      <tr> 
       <th>直條</th> 
-      <th>說明</th> 
+      <th>解釋</th> 
      </tr> 
     </thead> 
     <tbody> 
@@ -296,7 +307,7 @@ ht-degree: 4%
     <thead> 
      <tr> 
       <th>直條</th> 
-      <th>說明</th> 
+      <th>解釋</th> 
      </tr> 
     </thead> 
     <tbody> 
@@ -380,7 +391,7 @@ ht-degree: 4%
     <thead> 
      <tr> 
       <th>直條</th> 
-      <th>說明</th> 
+      <th>解釋</th> 
      </tr> 
     </thead> 
     <tbody> 
@@ -439,7 +450,7 @@ ht-degree: 4%
 
    * **專案識別碼** > **等於** > **`<project>`**
 
-     ![](assets/qs-custom-form-changes-filter-350x92.png)
+   ![](assets/qs-custom-form-changes-filter-350x92.png)
 
    如需新增篩選的詳細資訊，請參閱[篩選總覽](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)。
 
@@ -482,7 +493,7 @@ ht-degree: 4%
     <thead> 
      <tr> 
       <th>直條</th> 
-      <th>說明</th> 
+      <th>解釋</th> 
      </tr> 
     </thead> 
     <tbody> 
@@ -583,7 +594,7 @@ ht-degree: 4%
     <thead> 
      <tr> 
       <th>直條</th> 
-      <th>說明</th> 
+      <th>解釋</th> 
      </tr> 
     </thead> 
     <tbody> 
@@ -629,7 +640,7 @@ ht-degree: 4%
    * **欄位名稱** > **等於** > **ownerID**
    * **專案識別碼** > **等於** > **`<project name>`**
 
-     ![](assets/qs-owner-changes-filter-350x94.png)
+   ![](assets/qs-owner-changes-filter-350x94.png)
 
    如需新增篩選的詳細資訊，請參閱[篩選總覽](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)。
 
