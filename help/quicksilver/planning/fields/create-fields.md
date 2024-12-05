@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: ab78b82db567193f32f6c67880b2b037dc78e849
+source-git-commit: b89f4aa6f779e09d6749e59bdf3d54f0dd9bbf03
 workflow-type: tm+mt
-source-wordcount: '4287'
+source-wordcount: '4370'
 ht-degree: 1%
 
 ---
@@ -210,7 +210,12 @@ OLD:
    將游標暫留在任何欄的標頭上，按一下欄位名稱后面的向下箭頭，然後按一下&#x200B;**插入左側**&#x200B;或&#x200B;**插入右側**&#x200B;以新增欄位。
 1. 在&#x200B;**新欄位**&#x200B;索引標籤中，搜尋&#x200B;**欄位型別**&#x200B;方塊中的欄位型別，或從下列欄位型別中選取：
 
-   在&#x200B;**新欄位**&#x200B;索引標籤中，搜尋&#x200B;**欄位型別**&#x200B;方塊<!--using any related keyword-->中的欄位型別，或從下列欄位型別中選取。
+   在&#x200B;**新欄位**&#x200B;索引標籤中，使用任何相關關鍵字搜尋&#x200B;**欄位型別**&#x200B;方塊中的欄位型別，或從下列欄位型別中選取。
+
+   >[!TIP]
+   >
+   >    您可以輸入「預算」，而「編號」與「幣別」的欄位型態會顯示在簡短清單中。
+
 
 
    * [單行文字](#single-line-text)
@@ -299,15 +304,13 @@ OLD:
 1. （選擇性）若要移除選擇，請按一下選擇右側的&#x200B;**x**&#x200B;圖示。
 1. 按一下選項左側的色票，即可展開顏色選取器並自訂每個選項的顏色。
 
-   <!--
-    1. <span class="preview">Click **Swatches** to select a predefined color</span>
+1. <span class="preview">按一下&#x200B;**色票**&#x200B;以選取預先定義的顏色</span>
 
-        <span class="preview">Or</span>
+   <span class="preview">或</span>
 
-        <span class="preview">Click **Custom** to select a custom color using a color picker or a Hex code. 
-        </span>
-    1. <span class="preview:>Click outside the color box to close it. </span>     
-    -->
+   <span class="preview">按一下&#x200B;**自訂**，使用檢色器或十六進位代碼選取自訂顏色。
+   </span>
+1. 按一下顏色方塊外部以將其關閉。
 1. 按一下「**建立**」。
 
    新的多重選取欄位會新增為記錄型別的欄，其值可與記錄相關聯。
@@ -330,16 +333,13 @@ OLD:
 1. （選擇性）以所要的順序手動拖放每個選擇，或選取&#x200B;**將選擇排序A-Z**&#x200B;選項（如果您希望選擇自動依字母順序列出）。<!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. （選擇性）若要移除選擇，請按一下選擇右側的&#x200B;**x**&#x200B;圖示。
 1. 按一下選項左側的色票，即可展開顏色選取器並自訂每個選項的顏色。
+1. <span class="preview">按一下&#x200B;**色票**&#x200B;以選取預先定義的顏色</span>
 
-   <!--
-        1. <span class="preview">Click **Swatches** to select a predefined color</span>
+   <span class="preview">或</span>
 
-            <span class="preview">Or</span>
-
-            <span class="preview">Click **Custom** to select a custom color using a color picker or a Hex code. 
-            </span>
-        1. <span class="preview:>Click outside the color box to close it. </span>     
-        -->
+   <span class="preview">按一下&#x200B;**自訂**，使用檢色器或十六進位代碼選取自訂顏色。
+   </span>
+1. 按一下顏色方塊外部以將其關閉。
 1. 按一下「**建立**」。
 
    新的單選欄位會新增為記錄型別的欄，其值可與記錄相關聯。

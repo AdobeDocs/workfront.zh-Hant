@@ -2,15 +2,15 @@
 product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: 建立路由規則
-description: 路由規則可控制Adobe Workfront在將問題提交至「請求佇列」時如何處理問題。 如需有關建立請求佇列的詳細資訊，請參閱建立請求佇列。
-author: Lisa
+description: 路由規則可控制Adobe Workfront在將問題提交至「請求佇列」時如何處理問題。
+author: Alina
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 640f9054-f2f8-4594-9311-e93518f58453
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 8ec279ece400c10a37e67664b77b1e0df6639724
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '504'
 ht-degree: 1%
 
 ---
@@ -27,73 +27,42 @@ ht-degree: 1%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-<!--drafted - replace the table at P&P:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p> Manage permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
-您必須具有下列存取權才能執行本文中的步驟：
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader"><p>Adobe Workfront計畫</p></td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td>
-    <p>新增：標準</p>
-    <p>或</p>
-    <p>目前：計畫</p></td> 
+   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td> <p>新授權： Standard </p> 
+   或
+   <p>目前授權：計畫 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定</td>
+   <td role="rowheader">存取層級設定</td> 
    <td> <p>編輯專案的存取權</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p> 管理專案的許可權</p> </td>
+   <td> <p> 管理專案的許可權</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+*如需此表格中資訊的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
 ## 建立路由規則
 
-1. 移至您要為請求新增路由規則的專案。
+1. 前往您要為請求新增路由規則的專案。
 1. 按一下左側面板中的&#x200B;**路由規則**。 您可能需要按一下&#x200B;**顯示更多**，然後按一下&#x200B;**路由規則**。
-1. 按一下&#x200B;**新增路由規則**&#x200B;以新增規則。
+1. 按一下&#x200B;**新增路由規則**&#x200B;以新增規則。 **新路由規則**&#x200B;方塊開啟。
+
+   ![新路由規則方塊](assets/new-routing-rule-box.png)
 1. 輸入「路由規則」的下列資訊：
 
    <table style="table-layout:auto"> 
@@ -136,8 +105,6 @@ ht-degree: 1%
    >*如果使用者、工作角色或團隊在與路由規則關聯後停用，請求會繼續路由給它們。 您必須定期清查所有路由規則，並將已停用的指派取代為有效指派。
 
    將問題路由至專案時，擁有問題許可權的使用者會收到在該專案上設定的許可權。 如需有關設定專案許可權的資訊，請參閱[在Adobe Workfront中共用專案](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)。
-
-   ![新路由規則方塊](assets/new-routing-rule-box.png)
 
 1. 按一下「**儲存**」。
 
