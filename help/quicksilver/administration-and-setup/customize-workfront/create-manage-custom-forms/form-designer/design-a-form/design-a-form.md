@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: e049ab7d27cf5eced12a43c3a2c08887a7c206ad
+source-git-commit: d68c4fd39234d8d5131828e2a4642bd9af8ca7d5
 workflow-type: tm+mt
-source-wordcount: '6524'
+source-wordcount: '6522'
 ht-degree: 5%
 
 ---
@@ -750,7 +750,7 @@ The Workfront Mobile app -->
 
    按一下&#x200B;**儲存並關閉**。
 
-#### 從檔案區域新增影像或視訊至自訂表單{#add-a-video-widget-to-a-custom-form-from-the-documents-area}
+#### 從檔案區域新增視訊至自訂表單{#add-a-video-widget-to-a-custom-form-from-the-documents-area}
 
 >[!IMPORTANT]
 >

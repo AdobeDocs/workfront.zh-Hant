@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 5ebb756ba2f054c37d486d7f54a9f86cf8513328
+source-git-commit: d68c4fd39234d8d5131828e2a4642bd9af8ca7d5
 workflow-type: tm+mt
-source-wordcount: '1223'
+source-wordcount: '1269'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,10 @@ ht-degree: 0%
 
 如需日期型萬用字元的資訊，請參閱[使用日期型萬用字元來一般化報表](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md)。
 
-商業規則中也提供API萬用字元。 您只能在UI或API中使用`$$ISAPI`來觸發規則。
+商業規則中也提供API萬用字元。 僅在API中使用`$$ISAPI`觸發規則。 使用`!$$ISAPI`只會在使用者介面中強制執行規則，並允許使用者透過API略過規則。
+
+* 例如，此規則禁止使用者透過API編輯完成的專案。 如果未使用萬用字元，則規則會同時封鎖使用者介面和API中的動作。
+  `IF({status} = "CPL" && $$ISAPI, "You cannot edit completed projects through the API.")`
 
 在運算式中使用`$$BEFORE_STATE`和`$$AFTER_STATE`萬用字元來存取任何編輯前後物件的欄位值。
 
