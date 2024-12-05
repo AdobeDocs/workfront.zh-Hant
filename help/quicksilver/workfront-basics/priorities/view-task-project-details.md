@@ -5,13 +5,13 @@ description: 您可以在優先順序工作清單中檢視專案與作業詳細�
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 8384c2ce2e83aa07c504c56193b19a557226d15a
+exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
+source-git-commit: 9af607f381ced982d72a19b2a5ce780796747c2e
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '240'
 ht-degree: 1%
 
 ---
-
 
 # 在「優先順序」工作清單中檢視專案與作業詳細資訊
 
@@ -67,8 +67,9 @@ ht-degree: 1%
    * 檢視專案並新增註解
    * 記錄時間
    * 新增檔案
+   * <span class="preview">直接前往專案</span>
 
-   ![專案詳細資料](assets/project-details.png)
+<!-- ![project details](assets/project-details.png)-->
 
 ## 檢視任務詳細資訊
 
@@ -83,4 +84,4 @@ ht-degree: 1%
    * 新增檔案
    * 新增快速連結
 
-   ![任務詳細資料](assets/task-details.png)
+   <!-- ![task details](assets/task-details.png)-->
