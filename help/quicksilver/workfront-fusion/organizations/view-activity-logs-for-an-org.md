@@ -8,10 +8,10 @@ description: 您可以檢視組織的活動記錄，例如情境建立或啟動�
 author: Becky
 feature: Workfront Fusion
 exl-id: d60dc97d-2da6-44f4-a2ee-bb5e56317695
-source-git-commit: 1694d54c8b2d6ee3707e8e8bcb3b394c1dfa7a48
+source-git-commit: 6f4ba4cde26978305a58cedb9ed606c6032496f1
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 1%
+source-wordcount: '528'
+ht-degree: 0%
 
 ---
 
@@ -47,11 +47,14 @@ ht-degree: 1%
    <p>舊版：任何 </p>
    </td> 
   </tr> 
+   <tr> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>您必須是Fusion管理員才能使用活動記錄。</p></td> 
+  </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增： [!DNL Workfront Fusion]已包含在Ultimate Workfront計畫中。</p> <p>或</p>
-   <p>目前：無法使用</p>
+   <p>此功能僅適用於擁有Ultimate Workfront計畫（包含[!DNL Workfront Fusion]）的組織。 無需額外購買產品。</p>
    </td> 
   </tr>
  </tbody> 

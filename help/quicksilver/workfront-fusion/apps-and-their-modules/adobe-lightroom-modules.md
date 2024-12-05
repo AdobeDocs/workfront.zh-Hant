@@ -9,7 +9,7 @@ description: 透過Adobe Lightroom模組，您可以根據Adobe Lightroom帳戶�
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e48bdf18-49f0-436e-9182-16c9da2b3169
-source-git-commit: f6b00b98d3375e5660d684f1fad682fa721517aa
+source-git-commit: 6f4ba4cde26978305a58cedb9ed606c6032496f1
 workflow-type: tm+mt
 source-wordcount: '2370'
 ht-degree: 0%
@@ -18,7 +18,6 @@ ht-degree: 0%
 
 # [!DNL Adobe Lightroom]模組
 
-<!--Add Connection info-->
 
 在[!DNL Adobe Workfront Fusion]案例中，您可以自動化使用[!DNL Adobe Lightroom]的工作流程，並將其連線至多個協力廠商應用程式和服務。
 
