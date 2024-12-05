@@ -3,10 +3,10 @@ product-area: user-management
 navigation-topic: configure-your-user-profile
 title: 建立自訂部分
 description: 根據預設，您在 [!DNL Workfront] 網頁應用程式中看到的資訊通常顯示在左側面板的區段中。 每個區段都包含有關 [!DNL Workfront] 區域或物件的不同資訊。
-author: Nolan
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 68f4b83b-a8b4-4304-930f-62551cb06a92
-source-git-commit: 1079f85651ec691280e2cccefaa6e48e0b9d89f8
+source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 1%

@@ -4,10 +4,10 @@ product-area: user-management
 navigation-topic: configure-your-user-profile
 title: 設定個人休假
 description: 請務必在Adobe Workfront中指明核准的休假何時發生，因為這會影響您的排程，並影響您指派至之任務的規劃完成日期。
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
+source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 1%

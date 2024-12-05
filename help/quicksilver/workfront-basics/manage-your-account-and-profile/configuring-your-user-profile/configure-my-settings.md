@@ -3,10 +3,10 @@ product-area: user-management;setup
 navigation-topic: configure-your-user-profile
 title: 設定我的設定
 description: 您的 [!DNL Adobe Workfront] 個人資料包含有關您的資訊（例如您的姓名、電子郵件地址、地址、電話號碼、職稱等）。 它也包含您與 [!DNL Workfront] 及公司其他使用者的互動資訊。
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
 workflow-type: tm+mt
 source-wordcount: '3303'
 ht-degree: 1%
