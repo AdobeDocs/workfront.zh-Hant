@@ -7,9 +7,9 @@ description: 從Workfront Proof產生的電子郵件通知會通知共同作業�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 12f1443d69bb9306af29e4ab295f701089cdfb88
 workflow-type: tm+mt
-source-wordcount: '2049'
+source-wordcount: '2063'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 <!--For information about proof settings the [!DNL Workfront] administrator or [!DNL Workfront Proof] administrator can configure, see .-->
 
-1. 按一下&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 個人設定]**。
+1. 按一下右上角的個人資料圖片，然後按一下&#x200B;**[!UICONTROL 個人設定]**。
 
 1. 按一下&#x200B;**[!UICONTROL 校訂預設值]**&#x200B;標籤。
 1. 按一下&#x200B;**[!UICONTROL 預設電子郵件通知設定]**&#x200B;以展開它。
@@ -163,7 +163,7 @@ ht-degree: 0%
 
 如果您是[!DNL Workfront Proof]管理員，則可以為您帳戶中的使用者設定校訂預設值。
 
-1. 按一下&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 帳戶設定]**。
+1. 按一下熒幕上方的&#x200B;**[!UICONTROL 帳戶設定]**。
 
 1. 開啟&#x200B;**[!UICONTROL 使用者]**&#x200B;標籤。
 1. 開啟使用者名稱右側的&#x200B;**[!UICONTROL More]**&#x200B;功能表![More_button_small.png](assets/more-button-small.png)。
