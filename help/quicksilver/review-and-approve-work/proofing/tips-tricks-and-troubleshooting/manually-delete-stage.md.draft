@@ -1,0 +1,28 @@
+---
+content-type: tips-tricks-troubleshooting
+product-area: documents
+navigation-topic: tips-tricks-and-troubleshooting-proofing-within-workfront
+title: Document name changed after upload and contains an invalid character
+description: Certain documents cannot be converted to proofs.
+author: Courtney
+
+---
+
+# Automated stage not auto-activate when previous stage is deleted
+
+add to toc still
+
+when previous stage status changes to manual 
+
+## Problem
+
+When a stage is deleted, the following stage does not auto-activate. Instead, it changes to Manual.
+
+
+the next stage is not auto-activating. The stage activation is flipping to manual instead of remaining automated. This behavior is causing delays for the customer, as their proof creators have to monitor workflows and manually activate the next stage.
+
+Its appearing this may be expected behavior, as there doesn't appear to be an automatic trigger to start the next stage when a previous one is deleted. Is that correct, or would we technically expect the next stage to auto-activate if the previous stage is deleted?
+
+## Solution
+
+Edit the stage after you delete a previous one?
