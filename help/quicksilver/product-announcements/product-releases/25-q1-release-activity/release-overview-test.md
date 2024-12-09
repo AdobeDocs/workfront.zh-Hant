@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 59737844-e6ba-4f64-b2cc-a24c91525d37
-source-git-commit: d9bfe029f99bf4c205686dc7a30598f046977afd
+source-git-commit: 9f77afbb10d51a1bc0d770862a21e158b645da36
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1381'
 ht-degree: 2%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 2%
 
 <table>
 <col style="width: 20%;" />
-<col style="width: 50%;" />
+<col style="width: 75%;" />
 <tbody>
     <tr>
     <td>區域圖</td>
@@ -247,7 +247,7 @@ ht-degree: 2%
 
 
 <table>
-<col style="width: 50%;" />
+<col style="width: 75%;" />
 <tbody>
     <tr>
         <td>
@@ -263,7 +263,7 @@ ht-degree: 2%
             用於單一指派任務的專案或使用者排程的偏好設定</a></p>
             <p>作為系統或群組管理員，您現在有新的偏好設定，可指明Workfront在您指派一名使用者至任務，且專案和使用者都與排程相關聯時，是否應使用專案或使用者的排程來計算專案的時間表。</p>
         </td>
-        <td><p>2024年11月16日</p> <p>[！BADGE New in Preview ]{type=Negative}<p></td>
+        <td><p>2024年11月16日</p> <p>[！BADGE New]{type=Negative}<p></td>
         <td>2024年12</td>
         <td>25.1</td>
     </tr>     
@@ -284,8 +284,8 @@ ht-degree: 2%
             <p>當自訂表單包含具有多個欄位的多個區段時，透過拖放將欄位從一個區段移動到另一個區段會很困難。 每個欄位已新增「移至」圖示，可讓您選取欄位所在的區段。</p>
         </td>
         <td>10月29日</td>
-          <td><p>2024年12</p><p> [！BADGE In Production for Fast Release ]{type=Positive}</p></td>
-        <td>25.1<p> [！BADGE In Production]{type=Positive}</p></td>
+          <td><p>2024年12</p><p> [！BADGE Production ]{type=Positive}</p></td>
+        <td>25.1<p> [！BADGE Production]{type=Positive}</p></td>
     </tr>
 </tbody>
 </table>
