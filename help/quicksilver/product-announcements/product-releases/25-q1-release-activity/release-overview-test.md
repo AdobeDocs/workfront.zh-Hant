@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 59737844-e6ba-4f64-b2cc-a24c91525d37
-source-git-commit: 9f77afbb10d51a1bc0d770862a21e158b645da36
+source-git-commit: 33b9faed6265b5e82bf768d4c8ae7f703420a7e5
 workflow-type: tm+mt
-source-wordcount: '1381'
+source-wordcount: '878'
 ht-degree: 2%
 
 ---
@@ -33,92 +33,7 @@ ht-degree: 2%
 >如需快速發行程式的詳細資訊，請參閱[啟用或停用快速發行程式](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。
 
 
-## Adobe Workfront增強功能
-
-
-<table>
-<col style="width: 20%;" />
-<col style="width: 75%;" />
-<tbody>
-    <tr>
-    <td>區域圖</td>
-        <td>
-            <p><span class="bold">功能</span></p>
-        </td>
-        <td>預覽</td>
-        <td>快速發行</td>
-        <td>每季</td>
-    </tr>
-    <tr>
-     <td>管理與設定</td>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            用於單一指派任務的專案或使用者排程的偏好設定</a></p>
-            [！BADGE New in Preview ]{type=Negative}
-            <p>作為系統或群組管理員，您現在有新的偏好設定，可指明Workfront在您指派一名使用者至任務，且專案和使用者都與排程相關聯時，是否應使用專案或使用者的排程來計算專案的時間表。</p>
-        </td>
-        <td>2024年11月21日</td>
-        <td>2024年12</td>
-        <td>25.1</td>
-    </tr>     
-    <tr>
-     <td>管理與設定</td>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            商業規則現在支援超連結</a></p>
-            [！BADGE週期外]{type=Caution}
-            <p>您現在可以在商業規則的自訂錯誤訊息中包含超連結，以指導使用者如何在規則的限制內修改其動作。 靜態URL可連結至對使用者有所幫助的檔案或其他頁面。</p>
-        </td>
-        <td>2024年11月14日</td>
-        <td>2024年11月14日</td>
-        <td>2024年11月14日</td>
-    </tr>    
-    <tr>
-     <td>管理與設定</td>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            現起提供原生預先輸入欄位上的篩選</a></p>
-            [！BADGE Out-of-cycle ]{type=Negative}
-            <p>當您將原生欄位參考新增至自訂表單，並且它參考預先輸入欄位(例如，Portfolio、公司或所有者)時，現在可以使用篩選器選項。 篩選器可讓您限制使用者在使用欄位時可選擇的物件。 此自訂篩選的運作方式與自訂預先輸入欄位上的篩選相同，是使用文字模式來定義篩選。</p>
-        </td>
-        <td>11月21日</td>
-        <td>25.12</td>
-        <td>25.1</td>
-    </tr>
-    <tr>
-     <td>管理與設定</td>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            「移至」圖示已新增到自訂欄位</a></p>
-            <p>當自訂表單包含具有多個欄位的多個區段時，透過拖放將欄位從一個區段移動到另一個區段會很困難。 每個欄位已新增「移至」圖示，可讓您選取欄位所在的區段。</p>
-        </td>
-        <td>2024 年 10 月 29 日</td>
-          <td>2024年12</td>
-        <td>25.1</td>
-    </tr>
-</tbody>
-</table>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Workfront增強功能
-
-
-
-
-
 
 
 * [管理員增強功能](#administrator-enhancements)<!--* [Boards enhancements](#boards-enhancements)-->
@@ -127,7 +42,10 @@ ht-degree: 2%
 ### 管理員增強功能
 
 <table>
-<col style="width: 50%;" />
+<col style="width: 55%;" />
+<col style="width: 15%;" />
+<col style="width: 15%;" />
+<col style="width: 15%;" />
 <tbody>
     <tr>
         <td>
@@ -163,91 +81,25 @@ ht-degree: 2%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             現起提供原生預先輸入欄位上的篩選</a></p>
-            [！BADGE Out-of-cycle ]{type=Negative}
             <p>當您將原生欄位參考新增至自訂表單，並且它參考預先輸入欄位(例如，Portfolio、公司或所有者)時，現在可以使用篩選器選項。 篩選器可讓您限制使用者在使用欄位時可選擇的物件。 此自訂篩選的運作方式與自訂預先輸入欄位上的篩選相同，是使用文字模式來定義篩選。</p>
         </td>
         <td>11月21日</td>
         <td>25.12</td>
         <td>25.1</td>
     </tr>
-    <tr>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            <p>當自訂表單包含具有多個欄位的多個區段時，透過拖放將欄位從一個區段移動到另一個區段會很困難。 每個欄位已新增「移至」圖示，可讓您選取欄位所在的區段。</p>
-        </td>
-        <td>2024 年 10 月 29 日</td>
-          <td>2024年12</td>
-        <td>25.1</td>
-    </tr>
+
 </tbody>
 </table>
+
 
 ### 檔案管理增強功能
 
 
 <table>
-<col style="width: 50%;" />
-<tbody>
-    <tr>
-        <td>
-            <p><span class="bold">功能</span></p>
-        </td>
-        <td>預覽</td>
-        <td>快速發行</td>
-        <td>每季</td>
-    </tr>
-    <tr>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            用於單一指派任務的專案或使用者排程的偏好設定</a></p>
-            [！BADGE New in Preview ]{type=Negative}
-            <p>作為系統或群組管理員，您現在有新的偏好設定，可指明Workfront在您指派一名使用者至任務，且專案和使用者都與排程相關聯時，是否應使用專案或使用者的排程來計算專案的時間表。</p>
-        </td>
-        <td>2024年11月21日</td>
-        <td>2024年12</td>
-        <td>25.1</td>
-    </tr>     
-    <tr>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            商業規則現在支援超連結</a></p>
-            [！BADGE New in Preview ]{type=Caution}
-            <p>您現在可以在商業規則的自訂錯誤訊息中包含超連結，以指導使用者如何在規則的限制內修改其動作。 靜態URL可連結至對使用者有所幫助的檔案或其他頁面。</p>
-        </td>
-        <td>2024年11月14日</td>
-        <td>2024年11月14日</td>
-        <td>2024年11月14日</td>
-    </tr>    
-    <tr>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            現起提供原生預先輸入欄位上的篩選</a></p>
-            [！BADGE Out-of-cycle ]{type=Negative}
-            <p>當您將原生欄位參考新增至自訂表單，並且它參考預先輸入欄位(例如，Portfolio、公司或所有者)時，現在可以使用篩選器選項。 篩選器可讓您限制使用者在使用欄位時可選擇的物件。 此自訂篩選的運作方式與自訂預先輸入欄位上的篩選相同，是使用文字模式來定義篩選。</p>
-        </td>
-        <td>11月21日</td>
-        <td>25.12</td>
-        <td>25.1</td>
-    </tr>
-    <tr>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            「移至」圖示已新增到自訂欄位</a></p>
-            [！BADGE In Production for Fast Release ]{type=Positive}
-            <p>當自訂表單包含具有多個欄位的多個區段時，透過拖放將欄位從一個區段移動到另一個區段會很困難。 每個欄位已新增「移至」圖示，可讓您選取欄位所在的區段。</p>
-        </td>
-        <td>2024 年 10 月 29 日</td>
-          <td>2024年12</td>
-        <td>25.1</td>
-    </tr>
-</tbody>
-</table>
-
-### 檔案管理增強功能
-
-
-<table>
-<col style="width: 75%;" />
+<col style="width: 55%;" />
+<col style="width: 15%;" />
+<col style="width: 15%;" />
+<col style="width: 15%;" />
 <tbody>
     <tr>
         <td>
@@ -264,8 +116,8 @@ ht-degree: 2%
             <p>作為系統或群組管理員，您現在有新的偏好設定，可指明Workfront在您指派一名使用者至任務，且專案和使用者都與排程相關聯時，是否應使用專案或使用者的排程來計算專案的時間表。</p>
         </td>
         <td><p>2024年11月16日</p> <p>[！BADGE New]{type=Negative}<p></td>
-        <td>2024年12</td>
-        <td>25.1</td>
+        <td><p>24.12</p></td>
+        <td><p>25.1</p></td>
     </tr>     
     <tr>
         <td>
@@ -273,9 +125,9 @@ ht-degree: 2%
             商業規則現在支援超連結</a></p>
             <p>您現在可以在商業規則的自訂錯誤訊息中包含超連結，以指導使用者如何在規則的限制內修改其動作。 靜態URL可連結至對使用者有所幫助的檔案或其他頁面。</p>
         </td>
-        <td>11月14日 </td>
-        <td><p>11月14日</p> <p>[！BADGE Out-of-cycle ]{type=Negative}</p></td>
-        <td><p>11月14日</p> <p>[！BADGE Out-of-cycle ]{type=Negative}</p></td>
+        <td><p>11月14日</p> </td>
+        <td><p>2024年12</p> <p> [！BADGE可用]{type=Positive}</p></td>
+        <td><p>25.1</p> </td>
     </tr>    
     <tr>
         <td>
@@ -283,9 +135,29 @@ ht-degree: 2%
             「移至」圖示已新增到自訂欄位</a></p>
             <p>當自訂表單包含具有多個欄位的多個區段時，透過拖放將欄位從一個區段移動到另一個區段會很困難。 每個欄位已新增「移至」圖示，可讓您選取欄位所在的區段。</p>
         </td>
-        <td>10月29日</td>
-          <td><p>2024年12</p><p> [！BADGE Production ]{type=Positive}</p></td>
-        <td>25.1<p> [！BADGE Production]{type=Positive}</p></td>
+        <td><p>十二月5日</p></td>
+          <td><p>12月15日</p><p> [！BADGE可用]{type=Positive}</p></td>
+        <td><p>12月15日</p> <p> [！BADGE可用]{type=Positive}</p> <p>[！BADGE週期外]{type=Caution}</p></td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            「移至」圖示已新增到自訂欄位</a></p>
+            <p>當自訂表單包含具有多個欄位的多個區段時，透過拖放將欄位從一個區段移動到另一個區段會很困難。 每個欄位已新增「移至」圖示，可讓您選取欄位所在的區段。</p>
+        </td>
+        <td><p>十二月5日</p><p>[！BADGE週期外]{type=Caution}</p></td>
+          <td><p>12月15日</p><p> [！BADGE可用]{type=Positive}</p></td>
+        <td><p>12月15日</p> <p> [！BADGE可用]{type=Positive}</p></td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            「移至」圖示已新增到自訂欄位</a></p>
+            <p>當自訂表單包含具有多個欄位的多個區段時，透過拖放將欄位從一個區段移動到另一個區段會很困難。 每個欄位已新增「移至」圖示，可讓您選取欄位所在的區段。</p>
+        </td>
+        <td><p>十一月1日</p></td>
+          <td><p>24.11</p><p> [！BADGE可用]{type=Positive}</p></td>
+        <td><p>25.1</p> <p> [！BADGE可用]{type=Positive}</p></td>
     </tr>
 </tbody>
 </table>
