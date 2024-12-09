@@ -6,9 +6,9 @@ description: 為了有效地找到工作專案並專注於您管理的使用者�
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: fcc4a105f0f49c34fea4bc11f4bf2c6f54cd7769
 workflow-type: tm+mt
-source-wordcount: '2467'
+source-wordcount: '2458'
 ht-degree: 0%
 
 ---
@@ -179,8 +179,6 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**新增篩選器。**
 
-   ![](assets/new-filters-empty-panel-workload-balancer-350x460.png)
-
 1. 若要建立篩選器，請執行下列動作：
 
    1. 在第一個下拉式功能表中選取欄位名稱，或按一下&#x200B;**瀏覽欄位**&#x200B;開始輸入預設不會顯示的欄位名稱。
@@ -198,7 +196,7 @@ ht-degree: 0%
       >您可以從下列區段中選取欄位：
       >
       >* **最近的選擇**：您最近篩選的欄位。
-      >* **建議的欄位**：最常使用的欄位。
+      >* **建議**：最常使用的欄位。
 
 
    1. 從第二個下拉式功能表中選取修飾元。 如需Workfront篩選修飾元的資訊，請參閱[篩選和條件修飾元](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)。
@@ -206,13 +204,13 @@ ht-degree: 0%
 
       >[!NOTE]
       >
-      > 當您想要顯示特定投資組合中的工作物件時，可以套用以下篩選條件：「Portfolio名稱包含行銷。」 這會顯示屬於名稱中包含「行銷」之任何投資組合的工作專案。
+      > 當您想要顯示特定投資組合的工作物件時，可以套用以下篩選器：「PortfolioID等於&lt;投資組合名稱>」。
       >
       >![](assets/portfolio-name-filter-statement-wb-350x262.png)
-
-      >[!NOTE]
       >
-      >若要排除狀態為「保留」的專案，您必須套用下列篩選：「專案：狀態不等於「保留」。 這可防止保留專案中的工作項顯示在工作負載平衡器中。
+      >若要排除狀態為「保留」的專案，您必須套用下列篩選：「專案：狀態不等於保留」。 這可防止保留專案中的工作項顯示在工作負載平衡器中。
+      >
+      >![](assets/project-status-filter-statement-wb.png)
 
    1. （選擇性）按一下&#x200B;**刪除**&#x200B;圖示![](assets/delete.png)以移除篩選條件。
 
@@ -240,8 +238,8 @@ ht-degree: 0%
    >
    >在任何時候按一下「**取消**」，都會帶您返回篩選建立區域。
 
-1. 選取&#x200B;**未命名的篩選器**，並改為輸入新篩選器的名稱。
-1. 從&#x200B;**圖示**&#x200B;下拉式功能表中選取新篩選的圖示。
+1. 按一下&#x200B;**未命名的篩選器**&#x200B;欄位，然後輸入新篩選器的名稱。
+1. （選擇性）從&#x200B;**圖示**&#x200B;下拉式功能表中選取新篩選的圖示。
 
    ![](assets/new-filters-select-icon-expanded-drop-down-wb.png)
 

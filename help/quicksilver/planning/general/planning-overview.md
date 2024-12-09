@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
+source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
 workflow-type: tm+mt
-source-wordcount: '1803'
+source-wordcount: '1805'
 ht-degree: 2%
 
 ---
@@ -166,15 +166,15 @@ The following features are currently available in Workfront Planning:
 
 ## 為您的Workfront例項中的使用者啟用Workfront Planning
 
-貴組織購買Workfront Planning的授權後，身為Workfront管理員，您必須確保已具備下列專案，使用者才能存取Workfront Planning：
+貴組織購買Workfront Planning套件後，身為Workfront管理員，您必須確定已具備下列專案，使用者才能存取Workfront Planning：
 
 * 指派需要存取Planning版面配置範本的使用者，該範本包含主功能表中的Planning。 如需詳細資訊，請參閱[使用配置範本自訂主功能表](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)和[將使用者指派給配置範本](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)。
 
-* 為使用者指派Workfront授權和Workfront Planning許可權，讓您以5554hview在Workfront Planning中建立物件。 如需授與存取權給其他人以及允許其他人使用Workfront Planning的詳細資訊，請參閱[Adobe計畫存取權概觀](/help/quicksilver/planning/access/access-overview.md)。
+* 為使用者指派Workfront授權和Workfront Planning許可權，讓他們能夠在Workfront Planning中檢視或建立物件。 如需授與存取權給其他人以及允許其他人使用Workfront Planning的詳細資訊，請參閱[Adobe計畫存取權概觀](/help/quicksilver/planning/access/access-overview.md)。
 
 ## Workfront規劃術語
 
-雖然Workfront Planning是Workfront的一部分，但隨附專有概念和術語。 開始為組織設定Workfront規劃前，請務必熟悉新概念。
+雖然Workfront Planning是Workfront的一部分，但隨附專有概念和術語。 開始為組織設定Workfront規劃前，請務必熟悉這些概念。
 
 Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別、其屬性以及與其相關聯的任何欄位，以符合您組織的確切需求。
 
@@ -189,6 +189,8 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
   如需詳細資訊，請參閱[建立工作區](/help/quicksilver/planning/architecture/create-workspaces.md)。
 
 * **記錄型別**： Workfront Planning中的物件型別名稱。
+
+  記錄型別會填入工作區。
 
   與Workfront （預先定義物件型別）不同，您可以在Workfront Planning中建立自己的物件型別。
 

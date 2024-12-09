@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
 workflow-type: tm+mt
-source-wordcount: '2734'
+source-wordcount: '2757'
 ht-degree: 4%
 
 ---
@@ -339,7 +339,7 @@ ht-degree: 4%
 1. 在&#x200B;**篩選器**&#x200B;索引標籤中，按一下&#x200B;**新增篩選器規則**，然後新增下列篩選器：
 
    * **變更型別** > **等於** > **刪除**
-   * **專案識別碼** > **等於** > **`<project>`**
+   * **專案識別碼** > **等於** > **&lt;專案名稱>**
 
      <!--WRITER check link; this png file has spaces
      [![](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)-->
@@ -383,7 +383,7 @@ ht-degree: 4%
 
    Report Builder隨即載入。
 
-1. 在&#x200B;**欄（檢視）**&#x200B;索引標籤中，新增下列欄：
+1. 在&#x200B;**欄（檢視）**&#x200B;索引標籤中，確定您有或按一下&#x200B;**新增欄**&#x200B;以新增下列欄：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -446,9 +446,9 @@ ht-degree: 4%
 
      >[!TIP]
      >
-     >若要將此報告限製為特定自訂欄位，請新增篩選規則&#x200B;**日誌專案欄位名稱** > **等於** > **`<custom field>`**。
+     >若要將此報告限製為特定自訂欄位，請新增篩選規則&#x200B;**日誌專案欄位名稱** > **等於** > **&lt;自訂欄位名稱>**。
 
-   * **專案識別碼** > **等於** > **`<project>`**
+   * **專案識別碼** > **等於** > **&lt;專案>**。
 
    ![](assets/qs-custom-form-changes-filter-350x92.png)
 
@@ -549,7 +549,7 @@ ht-degree: 4%
 1. 在&#x200B;**篩選器**&#x200B;索引標籤中，按一下&#x200B;**新增篩選器規則**，然後新增下列專案：
 
    * **欄位名稱** > **等於** > **日期**
-   * **專案識別碼** > **等於** > **`<project>`**
+   * **專案識別碼** > **等於** > **&lt;專案名稱>**。
 
    ![](assets/qs-planned-completion-date-change-filter-350x91.png)
 
@@ -638,7 +638,7 @@ ht-degree: 4%
 1. 在&#x200B;**篩選器**&#x200B;索引標籤中，按一下&#x200B;**新增篩選器規則**，然後新增下列專案：
 
    * **欄位名稱** > **等於** > **ownerID**
-   * **專案識別碼** > **等於** > **`<project name>`**
+   * **專案識別碼** > **等於** > **&lt;專案名稱>**。
 
    ![](assets/qs-owner-changes-filter-350x94.png)
 
@@ -662,4 +662,4 @@ ht-degree: 4%
 
 1. 按一下「**儲存並關閉**」。
 
-   新報表隨即載入。
+   新分錄報表隨即顯示。

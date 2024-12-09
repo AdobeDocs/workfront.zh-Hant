@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
+source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
 workflow-type: tm+mt
-source-wordcount: '1677'
+source-wordcount: '1791'
 ht-degree: 1%
 
 ---
@@ -76,14 +76,6 @@ ht-degree: 1%
 >[!NOTE]
 >
 >若將專案的主要受指派人休假列入考量，任務的計畫日期可能會調整，但任務的期間保持不變。 如需有關在規劃專案時考慮主要受指派人休假的資訊，請參閱[設定全系統專案偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
-
-## 父系任務的原始期間
-
-任務的原始期間是任務成為父任務之前的原始期間（以分鐘為單位）。
-
-當任務成為父系時，最早子系的計劃開始日期與最後一個子系的計畫完成日期之間的期間會累計至父系任務，並成為父系任務的期間。 這會取代原始任務的工期。
-
-如需詳細資訊，請參閱[任務原始期間與原始計畫時數概觀](/help/quicksilver/manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md)。
 
 ## 任務期間的時間單位
 
@@ -181,6 +173,27 @@ ht-degree: 1%
 ## 新任務的期間型別
 
 新任務的期間型別符合系統中設定的期間型別。 預設期間型別為已計算的任務指派。 您的Workfront管理員或群組管理員可以為您的系統或與專案關聯的群組更新預設期間型別。 如需詳細資訊，請參閱[設定全系統的任務和問題偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)。
+
+## 父系任務的原始期間
+
+任務的原始期間是任務成為父任務之前的原始期間（以分鐘為單位）。
+
+當任務成為父系時，最早子系的計劃開始日期與最後一個子系的計畫完成日期之間的期間會累計至父系任務，並成為父系任務的期間。 這會取代原始任務的工期。
+
+當子系使用「經過天數」的「持續時間」單位，而父系使用「天數」的「持續時間」單位時，Workfront計算父系任務的「持續時間」的方式可能會有差異。
+
+請考量下列事項：
+
+* 期間單位「經過天數」代表工作歷天數，一律包括每天24小時。
+* 持續時間單位Days代表系統中定義的工作日，且可設定。 在大多數情況下，每天會包含8小時。
+* 計算父系任務持續時間的公式如下：
+
+  `Parent task duration = Planned Completion Date of the child task that is planned to end the latest - Planned Start Date of the child task that starts the earliest`
+
+* 計算父系任務的工期時，系統會先使用上述公式計算工期，然後套用排程。
+
+
+如需詳細資訊，請參閱[任務原始期間與原始計畫時數概觀](/help/quicksilver/manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md)。
 
 ## 變更任務的期間型別
 
