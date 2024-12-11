@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront] 字彙表列出 [!DNL Adobe Workfront]. Yo
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 8df1c288eed04c7330d124e0c32c869a3e5a525b
 workflow-type: tm+mt
-source-wordcount: '20901'
+source-wordcount: '20875'
 ht-degree: 0%
 
 ---
@@ -1252,12 +1252,9 @@ The designated full time equivalency for users. A full-time user should have 100
    <p>See <i>Resource Pools</i> for updated fields. </p> 
    <p>The Legacy Resource Pool is a collection&nbsp;of job roles associated with a project or a user. The functionality of the Legacy Resource Pools is displayed in the tools available in the Legacy Resource Planning tab of the People area. This is a deprecated field.</p>
     --> </td> 
-  </tr> 
-  <tr> 
-   <td>[！UICONTROL程式庫任務]</td> 
-   <td>單一工作的範本，用於跨應用程式提供一致的[！UICONTROL工作]和[！UICONTROL範本工作命名。</td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
    <td>[！UICONTROL授權型別]</td> 
    <td>配置給[！UICONTROL存取層級的授權型別。 它是[！UICONTROL Full User]、[！UICONTROL Limited User]或[！UICONTROL Requester]。</td> 
   </tr> 

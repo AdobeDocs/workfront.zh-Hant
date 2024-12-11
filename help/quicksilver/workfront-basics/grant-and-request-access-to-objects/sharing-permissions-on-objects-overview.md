@@ -6,9 +6,9 @@ description: 您可以共用或移除您所建立之物件或與您共用之物�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: 05f8dc8770c185720520fc631e19c75b925a70bf
+source-git-commit: 8df1c288eed04c7330d124e0c32c869a3e5a525b
 workflow-type: tm+mt
-source-wordcount: '1182'
+source-wordcount: '1289'
 ht-degree: 1%
 
 ---
@@ -89,6 +89,13 @@ ht-degree: 1%
   >
   >* [在情境規劃工具中共用計畫](../../scenario-planner/share-a-plan.md)
   >* [在Workfront目標中共用目標](../../workfront-goals/workfront-goals-settings/share-a-goal.md)
+
+* 當您與使用者共用物件時，Workfront會傳送通知給他們。 當同時啟用下列兩個設定時，會發出通知：
+
+   * 系統或群組管理員已在[設定]區域中啟用&#x200B;**與使用者共用物件**&#x200B;和&#x200B;**與團隊共用物件**&#x200B;電子郵件通知。 如需詳細資訊，請參閱[設定系統中每個人的事件通知](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)。
+   * **有人與我共用物件**&#x200B;且&#x200B;**有人與我的團隊共用物件**&#x200B;已在使用者的設定檔頁面中啟用通知。 如需詳細資訊，請參閱[修改您自己的電子郵件通知](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)。
+
+  必須先啟用系統或群組層級的設定，然後才能為使用者啟用通知設定。
 
 ## 共用限制
 
