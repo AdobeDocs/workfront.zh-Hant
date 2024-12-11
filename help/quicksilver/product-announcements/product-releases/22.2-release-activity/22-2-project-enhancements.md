@@ -1,14 +1,14 @@
 ---
-title: 22.2&amp；nbsp；專案增強功能
-description: 22.2&amp；nbsp；專案增強功能
+title: 22.2專案增強功能
+description: 22.2專案增強功能
 author: Luke
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 43ea91db-d6f2-4218-9261-580a7e5b31d0
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1093'
 ht-degree: 1%
 
 ---

@@ -6,9 +6,9 @@ description: 身為Adobe Workfront管理員，您可以在指派使用者的存�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '584'
 ht-degree: 2%
 
 ---
@@ -60,6 +60,8 @@ ht-degree: 2%
   如需有關根據使用者對專案的許可權來管理專案上範本任務和問題的存取許可權的資訊，請參閱文章[編輯專案範本](../../manage-work/projects/create-and-manage-templates/edit-templates.md)中的[存取](../../manage-work/projects/create-and-manage-templates/edit-templates.md#access)區段。
 
 * Workfront管理員可以指定檔案是否應該繼承使用者存取層級中較高物件的許可權。 如需有關限制檔案繼承許可權的詳細資訊，請參閱[建立或修改自訂存取層級](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
+
+* 您無法單獨共用範本任務。 共用範本也會共用範本任務。 從範本共用專案也會共用未來的專案任務。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

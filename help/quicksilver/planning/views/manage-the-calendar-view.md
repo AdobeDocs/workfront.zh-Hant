@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: d962d60294295dd1f3771d1f0b737c9d1f03dfef
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
 source-wordcount: '841'
 ht-degree: 0%
@@ -227,6 +227,6 @@ ht-degree: 0%
 
 ### 編輯行事曆檢視設定
 
-編輯行事曆檢視設定與編輯時間軸檢視的設定相同。
+編輯行事曆檢視設定與編輯時間軸檢視的設定類似。
 
 如需詳細資訊，請參閱文章[管理時間表檢視](/help/quicksilver/planning/views/manage-the-timeline-view.md)中的「編輯時間表檢視設定」一節。

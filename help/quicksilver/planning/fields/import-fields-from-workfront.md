@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
+exl-id: 994594f2-a888-423a-bf66-0d14baf57c55
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 7%
+source-wordcount: '760'
+ht-degree: 6%
 
 ---
-
 
 <!--add to TOC-->
 
@@ -180,3 +180,8 @@ Workfront Planning不支援所有其他Workfront欄位型別。
 1. 按一下&#x200B;**+**，然後按&#x200B;**新增欄位**。
 欄位會新增至表格檢視和記錄的詳細資訊頁面。
 
+   >[!IMPORTANT]
+   >
+   >    任何記錄型別最多有500個欄位。 現有欄位以及匯入的欄位共同構成此限制。
+
+   新增的欄位是Workfront欄位的副本，不再連線到Workfront中的原始欄位。

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: d68c4fd39234d8d5131828e2a4642bd9af8ca7d5
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
-source-wordcount: '6522'
+source-wordcount: '6534'
 ht-degree: 5%
 
 ---
@@ -328,7 +328,7 @@ ht-degree: 5%
     </tr>
     <tr> 
      <td role="rowheader">標籤</td> 
-     <td> <p>（必要）輸入描述性標籤，以在自訂欄位上方顯示。 您可以隨時變更標籤。</p> <p><b>重要</b>：請避免在此標籤中使用特殊字元。 它們在報表中無法正確顯示。 如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p> </td> 
+     <td> <p>（必要）輸入描述性標籤，以在自訂欄位上方顯示。 您可以隨時變更標籤。</p> <p><b>重要</b>： </p> <p>請避免在此標籤中使用特殊字元。 它們在報表中無法正確顯示。 如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p> </td> 
      <td><ul>
     <li>單選按鈕</li>
     <li>核取方塊群組</li>
@@ -411,13 +411,18 @@ ht-degree: 5%
     <li> <p><strong>移除選擇</strong>：從欄位移除選擇。</p> <p><b>警告</b>：如果您有使用此選擇的目前物件，請勿將其從欄位移除。 移除它將會導致歷史資料遺失。 相反地，選取要隱藏它的選項，這會防止使用者在將來選取它。</p> </li> 
     </ul> 
      </li> 
-    </ol> </td> 
+    </ol>
+
+   <p><b>注意：</b></p>
+    <p>您可以選取的選項數量沒有限制。 </p>    
+    </td> 
     <td><ul>
     <li>單選按鈕</li>
     <li>核取方塊群組</li>
     <li>單選下拉式清單</li>
     <li>多選下拉式清單</li>
-    </ul></td>
+    </ul>
+    </td>
      </tr> 
     </tbody> 
     </table>

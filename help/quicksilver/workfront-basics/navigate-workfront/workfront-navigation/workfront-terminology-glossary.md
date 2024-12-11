@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront] 字彙表列出 [!DNL Adobe Workfront]. Yo
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 8df1c288eed04c7330d124e0c32c869a3e5a525b
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
-source-wordcount: '20875'
+source-wordcount: '20930'
 ht-degree: 0%
 
 ---
@@ -812,7 +812,15 @@ ht-degree: 0%
   <tr> 
    <td>[！UICONTROL檔案版本]</td> 
    <td> <p>每次將相同的檔案上傳到相同的物件時，都會為其指定版本編號。 使用者可以檢視和變更舊版檔案的多個選項。</p> <p>如需詳細資訊，請參閱<a href="../../../documents/managing-documents/manage-document-versions.md" class="MCXref xref">管理檔案版本</a>。</p> </td> 
-  </tr> 
+  </tr>
+
+<tr> 
+   <td>[！UICONTROL到期日期]</td> 
+   <td> <p>任務或問題到期完成的日期。 任務或問題的到期日與計畫完成日期相同。</p>
+    <p>任務和問題到期日會顯示在任務和問題清單及報告中。</p> 
+    <p>另請參閱此表格中的「計畫完成日期」。 
+    </td> 
+  </tr>
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[！UICONTROL持續時間]</td> 
    <td> <p>為完成任務問題或專案分配的時間視窗（由[！UICONTROL計劃開始]與計畫完成之間的天數決定）。</p> 
