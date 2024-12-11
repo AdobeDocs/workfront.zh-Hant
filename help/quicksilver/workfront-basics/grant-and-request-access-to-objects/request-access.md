@@ -6,9 +6,9 @@ description: 您對Adobe Workfront中物件的可見性取決於您對該物件�
 author: Becky
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-source-git-commit: dbdcebe0fae91e7b688cad4fd11bd5aaafe51d3b
+source-git-commit: 6409f8fa5072413444545d2d3a80935dc6e04b4c
 workflow-type: tm+mt
-source-wordcount: '1454'
+source-wordcount: '1398'
 ht-degree: 0%
 
 ---
@@ -108,10 +108,12 @@ ht-degree: 0%
    生產環境中的影像範例：
    ![](assets/request-access-dialog-350x314.png)
 
-如果您沒有物件的存取層級許可權，而您嘗試透過連結存取該物件，則會顯示一個畫面，通知您聯絡Workfront管理員。
+<!--
+If you do not have access level rights to an object and you try to access that object from a link, a screen is displayed informing you to contact the Workfront administrator.
 
-例如，如果您沒有投資組合存取權，但您獲得投資組合的連結，您會看到下列訊息：\
+For example, if you do not have portfolio access, but you were given a link to a portfolio, you would see the following message:  
 ![](assets/permission-request-initial2-350x96.png)
+-->
 
 ### 要求其他存取權 {#request-additional-access}
 

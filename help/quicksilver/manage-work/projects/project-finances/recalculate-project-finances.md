@@ -3,12 +3,12 @@ title: 重新計算專案財務
 product-area: projects
 navigation-topic: financials
 description: 當專案記錄的時數或用於計算成本和收入的費率發生變更時，在專案上計算財務。
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
+source-git-commit: 69afad9af3f1e703487fdab092bc84457ee00922
 workflow-type: tm+mt
-source-wordcount: '1647'
+source-wordcount: '1678'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計劃 </p> </td> 
+   <td> <p>規劃 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
@@ -57,6 +57,8 @@ ht-degree: 0%
 
 * 進行變更時，會從該時間點開始使用更新的費率，因為會記錄時數並計算財務資訊。 變更速率不會影響進行變更前的運算方式。 對於記錄的所有現有時數，使用舊比率來計算財務資訊。
 * 您可以使用「重新計算財務」選項，強制Adobe Workfront回溯使用目前為止記錄之所有時數的新費率。 這可強制Workfront根據新的費率資訊，回溯重新計算所有先前輸入的時數、計畫成本和收入。
+
+報表型別「專案（財務資料）」在載入資料之前不會自動重新計算。 若要更新此報表型別中的資料，您必須手動重新計算個別專案的財務。
 
 >[!CAUTION]
 >

@@ -5,9 +5,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 648a36ce-5793-472f-9fee-9dedf71991ef
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 6409f8fa5072413444545d2d3a80935dc6e04b4c
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '596'
 ht-degree: 3%
 
 ---
@@ -21,8 +21,7 @@ ht-degree: 3%
 >[!NOTE]
 >
 >* 群組管理員可以編輯團隊對其所管理之群組的設定。 如需詳細資訊，請參閱[建立和修改群組的團隊](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md)。
->* 擁有「計畫」授權的使用者可以從「人員」區域編輯團隊的設定。 如需詳細資訊，請參閱[編輯團隊設定](../../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md)。
->
+>* 擁有Standard或Plan授權的使用者可以從團隊區域編輯團隊的設定。 如需詳細資訊，請參閱[編輯團隊設定](../../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md)。
 
 ## 存取需求
 
