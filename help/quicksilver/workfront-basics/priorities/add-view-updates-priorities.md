@@ -5,13 +5,13 @@ description: 您可以在任務或問題上新增更新，以向他人傳達工�
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 75396c3f066abc6070ae2a89c2ded0255dbc0751
+exl-id: a7237746-0a18-408b-b932-8a608fd72eee
+source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 0%
 
 ---
-
 
 # 在優先順序中新增及檢視註解
 
@@ -65,6 +65,7 @@ ht-degree: 0%
 1. 找到您要更新的工作專案。
 1. 將游標暫留在名稱上，然後按一下[新增更新]。****
    ![](assets/add-update.png)
+   <!--new screen for prod ![](assets/update-log-upload.png)-->
 1. 開始輸入您的註解。
 1. （選擇性）在&#x200B;**標籤人員或團隊**&#x200B;方塊中，開始輸入使用者或您要加入此註解之團隊的名稱或電子郵件，然後在其顯示在清單中時選取它。
 1. （可選）使用RTF工具列中的選項來格式化文字、新增emoji、連結或影像至您的註解，以強化您的內容。

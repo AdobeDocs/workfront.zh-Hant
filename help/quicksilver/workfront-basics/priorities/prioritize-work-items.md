@@ -6,7 +6,7 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 31793b0e-444c-492c-b1a2-909a2e97628b
-source-git-commit: 2125639c11513439fdd3ae872b336814f8f77adb
+source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 1%
@@ -32,6 +32,7 @@ ht-degree: 1%
    | **低** | 「低」表示不需要立即關注的工作專案，並可延遲到所有優先順序較高的工作專案完成為止。 |
 
    ![](assets/my-focus.png)
+   <!--new screen for prod ![](assets/my-focus-new.png)-->
 
    >[!TIP]
    >

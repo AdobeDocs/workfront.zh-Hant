@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 3c87c88245e79581c2a880c13038bcedb24caf4b
+source-git-commit: ad75f6e80d0681b5a769e2fd8fc68285597dbca0
 workflow-type: tm+mt
 source-wordcount: '1729'
 ht-degree: 0%
@@ -176,7 +176,7 @@ ht-degree: 0%
 1. 按一下「**[!UICONTROL 儲存]**」。
 1. 在左側導覽中選取&#x200B;**[!UICONTROL 檔案]**，然後選取&#x200B;**[!UICONTROL [!DNL SharePoint]整合]**。
 1. 選取清單左側的核取記號，以取得所有現有的整合，然後選取&#x200B;**[!UICONTROL 停用]**。
-   ![](assets/disable-old-sharepoint.png)
+
 
 
 ### 設定使用者端密碼以繼續存取舊版[!DNL SharePoint]整合

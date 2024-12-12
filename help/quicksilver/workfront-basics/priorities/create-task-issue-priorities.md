@@ -5,13 +5,13 @@ description: 您可以直接從「優先順序」建立新任務和問題。
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 75396c3f066abc6070ae2a89c2ded0255dbc0751
+exl-id: 240cda0f-0acf-4b5c-872d-b7f5cee0b769
+source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 3%
+source-wordcount: '241'
+ht-degree: 4%
 
 ---
-
 
 # 在優先順序中建立新任務或問題
 
@@ -69,16 +69,16 @@ ht-degree: 3%
 
 1. 按一下右上角的&#x200B;**新建**。
    ![](assets/create-new.png)
+&lt;！ — 產品![](assets/create-new--.png)的新畫面 — >
 1. 指定下列資訊：
 
    | 欄位 | 指示 |
    |---------------|-------------|
    | 工作專案型態（選擇性） | 選擇您要建立&#x200B;**任務**&#x200B;或&#x200B;**問題**。 |
    | 姓名 | 輸入名稱。 |
-   | 說明（選擇性） | 輸入說明。 |
+   | 說明 (選擇性) | 輸入說明。 |
    | 專案 | 開始輸入專案名稱，然後從下拉式清單中選取。 |
    | 受指派人（選擇性） | 將人員指派至工作專案。 |
    | 到期日（選擇性） | 選擇到期日。 |
 
 1. 按一下「**建立**」。
-

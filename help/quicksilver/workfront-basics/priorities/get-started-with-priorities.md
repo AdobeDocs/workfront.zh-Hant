@@ -5,13 +5,13 @@ description: 優先順序是為任務所有者量身打造的簡化且直覺式�
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 61f4fef12ec53b77feb4adba7b8e4561248be2fd
+exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
+source-git-commit: edc817b305622d704a1543b1e288731fc3bbff33
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '953'
 ht-degree: 3%
 
 ---
-
 
 # 開始使用[!DNL Priorities]
 
@@ -91,7 +91,6 @@ ht-degree: 3%
 
 篩選完您的工作後，您可以根據下列條件將專案分組
 
-* 無
 * 我的焦點
 * 到期週數
 * 狀態
@@ -104,15 +103,16 @@ ht-degree: 3%
 「我的焦點」是工作清單中的一欄，可協助您排定工作優先順序。 「我的焦點」值是個人的，不會影響專案、任務或問題資料。 您可以使用下列焦點等級：
 
 * 緊急
-* 主要
-* 次要
+* 高
 * 一般（預設）
+* 低
 
 將焦點層級指派給工作專案後，您就可以排序欄，在工作清單頂端顯示緊急專案。
 
 如需詳細資訊，請參閱[優先處理重要工作專案](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md)。
 
 ![](assets/my-focus-column.png)
+<!-- new screen for prod ![](assets/worklist.png) -->
 
 ### 使用行事曆檢視[!BADGE 即將推出]{type=Informative}
 
@@ -141,6 +141,7 @@ ht-degree: 3%
 如需詳細資訊，請參閱[在優先順序](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md)中新增並檢視註解。
 
 ![](assets/new-update.png)
+<!--new screen for prod ![](assets/update-log-upload.png)-->
 
 ### 記錄時間
 
@@ -149,6 +150,7 @@ ht-degree: 3%
 如需詳細資訊，請參閱[在優先順序中記錄時間](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md)。
 
 ![](assets/log-time.png)
+<!--new screen for prod ![](assets/update-log-upload.png)-->
 
 ### 上傳檔案
 
@@ -162,6 +164,7 @@ ht-degree: 3%
 如需詳細資訊，請參閱[上傳優先順序中的檔案](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md)。
 
 ![](assets/upload-file.png)
+<!--new screen for prod ![](assets/update-log-upload.png)-->
 
 ### 檢視檔案[!BADGE 即將推出]{type=Informative}
 
@@ -197,5 +200,3 @@ ht-degree: 3%
 
 * Workfront管理員目前無法透過版面配置範本自訂優先順序。
 * 在優先順序中存取任務會跨越標籤。 我們計畫在未來新增其他標籤，例如檔案、子任務、核准等。 使用&#x200B;**提供意見反應**&#x200B;按鈕提交意見反應，讓我們知道您需要這些專案。
-
-
