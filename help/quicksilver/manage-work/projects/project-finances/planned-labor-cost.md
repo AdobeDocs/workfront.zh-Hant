@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: financials
 title: 計算計畫勞力成本
 description: 當您計畫專案上的工作時，Adobe Workfront會根據角色與使用者的每小時成本值，計算指派給此工作的角色與使用者的計畫勞力成本。
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: af053e9a-09dc-4b4d-8ed4-f681ed611a59
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 0%

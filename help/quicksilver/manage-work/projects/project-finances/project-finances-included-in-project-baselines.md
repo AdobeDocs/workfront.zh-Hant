@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: financials
 title: 專案基準線中包含的專案財務
 description: 基準線是專案在指定時間的效能快照。 這類檔案會儲存專案的關鍵資訊，例如關鍵日期、進度、成本和收入值。
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 705156d0-0daa-40bf-a511-144d56316136
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 14%

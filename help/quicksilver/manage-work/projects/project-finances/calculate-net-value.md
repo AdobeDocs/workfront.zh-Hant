@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: financials
 title: 計算淨值
 description: 專案的淨值，是計算專案的收益並移除成本後，專案的總預期值。
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 44e3f211-c816-4ee1-aafc-c40fc8732f1a
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 1%
@@ -16,11 +16,11 @@ ht-degree: 1%
 
 # 計算淨值
 
-專案的淨值，是計算專案的收益並移除成本後，專案的總預期值。 
+專案的淨值，是計算專案的收益並移除成本後，專案的總預期值。
 
 ## 專案淨值概觀
 
-Adobe Workfront會使用下列公式計算專案的「淨值」： 
+Adobe Workfront會使用下列公式計算專案的「淨值」：
 
 ```
 Project Net Value = Planned Benefit - Budgeted Cost - Potential Risk Cost

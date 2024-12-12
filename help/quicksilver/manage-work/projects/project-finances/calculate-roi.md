@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: financials
 title: 計算投資報酬率(ROI)
 description: 投資報酬率(ROI)是Adobe Workfront的量度，可讓投資組合經理快速瞭解專案相對於專案原始計畫收益和預算成本的表現。
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 1a3d16cb-8cb1-472e-8102-0ea8e0bc0edd
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%

@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: financials
 title: 專案財務欄位
 description: 追蹤專案財務是管理專案的關鍵。
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: a5e69dea-d0aa-47cd-9b59-6199cec56fe4
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
 workflow-type: tm+mt
 source-wordcount: '594'
 ht-degree: 2%

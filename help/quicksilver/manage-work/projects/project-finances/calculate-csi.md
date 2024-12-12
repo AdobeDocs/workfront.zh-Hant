@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: financials
 title: 計算成本排程績效指數(CSI)
 description: 成本排程績效指數(CSI)是一種自動計算，它將「成本績效指數(CPI)」與「排程績效指數(SPI)」結合為一個一般度量，以平衡成本與排程。
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 38a8c5e0-b812-499d-8fe7-a71ddccb3aad
-source-git-commit: 1cf679376517293f0e0f28b461bd9ecab9283035
+source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 0%

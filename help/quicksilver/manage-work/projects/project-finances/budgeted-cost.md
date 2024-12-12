@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: financials
 title: 計算預算成本
 description: 使用使用情況報告計算預算成本追蹤專案進度」
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: e96fe38f-58c2-4938-9d2d-81d1109123fa
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 2%

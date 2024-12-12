@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: financials
 title: 計算潛在風險成本
 description: 專案的潛在風險成本會考慮專案風險的潛在成本及其發生的可能性。
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: f4dc1950-efd8-4936-83fd-1280ee465923
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -28,8 +28,8 @@ Potential Risk Cost =SUM(Potential Risk Costs * Risk Probability)
 
 複查專案的潛在風險成本時，請考量下列事項：
 
-* 專案的計畫風險成本與潛在風險成本相同。 
-* 潛在風險成本未併入專案的計畫成本中。 而是用來決定其淨值。.
+* 專案的計畫風險成本與潛在風險成本相同。
+* 潛在風險成本未併入專案的計畫成本中。 而是用來決定其淨值。
 
 ## 找出專案的潛在風險成本
 

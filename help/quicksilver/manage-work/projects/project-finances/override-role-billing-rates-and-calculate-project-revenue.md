@@ -3,10 +3,10 @@ product-area: projects
 navigation-topic: financials
 title: 覆寫工作角色帳單費率與計算專案收入的概要
 description: 當您將記帳費率乘以專案所花費的時數時，您可以使用記帳費率來計算專案的收入。 如需有關收費率和收入的詳細資訊，請參閱文章帳單和收入概觀。
-author: Alina, Lisa
+author: Lisa
 feature: Work Management
 exl-id: 63ba6758-ba62-48b4-89f4-d784e32a1bfa
-source-git-commit: 1517e3e28fe536a8a72d2802919c8b8819e9ea1a
+source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
 workflow-type: tm+mt
 source-wordcount: '3860'
 ht-degree: 0%
