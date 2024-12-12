@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
+source-git-commit: 75aaa531dba8037ed75c0d6baa6d7c69ec4cfefd
 workflow-type: tm+mt
 source-wordcount: '6534'
 ht-degree: 5%
@@ -948,7 +948,7 @@ The Workfront Mobile app -->
 >您必須具備下列專案才能存取Workfront Planning：
 >
 >* 新的Workfront計畫和授權。 舊版Workfront計畫或授權無法使用Workfront計畫。
->* Workfront Planning的額外授權。
+>* 適用於Workfront Planning的額外套件。
 >* 貴組織的Workfront執行個體必須上線至Adobe統一體驗。
 >
 > 如需存取Workfront Planning的完整需求清單，請參閱[Adobe Workfront Planning存取總覽](/help/quicksilver/planning/access/access-overview.md)。

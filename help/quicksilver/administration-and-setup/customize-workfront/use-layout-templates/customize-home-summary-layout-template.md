@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
+source-git-commit: 75aaa531dba8037ed75c0d6baa6d7c69ec4cfefd
 workflow-type: tm+mt
-source-wordcount: '943'
+source-wordcount: '753'
 ht-degree: 2%
 
 ---
@@ -97,34 +97,38 @@ ht-degree: 2%
       <td role="rowheader">問題</td> 
       <td><p>在問題清單中，此設定會影響當使用者選擇問題，然後按一下「開啟摘要」圖示<img src="assets/summary-panel-icon.png">時顯示在頁面右側的「摘要」面板。</p> </td> 
      </tr> 
-     <tr> 
-      <td role="rowheader">專案</td> 
-      <td><ul><li><p>在首頁中，當使用者按一下指派給他們的專案核準時，此設定的設定會影響核准右側的區域。</p>
-      <p><b>重要：</b> </p><p>這是一項過時的功能。 您對此區域所做的任何變更都與Workfront已移除的功能有關。 此選項將在稍後的維護更新中從Workfront移除。</p></li>
+    </tbody> 
+   </table>
+
+<!--These were removed with the new Home: 
+
+<tr> 
+      <td role="rowheader">Projects</td> 
+      <td><ul><li><p>In Home, when a user clicks a project approval assigned to them, your configuration for this setting affects the area to the right of the approval.</p>
+      <p><b>IMPORTANT:</b> </p><p>This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
       </ul> 
       </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">文件</td> 
+      <td role="rowheader">Documents</td> 
       <td>
-     <ul><li><p>在首頁中，當使用者按一下指派給他們的檔案核準時，您對此設定的設定會影響核准右側的區域。</p>
-      <p><b>重要：</b> </p><p> 這是一項過時的功能。 您對此區域所做的任何變更都與Workfront已移除的功能有關。 此選項將在稍後的維護更新中從Workfront移除。</p></li>
+     <ul><li><p>In Home, when a user clicks a document approval assigned to them, your configuration for this setting affects the area to the right of the approval.</p>
+      <p><b>IMPORTANT:</b> </p><p> This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
       </ul>
       </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">文件版本</td> 
-      <td><ul><li><p>在首頁中，當使用者按一下指派給他們用於特定檔案版本的核準時，您對此設定的設定會影響核准右側的區域。</p>
-      <p><p><b>重要：</b></p> 這是一項過時的功能。 您對此區域所做的任何變更都與Workfront已移除的功能有關。 此選項將在稍後的維護更新中從Workfront移除。</p></li>
+      <td role="rowheader">Document Versions</td> 
+      <td><ul><li><p>In Home, when a user clicks an approval assigned to them for a particular version of a document, your configuration for this setting affects the area to the right of the approval.</p>
+      <p><p><b>IMPORTANT:</b></p> This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
       </ul>
       </td> 
-     </tr> 
-    </tbody> 
-   </table>
+     </tr> -->
 
-   >[!IMPORTANT]
-   >
-   >如果未指派任務，則指派給版面配置範本的使用者將不會在「摘要」中看到欄位自訂。
+
+>[!IMPORTANT]
+>
+>如果未指派任務，則指派給版面配置範本的使用者將不會在「摘要」中看到欄位自訂。
 
 1. （視條件而定）如果您在上一步中按一下任務或問題，請選取您要自訂的任務或問題類別。
 
