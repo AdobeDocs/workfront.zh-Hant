@@ -6,7 +6,7 @@ description: 當專案記錄的時數或用於計算成本和收入的費率發�
 author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: 854844b0cb0207085a99403cf8b76573838feb41
+source-git-commit: 946b2697d8988fae252a13d982c9aa6685961d43
 workflow-type: tm+mt
 source-wordcount: '1678'
 ht-degree: 0%
@@ -46,11 +46,11 @@ ht-degree: 0%
  </tbody> 
 </table>
 
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+
 如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
-
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
 ## 在Adobe Workfront中計算財務的考量事項
 
