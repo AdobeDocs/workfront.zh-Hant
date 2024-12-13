@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 2b6f5243de9610947ab6836080379a2293f48a10
+source-git-commit: 937965ad495453e185504d53f9d9c88c3cd7e201
 workflow-type: tm+mt
 source-wordcount: '1643'
 ht-degree: 0%
@@ -51,7 +51,7 @@ ht-degree: 0%
 如果您的組織擁有企業計畫，您也可以設定兩個Workfront允許清單：
 
 * **電子郵件允許清單**：可讓您控制使用者可以用電子郵件傳送儲存在Workfront中的資料的位置。 如需詳細資訊，請參閱[設定您的電子郵件允許清單](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)。
-* **IP允許清單**：將Workfront的存取限製為您指定的45個IP位址或IP位址範圍，為Workfront應用程式提供額外的安全層。 如需詳細資訊，請參閱[依IP位址限制存取Adobe Workfront](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md)。
+* **IP允許清單**：將Workfront的存取限製為您指定的75個IP位址或IP位址範圍，為Workfront應用程式提供額外的安全層。 如需詳細資訊，請參閱[依IP位址限制存取Adobe Workfront](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md)。
 
 ## 找到Workfront叢集
 

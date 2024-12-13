@@ -3,12 +3,12 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: security
 title: 依IP位址限制對Adobe Workfront的存取
-description: 您可以設定Adobe Workfront IP允許清單，將對Workfront的存取限製為您指定的45個IP位址或IP位址範圍。 這為Workfront應用程式提供額外的安全層。
+description: 您可以設定Adobe Workfront IP允許清單，限制存取您所指定的75個IP位址或IP位址範圍的Workfront。 這為Workfront應用程式提供額外的安全層。
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: aed65b42-d534-453a-885d-f922114987bc
-source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
+source-git-commit: 937965ad495453e185504d53f9d9c88c3cd7e201
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 2%
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 # 依IP位址限制對Adobe Workfront的存取
 
-您可以設定Adobe Workfront IP允許清單，將對Workfront的存取限製為您指定的45個IP位址或IP位址範圍。 這為Workfront應用程式提供額外的安全層。
+您可以設定Adobe Workfront IP允許清單，限制存取您所指定的75個IP位址或IP位址範圍的Workfront。 這為Workfront應用程式提供額外的安全層。
 
 這些IP位址或IP位址範圍應由您的網路管理員提供。
 
@@ -37,7 +37,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td>計劃</td> 
+   <td>規劃</td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -77,6 +77,6 @@ ht-degree: 2%
 1. 按一下&#x200B;**新增IP範圍**，然後指定您要存取Workfront的IP位址或IP位址範圍。
 1. （選用）重複先前的步驟，新增其他IP位址或IP位址範圍。
 
-   您最多可以新增45個地址或範圍。
+   您最多可以新增75個地址或範圍。
 
 1. 按一下&#x200B;**儲存。**

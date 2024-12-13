@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 76b6acc4-c432-47b4-90bf-6e37e970625f
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: 937965ad495453e185504d53f9d9c88c3cd7e201
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 0%
@@ -51,7 +51,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td>計劃</td> 
+   <td>規劃</td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 ## 其他允許清單
 
-如果貴組織擁有企業計畫，您可以設定Adobe Workfront IP允許清單，將對Workfront的存取限製為您指定的45個IP位址或IP位址範圍。 這為Workfront應用程式提供額外的安全層。 如需詳細資訊，請參閱[依IP位址限制存取Adobe Workfront](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md)。
+如果貴組織擁有企業計畫，您可以設定Adobe Workfront IP允許清單，限制存取您所指定的75個IP位址或IP位址範圍的Workfront。 這為Workfront應用程式提供額外的安全層。 如需詳細資訊，請參閱[依IP位址限制存取Adobe Workfront](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md)。
 
 此外，如果您的防火牆或郵件伺服器設定為僅允許存取特定廠商，則必須將特定IP位址新增至其允許清單。 這可在您的環境與Adobe Workfront伺服器之間開啟通訊。 如需相關資訊，請參閱[設定防火牆的允許清單](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)。
 
