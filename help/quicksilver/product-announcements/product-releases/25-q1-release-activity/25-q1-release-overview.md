@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 8b0c40d6fa5898581c50d6257bc2b2f2a4838b06
 workflow-type: tm+mt
-source-wordcount: '1651'
+source-wordcount: '1728'
 ht-degree: 0%
 
 ---
@@ -59,6 +59,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             用於單一指派任務的專案或使用者排程的偏好設定</a></p>
+            [！BADGE In Production for Fast Release ]{type=Positive}
             <p>作為系統或群組管理員，您現在有新的偏好設定，可指明Workfront在您指派一名使用者至任務，且專案和使用者都與排程相關聯時，是否應使用專案或使用者的排程來計算專案的時間表。</p>
         </td>
         <td>
@@ -74,6 +75,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             商業規則現在支援超連結</a></p>
+            [！BADGE In Production for Fast Release ]{type=Positive}
             <p>您現在可以在商業規則的自訂錯誤訊息中包含超連結，以指導使用者如何在規則的限制內修改其動作。 靜態URL可連結至對使用者有所幫助的檔案或其他頁面。</p>
         </td>
         <td>
@@ -169,6 +171,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
             一次編輯多份檔案</a></p>
+            [！BADGE In Production for Fast Release ]{type=Positive}
             <p>您現在可以一次編輯多份檔案。 您可以編輯說明並更新自訂表格。</p>
         </td>
         <td>
@@ -217,8 +220,22 @@ ht-degree: 0%
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            從優先順序導覽至專案的詳細資訊頁面</a></p>
+            優先順序工作清單的更新</a></p>
             [！BADGE New in Preview ]{type=Negative}
+            <p>我們已更新「優先順序」工作清單，以改進功能並與應用程式的其他區域保持一致。</p>
+        </td>
+        <td>
+            <p><b>將於下列日期提供：</b></p>
+            <ul>
+                <li>預覽版本： 2024年12月12日</li>
+                <li>所有客戶的生產版本：25.1版本（2025年1月）</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            從優先順序導覽至專案的詳細資訊頁面</a></p>
             <p>您現在可以從優先順序工作清單直接導覽至Workfront中的專案。</p>
         </td>
         <td>
@@ -344,6 +361,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             更新如何管理連結資料夾中移動或刪除的資產</a></p>
+            [！BADGE In Production ]{type=Informative}
             <p>我們已變更使用Adobe Workfront與Experience Manager Assets和Assets Essentials整合時移動和刪除資產的處理方式：</p>
             <ul>
                 <li>已刪除的資產：當資產在Assets或Assets Essentials中的連結資料夾內刪除時，已刪除的資產將保留在專案檔案區域。</li>
@@ -362,6 +380,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             自訂表單中的區段現在可摺疊且可展開</a></p>
+            [！BADGE In Production for Fast Release ]{type=Positive}
             <p>當具有多個區段的自訂表單附加到物件時，您現在可以摺疊和展開表單頂端預設區段以外的所有區段。 管理員也可以在表單設計工具中預覽表單時看到此功能。</p>
         </td>
         <td>

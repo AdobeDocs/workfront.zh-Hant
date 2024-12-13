@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 8b0c40d6fa5898581c50d6257bc2b2f2a4838b06
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '391'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,36 @@ ht-degree: 1%
 本頁說明2025年第一季度版本對「預覽」環境所做的所有首頁增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2025年第一季發行週期目前可用的所有變更清單，請參閱[2025年第一季發行概觀](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)。
+
+## 優先順序工作清單的更新
+
+>[!NOTE]
+>
+>預覽版本： 2024年12月12日；適用於所有客戶的生產版本：搭配25.1版（2025年1月）
+
+我們已更新「優先順序」工作清單，以改進功能並與應用程式的其他區域保持一致。
+
+### 視覺變更
+
+* 篩選、檢視和群組選項現在會出現在工作清單標題的左側
+* 欄和群組下拉式功能表的新外觀
+* 現在位於工作清單右下角的清單專案總數
+* 在工作清單標題右側新增展開的搜尋列
+
+如需詳細資訊，請參閱[開始使用優先順序](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md)。
+
+### 功能變更
+
+您現在可以
+
+* 排序群組內的專案
+* 依「我的優先順序」或「狀態」分組時拖放專案
+
+如需詳細資訊，請參閱[篩選並群組您的優先順序](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)。
+
+### 已移除
+
+* 您無法再直接在工作清單中建立任務和問題。 您必須使用「優先順序」右上角的「建立新專案」按鈕。
 
 ## 從優先順序導覽至專案的詳細資訊頁面
 
