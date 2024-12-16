@@ -7,7 +7,7 @@ description: 如果您有Select或Premium計畫，您可以提供單一登入(SS
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 52ac1919-1821-424f-89f8-72865b236e4e
-source-git-commit: 007a603ef1df2a02959d7fb623ac784bf5b9cb80
+source-git-commit: 74a877145b55ccc14b4d5aefd1889919a39e1f20
 workflow-type: tm+mt
 source-wordcount: '1225'
 ht-degree: 0%
@@ -59,12 +59,12 @@ ht-degree: 0%
 1. 輸入&#x200B;**登入URL** (3)。
 系統會叫用此URL，將使用者重新導向至您的身分提供者。
 
-1. 這不是您在瀏覽器中輸入的實際URL，而是端點，將處理我們傳送的資訊，以顯示登入畫面。
+   這不是您在瀏覽器中輸入的實際URL，而是端點，將處理我們傳送的資訊，以顯示登入畫面。
 
-輸入&#x200B;**登出URL** (4)。
+1. 輸入&#x200B;**登出URL** (4)。
 例如，這是您登出後將會傳回的URL
 
-**https://www.yourcompany.com/services/logout.asp**
+   **https://www.yourcompany.com/services/logout.asp**
 
 1. 輸入&#x200B;**憑證指紋** (5)。
 1. 您的SAML身分提供者提供的SAML憑證的SHA1指紋。
