@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 5db940b197364e30ef6e1ea3e3c94ae3bda5b20c
+source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,7 @@ ht-degree: 0%
 # 提交Adobe Workfront Planning請求以建立記錄
 
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
+<!--take Preview and Prod references out when releasing to Prod all-->
 
 <span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
@@ -125,11 +126,11 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
 
 * 您只能從表單的特定連結存取Workfront Planning請求的請求表單。
 * 將請求提交至Workfront Planning後，便無法編輯請求。
-* 每個提交的請求都會針對與您使用<!--<span class="preview">if the form is not associated with an approval, or if the approval has been granted.</span> -->的表單相關聯的記錄型別建立記錄
+* 如果表單未與核准相關聯，或核准者皆已授與核准，則每個提交的請求都會為您使用的表單建立記錄型別的記錄<span class="preview">。</span>
 * 提交請求表單所建立的記錄，無法與透過任何其他方法新增的記錄區分開來。 如需詳細資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md)。
 * <span class="preview">已提交的請求會顯示在Workfront </span>請求區域的已提交區段的「計畫」標籤中。
 
-<!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some incosistency between unified-approvals-service and intake-approvals-flow.-->
+<!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.-->
 
 
 ## 向Workfront Planning提交請求
@@ -148,27 +149,26 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
 
    您的表單已提交，且發生下列情況：
 
-   * <!--If the request form was not associated with an approval, or <span class="preview">if the approval was granted</span>, a-->新記錄將新增到與表單關聯的記錄型別。
+   * 如果要求表單未與核准關聯，或<span class="preview">如果核准者皆已授與核准，</span>會將新記錄新增至與表單關聯的記錄型別。
 
-
-   * <!--If the request form was not associated with an approval, the--> <span class="preview">要求已新增至Workfront要求區域的Submitted區段，且新記錄已新增至記錄型別頁面。</span>
+   * 如果要求表單未與核准建立關聯，則會將<span class="preview">要求新增至Workfront要求區域已提交區段的Planning索引標籤，並將新記錄新增至記錄型別頁面。</span>
 
      ![](assets/planning-tab-in-requests.png)
 
      >[!IMPORTANT]
      >
-     ><span class="preview">所有有權存取至少一個工作區的使用者都可以檢視[要求]區域中的[計畫]索引標籤。 您只能檢視您提交的請求。 Workfront管理員可以檢視系統中的所有請求。</span> <!--ensure this is correct; asking team in slack-->
+     ><span class="preview">所有有權存取至少一個工作區的使用者都可以檢視[要求]區域中的[計畫]索引標籤。 您只能檢視您或其他人提交至您至少擁有檢視許可權之工作區的請求。 Workfront管理員可檢視提交至系統中任何工作區的所有請求。</span> <!--ensure this is correct; asking team in slack-->
 
-   <!--
-   * <span class="preview">If the request form was associated with an approval, the request is temporarily saved to the Planning tab in the Submitted section of the Workfront Requests area. No record is created for the record type associated with the request form.</span>
+   * <span class="preview">如果請求表單與核准相關聯，請求會暫時儲存到Workfront請求區域已提交區段的Planning索引標籤。 未針對與請求表單關聯的記錄型別建立記錄。</span>
 
-      <span class="preview">For information, see [Add an approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md).</span>  
-   -->
-   <!--
+     <span class="preview">如需詳細資訊，請參閱[新增核准至申請表單](/help/quicksilver/planning/requests/add-approval-to-request-form.md)。</span>
+   * <span class="preview">您會收到應用程式內及電子郵件通知，告知您請求已成功提交或已傳送稽核。</span>
+   * <span class="preview">如果要求表單與核准相關聯，核准者會收到應用程式內及電子郵件通知，以檢閱並核准要求。</span>
 
-   * <span class="preview">You receive an in-app and an email notification that the request has either been submitted successfully or has been sent for review.</span> 
-   * <span class="preview">If the request form was associated with an approval, the approvers receive an in-app and an email notification to review and approve the request.</span> 
-   -->
+     >[!NOTE]
+     >
+     ><span class="preview">只有當貴組織的Workfront執行個體已上線至Adobe統一體驗時，才會顯示電子郵件和應用程式內通知。</span>
+
 
 
 

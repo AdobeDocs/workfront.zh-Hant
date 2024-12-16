@@ -1,33 +1,19 @@
 ---
-title: 核准請求
+title: 在Adobe Workfront Planning中核准請求
 description: 當使用者將請求提交到與Adobe Workfront Planning中的核准相關聯的請求表單時，核准者會收到有關待核准的通知和電子郵件。 他們必須在Workfront Planning建立物件前核准請求。
-hide: true
-hidefromTOC: true
-source-git-commit: ab78b82db567193f32f6c67880b2b037dc78e849
+feature: Workfront Planning
+role: User, Admin
+author: Alina
+recommendations: noDisplay, noCatalog
+source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '945'
 ht-degree: 1%
 
 ---
 
 
-<!--
-
----
-title: Approve a Request
-description: When a user submits a request to a request form associated with an approval in Adobe Workfront Planning, approvers receive a notification and an email about the pending approval. They must approve the request before Workfront Planning creates an object. 
-feature: Workfront Planning
-role: User, Admin
-author: Alina
-recommendations: noDisplay, noCatalog
----
-
--->
-
-
-# 核准請求
-
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+# 在Adobe Workfront Planning中核准請求
 
 <!--take Preview and Production references at Production time-->
 
@@ -54,9 +40,8 @@ recommendations: noDisplay, noCatalog
 已提交的請求會顯示在Workfront請求區域中「已提交」區段的「計畫」標籤中，且具有以下請求狀態之一：
 
 * **擱置檢閱**：當沒有核准者開啟要求物件時，會顯示此狀態。
-* **稽核中**：當至少一位核准者開啟要求物件時，狀態變更為&#x200B;**稽核中**。 在所有核准者核准要求之前，要求的狀態仍為&#x200B;**稽核中**。
-* **已核准**：當核准者核准請求物件時，其個別狀態會變成
-* **已核准**，但整體要求物件狀態仍為&#x200B;**稽核中**，直到所有核准者都做出決定為止。
+* **稽核中**：當至少一位核准者開啟要求物件時，**擱置稽核**&#x200B;狀態變更為&#x200B;**稽核中**。 在所有核准者核准要求之前，要求的狀態仍為&#x200B;**稽核中**。
+* **已核准**：當核准者核准要求物件時，其個別狀態會變成&#x200B;**已核准**，但整體要求物件狀態仍為&#x200B;**稽核中**，直到所有核准者都做出決定為止。 當所有核准者核准請求時，請求狀態會變成&#x200B;**已核准**。
 * **已完成**：如果所有核准者核准該要求物件，其狀態會變更為&#x200B;**已完成**，或者該要求不需要核准。
 * **已拒絕**：如果任何核准者拒絕要求物件，狀態會變成&#x200B;**已拒絕**。 不會建立記錄，必須提交新請求才能建立記錄。
 
@@ -148,25 +133,39 @@ recommendations: noDisplay, noCatalog
 * 應用程式內通知
 * 電子郵件通知
 
+>[!NOTE]
+>
+>您組織的Workfront執行個體必須加入Adobe統一體驗，使用者才能接收電子郵件和應用程式內通知。
+
 若要核准請求，請執行下列步驟：
 
 1. 執行下列其中一項：
 
-   * 如果您有Workfront Planning的存取權，請按一下畫面右上角的&#x200B;**主功能表** ![](assets/dots-menu.png)，或左上角的&#x200B;**主功能表** ![](assets/lines-menu.png) （若有），然後按一下&#x200B;**要求** > **已提交** > **Planning**，然後按一下狀態為&#x200B;**稽核中**&#x200B;的要求<!--did they change this to Pending approval; logged  a bug-->。
+   * 如果您有Workfront Planning的存取權，而且至少可以檢視一個工作區，請按一下畫面右上角的&#x200B;**主功能表** ![](assets/dots-menu.png)，或左上角的&#x200B;**主功能表** ![](assets/lines-menu.png) （如果有的話），然後按一下&#x200B;**請求** > **已提交** > **Planning**，然後按一下狀態為&#x200B;**擱置檢閱**&#x200B;或&#x200B;**檢閱中**&#x200B;的請求。
 
      >[!TIP]
      >
-     >    如果您沒有Workfront Planning的存取權，您只能存取使用通知核准的請求。
+     >如果您無權存取Workfront Planning，或無權檢視任何工作區，則只能使用電子郵件或應用程式內通知存取核准該工作區的請求。
 
-
-   * 前往畫面右上角的&#x200B;**通知**&#x200B;區域，然後按一下擱置核准之要求的相關通知，以開啟要求。
-   * 前往電子郵件中的電子郵件通知，通知您擱置核准的要求，然後按一下以開啟要求。<!--add the name of the button here, from the email-->
+   * 按一下畫面右上角的&#x200B;**通知**&#x200B;區域圖示![](assets/notifications-area-icon-unified-shell.png)，然後按一下擱置您核准之要求的通知以開啟要求。
+   * 前往電子郵件中的電子郵件通知，通知您擱置核准的要求，然後按一下[開啟要求] **開啟要求。<!--add the name of the button here, from the email-->**
 
    請求頁面會以唯讀模式開啟。
 
    ![](assets/read-only-reqeust-page-in-review-status.png)
+
 1. （選擇性）按一下請求右上角的&#x200B;**核准**&#x200B;圖示![](assets/approvals-icon.png)以檢視核准者。
 1. 按一下&#x200B;**檢閱並核准**，然後選擇下列其中一項： <!--did they fix the button and removed the &??-->
 
-   * **核准**：這會核准要求。 系統會立即建立與請求表單相關之記錄型別的記錄。
-   * **拒絕**：這會拒絕要求。 不會針對與請求表單關聯的記錄型別建立記錄。<!--check to see if there is a notification sent to the requestor about it being rejected OR approved??--> <!--checking with PM what happens with the other approvers when one of them is rejecting it: does it ask them to approve it? Deleted the request? -->
+   * **核准**：這會核准要求。 在所有核准者核准請求後，系統會立即建立與請求表單相關之記錄型別的記錄。
+   * **拒絕**：這會拒絕要求，即使您是唯一拒絕要求的核准者亦然。 不會針對與請求表單關聯的記錄型別建立記錄。
+
+   提交請求的使用者在請求被批准或拒絕時，會收到電子郵件和應用程式內通知。
+
+   視核准決定而定，請求的狀態會變更為下列專案：
+
+   * **已完成**：要求已核准。
+   * **已拒絕**：要求已拒絕。
+
+   請求會保留在Workfront請求區域的已提交區段的Planning索引標籤中。
+

@@ -6,15 +6,19 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 1%
+source-wordcount: '717'
+ht-degree: 0%
 
 ---
 
 
 # 管理Adobe Workfront Planning電子郵件通知
+
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -25,6 +29,14 @@ ht-degree: 1%
   如需有關在記錄註解中標籤其他人的資訊，請參閱[管理記錄註解](/help/quicksilver/planning/records/manage-record-comments.md)。
 * 有人向您要求存取檢視或工作區的許可權
 * 有人確認已授予您檢視或工作區的存取權<!--Isk confirmed that there is nno email for denying access but did not test-->
+
+<div class="preview">
+
+* 您提交Workfront Planning請求。 如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)
+* 某人核准或拒絕您提交的Workfront Planning請求。 如需詳細資訊，請參閱[在Adobe Workfront Planning中核准請求](/help/quicksilver/planning/requests/approve-request.md)
+* 狀態會變更為您提交的Workfront Planning請求。
+
+</div>
 
 
 ## 存取需求
@@ -155,11 +167,11 @@ OLD:
 
 ## 當有人在評論中標籤您時管理電子郵件通知
 
-1. （視條件而定）有人在記錄上的評論中標籤您後，請移至通知您標籤和評論的電子郵件通知。 電子郵件的寄件者為Adobe Experience Cloud。
+1. （有條件且選用）有人在記錄上的評論中為您標籤後，請移至通知您標籤和評論的電子郵件通知。 電子郵件的寄件者為Adobe Experience Cloud。
 
    ![](assets/email-notification-example.png)
 
-1. 按一下&#x200B;**Workfront**&#x200B;方塊中的訊息。
+1. （選擇性）按一下電子郵件內&#x200B;**Workfront**&#x200B;方塊中的訊息。
 
    記錄詳細資訊頁面會在Workfront中開啟。 您可以更新記錄或回覆註解。
 
@@ -168,8 +180,27 @@ OLD:
 
 ## 請求和授與許可權時管理電子郵件通知
 
-當有人要求或授予您檢視或工作區的許可權時，您會收到電子郵件通知。
+1. （有條件且選用）某人要求或授予您存取檢視或工作區的許可權後，請前往通知您許可權要求的電子郵件。 電子郵件的寄件者為Adobe Experience Cloud。
+
+1. （選擇性）按一下電子郵件內&#x200B;**Workfront**&#x200B;方塊中的訊息。
+
+   記錄詳細資訊頁面會在Workfront中開啟。 您可以更新記錄或回覆註解。
+
+1. （視條件而定）如果可用，請按一下&#x200B;**檢視所有通知**。
+**通知**&#x200B;頁面會在Adobe Experience Cloud中開啟。 會顯示所有Adobe Experience Cloud應用程式的所有通知。
+
 
 如需有關要求、授與或拒絕檢視或工作區許可權的資訊，請參閱[要求檢視或工作區的許可權](/help/quicksilver/planning/access/request-permissions.md)。
 
 如需有關管理Workfront Planning通知的資訊，請參閱[管理Adobe Workfront Planning通知偏好設定](/help/quicksilver/planning/notifications/manage-notification-preferences.md)。
+
+## 管理有關提交、核准或拒絕Workfront Planning請求的電子郵件通知
+
+1. （選用）前往Workfront傳送給您的電子郵件
+在您提交請求之後，或您提交的請求已核准或拒絕之後。 電子郵件的寄件者為AdobeWorkfort。
+
+1. （選擇性）按一下&#x200B;**開啟請求**。 這會在Workfront Planning中開啟請求。
+
+1. 按一下畫面右上角的&#x200B;**通知**&#x200B;圖示![](assets/notifications-area-icon-unified-shell.png)以存取&#x200B;**通知**&#x200B;頁面。
+
+   如需有關管理Workfront Planning通知的資訊，請參閱[管理Adobe Workfront Planning通知偏好設定](/help/quicksilver/planning/notifications/manage-notification-preferences.md)。

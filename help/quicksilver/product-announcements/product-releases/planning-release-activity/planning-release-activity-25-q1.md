@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 93fca2a98a8b9d4370841b10be10ed2ba15283c9
+source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
 workflow-type: tm+mt
-source-wordcount: '1920'
+source-wordcount: '2114'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,42 @@ ht-degree: 0%
 <!--remove the general activity mention after First Quarter 2025 is released-->
 
 如需2024年8月28日一般可用性發行後Adobe Workfront Planning所發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+
+## 設定Workfront Planning請求的核准
+
+>[!NOTE]
+>
+>預覽版本： 2024年12月16日；適用於所有客戶的生產版本： 2025年1月16日
+
+您現在可以將核准與Workfront Planning請求表單建立關聯。 您只能將使用者新增為請求的核准者。 在提交請求後，該請求會先傳送給所有核准者進行核准，然後再建立記錄。
+
+如需詳細資訊，請參閱[在Adobe Workfront Planning中為請求表單新增核准](/help/quicksilver/planning/requests/add-approval-to-request-form.md)。
+
+
+## 請求提交、核准和狀態變更的通知
+
+>[!NOTE]
+>
+>預覽版本： 2024年12月16日；適用於所有客戶的生產版本： 2025年1月16日
+
+在Workfront Planning中提交請求後，您現在會收到應用程式內以及下列動作的電子郵件通知：
+
+* 請求者會收到已成功提交請求的通知
+
+* 請求者會收到請求已核准或已拒絕的通知
+
+* 核准者會收到通知，告知他們請求已提交核准。
+
+>[!NOTE]
+>
+>您組織的Workfront執行個體必須加入Adobe統一體驗，使用者才能接收電子郵件和應用程式內通知。
+
+如需關於提交或核准請求的資訊，請參閱下列文章：
+
+* [提交Adobe Workfront Planning請求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)
+
+* [在Adobe Workfront Planning中核准請求](/help/quicksilver/planning/requests/approve-request.md)。
 
 ## 尋找欄位型別時的智慧型搜尋
 
@@ -138,7 +174,7 @@ ht-degree: 0%
 
 在此增強功能之前，這些型別的欄位無法新增到Workfront Planning中的請求表單。
 
-如需詳細資訊，請參閱在Adobe Workfront Planning中建立及管理請求表單(/help/quicksilver/planning/requests/create-request-form.md)。
+如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
 
 ## 限制公開共用包含特定欄位型別的請求表單
 

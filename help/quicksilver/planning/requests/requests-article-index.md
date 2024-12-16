@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 91d9a1b1-c677-4aea-997e-f787eb109be1
-source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
+source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---
@@ -26,5 +26,5 @@ ht-degree: 0%
 * [在Adobe Workfront Planning中建立和管理請求表單](/help/quicksilver/planning/requests/create-request-form.md)
 * [提交Adobe Workfront規劃請求](/help/quicksilver/planning/requests/submit-requests.md)
 * [在Adobe Workfront Planning中取消發佈請求表單](/help/quicksilver/planning/requests/unpublish-request-form.md)
-  <!--* <span class="preview">[Add an approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md)</span>-->
-  <!--* <span class="preview">[Approve request](/help/quicksilver/planning/requests/approve-request.md)</span>-->
+* <span class="preview">[在Adobe Workfront Planning中為請求表單新增核准](/help/quicksilver/planning/requests/add-approval-to-request-form.md)</span>
+* 在Adobe Workfront Planning中<span class="preview">[核准請求](/help/quicksilver/planning/requests/approve-request.md)</span>

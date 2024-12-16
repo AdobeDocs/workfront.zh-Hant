@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: b89f4aa6f779e09d6749e59bdf3d54f0dd9bbf03
+source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
 workflow-type: tm+mt
-source-wordcount: '1397'
+source-wordcount: '1557'
 ht-degree: 2%
 
 ---
@@ -126,12 +126,12 @@ ht-degree: 2%
    記錄型別頁面會在您上次存取的檢視中開啟。 依預設，會在表格檢視中開啟記錄型別頁面。
 
 1. 按一下頁面標頭中記錄型別名稱右側的&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，然後按一下&#x200B;**建立請求表單**。
-1. 更新要求表單的名稱。 依預設，表單的名稱為&#x200B;**未命名的請求表單**。<!--check this; you logged a bug to rename it to this but was it fixed?-->
+1. 更新要求表單的名稱。 依預設，表單的名稱為&#x200B;**未命名表單**。<!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. （選用）為要求表單新增&#x200B;**描述**。
 
    <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
 
-1. 按一下 **建立**。所選記錄型別的要求表單開啟<!--<span class="preview"> in the Form tab</span>; add screen shot below with Configuration tab.-->。
+1. 按一下 **建立**。所選記錄型別的要求表單會在表單索引標籤</span>中開啟<span class="preview">。
 
    ![](assets/campaigns-request-form-edit-mode.png)
 
@@ -159,7 +159,12 @@ ht-degree: 2%
 
 
    * **預設的分節**：這是Workfront套用至要求表單的預設分割槽符號。 無法重新命名或移除「預設」區段。
-   * **主旨**&#x200B;欄位：將在Workfront中識別要求的欄位。 此功能尚未提供。 主旨欄位的設定和值無法編輯。
+   * **主旨**&#x200B;欄位：將在Workfront中識別要求的欄位。 此功能尚未在生產環境中提供。 <span class="preview">它可在預覽環境中使用。</span>無法編輯主旨欄位的設定和值。
+
+     >[!TIP]
+     >
+     >**Subject**&#x200B;欄位在要求表單上可見時需要值。 不過，您可以視需要移除&#x200B;**主旨**&#x200B;欄位，要求者不會在表單上看到它。
+
    * 與記錄型別關聯的所有欄位。
 
      向此記錄型別提交請求的所有人均可看到請求表單中包含的欄位。
@@ -190,14 +195,19 @@ ht-degree: 2%
 
 1. （選擇性）按一下&#x200B;**預覽**&#x200B;以檢視其他使用者使用表單提交新記錄時表單的顯示方式。
 
-   <!--
-   <div class="preview">
-   1. (Optional) Click the **Configuration** tab, then add at least one user to the **Approvers** field to approve new requests for this record form. 
-      When you associate a request form with approvers, any new request must first be approved by all approvers before it generates a new record. 
-      You can add one or several approvers to a request form. If at least one approver rejects the request, the request is rejected and the record is not created.
-   For more information about adding approvals to request forms, see [Add approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md). 
-   </div>
-   -->
+1. 
+   <div class="preview">（選用）按一下**設定**標籤，然後新增至少一名使用者至**核准者**欄位，以核准此記錄表單的新請求。
+
+   ![](assets/configuration-tab.png)
+
+   <!--below bullet list is duplicated in the Add approval to a request form article-->
+
+   * 將請求表單與核准者建立關聯時，任何新請求都必須先由所有核准者核准，才能產生新記錄。
+   * 您可以將一個或多個核准者新增至請求表單。
+   * 如果至少有一位核准者拒絕請求，則請求會遭到拒絕，且不會建立記錄。
+   * 在核准或拒絕請求之前，所有核准者都必須做出決定。
+
+     如需新增核准至請求表單的詳細資訊，請參閱[新增核准至請求表單](/help/quicksilver/planning/requests/add-approval-to-request-form.md)。 </div>
 
 1. （選擇性）按一下標題中表單名稱右側的&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，然後按一下&#x200B;**編輯**&#x200B;以更新表單名稱。
 1. 按一下&#x200B;**Publish**&#x200B;以發佈表單並取得其唯一連結。
@@ -231,7 +241,7 @@ ht-degree: 2%
    >     * <span class="preview">人員</span>
    >
 
-1. （視條件而定）如果您在上一步選取了&#x200B;**任何擁有連結**&#x200B;的人，請從可用的行事曆中選取&#x200B;**連結到期日**。 連結過期後人員會收到錯誤，您必須先更新連結日期，才能再次存取表單。
+1. （視條件而定）如果您在上一步選取了&#x200B;**任何擁有連結**&#x200B;的人，請從可用的行事曆中選取&#x200B;**連結到期日**。 連結過期後，人員會收到錯誤，您必須更新連結日期，並產生新連結以共用，人員才能再次存取表單。
 
    您可以從目前日期起180天內選取未來日期。
 
@@ -241,7 +251,7 @@ ht-degree: 2%
 
    如需使用要求表單的連結來建立記錄的相關資訊，請參閱[提交Adobe Workfront Planning要求](/help/quicksilver/planning/requests/submit-requests.md)。
 
-1. 按一下熒幕右下角的&#x200B;**儲存**&#x200B;以儲存表單。
+1. 按一下&#x200B;**表單**&#x200B;標籤右下角的&#x200B;**儲存**&#x200B;以儲存表單。
 1. 按一下頁首中表單名稱左側的向左箭頭以關閉表單。
 
    記錄型別頁面隨即開啟。

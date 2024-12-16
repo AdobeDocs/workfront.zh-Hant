@@ -1,30 +1,19 @@
 ---
-title: 新增核准至請求表單
+title: 在Adobe Workfront Planning中新增核准至請求表單
 description: 您可以在Adobe Workfront Planning請求表單中新增核准流程，以便對每個提交的請求啟動核准，然後再建立記錄。
-hide: true
-hidefromTOC: true
-source-git-commit: a999b805016361bdd101a6cd9c61967284a71014
+feature: Workfront Planning
+role: User, Admin
+author: Alina
+recommendations: noDisplay, noCatalog
+source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '766'
 ht-degree: 1%
 
 ---
 
 
-<!--
-
----
-title: Add an Approval to a Request Form
-description: You can add an approval process to an Adobe Workfront Planning request form, to initiate an approval for every submitted request, before it creates a record. 
-feature: Workfront Planning
-role: User, Admin
-author: Alina
-recommendations: noDisplay, noCatalog
----
-
--->
-
-# 新增核准至請求表單
+# 在Adobe Workfront Planning中新增核准至請求表單
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
@@ -127,6 +116,8 @@ recommendations: noDisplay, noCatalog
 
 * 您可以將一個或多個核准者新增至請求表單。 您只能將使用者新增為核准者。
 * 將多位核准者新增至請求表單時，所有核准者都必須先接受請求，才能在Workfront Planning中建立記錄。
+* 如果所有核准者都核准請求，系統將會針對與請求表單相關聯的記錄型別建立記錄。
+* 如果至少有一位核准者拒絕請求，而所有其他核准者皆已核准請求，則會在Workfront的「請求」區域中建立請求，但不會針對與請求表單相關聯的記錄型別建立記錄。
 * 將核准新增至請求表單為選用。 如果請求表單未與核准相關聯，Workfront Planning會在提交請求時立即建立記錄。
 
 ## 新增核准至請求表單
@@ -143,16 +134,31 @@ recommendations: noDisplay, noCatalog
 
    開始輸入核准者的名稱，然後在其顯示在清單中時選取它。
 
-   >[!TIP]
+   <!--most of the Note below is duplicated in the Create a request form article-->
+
+   >[!NOTE]
    >
-   >    如果您新增多個核准者，則在Workfront Planning建立記錄之前，所有核准者都必須核准請求。
+   >
+   >* 您可以將一個或多個核准者新增至請求表單。
+   >
+   >* 如果您新增多個核准者，則在Workfront Planning建立記錄之前，所有核准者都必須核准請求。
+   >
+   >* 如果至少有一位核准者拒絕請求，則請求會遭到拒絕，且不會建立記錄。 請求會保留在Workfront請求區域的已提交區段的Planning索引標籤中。
+   >
+   >* 在核准或拒絕請求之前，所有核准者都必須做出決定。
+
 
 1. （選擇性）如果您之前從未共用過請求表單，請按一下&#x200B;**Publish**
 
    或
 
    按一下[共用]以共用表單，然後按[複製]連結&#x200B;**。******
-1. （選用）使用者使用您共用的連結並提交請求後，Workfront Planning會傳送核准通知及電子郵件給核准者。
+1. （選用）使用者使用您共用的連結並提交請求後，Workfront Planning會傳送核准應用程式內通知及電子郵件給核准者。
+
+   >[!NOTE]
+   >
+   >   您組織的Workfront執行個體必須加入Adobe統一體驗，使用者才能接收電子郵件和應用程式內通知。
+
 
    如需核准要求的詳細資訊，請參閱[核准要求](/help/quicksilver/planning/requests/approve-request.md)。
 

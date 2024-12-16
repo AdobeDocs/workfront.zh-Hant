@@ -6,15 +6,19 @@ feature: Workfront Planning
 role: User
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '562'
 ht-degree: 1%
 
 ---
 
 
 # 管理Adobe Workfront Planning通知偏好設定
+
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -23,6 +27,14 @@ Workfront Planning中發生下列動作時，您可能會收到應用程式內�
 * 有人將您新增至記錄頁面上的註解
 * 某人要求存取檢視或工作區的許可權
 * 有人授予您存取檢視或工作區<!--I could not test this but Isk confirmed-->的許可權
+
+<div class="preview">
+
+* 您提交Workfront Planning請求。
+* 某人核准或拒絕您提交的Workfront Planning請求。
+* 狀態會變更為您提交的Workfront Planning請求。
+
+</div>
 
 ## 存取需求
 
@@ -172,7 +184,12 @@ OLD:
 1. Workfront提供下列通知：
 
    * **提及**：當有人在Workfront Planning的評論中為您加上標籤時，您會收到通知
-   * **請求**：當有人請求或授予您Workfront規劃物件的許可權時，您會收到通知
+   * **要求**：當某人執行下列其中一項作業時，您會收到通知：
+
+      * 要求或授予Workfront Planning物件的許可權
+      * <span class="preview">您已提交Workfront規劃要求</span>
+      * <span class="preview">您提交變更的Workfront計畫要求狀態</span>
+      * <span class="preview">要求、授與或拒絕Workfront規劃要求的核准</span>
 
    如需有關管理通知的詳細資訊，請參閱[帳戶偏好設定和通知](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences)。
 
