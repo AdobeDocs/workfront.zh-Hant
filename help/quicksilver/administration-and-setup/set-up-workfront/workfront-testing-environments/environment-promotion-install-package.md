@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: e9df34c206dd65ccc2edec00087248eb4ed16f54
+source-git-commit: 8fe93796b2bc89352ac2c924d6a5e3bf25551ff0
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '953'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,8 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->如果您在設定環境升級的物件時重新整理自訂重新整理沙箱，則重新整理時將會遺失該設定。 我們建議您不要重新整理「自訂重新整理沙箱」，除非所有未完成的環境升級物件和套件都已成功升級。
+>* 如果您在設定環境升級的物件時重新整理自訂重新整理沙箱，則重新整理時將會遺失該設定。 我們建議您不要重新整理「自訂重新整理沙箱」，除非所有未完成的環境升級物件和套件都已成功升級。
+>* 作為套件安裝的一部分在目標環境中建立的物件&#x200B;**不**&#x200B;具有與原始環境中的物件相同的ID。 這是因為在建立物件時，ID是由系統指派的。
 
 ## 存取需求
 

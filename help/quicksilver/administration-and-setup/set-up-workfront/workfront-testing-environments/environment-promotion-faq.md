@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
-source-git-commit: 4ea4d7d8fd16d4c4d7c2fe5f7adb15c2b44b6705
+source-git-commit: 8fe93796b2bc89352ac2c924d6a5e3bf25551ff0
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 3%
@@ -26,13 +26,13 @@ ht-degree: 3%
 
 目前不支援跨網域環境升級。 您必須在相同網域中的環境之間升級。
 
-## Adobe商業平台/IMS是進行環境促銷的先決條件嗎？
+## Adobe業務平台/IMS是環境升級的先決條件嗎？
 
 ### 解答
 
 否。「環境升級」適用於啟用IMS和非IMS Workfront執行個體。
 
-## 如何知道我們的Workfront執行個體是否位於Prime或Ultimate授權上？
+## 如何找出我們的Workfront執行個體是否位於Prime或Ultimate授權上？
 
 ### 解答
 
@@ -68,7 +68,6 @@ ht-degree: 3%
 ## 是否可選擇略過個別元件的促銷活動？ 在選項`Use Existing`、`Overwrite`和`Save with a new Name`存在的地方，可以新增`Skip`以跳過個別引數的升級？
 
 ### 解答
-
 
 * 「使用現有」等同於「略過」或忽略部署，因為它對應到目標環境中的現有物件，而且不會進行任何變更。
 * 若要略過物件，建議移除
