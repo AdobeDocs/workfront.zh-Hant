@@ -8,9 +8,9 @@ author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '923'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Adobe Workfront有兩種發佈新功能和更新的模型。 貴組織可選擇�
 
 發行通常會發生在發行日期前一晚的美國山區時間晚上8點到10點左右。
 
-預覽中的功能通常會在下次發行時於您的生產環境中提供。 但是，在某些情況下，功能可在排程發行以外的生產環境中使用。 這些變更在預覽中至少保留2週，讓您有充足的時間熟悉變更。 這些變更在新增到「預覽」狀態時也會透過「公告中心」傳達。
+預覽中的功能通常會在下次發行時於您的生產環境中提供。 但是，在某些情況下，功能可在排程發行以外的生產環境中使用。 這些變更通常會保留在預覽中至少2週，讓您有充足的時間熟悉變更。
 
 如需有關每季和快速發行程式的詳細資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。
 

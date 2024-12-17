@@ -6,14 +6,23 @@ description: 您可以在Adobe Workfront中將任務移動到不同的專案或�
 author: Alina
 feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
-source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1442'
 ht-degree: 2%
 
 ---
 
 # 移動任務
+
+<!--Audited: 12/2024-->
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 您可以在Adobe Workfront中移動以下物件之間的工作：
 
@@ -27,6 +36,8 @@ ht-degree: 2%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 若要執行本文中的動作，您必須具備下列存取權：
 
 <table style="table-layout:auto"> 
@@ -34,7 +45,7 @@ ht-degree: 2%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -44,19 +55,19 @@ ht-degree: 2%
 <p>目前計畫：工作或以上 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯任務與專案的存取權</p> <p><b>附註</b>
-
-如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td>
-</tr> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>編輯任務與專案的存取權</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>管理任務的許可權</p> <p>專案的Contribute或以上許可權可新增任務</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>管理任務的許可權</p> <p>專案的Contribute或以上許可權可新增任務</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 移動任務的注意事項
 
@@ -75,6 +86,14 @@ ht-degree: 2%
 依預設，下列專案不會隨任務移動：
 
 * 里程碑
+
+<!--
+<div class="preview">
+
+* Your system or group administrator can prevent you from moving tasks that have logged hours, depending on how they configure the Allow users to move tasks and issues with logged hours preference in the Setup area. For information, see [Configure system-wide task and issue preferences](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md). 
+
+</div>
+-->
 
 ## 移動清單中的任務
 
@@ -100,7 +119,7 @@ ht-degree: 2%
 
    ![](assets/move-task-in-list-nwe-350x119.png)
 
-   移動工作方塊隨即顯示
+   顯示&#x200B;**移動任務**&#x200B;方塊
 
 1. 從步驟4開始，繼續移動工作，如本文中[移動工作層級](#move-a-task-at-the-task-level)一節中所述。
 

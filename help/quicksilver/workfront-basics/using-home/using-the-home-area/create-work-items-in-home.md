@@ -6,16 +6,18 @@ description: 您可以從[!UICONTROL 首頁]區域建立工作專案和專案。
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '811'
 ht-degree: 2%
 
 ---
 
 # 從首頁區域建立工作專案和專案
 
-您可以從[!UICONTROL 首頁]區域建立工作專案和專案。 在家中，您可以
+您可以從[!UICONTROL 首頁]區域建立工作專案和專案。
+
+在家中，您可以
 
 * 為您自己建立個人待辦事項
 * 提交請求
@@ -23,6 +25,8 @@ ht-degree: 2%
 * 從範本、空白專案建立專案，或匯入MS專案。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -52,11 +56,18 @@ ht-degree: 2%
 
 &#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
 
++++
+
 ## 建立個人待辦事項
 
-您可以在[!UICONTROL 首頁]區域中建立個人待辦事項。 待辦事項是您為自己建立的個人任務。
+您可以在[!UICONTROL 首頁]區域的待辦事項Widget中建立個人待辦事項。 待辦事項是您為自己建立的個人任務。
 
 您和其他使用者可以在個人任務報告中檢視您的個人任務。 如有需要，他們可以從該處將其新增至專案。
+
+>[!TIP]
+>
+>您從使用者設定檔頁面傳送給其他使用者或您自己的工作專案，也會顯示在使用者首頁區域的待辦事項Widget中。 如需詳細資訊，請參閱[建立個人工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md)。
+
 
 若要建立待辦事項，請執行下列步驟：
 

@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: f8f86eae11e7f175e130d7f0265d92519923402f
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
 source-wordcount: '2107'
 ht-degree: 0%
@@ -21,6 +21,13 @@ ht-degree: 0%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 Linked to Converting Issues.-->
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 作為[!DNL Adobe Workfront]管理員，您可以設定任務和問題的全系統偏好設定。 這些偏好設定會影響您的使用者在[!DNL Workfront]中建立任務和問題的方式。
 
@@ -42,7 +49,7 @@ Linked to Converting Issues.-->
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
    <td><p>新增：[！UICONTROL Standard]</p>
    或
    <p>目前： [！UICONTROL計畫]</p></td> 
@@ -54,7 +61,7 @@ Linked to Converting Issues.-->
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+*如需此表格中資訊的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -69,6 +76,9 @@ Linked to Converting Issues.-->
    * [[!UICONTROL 新任務預設值]](#new-task-defaults)
    * [[!UICONTROL 問題]](#issues)
    * [[!UICONTROL 刪除]](#deletion)
+
+   <!--* <span class="preview">[Move](#move)</span>-->
+
    * [[!UICONTROL 實際日期]](#actual-dates)
    * [[!UICONTROL 委派]](#delegation)
    * [[!UICONTROL 存取]](#access)
@@ -162,6 +172,22 @@ Linked to Converting Issues.-->
   >當您刪除具有已記錄時數的任務和問題的專案時，會刪除已記錄時數，或根據[!UICONTROL 設定]的[!UICONTROL 時程表和時數偏好設定]區域中的設定保留已記錄時數。 刪除專案時未顯示警告訊息。
 
 * 取消選取此選項時，當您刪除具有記錄時數的任務或問題時，或是當您刪除具有記錄其任務或問題的時數的專案時，會收到禁止性警告。 警告指定管理員不允許刪除記錄時數的任務或問題。 無法刪除為任務和問題記錄時數的任務、問題或專案。
+
+<!--*****also replace the & with "and" in the Deletion section
+
+<div class="preview">
+
+### Move
+
+**[!UICONTROL Allow users to move tasks and issues with logged hours]**: Lets you determine whether you allow the move of tasks or issues where hours are logged. This option is selected by default.
+
+* When it is selected, you can move tasks and issues that have time logged. The hours also move with the tasks or issues. 
+
+* When you deselect this option, you receive a prohibitive warning when you move a task or issue with logged hours. The warning specifies that the administrator does not allow for tasks or issues with logged hours to be moved. The tasks or issues that have hours logged cannot be moved. 
+
+</div>
+
+-->
 
 ### [!UICONTROL 實際日期] {#actual-dates}
 

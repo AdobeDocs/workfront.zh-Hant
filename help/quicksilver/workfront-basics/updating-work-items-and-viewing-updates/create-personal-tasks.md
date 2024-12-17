@@ -2,28 +2,28 @@
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: 建立個人任務
-description: 個人任務是指您傳送給使用者的臨時工作請求，或您在「首頁」區域中為自己建立的待辦事項。 Workfront會儲存隨選工作請求以及將專案作為個人任務來執行。
+description: 個人任務是指您傳送給使用者、自己或您在「首頁」區域中為自己建立的待辦事項的臨時工作請求。 Workfront會儲存隨選工作請求以及將專案作為個人任務來執行。
 author: Lisa
 feature: Get Started with Workfront
-source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
+exl-id: b40d6b10-19c7-4e11-a74f-a8af3ebafb65
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '630'
 ht-degree: 0%
 
 ---
-
 
 # 建立個人任務
 
 <!--Audited: 10/2024-->
 
-個人任務是指您傳送給使用者的臨時工作請求，或您在「首頁」區域中為自己建立的待辦事項。
+個人任務是指您傳送給使用者或自己傳送或新增的臨時工作請求。
 
-Workfront會儲存隨選工作請求以及將專案作為個人任務來執行。
+Adobe Workfront會儲存隨選工作請求以及將專案作為個人任務來執行。
 
-依預設，Workfront中的所有使用者都會有一個名為「&lt;其全名>的工作」的專案。 例如，「Rick Kuvec的任務」。
+依預設，Workfront中的所有使用者都會有一個名為「&lt;使用者的全名>任務」的個人專案。 例如，「John Smith的任務」。
 
-此專案不會顯示在搜尋中，且會隱藏。 所有個人任務都儲存在此專案中。
+每個使用者的個人專案不會顯示在搜尋中，且會隱藏。 所有個人任務都儲存在此專案中。
 
 如有需要，您可以將個人任務移至專案。
 
@@ -33,10 +33,12 @@ Workfront會儲存隨選工作請求以及將專案作為個人任務來執行�
 
   如需詳細資訊，請參閱[從首頁區域建立工作專案和專案](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)。
 
-* 建立給其他使用者的個人工作請求
-* 為您的使用者建立個人工作請求
+* 從使用者設定檔頁面建立個人工作請求並傳送給另一個使用者
+* 從您的使用者設定檔頁面建立並傳送個人工作請求給您自己
 
-本文說明如何為使用者建立個人工作請求。
+本文說明如何從使用者設定檔頁面為使用者或您自己建立個人工作請求。
+
+無論您如何新增個人任務，都可以在Workfront的相同區域中找到。 如需詳細資訊，請參閱本文中的[尋找個人工作](#locate-personal-tasks)一節。
 
 ## 存取需求
 
@@ -57,9 +59,9 @@ Workfront會儲存隨選工作請求以及將專案作為個人任務來執行�
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront授權*</strong></td> 
    <td> 
-   <p>目前：計畫傳送要求給其他使用者。 所有使用者都可以為自己建立工作請求。</p>
    <p>新增：標準傳送要求給其他使用者。 所有使用者都可以為自己建立工作請求。</p> 
-   </td> 
+   <p>目前：計畫傳送要求給其他使用者。 所有使用者都可以為自己建立工作請求。</p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>存取層級設定</strong></td> 
@@ -84,7 +86,7 @@ Workfront會儲存隨選工作請求以及將專案作為個人任務來執行�
    >當某些使用者設定您的存取層級時，您的Workfront管理員可能會阻止您檢視這些使用者。
 
 1. 按一下標題中使用者名稱右側的&#x200B;**更多功能表** ![](assets/more-menu.png)。
-1. 按一下&#x200B;**傳送工作**要求。
+1. 按一下&#x200B;**傳送工作要求**。
 顯示**傳送工作要求**&#x200B;方塊。
 
    ![](assets/personal-task-box.png)
@@ -98,19 +100,17 @@ Workfront會儲存隨選工作請求以及將專案作為個人任務來執行�
 
 1. 按一下&#x200B;**傳送要求**&#x200B;以儲存工作要求。
 
-   工作請求會在Workfront中儲存為個人任務，並新增到首頁區域的待辦事項Widget中。
+   工作請求會儲存為Workfront中的個人任務，並會新增到使用者首頁區域的待辦事項Widget中。 如果您將工作請求傳送給自己，它會顯示在您首頁的待辦事項Widget中。
 
-   <!--this last step will need to be updated when they fix this functionality and the work requests you create for others actually go to their To do widget instead of yours-->
 
 ## 尋找個人工作
 
 您可以在下列區域找到個人工作：
 
-* 「首頁」區域中的待辦事項Widget。 如需詳細資訊，請參閱[從首頁區域建立工作專案和專案](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)。
+* 傳送個人請求之使用者的「首頁」區域中的待辦事項Widget。
 
-* 個人工作報告或清單。 您可以建置個人工作篩選器並套用至工作報告或清單，如需相關資訊，請參閱[篩選器：個人工作](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md)。
+  如需詳細資訊，請參閱[從首頁區域建立工作專案和專案](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)。
 
+* 個人工作報告或清單。 您可以建立並套用個人任務篩選器至任務報告或清單，以僅顯示個人任務並排除專案任務。
 
-
-
-
+  如需詳細資訊，請參閱[篩選：個人工作](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md)。

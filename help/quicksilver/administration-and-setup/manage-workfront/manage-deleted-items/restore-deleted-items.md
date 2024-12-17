@@ -8,7 +8,7 @@ feature: System Setup and Administration
 author: Lisa
 role: Admin
 exl-id: e5b63652-ce16-44a9-a806-a41f19970ee1
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
 source-wordcount: '1052'
 ht-degree: 2%
@@ -137,7 +137,7 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 
 * 解析物件
 
-  解決物件是使用選項&#x200B;**保留原始問題並將其解決方案繫結至此** &lt;**專案**&#x200B;或&#x200B;**任務)**>設定的轉換問題。 如果您刪除父級專案或任務，則問題不再被識別為解決物件，因為沒有連結將其連線到專案或任務。 如果您還原父系，則連結不會還原。
+  解決物件是使用選項&#x200B;**保留原始問題並將其解決方案繫結至此** &lt;**（專案**&#x200B;或&#x200B;**任務）**>設定的轉換問題。 如果您刪除父級專案或任務，則問題不再被識別為解決物件，因為沒有連結將其連線到專案或任務。 如果您還原父系，則連結不會還原。
 
   如需有關Workfront管理員或群組管理員如何在轉換時設定問題以符合解決物件的詳細資訊，請參閱[設定全系統的任務和問題偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)和[設定群組的任務和問題偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)。
 

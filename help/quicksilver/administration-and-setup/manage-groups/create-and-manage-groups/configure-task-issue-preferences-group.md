@@ -9,7 +9,7 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
 source-wordcount: '1885'
 ht-degree: 2%
@@ -91,12 +91,10 @@ ht-degree: 2%
    * [新任務預設值](#new-task-defaults)
    * [問題](#issues)
    * [刪除](#deletion)
+
+   <!--* <span class="preview">[Move](#move)</span>-->
+
    * [實際日期](#actual-dates)
-
-     <!--   
-     <li><a href="#work-on-it" class="MCXref xref">Work On It</a> </li>   
-     -->
-
    * [存取](#access)
 
 ### 新任務預設值 {#new-task-defaults}
@@ -181,6 +179,33 @@ ht-degree: 2%
      </tr> 
     </tbody> 
    </table>
+
+
+<!-- *****also replace the & with "and" in the Deletion section
+
+<div class="preview">
+
+### Move
+
+<table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Allow users to move tasks and issues with logged hours</td> 
+      <td> <p> Lets you determine whether you allow the move of tasks or issues where hours are logged. This option is selected by default.</p> 
+       <p>Consider the following:</p> 
+        <ul> 
+         <li> When it is selected, you can move tasks and issues that have time logged. The hours also move with the tasks or issues. </li>
+      <li>When you deselect this option, you receive a prohibitive warning when you move a task or issue with logged hours. The warning specifies that the administrator does not allow for tasks or issues with logged hours to be moved. The tasks or issues that have hours logged cannot be moved. </li></ul>
+      </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+</div>
+
+-->
 
 ### 實際日期 {#actual-dates}
 

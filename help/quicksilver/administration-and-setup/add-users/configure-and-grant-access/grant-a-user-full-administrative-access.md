@@ -5,14 +5,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '1579'
-ht-degree: 1%
+source-wordcount: '1551'
+ht-degree: 4%
 
 ---
 
 # 授予使用者完整管理存取權
+
+<!--Audited: 12/2024-->
 
 >[!IMPORTANT]
 >
@@ -47,16 +49,18 @@ ht-degree: 1%
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td>計劃</td> 
+   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td> <p>新增：標準</p>
+   <p>目前：計畫</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>您必須是Workfront管理員。 如需詳細資訊，請參閱<a href="#" class="MCXref xref selected">授予使用者完整管理存取權</a>。</p> <p><b>注意</b>：如果您還是沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td> <p>您必須是Workfront管理員。 </td> 
   </tr> 
  </tbody> 
 </table>
 
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 +++
 
 ## 授予單一使用者完整的系統管理員存取權
@@ -64,11 +68,11 @@ ht-degree: 1%
 {{step-1-to-users}}
 
 1. 按一下您要授予管理員許可權的使用者名稱。
-1. 按一下[更多]功能表![](assets/more-icon.png)，然後按一下[編輯]****。
+1. 按一下使用者名稱右側的&#x200B;**更多**&#x200B;功能表![](assets/more-icon.png)，然後按一下&#x200B;**編輯**。
 
-1. 在出現的&#x200B;**編輯人員**&#x200B;方塊上，按一下&#x200B;**存取**。
-
-1. 在&#x200B;**存取等級**&#x200B;下拉式清單中，選取&#x200B;**系統管理員**&#x200B;存取等級。
+   **編輯人員**&#x200B;方塊隨即顯示。
+1. 按一下左側面板中的&#x200B;**存取**。
+1. 在&#x200B;**存取層級**&#x200B;下拉式清單中，選取&#x200B;**系統管理員**&#x200B;存取層級。
 
    根據系統中進行的變更，此存取層級的名稱可能已變更。
 
@@ -78,7 +82,7 @@ ht-degree: 1%
 
 ## Workfront管理員的存取權與具有管理許可權的計畫使用者的存取權  {#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights}
 
-以下兩個表格顯示具有Workfront管理員存取層級的使用者存取許可權，與具有某些管理許可權之Plan授權的使用者存取許可權之間的差異。
+以下兩個表格顯示具有Workfront系統管理員存取層級的使用者存取許可權，與具有某些管理許可權之「計畫」授權的使用者存取許可權之間的差異。
 
 Workfront管理員可以檢視系統中的所有物件（不論物件的建立者為何）、建立新物件，以及修改或刪除現有物件。 使用者擁有系統中所有物件的完整存取權。
 
