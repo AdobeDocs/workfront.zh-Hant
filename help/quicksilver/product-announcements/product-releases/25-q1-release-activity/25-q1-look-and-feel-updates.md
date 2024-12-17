@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 8475e93b27f2c47bf8a25ff3283a61830aa129de
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Quip整合已套用小幅功能變更。 您必須按一下「編輯」圖示以
 
 >[!NOTE]
 >
->預覽版本： 2024年11月6日；適用於所有客戶的生產版本： 2024年11月6日
+>預覽版本：暫時移除2024年12月12日；重新發佈至所有客戶的生產環境： 2024年12月17日
 
 我們已升級Workfront主要導覽和次要導覽區域，以提升效能。 外觀和感覺的變更很小。
 
