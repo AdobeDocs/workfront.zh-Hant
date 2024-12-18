@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 04d41a8c9c8c04f2e7ef308465328ccc57bd3195
 workflow-type: tm+mt
-source-wordcount: '2019'
+source-wordcount: '2017'
 ht-degree: 0%
 
 ---
@@ -80,11 +80,9 @@ ht-degree: 0%
 此藍圖包含[!DNL Workfront]專業服務組織在與人力資源團隊實作合作期間使用多年的範本，以提示人力資源專家和招聘經理完成基本活動，讓新員工的第一天變得引人注目。
 
 **離線 | 離開使用者儀表板**
-
 此Blueprint包含單一控制面板和13個報表，可協助您尋找、重新指派或管理與離開Workfront的使用者相關聯的物件與指派。 您也可以將這些報告用於移動至新角色或群組的使用者，以重新指派其工作。
 
-[!BADGE 新增]{type=negative}**人員管理員儀表板**
-
+**人員管理員儀表板**
 此藍圖包含包含12個報表的單一控制面板，讓人員管理員可檢視其直接下屬的工作。
 
 **[!UICONTROL 實作後：新使用案例轉出]**
@@ -138,7 +136,7 @@ ht-degree: 0%
 
 此藍圖包含單一儀表板和8份報表，可協助您實現Workfront的優點。 這些報告的設計目的，是要協助您將面向客戶的服務轉換為可衡量的價值，以便您隨著時間推移追蹤這些價值，進而創造更好的成果。
 
-[!BADGE 新增]{type=negative}**值實現 | 控管規範工作流程儀表板**
+**值實現 | 控管規範工作流程儀表板**
 
 此Blueprint包含單一控制面板和7個報表，可協助您實現Workfront的價值。 這些省時的報表可協助追蹤並控管工作流程和法規遵循需求，日常使用或高度受規管的行業可隨時間推移推動責任制並改善成果。
 
