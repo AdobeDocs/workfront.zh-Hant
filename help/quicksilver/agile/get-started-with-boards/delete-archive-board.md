@@ -7,9 +7,9 @@ description: 您可以在Workfront中刪除或封存展示板。 刪除展示板
 author: Lisa
 feature: Agile
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 3e33ba722ff066fd7fec8c7762c63e8c8d3fc4b8
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 # 刪除或封存展示板
 
 您可以在[!DNL Workfront]中刪除或封存展示板。 刪除展示板會將其從[!DNL Workfront]中永久移除，而封存展示板會保留所有卡片，並允許稍後再還原。
+
+只有展示板擁有者可以刪除展示板。
 
 ## 存取需求
 
@@ -58,7 +60,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >您只能刪除您已建立的面板，不能刪除已新增至的面板。
+   >您只能刪除您建立或名為擁有者的面板，不能刪除您新增為成員的面板。
 
    ![展示板其他功能表](assets/boards-board-more-menu.png)
 

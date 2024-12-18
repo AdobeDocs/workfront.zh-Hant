@@ -6,16 +6,20 @@ description: 必須先將人員新增到展示板作為成員，他們才能檢�
 author: Lisa
 feature: Agile
 exl-id: 8a46846c-f9b8-45cb-9923-e7596854557b
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 7ac846d6224663b4e820ab45379a4ab0611514bb
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
 
 # 從展示板新增或移除成員
 
+{{highlighted-preview}}
+
 必須先將人員和團隊新增到展示板中作為成員，他們才能檢視展示板。
+
+根據預設，展示板的建立者是擁有者。 展示板擁有者是可在「設定」面板中刪除該展示板或更新其篩選器的唯一人員。 <span class="preview">只有系統管理員或目前的展示板擁有者可以變更展示板擁有者。</span>
 
 ## 存取需求
 
@@ -80,3 +84,23 @@ ht-degree: 0%
    >[!NOTE]
    >
    >您無法移除展示板擁有者。
+
+<div class="preview">
+
+## 變更展示板所有者
+
+>[!NOTE]
+>
+>只有系統管理員或目前的主機板擁有者可以變更主機板擁有者。 展示板只能有一個擁有者。
+
+1. 存取展示板。
+1. 按一下主機板名稱旁的&#x200B;**[!UICONTROL 更多]**&#x200B;功能表![更多](assets/more-icon-spectrum.png)，然後選擇&#x200B;**[!UICONTROL 變更主機板擁有者]**。
+1. 在「變更展示板擁有者」對話方塊中，搜尋並選取想要成為擁有者的使用者。
+
+   您無法搜尋已是展示板成員的使用者。 若要讓現有成員成為擁有者，您必須先從展示板中將其移除。 讓使用者成為展示板擁有者，會將使用者新增至展示板。
+
+   只有使用者才能是展示板擁有者。 團隊不能是擁有者。
+
+1. 按一下&#x200B;[!UICONTROL **更新**]。
+
+</div>
