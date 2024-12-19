@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 449a8bbdacb77db2f8c697573bc8fa74641522e7
+source-git-commit: 7a6a34ee5b4986137a04d654cf58bfa5f2465715
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '878'
 ht-degree: 6%
 
 ---
@@ -244,22 +244,23 @@ ht-degree: 6%
 
 1. （選擇性）按一下&#x200B;**返回預設值**&#x200B;以重設您的選擇。
 
-### 使用智慧型篩選器篩選您的工作
+<!--### Filter your work with Smart filters
 
-使用自然語言來篩選快速篩選工作。
+Use natural language to filter quickly filter work.
 
 {{step1-to-priorities}}
 
-1. 按一下工作清單左上角的&#x200B;**篩選器**。
-1. 按一下&#x200B;**智慧型濾鏡**。
-1. 輸入您要如何篩選您的工作。
+1. Click **Filters** in the top left of the worklist.
+1. Click **Smart filters**. 
+1. Type how you want to filter your work. 
 
-   您可以輸入類似以下的內容
+    You can type things like
 
-   * 顯示延遲任務
-   * 顯示我最優先的順序
-   * 顯示今天到期的工作
+    * Show me late tasks
+    * Show my top priorities
+    * Show work due today
 
+-->
 
 ### 將您的工作分組
 

@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: c709219fa78ed2742bd9b7286e35c09d1b3927ba
+source-git-commit: b637694c598540343383af15658a069c305f6bbf
 workflow-type: tm+mt
-source-wordcount: '1002'
-ht-degree: 2%
+source-wordcount: '988'
+ht-degree: 3%
 
 ---
 
@@ -29,7 +29,8 @@ ht-degree: 2%
 
 ### 使用篩選器尋找您的工作
 
-使用篩選器尋找您最重要的工作。 <span class="preview">您可以使用自然語言來尋找智慧型篩選器</span>的工作，或者您可以使用標準篩選器來尋找指派給您的任務和問題：
+使用篩選器尋找您最重要的工作。 <!--<span class="preview">You can use a natural language to find work with the Smart filter</span>, or -->
+您可以使用標準篩選器來尋找指派給您的任務和問題：
 
 <table>
   <tbody>
