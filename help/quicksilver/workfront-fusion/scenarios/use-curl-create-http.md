@@ -6,10 +6,11 @@ title: 使用cURL新增HTTP模組
 description: 您可以將cURL請求貼入情境中，然後Fusion會建立根據cURL請求設定的HTTP模組。
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 4cc881f4f5a28bd105e6898ad7ffb57c1dafb563
+exl-id: 5eac3e87-0dd3-4bad-ae3e-77264329b717
+source-git-commit: 785f39fabcb19233fd1bc79c14222225a3ea72a2
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 0%
+source-wordcount: '283'
+ht-degree: 1%
 
 ---
 
@@ -69,10 +70,6 @@ ht-degree: 0%
 若要使用cURL建立HTTP模組：
 
 1. 在Fusion外部建立cURL要求的文字，例如在文字編輯器中。
-
-   >[!IMPORTANT]
-   >
-   >如果您在Windows電腦上使用Fusion，您的cURL請求不得包含分行符號。
 1. 將cURL請求複製到剪貼簿。
 1. 按一下左側面板中的&#x200B;**[!UICONTROL 案例]**&#x200B;索引標籤。
 1. 選取您要建立模組的情境。
@@ -89,10 +86,6 @@ ht-degree: 0%
 
 ## 疑難排解
 
-如果您的cURL未貼入情境中，請檢查下列專案：
-
-* 檢查您的瀏覽器設定，以確保已啟用從剪貼簿貼上。
-* 如果您正在執行Windows，請檢查cURL要求，確保其中不包含分行符號。
-
+如果您的cURL未貼上情境中，請檢查瀏覽器設定，以確保已啟用從剪貼簿貼上的功能。
 
 
