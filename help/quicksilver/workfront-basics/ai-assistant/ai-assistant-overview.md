@@ -5,9 +5,9 @@ description: AI助理總覽
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 64ad86e29bf18969f82dbdb54b98ca884d2ec26a
+source-git-commit: d58088eed3c23652226f5d3f104705ed112c0b9f
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '707'
 ht-degree: 1%
 
 ---
@@ -47,7 +47,7 @@ Workfront的AI助理可在自然語言對話中提供應用程式內資訊和建
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。## AI助理的必要條件
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## AI助理的必要條件
 
@@ -99,6 +99,13 @@ AI助理目前提供下列功能：
   >此功能僅適用於Prime或Ultimate Workfront計畫上的組織。
 
   如需詳細資訊，請參閱[使用AI助理產生或修訂計算欄位公式](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md)。
+
+<!--<div class="preview">
+* Summarizing updates, uploaded documents, and other notable changes about your projects within the following time frames: 24 hours, 3 days, 7 days in Priorities.
+
+For more information, see [Catch up on work in Priorities](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
+
+</div>-->
 
 ## AI助理可用的物件型別
 

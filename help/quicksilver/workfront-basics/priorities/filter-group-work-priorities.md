@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 1f27c7e56681fe8c22141b0a98b3dcdb547366d5
+source-git-commit: 449a8bbdacb77db2f8c697573bc8fa74641522e7
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '929'
 ht-degree: 6%
 
 ---
@@ -172,13 +172,14 @@ ht-degree: 6%
 
 ## 在預覽中篩選並分組您的工作與優先順序
 
-### 篩選您的工作
+### 使用標準篩選器篩選您的工作
 
 您可以篩選指派給您的任務和問題。
 
 {{step1-to-priorities}}
 
 1. 按一下工作清單左上角的&#x200B;**篩選器**。
+1. 按一下&#x200B;**標準篩選器**。
 1. 選取一個或多個篩選器以縮小您的工作專案。
    ![](assets/filter-new.png)
 
@@ -243,6 +244,23 @@ ht-degree: 6%
 
 1. （選擇性）按一下&#x200B;**返回預設值**&#x200B;以重設您的選擇。
 
+### 使用智慧型篩選器篩選您的工作
+
+使用自然語言來篩選快速篩選工作。
+
+{{step1-to-priorities}}
+
+1. 按一下工作清單左上角的&#x200B;**篩選器**。
+1. 按一下&#x200B;**智慧型濾鏡**。
+1. 輸入您要如何篩選您的工作。
+
+   您可以輸入類似以下的內容
+
+   * 顯示延遲任務
+   * 顯示我最優先的順序
+   * 顯示今天到期的工作
+
+
 ### 將您的工作分組
 
 {{step1-to-priorities}}
@@ -261,6 +279,8 @@ ht-degree: 6%
 | 狀態 | 這會依下列狀態分組專案：新增、進行中、完成。 <br>注意：您目前無法在[優先順序]中使用自訂狀態。 |
 
 +++
+
+
 
 ### 排序您的工作
 

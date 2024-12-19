@@ -6,7 +6,7 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 749f4da8-6ffb-4b23-bf3e-18f195df80c9
-source-git-commit: a6ab22e62fa15c6922d7f749b2df7350f6d7b5a6
+source-git-commit: 220702225d4f7986b93a43ccc4c33160f7463619
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 0%
@@ -16,6 +16,8 @@ ht-degree: 0%
 # 優先順序：即將發行的版本
 
 我們很高興為您展示我們為「優先順序」所做的工作。 使用Workfront優先順序區域中的意見回饋按鈕，讓我們知道您接下來想檢視的內容！
+
+
 
 <table>
   <tr>
@@ -37,6 +39,25 @@ ht-degree: 0%
 </table>
 
 
+
 >[!IMPORTANT]
 >
 >此表格中列出的專案已規劃但未保證。
+
+
+
+
+<!--
+
+<table>
+  <tr>
+    <td><strong>Upcoming</strong>
+   <p>More upcoming features will be added soon</p>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Planned</strong>
+<p>More planned features will be added soon</p>
+    </td>
+  </tr>
+</table> -->

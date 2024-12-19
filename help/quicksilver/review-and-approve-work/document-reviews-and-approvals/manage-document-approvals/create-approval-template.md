@@ -6,7 +6,7 @@ description: 您可以建立核准範本以簡化核准流程。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
-source-git-commit: 67deb48ebc90dd4a93c2af1cb89442ee2486cb16
+source-git-commit: a077266bf91beca1fb6a7a841220f11ebd6687ea
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 2%
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # 建立資產和檔案的核准範本
 
-在Workfront設定區域中，具有Standard授權的使用者可以建立可繼續使用的核准範本。 核准範本建立後，可套用至專案、任務或問題的檔案區域中的資產。
+在Workfront設定區域中，擁有標準授權的使用者可以建立可重複使用的核准範本。 核准範本建立後，可套用至專案、任務或問題的檔案區域中的資產。
 
 >[!IMPORTANT]
 >

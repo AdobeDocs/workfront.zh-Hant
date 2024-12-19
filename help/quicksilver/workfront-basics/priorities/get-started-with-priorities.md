@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: edc817b305622d704a1543b1e288731fc3bbff33
+source-git-commit: c709219fa78ed2742bd9b7286e35c09d1b3927ba
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 3%
+source-wordcount: '1002'
+ht-degree: 2%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 3%
 
 ### 使用篩選器尋找您的工作
 
-使用篩選器尋找您最重要的工作。 您可以透過以下方式篩選指派給您的任務和問題：
+使用篩選器尋找您最重要的工作。 <span class="preview">您可以使用自然語言來尋找智慧型篩選器</span>的工作，或者您可以使用標準篩選器來尋找指派給您的任務和問題：
 
 <table>
   <tbody>
@@ -166,11 +166,6 @@ ht-degree: 3%
 ![](assets/upload-file.png)
 <!--new screen for prod ![](assets/update-log-upload.png)-->
 
-### 檢視檔案[!BADGE 即將推出]{type=Informative}
-
-「檔案」標籤可讓您檢視與工作專案相關的所有檔案。 您可以依名稱、檔案型別或人員篩選檔案，以及依名稱和上傳日期排序。
-
-您也可以開啟檔案或校訂。
 
 ### 新增快速連結
 
@@ -180,21 +175,33 @@ ht-degree: 3%
 
 如需詳細資訊，請參閱[在優先順序](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md)中新增及管理快速連結。
 
-### 檢閱並核准資產[!BADGE 即將推出]{type=Informative}
+### 檢視檔案[!BADGE 可在預覽]中使用{type=Informative}
 
-檢閱和核准資產的能力在優先順序藍圖上。
+「檔案」標籤可讓您檢視與工作專案相關的所有檔案。 您可以依名稱、檔案型別或人員篩選檔案，以及依名稱和上傳日期排序。
 
-目前，我們建議在新首頁中使用我的核准和所有核准Widget 。
+您也可以開啟檔案或校訂。
 
-如需詳細資訊，請參閱[新增、編輯或移除首頁中的Widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)。
+### 檢閱並核准資產[!BADGE 可在預覽]中使用{type=Informative}
+
+從任務或問題的檔案索引標籤，您可以
+
+* 建立簡單或進階校樣
+* 啟動校訂檢視器，留下評論並作出決定
 
 
 ## 使用[!DNL Catch me up]檢視您錯過了什麼[!BADGE 即將推出]{type=Informative}
 
 使用[!DNL Catch me up]功能檢視您錯過了哪些專案。 即時瞭解將在以下時間範圍內概述有關您專案的更新、上傳的檔案、核准和其他重大變更：24小時、3天、7天。
 
+<!--For more information, see Catch up on work in Priorities /help/quicksilver/workfront-basics/priorities/catch-me-up.md.-->
 
 ![](assets/catch-me-up.png)
+
+<!--need new screen for prod-->
+
+## 檢視詳細資訊頁面[!BADGE 的即時更新（可在預覽中使用）]{type=Informative}
+
+您可以在任務或問題的詳細資訊頁面上檢視即時更新。 您也可以檢視其他人是否與您同時檢視頁面，並透過即時狀態指標。
 
 ## 考量事項
 
