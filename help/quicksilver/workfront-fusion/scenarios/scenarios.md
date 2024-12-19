@@ -9,9 +9,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 6e181c07-4419-486f-bde1-ace3db349a72
-source-git-commit: e2c8af4428fa7ef910dad3a29abcc375760855cb
+source-git-commit: 4cc881f4f5a28bd105e6898ad7ffb57c1dafb563
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '156'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 0%
 * [在 [!DNL Adobe Workfront Fusion] 案例中將模組更新為新版本](../../workfront-fusion/scenarios/update-module-to-new-version.md)
 * [在 [!DNL Adobe Workfront Fusion]中檢視及管理鎖定的案例](../../workfront-fusion/scenarios/view-and-manage-locked-scenarios.md)
 * [在Adobe Workfront Fusion中執行情境評分專家](/help/quicksilver/workfront-fusion/scenarios/run-scenario-scoring.md)
-
+* [使用cURL新增HTTP模組](/help/quicksilver/workfront-fusion/scenarios/use-curl-create-http.md)
 
 
 
