@@ -6,9 +6,9 @@ description: 您可以建立控制面板，以快速存取Adobe Workfront中的�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: 008713ef6587041310388c05909ad5f78fb9fa4c
+source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '499'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--Audited: 01/2024-->
 
-您可以建立控制面板，以快速存取Adobe Workfront中的資訊。 您可以將報告、行事曆和外部頁面新增到控制面板，與他人共用以進行最佳共同作業。
+您可以建立控制面板，以快速存取Adobe Workfront中的資訊。 儀表板最多可以新增25個報告、行事曆和外部頁面，您可與其他人共用這些儀表板以獲得最佳共同作業。
 
 若要深入瞭解儀表板，請參閱[開始使用儀表板](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md)。
 

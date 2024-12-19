@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
 workflow-type: tm+mt
-source-wordcount: '1824'
+source-wordcount: '1844'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 0%
                                 <p>適用於所有客戶的生產版本：搭配24.7版（2024年7月18日）</p>
                             </li>
                         </ul>
-                        <p><i>僅適用於使用新Ultimate計畫的組織。</i></p>
+                        <p><i>僅適用於新Ultimate計畫中的組織。</i></p>
                     </td>
                 </tr>
                 <tr>
@@ -295,10 +295,8 @@ ht-degree: 0%
                             <li>
                                 <p>快速發行生產：第24.5發行版本（2024年5月16日）</p>
                             </li>
-                            <li>
-                                <p>適用於所有客戶的生產版本：即將宣佈</p>
-                            </li>
                         </ul>
+                    <p><i>此功能將從2024年12月19日的「預覽」和25.1 （2025年1月）的快速發行產品中移除。</i></p>
                     </td>
                  </tr>
                  <tr>
@@ -315,10 +313,8 @@ ht-degree: 0%
                             <li>
                                 <p>快速發行生產：第24.5發行版本（2024年5月16日）</p>
                             </li>
-                            <li>
-                                <p>適用於所有客戶的生產版本：即將宣佈</p>
-                            </li>
                         </ul>
+                    <p><i>此功能將從2024年12月19日的「預覽」和25.1 （2025年1月）的快速發行產品中移除。</i></p>
                     </td>
                  </tr>
            </tbody>

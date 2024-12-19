@@ -7,9 +7,9 @@ description: 控制面板的目的是提供資訊的快速存取。 您可以在
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 ## 您可以新增到儀表板中的物件
 
-您可以在Adobe Workfront中使用下列專案填入控制面板：
+在Adobe Workfront中，您最多可以填入下列25個專案的控制面板：
 
 * 報告\
   如需建立報告的詳細資訊，請參閱[建立自訂報告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。

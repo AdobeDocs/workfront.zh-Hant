@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: fa24040d-0403-4799-b690-c3d172797115
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,16 @@ ht-degree: 0%
 本頁說明2025年第一季度版本對「預覽」環境所做的所有管理員增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2025年第一季發行週期目前可用的所有變更清單，請參閱[2025年第一季發行概觀](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)。
+
+## 當有記錄時數時防止移動任務
+
+>[!NOTE]
+>
+>預覽版本： 2024年12月19日；適用於所有客戶的生產版本：搭配25.1版（2025年1月）
+
+由於移動記錄時數的任務或問題有時會導致相容性或稽核問題，因此我們在「設定」的「任務和問題偏好設定」區域中新增了偏好設定，可讓您防止使用者移動記錄時數的任務和問題。 在此增強功能之前，使用者可以將任務和問題移動到其他專案，即使這些專案上記錄了小時數。
+
+如需詳細資訊，請參閱[設定全系統的任務和問題偏好設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)。
 
 ## 用於單一指派任務的專案或使用者排程的偏好設定
 

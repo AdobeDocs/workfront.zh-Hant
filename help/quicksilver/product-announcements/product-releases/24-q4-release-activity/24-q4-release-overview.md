@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
 workflow-type: tm+mt
-source-wordcount: '2187'
+source-wordcount: '2207'
 ht-degree: 0%
 
 ---
@@ -340,10 +340,8 @@ ht-degree: 0%
                         <li>
                             <p>快速發行生產：第24.5發行版本（2024年5月16日）</p>
                         </li>
-                        <li>
-                            <p>適用於所有客戶的生產版本：即將宣佈</p>
-                        </li>
                     </ul>
+                <p><i>此功能將從2024年12月19日的「預覽」和25.1 （2025年1月）的快速發行產品中移除。</i></p>
                 </td>
             </tr>
             <tr>
@@ -360,10 +358,8 @@ ht-degree: 0%
                         <li>
                             <p>快速發行生產：第24.5發行版本（2024年5月16日）</p>
                         </li>
-                        <li>
-                            <p>適用於所有客戶的生產版本：即將宣佈</p>
-                        </li>
                     </ul>
+                <p><i>此功能將從2024年12月19日的「預覽」和25.1 （2025年1月）的快速發行產品中移除。</i></p>
                 </td>
             </tr>
         </tbody>
@@ -469,7 +465,7 @@ ht-degree: 0%
                             <p>適用於所有客戶的生產版本：24.10版本（2024年10月17日）</p>
                         </li>
                     </ul>
-                    <p><i>僅適用於其中一個新Adobe Workfront計畫的組織。 Data Connect包含在Ultimate計畫中，並將於2025年上半年作為Prime和Select計畫的附加元件提供購買。</i></p>
+                    <p><i>僅適用於其中一個新Adobe Workfront計畫的組織。 Data Connect包含在Ultimate計畫中，並將於2025年上半年以Prime和Select計畫的附加元件的形式提供購買。</i></p>
                 </td>
             </tr>
         </tbody>
@@ -523,7 +519,7 @@ ht-degree: 0%
                         <li>提供Experience League檔案中的資訊、將指示和參考資料帶入Workfront，同時連結至更深入的檔案。</li>
                         <li>建立和修訂已計算自訂表單欄位的公式、從文字提示產生公式，或尋找現有公式中的錯誤。</li>
                         </ul>
-                        <p>您的Workfront管理員可以為您的組織啟用或停用AI助理。 AI Assistant適用於Select、Prime和Ultimate計畫的例項。</p>
+                        <p>您的Workfront管理員可以為您的組織啟用或停用AI助理。 AI助理可用於具有Select、Prime和Ultimate計畫的執行個體。</p>
                     </td>
                 <td><p><b>將於下列日期提供：</b></p>
                     <ul>

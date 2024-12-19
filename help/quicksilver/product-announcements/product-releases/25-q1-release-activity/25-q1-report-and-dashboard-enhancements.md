@@ -4,9 +4,10 @@ description: 2025年第一季度報表和控制面板增強功能
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
+exl-id: 3c0b4797-594c-44d0-b3ad-a64384b6c4a8
+source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
@@ -16,6 +17,18 @@ ht-degree: 0%
 本頁面說明2025年第一季度版本對「預覽」環境所做的所有報表和控制面板增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2025年第一季發行週期目前可用的所有變更清單，請參閱[2025年第一季發行概觀](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)。
+
+## 儀表板中25個報告、外部頁面或行事曆的限制
+
+>[!NOTE]
+>
+>預覽版本： 2024年12月16日；適用於所有客戶的生產版本：搭配25.1版（2025年1月）
+
+為了維持儀表板效能，我們已實施可放置在儀表板中的報告、外部頁面或行事曆總數限制。 建立新儀表板時，最多可以新增25個專案。
+
+超過此限制的現有儀表板會顯示警告，指出只顯示最頂端的25個專案，並且在編輯後儀表板無法儲存，直到包含的專案數量減少到25個或更少。
+
+如需詳細資訊，請參閱[建立儀表板](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)。
 
 ## Data Connect的首次讀取器帳戶建立按鈕
 
