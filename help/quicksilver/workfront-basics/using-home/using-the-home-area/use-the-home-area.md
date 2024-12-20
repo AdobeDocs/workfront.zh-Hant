@@ -1,22 +1,24 @@
 ---
 content-type: reference
 navigation-topic: home-navigation-topic
-title: 使用首頁區域
+title: 使用首頁區域：文章索引
 description: 請檢閱這些文章以瞭解如何使用Adobe Workfront中的首頁區域。
 author: Lisa
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 246e3f71-6403-4381-866c-fa693fb9944d
-source-git-commit: 403fcb01d5a06c257e830724e6e02f0936cc106a
+source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
 
-# 使用首頁區域
+# 使用「首頁」區域：文章索引
 
-本節包含下列文章：
+<!--Audited: 12/2024-->
+
+請檢閱這些文章以瞭解如何使用Adobe Workfront中的首頁區域。
 
 * [開始使用[!UICONTROL 首頁]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
 * [新增、編輯或移除新首頁中的Widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)

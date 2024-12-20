@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
+source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
 workflow-type: tm+mt
-source-wordcount: '2114'
+source-wordcount: '2182'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,18 @@ ht-degree: 0%
 
 如需2024年8月28日一般可用性發行後Adobe Workfront Planning所發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
 
+
+## 請求表單現在支援連線欄位與Adobe Experience Manager資產
+
+>[!NOTE]
+>
+>預覽版本： 2024年12月20日；適用於所有客戶的生產版本： 2025年1月16日
+
+您現在可以在Workfront Planning中將連線欄位與AEM資產新增至記錄型別請求表單。
+
+在此增強功能之前，這些型別的欄位無法新增到請求表單。
+
+如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
 
 ## 設定Workfront Planning請求的核准
 

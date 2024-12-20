@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
+source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
 workflow-type: tm+mt
-source-wordcount: '1557'
+source-wordcount: '1553'
 ht-degree: 2%
 
 ---
@@ -150,13 +150,11 @@ ht-degree: 2%
    >    * 建立日期和上次修改日期
    >    * Workfront物件的查閱欄位
    >    * Workfront Planning連線記錄的查詢欄位
-   >    * AEM Assets連結的欄位
    >* 下列型別的欄位不會顯示在生產環境的請求表單中。 <span class="preview">它們顯示在預覽環境中：</span>
    >    * <span class="preview">個Workfront Planning記錄&#39;已連線的欄位</span>
    >    * <span class="preview">人員</span>
    >    * <span class="preview">Workfront物件的已連線欄位</span>
    >    * <span class="preview">AEM Assets已連線的欄位</span>
-
 
    * **預設的分節**：這是Workfront套用至要求表單的預設分割槽符號。 無法重新命名或移除「預設」區段。
    * **主旨**&#x200B;欄位：將在Workfront中識別要求的欄位。 此功能尚未在生產環境中提供。 <span class="preview">它可在預覽環境中使用。</span>無法編輯主旨欄位的設定和值。

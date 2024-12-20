@@ -6,14 +6,16 @@ description: 使用工作負載平衡器瞭解資源的可用性，並將工作�
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
 workflow-type: tm+mt
-source-wordcount: '4067'
+source-wordcount: '4070'
 ht-degree: 0%
 
 ---
 
 # 瀏覽工作負載平衡器
+
+<!--Audited: 12/2024-->
 
 使用Adobe Workfront中的工作負載平衡器，根據使用者的可用性將工作指派給使用者。 本文說明如何使用設定和選項瀏覽工作負載平衡器並顯示與您相關的資訊。 此處列出的其他文章說明如何使用工作負載平衡器管理您的資源及其配置以進行運作。
 
@@ -36,7 +38,7 @@ ht-degree: 0%
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
+   <td role="rowheader">Adobe Workfront授權*</td> 
    <td><p>新增：標準</p>
        <p>或</p>
        <p>目前：計畫，在資源區域使用工作負載平衡器時；</br>
@@ -60,7 +62,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+*如需此表格中資訊的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -229,7 +231,7 @@ ht-degree: 0%
 
 1. 按一下「未指派」或「已指派」區域左側的&#x200B;**向下箭頭**，以收合專案名稱（在「未指派」區域中）和使用者名稱（在「已指派」區域中）下的所有專案。
 
-1. 在左側面板和時間軸區域之間拖放&#x200B;**分隔線**，以調整左側面板的大小。
+1. 將滑鼠懸停在上方，然後將&#x200B;**分隔線**&#x200B;拖放到左側面板和時間軸區域之間，以調整左側面板的大小。
 
    ![分隔線](assets/wb-adjust-panel-size.png)
 
