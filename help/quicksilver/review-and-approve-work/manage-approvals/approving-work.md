@@ -6,7 +6,7 @@ description: 核准工作
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6e43edbb-14dd-493d-a76b-84be6c3bef82
-source-git-commit: 216bf9ea9cb58294b42cc41d70ca0ab99b6dc827
+source-git-commit: 7366e3dd37b686a3566ca6d39e28eb6762c6d1ff
 workflow-type: tm+mt
 source-wordcount: '896'
 ht-degree: 1%
@@ -168,7 +168,7 @@ ht-degree: 1%
 1. 根據您是要核准還是拒絕核准程式，按一下&#x200B;**核准**&#x200B;或&#x200B;**拒絕**。\
    擱置核准的核准階段現在已核准，且核准流程會移至下一個階段。 狀態是在所有階段核准後核准。
 
-## 直接從檔案核准檔案 
+## 直接從檔案核准檔案
 
 1. 移至檔案區域，其中包含需要您核准的檔案。
 1. 選取檔案，然後按一下&#x200B;**核准**、**變更**&#x200B;或&#x200B;**拒絕**。\
