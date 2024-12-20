@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
-source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
+source-git-commit: c0411d6384170fa0e802d32b9535c4d7235436b4
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '700'
 ht-degree: 1%
 
 ---
@@ -18,19 +18,19 @@ ht-degree: 1%
 
 如需2025年第一季發行週期目前可用的所有變更清單，請參閱[2025年第一季發行概觀](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)。
 
-<!--## Catch up on work in Priorities
+## 在優先順序中趕上工作
 
 >[!NOTE]
 >
->Preview release: December 20, 2024; Production release for all customers: With the 25.1 release (January 2025)
+>預覽版本： 2024年12月20日；適用於所有客戶的生產版本：搭配25.1版（2025年1月）
 >
->_This feature is only available for customers on the Unified Adobe Experience using the AI Assistant._
+>_此功能僅適用於使用AI助理的統一Adobe體驗中的客戶。_
 
-You can use Catch me up to help reduce the amount of time looking for information on active projects. 
+您可以使用「追溯」來協助縮短尋找作用中專案資訊的時間。
 
-Powered by Workfront's AI Assistant, Catch me up summarizes updates, uploaded documents, and other notable changes about your projects within the following time frames: 24 hours, 3 days, or 7 days.
+由Workfront的AI助理提供技術支援，即時掌握以下時間範圍內有關您專案的更新、上傳檔案和其他顯著變更：24小時、3天或7天。
 
-For more information, see [Catch up on work in Priorities](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).-->
+如需詳細資訊，請參閱[在優先順序](/help/quicksilver/workfront-basics/priorities/catch-me-up.md)中趕上工作。
 
 ## 在優先順序的詳細資訊頁面上即時檢視變更
 

@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: b637694c598540343383af15658a069c305f6bbf
+source-git-commit: c0411d6384170fa0e802d32b9535c4d7235436b4
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '1000'
 ht-degree: 3%
 
 ---
@@ -115,7 +115,7 @@ ht-degree: 3%
 ![](assets/my-focus-column.png)
 <!-- new screen for prod ![](assets/worklist.png) -->
 
-### 使用行事曆檢視[!BADGE 即將推出]{type=Informative}
+### 使用預覽中可用的行事曆檢視[!BADGE ]{type=Informative}
 
 行事曆檢視將提供任務和問題的視覺化表示。 您將能夠選擇日、周或月檢視。 您也可以使用與工作清單類似的方式篩選專案。
 
@@ -190,11 +190,11 @@ ht-degree: 3%
 * 啟動校訂檢視器，留下評論並作出決定
 
 
-## 使用[!DNL Catch me up]檢視您錯過了什麼[!BADGE 即將推出]{type=Informative}
+## 使用[!DNL Catch me up]檢視您錯過的專案[!BADGE 可在預覽中使用]{type=Informative}
 
 使用[!DNL Catch me up]功能檢視您錯過了哪些專案。 即時瞭解將在以下時間範圍內概述有關您專案的更新、上傳的檔案、核准和其他重大變更：24小時、3天、7天。
 
-<!--For more information, see Catch up on work in Priorities /help/quicksilver/workfront-basics/priorities/catch-me-up.md.-->
+如需詳細資訊，請參閱[在優先順序](/help/quicksilver/workfront-basics/priorities/catch-me-up.md)中趕上工作。
 
 ![](assets/catch-me-up.png)
 

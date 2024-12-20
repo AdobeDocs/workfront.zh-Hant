@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 046bbabbfe3944d9fea9008ac60547b602f95f68
+source-git-commit: 998f30661c4bc3e6a16328b194a950f942319335
 workflow-type: tm+mt
-source-wordcount: '14757'
+source-wordcount: '14763'
 ht-degree: 2%
 
 ---
@@ -913,6 +913,7 @@ ht-degree: 2%
       * [在優先順序中記錄時間](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md)
       * [上傳優先順序中的檔案](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md)
       * [在優先順序中新增和管理快速連結](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md)
+      * [在優先順序中趕上工作](/help/quicksilver/workfront-basics/priorities/catch-me-up.md)
       * [上傳檔案並在優先順序中建立校訂](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md)
       * [在優先順序行事曆中管理您的工作](/help/quicksilver/workfront-basics/priorities/calendar-priorities.md)
    * 首頁 {#home}
