@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '604'
 ht-degree: 1%
 
 ---
@@ -48,14 +48,14 @@ For more information, see [Catch up on work in Priorities](/help/quicksilver/wor
 >
 >預覽版本： 2024年12月19日；適用於所有客戶的生產版本：搭配25.1版（2025年1月）
 
-您現在可以與檔案和校樣進行互動，以瞭解任務和問題。 在新的「檔案」標籤中，您可以
+您現在可以與工作清單和行事曆中任務和問題的檔案和校訂互動。 在新的「檔案」標籤中，您可以
 
 * 上傳文件
 * 建立校訂
 * 啟動校訂檢視器
 * 及更多內容
 
-<!--For more information, see [Upload Documents and create proofs in Priorities](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md).-->
+如需詳細資訊，請參閱[上傳檔案並在優先順序](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md)中建立校樣。
 
 ## 行事曆檢視現在可在「優先順序」中使用
 
@@ -63,12 +63,14 @@ For more information, see [Catch up on work in Priorities](/help/quicksilver/wor
 >
 >預覽版本： 2024年12月19日；適用於所有客戶的生產版本：搭配25.1版（2025年1月）
 
-透過清楚的視覺月曆，輕鬆追蹤您的工作。 使用「優先順序」行事曆，您可以
+您現在可以使用清晰的視覺行事曆追蹤您的工作。 使用「優先順序」行事曆，您可以
 
 * 使用篩選器尋找您的工作
-* 顯示狀態和焦點層級等欄位
-* 套用顏色以快速優先順序
+* 套用狀態和焦點層級等自訂欄位以識別高優先順序的工作
+* 套用快速組織的顏色
 * 及更多內容
+
+如需詳細資訊，請參閱[在優先順序行事曆](/help/quicksilver/workfront-basics/priorities/calendar-priorities.md)中管理您的工作。
 
 ## 優先順序工作清單的更新
 

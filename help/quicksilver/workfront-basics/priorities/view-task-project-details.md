@@ -1,19 +1,19 @@
 ---
 navigation-topic: get-started-with-workfront
-title: 在「優先順序」工作清單中檢視專案與作業詳細資訊
+title: 在「優先順序」工作清單中檢視專案和工作專案詳細資訊
 description: 您可以在優先順序工作清單中檢視專案與作業詳細資訊。
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
-source-git-commit: 5e33bdb50b2f283606d3a7a74edaec701de60bca
+source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 2%
+source-wordcount: '401'
+ht-degree: 1%
 
 ---
 
-# 在優先順序中檢視專案和任務詳細資訊
+# 在優先順序中檢視專案和工作專案詳細資訊
 
 <span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽Sandbox」環境中使用。</span>
 
@@ -80,13 +80,14 @@ ht-degree: 2%
 
 1. 在工作清單中，暫留在工作名稱上，然後按一下&#x200B;**摘要**&#x200B;圖示![開啟摘要圖示](assets/summary-icon.png)。
 1. 預設會選取工作。 您可以
-   * 檢視和編輯專案詳細資料和說明
+   * 檢視和編輯專案和任務的詳細資訊和說明
    * 檢視專案並新增註解
    * <span class="preview">檢視和新增檔案</span>
    * <span class="preview">建立校訂</span>
    * 記錄時間
    * 新增檔案
    * 新增快速連結
+
 
    ![任務詳細資料](assets/task-details.png)
    <!--new screen for prod ![](assets/task-details-new.png)-->
@@ -97,7 +98,7 @@ ht-degree: 2%
 
 1. 在工作清單中，暫留在工作名稱上，然後按一下&#x200B;**摘要**&#x200B;圖示![開啟摘要圖示](assets/summary-icon.png)。
 1. 依預設會選取問題。 您可以
-   * 檢視和編輯專案詳細資料和說明
+   * 檢視和編輯專案和問題的詳細資訊和說明
    * 檢視專案並新增註解
 * <span class="preview">檢視和新增檔案</span>
 * <span class="preview">建立校訂</span>

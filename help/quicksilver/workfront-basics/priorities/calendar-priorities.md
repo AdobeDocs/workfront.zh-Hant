@@ -1,27 +1,157 @@
 ---
 navigation-topic: get-started-with-workfront
-title: 行事曆
-description: 行事曆
+title: 在優先順序行事曆中管理您的工作
+description: 使用清晰的視覺行事曆追蹤您的工作。
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: a59d092e700f1f661ad8e3cb74b7d96ee2418f41
+source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '513'
 ht-degree: 4%
 
 ---
 
 
-# 行事曆
+# 在優先順序行事曆中管理您的工作
 
 <span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它只能在「預覽Sandbox」環境中使用。</span>
 
-行事曆檢視現在可在「優先順序」中使用
-
-透過清楚的視覺月曆，輕鬆追蹤您的工作。 使用「優先順序」行事曆，您可以
+透過清晰的視覺行事曆，輕鬆追蹤您的工作。 使用「優先順序」行事曆，您可以
 
 * 使用篩選器尋找您的工作
-* 顯示狀態和焦點層級等欄位
-* 套用顏色以快速優先順序
-及更多內容！
+* 套用狀態和焦點層級等自訂欄位以識別高優先順序的工作
+* 套用快速組織的顏色
+
+## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
+
+您必須具有下列存取權才能執行本文中的步驟：
+
+<table style="table-layout:auto"> 
+ <col> 
+ </col> 
+ <col> 
+ </col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront計畫</strong></td> 
+   <td> <p>任何</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront授權*</strong></td> 
+   <td> 
+   <p>目前：檢閱者或以上</p>
+   <p>新增：淺色或更高</p> 
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>存取層級設定</strong></td> 
+   <td> <p>檢視或編輯更新所在物件的存取權</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>物件許可權</strong></td> 
+   <td> <p>檢視物件的存取權</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
+
+## 檢視您在行事曆中的工作
+
+{{step1-to-priorities}}
+
+1. 按一下工作清單頂端的「行事曆」圖示。
+   ![行事曆圖示](assets/calendar-tab.png)
+1. 選取一或多個篩選器以縮小您的工作專案。
+
+   +++展開以檢視有關可用篩選器的詳細資訊
+   <table>
+    <tbody>
+    <tr>
+    <th>篩選器</th>
+    <th>說明</th>
+    </tr>
+        <tr>
+        <td>正在處理</td>
+        <td>顯示您目前正在處理的專案</td>
+        </tr>
+        <tr>
+        <td>已就緒可開始</td>
+        <td>顯示專案與 
+        <ul>
+        <li>沒有未完成的前置任務或任務限制</li>
+        <p>和</p>
+        <li>計劃開始日期是過去或未來最多兩週</li>
+        </ul>
+        </td>
+        </tr>
+        <tr>
+        <td>尚未就緒</td>
+        <td>顯示具有
+        <ul>
+        <li>未完成的前置任務或無法處理專案的任務限制</li>
+        <p>或</p>
+        <li>超過兩週的計劃開始日期</li>
+        </ul>
+        </td>
+        </tr>
+        <tr>
+        <td>已請求</td>
+        <td>顯示您尚未開始處理的問題</td>
+        </tr>
+        <td>完成</td>
+        <td>顯示過去兩週內完成的工作。 此篩選選項不包含核准。</td>
+        </tr>
+        <tr>
+        <td>專案</td>
+        <td>顯示包含您已受指派的任務或問題的專案</td>
+        </tr>
+        <tr>
+        <td>到期日期</td>
+        <td>按計畫完成日期顯示工作</td>
+        </tr>
+        <tr>
+        <td>狀態</td>
+        <td>顯示新增、進行中和完成狀態的任務或問題</td>
+        </tr>
+        <tr>
+        <td>我的焦點</td>
+        <td>顯示中已指派焦點層級的任務或問題。 焦點層級是由個別使用者指派和管理。</td>
+        </tr>
+    </tbody>
+    </table>
+
++++
+
+1. 按一下行事曆中的工作專案列以開啟側邊摘要。 側邊摘要可讓您
+
+* 檢視和編輯專案和工作專案詳細資訊
+* 建立及檢視註解
+* 檢視和上傳檔案
+* 建立校訂
+* 導覽至Workfront中的專案頁面
+* 導覽至「優先順序」中的工作專案詳細資訊頁面
+* 記錄時間
+* 新增快速連結
+
+1. （選擇性）按一下[新建] ****&#x200B;以新增工作專案至行事曆。 如需詳細資訊，請參閱[在優先順序](/help/quicksilver/workfront-basics/priorities/create-task-issue-priorities.md)中建立新任務或問題。
+
+## 設定日曆
+
+{{step1-to-priorities}}
+
+1. 按一下工作清單頂端的「行事曆」圖示。
+   ![行事曆圖示](assets/calendar-tab.png)
+1. 按一下行事曆右角的&#x200B;**設定**&#x200B;圖示。
+
+1. 在&#x200B;**列樣式**標籤上，選擇最多5個欄位顯示在行事曆的工作專案列上。
+   ![範例列](assets/sample-task-for-field-config.png)
+
+1. 在&#x200B;**色彩**標籤上，選擇您要如何顯示工作專案。 例如，如果您選擇「專案」，您的工作專案會根據工作清單上指定給專案的顏色顯示。
+   ![顏色專案範例](assets/sample-calendar-projects.png)
+

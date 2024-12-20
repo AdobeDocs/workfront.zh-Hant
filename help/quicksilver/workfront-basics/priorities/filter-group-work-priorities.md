@@ -6,7 +6,7 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 7a6a34ee5b4986137a04d654cf58bfa5f2465715
+source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
 workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 6%
@@ -66,7 +66,7 @@ ht-degree: 6%
 {{step1-to-priorities}}
 
 1. 按一下工作清單右上角的&#x200B;**篩選器**。
-1. 選取一個或多個篩選器以縮小您的工作專案。
+1. 選取一或多個篩選器以縮小您的工作專案。
    ![](assets/filters.png)
 
 +++展開以檢視有關可用篩選器的詳細資訊
