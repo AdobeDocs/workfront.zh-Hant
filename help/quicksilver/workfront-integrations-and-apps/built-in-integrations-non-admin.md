@@ -7,9 +7,9 @@ description: 您可以將 [!DNL Adobe Workfront] 與協力廠商應用程式整�
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: ac349d205d7526b03bebc497883f9ed1682191ad
+source-git-commit: 502e3fae874df91d4699867dcd25812659a3ffdf
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '502'
 ht-degree: 3%
 
 ---
@@ -99,8 +99,7 @@ Workfront目前提供下列內建整合。
    <td role="rowheader">Microsoft行事曆(Office 365 / Outlook Live)</td> 
    <td> 
     <ul> 
-     <li> <p>在雲端託管的Office 365或Outlook Live中，與Outlook的Web型版本整合。 </p> </li> 
-     <li> <p>在首頁行事曆中顯示您[!DNL Outlook]行事曆的所有活動以及您選取的任何相關行事曆，例如生日行事曆與假日行事曆。</p>  <p>注意： Outlook行事曆設定與Outlook增益集(Outlook整合或Outlook適用的Workfront)完全不同。 不需要安裝即可設定行事曆。</p></li> 
+     <li> <p>在雲端託管的Office 365或Outlook Live中，與Outlook的Web型版本整合。 </p>
     </ul> </td> 
   </tr> 
   <tr> 
