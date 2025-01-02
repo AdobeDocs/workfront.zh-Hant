@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 937965ad495453e185504d53f9d9c88c3cd7e201
+source-git-commit: ee4cf80bc69416e3224c895c1f04628432ce2f4c
 workflow-type: tm+mt
-source-wordcount: '1643'
+source-wordcount: '1646'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,6 @@ ht-degree: 0%
 * [允許叢集10使用的IP位址](#ip-addresses-to-allow-for-cluster-10)
 * [允許測試磁碟機的IP位址](#IP%20Addre2)
 * 實作事件訂閱時允許的[IP位址](#ip-addresses-to-allow-when-implementing-event-subscriptions)
-* [允許增強式驗證的IP位址](#ip-addresses-to-allow-for-enhanced-authentication)
 * [要新增的IP位址以存取Workfront Fusion](#ip-addresses-to-add-for-accessing-workfront-fusion)
 * 使用Workfront for Jira](#ip-addresses-to-add-for-using-workfront-for-jira)要新增的[個IP位址
 * [Workfront要為所有叢集新增的URL](#urls-to-add-for-all-clusters-workfront)
@@ -289,70 +288,6 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-### 允許增強型驗證的IP位址 {#ip-addresses-to-allow-for-enhanced-authentication}
-
-新增以下IP位址，以使用增強型驗證進行預覽或生產。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">如果您的環境位於叢集1、2、3、5、7、8或9</td> 
-   <td> 
-    <ul> 
-     <li>35.167.74.121</li> 
-     <li>35.166.202.113</li> 
-     <li>35.160.3.103</li> 
-     <li>54.183.64.135</li> 
-     <li>54.67.77.38</li> 
-     <li>54.67.15.170</li> 
-     <li>54.183.204.205</li> 
-     <li>35.171.156.124</li> 
-     <li>18.233.90.226</li> 
-     <li>3.211.189.167</li> 
-     <li>18.232.225.224</li> 
-     <li>34.233.19.82</li> 
-     <li>52.204.128.250</li> 
-     <li>3.132.201.78</li> 
-     <li>3.19.44.88</li> 
-     <li>3.20.244.231</li> 
-     <li>54.244.142.219</li> 
-     <li>52.39.217.230</li> 
-     <li>44.241.82.96</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">如果您的環境位於叢集4</td> 
-   <td> 
-    <ul> 
-     <li>52.28.56.226</li> 
-     <li>52.28.45.240</li> 
-     <li>52.16.224.164</li> 
-     <li>52.16.193.66</li> 
-     <li>34.253.4.94</li> 
-     <li>52.50.106.250</li> 
-     <li>52.211.56.181</li> 
-     <li>52.213.38.246</li> 
-     <li>52.213.74.69</li> 
-     <li>52.213.216.142</li> 
-     <li>35.156.51.163</li> 
-     <li>35.157.221.52</li> 
-     <li>52.28.184.187</li> 
-     <li>52.28.212.16</li> 
-     <li>52.29.176.99</li> 
-     <li>52.57.230.214</li> 
-     <li>54.76.184.103</li> 
-     <li>52.210.122.50</li> 
-     <li>52.208.95.174</li> 
-     <li>52.30.133.50</li> 
-     <li>54.220.93.204</li> 
-     <li>34.254.76.122</li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-
 ### 要新增以存取Workfront Fusion的IP位址  {#ip-addresses-to-add-for-accessing-workfront-fusion}
 
 將下列IP位址新增至您的允許清單，以啟用Workfront Fusion存取您的系統。
@@ -394,7 +329,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-此外，如果您的組織使用傳出網路篩選，請將以下網域新增到您的允許清單，讓您的系統能夠存取Workfront Fusion。
+此外，如果您的組織使用傳出網路篩選，請將以下網域新增到您的允許清單，讓您的系統能夠存取Workfront Fusion。 這些URL用於Fusion中的Webhook。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -485,9 +420,12 @@ jira.workfront.com網域也必須可從您的公司伺服器存取。 此網域�
 * auth.split.io
 * rum-http-intake.logs.datadoghq.com
 * mfe.static.workfront.com
-* https://app.pendo.io/
-* https://cdn.pendo.io/
+* fonts.gstatic.com
+* dpm.demdex.net
+* storage.googleapis.com
+* *.aptrinsic.com
 * *.static.workfront.com
+
 
   此為靜態網域，涵蓋下列所有網域。 您可以視需要新增個別網域：
 
@@ -496,6 +434,29 @@ jira.workfront.com網域也必須可從您的公司伺服器存取。 此網域�
    * mfe-preview-c.static.workfront.com
    * mfe-preview.static.workfront.com
    * mfe-review.static.workfront.com
+
+如果您的組織使用AdobeUnified Experience，則會使用下列網域。 這些網域涵蓋在`*.adobe.com`下，但可視需要新增。
+
+* &lt;您的網域>.my.workfront.adobe.com
+* &lt;您的網域>.preview.workfront.adobe.com
+* &lt;您的網域>.sb01.workfront.adobe.com
+* &lt;您的網域>.sb02.workfront.adobe.com
+
+
+針對Workfront Fusion，新增下列網域：
+
+* 對於不在Adobe統一體驗中的組織：
+   * app.workfrontfusion.com (美國AWS)
+   * app-eu.workfrontfusion.com (歐盟AWS)
+   * app-az.workfrontfusion.com (US Azure)
+
+* 針對Adobe上的組織Unified Experience
+（`*.adobe.com`涵蓋這些網域，但可視需要新增。）
+
+   * fusion.adobe.com
+   * app-eu.fusion.adobe.com
+   * app-az.fusion.adobe.com
+
 
 
 ## Workfront要為所有叢集新增的URL {#urls-to-add-for-all-clusters-workfront}

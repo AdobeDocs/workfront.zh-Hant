@@ -8,9 +8,9 @@ description: 除了Adobe Workfront授權，Adobe Workfront Fusion還需要Adobe 
 author: Becky
 feature: Workfront Fusion
 exl-id: f6295cc7-367f-4c8b-891b-cc11ff42a225
-source-git-commit: 2f1244d15ad7729941a35a1dc7ad9f1128d24404
+source-git-commit: 800cf889ff2729fca0c9d75d0ace0ecc1ee53a79
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '358'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
 * 20.81.156.240/28
 * 172.172.84.48/28
 
-此外，如果您的組織使用傳出網路篩選，請將以下網域新增到您的允許清單，讓您的系統能夠存取Workfront Fusion。
+此外，如果您的組織使用傳出網路篩選，請將以下網域新增到您的允許清單，讓您的系統能夠存取Workfront Fusion。 這些會用於Webhook。
 
 * hook.app.workfrontfusion.com
 * hook.app-eu.workfrontfusion.com
