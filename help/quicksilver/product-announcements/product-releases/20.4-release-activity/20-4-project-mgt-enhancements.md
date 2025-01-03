@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f21f33b3-5e49-4bb0-9eda-7cf4c016361c
-source-git-commit: 66659813798d330bb441b32c692693b54d4cfad6
+source-git-commit: 12bab42ab13935fa284aa334120afcfb602bf412
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1365'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[業務負責人概觀](../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md)。
 
-此功能現已納入Workfront One的第1部分學習路徑[管理員基礎課程](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY)中。
+<!--This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
 ## 管理員的新增功能：將投資組合、計畫及公司與群組建立關聯
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱文章[群組概述](../../../administration-and-setup/manage-groups/groups-overview/groups.md)中的「關於將群組與物件產生關聯」一節。
 
-此功能現已納入Workfront One的第1部分學習路徑[管理員基礎課程](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY)中。
+<!--This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
 ## 管理員的新增功能：指定給公司的群組的管理員可以管理公司
 
@@ -93,7 +93,7 @@ ht-degree: 0%
 
 如需有關公司管理存取許可權的資訊，請參閱[授予使用者對特定區域的管理存取許可權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)。
 
-此功能現已納入Workfront One的第1部分學習路徑[管理員基礎課程](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY)中。
+<!--This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
 ## 將處理它按鈕取代為開始按鈕
 
@@ -103,7 +103,7 @@ ht-degree: 0%
 
 如需設定此選項的詳細資訊，請參閱[以開始按鈕取代處理它按鈕](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)。
 
-此功能現在包含在Workfront One上的[工作者基礎學習路徑](https://one.workfront.com/s/learningpath3/worker-fundamentals-for-the-new-workfront-experience-20Y0z000000blg8EAA)和[管理員基礎學習路徑，第1部分](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY)中。
+<!--This feature is now included in the [Worker Fundamentals learning path](https://one.workfront.com/s/learningpath3/worker-fundamentals-for-the-new-workfront-experience-20Y0z000000blg8EAA) and the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
 ## 允許佇列主題的多份草稿
 
@@ -121,7 +121,7 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[建立團隊](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md)。
 
-此功能現已納入Workfront One的第1部分學習路徑[管理員基礎課程](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY)中。
+<!--This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
 ## 新欄位可讓您報告頂層群組及其所有子群組的資料
 
