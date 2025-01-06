@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 998f30661c4bc3e6a16328b194a950f942319335
+source-git-commit: f2f58e3db7d99043281384cc2f6047fd9254f4fd
 workflow-type: tm+mt
-source-wordcount: '14763'
+source-wordcount: '14767'
 ht-degree: 2%
 
 ---
@@ -1852,7 +1852,7 @@ ht-degree: 2%
       * [撤回已提交的核准](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
    * 資產和檔案檢閱與核准{#document-reviews-and-approvals}
       * [資產和檔案檢閱和核准：文章索引](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
-      * [資產和檔案核准總覽](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
+      * [資產和檔案檢閱及核准的可用功能](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
       * [新檔案核准總覽](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
       * [檔案決定狀態概觀](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
       * 設定及管理資產和檔案核准{#manage-asset-review-and-approval}

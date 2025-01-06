@@ -1,19 +1,19 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: 資產和檔案核准總覽
+title: 資產和檔案檢閱及核准的可用功能
 description: Workfront中可供檢閱和核准的系統概觀。
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 9bce16218e002912883994ce2ced6c9d2fce93e7
+exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
+source-git-commit: f2f58e3db7d99043281384cc2f6047fd9254f4fd
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
 
-
-# 資產和檔案核准總覽
+# 資產和檔案檢閱及核准的可用功能
 
 Workfront目前提供3種不同的系統，以供資產和檔案檢閱和核准：
 
@@ -85,4 +85,6 @@ Workfront目前提供3種不同的系統，以供資產和檔案檢閱和核准�
 
 * 使用基本或自動化工作流程
 
-
+<!--
+## Upcoming deprecations
+-->
