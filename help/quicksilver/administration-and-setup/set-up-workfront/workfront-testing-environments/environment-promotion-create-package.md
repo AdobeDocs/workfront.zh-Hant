@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: 2e4bcd6400971104e9138fab0faf20d33af32e51
+source-git-commit: 839b53afb9233ef0e36e981b243c8b2593b45f0f
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '799'
 ht-degree: 0%
 
 ---
@@ -105,3 +105,15 @@ ht-degree: 0%
 1. 若要安裝套件，請按一下畫面右上角的&#x200B;**安裝**。
 
    如需安裝套件的說明，請參閱[安裝環境升級套件](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)。
+
+## 從物件比較建立套件
+
+您可以直接從物件比較建立封裝。
+
+1. 建立物件比較，如[比較環境間的物件](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-compare.md)中所述。
+1. 在產生的比較中，選取要包含在封裝中的物件。
+1. 按一下熒幕右上角的&#x200B;**建立封裝**。
+1. 輸入封裝的名稱和描述。
+1. 在[建立封裝]視窗中，按一下[建立封裝]。****
+
+   套件隨即產生。
