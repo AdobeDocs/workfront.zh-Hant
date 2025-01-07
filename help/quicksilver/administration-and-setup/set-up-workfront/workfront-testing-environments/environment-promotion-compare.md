@@ -8,9 +8,9 @@ description: 您可以跨環境比較物件，以確保您的環境推進套件�
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: f476b1f84fcb905537bde0c10d0a322773f6af0f
+source-git-commit: 2ff7a8b0ae3cc1f641c0d7c0b1384548c9603423
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -82,6 +82,12 @@ ht-degree: 0%
 * 第三行顯示目標環境中不存在的物件。
 
 >[!ENDSHADEBOX]
+
+若要檢視特定物件差異：
+
+1. 按一下該物件行中的放大鏡圖示![](assets/compare-icon.png)。
+
+   隨即開啟一個視窗，其中包含該物件的所有欄位。 差異會以紅色標示。
 
 ## 從物件比較建立套件
 
