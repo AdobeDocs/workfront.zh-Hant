@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: c0411d6384170fa0e802d32b9535c4d7235436b4
+source-git-commit: 5755894ff320db368d07a3ab3ff18bbc9e157e0a
 workflow-type: tm+mt
-source-wordcount: '2380'
+source-wordcount: '2478'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,34 @@ ht-degree: 0%
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+           比較不同環境之間的物件以進行環境升級</a></p>
+            <p>為了更便於確定哪些物件應包含在環境推進套件中，我們新增了跨環境比較物件的功能。 然後，您可以從此比較直接將物件加入封裝。</p>
+        </td>
+        <td>
+            <p><b>將於下列日期提供：</b></p>
+            <ul>
+                <li>預覽版本： 2024年1月6日</li>
+                <li>所有客戶的生產版本：25.1版本（2025年1月）</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            更多可用於環境升級的物件</a></p>
+            <p>為了擴展環境推進功能的功能，我們已新增更多物件。</p>
+        </td>
+        <td>
+            <p><b>將於下列日期提供：</b></p>
+            <ul>
+                <li>預覽版本： 2024年1月6日</li>
+                <li>所有客戶的生產版本：25.1版本（2025年1月）</li>
+            </ul>
+        </td>
+    </tr>  
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             當有記錄時數時防止移動任務</a></p>
             <p>由於移動記錄時數的任務或問題有時會導致相容性或稽核問題，因此我們在「設定」的「任務和問題偏好設定」區域中新增了偏好設定，可讓您防止使用者移動記錄時數的任務和問題。</p>
         </td>
@@ -71,7 +99,7 @@ ht-degree: 0%
                 <li>所有客戶的生產版本：25.1版本（2025年1月）</li>
             </ul>
         </td>
-    </tr>  
+    </tr>
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">

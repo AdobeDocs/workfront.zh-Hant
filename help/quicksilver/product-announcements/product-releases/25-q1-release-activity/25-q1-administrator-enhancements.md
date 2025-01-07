@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: fa24040d-0403-4799-b690-c3d172797115
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: a7a3272cb7bfa22abfee45211e3154b6e21434b8
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '749'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,34 @@ ht-degree: 0%
 本頁說明2025年第一季度版本對「預覽」環境所做的所有管理員增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2025年第一季發行週期目前可用的所有變更清單，請參閱[2025年第一季發行概觀](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)。
+
+## 比較不同環境之間的物件以進行環境升級
+
+>[!NOTE]
+>
+>預覽版本： 2024年1月6日；適用於所有客戶的生產版本：搭配25.1版（2025年1月）
+
+為了更便於確定哪些物件應包含在環境推進套件中，我們新增了跨環境比較物件的功能。 現在，您可以選取物件型別和環境。 Workfront會產生該型別物件的清單，包括它們是否存在於目標環境中，以及該物件在來源環境與目標環境之間是否有差異。 然後，您可以從此清單直接將物件加入封裝。
+
+以前，如果使用者想要比較環境之間的物件，他們必須手動檢查這些物件。
+
+如需詳細資訊，請參閱[比較環境間的物件](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-compare.md)。
+
+## 更多可用於環境升級的物件
+
+>[!NOTE]
+>
+>預覽版本： 2024年1月6日；適用於所有客戶的生產版本：搭配25.1版（2025年1月）
+
+為了擴展環境推進功能的功能，我們已新增更多物件。 現在，您可以將下列物件加入至環境推進封裝：
+
+* 位置
+* 費率卡
+* 指派
+
+以前，這些物件無法用於環境升級。
+
+如需有關可用於環境推進的物件的詳細資訊，請參閱「環境推進概述」一文中的[環境推進的支援物件](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion)。
 
 ## 當有記錄時數時防止移動任務
 
