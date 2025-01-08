@@ -5,13 +5,13 @@ description: 使用清晰的視覺行事曆追蹤您的工作。
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
+exl-id: d24ad7d1-3a88-479e-beaf-69f8264c9a6b
+source-git-commit: f20f1c5d10869901ba5284a4425e38d279265a06
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '538'
 ht-degree: 4%
 
 ---
-
 
 # 在優先順序行事曆中管理您的工作
 
@@ -22,6 +22,11 @@ ht-degree: 4%
 * 使用篩選器尋找您的工作
 * 套用狀態和焦點層級等自訂欄位以識別高優先順序的工作
 * 套用快速組織的顏色
+
+>[!IMPORTANT]
+>
+>專案必須處於目前狀態或等於目前的狀態，才能顯示專案及其子任務和問題。
+
 
 ## 存取需求
 
@@ -154,4 +159,3 @@ ht-degree: 4%
 
 1. 在&#x200B;**色彩**標籤上，選擇您要如何顯示工作專案。 例如，如果您選擇「專案」，您的工作專案會根據工作清單上指定給專案的顏色顯示。
    ![顏色專案範例](assets/sample-calendar-projects.png)
-

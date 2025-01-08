@@ -6,10 +6,10 @@ description: 您可以從多個Widget中進行選擇，以自訂首頁上顯示�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
-source-git-commit: bc60d2cd3dee9be2351d751bafff0e35267ea640
+source-git-commit: 2d75f74c7281a3ea288c892db6895754a697e198
 workflow-type: tm+mt
-source-wordcount: '780'
-ht-degree: 14%
+source-wordcount: '818'
+ht-degree: 13%
 
 ---
 
@@ -23,13 +23,18 @@ ht-degree: 14%
 * [我的工作](#my-work)
 * [我的核准](#my-approvals)
 
+>[!IMPORTANT]
+>
+>* 若要在首頁Widget中顯示任務和問題，其父專案必須處於目前狀態或等於目前狀態。
+>* 專案也必須處於目前狀態或等於目前狀態才能顯示。
+
 ## 我的專案
 
 您可以在「我的專案」Widget中使用下列篩選器：
 
 <table>
   <tr>
-    <td>啟用中</td>
+    <td>使用中</td>
     <td>以下列狀態顯示專案：目前、已計畫和已核准 </td>
   </tr>
   <tr>

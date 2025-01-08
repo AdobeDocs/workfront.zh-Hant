@@ -6,9 +6,9 @@ description: 「我的工作」Widget會集中顯示您所有指派的任務、�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: e110f0f6-4ecb-419b-a368-c3f802de5920
-source-git-commit: 8880891c0f5fd8fecad6c2f58136d36a943105ae
+source-git-commit: f20f1c5d10869901ba5284a4425e38d279265a06
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '725'
 ht-degree: 5%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 5%
 # 使用「我的工作」Widget管理您的工作
 
 「我的工作」Widget會集中顯示您所有指派的任務、問題和請求。 在這裡，您可以篩選及組織您的工作、記錄時間、進行更新並將工作專案標籤為完成。
+
+>[!IMPORTANT]
+>
+>若要在「我的工作」Widget中顯示任務和問題，其父專案必須處於「目前」狀態或等同於「目前」的狀態。
 
 ## 存取需求
 
