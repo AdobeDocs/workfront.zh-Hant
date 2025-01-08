@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: f476b1f84fcb905537bde0c10d0a322773f6af0f
+source-git-commit: 2b1b167bd3645431399c2eb60e300cd958dfa03a
 workflow-type: tm+mt
-source-wordcount: '14771'
+source-wordcount: '14782'
 ht-degree: 2%
 
 ---
@@ -187,6 +187,7 @@ ht-degree: 2%
          * [21.1其他增強功能](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Fusion發行活動{#fusion-release}
          * [Adobe Workfront Fusion發行活動](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+         * [Workfront Fusion發行活動： 2025年1月6日起一週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2025-1-6.md)
          * [Workfront Fusion發行活動： 2024年12月16日當週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-12-16.md)
          * [Workfront Fusion發行活動： 2024年12月2日當週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-12-2.md)
          * [Workfront Fusion發行活動： 2024年11月25日當週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-11-25.md)
@@ -2307,6 +2308,7 @@ ht-degree: 2%
       * [Adobe PDF服務模組](workfront-fusion/apps-and-their-modules/pdf-modules.md)
       * [Adobe Photoshop模組](workfront-fusion/apps-and-their-modules/adobe-photoshop-modules.md)
       * [Adobe Target模組](workfront-fusion/apps-and-their-modules/adobe-target-modules.md)
+      * [Adobe使用者管理模組](workfront-fusion/apps-and-their-modules/adobe-user-management-modules.md)
       * [可投放模組](workfront-fusion/apps-and-their-modules/airtable-modules.md)
       * [配置模組](workfront-fusion/apps-and-their-modules/allocadia-modules.md)
       * [Anaplan模組](workfront-fusion/apps-and-their-modules/anaplan-modules.md)
