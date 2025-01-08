@@ -6,9 +6,9 @@ description: 必須先將人員新增到展示板作為成員，他們才能檢�
 author: Lisa
 feature: Agile
 exl-id: 8a46846c-f9b8-45cb-9923-e7596854557b
-source-git-commit: 7ac846d6224663b4e820ab45379a4ab0611514bb
+source-git-commit: bf8d566ba9d24310e75d2fbaf523fe5464bb6657
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -92,6 +92,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >只有系統管理員或目前的主機板擁有者可以變更主機板擁有者。 展示板只能有一個擁有者。
+>
+>基本、追溯和Kanban展示板提供變更展示板擁有者的功能，但動態展示板則不提供。
 
 1. 存取展示板。
 1. 按一下主機板名稱旁的&#x200B;**[!UICONTROL 更多]**&#x200B;功能表![更多](assets/more-icon-spectrum.png)，然後選擇&#x200B;**[!UICONTROL 變更主機板擁有者]**。
