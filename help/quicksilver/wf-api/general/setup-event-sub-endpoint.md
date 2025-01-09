@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1b621b35-6c8b-4f6a-bcba-ed6cbfe83a8c
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 77c07c7c7104d37360cc7630a89dd72836da477c
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
@@ -35,3 +35,5 @@ ht-degree: 0%
 
    1. 端點會在收到訊息時儲存訊息資訊，並立即以200層級狀態回應。
    1. 端點回應事件訂閱傳遞請求後，即可處理儲存的訊息。
+
+* 事件訂閱訊息或物件不能大於1 MB。

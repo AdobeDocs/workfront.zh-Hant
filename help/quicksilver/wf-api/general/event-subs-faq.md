@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a6120939-5d76-4f46-a304-125de6b22502
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 77c07c7c7104d37360cc7630a89dd72836da477c
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '970'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,7 @@ ht-degree: 0%
 * 這些事件可能不會產生您思考的方式。 確保您沒有對事件應該如何或何時引發做出假設。 例如，您可能會認為更新任務上的檔案會產生任務更新事件，而是會產生檔案建立或檔案更新事件。
 * 您的訂閱可能無法如預期般設定。 您可以在不同的環境中建立事件訂閱，並預期他們會像其他Workfront資料一樣進行傳輸。 但是，事件訂閱資料未設定為複製或升級至其他環境。 請確定您向正確的環境發出API要求，且該環境中的訂閱已如預期般設定。
 * 未收到裝載，因為必要的Workfront IP位址尚未新增至防火牆上的允許清單。 事件訂閱事件只會從少數IP位址傳送。 確保目的地網路具有從Workfront事件訂閱接收裝載所需的所有IP例外。
+* 未收到承載，因為超過1 MB。 事件訂閱訊息或物件不能大於1 MB。
 
 ## 為什麼我的訊息需要太多時間才能到達我的端點？
 
