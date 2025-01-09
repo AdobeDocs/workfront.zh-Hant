@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1564'
 ht-degree: 2%
 
 ---
@@ -139,33 +139,40 @@ ht-degree: 2%
 
    * 所選記錄型別的表格檢視中可用的記錄欄位。<!--they are working on removing the limitation below-->
 
-   >[!IMPORTANT]
-   >
-   > 根據您使用建立請求表單的環境，會有以下情況：
-   >
-   >* 下列型別的欄位未顯示在預覽</span>或生產環境的要求表單<span class="preview">中：
-   >
-   >    * 建立者和上次修改者
-   >    * 公式
-   >    * 建立日期和上次修改日期
-   >    * Workfront物件的查閱欄位
-   >    * Workfront Planning連線記錄的查詢欄位
-   >* 下列型別的欄位不會顯示在生產環境的請求表單中。 <span class="preview">它們顯示在預覽環境中：</span>
-   >    * <span class="preview">個Workfront Planning記錄&#39;已連線的欄位</span>
-   >    * <span class="preview">人員</span>
-   >    * <span class="preview">Workfront物件的已連線欄位</span>
-   >    * <span class="preview">AEM Assets已連線的欄位</span>
+<!-- when we go to prod, the Preview batch below will become the only batch-->
 
-   * **預設的分節**：這是Workfront套用至要求表單的預設分割槽符號。 無法重新命名或移除「預設」區段。
-   * **主旨**&#x200B;欄位：將在Workfront中識別要求的欄位。 此功能尚未在生產環境中提供。 <span class="preview">它可在預覽環境中使用。</span>無法編輯主旨欄位的設定和值。
+>[!IMPORTANT]
+>
+> 根據您使用建立請求表單的環境，會有以下情況：
+>
+>* 下列型別的欄位不會顯示在生產環境的請求表單中：
+>
+>    * 建立者和上次修改者
+>    * 建立日期和上次修改日期
+>    * 公式
+>    * 人員
+>    * Workfront連結的欄位
+>    * Workfront物件的查閱欄位
+>    * Workfront Planning記錄的已連線欄位
+>    * Workfront Planning連線記錄的查詢欄位
+>    * AEM Assets連線欄位
+>* 下列型別的欄位未顯示在<span class="preview">預覽環境的要求表單中：</span>
+>    * <span class="preview">建立者與上次修改者</span>
+>    * <span class="preview">建立日期和上次修改日期</span>
+>    * <span class="preview">公式</span>
+>    * <span class="preview"> Workfront物件的查閱欄位</span>
+>    * <span class="preview">Workfront Planning已連線記錄的查閱欄位</span>
 
-     >[!TIP]
-     >
-     >**Subject**&#x200B;欄位在要求表單上可見時需要值。 不過，您可以視需要移除&#x200B;**主旨**&#x200B;欄位，要求者不會在表單上看到它。
+* **預設的分節**：這是Workfront套用至要求表單的預設分割槽符號。 無法重新命名或移除「預設」區段。
+* **主旨**&#x200B;欄位：將在Workfront中識別要求的欄位。 此功能尚未在生產環境中提供。 <span class="preview">它可在預覽環境中使用。</span>無法編輯主旨欄位的設定和值。
 
-   * 與記錄型別關聯的所有欄位。
+  >[!TIP]
+  >
+  >**Subject**&#x200B;欄位在要求表單上可見時需要值。 不過，您可以視需要移除&#x200B;**主旨**&#x200B;欄位，要求者不會在表單上看到它。
 
-     向此記錄型別提交請求的所有人均可看到請求表單中包含的欄位。
+* 與記錄型別關聯的所有欄位。
+
+  向此記錄型別提交請求的所有人均可看到請求表單中包含的欄位。
 
 1. （選擇性）將滑鼠停留在您要移除的表單上任何欄位上，然後按一下&#x200B;**x**&#x200B;圖示以移除它們。 已將它們新增至表單左側的&#x200B;**欄位**&#x200B;索引標籤。
 
@@ -233,9 +240,7 @@ ht-degree: 2%
    >
    > * <span class="preview">包含下列欄位型別的表單無法公開共用：</span>
    >
-   >     * <span class="preview">公式</span>
    >     * <span class="preview">Workfront或AEM Assets連線</span>
-   >     * <span class="preview">查詢欄位</span>
    >     * <span class="preview">人員</span>
    >
 

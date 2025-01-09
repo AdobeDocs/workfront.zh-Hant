@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '2226'
-ht-degree: 1%
+source-wordcount: '2245'
+ht-degree: 2%
 
 ---
 
@@ -198,7 +198,7 @@ ht-degree: 1%
        <p>請考量下列事項：</p> 
         <ul> 
          <li> 選取後，您可以移動已記錄時間的任務和問題。 小時也會隨著任務或問題移動。 </li>
-      <li>取消選取此選項時，當您移動具有記錄時數的任務或問題時，會收到禁止性警告。 警告指定管理員不允許移動記錄時數的任務或問題。 無法移動記錄時數的任務或問題。 </li></ul>
+      <li>取消選取此選項時，當您移動具有記錄時數的任務或問題時，會收到禁止性警告。 警告指定管理員不允許移動記錄時數的任務或問題。 無法將記錄時數的任務或問題移至其他專案。 即使取消選取此選項，您也可以在相同專案中移動具有記錄時數的任務。  </li></ul>
       </td> 
      </tr> 
     </tbody> 

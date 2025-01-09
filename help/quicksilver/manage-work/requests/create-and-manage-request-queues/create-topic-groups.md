@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 7c5959f4-f33f-4f5e-b031-748dbe1a24a5
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!-- Audited: 2/2024 -->
 
-主題群組與請求佇列相關聯。 它們可讓您根據請求的性質，將請求佇列分為多個類別。
+主題群組與請求佇列相關聯。 您可以使用主題群組，根據請求的性質，將請求佇列分為多個類別。
 
 ## 存取需求
 
@@ -64,12 +64,12 @@ ht-degree: 0%
 
 如需有關如何建立請求佇列的詳細資訊，請參閱[建立請求佇列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
 
->[!TIP]
->
->* 您可以在請求佇列中建立最多10層主題群組。
->* 可與主題群組相關聯的佇列主題數目沒有限制。
->* 主題群組是可報告的物件。
->
+使用主題群組時，請考量下列事項：
+
+* 您可以在請求佇列中建立最多10層主題群組。
+* 可與主題群組相關聯的佇列主題數目沒有限制。
+* 主題群組是可報告的物件。
+* 您無法將主題群組從一個專案移動到另一個專案。
 
 ## 建立主題群組
 

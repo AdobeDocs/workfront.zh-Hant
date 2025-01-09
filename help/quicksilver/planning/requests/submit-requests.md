@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '975'
 ht-degree: 0%
 
 ---
@@ -149,9 +149,10 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
 
    您的表單已提交，且發生下列情況：
 
-   * 如果要求表單未與核准關聯，或<span class="preview">如果核准者皆已授與核准，</span>會將新記錄新增至與表單關聯的記錄型別。
+   * 如果要求表單未與核准建立關聯，則會將要求新增至Workfront要求區域</span>已提交區段的<span class="preview">計畫索引標籤，並將新記錄新增至與表單建立關聯的記錄型別。
 
-   * 如果要求表單未與核准建立關聯，則會將<span class="preview">要求新增至Workfront要求區域已提交區段的Planning索引標籤，並將新記錄新增至記錄型別頁面。</span>
+   * 如果要求表單與核准相關聯，則會將<span class="preview">要求新增至Workfront要求區域已提交區段的Planning索引標籤中。 只有在所有核准者核准記錄型別後，才會將新記錄新增至記錄型別頁面。</span>
+     <span class="preview">如需詳細資訊，請參閱[新增核准至申請表單](/help/quicksilver/planning/requests/add-approval-to-request-form.md)。</span>
 
      ![](assets/planning-tab-in-requests.png)
 
@@ -159,9 +160,6 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
      >
      ><span class="preview">所有有權存取至少一個工作區的使用者都可以檢視[要求]區域中的[計畫]索引標籤。 您只能檢視您或其他人提交至您至少擁有檢視許可權之工作區的請求。 Workfront管理員可檢視提交至系統中任何工作區的所有請求。</span> <!--ensure this is correct; asking team in slack-->
 
-   * <span class="preview">如果請求表單與核准相關聯，請求會暫時儲存到Workfront請求區域已提交區段的Planning索引標籤。 未針對與請求表單關聯的記錄型別建立記錄。</span>
-
-     <span class="preview">如需詳細資訊，請參閱[新增核准至申請表單](/help/quicksilver/planning/requests/add-approval-to-request-form.md)。</span>
    * <span class="preview">您會收到應用程式內及電子郵件通知，告知您請求已成功提交或已傳送稽核。</span>
    * <span class="preview">如果要求表單與核准相關聯，核准者會收到應用程式內及電子郵件通知，以檢閱並核准要求。</span>
 

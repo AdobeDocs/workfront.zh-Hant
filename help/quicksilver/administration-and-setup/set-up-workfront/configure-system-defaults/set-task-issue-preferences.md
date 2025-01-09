@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '2279'
+source-wordcount: '2296'
 ht-degree: 0%
 
 ---
@@ -177,7 +177,7 @@ Linked to Converting Issues.-->
 
 * 選取後，您可以移動已記錄時間的任務和問題。 小時也會隨著任務或問題移動。
 
-* 取消選取此選項時，當您移動具有記錄時數的任務或問題時，會收到禁止性警告。 警告指定管理員不允許移動記錄時數的任務或問題。 無法移動記錄時數的任務或問題。
+* 取消選取此選項時，您將具有記錄時數的任務或問題移動到另一個專案時，收到禁止性警告。 警告指定管理員不允許移動記錄時數的任務或問題。 無法移動記錄時數的任務或問題。 即使取消選取此選項，您也可以在相同專案中移動任務。
 
 </div>
 
