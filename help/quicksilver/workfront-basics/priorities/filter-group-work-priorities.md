@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 47469f684bf3be6c6a9d3c39ba3960ca13e43578
+source-git-commit: 11b25decc88146568aad615eb06ef3521f7aa761
 workflow-type: tm+mt
-source-wordcount: '949'
-ht-degree: 6%
+source-wordcount: '955'
+ht-degree: 5%
 
 ---
 
@@ -248,7 +248,7 @@ ht-degree: 6%
 
 ### 使用智慧型篩選器篩選您的工作
 
-使用自然語言來篩選快速篩選工作。 您的Workfront執行個體必須在Adobe統一體驗上啟用。 如需詳細資訊，請參閱[Workfront的Adobe統一體驗](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
+使用自然語言來篩選快速篩選工作。 您的Workfront執行個體必須在新的Workfront計畫上，並在Adobe統一體驗中啟用。 如需詳細資訊，請參閱[Workfront的Adobe統一體驗](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 
 {{step1-to-priorities}}
 

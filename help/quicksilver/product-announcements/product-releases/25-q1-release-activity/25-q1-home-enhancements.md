@@ -1,28 +1,26 @@
 ---
 title: 2025年第一季度首頁增強功能
-description: 2025年第一季度首頁增強功能
+description: 2025年第一季優先順序增強功能
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 11b25decc88146568aad615eb06ef3521f7aa761
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '801'
 ht-degree: 0%
 
 ---
 
-# 2025年第一季度首頁增強功能
+# 2025年第一季優先順序增強功能
 
-本頁說明2025年第一季度版本對「預覽」環境所做的所有首頁增強功能。 如上所述，這些增強功能將於生產環境中提供。
+此頁面說明2025年第一季度版本對「預覽」環境所做的所有「優先順序」增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2025年第一季發行週期目前可用的所有變更清單，請參閱[2025年第一季發行概觀](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)。
 
 ## 優先順序增強功能概觀
 
-請觀看下方的影片，以深入瞭解本季新增至「優先順序」的新功能。
-
-[優先順序增強功能概觀影片](https://video.tv.adobe.com/v/3442750/){target=_blank}
+>[!VIDEO](https://video.tv.adobe.com/v/3442750/?quality=12&learn=on)
 
 請參閱下方的[優先順序增強功能示範影片](#priorities-enhancements-demo-video)，完整展示此概觀包含的功能。
 
@@ -165,4 +163,6 @@ ht-degree: 0%
 
 請觀看下方的影片，詳細示範本季「優先順序」新增的新功能。
 
-[優先順序增強示範影片](https://video.tv.adobe.com/v/3442751/){target=_blank}
+>[!VIDEO](https://video.tv.adobe.com/v/3442751/?quality=12&learn=on)
+
+
