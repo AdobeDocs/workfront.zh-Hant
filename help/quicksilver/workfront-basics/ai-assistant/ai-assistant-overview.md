@@ -5,9 +5,9 @@ description: AI助理總覽
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: d58088eed3c23652226f5d3f104705ed112c0b9f
+source-git-commit: 47469f684bf3be6c6a9d3c39ba3960ca13e43578
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '741'
 ht-degree: 1%
 
 ---
@@ -100,12 +100,12 @@ AI助理目前提供下列功能：
 
   如需詳細資訊，請參閱[使用AI助理產生或修訂計算欄位公式](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md)。
 
-<!--<div class="preview">
-* Summarizing updates, uploaded documents, and other notable changes about your projects within the following time frames: 24 hours, 3 days, 7 days in Priorities.
+<div class="preview">
+*在以下時間範圍內概述專案的更新、上傳的檔案和其他顯著變更：優先順序中的24小時、3天、7天。
 
-For more information, see [Catch up on work in Priorities](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
+如需詳細資訊，請參閱[在優先順序](/help/quicksilver/workfront-basics/priorities/catch-me-up.md)中趕上工作。
 
-</div>-->
+</div>
 
 ## AI助理可用的物件型別
 
