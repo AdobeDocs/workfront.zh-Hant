@@ -6,14 +6,16 @@ description: 控制面板的用途是提供資訊的快速存取。 您可將報
 author: Nolan
 feature: Reports and Dashboards
 exl-id: de15ab45-4bcd-4638-b3d7-fc70a0866d2d
-source-git-commit: 008713ef6587041310388c05909ad5f78fb9fa4c
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '495'
 ht-degree: 1%
 
 ---
 
 # 編輯儀表板
+
+<!-- Audited: 1/2025 -->
 
 控制面板的用途是提供資訊的快速存取。 您可以在Adobe Workfront中使用下列專案填入控制面板：
 
@@ -33,6 +35,8 @@ ht-degree: 1%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具備下列條件：
 
 <table style="table-layout:auto"> 
@@ -40,25 +44,36 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront計畫*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront計畫</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront授權*</strong></td> 
-   <td> <p>計劃 </p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront授權</strong></td> 
+   <td> 
+      <p>新增：</p>
+         <ul>
+         <li><p>標準</p></li>
+         </ul>
+      <p>目前：</p>
+         <ul>
+         <li><p>規劃</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>存取層級設定*</strong></td> 
-   <td> <p>編輯報告、儀表板和行事曆的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何變更存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td role="rowheader"><strong>存取層級設定</strong></td> 
+   <td> <p>編輯報告、儀表板和行事曆的存取權</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>管理儀表板的許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>管理儀表板的許可權</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先決條件
 
@@ -71,7 +86,7 @@ ht-degree: 1%
 1. 前往您要編輯的控制面板。
 1. 按一下&#x200B;**儀表板動作**，然後按一下&#x200B;**編輯**。
 
-   ![](assets/qs-dashboard-actions-menu-350x318.png)
+   ![](assets/unshimmed-edit-dashboard.png)
 
    >[!TIP]
    >

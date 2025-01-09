@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3c0b4797-594c-44d0-b3ad-a64384b6c4a8
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽版本： 2024年12月16日；適用於所有客戶的生產版本：搭配25.1版（2025年1月）
+>預覽版本： 2024年12月16日；適用於所有客戶的生產版本：搭配25.1版（2025年1月16日）
 
 為了維持儀表板效能，我們已實施可放置在儀表板中的報告、外部頁面或行事曆總數限制。 建立新儀表板時，最多可以新增25個專案。
 

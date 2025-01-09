@@ -6,16 +6,16 @@ description: 您可以將外部網頁內嵌在控制面板中，藉此存取Adob
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 0%
+source-wordcount: '1011'
+ht-degree: 1%
 
 ---
 
 # 將外部網頁內嵌在控制面板中
 
-<!--Audited: 01/2024-->
+<!--Audited: 01/2025-->
 
 您可以在控制面板中內嵌外部網頁，以提供其他系統或Adobe Workfront內部相關資訊的存取權。
 
@@ -64,10 +64,17 @@ ht-degree: 0%
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront授權*</strong></td> 
-   <td> <p>目前：計畫 </p>
-   或
-   <p>新增：標準 </p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront授權</strong></td> 
+   <td> 
+      <p>新增：</p>
+         <ul>
+         <li><p>標準</p></li>
+         </ul>
+      <p>目前：</p>
+         <ul>
+         <li><p>規劃</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>存取層級設定</strong></td> 
@@ -75,12 +82,12 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> </td> 
+   <td> <p>編輯儀表板的存取權</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。 如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -162,7 +169,7 @@ ht-degree: 0%
 
    **儀表板詳細資料**&#x200B;方塊開啟。
 
-1. 在&#x200B;**儀表板詳細資料**&#x200B;方塊的&#x200B;**選取配置/新增報告/新增行事曆**&#x200B;區域中，找到您要更新的外部頁面，將滑鼠游標停留在它上，然後按一下&#x200B;**編輯**&#x200B;圖示。\
+1. 在&#x200B;**儀表板詳細資訊**&#x200B;方塊的&#x200B;**選取配置/新增報告**&#x200B;區域中，找到您要更新的外部頁面，將滑鼠停留在它上，然後按一下&#x200B;**編輯**&#x200B;圖示。\
    ![](assets/nwe-inline-edit-external-page-350x226.png)
 
 1. 在&#x200B;**編輯外部頁面**&#x200B;方塊中，更新您要變更的欄位，然後按一下&#x200B;**儲存**。
@@ -175,7 +182,7 @@ ht-degree: 0%
 
 {{step1-to-reports}}
 
-1. 按一下「**新增報表**」>選取「**外部頁面**」。
+1. 按一下「**新增報表**」>選取「**外部區段**」。
 
    ![](assets/external-page-new-report-in-dropdown-nwe.png)
 
@@ -183,8 +190,7 @@ ht-degree: 0%
 
    如需詳細資訊，請參閱[建立自訂報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
-1. 按一下&#x200B;**儲存+關閉**。
+1. 按一下「**儲存並關閉**」。
 
-   您可以在新的報告中檢視與系統中外部頁面關聯的名稱和URL。
+   您可以在新的報告中檢視與系統中任何外部頁面關聯的名稱和URL。
 
-   ![](assets/external-page-report-name-url-columns-nwe-350x213.png)

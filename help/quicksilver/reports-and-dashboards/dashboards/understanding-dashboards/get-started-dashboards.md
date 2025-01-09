@@ -7,16 +7,16 @@ description: 控制面板的目的是提供資訊的快速存取。 您可以在
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
 
 # 開始使用儀表板
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 1/2025 -->
 
 控制面板的用途是提供對來自多個報表之資訊的快速存取。 首先，您可以收集報表中的資訊，然後將多個報表放在控制面板上，以便更輕鬆存取資訊。
 
@@ -38,7 +38,16 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p><strong>Adobe Workfront授權</strong></p> </td> 
-   <td> <p>新增：投稿人或更高版本</p><p>或</p><p>目前：檢閱或以上</p> </td> 
+      <td> 
+      <p>新增：</p>
+         <ul>
+         <li><p>投稿人或以上</p></li>
+         </ul>
+      <p>目前：</p>
+         <ul>
+         <li><p>評論或以上</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
    <td><strong>存取層級</strong> </td> 
@@ -51,7 +60,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

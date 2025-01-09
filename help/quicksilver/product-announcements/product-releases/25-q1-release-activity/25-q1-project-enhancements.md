@@ -4,9 +4,10 @@ description: 2025年第一季度專案增強功能
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+exl-id: 998f3508-623e-471b-9ab7-bded5add6b5b
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽版本： 2024年12月19日；適用於所有客戶的生產版本：搭配25.1版（2025年1月）
+>預覽版本： 2024年12月19日；適用於所有客戶的生產版本：搭配25.1版（2025年1月16日）
 
 自2023年12月起已在預覽環境中以及自2024年3月起已在快速發行生產環境中使用的功能現已移除。 這些功能在指派任務時新增了更相關的智慧指派建議。
 

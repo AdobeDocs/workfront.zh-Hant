@@ -6,14 +6,16 @@ description: 當使用者指派存取層級時，您的Adobe Workfront管理員�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 21bd531f-8732-4d6c-b91f-990887285447
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
 
 # 共用儀表板
+
+<!-- Audited: 1/2025 -->
 
 當使用者指派存取層級時，您的Adobe Workfront管理員會授予他們檢視或編輯儀表板的存取權。 如需授與問題存取權的詳細資訊，請參閱[授與報告、儀表板和行事曆的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)。
 
@@ -27,6 +29,8 @@ ht-degree: 0%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具備下列專案才能共用物件：
 
 <table style="table-layout:auto"> 
@@ -34,25 +38,36 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront計畫*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront計畫</strong></td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront授權*</strong></td> 
-   <td> <p>評論或以上</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront授權</strong></td> 
+    <td> 
+      <p>新增：</p>
+         <ul>
+         <li><p>淺色或更高</p></li>
+         </ul>
+      <p>目前：</p>
+         <ul>
+         <li><p>評論或以上</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>存取層級設定*</strong></td> 
-   <td> <p>檢視報表、儀表板、行事曆的存取權或以上專案</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td role="rowheader"><strong>存取層級設定</strong></td> 
+   <td> <p>檢視報表、儀表板、行事曆的存取權或以上專案</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>檢視儀表板或更高的許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>檢視儀表板或更高的許可權</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先決條件
 
@@ -83,11 +98,11 @@ ht-degree: 0%
 
    或
 
-   按一下某個儀表板的名稱，然後按一下**儀表板動作>****共用**。
+   按一下其中一個儀表板的名稱，然後按一下&#x200B;**儀表板動作** > **共用**。
 
-   ![](assets/qs-dashboard-actions-menu-350x318.png)
+   ![](assets/unshimmed-share-dashboard.png)
 
-1. 在&#x200B;**新增人員、團隊、角色、群組或公司……**&#x200B;欄位中，開始輸入您要共用控制面板的使用者、團隊、角色、群組或公司名稱，然後在其出現在下拉式清單中時按一下該名稱。
-1. （選擇性）若要讓系統中的所有使用者都能存取儀表板，請按一下共用對話方塊右上角的&#x200B;**設定**&#x200B;圖示，然後選取&#x200B;**讓此在整個系統內可見**。
+1. 在&#x200B;**新增人員、團隊、角色、群組或公司**&#x200B;欄位中，開始輸入您要共用控制面板的使用者、團隊、角色、群組或公司名稱，然後在其出現在下拉式清單中時按一下該名稱。
+1. （選擇性）若要讓系統內的所有使用者都能存取儀表板，請按一下[共用]對話方塊中的[只有&#x200B;**受邀者可以存取**]下拉式功能表，然後選取[系統內的每個人都可以檢視&#x200B;**]。**
 
 1. 按一下「**儲存**」。

@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0639cb37-212c-46d5-bfe0-b524efc085d3
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽版本： 2024年11月21日；快速發行生產：24.12版（2024年12月12日）；每季發行生產：25.1版（2025年1月）
+>預覽版本： 2024年11月21日；快速發行生產：24.12版（2024年12月12日）；每季發行生產：25.1版（2025年1月16日）
 
 您現在可以一次編輯多份檔案。 您可以編輯說明並更新自訂表格。
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽版本： 2024年11月7日；快速發行生產：24.11版（2024年11月14日）；每季發行生產：25.1版（2025年1月）
+>預覽版本： 2024年11月7日；快速發行生產：24.11版（2024年11月14日）；每季發行生產：25.1版（2025年1月16日）
 
 當新版本新增到具有待核准的檔案時，先前版本的核准現在將顯示為「已撤回」，表示由於新增新版本，先前核准流程已關閉。
 

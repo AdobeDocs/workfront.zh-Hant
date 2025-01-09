@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 67ec1535-d374-4133-9395-626fa7ae4072
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '400'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽版本： 2024年11月11日；快速發行生產：24.12版（2024年12月12日）；每季發行生產：25.1版（2025年1月）
+>預覽版本： 2024年11月11日；快速發行生產：24.12版（2024年12月12日）；每季發行生產：25.1版（2025年1月16日）
 
 當具有多個區段的自訂表單附加到物件時，您現在可以摺疊和展開表單頂端預設區段以外的所有區段。 管理員也可以在表單設計工具中預覽表單時看到此功能。
 
@@ -43,11 +43,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽版本： 2024年10月31日；快速發行生產：24.11版（2024年11月14日）；每季發行生產：25.1版（2025年1月）
+>預覽版本： 2024年10月31日；快速發行生產：24.11版（2024年11月14日）；每季發行生產：25.1版（2025年1月16日）
 
 為了更輕鬆地在Workfront中管理您的工作專案，我們已更新AI助理來處理專案、任務和問題。 現在，AI助理可以根據您指定的條件找到專案、任務和問題，例如「尋找本週到期的工作」。
 以前，AI助理無法直接處理專案、任務和問題。
 
-您的Workfront管理員可以為您的組織啟用或停用AI助理。 AI Assistant適用於Select、Prime和Ultimate計畫的例項。
+您的Workfront管理員可以為您的組織啟用或停用AI助理。 AI助理可用於具有Select、Prime和Ultimate計畫的執行個體。
 
 如需詳細資訊，請參閱[使用AI助理來處理專案、任務和問題](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md)。

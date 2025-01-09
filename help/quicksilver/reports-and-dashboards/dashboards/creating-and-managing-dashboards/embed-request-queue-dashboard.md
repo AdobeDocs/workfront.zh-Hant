@@ -6,22 +6,26 @@ description: 您可以將新請求佇列內嵌在儀表板中，讓使用者直�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2d129095-c7ee-45b1-94ce-055d1d91e2fe
-source-git-commit: 2894161b61a00dab04c17ef642ace4a45179eb17
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1137'
 ht-degree: 1%
 
 ---
 
 # 將請求佇列內嵌在控制面板中
 
-您可以將新請求佇列內嵌在儀表板中，讓使用者直接存取請求佇列，不必前往請求區域。 
+<!-- Audited: 1/2025 -->
+
+您可以將新請求佇列內嵌在儀表板中，讓使用者直接存取請求佇列，不必前往請求區域。
 
 例如，如果您有一個開放給整個組織的請求佇列，例如服務檯佇列或每個人都必須定期存取的PTO請求佇列，將請求佇列直接插入他們的其中一個儀表板中可能會很方便，以便快速輕鬆地存取。 此設定的程式與在控制面板上建立外部頁面的程式類似。
 
 首先，您需要取得請求佇列的URL。 其次，您可以新增外部頁面，將URL內嵌於控制面板中。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -30,31 +34,43 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront計畫*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront計畫</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront授權*</strong></td> 
-   <td> <p>計劃 </p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront授權</strong></td> 
+   <td> 
+      <p>新增：</p>
+         <ul>
+         <li><p>標準</p></li>
+         </ul>
+      <p>目前：</p>
+         <ul>
+         <li><p>規劃</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>存取層級設定*</strong></td> 
-   <td> <p>編輯報告、儀表板、行事曆的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何變更存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td role="rowheader"><strong>存取層級設定</strong></td> 
+   <td> <p>編輯報告、儀表板、行事曆的存取權</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>管理儀表板的許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>管理儀表板的許可權</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先決條件
 
 您必須先建立下列兩項，才能將請求佇列內嵌到儀表板中：
 
 * **儀表板**：如需建立儀表板的詳細資訊，請參閱[建立儀表板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)。
+
 * **請求佇列**：如需建立請求佇列的詳細資訊，請參閱[建立請求佇列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
 
 ## 取得請求佇列的URL {#obtain-the-url-of-the-request-queue}
@@ -62,7 +78,9 @@ ht-degree: 1%
 您可以透過多種方式取得請求佇列的URL，方式取決於您希望在使用者從儀表板存取請求佇列時，向使用者公開請求佇列的哪個部分。
 
 * [取得特定佇列主題的連結，而且能夠變更要求型別](#obtain-a-link-to-a-specific-queue-topic-with-ability-to-change-the-request-type)
+
 * [取得要求佇列的連結及變更要求型別的能力](#obtain-a-link-to-a-request-queue-and-ability-to-change-the-request-type)
+
 * [取得要求佇列的連結，但無法變更要求型別](#obtain-a-link-to-a-request-queue-with-no-ability-to-change-the-request-type)
 
 ### 取得特定佇列主題的連結，並可變更請求型別 {#obtain-a-link-to-a-specific-queue-topic-with-ability-to-change-the-request-type}
@@ -139,8 +157,11 @@ ht-degree: 1%
 您可以將請求佇列或請求佇列下巢狀內嵌佇列主題的連結內嵌到控制面板，讓使用者直接存取輸入的請求。
 
 1. 使用本文[取得要求佇列](#obtain-the-url-of-the-request-queue)章節中說明的其中一個方法，取得要求佇列URL。
+
 1. 按一下&#x200B;**主要功能表** > **儀表板** > **新儀表板**。
+
 1. 輸入儀表板的&#x200B;**名稱**。 這是必填欄位。
+
 1. 按一下&#x200B;**新增外部頁面**。
 
    ![](assets/add-external-page-highlighted---nwe-350x214.png)
@@ -150,35 +171,20 @@ ht-degree: 1%
    * **名稱**：輸入要顯示在儀表板上的請求佇列名稱。 這是必填欄位。
 
    * **描述**：輸入此外部頁面顯示的描述。 這不是必填欄位，僅對報表用途而言重要。 它不會顯示在儀表板中。
-   * **URL**：貼上您使用步驟1中說明的其中一種方法取得的URL。
 
-     <!--   
-     <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   
-     <MadCap:conditionalText data-mc-conditions="">   
-     (NOTE: ensure this stays accurate)   
-     </MadCap:conditionalText>   
-     </MadCap:conditionalText>   
-     -->
+   * **URL**：貼上您使用步驟1中說明的其中一種方法取得的URL。
 
    * **高度**：輸入外部頁面的高度。 這會定義包含請求佇列的外部頁面在控制面板上佔據的空間大小。 這是必填欄位，預設值為500。
 
 1. 按一下「**儲存**」。
-1. 按一下&#x200B;**儲存+關閉**。 
+
+1. 按一下「**儲存並關閉**」。
 
    請求佇列會在儀表板中顯示為單獨的儀表板元件。
 
-   ![](assets/new-dashboard-with-embedded-request-queue-nwe-350x260.png)
+1. （選擇性）按一下&#x200B;**儀表板動作**，然後按&#x200B;**編輯**，將報告、行事曆或其他外部頁面新增至相同的儀表板。
 
-1. （選擇性）按一下&#x200B;**儀表板動作**，然後按&#x200B;**編輯**，將報告、行事曆或其他外部頁面新增至相同的儀表板。\
    如需有關將元件新增到儀表板的資訊，請參閱[建立儀表板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)。
-
- 
-
- 
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted - old information)</p>
--->
 
 <!--
 <ol data-mc-conditions="QuicksilverOrClassic.Draft mode">

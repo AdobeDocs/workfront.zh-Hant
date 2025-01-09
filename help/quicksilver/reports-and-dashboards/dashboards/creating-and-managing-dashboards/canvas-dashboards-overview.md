@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b02ca181-e3c3-41e9-ab45-b1b606909127
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 0%
@@ -14,6 +14,7 @@ ht-degree: 0%
 
 # Canvas儀表板概觀
 
+<!-- This page is hidden as it is outdated, delete once full Canvas Dashboard docs are live-->
 <!-- Audited: 12/2023 -->
 
 畫布儀表板是目前正在開發中的儀表板功能，提供在Workfront中建立有效儀表板的新選項。 畫布儀表板可讓報告畫布視覺效果輕鬆納入現有報告中，提供更大的彈性以及新的版面配置選項。
@@ -81,6 +82,7 @@ ht-degree: 0%
 1. 開始輸入您要在&#x200B;**尋找報告**&#x200B;欄位中顯示的報告名稱。 當您在清單中看到報告時，按一下其名稱旁邊的&#x200B;**清單報告**&#x200B;或&#x200B;**圖表報告**&#x200B;圖示，以您選擇的格式顯示該報告的資訊。
 
 >[!WARNING]
+>
 > 雖然新增多個目前可從相同報表顯示資訊的Widget是可行的，但建議您只顯示一次每個報表，因為它可能會影響儀表板效能。
 
 ### 在畫布控制面板中編輯Widget

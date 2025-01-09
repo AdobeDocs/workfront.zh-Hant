@@ -6,16 +6,16 @@ description: 您可以建立控制面板，以快速存取Adobe Workfront中的�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '484'
 ht-degree: 1%
 
 ---
 
 # 建立儀表板
 
-<!--Audited: 01/2024-->
+<!--Audited: 01/2025-->
 
 您可以建立控制面板，以快速存取Adobe Workfront中的資訊。 儀表板最多可以新增25個報告、行事曆和外部頁面，您可與其他人共用這些儀表板以獲得最佳共同作業。
 
@@ -38,7 +38,7 @@ ht-degree: 1%
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Adobe Workfront授權*</strong></p> </td> 
+   <td> <p><strong>Adobe Workfront授權</strong></p> </td> 
    <td> <p>目前：計畫 </p>
    或
    <p>新增：標準 </p> </td> 
@@ -54,7 +54,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。 如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

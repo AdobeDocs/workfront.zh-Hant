@@ -6,14 +6,16 @@ description: 您可以使用網頁瀏覽器中可用的列印選項，將儀表�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6c8dc5be-6adb-400a-b86a-a7f7e84d0ba7
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 5%
+source-wordcount: '372'
+ht-degree: 6%
 
 ---
 
 # 匯出控制面板
+
+<!-- Audited: 1/2025 -->
 
 您可以使用網頁瀏覽器中可用的列印選項，將儀表板匯出為.pdf檔案。
 
@@ -24,6 +26,8 @@ ht-degree: 5%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具備下列條件：
 
 <table style="table-layout:auto"> 
@@ -31,25 +35,36 @@ ht-degree: 5%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront計畫*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront計畫</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront授權*</strong></td> 
-   <td> <p>工作或更高</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront授權</strong></td> 
+    <td> 
+      <p>新增：</p>
+         <ul>
+         <li><p>標準</p></li>
+         </ul>
+      <p>目前：</p>
+         <ul>
+         <li><p>工作或更高</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>存取層級設定*</strong></td> 
-   <td> <p>檢視對報告、儀表板和行事曆的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何變更存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td role="rowheader"><strong>存取層級設定</strong></td> 
+   <td> <p>檢視對報告、儀表板和行事曆的存取權</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>檢視儀表板的許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>檢視儀表板的許可權</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先決條件
 
@@ -60,13 +75,13 @@ ht-degree: 5%
 ## 將儀表板匯出為.pdf檔案：
 
 1. 移至您要匯出的控制面板。
-1. 按一下&#x200B;**儀表板動作**，然後選取&#x200B;**列印**。
+1. 按一下&#x200B;**儀表板動作**，然後選取&#x200B;**列印預覽**。
 
    ![](assets/dashboard-actions-print-350x254.png)
 
-   「列印」對話方塊開啟。
+   「列印預覽」視窗會開啟。
 
-1. 根據您的網頁瀏覽器，選取適當的列印選項以完成.pdf。 檔案匯出：
+1. 按一下&#x200B;**「列印**」，然後根據您的網頁瀏覽器選取適當的列印選項，以完成.pdf。 檔案匯出：
 
    <table style="table-layout:auto"> 
     <col> 

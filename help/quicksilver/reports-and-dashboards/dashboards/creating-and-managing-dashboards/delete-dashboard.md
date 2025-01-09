@@ -6,18 +6,22 @@ description: 如果您不再使用儀表板，可以將其從Adobe Workfront中�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 706a3e16-34d7-49d8-9688-109ce4f95c2f
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
 
 # 刪除儀表板
 
+<!-- Audited: 1/2025 -->
+
 如果您不再使用儀表板，可以將其從Adobe Workfront中移除。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具備下列條件：
 
@@ -26,25 +30,36 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront計畫*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront計畫</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront授權*</strong></td> 
-   <td> <p>計劃 </p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront授權</strong></td> 
+   <td> 
+      <p>新增：</p>
+         <ul>
+         <li><p>標準</p></li>
+         </ul>
+      <p>目前：</p>
+         <ul>
+         <li><p>規劃</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>存取層級設定*</strong></td> 
-   <td> <p>編輯報告、儀表板和行事曆的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何變更存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td role="rowheader"><strong>存取層級設定</strong></td> 
+   <td> <p>編輯報告、儀表板和行事曆的存取權</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>管理儀表板的許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>管理儀表板的許可權</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 從動作功能表刪除儀表板
 
@@ -57,7 +72,7 @@ ht-degree: 0%
 1. 前往您要編輯的控制面板。
 1. 按一下&#x200B;**儀表板動作**，然後按一下&#x200B;**刪除**。
 
-   ![](assets/qs-dashboard-actions-menu-350x318.png)
+   ![](assets/unshimmed-delete-dashboard.png)
 
 1. 若要確認您要刪除儀表板，請按一下[是，刪除]。****
 儀表板會從Workfront中移除。
@@ -68,10 +83,10 @@ ht-degree: 0%
 
 若要刪除多個控制面板：
 
-1. 按一下Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**控制面板**。
+1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 儀表板]**。
 1. 選取清單中要刪除的每個儀表板，然後按一下&#x200B;**刪除** ![](assets/delete.png)。
 
-   ![](assets/nwe-deletedashboard2021-350x182.png)
+   ![](assets/unshimmed-delete-dashboard-list.png)
 
 1. 若要確認您要刪除儀表板，請按一下[是，刪除]。****
 儀表板會從Workfront中移除。
