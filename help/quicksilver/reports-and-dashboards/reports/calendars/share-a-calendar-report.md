@@ -6,9 +6,9 @@ description: 您可以與其他使用者共用行事曆，也可以公開行事�
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 77eed0fe-2d47-40c4-a03d-590f7fa17dbe
-source-git-commit: e5a3024b1657942cd7abdfff76a7a6795127a4f5
+source-git-commit: d90459cb4f6fb1960552f0ab174e963582312b5c
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '589'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
@@ -28,25 +30,29 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront plan]</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>[！UICONTROL Review]或更高版本</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
+   <td><p>新增：淺色</p>
+       <p>或</p>
+       <p>目前：檢閱</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>存取層級設定*</strong></td> 
-   <td> <p>[！UICONTROL檢視]或更高存取權[！UICONTROL至報告]、[！UICONTROL儀表板]和[！UICONTROL行事曆]</p> <p>注意：如果您還是沒有存取權，請詢問您的[!DNL Workfront]管理員是否對您的存取層級設定了其他限制。 如需[!DNL Workfront]管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>[！UICONTROL檢視]或更高許可權可存取[！UICONTROL報表]、[！UICONTROL儀表板]和[！UICONTROL行事曆]</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>[！UICONTROL檢視]或行事曆報告的更高許可權（可存取共用）</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td role="rowheader">物件許可權</td> 
+   <td>[！UICONTROL檢視]或行事曆報告的更高許可權（可存取共用）</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 與[!DNL Workfront]個使用者共用行事曆 {#share-a-calendar-with-workfront-users}
 
