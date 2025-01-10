@@ -7,10 +7,10 @@ description: 請務必在Adobe Workfront中指明核准的休假何時發生，�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: fa5a59c15395f825ad73d889d4d877224a676891
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 1%
+source-wordcount: '428'
+ht-degree: 0%
 
 ---
 
@@ -67,6 +67,13 @@ ht-degree: 1%
 ## 在[!DNL Workfront]中設定個人休假
 
 {{step1-click-profile-pic}}
+
+>[!NOTE]
+>
+>如果您在Adobe統一體驗，可以按一下頂端導覽區域中的Adobe帳戶選單（您的設定檔圖片），然後選擇Workfront設定檔來存取您的Workfront設定檔。
+>
+>![workfront設定檔](assets/aue-profile.png)
+
 
 1. 在左側面板中，按一下&#x200B;**[!UICONTROL 休假]**。
 1. 選取您個人休假的所需日期。
