@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: b333ea67bb909ca55306f6474832c275ebad590c
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 18%
+source-wordcount: '410'
+ht-degree: 23%
 
 ---
 
@@ -148,9 +148,11 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->擁有輕度授權或貢獻者授權的使用者共用功能有限。 如需詳細資訊，請參閱[授權總覽](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)。
+>* 擁有輕度授權或貢獻者授權的使用者共用功能有限。 如需詳細資訊，請參閱[授權總覽](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)。
 >
->外部使用者無法在Workfront中搜尋專案。 他們可以檢視特別與他們共用的檔案和行事曆。 他們也可以檢視與他們共用專案的使用者。
+>* 外部使用者無法在Workfront中搜尋專案。 他們可以檢視特別與他們共用的檔案和行事曆。 他們也可以檢視與他們共用專案的使用者。
+>
+>* 投稿人使用者和外部使用者看不到在整個系統內共用的內容。  必須明確和他們共用。
 
 您可以在下列文章中找到有關每個物件與區域的存取層級所允許的詳細資訊：
 
