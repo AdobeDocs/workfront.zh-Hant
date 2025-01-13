@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 90b863fe27b05524ff9d89f1bdeaa8d056dc1cec
+source-git-commit: 2e72dd6a4ef91a11627a48b52e96033410c4435c
 workflow-type: tm+mt
 source-wordcount: '2198'
 ht-degree: 3%
@@ -670,6 +670,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
             "comparison": "eq",
             "state": "newState"
         }
+    ]
 }
 ```
 
