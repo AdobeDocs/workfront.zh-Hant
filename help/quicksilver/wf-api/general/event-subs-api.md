@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: a1c94dd17f96fbd1fb397fd927403317335cefa0
+source-git-commit: 90b863fe27b05524ff9d89f1bdeaa8d056dc1cec
 workflow-type: tm+mt
-source-wordcount: '2181'
+source-wordcount: '2198'
 ht-degree: 3%
 
 ---
@@ -653,7 +653,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 ### 使用巢狀篩選器
 
-事件訂閱支援使用`fieldValue.fields`關鍵字篩選事件的巢狀欄位。
+事件訂閱支援使用巢狀欄位名稱來篩選事件的巢狀欄位。 例如，若要篩選`newState.data.customField1 = 'myCustomeFieldValue'`的訊息，可以建立下列具有篩選器的訂閱：
 
 ```
 {
@@ -665,25 +665,11 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
         {
             "fieldName": "data",
             "fieldValue": {
-                "fields": {
-                    "customerID": "customer1234"
-                }
+                    "customField1": "myCustomFieldValue"
             },
             "comparison": "eq",
             "state": "newState"
-        },
-        {
-            "fieldName": "options",
-            "fieldValue": {
-                "objects": {
-                    "projectID": "project1234"
-                }
-            },
-            "comparison": "contains",
-            "state": "newState"
-        },
-    ],
-    "filterConnector": 'AND'
+        }
 }
 ```
 
