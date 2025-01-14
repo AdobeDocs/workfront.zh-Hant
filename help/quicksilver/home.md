@@ -3,9 +3,9 @@ title: '[!DNL Adobe Workfront]檔案'
 description: ' [!DNL Adobe Workfront]的檔案。'
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: cafb8aa532647f878bc66d983023141e0c2faeba
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '373'
 ht-degree: 1%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 1%
  </td>
     <td>
         <ul>
-        <li><a href="/help/quicksilver/workfront-basics/workfront-basics.md">開始使用Workfront</a></li>
+        <li><a href="/help/quicksilver/workfront-basics/workfront-basics.md">Adobe Workfront基本介紹：文章索引</a></li>
         <li><a href="/help/quicksilver/manage-work/manage-work.md">開始管理工作</a></li>
         <li><a href="/help/quicksilver/reports-and-dashboards/reports-and-dashboards-overview.md">開始使用報告和儀表板</a></li>
         <li><a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/text-mode-resources.md">開始使用文字模式</a></li>

@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront物件（專案、任務或問題）上�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 1426f806b72d740712eba5e337c8424f8af6c9dc
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
-source-wordcount: '3065'
+source-wordcount: '3104'
 ht-degree: 0%
 
 ---
@@ -382,16 +382,26 @@ You can add updates to the following objects:
    1. 在&#x200B;**要顯示的文字**&#x200B;下，輸入或貼上連結文字。
    1. 按一下「**儲存**」。
 
-1. （可選）若要將影像附加到更新中，請執行下列任一項作業：
+1. （選用）將影像附加至更新。
+
+   >[!WARNING]
+   >
+   >您無法將影像附加到下列物件的更新區域：
+   >
+   >* 目標
+   >* 展示板上的臨時卡片
+   >* Workfront Planning中的記錄。 如需詳細資訊，請參閱[Adobe Workfront規劃總覽](/help/quicksilver/planning/general/planning-overview.md)
+   >
+
+   若要將影像附加到更新中，請執行下列任一項作業：
 
    * 將影像儲存在電腦上，然後將其拖放到「新增註解」區域。
    * 從電腦複製熒幕擷圖，然後貼到註解中。
    * 按一下&#x200B;**新增影像**&#x200B;圖示![](assets/add-image-mountain-with-plus-icon.png)並瀏覽至您電腦上的影像。
 
 
-   >[!NOTE]
+   >[!IMPORTANT]
    >
-   >**重要**
    >
    ><!--<span class="preview">You cannot add images to goals or ad-hoc cards on boards.</span> -->
    >
@@ -598,7 +608,7 @@ Workfront物件的更新區段會顯示兩種型別的資訊：
    * 團隊
    * 範本
    * 範本任務
-   * 臨機卡
+   * 展示板上的臨時卡片
 
 如需有關使用者和系統更新以及它們在Workfront物件更新區段中如何顯示的詳細資訊，請參閱[更新區段概觀](../updating-work-items-and-viewing-updates/updates-tab-overview.md)。
 

@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
 source-wordcount: '867'
 ht-degree: 6%
@@ -38,15 +38,13 @@ ht-degree: 6%
 
    * 您可以和組織內部人員共用工作區。
    * 當您共用工作區時，也會共用與工作區相關聯的所有記錄型別、記錄和欄位。
-
-     當您共用工作區時，檢視不會共用。 檢視會個別共用。
+   * 當您共用工作區時，檢視不會共用。 檢視會個別共用。
 
 * 檢視
 
    * 您必須授予使用者（包括系統管理員）存取檢視的許可權，而不授予其存取工作區的許可權。
    * 當您共用檢視時，會共用所有檢視元素，包括篩選、分組、排序或設定。
-
-     當您共用檢視時，檢視中顯示的記錄不會共用。 記錄必須透過共用工作區來共用。
+   * 當您共用檢視時，檢視中顯示的記錄不會共用。 記錄必須透過共用工作區來共用。
    * 當您產生檢視的公開連結時，您可以與組織外部的人員公開共用檢視。透過公開連結存取記錄頁面的人員可以檢視所有記錄及其欄位，包括連線的記錄和欄位。
 
   如需詳細資訊，請參閱[共用檢視](/help/quicksilver/planning/access/share-views.md)。

@@ -3,10 +3,10 @@ filename: wf-kb
 title: Workfront知識庫
 recommendations: noDisplay, noCatalog
 description: 。
-source-git-commit: b326ae3023b32ace7b1f5d4584de20cab89cdbe5
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
-source-wordcount: '37'
-ht-degree: 13%
+source-wordcount: '39'
+ht-degree: 12%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 13%
 # Workfront知識庫
 
 * [管理與設定](administration-and-setup/administration-and-setup.md)
-* [Adobe Workfront基本知識](workfront-basics/workfront-basics.md)
+* [Adobe Workfront基本知識：文章索引](workfront-basics/workfront-basics.md)
 * [人員、團隊和群組](people-teams-and-groups/people-teams-and-groups.md)
 * [管理資源](resource-mgmt/manage-resources.md)
 * [敏捷](agile/agile.md)

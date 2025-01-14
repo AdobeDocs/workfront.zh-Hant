@@ -4,16 +4,16 @@ description: 您可以在Workfront Planning中設定自動化，以便在啟動�
 hide: true
 hidefromtoc: true
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: 03eedb00ab45b95e87670872cf015c0f6840658e
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
-source-wordcount: '1071'
-ht-degree: 4%
+source-wordcount: '1252'
+ht-degree: 3%
 
 ---
 
 # 使用Adobe Workfront Planning記錄自動化建立物件
 
-<!--add screen shots when UI is finalized-->
+<!--add screen shots when UI is finalized AND redo all the steps - some things got changed and moved around-->
 <!--when you make this public, add this to the metadata above (and take the "hide" tags out):
 
 feature: Workfront Planning
@@ -23,9 +23,11 @@ recommendations: noDisplay, noCatalog
 
 -->
 
+<!-- if they give access to use the automation to people with LESS than Manage permissions to a workspace, split this article in two: the Configure section should be for admins and the "Use a Workfront Planning automation to create an object" should be for all other users-->
+
 您可以在Adobe Workfront Planning中設定自動化，以便在啟動時在Workfront或Workfront Planning中建立物件。
 
-您可以在記錄頁面中設定並啟動自動化。 建立的物件會連線至Planning記錄，並放置在自動化中指定的欄位中。
+您可以在記錄頁面中設定並啟動自動化。 建立的物件會連線至Planning記錄，並放置在自動化中所指定的欄位中。
 
 例如，您可以建立採用Workfront Planning行銷活動的自動化，並在Workfront中建立專案以追蹤該行銷活動的進度。 專案會連結至Workfront規劃行銷活動。
 
@@ -110,7 +112,6 @@ recommendations: noDisplay, noCatalog
 * 新物件或記錄名稱與您建立物件或記錄時的記錄名稱相同。
 * 如果您使用的自動化記錄已經連線了您選取用來加入新物件的欄位中的相同型別物件，則新物件會加入至連線欄位，而現有物件也會保持連線。
 
-
 ## 在Workfront Planning中設定自動化
 
 您必須先在Workfront Planning中設定自動化，才能使用它來建立物件。
@@ -124,11 +125,17 @@ recommendations: noDisplay, noCatalog
 
    可用自動化清單隨即開啟。
 
-1. 按一下熒幕右上角的&#x200B;**新自動化**。
+1. 按一下熒幕右上角的&#x200B;**新自動化**。 **新自動化**&#x200B;方塊開啟。
 1. 更新下列欄位：
 
-   * **按鈕文字**：輸入要顯示在自動化按鈕上的文字。 使用自動化建立Workfront物件時，使用者將按一下此按鈕。
-   * **按鈕圖示**：選取按鈕的圖示。 依預設，會選取圖示。
+   * 將&#x200B;**未命名的自動化**&#x200B;取代為您要顯示在自動化按鈕上的文字。 使用自動化建立Workfront物件時，使用者將按一下此按鈕。
+   * **描述**：新增描述以識別自動化的目的。
+
+1. 在自動化的詳細資訊頁面上，更新&#x200B;**觸發器**&#x200B;區段中的下列欄位：
+
+   * **觸發器**：選取將觸發自動化的動作。 例如，選取&#x200B;**按一下**。<!--update this step with a list of all possible triggers; right not only Button click is available-->
+
+1. 更新&#x200B;**動作**&#x200B;區段中的下列欄位：
    * **物件型別**：選取您要自動化建立的物件。 這是必填欄位。
 
      您可以從Workfront Planning記錄中建立下列物件：
@@ -160,10 +167,17 @@ recommendations: noDisplay, noCatalog
       * **對應欄位**：從建立自動化的記錄型別中選取欄位，以將它們對應到連線記錄型別的欄位。
       * **至已連線的記錄欄位**：從已連線的記錄中選取欄位，這些欄位將與您建立自動化之記錄型別中的欄位相對應。
 1. （選擇性和條件性）如果您沒有Workfront物件型別的連線欄位，請按一下&#x200B;**建立連線欄位**&#x200B;圖示![](assets/create-a-connection-field-icon.png)以新增欄位。
-1. （選擇性和條件性）如果您選取新增記錄，請在&#x200B;**對應連線的欄位**&#x200B;區域中按一下&#x200B;**新增**，以新增和對應其他欄位。
-1. 按一下&#x200B;**建立**
+1. （選擇性和條件性）如果您選取新增記錄，請按一下&#x200B;**對應欄位**&#x200B;區域中的&#x200B;**新增**&#x200B;以新增並對應其他欄位，然後選取要&#x200B;**從**&#x200B;傳輸檔案的欄位和要&#x200B;**傳輸檔案到**&#x200B;檔案的欄位，以指出在連線記錄的欄位中應顯示原始選取記錄的欄位。
+1. 按一下「**儲存**」。
 
-自動化會出現在自動化清單中，並可用於記錄。
+   自動化會出現在自動化清單中，並可用於記錄。
+1. （可選）若要編輯、停用或刪除自動化，請執行下列動作：
+
+   從自動化清單中，暫留在已儲存的自動化名稱上，然後按一下&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，然後選擇下列其中一個選項：
+
+   * **編輯**：更新自動化欄位的相關資訊並設定欄位。
+   * **停用**：自動化將不會在記錄表格檢視的工具列中顯示為選項，使用者無法再用它來建立記錄或物件。 若要再次使用，請再按一下&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，然後按一下&#x200B;**啟動**。
+   * **刪除**：自動化已刪除，無法復原。 已使用自動化建立的記錄會保持與原始選取的記錄連線。
 
 ## 使用Workfront Planning自動化來建立物件
 

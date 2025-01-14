@@ -7,9 +7,9 @@ description: 可解析物件是其解析繫結至解析物件的問題。 解決
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
-source-wordcount: '1743'
+source-wordcount: '1771'
 ht-degree: 1%
 
 ---
@@ -120,11 +120,13 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 
 ### 當解析物件為問題時同步狀態 {#synchronize-statuses-when-the-resolving-object-is-an-issue}
 
-如果問題手動繫結到另一個問題，則第二個問題的狀態（解決物件）會觸發第一個問題的狀態（可解決物件）變更。 第一個問題的狀態與第二個問題的變更目標狀態相符。 這適用於預設和自訂問題狀態。
+當問題手動繫結到另一個問題時，第二個問題（解決物件）的狀態會觸發第一個問題（可解決物件）的狀態變更。 第一個問題的狀態與第二個問題的變更目標狀態相符。 這適用於預設和自訂問題狀態。
 
 ### 當解析物件是任務或專案時同步狀態 {#synchronize-statuses-when-the-resolving-object-is-a-task-or-a-project}
 
 當問題為任務或專案的可解析物件時，任務狀態的變更和專案會觸發問題狀態的變更。 在此案例中，預設狀態的觸發方式與自訂狀態不同。
+
+當專案自訂狀態等於未觸發問題狀態變更的預設狀態時，它不會觸發問題的狀態變更。
 
 * [將解析物件的預設狀態與可解析物件的預設狀態同步](#synchronize-the-default-status-of-the-resolving-object-with-the-default-status-of-the-resolvable-object)
 * [將解析物件的自訂狀態與可解析物件的自訂狀態同步](#synchronize-the-custom-status-of-the-resolving-object-with-the-custom-status-of-the-resolvable-object)
