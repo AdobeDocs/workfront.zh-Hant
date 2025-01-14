@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 41eff095-ff9b-4791-81c3-758e101b3e88
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: f5eb5165183986f55919bdf2c59a31c12a1c64fe
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,15 @@ ht-degree: 0%
 本頁面說明2025年第一季度版本對「預覽」環境所做的所有校訂增強功能。 這些增強功能將在2025年第一季度版本的生產環境中提供。
 
 如需2025年第一季發行週期目前可用的所有變更清單，請參閱[2025年第一季發行概觀](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)。
+
+## 案頭校訂檢視器升級
+
+我們已更新Desktop Viewer，其中包含使用Chromium 130.0.6723.152的最新Electron 33.3.0版本。
+
+如需有關安裝案頭校訂檢視器的資訊，請參閱[安裝案頭校訂檢視器](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)。
+
+
+最新版本： 2.1.44
 
 ## 適用於互動式檢閱的新瀏覽器擴充功能提供測試版
 
