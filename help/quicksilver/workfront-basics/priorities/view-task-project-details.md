@@ -6,16 +6,14 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
-source-git-commit: 2d75f74c7281a3ea288c892db6895754a697e198
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '406'
 ht-degree: 1%
 
 ---
 
 # 在優先順序中檢視專案和工作專案詳細資訊
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽Sandbox」環境中使用。</span>
 
 您可以在優先順序工作清單中檢視專案、任務和問題的詳細資訊。
 
@@ -76,8 +74,7 @@ ht-degree: 1%
    * 新增檔案
    * <span class="preview">直接前往專案</span>
 
-   ![專案詳細資料](assets/project-details.png)
-   <!--new screen for prod ![](assets/project-details-new.png)-->
+   ![專案詳細資料](assets/project-details-new.png)
 
 ### 檢視任務詳細資訊
 
@@ -87,35 +84,35 @@ ht-degree: 1%
 1. 預設會選取工作。 您可以
    * 檢視和編輯專案和任務的詳細資訊和說明
    * 檢視專案並新增註解
-   * <span class="preview">檢視和新增檔案</span>
-   * <span class="preview">建立校訂</span>
+   * 檢視和新增檔案
+   * 建立校訂
    * 記錄時間
    * 新增檔案
    * 新增快速連結
 
 
-   ![任務詳細資料](assets/task-details.png)
-   <!--new screen for prod ![](assets/task-details-new.png)-->
+   ![任務詳細資料](assets/task-details-new.png)
 
 ### 檢視問題詳細資訊
 
 {{step1-to-priorities}}
 
 1. 在工作清單中，暫留在工作名稱上，然後按一下&#x200B;**摘要**&#x200B;圖示![開啟摘要圖示](assets/summary-icon.png)。
+
 1. 依預設會選取問題。 您可以
    * 檢視和編輯專案和問題的詳細資訊和說明
    * 檢視專案並新增註解
-* <span class="preview">檢視和新增檔案</span>
-* <span class="preview">建立校訂</span>
-   * 記錄時間
-   * 新增檔案
-   * 新增快速連結
+   * 檢視和新增檔案
+   * 建立校訂
+      * 記錄時間
+      * 新增檔案
+      * 新增快速連結
 
-  <!--new screen for prod ![issue details](assets/issue-details.png)-->
+   ![問題詳細資料](assets/issue-details.png)
 
 ## 在「詳細資訊」頁面上檢視詳細資訊
 
-<span class="preview">您可以在任務或問題的詳細資訊頁面上檢視即時更新。 您也可以檢視其他人是否與您同時檢視頁面，以及即時顯示狀態指示器。</span>
+您可以在任務或問題的詳細資訊頁面上檢視即時更新。 您也可以檢視其他人是否與您同時檢視頁面，並透過即時狀態指標。
 
 ## 檢視工作專案詳細資料
 
@@ -125,8 +122,8 @@ ht-degree: 1%
 
 * 檢視和編輯專案詳細資料和說明
 * 檢視專案並新增註解
-* <span class="preview">檢視和新增檔案</span>
-* <span class="preview">建立校訂</span>
+* 檢視和新增檔案
+* 建立校訂
 * 記錄時間
 * 新增檔案
 * 新增快速連結

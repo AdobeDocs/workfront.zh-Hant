@@ -6,7 +6,7 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 5457f516-c213-4b82-b033-bc8db943a217
-source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 0%
@@ -60,8 +60,7 @@ ht-degree: 0%
 {{step1-to-priorities}}
 
 1. 將游標暫留在名稱上，然後按一下&#x200B;**記錄時間**。
-   ![](assets/log-time.png)
-   <!--new screen for prod ![](assets/update-log-upload.png)-->
+   ![](assets/update-log-upload.png)
 1. 在&#x200B;**小時型別**&#x200B;下拉式功能表中，選取適當的小時型別。 如定義時數型別和可用性所述，可用時數型別取決於系統、專案和使用者層級中已定義的內容。
 
 1. （視條件而定）如果您的Workfront或群組管理員已啟用手動將工作角色指派至時數專案設定，請從下拉式選單中選取工作角色。 依預設，系統會顯示指派給工作專案時所指定的角色。 如果您在物件上未被指派角色，您的「主要角色」會顯示為預設值。 如果您沒有指派主要角色，則不會顯示任何工作角色。

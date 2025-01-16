@@ -5,17 +5,15 @@ description: 文件
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: a59d092e700f1f661ad8e3cb74b7d96ee2418f41
+exl-id: 63aa5e45-e51d-4049-a5d9-18dfaaa79647
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '498'
 ht-degree: 2%
 
 ---
 
-
 # 上傳檔案並在優先順序中建立校訂
-
-<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它只能在「預覽Sandbox」環境中使用。</span>
 
 您可以上傳檔案，並在「優先順序」中建立校樣。
 
@@ -182,6 +180,3 @@ Add new version, open proof, edit, download, move, share, remove
 
 * 新增日期
 * 檔案類型
-
-
-

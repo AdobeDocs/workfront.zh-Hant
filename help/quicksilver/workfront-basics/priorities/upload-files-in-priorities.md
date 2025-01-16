@@ -6,7 +6,7 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
-source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 0%
@@ -53,8 +53,7 @@ ht-degree: 0%
 {{step1-to-priorities}}
 
 1. 將游標暫留在名稱上，然後按一下&#x200B;**上傳**。
-   ![](assets/upload-file.png)
-   <!--new screen for prod ![](assets/update-log-upload.png)-->
+   ![](assets/update-log-upload.png)
 1. （選擇性）選取資料夾。
 1. 拖放檔案，或按Cmd/Ctrl + V從剪貼簿貼上
 或

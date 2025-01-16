@@ -6,16 +6,14 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: d24ad7d1-3a88-479e-beaf-69f8264c9a6b
-source-git-commit: f20f1c5d10869901ba5284a4425e38d279265a06
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '517'
 ht-degree: 4%
 
 ---
 
 # 在優先順序行事曆中管理您的工作
-
-<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它只能在「預覽Sandbox」環境中使用。</span>
 
 透過清晰的視覺行事曆，輕鬆追蹤您的工作。 使用「優先順序」行事曆，您可以
 

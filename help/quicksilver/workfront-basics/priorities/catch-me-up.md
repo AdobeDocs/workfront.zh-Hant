@@ -1,21 +1,19 @@
 ---
 navigation-topic: get-started-with-workfront
-title: 趕上我
-description: 趕上我
+title: 給我最新消息
+description: 給我最新消息
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: ccdbc3402164bba66c08b8b97fdfdd2013ad884e
+exl-id: c3ff90cc-2a9b-472e-ac6c-88b8ec93c8fb
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 5%
+source-wordcount: '180'
+ht-degree: 6%
 
 ---
 
-
 # 在優先順序中趕上工作
-
-<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它只能在「預覽Sandbox」環境中使用。</span>
 
 即時掌握 — 由Workfront的AI Assistant提供技術支援 — 在以下時間範圍內總結有關您專案的更新、上傳檔案和其他重大變更：24小時、3天、7天，這有助於減少尋找作用中專案資訊的時間。
 

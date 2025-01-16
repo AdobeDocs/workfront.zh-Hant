@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: da688217a1240b74667f31d20e086164e1536576
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 2%
+source-wordcount: '999'
+ht-degree: 3%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 2%
 
 ### 使用篩選器尋找您的工作
 
-使用篩選器尋找您最重要的工作。 <span class="preview">您可以使用自然語言來尋找智慧型濾鏡</span>的工作，或者
+使用篩選器尋找您最重要的工作。 您可以使用自然語言來尋找使用智慧型濾鏡的作品，或者
 您可以使用標準篩選器來尋找指派給您的任務和問題：
 
 <table>
@@ -112,10 +112,9 @@ ht-degree: 2%
 
 如需詳細資訊，請參閱[優先處理重要工作專案](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md)。
 
-![](assets/my-focus-column.png)
-<!-- new screen for prod ![](assets/worklist.png) -->
+![](assets/worklist.png)
 
-### 使用預覽中可用的行事曆檢視[!BADGE ]{type=Informative}
+### 使用行事曆檢視
 
 行事曆檢視將提供任務和問題的視覺化表示。 您將能夠選擇日、周或月檢視。 您也可以使用與工作清單類似的方式篩選專案。
 
@@ -141,8 +140,7 @@ ht-degree: 2%
 
 如需詳細資訊，請參閱[在優先順序](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md)中新增並檢視註解。
 
-![](assets/new-update.png)
-<!--new screen for prod ![](assets/update-log-upload.png)-->
+![](assets/update-log-upload.png)
 
 ### 記錄時間
 
@@ -150,8 +148,7 @@ ht-degree: 2%
 
 如需詳細資訊，請參閱[在優先順序中記錄時間](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md)。
 
-![](assets/log-time.png)
-<!--new screen for prod ![](assets/update-log-upload.png)-->
+![](assets/update-log-upload.png)
 
 ### 上傳檔案
 
@@ -164,8 +161,7 @@ ht-degree: 2%
 
 如需詳細資訊，請參閱[上傳優先順序中的檔案](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md)。
 
-![](assets/upload-file.png)
-<!--new screen for prod ![](assets/update-log-upload.png)-->
+![](assets/update-log-upload.png)
 
 
 ### 新增快速連結
@@ -176,13 +172,13 @@ ht-degree: 2%
 
 如需詳細資訊，請參閱[在優先順序](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md)中新增及管理快速連結。
 
-### 檢視檔案[!BADGE 可在預覽]中使用{type=Informative}
+### 檢視檔案
 
 「檔案」標籤可讓您檢視與工作專案相關的所有檔案。 您可以依名稱、檔案型別或人員篩選檔案，以及依名稱和上傳日期排序。
 
 您也可以開啟檔案或校訂。
 
-### 檢閱並核准資產[!BADGE 可在預覽]中使用{type=Informative}
+### 檢閱及核准資產
 
 從任務或問題的檔案索引標籤，您可以
 
@@ -190,7 +186,7 @@ ht-degree: 2%
 * 啟動校訂檢視器，留下評論並作出決定
 
 
-## 使用[!DNL Catch me up]檢視您錯過的專案[!BADGE 可在預覽中使用]{type=Informative}
+## 使用[!DNL Catch me up]檢視您錯過的專案
 
 使用[!DNL Catch me up]功能檢視您錯過了哪些專案。 即時瞭解將在以下時間範圍內概述有關您專案的更新、上傳的檔案、核准和其他重大變更：24小時、3天、7天。
 
@@ -200,7 +196,7 @@ ht-degree: 2%
 
 <!--need new screen for prod-->
 
-## 檢視詳細資訊頁面[!BADGE 的即時更新（可在預覽中使用）]{type=Informative}
+## 在「詳細資訊」頁面上檢視即時更新
 
 您可以在任務或問題的詳細資訊頁面上檢視即時更新。 您也可以檢視其他人是否與您同時檢視頁面，並透過即時狀態指標。
 

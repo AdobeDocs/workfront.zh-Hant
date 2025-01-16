@@ -6,16 +6,14 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
-source-git-commit: abf502f2bbf48c0bd1cc5705d93d928342cd8a3b
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
 
 # 自訂「優先順序」工作清單欄
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽Sandbox」環境中使用。</span>
 
 您可以在「優先順序」中自訂工作清單上的欄，以支援您的工作方式。
 
@@ -87,9 +85,7 @@ ht-degree: 0%
 1. 按一下&#x200B;**更多**&#x200B;圖示![](assets/more-icon.png)，然後選擇&#x200B;**重設資料行寬度**。
    ![](assets/columns.png)
 
-<div class="preview">
-
-## 自訂預覽中的優先順序工作清單欄
+## 自訂「優先順序」工作清單欄
 
 ### 啟用或停用欄
 
@@ -110,6 +106,3 @@ ht-degree: 0%
 >[!NOTE]
 >
 >「名稱」欄是固定的，無法移動。
-
-
-</div>
