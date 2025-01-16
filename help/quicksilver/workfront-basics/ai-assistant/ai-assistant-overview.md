@@ -5,18 +5,14 @@ description: AI助理總覽
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 47469f684bf3be6c6a9d3c39ba3960ca13e43578
+source-git-commit: 9a588df1ef48b40056c5228c8ff03b5819eb4410
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '693'
 ht-degree: 1%
 
 ---
 
 # AI助理總覽
-
-<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 預覽環境中可供所有客戶使用，生產環境中可供已啟用每月發行的客戶使用。</span>
-
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 Workfront的AI助理可在自然語言對話中提供應用程式內資訊和建議，協助您完成工作。 AI助理可以透過以下方式為您提供更流暢的工作體驗
 
@@ -84,13 +80,9 @@ AI助理目前提供下列功能：
 
   如需詳細資訊，請參閱[從AI助理取得說明](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md)。
 
-<div class="preview">
-
 * 在Workfront中尋找特定專案。
 
   如需詳細資訊，請參閱[使用AI助理來處理專案、任務和問題](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md)。
-
-</div>
 
 * 產生或修訂已計算自訂欄位的公式。
 
@@ -100,12 +92,10 @@ AI助理目前提供下列功能：
 
   如需詳細資訊，請參閱[使用AI助理產生或修訂計算欄位公式](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md)。
 
-<div class="preview">
-*在以下時間範圍內概述專案的更新、上傳的檔案和其他顯著變更：優先順序中的24小時、3天、7天。
+* 在以下時間範圍內概述專案的更新、上傳的檔案和其他顯著變更：優先順序中的24小時、3天、7天。
 
 如需詳細資訊，請參閱[在優先順序](/help/quicksilver/workfront-basics/priorities/catch-me-up.md)中趕上工作。
 
-</div>
 
 ## AI助理可用的物件型別
 

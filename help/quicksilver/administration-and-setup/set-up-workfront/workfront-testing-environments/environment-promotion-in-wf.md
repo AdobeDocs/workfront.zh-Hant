@@ -9,16 +9,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: fa70a7ae5d8edce9dab4ca2ac4c2266b2c463734
+source-git-commit: 9a588df1ef48b40056c5228c8ff03b5819eb4410
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 1%
+source-wordcount: '1041'
+ht-degree: 2%
 
 ---
 
 # 在Workfront環境之間移動物件的概觀（環境升級）
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽Sandbox」環境中使用。</span>
 
 環境推進功能可讓您將物件從一個Workfront環境移動到另一個環境。 例如，您可以建立範本並在沙箱環境中進行設定，因為您知道進行的任何測試都不會影響組織的實際資料。 設定並測試範本後，您可以將其移至生產環境以準備使用。
 
@@ -100,8 +98,8 @@ ht-degree: 1%
 | 風險型別(RSKTYP) | 風險類型 |
 | 資源集區(RSPL) | 資源集區 |
 | 存取層級(ACSLVL) | 存取層級 |
-| <span class="preview">費率卡(RTCRD)</span> | <span class="preview">評等卡</span> |
-| <span class="preview">位置/分類器(CLSF)</span> | <span class="preview">位置/分類器</span> |
+| 費率卡(RTCRD) | 費率卡 |
+| 位置/分類器(CLSF) | 位置/分類器 |
 
 \*目前無法使用
 
