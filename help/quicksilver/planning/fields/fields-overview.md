@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '441'
 ht-degree: 2%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 2%
 
 # 欄位概述
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->
 
 
 {{planning-important-intro}}
@@ -45,39 +45,43 @@ ht-degree: 2%
 
    * 手動：
 
-      * 在記錄型別頁面的表格檢視中新增欄。 表格的欄是與記錄型別相關聯的欄位。 它們是顯示在記錄頁面上的相同欄位。
+      * 當您在記錄型別頁面的表格檢視中新增欄時。 表格的欄是與記錄型別相關聯的欄位。 它們是顯示在記錄頁面上的相同欄位。
 
         您無法從記錄的頁面建立欄位。
 
-      * 藉由連線記錄型別。 當您在兩個記錄型別之間新增連線，或記錄型別和其他應用程式的物件型別之間新增連線時，可以建立連結的記錄欄位。
+      * 當您連線記錄型別時。 當您在兩個記錄型別之間新增連線，或記錄型別和其他應用程式的物件型別之間新增連線時，可以建立連結的記錄欄位。
 
         如需有關連線記錄型別的詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
 
-      * <span class="preview">從Workfront匯入現有欄位。</span>
-        <span class="preview">如需詳細資訊，請參閱[從Adobe Workfront匯入欄位](/help/quicksilver/planning/fields/import-fields-from-workfront.md)。</span>
+      * 當您從Workfront匯入現有欄位時。
 
-      * <span class="preview">使用Excel或CSV檔案匯入記錄型別。</span>
+        如需詳細資訊，請參閱[從Adobe Workfront匯入欄位](/help/quicksilver/planning/fields/import-fields-from-workfront.md)。
 
-        <span class="preview">如需詳細資訊，請參閱[建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md)。</span>
 
    * 自動：
 
-     以下是預設為每種新記錄型別建立的標準欄位：
+      * 建立記錄型別時：
 
-      * 姓名
-      * 說明
-      * 開始日期
-      * 結束日期
-      * 狀態。 記錄狀態的預設值為：
-         * 開發
-         * 計畫
-         * 使用中
-         * 已完成
-         * 保留
+         * 姓名
+         * 說明
+         * 開始日期
+         * 結束日期
+         * 狀態。 記錄狀態的預設值為：
+            * 開發
+            * 計畫
+            * 作用中
+            * 已完成
+            * 保留
 
         您可以新增更多值或重新命名現有值。
 
-     當您從範本建立工作區時，Workfront Planning會為記錄型別建立欄位。 如需詳細資訊，請參閱[建立工作區](/help/quicksilver/planning/architecture/create-workspaces.md)。
+      * 從範本建立工作區時。
+
+        如需詳細資訊，請參閱[建立工作區](/help/quicksilver/planning/architecture/create-workspaces.md)。
+
+      * 當您使用Excel或CSV檔案匯入記錄型別時。
+
+        如需詳細資訊，請參閱[建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md)。
 
 * 無法從Workfront存取Workfront規劃欄位。
 

@@ -6,9 +6,9 @@ description: 您可以使用智慧指派來識別最佳使用者是何人來完�
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---
@@ -19,17 +19,17 @@ ht-degree: 0%
 
 <!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
-<span class="preview">本頁醒目提示的資訊指的是「生產」環境中僅供啟用快速發行之客戶使用的功能。</span>
+<span class="preview">此頁面中醒目提示的資訊是指預覽環境中才能使用的功能。</span>
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<!--<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">此功能將從「生產」環境中移除，適用於在2025年1月透過25.1版本啟用快速發行的客戶。 如需25.1版的詳細資訊，請參閱[2025年第一季度發行概述](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)。
+<span class="preview"> This functionality will be removed from the Production environment for customers who enabled fast release with the 25.1 release in January 2025. For information about the 25.1 release, see [First Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md). -->
 
 您可以使用智慧指派來識別最佳使用者是何人來完成工作。
 
 智慧型指派是Adobe Workfront將工作專案指派給資源時，為您呈現的使用者、角色或團隊建議。 Workfront的建議以演演算法為基礎，而演演算法會決定最適合這項工作的資源。
 
-<span class="preview">在Workfront中有兩種不同的演演算法，可計算在工作和問題中運作方式不同的智慧指派。</span>
+<!--<span class="preview">There are two separate algorithms in Workfront that calculate smart assignments that work differently for tasks and for issues.</span> -->
 
 如需有關決定智慧指派所使用的條件的詳細資訊，請參閱[智慧指派總覽](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md)。
 
@@ -75,24 +75,22 @@ ht-degree: 0%
    * 任務、問題清單或報告
    * 任務或問題標題
    * 任務或問題摘要面板
-   * <span class="preview">新任務</span>或新問題方塊，當您新增<span class="preview">新任務</span>或問題至專案時
    * 工作負載平衡器中的任務或問題
+     <!--* <span class="preview">A New Task</span> or New Issue box, as you add <span class="preview">a new task</span> or issue to a project-->
 
 1. 將游標置於「工作總攬」欄位中，並等候兩秒。
 
-   對於問題，智慧指派會顯示在下列區段中：
+   <!--For issues, the smart assignments display in the following sections: 
+      * **Users and teams**
+      * **Job roles**
+        ![](assets/smart-assignments-issue-header.png)-->
 
-   * **使用者和團隊**
-   * **職位角色**
+   智慧指派會顯示在下列區段<!--, depending on which phase of the algorithm's calculation identified the assignments-->：
 
-   ![](assets/smart-assignments-issue-header.png)
+   <!--* <span class="preview">**Suggested assignments**: Displays assignments identified in the first phase of the task smart assignment algorithm.</span> -->
+   * **使用者和團隊**、**工作角色**，或&#x200B;<span class="preview">**評等卡片工作角色**</span>： <!--Assignments identified in the second phase of the task smart assignment's algorithm calculation.-->
 
-   對於任務，智慧型指派會根據演演算法計算識別指派的階段，顯示在下列區段中：
-
-   * <span class="preview">**建議的指派**：顯示任務智慧指派演演算法第一個階段中識別的指派。</span>
-   * **使用者和團隊**、**工作角色**，或&#x200B;<span class="preview">**評等卡片工作角色**</span>：在任務智慧指派演演算法計算的第二階段中識別的指派。
-
-   <span class="preview">![](assets/smart-assignments-task-list.png)</span>
+   ![](assets/smart-assignments-task-list.png)
 
    如需詳細資訊，請參閱[智慧指派總覽](../../../manage-work/tasks/assign-tasks/smart-assignments.md)。
 

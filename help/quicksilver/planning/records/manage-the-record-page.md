@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 5db940b197364e30ef6e1ea3e3c94ae3bda5b20c
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '1683'
+source-wordcount: '1624'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # 管理記錄頁面配置
 
-<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -254,8 +254,6 @@ ht-degree: 0%
 
    對記錄預覽或頁面儲存的版面配置所做的所有變更都會自動完成。
 
-<span class="preview">
-
 ## 新增連線檢視頁面到記錄的頁面
 
 將「連線」檢視新增至記錄頁面時，請考量下列事項：
@@ -292,7 +290,7 @@ ht-degree: 0%
 1. （選擇性）使用工具列中的任何檢視元素來管理表格檢視。 如需詳細資訊，請參閱[管理資料表檢視](/help/quicksilver/planning/views/manage-the-table-view.md)。
 1. （選擇性）將游標暫留在索引標簽名稱上，然後按一下&#x200B;**更多** ![](assets/more-menu.png)，然後按一下&#x200B;**刪除**&#x200B;以移除至新的「連線檢視」索引標籤。
 
-</span>
+
 
 <!--
 ## Add a Brief page to a record's page

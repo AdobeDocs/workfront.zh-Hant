@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '872'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # 新增縮圖至記錄
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -184,11 +184,7 @@ ht-degree: 0%
 
    記錄的詳細資訊頁面隨即開啟。
 
-1. （視條件而定）在記錄預覽或頁面中，暫留在縮圖影像或圖示![](assets/record-thumbnail-icon-on-details-page.png)上，然後在生產環境中按一下&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png) > **編輯縮圖**
-
-   或
-
-   <span class="preview">將滑鼠暫留在記錄名稱上方的空格上，然後按一下[預覽]環境中的[新增縮圖] **或[編輯縮圖]**。</span>****
+1. （視條件而定）在記錄預覽或詳細資訊頁面中，將滑鼠指標暫留在縮圖影像或圖示![](assets/record-thumbnail-icon-on-details-page.png)上，接著將滑鼠指標暫留在記錄名稱上方的空白處，然後按一下[新增縮圖] **或[編輯縮圖]**。****
 
    **上傳**&#x200B;索引標籤預設會在&#x200B;**錄製縮圖**&#x200B;方塊中開啟。
 

@@ -7,9 +7,9 @@ description: 在管理任務和問題指派時，您可以使用智慧指派來�
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '1255'
+source-wordcount: '556'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,15 @@ ht-degree: 0%
 
 <!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
-<span class="preview">本頁醒目提示的資訊指的是「生產」環境中僅供啟用快速發行之客戶使用的功能。</span>
+<span class="preview">此頁面中醒目提示的資訊是指預覽環境中才能使用的功能。</span>
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<!--<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">此功能將從「生產」環境中移除，適用於在2025年1月透過25.1版本啟用快速發行的客戶。 如需25.1版的詳細資訊，請參閱[2025年第一季度發行概述](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)。
+<span class="preview"> This functionality will be removed from the Production environment for customers who enabled fast release with the 25.1 release in January 2025. For information about the 25.1 release, see [First Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md). -->
 
-在管理任務和問題指派時，您可以使用智慧指派來識別誰是完成工作的最佳資源。 智慧型指派是Adobe Workfront在您根據演演算法將工作專案指派給資源時所顯示的建議，該演演算法會決定最適合工作的資源。 智慧指派可以是使用者、工作角色或團隊。
+在管理任務和問題指派時，您可以使用智慧指派來識別誰是完成工作的最佳資源。
+
+智慧型指派是Adobe Workfront在您根據演演算法將工作專案指派給資源時所顯示的建議，該演演算法會決定最適合工作的資源。 智慧指派可以是使用者、工作角色或團隊。
 
 >[!NOTE]
 >
@@ -38,7 +40,7 @@ ht-degree: 0%
 
 使用智慧型指派時，請考量下列事項：
 
-* <span class="preview">演演算法會針對任務和問題獨立運作。 這表示問題的建議使用者清單可能與任務的建議使用者清單不同，因為Workfront會根據與問題和任務分別相關的准則來建立清單。</span>
+<!--* <span class="preview">The algorithm works independently for tasks and issues. This means that the list of suggested users for issues might differ from the list of suggested users for a task because Workfront builds the lists according to criteria pertaining to issues and tasks separately. </span>-->
 <!--not sure this is accurate: * Smart assignments do not recommend job roles or teams. Instead, they are suggestions of users who are best fit to complete a task or an issue. -->
 * 建議的指派一律為作用中的使用者、工作角色或團隊。
 * 首先列出的資源應該是任務的最佳相符專案。
@@ -51,11 +53,11 @@ ht-degree: 0%
 
   ![](assets/smart-assignments-issue-list.png)
 
-* <span class="preview">工作分派資料行中的工作清單或報告</span>
+* 「工作總攬」欄中的任務清單或報告
 
   ![](assets/smart-assignments-task-list.png)
 
-* <span class="preview">工作分派欄位中的任務標題</span>
+* 工作列位中的任務標題
 
   ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
@@ -67,9 +69,9 @@ ht-degree: 0%
 
   ![](assets/issue-assignments-summary-panel.png)
 
-* <span class="preview">將任務新增至專案時，[新增任務]方塊中的[工作總攬]欄位</span>
+<!--* The Assignments field in the New Task box, when adding a task to a project
 
-  ![](assets/smart-assignments-new-task-modal.png)
+  ![](assets/smart-assignments-new-task-modal.png)-->
 
 <!--this is not possible in the new home  - we have Summary there: 
 * The Assignments field for an item listed in the Home area, when you open a task or issue
@@ -77,77 +79,79 @@ ht-degree: 0%
   ![](assets/smart-assignments-in-home-nwe-350x216.png)
 -->
 
-* 當您指派任務或問題時<span class="preview">在指派此給區域的工作負載平衡器</span>
+* 當您指派任務或問題時，在「指派此給」區域的工作負載平衡器
 
   ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
 
 
 ## 智慧指派條件
 
-智慧型指派對任務的運作方式與對問題的運作方式不同。
+<!--Smart assignments work differently for tasks than for issues.  -->
 
-### 任務的智慧指派條件
+<!--### Smart assignments criteria for tasks
 
-工作智慧型指派計算在<span class="preview">兩個使用兩個不同演演算法的階段中運作。</span>
+The task smart assignments calculation works in <span class="preview">two phases which use two different algorithms.</span>
 
-<span class="preview">根據哪一個演演算法找到智慧指派，指派會列在[指派]欄位的兩個不同區段下。</span>如需詳細資訊，請參閱[進行智慧指派](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md)。
+<span class="preview">Depending on which algorithm finds the smart assignment, the assignments are listed under two separate sections in the Assignments field.</span> For information, see [Make smart assignments](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md). 
 
 ![](assets/smart-assignments-task-list.png)
 
 <div class="preview">
 
-#### 工作的智慧型指派計算的第一階段
+#### First phase of smart assignment calculation for tasks 
 
-在計算智慧指派的第一個階段中，Workfront會計算每個指派的相似度分數。
+In the first phase of calculating smart assignments, Workfront calculates a similarity score for every assignment. 
 
 >[!NOTE]
 >
->智慧型指派計算的第一個階段不適用於下列任務區域：
+>The first phase of the smart assignments calculation does not apply to the following task areas:
 >
->* 工作負載平衡器中的大量指派。
->* 已連線主機板上的卡片。
+>* Bulk Assignments in the Workload Balancer.
+>* Connected cards on boards.
 
 
-相似度評分的計算以及指派的列出順序會考慮下列因素：
+The calculation for the similarity score and the order in which the assignments are listed take into account the following:  
 
-* 如果現有指派中的任務、專案及投資組合名稱與您嘗試指派的任務相同，則會給予100%的分數。 現有指派的任務的專案與投資組合名稱也必須符合您嘗試指派的任務的專案與投資組合。
+* A score of 100% is given to an existing assignment where the task, project, and portfolio names are identical to the task you're trying to assign. The project and portfolio names of the task of an existing assignment must also match the project and portfolio of the task you are trying to assign.   
 
-* 如果只有來自其他指派的部分資訊符合現有任務，則分數可能會低於100%。
+* If only some of this information from other assignments matches on the existing tasks, the score might be lower than 100%.  
 
-  例如，如果您在名為「我的投資組合」的投資組合中指派名為「我的專案」的專案上名為「我的第二個任務」，而在名為「我的投資組合」的投資組合中另一個名為「我的專案」的專案上有一個名為「我的任務」的現有任務，則指派給「我的任務」的使用者可能會獲得95%的分數，因為現有任務的名稱與您目前嘗試指派的任務類似，但並不相同。
+  For example, if you are assigning a task called "My second task" on a project called "My project" in a portfolio called "My portfolio" and you have an existing task called "My task" in another project called "My project" in a portfolio called "My portfolio", the user assigned to "My task" might get a score of 95% because the name of the existing task and the task you're trying to assign now are similar, but not identical.  
+ 
+    >[!TIP]
+    >
+    >  Workfront looks for matches only in the Name fields of tasks, projects, and portfolios and not in any other fields. 
 
-  >[!TIP]
-  >
-  >  Workfront只會在任務、專案和產品組合的「名稱」欄位中尋找相符專案，不會在其他任何欄位中尋找。
+* An assignment could get a higher score when they are assigned to a lot of tasks in the system that have similar names. For example, if a team called "Development" is assigned to 50% of the tasks in the system containing "AI" in the name and you are now assigning another task with "AI" in the name, the score of the "Development" team is higher. In this case, the names of  projects and portfolios are not as important.  
 
-* 當指派給系統中許多名稱相似的任務時，指派可能會獲得較高的分數。 例如，如果名為「開發」的團隊指派給名稱中包含「AI」之系統的50%任務，而您現在指派名稱中包含「AI」的另一個任務，則「開發」團隊的分數會較高。 在這種情況下，專案和產品組合的名稱就不那麼重要了。
+* Taking into account this scoring system, the first 7 suggestions are listed as smart assignments, in the descending order of their scores. Assignments with scores lower than 40% do not display.  
 
-* 考慮到此評分系統，前7個建議會依其分數的遞減順序列為智慧型指派。 分數低於40%的工作分派不會顯示。
+* If several assignments have identical scores, they display in order of the date on which the assignments were made, starting from the most recent date.  
 
-* 如果數個指派具有相同的分數，則會以指派的完成日期從最近日期開始按順序顯示。
+  For example, if Rick was assigned to a similar task earlier today and Jennifer was assigned to a similar task two days ago, Rick displays first.  
 
-  例如，如果Rick今天早些時候被指派到類似任務，而Jennifer兩天前被指派到類似任務，則Rick會先顯示。
+* Assignments identified in this phase are listed in the    **Suggested assignments**  section of the Assignments field for tasks. 
 
-* 此階段中識別的指派會列在    任務指派欄位的&#x200B;**建議指派**&#x200B;區段。
-
-* 如果沒有符合使用此計算的專案，則智慧型指派的第二階段會使用不同的演演算法來開始計算。
+* If there are no matches using this calculation, the second phase of smart assignments starts which is calculated using a different algorithm.  
 
 </div>
 
-#### 工作的智慧型指派計算的第二個階段
+#### Second phase of smart assignment calculation for tasks-->
 
-如果任務智慧指派的第一步找不到相符專案，Workfront會以計算問題的相同方式計算任務的智慧指派。
+<!--If the first step of task smart assignments has found no matches,-->
 
-如需詳細資訊，請參閱本文章的[任務和問題的智慧指派條件](#smart-assignments-criteria-for-tasks-and-issues)一節。
+Workfront計算工作的智慧型指派的方式，與計算問題的方式相同。
 
-此階段中識別的指派列在指派欄位的&#x200B;**使用者和團隊**、**工作角色指派**&#x200B;和&#x200B;<span class="preview">**評等卡片角色**</span>&#x200B;區段中。 <span class="preview">如需費率卡的詳細資訊，請參閱[管理費率卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)</span>。<!--keep the rate cards roles in yellow after the release of assignments to Prod-->
+<!--For more information, see the section [Smart assignments criteria for tasks and issues](#smart-assignments-criteria-for-tasks-and-issues) in this article. -->
 
-### 任務和問題的智慧指派條件
+已識別的指派列在[指派]欄位的&#x200B;**使用者與團隊**、**工作角色指派**&#x200B;及&#x200B;<span class="preview">**評等卡片角色**</span>&#x200B;區段中。 <span class="preview">如需費率卡的詳細資訊，請參閱[管理費率卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)</span>。<!--keep the rate cards roles in yellow after the release of assignments to Prod-->
 
+<!--
+### Smart assignments criteria for tasks and issues 
 
 >[!NOTE]
 >
->只有當任務智慧指派計算的第一個階段找不到任何相符專案時，以下條件才適用於任務。 如需相關資訊，請參閱本文中[工作](#first-phase-of-smart-assignment-calculation-for-tasks)智慧型指派計算的第一階段一節。 依預設，下列條件一律適用於問題。
+>The following criteria applies for tasks only when the first phase of the task smart assignment calculation did not find any matches. For information, see the section [First phase of smart assignment calculation for tasks](#first-phase-of-smart-assignment-calculation-for-tasks) in this article. The following criteria always applies for issues, by default. -->
 
 ![](assets/smart-assignments-issue-header.png)
 

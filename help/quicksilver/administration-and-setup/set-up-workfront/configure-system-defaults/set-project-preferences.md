@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: ef7f5d00bd74feee5e06b935c4bb8a18ee8b08a8
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '2721'
+source-wordcount: '2661'
 ht-degree: 1%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 1%
 
 <!--Audited: 12/2023-->
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 作為[!DNL Adobe Workfront]管理員，您可以為在整個系統中建立的所有專案設定預設偏好設定。 這些偏好設定會影響專案、任務和問題行為。
@@ -217,8 +217,8 @@ ht-degree: 1%
 
 </tr> 
   <tr> 
-   <td role="rowheader"> <p><span class="preview">當一位使用者被指派一項任務時，請使用以下的排程…</span></p> </td> 
-   <td> <div class="preview">
+   <td role="rowheader"> <p>當一位使用者被指派一項任務時，請使用以下的排程…</p> </td> 
+   <td> 
 <p>如果專案未指派排程，或指派給其任務的使用者未指派排程，[!DNL Workfront]會使用系統預設排程來計算任務的時間表。</p>
 
 <p>如果您指派一位使用者給專案中的任務，且指派給任務的專案和使用者都有與其關聯的排程，則[！UICONTROL Workfront]會使用以下排程：</p> 
@@ -226,7 +226,7 @@ ht-degree: 1%
      <li><strong>[！UICONTROL使用者]</strong>： [!DNL Workfront]使用工作上指派使用者的排程來計算時間表。</li> 
      <li><strong>[！UICONTROL專案]</strong>： [!DNL Workfront]使用專案排程來計算任務的時間表。</li> 
     </ul> <p>如需排程的詳細資訊，請參閱<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">建立排程</a>。</p>
-</div></td> 
+</td> 
   </tr>
 
 <tr data-mc-conditions=""> 

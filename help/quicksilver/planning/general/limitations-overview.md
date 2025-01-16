@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: d962d60294295dd1f3771d1f0b737c9d1f03dfef
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '378'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 1%
 
 # Adobe Workfront Planning物件限制總覽
 
-<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -45,8 +45,8 @@ Adobe Workfront Planning限制您可在執行個體中建立的物件數目。 �
 | 提出API要求的速率 | 每分鐘200個請求 |
 | 單一使用者可為一個記錄型別建立的檢視次數 | 100 |
 | CSV的Excel檔案大小，您可以匯入以建立記錄型別 | 5MB |
-| <span class="preview">您可以匯入CSV或Excel檔案以建立記錄型別的列數</span> | 10,000 |
-| <span class="preview">您可以匯入CSV或Excel檔案以建立記錄型別的欄數</span> | 500 |
+| 您可以匯入CSV或Excel檔案以建立記錄型別的列數 | 10,000 |
+| 您可以匯入CSV或Excel檔案以建立記錄型別的欄數 | 500 |
 
 *我們建議您不要有太多工作區，因為這些工作區可能會變得難以管理，而且您的工作流程可能太分散。
 

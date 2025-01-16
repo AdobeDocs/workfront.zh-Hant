@@ -5,22 +5,22 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
+exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '658'
 ht-degree: 1%
 
 ---
-
 
 # 在Adobe Workfront Planning中取消發佈請求表單
 
 
 <!--take Preview and Production references at Production time-->
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -157,4 +157,4 @@ ht-degree: 1%
 
    先前使用請求表單新增的任何記錄都會保留在記錄型別頁面上。
 
-   <span class="preview">先前新增的任何請求都會保留在Workfront的「計畫」標籤的「請求」區域中。</span>
+   先前新增的任何請求都會保留在Workfront的「請求」區域的「計畫」標籤上。

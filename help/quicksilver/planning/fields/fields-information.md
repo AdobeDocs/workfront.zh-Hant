@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d06028d9-9230-4a6c-a227-20618067192c
-source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 * [欄位概述](/help/quicksilver/planning/fields/fields-overview.md)
 * [建立欄位](/help/quicksilver/planning/fields/create-fields.md)
-  <span class="preview">[從Adobe Workfront匯入欄位](/help/quicksilver/planning/fields/import-fields-from-workfront.md)</span>
+* [從Adobe Workfront匯入欄位](/help/quicksilver/planning/fields/import-fields-from-workfront.md)
 * [編輯欄位設定](/help/quicksilver/planning/fields/edit-fields.md)
 * [刪除欄位](/help/quicksilver/planning/fields/delete-fields.md)
 * [公式欄位](/help/quicksilver/planning/fields/formula-fields.md)

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '1493'
+source-wordcount: '1433'
 ht-degree: 1%
 
 ---
@@ -18,16 +18,16 @@ ht-degree: 1%
 
 # 管理來自Workfront物件的記錄連線
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
 
 {{planning-important-intro}}
 
 您可以在Workfront的下列區域中，顯示Workfront Planning記錄及其連結至Adobe Workfront物件的個別記錄：
 
 * Workfront物件的Planning區段：顯示連線到物件的所有記錄型別及其各自的連線記錄。
-* <span class="preview">Planning連線自訂欄位：顯示一個記錄型別及其個別的連線記錄。</span>
+* Planning連線自訂欄位：顯示一種記錄型別及其個別的連線記錄。
 
 ## 存取需求
 
@@ -180,8 +180,6 @@ ht-degree: 1%
    * Workfront物件會新增至Workfront Planning記錄的已連線欄位。
    * 與Planning記錄連線之Workfront查詢欄位的值會填入Workfront Planning中。
 
-<div class="preview">
-
 ## 管理Planning連線欄位型別中的記錄
 
 您可以使用Workfront物件上的Planning連線自訂欄位，檢視連線至Workfront物件的記錄型別及其個別記錄。
@@ -254,5 +252,3 @@ ht-degree: 1%
 
 1. （選擇性）從Workfront的自訂表單中，按一下記錄上的&#x200B;**移除**&#x200B;圖示![](assets/remove-icon.png)，將其從Planning連線欄位中移除，並將其從Workfront物件中中斷連線。
 Workfront物件與Planning記錄中斷連線，且任何來自Workfront的查閱資訊都會從記錄中移除。
-
-</div>

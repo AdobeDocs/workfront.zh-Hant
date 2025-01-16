@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '2988'
+source-wordcount: '2928'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # 連接記錄
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -181,7 +181,7 @@ ht-degree: 1%
    >如果只選擇在記錄型別連線時顯示的記錄影像，則連線的欄位中只會顯示記錄的縮圖或圖示。 如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
    >
 
-1. <span class="preview"> （條件式）如果您在連線記錄型別時為「連線」型別選取「一對多」或「一對一」，而您嘗試連線記錄或已在其他地方連線的物件，您將會收到警告，指出再次連線會將它從原始連線中移除。 按一下&#x200B;**連線**&#x200B;以允許移除並連線記錄，或按一下&#x200B;**取消**&#x200B;返回欄位並選取其他記錄。</span>
+1. （條件式）如果您在連線記錄型別時為「連線」型別選取「一對多」或「一對一」，而您嘗試連線記錄或已在其他地方連線的物件，您將收到警告，再次連線會將其從原始連線中移除。 按一下&#x200B;**連線**&#x200B;以允許移除並連線記錄，或按一下&#x200B;**取消**&#x200B;返回欄位並選取其他記錄。
 1. （選擇性）如果您找不到要連線的記錄或物件，而且您想要新增該記錄，請按一下[新增] **+ [新增]**&#x200B;以新增記錄。 如需詳細資訊，請參閱文章[建立記錄](/help/quicksilver/planning/records/create-records.md)中的「連線時建立記錄」一節。
 
    >[!TIP]

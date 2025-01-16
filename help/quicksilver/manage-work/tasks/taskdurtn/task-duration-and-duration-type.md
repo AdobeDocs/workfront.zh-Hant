@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '1791'
+source-wordcount: '1649'
 ht-degree: 1%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 1%
 
 <!-- Audited: 12/2023 -->
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 任務期間是任務的計畫完成日期與計劃開始日期之間的差額。 「持續時間」表示任務可用的完成時間範圍。
 
@@ -41,17 +41,7 @@ ht-degree: 1%
 
 在Adobe Workfront中計算持續時間時，有兩種情況存在：
 
-* 如果任務指派給一位使用者，則根據您使用的環境，會發生下列情況：
-
-   * 在生產環境中，Workfront會依此確切順序使用下列其中一個排程來計算「持續時間」：
-
-   1. Workfront會考慮使用者的排程。
-   1. 如果使用者未關聯排程，Workfront會考慮專案的排程。
-   1. 如果專案未與排程相關聯，Workfront會考量您系統的預設排程。 如需排程的相關資訊，請參閱[建立排程](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)。
-
-<div class="preview">
-
-* 在預覽環境中：
+* 如果任務指派給一位使用者：
 
    1. Workfront會考慮專案或指派給任務之使用者的排程。
 
@@ -60,8 +50,6 @@ ht-degree: 1%
    1. 如果使用者或專案沒有排程，Workfront會使用系統預設排程。
 
       這些步驟類似於瞭解Workfront使用哪個排程來計算持續時間後的第一個案例。
-
-</div>
 
 * 如果任務指派給多個使用者：
 

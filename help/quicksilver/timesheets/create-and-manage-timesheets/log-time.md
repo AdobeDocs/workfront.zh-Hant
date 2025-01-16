@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '3848'
+source-wordcount: '3824'
 ht-degree: 0%
 
 ---
@@ -20,8 +20,6 @@ ht-degree: 0%
 
 <!--remove all preview and production references if any-->
 <!--update screen shots for the general hour entries and the mixed selection of hours at production, if they fixed the bugs -->
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅適用於所有客戶的預覽環境。</span>
 
 您可以在Adobe Workfront中記錄工作專案的時間，以指出您花在工作專案上的小時數。 您也可以記錄與工作無關的時間，例如假期、病假或會議時間。 您的記錄時間會顯示在您的時程表中。
 
@@ -497,11 +495,8 @@ ht-degree: 0%
    * 工作角色指派。 只有在「設定」中啟用工作角色指派時，您才能變更工作角色指派。 如需詳細資訊，請參閱[設定時程表和小時喜好設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
    * 時數專案的說明。
 
-<div class="preview">
 
-![](assets/edit-hour-box-project-hour-type.png)
-
-</div>
+  ![](assets/edit-hour-box-project-hour-type.png)
 
 * 編輯一般時數時：
 
@@ -551,7 +546,7 @@ ht-degree: 0%
    >
    >   並非所有欄位都可用，這取決於與所選小時專案關聯的小時型別。
 
-1. 按一下&#x200B;**儲存<span class="preview">變更</span>**。
+1. 按一下&#x200B;**儲存變更**。
 
    會更新小時輸入項資訊。
 如果您選取了超過一個小時條目並修改小時欄位，則會將相同的時數分配給所有選定的小時條目。 所有所選時數專案的原始時數會以新值取代。
