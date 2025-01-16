@@ -5,18 +5,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Adobe Creative Cloud程式庫模組
-description: 使用 [!DNL Adobe Workfront Fusion Adobe Creative Cloud] 程式庫模組，您可以在建立或更新元素或程式庫時啟動案例。 您也可以上傳、擷取、封存或列出元素，或呼叫 [!DNL Adobe Creative Cloud Libraries] API。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 8affa34b-803d-48a5-a986-9fbe0cb8c8f5
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1359'
+source-wordcount: '1401'
 ht-degree: 0%
 
 ---
 
 # Adobe Creative Cloud程式庫模組
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [Adobe Creative Cloud程式庫模組](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/creative-cloud-libraries-modules.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 使用[!DNL Adobe Workfront Fusion] [!DNL Adobe Creative Cloud Libraries]模組，您可以在建立或更新元素或程式庫時啟動案例。 您也可以上傳、擷取、封存或列出元素，或呼叫[!DNL Adobe Creative Cloud Libraries] API。
 

@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
 title: ' [!DNL Adobe Workfront Fusion]中的文字剖析器疑難排解'
-description: 如果您無法取得文字剖析器以產生任何輸出，請使用此資訊。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 8a3821cf-d0c6-4917-86e7-90a4872a5795
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]中的文字剖析器疑難排解
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [文字剖析器](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/tools-and-transformers/text-parser.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 如果您無法取得文字剖析器以產生任何輸出，請使用此資訊。
 

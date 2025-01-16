@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: organizations
 title: ' [!DNL Adobe Workfront Fusion]中的組織角色'
-description: 本文包含有關 [!DNL Adobe] Workfront Fusion中角色存取權和許可權的資訊。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 0370fa9d-6680-4724-a431-8df884ce4f9a
-source-git-commit: cb093fcecd5defd9dbdbb955ad5158d4a794f005
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 1%
+source-wordcount: '593'
+ht-degree: 2%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]中的組織和團隊角色
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [組織和團隊角色](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/licenses-and-roles/organization-roles.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 本文說明[!DNL Workfront Fusion]中不同團隊和組織角色可用的存取權和功能。
 

@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: 在Adobe Workfront Fusion中執行情境評分專家
-description: 情境評分專家可協助您確保情境的設定方式遵循最佳實務。 它會檢查您的情境並提供其結構和組織的建議。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 144c8dbd-a3e9-4267-b3db-0768dac8f384
-source-git-commit: 2b455fb2d3892c6bb796aa7ea57a60c861c3d599
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
 
 # 在Adobe Workfront Fusion中執行情境評分專家
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [執行情境評分專家](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/run-scenario-scoring.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 情境評分專家可協助您確保情境的設定方式遵循最佳實務。 它會檢查您的情境並提供其結構和組織的建議。
 

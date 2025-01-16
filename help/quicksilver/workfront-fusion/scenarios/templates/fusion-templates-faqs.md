@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Adobe Workfront Fusion範本常見問題集
-description: 本文說明有關 [!DNL Adobe Workfront Fusion scenario] 範本的常見問題。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 3cd7cbc0-ddc5-4437-8672-3c9bea609c9b
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]範本常見問答
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [Adobe Workfront Fusion範本常見問題集](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-and-manage-templates/fusion-templates-faqs.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 ## 存取需求
 

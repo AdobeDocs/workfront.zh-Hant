@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: 使用Adobe Workfront Fusion Devtool除錯案例
-description: Adobe Workfront Fusion Devtool可讓您瞭解情境並疑難排解。 Devtool將額外的面板新增至Chrome開發人員工具。 使用此偵錯工具面板，您可以檢查案例的所有手動執行、檢閱所有已執行的操作，並檢視每個已執行API呼叫的詳細資訊。 您可以檢視導致錯誤的模組、操作或單一回應，並運用該知識來調整您的案例。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: 6edcb5b826bdcf37b62396a926c923875a3a1436
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1858'
+source-wordcount: '1861'
 ht-degree: 1%
 
 ---
 
 # 使用[!DNL Adobe Workfront Fusion] Devtool偵錯案例
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [偵錯情境](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/debug-a-scenario.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 [!DNL Adobe Workfront Fusion] Devtool可讓您瞭解並疑難排解案例。 Devtool將額外的面板新增至[!DNL Chrome Developer Tools]。 使用此偵錯工具面板，您可以檢查案例的所有手動執行、檢閱所有已執行的操作，並檢視每個已執行API呼叫的詳細資訊。 您可以檢視導致錯誤的模組、操作或單一回應，並運用該知識來調整您的案例。
 
@@ -25,7 +37,7 @@ ht-degree: 1%
 如需Fusion Devtool的影片簡介和逐步解說，請參閱
 
 * [Fusion開發工具](https://video.tv.adobe.com/v/3427031/){target=_blank}。
-* [Devtool逐步說明](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/troubleshooting-and-error-handling/dev-tool-walkthrough.html?lang=en)
+* [Devtool逐步說明](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/troubleshooting-and-error-handling/dev-tool-walkthrough.html)
 
 ## 存取需求
 

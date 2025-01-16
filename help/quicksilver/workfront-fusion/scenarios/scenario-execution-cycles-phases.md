@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: 在 [!DNL Adobe Workfront Fusion]中的案例執行、週期和階段
-description: 本文說明在 [!DNL Adobe Workfront Fusion] 案例執行時發生的事件，例如初始化、作業、認可和回覆。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 5403f476-226d-4268-affc-8e06b1117684
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '611'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]中的案例執行、週期和階段
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [案例執行、週期和階段](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/scenarios/scenario-execution-cycles-phases.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 [!DNL Adobe Workfront Fusion]是交易式系統，類似於關聯式資料庫。 每個案例執行從初始化階段開始，接著至少包含一個由作業和認可/復原階段組成的週期，然後結束最終化階段：
 
@@ -95,7 +107,7 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-settings-panel.md)中的[案例設定面板。
 
-## 作業
+## 營運
 
 在作業階段期間執行讀取和/或寫入作業：
 

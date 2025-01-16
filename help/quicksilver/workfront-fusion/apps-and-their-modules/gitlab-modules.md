@@ -6,19 +6,31 @@ product-area: workfront-integrations
 keywords: 聯結器
 navigation-topic: apps-and-their-modules
 title: gitlab模組
-description: 除了Adobe Workfront授權，Adobe Workfront Fusion還需要Adobe Workfront Fusion授權。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: bf6c1d82-7926-4bf9-8424-e658650ee6b1
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '4070'
+source-wordcount: '4127'
 ht-degree: 0%
 
 ---
 
 
 # [!UICONTROL GitLab]模組
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [GitLab模組](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gitlab-modules.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 除了Adobe Workfront授權，Adobe Workfront Fusion還需要Adobe Workfront Fusion授權。
 
@@ -107,7 +119,7 @@ ht-degree: 0%
 
 ![](assets/map-toggle-350x74.png)
 
-### 觸發器
+### 觸發程序
 
 +++**[!UICONTROL 觀看組建狀態]**
 

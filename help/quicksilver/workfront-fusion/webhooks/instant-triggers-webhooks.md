@@ -3,18 +3,31 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: connections-annd-webhooks
 title: ' [!DNL Adobe Workfront Fusion]中的即時觸發程式(webhook)'
-description: 許多服務都會提供Webhook，以便在服務發生特定變更時傳送即時通知。 若要處理這些通知，建議您使用立即觸發程式。 本文說明Adobe Workfront Fusion中即時觸發器的使用及功能。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 13b3a1bf-9856-4d2c-b1a5-13b044a7c2e5
-source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '971'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]中的即時觸發器(webhook)
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [即時觸發程式(webhook)](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/modules/webhooks-reference.html)
+>* [檢視webhook的佇列](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/view-webhook-queue.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 許多服務都會提供Webhook，以便在服務發生特定變更時傳送即時通知。 若要處理這些通知，建議您使用立即觸發程式。 您可以在[!DNL Adobe Workfront Fusion]中輕鬆辨識這些專案，因為其標籤：
 

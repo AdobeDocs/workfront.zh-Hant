@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: organizations
 title: 在Adobe Workfront Fusion中檢視組織的活動記錄
-description: 您可以檢視組織的活動記錄，例如情境建立或啟動。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: d60dc97d-2da6-44f4-a2ee-bb5e56317695
-source-git-commit: 6f4ba4cde26978305a58cedb9ed606c6032496f1
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '589'
 ht-degree: 0%
 
 ---
 
 # 在Adobe Workfront Fusion中檢視組織的活動記錄
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [檢視組織的活動記錄](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/view-activity-logs-for-an-org.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 <!--Move to new repo-->
 
@@ -33,7 +45,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 計劃</td>
-   <td> <p>新增：Ultimate</p> <p>或</p> <p>目前：無法使用</p></td> 
+   <td> <p>新增： Ultimate</p> <p>或</p> <p>目前：無法使用</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 

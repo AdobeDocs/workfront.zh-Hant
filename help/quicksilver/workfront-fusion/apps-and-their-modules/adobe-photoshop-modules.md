@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: 聯結器
 navigation-topic: apps-and-their-modules
 title: Adobe Photoshop模組
-description: 透過Adobe Photoshop模組，您可以根據Adobe Photoshop帳戶中的事件啟動Adobe Workfront Fusion案例，建立、讀取或更新協定和其他記錄，使用您設定的條件搜尋記錄，以及上傳檔案。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: f20192ea-e363-4fba-8bd2-b1d50443918d
-source-git-commit: f6b00b98d3375e5660d684f1fad682fa721517aa
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '4325'
+source-wordcount: '4360'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Photoshop]模組
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [Adobe Photoshop模組](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/adobe-photoshop-modules.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 在[!DNL Adobe Workfront Fusion]案例中，您可以自動化使用[!DNL Adobe Photoshop]的工作流程，並將其連線至多個協力廠商應用程式和服務。
 

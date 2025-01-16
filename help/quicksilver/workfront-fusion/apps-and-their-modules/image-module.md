@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: 影像模組
-description: Adobe Workfront Fusion影像模組可讓您取得特定影像的相關資訊（尺寸、型別等）、將影像轉換為其他檔案格式，以及直接變更影像大小。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 89efa9d5-00c9-4bb5-97b3-2b2f9d73721d
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '952'
 ht-degree: 0%
 
 ---
 
 # 影像模組
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [影像模組](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/tools-and-transformers/image-module.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 [!DNL Adobe Workfront Fusion] [!UICONTROL 影像]模組可讓您取得特定影像的相關資訊（尺寸、型別等）、將影像轉換為其他檔案格式，以及直接變更影像大小。
 

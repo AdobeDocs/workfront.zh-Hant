@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: workfront-fusion-basics
 title: Adobe Workfront Fusion常見問題集
-description: 本文會討論與 [!DNL Adobe Workfront Fusion]相關的常見問題，包括Fusion工作流程中常用物件的相關資訊
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: e2ecc190-ec26-46f0-a4f2-7b283639a1eb
-source-git-commit: f11af8d9d1e5fa65c2efb4d882d25f9e13784611
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '722'
 ht-degree: 1%
 
 ---
 
 # Adobe Workfront Fusion常見問題集
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [情境規劃常見問題集](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/plan-a-scenario/faq.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 ## 存取需求
 

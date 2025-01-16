@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: 聯結器
 navigation-topic: http-modules
 title: HTTP &amp；gt；發出API金鑰授權請求
-description: 此 [!DNL Adobe Workfront Fusion] 動作模組傳送HTTPS要求至需要API金鑰驗證授權的指定URL，並處理回應。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 70bf87c7-6d51-4ef4-9dce-80ad004e613f
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '1069'
 ht-degree: 0%
 
 ---
 
 # HTTP >[!UICONTROL 發出API金鑰授權要求]
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [HTTP >發出API金鑰授權要求](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/universal-connectors/http-module-make-an-api-key-auth-request.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 >[!NOTE]
 >

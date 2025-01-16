@@ -9,16 +9,28 @@ author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 17dd5211-4531-47e9-a13a-b3698d8738d1
-source-git-commit: 6470ea408bfd354707387f7916edb08b4879168c
+source-git-commit: 3983d811a849c01b3c34b1cd6ee895e5552225a6
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
 
 # Adobe Workfront Fusion發行活動概覽
 
-Adobe Workfront Fusion可順暢地連線您的應用程式和Web服務，因此您可以專注在新任務上，而不是一而再、再而三地重複相同的任務。
+
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [Adobe Workfront Fusion發行活動總覽](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，不久將會移除。Adobe Workfront Fusion可順暢地連線您的應用程式和Web服務，因此您可以專心處理新工作，而不需一遍又一遍地重複相同的工作。
 
 如需如何使用Workfront Fusion的詳細資訊，請參閱[Adobe Workfront Fusion](../../../workfront-fusion/workfront-fusion-2.md)。
 

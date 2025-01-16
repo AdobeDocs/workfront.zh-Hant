@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: 封存模組
-description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以將封存（例如壓縮檔案）連線至多個協力廠商應用程式和服務。 例如，您可以設定一個情境
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: e29b6d39-3666-4d6d-a178-1983ae9f3aa9
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '598'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL 封存]模組
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [封存模組](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/tools-and-transformers/archive-modules.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 在[!DNL Adobe Workfront Fusion]情境中，您可以在情境中使用封存（例如壓縮檔案），讓您將其用於自動化或整合。
 

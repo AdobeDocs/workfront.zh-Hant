@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: 在Adobe Workfront Fusion中建立實務整合情境
-description: 本文會說明如何使用Adobe Workfront Fusion建立整合案例。 整合案例將不同的應用程式連線在一起，讓您的資料可流經不同的應用程式。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 643bb1d5-d7bc-402b-8ed1-9ca9a30e4560
-source-git-commit: cb4edb02aad8a0738ea80f058fcc2bc016832ce1
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '2139'
+source-wordcount: '2188'
 ht-degree: 0%
 
 ---
 
 # 在Adobe Workfront Fusion中建立實務整合情境
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [建立情境的工作流程](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/plan-a-scenario/create-a-scenario-workflow.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 本文會說明如何使用Adobe Workfront Fusion建立整合案例。 整合案例將不同的應用程式連線在一起，讓您的資料可流經不同的應用程式。
 

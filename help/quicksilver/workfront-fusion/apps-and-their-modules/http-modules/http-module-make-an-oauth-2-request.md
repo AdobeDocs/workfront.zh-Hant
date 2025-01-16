@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: 聯結器
 navigation-topic: http-modules
 title: HTTP &amp；gt；建立OAuth 2.0請求模組
-description: 若要向需要OAuth 2.0授權的伺服器發出 [!DNL Adobe Workfront Fusion] HTTP(S)請求，您必須先建立OAuth連線。 [!DNL Adobe Workfront Fusion] 確保所有使用此連線進行的呼叫都有適當的授權標頭，並視需要自動重新整理關聯的權杖。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 6c68c9b9-9f74-44a7-94ed-3785081b8331
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '2236'
+source-wordcount: '2270'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL HTTP] > [!UICONTROL 發出OAuth 2.0請求]模組
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [HTTP >建立OAuth 2.0要求模組](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/universal-connectors/http-module-make-an-oauth-2-request.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 >[!NOTE]
 >

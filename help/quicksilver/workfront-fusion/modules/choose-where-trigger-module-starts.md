@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
 title: 選擇觸發程式模組在Adobe Workfront Fusion中的開始位置
-description: 有些觸發程式模組可讓您選取要開始擷取套件的第一個套裝。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 5ab7cac4-8d50-4be0-b26b-b832544f18f7
-source-git-commit: 489ed23fe0d7945753b59810ff9da084bd3e92e4
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '443'
 ht-degree: 1%
 
 ---
 
 # 選擇觸發程式模組在[!DNL Adobe Workfront Fusion]中的開始位置
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [選擇觸發程式模組開始的位置](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/add-modules/choose-where-trigger-module-starts.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 有些觸發程式模組可讓您選取要開始擷取套件的第一個套裝。
 

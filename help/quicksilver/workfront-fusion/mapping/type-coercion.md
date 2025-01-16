@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: mapping
 title: 在Adobe Workfront Fusion中鍵入強制
-description: 本檔案說明 [!DNL Adobe Workfront Fusion] 在收到預期和非預期資料格式的值時如何運作。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 847a17c9-bd67-4132-81a8-2a5fe8d516cb
-source-git-commit: d09174b874ff59676a28881de02ae4e7196d0f80
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '708'
 ht-degree: 3%
 
 ---
 
 # 在[!DNL Adobe Workfront Fusion]中輸入強制
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [型別強制執行](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/mapping-panel/data-types/type-coercion.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 ## 存取需求
 

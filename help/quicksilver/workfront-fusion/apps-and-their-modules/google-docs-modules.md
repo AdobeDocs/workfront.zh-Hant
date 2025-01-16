@@ -5,18 +5,30 @@ product-area: workfront-integrations;documents
 keywords: 聯結器
 navigation-topic: apps-and-their-modules
 title: Google檔案模組
-description: Adobe Workfront Fusion [!DNL Google Docs] 模組可讓您監視、建立、編輯和擷取 [!DNL Google Docs] 和 [!DNL Google Docs]  （適用於 [!DNL Google Workspace] 位使用者）中的檔案。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: fbe7d628-d833-43ce-83b8-8e4e6a812fd1
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '4105'
+source-wordcount: '4160'
 ht-degree: 0%
 
 ---
 
 # [!DNL Google Docs]模組
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [Google Docs模組](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-docs-modules.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 [!DNL Adobe Workfront Fusion] [!DNL Google Docs]模組可讓您監視、建立、編輯和擷取[!DNL Google Docs]和[!DNL Google Docs] （針對[!DNL Google Workspace]位使用者）中的檔案。
 
@@ -69,9 +81,9 @@ ht-degree: 0%
 
 若要使用[!DNL Google Docs]模組，您必須擁有Google帳戶。
 
-## Google檔案API資訊
+## Google Docs API資訊
 
-Google Docs聯結器使用下列專案：
+Google Docs聯結器會使用以下專案：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -604,7 +616,7 @@ Google Docs聯結器使用下列專案：
  </tbody> 
 </table>
 
-**範例：**&#x200B;下列API呼叫會擷取Google檔案中指定檔案的詳細資料：
+**範例：**&#x200B;下列API呼叫會擷取Google Docs中指定檔案的詳細資料：
 
 **URL：**
 

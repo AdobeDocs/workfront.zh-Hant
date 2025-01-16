@@ -5,18 +5,30 @@ product-area: workfront-integrations;documents
 keywords: 聯結器
 navigation-topic: apps-and-their-modules
 title: Google幻燈片模組
-description: Adobe Workfront Fusion Google幻燈片模組可讓您建立、更新、列出及/或刪除簡報，並將影像上傳至Google幻燈片帳戶中的簡報。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 680a5328-1d50-4434-beda-7a4670a6e458
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1685'
 ht-degree: 0%
 
 ---
 
 # [!DNL Google Slides]模組
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [Google投影片模組](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-slides-modules.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 [!DNL Adobe Workfront Fusion] [!DNL Google Slides]模組可讓您建立、更新、列出和/或刪除簡報，並將影像上傳到您[!DNL Google Slides]帳戶中的簡報。
 

@@ -5,18 +5,30 @@ product-area: workfront-integrations;calendars
 keywords: 聯結器
 navigation-topic: apps-and-their-modules
 title: Microsoft Office 365行事曆
-description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以自動執行使用Microsoft Office 365行事曆的工作流程，並將其連線到多個協力廠商應用程式和服務。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 814c285e-c106-458a-a0b1-760677634f4f
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '2023'
+source-wordcount: '2074'
 ht-degree: 0%
 
 ---
 
 # [!DNL Microsoft Office 365 Calendar]
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [Microsoft Office 365行事曆](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/microsoft-365-calendar-modules.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 在[!DNL Adobe Workfront Fusion]案例中，您可以自動化使用[!DNL Microsoft Office 365 Calendar]的工作流程，並將其連線至多個協力廠商應用程式和服務。
 

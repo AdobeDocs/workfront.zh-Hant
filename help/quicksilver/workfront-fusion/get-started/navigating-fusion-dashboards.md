@@ -3,17 +3,29 @@ product-area: workfront-navigation
 product-previous: workfront-fusion
 navigation-topic: workfront-fusion-2-0
 title: 在Workfront Fusion中導覽儀表板
-description: 瞭解Workfront Fusion中可用的儀表板
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 9f7597103e06f3f273dc400440ffa5db6742427b
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 1%
+source-wordcount: '727'
+ht-degree: 0%
 
 ---
 
 # 在Workfront Fusion中導覽儀表板
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [導覽Adobe Workfront Fusion](https://experienceleague.adobe.com/docs/workfront-fusion/using/get-started-with-fusion/navigate-workfront-fusion/navigate-workfront-fusion.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 登入Workfront Fusion時，您會進入組織的儀表板。 從這裡，您可以按一下左側導覽中的區域，以導覽至Fusion的不同區域。
 

@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: 使用 [!DNL Adobe Workfront Fusion] 範本建立案例
-description: Adobe Workfront FusionTemplates功能可讓您建立並使用現有範本，作為Workfront Fusion案例的起點。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 43b30244-f4a5-4036-939c-aff7827c21b1
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
 
 # 使用[!DNL Adobe Workfront Fusion]範本建立案例
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [使用範本建立情境](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-and-manage-templates/create-scenarios-with-fusion-templates.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 [!DNL Adobe Workfront Fusion]範本可讓您建立和使用現有的範本，作為您[!DNL Workfront Fusion]案例的起點。
 

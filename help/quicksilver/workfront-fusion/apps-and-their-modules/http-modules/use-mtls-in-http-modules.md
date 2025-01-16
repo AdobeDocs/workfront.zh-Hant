@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: 聯結器
 navigation-topic: http-modules
 title: 在Adobe Workfront Fusion的HTTP模組中使用雙向TLS
-description: 您可以在Adobe Workfront Fusion HTTP模組中使用Mutual TLS，讓資訊交易的兩端都能驗證對方的身分。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: ace9c404-34de-4bc5-bc77-2e53df36dbd9
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '722'
 ht-degree: 0%
 
 ---
 
 # 在[!DNL Adobe Workfront Fusion]的HTTP模組中使用雙向TLS
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [在Adobe Workfront Fusion的HTTP模組中使用雙向TLS](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/universal-connectors/use-mtls-in-http-modules.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 >[!NOTE]
 >

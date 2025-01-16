@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Adobe Workfront Fusion範本概觀
-description: Workfront Fusion範本功能可讓您建立並使用現有的範本，作為 [!DNL Workfront Fusion] 案例的起點。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 02c10997-28bd-46b4-bbcc-0c907cdaeb7b
-source-git-commit: 6dd2fd4d688514540265fa3b0d2634194fb6a7ab
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '448'
 ht-degree: 1%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]範本概觀
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [檢視、編輯和刪除範本](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-and-manage-templates/view-edit-and-delete-fusion-templates.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 [!DNL Workfront Fusion]範本功能可讓您建立和使用現有的範本，作為您[!DNL Workfront Fusion]案例的起點。 範本代表常見的使用案例，您可依照組織和特定使用案例的需求來設定和修改。
 

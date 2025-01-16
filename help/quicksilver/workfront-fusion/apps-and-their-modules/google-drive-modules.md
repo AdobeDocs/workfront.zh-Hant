@@ -5,18 +5,30 @@ product-area: workfront-integrations;documents
 keywords: 聯結器
 navigation-topic: apps-and-their-modules
 title: Google磁碟機模組
-description: ' [!DNL Adobe Workfront Fusion Google Drive] 模組可讓您監視、搜尋、建立、更新、刪除及管理 [!DNL Google Drive]中的檔案、資料夾或共用磁碟機。'
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 7d620c93-d1bf-4451-9f76-1d6fd850cec9
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '2958'
+source-wordcount: '3012'
 ht-degree: 0%
 
 ---
 
 # [!DNL Google Drive]模組
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [Google磁碟機模組](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-drive-modules.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 [!DNL Adobe Workfront Fusion] [!DNL Google Drive]模組可讓您監視、搜尋、建立、更新、刪除及管理[!DNL Google Drive]中的檔案、資料夾或共用磁碟機。
 
@@ -108,10 +120,10 @@ Google磁碟機聯結器使用下列專案：
 
 
 
-* [觸發器](#triggers)
+* [觸發程序](#triggers)
 * [動作](#actions)
 
-### 觸發器
+### 觸發程序
 
 * [[!UICONTROL 在資料夾]中監視檔案](#watch-files-in-folder)
 * [[!UICONTROL 觀看所有檔案]](#watch-all-files)

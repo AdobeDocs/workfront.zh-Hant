@@ -4,25 +4,37 @@ product-area: workfront-integrations
 keywords: 融合
 navigation-topic: workfront-fusion-navigation-topic
 title: Adobe Workfront Fusion
-description: 除了Adobe Workfront授權，Adobe Workfront Fusion還需要Adobe Workfront Fusion授權。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: d28b6344-070a-4cfc-ab5a-b5c279a8b805
-source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '152'
 ht-degree: 1%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]
 
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [Workfront Fusion 文件](https://experienceleague.adobe.com/docs/workfront-fusion/using/home.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
+
 >[!NOTE]
 >
 >除了[!DNL Adobe Workfront]授權之外，[!DNL Adobe Workfront Fusion]還需要[!DNL Adobe Workfront Fusion]授權。
 
-如需與[!DNL Adobe Workfront Fusion]相關的訓練教材，請參閱[Workfront Fusion訓練概述](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/welcome-to-workfront-fusion/workfront-fusion-overview.html?lang=zh-Hant)。
+如需與[!DNL Adobe Workfront Fusion]相關的訓練教材，請參閱[Workfront Fusion訓練概述](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/welcome-to-workfront-fusion/workfront-fusion-overview.html)。
 
 如需Workfront Fusion最新增強功能的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 發行活動](../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)。
 

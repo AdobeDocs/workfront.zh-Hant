@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;setup
 navigation-topic: connections-annd-webhooks
 title: 從Web服務接收Webhook
-description: 如果Web服務目前未在 [!DNL Adobe Workfront Fusion]中實作為應用程式，但它支援傳送Webhook，則您可以使用自訂Webhook模組作為立即觸發程式，將服務新增至案例。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: f1a67dbf-c245-4936-9dcc-3fdbfc6ee3b1
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
 
 # 從Web服務接收Webhook
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [為沒有聯結器的Web服務設定webhook](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/add-modules/receive-a-webhook-from-a-web-service.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 如果Web服務目前未在[!DNL Adobe Workfront Fusion]中實作為應用程式，但它支援傳送Webhook，則您可以使用自訂Webhook模組作為立即觸發程式，將服務新增至案例。
 

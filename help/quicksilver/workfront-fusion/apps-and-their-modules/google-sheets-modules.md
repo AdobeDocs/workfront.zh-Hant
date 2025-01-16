@@ -5,18 +5,30 @@ product-area: workfront-integrations;documents
 keywords: 聯結器
 navigation-topic: apps-and-their-modules
 title: Google工作表模組
-description: 為了使用 [!DNL Google Sheets] 搭配 [!DNL Adobe Workfront Fusion],you need the [!UICONTROL Workfront Fusion Google Sheets] 延伸模組（選擇性，但即時觸發程式必須使用）。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 11d62222-df34-472d-93d7-f0d53eb95c9b
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '4023'
+source-wordcount: '4085'
 ht-degree: 0%
 
 ---
 
 # [!DNL Google Sheets]模組
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [Google工作表模組](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-sheets-modules.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 在[!DNL Adobe Workfront Fusion]案例中，您可以自動化使用[!DNL Google Sheets]的工作流程，並將其連線至多個協力廠商應用程式和服務。
 
@@ -88,7 +100,7 @@ Google Sheets聯結器使用下列專案：
  </tbody> 
  </table>
 
-## 觸發器
+## 觸發程序
 
 ### [!UICONTROL 觀看列]
 

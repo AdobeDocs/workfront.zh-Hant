@@ -1,18 +1,30 @@
 ---
 title: 加密程式
-description: Adobe Workfront Fusion Encryptor模組可讓您加密任何文字資料。 目前支援透過AES256和PGP (OpenPGP)進行訊息加密。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: 9664c4f1-6467-45c9-8b9e-5a41d0e9ccb9
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
 
 # 加密程式
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [加密程式](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/tools-and-transformers/encryptor-modules.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 [!DNL Adobe Workfront Fusion] [!UICONTROL 加密程式]模組可讓您加密任何文字資料。 它們目前支援透過AES256和PGP ([!UICONTROL OpenPGP])進行訊息加密。
 

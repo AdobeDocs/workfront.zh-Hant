@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: 聯結器
 navigation-topic: apps-and-their-modules
 title: Adobe Firefly模組
-description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以自動化使用 [!DNL Adobe Firefly]的工作流程，並將其連線到多個協力廠商應用程式和服務。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 1e131c27-571d-4099-9243-69572bdb3f5a
-source-git-commit: f6b00b98d3375e5660d684f1fad682fa721517aa
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1315'
+source-wordcount: '1369'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Firefly]模組
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [Adobe Firefly模組](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/adobe-firefly-modules.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 在[!DNL Adobe Workfront Fusion]案例中，您可以自動化使用[!DNL Adobe Firefly]的工作流程，並將其連線至多個協力廠商應用程式和服務。
 

@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: connections-annd-webhooks
 title: 將 [!DNL Adobe Workfront Fusion] 連線至使用API權杖授權的網站服務
-description: 某些服務不允許整合解決方案（例如 [!DNL Adobe Workfront Fusion] ）建立可在您的情境中輕鬆使用的應用程式。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 0feb745a-1ee0-4b29-92ab-14c12a8647d4
-source-git-commit: e61dc6646e221cffb30aad055663dcf8fd3299e2
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '1008'
 ht-degree: 0%
 
 ---
 
 # 將[!DNL Adobe Workfront Fusion]連線到使用API權杖授權的網站服務
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [將Adobe Workfront Fusion連線至使用API權杖授權的Web服務](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/connect-to-applications/connect-wf-web-service-uses-api-token-auth.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 某些服務不允許整合解決方案（例如[!DNL Adobe Workfront Fusion]）建立您可在情境中輕鬆使用的應用程式。
 

@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: 建立實務案例：文章索引
-description: 請依照下列範例瞭解如何在Adobe Workfront Fusion中建立情境
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: cd00008a-833c-46dd-a82d-22f27809493e
-source-git-commit: 83974e67d6322c0ec0179c5be9cc9de0e1495161
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
 
 # 在[!DNL Adobe Workfront Fusion]中建立實務案例：文章索引
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [建置實務案例：文章索引](https://experienceleague.adobe.com/docs/workfront-fusion/using/build-practice-scenarios/build-practice-scenarios-toc.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 本節包含下列文章：
 

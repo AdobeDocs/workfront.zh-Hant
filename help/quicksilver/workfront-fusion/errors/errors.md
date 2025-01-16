@@ -4,21 +4,32 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: workfront-fusion-2-0
 title: Adobe Workfront Fusion中的錯誤
-description: 除了Adobe Workfront授權，Adobe Workfront Fusion還需要Adobe Workfront Fusion授權。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 16205e28-92e3-4c90-afa5-35eb793b239b
-source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
+source-git-commit: 4ce5ccc67a1f9cb32e07d956746a7d0d7c7ccbe1
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---
 
 # Adobe Workfront Fusion中的錯誤
 
->[!NOTE]
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [設定錯誤處理：文章索引](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/configure-error-handling/config-error-handling-toc.html)
+>* [錯誤參考：文章索引](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/errors/errors-toc.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 >
 >除了[!DNL Adobe Workfront license]之外，[!DNL Adobe Workfront Fusion]還需要[!DNL Adobe Workfront Fusion]授權。
 

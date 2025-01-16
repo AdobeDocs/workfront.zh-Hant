@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Adobe Workfront Fusion中的案例執行流程
-description: 本文說明情境如何執行以及資料如何流經情境。 本檔案也會說明您可在何處找到已處理資料的相關資訊，以及如何讀取這些資訊。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 95c6e969-66b4-4b57-9e62-aae0cfb9bf98
-source-git-commit: 75cf9af858e90a640c45b211d36f35b684128c2f
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '843'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]中的案例執行流程
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [案例執行流程](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/scenarios/scenario-execution-flow.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 本文說明情境如何執行以及資料如何流經情境。 本檔案也會說明您可在何處找到已處理資料的相關資訊，以及如何讀取這些資訊。
 

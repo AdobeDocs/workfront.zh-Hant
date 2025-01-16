@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: 聯結器
 navigation-topic: apps-and-their-modules
 title: github模組
-description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以自動執行使用GitHub的工作流程，並將其連線到多個協力廠商應用程式和服務。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 5e520aab-8307-4a52-96b6-13b284f9cb53
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1839'
+source-wordcount: '1891'
 ht-degree: 0%
 
 ---
 
 # [!DNL GitHub]模組
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [GitHub模組](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/github.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 在[!DNL Adobe Workfront Fusion]案例中，您可以自動執行使用[!UICONTROL GitHub]的工作流程，並將其連線至多個協力廠商應用程式和服務。
 
@@ -75,10 +87,10 @@ ht-degree: 0%
 
 ![](assets/map-toggle-350x74.png)
 
-* [觸發器](#triggers)
+* [觸發程序](#triggers)
 * [動作](#actions)
 
-### 觸發器
+### 觸發程序
 
 * [[!UICONTROL 觀看問題]](#watch-issues)
 * [[!UICONTROL 監視存放庫]](#watch-repositories)

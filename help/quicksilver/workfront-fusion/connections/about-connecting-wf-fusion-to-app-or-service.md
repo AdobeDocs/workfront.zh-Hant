@@ -3,18 +3,31 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: connections-annd-webhooks
 title: 連線總覽
-description: 對於大多數應用程式，必須建立連線，讓 [!DNL Adobe Workfront Fusion] 可以依據特定情境的設定與指定的協力廠商服務通訊。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 2d5cf083-9893-45e8-8f7d-0f8f5a74eef3
-source-git-commit: b90343eab40e91c6f5cddeaa960ce9c9c97b1d29
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '665'
 ht-degree: 0%
 
 ---
 
 # 連線總覽
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [連線總覽](https://experienceleague.adobe.com/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/connection-overview.html)
+>* [管理連線](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/connect-to-applications/manage-connections.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 <!-- Audited: 3/2024-->
 
@@ -24,7 +37,7 @@ ht-degree: 0%
 
 連線代表Fusion用來存取應用程式的授權和許可權。 您可以為每個應用程式建立一或多個連線，並可以在多個模組或案例中使用相同的連線。
 
-大部分的連線只用於單一應用程式。 例如，[!DNL Workfront]連線不能用於[!UICONTROL Salesforce]模組。 有些[!DNL Adobe]應用程式可以共用連線。 如需詳細資訊，請參閱[應用程式及其模組](/help/quicksilver/workfront-fusion/apps-and-their-modules/apps-and-their-modules.md)中列出的這些應用程式的文章。
+大部分的連線只用於單一應用程式。 例如，[!DNL Workfront]連線不能在[!UICONTROL Salesforce]模組中使用。 有些[!DNL Adobe]應用程式可以共用連線。 如需詳細資訊，請參閱[應用程式及其模組](/help/quicksilver/workfront-fusion/apps-and-their-modules/apps-and-their-modules.md)中列出的這些應用程式的文章。
 
 連線是在群組層級上管理的。 團隊的所有成員都可以存取團隊的連線，而團隊外部的使用者無權存取團隊的連線。
 

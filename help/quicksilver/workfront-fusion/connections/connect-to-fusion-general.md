@@ -4,18 +4,30 @@ product-area: workfront-integrations
 keywords: 聯結器
 navigation-topic: connections-annd-webhooks
 title: 建立與 [!DNL Adobe Workfront Fusion] 的連線 — 基本指示
-description: 許多 [!DNL Adobe Workfront Fusion] 聯結器在建立連線時不需要自訂組態。 本文會介紹預設的連線建立程式。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 6576a515-a1a1-4613-8d04-3c9d36bb1ed9
-source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
 
 # 建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [建立連線 — 基本指示](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/connect-to-applications/connect-to-fusion-general.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 ## 存取需求
 

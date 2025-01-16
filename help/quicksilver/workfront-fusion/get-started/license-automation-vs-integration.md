@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Adobe Workfront Fusion授權
-description: Adobe Workfront Fusion提供兩種不同的授權，決定您可以存取的功能。 您的組織在購買Workfront Fusion時已選擇其中一個授權。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 37fecce9-c1b8-474b-abc2-09398bfcc629
-source-git-commit: 1b90566477eb57b97f3484ed7f0eeed5c88c495f
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '630'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]個授權
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [Adobe Workfront Fusion授權](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 [!DNL Workfront Fusion]有兩個授權模式，一個是新的作業型模式，另一個是舊型聯結器型模式。
 
@@ -23,7 +35,7 @@ ht-degree: 0%
 
 新的[!DNL Workfront Fusion]授權模式是以貴組織使用的作業數為基礎。 在此模型中，所有組織都可存取相同的功能。
 
-如果您的組織有Workfront Ultimate計畫，您的Fusion執行個體會包含在您的計畫中，並允許每月無限數量的Fusion作業。 如果貴組織有Workfront Prime或Select計畫，則可購買Fusion，價格將根據每月執行的作業數量而定。
+如果您的組織有Workfront Ultimate計畫，您的Fusion執行個體會包含在您的計畫中，並允許每月無限數量的Fusion作業。 如果您的組織有Workfront Prime或Select計畫，則可購買Fusion，價格將根據每月執行的作業數量而定。
 
 如需新授權模式下的作業計數的資訊，請參閱[在 [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/operations-in-workfront-fusion.md)中的作業。
 
@@ -67,7 +79,7 @@ ht-degree: 0%
    * 資料存放區
    * 影像
    * JSON
-   * Math
+   * 數學
    * MIME
    * XML
 

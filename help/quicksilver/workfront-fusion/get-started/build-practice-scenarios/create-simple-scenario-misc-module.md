@@ -3,19 +3,31 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: 在 [!DNL Adobe Workfront Fusion]中建立簡單案例
-description: 瞭解如何使用Adobe Workfront Fusion建立簡單的自動化案例。 自動化案例可自動化Workfront程式，包括資料操縱和轉換。 此範例將引導您完成建立情境的過程，該情境會搜尋問題然後轉換為專案。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 hide: true
 hidefromtoc: true
 feature: Workfront Fusion
-source-git-commit: ea3f932e02ad8a9416747d4b9aefe89d087dd414
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: '1290'
 ht-degree: 0%
 
 ---
 
 # 在[!DNL Adobe Workfront Fusion]中建立基本情境
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [建立基本情境](https://experienceleague.adobe.com/docs/workfront-fusion/using/build-practice-scenarios/create-basic-scenario.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 [!DNL Adobe Workfront Fusion]的角色是自動化您的程式，以便您可以專注於新任務，而不是一遍又一遍地重複相同的任務。 其運作方式是連結應用程式和服務內外的動作，以建立自動傳輸和轉換資料的情境。 您建立的案例會監視應用程式或服務中的資料，並處理該資料以提供您想要的結果。
 

@@ -3,22 +3,36 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: 在Adobe Workfront Fusion中使用大型檔案
-description: Workfront和HTTP聯結器目前提供大型檔案支援。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: e0be458c-a5f4-48e4-a8fb-afd5d072b6ff
-source-git-commit: 4914e6e30d6c4a16de5bd2c91bc6f8e4f208c078
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1163'
 ht-degree: 0%
 
 ---
 
 # 在Adobe Workfront Fusion中使用大型檔案
 
+
+
 >[!IMPORTANT]
 >
->大型檔案功能僅供Workfront Ultimate客戶使用，為分階段推出。 所有採用Workfront Ultimate計畫的Fusion組織將在2025年1月前擁有大型檔案功能。
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [使用大型檔案](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/scenarios/fusion-large-files.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
+
+>[!IMPORTANT]
+>
+>大型檔案功能僅適用於Workfront Ultimate客戶，分階段推出。 到2025年1月，所有擁有Workfront Ultimate計畫的Fusion組織都將擁有大型檔案功能。
 
 Workfront Fusion現在提供增強的資料傳輸功能，讓場景可以處理顯著更大的檔案。
 
@@ -53,7 +67,7 @@ Workfront Fusion現在提供增強的資料傳輸功能，讓場景可以處理�
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增： [!DNL Workfront Fusion]已包含在Ultimate Workfront計畫中。</p> <p>或</p>
+   <p>新增： [!DNL Workfront Fusion]包含在Ultimate Workfront計畫中。</p> <p>或</p>
    <p>目前：無法使用</p>
    </td> 
   </tr>

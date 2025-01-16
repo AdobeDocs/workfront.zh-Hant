@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: 在 [!DNL Adobe] Workfront Fusion中啟用或停用案例
-description: 本文說明為什麼作用中或停用案例在不同情況下很有用，以及如何啟用或停用案例。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: b3eea763-f0bf-4037-8d73-20d112dc5ac3
-source-git-commit: b1764e443ebb0ad48ca4ae0263d326f4156fb155
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '345'
 ht-degree: 1%
 
 ---
 
 # 在[!DNL Adobe Workfront Fusion]中啟用或停用案例
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [啟動或停用案例](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/activate-deactivate-scenarios.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 您可以處理作用中或非作用中狀態的案例：
 

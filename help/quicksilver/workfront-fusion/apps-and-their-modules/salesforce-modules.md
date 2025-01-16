@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: 聯結器
 navigation-topic: apps-and-their-modules
 title: Salesforce模組
-description: 在Adobe Workfront Fusion案例中，您可以自動化使用Salesforce的工作流程，並將其連結到多個協力廠商應用程式和服務。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 3c8adcd9-fb5f-400d-9edd-6d9fc30cc728
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '2758'
+source-wordcount: '2806'
 ht-degree: 0%
 
 ---
 
 # [!DNL Salesforce]模組
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [Salesforce模組](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 在Adobe Workfront Fusion案例中，您可以自動化使用[!DNL Salesforce]的工作流程，並將其連線至多個協力廠商應用程式和服務。
 
@@ -87,7 +99,7 @@ Salesforce聯結器會使用以下專案：
  <tbody> 
   <tr> 
    <td role="rowheader">基礎URL</td> 
-   <td> &lbrace;&lbrace;connection.instanceUrl&rbrace;&rbrace;</td>
+   <td> {{connection.instanceUrl}}</td>
   </tr> 
   <tr> 
    <td role="rowheader">API版本</td> 
@@ -116,7 +128,7 @@ Salesforce聯結器會使用以下專案：
 * [動作](#actions)
 * [搜尋](#searches)
 
-### 觸發器
+### 觸發程序
 
 * [[!UICONTROL 觀看記錄]](#watch-for-records)
 * [[!UICONTROL 觀看傳出訊息]](#watch-outbound-messages)

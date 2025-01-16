@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
 title: Adobe Workfront Fusion中的彙總模組
-description: 彙總器模組是一種模組，旨在將數個資料套件合併為單一套件組合。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: cdc32842-8717-4e05-ab19-2661ee14c12c
-source-git-commit: 948fe5fc249e0dcb04655f015c8e46493159c3ed
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '881'
 ht-degree: 0%
 
 ---
 
 # 在[!DNL Adobe Workfront Fusion]中的[!UICONTROL 彙總]模組
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [彙總模組](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/modules/aggregator-module.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 彙總器模組是一種模組，旨在將數個資料套件合併為單一套件組合。
 

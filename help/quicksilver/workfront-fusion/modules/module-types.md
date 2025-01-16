@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
 title: 模組型別
-description: Adobe Workfront Fusion區分五種模組：動作模組、搜尋模組、觸發模組、彙總器和疊代器。 「彙總」和「疊代」適用於進階案例。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 58b4aa76-6c4c-47fc-a42c-c5286da5633a
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '1022'
 ht-degree: 0%
 
 ---
 
 # 模組型別
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [模組總覽](https://experienceleague.adobe.com/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/module-overview.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 A[!UICONTROL adobe Workfront Fusion]會區分五種模組：動作模組、搜尋模組、觸發模組、彙總器和疊代器。 「彙總」和「疊代」適用於進階案例。
 

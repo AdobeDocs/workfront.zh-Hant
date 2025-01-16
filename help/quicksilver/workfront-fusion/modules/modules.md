@@ -4,19 +4,29 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: workfront-fusion-2-0
 title: ' [!DNL Adobe] Workfront Fusion中的模組'
-description: 此處列出的文章說明 [!DNL Adobe Workfront Fusion]中的特定模組及其功能。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: b50b918c-7c74-442c-a91a-3f313d40d00b
-source-git-commit: 633c41eeb570402254125f92f3624cad7befd609
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '122'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]中的模組
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>如需新檔案的連結，請參閱個別文章。
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 本節包含下列文章：
 

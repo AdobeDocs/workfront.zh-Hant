@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
 title: ' [!DNL Adobe Workfront Fusion]中的數學變數'
-description: 下列數學變數可在 [!DNL Adobe Workfront Fusion mapping] 面板中使用。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 2fb561d2-0780-4fd6-87b3-5360a02df177
-source-git-commit: c325e16ba0cde4cd48fc3e40358a9ea9ed310659
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 3%
+source-wordcount: '195'
+ht-degree: 2%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]中的數學變數
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [數學變數](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/mapping-panel/functions/math-variables.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 <!--Audited: 4/2024-->
 

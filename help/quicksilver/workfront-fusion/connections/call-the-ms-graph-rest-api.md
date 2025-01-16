@@ -1,17 +1,29 @@
 ---
 title: 透過 [!DNL Adobe Workfront Fusion] HTTP &amp；gt；呼叫MS Graph REST API；建立OAuth 2.0請求模組
-description: 透過 [!DNL Adobe Workfront Fusion] HTTP &amp；gt；呼叫MS Graph REST API；建立OAuth 2.0請求模組
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: adae390d-8b9e-4dab-8551-605e50af5a1e
-source-git-commit: b90343eab40e91c6f5cddeaa960ce9c9c97b1d29
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '631'
 ht-degree: 1%
 
 ---
 
 # 透過[!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL 發出OAuth 2.0請求]模組呼叫[!UICONTROL  MS Graph REST API]
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [呼叫MS Graph REST API](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/connect-to-applications/call-the-ms-graph-rest-api.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 <!-- Audited: 3/2024-->
 

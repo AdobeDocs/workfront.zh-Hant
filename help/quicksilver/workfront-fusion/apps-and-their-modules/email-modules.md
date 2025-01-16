@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: 聯結器
 navigation-topic: apps-and-their-modules
 title: 電子郵件模組
-description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以將電子郵件帳戶連線至多個協力廠商應用程式和服務。這可讓您透過IMAP下載電子郵件、透過SMTP傳送電子郵件、建立新草稿、將電子郵件從一個資料夾移動及複製到另一個資料夾、將電子郵件標示為已讀取或未讀取，以及刪除電子郵件。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 384ba60a-d79e-4126-a247-6d67b5154ede
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '2626'
+source-wordcount: '2651'
 ht-degree: 0%
 
 ---
 
 # 電子郵件模組
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [電子郵件模組](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/email-modules.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 在[!DNL Adobe Workfront Fusion]案例中，您可以將電子郵件帳戶連線至多個協力廠商應用程式和服務。這可讓您透過IMAP下載電子郵件、透過SMTP傳送電子郵件、建立新草稿、將電子郵件從一個資料夾移動及複製到另一個資料夾、將電子郵件標示為已讀取或未讀取，以及刪除電子郵件。
 
@@ -102,11 +114,11 @@ SMAP連線可讓您從遠端存取信箱，並讀取或操作信箱中的郵件�
 >
 >稱為&#39;[!UICONTROL 電子郵件ID (UID)]&#39;的唯一電子郵件ID是電子郵件的識別碼。 電子郵件ID是每個電子郵件資料夾專屬的。
 
-* [觸發器](#triggers)
+* [觸發程序](#triggers)
 * [動作](#actions)
 * [迭代器](#iterators)
 
-### 觸發器
+### 觸發程序
 
 #### [!UICONTROL 觀看電子郵件]
 

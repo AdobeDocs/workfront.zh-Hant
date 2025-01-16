@@ -3,18 +3,31 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: connections-annd-webhooks
 title: 連線 [!DNL Adobe Workfront Fusion] 至任何Web服務
-description: 如果 [!DNL Adobe Workfront Fusion] 沒有提供您想在情境中使用的網頁服務應用程式，您可以使用 [!DNL Workfront Fusion] HTTP和Webhooks模組連線到網頁服務，如本文所述。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 8b2a7d85-e20e-4836-8418-3463d284194e
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 0%
+source-wordcount: '272'
+ht-degree: 1%
 
 ---
 
 # 將[!DNL Adobe Workfront Fusion]連線至任何Web服務
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [將Adobe Workfront Fusion連線至使用API權杖授權的Web服務](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/connect-to-applications/connect-wf-web-service-uses-api-token-auth.html)
+>* [為沒有聯結器的Web服務設定webhook](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/add-modules/receive-a-webhook-from-a-web-service.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 ## 存取需求
 

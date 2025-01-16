@@ -5,18 +5,30 @@ product-area: workfront-integrations;documents
 keywords: 聯結器
 navigation-topic: apps-and-their-modules
 title: Google Forms模組
-description: ' [!DNL Adobe Workfront Fusion Google Forms] 模組可讓您在您的Google Forms上監視、選擇、新增、更新或刪除回應。'
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 45c86879-bc4e-4134-b63c-02410b9de43b
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1435'
+source-wordcount: '1493'
 ht-degree: 0%
 
 ---
 
 # [!DNL Google Forms]模組
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [Google Forms模組](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-forms-modules.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 [!DNL Adobe Workfront Fusion] [!DNL Google Forms]模組可讓您監視、選取、新增、更新或刪除您的[!DNL Google Forms]回應。
 
@@ -71,7 +83,7 @@ ht-degree: 0%
 
 ## Google Forms API資訊
 
-Google Forms聯結器使用下列專案：
+Google Forms聯結器會使用以下專案：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -103,11 +115,11 @@ Google Forms聯結器使用下列專案：
 
 ![](assets/map-toggle-350x74.png)
 
-* [觸發器](#triggers)
+* [觸發程序](#triggers)
 * [動作](#actions)
 * [搜尋](#searches)
 
-### 觸發器
+### 觸發程序
 
 #### [!UICONTROL 觀看回應]
 

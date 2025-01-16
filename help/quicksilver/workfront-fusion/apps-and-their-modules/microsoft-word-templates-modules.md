@@ -6,18 +6,30 @@ product-area: workfront-integrations
 keywords: 聯結器
 navigation-topic: apps-and-their-modules
 title: Microsoft Word範本模組
-description: 在Adobe Workfront Fusion案例中，您可以自動化使用Microsoft Word範本的工作流程，並將其連結至多個協力廠商應用程式和服務。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 889b417c-04a9-4dbf-9a34-0dab65f11f03
-source-git-commit: 0b8a4e3864cf9ca2c179a824bdb87977819c9383
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1387'
+source-wordcount: '1436'
 ht-degree: 0%
 
 ---
 
 # [!DNL Microsoft Word Template]模組
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [Microsoft Word範本模組](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/microsoft-word-templates-modules.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 在[!DNL Adobe Workfront Fusion]案例中，您可以自動化使用[!DNL Microsoft Word Templates]的工作流程，並將其連線至多個協力廠商應用程式和服務。
 

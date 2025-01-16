@@ -5,19 +5,31 @@ product-area: workfront-integrations
 keywords: 聯結器
 navigation-topic: workfront-fusion-2-0
 title: 應用程式及其模組
-description: Adobe Workfront Fusion目前提供此清單上應用程式的專用聯結器。 如果您要使用的應用程式不在清單上，您可以使用HTTP、SOAP或JSON模組連線至該應用程式。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 7075a649-ab0c-4dfc-b726-c5702c90b457
-source-git-commit: 5b24a91a9ea5dadb071dfdd88d9f80b2589a1323
+source-git-commit: 3983d811a849c01b3c34b1cd6ee895e5552225a6
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 19%
+source-wordcount: '275'
+ht-degree: 16%
 
 ---
 
 # 應用程式及其模組
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [Fusion應用程式及其模組參考：文章索引](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/apps-and-modules-toc.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 >[!IMPORTANT]
 >

@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: 聯結器
 navigation-topic: apps-and-their-modules
 title: Adobe I/O事件模組
-description: 使用Adobe I/O事件模組，您可以根據Adobe應用程式中的事件啟動Adobe Workfront Fusion案例。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 18ad8098-9742-44d2-97cd-b0c2b5591538
-source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '987'
 ht-degree: 1%
 
 ---
 
 # Adobe I/O事件模組
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [Adobe I/O活動模組](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/adobe-io-events-modules.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 您可以使用「Adobe I/O事件」模組，根據沒有專用Adobe Workfront Fusion聯結器的Adobe帳戶和服務中的事件來啟動Workfront Fusion案例。
 
@@ -148,11 +160,11 @@ Adobe I/O事件聯結器會使用以下專案：
 
 ![](assets/map-toggle-350x74.png)
 
-* [觸發器](#triggers)
+* [觸發程序](#triggers)
 * [動作](#actions)
 * [搜尋](#searches)
 
-### 觸發器
+### 觸發程序
 
 #### 建立事件註冊
 

@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
 title: Adobe Workfront Fusion中的一般函式
-description: Adobe Workfront Fusion對應面板中有以下一般函式。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 74bfda4e-5690-4b8c-ac58-20cf261f188d
-source-git-commit: 5cd1cbd1976d5574668098be53daee780a9cc1fb
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]中的一般函式
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [一般函式](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/mapping-panel/functions/general-functions.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 ## 存取需求
 

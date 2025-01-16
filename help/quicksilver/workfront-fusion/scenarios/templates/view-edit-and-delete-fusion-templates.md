@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: 檢視、編輯和刪除 [!DNL Adobe Workfront Fusion] 範本
-description: 除了Adobe Workfront授權，Adobe Workfront Fusion還需要Adobe Workfront Fusion授權。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 97e3402c-d1d0-44f6-9752-11b0f5abee22
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
 
 # 檢視、編輯和刪除[!DNL Adobe Workfront Fusion]範本
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [檢視、編輯和刪除範本](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-and-manage-templates/view-edit-and-delete-fusion-templates.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 除了[!DNL Adobe Workfront license]之外，[!DNL Adobe Workfront Fusion]還需要Adobe Workfront Fusion授權。
 

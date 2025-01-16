@@ -4,13 +4,13 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Webhook
-description: webhook是由事件觸發的HTTP呼叫。 您可以使用Webhook來啟動即時觸發程式模組。 任何連線至網際網路並允許HTTP請求的應用程式都可以將Webhook傳送至Adobe Workfront Fusion。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 987544a4-5840-40d4-9438-41a000aa22ee
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1492'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,19 @@ ht-degree: 0%
 # Webhook
 
 
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [Webhooks](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/universal-connectors/webhooks-updated.html)
+>* [為沒有聯結器的Web服務設定webhook](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/add-modules/receive-a-webhook-from-a-web-service.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 <!--This information moved to the webhooks article in the create scenarios folders in the new repo-->
 

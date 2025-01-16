@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Publish和共用 [!DNL Adobe Workfront Fusion] 範本
-description: 建立範本時，您的範本將可供所有專案團隊成員使用。 如果您想要與團隊外部的人員共用範本，必須先發佈。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: aaa59a1e-aa16-41f5-9f56-ce0615c1b685
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '626'
 ht-degree: 0%
 
 ---
 
 # Publish和共用[!DNL Adobe Workfront Fusion]個範本
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [Publish和共用範本](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-and-manage-templates/publish-and-share-fusion-templates.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 建立範本時，您的範本將可供所有專案團隊成員使用。 如果您想要與團隊外部的人員共用範本，必須先發佈。
 

@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
 title: Adobe Workfront Fusion中的路由器模組
-description: 路由器模組可讓您將流量分支至數個路由，並以不同方式處理每個路由中的資料。 路由器模組收到束後，會依照路由連結至路由器模組的順序，將其轉送至每個連線的路由。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 3c39c562-1cee-4f8e-89cc-0ed554079a2b
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '659'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]中的[!UICONTROL 路由器]模組
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [新增路由器模組並設定路由](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/add-modules/router-module.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 [!UICONTROL 路由器]模組可讓您將流量分支為數個路由，並以不同方式處理每個路由中的資料。 一旦[!UICONTROL 路由器]模組收到套件組合，它會依照路由附加至[!UICONTROL 路由器]模組的順序將其轉送至每個連線的路由。
 

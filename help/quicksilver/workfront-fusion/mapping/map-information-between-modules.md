@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: mapping
 title: 在 [!DNL Adobe Workfront Fusion]中將資訊從一個模組對應到另一個模組
-description: 對應是將模組的輸出（結構化為專案）指派給其他模組的輸入欄位的程式。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: e8d619e9-6425-4136-ac71-47d979d68a2d
-source-git-commit: 3772223938008e3a54ce0a48aaae1f3edb5bf252
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1567'
+source-wordcount: '1628'
 ht-degree: 0%
 
 ---
 
 # 在[!DNL Adobe Workfront Fusion]中將資訊從一個模組對應到另一個模組
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [將資訊從一個模組對應到另一個模組](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/map-data/map-data-from-one-to-another.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 對應是將模組的輸出（結構化為專案）指派給其他模組的輸入欄位的程式。
 

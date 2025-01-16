@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
 title: 使用 [!DNL Adobe Workfront Fusion]中的函式對應專案
-description: 對映專案時，您可以使用函式來建立簡單或複雜的公式。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: e64d9b1e-8576-43db-ac29-0d386a482fbc
-source-git-commit: d175a3d43f13338661d8b7e1cb79038a36522ff9
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 0%
+source-wordcount: '566'
+ht-degree: 1%
 
 ---
 
 # 使用[!DNL Adobe Workfront Fusion]中的函式對應專案
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [使用函式對應專案](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/map-data/map-using-functions.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 對映專案時，您可以使用函式來建立簡單或複雜的公式。 [!DNL Adobe Workfront Fusion]中可用的函式類似於Excel中的函式以及某些程式語言中的函式：
 

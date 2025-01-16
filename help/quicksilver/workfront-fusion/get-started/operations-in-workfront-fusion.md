@@ -4,18 +4,32 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Adobe Workfront Fusion中的作業
-description: Adobe Workfront Fusion中的作業是由模組執行的任務。 基於追蹤目的，模組所執行的任何成功動作都是作業。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 34268fb6-e485-42be-b751-3ee79bbf5797
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]中的作業
+
+
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [作業](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/operations-in-workfront-fusion.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 [!DNL Adobe Workfront Fusion]中的作業是由模組執行的作業。 基於追蹤目的，模組所執行的任何成功動作都是作業。
 

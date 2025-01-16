@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
 title: ' [!DNL Adobe Workfront Fusion]中日期和時間格式的Token'
-description: ' [!DNL Adobe Workfront Fusion mapping] 面板中有下列日期和時間格式的Token。'
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 19d0608e-7902-4d09-b71d-e6ae8ed7a6fd
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 5%
+source-wordcount: '437'
+ht-degree: 6%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]中日期和時間格式的Token
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [日期和時間格式的Token](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/mapping-panel/functions/tokens-for-date-and-time-formatting.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 ## 存取需求
 
@@ -297,12 +309,12 @@ ht-degree: 5%
   <tr> 
    <td><code>A</code></td> 
    <td><code>AM PM </code> </td> 
-   <td> <p>Post或舊式經線（大寫）</p> </td> 
+   <td> <p>後式或前式經線（大寫）</p> </td> 
   </tr> 
   <tr> 
    <td><code>a</code> </td> 
    <td><code>am pm </code> </td> 
-   <td> <p> Post或舊式經線（小寫）</p> </td> 
+   <td> <p> 後置或前置經軸（小寫）</p> </td> 
   </tr> 
   <tr> 
    <td><code>m</code> </td> 

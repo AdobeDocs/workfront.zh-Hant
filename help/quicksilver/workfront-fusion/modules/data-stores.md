@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
 title: ' [!DNL Adobe Workfront Fusion]中的資料存放區'
-description: 資料存放區（類似於資料庫或簡單表格）可以儲存情境中的資料，以便在個別情境或情境執行之間傳輸資料。 您可以在同步期間使用資料存放區來儲存來自不同系統的新資料。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 2a665a71-b819-4861-b119-f5c28b87e9c5
-source-git-commit: 00a969175626d27b70d516921097725fdf818799
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1336'
+source-wordcount: '1369'
 ht-degree: 1%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]中的資料存放區
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [建立和管理資料存放區](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/map-data/data-stores.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 資料存放區（類似於資料庫或簡單表格）可以儲存情境中的資料，以便在個別情境或情境執行之間傳輸資料。 您可以在同步期間使用資料存放區來儲存來自不同系統的新資料。
 
@@ -78,7 +90,7 @@ ht-degree: 1%
 
 <!--If your organization is on the new Workfront plan model (Select, Prime, and Ultimate packages), your total data store size is:-->
 
-如果您的組織使用新的Workfront計畫模型（Select、Prime和Ultimate套件），則組織的計畫會影響您的Fusion執行個體可用的資料儲存大小和數量。
+如果您的組織使用新的Workfront計畫模型(Select、Prime和Ultimate套件)，則您的組織計畫會影響您的Fusion執行個體可用的資料存放區大小和數量。
 
 ### Ultimate計畫
 
@@ -87,7 +99,7 @@ Ultimate套件上的Fusion執行個體會收到：
 * 100 MB的空間
 * 50個資料存放區
 
-### 選取和主要計畫
+### 選取和Prime計畫
 
 Select或Prime套件上的Fusion執行個體會收到：—>
 

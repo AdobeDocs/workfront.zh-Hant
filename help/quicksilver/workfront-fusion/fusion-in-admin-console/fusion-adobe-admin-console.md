@@ -4,18 +4,22 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: fusion-in-admin-console
 title: 平台型管理差異(Adobe Workfront Fusion/Adobe Business Platform)
-description: 身為Adobe Workfront Fusion管理員，您的管理責任和程式會因您的組織是否已上線到Adobe業務平台而有所不同。 本文列出必須以不同方式處理的程式，以及Workfront Fusion和Adobe Admin Console中程式指示的連結。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 86f8cc24-c1a2-4f47-bd08-39bb0f6b2940
-source-git-commit: 392eee3c7b1aacf92d7877f07a8154924f3926a0
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '325'
 ht-degree: 0%
 
 ---
 
 # 平台式管理差異([!DNL Adobe Workfront Fusion]/[!DNL Adobe Admin Console])
+
+>[!IMPORTANT]
+>
+>本文將在近期移除，因為所有組織都已移至Adobe Admin Console。
 
 如果您的組織已加入[!DNL Adobe Admin Console]，則您的使用者會使用[!DNL Adobe Admin Console]來存取[!DNL Adobe Workfront Fusion]。 這表示：
 

@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
 title: Adobe Workfront Fusion中的數學函式
-description: Adobe Workfront Fusion對應面板中有以下數學函式。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 8a3c7a89-62b5-45e9-b857-8beedd0e5af4
-source-git-commit: c325e16ba0cde4cd48fc3e40358a9ea9ed310659
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '366'
 ht-degree: 1%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]中的數學函式
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [數學函式](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/mapping-panel/functions/math-functions.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 <!--Audited: 4/2024-->
 

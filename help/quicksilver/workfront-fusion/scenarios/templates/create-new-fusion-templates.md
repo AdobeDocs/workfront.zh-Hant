@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: 在 [!DNL Adobe Workfront Fusion]中建立新範本
-description: 您可以在 [!DNL Adobe] Workfront Fusion中建立新的情境範本。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: fdfa509c-30c6-431e-89f3-a4bf50261e8a
-source-git-commit: f3f34e807228b299c0570e63bdf329f4e20e0340
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '859'
 ht-degree: 0%
 
 ---
 
 # 在[!DNL Adobe Workfront Fusion]中建立新範本
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [建立新範本](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-and-manage-templates/create-new-fusion-templates.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 您可以在[!DNL Adobe] Workfront Fusion中建立新的情境範本。
 

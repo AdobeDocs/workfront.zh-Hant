@@ -5,18 +5,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Adobe Journey Optimizer模組
-description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以自動化使用 [!DNL Adobe Journey Optimizer]的工作流程，並將其連線到多個協力廠商應用程式和服務。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 2c1aea46-edbf-42a3-a6e9-f8aea042a48d
-source-git-commit: f6b00b98d3375e5660d684f1fad682fa721517aa
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '3692'
+source-wordcount: '3747'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Journey Optimizer]模組
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [Adobe Journey Optimizer模組](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/adobe-journey-optimizer-modules.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 在[!DNL Adobe Workfront Fusion]案例中，您可以自動化使用[!DNL Adobe Journey Optimizer]的工作流程，並將其連線至多個協力廠商應用程式和服務。 [!DNL Adobe Journey Optimizer]模組可讓您建立、讀取、更新或刪除記錄，或執行對[!DNL Adobe Journey Optimizer] API的自訂API呼叫。
 
@@ -89,7 +101,7 @@ Adobe Journey Optimizer聯結器會使用以下專案：
  <tbody> 
   <tr> 
    <td role="rowheader">基礎URL</td> 
-   <td>&lbrace;&lbrace;connection.url&rbrace;&rbrace;</td> 
+   <td>{{connection.url}}</td> 
   </tr>
   <tr> 
    <td role="rowheader">API標籤</td> 
@@ -189,7 +201,7 @@ Adobe Journey Optimizer聯結器會使用以下專案：
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL選取設定型別]</td> 
-   <td>選取您要建立上限設定還是節流設定。<ul><li><p><b>頻率限定</b></p>繼續<a href="#capping-fields" class="MCXref xref" >限定欄位</a>。</li><li><p><b>節流</b></p>繼續<a href="#throttling-fields" class="MCXref xref" >節流欄位</a>。</li></ul></td> 
+   <td>選取您要建立上限設定還是節流設定。<ul><li><p><b>頻率上限</b></p>繼續<a href="#capping-fields" class="MCXref xref" >限定欄位</a>。</li><li><p><b>節流</b></p>繼續<a href="#throttling-fields" class="MCXref xref" >節流欄位</a>。</li></ul></td> 
   </tr> 
    </tbody> 
 </table>
@@ -303,7 +315,7 @@ Adobe Journey Optimizer聯結器會使用以下專案：
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL選取設定型別]</td> 
-   <td>選取您要更新上限設定還是節流設定。<ul><li><p><b>頻率限定</b></p>如需欄位相關資訊，請參閱本文章建立設定一節中的<a href="#capping-fields" class="MCXref xref" >欄位上限</a>。</li><li><p><b>節流</b></p>如需欄位相關資訊，請參閱本文章建立設定一節中的<a href="#throttling-fields" class="MCXref xref" >節流欄位</a>。</li></ul></td> 
+   <td>選取您要更新上限設定還是節流設定。<ul><li><p><b>頻率上限</b></p>如需欄位相關資訊，請參閱本文章建立設定一節中的<a href="#capping-fields" class="MCXref xref" >欄位上限</a>。</li><li><p><b>節流</b></p>如需欄位相關資訊，請參閱本文章建立設定一節中的<a href="#throttling-fields" class="MCXref xref" >節流欄位</a>。</li></ul></td> 
   </tr> 
   </tbody> 
 </table>

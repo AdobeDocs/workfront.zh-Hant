@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: 管理 [!DNL Adobe Workfront Fusion]中鎖定的案例
-description: 管理 [!DNL Adobe Workfront Fusion]中鎖定的案例
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 5fccf336-d904-43fe-ad4a-c3ce76dbcad0
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
 
 # 在[!DNL Adobe Workfront Fusion]中管理鎖定的案例
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [管理鎖定的案例](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/view-manage-locked-scenario.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 在某些情況下，情境可能會暫時鎖定在[!DNL Workfront Fusion]。 鎖定的執行將在2-4小時內自動解鎖。 您也可以手動解除鎖定案例。
 

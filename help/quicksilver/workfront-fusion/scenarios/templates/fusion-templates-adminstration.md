@@ -3,18 +3,31 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Adobe Workfront Fusion範本管理
-description: 如果您是管理員，則擁有檢視、修改、重新命名、發佈、核准和刪除其他人建立的範本的許可權。 您可以從 [!DNL Adobe Workfront Fusion Administration] 區域的[!UICONTROL 範本]頁面執行這些動作。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 63c14183-0d22-44f3-87e5-c311cfbf5540
-source-git-commit: 2b67b5fb951b5ae7867144c444411ebd1c299e75
+source-git-commit: 8163f9f12bb27bbc8adfde34fc1e1f0f8c8be7f9
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]範本管理
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [核准或不核准公用索引標籤的範本](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/manage-templates-admin/approve-templates.html)
+>* [編輯範本](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/manage-templates-admin/edit-templates.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 如果您是管理員，則擁有檢視、修改、重新命名、發佈、核准和刪除其他人建立的範本的許可權。 您可以從[!DNL Adobe Workfront Fusion Administration]區域的[!UICONTROL 範本]頁面執行這些動作。
 

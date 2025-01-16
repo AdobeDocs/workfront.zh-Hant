@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: 將觸發程式模組新增至基本情境
-description: 瞭解如何新增觸發程式模組，以允許案例定期尋找新請求並將它們轉換為專案。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: f4588063-024f-4520-986e-45342a6b6777
-source-git-commit: 1196e2d7a6d6750944a7c6209222f07382abfee7
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
 
 # 使用函式在[!DNL Adobe Workfront Fusion]中更新簡單案例中的專案
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [使用函式更新基本案例中的專案](https://experienceleague.adobe.com/docs/workfront-fusion/using/build-practice-scenarios/use-function-to-build-practice-scenario.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 更新Workfront工作專案是Workfront Fusion的常見使用案例。 在此範例中，您將使用函式將專案名稱變更為大寫字母。
 

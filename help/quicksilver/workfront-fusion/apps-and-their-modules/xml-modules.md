@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: XML
-description: XML應用程式可讓您透過XML &amp；剖析XML模組來剖析XML格式文字，並將它轉換為套件組合，讓其他模組可以使用該資料。 您也可以透過XML &amp；gt；建立XML模組將組合轉換為XML格式文字
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 3459e930-8156-4171-8920-34f4e07bc530
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1477'
 ht-degree: 1%
 
 ---
 
 # XML
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [XML](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/tools-and-transformers/xml-modules.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 [!UICONTROL XML]應用程式可讓您透過[!UICONTROL XML] > [!UICONTROL 剖析XML]模組來剖析XML格式文字，並將它轉換成組合以供其他模組使用。 您也可以透過[!UICONTROL XML] > [!UICONTROL 建立XML]模組，將組合轉換為XML格式文字
 

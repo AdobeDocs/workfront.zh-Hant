@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: sftp模組
-description: ' [!DNL Adobe Workfront Fusion SFTP] 模組可讓您監視選取的資料夾/子資料夾中的檔案變更、將新檔案上傳到所需的資料夾、修改或刪除資料夾中現有的檔案，或變更檔案許可權。'
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: aacc61f8-ffc3-48db-9f54-188685c52067
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1920'
+source-wordcount: '1958'
 ht-degree: 0%
 
 ---
 
 # sftp模組
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [SFTP模組](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/universal-connectors/sftp.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 [!DNL Adobe Workfront Fusion] SFTP模組可讓您監視選取的資料夾/子資料夾中的檔案變更、將新檔案上傳到所需的資料夾、修改或刪除資料夾中現有的檔案，或變更檔案許可權。
 
@@ -103,7 +115,7 @@ ht-degree: 0%
 
 ![](assets/map-toggle-350x74.png)
 
-### 觸發器
+### 觸發程序
 
 #### [!UICONTROL 在資料夾中監視檔案]
 

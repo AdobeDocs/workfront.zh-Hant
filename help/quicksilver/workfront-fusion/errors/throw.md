@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: errors
 title: 在Adobe Workfront Fusion中擲回錯誤處理
-description: 在某些情況下，您可能會想要強制停止案例執行，然後是「復原」或「認可」階段，或者停止處理路由，並選擇性地將其儲存在「檢視」佇列中，並在Adobe Workfront Fusion中解決未完成的執行。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 6258bd4d-31a0-4fbb-b1b4-8e9a5a9dbe36
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
 
 # 在[!DNL Adobe Workfront Fusion]中擲回錯誤處理
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [設定`throw`錯誤因應措施](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/configure-error-handling/throw.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 在某些情況下，您可能會想要強制停止案例執行，然後是[回覆](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#rollback)或[認可](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#commit)階段，或停止路由處理，並選擇性地將其儲存在未完成執行的佇列中。
 

@@ -1,16 +1,29 @@
 ---
 title: JSONata模組
-description: Adobe Workfront Fusion JSONata聯結器提供處理JSON格式資料的模組，讓Adobe Workfront Fusion可以進一步處理資料內容。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
-source-git-commit: b7a6ecd9089c3a5517c56b849b860d57a900dade
+exl-id: 5fd835a2-04cd-427c-a99f-985a99ecef0d
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 1%
+source-wordcount: '303'
+ht-degree: 0%
 
 ---
 
 # [!UICONTROL JSONata]模組
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [JSONata模組](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/tools-and-transformers/jsonata-module.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 [!DNL Adobe Workfront Fusion] [!UICONTROL JSONata]聯結器可讓您查詢JSON物件。 此模組不需要連線。
 

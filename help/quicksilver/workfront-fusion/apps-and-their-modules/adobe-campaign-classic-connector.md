@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: 聯結器
 navigation-topic: apps-and-their-modules
 title: Adobe Campaign v7/v8模組
-description: 透過 [!DNL Adobe Campaign] 模組，您可以根據您 [!DNL Adobe Campaign] 帳戶中的事件來啟動 [!DNL Adobe Workfront Fusion] 案例、建立、讀取或更新合約及其他記錄、使用您設定的條件搜尋記錄，以及上傳檔案。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 84e8fa35-0c3c-46bd-8886-88c6d8d9e1d5
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1448'
+source-wordcount: '1490'
 ht-degree: 1%
 
 ---
 
 # [!DNL Adobe Campaign]模組
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [Adobe Campaign模組](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/adobe-campaign-classic-connector.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 透過[!DNL Adobe Campaign]模組，您可以根據[!DNL Adobe Campaign v7/v8]帳戶中的事件啟動[!DNL Adobe Workfront Fusion]案例、建立、讀取或更新記錄、使用您設定的條件搜尋記錄，以及執行自訂API呼叫。
 
@@ -149,11 +161,11 @@ Adobe Campaign聯結器會使用以下專案：
 
 ![](assets/map-toggle-350x74.png)
 
-* [觸發器](#triggers)
+* [觸發程序](#triggers)
 * [動作](#actions)
 * [搜尋](#searches)
 
-### 觸發器
+### 觸發程序
 
 #### [!UICONTROL 觀看記錄]
 

@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: 聯結器
 navigation-topic: apps-and-their-modules
 title: AWS S3模組
-description: ' [!DNL Adobe Workfront Fusion AWS] S3模組可讓您對S3儲存貯體執行操作。'
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 33623b5d-d9ff-4d41-b938-33378f50539e
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1392'
+source-wordcount: '1455'
 ht-degree: 0%
 
 ---
 
 # AWS S3模組
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [AWS S3模組](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/aws-s3-modules.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 [!DNL Adobe Workfront Fusion AWS] S3模組可讓您對S3儲存貯體執行作業。
 
@@ -73,7 +85,7 @@ AWS S3聯結器使用下列專案：
  <tbody> 
   <tr> 
    <td role="rowheader">基礎URL</td> 
-   <td>https://s3.&lbrace;&lbrace;parameter.region&rbrace;&rbrace;.amazonaws.com</td> 
+   <td>https://s3.{{parameters.region}}.amazonaws.com</td> 
   </tr>
   <tr> 
    <td role="rowheader">API標籤</td> 

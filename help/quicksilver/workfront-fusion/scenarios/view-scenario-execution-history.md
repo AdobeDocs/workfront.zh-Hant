@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: 在Adobe Workfront Fusion中檢視情境歷史記錄
-description: 您可以顯示某個案例所有執行的相關資訊，也可以搜尋特定資料之案例的所有執行。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: cc2c3f87-34dc-4a06-9f5f-1a7fb10a3b82
-source-git-commit: 2e26c4e4b5f331ed2e609381ef442f45e90c4faa
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '972'
+source-wordcount: '1025'
 ht-degree: 0%
 
 ---
 
 # 在[!DNL Adobe Workfront Fusion]中檢視情境歷史記錄
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [檢視情境的執行歷程記錄](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/view-scenario-execution-history.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 您可以顯示情境的事件或執行相關資訊，也可以搜尋情境的所有執行以尋找特定資料。
 

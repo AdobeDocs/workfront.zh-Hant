@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: errors
 title: 在 [!DNL Adobe Workfront Fusion]中處理時發生錯誤
-description: 有時候，執行情境期間可能會發生錯誤。 如果服務因無法連線至服務而無法使用，或驗證失敗，通常就會發生這種情況。 本文會討論您可能會遇到的常見錯誤。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 468d7460-3853-4016-bff9-b9d3b87198ed
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1276'
 ht-degree: 1%
 
 ---
 
 # 在[!DNL Adobe Workfront Fusion]中處理時發生錯誤
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [錯誤型別](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/errors/error-processing.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 有時候，執行情境期間可能會發生錯誤。 如果服務因無法連線至服務而無法使用，或驗證失敗，通常就會發生這種情況。 本文會討論您可能會遇到的常見錯誤。
 

@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: 在Adobe Workfront Fusion中建立情境
-description: 下列工作說明如何建立 [!DNL Adobe Workfront Fusion] 案例。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: adf66cfc-ccaf-4b29-9199-c13260695569
-source-git-commit: ee2283ac159ca26ca473cac28ec4bed85d1dea04
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1473'
 ht-degree: 0%
 
 ---
 
 # 在[!DNL Adobe Workfront Fusion]中建立情境
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [建立情境的工作流程](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/plan-a-scenario/create-a-scenario-workflow.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 下列工作說明如何建立[!DNL Adobe Workfront Fusion]情境。
 

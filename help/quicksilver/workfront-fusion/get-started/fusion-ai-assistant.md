@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Workfront Fusion中的AI助理
-description: Workfront Fusion中的AI助理
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 99d614da-e900-448b-ab80-13f002638670
-source-git-commit: 2b455fb2d3892c6bb796aa7ea57a60c861c3d599
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 2%
+source-wordcount: '354'
+ht-degree: 1%
 
 ---
 
 # Workfront Fusion中的AI助理
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* Workfront Fusion中的[AI小幫手](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/fusion-ai-assistant.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 AI Assistant可以從Workfront檔案中尋找資訊，讓您無須造訪Adobe Experience League即可取得所需的協助。
 
@@ -47,7 +59,7 @@ AI Assistant可以從Workfront檔案中尋找資訊，讓您無須造訪Adobe Ex
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增： [!DNL Workfront Fusion]已包含在Ultimate Workfront計畫中。</p> <p>或</p>
+   <p>新增： [!DNL Workfront Fusion]包含在Ultimate Workfront計畫中。</p> <p>或</p>
    <p>目前：無法使用</p>
    </td> 
   </tr>

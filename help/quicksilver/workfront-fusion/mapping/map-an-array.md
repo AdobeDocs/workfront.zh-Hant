@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: mapping
 title: 在 [!DNL Adobe] Workfront Fusion中對應陣列
-description: 您可以將陣列對應至Adobe Workfront Fusion中的模組欄位。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 725e0c24-cb4b-46c4-9c00-4f9cc334fbc7
-source-git-commit: f87bc22f4ce70f266a199fcb54c5a74f9e3ba914
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '865'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
 
 # 在[!DNL Adobe Workfront Fusion]中對應陣列
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [對應陣列或陣列元素](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/map-data/map-an-array.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 陣列是一種特殊型別的專案，可包含下列專案：
 

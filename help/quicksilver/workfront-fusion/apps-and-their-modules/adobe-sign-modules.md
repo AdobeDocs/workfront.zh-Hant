@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: 聯結器
 navigation-topic: apps-and-their-modules
 title: Adobe Acrobat Sign模組
-description: 透過 [!DNL Adobe Acrobat Sign] 模組，您可以根據您 [!DNL Adobe] Acrobat Sign帳戶中的事件來啟動 [!DNL Adobe Workfront Fusion] 案例、建立、讀取或更新合約及其他記錄、使用您設定的條件搜尋記錄，以及上傳檔案。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 01158218-31a6-4c68-a9b7-6a678a8f40c9
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '6652'
+source-wordcount: '6693'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Acrobat Sign]模組
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [Adobe Acrobat Sign模組](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/adobe-sign-modules.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 透過[!DNL Adobe Acrobat Sign]模組，您可以根據[!DNL Adobe Acrobat Sign]帳戶中的事件來啟動[!DNL Adobe Workfront Fusion]案例、建立、讀取或更新合約及其他記錄、使用您設定的條件搜尋記錄，以及上傳檔案。
 
@@ -97,11 +109,11 @@ Adobe Acrobat Sign聯結器會使用以下專案：
 
 ![](assets/map-toggle-350x74.png)
 
-* [觸發器](#triggers)
+* [觸發程序](#triggers)
 * [動作](#actions)
 * [搜尋](#searches)
 
-### 觸發器
+### 觸發程序
 
 <!--
 * [Watch for agreements](#watch-for-agreements) 

@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: 在 [!DNL Adobe Workfront Fusion]中的案例詳細資料
-description: 在 [!DNL Adobe Workfront Fusion]中的案例詳細資料
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 1d8a3492-d609-43c8-a486-a401a597f160
-source-git-commit: 28b422b818cd3e6774c28aae994526a0e7d0420c
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 0%
+source-wordcount: '674'
+ht-degree: 1%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]中的案例詳細資料
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [案例詳細資料概觀](https://experienceleague.adobe.com/docs/workfront-fusion/using/get-started-with-fusion/navigate-workfront-fusion/scenario-details.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 案例詳細資訊頁面是特定案例的首頁。 它可讓您存取頁面上所呈現案例的特定資訊。
 

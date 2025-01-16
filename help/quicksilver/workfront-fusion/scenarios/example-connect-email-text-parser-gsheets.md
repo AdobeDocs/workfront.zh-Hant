@@ -3,18 +3,22 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Adobe Workfront Fusion案例範例：連線電子郵件、文字剖析器和Google工作表
-description: 此案例可協助您建立所有電子郵件訊息的記錄，並在試算表中標籤這些訊息以供後續動作。 它會使用規則運算式(Regex)作為搜尋模式，擷取試算表中兩個個別表格中的電子郵件內文。 第一個模式會搜尋片語，第二個模式會搜尋相同的片語和電子郵件地址。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用。
 author: Becky
 feature: Workfront Fusion
 exl-id: ebcfa3b9-3207-441c-9ce5-9af696c0119d
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1176'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]案例範例：連線電子郵件、[!UICONTROL 文字剖析器]和[!DNL Google Sheets]
+
+>[!IMPORTANT]
+>
+>本文將於近期移除。
 
 此案例可協助您建立所有電子郵件訊息的記錄，並在試算表中標籤這些訊息以供後續動作。 它會使用規則運算式(Regex)作為搜尋模式，擷取試算表中兩個個別表格中的電子郵件內文。 第一個模式會搜尋片語，第二個模式會搜尋相同的片語和電子郵件地址。
 

@@ -1,18 +1,30 @@
 ---
 title: docussign模組
-description: ' [!DNL Adobe Workfront Fusion DocuSign] 模組可讓您監視和擷取信封狀態、搜尋和擷取信封，或下載和傳送檔案以登入您的 [!DNL DocuSign] 帳戶。'
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 draft: Probably
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: a6ebfe6f-dc3f-41f7-8129-bbc5775cff33
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1959'
+source-wordcount: '2007'
 ht-degree: 0%
 
 ---
 
 # docussign模組
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [DocuSign模組](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/docusign-modules.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 [!DNL Adobe Workfront Fusion] [!DNL DocuSign]模組可讓您監視和擷取信封狀態、搜尋和擷取信封，或下載和傳送檔案以登入您的[!DNL DocuSign]帳戶。
 
@@ -110,10 +122,10 @@ DocuSign聯結器使用下列專案：
 
 ![](assets/map-toggle-350x74.png)
 
-* [觸發器](#triggers)
+* [觸發程序](#triggers)
 * [動作](#actions)
 
-### 觸發器
+### 觸發程序
 
 #### [!UICONTROL 看信封]
 

@@ -4,17 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Draft.js模組
-description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以使用Draft.js模組將Draft.js轉換為HTML，並將HTML轉換為Draft.js。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 8c57f1eb409cd2186fa60a4ba3a7047e9b572871
+exl-id: 5f4634ed-0861-4c21-8cfe-da5a5e633ff8
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '263'
 ht-degree: 1%
 
 ---
 
 # [!UICONTROL Draft.js]模組
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [Draft.js模組](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/tools-and-transformers/draft-js-modules.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 在[!DNL Adobe Workfront Fusion]案例中，您可以使用[!UICONTROL Draft.js]模組將Draft.js轉換為HTML，並將HTML轉換為Draft.js。 您可以將其與Workfront模組搭配使用，以新增RTF文字至Workfront欄位或從中讀取RTF文字。
 

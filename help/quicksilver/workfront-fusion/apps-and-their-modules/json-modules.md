@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: JSON 模組
-description: Adobe Workfront Fusion JSON應用程式提供可處理JSON格式資料的模組，讓Adobe Workfront Fusion能夠進一步處理資料內容，或建立新的JSON內容。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 60540608-9d2e-4e10-9fb2-5388dda64784
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1214'
+source-wordcount: '1256'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL JSON]模組
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [JSON模組](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/tools-and-transformers/json-modules.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 [!DNL Adobe Workfront Fusion] [!UICONTROL JSON]應用程式提供模組以處理JSON格式的資料，讓[!DNL Adobe Workfront Fusion]可以進一步處理資料內容，或建立新的JSON內容。
 
@@ -88,7 +100,7 @@ ht-degree: 0%
 >       "name" : "Peter",
 >
 >    
->   "ID" : 1
+   "ID" : 1
 >}
 >```
 >
@@ -108,7 +120,7 @@ ht-degree: 0%
 >   },
 >
 >  
-> {
+ {
 >       "name" : "Mike",
 >       "ID" : 2
 >   }
@@ -248,26 +260,25 @@ ht-degree: 0%
 >
 **範例：**
 >
->     ```
->     {
->     
->     "books": [
->     
->     {
->     
->     "id": "ID",
->     
->     "title": "Title",
->     
->     "author": "Author"
->     
->     }
->     
->     ]
->     
->     }
->     
->     ```
+```
+{
+
+"books": [
+
+{
+
+"id": "ID",
+
+"title": "Title",
+
+"author": "Author"
+
+}
+
+]
+
+}
+```
 >
 1. 按一下「**[!UICONTROL 儲存]**」。資料結構中的[!UICONTROL 規格]欄位現在包含產生的結構。
 1. 將您的資料結構名稱變更為更具體的名稱，然後按一下[儲存]。**** 對應至根陣列屬性的欄位會顯示為JSON模組設定中的可對應欄位。

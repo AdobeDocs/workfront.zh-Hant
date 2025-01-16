@@ -4,18 +4,31 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: organizations
 title: Adobe Workfront Fusion組織和團隊
-description: Adobe Workfront Fusion的「組織」和「團隊」功能可讓企業控制Fusion中情境和其他功能的存取權。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: 063c4a885d43b41ba6ff72ac22a1552486531fa6
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1239'
-ht-degree: 0%
+source-wordcount: '1300'
+ht-degree: 1%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]組織和團隊
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [Adobe Workfront Fusion組織和團隊概觀](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/org-and-team-overview.html)
+>* [設定團隊通知選項](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/set-team-notification-options.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 [!DNL Adobe Workfront Fusion]的組織與團隊功能可讓企業控制Fusion中案例與其他功能的存取權。
 

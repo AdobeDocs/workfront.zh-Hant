@@ -6,18 +6,30 @@ product-area: workfront-integrations
 keywords: 聯結器
 navigation-topic: apps-and-their-modules
 title: Adobe Experience Manager Forms模組
-description: 使用 [!DNL Adobe Workfront Fusion], you can start a scenario based on events in your [!DNL Adobe Experience Manager Forms] 帳戶的 [!DNL Adobe Experience Manager Forms] 聯結器，建立、上傳和更新資產，以及複製或行動資料夾和資產。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 107d81f7-ca41-4d76-a6dd-e579886dc2ad
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '632'
 ht-degree: 1%
 
 ---
 
 # [!DNL Adobe Experience Manager Forms]模組
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [Adobe Experience Manager Forms模組](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/aem-forms-modules.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 使用[!DNL Adobe Workfront Fusion]的[!DNL Adobe Experience Manager Forms]聯結器，您可以建立webhook以根據[!DNL Adobe Experience Manager Forms]帳戶中的事件啟動案例。
 

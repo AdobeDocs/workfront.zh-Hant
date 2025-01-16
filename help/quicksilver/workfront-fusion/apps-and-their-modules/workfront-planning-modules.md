@@ -5,20 +5,32 @@ product-area: workfront-integrations
 keywords: 聯結器
 navigation-topic: apps-and-their-modules
 title: Adobe Workfront規劃模組
-description: 透過 [!DNL Adobe Workfront Planning] 模組，您可以根據您 [!DNL Adobe] Workfront Planning帳戶中的事件來啟動 [!DNL Adobe Workfront Fusion] 案例、建立、讀取或更新協定及其他記錄、使用您設定的條件搜尋記錄以及上傳檔案。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 hide: true
 hidefromtoc: true
 exl-id: 892fdaf3-935e-4e66-a01c-9e9b6e0daf3e
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1207'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront Planning]模組
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [Adobe Workfront規劃模組](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 透過[!DNL Adobe Workfront Planning]模組，您可以在Workfront Planning中發生事件時觸發案例。 您也可以建立、讀取、更新及刪除記錄，或執行自訂API呼叫至您的[!DNL Adobe Workfront Planning]帳戶。
 
@@ -71,7 +83,7 @@ Adobe Workfront Planning聯結器使用下列專案：
  <tbody> 
   <tr> 
    <td role="rowheader">基礎URL</td> 
-   <td>https://&lbrace;&lbrace;connection.host&rbrace;&rbrace;/maestro/api/&lbrace;&lbrace;common.maestroApiVersion&rbrace;&rbrace;/</td> 
+   <td>https://{{connection.host}}/maestro/api/{{common.maestroApiVersion}}/</td> 
   </tr>
   <tr> 
    <td role="rowheader">API標籤</td> 
@@ -130,7 +142,7 @@ Adobe Workfront Planning聯結器使用下列專案：
 
 ## [!DNL Adobe Workfront Planning]模組及其欄位
 
-### 觸發器
+### 觸發程序
 
 #### 觀看活動
 

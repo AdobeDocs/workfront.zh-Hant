@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: 檢視並解決 [!DNL Adobe Workfront Fusion]中未完成的執行
-description: '[!UICONTROL 未完成的執行]資料夾會儲存由於錯誤而未成功完成的案例執行。 每個儲存的不完整執行都可以手動或自動解析。'
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 60fcda91-b725-4ada-a42c-5c05720d68c2
-source-git-commit: 53582d36ef2256f6073705ce3eabe8cd61c9b2cc
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '675'
 ht-degree: 5%
 
 ---
 
 # 檢視並解決[!DNL Adobe Workfront Fusion]中未完成的執行
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [檢視並解決未完成的執行](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/view-and-resolve-incomplete-executions.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 [!UICONTROL 未完成的執行]資料夾會儲存由於錯誤而未成功完成的案例執行。 每個儲存的不完整執行都可以手動或自動解析。
 

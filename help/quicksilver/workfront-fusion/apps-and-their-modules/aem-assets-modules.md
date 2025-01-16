@@ -6,18 +6,30 @@ product-area: workfront-integrations
 keywords: 聯結器
 navigation-topic: apps-and-their-modules
 title: Adobe Experience Manager Assets模組
-description: 使用 [!DNL Adobe Workfront Fusion]的 [!DNL Adobe Experience Manager Assets] 聯結器，您可以建立、上傳和更新資產，以及複製或行動資料夾和資產。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: a287bc6d7d4755deb19296523d1666f0fcb60526
+source-git-commit: 3983d811a849c01b3c34b1cd6ee895e5552225a6
 workflow-type: tm+mt
-source-wordcount: '1716'
+source-wordcount: '1774'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Experience Manager Assets]模組
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [Adobe Experience Manager Assets模組](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/aem-assets-modules.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 使用[!DNL Adobe Workfront Fusion]的[!DNL Adobe Experience Manager Assets]聯結器，您可以建立、上傳和更新資產，以及複製或行動資料夾和資產。
 

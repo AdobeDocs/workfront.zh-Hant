@@ -4,18 +4,30 @@ product-area: workfront-integrations
 keywords: 案例，績效
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Adobe Workfront Fusion效能護欄
-description: 除了Adobe Workfront授權，Adobe Workfront Fusion還需要Adobe Workfront Fusion授權。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: 7c27dc98c4ce59d598be537a1f09c6eddf9bce42
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 0%
+source-wordcount: '765'
+ht-degree: 1%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]效能護欄
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [Adobe Workfront Fusion 效能護欄](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/scenarios/fusion-performance-guardrails.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 >[!NOTE]
 >
@@ -50,7 +62,7 @@ ht-degree: 0%
 ## 檔案
 
 * Fusion的檔案總處理容量為&#x200B;**1 GB**。 此限制是以總記憶體成本為基礎。 每項作業都會產生該成本。 如果下載並上傳400 MB的單一檔案，則檔案容量的總成本為800 MB。
-* Workfront Ultimate計畫組織可存取超過1 GB的檔案處理能力。 Fusion平台最多可支援單一動作（例如上傳檔案）15GB的個別檔案，但還有其他會影響資料傳輸的因素。 單一動作的檔案大小限制取決於Fusion所連線的Web服務。 資料傳輸是指單一執行的總處理作業。 這表示單一執行中的多個動作會對總資料傳輸有貢獻。 Fusion將處理檔案，直到達到40分鐘的執行限製為止。
+* Workfront Ultimate計畫組織可存取超過1 GB的增加檔案處理能力。 Fusion平台最多可支援單一動作（例如上傳檔案）15GB的個別檔案，但還有其他會影響資料傳輸的因素。 單一動作的檔案大小限制取決於Fusion所連線的Web服務。 資料傳輸是指單一執行的總處理作業。 這表示單一執行中的多個動作會對總資料傳輸有貢獻。 Fusion將處理檔案，直到達到40分鐘的執行限製為止。
 
   如需詳細資訊，請參閱[在Adobe Workfront Fusion中使用大型檔案](/help/quicksilver/workfront-fusion/get-started/fusion-large-files.md)。
 

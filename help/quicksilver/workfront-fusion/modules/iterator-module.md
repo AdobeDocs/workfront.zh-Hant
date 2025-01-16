@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
 title: Adobe Workfront Fusion中的疊代器模組
-description: 疊代器模組是一種特殊的模組，可將陣列轉換為一系列組合。 每個陣列專案都會以個別的套件組合輸出。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: d356276d-e5d9-496f-85cd-cb60a8f8f377
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '704'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]中的[!UICONTROL 迭代器]模組
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [疊代器模組](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/modules/iterator-module.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 [!UICONTROL Iterator]模組是一種特殊的模組，可將陣列轉換為一系列組合。 每個陣列專案都會以個別的套件組合輸出。
 

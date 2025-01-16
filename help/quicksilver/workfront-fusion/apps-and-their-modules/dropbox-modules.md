@@ -5,18 +5,30 @@ product-area: workfront-integrations;documents
 keywords: 聯結器
 navigation-topic: apps-and-their-modules
 title: Dropbox模組
-description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以自動執行使用Dropbox的工作流程，以及將其連線至多個協力廠商應用程式和服務。這可讓您自動執行Dropbox中的監控、搜尋、擷取、列出、建立及編輯檔案與資料夾等活動。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: a35631d7-40ac-4e7f-9a37-ad3879c0b6a2
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '3230'
+source-wordcount: '3262'
 ht-degree: 0%
 
 ---
 
 # [!DNL Dropbox]模組
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [Dropbox模組](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/dropbox-modules.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 在[!DNL Adobe Workfront Fusion]案例中，您可以自動執行使用[!UICONTROL Dropbox]或[!DNL Dropbox Business]的工作流程，以及將其連線至多個協力廠商應用程式和服務。這可讓您自動執行諸如監視、搜尋、擷取、列出、建立及編輯[!UICONTROL Dropbox]中的檔案與資料夾等活動。
 
@@ -314,7 +326,7 @@ Dropbox聯結器會使用以下專案：
   </tr> 
   <tr> 
    <td>僅顯示可下載的檔案</td> 
-   <td> <p> 啟用此選項以僅傳回可下載的檔案。 部分型別的檔案(例如Google檔案)無法下載。</p> </td> 
+   <td> <p> 啟用此選項以僅傳回可下載的檔案。 部分型別的檔案(例如Google Docs)無法下載。</p> </td> 
   </tr> 
   <tr> 
    <td>資料夾 </td> 

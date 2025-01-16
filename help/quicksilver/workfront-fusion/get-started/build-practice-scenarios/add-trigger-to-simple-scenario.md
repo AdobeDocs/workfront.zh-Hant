@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: 將觸發程式模組新增至基本情境
-description: 瞭解如何新增觸發程式模組，以允許案例定期尋找新請求並將它們轉換為專案。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 067ee6a1-f4c1-4602-ac39-0283255cced8
-source-git-commit: 7ad3fbcfa5be5074016f399560cca509d81f4714
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
 
 # 將觸發程式模組新增至基本情境
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [將觸發程式模組新增至基本案例](https://experienceleague.adobe.com/docs/workfront-fusion/using/build-practice-scenarios/add-trigger-to-basic-scenario.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 觸發模組會放置在情境的開頭。 當指定服務發生變更時，這些模組會在特定條件發生變更時開始案例執行。 變更可以是建立新記錄、刪除記錄、更新記錄等。
 

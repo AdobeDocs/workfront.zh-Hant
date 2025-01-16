@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: 資料存放區模組
-description: ' [!DNL Adobe Workfront Fusion] 資料存放區（類似資料庫或簡單表格）可儲存案例的資料，因此可在個別案例或案例執行之間傳輸資料。 您可以在同步期間使用資料存放區來儲存來自不同系統的新資料。'
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 1dc9cb88-d1b9-4a67-91fb-be980cc1ccd1
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1164'
+source-wordcount: '1195'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL 資料存放區]模組
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [資料存放區模組](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/tools-and-transformers/data-store-modules.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 [!DNL Adobe Workfront Fusion]資料存放區（類似資料庫或簡單表格）可以儲存案例的資料，因此可以在個別案例或案例執行之間傳輸資料。 您可以在同步期間使用資料存放區來儲存來自不同系統的新資料。
 

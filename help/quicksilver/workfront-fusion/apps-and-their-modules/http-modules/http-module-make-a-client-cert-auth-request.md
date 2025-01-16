@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: 聯結器
 navigation-topic: http-modules
 title: HTTP &amp；gt；建立使用者端憑證授權要求模組
-description: 此 [!DNL Adobe Workfront Fusion] 模組可讓您設定具有HTTP使用者端憑證授權的HTTP要求，並將其提交至伺服器。 接收的HTTP回應隨後會包含在輸出套件組合中。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: c0b0057f-3db0-4c10-a274-ebaec1a5b87b
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '1007'
 ht-degree: 0%
 
 ---
 
 # HTTP >[!UICONTROL 發出使用者端憑證授權要求]模組
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [HTTP >建立使用者端憑證授權要求模組](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/universal-connectors/http-module-make-a-client-cert-auth-request.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 >[!NOTE]
 >

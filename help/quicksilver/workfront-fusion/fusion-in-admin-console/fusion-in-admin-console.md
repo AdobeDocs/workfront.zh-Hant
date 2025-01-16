@@ -5,19 +5,29 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: workfront-fusion-2-0
 title: Adobe Admin Console中的Adobe Workfront Fusion
-description: 刪除此文字，並以您自己的內容取代。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 92185eff-ca16-4d2a-acc6-a0d271203232
-source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Admin Console]中的[!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>如需新檔案的連結，請參閱個別文章。
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 >[!NOTE]
 >

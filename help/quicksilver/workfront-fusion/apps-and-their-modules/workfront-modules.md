@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: 聯結器
 navigation-topic: apps-and-their-modules
 title: Adobe Workfront模組
-description: 您可以使用Adobe Workfront Fusion Adobe Workfront聯結器在Workfront中自動化您的流程。 如果您有Workfront Fusion for Work Automation and Integration授權，也可以用它來連線至協力廠商應用程式和服務。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 2682c027b2cd248b2674cebe8f0a0b8d1006257b
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '6797'
+source-wordcount: '6831'
 ht-degree: 2%
 
 ---
 
 # [!DNL Adobe Workfront]模組
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [Adobe Workfront模組](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 您可以使用[!DNL Adobe Workfront Fusion] [!DNL Adobe Workfront]聯結器在[!DNL Workfront]內自動化您的程式。 如果您有[!UICONTROL [!DNL Workfront Fusion]的Work Automation與Integration]授權，也可以用它來連線到協力廠商的應用程式和服務。
 
@@ -160,7 +172,7 @@ ht-degree: 2%
 * [動作](#actions)
 * [搜尋](#searches)
 
-### 觸發器
+### 觸發程序
 
 <!--
 * [Watch Events](#watch-events) 
@@ -1255,7 +1267,7 @@ ht-degree: 2%
    <td>✓ (A)</td> 
   </tr> 
   <tr> 
-   <td>反覆項目</td> 
+   <td>疊代</td> 
    <td>✓ (A)</td> 
    <td>✓ (A)</td> 
    <td> </td> 
@@ -1602,7 +1614,7 @@ ht-degree: 2%
    <td>✓ (A)</td> 
   </tr> 
   <tr> 
-   <td>反覆項目</td> 
+   <td>疊代</td> 
    <td>✓ (A)</td> 
    <td>✓ (A)</td> 
    <td>✓ (A)</td> 
@@ -1911,7 +1923,7 @@ ht-degree: 2%
    <td>✓ (A)</td> 
   </tr> 
   <tr> 
-   <td>反覆項目</td> 
+   <td>疊代</td> 
    <td>✓ (A)</td> 
    <td> </td> 
   </tr> 

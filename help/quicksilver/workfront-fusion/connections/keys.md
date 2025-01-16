@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: connections-annd-webhooks
 title: Adobe Workfront Fusion中的金鑰
-description: ' [!DNL Adobe Workfront Fusion] 中的鑰匙圈將協助您管理公開和私密金鑰。 例如，加密程式應用程式會使用金鑰來加密或解密PGP訊息。'
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: a36947aa-c218-4ff0-879c-2041c3cccae0
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 0%
+source-wordcount: '264'
+ht-degree: 1%
 
 ---
 
 # Adobe Workfront Fusion中的金鑰
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [鍵](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/modules/keys.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 [!DNL Adobe Workfront Fusion]中的金鑰鏈將協助您管理公開金鑰與私密金鑰。 例如，[!UICONTROL Encryptor]應用程式使用金鑰來加密或解密PGP訊息。
 

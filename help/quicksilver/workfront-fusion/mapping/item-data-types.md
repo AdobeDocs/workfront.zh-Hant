@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: mapping
 title: ' [!DNL Adobe Workfront Fusion]中的專案資料型別'
-description: 您的 [!DNL Adobe Workfront Fusion] 案例可以包含套件組合中下列專案的型別。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 36c25a86-0d05-4871-a6a6-4fd54cfcc4b1
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 0%
+source-wordcount: '771'
+ht-degree: 1%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]中的專案資料型別
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [專案資料型別](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/mapping-panel/data-types/item-data-types.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 ## 存取需求
 

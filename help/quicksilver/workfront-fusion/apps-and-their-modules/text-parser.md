@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;documents
 navigation-topic: apps-and-their-modules
 title: 文字剖析器
-description: 您可以使用文字剖析器工具來剖析文字，以供其他 [!DNL Adobe Workfront Fusion] 案例模組使用。 文字剖析器不需要連線。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 7d71cf64-4f86-42c5-81e7-8fc15333cbd7
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1097'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL 文字剖析器]
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [文字剖析器](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/tools-and-transformers/text-parser.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 您可以使用[!UICONTROL 文字剖析器工具]來剖析文字，以供其他[!DNL Adobe Workfront Fusion]案例模組使用。 [!UICONTROL 文字剖析器]不需要連線。
 

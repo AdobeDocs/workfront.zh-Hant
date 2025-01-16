@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
 title: Adobe Workfront Fusion中日期和時間剖析的權杖
-description: ' [!DNL Adobe Workfront Fusion mapping] 面板中有下列日期和時間剖析的權杖。'
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: f5a92ccb-cdc6-4f7d-8373-31fd17d314d3
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '352'
 ht-degree: 5%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]中日期和時間剖析的權杖
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [日期和時間剖析的權杖](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/mapping-panel/functions/tokens-for-date-and-time-parsing.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 ## 存取需求
 
@@ -202,7 +214,7 @@ ht-degree: 5%
   <tr> 
    <td><code>a A</code> </td> 
    <td><code>am pm</code> </td> 
-   <td> <p> Post或舊經線（請注意，a p這個字元也被視為有效）</p> </td> 
+   <td> <p> 後置或前置經線（請注意，a p這個字元也被視為有效）</p> </td> 
   </tr> 
   <tr> 
    <td><code>m mm</code> </td> 

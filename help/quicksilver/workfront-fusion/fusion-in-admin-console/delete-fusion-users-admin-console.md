@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: 透過Adobe Admin Console刪除使用者
-description: 您只能從Adobe Workfront Fusion移除使用者，而不存取任何其他Adobe產品設定檔，或者也可以從Adobe Admin Console完全移除使用者。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 0d989134-46c0-4637-b465-6fbe04258b8a
-source-git-commit: 392eee3c7b1aacf92d7877f07a8154924f3926a0
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
 
 # 透過[!DNL Adobe Admin Console]刪除使用者
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [透過Adobe Admin Console刪除使用者](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-orgs-and-teams/manage-users-and-teams/delete-users-admin-console.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 >[!IMPORTANT]
 >

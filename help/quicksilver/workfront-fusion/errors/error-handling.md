@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: errors
 title: 在 [!DNL Adobe Workfront Fusion]中處理錯誤
-description: 當在執行案例期間發生錯誤時，通常是因為服務因失敗而無法使用、服務以非預期的資料回應，或輸入資料的驗證失敗。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: a08c18a0-1797-4126-827a-1ea7e11d4bad
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
 
 # 在[!DNL Adobe Workfront Fusion]中處理錯誤
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [新增錯誤處理](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/configure-error-handling/error-handling.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 當在執行案例期間發生錯誤時，通常是因為服務因失敗而無法使用、服務以非預期的資料回應，或輸入資料的驗證失敗。
 

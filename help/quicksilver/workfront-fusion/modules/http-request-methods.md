@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
 title: ' [!DNL Adobe Workfront Fusion]中的HTTP要求方法'
-description: 當您在模組中設定API呼叫時，您需要填寫HTTP要求方法的欄位。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 20b3c0f4-4a4c-4ba0-8570-ac39573ef1c0
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]中的HTTP要求方法
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [HTTP要求方法](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/modules/http-request-methods.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 當您在模組中設定API呼叫時，您需要填寫HTTP要求方法的欄位。
 

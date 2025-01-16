@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Adobe Workfront Fusion中的基本術語
-description: 除了Adobe Workfront授權，Adobe Workfront Fusion還需要Adobe Workfront Fusion授權。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 2169dc2e-2135-47e0-a615-3de12cd120a9
-source-git-commit: eb39c26b076e89acb8bc4eef1a459b6ef8cd389b
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '858'
+source-wordcount: '917'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]中的基本字詞
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [Adobe Workfront Fusion字彙表](https://experienceleague.adobe.com/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/fusion-glossary.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 >[!NOTE]
 >
@@ -87,7 +99,7 @@ ht-degree: 0%
    <td> <p>在相關應用程式或服務內執行功能（例如建立記錄）的案例中的單一步驟。</p> <p>每個應用程式或服務都有各種模組，可定義其回應請求的方式。</p> <p>模組有4種型別：動作、觸發器、迭代器和彙總。</p> <p> <img src="assets/module.jpg"> </p> <p>如需詳細資訊，請參閱<a href="../../workfront-fusion/modules/module-types.md" class="MCXref xref">模組型別</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>作業</p> </td> 
+   <td role="rowheader"> <p>營運</p> </td> 
    <td> <p>模組執行的任務。</p><p>如需詳細資訊，請參閱[!DNL Adobe Workfront Fusion]</a>中的<a href="../../workfront-fusion/get-started/operations-in-workfront-fusion.md" class="MCXref xref">作業。</p>
   </tr> 
   <tr> 

@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
 title: ' [!DNL Adobe Workfront Fusion]中的資料結構'
-description: 資料結構是一份檔案，詳細說明要傳輸至Adobe Workfront Fusion的資料格式。 根據此檔案，案例編輯器能夠確定哪個模組傳回或接收哪種資料。 資料結構檔案最常用於序列化/剖析資料格式，例如JSON、XML、CSV等。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 35a7e906-7ca2-433d-87a9-bbb01babffb0
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]中的資料結構
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [建立和管理資料存放區](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/map-data/data-stores.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 資料結構是一份檔案，詳細說明要傳輸至[!DNL Adobe Workfront Fusion]的資料格式。 根據此檔案，案例編輯器能夠確定哪個模組傳回或接收哪種資料。 資料結構檔案最常用於序列化/剖析資料格式，例如JSON、XML、CSV等。
 

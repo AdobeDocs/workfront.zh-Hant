@@ -6,18 +6,30 @@ product-area: workfront-integrations
 keywords: 聯結器
 navigation-topic: apps-and-their-modules
 title: 可投放模組
-description: 除了Adobe Workfront授權，Adobe Workfront Fusion還需要Adobe Workfront Fusion授權。
+description: Adobe Workfront Fusion檔案已移至新位置。 本文已棄用，但包含新文章的連結，內容涵蓋此功能。
 author: Becky
 feature: Workfront Fusion
 exl-id: 1d78e0db-9a77-437d-a72f-88fb256981c0
-source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1877'
-ht-degree: 2%
+source-wordcount: '1934'
+ht-degree: 1%
 
 ---
 
 # 可投放模組
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion檔案已移至新位置。
+>
+>本文資訊可在以下文章中找到：
+>
+>* [可空運模組](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/airtable-modules.html)
+>
+>請更新任何書籤。
+>
+>本文已不再更新，將於不久將來移除。
 
 
 使用[!DNL Adobe Workfront Fusion]的[!DNL Airtable]聯結器，您可以根據[!DNL Airtable]帳戶中的事件啟動案例、建立、上傳和更新記錄、搜尋記錄，以及對Airtable API進行自訂API呼叫。
