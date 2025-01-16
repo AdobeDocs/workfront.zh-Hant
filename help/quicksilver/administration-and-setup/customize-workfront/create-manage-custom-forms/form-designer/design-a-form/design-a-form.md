@@ -8,18 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 75aaa531dba8037ed75c0d6baa6d7c69ec4cfefd
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
-source-wordcount: '6534'
+source-wordcount: '6474'
 ht-degree: 5%
 
 ---
 
 # 建立自訂表格
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
-
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 您可以使用Adobe Workfront中的表單設計工具來設計自訂表單。 您可以將自訂表單附加至不同的Workfront物件，以擷取這些物件的相關資料。
 
@@ -847,8 +843,8 @@ The Workfront Mobile app -->
       <td><p>（必要）選取Workfront原生欄位。<p><p>僅表單物件的原生欄位可用。 例如，如果表單設計器頂端的「物件型別」清單顯示「專案」，您將能夠選取專案的原生欄位，但不能選取任務特定的欄位。</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview">新增篩選器</span></td>
-      <td><span class="preview"><p>為參考欄位新增篩選器，以限制使用者在使用欄位時可以選擇的專案清單。 </p> <p>例如，您可以限制欄位，以便只有在使用者符合以下條件時才可選取使用者名稱：</p> 
+      <td role="rowheader">新增篩選器</td>
+      <td><p>為參考欄位新增篩選器，以限制使用者在使用欄位時可以選擇的專案清單。 </p> <p>例如，您可以限制欄位，以便只有在使用者符合以下條件時才可選取使用者名稱：</p> 
        <ul>
         <li>它們屬於您指定的群組</li> 
         <li>它們與您指定的角色或職稱相關聯</li> 
@@ -860,7 +856,7 @@ The Workfront Mobile app -->
         <li>篩選選項僅在您參考原生預先輸入欄位時可用，例如「Portfolio」、「公司」或「擁有者」。</li>
         <li>如果您正在編輯現有的自訂表單，將篩選新增至原生欄位時，不會移除使用者已使用該欄位新增的任何物件（在篩選範圍之外）。</li> 
         <li>此篩選器不適用於行動裝置。 如果您將篩選用於原生欄位，該欄位將會顯示在不受篩選影響之使用者的行動裝置上。</li> 
-        </ul></p></span></td> 
+        </ul></p></td> 
       <td>
      </tr>
      <tr> 
@@ -936,8 +932,6 @@ The Workfront Mobile app -->
    或
 
    按一下&#x200B;**儲存並關閉**。
-
-<div class="preview">
 
 ### 新增Planning連線欄位
 
@@ -1031,8 +1025,6 @@ The Workfront Mobile app -->
    * 從Workfront物件連線或中斷連線記錄。
 
    如需詳細資訊，請參閱[管理來自Workfront物件的記錄連線](/help/quicksilver/planning/records/manage-records-in-planning-section.md)
-
-</div>
 
 ## 使用表單設計工具來組織和預覽表單
 

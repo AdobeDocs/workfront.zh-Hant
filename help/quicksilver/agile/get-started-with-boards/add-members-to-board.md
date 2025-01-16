@@ -6,7 +6,7 @@ description: 必須先將人員新增到展示板作為成員，他們才能檢�
 author: Lisa
 feature: Agile
 exl-id: 8a46846c-f9b8-45cb-9923-e7596854557b
-source-git-commit: bf8d566ba9d24310e75d2fbaf523fe5464bb6657
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 0%
@@ -15,11 +15,9 @@ ht-degree: 0%
 
 # 從展示板新增或移除成員
 
-{{highlighted-preview}}
-
 必須先將人員和團隊新增到展示板中作為成員，他們才能檢視展示板。
 
-根據預設，展示板的建立者是擁有者。 展示板擁有者是可在「設定」面板中刪除該展示板或更新其篩選器的唯一人員。 <span class="preview">只有系統管理員或目前的展示板擁有者可以變更展示板擁有者。</span>
+根據預設，展示板的建立者是擁有者。 展示板擁有者是可在「設定」面板中刪除該展示板或更新其篩選器的唯一人員。 只有系統管理員或目前的主機板擁有者可以變更主機板擁有者。
 
 ## 存取需求
 
@@ -85,8 +83,6 @@ ht-degree: 0%
    >
    >您無法移除展示板擁有者。
 
-<div class="preview">
-
 ## 變更展示板所有者
 
 >[!NOTE]
@@ -104,5 +100,3 @@ ht-degree: 0%
    只有使用者才能是展示板擁有者。 團隊不能是擁有者。
 
 1. 按一下&#x200B;[!UICONTROL **更新**]。
-
-</div>

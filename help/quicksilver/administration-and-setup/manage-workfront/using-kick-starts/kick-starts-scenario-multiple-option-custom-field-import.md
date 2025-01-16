@@ -9,16 +9,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 310333b71d2a92d71a0d8caf73ee8609ed6edd83
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
-source-wordcount: '2185'
+source-wordcount: '2155'
 ht-degree: 0%
 
 ---
 
 # Kick-Starts情境：將多個選項自訂欄位匯入Workfront
-
-{{highlighted-preview}}
 
 您可以使用Kick-Start功能，在Adobe Workfront中匯入具有多個選項的自訂欄位。
 
@@ -90,11 +88,7 @@ ht-degree: 0%
 
 1. 選取&#x200B;**要包含的內容**&#x200B;區段中的&#x200B;**自訂資料**。
 
-   <span class="preview">預覽環境中的範例影像：</span>
    ![選取自訂資料](assets/kickstarts-select-existing-data.png)
-
-   生產環境中的影像範例：
-   ![選取自訂資料](assets/existing-custom-data-box-checked-kick-starts.png)
 
 1. 在&#x200B;**下載格式**&#x200B;區段中選擇&#x200B;**.xlsx檔案**。
 
@@ -130,11 +124,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**下載空白的Kick-Start試算表**&#x200B;區域中，選取&#x200B;**自訂資料**&#x200B;核取方塊並按一下&#x200B;**下載**。
 
-   <span class="preview">預覽環境中的範例影像：</span>
    ![選取自訂資料](assets/kickstarts-select-existing-data.png)
-
-   生產環境中的影像範例：
-   ![選取自訂資料](assets/blank-custom-data-option-checked-kick-starts.png)
 
    將空白的快速啟動檔案下載到您的電腦。
 

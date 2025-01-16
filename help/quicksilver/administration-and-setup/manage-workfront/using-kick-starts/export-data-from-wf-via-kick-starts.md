@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: 7b9989b73f7be46690073f323203ae2d9ca1a4b5
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '1014'
 ht-degree: 7%
 
 ---
@@ -23,8 +23,6 @@ ht-degree: 7%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
-
-{{highlighted-preview}}
 
 身為Adobe Workfront管理員，您可以使用Kick-Starts資料匯出工具，從Workfront匯出資料。 匯出後可用於其他應用程式。
 
@@ -340,11 +338,7 @@ ht-degree: 7%
 
    在單一匯出中，您最多可以選取100個儀表板和100個報表。
 
-   <span class="preview">預覽環境中的範例影像：</span>
    ![Kickstart匯出](assets/kickstart-export-spreadsheet-options.png)
-
-   生產環境中的影像範例：
-   ![Kickstart匯出](assets/kickstart-export-350x381.png)
 
    您可以一次匯出多個物件。
 

@@ -6,16 +6,14 @@ description: 您對Adobe Workfront中物件的可見性取決於您對該物件�
 author: Becky
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-source-git-commit: 6409f8fa5072413444545d2d3a80935dc6e04b4c
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
-source-wordcount: '1398'
+source-wordcount: '1380'
 ht-degree: 0%
 
 ---
 
 # 要求物件的存取權
-
-{{preview-fast-release-general}}
 
 您對Adobe Workfront中物件的可見性取決於您對該物件型別的存取權以及您對個別物件的許可權。
 
@@ -102,11 +100,7 @@ ht-degree: 0%
 1. 從下拉式清單中，選取您要求的存取型別。
 1. （選擇性）在&#x200B;**P.S.**&#x200B;欄位中，指定使用者需要其他存取權原因的備註。
 
-   <span class="preview">預覽環境中的範例影像：</span>
    ![要求存取對話方塊](assets/request-access-to-project.png)
-
-   生產環境中的影像範例：
-   ![](assets/request-access-dialog-350x314.png)
 
 <!--
 If you do not have access level rights to an object and you try to access that object from a link, a screen is displayed informing you to contact the Workfront administrator.
@@ -134,11 +128,8 @@ For example, if you do not have portfolio access, but you were given a link to a
 1. （選擇性）在&#x200B;**P.S.**&#x200B;欄位中，指定有關您需要額外存取權的理由的備註。
 1. 按一下&#x200B;**要求存取權**。
 
-   <span class="preview">預覽環境中的範例影像：</span>
+   預覽環境中的範例影像：
    ![要求存取對話方塊](assets/request-access-to-project.png)
-
-   生產環境中的影像範例：
-   ![](assets/request-access-dialog-350x314.png)
 
 ## 「要求存取權」和「要求更多存取權」下拉式功能表的階層 {#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus}
 

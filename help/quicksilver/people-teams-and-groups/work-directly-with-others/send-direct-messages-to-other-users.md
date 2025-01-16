@@ -7,16 +7,14 @@ description: Adobe Workfront可讓您快速輕鬆地將與任何工作專案無�
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: 82dc1cef02c6724dd0bc5b98d2a8f60a420b72bd
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
 
 # 傳送直接訊息給其他使用者
-
-{{preview-fast-release-general}}
 
 [!DNL Adobe Workfront]可讓您快速輕鬆地直接傳送與任何工作專案無關的訊息給其他[!DNL Workfront]使用者。 依照此節所述傳送的訊息會顯示在使用者設定檔頁面的[!UICONTROL 更新]索引標籤中，且所有使用者皆可看到。 如需更新的其他資訊，請參閱[更新工作專案並檢視更新：文章索引](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)。
 
@@ -87,9 +85,7 @@ ht-degree: 0%
 1. 選取您要傳送訊息給的一或多位使用者，然後按一下&#x200B;[!UICONTROL **傳送更新給使用者**]。
 1. 在[!UICONTROL 傳送更新給使用者]視窗中輸入您的訊息。
 
-   <span class="preview">預覽環境中的範例影像：</span>
-
-   傳送更新給使用者視窗上的<span class="preview">![訊息使用者](assets/send-message-to-user-dialog-from-user-list.png)</span>
+   傳送更新給使用者視窗上的![訊息使用者](assets/send-message-to-user-dialog-from-user-list.png)
 
 1. （選用）搜尋您要在訊息上加上標籤的任何其他使用者。 您不需要標籤已在使用者清單中選取的使用者。
 1. （選擇性）選取&#x200B;**[!UICONTROL 我的公司私有]**，讓此訊息僅對您公司的其他使用者可見。
