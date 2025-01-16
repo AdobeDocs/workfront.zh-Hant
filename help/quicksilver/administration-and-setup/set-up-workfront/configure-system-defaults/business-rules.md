@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: d68c4fd39234d8d5131828e2a4642bd9af8ca7d5
+source-git-commit: a36a74def754d1318d2a82145537f7c0ef3f3bbd
 workflow-type: tm+mt
 source-wordcount: '1269'
 ht-degree: 0%
@@ -112,7 +112,7 @@ IF(
 1. 按一下&#x200B;**新商業規則**。
 1. 選取要指派商業規則的物件型別，然後按一下[繼續]。****
 
-   ![選取物件](assets/object-for-business-rule2.png)
+   ![選取物件](assets/object-for-business-rule3.png)
 
 1. 輸入商業規則的&#x200B;**名稱**。
 1. 在&#x200B;**為使用中**&#x200B;欄位中，選取儲存規則時是否應該使用中。
