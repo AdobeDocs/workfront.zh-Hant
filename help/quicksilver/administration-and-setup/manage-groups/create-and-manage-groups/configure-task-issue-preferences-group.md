@@ -9,18 +9,18 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '2245'
+source-wordcount: '2185'
 ht-degree: 2%
 
 ---
 
 # 設定群組的任務和問題偏好設定
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 如果貴組織中的群組需要以獨立於系統層級設定方式設定任務或問題偏好設定，Adobe Workfront管理員可以解鎖偏好設定。 然後，作為群組管理員，您可以設定群組的偏好設定，這將會影響與群組相關的所有任務或問題。
 
@@ -95,7 +95,7 @@ ht-degree: 2%
    * [新任務預設值](#new-task-defaults)
    * [問題](#issues)
    * [刪除](#deletion)
-   * <span class="preview">[移動](#move)</span>
+   * [移動](#move)
    * [實際日期](#actual-dates)
    * [委派](#delegation)
    * [存取](#access)
@@ -184,8 +184,6 @@ ht-degree: 2%
    </table>
 
 
-<div class="preview">
-
 ### 移動
 
 <table style="table-layout:auto"> 
@@ -203,8 +201,6 @@ ht-degree: 2%
      </tr> 
     </tbody> 
    </table>
-
-</div>
 
 ### 實際日期 {#actual-dates}
 

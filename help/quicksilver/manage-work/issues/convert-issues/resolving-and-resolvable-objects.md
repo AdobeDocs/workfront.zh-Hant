@@ -7,9 +7,9 @@ description: 可解析物件是其解析繫結至解析物件的問題。 解決
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '1771'
+source-wordcount: '1778'
 ht-degree: 1%
 
 ---
@@ -126,7 +126,7 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 
 當問題為任務或專案的可解析物件時，任務狀態的變更和專案會觸發問題狀態的變更。 在此案例中，預設狀態的觸發方式與自訂狀態不同。
 
-當專案自訂狀態等於未觸發問題狀態變更的預設狀態時，它不會觸發問題的狀態變更。
+當專案的自訂狀態等於未觸發問題狀態變更的預設狀態時，專案狀態的變更未觸發問題的狀態變更。
 
 * [將解析物件的預設狀態與可解析物件的預設狀態同步](#synchronize-the-default-status-of-the-resolving-object-with-the-default-status-of-the-resolvable-object)
 * [將解析物件的自訂狀態與可解析物件的自訂狀態同步](#synchronize-the-custom-status-of-the-resolving-object-with-the-custom-status-of-the-resolvable-object)

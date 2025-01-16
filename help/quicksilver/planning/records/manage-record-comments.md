@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '949'
 ht-degree: 0%
 
 ---
@@ -156,9 +156,17 @@ ht-degree: 0%
 
 1. （可選）使用RTF工具列中的選項來格式化文字、新增emoji或連結至更新，以強化內容。
 
+   >[!TIP]
+   >
+   >您無法將影像新增至錄製註解。
+
+
 1. 繼續新增註解至記錄。
 
    如需有關更新物件的詳細資訊，包括Workfront Planning記錄，請參閱[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
+
+1. （選擇性）按一下評論右上角的&#x200B;**更多**&#x200B;圖示![](assets/more-menu.png)，然後按一下&#x200B;**刪除**&#x200B;以刪除評論。
+1. （選擇性）按一下&#x200B;**隱藏註解**&#x200B;圖示![](assets/hide-comments-icon.png)以關閉右側面板。
 
 <!--
       >[!TIP]
@@ -168,44 +176,30 @@ ht-degree: 0%
       >The indicator displays only after the comment was submitted on the item, and not when the comment is still composed. 
       >
       >![](assets/new-line-indicator-comments.png)
-
 1. Click **Submit** to add the update to the record. 
 1. (Optional) To edit a comment, click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the comment, then click **Edit**.
-
    >[!IMPORTANT]
    >
    >You can edit your comment only within 15 minutes from submitting it.  
-
 1. Edit the information in the comment, add or remove images or remove any of the tagged users. An "edited" indicator is added to the left of the comment.
-   
       >[!TIP]
       >
       >Comments from the current year do not display the year in the date stamp. Hovering over a timestamp displays the full date, including the year.
-
 1. (Optional and conditional) To search for an existing comment, start typing a keyword in the search box in the upper-right corner of the **Comments** area.     
-
    ![](assets/search-box-for-comments-area.png)
-     
 1. (Optional) Click **Reply** or start typing a comment in the **Add reply ...** area, to reply to an existing comment, then follow steps 4-8 above. (**************accurate??***********)
-
 1. (Conditional and optional) If other users have added comments that display outside of the visible area in the Comments section while you were adding your comments, click **View** inside the **new comments banner** at the bottom of the screen  to display these comments.
-
-    ![](assets/new-comments-banner-on-record.png)
+   ![](assets/new-comments-banner-on-record.png)
 
     Additional comments display at the bottom of the screen.
-  
 1. (Optional) Click the **Like** icon to like an update or acknowledge that you read it. The icon updates with the number of likes.
 1. (Conditional and optional) If you included additional people in your comment, click the avatars of the users included in the update to display a list of users that the comment is shared with. 
 1. (Optional) Click the **More** icon ![](assets/more-menu.png) in the upper-right corner of the comment and click one of the following options, to copy a information from a comment: 
-
     * **Copy link**: This copies a link to the comment to your clipboard.
     * **Copy body text**: This copies the text of the comment to your clipboard.
     * **Quote reply**: This copies the content of your comment into a new reply. Images are not included in the copied reply. 
 
     For more information, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md). -->
-
-1. （選擇性）按一下評論右上角的&#x200B;**更多**&#x200B;圖示![](assets/more-menu.png)，然後按一下&#x200B;**刪除**&#x200B;以刪除評論。
-1. （選擇性）按一下&#x200B;**隱藏註解**&#x200B;圖示![](assets/hide-comments-icon.png)以關閉右側面板。
 
 ## 歷史記錄區段總覽
 

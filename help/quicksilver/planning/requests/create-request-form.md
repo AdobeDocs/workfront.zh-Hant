@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '1564'
+source-wordcount: '1429'
 ht-degree: 2%
 
 ---
@@ -19,9 +19,11 @@ ht-degree: 2%
 
 <!--take Preview and Production references at Production time-->
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 {{planning-important-intro}}
 
@@ -131,7 +133,7 @@ ht-degree: 2%
 
    <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
 
-1. 按一下 **建立**。所選記錄型別的要求表單會在表單索引標籤</span>中開啟<span class="preview">。
+1. 按一下 **建立**。所選記錄型別的請求表單會在「表單」標籤中開啟。
 
    ![](assets/campaigns-request-form-edit-mode.png)
 
@@ -139,40 +141,44 @@ ht-degree: 2%
 
    * 所選記錄型別的表格檢視中可用的記錄欄位。<!--they are working on removing the limitation below-->
 
-<!-- when we go to prod, the Preview batch below will become the only batch-->
+   <!-- when we go to prod, the Preview batch below will become the only batch-->
 
->[!IMPORTANT]
->
-> 根據您使用建立請求表單的環境，會有以下情況：
->
->* 下列型別的欄位不會顯示在生產環境的請求表單中：
->
->    * 建立者和上次修改者
->    * 建立日期和上次修改日期
->    * 公式
->    * 人員
->    * Workfront連結的欄位
->    * Workfront物件的查閱欄位
->    * Workfront Planning記錄的已連線欄位
->    * Workfront Planning連線記錄的查詢欄位
->    * AEM Assets連線欄位
->* 下列型別的欄位未顯示在<span class="preview">預覽環境的要求表單中：</span>
->    * <span class="preview">建立者與上次修改者</span>
->    * <span class="preview">建立日期和上次修改日期</span>
->    * <span class="preview">公式</span>
->    * <span class="preview"> Workfront物件的查閱欄位</span>
->    * <span class="preview">Workfront Planning已連線記錄的查閱欄位</span>
+   >[!IMPORTANT]
+   >
+   >下列型別的欄位不會顯示在請求表單中：
+   >
+   >* 建立者和上次修改者
+   >* 建立日期和上次修改日期
+   >* 公式
+   >* Workfront物件的查閱欄位
+   >* Workfront Planning連線記錄的查詢欄位
+   >
 
-* **預設的分節**：這是Workfront套用至要求表單的預設分割槽符號。 無法重新命名或移除「預設」區段。
-* **主旨**&#x200B;欄位：將在Workfront中識別要求的欄位。 此功能尚未在生產環境中提供。 <span class="preview">它可在預覽環境中使用。</span>無法編輯主旨欄位的設定和值。
+   <!--before release to prod: 
+    > Depending on what environment you use to create a request form, the following scenarios exist:
+   >
+   >* Fields of the following types do not display in the request form in the Production environment: 
+   >
+   >    * Created by and Last modified by
+   >    * Created date and Last modified date
+   >    * Formula
+   >    * People 
+   >    * Workfront connected fields
+   >    * Workfront objects' lookup fields
+   >    * Workfront Planning records' connected fields
+   >    * Workfront Planning connected records' lookup fields
+   >    * AEM Assets connection fields-->
 
-  >[!TIP]
-  >
-  >**Subject**&#x200B;欄位在要求表單上可見時需要值。 不過，您可以視需要移除&#x200B;**主旨**&#x200B;欄位，要求者不會在表單上看到它。
+   * **預設的分節**：這是Workfront套用至要求表單的預設分割槽符號。 無法重新命名或移除「預設」區段。
+   * **主旨**&#x200B;欄位：將在Workfront中識別要求的欄位。 主旨欄位的設定和值無法編輯。
 
-* 與記錄型別關聯的所有欄位。
+     >[!TIP]
+     >
+     >**Subject**&#x200B;欄位在要求表單上可見時需要值。 不過，您可以視需要移除&#x200B;**主旨**&#x200B;欄位，要求者提交要求時不會在表單上看到該欄位。
 
-  向此記錄型別提交請求的所有人均可看到請求表單中包含的欄位。
+   * 與記錄型別關聯的所有欄位。
+
+     向此記錄型別提交請求的所有人均可看到請求表單中包含的欄位。
 
 1. （選擇性）將滑鼠停留在您要移除的表單上任何欄位上，然後按一下&#x200B;**x**&#x200B;圖示以移除它們。 已將它們新增至表單左側的&#x200B;**欄位**&#x200B;索引標籤。
 
@@ -200,8 +206,7 @@ ht-degree: 2%
 
 1. （選擇性）按一下&#x200B;**預覽**&#x200B;以檢視其他使用者使用表單提交新記錄時表單的顯示方式。
 
-1. 
-   <div class="preview">（選用）按一下**設定**標籤，然後新增至少一名使用者至**核准者**欄位，以核准此記錄表單的新請求。
+1. （選擇性）按一下&#x200B;**組態**&#x200B;標籤，然後新增至少一名使用者至&#x200B;**核准者**&#x200B;欄位，以核准此記錄表單的新要求。
 
    ![](assets/configuration-tab.png)
 
@@ -212,7 +217,7 @@ ht-degree: 2%
    * 如果至少有一位核准者拒絕請求，則請求會遭到拒絕，且不會建立記錄。
    * 在核准或拒絕請求之前，所有核准者都必須做出決定。
 
-     如需新增核准至請求表單的詳細資訊，請參閱[新增核准至請求表單](/help/quicksilver/planning/requests/add-approval-to-request-form.md)。 </div>
+     如需新增核准至請求表單的詳細資訊，請參閱[新增核准至請求表單](/help/quicksilver/planning/requests/add-approval-to-request-form.md)。
 
 1. （選擇性）按一下標題中表單名稱右側的&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，然後按一下&#x200B;**編輯**&#x200B;以更新表單名稱。
 1. 按一下&#x200B;**Publish**&#x200B;以發佈表單並取得其唯一連結。
@@ -235,20 +240,19 @@ ht-degree: 2%
 
    >[!WARNING]
    >
-   >
    >* 當您選取&#x200B;**擁有連結的任何人**&#x200B;時，任何人都可以存取表單並提交新記錄，甚至組織外沒有Workfront帳戶的人也可以。
    >
-   > * <span class="preview">包含下列欄位型別的表單無法公開共用：</span>
+   > * 包含下列欄位型別的表單無法公開共用：
    >
-   >     * <span class="preview">Workfront或AEM Assets連線</span>
-   >     * <span class="preview">人員</span>
+   >     * Workfront或AEM Assets連線
+   >     * 人員
    >
 
 1. （視條件而定）如果您在上一步選取了&#x200B;**任何擁有連結**&#x200B;的人，請從可用的行事曆中選取&#x200B;**連結到期日**。 連結過期後，人員會收到錯誤，您必須更新連結日期，並產生新連結以共用，人員才能再次存取表單。
 
    您可以從目前日期起180天內選取未來日期。
 
-1. 按一下&#x200B;**儲存並複製連結**&#x200B;以儲存表單的共用詳細資料。
+1. 按一下&#x200B;**儲存並複製連結**&#x200B;以儲存表單的共用詳細資料。 如果表單先前已儲存，請按一下&#x200B;**複製連結**。
 
    表單共用選項會儲存且連結會複製到您的剪貼簿。 您現在可以與其他人共用。
 
@@ -260,7 +264,7 @@ ht-degree: 2%
    記錄型別頁面隨即開啟。
 1. （選擇性）按一下標題中記錄型別名稱右側的&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，然後執行下列任一項作業：
    * 按一下&#x200B;**更新要求表單**&#x200B;以變更要求表單。
-   * 按一下&#x200B;**複製要求表單的連結**&#x200B;以與其他人共用表單的連結。
+   * 按一下&#x200B;**複製表單連結**&#x200B;以與其他人共用表單連結。
 
    >[!TIP]
    >

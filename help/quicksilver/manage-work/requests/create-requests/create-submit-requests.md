@@ -6,9 +6,9 @@ description: 計畫工作在Adobe Workfront中以專案和任務表示。 不過
 author: Lisa
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '2300'
+source-wordcount: '2411'
 ht-degree: 1%
 
 ---
@@ -30,11 +30,12 @@ ht-degree: 1%
 在「請求佇列」中建立請求後，您可以將請求指派給完成者，或將其轉換為任務或專案。\
 如需將問題轉換為任務或專案的詳細資訊，請參閱文章[在Adobe Workfront中轉換問題的概觀](../../../manage-work/issues/convert-issues/convert-issues.md)。
 
-您可以透過下列方式建立請求：
+您可以透過下列方式建立Workfront請求：
 
 * 從頭開始，如本文所述。
 * 從草稿。 如需詳細資訊，請參閱[從草稿建立請求](../../../manage-work/requests/create-requests/create-requests-from-drafts.md)。
 * 從現有請求，透過複製和提交副本。 如需詳細資訊，請參閱[複製並提交請求](../../../manage-work/requests/create-requests/copy-and-submit-requests.md)。
+* 從Workfront Planning請求表單，在Workfront Planning中建立記錄。 貴組織必須購買Workfront Planning套件。 如需詳細資訊，請參閱[提交Adobe Workfront Planning要求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)。
 
 ## 存取需求
 
@@ -344,6 +345,17 @@ Workfront管理員必須建立「請求佇列」的下列元件：
 
 * 如果您已安裝適用於Salesforce的Workfront應用程式，即可從Salesforce提交請求。\
   如需有關使用適用於Salesforce的Workfront應用程式從Salesforce提交請求的資訊，請參閱文章[從Salesforce物件提交Adobe Workfront請求](../../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md)。
+
+## 使用Workfront Planning請求表單建立請求
+
+您可以使用Workfront Planning請求表單來新增請求。 如果請求表單已核准或不需要核准，新增Workfront Planning請求可能會建立Planning記錄。
+
+貴組織必須購買Workfront Planning套件才能提交Planning請求。
+
+如需詳細資訊，請參閱下列文章：
+
+* [在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
+* [提交Adobe Workfront Planning要求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)。
 
 ## 找出已提交的請求
 

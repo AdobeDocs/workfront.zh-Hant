@@ -6,9 +6,9 @@ description: 您可以使用[!UICONTROL 我的更新]區域來快速檢閱等待
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '787'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # 使用[!UICONTROL 我的更新]區域
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 您可以使用[!UICONTROL 我的更新]區域來快速檢閱等待您決定的核准或您已加入的交談。
@@ -82,11 +82,7 @@ ht-degree: 0%
 
    指派給您的核准和存取要求列在頁面前半段的&#x200B;**我的更新**&#x200B;底下。
 
-   <div class="preview">
-
    ![](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
-
-   </div>
 
 1. （選擇性）捲動至&#x200B;[!UICONTROL **我的更新**]&#x200B;區域底部，然後按一下向右箭頭，以顯示其他頁面上顯示的更多核准。
 
@@ -168,12 +164,8 @@ ht-degree: 0%
 
      如需回覆更新的詳細資訊，請參閱[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
-     <span class="preview">當您完成新增回覆時，請按一下&#x200B;**[!UICONTROL 提交]**。</span>
-
-     <div class="preview">
+     新增完回覆後，請按一下&#x200B;**[!UICONTROL 提交]**。
 
      ![](assets/reply-in-the-my-updates-area.png)
-
-     </div>
 
 1. （選擇性）按一下「**[!UICONTROL 釘選目前頁面]**」，將「[!UICONTROL 我的更新]」區域釘選到您的頂端導覽列。

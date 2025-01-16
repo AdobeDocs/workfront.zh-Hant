@@ -1,26 +1,25 @@
 ---
 product-area: projects
 navigation-topic: use-the-home-area
-title: 更新或編輯首頁區域的工作專案
+title: 更新或編輯首頁區域中的工作專案
 description: 您可以在Adobe Workfront的[!UICONTROL 首頁]區域內，檢視並新增工作專案的更新。 如果您有編輯許可權，您也可以編輯與工作專案相關的其他資料。
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 6%
+source-wordcount: '846'
+ht-degree: 7%
 
 ---
 
 # 更新或編輯[!UICONTROL 首頁]區域中的工作專案
 
-<!--Audited: April 2024-->
+<!--Audited: 04/2024-->
 
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
-
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 您可以在[!DNL Adobe Workfront]的[!UICONTROL 首頁]區域內，檢視並新增更新至工作專案。 如果您有編輯許可權，您也可以編輯與工作專案相關的其他資料。
 
@@ -133,22 +132,18 @@ You can view updates on any work item in the [!UICONTROL Work List]:
 
 1. 按一下&#x200B;**回覆**。
 
-   <div class="preview">
-
    ![](assets/reply-to-comment-in-mentions-widget.png)
 
-   </div>
-
 1. 開始輸入您的註解。
-1. （選擇性）在&#x200B;<span class="preview">**標籤人員**</span>&#x200B;方塊中，開始輸入您想加入此註解的使用者或團隊名稱，然後在其顯示在清單中時選取它。
+1. （選擇性）在&#x200B;**標籤人員**&#x200B;方塊中，開始輸入您想加入此註解的使用者或團隊名稱，然後在其顯示在清單中時選取它。
 1. （可選）使用RTF工具列中的選項來格式化文字、新增emoji、連結或影像至您的註解，以強化您的內容。
-1. <span class="preview">按一下&#x200B;**提交**&#x200B;將註解新增至工作專案。</span>
+1. 按一下&#x200B;**提交**&#x200B;將註解新增至工作專案。
 
    >[!IMPORTANT]
    >
-   ><span class="preview">您只能在提交評論後15分鐘內編輯評論。 若要編輯評論，請按一下評論右上角的&#x200B;**更多**&#x200B;功能表，然後按一下&#x200B;**編輯**。</span>
+   >您只能在提交評論的15分鐘內編輯評論。 若要編輯評論，請按一下評論右上角的&#x200B;**更多**&#x200B;功能表，然後按一下&#x200B;**編輯**。
 
-   <span class="preview">如需新增更新的詳細資訊，請參閱[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。</span>
+   如需新增更新的詳細資訊，請參閱[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
 ## 編輯工作專案
 

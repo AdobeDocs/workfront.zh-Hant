@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '502'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # 管理Adobe Workfront Planning通知偏好設定
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -27,14 +27,9 @@ Workfront Planning中發生下列動作時，您可能會收到應用程式內�
 * 有人將您新增至記錄頁面上的註解
 * 某人要求存取檢視或工作區的許可權
 * 有人授予您存取檢視或工作區<!--I could not test this but Isk confirmed-->的許可權
-
-<div class="preview">
-
 * 您提交Workfront Planning請求。
 * 某人核准或拒絕您提交的Workfront Planning請求。
 * 狀態會變更為您提交的Workfront Planning請求。
-
-</div>
 
 ## 存取需求
 
@@ -187,9 +182,9 @@ OLD:
    * **要求**：當某人執行下列其中一項作業時，您會收到通知：
 
       * 要求或授予Workfront Planning物件的許可權
-      * <span class="preview">您已提交Workfront規劃要求</span>
-      * <span class="preview">您提交變更的Workfront計畫要求狀態</span>
-      * <span class="preview">要求、授與或拒絕Workfront規劃要求的核准</span>
+      * 您已提交Workfront規劃請求
+      * 您提交變更的Workfront Planning請求狀態
+      * 請求、授予或拒絕對Workfront Planning請求的核准
 
    如需有關管理通知的詳細資訊，請參閱[帳戶偏好設定和通知](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences)。
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '2296'
+source-wordcount: '2236'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 0%
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 Linked to Converting Issues.-->
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 作為[!DNL Adobe Workfront]管理員，您可以設定任務和問題的全系統偏好設定。 這些偏好設定會影響您的使用者在[!DNL Workfront]中建立任務和問題的方式。
@@ -74,15 +74,10 @@ Linked to Converting Issues.-->
    * [[!UICONTROL 新任務預設值]](#new-task-defaults)
    * [[!UICONTROL 問題]](#issues)
    * [[!UICONTROL 刪除]](#deletion)
-   * <span class="preview">[移動](#move)</span>
+   * [移動](#move)
    * [[!UICONTROL 實際日期]](#actual-dates)
    * [[!UICONTROL 委派]](#delegation)
    * [[!UICONTROL 存取]](#access)
-
-<!--
-  <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Work On It</a> </li>
--->
-
 
 
 ### [!UICONTROL 新任務預設值] {#new-task-defaults}
@@ -169,8 +164,6 @@ Linked to Converting Issues.-->
 
 * 取消選取此選項時，當您刪除具有記錄時數的任務或問題時，或是當您刪除具有記錄其任務或問題的時數的專案時，會收到禁止性警告。 警告指定管理員不允許刪除記錄時數的任務或問題。 無法刪除為任務和問題記錄時數的任務、問題或專案。
 
-<div class="preview">
-
 ### 移動
 
 **[!UICONTROL 允許使用者移動記錄時數的任務和問題]**：可讓您決定是否允許移動記錄時數的任務或問題。 依預設，會選取此選項。
@@ -178,8 +171,6 @@ Linked to Converting Issues.-->
 * 選取後，您可以移動已記錄時間的任務和問題。 小時也會隨著任務或問題移動。
 
 * 取消選取此選項時，您將具有記錄時數的任務或問題移動到另一個專案時，收到禁止性警告。 警告指定管理員不允許移動記錄時數的任務或問題。 無法移動記錄時數的任務或問題。 即使取消選取此選項，您也可以在相同專案中移動任務。
-
-</div>
 
 ### [!UICONTROL 實際日期] {#actual-dates}
 

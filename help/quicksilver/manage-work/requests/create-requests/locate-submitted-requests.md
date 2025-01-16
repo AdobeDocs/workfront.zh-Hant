@@ -8,9 +8,9 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '949'
 ht-degree: 1%
 
 ---
@@ -21,12 +21,19 @@ ht-degree: 1%
 
 您可以找到以下您或其他人提交的請求型別，或您已開始但您從未完成提交的請求。 您可以在Adobe Workfront的下列區域中找到這些請求：
 
-* **已提交區段**：您或其他人已提交且您至少有權存取檢視的所有要求。
-* **草稿區段** ：所有您已開始但您未完成且您未提交的請求。 如需草稿要求的詳細資訊，請參閱[建立並提交Adobe Workfront要求](../../../manage-work/requests/create-requests/create-submit-requests.md)。
+* Workfront中「請求」區域的&#x200B;**Workfront**&#x200B;索引標籤：在下列區段中找出提交至Workfront請求佇列的請求：
+   * **已提交區段**：您或其他人已提交且您至少有權存取檢視的所有要求。
+   * **草稿區段** ：所有您已開始但您未完成且您未提交的請求。 如需草稿要求的詳細資訊，請參閱[建立並提交Adobe Workfront要求](../../../manage-work/requests/create-requests/create-submit-requests.md)。
 
   >[!TIP]
   >
   >您只能檢視自己的草稿要求。
+
+* Workfront中請求區域的&#x200B;**規劃**&#x200B;標籤：找出提交至Workfront規劃請求表單的請求。 貴組織必須購買Workfront Planning套件。 如需詳細資訊，請參閱下列文章：
+
+   * [在Adobe Workfront Planning中建立和管理請求表單](/help/quicksilver/planning/requests/create-request-form.md)
+   * [提交Adobe Workfront Planning請求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)
+
 
 ## 存取需求
 
@@ -70,6 +77,7 @@ ht-degree: 1%
 
 {{step1-to-requests}}
 
+1. （視條件而定）如果您的組織已購買Workfront Planning套件，請按一下&#x200B;**Workfront**&#x200B;標籤以檢視Workfront請求。
 1. 按一下左側面板中的&#x200B;**已提交**&#x200B;以檢視所有已提交的請求。
 
    您最多可檢視2000個請求，且這些請求可顯示在多個頁面上。
@@ -191,6 +199,12 @@ ht-degree: 1%
    -->
 
 1. 按一下&#x200B;**草稿**&#x200B;以檢視所有草擬的請求。 Workfront會針對此資料夾中的每個請求佇列儲存不限數量的草稿。 當您為已有草稿的佇列主題輸入新請求時，系統會提示您使用現有的草稿。 如需詳細資訊，請參閱[從草稿建立請求](../../../manage-work/requests/create-requests/create-requests-from-drafts.md)。
+
+1. （選擇性和條件性）如果您的組織購買了Workfront計畫套件，請按一下&#x200B;**計畫**&#x200B;標籤，然後按一下左側面板中的&#x200B;**已提交**，以檢視Workfront計畫請求。
+
+   ![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
+
+   如需詳細資訊，請參閱[提交Adobe Workfront Planning要求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)。
 
  
 

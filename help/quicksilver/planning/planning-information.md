@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
 recommendations: noDisplay, noCatalog
-source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
 source-wordcount: '591'
 ht-degree: 0%
@@ -71,7 +71,7 @@ ht-degree: 0%
    * 共用記錄
    * 從Workfront管理Workfront規劃記錄
 
-* [Adobe Workfront規劃要求：文章索引](/help/quicksilver/planning/requests/requests-article-index.md)包含下列資訊：
+* [Adobe Workfront Planning要求：文章索引](/help/quicksilver/planning/requests/requests-article-index.md)包含下列資訊：
 
    * 如何建立記錄型別的請求表單。
    * 使用者如何將請求提交至記錄型別請求表單並建立記錄。

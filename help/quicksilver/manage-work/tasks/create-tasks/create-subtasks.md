@@ -6,9 +6,9 @@ description: 在Adobe Workfront中，任務可以有父子關係。 子任務稱
 author: Alina
 feature: Work Management
 exl-id: 3d970794-b5ea-422f-bc92-51846cb7db35
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您的Workfront或群組管理員可能會隱藏環境中的子任務區段。
+>您的Workfront或群組管理員可能會使用版面配置範本移除您環境中的「子任務」區段。
 
 1. 前往您要建立子任務的專案。
 1. 按一下左側面板中的&#x200B;**任務**&#x200B;區段。
