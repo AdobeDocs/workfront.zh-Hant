@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: fa24040d-0403-4799-b690-c3d172797115
-source-git-commit: d2e3379e9390f2b419bb2d78b1999c8c2dd7d0d3
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '834'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,25 @@ ht-degree: 0%
 
 如需2025年第一季發行週期目前可用的所有變更清單，請參閱[2025年第一季發行概觀](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)。
 
+## 更多物件現在支援商業規則
+
+>[!NOTE]
+>
+>預覽版本： 2025年1月16日；適用於所有客戶的生產版本：搭配25.1版（2025年1月）
+>
+>_僅適用於Ultimate計畫中的組織。_
+
+您現在可以建立商業規則，並將驗證套用至這些額外的物件：公司、反複專案、非人工資源分類、工作角色、使用者、工作分派、資源集區、休假、檔案及小時。
+
+商業規則已支援下列物件：專案、任務、請求、Portfolio、方案、費用、記帳記錄、群組、風險和費率卡。
+
+如需詳細資訊，請參閱[建立和編輯商業規則](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)。
+
 ## 比較不同環境之間的物件以進行環境升級
 
 >[!NOTE]
 >
->預覽版本： 2024年1月6日；適用於所有客戶的生產版本：搭配25.1版（2025年1月）
+>預覽版本： 2025年1月6日；適用於所有客戶的生產版本：搭配25.1版（2025年1月）
 
 為了更便於確定哪些物件應包含在環境推進套件中，我們新增了跨環境比較物件的功能。 現在，您可以選取物件型別和環境。 Workfront會產生該型別物件的清單，包括它們是否存在於目標環境中，以及該物件在來源環境與目標環境之間是否有差異。 然後，您可以從此清單直接將物件加入封裝。
 
@@ -34,7 +48,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽版本： 2024年1月6日；適用於所有客戶的生產版本：搭配25.1版（2025年1月）
+>預覽版本： 2025年1月6日；適用於所有客戶的生產版本：搭配25.1版（2025年1月）
 
 為了擴展環境推進功能的功能，我們已新增更多物件。 現在，您可以將下列物件加入至環境推進封裝：
 
@@ -46,7 +60,7 @@ ht-degree: 0%
 
 如需有關可用於環境推進的物件的詳細資訊，請參閱「環境推進概述」一文中的[環境推進的支援物件](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion)。
 
-## 當有記錄時數時防止移動任務
+## 當記錄小時數時防止移動任務
 
 >[!NOTE]
 >

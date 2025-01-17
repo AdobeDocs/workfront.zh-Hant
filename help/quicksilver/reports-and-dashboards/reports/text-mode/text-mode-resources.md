@@ -8,7 +8,7 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 892f1746-b9c6-4414-bfa1-24f68a3be6fb
-source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 0%
@@ -17,11 +17,7 @@ ht-degree: 0%
 
 # 文字模式資源：文章索引
 
-<!-- Audited: 12/2023 -->
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: This is the section article with links to all other articles in this section)</p>
--->
+<!-- Audited: 1/2025 -->
 
 使用下列檔案來瞭解Adobe Workfront中文字模式介面的使用方式。 您可以使用文字模式並自訂報表，以擴大報表的使用範圍，比使用Report Builder所允許的範圍更深入。
 
@@ -32,22 +28,14 @@ ht-degree: 0%
 * [文字模式語法概觀](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
 * [使用文字模式編輯檢視](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
 * [使用文字模式編輯篩選器](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
-* [在群組中編輯文字模式](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
+* [使用文字模式編輯群組](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
 * [自訂檢視、篩選和群組範例：發行項索引](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
-  <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-  (NOTE: this is linked here although from another section)
-  </MadCap:conditionalText>
-  -->
+  <!--  (NOTE: this is linked here although from another section)  -->
 
 * [在報表中計算的自訂資料](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
 
-  <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-  (NOTE: this is linked here although from another section)
-  </MadCap:conditionalText>
-  -->
+  <!--  (NOTE: this is linked here although from another section)  -->
 
 * [在文字模式中使用條件式格式](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md)
 * [文字模式報表中的日期格式](../../../reports-and-dashboards/reports/text-mode/format-dates-in-text-mode-reports.md)
@@ -56,4 +44,3 @@ ht-degree: 0%
 * [報表中的參考集合](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md)
 * [在文字模式篩選器中建立「OR」陳述式](../../../reports-and-dashboards/reports/text-mode/create-or-statements-in-filters-text-mode.md)
 * [使用EXISTS陳述式建立複雜的文字模式篩選器](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md)
-  <!--outdated link: * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program)-->

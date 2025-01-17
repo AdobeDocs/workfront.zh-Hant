@@ -6,7 +6,7 @@ description: 您可以新增圖表來增強報表。 您可以將圖表新增至
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
-source-git-commit: 9396cd2ac073a57b7d99618cdf09e54ddcf95130
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
 source-wordcount: '2734'
 ht-degree: 0%
@@ -54,7 +54,7 @@ ht-degree: 0%
          </ul>
       <p>目前：</p>
          <ul>
-         <li><p>計劃</p></li>
+         <li><p>規劃</p></li>
          </ul>
    </td>
   </tr> 
@@ -88,7 +88,7 @@ ht-degree: 0%
    >[!TIP]
    >
    >* 您只能在報告結果分組時向報告新增圖表。
-   >* 圖表不支援文字模式分組。 如需文字模式群組的詳細資訊，請參閱[在群組中編輯文字模式](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)。
+   >* 圖表不支援文字模式分組。 如需文字模式群組的詳細資訊，請參閱[使用文字模式編輯群組](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)。
    >* 如果您新增代表一個度量的單一群組，則除了圓餅圖之外，其他所有圖表都會將群組中的每個結果顯示為相同的顏色。
 
    如需建立群組的詳細資訊，請參閱[在Adobe Workfront中建立群組](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-groupings.md)。

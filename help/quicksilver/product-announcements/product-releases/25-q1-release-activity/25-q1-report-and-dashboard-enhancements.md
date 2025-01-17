@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3c0b4797-594c-44d0-b3ad-a64384b6c4a8
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 0%
+source-wordcount: '324'
+ht-degree: 4%
 
 ---
 
@@ -17,6 +17,31 @@ ht-degree: 0%
 本頁面說明2025年第一季度版本對「預覽」環境所做的所有報表和控制面板增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2025年第一季發行週期目前可用的所有變更清單，請參閱[2025年第一季發行概觀](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)。
+
+## 資料連線中可用的新實體
+
+>[!NOTE]
+>
+>預覽版本： 2025年1月15日；適用於所有客戶的生產版本： 2025年1月15日
+
+我們在Data Connect中新增了下列實體的支援：
+
+* 專案團隊使用者
+* 專案團隊使用者角色
+* 可報告預算時數
+* 報表檢視統計計數
+* 資源管理員
+* RTF 備註
+
+我們也新增了對於以下機構特定實體的支援：
+
+* 企業設定檔
+* 業務規則
+* 位置
+* 非勞動力資源類別
+* 使用者位置
+
+如需詳細資訊，請參閱[Workfront Data Connect資料字典](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md)。
 
 ## 儀表板中25個報告、外部頁面或行事曆的限制
 

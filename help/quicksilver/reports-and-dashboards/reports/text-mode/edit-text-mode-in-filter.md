@@ -6,20 +6,16 @@ description: 您可以使用文字模式在清單或報告中編輯篩選器，�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 0%
+source-wordcount: '1042'
+ht-degree: 1%
 
 ---
 
 # 使用文字模式編輯篩選器
 
-<!-- Audited: 01/2024 -->
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">NOTE: add a section in this article: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-fitlers.html; *** Also, draft this area in the Text Mode overview article)</p>
--->
+<!-- Audited: 1/2025 -->
 
 您可以使用文字模式在清單或報告中編輯篩選器，以存取標準介面中無法使用的欄位，並建立更複雜的篩選器。
 
@@ -29,7 +25,7 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
+您必須具備下列條件：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,9 +37,16 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td><p>新增：標準</p>
-    <p>或</p>
-    <p>目前：計畫</p> </td> 
+   <td> 
+      <p>新增：</p>
+         <ul>
+         <li><p>標準</p></li>
+         </ul>
+      <p>目前：</p>
+         <ul>
+         <li><p>規劃</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -56,7 +59,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -84,12 +87,20 @@ ht-degree: 0%
 
 1. 執行下列其中一項：
 
-   1. 若要從報告存取篩選器，請移至報告，然後按一下&#x200B;**報告動作** > **編輯** > **篩選器**&#x200B;索引標籤。
-   1. 若要從清單存取篩選器，請移至清單，然後從&#x200B;**篩選器**&#x200B;功能表，將滑鼠停留在您要修改的篩選器上，然後按一下&#x200B;**編輯**&#x200B;圖示![](assets/edit-icon.png)。
+   若要從清單存取篩選器，請移至清單並按一下&#x200B;**篩選器**&#x200B;圖示，然後將游標移至您要修改之&#x200B;**篩選器**&#x200B;側面板中的篩選器，然後按一下&#x200B;**編輯**&#x200B;圖示![](assets/edit-icon.png)。 **篩選器**&#x200B;側面板會顯示您選取的篩選器，或舊版篩選器產生器開啟。
 
-      篩選產生器隨即開啟。
+   或
 
-1. 按一下&#x200B;**新增篩選規則**&#x200B;以開始新增篩選條件，然後按一下產生器右側的&#x200B;**文字模式**&#x200B;或&#x200B;**切換至文字模式**。
+   若要從報告存取篩選器，請移至報告，然後按一下&#x200B;**報告動作** > **編輯** > **篩選器**&#x200B;索引標籤。
+
+1. 執行下列其中一項：
+
+   如果您在清單上使用&#x200B;**篩選器**&#x200B;側面板，請按一下&#x200B;**文字模式**。
+
+   或
+
+   如果您使用舊版篩選產生器或報表，請按一下&#x200B;**新增篩選規則**&#x200B;以開始新增篩選條件。 然後，按一下產生器右側的&#x200B;**切換至文字模式**&#x200B;然後&#x200B;**編輯文字模式**。
+
 1. 使用文字模式新增篩選陳述式。 每個篩選陳述式都可包含下列各行及其他資訊：
 
    <table style="table-layout:auto"> 
@@ -175,7 +186,7 @@ ht-degree: 0%
       >`OR:2:plannedCompletionDate=$$TODAY`
       >`OR:2:plannedCompletionDate_Mod=eq`
 
-1. 按一下&#x200B;**結束文字模式**&#x200B;或&#x200B;**完成**&#x200B;以儲存您的文字模式變更，並繼續編輯報表或篩選器。
+1. 按一下「**套用**」或「**完成**」以儲存文字模式變更，並繼續編輯報告或篩選器。
 1. 按一下&#x200B;**儲存+關閉**&#x200B;以儲存您的報告，或按一下&#x200B;**儲存篩選器**&#x200B;以將篩選器儲存在清單中。
 
 

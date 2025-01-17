@@ -6,7 +6,7 @@ description: 日期可以設定為在Adobe Workfront的報表和清單中以各�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ff0686aa-b306-4954-8f9b-3e98bf8cff22
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # 文字模式報表中的日期格式
+
+<!-- Audited: 1/2025 -->
 
 日期可以設定為在Adobe Workfront的報表和清單中以各種格式顯示。 若要建立日期格式，您必須修改欄中文字模式程式碼的`valueformat`行。
 
@@ -33,13 +35,7 @@ valuefield=plannedCompletionDate
 
 如需使用文字模式在Workfront報表和清單中套用條件式格式的詳細資訊，請參閱[在文字模式中使用條件式格式](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md)。
 
-您可以使用下列專案來格式化日期
-
-```
-valueformat
-```
-
- 文字模式值：
+您可以使用下列`valueformat`個文字模式值來格式化日期：
 
 | **格式** | 範例  | ***valueformat=*** |
 |---|---|---|

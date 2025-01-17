@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 10ab6466780d9fe88604bf781c153cde89f1e454
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1188'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->適用於所有客戶的生產版本：從24.10版本（2024年10月17日）開始逐步推出，於2024年11月8日完整推出
+>適用於所有客戶的生產版本：從24.10版本（2024年10月17日）開始逐步推出
 
 我們已更新報表介面，以符合Workfront其他區域的設計需求。 這些更新包括對報告功能的其他變更：
 

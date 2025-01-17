@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: a91ca50cacb1f48d49fd70e9612297438bbddd83
+source-git-commit: d87e7aab75c65796e9d4ef04c46aef295dbd898f
 workflow-type: tm+mt
-source-wordcount: '2570'
+source-wordcount: '2776'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,23 @@ ht-degree: 0%
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+           更多物件現在支援商業規則</a></p>
+           [！BADGE In Production ]{type=Informative}
+            <p>您現在可以建立商業規則，並將驗證套用至這些額外的物件：公司、反複專案、非人工資源分類、工作角色、使用者、工作分派、資源集區、休假、檔案及小時。</p>
+        </td>
+        <td>
+            <p><b>將於下列日期提供：</b></p>
+            <ul>
+                <li>預覽版本： 2024年1月16日</li>
+                <li>所有客戶的生產版本：25.1版本（2025年1月16日）</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
            比較不同環境之間的物件以進行環境升級</a></p>
+           [！BADGE In Production ]{type=Informative}
             <p>為了更便於確定哪些物件應包含在環境推進套件中，我們新增了跨環境比較物件的功能。 然後，您可以從此比較直接將物件加入封裝。</p>
         </td>
         <td>
@@ -76,6 +92,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             更多可用於環境升級的物件</a></p>
+            [！BADGE In Production ]{type=Informative}
             <p>為了擴展環境推進功能的功能，我們已新增更多物件。</p>
         </td>
         <td>
@@ -89,7 +106,8 @@ ht-degree: 0%
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            當有記錄時數時防止移動任務</a></p>
+            當記錄小時數時防止移動任務</a></p>
+            [！BADGE In Production ]{type=Informative}
             <p>由於移動記錄時數的任務或問題有時會導致相容性或稽核問題，因此我們在「設定」的「任務和問題偏好設定」區域中新增了偏好設定，可讓您防止使用者移動記錄時數的任務和問題。</p>
         </td>
         <td>
@@ -104,7 +122,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             用於單一指派任務的專案或使用者排程的偏好設定</a></p>
-            [！BADGE In Production for Fast Release ]{type=Positive}
+            [！BADGE In Production ]{type=Informative}
             <p>作為系統或群組管理員，您現在有新的偏好設定，可指明Workfront在您指派一名使用者至任務，且專案和使用者都與排程相關聯時，是否應使用專案或使用者的排程來計算專案的時間表。</p>
         </td>
         <td>
@@ -120,7 +138,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             商業規則現在支援超連結</a></p>
-            [！BADGE In Production for Fast Release ]{type=Positive}
+            [！BADGE In Production ]{type=Informative}
             <p>您現在可以在商業規則的自訂錯誤訊息中包含超連結，以指導使用者如何在規則的限制內修改其動作。 靜態URL可連結至對使用者有所幫助的檔案或其他頁面。</p>
         </td>
         <td>
@@ -136,6 +154,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             現起提供原生預先輸入欄位上的篩選</a></p>
+            [！BADGE In Production ]{type=Informative}
             <p>當您將原生欄位參考新增至自訂表單，並且它參考預先輸入欄位(例如，Portfolio、公司或所有者)時，現在可以使用篩選器選項。 篩選器可讓您限制使用者在使用欄位時可選擇的物件。 此自訂篩選的運作方式與自訂預先輸入欄位上的篩選相同，是使用文字模式來定義篩選。</p>
         </td>
         <td>
@@ -151,7 +170,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             「移至」圖示已新增到自訂欄位</a></p>
-            [！BADGE In Production for Fast Release ]{type=Positive}
+            [！BADGE In Production ]{type=Informative}
             <p>當自訂表單包含具有多個欄位的多個區段時，透過拖放將欄位從一個區段移動到另一個區段會很困難。 每個欄位已新增「移至」圖示，可讓您選取欄位所在的區段。</p>
         </td>
         <td>
@@ -184,6 +203,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">
             變更展示板的所有者</a></p>
+            [！BADGE In Production ]{type=Informative}
             <p>根據預設，展示板的建立者是擁有者。 展示板擁有者是可在「設定」面板中刪除該展示板或更新其篩選器的唯一人員。</p>
             <p>已新增功能，以允許Workfront系統管理員變更展示板的所有者。 展示板的目前擁有者也可以變更該特定展示板的擁有者。 此功能適用於基本、追溯和Kanban面板，但不適用於動態面板。</p>
         </td>
@@ -216,7 +236,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
             一次編輯多份檔案</a></p>
-            [！BADGE In Production for Fast Release ]{type=Positive}
+            [！BADGE In Production ]{type=Informative}
             <p>您現在可以一次編輯多份檔案。 您可以編輯說明並更新自訂表格。</p>
         </td>
         <td>
@@ -232,7 +252,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
             可用於檔案版本核准的新撤回狀態</a></p>
-            [！BADGE In Production for Fast Release ]{type=Positive}
+            [！BADGE In Production ]{type=Informative}
             <p>當新版本新增到具有待核准的檔案時，先前版本的核准現在將顯示為「已撤回」，表示由於新增新版本，先前核准流程已關閉。</p>
         </td>
         <td>
@@ -266,6 +286,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             使用智慧型篩選器在優先順序中尋找您的工作</a></p>
+            [！BADGE In Production ]{type=Informative}
             <p>使用自然語言快速篩選「優先順序」工作清單中的工作。 您可以輸入類似以下的內容 </p>
             <ul>
                 <li>顯示延遲任務</li>
@@ -285,6 +306,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             在優先順序中趕上工作</a></p>
+            [！BADGE In Production ]{type=Informative}
             <p>您可以使用「追溯」來協助縮短尋找作用中專案資訊的時間。</p>
             <p>由Workfront的AI助理提供技術支援，即時掌握以下時間範圍內有關您專案的更新、上傳檔案和其他顯著變更：24小時、3天或7天。</p>
         </td>
@@ -302,6 +324,7 @@ ht-degree: 0%
             在優先順序的詳細資訊頁面上即時檢視變更</a></p>
             <p>您現在可以在任務或問題的詳細資訊頁面上檢視即時更新。 您也可以檢視其他人是否與您同時檢視頁面，並透過即時狀態指標。</p>
         </td>
+        [！BADGE In Production ]{type=Informative}
         <td>
             <p><b>將於下列日期提供：</b></p>
             <ul>
@@ -314,6 +337,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             上傳和檢視優先順序中的檔案和校樣</a></p>
+            [！BADGE In Production ]{type=Informative}
             <p>您現在可以與工作清單和行事曆中任務和問題的檔案和校訂互動。 在新的「檔案」標籤中，您可以</p>
             <ul>
                 <li>上傳文件</li>
@@ -334,6 +358,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             行事曆檢視現在可在「優先順序」中使用</a></p>
+            [！BADGE In Production ]{type=Informative}
             <p>您可以使用清楚的視覺化月份行事曆追蹤您的工作。 使用「優先順序」行事曆，您可以</p>
             <ul>
                 <li>使用篩選器尋找您的工作</li>
@@ -354,6 +379,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             優先順序工作清單的更新</a></p>
+            [！BADGE In Production ]{type=Informative}
             <p>我們已更新「優先順序」工作清單，以改進功能並與應用程式的其他區域保持一致。</p>
         </td>
         <td>
@@ -368,6 +394,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             從優先順序導覽至專案的詳細資訊頁面</a></p>
+            [！BADGE In Production ]{type=Informative}
             <p>您現在可以從優先順序工作清單直接導覽至Workfront中的專案。</p>
         </td>
         <td>
@@ -403,7 +430,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             在優先順序中檢視專案詳細資訊</a></p>
-            [！BADGE In Production for Fast Release ]{type=Positive}
+            [！BADGE In Production ]{type=Informative}
             <p>您現在可以從「優先順序」的工作清單中檢視專案詳細資訊和註解。</p>
         </td>
         <td>
@@ -434,8 +461,9 @@ ht-degree: 0%
     </tr>
     <tr>
         <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
             從快速發行環境的預覽和生產中移除的更多相關指派</a></p>
+            [！BADGE In Production ]{type=Informative}
             <p>自2023年12月起已在預覽環境中以及自2024年3月起已在快速發行生產環境中使用的功能現已移除。 這些功能在指派任務時新增了更相關的智慧指派建議。</p>
         </td>
         <td>
@@ -523,7 +551,23 @@ ht-degree: 0%
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            資料連線中可用的新實體</a></p>
+            [！BADGE In Production ]{type=Informative}
+            <p>我們在Data Connect中新增了許多新實體的支援，包括一些機構專用的實體。</p>
+        </td>
+        <td>
+            <p><b>將於下列日期提供：</b></p>
+            <ul>
+                <li>預覽版本： 2025年1月15日</li>
+                <li>所有客戶的生產版本： 2025年1月15日</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}">
             儀表板中25個報告、外部頁面或行事曆的限制</a></p>
+            [！BADGE In Production ]{type=Informative}
             <p>為了維持儀表板效能，我們已實施可放置在儀表板中的報告、外部頁面或行事曆總數限制。 建立新儀表板時，最多可以新增25個專案。</p>
         </td>
         <td>
@@ -568,7 +612,7 @@ ht-degree: 0%
     </tr>
     <tr>
         <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">
             更新「首頁」和「我的更新」區域中「提及」小工具的評論體驗</a></p>
             <p>我們正在更新首頁的「提及」小工具和「我的更新」區域的「提及」區段中的評論體驗。 現在，大部分的Workfront物件的「更新」區域中也有相同的體驗，可在「我的更新」的「提及」小工具中取得。</p>
         </td>
@@ -612,7 +656,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             自訂表單中的區段現在可摺疊且可展開</a></p>
-            [！BADGE In Production for Fast Release ]{type=Positive}
+            [！BADGE In Production ]{type=Informative}
             <p>當具有多個區段的自訂表單附加到物件時，您現在可以摺疊和展開表單頂端預設區段以外的所有區段。 管理員也可以在表單設計工具中預覽表單時看到此功能。</p>
         </td>
         <td>
@@ -628,7 +672,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             AI助理現在可以處理專案、任務和問題</a></p>
-            [！BADGE In Production for Fast Release ]{type=Positive}
+            [！BADGE In Production ]{type=Informative}
             <p>為了更輕鬆地在Workfront中管理您的工作專案，我們已更新AI助理來處理專案、任務和問題。 現在，AI助理可以根據您指定的條件找到專案、任務和問題。</p>
         </td>
         <td>
@@ -666,6 +710,14 @@ The following functionality is soon to be removed from Workfront:
 ## 公告
 
 ### Workfront Fusion增強功能
+
+>[!IMPORTANT]
+>
+>Workfront Fusion檔案已移至新位置。 如需Fusion的資訊、指示和發行版本，請造訪[Workfront Fusion檔案](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home)。
+>
+>每篇目前的Fusion檔案文章都包含一個連結，指向新位置中對應的文章。 請更新您的書籤。
+>
+>目前的Fusion檔案集已不再更新，不久將會移除。
 
 Workfront Fusion中的新功能可在2025年第一季度發行排程之外的步調中用於生產環境。 如需最新功能的詳細資訊，請參閱[Adobe Workfront Fusion發行活動](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)。
 

@@ -7,7 +7,7 @@ author: Nolan
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
 source-wordcount: '1862'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # 文字模式語法概觀
 
-<!--Audited: 12/2023-->
+<!--Audited: 1/2025-->
 
 您可以使用文字模式介面在清單和報告中建立更複雜的檢視、篩選器、分組和自訂提示。 使用文字模式，您可以存取在標準模式介面中無法使用的欄位及其屬性。
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 ## 有關文字模式語法的考量事項
 
 * 您必須先瞭解Adobe Workfront語法，才能開始以文字模式建立報表元素。 文字模式的Workfront語法是此應用程式所獨有的，並具有您必須熟悉的唯一特性。
-* 在報表中開始使用文字模式之前，強烈建議您先參加進階報表課程，以更深入地瞭解我們的文字模式語言。<!--outdated link: For training materials on reporting see [Workfront Reports and Dashboards Learning Paths](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).-->
+* 在報表中開始使用文字模式之前，強烈建議您先參加進階報表課程，以更深入地瞭解我們的文字模式語言。
 * 您可以使用標準模式介面自訂檢視、篩選器和群組。 不過，您只能使用文字模式來建置自訂提示。
 
 ## 以文字模式建立報表元素的通用准則
@@ -44,13 +44,11 @@ ht-degree: 0%
 
   **範例：**&#x200B;您可以在工作檢視中顯示Portfolio擁有者的名稱或GUID：
 
-
   `valuefield=project:portfolio:ownerID`
 
   您不能在任務檢視中群組、篩選或提示Portfolio擁有者：
 
   `project:portfolio:ownerID=5808f4bc00790b270a9629dd128e63fa`
-
 
   在這些範例中，Portfolio擁有者ID是三個物件，與清單的物件不同。
 
@@ -90,7 +88,7 @@ ht-degree: 0%
   如需以文字模式建立檢視和群組時，其程式碼關鍵行的相關資訊，請參閱：
 
    * [使用文字模式編輯檢視](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
-   * [編輯群組中的文字模式](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
+   * [使用文字模式編輯群組](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
 
 * 篩選和自訂提示的程式碼行和語法類似。
 
