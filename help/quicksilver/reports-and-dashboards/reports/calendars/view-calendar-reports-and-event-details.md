@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront中檢視您建立或與您共用的行�
 author: Lisa
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: 9ddbe09ab99b6b151fc2d052b4c53e004eb0fa44
+source-git-commit: eebece1ba576d9c654ac0fd9763ae646ce3be5a5
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
@@ -56,21 +56,23 @@ ht-degree: 0%
 
 ## 檢視行事曆報告
 
-{{step1-to-calendars}}
+<!--{{step1-to-calendars}}-->
 
-根據您的存取層級，您可能會看到下列行事曆：
+1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 行事曆]**。
 
-* 您的預設[!DNL Adobe Workfront]行事曆
+   根據您的存取層級，您可能會看到下列行事曆：
 
-  Workfront會根據指派給您的專案、任務和問題或是指派給您受指派的團隊、群組或角色的問題，為您建立行事曆。
+   * 您的預設[!DNL Adobe Workfront]行事曆
 
-* 您已建立的行事曆
+     Workfront會根據指派給您的專案、任務和問題或是指派給您受指派的團隊、群組或角色的問題，為您建立行事曆。
 
-  若要瞭解如何建立行事曆，請參閱[行事曆報告總覽](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md)。
+   * 您已建立的行事曆
 
-* 其他使用者與您共用的行事曆
+     若要瞭解如何建立行事曆，請參閱[行事曆報告總覽](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md)。
 
-  若要瞭解共用行事曆，請參閱[[!UICONTROL 共用行事曆]報告](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)。
+   * 其他使用者與您共用的行事曆
+
+     若要瞭解共用行事曆，請參閱[[!UICONTROL 共用行事曆]報告](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)。
 
 1. （視條件而定）按一下&#x200B;**[!UICONTROL 檢視]**下拉式清單，然後選取您要檢視的行事曆持續時間。
    ![行事曆持續時間](assets/view-menu-calendar-report-350x189.png)
