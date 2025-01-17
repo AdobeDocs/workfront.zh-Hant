@@ -3,10 +3,10 @@ product-area: projects;user-management
 navigation-topic: assign-tasks
 title: 管理任務的使用者或角色配置百分比
 description: 配置百分比代表指定資源計畫在一天內處理一項任務的時間量。 這是在任務持續期間中配置資源的當日百分比（根據使用者或專案排程）。
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
-source-git-commit: 830ad0411084844ace1e1e543c3ebefcb558af80
+source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 1%

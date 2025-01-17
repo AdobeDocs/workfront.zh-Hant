@@ -4,11 +4,11 @@ product-area: projects;user-management
 navigation-topic: tasks
 title: 指派任務
 description: 您可以在Adobe Workfront中以各種方式管理任務指派。 本節中的方法說明您可將任務指派給使用者、團隊和職位角色的不同方式。
-author: Alina
+author: Lisa
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 2b79998d-7436-43ef-a5f5-6302f1f1b7a7
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 0%

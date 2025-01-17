@@ -3,10 +3,10 @@ product-area: projects;user-management
 navigation-topic: assign-tasks
 title: 管理任務的使用者和角色分配時數
 description: 將使用者或角色指派給任務時，會為其分配特定時數的工作以完成任務。 當任務「期間型別」為「簡單」時，您可以手動修改指派給任務的每個使用者或工作角色的時數。
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: 830ad0411084844ace1e1e543c3ebefcb558af80
+source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 0%

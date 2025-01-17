@@ -3,11 +3,11 @@ product-area: projects;user-management
 navigation-topic: assign-tasks
 title: 建立進階任務指派
 description: 您可以使用「進階指派」來管理任務或問題指派。
-author: Alina
+author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
+source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
 workflow-type: tm+mt
 source-wordcount: '1171'
 ht-degree: 0%

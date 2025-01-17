@@ -4,10 +4,10 @@ product-area: projects;user-management
 navigation-topic: assign-tasks
 title: 智慧指派總覽
 description: 在管理任務和問題指派時，您可以使用智慧指派來識別誰是完成工作的最佳使用者。 智慧型指派是Adobe Workfront在您根據演演算法將工作專案指派給資源時所顯示的建議，該演演算法會決定最適合工作的資源。
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 0%

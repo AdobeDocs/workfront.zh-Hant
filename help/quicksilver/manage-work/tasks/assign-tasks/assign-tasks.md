@@ -3,11 +3,11 @@ product-area: projects;user-management
 navigation-topic: assign-tasks
 title: 指派任務
 description: 您可以將任務指派給使用者、角色或專案團隊，以指出負責完成任務的人員。 您可以一次將任務指派給多個資源。
-author: Alina
+author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
+source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
 workflow-type: tm+mt
 source-wordcount: '1985'
 ht-degree: 1%
