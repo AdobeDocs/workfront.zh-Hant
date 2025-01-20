@@ -85,7 +85,7 @@ AWS S3聯結器使用下列專案：
  <tbody> 
   <tr> 
    <td role="rowheader">基礎URL</td> 
-   <td>https://s3.{{parameters.region}}.amazonaws.com</td> 
+   <td>https://s3.&lbrace;&lbrace;parameters.region&rbrace;&rbrace;.amazonaws.com</td> 
   </tr>
   <tr> 
    <td role="rowheader">API標籤</td> 

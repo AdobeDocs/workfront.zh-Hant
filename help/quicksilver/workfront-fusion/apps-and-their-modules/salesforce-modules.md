@@ -99,7 +99,7 @@ Salesforce聯結器會使用以下專案：
  <tbody> 
   <tr> 
    <td role="rowheader">基礎URL</td> 
-   <td> {{connection.instanceUrl}}</td>
+   <td> &lbrace;&lbrace;connection.instanceUrl&rbrace;&rbrace;</td>
   </tr> 
   <tr> 
    <td role="rowheader">API版本</td> 

@@ -89,7 +89,7 @@ ServiceNow聯結器使用下列專案：
  <tbody> 
   <tr> 
    <td role="rowheader">基礎URL</td> 
-   <td>https://{{connection.instance}}/api</td> 
+   <td>https://&lbrace;&lbrace;connection.instance&rbrace;&rbrace;/api</td> 
   </tr>
   <tr> 
    <td role="rowheader">API標籤</td> 
