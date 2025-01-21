@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a6120939-5d76-4f46-a304-125de6b22502
-source-git-commit: 77c07c7c7104d37360cc7630a89dd72836da477c
+source-git-commit: 074f78e27d2ab1cb1d1b8216f14557b91d9afd00
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '973'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 ## Workfront事件訂閱可使用哪些不同型別的驗證？
 
-您可以使用任何使用持有人權杖的驗證。 訂閱的&#x200B;**authToken**&#x200B;欄位是字串，代表OAuth2持有者權杖，用於以&#x200B;**url**&#x200B;欄位中指定的URL進行驗證。 理論上，只要目的地端點知道如何處理其編碼（即&#x200B;**utf-8**），此權杖值可以是任何值。
+您可以使用任何使用持有人權杖的驗證。 訂閱的&#x200B;**authToken**&#x200B;欄位是字串，代表OAuth2持有者權杖，用於以&#x200B;**url**&#x200B;欄位中指定的URL進行驗證。 理論上，只要目的地端點知道如何處理其編碼（即&#x200B;**utf-8**），此權杖值就可能是255個字元以下的任何值。
 
 ## 我應多久之後才會從Workfront事件訂閱收到事件裝載？
 
