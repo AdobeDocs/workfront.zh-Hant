@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: d87e7aab75c65796e9d4ef04c46aef295dbd898f
+source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
 workflow-type: tm+mt
-source-wordcount: '2776'
+source-wordcount: '2781'
 ht-degree: 0%
 
 ---
@@ -614,6 +614,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">
             更新「首頁」和「我的更新」區域中「提及」小工具的評論體驗</a></p>
+            [！BADGE In Production ]{type=Informative}
             <p>我們正在更新首頁的「提及」小工具和「我的更新」區域的「提及」區段中的評論體驗。 現在，大部分的Workfront物件的「更新」區域中也有相同的體驗，可在「我的更新」的「提及」小工具中取得。</p>
         </td>
         <td>

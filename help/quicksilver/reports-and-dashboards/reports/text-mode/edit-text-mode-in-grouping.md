@@ -2,13 +2,13 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: 使用文字模式編輯群組
-description: 注意：讓所有FVG文章在文字模式中編輯時都相同)
+description: 您可以使用文字模式編輯清單或報表中的分組，以存取標準介面中無法使用的欄位，並建立更複雜的分組。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2eeecc16-ea6d-4a56-8ea3-e213706e89bf
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
 workflow-type: tm+mt
-source-wordcount: '1520'
+source-wordcount: '1537'
 ht-degree: 0%
 
 ---

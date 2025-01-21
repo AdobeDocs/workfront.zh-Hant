@@ -7,7 +7,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 6d90f544b73f79b545fbcafbc18d7a653554d75f
+source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 2%
@@ -44,15 +44,6 @@ ht-degree: 2%
 
 ## 報告和儀表板
 
-### 篩選和分組的文字模式
-
-**預覽版本： 2025年1月9日；生產版本：從2025年1月9日開始**
-
-我們已將新的「編輯文字模式」按鈕和編輯模式新增至下列區域：
-
-* 舊版篩選器
-* 群組
-
 ### 已更新具有新樣式的核准報告
 
 **預覽版本： 2025年1月16日；生產版本：待定**
@@ -64,3 +55,12 @@ ht-degree: 2%
 * 核准流程報表
 
 這些更新包括區域的視覺化變更。 功能未變更。
+
+### 篩選和分組的文字模式
+
+**預覽版本： 2025年1月9日；生產版本：從2025年1月9日開始**
+
+我們已將新的「編輯文字模式」按鈕和編輯模式新增至下列區域：
+
+* 舊版篩選器
+* 群組

@@ -2,13 +2,13 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: 使用文字模式編輯檢視
-description: 注意：在文章中新增區段：/Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-views.html ***此外，在文字模式概觀文章中草稿此區域)
+description: 您可以使用文字模式來編輯清單或報表中的檢視，以存取標準介面中無法使用的欄位，並建立更複雜的檢視。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '459'
 ht-degree: 2%
 
 ---

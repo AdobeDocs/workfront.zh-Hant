@@ -7,7 +7,7 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 59737844-e6ba-4f64-b2cc-a24c91525d37
-source-git-commit: 33b9faed6265b5e82bf768d4c8ae7f703420a7e5
+source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
 workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 2%
@@ -42,11 +42,13 @@ ht-degree: 2%
 ### 管理員增強功能
 
 <table>
-<col style="width: 55%;" />
-<col style="width: 15%;" />
-<col style="width: 15%;" />
-<col style="width: 15%;" />
-<tbody>
+  <colgroup>
+    <col style="width: 55%;" />
+    <col style="width: 15%;" />
+    <col style="width: 15%;" />
+    <col style="width: 15%;" />
+  </colgroup>
+  <tbody>
     <tr>
         <td>
             <p><span class="bold">功能</span></p>
@@ -87,20 +89,20 @@ ht-degree: 2%
         <td>25.12</td>
         <td>25.1</td>
     </tr>
-
-</tbody>
+  </tbody>
 </table>
 
 
 ### 檔案管理增強功能
 
-
 <table>
-<col style="width: 55%;" />
-<col style="width: 15%;" />
-<col style="width: 15%;" />
-<col style="width: 15%;" />
-<tbody>
+  <colgroup>
+    <col style="width: 55%;" />
+    <col style="width: 15%;" />
+    <col style="width: 15%;" />
+    <col style="width: 15%;" />
+  </colgroup>
+  <tbody>
     <tr>
         <td>
             <p><span class="bold">功能</span></p>
@@ -159,7 +161,7 @@ ht-degree: 2%
           <td><p>24.11</p><p> [！BADGE可用]{type=Positive}</p></td>
         <td><p>25.1</p> <p> [！BADGE可用]{type=Positive}</p></td>
     </tr>
-</tbody>
+  </tbody>
 </table>
 
 <!--

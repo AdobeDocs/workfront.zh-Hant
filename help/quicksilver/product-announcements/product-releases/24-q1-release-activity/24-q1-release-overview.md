@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
 workflow-type: tm+mt
-source-wordcount: '1628'
+source-wordcount: '1621'
 ht-degree: 0%
 
 ---
@@ -360,7 +360,7 @@ ht-degree: 0%
                                 <p>快速發行生產：第24.3發行版本（2024年3月）</p>
                             </li>
                         </ul>
-                    <p><i>此功能將從2024年12月19日的「預覽」和25.1 （2025年1月）的快速發行產品中移除。</i></p>
+                    <p><i>此功能已從「預覽」和「快速發行產品」中移除。</i></p>
                     </td>
                 </tr>
            </tbody>
