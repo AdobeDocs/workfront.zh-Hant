@@ -5,9 +5,9 @@ title: 在 [!DNL Adobe Workfront]中尋找說明的快速指南
 description: 在 [!DNL Adobe Workfront]中尋找說明的快速指南
 feature: Get Started with Workfront
 exl-id: 3cdbf342-4809-44e3-ad9b-b5841950a1e4
-source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '813'
 ht-degree: 0%
 
 ---
@@ -143,7 +143,7 @@ ht-degree: 0%
 | [[!DNL Adobe Workfront] 整合](../../administration-and-setup/configure-integrations/workfront-integrations-1.md) | 您可以將[!DNL Workfront]與協力廠商應用程式整合。 整合可以擴充[!DNL Workfront]的公用程式，並根據您組織的需求量身打造。 這篇知識庫文章涵蓋您的整合選項，並引導您進入下一個方向。 |
 |---|---|
 | [[!DNL Workfront] 內建整合](https://www.workfront.com/integrations) | Workfront免費的內建整合功能可讓您和您的團隊順利轉換至Workfront平台，同時維持相同的工作流程與程式。 |
-| [[!DNL Adobe Workfront Fusion]](../../workfront-fusion/workfront-fusion-2.md) | 將[!DNL Workfront]連線至100個以上的應用程式，讓您無需程式碼即可輕鬆自動化您的關鍵業務程式。 |
+| [[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home) | 將[!DNL Workfront]連線至100個以上的應用程式，讓您無需程式碼即可輕鬆自動化您的關鍵業務程式。 |
 
 {style="table-layout:auto"}
 

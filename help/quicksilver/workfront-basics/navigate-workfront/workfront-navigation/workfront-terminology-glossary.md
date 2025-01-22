@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront] 字彙表列出 [!DNL Adobe Workfront]. Yo
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '20930'
+source-wordcount: '20931'
 ht-degree: 0%
 
 ---
@@ -2044,7 +2044,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[！UICONTROL Scenario] （在[!DNL Workfront Fusion]） </td> 
-   <td> <p>案例由一系列步驟（模組）組成，這些步驟（模組）會指出應如何在應用程式/服務之間傳輸和轉換資料。</p> <p>如需[!DNL Workfront Fusion]中案例的相關資訊，請參閱<a href="../../../workfront-fusion/scenarios/scenario-overview.md" class="MCXref xref">[!DNL Adobe Workfront Fusion]案例概述</a>。</p> </td> 
+   <td> <p>案例由一系列步驟（模組）組成，這些步驟（模組）會指出應如何在應用程式/服務之間傳輸和轉換資料。</p> <p>如需[!DNL Workfront Fusion]中案例的相關資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion]案例概述</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL Scenario] （在[!DNL Workfront Scenario Planner]） </td> 

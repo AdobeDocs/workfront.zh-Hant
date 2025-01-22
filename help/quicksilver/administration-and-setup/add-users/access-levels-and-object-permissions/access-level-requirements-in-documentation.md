@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 39ea0d53-ec31-4644-b772-cfe260b8e013
-source-git-commit: 7b5441b2aa17b22f0fd54cfe4921aa5dab2e0461
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '942'
 ht-degree: 1%
 
 ---
@@ -96,7 +96,7 @@ Workfront檔案how-to文章包含一個表格，說明該程式所需的存取�
    <ul><li>目前：目前的許可證模型是以執行的作業數為基礎，對組織可執行的動作沒有限制。 </li>
    <li>舊版：舊版授權取決於案例能否連線至協力廠商應用程式，或案例是否僅用於Workfront自動化。 </li>
    </ul>
-   如需Fusion授權的詳細資訊，請參閱<a href="/help/quicksilver/workfront-fusion/get-started/license-automation-vs-integration.md" class="MCXref xref">Workfront Fusion授權</a>。
+   如需Fusion授權的詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref">Workfront Fusion授權</a>。
    </td> 
   </tr> 
  </tbody> 

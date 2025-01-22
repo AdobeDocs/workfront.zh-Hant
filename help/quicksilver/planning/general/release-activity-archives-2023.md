@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8a3830e8-0d9a-4ede-a1b6-b80dd4686bc6
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '2983'
+source-wordcount: '2985'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ ht-degree: 0%
 >
 >貴組織必須購買Adobe Workfront Fusion，才能與Adobe Workfront Planning功能建立連線。
 >
->如需詳細資訊，請參閱[Adobe Workfront Fusion概觀](/help/quicksilver/workfront-fusion/get-started/workfront-fusion-overview.md)。
+>如需詳細資訊，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 
 現在，您可以使用Adobe Workfront Fusion連線至規劃功能。 透過新的Fusion連線，您可以：
 
@@ -105,7 +105,7 @@ ht-degree: 0%
 
 * 在規劃功能中變更時觸發案例
 
-如需詳細資訊，請參閱[Adobe Workfront規劃模組](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)。
+如需詳細資訊，請參閱[Adobe Workfront規劃模組](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)。
 
 ## 2023年12月11日當週
 

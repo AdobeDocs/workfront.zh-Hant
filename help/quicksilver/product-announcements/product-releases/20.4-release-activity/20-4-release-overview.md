@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7cf7f6ed-fe85-4c86-bb4b-dd93197338cf
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
 workflow-type: tm+mt
-source-wordcount: '3694'
+source-wordcount: '3695'
 ht-degree: 0%
 
 ---
@@ -298,7 +298,7 @@ Workfront Goals第20.4發行版本包含的新功能大多數。 如需這些現
 
 ## Workfront Fusion增強功能
 
-Workfront Fusion中的新功能可在20.4版發行排程之外的步調內用於生產環境。 如需最新功能的詳細資訊，請參閱[Adobe Workfront Fusion發行活動](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+Workfront Fusion中的新功能可在20.4版發行排程之外的步調內用於生產環境。 如需最新功能的詳細資訊，請參閱[Adobe Workfront Fusion發行活動](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
 
 ## API增強功能
 

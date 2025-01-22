@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
 workflow-type: tm+mt
-source-wordcount: '3271'
+source-wordcount: '3272'
 ht-degree: 0%
 
 ---
@@ -666,18 +666,18 @@ ht-degree: 0%
     &lt;td>&lt;p>&lt;b>在以下日期提供：&lt;/b>&lt;/p>
     &lt;ul>
     &lt;li>
-    &lt;p>預覽版本：&amp;#160；整個22.4發行時間範圍&lt;br />&lt;/p>
+    &lt;p>預覽版本：&amp;#GenStudio for Performance Marketers&amp;-160;整個22.4發行時間範圍&lt;br />&lt;/p>
     &lt;/li>
     &lt;li>
-    &lt;p>生產版本：&amp;#160；TBD&lt;/p>
+    &lt;p>生產版本：&amp;#GenStudio for Performance Marketers&amp;-160;TBD IP&lt;/p>
     &lt;/li>
     &lt;/ul>
     &lt;/td>
     &lt;/tr>
     &lt;tr>
-    &lt;td> 
-    &lt;a href=&quot;../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>擴展的團隊說明&lt;/a>&lt;/p>
-    &lt;p>在團隊區域，您現在可以通過按一下說明在彈出視窗中顯示來檢視完整的團隊說明。 說明中的任何URL都可以在快顯視窗中點選，而且您可以按一下說明文字來進行編輯（如果您有權編輯專案團隊設定）。&lt;/p>
+    &lt;td>
+    &lt;a href=&quot;../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>擴展的團隊描述&lt;/a>&lt;/p>
+    &lt;p>在團隊區域中，您現在可以通過按一下描述以彈出視窗顯示它來檢視完整的團隊描述。 說明中的任何URL都可以在快顯視窗中點選，而且您可以按一下說明文字來進行編輯（如果您有權編輯專案團隊設定）。&lt;/p>
     &lt;p>之前，在狹窄區域中捲動說明是檢視所有內容的唯一方法。&lt;/p>
 <p>說明的這一增強功能適用於敏捷和非敏捷團隊。</p>
                     </td>
@@ -710,7 +710,7 @@ ht-degree: 0%
 
 ### Workfront Fusion增強功能
 
-Workfront Fusion中的新功能可在22.4版發行排程之外的步調內用於生產環境。 如需最新功能的詳細資訊，請參閱[Adobe Workfront Fusion發行活動](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)。
+Workfront Fusion中的新功能可在22.4版發行排程之外的步調內用於生產環境。 如需最新功能的詳細資訊，請參閱[Adobe Workfront Fusion發行活動](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
 
 ### WorkfrontScenario Planner增強功能
 

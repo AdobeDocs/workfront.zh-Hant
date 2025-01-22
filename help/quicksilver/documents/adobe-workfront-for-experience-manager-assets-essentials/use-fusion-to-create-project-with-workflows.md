@@ -6,9 +6,9 @@ description: 如果您透過Workfront Fusion建立專案，並想在專案中加
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
 exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
-source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '896'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ ht-degree: 0%
 1. 將&#x200B;**Workfront** > **其他動作**&#x200B;模組新增至您的情境。
 1. 在&#x200B;**連線**&#x200B;欄位中，選取連線至此模組將使用之帳戶的Workfront連線。
 
-   如需建立連線的說明，請參閱Workfront模組一文中的[連線 [!DNL Workfront] 至 [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#connect-workfront-to-workfront-fusion)。
+   如需建立連線的說明，請參閱Workfront模組一文中的[連線 [!DNL Workfront] 至 [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion)。
 
    如需建立使用者端ID和使用者端密碼的指示，您必須建立連線，請參閱本文中的[建立OAuth應用程式](#create-an-oauth-application)。
 
@@ -175,4 +175,4 @@ ht-degree: 0%
 
 在Fusion中設定模組的連線時，您將使用此使用者端ID和使用者端密碼。
 
-如需建立連線的說明，請參閱Workfront模組一文中的[連線 [!DNL Workfront] 至 [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#connect-workfront-to-workfront-fusion)。
+如需建立連線的說明，請參閱Workfront模組一文中的[連線 [!DNL Workfront] 至 [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion)。

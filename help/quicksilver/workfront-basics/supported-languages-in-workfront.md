@@ -6,9 +6,9 @@ description: 您可以調整瀏覽器上的語言偏好設定和Adobe Workfront�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: cac27d995a1b5295e05ea1f67990b05f28b66211
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1072'
 ht-degree: 1%
 
 ---
@@ -91,7 +91,7 @@ Workfront中的Web Proof Viewer支援Workfront支援的大部分語言。
 * Workfront Fusion不支援在使用者輸入的欄位中使用非英文文字字元。
 
 貴公司必須購買Workfront Fusion授權才能存取Workfront Fusion。\
-如需Workfront Fusion的詳細資訊，請參閱[Adobe Workfront Fusion概觀](../workfront-fusion/get-started/workfront-fusion-overview.md)。
+如需Workfront Fusion的詳細資訊，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 
 ## 變更語言
 
