@@ -6,9 +6,9 @@ description: 您可以在 [!DNL Experience Manager Assets]中將您的工作與�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 25d250e7be17773117761aa739b8e4804c6fc55a
 workflow-type: tm+mt
-source-wordcount: '1697'
+source-wordcount: '1708'
 ht-degree: 0%
 
 ---
@@ -254,6 +254,8 @@ Adobe Experience Manager整合提供下列工作流程：
 * [傳送至Adobe Experience Manager Assets的Publish資產](#publish-assets-that-are-sent-to-adobe-experience-manager-assets)
 
 ### 建立Adobe Experience Manager連結資料夾
+
+每個資料夾樹狀結構最多可建立100個連結資料夾。
 
 1. 將&#x200B;**[!UICONTROL 建立連結資料夾]**&#x200B;切換為開啟。
 1. 輸入您正在建立的連結資料夾名稱。
