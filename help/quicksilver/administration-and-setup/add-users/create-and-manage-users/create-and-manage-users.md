@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 014cb6de-fb96-44df-a29c-b210afe9c55c
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
@@ -38,4 +38,4 @@ ht-degree: 0%
 * [稽核記錄](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
 * [檢視和匯出稽核記錄](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
 * [檢視使用者登入資訊](../../../administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
-* [在Adobe Admin Console中管理系統管理員](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)
+* [在Adobe Admin Console中管理使用者](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)

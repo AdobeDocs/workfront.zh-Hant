@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
 workflow-type: tm+mt
-source-wordcount: '2928'
+source-wordcount: '2912'
 ht-degree: 1%
 
 ---
@@ -228,7 +228,7 @@ ht-degree: 1%
 
    請注意，**促銷活動**&#x200B;連結的記錄欄位會顯示您在「產品記錄型別」頁面中連結至產品的促銷活動名稱。 更新行銷活動資訊會自動更新產品記錄型別的行銷活動連結記錄欄位。
 
-### 從表格檢視或記錄頁面的「詳細資訊」索引標籤，將Adobe Workfront Planning記錄連結至Workfront物件
+### 從表格檢視或記錄的詳細資訊頁面將Adobe Workfront Planning記錄連結至Workfront物件
 
 <!--when we will have more applications to link to from Planning, change the title to something like: Connect Workfront Planning records to objects from other applications-->
 
@@ -264,7 +264,7 @@ ht-degree: 1%
 
 1. （選擇性）如果您找不到要連線的物件，而且您想要新增該物件，請按一下[新增] **+ [新增]**&#x200B;以建立並新增專案或投資組合。
 
-   將沒有範本或投資組合的專案連線到Planning記錄時，您只能新增它們。 您無法新增程式、群組或公司。
+   如需詳細資訊，請參閱[從Workfront Planning建立Workfront物件](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
 
 1. （選擇性）按一下「檢視全部&#x200B;**」以顯示您至少擁有檢視許可權的所有物件。**
 

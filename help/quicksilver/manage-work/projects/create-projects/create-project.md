@@ -6,20 +6,22 @@ description: 專案是Adobe Workfront中的大型工作單位。 您可以從頭
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
 workflow-type: tm+mt
-source-wordcount: '1299'
+source-wordcount: '1382'
 ht-degree: 1%
 
 ---
 
 # 建立專案
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:this is linked from the UI from the Projects global nav section in classic. Do not change/ remove)</p>
--->
+<!--remove Preview and Production references-->
 
 <!-- Audited: 12/2023 -->
+
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 專案代表在Adobe Workfront中需要完成的大量工作。
 
@@ -117,17 +119,17 @@ ht-degree: 1%
   「情境規劃工具」需要下列其中一項：
 
    * 目前Workfront授權結構的額外授權。
-   * 新Workfront授權結構的最終授權。
+   * 適用於新Ultimate授權結構的Workfront授權。
 
   如需Workfront Scenario Planner的相關資訊，請參閱[Scenario Planner概觀](../../../scenario-planner/scenario-planner-overview.md)。 如需有關透過發佈行動方案建立專案的資訊，請參閱[在Scenario Planner](../../../scenario-planner/publish-scenarios-update-projects.md)中發佈行動方案以更新或建立專案。
 
-* 當您從Workfront Planning中的記錄型別連結專案時，請新增專案。 您只能從Workfront Planning建立沒有範本的專案。
+* 當您從Workfront Planning中的記錄型別連結專案時，請新增專案。 在生產環境中，您只能從Workfront Planning建立沒有範本的專案。 <span class="preview">您可以在預覽環境中使用範本建立專案。</span>
 
   您必須擁有新的Workfront授權和適用於Workfront的額外Workfront規劃授權。
 
   如需有關存取Workfront Planning的資訊，請參閱[存取總覽](/help/quicksilver/planning/access/access-overview.md)。
 
-  如需有關將專案新增至記錄來建立專案的資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md)一文中的「連線時建立記錄」一節。
+  如需透過將專案新增至記錄來建立專案的資訊，請參閱文章[從Workfront Planning建立Workfront物件](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)中的「連結專案與Workfront Planning的記錄時建立專案」一節
 
 ## 先決條件
 
