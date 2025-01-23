@@ -7,36 +7,22 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: d27f937b-e179-4f67-aebd-ed351440cb0f
-source-git-commit: 2c6d01d009e3dc09b65d7c414e1a3d8536d384e0
+source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 0%
+source-wordcount: '380'
+ht-degree: 1%
 
 ---
 
 # Adobe Workfront Planning 2024年第四季發行活動
 
-<!--remove this important intro after the 25.1 release-->
-
->[!IMPORTANT]
->
->本文資訊旨在說明Adobe Workfront的新產品Adobe Workfront Planning。
->
->除了Workfront計畫之外，您必須購買Workfront計畫才能存取及使用Workfront計畫功能。
->
->如需存取Workfront Planning的完整需求清單，請參閱[存取總覽](/help/quicksilver/planning/access/access-overview.md)。
->如需Workfront Planning的概觀，請參閱[Adobe Workfront Planning概觀](/help/quicksilver/planning/general/planning-overview.md)。
->
-
 本文介紹2024年第四季版本中針對Workfront Planning發行的功能。
 
 如需此版本所含功能的相關資訊，請參閱[2024年Adobe Workfront Planning發行活動](/help/quicksilver/planning/general/release-activity.md)。
 
-
 <!--keep the sentence below for all future quarterly release pages-->
-<!--remove the general activity mention after fourth quarter 2024 is released-->
 
-如需2024年8月28日一般可用性發行後Adobe Workfront Planning所發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+如需針對Adobe Workfront Planning發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
 
 ## 顯示連線記錄的選項
 

@@ -3,14 +3,12 @@ title: 介面更新
 description: 本頁面列出我們透過Adobe Workfront進行的介面更新，以改善使用者體驗，並將其與其他Adobe應用程式統一。
 author: Nolan
 feature: Product Announcements
-hidefromtoc: true
-hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
+source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 2%
+source-wordcount: '354'
+ht-degree: 1%
 
 ---
 
@@ -28,7 +26,7 @@ ht-degree: 2%
 
 ### 新增Sharepoint對話方塊的介面更新
 
-**預覽版本： 2025年1月16日；生產版本：待定**
+**預覽版本： 2025年1月16日；生產版本：即將宣佈**
 
 我們已更新「設定>檔案> Sharepoint整合」中的「新增Sharepoint」對話方塊，採用與Workfront其他區域一致的更現代化設計。
 
@@ -36,7 +34,7 @@ ht-degree: 2%
 
 ### 設定中核准區域的介面更新
 
-**預覽版本： 2025年1月16日；生產版本：待定**
+**預覽版本： 2025年1月16日；生產版本：即將宣佈**
 
 我們以與Workfront其他區域一致的更現代設計更新了設定>流程>核准中的專案、任務和問題核准清單。
 
@@ -44,9 +42,19 @@ ht-degree: 2%
 
 ## 報告和儀表板
 
+### 已更新具有新樣式的反複專案報告
+
+**預覽版本： 2025年1月17日；生產版本：即將宣佈**
+
+我們已更新反複專案報告，採用與Workfront其他區域一致的更現代化設計。
+
+此更新包括報表的視覺化變更。 功能未變更。
+
+若要建立反複專案報告，請前往「報告」>「新增報告」>「反複專案」。
+
 ### 已更新具有新樣式的核准報告
 
-**預覽版本： 2025年1月16日；生產版本：待定**
+**預覽版本： 2025年1月16日；生產版本：即將宣佈**
 
 我們已更新下列核准報告的介面：
 
