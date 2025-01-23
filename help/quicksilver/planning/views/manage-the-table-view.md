@@ -6,14 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 9db8ea3f26dd7e8b4c8aa52fb9902832db7a6a5c
 workflow-type: tm+mt
-source-wordcount: '2802'
-ht-degree: 3%
+source-wordcount: '2879'
+ht-degree: 2%
 
 ---
 
 # 管理表格檢視
+
+<span class="preview">本頁標示的資訊是指尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -397,13 +401,22 @@ OLD:
 1. （選擇性）按一下&#x200B;**新增條件**&#x200B;以新增另一個篩選選項，並重複上述步驟。 套用的篩選器數會顯示在「篩選器」圖示的左側。
 1. 按一下下列運運算元，指示如何聯結及套用篩選條件：
 
-   * **And**：必須符合所有指定的條件。
-   * **或**：必須符合任何指定的條件。 這是預設選項。
+   * **AND**：必須符合所有指定的條件。
+   * **OR**：必須符合任何指定的條件。 這是預設選項。
+
+   <div class="preview">
+
+   1. （選用）在多個條件群組之間新增其他&#x200B;**AND**&#x200B;或&#x200B;**OR**&#x200B;運運算元。
+
+      ![](assets/multi-tiered-filters-in-views.png)
+
+   </div>
 
    系統會自動篩選記錄清單。 <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
-1. （選擇性）按一下&#x200B;**篩選器**，然後按一下&#x200B;**x**&#x200B;圖示以移除篩選器。<!--right now you cannot "clear all" for filters, but this might come later-->
+1. （選擇性）按一下&#x200B;**x**&#x200B;圖示以移除篩選條件。
+1. （選擇性）按一下&#x200B;**篩選器**&#x200B;以關閉篩選器方塊。<!--right now you cannot "clear all" for filters, but this might come later-->
 
 ### 新增群組 {#add-groupings}
 
