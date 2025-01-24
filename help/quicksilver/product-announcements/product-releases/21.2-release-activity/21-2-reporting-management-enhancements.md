@@ -8,9 +8,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1d5f76ef-bea7-4630-8051-454b0d109341
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -80,5 +80,5 @@ ht-degree: 0%
 
 之前，您只能透過Workfront API報告系統更新。
 
-若要進一步瞭解此報告以及您可用其用途，請參閱[更新區域的報告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)。
+若要進一步瞭解此報告以及您可用它做什麼，請參閱[在更新區域使用日誌專案報告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)。
 

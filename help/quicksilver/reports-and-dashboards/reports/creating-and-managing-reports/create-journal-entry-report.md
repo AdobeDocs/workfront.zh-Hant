@@ -1,18 +1,18 @@
 ---
-title: 更新區域報告
+title: 以日誌專案報表報告更新區域
 description: 「日誌專案」報表會從專案、工作、問題和其他物件的更新區域顯示系統更新，這些先前只能透過Adobe Workfront API使用。 雖然此為適用於特定使用案例的進階報表，但格式越容易解讀，您就能更輕鬆地在Workfront中報告專案活動和系統更新。
 author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '2757'
+source-wordcount: '2767'
 ht-degree: 4%
 
 ---
 
-# 更新區域報告
+# 使用「日誌專案」報表報告「更新」區域的報表
 
 <!-- Audited: 11/2024 -->
 

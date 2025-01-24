@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 46faf723ea7a8e9dfa02c0f2bed1f5f450976fc8
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '13008'
+source-wordcount: '13013'
 ht-degree: 2%
 
 ---
@@ -1538,7 +1538,7 @@ ht-degree: 2%
          * [建立具有唯一匯率的財務資料報表](reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md)
          * [編輯報表設定](reports-and-dashboards/reports/creating-and-managing-reports/edit-report-settings.md)
          * [變更報告的所有者](reports-and-dashboards/reports/creating-and-managing-reports/change-owner-report.md)
-         * [更新區域報告](reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)
+         * [使用「日誌專案」報表報告「更新」區域的報表](reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)
          * [建立使用者委派報告](reports-and-dashboards/reports/creating-and-managing-reports/create-user-delegation-report.md)
       * 報表{#calculated-custom-data}中計算的自訂資料
          * [報表中計算的自訂資料](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)

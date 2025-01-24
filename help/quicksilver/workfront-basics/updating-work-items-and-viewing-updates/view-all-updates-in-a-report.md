@@ -6,9 +6,9 @@ description: 在備註報告中檢視所有更新
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: fa5b91e4-b88c-42f0-860c-6864105b4652
-source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '377'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->您可以使用日誌專案報告建置報告以檢視物件在預覽中的更新。 如需詳細資訊，請參閱[更新區域報告](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)。
+>您可以使用日誌專案報告建置報告以檢視物件在預覽中的更新。 如需詳細資訊，請參閱[日誌專案報告的更新區域](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)。
 
 ## 存取需求
 

@@ -7,9 +7,9 @@ description: 物件的「更新」區段會顯示使用者對物件所做的註�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 6327e5625481ce7ff8d744bc6eb50d417cbb4413
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1095'
 ht-degree: 4%
 
 ---
@@ -267,7 +267,7 @@ The following objects don't record system updates:
    <td>反複專案，團隊</td> 
   </tr> 
   <tr> 
-   <td>反覆項目</td> 
+   <td>疊代</td> 
    <td>團隊</td> 
   </tr>
 
@@ -345,4 +345,4 @@ Adobe Workfront管理員和群組管理員可以其他使用者身份登入，�
 * 如果優先順序在專案過程中改變
 * 如果專案所有者已變更
 
-如需詳細資訊，請參閱[更新區域報告](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)。
+如需詳細資訊，請參閱[日誌專案報告的更新區域](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)。

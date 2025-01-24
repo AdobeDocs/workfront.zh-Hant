@@ -6,9 +6,9 @@ description: 您在 [!DNL Adobe Workfront] 中顯示的資訊由儲存在 [!DNL 
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: 25939493f6ffed31ae1bdaf26d417ce4e5e5c004
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '2419'
+source-wordcount: '2424'
 ht-degree: 1%
 
 ---
@@ -283,7 +283,7 @@ ht-degree: 1%
 * [!UICONTROL 反複專案]
 * [!UICONTROL 工作角色]
 * [!UICONTROL 日誌專案]
-   * 您可以在[!UICONTROL 更新]物件區域（如任務、專案、問題等）報告追蹤的系統更新。 如需詳細資訊，請參閱[!UICONTROL 更新]區域](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)的[報告。
+   * 您可以在[!UICONTROL 更新]物件區域（如任務、專案、問題等）報告追蹤的系統更新。 如需詳細資訊，請參閱[日誌專案報告的更新區域](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)。
 
 * [!UICONTROL 配置範本]
 * [!UICONTROL 里程碑]
