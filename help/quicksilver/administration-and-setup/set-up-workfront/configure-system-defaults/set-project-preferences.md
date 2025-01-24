@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 90405d79f605d788331cb7a04ebf354dc4379bf5
 workflow-type: tm+mt
-source-wordcount: '2661'
+source-wordcount: '2693'
 ht-degree: 1%
 
 ---
@@ -246,13 +246,6 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-
-
-
-
-
-
-
 ### [!UICONTROL 業務案例] {#business-cases}
 
 您可以為整個系統的新建立專案建立業務案例，以提交專案請求。 您可以定義偏好設定來決定可在&#x200B;**[!UICONTROL 業務案例]**&#x200B;表單上看到的區域。 建議您啟用這些選項，以便其他工具(例如[!UICONTROL Portfolio最佳化工具])能夠正確更新。 如需每個欄位顯示內容的詳細資訊，請參閱[定義業務案例：文章索引](../../../manage-work/projects/define-a-business-case/define-business-case.md)。
@@ -279,11 +272,12 @@ ht-degree: 1%
    <td role="rowheader"> <p>[！UICONTROL將專案標籤為「完成」、「廢棄」或「未決核准」之後，人員仍可]</p> </td> 
    <td> <p>決定組織（或群組，如果您正在設定群組的專案偏好設定）的規則，這些規則有關於專案狀態標籤為<strong>[！UICONTROL完成]</strong>、<strong>[！UICONTROL廢棄]</strong>或是<strong>[！UICONTROL未決核准]</strong>後，專案中任務、問題、檔案和其他物件會發生什麼情況。</p> 
     <ul> 
-     <li><strong>[！UICONTROL新增及編輯工作]</strong>允許使用者：
+     <li><strong>[！UICONTROL新增及編輯工作：]</strong>允許使用者：
       <ul>
-       <li>在專案標籤為[！UICONTROL完成]、[！UICONTROL已廢棄]或為[！UICONTROL未決核准]之後，編輯專案中的任務。 這包括新增時數以及變更任務上的費用輸入項。</li>
+       <li><p>在專案標籤為[！UICONTROL完成]、[！UICONTROL已廢棄]或為[！UICONTROL未決核准]之後，編輯專案中的任務。</p>
+           <p>備註：即使未選取此選項，使用者也可以新增及編輯費用專案。 記錄時數有單獨的設定。 若要允許或防止使用者在狀態為「完成」或「無法使用」的專案上記錄時間，請參閱<a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">設定時程表和小時偏好設定</a>。</p></li>
        <li>將任務新增至專案。</li>
-      </ul></li> 
+      </ul></li>
      <li><strong>[！UICONTROL新增和編輯問題]</strong>：允許使用者：
       <ul>
        <li>在專案標籤為[！UICONTROL完成]、[！UICONTROL廢棄]或[！UICONTROL未決核准]之後，編輯專案中的問題。</li>
