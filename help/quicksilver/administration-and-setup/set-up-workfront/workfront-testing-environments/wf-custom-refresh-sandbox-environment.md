@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
+source-git-commit: bb81e32263348128b7661db6102ad5ac14e9a434
 workflow-type: tm+mt
-source-wordcount: '1749'
+source-wordcount: '1739'
 ht-degree: 0%
 
 ---
@@ -118,11 +118,11 @@ If you are a Workfront Goals customer, Workfront Goals data does not transfer to
 
 1. 如果您只有一個「自訂重新整理沙箱」，請導覽至此URL：
 
-   https://companyname.sb01.workfront.com (舊URL:https://cr1.attasksandbox.com/.)
+   `https://companyname.sb01.workfront.com` （舊URL：`https://cr1.attasksandbox.com/`。）
 
    或者，如果您有兩個自訂重新整理沙箱，除了上述URL以外，您還可以前往以下URL來存取第二個自訂重新整理沙箱：
 
-   https://companyname.sb02.workfront.com (舊URL:https://cr2.attasksandbox.com/)
+   `https://companyname.sb02.workfront.com` （舊URL：`https://cr2.attasksandbox.com/`）
 
 1. 在登入畫面上，使用您的「自訂重新整理沙箱」憑證登入。
 1. 您的自訂重新整理沙箱認證與生產認證相同，除非您在上次重新整理自訂重新整理沙箱後已變更生產認證。 登入只有在重新整理發生時才進行同步處理。 它們不會自動同步。
@@ -137,15 +137,15 @@ If you are a Workfront Goals customer, Workfront Goals data does not transfer to
 
 1. 如果您只有一個「自訂重新整理沙箱」，請導覽至此URL：
 
-   https://companyname.sb01.workfront.com (舊URL:https://cr3.attasksandbox.com)
+   `https://companyname.sb01.workfront.com` （舊URL：`https://cr3.attasksandbox.com`）
 
    或
 
    如果您有兩個自訂重新整理沙箱，請前往這些URL的其中一個：
 
-   https://companyname.sb01.workfront.com (舊URL:https://cr3.attasksandbox.com)
+   `https://companyname.sb01.workfront.com` （舊URL：`https://cr3.attasksandbox.com`）
 
-   https://companyname.sb02.workfront.com (舊URL:https://cr4.attasksandbox.com)
+   `https://companyname.sb02.workfront.com` （舊URL：`https://cr4.attasksandbox.com`）
 
 1. 在登入畫面上，使用您的「自訂重新整理沙箱」憑證登入。
 
