@@ -6,14 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: cf3b5d3f8e3a8a1922da757a41b4c5e0ee84e6fd
 workflow-type: tm+mt
-source-wordcount: '724'
-ht-degree: 2%
+source-wordcount: '784'
+ht-degree: 1%
 
 ---
 
 # 共用工作區
+
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -173,9 +177,13 @@ OLD:
 
    ![](assets/share-button-on-workspace-top-right.png)
 
-1. 在&#x200B;**將工作區存取權授與**&#x200B;欄位中，開始輸入使用者或群組的名稱，然後在其顯示在清單中時按一下它。
+1. 在&#x200B;**將工作區存取權授與**&#x200B;欄位中，開始輸入使用者、群組、<span class="preview">團隊、公司或工作角色的名稱</span>，然後當它顯示在清單中時按一下它。
+
+   <div class="preview">
 
    ![](assets/sharing-ui-with-groups.png)
+
+   </div>
 
 1. 從下拉式功能表中選取下列其中一個許可權等級：
    * 檢視
@@ -221,7 +229,7 @@ OLD:
 {{step1-to-planning}}
 
 1. 開啟您要移除許可權的工作區，然後按一下畫面右上角的&#x200B;**共用**。
-1. 按一下使用者或群組名稱右側的下拉式功能表，然後按一下&#x200B;**移除**。
+1. 按一下您共用工作區的實體名稱右側的下拉式功能表，然後按一下&#x200B;**移除**。
 1. 按一下「**儲存**」。
 
-   屬於已移除群組的使用者或使用者無法再存取工作區或其物件。
+   移除的使用者無法再存取工作區或其物件。

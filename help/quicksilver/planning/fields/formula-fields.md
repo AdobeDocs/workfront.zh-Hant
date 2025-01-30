@@ -6,16 +6,20 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 799115d836d67a81fe69cd04c8e75014d48d2443
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 7%
+source-wordcount: '664'
+ht-degree: 8%
 
 ---
 
 # 公式欄位概觀
 
 <!--when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula-->
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -175,9 +179,26 @@ OLD:
 
 ## 支援的公式
 
-Adobe Workfront Planning公式欄位支援Workfront計算欄位的所有運算式。 如需Workfront運算式清單，請參閱[計算資料運算式概觀](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)。
+Adobe Workfront Planning公式欄位支援Workfront計算欄位的大部分運算式。
 
-此外，我們為Workfront Planning公式欄位支援下列運算式：
+<!-- make the note available when WF releases the expressions listed in it: 
+
+>[!NOTE]
+>
+>The following Workfront expressions are not supported for Workfront Planning formula fields: 
+>
+>* SORTASCARRAY
+>* SORTDESCARRAY
+>* ADDHOUR
+>* SWITCH
+>* FORMAT
+-->
+
+如需Workfront運算式的完整清單，請參閱[計算資料運算式概觀](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)。
+
+此外，我們為Workfront Planning公式欄位支援下列運算式。 Workfront運算式不支援下列運算式：
+
+<!--take these three out when they also come to WF and Lisa has added them to the WF expression article linked above-->
 
 <table style="table-layout:auto"> 
  <col> 
@@ -190,6 +211,21 @@ Adobe Workfront Planning公式欄位支援Workfront計算欄位的所有運算�
  </thead> 
  <tbody>
 
+<tr>
+   <td><strong>陣列</strong> </td>
+   <td> <p>將字串轉換為陣列。delimiter 可以是任何字串。</p>
+   <p>運算式的格式如下：</p>
+   <p><code>ARRAY(string1, "delimiter")</code></p>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>ARRAYELEMENT</strong> </td>
+   <td> <p>傳回陣列中指定數字處的元素。 如果索引超出範圍，則會傳回空白。</p>
+   <p>運算式的格式如下：</p>
+   <p><code>ARRAYELEMENT(array, number)</code></p>
+   </td>
+  </tr>
+
 <tr> 
    <td><strong>ARRAYJOIN</strong> </td> 
    <td> <p>傳回依分隔字元的串連字串。</p> <p>運算式的格式如下：
@@ -197,6 +233,12 @@ Adobe Workfront Planning公式欄位支援Workfront計算欄位的所有運算�
 <code>ARRAYJOIN（分隔字元，陣列）</code>
 </p>
    </td></tr>
+  <tr>
+   <td><strong>ARRAYLENGTH</strong> </td>
+   <td> <p>傳回陣列中的元素數，格式如下：</p>
+   <p><code>ARRAYLENGTH(array)</code></p>
+   </td>
+  </tr>
 
 <tr> 
    <td><strong>ARRAYUNIQUE</strong> </td> 

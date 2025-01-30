@@ -6,15 +6,19 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: cf3b5d3f8e3a8a1922da757a41b4c5e0ee84e6fd
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
 
 
 # 使用Adobe Workfront Planning時的授權型別概觀
+
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -68,7 +72,7 @@ ht-degree: 0%
 >
 >共用方塊中會顯示當使用者擁有較低層級的授權時，由於這些許可權層級變暗，因此無法授予他們參與或管理工作區的許可權。
 >
->![](assets/permissions-grayed-out-for-contributor-user-on-workspace.png)
+><span class="preview">![](assets/permissions-grayed-out-for-contributor-user-on-workspace.png)</span>
 
 
 ### 授權型別和檢視許可權
@@ -83,4 +87,4 @@ ht-degree: 0%
 >
 >共用方塊中會顯示當使用者擁有較低層級的授權時，無法授予他們管理檢視的許可權，因為這些許可權層級會變暗。
 >
->![](assets/permissions-grayed-out-for-light-user.png)
+><span class="preview">![](assets/permissions-grayed-out-for-light-user.png)</span>
