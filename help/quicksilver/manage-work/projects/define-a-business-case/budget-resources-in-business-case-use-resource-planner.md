@@ -5,14 +5,16 @@ description: 作為資源計畫的一部份，當您建立業務案例時，可�
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
+source-git-commit: 928ea5da9955b8c1c98782df81698c49987d4c18
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1237'
 ht-degree: 0%
 
 ---
 
 # 使用資源規劃工具在業務案例中預算資源
+
+<!--Audited: 01/2025-->
 
 作為資源計畫的一部份，當您建立業務案例時，可以使用專案層次的資源規劃工具來編列完成專案中工作所需的職務角色預算。
 
@@ -26,37 +28,47 @@ ht-degree: 0%
 
 ## 存取需求
 
-您必須具備下列條件：
+您必須具備下列專案才能執行本文所述的步驟：
+
++++ 展開以檢視本文中功能的存取需求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront計畫</a>*</td> 
-   <td> <p>Pro或更高</p> </td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td> <p>Prime或更新版本</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront授權總覽</a>*</td> 
-   <td> <p>評論或以上</p> <p>重要：您必須擁有計畫授權，才能修改資源預算資訊。 </p> </td> 
+   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td> <p>新增：淺色或更高</p>
+   <p>目前：檢閱或以上</p>
+
+<p><b>重要：</b></p> 
+   <p>新增：您必須擁有標準授權，才能修改資源預算資訊。 </p> 
+   <p>目前：您必須擁有計畫授權，才能修改資源預算資訊。 </p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
+   <td role="rowheader">存取層級設定</td> 
    <td> <p>編輯下列專案的存取權： </p> 
     <ul> 
      <li> <p>專案</p> </li> 
      <li> <p>資源管理</p> </li> 
      <li> <p>財務資料</p> </li> 
-    </ul> <p>如需有關預算資源所需存取許可權的資訊，另請參閱<a href="../../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md" class="MCXref xref">在Adobe Workfront中預算資源所需的存取許可權</a>。</p> <p>注意：如果您還是沒有存取權，請詢問您的Adobe Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+    </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>管理專案的許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>管理專案的許可權</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先決條件
 

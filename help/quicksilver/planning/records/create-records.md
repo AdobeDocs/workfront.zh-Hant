@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
+source-git-commit: 928ea5da9955b8c1c98782df81698c49987d4c18
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1562'
 ht-degree: 0%
 
 ---
@@ -259,7 +259,9 @@ You can import records from other applications by linking them to existing recor
    * 表格檢視
    * 記錄的詳細資訊頁面或預覽方塊
 
-1. （視條件而定）如果您在嘗試從其他記錄的連線記錄欄位新增記錄時找不到記錄，請搜尋記錄，然後按一下[**+新增]**。 **+新增**&#x200B;按鈕後面接著您連線的記錄型別名稱。 例如，將品牌新增至現有行銷活動時，「新增品牌」。
+1. （視條件而定）如果您在嘗試從其他記錄的連線記錄欄位新增記錄時找不到記錄，請搜尋記錄，然後按一下[**+新增]**。 **+新增**&#x200B;按鈕後面接著您連線的記錄型別名稱。 例如，將品牌新增至現有行銷活動時，「新增品牌」。 您輸入的名稱也會跟著新增按鈕。
+
+   <!--remove the first part of the step above to say just Click Add when the button will be persistent, for preview and production-->
 
    ![](assets/add-button-to-create-records-in-context-highlighted.png)
 

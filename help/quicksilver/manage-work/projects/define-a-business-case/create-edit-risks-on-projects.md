@@ -6,14 +6,16 @@ description: 風險是阻礙專案準時完成或在預算內完成的可能事�
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 8611c7bf8be6405f8ec8462ff2fd0f5998e8a995
+source-git-commit: 928ea5da9955b8c1c98782df81698c49987d4c18
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1036'
 ht-degree: 0%
 
 ---
 
 # 建立及編輯專案的風險
+
+<!--Audited: 01/2025-->
 
 風險是阻礙專案準時完成或在預算內完成的可能事件或因素。 在建立專案的業務案例過程中，或使用「風險」標籤時，可以記錄風險。 風險只會在專案上建立。 您無法將風險與任務或問題建立關聯。
 
@@ -27,30 +29,35 @@ ht-degree: 0%
 
 您必須具有下列存取權才能執行本文中的步驟：
 
++++ 展開以檢視本文中功能的存取需求。
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計劃 </p> </td> 
+   <td> <p>新增：標準 </p>
+   <p>目前：計畫 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯專案與財務資料的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何變更存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>編輯專案與財務資料的存取權</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p> 管理許可權，包括管理您要建立或編輯風險的專案財務 </p> <p>如需有關專案許可權的詳細資訊，請參閱文章<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">在Adobe Workfront中共用專案</a>。</p> </td> 
+   <td> <p> 管理許可權，包括管理您要建立或編輯風險的專案財務 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 建立並編輯業務案例中的風險
 

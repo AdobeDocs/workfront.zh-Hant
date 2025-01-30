@@ -6,16 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: 9db8ea3f26dd7e8b4c8aa52fb9902832db7a6a5c
+source-git-commit: 928ea5da9955b8c1c98782df81698c49987d4c18
 workflow-type: tm+mt
-source-wordcount: '922'
-ht-degree: 0%
+source-wordcount: '864'
+ht-degree: 1%
 
 ---
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # 從Workfront Planning建立Workfront物件
+
+
+<!-- remove preview and production at release time-->
 
 <span class="preview">本頁標示的資訊是指尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
@@ -132,7 +135,9 @@ ht-degree: 0%
    * 記錄型別的表格檢視
    * 記錄的詳細資訊頁面或預覽方塊
 
-1. （視條件而定）如果您在嘗試從其他記錄的已連線記錄欄位新增專案時找不到專案，請新增名稱，然後按一下&#x200B;**+新增**。 **+ Add**&#x200B;按鈕後面接著您連線的物件型別名稱。 例如，「新增專案」將新專案新增至現有行銷活動時。 新增按鈕後面也會跟著您輸入的專案名稱。
+1. （視條件而定）如果您在嘗試從其他記錄的已連線記錄欄位新增專案時找不到專案，請新增名稱，然後按一下&#x200B;**+新增**。 「新增」按鈕後面接著您輸入的專案名稱。
+
+   <!--at production or when the permanent Add button is released to preview, take the first part of the direction above out and say "Click +Add to add a new project"; take this out too: "The Add button is followed by the project name you typed."-->
 
    ![](assets/add-project-when-connecting-it-from-connection-field.png)
 
@@ -158,10 +163,47 @@ ht-degree: 0%
    * 記錄型別的表格檢視
    * 記錄的詳細資訊頁面或預覽方塊
 
-1. （視條件而定）如果您在嘗試從其他記錄的已連線記錄欄位新增投資組合時找不到投資組合，請新增名稱，然後按一下&#x200B;**+新增**。 **+ Add**&#x200B;按鈕後面接著您連線的物件型別名稱。 例如，「新增投資組合」將新投資組合新增至現有行銷活動時。 「新增」按鈕後面也會跟著您輸入的投資組合名稱。
+   <!--at production or when the permanent Add button is released to preview, take the first part of the direction below out and say "Click +Add to add a new portfolio"; take this out too: "The Add button is followed by the portfolio name you typed."-->
+
+1. （視條件而定）如果您在嘗試從其他記錄的已連線記錄欄位新增投資組合時找不到投資組合，請新增名稱，然後按一下「**+新增投資組合」**。 「新增」按鈕後面也會跟著您輸入的投資組合名稱。
 
    ![](assets/add-portfolio-when-connecting-it-from-connection-field.png)
 
    投資組合隨即建立並新增至您所選記錄的連線欄位。
 
 1. （選用）從Workfront Planning按一下新投資組合的名稱，即可在Workfront中開啟投資組合頁面，並對投資組合進行其他更新。
+
+<!--
+
+<div class="preview">
+
+## Create programs when connecting them with records from Workfront Planning
+
+To create programs as you are connecting them from other records: 
+
+1. Go to a record's details page or to the record type's table and start connecting Workfront Planning records with Workfront portfolios, as described in the article [Connect records](/help/quicksilver/planning/records/connect-records.md). 
+
+    You can connect programs from a connection field in following areas of Workfront Planning:
+
+    * The table view of a record type
+    * The details page or preview box of a record
+
+    ********at production or when the permanent Add button is released to preview, take the first part of the direction below out and say "Click +Add to add a new program"; take this out too: "The Add button is followed by the program name you typed."***********
+    
+1. (Conditional) If you cannot find a program when trying to add it from the connected record field of another record, add a name, then click **+ Add**. The Add button is followed by the program name you typed. 
+
+    ![](assets/add-wf-program-when-connecting-it-from-connection-field.png)
+
+    The **Create program** box opens.
+
+1. Update the **Program name**. This is a required field.
+1. Choose a **Portfolio** from the drop-down, or start typing the name of a portfolio, then select it when it displays in the list. This is a required field. 
+1. Click **Create**.
+
+    The program is created and added to the connection field of the record you selected. 
+
+1. (Optional) Click the name of the new program from Workfront Planning to open the program's page in Workfront and make additional updates to it. 
+
+</div>
+
+-->
