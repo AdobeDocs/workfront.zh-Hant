@@ -6,16 +6,16 @@ description: 您可以使用EXISTS陳述式來建立複雜的文字模式篩選�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 106f7c9d-46cc-46c5-ae34-93fd13a36c14
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
 workflow-type: tm+mt
-source-wordcount: '2660'
+source-wordcount: '2668'
 ht-degree: 0%
 
 ---
 
 # 使用EXISTS陳述式建立複雜的文字模式篩選器
 
-<!-- Audited: 01/2024 -->
+<!-- Audited: 01/2025 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: do not EVER&nbsp;delete this article as long as Text Mode still exists in the system.&nbsp;Google ordered this article to be written and we wrote it with the help of consultants, so the use case is very complex and very hard to understand without this. It is also very much used by many customers)</p>
@@ -92,7 +92,7 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
+您必須具備下列條件：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -104,12 +104,19 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td><p>新增：標準</p>
-       <p>或</p>
-       <p>目前：計畫</p> </td> 
+   <td> 
+      <p>新增：</p>
+         <ul>
+         <li><p>標準</p></li>
+         </ul>
+      <p>目前：</p>
+         <ul>
+         <li><p>規劃</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
+   <td role="rowheader">存取層級設定</td> 
    <td> <p>編輯對篩選器、檢視、群組的存取權</p> <p>編輯報告、儀表板、行事曆的存取權，以編輯報告中的篩選器</p></td> 
   </tr> 
   <tr> 
@@ -119,7 +126,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -156,14 +163,14 @@ ht-degree: 0%
    例如，建立問題篩選器。\
    如需建立篩選的詳細資訊，請參閱[篩選總覽](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)。
 
-1. 按一下&#x200B;**切換到文字模式**。
+1. 按一下&#x200B;**切換到文字模式**，然後&#x200B;**編輯文字模式**。
 1. 將下列公式範例貼到新篩選器的文字模式介面中，並用正確的物件和欄位取代範例文字：
 
-   `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
-
-   `EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object>`
-
-   `EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>`
+   ```
+   EXISTS:A:$$OBJCODE=<Object code of the Linking Object>
+   EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object>
+   EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>
+   ```
 
    如需使用上述已識別欄位的範例，請參閱本文中的[範例1：依Portfolio擁有者名稱篩選問題](#example-1-filter-for-issues-by-portfolio-owner-name)一節。
 
@@ -204,12 +211,14 @@ ht-degree: 0%
    例如，建立「引數」篩選器。\
    如需建立篩選的詳細資訊，請參閱[篩選總覽](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)。
 
-1. 按一下&#x200B;**切換到文字模式**。
+1. 按一下&#x200B;**切換到文字模式**，然後&#x200B;**編輯文字模式**。
 1. （視條件而定）如果您要篩選缺少的物件，請將下列公式範例貼到新篩選器的文字模式介面，並以正確的物件和欄位取代範例文字：
 
-   `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
-
-   `EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS`
+   ```
+   EXISTS:A:$$OBJCODE=<Object code of the Linking Object>
+   EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object>
+   EXISTS:A:$$EXISTSMOD=NOTEXISTS
+   ```
 
    如需有關未與自訂Forms相關聯之自訂欄位報表的範例，請參閱本文中的[範例2：篩選缺少的物件：未出現在任何自訂表單中的自訂欄位](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms)區段。
 
@@ -228,22 +237,22 @@ ht-degree: 0%
 1. 建立問題篩選器。\
    如需建立篩選的詳細資訊，請參閱[篩選總覽](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)。
 
-1. 按一下&#x200B;**切換到文字模式**。
+1. 按一下&#x200B;**切換到文字模式**，然後&#x200B;**編輯文字模式**。
 1. 請參閱下列一般程式碼：
 
-   `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
-
-   `EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object>`
-
-   `EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>`
+   ```
+   EXISTS:A:$$OBJCODE=<Object code of the Linking Object>
+   EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object>
+   EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>
+   ```
 
 1. 將下列程式碼貼到報表&#x200B;**的**&#x200B;設定篩選規則區域，以取代上述一般程式碼：
 
-   `EXISTS:A:$$OBJCODE=PROJ`
-
-   `EXISTS:A:ID=FIELD:projectID`
-
-   `EXISTS:A:portfolio:ownerID=4d94d7da001699b19edf50de15682221`
+   ```
+   EXISTS:A:$$OBJCODE=PROJ
+   EXISTS:A:ID=FIELD:projectID
+   EXISTS:A:portfolio:ownerID=4d94d7da001699b19edf50de15682221
+   ```
 
    >[!NOTE]
    >
@@ -270,20 +279,22 @@ ht-degree: 0%
 1. 建立引數或自訂欄位篩選器。\
    如需建立篩選的詳細資訊，請參閱[篩選總覽](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)。
 
-1. 按一下&#x200B;**切換到文字模式**。
+1. 按一下&#x200B;**切換到文字模式**，然後&#x200B;**編輯文字模式**。
 1. 請參閱下列一般程式碼：
 
-   `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
-
-   `EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS`
+   ```
+   EXISTS:A:$$OBJCODE=<Object code of the Linking Object>
+   EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object>
+   EXISTS:A:$$EXISTSMOD=NOTEXISTS
+   ```
 
 1. 將下列程式碼貼到報表&#x200B;**的**&#x200B;設定篩選規則區域，以取代上述一般程式碼：
 
-   `EXISTS:A:$$OBJCODE=CTGYPA`
-
-   `EXISTS:A:parameterID=FIELD:ID`
-
-   `EXISTS:A:$$EXISTSMOD=NOTEXISTS`
+   ```
+   EXISTS:A:$$OBJCODE=CTGYPA
+   EXISTS:A:parameterID=FIELD:ID
+   EXISTS:A:$$EXISTSMOD=NOTEXISTS
+   ```
 
    >[!NOTE]
    >
@@ -305,16 +316,25 @@ ht-degree: 0%
 1. 建立使用者篩選器。\
    如需建立篩選的詳細資訊，請參閱[篩選總覽](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)。
 
-1. 按一下&#x200B;**切換到文字模式**。
+1. 按一下&#x200B;**切換到文字模式**，然後&#x200B;**編輯文字模式**。
 1. 請參閱下列一般程式碼：
 
-   `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
-
-   `EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS`
+   ```
+   EXISTS:A:$$OBJCODE=<Object code of the Linking Object>
+   EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object>
+   EXISTS:A:$$EXISTSMOD=NOTEXISTS
+   ```
 
 1. 將下列程式碼貼到報表&#x200B;**的**&#x200B;設定篩選規則區域，以取代上述一般程式碼：
 
-   `EXISTS:A:$$OBJCODE=HOUR<br>EXISTS:A:ownerID=FIELD:ID<br>EXISTS:A:entryDate=$$TODAYb-1w<br>EXISTS:A:entryDate_Range=$$TODAYe-1w<br>EXISTS:A:entryDate_Mod=between<br>EXISTS:A:$$EXISTSMOD=NOTEXISTS`
+   ```
+   EXISTS:A:$$OBJCODE=HOUR
+   EXISTS:A:ownerID=FIELD:ID
+   EXISTS:A:entryDate=$$TODAYb-1w
+   EXISTS:A:entryDate_Range=$$TODAYe-1w
+   EXISTS:A:entryDate_Mod=between
+   EXISTS:A:$$EXISTSMOD=NOTEXISTS
+   ```
 
    >[!NOTE]
    >
@@ -343,16 +363,18 @@ ht-degree: 0%
 1. 建立任務篩選器。\
    如需建立篩選的詳細資訊，請參閱[篩選總覽](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)。
 
-1. 按一下&#x200B;**切換到文字模式**。
+1. 按一下&#x200B;**切換到文字模式**，然後&#x200B;**編輯文字模式**。
 1. 將下列程式碼貼到報表&#x200B;**的**&#x200B;設定篩選規則區域：
 
-   `EXISTS:A:$$OBJCODE=PROJ`
-   `EXISTS:A:ID=FIELD:projectID`
-   `EXISTS:A:portfolio:ownerID=4d80ce5200000528787d57807732a33f`
-   `AND:A:EXISTS:A:$$EXISTSMOD=NOTEXISTS`
-   `AND:A:EXISTS:A:$$OBJCODE=PROJ`
-   `AND:A:EXISTS:A:ID=FIELD:projectID`
-   `AND:A:EXISTS:A:portfolio:alignmentScoreCardID=4da387b00001cbc732bb259355c33dad`
+   ```
+   EXISTS:A:$$OBJCODE=PROJ
+   EXISTS:A:ID=FIELD:projectID
+   EXISTS:A:portfolio:ownerID=4d80ce5200000528787d57807732a33f
+   AND:A:EXISTS:A:$$EXISTSMOD=NOTEXISTS
+   AND:A:EXISTS:A:$$OBJCODE=PROJ
+   AND:A:EXISTS:A:ID=FIELD:projectID
+   AND:A:EXISTS:A:portfolio:alignmentScoreCardID=4da387b00001cbc732bb259355c33dad
+   ```
 
    >[!NOTE]
    >

@@ -6,9 +6,9 @@ description: 當您在清單和報告中建立篩選器時，可以包含多個�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: be145e22-d66c-4a74-af0e-8bb0598b4d67
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
@@ -19,12 +19,12 @@ ht-degree: 0%
 
 如需建立篩選的詳細資訊，請參閱下列文章：
 
-* [篩選器總覽](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
-* [使用文字模式編輯篩選器](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
+* [篩選器總覽](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* [使用文字模式編輯篩選器](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
 
 ## 文字模式篩選器運運算元
 
-如需有關標準篩選器介面中Adobe Workfront篩選器運運算元的資訊，請參閱[篩選器概觀](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)。
+如需有關標準篩選器介面中Adobe Workfront篩選器運運算元的資訊，請參閱[篩選器概觀](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md)。
 
 Workfront有2個篩選器運運算元，用來連線每個篩選器陳述式：
 
@@ -36,7 +36,12 @@ Workfront有2個篩選器運運算元，用來連線每個篩選器陳述式：
 
   **範例：**&#x200B;若要篩選計畫完成日期為今天且完成百分比低於100%的任務，請使用下列文字模式代碼：
 
-  <pre>plannedCompletionDate=$$TODAY</pre><pre>plannedCompletionDate_Mod=eq</pre><pre>percentComplete=100</pre><pre>percentComplete_Mod=lt</pre>
+  ```
+  plannedCompletionDate=$$TODAY
+  plannedCompletionDate_Mod=eq 
+  percentComplete=100 percent
+  Complete_Mod=lt
+  ```
 
 * **OR**：當您使用OR運運算元聯結2個篩選陳述式時，表示您想要滿足任一陳述式。
 
@@ -48,7 +53,12 @@ Workfront有2個篩選器運運算元，用來連線每個篩選器陳述式：
 
   **範例：**&#x200B;若要篩選計畫完成日期為今天或完成百分比低於100%的任務，請使用下列文字模式代碼：
 
-  <pre>plannedCompletionDate=$$TODAY</pre><pre>plannedCompletionDate_Mod=eq</pre><pre>OR:1:percentComplete=100</pre><pre>或:1:percentComplete_Mod=lt</pre>
+  ```
+  plannedCompletionDate=$$TODAY
+  plannedCompletionDate_Mod=eq
+  OR:1:percentComplete=100
+  OR:1:percentComplete_Mod=lt
+  ```
 
 ## OR篩選器的文字模式語法
 
@@ -58,7 +68,12 @@ OR篩選器的文字模式語法必須包含下列專案：
 
   建立OR篩選器時，請遵循此模式：
 
-  <pre><field name in camel case>=<value></pre><pre><field name in camel case>_Mod=<modifier value></pre><pre>或:1:<field name in camel case>=<value></pre><pre>或:1:<field name in camel case>_Mod=<modifier value></pre>
+  ```
+  <field name in camel case>=<value>
+  <field name in camel case>_Mod=<modifier value>
+  OR:1:<field name in camel case>=<value>
+  OR:1:<field name in camel case>_Mod=<modifier value>
+  ```
 
   >[!TIP]
   >
@@ -68,11 +83,25 @@ OR篩選器的文字模式語法必須包含下列專案：
 
   **範例：**&#x200B;若要篩選計畫完成日期為今天、完成百分比低於100%或狀態為新的任務，請使用下列文字模式程式碼：
 
-  <pre>plannedCompletionDate=$$TODAY</pre><pre>plannedCompletionDate_Mod=eq</pre><pre>或:1:狀態=新增</pre><pre>OR:1:status_Mod=in</pre><pre>OR:2:percentComplete=100</pre><pre>或:2:percentComplete_Mod=lt</pre>
+  ```
+  plannedCompletionDate=$$TODAY
+  plannedCompletionDate_Mod=eq
+  OR:1:status=NEW
+  OR:1:status_Mod=in
+  OR:2:percentComplete=100
+  OR:2:percentComplete_Mod=lt
+  ```
 
 * 您在篩選中參考的欄位或屬性名稱必須以駝峰式大小寫撰寫。 如需有關駝峰式大小寫的資訊，請參閱[文字模式語法概述](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)。
 * 當您在OR篩選器中參考自訂欄位時，必須在OR修飾詞語法和自訂欄位名稱之間插入DE： 。 您必須拼字自訂欄位在Workfront介面中顯示的名稱。
 
   **範例：**&#x200B;若要篩選狀態為「新增」或「完成百分比」低於100%的任務，或是值為「等於」且名為「帳戶型別」的自訂欄位，請使用下列文字模式代碼：
 
-  <pre>狀態=新增</pre><pre>status_Mod=in</pre><pre>OR:1:percentComplete=100</pre><pre>或:1:percentComplete_Mod=lt</pre><pre>OR:2:DE：帳戶型別=資本</pre><pre>OR:2:DE：Account Type_Mod=in</pre>
+  ```
+  status=NEW
+  status_Mod=in
+  OR:1:percentComplete=100
+  OR:1:percentComplete_Mod=lt
+  OR:2:DE:Account Type=Capital
+  OR:2:DE:Account Type_Mod=in
+  ```

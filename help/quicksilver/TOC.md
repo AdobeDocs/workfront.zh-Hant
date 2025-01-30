@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
+source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
 workflow-type: tm+mt
-source-wordcount: '13013'
+source-wordcount: '13017'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,9 @@ ht-degree: 2%
       * [準備Adobe Workfront的季度發行](product-announcements/product-releases/release-readiness.md)
       * 2025年第2季發行{#release-25-q2}
          * [2025年第2季版本總覽](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)
-         * [2025年第二季度發行時間範圍內的其他增強功能](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md)
+         * [2025年第2季管理員增強功能](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md)
+         * [2025年第二季發行時間範圍內的其他增強功能](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md)
+           <!--* [Look-and-feel updates during the 2025 Q2 release timeframe](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-look-and-feel-updates.md)-->
       * 2025年第1季發行{#release-25-q1}
          * [2025年第1季版本總覽](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
          * [2025年第1季管理員增強功能](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md)

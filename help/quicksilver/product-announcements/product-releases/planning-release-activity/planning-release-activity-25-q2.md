@@ -6,9 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
+exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
+source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
@@ -20,6 +21,42 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 如需針對Adobe Workfront Planning發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## 新增至公式欄位的函式
+
+>[!NOTE]
+>
+>預覽版本： 2025年1月30日；適用於所有客戶的生產版本： 2025年1月30日
+
+Workfront公式欄位現在提供下列運算式：ARRAY、ARRAYLENGTH、ARRAYELEMENT。 公式編輯器中提供每個運算式的定義和範例。
+
+如需詳細資訊，請參閱[公式欄位概述](/help/quicksilver/planning/fields/formula-fields.md)。
+
+<!--## Real-time presence indicators in a record's details preview or page
+
+>[!NOTE]
+>
+>Preview release: January 30, 2025; Production for fast release: With the 25.2 release (February 2025); Production for quarterly release: With the 25.4 release (April 2025)
+
+To understand what information is edited by other users when working in a record's preview or details page, we have introduced real-time presence indicators for this area of Workfront Planning.
+
+The field edited by another user will now be highlighted, and other users' avatars will be visible to you in the upper-right corner of the preview or details page.
+
+For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).-->
+
+## 與團隊、工作角色和公司共用Workfront Planning專案
+
+>[!NOTE]
+>
+>預覽版本： 2025年1月30日；快速發行生產：25.2版（2025年2月）；每季生產：25.4版（2025年4月）
+
+您現在可以在Workfront Planning中與團隊、工作角色和公司共用檢視和工作區。 在此增強功能之前，您可以和使用者和群組共用檢視和工作區。
+
+如需詳細資訊，請參閱下列文章：
+
+[共用檢視](/help/quicksilver/planning/access/share-views.md)
+
+[共用工作區](/help/quicksilver/planning/access/share-workspaces.md)
 
 ## 連線和人員欄位現在支援複製和貼上外部文字
 

@@ -6,14 +6,16 @@ description: 報表中的參考集合
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
 workflow-type: tm+mt
-source-wordcount: '2598'
+source-wordcount: '2539'
 ht-degree: 0%
 
 ---
 
 # 報表中的參考集合
+
+<!-- Audited: 1/2025 -->
 
 在Adobe Workfront中建立報表可讓您以清單、格線或圖表格式顯示一組物件、其個別欄位或連結物件。
 
@@ -23,32 +25,41 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
+您必須具備下列條件：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計劃 </p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> 
+      <p>新增：</p>
+         <ul>
+         <li><p>標準</p></li>
+         </ul>
+      <p>目前：</p>
+         <ul>
+         <li><p>規劃</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯對篩選器、檢視、群組的存取權</p> <p>編輯報告、儀表板、行事曆的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>編輯對篩選器、檢視、群組的存取權</p> <p>編輯報告、儀表板、行事曆的存取權</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>管理報表的許可權</p> <p>管理檢視、篩選或分組的許可權 </p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>管理報表的許可權</p> <p>管理檢視、篩選或分組的許可權 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -128,8 +139,9 @@ Workfront中的物件之間有下列兩種關係：
 
 您可以在集合檢視中顯示任務或問題的相關資訊，例如名稱、日期、主要受指派人、完成百分比等。
 
-檢視以清單格式顯示任務或問題資訊，清單的每一行代表任務或問題的相關資訊。 任務或問題清單及其欄位會出現在與任務或問題所屬專案相同的行上。\
-![issue_and_tasks_collections_in_reports.png](assets/issue-and-tasks-collections-in-reports-350x171.png)
+檢視以清單格式顯示任務或問題資訊，清單的每一行代表任務或問題的相關資訊。 任務或問題清單及其欄位會出現在與任務或問題所屬專案相同的行上。
+
+![issue_and_tasks_collections_in_reports.png](assets/issue-and-tasks-collections-in-reports-350x171.png){width=400}
 
 * [在報表檢視中新增集合欄](#add-a-collection-column-in-a-report-view)
 * [瞭解文字模式中集合檢視的行](#understand-the-lines-of-a-collection-view-in-text-mode)
@@ -144,7 +156,8 @@ Workfront中的物件之間有下列兩種關係：
 1. 選取報表的物件。
 1. 離開您的報告，使用[API Explorer](../../../wf-api/general/api-explorer.md)決定您為報告選取的物件有哪些可用的集合。
 
-   如需有關選取集合物件的詳細資訊，請參閱本文章的[尋找集合物件及其在API總管](#find-collection-objects-and-their-fields-in-the-api-explorer)中的欄位。\
+   如需有關選取集合物件的詳細資訊，請參閱本文章的[尋找集合物件及其在API總管](#find-collection-objects-and-their-fields-in-the-api-explorer)中的欄位。
+
    記下集合的物件名稱。
 
 1. 使用[API Explorer](../../../wf-api/general/api-explorer.md)，前往您要顯示在集合中的物件欄位清單。
@@ -155,7 +168,7 @@ Workfront中的物件之間有下列兩種關係：
 
 1. 導覽回您的報告，然後在&#x200B;**欄（檢視）**&#x200B;索引標籤中按一下&#x200B;**新增欄**。
 1. 按一下&#x200B;**切換到文字模式**。
-1. 將滑鼠移到對話方塊上，然後按一下&#x200B;**按一下以編輯文字**。
+1. 按一下&#x200B;**編輯文字模式**。
 1. 在&#x200B;**文字模式**&#x200B;對話方塊中選取所有文字並將其移除，然後如果您參照的是集合物件的欄位，請貼上下列程式碼：
 
    ```
@@ -223,7 +236,7 @@ Workfront中的物件之間有下列兩種關係：
 
 1. 以下欄會顯示在專案報告中，列出每個專案中的所有任務及其主要受指派人：
 
-   ![](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png)
+   ![](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png){width=400}
 
 1. 按一下「**儲存**」。
 1. （選用）繼續編輯報表。
@@ -311,7 +324,7 @@ Workfront中的物件之間有下列兩種關係：
 
    記下您要在集合中顯示的欄位。
 
-1. 導覽回您的報告，在&#x200B;**篩選器**&#x200B;索引標籤中，按一下&#x200B;**切換至文字模式**。
+1. 導覽回您的報告，在&#x200B;**篩選器**&#x200B;索引標籤中，按一下&#x200B;**切換到文字模式**&#x200B;然後&#x200B;**編輯文字模式**。
 
 1. 在&#x200B;**設定報表**&#x200B;的篩選規則區域中，貼上下列程式碼：
 
@@ -337,7 +350,7 @@ Workfront中的物件之間有下列兩種關係：
 
    此報表只會顯示至少一項任務名稱中有「行銷」字樣的專案。
 
-   ![](assets/marketing-only-tasks-in-project-report-nwe-350x309.png)
+   ![](assets/marketing-only-tasks-in-project-report-nwe-350x309.png){width=400}
 
 1. 若要篩選問題的名稱，請使用下列程式碼：
 
@@ -391,7 +404,7 @@ Workfront中的物件之間有下列兩種關係：
    ```
 
 1. （選擇性）指定此選擇是否預設顯示在提示中。
-1. 將&#x200B;**集合物件名稱**&#x200B;取代為您在[API Explorer](../../../wf-api/general/api-explorer.md)中顯示的集合物件名稱。 此值通常是集合物件名稱的多種形式。
+1. 將&#x200B;**集合物件名稱**&#x200B;取代為您在[API Explorer](../../../wf-api/general/api-explorer.md)中顯示的集合物件名稱。 此值通常是集合物件名稱的多種形式。
 1. 將&#x200B;**集合物件欄位**&#x200B;取代為您集合物件之欄位的名稱，因為它出現在[API Explorer](../../../wf-api/general/api-explorer.md)中。
 1. 以Workfront中顯示的集合物件值取代&#x200B;**集合物件值**。
 
@@ -399,7 +412,7 @@ Workfront中的物件之間有下列兩種關係：
 
 1. 以有效的修飾元取代修飾元&#x200B;**的**&#x200B;值。
 
-   如需修飾元的清單，請參閱  [篩選和條件修飾元](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)。
+   如需修飾元清單，請參閱[篩選和條件修飾元](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)。
 
    **範例：**&#x200B;例如，若要使用自訂提示建立專案報告，其中您只想顯示至少有一個指派給特定使用者的專案，請使用下列程式碼：
 
@@ -423,7 +436,7 @@ Workfront中的物件之間有下列兩種關係：
 
    >[!NOTE]
    >
-   >請注意，您必須使用&#x200B;**問題**&#x200B;作為集合物件名稱。 API總管  目前未提供問題的集合物件名稱。
+   >請注意，您必須使用&#x200B;**問題**&#x200B;作為集合物件名稱。 API總管目前未針對問題提供集合物件名稱。
 
 1. 按一下&#x200B;**完成**。
 1. （選用）繼續編輯報表。
