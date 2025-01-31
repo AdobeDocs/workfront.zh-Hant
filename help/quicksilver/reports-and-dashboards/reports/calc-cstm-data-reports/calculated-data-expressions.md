@@ -7,9 +7,9 @@ description: 您可以使用資料運算式，在Adobe Workfront中定義計算�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: b60a1e74d62e9b3945f69dc590f8cc202302c5af
 workflow-type: tm+mt
-source-wordcount: '2165'
+source-wordcount: '2425'
 ht-degree: 0%
 
 ---
@@ -132,6 +132,13 @@ ht-degree: 0%
 <p><code>ADDYEARS(date, number)</code></p> </td> 
   </tr> 
   <tr> 
+   <td><strong>ADDHOUR</strong> </td> 
+   <td> <p>將時數新增至日期，格式如下：</p>
+
+<p><code>ADDHOUR(date, number)</code></p>
+   <p>注意：Workfront Planning不支援此函式。</p></td> 
+  </tr>
+  <tr> 
    <td><strong>CLEARTIME</strong> </td> 
    <td> <p>清除日期的時間部分，格式如下。 在此範例中，日期是工作物件的「輸入日期」。</p>
 
@@ -246,7 +253,7 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th>運算式</th> 
-   <th>說明</th> 
+   <th>解釋</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -373,11 +380,47 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th>運算式</th> 
-   <th>說明</th> 
+   <th>解釋</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
+   <td><strong>陣列</strong> </td> 
+   <td> <p>將字串轉換為陣列。delimiter 可以是任何字串。</p> 
+   <p>運算式的格式如下：</p>
+   <p><code>ARRAY(string1, "delimiter")</code></p> 
+   </td> 
+  </tr>
+  <tr> 
+   <td><strong>ARRAYLENGTH</strong> </td> 
+   <td> <p>傳回陣列中的元素數，格式如下：</p>
+   <p><code>ARRAYLENGTH(array)</code></p> 
+   </td> 
+  </tr>
+  <tr> 
+   <td><strong>ARRAYELEMENT</strong> </td> 
+   <td> <p>傳回陣列中指定數字處的元素。 如果索引超出範圍，則會傳回空白。</p> 
+   <p>運算式的格式如下：</p>
+   <p><code>ARRAYELEMENT(array, number)</code></p> 
+   </td> 
+  </tr>
+  <tr> 
+   <td><strong>SORTASCARRAY</strong> </td> 
+   <td> <p>以遞增順序排序陣列元素，並將其轉換為第一個元素的型別。</p>
+   <p>運算式的格式如下：</p>
+   <p><code>SORTASCARRAY(array)</code></p>
+   <p>例如，["-12.6"， -13.0]會變成["-12.6"， "-13"]。</p>
+   <p>注意：Workfront Planning不支援此函式。</p></td> 
+  </tr>
+  <tr> 
+   <td><strong>SORTDESCARRAY</strong> </td> 
+   <td> <p>以遞減順序排序陣列元素，並將其轉換為第一個元素的型別。</p>
+   <p>運算式的格式如下：</p>
+   <p><code>SORTDESCARRAY(array)</code></p>
+   <p>例如，["-12.6"， -13.0]會變成["-13"， "-12.6"]。</p>
+   <p>注意：Workfront Planning不支援此函式。</p></td> 
+  </tr>
+  <tr>   
    <td><strong>個案例</strong> </td> 
    <td> <p>與其他運算式搭配使用，根據索引編號從清單中選擇值。 </p>
    <p>索引數字是傳回數值（通常在已知範圍內）的欄位或函式。</p> 
@@ -413,6 +456,13 @@ ht-degree: 0%
 
 <p><code>ENCODEURL(string)</code></p></td> 
   </tr> 
+  <tr> 
+   <td><strong>格式</strong> </td> 
+   <td><p>傳回格式化文字。色彩選項有$$正面、$$資訊、$$負面、$$注意，其他格式選項有$$粗體、$$斜體、$$底線。每個函式只能使用一個顏色選項，以及最多三個其他格式選項。 如果未指定顏色選項，則會套用系統的預設顏色。</p>
+   <p>運算式的格式如下：</p>
+   <p><code>FORMAT($$POSITIVE, $$BOLD, $$ITALIC)</code></p>
+   <p>注意：Workfront Planning不支援此函式。</p></td> 
+  </tr>   
   <tr> 
    <td><strong>IF</strong> </td> 
    <td> <p>評估您指定的條件，如果為true，則傳回trueExpression的值；如果為false，則傳回falseExpression的值。</p>
@@ -504,18 +554,16 @@ ht-degree: 0%
    <td> <p>將數字轉換為字串，格式如下：</p>
 
 <p><code>STRING(number)</code></p> </td> 
-  </tr> 
+  </tr>
   <tr> 
    <td><strong>SORTASCSTRING</strong> </td> 
    <td> <p>以遞增順序來排列字串清單，格式如下：</p>
-
-<p><code>SORTASCSTRING(string1, string2, ...)</code></p> </td> 
-  </tr> 
+   <p><code>SORTASCSTRING(string1, string2, ...)</code></p> </td> 
+  </tr>
   <tr> 
    <td><strong>SORTDESCSTRING</strong> </td> 
    <td> <p> 以遞減順序來排列字串清單，格式如下：</p>
-
-<p><code>SORTDESCSTRING(string1, string2, ...)</code></p> </td> 
+   <p><code>SORTDESCSTRING(string1, string2, ...)</code></p> </td> 
   </tr> 
   <tr> 
    <td><strong>SUBSTR</strong> </td> 
@@ -523,6 +571,13 @@ ht-degree: 0%
 
 <p><code>SUBSTR({string}, number of start position, number of end position)</code></p> </td> 
   </tr> 
+  <tr> 
+   <td><strong>開關</strong> </td> 
+   <td> <p>根據值清單評估運算式，並傳回對應至第一個相符值的結果。</p>
+   <p>運算式的格式如下：</p>
+   <p><code>SWITCH(expression, value1, result1, [value2, result2], ...)</code></p>
+   <p>Workfront Planning不支援此函式。</p></td> 
+  </tr>   
   <tr> 
    <td><strong>TRIM</strong> </td> 
    <td> <p>移除字串開頭和結尾的空格，格式如下：</p>
