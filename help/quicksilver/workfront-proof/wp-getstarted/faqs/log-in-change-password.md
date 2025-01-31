@@ -8,9 +8,9 @@ description: Workfront Proof管理員可以設定登入頁面的個人化品牌�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c67d411e-1cea-4a89-94a3-7503c4ce2eb7
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 0de21a39e2a4d2239e89eb2b10e44d9c9aa91a27
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '546'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## 登入
 
-1. 移至[登入頁面](https://www.proofhq.com/login) (或移至我們的網站[www.proofhq.com](https://www.proofhq.com/))。
+1. 移至[登入頁面](https://app.proofhq.com/login)。
 
 1. 按一下右上角的[!UICONTROL 登入]按鈕。
 1. 輸入您的電子郵件地址和密碼。\
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 若您忘記密碼，您可以[!DNL Workfront Proof]寄電子郵件給您，以重設電子郵件。
 
-1. 移至[登入頁面](https://www.proofhq.com/login) (或移至我們的網站[www.proofhq.com](https://www.proofhq.com/))。
+1. 移至[登入頁面](https://app.proofhq.com/login)。
 
 1. 按一下&#x200B;**[!UICONTROL 忘記密碼？]**
 1. 在出現的方塊中，輸入您的電子郵件地址，然後按一下[取得連結]。****
