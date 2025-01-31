@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: a7166f04f5916aebc07d5a5f73fa4f1f74b7a4a8
+source-git-commit: af7cca08b80dff1baa9a2d9dad421920db008981
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -36,10 +36,10 @@ Workfront版本編號代表每月和每季的版本追蹤。 第一個數字代�
 
 ## Adobe Workfront增強功能
 
-<!--* [Administrator enhancements](#administrator-enhancements)-->
+* [管理員增強功能](#administrator-enhancements)
 * [其他增強功能](#other-enhancements)
 
-<!--### Administrator enhancements
+### 管理員增強功能
 
 <table>
 <col style="width: 50%;" />
@@ -48,19 +48,19 @@ Workfront版本編號代表每月和每季的版本追蹤。 第一個數字代�
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Represent Adobe Admin Console user changes as "System" in the Workfront update feed</a></p>
-            <p>Now, when the administrator of the Adobe Admin Console makes a change to the user information of a Workfront user, Workfront records this change in the System activity tab of the user's Updates area as belonging to the "System". This refers to the Adobe Admin Console administrator.</p>
+            新增到計算自訂欄位的運算式</a></p>
+            <p>Workfront計算自訂欄位現在提供下列運算式：ARRAY、FORMAT、SWITCH、SORTASCARRAY、SORTDESCARRAY、ARRAYLENGTH、ARRAYELEMENT和ADDHOUR。 計算編輯器中和Experience League上提供每個運算式的定義和範例。</p>
         </td>
         <td>
-            <p><b>Available on these dates:</b></p>
+            <p><b>將於下列日期提供：</b></p>
             <ul>
-                <li>Preview release: January 30, 2025</li>
-                <li><span class="preview">Production release for all customers: January 30, 2025</span></li>
+                <li>預覽版本： 2025年1月31日</li>
+                <li><span class="preview">所有客戶的生產版本： 2025年1月31日</span></li>
             </ul>
         </td>
     </tr>                          
 </tbody>
-</table>-->
+</table>
 
 ### 其他增強功能
 
