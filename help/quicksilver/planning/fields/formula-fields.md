@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 799115d836d67a81fe69cd04c8e75014d48d2443
+source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 8%
+source-wordcount: '621'
+ht-degree: 7%
 
 ---
 
@@ -181,18 +181,16 @@ OLD:
 
 Adobe Workfront Planning公式欄位支援Workfront計算欄位的大部分運算式。
 
-<!-- make the note available when WF releases the expressions listed in it: 
-
 >[!NOTE]
 >
->The following Workfront expressions are not supported for Workfront Planning formula fields: 
+>Workfront Planning公式欄位不支援下列Workfront運算式：
 >
 >* SORTASCARRAY
 >* SORTDESCARRAY
 >* ADDHOUR
->* SWITCH
->* FORMAT
--->
+>* 切換
+>* 格式
+
 
 如需Workfront運算式的完整清單，請參閱[計算資料運算式概觀](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)。
 
@@ -211,21 +209,6 @@ Adobe Workfront Planning公式欄位支援Workfront計算欄位的大部分運�
  </thead> 
  <tbody>
 
-<tr>
-   <td><strong>陣列</strong> </td>
-   <td> <p>將字串轉換為陣列。delimiter 可以是任何字串。</p>
-   <p>運算式的格式如下：</p>
-   <p><code>ARRAY(string1, "delimiter")</code></p>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>ARRAYELEMENT</strong> </td>
-   <td> <p>傳回陣列中指定數字處的元素。 如果索引超出範圍，則會傳回空白。</p>
-   <p>運算式的格式如下：</p>
-   <p><code>ARRAYELEMENT(array, number)</code></p>
-   </td>
-  </tr>
-
 <tr> 
    <td><strong>ARRAYJOIN</strong> </td> 
    <td> <p>傳回依分隔字元的串連字串。</p> <p>運算式的格式如下：
@@ -233,14 +216,7 @@ Adobe Workfront Planning公式欄位支援Workfront計算欄位的大部分運�
 <code>ARRAYJOIN（分隔字元，陣列）</code>
 </p>
    </td></tr>
-  <tr>
-   <td><strong>ARRAYLENGTH</strong> </td>
-   <td> <p>傳回陣列中的元素數，格式如下：</p>
-   <p><code>ARRAYLENGTH(array)</code></p>
-   </td>
-  </tr>
-
-<tr> 
+    <tr> 
    <td><strong>ARRAYUNIQUE</strong> </td> 
    <td> <p>傳回具有唯一值的陣列。</p> <p>運算式的格式如下：
 

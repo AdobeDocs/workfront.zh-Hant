@@ -7,9 +7,9 @@ description: Scenario Planner需要Adobe Workfront的單獨授權和額外存取
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d7f3c7fa-81aa-40c9-b506-fe1fe346e9ea
-source-git-commit: cf3b5d3f8e3a8a1922da757a41b4c5e0ee84e6fd
+source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '886'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ might need to add information about the permissions to plans/ initiatives if tho
 
    * 對於目前的Workfront計畫，您的組織必須同時具備下列兩個條件：
 
-      * 您的組織必須購買[!DNL Workfront] [!UICONTROL 企業]或更新版本的[!DNL Workfront]計畫。 如需[!DNL Workfront]計畫的相關資訊，請參閱[Workfront計畫](https://www.workfront.com/plans)。
+      * 您的組織必須購買[!DNL Workfront] [!UICONTROL 企業]或更新版本的[!DNL Workfront]計畫。
 
       * 您的組織除了[!DNL Workfront]授權外，還必須購買[!DNL Workfront Scenario Planner]授權。 請連絡您的[!DNL Workfront]客戶代表以瞭解[!DNL Workfront Scenario Planner]授權。
 

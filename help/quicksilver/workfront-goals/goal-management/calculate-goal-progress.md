@@ -6,10 +6,10 @@ description: 目標進度是由活動、結果或子目標等進度指標所驅�
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 0%
+source-wordcount: '827'
+ht-degree: 1%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 0%
 
 * 對於新計畫和授權結構：
 
-   * 終極計畫
+   * Ultimate計畫
 
      或
 
-     適用於Prime或選取Adobe Workfront計畫的Adobe Workfront目標的其他授權。 如需詳細資訊，請參閱[Adobe Workfront計畫](https://www.workfront.com/plans)。
+     適用於Prime或選取Adobe Workfront計畫的Adobe Workfront目標的其他授權。
 
 * 對於目前的計畫與授權結構：
 

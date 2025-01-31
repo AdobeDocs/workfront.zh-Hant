@@ -8,9 +8,9 @@ author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: b5b0e5b2-1133-443b-8ef1-cbb1ca377fd6
-source-git-commit: f0f6c2bee98c6cebf8ea9e18bf34262f3c1d6e3a
+source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---
@@ -23,12 +23,12 @@ ht-degree: 0%
 > 
 >* 對於新計畫和授權結構：
 >    
->   * 終極計畫
+>   * Ultimate計畫
 >        
 >     或
 >        
 >   * 適用於Prime或選取Adobe Workfront計畫的Adobe Workfront目標的其他授權。
->       如需詳細資訊，請參閱[Adobe Workfront定價與封裝](https://www.workfront.com/plans)。
+>      
 >      
 >* 對於目前的計畫與授權結構：
 >    

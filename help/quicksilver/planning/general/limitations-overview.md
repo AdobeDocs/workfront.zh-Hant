@@ -6,14 +6,13 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '375'
 ht-degree: 1%
 
 ---
 
-<!--check the workfront.com/plans article linked below to see if there is content in there about Planning - after August 28, 2024-->
 
 # Adobe Workfront Planning物件限制總覽
 
@@ -50,7 +49,7 @@ Adobe Workfront Planning限制您可在執行個體中建立的物件數目。 �
 
 *我們建議您不要有太多工作區，因為這些工作區可能會變得難以管理，而且您的工作流程可能太分散。
 
-如需Workfront Planning定價與封裝的相關資訊，請參閱[Adobe Workfront定價與封裝](https://business.adobe.com/products/workfront/pricing.html)。
+如需Workfront Planning定價和封裝的相關資訊，請聯絡您的客戶經理。
 
 <!--
 ****************KEEP THIS COMMENTED OUT:
