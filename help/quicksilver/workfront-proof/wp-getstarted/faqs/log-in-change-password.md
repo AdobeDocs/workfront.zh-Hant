@@ -8,7 +8,7 @@ description: Workfront Proof管理員可以設定登入頁面的個人化品牌�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c67d411e-1cea-4a89-94a3-7503c4ce2eb7
-source-git-commit: 0de21a39e2a4d2239e89eb2b10e44d9c9aa91a27
+source-git-commit: e842e6714d6fa9c3944f03723f95029af1a85379
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 0%
@@ -22,6 +22,7 @@ ht-degree: 0%
 >本文提及獨立產品[!DNL Workfront Proof]中的功能。 有關[!DNL Adobe Workfront]內部校訂的資訊，請參閱[校訂](../../../review-and-approve-work/proofing/proofing.md)。
 
 ## 登入
+
 
 1. 移至[登入頁面](https://app.proofhq.com/login)。
 
@@ -45,6 +46,7 @@ ht-degree: 0%
 ## 當您忘記密碼時 {#when-you-forget-your-password}
 
 若您忘記密碼，您可以[!DNL Workfront Proof]寄電子郵件給您，以重設電子郵件。
+
 
 1. 移至[登入頁面](https://app.proofhq.com/login)。
 

@@ -6,10 +6,10 @@ description: 每個Widget都包含自己的工作清單。 工作清單會顯示
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: f20f1c5d10869901ba5284a4425e38d279265a06
+source-git-commit: 107bb601b8d4fd9376657b5cf5840cee5d086613
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 6%
+source-wordcount: '991'
+ht-degree: 4%
 
 ---
 
@@ -59,6 +59,40 @@ ht-degree: 6%
 如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+## 要在工作清單中顯示的工作專案需求
+
+有內建需求，工作專案會針對這些需求顯示在特定Widget工作清單中。 工作專案必須符合這些要求，才能出現在下列Widget的工作清單中。
+
+### 我的任務Widget
+
+任務必須符合以下要求，才能出現在「我的任務」小工具中：
+
+* 任務狀態不等於「完成」。
+* 必須將登入使用者指派給任務。
+* 任務狀態不等於「完成」。
+* 任務所屬的專案必須處於與目前相同的狀態。
+
+
+### 我的問題Widget
+
+問題必須符合以下要求，才能出現在「我的問題」小工具中：
+
+* 必須將登入使用者指派給問題。
+* 問題狀態不等於「完成」。
+* 沒有未解決的物件附加到問題。
+* 問題狀態不等於「完成」。
+* 問題所屬的專案必須處於與目前相同的狀態。
+
+### 我的團隊Widget
+
+團隊請求必須符合以下要求，才能出現在「我的團隊」小工具中：
+
+* 登入使用者屬於指派工作專案的團隊。
+* 工作專案狀態不等於「完成」。
+* 工作專案沒有附加未解決的核准流程。
+* 工作專案不是週期性任務。
+* 工作專案所屬的專案必須處於與目前相同的狀態。
 
 ## 篩選您的工作
 
