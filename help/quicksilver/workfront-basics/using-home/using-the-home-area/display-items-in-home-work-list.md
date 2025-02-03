@@ -6,7 +6,7 @@ description: 每個Widget都包含自己的工作清單。 工作清單會顯示
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: 107bb601b8d4fd9376657b5cf5840cee5d086613
+source-git-commit: 0bd250b323a4e8e83d7ce8b42d0446c3879d7e6b
 workflow-type: tm+mt
 source-wordcount: '991'
 ht-degree: 4%
@@ -182,7 +182,5 @@ ht-degree: 4%
 * **時程表**：[!UICONTROL 提交日期]
 * **核准**： [!UICONTROL 提交日期]
 * **校訂核准**： [!UICONTROL 校訂期限]
-
-
 
 
