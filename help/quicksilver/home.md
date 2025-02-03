@@ -3,9 +3,9 @@ title: '[!DNL Adobe Workfront]檔案'
 description: ' [!DNL Adobe Workfront]的檔案。'
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: 1343695894b22e3d820e2abaf0c377f72d39aab1
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '381'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 1%
 
 >[!TAB 最新版本]
 
+* [2025年第二季版本總覽](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)
 * [2025年第一季版本總覽](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
 * [2024年第四季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
 * [Adobe Workfront Fusion發行活動](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
