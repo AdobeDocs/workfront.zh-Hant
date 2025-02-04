@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 99431b88648919c5f4f90228dbedd97cd2efbd65
+source-git-commit: d8a76c9afacde32336fb8de4da531173e323112a
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1134'
 ht-degree: 0%
 
 ---
@@ -109,6 +109,17 @@ ht-degree: 0%
 此更新包含區域的視覺化變更。 功能未變更。
 
 ## 敏捷
+
+## 團隊>待處理區域的介面更新
+
+**預覽版本： 2025年1月23日；生產版本：自2025年2月13日起一週**
+
+我們更新了「團隊>待處理專案」區域，使其設計更現代化，與Workfront的其他區域一致。
+
+此更新包含下列變更：
+
+* 「內文和問題」標籤以及「分解內文」對話方塊的視覺增強功能
+* 計畫反複專案工具的新對話方塊
 
 ### 版序清單的介面更新
 
