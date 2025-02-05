@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: be7377a0c4d933823f65ed09d2b1fc091779f252
 workflow-type: tm+mt
-source-wordcount: '1745'
+source-wordcount: '1741'
 ht-degree: 5%
 
 ---
@@ -117,7 +117,6 @@ Workfront有5個新的內建存取層級：
 * 檢視控制面板和報表
 * 追蹤時間並核準時程表
 * 建立和管理問題
-* 進行工作更新
 
 具有輕度存取層級的使用者：
 
