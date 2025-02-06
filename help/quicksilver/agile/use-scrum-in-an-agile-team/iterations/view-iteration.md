@@ -6,7 +6,7 @@ description: 您可以檢視指定專案團隊的所有版序，也可以檢視�
 author: Lisa
 feature: Agile
 exl-id: 1ee14c40-8047-4885-96f0-cddfc2617028
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 9a3ec953ca1c7989be292f1747a052ed5cc7c74b
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 1. 在左側面板中，選取&#x200B;**[!UICONTROL 反複專案]**&#x200B;以選擇特定反複專案，或選取&#x200B;**[!UICONTROL 目前反複專案]**。
 
-   ![反複專案清單](assets/view-iteration-NWE.png)
+   ![反複專案清單](assets/view-iteration-list.png)
 
    >[!NOTE]
    >

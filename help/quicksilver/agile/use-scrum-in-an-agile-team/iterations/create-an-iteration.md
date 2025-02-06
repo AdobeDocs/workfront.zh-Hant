@@ -6,9 +6,9 @@ description: 反複專案是Scrum敏捷團隊規劃工作容量的關鍵元件�
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 9a3ec953ca1c7989be292f1747a052ed5cc7c74b
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
@@ -48,18 +48,19 @@ ht-degree: 0%
 
 ## 新增反複專案
 
-使用[!UICONTROL 新增反複專案]功能來快速建立反複專案，並在稍後新增任務和問題。
+您可以在清單中新增反複專案以快速建立反複專案，並在稍後新增任務和問題。
 
 {{step1-to-team}}
 
 1. （選擇性）按一下&#x200B;**[!UICONTROL 切換群組]**&#x200B;圖示![切換群組圖示](assets/switch-team-icon.png)，然後從下拉式功能表中選取新的Scrum群組或在搜尋列中搜尋群組。
 
 1. 在&#x200B;**[!UICONTROL 反複專案]**&#x200B;索引標籤上，按一下&#x200B;**[!UICONTROL 新增反複專案]**。
-   ![](assets/add-iteration-adobe-350x275.png)
+
+   ![按一下新增反複專案](assets/click-add-iteration.png)
 
 1. 指定下列專案：
 
-   <table style="table-layout:auto"> 
+   <table style="table-layout:auto">
     <col> 
     <col> 
     <tbody> 
@@ -90,7 +91,7 @@ ht-degree: 0%
     </tbody> 
    </table>
 
-1. 按一下&#x200B;**[!UICONTROL 提交]**。 現在您已建立反複專案，需要新增劇本。 如需詳細資訊，請參閱[將劇本新增至現有反複專案](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)。
+1. 按一下&#x200B;**[!UICONTROL 新增反複專案]**。 現在您已建立反複專案，需要新增劇本。 如需詳細資訊，請參閱[將劇本新增至現有反複專案](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)。
 
 ## 在[!UICONTROL 待處理專案]索引標籤上計畫反複專案
 

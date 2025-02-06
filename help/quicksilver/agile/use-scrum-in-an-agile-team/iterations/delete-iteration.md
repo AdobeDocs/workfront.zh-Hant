@@ -6,9 +6,9 @@ description: 如果您不再需要您的敏捷團隊的疊代，您可以將其�
 author: Lisa
 feature: Agile
 exl-id: db7fbafd-9d22-4035-a130-60ec2e4ad347
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 9a3ec953ca1c7989be292f1747a052ed5cc7c74b
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '165'
 ht-degree: 1%
 
 ---
@@ -57,4 +57,4 @@ ht-degree: 1%
 1. （選擇性）按一下&#x200B;**[!UICONTROL 切換群組]**&#x200B;圖示![切換群組圖示](assets/switch-team-icon.png)，然後從下拉式功能表中選取新的Scrum群組或在搜尋列中搜尋群組。
 
 1. 在左側面板中，選取&#x200B;**[!UICONTROL 反複專案]**。
-1. 選取您要刪除的疊代，然後按一下[刪除]。****
+1. 選取您要刪除的疊代，然後按一下&#x200B;[!UICONTROL **刪除**]&#x200B;圖示![刪除圖示](assets/delete-icon.png)。
