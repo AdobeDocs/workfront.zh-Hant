@@ -7,9 +7,9 @@ description: Workfront Proof可讓您從檔案或網站建立校樣，並和其�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 49657851-2948-4d3b-b2ce-c8359eeb315b
-source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '2257'
+source-wordcount: '2259'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 0%
 
    如需校訂網站的詳細資訊，請參閱[產生URL的校訂](#generate-a-proof-for-a-url)。
 
-   ![](assets/proof-website-350x65.png)
+   ![校訂網站](assets/proof-website-350x65.png)
 
 1. （可選）修改任何已上傳檔案的檔案名稱：
 

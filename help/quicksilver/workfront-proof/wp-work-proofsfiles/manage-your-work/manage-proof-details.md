@@ -7,9 +7,9 @@ description: 校訂詳細資訊頁面可讓您管理現有的校訂。 例如，
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e9530c2f-03ff-42f5-acbf-afe303e234e3
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -33,10 +33,10 @@ ht-degree: 0%
 ## 從校訂檢視器開啟校訂詳細資訊頁面
 
 1. 如果未顯示左邊的工具列，請按一下位於左上角的&#x200B;**[!UICONTROL 功能表]**&#x200B;圖示。\
-   ![](assets/menu-icon-in-proofing-viewer-350x188.png)
+   ![校訂檢視器功能表](assets/menu-icon-in-proofing-viewer-350x188.png)
 
 1. 將滑鼠移到左邊的工具列上，然後按一下&#x200B;**[!UICONTROL 校訂詳細資料]**。\
-   ![](assets/proof-details-in-proofing-viewer-350x215.png)
+   ![校訂檢視器詳細資料](assets/proof-details-in-proofing-viewer-350x215.png)
 
    >[!NOTE]
    >

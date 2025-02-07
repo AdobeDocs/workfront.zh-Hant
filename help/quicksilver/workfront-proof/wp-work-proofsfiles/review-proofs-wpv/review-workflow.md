@@ -7,9 +7,9 @@ description: 「工作流程」面板會顯示您的校訂工作流程，它出�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 4e6736bb-2859-4309-841b-67ed83dab6a0
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
    **[!UICONTROL 工作流程]**&#x200B;面板隨即顯示。
 
-   ![](assets/workflow-panel-350x115.png)
+   ![工作流程面板](assets/workflow-panel-350x115.png)
 
    「工作流程」面板的每個區段都會顯示校訂、階段和稽核者的進度和狀態。
 

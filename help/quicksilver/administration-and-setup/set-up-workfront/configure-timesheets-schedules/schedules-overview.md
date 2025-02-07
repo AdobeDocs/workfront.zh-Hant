@@ -10,9 +10,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 02350860-f997-4a76-8aec-c6c813d58e2d
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '761'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ ht-degree: 0%
 * 如果指派給任務的使用者沒有排程，或任務僅指派給工作角色、團隊或未指派，[!DNL Workfront]會使用專案排程進行時間表計算。
 * 如果指派給任務的使用者沒有排程，或任務僅指派給工作角色、團隊或未指派，並且專案沒有排程，則[!DNL Workfront]會使用系統中指定為預設排程的排程來計算時間表。
 
-  ![](assets/default-schedule.png)
+  ![預設排程](assets/default-schedule.png)
 
 ## 跨時區[!DNL Workfront]中的Collaboration
 

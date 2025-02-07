@@ -7,9 +7,9 @@ description: 擁有校訂編輯許可權的使用者可以將其刪除。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 0b2a953f-bd70-4606-b327-57412b0d2095
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 ## 刪除校訂
 
 1. 從任何清單檢視中，按一下校樣右側的&#x200B;**[!UICONTROL 更多]**&#x200B;功能表。\
-   ![](assets/more-button-small.png)
+   ![更多功能表](assets/more-button-small.png)
 
 1. 在出現的下拉式功能表中按一下&#x200B;**[!UICONTROL 檢視校訂詳細資料]**。
 1. 按一下頁面右上角附近的&#x200B;**[!UICONTROL 刪除]**&#x200B;按鈕。

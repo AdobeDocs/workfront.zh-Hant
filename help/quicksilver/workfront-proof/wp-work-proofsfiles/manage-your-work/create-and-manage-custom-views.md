@@ -7,9 +7,9 @@ description: 您可以建立檔案和校樣的自訂檢視，以您想要的方�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 7c6f3fdd-f767-4e8d-937a-1c7645aba55b
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '2458'
+source-wordcount: '2472'
 ht-degree: 0%
 
 ---
@@ -46,10 +46,10 @@ ht-degree: 0%
 
    * 若要根據現有標準檢視建立新的自訂檢視：從下拉式功能表中，選取要作為新自訂檢視基礎的現有標準檢視。 按一下「**[!UICONTROL 檢視設定]**」圖示，然後按一下「**[!UICONTROL 複製]**」以新增自訂檢視。
 
-   * ![](assets/proof-custom-view-icon.png)
+   * ![自訂檢檢視示](assets/proof-custom-view-icon.png)
 
    * 若要從頭開始建立新的自訂檢視：按一下&#x200B;**[!UICONTROL 新增檢視]**&#x200B;圖示。
-   * ![](assets/proof-newview.png)
+   * ![新檢視](assets/proof-newview.png)
 
 1. 在&#x200B;**[!UICONTROL 詳細資料]**&#x200B;區段中，指定下列資訊：
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 1. 在&#x200B;**[!UICONTROL 欄]**&#x200B;區段中，決定要納入自訂檢視中的欄。
 
    1. 按一下向右箭頭圖示。
-   1. ![](assets/proof-view-rightarrow.png)
+   1. ![向右箭號](assets/proof-view-rightarrow.png)
 
    1. 連按兩下所選資料行的名稱。
    1. 您必須至少選取一欄，而一欄只能新增一次。
@@ -99,7 +99,7 @@ ht-degree: 0%
       <td>新增到校訂的日期。 </td>
       </tr>
       <tr>
-      <td><strong>期限</strong></td>
+      <td><strong>截止日期</strong></td>
       <td>整個校訂的截止日期。</td>
       </tr>
       <tr>
@@ -167,7 +167,7 @@ ht-degree: 0%
       <td>自動化工作流程中每個階段的名稱。 這包括過去的階段、作用中的階段和未來的階段。</td>
       </tr>
       <tr>
-      <td><strong>州/省</strong></td>
+      <td><strong>狀態</strong></td>
       <td>「使用中」、「已鎖定」、「草稿」或「已提交」。</td>
       </tr>
       <tr>
@@ -274,10 +274,10 @@ ht-degree: 0%
 
 1. 按一下[!UICONTROL 檢視]按鈕(1)
 1. 從下拉式選單中選取您要編輯的檢視。\
-   ![](assets/proof-view-edit.png)
+   ![編輯檢視](assets/proof-view-edit.png)
 
 1. 按一下&#x200B;**[!UICONTROL 檢視選項]**&#x200B;按鈕，然後按一下&#x200B;**[!UICONTROL 編輯檢視]**。\
-   ![](assets/proof-view-options.png)\
+   ![檢視選項](assets/proof-view-options.png)\
    便會顯示「編輯自訂檢視」頁面。
 
 1. 按一下[!UICONTROL 動作]功能表。 (3)\
@@ -312,7 +312,7 @@ ht-degree: 0%
    ![copying_custom_view.png](assets/copying-custom-view-350x258.png)
 
 1. 在「複製自訂檢視」頁面中，會填入所有原始設定。 根據您的選擇修改自訂檢視，然後按一下&#x200B;**[!UICONTROL 複製檢視]**&#x200B;按鈕。 您會立即進入新檢視。\
-   ![](assets/copy-custom-view-page-350x542.png)
+   ![複製自訂檢視](assets/copy-custom-view-page-350x542.png)
 
 ## 共用自訂檢視
 

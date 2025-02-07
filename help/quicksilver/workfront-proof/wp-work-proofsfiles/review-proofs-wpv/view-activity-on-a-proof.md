@@ -7,9 +7,9 @@ description: 您可以檢視指定校訂的最近活動。 這包括任何指派
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e99f4e8f-eb3f-4575-83fb-97acb8932e25
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 1. 如果未顯示左邊的工具列，請按一下校訂檢視器左上角的&#x200B;**[!UICONTROL 功能表]**&#x200B;圖示。
 
-   ![](assets/menu-icon-in-proofing-viewer-350x188.png)
+   ![校訂檢視器功能表](assets/menu-icon-in-proofing-viewer-350x188.png)
 
 1. 在校訂檢視器左側的工具列中，按一下&#x200B;**[!UICONTROL 校訂詳細資訊]**&#x200B;按鈕。
 

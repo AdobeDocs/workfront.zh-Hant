@@ -7,9 +7,9 @@ description: 您也可以變更您收到的 [!DNL Workfront Proof] 電子郵件�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ac24a339-6f9f-4452-a37b-023752447700
-source-git-commit: c989687e9adaf12a31a920921bf8fb69425ca1c5
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## 變更校訂上檢閱者的電子郵件警示
 
-1. 從任何清單檢視中，按一下校樣右側的&#x200B;**[!UICONTROL 更多]**&#x200B;功能表。![](assets/more-button-small.png)
+1. 從任何清單檢視中，按一下校樣右側的&#x200B;**[!UICONTROL 更多]**&#x200B;功能表。 ![更多功能表](assets/more-button-small.png)
 
 1. 按一下&#x200B;**[!UICONTROL 檢視校訂詳細資料]**。
 1. 在&#x200B;**[!UICONTROL 校訂詳細資料]**&#x200B;頁面上，開啟檢閱者的[!UICONTROL 電子郵件警示]下拉式功能表，然後選取新設定。

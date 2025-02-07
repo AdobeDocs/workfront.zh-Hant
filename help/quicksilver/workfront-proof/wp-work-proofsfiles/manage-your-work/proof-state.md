@@ -7,9 +7,9 @@ description: 在 [!DNL Workfront Proof]中，校樣以不同的狀態存在。 �
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cd120e53-d6c2-4929-904f-a9f72903f074
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
@@ -26,12 +26,12 @@ ht-degree: 0%
 
 四種狀態如下：
 
-* [啟用中](#active)
+* [作用中](#active)
 * [已鎖定](#locked)
 * [草稿（僅限下拉區域）](#draft-dropzone-only)
 * [已提交（僅限Dropzone）](#submitted-dropzone-only)
 
-### 啟用中 {#active}
+### 作用中 {#active}
 
 透過新校訂頁面或拖放區域上傳至[!DNL Workfront Proof]的校訂在處理後會顯示為作用中。 當校訂為作用中時，使用者可以對校訂進行檢閱、評論和決策。
 
@@ -71,14 +71,14 @@ ht-degree: 0%
 
 1. 在&#x200B;**[!UICONTROL 儀表板]**&#x200B;上，按一下您要檢視或變更其狀態的校訂旁的&#x200B;**[!UICONTROL 展開]**&#x200B;箭頭。
 
-   ![](assets/screen-shot-2018-05-02-at-11.31.29-am-350x85.png)
+   ![展開](assets/screen-shot-2018-05-02-at-11.31.29-am-350x85.png)
 
    **[!UICONTROL 工作流程處理序]**&#x200B;區段隨即顯示。
 
-   ![](assets/screen-shot-2018-05-02-at-11.33.20-am-350x226.png)
+   ![工作流程處理序](assets/screen-shot-2018-05-02-at-11.33.20-am-350x226.png)
 
 1. 檢視&#x200B;**[!UICONTROL 工作流程處理序]**&#x200B;中的&#x200B;**[!UICONTROL 狀態]**。
 
 1. （選擇性）若要變更狀態，請將滑鼠移至目前的&#x200B;**[!UICONTROL 狀態]**&#x200B;上，然後按一下下拉式功能表，然後選取新的狀態。
 
-   ![](assets/screen-shot-2018-05-02-at-11.35.30-am.png)
+   ![新狀態](assets/screen-shot-2018-05-02-at-11.35.30-am.png)

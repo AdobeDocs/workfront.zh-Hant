@@ -8,9 +8,9 @@ description: 身為Workfront管理員或Workfront Proof管理員，您可以將�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 249aa332-c051-49ac-be85-264d8babfcad
-source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '1764'
+source-wordcount: '1924'
 ht-degree: 0%
 
 ---
@@ -36,12 +36,12 @@ ht-degree: 0%
 | **擁有的專案** |  |  |  |  | **其他使用者的專案** |  |  | **管理員** | **帳單** |
 |---|---|---|---|---|---|---|---|---|---|
 |   | **新增** | **檢視** | **編輯** | **刪除** | **檢視** | **編輯** | **刪除** | **編輯和刪除** | **編輯** |
-| 帳單管理員 | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) |
-| 管理員 | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) |   |
-| 主管 | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) |   |   |
-| 經理 | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) |   |   |   |   |   |
-| 觀察者 |   | ![](assets/cleaner2.png) |   |   |   |   |   |   |   |
-| 訪客 |   | ![](assets/cleaner2.png) |   |   |   |   |   |   |   |
+| 帳單管理員 | ![核取記號](assets/cleaner2.png) | ![核取記號](assets/cleaner2.png) | ![核取記號](assets/cleaner2.png) | ![核取記號](assets/cleaner2.png) | ![核取記號](assets/cleaner2.png) | ![核取記號](assets/cleaner2.png) | ![核取記號](assets/cleaner2.png) | ![核取記號](assets/cleaner2.png) | ![核取記號](assets/cleaner2.png) |
+| 管理員 | ![核取記號](assets/cleaner2.png) | ![核取記號](assets/cleaner2.png) | ![核取記號](assets/cleaner2.png) | ![核取記號](assets/cleaner2.png) | ![核取記號](assets/cleaner2.png) | ![核取記號](assets/cleaner2.png) | ![核取記號](assets/cleaner2.png) | ![核取記號](assets/cleaner2.png) |   |
+| 主管 | ![核取記號](assets/cleaner2.png) | ![核取記號](assets/cleaner2.png) | ![核取記號](assets/cleaner2.png) | ![核取記號](assets/cleaner2.png) | ![核取記號](assets/cleaner2.png) | ![核取記號](assets/cleaner2.png) | ![核取記號](assets/cleaner2.png) |   |   |
+| 經理 | ![核取記號](assets/cleaner2.png) | ![核取記號](assets/cleaner2.png) | ![核取記號](assets/cleaner2.png) | ![核取記號](assets/cleaner2.png) |   |   |   |   |   |
+| 觀察者 |   | ![核取記號](assets/cleaner2.png) |   |   |   |   |   |   |   |
+| 訪客 |   | ![核取記號](assets/cleaner2.png) |   |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
@@ -66,35 +66,35 @@ ht-degree: 0%
 
 帳單管理員可以存取 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md) and [The [!DNL Workfront Proof] 帳單頁面](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)中的[帳戶設定，並具有下列許可權：
 
-![](assets/cleaner2.png)可以產生校樣、上傳檔案和建立資料夾。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)中產生校樣、[將檔案和網頁內容上傳到 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md)以及[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md)中建立資料夾。
+![核取記號](assets/cleaner2.png)可以產生校樣、上傳檔案和建立資料夾。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)中產生校樣、[將檔案和網頁內容上傳到 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md)以及[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md)中建立資料夾。
 
-![](assets/cleaner2.png)可以檢視、編輯和刪除自己建立的校樣和檔案。
+![核取記號](assets/cleaner2.png)可以檢視、編輯和刪除自己建立的校樣和檔案。
 
-![](assets/cleaner2.png)可以檢視、編輯和刪除組織中的所有使用者建立的校訂和檔案。
+![核取記號](assets/cleaner2.png)可以檢視、編輯和刪除組織中的所有使用者建立的校訂和檔案。
 
-![](assets/cleaner2.png)可以刪除其他使用者的公用資料夾。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md)中管理資料夾。
+![核取記號](assets/cleaner2.png)可以刪除其他使用者的公用資料夾。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md)中管理資料夾。
 
-![](assets/cleaner2.png)擁有對帳號中建立的所有校訂的編輯許可權。
+![核取記號](assets/cleaner2.png)擁有對帳號中建立的所有校訂的編輯許可權。
 
-![](assets/cleaner2.png)可以設定為拖放區域擁有者。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md)中設定dropzone。
+![核取記號](assets/cleaner2.png)可以設定為拖放區域擁有者。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md)中設定dropzone。
 
-![](assets/cleaner2.png)可以存取帳單頁面並編輯帳單詳細資料。 如需詳細資訊，請參閱[帳單頁面 [!DNL Workfront Proof] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)。
+![核取記號](assets/cleaner2.png)可以存取帳單頁面並編輯帳單詳細資料。 如需詳細資訊，請參閱[帳單頁面 [!DNL Workfront Proof] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)。
 
-![](assets/cleaner2.png)可以存取[帳戶設定]頁面並編輯帳戶詳細資料。 如需詳細資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)中的[帳戶設定。
+![核取記號](assets/cleaner2.png)可以存取[帳戶設定]頁面並編輯帳戶詳細資料。 如需詳細資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)中的[帳戶設定。
 
-![](assets/cleaner2.png)可以清空垃圾桶。 如需詳細資訊，請參閱[還原並清空垃圾桶 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)。
+![核取記號](assets/cleaner2.png)可以清空垃圾桶。 如需詳細資訊，請參閱[還原並清空垃圾桶 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)。
 
-![](assets/cleaner2.png)可以新增、編輯和刪除使用者。
+![核取記號](assets/cleaner2.png)可以新增、編輯和刪除使用者。
 
-![](assets/cleaner2.png)可以建立群組並新增連絡人。
+![核取記號](assets/cleaner2.png)可以建立群組並新增連絡人。
 
-![](assets/cleaner2.png)可以刪除連絡人。
+![核取記號](assets/cleaner2.png)可以刪除連絡人。
 
-![](assets/cleaner2.png)如果沒有回覆，可以編輯校樣。
+![核取記號](assets/cleaner2.png)如果校樣上沒有回覆，可以編輯校樣。
 
-![](assets/no2.png)無法編輯校訂回覆。
+![紅色X](assets/no2.png)無法編輯校訂回覆。
 
-![](assets/no2.png)無法刪除其他使用者的私人資料夾。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md)中管理資料夾。
+![紅色X](assets/no2.png)無法刪除其他使用者的私人資料夾。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md)中管理資料夾。
 
 如需帳戶設定的詳細資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)中的[帳戶設定。
 
@@ -104,127 +104,127 @@ ht-degree: 0%
 
 系統管理員可以存取[帳戶設定](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)並擁有下列許可權：
 
-![](assets/cleaner2.png)可以建立校樣、上傳檔案和建立資料夾。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)中產生校樣、[將檔案和網頁內容上傳到 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md)以及[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md)中建立資料夾。
+![核取記號](assets/cleaner2.png)可以建立校樣、上傳檔案和建立資料夾。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)中產生校樣、[將檔案和網頁內容上傳到 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md)以及[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md)中建立資料夾。
 
-![](assets/cleaner2.png)可以檢視、編輯和刪除校訂和他們建立的檔案。
+![核取記號](assets/cleaner2.png)可以檢視、編輯和刪除校樣及他們建立的檔案。
 
-![](assets/cleaner2.png)可以檢視、編輯和刪除組織中的所有使用者建立的校訂和檔案。
+![核取記號](assets/cleaner2.png)可以檢視、編輯和刪除組織中的所有使用者建立的校訂和檔案。
 
-![](assets/cleaner2.png)可以刪除其他使用者的公用資料夾。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md)中管理資料夾。
+![核取記號](assets/cleaner2.png)可以刪除其他使用者的公用資料夾。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md)中管理資料夾。
 
-![](assets/cleaner2.png)擁有對帳號中建立的所有校訂的編輯許可權。
+![核取記號](assets/cleaner2.png)擁有對帳號中建立的所有校訂的編輯許可權。
 
-![](assets/cleaner2.png)可以設定為拖放區域擁有者。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md)中設定dropzone。
+![核取記號](assets/cleaner2.png)可以設定為拖放區域擁有者。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md)中設定dropzone。
 
-![](assets/cleaner2.png)可以存取[帳戶設定]頁面並編輯帳戶詳細資料。 如需詳細資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)中的[帳戶設定。
+![核取記號](assets/cleaner2.png)可以存取[帳戶設定]頁面並編輯帳戶詳細資料。 如需詳細資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)中的[帳戶設定。
 
-![](assets/cleaner2.png)可以清空垃圾桶。 如需詳細資訊，請參閱[還原並清空垃圾桶 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)。
+![核取記號](assets/cleaner2.png)可以清空垃圾桶。 如需詳細資訊，請參閱[還原並清空垃圾桶 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)。
 
-![](assets/cleaner2.png)可以新增、編輯和刪除使用者。
+![核取記號](assets/cleaner2.png)可以新增、編輯和刪除使用者。
 
-![](assets/cleaner2.png)可以建立群組並新增連絡人。
+![核取記號](assets/cleaner2.png)可以建立群組並新增連絡人。
 
-![](assets/cleaner2.png)可以刪除連絡人。
+![核取記號](assets/cleaner2.png)可以刪除連絡人。
 
-![](assets/cleaner2.png)如果沒有回覆，可以編輯校樣。
+![核取記號](assets/cleaner2.png)如果校樣上沒有回覆，可以編輯校樣。
 
-![](assets/no2.png)無法編輯校訂回覆。
+![紅色X](assets/no2.png)無法編輯校訂回覆。
 
-![](assets/no2.png)無法刪除其他使用者的私人資料夾。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md)中管理資料夾。
+![紅色X](assets/no2.png)無法刪除其他使用者的私人資料夾。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md)中管理資料夾。
 
-![](assets/no2.png)無法存取帳單頁面或編輯帳單詳細資料。 如需詳細資訊，請參閱[帳單頁面 [!DNL Workfront Proof] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)。
+![紅色X](assets/no2.png)無法存取帳單頁面或編輯帳單詳細資料。 如需詳細資訊，請參閱[帳單頁面 [!DNL Workfront Proof] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)。
 
 ### 主管 {#supervisor}
 
 主管擁有下列許可權：
 
-![](assets/cleaner2.png)可以建立校樣、上傳檔案和建立資料夾。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)中產生校樣、[將檔案和網頁內容上傳到 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md)以及[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md)中建立資料夾。
+![核取記號](assets/cleaner2.png)可以建立校樣、上傳檔案和建立資料夾。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)中產生校樣、[將檔案和網頁內容上傳到 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md)以及[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md)中建立資料夾。
 
-![](assets/cleaner2.png)可以檢視、編輯和刪除自己建立的校樣和檔案。
+![核取記號](assets/cleaner2.png)可以檢視、編輯和刪除他們建立的校樣和檔案。
 
-![](assets/cleaner2.png)可以檢視、編輯和刪除組織中的所有使用者建立的校訂和檔案。
+![核取記號](assets/cleaner2.png)可以檢視、編輯和刪除組織中的所有使用者建立的校訂和檔案。
 
-![](assets/cleaner2.png)可以刪除其他使用者的公用資料夾。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md)中管理資料夾。
+![核取記號](assets/cleaner2.png)可以刪除其他使用者的公用資料夾。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md)中管理資料夾。
 
-![](assets/cleaner2.png)擁有對帳號中建立的所有校訂的編輯許可權。
+![核取記號](assets/cleaner2.png)擁有對帳號中建立的所有校訂的編輯許可權。
 
-![](assets/cleaner2.png)可以設定為拖放區域擁有者。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md)中設定dropzone。
+![核取記號](assets/cleaner2.png)可以設定為拖放區域擁有者。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md)中設定dropzone。
 
-![](assets/cleaner2.png)可以建立群組並新增連絡人。
+![核取記號](assets/cleaner2.png)可以建立群組並新增連絡人。
 
-![](assets/cleaner2.png)可以刪除連絡人。
+![核取記號](assets/cleaner2.png)可以刪除連絡人。
 
-![](assets/cleaner2.png)如果沒有回覆，可以編輯校樣。
+![核取記號](assets/cleaner2.png)如果校樣上沒有回覆，可以編輯校樣。
 
-![](assets/no2.png)無法編輯校訂回覆。
+![紅色X](assets/no2.png)無法編輯校訂回覆。
 
-![](assets/no2.png)無法刪除其他使用者的私人資料夾。 如需詳細資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md)中的[資料夾。
+![紅色X](assets/no2.png)無法刪除其他使用者的私人資料夾。 如需詳細資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md)中的[資料夾。
 
-![](assets/no2.png)無法存取帳單頁面或帳戶設定。 如需詳細資訊，請參閱[帳單頁面](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)和 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)中的[帳戶設定。 [!DNL Workfront Proof] 
+![紅色X](assets/no2.png)無法存取帳單頁面或帳戶設定。 如需詳細資訊，請參閱[帳單頁面](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)和 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)中的[帳戶設定。 [!DNL Workfront Proof] 
 
-![](assets/no2.png)無法新增、編輯或刪除使用者。
+![紅色X](assets/no2.png)無法新增、編輯或刪除使用者。
 
-![](assets/no2.png)無法清空垃圾桶。 如需詳細資訊，請參閱[還原並清空垃圾桶 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)。
+![紅色X](assets/no2.png)無法清空垃圾桶。 如需詳細資訊，請參閱[還原並清空垃圾桶 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)。
 
 ### 經理 {#manager}
 
 管理員擁有下列許可權：
 
-![](assets/cleaner2.png)可以建立校樣、上傳檔案和建立資料夾。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)中產生校樣、[將檔案和網頁內容上傳到 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md)以及[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md)中建立資料夾。
+![核取記號](assets/cleaner2.png)可以建立校樣、上傳檔案和建立資料夾。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)中產生校樣、[將檔案和網頁內容上傳到 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md)以及[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md)中建立資料夾。
 
-![](assets/cleaner2.png)可以檢視、編輯和刪除他們建立或擁有的校樣和檔案。
+![核取記號](assets/cleaner2.png)可以檢視、編輯和刪除自己建立或擁有的校樣和檔案。
 
-![](assets/cleaner2.png)可以檢視、檢閱及核准其他使用者的校樣，這些校樣是明確與他們共用（共用資料夾中所有內容的唯讀許可權）。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中管理校訂角色。
+![核取記號](assets/cleaner2.png)可以檢視、檢閱及核准其他使用者的校樣，這些校樣是明確與他們共用（共用資料夾中所有專案的唯讀許可權）。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中管理校訂角色。
 
-![](assets/cleaner2.png)可以建立群組並新增連絡人。
+![核取記號](assets/cleaner2.png)可以建立群組並新增連絡人。
 
-![](assets/no2.png)無法檢視、編輯或刪除組織內其他使用者建立的校訂和檔案。
+![紅色X](assets/no2.png)無法檢視、編輯或刪除組織中其他使用者建立的校訂和檔案。
 
-![](assets/no2.png)無法編輯校樣或回覆。
+![紅色X](assets/no2.png)無法編輯校樣或回覆。
 
-![](assets/no2.png)無法刪除其他使用者的私人資料夾。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md)中管理資料夾。
+![紅色X](assets/no2.png)無法刪除其他使用者的私人資料夾。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md)中管理資料夾。
 
-![](assets/no2.png)無法刪除其他使用者的公用資料夾。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md)中管理資料夾。
+![紅色X](assets/no2.png)無法刪除其他使用者的公用資料夾。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md)中管理資料夾。
 
-![](assets/no2.png)無法存取帳單頁面或帳戶設定。 如需詳細資訊，請參閱[帳單頁面](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)和 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)中的[帳戶設定。 [!DNL Workfront Proof] 
+![紅色X](assets/no2.png)無法存取帳單頁面或帳戶設定。 如需詳細資訊，請參閱[帳單頁面](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)和 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)中的[帳戶設定。 [!DNL Workfront Proof] 
 
-![](assets/no2.png)無法設定為拖放區域擁有者。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md)中設定dropzone。
+![紅色X](assets/no2.png)無法設定為拖放區域擁有者。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md)中設定dropzone。
 
-![](assets/no2.png)無法清空垃圾桶。 如需詳細資訊，請參閱[還原並清空垃圾桶 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)。
+![紅色X](assets/no2.png)無法清空垃圾桶。 如需詳細資訊，請參閱[還原並清空垃圾桶 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)。
 
-![](assets/no2.png)無法新增、編輯或刪除使用者。
+![紅色X](assets/no2.png)無法新增、編輯或刪除使用者。
 
-![](assets/no2.png)無法刪除連絡人。
+![紅色X](assets/no2.png)無法刪除連絡人。
 
 ### 觀察者 {#observer}
 
 觀察者具有下列許可權：
 
-![](assets/cleaner2.png)可以檢視、檢閱及核准其他使用者的校訂，這些校訂是明確與他們共用（共用資料夾中所有內容的唯讀許可權）。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中管理校訂角色。
+![核取記號](assets/cleaner2.png)可以檢視、檢閱及核准其他使用者的校樣，這些校樣是明確與他們共用（共用資料夾中所有內容的唯讀許可權）。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中管理校訂角色。
 
-![](assets/cleaner2.png)可以檢視明確與其共用的檔案。
+![核取記號](assets/cleaner2.png)可以檢視明確與其共用的檔案。
 
-![](assets/cleaner2.png)可以檢視連絡人和群組
+![核取記號](assets/cleaner2.png)可以檢視連絡人和群組
 
-![](assets/no2.png)無法建立校樣、上傳檔案和建立資料夾。 如需詳細資訊，請參閱[將檔案與網頁內容上傳至 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md)。
+![紅色X](assets/no2.png)無法建立校樣、上傳檔案和建立資料夾。 如需詳細資訊，請參閱[將檔案與網頁內容上傳至 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md)。
 
-![](assets/no2.png)無法檢視、編輯或刪除組織內其他使用者建立的校訂和檔案。
+![紅色X](assets/no2.png)無法檢視、編輯或刪除組織中其他使用者建立的校訂和檔案。
 
-![](assets/no2.png)無法編輯校樣或回覆。
+![紅色X](assets/no2.png)無法編輯校樣或回覆。
 
-![](assets/no2.png)無法刪除組織中建立的任何專案。
+![紅色X](assets/no2.png)無法刪除組織中建立的任何專案。
 
-![](assets/no2.png)無法存取帳單頁面或帳戶設定。 如需詳細資訊，請參閱[帳單頁面](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)和 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)中的[帳戶設定。 [!DNL Workfront Proof] 
+![紅色X](assets/no2.png)無法存取帳單頁面或帳戶設定。 如需詳細資訊，請參閱[帳單頁面](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)和 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)中的[帳戶設定。 [!DNL Workfront Proof] 
 
-![](assets/no2.png)無法設定為拖放區域擁有者。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md)中設定dropzone。
+![紅色X](assets/no2.png)無法設定為拖放區域擁有者。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md)中設定dropzone。
 
-![](assets/no2.png)無法清空垃圾桶。 如需詳細資訊，請參閱[還原並清空垃圾桶 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)。
+![紅色X](assets/no2.png)無法清空垃圾桶。 如需詳細資訊，請參閱[還原並清空垃圾桶 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)。
 
-![](assets/no2.png)無法新增、編輯或刪除使用者。
+![紅色X](assets/no2.png)無法新增、編輯或刪除使用者。
 
-![](assets/no2.png)無法建立群組或新增連絡人。
+![紅色X](assets/no2.png)無法建立群組或新增連絡人。
 
-![](assets/no2.png)無法刪除連絡人。
+![紅色X](assets/no2.png)無法刪除連絡人。
 
 >[!NOTE]
 >
@@ -238,31 +238,31 @@ ht-degree: 0%
 
 訪客擁有下列許可權：
 
-![](assets/cleaner2.png)可以檢視、檢閱及核准其他使用者的校樣，這些校樣是明確與他們共用（共用資料夾中所有內容的唯讀許可權）。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中管理校訂角色。
+![核取記號](assets/cleaner2.png)可以檢視、檢閱及核准其他使用者的校樣，這些校樣是明確與他們共用（共用資料夾中所有專案的唯讀許可權）。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中管理校訂角色。
 
-![](assets/cleaner2.png)可以檢視明確與其共用的檔案。
+![核取記號](assets/cleaner2.png)可以檢視明確與其共用的檔案。
 
-![](assets/no2.png)無法檢視連絡人和群組
+![紅色X](assets/no2.png)無法檢視連絡人和群組
 
-![](assets/no2.png)無法建立校樣、上傳檔案和建立資料夾。 如需詳細資訊，請參閱[將檔案與網頁內容上傳至 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md)。
+![紅色X](assets/no2.png)無法建立校樣、上傳檔案和建立資料夾。 如需詳細資訊，請參閱[將檔案與網頁內容上傳至 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md)。
 
-![](assets/no2.png)無法檢視、編輯或刪除組織內其他使用者建立的校訂和檔案。
+![紅色X](assets/no2.png)無法檢視、編輯或刪除組織中其他使用者建立的校訂和檔案。
 
-![](assets/no2.png)無法編輯校樣或回覆。
+![紅色X](assets/no2.png)無法編輯校樣或回覆。
 
-![](assets/no2.png)無法刪除組織中建立的任何專案。
+![紅色X](assets/no2.png)無法刪除組織中建立的任何專案。
 
-![](assets/no2.png)無法存取帳單頁面或帳戶設定。 如需詳細資訊，請參閱[帳單頁面](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)和 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)中的[帳戶設定。 [!DNL Workfront Proof] 
+![紅色X](assets/no2.png)無法存取帳單頁面或帳戶設定。 如需詳細資訊，請參閱[帳單頁面](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)和 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)中的[帳戶設定。 [!DNL Workfront Proof] 
 
-![](assets/no2.png)無法設定為拖放區域擁有者。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md)中設定dropzone。
+![紅色X](assets/no2.png)無法設定為拖放區域擁有者。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md)中設定dropzone。
 
-![](assets/no2.png)無法清空垃圾桶。 如需詳細資訊，請參閱[還原並清空垃圾桶 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)。
+![紅色X](assets/no2.png)無法清空垃圾桶。 如需詳細資訊，請參閱[還原並清空垃圾桶 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)。
 
-![](assets/no2.png)無法新增、編輯或刪除使用者。
+![紅色X](assets/no2.png)無法新增、編輯或刪除使用者。
 
-![](assets/no2.png)無法建立群組或新增連絡人。
+![紅色X](assets/no2.png)無法建立群組或新增連絡人。
 
-![](assets/no2.png)無法刪除連絡人。
+![紅色X](assets/no2.png)無法刪除連絡人。
 
 >[!NOTE]
 >
@@ -276,15 +276,15 @@ ht-degree: 0%
 
 訪客設定檔可讓沒有自己Workfront Proof帳戶的檢閱者存取校樣。 訪客可透過其個人電子郵件通知直接存取與其共用的校樣。
 
-![](assets/cleaner2.png)可以檢視、檢閱及核准明確與其共用的校訂。
+![核取記號](assets/cleaner2.png)可以檢視、檢閱及核准明確與其共用的校訂。
 
-![](assets/cleaner2.png)可以檢視明確與其共用的檔案。
+![核取記號](assets/cleaner2.png)可以檢視明確與其共用的檔案。
 
-![](assets/no2.png)無法存取儀表板。
+![紅色X](assets/no2.png)無法存取儀表板。
 
-![](assets/no2.png)無法共用資料夾。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md)中管理資料夾。
+![紅色X](assets/no2.png)無法共用資料夾。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md)中管理資料夾。
 
-![](assets/no2.png)無法新增為校訂的作者或版主。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中管理校訂角色。
+![紅色X](assets/no2.png)無法新增為校訂的作者或版主。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中管理校訂角色。
 
 >[!NOTE]
 >
@@ -300,11 +300,11 @@ ht-degree: 0%
 
    * 移至&#x200B;**[!UICONTROL 連絡人]**&#x200B;頁面。
 
-1. 按一下您要編輯其許可權的使用者名稱。![](assets/screenshot-2018-03-30-14-16-05a-350x69.png)
+1. 按一下您要編輯其許可權的使用者名稱。 ![選取使用者](assets/screenshot-2018-03-30-14-16-05a-350x69.png)
 
 1. 按一下&#x200B;**[!UICONTROL 許可權設定檔]**&#x200B;下拉式功能表，然後選取新的許可權設定檔。：
 
-   ![熒幕擷圖_2018-03-30_14-18-03.png](assets/screenshot-2018-03-30-14-18-03a.png)
+   ![許可權設定檔](assets/screenshot-2018-03-30-14-18-03a.png)
 
    許可權設定檔包括「管理員」、「監督員」、「管理員」和「觀察者」。
 

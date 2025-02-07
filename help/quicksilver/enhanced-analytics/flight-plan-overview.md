@@ -7,9 +7,9 @@ description: 「外部測試計畫」視覺效果會顯示外部測試中的專�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c64ed752-151a-40f7-ab18-684e2cd032bc
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '885'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 「外部測試計畫」視覺效果會顯示外部測試中的專案數目（在套用的篩選條件範圍內）、這些專案在整個生命週期中發生了哪些狀況變更，以及這些專案與其計畫的完成截止日期之間的粘附度。
 
-![](assets/flight-plan-350x132.png)
+![小眾測試版計畫](assets/flight-plan-350x132.png)
 
 ## 存取需求
 
@@ -67,11 +67,11 @@ ht-degree: 4%
 
 * **規劃期間**：水準藍線代表專案的規劃長度，其兩端的三角形代表開始日期和結束日期。
 
-  ![](assets/planned-duration-line-350x37.png)
+  ![計畫持續時間](assets/planned-duration-line-350x37.png)
 
 * **實際工期**：計畫工期下方的彩色粗線代表專案的實際長度。 線條的顏色會隨著專案在專案生命週期中特定時間的狀況而改變。
 
-  ![](assets/actual-duration-line.png)
+  ![實際持續時間](assets/actual-duration-line.png)
 
 * **實際狀況**：粗的彩色線條也會在不同時間顯示專案狀況。 線條的顏色會隨著專案狀況而改變：
 
@@ -79,7 +79,7 @@ ht-degree: 4%
    * **橙色**：有風險
    * **紅色**：發生問題
 
-  ![](assets/actual-condition-color.png)
+  ![實際狀況](assets/actual-condition-color.png)
 
 在「小眾測試版計畫」視覺效果中，將滑鼠游標停留在專案列上，即可檢視有關專案計畫時間範圍、目前專案狀態以及（如果適用）自訂狀態的資訊。 若要更深入地瞭解影響持續時間或條件的因素，您可以檢視「增強分析」區域中的其他視覺效果。
 
@@ -95,10 +95,10 @@ ht-degree: 4%
 
 ## 檢視小眾測試版計畫視覺效果
 
-1. 按一下&#x200B;**主功能表**&#x200B;圖示![](assets/main-menu-icon-16x12.png)，然後選取&#x200B;**Analytics**。
+1. 按一下&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon-16x12.png)，然後選取&#x200B;**Analytics**。
 1. （可選）若要使用不同的日期範圍，請從日期範圍篩選器中選取新的開始和結束日期。
 
-   ![](assets/filters-select-date-range-350x344.png)
+   ![選取日期範圍](assets/filters-select-date-range-350x344.png)
 
    如需有關使用日期範圍篩選的資訊，請參閱[在增強型分析中套用篩選](../enhanced-analytics/use-enhanced-analytics-filters.md)。
 
@@ -112,7 +112,7 @@ ht-degree: 4%
 
    所有其他視覺效果會更新至相同的日期範圍，並建立時間範圍篩選器。
 
-   ![](assets/timeframe-filter-350x220.png)
+   ![時間範圍篩選器](assets/timeframe-filter-350x220.png)
 
 1. （可選）若要變更專案的排序方式，請按一下小眾測試版計畫視覺效果右上角的&#x200B;**排序依據**&#x200B;功能表，然後選取新的排序選項：
 
@@ -127,7 +127,7 @@ ht-degree: 4%
 
    頁面上的所有其他視覺效果都會更新以符合您的頁面選擇。
 
-   ![](assets/pagination-350x118.png)
+   ![分頁](assets/pagination-350x118.png)
 
 1. 將滑鼠停留在專案橫條圖上可檢視藍色日期線以及下列詳細資訊：
 
@@ -135,9 +135,9 @@ ht-degree: 4%
    * 目前狀況
    * 自訂條件（如果適用）
 
-   ![](assets/project-bar-graph-350x143.png)
+   ![專案橫條圖](assets/project-bar-graph-350x143.png)
 
-1. （選擇性）若要匯出視覺效果資料，請按一下視覺效果右上角的&#x200B;**匯出**&#x200B;圖示![](assets/export.png)，然後選取匯出格式：
+1. （選擇性）若要匯出視覺效果資料，請按一下視覺效果右上角的&#x200B;**匯出**&#x200B;圖示![匯出圖示](assets/export.png)，然後選取匯出格式：
 
    * **圖表(PNG)**
    * **資料表(XSLX)**

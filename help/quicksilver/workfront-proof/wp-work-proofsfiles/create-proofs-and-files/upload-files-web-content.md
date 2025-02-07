@@ -7,9 +7,9 @@ description: 您可以上傳檔案至 [!DNL Workfront Proof] 而不建立校訂�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 88693211-b5f5-4f99-97a9-5c29039f4f01
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '538'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
 若要上傳檔案至[!DNL Workfront Proof]：
 
 1. 在[!DNL Workfront Proof]的左上角，按一下&#x200B;**[!UICONTROL 新增校訂]**&#x200B;按鈕上的向下箭頭，然後在出現的功能表中按一下&#x200B;**[!UICONTROL 上傳檔案]**。\
-   ![](assets/new-proof-button-menu.png)
+   ![新校訂按鈕](assets/new-proof-button-menu.png)
 
 1. **[!DNL New File]**&#x200B;頁面隨即顯示。
 1. 執行下列任一項作業，上傳或新增您需要校訂的內容：

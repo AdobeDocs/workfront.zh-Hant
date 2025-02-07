@@ -7,9 +7,9 @@ description: 擁有校樣編輯許可權的檢閱者可以建立校樣副本，�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 7d2db918-ebf0-4c52-9039-54c3eb5515f0
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 1. 移至任何&#x200B;**[!UICONTROL 檢視]**&#x200B;頁面，如 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中「檢視」頁面上的[管理專案。
 
 1. 開啟校訂的&#x200B;**[!UICONTROL 更多]**&#x200B;功能表。\
-   ![](assets/more-button-small.png)
+   ![更多功能表](assets/more-button-small.png)
 
 1. 從下拉式功能表中選擇&#x200B;**[!UICONTROL 複製]**。
 1. 在出現的&#x200B;**[!UICONTROL 複製校訂]**&#x200B;頁面中，指定您要將副本建立為現有校訂的新版本還是新校訂。\
@@ -77,7 +77,7 @@ ht-degree: 0%
 1. 移至任何&#x200B;**[!UICONTROL 檢視]**&#x200B;頁面，如 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中「檢視」頁面上的[管理專案。
 
 1. 開啟校訂的&#x200B;**[!UICONTROL 更多]**&#x200B;功能表。\
-   ![](assets/more-button-small.png)
+   ![更多功能表](assets/more-button-small.png)
 
 1. 從下拉式選單中選擇&#x200B;**[!UICONTROL 檢視校訂詳細資料]**。
 1. 按一下&#x200B;**[!UICONTROL 更多]**。\

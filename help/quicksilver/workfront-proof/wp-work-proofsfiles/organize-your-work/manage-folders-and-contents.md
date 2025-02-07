@@ -7,9 +7,9 @@ description: 將專案和校訂組織到資料夾的好處之一，是能夠在[
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cec385de-f1b9-4e28-8493-987536c04905
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '1232'
+source-wordcount: '1237'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 0%
    * 檢視資料夾的&#x200B;**建立者**&#x200B;的名稱。
 
 1. （選擇性）若要變更與資料夾中專案相關的資訊，請按一下專案右側的&#x200B;**[!UICONTROL 更多]**&#x200B;圖示，然後使用任何顯示的選項。\
-   ![](assets/more-button-small.png)\
+   ![更多功能表](assets/more-button-small.png)\
    顯示的選項取決於專案是校樣還是檔案。
 
    * **[!UICONTROL 檢視校訂詳細資料]**&#x200B;或&#x200B;**[!UICONTROL 檢視檔案詳細資料]**：開啟[校訂詳細資料]或[檔案詳細資料]頁面。 如需詳細資訊，請參閱[管理 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md)中的檔案或[管理 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)中的校訂詳細資訊。
@@ -111,9 +111,9 @@ ht-degree: 0%
 1. （選擇性）按一下「**[!UICONTROL 活動]**」，以時間順序檢視資料夾中執行的所有動作。
 1. （選擇性）按一下&#x200B;**[!UICONTROL 訊息]**&#x200B;區段以檢視已傳送給資料夾上使用者的訊息。\
    當您將滑鼠停留在訊息上時，可以按一下右側的&#x200B;**i**&#x200B;圖示來檢視完整訊息。\
-   ![](assets/messages-1-350x74.png)\
+   ![封郵件](assets/messages-1-350x74.png)\
    顯示完整電子郵件的快顯視窗：\
-   ![](assets/messages-2-350x252.png)
+   ![訊息快顯視窗](assets/messages-2-350x252.png)
 
 ## 管理子資料夾
 

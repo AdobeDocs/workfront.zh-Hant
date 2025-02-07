@@ -7,9 +7,9 @@ description: 從Workfront Proof產生的電子郵件通知會通知共同作業�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
-source-git-commit: 12f1443d69bb9306af29e4ab295f701089cdfb88
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '2063'
+source-wordcount: '2065'
 ht-degree: 0%
 
 ---
@@ -151,7 +151,7 @@ ht-degree: 0%
 您可以在批次動作中變更特定收件者的電子郵件警示。
 
 1. 按一下左側導覽面板中的&#x200B;**[!UICONTROL 連絡人]**。
-1. 按一下收件者的&#x200B;**[!UICONTROL 更多]**&#x200B;功能表![](assets/more-button-small.png)，然後在下拉式功能表中按一下&#x200B;**[!UICONTROL 檢視成員詳細資料]**。
+1. 按一下收件者的&#x200B;**[!UICONTROL 更多]**&#x200B;功能表![更多功能表](assets/more-button-small.png)，然後在下拉式功能表中按一下&#x200B;**[!UICONTROL 檢視成員詳細資料]**。
 
 1. 開啟&#x200B;**[!UICONTROL 共用專案]**&#x200B;區段。
 1. 選取您要變更電子郵件警示之每個專案左側的核取方塊。

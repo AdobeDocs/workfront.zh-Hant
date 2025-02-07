@@ -7,9 +7,9 @@ description: 在熒幕頂端的增強型分析區域中，顯示4個關鍵績效
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 44e43618-9a0b-4585-8659-c1fe055516be
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '524'
 ht-degree: 1%
 
 ---
@@ -29,22 +29,22 @@ ht-degree: 1%
 
 「已完成專案KPI」會顯示篩選期間內已完成多少專案，以及百分比自上一個時段以來如何增加或減少。 在這些數字下方，您可以看到上一個時段完成的專案數目，以及上一個時段中的天數。
 
-![](assets/kpi-projects-completed-350x182.png)
+![個KPI專案已完成](assets/kpi-projects-completed-350x182.png)
 
 ## 已準時完成專案
 
 「準時完成專案」KPI會顯示篩選期間內準時完成專案的百分比，以及自上一個時段以來該百分比如何增加或減少。 在這些數字下方，您可以看到上一個時段準時完成的專案百分比，以及上一個時段中的天數。
 
-![](assets/kpi-projects-completed-on-time-350x180.png)
+![個KPI專案已於時間](assets/kpi-projects-completed-on-time-350x180.png)完成
 
 ## 平均 專案期間
 
 平均 專案期間KPI會顯示實際結束日期在篩選期間內之專案的平均完成時間量（以天、周或年為單位），以及百分比自上一個期間以來如何增加或減少。 在這些數字底下，您可以看到具有前一個時段中實際結束日期之專案的平均完成時間量，以及前一個時段中的天數。
 
-![](assets/kpi-avg.-project-duration-350x168.png)
+![KPI平均專案期間](assets/kpi-avg.-project-duration-350x168.png)
 
 ## 每專案平均任務數
 
 「每專案平均任務數」KPI會顯示篩選期間內指派給專案的平均任務數，以及自上一個時段以來百分比增加或減少的方式。 在這些數字下方，您可以看到在前一個時段內指派給專案的平均任務數，以及前一個時段內的天數。
 
-![](assets/kpi-average-tasks-per-project-350x179.png)
+每個專案的![KPI平均任務數](assets/kpi-average-tasks-per-project-350x179.png)

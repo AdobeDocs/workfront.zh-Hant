@@ -7,9 +7,9 @@ description: 作為 [!DNL Workfront Proof] 管理員，您可以在「群組」�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bb4cfe03-d2c8-47f5-8c5c-de5218935ab5
-source-git-commit: 1a85f2a214036b62d13cb01f0b7a77392648a5fd
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
@@ -41,10 +41,10 @@ ht-degree: 0%
       * 私人群組僅對其建立者可見。
       * 刪除選取的群組。
 
-        ![](assets/trash-button.png)
+        ![刪除圖示](assets/trash-button.png)
    * 您也可以在每個群組上，分別對其自己的&#x200B;**[!UICONTROL 更多]** （三點）功能表執行動作：
 
-     ![](assets/more-button-small.png)
+     ![更多功能表](assets/more-button-small.png)
 
       * 檢視群組詳細資料。
 
@@ -102,7 +102,7 @@ ht-degree: 0%
 
 1. 選取您要新增至群組的連絡人姓名旁邊的核取方塊。
 1. 按一下&#x200B;**[!UICONTROL 新增至群組]**按鈕。
-   ![](assets/screenshot-2018-04-06-15-27-17.png)
+   ![新增至群組](assets/screenshot-2018-04-06-15-27-17.png)
 **[!UICONTROL 新增至群組]**&#x200B;對話方塊就會顯示。
 
 1. 在&#x200B;**[!UICONTROL 人員]**&#x200B;區段中：

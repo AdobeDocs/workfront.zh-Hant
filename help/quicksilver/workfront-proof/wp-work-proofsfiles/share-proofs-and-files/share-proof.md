@@ -7,9 +7,9 @@ description: 如果您有校訂的編輯許可權，可以輕鬆與其他檢閱�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bc145c50-9ab5-4ee8-9ed7-d307da6b0e8f
-source-git-commit: 178fcf680fbf97e3fa634182f161ba3c73439fe5
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 0%
 ## 將檢閱者新增至現有校訂
 
 1. 在儀表板或任何清單檢視上，按一下校訂右側的&#x200B;**[!UICONTROL 更多]**&#x200B;按鈕下拉式清單。\
-   ![](assets/more-button-small.png)
+   ![更多功能表](assets/more-button-small.png)
 
 1. 在下拉式功能表中按一下&#x200B;**[!UICONTROL 共用]**。
 1. 在出現的&#x200B;**[!UICONTROL 共用此版本]**&#x200B;頁面中，新增檢閱者的電子郵件地址以新增檢閱者。\

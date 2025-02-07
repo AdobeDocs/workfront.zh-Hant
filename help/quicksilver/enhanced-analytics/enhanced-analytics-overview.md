@@ -7,9 +7,9 @@ description: 增強型分析是Adobe Workfront中的強大工具，具有預先�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a14ad57c-859b-43df-84c0-575ccda86e50
-source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1204'
 ht-degree: 3%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 3%
 * 使用者在專案期間完成特定動作的頻率
 * 專案的進度，以及專案中的個別任務
 
-![](assets/nwe-full-screen-analytics-350x222.png)
+![分析](assets/nwe-full-screen-analytics-350x222.png)
 
 若要檢視使用案例，或瞭解更多有關使用增強型分析管理目前工作和規劃未來工作的資訊，請參閱[增強型分析學習路徑](https://one.workfront.com/s/enhanced-analytics-program)。
 
@@ -142,7 +142,7 @@ ht-degree: 3%
  <thead> 
   <tr> 
    <th>文章</th> 
-   <th>說明</th> 
+   <th>解釋</th> 
   </tr> 
  </thead> 
  <tbody> 

@@ -7,9 +7,9 @@ description: 「專案樹狀圖」視覺效果是在特定時段內工作的小�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6216465e-c3bb-4f2f-b71c-766ad0c2ed40
-source-git-commit: 364b668f23f5437e5cca0c4cc4793b17d444fb56
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '854'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 「專案樹狀圖」視覺效果是在特定時段內工作的小時（或天數）檢視，並與其他工作量的大小進行比較。 這有助於您瞭解人們花多少時間投入專案。
 
-![](assets/project-treemap-350x126.png){width="700"}
+![專案樹狀圖](assets/project-treemap-350x126.png){width="700"}
 
 ## 存取需求
 
@@ -71,22 +71,22 @@ ht-degree: 2%
 
 * **較小的淺藍色方塊**：具有較少小時或天數的專案會顯示為較小的淺藍色方塊。
 
-  ![](assets/project-treemap-smaller-box.png)
+  ![較小的方塊](assets/project-treemap-smaller-box.png)
 
 * **較大、深藍色的方塊**：有更多小時（或天數）的專案會顯示為較大且深藍色的方塊。
 
-  ![](assets/project-treemap-larger-box-350x205.png)
+  ![較大的方塊](assets/project-treemap-larger-box-350x205.png)
 
 * **Medium大小的藍色方塊**：介於兩個類別之間的專案會顯示為中等大小的方塊，深藍色和淺藍色之間有藍色陰影。 中型盒子有3種可能的藍色色調。
 
 右側的圖例顯示每個藍色陰影的完成時數劃分。 此圖例為動態圖例，會根據資料進行更新。
 
-![](assets/project-treemap-hours-completed.png)
+![樹狀圖時數已完成](assets/project-treemap-hours-completed.png)
 
 >[!NOTE]
 >
 >如果您是依期間而非計畫時數檢視「專案樹狀圖」視覺效果，此圖例會顯示每個藍色陰影的工作日劃分。\
->![](assets/project-treemap-days-worked.png)>
+>![樹狀圖工作天數](assets/project-treemap-days-worked.png)>
 
 查看這些資訊可協助您判斷：
 
@@ -99,10 +99,10 @@ ht-degree: 2%
 
 ## 檢視專案樹狀圖視覺效果
 
-1. 按一下主要功能表圖示![](assets/main-menu-icon-16x12.png)，然後選取&#x200B;**Analytics**。
+1. 按一下主功能表圖示![主功能表圖示](assets/main-menu-icon-16x12.png)，然後選取&#x200B;**Analytics**。
 1. （可選）若要使用不同的日期範圍，請從日期範圍篩選器中選取新的開始和結束日期。
 
-   ![](assets/filters-select-date-range-350x344.png)
+   ![選取日期範圍](assets/filters-select-date-range-350x344.png)
 
    如需有關使用日期範圍篩選的資訊，請參閱[在增強型分析中套用篩選](../enhanced-analytics/use-enhanced-analytics-filters.md)。
 
@@ -125,7 +125,7 @@ ht-degree: 2%
 
    頁面上的所有其他視覺效果都會更新以符合您的頁面選擇。
 
-   ![](assets/pagination-350x118.png)
+   ![分頁](assets/pagination-350x118.png)
 
 1. （選用）將檢視從&#x200B;**計畫時數**&#x200B;變更為&#x200B;**持續時間**。
 
@@ -133,7 +133,7 @@ ht-degree: 2%
 
 1. 將滑鼠停留在專案上可檢視專案狀況、計畫時數總計、完成時數總計以及每天在專案上花費的平均時數。
 
-   ![](assets/project-treemap-project-details-350x404.png)
+   ![樹狀圖專案詳細資料](assets/project-treemap-project-details-350x404.png)
 
    >[!NOTE]
    >
@@ -142,11 +142,11 @@ ht-degree: 2%
    >* **計畫時間範圍**：計畫完成專案的天數。
    >* **已工作天數**：在上方選取的日期範圍內完成的每項工作的計畫期間除以一天中的小時數。
    >   
-   >![](assets/duration-treemap-350x159.png)
+   >![樹狀圖持續時間](assets/duration-treemap-350x159.png)
    >
    >如需持續時間的詳細資訊，請參閱[增強型分析總覽](../enhanced-analytics/enhanced-analytics-overview.md)中的「持續期間檢視」一節。
 
-1. （選擇性）若要匯出視覺效果資料，請按一下視覺效果右上角的&#x200B;**匯出圖示** ![](assets/export.png)，然後選取匯出格式：
+1. （選擇性）若要匯出視覺效果資料，請按一下視覺效果右上角的&#x200B;**匯出圖示** ![匯出圖示](assets/export.png)，然後選取匯出格式：
 
    * **圖表(PNG)**
    * **資料表(XSLX)**

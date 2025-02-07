@@ -7,9 +7,9 @@ description: 在 [!DNL Workfront] 校訂中，您可以使用資料夾將您要�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1a3dbf0e-ec5b-4bd0-9eee-c1d613a67f53
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -64,4 +64,4 @@ ht-degree: 0%
 
      比較校訂時，如果想要切換到校訂檢視器左側或右側的新校訂，請按一下校訂上方的[!UICONTROL 比較]按鈕。
 
-     ![](assets/mceclip0-350x126.png)
+     ![比較](assets/mceclip0-350x126.png)

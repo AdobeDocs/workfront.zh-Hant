@@ -7,9 +7,9 @@ description: 您可以檢視兩個校訂的並排比較。 這些可以是相同
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d4ec0c53-1451-4475-aa38-2319c6432936
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '949'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 1. 開啟具有多個要比較版本的校訂。
 1. 在顯示的校樣檢視器左上角，按一下校樣名稱。 然後，在顯示的版本清單中，按一下您要開啟和比較的版本旁的&#x200B;**比較**&#x200B;圖示。
 
-   ![](assets/compare-proofs-choose-version-350x115.jpg)
+   ![比較校訂選擇版本](assets/compare-proofs-choose-version-350x115.jpg)
 
    校樣會並排顯示，較新版本會位於左側。
 
