@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 3d523584-dcb8-4aa6-8217-611f22dc1450
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '977'
 ht-degree: 1%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 1%
 
 ### 在傳統體驗中對應使用者屬性
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
+1. 按一下Adobe Workfront右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![齒輪設定圖示](assets/gear-icon-settings.png)。
 
 1. 按一下&#x200B;**系統** > **單一登入(SSO)**。
 
@@ -85,7 +85,7 @@ ht-degree: 1%
 
 1. 按一下&#x200B;**對應使用者屬性**。
 
-   ![](assets/map-user-attributes.png)
+   ![對應使用者屬性](assets/map-user-attributes.png)
 
 1. 在出現的選項列中，對應您Workfront使用者所需的屬性。
 
@@ -123,7 +123,7 @@ ht-degree: 1%
    1. 在下拉式清單中，選取您要使用的屬性修飾元。
    1. 在右側的2個欄位中，輸入目錄屬性值以及要取代它的值。
 
-      ![](assets/rule-fields.png)
+      ![規則欄位](assets/rule-fields.png)
 
    您可以按一下&#x200B;**新增規則**&#x200B;來新增更多規則至屬性。
 
@@ -132,7 +132,7 @@ ht-degree: 1%
 
 ### 在Adobe統一體驗中對應使用者屬性
 
-1. 按一下Adobe Workfront左上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-left.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
+1. 按一下Adobe Workfront左上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-left.png)，然後按一下&#x200B;**設定** ![齒輪設定圖示](assets/gear-icon-settings.png)。
 
 1. 按一下&#x200B;**系統** > **單一登入(SSO)**。
 

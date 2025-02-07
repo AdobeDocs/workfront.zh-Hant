@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 75018e0e-ff74-4afb-9a99-34bbb39b6e14
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1344'
 ht-degree: 1%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 1%
 
 {{step-1-to-setup}}
 
-1. 在左側面板中，按一下&#x200B;**群組** ![](assets/groups-icon.png)。
+1. 在左側面板中，按一下&#x200B;**群組** ![群組](assets/groups-icon.png)。
 
 1. 按一下要建立或自訂狀態的群組名稱。
 1. 在左側面板中，按一下&#x200B;**狀態**。
@@ -87,7 +87,7 @@ ht-degree: 1%
 
 1. （視條件而定）如果狀態是問題狀態，請確定已選取&#x200B;**主要清單**。
 
-   ![](assets/master-list.png)
+   ![主清單](assets/master-list.png)
 
    如需自訂其他問題型別（錯誤報告、變更順序、問題、請求）的相關資訊，請參閱[自訂預設問題型別](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md)。
 
@@ -97,7 +97,7 @@ ht-degree: 1%
 
    若要編輯現有狀態，請將滑鼠移至您要編輯的狀態，然後按一下顯示於最右邊的&#x200B;**編輯**&#x200B;選項。
 
-   ![](assets/group-statuses-edit.jpg)
+   ![群組狀態](assets/group-statuses-edit.jpg)
 
    >[!NOTE]
    >只有符合以下條件時，您才能編輯群組的狀態：
@@ -173,11 +173,11 @@ ht-degree: 1%
 1. 在右上角的方塊中，刪除&#x200B;**系統狀態**，開始輸入您要隱藏狀態的群組名稱，然後在名稱出現時按一下。
 1. 暫留在您要隱藏群組的狀態上，然後按一下&#x200B;**編輯** （當它出現時）。
 
-   ![](assets/hover-click-edit.jpg)
+   ![編輯狀態](assets/hover-click-edit.jpg)
 
 1. 啟用顯示的&#x200B;**隱藏狀態**&#x200B;選項。
 
-   ![](assets/hide-group-status.png)
+   ![隱藏狀態](assets/hide-group-status.png)
 
 1. 按一下「**儲存**」。
 

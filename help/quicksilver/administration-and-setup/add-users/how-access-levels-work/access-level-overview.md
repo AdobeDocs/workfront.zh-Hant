@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: be7377a0c4d933823f65ed09d2b1fc091779f252
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1741'
+source-wordcount: '1744'
 ht-degree: 5%
 
 ---
@@ -386,7 +386,7 @@ Workfront有5個新的內建存取層級：
 
 使用者可以對物件執行的活動由其存取層級和授予他們的許可權組合定義。
 
-![](assets/security-model-hierachy-copy.png)
+![安全性模型階層](assets/security-model-hierachy-copy.png)
 
 ### 透過共用物件授與許可權
 

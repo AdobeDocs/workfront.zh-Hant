@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87f1b6c0-6b74-4eac-87cd-899b1c74af25
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Workfront提供集中管理的單一登入(SSO)設定，將Workfront與您現有
 
 同盟解決方案可讓使用者透過在集中式登入入口網站中輸入使用者名稱和密碼，登入其所有應用程式。
 
-![](assets/overview-sso-wf-fed-only.png)
+![SSO同盟](assets/overview-sso-wf-fed-only.png)
 
 
 ## 設定防火牆

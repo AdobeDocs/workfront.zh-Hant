@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 75cd0ab5-8d76-40a4-96a8-00e9f0f4fec6
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td>計劃</td> 
+   <td>規劃</td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -68,7 +68,7 @@ ht-degree: 0%
 1. 選取您先前設定要與Workfront搭配使用的信賴方信任，然後在右側面板中，按一下&#x200B;**從同盟中繼資料更新**。
 1. （條件式）如果此選項變暗（表示先前已使用中繼資料檔案設定信賴方信任），請完成下列操作。
 
-   1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
+   1. 按一下Adobe Workfront右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![齒輪設定圖示](assets/gear-icon-settings.png)。
 
    1. 按一下&#x200B;**系統** > **單一登入(SSO)**。
 

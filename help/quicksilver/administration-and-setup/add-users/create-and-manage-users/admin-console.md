@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: 9db8ea3f26dd7e8b4c8aa52fb9902832db7a6a5c
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1284'
 ht-degree: 0%
 
 ---
@@ -102,13 +102,13 @@ ht-degree: 0%
 
 1. 從[Adobe Admin Console頁面](https://adminconsole.adobe.com/)，選取頂端導覽列中的&#x200B;**產品**&#x200B;索引標籤，然後選取&#x200B;**Workfront**。
 
-   <!--![](assets/admin-product-1.png)-->
+   <!--![Admin Console product](assets/admin-product-1.png)-->
 
 1. 在顯示的清單中，選取頂端的連結。
 
    這是您的使用者所在的生產執行個體。
 
-   <!--![](assets/instances-1.png)-->
+   <!--![Admin Console instances](assets/instances-1.png)-->
 
    >[!TIP]
    >
@@ -119,7 +119,7 @@ ht-degree: 0%
 
 1. 在顯示的清單中，選取&#x200B;**產品設定檔**&#x200B;索引標籤後，按一下Workfront產品設定檔連結的名稱。
 
-   ![](assets/prod-profile-1.png)
+   ![產品設定檔](assets/prod-profile-1.png)
 
    此清單包含已指派給您的Workfront生產執行個體的所有使用者。
 
@@ -145,7 +145,7 @@ ht-degree: 0%
 1. 選取&#x200B;**新增管理員**。
 1. 在&#x200B;**新增產品設定檔管理員**&#x200B;方塊中，輸入您要新增的管理員電子郵件地址或名稱，然後選取&#x200B;**儲存**。
 
-   ![](assets/add-admin-1.png)
+   ![新增管理員](assets/add-admin-1.png)
 
    系統管理員是在Workfront中建立。
 
@@ -205,7 +205,7 @@ ht-degree: 0%
 
 {{step-1-to-users}}
 
-1. 選取使用者，然後按一下&#x200B;**更多**&#x200B;圖示![](assets/more-icon.png)。
+1. 選取使用者，然後按一下&#x200B;**更多**&#x200B;圖示![更多圖示](assets/more-icon.png)。
 
 1. 若要核准使用者，請按一下[核准]。****，然後按一下[提交]。****
 

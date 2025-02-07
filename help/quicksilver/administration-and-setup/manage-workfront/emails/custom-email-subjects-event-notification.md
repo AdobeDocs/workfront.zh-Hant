@@ -6,9 +6,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f39a091-aec2-4013-a835-0ab1c8789dc3
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '612'
 ht-degree: 4%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td>計劃</td> 
+   <td>規劃</td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
@@ -82,7 +82,7 @@ ht-degree: 4%
 
 例如，「有人將我包含在定向更新中」有兩個不同的主題行：第一個用於任務、問題、範本任務和檔案（也稱為「referenceObject」），第二個用於允許使用者進行評論的物件，例如投資組合、方案等（也稱為「topReferenceObject」）。
 
-![](assets/Ev-not-mult-subj-lines.png)
+![事件不是多個主旨列](assets/Ev-not-mult-subj-lines.png)
 
 如果使用者包含在工作、問題、範本工作或檔案的對話中，將產生包含第一個主旨行的電子郵件。 主旨列包含「referenceObject：name」，系統會定義物件並在主旨欄位中顯示適當的名稱。 電子郵件主旨列看起來類似這樣：「對專案ABC上的任務123發表評論」。
 
@@ -96,6 +96,6 @@ ht-degree: 4%
 
 例如，請求將檔案新增至問題中，是可能觸發兩封不同電子郵件的事件：一封用於檔案新增時，另一封用於檔案編輯時。
 
-![](assets/ev-not-mult-subj-lines-diff-actions.png)
+![事件不同的動作](assets/ev-not-mult-subj-lines-diff-actions.png)
 
 若要編輯電子郵件主旨行並將其他欄位新增至主旨行，請參閱本文中的[自訂事件通知的電子郵件主旨行](#customize-email-subject-lines-for-event-notifications)。

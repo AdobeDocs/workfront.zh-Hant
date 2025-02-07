@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '641'
 ht-degree: 2%
 
 ---
@@ -81,7 +81,7 @@ ht-degree: 2%
 1. 按一下頁面右上角附近的&#x200B;**設定術語**。
 1. 執行下列任一項作業：
 
-   * 若要使用Workfront提供的替代詞語，請按一下標籤旁的向下箭頭![](assets/dropdown-arrow.png)，然後在下拉式清單中按一下您想要的替代標籤。
+   * 若要使用Workfront提供的替代詞語，請按一下標籤旁的向下箭頭![向下箭頭](assets/dropdown-arrow.png)，然後在下拉式清單中按一下您想要的替代標籤。
 
      >[!NOTE]
      >
@@ -126,7 +126,7 @@ ht-degree: 2%
          <ul>
           <p>行動方案</p>
           <p>情境</p>
-          <p>計劃 </p>
+          <p>規劃 </p>
          </ul></td>
         <td><p>這些物件需要額外的授權。 如需詳細資訊，請參閱<a href="../../../scenario-planner/get-started-with-scenario-planning.md" class="MCXref xref">開始使用Scenario Planner</a>。</p></td>
        </tr>

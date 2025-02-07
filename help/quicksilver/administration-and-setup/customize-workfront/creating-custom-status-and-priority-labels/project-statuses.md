@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1fc91438-1ead-40d2-b0aa-863c1125c2fb
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Workfront隨附9種系統專案狀態。 您可以變更這些狀態的名稱，
 
    此標籤會列出Workfront中可用的專案狀態。
 
-   ![](assets/project-status.png)
+   ![專案狀態](assets/project-status.png)
 
    如需每個內建系統專案狀態的詳細資訊，請參閱[系統專案狀態概觀](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md)。
 

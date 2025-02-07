@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d2b63508-1943-4f9e-888e-8f1bfb54c33e
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '277'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 如果您建立自訂內部說明網站，其中包含有關您的組織如何使用Workfront的資訊，您可以設定主要功能表說明圖示移至該網站。
 
-![](assets/custom-help-button.png)
+![自訂說明按鈕](assets/custom-help-button.png)
 
 這不會影響整個Workfront中的內容相關說明連結，其會將使用者帶往Workfront說明網站。
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c43ea6b2-7d5b-46f0-a092-f57128de60f0
-source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 1. 在表單頂端按一下&#x200B;**物件型別**&#x200B;之後的加號+，然後在顯示的功能表中選取您要的型別。 您可以重複此步驟，新增任意數目的物件型別。
 
-   ![](assets/add-new-object.png)
+   ![新增物件](assets/add-new-object.png)
 
 1. 按一下&#x200B;**儲存並關閉**。
 
@@ -98,7 +98,7 @@ ht-degree: 0%
 1. 選取您要編輯的自訂表單，然後按一下![編輯圖示](assets/edit-icon2.png)。
 1. 在您要從表單刪除的任何&#x200B;**物件型別**&#x200B;上按一下X。
 
-   ![](assets/delete-object-types.png)
+   ![刪除物件型別](assets/delete-object-types.png)
 
 1. （可選）針對您要從表單中移除的任何其他物件型別，重複上一步驟。
 1. 按一下&#x200B;**套用**，然後按一下&#x200B;**儲存並關閉**。

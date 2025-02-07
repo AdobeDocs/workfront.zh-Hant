@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '541'
 ht-degree: 3%
 
 ---
@@ -226,7 +226,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-&#42;在群組管理員的存取層級中，必須為&#x200B;**使用者**&#x200B;設定選取&#x200B;**編輯**，並在&#x200B;**微調您的設定** ![](assets/gear-icon-in-access-levels.png)下選取&#x200B;**使用者管理員（群組使用者）**。 如需詳細資訊，請參閱[授予使用者存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)一文中的[設定使用者的存取權，以使用自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit)編輯使用者一節。
+&#42;在群組管理員的存取層級中，必須為&#x200B;**使用者**&#x200B;設定選取&#x200B;**編輯**，並在&#x200B;**微調您的設定** ![微調設定圖示](assets/gear-icon-in-access-levels.png)中選取&#x200B;**使用者管理員（群組使用者）**。 如需詳細資訊，請參閱[授予使用者存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)一文中的[設定使用者的存取權，以使用自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit)編輯使用者一節。
 
 &#42;&#42;在群組管理員的存取層級中，必須啟用此動作的存取權。 如需詳細資訊，請參閱[授予使用者對特定區域的管理存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)。
 

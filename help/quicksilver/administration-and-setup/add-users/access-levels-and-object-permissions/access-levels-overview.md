@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 外部是主要針對與未使用Workfront的共同作業人員共用檔案而設計的無償授權。
 
-![](assets/access-levels-and-licenses-old.png)
+![舊版存取層級和授權](assets/access-levels-and-licenses-old.png)
 
 如需與存取層級相關的主題資訊，請參閱下列文章：
 

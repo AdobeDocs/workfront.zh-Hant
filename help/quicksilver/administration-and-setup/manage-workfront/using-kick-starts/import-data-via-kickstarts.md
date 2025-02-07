@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 2375cf5d7ae817340ce9552994d87cb5af9a054b
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2754'
+ht-degree: 6%
 
 ---
 
@@ -79,7 +79,7 @@ Kick-Start是特別格式化的Excel活頁簿，可填入您要匯入Workfront�
 {{step-1-to-setup}}
 
 <!--
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  -->
+1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).  -->
 
 1. 按一下&#x200B;**系統** > **匯入資料(Kick-Starts)**。
 
@@ -478,7 +478,7 @@ Kick-Start匯入支援下列檔案型別：
 
 若要將範本試算表資料匯入Workfront：
 
-<!--1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).-->
+<!--1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).-->
 
 {{step-1-to-setup}}
 

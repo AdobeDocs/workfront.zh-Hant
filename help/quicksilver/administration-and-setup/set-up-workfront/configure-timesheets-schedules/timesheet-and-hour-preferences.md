@@ -8,9 +8,9 @@ author: Alina and Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1433'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 1. （選擇性）在&#x200B;**系統時程表和時數偏好設定**&#x200B;搜尋方塊中，開始輸入群組的名稱，然後在其顯示在清單中時選取它。
 
-   ![](assets/search-for-group-box-in-timesheets-preferences-page.png)
+   ![搜尋群組方塊](assets/search-for-group-box-in-timesheets-preferences-page.png)
 
    「時程表和小時偏好設定」頁面會以您所選群組的偏好設定來更新。 系統層級的偏好設定必須解除鎖定，才能修改群組層級的偏好設定。 如需詳細資訊，請參閱本文章的[解除鎖定群組](#unlock-timesheet-and-hour-preferences-for-groups)的時程表和小時偏好設定。
 
@@ -212,8 +212,8 @@ ht-degree: 0%
 
 1. 執行下列任一項作業：
 
-   * 如果您希望群組管理員能夠設定其群組的偏好設定，請按一下&#x200B;**解除鎖定**&#x200B;切換![](assets/unlock-toggle-button.png)以解除鎖定。
-   * 如果您希望所有群組都使用您的偏好設定設定，請確定切換已鎖定![](assets/locked-preference-toggle.png) （此為預設值）。
+   * 如果您希望群組管理員能夠設定其群組的偏好設定，請按一下&#x200B;**解除鎖定**&#x200B;切換![解除鎖定切換](assets/unlock-toggle-button.png)以解除鎖定。
+   * 如果您希望所有群組都使用您的偏好設定設定，請確定切換已鎖定![鎖定的偏好設定切換](assets/locked-preference-toggle.png) （此為預設值）。
 
      >[!IMPORTANT]
      >

@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: 5cd1cbd1976d5574668098be53daee780a9cc1fb
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '724'
-ht-degree: 0%
+source-wordcount: '728'
+ht-degree: 1%
 
 ---
 
@@ -105,10 +105,10 @@ Workfront使用特定的IP位址和網域進行網頁通訊。 必須先將這�
 
    您的叢集會顯示在&#x200B;**基本資訊**&#x200B;區段的右上角附近。
 
-   ![](assets/locate-cluster.png)
+   ![尋找叢集](assets/locate-cluster.png)
 
 1. 若要檢視您的Workfront計畫，請選取&#x200B;**授權**。
 
    您的計畫會顯示在頁面右上角附近。
 
-   ![](assets/locate-plan.png)
+   ![尋找計畫](assets/locate-plan.png)

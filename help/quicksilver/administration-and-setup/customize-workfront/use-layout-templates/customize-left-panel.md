@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1102'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 例如，您可以決定使用者在檢視任務時，會在左側面板中看到下列哪些專案：
 
-![](assets/left-panel-adobe-branding.png)
+![品牌化左面板](assets/left-panel-adobe-branding.png)
 
 >[!IMPORTANT]
 >
@@ -70,7 +70,7 @@ ht-degree: 0%
 ## 自訂[!DNL Workfront]中某個區域的左側面板：
 
 1. 開始使用版面配置範本，如[建立和管理版面配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)中所述。
-1. 按一下&#x200B;**[!UICONTROL 自訂使用者看到的內容]**&#x200B;下方的向下箭頭![](assets/dropdown-arrow.png)，然後按一下您要自訂其左側面板的物件型別或[!DNL Workfront]區域的名稱。
+1. 按一下&#x200B;**[!UICONTROL 自訂使用者看到的內容]**&#x200B;底下的向下箭頭![向下箭頭](assets/dropdown-arrow.png)，然後按一下您要自訂其左側面板的物件型別或[!DNL Workfront]區域的名稱。
 
    下表列出您可以自訂其左側面板的物件型別和[!DNL Workfront]區域：
 
@@ -89,7 +89,7 @@ ht-degree: 0%
      <tr> 
       <td>[！UICONTROL專案]</td> 
       <td>專案名稱</td> 
-      <td>[！UICONTROL任務]， [！UICONTROL專案詳細資料]， [！UICONTROL業務案例]， [！UICONTROL更新]， [！UICONTROL檔案]， [！UICONTROL問題]， [！UICONTROL風險]， [！UICONTROL核准]， [！UICONTROL基準]， [！UICONTROL計費費率]，[！UICONTROL計費記錄]， [！UICONTROL trol支出]、[！UICONTROL小時數]、[！UICONTROL工作負載均衡器]、[！UICONTROL人員]、[！UICONTROL利用率]、[！UICONTROL隊列詳細資訊]、[！UICONTROL路由規則]、[！UICONTROL隊列主題]、[！UICONTROL主題組]、[！UICONTROL量度]、[！UICONTROL規劃]*</td> 
+      <td>[！UICONTROL任務]， [！UICONTROL專案詳細資料]， [！UICONTROL業務案例]， [！UICONTROL更新]， [！UICONTROL檔案]， [！UICONTROL問題]， [！UICONTROL風險]， [！UICONTROL核准]， [！UICONTROL基準]， [！UICONTROL計費費率]，[！UICONTROL計費記錄]， [！UICONTROL uicontrol支出]、[！UICONTROL小時數]、[！UICONTROL工作負載均衡器]、[！UICONTROL人員]、[！UICONTROL利用率]、[！UICONTROL隊列詳細資訊]、[！UICONTROL路由規則]、[！UICONTROL隊列主題]、[！UICONTROL主題組]、[！UICONTROL量度]、[！UICONTROL規劃]*</td> 
      </tr> 
      <tr> 
       <td>[！UICONTROL任務]</td> 
@@ -114,7 +114,7 @@ ht-degree: 0%
      <tr> 
       <td>[！UICONTROL範本]</td> 
       <td>專案範本的名稱</td> 
-      <td>[！UICONTROL範本任務]， [！UICONTROL範本詳細資料]， [！UICONTROL更新]， [！UICONTROL檔案]， [！UICONTROL風險]， [！UICONTROL費用]， [！UICONTROL人員]， [！UICONTROL核准]， [！UICONTROL計費率]， [！UICONTROL佇列詳細資料]，[！UICONTROL路由規則]， [！UICONTROL trol隊列主題]，[！UICONTROL主題組]</td> 
+      <td>[！UICONTROL範本任務]， [！UICONTROL範本詳細資料]， [！UICONTROL更新]， [！UICONTROL檔案]， [！UICONTROL風險]， [！UICONTROL費用]， [！UICONTROL人員]， [！UICONTROL核准]， [！UICONTROL計費率]， [！UICONTROL佇列詳細資料]， [！UICONTROL路由規則]， [！UICONTROL uicontrol隊列主題]，[！UICONTROL主題組]</td> 
      </tr> 
      <tr> 
       <td>[！UICONTROL範本任務]</td> 
@@ -204,9 +204,9 @@ ht-degree: 0%
 
 1. 在&#x200B;**[!UICONTROL 左側面板]**&#x200B;清單中，執行下列任一項作業，以決定使用者會在左側面板中看見您所選取的[!DNL Workfront]區域或物件型別：
 
-   * 按一下&#x200B;**顯示** ![](assets/add-secondary-nav-item.png)或&#x200B;**隱藏** ![](assets/delete-secondary-nav-item.png)圖示，以顯示或隱藏左側面板中的區段。 您無法隱藏沒有&#x200B;**顯示**&#x200B;或&#x200B;**隱藏**&#x200B;圖示的專案。
+   * 按一下&#x200B;**顯示** ![顯示圖示](assets/add-secondary-nav-item.png)或&#x200B;**隱藏** ![隱藏圖示](assets/delete-secondary-nav-item.png)圖示，以顯示或隱藏左側面板中的區段。 您無法隱藏沒有&#x200B;**顯示**&#x200B;或&#x200B;**隱藏**&#x200B;圖示的專案。
 
-   * 拖曳專案![](assets/move-icon---dots.png)以變更其在左側面板上的順序。
+   * 拖曳專案![移動圖示](assets/move-icon---dots.png)以變更其在左側面板上的順序。
 
    >[!NOTE]
    >

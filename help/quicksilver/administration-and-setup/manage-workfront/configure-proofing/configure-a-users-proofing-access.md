@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 98c90139-f31a-41bc-af0b-577dd8b254e3
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1240'
+source-wordcount: '1242'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td>計劃</td> 
+   <td>規劃</td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
@@ -135,7 +135,7 @@ ht-degree: 0%
 
 1. 從Workfront，按一下全域導覽列中的Workfront Proof圖示以存取Workfront Proof。
 
-   ![](assets/proof-access-proofhq-350x39.png)
+   ![校訂圖示](assets/proof-access-proofhq-350x39.png)
 
 1. 按一下Workfront Proof右上角附近的&#x200B;**帳戶設定**，然後按一下&#x200B;**設定**&#x200B;標籤。
 

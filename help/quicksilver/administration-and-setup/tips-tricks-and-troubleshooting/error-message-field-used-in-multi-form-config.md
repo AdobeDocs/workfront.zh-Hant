@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 43668525-5572-4d82-8eed-0e320249f296
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1239'
+source-wordcount: '1241'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 0%
 
    **範例：**&#x200B;表單1的欄位1 =是，表單2的欄位2 =是，表單3的欄位3 =是。 這表示「計算自訂欄位存在於表單1中」或「計算自訂欄位存在於表單2中」等等。
 
-1. 在熒幕右上角的&#x200B;**[!UICONTROL 搜尋圖示]** ![](assets/search-icon.png)中，按一下&#x200B;**[!UICONTROL 進階搜尋]**。
+1. 在熒幕右上角的&#x200B;**[!UICONTROL 搜尋圖示]** ![搜尋圖示](assets/search-icon.png)中，按一下&#x200B;**[!UICONTROL 進階搜尋]**。
 1. 按一下自訂表單的物件（例如問題），按一下&#x200B;**[!UICONTROL 篩選結果]**，然後按一下&#x200B;**[!UICONTROL 新增篩選器]**。
 1. 在&#x200B;**[!UICONTROL 開始輸入欄位名稱]**&#x200B;欄位中輸入Checkbox欄位的名稱，並在該欄位顯示在清單中時加以選取，然後選取&#x200B;**[!UICONTROL 等於]**&#x200B;並在下列方塊中輸入&#x200B;**[!UICONTROL 是]** （不含引號）。
 

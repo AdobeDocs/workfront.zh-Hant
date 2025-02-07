@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 99b81090-8d09-4130-a746-44ed1d76f971
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ If Callisto adds the <b>Is active</b> checkbox to the Details page for groups yo
 
 1. 按一下群組的名稱以開啟其頁面。
 
-1. 按一下群組名稱旁的[更多]功能表![](assets/more-icon.png)，然後按一下[停用] **或[重新啟用]** **。**
+1. 按一下群組名稱旁的[更多]功能表![更多圖示](assets/more-icon.png)，然後按一下[停用] **或[重新啟用]****。**
 
    >[!NOTE]
    >
@@ -92,7 +92,7 @@ If Callisto adds the <b>Is active</b> checkbox to the Details page for groups yo
 
   如需在此情況下重新啟用子群組的相關資訊，請參閱本文中的[關於重新啟用非作用中父群組](#about-reactivating-a-subgroup-below-an-inactive-parent-group)下的子群組。
 
-* 當您移至[設定]中的[群組]區域時，您只能在清單中看到作用中的群組，因為[作用中]是它的預設篩選器![](assets/filter-nwepng.png)。 如果您想要檢視您管理的所有群組，包括非作用中的群組，可以使用「全部」篩選器。 或者，使用非使用中篩選器以僅列出非使用中篩選器。
+* 當您前往「設定」中的「群組」區域時，您只能在清單中看到作用中的群組，因為「作用中」是預設的篩選器![篩選器圖示](assets/filter-nwepng.png)。 如果您想要檢視您管理的所有群組，包括非作用中的群組，可以使用「全部」篩選器。 或者，使用非使用中篩選器以僅列出非使用中篩選器。
 
   如需清單中篩選器的詳細資訊，請參閱[篩選器概觀](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)。
 

@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 >
 >自訂物件標題目前可用於專案、任務和問題。
 
-![](assets/object-header-fields.png)
+![物件標頭欄位](assets/object-header-fields.png)
 
 如需有關建立版面配置範本的資訊，請參閱[建立和管理版面配置範本](../use-layout-templates/create-and-manage-layout-templates.md)。
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 
    <!--(NOTE: make sure the default names of these fields have not changed; otherwise, update screen shot)-->
 
-   ![](assets/object-header-field-x-and-grab-icons-in-lt.png)
+   ![物件標題欄位隱藏和移動圖示](assets/object-header-field-x-and-grab-icons-in-lt.png)
 
 1. 一個物件的標頭中最多可以有五個欄位。
 如果您已選取五個欄位，則必須先移除欄位，才能新增欄位。
@@ -95,7 +95,7 @@ ht-degree: 0%
    >* 當您將「解決者」欄位新增到問題的標題時，當存在與問題關聯的解決物件時，欄位會變更為「解決問題、任務或專案」。
 
 
-   ![](assets/add-field-to-header-in-lt-list.png)
+   ![新增欄位至標頭](assets/add-field-to-header-in-lt-list.png)
 
 
 1. （選用）拖放以不同順序新增的欄位。

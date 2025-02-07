@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5cb42dd8-1557-4fa4-ab3d-8278ce9afd96
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '1685'
-ht-degree: 5%
+source-wordcount: '1715'
+ht-degree: 6%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 5%
 六個內建存取層級分別針對下列使用者型別而設計：
 
 * 系統管理員
-* 規劃工具
+* 規劃者
 * 工作者
 * 檢閱者
 * 請求者
@@ -74,7 +74,7 @@ ht-degree: 5%
 
 具有系統管理員存取層級的使用者可以在Workfront中執行所有操作。 他們可以檢視及編輯所有其他使用者在Workfront中輸入的所有Workfront物件和資訊。
 
-使用者也可完整存取「設定」區域，在此變更系統層級的任何設定。 而且他們可以存取主功能表![](assets/main-menu-icon.png)或主功能表![](assets/lines-main-menu.png)中的所有區域（如果可用）。
+使用者也可完整存取「設定」區域，在此變更系統層級的任何設定。 而且他們可以存取主功能表![主功能表圖示](assets/main-menu-icon.png)或主功能表![主功能表圖示](assets/main-menu-icon.png)中的所有區域（如果可用）。
 
 如需詳細資訊，請參閱[授予使用者完整管理存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)。
 
@@ -86,7 +86,7 @@ ht-degree: 5%
 * 任何負責計畫、建立和管理任務、專案、投資組合和計畫的人
 * 負責將工作（任務和問題）指派給其他使用者的任何人
 * 建立報告及核準時程表、工作專案和檔案的使用者
-* 需要存取主功能表![](assets/main-menu-icon.png)或主功能表![](assets/lines-main-menu.png)中所有區域的使用者（如果可用）
+* 需要存取主功能表![主功能表圖示](assets/main-menu-icon.png)或主功能表![主功能表圖示](assets/main-menu-icon.png)的所有區域的使用者（如果可用）
 
 您可以建立Planner內建存取層級的自訂版本，並決定其允許各種Workfront物件型別的存取量。 如需詳細資訊，請參閱[建立和修改自訂存取層級](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
@@ -122,7 +122,7 @@ ht-degree: 5%
 * 可以核准工作和檔案，但不能核準時程表
 * 可存取和共用報告
 * 可以與系統中的其他使用者通訊
-* 無法存取主功能表![](assets/main-menu-icon.png)或主功能表![](assets/lines-main-menu.png)中的所有區域（如果可用），且其「使用者」區域名為「團隊」。 在「專案團隊」區域中，具有此存取層級的使用者只能檢視他們所屬的專案團隊，以及指派給這些專案團隊的工作。
+* 無法存取主功能表![主功能表圖示](assets/main-menu-icon.png)或主功能表![主功能表圖示](assets/main-menu-icon.png)中的所有區域（如果有的話），且其「使用者」區域名為「團隊」。 在「專案團隊」區域中，具有此存取層級的使用者只能檢視他們所屬的專案團隊，以及指派給這些專案團隊的工作。
 * 建立物件的能力有限 — 他們無法建立專案、投資組合、計畫或報告。
 
 您可以建立Worker內建存取層級的自訂版本，並決定其允許各種Workfront物件型別的存取量。 如需詳細資訊，請參閱[建立和修改自訂存取層級](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
@@ -158,7 +158,7 @@ ht-degree: 5%
 具有檢閱者存取層級的使用者：
 
 * 無法指派工作專案或核準時程表
-* 如果可用，可以存取主功能表![](assets/main-menu-icon.png)或主功能表![](assets/lines-main-menu.png)中的請求和檔案區域
+* 如果可用，可以存取主功能表![主功能表圖示](assets/main-menu-icon.png)或主功能表![主功能表圖示](assets/main-menu-icon.png)中的請求和檔案區域
 * 建立物件的能力有限 — 他們無法建立專案、投資組合、計畫或報告。
 
 您可以建立Reviewer內建存取層級的自訂版本，並決定其允許各種Workfront物件型別的存取量。 如需詳細資訊，請參閱[建立和修改自訂存取層級](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
@@ -285,7 +285,7 @@ ht-degree: 5%
 * 可以上傳和核准檔案
 * 可以檢閱他們已提交問題的狀態
 * 無法指派給工作專案
-* 如果可用，只能從主功能表![](assets/main-menu-icon.png)或主功能表![](assets/lines-main-menu.png)中的要求區域存取要求。 如需請求佇列的詳細資訊，請參閱[建立請求佇列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
+* 只能從主功能表![主功能表圖示](assets/main-menu-icon.png)或主功能表![主功能表圖示](assets/main-menu-icon.png)中的請求區域存取請求（如果可用）。 如需請求佇列的詳細資訊，請參閱[建立請求佇列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
 
 您可以建立請求者內建存取層級的自訂版本，並決定其允許各種Workfront物件型別的存取量。 如需詳細資訊，請參閱[建立和修改自訂存取層級](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 

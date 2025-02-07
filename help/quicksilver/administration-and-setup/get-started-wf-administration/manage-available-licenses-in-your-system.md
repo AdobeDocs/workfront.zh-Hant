@@ -8,9 +8,9 @@ author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1216'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 0%
 >2. 系統管理員只能看到所有主群組使用的授權總數。
 >3. 群組管理員完全無法存取授權頁面。
 >
->對於Prime與Ultimate計畫：
+>對於Prime和Ultimate計畫：
 >
 >1. 系統管理員可以將[主群組]新增到[授權]頁面，以檢視這些群組中的授權使用情況，也可以設定授許可權制。
 >2. 群組管理員可以存取「授權」頁面，並檢視系統管理員已新增至「授權」頁面之他們管理的群組中的授權使用情況。
@@ -89,7 +89,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >對於新計畫，Select計畫不允許管理員依主群組檢視授權。 您只能看到使用的授權總數。 Prime和Ultimate計畫提供設定每個主群組最大授權數的功能。
+   >對於新計畫，Select計畫不允許管理員依主群組檢視授權。 您只能看到使用的授權總數。 Prime和Ultimate計畫提供設定每個主群組的最大授權數的功能。
 
 ## 檢視Workfront附加元件授權的相關資訊
 
@@ -186,7 +186,7 @@ If an organization has other paid add-on products, their license information als
 1. 在群組的&#x200B;**Max**&#x200B;欄中，按一下您要設定最大值的值。
 1. 輸入最大數字，然後按Enter鍵。
 
-   ![](assets/updated-max.png)
+   ![群組](assets/updated-max.png)的授權上限
 
    >[!NOTE]
    >

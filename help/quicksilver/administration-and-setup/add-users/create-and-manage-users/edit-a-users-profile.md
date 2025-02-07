@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 532a7badf236d0d9568bc6c632b7badf3576cce3
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '3273'
+source-wordcount: '3275'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 {{step-1-to-users}}
 
-1. 選取使用者，然後按一下&#x200B;**編輯**&#x200B;圖示![](assets/edit-icon.png)。
+1. 選取使用者，然後按一下&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)。
 
    編輯使用者方塊隨即顯示。
 

@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1284'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 0%
 >
 >您存取的環境名稱（預覽）和程式碼的發行版本會顯示在橫幅上。 按一下&#x200B;**[!UICONTROL 檢視新增功能]**&#x200B;以取得該版本的相關資訊。
 >
->![](assets/preview-banner-nwe-350x161.png)
+>![預覽橫幅](assets/preview-banner-nwe-350x161.png)
 
 ## 存取預覽沙箱
 

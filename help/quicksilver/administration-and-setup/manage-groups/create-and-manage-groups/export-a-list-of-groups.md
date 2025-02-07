@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 66c1f049-c7b5-4d6b-9dc2-3c5f527764e9
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -58,14 +58,14 @@ ht-degree: 0%
 
 {{step-1-to-setup}}
 
-1. 在左側面板中，按一下&#x200B;**群組** ![](assets/groups-icon.png)。
+1. 在左側面板中，按一下&#x200B;**群組** ![群組](assets/groups-icon.png)。
 
    在顯示的清單中，您可以看到您管理的群組及其擁有的任何子群組。 Adobe Workfront管理員可檢視所有群組。
 
-1. 如果要匯出您管理的整個群組群組，請按一下「匯出」圖示![](assets/export.png)。
+1. 如果要匯出您管理的整個群組群組，請按一下「匯出」圖示![「匯出」圖示](assets/export.png)。
 
    或
 
-   若要匯出您管理的一些群組，請選取這些群組，然後按一下「匯出」圖示![](assets/export.png)。
+   若要匯出您管理的一些群組，請選取這些群組，然後按一下「匯出」圖示![「匯出」圖示](assets/export.png)。
 
 1. 選取您要用於匯出清單的檔案格式。

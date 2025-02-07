@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '633'
 ht-degree: 2%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 2%
 
    若要編輯現有條件，請將游標停留在您要編輯的條件上，然後按一下顯示於最右邊的&#x200B;**編輯**&#x200B;圖示。
 
-   ![](assets/custom-condition-edit-nwe.jpg)
+   ![自訂條件](assets/custom-condition-edit-nwe.jpg)
 
 1. 使用下列選項設定自訂條件：
 
@@ -110,21 +110,21 @@ ht-degree: 2%
    >
    >您可以標準化所有三種物件型別的條件術語和顏色。 若要這麼做，請從其中一個標籤（專案、任務、問題）將條件「名稱」和「顏色」十六進位程式碼複製到其他兩個標籤上的對應條件。
 
-1. （選擇性）將![](assets/move-icon---dots.png)任何條件拖曳到新位置以重新排序清單。
+1. （選擇性）將![移動圖示](assets/move-icon---dots.png)任何條件拖曳到新位置，以重新排序清單。
 
    這會變更條件在專案、任務和問題中的顯示順序：
 
    * 當使用者編輯專案時
 
-     ![](assets/change-condition-edit-project.png)
+     編輯專案時![變更條件](assets/change-condition-edit-project.png)
 
    * 當使用者在更新索引標籤上變更任務或問題的條件時：
 
-     ![](assets/change-condition-update-comment.png)
+     更新註解時![變更條件](assets/change-condition-update-comment.png)
 
    * 當使用者在清單檢視中變更任務或問題的條件時：
 
-     ![](assets/change-conditions-list-dropdown-only.png)
+     ![變更清單](assets/change-conditions-list-dropdown-only.png)中的狀況
 
 1. 按一下「**儲存**」。
 

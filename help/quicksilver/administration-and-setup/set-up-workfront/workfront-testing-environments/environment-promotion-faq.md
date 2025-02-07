@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
-source-git-commit: 8fe93796b2bc89352ac2c924d6a5e3bf25551ff0
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '294'
 ht-degree: 3%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 3%
    1. 按一下左側面板中的&#x200B;**系統**
    1. 若要檢視您的Workfront計畫，請選取&#x200B;**授權**。
 您的計畫會顯示在頁面右上角附近。
-      ![](assets/locate-plan.png)
+      ![尋找計畫](assets/locate-plan.png)
 
   或
 * 請聯絡您的Workfront客戶代表。

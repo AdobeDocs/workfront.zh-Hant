@@ -8,9 +8,9 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 author: Becky
 exl-id: 158430e5-8857-4bd8-86a6-2ba106b1638c
-source-git-commit: bb81e32263348128b7661db6102ad5ac14e9a434
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '669'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 1. 在左側導覽面板中，按一下&#x200B;**[!UICONTROL 系統]**，然後選取&#x200B;**[!UICONTROL OAuth應用程式]**。
 1. 按一下&#x200B;**[!UICONTROL 建立應用程式整合]**。
-1. 將滑鼠停留在應用程式上，並在其出現在最右邊時按一下&#x200B;**[!UICONTROL 編輯]** ![](assets/edit-icon.png)。
+1. 將滑鼠停留在應用程式上，並在其出現在最右邊時，按一下&#x200B;**[!UICONTROL 編輯]** ![編輯圖示](assets/edit-icon.png)。
 1. （選用）編輯應用程式的任何詳細資訊。
 
    如需與OAuth2和JWT應用程式相關的欄位，請參閱[為 [!DNL Workfront] 整合建立OAuth2應用程式](../../administration-and-setup/configure-integrations/create-oauth-application.md)。
@@ -87,7 +87,7 @@ ht-degree: 0%
 {{step-1-to-setup}}
 
 1. 在左側導覽面板中，按一下&#x200B;**[!UICONTROL 系統]**，然後選取&#x200B;**[!UICONTROL OAuth應用程式]**。
-1. 將滑鼠停留在應用程式上，並在其出現在最右邊時按一下&#x200B;**[!UICONTROL 刪除]** ![](assets/delete.png)。
+1. 將滑鼠停留在應用程式上，當它出現在最右邊時，按一下&#x200B;**[!UICONTROL 刪除]** ![刪除](assets/delete.png)。
 
 ## 在OAuth2應用程式中管理使用者端密碼
 
@@ -143,4 +143,4 @@ ht-degree: 0%
 1. 按一下&#x200B;**[!UICONTROL 建立應用程式整合]**。
 1. 將滑鼠停留在應用程式上，然後按一下&#x200B;**[!UICONTROL 編輯]**&#x200B;圖示（當它出現在最右邊時）。
 1. 找到您要刪除的使用者端密碼。
-1. 按一下使用者端密碼旁的&#x200B;**[!UICONTROL 刪除]**&#x200B;圖示![](assets/delete.png)。
+1. 按一下使用者端密碼旁的&#x200B;**[!UICONTROL 刪除]**&#x200B;圖示![刪除](assets/delete.png)。

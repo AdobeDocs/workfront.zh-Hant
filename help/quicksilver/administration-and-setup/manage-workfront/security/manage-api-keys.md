@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
-source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '1322'
+source-wordcount: '1330'
 ht-degree: 2%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td>計劃</td> 
+   <td>規劃</td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -107,7 +107,7 @@ Workfront管理員也有唯一的API金鑰。 當應用程式使用管理員API�
    1. 展開&#x200B;**系統**，然後按一下&#x200B;**單一登入(SSO)**。
    1. 在&#x200B;**型別**&#x200B;欄位中，選取貴組織使用的SSO型別。
    1. 選取型別後，向下捲動並清除&#x200B;**啟用**核取方塊。
-      ![](assets/sysadmin-security-sso-disable-31620-350x320.png)
+      ![啟用SSO](assets/sysadmin-security-sso-disable-31620-350x320.png)
    1. 按一下「**儲存**」。
 
 
@@ -187,7 +187,7 @@ Workfront管理員也有唯一的API金鑰。 當應用程式使用管理員API�
 
 從憑證授權單位取得X.509憑證後，您需要將它上傳到Workfront。
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
+1. 按一下Adobe Workfront右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![齒輪設定圖示](assets/gear-icon-settings.png)。
 
 1. 展開&#x200B;**系統**，然後按一下&#x200B;**客戶資訊**。
 

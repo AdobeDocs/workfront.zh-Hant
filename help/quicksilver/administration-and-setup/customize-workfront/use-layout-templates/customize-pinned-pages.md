@@ -8,16 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '501'
 ht-degree: 4%
 
 ---
 
 # 使用版面配置範本自訂釘選頁面
 
-在版面配置範本中，您可以在Adobe Workfront頂端釘選希望使用者始終可用的頁面。 這些可能是透過主要功能表![](assets/main-menu-icon.png)或主要功能表![](assets/lines-main-menu.png) （可用時）存取的頁面，或是儀表板。
+在版面配置範本中，您可以在Adobe Workfront頂端釘選希望使用者始終可用的頁面。 這些可能是透過主功能表![主功能表圖示](assets/main-menu-icon.png)或主功能表![主功能表圖示](assets/main-menu-icon.png) （可用時）存取的頁面，或是儀表板。
 
 使用者自行新增的任何圖釘都會顯示在您在版面配置範本中新增的圖釘的右側。
 

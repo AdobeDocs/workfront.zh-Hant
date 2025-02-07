@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0f643d36-6235-4fd3-b6d3-54fbd03c9b33
-source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
@@ -66,14 +66,14 @@ ht-degree: 0%
 1. 輸入自訂季度的名稱，例如「2021年第一財政年度」。
 1. 選取自訂季度的開始和結束日期。
 
-   ![](assets/custom-quarters-nwe.png)
+   ![自訂季度](assets/custom-quarters-nwe.png)
 
 1. （選擇性）按一下&#x200B;**[!UICONTROL 新增自訂季度]**&#x200B;以新增其他自訂季度至系統。
 1. （選擇性）建立參考會計季的報表元素。
 
    **範例：**&#x200B;為[!UICONTROL 專案]清單建立篩選器，並包含參考自訂季度的專案計畫完成日期。
 
-   ![](assets/example-of-project-filter-with-custom-quarters.png)
+   ![包含自訂季數的專案篩選器](assets/example-of-project-filter-with-custom-quarters.png)
 
    「本季」、「下一季」和「上一季」的參考資料會取代為自訂季度的新參考資料。
 

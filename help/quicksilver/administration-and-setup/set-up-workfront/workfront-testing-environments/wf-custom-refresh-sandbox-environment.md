@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: bb81e32263348128b7661db6102ad5ac14e9a434
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '1739'
+source-wordcount: '1745'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ If you are a Workfront Goals customer, Workfront Goals data does not transfer to
 
 若要存取您的自訂重新整理沙箱：
 
-1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![](assets/gear-icon-settings.png)。
+1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![齒輪設定圖示](assets/gear-icon-settings.png)。
 
 1. 按一下&#x200B;**[!UICONTROL 系統]** >**[!UICONTROL 偏好設定]**。
 

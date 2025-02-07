@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: caed65ab-a787-437b-9f5f-b3d4135bb980
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '438'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 0%
 * **[!UICONTROL 問題]** [!DNL Workfront]中的物件，會傳達未計畫的工作、發生的問題或為了繼續工作而必須解決的事項。
 * **[!UICONTROL 要求]**&#x200B;適用於使用者在Workfront中提出要求的要求佇列的問題型別。
 
-![](assets/default-issue-types.png)
+![預設問題型別](assets/default-issue-types.png)
 
 ## 自訂問題型別
 
@@ -86,8 +86,8 @@ ht-degree: 0%
 1. 按一下&#x200B;**[!UICONTROL 問題]**&#x200B;標籤。
 1. 執行下列任一項作業：
 
-   * 暫留在您要自訂的問題型別上，按一下最右側出現的[!UICONTROL 編輯]圖示![](assets/edit-icon.png)，然後為問題型別輸入新名稱。
+   * 暫留在您要自訂的問題型別上，按一下最右側出現的[!UICONTROL 編輯]圖示![編輯圖示](assets/edit-icon.png)，然後為問題型別輸入新名稱。
 
-     ![](assets/customize-issue-type.png)
+     ![自訂問題型別](assets/customize-issue-type.png)
 
    * 按一下[!UICONTROL 問題型別]以列出其相關聯的狀態，然後拖曳將滑鼠游標停留在其中時出現的控制代碼，並依照您希望它們在使用者問題&#x200B;**[!UICONTROL 狀態]**&#x200B;下拉式功能表中出現的順序放置它們。

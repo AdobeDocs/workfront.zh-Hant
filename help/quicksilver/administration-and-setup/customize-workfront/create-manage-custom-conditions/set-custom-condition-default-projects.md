@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: dba052ed-83a2-44d2-b025-d970783c4151
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 如果專案的狀態型別設定為「進度狀態」而非「手動」，Adobe Workfront會在專案進行時，自動顯示專案上三個內建預設狀態之一（「達成目標」、「有風險」或「存在問題」），如[專案狀態與狀態型別概觀](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md)中所述。
 
-![](assets/condition-in-project-header-nwe.png)
+專案標題](assets/condition-in-project-header-nwe.png)中的![狀況
 
 您可以將自訂條件設定為預設條件，而不使用這三個內建的預設條件。 例如，您可以將「準時」預設條件變更為在所有專案中顯示為「追蹤良好」。
 

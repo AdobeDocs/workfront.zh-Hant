@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 62aa8ac0-7e8a-4df6-b5d4-a32fa86a4597
-source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1950'
+source-wordcount: '1955'
 ht-degree: 1%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td>計劃</td> 
+   <td>規劃</td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
@@ -72,7 +72,7 @@ ht-degree: 1%
 
    如果您正在編輯群組層級的核准流程，請執行下列動作：
 
-   1. 在左側面板中，按一下&#x200B;**群組** ![](assets/groups-icon.png)。
+   1. 在左側面板中，按一下&#x200B;**群組** ![群組圖示](assets/groups-icon.png)。
    1. 按一下您要列出或管理群組核准流程的群組名稱。
    1. 在左側面板中，按一下&#x200B;**核准**。 您可能需要先按一下&#x200B;**顯示更多**。
 
@@ -80,7 +80,7 @@ ht-degree: 1%
 
 1. 選取您要編輯的核准程式，然後按一下清單頂端的&#x200B;**編輯**。 編輯核准流程方塊隨即顯示。
 
-   ![](assets/edit-approval-process-global-area-new.png)
+   ![編輯核准流程](assets/edit-approval-process-global-area-new.png)
 
 1. 在顯示的方塊中指定下列資訊：
 

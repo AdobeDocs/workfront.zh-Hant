@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 407f6631-ecc1-4ed8-bfec-6d726ae87a3d
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '749'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計劃 </p> <p>您必須是群組的群組管理員或Workfront管理員。 如需詳細資訊，請參閱<a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref" data-mc-variable-override="">群組管理員</a>和<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref" data-mc-variable-override="">授與使用者完整管理存取權</a>。</p> </td> 
+   <td> <p>規劃 </p> <p>您必須是群組的群組管理員或Workfront管理員。 如需詳細資訊，請參閱<a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref" data-mc-variable-override="">群組管理員</a>和<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref" data-mc-variable-override="">授與使用者完整管理存取權</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 {{step-1-to-setup}}
 
-1. 在左側面板中，按一下&#x200B;**群組** ![](assets/groups-icon.png)。
+1. 在左側面板中，按一下&#x200B;**群組** ![群組](assets/groups-icon.png)。
 
 1. 按一下要為其建立或修改公司的群組名稱。
 1. 在左側面板中，按一下&#x200B;**公司**&#x200B;列出與群組相關聯的公司及其可能擁有的任何子群組。
@@ -86,8 +86,8 @@ ht-degree: 0%
    >
    >如果您擁有存取層級中公司的管理存取權，也可以按一下清單底部的「新增更多公司」 。 這會新增一列，讓您快速設定新公司。
 
-1. （選擇性）若要編輯或刪除公司，請至少選取一個公司，然後使用工具列按鈕來編輯![](assets/edit-icon.png)或刪除![](assets/delete.png)。
+1. （選擇性）若要編輯或刪除公司，請至少選取一個公司，然後使用工具列按鈕來編輯![編輯圖示](assets/edit-icon.png)或刪除![刪除圖示](assets/delete.png)。
 
    如需有關編輯公司的資訊，請參閱文章[建立和編輯公司](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)中的[在Workfront中建立或編輯公司](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md#adding-a-company-to-workfront)小節。
 
-1. （選擇性）若要匯出公司清單，請按一下「匯出」圖示![](assets/export.png)，然後選取您要用於匯出清單的檔案格式。
+1. （選擇性）若要匯出公司清單，請按一下「匯出」圖示![「匯出」圖示](assets/export.png)，然後選取您要用於匯出清單的檔案格式。

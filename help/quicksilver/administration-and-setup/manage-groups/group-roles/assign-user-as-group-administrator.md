@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: af8c9fc1-8398-437e-b326-3b94f6e7e7e5
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '247'
 ht-degree: 1%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 1%
 
 {{step-1-to-setup}}
 
-1. 在左側面板中，按一下&#x200B;**群組** ![](assets/groups-icon.png)。
+1. 在左側面板中，按一下&#x200B;**群組** ![群組](assets/groups-icon.png)。
 
 1. 按一下要為其指派群組管理員的群組名稱。
 1. 在標題的右上角，按一下&#x200B;**群組管理員**&#x200B;下的其中一個使用者設定檔圖片。

@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ba6a9e68-68a1-4152-b024-cd39e06d556f
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -61,9 +61,9 @@ ht-degree: 0%
 ## 使用自訂存取層級設定使用者對專案的存取權
 
 1. 開始建立或編輯存取層級，如[建立或修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)中所述。
-1. 按一下專案右側&#x200B;**檢視**&#x200B;或&#x200B;**編輯**&#x200B;按鈕上的齒輪圖示![](assets/gear-icon-settings.png)，然後在&#x200B;**微調您的設定**&#x200B;下選取您要授與的功能。
+1. 按一下專案右側&#x200B;**檢視**&#x200B;或&#x200B;**編輯**&#x200B;按鈕上的齒輪圖示![齒輪設定圖示](assets/gear-icon-settings.png)，然後在&#x200B;**微調您的設定**&#x200B;下選取您要授與的功能。
 
-   ![](assets/planner-fine-tune-your-settings-with-copy-projects.png)
+   ![微調複製專案的設定](assets/planner-fine-tune-your-settings-with-copy-projects.png)
 
    >[!NOTE]
    >

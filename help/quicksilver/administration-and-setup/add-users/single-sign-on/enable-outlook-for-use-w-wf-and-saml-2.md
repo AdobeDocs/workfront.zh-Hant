@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8a55d364-962a-4eef-8968-b2233a71cf31
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td>計劃</td> 
+   <td>規劃</td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -70,7 +70,7 @@ ht-degree: 0%
    >
    >如果啟用選項&#x200B;**允許在iframe中內嵌Workfront**，則選項&#x200B;**允許Office 365增益集中的SAML 2.0驗證**&#x200B;會變暗並啟用。
    >
-   >![](assets/if-you-enable.png)
+   >![允許內嵌選項](assets/if-you-enable.png)
    >
 
 1. 按一下「**儲存**」。

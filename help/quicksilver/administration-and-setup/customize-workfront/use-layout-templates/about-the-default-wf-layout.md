@@ -9,16 +9,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: 52877ab16210699019c82e709f288b5f98e7d811
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '627'
 ht-degree: 9%
 
 ---
 
 # 關於預設Adobe Workfront配置
 
-預設版面配置是主要功能表![](assets/main-menu-icon.png)或主要功能表![](assets/lines-main-menu.png) （如果可用）的排列、左側面板，以及Adobe Workfront管理員使用版面配置範本進行任何變更之前的檢視、群組和篩選器。
+預設版面配置是主功能表![主功能表圖示](assets/main-menu-icon.png)或主功能表![主功能表圖示](assets/main-menu-icon.png) （如果可用）的排列，在Adobe Workfront管理員使用版面配置範本進行任何變更之前，左側面板以及檢視、群組和篩選器。
 
 如需有關Workfront管理員如何藉由指派配置範本來修改使用者的預設配置的資訊，請參閱[將使用者指派給配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)。
 
@@ -48,7 +48,7 @@ ht-degree: 9%
     <th class="tg-0lax"><span style="font-weight:bold">區域圖</span></th>
     <th class="tg-0lax"><span style="font-weight:bold">左側面板專案</span></th>
     <th class="tg-0lax"><span style="font-weight:bold">系統管理員</span></th>
-    <th class="tg-0lax"><span style="font-weight:bold">規劃工具</span></th>
+    <th class="tg-0lax"><span style="font-weight:bold">規劃者</span></th>
     <th class="tg-0lax"><span style="font-weight:bold">工作者</span></th>
     <th class="tg-1wig">檢閱者</th>
     <th class="tg-1wig">請求者</th>

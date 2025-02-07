@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 86c120de-16b8-4ca8-a7a1-76ece70c0505
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1315'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ Add this at end of 2nd-to-last sentence in this^ paragraph when they add the **I
 
    在顯示的清單中，您可以看到您管理的群組及其擁有的任何子群組。 Adobe Workfront管理員可檢視所有群組。
 
-1. 選取群組，然後按一下「編輯![](assets/edit-icon.png)」、「複製![](assets/copy-icon.png)」或「刪除![](assets/delete.png)」圖示。
+1. 選取群組，然後按一下「編輯![編輯」圖示](assets/edit-icon.png)、「複製![複製」圖示](assets/copy-icon.png)或「刪除![刪除」圖示](assets/delete.png)圖示。
 
    如果您需要有關使用顯示的方塊的資訊，請參閱下列其中一項：
 

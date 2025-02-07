@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5186d266-fa9f-445d-9dcc-bc07eb147b60
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1251'
 ht-degree: 1%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 1%
 
 {{step-1-to-setup}}
 
-1. 在左側面板中，按一下&#x200B;**群組** ![](assets/groups-icon.png)。
+1. 在左側面板中，按一下&#x200B;**群組** ![群組](assets/groups-icon.png)。
 
    在顯示的清單中，您可以看到您管理的群組及其擁有的任何子群組。 Adobe Workfront管理員可檢視所有群組。
 
@@ -153,9 +153,9 @@ ht-degree: 1%
 
 {{step-1-to-setup}}
 
-1. 在左側面板中，按一下&#x200B;**群組** ![](assets/groups-icon.png)。
+1. 在左側面板中，按一下&#x200B;**群組** ![群組](assets/groups-icon.png)。
 
-1. 選取您要建立最上層群組的父群組，然後按一下「編輯」圖示![](assets/edit-icon.png)。
+1. 選取您要建立最上層群組的父群組，然後按一下「編輯」圖示![「編輯」圖示](assets/edit-icon.png)。
 1. 在出現的&#x200B;**編輯群組**&#x200B;方塊中，在&#x200B;**群組成員和群組管理員**&#x200B;下方，開始輸入您要建立最上層群組的子群組名稱，然後在其名稱右側按一下X。
 1. 按一下「**儲存**」。
 

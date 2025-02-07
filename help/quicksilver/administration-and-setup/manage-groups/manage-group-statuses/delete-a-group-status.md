@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: bfce0325-fe6e-459f-96ca-9a5c94c61ed3
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 0%
 1. 在左側面板中按一下&#x200B;**狀態**。
 1. 在顯示的狀態清單中，暫留在您要刪除的狀態上，然後在最右邊顯示&#x200B;**刪除**&#x200B;時按一下。
 
-   ![](assets/hover-click-delete.jpg)
+   ![刪除](assets/hover-click-delete.jpg)
 
 1. 在顯示的方塊中，選取一個狀態，以指定使用您要刪除之狀態的物件（專案、任務、問題和核准流程）的取代狀態。
 

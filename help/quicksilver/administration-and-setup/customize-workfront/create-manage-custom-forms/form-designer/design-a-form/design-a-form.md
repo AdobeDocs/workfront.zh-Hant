@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '6474'
+source-wordcount: '6492'
 ht-degree: 5%
 
 ---
@@ -60,10 +60,10 @@ ht-degree: 5%
 1. 按一下&#x200B;**新增自訂表格。**
 1. 選取您要附加自訂表單的物件型別，然後按一下[繼續]。****
 
-   ![](assets/choose-object-type.jpg)
+   ![選擇物件型別](assets/choose-object-type.jpg)
 
 1. 在&#x200B;**需要標題**&#x200B;區域中，輸入自訂表單標題。
-1. （選擇性）如果您想要新增更多物件型別至表單，以便附加至更多物件，請在&#x200B;**物件型別**&#x200B;後按一下&#x200B;**新增**&#x200B;圖示![](assets/add-objects-icon.png)，然後在顯示的功能表中選取您要的型別。 您可以重複此步驟，新增任意數目的物件型別。
+1. （選擇性）如果您想要新增更多物件型別至表單，以便將其附加到更多物件，請在&#x200B;**物件型別**&#x200B;後按一下&#x200B;**新增**&#x200B;圖示![新增物件圖示](assets/add-objects-icon.png)，然後在顯示的功能表中選取您想要的型別。 您可以重複此步驟，新增任意數目的物件型別。
 
    您也可以按一下物件型別上的X，將其從表單中刪除。
 
@@ -179,7 +179,7 @@ ht-degree: 5%
    * 含格式的文字
    * 描述文字
 
-   ![](assets/drag-field-to-section.png)
+   ![將欄位拖曳到節](assets/drag-field-to-section.png)
 
 1. 在畫面的右側，設定您新增之自訂欄位型別的可用選項：
 
@@ -464,7 +464,7 @@ ht-degree: 5%
    * 自動提示
    * 日期
 
-   ![](assets/drag-field-to-section.png)
+   ![將欄位拖曳到節](assets/drag-field-to-section.png)
 
 1. 在畫面的右側，設定您新增之自訂欄位型別的可用選項：
 
@@ -698,7 +698,7 @@ The Workfront Mobile app -->
    * PDF
    * 影片
 
-   ![](assets/drag-field-to-section.png)
+   ![將欄位拖曳到節](assets/drag-field-to-section.png)
 
 1. 為Widget輸入或編輯下列任一屬性：
 

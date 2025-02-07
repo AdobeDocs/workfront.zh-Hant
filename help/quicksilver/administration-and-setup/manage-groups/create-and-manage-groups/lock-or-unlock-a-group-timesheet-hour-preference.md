@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5b36106f-d521-4cc1-9f1f-647415c282b4
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -91,8 +91,8 @@ Unlike other Lock/Unlock articles that start just like this one, we need the ste
 
 1. 在出現的頁面上，執行下列任一項作業：
 
-   * 如果您希望群組下方的群組管理員能夠設定其群組的偏好設定，請解除鎖定![](assets/unlock-toggle-button.png)。
-   * 如果您希望下方的所有群組都使用您的設定進行偏好設定，請確定它已鎖定![](assets/lock-toggle-button.png) （此為預設值）。
+   * 如果您希望群組下方的群組管理員能夠設定其群組的偏好設定，請將其解除鎖定![解除鎖定切換](assets/unlock-toggle-button.png)。
+   * 如果您希望下方的所有群組都使用您的設定進行偏好設定，請確定已將其鎖定![鎖定切換](assets/lock-toggle-button.png) （此為預設值）。
 
      >[!IMPORTANT]
      >

@@ -9,9 +9,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 1. 展開類別以檢視與該類別相關的通知設定。
 
-   如果至少選取了一個通知與其他選取使用者之通知不符的使用者，則該通知的類別核取方塊包含水平線![](assets/straight-line-instead-of-checkmark.jpg)而不是核取標籤。
+   如果至少選取了一個使用者，但通知與其他選取的使用者的通知不符，則該通知的類別核取方塊包含水平線![Line而不是核取記號](assets/straight-line-instead-of-checkmark.jpg)。
 
 
 1. 按一下您希望使用者每天或立即接收的任何通知，或清除您希望他們停止接收的任何通知。
@@ -80,7 +80,7 @@ ht-degree: 0%
 
 1. 如果您選取以每日摘要傳送通知，請在&#x200B;**電子郵件每日摘要**&#x200B;後選單的&#x200B;**通知**&#x200B;區段頂端選取您想要摘要傳送的當天時間。
 
-   ![](assets/daily-digest-time.png)
+   ![每日摘要時間](assets/daily-digest-time.png)
 
    每日摘要包含符合在所選時間之前24小時通知標準的事件。 使用者會收到每種通知型別的一封每日摘要電子郵件。
 

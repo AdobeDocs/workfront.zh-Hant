@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b04e8ba5-c3f2-4838-8df1-35e90de5c7bd
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 0%
    >
    >「動作型別」下拉式功能表中的選項會依選取的稽核記錄而有所不同。
 
-   ![](assets/audit-logs.jpg)
+   ![稽核記錄](assets/audit-logs.jpg)
 
 1. 按一下&#x200B;**套用**。
 1. （選擇性）按一下&#x200B;**清除篩選器**&#x200B;以重設對篩選器所做的變更。

@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: a9f182c0-11cb-4e94-be86-b19ba5102faa
-source-git-commit: 7a2cfddf4683b5b49121bbe3987498297b963ffa
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '2075'
+source-wordcount: '2079'
 ht-degree: 0%
 
 ---
@@ -209,7 +209,7 @@ ht-degree: 0%
     </tbody> 
    </table>
 
-1. 在&#x200B;**工作流程**&#x200B;區段中，變更任何階段的名稱，並展開其設定![](assets/arrow-button.png)以進行任何必要的變更：
+1. 在&#x200B;**工作流程**&#x200B;區段中，變更任何階段的名稱並展開其設定![展開按鈕](assets/arrow-button.png)以進行任何必要的變更：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -256,7 +256,7 @@ ht-degree: 0%
 
    如果您不需要檢視圖表，可以按一下&#x200B;**隱藏圖表**。
 
-1. 在&#x200B;**共用給**&#x200B;區段中，如果您想要刪除使用者，請按一下右側的[更多![](assets/more-icon.png)]按鈕，然後按一下[移除]。****
+1. 在&#x200B;**與**&#x200B;共用區段中，如果您想要刪除使用者，請按一下右側的[更多![更多]圖示](assets/more-icon.png)按鈕，然後按一下[移除]。****
 
 ## 建立自動化工作流程範本群組 {#create-automated-workflow-template-groups}
 

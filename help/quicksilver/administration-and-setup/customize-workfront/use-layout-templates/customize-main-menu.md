@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '639'
 ht-degree: 3%
 
 ---
@@ -98,7 +98,7 @@ ht-degree: 3%
 
      >[!NOTE]
      >
-     >只有擁有Plan授權的使用者（在目前的授權模式中）或擁有Standard授權的使用者（在新的授權模式中），才能在主要功能表中看到「使用者」區域![](assets/users-icon-in-main-menu.png)。
+     >只有擁有計畫授權的使用者（在目前的授權模式中）或擁有標準授權的使用者（在新的授權模式中），才能在主要功能表中看到使用者區域![使用者圖示](assets/users-icon-in-main-menu.png)。
 
    * 請求
    * 時程表
@@ -123,9 +123,9 @@ ht-degree: 3%
 
 1. 執行下列任一項作業：
 
-   * 隱藏您不想顯示的![](assets/remove-icon---x-in-circle.png) **作用中專案**
-   * 顯示您想要顯示在主要功能表上的![](assets/add-icon-plus-in-circle.png) **可用專案**。
-   * 拖曳![](assets/move-icon---dots.png) **作用中專案**&#x200B;以變更它們在主要功能表上的顯示順序。
+   * 隱藏![隱藏圖示](assets/remove-icon---x-in-circle.png) **您不想要顯示的作用中專案**
+   * 顯示您想要顯示在主功能表上的![顯示圖示](assets/add-icon-plus-in-circle.png) **可用專案**。
+   * 拖曳![拖曳圖示](assets/move-icon---dots.png) **作用中專案**&#x200B;以變更它們在主功能表上的顯示順序。
 
 1. 按一下&#x200B;**完成**。
 

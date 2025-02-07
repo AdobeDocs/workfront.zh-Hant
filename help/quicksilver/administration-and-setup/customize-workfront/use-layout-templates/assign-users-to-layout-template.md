@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '919'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 0%
 
    最近新增的名稱會以藍色背景顯示。 當您編輯現有版面配置範本時，這會很有幫助，因為您可以區分您剛才新增的名稱與清單中已有的名稱。
 
-   資訊圖示![](assets/info-icon.png)會顯示在已指派給其他配置範本的任何使用者、工作角色、團隊或群組名稱的右側。 您可以將滑鼠停留在圖示上以檢視該配置範本的名稱，並決定是否要覆寫現有的指派。
+   資訊圖示![資訊圖示](assets/info-icon.png)會顯示在已指派給其他配置範本的任何使用者、工作角色、團隊或群組名稱的右側。 您可以將滑鼠停留在圖示上以檢視該配置範本的名稱，並決定是否要覆寫現有的指派。
 
 1. 視需要重複前兩個步驟，將版面配置範本指派給其他使用者、工作角色、團隊或群組。
 

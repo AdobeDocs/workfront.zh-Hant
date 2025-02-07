@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 作為Adobe Workfront管理員，您可以使用版面配置範本來指定哪些清單控制項會出現在篩選、檢視和分組下拉式功能表中。 這些功能表會出現在整個Workfront的上方清單中，例如專案的任務清單：
 
-![](assets/filter-view-grouping-layout-templates.png)
+![篩選檢視群組配置範本](assets/filter-view-grouping-layout-templates.png)
 
 如需配置範本的詳細資訊，請參閱[建立和管理配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)。
 
@@ -62,25 +62,25 @@ ht-degree: 0%
 ## 自訂篩選器、檢視和群組清單控制項：
 
 1. 開始使用版面配置範本，如[建立和管理版面配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)中所述。
-1. 按一下&#x200B;**自訂使用者看到的內容**&#x200B;下的向下箭頭![](assets/down-arrow-blue.png)，然後在顯示的下拉式功能表中按一下&#x200B;**清單**。
+1. 按一下&#x200B;**自訂使用者看到的內容**&#x200B;下的向下箭頭![向下箭頭](assets/down-arrow-blue.png)，然後在顯示的下拉式功能表中按一下&#x200B;**清單**。
 
-   ![](assets/customize-what-users-see-dropdown-on-pg-adobe-branding.png)
+   ![自訂使用者看到的內容](assets/customize-what-users-see-dropdown-on-pg-adobe-branding.png)
 
-1. 按一下&#x200B;**下方的向下箭頭![](assets/down-arrow-blue.png)選取要自訂的清單**，然後選取您要自訂「篩選」、「檢視」和「群組」清單控制項的Workfront物件型別。
+1. 按一下&#x200B;**下方的向下箭頭![向下箭頭](assets/down-arrow-blue.png)選取要自訂的清單**，然後選取您要自訂篩選、檢視及群組清單控制項的Workfront物件型別。
 
-   ![](assets/select-a-list-to-customize-menu-on-pg-adobe-branding.png)
+   ![選取要自訂的清單](assets/select-a-list-to-customize-menu-on-pg-adobe-branding.png)
 
    >[!NOTE]
    >
    >如果您選取「專案」作為清單來自訂，然後停用「篩選」區段中的「我所在的專案」或「我擁有的專案」，使用者將無法再看見或無法使用該篩選：
    >
-   >* 在按一下清單上方的篩選圖示![](assets/filter-nwepng.png)時所顯示的篩選清單中：
+   >* 在按一下清單上方的篩選圖示![篩選圖示](assets/filter-nwepng.png)時所顯示的篩選清單中：
    >   
-   >  ![](assets/disable-filters-projects-im-on-or-own.png)
+   >  ![停用篩選器](assets/disable-filters-projects-im-on-or-own.png)
    >   
    >* 在專案區域標題的標題中：
    >   
-   >  ![](assets/disable-filter-pills.png)
+   >  ![停用篩選器按鈕](assets/disable-filter-pills.png)
 
 1. （選擇性）如果要變更版面配置範本的預設篩選、檢視或群組，請將滑鼠游標停留在篩選、檢視或群組上，然後按一下&#x200B;**設定為預設**。
 

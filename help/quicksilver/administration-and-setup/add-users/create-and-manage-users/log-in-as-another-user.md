@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '747'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ Some users, such as executives, need to be able to control which administrators 
    >
    >* 如果您是群組管理員，則只能以您管理之群組中的使用者身分登入。 此外，您必須在存取層級中啟用「使用者管理員（群組使用者）」許可權：
    >   
-   >  ![](assets/group-admin-user.png)
+   >  ![群組管理員使用者](assets/group-admin-user.png)
    >   
    >  此設定預設為停用。 如需詳細資訊，請參閱[建立或修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
    >   
@@ -153,7 +153,7 @@ Workfront提供機制，可在管理員以其他使用者身份登入時追蹤�
 ### 檢視稽核資訊 {#view-audit-information}
 
 1. 以Workfront管理員或群組管理員身分登入Workfront。
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
+1. 按一下Adobe Workfront右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![齒輪設定圖示](assets/gear-icon-settings.png)。
 
 1. 按一下&#x200B;**登入身份，**，然後按一下&#x200B;**存取記錄檔**&#x200B;索引標籤。
 

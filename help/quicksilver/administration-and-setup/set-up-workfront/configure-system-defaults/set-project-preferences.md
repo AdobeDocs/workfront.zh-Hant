@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: 90405d79f605d788331cb7a04ebf354dc4379bf5
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '2693'
+source-wordcount: '2695'
 ht-degree: 1%
 
 ---
@@ -69,7 +69,7 @@ ht-degree: 1%
 1. 在左側面板中，按一下&#x200B;**[!UICONTROL 專案偏好設定]** > **[!UICONTROL 專案]**。
 
 1. 在&#x200B;**專案偏好設定**&#x200B;頁面上，繼續下列四個區段之一，設定[!UICONTROL 專案狀態]、[!UICONTROL 時間表]、[!UICONTROL 業務案例]及[!UICONTROL 死亡後期限]的偏好設定。
-1. 如果您希望整個組織的所有群組都使用相同的專案偏好設定，請確定每個偏好設定都鎖定了![](assets/lock-toggle-button.png) （這是預設值）。
+1. 如果您希望整個組織的所有群組都使用相同的專案偏好設定，請確定每個偏好設定都已鎖定![鎖定切換](assets/lock-toggle-button.png) （這是預設值）。
 
    >[!IMPORTANT]
    >

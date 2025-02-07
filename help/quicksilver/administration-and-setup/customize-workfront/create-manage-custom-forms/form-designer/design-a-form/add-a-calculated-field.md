@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 57b76a404b0c965038d48a52a20521883c9f4b53
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '2403'
+source-wordcount: '2422'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ ht-degree: 0%
 >
 >變更計算運算式可能會導致物件上的欄位值過時。 為確保您一律檢視這些欄位中的最新計算，請執行下列任一項作業：
 >
->* 在儲存您已在附加自訂表單中編輯資料的物件後，在物件首頁面上按一下「更多」圖示![](assets/more-icon.png)，然後按一下「重新計算自訂運算式」。
+>* 在儲存您已在附加自訂表單中編輯資料的物件後，在物件首頁面上按一下「更多」圖示![「更多」圖示](assets/more-icon.png)，然後按一下「重新計算自訂運算式」。
 >* 選取大量編輯物件時重新計算自訂運算式選項。
 >* 在自訂表單上編輯計算的自訂欄位時，選取「更新先前的計算」選項。
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 
 1. 在熒幕左上方，按一下&#x200B;**欄位程式庫**。
 
-   ![](assets/field-library.png)
+   ![欄位程式庫](assets/field-library.png)
 
 1. 使用搜尋方塊或展開&#x200B;**計算**&#x200B;區段以找出所需的計算欄位，然後拖曳您要顯示在自訂表單中的欄位。
 
@@ -142,7 +142,7 @@ ht-degree: 0%
 
 1. 在畫面左側，找到&#x200B;**已計算**，並將其拖曳至畫布上的區段。
 
-   ![](assets/drag-field-to-section.png)
+   ![將欄位拖曳到節](assets/drag-field-to-section.png)
 
 1. 在畫面的右側，設定您新增之自訂欄位型別的可用選項：
 
@@ -296,14 +296,14 @@ ht-degree: 0%
       >您可以執行下列任一項作業，以取得計算的協助：
       > 
       >* 將滑鼠停留在計算中的運算式上可檢視說明、如何使用的範例，以及文章[計算資料運算式概觀](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)中其他資訊的「瞭解更多」連結。
-      >  ![](assets/hover-expression-help-text.jpg)
+      >  ![運算式說明文字](assets/hover-expression-help-text.jpg)
       >* 使用顏色編碼來識別您新增的元件。 運算式會以藍色顯示，而欄位則會以綠色顯示。
-      >  ![](assets/colors-fields-expressions.jpg)
+      >  欄位運算式的![色彩](assets/colors-fields-expressions.jpg)
       >* 立即尋找以粉紅色反白顯示的計算錯誤。 您可以將滑鼠停留在醒目提示的錯誤上，以顯示其原因的簡短說明。
-      >  ![](assets/error-help.png)
+      >  ![錯誤說明](assets/error-help.png)
       >* 在計算下方的區域中，預覽現有Workfront物件的結果。
       ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
-      >  ![](assets/preview-calc.jpg)
+      >  ![預覽計算](assets/preview-calc.jpg)
       >* 使用左邊顯示的行號在長計算中參考運算式。
 
 +++

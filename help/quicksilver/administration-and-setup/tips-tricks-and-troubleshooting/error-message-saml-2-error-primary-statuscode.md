@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1ec18638-97b8-4307-9cea-05b28395eaee
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '361'
 ht-degree: 1%
 
 ---
@@ -70,8 +70,8 @@ ht-degree: 1%
 1. 在左窗格中選取&#x200B;**[!UICONTROL 信任關係]** > **[!UICONTROL 信賴方信任]**。
 
 1. 以滑鼠右鍵按一下與[!DNL Adobe Workfront]相關的信賴方信任，然後選取&#x200B;**[!UICONTROL 內容]**。
-1. 按一下&#x200B;**[!UICONTROL 進階]**&#x200B;標籤，然後從&#x200B;**[!UICONTROL 安全雜湊演演算法]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL SHA-1]**。\
-   ![](assets/1-350x287.png)
+1. 按一下&#x200B;**[!UICONTROL 進階]**&#x200B;標籤，然後從&#x200B;**[!UICONTROL 安全雜湊演演算法]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL SHA-1]**。
+   ![SHA-1](assets/1-350x287.png)
 
 ## 原因2： ADFS簽署憑證即將到期，並已由日期重疊的新憑證取代
 

@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '2185'
+source-wordcount: '2189'
 ht-degree: 2%
 
 ---
@@ -82,13 +82,13 @@ ht-degree: 2%
 
 {{step-1-to-setup}}
 
-1. 在左側面板中，按一下&#x200B;**群組** ![](assets/groups-icon.png)。
+1. 在左側面板中，按一下&#x200B;**群組** ![群組圖示](assets/groups-icon.png)。
 
 1. 按一下您要為其設定解除鎖定任務和問題偏好設定的群組名稱。
 1. 在顯示的群組頁面上，在左側面板中按一下&#x200B;**任務和問題偏好設定**。
 1. 在出現的頁面上，繼續這些步驟下列出的5個區段之一，以設定[新增任務預設值]、[問題]、[刪除]、[實際日期]和[存取]區域的設定，然後按一下[儲存]。****
 
-   如果您將滑鼠指標暫留在鎖定圖示![](assets/lock-toggle-button-dimmed.png)上以取得需要設定的偏好設定，且顯示工具提示以告知您已鎖定，您可以要求Workfront管理員為組織中的所有群組解除鎖定。
+   如果您將滑鼠游標停留在鎖定圖示![鎖定圖示](assets/lock-toggle-button-dimmed.png)上以取得需要設定的偏好設定，且顯示工具提示以告知您已鎖定，您可以要求Workfront管理員為組織中的所有群組解除鎖定。
 
    解鎖後，您和其他群組管理員可以單獨為您自己的群組設定它。 此外，您也可以為群組及群組下方的任何子群組鎖定它。
 
@@ -191,7 +191,7 @@ ht-degree: 2%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">允許使用者移動具有記錄時數的任務和問題</td> 
+      <td role="rowheader">允許使用者移動具有時數記錄的任務和問題</td> 
       <td> <p> 可讓您確定您是否允許移動記錄時數的任務或問題。 依預設，會選取此選項。</p> 
        <p>請考量下列事項：</p> 
         <ul> 

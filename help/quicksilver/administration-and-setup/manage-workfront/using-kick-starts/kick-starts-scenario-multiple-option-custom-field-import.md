@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '2155'
+source-wordcount: '2181'
 ht-degree: 0%
 
 ---
@@ -154,7 +154,7 @@ ht-degree: 0%
    >
    >如需Workfront資料庫中物件名稱的相關資訊，請參閱[API總管](../../../wf-api/general/api-explorer.md)。
    >
-   >![](assets/sheets-included-in-custom-data-export-kick-start-file.png)
+   >![資料匯出中包含的工作表](assets/sheets-included-in-custom-data-export-kick-start-file.png)
 
 
 1. 請確認下列資訊的格式正確：
@@ -206,7 +206,7 @@ ht-degree: 0%
 
    如需詳細資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
-   ![](assets/parameter-sheet-filled-out-kick-starts.png)
+   ![參數列已填寫](assets/parameter-sheet-filled-out-kick-starts.png)
 
 1. 選取&#x200B;**`POPT Parameter Options`**&#x200B;工作表，並在下列必要欄位中新增每個自訂欄位選項的相關資訊：
 
@@ -228,7 +228,7 @@ ht-degree: 0%
    * **`setLabel`**&#x200B;和`**setValue`**欄通常包含相同的資訊，且應反映Workfront UI中所需的名稱。 選項的值是顯示在報表中的名稱，例如，而標籤在附加到物件時顯示在自訂表單中。 如需詳細資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
    * **`setIsHidden`** =若要隱藏任何選項，請輸入`TRUE`。
 
-   ![](assets/parameter-option-sheet-filled-out-kick-starts.png)
+   ![參數列已填寫](assets/parameter-option-sheet-filled-out-kick-starts.png)
 
 
 1. （選擇性）如果您也想要建立自訂表單，以便稍後在其中新增欄位，請選取&#x200B;**`CTGY Category`**&#x200B;工作表並更新自訂表單資訊的下列必要欄：
@@ -239,7 +239,7 @@ ht-degree: 0%
 
    若要找出群組的`ID`，您可以建置群組報告並在檢視中新增`ID`欄位，或導覽至群組並尋找該群組的URL。 群組ID會位於群組頁面的URL中。 例如，如果群組的URL是`https://companyName.my.workfront.com/group/575b000800467a6f66e747932c807464/members`，則群組識別碼是`575b000800467a6f66e747932c807464`。
 
-   * **`setCatObjCode` **=這是您要建立表單之物件型別的物件程式碼。 從下列選項輸入代碼：
+   * **`setCatObjCode`**=這是您要建立表單之物件型別的物件程式碼。 從下列選項輸入代碼：
       * 公司&#x200B;**`CMPY`**
       * 任務的&#x200B;**`TASK`**
       * 專案的&#x200B;**`PROJ`**
@@ -259,7 +259,7 @@ ht-degree: 0%
 
    * **`setName`** =這是您想要在Workfront介面中顯示的自訂表單名稱。
 
-     ![](assets/category-sheet-filled-out-kick-starts.png)
+     ![已填寫的類別表](assets/category-sheet-filled-out-kick-starts.png)
 
 1. 將試算表儲存為電腦上的.xls或.xlsx檔案。 您的Excel試算表已填滿，現在可以匯入Workfront了。
 
@@ -277,11 +277,11 @@ ht-degree: 0%
 1. 在電腦上瀏覽您準備的Excel試算表，並在找到時加以選取。 當Workfront辨識出檔案時，上傳按鈕會變成藍色。
 1. 按一下&#x200B;**上傳。**
 
-   ![](assets/kick-start-file-selected-and-upload-blue-button.png)
+   ![已選取檔案並上傳按鈕](assets/kick-start-file-selected-and-upload-blue-button.png)
 
 1. 系統會顯示匯入成功的通知。 視您匯入的資訊量而定，此步驟可能需要幾秒鐘到一分鐘的時間。
 
-   ![](assets/kick-start-successful.png)
+   ![快速啟動成功](assets/kick-start-successful.png)
 
    新的自訂欄位和表單現在包含在您的Workfront系統中。 您可以在「設定」的「自訂Forms」區域中找到它們。
 
@@ -294,7 +294,7 @@ ht-degree: 0%
 
 1. （條件式）如果匯入失敗，您會收到錯誤訊息，指出問題所在。 請嘗試識別發生問題的欄位、工作表和列號，並修正Excel檔案中的資訊，然後再次嘗試匯入檔案。
 
-   ![](assets/kick-start-error.png)
+   ![快速啟動錯誤](assets/kick-start-error.png)
 
 1. （視條件而定）根據問題性質（如錯誤訊息所述），某些資訊可能已匯入。 您必須執行下列任一項作業，才能再次匯入頁面：
 

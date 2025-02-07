@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1150'
 ht-degree: 2%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td valign="top"> <p>Acme， Co</p> <p>Workfront公司</p> <p><em>您的公司</em> </p> <p>XYZ， Inc.</p> </td> 
-   <td valign="top"> <p valign="top" rowspan="7">財務</p> <p valign="top" rowspan="7">IT </p> <p valign="top" rowspan="7">行銷 </p> <p valign="top" rowspan="7">銷售</p> </td> 
+   <td valign="top"> <p valign="top" rowspan="7">財務</p> <p valign="top" rowspan="7">IT </p> <p valign="top" rowspan="7">行銷 </p> <p valign="top" rowspan="7">銷售額</p> </td> 
    <td valign="top"> <p valign="top">業務分析師</p> <p valign="top">Controller Creative</p> <p valign="top">設計師</p> <p valign="top">資源管理員</p> <p valign="top">Scrum Master</p> <p valign="top">技術撰稿人</p> <p valign="top">Web開發人員</p> </td> 
   </tr> 
  </tbody> 
@@ -117,7 +117,7 @@ ht-degree: 2%
 | **密碼** | 更新我 |
 | **存取** | 服務台 |
 | **公司** | &lt;*您的公司>* |
-| **主群組** | 銷售 |
+| **主群組** | 銷售額 |
 | **工作角色** | 銷售代表 |
 
 {style="table-layout:auto"}
@@ -183,69 +183,69 @@ ht-degree: 2%
 
 1. 前往「公司」表。
 
-   除非系統中已有公司，否則應留空。![](assets/cmpysheet-350x16.png)
+   除非系統中已有公司，否則應留空。 ![公司工作表](assets/cmpysheet-350x16.png)
 
-   ![](assets/companyid--1--350x78.png)
+   ![公司ID](assets/companyid--1--350x78.png)
 
 1. 在&#x200B;**isNew**&#x200B;資料行中指定TRUE。
 1. 對每個要新增的公司重複此動作。 （在此範例中，請針對列3-6完成此動作，因為將新增4家公司）。
 
-   ![](assets/cmpyisnew-350x86.png)
+   ![公司是新的](assets/cmpyisnew-350x86.png)
 
 1. 指定唯一識別碼。
 
    您必須針對ID欄的每一列執行此作業。 建立新記錄時，從1開始的整數可正常運作。
 
-   ![](assets/cmpyisnew-350x86.png)
+   ![公司是新的](assets/cmpyisnew-350x86.png)
 
 1. 設定名稱。
 
    在&#x200B;**setName**&#x200B;欄中指定每個客戶的名稱。
 
-   ![](assets/companyid-350x78.png)
+   ![公司ID](assets/companyid-350x78.png)
 
 1. 移至「群組」工作表。
 
    除非您已在Workfront中建立群組，否則此工作表應該僅顯示與Workfront的每個帳戶布建的「預設群組」。
 
-   ![](assets/groupsheet-350x15.png) ![](assets/emptygroupsheet-350x85.png)
+   ![群組工作表](assets/groupsheet-350x15.png) ![空白群組工作表](assets/emptygroupsheet-350x85.png)
 
 1. 設定&#x200B;**isNew**&#x200B;欄。根據情境，將匯入4個群組，因此請為&#39;isNew&#39;欄的第4到7列指定TRUE。
 1. 指定唯一識別碼。
 
    您必須針對ID欄的每一列執行此作業。 建立新記錄時，從1開始的整數可正常運作。
 
-   ![](assets/groupids-350x85.png)
+   ![群組ID](assets/groupids-350x85.png)
 
 1. 設定名稱。
 
    指定&#x200B;**setName**&#x200B;欄中每個部門的名稱。
 
-   ![](assets/groupnames-350x85.png)
+   ![群組名稱](assets/groupnames-350x85.png)
 
    指定角色資訊。 前往「角色」角色表。
 
 1. 除非您已建立或刪除帳戶中的角色，否則此工作表應顯示8個已布建每個Workfront帳戶的角色。
 
-   ![](assets/groupnames-350x85.png)
+   ![群組名稱](assets/groupnames-350x85.png)
 
 1. 設定True陳述式。
 
    正在匯入7個工作角色，在「isNew」欄的列12到18中輸入TRUE。
 
-   ![](assets/roleisnew-350x104.png)
+   ![角色是新的](assets/roleisnew-350x104.png)
 
 1. 指定唯一識別碼。
 
    您必須針對ID欄的每一列執行此作業。 建立新記錄時，從1開始的整數可正常運作。
 
-   ![](assets/usersheet-350x16.png)
+   ![使用者工作表](assets/usersheet-350x16.png)
 
-   ![](assets/roleisnew--1--350x104.png)
+   ![角色是新的](assets/roleisnew--1--350x104.png)
 
 1. 在setName欄中鍵入每個角色的名稱。
 
-   ![](assets/roleisnew-350x104.png)
+   ![角色是新的](assets/roleisnew-350x104.png)
 
 1. 視需要提供其他詳細資訊。
 
@@ -255,23 +255,23 @@ ht-degree: 2%
 
    除非您已在您的帳戶中建立使用者，否則本工作表應該僅顯示已布建每個Workfront帳戶的「管理員使用者」。
 
-   ![](assets/rolenames-350x104.png) ![](assets/emptyusersheet-350x52.png)
+   ![角色名稱](assets/rolenames-350x104.png) ![空白的使用者工作表](assets/emptyusersheet-350x52.png)
 
 1. 在&#39;isNew&#39;欄的列4到列9中指定TRUE，設定True值，因為有6個使用者正在匯入。
 
-   ![](assets/userisnew-350x52.png)
+   ![使用者是新使用者](assets/userisnew-350x52.png)
 
 1. 在ID欄的每一列中指定唯一ID，以設定唯一ID。 通常從1開始的整數對於新記錄來說很有效。
 
-   ![](assets/userisnew-350x52.png)
+   ![使用者是新使用者](assets/userisnew-350x52.png)
 
 1. 在&#39;setFirstName&#39;和&#39;setLastName&#39;欄中輸入每個使用者的名稱。
 
-   ![](assets/usernames-350x52.png)
+   ![使用者名稱](assets/usernames-350x52.png)
 
 1. 在「setEmail」、「setPassword」和「setUsername」欄中指定值，以設定詳細值。
 
-   ![](assets/usercredentials-350x52.png)
+   ![使用者認證](assets/usercredentials-350x52.png)
 
 1. 指定存取層級值。
 
@@ -279,13 +279,13 @@ ht-degree: 2%
 
    對每個使用者和存取層級重複此步驟。
 
-   ![](assets/copyalid-350x171.png) ![](assets/pastealid-350x59.png)
+   ![複製存取層級ID](assets/copyalid-350x171.png) ![貼上存取層級ID](assets/pastealid-350x59.png)
 
 1. 指定主群組詳細資料。
 
    根據情境，Chris Manning屬於行銷群組。 在「群組群組」工作表上，找到「行銷」群組的ID，將其複製到剪貼簿，然後在「使用者」工作表上將其貼到Chris列上的&#x200B;**setHomeGroupID**&#x200B;欄。&#x200B;URL對每個使用者和群組指派重複此步驟。
 
-   ![](assets/copygroupid-1-350x133.png) ![](assets/pastegroupid-350x59.png)
+   ![複製群組識別碼](assets/copygroupid-1-350x133.png) ![貼上群組識別碼](assets/pastegroupid-350x59.png)
 
 1. 指定公司詳細資料。
 
@@ -293,17 +293,17 @@ ht-degree: 2%
 
    對每個使用者和群組指派重複此步驟。
 
-   ![](assets/companyid--1--350x78.png)
+   ![公司ID](assets/companyid--1--350x78.png)
 
-   ![](assets/pastecompanyid-350x84.png)
+   ![貼上公司ID](assets/pastecompanyid-350x84.png)
 
 1. 指定工作角色詳細資訊。
 
    根據情況，Chris Manning將擔任Business Analyst角色。 在「角色角色」工作表上，找到「業務分析員」角色的ID，將其複製到剪貼簿，然後在「使用者」工作表上，將其貼到Chris列上的「setRoleID」欄。&#x200B;URL對每個使用者和群組指派重複此步驟。
 
-   ![](assets/copyroleid-350x149.png)
+   ![複製角色ID](assets/copyroleid-350x149.png)
 
-   ![](assets/pasteroleid-350x95.png)
+   ![貼上角色ID](assets/pasteroleid-350x95.png)
 
 1. 視需要填寫其他使用者詳細資訊，然後儲存檔案。
 1. 匯入Excel檔案。

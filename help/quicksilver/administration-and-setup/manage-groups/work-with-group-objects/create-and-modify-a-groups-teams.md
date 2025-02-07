@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51967cd7-962e-4354-a04b-6df4e31e70c6
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1018'
 ht-degree: 3%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計劃 </p> <p>您必須是群組的群組管理員或Workfront管理員。 如需詳細資訊，請參閱<a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref" data-mc-variable-override="">群組管理員</a>和<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref" data-mc-variable-override="">授與使用者完整管理存取權</a>。</p> </td> 
+   <td> <p>規劃 </p> <p>您必須是群組的群組管理員或Workfront管理員。 如需詳細資訊，請參閱<a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref" data-mc-variable-override="">群組管理員</a>和<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref" data-mc-variable-override="">授與使用者完整管理存取權</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -54,10 +54,10 @@ ht-degree: 3%
 
 {{step-1-to-setup}}
 
-1. 在左側面板中，按一下&#x200B;**群組** ![](assets/groups-icon.png)。
+1. 在左側面板中，按一下&#x200B;**群組** ![群組](assets/groups-icon.png)。
 
 1. 按一下要為其建立或修改專案團隊的群組名稱。
-1. 在左側面板中，按一下&#x200B;**團隊** ![](assets/teams.png)以列出與群組及其可能擁有的任何子群組相關聯的團隊。
+1. 在左側面板中，按一下&#x200B;**團隊** ![團隊](assets/teams.png)，列出與群組及其可能擁有的任何子群組相關聯的團隊。
 
 1. 執行下列任一項作業：
 
@@ -100,7 +100,7 @@ ht-degree: 3%
       </tbody> 
      </table>
 
-   * **編輯團隊**：至少選取一個團隊，按一下&#x200B;****「編輯」圖示![](assets/edit-icon.png)，然後使用下列選項進行設定：
+   * **編輯團隊**：請至少選取一個團隊，按一下&#x200B;****「編輯」圖示![「編輯」圖示](assets/edit-icon.png)，然後使用下列選項進行設定：
 
      <table style="table-layout:auto"> 
       <col> 
@@ -149,5 +149,5 @@ ht-degree: 3%
       </tbody> 
      </table>
 
-   * **刪除團隊**：請至少選取一個團隊，然後按一下[刪除]圖示![](assets/delete.png)。
-   * **匯出小組清單**：按一下&#x200B;**匯出** ![](assets/export.png)，然後選取您要用於匯出清單的檔案格式。
+   * **刪除團隊**：請至少選取一個團隊，然後按一下「刪除」圖示![「刪除」圖示](assets/delete.png)。
+   * **匯出團隊清單**：按一下&#x200B;**匯出** ![匯出圖示](assets/export.png)，然後選取您要用於匯出清單的檔案格式。

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 05c32b6f-52e1-46a7-9011-633713422f3d
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '594'
 ht-degree: 0%
 
 ---
@@ -85,8 +85,8 @@ ht-degree: 0%
 
 1. 在出現的頁面上，針對系統層級上已解鎖的偏好設定或群組上方的群組執行下列任一動作：
 
-   * 如果您希望群組下方的群組管理員能夠設定其群組的偏好設定，請解除鎖定![](assets/unlock-toggle-button.png)。
-   * 如果您希望下方的所有群組都使用您的設定進行偏好設定，請確定它已鎖定![](assets/lock-toggle-button.png)。
+   * 如果您希望群組下方的群組管理員能夠設定其群組的偏好設定，請將其解除鎖定![解除鎖定切換](assets/unlock-toggle-button.png)。
+   * 如果您希望下方的所有群組都使用您的設定進行偏好設定，請確定它已被鎖定![鎖定切換](assets/lock-toggle-button.png)。
 
      >[!IMPORTANT]
      >

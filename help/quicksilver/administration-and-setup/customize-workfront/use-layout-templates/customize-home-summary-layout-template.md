@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 75aaa531dba8037ed75c0d6baa6d7c69ec4cfefd
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '770'
 ht-degree: 2%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 2%
 
 1. 開始使用版面配置範本，如[建立和管理版面配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)中所述。
 
-1. 按一下&#x200B;**自訂使用者看到的內容**&#x200B;下的向下箭頭![](assets/dropdown-arrow.png)，然後按一下&#x200B;**摘要面板**。
+1. 按一下&#x200B;**自訂使用者看到的內容**&#x200B;下的向下箭頭![向下箭頭](assets/dropdown-arrow.png)，然後按一下&#x200B;**摘要面板**。
 
 1. 在下方顯示的清單中，按一下您要自訂「摘要」面板的物件型別。
 
@@ -132,15 +132,15 @@ ht-degree: 2%
 
 1. （視條件而定）如果您在上一步中按一下任務或問題，請選取您要自訂的任務或問題類別。
 
-   ![](assets/choose-cat-cstmz-nwe-adobe-branding.png)
+   ![選擇要自訂的類別](assets/choose-cat-cstmz-nwe-adobe-branding.png)
 
 1. （視條件而定）如果出現「**設定主要動作」按鈕**」下拉式功能表（如果您在左側清單中選取「**任務**」或「**問題**」），請在使用者檢視任務或問題時，按一下「摘要」面板中您希望使用者可用的主要動作（**完成**&#x200B;或&#x200B;**狀態**）。
 
-   ![](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
+   ![設定主要動作](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
 
-1. 新增![](assets/add-item-plus-in-circle-blue.png)或隱藏所選物件型別的![](assets/close-or-hide---x.png)欄位。
+1. 新增![新增專案](assets/add-item-plus-in-circle-blue.png)或隱藏所選物件型別的![隱藏專案](assets/close-or-hide---x.png)欄位。
 
-   ![](assets/lt-home-add-hide-fields-adobe-branding.png)
+   ![新增和隱藏欄位](assets/lt-home-add-hide-fields-adobe-branding.png)
 
 1. 重複步驟3-6以自訂任何其他物件型別的「摘要」面板。
 1. 按一下左下角附近的&#x200B;**全域設定**，然後啟用或停用摘要中與Adobe Workfront物件相關的下列任何選項：

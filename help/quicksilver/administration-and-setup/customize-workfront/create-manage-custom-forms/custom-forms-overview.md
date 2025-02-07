@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '382'
 ht-degree: 12%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 12%
 
 例如，您可以附加名為「行銷內容研究」的自訂表單以附加至專案，讓專案上的使用者可以請求專案的行銷內容：
 
-![](assets/see-image-details-page.png)
+![詳細資料頁面](assets/see-image-details-page.png)
 
 ## 如何建立自訂表格
 
@@ -80,7 +80,7 @@ Workfront為每種物件型別提供許多內建欄位。
 * 專案組合
 * 費用
 * 群組
-* 反覆項目
+* 疊代
 * 計費記錄
 
 如需將自訂表單附加至物件的詳細資訊，請參閱[將自訂表單新增至物件](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)。

@@ -1,5 +1,5 @@
 ---
-title: 使用 [!DNL Adobe Experience Manager] 舊版聯結器設定 [!DNL Workfront]
+title: '使用 [!DNL Adobe Experience Manager] 舊版聯結器設定 [!DNL Workfront] '
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 024b8606-a9b7-413a-b393-8e5cdff37dd4
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1875'
+source-wordcount: '1877'
 ht-degree: 0%
 
 ---
@@ -323,7 +323,7 @@ ht-degree: 0%
 
 1. 按一下「**[!UICONTROL 群組]**」標籤。
 
-   ![](assets/groupstab.png)
+   ![群組標籤](assets/groupstab.png)
 
 1. 確定使用者至少屬於一個存取層級包含[!UICONTROL 建立]和[!UICONTROL 刪除]許可權的[!DNL Workfront]群組。
 

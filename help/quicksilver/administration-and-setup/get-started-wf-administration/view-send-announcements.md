@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 413e3051-fcb5-44d7-b6bd-6b05d39935e8
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td>計劃</td> 
+   <td>規劃</td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 1. 按一下Workfront介面右上角的&#x200B;**通知**&#x200B;圖示，然後按一下&#x200B;**所有宣告**，以移至「宣告」頁面。
 
-   ![](assets/announcement-access-350x212.png)
+   ![所有宣告](assets/announcement-access-350x212.png)
 
 1. 在&#x200B;**公告**&#x200B;頁面上，選取您要轉寄的訊息。
 1. 按一下&#x200B;**轉寄**。
@@ -79,7 +79,7 @@ ht-degree: 0%
 
 1. 按一下Workfront介面右上角的&#x200B;**通知**&#x200B;圖示，然後按一下&#x200B;**所有宣告**，以移至「宣告」頁面。
 
-   ![](assets/announcement-access-350x212.png)
+   ![所有宣告](assets/announcement-access-350x212.png)
 
 1. 在&#x200B;**公告**&#x200B;頁面上，按一下&#x200B;**新公告。**
 

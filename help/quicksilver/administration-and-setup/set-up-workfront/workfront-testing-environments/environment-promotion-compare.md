@@ -8,9 +8,10 @@ description: 您可以跨環境比較物件，以確保您的環境推進套件�
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 2ff7a8b0ae3cc1f641c0d7c0b1384548c9603423
+exl-id: 085b0f04-5a9c-49b9-86d7-2363731ee067
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
@@ -85,7 +86,7 @@ ht-degree: 0%
 
 若要檢視特定物件差異：
 
-1. 按一下該物件行中的放大鏡圖示![](assets/compare-icon.png)。
+1. 按一下該物件行中的放大鏡圖示![比較圖示](assets/compare-icon.png)。
 
    隨即開啟一個視窗，其中包含該物件的所有欄位。 差異會以紅色標示。
 

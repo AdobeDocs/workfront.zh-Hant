@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 7%
+source-wordcount: '899'
+ht-degree: 8%
 
 ---
 
@@ -89,7 +89,7 @@ ht-degree: 7%
 >
 >您可以在更新摘要中追蹤最多300個內建和自訂欄位。 若您正在追蹤最大欄位數，且想要追蹤未顯示在[!UICONTROL 所有欄位]子標籤中的其他欄位，您必須先移除部分已追蹤的欄位，才能追蹤新欄位。 如需有關從更新欄位移除欄位的詳細資訊，請參閱[移除您不想追蹤的欄位](#remove-fields-that-you-don-t-want-tracked)。
 
-1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![](assets/gear-icon-settings.png)。
+1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![齒輪設定圖示](assets/gear-icon-settings.png)。
 
 1. 在左側的面板中，按一下&#x200B;**[!UICONTROL 介面]** > **[!UICONTROL 更新摘要]**。
 
@@ -111,7 +111,7 @@ ht-degree: 7%
 
 您可以移除不希望系統透過[!DNL Workfront]介面追蹤特定物件型別的欄位。
 
-1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![](assets/gear-icon-settings.png)。
+1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![齒輪設定圖示](assets/gear-icon-settings.png)。
 
 1. 按一下&#x200B;**[!UICONTROL 介面]** > **[!UICONTROL 更新摘要]**。
 
@@ -198,7 +198,7 @@ ht-degree: 7%
 
 若要設定您要[!DNL Workfront]追蹤的動作：
 
-1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![](assets/gear-icon-settings.png)。
+1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![齒輪設定圖示](assets/gear-icon-settings.png)。
 
 1. 按一下&#x200B;**[!UICONTROL 介面]** > **[!UICONTROL 更新摘要]**。
 

@@ -10,9 +10,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 7d909976-d3ff-4e60-9158-c3bffe498e6e
-source-git-commit: 321ffac87bd694325dfb05e4019b25479f58684a
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -97,9 +97,9 @@ Workfront管理員可啟用Workfront與Frame.io之間的整合，方法是在「
 
 {{step-1-to-users}}
 
-1. 選取一或多個使用者，然後按一下&#x200B;**編輯**&#x200B;圖示![](assets/edit-icon.png)。
+1. 選取一或多個使用者，然後按一下&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)。
 1. 在「存取」區段中，啟用「新增至Frame.io中的專案」核取方塊，然後在下拉式選單中選取&#x200B;**是**。
-   ![](assets/add-to-frame-project.png)
+   ![新增到框架專案](assets/add-to-frame-project.png)
 
    >[!NOTE]
    >

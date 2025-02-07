@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: e13e3479-391f-4aec-b998-e9b6057f256b
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '932'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td>計劃</td> 
+   <td>規劃</td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -88,9 +88,9 @@ ht-degree: 0%
 
 1. 選取在其名稱后面顯示&#x200B;**已取消註冊**&#x200B;標籤的使用者。
 
-   ![](assets/unreg-user-qs-350x221.png)
+   ![已取消註冊](assets/unreg-user-qs-350x221.png)
 
-1. 按一下「更多」圖示![](assets/more-icon.png)，然後按一下&#x200B;**提醒使用者註冊**。
+1. 按一下「更多」圖示![「更多」圖示](assets/more-icon.png)，然後按一下&#x200B;**「提醒使用者註冊」**。
 
    系統會傳送電子郵件邀請給新使用者，其中包含可用來建立其Workfront密碼的新連結。
 

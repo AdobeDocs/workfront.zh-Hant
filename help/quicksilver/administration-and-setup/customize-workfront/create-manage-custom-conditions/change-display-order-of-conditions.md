@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b9a489e8-0ffe-4f52-bbd9-172e7273048c
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,11 @@ ht-degree: 0%
 
 * 當使用者編輯專案時
 
-  ![](assets/change-condition-edit-project.png)
+  編輯專案時![變更條件](assets/change-condition-edit-project.png)
 
 * 當使用者變更任務或問題的條件時
 
-  ![](assets/change-conditions-list-dropdown-only.png)
+  ![變更清單](assets/change-conditions-list-dropdown-only.png)中的狀況
 
 ## 存取需求
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 1. 選取&#x200B;**專案**、**任務**&#x200B;或&#x200B;**問題**&#x200B;索引標籤。
 
-1. 拖曳![](assets/move-icon---dots.png)條件以變更其順序。
+1. 拖曳![移動圖示](assets/move-icon---dots.png)條件以變更其順序。
 
    新訂單會自動儲存。
 

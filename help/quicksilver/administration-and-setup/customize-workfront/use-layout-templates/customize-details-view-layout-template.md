@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
-作為Adobe Workfront管理員，您可以使用版面配置範本來決定當使用者在檢視任務、問題、檔案、計畫或投資組合時按一下左側面板中的詳細資訊圖示![](assets/project-details-icon.png)時會出現哪些資訊。
+作為Adobe Workfront管理員，您可以使用版面配置範本來決定當使用者在檢視任務、問題、檔案、方案或投資組合時，按一下左側面板中的詳細資訊圖示![詳細資訊圖示](assets/project-details-icon.png)時會出現哪些資訊。
 
 <!--
 or billing record
@@ -38,22 +38,22 @@ or billing record
 
 * 「建立物件」方塊，例如「建立任務」
 
-  ![](assets/new-task-dialog.png)
+  ![新任務對話方塊](assets/new-task-dialog.png)
 
 
 * 編輯物件時顯示「編輯物件」畫面，例如「編輯任務」、「編輯問題」和「編輯專案」
 
-  ![](assets/edit-task-screen.png)
+  ![編輯工作畫面](assets/edit-task-screen.png)
 
 
 * 大量編輯物件時顯示「編輯物件」畫面。 目前支援大量編輯專案。
 
-  ![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)
+  ![自訂編輯專案](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)
 
 
-* 任務與問題清單的摘要面板![](assets/summary-panel-icon.png)
+* 摘要面板![工作與問題清單的摘要面板](assets/summary-panel-icon.png)
 
-  ![](assets/summary-area.png)
+  ![摘要區域](assets/summary-area.png)
 
   >[!NOTE]
   >
@@ -100,14 +100,14 @@ or billing record
 ## 自訂使用者在詳細資料檢視中看到的內容
 
 1. 開始使用版面配置範本，如[建立和管理版面配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)中所述。
-1. 按一下&#x200B;**自訂使用者看到的內容**&#x200B;下的向下箭頭![](assets/dropdown-arrow-12x12.png)，然後按一下&#x200B;**專案**、**任務**、**問題**、**方案**&#x200B;或&#x200B;**Portfolio。**
+1. 按一下&#x200B;**自訂使用者看到的內容**&#x200B;下的向下箭頭![向下箭頭](assets/dropdown-arrow-12x12.png)，然後按一下&#x200B;**專案**、**任務**、**問題**、**方案**&#x200B;或&#x200B;**Portfolio。**
 <!--
 , or billing record
 -->
 
 1. 在&#x200B;**詳細資料**&#x200B;區段中，執行下列任一項作業以自訂使用者在「詳細資料」檢視中看到的內容：
 
-   * 拖曳任何區段標題![](assets/move-icon---dots.png)以變更其順序。
+   * 拖曳任何區段標題![移動圖示](assets/move-icon---dots.png)以變更其順序。
    * 啟用或停用不同區域(例如&#x200B;**總覽**、**財務**&#x200B;和&#x200B;**自訂Forms**)下的選項以顯示或隱藏它們。
 
      如果您隱藏其中一個區段中的所有欄位，則會隱藏整個區段。

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '2236'
+source-wordcount: '2238'
 ht-degree: 0%
 
 ---
@@ -300,7 +300,7 @@ I have not had a chance to follow up with customers to verify if this is still a
 
 1. 執行下列任一項作業：
 
-   * 如果您希望群組下方的群組管理員能夠設定其群組的偏好設定，請解除鎖定![](assets/unlock-toggle-button.png)。
+   * 如果您希望群組下方的群組管理員能夠設定其群組的偏好設定，請將其解除鎖定![解除鎖定切換](assets/unlock-toggle-button.png)。
    * 如果您希望您的群組及其下方的所有群組使用您設定的偏好設定，請確定已鎖定該群組（此為預設值）。
 
      >[!IMPORTANT]

@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: cfccb120-8759-49f2-8b7b-dabcd57d4fda
-source-git-commit: 5676910e53f1c4f49cab196e42bfbce8704887ca
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '563'
 ht-degree: 7%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 7%
       <td> <p>當決策者在校訂上做出決定時，系統會提示您輸入其Workfront登入認證。</p> <p><b>重要</b>：啟用時，使用者無法與沒有登入認證的訪客檢閱者共用校訂。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader" colspan="2"><b>期限</b></td> 
+      <td role="rowheader" colspan="2"><b>截止日期</b></td> 
      </tr> 
      <tr> 
       <td role="rowheader">設定預設期限</td> 
@@ -125,15 +125,15 @@ ht-degree: 7%
       >
       >重新命名決定時，請保留決定的邏輯。 例如，已拒絕的預設決定可變更為&#x200B;*需要新版本*，但不應變更為&#x200B;*傳送至印表機*。
 
-      ![](assets/rename-decision-350x109.png)
+      ![重新命名決定](assets/rename-decision-350x109.png)
 
    1. **重新排列決定順序**：以您想要的決定方塊在校訂檢視器中的顯示順序拖曳決定方塊。
 
-      ![](assets/move-decision-350x110.png)
+      ![移動決定](assets/move-decision-350x110.png)
 
    1. **隱藏決定**：將游標暫留在決定方塊上，然後按一下右上角的「隱藏」圖示。
 
-      ![](assets/hide-decision-350x109.png)
+      ![隱藏決定](assets/hide-decision-350x109.png)
 
 1. （選擇性）若要返回Workfront預設值，請按一下[還原預設值]。****
 1. 按一下「**儲存**」。

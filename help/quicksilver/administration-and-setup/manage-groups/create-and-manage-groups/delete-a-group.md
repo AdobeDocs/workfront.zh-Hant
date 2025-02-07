@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f92eb1f5-fe98-4c7e-8ef7-8ed7134db8d4
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '314'
 ht-degree: 2%
 
 ---
@@ -58,9 +58,9 @@ ht-degree: 2%
 
 {{step-1-to-setup}}
 
-1. 在左側面板中，按一下&#x200B;**群組** ![](assets/groups-icon.png)。
+1. 在左側面板中，按一下&#x200B;**群組** ![群組](assets/groups-icon.png)。
 
-1. 選取您要刪除的群組，然後按一下「刪除」圖示![](assets/delete.png)。
+1. 選取您要刪除的群組，然後按一下[刪除]圖示![[刪除]](assets/delete.png)。
 
    >[!IMPORTANT]
    >
@@ -68,6 +68,6 @@ ht-degree: 2%
 
 1. 在出現的&#x200B;**刪除群組**&#x200B;方塊中，開始輸入，然後選取您要移動所刪除群組之成員、工作專案及子群組的群組名稱。
 
-   您可以暫留在正確的群組上，並按一下旁邊顯示的資訊圖示![](assets/info-icon.png)，確定您選取的群組正確。 這會顯示工具提示，列出群組的相關資訊，例如群組及其管理員上方的群組階層。
+   您可以暫留在群組上，並按一下旁邊顯示的資訊圖示![資訊圖示](assets/info-icon.png)，確定您選取的是正確的群組。 這會顯示工具提示，列出群組的相關資訊，例如群組及其管理員上方的群組階層。
 
 1. 按一下&#x200B;**刪除它們**。

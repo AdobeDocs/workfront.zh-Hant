@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: a1ead3895afaf8b601a9c53e08d41b1cab51cb48
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '2191'
+source-wordcount: '2193'
 ht-degree: 1%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">Adobe Workfront計畫</td> 
    <td><p>系統層級或單一使用核准程式：任何</p>
-   <p>群組層級核准流程：Prime或Ultimate</p></td> 
+   <p>群組層級核准流程： Prime或Ultimate</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
@@ -82,10 +82,10 @@ ht-degree: 1%
 
    或
 
-   如果您正在建立群組層級的核准程式，請按一下&#x200B;**群組** ![](assets/groups-icon.png)，按一下群組的名稱，然後按一下&#x200B;**核准**。
+   如果您正在建立群組層級的核准程式，請按一下&#x200B;**群組** ![群組圖示](assets/groups-icon.png)，按一下群組名稱，然後按一下&#x200B;**核准**。
 
    <!--hidden for the new tab redesign - August 2023: 
-   ![](assets/approvals-area-in-setup-processes.png)
+   ![Approvals area in setup](assets/approvals-area-in-setup-processes.png)
    -->
 
 1. 選擇&#x200B;**專案核准**、**任務核准**&#x200B;或&#x200B;**問題核准**&#x200B;索引標籤。

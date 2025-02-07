@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 35c804b5-569d-4ba8-84b8-6129f0ffbc7f
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '961'
 ht-degree: 2%
 
 ---
@@ -72,13 +72,13 @@ ht-degree: 2%
 
 1. （視條件而定）如果您要建立或編輯全系統使用的狀態，請確定已在右上角的方塊中選取&#x200B;**系統狀態**。
 
-   ![](assets/system-statuses-in-upper-rt-corner-new.jpg)
+   ![系統狀態](assets/system-statuses-in-upper-rt-corner-new.jpg)
 
    或
 
    如果狀態為群組或子群組，請在右上角開始輸入群組的名稱，然後在其出現時選取它。
 
-   ![](assets/system-statuses-in-upper-rt-corner-group.jpg)
+   群組](assets/system-statuses-in-upper-rt-corner-group.jpg)的![系統狀態
 
 1. 選取您想要與狀態關聯的物件型別（**專案**、**任務**&#x200B;或&#x200B;**問題**）的標籤。
 
@@ -88,7 +88,7 @@ ht-degree: 2%
 
    如果您正在編輯現有狀態，請將滑鼠游標停留在現有狀態上，然後按一下顯示於最右側的&#x200B;**編輯**&#x200B;圖示。
 
-   ![](assets/custom-status-edit.png)
+   ![編輯自訂狀態](assets/custom-status-edit.png)
 
 1. 使用下列選項設定狀態：
 

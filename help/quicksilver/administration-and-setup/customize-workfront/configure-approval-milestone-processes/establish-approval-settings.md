@@ -8,9 +8,9 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2fb0c647-bb6d-46d0-a985-6ab820b4a7f2
-source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '900'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td>計劃</td> 
+   <td>規劃</td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
@@ -54,7 +54,7 @@ ht-degree: 2%
 
 1. 按一下&#x200B;**處理序** > **核准**。
 
-1. 按一下&#x200B;**核准**&#x200B;區域名稱旁的&#x200B;**設定**&#x200B;圖示![](assets/gear-icon-settings.png)。
+1. 按一下&#x200B;**核准**&#x200B;區域名稱旁的&#x200B;**設定**&#x200B;圖示![齒輪設定圖示](assets/gear-icon-settings.png)。
 
 1. 在出現的&#x200B;**核准設定**&#x200B;方塊中，指定下列資訊：
 

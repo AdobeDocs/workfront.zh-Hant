@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 14124911-e5e1-4a4f-9b25-8b4fab0329e1
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ ht-degree: 0%
 
    您會收到類似下列的回應：
 
-   ![](assets/get-guid.png)
+   ![取得GUID](assets/get-guid.png)
 
    「使用者名稱」的傳回是使用者的GUID。
 
@@ -98,7 +98,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**您的登入電子郵件地址**&#x200B;方塊中，驗證使用者的電子郵件地址是否正確，然後按一下&#x200B;**更新帳戶**。
 
-   ![](assets/guidusername-350x272.png)
+   ![使用者名稱](assets/guidusername-350x272.png)
 
    使用者的使用者名稱已變更為其Workfront電子郵件地址。
 
@@ -106,7 +106,7 @@ ht-degree: 0%
 >
 >若要尋找使用者的ID：
 >
->1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**使用者** ![](assets/users-icon-in-main-menu.png)。
+>1. 按一下Adobe Workfront右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**使用者** ![使用者圖示](assets/users-icon-in-main-menu.png)。
 >
 >1. 選取使用者。
 >

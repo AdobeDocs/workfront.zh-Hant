@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5b137cee-e03a-4176-a683-b77f2b27f5ce
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '813'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 如果自訂狀態是問題狀態，則必須為其啟用所有四種問題型別（錯誤報告、變更順序、問題和請求）。 例如，在下方顯示的問題狀態中，由於未選取「變更單」問題型別，因此「重新開啟」狀態無法作為預設狀態：
 
-![](assets/all-4-issue-types-enabled.png)
+![所有問題型別已啟用](assets/all-4-issue-types-enabled.png)
 
 ## 將自訂狀態設定為預設狀態
 
@@ -101,6 +101,6 @@ ht-degree: 0%
    >如果您設定群組的自訂狀態，且稍後將專案指派給其他群組，則專案狀態將會重新載入並可能變更。
 
    1. 前往您要使用自訂狀態的專案。
-   1. 按一下[更多]功能表![](assets/more-icon.png)，然後按一下[編輯]****。
+   1. 按一下[更多]功能表![更多圖示](assets/more-icon.png)，然後按一下[編輯]****。
    1. 在顯示的&#x200B;**編輯專案**&#x200B;方塊中，在&#x200B;**專案關聯**&#x200B;下的&#x200B;**群組**&#x200B;欄位中，選取狀態所在的群組。
    1. 按一下「**儲存變更**」。

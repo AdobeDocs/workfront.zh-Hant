@@ -5,9 +5,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '593'
 ht-degree: 1%
 
 ---
@@ -76,7 +76,7 @@ ht-degree: 1%
 
 1. 按一下&#x200B;**電子郵件** > **通知**。
 
-   ![](assets/notifications-area-under-setup-emails.png)
+   ![設定電子郵件下的通知區域](assets/notifications-area-under-setup-emails.png)
 
 
 1. 請確定&#x200B;**事件通知**&#x200B;索引標籤已開啟。
@@ -88,7 +88,7 @@ ht-degree: 1%
 
    如需自訂電子郵件通知主旨行的詳細資訊，請參閱[自訂事件通知的電子郵件主旨](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)。
 
-1. （選擇性）如果您想要解除鎖定電子郵件通知的設定，讓群組管理員可以分別為其群組設定該設定，請按一下通知右側的按鈕![](assets/lock-toggle-button.png)，將其切換至解除鎖定的位置![](assets/unlock-toggle-button.png)。
+1. （選擇性）如果您想要解除鎖定電子郵件通知的設定，讓群組管理員可以分別設定其群組的設定，請按一下通知右側的按鈕![[鎖定]切換](assets/lock-toggle-button.png)，將其切換至解除鎖定位置![[解除鎖定]切換](assets/unlock-toggle-button.png)。
 
    >[!NOTE]
    >

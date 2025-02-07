@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1130'
 ht-degree: 1%
 
 ---
@@ -151,7 +151,7 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
 
 {{step-1-to-users}}
 
-1. 選取您要複製的使用者，然後按一下「複製」圖示![](assets/copy-icon.png)。
+1. 選取您要複製的使用者，然後按一下「複製」圖示![「複製」圖示](assets/copy-icon.png)。
 1. 在顯示的&#x200B;**複製使用者**&#x200B;方塊中，編輯新使用者可用的欄位。
 
    如需與使用者相關聯之所有欄位的詳細資訊，請參閱[編輯使用者的設定檔](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。

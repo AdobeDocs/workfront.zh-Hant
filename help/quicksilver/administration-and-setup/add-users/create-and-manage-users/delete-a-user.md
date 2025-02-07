@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '871'
 ht-degree: 1%
 
 ---
@@ -132,7 +132,7 @@ ht-degree: 1%
 
 {{step-1-to-users}}
 
-1. 請至少選取一個要刪除的使用者，按一下[更多]功能表![](assets/more-icon.png)，然後按一下[刪除]****。
+1. 請至少選取一個要刪除的使用者，按一下[更多]功能表![[更多]圖示](assets/more-icon.png)，然後按一下[刪除]****。
 1. 在出現的方塊中，按一下&#x200B;**刪除**&#x200B;以確認刪除。
 
    刪除使用者的程式會以背景程式執行，因此您可以在刪除使用者時繼續使用Workfront。

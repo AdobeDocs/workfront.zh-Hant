@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f5a94eaf-ebb8-424b-80ff-ba40cc985a6e
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 1. 執行下列任一項作業：
 
-   * 如果您希望群組管理員能夠設定其群組的偏好設定，請將其解鎖![](assets/unlock-toggle-button.png)。
+   * 如果您希望群組管理員能夠設定其群組的偏好設定，請將其解除鎖定![解除鎖定切換](assets/unlock-toggle-button.png)。
    * 如果您希望所有群組都使用您的偏好設定設定，請確定它已被鎖定（這是預設值）。
 
      >[!IMPORTANT]

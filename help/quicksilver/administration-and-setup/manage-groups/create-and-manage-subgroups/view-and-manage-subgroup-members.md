@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8f7b0183-6035-4dd4-8e42-fd65485449bf
-source-git-commit: 63c2206905f4ebbc35cb162ae6e895b98b5d20eb
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -73,16 +73,16 @@ ht-degree: 0%
 
 1. 執行下列任一項作業：
 
-   * 選取清單中的成員，然後按一下[編輯![](assets/edit-icon.png)]以修改該使用者的使用者設定檔。
+   * 在清單中選取成員，然後按一下[編輯] ![ [編輯]圖示](assets/edit-icon.png)以修改該使用者的使用者設定檔。
 
      如需詳細資訊，請參閱[編輯使用者的設定檔](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)或[大量編輯使用者的設定檔](../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md)。
 
-   * 選取清單中任意數量的成員，然後按一下[更新![](assets/comment-icon.png)]，將註解新增至其使用者設定檔。
+   * 選取清單中任意數量的成員，然後按一下[更新![註解圖示](assets/comment-icon.png)]，將註解新增至其使用者設定檔。
 
      使用者會收到應用程式內通知以及包含您評論的電子郵件通知。 註解會顯示在使用者設定檔的更新區域中。
 
-   * 選取清單中任意數量的成員，然後按一下[停用![](assets/deactivate-user.png)]或[啟用![](assets/activate-user.png)]。
+   * 選取清單中任意數量的成員，然後按一下[停用![停用使用者](assets/deactivate-user.png)]或[啟用![啟用使用者](assets/activate-user.png)]。
 
      如需詳細資訊，請參閱[停用或重新啟用使用者](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)。
 
-   * 匯出![](assets/export.png)成員清單。
+   * 匯出![匯出](assets/export.png)成員清單。

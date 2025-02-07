@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 94603393-bdea-4673-9256-08da14f6916e
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '905'
 ht-degree: 1%
 
 ---
@@ -31,19 +31,19 @@ ht-degree: 1%
 
 * 登入畫面
 
-  ![](assets/brand-login-screen-nwe-adobe.jpg)
+  登入畫面中的![品牌](assets/brand-login-screen-nwe-adobe.jpg)
 
 * 頂端巡覽區域
 
-  ![](assets/brand-top-nav-area-nwe-adobe.jpg)
+  上層導覽中的![品牌](assets/brand-top-nav-area-nwe-adobe.jpg)
 
 * 主要功能表
 
-  ![](assets/brand-main-menu-adobe.jpg)
+  主要功能表中的![品牌](assets/brand-main-menu-adobe.jpg)
 
 您也可以變更登入畫面的背景影像和顏色：
 
-![](assets/wf_banner_on_login_screen-adobe.png)
+登入畫面上的![橫幅](assets/wf_banner_on_login_screen-adobe.png)
 
 >[!NOTE]
 >

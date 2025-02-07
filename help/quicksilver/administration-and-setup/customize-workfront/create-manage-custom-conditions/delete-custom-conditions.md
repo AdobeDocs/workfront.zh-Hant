@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5fbd4989-460b-4380-a136-8a9f6b79787d
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '253'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 1. 選取您要刪除的條件所在之物件型別（**專案**、**任務**&#x200B;或&#x200B;**問題**）的標籤。
 
-1. 暫留在您要刪除的條件上，然後按一下出現在最右邊的&#x200B;**刪除**&#x200B;圖示![](assets/delete.png)。
+1. 暫留在您要刪除的條件上，然後按一下出現在最右邊的&#x200B;**刪除**&#x200B;圖示![刪除](assets/delete.png)。
 1. 在出現的確認訊息中，按一下&#x200B;**刪除條件**。
 
 1. 在出現的&#x200B;**刪除條件**&#x200B;方塊中，針對使用您要刪除條件的所有專案，在下拉式清單中選取新條件。

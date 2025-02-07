@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 4a039619-0943-4b5b-ba7a-1ad9b5c11df0
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1652'
+source-wordcount: '1656'
 ht-degree: 3%
 
 ---
@@ -69,7 +69,7 @@ DON'T DELETE, DRAFT, OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH C
 
 {{step-1-to-setup}}
 
-1. 在左側面板中，按一下&#x200B;**群組** ![](assets/groups-icon.png)。
+1. 在左側面板中，按一下&#x200B;**群組** ![群組](assets/groups-icon.png)。
 
 1. 在群組清單上方，按一下&#x200B;**新增群組**。
 
@@ -141,11 +141,11 @@ DON'T DELETE, DRAFT, OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH C
 
 {{step-1-to-setup}}
 
-1. 在左側面板中，按一下&#x200B;**群組** ![](assets/groups-icon.png)。
+1. 在左側面板中，按一下&#x200B;**群組** ![群組](assets/groups-icon.png)。
 
    在顯示的清單中，您可以看到您管理的群組及其擁有的任何子群組。 Adobe Workfront管理員可檢視所有群組。
 
-1. 選取您要複製的群組，然後按一下「複製」圖示![](assets/copy-icon.png)。
+1. 選取您要複製的群組，然後按一下「複製」圖示![「複製」圖示](assets/copy-icon.png)。
 1. 在出現的&#x200B;**複製群組**&#x200B;方塊中，輸入複製群組的&#x200B;**群組名稱**。
 
 1. 指定下列資訊：

@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4c487598-2066-4507-8dfe-1a54d38f5eea
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '834'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 藍圖是一組Workfront物件，可處理Workfront中的常見使用案例。 您可以下載並安裝Blueprint，然後針對您的特定使用案例來設定物件。
 
-![](assets/blueprints-main-page-catalog.png)
+![藍圖首頁面](assets/blueprints-main-page-catalog.png)
 
 >[!INFO]
 >

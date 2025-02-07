@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '828'
 ht-degree: 3%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 3%
 
 1. 在左側面板中，按一下&#x200B;**電子郵件** > **通知**> **電子郵件範本**。
 
-   ![](assets/email-templates-tab-under-setup-email-notifications-area.png)
+   ![電子郵件範本索引標籤](assets/email-templates-tab-under-setup-email-notifications-area.png)
 
 1. 按一下&#x200B;**新增電子郵件範本**。
 
@@ -239,7 +239,7 @@ HTML格式設定可豐富您的電子郵件範本，如下列章節所示。
 
 這會產生類似下列的電子郵件：
 
-![](assets/project-became-late-email.png)
+![專案成為延遲電子郵件](assets/project-became-late-email.png)
 
 #### 即將開始的任務或問題提醒 {#task-or-issue-about-to-start-reminder-example}
 
