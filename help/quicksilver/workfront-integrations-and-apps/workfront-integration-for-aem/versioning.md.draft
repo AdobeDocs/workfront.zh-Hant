@@ -50,11 +50,11 @@ You must have the following access to perform the steps in this article:
 
    * When checked, this option will update the asset metadata whenever a new version of the asset is created. If unchecked, the asset will keep the metadata it had prior to creating the new version.
 
-     ![](assets/auto-version-settings-350x290.png)
+     ![Auto version settings](assets/auto-version-settings-350x290.png)
 
 When an asset has been sent from Workfront to AEM the version history of the asset will be managed in AEM. See [Managing AEM Assets](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/managing-assets-touch-ui.html#timeline) for more information.
 
-![](assets/aem-versions-350x334.png)
+![AEM versions](assets/aem-versions-350x334.png)
 
 ## Current Limitations of Versioning {#versioning-currentlimitationsofversioning}
 

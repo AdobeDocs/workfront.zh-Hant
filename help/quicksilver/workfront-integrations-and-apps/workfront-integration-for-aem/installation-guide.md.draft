@@ -48,7 +48,7 @@ Prior to installing/configuring the tools you'll need to complete a few steps:
    1. [Configure your firewall](https://one.workfront.com/s/document-item?bundleId=workfront-classic&topicId=Content%2FAdministration_and_Setup%2FSet_up_Workfront%2FGet_started-WF_administration%2Fconfigure-your-firewall.html) 
    1. You can find your IP cluster in Workfront by going to ```Setup → System → Customer Info```.
 
-      ![](assets/wf---customer-info-350x224.png)
+      ![Customer info](assets/wf---customer-info-350x224.png)
 
 1. If there is an AEM dispatcher in front of the AEM Author instance that will be communicating with Workfront, it will need to be configured to allow HTTP headers named ```authorization```, ```username``` and ```apikey```. The dispatcher should allow GET, POST, and PUT to /bin/workfront-tools.
 1. Lastly, before installing Workfront Tools for AEM, you should check that none of the following paths already exist on your AEM instance because the package includes files on these paths and they won't get updated properly.
@@ -86,13 +86,13 @@ The Workfront Tools packages will need to be referenced as a dependency in the p
 1. The connector will be available for download from the creator, Hoodoo Digital. The format will be two zip files, workfront-tools.tools.ui.apps-1.1.0.zip and workfront-tools.core.ui.apps-1.1.0.zip.
 1. Once the files are downloaded, log in to your AEM environment and navigate to ```Tools → Deployment → Packages```.
 
-   ![](assets/deployment-packages-350x154.png)
+   ![Deployment packages](assets/deployment-packages-350x154.png)
 
 1. Upon clicking ```Packages``` you will be taken to the CRX Package Manager.  
 1. Click the ```Upload Package``` button at the top of the screen. This will bring up an operating system prompt for your computer that will allow you to browse to the location where the ZIP files are located. 
 1. Select one of the packages and then repeat for the other one. Both packages will appear in the main list of other packages.  
 
-   ![](assets/package-manager-350x166.png)
+   ![Package manager](assets/package-manager-350x166.png)
 
 1. Click the Install button to begin the installation process for each of the packages. 
 1. Once the installation has been completed then you can close out the CRX Package Manager window.  
@@ -107,13 +107,13 @@ To complete the setup process you will need to work with Hoodoo Digital to get a
 
 Check that ```Day CQ Link Externalizer``` has been set properly. Day CQ Link Externalizer configuration can be found on AEM's Web Console Configuration (<aem-server>/system/console/configMgr). Check that ```author``` domain is set to your AEM's author instance domain.
 
-![](assets/externalizer-350x154.png)
+![Externalizer](assets/externalizer-350x154.png)
 
 # 4 - System User Configuration {#installationguide1-x-x-4-systemuserconfiguration}
 
 1. Workfront service user creation is added by the connector package using ACS AEM Commons or Apache Sling Repository Initialization (AEMaaCS), you should check that “workfront-tools” service user has been correctly created. Search for “workfront-tools” user on “AEM Security | Permissions” menu (<aem-server>/security/permissions.html/principal/workfront-tools) and check the users' permissions.
 
-   ![](assets/wf-tools-permissions-350x192.png)
+   ![Tools permissions](assets/wf-tools-permissions-350x192.png)
 
 1. ```workfront-tools``` user should have:
 
@@ -136,15 +136,15 @@ To create ```Workfront Tools``` Cloud Services configuration, from ```AEM Start`
 
 With ```workfront-tools``` selected on the left panel, click on ```Create``` button on the top-right corner.
 
-![](assets/create-350x108.png)
+![Create button](assets/create-350x108.png)
 
 ```Workfront Connection``` dialog will automatically open. Enter your workfront domain, a valid workfront admin user and password. Click on ```Connect to Workfront```.
 
-![](assets/workfront-connection-350x166.png)
+![Workfront connection](assets/workfront-connection-350x166.png)
 
 If the connection was successful, you will see a ```green success``` message. Copy ```AEM API Key```, this key will be configured in Workfront in the next step.
 
-![](assets/connection-configurations-350x208.png)
+![Connection configuration](assets/connection-configurations-350x208.png)
 
 # 6 - Workfront Custom Integration Configuration {#installationguide1-x-x-6-workfrontcustomintegrationconfiguration}
 
@@ -175,7 +175,7 @@ Create a new ```Custom Integration``` on Adobe Workfront. To do so, click on ```
  </tbody> 
 </table>
 
-![](assets/custom-integration-wf-350x143.png)
+![Custom integration](assets/custom-integration-wf-350x143.png)
 
 Authorize the new Document Provider by following these steps:
 

@@ -42,7 +42,7 @@ You can submit feedback on the Oracle Eloqua Workfront Proof&nbsp;Add-In Beta in
 
 1. Select an&nbsp;email to proof.
 1. Click the&nbsp;**Cloud**&nbsp;icon, located on the right-hand side of the page.  
-   ![](assets/eloqua-icon-350x155.png)
+   ![Eloqua icon](assets/eloqua-icon-350x155.png)
 
 1. Click the Workfront Proof&nbsp;integration.
 1. If a proof has not previously been created for this email, click&nbsp;**Generate New Proof**&nbsp;to create a new proof.  
@@ -52,7 +52,7 @@ You can submit feedback on the Oracle Eloqua Workfront Proof&nbsp;Add-In Beta in
    The New Version page is displayed.
 
 1. Click **Submit Feedback**.  
-   ![](assets/eloqua-newproof-form-350x483.png)
+   ![Eloqua submit feedback button](assets/eloqua-newproof-form-350x483.png)
 
 ### Submitting Feedback in a Survey {#submitting-feedback-in-a-survey}
 

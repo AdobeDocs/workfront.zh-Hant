@@ -49,5 +49,5 @@ You must have the following access to perform the steps in this article:
 * Publish all project assets to Brand Portal upon project completion:
 
    * This option will enable automatic publishing of assets to Brand Portal when the status of the Workfront project they belong to is changed to Complete.  
-     ![](assets/auto-publish-350x290.png)
+     ![Auto publish](assets/auto-publish-350x290.png)
 

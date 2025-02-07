@@ -50,11 +50,11 @@ Follow these steps to configure the mappings:
 
 1. Navigate to ```Tools → Assets → Metadata Schemas```.
 
-   ![](assets/metadata-schema-350x242.png)
+   ![Metadata schema](assets/metadata-schema-350x242.png)
 
 1. Select the metadata schema form you wish to edit and click ```Edit``` or create a new metadata schema from scratch.
 
-   ![](assets/edit-schema-350x242.png)
+   ![edit schema](assets/edit-schema-350x242.png)
 
 1. Select the metadata schema form field you wish to edit and select ```Settings``` tab on the right panel.
 1. In ```Workfront Custom Form Field``` select the name of the Workfront field that you wish to map to the selected AEM property. Available options are:
@@ -67,7 +67,7 @@ Follow these steps to configure the mappings:
 
 1. In the case where the Workfront field selected in ```Workfront Custom Form Field``` is a Workfront User type-ahead field, it will be necessary to specify which Workfront User field you wish to map. To do so, check ```Get value from Workfront referenced object field``` and then specify the name of the Workfront User Custom Form Field from which to retrieve the value to be mapped.
 
-   ![](assets/metadata--project-id-schema-350x242.png)
+   ![Project ID schema](assets/metadata--project-id-schema-350x242.png)
 
 ## Folder Metadata Mapping {#metadataschemamapping-foldermetadatamapping}
 
@@ -77,11 +77,11 @@ Follow these steps to configure the mappings:
 
 1. Navigate to ```Tools → Assets → Folder Metadata Schemas```.
 
-   ![](assets/folder-schema-mapping-350x242.png)
+   ![Folder schema mapping](assets/folder-schema-mapping-350x242.png)
 
 1. Select the folder metadata schema form you wish to edit and click ```Edit```.
 
-   ![](assets/edit-folder-schema-350x104.png)
+   ![Edit folder schema](assets/edit-folder-schema-350x104.png)
 
 1. Select the folder metadata schema form field you wish to edit and select ```Settings``` tab on the right panel.
 1. In ```Mapped from Workfront Field``` select the name of the Workfront field that you wish to map to the selected AEM folder property. Available options are:
@@ -89,5 +89,5 @@ Follow these steps to configure the mappings:
    1. Project custom form fields
    1. Project Overview fields (ID, Name, Description, Reference Number, Planned Completion Date, Project Owner, Project Sponsor, Portfolio or Program) 
 
-   ![](assets/folders---project-id-schema-350x242.png)
+   ![Project ID schema](assets/folders---project-id-schema-350x242.png)
 

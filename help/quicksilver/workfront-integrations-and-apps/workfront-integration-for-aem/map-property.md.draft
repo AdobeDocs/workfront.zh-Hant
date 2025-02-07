@@ -68,5 +68,5 @@ Examples:
 * DE:Path={path}
 * URL=”https://my-aem-author/assets.html”{+}{path} 
 
-![](assets/map-property-350x312.png)
+![Map property](assets/map-property-350x312.png)
 
