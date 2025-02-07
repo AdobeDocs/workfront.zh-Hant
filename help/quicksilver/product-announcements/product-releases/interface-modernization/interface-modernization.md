@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: d8a76c9afacde32336fb8de4da531173e323112a
+source-git-commit: 36ec1b2e8bdd499718c1a46d2549b46ddce3b4aa
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1264'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,14 @@ ht-degree: 0%
 如需Adobe Workfront的所有其他變更，請參閱[產品版本](/help/quicksilver/product-announcements/product-releases/product-releases.md)。
 
 ## 管理和設定
+
+### 「設定」中核准流程設定的介面更新
+
+**預覽版本： 2025年2月6日；生產版本：即將宣佈**
+
+我們已更新「核准設定」對話方塊，使其採用與Workfront其他區域一致的更現代化設計。
+
+若要檢視設定，請前往「設定>偏好設定>核准>選取頁面頂端的設定圖示。
 
 ### 「設定」>「群組」中「核准」區域的介面更新
 
@@ -110,7 +118,17 @@ ht-degree: 0%
 
 ## 敏捷
 
-## 團隊>待處理區域的介面更新
+### 新增劇本和問題至反複專案
+
+**預覽版本： 2025年2月6日；生產版本：即將宣佈**
+
+我們已更新新增劇本和新增問題對話方塊，使其採用與Workfront其他區域一致的更現代設計。
+
+此更新包含區域的視覺化變更。 功能未變更。
+
+若要檢視這項變更，請前往「團隊>選擇團隊>反複專案>選擇反複專案，然後按一下&#x200B;**新增劇本**&#x200B;或&#x200B;**新增問題**。
+
+### 團隊>待處理區域的介面更新
 
 **預覽版本： 2025年1月23日；生產版本：自2025年2月13日起一週**
 
@@ -123,7 +141,7 @@ ht-degree: 0%
 
 ### 版序清單的介面更新
 
-**預覽版本： 2025年1月23日；生產版本：即將宣佈**
+**預覽版本： 2025年1月23日；生產版本：從2025年2月3日當週開始**
 
 我們以與Workfront其他區域一致的更現代設計更新了「團隊>反複專案」清單。
 
