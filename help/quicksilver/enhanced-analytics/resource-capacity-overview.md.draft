@@ -69,25 +69,25 @@ The Resource capacity visualization shows whether a team is over, under, or at c
 
 This comparison of a home team's planned hours and actual scheduled hours can help you determine if you're not assigning enough work to the home team or if they may be experiencing burnout from a heavy workload.
 
-![](assets/resource-capacity-350x110.png)
+![Resource capacity](assets/resource-capacity-350x110.png)
 
 On the Resource capacity visualization, you can see the following details:
 
 * **Planned capacity**: Inline with a home team name, the blue circle represents the number of planned hours assigned to the home team.
 
-  ![](assets/resource-capacity-blue-circle.png)
+  ![Blue circle](assets/resource-capacity-blue-circle.png)
 
 * **Actual capacity**: Inline with a home team name, the vertical line represents the number of hours available for the home team.
 
-  ![](assets/resource-capacity-vertical-line.png)
+  ![Vertical line](assets/resource-capacity-vertical-line.png)
 
 * **Over capacity**: When the horizontal line and the blue circle display to the right of the vertical line, the home team was assigned more work than they can complete in the number of available hours. This means that the team may be over capacity for the filtered time period. The remaining number of hours the team needs to complete displays to the right of the blue circle.
 
-  ![](assets/resource-capacity-over-capacity.png)
+  ![Over capacity](assets/resource-capacity-over-capacity.png)
 
 * **Under capacity**: When the horizontal line and the blue circle display to the left of the vertical line, the home team has more available hours than the number of planned hours of work they were assigned. This means that the team may be under capacity for the filtered time period. The additional number of available hours for the home team to complete work displays to the left of the blue circle.
 
-  ![](assets/resource-capacity-under-capacity.png)
+  ![Under capacity](assets/resource-capacity-under-capacity.png)
 
 Hovering over a team's row shows the exact number of hours for planned capacity and available capacity, as well as the number of hours the home team is over or under capacity.
 
@@ -105,11 +105,11 @@ To learn how to get the best data for this visualization, see [Enhanced analytic
 
 1. In the left panel, select **People**.
 
-   ![](assets/people-area-cropped-qs-350x276.png)
+   ![People area](assets/people-area-cropped-qs-350x276.png)
 
 1. (Optional) To use a different date range, select new start and end dates from the date range filter in the upper-right corner of the chart.
 
-   ![](assets/filters-select-date-range-350x344.png)
+   ![Select date range](assets/filters-select-date-range-350x344.png)
 
    For information on using the date range filter, see [Apply filters in Enhanced analytics](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
@@ -123,7 +123,7 @@ To learn how to get the best data for this visualization, see [Enhanced analytic
 
    All other visualizations update to the same date range and a timeframe filter is created.
 
-   ![](assets/timeframe-filter-350x220.png)
+   ![Timeframe filter](assets/timeframe-filter-350x220.png)
 
 1. Hover over the home team line to view the following:
 
@@ -135,9 +135,9 @@ To learn how to get the best data for this visualization, see [Enhanced analytic
       * Under
       * At capacity.
 
-   ![](assets/resource-capacity-capacity-pop-up-350x213.png)
+   ![capacity popup](assets/resource-capacity-capacity-pop-up-350x213.png)
 
-1. (Optional) To export the visualization data, click the **Export icon** ![](assets/export.png) in the upper-right corner of the visualization, then select the export format:
+1. (Optional) To export the visualization data, click the **Export icon** ![Export icon](assets/export.png) in the upper-right corner of the visualization, then select the export format:
 
    * **Chart (PNG)** 
    * **Data Table (XSLX)**
