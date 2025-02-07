@@ -1,14 +1,14 @@
 ---
 product-area: workfront-integrations
 navigation-topic: workfront-for-outlook
-title: 為 [!DNL Outlook]設定 [!DNL Adobe Workfront]
+title: '為 [!DNL Outlook]設定 [!DNL Adobe Workfront] '
 description: ' [!DNL Adobe Workfront] [!DNL Outlook]增益集可讓您直接從Outlook執行索引鍵 [!DNL Workfront] 工作。'
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: bcf03609e0503a5db0384fd573066467a1feb341
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -112,7 +112,7 @@ Workfront支援下列[!DNL Outlook]版本：
 
 ### [!DNL Outlook 365]的[!DNL Workfront] {#workfront-for-outlook-365}
 
-1. 在[!DNL Outlook 365]中，按一下Office 365介面頂端的&#x200B;**[!UICONTROL 瀏覽增益集]**&#x200B;圖示![](assets/outlook-add-in-26x26.png)，然後按一下&#x200B;**[!UICONTROL 管理增益集]**。
+1. 在[!DNL Outlook 365]中，按一下Office 365介面頂端的&#x200B;**[!UICONTROL 瀏覽增益集]**&#x200B;圖示![瀏覽增益集](assets/outlook-add-in-26x26.png)，然後按一下&#x200B;**[!UICONTROL 管理增益集]**。
 
 1. 在&#x200B;**[!UICONTROL 搜尋增益集]**&#x200B;方塊中，搜尋&#x200B;**[!DNL Workfront]**，然後按下[!UICONTROL Enter]。
 
@@ -121,7 +121,7 @@ Workfront支援下列[!DNL Outlook]版本：
 ### 網路上的[!DNL Outlook]的[!DNL Workfront] {#workfront-for-outlook-on-the-web}
 
 1. 在網頁瀏覽器中開啟[!DNL Microsoft Outlook]。
-1. 按一下&#x200B;**[!UICONTROL 瀏覽]增益集**&#x200B;圖示![](assets/outlook-add-in-web-version-20x20.png)。
+1. 按一下&#x200B;**[!UICONTROL 瀏覽]增益集**&#x200B;圖示![瀏覽增益集](assets/outlook-add-in-web-version-20x20.png)。
 
    若要尋找圖示，請參閱Microsoft檔案中的[在網頁上 [!DNL Outlook] 使用增益集](https://support.microsoft.com/en-us/office/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce#bkmk_addaddinsicon)。
 

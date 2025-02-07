@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 67fc34dc-0722-4419-8254-0371ad5abfc3
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Adobe Workfront中的某些物件允許以RTF格式儲存文字。 在Workfront 
 
 具有RTF格式的自訂欄位稱為&#x200B;**具有RTF格式的欄位**，可以有下列相關的值：
 
-![](assets/rich-text-example-350x158.png)
+![RTF範例](assets/rich-text-example-350x158.png)
 
 **範例：**&#x200B;擷取自訂表單欄位&#x200B;**具有RTF文字的欄位值的基本GET要求**：
 
@@ -48,7 +48,7 @@ Adobe Workfront中的某些物件允許以RTF格式儲存文字。 在Workfront 
 
 **範例：**&#x200B;在此，自訂欄位的每行文字對應到陣列區塊中的區塊元素
 
-![](assets/copy-of-rich-text-mapping-350x159.png)
+![RTF對應](assets/copy-of-rich-text-mapping-350x159.png)
 
 由於每個區塊元素也是JSON物件，因此每個區塊都是由元素組成： **key**、**text**、**type**、**depth**、**inlineStyleRanges**、**entityRanges**&#x200B;和&#x200B;**data**。 這些元素各自的作用如下：
 
@@ -61,7 +61,7 @@ Adobe Workfront中的某些物件允許以RTF格式儲存文字。 在Workfront 
 
 **範例：**&#x200B;這裡的inlineStyleRanges陣列說明字元層級的每個樣式。 在此案例中：從索引0 （位移： 0）開始的9個字元（長度： 9）已套用樣式&#x200B;**粗體**：
 
-![](assets/copy-of-rich-text-mapping-2-350x136.png)
+![RTF對應](assets/copy-of-rich-text-mapping-2-350x136.png)
 
 如果已將多種型別的格式套用至單一行，樣式將會對應至** inlineStyleRanges**陣列中的其他元素。
 

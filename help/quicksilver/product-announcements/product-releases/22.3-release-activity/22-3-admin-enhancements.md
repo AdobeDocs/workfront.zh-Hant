@@ -6,10 +6,10 @@ draft: false
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4607703a-d70e-432c-9fa2-bd43af5a870e
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 0%
+source-wordcount: '770'
+ht-degree: 1%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱下列文章：
 
-* [建立工作專案的核准流程](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
+* [為工作項目建立核准流程](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
 
 * [建立或編輯狀態](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)
 
@@ -96,7 +96,7 @@ ht-degree: 0%
 
 ## 從群組頁面停用群組
 
-最近，我們新增了停用及重新啟用群組的功能。 為了更快、更輕鬆地進行該動作，我們將其新增到群組的頁面。 現在，在您按一下群組名稱以移至其頁面後，您可以選取群組名稱旁邊的[更多]功能表![](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/assets/main-menu-icon.png)，然後選取[停用]或[重新啟用]。
+最近，我們新增了停用及重新啟用群組的功能。 為了更快、更輕鬆地進行該動作，我們將其新增到群組的頁面。 現在，在您按一下群組名稱以移至其頁面後，您可以選取群組名稱旁的[更多]功能表![主要功能表圖示](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/assets/main-menu-icon.png)，然後選取[停用]或[重新啟用]。
 
 過去，您只能使用群組「詳細資訊」頁面上的「作用中」核取方塊來停用或重新啟用群組。
 

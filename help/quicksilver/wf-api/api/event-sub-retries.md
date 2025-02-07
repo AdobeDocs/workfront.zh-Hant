@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: b698cb60-4cff-4ccc-87d7-74afb5badc49
-source-git-commit: 05f8dc8770c185720520fc631e19c75b925a70bf
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 0%
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 The following flowchart shows the strategy for reattempting message deliveries with Workfront Event Subscriptions:
 
-![](assets/event-subscription-circuit-breaker-retries-350x234.png)
+![Event sub retries](assets/event-subscription-circuit-breaker-retries-350x234.png)
 
 The following explanations correspond with the steps depicted in the flowchart:
 

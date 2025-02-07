@@ -7,9 +7,9 @@ description: 在Google Workspace中，當您開啟已傳送的通知電子郵件
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: d5ca31d8-3667-4405-a523-3dc248a94746
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '477'
 ht-degree: 1%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 1%
 
 ## 管理來自[!DNL Google Workspace]的[!DNL Adobe Workfront]通知詳細資料
 
-1. 如果未顯示[!DNL Workfront for Google Workspace]面板，請按一下頁面最右側[!DNL Google Workspace]附加元件側邊欄中的[!DNL Workfront]圖示![](assets/wf-lion-icon.png)。
+1. 如果未顯示[!DNL Workfront for Google Workspace]面板，請按一下頁面最右側[!DNL Google Workspace]附加元件側邊欄中的[!DNL Workfront]圖示![Workfront圖示](assets/wf-lion-icon.png)。
 1. 在[!DNL Google Workspace]中，開啟[!DNL Workfront]通知電子郵件。
 1. 如果更新顯示在面板頂端附近，請按一下&#x200B;**[!UICONTROL 檢視所有更新]**。
 1. 按一下&#x200B;**[!UICONTROL 詳細資料]**。
@@ -88,7 +88,7 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td>更新 </td> 
-      <td> <p>檢視專案更新完整清單的任何部分，好讓您的內容需要<strong>[！UICONTROL Post]</strong>新的更新或<strong>[！UICONTROL回覆]</strong>。 您可以按一下<strong>[！UICONTROL Notify]</strong>，提醒特定使用者您的回覆。 </p> <p>如需詳細資訊，請參閱<a href="../../workfront-integrations-and-apps/workfront-for-g-suite/reply-to-wf-update-notification-from-gsuite.md" class="MCXref xref">回覆[!DNL Google Workspace]</a>的[!DNL Adobe Workfront]更新通知。</p> </td> 
+      <td> <p>檢視專案更新完整清單的任何部分，讓您的內容需要<strong>[！UICONTROL Post]</strong>新的更新或<strong>[！UICONTROL回覆]</strong>。 您可以按一下<strong>[！UICONTROL Notify]</strong>，提醒特定使用者您的回覆。 </p> <p>如需詳細資訊，請參閱<a href="../../workfront-integrations-and-apps/workfront-for-g-suite/reply-to-wf-update-notification-from-gsuite.md" class="MCXref xref">回覆[!DNL Google Workspace]</a>的[!DNL Adobe Workfront]更新通知。</p> </td> 
      </tr> 
      <tr> 
       <td>核准請求</td> 

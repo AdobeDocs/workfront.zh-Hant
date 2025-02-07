@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: dcb7dadb-4dd8-48da-a559-cbe8ad99ff9e
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '362'
 ht-degree: 1%
 
 ---
@@ -22,12 +22,12 @@ ht-degree: 1%
 ## 存取API Explorer：
 
 1. 使用網頁瀏覽器導覽至[API總管](https://developer.adobe.com/workfront/api-explorer/)\
-   ![](assets/mceclip1-350x149.png)
+   ![瀏覽至API總管](assets/mceclip1-350x149.png)
 
 1. 在API Explorer的右上角，選取所需的Workfront **API Version**，預設會自動選取最新版本
 1. **篩選器**&#x200B;欄位可用來篩選依名稱列出的物件，並將截斷顯示的物件清單：
 
-   ![](assets/mceclip2-350x147.png)
+   ![API總管欄位](assets/mceclip2-350x147.png)
 
    * **欄位**：指定物件中的可用欄位。
    * **參考**：指定物件的可用參考變數。 參照是變數的別名。 初始化後，參照可與變數名稱互換使用。 參考使用初始化的記憶體。
@@ -36,7 +36,7 @@ ht-degree: 1%
    * **動作**：物件支援的動作。 動作可以是針對資源或一組資源執行的簡單或複雜程式。 指定的動作也可能影響相關資源。
 
 1. 開啟標籤，然後按一下「物件ID」以檢視適用的變數。\
-   ![](assets/approval-350x89.png)\
+   ![檢視變數](assets/approval-350x89.png)\
    根據選取的物件，可能會套用下列變數：
 
    | 變數 | 定義 |

@@ -8,9 +8,9 @@ author: Luke
 feature: Product Announcements, Workfront Proof
 recommendations: noDisplay, noCatalog
 exl-id: 8b148684-28bf-40e8-8014-d6458c8d14e1
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
@@ -33,4 +33,4 @@ ht-degree: 0%
 
 以前，所有設定檔搜尋下拉式清單會列出系統中的所有使用者，產生大型功能表。
 
-![](assets/user-profile-typeahead-350x142.png)
+![使用者設定檔自動提示](assets/user-profile-typeahead-350x142.png)

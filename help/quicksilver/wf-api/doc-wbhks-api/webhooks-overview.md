@@ -8,9 +8,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 30a3d0cb-51dc-4770-88be-36d8bf232b98
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Adobe Workfront Document Webhooks定義了一組API端點，Workfront會透過這些端點向外部檔案提供者發出授權的API呼叫。 這可讓任何人為任何檔案儲存提供者建立中介外掛程式。
 
-![](assets/mceclip0-350x262.png)
+![Webhooks](assets/mceclip0-350x262.png)
 
 webhook型整合的使用者體驗將與現有檔案整合類似，例如Google Drive、Box和Dropbox。 例如，Workfront使用者將能夠執行下列動作：
 

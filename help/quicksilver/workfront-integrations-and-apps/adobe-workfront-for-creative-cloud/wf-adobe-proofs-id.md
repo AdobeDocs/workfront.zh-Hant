@@ -6,9 +6,9 @@ description: 您可以將圖片展示板上傳為檔案，以快速檢閱和核�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: ee3dc446-6886-4285-a942-4f44f5c0ac31
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '695'
 ht-degree: 0%
 
 ---
@@ -64,10 +64,10 @@ ht-degree: 0%
 
 1. 按一下右上角的&#x200B;**[!UICONTROL 功能表]**&#x200B;圖示，然後選取&#x200B;**[!UICONTROL 工作清單]**。 您也可以使用功能表導覽至父物件。
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![返回工作清單](assets/go-back-to-work-list-350x314.png)
 
 1. 前往您要上傳校樣的工作專案。
-1. 按一下導覽列中的&#x200B;**[!UICONTROL 檔案]**&#x200B;圖示![](assets/documents.png)。
+1. 按一下導覽列中的&#x200B;**[!UICONTROL 檔案]**&#x200B;圖示![檔案圖示](assets/documents.png)。
 1. 按一下外掛程式底部附近的&#x200B;**[!UICONTROL 新增檔案]**。
 1. 啟用&#x200B;**[!UICONTROL 建立校訂]**&#x200B;切換。
 1. （選擇性）在&#x200B;**[!UICONTROL 校訂名稱]**&#x200B;文字方塊中輸入校訂的名稱。
@@ -75,14 +75,14 @@ ht-degree: 0%
 1. （選用）新增核准者。
 1. （選擇性）在&#x200B;**[!UICONTROL 更新]**&#x200B;區域輸入註解。
 
-   ![](assets/add-comment.png)
+   ![新增註解](assets/add-comment.png)
 
 1. 從下拉式功能表中選擇&#x200B;**[!UICONTROL 資產型別]**。
 
 1. （選擇性）選取&#x200B;**[!UICONTROL 新增外部檔案]**&#x200B;以從您的電腦新增檔案。
 1. 按一下&#x200B;**[!UICONTROL 上傳]**，然後根據上述選擇的資產型別設定任何需要的匯出選項。
 
-   ![](assets/plugin-files-350x307.png)\
+   外掛程式](assets/plugin-files-350x307.png)中的![檔案\
    檔案會顯示在外掛程式與案頭應用程式的[!UICONTROL 檔案]區域中。
 
 
@@ -90,10 +90,10 @@ ht-degree: 0%
 
 1. 按一下右上角的&#x200B;**[!UICONTROL 功能表]**&#x200B;圖示，然後選取&#x200B;**[!UICONTROL 工作清單]**。 您也可以使用功能表導覽至父物件。
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![返回工作清單](assets/go-back-to-work-list-350x314.png)
 
 1. 前往您要上傳校樣的工作專案。
-1. 按一下導覽列中的&#x200B;**[!UICONTROL 檔案]**&#x200B;圖示![](assets/documents.png)。
+1. 按一下導覽列中的&#x200B;**[!UICONTROL 檔案]**&#x200B;圖示![檔案圖示](assets/documents.png)。
 
 1. 按一下外掛程式底部附近的&#x200B;**[!UICONTROL 新增檔案]**。
 1. 啟用&#x200B;**[!UICONTROL 建立校訂]**&#x200B;切換。
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 1. （選擇性）在&#x200B;**[!UICONTROL 更新]**&#x200B;區域輸入註解。
 
-   ![](assets/add-comment-automated-approval.png)
+   ![新增評論自動核准](assets/add-comment-automated-approval.png)
 
 1. 從下拉式功能表中選擇&#x200B;**[!UICONTROL 資產型別]**。
 1. （選擇性）選取&#x200B;**[!UICONTROL 新增外部檔案]**&#x200B;以從您的電腦新增檔案。
@@ -123,10 +123,10 @@ ht-degree: 0%
 
 1. 按一下右上角的&#x200B;**[!UICONTROL 功能表]**&#x200B;圖示，然後選取&#x200B;**[!UICONTROL 工作清單]**。 您也可以使用功能表導覽至父物件。
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![返回工作清單](assets/go-back-to-work-list-350x314.png)
 
 1. 前往上載檔案所需的工作專案。
-1. 按一下導覽列中的&#x200B;**[!UICONTROL 檔案]**&#x200B;圖示![](assets/documents.png)。
+1. 按一下導覽列中的&#x200B;**[!UICONTROL 檔案]**&#x200B;圖示![檔案圖示](assets/documents.png)。
 
 1. 按一下外掛程式底部附近的&#x200B;**[!UICONTROL 新版本]**。
 1. 啟用&#x200B;**[!UICONTROL 建立校訂]**&#x200B;切換。

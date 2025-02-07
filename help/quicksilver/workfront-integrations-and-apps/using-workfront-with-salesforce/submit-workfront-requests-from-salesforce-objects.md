@@ -6,9 +6,9 @@ description: 安裝來自 [!DNL Salesforce] 商機與帳戶的 [!DNL Salesforce]
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 84f8cb15-4840-4fe1-bf60-93bc4283b564
-source-git-commit: 5b889633a96d634a359181bfd53ec106b0f3705c
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '547'
 ht-degree: 1%
 
 ---
@@ -107,9 +107,9 @@ ht-degree: 1%
 1. （選擇性）按一下&#x200B;**[!UICONTROL 移至[!DNL Salesforce]]**&#x200B;以存取此問題源自於Workfront下列領域的機會或帳戶：
 
    * 在問題的[!UICONTROL 詳細資料]區段中
-   * 在清單中選取問題時，在「摘要」面板中，按一下清單工具列中的[!UICONTROL 開啟摘要] ![](assets/summary-panel-icon.png)。
-   * 在問題標題中，當[!UICONTROL 整合]欄位可供使用時。 您的系統或群組管理員必須將[!UICONTROL 整合]欄位新增到您的版面配置範本，才能檢視問題標題中的Go to Salesforce連結。 如需詳細資訊，請參閱[使用配置範本自訂物件標頭](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)。
+   * 在清單中選取問題時，在「摘要」面板中，按一下清單工具列中的[!UICONTROL 開啟摘要] ![摘要面板圖示](assets/summary-panel-icon.png)之後。
+   * 在問題標題中，當[!UICONTROL 整合]欄位可供使用時。 您的系統或群組管理員必須將[!UICONTROL 整合]欄位新增到您的版面配置範本，才能檢視問題標題中的「前往Salesforce」連結。 如需詳細資訊，請參閱[使用配置範本自訂物件標頭](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)。
 
    >[!NOTE]
    >
-   >所有[!DNL Workfront]個可檢視此問題的使用者皆可看到[!UICONTROL 移至Salesforce]連結。 您必須擁有[!DNL Salesforce]帳戶才能移至記錄問題的[!DNL Salesforce]商機或帳戶。
+   >所有可以檢視問題的[!DNL Workfront]使用者皆可看到[!UICONTROL 前往Salesforce]連結。 您必須擁有[!DNL Salesforce]帳戶才能移至記錄問題的[!DNL Salesforce]商機或帳戶。

@@ -8,9 +8,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 7ac2c6c8-1cb8-49df-8d63-a6b47ad02a13
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '3620'
+source-wordcount: '3627'
 ht-degree: 2%
 
 ---
@@ -851,10 +851,10 @@ name=Folder B ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­
 （發行日期 — 待定）此端點會允許Workfront使用者（或可能是自動化工作流程事件）在外部系統中執行動作。 /customAction端點接受「name」引數，此引數允許webhook提供者實作多個自訂操作。
 
 webhook提供者會將actions包含在customActions下的/serviceInfo回應中，藉此向Workfront註冊自訂動作。 Workfront會在設定>檔案>自訂整合底下設定或重新整理webhook提供者時載入此清單。\
-![](assets/mceclip0-350x262.png)
+![執行自訂動作](assets/mceclip0-350x262.png)
 
 使用者可以透過選擇「檔案動作」下的區段來觸發自訂動作\
-![](assets/mceclip1-350x95.png)
+![觸發自訂動作](assets/mceclip1-350x95.png)
 
 **URL**
 
@@ -925,7 +925,7 @@ GET/customAction
 ```
 
 
-## 測試
+## 測試中
 
 若要驗證檔案webhook實作是否正常運作，請執行以下測試。 這些是透過Workfront網頁介面的手動測試，並間接點選webhook實施的端點。
 

@@ -6,9 +6,9 @@ description: 您可以接收來自 [!DNL Adobe Workfront] 的通知，內容有�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '1351'
+source-wordcount: '1355'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ ht-degree: 0%
 1. 在出現的清單中按一下[!DNL Workfront]。
 1. 選取「**[!UICONTROL 設定]**」標籤。
 
-   ![](assets/ms-teams-settings-tab-350x552.png)
+   ![MS Teams設定標籤](assets/ms-teams-settings-tab-350x552.png)
 
 1. 停用您不想接收的任何通知。 您可以啟用或停用通知群組，例如資訊或核准通知，也可以個別管理通知。
 

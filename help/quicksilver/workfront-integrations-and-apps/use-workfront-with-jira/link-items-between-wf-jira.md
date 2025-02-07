@@ -6,9 +6,9 @@ description: 您可以自動或手動將 [!DNL Jira] 問題連結至 [!DNL Adobe
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 1c37f361-e866-4ac6-b672-408848a80ed6
-source-git-commit: f2169acfbcbf6a1497bd35de01821a09c7b3d59c
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1231'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe[!DNL Workfront]授權總覽</a>*</td> 
-   <td> <p>計劃</p> </td> 
+   <td> <p>規劃</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Jira存取</td> 
@@ -85,7 +85,7 @@ ht-degree: 0%
 
    如需存取工作的詳細資訊，請參閱[授與工作存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)。
 
-1. 前往專案，然後在左側面板中選取&#x200B;**[!UICONTROL 任務]** ![](assets/tasks-icon-in-left-panel-14x14.png)。
+1. 前往專案，在左側面板中選取&#x200B;**[!UICONTROL 任務]** ![任務圖示](assets/tasks-icon-in-left-panel-14x14.png)。
 
 1. 按一下&#x200B;**[!UICONTROL 新增工作]**
 

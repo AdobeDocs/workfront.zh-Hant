@@ -6,10 +6,10 @@ description: 您可以使用Adobe Workfront外掛程式更新您的工作。
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 865beaa8-a585-4bdd-9d04-b5fbdf40748c
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 2%
+source-wordcount: '224'
+ht-degree: 3%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 2%
 
 {{cc-install-prereq}}
 
-## Post更新
+## 發佈更新
 
 您可以從外掛程式的下列任何區域更新您的工作：
 
@@ -86,11 +86,11 @@ ht-degree: 2%
 
 1. 按一下右上角的&#x200B;**[!UICONTROL 功能表]**&#x200B;圖示，然後選取&#x200B;**[!UICONTROL 工作清單]**。 您也可以使用功能表導覽至父物件。
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![返回工作清單](assets/go-back-to-work-list-350x314.png)
 
 1. 從&#x200B;**[!UICONTROL 工作清單]**&#x200B;中，選取需要張貼更新的工作專案。
 1. 按一下導覽列中的&#x200B;**[!UICONTROL 更新]**。\
-   ![](assets/photoshop-update-350x295.png)
+   ![Photoshop更新](assets/photoshop-update-350x295.png)
 
 1. 按一下&#x200B;**[!UICONTROL 新更新]**。
 1. 輸入您的更新。

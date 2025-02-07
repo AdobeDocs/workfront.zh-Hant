@@ -1,19 +1,19 @@
 ---
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-slack
-title: PostSlack註解作為更新
+title: 發佈Slack評論作為更新
 description: 您可以在Adobe Workfront中新增Slack註解以更新至特定專案、任務或問題。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 18b22f2c-2490-41e2-afb9-0551f9579973
-source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
 
-# 將[!DNL Slack]註解更新為Post
+# 將[!DNL Slack]註解張貼為更新
 
 您可以在[!DNL Adobe Workfront]中新增[!DNL Slack]註解以作為特定專案、任務或問題的更新。
 
@@ -43,15 +43,15 @@ ht-degree: 0%
 * 設定[!DNL Workfront for Slack]\
    如需設定[!DNL Workfront for Slack]的說明，請參閱[設定 [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)。
 
-## 在[!DNL Workfront]中將[!DNL Slack]註解新增為更新Post
+## 在[!DNL Workfront]中將[!DNL Slack]註解張貼為更新
 
 1. 將滑鼠停留在您在[!DNL Slack]頻道中新增的註解上，然後按一下&#x200B;**[!UICONTROL 更多動作]** （三點）圖示。
 
-1. 按一下&#x200B;**[!UICONTROL Post更新] ...`<the name of your Workfront app>`**。
+1. 按一下&#x200B;**[!UICONTROL 發佈更新] ...`<the name of your Workfront app>`**。
 
    >[!NOTE]
    >
-   >您可能需要按一下「**[!UICONTROL 更多訊息捷徑]**」，然後向下捲動以找到&#x200B;**[!UICONTROL Post更新]**&#x200B;選項。
+   >您可能需要按一下&#x200B;**[!UICONTROL 其他訊息捷徑]**&#x200B;並向下捲動以找到&#x200B;**[!UICONTROL 張貼更新]**&#x200B;選項。
    >
    >
 1. 在&#x200B;**[!UICONTROL 專案、任務或問題]**&#x200B;方塊中，開始輸入您要新增更新的專案、任務或問題的名稱，然後在其出現在清單上時按一下專案、任務或問題的名稱。 在物件出現在清單中之前，您必須具有檢視物件的存取權。
@@ -64,4 +64,4 @@ ht-degree: 0%
 
    當評論產生於[!DNL Slack]時，評論會在[!DNL Workfront]中顯示訊息「[!UICONTROL 張貼自[!DNL Slack]]」。
 
-   ![](assets/slack-update-posted-from-slack-350x112.png)
+   從Slack](assets/slack-update-posted-from-slack-350x112.png)張貼的![更新

@@ -7,9 +7,9 @@ description: 您可以存取 [!DNL Adobe Workfront] 首頁內容，包括指派�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: da2ecaf1-5cfb-470e-90a1-fbb386db8670
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
@@ -53,26 +53,26 @@ ht-degree: 0%
 ## 從[!DNL Google Workspace]存取[!DNL Workfront] [!UICONTROL 首頁]
 
 1. 請確定您已登入[!DNL Workfront]。
-1. 如果未顯示Google Workspace]的[!UICONTROL Workfront面板，請按一下頁面最右側[!DNL Google Workspace]附加元件側邊欄中的[!DNL Workfront]圖示![](assets/wf-lion-icon.png)。
+1. 如果未顯示Google Workspace]的[!UICONTROL Workfront面板，請按一下頁面最右側[!DNL Google Workspace]附加元件側邊欄中的[!DNL Workfront]圖示![Workfront圖示](assets/wf-lion-icon.png)。
 1. 如果您在[!DNL Google Workspace]的[!DNL Workfront]頂端看到向左的箭頭，請按一下箭頭以移至[!UICONTROL 首頁]區域。
 
-1. 在&#x200B;**[!UICONTROL 排序依據]**&#x200B;區域中，按一下展開箭頭![](assets/dropdown-arrow.png)，然後按一下選項以指定您要如何群組您的工作專案，以便找到您想要的專案。
+1. 在&#x200B;**[!UICONTROL 排序依據]**&#x200B;區域中，按一下展開箭頭![展開箭頭](assets/dropdown-arrow.png)，然後按一下選項以指定您要如何群組您的工作專案，以便找到您想要的專案。
 
    當您依&#x200B;**[!UICONTROL 認可日期]**&#x200B;或&#x200B;**[!UICONTROL 計畫完成]**&#x200B;日期排序時，最舊的工作專案位於最上方。
 
    當您依&#x200B;**[!UICONTROL 專案]**&#x200B;排序時，工作專案會以父專案的順序出現，按字母順序從A到Z列出。沒有父專案的工作專案會顯示在&#x200B;**[!UICONTROL 無專案]**&#x200B;下。
 
-1. 按一下要檢視之分組的展開箭頭![](assets/dropdown-arrow.png)。
+1. 按一下要檢視之群組的展開箭頭![展開箭頭](assets/dropdown-arrow.png)。
 
    每個群組中包含的專案數會以括弧顯示。 當您按一下[!UICONTROL 展開]箭頭時，群組中的所有工作專案都會顯示。
 
    工作專案顯示如下：
 
-   * ![](assets/task-icon.png) **任務**&#x200B;顯示父專案名稱、任務名稱和計畫完成日期。
+   * ![任務圖示](assets/task-icon.png) **任務**&#x200B;會顯示父專案名稱、任務名稱和計畫完成日期。
 
-   * ![](assets/issue-icon.png) **問題**&#x200B;顯示上層專案名稱、問題名稱和規劃完成日期。
+   * ![問題圖示](assets/issue-icon.png) **問題**&#x200B;顯示父專案名稱、問題名稱和計畫完成日期。
 
-   * ![](assets/document-icon.png) **核准**&#x200B;顯示要求者的名稱、檔名稱和提交日期。
+   * ![檔案圖示](assets/document-icon.png) **核准**&#x200B;會顯示要求者的名稱、檔名稱和提交日期。
    * **存取要求**&#x200B;會顯示要求者的名稱、物件名稱和提交日期。 物件型別的圖示會顯示在左側。
 
 1. 按一下工作專案上的任何位置，檢視其詳細資訊、更新及檔案。

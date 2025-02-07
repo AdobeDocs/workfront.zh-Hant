@@ -6,7 +6,7 @@ description: 我們對Adobe Workfront在20.3版（目標為2020年8月）中傳�
 author: Luke
 feature: Product Announcements
 exl-id: 9110f04d-b7a9-428b-928c-c4eb746fec3f
-source-git-commit: 1bc7334423c567ef5f7fd9bcbc28de267e035c0a
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 0%
@@ -19,11 +19,11 @@ ht-degree: 0%
 
 ## 來自Workfront的傳出電子郵件
 
-為了提高電子郵件的成功傳送，我們將消除經常被標籤為垃圾郵件的詐騙電子郵件（請參閱電子郵件詐騙）。 所有來自Workfront的電子郵件都會從notifications@my.workfront.com傳送，包括自動警報和使用者與使用者的通訊。 Joan Harris的電子郵件範例在電子郵件的寄件者區域看起來像這樣：
+為了提高電子郵件的成功傳送，我們將消除經常被標籤為垃圾郵件的詐騙電子郵件（請參閱電子郵件詐騙）。 所有來自Workfront的電子郵件都會從`notifications@my.workfront.com`傳送，包括自動警示和使用者與使用者的通訊。 Joan Harris的電子郵件範例在電子郵件的寄件者區域看起來像這樣：
 
-![](assets/noreply.png)
+![範例電子郵件](assets/noreply.png)
 
-*我們強烈建議您連絡您的IT團隊*，以確保不會封鎖來自notifications@my.workfront.com的電子郵件，以接收您系統的電子郵件。 您也可以參考[設定防火牆的允許清單](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)，以取得流量和電子郵件來自哪些IP位址的詳細資訊。
+*強烈建議您連絡您的IT團隊*，以確保不會因為系統收到內送電子郵件而封鎖來自`notifications@my.workfront.com`的電子郵件。 您也可以參考[設定防火牆的允許清單](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)，以取得流量和電子郵件來自哪些IP位址的詳細資訊。
 
 ## 通知的傳入電子郵件回覆（POP回覆）
 

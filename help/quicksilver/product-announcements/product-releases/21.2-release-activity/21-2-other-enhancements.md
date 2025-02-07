@@ -8,9 +8,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f136c08b-63c0-4e1e-a048-09eb84a0ed54
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '612'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Adobe Workfront應用程式中最顯眼的區域和我們面向客戶的網站�
 
 若要進一步瞭解新Workfront體驗中的新物件標頭，請參閱[新物件標頭](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md)。
 
-![](assets/product-announcement-object-header-350x179.png)
+![物件標頭](assets/product-announcement-object-header-350x179.png)
 
 ## 物件狀態搜尋回應的更新
 

@@ -7,9 +7,9 @@ description: 當您在 [!DNL Adobe] [!DNL Workfront]中收到更新通知時，�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: b39c53b5-02b6-4c13-9f25-83cb3e3096d8
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
@@ -52,9 +52,9 @@ ht-degree: 0%
 
 ## 回覆來自[!DNL Google Workspace]的更新通知
 
-1. 如果未顯示Google Workspace]的[!UICONTROL Workfront面板，請按一下頁面最右側[!DNL Google Workspace]附加元件側邊欄中的[!DNL Workfront]圖示![](assets/wf-lion-icon.png)。
+1. 如果未顯示Google Workspace]的[!UICONTROL Workfront面板，請按一下頁面最右側[!DNL Google Workspace]附加元件側邊欄中的[!DNL Workfront]圖示![Workfront圖示](assets/wf-lion-icon.png)。
 1. 開啟包含更新的[!DNL Workfront]電子郵件通知。
-1. 在[!UICONTROL Google Workspace的Workfront]面板底部附近，按一下&#x200B;**[!UICONTROL Post註解]**，然後輸入您的回覆。
+1. 在[!UICONTROL Google Workspace的Workfront]面板底部附近，按一下&#x200B;**[!UICONTROL 發表評論]**，然後輸入您的回覆。
 1. （選擇性）若要將您的回覆通知給特定使用者，請按一下&#x200B;**[!DNL Notify people and teams]**，開始輸入名稱，然後在名稱出現在下拉式清單中時按一下該名稱。
 
    您可以對要新增的任何其他名稱重複此步驟。

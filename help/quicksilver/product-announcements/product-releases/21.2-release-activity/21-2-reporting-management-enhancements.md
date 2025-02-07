@@ -8,9 +8,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1d5f76ef-bea7-4630-8051-454b0d109341
-source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 如需清單中指派的詳細資訊，請參閱[指派任務](../../../manage-work/tasks/assign-tasks/assign-tasks.md)或[指派問題](../../../manage-work/issues/manage-issues/assign-issues.md)。
 
-![](assets/assignments-updates-350x193.png)
+![工作分派更新](assets/assignments-updates-350x193.png)
 
 ## 更新清單和報告中的預先輸入欄位有新的外觀
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 如需有關已更新清單的資訊，請參閱文章[開始使用Adobe Workfront中的清單](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)中的[已更新清單和舊版清單的差異](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated)區段。
 
-![](assets/typeahead-updates-350x336.png)
+![自動提示欄位](assets/typeahead-updates-350x336.png)
 
 ## 系統更新報告
 

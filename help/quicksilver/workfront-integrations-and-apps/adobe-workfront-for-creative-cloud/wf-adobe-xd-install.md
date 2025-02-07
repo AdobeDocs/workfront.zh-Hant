@@ -6,9 +6,9 @@ description: 您可以從Adobe市集安裝適用於XD的Adobe Workfront外掛程
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '474'
 ht-degree: 1%
 
 ---
@@ -89,7 +89,7 @@ ht-degree: 1%
 
 1. 在左下角，按一下&#x200B;**外掛程式**&#x200B;圖示。
 
-![](assets/xd-plugin-window-350x620.png)
+![XD外掛程式視窗](assets/xd-plugin-window-350x620.png)
 
 1. 在&#x200B;**[!UICONTROL 外掛程式面板]**&#x200B;中，找到&#x200B;**[!UICONTROL 適用於XD]**&#x200B;的Adobe Workfront。
 
@@ -103,7 +103,7 @@ ht-degree: 1%
    >[!TIP]
    >
    >* 若要尋找您的網域，請開啟瀏覽器、導覽至您的[!DNL Workfront]執行個體，並複製URL的第一個部分：\
-   >![](assets/domain-350x50.png)
+   >![尋找網域](assets/domain-350x50.png)
    >
    > * 如果您的Workfront執行個體已與Experience Cloud整合，請要求您的管理員提供您Admin Console中「產品> Workfront」底下的Workfront網域。
 

@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 55fb0b85-937d-4903-8a64-6f627dd4291f
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '934'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ in January 2022
 
 ## 新的預設存取層級設定
 
-為了更符合建立新存取層級的大多數管理員的需求，我們已變更下列之「微調您的設定」選項的預設設定。 當您按一下「編輯」按鈕上的齒輪圖示![](assets/gear-icon-in-access-levels.png)時，就會顯示這些專案。
+為了更符合建立新存取層級的大多數管理員的需求，我們已變更下列之「微調您的設定」選項的預設設定。 當您在[編輯]按鈕上按一下齒輪圖示![存取層級齒輪圖示](assets/gear-icon-in-access-levels.png)時，就會顯示這些專案。
 
 所有這些變更都會停用先前預設啟用的選項。 如果這不符合貴組織的需求，您可以在設定新存取層級時或稍後隨時啟用它們。
 
@@ -100,7 +100,7 @@ in January 2022
 
 如需詳細資訊，請參閱[安裝藍圖](../../../administration-and-setup/blueprints/blueprints-install.md)。
 
-![](assets/blueprints-installation-history-350x95.png)
+![藍圖安裝歷程記錄](assets/blueprints-installation-history-350x95.png)
 
 ## 現在，在生產環境中安裝僅限預覽的Blueprint時會顯示警告
 

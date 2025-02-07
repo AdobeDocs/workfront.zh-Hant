@@ -7,9 +7,9 @@ description: 本文說明如何登入或登出 [!DNL Adobe Workfront for] Google
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 8a91f1d9-bc67-4c27-a6c0-2482488c670b
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 ## 登入[!DNL Adobe Workfront for Google Workspace]
 
-1. 按一下[!DNL Gmail]、[!DNL Google Calendar]或[!DNL Google Drive]最右側[!DNL Google Workspace]附加元件側邊欄中的[!DNL Workfront]圖示![](assets/wf-lion-icon.png)。
+1. 按一下[!DNL Gmail]、[!DNL Google Calendar]或[!DNL Google Drive]最右側[!DNL Google Workspace]附加元件側邊欄中的[!DNL Workfront]圖示![Workfront圖示](assets/wf-lion-icon.png)。
 
    如果您剛安裝[!DNL Workfront for Google Workspace]附加元件，但看不到此圖示，請嘗試重新整理瀏覽器頁面。
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 ## 登出[!DNL Workfront for Google Workspace]
 
-1. 如果未顯示Google Workspace]的[!UICONTROL Workfront面板，請按一下頁面最右側[!DNL Google Workspace]附加元件側邊欄中的[!DNL Workfront]圖示![](assets/wf-lion-icon.png)。
+1. 如果未顯示Google Workspace]的[!UICONTROL Workfront面板，請按一下頁面最右側[!DNL Google Workspace]附加元件側邊欄中的[!DNL Workfront]圖示![Workfront圖示](assets/wf-lion-icon.png)。
 1. 按一下[!DNL Workfront for Google Workspace]面板頂端的&#x200B;**[!UICONTROL 更多動作]**&#x200B;圖示。
 
 1. 在出現的功能表中按一下&#x200B;**[!UICONTROL 登出]**。

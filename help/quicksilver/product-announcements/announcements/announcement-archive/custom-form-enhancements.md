@@ -4,9 +4,9 @@ description: 在22.2版本中，為管理自訂表單進行了以下重要增強
 author: Luke
 feature: Product Announcements, Custom Forms
 exl-id: 81568eab-8a65-4767-b8ab-fb9353a90bb6
-source-git-commit: 8dac7959919014d7bfbbbd39d193d026ca31c4b2
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1117'
 ht-degree: 0%
 
 ---
@@ -19,17 +19,17 @@ ht-degree: 0%
 
 您可以在自訂表單中內嵌影像。 這可讓您以更具互動性和視覺化的方式與自訂表單使用者通訊。 即將推出其他Widget型別。
 
-![](assets/image-in-custom-form.png)
+![自訂表單中的影像](assets/image-in-custom-form.png)
 
 將包含Widget的自訂表單附加到物件時，使用物件的使用者可在下列區域看到它：
 
 * 物件的「詳細資訊」區域（例如，專案的「詳細資訊」區域）&#x200B;。
 
-  ![](assets/see-image-details-page.png)
+  ![影像詳細資料](assets/see-image-details-page.png)
 
 * 物件的「編輯」方塊(如果它具有新的Adobe Workfront體驗外觀) （例如「編輯專案」和「編輯任務」方塊）&#x200B;。
 
-  ![](assets/image-see-in-edit.png)
+  ![影像編輯](assets/image-see-in-edit.png)
 
 目前，使用者無法在下列區域看到Widget&#x200B;：
 
@@ -42,11 +42,11 @@ ht-degree: 0%
 
 您可以將多個物件型別與任何新的自訂表單建立關聯：
 
-![](assets/new-custom-form-object-types.png)
+![自訂表單物件型別](assets/new-custom-form-object-types.png)
 
 或任何現有的自訂表單：
 
-![](assets/add-object-type-existing-form.png)
+![新增物件型別至表單](assets/add-object-type-existing-form.png)
 
 這可讓您建立單一自訂表單，以用於專案、任務、問題以及自訂表單支援的任何其他型別的物件。
 
@@ -76,11 +76,11 @@ ht-degree: 0%
 
 「問題」、「任務」、「專案」和「使用者」物件型別可用的分割槽符號許可權選項組，比所有其他物件型別的許可權選項組多了一個許可權選項：「有限編輯」。
 
-![](assets/section-break-permissions-limited-edit.png)
+![有限編輯的分節符號](assets/section-break-permissions-limited-edit.png)
 
 適用於所有其他物件型別(Portfolio、檔案、方案、費用、公司、反複專案、記帳記錄和群組)的一組分割槽符號許可權不包含有限編輯：
 
-![](assets/section-break-permissions-no-limited-edit.png)
+![分割槽符號不受限制地編輯](assets/section-break-permissions-no-limited-edit.png)
 
 在與來自這兩個群組的物件型別相關聯的自訂表單中，系統會使用一組適用於所有物件型別的通用分割槽符號許可權。 特別是，此通用集不會使用有限編輯許可權選項，而會取代有限編輯許可權選項的編輯許可權選項。 「編輯」選項與所有物件型別相容。
 

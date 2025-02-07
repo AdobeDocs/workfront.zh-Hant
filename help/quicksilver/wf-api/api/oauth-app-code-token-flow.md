@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a1ab60c4-4255-4d80-87f1-f36d325254c2
-source-git-commit: e41b0df5ee0ce092f0811b18c57f6865bbb3abee
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '726'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ https://<URL of your organization's domain>/integrations/oauth2/authorize?client
 
 ## 設定授權代碼流程
 
-![](assets/oauth-2-authorization-code-flow.png)
+![OAuth程式碼流程](assets/oauth-2-authorization-code-flow.png)
 
 若要使用OAuth2登入使用者，請使用下列程式：
 
@@ -93,7 +93,7 @@ https://<URL of your organization's domain>/integrations/oauth2/authorize?client
 
    如果使用者已在相同瀏覽器上登入Workfront，或使用者已成功登入Workfront，則會將使用者重新導向至同意畫面：
 
-   ![](assets/consent-screen-350x227.png)
+   ![同意畫面](assets/consent-screen-350x227.png)
 
 1. 如果使用者允許存取，頁面會重新導向至`redirect_url`。 重新導向必須包括下列查詢引數：
 
@@ -172,7 +172,7 @@ https://<URL of your organization's domain>/integrations/oauth2/authorize?client
 
 ## 設定重新整理存取權杖
 
-![](assets/refresh-access-token-flow-350x142.png)
+![重新整理存取權杖流程](assets/refresh-access-token-flow-350x142.png)
 
 若要重新整理access_token，我們再次需要對token端點執行「POST」呼叫。 這次我們會傳送不同的表單資料，如下所示：
 

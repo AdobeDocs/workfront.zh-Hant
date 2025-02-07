@@ -3,13 +3,13 @@ content-type: overview
 product-area: workfront-integrations
 navigation-topic: workfront-for-salesforce
 title: 適用於Salesforce的Adobe Workfront概觀
-description: 您可以為Salesforce安裝 [!DNL Adobe Workfront] 以允許Salesforce使用者提交 [!DNL Workfront] 請求並自動建立專案，而不需要離開Salesforce。
+description: 您可以為Salesforce安裝 [!DNL Adobe Workfront] ，以允許Salesforce使用者提交 [!DNL Workfront] 請求並自動建立專案，而不需要離開Salesforce。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 65d4cdae-1d34-4a8a-a1c0-706cd41fc75e
-source-git-commit: 5b889633a96d634a359181bfd53ec106b0f3705c
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -70,18 +70,18 @@ ht-degree: 0%
 
 * 您可以按一下Workfront中的&#x200B;**[!UICONTROL 前往Salesforce]**&#x200B;連結，直接存取連結至[!DNL Salesforce]的專案。
 
-  您無法檢視[!DNL Workfront]中[!DNL Salesforce]專案的任何資訊，但您擁有來自[!DNL Workfront]的[!UICONTROL Salesforce]專案連結，可在[!DNL Salesforce]中檢閱該連結。
+  您無法檢視[!DNL Workfront]中[!DNL Salesforce]專案的任何相關資訊，但您擁有來自[!DNL Workfront]的[!UICONTROL Salesforce]專案連結，可在[!DNL Salesforce]中檢閱。
 
-  [!UICONTROL **移至Salesforce**]&#x200B;連結會顯示在下列區域中：
+  [!UICONTROL 此&#x200B;**前往Salesforce**]&#x200B;連結會顯示在下列區域中：
 
    * 專案或和問題的[!UICONTROL 詳細資料]區段
    * 專案或問題的標頭。
 
      您的系統或群組管理員必須將[!UICONTROL 整合]欄位新增到您的版面配置範本，才能檢視專案或問題標題中的[!UICONTROL 前往Salesforce]連結。
-   * 在清單中選取問題時，按一下清單工具列上的[!UICONTROL 開啟摘要] ![](assets/summary-panel-icon.png)後，問題的[!DNL Summary]面板。
+   * 在清單的工具列中按一下[!UICONTROL 開啟摘要] ![摘要面板圖示](assets/summary-panel-icon.png)後，在清單中選取問題時的問題[!DNL Summary]面板。
 
      >[!NOTE]
      >
-     >所有可以檢視專案或問題的[!DNL Workfront]使用者皆可看到[!UICONTROL 移至Salesforce]連結。 您必須擁有[!DNL Salesforce]帳戶才能移至記錄問題的[!DNL Salesforce]商機或帳戶。
+     >所有可以檢視專案或問題的[!DNL Workfront]使用者皆可看到[!UICONTROL 前往Salesforce]連結。 您必須擁有[!DNL Salesforce]帳戶才能移至記錄問題的[!DNL Salesforce]商機或帳戶。
 
 * 更新一個應用程式中一個專案的欄位並不會更新另一個應用程式中連結專案的任何資訊。

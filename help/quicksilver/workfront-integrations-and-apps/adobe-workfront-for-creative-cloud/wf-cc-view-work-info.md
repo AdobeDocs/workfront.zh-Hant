@@ -6,9 +6,9 @@ description: 您可以從Adobe Creative Cloud應用程式檢視有關專案、�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: a53a716f-4faf-4ea7-a4fc-ad8d87634267
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '605'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 1. 按一下右上角的&#x200B;**[!UICONTROL 功能表]**&#x200B;圖示，然後選取&#x200B;**[!UICONTROL 工作清單]**。 您也可以使用功能表導覽至父物件。
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![返回工作清單](assets/go-back-to-work-list-350x314.png)
 
 1. 選取您要檢視的工作專案。
 
@@ -74,7 +74,7 @@ ht-degree: 0%
    >
    >使用&#x200B;**[!UICONTROL 功能表]**&#x200B;圖示移至工作專案的父物件。
 
-1. 按一下導覽列中的&#x200B;**[!UICONTROL 詳細資料]**&#x200B;圖示![](assets/details.png)以檢視：
+1. 按一下導覽列中的&#x200B;**[!UICONTROL 詳細資料]**&#x200B;圖示![詳細資料](assets/details.png)以檢視：
 
    * [!UICONTROL 說明]
    * [!UICONTROL 計畫完成日期]
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 1. 按一下右上角的&#x200B;**[!UICONTROL 功能表]**&#x200B;圖示，然後選取&#x200B;**[!UICONTROL 工作清單]**。 您也可以使用功能表導覽至父物件。
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![返回工作清單](assets/go-back-to-work-list-350x314.png)
 
 1. 選取您要檢視的工作專案。
 
@@ -95,7 +95,7 @@ ht-degree: 0%
    >
    >使用&#x200B;**[!UICONTROL 功能表]**&#x200B;圖示移至工作專案的父物件。
 
-1. 按一下導覽列中的&#x200B;**[!UICONTROL 檔案]**&#x200B;圖示![](assets/documents.png)，然後按兩下檔案以檢視：
+1. 按一下導覽列中的&#x200B;**[!UICONTROL 檔案]**&#x200B;圖示![檔案圖示](assets/documents.png)，然後按兩下檔案以檢視：
 
    * [!UICONTROL 說明]
    * [!UICONTROL 檔案型別]
@@ -108,7 +108,7 @@ ht-degree: 0%
 
 1. 按一下右上角的&#x200B;**[!UICONTROL 功能表]**&#x200B;圖示，然後選取&#x200B;**[!UICONTROL 工作清單]**。 您也可以使用功能表導覽至父物件。
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![返回工作清單](assets/go-back-to-work-list-350x314.png)
 
 1. 選取您要檢視的工作專案。
 
@@ -116,7 +116,7 @@ ht-degree: 0%
    >
    >使用&#x200B;**[!UICONTROL 功能表]**&#x200B;圖示移至工作專案的父物件。
 
-1. 按一下導覽列中的&#x200B;**[!UICONTROL 檔案]**&#x200B;圖示![](assets/documents.png)，然後按兩下校訂。
+1. 按一下導覽列中的&#x200B;**[!UICONTROL 檔案]**&#x200B;圖示![檔案圖示](assets/documents.png)，然後按兩下校訂。
 
 1. 按一下縮圖右上角的箭頭圖示，在[!DNL Workfront]中開啟校樣詳細資訊。
 
@@ -126,7 +126,7 @@ ht-degree: 0%
 
 1. 按一下右上角的&#x200B;**[!UICONTROL 功能表]**&#x200B;圖示，然後選取&#x200B;**[!UICONTROL 工作清單]**。 您也可以使用功能表導覽至父物件。
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![返回工作清單](assets/go-back-to-work-list-350x314.png)
 
 1. 選取您要檢視的工作專案。
 
@@ -134,17 +134,17 @@ ht-degree: 0%
    >
    >使用&#x200B;**[!UICONTROL 功能表]**&#x200B;圖示移至工作專案的父物件。
 
-1. 按一下導覽列中的&#x200B;**[!UICONTROL 檔案]**&#x200B;圖示![](assets/documents.png)，然後按兩下校訂。
+1. 按一下導覽列中的&#x200B;**[!UICONTROL 檔案]**&#x200B;圖示![檔案圖示](assets/documents.png)，然後按兩下校訂。
 
 1. 捲動至底部以檢視校訂的目前狀態。 如需有關已傳送、已開啟、註解、決定(SOCD)的詳細資訊，請參閱[檔案詳細資訊概觀](/help/quicksilver/documents/managing-documents/document-details-overview.md)。
 
-![](assets/proof-status.png)
+![校訂狀態](assets/proof-status.png)
 
 ## 檢視子任務和問題
 
 1. 按一下右上角的&#x200B;**[!UICONTROL 功能表]**&#x200B;圖示，然後選取&#x200B;**[!UICONTROL 工作清單]**。 您也可以使用功能表導覽至父物件。
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![返回工作清單](assets/go-back-to-work-list-350x314.png)
 
 1. 選取您要檢視的工作專案。
 
@@ -152,9 +152,9 @@ ht-degree: 0%
    >
    >使用&#x200B;**[!UICONTROL 功能表]**&#x200B;圖示移至工作專案的父物件。
 
-1. 按一下&#x200B;**[!UICONTROL 問題]**&#x200B;圖示![](assets/issues.png)或&#x200B;**子任務**&#x200B;圖示![](assets/subtasks.png)。
+1. 按一下&#x200B;**[!UICONTROL 問題]**&#x200B;圖示![問題圖示](assets/issues.png)或&#x200B;**子任務**&#x200B;圖示![子任務圖示](assets/subtasks.png)。
 
-1. 選取任務或問題，然後按一下導覽列中的&#x200B;**[!UICONTROL 詳細資料]**&#x200B;圖示![](assets/details.png)以檢視：
+1. 選取任務或問題，然後按一下導覽列中的&#x200B;**[!UICONTROL 詳細資料]**&#x200B;圖示![詳細資料](assets/details.png)以檢視：
 
    * [!UICONTROL 計畫完成日期]
    * [!UICONTROL 狀態]

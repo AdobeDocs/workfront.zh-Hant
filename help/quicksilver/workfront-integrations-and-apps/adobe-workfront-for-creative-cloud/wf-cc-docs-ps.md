@@ -6,9 +6,9 @@ description: 您可以上傳專案作為檔案，以進行快速檢閱和核准�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d26850d8-9594-4848-b263-6f71e6c52e9b
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -64,10 +64,10 @@ ht-degree: 0%
 
 1. 按一下右上角的&#x200B;**[!UICONTROL 功能表]**&#x200B;圖示，然後選取&#x200B;**[!UICONTROL 工作清單]**。 您也可以使用功能表導覽至父物件。
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![返回工作清單](assets/go-back-to-work-list-350x314.png)
 
 1. 移至您要上傳檔案的工作專案。
-1. 按一下導覽列中的&#x200B;**[!UICONTROL 檔案]**&#x200B;圖示![](assets/documents.png)。
+1. 按一下導覽列中的&#x200B;**[!UICONTROL 檔案]**&#x200B;圖示![檔案圖示](assets/documents.png)。
 
 1. 按一下外掛程式底部附近的&#x200B;**[!UICONTROL 新增檔案]**。
 1. 從下拉式功能表中選擇&#x200B;**[!UICONTROL 資產型別]**。

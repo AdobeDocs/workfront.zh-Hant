@@ -7,9 +7,9 @@ description: 您無需離開Google Workspace，即可檢視及管理與 [!DNL Ad
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 20c9e1a6-fce0-44a2-a4c3-f89c94db6635
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 ## 檢視及管理[!DNL Google Workspace]中的[!DNL Workfront]檔案
 
-1. 如果未顯示Google Workspace]的[!UICONTROL Workfront面板，請按一下頁面最右側[!DNL Google Workspace]附加元件側邊欄中的[!DNL Workfront]圖示![](assets/wf-lion-icon.png)。
+1. 如果未顯示Google Workspace]的[!UICONTROL Workfront面板，請按一下頁面最右側[!DNL Google Workspace]附加元件側邊欄中的[!DNL Workfront]圖示![Workfront圖示](assets/wf-lion-icon.png)。
 1. 移至[!DNL Google Workspace]內的[!DNL Workfront]任務或問題，如[存取 [!DNL Adobe Workfront] [!UICONTROL 首頁]來自 [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md)的內容中所述。
 1. 按一下&#x200B;**[!UICONTROL 檔案]**。
 
@@ -68,11 +68,11 @@ ht-degree: 0%
 
    如果您需要張貼更新或回覆的相關資訊，請參閱[從 [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md)更新a [!DNL Adobe Workfront] 物件。
 
-1. （選擇性）按一下&#x200B;**[!UICONTROL 下載]**&#x200B;圖示![](assets/download-icon.png)來下載清單中的檔案。
+1. （選擇性）按一下&#x200B;**[!UICONTROL 下載]**&#x200B;圖示![下載圖示](assets/download-icon.png)來下載清單中的檔案。
 
    或
 
-   如果檔案儲存在雲端磁碟機上，請按一下&#x200B;**[!UICONTROL 開啟]**&#x200B;圖示![](assets/open-icon.png) 。
+   如果檔案儲存在雲端磁碟機上，請按一下&#x200B;**[!UICONTROL 開啟]**&#x200B;圖示![開啟圖示](assets/open-icon.png) 。
 
 1. 按一下&#x200B;**[!UICONTROL 在Workfront中檢視]**，即可移至[!DNL Workfront]中檔案的檔案詳細資訊頁面。
 

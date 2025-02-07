@@ -8,9 +8,9 @@ author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '926'
 ht-degree: 0%
 
 ---
@@ -97,4 +97,4 @@ Workfront提供下列Beta版計畫：
 
 例如：
 
-![](assets/release-notes-350x189.png)
+![範例發行說明](assets/release-notes-350x189.png)

@@ -7,9 +7,9 @@ title: Adobe Workfront整合方法
 description: 您可以將 [!DNL Adobe Workfront] 與協力廠商應用程式整合。 這些整合可擴充 [!DNL Workfront] 的公用程式，並根據貴組織的需求量身打造。 您可以根據對指定任務最有用的整合方式，使用任何或全部的這些整合。
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: bf13a7c9-eab3-4ae3-a060-8a422236122d
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '952'
 ht-degree: 0%
 
 ---
@@ -95,6 +95,6 @@ Adobe[!DNL Workfront]管理員可以為您的[!DNL Workfront]執行個體建立O
 >
 >[!DNL Workfront Fusion]中的下列[!DNL Workfront]模組已設定為新增註解至選取的專案。 執行模組後，註解會顯示在Workfront中專案的更新流中。
 >
->![](assets/fusion-example-comment-350x416.png)
+>![範例：在Fusion中新增註解](assets/fusion-example-comment-350x416.png)
 
 如需[!DNL Workfront Fusion]的詳細資訊，請參閱[[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home)。

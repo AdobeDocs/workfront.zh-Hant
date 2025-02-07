@@ -6,9 +6,9 @@ description: 您可以從Adobe市集安裝 [!DNL Adobe Workfront for design and 
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '540'
 ht-degree: 1%
 
 ---
@@ -102,7 +102,7 @@ ht-degree: 1%
    >
    >如果您正在使用Premiere Pro，您必須開啟一個專案才能存取此選單。
 
-   ![](assets/adobe-workfront-menu.png)
+   ![Workfront功能表](assets/adobe-workfront-menu.png)
 
 
    >[!TIP]
@@ -121,7 +121,7 @@ ht-degree: 1%
    >[!TIP]
    >
    >* 若要尋找您的網域，請開啟瀏覽器、導覽至您的[!DNL Workfront]執行個體，並複製URL的第一個部分：\
-   >![](assets/domain-350x50.png)
+   >![尋找網域](assets/domain-350x50.png)
    >
    > * 如果您的Workfront執行個體已與Experience Cloud整合，請要求您的管理員提供您Admin Console中「產品> Workfront」底下的Workfront網域。
 

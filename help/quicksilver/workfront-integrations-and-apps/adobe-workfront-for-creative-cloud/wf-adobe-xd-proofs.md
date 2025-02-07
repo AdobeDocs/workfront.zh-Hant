@@ -6,9 +6,9 @@ description: 您可以將工作區域作為校訂直接上傳到Adobe Workfront�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d6699fd7-f130-4231-8713-0cfa8dc3c910
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1055'
 ht-degree: 0%
 
 ---
@@ -64,10 +64,10 @@ ht-degree: 0%
 
 1. 按一下右上角的&#x200B;**[!UICONTROL 功能表]**&#x200B;圖示，然後選取&#x200B;**[!UICONTROL 工作清單]**。 您也可以使用功能表導覽至父物件。
 
-   ![](assets/menu-350x440.png)
+   ![功能表圖示](assets/menu-350x440.png)
 
 1. 前往您要上傳靜態校樣的工作專案。
-1. 按一下導覽列中的&#x200B;**[!UICONTROL 檔案]**&#x200B;圖示![](assets/documents.png)。
+1. 按一下導覽列中的&#x200B;**[!UICONTROL 檔案]**&#x200B;圖示![檔案圖示](assets/documents.png)。
 
 1. 按一下外掛程式底部附近的&#x200B;**[!UICONTROL 新增檔案]**。
 1. 選取您要上載的工作區域。
@@ -108,7 +108,7 @@ ht-degree: 0%
 
 1. （選擇性）在&#x200B;**[!UICONTROL 更新]**&#x200B;區域輸入註解。
 
-   ![](assets/proof-approvals-xd-350x396.png)
+   在XD](assets/proof-approvals-xd-350x396.png)中![校訂核准
 
 1. 從&#x200B;**[!UICONTROL 資產型別]**&#x200B;下拉式功能表中選擇匯出格式。
 
@@ -117,7 +117,7 @@ ht-degree: 0%
 
 1. （選用）為PDF命名。
 
-   ![](assets/pdf-options.png)
+   ![PDF選項](assets/pdf-options.png)
 
 1. 按一下&#x200B;**[!UICONTROL 上傳]**。\
    檔案會顯示在外掛程式與案頭應用程式的[!UICONTROL 檔案]區域中。
@@ -149,10 +149,10 @@ ht-degree: 0%
 
 1. 按一下右上角的&#x200B;**[!UICONTROL 功能表]**&#x200B;圖示，然後選取&#x200B;**[!UICONTROL 工作清單]**。 您也可以使用功能表導覽至父物件。
 
-   ![](assets/menu-350x440.png)
+   ![功能表圖示](assets/menu-350x440.png)
 
 1. 前往您要上傳互動式校樣的工作專案。
-1. 按一下導覽列中的&#x200B;**[!UICONTROL 檔案]**&#x200B;圖示![](assets/documents.png)。
+1. 按一下導覽列中的&#x200B;**[!UICONTROL 檔案]**&#x200B;圖示![檔案圖示](assets/documents.png)。
 
 1. 按一下外掛程式底部附近的&#x200B;**[!UICONTROL 新增檔案]**。
 1. 啟用&#x200B;**[!UICONTROL 建立校訂]**。
@@ -184,10 +184,10 @@ ht-degree: 0%
 
 1. （選擇性）在&#x200B;**[!UICONTROL 更新]**&#x200B;區域輸入註解。
 
-   ![](assets/proof-approvals-xd-350x396.png)
+   在XD](assets/proof-approvals-xd-350x396.png)中![校訂核准
 
 1. 在&#x200B;**[!UICONTROL 資產型別]**&#x200B;下拉式功能表中，選擇您剛才在&#x200B;**共用連結**&#x200B;標籤下建立的連結。 如需詳細資訊，請參閱[為您的工作區域建立互動式連結](#create-an-interactive-link-for-your-artboard)。\
-   ![](assets/shared-links-xd-350x870.png)
+   ![在XD中共用的連結](assets/shared-links-xd-350x870.png)
 
 1. 按一下&#x200B;**[!UICONTROL 上傳]**。
 
@@ -203,10 +203,10 @@ ht-degree: 0%
 
 1. 按一下右上角的&#x200B;**[!UICONTROL 功能表]**&#x200B;圖示，然後選取&#x200B;**[!UICONTROL 工作清單]**。 您也可以使用功能表導覽至父物件。
 
-   ![](assets/menu-350x440.png)
+   ![功能表圖示](assets/menu-350x440.png)
 
 1. 前往上載檔案所需的工作專案。
-1. 按一下導覽列中的&#x200B;**[!UICONTROL 檔案]**&#x200B;圖示![](assets/documents.png)。
+1. 按一下導覽列中的&#x200B;**[!UICONTROL 檔案]**&#x200B;圖示![檔案圖示](assets/documents.png)。
 
 1. 按一下外掛程式底部附近的&#x200B;**[!UICONTROL 新版本]**。
 1. 啟用&#x200B;**[!UICONTROL 建立校訂]**。
@@ -243,17 +243,17 @@ ht-degree: 0%
 
 1. 從&#x200B;**[!UICONTROL 資產型別]**&#x200B;下拉式功能表中選擇匯出格式。
 
-   ![](assets/create-a-proof-xd-350x202.png)
+   ![在XD中建立校訂](assets/create-a-proof-xd-350x202.png)
 
 1. （選擇性）在&#x200B;**[!UICONTROL 更新]**&#x200B;區域輸入註解。
 
-   ![](assets/proof-approvals-xd-350x396.png)
+   在XD](assets/proof-approvals-xd-350x396.png)中![校訂核准
 
 1. （選擇性）如果您選取PDF作為資產型別，且選取了多個工作區域，請選擇您要將工作區域匯出為&#x200B;**[!UICONTROL 單一PDF檔案]s**&#x200B;或&#x200B;**M[!UICONTROL 多個PDF檔案]**。
 
 1. （選用）為PDF命名。
 
-   ![](assets/pdf-options.png)
+   PDF選項
 
 1. 按一下&#x200B;**[!UICONTROL 上傳]**。\
    檔案會顯示在外掛程式與案頭應用程式的[!UICONTROL 檔案]區域中。

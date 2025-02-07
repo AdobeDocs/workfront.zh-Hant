@@ -8,9 +8,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4e954d79-da5a-42f5-b43f-b1fdd17316d2
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '1650'
+source-wordcount: '1653'
 ht-degree: 1%
 
 ---
@@ -83,7 +83,7 @@ ht-degree: 1%
 * [編輯專案](../../../manage-work/projects/manage-projects/edit-projects.md)
 * [編輯任務](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
 
-![](assets/pasted-image-4-5-2021-0-350x278.png)
+![編輯專案範例](assets/pasted-image-4-5-2021-0-350x278.png)
 
 ## 自訂表單增強功能
 

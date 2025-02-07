@@ -6,10 +6,10 @@ description: 您可以直接在Adobe Creative Cloud應用程式中，記錄您�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 4c5bd7ca-18f2-4a47-9e79-c39d5852aab5
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 0%
+source-wordcount: '260'
+ht-degree: 1%
 
 ---
 
@@ -68,16 +68,16 @@ ht-degree: 0%
 
 1. 按一下右上角的&#x200B;**[!UICONTROL 功能表]**&#x200B;圖示，然後選取&#x200B;**[!UICONTROL 工作清單]**。 您也可以使用功能表導覽至父物件。
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![返回工作清單](assets/go-back-to-work-list-350x314.png)
 
 1. 從&#x200B;**[!UICONTROL 工作清單]**&#x200B;中，選取您需要記錄時間的工作專案。
 1. 按一下導覽列中的&#x200B;**[!UICONTROL 時間]**。
 
-   ![](assets/log-time-350x337.png)
+   ![記錄時間](assets/log-time-350x337.png)
 
 1. （選擇性）從下拉式功能表中選擇&#x200B;**[!UICONTROL 小時型別]**。
 1. 輸入您需要的當天時間（小時）。
 
-   ![](assets/copy-of-log-hours-350x236.png)
+   ![記錄時數](assets/copy-of-log-hours-350x236.png)
 
 1. 按一下&#x200B;**[!UICONTROL 提交]**。
