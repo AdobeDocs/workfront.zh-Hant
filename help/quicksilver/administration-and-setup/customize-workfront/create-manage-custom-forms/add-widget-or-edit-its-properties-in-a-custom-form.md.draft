@@ -64,7 +64,7 @@ You must have the following to perform the steps in this article:
 
    * If you are adding a new widget, select **Image**, **PDF**, or **Video** to add it at the bottom of the form, or drag it where you want it on the form.
 
-     ![](assets/add-widget.png)
+     ![Add widget](assets/add-widget.png)
 
 
    * If you want to add a widget that has already been added to another custom form, click **Field library**, then click the name of the widget in the list that displays. For more information, see [Reuse a custom field or widget in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).

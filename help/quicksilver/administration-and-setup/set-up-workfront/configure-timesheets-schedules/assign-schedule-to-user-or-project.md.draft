@@ -18,7 +18,7 @@ hidefromtoc: true
 
 ## Assign a schedule to users
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Users** ![](assets/users-icon-in-main-menu.png). 
+1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Users** ![Users icon](assets/users-icon-in-main-menu.png). 
 
 1. Select the user who you want to associate with a schedule.
 1. Click **Edit**.
@@ -28,7 +28,7 @@ hidefromtoc: true
 
 ## Assign a schedule to projects
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Projects**. ![](assets/projects-in-main-menu.png)
+1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Projects**. ![Projects icon](assets/projects-in-main-menu.png)
 
 1. Select the project you want to associate with a schedule.
 1. Click **Edit**.

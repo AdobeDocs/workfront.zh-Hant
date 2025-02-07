@@ -72,7 +72,7 @@ The best way to learn how to add display and skip logic to a custom form is thro
 
 ### Display logic {#display-logic}
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  
+1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).  
 
 1. In the left panel, click **Custom Forms**. 
 
@@ -114,7 +114,7 @@ Skip logic functions similarly to display logic, but acts as the inverse: instea
 
 To learn about this, continue working on the sample custom form you created in the section [Display logic](#display-logic) in this article:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  
+1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).  
 
 1. Click **Custom Forms**. 
 1. Select the form **Sample custom form - Learning display logic and skip logic** that you created in the steps above, then click **Edit**. 

@@ -172,14 +172,14 @@ You can use both built-in Workfront fields and custom fields that you already cr
    >You can do any of the following to get help with your calculation:
    > 
    >* Hover over an expression in your calculation to see a description, an example showing how it can be used, and a "Learn More" link to more information in the article [Overview of calculated data expressions](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
-   >  ![](assets/hover-expression-help-text.jpg)
+   >  ![Expression help text](assets/hover-expression-help-text.jpg)
    >* Use the color coding to identify the components you have added. Expressions display in blue and fields display in green.
-   >  ![](assets/colors-fields-expressions.jpg)
+   >  ![Colors for field expressions](assets/colors-fields-expressions.jpg)
    >* Find calculation errors, highlighted in pink, as you go. You can hover over a highlighted error to display a brief description of its cause.
-   >  ![](assets/error-help.png) 
+   >  ![Error help](assets/error-help.png) 
    >* In the **Preview on an existing object** area below your calculation, start typing the name of a Workfront object, select it when it displays in the list. This gives you a preview of what the field will look like when the form is attached to the object.
    ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
-   >  ![](assets/preview-calc.jpg)
+   >  ![Preveiew calculation](assets/preview-calc.jpg)
    >* Reference expressions in a long calculation using the line numbers that display on the left.
 
 1. Click **Minimize** when you are finished creating the calculation for the calculated custom field.

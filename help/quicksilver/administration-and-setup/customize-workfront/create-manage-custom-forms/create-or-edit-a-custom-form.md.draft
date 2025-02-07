@@ -63,7 +63,7 @@ For more detail about the information in this table, see [Access requirements in
 1. Click **New Custom Form.**
 1. Select at least one object type that you want to associate with the custom form, then click **Continue**.
 
-   ![](assets/choose-object-type.jpg)
+   ![Choose object type](assets/choose-object-type.jpg)
 
 1. On the **Form settings** tab that opens, type a **Form Title** and an optional **Description** for the custom form.
 
@@ -115,7 +115,7 @@ You can edit a custom form any time after it has been created.
 
 1. (Optional) If you want to add more object types to the form so that it can be attached to more objects, click the plus sign + after **Object Types**, then select the type you want in the menu that displays.
 
-   ![](assets/add-object-type-existing-form.png)
+   ![Add object type](assets/add-object-type-existing-form.png)
 
    You can repeat this to add as many object types as you want. 
    
