@@ -6,7 +6,7 @@ description: 報表傳送概覽
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 1637df59-ca1d-4cf6-b83d-2b27936cdb96
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: a2cb33150ae50b00485f894dc81d7c719524a182
 workflow-type: tm+mt
 source-wordcount: '1531'
 ht-degree: 0%
@@ -43,11 +43,11 @@ ht-degree: 0%
 
 有數個大小限制會影響報表在Workfront中的顯示方式，以及透過手動匯出、傳送報表或透過API匯出的方式：
 
-* **5MB檔案大小：**&#x200B;任何排定傳送之匯出報告的檔案大小限制。 如果附加至電子郵件的匯出檔案大於5MB，則會以電子郵件傳送可下載該檔案的連結，而非附加的匯出報告。
+* **10MB檔案大小：**&#x200B;任何排定傳送之匯出報告的檔案大小限制。 如果附加至電子郵件的匯出檔案大於5MB，則會以電子郵件傳送可下載該檔案的連結，而非附加的匯出報告。
 
   >[!NOTE]
   >
-  >大於5MB的Excel .xlsx檔案不會產生電子郵件。 您可以手動將報表匯出為此格式。 如需有關匯出報告的資訊，請參閱[匯出資料](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md)。
+  >大於10MB的Excel .xlsx檔案不會產生電子郵件。 您可以手動將報表匯出為此格式。 如需有關匯出報告的資訊，請參閱[匯出資料](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md)。
 
 * **50,000列：**&#x200B;報表匯出中允許用於.pdf和Tab分隔檔案的資料列數。
 
