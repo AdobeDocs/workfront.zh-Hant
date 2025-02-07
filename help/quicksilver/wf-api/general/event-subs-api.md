@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 2e72dd6a4ef91a11627a48b52e96033410c4435c
+source-git-commit: adde34e472a762274b00f5c050b76e71002cea15
 workflow-type: tm+mt
-source-wordcount: '2198'
+source-wordcount: '2362'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 3%
 {{highlighted-preview}}
 -->
 
-當事件訂閱支援的Adobe Workfront物件上發生動作時，您可以設定Workfront將回應傳送至您所需的端點。 這表示協力廠商應用程式在更新發生後不久就能透過Workfront API接收來自Workfront互動的更新。 一般而言，您可能會在5秒內收到記錄資料變更的webhook通知。 平均而言，客戶會在記錄資料變更後1秒內收到webhook通知。  
+當事件訂閱支援的Adobe Workfront物件上發生動作時，您可以設定Workfront將回應傳送至您所需的端點。 這表示協力廠商應用程式在更新發生後不久就能透過Workfront API接收來自Workfront互動的更新。 一般而言，您可能會在5秒內收到記錄資料變更的webhook通知。 平均而言，客戶會在記錄資料變更後1秒內收到webhook通知。
 
 若要透過防火牆接收事件訂閱裝載，您必須將下列IP位址新增至允許清單：
 
@@ -110,7 +110,7 @@ ht-degree: 3%
         <td scope="col"><p>指派</p></td> 
        </tr> 
        <tr> 
-        <td scope="col">公司 </td> 
+        <td scope="col">公司 </td> 
         <td scope="col"><p>CMPY</p></td> 
        </tr> 
        <tr> 
@@ -119,7 +119,7 @@ ht-degree: 3%
        </tr> 
        <tr> 
         <td scope="col"><p>文件</p></td> 
-        <td scope="col">檔案 </td> 
+        <td scope="col">檔案 </td> 
        </tr> 
        <tr> 
         <td scope="col"><p>費用</p></td> 
@@ -193,7 +193,7 @@ ht-degree: 3%
    * **String** — 代表物件訂閱的事件型別的值。 可用的事件型別包括：
 
       * 建立
-      * DELETE 
+      * DELETE
       * 更新
 
 * url （必要）
@@ -202,7 +202,7 @@ ht-degree: 3%
 
 * authToken （必要）
 
-   * **字串** — 用來使用「URL」欄位中指定的URL進行驗證的OAuth2持有人權杖。 
+   * **字串** — 用來使用「URL」欄位中指定的URL進行驗證的OAuth2持有人權杖。
 
 ## 建立事件訂閱API請求
 
@@ -210,14 +210,14 @@ ht-degree: 3%
 
 請使用下列語法來建構URL。
 
-**要求URL：**
+**要求URL**
 
 
 ```
 POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 ```
 
-**要求標頭：**
+**要求標頭**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -253,6 +253,15 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
             }
 ```
 
+**回應本文範例**
+
+```
+{
+    "id": <NEW SUBSCRIPTION ID>,
+    "version": <NEW SUBSCRIPTION VERSION>
+}
+```
+
 | 回應代碼 | 說明 |
 |---|---|
 | 201 （已建立） | 已成功建立事件訂閱。 |
@@ -264,7 +273,7 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 
 >[!NOTE]
 >
-> 「Location」回應標頭包含新建立之事件訂閱的URI。
+> 「Location」回應標頭包含新建立之事件訂閱的URI。
 
 **回應標頭範例：**
 
@@ -288,7 +297,7 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 
 列出特定客戶之所有事件訂閱的請求語法如下：
 
-**要求URL：**
+**要求URL**
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -315,7 +324,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
  </tbody> 
 </table>
 
-**回應代碼：**
+**回應代碼**
 
 | 回應代碼 | 說明 |
 |---|---|
@@ -324,7 +333,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 | 403 （禁止存取） | 符合所提供sessionID的使用者沒有管理員存取權。 |
 
 
-**回應標頭範例：**
+**回應標頭範例**
 
 | 回應標頭 | 範例 |
 |---|---|
@@ -334,7 +343,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 | Transfer-Encoding | `→chunked` |
 
 
-**回應本文範例：**
+**回應本文範例**
 
 ```
 {
@@ -368,7 +377,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 
 您可以依事件訂閱ID來查詢事件訂閱。 列出事件訂閱的請求語法如下：
 
-**要求URL：**
+**要求URL**
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -376,7 +385,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTION ID>
 ```
 
-**要求標頭：**
+**要求標頭**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -395,7 +404,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
  </tbody> 
 </table>
 
-**回應代碼：**
+**回應代碼**
 
 | 回應代碼 | 說明 |
 |---|---|
@@ -404,7 +413,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 | 403 （禁止存取） | 符合所提供sessionID的使用者沒有管理員存取權。 |
 
 
-**回應本文範例：**
+**回應本文範例**
 
 
 
@@ -429,6 +438,95 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
    }
 }
 ```
+
+## 事件訂閱版本設定
+
+Workfront有兩個版本的事件訂閱。
+
+升級或降級事件訂閱的功能可確保事件結構變更時，現有訂閱不會中斷，讓您測試和升級至新版本，不會有事件訂閱的間隙。
+
+如需事件訂閱版本設定的詳細資訊，包括版本和重要日期之間的特定差異，請參閱[事件訂閱版本設定](/help/quicksilver/wf-api/general/event-subs-versioning.md)。
+
+### 單一訂閱版本變更
+
+變更單一訂閱版本的請求語法為：
+
+**要求URL**
+
+```
+PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTION ID>/version 
+```
+
+**範例要求內文**
+
+```
+{
+    "version": "v2" 
+}
+```
+
+
+**範例回應內文(200)**
+
+```
+{
+    "id": <SUBSCRIPTION ID>,
+    "version": "v2" 
+}
+```
+
+**可能的回應代碼**
+
+* 200
+* 400
+* 404
+
+
+### 多訂閱版本變更
+
+此端點會依訂閱清單或所有客戶的訂閱旗標，變更多個訂閱的版本。
+
+變更單一訂閱版本的請求語法為：
+
+**要求URL**
+
+```
+PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
+```
+
+**範例要求內文**
+
+* 要求訂閱清單內文
+
+  ```
+  {
+      "subscriptionIds": [<SUBSCRIPTION ID 1>, <SUBSCRIPTION ID 2>],
+      "version": "v2" 
+  }
+  ```
+
+* 所有客戶訂閱的請求內文
+
+  ```
+  {
+      "allCustomerSubscriptions": true,
+      "version": "v2" 
+  }
+  ```
+
+**範例回應內文(200)**
+
+```
+{
+    "subscription_ids": [<SUBSCRIPTION ID 1>, <SUBSCRIPTION ID 2>, ...],
+    "version": "v2" 
+}
+```
+
+**可能的回應代碼**
+
+* 200
+* 400
 
 ## 事件訂閱篩選
 
@@ -760,7 +858,7 @@ DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRI
  <thead> 
   <tr> 
    <th> <p>回應代碼</p> </th> 
-   <th> 說明</th> 
+   <th> 說明</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -1001,7 +1099,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
  <thead> 
   <tr> 
    <th> <p>回應代碼</p> </th> 
-   <th> 說明</th> 
+   <th> 說明</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -1020,7 +1118,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
  </tbody> 
 </table>
 
- 
+
 
 ### 回應本文範例
 
