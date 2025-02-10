@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: 911a284f388ed93e6c6c5545a4c0b5c1f73bfe96
+source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
 workflow-type: tm+mt
 source-wordcount: '1419'
 ht-degree: 1%
@@ -108,16 +108,7 @@ ht-degree: 1%
    >![](assets/visible-system-wide-350x480.png)
    >   
    >如果您擔心自訂表單附加至特定物件時，使用者可能會輸入敏感資料，限制這些&#x200B;*物件*&#x200B;的共用可能比限制表單本身的存取權更好。
-<!--
-   >[!NOTE]
-   >
-   >* When you make a custom form visible to everyone in the system, you allow users only to see and fill it out on objects they are assigned to, not to attach it to other objects. You can grant the ability to attach the custom form to objects using the option "Attach to custom data" explained under step 5.
-   >* Most organizations want to ensure that everyone in the system can fill out a custom form when it's attached to objects they work on and view its data in reports. If this is true for your organization, we recommend that you use **Everyone in the system can view**.
-   >   
-   >![](assets/share-custom-form-in-designer.png)
-   >   
-   >If you are concerned about a custom form where users might enter sensitive data when it is attached to certain objects, limiting sharing for those *objects* might be better rather than limiting access to the form itself.
--->
+
 1. 按一下「**儲存**」。
 
 ## 從表單設計工具共用自訂表單

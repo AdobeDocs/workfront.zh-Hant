@@ -6,7 +6,7 @@ description: 您可以從「檔案」區域共用資料夾及其內容。
 author: Alina
 feature: Get Started with Workfront
 exl-id: c0d318a8-b1cf-4522-b478-acf092687658
-source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
+source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
 workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 0%
@@ -132,8 +132,6 @@ ht-degree: 0%
 1. （選擇性）如果您希望系統中的每個人都能檢視資料夾及其內容，請按一下共用方塊右上角的齒輪圖示![](assets/gear-icon-settings-with-dn-arrow.jpg)，然後按一下&#x200B;**讓此內容在整個系統內可見。**
 
    如果您改變心意，可以按一下&#x200B;**移除系統範圍存取權** （預設選項）。
-
-<!--1. (Optional) If you want everyone in the system to be able to view the folder and its contents, choose **Everyone in the System can view** in the **Who has access** drop-down menu. -->
 
 ## 使用者如何存取共用給他們的資料夾內容
 

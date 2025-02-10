@@ -6,17 +6,14 @@ description: 當您的Adobe Workfront管理員指派存取層級時，可以授�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 45da15cb-8880-41f7-a0de-939882c1f154
-source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
+source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '643'
 ht-degree: 2%
 
 ---
 
 # 共用任務
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽Sandbox」環境中使用。</span>
-
 
 當您的Adobe Workfront管理員指派存取層級時，可以授予您檢視或編輯任務的存取權。 如需授與工作存取權的詳細資訊，請參閱[授與工作存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)。
 
@@ -38,10 +35,6 @@ ht-degree: 2%
    * 管理
    * 參與\
      ![](assets/screen-shot-2014-05-30-at-11.37.24-am-175x192.png) ![](assets/screen-shot-2014-01-23-at-1.12.40-pm-154x258.png) ![](assets/screen-shot-2014-01-22-at-10.53.00-am-182x252.png)
-
-     <span class="preview">預覽：
-     ![](assets/task-permissons.png)
-  </span>
 
 * 當您共用任務時，使用者預設會繼承與任務相關的所有子物件的相同許可權。 例如，他們會對附加到任務的子任務、問題和檔案繼承相同許可權。\
   如需Workfront中物件階層的詳細資訊，請參閱  [瞭解Adobe Workfront中的物件](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)。

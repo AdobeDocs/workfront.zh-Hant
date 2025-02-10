@@ -6,9 +6,9 @@ description: 指派存取層級時，您的Adobe Workfront管理員可授予您�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
-source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
+source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '566'
 ht-degree: 1%
 
 ---
@@ -106,10 +106,6 @@ ht-degree: 1%
    * **管理它**
 
      ![](assets/12.png)      ![](assets/13.png) ![](assets/14.png)
-
-   預覽中的<span class="preview">：
-   ![](assets/project-permissions.png)
-   </span>
 
 1. 在同一個下拉式功能表中，按一下&#x200B;**進階設定**，然後執行下列其中一項作業：
 

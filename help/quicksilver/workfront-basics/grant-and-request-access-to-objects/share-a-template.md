@@ -6,16 +6,14 @@ description: 身為Adobe Workfront管理員，您可以在指派使用者的存�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
+source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '584'
 ht-degree: 2%
 
 ---
 
 # 共用範本
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽Sandbox」環境中使用。</span>
 
 身為Adobe Workfront管理員，您可以在指派使用者的存取層級時，授予使用者檢視或編輯範本的存取權。 使用者必須擁有「計畫」授權才能存取「編輯範本」。
 
@@ -42,13 +40,12 @@ ht-degree: 2%
      您可以將下列許可權授與範本：
 
       * 檢視
+
+        ![](assets/view-on-template-262x221.png)
+
       * 管理
 
-        ![](assets/view-on-template-262x221.png) ![](assets/manage-on-template-225x280.png)
-
-     <span class="preview">預覽：
-     ![](assets/template-permissions.png)
-  </span>
+        ![](assets/manage-on-template-225x280.png)
 
    * 使用範本建立的未來專案。 您可以對使用範本建立的專案賦予與個別專案相同的許可權層級。 
 

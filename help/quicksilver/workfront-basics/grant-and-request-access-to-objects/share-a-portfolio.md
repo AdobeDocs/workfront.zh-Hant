@@ -5,16 +5,14 @@ author: Alina
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 79643202-2d91-4028-b673-c3443b50d898
-source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
+source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
 
 # 共用投資組合
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽Sandbox」環境中使用。</span>
 
 指派存取層級時，您的Adobe Workfront管理員可授予您檢視或編輯投資組合的存取權。 您必須擁有計畫授權才能編輯投資組合。 如需詳細資訊，請參閱[授予投資組合的存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md)。
 
@@ -37,12 +35,9 @@ ht-degree: 0%
 
   ![](assets/screen-shot-2014-01-23-at-12.45.15-pm.png)    ![](assets/screen-shot-2014-01-22-at-10.03.43-am-190x167.png)
 
-  <span class="preview">預覽：
-  ![](assets/share-portfolio.png)
-</span>
-*共用專案組合時，使用者預設會繼承與專案組合相關聯之所有子物件的相同許可權。
+* 共用專案組合時，使用者預設會繼承與專案組合相關聯之所有子物件的相同許可權。
 
-如需Workfront中物件階層的詳細資訊，請參閱[瞭解Adobe Workfront中的物件](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)。
+  如需Workfront中物件階層的詳細資訊，請參閱[瞭解Adobe Workfront中的物件](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)。
 
 * 您可以從Portfolio中移除繼承的許可權。 如需有關移除物件許可權的詳細資訊，請參閱[移除物件許可權](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)。
 

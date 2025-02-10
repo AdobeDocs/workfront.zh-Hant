@@ -7,16 +7,14 @@ description: 當使用者指派存取層級時，您的Adobe Workfront管理員�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
-source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
+source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '616'
 ht-degree: 1%
 
 ---
 
 # 共用檔案
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽Sandbox」環境中使用。</span>
 
 當使用者指派存取層級時，您的Adobe Workfront管理員會授與使用者檢視或編輯檔案的存取權，如[授與檔案的存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md)中所述。
 
@@ -41,10 +39,6 @@ Workfront管理員授予使用者的存取層級可讓他們檢視或編輯檔�
 
    * 檢視
    * 管理
-
-  <span class="preview">預覽：
-  ![](assets/document-permissions.png)
-</span>
 
 * 您也可以公開或全系統共用檔案。
 
