@@ -7,14 +7,16 @@ description: 指派存取層級時，您的Adobe Workfront管理員可授予您�
 author: Alina
 feature: Get Started with Workfront
 exl-id: bfa6ce97-24ad-44b3-9c2f-7fac6b748f94
-source-git-commit: e608cf5bdb0227ea5b8d3109db411e98145aaa38
+source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
 
 # 共用方案
+
+{{highlighted-preview}}
 
 指派存取層級時，您的Adobe Workfront管理員可授予您檢視或編輯方案的存取權。 您必須擁有計畫授權才能編輯計畫。 如需詳細資訊，請參閱[授予程式的存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md)。
 
@@ -39,6 +41,9 @@ ht-degree: 0%
 * 您只能授予程式的「檢視」或「管理」許可權。
 
   ![](assets/screen-shot-2014-01-23-at-12.45.15-pm.png)    ![](assets/screen-shot-2014-01-22-at-10.03.43-am-190x167.png)
+
+  <span class="preview">預覽：
+  ![](assets/program-permissions.png)
 
 * 當您共用方案時，使用者預設會繼承與該方案相關聯的所有子物件的相同許可權。
 
