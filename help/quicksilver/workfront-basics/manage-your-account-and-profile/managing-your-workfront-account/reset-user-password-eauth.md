@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: 72f955e9-75ff-4ff7-b434-7a2b2d5ee0e8
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
@@ -48,17 +48,17 @@ ht-degree: 0%
 
 ## 在啟用eAuth的環境中重設使用者密碼
 
-1. 按一下[!DNL Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 使用者]** ![](assets/users-icon-in-main-menu.png)。
+1. 按一下[!DNL Workfront]右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 使用者]** ![使用者圖示](assets/users-icon-in-main-menu.png)。
 
-   ![](assets/main-menu-options-350x481.png)
+   ![主要功能表選項](assets/main-menu-options-350x481.png)
 
 1. 選取需要重設密碼的&#x200B;**[!UICONTROL 使用者]**。
-   ![](assets/100520classicnweselectuser-350x105.png)
+   ![選取使用者](assets/100520classicnweselectuser-350x105.png)
 
 1. 在您選擇想要的&#x200B;**[!UICONTROL 使用者]**&#x200B;後，請按一下顯示的&#x200B;**[!UICONTROL 更多]按鈕**，然後從下拉式功能表中選取&#x200B;**[!UICONTROL 傳送忘記密碼電子郵件]**&#x200B;選項。
 
-   ![](assets/100520classicnwesendemail-350x134.png)
+   ![傳送忘記密碼電子郵件](assets/100520classicnwesendemail-350x134.png)
 
 選取&#x200B;**[!UICONTROL 傳送忘記密碼電子郵件]**&#x200B;選項後，會傳送電子郵件給選取的使用者，其中包含使用者變更自己密碼的指示。
 
-![](assets/pwresetemail-resized-350x461.png)
+![重設電子郵件](assets/pwresetemail-resized-350x461.png)

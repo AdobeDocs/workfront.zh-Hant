@@ -6,9 +6,9 @@ description: 主功能表會隨著您的 [!DNL Adobe Workfront] 管理員指派�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c646b3d2-2eca-47ef-b181-9358cef03ed7
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 * **[!UICONTROL 藍圖]**：檢閱您系統中的現有藍圖，並請求安裝藍圖（如果[!DNL Workfront]管理員已設定藍圖的請求佇列）。 如需詳細資訊，請參閱[藍圖概觀](../../../administration-and-setup/blueprints/blueprints-overview.md)。
 
 
-![](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
+![從主功能表存取我的更新](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
 
 ## 自訂您的預設[!UICONTROL 主功能表]
 

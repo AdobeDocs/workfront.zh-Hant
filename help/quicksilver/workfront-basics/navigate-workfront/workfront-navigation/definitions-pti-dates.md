@@ -6,9 +6,9 @@ description: 本文提供 [!DNL Adobe Workfront]中與專案、任務和問題�
 feature: Get Started with Workfront
 author: Alina
 exl-id: 3808200f-a573-4c39-8965-b254f69c893c
-source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '2301'
+source-wordcount: '2357'
 ht-degree: 3%
 
 ---
@@ -47,9 +47,9 @@ ht-degree: 3%
 >
 >[!UICONTROL 必須於]個任務開始，或固定日期限制會影響任務的[!UICONTROL 計劃開始日期]，而非[!UICONTROL 實際開始日期]。 這會將[!UICONTROL 計劃開始日期]更新為您指定的日期。 如上所述，[!UICONTROL 實際開始日期]與[!UICONTROL 計劃開始日期]分開更新。
 
-![](assets/actual-start-date-on-edit-task-highlighted-nwe-350x251.png)
+![編輯任務的實際開始日期](assets/actual-start-date-on-edit-task-highlighted-nwe-350x251.png)
 
-![](assets/actual-start-date-on-task-details-highlighted-nwe-350x191.png)
+![任務的實際開始日期](assets/actual-start-date-on-task-details-highlighted-nwe-350x191.png)
 
 ## [!UICONTROL 實際完成日期]
 
@@ -68,7 +68,7 @@ ht-degree: 3%
 
 如需詳細資訊，請參閱[專案總覽[!UICONTROL 實際完成日期]](../../../manage-work/projects/planning-a-project/project-actual-completion-date.md)。
 
-![](assets/actual-completion-date-task-details-highlighted-nwe-350x189.png)
+![實際完成日期詳細資料](assets/actual-completion-date-task-details-highlighted-nwe-350x189.png)
 
 ## 核准路徑完成日期
 
@@ -130,7 +130,7 @@ ht-degree: 3%
 
 轉換的問題輸入日期會顯示在專案、工作清單及報告中。
 
-## 到期日
+## 到期日期
 
 任務或問題到期完成的日期。 任務或問題的到期日與計畫完成日期相同。
 
@@ -152,7 +152,7 @@ ht-degree: 3%
 
 [!UICONTROL 進入日期]不會影響專案、任務或問題的時間表，但對於追蹤和報告用途而言很重要。 建立物件時，[!DNL Workfront]會自動產生[!UICONTROL 輸入日期]，您無法手動進行編輯。
 
-![](assets/entry-date-in-task-details-highlighted-nwe.png)
+![任務詳細資料中的輸入日期](assets/entry-date-in-task-details-highlighted-nwe.png)
 
 ## 預估到期日期
 
@@ -184,7 +184,7 @@ ht-degree: 3%
 
 專案的「固定結束日期」會顯示在專案的「業務案例」區段，以及專案清單與報表中。
 
-![](assets/fixed-end-date-business-case-highlight.png)
+![固定結束日期](assets/fixed-end-date-business-case-highlight.png)
 
 ## 固定開始日期
 
@@ -194,7 +194,7 @@ ht-degree: 3%
 
 專案的「固定開始日期」會顯示在專案的「業務案例」區段，以及專案清單與報表中。
 
-![](assets/fixed-start-date-business-case-highlight.png)
+![固定開始日期](assets/fixed-start-date-business-case-highlight.png)
 
 ## 移交日期
 
@@ -252,9 +252,9 @@ ht-degree: 3%
 * [設定專案[!UICONTROL 計畫完成日期]](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md)
 * [問題[!UICONTROL 計畫完成日期]的總覽](../../../manage-work/issues/issue-information/issue-planned-completion-date.md)
 
-![](assets/project-header-planned-completion-date-highlighted-nwe-350x34.png)
+標頭](assets/project-header-planned-completion-date-highlighted-nwe-350x34.png)中的![計畫完成日期
 
-![](assets/planned-completion-date-in-task-list-highlighted-nwe-350x183.png)
+![任務清單中的計畫完成日期](assets/planned-completion-date-in-task-list-highlighted-nwe-350x183.png)
 
 
 ## 計劃日期對準
@@ -277,9 +277,9 @@ ht-degree: 3%
 
 如需詳細資訊，請參閱[專案總覽[!UICONTROL 計劃開始日期]](../../../manage-work/projects/planning-a-project/project-planned-start-date.md)。
 
-![](assets/planned-start-date-on-edit-task-highlighted-nwe.png)
+![編輯任務的計劃開始日期](assets/planned-start-date-on-edit-task-highlighted-nwe.png)
 
-![](assets/planned-start-date-in-task-list-highlighted-nwe-350x167.png)
+![工作清單中的計劃開始日期](assets/planned-start-date-in-task-list-highlighted-nwe-350x167.png)
 
 ## [!UICONTROL 預計完成日期]
 
@@ -289,7 +289,7 @@ ht-degree: 3%
 
 如需詳細資訊，請參閱專案、任務和問題的[專案預計完成日期]的[!UICONTROL 總覽](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md)。
 
-![](assets/projected-completion-date-in-task-details-highlighted-nwe-350x187.png)
+![預計完成日期](assets/projected-completion-date-in-task-details-highlighted-nwe-350x187.png)
 
 ## [!UICONTROL 預計開始日期]
 
@@ -305,7 +305,7 @@ ht-degree: 3%
 
 如需詳細資訊，請參閱[專案總覽[!UICONTROL 預計開始日期]](../../../manage-work/projects/planning-a-project/project-projected-start-date.md)。
 
-![](assets/projected-start-date-in-task-details-highlighted-nwe-350x188.png)
+![預計的開始日期](assets/projected-start-date-in-task-details-highlighted-nwe-350x188.png)
 
 <!--## Rejection Date-->
 
@@ -313,11 +313,11 @@ ht-degree: 3%
 
 任務有時可以延遲開始和完成，而不會影響專案的完成日期。
 
-「Slack日期」會顯示任務明確會影響專案的「完成日期」的確切日期。
+「Slack日期」會顯示任務明確影響專案完成日期的確切日期。
 
-如需任務Slack日期的相關資訊，請參閱[任務Slack日期總覽](/help/quicksilver/manage-work/tasks/task-information/task-slack-date.md)。
+如需有關任務的Slack日期的資訊，請參閱[任務Slack日期總覽](/help/quicksilver/manage-work/tasks/task-information/task-slack-date.md)。
 
-工作Slack日期會顯示在工作清單及報告中。
+任務Slack日期會顯示在任務清單和報表中。
 
 ## 開始日期
 

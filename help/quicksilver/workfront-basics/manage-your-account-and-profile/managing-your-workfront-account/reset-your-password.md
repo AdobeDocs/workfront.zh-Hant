@@ -6,9 +6,9 @@ description: 您可以重設您的 [!DNL Adobe Workfront] 密碼。 作為一項
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '253'
 ht-degree: 1%
 
 ---
@@ -50,15 +50,15 @@ ht-degree: 1%
 
 ## 在[!DNL Adobe Workfront]中重設您的密碼
 
-1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下個人資料圖片旁的使用者名稱。
+1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下個人資料圖片旁的使用者名稱。
 
    ![開啟主功能表並選取您的使用者名稱。](assets/main-menu-options-350x481.png)
 
-1. 按一下&#x200B;**[!UICONTROL 更多功能表]** ![](assets/more-icon.png)，然後按一下&#x200B;**[!UICONTROL 編輯]**。
+1. 按一下&#x200B;**[!UICONTROL 更多功能表]** ![更多圖示](assets/more-icon.png)，然後按一下&#x200B;**[!UICONTROL 編輯]**。
 
 1. 在顯示的&#x200B;**[!UICONTROL 編輯人員]**&#x200B;方塊中，在&#x200B;**[!UICONTROL 個人資訊]**&#x200B;下，按一下&#x200B;**[!UICONTROL 重設密碼]**。
 
-   ![](assets/edit-person-box-350x196.jpg)
+   ![編輯人員](assets/edit-person-box-350x196.jpg)
 
    如果貴組織已將[!DNL Workfront]與SSO解決方案整合，當您按一下&#x200B;**[!UICONTROL 重設密碼]**&#x200B;時，系統可能會引導您透過SSO系統重設密碼。 這會重設您的SSO密碼，而這會影響您登入組織內的所有其他應用程式。
 

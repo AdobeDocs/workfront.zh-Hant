@@ -7,9 +7,9 @@ description: 您可以在 [!DNL Adobe Workfront] 檢視應用程式中，檢閱�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 5d0260ad-7049-42c6-a8a0-9b53fb115ec6
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 1. 輸入更新。
 1. （選擇性）點選[!UICONTROL 人員]圖示並指定其他使用者的名稱，將其他人加入更新中。\
-   ![](assets/screen-shot-2014-002-21-at-2.57.44-pm-350x222.png)
+   ![行動應用程式中的更新](assets/screen-shot-2014-002-21-at-2.57.44-pm-350x222.png)
 
-1. 點選&#x200B;**[!UICONTROL Post]**。\
+1. 點選&#x200B;**[!UICONTROL 貼文]**。\
    更新會顯示在專案的&#x200B;**[!UICONTROL 更新]** Widget中。

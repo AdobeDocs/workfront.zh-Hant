@@ -6,9 +6,9 @@ description: 您在 [!DNL Adobe Workfront] 中顯示的資訊由儲存在 [!DNL 
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '2424'
+source-wordcount: '2508'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 瞭解[!DNL Workfront]中物件的定義方式非常重要，這樣您就可以根據組織中的必要需求使用正確的物件。
 
-例如，當您計畫大量工作時，您需要使用[!UICONTROL 專案]物件來定義該工作。 若要將此工作分割成較小的計畫增量，您可以使用[!UICONTROL 工作]物件。 對於較少量未計畫且可能意外發生的工作，您可以使用Issue物件。 如果您想要追蹤一組專案的進度及預算與時間表遵守情況，可以在[!UICONTROL Portfolio]與[!UICONTROL 方案]中組織專案。 若要定義可協助您解決工作的其他元素，您想要使用儲存在[!UICONTROL 專案]、[!UICONTROL 任務]、[!UICONTROL 問題]或[!UICONTROL Portfolio]下的其他物件，例如[!UICONTROL 檔案]、[!UICONTROL 更新]、[!UICONTROL 小時]、[!UICONTROL 使用者]或[!UICONTROL 工作角色]。
+例如，當您計畫大量工作時，您需要使用[!UICONTROL 專案]物件來定義該工作。 若要將此工作分割成較小的計畫增量，您可以使用[!UICONTROL 工作]物件。 對於較少量未計畫且可能意外發生的工作，您可以使用Issue物件。 如果您想要追蹤一組專案的進度以及預算和時間表遵守情況，可以在[!UICONTROL 投資組合]和[!UICONTROL 方案]中組織它們。 若要定義可協助您解決工作的其他元素，您想要使用儲存在[!UICONTROL 專案]、[!UICONTROL 任務]、[!UICONTROL 問題]或[!UICONTROL 投資組合]下的其他物件，例如[!UICONTROL 檔案]、[!UICONTROL 更新]、[!UICONTROL 小時]、[!UICONTROL 使用者]或[!UICONTROL 工作角色]。
 
 [!UICONTROL 報表]和[!UICONTROL 儀表板]是另一個物件範例，可協助您以視覺化方式整理[!DNL Workfront]中的資料量，讓所有使用者都能輕鬆存取。
 
@@ -41,7 +41,7 @@ ht-degree: 1%
 |---|---|---|
 | [!UICONTROL 專案組合] |  | [!UICONTROL 方案]，[!UICONTROL 專案]，[!UICONTROL 檔案]，[!DNL Notes]，[!UICONTROL 使用者] |
 | [!UICONTROL 程式] | [!UICONTROL 專案組合] | [!UICONTROL 專案]，[!UICONTROL 檔案]，[!UICONTROL 附註]，[!UICONTROL 使用者] |
-| [!UICONTROL 專案] | [!UICONTROL Portfolio]，[!UICONTROL 程式] | [!UICONTROL 任務]，[!UICONTROL 問題]，[!UICONTROL 檔案]，[!UICONTROL 附註]，[!UICONTROL 小時]，[!UICONTROL 使用者] |
+| [!UICONTROL 專案] | [!UICONTROL 投資組合]，[!UICONTROL 計畫] | [!UICONTROL 任務]，[!UICONTROL 問題]，[!UICONTROL 檔案]，[!UICONTROL 附註]，[!UICONTROL 小時]，[!UICONTROL 使用者] |
 | [!UICONTROL 任務] | [!UICONTROL 專案] | [!UICONTROL 問題]，[!UICONTROL 子系任務]，[!UICONTROL 檔案]，[!UICONTROL 附註]，[!UICONTROL 小時]，[!UICONTROL 使用者] |
 | [!UICONTROL 問題] | [!UICONTROL 任務]，[!UICONTROL 專案] | [!UICONTROL 檔案]，[!UICONTROL 附註]，[!UICONTROL 小時]，[!UICONTROL 使用者] |
 | [!UICONTROL 儀表板] |  | [!UICONTROL 報表]，外部頁面 |
@@ -50,7 +50,7 @@ ht-degree: 1%
 | [!UICONTROL 團隊] |  | [!UICONTROL 使用者] |
 | [!UICONTROL 使用者] | [!UICONTROL 群組]，[!UICONTROL 團隊]，[!UICONTROL 公司] | [!UICONTROL 工作角色] |
 | [!UICONTROL 公司] |  | [!UICONTROL 使用者] |
-| [!UICONTROL 文件] | [!UICONTROL 任務]，[!UICONTROL 問題]，[!UICONTROL 專案]，[!UICONTROL Portfolio]，[!UICONTROL 計畫]，[!UICONTROL 使用者] |  |
+| [!UICONTROL 文件] | [!UICONTROL 任務]，[!UICONTROL 問題]，[!UICONTROL 專案]，[!UICONTROL 投資組合]，[!UICONTROL 計畫]，[!UICONTROL 使用者] |  |
 | [!UICONTROL 計畫]* |  | [!UICONTROL 個方案] |
 | [!DNL Goals]* |  | [!UICONTROL 個結果]，[!UICONTROL 個活動] |
 
@@ -161,21 +161,21 @@ ht-degree: 1%
 
 | **物件** | **圖示** | **可自訂的物件名稱** |
 |---|---|---|
-| [!UICONTROL 公司] | ![](assets/company-icon-nwe.png) ， ![](assets/nwe-company-icon-54x54.png) |  |
-| [!UICONTROL 儀表板] | ![](assets/dashboard-icon-nwe.png) ， ![](assets/nwe-dashboards-icon.png) |  |
-| [!UICONTROL 目標] | ![](assets/nwe-goal-icon.png) | ✔ |
-| [!UICONTROL 群組] | ![](assets/groups-icon-nwe.png) ， ![](assets/nwe-group-icon.png) |  |
-| [!UICONTROL 問題] | ![](assets/issue-icon-nwe.png) ， ![](assets/nwe-issues-icon.png) | ✔ |
-| [!UICONTROL 工作角色] | ![job_role_icon.png](assets/job-role-icon-52x50.png)，![job_role_icon__1_.png](assets/job-role-icon--1--53x44.png)，![](assets/job-role-nwe-no-color.png)，![](assets/job-role-icon-nwe-color.png) |  |
-| [!UICONTROL 計畫] | ![](assets/plan-icon.png)，![](assets/nwe-plan-icon-60x57.png) |  |
-| [!UICONTROL Portfolio] | ![](assets/portfolio-icon-nwe.png) ， ![](assets/nwe-portfolios-icon.png) | ✔ |
-| [!UICONTROL 程式] | ![](assets/program-icon-nwe.png) ， ![](assets/nwe-programs-icon.png) | ✔ |
-| [!UICONTROL 專案] | ![](assets/project-icon-nwe.png) ， ![](assets/nwe-projects-icon.png) | ✔ |
-| [!UICONTROL 報告] | ![](assets/report-icon-nwe.png) ， ![](assets/nwe-reports-icon.png) |  |
-| [!UICONTROL 任務] | ![](assets/task-icon-new.png) ， ![](assets/nwe-tasks-icon.png) | ✔ |
-| [!UICONTROL 團隊] | ![](assets/team-icon-nwe.png)， ![](assets/team-icon-nwe-color.png)， ![](assets/nwe-teams-icon.png) |  |
-| [!UICONTROL 範本] | ![](assets/template-icon-nwe.png) ， ![](assets/nwe-templates-icon.png) |  |
-| [!UICONTROL 使用者] | ![](assets/users-icon-gray.png) ， ![](assets/user-icon-blue.png) ， ![](assets/user-icon-initials.png) ， ![](assets/user-avatar.png) ， ![](assets/user-main-menu-area.png) |  |
+| [!UICONTROL 公司] | ![公司圖示](assets/company-icon-nwe.png) ，![公司圖示藍色](assets/nwe-company-icon-54x54.png) |  |
+| [!UICONTROL 儀表板] | ![儀表板圖示](assets/dashboard-icon-nwe.png) ，![儀表板圖示藍色](assets/nwe-dashboards-icon.png) |  |
+| [!UICONTROL 目標] | ![目標圖示](assets/nwe-goal-icon.png) | ✔ |
+| [!UICONTROL 群組] | ![群組圖示](assets/groups-icon-nwe.png) ，![群組圖示](assets/nwe-group-icon.png) |  |
+| [!UICONTROL 問題] | ![問題圖示](assets/issue-icon-nwe.png) ，![問題圖示粉紅色](assets/nwe-issues-icon.png) | ✔ |
+| [!UICONTROL 工作角色] | ![job_role_icon.png](assets/job-role-icon-52x50.png)，![job_role_icon__1_.png](assets/job-role-icon--1--53x44.png)，![工作角色圖示](assets/job-role-nwe-no-color.png)，![工作角色圖示色彩](assets/job-role-icon-nwe-color.png) |  |
+| [!UICONTROL 計畫] | ![計畫圖示](assets/plan-icon.png)，![計畫圖示藍色](assets/nwe-plan-icon-60x57.png) |  |
+| [!UICONTROL Portfolio] | ![Portfolio](assets/portfolio-icon-nwe.png) ，![Portfolio圖示藍色](assets/nwe-portfolios-icon.png) | ✔ |
+| [!UICONTROL 程式] | ![方案圖示](assets/program-icon-nwe.png) ， ![方案圖示橘色](assets/nwe-programs-icon.png) | ✔ |
+| [!UICONTROL 專案] | ![專案圖示](assets/project-icon-nwe.png) ， ![專案圖示紫色](assets/nwe-projects-icon.png) | ✔ |
+| [!UICONTROL 報告] | ![報表圖示](assets/report-icon-nwe.png) ，![綠色的報表圖示](assets/nwe-reports-icon.png) |  |
+| [!UICONTROL 任務] | ![任務圖示](assets/task-icon-new.png) ， ![任務圖示綠色](assets/nwe-tasks-icon.png) | ✔ |
+| [!UICONTROL 團隊] | ![團隊圖示](assets/team-icon-nwe.png)，![團隊圖示循環](assets/team-icon-nwe-color.png)，![團隊圖示](assets/nwe-teams-icon.png) |  |
+| [!UICONTROL 範本] | ![範本圖示](assets/template-icon-nwe.png) ， ![範本圖示綠色](assets/nwe-templates-icon.png) |  |
+| [!UICONTROL 使用者] | ![使用者圖示灰色](assets/users-icon-gray.png) ， ![使用者圖示藍色](assets/user-icon-blue.png) ， ![首字母為的使用者圖示](assets/user-icon-initials.png) ， ![顯示圖片](assets/user-avatar.png) ， ![使用者圖示主功能表](assets/user-main-menu-area.png) |  |
 
 ## 物件的參考編號
 
@@ -191,18 +191,18 @@ ht-degree: 1%
 
 | **物件** | **基本搜尋** | **進階搜尋** |
 |---|---|---|
-| [!UICONTROL 專案] | ✓ (A) | ✓ (A) |
-| [!UICONTROL 任務] | ✓ (A) | ✓ (A) |
-| [!UICONTROL 問題] | ✓ (A) | ✓ (A) |
-| [!UICONTROL 報告] | ✓ (A) | ✓ (A) |
-| [!UICONTROL 使用者] | ✓ (A) | ✓ (A) |
-| [!UICONTROL 範本] | ✓ (A) | ✓ (A) |
-| [!UICONTROL 文件] | ✓ (A) | ✓ (A) |
-| [!UICONTROL 專案組合] | ✓ (A) | ✓ (A) |
-| [!UICONTROL 程式] | ✓ (A) | ✓ (A) |
-| [!UICONTROL 儀表板] | ✓ (A) | ✓ (A) |
-| [!UICONTROL 公司] | ✓ (A) | ✓ (A) |
-| [!UICONTROL 備註] （或[!UICONTROL 更新]） | ✓ (A) |  |
+| [!UICONTROL 專案] | ✓ | ✓ |
+| [!UICONTROL 任務] | ✓ | ✓ |
+| [!UICONTROL 問題] | ✓ | ✓ |
+| [!UICONTROL 報告] | ✓ | ✓ |
+| [!UICONTROL 使用者] | ✓ | ✓ |
+| [!UICONTROL 範本] | ✓ | ✓ |
+| [!UICONTROL 文件] | ✓ | ✓ |
+| [!UICONTROL 專案組合] | ✓ | ✓ |
+| [!UICONTROL 程式] | ✓ | ✓ |
+| [!UICONTROL 儀表板] | ✓ | ✓ |
+| [!UICONTROL 公司] | ✓ | ✓ |
+| [!UICONTROL 備註] （或[!UICONTROL 更新]） | ✓ |  |
 
 如需在[!DNL Workfront]中執行基本和進階搜尋的詳細資訊，請參閱[搜尋 [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/search/search-workfront.md)。
 

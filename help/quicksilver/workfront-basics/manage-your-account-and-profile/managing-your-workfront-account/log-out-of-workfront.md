@@ -6,9 +6,9 @@ description: 基於安全理由，請務必定期登出 [!DNL Adobe Workfront] �
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 3b457a44-53a1-44c5-99ce-445ab1463303
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '221'
 ht-degree: 0%
 
 ---
@@ -58,5 +58,5 @@ ht-degree: 0%
 
 ## 登出您的[!DNL Workfront]帳戶
 
-1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 登出]** ![](assets/logout-icon.png)。
+1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 登出]** ![登出圖示](assets/logout-icon.png)。
 1. 這會將您帶回登入頁面，您可以在其中重新輸入使用者名稱和密碼。

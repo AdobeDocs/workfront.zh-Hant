@@ -6,9 +6,9 @@ description: 您可以調整瀏覽器上的語言偏好設定和Adobe Workfront�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1075'
 ht-degree: 1%
 
 ---
@@ -98,7 +98,7 @@ Workfront中的Web Proof Viewer支援Workfront支援的大部分語言。
 您可以修改下列設定，以變更檢視Workfront的語言和傳出電子郵件的語言：
 
 * 瀏覽器上的語言（適用於不在IMS上的使用者）
-* AEM設定檔的主要和次要語言（適用於IMS上的使用者）
+* 您的AEM設定檔的主要和次要語言（針對IMS上的使用者）
 * 您Workfront帳戶中的客戶資訊和使用者電子郵件地區設定。
 
 若要檢視所選語言的所有可用翻譯，Workfront地區設定和瀏覽器地區設定都應設為相同語言。
@@ -138,7 +138,7 @@ Workfront中的Web Proof Viewer支援Workfront支援的大部分語言。
 若要變更預設的Workfront電子郵件地區設定：
 
 1. 以Workfront管理員身分登入Workfront。
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
+1. 按一下Adobe Workfront右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
 
 1. 按一下&#x200B;**系統** > **客戶資訊。**
 
@@ -152,7 +152,7 @@ Workfront中的Web Proof Viewer支援Workfront支援的大部分語言。
 
 >[!NOTE]
 >
->當您的組織使用Adobe統一體驗時，語言偏好設定會儲存在您的Adobe設定檔中，並且不使用電子郵件地區設定。 請參閱本文中的[變更Adobe Experience Cloud語言](#change-the-adobe-experience-cloud-language)。
+>當您的組織使用Adobe Unified Experience時，語言偏好設定會儲存在您的Adobe設定檔中，並且不使用電子郵件地區設定。 請參閱本文中的[變更Adobe Experience Cloud語言](#change-the-adobe-experience-cloud-language)。
 
 若要變更您的使用者電子郵件地區設定：
 

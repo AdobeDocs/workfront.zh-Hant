@@ -5,9 +5,9 @@ description: 您可以使用物件清單中的快速篩選來協助您僅找出�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 363f7ad1-f4f8-4cb1-a631-ee4e5ea28e5a
-source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '843'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ ht-degree: 0%
 
 ## 將快速篩選套用至清單
 
-1. 移至支援快速篩選的清單或報告，然後按一下工具列中的&#x200B;**[!UICONTROL 快速篩選]圖示** ![](assets/qs-quick-filter-icon.png)。
+1. 移至支援快速篩選的清單或報表，然後按一下工具列中的&#x200B;**[!UICONTROL 快速篩選]圖示** ![快速篩選圖示](assets/qs-quick-filter-icon.png)。
 
    或
 
@@ -120,7 +120,7 @@ ht-degree: 0%
    1. 選取清單中的所有或數個專案，然後按一下&#x200B;**[!UICONTROL 編輯]**&#x200B;以大量編輯專案。
    1. 完成編輯之後，請按一下&#x200B;**[!UICONTROL 儲存變更]**。
 
-1. （選擇性）若要匯出快速篩選找到的專案，請選取清單中的所有或數個專案，然後按一下&#x200B;**[!UICONTROL 匯出]**&#x200B;圖示![](assets/export.png)。
+1. （選擇性）若要匯出快速篩選找到的專案，請選取清單中的所有或數個專案，然後按一下&#x200B;**[!UICONTROL 匯出]**&#x200B;圖示![匯出圖示](assets/export.png)。
 
    ![select_all_projects_with_highlight__1_.png](assets/select-all-projects-with-highlight--1--350x173.png)
 

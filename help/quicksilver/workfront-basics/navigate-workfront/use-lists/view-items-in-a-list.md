@@ -5,9 +5,9 @@ description: 您可以檢視 [!DNL Adobe Workfront] 中的物件清單，以取�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '2284'
+source-wordcount: '2290'
 ht-degree: 0%
 
 ---
@@ -123,14 +123,14 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
    <td>投資組合清單</td> 
    <td> 
     <ul> 
-     <li> <p>[！UICONTROLPortfolio]</p> </li> 
+     <li> <p>[！UICONTROL產品組合]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>計劃清單</td> 
    <td> 
     <ul> 
-     <li> <p>[！UICONTROLPortfolio] &gt;[！UICONTROL選取投資組合] &gt;[！UICONTROL計畫]</p> </li> 
+     <li> <p>[！UICONTROL產品組合] &gt;[！UICONTROL選取產品組合] &gt;[！UICONTROL計畫]</p> </li> 
      <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>[！UICONTROL程式]</p> </li> 
     </ul> </td> 
   </tr> 
@@ -139,8 +139,8 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
    <td> 
     <ul> 
      <li> <p>[！UICONTROL專案]</p> </li> 
-     <li> <p>[！UICONTROLPortfolio] &gt;[！UICONTROL選取投資組合] &gt;[！UICONTROL專案]</p> </li> 
-     <li> <p>[！UICONTROLPortfolio] &gt;[！UICONTROL選取投資組合] &gt;[！UICONTROL計畫] &gt;[！UICONTROL選取計畫] &gt;[！UICONTROL專案]</p> </li> 
+     <li> <p>[！UICONTROL專案組合] &gt;[！UICONTROL選取專案組合] &gt;[！UICONTROL專案]</p> </li> 
+     <li> <p>[！UICONTROL產品組合] &gt;[！UICONTROL選取產品組合] &gt;[！UICONTROL計畫] &gt;[！UICONTROL選取計畫] &gt;[！UICONTROL專案]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -194,8 +194,8 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
    <td> 
     <ul> 
      <li> <p>[！UICONTROL檔案]</p> </li> 
-     <li> <p>[！UICONTROLPortfolio] &gt;[！UICONTROL選取投資組合] &gt; [！UICONTROL檔案]</p> </li> 
-     <li> <p>[！UICONTROLPortfolio] &gt; [！UICONTROL選擇產品組合] &gt;[！UICONTROL計畫] &gt;[！UICONTROL選擇計畫] &gt;[！UICONTROL檔案]</p> </li> 
+     <li> <p>[！UICONTROL產品組合] &gt;[！UICONTROL選取產品組合] &gt; [！UICONTROL檔案]</p> </li> 
+     <li> <p>[！UICONTROL產品組合] &gt; [！UICONTROL選擇產品組合] &gt;[！UICONTROL計畫] &gt;[！UICONTROL選擇計畫] &gt;[！UICONTROL檔案]</p> </li> 
      <li> <p>[！UICONTROL專案] &gt;[！UICONTROL選取專案] &gt;[！UICONTROL檔案]</p> </li> 
      <li> <p>[！UICONTROL專案] &gt;[！UICONTROL選取專案] &gt;[！UICONTROL任務] &gt;[！UICONTROL選取任務] &gt; [！UICONTROL檔案]</p> </li> 
      <li> <p>[！UICONTROL專案] &gt; [！UICONTROL選取專案&gt; [！UICONTROL問題] &gt;[！UICONTROL選取問題] &gt; [！UICONTROL檔案]</p> </li> 
@@ -310,7 +310,7 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
  <thead> 
   <tr> 
    <th><strong>元素</strong></th> 
-   <th><strong>說明</strong></th> 
+   <th><strong>解釋</strong></th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -331,7 +331,7 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
 
 依預設，這些元素會顯示在每個清單的頂端。 它們是粘性的，而且不會在您捲動清單時移動。 將滑鼠移至每個元素的圖示上以識別它們。
 
-![](assets/nwe-list-elements.png)
+![清單元素](assets/nwe-list-elements.png)
 
 您可以自訂下列區域中的清單元素，並與其他使用者共用它們：
 
@@ -455,7 +455,7 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
   <tr> 
    <td> <img src="assets/export.png"> </td> 
    <td>[！UICONTROL Export]</td> 
-   <td>將清單匯出為PDF、Excel或定位字元分隔的檔案。</td> 
+   <td>將清單匯出至PDF、Excel或定位字元分隔的檔案。</td> 
   </tr> 
   <tr> 
    <td> <img src="assets/qs-agile-icon-in-new-toolbar-task-list.png"> </td> 
@@ -525,83 +525,83 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
  <tbody> 
   <tr> 
    <td> <p>任何人都能建立這些檔案</p> </td> 
-   <td>✓ <span>*</span> </td> 
+   <td><span>✓*</span> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>只有[!DNL Workfront]管理員和具有[！UICONTROL Plan]授權的使用者可以建立他們</p> </td> 
    <td> </td> 
-   <td>✓ **</td> 
+   <td>✓**</td> 
   </tr> 
   <tr> 
    <td> <p>預設集可從以下位置取得： [!DNL Workfront]</p> </td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>可在標準模式下自訂</p> </td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>可在文字模式中自訂</p> </td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>您可以與其他使用者共用</p> </td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>您可在系統內共用這些區段</p> </td> 
-   <td>✓ (A)</td> 
-   <td> ✓ (A) </td> 
+   <td>✓</td> 
+   <td> ✓ </td> 
   </tr> 
   <tr> 
    <td> <p>您可以在系統外部共用它們</p> </td> 
    <td> </td> 
-   <td>✓ (A) </td> 
+   <td>✓ </td> 
   </tr> 
   <tr> 
    <td> <p>您可以匯出為.pdf、[!DNL Excel]和Tab字元分隔格式</p> </td> 
-   <td>✓ (A)</td> 
-   <td> ✓ (A) </td> 
+   <td>✓</td> 
+   <td> ✓ </td> 
   </tr> 
   <tr> 
    <td> <p>您可以排程在電子郵件中傳送</p> </td> 
    <td> </td> 
-   <td>✓ (A) </td> 
+   <td>✓ </td> 
   </tr> 
   <tr> 
    <td> <p>您可以新增到版面範本</p> </td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>您可以將其新增到自訂部分 </p> </td> 
    <td> </td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>您可以將它們新增到儀表板</p> </td> 
-   <td> ✓ *** </td> 
-   <td>✓ (A)</td> 
+   <td> ✓*** </td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>您可以使用提示來自訂它們顯示的內容</p> </td> 
    <td> </td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>您可以在圖表中顯示它們</p> </td> 
    <td> </td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>您可以內嵌編輯物件</p> </td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
  </tbody> 
 </table>
@@ -624,11 +624,11 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
 
 * 舊版清單
 
-  ![](assets/legacy-list-screen-shot-blue-groupings-350x101.png)
+  ![藍色群組](assets/legacy-list-screen-shot-blue-groupings-350x101.png)
 
 * 更新的清單
 
-  ![](assets/updated-list-screen-shot-gray-groupings-350x71.png)
+  ![灰色群組](assets/updated-list-screen-shot-gray-groupings-350x71.png)
 
 下表顯示[!DNL Workfront]中舊版與更新清單之間的部分差異：
 

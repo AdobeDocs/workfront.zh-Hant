@@ -6,10 +6,10 @@ description: '[!UICONTROL 首頁]區域的[!UICONTROL 我的工作]區段會顯�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 006f6f5e-fe10-4530-a22a-4ab33a4e0da5
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 0%
+source-wordcount: '172'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 >
 >[!UICONTROL 我的工作]在行動應用程式中，與案頭版[!UICONTROL Adobe Workfront]上的[!UICONTROL 我的工作]不同。
 
-![](assets/home-myworksection-338x379.png)
+![我的工作](assets/home-myworksection-338x379.png)
 
 ## 自訂[!UICONTROL 我的工作]區段
 
@@ -36,4 +36,4 @@ ht-degree: 0%
    >
    >[!UICONTROL 任務和問題]功能表專案一律會顯示，您無法隱藏它。
 
-   ![](assets/mobile-settings-338x366.png)
+   ![行動設定](assets/mobile-settings-338x366.png)

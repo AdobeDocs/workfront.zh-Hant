@@ -5,9 +5,9 @@ description: 當您不記得專案的確切位置時，可以搜尋專案，在 
 feature: Get Started with Workfront
 author: Lisa
 exl-id: 7c856349-c79f-40d8-9c96-b32bfb6d5417
-source-git-commit: 073e6c7d4e830dfd2b8920a20e1490c5524d71bd
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '1668'
+source-wordcount: '1690'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 您可以在[!DNL Workfront]內任何頁面的右上角看到[!UICONTROL 搜尋]方塊。
 
-![](assets/search-globalnavigationbar-350x62.png)
+在導覽列中![搜尋圖示](assets/search-globalnavigationbar-350x62.png)
 
 您必須有檢視物件的許可權，才能在搜尋中找到該物件。 因此，搜尋結果會因使用者而異。
 
@@ -185,15 +185,15 @@ ht-degree: 1%
 
 若要執行基本搜尋：
 
-1. 按一下頁面右上角的放大鏡![](assets/search-icon.png)。 您也可以輸入&#x200B;**[!UICONTROL ALT + /]**&#x200B;或&#x200B;**[!UICONTROL Option + /]**&#x200B;以開啟[!UICONTROL 搜尋]功能表。
+1. 按一下頁面右上角的放大鏡![搜尋圖示](assets/search-icon.png)。 您也可以輸入&#x200B;**[!UICONTROL ALT + /]**&#x200B;或&#x200B;**[!UICONTROL Option + /]**&#x200B;以開啟[!UICONTROL 搜尋]功能表。
 
 1. （選擇性）若要搜尋特定物件，請按一下&#x200B;**[!UICONTROL 全部]**&#x200B;下拉式功能表，然後選取您要搜尋的物件。
 
-   ![](assets/search-objecttype.png)
+   ![依物件型別搜尋](assets/search-objecttype.png)
 
 1. 在&#x200B;**[!UICONTROL 搜尋]**&#x200B;方塊中，開始輸入您要搜尋的資訊。\
    如需[!DNL Workfront]中搜尋哪些欄位的詳細資訊，請參閱[瞭解搜尋](#understand-search)。\
-   ![](assets/qs-search-drop-down-highlighted-350x234.png)\
+   ![搜尋下拉式清單](assets/qs-search-drop-down-highlighted-350x234.png)\
    當您開始輸入搜尋列時，[!DNL Workfront]會根據您的檢視歷程記錄提出建議，並以藍色標示您正在搜尋的關鍵字。
 
 1. 如果您要尋找的專案顯示在[!UICONTROL 自動提示]功能表中，請按一下該專案。
@@ -232,7 +232,7 @@ ht-degree: 1%
 1. 在任一可用欄位中按一下，以縮短結果清單。\
    您所做的選擇會以藍色反白，而未選取的欄位值會隱藏。\
    選取每個新值後，右側的結果會動態更新。\
-   ![](assets/qs-refine-search-350x175.png)
+   ![調整搜尋](assets/qs-refine-search-350x175.png)
 
 1. （選擇性）按一下選取的值以取消選取它們，然後再次顯示每個欄位的所有值。
 
@@ -253,16 +253,16 @@ ht-degree: 1%
 
 若要執行進階搜尋，請執行下列動作：
 
-1. 在[!DNL Workfront]中任何頁面的右上角，按一下&#x200B;**[!UICONTROL 搜尋]**&#x200B;圖示![](assets/search-icon.png)。 [!DNL Search]功能表隨即顯示。
+1. 在[!DNL Workfront]中任何頁面的右上角，按一下&#x200B;**[!UICONTROL 搜尋]**&#x200B;圖示![搜尋圖示](assets/search-icon.png)。 [!DNL Search]功能表隨即顯示。
 
 1. 在[!UICONTROL 搜尋]功能表底部，按一下&#x200B;**[!UICONTROL 進階搜尋]**。\
-   ![](assets/qs-advanced-search-350x224.png)\
+   ![進階搜尋](assets/qs-advanced-search-350x224.png)\
    [!UICONTROL 進階搜尋]頁面投影片從右側開啟，並涵蓋上一頁的大部分內容。
 
 1. 選取您要搜尋的物件型別。\
    預設會選取&#x200B;**[!UICONTROL 專案]**。
 
-   ![](assets/advanced-search-objects-qs-remove-after-prod-release.png)
+   ![進階搜尋物件](assets/advanced-search-objects-qs-remove-after-prod-release.png)
 
 1. （選用）在清單頂端的欄位中輸入關鍵字。
 1. （選擇性）按一下&#x200B;**[!UICONTROL 篩選結果]**&#x200B;以根據特定欄位型別篩選搜尋結果，然後從清單中選取欄位。 如有必要，也請為欄位選取值。\

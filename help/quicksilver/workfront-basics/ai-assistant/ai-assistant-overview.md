@@ -5,9 +5,9 @@ description: AI助理總覽
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: b00032517f2bf048c50fbaf22b79c011017980ea
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '707'
 ht-degree: 1%
 
 ---
@@ -50,11 +50,11 @@ Workfront的AI助理可在自然語言對話中提供應用程式內資訊和建
 若要為您的組織啟用AI助理，必須套用下列&#x200B;**所有**：
 
 * 貴組織必須已移轉至Adobe IMS (Identity Management系統)
-* 必須啟用Adobe統一體驗
+* 必須啟用Adobe Unified Experience
 * 貴組織必須有Select、Prime或Ultimate Workfront計畫
-* Adobe必須有已簽署的檔案AdobeGen AI合約
+* Adobe必須已簽署檔案Adobe Gen AI合約
 
-  如需簽署合約的詳細資訊，請參閱本文中的[簽署AdobeGen AI合約](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)。
+  如需簽署合約的詳細資訊，請參閱本文中的[簽署Adobe Gen AI合約](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)。
 
 ## AI助理的考量事項
 
@@ -115,27 +115,27 @@ AI助理目前提供下列功能：
 
 ## 存取AI助理
 
-1. 在任何Workfront頁面頂端，按一下AI助理圖示![](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png)。
+1. 在任何Workfront頁面頂端，按一下AI助理圖示![AI助理圖示](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png)。
 1. 在熒幕右側的面板中輸入您的問題或提示。
 
-   如果您無法在此面板中輸入，表示貴組織沒有已簽署的檔案AdobeGen AI合約。
+   如果您無法在此面板中輸入，表示貴組織沒有已簽署的檔案Adobe Gen AI合約。
 
 1. 如果AI助理沒有提供您需要的答案，請調整您的提示，然後再試一次。
 
-## 簽署AdobeGen AI合約
+## 簽署Adobe Gen AI合約
 
-如果您的組織沒有已簽署的AdobeGen AI檔案協定，則無法為您的組織啟用AI助理。
+如果您的組織沒有已簽署的Adobe Gen AI檔案合約，則無法為您的組織啟用AI Assistant。
 
-如果使用者嘗試在AdobeGen AI協定尚未簽署時使用AI助理，他們會看到一則訊息：
+如果使用者嘗試在Adobe Gen AI合約尚未簽署時使用AI助理，他們會看到一則訊息：
 
 * 使用者：使用者會收到未為其組織啟用AI助理的通知，得知他們可以聯絡Workfront管理員，為其組織請求該服務。
-* 管理員：管理員會收到沒有已簽署AdobeGen AI合約的通知，並可要求傳送合約副本以供簽署。
+* 管理員：管理員會收到沒有已簽署Adobe Gen AI合約的通知，並可要求傳送合約副本以供簽署。
 
-若要請求AdobeGen AI合約：
+若要請求Adobe Gen AI合約：
 
-1. 身為Workfront管理員，按一下AI助理圖示![](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png)。
+1. 身為Workfront管理員，請按一下AI助理圖示![AI助理圖示](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png)。
 1. 開始在AI助理面板中輸入。
-1. 當AdobeGen AI合約訊息出現時，請按一下&#x200B;**檢閱合約**。
-1. 輸入貴組織將簽署AdobeGen AI合約之個人的名稱和電子郵件地址。
+1. 當Adobe Gen AI合約訊息出現時，請按一下&#x200B;**檢閱合約**。
+1. 輸入貴組織將簽署Adobe Gen AI合約之個人的名稱和電子郵件地址。
 
    合約將傳送給此人簽署。 簽署並傳回之後，就會為貴組織啟用AI小幫手。

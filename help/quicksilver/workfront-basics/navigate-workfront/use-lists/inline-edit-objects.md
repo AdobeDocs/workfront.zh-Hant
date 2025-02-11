@@ -6,9 +6,9 @@ description: 當物件顯示在清單或報表中時，您可以內嵌編輯物�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: a94b5aaf-71de-4fcd-946b-459ca3edf7e4
-source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '711'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ ht-degree: 0%
 
    如果欄位可以編輯，這會將該欄位和清單中顯示的所有其他欄位轉換為可編輯的儲存格。
 
-   ![](assets/nwe-editable-cells-350x131.png)
+   ![可編輯的儲存格](assets/nwe-editable-cells-350x131.png)
 
 1. 編輯此儲存格內的資訊，然後按[!UICONTROL Enter]。
 

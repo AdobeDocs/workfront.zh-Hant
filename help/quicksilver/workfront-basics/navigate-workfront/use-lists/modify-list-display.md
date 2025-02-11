@@ -5,9 +5,9 @@ description: 在 [!DNL Adobe Workfront]中，您可以自訂清單的顯示方�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 3ef7ff03-7293-4b56-9481-e89e1a47a904
-source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ ht-degree: 0%
 
 1. （選擇性和條件性）如果您想要在熒幕上顯示特定數量的專案，請按一下熒幕右下角的&#x200B;**[!UICONTROL Showing]**&#x200B;下拉式功能表，然後選取以顯示&#x200B;**100**、**250**、**500**、**[!UICONTROL All]**&#x200B;或&#x200B;**2000**&#x200B;專案。
 
-   ![](assets/list-number-page-350x119.png)
+   第](assets/list-number-page-350x119.png)頁上的![清單編號
 
    >[!TIP]
    >

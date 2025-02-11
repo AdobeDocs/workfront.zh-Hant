@@ -6,9 +6,9 @@ description: 在 [!DNL Adobe Workfront]中，專案被識別為物件。 物件�
 feature: Get Started with Workfront
 author: Lisa
 exl-id: 94f5a174-21cc-4c10-88ed-89a8014d28f4
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 檢視任務或問題時，預設會顯示參考號碼。  若要檢視參考號碼，請按一下左側面板中的&#x200B;**[!UICONTROL 任務詳細資料]**&#x200B;或&#x200B;**[!UICONTROL 問題詳細資料]**，然後在總覽中找到&#x200B;**[!UICONTROL 基本資訊]**&#x200B;區段。
 
-![](assets/reference-number-nwe-350x184.png)
+![參考號碼](assets/reference-number-nwe-350x184.png)
 
 ### 檢視其他物件的參考編號
 

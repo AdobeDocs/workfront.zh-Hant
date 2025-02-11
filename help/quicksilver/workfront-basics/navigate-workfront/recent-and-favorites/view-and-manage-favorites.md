@@ -6,9 +6,9 @@ description: 「我的最愛」功能表可讓您快速存取專案。 專案會
 feature: Get Started with Workfront
 author: Lisa
 exl-id: bf9dc447-751c-4802-9e6a-ecd31538dba4
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 若要檢視您先前新增為最愛的專案：
 
-1. 按一下任何[!DNL Adobe Workfront]頁面右上角的&#x200B;**[!UICONTROL 我的最愛]**&#x200B;圖示![](assets/favorites-icon.png)。
+1. 按一下任何[!DNL Adobe Workfront]頁面右上角的&#x200B;**[!UICONTROL 我的最愛]**&#x200B;圖示![我的最愛](assets/favorites-icon.png)。
 
 1. 在[!UICONTROL 我的最愛]清單中，按一下您要檢視的專案。
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 ### 將目前專案新增為我的最愛
 
 1. 移至您要新增為最愛的頁面。
-1. 按一下任何[!DNL Workfront]頁面右上角的&#x200B;**[!DNL Favorites]**&#x200B;圖示![](assets/favorites-icon.png)，然後按一下&#x200B;**[!UICONTROL 新增目前頁面]**。
+1. 按一下任何[!DNL Workfront]頁面右上角的&#x200B;**[!DNL Favorites]**&#x200B;圖示![我的最愛](assets/favorites-icon.png)，然後按一下&#x200B;**[!UICONTROL 新增目前頁面]**。
 
    ![將目前頁面新增至我的最愛](assets/add-current-page-favorite-2022-350x147.png)
 
@@ -77,19 +77,19 @@ ht-degree: 0%
 
    或
 
-   按一下物件名稱右側的&#x200B;**[!UICONTROL 我的最愛]**&#x200B;圖示![](assets/favorites-icon.png)。
+   按一下物件名稱右側的&#x200B;**[!UICONTROL 我的最愛]**&#x200B;圖示![我的最愛](assets/favorites-icon.png)。
 
    >[!NOTE]
    >
    >如果您按一下已新增為我的最愛之物件上的&#x200B;**[!UICONTROL 我的最愛]**&#x200B;圖示，該物件將會從[!UICONTROL 我的最愛]功能表中移除。\
-   >![](assets/nwe-remove-from-favorites-350x52.png)
+   >![從我的最愛移除](assets/nwe-remove-from-favorites-350x52.png)
 
 ## 從[!UICONTROL 我的最愛]功能表中移除專案
 
-1. 按一下任何[!DNL Workfront]頁面右上角的&#x200B;**[!UICONTROL 我的最愛]**&#x200B;圖示![](assets/favorites-icon.png)。
+1. 按一下任何[!DNL Workfront]頁面右上角的&#x200B;**[!UICONTROL 我的最愛]**&#x200B;圖示![我的最愛](assets/favorites-icon.png)。
 
 1. 暫留在您要移除作為我的最愛的專案上，然後按一下它旁邊的&#x200B;**X**。
 
    或
 
-   如果您在想要移除的頁面上，並將它作為我的最愛，請按一下物件名稱旁的&#x200B;**[!UICONTROL 我的最愛]**&#x200B;圖示![](assets/favorites-icon.png)，將其從[我的最愛]功能表中移除。
+   如果您在想要移除的頁面中成為我的最愛，請按一下物件名稱旁的&#x200B;**[!UICONTROL 我的最愛]**&#x200B;圖示![我的最愛](assets/favorites-icon.png)，將其從[我的最愛]功能表中移除。

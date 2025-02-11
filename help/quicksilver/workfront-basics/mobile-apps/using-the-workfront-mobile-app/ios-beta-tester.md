@@ -6,9 +6,9 @@ description: 請參閱本文章，成為 [!DNL Adobe Workfront] 行動應用程�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b02119ab-f4ea-4249-8d2c-b26df47e770d
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 您也可以掃描下方的二維碼以註冊Beta版並下載應用程式：
 
-![](assets/ios-qr-code-350x397.png)
+![iOS QR碼](assets/ios-qr-code-350x397.png)
 
 ## 讓我們瞭解我們的工作
 
