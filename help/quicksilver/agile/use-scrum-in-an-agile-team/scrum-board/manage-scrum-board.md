@@ -6,9 +6,9 @@ description: 您可以將劇本或問題從Scrum展示板移動至另一個反�
 author: Lisa
 feature: Agile
 exl-id: 72990251-0264-4e68-83ef-1a9cde5b685c
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 95208e0f396d8eab9a71ca156c616891a7f56f7a
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # 管理[!UICONTROL Scrum]展示板上的劇本和問題
 
 您可以將內文或問題從[!UICONTROL Scrum]展示板移動至另一個反複專案或待處理專案，或從[!UICONTROL Scrum]展示板將其刪除。 當您刪除內文或問題時，內文或問題會移至資源回收筒並保留30天，且只有系統管理員才能復原。
+
+若要從反複專案中移除任務或問題，而不將其刪除或傳送到待辦專案，請前往專案，並從指派欄中移除敏捷團隊。 這會從Scrum展示板移除任務或問題，但會保留在專案上。
 
 ## 存取需求
 

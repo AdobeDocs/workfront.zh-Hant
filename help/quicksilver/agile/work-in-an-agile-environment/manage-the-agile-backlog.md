@@ -6,9 +6,9 @@ description: 任務和問題可以指派給敏捷團隊，並根據團隊使用�
 author: Lisa
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 6ae8e48361114e897d0be83ae81f8344074a5ec2
 workflow-type: tm+mt
-source-wordcount: '1360'
+source-wordcount: '1349'
 ht-degree: 0%
 
 ---
@@ -115,7 +115,7 @@ ht-degree: 0%
 
 ### 從待處理專案建立劇本 {#create-a-story-from-the-backlog}
 
-當您從待處理專案建立內文時，內文會建立為專案內的任務或問題。 您無法從待處理專案中將劇本建立為問題。
+當您從待處理專案建立內文時，內文會建立為專案內的任務或問題。
 
 若要從待處理專案建立劇本，請執行下列動作：
 
@@ -189,11 +189,11 @@ ht-degree: 0%
 
 ## 將劇本移入或移出待處理專案
 
-* [將內文從待處理專案移至反複專案或+展示板](#move-stories-from-the-backlog-to-an-iteration-or--board)
+* [將劇本從待處理專案移至反複專案或展示板](#move-stories-from-the-backlog-to-an-iteration-or--board)
 * [將現有劇本移至待處理專案](#move-existing-stories-to-the-backlog)
 * [從待處理專案匯出劇本](#export-stories-from-the-backlog)
 
-### 將內文從待處理專案移至反複專案或+展示板
+### 將劇本從待處理專案移至反複專案或展示板
 
 1. 前往敏捷團隊的待辦專案。
 1. 選取您要移至疊代或Kanban面板的內文，然後按一下「**[!UICONTROL 更多]** > **[!UICONTROL 移至]**」。

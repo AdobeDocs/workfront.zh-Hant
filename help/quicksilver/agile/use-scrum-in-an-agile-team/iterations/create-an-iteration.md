@@ -6,9 +6,9 @@ description: 反複專案是Scrum敏捷團隊規劃工作容量的關鍵元件�
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: 9a3ec953ca1c7989be292f1747a052ed5cc7c74b
+source-git-commit: 6ae8e48361114e897d0be83ae81f8344074a5ec2
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1063'
 ht-degree: 0%
 
 ---
@@ -156,6 +156,6 @@ ht-degree: 0%
 
 [!UICONTROL 反複專案結束日期]減(-) [!UICONTROL 任務期間]等於(=) [!UICONTROL 任務計劃開始日期]
 
-使用[!UICONTROL 專案結束日期]，而非   如果專案開始日期在反複專案開始日期之後，而專案結束日期在反複專案結束日期之後。
+如果專案開始日期在反複專案開始日期之後，而專案結束日期在反複專案結束日期之後，則使用[!UICONTROL 專案結束日期]取代反複專案結束日期。
 
 您可以設定個別Scrum團隊以預設使用專案日期，而不是反複專案日期。 如需詳細資訊，請參閱[設定Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)一文中的[設定將工作專案新增至疊代](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration)時如何套用日期一節。
