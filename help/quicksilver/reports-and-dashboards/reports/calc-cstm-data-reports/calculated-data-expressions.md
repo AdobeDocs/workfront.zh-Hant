@@ -7,10 +7,10 @@ description: 您可以使用資料運算式，在Adobe Workfront中定義計算�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: b60a1e74d62e9b3945f69dc590f8cc202302c5af
+source-git-commit: e66d4223b13bcd4813156f147769e7ee99c3f8ef
 workflow-type: tm+mt
 source-wordcount: '2425'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -132,11 +132,11 @@ ht-degree: 0%
 <p><code>ADDYEARS(date, number)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>ADDHOUR</strong> </td> 
+   <td><strong>ADDHOURS</strong> </td> 
    <td> <p>將時數新增至日期，格式如下：</p>
 
 <p><code>ADDHOUR(date, number)</code></p>
-   <p>注意：Workfront Planning不支援此函式。</p></td> 
+   <p>注意：Workfront Planning不支援此運算式。</p></td> 
   </tr>
   <tr> 
    <td><strong>CLEARTIME</strong> </td> 
@@ -399,7 +399,7 @@ ht-degree: 0%
   </tr>
   <tr> 
    <td><strong>ARRAYELEMENT</strong> </td> 
-   <td> <p>傳回陣列中指定數字處的元素。 如果索引超出範圍，則會傳回空白。</p> 
+   <td> <p>傳回陣列中位於指定編號的元素。如果索引超出範圍，則傳回空白。</p> 
    <p>運算式的格式如下：</p>
    <p><code>ARRAYELEMENT(array, number)</code></p> 
    </td> 
@@ -410,7 +410,7 @@ ht-degree: 0%
    <p>運算式的格式如下：</p>
    <p><code>SORTASCARRAY(array)</code></p>
    <p>例如，["-12.6"， -13.0]會變成["-12.6"， "-13"]。</p>
-   <p>注意：Workfront Planning不支援此函式。</p></td> 
+   <p>注意：Workfront Planning不支援此運算式。</p></td> 
   </tr>
   <tr> 
    <td><strong>SORTDESCARRAY</strong> </td> 
@@ -418,7 +418,7 @@ ht-degree: 0%
    <p>運算式的格式如下：</p>
    <p><code>SORTDESCARRAY(array)</code></p>
    <p>例如，["-12.6"， -13.0]會變成["-13"， "-12.6"]。</p>
-   <p>注意：Workfront Planning不支援此函式。</p></td> 
+   <p>注意：Workfront Planning不支援此運算式。</p></td> 
   </tr>
   <tr>   
    <td><strong>個案例</strong> </td> 
@@ -461,7 +461,7 @@ ht-degree: 0%
    <td><p>傳回格式化文字。色彩選項有$$正面、$$資訊、$$負面、$$注意，其他格式選項有$$粗體、$$斜體、$$底線。每個函式只能使用一個顏色選項，以及最多三個其他格式選項。 如果未指定顏色選項，則會套用系統的預設顏色。</p>
    <p>運算式的格式如下：</p>
    <p><code>FORMAT($$POSITIVE, $$BOLD, $$ITALIC)</code></p>
-   <p>注意：Workfront Planning不支援此函式。</p></td> 
+   <p>注意：Workfront Planning不支援此運算式。</p></td> 
   </tr>   
   <tr> 
    <td><strong>IF</strong> </td> 
@@ -573,10 +573,10 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td><strong>開關</strong> </td> 
-   <td> <p>根據值清單評估運算式，並傳回對應至第一個相符值的結果。</p>
+   <td> <p>根據值清單來評估運算式，並傳回與第一個相符值對應的結果。</p>
    <p>運算式的格式如下：</p>
    <p><code>SWITCH(expression, value1, result1, [value2, result2], ...)</code></p>
-   <p>Workfront Planning不支援此函式。</p></td> 
+   <p>Workfront Planning不支援此運算式。</p></td> 
   </tr>   
   <tr> 
    <td><strong>TRIM</strong> </td> 

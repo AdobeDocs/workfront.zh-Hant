@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
+source-git-commit: 98040582995af736d3716e24c7530dd4cda4d3a6
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '364'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 Adobe Workfront Planning限制您可在執行個體中建立的物件數目。 物件限制已生效，可改善產品效能並增強您對Workfront規劃的體驗。
 
-下表顯示您可以在Workfront Planning中建立多少物件的限制。 當我們進入下一個開發階段時，限制可能會有所變更。
+下表顯示您可以在Workfront Planning中建立多少物件的限制。 限制可能會有所變更。
 
 | Adobe Workfront計畫物件 | 限制 |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
@@ -34,7 +34,7 @@ Adobe Workfront Planning限制您可在執行個體中建立的物件數目。 �
 | 一個工作區的記錄型別數 | 1,000 （這包括來自所有區段的記錄型別，以及在使用工作區範本時建立的記錄型別） |
 | 一種記錄型別的記錄數 | 25,000 |
 | 一個工作區的記錄數 | 25,000適用於計畫為<br>的客戶500,000適用於計畫為Planning Plus的客戶 |
-| Workfront Planning單一例項的總記錄數 | 500,000 （針對計畫計畫為<br>200,000）的客戶（針對計畫為Planning Plus的客戶） |
+| Workfront Planning單一例項的總記錄數 | 500,000 （計畫客戶） <br>200,000 （計畫客戶） （計畫外加客戶） |
 | 一種記錄型別或分類法的欄位數 | 500 |
 | 單行文字欄位的字元數 | 1,000個字元 |
 | 段落欄位的字元數 | 10,000字元 |
