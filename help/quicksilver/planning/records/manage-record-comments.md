@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: 7ef4d6c852328ff30e8b8c21398100f2f73e0dea
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '954'
 ht-degree: 0%
 
 ---
@@ -64,8 +64,8 @@ ht-degree: 0%
  <tr> 
    <td role="rowheader"><p>Adobe Workfront平台</p></td> 
    <td> 
-<p>貴組織的Workfront例項必須加入Adobe統一體驗，才能存取Workfront規劃的所有功能。</p> 
-<p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront的Adobe統一體驗</a>。 </p> 
+<p>貴組織的Workfront例項必須上線至Adobe Unified Experience，才能存取Workfront Planning的所有功能。</p> 
+<p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">適用於Workfront的Adobe Unified Experience</a>。 </p> 
    </td> 
    </tr> 
   </tr> 
@@ -116,7 +116,7 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >   只有已採用Adobe統一體驗之客戶的使用者會同時收到應用程式內通知和電子郵件通知。 若要判斷您的公司是否使用Adobe整合體驗，請參閱[Workfront的Adobe整合體驗](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
+  >   只有已加入Adobe Unified Experience的客戶之使用者，才會同時收到應用程式內通知和電子郵件通知。 若要判斷您的公司是否使用Adobe Unified Experience，請參閱[Workfront的Adobe Unified Experience ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 
 * 您可以新增更新至記錄，並從Workfront Planning的下列區域複查變更歷史記錄：
 
@@ -143,7 +143,7 @@ ht-degree: 0%
 
 1. 開始在&#x200B;**新註解**&#x200B;方塊中輸入註解。
 
-   ![](assets/empty-comment-box-on-record.png)
+   ![記錄上有空白的註解方塊](assets/empty-comment-box-on-record.png)
 
    >[!TIP]
    >
@@ -152,7 +152,7 @@ ht-degree: 0%
 1. （可選）若要復原或重做變更，請使用下列快速鍵：
    * CTRL + Z (Mac為⌘ + z)可復原變更
    * 按CTRL + Y (Mac則為⌘ + y)以重做變更
-1. （選擇性和條件性）如果您的Workfront執行個體是Adobe整合體驗的一部分，請新增&#x200B;**@**，後跟使用者名稱，以在更新中標籤某人。 如需詳細資訊，請參閱本文中關於評論記錄](#considerations-about-commenting-on-a-record)的[考量事項。
+1. （選擇性和條件性）如果您的Workfront執行個體是Adobe統一體驗的一部分，請新增&#x200B;**@**，後跟使用者名稱，以在更新中標籤某人。 如需詳細資訊，請參閱本文中關於評論記錄](#considerations-about-commenting-on-a-record)的[考量事項。
 
 1. （可選）使用RTF工具列中的選項來格式化文字、新增emoji或連結至更新，以強化內容。
 

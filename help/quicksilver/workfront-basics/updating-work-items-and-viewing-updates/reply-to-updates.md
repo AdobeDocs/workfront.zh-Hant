@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 7ef4d6c852328ff30e8b8c21398100f2f73e0dea
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '743'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,7 @@ ht-degree: 0%
 1. （選擇性）若要將先前更新中的文字包含在回覆中，請按一下您要回覆之評論右上角的&#x200B;**更多**&#x200B;功能表，然後按一下&#x200B;**引號回覆**。 先前更新的文字會出現在輸入區域中，以垂直灰色線標示。
 1. 按一下&#x200B;**回覆**。
 
-   ![](assets/reply-to-update-empty-box.png)
+   ![回覆更新空白方塊](assets/reply-to-update-empty-box.png)
 
    您可以在&#x200B;**新增回覆……**&#x200B;方塊底部看到目前參與交談的使用者，您可以新增更多或移除不再相關的使用者。 這些使用者以及訂閱物件的任何使用者會在物件進行更新或回覆時收到通知。 您也可以標籤更多使用者，讓他們加入您的回覆中。  若要標籤更多使用者，請參閱[標籤其他人的更新](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)。
 
@@ -115,7 +115,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**提交**&#x200B;以儲存回覆。
 
-1. （選擇性）按一下您要回覆的評論右上角的&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，以取得管理回覆的更多選項。 如需詳細資訊，請參閱[更新工作](../updating-work-items-and-viewing-updates/update-work.md)。
+1. （選擇性）按一下您要回覆之評論右上角的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，以取得管理回覆的更多選項。 如需詳細資訊，請參閱[更新工作](../updating-work-items-and-viewing-updates/update-work.md)。
 
 <!--
 ### Reply to an update or reply in the legacy Updates section

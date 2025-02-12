@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 0a7bb953e7e02e24857bfb7ff671538e184bda17
 workflow-type: tm+mt
-source-wordcount: '7528'
+source-wordcount: '7694'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,9 @@ ht-degree: 1%
 
 <!--Audited: 07/2024-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
 
 <!--
 <p>***Linked to many articles,</p>
@@ -98,7 +100,7 @@ ht-degree: 1%
 
 1. （可選）按一下右上角的&#x200B;**我所在的專案**&#x200B;或&#x200B;**我擁有的專案**，以顯示您擁有或您屬於專案團隊的專案。
 
-   ![](assets/projects-on-my-own-buttons-350x302.png)
+   ![我自己的專案按鈕](assets/projects-on-my-own-buttons-350x302.png)
 
    >[!NOTE]
    >
@@ -108,7 +110,7 @@ ht-degree: 1%
 
 1. （選擇性）若要編輯專案的有限資訊，請按一下左側面板中的&#x200B;**專案詳細資料**。 如果您想要編輯專案的所有相關資訊，請繼續進行步驟5。<!--accurate?!-->
 
-   ![](assets/nwe-project-details-expanded-350x298.png)
+   ![專案詳細資料已展開](assets/nwe-project-details-expanded-350x298.png)
 
    >[!NOTE]
    >
@@ -116,32 +118,32 @@ ht-degree: 1%
 
    若要編輯「詳細資訊」段落中的資訊，請執行下列動作：
 
-   1. （選擇性）按一下右上角的&#x200B;**全部收合**&#x200B;圖示![](assets/collapse-icon.png)以收合所有區域。
-   1. （選擇性和條件性）當區域摺疊時，按一下每個區域旁的&#x200B;**向右箭頭** ![](assets/right-pointing-arrow.png)以展開您要編輯的區域。
+   1. （選擇性）按一下右上角的&#x200B;**全部收合**&#x200B;圖示![全部收合圖示](assets/collapse-icon.png)以收合所有區域。
+   1. （選擇性和條件性）當區域收合時，按一下每個區域旁的&#x200B;**向右箭頭** ![向右箭頭](assets/right-pointing-arrow.png)以展開您要編輯的區域。
    1. 如需有關在專案詳細資訊索引標籤中編輯資訊的詳細資訊，請參閱下列文章：
 
       * [管理專案概述區域中的資訊](../../../manage-work/projects/manage-projects/understand-project-overview-area.md)
       * [管理專案財務區域的資訊](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
 
    1. （選擇性）若要附加自訂表單，請在&#x200B;**新增自訂表單**&#x200B;欄位中開始輸入表單的名稱，然後在清單中顯示時選取它，然後按一下&#x200B;**儲存變更**。
-   1. （選擇性）按一下&#x200B;**匯出**&#x200B;圖示![](assets/export.png)，將概述和自訂表單資訊匯出至PDF檔案，然後按一下&#x200B;**匯出**。 從下列選項中選取：
+   1. （選擇性）按一下&#x200B;**匯出**&#x200B;圖示![匯出圖示](assets/export.png)，將概述和自訂表單資訊匯出至PDF檔案，然後按一下&#x200B;**匯出**。 從下列選項中選取：
 
       * 全選（至少附加一個自訂表單時顯示）
       * 概觀
       * 一或多個自訂表單的名稱
 
-      PDF檔案會下載到您的電腦。
+      PDF檔案會下載至您的電腦。
 
-      ![](assets/export-issue-details-selection-box-with-export-button-350x418.png)
+      ![使用匯出按鈕匯出問題詳細資料選取方塊](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
       如需詳細資訊，請參閱[匯出自訂表單和物件詳細資料](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md)。
 
    如需「專案詳細資訊」區段中可見欄位的相關資訊，請繼續在「編輯專案」方塊中編輯專案，如下所述。
-1. 若要編輯專案的所有資訊，請按一下專案名稱旁的&#x200B;**更多**&#x200B;功能表![](assets/qs-more-menu.png)，然後按一下&#x200B;**編輯**。
+1. 若要編輯專案的所有資訊，請按一下專案名稱旁的&#x200B;**更多**&#x200B;功能表![更多](assets/qs-more-menu.png)，然後按一下&#x200B;**編輯**。
 
    或
 
-   從專案清單中，選取一或多個專案，然後按一下清單頂端的&#x200B;**編輯**&#x200B;圖示![](assets/edit-icon.png)。
+   從專案清單中選取一或多個專案，然後按一下清單頂端的&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)。
 
    如需大量編輯專案的詳細資訊，請參閱本文中的[大量編輯專案](#edit-projects-in-bulk)一節。
 
@@ -167,6 +169,9 @@ ht-degree: 1%
    * [工作設定](#task-settings)
    * [問題設定](#issue-settings)
    * [存取](#access)
+   * [連結的資料夾](#linked-folders-conditional-availability) （條件可用性）
+     <!--* <span class="preview">[Comment](#comment)</span>-->
+
 
    >[!NOTE]
    >
@@ -177,7 +182,7 @@ ht-degree: 1%
 1. 如上所述開始編輯您的專案。
 1. 按一下左側面板中的&#x200B;**專案名稱**。
 
-   ![](assets/nwe-project-name-in-edit-project-box-350x125.png)
+   ![編輯專案方塊中的專案名稱區域](assets/nwe-project-name-in-edit-project-box-350x125.png)
 
 1. 更新專案名稱。
 
@@ -188,7 +193,7 @@ ht-degree: 1%
 1. 如上所述開始編輯您的專案。
 1. 按一下左側面板中的&#x200B;**概觀**。
 
-   ![](assets/nwe-overview-in-edit-project-box-350x172.png)
+   ![專案編輯方塊中的概觀區域](assets/nwe-overview-in-edit-project-box-350x172.png)
 
 1. 更新下列專案相關資訊：
 
@@ -242,14 +247,14 @@ ht-degree: 1%
       </tr> 
       <tr> 
          <td role="rowheader"><strong>專案組合</strong></td> 
-         <td>指出專案所屬的Portfolio。 您必須先建立Portfolio，它才會出現在下拉式清單中。 只有作用中的專案組合可以與專案相關聯。 如需關於建立投資組合的詳細資訊，請參閱<a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">建立投資組合</a>。
+         <td>指出專案所屬的Portfolio。 您必須先建立Portfolio，才能讓其出現在下拉式清單中。 只有作用中的專案組合可以與專案相關聯。 如需關於建立投資組合的詳細資訊，請參閱<a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">建立投資組合</a>。
          <p><b>附註</b></p>
          <p>您必須擁有投資組合的管理許可權，才能在專案中新增或移除投資組合。</p>
       </td> 
       </tr> 
       <tr> 
          <td role="rowheader"><strong>方案</strong></td> 
-         <td> <p>如果您為專案選取了Portfolio，請為專案指定計畫。 某些Portfolio可能沒有計畫。 您必須先建立程式，它才會顯示在此下拉式清單中。 只有作用中的方案才能與專案建立關聯。 </p> <p>如需建立程式的詳細資訊，請參閱<a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">建立程式</a>。</p> 
+         <td> <p>如果您為專案選取了Portfolio，請為專案指定計畫。 部分投資組合可能沒有計畫。 您必須先建立程式，它才會顯示在此下拉式清單中。 只有作用中的方案才能與專案建立關聯。 </p> <p>如需建立程式的詳細資訊，請參閱<a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">建立程式</a>。</p> 
       <p><b>附註</b></p>
          <p>您必須擁有計畫的管理許可權，才能在專案中新增或移除計畫。</p>   
       </td> 
@@ -334,7 +339,7 @@ ht-degree: 1%
 1. 如上所述開始編輯您的專案。
 1. 按一下左側面板中的&#x200B;**自訂Forms**。
 
-   ![](assets/nwe-custom-forms-in-edit-project-box-350x170.png)
+   ![編輯專案方塊中的自訂表單](assets/nwe-custom-forms-in-edit-project-box-350x170.png)
 
 1. 按一下&#x200B;**新增自訂表單**&#x200B;方塊，然後從清單中選取一個表單，以將其附加至專案。 依預設，前40個表單會依字母順序顯示。 如果您在清單中沒有看到表單，請開始輸入表單的名稱，然後當表單出現在清單中時選取它。
 
@@ -369,7 +374,7 @@ ht-degree: 1%
 1. 如上所述開始編輯您的專案。
 1. 按一下左側面板中的&#x200B;**財務**。
 
-   ![](assets/nwe-finance-in-edit-project-box-350x183.png)
+   專案編輯方塊中的![財務區域](assets/nwe-finance-in-edit-project-box-350x183.png)
 
 1. 更新專案的下列財務資訊：
 
@@ -399,7 +404,7 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>計畫收益</strong> </td> 
-      <td> <p>預估專案的計畫收益。 這用於專案和Portfolio最佳化工具的業務案例。 如需有關專案計畫權益的詳細資訊，請參閱<a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">專案計畫權益概觀</a>。 計算專案淨值時，會考慮專案的計畫收益。 </p> <p>如需詳細資訊，請參閱<a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">在Portfolio最佳化工具</a>中管理專案。<br></p> </td> 
+      <td> <p>預估專案的計畫收益。 這用於專案和Portfolio Optimizer的業務案例。 如需有關專案計畫權益的詳細資訊，請參閱<a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">專案計畫權益概觀</a>。 計算專案淨值時，會考慮專案的計畫收益。 </p> <p>如需詳細資訊，請參閱<a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">在Portfolio Optimizer中管理專案</a> 。<br></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>實際收益</strong> </td> 
@@ -427,7 +432,7 @@ ht-degree: 1%
 1. 如上所述開始編輯您的專案。
 1. 按一下左側面板中的&#x200B;**專案設定**。
 
-   ![](assets/nwe-project-settings-in-edit-project-box-350x380.png)
+   ![專案編輯方塊中的專案設定區域](assets/nwe-project-settings-in-edit-project-box-350x380.png)
 
 1. 更新下列資訊：
 
@@ -551,7 +556,7 @@ ht-degree: 1%
 1. 如上所述開始編輯您的專案。
 1. 按一下左側面板中的&#x200B;**工作設定**。
 
-   ![](assets/nwe-task-settings-in-edit-project-box-350x211.png)
+   ![編輯專案方塊中的任務設定](assets/nwe-task-settings-in-edit-project-box-350x211.png)
 
 1. 在「**任務預設核准流程**」方塊中，選取當您新增至專案時，要與所有新任務關聯的任務核准流程。
 
@@ -565,7 +570,7 @@ ht-degree: 1%
 1. 在「**任務預設自訂Forms**」方塊中，選取當您新增至專案時，要與所有新任務建立關聯的一或多個自訂表單。 您必須先建置自訂表單，才能在此欄位中選取它們。 清單中只會顯示作用中的自訂表單。 如需建立自訂表單的詳細資訊，請參閱[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。 您最多可以將十個自訂表單與任務建立關聯。
 1. （選擇性）如果您想要透過使用工作量而非計畫時數來啟用管理任務付出，請選取&#x200B;**使用工作量以自動計算任務計畫時數**。
 
-   ![](assets/nwe-work-effort-on-projects-350x182.png)
+   ![在編輯專案方塊中的工作量](assets/nwe-work-effort-on-projects-350x182.png)
 
 1. （條件式與選擇性）如果您選取使用工作量自動計算作業計畫時數，請按一下每個工作量層次的下拉式功能表，並選取每個層次的百分比。 下列百分比值為預設值：
 
@@ -590,7 +595,7 @@ ht-degree: 1%
 1. 如上所述開始編輯您的專案。
 1. 按一下左側面板中的&#x200B;**問題設定**。
 
-   ![](assets/nwe-issue-settings-in-edit-project-box-350x306.png)
+   ![編輯專案方塊中的問題設定](assets/nwe-issue-settings-in-edit-project-box-350x306.png)
 
 1. （選擇性）取消選取&#x200B;**允許使用者新增內嵌問題**&#x200B;選項。 預設會選取此選項。
 
@@ -622,7 +627,7 @@ ht-degree: 1%
 1. 如上所述開始編輯您的專案。
 1. 按一下左側面板中的&#x200B;**存取**。
 
-   ![](assets/nwe-access-in-edit-project-box-350x262.png)
+   ![編輯專案方塊中的存取區域](assets/nwe-access-in-edit-project-box-350x262.png)
 
 1. 指定專案的下列&#x200B;**存取**&#x200B;資訊：
 
@@ -636,7 +641,7 @@ ht-degree: 1%
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>同時授與專案的存取權</strong></td> 
-      <td><p>從<strong>檢視</strong>、<strong>Contribute</strong>或<strong>管理</strong>專案存取權中選取。 指派給任務的使用者也會自動被授予此專案的存取權。<br></p></td> 
+      <td><p>從<strong>檢視</strong>、<strong>貢獻</strong>或<strong>管理</strong>專案存取權中選取。 指派給任務的使用者也會自動被授予此專案的存取權。<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>將某人指派給問題時</strong></td> 
@@ -644,7 +649,7 @@ ht-degree: 1%
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>同時授與專案的存取權</strong></td> 
-      <td><p>從<strong>檢視</strong>、<strong>Contribute</strong>或<strong>管理</strong>專案存取權中選取。 指派給問題的使用者也被自動授予此專案的存取權。<br></p></td> 
+      <td><p>從<strong>檢視</strong>、<strong>貢獻</strong>或<strong>管理</strong>專案存取權中選取。 指派給問題的使用者也被自動授予此專案的存取權。<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>某人提交請求時：授予他們存取權</strong></td> 
@@ -663,7 +668,7 @@ ht-degree: 1%
 
 1. 按一下「**儲存**」。
 
-### 連結的資料夾
+### 連結的資料夾（可用性條件） {#linked-folders}
 
 連結資料夾功能會自動在Adobe Experience Manager Assets中建立資料夾，並將這些資料夾連結至Workfront。
 
@@ -673,11 +678,28 @@ ht-degree: 1%
 * 您的組織已啟用並設定與Adobe Experience Manager的整合
 * 用來建立此專案的範本已啟用並設定了連結資料夾。
 
-如需有關編輯連結資料夾的說明，請參閱在Experience Manager Assets整合中使用工作流程一文中的[在專案中編輯工作流程值](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project)。
+如需有關編輯連結資料夾的說明，請參閱[在Experience Manager Assets整合中使用工作流程](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)一文中的[在專案中編輯工作流程值](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project)。
 
 >[!NOTE]
 >
 >由於連結資料夾是在建立專案時建立的，因此編輯現有專案上的連結資料夾工作流程會無效。 在建立專案時按預期編輯這些值。
+
+<!--
+<div class="preview">
+
+### Comment
+
+1. Begin editing your project as described above.
+1. Click **Comment** in the left panel.
+
+   ![project-comment-in-edit-project-box](assets/project-comment-in-edit-project-box.png)
+
+1. Add a comment in the space provided. Workfront adds the comment in the Updates area of the project. For more information about updating work, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. Click **Save**. 
+
+</div>
+
+-->
 
 ## 在專案標題中編輯專案（受限）
 
@@ -685,7 +707,7 @@ ht-degree: 1%
 
 您的系統或群組管理員可以自訂您在專案標題中看到的欄位。
 
-![](assets/project-header-350x18.png)
+![專案標題](assets/project-header-350x18.png)
 
 預設情況下，下列欄位會包含在專案標題中。
 
@@ -698,7 +720,7 @@ ht-degree: 1%
   >
   >只有當專案是從「完成日期」開始排程時，您才能編輯此欄位。 從開始日期開始排程專案時，Workfront會根據任務的持續期間計算規劃完成日期和時間。
 
-* 狀況
+* 條件
 
   >[!NOTE]
   >
@@ -719,21 +741,21 @@ ht-degree: 1%
 
 * 當您為相同欄位選取具有不同值的專案時，該欄位會在「編輯專案」方塊中顯示「多個值」指示器。 核取方塊、選項按鈕和切換的欄位旁邊會有一個「多個值」指示器。
 
-  ![](assets/multiple-values-indicator-dates-bulk-edit-projects.png)
+  ![大量編輯專案方塊中日期的多值指標](assets/multiple-values-indicator-dates-bulk-edit-projects.png)
 
 * 除了「多個值」指標外，當至少有一個選定專案上的選定選項不同時，具有多個選項的欄位會以下列其中一種方式顯示：
 
    * 核取方塊欄位中會有一行，而不是針對已勾選部分而非所有選定專案的選項勾選的核取方塊。
 
-     ![](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
+     ![大量編輯專案方塊中的多個值指標核取方塊](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
 
    * 切換型別欄位會顯示為暗灰色，且中間會有一個切換選項，該選項已啟用部分而非所有選定專案。
 
-  ![](assets/multiple-values-highlighted-bulk-edit-projects.png)
+  ![大量編輯專案中反白顯示的多個值](assets/multiple-values-highlighted-bulk-edit-projects.png)
 
    * 已選取部分選項但不是全部選項的單選按鈕型別欄位，會將所有單選按鈕顯示為空白。
 
-     ![](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
+     ![多個值指標選項按鈕大量編輯專案方塊](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
 
 * 當您在多選項欄位（例如顯示為一組切換或核取方塊的欄位）中更新一個選項時，所選專案之間的所有其他選項必須相符。
 
@@ -748,10 +770,10 @@ ht-degree: 1%
 {{step1-to-projects}}
 
 1. 在清單中選取數個專案。
-1. 按一下清單頂端的&#x200B;**編輯**&#x200B;圖示![](assets/edit-icon.png)。
+1. 按一下清單頂端的&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)。
 **編輯專案**&#x200B;對話方塊開啟。
 
-   ![](assets/edit-projects-in-bulk-modal-unshimmed.png)
+   ![以大量模式編輯專案](assets/edit-projects-in-bulk-modal-unshimmed.png)
 
 視您的Workfront管理員或群組管理員修改版面配置範本的方式而定，編輯專案方塊左側面板中的區域或這些區域中列出的任何欄位可能會重新排列或不顯示。 如需詳細資訊，請參閱[使用配置範本自訂詳細資料檢視](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)。
 
@@ -765,7 +787,7 @@ ht-degree: 1%
 
    附加到所有選定專案的自訂表單會顯示在&#x200B;**自訂Forms**&#x200B;區域的&#x200B;**自訂表單通用**&#x200B;子區段中。
 
-   ![](assets/custom-forms-in-common-unshimmed.png)
+   ![大量編輯專案中通用的自訂表單](assets/custom-forms-in-common-unshimmed.png)
 
    >[!TIP]
    >
@@ -774,7 +796,7 @@ ht-degree: 1%
 1. 開始在&#x200B;**新增自訂表單**&#x200B;欄位中輸入自訂表單的名稱。
 
 
-   ![](assets/forms-already-attached-indication-in-bulk-editing-projects-unshimmed.png)
+   ![Forms已在大量編輯專案中附加指標](assets/forms-already-attached-indication-in-bulk-editing-projects-unshimmed.png)
 
    已附加到所選專案的自訂表單會顯示在&#x200B;**新增自訂表單**&#x200B;欄位的&#x200B;**附加表單**&#x200B;子區段中。
 
@@ -802,9 +824,10 @@ ht-degree: 1%
 如需有關編輯問題設定區域的詳細資訊，請參閱本文中的[問題設定](#issue-settings)小節。
 1. 按一下&#x200B;**存取**以編輯所有選取專案的存取設定。
 如需有關編輯[存取]區域的詳細資訊，請參閱本文中的[存取](#access)一節。
+   <!--1. <span class="preview">Click **Comment**, then add a comment in the space provided. Workfront adds the comment in the **Updates** area of each project. For information about updating work, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).</span>-->
 1. （選擇性）若要移除您在「編輯專案」方塊中新增的任何資訊，請將游標移至已編輯的欄位上，然後按一下欄位右上角的&#x200B;**x**&#x200B;捨棄圖示。
 
-   ![](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)
+   大量捨棄欄位編輯專案的![圖示](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)
 
 1. （選擇性）按一下&#x200B;**編輯專案**&#x200B;頁面底部的&#x200B;**取消**&#x200B;以移除對所有專案所做的所有變更。
 1. 按一下「**儲存**」。
