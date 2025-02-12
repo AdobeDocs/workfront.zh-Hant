@@ -105,7 +105,7 @@ To set limits for job role assignments:
 
 1. Go to the scheduling timeline for multiple projects or for an individual project:
 
-   * **For multiple projects**:&nbsp;  Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, click **Resourcing > Workload Balancer**, then select **Scheduling** in the upper-left drop-down menu. 
+   * **For multiple projects**:&nbsp;  Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Workfront, click **Resourcing > Workload Balancer**, then select **Scheduling** in the upper-left drop-down menu. 
    * **For an individual project**:  Go to a project, click the **Workload Balancer** section in the left panel, then select **Scheduling** from the upper-left drop-down menu.
 
 1. Click the **Settings** icon.  
@@ -131,7 +131,7 @@ To allow Workfront to automatically propose assignments for tasks and issues in 
 
 1. Go to the scheduling timeline for multiple projects or for an individual project:
 
-   * **For multiple projects**:&nbsp;  Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, click **Resourcing > Workload Balancer**, then select **Scheduling** in the upper-left drop-down menu. 
+   * **For multiple projects**:&nbsp;  Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Workfront, click **Resourcing > Workload Balancer**, then select **Scheduling** in the upper-left drop-down menu. 
    * **For an individual project**:  Go to a project, click the **Workload Balancer** section in the left panel, then select **Scheduling** from the upper-left drop-down menu.
 
 1. (Optional) Create a filter to customize what content is displayed in the Unassigned area on the scheduling timeline.  

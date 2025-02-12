@@ -246,7 +246,7 @@ To build the report:
    column.0.link.linkproperty.0.name=ID<br>column.0.link.linkproperty.0.valuefield=ID<br>column.0.link.linkproperty.0.valueformat=val<br>column.0.link.lookup=link.view<br>column.0.link.value=val(objCode)<br>column.0.listsort=string(name)<br>column.0.namekey=name<br>column.0.querysort=name<br>column.0.stretch=20<br>column.0.valuefield=name<br>column.0.valueformat=HTML<br>column.0.width=100<br>column.1.valueexpression=CONCAT({name},'-',{role}.{name})<br>column.1.listdelimiter=<br><br>column.1.listmethod=nested(users).lists<br>column.1.valueformat=HTML<br>column.1.displayname=Users in the Resource Pool and their Primary Roles<br>column.1.textmode=true<br>column.1.type=iterate
    ```
 
-   ![](assets/new-resource-pools-with-users-and-primary-roles-350x249.png)
+   ![Pool with users and roles](assets/new-resource-pools-with-users-and-primary-roles-350x249.png)
 
    >[!NOTE]
    >

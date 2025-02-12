@@ -43,7 +43,7 @@ You can find the following areas in the Resource Planner:
 * [User Allocation Chart](#user-allocation-chart) 
 * [Export Option](#export-option)
 
-![](assets/rp-areas-of-the-planner-outlines-350x230.png)
+![Areas of the Planner](assets/rp-areas-of-the-planner-outlines-350x230.png)
 
 ## Timeline of Projects  {#timeline-of-projects}
 
@@ -126,7 +126,7 @@ You cannot budget your resources when applying the User view&nbsp;to the Resourc
 
 The User view is the default view of the Resource Planner.&nbsp;&nbsp;
 
-![](assets/rp-user-view-with-link-350x101.png)
+![User view](assets/rp-user-view-with-link-350x101.png)
 
 Consider the following when selecting the User view in the Resource Planner:&nbsp;
 
@@ -179,13 +179,13 @@ To obtain a unique URL in the User view of the Resource Planner and share it wit
    * **Quarter**
 
 1. (Optional) Select whether you want to view the information by **FTE** or **Hours**.  
-   ![](assets/rp-hours-or-fte-in-user-view.png)
+   ![Hours or FTE](assets/rp-hours-or-fte-in-user-view.png)
 
 1. (Optional) Apply filters to the Resource Planner.  
    For information about applying filters, see&nbsp; [Filter information in the Resource Planner](../../resource-mgmt/resource-planning/filter-resource-planner.md).
 
 1. Click the **hyperlink** icon.  
-   ![](assets/rp-storm-generate-url-with-copy-url-link-350x182.png)
+   ![Hyperlink icon](assets/rp-storm-generate-url-with-copy-url-link-350x182.png)
 
 1. Click **Copy URL**.  
    This copies the unique URL of the Resource Planner in the User view to your clipboard.&nbsp;
@@ -208,7 +208,7 @@ To obtain a unique URL in the User view of the Resource Planner and share it wit
    For information about adding dashboards to a layout template, see [Create and manage layout templates](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).  
    For information about sharing dashboards, see [Share a dashboard](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md).  
    When viewing the shared URL, users can see the information with the settings that you originally applied to the Resource Planner.  
-   ![](assets/user-view-dashoard-from-unique-url-350x85.png)
+   ![View dashboard from URL](assets/user-view-dashoard-from-unique-url-350x85.png)
 
 ## Project Name {#project-name}
 
@@ -253,7 +253,7 @@ To edit the Project Planning&nbsp;Priority:
 1. Go to the **Resource Planner**.  
 
 1. Click inside the field to the left of the project name which contains&nbsp;a number, enter a number to change Planning Priority, then click Enter.  
-   ![](assets/mceclip4.png)  
+   ![Planning priority](assets/mceclip4.png)  
    Or  
    Mouse over the name of the project and click the indicator to the left of the project name, then drag it and drop it in the correct spot, to change the priority.  
    ![drag_and_drop_projects_RP__1_.png](assets/drag-and-drop-projects-rp--1--350x184.png)  

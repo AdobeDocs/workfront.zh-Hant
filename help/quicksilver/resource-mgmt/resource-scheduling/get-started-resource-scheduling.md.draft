@@ -131,9 +131,9 @@ Depending on where you want to schedule resources, you can access the Scheduling
 
 1. Go to the scheduling timeline for multiple projects, for an individual project, or for a team:
 
-   * **For multiple projects**:&nbsp;  Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, click **Resourcing > Workload Balancer**, then select **Scheduling** in the upper-left drop-down menu. 
+   * **For multiple projects**:&nbsp;  Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Workfront, click **Resourcing > Workload Balancer**, then select **Scheduling** in the upper-left drop-down menu. 
    * **For an individual project**:  Go to a project, click the **Workload Balancer** section in the left panel, then select **Scheduling** from the upper-left drop-down menu. 
-   * **For a team**:  Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Teams**, select a team, click **Workload Balancer** in the left panel, then select **Scheduling** from the upper-left drop-down menu.
+   * **For a team**:  Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Teams**, select a team, click **Workload Balancer** in the left panel, then select **Scheduling** from the upper-left drop-down menu.
 
 1. (Optional) Click the **Full-Screen** icon, located in the upper-right corner of the scheduling timeline.  
    ![scheduling_fullscreen_enter.png](assets/scheduling-fullscreen-enter.png)  
@@ -150,9 +150,9 @@ You can view the current resourcing assignments and other details about individu
 
 1. Go to the scheduling timeline for multiple projects, for an individual project, or for a team:
 
-   * **For multiple projects**:&nbsp;  Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, click **Resourcing > Workload Balancer**, then select **Scheduling** in the upper-left drop-down menu. 
+   * **For multiple projects**:&nbsp;  Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Workfront, click **Resourcing > Workload Balancer**, then select **Scheduling** in the upper-left drop-down menu. 
    * **For an individual project**:  Go to a project, click the **Workload Balancer** section in the left panel, then select **Scheduling** from the upper-left drop-down menu. 
-   * **For a team**:  Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Teams**, select a team, click **Workload Balancer** in the left panel, then select **Scheduling** from the upper-left drop-down menu.
+   * **For a team**:  Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Teams**, select a team, click **Workload Balancer** in the left panel, then select **Scheduling** from the upper-left drop-down menu.
 
 1. (Optional) To customize what content displays on the scheduling timeline, create a filter, as described in [Filter information in the Scheduling area](../../resource-mgmt/resource-scheduling/filter-scheduling-area.md).
 1. Expand a task or issue to view the following information:
@@ -229,7 +229,7 @@ You can minimize tasks and issues for all users that are associated with a speci
    ![resourcescheduling_collapseall.png](assets/resourcescheduling-collapseall-350x261.png)  
    Or  
    Click the caret next to any user or job role on the scheduling timeline while holding the Shift key.  
-   ![](assets/scheduling-minimize-user-350x137.png)  
+   ![Minimize user](assets/scheduling-minimize-user-350x137.png)  
    Tasks and issues for all users and roles are minimized if you disable the **Show Totals for Daily Planned Hours** and tasks and issues are hidden if you enable it.   
    If the **Show Totals for Daily Planned Hours** is enabled only the Planned Hours for the users display. Tasks and issues remain minimized for the Unassigned area.   
    ![RS_all_collapsed___1_.png](assets/rs-all-collapsed---1--350x102.png)

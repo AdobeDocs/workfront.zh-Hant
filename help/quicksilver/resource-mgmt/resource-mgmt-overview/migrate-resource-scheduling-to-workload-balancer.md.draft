@@ -71,7 +71,7 @@ We have identified the following versions for this step, depending on your findi
 
 If you or your teams do not modify the daily hour allocations on work assignments, then you are ready to switch scheduling resources to the [!UICONTROL Workload Balancer].
 
-![](assets/nwe-workload-balancer-global-350x125.png)
+![Workload balancer](assets/nwe-workload-balancer-global-350x125.png)
 
 Do the following:
 
@@ -117,7 +117,7 @@ Consider the following when making the transition to the [!UICONTROL Workload Ba
     >This suggestion might not work if the average task duration is longer than the time remaining until the removal of the Scheduling tools. 
 
 
-     ![](assets/timeline-stop-using-resource-scheduler-callouts-350x178.png)
+     ![Stop using callouts](assets/timeline-stop-using-resource-scheduler-callouts-350x178.png)
 
      >[!TIP]
      >

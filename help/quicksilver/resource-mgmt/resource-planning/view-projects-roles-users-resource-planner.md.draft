@@ -49,7 +49,7 @@ You can see the following projects in the Resource Planner:
 
 Projects are listed in order of priority in the Resource Planner with the most important project at the top. The priority is indicated by a number in front of the project name.
 
-![](assets/rp-planner-priority-highlighted-350x186.png)
+![Planner Priority](assets/rp-planner-priority-highlighted-350x186.png)
 
 You can also enable a setting to display the project priorities according to their portfolios, when they are associated with a portfolio. For information about prioritizing projects and displaying portfolio priorities in the Resource Planner, see [Prioritize projects in the Resource Planner](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
 

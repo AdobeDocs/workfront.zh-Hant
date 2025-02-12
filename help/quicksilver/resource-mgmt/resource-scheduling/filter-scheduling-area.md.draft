@@ -89,7 +89,7 @@ Tasks and issues from the projects, users, and roles you define in the filter ar
 
 To create a filter for the scheduling timeline on the Working On tab for teams:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Teams**, select a team, click **Workload Balancer** in the left panel, then select **Scheduling** from the upper-left drop-down menu.  
+1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Teams**, select a team, click **Workload Balancer** in the left panel, then select **Scheduling** from the upper-left drop-down menu.  
 1. Click **Filter**.
 1. Determine which projects are represented in the Unassigned area by specifying the following information:
 
@@ -147,9 +147,9 @@ Tasks and issues from the projects, users, and roles you define in the filter ar
 
 To create a filter for the scheduling timeline on the Scheduling&nbsp;tab for multiple projects:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, click **Resourcing > Workload Balancer**, then select **Scheduling** in the upper-left drop-down menu.  
+1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Workfront, click **Resourcing > Workload Balancer**, then select **Scheduling** in the upper-left drop-down menu.  
 1. Click **Filter**.  
-   ![](assets/scheduling-filter-350x351.png)
+   ![Scheduling filter](assets/scheduling-filter-350x351.png)
 
 1. Leave the **Saved Filters** field blank.
 1. Determine which projects are represented in the Unassigned area by specifying the following information:
@@ -222,7 +222,7 @@ You can apply a filter that you previously created.
 
 To apply a saved filter for multiple projects:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, click **Resourcing > Workload Balancer**, then select **Scheduling** in the upper-left drop-down menu.  
+1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Workfront, click **Resourcing > Workload Balancer**, then select **Scheduling** in the upper-left drop-down menu.  
 1. Click&nbsp;**Filter**.
 1. In the **Saved Filters** field, select the filter you want to apply.  
    Your data is displayed on the scheduling timeline.
@@ -239,7 +239,7 @@ You can modify&nbsp;a filter that you previously created.
 
 To modify&nbsp;a saved filter for multiple projects:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, click **Resourcing > Workload Balancer**, then select **Scheduling** in the upper-left drop-down menu.  
+1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Workfront, click **Resourcing > Workload Balancer**, then select **Scheduling** in the upper-left drop-down menu.  
 1. Click&nbsp;**Filter**.
 1. In the **Saved Filters** field, select the filter you want to modify from the drop-down list.
 1. Specify what data to display on the scheduling timeline. 
@@ -256,7 +256,7 @@ To modify&nbsp;a saved filter for multiple projects:
 
 You can delete a filter that you previously created.
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, click **Resourcing > Workload Balancer**, then select **Scheduling** in the upper-left drop-down menu.  
+1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Workfront, click **Resourcing > Workload Balancer**, then select **Scheduling** in the upper-left drop-down menu.  
 1. Click **Filter**.
 1. In the **Saved Filters** field, in the drop-down list, click the (x) next to the filter you want to delete.&nbsp;
 
