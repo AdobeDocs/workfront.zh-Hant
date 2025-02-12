@@ -65,10 +65,10 @@ Before you begin you must have the following:
 
 ## Add projects to a campaign
 
-1. Click the [!UICONTROL **Main Menu**] icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click [!UICONTROL **Campaigns**].
+1. Click the [!UICONTROL **Main Menu**] icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click [!UICONTROL **Campaigns**].
 
    A list of all campaigns in the system displays.
-1. (Optional) Click the [!UICONTROL **[!UICONTROL search]**] icon ![](assets/search-icon.png) to quickly search for a campaign using a keyword.
+1. (Optional) Click the [!UICONTROL **[!UICONTROL search]**] icon ![Search icon](assets/search-icon.png) to quickly search for a campaign using a keyword.
 1. Click the name of a campaign to open it.
 
    The [!UICONTROL Projects] section should open by default.
@@ -76,7 +76,7 @@ Before you begin you must have the following:
 
    1. [!UICONTROL **[!UICONTROL Existing Project]**] to add an existing project, then do the following:
 
-      1. (Optional) Click the **[!UICONTROL search**] icon ![](assets/search-icon.png) to type a keyword and find a particular project.
+      1. (Optional) Click the **[!UICONTROL search**] icon ![Search icon](assets/search-icon.png) to type a keyword and find a particular project.
 
       1. (Optional) Click the **[!UICONTROL Filter]**, **[!UICONTROL View]**, or **[!UICONTROL Grouping]** icons to modify the list of projects in the list.
       1. Select the projects that you want to add to the campaign, then click **[!UICONTROL Add]**.
@@ -87,7 +87,7 @@ campaign.
 
    1. **[!UICONTROL New Project from Template]** to create a project from an existing template. For more information, see [Create project from template](../../manage-work/projects/create-projects/create-project-from-template.md).
 
-   ![](assets/new-project-drop-down-options-in-campaign.png)
+   ![New project dropdown](assets/new-project-drop-down-options-in-campaign.png)
 The projects are added to the campaign.
 
 
@@ -97,4 +97,4 @@ The projects are added to the campaign.
 
    If the project belongs to a portfolio or a program, the campaign displays in the breadcrumb after the program and immediately before the project.
 
-   ![](assets/project-with-multiple-campaigns-in-breadcrumb.png)
+   ![Project with multiple campaigns](assets/project-with-multiple-campaigns-in-breadcrumb.png)

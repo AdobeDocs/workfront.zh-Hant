@@ -63,10 +63,10 @@ Before you begin you must have the following:
 
 ## Edit a campaign
 
-1. Click the [!UICONTROL **Main Menu**] icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click [!UICONTROL **Campaigns**].
+1. Click the [!UICONTROL **Main Menu**] icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click [!UICONTROL **Campaigns**].
 
    A list of all campaigns in the system displays.
-1. (Optional) Click the [!UICONTROL **search**] icon ![](assets/search-icon.png) to quickly search for a campaign using a keyword.
+1. (Optional) Click the [!UICONTROL **search**] icon ![Search icon](assets/search-icon.png) to quickly search for a campaign using a keyword.
 1. Select a campaign, then click the [!UICONTROL **Edit**] icon at the top of the list
 
    Or
@@ -77,7 +77,7 @@ Before you begin you must have the following:
    >
    >To edit limited information about the campaign, click [!UICONTROL **Campaign Details**] and update any of the available fields. To update all information about a campaign, continue to follow these instructions.
 
-   ![](assets/campaign-edit-box.png)
+   ![Campaign edit box](assets/campaign-edit-box.png)
 1. Update or review information in the following areas:
    * [Campaign Name](#campaign-name)
    * [Overview](#overview)

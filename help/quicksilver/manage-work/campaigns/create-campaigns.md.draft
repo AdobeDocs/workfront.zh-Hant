@@ -50,7 +50,7 @@ Before you begin, you must have the following:
 
 ## Create a campaign
 
-1. Click the [!UICONTROL **Main Menu**] icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Workfront], then click [!UICONTROL **Campaigns**].
+1. Click the [!UICONTROL **Main Menu**] icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of [!DNL Workfront], then click [!UICONTROL **Campaigns**].
 
    A list of all campaigns in the system displays.
 1. Click [!UICONTROL **New Campaign**].
@@ -63,7 +63,7 @@ Before you begin, you must have the following:
    * [!UICONTROL **Last Updated By**]: This is the name of the user who updated the campaign last. You cannot edit the [!UICONTROL Last Updated By] field.
    * [!UICONTROL **Entered By**]: This is the name of the user who created the campaign. You cannot edit the [!UICONTROL Entered By] field.
 
-   ![](assets/campaign-details-page-with-description.png)
+   ![Campaign details page](assets/campaign-details-page-with-description.png)
 
 1. Click [!UICONTROL **Save Changes**].
 
