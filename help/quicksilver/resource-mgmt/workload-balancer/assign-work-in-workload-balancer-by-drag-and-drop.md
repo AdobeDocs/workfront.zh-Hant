@@ -6,9 +6,9 @@ description: 您可以透過拖放工作專案給正確的使用者，使用Adob
 author: Lisa
 feature: Resource Management
 exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td>Contribute許可權或以上至專案、任務和問題，包括進行指派</td> 
+   <td>包含進行指派的專案、任務和問題的貢獻許可權或更高</td> 
   </tr> 
  </tbody> 
 </table>
@@ -76,13 +76,13 @@ ht-degree: 0%
 
    移至&#x200B;**指派的工作**&#x200B;區域，並展開使用者的名稱以檢視指派給他們的工作專案（如果您要重新指派其專案）。
 
-1. （視條件而定）在專案的工作負載平衡器中，按一下&#x200B;**顯示所有使用者**&#x200B;圖示![](assets/show-all-users-icon-project-workload-balancer.png)以顯示所有Workfront使用者。
+1. （視條件而定）在專案的工作負載平衡器中，按一下&#x200B;**顯示所有使用者**&#x200B;圖示![顯示所有使用者](assets/show-all-users-icon-project-workload-balancer.png)以顯示所有Workfront使用者。
 
    這會顯示您有權檢視的所有使用者。
 
    同時身為專案團隊成員且已指派至專案中專案的使用者，其名稱右側的「指派的工作」區域會顯示專案圖示。
 
-   ![](assets/user-on-the-project-indicator-highlighted-project-workload-balancer.png)
+   專案上的![使用者](assets/user-on-the-project-indicator-highlighted-project-workload-balancer.png)
 
 
    >[!TIP]
@@ -100,7 +100,7 @@ ht-degree: 0%
    >
    >您暫留在工作專案上之使用者的計畫時數會即時更新其每日計畫時數，以指出新增專案對其整體配置可能產生的影響。
 
-   ![](assets/drag-drop-item-from-unassigned-to-assigned-wb-nwe-350x152.png)
+   ![將專案卸除到已指派的專案](assets/drag-drop-item-from-unassigned-to-assigned-wb-nwe-350x152.png)
 
 1. 準備就緒後，將所選工作專案拖放到與指派區域中的使用者名稱相同的行中。 專案已指派，而已分配的「計畫時數」已針對具有工作專案新時數的使用者更新。
 
@@ -118,7 +118,7 @@ ht-degree: 0%
 
 
 1. （選擇性）按一下已指派工作區域中的使用者名稱下的工作專案列，然後將其拖放到未指派工作區域上以取消指派。 使用者會取消指派此專案，但該專案可能仍會指派給工作角色，若是如此，該專案會顯示在「未指派的工作」區域中。 如果專案被指派給其他使用者，該專案會保留在「已指派工作」區域中，位於仍被指派的使用者名稱下。
-1. （選擇性）按一下&#x200B;**顯示配置圖示** ![](assets/show-allocations-icon-small.png)，然後按一下&#x200B;**更多功能表** ![](assets/qs-more-menu.png) > **編輯配置**。
+1. （選擇性）按一下&#x200B;**顯示配置圖示** ![顯示配置圖示](assets/show-allocations-icon-small.png)，然後按一下&#x200B;**更多功能表** ![更多功能表](assets/qs-more-menu.png) > **編輯配置**。
 
    <!--
    (make sure these are still called this, and that the icon has not changed)

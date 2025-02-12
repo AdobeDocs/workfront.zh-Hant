@@ -6,9 +6,9 @@ description: 資源集區是使用者的集合，可協助您管理Adobe Workfro
 author: Lisa
 feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '630'
 ht-degree: 1%
 
 ---
@@ -80,14 +80,14 @@ Also - take out all the references to Preview and Prod at prod final
 
 您可以使用與將資源集區與專案建立關聯相同的方法，將資源集區與範本建立關聯。 本文說明如何將資源集區與專案建立關聯。
 
-1. 前往專案，按一下專案名稱旁的&#x200B;**更多**&#x200B;圖示![](assets/more-icon.png)，然後按一下&#x200B;**編輯**。
+1. 前往專案，按一下專案名稱旁的&#x200B;**更多**&#x200B;圖示![更多圖示](assets/more-icon.png)，然後按一下&#x200B;**編輯**。
 
 1. 按一下&#x200B;**專案設定**。
 
 1. 開始在&#x200B;**資源集區**&#x200B;欄位中輸入資源集區的名稱，然後在其出現時從清單中選取它。\
    您可以將多個資源集區與一個專案或範本建立關聯。
 
-   ![](assets/nwe-project-settings-in-edit-project-box-350x380.png)
+   ![專案設定](assets/nwe-project-settings-in-edit-project-box-350x380.png)
 
 1. 按一下「**儲存**」。
 
@@ -104,7 +104,7 @@ Also - take out all the references to Preview and Prod at prod final
 若要將資源集區與數個專案大量關聯，請執行下列動作：
 
 1. 前往專案清單。
-1. 選取多個專案，然後按一下清單頂端的&#x200B;**編輯**&#x200B;圖示![](assets/edit-icon.png)。
+1. 選取多個專案，然後按一下清單頂端的&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)。
 
 1. 按一下&#x200B;**設定**。
 1. 開始在&#x200B;**資源集區**&#x200B;欄位中輸入資源集區的名稱，然後在其出現時從清單中選取它。\

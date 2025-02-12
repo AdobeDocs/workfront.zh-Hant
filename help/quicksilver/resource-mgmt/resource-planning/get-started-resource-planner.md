@@ -7,9 +7,9 @@ description: 您可以使用「資源規劃工具」，估計並預算資源配�
 author: Lisa
 feature: Resource Management
 exl-id: 06cd2226-f94d-4b6a-8692-6d35210782f2
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '2075'
+source-wordcount: '2082'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ ht-degree: 0%
 >如果遺失下列任一先決條件，您可能會發現有關配置或資源可用性的某些資訊遺失或具有零值。\
 >如需瞭解欄位為何遺失資料或零值的詳細資訊，請將滑鼠游標停留在欄位上。
 
-![](assets/no-users-with-this-role-in-the-res-pool-350x57.png)
+![沒有具有此角色的使用者](assets/no-users-with-this-role-in-the-res-pool-350x57.png)
 
 >[!NOTE]
 >
@@ -187,7 +187,7 @@ ht-degree: 0%
 
 您必須瞭解您的Workfront執行個體如何根據系統中的資源管理偏好設定計算使用者可用性。 Workfront可以使用使用者的「使用者設定檔」頁面中定義的使用者排程，或您系統的「預設排程」，來計算使用者可用性。
 
-![](assets/resource-management-preferences-section-in-setup-350x89.png)
+![管理喜好設定](assets/resource-management-preferences-section-in-setup-350x89.png)
 
 您的Workfront管理員會設定您的資源管理偏好設定。
 

@@ -6,9 +6,9 @@ description: 您可以在資源規劃工具中檢視資源的可用性，以及�
 author: Lisa
 feature: Resource Management
 exl-id: 5b3e52a6-af9b-4e68-8d6e-43a5151a2a2c
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1243'
 ht-degree: 4%
 
 ---
@@ -148,7 +148,7 @@ ht-degree: 4%
 
 1. （視條件而定）若您選取&#x200B;**自訂**，請在&#x200B;**自訂顯示的量度**&#x200B;方塊中指出選項，以設定您的自訂檢視。
 
-   ![](assets/planner-customize-view-box-350x114.png)
+   ![自訂檢視方塊](assets/planner-customize-view-box-350x114.png)
 
 1. 在左側的&#x200B;**檢視型別**&#x200B;欄中，選取下列其中一個檢視：
 
@@ -163,8 +163,8 @@ ht-degree: 4%
    | 可用 | ✔ | ✔ | ✔ |
    | 計畫 | ✔ | ✔ | ✔ |
    | 已編列預算 |   | ✔ | ✔ |
-   | 差額 |   | ✔ | ✔ |
-   | 淨餘 |   | ✔ | ✔ |
+   | 變異數 |   | ✔ | ✔ |
+   | 淨額 |   | ✔ | ✔ |
    | 實際 | ✔ |   |   |
    | 差異 | ✔ |   |   |
    | 百分比 | ✔ |   |   |
@@ -189,7 +189,7 @@ ht-degree: 4%
    >
    >您只能有一個自訂檢視。
 
-   ![](assets/planner-hours-drop-down-with-custom-and-customize-option-183x281.png)
+   ![規劃小時下拉式清單](assets/planner-hours-drop-down-with-custom-and-customize-option-183x281.png)
 
 ## 檢視使用者配置圖表
 

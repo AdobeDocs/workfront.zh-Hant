@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront工作負載平衡器，將使用者從�
 author: Lisa
 feature: Resource Management
 exl-id: e4293d4a-afb8-48ef-8a8e-6fad2ef82a25
-source-git-commit: 196d0aa4ed67cf564c823625515ef49d811e0e06
+source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '405'
 ht-degree: 2%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td>Contribute許可權或以上至專案、任務和問題，包括進行指派</td> 
+   <td>包含進行指派的專案、任務和問題的貢獻許可權或更高</td> 
   </tr> 
  </tbody> 
 </table>
@@ -75,9 +75,9 @@ ht-degree: 2%
 1. 執行下列其中一項：
 
    * 在使用者的區域中尋找您要取消指派的專案，按一下該專案，然後將其拖放至「已取消指派」區域或其他使用者的區域中。
-   * 按一下工作專案名稱右側的&#x200B;**更多**&#x200B;圖示![](assets/more-icon-task-list.png)，按一下&#x200B;**將此指派給**，然後移除指派給工作專案的實體名稱或輸入其他名稱，然後按一下&#x200B;**儲存**。
+   * 按一下工作專案名稱右側的&#x200B;**更多**&#x200B;圖示![更多圖示](assets/more-icon-task-list.png)，按一下&#x200B;**將此指派給**，然後移除指派給工作專案的實體名稱或輸入其他名稱，然後按一下&#x200B;**儲存**。
 
-     ![](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
+     ![將此指派給](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
 
    如果專案符合該區域的篩選條件，且未指派給任何其他使用者，則會顯示在「未指派的工作」區域中；如果專案指派給其他使用者，則會顯示在使用者區域中。
 

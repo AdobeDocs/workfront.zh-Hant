@@ -6,9 +6,9 @@ description: 您可以使用資源規劃工具來管理專案的資源配置。 
 author: Lisa
 feature: Resource Management
 exl-id: 0de749df-5af9-4124-8539-06b82dca2ec4
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '506'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 「供需規劃員」預設會顯示。  如需有關資源規劃工具中預算資源的資訊，請參閱使用專案和角色檢視的資源規劃工具中的文章[預算資源](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)。
 
-![](assets/qs-resource-management-area-with-planner-as-default-350x152.png)
+![資源規劃工具為預設值](assets/qs-resource-management-area-with-planner-as-default-350x152.png)
 
 1. 按一下左側面板中的&#x200B;**資源集區**。
 如需有關建立資源集區的資訊，請參閱[建立資源集區](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)。
@@ -105,6 +105,6 @@ ht-degree: 0%
    >
    >當專案沒有關聯的資源集區時，您只能在業務案例的資源預算區域新增資源集區。 當專案已有資源集區時，集區中的使用者及其工作角色依預設會顯示在「資源預算」區域中。
 
-   ![](assets/resource-budgeting-area-on-project-350x70.png)
+   ![資源預算](assets/resource-budgeting-area-on-project-350x70.png)
 
    如需為一個專案編列預算資源的相關資訊，請參閱文章[商業案例中的預算資源](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)。

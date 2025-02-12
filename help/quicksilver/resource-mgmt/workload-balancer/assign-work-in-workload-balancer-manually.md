@@ -7,9 +7,9 @@ author: Lisa
 feature: Resource Management
 role: User
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '733'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td>Contribute許可權或以上至專案、任務和問題，包括進行指派</td> 
+   <td>包含進行指派的專案、任務和問題的貢獻許可權或更高</td> 
   </tr> 
  </tbody> 
 </table>
@@ -77,9 +77,9 @@ ht-degree: 1%
 
    移至&#x200B;**指派的工作**&#x200B;區域，並展開使用者的名稱以檢視指派給他們的工作專案（如果您要重新指派其專案）。
 
-1. 按一下工作專案名稱左側的&#x200B;**其他功能表** ![](assets/qs-more-menu.png)，然後按一下&#x200B;**將此指派給**。
+1. 按一下工作專案名稱左側的&#x200B;**更多功能表** ![更多功能表](assets/qs-more-menu.png)，然後按一下&#x200B;**將此指派給**。
 
-   ![](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
+   ![將此指派給](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
 
    >[!TIP]
    >
@@ -101,7 +101,7 @@ ht-degree: 1%
    > 您必須在存取層級中啟用檢視聯絡資訊設定，使用者才能檢視使用者的電子郵件。 如需詳細資訊，請參閱[授予使用者存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)。
 
 
-   ![](assets/assignments-box-with-advanced-assignments-delegations-wb.png)
+   ![進階工作分派](assets/assignments-box-with-advanced-assignments-delegations-wb.png)
 
    >[!TIP]
    >
@@ -130,7 +130,7 @@ ht-degree: 1%
 
      如需進行進階指派的詳細資訊，請參閱[建立進階指派](../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)。
 
-1. （選擇性）按一下&#x200B;**顯示配置圖示** ![](assets/show-allocations-icon-small.png)，然後按一下&#x200B;**更多功能表** ![](assets/qs-more-menu.png) > **編輯配置**。
+1. （選擇性）按一下&#x200B;**顯示配置圖示** ![顯示配置圖示](assets/show-allocations-icon-small.png)，然後按一下&#x200B;**更多功能表** ![更多功能表](assets/qs-more-menu.png) > **編輯配置**。
 
    或
 

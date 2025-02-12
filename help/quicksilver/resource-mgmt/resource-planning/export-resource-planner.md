@@ -6,9 +6,9 @@ description: 您可以從資源規劃工具的任何檢視中，將資訊匯出�
 author: Lisa
 feature: Resource Management
 exl-id: 07acd28a-5dc0-45b4-bdf2-20abbd5e098c
-source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '628'
 ht-degree: 4%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 4%
 
    「匯出選項」對話方塊隨即顯示。
 
-   ![](assets/rp-export-options-box-350x421.png)
+   ![匯出選項](assets/rp-export-options-box-350x421.png)
 
 1. 指定下列資訊：\
    **開始日期**：您匯出的開始日期。 匯出的檔案包含從一週的第一天開始的配置和可用性資訊，其中包含您在此指定的日期。\

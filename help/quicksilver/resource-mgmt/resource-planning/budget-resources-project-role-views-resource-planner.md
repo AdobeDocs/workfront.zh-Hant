@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront資源規劃工具中使用專案和角�
 author: Lisa
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '2121'
+source-wordcount: '2127'
 ht-degree: 0%
 
 ---
@@ -160,7 +160,7 @@ ht-degree: 0%
 
 若要在「資源規劃工具」的「角色」檢視中進行預算分配****請執行下列動作：
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)。
+1. 按一下Adobe Workfront右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)。
 
 1. 按一下「**資源**」。
 1. 依預設會顯示&#x200B;**規劃師**。
@@ -225,7 +225,7 @@ ht-degree: 0%
 
 使用快速連結時，您可以大量為資源配置預算。 快速連結僅適用於「專案」和「角色檢視」。
 
-![](assets/rp-project-view-with-automatic-budgeting-options-on-project-350x173.png)
+![自動編列預算選項](assets/rp-project-view-with-automatic-budgeting-options-on-project-350x173.png)
 
 >[!NOTE]
 >

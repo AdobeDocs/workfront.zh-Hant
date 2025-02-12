@@ -6,9 +6,9 @@ description: Adobe Workfront可以為資源規劃工具的使用者檢視產生�
 author: Lisa
 feature: Resource Management
 exl-id: feb2ec26-f1a6-4581-9e1d-be948a2170c3
-source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Adobe Workfront可以為資源規劃工具的使用者檢視產生唯一的URL，您可將該URL作為外部頁面嵌入到儀表板中，或在新的瀏覽器標籤中單獨將其開啟。 當與可能沒有資源區域的直接存取許可權的使用者共用資源規劃工具資訊時，這會很有幫助。
 
-![](assets/rp-user-view-with-link-highlight-350x49.png)
+![具有連結的使用者檢視](assets/rp-user-view-with-link-highlight-350x49.png)
 
 ## 存取需求
 

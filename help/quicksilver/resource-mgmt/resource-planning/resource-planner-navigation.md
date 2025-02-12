@@ -7,9 +7,9 @@ description: 使用Adobe Workfront資源規劃工具，您可以輕鬆瞭解資�
 author: Lisa
 feature: Resource Management
 exl-id: 5a1be723-e3ac-443a-9c09-85e8839fcbef
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '2621'
+source-wordcount: '2652'
 ht-degree: 1%
 
 ---
@@ -24,13 +24,13 @@ ht-degree: 1%
 
 您必須符合完全使用資源規劃工具所需的先決條件。 如需資源規劃工具的詳細資訊，請參閱[資源規劃工具概觀](../../resource-mgmt/resource-planning/get-started-resource-planner.md)。
 
-![](assets/rp-project-view-all-functionality-350x117.png)
+![資源規劃工具](assets/rp-project-view-all-functionality-350x117.png)
 
 以下章節概述「資源規劃工具」的所有區域。
 
 ## 專案時間表
 
-![](assets/timeline-calendar-resource-planner-nwe-350x25.png)
+![時間表行事曆](assets/timeline-calendar-resource-planner-nwe-350x25.png)
 
 
 
@@ -77,7 +77,7 @@ ht-degree: 1%
 
 ## 專案/角色/使用者檢視選擇
 
-![](assets/nwe-project-role-user-view-selection-resource-planner.png)
+![依專案、角色或使用者檢視](assets/nwe-project-role-user-view-selection-resource-planner.png)
 
 您可以根據您想要顯示資訊的方式，變更「資源規劃工具」中的檢視。
 
@@ -127,8 +127,8 @@ ht-degree: 1%
    * 可用
    * 計畫
    * 已編列預算
-   * 差額
-   * 淨餘
+   * 變異數
+   * 淨額
 
      如需詳細資訊，請參閱資源規劃工具中使用專案和角色檢視的[預算資源](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)。
 
@@ -150,8 +150,8 @@ ht-degree: 1%
    * 可用
    * 計畫
    * 已編列預算
-   * 差額
-   * 淨餘
+   * 變異數
+   * 淨額
 
      如需詳細資訊，請參閱資源規劃工具中使用專案和角色檢視的[預算資源](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)。
 
@@ -194,7 +194,7 @@ ht-degree: 1%
    * 當您有權檢視專案，但沒有專案上的任何任務或問題時，專案名稱會顯示，並且任務和問題會列在「**無法存取的專案**」區段下。\
      如需Workfront中許可權的詳細資訊，請參閱[物件許可權共用概觀](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。
 
-     ![](assets/inaccessible-items-in-rp-with---column-and-red-outline--1--350x187.png)
+     ![無法存取的專案](assets/inaccessible-items-in-rp-with---column-and-red-outline--1--350x187.png)
 
    
 
@@ -210,7 +210,7 @@ ht-degree: 1%
 
 ## 專案名稱
 
-![](assets/project-name-highlighted-resource-planner-350x445.png)
+![專案名稱](assets/project-name-highlighted-resource-planner-350x445.png)
 
 您可以在資源規劃工具中檢視下列專案：
 
@@ -232,13 +232,13 @@ ht-degree: 1%
 
 專案會依優先順序列在資源規劃工具中，最重要的專案會列在頂端。 優先順序由專案名稱前面的數字表示。
 
-![](assets/rp-planner-priority-highlighted-350x186.png)
+![專案計畫優先順序](assets/rp-planner-priority-highlighted-350x186.png)
 
 您也可以啟用某項設定，以便在專案與投資組合相關聯時，根據投資組合顯示專案優先順序。 如需有關在資源規劃工具中排定專案的優先順序並顯示投資組合優先順序的資訊，請參閱[在資源規劃工具中排定專案的優先順序](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md)。
 
 ## 職位角色名稱
 
-![](assets/role-highlighted-resource-planner-350x243.png)
+![工作角色名稱](assets/role-highlighted-resource-planner-350x243.png)
 
 資源規劃工具中列出下列職務角色類別：
 
@@ -254,7 +254,7 @@ ht-degree: 1%
 
 ## 使用者名稱
 
-![](assets/user-highlighted-resource-planner-350x272.png)
+![使用者名稱](assets/user-highlighted-resource-planner-350x272.png)
 
 在資源規劃工具中，在專案和角色檢視中列出的使用者屬於與專案關聯的資源集區。\
 如需以使用者填入資源集區的詳細資訊，請參閱[將資源集區與使用者關聯](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)。
@@ -310,11 +310,11 @@ ht-degree: 1%
 1. 開啟資源規劃工具。
 1. 按一下&#x200B;**設定**&#x200B;圖示。
 
-   ![](assets/rp-settings-icon-edit-1.png)
+   ![資源規劃工具設定圖示](assets/rp-settings-icon-edit-1.png)
 
    資源規劃工具設定方塊隨即顯示。
 
-   ![](assets/rp-settings-without-actual-hours-350x211.png)
+   ![資源規劃工具設定](assets/rp-settings-without-actual-hours-350x211.png)
 
 1. 啟用&#x200B;**包括問題的時數**&#x200B;設定，以顯示資源規劃工具中問題的計畫時數。 此設定預設為停用。
 
@@ -327,7 +327,7 @@ ht-degree: 1%
      >
      >**當問題計劃開始和完成日期在專案的時間表以外時，問題的計畫時數會根據問題日期顯示。 例如，如果專案時間表介於1月至3月之間，但問題的時間表是8月，則問題的計畫時數會顯示在8月期間。**
 
-1. （條件式與選擇性）如果您選取「專案」檢視，請啟用「顯示Portfolio優先順序」設定，以根據指派給它們的Portfolio來顯示專案優先順序。 根據其投資組合的專案優先順序顯示在資源規劃工具優先順序旁邊。 此設定預設為停用。
+1. （條件式與選擇性）如果您已選取「專案」檢視，請啟用「顯示Portfolio優先順序」設定，以根據其獲指派的Portfolio顯示專案優先順序。 根據其投資組合的專案優先順序顯示在資源規劃工具優先順序旁邊。 此設定預設為停用。
 
    如需有關在資源規劃工具中排定專案優先順序的資訊，請參閱[在資源規劃工具中排定專案的優先順序](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md)。
 
@@ -348,7 +348,7 @@ ht-degree: 1%
 
 ## 匯出選項
 
-![](assets/export-button-highlighted-resource-planner-350x92.png)
+![匯出按鈕](assets/export-button-highlighted-resource-planner-350x92.png)
 
 您可以從資源規劃工具的任何檢視將資訊匯出到Excel (.xlsx)檔案。\
 如需有關從資源規劃工具匯出資訊的資訊，請參閱[從資源規劃工具匯出資訊](../../resource-mgmt/resource-planning/export-resource-planner.md)。

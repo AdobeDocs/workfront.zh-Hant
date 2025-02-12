@@ -6,9 +6,9 @@ description: 身為資源管理員，您可以指派工作給使用者，並從�
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
 workflow-type: tm+mt
-source-wordcount: '2898'
+source-wordcount: '2909'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>Contribute許可權或更高版本，其中包含對您要管理其配置的任務和問題進行指派。 </p> <p>或 </p> <p>管理您要更新計畫時數以及更新配置的任務的許可權。 如需有關更新工作負載平衡器中的規劃時數的資訊，請參閱本文中的<a href="#update-task-planned-hours-when-managing-user-allocations">管理使用者指派時更新任務規劃時數</a>區段。</p> </td> 
+   <td> <p>貢獻許可權或更高，包括指派給您要管理配置的任務和問題。 </p> <p>或 </p> <p>管理您要更新計畫時數以及更新配置的任務的許可權。 如需有關更新工作負載平衡器中的規劃時數的資訊，請參閱本文中的<a href="#update-task-planned-hours-when-managing-user-allocations">管理使用者指派時更新任務規劃時數</a>區段。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -191,11 +191,11 @@ ht-degree: 0%
    >
    >您只能修改任務和問題的使用者配置。 您無法修改專案的使用者配置。
 
-1. （選擇性）按一下&#x200B;**顯示配置**&#x200B;圖示![](assets/show-allocations-icon-small.png)以顯示所有工作專案的配置。
+1. （選擇性）按一下&#x200B;**顯示配置**&#x200B;圖示![顯示配置圖示](assets/show-allocations-icon-small.png)以顯示所有工作專案的配置。
 
    任務與專案的名稱會由任務或專案的使用者配置取代。
 
-1. （選擇性）按一下&#x200B;**設定**&#x200B;圖示![](assets/gear-icon-settings.png)並選取下列任一選項：
+1. （選擇性）按一下&#x200B;**設定**&#x200B;圖示![設定圖示](assets/gear-icon-settings.png)並選取下列任一選項：
 
    1. **包含問題的時數**。 這可讓您在任務指派之外管理問題指派。
    1. **顯示已完成的工作**。 這會顯示已在您管理配置的時間表期間完成並排程的專案。
@@ -212,7 +212,7 @@ ht-degree: 0%
       >
       >Workfront管理員在「設定」的「資源管理」區域中，決定要在整個系統中使用哪個排程來計算使用者的容量。 如需詳細資訊，請參閱[設定資源管理喜好設定](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)。
 
-1. 按一下工作專案的&#x200B;**更多**&#x200B;功能表![](assets/qs-more-menu.png)，然後按一下&#x200B;**編輯配置**。
+1. 按一下工作專案的&#x200B;**更多**&#x200B;功能表![更多](assets/qs-more-menu.png)，然後按一下&#x200B;**編輯配置**。
 
    工作專案的![更多功能表](assets/more-menu-on-task-wb-nwe.png)
 
@@ -222,11 +222,11 @@ ht-degree: 0%
 
    配置方塊變為可編輯。
 
-1. 按一下每個每日、每週或每月配置的方塊，以手動更新每日、每週或每月要配置使用者的小時數或百分比值，然後按一下&#x200B;**儲存**&#x200B;圖示![](assets/checkmark-icon.png)。
+1. 按一下每個每日、每週或每月配置的方塊，以手動更新每日、每週或每月要配置使用者的小時數或百分比值，然後按一下&#x200B;**儲存**&#x200B;圖示![儲存圖示](assets/checkmark-icon.png)。
 
    >[!TIP]
    >
-   >按一下&#x200B;**取消**&#x200B;圖示![](assets/cancel-allocations-wb.png)以移除您已調整的分配。
+   >按一下&#x200B;**取消**&#x200B;圖示![取消圖示](assets/cancel-allocations-wb.png)以移除您調整的分配。
 
    ![儲存或取消已調整的分配](assets/wb-contouring-with-check-and-x-boxes-350x63.png)
 

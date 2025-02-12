@@ -7,10 +7,10 @@ description: 您可以使用工作負載平衡器來排程工作資源，或檢�
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 3d7708e674af716657cc287c9f54a8cf56278da3
+source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 0%
+source-wordcount: '714'
+ht-degree: 1%
 
 ---
 
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 1. 按一下左側面板中的&#x200B;**工作負載平衡器**。
 
-   ![](assets/nwe-balancer-global.png)
+   ![工作量平衡工具](assets/nwe-balancer-global.png)
 
    依預設，工作負載平衡器會依資源區域中的資訊顯示以下內容：
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 
 1. 按一下左側面板中的&#x200B;**工作負載平衡器**。
 
-   ![](assets/nwe-balancer-team-350x172.png)
+   ![團隊的工作負載平衡器](assets/nwe-balancer-team-350x172.png)
 
    依預設，團隊的工作負載平衡器顯示以下資訊：
 
@@ -124,7 +124,7 @@ ht-degree: 0%
 
    專案的工作負載平衡器顯示。
 
-   ![](assets/nwe-balancer-project-350x152.png)
+   專案的![工作負載平衡器](assets/nwe-balancer-project-350x152.png)
 
    依預設，專案的工作負載平衡器會依資訊顯示以下內容：
 

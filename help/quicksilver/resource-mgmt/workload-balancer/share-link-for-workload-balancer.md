@@ -6,9 +6,9 @@ description: 您可以與其他可能沒有資源區域可用的使用者共用�
 author: Lisa
 feature: Resource Management
 exl-id: e2d6b1f8-bdc9-4a34-bdc3-b56f7aa2e7a5
-source-git-commit: 233e61c011cc87f49d0d4082a20b7790104c96c8
+source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '697'
 ht-degree: 1%
 
 ---
@@ -123,7 +123,7 @@ ht-degree: 1%
 
      如需有關在工作負載平衡器中篩選資訊的資訊，請參閱在工作負載平衡器](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)中的篩選資訊[。
 
-1. 按一下&#x200B;**連結圖示** ![](assets/wb-shearable-link-icon-small.png)。
+1. 按一下&#x200B;**連結圖示** ![連結圖示](assets/wb-shearable-link-icon-small.png)。
 
    這會將連結新增至剪貼簿。
 

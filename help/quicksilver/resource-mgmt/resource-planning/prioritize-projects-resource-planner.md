@@ -6,9 +6,9 @@ description: 專案會依優先順序列在資源規劃工具中，最重要的�
 author: Lisa
 feature: Resource Management
 exl-id: fe9c8cf9-f1e0-4cd5-9299-0f04893d71a5
-source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1308'
 ht-degree: 1%
 
 ---
@@ -94,7 +94,7 @@ ht-degree: 1%
 1. 移至&#x200B;**資源規劃工具**。
 
 1. 按一下專案名稱左側的欄位（包含數字），然後輸入數字以變更Planning優先順序，然後按Enter鍵。\
-   ![](assets/mceclip4.png)\
+   ![變更規劃優先順序](assets/mceclip4.png)\
    或\
    暫留在專案名稱上，並按一下專案名稱左側的指示器，然後將其拖放到正確的位置，以變更優先順序。
 
@@ -110,21 +110,21 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->貴公司必須有業務或以上的Workfront計畫，才能在Portfolio最佳化工具中排定專案的優先順序。
+>貴公司必須有業務或以上的Workfront計畫，才能在Portfolio Optimizer中排定專案的優先順序。
 >
 >如需Workfront計畫的詳細資訊，請參閱[我們的計畫](https://www.workfront.com/plans)。
 >
->如需有關在Portfolio最佳化工具中排定專案優先順序的資訊，請參閱[在Portfolio最佳化工具中排定專案的優先順序](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)。
+>如需有關在Portfolio Optimizer中排定專案優先順序的資訊，請參閱[在Portfolio Optimizer中排定專案優先順序](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)。
 
 1. 在&#x200B;**專案檢視**&#x200B;中開啟&#x200B;**資源規劃工具**。
 1. 按一下&#x200B;**設定**&#x200B;圖示。
-1. 啟用&#x200B;**顯示Portfolio優先順序**&#x200B;設定，以根據指派給它們的Portfolio顯示專案優先順序。 根據其投資組合的專案優先順序顯示在資源規劃工具優先順序旁邊。 此設定預設為停用。
+1. 啟用&#x200B;**顯示Portfolio優先順序**&#x200B;設定，以根據其指派的Portfolio顯示專案優先順序。 根據其投資組合的專案優先順序顯示在資源規劃工具優先順序旁邊。 此設定預設為停用。
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: check screen shot to see if this is accurate still - should say Order, and not Sort:)</p>
    -->
 
-   ![](assets/rp-portfolio-priority-unordered-edit-350x180.png)
+   ![Portfolio優先順序](assets/rp-portfolio-priority-unordered-edit-350x180.png)
 
    專案的專案組合優先順序僅在資源規劃工具的專案檢視中顯示。
 
@@ -136,13 +136,13 @@ ht-degree: 1%
    1. 規劃開始日期
    1. 專案名稱
 
-   ![](assets/rp-portfolio-priority-ordered-350x198.png)
+   ![已排序的Portfolio優先順序](assets/rp-portfolio-priority-ordered-350x198.png)
 
 1. 按一下「**儲存**」。
 
 ## 變更專案計畫優先順序對使用者可用時數的影響
 
-專案計畫優先順序會影響使用者的可用時數。 與具有最高優先順序的專案相關聯的使用者，會根據其排程，顯示此專案的「可用時數」(AVL)欄中最大的可用性。
+專案計畫優先順序會影響使用者的可用時數。 與具有最高優先順序的專案相關聯的使用者，會根據其排程，針對此專案的「可用時數」(AVL)欄顯示其最充分的可用性。
 
 依優先順序與第二個專案相關聯的相同使用者將顯示可用時數值，這是其完整可用時數與已針對預算時數欄中的第一個專案編列預算之值之間的差額，以此類推。 如需資源規劃工具中預算資源的相關資訊，請參閱資源規劃工具中使用專案與角色檢視的[預算資源](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)。
 
