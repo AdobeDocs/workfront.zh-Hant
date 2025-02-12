@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
+source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1330'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具備下列專案才能執行本文所述的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -133,7 +133,7 @@ ht-degree: 0%
 
 自訂表單分割槽符號的「有限編輯」許可權僅適用於專案、任務、問題和使用者物件型別。
 
-在設定了「有限編輯」許可權之分割槽符號的自訂表單中，如果您將其中一個其他物件型別(Portfolio、方案、檔案、公司、記帳記錄、反複專案、費用或群組)新增到表單，系統將提示您切換到「編輯」許可權，該許可權與該物件型別和表單上的現有物件型別都相容。
+在設定了「有限編輯」許可權之分割槽符號的自訂表單中，如果您將其他物件型別(Portfolio、方案、檔案、公司、記帳記錄、疊代、費用或群組)之一新增到表單，系統將提示您切換到「編輯」許可權，該許可權與該物件型別和表單上的現有物件型別都相容。
 
 >[!INFO]
 >

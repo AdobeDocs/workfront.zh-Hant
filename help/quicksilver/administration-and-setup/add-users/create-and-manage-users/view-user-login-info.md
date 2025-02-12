@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b37c34a-d628-4d9b-9688-e4b9f89c666b
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '577'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具備下列專案才能執行本文所述的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -69,7 +69,7 @@ Workfront會記錄下列有關登入系統之使用者的資訊：
 
   >[!NOTE]
   >
-  >透過Workfront API登入Workfront，僅適用於尚未加入Adobe Business Platform的組織。
+  >透過Workfront API登入Workfront，僅適用於尚未上線Adobe Business Platform的組織。
 
 ## 在使用者清單或報告中顯示使用資訊
 

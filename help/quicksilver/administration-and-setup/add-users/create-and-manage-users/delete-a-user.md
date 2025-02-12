@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '872'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->此頁面中說明的程式僅適用於尚未加入「Adobe業務平台」的組織。 如果您已上線至Adobe Business Platform，您必須刪除Adobe Admin Console中的使用者。
+>本頁所述的程式僅適用於尚未加入「Adobe商業平台」的組織。 如果您已上線Adobe Business Platform，則必須刪除Adobe Admin Console中的使用者。
 >
 >如需根據貴組織是否已加入Adobe Business Platform而有所差異的程式清單，請參閱[以平台為基礎的管理差異(Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 
@@ -43,7 +43,7 @@ ht-degree: 1%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具備下列專案才能執行本文所述的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 

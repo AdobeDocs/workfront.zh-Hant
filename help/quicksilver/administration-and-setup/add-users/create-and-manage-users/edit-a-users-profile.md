@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
 workflow-type: tm+mt
-source-wordcount: '3275'
+source-wordcount: '3276'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具備下列專案才能執行本文所述的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -100,7 +100,7 @@ ht-degree: 0%
         <p>如果您是群組管理員，且您的存取層級中已啟用「使用者管理員（所有使用者）」許可權，您可以編輯所有使用者的&lt;SSO設定&gt;欄位。</p> </li> 
         <li><b>工作資訊：</b>工作的相關資訊，例如工作職稱（在<b>職稱</b>欄位中），以及使用者所負責的專業領域（在<b>與我談關於</b>欄位中）。</li> 
         <li><p><b>連絡資訊</b>：使用者的電話號碼(<b>電話號碼，分機。</b>和<b>手機號碼</b>欄位)和地址（在<b>地址、城市、州/省、郵遞區號、國家/地區</b>欄位中）。</p>
-        <p>如果使用者已啟用統一使用者管理(UUM)或AdobeIdentity Management系統(IMS)，則連絡人資訊區段中的<b>國家/地區</b>欄位僅接受國家/地區代碼值（例如，US、GB、IN）。</p></li>
+        <p>如果使用者已啟用統一使用者管理(UUM)或Adobe Identity Management系統(IMS)，則連絡人資訊區段中的<b>國家/地區</b>欄位僅接受國家/地區代碼值（例如，US、GB、IN）。</p></li>
        </ul> </td> 
      </tr> 
      <tr> 
@@ -110,7 +110,7 @@ ht-degree: 0%
       <li> <p><b>時區：</b>使用者的時區。</p> <p>如需有關協助使用者在Workfront中跨時區共同作業的資訊，請參閱<a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">跨時區工作</a>。</p> </li>
 
    <li><p><b>電子郵件地區設定</b>：使用者偏好的電子郵件地區設定。 這會影響從Workfront傳送給此使用者的電子郵件中的數字和日期格式。</p>
-      <p><b>注意：</b>當您的組織使用Adobe統一體驗時，使用者的語言偏好設定會儲存在其Adobe設定檔中，而且不會使用電子郵件地區設定。 如需有關存取這些偏好設定的資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront的Adobe統一體驗</a>。</p></li>
+      <p><b>注意：</b>當您的組織使用Adobe Unified Experience時，使用者的語言偏好設定會儲存在其Adobe設定檔中，而且不會使用電子郵件地區設定。 如需有關存取這些偏好設定的資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront的Adobe Unified Experience </a>。</p></li>
 
    <li><b>接收來自此測試環境的電子郵件</b>：如果您要接收來自目前登入之環境的電子郵件通知，請核取此選項。
       <p><b>附註</b></p>

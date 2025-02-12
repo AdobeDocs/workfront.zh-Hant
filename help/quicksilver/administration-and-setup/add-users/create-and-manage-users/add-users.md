@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: '1131'
 ht-degree: 1%
 
 ---
@@ -42,7 +42,7 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具備下列專案才能執行本文所述的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -122,7 +122,7 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
    >
    * 如果您的組織已加入Admin Console，而您透過Workfront新增使用者，則無法傳送電子郵件邀請。
    >
-   對於現有的Adobe使用者，使用者可能會收到也可能不會收到有關Workfront可用性的電子郵件。 這是產品的Adobe管理員所控制的偏好設定。
+   對於現有的Adobe使用者，使用者可能會收到也可能不會收到有關Workfront可用性的電子郵件。 這是由Adobe管理員控制的產品偏好設定。
 
 1. 按一下&#x200B;**新增此人員**。
 
@@ -170,4 +170,4 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
 >
 如果您的組織已加入Admin Console，而您透過Workfront新增使用者，則無法傳送電子郵件邀請。
 >
-對於現有的Adobe使用者，使用者可能會收到也可能不會收到有關Workfront可用性的電子郵件。 這是產品的Adobe管理員所控制的偏好設定。
+對於現有的Adobe使用者，使用者可能會收到也可能不會收到有關Workfront可用性的電子郵件。 這是由Adobe管理員控制的產品偏好設定。
