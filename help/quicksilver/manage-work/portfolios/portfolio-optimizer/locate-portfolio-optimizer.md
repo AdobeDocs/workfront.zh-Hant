@@ -1,21 +1,21 @@
 ---
 product-area: portfolios;projects
 navigation-topic: portfolio-optimizer
-title: 找到Portfolio最佳化工具
-description: 存取投資組合時，可以找到[!UICONTROL Portfolio最佳化工具]。
+title: 找到Portfolio Optimizer
+description: 存取投資組合時，可以找到[!UICONTROL Portfolio Optimizer]。
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: de9abb4e-0bf2-4673-8be1-3f0f35e17eaf
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
 
 # 找到[!UICONTROL Portfolio最佳化工具]
 
-存取投資組合時，可以找到[!UICONTROL Portfolio最佳化工具]。
+存取投資組合時，可以找到[!UICONTROL Portfolio Optimizer]。
 
 ## 存取需求
 
@@ -38,7 +38,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
-   <td> <p>[！UICONTROL Edit]Portfolio和專案的存取權</p>  </td>
+   <td> <p>[！UICONTROL Edit]對投資組合和專案的存取權</p>  </td>
 </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 ## 找到[!UICONTROL Portfolio最佳化工具]
 
-1. 從&#x200B;**[!UICONTROL 主功能表]**，按一下&#x200B;**[!UICONTROL Portfolio]**。
+1. 從&#x200B;**[!UICONTROL 主功能表]**，按一下&#x200B;**[!UICONTROL 投資組合]**。
 
    依預設會顯示您擁有的投資組合。
 
@@ -61,6 +61,6 @@ ht-degree: 0%
 1. 按一下投資組合的名稱以存取它。
 1. 按一下左側面板中的&#x200B;**[!UICONTROL Portfolio最佳化]**。
 
-   顯示[!UICONTROL Portfolio最佳化工具]。
+   顯示[!UICONTROL Portfolio Optimizer]。
 
-   ![](assets/nwe-portfolio-optimizer-350x83.png)
+   ![Portfolio最佳化工具](assets/nwe-portfolio-optimizer-350x83.png)

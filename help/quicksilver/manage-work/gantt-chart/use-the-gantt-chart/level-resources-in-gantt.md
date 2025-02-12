@@ -6,9 +6,9 @@ description: 有關如何在甘特圖中層次資源的資訊。
 author: Alina
 feature: Work Management
 exl-id: ba96c01d-03b8-4728-b5e3-b10d227f51b0
-source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '598'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 0%
 * 前置任務關係將優先於資源平準。
 * 專案的&#x200B;**[!UICONTROL 資源平準]**&#x200B;必須設定為&#x200B;**[!UICONTROL 手動]**，才能在[!UICONTROL 甘特圖]中調整平準。 如果您擁有專案的管理許可權，可以調整專案的這個設定，並在&#x200B;**[!UICONTROL 編輯專案]**&#x200B;方塊中選取&#x200B;**[!UICONTROL 自動]**&#x200B;而非&#x200B;**[!UICONTROL 手動]**，讓系統自動分級資源。
 
-  ![](assets/resource-leveling-mode-350x177.png)
+  ![資源平準模式](assets/resource-leveling-mode-350x177.png)
 
 * 作為專案所有者或任務受指派人，您可以為任務引入平準延遲，以表示任務極有可能需要額外的時間。 如需將平準延遲新增至任務的詳細資訊，請參閱[更新任務平準延遲](../../../manage-work/tasks/task-information/task-leveling-delay.md)。
 
@@ -83,7 +83,7 @@ ht-degree: 0%
    >
    >啟用[!UICONTROL 自動儲存]選項時，您無法平準[!UICONTROL 甘特圖]中的資源。
 
-   ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![已啟用手動設定](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. 按一下&#x200B;**[!UICONTROL 層級資源]**&#x200B;下拉式功能表。
 

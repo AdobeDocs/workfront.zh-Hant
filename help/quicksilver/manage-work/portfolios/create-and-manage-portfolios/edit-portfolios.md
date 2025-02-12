@@ -6,9 +6,9 @@ description: 您可以編輯已建立的投資組合資訊，或其他使用者�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1009'
+source-wordcount: '1029'
 ht-degree: 1%
 
 ---
@@ -32,13 +32,13 @@ ht-degree: 1%
    <td> <p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe[!DNL Workfront]授權*</td> 
+   <td role="rowheader">Adobe [!DNL Workfront]授權*</td> 
    <td> <p>新增：標準</p>
    <p>目前： [！UICONTROL計畫] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級</td> 
-   <td> <p>[！UICONTROL Edit]對Portfolio的存取權</p>  </td> 
+   <td> <p>[！UICONTROL Edit]對投資組合的存取權</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
@@ -59,7 +59,7 @@ ht-degree: 1%
 1. 按一下投資組合的名稱以開啟。
 1. （選擇性）若要編輯投資組合的有限資訊，請按一下左側面板中的&#x200B;**[!UICONTROL Portfolio詳細資料]**。
 
-   ![](assets/portfolio-details-tab-nwe-350x163.png)
+   ![Portfolio詳細資訊標籤](assets/portfolio-details-tab-nwe-350x163.png)
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the note below will also be true for Edit Portfolio box)</p>
@@ -67,23 +67,23 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >根據您的[!DNL Workfront]管理員或群組管理員修改版面配置範本的方式，[!UICONTROL Portfolio詳細資料]區域中的欄位可能會重新排列或不顯示。 如需詳細資訊，請參閱[使用配置範本自訂[!UICONTROL 詳細資料]檢視](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)。
+   >視您的[!DNL Workfront]管理員或群組管理員修改版面配置範本的方式而定，[!UICONTROL Portfolio詳細資料]區域中的欄位可能會重新排列或不顯示。 如需詳細資訊，請參閱[使用配置範本自訂[!UICONTROL 詳細資料]檢視](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)。
 
    若要編輯[!UICONTROL 詳細資料]區段中的資訊，請執行下列動作：
 
    1. （選擇性）按一下右上角的&#x200B;**[!UICONTROL 全部收合]**&#x200B;圖示以收合所有區域。
-   1. （選擇性和條件性）當區域摺疊時，按一下每個區域旁的&#x200B;**向右箭頭** ![](assets/right-pointing-arrow.png)以展開您要編輯的區域。
+   1. （選擇性和條件性）當區域收合時，按一下每個區域旁的&#x200B;**向右箭頭** ![向右箭頭](assets/right-pointing-arrow.png)以展開您要編輯的區域。
    1. 如需[!UICONTROL Portfolio詳細資料]區段中可見欄位的相關資訊，請繼續編輯[!UICONTROL 編輯Portfolio]方塊中的投資組合，如下所述。
    1. （選擇性）如果沒有自訂表單附加至投資組合，請在&#x200B;**[!UICONTROL 新增自訂表單]**&#x200B;欄位中開始輸入表單的名稱，在清單中顯示時選取它，然後按一下&#x200B;**[!UICONTROL 儲存變更]**。
-   1. （選擇性）按一下&#x200B;**[!UICONTROL 匯出]**&#x200B;圖示![](assets/export.png)，將[!UICONTROL 概述]和自訂表單資訊匯出至PDF檔案，然後按一下&#x200B;**[!UICONTROL 匯出]**。 從下列選項中選取：
+   1. （選擇性）按一下&#x200B;**[!UICONTROL 匯出]**&#x200B;圖示![匯出圖示](assets/export.png)將[!UICONTROL 概述]和自訂表單資訊匯出至PDF檔案，然後按一下&#x200B;**[!UICONTROL 匯出]**。 從下列選項中選取：
 
       * 全選（至少附加一個自訂表單時顯示）
       * 概觀
       * 一或多個自訂表單的名稱
 
-      PDF檔案會下載到您的電腦。
+      PDF檔案會下載至您的電腦。
 
-      ![](assets/export-portfolio-details-box-with-export-button-350x368.png)
+      ![匯出投資組合詳細資料](assets/export-portfolio-details-box-with-export-button-350x368.png)
 
       如需詳細資訊，請參閱[匯出自訂表單和物件詳細資料](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md)。
 
@@ -100,14 +100,14 @@ ht-degree: 1%
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will change in NWE with a new Edit Portfolio UI)</p>   
      -->
 
-   * 移至投資組合清單，並選取一或多個要編輯的投資組合，然後按一下清單頂端的&#x200B;**[!UICONTROL 編輯]**&#x200B;圖示![](assets/edit-icon.png)。
+   * 移至投資組合清單，並選取您要編輯的一或多個投資組合，然後按一下清單頂端的&#x200B;**[!UICONTROL 編輯]**&#x200B;圖示![編輯圖示](assets/edit-icon.png)。
 
      <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will need to split into another section when they release the new [!UICONTROL Edit Portfolio] UI)</p>   
      -->
    **[!UICONTROL 編輯Portfolio]**&#x200B;對話方塊隨即顯示。
 
-   ![](assets/edit-portfolio-box-classic-350x224.png)
+   ![編輯投資組合方塊](assets/edit-portfolio-box-classic-350x224.png)
 
    所有投資組合欄位都可在[!UICONTROL 編輯Portfolio]方塊中使用，並按左側面板中列出的區域分組。
 
@@ -143,19 +143,19 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader">[！UICONTROL說明]</td> 
-      <td> <p>輸入Portfolio的說明以指示其獨特性。 </p> </td> 
+      <td> <p>輸入Portfolio的說明以指出其獨特性。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROLPortfolio管理員]</td> 
-      <td> <p>開始輸入您要指定做為投資組合經理的使用者名稱，然後當它出現在清單中時選取它。 這與[！UICONTROLPortfolio所有者]相同。 此人員可監督投資組合中專案所定義的工作，並可核准業務案例。</p> <p>重要：當您指定某人為Portfolio管理員時，他們會自動取得專案組合、方案及專案組合中的[！UICONTROL管理]許可權。 </p> <p>提示：您可以在投資組合標題中快速更新投資組合經理。 </p> </td> 
+      <td role="rowheader">[！UICONTROL Portfolio Manager]</td> 
+      <td> <p>開始輸入您要指定做為投資組合經理的使用者名稱，然後當它出現在清單中時選取它。 這與[！UICONTROL Portfolio Owner]相同。 此人員可監督投資組合中專案所定義的工作，並可核准業務案例。</p> <p>重要：當您指定某人為Portfolio管理員時，他會自動獲得投資組合中、計畫及專案的[！UICONTROL管理]許可權。 </p> <p>提示：您可以在投資組合標題中快速更新投資組合經理。 </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[！UICONTROL群組]</td> 
-      <td> <p>如果群組與投資組合相關聯或負責完成投資組合，請新增單一群組的名稱。 </p> <p>秘訣：  <p>從[！UICONTROLPortfolio詳細資訊]頁面存取[！UICONTROL群組]欄位時，請執行下列動作： </p> <p>您可以暫留在群組上，並按一下旁邊顯示的[！UICONTROL資訊]圖示<img src="assets/info-icon.png">，確定您選取的群組正確。 這會顯示工具提示，列出群組的相關資訊，例如群組及其管理員上方的群組階層。</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> <p>此選項在[！UICONTROL編輯Portfolio]方塊中無法使用。 </p> </p> </td> 
+      <td> <p>如果群組與投資組合相關聯或負責完成投資組合，請新增單一群組的名稱。 </p> <p>秘訣：  <p>從[！UICONTROL Portfolio Details]頁面存取[！UICONTROL Group]欄位時，請執行下列動作： </p> <p>您可以暫留在群組上，並按一下旁邊顯示的[！UICONTROL資訊]圖示<img src="assets/info-icon.png">，確定您選取的群組正確。 這會顯示工具提示，列出群組的相關資訊，例如群組及其管理員上方的群組階層。</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> <p>此選項在[！UICONTROL編輯Portfolio]方塊中無法使用。 </p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p role="rowheader">[！UICONTROL一致性計分卡]</p> </td> 
-      <td> <p>從下拉式清單中選取您要使用的對齊計分卡。 計分卡可用來測量專案與Portfolio既定標準的符合程度，通常可反映組織的使命、價值和策略目標。 如需詳細資訊，請參閱<a href="../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md" class="MCXref xref">將計分卡套用至專案並產生一致性分數</a>和<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md" class="MCXref xref">建立計分卡</a>。</p> </td> 
+      <td> <p>從下拉式清單中選取您要使用的對齊計分卡。 計分卡可用來測量專案與Portfolio既定標準的符合程度，這些標準通常可反映組織的使命、價值和策略目標。 如需詳細資訊，請參閱<a href="../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md" class="MCXref xref">將計分卡套用至專案並產生一致性分數</a>和<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md" class="MCXref xref">建立計分卡</a>。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[！UICONTROL作用中]</td> 
@@ -184,7 +184,7 @@ ht-degree: 1%
 1. 依照上述方式開始編輯投資組合。
 1. 按一下&#x200B;**[!UICONTROL 註解]**。
 
-   ![](assets/comment-box-edit-portfolio-classic-350x227.png)
+   ![編輯投資組合註解方塊](assets/comment-box-edit-portfolio-classic-350x227.png)
 
 1. 在&#x200B;**[!UICONTROL 張貼更新至投資組合]**&#x200B;欄位中新增註解。
 1. （選用）按一下&#x200B;**[!UICONTROL 人員]**&#x200B;圖示以新增使用者或團隊至註解。

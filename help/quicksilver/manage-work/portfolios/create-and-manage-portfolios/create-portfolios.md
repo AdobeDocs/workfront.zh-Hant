@@ -2,13 +2,13 @@
 product-area: portfolios
 navigation-topic: create-and-manage-portfolios
 title: 建立專案組合
-description: Portfolio是競爭相同資源、預算和排程的專案集合。 Portfolio中的專案非常類似，以至於會使用相同的資源集區，並根據相同的計分卡測量。
+description: Portfolio是競爭相同資源、預算和排程的專案集合。 Portfolio中的專案相當類似，因此會使用相同的資源集區，並針對相同的計分卡測量。
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '671'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 1%
 
 <!--Audited: 7/2024-->
 
-Portfolio是競爭相同資源、預算和排程的專案集合。 Portfolio中的專案非常類似，以至於會使用相同的資源集區，並根據相同的計分卡測量。
+Portfolio是競爭相同資源、預算和排程的專案集合。 Portfolio中的專案相當類似，因此會使用相同的資源集區，並針對相同的計分卡測量。
 
-您可以使用Portfolio將屬於相同產品線、部門、部門、公司或其他業務單位的專案分組。
+您可以使用投資組合將屬於相同產品線、部門、部門、公司或其他業務單位的專案分組。
 
 ## 存取需求
 
@@ -40,7 +40,7 @@ Portfolio是競爭相同資源、預算和排程的專案集合。 Portfolio中�
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[！UICONTROL Edit]對Portfolio的存取權</p>  </td> 
+   <td> <p>[！UICONTROL Edit]對投資組合的存取權</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
@@ -57,7 +57,7 @@ Portfolio是競爭相同資源、預算和排程的專案集合。 Portfolio中�
 
 您可以使用下列其中一種方法，在Workfront中建立產品組合：
 
-* 從主要功能表的Portfolio區域開始從頭開始建立投資組合。 本文會介紹如何從頭開始建立產品組合。
+* 從主功能表的「投資組合」區域開始從頭開始建立投資組合。 本文會介紹如何從頭開始建立產品組合。
 
 * 使用kick-start匯入投資組合。
 
@@ -78,15 +78,15 @@ Portfolio是競爭相同資源、預算和排程的專案集合。 Portfolio中�
 
 {{step1-click-main-menu}}
 
-1. 按一下&#x200B;**[!UICONTROL Portfolio]**。
+1. 按一下&#x200B;**[!UICONTROL 投資組合]**。
 1. 按一下&#x200B;**[!UICONTROL 新增Portfolio]**。
-1. 將&#x200B;**[!UICONTROL 未命名的Portfolio]**&#x200B;取代為您要為投資組合設定的名稱。
+1. 將&#x200B;**[!UICONTROL 未命名的Portfolio]**&#x200B;取代為您想要用於投資組合的名稱。
 
    名稱最多可包含255個字元。
 
-1. （選擇性）按一下頁面頂端標題中&#x200B;**[!UICONTROL Portfolio管理員]**&#x200B;底下的名稱，指派投資組合的其他管理員。
+1. （選擇性）按一下頁面頂端標題中&#x200B;**[!UICONTROL Portfolio Manager]**&#x200B;底下的名稱，指派投資組合的其他經理。
 
-   ![](assets/portfolio-manager-name-350x51.jpg)
+   ![Portfolio管理員名稱](assets/portfolio-manager-name-350x51.jpg)
 
    投資組合的建立者預設會指派您為投資組合經理。
 
@@ -99,11 +99,11 @@ Portfolio是競爭相同資源、預算和排程的專案集合。 Portfolio中�
     <tbody> 
      <tr> 
       <td role="rowheader">[！UICONTROL說明]</td> 
-      <td> <p>輸入Portfolio的說明以指示其獨特性。 </p> </td> 
+      <td> <p>輸入Portfolio的說明以指出其獨特性。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROLPortfolio管理員]</td> 
-      <td> <p>開始輸入您要指定做為投資組合經理的使用者名稱，然後當它出現在清單中時選取它。 這與[！UICONTROLPortfolio所有者]相同。 此人員可監督投資組合中專案所定義的工作，並可核准業務案例。</p> <p>重要：當您指定某人為[！UICONTROLPortfolio管理員]時，他們會自動取得專案組合、方案及專案組合中的[！UICONTROL管理]許可權。 </p> <p>提示：您也可以更新頁面頂端標題中的[！UICONTROLPortfolio管理員]。</p> </td> 
+      <td role="rowheader">[！UICONTROL Portfolio Manager]</td> 
+      <td> <p>開始輸入您要指定做為投資組合經理的使用者名稱，然後當它出現在清單中時選取它。 這與[！UICONTROL Portfolio Owner]相同。 此人員可監督投資組合中專案所定義的工作，並可核准業務案例。</p> <p>重要：當您指定某人為[！UICONTROL Portfolio Manager]時，他們會自動取得專案組合、方案及專案組合中的[！UICONTROL管理]許可權。 </p> <p>提示：您也可以更新頁面頂端標題中的[！UICONTROL Portfolio Manager]。</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">群組 </td> 
@@ -112,7 +112,7 @@ Portfolio是競爭相同資源、預算和排程的專案集合。 Portfolio中�
     </tbody> 
    </table>
 
-1. （選擇性）在[!UICONTROL Portfolio詳細資料]頁面右上角的&#x200B;**[!UICONTROL 新增自訂表單]**&#x200B;方塊內按一下，以選取投資組合的自訂表單並更新自訂欄位。
+1. （選擇性）在[!UICONTROL Portfolio詳細資料]頁面右上角的&#x200B;**[!UICONTROL 新增自訂表單]**&#x200B;方塊內按一下，以選取產品組合的自訂表單並更新自訂欄位。
 
    >[!TIP]
    >

@@ -6,9 +6,9 @@ description: 您可以從投資組合中移除專案，並將其與不同的投�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 8982097e-76ee-497a-aa7c-74c6fbd3002d
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '230'
 ht-degree: 1%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級</td> 
-   <td> <p>[！UICONTROL Edit]專案的存取權</p> <p>[！UICONTROL Edit]對Portfolio的存取權</p>  </td> 
+   <td> <p>[！UICONTROL Edit]專案的存取權</p> <p>[！UICONTROL Edit]對投資組合的存取權</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
@@ -56,12 +56,12 @@ ht-degree: 1%
 
 ## 從投資組合中移除專案
 
-1. 移至Portfolio，然後按一下左側面板中的&#x200B;**[!UICONTROL 專案]**。
+1. 前往Portfolio並按一下左側面板中的&#x200B;**[!UICONTROL 專案]**。
 1. 選取要移除的專案。 
 
-   ![](assets/nwe-remove-projects-button-inside-portfolio-350x141.png)
+   ![移除專案按鈕](assets/nwe-remove-projects-button-inside-portfolio-350x141.png)
 
 1. 按一下&#x200B;**[!UICONTROL 移除專案]**。
-1. 按一下&#x200B;**[!UICONTROL 刪除]**&#x200B;從[!DNL Workfront]刪除專案，或按一下&#x200B;**[!UICONTROL 移除]** **[!UICONTROL 從Portfolio]**&#x200B;移除專案，從選取的Portfolio移除專案。
+1. 按一下&#x200B;**[!UICONTROL 刪除]**&#x200B;從[!DNL Workfront]中刪除專案，或按一下&#x200B;**[!UICONTROL 從Portfolio]**&#x200B;移除&#x200B;]****[!UICONTROL &#x200B;以從選取的Portfolio中移除專案。
 
 1. （選擇性和條件性）尋找您從投資組合中移除的專案，並將其與其他投資組合建立關聯。 如需將專案與投資組合建立關聯的資訊，請參閱[將專案新增至投資組合](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)。

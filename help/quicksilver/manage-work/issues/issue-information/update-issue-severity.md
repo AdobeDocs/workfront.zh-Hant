@@ -6,9 +6,9 @@ description: 您可以將嚴重程度與Adobe Workfront中的問題建立關聯�
 author: Alina
 feature: Work Management
 exl-id: 81302e9c-8861-4a08-b8b3-c4eeac54524e
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 您的Workfront管理員會定義Workfront中可用的嚴重性。 建立區段後，您即可將它們與問題建立關聯。\
 如需在Workfront中建立嚴重程度的詳細資訊，請參閱[建立或自訂問題嚴重程度](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md)。
 
-您必須擁有問題的Contribute許可權才能更新其嚴重性。 
+您必須擁有問題的貢獻許可權才能更新其嚴重性。 
 
 您可以在Workfront的下列區域中更新問題的嚴重性：
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**基本資訊**&#x200B;區域中的&#x200B;**嚴重性**&#x200B;欄位。
 
-   ![](assets/nwe-issue-severity-field-in-details-highlighted-350x112.png)
+   ![問題嚴重程度](assets/nwe-issue-severity-field-in-details-highlighted-350x112.png)
 
 1. 從下拉式功能表中選取適當的&#x200B;**嚴重性**。
 

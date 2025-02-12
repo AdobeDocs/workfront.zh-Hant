@@ -6,9 +6,9 @@ description: 您可以複製問題或請求，並將其儲存在相同或其他�
 author: Alina
 feature: Work Management
 exl-id: a28adc22-825f-401e-9ed2-efddaa297b8d
-source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1064'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>管理問題的許可權</p> <p>您要將問題複製到其中的專案的Contribute許可權，以及新增問題的功能。</p> <p> 如需授與問題許可權的相關資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">共用問題</a></p> <p>如需請求其他許可權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>管理問題的許可權</p> <p>將許可權貢獻給您要複製問題的專案，並具有「新增問題」功能。</p> <p> 如需授與問題許可權的相關資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">共用問題</a></p> <p>如需請求其他許可權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -95,7 +95,7 @@ ht-degree: 1%
 1. 如果您選擇前往專案，請按一下左側面板中的&#x200B;**問題**。
 1. 選取您要複製的問題並按一下問題清單頂端的&#x200B;**更多功能表**，然後按一下&#x200B;**複製到**。
 
-   ![](assets/copy-issue-in-list-nwe-350x169.png)
+   ![在清單中複製問題](assets/copy-issue-in-list-nwe-350x169.png)
 
 1. 繼續複製問題，如從步驟2開始的[複製單一問題](#copy-a-single-issue)一節中所述。
 
@@ -109,13 +109,13 @@ ht-degree: 1%
 
 您可以在檢視時複製一個問題。
 
-1. 移至您要複製的問題，然後按一下問題名稱右側的&#x200B;**更多**&#x200B;功能表![](assets/more-icon.png)，然後按一下&#x200B;**複製**。
+1. 移至您要複製的問題，然後按一下問題名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-icon.png)，然後按一下&#x200B;**複製**。
 
-   ![](assets/nwe-copy-at-issue-level-highlighted-350x580.png)
+   ![複製問題層級](assets/nwe-copy-at-issue-level-highlighted-350x580.png)
 
    顯示&#x200B;**複製問題**&#x200B;方塊。
 
-   ![](assets/copy-issue-box-nwe-350x285.png)
+   ![複製問題方塊](assets/copy-issue-box-nwe-350x285.png)
 
 1. 在&#x200B;**選取目的地專案**&#x200B;區段中，指定您要複製問題的專案名稱。 預設會顯示目前專案的名稱。
 
@@ -126,7 +126,7 @@ ht-degree: 1%
 1. （視條件而定）如果您沒有將問題複製到專案的存取權，請按一下&#x200B;**要求存取權**。
 1. （視條件而定）如果您有權將問題新增至目的地專案上的任務之一，請繼續將問題複製到所選目的地專案，而不要求存取權。
 
-   ![](assets/copy-issue-request-access-from-project-nwe-350x125.png)
+   ![複製問題並要求存取權](assets/copy-issue-request-access-from-project-nwe-350x125.png)
 
    >[!TIP]
    >

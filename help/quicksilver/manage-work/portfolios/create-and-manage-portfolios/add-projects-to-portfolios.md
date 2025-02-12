@@ -6,9 +6,9 @@ description: 我們建議您在啟動專案時，將專案新增至專案組合�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級</td> 
-   <td> <p>[！UICONTROL Edit]存取Portfolio</p> <p>[！UICONTROL Edit]專案的存取權</p> </td> 
+   <td> <p>[！UICONTROL Edit]存取權投資組合</p> <p>[！UICONTROL Edit]專案的存取權</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 1. 前往投資組合，然後按一下左側面板中的&#x200B;**[!UICONTROL 專案]**。
 
-   ![](assets/qs-portfolio-with-projects-350x90.png)
+   ![Portfolio與專案](assets/qs-portfolio-with-projects-350x90.png)
 
 1. 按一下&#x200B;**[!UICONTROL 新增專案]**，然後選取新增專案的方法。
 
@@ -98,11 +98,11 @@ ht-degree: 0%
     </tbody> 
    </table>
 
-   ![](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
+   ![新專案下拉式清單](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
 
 1. （視條件而定）如果您選取新增現有專案，請在&#x200B;**[!UICONTROL 新增專案]**&#x200B;方塊中開始輸入專案名稱，然後當專案出現在清單中時按一下它們。 您可以一次新增多個專案。
 
-   ![](assets/add-existing-project-from-portfolio-window-nwe-350x545.png)
+   ![新增現有專案](assets/add-existing-project-from-portfolio-window-nwe-350x545.png)
 
 1. 按一下&#x200B;**[!UICONTROL 新增專案]**。
 

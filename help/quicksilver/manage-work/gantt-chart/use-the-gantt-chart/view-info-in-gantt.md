@@ -5,9 +5,9 @@ description: 任務清單甘特圖和專案清單甘特圖會顯示有關專案�
 author: Alina
 feature: Work Management
 exl-id: e6b55699-0831-40d4-a997-6fe3f8828ee1
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '918'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 0%
 您可以直接從下列區域的專案清單中檢視專案的工作資訊：
 
 * 在[!UICONTROL 專案]區域中
-* 在Portfolio內
+* 在Portfolio中
 * 在計畫內
 
 若要從專案清單檢視專案中的任務：
@@ -79,7 +79,7 @@ ht-degree: 0%
 
    專案清單隨即顯示。
 
-1. 按一下畫面右上角的&#x200B;**[!UICONTROL 甘特圖]**&#x200B;圖示![](assets/gantt-icon-nwe.png)。
+1. 按一下畫面右上角的&#x200B;**[!UICONTROL 甘特圖]**&#x200B;圖示![甘特圖示](assets/gantt-icon-nwe.png)。
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: images conditioned for classic and nwe) <br></p>
@@ -113,7 +113,7 @@ ht-degree: 0%
 
 1. 在[!UICONTROL 甘特圖]中，按一下時間範圍下拉式功能表。
 
-   ![](assets/timeline-options.png)
+   ![時間表選項](assets/timeline-options.png)
 
 1. 從下列可用選項中選取時間範圍：
 

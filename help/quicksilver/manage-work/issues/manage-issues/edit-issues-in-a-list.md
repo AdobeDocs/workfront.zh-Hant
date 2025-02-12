@@ -6,9 +6,9 @@ description: 您可以編輯個別問題，也可以編輯問題清單或報告�
 author: Alina
 feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
-source-git-commit: 24cc3ece515fd778a9bc9e8afbcd534f48b24230
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '896'
 ht-degree: 1%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>Contribute或更高的問題許可權</p> <p> 如需授與問題許可權的相關資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">共用問題</a></p> <p>如需請求其他許可權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>貢獻或更高的問題許可權</p> <p> 如需授與問題許可權的相關資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">共用問題</a></p> <p>如需請求其他許可權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,7 +65,7 @@ ht-degree: 1%
 1. 前往專案或任務中的問題清單。
 1. 按一下您有權手動更新的任何欄位。 欄位會變成可編輯，您可以進行變更。
 
-   ![](assets/edit-issues-inline-350x34.png)
+   ![編輯內嵌問題](assets/edit-issues-inline-350x34.png)
 
 1. 要接受變更時請按Enter鍵。 變更會立即儲存。
 
@@ -76,9 +76,9 @@ ht-degree: 1%
 1. 前往專案或任務中的問題清單。
 1. 執行下列任一項作業
 
-   * 在清單中選取問題，然後按一下工具列中的「編輯」圖示![](assets/qs-edit-icon.png)。
-   * 按一下問題名稱右側的&#x200B;**更多功能表** ![](assets/more-icon-task-list.png)，然後按一下&#x200B;**在新索引標籤中開啟**。 這會在新標籤中開啟問題頁面。 從問題頁面按一下&#x200B;**更多** > **編輯**。
-   * 按一下問題名稱右側的&#x200B;**更多功能表** ![](assets/more-icon-task-list.png)，然後按一下&#x200B;**編輯**。
+   * 在清單中選取問題，然後按一下工具列中的「編輯」圖示![「編輯」圖示](assets/qs-edit-icon.png)。
+   * 按一下問題名稱右側的&#x200B;**更多功能表** ![更多功能表](assets/more-icon-task-list.png)，然後按一下&#x200B;**在新索引標籤中開啟**。 這會在新標籤中開啟問題頁面。 從問題頁面按一下&#x200B;**更多** > **編輯**。
+   * 按一下問題名稱右側的&#x200B;**更多功能表** ![更多功能表](assets/more-icon-task-list.png)，然後按一下&#x200B;**編輯**。
 
      其中任何動作會開啟「編輯問題」方塊。
 
@@ -93,7 +93,7 @@ ht-degree: 1%
 
    專案上的問題清單隨即顯示。
 
-1. 選取您要編輯的問題，然後按一下問題清單右上角的&#x200B;**開啟摘要**&#x200B;圖示![](assets/qs-open-summary-icon-in-new-toolbar-small.png)。
+1. 選取您要編輯的問題，然後按一下問題清單右上角的&#x200B;**開啟摘要**&#x200B;圖示![開啟摘要圖示](assets/qs-open-summary-icon-in-new-toolbar-small.png)。
 
    **摘要**&#x200B;隨即開啟。
 
@@ -102,7 +102,7 @@ ht-degree: 1%
 
    | 文件 | 按一下&#x200B;**按一下這裡以新增**，將檔案新增至問題。 |
    |---|---|
-   | 詳细資料 | 按一下以更新問題的相關資訊。 |
+   | 詳細資料 | 按一下以更新問題的相關資訊。 |
    | 時數 | 按一下以記錄時數。 |
    | 核准 | 按一下以新增問題核准。 |
 
@@ -119,7 +119,7 @@ ht-degree: 1%
 1. 按一下專案名稱以存取專案。
 1. 按一下左側面板中的&#x200B;**問題**。
 1. 在清單中選取數個問題。
-1. 按一下&#x200B;**編輯**&#x200B;圖示![](assets/edit-icon.png)。
+1. 按一下&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)。
 
    **編輯問題**&#x200B;對話方塊開啟。
 

@@ -2,27 +2,27 @@
 content-type: overview
 product-area: portfolios
 navigation-topic: portfolio-optimizer
-title: Portfolio最佳化工具分數概述
-description: 您可以在Portfolio最佳化工具中找到Portfolio最佳化工具分數。 它會顯示在每個專案的[!UICONTROL 分數]欄中。 這代表投資組合中每個專案的分數。
+title: Portfolio Optimizer分數概述
+description: 您可以在Portfolio Optimizer中找到Portfolio Optimizer分數。 它會顯示在每個專案的[!UICONTROL 分數]欄中。 這代表投資組合中每個專案的分數。
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 4451b1a3-57ae-4c66-a6a1-a85bd51a1648
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '737'
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Portfolio最佳化工具]分數的總覽
+# [!UICONTROL Portfolio Optimizer]分數的總覽
 
 <!--Audited: 01/2025-->
 
-您可以在[!UICONTROL Portfolio最佳化工具]中找到[!UICONTROL Portfolio最佳化工具]分數。 它會顯示在每個專案的&#x200B;**[!UICONTROL 分數]**&#x200B;欄中。 這代表投資組合中每個專案的分數。
+您可以在[!UICONTROL Portfolio Optimizer]中找到[!UICONTROL Portfolio Optimizer]分數。 它會顯示在每個專案的&#x200B;**[!UICONTROL 分數]**&#x200B;欄中。 這代表投資組合中每個專案的分數。
 
-如需有關找到[!UICONTROL Portfolio最佳化工具]的資訊，請參閱文章[[!UICONTROL Portfolio最佳化工具]概覽](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)。
+如需有關找到[!UICONTROL Portfolio Optimizer]的資訊，請參閱文章[[!UICONTROL Portfolio Optimizer]概覽](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)。
 
-有關[!DNL Adobe Workfront]如何使用專案分數和其他專案資訊來最佳化[!UICONTROL Portfolio最佳化工具]中的專案的資訊，請參閱[最佳化Portfolio最佳化工具中的專案](../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md)。
+如需[!DNL Adobe Workfront]如何使用專案分數和其他專案資訊來最佳化[!UICONTROL Portfolio最佳化工具]中的專案的詳細資訊，請參閱[在Portfolio最佳化工具中最佳化專案](../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md)。
 
 ## [!UICONTROL 校準分數]與[!UICONTROL Portfolio最佳化工具分數]之間的差異
 
@@ -32,9 +32,9 @@ ht-degree: 0%
 
 專案的對齊分數會顯示在[!UICONTROL Portfolio最佳化工具]的&#x200B;**[!UICONTROL 對齊]**&#x200B;欄位或[!UICONTROL 業務案例摘要]的[!UICONTROL 對齊]欄位中。
 
-![](assets/business-case-summary-aligned-field-highlighted.png)
+![業務案例摘要](assets/business-case-summary-aligned-field-highlighted.png)
 
-![](assets/project-alignment-score-portfolio-optimizer-highlighted-350x174.png)
+![專案對齊分數](assets/project-alignment-score-portfolio-optimizer-highlighted-350x174.png)
 
 如需有關產生專案對齊分數的詳細資訊，請參閱文章[將計分卡套用至專案並產生對齊分數](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md)。
 
@@ -42,9 +42,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->專案只有完成業務案例後，才能在[!UICONTROL Portfolio最佳化工具]中評分。 如需有關完成業務案例的詳細資訊，請參閱文章[[!UICONTROL 為專案建立業務案例]](../../../manage-work/projects/define-a-business-case/create-business-case.md)。
+>專案只有完成業務案例後，才能在[!UICONTROL Portfolio Optimizer]中評分。 如需有關完成業務案例的詳細資訊，請參閱文章[[!UICONTROL 為專案建立業務案例]](../../../manage-work/projects/define-a-business-case/create-business-case.md)。
 
-![](assets/portfolio-optimizer-project-score-highlighted-350x132.png)
+![專案分數](assets/portfolio-optimizer-project-score-highlighted-350x132.png)
 
 系統會根據下列類別的重要性來計算每個專案的分數：
 
@@ -54,17 +54,17 @@ ht-degree: 0%
 * [!UICONTROL 利益風險]
 * [!UICONTROL ROI]
 
-## 計算[!UICONTROL Portfolio最佳化工具]分數
+## 計算[!UICONTROL Portfolio Optimizer]分數
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This was edited based on this issue, per Anna: https://hub.workfront.com/issue/603d0c58000095ea0bc00ce5e2110693/overview)</p>
 -->
 
-[!DNL Workfront]使用[!UICONTROL Portfolio最佳化工具]產生分數，這是協助專案優先順序排定的排名。 投資組合中的值是根據輸入到專案業務案例中的值，並用於計算專案的分數。 分數較高的專案可視為較重要，並可將它們排定優先順序以首先完成。
+[!DNL Workfront]使用[!UICONTROL Portfolio Optimizer]產生分數，這是協助排定專案優先順序的排名。 投資組合中的值是根據輸入到專案業務案例中的值，並用於計算專案的分數。 分數較高的專案可視為較重要，並可將它們排定優先順序以首先完成。
 
 若要瞭解專案排名，請執行下列動作：
 
-1. 移至[!UICONTROL Portfolio最佳化工具]。
+1. 移至[!UICONTROL Portfolio Optimizer]。
 1. 將滑鼠指標停留在排名圖示上，即可檢視專案的投資組合最佳化工具分數。
 
 ![ranking_icon_in_portfolio_optimizer_new.png](assets/ranking-icon-in-portfolio-optimizer-new-350x160.png)
@@ -87,9 +87,9 @@ ht-degree: 0%
 * [!UICONTROL 利益風險]
 * [!UICONTROL ROI]
 
-![](assets/optimizer-sliding-value-options-350x77.png)
+![滑動值選項](assets/optimizer-sliding-value-options-350x77.png)
 
-如需如何最佳化投資組合中專案的詳細資訊，請參閱[!UICONTROL Portfolio最佳化工具]](../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md)中的[最佳化專案。
+如需如何最佳化投資組合中專案的詳細資訊，請參閱[在[!UICONTROL Portfolio最佳化工具]](../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md)中最佳化專案。
 
 組態面板上的每個條件（[!UICONTROL 成本]、[!UICONTROL 一致性]、[!UICONTROL ROI]、[!UICONTROL 淨值]、[!UICONTROL 利益風險]）會根據您選取的專案，賦予其在0到100範圍內的權重。
 

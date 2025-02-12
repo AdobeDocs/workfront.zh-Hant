@@ -6,9 +6,9 @@ description: 在Adobe Workfront中將問題轉換為專案
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1957'
+source-wordcount: '1975'
 ht-degree: 1%
 
 ---
@@ -69,12 +69,12 @@ ht-degree: 1%
 1. 前往專案，然後按一下左側面板中的&#x200B;**[!UICONTROL 問題]**。
 1. 在顯示的問題清單中，執行下列任一項作業：
 
-   * 若要將問題轉換為空白專案，請按一下問題名稱，按一下問題名稱右側的&#x200B;**[!UICONTROL 更多]**&#x200B;功能表![](assets/more-icon.png)，然後按一下&#x200B;**[!UICONTROL 轉換為空白專案]**。
+   * 若要將問題轉換為空白專案，請按一下問題名稱，按一下問題名稱右側的&#x200B;**[!UICONTROL 更多]**&#x200B;選單![更多](assets/more-icon.png)，然後按一下&#x200B;**[!UICONTROL 轉換為空白專案]**。
 
 
      或
 
-     選取問題清單中的問題，按一下清單頂端的&#x200B;**[!UICONTROL 更多]**&#x200B;功能表![](assets/more-icon.png)，然後按一下&#x200B;**[!UICONTROL 轉換為空白專案]**。
+     選取問題清單中的問題，按一下清單頂端的&#x200B;**[!UICONTROL 更多]**&#x200B;功能表![更多](assets/more-icon.png)，然後按一下&#x200B;**[!UICONTROL 轉換為空白專案]**。
 
      >[!IMPORTANT]
      >
@@ -122,7 +122,7 @@ ht-degree: 1%
    * 檢閱附加到問題的自訂表單。 如果他們也是專案自訂表單，則將轉移到新專案。
    * 新增更多自訂表格
    * 請確定所有必要欄位都有有效的資訊。
-   * 將自訂表單拖曳到![](assets/drag-object-icon.png)您想要的位置，以重新排列它們。
+   * 將自訂表格拖曳到您要的位置![將圖示](assets/drag-object-icon.png)拖曳到您要的位置，以重新排列自訂表格。
    * 按一下您不想要轉移到專案的任何表單右側的&#x200B;**x**&#x200B;圖示。 這會從專案移除表單。
    * 如有必要，請將問題中的自訂表單資訊傳輸至專案。
 
@@ -153,7 +153,7 @@ ht-degree: 1%
 您可以使用範本將問題轉換為專案。
 
 1. 前往專案，然後按一下左側面板中的&#x200B;**[!UICONTROL 問題]**。
-1. 在顯示的問題清單中，按一下問題名稱，按一下問題名稱右側的&#x200B;**[!UICONTROL 更多]**&#x200B;功能表![](assets/more-icon.png)，然後按一下&#x200B;**從範本轉換為專案**，並開始在&#x200B;**搜尋範本**&#x200B;方塊中輸入範本名稱，然後按一下範本顯示在清單中的名稱。 繼續進行步驟3。
+1. 在顯示的問題清單中，按一下問題名稱，按一下問題名稱右側的&#x200B;**[!UICONTROL 更多]**&#x200B;功能表![更多](assets/more-icon.png)，然後按一下&#x200B;**從範本轉換為專案**，並開始在&#x200B;**搜尋範本**&#x200B;方塊中輸入範本名稱，然後按一下範本顯示在清單中的名稱。 繼續進行步驟3。
 
    >[!TIP]
    >
@@ -161,7 +161,7 @@ ht-degree: 1%
 
    「從範本新建專案」方塊隨即顯示。
 
-   ![](assets/new-project-from-template-small-box-with-template-details-panel-nwe-350x279.png)
+   ![從範本新增專案](assets/new-project-from-template-small-box-with-template-details-panel-nwe-350x279.png)
 
    >[!TIP]
    >
@@ -180,7 +180,7 @@ ht-degree: 1%
    * 範本中所有任務的數量
    * 範本自訂表單的名稱
 
-1. （選擇性）將滑鼠移到範本名稱上，然後按一下&#x200B;**我的最愛**&#x200B;圖示![](assets/favorites-icon-small.png)，將其標示為我的最愛，以供日後使用。
+1. （選擇性）將滑鼠移到範本名稱上，然後按一下&#x200B;**我的最愛**&#x200B;圖示![我的最愛](assets/favorites-icon-small.png)，將其標示為我的最愛，以供日後使用。
 
    >[!TIP]
    >
@@ -190,7 +190,7 @@ ht-degree: 1%
 
    [!UICONTROL 轉換至專案]方塊開啟。
 
-   ![](assets/convert-to-project-from-template-large-project-box-nwe-350x291.png)
+   ![轉換至專案](assets/convert-to-project-from-template-large-project-box-nwe-350x291.png)
 
 1. 如果欄位已填入範本中，則該欄位會預先填入[!UICONTROL 轉換為專案]方塊中。 您可以編輯預先填入的值，以更符合您的專案。 如需詳細資訊，請參閱[編輯專案](../../../manage-work/projects/manage-projects/edit-projects.md)。
 
@@ -230,7 +230,7 @@ ht-degree: 1%
       * 檢閱附加到範本的自訂表單。 他們將會轉移到新專案。
       * 檢閱附加到問題的自訂表單。 如果他們也是專案表單，則會傳輸到專案。
       * 請確定所有必要欄位都有有效的資訊。
-      * 將自訂表單拖曳到![](assets/drag-object-icon.png)您想要的位置，以重新排列它們。
+      * 將自訂表格拖曳到您要的位置![將圖示](assets/drag-object-icon.png)拖曳到您要的位置，以重新排列自訂表格。
       * 按一下您不想要轉移到專案的任何表單右側的&#x200B;**x**&#x200B;圖示。
       * 如有必要，請將問題中的自訂表單資訊傳輸至專案。
 

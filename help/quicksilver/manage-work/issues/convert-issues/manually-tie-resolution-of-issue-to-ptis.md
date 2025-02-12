@@ -6,9 +6,9 @@ description: 您可以手動將問題的解決連結至專案、任務或問題�
 author: Alina
 feature: Work Management
 exl-id: f57f67cb-60b3-4a95-9963-fa339e542551
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 0%
 1. 瀏覽至您想要將其解決方案連結至另一個問題的解決方案，或是任務或專案的解決方案的問題。
 1. 按一下左側面板中的&#x200B;**問題詳細資訊**，然後展開&#x200B;**概觀**&#x200B;區域。
 
-   ![](assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png)
+   ![問題詳細資訊圖示](assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png)
 
 1. 按一下&#x200B;**解析者**&#x200B;欄位，然後從下列解析物件型別中選取：
 

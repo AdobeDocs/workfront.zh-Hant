@@ -6,9 +6,9 @@ description: 如果您有正確的存取權和許可權，可以刪除Adobe Work
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '735'
 ht-degree: 1%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>管理問題的許可權</p> <p>專案或任務的Contribute或較高許可權</p> <p> 如需授與問題許可權的相關資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">共用問題</a></p> </td> 
+   <td> <p>管理問題的許可權</p> <p>專案或任務的貢獻或較高許可權</p> <p> 如需授與問題許可權的相關資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">共用問題</a></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -110,7 +110,7 @@ ht-degree: 1%
 1. 按一下&#x200B;**專案**。
 1. 按一下包含您要刪除之問題的專案名稱。
 1. 按一下左側面板中的&#x200B;**問題**。
-1. 選取問題，然後按一下清單頂端的&#x200B;**刪除**&#x200B;圖示![](assets/delete.png)。
+1. 選取問題，然後按一下清單頂端的&#x200B;**刪除**&#x200B;圖示![刪除圖示](assets/delete.png)。
 
 1. 如果允許刪除，請按一下&#x200B;**是，刪除**。\
    您的Workfront管理員可能不允許刪除記錄時數的問題。\
@@ -123,12 +123,12 @@ ht-degree: 1%
 1. 按一下包含您要刪除之問題的專案名稱。
 1. 按一下左側面板中的&#x200B;**問題**。
 
-   ![](assets/qs-issues-icon-highlighted-on-project-350x278.png)
+   ![問題圖示](assets/qs-issues-icon-highlighted-on-project-350x278.png)
 
 1. 按一下您要刪除的問題名稱。
 1. 按一下問題名稱右側的&#x200B;**更多**&#x200B;功能表。
 
-   ![](assets/qs-issue-more-menu-highlighted-350x469.png)
+   ![問題更多功能表](assets/qs-issue-more-menu-highlighted-350x469.png)
 
 1. 按一下&#x200B;**刪除問題**。
 1. 如果允許刪除，請按一下&#x200B;**是，刪除**。

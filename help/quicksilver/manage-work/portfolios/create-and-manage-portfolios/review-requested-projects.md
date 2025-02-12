@@ -6,9 +6,9 @@ description: 專案請求在Adobe Workfront中顯示為[!UICONTROL 已請求]狀
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1acfb885-0da3-495d-ba66-e80e339e90de
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '438'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[！UICONTROL View]或更高版本的Portfolio存取權</p> <p>[！UICONTROL Edit]專案的存取權</p>  </td> 
+   <td> <p>[！UICONTROL檢視]對產品組合的存取權或以上版本</p> <p>[！UICONTROL Edit]專案的存取權</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
@@ -77,7 +77,7 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   > 除了具有&#x200B;**[!UICONTROL 已要求]**&#x200B;的狀態外，專案還必須與選取的Portfolio相關聯，才能顯示在此清單中。
+   > 除了具有&#x200B;**[!UICONTROL 已要求]**&#x200B;的狀態外，專案還必須與選取的Portfolio建立關聯，才能顯示在此清單中。
 
 1. 按一下清單中專案的名稱以開啟。
 1. 按一下左側面板中的&#x200B;**[!UICONTROL 專案詳細資料]**。
@@ -99,7 +99,7 @@ ht-degree: 0%
 
    * 在&#x200B;**[!UICONTROL 狀態]**&#x200B;下拉式功能表中，將專案狀態變更為任何其他狀態。
 
-     ![](assets/project-status-change-from-drop-down-in-header-nwe-350x294.png)
+     ![從下拉式清單變更專案狀態](assets/project-status-change-from-drop-down-in-header-nwe-350x294.png)
  
 
  

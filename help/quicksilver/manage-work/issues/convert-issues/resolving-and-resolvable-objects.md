@@ -7,9 +7,9 @@ description: 可解析物件是其解析繫結至解析物件的問題。 解決
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1778'
+source-wordcount: '1788'
 ht-degree: 1%
 
 ---
@@ -79,10 +79,10 @@ The default status of the issue is controlled by the status of the project or ta
 存在下列情況：
 
 * 如果Workfront或群組管理員擁有&#x200B;**保留原始問題並將其解決方案連結至任務**&#x200B;和&#x200B;**保留原始問題並將其解決方案連結至專案**&#x200B;已選取，且&#x200B;**允許在轉換期間變更這些設定**&#x200B;未選取，則您將問題轉換為任務或專案時無法變更這些設定。\
-  ![](assets/qs-setup-project-preferences-issues-area-some-boxes-unselected-350x217.png)
+  ![專案偏好設定問題區域](assets/qs-setup-project-preferences-issues-area-some-boxes-unselected-350x217.png)
 
 * 如果Workfront或群組管理員擁有&#x200B;**保留原始問題並將其解決方案連結至任務**&#x200B;和&#x200B;**保留原始問題並將其解決方案連結至專案** （選取或未選取），且&#x200B;**允許在轉換期間變更這些設定**&#x200B;已選取，則您將能夠在您將問題轉換為任務或專案時變更這些設定。\
-  ![](assets/qs-options-to-keep-issue-when-coverting-it-inside-the-issue-350x113.png)
+  ![保留問題的選項](assets/qs-options-to-keep-issue-when-coverting-it-inside-the-issue-350x113.png)
 
 如需將問題轉換為任務和專案的詳細資訊，請參閱[在Adobe Workfront中轉換問題的總覽](../../../manage-work/issues/convert-issues/convert-issues.md)。
 
@@ -202,7 +202,7 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 
 在問題清單中，您可以在&#x200B;**狀態圖示**&#x200B;或&#x200B;**旗標**&#x200B;欄中找出此圖示，藉此識別標示為透過狀態圖示解析物件的問題：
 
-![](assets/ro1.png)
+![解析物件](assets/ro1.png)
 
 ## 在報告中檢視可解析物件和解析物件資訊
 
@@ -225,43 +225,43 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
  <tbody> 
   <tr> 
    <td><strong>有可解析專案</strong>：如果專案或任務具有相關聯的可解析問題，則顯示<strong>True</strong>值，否則顯示<strong>False</strong>值。</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td><strong>原始問題名稱、原始問題輸入日期、建立者名稱</strong>：顯示原始問題的名稱和輸入日期，以及在文字模式自訂檢視中建立問題的使用者名稱。<br>如需有關建立專案或任務報告或清單的文字模式自訂檢視以顯示原始問題相關資訊的詳細資訊，請參閱<a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">檢視：在任務或專案清單上顯示原始問題資訊</a>。<br></td> 
    <td> </td> 
-   <td> ✓ (A)</td> 
-   <td> ✓ (A)</td> 
+   <td> ✓</td> 
+   <td> ✓</td> 
   </tr> 
   <tr> 
    <td> <p><strong>可解析專案：</strong>以文字模式自訂檢視顯示專案、工作報告或清單的所有可解析物件清單。</p> <p>如需建立此檢視的詳細資訊，請參閱<a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resolvable-objects-task-project-report.md" class="MCXref xref">檢視：任務或專案報告中的可解析物件</a></p> </td> 
    <td> </td> 
-   <td>✓ (A)</td> 
-   <td> ✓ (A)</td> 
+   <td>✓</td> 
+   <td> ✓</td> 
   </tr> 
   <tr> 
    <td><strong>轉換的問題建立者</strong>：顯示最初記錄問題且後來轉換為任務之使用者的相關資訊。 </td> 
    <td> </td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td><strong>解決專案</strong>：顯示解決專案的資訊，該專案已從原始問題轉換而來，或手動指定為問題的解決物件。</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td><strong>解決任務</strong>：顯示解決任務的相關資訊，該任務已從原始問題轉換，或手動指定為問題的解決物件。</td> 
-   <td>✓ (A) </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td><strong>解決問題</strong>：顯示有關已手動指定為問題的解決物件的解決問題的資訊。</td> 
-   <td> ✓ (A)</td> 
+   <td> ✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 

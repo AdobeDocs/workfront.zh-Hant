@@ -1,13 +1,13 @@
 ---
 navigation-topic: use-the-gantt-chart
 title: 將甘特圖匯出至PDF
-description: 您可以將甘特圖匯出至PDF。 將甘特圖匯出為PDF後，您可以列印或附加至電子郵件，以與其他使用者共用。
+description: 您可以將甘特圖匯出至PDF。 將甘特圖匯出至PDF後，您可以列印或附加至電子郵件，以便與其他使用者共用。
 author: Alina
 feature: Work Management
 exl-id: 91aad9e0-25c9-4eae-aa66-8aab763d3b76
-source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1049'
 ht-degree: 1%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >如果您從專案清單匯出[!UICONTROL 甘特圖]，則PDF檔案僅包含清單中的專案，而不包含每個專案上的任務。 如果要匯出任務清單，可以從與其關聯的專案中匯出，也可以建立任務報告並在[!UICONTROL 甘特圖]中顯示報告結果。
+   >如果您從專案清單匯出[!UICONTROL 甘特圖]，PDF檔案將僅包含清單中的專案，而不包含每個專案上的任務。 如果要匯出任務清單，可以從與其關聯的專案中匯出，也可以建立任務報告並在[!UICONTROL 甘特圖]中顯示報告結果。
 
    設定下列任一資訊：
 
@@ -75,7 +75,7 @@ ht-degree: 1%
 
    * 選取&#x200B;**切換至預計日期**&#x200B;選項以檢視預計日期而非計畫日期。 依預設，會顯示計畫日期。
 
-   * 按一下甘特圖右上角的&#x200B;**設定**&#x200B;圖示![](assets/settings-icon.png)，並選取您想在甘特圖中檢視哪些資訊。 選取之後，此資訊會包含在匯出的甘特PDF檔案中。
+   * 按一下甘特圖右上角的&#x200B;**設定**&#x200B;圖示![設定圖示](assets/settings-icon.png)，並選取您想在甘特圖中檢視哪些資訊。 選取後，此資訊會包含在匯出的甘特PDF檔案中。
 
      從下列選項中選取：
 
@@ -103,13 +103,13 @@ ht-degree: 1%
 
      期間在匯出檔案中的顯示方式取決於您選取了&#x200B;**[!UICONTROL 我看到的內容]**&#x200B;或在後續步驟中選取了&#x200B;**[!UICONTROL 多頁]**。
 
-1. （選擇性）若要在匯出的PDF中僅包含某些工作，請選取您要包含的工作。
+1. （可選）若只要在匯出的PDF中包含某些工作，請選取您要包含的工作。
 
    如果您未選取任何任務，則所有任務都會包含在匯出的PDF中。
 
    例如，如果您正在檢視包含50個任務的專案的[!UICONTROL 甘特圖]，但您只想在匯出的[!UICONTROL 甘特圖]上顯示10個任務，請選取您要顯示的10個任務。
 
-1. 按一下甘特圖右上角的印表機圖示![](assets/printer-icon.png)。
+1. 按一下甘特圖右上角的印表機圖示![印表機圖示](assets/printer-icon.png)。
 顯示**[!UICONTROL 匯出至PDF]**&#x200B;對話方塊。
 
    ![exported_gantt_UI.png](assets/exported-gantt-ui-350x225.png)
@@ -140,7 +140,7 @@ ht-degree: 1%
      >   * 當它包含超過500個專案
 
 
-1. 如果PDF在匯出為PDF後才會列印，請在&#x200B;**[!UICONTROL 頁面大小]**下拉式功能表中，選取您要列印的紙張大小。
+1. 如果PDF在匯出到PDF之後會列印，請在&#x200B;**[!UICONTROL 頁面大小]**下拉式功能表中，選取您要列印的紙張大小。
 您可選取下列選項：
 
    * **[!UICONTROL 字母]**
@@ -150,7 +150,7 @@ ht-degree: 1%
    * **[!UICONTROL A2]**
    * **[!UICONTROL A3]** （僅適用於某些語言）
    * **[!UICONTROL A4]**
-1. 在&#x200B;**[!UICONTROL 頁面方向]**&#x200B;區段中，選取您要以橫向或縱向匯出PDF。
+1. 在&#x200B;**[!UICONTROL 頁面方向]**&#x200B;區段中，選取您要橫向或縱向匯出PDF。
 1. 若要在匯出的PDF中包含圖例，請選取&#x200B;**[!UICONTROL 顯示圖例]**。
 1. 按一下&#x200B;**[!UICONTROL 匯出]**。
 

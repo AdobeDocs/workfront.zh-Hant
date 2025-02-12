@@ -6,9 +6,9 @@ description: 您不在辦公室時，可以暫時委派指派給您的工作。 
 author: Alina
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: 9d0caff0381ee50bf8dd7060bebafb5354c0f0d8
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1518'
+source-wordcount: '1547'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 
 1. 按一下&#x200B;[!UICONTROL **我的工作**]、[!UICONTROL **我的任務**]&#x200B;或&#x200B;[!UICONTROL **我的問題**] Widget左上角的&#x200B;[!UICONTROL **代理人**]。
 
-   ![](assets/delegate-button-on-my-work-widget.png)
+   ![委派按鈕](assets/delegate-button-on-my-work-widget.png)
 
 1. 更新下列專案：
 
@@ -133,7 +133,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
      >
      >如果您將「結束日期」欄位保留空白，而未選取「無結束日期」選項，則委派僅會針對當天設定。
 
-     ![](assets/delegate-box-expanded-in-home.png)
+     ![已展開委派方塊](assets/delegate-box-expanded-in-home.png)
      <!--check screen shot - submitted bug for casing-->
 
 1. 按一下「[!UICONTROL **儲存**]」。
@@ -158,7 +158,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
       </MadCap:conditionalText>
       -->
 
-     ![](assets/edit-delegation-button-on-my-work-widget.png)
+     ![編輯委派按鈕](assets/edit-delegation-button-on-my-work-widget.png)
 
    * 如果已啟用事件通知和個人通知，您也會收到委派電子郵件確認。
 
@@ -179,7 +179,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
    >
    >    如果委派已開始，則只能編輯委派的「結束」日期。
 
-   ![](assets/stop-delegation-box-new-home-tasks-and-issues.png)
+   ![停止委派按鈕](assets/stop-delegation-box-new-home-tasks-and-issues.png)
 
 1. （視條件而定）按一下&#x200B;[!UICONTROL **儲存**]&#x200B;以儲存新的委派日期
 
@@ -213,11 +213,11 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 
   任務或問題標題中的[!UICONTROL 指派]欄位變更為[!UICONTROL 指派和委派]。
 
-  ![](assets/assignments-and-delegates-panel-in-task-header.png)
+  ![任務標題中的指派和委派面板](assets/assignments-and-delegates-panel-in-task-header.png)
 
 * 手動指派任務或問題時的[!UICONTROL 工作負載平衡器]
 
-  ![](assets/assignments-and-delegates-panel-in-workload-balancer.png)
+  在平衡器中![指派和委派面板](assets/assignments-and-delegates-panel-in-workload-balancer.png)
 
 >[!NOTE]
 >
@@ -240,7 +240,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
    * [!UICONTROL **已委派給我**]：檢視其他使用者委派給您的任務和問題。
    * [!UICONTROL **由我委派**]：檢視您委派給其他使用者的任務和問題。
 
-     ![](assets/delegated-tasks-and-issues-new-home-filter.png)
+     ![委派的任務和問題篩選器](assets/delegated-tasks-and-issues-new-home-filter.png)
 
 1. （選擇性）按一下&#x200B;[!UICONTROL **排序**]&#x200B;下拉式功能表，依下列條件排序清單：
    * [!UICONTROL 到期日期]。 這是預設的排序選項。

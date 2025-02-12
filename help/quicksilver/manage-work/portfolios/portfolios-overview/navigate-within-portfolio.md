@@ -6,9 +6,9 @@ description: 在投資組合中導覽
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '608'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[！UICONTROL Edit]專案和Portfolio的存取權</p>  </td> 
+   <td> <p>[！UICONTROL Edit]專案與投資組合的存取權</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
@@ -60,16 +60,16 @@ ht-degree: 0%
 
 ## 在投資組合中導覽
 
-1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)。
+1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](assets/main-menu-icon.png)。
 
-1. 按一下[!UICONTROL Portfolio]。
+1. 按一下[!UICONTROL 投資組合]。
 1. 從&#x200B;**[!UICONTROL 篩選器]**&#x200B;下拉式功能表中，選取下列專案：
 
-   * **[!UICONTROL 我擁有的Portfolio]**：包含您被指定為[!UICONTROL Portfolio管理員]的投資組合清單。
+   * **[!UICONTROL 我擁有的投資組合]**：包含您指定為[!UICONTROL Portfolio經理]的投資組合清單。
    * **[!UICONTROL 全部]**：包含您至少擁有檢視許可權的所有投資組合。
 
-     如需有關存取Portfolio的詳細資訊，請參閱[存取層級概觀](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)。
-如需Portfolio許可權的詳細資訊，請參閱[共用投資組合](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md)。
+     如需有關存取投資組合的詳細資訊，請參閱[存取層級概觀](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)。
+如需有關投資組合許可權的詳細資訊，請參閱[共用投資組合](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md)。
 
      若要新增投資組合，請參閱[建立投資組合](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)。
 
@@ -107,19 +107,19 @@ ht-degree: 0%
 
 1. （選擇性）展開左側面板中的&#x200B;**[!UICONTROL Portfolio詳細資料]**&#x200B;區域，然後按一下&#x200B;**[!UICONTROL 總覽]**&#x200B;或&#x200B;**[!UICONTROL 自訂Forms]**&#x200B;以編輯投資組合的相關資訊。
 
-1. （選擇性）按一下左側面板中的&#x200B;**[!UICONTROL Portfolio最佳化]**，以最佳化投資組合的效能。
+1. （選擇性）按一下左側面板中的&#x200B;**[!UICONTROL Portfolio最佳化]**，以最佳化產品組合的效能。
 
-   ![](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
+   ![Portfolio optimizer與專案](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
 
    >[!IMPORTANT]
    >
-   >您的公司必須有[!UICONTROL 企業]或以上[!DNL Workfront]計畫，才能存取[!UICONTROL Portfolio最佳化工具]。
+   >貴公司必須有[!UICONTROL 企業]或以上[!DNL Workfront]計畫，才能存取[!UICONTROL Portfolio Optimizer]。
 
-   如需有關使用Portfolio最佳化程式的資訊，請參閱Portfolio最佳化程式](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)中的[管理專案。
+   如需使用Portfolio Optimizer的相關資訊，請參閱[在Portfolio Optimizer中管理專案](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)區段。
 
 1. （選擇性）按一下左側面板中的&#x200B;**檔案**，將檔案附加至投資組合。
 1. （選擇性）按一下左側面板中的&#x200B;**[!UICONTROL 更新]**，將註解新增至投資組合的更新資料流。 如需詳細資訊，請參閱[更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
-1. （選擇性）按一下&#x200B;**[!UICONTROL 更多]功能表** ![](assets/qs-more-icon-on-an-object.png)以執行下列其中一項作業：
+1. （選擇性）按一下&#x200B;**[!UICONTROL 更多]功能表** ![更多功能表](assets/qs-more-icon-on-an-object.png)以執行下列其中一項作業：
 
    * 停用投資組合。 停用投資組合時，您無法再將其與專案層級的專案建立關聯。
    * 刪除投資組合。
@@ -130,4 +130,4 @@ ht-degree: 0%
 
    * 與其他使用者共用投資組合。
 
-1. （選擇性）按一下投資組合名稱右側的&#x200B;**星號**&#x200B;圖示![](assets/qs-star-icon-favorites-39x38.png)，以將投資組合新增到您的最愛清單。
+1. （選擇性）按一下投資組合名稱右側的&#x200B;**星形**&#x200B;圖示![星形圖示](assets/qs-star-icon-favorites-39x38.png)，以將投資組合新增至您的最愛清單。

@@ -6,9 +6,9 @@ description: 您可以定義問題的優先順序，以指出問題的重要性�
 author: Alina
 feature: Work Management
 exl-id: eff5c9e8-1908-4654-9629-e20c0ce2a225
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '371'
 ht-degree: 3%
 
 ---
@@ -80,7 +80,7 @@ Adobe Workfront管理員可以在Workfront中修改優先順序標籤，也可�
    <td> 1 </td> 
   </tr> 
   <tr> 
-   <td> 標準 </td> 
+   <td> 正常 </td> 
    <td> 2 </td> 
   </tr> 
   <tr> 
@@ -103,7 +103,7 @@ Adobe Workfront管理員可以在Workfront中修改優先順序標籤，也可�
 
 1. 按一下&#x200B;**基本資訊**&#x200B;區域中的&#x200B;**優先順序**&#x200B;欄位。
 
-   ![](assets/nwe-issue-priority-field-in-details-highlighted-350x126.png)
+   ![問題優先順序](assets/nwe-issue-priority-field-in-details-highlighted-350x126.png)
 
 1. 選取&#x200B;**優先順序**&#x200B;欄位的值。
 

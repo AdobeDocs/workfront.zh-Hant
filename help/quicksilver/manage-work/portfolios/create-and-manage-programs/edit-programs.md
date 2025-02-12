@@ -6,9 +6,9 @@ description: 您可以編輯已建立或其他使用者已建立之程式的資�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '1034'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 0%
    >
    >如果您想要編輯有關計畫的所有資訊，請前往步驟4。
 
-   ![](assets/program-details-with-a-custom-form-section-nwe-350x137.png)
+   ![含有自訂表單區段的程式詳細資料](assets/program-details-with-a-custom-form-section-nwe-350x137.png)
 
    >[!NOTE]
    >
@@ -81,30 +81,30 @@ ht-degree: 0%
    若要編輯[!UICONTROL 詳細資料]區段中的資訊，請執行下列動作：
 
    1. （選擇性）按一下右上角的&#x200B;**[!UICONTROL 全部收合]**&#x200B;圖示以收合所有區域。
-   1. （選擇性和條件性）當區域摺疊時，按一下每個區域旁的&#x200B;**向右箭頭** ![](assets/right-pointing-arrow.png)以展開您要編輯的區域。
+   1. （選擇性和條件性）當區域收合時，按一下每個區域旁的&#x200B;**向右箭頭** ![向右箭頭](assets/right-pointing-arrow.png)以展開您要編輯的區域。
    1. 如需[!UICONTROL 程式詳細資料]區段中可見欄位的相關資訊，請繼續編輯[!UICONTROL 編輯程式]方塊中的程式，如下所述。
    1. （選擇性）如果沒有自訂表單附加到程式，請在&#x200B;**[!UICONTROL 新增自訂表單]**&#x200B;欄位中開始輸入表單的名稱，在清單中顯示時選取它，然後按一下&#x200B;**[!UICONTROL 儲存變更]**。
-   1. （選擇性）按一下&#x200B;**[!UICONTROL 匯出]**&#x200B;圖示![](assets/export.png)，將[!UICONTROL 概述]和自訂表單資訊匯出至PDF檔案，然後按一下&#x200B;**[!UICONTROL 匯出]**。 從下列選項中選取：
+   1. （選擇性）按一下&#x200B;**[!UICONTROL 匯出]**&#x200B;圖示![匯出圖示](assets/export.png)將[!UICONTROL 概述]和自訂表單資訊匯出至PDF檔案，然後按一下&#x200B;**[!UICONTROL 匯出]**。 從下列選項中選取：
 
       * 全選（至少附加一個自訂表單時顯示）
       * [!UICONTROL 總覽]
       * 一或多個自訂表單的名稱
 
-      PDF檔案會下載到您的電腦。
+      PDF檔案會下載至您的電腦。
 
-      ![](assets/export-portfolio-details-box-with-export-button-350x368.png)
+      ![匯出投資組合詳細資料](assets/export-portfolio-details-box-with-export-button-350x368.png)
 
       如需詳細資訊，請參閱[匯出自訂表單和物件詳細資料](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md)。
 
 
 1. 若要編輯一或多個程式的所有資訊，請執行下列其中一個動作：
 
-   * 按一下程式名稱旁的&#x200B;**[!UICONTROL 更多]**&#x200B;功能表![](assets/more-icon.png)，然後&#x200B;**[!UICONTROL 編輯]。**
-   * 前往程式清單，並選取一或多個要編輯的程式，然後按一下清單頂端的&#x200B;**[!UICONTROL 編輯]**&#x200B;圖示![](assets/edit-icon.png)。
+   * 按一下程式名稱旁的&#x200B;**[!UICONTROL 更多]**&#x200B;功能表![更多](assets/more-icon.png)，然後&#x200B;**[!UICONTROL 編輯]。**
+   * 前往程式清單，並選取您要編輯的一或多個程式，然後按一下清單頂端的&#x200B;**[!UICONTROL 編輯]**&#x200B;圖示![編輯圖示](assets/edit-icon.png)。
 
    **[!UICONTROL 編輯程式]**&#x200B;對話方塊隨即顯示。
 
-   ![](assets/edit-program-box-nwe-350x236.png)
+   ![編輯程式方塊](assets/edit-program-box-nwe-350x236.png)
 
    所有程式欄位都可在[!UICONTROL 編輯程式]方塊中使用，並按左側面板中列出的區域分組。
 
@@ -140,7 +140,7 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader">[！UICONTROL說明]</td> 
-      <td> <p>輸入Portfolio的說明以指示其獨特性。 </p> </td> 
+      <td> <p>輸入Portfolio的說明以指出其獨特性。 </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[！UICONTROL計畫管理員]</td> 
@@ -177,7 +177,7 @@ ht-degree: 0%
 1. 如上所述開始編輯方案。
 1. 按一下&#x200B;**[!UICONTROL 註解]**。
 
-   ![](assets/comment-box-in-program-edit-box-classic-350x195.png)
+   編輯程式方塊中的![註解方塊](assets/comment-box-in-program-edit-box-classic-350x195.png)
 
 1. 在&#x200B;**[!UICONTROL 發佈更新到程式]**&#x200B;欄位中新增註解。
 1. （選用）按一下&#x200B;**[!UICONTROL 人員]**&#x200B;圖示以新增使用者或團隊至註解。

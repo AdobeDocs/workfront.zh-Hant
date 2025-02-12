@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '2523'
+source-wordcount: '2551'
 ht-degree: 2%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 2%
 </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>Contribute對問題的許可權，以便編輯詳細資訊區域中的以下欄位： </p>
+   <td> <p>為問題貢獻許可權，以編輯詳細資訊區域中的以下欄位： </p>
    <ul>
    <li>說明</li>
    <li>狀態</li>
@@ -74,7 +74,7 @@ ht-degree: 2%
 1. （選擇性）按一下&#x200B;**工作**，然後按一下工作的名稱以開啟工作。
 1. 按一下左側面板中的&#x200B;**問題**。
 
-   ![](assets/qs-issues-icon-highlighted-on-project-350x278.png)
+   ![問題圖示](assets/qs-issues-icon-highlighted-on-project-350x278.png)
 
 1. （選擇性）若要編輯問題的有限資訊，請按一下左側面板中的&#x200B;**問題詳細資訊**。
 
@@ -85,17 +85,17 @@ ht-degree: 2%
    若要編輯「詳細資訊」段落中的資訊，請執行下列動作：
 
    1. （選擇性）按一下右上角的&#x200B;**全部收合**&#x200B;圖示以收合所有區域。
-   1. （選擇性和條件性）當區域摺疊時，按一下每個區域旁的&#x200B;**向右箭頭** ![](assets/right-pointing-arrow.png)以展開您要編輯的區域。
+   1. （選擇性和條件性）當區域收合時，按一下每個區域旁的&#x200B;**向右箭頭** ![向右箭頭](assets/right-pointing-arrow.png)，展開您要編輯的區域。
    1. （選擇性）若要附加自訂表單，請在&#x200B;**新增自訂表單**&#x200B;欄位中開始輸入表單的名稱，然後在清單中顯示時選取它，然後按一下&#x200B;**儲存變更**。
-   1. （選擇性）按一下&#x200B;**匯出**&#x200B;圖示![](assets/export.png)，將概述和自訂表單資訊匯出至PDF檔案，然後按一下&#x200B;**匯出**。 從下列選項中選取：
+   1. （選擇性）按一下&#x200B;**匯出**&#x200B;圖示![匯出圖示](assets/export.png)，將概述和自訂表單資訊匯出至PDF檔案，然後按一下&#x200B;**匯出**。 從下列選項中選取：
 
       * 全選（至少附加一個自訂表單時顯示）
       * 概觀
       * 一或多個自訂表單的名稱
 
-      PDF檔案會下載到您的電腦。
+      PDF檔案會下載至您的電腦。
 
-      ![](assets/export-issue-details-selection-box-with-export-button-350x418.png)
+      ![匯出問題詳細資料](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
       如需詳細資訊，請參閱[匯出自訂表單和物件詳細資料](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md)。
 
@@ -134,7 +134,7 @@ ht-degree: 2%
 1. 如上所述開始編輯問題。
 1. 按一下&#x200B;**問題名稱**。
 
-   ![](assets/issue-name-section-edit-issue-box-nwe-350x127.png)
+   ![問題名稱區段](assets/issue-name-section-edit-issue-box-nwe-350x127.png)
 
 1. 更新&#x200B;**問題名稱**&#x200B;欄位。
 1. 按一下&#x200B;**儲存**&#x200B;或繼續編輯下列區段。
@@ -144,7 +144,7 @@ ht-degree: 2%
 1. 如上所述開始編輯問題。
 1. 按一下&#x200B;**概觀**。
 
-   ![](assets/overview-section-edit-issue-box-nwe-350x284.png)
+   ![問題總覽區段](assets/overview-section-edit-issue-box-nwe-350x284.png)
 
 1. 更新或檢閱下表中的任何欄位：
 
@@ -164,7 +164,7 @@ ht-degree: 2%
       <td> <p>選取問題的狀態。 如需問題狀態的詳細資訊，請參閱<a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">存取系統問題狀態清單</a>。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">優先等級</td> 
+      <td role="rowheader">優先順序</td> 
       <td> <p>這是視覺化標幟，可讓您排定問題的優先順序。</p> <p>從下列選項中選取：</p> 
        <ul> 
         <li> <p><strong>無</strong> </p> </li> 
@@ -271,7 +271,7 @@ ht-degree: 2%
 1. 如上所述開始編輯問題。
 1. 按一下左側面板中的&#x200B;**工作**。
 
-   ![](assets/assignments-section-edit-issue-box-nwe-350x230.png)
+   ![問題指派區段](assets/assignments-section-edit-issue-box-nwe-350x230.png)
 
 1. 按一下&#x200B;**搜尋人員、角色和團隊**，然後開始輸入您要指派給工作的使用者、角色或團隊的名稱，然後按一下它，或當它顯示在清單上時按下Enter鍵。
 
@@ -322,7 +322,7 @@ ht-degree: 2%
 1. 如上所述開始編輯問題。
 1. 按一下&#x200B;**自訂Forms**。
 
-   ![](assets/custom-forms-section-edit-issue-box-nwe-350x132.png)
+   ![問題自訂表格區段](assets/custom-forms-section-edit-issue-box-nwe-350x132.png)
 
 1. 在&#x200B;**新增自訂表單**&#x200B;欄位中，選取您要與問題相關聯的一或多個自訂表單。 您必須先建置自訂表單，才能在此欄位中選取它們。 清單中只會顯示作用中的自訂表單。 如需建立自訂表單的詳細資訊，請參閱[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。 您可以新增最多10個自訂表單至問題。
 
@@ -339,7 +339,7 @@ ht-degree: 2%
 1. 如上所述開始編輯問題。
 1. 按一下&#x200B;**設定**。
 
-   ![](assets/settings-section-edit-issue-box-nwe-350x240.png)
+   ![問題設定圖示](assets/settings-section-edit-issue-box-nwe-350x240.png)
 
    更新下列資訊：
 
@@ -383,7 +383,7 @@ ht-degree: 2%
 
 您的系統或群組管理員可以自訂您在問題標題中看到的欄位。 如需詳細資訊，請參閱[使用配置範本自訂物件標頭](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)。
 
-![](assets/issue-header-350x19.png)
+![問題標題](assets/issue-header-350x19.png)
 
 依預設，問題標題中包含下列欄位：
 

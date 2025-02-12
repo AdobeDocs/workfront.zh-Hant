@@ -6,9 +6,9 @@ description: 您可以檢視與專案、任務或反複專案關聯的問題。
 author: Alina
 feature: Work Management
 exl-id: b6791c8f-b356-4235-8b0e-952e29a88952
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1038'
 ht-degree: 0%
 
 ---
@@ -142,7 +142,7 @@ ht-degree: 0%
 
 若要新增顯示專案在專案報告中是否有問題的圖示：
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)。
+1. 按一下Adobe Workfront右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)。
 1. 按一下&#x200B;**報告** > **新報告** > **專案報告**。
 1. 在&#x200B;**顯示在此欄**&#x200B;欄位中，開始輸入&#x200B;**狀態圖示**，然後當它出現在清單中時選取它。
 

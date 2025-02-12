@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: 830ad0411084844ace1e1e543c3ebefcb558af80
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1412'
+source-wordcount: '1419'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>管理問題的許可權</p> <p> 指派一個問題時，檢視問題所在專案或任務的許可權或更高</p><p>指派多個問題時，對問題所在專案或任務使用Contribute或更高的許可權。</p> </td> 
+   <td> <p>管理問題的許可權</p> <p> 指派一個問題時，檢視問題所在專案或任務的許可權或更高</p><p>指派多個問題時，為問題所在的專案或任務貢獻許可權或以上。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -166,7 +166,7 @@ ht-degree: 0%
 
    * 在&#x200B;**指派給**&#x200B;或&#x200B;**已指派**&#x200B;欄位內按一下，並開始輸入您要指派給問題的作用中使用者名稱，然後當它顯示在清單中時按一下它。
 
-     ![](assets/assigned-to-field-task-list-nwe.png)
+     ![已指派給欄位](assets/assigned-to-field-task-list-nwe.png)
 
    * 按一下&#x200B;**指派**&#x200B;欄位並開始輸入您想要指派給問題的作用中使用者、工作角色或作用中團隊的名稱，然後當它顯示在清單中時按一下它。
 
@@ -181,7 +181,7 @@ ht-degree: 0%
    >您必須在存取層級中啟用檢視聯絡資訊設定，使用者才能檢視使用者的電子郵件。 如需詳細資訊，請參閱[授予使用者存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)。
 
 
-1. （視條件而定）在「工作總攬」欄位中顯示時，按一下工作總攬方塊右上角的&#x200B;**人員圖示** ![](assets/teams.png)，以開啟「進階工作總攬」方塊並建立進階工作總攬。 如需詳細資訊，請參閱[建立進階工作分派](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)。
+1. （視條件而定）在「工作總攬」欄位中顯示時，按一下工作總攬方塊右上角的&#x200B;**人員圖示** ![人員圖示](assets/teams.png)，以開啟「進階工作總攬」方塊並建立進階工作總攬。 如需詳細資訊，請參閱[建立進階工作分派](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)。
 
    >[!TIP]
    >
@@ -193,7 +193,7 @@ ht-degree: 0%
 
 1. 前往您要大量指派的問題清單。
 1. 在清單中選取數個問題。
-1. 按一下&#x200B;**編輯圖示** ![](assets/qs-edit-icon.png)。
+1. 按一下&#x200B;**編輯圖示** ![編輯圖示](assets/qs-edit-icon.png)。
 
    **編輯問題**&#x200B;對話方塊開啟。
 

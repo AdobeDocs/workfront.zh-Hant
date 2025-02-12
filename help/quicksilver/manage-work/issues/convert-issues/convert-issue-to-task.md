@@ -6,9 +6,9 @@ description: 如果在提交問題後必須完成更多工作，您可以將問�
 author: Alina
 feature: Work Management
 exl-id: 9d8e50ab-9fed-4ded-83e1-29dc92c37171
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1048'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>檢視問題的許可權</p> <p>專案的Contribute許可權</p> <p>您可在問題轉換後取得任務的管理許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>檢視問題的許可權</p> <p>貢獻專案的許可權</p> <p>您可在問題轉換後取得任務的管理許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -54,7 +54,7 @@ ht-degree: 0%
 1. 按一下您要轉換的問題，以移至問題的登陸頁面。
 1. 按一下問題上的&#x200B;[!UICONTROL **更多**]&#x200B;功能表，然後&#x200B;[!UICONTROL **轉換為任務**]。
 
-   ![](assets/qs-issue-more-menu-highlighted-350x469.png)
+   ![問題更多功能表](assets/qs-issue-more-menu-highlighted-350x469.png)
 
    >[!TIP]
    >
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 1. 更新[!UICONTROL 任務名稱]區段中的任務名稱。 依預設，任務的名稱將與原始問題的名稱相同。
 
-   ![](assets/convert-to-task-box-nwe.png)
+   ![轉換為工作方塊](assets/convert-to-task-box-nwe.png)
 
 1. 按一下&#x200B;[!UICONTROL **目的地專案**]，然後開始輸入您要在&#x200B;[!UICONTROL **目的地專案**]&#x200B;欄位中放置新任務的專案名稱，並在它顯示在清單中時選取它。 依預設，會選取問題的專案。
 

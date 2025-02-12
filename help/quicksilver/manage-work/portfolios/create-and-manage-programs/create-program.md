@@ -6,9 +6,9 @@ description: 方案代表共用跨專案界限的共同策略、目標或目標�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1228'
+source-wordcount: '1230'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 當您的產品組合變得太大時，您可以建立計畫來組織它們。
 
-例如，您可以有包含行銷部門所有專案的「行銷會計年度2024」Portfolio。 您可能會想要考慮進一步將專案組織到會計季度中，並在「2024年行銷會計年度」Portfolio中新增「2024年行銷會計季度1-4」方案。
+例如，您可以有包含您行銷部門所有專案的「行銷會計年度2024 Portfolio」。 您可能會想要考慮進一步將專案組織到會計季度中，並在2024年行銷會計年度Portfolio中新增2024年行銷會計季度1至4方案。
 
 ## 存取需求
 
@@ -45,7 +45,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[！UICONTROL Edit]對Portfolio和計畫的存取權 </p>  </td> 
+   <td> <p>[！UICONTROL Edit]對投資組合和計畫的存取權 </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
@@ -80,12 +80,12 @@ ht-degree: 0%
 
       1. 按一下主功能表中的&#x200B;**[!UICONTROL 程式]**。
       1. 按一下&#x200B;**[!UICONTROL 新增程式]**。
-      1. 在顯示的方塊中，在&#x200B;**[!UICONTROL 選取Portfolio]**&#x200B;欄位中輸入現有Portfolio的名稱。
+      1. 在顯示的方塊中，於&#x200B;**[!UICONTROL 選取Portfolio]**&#x200B;欄位中輸入現有Portfolio的名稱。
       1. 在&#x200B;**[!UICONTROL 名稱]**&#x200B;欄位中輸入新程式的名稱。
       1. 按一下「**[!UICONTROL 儲存]**」。
-   * 從[!UICONTROL Portfolio]區域建立方案：
+   * 從[!UICONTROL 投資組合]區域建立方案：
 
-      1. 按一下[!UICONTROL 主功能表]中的&#x200B;**[!UICONTROL Portfolio]**，然後開啟投資組合。
+      1. 按一下[!UICONTROL 主功能表]中的&#x200B;**[!UICONTROL 投資組合]**，然後開啟投資組合。
       1. 在左側面板中，按一下&#x200B;**[!UICONTROL 程式]**。
       1. 按一下&#x200B;**[!UICONTROL 新程式]**&#x200B;下拉式功能表，然後&#x200B;**[!UICONTROL 新程式]**。
 
@@ -146,7 +146,7 @@ ht-degree: 0%
    如需有關將專案新增至方案的資訊，請參閱[將專案新增至方案](../../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)。
 
 1. 按一下「**[!UICONTROL 儲存變更]**」。
-1. （選擇性）按一下程式名稱旁的&#x200B;**[!UICONTROL 更多功能表]** ![](assets/more-icon.png)，然後按一下&#x200B;**[!UICONTROL 停用程式]**。
+1. （選擇性）按一下程式名稱旁的&#x200B;**[!UICONTROL 更多功能表]** ![更多功能表](assets/more-icon.png)，然後按一下&#x200B;**[!UICONTROL 停用程式]**。
 
    停用方案時，當使用者嘗試將方案新增到專案時，方案不再顯示在方案清單中。 您仍然可以從[!UICONTROL 程式]區域存取程式。
 

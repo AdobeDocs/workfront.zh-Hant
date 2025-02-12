@@ -6,9 +6,9 @@ description: 修改清單中多個問題的使用者指派
 author: Alina
 feature: Work Management
 exl-id: e1e75027-1847-44cf-afeb-b19394dc3ea5
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '751'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->您必須至少擁有Contribute許可權才能指派問題。
+>您必須至少擁有問題的「貢獻者」許可權，才能為問題指派作業。
 
 ## 存取需求
 
@@ -54,7 +54,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>管理問題的許可權</p> <p>指派多個問題時，對問題所在專案或任務使用Contribute或更高的許可權。</p>  </td> 
+   <td> <p>管理問題的許可權</p> <p>指派多個問題時，為問題所在的專案或任務貢獻許可權或以上。</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -102,13 +102,13 @@ ht-degree: 1%
    1. 開始輸入您要篩選的使用者或角色名稱，然後按一下該名稱（當它出現在下拉式清單中時）。
    1. 按一下&#x200B;**儲存篩選器。**
 
-1. 選取您要修改指派的問題，然後按一下&#x200B;**編輯**&#x200B;圖示![](assets/qs-edit-icon.png)。
+1. 選取您要修改指派的問題，然後按一下&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/qs-edit-icon.png)。
 
    **編輯問題**&#x200B;隨即顯示。 已編輯的專案會顯示在頁面的左上角。
 
 1. 移至&#x200B;**工作分派**&#x200B;區段，然後選取&#x200B;**受指派人**。
 
-   ![](assets/classic-assignmens-area-on-edit-box-350x119.png)
+   ![工作分派區域](assets/classic-assignmens-area-on-edit-box-350x119.png)
 
 1. 執行下列其中一項：
 

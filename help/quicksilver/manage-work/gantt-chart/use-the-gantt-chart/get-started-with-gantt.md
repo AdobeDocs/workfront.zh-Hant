@@ -6,9 +6,9 @@ description: Adobe Workfront中的甘特圖提供任務或專案清單時間表�
 author: Alina
 feature: Work Management
 exl-id: 96c4e254-ebbe-41d8-a178-7a79ac0abbbd
-source-git-commit: 30eb12a4155b218b001b4d235229fbb0fbe40a45
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '538'
 ht-degree: 1%
 
 ---
@@ -69,9 +69,9 @@ Adobe Workfront中的甘特圖提供任務或專案清單時間表的視覺化�
    * 任務或範本任務，然後按一下左側面板中的&#x200B;[!UICONTROL **子任務**]。
    * 任務報告
 
-1. 按一下工作清單頂端的&#x200B;[!UICONTROL **甘特圖**]&#x200B;圖示![](assets/gantt-icon-nwe.png)。
+1. 按一下工作清單頂端的&#x200B;[!UICONTROL **甘特圖**]&#x200B;圖示![甘特圖示](assets/gantt-icon-nwe.png)。
 
-   ![](assets/task-list-gantt.png)
+   ![工作清單甘特圖](assets/task-list-gantt.png)
 
    工作清單[!UICONTROL 甘特圖]會在工作清單右側開啟。
 
@@ -114,7 +114,7 @@ Adobe Workfront中的甘特圖提供任務或專案清單時間表的視覺化�
 
 1. 按一下專案清單頂端的&#x200B;[!UICONTROL **甘特圖**]&#x200B;圖示。
 
-   ![](assets/project-list-gantt.png)
+   ![專案清單甘特圖](assets/project-list-gantt.png)
 
    專案清單[!UICONTROL 甘特圖]開啟。
 

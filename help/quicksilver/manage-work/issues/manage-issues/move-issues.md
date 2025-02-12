@@ -6,9 +6,9 @@ description: 您可以在專案與任務之間移動問題。
 author: Alina
 feature: Work Management
 exl-id: 8ab9be3e-0412-43d9-ad1e-75c43613fa82
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '887'
 ht-degree: 1%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>管理問題的許可權</p> <p>Contribute對您移動問題的專案的許可權，以及新增問題的功能。</td> 
+   <td> <p>管理問題的許可權</p> <p>貢獻許可權給您要移動問題的專案，並具有「新增問題」的功能。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -91,7 +91,7 @@ ht-degree: 1%
 1. 如果您選擇前往專案，請按一下左側面板中的&#x200B;**問題**。
 1. 選取您要移動的一個或多個問題，並按一下問題清單頂端的&#x200B;**更多功能表**，然後按一下&#x200B;**移至**。
 
-   ![](assets/copy-and-move-to-links-for-issue-in-a-list-nwe-350x119.png)
+   ![複製並移至連結](assets/copy-and-move-to-links-for-issue-in-a-list-nwe-350x119.png)
 
 1. 繼續移動問題，如從步驟2開始的[移動單一問題](#move-a-single-issue)一節中所述。
 
@@ -101,13 +101,13 @@ ht-degree: 1%
 
 ### 移動單一問題
 
-1. 移至您要移動的問題，按一下問題名稱右側的&#x200B;**更多**&#x200B;功能表![](assets/more-icon.png)，然後按一下&#x200B;**移至**。
+1. 移至您要移動的問題，按一下問題名稱右側的&#x200B;**更多**&#x200B;功能表![更多](assets/more-icon.png)，然後按一下&#x200B;**移至**。
 
-   ![](assets/nwe-move-at-issue-level-highlighted-350x579.png)
+   ![在問題層級移動](assets/nwe-move-at-issue-level-highlighted-350x579.png)
 
    顯示&#x200B;**移動問題**&#x200B;方塊。
 
-   ![](assets/move-issue-box-nwe-350x280.png)
+   ![移動問題方塊](assets/move-issue-box-nwe-350x280.png)
 
 1. 在&#x200B;**選取目的地專案**&#x200B;區段中，指定您要移動問題的專案名稱。 預設會顯示目前專案的名稱。
 
@@ -118,7 +118,7 @@ ht-degree: 1%
 1. （視條件而定）如果您沒有將問題移至專案的存取權，請按一下&#x200B;**要求存取權**。
 1. （視條件而定）如果您有權將問題新增至目的地專案上的任務之一，請繼續移動所選目的地專案上的問題而不要求存取權。
 
-   ![](assets/move-issue-request-access-from-project-nwe-350x118.png)
+   ![移動問題和要求存取權](assets/move-issue-request-access-from-project-nwe-350x118.png)
 
    >[!TIP]
    >
