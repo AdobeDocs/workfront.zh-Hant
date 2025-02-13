@@ -2,20 +2,20 @@
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
 title: 安裝並開啟適用於XD的Adobe Workfront
-description: 您可以從Adobe市集安裝適用於XD的Adobe Workfront外掛程式。
+description: 您可以從Adobe Workfront Marketplace安裝適用於XD的Adobe外掛程式。
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: a5c4479833243bb5817196a3af8acaa063a16747
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '548'
 ht-degree: 1%
 
 ---
 
 # 安裝並開啟[!DNL Adobe Workfront for XD]
 
-您可以從Adobe市集安裝[!DNL Adobe Workfront for XD]外掛程式。 外掛程式支援下列語言：
+您可以從Adobe Marketplace安裝[!DNL Adobe Workfront for XD]外掛程式。 外掛程式支援下列語言：
 
 * 英文
 * 法文
@@ -91,7 +91,7 @@ ht-degree: 1%
 
 ![XD外掛程式視窗](assets/xd-plugin-window-350x620.png)
 
-1. 在&#x200B;**[!UICONTROL 外掛程式面板]**&#x200B;中，找到&#x200B;**[!UICONTROL 適用於XD]**&#x200B;的Adobe Workfront。
+1. 在&#x200B;**[!UICONTROL 外掛程式面板]**&#x200B;中，找到&#x200B;**[!UICONTROL 適用於XD的Adobe Workfront]**。
 
 1. 請繼續參閱下節，瞭解如何登入外掛程式的詳細資訊。
 
@@ -105,7 +105,7 @@ ht-degree: 1%
    >* 若要尋找您的網域，請開啟瀏覽器、導覽至您的[!DNL Workfront]執行個體，並複製URL的第一個部分：\
    >![尋找網域](assets/domain-350x50.png)
    >
-   > * 如果您的Workfront執行個體已與Experience Cloud整合，請要求您的管理員提供您Admin Console中「產品> Workfront」底下的Workfront網域。
+   > * 如果您的Workfront執行個體已與Experience Cloud整合，請要求您的管理員為您提供Admin Console中「產品> Workfront」底下的Workfront網域。
 
 1. 在瀏覽器中輸入您的[!DNL Workfront]認證，然後按一下&#x200B;**[!DNL Log in]**。 如果貴公司使用單一登入(SSO)，系統會將您導向至SSO提供者的頁面以登入。
 
@@ -122,4 +122,20 @@ ht-degree: 1%
 
 1. 按一下&#x200B;**[!UICONTROL 允許存取]**&#x200B;以完成登入，然後返回[!DNL Adobe XD]檢視您的工作。
 
- 
+### 疑難排解登入錯誤
+
+**嘗試登入**&#x200B;時顯示「發生錯誤」錯誤
+
+
+您無法使用以`experience.adobe.com`開頭的URL登入外掛程式。
+
+![登入錯誤](assets/plugin-log-in-error.png) ![網域](assets/incorrect-domain.png)
+
+
+若要修正此問題，
+
+1. 解除安裝並重新安裝Adobe Workfront for XD外掛程式，以清除網域和錯誤。
+
+1. 輸入您的Workfront網域。 網域必須是`company-name.my.workfront.com`而非`experience.adobe.com`。
+
+如果您在Adobe Unified Experience，若要尋找您的Workfront網域，請前往

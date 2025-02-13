@@ -6,9 +6,9 @@ description: 您可以從檔案區域預覽檔案。 這對於影像特別有用
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1e12003d-4ea6-4449-9536-05feca793c44
-source-git-commit: c644f283d56a4ef3f0e013d369e3161374673be5
+source-git-commit: f8ce7b64b117b709328be982339fd28ef4a741a7
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
@@ -54,8 +54,20 @@ ht-degree: 0%
 
 ## 預覽檔案
 
+您可以在Workfront中預覽檔案。
+
 1. 在檔案清單中，暫留在包含檔案的列上，然後按一下&#x200B;**檔案詳細資料**。
 1. 在出現的頁面上，按一下檔案的縮圖影像。
 
    * 如果您尚未準備要檢閱的檔案，則會顯示在新的瀏覽器標籤中。
    * 如果您已準備要檢閱的檔案，校樣檢視器會開啟並顯示該檔案。
+
+下列檔案格式無法在預覽視窗中顯示：
+
+* .mp4
+* .gif
+* .jpeg
+* .png
+* .tiff
+* .plain
+* .pdf
