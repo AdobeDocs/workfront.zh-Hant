@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: cf3b5d3f8e3a8a1922da757a41b4c5e0ee84e6fd
+source-git-commit: ddcefb0baf10df9ae9ac3b29d7da1e2a070101c8
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # 使用Adobe Workfront Planning時的授權型別概觀
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 如需Workfront Planning中物件的許可權相關資訊，請參閱[在Adobe Workfront Planning中共用許可權概觀](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
 
-如需有關存取Workfront Planning的資訊，請參閱[AdobePlanning存取總覽](/help/quicksilver/planning/access/access-overview.md)。
+如需有關存取Workfront Planning的資訊，請參閱[Adobe Planning存取總覽](/help/quicksilver/planning/access/access-overview.md)。
 
 ## Workfront授權型別與Workfront Planning許可權之間的關係
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 ### 授權型別和工作區許可權
 
-只有具有Standard授權的使用者才能擁有Contribute或管理工作區的許可權。 具有所有其他授權型別的使用者可以擁有與其共用之工作區的「檢視」許可權。
+只有具有Standard授權的使用者才能擁有工作區的「貢獻」或「管理」許可權。 具有所有其他授權型別的使用者可以擁有與其共用之工作區的「檢視」許可權。
 
 系統管理員可以檢視系統中的所有工作區，即使是他們未建立的工作區。
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 >
 >共用方塊中會顯示當使用者擁有較低層級的授權時，由於這些許可權層級變暗，因此無法授予他們參與或管理工作區的許可權。
 >
-><span class="preview">![](assets/permissions-grayed-out-for-contributor-user-on-workspace.png)</span>
+>![參與者使用者在工作區上的許可權顯示為灰色](assets/permissions-grayed-out-for-contributor-user-on-workspace.png)
 
 
 ### 授權型別和檢視許可權
@@ -87,4 +87,4 @@ ht-degree: 0%
 >
 >共用方塊中會顯示當使用者擁有較低層級的授權時，無法授予他們管理檢視的許可權，因為這些許可權層級會變暗。
 >
-><span class="preview">![](assets/permissions-grayed-out-for-light-user.png)</span>
+>![檢視共用](assets/permissions-grayed-out-for-light-user.png)上輕度使用者的許可權顯示為灰色

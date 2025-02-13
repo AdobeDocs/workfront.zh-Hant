@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: cf3b5d3f8e3a8a1922da757a41b4c5e0ee84e6fd
+source-git-commit: ddcefb0baf10df9ae9ac3b29d7da1e2a070101c8
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '809'
 ht-degree: 1%
 
 ---
@@ -69,9 +69,9 @@ This article describes how you can share a view with others. For information abo
  <tr> 
    <td role="rowheader"><p>Adobe Workfront平台</p></td> 
    <td> 
-<p>貴組織的Workfront例項必須加入Adobe統一體驗，才能存取Workfront規劃的所有功能。</p>
-<p>您的組織必須加入Adobe統一體驗，使用者才能透過許可權請求向工作區請求和授予許可權。 </p> 
-<p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront的Adobe統一體驗</a>。 </p> 
+<p>貴組織的Workfront例項必須上線至Adobe Unified Experience，才能存取Workfront Planning的所有功能。</p>
+<p>您的組織必須加入Adobe Unified Experience，使用者才能透過許可權請求向工作區請求和授予許可權。 </p> 
+<p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">適用於Workfront的Adobe Unified Experience</a>。 </p> 
    </td> 
    </tr> 
   </tr> 
@@ -175,15 +175,11 @@ OLD:
 
 1. 開啟您要共用的工作區，然後按一下畫面右上角的&#x200B;**共用**。
 
-   ![](assets/share-button-on-workspace-top-right.png)
+   工作區右上方的![共用按鈕](assets/share-button-on-workspace-top-right.png)
 
-1. 在&#x200B;**將工作區存取權授與**&#x200B;欄位中，開始輸入使用者、群組、<span class="preview">團隊、公司或工作角色的名稱</span>，然後當它顯示在清單中時按一下它。
+1. 在&#x200B;**授與此工作區的存取權**&#x200B;欄位中，開始輸入使用者、群組、<span class="preview">團隊、公司或工作角色的名稱</span>，然後當它顯示在清單中時按一下它。
 
-   <div class="preview">
-
-   ![](assets/sharing-ui-with-groups.png)
-
-   </div>
+   ![與群組共用UI](assets/sharing-ui-with-groups.png)
 
 1. 從下拉式功能表中選取下列其中一個許可權等級：
    * 檢視
@@ -202,20 +198,20 @@ OLD:
 1. （視條件而定）如果您是工作區的管理員，您可能會收到其他使用者存取下列區域檢視的請求：
 
    * 應用程式內通知
-     ![](assets/in-app-notification-for-access-request.png)
+     ![存取要求的應用程式內通知](assets/in-app-notification-for-access-request.png)
    * 電子郵件通知
-     ![](assets/email-notification-for-access-request.png)
+     ![存取要求的電子郵件通知](assets/email-notification-for-access-request.png)
 1. （視條件而定）從Workfront的通知區域，按一下應用程式內通知
 或
 在電子郵件通知中，按一下**檢視所有通知**，然後按一下清單中的通知。
 
    顯示&#x200B;**擱置中的存取要求**&#x200B;方塊。
 
-   ![](assets/notifications-list-approval-box.png)
+   ![通知清單核准方塊](assets/notifications-list-approval-box.png)
 
 1. （選擇性）對於您要核准其許可權的使用者，從使用者名稱右側的下拉式功能表中選取下列選項之一：
    * **檢視**
-   * **Contribute**
+   * **貢獻**
    * **管理**
 1. 選取您要核准或拒絕許可權的使用者，然後按一下&#x200B;**全部核准**&#x200B;或&#x200B;**全部拒絕**。
 1. 按一下&#x200B;**擱置存取要求**&#x200B;左側的向左箭頭，然後按一下&#x200B;**儲存**。

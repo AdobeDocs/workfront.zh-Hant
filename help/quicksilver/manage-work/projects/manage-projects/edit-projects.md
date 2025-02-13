@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 0a7bb953e7e02e24857bfb7ff671538e184bda17
+source-git-commit: ddcefb0baf10df9ae9ac3b29d7da1e2a070101c8
 workflow-type: tm+mt
-source-wordcount: '7694'
+source-wordcount: '7828'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 <!--Audited: 07/2024-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 <!--
 <p>***Linked to many articles,</p>
@@ -170,7 +170,7 @@ ht-degree: 1%
    * [問題設定](#issue-settings)
    * [存取](#access)
    * [連結的資料夾](#linked-folders-conditional-availability) （條件可用性）
-     <!--* <span class="preview">[Comment](#comment)</span>-->
+   * <span class="preview">[註解](#comment)</span>
 
 
    >[!NOTE]
@@ -684,22 +684,19 @@ ht-degree: 1%
 >
 >由於連結資料夾是在建立專案時建立的，因此編輯現有專案上的連結資料夾工作流程會無效。 在建立專案時按預期編輯這些值。
 
-<!--
 <div class="preview">
 
-### Comment
+### 評論
 
-1. Begin editing your project as described above.
-1. Click **Comment** in the left panel.
+1. 如上所述開始編輯您的專案。
+1. 按一下左側面板中的&#x200B;**註解**。
 
    ![project-comment-in-edit-project-box](assets/project-comment-in-edit-project-box.png)
 
-1. Add a comment in the space provided. Workfront adds the comment in the Updates area of the project. For more information about updating work, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. Click **Save**. 
+1. 在提供的空間新增註解。 Workfront會在專案的更新區域新增註解。 如需更新工作的詳細資訊，請參閱[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
+1. 按一下「**儲存**」。
 
 </div>
-
--->
 
 ## 在專案標題中編輯專案（受限）
 
@@ -824,7 +821,7 @@ ht-degree: 1%
 如需有關編輯問題設定區域的詳細資訊，請參閱本文中的[問題設定](#issue-settings)小節。
 1. 按一下&#x200B;**存取**以編輯所有選取專案的存取設定。
 如需有關編輯[存取]區域的詳細資訊，請參閱本文中的[存取](#access)一節。
-   <!--1. <span class="preview">Click **Comment**, then add a comment in the space provided. Workfront adds the comment in the **Updates** area of each project. For information about updating work, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).</span>-->
+1. <span class="preview">按一下&#x200B;**註解**，然後在提供的空間新增註解。 Workfront在每個專案的&#x200B;**更新**&#x200B;區域新增註解。 如需更新工作的相關資訊，請參閱[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。</span>
 1. （選擇性）若要移除您在「編輯專案」方塊中新增的任何資訊，請將游標移至已編輯的欄位上，然後按一下欄位右上角的&#x200B;**x**&#x200B;捨棄圖示。
 
    大量捨棄欄位編輯專案的![圖示](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)
