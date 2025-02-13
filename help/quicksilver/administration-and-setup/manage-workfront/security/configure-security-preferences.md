@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 222e940432f9cdea2b7da7fefbb429d75a3824d7
+source-git-commit: d4ebdcc942f119dc229e2a3216dbe82b3d701cba
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '951'
 ht-degree: 5%
 
 ---
@@ -113,11 +113,11 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
      </tr> 
      <tr> 
       <td role="rowheader">之後自動將使用者登出。</td> 
-      <td> 可讓您指定使用者何時在經過一段閒置期間後登出Workfront。 根據預設，使用者會在閒置8小時後登出。 <p>此選項也會影響使用單一登入解決方案的Workfront客戶。</p> </td> 
+      <td> 可讓您指定使用者何時在經過一段閒置期間後登出Workfront。 根據預設，使用者會在閒置8小時後登出。 <p>此選項也會影響使用單一登入解決方案的Workfront客戶。</p> <p>此設定不適用於已移轉至Adobe IMS的組織。</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">之後自動將行動使用者登出 </td> 
-      <td>可讓您指定使用者在一段閒置時間後何時登出Workfront應用程式。 根據預設，使用者會在閒置7天後登出。 <p>此選項也會影響使用單一登入解決方案的Workfront客戶。</p></td> 
+      <td>可讓您指定使用者在一段閒置時間後何時登出Workfront應用程式。 根據預設，使用者會在閒置7天後登出。 <p>此選項也會影響使用單一登入解決方案的Workfront客戶。</p> <p>此設定不適用於已移轉至Adobe IMS的組織。</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">說明 URL</td> 
@@ -128,7 +128,7 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
       <td>可讓您指定使用者是否預設會看到新首頁體驗。 啟用後，使用者預設將會看到新首頁體驗，但仍可依個人情況選擇啟用或停用新首頁。 停用時，使用者將不會看到可讓他們切換至新首頁的橫幅，但是，他們仍然可以透過在執行個體URL結尾手動輸入<code>/home/workspaces</code>來瀏覽至他們的新首頁。 此設定預設為啟用。</td> 
      </tr>
      <tr> 
-      <td role="rowheader">啟用優先順序工作清單 </td> 
+      <td role="rowheader">啟用「優先順序」工作清單 </td> 
       <td>可讓您選擇為使用者啟用或停用優先順序工作清單體驗。 使用者仍可在Workfront中看到優先順序圖示，但無法存取該功能。 如需有關優先順序的詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">開始使用優先順序</a>。</td> 
      </tr>
      <tr> 
