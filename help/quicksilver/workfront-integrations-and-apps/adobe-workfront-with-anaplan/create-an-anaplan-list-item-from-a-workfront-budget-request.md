@@ -6,7 +6,7 @@ description: 此整合情境會連結 [!DNL Adobe Workfront] 專案（行銷活�
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: e6505ece-21aa-4397-8d68-543bf89d2f00
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: d6fd224fb8a7b8094946814ae905bc0ff6e8223c
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 0%
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 若要使用此情境，您在[!DNL Workfront]中必須擁有下列專案：
 
-* [!DNL Workfront]中名為*[!UICONTROL *[!DNL Anaplan]整合]**的使用者設定檔，具有系統管理員許可權。
+* [!DNL Workfront]中名為&#x200B;**[!DNL Anaplan]整合**&#x200B;的使用者設定檔，具有系統管理員許可權。
 
   如需在[!DNL Workfront]中建立使用者的詳細資訊，請參閱[新增使用者](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)。
 
