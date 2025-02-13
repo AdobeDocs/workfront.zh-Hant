@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '546'
 ht-degree: 4%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 4%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
+您必須具備下列條件：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,10 +44,17 @@ ht-degree: 4%
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td><p>新增：標準</p>
-  <p> 目前：計畫</p>
-   </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> 
+      <p>新增：</p>
+         <ul>
+         <li><p>標準</p></li>
+         </ul>
+      <p>目前：</p>
+         <ul>
+         <li><p>規劃</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -57,7 +64,7 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -91,23 +98,28 @@ ht-degree: 4%
       * 藍圖
       * 計畫
 
-   >[!IMPORTANT]
-   >
-   >若要檢視「案例」、「目標」和「規劃」區域，需要額外的授權。
-   >
-   >* 如需Workfront目標的相關資訊，請參閱[Adobe Workfront目標總覽](../../../workfront-goals/goal-management/wf-goals-overview.md)。
-   >
-   >* 如需Workfront Scenario Planner的相關資訊，請參閱[Scenario Planner概觀](../../../scenario-planner/scenario-planner-overview.md)。
-   >
-   >* 如需Workfront Planning的相關資訊，請參閱[Adobe Workfront Planning概觀](/help/quicksilver/planning/general/planning-overview.md)。
+     >[!IMPORTANT]
+     >
+     >若要檢視「目標」、「案例」和「規劃」區域，需要額外的授權。
+     >
+     >* 如需Workfront目標的相關資訊，請參閱[Adobe Workfront目標總覽](../../../workfront-goals/goal-management/wf-goals-overview.md)。
+     >
+     >* 如需Workfront Scenario Planner的相關資訊，請參閱[Scenario Planner概觀](../../../scenario-planner/scenario-planner-overview.md)。
+     >
+     >* 如需Workfront Planning的相關資訊，請參閱[Adobe Workfront Planning概觀](/help/quicksilver/planning/general/planning-overview.md)。
 
-   * 按一下&#x200B;**新增儀表板**，然後輸入描述性&#x200B;**自訂區段標題**&#x200B;並新增儀表板。
+   * 按一下&#x200B;**新增儀表板**
+      * 在&#x200B;<!--**Quick link name**-->**自訂名稱**&#x200B;欄位中輸入描述性名稱
+      * 在&#x200B;**新增儀表板**&#x200B;欄位<!-- dropdown for existing or canvas dashboard, called "Choose a dashboard" now -->中選取儀表板
+      * 按一下&#x200B;**新增**。
 
 1. 重複上一步驟以釘選任何其他頁面。
 
-1. （選擇性）若要重新命名圖釘，請將游標停留在圖釘上，按一下圖釘名稱旁的箭頭，然後選取&#x200B;**重新命名圖釘**。 輸入新的圖釘名稱，然後按一下核取記號圖示或按Enter鍵。
+1. （選擇性）若要移動圖釘，請將滑鼠游標停留在圖釘上，並按一下圖釘名稱旁的[更多]功能表圖示![更多圖示](assets/more-icon.png)，然後按一下[左移] **或[4] [右移]**，將圖釘往選擇的方向移動，或按一下[6] [移動到前方] **，將圖釘移至最左邊的位置。******
 
-   按一下核取記號或按Enter鍵後，會出現一小型快顯視窗幾秒鐘，讓您在儲存圖釘之前復原圖釘名稱變更。
+1. （選擇性）若要重新命名圖釘，請將游標停留在圖釘上，然後按一下圖釘名稱旁的[更多]功能表圖示![[更多]圖示](assets/more-icon.png)，然後按一下[重新命名圖釘]**。**&#x200B;輸入新名稱，然後按一下[儲存]。****
+
+1. （選擇性）若要刪除圖釘，請將滑鼠游標停留在圖釘上，然後按一下圖釘名稱旁的[更多]功能表圖示![[更多]圖示](assets/more-icon.png)，然後按一下[移除]圖釘&#x200B;**。**
 
 1. 繼續自訂版面範本。
 

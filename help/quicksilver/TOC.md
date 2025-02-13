@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 7a2549e0d523f211ee13bf13fdc9a54aa7cf4572
+source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
 workflow-type: tm+mt
-source-wordcount: '13030'
+source-wordcount: '13034'
 ht-degree: 2%
 
 ---
@@ -22,6 +22,7 @@ ht-degree: 2%
       * 2025年第2季發行{#release-25-q2}
          * [2025年第2季版本總覽](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)
          * [2025年第2季管理員增強功能](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md)
+         * [2025年第2季專案增強功能](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md)
          * [2025年第二季度發行時間範圍內的其他增強功能](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md)
          * [2025年第2季度發佈時間範圍內的外觀和感覺更新](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-look-and-feel-updates.md)
       * 2025年第1季發行{#release-25-q1}
@@ -365,7 +366,7 @@ ht-degree: 2%
          * [iOS和Android適用的更新行動應用程式（2017年8月初）](product-announcements/announcements/announcement-archive/updated-mobile-app.md)
          * [Adobe Workfront中需要TLS 1.2](product-announcements/announcements/announcement-archive/tls-1-disabled.md)
          * [Outlook 365增益集現已推出](product-announcements/outlook-365-add-in/outlook-365-add-in-now-available.md)
-         * [取代Adobe Workfront中的Flash型工具](product-announcements/announcements/announcement-archive/replace-flash-tools.md)
+         * [取代Adobe Workfront中的Flash工具](product-announcements/announcements/announcement-archive/replace-flash-tools.md)
          * [全新Adobe Workfront管理系統，以21.1取代請求佇列的POP電子郵件](product-announcements/announcements/announcement-archive/pop-removal-request-queue.md)
          * [Adobe Workfront 21.1版本電子郵件的新IP位址](product-announcements/announcements/announcement-archive/new-email-ip-21-1.md)
          * [電子郵件詐騙和POP回覆移除](product-announcements/announcements/announcement-archive/email-spoofing-pop-reply-message.md)
@@ -732,7 +733,7 @@ ht-degree: 2%
    * 設定整合{#configure-integrations}
       * [設定整合](administration-and-setup/configure-integrations/workfront-integrations.md)
       * [Adobe Workfront整合](administration-and-setup/configure-integrations/workfront-integrations-1.md)
-      * [設定Experience Manager Assetsas a Cloud Service整合](administration-and-setup/configure-integrations/configure-aacs-integration.md)
+      * [設定Experience Manager Assets as a Cloud Service整合](administration-and-setup/configure-integrations/configure-aacs-integration.md)
       * [設定 Experience Manager Assets Essentials 整合](documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
       * [使用Adobe Experience Manager舊版聯結器設定Workfront](administration-and-setup/configure-integrations/configure-workfront-aem.md)
       * [讓使用者能夠存取行動應用程式](administration-and-setup/configure-integrations/enable-users-access-mobile-app.md)
@@ -741,7 +742,7 @@ ht-degree: 2%
       * [停用檔案整合](administration-and-setup/configure-integrations/disable-document-integrations.md)
       * [設定SharePoint整合](administration-and-setup/configure-integrations/configure-sharepoint-integration.md)
       * [設定中繼資料對應](administration-and-setup/configure-integrations/set-up-metadata-mapping.md)
-      * [在Adobe Admin Console中為您的使用者建立Adobe WorkfrontCreative Cloud套件](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
+      * [在Adobe Admin Console中為您的使用者建立Adobe Workfront Creative Cloud套件](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
       * [為Workfront整合建立OAuth2應用程式](administration-and-setup/configure-integrations/create-oauth-application.md)
       * [檢視及管理自訂OAuth2應用程式](administration-and-setup/configure-integrations/manage-custom-oauth2-apps.md)
       * [設定 JumpSeat 整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md)
@@ -805,7 +806,7 @@ ht-degree: 2%
          * [匯出清單](workfront-basics/navigate-workfront/use-lists/export-lists.md)
          * [在Adobe Workfront中內嵌編輯清單中的專案](workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md)
          * [修改清單的顯示方式](workfront-basics/navigate-workfront/use-lists/modify-list-display.md)
-      * [Workfront的AdobeUnified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)
+      * [適用於Workfront的Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)
       * [Adobe Unified Experience常見問題集](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)
       * [頂端導覽列概觀](workfront-basics/the-new-workfront-experience/global-navigation-overview.md)
       * [Adobe Workfront中的左側導覽](workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)
@@ -1099,15 +1100,15 @@ ht-degree: 2%
       * [建立及管理智慧資料夾](documents/organizing-documents/create-manage-smart-folders.md)
    * Workfront與Experience Manager Assets整合{#wf-aem-integrations}
       * [Workfront與Experience Manager Assets整合](documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
-      * Experience Manager增強型聯結器{#wf-aem-enhanced-connector}的Workfront
-         * [Experience Manager增強型聯結器的Workfront](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md)
-         * [適用於Experience Manager增強型聯結器的Workfront概述](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-aem-enhanced-connector-overview.md)
-         * [Workfront for Experience Manager增強型聯結器中繼資料概覽](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-metadata-overview.md)
+      * 適用於Experience Manager的Workfront增強型聯結器{#wf-aem-enhanced-connector}
+         * [適用於Experience Manager的Workfront增強型聯結器](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md)
+         * [適用於Experience Manager的Workfront增強型聯結器概觀](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-aem-enhanced-connector-overview.md)
+         * [適用於Experience Manager的Workfront增強型聯結器中繼資料概覽](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-metadata-overview.md)
          * [使用增強型聯結器連結資產和資料夾](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-link-assets.md)
          * [使用增強型聯結器傳送檔案](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-send-document.md)
          * [校訂具有增強型聯結器的連結資產](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-proof-asset.md)
          * [檢視或下載具有增強型聯結器的連結資產](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-view-download-asset.md)
-      * 適用於Experience Manager Assets和Assets Essentials{#wf-aem-essentials}的Adobe Workfront
+      * 適用於Experience Manager Assets和Assets Essentials {#wf-aem-essentials}的Adobe Workfront
          * [適用於Experience Manager Assets和Assets Essentials的Adobe Workfront：文章索引](documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)
          * [Adobe Experience Manager Assets整合概述](documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
          * [從Experience Manager Assets Essentials連結資產和資料夾](documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
@@ -1122,7 +1123,7 @@ ht-degree: 2%
          * [疑難排解Adobe Experience Manager整合](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md)
    * 從舊版或增強型聯結器移轉{#migrate-from-legacy-enhanced-connectors}
       * [從舊版或增強型聯結器移轉](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)
-      * [從舊版或增強型聯結器移轉至Workfront，以便Adobe Experience Manageras a Cloud Service整合](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
+      * [從舊版或增強型聯結器移轉至Workfront，以進行Adobe Experience Manager as a Cloud Service整合](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
       * [從舊版聯結器移轉至增強型聯結器](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-to-enhanced.md)
       * [解除安裝具有Adobe Experience Manager舊版聯結器的Workfront](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-legacy-connector.md)
       * [解除安裝具有Adobe Experience Manager增強型聯結器的Workfront](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-enhanced-connector.md)
@@ -1416,13 +1417,13 @@ ht-degree: 2%
          * [將現有方案新增至投資組合](manage-work/portfolios/create-and-manage-programs/move-program.md)
          * [將專案新增至方案](manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)
          * [從方案中移除專案](manage-work/portfolios/create-and-manage-programs/remove-project-from-program.md)
-      * 在Portfolio最佳化工具{#manage-projects-in-portfolio-optimizer}中管理專案
-         * [在Portfolio最佳化工具中管理專案](manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)
-         * [Portfolio最佳化工具概觀](manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
-         * [找到Portfolio最佳化工具](manage-work/portfolios/portfolio-optimizer/locate-portfolio-optimizer.md)
-         * [Portfolio最佳化工具分數概述](manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md)
-         * [在Portfolio最佳化工具中排定專案的優先順序](manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)
-         * [在Portfolio最佳化工具中最佳化專案](manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md)
+      * 在Portfolio Optimizer {#manage-projects-in-portfolio-optimizer}中管理專案
+         * [在Portfolio Optimizer中管理專案](manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)
+         * [Portfolio Optimizer概述](manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
+         * [找到Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/locate-portfolio-optimizer.md)
+         * [Portfolio Optimizer分數概述](manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md)
+         * [在Portfolio Optimizer中排定專案的優先順序](manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)
+         * [在Portfolio Optimizer中最佳化專案](manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md)
          * [計算投資組合中淨值的風險](manage-work/portfolios/portfolio-optimizer/calculate-risk-to-net-value-in-portfolio.md)
    * 要求{#requests}
       * [請求](manage-work/requests/requests-overview.md)
@@ -1566,7 +1567,7 @@ ht-degree: 2%
          * [篩選器：顯示排程傳送的報表](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-report-delivery-filter.md)
          * [篩選：當狀態與不同群組相關聯時，依相同名稱狀態顯示專案](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-same-name-statuses-from-different-groups.md)
          * [依多選自訂欄位將報表分組](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-by-multi-select-custom-field.md)
-         * [群組：Portfolio擁有者、方案擁有者、專案擁有者和專案狀態的4層作業群組](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-4-level-task-grouping.md)
+         * [群組：針對Portfolio擁有者、方案擁有者、專案擁有者和專案狀態的4層級作業群組](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-4-level-task-grouping.md)
          * [分組：將第四個分組新增至清單](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-add-fourth-grouping.md)
          * [群組：依照群組中所有物件通用的計算值來組織清單結果](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-by-calculated-common-values.md)
          * [分組：顯示分組中多個計算值的彙總結果](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md)
@@ -1596,7 +1597,7 @@ ht-degree: 2%
          * [檢視：在欄中顯示影像而非字串](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-image-in-view.md)
          * [檢視：顯示未包含在標準介面中的物件](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-objects-not-in-standard-interface.md)
          * [檢視：在任務或專案清單上顯示原始問題資訊](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)
-         * [檢視：在作業檢視中顯示程式和Portfolio資訊](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-program-portfolio-info-task-view.md)
+         * [檢視：在任務檢視中顯示計畫和Portfolio資訊](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-program-portfolio-info-task-view.md)
          * [檢視：在任務清單中顯示任務縮排](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-task-identations.md)
          * [檢視：透過縮排任務來顯示任務中的父子關係](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-parent-child-relationship-by-indenting-tasks-with-custom-view.md)
          * [檢視：包含校訂連結的檔案報告](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-document-report-with-proof-link.md)
@@ -1698,7 +1699,7 @@ ht-degree: 2%
       * [在Enhanced Analytics中檢視依團隊的活動視覺效果](enhanced-analytics/activity-by-team-overview.md)
    * Workfront資料連線{#data-lake}
       * [Workfront Data Connect概觀](reports-and-dashboards/data-lake/data-lake-overview.md)
-      * [建立Reader帳戶或連線以進行Snowflake](reports-and-dashboards/data-lake/create-a-reader-account.md)
+      * [建立Snowflake的讀取器帳戶或連線](reports-and-dashboards/data-lake/create-a-reader-account.md)
       * [建立與Workfront資料連線的連線](reports-and-dashboards/data-lake/share-data-externally.md)
       * [Workfront Data Connect資料字典](reports-and-dashboards/data-lake/data-dictionary.md)
       * [Workfront Data Connect查詢範例](reports-and-dashboards/data-lake/basic-query-examples.md)
@@ -1755,7 +1756,7 @@ ht-degree: 2%
       * [使用摘要更新工作負載平衡器中的工作項](resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
 * 檢閱與核准工作 {#review-and-approve-work}
    * [檢閱和核准工作](review-and-approve-work/review-and-approve-work.md)
-   * [Alpha計畫 — 檔案核准](review-and-approve-work/Documents/doc-approvals-alpha.md)
+   * [Alpha方案 — 檔案核准](review-and-approve-work/Documents/doc-approvals-alpha.md)
    * [非付費使用者的有限檔案和校訂決定概覽](review-and-approve-work/proof-doc-decision-limits.md)
    * 工作核准{#work-approvals}
       * [工作核准](review-and-approve-work/manage-approvals/manage-approvals.md)
@@ -2085,14 +2086,14 @@ ht-degree: 2%
    * [Adobe Workfront整合](workfront-integrations-and-apps/workfront-integrations.md)
    * [Adobe Workfront內建整合概述](workfront-integrations-and-apps/built-in-integrations-non-admin.md)
    * [Adobe Workfront整合方法](workfront-integrations-and-apps/built-in-vs-api-vs-fusion.md)
-   * Creative Cloud{#workfront-for-creative-cloud}的Adobe Workfront
+   * 適用於Creative Cloud {#workfront-for-creative-cloud}的Adobe Workfront
       * [適用於Creative Cloud的Adobe Workfront](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)
-      * 安裝適用於Creative Cloud應用程式{#install-wf-cc}的Adobe Workfront外掛程式
+      * 安裝適用於Creative Cloud應用程式的Adobe Workfront外掛程式{#install-wf-cc}
          * [安裝適用於Creative Cloud應用程式的Adobe Workfront](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
          * [安裝並開啟適用於Photoshop的Adobe Workfront](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
          * [安裝並開啟適用於XD的Adobe Workfront](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
          * [安裝並開啟 [!DNL Adobe Workfront for design and video]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
-      * 使用適用於Creative Cloud應用程式{#manage-wf-cc}的Adobe Workfront外掛程式來管理工作
+      * 使用適用於Creative Cloud應用程式的Adobe Workfront外掛程式來管理工作{#manage-wf-cc}
          * [使用適用於Creative Cloud應用程式的Adobe Workfront外掛程式管理工作](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)
          * [使用Adobe Workfront外掛程式尋找您的工作](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-find-work.md)
          * [使用Adobe Workfront外掛程式檢視工作專案資訊](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-view-work-info.md)
@@ -2100,18 +2101,18 @@ ht-degree: 2%
          * [使用Adobe Workfront外掛程式將工作專案標示為完成](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
          * [使用Adobe Workfront外掛程式記錄時間](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
          * [管理來自Adobe Creative Cloud的 [!DNL Adobe Workfront] 通知](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
-      * 使用Adobe Workfront外掛程式為Creative Cloud應用程式{#upload-docs-proofs-wf-cc}上傳檔案和校樣
+      * 使用適用於Creative Cloud應用程式的Adobe Workfront外掛程式上傳檔案和校樣{#upload-docs-proofs-wf-cc}
          * [將檔案和校訂從 [!DNL Adobe Workfront plugin] 上傳至 [!DNL Creative Cloud]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [使用適用於Creative Cloud應用程式的Adobe Workfront外掛程式上傳檔案和校樣](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
          * [從Photoshop上傳校樣](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-proofs-ps.md)
          * [從Photoshop上傳檔案](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-ps.md)
-         * [將XD工作面板作為校訂上傳至Workfront](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-proofs.md)
+         * [將XD工作區域作為校訂上傳至Workfront](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-proofs.md)
          * [將XD工作區域作為檔案上傳到Workfront](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
          * [從InDesign上傳校樣](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-id.md)
          * [從InDesign上傳檔案](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-docs-id.md)
          * [從 [!DNL Illustrator]上傳校樣](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-ai.md)
          * [從 [!DNL Illustrator]上傳檔案](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-ai-docs.md)
-      * 適用於Illustrator和InDesign{#workfront-for-illustrator-indesign}的Workfront擴充功能
+      * 適用於Illustrator和InDesign {#workfront-for-illustrator-indesign}的Workfront擴充功能
          * [使用適用於Illustrator和InDesign的Workfront擴充功能](documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md)
    * Jira {#workfront-for-jira}的Adobe Workfront
       * [適用於Jira的Adobe Workfront](workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md)
@@ -2147,13 +2148,13 @@ ht-degree: 2%
       * [將Outlook電子郵件新增為工作清單](workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-as-task-to-your-work-list.md)
       * [檢視適用於Outlook的Adobe Workfront的其他相關資訊並登出](workfront-integrations-and-apps/using-workfront-with-outlook/view-additional-infor-wf-outlook-and-log-out.md)
       * [啟用Outlook for Office以搭配Adobe Workfront和SAML 2.0使用](workfront-integrations-and-apps/using-workfront-with-outlook/enable-outlook-for-office-for-use-with-wf-and-saml-2.md)
-   * Microsoft Teams{#workfront-for-microsoft-teams}的Adobe Workfront
+   * 適用於Microsoft Teams {#workfront-for-microsoft-teams}的Adobe Workfront
       * [[!DNL Adobe Workfront for Microsoft Teams]：文章索引](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md)
-      * [Microsoft Teams的Adobe Workfront概述](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/workfront-for-microsoft-teams.md)
+      * [Microsoft Teams的Adobe Workfront概觀](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/workfront-for-microsoft-teams.md)
       * [安裝適用於Microsoft Teams的Adobe Workfront](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)
       * [從Microsoft Teams存取Adobe Workfront](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/access-workfront-from-ms-teams.md)
       * [在Microsoft Teams中搜尋和共用Adobe Workfront專案](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md)
-      * [從Microsoft Teams建立Adobe Workfront任務](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md)
+      * [從Microsoft Teams建立Adobe Workfront工作](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md)
       * [從Microsoft Teams提交Adobe Workfront請求](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/submit-workfront-requests-from-ms-teams.md)
       * [在Microsoft Teams中管理Adobe Workfront通知](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md)
    * 適用於Salesforce {#workfront-for-salesforce}的Adobe Workfront
@@ -2163,9 +2164,9 @@ ht-degree: 2%
       * [為Salesforce使用者設定Adobe Workfront區段](workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md)
       * [從Salesforce物件提交Adobe Workfront請求](workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md)
       * [從Salesforce物件建立Adobe Workfront專案](workfront-integrations-and-apps/using-workfront-with-salesforce/create-wf-projects-from-salesforce-objects.md)
-   * Slack{#workfront-for-slack}的Adobe Workfront
+   * 適用於Slack {#workfront-for-slack}的Adobe Workfront
       * [適用於Slack的Adobe Workfront](workfront-integrations-and-apps/using-workfront-with-slack/use-workfront-for-slack.md)
-      * [設定Adobe Workfront以進行Slack](workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)
+      * [設定適用於Slack的Adobe Workfront](workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)
       * [從Slack存取您的最愛和最近專案](workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md)
       * [從Slack管理您的工作和核准](workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md)
       * [從Slack建立任務和問題](workfront-integrations-and-apps/using-workfront-with-slack/create-tasks-and-issues-from-slack.md)

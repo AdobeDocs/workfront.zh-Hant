@@ -4,9 +4,10 @@ description: 2025年第二季度發行時間範圍內的其他增強功能
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 00445ffce2a494952a1d7dd9c02de2ddf6019472
+exl-id: 214f0e67-1da4-4abd-b942-09889e8bd92b
+source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -21,10 +22,10 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽版本： 2025年1月23日；快速發行生產：25.2版（2025年2月）；每季生產：25.4版（2025年4月）
+>預覽版本： 2025年1月23日；快速發行生產：25.2版（2025年2月13日）；每季發行生產：25.4版（2025年4月）
 
 現在，當Adobe Admin Console管理員變更Workfront使用者的使用者資訊時，Workfront會在使用者更新區域的系統活動標籤中，將此變更記錄為屬於「系統」。 他向Adobe Admin Console管理員求助。
 
-在此更新之前，Admin Console管理員對使用者所做的變更將記錄為Workfront主要系統管理員所做的變更。
+在此更新之前，Admin Console管理員對使用者所做的變更會記錄為Workfront主要系統管理員所做的變更。
 
 如需在Adobe Admin Console中管理使用者的相關資訊，請參閱[在Adobe Admin Console中管理使用者](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)

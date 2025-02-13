@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: dcfae507d531e0062bfa9552f6c397be3e8bb007
+source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '217'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,23 @@ ht-degree: 0%
 
 如需2025年第二季版本的所有變更清單，請參閱[2025年第二季版本概觀](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)。
 
-<!--## New look and feel for the Share dialog 
+## 檔案電子郵件的暫時外觀變更
 
 >[!NOTE]
 >
->Preview release: January 30, 2025; Production for fast release: With the 25.2 release (February 2025); Production for quarterly release: With the 25.4 release (April 2025)
+>預覽版本： 2025年2月13日；適用於所有客戶的生產版本： 2025年2月13日
 
-We have updated the look and feel of the Share dialog modern design that is consistent with other areas of Workfront. There are slight visual differences including:
+與新增或共用檔案相關的電子郵件內文將不再有縮圖影像。 有些客戶也會看到舊版任務和問題指派電子郵件，其中只顯示受指派人的頭像。
 
-* The "Visible system-wide" option now displays "Everyone in the system can view". This option still functions as it did previously. 
-* There is a new icon to access advanced share settings.-->
+這些變更是暫時性的，因為我們正在調查電子郵件延遲。
+
+## 「分享」對話方塊的新外觀
+
+>[!NOTE]
+>
+>預覽版本： 2025年2月13日；適用於所有客戶的生產版本：搭配25.3版（2025年3月）
+
+我們已將「共用」對話方塊的外觀與風格更新為與Workfront其他區域一致的現代化設計。 視覺上有細微的差異，包括：
+
+* 「系統範圍可見」選項現在會顯示「系統中的每個人都可以檢視」。 此選項仍會像之前一樣運作。
+* 有一個新圖示可存取進階共用設定。

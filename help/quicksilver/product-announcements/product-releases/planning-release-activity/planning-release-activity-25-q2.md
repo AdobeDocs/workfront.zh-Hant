@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
+source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,16 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 如需針對Adobe Workfront Planning發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## 檢查並確認AI助理採取的動作
+
+>[!NOTE]
+>
+>預覽版本： 2025年2月13日；快速發行生產：25.3版（2025年3月）；每季生產：25.4版（2025年4月）
+
+為了更方便確保AI助理執行您想要的動作，您現在可以在執行之前檢查並確認這些動作。 現在，當您輸入執行動作（例如建立、更新或刪除記錄）的提示時，「AI助理」會顯示要執行的動作，並要求確認這些動作是否正確。
+
+之前，此確認步驟無法使用。
 
 ## 新增至公式欄位的函式
 
@@ -48,7 +58,7 @@ For information, see [Edit records](/help/quicksilver/planning/records/edit-reco
 
 >[!NOTE]
 >
->預覽版本： 2025年1月30日；快速發行生產：25.2版（2025年2月）；每季生產：25.4版（2025年4月）
+>預覽版本： 2025年1月30日；快速發行生產：25.2版（2025年2月13日）；每季發行生產：25.4版（2025年4月）
 
 您現在可以在Workfront Planning中與團隊、工作角色和公司共用檢視和工作區。 在此增強功能之前，您可以和使用者和群組共用檢視和工作區。
 
@@ -62,7 +72,7 @@ For information, see [Edit records](/help/quicksilver/planning/records/edit-reco
 
 >[!NOTE]
 >
->預覽版本： 2025年1月23日；快速發行生產：25.2版（2025年2月）；每季生產：25.4版（2025年4月）
+>預覽版本： 2025年1月23日；快速發行生產：25.2版（2025年2月13日）；每季發行生產：25.4版（2025年4月）
 
 您現在可以將文字從Workfront外部的來源複製，並貼到Workfront Planning連線欄位或「人員」型別欄位中。 在表格檢視中編輯記錄時，可使用此增強功能。  文字必須符合現有使用者（針對人員型別欄位）或現有記錄或物件（針對連線的記錄）。 您可以複製並貼上多個欄位的多個值，並大量更新記錄。
 
@@ -74,7 +84,7 @@ For information, see [Edit records](/help/quicksilver/planning/records/edit-reco
 
 >[!NOTE]
 >
->預覽版本： 2025年1月23日；快速發行生產：25.2版（2025年2月）；每季生產：25.4版（2025年4月）
+>預覽版本： 2025年1月23日；快速發行生產：25.2版（2025年2月13日）；每季發行生產：25.4版（2025年4月）
 
 在此版本中，我們已更新Workfront Planning中的篩選器產生器，以允許使用多層篩選器。
 
@@ -92,7 +102,7 @@ For information, see [Edit records](/help/quicksilver/planning/records/edit-reco
 
 >[!NOTE]
 >
->預覽版本： 2025年1月22日；快速發行生產：25.2版（2025年2月）；每季生產：25.4版（2025年4月）
+>預覽版本： 2025年1月22日；快速發行生產：25.2版（2025年2月13日）；每季發行生產：25.4版（2025年4月）
 
 您現在可以在將專案連線到現有記錄時，使用範本建立專案。
 
@@ -106,7 +116,7 @@ For information, see [Edit records](/help/quicksilver/planning/records/edit-reco
 
 >[!NOTE]
 >
->預覽版本： 2025年1月22日；快速發行生產：25.2版（2025年2月）；每季生產：25.4版（2025年4月）
+>預覽版本： 2025年1月22日；快速發行生產：25.2版（2025年2月13日）；每季發行生產：25.4版（2025年4月）
 
 為了讓您在顯示頁面的標頭上更清楚的看到錄製標題，我們已進行改善，讓標題有更多空間、避免重疊，並妥善處理截斷問題。
 
