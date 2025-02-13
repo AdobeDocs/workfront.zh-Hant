@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 6e772ed53cca2fe3756fc15b715693b8b1fbef34
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '764'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Adobe Workfront Planning AI Assistant概觀
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 
 {{planning-important-intro}}
@@ -45,6 +45,8 @@ ht-degree: 0%
 
 * 您可以使用命令來復原動作。 例如，您可以輸入「復原上次變更」來回覆變更。
 
+* <span class="preview">透過AI助理建立、更新或刪除物件時，AI助理會顯示預期的動作並要求確認。 之後，您可以確認或取消動作。</span>
+
 ## 目前可用於AI助理的功能
 
 目前，AI助理可在Workfront的「規劃」區域中用於下列頁面：
@@ -59,7 +61,7 @@ ht-degree: 0%
 * 建立記錄。 含有新記錄連結的ID會在建立記錄後顯示。 您可以指定要在建立過程中更新的欄位，例如日期或說明。
 * 根據您上傳的檔案建立記錄。 Workfront支援下列AI助理檔案格式：
 
-  .pptx、.pdf、.docx、.xlsx、.ppt、.doc、.txt和大部分的影像格式
+  PPTX、PDF、DOCX、XLSX、PPT、DOC、TXT和大部分影像格式
 * 更新您在畫面上看到的記錄欄位
 * 刪除記錄
 * 還原您剛剛刪除的記錄
