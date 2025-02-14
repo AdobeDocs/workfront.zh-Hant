@@ -1,6 +1,6 @@
 ---
 user-guide-title: Workfront 指南
-user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront。
+user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
 source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
