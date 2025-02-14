@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
+source-git-commit: 7b40bd67529e62e7b08ba3076a707ba14edd6824
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 0%
@@ -24,7 +24,9 @@ ht-degree: 0%
 >
 >預覽版本： 2025年2月13日；適用於所有客戶的生產版本： 2025年2月13日
 
-與新增或共用檔案相關的電子郵件內文將不再有縮圖影像。 有些客戶也會看到舊版任務和問題指派電子郵件，其中只顯示受指派人的頭像。
+與新增或共用檔案相關的電子郵件內文將不再有縮圖影像。
+
+有些客戶也會看到舊版任務和問題指派電子郵件，其中只顯示受指派人的頭像。
 
 這些變更是暫時性的，因為我們正在調查電子郵件延遲。
 
