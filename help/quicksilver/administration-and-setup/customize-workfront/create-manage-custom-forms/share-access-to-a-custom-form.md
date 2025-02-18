@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: 2a356b2cc98f8226d2a616cdd907a3aebaeecee0
 workflow-type: tm+mt
-source-wordcount: '1419'
-ht-degree: 1%
+source-wordcount: '1530'
+ht-degree: 0%
 
 ---
 
@@ -77,7 +77,11 @@ ht-degree: 1%
     <tbody> 
      <tr> 
       <td role="rowheader">檢視它</td> 
-      <td> <p>在物件上檢視和填寫自訂表單的功能。</p> <p><b>注意</b>：對於擁有輕度授權和貢獻者授權（或工作、檢閱和請求授權）的使用者，這是最高的可用選項。</p> <p>按一下<strong>進階設定</strong>，指定是否要允許下列專案：</p> 
+      <td> <p>此選項提供在物件上檢視和填寫自訂表單的功能。 在物件層級，使用者必須至少擁有Contribute存取權，並啟用<strong>編輯自訂表單</strong>進階設定。 例如，如果表單附加至專案，使用者必須擁有該專案的Contribute存取權，否則將無法填寫表單。</p>
+
+   <p><b>注意</b>：對於擁有輕度授權和貢獻者授權（或工作、檢閱和請求授權）的使用者，這是最高的可用選項。</p>
+
+   <p>按一下<strong>進階設定</strong>，指定是否要允許下列專案：</p> 
        <ul> 
         <li><strong>附加至自訂資料</strong>：能夠將自訂表單附加至他們具有「管理」存取權的專案、任務和問題</li> 
         <li> <p><strong>共用</strong>：能夠與系統中的其他人共用自訂表單</p> <p>具有輕度或貢獻者授權（或工作、檢閱或請求授權）的使用者只能透過API或自訂表單報表共用自訂表單。</p> </li>
@@ -85,7 +89,7 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader">管理它</td> 
-      <td> <p>僅適用於擁有Standard或Plan授權的使用者。 </p> <p>除了能夠將表單新增到他們有權編輯的物件之外，使用者還可以完全編輯自訂表單，包括新增、編輯和刪除欄位。</p> <p>按一下<strong>進階設定</strong>，指定是否要允許下列專案：</p> 
+      <td> <p>此選項僅適用於擁有Standard或Plan授權的使用者。 </p> <p>除了能夠將表單新增到他們有權編輯的物件之外，使用者還可以完全編輯自訂表單，包括新增、編輯和刪除欄位。</p> <p>按一下<strong>進階設定</strong>，指定是否要允許下列專案：</p> 
        <ul> 
         <li> <p><strong>附加至自訂資料</strong>：能夠將自訂表單附加至他們具有「管理」存取權的專案、任務和問題</p> </li> 
         <li><strong>刪除</strong>：從系統中刪除自訂表單</li> 
@@ -127,7 +131,9 @@ ht-degree: 1%
     <tbody> 
      <tr> 
       <td role="rowheader">檢視它</td> 
-      <td> <p>在物件上檢視和填寫自訂表單的功能。</p> <p><b>注意</b>：對於擁有輕度授權和貢獻者授權（或工作、檢閱和請求授權）的使用者，這是最高的可用選項。</p> <p>按一下<strong>進階設定</strong>，指定是否要允許下列專案：</p> 
+      <td> <p>此選項提供在物件上檢視和填寫自訂表單的功能。 在物件層級，使用者必須至少擁有Contribute存取權，並啟用<strong>編輯自訂表單</strong>進階設定。 例如，如果表單附加至專案，使用者必須擁有該專案的Contribute存取權，否則將無法填寫表單。</p>
+
+   <p><b>注意</b>：對於擁有輕度授權和貢獻者授權（或工作、檢閱和請求授權）的使用者，這是最高的可用選項。</p> <p>按一下<strong>進階設定</strong>，指定是否要允許下列專案：</p> 
        <ul> 
         <li><strong>附加至自訂資料</strong>：能夠將自訂表單附加至他們具有「管理」存取權的專案、任務和問題</li> 
         <li> <p><strong>共用</strong>：能夠與系統中的其他人共用自訂表單</p> <p>具有輕度或貢獻者授權（或工作、檢閱或請求授權）的使用者只能透過API或自訂表單報表共用自訂表單。</p> </li>
@@ -135,7 +141,7 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader">管理它</td> 
-      <td> <p>僅適用於擁有Standard或Plan授權的使用者。 </p> <p>除了能夠將表單新增到他們有權編輯的物件之外，使用者還可以完全編輯自訂表單，包括新增、編輯和刪除欄位。</p> <p>按一下<strong>進階設定</strong>，指定是否要允許下列專案：</p> 
+      <td> <p>此選項僅適用於擁有Standard或Plan授權的使用者。 </p> <p>除了能夠將表單新增到他們有權編輯的物件之外，使用者還可以完全編輯自訂表單，包括新增、編輯和刪除欄位。</p> <p>按一下<strong>進階設定</strong>，指定是否要允許下列專案：</p> 
        <ul> 
         <li> <p><strong>附加至自訂資料</strong>：能夠將自訂表單附加至他們具有「管理」存取權的專案、任務和問題</p> </li> 
         <li><strong>刪除</strong>：從系統中刪除自訂表單</li> 
