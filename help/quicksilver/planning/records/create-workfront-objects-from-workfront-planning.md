@@ -6,18 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: 928ea5da9955b8c1c98782df81698c49987d4c18
+source-git-commit: 597d8db034269e673dbe46e8c0f4934bf9509e2f
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-# 從Workfront Planning建立Workfront物件
+# 從Workfront Planning <!--as you connect them to records-->建立Workfront物件
 
-
+<!-- update the title (and all the links to this article) at preview, to be this: Create Workfront objects from Workfront Planning as you connect them to records-->
 <!-- remove preview and production at release time-->
 
 <span class="preview">本頁標示的資訊是指尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
@@ -26,12 +26,22 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-您可以從Workfront Planning建立下列型別的Workfront物件：
+<!--
+You can create Adobe Workfront objects from Workfront Planning in the following ways: 
+
+* As you try to connect Workfront objects from Planning records
+
+    This article describes how to create Workfront objects from Workfront Planning as you try to connect them from Planning records. 
+* <span class="preview">When you use automations from a record's page.</span> 
+
+    For information about creating Workfront objects using automations, see [Create objects using Adobe Workfront Planning record automations](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md). 
+-->
+
+當您連線Workfront記錄與下列Workfront物件型別時，可以從Workfront Planning建立下列Workfront物件型別：
 
 * 專案
 * 專案組合
-
-將Workfront規劃記錄與專案或投資組合連線時，您可以從Workfront規劃建立Workfront專案和投資組合。
+  <!--* <span class="preview">Programs</span>-->
 
 >[!IMPORTANT]
 >
@@ -39,7 +49,21 @@ ht-degree: 1%
 >
 >* 從Workfront Planning中的記錄連線方案、群組或公司時，您無法建立它們。
 >
-<!--* You cannot create a project from a template when when you create projects by connecting them from a record. You must manually add tasks and project information or a template to the new project after you add it to the record.-->
+
+<!--replace the IMPORTANT above with this when we release programs: 
+
+>[!IMPORTANT]
+>
+>* You can create only projects, portfolios, and <span class="preview">programs</span> in Workfront when connecting them from a record. 
+>
+>* You cannot create groups or companies when connecting them from a record in Workfront Planning. 
+>
+-->
+
+您可以從連線欄位在Workfront規劃的下列區域中連線專案與投資組合<!--<span class="preview"> and programs </span>-->：
+
+* 記錄型別的表格檢視
+* 記錄的詳細資訊頁面或預覽方塊
 
 如需有關連線Planning記錄與Workfront物件的資訊，請參閱[連線記錄](/help/quicksilver/planning/records/connect-records.md)。
 
@@ -81,8 +105,8 @@ ht-degree: 1%
  <tr> 
    <td role="rowheader"><p>Adobe Workfront平台</p></td> 
    <td> 
-<p>貴組織的Workfront例項必須加入Adobe統一體驗，才能存取Workfront規劃的所有功能。</p> 
-<p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront的Adobe統一體驗</a>。 </p> 
+<p>貴組織的Workfront例項必須上線至Adobe Unified Experience，才能存取Workfront Planning的所有功能。</p> 
+<p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">適用於Workfront的Adobe Unified Experience</a>。 </p> 
    </td> 
    </tr> 
   </tr> 
@@ -120,26 +144,21 @@ ht-degree: 1%
 
 您必須具備下列條件，才能透過從現有記錄連線來新增專案或投資組合：
 
-* 連結到Workfront專案或投資組合的記錄型別。 如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
+* 記錄型別已連線至Workfront專案或投資組合<!--or <span class="preview">programs</span>-->。 如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
 * 記錄。 如需詳細資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md)。
 * Workfront Planning和Workfront中的正確存取和許可權，如本文中[存取需求](#access-requirements)一節所述。
 
-## 從Workfront Planning將專案與記錄連線時建立專案
+## 當您從Workfront Planning將專案與記錄連線時，建立專案
 
 若要在從其他記錄連線專案時建立專案：
 
 1. 移至記錄的詳細資訊頁面或記錄型別的表格，並開始將Workfront Planning記錄與Workfront專案連線，如文章[連線記錄](/help/quicksilver/planning/records/connect-records.md)中所述。
 
-   您可以在Workfront Planning的下列區域中，從連線欄位連線專案：
+1. （條件式） <!--<span class="preview">Click **Add project**</span> Or Start typing the name of a project, then click **Add project** if you cannot find it.-->如果您嘗試從其他記錄的已連線記錄欄位新增專案時找不到專案，請新增名稱，然後按一下&#x200B;**新增專案**。 「新增」按鈕後面接著您輸入的專案名稱。
 
-   * 記錄型別的表格檢視
-   * 記錄的詳細資訊頁面或預覽方塊
+   <!--at production or when the permanent Add button is released to preview, take the first part of the direction above out and say "Click Add to add a new project"; take this out too: "The Add button is followed by the project name you typed."-->
 
-1. （視條件而定）如果您在嘗試從其他記錄的已連線記錄欄位新增專案時找不到專案，請新增名稱，然後按一下&#x200B;**+新增**。 「新增」按鈕後面接著您輸入的專案名稱。
-
-   <!--at production or when the permanent Add button is released to preview, take the first part of the direction above out and say "Click +Add to add a new project"; take this out too: "The Add button is followed by the project name you typed."-->
-
-   ![](assets/add-project-when-connecting-it-from-connection-field.png)
+   ![從連線欄位連線時新增專案](assets/add-project-when-connecting-it-from-connection-field.png)
 
    <span class="preview"> **建立專案**&#x200B;方塊開啟。</span>
 
@@ -152,22 +171,17 @@ ht-degree: 1%
 
 1. （可選）從Workfront計畫按一下新專案的名稱，以在Workfront中開啟專案頁面，並對專案進行其他更新。
 
-## 從Workfront Planning將投資組合與記錄連線時建立投資組合
+## 在連結投資組合與Workfront Planning的記錄時建立投資組合
 
-若要在連線其他記錄的產品組合時建立它們：
+若要在從Planning記錄連線投資組合時建立投資組合：
 
 1. 移至記錄的詳細資訊頁面或記錄型別的表格，然後開始將Workfront Planning記錄與Workfront投資組合連線，如文章[連線記錄](/help/quicksilver/planning/records/connect-records.md)中所述。
 
-   您可以在Workfront Planning的下列區域中，從連線欄位中連線產品組合：
+   <!--at production or when the permanent Add button is released to preview, take the first part of the direction below out and say "Click Add to add a new portfolio"; take this out too: "The Add button is followed by the portfolio name you typed."-->
 
-   * 記錄型別的表格檢視
-   * 記錄的詳細資訊頁面或預覽方塊
+1. （條件式） <!--<span class="preview">Click **Add portfolio**</span> Or Start typing the name of a portfolio, then click **Add portfolio** if you cannot find it.-->如果您嘗試從其他記錄的已連線記錄欄位新增投資組合時找不到投資組合，請新增名稱，然後按一下&#x200B;**新增投資組合**。 「新增」按鈕後面也會跟著您輸入的投資組合名稱。
 
-   <!--at production or when the permanent Add button is released to preview, take the first part of the direction below out and say "Click +Add to add a new portfolio"; take this out too: "The Add button is followed by the portfolio name you typed."-->
-
-1. （視條件而定）如果您在嘗試從其他記錄的已連線記錄欄位新增投資組合時找不到投資組合，請新增名稱，然後按一下「**+新增投資組合」**。 「新增」按鈕後面也會跟著您輸入的投資組合名稱。
-
-   ![](assets/add-portfolio-when-connecting-it-from-connection-field.png)
+   ![從連線欄位連線時新增投資組合](assets/add-portfolio-when-connecting-it-from-connection-field.png)
 
    投資組合隨即建立並新增至您所選記錄的連線欄位。
 
@@ -177,22 +191,21 @@ ht-degree: 1%
 
 <div class="preview">
 
-## Create programs when connecting them with records from Workfront Planning
+## Create programs as you connect them with records from Workfront Planning
 
-To create programs as you are connecting them from other records: 
+To create programs as you are connecting them from Planning records: 
 
 1. Go to a record's details page or to the record type's table and start connecting Workfront Planning records with Workfront portfolios, as described in the article [Connect records](/help/quicksilver/planning/records/connect-records.md). 
 
-    You can connect programs from a connection field in following areas of Workfront Planning:
-
-    * The table view of a record type
-    * The details page or preview box of a record
-
-    ********at production or when the permanent Add button is released to preview, take the first part of the direction below out and say "Click +Add to add a new program"; take this out too: "The Add button is followed by the program name you typed."***********
+    ******** at production or when the permanent Add button is released to preview, take the first part of the direction below out and say "Click Add to add a new program"; take this out too: "The Add button is followed by the program name you typed." ***********
     
-1. (Conditional) If you cannot find a program when trying to add it from the connected record field of another record, add a name, then click **+ Add**. The Add button is followed by the program name you typed. 
+1. Click **Add program** 
 
-    ![](assets/add-wf-program-when-connecting-it-from-connection-field.png)
+    Or 
+    
+    Start typing the name of a program, then click **Add program** if you cannot find it. The Add button is followed by the program name you typed. 
+
+    ![Add Workfront program when connecting it from connection field](assets/add-wf-program-when-connecting-it-from-connection-field.png)
 
     The **Create program** box opens.
 
