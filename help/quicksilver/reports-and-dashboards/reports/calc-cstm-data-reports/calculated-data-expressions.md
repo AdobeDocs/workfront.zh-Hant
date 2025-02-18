@@ -7,9 +7,9 @@ description: 您可以使用資料運算式，在Adobe Workfront中定義計算�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: e66d4223b13bcd4813156f147769e7ee99c3f8ef
+source-git-commit: 6a46486b62974f1cc7033b4497d32ab787b05bf2
 workflow-type: tm+mt
-source-wordcount: '2425'
+source-wordcount: '2433'
 ht-degree: 2%
 
 ---
@@ -458,7 +458,8 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td><strong>格式</strong> </td> 
-   <td><p>傳回格式化文字。色彩選項有$$正面、$$資訊、$$負面、$$注意，其他格式選項有$$粗體、$$斜體、$$底線。每個函式只能使用一個顏色選項，以及最多三個其他格式選項。 如果未指定顏色選項，則會套用系統的預設顏色。</p>
+   <td><p>傳回格式化文字。 FORMAT只允許此處列出的引數選項。</p>
+   <p>顏色選項有$$正面、$$資訊、$$負面、$$注意，其他格式選項有$$粗體、$$斜體、$$底線。 只允許一個顏色選項，以及最多三個其他格式選項。 如果未指定顏色選項，則會套用系統的預設顏色。</p>
    <p>運算式的格式如下：</p>
    <p><code>FORMAT($$POSITIVE, $$BOLD, $$ITALIC)</code></p>
    <p>注意：Workfront Planning不支援此運算式。</p></td> 

@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: 6a46486b62974f1cc7033b4497d32ab787b05bf2
 workflow-type: tm+mt
 source-wordcount: '6493'
 ht-degree: 5%
@@ -260,7 +260,7 @@ ht-degree: 5%
     <td><ul><li>描述文字</li></ul></td>
     </tr>
     <tr> 
-      <td role="rowheader">建立必要欄位</td>
+      <td role="rowheader">設為必要欄位</td>
       <td><p>如果您希望欄位是使用者完成自訂表單的必要欄位，請選取此選項。</p></td>
     </tr> 
    </table>
@@ -381,7 +381,7 @@ ht-degree: 5%
     </ul></td>
     </tr> 
      <tr> 
-    <td role="rowheader">建立必要欄位</td> 
+    <td role="rowheader">設為必要欄位</td> 
     <td>如果您希望欄位是使用者完成自訂表單的必要欄位，請選取此選項。 </td> 
     <td><ul>
     <li>單選按鈕</li>
@@ -540,7 +540,7 @@ ht-degree: 5%
       </td>
      </tr>
      <tr> 
-      <td role="rowheader">建立必要欄位</td> 
+      <td role="rowheader">設為必要欄位</td> 
       <td>如果您希望欄位是使用者完成自訂表單的必要欄位，請選取此選項。 </td> 
        <td><ul>
     <li>自動提示</li>
@@ -646,7 +646,7 @@ ht-degree: 5%
      </tr>
      </tr>
      <tr> 
-      <td role="rowheader">建立必要欄位</td>
+      <td role="rowheader">設為必要欄位</td>
       <td><p>如果您希望欄位是使用者完成自訂表單的必要欄位，請選取此選項。</p></td>
      </tr>       
     </tbody>
@@ -663,7 +663,7 @@ ht-degree: 5%
 >以下專案為呼叫外部API的技術限制：
 >
 >* 選項最大數量： 2000 （只顯示傳回JSON中的前2000個唯一選項）
->* 逾時： 3秒
+>* 逾時： 30秒
 >* 重試次數： 3
 >* 重試之間的等待持續時間：500毫秒
 >* 預期的回應狀態： 2xx
@@ -860,7 +860,7 @@ The Workfront Mobile app -->
       <td>
      </tr>
      <tr> 
-      <td role="rowheader">建立必要欄位</td>
+      <td role="rowheader">設為必要欄位</td>
       <td><p>如果您希望欄位是使用者完成自訂表單的必要欄位，請選取此選項。</p></td>
      </tr> 
      <tr> 
