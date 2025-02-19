@@ -6,9 +6,9 @@ description: 您可以編輯專案範本以反映專案流程和設定的變更�
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: d85ccb9dbef343ecc8808412e89264b3ea6ab25e
 workflow-type: tm+mt
-source-wordcount: '4720'
+source-wordcount: '4809'
 ht-degree: 2%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 2%
    <td role="rowheader">物件許可權</td> 
    <td> 
     <ul> 
-     <li> <p>Contribute對範本的許可權，以便在「範本詳細資料」索引標籤中編輯它</p> </li> 
+     <li> <p>貢獻範本的許可權以在「範本詳細資訊」索引標籤中進行編輯</p> </li> 
      <li> <p>管理範本的許可權，以在「編輯範本」方塊中編輯範本</p> </li> 
    </td> 
   </tr> 
@@ -592,6 +592,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
    * [工作設定](#task-settings)
    * [問題設定](#issue-settings)
    * [存取](#access-preview)
+   * [連結的資料夾](#linked-folders-conditional-availability) （條件可用性）
 
 
 ### 範本名稱{#template-name}
@@ -624,7 +625,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
          <td>新增範本的其他相關資訊。</td> 
        </tr> 
          <tr> 
-         <td role="rowheader"><strong>優先等級</strong></td> 
+         <td role="rowheader"><strong>優先順序</strong></td> 
          <td><p>這只是一個視覺化的標幟，可讓您為未來的專案設定優先順序。 從下列選項中選取：</p> 
          <ul> 
          <li><p><strong>無</strong></p></li> 
@@ -658,11 +659,11 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
    <tr> 
          <td role="rowheader"><strong>專案組合</strong></td> 
-         <td><p>指定從此範本建立之專案的Portfolio。 您必須先建立Portfolio，它才會出現在下拉式清單中。 </p><p>只有作用中的投資組合會顯示在清單中。 如需關於建立投資組合的詳細資訊，請參閱<a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">建立投資組合</a>。</p></td> 
+         <td><p>針對從此範本建立的專案指定Portfolio。 您必須先建立Portfolio，才能讓其出現在下拉式清單中。 </p><p>只有作用中的投資組合會顯示在清單中。 如需關於建立投資組合的詳細資訊，請參閱<a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">建立投資組合</a>。</p></td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>方案</strong></td> 
-         <td><p>如果您為範本選取了Portfolio，請為未來的專案指定<strong>方案</strong>。 某些Portfolio可能沒有計畫。 您必須先建立程式，它才會顯示在此下拉式清單中。 清單中只會顯示使用中的程式。</p><p>如需建立程式的詳細資訊，請參閱<a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">建立程式</a>。</p></td> 
+         <td><p>如果您為範本選取Portfolio，請為未來的專案指定<strong>方案</strong>。 部分投資組合可能沒有計畫。 您必須先建立程式，它才會顯示在此下拉式清單中。 清單中只會顯示使用中的程式。</p><p>如需建立程式的詳細資訊，請參閱<a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">建立程式</a>。</p></td> 
        </tr>  
        <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
          <td role="rowheader"><strong>群組</strong></td> 
@@ -737,7 +738,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
    </tr> 
          <tr> 
          <td role="rowheader"><strong>規劃收益</strong></td> 
-         <td><p>指定從此範本建立之專案的計畫收益。 計畫收益用於專案的業務案例以及Portfolio最佳化工具。 </p><p>如需有關專案計畫權益的詳細資訊，請參閱<a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">專案計畫權益概觀</a>。 計算專案淨值時，會考慮專案的計畫收益。 </p><p>如需有關使用Portfolio最佳化工具的詳細資訊，請參閱<a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">在Portfolio最佳化工具中管理專案</a> </p></td> 
+         <td><p>指定從此範本建立之專案的計畫收益。 計畫收益用於專案和Portfolio Optimizer的業務案例。 </p><p>如需有關專案計畫權益的詳細資訊，請參閱<a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">專案計畫權益概觀</a>。 計算專案淨值時，會考慮專案的計畫收益。 </p><p>如需使用Portfolio Optimizer的詳細資訊，請參閱<a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">在Portfolio Optimizer中管理專案</a> </p></td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>固定成本</strong></td> 
@@ -995,7 +996,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
        </tr> 
        <tr> 
          <td role="rowheader"><strong>同時授與專案的存取權</strong> </td> 
-         <td> <p> 從<strong>檢視</strong>、<strong>Contribute</strong>或<strong>管理</strong>專案存取權中選取。 指派給任務的使用者也會自動被授予此專案的存取權。 </p> </td> 
+         <td> <p> 從<strong>檢視</strong>、<strong>貢獻</strong>或<strong>管理</strong>專案存取權中選取。 指派給任務的使用者也會自動被授予此專案的存取權。 </p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>將某人指派給問題時</strong> </td> 
@@ -1003,7 +1004,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
        </tr> 
        <tr> 
          <td role="rowheader"><strong>同時授與專案的存取權</strong> </td> 
-         <td> <p> 從<strong>檢視</strong>、<strong>Contribute</strong>或<strong>管理</strong>專案存取權中選取。 指派給問題的使用者也被自動授予此專案的存取權。 </p> </td> 
+         <td> <p> 從<strong>檢視</strong>、<strong>貢獻</strong>或<strong>管理</strong>專案存取權中選取。 指派給問題的使用者也被自動授予此專案的存取權。 </p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>某人提交要求時：授予他們存取權</strong> </td> 
@@ -1030,6 +1031,23 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
    現在，當您使用此範本建立專案時，所有這些設定都將轉移到新專案。
 
+
+### 連結的資料夾（可用性條件） {#linked-folders}
+
+連結資料夾功能會自動在Adobe Experience Manager Assets中建立資料夾，並將這些資料夾連結至Workfront。
+
+只有符合下列所有條件時，才會顯示此區段：
+
+* 您的組織已移轉至Adobe Admin Console
+* 您的組織已啟用並設定與Adobe Experience Manager的整合
+* 範本已啟用並設定連結資料夾。
+
+如需有關編輯連結資料夾的說明，請參閱[在Experience Manager Assets整合中使用工作流程](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)一文中的[在專案中編輯工作流程值](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project)。
+
+<!--I don't think this note is valid anymore - this note was on Edit project when this section was in that article, by mistake: 
+>[!NOTE]
+>
+>Because linked folders are created when the project is created, editing the linked folder workflow on an existing project is ineffective. Editing these values when creating a project functions as expected.-->
 
 ## 大量編輯範本
 

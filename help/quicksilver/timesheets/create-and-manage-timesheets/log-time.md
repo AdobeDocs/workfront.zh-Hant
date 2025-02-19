@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 98040582995af736d3716e24c7530dd4cda4d3a6
+source-git-commit: d85ccb9dbef343ecc8808412e89264b3ea6ab25e
 workflow-type: tm+mt
-source-wordcount: '3826'
+source-wordcount: '3824'
 ht-degree: 0%
 
 ---
@@ -51,11 +51,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>檢視您記錄時間的工作專案型別或更高的存取權 </p> <p>例如，您需要「檢視問題」存取權，才能記錄問題的時間</p> </td> 
+   <td> <p>編輯您記錄時間的工作專案型別的存取權 </p> <p>例如，您需要編輯問題的存取權，以記錄問題的時間</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>您記錄時間的工作專案的Contribute或以上許可權包括「記錄時數」許可權</p> </td> 
+   <td> <p>在您記錄時間的工作專案上貢獻或更高許可權，包括記錄時數的許可權</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -420,7 +420,7 @@ ht-degree: 0%
 您必須具備下列所有條件：
 
 * 具有時程表和時數之管理存取權的計畫授權。 如需授與時程表和時數之管理存取權的詳細資訊，請參閱[授與使用者對特定區域的管理存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)。
-* 具有「記錄時數」存取權之Contribute或專案的更高許可權。 如需有關授與專案許可權的詳細資訊，請參閱[在Adobe Workfront中共用專案](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)。
+* 貢獻或更高的許可權給存取記錄時數的專案。 如需有關授與專案許可權的詳細資訊，請參閱[在Adobe Workfront中共用專案](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)。
 * 如果您想要直接將時間記錄到專案，您的Workfront管理員必須在設定區域的&#x200B;**時程表和時數>偏好設定**&#x200B;區段中，直接啟用專案上的記錄時間設定。 如需允許使用者直接將時數記錄到專案的詳細資訊，請參閱[設定時程表和時數偏好設定](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)。
 
 若要在專案、任務或問題的時數區段中記錄時間：

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1475'
 ht-degree: 1%
 
 ---
@@ -69,8 +69,8 @@ ht-degree: 1%
 <tr>
    <td role="rowheader"><p>Adobe Workfront平台</p></td>
    <td>
-<p>貴組織的Workfront例項必須加入Adobe統一體驗，才能存取Workfront規劃的所有功能。</p>
-<p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront的Adobe統一體驗</a>。 </p>
+<p>貴組織的Workfront例項必須上線至Adobe Unified Experience，才能存取Workfront Planning的所有功能。</p>
+<p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">適用於Workfront的Adobe Unified Experience</a>。 </p>
    </td>
 
 </tr>
@@ -84,20 +84,20 @@ ht-degree: 1%
   </tr>
   <tr>
    <td role="rowheader"><p>存取層級設定</p></td>
-   <td> <p>檢視專案、方案和Portfolio的或更高存取權</p>  
+   <td> <p>檢視專案、方案和投資組合或取得更高的存取權</p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>物件許可權</p></td>
    <td>
    <p>在Workfront中，檢視專案、投資組合或方案的或更高許可權</a> </p> 
-   <p>在Workfront Planning中，檢視工作區許可權以檢視任何連線的記錄，或檢視Contribute或更高的工作區許可權，以連線或中斷記錄連線</a> </p>  
+   <p>在Workfront Planning中，檢視工作區許可權以檢視任何連線的記錄，或檢視工作區的Contribute或更高許可權以連線或中斷記錄連線</a> </p>  
    <p>系統管理員擁有所有Workfront Planning工作區的許可權，包括他們未建立的工作區</p> 
   </td>
   </tr>
 <tr>
    <td role="rowheader"><p>版面配置範本</p></td>
-   <td> <p>若要檢視Workfront物件的Planning區域或Planning區段，必須為所有使用者(包括Workfront管理員)指派一個版面配置範本，該範本包括主功能表中的Planning區域以及專案、投資組合和方案的Planning區域。 </p> 如需詳細資訊，請參閱<a href="/help/quicksilver/planning/access/access-overview.md">Adobe計畫存取總覽</a>。 </p>  </p>  
+   <td> <p>若要檢視Workfront物件的Planning區域或Planning區段，必須為所有使用者(包括Workfront管理員)指派一個版面配置範本，該範本包括主功能表中的Planning區域以及專案、投資組合和方案的Planning區域。 </p> 如需詳細資訊，請參閱<a href="/help/quicksilver/planning/access/access-overview.md">Adobe Planning存取總覽</a>。 </p>  </p>  
 </td>
   </tr>
  </tbody>
@@ -172,7 +172,10 @@ ht-degree: 1%
    * 記錄不再連線至Workfront物件。
    * Workfront物件也會從Workfront Planning的記錄連線欄位中移除。
    * 連線至Planning記錄的Workfront查閱欄位值也會一併刪除。
-1. 按一下&#x200B;**連線**，為連線的記錄型別連線更多記錄。 如需詳細資訊，請參閱[連線記錄](/help/quicksilver/planning/records/connect-records.md)。
+1. 按一下&#x200B;**連線**，為連線的記錄型別連線更多記錄。
+
+   如需詳細資訊，請參閱[連線記錄](/help/quicksilver/planning/records/connect-records.md)。
+1. （選擇性）如果您找不到要連線的記錄，而且您想要新增該記錄，請按一下[新增] **+ [新增]**&#x200B;以新增記錄。 如需詳細資訊，請參閱文章[建立記錄](/help/quicksilver/planning/records/create-records.md)中的「當您從其他記錄連線記錄時建立記錄」一節。
 
    會發生下列情況：
 
@@ -204,7 +207,7 @@ ht-degree: 1%
 * 您必須將具有Planning連線自訂欄位的自訂表單附加至可從Workfront Planning連線的Workfront物件（如果您有正確的存取權）。
 * Workfront Planning記錄型別必須先連線至Workfront物件型別。 如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
 * 您只能針對可具有Workfront Planning連線的物件，從Workfront物件的Planning連線欄位連線或中斷連線記錄。
-* 您必須擁有Workfront Planning工作區的Contribute許可權，才能從Workfront物件的Planning連線欄位連線或中斷連線記錄。
+* 您必須擁有Workfront Planning中工作區的Contribute許可權，才能從Workfront物件的Planning連線欄位連線或中斷連線記錄。
 * 大量編輯Workfront物件時，您無法編輯Planning連線欄位。
 
 ### 管理來自Planning連線欄位型別的記錄連線
@@ -233,7 +236,7 @@ ht-degree: 1%
    >
    >您無法將記錄新增至與Workfront物件（設定該欄位時所選取的物件除外）關聯的Planning連線欄位。
    >
-   >例如，您無法從專案的自訂表單將記錄新增至為Portfolio連線建立的Planning連線欄位。
+   >例如，您無法從專案的自訂表單將記錄新增至為Portfolio連線所建立的Planning連線欄位。
    >
    >有指示表示欄位的物件與您選取的物件不相符。
    >

@@ -7,9 +7,9 @@ description: Adobe Workfront會透過檢視專案在時間表中的進度來確�
 author: Alina
 feature: Work Management
 exl-id: 922ca4cf-c526-4704-9966-de67b0c36a2a
-source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
+source-git-commit: d85ccb9dbef343ecc8808412e89264b3ea6ab25e
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '390'
 ht-degree: 1%
 
 ---
@@ -32,14 +32,14 @@ Adobe Workfront會透過檢視專案在時間表中的進度來確定專案的�
   </tr> 
   <tr> 
    <td>有風險</td> 
-   <td> 如果下列<strong>全部</strong>為True，專案的進度狀態為<strong>有風險</strong>：<ul><li>預估與預計完成日期都是未來日期</li><li> 預估與預計完成日期均晚於計畫完成日期</li><li> 預估完成日期晚於預估完成日期</li></ul><p> <img src="assets/project-at-risk-progress-status-350x67.png" style="width: 350;height: 67;"> </p> </td> 
+   <td> 如果下列<strong>全部</strong>為True，專案的進度狀態為<strong>有風險</strong>：<ul><li>預估與預計完成日期都是未來日期</li><li> 預估完成日期晚於計畫完成日期與預計完成日期 </li></ul><p> <img src="assets/project-at-risk-progress-status-350x67.png" style="width: 350;height: 67;"> </p> </td> 
   </tr> 
   <tr> 
    <td>滞後</td> 
    <td> 如果下列<strong>全部</strong>為True，專案的進度狀態為<strong>落後</strong>：<ul><li>預估與預計完成日期都是未來日期</li><li> 預估和預計完成日期都晚於專案的計畫完成日期</li><li> 預估完成日期不晚於預計完成日期</li></ul> <p> <img src="assets/project-behind-progress-status-350x67.png" style="width: 350;height: 67;"> </p> </td> 
   </tr> 
   <tr> 
-   <td>延遲</td> 
+   <td>遲到</td> 
    <td> 
      如果下列<strong>任一</strong>為True，專案的進度狀態為<strong>延遲</strong>：<ul><li>專案已完成，且實際完成日期晚於計畫完成日期 <p> <img src="assets/project-late-progress-status-350x66.png" style="width: 350;height: 66;"> </p> </li> 
      <li> <p>專案未完成，且專案的規劃完成日期為過去的日期 <p> <img src="assets/project-late-progress-status-incomplete-status-350x66.png" style="width: 350;height: 66;"> </p> </li> 

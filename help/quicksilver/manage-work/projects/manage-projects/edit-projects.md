@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: ddcefb0baf10df9ae9ac3b29d7da1e2a070101c8
+source-git-commit: d85ccb9dbef343ecc8808412e89264b3ea6ab25e
 workflow-type: tm+mt
-source-wordcount: '7828'
+source-wordcount: '7703'
 ht-degree: 1%
 
 ---
@@ -169,7 +169,6 @@ ht-degree: 1%
    * [工作設定](#task-settings)
    * [問題設定](#issue-settings)
    * [存取](#access)
-   * [連結的資料夾](#linked-folders-conditional-availability) （條件可用性）
    * <span class="preview">[註解](#comment)</span>
 
 
@@ -667,22 +666,6 @@ ht-degree: 1%
    </table>
 
 1. 按一下「**儲存**」。
-
-### 連結的資料夾（可用性條件） {#linked-folders}
-
-連結資料夾功能會自動在Adobe Experience Manager Assets中建立資料夾，並將這些資料夾連結至Workfront。
-
-只有符合下列所有條件時，才會顯示此區段：
-
-* 您的組織已移轉至Adobe Admin Console
-* 您的組織已啟用並設定與Adobe Experience Manager的整合
-* 用來建立此專案的範本已啟用並設定了連結資料夾。
-
-如需有關編輯連結資料夾的說明，請參閱[在Experience Manager Assets整合中使用工作流程](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)一文中的[在專案中編輯工作流程值](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project)。
-
->[!NOTE]
->
->由於連結資料夾是在建立專案時建立的，因此編輯現有專案上的連結資料夾工作流程會無效。 在建立專案時按預期編輯這些值。
 
 <div class="preview">
 
