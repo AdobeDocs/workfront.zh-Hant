@@ -5,9 +5,9 @@ description: 應用程式內通知可讓您隨時瞭解兩種資訊：宣告通�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c5da114-33cc-422b-84f4-67bc7fcd67c6
-source-git-commit: 3210474976f435c75c8cfa38e263f9211b9d016d
+source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '971'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 0%
 >
 >您可以從Web應用程式和行動應用程式檢視所有應用程式內通知。 在行動應用程式中，只有部分通知會以推播通知的形式傳送。 如需行動應用程式中通知的詳細資訊，請參閱iOS的[[!DNL Adobe Workfront] ](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)或Android的[[!DNL Adobe Workfront] ](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)。
 
-1. 按一下[!DNL Workfront]右上角的編號圖示![](assets/notifications-icon-jewel.jpg)以開啟您的通知清單。
+1. 按一下[!DNL Workfront]右上角的編號圖示![通知圖示](assets/notifications-icon-jewel.jpg)以開啟您的通知清單。
 
    您最近的未讀通知會顯示在編號圖示下方，最新的未讀通知會顯示在頂端。
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 
    每個通知底部都會顯示[!UICONTROL 通知型別]和對應的識別圖示。 這些功能可協助您識別提及的[!DNL Workfront]專案所發生的情況，並在您有行動專案時提醒您：
 
-   * 宣告通知以[!UICONTROL 宣告]圖示表示。![](assets/announcement.png)
+   * 宣告通知以[!UICONTROL 宣告]圖示表示。 ![宣告圖示](assets/announcement.png)
 
    * 所有其他通知會以圖示表示，這些圖示會建議它們關聯的工作專案型別。
 
@@ -80,21 +80,21 @@ ht-degree: 0%
 
 1. （選擇性）如果您想要檢視收到通知的日期，請將滑鼠移至通知右上角的日期或時間指示器上。
 
-   ![](assets/hoveroverdate-350x437.png)
+   ![暫留在日期](assets/hoveroverdate-350x437.png)上
 
 1. 按一下您要檢視的通知：
 
    * 如果按一下通知是關於工作專案，則會開啟相關的[!DNL Workfront]物件，在&#x200B;**[!UICONTROL 更新]**&#x200B;標籤上顯示完整訊息。 您可以&#x200B;**[!UICONTROL 開始新的更新區域]**&#x200B;或&#x200B;**[!UICONTROL 輸入回覆]**。
 
-     ![](assets/object-opens-click-work-ntfctn-qs-350x183.png)
+     ![更新或回覆](assets/object-opens-click-work-ntfctn-qs-350x183.png)
 
-   * 如果您按的通知是針對公告![](assets/announcement.png)，則會顯示&#x200B;**[!UICONTROL 公告]**&#x200B;頁面，列出您的所有公告。 您點按的宣告即會選取在左側，而訊息則會顯示在右側。
+   * 如果您按的通知是針對公告![公告圖示](assets/announcement.png)，則會顯示&#x200B;**[!UICONTROL 公告]**&#x200B;頁面，列出您的所有公告。 您點按的宣告即會選取在左側，而訊息則會顯示在右側。
 
-     ![](assets/announcements-page-qs-350x210.png)
+     ![公告頁面](assets/announcements-page-qs-350x210.png)
 
 1. （選擇性）下載通知訊息中包含的任何附件，或將所有附件下載為ZIP檔。
 
-   ![](assets/download-attachments-350x106.png)
+   ![下載附件](assets/download-attachments-350x106.png)
 
 ## 認可通知
 
@@ -111,7 +111,7 @@ ht-degree: 0%
 
 若要確認通知，並從「通知」清單中將其清除，請執行下列步驟：
 
-1. 按一下[!DNL Workfront]右上角的編號圖示![](assets/notifications-icon-jewel.jpg)以開啟您的通知清單。
+1. 按一下[!DNL Workfront]右上角的編號圖示![通知圖示](assets/notifications-icon-jewel.jpg)以開啟您的通知清單。
 1. 執行下列其中一項：
 
    * 按一下通知左上角的藍色圓點。
@@ -123,7 +123,7 @@ ht-degree: 0%
 
 若要檢視您已確認的通知，請執行下列步驟：
 
-1. 按一下[!DNL Workfront]右上角的編號圖示![](assets/notifications-icon-jewel.jpg)以開啟您的通知清單。
+1. 按一下[!DNL Workfront]右上角的編號圖示![通知圖示](assets/notifications-icon-jewel.jpg)以開啟您的通知清單。
 1. 按一下通知清單右下角的&#x200B;**[!UICONTROL 所有通知]**。
 1. 在出現的&#x200B;**[!UICONTROL 通知]**&#x200B;頁面上，向下捲動以檢視您過去的通知。
 1. （選擇性）若要將已確認的通知帶回您的通知清單，請按一下通知旁邊的藍色圓圈。
@@ -139,7 +139,7 @@ ht-degree: 0%
 
 ### 刪除佈告
 
-1. 按一下[!DNL Workfront]右上角的編號圖示![](assets/notifications-icon-jewel.jpg)以開啟您的通知清單。
+1. 按一下[!DNL Workfront]右上角的編號圖示![通知圖示](assets/notifications-icon-jewel.jpg)以開啟您的通知清單。
 1. 按一下&#x200B;**[!UICONTROL 公告]**&#x200B;或&#x200B;**[!UICONTROL 檢視所有公告]**。
 
 1. 在出現的&#x200B;**[!DNL Announcements]**&#x200B;頁面上，按一下左側清單中您要刪除的宣告，然後按一下頁面右上角的&#x200B;**[!UICONTROL 刪除]**。
@@ -148,7 +148,7 @@ ht-degree: 0%
 
 您可以存取過去30天內已刪除的通知。
 
-1. 按一下[!DNL Workfront]右上角的編號圖示![](assets/notifications-icon-jewel.jpg)以開啟您的通知清單。
+1. 按一下[!DNL Workfront]右上角的編號圖示![通知圖示](assets/notifications-icon-jewel.jpg)以開啟您的通知清單。
 1. 按一下&#x200B;**[!UICONTROL 公告]**&#x200B;或&#x200B;**[!UICONTROL 檢視所有公告]**。
 
 1. 在顯示的&#x200B;**[!UICONTROL 公告]**&#x200B;頁面中，按一下&#x200B;**[!UICONTROL 已刪除]**。

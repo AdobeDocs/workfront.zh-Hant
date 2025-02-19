@@ -5,9 +5,9 @@ description: 如果您想從預覽Sandbox環境接收電子郵件通知，您必
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e5c7e387-d08d-42f6-a9e6-f44e514ef902
-source-git-commit: f3ba39e02d690dd3a0d50ecdb22af0c12a3d4ffb
+source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '522'
 ht-degree: 1%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 1%
 
    或
 
-   針對多位使用者：按一下Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 使用者]** ![](assets/users-icon-in-main-menu.png)。  然後，選取多位使用者並按一下&#x200B;**[!UICONTROL 編輯]**。
+   針對多位使用者：按一下Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 使用者]** ![使用者圖示](assets/users-icon-in-main-menu.png)。  然後，選取多位使用者並按一下&#x200B;**[!UICONTROL 編輯]**。
 
 1. 按一下&#x200B;**[!UICONTROL 偏好設定]**。
 1. 選取&#x200B;**[!UICONTROL 接收來自此測試環境的電子郵件]**。

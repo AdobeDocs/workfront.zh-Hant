@@ -7,9 +7,9 @@ description: 您可以將提醒通知與數個不同物件型別建立關聯：�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: ea04d807-1a9f-4a23-96de-cd83f0821ba0
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '290'
 ht-degree: 1%
 
 ---
@@ -56,14 +56,14 @@ ht-degree: 1%
 ## 將提醒通知附加至物件
 
 1. 移至您要附加提醒通知的物件。
-1. 按一下編輯圖示![](assets/edit-icon.png)。
+1. 按一下「編輯」圖示![編輯圖示](assets/edit-icon.png)。
 1. 在出現的&#x200B;**[!UICONTROL 編輯]**&#x200B;方塊的左側面板中，按一下&#x200B;**[!UICONTROL 設定]**。
 
 1. 在&#x200B;**[!UICONTROL 提醒通知]**&#x200B;下，選取您要附加至物件的通知。
 
    在此範例中，正在編輯的物件是工作：
 
-   ![](assets/reminder-notification-select-one-350x213.png)
+   ![提醒通知](assets/reminder-notification-select-one-350x213.png)
 
    如果[!DNL Workfront]管理員已建立多個提醒通知，您可以將多個通知附加至單一物件。
 

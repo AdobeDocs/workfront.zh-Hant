@@ -7,9 +7,9 @@ description: 本文說明如何在使用者設定檔中管理電子郵件通知�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
-source-git-commit: f9afe7c8f04777dd547ea1e202e7844bdfd3518e
+source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '635'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-您的Adobe[!DNL Workfront]管理員會設定當事件在Workfront中發生時，使用者會收到哪些電子郵件通知（如[[!UICONTROL 為系統中的每個人設定事件]通知中所述](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)）。
+您的Adobe [!DNL Workfront]管理員會設定當事件在Workfront中發生時，使用者會收到哪些電子郵件通知（如[[!UICONTROL 為系統中的每個人設定事件]通知中所述](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)）。
 
 您的群組管理員也可以設定為您和[!UICONTROL 主群組]中的使用者啟用哪些通知。 如果您的[!UICONTROL 主群組]是子群組，您會收到針對群組上方最上層群組啟用的通知。
 
@@ -67,13 +67,13 @@ ht-degree: 0%
 
 {{step1-click-profile-pic}}
 
-1. 按一下您名稱旁的&#x200B;**[!UICONTROL 更多]**&#x200B;圖示![](assets/more-icon.png)，然後按一下&#x200B;**[!UICONTROL 編輯]**。
+1. 按一下您名稱旁的&#x200B;**[!UICONTROL 更多]**&#x200B;圖示![更多圖示](assets/more-icon.png)，然後按一下&#x200B;**[!UICONTROL 編輯]**。
 
 1. 在顯示的&#x200B;**[!UICONTROL 編輯人員]**&#x200B;方塊中，移至&#x200B;**[!UICONTROL 通知]**&#x200B;區段。
 
 1. 按一下類別可檢視與該類別相關的通知設定。
 
-   ![](assets/my-profile-notifications.png)
+   ![我的設定檔通知](assets/my-profile-notifications.png)
 
 1. 選取或取消選取右側的核取方塊，以指定您想要每天接收或不接收通知、立即接收通知，或兩者都接收。
 
@@ -90,13 +90,13 @@ ht-degree: 0%
 
 1. 如果您選取任何要以每日摘要傳送的通知，請在&#x200B;**[!UICONTROL 電子郵件每日摘要]**&#x200B;後選單中的&#x200B;**[!UICONTROL 通知]**&#x200B;區段頂端選取您想要收到通知的當日時間。
 
-   ![](assets/digest-time-stamp-my-settings-350x78.png)
+   ![每日摘要選擇一天中的時間](assets/digest-time-stamp-my-settings-350x78.png)
 
    每日摘要包含符合在所選時間之前24小時通知標準的事件。 您會收到每一種通知型別的每日摘要電子郵件。\
    每日摘要可能會在您選取的時間後送達，端視系統中排入傳送佇列的電子郵件數量而定。 列出的時間是您瀏覽器設定中指定的當地時間。
 
 1. （條件式與選擇性）在預覽環境中修改電子郵件通知設定時，啟用&#x200B;**[!UICONTROL 接收來自此測試環境的電子郵件]**&#x200B;設定以接收電子郵件。 系統不會從預覽環境自動產生電子郵件。
 
-   ![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
+   ![接收來自sndbox](assets/receive-emails-from-sandbox-setting-edit-350x223.png)的電子郵件
 
 1. 按一下「**[!UICONTROL 儲存變更]**」。
