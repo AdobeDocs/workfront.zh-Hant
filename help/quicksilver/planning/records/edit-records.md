@@ -6,14 +6,13 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 799115d836d67a81fe69cd04c8e75014d48d2443
+source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
 workflow-type: tm+mt
-source-wordcount: '2007'
+source-wordcount: '2156'
 ht-degree: 0%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # 編輯記錄
 
@@ -71,8 +70,8 @@ ht-degree: 0%
  <tr> 
    <td role="rowheader"><p>Adobe Workfront平台</p></td> 
    <td> 
-<p>貴組織的Workfront例項必須加入Adobe統一體驗，才能存取Workfront規劃的所有功能。</p> 
-<p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront的Adobe統一體驗</a>。 </p> 
+<p>貴組織的Workfront例項必須上線至Adobe Unified Experience，才能存取Workfront Planning的所有功能。</p> 
+<p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">適用於Workfront的Adobe Unified Experience</a>。 </p> 
    </td> 
    </tr> 
   </tr> 
@@ -89,7 +88,7 @@ ht-degree: 0%
   </tr> 
 <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
-   <td>  <p>Contribute或更高的工作區許可權</a> </p>  
+   <td>  <p>貢獻或更高的工作區許可權</a> </p>  
    <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p>  </td> 
   </tr> 
 <tr> 
@@ -296,11 +295,11 @@ ht-degree: 0%
 
    從表格檢視中，按一下第一欄中的&#x200B;**開啟詳細資料**&#x200B;圖示![](assets/open-details-icon-in-table-name-field.png)。 記錄的預覽會在檢視中開啟。
 
-   <!--<div class="preview">
+   <div class="preview">
 
-    ![](assets/details-box.png) 
+   ![](assets/details-box.png)
 
-    </div>-->
+   </div>
 
 1. （選擇性）按一下記錄標題右側的&#x200B;**更多**&#x200B;功能表，然後按一下&#x200B;**重新命名**。 這會更新顯示為記錄標題的欄位。
 
@@ -321,17 +320,17 @@ ht-degree: 0%
 
    Workfront會自動儲存您的變更。
 
-   <!--1. <span class="preview"> (Optional) Click the **real-time indicator** ![](assets/real-time-indicator-icon.png) in the upper-right corner of the record's preview box, then enable the **Show collaborators** setting to highlight the fields being edited by others in real time. 
+1. <span class="preview"> （選擇性）按一下記錄預覽方塊右上角的&#x200B;**即時指標** ![](assets/real-time-indicator-icon.png)，然後啟用&#x200B;**顯示共同作業人員**&#x200B;設定以即時反白顯示其他人正在編輯的欄位。
 
-    The names and avatars of all users accessing the record at the same time display in this area.  
+   此區域會顯示同時存取記錄的所有使用者的名稱和頭像。
 
-    When the setting is disabled, the avatars and names are listed in the real-time indicator area, and the fields that are being edited are not highlighted. </span>
-    
-    <div class="preview">
+   停用此設定時，顯示圖片和名稱會列在即時指標區域中，而且不會反白顯示正在編輯的欄位。</span>
 
-    ![](assets/real-time-indicator-expanded-record-preview-box.png)
+   <div class="preview">
 
-    </div>-->
+   ![](assets/real-time-indicator-expanded-record-preview-box.png)
+
+   </div>
 
 1. （選擇性）按一下&#x200B;**匯出**&#x200B;功能表![](assets/export-icon-in-record-details-page.png)以匯出記錄的詳細資料。 如需詳細資訊，請參閱[匯出記錄的詳細資料](/help/quicksilver/planning/records/export-the-record-page.md)。
 
@@ -358,8 +357,6 @@ ht-degree: 0%
      ![](assets/contextual-menu-for-record-row.png)
 
      記錄頁面隨即開啟。
-
-     <!--update the screen shot below at preview-->
 
      ![](assets/details-page.png)
 
@@ -391,17 +388,17 @@ ht-degree: 0%
 
    Workfront會自動儲存您的變更。
 
-   <!--1. <span class="preview"> (Optional) Click the **real-time indicator** ![](assets/real-time-indicator-icon.png) in the upper-right corner of the record's page, then enable the **Show collaborators** setting to highlight the fields being edited by others in real time. 
+1. <span class="preview"> （選擇性）按一下記錄頁面右上角的&#x200B;**即時指標** ![](assets/real-time-indicator-icon.png)，然後啟用&#x200B;**顯示共同作業人員**&#x200B;設定以即時反白顯示其他人正在編輯的欄位。
 
-    The names and avatars of all users accessing the record at the same time display in this area.  
+   此區域會顯示同時存取記錄的所有使用者的名稱和頭像。
 
-    When the setting is disabled, the avatars and names are listed in the real-time indicator area, and the fields that are being edited are not highlighted. </span>
-    
-    <div class="preview">
+   停用此設定時，顯示圖片和名稱會列在即時指標區域中，而且不會反白顯示正在編輯的欄位。</span>
 
-    ![](assets/real-time-indicator-expanded-record-preview-box.png)
+   <div class="preview">
 
-    </div>-->
+   ![](assets/real-time-indicator-expanded-record-preview-box.png)
+
+   </div>
 
 1. （選擇性）按一下&#x200B;**匯出**&#x200B;功能表![](assets/export-icon-in-record-details-page.png)以匯出記錄的詳細資料。 如需詳細資訊，請參閱[匯出記錄的詳細資料](/help/quicksilver/planning/records/export-the-record-page.md)。
 

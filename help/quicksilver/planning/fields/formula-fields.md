@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
+source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 8%
+source-wordcount: '651'
+ht-degree: 7%
 
 ---
 
@@ -230,16 +230,13 @@ Adobe Workfront Planning公式欄位支援Workfront計算欄位的大部分運�
 <code>{ID}</code>
 </p>
    </td></tr>
-  <!--
-   <tr> 
+  <tr> 
    <td><strong>JSONELEMENT</strong> </td> 
-   <td> <p>Returns the data from JSON by the provided JSONPath. If the JSONPath doesn't exist in the JSON, an empty result will be returned. </p> <p>The expression is formatted as follows:
+   <td> <p>由提供的JSONPath從JSON傳回資料。 如果JSON中不存在JSONPath，則會傳回空白結果。 </p> <p>運算式的格式如下：
       <code>JSONELEMENT(JSONString, JSONPathString) </code>
    </p>
    </td></tr>
-   -->
-
-<tr> 
+  <tr> 
    <td><strong>SETTIMEZONE</strong> </td> 
    <td> <p>將日期和時間的時區設定為特定時區。</p> <p>運算式的格式如下：
 

@@ -6,9 +6,9 @@ description: 專案是Adobe Workfront中的大型工作單位。 您可以從頭
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
+source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
 workflow-type: tm+mt
-source-wordcount: '1382'
+source-wordcount: '1388'
 ht-degree: 1%
 
 ---
@@ -114,7 +114,7 @@ ht-degree: 1%
 
   如需有關使用Kick-Start匯入專案的資訊，請參閱[Kick-Start情境：簡單專案和任務匯入準備](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md)。
 
-* 從「Adobe Workfront情境規劃工具」中的情境Publish方案。
+* 從Adobe Workfront情境規劃工具中的情境發佈方案。
 
   「情境規劃工具」需要下列其中一項：
 
@@ -129,7 +129,7 @@ ht-degree: 1%
 
   如需有關存取Workfront Planning的資訊，請參閱[存取總覽](/help/quicksilver/planning/access/access-overview.md)。
 
-  如需透過將專案新增至記錄來建立專案的資訊，請參閱文章[從Workfront Planning建立Workfront物件](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)中的「連結專案與Workfront Planning的記錄時建立專案」一節
+  如需透過將專案新增至記錄來建立專案的資訊，請參閱文章[當您連線至記錄時，從Workfront Planning建立Workfront物件](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)中的「連線至Workfront Planning的記錄時建立專案」一節
 
 ## 先決條件
 

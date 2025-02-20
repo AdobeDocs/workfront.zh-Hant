@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
+source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
 workflow-type: tm+mt
-source-wordcount: '2956'
+source-wordcount: '3082'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # 連接記錄
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -112,7 +112,8 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><p>存取層級設定</p></td> 
-   <td> <p>Adobe Workfront Planning物件沒有存取層級控制</p>   
+   <td> <p>Adobe Workfront Planning物件沒有存取層級控制</p> 
+   <p>檢視或更高許可權給您要從Workfront連結的物件型別。</p>   
 </td> 
   </tr> 
 <tr> 
@@ -169,7 +170,7 @@ ht-degree: 1%
 1. （選擇性）將記錄新增至表格的新列，以將記錄新增至您選取的記錄型別。 如需詳細資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md)。
 1. （視條件而定）將選取的記錄型別與其他記錄型別連線後，請移至記錄的已連線欄位，然後按一下該欄位內部，或按一下&#x200B;**連線**&#x200B;以新增記錄。
 
-   ![](assets/connect-other-records-smaller-box-in-table-view.png)
+   ![連線資料表檢視中的其他記錄](assets/connect-other-records-smaller-box-in-table-view.png)
 
 1. 執行下列其中一項：
 
@@ -182,7 +183,13 @@ ht-degree: 1%
    >
 
 1. （條件式）如果您在連線記錄型別時為「連線」型別選取「一對多」或「一對一」，而您嘗試連線記錄或已在其他地方連線的物件，您將收到警告，再次連線會將其從原始連線中移除。 按一下&#x200B;**連線**&#x200B;以允許移除並連線記錄，或按一下&#x200B;**取消**&#x200B;返回欄位並選取其他記錄。
-1. （選擇性）如果您找不到要連線的記錄或物件，而且您想要新增該記錄，請按一下[新增] **+ [新增]**&#x200B;以新增記錄。 如需詳細資訊，請參閱文章[建立記錄](/help/quicksilver/planning/records/create-records.md)中的「當您從其他記錄連線記錄時建立記錄」一節。
+1. （選擇性）如果您找不到要連線的物件，而且您想要新增該物件，請<span class="preview">按一下&#x200B;**+新增**</span>
+
+   或
+
+   開始輸入物件的名稱，然後按一下&#x200B;**+新增**&#x200B;以建立並新增物件。
+
+   如需詳細資訊，請參閱文章[建立記錄](/help/quicksilver/planning/records/create-records.md)中的「當您從其他記錄連線記錄時建立記錄」一節。
 
    >[!TIP]
    >
@@ -251,7 +258,7 @@ ht-degree: 1%
 
 1. （視條件而定）將選取的記錄型別與Workfront物件型別連線後，請移至記錄上的已連線欄位，然後按一下該欄位，或按一下&#x200B;**連線**&#x200B;以新增Workfront物件。
 
-   ![](assets/connect-projects-smaller-box-in-table-view.png)
+   ![在資料表檢視中連線專案](assets/connect-projects-smaller-box-in-table-view.png)
 
 1. 執行下列其中一項：
 
@@ -262,7 +269,11 @@ ht-degree: 1%
    >
    >您可以從檢視開啟記錄頁面、連按兩下連結的記錄欄位，或按一下欄位中的&#x200B;**連線**&#x200B;以從連線的物件型別新增物件。
 
-1. （選擇性）如果您找不到要連線的物件，而且您想要新增該物件，請按一下[新增] **+ [新增]**&#x200B;以建立並新增專案或投資組合。
+1. （選擇性）如果您找不到要連線的物件，而且您想要新增該物件，請<span class="preview">按一下&#x200B;**+新增**</span>
+
+   或
+
+   開始輸入物件的名稱，然後按一下&#x200B;**+新增**&#x200B;以建立並新增專案、投資組合或方案。
 
    如需詳細資訊，請參閱[從Workfront Planning建立Workfront物件](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
 
@@ -415,7 +426,7 @@ ht-degree: 1%
 1. （選擇性）按一下&#x200B;**在新索引標籤**&#x200B;中開啟![](assets/open-details-in-a-new-tab-icon.png)圖示以開啟紀錄的頁面。
 1. 按一下記錄預覽或頁面中的&#x200B;**連線**&#x200B;索引標籤。
 
-   ![](assets/connections-tab-on-record-in-workfront-planning.png)
+   在Workfront Planning中記錄的![連線標籤](assets/connections-tab-on-record-in-workfront-planning.png)
 
    連結至所選記錄型別的所有記錄或物件型別都會顯示為區段。 已連線的記錄或物件會顯示在卡片上的記錄或物件型別名稱下。
 
@@ -428,7 +439,13 @@ ht-degree: 1%
 1. （選擇性）按一下區段左側的向下箭頭以收合區段。
 
 1. （視條件而定）按一下&#x200B;**連線**&#x200B;以新增更多相同型別的記錄或物件。
-1. （選擇性）如果您找不到要連線的記錄或物件，而且您想要新增該記錄，請按一下[新增] **+ [新增]**&#x200B;以新增記錄。 如需詳細資訊，請參閱文章[建立記錄](/help/quicksilver/planning/records/create-records.md)中的「當您從其他記錄連線記錄時建立記錄」一節。
+1. （選擇性）如果您找不到要連線的記錄或物件，而且您想要新增它，請<span class="preview">按一下「**+新增」**</span>
+
+   或
+
+   開始輸入物件的名稱，然後按一下&#x200B;**+新增**&#x200B;以建立物件並將其新增到記錄中。
+
+   如需詳細資訊，請參閱文章[建立記錄](/help/quicksilver/planning/records/create-records.md)中的「當您從其他記錄連線記錄時建立記錄」一節。
 1. 請依照前幾節所述的步驟，從Workfront Planning連線記錄，或從Workfront或Experience Manager Assets連線物件。
 記錄與物件會立即新增。
 1. （選擇性）將滑鼠停留在記錄或物件的連線卡片上，然後按一下&#x200B;**中斷連線記錄**&#x200B;圖示![](assets/disconnect-icon-with-tooltip.png)以中斷連線至選取的記錄。

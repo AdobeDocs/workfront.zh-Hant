@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
 recommendations: noDisplay, noCatalog
-source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
+source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '142'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,8 @@ ht-degree: 1%
 下列文章說明如何在Adobe Workfront Planning中建立和管理記錄及其資訊：
 
 * [建立記錄](/help/quicksilver/planning/records/create-records.md)
-* [從Workfront Planning建立Workfront物件](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
+* [當您將Workfront物件連線至記錄時，從Workfront Planning建立它們](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
+* [使用Adobe Workfront Planning記錄自動化建立物件](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
 * [編輯記錄](/help/quicksilver/planning/records/edit-records.md)
 * [刪除記錄](/help/quicksilver/planning/records/delete-records.md)
 * [還原已刪除的記錄](/help/quicksilver/planning/records/restore-deleted-records.md)
