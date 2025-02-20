@@ -41,7 +41,7 @@ For more information about building reports, see[Create and manage reports](../.
 
 When creating a report, you can select what objects or fields associated with those objects you want to show in your report. Those will become your report columns, groupings, filters, or prompts. You can build standalone views, filters, and groupings for lists of objects, as well, in the same manner you would build them inside the report builder.&nbsp;
 
-![](assets/4-350x176.png)
+![Build views filters or groupings](assets/4-350x176.png)
 
 The following table is a list of commonly used objects and fields that you can display in reports and lists. Not all fields are available on all objects:&nbsp;&nbsp;
 

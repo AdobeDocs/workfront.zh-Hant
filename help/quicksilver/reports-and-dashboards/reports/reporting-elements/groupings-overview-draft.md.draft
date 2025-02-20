@@ -39,7 +39,7 @@ You can add up to three groupings to a report or list. You can organize your inf
 
 In a grouping, the first grouping is darker  gray  and the second and third groupings are lighter  gray .  All groupings appear the same, whether they were created in the standard builder or the beta builder. You cannot customize the color of the highlight for your grouping, or the font of the grouping name. The number in parentheses after the grouping name represents the number of results under that grouping. If your report or list spans multiple pages, ensure that you display *All* the results to get an accurate count for your results under each grouping.
 
-![](assets/nwe-list-threegroupings-350x78.png)
+![Three groupings](assets/nwe-list-threegroupings-350x78.png)
 
 Consider the following when working with groupings:
 
