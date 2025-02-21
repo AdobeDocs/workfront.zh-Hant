@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: d82bb8a2-a2a6-43d6-a62e-e90f69229533
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: 9259c694eab8e5970e512434735cf9b0af3926a6
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '124'
 ht-degree: 0%
 
 ---
@@ -32,8 +32,8 @@ ht-degree: 0%
    * [共用畫布控制面板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
 * [畫布儀表板報告型別](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
    * [新增現有報表至畫布控制面板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
-   * [在畫布控制面板中建立KPI報告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
-   * [在畫布儀表板中建立圖表報告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
-   * [在畫布儀表板中建立表格報告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
-   * [將擱置核准報告新增至畫布控制面板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)
+  <!--* [Build a KPI report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
+    * [Build a chart report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
+    * [Build a table report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
+    * [Add a pending approvals report to a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)-->
 

@@ -6,9 +6,9 @@ description: 您可以建立控制面板，以快速存取Adobe Workfront中的�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '495'
 ht-degree: 1%
 
 ---
@@ -83,7 +83,7 @@ ht-degree: 1%
     <tbody>
      <tr>
       <td role="rowheader"><strong>姓名</strong></td>
-      <td><p>這是您控制面板的名稱。</p><p>如果您未指定名稱，則預設情況下，圖示板上第一個報表的名稱會變成圖示板的名稱。</p></td>
+      <td><p>這是您控制面板的名稱。 我們建議僅使用UTF-8字元以避免相容性問題。</p><p>如果您未指定名稱，則預設情況下，圖示板上第一個報表的名稱會變成圖示板的名稱。</p></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>說明 (選擇性)</strong></td>

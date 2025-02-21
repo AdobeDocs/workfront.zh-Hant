@@ -6,9 +6,9 @@ description: 您可以透過新增或刪除專案的連結來修改現有行事�
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 494d040c-bd1d-4356-824f-a75890803617
-source-git-commit: d90459cb4f6fb1960552f0ab174e963582312b5c
+source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -62,9 +62,11 @@ ht-degree: 0%
 
 {{step1-to-calendars}}
 
-1. （選擇性）若要變更行事曆報告的名稱，請按一下[!UICONTROL 行事曆名稱]欄位，然後進行所需的變更。
+1. （選擇性）若要變更行事曆報告的名稱，請按一下[!UICONTROL 行事曆名稱]欄位，然後進行所需的變更。 我們建議僅使用UTF-8字元以避免相容性問題。
+
    ![變更報表名稱](assets/titlechange-250x230.png)
-如果您已與其他使用者或團隊共用行事曆報告，則已修改的行事曆名稱會自動更新其行事曆檢視。
+
+   如果您已與其他使用者或團隊共用行事曆報告，則已修改的行事曆名稱會自動更新其行事曆檢視。
 
 1. （選擇性）若要將專案新增至行事曆報表：
 

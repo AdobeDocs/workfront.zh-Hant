@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
+source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '1093'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,56 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 如需針對Adobe Workfront Planning發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## 新運算式已新增到公式欄位
+
+>[!NOTE]
+>
+>預覽版本： 2025年2月20日；適用於所有客戶的生產版本： 2025年2月20日
+
+我們已在公式欄位中新增JSONELEMENT運算式。 此運算式會由提供的JSONPath從JSON傳回資料。
+
+如需詳細資訊，請參閱[公式欄位概述](/help/quicksilver/planning/fields/formula-fields.md)。
+
+## 記錄的詳細資料預覽或頁面中的即時狀態指標
+
+>[!NOTE]
+>
+>預覽版本： 2025年2月20日；快速發行生產：25.3版（2025年3月）；每季生產：25.4版（2025年4月）
+
+為了瞭解其他使用者在記錄的預覽或詳細資訊頁面中工作時編輯了哪些資訊，我們針對Workfront Planning的這個區域引入了即時顯示狀態指標。
+
+由其他使用者編輯的欄位現在會反白顯示，而其他使用者的頭像將會顯示在預覽或詳細資訊頁面的右上角。
+
+如需詳細資訊，請參閱[編輯記錄](/help/quicksilver/planning/records/edit-records.md)。
+
+## 增強功能可在將Workfront物件連線至Planning記錄時建立這些物件
+
+>[!NOTE]
+>
+>預覽版本： 2025年2月20日；快速發行生產：25.3版（2025年3月）；每季生產：25.4版（2025年4月）
+
+現在，當您從現有的連線欄位將專案、投資組合和計畫連結到記錄時，就可以輕鬆建立這些專案、投資組合和計畫。
+
+這項改善提供下列功能：
+
+* 連線至Planning記錄Workfront專案、投資組合或其他Planning記錄時的永久「新增」按鈕
+
+* 能夠使用連線欄位中的持續新增按鈕新增程式並將它們與投資組合相關聯。
+
+如需詳細資訊，請參閱[從Workfront Planning建立Workfront物件](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)。
+
+## 設定自動化，以根據現有記錄建立物件和記錄
+
+>[!NOTE]
+>
+>預覽版本： 2025年2月20日；快速發行生產：25.3版（2025年3月）；每季生產：25.4版（2025年4月）
+
+身為工作區管理員，您現在可以設定記錄型別的自訂自動化，以自動建立連線的Workfront物件或Planning記錄。
+
+建立的物件或記錄會立即連線到設定並觸發自動化的記錄。
+
+如需詳細資訊，請參閱[使用Adobe Workfront Planning記錄自動化建立物件](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)。
 
 ## 檢查並確認AI助理採取的動作
 
@@ -41,18 +91,6 @@ ht-degree: 0%
 Workfront公式欄位現在提供下列運算式：ARRAY、ARRAYLENGTH、ARRAYELEMENT。 公式編輯器中提供每個運算式的定義和範例。
 
 如需詳細資訊，請參閱[公式欄位概述](/help/quicksilver/planning/fields/formula-fields.md)。
-
-<!--## Real-time presence indicators in a record's details preview or page
-
->[!NOTE]
->
->Preview release: January 30, 2025; Production for fast release: With the 25.2 release (February 2025); Production for quarterly release: With the 25.4 release (April 2025)
-
-To understand what information is edited by other users when working in a record's preview or details page, we have introduced real-time presence indicators for this area of Workfront Planning.
-
-The field edited by another user will now be highlighted, and other users' avatars will be visible to you in the upper-right corner of the preview or details page.
-
-For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).-->
 
 ## 與團隊、工作角色和公司共用Workfront Planning專案
 

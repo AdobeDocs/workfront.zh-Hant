@@ -6,9 +6,9 @@ description: 建立「畫布控制面板」後，您可以新增報表，以各�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 840f2e1f-592f-44c1-b2e9-7201e424209a
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '555'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 1. 在出現的「**新增報告**」視窗中，按一下您想要新增至畫布控制面板的報告型別下方的「**新增**」。
 
-1. 根據您選取的報告型別繼續設定報告。 如需設定每種報表型別的詳細資訊，請參閱[畫布儀表板報表型別](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)。 如果您在完成設定之前關閉視窗，則仍會將空白報表新增至畫布控制面板。 您稍後可以按一下空白報表中央的&#x200B;**組態**&#x200B;按鈕，完成設定。
+1. 根據您選取的報告型別繼續設定報告。 <!--For detailed information about setting up each type of report, see [Canvas Dashboard report types](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md).-->如果您在完成設定前關閉視窗，空白報表仍會新增至您的畫布控制面板。 您稍後可以按一下空白報表中央的&#x200B;**組態**&#x200B;按鈕，完成設定。
 
 ## 在畫布控制面板中移動報表或調整報表大小
 

@@ -6,9 +6,9 @@ description: 您可以直接從報表將報表新增至新的或現有的儀表�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 42d5945d-66c5-430b-8a37-dca9c2973716
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '345'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!-- Audited: 1/2025 -->
 
-您可以直接從報表將報表新增至新的或現有的儀表板。 您也可以新增現有報告至儀表板，如[建立儀表板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)中所述。
+您可以直接從報表將報表新增至新的或現有的儀表板。 您也可以新增現有報告至儀表板，如[建立儀表板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)中所述。 請注意，最多可以將25個報告、行事曆或外部頁面新增到單一儀表板。
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 您必須先建立報表，才能將其新增到控制面板。
 
-如需建立報告的詳細資訊，請參閱[建立報告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md)。
+如需建立報告的詳細資訊，請參閱[建立報告](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-report.md)。
 
 ## 新增報表至現有儀表板
 

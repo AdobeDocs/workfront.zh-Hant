@@ -6,9 +6,9 @@ description: 當校訂指派給您進行核準時，它會顯示於行動應用�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 4ab8dfd0-0a1f-425d-9e05-8e8134ce930a
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '760'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,10 @@ ht-degree: 0%
 1. 在詳細資訊頁面上，選取&#x200B;**[!UICONTROL 前往校訂]**。
 
    ![校訂任務](assets/mobile-prooftask1-338x516.png)
+
+   >[!NOTE]
+   >
+   >無法在行動應用程式中開啟視訊校樣。
 
 1. 檢閱檔案校訂。
 1. （選擇性）選取檔案右上角的![[!UICONTROL 單頁圖示]](assets/mobile-proofpagingicon1-25x36.png)，從單頁檢視變更為連續檢視。 選取「![[!UICONTROL 連續頁面」圖示]](assets/mobile-proofpagingicon2-25x25.png)，變更回單頁檢視。
