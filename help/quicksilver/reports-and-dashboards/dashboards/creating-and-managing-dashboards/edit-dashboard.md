@@ -6,10 +6,10 @@ description: 控制面板的用途是提供資訊的快速存取。 您可將報
 author: Nolan
 feature: Reports and Dashboards
 exl-id: de15ab45-4bcd-4638-b3d7-fc70a0866d2d
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 1%
+source-wordcount: '497'
+ht-degree: 2%
 
 ---
 
@@ -86,7 +86,7 @@ ht-degree: 1%
 1. 前往您要編輯的控制面板。
 1. 按一下&#x200B;**儀表板動作**，然後按一下&#x200B;**編輯**。
 
-   ![](assets/unshimmed-edit-dashboard.png)
+   ![編輯儀表板](assets/unshimmed-edit-dashboard.png)
 
    >[!TIP]
    >

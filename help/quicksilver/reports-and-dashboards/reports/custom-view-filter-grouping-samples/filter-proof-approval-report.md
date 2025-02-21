@@ -7,9 +7,9 @@ description: 在校訂核准報告中，您可以使用目前檔案版本篩選�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e844d3ed-75ee-4a0f-a28c-a3d22f203502
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 0%
    <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Sarah: Add sub bullets for report creation.</p>
    -->
 
-   若要建立您自己的校訂核准報告，請按一下右上角的&#x200B;**主功能表**&#x200B;圖示![](assets/main-menu-icon.png)或左上角的&#x200B;**主功能表**&#x200B;圖示![](assets/lines-main-menu.png) （如果可用），然後按一下&#x200B;**報告** ![](assets/reports-in-main-menu.png)。
+   若要建立您自己的校訂核准報告，請按一下右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)或左上角的&#x200B;**主功能表**&#x200B;圖示![主功能表行](assets/lines-main-menu.png) （如果可用），然後按一下&#x200B;**報告** ![報告圖示](assets/reports-in-main-menu.png)。
 
 1. 按一下&#x200B;**新報告**。 物件型別清單隨即顯示。
 1. 按一下清單中的&#x200B;**校訂核准**。

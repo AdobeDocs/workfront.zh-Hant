@@ -7,9 +7,9 @@ description: 您可以在報告或清單中顯示與物件相關聯的使用者�
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 9abdaafb-da2c-4b5d-9117-59afa4a1e71f
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '674'
 ht-degree: 2%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">專案組合</td> 
-   <td>您可以在專案報告中顯示所有使用者及使用者在專案中履行的職務角色，並依Portfolio將報告分組。 您無法在專案報告中依使用者或其相關聯的工作角色來篩選。</td> 
+   <td>您可以在專案報告中顯示所有使用者及使用者在專案中履行的工作角色，並依Portfolio將報告分組。 您無法在專案報告中依使用者或其相關聯的工作角色來篩選。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">計劃</td> 
@@ -55,7 +55,7 @@ ht-degree: 2%
 
 您可以在專案清單或報告的檢視中顯示專案中與相關聯的所有使用者。 這包括專案「人員」區段中列出的所有使用者。 在專案報告中將其指派給專案上的任務或問題時，您也可以檢視其關聯的角色。
 
-![](assets/project-with-user-and-role-information-report-350x100.png)
+![包含使用者和角色資訊的專案](assets/project-with-user-and-role-information-report-350x100.png)
 
 如需有關建立專案報告以顯示專案上所有使用者及其角色的資訊，請參閱[檢視：具有工作角色的專案使用者清單](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-user-list.md)。
 
@@ -65,7 +65,7 @@ ht-degree: 2%
 
 您可以將「工作總攬」欄位新增至檢視，以在任務清單或報表的檢視中顯示指派給任務的所有使用者、角色或團隊。
 
-![](assets/assignments-field-task-view-350x124.png)
+![指派欄位](assets/assignments-field-task-view-350x124.png)
 
 您可以參照任務篩選器中的下列欄位，依指派給任務的使用者、工作角色或團隊進行篩選：
 
@@ -73,7 +73,7 @@ ht-degree: 2%
 * 指派角色
 * 團隊
 
-![](assets/assignment-users-roles-task-filter-350x334.png)
+![任務篩選器中的工作分派使用者和角色](assets/assignment-users-roles-task-filter-350x334.png)
 
 ## 顯示指派給問題的所有使用者、工作角色或團隊
 
@@ -87,7 +87,7 @@ ht-degree: 2%
 
 ## 顯示與投資組合相關的所有使用者和職位角色
 
-您可以顯示與投資組合關聯的所有使用者和角色，方法是在專案報告中顯示它們，然後依Portfolio將報告分組。
+您可以顯示所有與投資組合相關聯的使用者和角色，方法是在專案報告中顯示它們，然後依Portfolio將報告分組。
 
 如需有關建立專案報告以顯示專案上所有使用者及其角色的資訊，請參閱[檢視：具有工作角色的專案使用者清單](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-user-list.md)。
 

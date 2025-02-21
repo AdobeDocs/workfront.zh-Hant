@@ -6,9 +6,9 @@ description: 您可以新增圖表來增強報表。 您可以將圖表新增至
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '2734'
+source-wordcount: '2747'
 ht-degree: 0%
 
 ---
@@ -277,11 +277,11 @@ ht-degree: 0%
 
    例如，如果您在任務報告中選取&#x200B;**專案名稱**，您可以新增&#x200B;**任務狀態**&#x200B;作為&#x200B;**泡泡顏色**&#x200B;欄位。
 
-   ![](assets/bubbles-field-correct-can-select-bubbles-color-example.png)
+   ![工作狀態為泡泡顏色](assets/bubbles-field-correct-can-select-bubbles-color-example.png)
 
    不過，如果您為&#x200B;**泡泡圖**&#x200B;欄位選取&#x200B;**任務狀態**，則無法選取&#x200B;**泡泡圖**&#x200B;欄位。 此外，您無法針對&#x200B;**泡泡顏色**&#x200B;欄位選取&#x200B;**專案名稱**，即使您針對&#x200B;**泡泡顏色**&#x200B;欄位選取&#x200B;**專案名稱**&#x200B;亦然。
 
-   ![](assets/bubbles-field-wrong-cannot-select-bubbles-color-example.png)
+   ![無法選取泡泡顏色](assets/bubbles-field-wrong-cannot-select-bubbles-color-example.png)
 
 1. 按一下&#x200B;**儲存+關閉**，將變更儲存至介面產生器。
 
@@ -304,7 +304,7 @@ ht-degree: 0%
 
 1. 當此欄位可用時，按一下&#x200B;**自訂顏色**。\
    「自訂顏色」對話方塊隨即顯示。\
-   ![](assets/unshimmed-custom-colors-in-charts.png)
+   ![圖表中的自訂顏色](assets/unshimmed-custom-colors-in-charts.png)
 
    >[!NOTE]
    >

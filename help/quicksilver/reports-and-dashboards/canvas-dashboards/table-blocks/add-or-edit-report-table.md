@@ -4,9 +4,9 @@ description: 在報告畫布中新增或編輯表格區塊
 hidefromtoc: true
 hide: true
 exl-id: d706659c-457f-4da0-a6e7-03ea29cab700
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
@@ -21,20 +21,20 @@ ht-degree: 0%
 
 ## 新增或編輯表格區塊
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**報表**。
+1. 按一下Adobe Workfront右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**報表**。
 1. 按一下&#x200B;**新報告**。
 
    或
 
-   移至現有報表，按一下報表標題中的&#x200B;**更多**&#x200B;圖示![](assets/more-icon-27x15.png)，然後按一下&#x200B;**編輯**。
+   移至現有報表，按一下報表標題中的&#x200B;**更多**&#x200B;圖示![更多圖示](assets/more-icon-27x15.png)，然後按一下&#x200B;**編輯**。
 
 1. 在熒幕右側&#x200B;**新增區塊**&#x200B;下方：
 
-   將&#x200B;**表格**&#x200B;圖示![](assets/table-icon.png)直接拖曳到畫布上您想要的位置。
+   將&#x200B;**表格**&#x200B;圖示![表格圖示](assets/table-icon.png)直接拖曳到畫布上您想要的位置。
 
    或
 
-   連按兩下&#x200B;**表格**&#x200B;圖示![](assets/table-icon.png)，將表格新增至畫布頂端。
+   連按兩下&#x200B;**表格**&#x200B;圖示![表格圖示](assets/table-icon.png)，將表格新增至畫布頂端。
 
    >[!TIP]
    >
@@ -42,14 +42,14 @@ ht-degree: 0%
 
 1. 按一下表格標題中的&#x200B;**未命名的表格**，然後輸入表格的標題。
 
-   ![](assets/table-name-350x142.png)
+   ![資料表名稱](assets/table-name-350x142.png)
 
 1. 按一下表格區塊中央的&#x200B;**編輯**&#x200B;以設定表格。
 
    >[!NOTE]
    >
-   >如果表格已經是畫布的一部分（例如編輯現有報告時），**編輯**&#x200B;按鈕不會顯示在區塊中央。 若要編輯表格，請改為按一下表格標題中的&#x200B;**編輯**&#x200B;圖示![](assets/edit-icon.png)。
-   >![](assets/edit-icon-table-header-350x71.png)
+   >如果表格已經是畫布的一部分（例如編輯現有報告時），**編輯**&#x200B;按鈕不會顯示在區塊中央。 若要編輯表格，請改為按一下表格標題中的&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)。
+   >![編輯表格標頭中的圖示](assets/edit-icon-table-header-350x71.png)
 
 1. 在右側的&#x200B;**欄位**&#x200B;面板中，找到您要新增為表格欄位的欄位，然後將其拖曳到您想要的表格上，或按兩下該欄位，將其新增為表格中的最後一欄。
 

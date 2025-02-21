@@ -7,9 +7,9 @@ description: 您可能想要在0至25、26至50、51至75、75至99和100的範�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 93b743ce-7e54-4a96-933b-912e2107a84f
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 您可能想要在0至25、26至50、51至75、75至99和100的範圍內檢視依完成百分比分組的任務。 您可以使用文字模式來建立分組。
 
-![](assets/grouping-calculated-value-column-to-all-objects.png)
+![依計算值分組](assets/grouping-calculated-value-column-to-all-objects.png)
 
 ## 存取需求
 

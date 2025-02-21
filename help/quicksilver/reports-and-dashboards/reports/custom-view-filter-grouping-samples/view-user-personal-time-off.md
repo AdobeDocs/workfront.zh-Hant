@@ -7,9 +7,9 @@ description: 檢視：使用者個人休假
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b55b302-5cdc-4437-9ce4-a15b5b43dccb
-source-git-commit: 66de6c952272f52876f8e912c96d1526575b6f0b
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '260'
 ht-degree: 5%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 5%
 
 ## 檢視使用者個人休假
 
-1. 按一下右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**報表>新增報表**。
+1. 按一下右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**報表>新增報表**。
 1. 從下拉式功能表中選取&#x200B;**休假**。
 1. 按一下「**儲存並關閉**」。
 

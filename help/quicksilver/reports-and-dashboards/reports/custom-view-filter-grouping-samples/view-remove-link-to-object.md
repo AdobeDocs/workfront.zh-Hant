@@ -7,9 +7,9 @@ description: 依預設，您在檢視連結中顯示的某些物件會連結到�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 08264437-f12d-43fa-8cb4-264806c6479b
-source-git-commit: 17a277a5a63a521ec7285e3f5051bfd42fc204bf
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 0%
 
    或
 
-   按一下&#x200B;**編輯圖示** ![](assets/edit-icon.png)
+   按一下&#x200B;**編輯圖示** ![編輯圖示](assets/edit-icon.png)
 
    若要編輯現有檢視，請選取檢視。
 

@@ -6,9 +6,9 @@ description: 您可以使用文字模式來編輯清單或報表中的檢視，�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
-source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '461'
 ht-degree: 2%
 
 ---
@@ -86,7 +86,7 @@ ht-degree: 2%
 1. 執行下列其中一項：
 
    1. 若要從報告存取檢視，請移至報告，然後按一下&#x200B;**報告動作** > **編輯** > **欄（檢視）**&#x200B;標籤。
-   1. 若要從清單存取檢視，請移至清單，然後從&#x200B;**檢視**&#x200B;下拉式功能表，將游標移至您要修改的檢視上，然後按一下&#x200B;**編輯**&#x200B;圖示![](assets/edit-icon.png)。
+   1. 若要從清單存取檢視，請移至清單，然後從&#x200B;**檢視**&#x200B;下拉式功能表，將游標移至您要修改的檢視上，然後按一下&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)。
 
       檢視產生器隨即開啟。
 

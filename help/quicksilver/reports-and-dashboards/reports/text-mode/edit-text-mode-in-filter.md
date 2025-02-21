@@ -6,9 +6,9 @@ description: 您可以使用文字模式在清單或報告中編輯篩選器，�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1044'
 ht-degree: 1%
 
 ---
@@ -87,7 +87,7 @@ ht-degree: 1%
 
 1. 執行下列其中一項：
 
-   若要從清單存取篩選器，請移至清單並按一下&#x200B;**篩選器**&#x200B;圖示，然後將游標移至您要修改之&#x200B;**篩選器**&#x200B;側面板中的篩選器，然後按一下&#x200B;**編輯**&#x200B;圖示![](assets/edit-icon.png)。 **篩選器**&#x200B;側面板會顯示您選取的篩選器，或舊版篩選器產生器開啟。
+   若要從清單存取篩選器，請移至清單並按一下&#x200B;**篩選器**&#x200B;圖示，然後將游標移至您要修改之&#x200B;**篩選器**&#x200B;側面板中的篩選器，然後按一下&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)。 **篩選器**&#x200B;側面板會顯示您選取的篩選器，或舊版篩選器產生器開啟。
 
    或
 

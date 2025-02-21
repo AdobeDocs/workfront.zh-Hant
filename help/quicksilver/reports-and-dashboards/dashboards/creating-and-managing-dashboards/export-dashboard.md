@@ -6,9 +6,9 @@ description: 您可以使用網頁瀏覽器中可用的列印選項，將儀表�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6c8dc5be-6adb-400a-b86a-a7f7e84d0ba7
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '375'
 ht-degree: 6%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 6%
 1. 移至您要匯出的控制面板。
 1. 按一下&#x200B;**儀表板動作**，然後選取&#x200B;**列印預覽**。
 
-   ![](assets/dashboard-actions-print-350x254.png)
+   ![儀表板列印預覽](assets/dashboard-actions-print-350x254.png)
 
    「列印預覽」視窗會開啟。
 
@@ -97,7 +97,7 @@ ht-degree: 6%
       <td>Google Chrome</td> 
       <td> 
        <ol> 
-        <li value="1">在<strong>目的地</strong>欄位中，選取<strong>另存為PDF</strong>，然後修改您要變更的任何其他列印選項。</li> 
+        <li value="1">在<strong>目的地</strong>欄位中，選取<strong>儲存為PDF</strong>，然後修改您要變更的任何其他列印選項。</li> 
         <li value="2">按一下「<strong>儲存</strong>」。</li> 
         <li value="3">（選擇性）編輯<strong>檔案名稱</strong>，然後選取檔案的新資料夾目的地。</li> 
         <li value="4">按一下<strong>儲存</strong>，將.pdf檔案儲存至硬碟。<br><br></li> 
@@ -105,7 +105,7 @@ ht-degree: 6%
      </tr> 
      <tr> 
       <td>Internet Explorer、Microsoft Edge和Mozilla Firefox</td> 
-      <td> <p>注意：如果您使用的是Internet Explorer 11版，若未安裝協力廠商外掛程式，您可能無法使用「列印以PDF」功能。</p> 
+      <td> <p>注意：如果您使用Internet Explorer版本11，則必須安裝協力廠商外掛程式，才能使用「列印至PDF」功能。</p> 
        <ol> 
         <li value="1">在<strong>印表機</strong>或<strong>選取印表機</strong>欄位中，選取<strong>Microsoft列印至PDF</strong>，然後修改您要變更的任何其他列印選項。</li> 
         <li value="2">按一下<strong>列印</strong>。</li> 
@@ -118,7 +118,7 @@ ht-degree: 6%
       <td>Safari</td> 
       <td> 
        <ol> 
-        <li value="1">在左下角，按一下下拉箭頭，然後選取<strong>另存為PDF</strong>。</li> 
+        <li value="1">在左下角，按一下下拉箭頭，然後選取「<strong>另存為PDF</strong>」。</li> 
         <li value="2">輸入<strong>檔案名稱</strong>。</li> 
         <li value="3">（選擇性）修改您要變更的其他列印選項，包括選取檔案的新資料夾目的地。</li> 
         <li value="4">按一下「<strong>儲存</strong>」。</li> 

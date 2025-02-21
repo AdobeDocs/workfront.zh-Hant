@@ -6,9 +6,9 @@ description: 如果不再需要外部頁面，您可以從控制面板中將其�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9e400b8a-bbb8-4d1f-b419-d4a4518c0b2e
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -69,11 +69,11 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**儀表板動作**，然後按一下&#x200B;**編輯**。
 
-   ![](assets/unshimmed-edit-dashboard.png)
+   ![編輯儀表板](assets/unshimmed-edit-dashboard.png)
 
-1. 在畫面右側，找到您要移除的外部頁面，然後按一下&#x200B;**刪除**&#x200B;圖示![](assets/delete.png)。
+1. 在熒幕右側，找到您要移除的外部頁面，然後按一下&#x200B;**刪除**&#x200B;圖示![刪除圖示](assets/delete.png)。
 
-   ![](assets/delete-external-page-icon-inside-dashboard-nwe-350x284.png)
+   ![刪除儀表板內的外部頁面圖示](assets/delete-external-page-icon-inside-dashboard-nwe-350x284.png)
 
 1. 按一下左下角的&#x200B;**儲存+關閉**。
 

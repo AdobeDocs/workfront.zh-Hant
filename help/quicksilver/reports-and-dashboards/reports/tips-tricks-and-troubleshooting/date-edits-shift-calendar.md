@@ -7,9 +7,9 @@ description: 在物件清單中內聯編輯日期時，行事曆顯示的日期�
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 6d053968-1578-4c20-b2a7-43634481696f
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '159'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 ## 問題
 
 在物件清單中內聯編輯日期時，行事曆顯示的日期多於應有數量。 這會導致日期顯示在行事曆方塊之外。\
-![](assets/calendar-view-350x134.png)
+![行事曆檢視](assets/calendar-view-350x134.png)
 
 ## 原因
 

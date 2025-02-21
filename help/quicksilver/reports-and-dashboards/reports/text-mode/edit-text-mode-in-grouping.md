@@ -6,9 +6,9 @@ description: 您可以使用文字模式編輯清單或報表中的分組，以�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2eeecc16-ea6d-4a56-8ea3-e213706e89bf
-source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1537'
+source-wordcount: '1539'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ ht-degree: 0%
 1. 執行下列其中一項：
 
    1. 若要從報告存取分組，請移至報告，然後按一下&#x200B;**報告動作** > **編輯** > **分組**&#x200B;索引標籤。
-   1. 若要從清單存取群組，請移至清單，然後從&#x200B;**群組**&#x200B;下拉式功能表，將滑鼠移至您要修改的分組，然後按一下&#x200B;**編輯**&#x200B;圖示![](assets/edit-icon.png)。
+   1. 若要從清單存取群組，請移至清單，然後從&#x200B;**群組**&#x200B;下拉式功能表，將滑鼠移至您要修改的分組，然後按一下&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)。
 
       群組產生器隨即開啟。
 
@@ -194,7 +194,7 @@ ht-degree: 0%
        <ol> 
         <li value="1"> <p> 如果您顯示的欄位名稱是短語而非單一名詞，則必須使用<code>valuefield</code>的駝峰式大小寫語法。 例如，對於任務的計劃開始日期，程式碼為：</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span><code>group.0.valuefield=plannedStartDate</code> </p> </li> 
         <li value="2"> <p>如果您想要顯示自訂欄位，<code>valuefield</code>值是欄位的實際名稱，如您在介面中所見。 例如，對於名為「更多資訊」的自訂欄位，程式碼為：</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span><code>group.0.valuefield=More information</code> </p> </li> 
-        <li value="3"> <p>如果您想使用程式碼<code>valuefield</code>行將物件群組為與其他物件相關的物件，則物件名稱和屬性會以冒號分隔。</p> <p>例如，按Portfolio名稱對任務清單進行分組，值欄位行具有下列值：</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span><code>group.0.valuefield=project:portfolio:name</code> </p> <p>這表示您可以從報表（工作）的物件存取下一個相關物件（專案）；從那裡，您可以從專案（專案組合）存取下列相關物件；然後存取專案組合名稱（名稱）。</p> </li> 
+        <li value="3"> <p>如果您想使用程式碼<code>valuefield</code>行將物件群組為與其他物件相關的物件，則物件名稱和屬性會以冒號分隔。</p> <p>例如，依「Portfolio名稱」對任務清單進行分組，其值欄位行如下：</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span><code>group.0.valuefield=project:portfolio:name</code> </p> <p>這表示您可以從報表（工作）的物件存取下一個相關物件（專案）；從那裡，您可以從專案（專案組合）存取下列相關物件；然後存取專案組合名稱（名稱）。</p> </li> 
        </ol> <p>如需物件如何彼此連結的詳細資訊，請參閱<a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">瞭解Adobe Workfront中的物件</a>中的<a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects" class="MCXref xref">物件相互相依性和階層</a>一節。</p> <p>備註：如果您在文字模式中選擇在標準介面中無效的欄位，並切換至標準介面，則會刪除分組。</p> </td> 
      </tr> 
      <tr> 

@@ -4,9 +4,9 @@ description: 網頁內容區塊可讓您直接在報表中顯示外部網站的�
 hidefromtoc: true
 hide: true
 exl-id: 29f0c2e1-1644-4989-81b1-c6db6bfec905
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '332'
 ht-degree: 1%
 
 ---
@@ -21,12 +21,12 @@ ht-degree: 1%
 
 ## 新增或編輯網頁內容區塊
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**報表**。
+1. 按一下Adobe Workfront右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**報表**。
 1. 按一下&#x200B;**新報告**。
 
    或
 
-   移至現有報表，按一下報表標題中的&#x200B;**更多**&#x200B;圖示![](assets/more-icon-27x15.png)，然後按一下&#x200B;**編輯**。
+   移至現有報表，按一下報表標題中的&#x200B;**更多**&#x200B;圖示![更多圖示](assets/more-icon-27x15.png)，然後按一下&#x200B;**編輯**。
 
 1. 在熒幕右側的&#x200B;**「新增區塊」**&#x200B;底下：
 
@@ -41,9 +41,9 @@ ht-degree: 1%
    >您可以拖曳區塊的轉角操作框來變更該區塊放置後的大小。
 
 1. 在區塊標題中按一下&#x200B;**未命名的網頁內容**，然後輸入區塊的標題。
-1. 按一下區塊標頭中的&#x200B;**編輯**&#x200B;圖示![](assets/edit-icon.png)。
+1. 按一下區塊標頭中的&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)。
 
-   ![](assets/web-content-block-header-350x76.png)
+   ![編輯區塊標頭中的圖示](assets/web-content-block-header-350x76.png)
 
 1. 在開啟的&#x200B;**設定**&#x200B;面板中，輸入您要在&#x200B;**URL**&#x200B;欄位中顯示之頁面的完整URL (包括&quot;https://&quot;)。
 

@@ -4,9 +4,9 @@ description: 在報告畫布中建立公式欄位
 hidefromtoc: true
 hide: true
 exl-id: 22a2c3d7-39db-4f5d-94f3-222ca3ee0615
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '662'
 ht-degree: 7%
 
 ---
@@ -22,16 +22,16 @@ ht-degree: 7%
 ## 建立公式欄位
 
 1. 建立或導覽至資料表區塊，如[在報告畫布](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)中新增或編輯資料表區塊。
-1. 在報告中的表格標題上，按一下&#x200B;**編輯**&#x200B;圖示![](assets/edit-icon.png)。
+1. 在報表的表格標頭上，按一下&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)。
 
-   ![](assets/edit-icon-table-header-350x71.png)
+   ![編輯表格標頭中的圖示](assets/edit-icon-table-header-350x71.png)
 
    >[!NOTE]
    >
    >如果您剛建立表格且尚未新增任何欄位，請改為按一下表格中央的「編輯」按鈕。
 
 1. 按一下右側面板上&#x200B;**欄位**&#x200B;清單頂端的&#x200B;**新增+**。
-1. 在開啟的新頁面中，按一下左上角欄位名稱旁的&#x200B;**編輯**&#x200B;圖示![](assets/edit-icon.png)以變更公式欄位的名稱。
+1. 在開啟的新頁面中，按一下左上角欄位名稱旁的&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)以變更公式欄位的名稱。
 1. 從左側面板將&#x200B;**函式**&#x200B;或&#x200B;**欄位**&#x200B;拖曳到中央的欄位產生器，以將它們新增至公式欄位。
 
 

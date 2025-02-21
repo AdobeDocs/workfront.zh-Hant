@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects;portfolios;programs
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 分組：按Portfolio、方案和專案任務
+title: 分組：按Portfolio、計畫和專案任務
 description: 使用此任務群組可依投資組合、依方案，然後依其關聯的專案來群組任務。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fdad6a1-54b3-4d3e-8f21-4f2efc2dc27a
-source-git-commit: a6874c3a2dfda02b8a25f78056767d8c59c888e9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 使用此任務群組可依投資組合、依方案，然後依其關聯的專案來群組任務。
 
-![](assets/portfolio-program-project-grouping-for-tasks-350x120.png)
+![Portfolio方案專案群組](assets/portfolio-program-project-grouping-for-tasks-350x120.png)
 
 ## 存取需求
 

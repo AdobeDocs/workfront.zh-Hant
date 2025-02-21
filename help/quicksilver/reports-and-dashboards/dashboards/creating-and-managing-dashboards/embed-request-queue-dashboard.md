@@ -6,9 +6,9 @@ description: 您可以將新請求佇列內嵌在儀表板中，讓使用者直�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2d129095-c7ee-45b1-94ce-055d1d91e2fe
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1150'
 ht-degree: 1%
 
 ---
@@ -100,7 +100,7 @@ ht-degree: 1%
 
    當您在熒幕上顯示連結時，這會複製要求佇列或佇列主題的連結。 使用者可以更新請求型別或任何可用的主題群組和佇列主題。
 
-   ![](assets/share-request-queue-with-share-path-link-embedded-in-dashboard-nwe-350x116.png)
+   ![具有共用路徑的要求佇列](assets/share-request-queue-with-share-path-link-embedded-in-dashboard-nwe-350x116.png)
 
 ### 取得請求佇列的連結以及變更請求型別的功能 {#obtain-a-link-to-a-request-queue-and-ability-to-change-the-request-type}
 
@@ -121,7 +121,7 @@ ht-degree: 1%
 
    使用者可以選取所需的任何主題群組或佇列主題，也可以選擇其他請求型別。
 
-   ![](assets/share-request-queue-with-direct-url-embedded-in-dashboard-nwe-350x118.png)
+   ![要求佇列URL](assets/share-request-queue-with-direct-url-embedded-in-dashboard-nwe-350x118.png)
 
 ### 取得要求佇列的連結，但無法變更要求型別 {#obtain-a-link-to-a-request-queue-with-no-ability-to-change-the-request-type}
 
@@ -150,7 +150,7 @@ ht-degree: 1%
 
    使用者可以選取所選請求型別所需的任何主題群組或佇列主題。 使用者無法選取其他請求型別。
 
-   ![](assets/share-request-queue-with-embedded-code-embedded-in-dashboard-nwe-350x210.png)
+   ![要求佇列代碼](assets/share-request-queue-with-embedded-code-embedded-in-dashboard-nwe-350x210.png)
 
 ## 將請求佇列內嵌在控制面板中
 
@@ -164,7 +164,7 @@ ht-degree: 1%
 
 1. 按一下&#x200B;**新增外部頁面**。
 
-   ![](assets/add-external-page-highlighted---nwe-350x214.png)
+   ![外部頁面](assets/add-external-page-highlighted---nwe-350x214.png)
 
 1. 在&#x200B;**新增外部頁面**&#x200B;方塊中，編輯下列欄位：
 

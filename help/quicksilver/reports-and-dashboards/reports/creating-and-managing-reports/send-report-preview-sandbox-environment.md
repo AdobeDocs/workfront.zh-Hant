@@ -6,9 +6,9 @@ description: 此頁面上的資訊指出僅在「預覽」和「自訂重新整�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 568360df-bec9-4767-8b5a-32a294d05d47
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '625'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ ht-degree: 0%
 
 如需有關啟用來自沙箱環境的電子郵件的資訊，請參閱[啟用來自預覽沙箱環境的電子郵件傳遞](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md)。
 
-![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
+![接收來自沙箱選項的電子郵件](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
 在「預覽」環境中排程傳送的報告與在「生產」環境中排程報告相同。 如需排程報表傳送的相關資訊，請參閱[報表傳送概述](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md)。
 
@@ -100,7 +100,7 @@ ht-degree: 0%
 
 如需有關從預覽環境啟用電子郵件的資訊，請參閱[修改您自己的電子郵件通知](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)一節中的[檢視並修改您的電子郵件通知設定](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view)。
 
-![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
+![接收來自沙箱選項的電子郵件](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
 在自訂重新整理沙箱環境中排程傳送的報告與在生產環境中排程報告相同。 如需排程報表傳送的相關資訊，請參閱[報表傳送概述](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md)。
 

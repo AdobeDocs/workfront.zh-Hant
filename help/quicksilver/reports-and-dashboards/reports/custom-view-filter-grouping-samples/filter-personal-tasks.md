@@ -7,9 +7,9 @@ description: 此任務篩選器會傳回傳送給使用者的臨時工作請求�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 204cfae1-7c57-4223-9e00-ac94e1e2ba3a
-source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 個人任務未連線至專案，但如果需要，可將其移至專案。 如需詳細資訊，請參閱[建立個人工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md)。
 
-![](assets/personal-tasks-report.png)
+![個人工作報告](assets/personal-tasks-report.png)
 
 ## 存取需求
 

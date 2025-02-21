@@ -6,9 +6,9 @@ description: 您可以將「里程碑」檢視套用至專案清單或報告。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1302'
+source-wordcount: '1312'
 ht-degree: 0%
 
 ---
@@ -126,16 +126,16 @@ ht-degree: 0%
 * **任務狀態圖示：**&#x200B;在「里程碑」檢視中，每個專案和任務旁都會顯示一個狀態圖示。
 
    * 準時\
-     ![](assets/gantt-ontime.png)
+     ![準時圖示](assets/gantt-ontime.png)
 
    * 滞後\
-     ![](assets/gantt-behind.png)
+     ![在圖示後面](assets/gantt-behind.png)
 
    * 有風險\
-     ![](assets/gantt-atrisk.png)
+     ![風險圖示](assets/gantt-atrisk.png)
 
    * 遲到\
-     ![](assets/gantt-late.png)
+     ![延遲圖示](assets/gantt-late.png)
 
   您可以停用這些狀態圖示的顯示，如本文中[設定里程碑檢視](#configure-what-information-displays-in-the-milestone-view)中顯示的資訊一節所述。\
   如需每種狀態型別的詳細資訊，請參閱文章[任務進度狀態概觀](../../../manage-work/tasks/task-information/task-progress-status.md)。
@@ -183,7 +183,7 @@ ht-degree: 0%
 {{step1-to-projects}}
 
 1. 按一下&#x200B;**檢視**&#x200B;下拉式功能表，然後按一下&#x200B;**里程碑**。\
-   如果您正在檢視Portfolio或方案內的專案清單，請選取&#x200B;**里程碑**&#x200B;子標籤。
+   如果您在Portfolio或方案中檢視專案清單，請選取&#x200B;**里程碑**&#x200B;子標籤。
 
 1. 按一下[里程碑]檢視右上角的&#x200B;**選項**。\
    ![milestone_view_options.png](assets/milestone-view-options-350x141.png)

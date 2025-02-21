@@ -7,9 +7,9 @@ description: 此任務分組允許您按專案贊助者將任務分組。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2d8f85ea-492e-4b08-82f5-726170acc7d5
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 此任務分組允許您按專案贊助者將任務分組。
 
-![](assets/grouping--project-sponsor-for-a-task-350x189.png)
+![依專案贊助者分組](assets/grouping--project-sponsor-for-a-task-350x189.png)
 
 ## 存取需求
 

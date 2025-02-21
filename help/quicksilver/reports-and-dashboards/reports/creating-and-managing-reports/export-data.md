@@ -6,7 +6,7 @@ description: 您可以從各種清單、報表、控制面板和搜尋匯出Adob
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
 source-wordcount: '2247'
 ht-degree: 0%
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 * 從甘特圖匯出資訊。
 
-  如需有關匯出甘特圖的詳細資訊，請參閱[將甘特圖匯出至PDF](../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)。
+  如需匯出甘特圖的詳細資訊，請參閱[將甘特圖匯出至PDF](../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)。
 
 * 從資源規劃工具匯出資訊。
 
@@ -97,7 +97,7 @@ ht-degree: 0%
 
 資訊可以下列格式匯出：
 
-* PDF（信函橫向或縱向、法律、分類帳及A4）
+* PDF （字母橫向或縱向、法律、分類帳及A4）
 * Excel (.xls)
 * Excel (.xlsx)
 * 頁籤分隔檔
@@ -190,7 +190,7 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
    >[!NOTE]
    >
    >To export a Dashboard report, you must have a Plan license.  
-   >![](assets/nwe-dashboard-export-note-350x271.png)
+   >![Export dashboard note](assets/nwe-dashboard-export-note-350x271.png)
    -->
 
    或
@@ -241,25 +241,25 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
 * 匯出專案中的任務和問題清單時：
 
-   * *The_project_name_Exported_Tasks*(*PDF、Excel、Excel (.xlsx)或Tab分隔格式)*
-   * *The_project_name_Exported_Issues*(*PDF、Excel、Excel (.xlsx)或Tab分隔格式)*
+   * *The_project_name_Exported_Tasks*(*在PDF、Excel、Excel (.xlsx)或Tab分隔格式中)*
+   * *The_project_name_Exported_Issues*(*在PDF、Excel、Excel (.xlsx)或Tab分隔格式中)*
 
 * 當您匯出任務（子任務）中的任務和問題清單時：
 
-   * **該_project_name_the_task_name_Exported_Tasks**(*PDF、Excel、Excel (.xlsx)或Tab分隔格式)*
-   * **該_project_name_the_task_name_Exported_Issues**(*PDF、Excel、Excel (.xlsx)或Tab分隔格式)*
+   * **the_project_name_the_task_name_Exported_Tasks**(*在PDF、Excel、Excel (.xlsx)或Tab分隔格式中)*
+   * **the_project_name_the_task_name_Exported_Issues**(*在PDF、Excel、Excel (.xlsx)或Tab分隔格式中)*
 
 從專案將任何其他物件的清單匯出到PDF檔案時，匯出的檔案的檔案名稱會指示您匯出的物件型別。\
 例如，檔案名稱可以是：
 
-* *Exported_Users*，在匯出專案上的[人員]索引標籤時(*PDF、Excel、Excel (.xlsx)或Tab分隔格式)*
-* *Exported_Risks*，在匯出專案上的風險清單時(*PDF、Excel、Excel (.xlsx)或Tab分隔格式)*
+* *Exported_Users*，在匯出專案上的[人員]索引標籤時(*在PDF、Excel、Excel (.xlsx)或Tab分隔格式中)*
+* *Exported_Risks*，在匯出專案上的風險清單時(*在PDF、Excel、Excel (.xlsx)或Tab分隔格式中)*
 
 #### 匯出報告的檔案名稱 {#file-names-for-exported-reports}
 
 匯出報告時，匯出的報告的檔案名稱為：
 
-*The_report_name*(*PDF、Excel、Excel (.xlsx)或Tab分隔格式)*
+*The_report_name*(*在PDF、Excel、Excel (.xlsx)或Tab分隔格式中)*
 
 ### 標題 {#titles}
 
@@ -267,17 +267,17 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
 #### 匯出清單的標題 {#titles-for-exported-lists}
 
-當您將專案中的任務和問題清單匯出到PDF檔案時，匯出的檔案的標題是以下標題之一：
+將專案中的任務和問題清單匯出到PDF檔案時，所匯出檔案的標題是以下標題之一：
 
 * *專案名稱 — 匯出的任務*
 * *專案名稱 — 匯出的問題*
 
-當您將任務中的任務和問題清單匯出到PDF檔案時，匯出的檔案的拼貼是以下拼貼之一：
+將任務中的任務和問題清單匯出至PDF檔案時，匯出檔案的表徵圖為下列其中一項：
 
 * *專案名稱 — 任務名稱 — 匯出的任務*
 * *專案名稱 — 任務名稱 — 匯出的問題*
 
-從專案將任何其他物件的清單匯出到PDF檔案時，匯出的檔案的標題會指示您匯出的物件型別。\
+將專案中任何其他物件的清單匯出至PDF檔案時，匯出的檔案標題會指出您匯出的物件型別。\
 例如，標題可以是：
 
 * 匯出專案上的[人員]索引標籤時，*已匯出使用者*。

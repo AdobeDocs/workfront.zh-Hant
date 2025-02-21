@@ -4,9 +4,9 @@ description: 在報告畫布中建立報告
 hidefromtoc: true
 hide: true
 exl-id: eac210d8-0e25-4aae-94f4-b26a81240482
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,11 @@ ht-degree: 0%
 >
 >當您建立和編輯報告中的區塊時，所有變更都會自動儲存。
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**報表**。
+1. 按一下Adobe Workfront右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**報表**。
 1. 按一下&#x200B;**新報告**。
 1. 在編輯畫布的左上角，輸入報表的名稱。
 
-   您可以隨時變更報表名稱，只要按一下名稱旁的&#x200B;**編輯**&#x200B;圖示![](assets/edit-icon.png)即可。
+   您可以隨時變更報表名稱，只要按一下名稱旁的&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)即可。
 
 1. 從畫面的右側，拖曳您要新增至畫布的區塊。
 

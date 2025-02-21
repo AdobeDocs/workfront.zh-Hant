@@ -7,9 +7,9 @@ description: 報告：預算時數
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2c0b60a6-fae4-4b29-8243-2a7f7d1f574b
-source-git-commit: a6874c3a2dfda02b8a25f78056767d8c59c888e9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '670'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 1%
 >
 >預算時數通常每小時在Adobe Workfront資料庫中更新一次（少數情況下，最多可能需要三個小時）。 重新整理報告不一定會重新整理報告中的小時資訊。 您可以在每個預算時數報表的右上角，檢視自上次更新以來的經過時間。 重新整理報告只會在上次更新後超過一小時時重新整理其中的資訊。
 >
->![](assets/budgeted-hour-report-time-sync-warning-350x74.png)
+>![預算時數報告時間同步警告](assets/budgeted-hour-report-time-sync-warning-350x74.png)
 
 ## 存取需求
 
@@ -72,7 +72,7 @@ ht-degree: 1%
 
 ## 建立預算時數報告
 
-1. 按一下右上角的&#x200B;**主功能表**&#x200B;圖示![](assets/main-menu-icon.png)，或左上角的&#x200B;**主功能表**&#x200B;圖示![](assets/lines-main-menu.png) （如果有的話），然後按一下&#x200B;**報表**。
+1. 按一下右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，或左上角的&#x200B;**主功能表**&#x200B;圖示![主功能表行](assets/lines-main-menu.png) （如果有的話），然後按一下&#x200B;**報表**。
 
 1. 按一下「**新報告**」>「**更多**」>「**預算時數**」。
 

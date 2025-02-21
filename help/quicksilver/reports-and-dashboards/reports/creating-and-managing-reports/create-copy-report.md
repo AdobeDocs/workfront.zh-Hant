@@ -7,9 +7,9 @@ description: 您可以建立您有權存取的任何報表的復本。 您可以
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 84737f48-efc5-45f1-acd1-b9f5d353f80f
-source-git-commit: 9396cd2ac073a57b7d99618cdf09e54ddcf95130
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '649'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 0%
          </ul>
       <p>目前：</p>
          <ul>
-         <li><p>計劃</p></li>
+         <li><p>規劃</p></li>
          </ul>
    </td>
   </tr> 
@@ -104,7 +104,7 @@ ht-degree: 0%
 
 如果要建立預設報表的副本，請執行以下操作：
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)。
+1. 按一下Adobe Workfront右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)。
 
 1. 按一下&#x200B;**報表**，然後按一下&#x200B;**所有報表**。
 1. 按一下預設報表的名稱以開啟。
@@ -124,6 +124,6 @@ ht-degree: 0%
 1. 按一下&#x200B;**完成**。
 1. 按一下&#x200B;**另存為新報告**。
 
-   ![](assets/unshimmed-save-as-new-report.png)
+   ![另存為新報告](assets/unshimmed-save-as-new-report.png)
 
 1. （選擇性）若要與其他使用者共用新版本的報告，請按一下&#x200B;**報告動作**，然後按&#x200B;**共用**。

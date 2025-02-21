@@ -6,9 +6,9 @@ description: 您可以使用條件式格式來比較檢視中的2個不同欄位
 author: Nolan
 feature: Reports and Dashboards
 exl-id: da4447ba-6e76-4701-88ee-87a30393bed9
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '469'
 ht-degree: 1%
 
 ---
@@ -76,7 +76,7 @@ ht-degree: 1%
 1. 使用在產生器中找到的現有值輸入比較條件，並指定您的條件式格式。\
    例如，我們要反白顯示實際開始日期晚於（或大於）計劃開始日期的任務。 選取「大於」修正因子，然後在日期欄位中選取實際日期。
 
-   ![](assets/cond-format-1-350x84.png)
+   ![實際開始日期的條件式格式](assets/cond-format-1-350x84.png)
 
 1. （選擇性）如果要套用格式至整列，請選取&#x200B;**套用至整列**。
 1. 按一下「**儲存**」。
@@ -104,7 +104,7 @@ ht-degree: 1%
 
 1. 請確定`righttext`行程式碼符合`rightmethod`行程式碼中的陳述式。
 
-   ![](assets/cond-format-2-350x171.png)
+   ![條件式格式](assets/cond-format-2-350x171.png)
 
 1. 按一下「**儲存**」。
 1. 按一下「**儲存並關閉**」。

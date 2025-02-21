@@ -6,9 +6,9 @@ description: 您可以在報表的檢視、篩選和群組中，參照物件的�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8b0d2e7f-cc92-4f43-a91c-ab2b2d8a1c01
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '967'
 ht-degree: 2%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 2%
 
 例如，您可能會將自訂表單套用至包含自訂欄位&#x200B;**顧問**&#x200B;的所有專案。 若要建立列出Olivia Kim擔任顧問之所有專案的報告，請使用&#x200B;**Project**&#x200B;物件型別做為欄位來源，並使用&#x200B;**Consultant**&#x200B;做為欄位名稱。 將篩選限定詞設為&#x200B;**等於**，然後輸入Olivia Kim。
 
-![](assets/qs-consultant-filter-example-350x126.png)
+![顧問篩選器](assets/qs-consultant-filter-example-350x126.png)
 
 如需有關建立報告的詳細資訊，請參閱文章[建立自訂報告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
@@ -111,13 +111,13 @@ ht-degree: 2%
 1. 開始建立報告，如文章[建立自訂報告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)中所述。
 1. 在&#x200B;**資料行**&#x200B;標籤上，展開要套用參考之自訂表單的物件型別，然後按一下&#x200B;**類別名稱**。\
    例如，若要顯示與任務相關的所有自訂表單，請展開&#x200B;**任務**&#x200B;欄位來源，然後按一下&#x200B;**類別名稱**&#x200B;欄位名稱。\
-   ![](assets/qs-category-name-column-350x267.png)
+   ![類別名稱資料行](assets/qs-category-name-column-350x267.png)
 
 若只要顯示與物件相關聯的主要自訂表單：
 
 1. 開始建立報告，如文章[建立自訂報告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)中所述。
 1. 在&#x200B;**欄**&#x200B;標籤上，展開&#x200B;**類別**&#x200B;欄位來源，然後按一下&#x200B;**名稱**&#x200B;欄位名稱。\
-   ![](assets/qs-category-name-column-2-350x248.png)
+   ![類別名稱](assets/qs-category-name-column-2-350x248.png)
 
 ### 在報表篩選器中參考自訂表單 {#reference-custom-forms-in-a-report-filter}
 
@@ -125,7 +125,7 @@ ht-degree: 2%
 
 1. 開始建立報告，如文章[建立自訂報告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)中所述。
 1. 在&#x200B;**篩選器**&#x200B;標籤上，展開&#x200B;**類別**，然後按一下&#x200B;**名稱**。\
-   ![](assets/qs-categories-name-filter-350x311.png)
+   ![類別名稱篩選器](assets/qs-categories-name-filter-350x311.png)
 
 1. 選取您要使用的條件限定詞：
 
@@ -150,7 +150,7 @@ ht-degree: 2%
 
 1. 開始建立報告，如文章[建立自訂報告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)中所述。
 1. 在&#x200B;**篩選器**&#x200B;標籤上，展開&#x200B;**類別**&#x200B;欄位來源，然後按一下&#x200B;**名稱**&#x200B;欄位名稱。\
-   ![](assets/qs-category-name-filter-350x437.png)
+   ![類別名稱篩選器](assets/qs-category-name-filter-350x437.png)
 
 1. 選取您要使用的條件限定詞：
 
@@ -175,4 +175,4 @@ ht-degree: 2%
 
 1. 開始建立報告，如文章[建立自訂報告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)中所述。
 1. 在&#x200B;**群組**&#x200B;標籤上，展開&#x200B;**類別**，然後按一下&#x200B;**名稱**。\
-   ![](assets/qs-category-name-grouping-350x373.png)
+   ![類別名稱群組](assets/qs-category-name-grouping-350x373.png)

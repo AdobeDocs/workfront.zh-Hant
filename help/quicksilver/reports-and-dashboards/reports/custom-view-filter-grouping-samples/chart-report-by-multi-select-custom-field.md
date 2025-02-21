@@ -7,9 +7,9 @@ description: 只有在您建立其他計算欄位(擷取多選自訂欄位中所
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: 66de6c952272f52876f8e912c96d1526575b6f0b
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1004'
+source-wordcount: '1019'
 ht-degree: 0%
 
 ---
@@ -125,7 +125,7 @@ ht-degree: 0%
 
 1. 將「多選自訂欄位」取代為您多選自訂欄位的實際名稱，如Workfront中所示。
 
-   ![](assets/calculated-multi-select-custom-field-nwe-350x223.png)
+   ![已計算的多重選取自訂欄位](assets/calculated-multi-select-custom-field-nwe-350x223.png)
 
 1. （選擇性）如果多重選取自訂欄位已在此表單上，而且此表單已附加至物件，請啟用&#x200B;**套用至現有計算**&#x200B;選項。
 
@@ -140,11 +140,11 @@ ht-degree: 0%
 
 1. （選擇性）若要確保您要用來製作圖表的所有計算欄位皆填入值，請從報表的[詳細資料]索引標籤中，選取包含自訂表單的所有物件（包含多重選取自訂欄位和計算自訂欄位），然後按一下[**編輯**]。
 1. （選擇性且條件式）選取&#x200B;**重新計算自訂運算式**&#x200B;欄位，然後按一下&#x200B;**儲存變更**。\
-   ![](assets/recalculate-custom-expressions-350x259.png)
+   ![重新計算自訂運算式](assets/recalculate-custom-expressions-350x259.png)
 
    >[!NOTE]
    >
-   >此選項已從大量編輯專案中移除。  您仍然可以大量重新計算專案的運算式，方法是按一下專案清單頂端的&#x200B;**更多**&#x200B;圖示![](assets/more-icon-45x33.png)，然後&#x200B;**重新計算運算式**。
+   >此選項已從大量編輯專案中移除。  您仍然可以大量重新計算專案的運算式，方法是按一下專案清單頂端的&#x200B;**更多**&#x200B;圖示![更多圖示](assets/more-icon-45x33.png)，然後&#x200B;**重新計算運算式**。
 
 1. 移至您要為參照多選自訂欄位的計算欄位新增圖表的報表。
 1. 按一下&#x200B;**報告動作**，然後按一下&#x200B;**編輯**。
@@ -160,4 +160,4 @@ ht-degree: 0%
 
    報表會以圖表顯示按「已計算的多重選取欄位」分組的結果。
 
-   ![](assets/chart-multi-select-field-column-chart-example.png)
+   ![圖表中的多重選取欄位](assets/chart-multi-select-field-column-chart-example.png)

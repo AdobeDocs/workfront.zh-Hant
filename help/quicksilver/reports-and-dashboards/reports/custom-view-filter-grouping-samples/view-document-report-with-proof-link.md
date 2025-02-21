@@ -7,9 +7,9 @@ description: 檢視：包含校訂連結的檔案報告
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a38c5e86-9789-41ca-a832-2ee5eb0a570b
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '318'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 在此檔案檢視中，您可以插入指向檔案目前版本的校訂的連結。
 
-![](assets/view-document-with-proof-link-350x92.png)
+![檢視含有校訂連結的檔案](assets/view-document-with-proof-link-350x92.png)
 
 ## 存取需求
 

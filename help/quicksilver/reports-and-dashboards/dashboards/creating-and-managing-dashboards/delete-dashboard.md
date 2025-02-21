@@ -6,9 +6,9 @@ description: 如果您不再使用儀表板，可以將其從Adobe Workfront中�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 706a3e16-34d7-49d8-9688-109ce4f95c2f
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 0%
 1. 前往您要編輯的控制面板。
 1. 按一下&#x200B;**儀表板動作**，然後按一下&#x200B;**刪除**。
 
-   ![](assets/unshimmed-delete-dashboard.png)
+   ![刪除儀表板](assets/unshimmed-delete-dashboard.png)
 
 1. 若要確認您要刪除儀表板，請按一下[是，刪除]。****
 儀表板會從Workfront中移除。
@@ -84,9 +84,9 @@ ht-degree: 0%
 若要刪除多個控制面板：
 
 1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 儀表板]**。
-1. 選取清單中要刪除的每個儀表板，然後按一下&#x200B;**刪除** ![](assets/delete.png)。
+1. 選取清單中要刪除的每個儀表板，然後按一下&#x200B;**刪除** ![刪除圖示](assets/delete.png)。
 
-   ![](assets/unshimmed-delete-dashboard-list.png)
+   ![刪除儀表板](assets/unshimmed-delete-dashboard-list.png)
 
 1. 若要確認您要刪除儀表板，請按一下[是，刪除]。****
 儀表板會從Workfront中移除。

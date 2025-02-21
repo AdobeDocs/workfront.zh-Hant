@@ -6,9 +6,9 @@ description: 當使用者指派存取層級時，您的Adobe Workfront管理員�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 225e815a-0354-493d-bbcf-59304ef77570
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '823'
 ht-degree: 0%
 
 ---
@@ -122,7 +122,7 @@ ht-degree: 0%
 
    * **系統中的每個人都可以檢視**&#x200B;選取此選項，讓Workfront中有權存取報告的所有人都可以檢視報告。
 
-1. （選擇性）按一下共用方塊右上角的&#x200B;**齒輪**&#x200B;圖示![](assets/gear-icon-settings-with-dn-arrow.jpg)，然後選擇性地選取下列選項：
+1. （選擇性）按一下共用方塊右上角的&#x200B;**齒輪**&#x200B;圖示![齒輪圖示設定](assets/gear-icon-settings-with-dn-arrow.jpg)，然後選擇性選取下列選項：
 
    * **將此設為公開給外部使用者**&#x200B;選取此選項以產生可與其他人共用的URL。 擁有URL的任何人都可以存取報表，無需擁有Adobe Workfront授權。
 

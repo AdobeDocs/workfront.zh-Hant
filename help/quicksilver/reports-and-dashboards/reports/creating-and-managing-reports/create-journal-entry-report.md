@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '2767'
+source-wordcount: '2798'
 ht-degree: 4%
 
 ---
@@ -181,7 +181,7 @@ ht-degree: 4%
 1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**報表**。
 1. 按一下&#x200B;**新報告**，然後選取&#x200B;**日誌專案**。
 
-   ![](assets/nwe-select-journal-entry-350x273.png)
+   ![選取日誌專案](assets/nwe-select-journal-entry-350x273.png)
 
    Report Builder隨即載入。
 
@@ -255,7 +255,7 @@ ht-degree: 4%
 
 1. 在&#x200B;**篩選器**&#x200B;索引標籤中，按一下&#x200B;**新增篩選器規則**，然後新增篩選器規則&#x200B;**欄位名稱** > **等於** > **狀態**。
 
-   ![](assets/nwe-journal-entry-status-filter-rules-350x90.png)
+   ![日誌專案狀態篩選器](assets/nwe-journal-entry-status-filter-rules-350x90.png)
 
    >[!TIP]
    >
@@ -295,7 +295,7 @@ ht-degree: 4%
 1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**報表**。
 1. 按一下&#x200B;**新報告**，然後選取&#x200B;**日誌專案**。
 
-   ![](assets/nwe-select-journal-entry-350x273.png)
+   ![選取日誌專案](assets/nwe-select-journal-entry-350x273.png)
 
    Report Builder隨即載入。
 
@@ -342,7 +342,7 @@ ht-degree: 4%
    * **專案識別碼** > **等於** > **&lt;專案名稱>**
 
      <!--WRITER check link; this png file has spaces
-     [![](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)-->
+     [![Task or issue deleted](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)-->
 
    如需新增篩選的詳細資訊，請參閱[篩選總覽](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)。
 
@@ -379,7 +379,7 @@ ht-degree: 4%
 1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**報表**。
 1. 按一下&#x200B;**新報告**，然後選取&#x200B;**日誌專案**。
 
-   ![](assets/nwe-select-journal-entry-350x273.png)
+   ![選取日誌專案](assets/nwe-select-journal-entry-350x273.png)
 
    Report Builder隨即載入。
 
@@ -450,7 +450,7 @@ ht-degree: 4%
 
    * **專案識別碼** > **等於** > **&lt;專案>**。
 
-   ![](assets/qs-custom-form-changes-filter-350x92.png)
+   ![自訂表單變更篩選器](assets/qs-custom-form-changes-filter-350x92.png)
 
    如需新增篩選的詳細資訊，請參閱[篩選總覽](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)。
 
@@ -481,7 +481,7 @@ ht-degree: 4%
 1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**報表**。
 1. 按一下&#x200B;**新報告**，然後選取&#x200B;**日誌專案**。
 
-   ![](assets/nwe-select-journal-entry-350x273.png)
+   ![選取日誌專案](assets/nwe-select-journal-entry-350x273.png)
 
    Report Builder隨即載入。
 
@@ -551,7 +551,7 @@ ht-degree: 4%
    * **欄位名稱** > **等於** > **日期**
    * **專案識別碼** > **等於** > **&lt;專案名稱>**。
 
-   ![](assets/qs-planned-completion-date-change-filter-350x91.png)
+   ![計畫完成日期變更篩選器](assets/qs-planned-completion-date-change-filter-350x91.png)
 
    如需新增篩選的詳細資訊，請參閱[篩選總覽](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)。
 
@@ -582,7 +582,7 @@ ht-degree: 4%
 1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**報表**。
 1. 按一下&#x200B;**新報告**，然後選取&#x200B;**日誌專案**。
 
-   ![](assets/nwe-select-journal-entry-350x273.png)
+   ![選取日誌專案](assets/nwe-select-journal-entry-350x273.png)
 
    Report Builder隨即載入。
 
@@ -640,7 +640,7 @@ ht-degree: 4%
    * **欄位名稱** > **等於** > **ownerID**
    * **專案識別碼** > **等於** > **&lt;專案名稱>**。
 
-   ![](assets/qs-owner-changes-filter-350x94.png)
+   ![擁有者變更篩選器](assets/qs-owner-changes-filter-350x94.png)
 
    如需新增篩選的詳細資訊，請參閱[篩選總覽](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)。
 

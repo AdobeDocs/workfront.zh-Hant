@@ -7,9 +7,9 @@ description: 此任務檢視會顯示任務之主要擁有者的公司和主群�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 818c1f3a-4e82-4dc3-af86-4f9dcf5c11a4
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 此任務檢視會顯示任務之主要擁有者的公司和主群組。 這些值在標準介面中無法使用，但可透過文字模式存取。
 
-![](assets/view--assigned-user-s-company-and-home-group-350x80.png)
+![檢視指派使用者的公司和主群組](assets/view--assigned-user-s-company-and-home-group-350x80.png)
 
 ## 存取需求
 

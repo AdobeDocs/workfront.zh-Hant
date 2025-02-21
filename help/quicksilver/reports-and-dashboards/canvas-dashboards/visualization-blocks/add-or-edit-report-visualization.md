@@ -4,9 +4,9 @@ description: 在報告畫布中新增或編輯視覺效果區塊
 hidefromtoc: true
 hide: true
 exl-id: 14750eb1-d0a3-42ea-bd2e-100b633322ff
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '437'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 您可以將下列型別的視覺效果新增至報表：
 
-* 條狀
+* 長條圖
 * 直條
 * 圓形
 * KPI
@@ -32,12 +32,12 @@ ht-degree: 1%
 >
 >當您建立和編輯報告中的區塊時，所有變更都會自動儲存。
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**報表**。
+1. 按一下Adobe Workfront右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**報表**。
 1. 按一下&#x200B;**新增報表**，然後建立含有資料之表格的報表，如[在報表畫布中建立報表](../../../reports-and-dashboards/reporting-canvas/manage-reports/build-report.md)和[在報表畫布中新增或編輯表格區塊](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)中所述。
 
    或
 
-   在包含資料表的現有報表中，按一下報表標題中的&#x200B;**更多功能表**&#x200B;圖示![](assets/more-icon.png)，然後選取&#x200B;**編輯**。
+   在包含資料表的現有報表中，按一下報表標題中的&#x200B;**更多功能表**&#x200B;圖示![更多圖示](assets/more-icon.png)，然後選取&#x200B;**編輯**。
 
 1. 在熒幕右側的&#x200B;**「新增區塊」**&#x200B;底下：
 
@@ -57,7 +57,7 @@ ht-degree: 1%
 
 1. （視條件而定）如果報表包含多個表格，請在顯示的「**建立您的視覺效果**」方塊中，選取視覺效果的來源表格。
 
-   ![](assets/select-table-on-vis-350x155.png)
+   ![在視覺化上選取表格](assets/select-table-on-vis-350x155.png)
 
    >[!NOTE]
    >
@@ -65,7 +65,7 @@ ht-degree: 1%
 
 1. 選取您要新增的視覺效果型別。
 
-   ![](assets/select-vis-type-350x205.png)
+   ![選取視覺效果型別](assets/select-vis-type-350x205.png)
 
    接著會顯示您的視覺效果，代表您所選表格的資料。
 

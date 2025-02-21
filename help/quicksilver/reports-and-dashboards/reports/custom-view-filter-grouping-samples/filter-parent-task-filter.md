@@ -7,9 +7,9 @@ description: 您可以套用以下任務篩選器以顯示工作任務。 工作
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 4c3956e1-59e0-4bf2-8739-8064271d6281
-source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '841'
 ht-degree: 1%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 1%
 
 您可以將下列篩選器套用至任務報告，以顯示無子系的任務。 他們可以擁有自己的父母，也可以是其他工作的子女。
 
-1. 從右上角的&#x200B;**主功能表** ![](assets/main-menu-icon.png)，或左上角的&#x200B;**主功能表** ![](assets/lines-main-menu.png) （如果可用），按一下&#x200B;**報表**。
+1. 從右上角的&#x200B;**主功能表** ![主功能表圖示](assets/main-menu-icon.png)，或左上角的&#x200B;**主功能表** ![主功能表行](assets/lines-main-menu.png) （如果可用），按一下&#x200B;**報表**。
 
 1. 按一下&#x200B;**新報告**。
 1. 選取&#x200B;**任務報告**。
@@ -79,7 +79,7 @@ ht-degree: 1%
 1. 在&#x200B;**開始輸入欄位名稱……**&#x200B;行中，開始輸入&#x200B;**子係數目**，然後按一下&#x200B;**工作>>子係數目** （當它顯示在清單中時）。
 
 1. 為您的修飾元選取&#x200B;**等於（區分大小寫）**，然後為子係數目輸入&#x200B;**0**。\
-   ![](assets/parent-task-filter-from-the-ui-350x76.png)
+   ![父系任務篩選器](assets/parent-task-filter-from-the-ui-350x76.png)
 
    或
 
@@ -99,7 +99,7 @@ ht-degree: 1%
 
 您可以將下列篩選器套用至任務報告，以顯示具有父系的任務，亦即它們是子系任務。 但是，這些任務也可能有自己的子項，因為篩選器不排除其子項。 同時為其他任務之父項的子任務不會被視為工作任務。
 
-1. 從右上角的&#x200B;**主功能表** ![](assets/main-menu-icon.png)，或左上角的&#x200B;**主功能表** ![](assets/lines-main-menu.png) （如果可用），按一下&#x200B;**報表**。
+1. 從右上角的&#x200B;**主功能表** ![主功能表圖示](assets/main-menu-icon.png)，或左上角的&#x200B;**主功能表** ![主功能表行](assets/lines-main-menu.png) （如果可用），按一下&#x200B;**報表**。
 
 1. 按一下&#x200B;**新報告**。
 1. 選取&#x200B;**任務報告**。
@@ -108,7 +108,7 @@ ht-degree: 1%
 1. 在&#x200B;**開始輸入欄位名稱……**&#x200B;行中，開始輸入&#x200B;**父系識別碼**，然後選取&#x200B;**工作>>父系識別碼** （當它顯示在清單中時）。
 1. 為您的修飾元選取&#x200B;**不為空白**。
 
-   ![](assets/filter-parent-id-not-blank-350x100.png)
+   ![父系識別碼不是空白的](assets/filter-parent-id-not-blank-350x100.png)
 
    或
 
@@ -124,7 +124,7 @@ ht-degree: 1%
 
 您可以將下列篩選器套用至任務報告，以顯示獨立的工作任務。 這些任務沒有父項，也沒有自己的子項。
 
-1. 從右上角的&#x200B;**主功能表** ![](assets/main-menu-icon.png)，或左上角的&#x200B;**主功能表** ![](assets/lines-main-menu.png) （如果可用），按一下&#x200B;**報表**。
+1. 從右上角的&#x200B;**主功能表** ![主功能表圖示](assets/main-menu-icon.png)，或左上角的&#x200B;**主功能表** ![主功能表行](assets/lines-main-menu.png) （如果可用），按一下&#x200B;**報表**。
 
 1. 按一下&#x200B;**新報告**。
 1. 選取&#x200B;**任務報告**。
@@ -136,7 +136,7 @@ ht-degree: 1%
 1. 在&#x200B;**開始輸入欄位名稱……**&#x200B;行開始輸入&#x200B;**父系識別碼**，然後從清單中選取&#x200B;**工作>>父系識別碼**。
 1. 選取修飾元的&#x200B;**為空白**。
 
-   ![](assets/filter-parent-id-blank-and-zero-children-350x121.png)
+   ![父系識別碼為空白，沒有子系](assets/filter-parent-id-blank-and-zero-children-350x121.png)
 
    或
 

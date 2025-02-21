@@ -6,9 +6,9 @@ description: 如果已在Adobe Workfront中設定多個匯率，您可以在報�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a0837c70-8330-4c38-98dc-8cf2e7e2e4bd
-source-git-commit: 2322415c173919a1fecffabb4b561645d33eea8d
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '984'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 0%
          </ul>
       <p>目前：</p>
          <ul>
-         <li><p>計劃</p></li>
+         <li><p>規劃</p></li>
          </ul>
    </td>
   </tr> 
@@ -117,13 +117,13 @@ ht-degree: 0%
 
 1. 建立套用不同貨幣的兩個專案。
 
-   ![](assets/qs-currency-350x217.png)
+   ![貨幣](assets/qs-currency-350x217.png)
 
 1. 在兩個專案上記錄時數。
 
    如需記錄時間的詳細資訊，請參閱[記錄時間](../../../timesheets/create-and-manage-timesheets/log-time.md)。
 
-1. 按一下&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**報表**。
+1. 按一下&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**報表**。
 1. 按一下&#x200B;**新報告**，然後按一下&#x200B;**專案報告**。
 1. 在&#x200B;**欄（檢視）**&#x200B;索引標籤中，新增&#x200B;**實際成本**&#x200B;欄，並以&#x200B;**總和**&#x200B;加以彙總。
 
@@ -182,6 +182,6 @@ ht-degree: 0%
 1. 按一下&#x200B;**報表設定**。
 1. 按一下&#x200B;**預設貨幣**&#x200B;下拉式清單，然後選取&#x200B;**專案的原始貨幣**。
 
-   ![](assets/qs-report-settings-default-currency-350x370.png)
+   ![預設貨幣](assets/qs-report-settings-default-currency-350x370.png)
 
 1. 按一下&#x200B;**完成**。

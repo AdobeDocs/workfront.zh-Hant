@@ -6,9 +6,9 @@ description: 報表傳送概覽
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 1637df59-ca1d-4cf6-b83d-2b27936cdb96
-source-git-commit: a2cb33150ae50b00485f894dc81d7c719524a182
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1534'
 ht-degree: 0%
 
 ---
@@ -141,7 +141,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果報告有說明，如果檔案格式為PDF或HTML檔案，則會將其包含在匯出的檔案中。
+>如果報表有說明，且檔案格式為PDF或HTML檔案，報表則會包含在匯出的檔案中。
 
 ### 時間戳記 {#timestamps}
 
@@ -167,14 +167,14 @@ ht-degree: 0%
 
 如果您的報表在Web應用程式中具有特殊格式，則僅針對.pdf和Excel檔案傳送「詳細資料」和「矩陣」標籤時，應使用特殊格式傳送報表。
 
-報告的篩選、檢視或分組不包含在傳遞的檔案中。 只有在以PDF檔案傳送報表時，才會包含報表說明。
+報告的篩選、檢視或分組不包含在傳遞的檔案中。 僅當您以PDF檔案傳送報表時，才會包含報表說明。
 
 如需以特殊檢視接收報告的詳細資訊，請參閱文章[以特殊檢視的報告](#reports-with-a-special-view)。\
 如需有關選取報表預設標籤以及特殊格式的詳細資訊，請參閱[建立自訂報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
 ### 連結 {#links}
 
-當您從Workfront將報表傳送到PDF或Excel格式時，原始檔案中存在的任何有效連結都會保留在傳送的檔案中。 連結可以指向Workfront中支援連結的任何物件。
+當您從Workfront將報表傳送至PDF或Excel格式時，原始檔案中存在的任何有效連結都會保留在傳送的檔案中。 連結可以指向Workfront中支援連結的任何物件。
 
 電子郵件訊息中的報告名稱也是連結。
 
@@ -189,7 +189,7 @@ ht-degree: 0%
 
 * **報表物件的篩選器**：在報表清單或報表的報表中建立篩選器，其陳述如下： *排程報表ID不是空白的*。\
   這只會顯示已在您的清單或報告中排程的報告。\
-  ![](assets/qs-scheduled-report-filter-350x101.png)\
+  ![排程報告篩選器](assets/qs-scheduled-report-filter-350x101.png)\
   如需建立報告的詳細資訊，請參閱[建立自訂報告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。 如需有關建立報告的相關資訊，請參閱[建立報告活動的報告](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md)。
 
 <!--

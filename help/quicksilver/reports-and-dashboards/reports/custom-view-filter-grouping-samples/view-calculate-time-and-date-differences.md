@@ -7,9 +7,9 @@ description: 瞭解如何計算時間和日期差異。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '621'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 例如，您可以計算任務的計畫完成日期與實際完成日期之間的差異。
 
-![](assets/view-planned-actual-completion-dates-datediff-column-new.png)
+![檢視日期差異](assets/view-planned-actual-completion-dates-datediff-column-new.png)
 
 1. 前往工作清單。
 1. 從&#x200B;**檢視**&#x200B;下拉式功能表，按一下&#x200B;**新增檢視**。
@@ -100,7 +100,7 @@ ht-degree: 0%
 如需物件及其父項的清單，請參閱[瞭解Adobe Workfront中的物件](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)中的「瞭解物件的相依性和階層」一節。\
 例如，您可以計算任務的計畫完成日期與其父系任務或任務所在專案計畫完成日期之間的差異。
 
-![](assets/view-project-planned-task-planned-completion-dates-datediff-column-new.png)
+![檢視計畫完成日期差異](assets/view-project-planned-task-planned-completion-dates-datediff-column-new.png)
 
 1. 前往工作清單。
 1. 從&#x200B;**檢視**&#x200B;下拉式功能表，按一下&#x200B;**新增檢視**。

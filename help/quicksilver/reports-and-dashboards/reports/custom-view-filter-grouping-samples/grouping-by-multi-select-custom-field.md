@@ -7,9 +7,9 @@ description: 您只能使用文字模式，在Adobe Workfront報表中依多選�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 530dff59-0d4c-490e-b464-1d3bb1d0f36f
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '518'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,7 @@ ht-degree: 0%
 
    報表中的物件會依多選自訂欄位的值分組。
 
-   ![](assets/grouping-by-multi-select-field-text-mode-ui-example.png)
+   ![將我的多重選取欄位分組](assets/grouping-by-multi-select-field-text-mode-ui-example.png)
 
    報表分組的名稱是多選自訂欄位的名稱，後面跟著在欄位中選取的值。
 

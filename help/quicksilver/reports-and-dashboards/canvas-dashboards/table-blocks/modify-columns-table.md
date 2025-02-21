@@ -4,9 +4,9 @@ description: 在報告畫布中設定表格欄
 hidefromtoc: true
 hide: true
 exl-id: ce33888f-344d-4f69-b527-9679340d134b
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1052'
 ht-degree: 2%
 
 ---
@@ -28,10 +28,10 @@ ht-degree: 2%
 
 ## 修改表格中的欄
 
-1. 前往現有報表，按一下報表標題中的&#x200B;**更多功能表**&#x200B;圖示![](assets/more-icon.png)，然後選取&#x200B;**編輯**。
-1. 在報告中的表格標題上，按一下&#x200B;**編輯**&#x200B;圖示![](assets/edit-icon.png)。
+1. 移至現有報表，按一下報表標題中的&#x200B;**更多功能表**&#x200B;圖示![更多圖示](assets/more-icon.png)，然後選取&#x200B;**編輯**。
+1. 在報表的表格標頭上，按一下&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)。
 
-   ![](assets/edit-icon-table-header-350x71.png)
+   ![編輯表格標頭中的圖示](assets/edit-icon-table-header-350x71.png)
 
    >[!NOTE]
    >

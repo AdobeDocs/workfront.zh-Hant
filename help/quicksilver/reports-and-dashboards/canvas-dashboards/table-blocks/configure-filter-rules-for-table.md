@@ -4,9 +4,9 @@ description: 在報告畫布中篩選表格
 hidefromtoc: true
 hide: true
 exl-id: 1838b142-d845-4795-b27f-80bfba18e9d4
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '871'
 ht-degree: 0%
 
 ---
@@ -46,19 +46,19 @@ ht-degree: 0%
 
 ## 設定表格的篩選規則
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**報表**。
+1. 按一下Adobe Workfront右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**報表**。
 
 1. 按一下&#x200B;**新報告**。
 
    或
 
-   前往現有報表，按一下報表標題中的&#x200B;**更多功能表**&#x200B;圖示![](assets/more-icon.png)，然後選取&#x200B;**編輯**。
+   移至現有報表，按一下報表標題中的&#x200B;**更多功能表**&#x200B;圖示![更多圖示](assets/more-icon.png)，然後選取&#x200B;**編輯**。
 
 1. 若要將新表格上的列分組，請將表格區塊拖曳或連按兩下至畫布。
 
    或
 
-   若要將現有表格上的資料列分組，請按一下表格標頭中的&#x200B;**編輯**&#x200B;圖示![](assets/edit-icon.png)。
+   若要將現有表格上的資料列分組，請按一下表格標頭中的&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)。
 
 1. 在右側面板中，找到您要用來篩選表格的欄位，然後將其拖曳至篩選區段。
 

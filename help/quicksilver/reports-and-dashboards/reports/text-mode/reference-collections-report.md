@@ -6,9 +6,9 @@ description: 報表中的參考集合
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '2539'
+source-wordcount: '2560'
 ht-degree: 0%
 
 ---
@@ -151,7 +151,7 @@ Workfront中的物件之間有下列兩種關係：
 
 若要在報表檢視中新增集合欄：
 
-1. 按一下&#x200B;**主要**&#x200B;功能表![](assets/main-menu-icon.png)，然後按一下&#x200B;**報表**。
+1. 按一下&#x200B;**主要**&#x200B;功能表![主要功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**報表**。
 1. 按一下&#x200B;**新報告**。
 1. 選取報表的物件。
 1. 離開您的報告，使用[API Explorer](../../../wf-api/general/api-explorer.md)決定您為報告選取的物件有哪些可用的集合。
@@ -236,7 +236,7 @@ Workfront中的物件之間有下列兩種關係：
 
 1. 以下欄會顯示在專案報告中，列出每個專案中的所有任務及其主要受指派人：
 
-   ![](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png){width=400}
+   ![含任務及受指派人集合的專案報告](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png){width=400}
 
 1. 按一下「**儲存**」。
 1. （選用）繼續編輯報表。
@@ -309,7 +309,7 @@ Workfront中的物件之間有下列兩種關係：
 
 若要在報表篩選器中新增集合的參考：
 
-1. 按一下&#x200B;**主要**&#x200B;功能表![](assets/main-menu-icon.png)，然後按一下&#x200B;**報表**。
+1. 按一下&#x200B;**主要**&#x200B;功能表![主要功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**報表**。
 1. 按一下&#x200B;**新報告**。
 1. 選取報表的物件。
 1. 離開您的報告，使用[API Explorer](../../../wf-api/general/api-explorer.md)決定您為報告選取的物件有哪些可用的集合。
@@ -350,7 +350,7 @@ Workfront中的物件之間有下列兩種關係：
 
    此報表只會顯示至少一項任務名稱中有「行銷」字樣的專案。
 
-   ![](assets/marketing-only-tasks-in-project-report-nwe-350x309.png){width=400}
+   ![專案中僅限行銷的任務](assets/marketing-only-tasks-in-project-report-nwe-350x309.png){width=400}
 
 1. 若要篩選問題的名稱，請使用下列程式碼：
 
@@ -386,7 +386,7 @@ Workfront中的物件之間有下列兩種關係：
 
 若要在報表的自訂提示中新增集合的參考：
 
-1. 按一下&#x200B;**主要**&#x200B;功能表![](assets/main-menu-icon.png)，然後按一下&#x200B;**報表**。
+1. 按一下&#x200B;**主要**&#x200B;功能表![主要功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**報表**。
 1. 按一下&#x200B;**新報告**。
 1. 選取報表的物件。
 1. 使用集合參考建立篩選器，如本文中[參考報表](#reference-a-collection-in-the-filter-of-a-report)的篩選器中的集合一節所述。

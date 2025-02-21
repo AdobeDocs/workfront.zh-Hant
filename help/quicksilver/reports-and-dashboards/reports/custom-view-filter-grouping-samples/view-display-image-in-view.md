@@ -7,9 +7,9 @@ description: 您可以使用文字模式將檢視中的物件名稱取代為影�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e1e4a993-f05c-4b6e-b00a-e96c9ab4c94f
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 >
 >影像會以實際解析度顯示，因此請嘗試使用小型影像。
 
-![](assets/replace-project-name-with-image-and-link-350x125.png)
+![以影像和連結取代專案名稱](assets/replace-project-name-with-image-and-link-350x125.png)
 
 ## 存取需求
 
@@ -86,7 +86,7 @@ ht-degree: 0%
    1. 按一下滑鼠右鍵並選取&#x200B;**複製影像位置**，或&#x200B;**取得連結**（視您的瀏覽器而定）。 您現在擁有該特定影像的URL，並可從剪貼簿中貼上。
    1. 確保具有該連結的每個人只要前往該連結，就能擁有檢視影像的許可權，而且他們不需要登入即可存取該連結。
 
-1. 前往專案，按一下專案名稱旁的&#x200B;**更多**&#x200B;功能表![](assets/more-icon-45x33.png)，然後按一下&#x200B;**編輯**。
+1. 前往專案，按一下專案名稱旁的&#x200B;**更多**&#x200B;功能表![更多圖示](assets/more-icon-45x33.png)，然後按一下&#x200B;**編輯**。
 
 1. 在&#x200B;**URL**&#x200B;欄位中，新增影像的連結。
 1. 前往專案清單中的專案檢視。

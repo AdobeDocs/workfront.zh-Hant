@@ -7,9 +7,9 @@ description: 瞭解報告中的多列專案檢視。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 3c6028c0-2c9f-4f86-aa6c-bf089844bac8
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -23,11 +23,11 @@ ht-degree: 0%
 * 以多列格式顯示專案資訊。\
   檢視使用`sharecol=true`標籤來合併相同欄標題下的多個欄位。 若要深入瞭解此標籤，請參閱[檢視：合併一個共用資料行中多個資料行的資訊](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md)。
 
-* 例如，使用保留HTML分行符號(`<br>`)的預留位置欄，以強制在專案名稱下方顯示說明。
+* 使用保留HTML分行符號(`<br>`)的預留位置欄，強制說明顯示在專案名稱下方，例如。
 * 在專案名稱后面以括弧顯示專案所有者。
 * 顯示專案名稱作為專案的連結。
 
-![](assets/project-multi-row-stacked-view-350x219.png)
+![含棧疊檢視的專案列](assets/project-multi-row-stacked-view-350x219.png)
 
 ## 存取需求
 

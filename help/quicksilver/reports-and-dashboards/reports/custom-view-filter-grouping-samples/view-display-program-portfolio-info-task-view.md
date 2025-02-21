@@ -2,25 +2,25 @@
 content-type: reference
 product-area: reporting;projects;portfolios;programs
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 檢視：在作業檢視中顯示程式與Portfolio資訊
+title: 檢視：在任務檢視中顯示計畫和Portfolio資訊
 description: 此任務檢視會顯示與任務專案關聯的方案和Portfolio。 建立任務檢視時，Report Builder中不提供此資訊。 只有文字模式才有此資訊。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cdd5a1e9-3cbf-4951-b803-fca544b2519a
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
 
-# 檢視：在作業檢視中顯示程式和Portfolio資訊
+# 檢視：在任務檢視中顯示計畫和Portfolio資訊
 
 此任務檢視會顯示與任務專案關聯的方案和Portfolio。 建立任務檢視時，Report Builder中不提供此資訊。 只有文字模式才有此資訊。
 
-檢視也會提供工作清單中的專案、方案和Portfolio連結。
+此檢視還提供任務清單中的專案、方案和Portfolio連結。
 
-![](assets/view--program-and-portfolio-350x116.png)
+![檢視方案和投資組合](assets/view--program-and-portfolio-350x116.png)
 
 ## 存取需求
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 +++
 
-## 在任務檢視中顯示程式和Portfolio資訊
+## 在任務檢視中顯示計畫和Portfolio資訊
 
 1. 前往工作清單。
 1. 從&#x200B;**檢視**&#x200B;下拉式功能表中，選取&#x200B;**新增檢視**。

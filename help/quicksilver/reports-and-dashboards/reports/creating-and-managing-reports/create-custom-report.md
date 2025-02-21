@@ -6,9 +6,9 @@ description: 您可以透過建立報告，提供貴組織在Adobe Workfront中�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1828'
+source-wordcount: '1817'
 ht-degree: 1%
 
 ---
@@ -24,41 +24,40 @@ ht-degree: 1%
 
 如需有關複製報表以建立報表的資訊，請參閱[建立報表復本](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md)。
 
-如需建立及管理報表（包括課程、影片和教學課程）的詳細資訊，請參閱Adobe Experience League網站上的「學習」一節。
+如需建立和管理報告的詳細資訊，包括課程、影片和教學課程，請參閱Adobe Experience League網站上的「學習」一節。
 
 ## 存取需求
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
+您必須具備下列條件：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
    <td> <p>新增：標準 </p>
    或
    <p>目前：計畫 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯報告、儀表板、行事曆的存取權</p> <p>編輯對篩選器、檢視、群組的存取權</p> <p><b>附註</b></p>
-   <p> 如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>編輯報告、儀表板、行事曆的存取權</p> <p>編輯對篩選器、檢視、群組的存取權</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>您可取得所建立報告的「管理」許可權。</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>您可取得所建立報告的「管理」許可權。</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -72,11 +71,13 @@ ht-degree: 1%
 
    如需有關可用物件報表的特定資訊，請參閱文章[瞭解Adobe Workfront中的物件](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)中的[物件報表](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects)一節。
 
-   ![](assets/nwe-select-new-report-350x666.png)
+   ![選取新報告](assets/nwe-select-new-report-350x666.png)
 
    >[!TIP]
    >
    >您也可以製作現有報表的副本，以建立報表。 如需詳細資訊，請參閱[建立報告復本](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md)。
+
+1. （可選）若要編輯新報告的標題，請在Report Builder左上角的文字欄位中輸入所需的報告標題。 我們建議僅使用UTF-8字元以避免相容性問題。
 
 1. 在Report Builder中，將下列專案新增至報表：
 
@@ -126,11 +127,11 @@ ht-degree: 1%
 
    或
 
-   若要變更現有欄，請按一下該欄，在Report Builder左上角的&#x200B;**顯示在此欄位欄位**&#x200B;區域中，按一下目前欄位右側的&#x200B;**移除**&#x200B;圖示![](assets/remove-column-icon.png)，並開始輸入新欄位，然後在其顯示在清單中時按一下它。
+   若要變更現有欄，請按一下該欄，在Report Builder左上角的&#x200B;**顯示在此欄位欄位**&#x200B;區域中，按一下目前欄位右側的&#x200B;**移除**&#x200B;圖示![移除欄點陣圖示](assets/remove-column-icon.png)，然後開始輸入新欄位，然後在欄位顯示在清單中時按一下它。
 
    如需有關您在欄中看到的欄位詳細資訊，請參閱[Adobe Workfront術語辭彙表](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)。
 
-   ![](assets/nwe-add-column-typeahead-350x459.png)
+   ![新增欄自動提示](assets/nwe-add-column-typeahead-350x459.png)
 
 1. （選擇性）在&#x200B;**資料行設定**&#x200B;區域中，選取&#x200B;**依此資料行排序**&#x200B;以遞增字母順序來排序資料行中的值，然後指示清單是否應使用此資料行作為第一個排序。
 
@@ -202,7 +203,7 @@ ht-degree: 1%
 
    選擇&#x200B;**套用現有群組**&#x200B;以選取清單中顯示的現有群組。
 
-   ![](assets/nwe-add-grouping-350x230.png)
+   ![新增群組](assets/nwe-add-grouping-350x230.png)
 
 1. 開始輸入您要新增為群組的欄位。 如果欄位可供使用，則會針對可與其關聯的每個物件填入欄位。 按一下欄位名稱以將其新增到該群組。
 1. （選擇性）您可以按一下&#x200B;**切換至文字模式**，選擇在文字模式中建立群組。 如需有關使用文字模式的詳細資訊，請參閱[文字模式概觀](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)。
@@ -234,7 +235,7 @@ ht-degree: 1%
    或\
    選擇&#x200B;**套用現有的篩選器**&#x200B;以使用現有的篩選器。
 
-   ![](assets/nwe-add-a-filter-350x93.png)
+   ![新增篩選器](assets/nwe-add-a-filter-350x93.png)
 
 1. 如果您按一下&#x200B;**新增篩選規則**，請開始輸入您要新增為篩選的欄位。 如果欄位可供使用，則會針對可與其關聯的每個物件填入欄位。 按一下欄位名稱以將其新增至該篩選器。\
    使用篩選器修飾元來建置您的篩選器。 如需篩選修飾元的詳細資訊，請參閱[篩選和條件修飾元](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)。
@@ -254,7 +255,7 @@ ht-degree: 1%
 1. 開始建立報告，如本文的[建立報告](#create-a-report)一節中所述。
 1. 在Report Builder中，選取&#x200B;**圖表**&#x200B;標籤，然後選取您要新增的圖表型別。
 
-   ![](assets/nwe-add-a-chart-350x247.png)
+   ![新增圖表](assets/nwe-add-a-chart-350x247.png)
 
    如需在報告中建立圖表的詳細資訊，請參閱[將圖表新增至報告](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md)。
 

@@ -7,9 +7,9 @@ description: 此任務檢視類似於您的Adobe Workfront帳戶隨附的「所�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 20df7cd8-113e-4c0d-b3f5-1def7db968a5
-source-git-commit: 4247f2b437a5627ac4cba5289573eb4f1c18c583
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 如需有關在檢視中使用計算的詳細資訊，請參閱下列[文字模式常見使用概述](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)一節：  [文字模式的常見使用概述](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)。
 
-![](assets/view-task-with-all-dates-variance.png)
+![檢視包含所有日期的任務](assets/view-task-with-all-dates-variance.png)
 
 ## 存取需求
 

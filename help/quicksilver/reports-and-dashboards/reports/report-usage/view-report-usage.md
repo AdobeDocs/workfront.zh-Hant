@@ -6,9 +6,9 @@ description: 檢視報表使用情形
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 51d9067c-8c55-433e-b560-7da241ef33ae
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1011'
 ht-degree: 1%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計劃 </p> </td> 
+   <td> <p>規劃 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
@@ -68,7 +68,7 @@ ht-degree: 1%
 
 ## 在報告清單的檢視中顯示報告使用情況資訊
 
-1. 按一下Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**報表**。
+1. 按一下Workfront右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**報表**。
 
 1. 在報表清單中，按一下&#x200B;**檢視**&#x200B;下拉式功能表。
 1. （選擇性）選取&#x200B;**報告使用量**&#x200B;檢視以顯示最常用的報告使用量資訊。\
@@ -97,7 +97,7 @@ ht-degree: 1%
 
 ## 依使用情況資訊篩選報表清單 {#filter-a-report-list-by-usage-information}
 
-1. 按一下Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**報表**。
+1. 按一下Workfront右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**報表**。
 1. 在報表清單中，按一下&#x200B;**篩選器**&#x200B;下拉式功能表。
 1. 按一下&#x200B;**新增篩選器**，然後按一下&#x200B;**新增篩選器規則**。
 1. 開始輸入下列任何欄位，並在這些欄位出現在&#x200B;**Report**&#x200B;物件下的清單中時選取它們，以將它們新增為新的篩選規則：
@@ -112,7 +112,7 @@ ht-degree: 1%
    * **上次檢視日期**：顯示上次檢視報告的日期
 
 1. 為您的欄位選取修飾元，然後在提示時指定值。\
-   ![](assets/qs-report-usage-filter-statistics-350x150.png)
+   ![報告使用情況篩選器統計資料](assets/qs-report-usage-filter-statistics-350x150.png)
 
 1. 按一下「**儲存篩選器**」。\
    這會顯示符合您定義之使用資訊的報告清單。\

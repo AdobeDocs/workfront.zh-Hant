@@ -4,9 +4,9 @@ description: 匯出報告畫布中的報告
 hidefromtoc: true
 hide: true
 exl-id: bd9e2e6f-338e-4cfc-aee5-6de6ecff4f09
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '183'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 您可以將整個報表（或特定區塊）匯出為檔案格式，以符合您的需求。 您可以匯出至：
 
-* PDF（目前已停用）
+* PDF （目前已停用）
 * CSV
 * PNG
 * XLSX
@@ -27,7 +27,7 @@ ht-degree: 2%
 ## 匯出報告
 
 1. 導覽至您要匯出的報告。
-1. 在報告標題中，按一下&#x200B;**更多**&#x200B;圖示![](assets/more-icon-27x15.png)，按一下&#x200B;**匯出**，然後選取您要建立的檔案格式。
+1. 在報告標題中，按一下&#x200B;**更多**&#x200B;圖示![更多圖示](assets/more-icon-27x15.png)，按一下&#x200B;**匯出**，然後選取您要建立的檔案格式。
 
    >[!NOTE]
    >

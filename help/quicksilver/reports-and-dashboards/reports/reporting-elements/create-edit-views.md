@@ -6,9 +6,9 @@ description: 您可以使用檢視來自訂顯示在熒幕上的資訊型別。 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1718'
+source-wordcount: '1731'
 ht-degree: 1%
 
 ---
@@ -123,7 +123,7 @@ ht-degree: 1%
          <tbody> 
           <tr> 
            <td role="rowheader"><strong>自訂欄標籤</strong></td> 
-           <td><p>指定欄的自訂標籤。 此標籤會取代預設標籤。</p></td> 
+           <td><p>指定欄的自訂標籤。 此標籤會取代預設標籤。 我們建議僅使用UTF-8字元以避免相容性問題。</p></td> 
           </tr> 
           <tr> 
            <td role="rowheader"><strong>欄位格式</strong></td> 
@@ -179,7 +179,7 @@ ht-degree: 1%
       您無法自訂預設的敏捷檢視。
 
    1. 再次按一下&#x200B;**檢視**&#x200B;下拉式功能表，然後按一下&#x200B;**自訂檢視**。\
-      ![](assets/view-agile-customize.png)
+      ![自訂檢視](assets/view-agile-customize.png)
 
 1. （視條件而定）若要建立新的敏捷檢視，請按一下&#x200B;**新檢視**。\
    顯示&#x200B;**自訂敏捷檢視**&#x200B;對話方塊。

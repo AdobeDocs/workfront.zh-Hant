@@ -4,9 +4,9 @@ description: 在報告畫布中設定欄視覺效果
 hidefromtoc: true
 hide: true
 exl-id: 5a0cdcd4-b44b-4a63-964e-1c570cd9ff77
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '327'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 2%
 
 1. 首先，將具有&#x200B;**欄**&#x200B;視覺效果型別的視覺效果區塊新增至報表，如[在報表畫布](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md)中新增或編輯視覺效果區塊所說明。
 
-1. 按一下視覺效果右上角的「編輯視覺效果」圖示![](assets/edit-icon.png)，然後執行下列任一項作業。
+1. 按一下視覺效果右上角的「編輯視覺效果」圖示![「編輯」圖示](assets/edit-icon.png)，然後執行下列任一動作。
 
    1. 在&#x200B;**設定**&#x200B;標籤上：
 

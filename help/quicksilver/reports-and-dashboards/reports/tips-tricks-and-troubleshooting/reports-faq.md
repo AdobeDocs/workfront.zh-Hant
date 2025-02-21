@@ -7,9 +7,9 @@ description: 報表常見問題集
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1519'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ ht-degree: 0%
 ### 解答
 
 報告或行事曆可能有萬用字元篩選變數，指向已登入的使用者。 在此情況下，報表會根據登入的使用者顯示資訊。 調整篩選器以移除指向登入使用者的萬用字元。\
-![](assets/qs--user.id-filter-variable-350x79.png)
+![使用者ID篩選器變數](assets/qs--user.id-filter-variable-350x79.png)
 
 如需以使用者為基礎的萬用字元篩選變數總覽的完整清單，請參閱[萬用字元篩選變數總覽](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)。
 
@@ -122,7 +122,7 @@ ht-degree: 0%
 1. 選取&#x200B;**Equal**&#x200B;修飾元。
 1. 開始在文字方塊中輸入&#x200B;*$$USER.ID*，並從出現的下拉式清單中選取它。\
    這可確保您看到指派給登入使用者的所有任務和問題。 您可以使用特定使用者名稱來取代萬用字元。\
-   ![](assets/qs-tasks-assigned-to-me-assignment-users-name-filter-350x63.png)
+   ![指派給我的任務](assets/qs-tasks-assigned-to-me-assignment-users-name-filter-350x63.png)
 
 1. 按一下「**儲存並關閉**」。
 
@@ -143,7 +143,7 @@ ht-degree: 0%
 * 如果您將&#x200B;**檢視**&#x200B;套用至這些清單，而且清單選取了專案預設貨幣以外的貨幣，則連結不會顯示。 將&#x200B;**檢視**&#x200B;變更為&#x200B;**專案的原始貨幣**，連結應會顯示出來，以便您將問題和任務新增到專案。\
   如需有關在檢視中變更貨幣的詳細資訊，請參閱[建立具有唯一匯率的財務資料報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md)。
 
-![](assets/nwe-project-original-currency-350x229.png)
+![專案貨幣](assets/nwe-project-original-currency-350x229.png)
 
 ## 我的報表或儀表板中的資訊會自動重新整理嗎？
 

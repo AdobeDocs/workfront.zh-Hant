@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b02ca181-e3c3-41e9-ab45-b1b606909127
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '639'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**自訂使用者看到的內容**&#x200B;下拉式功能表，然後按一下&#x200B;**儀表板**。
 
-1. 在下面顯示的&#x200B;**左側面板**&#x200B;清單中，按一下&#x200B;**畫布控制面板**&#x200B;旁的![](assets/delete-secondary-nav-item.png)圖示。 圖示將變更為![](assets/add-secondary-nav-item.png)，顯示它現在顯示在儀表板左側面板中。
+1. 在下面顯示的&#x200B;**左側面板**&#x200B;清單中，按一下&#x200B;**畫布控制面板**&#x200B;旁的![刪除次要導覽專案](assets/delete-secondary-nav-item.png)圖示。 圖示將變更為![新增次要導覽專案](assets/add-secondary-nav-item.png)，以顯示它現在顯示在儀表板左側面板中。
 
 1. 按一下熒幕底部的&#x200B;**儲存**。
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 1. 請確定您已啟用版面配置範本中的畫布控制面板選項。 如需指示，請參閱上述&#x200B;**將畫布儀表板新增到儀表板功能表**。
 
-1. 按一下主功能表圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**儀表板**。
+1. 按一下主功能表圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**儀表板**。
 
 1. 在左側面板中，按一下&#x200B;**畫布控制面板**。
 

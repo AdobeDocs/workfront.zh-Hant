@@ -6,9 +6,9 @@ description: 您可以複製控制面板及其所有內容（報告、行事曆�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a88cc171-2bb1-40f0-a778-8dac7eecb718
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '898'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 儀表板]**。
 
-1. 選取您要複製的儀表板，然後按一下&#x200B;**複製** ![](assets/copy-icon.png)。\
+1. 選取您要複製的儀表板，然後按一下&#x200B;**複製** ![復製圖示](assets/copy-icon.png)。\
    或\
    開啟您要複製的儀表板，然後按一下&#x200B;**儀表板動作** > **複製**。\
    「儀表板複製」對話方塊隨即顯示。 原始儀表板上的所有專案都會顯示。

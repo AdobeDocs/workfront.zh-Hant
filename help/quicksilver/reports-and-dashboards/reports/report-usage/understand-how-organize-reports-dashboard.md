@@ -7,9 +7,9 @@ description: 您可以檢視報表是否已新增至Adobe Workfront中的儀表�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ce00c307-9e64-49f5-997b-f7fc461c960c
-source-git-commit: d738ef3f6642d5b1a646f58896575a2971bbc06a
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '652'
 ht-degree: 1%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計劃 </p> </td> 
+   <td> <p>規劃 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
@@ -68,7 +68,7 @@ ht-degree: 1%
 
 若要使用報告清單的控制面板資訊建立檢視：
 
-1. 按一下Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**報表**。
+1. 按一下Workfront右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**報表**。
 1. 在報表清單中，按一下&#x200B;**檢視**&#x200B;下拉式功能表。
 1. 按一下&#x200B;**新檢視**。
 1. 按一下「**新增欄**」。
@@ -77,13 +77,13 @@ ht-degree: 1%
 
 1. 按一下「**儲存視圖**」。\
    報表所顯示的儀表板會顯示在報表清單的儀表板欄中。\
-   ![](assets/qs-dashboards-in-report-view.png)
+   ![報告中的儀表板](assets/qs-dashboards-in-report-view.png)
 
 ## 依控制面板資訊篩選報表清單
 
 若要依控制面板資訊篩選報表清單：
 
-1. 按一下Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**報表**。
+1. 按一下Workfront右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**報表**。
 
 1. 在報表清單中，按一下&#x200B;**篩選器**&#x200B;下拉式功能表。
 1. 按一下&#x200B;**新增篩選器**，然後按一下&#x200B;**新增篩選器規則**。
@@ -93,7 +93,7 @@ ht-degree: 1%
 1. 在&#x200B;**儀表板**&#x200B;物件下，選取&#x200B;**名稱**。
 
 1. 在修飾元下拉式選單中選取&#x200B;**等於**，然後開始輸入您要作為篩選依據的儀表板名稱。 您可以為篩選器選取多個控制面板。\
-   ![](assets/qs-dashboards-in-report-filters-350x143.png)
+   ![報告篩選器中的儀表板](assets/qs-dashboards-in-report-filters-350x143.png)
 
 1. 按一下「**儲存並關閉**」。\
    這會顯示僅列在指定控制面板上的報告清單。\

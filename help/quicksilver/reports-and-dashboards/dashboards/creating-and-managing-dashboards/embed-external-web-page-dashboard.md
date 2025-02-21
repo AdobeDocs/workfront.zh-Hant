@@ -6,9 +6,9 @@ description: 您可以將外部網頁內嵌在控制面板中，藉此存取Adob
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1030'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >* 基於安全理由，有些網站不允許您將網頁內嵌為iframe。 如果您要內嵌在儀表板中的網頁不允許這麼做，則儀表板中不會顯示該頁面。 不過，您仍然可以按一下控制面板的名稱來存取外部頁面。\
->![](assets/qs-empty-external-page-report-350x165.png)\
+>![空白的外部頁面報告](assets/qs-empty-external-page-report-350x165.png)\
 >若要允許內嵌您擁有的網站，請與您的網站管理員合作，調整&#x200B;**X-Frame-Options**&#x200B;設定。 如需詳細資訊，請參閱[X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options)。
 >
 >
@@ -118,7 +118,7 @@ ht-degree: 1%
 
 1. 按一下&#x200B;**選取配置/新增報告/新增行事曆**&#x200B;區域下的&#x200B;**新增外部頁面**。
 
-   ![](assets/qs-add-external-page-350x239.png)
+   ![新增外部頁面](assets/qs-add-external-page-350x239.png)
 
    顯示&#x200B;**新增外部頁面**&#x200B;方塊。
 
@@ -132,7 +132,7 @@ ht-degree: 1%
 
       * 網頁的https （加密） URL。\
         只有https （加密）頁面會以URL載入。\
-        ![](assets/add-external-page-dialog-qs-350x247.png)
+        ![新增外部頁面對話方塊](assets/add-external-page-dialog-qs-350x247.png)
 
       * 包含特定網站的工作階段資訊的範本URL。\
         例如： *https://localhost/?session={！$$SESSION}*
@@ -170,10 +170,10 @@ ht-degree: 1%
    **儀表板詳細資料**&#x200B;方塊開啟。
 
 1. 在&#x200B;**儀表板詳細資訊**&#x200B;方塊的&#x200B;**選取配置/新增報告**&#x200B;區域中，找到您要更新的外部頁面，將滑鼠停留在它上，然後按一下&#x200B;**編輯**&#x200B;圖示。\
-   ![](assets/nwe-inline-edit-external-page-350x226.png)
+   ![內嵌編輯外部頁面](assets/nwe-inline-edit-external-page-350x226.png)
 
 1. 在&#x200B;**編輯外部頁面**&#x200B;方塊中，更新您要變更的欄位，然後按一下&#x200B;**儲存**。
-1. （選擇性）按一下&#x200B;**刪除**&#x200B;圖示![](assets/delete.png)以從儀表板移除外部頁面。 如需詳細資訊，請參閱[從儀表板移除外部頁面](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)。
+1. （選擇性）按一下&#x200B;**刪除**&#x200B;圖示![刪除圖示](assets/delete.png)以從儀表板移除外部頁面。 如需詳細資訊，請參閱[從儀表板移除外部頁面](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)。
 1. 按一下「**儲存並關閉**」。
 
 ## 在報表中檢視外部頁面
@@ -184,7 +184,7 @@ ht-degree: 1%
 
 1. 按一下「**新增報表**」>選取「**外部區段**」。
 
-   ![](assets/external-page-new-report-in-dropdown-nwe.png)
+   ![外部節](assets/external-page-new-report-in-dropdown-nwe.png)
 
 1. （可選）更新報告的檢視、篩選或分組標籤。
 
