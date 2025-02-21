@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: f9dea6c80c0d681e3638c9baf36e6e511693b59c
+source-git-commit: 0cbce301426ee42bc00f8b0930a13d0d7875e382
 workflow-type: tm+mt
-source-wordcount: '1322'
+source-wordcount: '1336'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ ht-degree: 0%
   >
   >請勿對產品設定檔本身進行任何變更。
 
-* Adobe Admin Console管理員可設定自動指派規則，以自動化將Adobe產品指派給組織內使用者的程式。 如需詳細資訊與指示，請參閱Adobe檔案中的[管理自動指派規則](https://helpx.adobe.com/enterprise/using/automatic-assignment-rules.html)。
+* Adobe Admin Console管理員可設定自動指派規則，以自動化將Adobe產品指派給組織內使用者的程式。 您的組織必須移轉至Adobe Unified Experience才能使用此功能。 如需詳細資訊與指示，請參閱Adobe檔案中的[管理自動指派規則](https://helpx.adobe.com/enterprise/using/automatic-assignment-rules.html)。
 
 ## 存取您的Workfront生產執行個體的使用者和管理區域 {#access-the-user-and-admin-area-for-your-production-instance-of-workfront}
 
