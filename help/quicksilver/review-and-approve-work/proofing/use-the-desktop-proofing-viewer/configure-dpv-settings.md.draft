@@ -65,13 +65,13 @@ To configure proofing viewer settings:
 1. Open the Web Proofing Viewer or the Desktop Proofing Viewer in one of the following ways:
 
    * If you proof within Adobe Workfront, go to a document list containing a proof you want to view, hover over the document, then click&nbsp;**Open proof**.
-   * If you use Workfront Proof, click the **Go to Proof** icon for the proof in the Dashboard or a Views list. ![](assets/go-to-proof-blue-icon.png)
+   * If you use Workfront Proof, click the **Go to Proof** icon for the proof in the Dashboard or a Views list. ![Go to proof](assets/go-to-proof-blue-icon.png)
 
 1. If the left toolbar is not showing, click the&nbsp;**Menu**&nbsp;icon, located in the upper-left corner of the Web Proofing Viewer.
 
-   ![](assets/menu-icon-in-proofing-viewer-350x228.png)
+   ![Menu icon](assets/menu-icon-in-proofing-viewer-350x228.png)
 
-1. In the left toolbar, click the **Settings** icon ![](assets/settings-icon-in-pv.png).   
+1. In the left toolbar, click the **Settings** icon ![Settings icon](assets/settings-icon-in-pv.png).   
 
 1. Configure any of the following **Settings** that display.
 

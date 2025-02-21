@@ -72,7 +72,7 @@ You must have the following before you can start:
 >
 >Only goals that have been checked in on at least once display in the Pulse section.
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner of your screen.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) > **Goals** in the upper-right corner of your screen.
 
    This opens the Workfront Goals area.
 
@@ -144,7 +144,7 @@ You must have the following before you can start:
 
 1. (Optional) Click **Show all updates** to display all goal updates. This opens the Updates tab in the Goal&nbsp;Details panel on the right. 
 1. Click the name of a goal to open the **Goal Details** panel on the right and review more information about the goal as well as manage it and its results and activities. For information about reviewing individual goals, see [Update goals in the Goal details section in Adobe Workfront Goals](../../workfront-goals/goal-management/update-goals-in-goal-details-panel.md).
-1. (Optional and conditional) Click **the alignment icon** ![](assets/align-icon.png) to open the goal in the Goal Alignment section, if the goal is aligned to other goals. 
+1. (Optional and conditional) Click **the alignment icon** ![Alignment icon](assets/align-icon.png) to open the goal in the Goal Alignment section, if the goal is aligned to other goals. 
 
 1. (Optional) Expand the **Goals per page** drop-down menu and select from the following options to display additional goals:
 

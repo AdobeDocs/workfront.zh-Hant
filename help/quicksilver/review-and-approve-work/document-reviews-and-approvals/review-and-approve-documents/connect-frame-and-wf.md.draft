@@ -41,7 +41,7 @@ We are actively improving this feature for general availability in May.
 1. In the left panel, click **Groups**.
 1. Choose an existing group, or click **Create group**. 
 1. In the left panel, click **Connect to Frame.io**. 
-![](assets/connect-frame-group.png)
+![Connect to Frame.io](assets/connect-frame-group.png)
 1. Enter the API developer token.
 1. Click **Initiate Connection**.
 1. (Conditional) If you are the administrator of more than one Frame.io account, select the account you want to use.
@@ -65,7 +65,7 @@ After you've connected a Workfront Group to a Frame.io team, you must create a p
 1. Find the **Group** field on the right side of the screen, and remove the Default group.  
 
 1. In the drop-down menu, find the desired group. Groups connected with Frame.io display the Frame.io icon.
-![](assets/add-frame-group.png)
+![Add Frame group](assets/add-frame-group.png)
 
 1. Make any other project configuration changes. 
 
@@ -92,7 +92,7 @@ After you've connected a Workfront Group to a Frame.io team, you must create a p
     
 
 1. Enable the **This task's integration status** checkbox, and choose **Active**. 
-    ![](assets/frame-custom-form.png)
+    ![Frame custom form](assets/frame-custom-form.png)
 
 1. Click **Save Changes**. A Frame.io icon displays next to the project name. 
 

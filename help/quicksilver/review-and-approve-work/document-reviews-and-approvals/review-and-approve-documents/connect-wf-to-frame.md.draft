@@ -63,7 +63,7 @@ To connect a Workfront group to a Frame.io Team:
 1. In the left panel, click **Groups**.
 1. Choose and existing group, or click **Create group**. 
 1. In the left panel, click **Connect to Frame.io**. 
-![](assets/connect-frame-group.png)
+![Connect to Frame.io](assets/connect-frame-group.png)
 1. Enter the API developer token.
 1. Click **Initiate Connection**.
 1. (Conditional) Select a Frame.io account.
