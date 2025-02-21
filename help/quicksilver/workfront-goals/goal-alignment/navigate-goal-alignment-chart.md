@@ -6,9 +6,9 @@ description: 使用「目標校準」區段，在流程圖中顯示整個組織�
 author: Alina
 feature: Workfront Goals
 exl-id: e79ced31-4680-4af7-b083-3d615c747af8
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '937'
 ht-degree: 1%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 1%
 <p> 新產品需求，下列其中一項： </p>
 <ul>
 <li>Select或Prime Adobe Workfront計畫以及額外的Adobe Workfront目標授權。</li>
-<li>預設包含Workfront目標的Ultimate Workfront計畫。 </li></ul>
+<li>Ultimate Workfront計畫，預設包含Workfront目標。 </li></ul>
 <p>或</p>
 <p>目前產品需求： Adobe Workfront Goals的Workfront計畫和額外授權。 </p> <p>如需詳細資訊，請參閱<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目標的需求</a>。 </p> </td>
 </tr>
@@ -137,11 +137,11 @@ ht-degree: 1%
 
    對齊其他目標的目標會在目標卡下顯示對齊的目標數量。
 
-   ![](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
+   ![對齊圖表箭頭](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
 
 1. 按一下目標下方的&#x200B;**向下箭頭**&#x200B;圖示，可進一步展開並檢視子目標。
 
-   ![](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
+   ![對齊圖表箭頭](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
 
    >[!TIP]
    >
@@ -149,7 +149,7 @@ ht-degree: 1%
 
 1. （條件式）如果目前篩選條件排除參與對齊的某些目標，則會顯示警告訊息，指出並非所有目標都會顯示。
 
-   ![](assets/parent-goal-excluded-by-filter-alignment-section-350x230.png)
+   ![已排除上層目標](assets/parent-goal-excluded-by-filter-alignment-section-350x230.png)
 
 1. 按一下&#x200B;**顯示它們**&#x200B;以顯示篩選目前排除的目標。
 
@@ -158,14 +158,14 @@ ht-degree: 1%
    * 之前由篩選器排除的已連線目標現在會顯示在對齊圖表中。
    * 右上角的濾鏡外框為黃色，表示目前未套用濾鏡。
 
-     ![](assets/reapply-filter-link-and-yellow-filter-highlight-350x120.png)
+     ![黃色濾鏡反白顯示](assets/reapply-filter-link-and-yellow-filter-highlight-350x120.png)
 
      重新套用篩選器連結會顯示在篩選器名稱的左側。
 
 1. （選擇性）按一下&#x200B;**重新套用篩選器**&#x200B;以返回原始結果並顯示目標階層。
 1. （選用）將滑鼠指標暫留在進度指標上，以瞭解當天的目標進度應該位於何處。
 
-   ![](assets/progress-mouse-over-alignment-chart-350x163.png)
+   ![將滑鼠移到對齊圖](assets/progress-mouse-over-alignment-chart-350x163.png)上
 
    下列資訊隨即顯示：
 

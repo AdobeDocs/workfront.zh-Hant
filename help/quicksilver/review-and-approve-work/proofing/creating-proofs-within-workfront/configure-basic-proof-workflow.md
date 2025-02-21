@@ -6,9 +6,9 @@ description: 使用基本工作流程，您可以讓多個稽核者檢閱校樣�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f5d0c0e-e070-4f32-89c4-3b511a3b7fdc
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1853'
+source-wordcount: '1858'
 ht-degree: 1%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 1%
 1. 在工作流程型別區段中，選擇&#x200B;**基本**。
 1. 指定您要新增的使用者，然後選擇校訂角色。
 
-   ![](assets/new-proof---roles-350x213.png)
+   ![新校訂角色](assets/new-proof---roles-350x213.png)
 
 1. 下表列出每個角色及其關聯的許可權。
 
@@ -111,99 +111,99 @@ ht-degree: 1%
     <tbody> 
      <tr> 
       <td> <p><strong>唯讀</strong> </p> </td> 
-      <td> <p>✓ (A)</p> </td> 
+      <td> <p>✓</p> </td> 
       <td> <p> </p> </td> 
       <td> <p> </p> </td> 
       <td> <p> </p> </td> 
       <td> <p> </p> </td> 
       <td> <p> </p> </td> 
       <td> </td> 
-      <td>✓ (A)</td> 
+      <td>✓</td> 
       <td> <p> </p> </td> 
-      <td>✓ (A)</td> 
+      <td>✓</td> 
       <td> </td> 
       <td> </td> 
       <td> </td> 
      </tr> 
      <tr> 
       <td> <p><strong>檢閱者</strong> </p> </td> 
-      <td> <p>✓ (A)</p> </td> 
-      <td> <p>✓ (A)</p> </td> 
-      <td> <p>✓ (A)</p> </td> 
-      <td> <p>✓ (A)</p> </td> 
+      <td> <p>✓</p> </td> 
+      <td> <p>✓</p> </td> 
+      <td> <p>✓</p> </td> 
+      <td> <p>✓</p> </td> 
       <td> <p> </p> </td> 
       <td> <p> </p> </td> 
       <td> </td> 
-      <td>✓ (A)</td> 
+      <td>✓</td> 
       <td> <p> </p> </td> 
-      <td>✓ (A)</td> 
+      <td>✓</td> 
       <td> </td> 
       <td> </td> 
       <td> </td> 
      </tr> 
      <tr> 
       <td> <p><strong>核准者</strong> </p> </td> 
-      <td> <p>✓ (A)</p> </td> 
+      <td> <p>✓</p> </td> 
       <td> <p> </p> </td> 
       <td> <p> </p> </td> 
       <td> <p> </p> </td> 
-      <td> <p>✓ (A)</p> </td> 
+      <td> <p>✓</p> </td> 
       <td> <p> </p> </td> 
       <td> </td> 
-      <td>✓ (A)</td> 
+      <td>✓</td> 
       <td> <p> </p> </td> 
-      <td>✓ (A)</td> 
+      <td>✓</td> 
       <td> </td> 
-      <td> <p>✓ (A)</p> </td> 
+      <td> <p>✓</p> </td> 
       <td> </td> 
      </tr> 
      <tr> 
       <td> <p><strong>檢閱者和核准者</strong> </p> </td> 
-      <td> <p>✓ (A)</p> </td> 
-      <td> <p>✓ (A)</p> </td> 
-      <td> <p>✓ (A)</p> </td> 
-      <td> <p>✓ (A)</p> </td> 
-      <td> <p>✓ (A)</p> </td> 
+      <td> <p>✓</p> </td> 
+      <td> <p>✓</p> </td> 
+      <td> <p>✓</p> </td> 
+      <td> <p>✓</p> </td> 
+      <td> <p>✓</p> </td> 
       <td> <p> </p> </td> 
       <td> </td> 
-      <td>✓ (A)</td> 
+      <td>✓</td> 
       <td> <p> </p> </td> 
-      <td>✓ (A)</td> 
+      <td>✓</td> 
       <td> </td> 
-      <td> <p>✓ (A)</p> </td> 
+      <td> <p>✓</p> </td> 
       <td> </td> 
      </tr> 
      <tr> 
       <td> <p><strong>作者</strong> </p> </td> 
-      <td> <p>✓ (A)</p> </td> 
-      <td> <p>✓ (A)</p> </td> 
-      <td> <p>✓ (A)</p> </td> 
-      <td> <p>✓ (A)</p> </td> 
-      <td> <p>✓ (A)</p> </td> 
+      <td> <p>✓</p> </td> 
+      <td> <p>✓</p> </td> 
+      <td> <p>✓</p> </td> 
+      <td> <p>✓</p> </td> 
+      <td> <p>✓</p> </td> 
       <td> <p> </p> </td> 
-      <td>✓ (A)</td> 
-      <td>✓ (A)</td> 
-      <td> <p>✓ (A)</p> </td> 
-      <td>✓ (A)</td> 
-      <td>✓ (A)</td> 
+      <td>✓</td> 
+      <td>✓</td> 
+      <td> <p>✓</p> </td> 
+      <td>✓</td> 
+      <td>✓</td> 
       <td> </td> 
-      <td>✓ (A)</td> 
+      <td>✓</td> 
      </tr> 
      <tr> 
       <td> <p><strong>仲裁者</strong> </p> </td> 
-      <td> <p>✓ (A)</p> </td> 
-      <td> <p>✓ (A)</p> </td> 
-      <td> <p>✓ <strong></strong> </p> </td> 
-      <td> <p>✓ (A)</p> </td> 
-      <td> <p>✓ (A)</p> </td> 
-      <td> <p>✓ (A)</p> <p> </p> </td> 
-      <td>✓ (A)</td> 
-      <td>✓ (A)</td> 
-      <td> <p>✓ (A)</p> </td> 
-      <td>✓ (A)</td> 
-      <td>✓ (A)</td> 
-      <td>✓ (A)</td> 
-      <td>✓ (A)</td> 
+      <td> <p>✓</p> </td> 
+      <td> <p>✓</p> </td> 
+      <td> <p><strong>✓</strong> </p> </td> 
+      <td> <p>✓</p> </td> 
+      <td> <p>✓</p> </td> 
+      <td> <p>✓</p> <p> </p> </td> 
+      <td>✓</td> 
+      <td>✓</td> 
+      <td> <p>✓</p> </td> 
+      <td>✓</td> 
+      <td>✓</td> 
+      <td>✓</td> 
+      <td>✓</td> 
      </tr> 
     </tbody> 
    </table>
@@ -347,6 +347,6 @@ ht-degree: 1%
 
 1. 產生校訂後，按一下&#x200B;**開啟校訂**&#x200B;以啟動校訂檢視器。
 
-   ![](assets/open-proof-350x132.png)
+   ![開啟校訂](assets/open-proof-350x132.png)
 
    未在其帳戶中啟用校訂的使用者仍可檢視檔案並對校訂進行評論。

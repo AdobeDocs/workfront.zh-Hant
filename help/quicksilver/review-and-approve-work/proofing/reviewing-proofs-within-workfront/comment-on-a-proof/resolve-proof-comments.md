@@ -6,9 +6,9 @@ description: 您可在註解解決後將其標籤為已解決。 您可以重新
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 89ba3a34-3347-41dc-939e-94d4c1511c31
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '371'
 ht-degree: 1%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 1%
 1. 選取註解。
 1. 按一下註解右下角的勾號圖示。 註解的左上角會出現綠色核取記號，其下方會出現「已解析對話串」標籤和訊息。 提交評論的使用者會收到電子郵件通知，告知評論已解決。
 
-   ![](assets/resolve-comment-350x247.png)
+   ![解析註解](assets/resolve-comment-350x247.png)
 
 ## 重新開啟已解決的註解
 
@@ -74,4 +74,4 @@ ht-degree: 1%
 1. 選取註解。
 1. 按一下評論右下角的綠色核取記號圖示（**回覆**&#x200B;按鈕右側）。 註解左上角的核取記號會消失，「對話串已重新開啟」標籤和訊息會出現在註解下方。 提交評論的使用者會收到重新開啟評論的電子郵件通知。
 
-   ![](assets/reopen-resolved-comment-350x334.png)
+   ![重新開啟已解決的註解](assets/reopen-resolved-comment-350x334.png)

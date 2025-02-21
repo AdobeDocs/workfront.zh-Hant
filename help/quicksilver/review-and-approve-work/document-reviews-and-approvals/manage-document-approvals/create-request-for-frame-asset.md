@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: d80d7ea1-698a-4b78-bf65-bad6bbdfc423
-source-git-commit: 60eefed6b3931f681aa86ab2c533662e76793744
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '345'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ You must have the following access to perform the steps in this article:
 
 1. 向下捲動至&#x200B;**核准**&#x200B;區段，然後按一下&#x200B;**新增**。
 
-   ![](assets/doc-summary-add-approvers.png)
+   ![在檔案摘要中新增核准者](assets/doc-summary-add-approvers.png)
 
 1. （選用）設定核准的截止日期。 若在指定期限前72小時通知使用者和團隊。
 
@@ -75,14 +75,14 @@ You must have the following access to perform the steps in this article:
 
 1. 若要新增檢閱者，請按一下&#x200B;**檢閱者**&#x200B;核取方塊並開始輸入使用者或團隊名稱。
 
-   ![](assets/add-approver-and-deadline.png)
+   ![新增核准者與截止日期](assets/add-approver-and-deadline.png)
 
 1. 重複上一步驟以新增其他核准者或稽核者。
 
 ## 從檔案詳細資訊頁面建立檢閱或核准請求
 
 1. 將滑鼠停留在檔案上，然後按一下&#x200B;**檔案詳細資料**。
-   ![](assets/doc-details.png)
+   ![檔案詳細資料](assets/doc-details.png)
 
 1. 在檔名稱附近，選取您要建立核准的檔案版本。 預設會選取最新版本。
 
@@ -94,7 +94,7 @@ You must have the following access to perform the steps in this article:
 
 1. 若要新增檢閱者，請按一下&#x200B;**檢閱者**&#x200B;核取方塊並開始輸入使用者或團隊名稱。
 
-   ![](assets/add-approver-and-deadline.png)
+   ![新增核准者與截止日期](assets/add-approver-and-deadline.png)
 
 1. 重複上一步驟以新增其他核准者或稽核者。
 
@@ -110,5 +110,5 @@ Document approval decisions are not automatically reset when you upload a new ve
 
 1. Scroll down to the **Approvals** section in the Summary, click the More icon, then click Resubmit.
 
-   ![](assets/nwe-resubmit-approval-350x149.png)
+   ![Resubmit approval](assets/nwe-resubmit-approval-350x149.png)
 -->

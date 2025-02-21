@@ -6,9 +6,9 @@ description: 在稽核和核准程式期間，您可以傳送訊息給校訂上�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e7d60d6f-b6bd-4082-b50c-e42d4b72c149
-source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '457'
 ht-degree: 1%
 
 ---
@@ -61,15 +61,15 @@ ht-degree: 1%
 1. 尋找包含您要傳送訊息之使用者的校樣檔案。
 1. 暫留在檔案上，然後按一下&#x200B;**校訂工作流程**。
 
-   ![](assets/proof-workflow-doc-list-350x92.png)
+   ![校訂工作流程](assets/proof-workflow-doc-list-350x92.png)
 
 1. 若要傳送訊息給舞台上的所有使用者，請按一下舞台上的&#x200B;**更多**&#x200B;功能表，然後選擇&#x200B;**全部傳送訊息**。
 
-   ![](assets/message-stage-350x122.png)
+   階段](assets/message-stage-350x122.png)上的![訊息
 
 1. 若要傳送訊息給個別使用者，請按一下使用者旁的&#x200B;**更多**&#x200B;功能表，然後選擇&#x200B;**訊息**。
 
-   ![](assets/message-user-350x121.png)
+   ![訊息使用者](assets/message-user-350x121.png)
 
 1. 在&#x200B;**訊息詳細資料**&#x200B;區段中，指定下列資訊：
 

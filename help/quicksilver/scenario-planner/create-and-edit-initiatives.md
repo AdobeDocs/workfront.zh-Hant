@@ -6,9 +6,9 @@ description: 使用Adobe Workfront Scenario Planner時，您可以在已建立�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: a811bad0-d3c0-4cba-8b78-d9a14ffc8482
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '1626'
+source-wordcount: '1637'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 計畫*</p> </td> 
    <td> <ul></li>
-   <li><p>新增：Ultimate </p></li>
+   <li><p>新增： Ultimate </p></li>
    <p>新的Workfront Select或Workfront Prime計畫無法使用「情境規劃工具」。 </p>
    <li><p>目前： [！UICONTROL Business]或更高版本</p></ul>
    </td> 
@@ -102,7 +102,7 @@ ht-degree: 0%
 1. （可選）拖曳方案列的結尾以將其持續時間延長至超過一個月，並在您希望方案結束月份的位置發行。
 1. （選擇性和條件性）如果方案的持續時間比計畫的持續時間短，請將方案列拖放到計畫時間軸上的不同位置，以將其移動到另一個時間範圍。
 
-   ![](assets/move-initiative-back-and-forth-on-the-timeline-350x71.png)
+   ![在時間表上移動方案](assets/move-initiative-back-and-forth-on-the-timeline-350x71.png)
 
    >[!IMPORTANT]
    >
@@ -120,7 +120,7 @@ ht-degree: 0%
 1. （可選）從左向右捲動以檢視方案的整個期間。
 1. （選擇性）按一下&#x200B;**[!UICONTROL Today]**&#x200B;指標行以回到目前日期。
 
-   ![](assets/today-indicator-350x160.png)
+   ![今天指標](assets/today-indicator-350x160.png)
 
    >[!TIP]
    >
@@ -128,7 +128,7 @@ ht-degree: 0%
 
 1. 按一下方案列。 方案詳細資訊面板會在右側開啟。
 
-   ![](assets/initiative-details-panel-multiple-months-350x626.png)
+   ![方案詳細資訊面板](assets/initiative-details-panel-multiple-months-350x626.png)
 
    指定或檢閱下列資訊：
 
@@ -196,7 +196,7 @@ ht-degree: 0%
    >
    >如果您已定義計畫的職務角色數目和預算，以及您正在編輯之方案及其上所有方案的職務角色數目和成本，而且這些數目和成本都超過您為計畫指定的金額，[!DNL Workfront]可能會發現您沒有足夠資源完成方案。 [!DNL Workfront]在嘗試達成此方案時將其標籤為衝突，並將其顯示為紅色長條。 衝突行動方案之後的所有行動方案都會以紅色背景顯示。 您可能需要從資源不足的第一個方案開始，調整方案的部分需求。 如需有關調整衝突方案的資訊，請參閱[解決 [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md)中的方案衝突。
 
-1. （選用）將滑鼠指標暫留在工作角色的名稱上，然後按一下&#x200B;**[!UICONTROL 垃圾桶圖示]** ![](assets/delete.png)，將其從方案移除。
+1. （選擇性）暫留在工作角色的名稱上，然後按一下&#x200B;**[!UICONTROL 垃圾桶圖示]** ![刪除圖示](assets/delete.png)，將其從行動方案中移除。
 
 1. （視條件而定）如果您變更方案，請按一下&#x200B;**[!UICONTROL 套用]**。
 

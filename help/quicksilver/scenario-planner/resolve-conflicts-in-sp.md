@@ -6,9 +6,9 @@ description: 當方案彼此衝突時，它們會爭奪相同的資源。 您可
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d3a3e177-bece-4e03-89d7-9cee6127bc55
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '2172'
+source-wordcount: '2220'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 計畫*</p> </td> 
    <td> <ul></li>
-   <li><p>新增：Ultimate </p></li>
+   <li><p>新增： Ultimate </p></li>
    <p>新的Workfront Select或Workfront Prime計畫無法使用「情境規劃工具」。 </p>
    <li><p>目前： [！UICONTROL Business]或更高版本</p></ul>
    </td> 
@@ -103,7 +103,7 @@ ht-degree: 0%
 
 1. 確定已啟用&#x200B;**[!UICONTROL 顯示衝突]**。 預設為啟用。
 
-   ![](assets/show-scenarios-toggle-on.png)
+   ![顯示情境切換](assets/show-scenarios-toggle-on.png)
 
    第一個衝突方案會以紅色顯示衝突的月份，而方案名稱旁邊會顯示警告圖示。
 
@@ -111,13 +111,13 @@ ht-degree: 0%
 
    當方案顯示衝突時，表示至少有一個特定角色的工作角色數、產生的成本或兩者超過為特定月份的計畫定義的職位角色數或預算。
 
-   ![](assets/initiatives-on-plan-with-conflicts-350x126.png)
+   計畫上的![個方案發生衝突](assets/initiatives-on-plan-with-conflicts-350x126.png)
 
 1. 請執行下列任一項作業，以進一步瞭解可能存在的衝突：
 
    * 將滑鼠停留在方案名稱旁的警告圖示上，即可瞭解您是否擁有工作角色或預算衝突。
 
-     ![](assets/budget-job-role-conflict-tooltip-on-warning-icon-350x109.png)
+     ![預算工作角色衝突](assets/budget-job-role-conflict-tooltip-on-warning-icon-350x109.png)
 
      當游標停留在警告圖示上時，根據您是過度配置職務角色還是高估方案成本，您可能會看到下列其中一個選項：
 
@@ -127,7 +127,7 @@ ht-degree: 0%
 
    * 依月份檢視計畫時，將滑鼠移至計畫時間表中的一個月上，即可檢視該月所需的資源，以及該月的衝突是人員還是成本相關。
 
-     ![](assets/details-of-conflicts-on-monthly-plan-timeline-pop-up-350x178.png)
+     ![每月時間表上衝突的詳細資料](assets/details-of-conflicts-on-monthly-plan-timeline-pop-up-350x178.png)
 
      在計畫層次複查下列每月資訊：
 
@@ -140,7 +140,7 @@ ht-degree: 0%
 
    * 將滑鼠指標停留在方案的紅色列上達一個月，以顯示有關該月衝突的其他資訊方塊。
 
-     ![](assets/details-of-conflicts-on-initiative-timeline-pop-up-350x113.png)
+     ![方案時間表上衝突的詳細資料](assets/details-of-conflicts-on-initiative-timeline-pop-up-350x113.png)
 
      在方案層級的「其他資訊」方塊中，檢閱下列欄位：
 
@@ -181,7 +181,7 @@ ht-degree: 0%
 
    * 按一下方案名稱旁的警告圖示。
    * 按一下方案列。
-   * 按一下方案名稱右邊的&#x200B;**[!UICONTROL 更多]**&#x200B;圖示![](assets/more-icon.png)，然後按一下&#x200B;**[!UICONTROL 編輯]**。
+   * 按一下方案名稱右側的&#x200B;**[!UICONTROL 更多]**&#x200B;圖示![更多圖示](assets/more-icon.png)，然後按一下&#x200B;**[!UICONTROL 編輯]**。
 
      方案詳細資訊面板會顯示在右側。
 
@@ -192,11 +192,11 @@ ht-degree: 0%
 
 1. （視條件而定）若方案有工作角色衝突，請移至&#x200B;**[!UICONTROL 必要工作角色]**&#x200B;區段，檢視方案所需的所有工作角色。 識別可能過度配置的工作角色。 檢視方案每個月每個工作角色所需的FTE或時數。 包含具有超額分攤之月份的FTE或小時數的方塊會顯示為紅色大綱。
 
-   ![](assets/details-panel-overallocated-roles-350x275.png)
+   ![過度配置的角色](assets/details-panel-overallocated-roles-350x275.png)
 
 1. （可選）在方案時間軸中的月份旁按一下向右箭頭，以檢視哪些額外月份顯示工作角色衝突。
 
-   ![](assets/right-arrow-initiative-months-inside-details-box-highlighted-350x145.png)
+   ![詳細資訊方塊中的右箭頭](assets/right-arrow-initiative-months-inside-details-box-highlighted-350x145.png)
 
 1. （選擇性）按一下顯示衝突的工作角色下的&#x200B;**[!UICONTROL 顯示詳細資料]**，以檢視衝突在哪裡出現，並反白計畫圖表區域中衝突的月份。 隨即顯示每個工作角色的其他資訊。
 
@@ -225,12 +225,12 @@ ht-degree: 0%
    >
    >在計畫圖表上，配置工作角色的月份會顯示每個需要這些角色的方案所需的名稱和角色數量。 您必須選取[!UICONTROL 月]檢視才能檢視工作角色的名稱
 
-   ![](assets/conflicting-job-role-months-on-plan-after-clicking-show-details-350x158.png)
+   ![衝突的工作角色](assets/conflicting-job-role-months-on-plan-after-clicking-show-details-350x158.png)
 
 1. 執行下列任一項作業以解決工作角色衝突：
 
    * 手動將方案每月的工作角色數量調整為較低數字。
-   * 將滑鼠停留在工作角色的名稱上，然後按一下&#x200B;**[!UICONTROL 刪除]圖示** ![](assets/delete.png)，即可從方案移除工作角色。
+   * 將滑鼠停留在工作角色的名稱上，然後按一下&#x200B;**[!UICONTROL 刪除]圖示** ![刪除圖示](assets/delete.png)，即可從方案移除工作角色。
    * 選取&#x200B;**[!UICONTROL 將角色新增至方案的可用資源]**，然後按一下&#x200B;**[!UICONTROL 套用]**。
 
      這會將缺少的工作角色FTE或時數新增至情境的[!UICONTROL 可用]欄位。
@@ -239,7 +239,7 @@ ht-degree: 0%
      >
      >您為解決衝突而新增的角色會修改所選案例的[!UICONTROL 可用]工作角色，而非計畫中的所有案例。
 
-     在計畫的時間表中顯示該月的向上綠色箭頭![](assets/upward-green-arrow.png)，表示在該月計畫新增了更多資源。 您必須選取[!UICONTROL 月]檢視才能檢視此指標。
+     在計畫的時間表中會顯示該月的向上綠色箭頭![向上綠色箭頭](assets/upward-green-arrow.png)，表示該月已新增更多資源至計畫。 您必須選取[!UICONTROL 月]檢視才能檢視此指標。
 
    * （依條件）關閉詳細資料面板，並儘可能優先讓方案從計畫接收預算資源。 如需有關更新方案優先順序的資訊，請參閱情境規劃工具](../scenario-planner/prioritize-initiatives.md)中的[更新方案優先順序。
 
@@ -248,7 +248,7 @@ ht-degree: 0%
 1. （有條件）若方案發生成本衝突，請移至方案詳細資料面板中的&#x200B;**[!UICONTROL 成本]**&#x200B;區段，以檢閱方案期間每個月的成本。 確定計畫的預算中哪幾個月可能沒有足夠的資金來支付所選方案的成本。 可用預算不足的方塊會以紅色大綱顯示。
 1. （可選）按一下方案時間表中月份旁邊的右箭頭，以檢視預算不足以涵蓋成本的其他月份。
 
-   ![](assets/details-panel-insufficient-costs-350x239.png)
+   ![箭號成本不足](assets/details-panel-insufficient-costs-350x239.png)
 
 1. （選擇性）按一下成本資訊下方的&#x200B;**[!UICONTROL 顯示詳細資料]**，以檢視衝突在哪裡出現，並反白計畫圖表上衝突的月份。 系統會針對每種成本型態顯示下列額外欄位：
 
@@ -275,7 +275,7 @@ ht-degree: 0%
    >
    >在計畫圖表上，成本不足的月份會顯示方案仍需要的角色名稱和數量。 您必須選取「月份」檢視才能檢視成本金額。
 
-   ![](assets/conflicting-costs-months-on-plan-after-clicking-show-details-350x139.png)
+   ![衝突的成本](assets/conflicting-costs-months-on-plan-after-clicking-show-details-350x139.png)
 
    >[!NOTE]
    >

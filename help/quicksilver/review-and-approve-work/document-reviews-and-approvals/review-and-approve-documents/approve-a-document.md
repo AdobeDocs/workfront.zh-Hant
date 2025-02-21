@@ -6,9 +6,9 @@ description: 如果您被指派為檔案的核准者，則您有多種方式可�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
-source-git-commit: 3755eb0d384e7274b88fbeafc2affa85f735efbc
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1083'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 ## 從首頁核准檔案
 
-1. 按一下Adobe Workfront左上角的&#x200B;**首頁**&#x200B;圖示![](../assets/home-icon-30x29.png)。
+1. 按一下Adobe Workfront左上角的&#x200B;**首頁**&#x200B;圖示![首頁圖示](../assets/home-icon-30x29.png)。
 
    >[!NOTE]
    >
@@ -66,7 +66,7 @@ ht-degree: 0%
    >
    >* 以自訂的影像取代，以說明您的組織。 在此情況下，圖示看起來將會與本文中顯示的有所不同。
    >
-   >* 使用其他頁面取代連結至該頁面的頁面。 在此情況下，請按一下頁面右上角的&#x200B;**主要功能表** ![](../assets/main-menu-icon.png)，然後按一下&#x200B;**首頁**。
+   >* 使用其他頁面取代連結至該頁面的頁面。 在此情況下，請按一下頁面右上角的&#x200B;**主功能表** ![主功能表圖示](../assets/main-menu-icon.png)，然後按一下&#x200B;**首頁**。
 
 1. 按一下頁面左上方的&#x200B;**篩選器**，並確定已勾選&#x200B;**核准**。
 
@@ -103,7 +103,7 @@ ht-degree: 0%
    如果目前選取的檔案版本有您未決的核准，則核准決定按鈕會顯示在頁面的右上角；如果其他版本的檔案有您未決的核准，則版本下拉式選單會顯示紅點。
 
    <!--
-   ![](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
+   ![Version dropdown with red dot](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
    -->
 
 1. 按一下頁面右上角的以下兩個核准選項之一：
@@ -127,7 +127,7 @@ ht-degree: 0%
    如果目前選取的檔案版本有您未決的核准，則核准決定按鈕會顯示在「檔案摘要」窗格的右上角；如果其他版本的檔案有您未決的核准，則版本下拉式選單會顯示紅點。
 
    <!--
-   ![](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
+   ![Version dropdown with red dot](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
    -->
 
 1. 在「檔案摘要」窗格的右上角，按一下以下兩個核准選項之一：

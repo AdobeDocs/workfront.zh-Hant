@@ -6,9 +6,9 @@ description: 您可以下載單一版本或所有版本的校訂。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: eb61cc0b-b402-48db-aa88-9a1dea3180d6
-source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '227'
 ht-degree: 4%
 
 ---
@@ -53,9 +53,9 @@ ht-degree: 4%
 ## 下載單一校訂版本
 
 1. 在檔案清單中，按一下校訂。
-1. 在[摘要]中的&#x200B;**版本**&#x200B;下，按一下版本右側的[更多]功能表![](assets/more-icon.png)，然後按一下出現的下拉式清單中的&#x200B;**下載**。
+1. 在「摘要」中的&#x200B;**版本**&#x200B;下，按一下版本右側的「更多」功能表![「更多」圖示](assets/more-icon.png)，然後按一下出現的下拉式清單中的&#x200B;**「下載」**。
 
-   ![](assets/more-versions-350x143.png)
+   ![下載版本](assets/more-versions-350x143.png)
 
 ## 下載校訂的所有版本
 

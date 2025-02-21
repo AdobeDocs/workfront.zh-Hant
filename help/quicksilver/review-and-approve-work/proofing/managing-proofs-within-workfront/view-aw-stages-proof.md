@@ -6,9 +6,9 @@ description: 您可以方便地追蹤設定了「自動化工作流程」的校�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 71df1445-c64c-4de2-a9b8-23bd47898b6d
-source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '549'
 ht-degree: 0%
 
 ---
@@ -69,24 +69,24 @@ ht-degree: 0%
 
    階段之間的行描述階段之間的相依性。 非作用中階段的行會以點狀虛線，直到啟動階段為止。
 
-   您可以將滑鼠停留在圖中的某個階段上，以顯示其進度。 如果舞台未處於作用中狀態，而您擁有編輯舞台的權利，則您可以按一下「啟動舞台」按鈕![](assets/activate-stage-btn.png)來啟動舞台。 如果舞台處於作用中狀態，且您擁有編輯舞台的權利，則可以鎖定它。 ![](assets/lock-stage-btn.png)如需進度列(S， O， C， D)的詳細資訊，請參閱  [在Workfront Proof中檢視校訂的進度和狀態](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md)。
+   您可以將滑鼠停留在圖中的某個階段上，以顯示其進度。 如果舞台不是作用中狀態，而且您擁有編輯舞台的權利，您可以按一下[啟動舞台]按鈕![[啟動舞台]](assets/activate-stage-btn.png)來啟動舞台。 如果舞台處於作用中狀態，且您擁有編輯舞台的權利，則可以鎖定它。 ![鎖定階段](assets/lock-stage-btn.png)如需進度列(S， O， C， D)的詳細資訊，請參閱  [在Workfront Proof中檢視校訂的進度和狀態](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md)。
 
 ## 檢視階段
 
 1. 在包含檔案的檔案清單中，暫留在包含檔案的列上，然後按一下&#x200B;**校訂工作流程**。
 1. 在圖表上，按一下您要檢視的階段。
 
-   ![](assets/view-stage-diagram-350x204.png)
+   ![檢視階段圖表](assets/view-stage-diagram-350x204.png)
 
 1. 若要展開階段的詳細資訊，請按一下其名稱下方的側面箭頭。
 
-   ![](assets/stage-details-caret-350x167.png)
+   ![階段詳細資料](assets/stage-details-caret-350x167.png)
 
 ## 檢視所有階段
 
 若要檢視自動化工作流程中的所有階段：
 
-1. 按一下頁面![](assets/change-view-btn.png)頂端的[變更檢視]按鈕，然後按一下[檢視所有階段]。****
+1. 按一下頁面![變更檢視](assets/change-view-btn.png)頂端的[變更檢視]按鈕，然後按一下&#x200B;**檢視所有階段**。
 
    區段中會列出「自動化工作流程」的所有階段，但詳細資訊會隱藏。
 
@@ -96,5 +96,5 @@ ht-degree: 0%
 
 若要檢視自動化工作流程的所有階段，並展開其詳細資訊：
 
-1. 按一下頁面![](assets/change-view-btn.png)頂端的「變更檢視」按鈕，然後按一下&#x200B;**詳細檢視所有階段**。
+1. 按一下頁面![變更檢視](assets/change-view-btn.png)頂端的[變更檢視]按鈕，然後按一下&#x200B;**詳細檢視所有階段**。
 1. 若要檢視階段的詳細資訊，請按一下其名稱下方的向下箭頭。

@@ -2,20 +2,20 @@
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
 title: 在Adobe Workfront中列印校訂摘要
-description: 您可以列印校樣摘要、將其儲存為PDF，或將其匯出為針對Adobe Reader最佳化的XLS檔案或PDF檔案。
+description: 您可以列印校樣摘要、將其儲存為PDF，或匯出為針對Adobe Reader最佳化的XLS檔案或PDF檔案。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 129c8e6b-5c66-445b-a5d0-7b1460aeabd6
-source-git-commit: 918d51e3b832a3104777346cebd54a4830e2d826
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '772'
 ht-degree: 1%
 
 ---
 
 # 在Adobe Workfront中列印校訂摘要
 
-您可以列印校樣摘要、將其儲存為PDF，或將其匯出為針對Adobe Reader最佳化的XLS檔案或PDF檔案。
+您可以列印校樣摘要、將其儲存為PDF，或匯出為針對Adobe Reader最佳化的XLS檔案或PDF檔案。
 
 ## 存取需求
 
@@ -65,7 +65,7 @@ ht-degree: 1%
 
    或
 
-   在校訂檢視器中檢視校訂時，請按一下左側工具列中的&#x200B;**列印**&#x200B;圖示![](assets/print-icon-in-pv.png)。 （如果看不到左側工具列，請按一下校訂檢視器左上角的「功能表」圖示![](assets/menu-icon-in-pv.png)。）
+   在校訂檢視器中檢視校訂時，按一下左側工具列中的&#x200B;**列印**&#x200B;圖示![列印圖示](assets/print-icon-in-pv.png)。 （如果看不到左邊的工具列，請按一下校訂檢視器左上角的功能表圖示![功能表圖示](assets/menu-icon-in-pv.png)。）
 
 1. 使用下列任一選項：
 
@@ -95,7 +95,7 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader">篩選註解依據</td> 
-      <td> <p>您可以使用這些選項的任何組合，在列印或匯出為XLS或PDF檔案的輸出中僅包含某些註釋：</p> 
+      <td> <p>您可以使用這些選項的任何組合，在列印或匯出為XLS或PDF檔案的輸出中僅包含某些註解：</p> 
        <ul> 
         <li>您選取的作者（預設）</li> 
         <li>您選取的動作</li> 
@@ -114,7 +114,7 @@ ht-degree: 1%
 
    或
 
-   若要將摘要儲存為PDF檔案，請按一下&#x200B;**目的地**&#x200B;功能表，按一下&#x200B;**儲存為PDF**，然後按一下&#x200B;**儲存**。
+   如果您要將摘要儲存為PDF檔案，請按一下&#x200B;**目的地**&#x200B;功能表，按一下&#x200B;**儲存為PDF**，然後按一下&#x200B;**儲存**。
 
 ## 將校訂摘要匯出為XLS或PDF
 
@@ -126,8 +126,8 @@ ht-degree: 1%
 
 1. 按一下頁面右上角附近的XLS圖示或PDF圖示。
 
-   ![](assets/xls-pdf-icons-350x136.png)
+   ![XLS PDF圖示](assets/xls-pdf-icons-350x136.png)
 
 當匯出的檔案準備就緒時，您會收到一封電子郵件，您可從中下載檔案。
 
-如果您將摘要匯出為PDF檔案，則校樣上的註釋會出現在PDF閱讀器中。 如果註解具有多個相關聯的標示，註解將會在註解清單中出現多次（每次標示出現一次）。
+如果您將摘要匯出為PDF檔案，則校訂上的評論會顯示在PDF閱讀器中。 如果註解具有多個相關聯的標示，註解將會在註解清單中出現多次（每次標示出現一次）。

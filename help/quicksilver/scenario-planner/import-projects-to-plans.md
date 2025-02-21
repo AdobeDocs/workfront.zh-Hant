@@ -6,9 +6,9 @@ description: 您可以將現有專案匯入計畫。 匯入的專案會轉換為
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 20429bb1-c158-433b-9790-325cd577248e
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '1690'
+source-wordcount: '1710'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 計畫*</p> </td> 
    <td> <ul></li>
-   <li><p>新增：Ultimate </p></li>
+   <li><p>新增： Ultimate </p></li>
    <p>新的Workfront Select或Workfront Prime計畫無法使用「情境規劃工具」。 </p>
    <li><p>目前： [！UICONTROL Business]或更高版本</p></ul>
    </td> 
@@ -118,7 +118,7 @@ ht-degree: 0%
      <ul> 
       <li> <p>如果指派給任務或問題的使用者在將其指派標示為[！UICONTROL完成]之後變更了角色，則[!DNL Workfront]會將該使用者在將其指派標示為[！UICONTROL完成]之前所履行的角色匯入行動方案。</p> </li> 
       <li> <p>如果指派給任務或問題的使用者在專案存留期間變更了角色，但他們在任務或問題上的指派未在匯入專案時標籤為[！UICONTROL完成]，則[!DNL Workfront]僅匯入指派使用者的目前角色。 </p> </li> 
-     </ul> <p>如需指派狀態的相關資訊，請參閱Adobe[!DNL Workfront]術語的<a href="../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md" class="MCXref xref">辭彙表</a>中的「指派狀態」。 </p> </p> </td> 
+     </ul> <p>如需指派狀態的相關資訊，請參閱Adobe [!DNL Workfront]術語的<a href="../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md" class="MCXref xref">字彙表</a>中的「指派狀態」。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td>與指派給任務或問題的工作角色相關的專案[！UICONTROL計畫時數]</td> 
@@ -164,7 +164,7 @@ ht-degree: 0%
 
    [!UICONTROL 匯入專案]方塊隨即顯示。 日期包含在計畫時間範圍內的專案會顯示在清單中。
 
-   ![](assets/project-import-ui-projects-selected-350x72.png)
+   ![匯入專案](assets/project-import-ui-projects-selected-350x72.png)
 
    >[!TIP]
    >
@@ -174,9 +174,9 @@ ht-degree: 0%
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the status of the projects in the import projects UI might change; right now it's ALL statuses)</p>
    -->
 
-1. （選擇性）按一下&#x200B;**[!UICONTROL 篩選圖示]** ![](assets/filter-nwepng.png)並從清單中選取可用的篩選，以減少清單上的專案數量。 依預設，專案清單是使用者目前選取的專案篩選器在專案清單中篩選。
+1. （選擇性）按一下&#x200B;**[!UICONTROL 篩選圖示]** ![篩選圖示](assets/filter-nwepng.png)並從清單中選取可用的篩選器，以減少清單上的專案數量。 依預設，專案清單是使用者目前選取的專案篩選器在專案清單中篩選。
 
-1. （選擇性）按一下&#x200B;**[!UICONTROL 搜尋圖示]** ![](assets/search-icon.png)，然後新增顯示在熒幕上任何欄位的關鍵字。 包含搜尋字詞的專案會自動顯示在清單中，且所有專案都會隱藏。
+1. （選擇性）按一下&#x200B;**[!UICONTROL 搜尋圖示]** ![搜尋圖示](assets/search-icon.png)，然後新增顯示在畫面上的任何欄位上的關鍵字。 包含搜尋字詞的專案會自動顯示在清單中，且所有專案都會隱藏。
 
 1. （視條件而定）按一下&#x200B;**[!UICONTROL X圖示]**&#x200B;以移除搜尋並顯示所有專案。
 1. 選取最多100個專案，然後按一下&#x200B;**[!UICONTROL 匯入]**。
@@ -185,10 +185,10 @@ ht-degree: 0%
 
    請注意下列事項：
 
-   * 方案名稱的右側會顯示專案圖示![](assets/project-icon-sp.png)。
+   * 方案名稱的右側會顯示專案圖示![專案圖示](assets/project-icon-sp.png)。
    * 如果專案時間表超過計畫的持續時間，方案列會在左側（當「開始日期」早於計畫日期時）或右側（當「結束日期」晚於計畫日期時）以尖角邊界結束。
 
-     ![](assets/project-bar-earlier-than-the-plan-start-date-350x39.png)
+     ![專案列早於開始日期](assets/project-bar-earlier-than-the-plan-start-date-350x39.png)
 
    * 月數和職位角色已更新以符合專案的月數和職位角色。
 
@@ -198,7 +198,7 @@ ht-degree: 0%
 
 1. 按一下代表新方案的列，開啟右側的方案詳細資訊面板。
 
-   ![](assets/initiative-duration-with-project-duration-details-panel-350x292.png)
+   ![方案期間](assets/initiative-duration-with-project-duration-details-panel-350x292.png)
 
    在&#x200B;**[!UICONTROL 方案期間]**&#x200B;區域中，檢閱下列資訊：
 
@@ -234,4 +234,4 @@ ht-degree: 0%
 1. （可選）若要將您對方案所做的變更更新回其匯入來源專案，請從計畫發佈專案。 如需有關發佈計畫的資訊，請參閱[在 [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)中發佈方案以更新或建立專案。
 1. （選用）按一下專案圖示以存取連結的專案。
 
-   ![](assets/project-icon-on-initiative-highlighted-350x49.png)
+   方案](assets/project-icon-on-initiative-highlighted-350x49.png)上的![專案圖示

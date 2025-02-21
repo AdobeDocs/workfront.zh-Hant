@@ -7,9 +7,9 @@ author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 sexl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
 exl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
-source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1880'
+source-wordcount: '1914'
 ht-degree: 0%
 
 ---
@@ -123,19 +123,19 @@ ht-degree: 0%
 
    您可能需要按一下「**顯示更多**」，然後按一下「**核准**」。
 
-   ![](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
+   任務](assets/approvals-section-on-task-highlighted-nwe-350x246.png)上的![核准區段
 
-1. ![](assets/use-existing-or-create-single-use-approvals-menus-on-pti-classic-350x50.png)
+1. ![使用現有或建立單一使用核准](assets/use-existing-or-create-single-use-approvals-menus-on-pti-classic-350x50.png)
 
    隨即顯示選取的核准流程。
 
 1. 展開&#x200B;**使用現有**&#x200B;下拉式功能表，並選取現有的核准程式。
 
-   ![](assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png)
+   ![核准功能表](assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png)
 
    隨即顯示選取的核准流程。
 
-   ![](assets/existing-approval-attached-to-task-redesigned-nwe-350x355.png)
+   ![附加到任務的現有核准](assets/existing-approval-attached-to-task-redesigned-nwe-350x355.png)
 
 1. 按一下「**儲存**」。
 1. （選擇性）如果要修改附加至專案的現有核准，請按一下「編輯核准流程」。 這會將全域核准流程變更為單一使用核准流程。 如需詳細資訊，請參閱本文章的[修改用於特定物件](#modify-a-global-approval-process-for-use-on-a-specific-object)的全域核准程式。
@@ -168,7 +168,7 @@ ht-degree: 0%
    >
    >在新增核準時，請確定您按一下&#x200B;**儲存**。
 
-1. 新增全域核准程式後，請按一下核准頁面右上角的&#x200B;**編輯**&#x200B;圖示![](assets/edit-icon.png)。 此動作會將全域或群組層級核准流程轉換為單次使用核准流程。
+1. 新增全域核准程式後，請按一下核准頁面右上角的&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)。 此動作會將全域或群組層級核准流程轉換為單次使用核准流程。
 1. 對現有核准流程進行任何變更。 如需詳細資訊，請參閱本文章的[將單一使用核准程式與專案、任務、問題、範本或範本任務建立關聯](#associate-a-single-use-approval-process-with-a-project-task-issue-template-or-template-task)。
 1. 按一下[儲存]****，然後再次按一下[儲存]****，確認您要將全域核准程式轉換為僅供此物件使用的一次性核准程式。
 
@@ -193,11 +193,11 @@ ht-degree: 0%
 
    您可能需要按一下&#x200B;**顯示更多** > **核准**。
 
-   ![](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
+   任務](assets/approvals-section-on-task-highlighted-nwe-350x246.png)上的![核准區段
 
 1. 按一下&#x200B;**建立單一使用**。
 
-   ![](assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png)
+   ![核准功能表](assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png)
 
 1. 完成文章[建立工作專案的核准程式](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)中「建立工作專案的系統層級或群組層級全域核准程式」一節中的步驟6。
 
@@ -232,12 +232,12 @@ ht-degree: 0%
 
    您可能需要按一下&#x200B;**顯示更多** > **核准**。
 
-   ![](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
+   任務](assets/approvals-section-on-task-highlighted-nwe-350x246.png)上的![核准區段
 
 1. 根據與專案關聯的核准型別，按一下「核准」區段右上角的下列圖示之一：
 
-   * 針對全域或群組層級核准，**移除**&#x200B;圖示![](assets/remove-icon---x-in-circle.png)。
-   * **單一使用核准的「刪除**」圖示![](assets/delete.png)。
+   * 針對全域或群組層級核准，**移除**&#x200B;圖示![移除圖示](assets/remove-icon---x-in-circle.png)。
+   * **單一使用核准的刪除**&#x200B;圖示![刪除圖示](assets/delete.png)。
 
 1. 按一下&#x200B;**移除**&#x200B;或&#x200B;**刪除**&#x200B;確認。
 

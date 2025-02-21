@@ -6,9 +6,9 @@ description: 管理作品多個版本或修訂版本的意見回饋可能是一�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee0c859e-349b-4e7a-ac80-164740b950f0
-source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1734'
+source-wordcount: '1737'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ ht-degree: 0%
 
    選取列出校訂的列，按一下&#x200B;**新增** > **版本**，然後按一下您要用來新增新版本的校訂的選項。
 
-   ![](assets/add-new-version-350x185.png)
+   ![新增版本](assets/add-new-version-350x185.png)
 
 ## 從校訂檢視器建立新版本的校訂(僅限Workfront Proof)
 

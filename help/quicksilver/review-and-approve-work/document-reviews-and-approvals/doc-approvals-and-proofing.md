@@ -6,9 +6,9 @@ description: 您可以將新檔案核准與校訂搭配使用。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: be484629-6e70-4809-ad4c-a489d5814da6
-source-git-commit: bea547e7a7400798d4544fb4f299f72e18a700be
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '950'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Workfront中的新檔案核准引進了新功能集，可幫助您檢閱和核�
 若要指派參與者，請執行下列動作：
 
 1. 選取您上傳的檔案，並開啟檔案「摘要」。
-   ![](assets/open-doc-summary.png)
+   ![開啟檔案摘要](assets/open-doc-summary.png)
 
 1. 向下捲動至[核准]區段，然後按一下[新增]。****
 
@@ -62,7 +62,7 @@ Workfront中的新檔案核准引進了新功能集，可幫助您檢閱和核�
 
 1. 若要新增稽核者，請按一下「稽核者」按鈕，然後開始輸入使用者或團隊名稱。
 
-   ![](assets/add-approvers.png)
+   ![新增核准者](assets/add-approvers.png)
 
 1. 新增所有檢閱者和核准者後，請按一下&#x200B;**提交請求**。 系統會透過電子郵件通知參與者。
 
@@ -77,7 +77,7 @@ Workfront中的新檔案核准引進了新功能集，可幫助您檢閱和核�
 1. 檔案上傳完成後，請選取檔案，然後按一下&#x200B;**建立校訂** > **簡單校訂**。
 
 1. 再次選取檔案，然後開啟檔案「摘要」。
-   ![](assets/open-doc-summary.png)
+   ![開啟檔案摘要](assets/open-doc-summary.png)
 
 1. 向下捲動至[核准]區段，然後按一下[新增]。****
 
@@ -89,7 +89,7 @@ Workfront中的新檔案核准引進了新功能集，可幫助您檢閱和核�
 
 1. 若要新增檢閱者，請按一下[檢閱者]按鈕，然後開始輸入使用者或團隊名稱<span class="preview">，或從先前版本選擇檢閱者。</span>
 
-   ![](assets/add-approvers.png)
+   ![新增核准者](assets/add-approvers.png)
 
 1. 新增所有檢閱者和核准者後，請按一下&#x200B;**提交請求**。 系統會透過電子郵件通知參與者。
 

@@ -6,9 +6,9 @@ description: 當您共用目標時，您會將目標的管理許可權授予未�
 author: Alina
 feature: Workfront Goals
 exl-id: 747449cf-9092-4b9f-9add-db2e7d3fab48
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '795'
 ht-degree: 4%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 4%
    <td role="rowheader">Adobe Workfront計畫*</td> 
    <td> 
    <p>對於新計畫和授權結構：
-  <ul><li>終極計畫 </li></ul>
+  <ul><li>Ultimate計畫 </li></ul>
    </p>
 <p>對於目前的計畫與授權結構： 
 <ul><li> A Pro或更高版本 </li>
@@ -51,7 +51,7 @@ ht-degree: 4%
  <p> 新產品需求，下列其中一項： </p>
 <ul>
 <li>Select或Prime Adobe Workfront計畫以及額外的Adobe Workfront目標授權。</li>
-<li>預設包含Workfront目標的Ultimate Workfront計畫。 </li></ul>
+<li>Ultimate Workfront計畫，預設包含Workfront目標。 </li></ul>
  <p>或</p>
  <p>目前產品需求： Adobe Workfront Goals的Workfront計畫和額外授權。 </p> <p>如需詳細資訊，請參閱<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目標的需求</a>。 </p> </td>
  </tr>
@@ -117,7 +117,7 @@ ht-degree: 4%
 
 ## 共用目標
 
-1. 按一下右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png) > **目標**。
+1. 按一下右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png) > **目標**。
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../workfront-goals-settings/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -128,11 +128,11 @@ ht-degree: 4%
 
 1. 按一下目標名稱旁的&#x200B;**更多圖示**，然後按一下&#x200B;**共用**。
 
-   ![](assets/more-menu-highlighted-goal-details-panel-with-share-link-350x156.png)
+   ![更多功能表](assets/more-menu-highlighted-goal-details-panel-with-share-link-350x156.png)
 
    「目標存取」方塊隨即顯示。
 
-   ![](assets/goal-access-sharing-box-manage-system-wide-deselected-350x400.png)
+   ![目標存取權](assets/goal-access-sharing-box-manage-system-wide-deselected-350x400.png)
 
 1. 執行下列其中一項：
 
@@ -168,62 +168,62 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td> <p>檢視目標</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td> <p>檢視結果或活動</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td>複製目標* </td> 
-   <td>✓ (A) </td> 
-   <td>✓ (A)</td> 
+   <td>✓ </td> 
+   <td>✓</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>將結果或活動轉換為其他目標*</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>檢視新增為活動的專案** </td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>編輯目標</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>編輯結果或活動</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>新增目標的結果或活動</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>將專案作為活動與目標建立關聯**</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>刪除目標</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>刪除結果或活動</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td>中斷專案與目標的連線</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
  </tbody> 

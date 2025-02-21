@@ -6,9 +6,9 @@ description: 您可以為網頁內容產生新的互動式校訂或現有互動�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 56e5eeea-1ab9-43c8-bc84-d10638171871
-source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 1. 按一下您新增的URL。
 
-   ![](assets/click-url-350x137.png)
+   ![按一下URL](assets/click-url-350x137.png)
 
 1. （選擇性）如果要將網站URL的校訂名稱變更為其他名稱，請輸入&#x200B;**校訂名稱**。
 1. 選取&#x200B;**互動式**，然後按一下&#x200B;**完成**。

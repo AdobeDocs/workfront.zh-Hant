@@ -6,9 +6,9 @@ description: 當排定貴公司較高層級策略的優先順序時，您可以�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 15c0e519-0164-449d-84f3-470d0d4eb795
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '2397'
+source-wordcount: '2434'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 計畫*</p> </td> 
    <td> <ul></li>
-   <li><p>新增：Ultimate </p></li>
+   <li><p>新增： Ultimate </p></li>
    <p>新的Workfront Select或Workfront Prime計畫無法使用「情境規劃工具」。 </p>
    <li><p>目前： [！UICONTROL Business]或更高版本</p></ul>
    </td> 
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 您建立的現有計劃清單會顯示在[!DNL Workfront Scenario Planner]中。
 
-1. （選擇性）按一下計劃清單右上角的&#x200B;**[!UICONTROL 篩選器]**&#x200B;圖示![](assets/filter-icon-34x37.png)，然後選取下列專案：
+1. （選擇性）按一下計劃清單右上角的&#x200B;**[!UICONTROL 篩選器]**&#x200B;圖示![篩選器圖示](assets/filter-icon-34x37.png)，然後選取下列專案：
 
    | 篩選器 | 說明 |
    |---|---|
@@ -97,9 +97,9 @@ ht-degree: 0%
    | [!UICONTROL 我的計畫] | 顯示您建立的計畫。 |
    | [!UICONTROL 與我共用] | 顯示與您共用的計畫。 |
 
-   ![](assets/plans-filters-dropdown-options-scenario-planer.png)
+   ![計畫篩選器下拉式清單選項](assets/plans-filters-dropdown-options-scenario-planer.png)
 
-1. （選擇性）按一下&#x200B;**[!UICONTROL 搜尋]**&#x200B;圖示![](assets/search-icon.png)以輸入關鍵字，並在清單中快速找到計畫。
+1. （選擇性）按一下&#x200B;**[!UICONTROL 搜尋]**&#x200B;圖示![搜尋圖示](assets/search-icon.png)以輸入關鍵字，並在清單中快速找到計畫。
 
 1. 按一下現有計畫的名稱以編輯它，然後繼續步驟7。
 
@@ -115,11 +115,11 @@ ht-degree: 0%
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: is the step still accurate)</p>
    -->
 
-   ![](assets/new-plan-button.png)
+   ![新計畫按鈕](assets/new-plan-button.png)
 
    [!UICONTROL 新計畫]方塊隨即顯示。
 
-   ![](assets/new-plan-ui-adding-a-new-plan-350x306.png)
+   ![新計畫方塊](assets/new-plan-ui-adding-a-new-plan-350x306.png)
 
 1. （視條件而定）建立新計畫時，請指定下列資訊：
 
@@ -172,7 +172,7 @@ ht-degree: 0%
 
 1. （選擇性）從時間表下拉式功能表中，選取下表中的其中一個選項，以變更您檢視計畫時間表的方式。
 
-   ![](assets/month-dropdown-with-all-options.png)
+   ![個月下拉式清單](assets/month-dropdown-with-all-options.png)
 
    | 下拉式功能表選項 | 說明 |
    |---|---|
@@ -183,7 +183,7 @@ ht-degree: 0%
 1. （可選）從左向右捲動以檢視計畫的整個期間。
 1. （選用）按一下&#x200B;**[!UICONTROL Today]**&#x200B;指標行以返回當天。
 
-   ![](assets/today-indicator-350x160.png)
+   ![今天指標](assets/today-indicator-350x160.png)
 
 1. 按一下計畫標題中的&#x200B;**[!UICONTROL 工作角色]**&#x200B;方塊，新增可用於執行計畫的工作角色。
 
@@ -193,7 +193,7 @@ ht-degree: 0%
    >
    >[!DNL Workfront]用於此計畫的角色配置單位（FTE或時數）會顯示在方塊標題的括弧中。
 
-   ![](assets/adding-people-to-plan-350x206.png)
+   ![新增人員至計畫](assets/adding-people-to-plan-350x206.png)
 
 1. 按一下&#x200B;**[!UICONTROL 開始輸入工作角色]**&#x200B;欄位，然後從清單中選取角色，或開始輸入作用中工作角色的名稱。
 
@@ -239,12 +239,12 @@ ht-degree: 0%
     </tbody> 
    </table>
 
-1. （選擇性）將滑鼠停留在工作角色的名稱上，或在更新角色資訊後按一下索引標籤，然後按一下&#x200B;**[!UICONTROL 垃圾桶圖示]** ![](assets/delete.png)以將其從計畫中移除。
+1. （選擇性）將滑鼠停留在工作角色的名稱上，或在更新角色資訊後按一下索引標籤，然後按一下&#x200B;**[!UICONTROL 垃圾桶圖示]** ![刪除圖示](assets/delete.png)以將其從計畫移除。
 1. 按一下&#x200B;**[!UICONTROL 工作角色分配]**。
 
    工作角色分佈面板會針對情境期間的所有月份顯示。
 
-   ![](assets/job-role-monthly-distribution-box-fte-350x144.png)
+   ![工作角色每月分佈](assets/job-role-monthly-distribution-box-fte-350x144.png)
 
 1. 在&#x200B;**[!UICONTROL 開始輸入工作角色欄位]**&#x200B;中輸入工作角色的名稱以將其新增至計畫，然後在其出現在清單上時按一下「輸入」。 這會將工作角色新增至[!UICONTROL 工作角色]欄。
 1. 更新或檢閱情境每個月的下列資訊：
@@ -334,13 +334,13 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL 進階]**&#x200B;檢視每月預算分配。 年度和每月預算一律為舍入數字。 當預算金額因小數而無法平均分配至一年內的所有月份時，年度預算分配下會顯示&#x200B;**[!UICONTROL 剩餘]**&#x200B;指標。
 
-   ![](assets/adanced-and-remaining-links-on-plan-budget-350x507.png)
+   ![進階及剩餘的連結](assets/adanced-and-remaining-links-on-plan-budget-350x507.png)
 
 1. 手動調整每月預算，以消除超出金額。
 
    當所有每月預算金額的總和大於年度預算時，年度預算分配下會顯示&#x200B;**[!UICONTROL 超過]**&#x200B;警告指標。 手動調整每月預算金額，直到它們等於或低於計畫的可用預算為止。
 
-   ![](assets/exceeding-budget-warning-on-plan-350x483.png)
+   ![超過預算警告](assets/exceeding-budget-warning-on-plan-350x483.png)
 
 1. 停用&#x200B;**[!UICONTROL 包含人員成本]**&#x200B;設定，以排除與工作角色相關的成本，不計入計畫的整體成本。 固定成本一律計入計畫的整體成本。 此設定預設為啟用，會影響計畫上的所有情境。
 1. 按一下[!UICONTROL Financial]方塊之外的任何位置，將其關閉。 您輸入的資訊會自動儲存。
@@ -360,6 +360,6 @@ ht-degree: 0%
 
    您的計畫已建立或已更新。
 
-1. （選擇性）按一下計畫名稱右側的&#x200B;**[!UICONTROL 我的最愛圖示]** ![](assets/favorites-icon-small.png)，以將計畫新增至您的最愛清單。
+1. （選擇性）按一下計畫名稱右側的&#x200B;**[!UICONTROL 我的最愛圖示]** ![我的最愛圖示](assets/favorites-icon-small.png)，以將計畫新增至您的最愛清單。
 
 1. （選用）複製計畫的URL，然後傳送給可能需要檢閱或更新計畫的任何其他使用者。 他們必須有存取層級中的至少[!UICONTROL 檢視]存取權才能檢視計畫。 使用者必須有[!UICONTROL 編輯]存取權才能進行編輯。 如果他們必須複查計畫的財務資訊，例如預算、成本及職務角色費率資訊，則他們也必須擁有存取層級[!UICONTROL 財務資料]的存取權。 如需[!DNL Scenario Planner]所需存取權的相關資訊，請參閱[使用 [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md)所需的存取權。

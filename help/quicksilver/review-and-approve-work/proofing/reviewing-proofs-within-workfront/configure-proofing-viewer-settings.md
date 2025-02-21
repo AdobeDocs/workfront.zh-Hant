@@ -6,9 +6,9 @@ description: 您可以設定「網頁校訂檢視器」和「案頭校訂檢視�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 3993cd67-90a9-4d7e-bbc0-7b9bd1057f54
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1417'
+source-wordcount: '1424'
 ht-degree: 0%
 
 ---
@@ -80,13 +80,13 @@ ht-degree: 0%
 1. 以下列其中一種方式開啟「網頁校訂檢視器」或「案頭校訂檢視器」：
 
    * 如果您在Adobe Workfront中校訂，請移至包含您要檢視之校訂的檔案清單，將游標停留在檔案上，然後按一下&#x200B;**開啟校訂**。
-   * 如果您使用Workfront Proof，請按一下控制面板或檢視清單![](assets/go-to-proof-blue-icon.png)中校訂的&#x200B;**前往校訂**&#x200B;圖示。
+   * 如果您使用Workfront Proof，請按一下儀表板中校訂或檢視清單的&#x200B;**前往校訂**&#x200B;圖示![前往校訂](assets/go-to-proof-blue-icon.png)。
 
 1. 如果左側工具列未顯示，請按一下位於Web Proofing Viewer左上角的&#x200B;**功能表**&#x200B;圖示。
 
-   ![](assets/menu-icon-in-proofing-viewer-350x228.png)
+   ![功能表圖示](assets/menu-icon-in-proofing-viewer-350x228.png)
 
-1. 在左側工具列中按一下&#x200B;**設定**&#x200B;圖示![](assets/settings-icon-in-pv.png)。
+1. 在左側工具列中按一下&#x200B;**設定**&#x200B;圖示![設定圖示](assets/settings-icon-in-pv.png)。
 
 1. 設定下列任何顯示的&#x200B;**設定**。
 

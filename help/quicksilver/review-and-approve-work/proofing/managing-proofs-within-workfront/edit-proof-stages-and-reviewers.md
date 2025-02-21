@@ -6,9 +6,9 @@ description: 瞭解如何編輯校訂階段和檢閱者。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 91549c2d-d7b1-461c-a3c4-ad0032acfb23
-source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '629'
 ht-degree: 1%
 
 ---
@@ -98,7 +98,7 @@ ht-degree: 1%
 ## 編輯檢閱者詳細資料
 
 1. 在Workfront中，暫留在校訂上，然後按一下&#x200B;**校訂詳細資料**&#x200B;以開啟「校訂詳細資料」頁面。
-1. 在&#x200B;**工作流程**&#x200B;區段中，按一下檢閱者名稱右側的&#x200B;**更多**&#x200B;功能表![](assets/more-button-small.png)，然後在出現的下拉式功能表中按一下&#x200B;**編輯**。
+1. 在&#x200B;**工作流程**&#x200B;區段中，按一下檢閱者名稱右邊的&#x200B;**更多**&#x200B;功能表![更多](assets/more-button-small.png)，然後在出現的下拉式功能表中按一下&#x200B;**編輯**。
 
 1. 在出現的&#x200B;**編輯檢閱者**&#x200B;方塊中，編輯下列任何詳細資料：
 

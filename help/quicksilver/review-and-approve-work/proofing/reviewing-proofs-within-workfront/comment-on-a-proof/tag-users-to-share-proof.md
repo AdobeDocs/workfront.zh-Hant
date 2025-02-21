@@ -6,9 +6,9 @@ description: 當您在校訂檢視器中對校訂發表評論時，您可以標�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4efbfdeb-3834-48dd-aa5b-515891bac519
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ ht-degree: 0%
 1. 完成註解，然後按一下&#x200B;**貼文**。
 1. （視條件而定）如果您已標籤尚未新增至校訂的任何人，請為顯示的方塊中列出的每個使用者指定&#x200B;**校訂角色**&#x200B;和&#x200B;**電子郵件警示**&#x200B;設定，然後按一下&#x200B;**新增人員並張貼評論**。
 
-   ![](assets/add-people-to-proof-350x220.png)
+   ![新增人員到校訂](assets/add-people-to-proof-350x220.png)
 
    如需校訂角色的相關資訊，請參閱。 如需有關校訂電子郵件警示的資訊，請參閱文章[在Workfront Proof中設定電子郵件通知設定](../../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)中的章節。
 

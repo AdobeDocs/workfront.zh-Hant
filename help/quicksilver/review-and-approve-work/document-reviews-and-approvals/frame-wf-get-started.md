@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 68b91aad-af76-473f-861d-da846fdfb84c
-source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1165'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Workfront管理員會在Workfront的「設定」區域中新增預設Frame.io帳
 
 如需詳細資訊，請參閱[設定 [!DNL Workfront] 與 [!DNL Frame.io] 整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md)。
 
-![](assets/Frame-enabled-user.png)
+![框架啟用的使用者](assets/Frame-enabled-user.png)
 
 
 ### 建立與Frame.io連線的專案
@@ -114,7 +114,7 @@ Workfront管理員會在Workfront的「設定」區域中新增預設Frame.io帳
   如需詳細資訊，請參閱[建立核准範本](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
 
 
-![](assets/assign-template.png)
+![指派範本](assets/assign-template.png)
 
 
 #### 存取Frame.io檢視器
@@ -123,7 +123,7 @@ Workfront管理員會在Workfront的「設定」區域中新增預設Frame.io帳
 
 * Workfront電子郵件通知
 * 新Workfront首頁區域中的我的核准Widget
-  ![](assets/awaiting-my-approval.png)
+  ![正在等待我的核准](assets/awaiting-my-approval.png)
 
 >[!NOTE]
 >
@@ -145,7 +145,7 @@ Workfront管理員會在Workfront的「設定」區域中新增預設Frame.io帳
 
 如需Workfront中決定的詳細資訊，請參閱[檔案決定狀態概觀](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)。
 
-![](assets/frame-viewer-and-decision.png)
+![框架檢視器和決定](assets/frame-viewer-and-decision.png)
 
 
 <!-- upload assets directly to workfront to be reviewed in Frame.io/ Will have to send manually at first
@@ -158,4 +158,4 @@ Reviewer/approver needs to go through email to get to frame vier
 專案專員可使用下列Widget在Workfront首頁區域監控所有執行中核准的進度：
 
 * **所有核准**：顯示2個圖表，其中包含平均核准時間和決定的相關資訊，以及擱置和逾期核准的清單檢視。
-  ![](assets/all-approvals.png)
+  ![所有核准](assets/all-approvals.png)

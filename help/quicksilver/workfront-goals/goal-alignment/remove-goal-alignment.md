@@ -6,9 +6,9 @@ description: 如果兩個目標之間的連線不再合理，您可以移除它�
 author: Alina
 feature: Workfront Goals
 exl-id: a6196356-ca11-4759-9cff-64850a60208e
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '456'
 ht-degree: 1%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 1%
  <p> 新產品需求，下列其中一項： </p>
 <ul>
 <li>Select或Prime Adobe Workfront計畫以及額外的Adobe Workfront目標授權。</li>
-<li>預設包含Workfront目標的Ultimate Workfront計畫。 </li></ul>
+<li>Ultimate Workfront計畫，預設包含Workfront目標。 </li></ul>
  <p>或</p>
  <p>目前產品需求： Adobe Workfront Goals的Workfront計畫和額外授權。 </p> <p>如需詳細資訊，請參閱<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目標的需求</a>。 </p> </td>
  </tr>
@@ -101,9 +101,9 @@ Removing goal alignment differs depending on which environment you use.
 
 1. Go to a child goal aligned to a parent goal. 
 1. Click the goal name to open the **Goal Details** panel. 
-1. Click the **gear icon** ![](assets/gear-icon-settings.png) next to the parent goal, then click **Remove alignment**.
+1. Click the **gear icon** ![Gear icon](assets/gear-icon-settings.png) next to the parent goal, then click **Remove alignment**.
 
-   ![](assets/edit-remove-alignment-350x88.png)
+   ![Reove alignment](assets/edit-remove-alignment-350x88.png)
 
    The goal becomes a standalone goal and its progress no longer influences the progress of the original parent goal. 
 
@@ -117,9 +117,9 @@ Removing goal alignment differs depending on which environment you use.
 1. 存取Workfront中的&#x200B;**目標**&#x200B;區域，然後按一下目標的名稱以開啟目標的頁面。
 1. 從上層目標的目標頁面，按一下左側面板中的&#x200B;**進度指示器**。
 
-   ![](assets/remove-goal-alignment-from-list-unshimmed.png)
+   ![重新移動目標校準](assets/remove-goal-alignment-from-list-unshimmed.png)
 
-1. 在&#x200B;**型別：目標**&#x200B;群組中，選取目標，然後按一下清單頂端的&#x200B;**中斷連線**&#x200B;圖示![](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png)。
+1. 在&#x200B;**型別：目標**&#x200B;群組中，選取目標，然後按一下清單頂端的&#x200B;**中斷連線**&#x200B;圖示![中斷連線圖示](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png)。
 
    會顯示[Disconnect]方塊。
 

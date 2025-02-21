@@ -6,9 +6,9 @@ description: 委派核准請求可讓您指派另一名使用者，在一段時�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: 69c1e99b996025615e96a84bc8e91cbe2ae6ee48
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1194'
+source-wordcount: '1209'
 ht-degree: 0%
 
 ---
@@ -104,7 +104,7 @@ ht-degree: 0%
 
 若要將核准委派給其他使用者：
 
-1. 按一下右上角的&#x200B;**[!UICONTROL 主要功能表]** ![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
+1. 按一下右上角的&#x200B;**[!UICONTROL 主功能表]** ![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
 1. （視條件而定）按一下&#x200B;**自訂**&#x200B;以新增&#x200B;**我的核准** Widget。
 1. 移至[我的核准]Widget，然後按一下[委派我的核准] **。**
 
@@ -112,7 +112,7 @@ ht-degree: 0%
    >
    >Workfront管理員可以從設定區域停用核准委派。 如果核准委派被停用，您將不會看到「委派核准」按鈕。
 
-   ![](assets/delegate-approvals-home.png)
+   ![在首頁](assets/delegate-approvals-home.png)委派核准
 
 1. 在委派我的核准區段中指定下列資訊：
 
@@ -144,11 +144,11 @@ ht-degree: 0%
 
 ## 更新或停止核准委派 {#update-or-stop-an-approval-delegation}
 
-1. 按一下右上角的&#x200B;**[!UICONTROL 主要功能表]** ![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
+1. 按一下右上角的&#x200B;**[!UICONTROL 主功能表]** ![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
 1. （視條件而定）按一下&#x200B;**自訂**&#x200B;以新增&#x200B;**我的核准** Widget。
 
 1. 前往「我的核准」Widget，然後按一下「**編輯委派**」。
-   ![](assets/edit-delegations.png)
+   ![編輯委派](assets/edit-delegations.png)
 <!--
    Or
 
@@ -170,7 +170,7 @@ ht-degree: 0%
 
 若要檢視受委派的核准：
 
-1. 按一下右上角的&#x200B;**[!UICONTROL 主要功能表]** ![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
+1. 按一下右上角的&#x200B;**[!UICONTROL 主功能表]** ![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
 1. （視條件而定）按一下&#x200B;**自訂**&#x200B;以新增&#x200B;**我的核准** Widget。
 1. 在&#x200B;**我的核准** Widget中，按一下&#x200B;**篩選器**&#x200B;下拉式功能表，然後按一下&#x200B;**委派核准**。\
    委派給您的所有核准都會顯示在清單中。

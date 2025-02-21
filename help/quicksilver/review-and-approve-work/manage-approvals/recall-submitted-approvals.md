@@ -6,9 +6,9 @@ description: 您可以召回下列任何提交核准的物件。
 author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 exl-id: 33df75f0-47d0-4848-8d9a-203f40d8831c
-source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1251'
 ht-degree: 1%
 
 ---
@@ -69,14 +69,14 @@ ht-degree: 1%
 
 若要撤銷您提交的專案核准，請執行下列步驟：
 
-1. 按一下Adobe Workfront左上角的&#x200B;**首頁**&#x200B;圖示![](assets/home-icon-30x29.png)。
+1. 按一下Adobe Workfront左上角的&#x200B;**首頁**&#x200B;圖示![首頁圖示](assets/home-icon-30x29.png)。
 
    >[!NOTE]
    >
    >您的Workfront管理員可能會對您環境中的「首頁」圖示進行下列變更：
    >
    >* 以自訂的影像取代，以說明您的組織。 在此情況下，圖示看起來將會與本文中顯示的有所不同。
-   >* 使用其他頁面取代連結至該頁面的頁面。 在此情況下，請按一下頁面右上角的&#x200B;**主要功能表** ![](assets/main-menu-icon.png)，然後按一下&#x200B;**首頁**。
+   >* 使用其他頁面取代連結至該頁面的頁面。 在此情況下，請按一下頁面右上角的&#x200B;**主功能表** ![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**首頁**。
 
 1. 在&#x200B;**工作清單**&#x200B;區域中，瀏覽至我已提交的&#x200B;**核准**&#x200B;群組。
 
@@ -84,7 +84,7 @@ ht-degree: 1%
 
    這會開啟工作清單右側的專案。
 
-   ![](assets/project-pending-approval-phome-nwe-350x106.png)
+   ![擱置核准的專案](assets/project-pending-approval-phome-nwe-350x106.png)
 
 1. 按一下右面板右上角的&#x200B;**撤銷**。
 
@@ -100,14 +100,14 @@ ht-degree: 1%
 
 若要撤銷您提交的任務核准，請執行下列步驟：
 
-1. 按一下Adobe Workfront左上角的&#x200B;**首頁**&#x200B;圖示![](assets/home-icon-30x29.png)。
+1. 按一下Adobe Workfront左上角的&#x200B;**首頁**&#x200B;圖示![首頁圖示](assets/home-icon-30x29.png)。
 
    >[!NOTE]
    >
    >您的Workfront管理員可能會對您環境中的「首頁」圖示進行下列變更：
    >
    >* 以自訂的影像取代，以說明您的組織。 在此情況下，圖示看起來將會與本文中顯示的有所不同。
-   >* 使用其他頁面取代連結至該頁面的頁面。 在此情況下，請按一下頁面右上角的&#x200B;**主要功能表** ![](assets/main-menu-icon.png)，然後按一下&#x200B;**首頁**。
+   >* 使用其他頁面取代連結至該頁面的頁面。 在此情況下，請按一下頁面右上角的&#x200B;**主功能表** ![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**首頁**。
 
 1. 在&#x200B;**工作清單**&#x200B;區域中，瀏覽至我已提交的&#x200B;**核准**&#x200B;群組。
 
@@ -115,7 +115,7 @@ ht-degree: 1%
 
    這會開啟「工作清單」右側的任務。
 
-   ![](assets/task-pending-approval-home-nwe-350x97.png)
+   ![擱置核准的任務](assets/task-pending-approval-home-nwe-350x97.png)
 
 1. 按一下右面板右上角的&#x200B;**撤銷**。
 
@@ -129,14 +129,14 @@ ht-degree: 1%
 >
 >您可以使用範本，將問題的第一個狀態與核准流程相關聯。 如需建立要求佇列的詳細資訊，請參閱[建立要求佇列](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
 
-1. 按一下Adobe Workfront左上角的&#x200B;**首頁**&#x200B;圖示![](assets/home-icon-30x29.png)。
+1. 按一下Adobe Workfront左上角的&#x200B;**首頁**&#x200B;圖示![首頁圖示](assets/home-icon-30x29.png)。
 
    >[!NOTE]
    >
    >您的Workfront管理員可能會對您環境中的「首頁」圖示進行下列變更：
    >
    >* 以自訂的影像取代，以說明您的組織。 在此情況下，圖示看起來將會與本文中顯示的有所不同。
-   >* 使用其他頁面取代連結至該頁面的頁面。 在此情況下，請按一下頁面右上角的&#x200B;**主要功能表** ![](assets/main-menu-icon.png)，然後按一下&#x200B;**首頁**。
+   >* 使用其他頁面取代連結至該頁面的頁面。 在此情況下，請按一下頁面右上角的&#x200B;**主功能表** ![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**首頁**。
 
 1. 在&#x200B;**工作清單**&#x200B;區域中，瀏覽至我已提交的&#x200B;**核准**&#x200B;群組。
 
@@ -144,7 +144,7 @@ ht-degree: 1%
 
    這會開啟工作清單右側的問題。
 
-   ![](assets/issue-pending-approval-home-nwe-350x103.png)
+   ![擱置核准的問題](assets/issue-pending-approval-home-nwe-350x103.png)
 
 1. 按一下右面板右上角的&#x200B;**撤銷**。
 
@@ -152,14 +152,14 @@ ht-degree: 1%
 
 當您撤回時程表核準時，時程表會回到提交以供核准前的狀態。
 
-1. 按一下Adobe Workfront左上角的&#x200B;**首頁**&#x200B;圖示![](assets/home-icon-30x29.png)。
+1. 按一下Adobe Workfront左上角的&#x200B;**首頁**&#x200B;圖示![首頁圖示](assets/home-icon-30x29.png)。
 
    >[!NOTE]
    >
    >您的Workfront管理員可能會對您環境中的「首頁」圖示進行下列變更：
    >
    >* 以自訂的影像取代，以說明您的組織。 在此情況下，圖示看起來將會與本文中顯示的有所不同。
-   >* 使用其他頁面取代連結至該頁面的頁面。 在此情況下，請按一下頁面右上角的&#x200B;**主要功能表** ![](assets/main-menu-icon.png)，然後按一下&#x200B;**首頁**。
+   >* 使用其他頁面取代連結至該頁面的頁面。 在此情況下，請按一下頁面右上角的&#x200B;**主功能表** ![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**首頁**。
 
 1. 在&#x200B;**工作清單**&#x200B;區域中，瀏覽至我已提交的&#x200B;**核准**&#x200B;群組。
 
@@ -167,7 +167,7 @@ ht-degree: 1%
 
    這會開啟工作清單右側的時程表。
 
-   ![](assets/timesheet-pending-approval-home-nwe-350x157.png)
+   ![時程表擱置核准](assets/timesheet-pending-approval-home-nwe-350x157.png)
 
 1. 按一下右面板右上角的&#x200B;**撤銷**。
 
@@ -175,14 +175,14 @@ ht-degree: 1%
 
 若要撤銷檔案核准，您必須手動從核准中移除一或所有使用者。
 
-1. 按一下Adobe Workfront左上角的&#x200B;**首頁**&#x200B;圖示![](assets/home-icon-30x29.png)。
+1. 按一下Adobe Workfront左上角的&#x200B;**首頁**&#x200B;圖示![首頁圖示](assets/home-icon-30x29.png)。
 
    >[!NOTE]
    >
    >您的Workfront管理員可能會對您環境中的「首頁」圖示進行下列變更：
    >
    >* 以自訂的影像取代，以說明您的組織。 在此情況下，圖示看起來將會與本文中顯示的有所不同。
-   >* 使用其他頁面取代連結至該頁面的頁面。 在此情況下，請按一下頁面右上角的&#x200B;**主要功能表** ![](assets/main-menu-icon.png)，然後按一下&#x200B;**首頁**。
+   >* 使用其他頁面取代連結至該頁面的頁面。 在此情況下，請按一下頁面右上角的&#x200B;**主功能表** ![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**首頁**。
 
 1. 在&#x200B;**工作清單**&#x200B;區域中，瀏覽至我已提交的&#x200B;**核准**&#x200B;群組。
 
@@ -199,14 +199,14 @@ ht-degree: 1%
 
 ## 存取要求
 
-1. 按一下Adobe Workfront左上角的&#x200B;**首頁**&#x200B;圖示![](assets/home-icon-30x29.png)。
+1. 按一下Adobe Workfront左上角的&#x200B;**首頁**&#x200B;圖示![首頁圖示](assets/home-icon-30x29.png)。
 
    >[!NOTE]
    >
    >您的Workfront管理員可能會對您環境中的「首頁」圖示進行下列變更：
    >
    >* 以自訂的影像取代，以說明您的組織。 在此情況下，圖示看起來將會與本文中顯示的有所不同。
-   >* 使用其他頁面取代連結至該頁面的頁面。 在此情況下，請按一下頁面右上角的&#x200B;**主要功能表** ![](assets/main-menu-icon.png)，然後按一下&#x200B;**首頁**。
+   >* 使用其他頁面取代連結至該頁面的頁面。 在此情況下，請按一下頁面右上角的&#x200B;**主功能表** ![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**首頁**。
 
 1. 在&#x200B;**工作清單**&#x200B;區域中，瀏覽至我已提交的&#x200B;**核准**&#x200B;群組。
 
@@ -214,6 +214,6 @@ ht-degree: 1%
 
    這會開啟工作清單右側的存取要求。
 
-   ![](assets/access-request-pending-approval-nwe-350x104.png)
+   ![擱置核准的存取權要求](assets/access-request-pending-approval-nwe-350x104.png)
 
 1. 按一下右面板右上角的&#x200B;**撤銷**。

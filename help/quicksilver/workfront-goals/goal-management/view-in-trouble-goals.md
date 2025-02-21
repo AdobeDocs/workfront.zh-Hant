@@ -6,9 +6,9 @@ description: 存在問題中進度的Oals有無法實現的危險，在Adobe Wor
 author: Alina
 feature: Workfront Goals
 exl-id: df2cdc12-9102-4759-9daa-1f8ae68f110b
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '827'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
    <td role="rowheader">Adobe Workfront計畫*</td> 
    <td> 
    <p>對於新計畫和授權結構：
-  <ul><li>終極計畫 </li></ul>
+  <ul><li>Ultimate計畫 </li></ul>
    </p>
 <p>對於目前的計畫與授權結構： 
 <ul><li> A Pro或更高版本 </li>
@@ -55,7 +55,7 @@ ht-degree: 0%
  <p> 新產品需求，下列其中一項： </p>
 <ul>
 <li>Select或Prime Adobe Workfront計畫以及額外的Adobe Workfront目標授權。</li>
-<li>預設包含Workfront目標的Ultimate Workfront計畫。 </li></ul>
+<li>Ultimate Workfront計畫，預設包含Workfront目標。 </li></ul>
  <p>或</p>
  <p>目前產品需求： Adobe Workfront Goals的Workfront計畫和額外授權。 </p> <p>如需詳細資訊，請參閱<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目標的需求</a>。 </p> </td>
  </tr>
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 *如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-## Recommendations可防止目標達成有問題的進度
+## 防止目標達成有問題進度的建議
 
 在目標達到「存在問題」的進度之前，您可以經常監控目標，並在目標達到「有風險」的進度時調整進度。 有風險的目標有陷入麻煩的危險。 如需目標進度的詳細資訊，請參閱[Adobe Workfront目標中的目標進度和條件總覽](../../workfront-goals/goal-management/calculate-goal-progress.md)
 
@@ -97,7 +97,7 @@ ht-degree: 0%
 
 本文說明如何檢閱目標清單中的目標。
 
-1. 按一下右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png) > **目標**。
+1. 按一下右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png) > **目標**。
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -124,7 +124,7 @@ ht-degree: 0%
 
 1. 將滑鼠停留在進度列指標上，可檢視當天的實際進度百分比和預期值。
 
-   ![](assets/goal-progress-hover-over-detail-unshimmed.png)
+   ![GOal進度暫留詳細資料](assets/goal-progress-hover-over-detail-unshimmed.png)
 
 1. （選用）使用篩選器來尋找屬於特定擁有者的目標。
 
@@ -134,7 +134,7 @@ ht-degree: 0%
 
    如需有關更新結果和活動的資訊，請參閱[在Adobe Workfront目標中更新目標進度](../goal-review-and-workfront-goals-sections/check-in-goals.md)
 
-   ![](assets/actual-progress-editable-column-in-indicator-list-unshimmed.png)
+   ![實際進度](assets/actual-progress-editable-column-in-indicator-list-unshimmed.png)
 
    >[!NOTE]
    >

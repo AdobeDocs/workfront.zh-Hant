@@ -6,9 +6,9 @@ description: 核准流程提供了為專案、任務和問題建立多步驟核�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
-source-git-commit: b0b83e8a8a2a076ec20691183605e3d25d10129d
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '802'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 ## 在[首頁]區域中檢閱您提交核准的工作 {#review-work-you-submit-for-approval-in-the-home-area}
 
-1. 按一下右上角的&#x200B;**[!UICONTROL 主要功能表]** ![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
+1. 按一下右上角的&#x200B;**[!UICONTROL 主功能表]** ![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
 1. （視條件而定）按一下&#x200B;**自訂**&#x200B;以新增&#x200B;**我的核准** Widget。
 1. （視條件而定）按一下&#x200B;**篩選器**&#x200B;下拉式功能表，然後選取&#x200B;**我已提交的核准**，以檢視您已提交的核准。
 
@@ -133,6 +133,6 @@ ht-degree: 0%
 
    「核准」標籤會顯示所有過去核准路徑和階段的完整資訊。 您可以檢視確切的核准決策者，或核准是針對團隊、工作角色或使用者所設定。
 
-   ![](assets/approvals-tab-expanded-on-issue-nwe-350x320.png)
+   ![已展開核准索引標籤](assets/approvals-tab-expanded-on-issue-nwe-350x320.png)
 
    如需有關建立核准流程的資訊，請參閱[建立工作專案的核准流程](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)。

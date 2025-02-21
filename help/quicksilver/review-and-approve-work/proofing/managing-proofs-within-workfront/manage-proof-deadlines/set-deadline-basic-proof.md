@@ -7,9 +7,9 @@ description: 基本校訂建立後，您可以為其設定單一截止日期。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 8e0c6fd3-5506-4b23-b64a-473c4d20b506
-source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '231'
 ht-degree: 2%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 2%
 1. 按一下&#x200B;**校訂工作流程**。
 1. 在&#x200B;**工作流程**&#x200B;區域中，選取&#x200B;**無截止日期**。
 
-   ![](assets/no-deadline-basic-proof-350x70.png)
+   ![沒有期限](assets/no-deadline-basic-proof-350x70.png)
 
 1. 選擇日期並指定時間，然後按一下畫面上的任何位置。
 1. 選擇是否要通知稽核者新的截止日期。

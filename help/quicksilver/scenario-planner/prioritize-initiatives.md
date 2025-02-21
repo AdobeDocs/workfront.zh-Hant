@@ -6,9 +6,9 @@ description: 優先處理方案非常重要，因為方案會依照其在計畫�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 45f019de-b29c-477b-8bd1-f32ef21c1015
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '545'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 1%
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 計畫*</p> </td> 
    <td> <ul></li>
-   <li><p>新增：Ultimate </p></li>
+   <li><p>新增： Ultimate </p></li>
    <p>新的Workfront Select或Workfront Prime計畫無法使用「情境規劃工具」。 </p>
    <li><p>目前： [！UICONTROL Business]或更高版本</p></ul>
    </td> 
@@ -92,7 +92,7 @@ ht-degree: 1%
 
      Workfront會顯示所選方案的數量。
 
-     ![](assets/multi-select-initiative-number.png)
+     ![多重選取方案編號](assets/multi-select-initiative-number.png)
 
    * 按一下計畫底部的&#x200B;**[!UICONTROL 優先順序]**&#x200B;方塊，然後選擇下列選項：
 
@@ -100,7 +100,7 @@ ht-degree: 1%
       * **[!UICONTROL 底部]**：將選取的方案移至方案清單底部。 選取的方案會列在計畫的最後。
       * **[!UICONTROL 選取數字]**：將選取的方案移至您在此指定的方案之後。
 
-        ![](assets/prioritize-initiatives-expanded-highlighted-350x171.png)
+        ![排定方案優先順序](assets/prioritize-initiatives-expanded-highlighted-350x171.png)
 
      [!DNL Workfront]會立即放置您指定的所選方案，且所有方案的數量會據此更新。
 

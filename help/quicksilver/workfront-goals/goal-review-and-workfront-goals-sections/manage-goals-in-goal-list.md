@@ -6,9 +6,9 @@ description: 在您或其他使用者建立目標後，可以在「目標清單�
 author: Alina
 feature: Workfront Goals
 exl-id: 2a2c1240-f796-4cb8-b8a6-2ad5853916b9
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '803'
+source-wordcount: '817'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 2%
    <td role="rowheader">Adobe Workfront計畫*</td> 
    <td> 
    <p>對於新計畫和授權結構：
-  <ul><li>終極計畫 </li></ul>
+  <ul><li>Ultimate計畫 </li></ul>
    </p>
 <p>對於目前的計畫與授權結構： 
 <ul><li> A Pro或更高版本 </li>
@@ -53,7 +53,7 @@ ht-degree: 2%
  <p> 新產品需求，下列其中一項： </p>
 <ul>
 <li>Select或Prime Adobe Workfront計畫以及額外的Adobe Workfront目標授權。</li>
-<li>預設包含Workfront目標的Ultimate Workfront計畫。 </li></ul>
+<li>Ultimate Workfront計畫，預設包含Workfront目標。 </li></ul>
  <p>或</p>
  <p>目前產品需求： Adobe Workfront Goals的Workfront計畫和額外授權。 </p> <p>如需詳細資訊，請參閱<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目標的需求</a>。 </p> </td>
  </tr>
@@ -101,7 +101,7 @@ ht-degree: 2%
 
 ### Manage the Goal List in the Production environment
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner, then click **Goals**.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **Goals**.
 
    (!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    --)
@@ -155,14 +155,14 @@ ht-degree: 2%
 
    An arrow displays to the right of the field by which the list is sorted.
 
-   ![](assets/goal-list-with-goal-expanded-+-result-+-activity-350x117.png)
+   ![Goal list with goal expanded](assets/goal-list-with-goal-expanded-+-result-+-activity-350x117.png)
 
 1. (Optional) Click the field in the column again to sort the same column in a descending order. 
 1. Click the right-pointing arrow to the left of the goal name to expand a goal
 
    Or
 
-   Click the right-pointing arrow ![](assets/right-pointing-arrow.png) in the header of the list to expand all the goals in the list and view additional information about each goal, including any of the following:
+   Click the right-pointing arrow ![Right-pointing arrow](assets/right-pointing-arrow.png) in the header of the list to expand all the goals in the list and view additional information about each goal, including any of the following:
 
    * Results names, owners, and progress
 
@@ -190,12 +190,12 @@ ht-degree: 2%
 
    For more information, see [Print the Goal List in Adobe Workfront Goals](../../workfront-goals/goal-management/print-the-goal-list.md). 
 
-1. Click the **Alignment icon** ![](assets/align-icon.png) next to an aligned to open the goal's card in the Goal Alignment section. For more information, see [Navigate the Goal Alignment section in Adobe Workfront Goals](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
+1. Click the **Alignment icon** ![Alignment icon](assets/align-icon.png) next to an aligned to open the goal's card in the Goal Alignment section. For more information, see [Navigate the Goal Alignment section in Adobe Workfront Goals](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
 -->
 
 若要管理「目標清單」中的目標：
 
-1. 按一下右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**目標**。
+1. 按一下右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**目標**。
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -208,9 +208,9 @@ ht-degree: 2%
    * **所有者**：目標所有者的名稱。
    * **期間**：目標排定的期間。
    * **狀態**：目標的狀態可以是下列其中一項：
-      * 啟用中
+      * 作用中
       * 草稿
-      * 停用中
+      * 非使用中
       * 已關閉
 
      如需目標狀態的相關資訊，請參閱Adobe Workfront目標中的[目標狀態總覽](../goal-management/goal-status-overview.md)。
@@ -232,7 +232,7 @@ ht-degree: 2%
 
      如需詳細資訊，請參閱[在Adobe Workfront目標中計算目標進度](../goal-management/calculate-goal-progress.md)。
 
-1. 按一下目標清單右上角的篩選器圖示![](assets/filter-icon.png)，然後套用篩選器以僅顯示對您重要的目標。
+1. 按一下目標清單右上角的篩選圖示![篩選圖示](assets/filter-icon.png)，並套用篩選條件以僅顯示對您重要的目標。
 
    如需在Workfront目標中使用篩選器的相關資訊，請參閱[Adobe Workfront目標中的篩選資訊](../goal-management/filter-information-wf-goals.md)。
 
@@ -242,10 +242,10 @@ ht-degree: 2%
 1. （選用）再按一下欄中的欄位，以遞減順序排序相同的欄。
 1. 按一下目標的名稱以開啟目標的頁面。
 1. 在清單中選取一個目標，然後按一下清單頂端的下列其中一個選項：
-   * **編輯**&#x200B;圖示![](assets/edit-icon.png)以編輯目標的相關資訊。 如需詳細資訊，請參閱[在Adobe Workfront目標中編輯目標](../goal-management/edit-goals.md)。
-   * **共用**&#x200B;圖示![](assets/share-icon.png)以與其他人共用目標。 如需詳細資訊，請參閱[在Adobe Workfront目標中共用目標](../workfront-goals-settings/share-a-goal.md)。
-   * **開啟對齊方式**&#x200B;圖示![](assets/align-icon-unshimmed.png)以開啟目標對齊方式區域。 只有在您選取的目標已對齊另一個目標時，才會顯示此選項。
-   * **刪除**&#x200B;圖示![](assets/delete-icon.png)以刪除目標，然後按一下&#x200B;**刪除**&#x200B;以確認。  如需詳細資訊，請參閱[在Adobe Workfront目標中刪除及停用目標](../goal-management/delete-and-deactivate-goals.md)。
+   * **編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)以編輯目標的相關資訊。 如需詳細資訊，請參閱[在Adobe Workfront目標中編輯目標](../goal-management/edit-goals.md)。
+   * **共用**&#x200B;圖示![共用圖示](assets/share-icon.png)以與其他人共用目標。 如需詳細資訊，請參閱[在Adobe Workfront目標中共用目標](../workfront-goals-settings/share-a-goal.md)。
+   * **開啟對齊**&#x200B;圖示![開啟對齊圖示](assets/align-icon-unshimmed.png)以開啟目標對齊區域。 只有在您選取的目標已對齊另一個目標時，才會顯示此選項。
+   * **刪除**&#x200B;圖示![刪除圖示](assets/delete-icon.png)以刪除目標，然後按一下&#x200B;**刪除**&#x200B;以確認。  如需詳細資訊，請參閱[在Adobe Workfront目標中刪除及停用目標](../goal-management/delete-and-deactivate-goals.md)。
 
 
 

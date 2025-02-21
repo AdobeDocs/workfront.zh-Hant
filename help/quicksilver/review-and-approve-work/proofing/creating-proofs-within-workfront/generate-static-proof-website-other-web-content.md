@@ -6,9 +6,9 @@ description: 您可以為網頁內容產生新的靜態校樣或現有靜態校�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1c0511f6-c60b-4a81-bfff-55b6f866add6
-source-git-commit: 0a7cdf217d3c8227c569831b16f09c0b1d9c7111
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ ht-degree: 0%
 
    設定網站校訂的選項隨即顯示。
 
-   ![](assets/interactive-proof-radio-btn-area-350x199.png)
+   ![互動式校訂](assets/interactive-proof-radio-btn-area-350x199.png)
 
 1. （選擇性）如果要將網站URL的校訂名稱變更為其他名稱，請輸入&#x200B;**校訂名稱。**
 1. 請確定已選取&#x200B;**擷取熒幕擷圖**，並使用下列任一選項：

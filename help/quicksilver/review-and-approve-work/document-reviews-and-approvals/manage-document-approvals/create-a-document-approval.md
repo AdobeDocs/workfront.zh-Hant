@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront中請求其他使用者的檔案核准�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
-source-git-commit: a1a5c2bb9395748c4e0103d10dcf66624238032b
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
-   <td> <p>檢視專案、任務、問題、範本、Portfolio、方案、報告、儀表板和行事曆、檔案的或更高存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td> <p>檢視專案、任務、問題、範本、投資組合、計畫、報告、儀表板和行事曆、檔案的或更高存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">物件許可權</td> 
@@ -58,7 +58,7 @@ ht-degree: 0%
 ## 從檔案頁面建立檔案檢閱或核准請求
 
 1. 將滑鼠停留在檔案上，然後按一下「檔案詳細資訊」。
-   ![](assets/doc-details.png)
+   ![檔案詳細資料](assets/doc-details.png)
 
 
 1. 在檔名稱附近，在版本下拉式清單中選取您要建立核准的檔案版本。 預設會選取最新版本。
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 1. 若要新增檢閱者，請按一下&#x200B;**檢閱者**&#x200B;核取方塊並開始輸入使用者或團隊名稱。
 
-   ![](assets/add-approver-and-deadline.png)
+   ![新增核准者與截止日期](assets/add-approver-and-deadline.png)
 
 1. 重複上一步驟以新增其他核准者或稽核者。
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 
 1. 向下捲動至[檔案摘要]窗格中的&#x200B;**核准**&#x200B;區段，然後按一下[新增]。****
 
-![](assets/doc-summary-add-approvers.png)
+![在檔案摘要中新增核准者](assets/doc-summary-add-approvers.png)
 
 1. （選用）設定核准的截止日期。 若在指定期限前72小時通知使用者和團隊。
 
@@ -93,7 +93,7 @@ ht-degree: 0%
 
 1. 若要新增檢閱者，請按一下&#x200B;**檢閱者**&#x200B;核取方塊並開始輸入使用者或團隊名稱。
 
-   ![](assets/add-approver-and-deadline.png)
+   ![新增核准者與截止日期](assets/add-approver-and-deadline.png)
 
 1. 重複上一步驟以新增其他核准者或稽核者。
 
@@ -111,5 +111,5 @@ Document approval decisions are not automatically reset when you upload a new ve
 
 1. Scroll down to the **Approvals** section in the Summary, click the More icon, then click Resubmit.
 
-   ![](assets/nwe-resubmit-approval-350x149.png)
+   ![Resubmit approval](assets/nwe-resubmit-approval-350x149.png)
 -->

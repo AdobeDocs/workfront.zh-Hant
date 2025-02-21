@@ -6,9 +6,9 @@ description: 在連線專案和方案後，您可以並排管理其資源配置�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: cdc3a1b0-7021-4853-9b51-c3682fd55430
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '816'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 1%
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 計畫*</p> </td> 
    <td> <ul></li>
-   <li><p>新增：Ultimate </p></li>
+   <li><p>新增： Ultimate </p></li>
    <p>新的Workfront Select或Workfront Prime計畫無法使用「情境規劃工具」。 </p>
    <li><p>目前： [！UICONTROL Business]或更高版本</p></ul>
    </td> 
@@ -87,12 +87,12 @@ ht-degree: 1%
 
 1. 執行下列其中一項：
 
-   * 按一下&#x200B;**[!UICONTROL 月]**&#x200B;以依月檢視工作負載平衡器，按一下時間表![](assets/drop-down-next-to-month-month-view-wb.png)中一個月旁的下拉式功能表，然後按一下&#x200B;**[!UICONTROL 更多]**。
-   * 按一下工具列右上角的&#x200B;**[!UICONTROL 顯示角色配置]**&#x200B;圖示![](assets/show-role-allocation-icon.png)。
+   * 按一下&#x200B;**[!UICONTROL 月]**&#x200B;以依月檢視工作負載平衡器，按一下時間表![月](assets/drop-down-next-to-month-month-view-wb.png)旁的下拉式清單中月份旁的下拉式功能表，然後按一下&#x200B;**[!UICONTROL 更多]**。
+   * 按一下工具列右上角的&#x200B;**[!UICONTROL 顯示角色配置]**&#x200B;圖示![顯示角色配置](assets/show-role-allocation-icon.png)。
 
    [!UICONTROL 角色配置]面板隨即顯示。
 
-   ![](assets/role-allocation-panel-months-collapsed-350x319.png)
+   ![角色配置面板](assets/role-allocation-panel-months-collapsed-350x319.png)
 
    >[!CAUTION]
    >
@@ -162,7 +162,7 @@ ht-degree: 1%
 
 1. （選擇性）按一下下拉式圖示，以展開[!UICONTROL 角色配置]面板或[!UICONTROL 工作負載平衡器]的時間軸中的其中一個月。
 
-   ![](assets/month-expanded-highlighted-role-allocation-panel-wb-350x145.png)
+   ![在角色配置面板中展開月份](assets/month-expanded-highlighted-role-allocation-panel-wb-350x145.png)
 
    每個月也會顯示[!UICONTROL 專案總計]區域中顯示的相同資訊型別。
 

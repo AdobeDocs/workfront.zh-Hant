@@ -7,9 +7,9 @@ description: 您可以存取目標或個別目標的清單，並從Adobe Workfro
 author: Alina
 feature: Workfront Goals
 exl-id: 915f8c62-e35a-41a0-8a63-40c28468c55a
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '699'
 ht-degree: 1%
 
 ---
@@ -56,7 +56,7 @@ Workfront管理員授與您存取Workfront目標的許可權後，您就可以�
 
 如需有關導覽目標清單和管理目標的資訊，請參閱Adobe Workfront目標清單中的[管理目標](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md)。
 
-![](assets/goal-list-unshimmed.png)
+![目標清單](assets/goal-list-unshimmed.png)
 
 使用「目標清單」來執行下列作業：
 
@@ -78,7 +78,7 @@ Workfront管理員授與您存取Workfront目標的許可權後，您就可以�
 
 如需有關使用圖表區段的資訊，請參閱[檢閱圖表以瞭解Adobe Workfront目標中的目標進度趨勢](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md)。
 
-![](assets/graphs-section-unshimmed.png)
+![圖表區段](assets/graphs-section-unshimmed.png)
 
 使用「圖形」區段來執行下列動作：
 
@@ -97,7 +97,7 @@ Workfront管理員授與您存取Workfront目標的許可權後，您就可以�
 * [在Adobe Workfront目標中連線目標以對齊目標](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
 * [透過將結果和活動轉換為目標來校準目標](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
 
-![](assets/goal-alignment-section-unshimmed.png)
+![目標對齊區段](assets/goal-alignment-section-unshimmed.png)
 
 使用「目標校準」區段來執行下列作業：
 
@@ -118,7 +118,7 @@ You can use the Pulse section to review and request updates to goals that might 
 
 For information about reviewing goals using the Pulse section, see [Review goals in the Adobe Workfront Goals Pulse section](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goals-in-pulse.md).
 
-![](assets/pulse-section-350x141.png)
+![Pulse section](assets/pulse-section-350x141.png)
 
 Use the Pulse section to do the following:
 
@@ -149,7 +149,7 @@ You can use the Check-in section to update active goals and any results and acti
 
 For information about managing goals in the Goal List, see [Manage goals in the Goal List of Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md).
 
-![](assets/check-in-section-350x143.png)
+![Check in section](assets/check-in-section-350x143.png)
 
 Use the Check-in section to do the following:
 

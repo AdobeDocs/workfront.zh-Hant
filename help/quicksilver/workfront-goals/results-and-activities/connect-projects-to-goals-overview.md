@@ -8,9 +8,9 @@ description: 您可以將專案連結到目標，以根據專案的實際進度�
 author: Alina
 feature: Workfront Goals
 exl-id: 683c9cd9-6c7b-4d50-b326-b4000c9863e8
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '931'
 ht-degree: 1%
 
 ---
@@ -44,7 +44,7 @@ THIS MIGHT NEED TO BE RENAMED BECAUSE THERE WILL BE OTHER OBJECTS CONNECTED TO G
    <td role="rowheader">Adobe Workfront計畫*</td> 
    <td> 
    <p>對於新計畫和授權結構：
-  <ul><li>終極計畫 </li></ul>
+  <ul><li>Ultimate計畫 </li></ul>
    </p>
 <p>對於目前的計畫與授權結構： 
 <ul><li> A Pro或更高版本 </li>
@@ -64,7 +64,7 @@ THIS MIGHT NEED TO BE RENAMED BECAUSE THERE WILL BE OTHER OBJECTS CONNECTED TO G
  <p> 新產品需求，下列其中一項： </p>
 <ul>
 <li>Select或Prime Adobe Workfront計畫以及額外的Adobe Workfront目標授權。</li>
-<li>預設包含Workfront目標的Ultimate Workfront計畫。 </li></ul>
+<li>Ultimate Workfront計畫，預設包含Workfront目標。 </li></ul>
  <p>或</p>
  <p>目前產品需求： Adobe Workfront Goals的Workfront計畫和額外授權。 </p> <p>如需詳細資訊，請參閱<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目標的需求</a>。 </p> </td>
  </tr>
@@ -112,7 +112,7 @@ THIS MIGHT NEED TO BE RENAMED BECAUSE THERE WILL BE OTHER OBJECTS CONNECTED TO G
 
 There is an indication on the goal list that the project no longer updates progress for the goal.
 
-  ![](assets/goal-closed-project-active-warning-goal-list-350x94.png)
+  ![Goal closed](assets/goal-closed-project-active-warning-goal-list-350x94.png)
 -->
 
 * 當您刪除附加到目標的專案時，該專案也會從目標中刪除。
@@ -124,14 +124,14 @@ There is an indication on the goal list that the project no longer updates progr
 
 ## 將專案新增至目標
 
-1. 按一下&#x200B;**主功能表** ![](assets/main-menu-icon.png) (為Shell草稿：或按一下左上角的&#x200B;**主功能表** ![](assets/three-line-main-menu-icon.png) （如果有的話），然後&#x200B;**目標**。
+1. 按一下&#x200B;**主功能表** ![主功能表圖示](assets/main-menu-icon.png) (為Shell繪製此專案：或按一下左上角的&#x200B;**主功能表** ![主功能表行](assets/three-line-main-menu-icon.png) （如果有的話）。)，然後&#x200B;**目標**。
 1. 從目標清單中，按一下目標的名稱以開啟目標頁面。
 1. 按一下左側面板中的&#x200B;**進度指示器**。
 1. 從&#x200B;**新進度指示器**&#x200B;下拉式功能表，按一下&#x200B;**新增現有專案**。
 
    「將專案新增至目標」方塊隨即顯示。
 1. （選擇性）按一下清單右上角的個別圖示，以修改專案清單的顯示方式，更新&#x200B;**檢視**、**篩選器**&#x200B;或&#x200B;**群組**。
-1. （選擇性）按一下&#x200B;**搜尋**&#x200B;圖示![](assets/search-icon.png)並開始輸入專案名稱以在清單中快速找到它。
+1. （選擇性）按一下&#x200B;**搜尋**&#x200B;圖示![搜尋圖示](assets/search-icon.png)，然後開始輸入專案名稱以在清單中快速找到它。
 1. 選取您要新增至目標的專案，然後按一下[新增]。****
 
    選取的專案會新增至目標，並顯示在&#x200B;**專案**&#x200B;群組下的目標頁面進度指標區段。

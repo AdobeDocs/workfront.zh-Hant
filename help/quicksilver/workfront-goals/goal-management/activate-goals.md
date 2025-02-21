@@ -6,9 +6,9 @@ description: 當您建立目標時，Adobe Workfront目標會以草稿狀態儲�
 author: Alina
 feature: Workfront Goals
 exl-id: fc556073-fe63-4f13-a313-505ca0ef1f9b
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '501'
 ht-degree: 1%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 1%
    <td role="rowheader">Adobe Workfront計畫*</td> 
    <td> 
    <p>對於新計畫和授權結構：
-  <ul><li>終極計畫 </li></ul>
+  <ul><li>Ultimate計畫 </li></ul>
    </p>
 <p>對於目前的計畫與授權結構： 
 <ul><li> A Pro或更高版本 </li>
@@ -60,7 +60,7 @@ ht-degree: 1%
  <p> 新產品需求，下列其中一項： </p>
 <ul>
 <li>Select或Prime Adobe Workfront計畫以及額外的Adobe Workfront目標授權。</li>
-<li>預設包含Workfront目標的Ultimate Workfront計畫。 </li></ul>
+<li>Ultimate Workfront計畫，預設包含Workfront目標。 </li></ul>
  <p>或</p>
  <p>目前產品需求： Adobe Workfront Goals的Workfront計畫和額外授權。 </p> <p>如需詳細資訊，請參閱<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目標的需求</a>。 </p> </td>
  </tr>
@@ -116,8 +116,8 @@ ht-degree: 1%
 
 1. 前往您要啟用的目標。 目標頁面隨即開啟。
 
-1. 按一下目標名稱右邊的&#x200B;**更多**&#x200B;功能表![](../goal-management/assets/more-icon.png)，然後按一下&#x200B;**啟用**。
+1. 按一下目標名稱右邊的&#x200B;**更多**&#x200B;功能表![更多圖示](../goal-management/assets/more-icon.png)，然後按一下&#x200B;**啟用**。
 
-   ![](assets/more-menu-on-goal-expanded-with-activate-unshimmed.png)
+   ![其他功能表已展開](assets/more-menu-on-goal-expanded-with-activate-unshimmed.png)
 
    目標狀態會變更為作用中。 您現在可以追蹤目標的進度，目標會顯示在「簽入」區段中，並在Workfront目標的圖形區段中加以考慮

@@ -6,9 +6,9 @@ description: 身為稽核者，您可以預覽已提交您稽核的檔案。
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
-source-git-commit: 3755eb0d384e7274b88fbeafc2affa85f735efbc
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '527'
 ht-degree: 0%
 
 ---
@@ -94,5 +94,5 @@ Add once functionality is added
 
 1. （選擇性）檢閱檔案後，您可以在檔案的&#x200B;**更新**&#x200B;區段中為請求者留下註解。 如需有關註解的詳細資訊，請參閱[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
-1. （選擇性）您也可以向下捲動至[檔案摘要]窗格的&#x200B;**版本**&#x200B;區段，然後按一下您要檢閱之版本旁的[更多]圖示![](../assets/more-icon.png)，並選取&#x200B;**下載**&#x200B;或&#x200B;**預覽**，以預覽或下載檔案的特定版本。
+1. （選擇性）您也可以向下捲動至[檔案摘要]窗格的&#x200B;**版本**&#x200B;區段，然後按一下您想要檢閱的版本旁的[更多]圖示![[更多]圖示](../assets/more-icon.png)，並選取&#x200B;**[下載]**&#x200B;或&#x200B;**[預覽]**，以預覽或下載檔案的特定版本。
 1. 若要記錄您已完成檢閱，請按一下&#x200B;**完成檢閱**。

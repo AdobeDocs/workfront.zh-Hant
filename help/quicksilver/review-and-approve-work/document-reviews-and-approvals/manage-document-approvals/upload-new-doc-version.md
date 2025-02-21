@@ -6,9 +6,9 @@ description: 您可以上傳新檔案版本，並向Adobe Workfront中的其他�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
-source-git-commit: 162f63d52c97c6d4894d35565c68eb2858369b53
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '480'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 1. 向下捲動至[檔案摘要]窗格中的&#x200B;**核准**&#x200B;區段，然後按一下[新增]。****
 
-![](assets/doc-summary-add-approvers.png)
+![在檔案摘要中新增核准者](assets/doc-summary-add-approvers.png)
 
 1. （選用）設定核准的截止日期。 若在指定期限前72小時通知使用者和團隊。
 
@@ -89,4 +89,4 @@ ht-degree: 0%
 
 1. 若要新增核准者和稽核者，請按一下[稽核者] ****&#x200B;或[核准者] ****，然後開始輸入使用者或團隊。
 
-   ![](assets/add-approver-and-deadline.png)
+   ![新增核准者與截止日期](assets/add-approver-and-deadline.png)

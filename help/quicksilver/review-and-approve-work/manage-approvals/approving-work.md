@@ -6,9 +6,9 @@ description: 核准工作
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6e43edbb-14dd-493d-a76b-84be6c3bef82
-source-git-commit: 7366e3dd37b686a3566ca6d39e28eb6762c6d1ff
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '914'
 ht-degree: 1%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 1%
 
 ## 核准來自首頁區域的工作
 
-1. 按一下右上角的&#x200B;**[!UICONTROL 主要功能表]** ![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
+1. 按一下右上角的&#x200B;**[!UICONTROL 主功能表]** ![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
 1. （視條件而定）按一下&#x200B;**自訂**&#x200B;以新增&#x200B;**我的核准** Widget。
 1. （視條件而定）按一下&#x200B;**篩選器**&#x200B;下拉式功能表，然後選取&#x200B;**全部**&#x200B;以檢視指派給您的核准和委派。
 
@@ -77,7 +77,7 @@ ht-degree: 1%
 
 1. 選取您要進行核准決定的專案。
 
-   ![](assets/my-approvals-widget.png)
+   ![我的核准Widget](assets/my-approvals-widget.png)
 
 1. 在右側面板中作出核准決定時，按一下其中一個可用選項。 下列選項會根據您核准的專案型別，顯示在頁面的右上角：
 
@@ -146,7 +146,7 @@ ht-degree: 1%
 
    有關專案、任務或問題的目前核准流程的核准資訊會顯示在專案的標題中。
 
-   ![](assets/current-approval-process-in-project-header-with-stages-nwe-350x92.png)
+   ![專案標題中的目前核准程式](assets/current-approval-process-in-project-header-with-stages-nwe-350x92.png)
 
    下列核准資訊可供使用：
 
@@ -172,8 +172,8 @@ ht-degree: 1%
 
 1. 移至檔案區域，其中包含需要您核准的檔案。
 1. 選取檔案，然後按一下&#x200B;**核准**、**變更**&#x200B;或&#x200B;**拒絕**。\
-   ![](assets/approval-approve-document-350x215.png)\
-   ![](assets/document-approval-350x199.png)
+   ![核准檔案](assets/approval-approve-document-350x215.png)\
+   ![檔案核准](assets/document-approval-350x199.png)
 
 1. （選擇性）如果已為檔案產生校訂，則您可以在校訂介面中核准檔案，如[從校訂核准檔案](#approve-a-document-from-a-proof)中所述。
 
@@ -185,7 +185,7 @@ ht-degree: 1%
 1. 執行下列任一項作業以檢閱檔案：
 
    * 檢視檔案的相關中繼資料。
-   * 如果已建立校樣以檢閱包含標籤和註解的檔案，請按一下右上角附近的&#x200B;**開啟校樣** ![](assets/open-proof-icon-qs.png)並檢閱校樣。
+   * 如果已建立校樣以檢閱包含標籤和註解的檔案，請按一下右上角附近的&#x200B;**開啟校樣** ![開啟校樣](assets/open-proof-icon-qs.png)並檢閱校樣。
 
      <!--   
      <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">[Andrzej, does it make sense to leave this here if it's s document approval?&nbsp;Would there never be a proof in that situation?]</span>   

@@ -7,9 +7,9 @@ description: 在存取Adobe Workfront目標之前，您的Adobe Workfront管理�
 author: Alina
 feature: Workfront Goals
 exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '727'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 * 如果貴公司擁有目前的存取層級模型，您的Workfront管理員必須授予您下列其中一種Workfront授權型別，才能存取Workfront目標：
 
-   * 計劃
+   * 規劃
    * 工作
    * 檢閱
    * 請求
@@ -85,7 +85,7 @@ ht-degree: 0%
 
 您的Workfront或群組管理員必須指派包含主要功能表中目標區域的版面配置範本，您才能存取Workfront目標。
 
-![](assets/layout-template-align-highlighted-350x220.png)
+![配置範本](assets/layout-template-align-highlighted-350x220.png)
 
 您的Workfront管理員或群組管理員也可以將以下專案新增到您的版面配置範本，讓您能夠輕鬆存取Workfront目標：
 

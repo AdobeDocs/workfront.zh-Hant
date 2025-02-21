@@ -6,9 +6,9 @@ description: 您可以使用校訂核准報告來檢視有關您環境中校訂�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f8c924e-7c33-43f3-a9d6-75c56af28527
-source-git-commit: 8a388ffa2d30683c08637a4273f628c553e55fdb
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '299'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Adobe Workfront授權概觀*</p> </td> 
-   <td> <p>計劃</p> </td> 
+   <td> <p>規劃</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"><strong>存取層級*</strong> </td> 
@@ -56,7 +56,7 @@ ht-degree: 1%
 
 1. 按一下&#x200B;**新報告**，然後捲動以選取&#x200B;**校訂核准**。
 
-   ![](assets/proof-approval-report.png)
+   ![校訂核准報告](assets/proof-approval-report.png)
 
 1. （選用）新增任何其他欄位。
 1. 按一下「**儲存並關閉**」。

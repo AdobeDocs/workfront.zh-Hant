@@ -6,9 +6,9 @@ description: 您可以刪除您建立的計畫。 您無法刪除與您共用的
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 74515723-3822-425a-aa9e-970af63f9189
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '512'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 1%
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 計畫*</p> </td> 
    <td> <ul></li>
-   <li><p>新增：Ultimate </p></li>
+   <li><p>新增： Ultimate </p></li>
    <p>新的Workfront Select或Workfront Prime計畫無法使用「情境規劃工具」。 </p>
    <li><p>目前： [！UICONTROL Business]或更高版本</p></ul>
    </td> 
@@ -90,7 +90,7 @@ ht-degree: 1%
 計劃清單隨即顯示。
 
 1. 按一下計畫名稱以開啟。
-1. 按一下計畫名稱右側的&#x200B;**[!UICONTROL 更多功能表]** ![](assets/more-menu.png)，然後按一下&#x200B;**[!UICONTROL 刪除]** > **[!UICONTROL 是，刪除它]**。
+1. 按一下計畫名稱右側的&#x200B;**[!UICONTROL 更多功能表]** ![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**[!UICONTROL 刪除]** > **[!UICONTROL 是，刪除]**。
 
    計畫即被刪除，您將返回計劃清單。
 
@@ -114,7 +114,7 @@ ht-degree: 1%
    依預設，會顯示初始案例。
 
 1. 按一下&#x200B;**[!UICONTROL 比較案例]**。
-1. 從情境卡的右上角，按一下&#x200B;**[!UICONTROL 更多]**&#x200B;功能表![](assets/more-menu.png)，然後按一下&#x200B;**[!UICONTROL 刪除]**。
+1. 從情境卡的右上角，按一下&#x200B;**[!UICONTROL 更多]**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下&#x200B;**[!UICONTROL 刪除]**。
 
    情境已刪除。
 

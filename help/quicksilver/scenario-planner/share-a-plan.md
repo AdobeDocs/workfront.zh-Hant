@@ -7,9 +7,9 @@ description: 您可以將您在Adobe Workfront情境規劃工具中建立的計�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: b8bbb533-4384-414c-8574-4e137962b8ca
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '913'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 1%
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 計畫*</p> </td> 
    <td> <ul></li>
-   <li><p>新增：Ultimate </p></li>
+   <li><p>新增： Ultimate </p></li>
    <p>新的Workfront Select或Workfront Prime計畫無法使用「情境規劃工具」。 </p>
    <li><p>目前： [！UICONTROL Business]或更高版本</p></ul>
    </td> 
@@ -108,57 +108,57 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <p>檢視計畫 </p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td> <p>檢視方案 </p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td>檢視案例</td> 
-   <td>✓ (A)</td> 
-   <td>✓ <span style="font-weight: normal;"></span> </td> 
+   <td>✓</td> 
+   <td><span style="font-weight: normal;">✓</span> </td> 
   </tr> 
   <tr> 
    <td>檢視職位角色</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>檢視成本和預算資訊*</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A) </td> 
+   <td>✓</td> 
+   <td>✓ </td> 
   </tr> 
   <tr> 
    <td>管理成本與預算資訊*</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>建立方案</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>建立案例</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>刪除行動方案或情境</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td>複製案例</td> 
-   <td>✓ (A) </td> 
+   <td>✓ </td> 
    <td> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Publish案例**</td> 
-   <td>✓ (A)</td> 
+   <td>發佈情境**</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
  </tbody> 
@@ -186,7 +186,7 @@ ht-degree: 1%
    >
    >您可以按一下計畫標題右上角與計畫共用的使用者頭像，以共用計畫。
 
-1. （視條件而定）如果您開啟計畫，請按一下[!UICONTROL 計畫]名稱右側的&#x200B;**[!UICONTROL 更多]**&#x200B;圖示![](assets/more-icon.png)，然後按一下&#x200B;**[!UICONTROL 共用]**
+1. （視條件而定）如果您開啟計畫，請按一下[!UICONTROL 計畫]名稱右側的&#x200B;**[!UICONTROL 更多]**&#x200B;圖示![更多圖示](assets/more-icon.png)，然後按一下&#x200B;**[!UICONTROL 共用]**
 
    或
 

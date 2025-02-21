@@ -6,9 +6,9 @@ description: 您可以檢視並回覆其他檢閱者所做的校訂評論。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 32a068ab-0d99-4ab5-a98d-dc3abd953948
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 0%
 在Workfront中，您可以檢視校訂評論而不啟動校訂檢視器。
 
 1. 前往包含檔案的專案、任務或問題，然後選取「**檔案**」。
-1. 按一下包含檔案的列，然後按一下頁面右側的&#x200B;**摘要**&#x200B;圖示![](assets/summary-panel-icon.png)。\
+1. 按一下包含檔案的列，然後按一下頁面右側的&#x200B;**摘要**&#x200B;圖示![摘要圖示](assets/summary-panel-icon.png)。\
    註解會顯示在「檔案摘要」的「更新」區段中。
 
 ## 將所有註解標示為已讀取
@@ -96,7 +96,7 @@ ht-degree: 0%
 
 1. 在評論清單上方，按一下&#x200B;**更多**&#x200B;圖示，然後按一下&#x200B;**全部標籤為已讀**。
 
-1. ![](assets/mceclip8-350x173.png)
+1. ![全部標籤為已讀取](assets/mceclip8-350x173.png)
 
 ## 回覆校訂檢視器的校訂評論
 

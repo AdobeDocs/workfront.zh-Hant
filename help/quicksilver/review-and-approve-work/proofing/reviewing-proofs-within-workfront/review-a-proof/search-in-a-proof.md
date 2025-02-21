@@ -6,9 +6,9 @@ description: 瞭解如何在校訂中快速找到文字。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 03f07011-b17b-41ea-b99e-4535f2d143ff
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '232'
 ht-degree: 2%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 2%
 1. 開啟您要搜尋的校訂。
 1. 在校訂上方的工具列中，按一下&#x200B;**搜尋檔案**&#x200B;圖示。
 
-   ![](assets/search-document-icon-search-in-proof-350x129.png)
+   ![搜尋檔案](assets/search-document-icon-search-in-proof-350x129.png)
 
 1. 開始輸入您要搜尋的文字。
 

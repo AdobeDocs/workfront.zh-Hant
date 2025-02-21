@@ -6,9 +6,9 @@ description: 如果您的程式複雜或您定期傳送內容給相同的人員�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 852f960f-1b57-4a8a-a928-407ad52418e6
-source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1236'
+source-wordcount: '1242'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 0%
 
    或
 
-   如果您正在校訂檢視器中檢閱校訂，請按一下左側面板中的&#x200B;**工作流程** ![](assets/workflow-icon-proofing-viewer.png)，然後按一下「編輯」圖示![](assets/edit-icon-proofing-viewer.png)以開啟校訂的自動工作流程設定。
+   如果您正在校訂檢視器中檢閱校訂，請按一下左側面板中的&#x200B;**工作流程** ![工作流程圖示](assets/workflow-icon-proofing-viewer.png)，然後按一下「編輯」圖示![「編輯」圖示](assets/edit-icon-proofing-viewer.png)以開啟校訂的自動工作流程設定。
 
 1. （視條件而定）如果校訂目前使用基本工作流程（沒有分段），請在顯示的畫面中按一下&#x200B;**「轉換為自動化工作流程」**。
 
@@ -135,7 +135,7 @@ ht-degree: 0%
          <td><p>選取階段上的主要決策者（只有在您將至少一個具有「核准者」或更高證明「 」角色的人新增到階段後，才能使用）。 如果您選取主要決策者，<strong>僅需要一個決策</strong>選項會在此階段上停用。</p></td>
         </tr>
         <tr>
-         <td role="rowheader">只需要一個決定</td>
+         <td role="rowheader">只需要一個決策</td>
          <td>當其中一位決策者做出決定時，結束整個稽核程式。<p>如果您在<strong>主要決策者</strong>下拉式選單中指定了使用者，則此選項無法使用。</p></td>
         </tr>
         <tr>
@@ -155,7 +155,7 @@ ht-degree: 0%
 
    當您新增階段至「自動化工作流程」時，畫面上的圖表會呈現這些階段：
 
-   ![](assets/workflow-diagram-existing-proof-qs-350x215.png)
+   ![工作流程圖表](assets/workflow-diagram-existing-proof-qs-350x215.png)
 
 1. 當您完成新增階段時，請按一下&#x200B;**完成**。
 

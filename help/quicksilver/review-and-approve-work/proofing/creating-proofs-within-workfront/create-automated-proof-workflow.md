@@ -6,9 +6,9 @@ description: 如果您的程式複雜，或您定期傳送內容給相同的人�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 977fe1bc-458f-4301-8056-dc51c61edb6c
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1831'
+source-wordcount: '1838'
 ht-degree: 0%
 
 ---
@@ -139,7 +139,7 @@ ht-degree: 0%
 
       除了選項&#x200B;**建立校訂時**、**在特定日期和時間**&#x200B;或&#x200B;**手動**&#x200B;之外，您還可以選取與上一步驟中發生的事相關的選項：
 
-      ![](assets/activate-stage-options-for-stage-2-plus-350x177.png)
+      ![啟動階段選項](assets/activate-stage-options-for-stage-2-plus-350x177.png)
 
    1. 如果您選取的啟動階段選項取決於上一步驟中所發生的情況，請使用顯示的選項來設定啟動設定。
 
@@ -149,7 +149,7 @@ ht-degree: 0%
 
    當您新增階段至「自動化工作流程」時，畫面上的圖表會呈現這些階段：
 
-   ![](assets/stages-diagram-350x213.png)
+   ![階段圖表](assets/stages-diagram-350x213.png)
 
 1. 繼續[設定以下校訂的電子郵件設定](#configure-email-settings-for-the-proof)。
 
@@ -230,6 +230,6 @@ ht-degree: 0%
 
 1. 產生校訂後，按一下&#x200B;**開啟校訂**&#x200B;以啟動校訂檢視器。
 
-   ![](assets/open-proof-350x132.png)
+   ![開啟校訂](assets/open-proof-350x132.png)
 
    未在其帳戶中啟用校訂的使用者仍可檢視檔案並對校訂[加上註解。](../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)

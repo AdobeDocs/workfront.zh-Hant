@@ -6,9 +6,9 @@ description: 目標進度是由活動、結果或子目標等進度指標所驅�
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
-source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '833'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,7 @@ Adobe Workfront會根據其進度指示器，自動計算目標進度。
 | 預期完成百分比 | 目前應該完成多少目標才能準時完成。 Workfront目標會檢視目標的持續期間和目前的時間點，以計算此值。 如果要在目前時間完成，目標應顯示此值。 |
 | 進度 | 指出目標是否準時完成的目標，或是否有風險或無法完成的標籤。 |
 
-![](assets/in-trouble-goal-progress-expanded.png)
+![發生問題](assets/in-trouble-goal-progress-expanded.png)
 
 <!--drafted for the redesign: replace the screen shot above with the redesigned one which is white, not black-->
 
@@ -108,7 +108,7 @@ Goal progress percentage = Actual percent complete * 100 / Expected percent comp
 
 下列圖表說明條件標籤與進度百分比之間的關係：
 
-![](assets/progress-status-labels-charted-after-match-with-project-condition-350x147.png)
+![已繪製進度狀態標籤](assets/progress-status-labels-charted-after-match-with-project-condition-350x147.png)
 
 下表列出目標條件標籤以及與每個標籤相關聯的目標進度百分比。
 

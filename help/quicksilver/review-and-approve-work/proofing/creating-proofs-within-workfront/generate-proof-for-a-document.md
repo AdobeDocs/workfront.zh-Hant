@@ -6,9 +6,9 @@ description: 您可以在檔案上傳至Workfront時為其產生校訂。 您也
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 609e95fa-1fb3-4cc4-9ee8-403fd2f30e10
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '669'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ If a proof fails to generate after following the steps described in the followin
 
 1. 前往您要建立新校訂的專案、任務或問題。
 1. 按一下「**檔案**」標籤。
-1. 按一下左側面板中的檔案![](assets/document-icon.png)。
+1. 按一下左側面板中的檔案![檔案圖示](assets/document-icon.png)。
 1. 按一下「新增&#x200B;**」**，然後在出現的功能表中按一下「校訂&#x200B;**」**。
 
    >[!TIP]

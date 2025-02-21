@@ -7,9 +7,9 @@ description: 身為業務經理，您可以使用Adobe Workfront情境規劃工�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: df2b895b-8bc1-4a55-b0d7-8a06db420315
-source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1160'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 您可以複查計畫的工作角色一般資訊，指出可用於計畫的工作角色數量，以及方案完成所需的工作角色數量。 您可以在計畫標題的[!UICONTROL 工作角色]方塊中檢視此資訊。
 
-![](assets/job-role-box-on-plan-not-expanded-fte-350x141.png)
+計畫](assets/job-role-box-on-plan-not-expanded-fte-350x141.png)上的![工作角色方塊
 
 您可以在工作角色方塊中檢視下列專案：
 
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 您可以複查有關計畫的財務資訊，特別是其計畫預算、該預算的使用方式以及計畫的「淨值」。 計畫的「淨值」是以其方案的「淨值」為基礎。 您可以在計畫標頭的[!UICONTROL 財務]和[!UICONTROL 摘要]方塊中檢視此資訊。
 
-![](assets/budget-net-value-boxes-on-plan-not-expanded-350x86.png)
+![預算與淨值方塊](assets/budget-net-value-boxes-on-plan-not-expanded-350x86.png)
 
 您可以在計畫上的[!UICONTROL 財務]與[!UICONTROL 摘要]方塊中檢視下列專案：
 

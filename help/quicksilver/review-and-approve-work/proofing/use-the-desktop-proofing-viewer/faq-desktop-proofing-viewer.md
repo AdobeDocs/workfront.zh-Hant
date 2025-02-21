@@ -7,9 +7,9 @@ description: 否。Desktop Proofing Viewer是專為即時網站校訂以及橫�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e5c9f039-2a6e-47be-a125-f0ce23cfaeaa
-source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 開啟互動式校樣，並直接從Launch畫面下載應用程式。
 
-![](assets/mceclip0-350x114.png) 
+![啟動畫面](assets/mceclip0-350x114.png) 
 
 ## 新版本的Desktop Viewer是否需要我重新安裝？
 

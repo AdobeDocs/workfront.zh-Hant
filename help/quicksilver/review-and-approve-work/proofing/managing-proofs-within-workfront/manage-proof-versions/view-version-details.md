@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Digital Content and Documents
 exl-id: 360d0f4a-a78c-4c17-b4a1-6d4b811f7bb6
-source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '363'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 1%
 1. 在檔案清單中，將滑鼠停留在包含校訂的列上，然後按一下&#x200B;**檔案詳細資料**。
 1. 在「檔案詳細資訊」頁面頂端附近，按一下名稱旁邊的下拉式功能表，然後按一下您要檢視及管理的版本名稱。
 
-   ![](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
+   ![版本下拉式清單](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
 
    除了檢視版本的詳細資訊之外，您還可以變更版本，例如其名稱、中繼資料和校訂設定（如果是檔案校訂）。
 

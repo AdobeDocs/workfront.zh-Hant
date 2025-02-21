@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront目標的圖表區段中，檢視目標�
 author: Alina
 feature: Workfront Goals
 exl-id: 8d5f3617-c7bf-44ce-99b0-d4ebda106f25
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '987'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
    <td role="rowheader">Adobe Workfront計畫*</td> 
    <td> 
    <p>對於新計畫和授權結構：
-  <ul><li>終極計畫 </li></ul>
+  <ul><li>Ultimate計畫 </li></ul>
    </p>
 <p>對於目前的計畫與授權結構： 
 <ul><li> A Pro或更高版本 </li>
@@ -57,7 +57,7 @@ ht-degree: 0%
  <p> 新產品需求，下列其中一項： </p>
 <ul>
 <li>Select或Prime Adobe Workfront計畫以及額外的Adobe Workfront目標授權。</li>
-<li>預設包含Workfront目標的Ultimate Workfront計畫。 </li></ul>
+<li>Ultimate Workfront計畫，預設包含Workfront目標。 </li></ul>
  <p>或</p>
  <p>目前產品需求： Adobe Workfront Goals的Workfront計畫和額外授權。 </p> <p>如需詳細資訊，請參閱<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目標的需求</a>。 </p> </td>
  </tr>
@@ -113,7 +113,7 @@ ht-degree: 0%
 
 ## 以圖表檢閱目標進度
 
-1. 按一下右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png) > **目標**。
+1. 按一下右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png) > **目標**。
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -122,7 +122,7 @@ ht-degree: 0%
 
 1. 按一下左側面板中的&#x200B;**圖形**。
 
-   ![](assets/graphs-in-left-panel.png)
+   ![圖表在左側面板](assets/graphs-in-left-panel.png)
 
    「圖形」區段隨即顯示。
 
@@ -141,7 +141,7 @@ ht-degree: 0%
 
 1. 檢閱「目標健康情況圖」時，請檢閱下表中的資訊。
 
-   ![](assets/gauge-graph-wf-align-350x230.png)
+   ![量測軌圖表](assets/gauge-graph-wf-align-350x230.png)
 
    | 目標總數 | 圖表底部的數字表示所選期間內，您所選取的所有狀態中的所有目標數目。 |
    |---|---|
@@ -151,7 +151,7 @@ ht-degree: 0%
 
 1. 檢閱目標進度表時，請檢閱下表中資訊。
 
-   ![](assets/line-graph-wf-align-350x161.png)
+   ![線圖](assets/line-graph-wf-align-350x161.png)
 
    <table style="table-layout:auto"> 
     <col> 

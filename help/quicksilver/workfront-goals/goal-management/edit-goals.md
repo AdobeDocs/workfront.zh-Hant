@@ -6,9 +6,9 @@ description: 您可以從任何時段和任何狀態編輯現有目標。
 author: Alina
 feature: Workfront Goals
 exl-id: 74db534c-6897-40c2-bea9-a9d30a40f61c
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '640'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 1%
    <td role="rowheader">Adobe Workfront計畫*</td> 
    <td> 
    <p>對於新計畫和授權結構：
-  <ul><li>終極計畫 </li></ul>
+  <ul><li>Ultimate計畫 </li></ul>
    </p>
 <p>對於目前的計畫與授權結構： 
 <ul><li> A Pro或更高版本 </li>
@@ -51,7 +51,7 @@ ht-degree: 1%
  <p> 新產品需求，下列其中一項： </p>
 <ul>
 <li>Select或Prime Adobe Workfront計畫以及額外的Adobe Workfront目標授權。</li>
-<li>預設包含Workfront目標的Ultimate Workfront計畫。 </li></ul>
+<li>Ultimate Workfront計畫，預設包含Workfront目標。 </li></ul>
  <p>或</p>
  <p>目前產品需求： Adobe Workfront Goals的Workfront計畫和額外授權。 </p> <p>如需詳細資訊，請參閱<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目標的需求</a>。 </p> </td>
  </tr>
@@ -104,9 +104,9 @@ Editing goals differs depending on what environment you use.
 ### Edit goals in the Production environment
 
 1. Go to a goal that you want to edit and click the goal name to open the **Goal Details** panel. 
-1. Click the **More icon** ![](assets/more-icon.png), then click **Edit**.
+1. Click the **More icon** ![More icon](assets/more-icon.png), then click **Edit**.
 
-   ![](assets/edit-goal-highlighted.png)
+   ![Edit goal](assets/edit-goal-highlighted.png)
 
 1. Update the name of the goal in the **Goal** field. 
 1. Select a time period when the goal should be completed.
@@ -144,17 +144,17 @@ Editing goals differs depending on what environment you use.
 
 -->
 
-1. 按一下&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**目標**。\
+1. 按一下&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**目標**。\
    隨即顯示目標清單。
 1. 按一下目標。\
    目標頁面隨即顯示。
 
-   ![](assets/goal-page-unshimmed.png)
+   ![目標頁面](assets/goal-page-unshimmed.png)
 
 1. 執行下列任一項作業來編輯目標的資訊：
    * 按一下目標標題中顯示的欄位以進行更新。 並非標題中的所有欄位都可以編輯。
-   * 按一下目標名稱右邊的&#x200B;**更多圖示** ![](assets/more-icon.png)，然後按一下&#x200B;**編輯**。
-   * 按一下左側面板中的&#x200B;**目標詳細資料**，然後按一下右上角的&#x200B;**編輯圖示** ![](assets/edit-icon.png)，然後按一下&#x200B;**全部編輯**。 開始更新「目標詳細資料」區段中的欄位。
+   * 按一下目標名稱右側的&#x200B;**更多圖示** ![更多圖示](assets/more-icon.png)，然後按一下&#x200B;**編輯**。
+   * 按一下左側面板中的&#x200B;**目標詳細資料**，然後按一下右上角的&#x200B;**編輯圖示** ![編輯圖示](assets/edit-icon.png)，然後按一下&#x200B;**全部編輯**。 開始更新「目標詳細資料」區段中的欄位。
 
      >[!IMPORTANT]
      >

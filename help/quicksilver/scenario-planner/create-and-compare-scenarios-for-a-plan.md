@@ -7,10 +7,10 @@ description: 當您規劃公司的長期策略時，一開始您可能沒有或�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 9a79ef81-6271-4cc9-b701-3ba0aeafb324
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 2%
+source-wordcount: '964'
+ht-degree: 1%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 2%
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 計畫*</p> </td> 
    <td> <ul></li>
-   <li><p>新增：Ultimate </p></li>
+   <li><p>新增： Ultimate </p></li>
    <p>新的Workfront Select或Workfront Prime計畫無法使用「情境規劃工具」。 </p>
    <li><p>目前： [！UICONTROL Business]或更高版本</p></ul>
    </td> 
@@ -79,7 +79,7 @@ ht-degree: 2%
 
 1. 按一下現有情境旁邊的向下箭頭，然後按一下「**[!UICONTROL 複製]**」圖示。
 
-   ![](assets/copy-scenarios-ui-and-highlighted-icon-350x95.png)
+   ![複製案例](assets/copy-scenarios-ui-and-highlighted-icon-350x95.png)
 
    這會建立一個新情境，其資訊與複製的情境相同。 如果它是計畫的第二個案例，則會自動命名為「[!UICONTROL 案例2]」；如果它是第三個案例，則會自動命名為「[!UICONTROL 案例3]」，以此類推。 您無法重新命名情境。 您可以建立的復本數目沒有限制。
 
@@ -116,7 +116,7 @@ ht-degree: 2%
 
    計畫的所有現有情境都會以並排卡片格式顯示。 初始情境一律先列出，且為靜態。
 
-   ![](assets/scenario-cards-overlapping-350x166.png)
+   ![感應卡](assets/scenario-cards-overlapping-350x166.png)
 
 1. （選用）向右捲動以檢視所有案例卡。
 
@@ -174,7 +174,7 @@ ht-degree: 2%
    >當初始案例與其他案例之間的資訊不同時，在變更的值旁邊會顯示向上或向下箭頭，以表示該值比初始案例增加或減少。
    >
    >
-   >![](assets/arrows-on-scenario-cards-highlighted-350x70.png)
+   >情景卡片上的![箭頭](assets/arrows-on-scenario-cards-highlighted-350x70.png)
    >
    >例如，預算、工作角色數量、行動方案數量可能會從一個情境變更為另一個情境。
 
@@ -188,9 +188,9 @@ ht-degree: 2%
 
    按一下說明欄位進行更新，然後按一下畫面上的任何位置以儲存變更。
 
-1. （選擇性）按一下&#x200B;**[!UICONTROL 更多]**&#x200B;功能表![](assets/more-icon.png)以&#x200B;**[!UICONTROL 複製]**&#x200B;或&#x200B;**[!UICONTROL 刪除]**&#x200B;情境。
+1. （選擇性）按一下&#x200B;**[!UICONTROL 更多]**&#x200B;功能表![更多圖示](assets/more-icon.png)以&#x200B;**[!UICONTROL 複製]**&#x200B;或&#x200B;**[!UICONTROL 刪除]**&#x200B;情境。
 
-   ![](assets/copy-or-delete-scenario-links-from-card-350x109.png)
+   ![複製或刪除情境](assets/copy-or-delete-scenario-links-from-card-350x109.png)
 
    當您複製案例時，它會自動出現在卡片頁面上，並會根據以下模式重新命名：「[!UICONTROL 案例] `<next number in order>`」。
 

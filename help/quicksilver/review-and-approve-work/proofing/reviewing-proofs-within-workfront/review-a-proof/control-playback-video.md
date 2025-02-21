@@ -6,9 +6,9 @@ description: 瞭解如何控制視訊校訂中的播放。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e1dce216-c41d-447b-b5b0-64b04b4132ff
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '357'
 ht-degree: 1%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 1%
 
 1. 在校訂檢視器底部，按一下&#x200B;**前進**&#x200B;和&#x200B;**後退**&#x200B;箭頭以逐幀檢視視訊。
 
-   ![](assets/frame-.png)
+   ![框架](assets/frame-.png)
 
 ## 變更播放音量
 
@@ -82,7 +82,7 @@ ht-degree: 1%
 
 1. 在校訂檢視器的右下角，將滑鼠移至&#x200B;**音量**&#x200B;圖示上方，然後拖曳滑桿以選取新的音量。
 
-   ![](assets/phq-viewer-volume.png)
+   ![磁碟區](assets/phq-viewer-volume.png)
 
    或
 

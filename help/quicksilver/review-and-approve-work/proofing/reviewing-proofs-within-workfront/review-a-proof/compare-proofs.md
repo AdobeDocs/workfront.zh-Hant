@@ -7,9 +7,9 @@ description: 您可以使用校訂檢視器來比較兩個不同的校訂或相�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 515562f6-ed19-446c-8f8c-4ad5f07e6d11
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '344'
 ht-degree: 2%
 
 ---
@@ -68,13 +68,13 @@ ht-degree: 2%
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">If this button is not visible, ensure that two proofed documents are selected.</p>
    -->
 
-   ![](assets/compare-proofs-select-docs-350x138.jpg)
+   ![比較校樣](assets/compare-proofs-select-docs-350x138.jpg)
 
    兩個校訂都會以並排檢視的方式顯示在校訂檢視器中。 您可以在比較每個檔案時檢閱它們。
 
    每個校樣上方個別的階層連結可讓您檢視並前往與校樣關聯的工作專案：
 
-   ![](assets/compare-proofs-breadcrumbs-350x148.jpg)
+   ![比較校樣階層連結](assets/compare-proofs-breadcrumbs-350x148.jpg)
 
    如需可用來比較兩個校訂之工具的相關資訊，請參閱  [在[在校訂檢視器](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md)中比較校訂](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md#using-compare-tools)中使用比較工具。
 

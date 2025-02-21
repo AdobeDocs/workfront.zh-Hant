@@ -6,9 +6,9 @@ description: 您可以檢視舊版的校訂。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 909b8924-c0f6-47a6-ba30-fbff7c2e0d55
-source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '298'
 ht-degree: 1%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 1%
 1. 前往檔案清單，並選取校訂。
 1. 在[摘要]中，捲動至檢視&#x200B;**所有版本**&#x200B;區段。 您可以在這裡檢視校訂的所有版本。
 
-   ![](assets/copy-of-versions-350x173.png)
+   ![版本](assets/copy-of-versions-350x173.png)的復本
 
 ## 預覽先前的校訂版本
 
@@ -64,7 +64,7 @@ ht-degree: 1%
 1. 前往檔案清單，然後選取校訂。
 1. 在摘要中，向下捲動至&#x200B;**版本**，按一下&#x200B;**更多**&#x200B;功能表，然後選取&#x200B;**預覽**。
 
-   ![](assets/proof-versions-in-summary-350x167.png)
+   摘要中的![校訂版本](assets/proof-versions-in-summary-350x167.png)
 
 ## 檢視先前的校訂版本
 
@@ -74,4 +74,4 @@ ht-degree: 1%
 1. 尋找您需要的證明。
 1. 在摘要中，向下捲動至&#x200B;**版本**，按一下&#x200B;**更多**&#x200B;功能表，然後選取&#x200B;**開啟校訂**。
 
-   ![](assets/proof-versions-in-summary-350x167.png)
+   摘要中的![校訂版本](assets/proof-versions-in-summary-350x167.png)

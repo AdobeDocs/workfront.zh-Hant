@@ -6,9 +6,9 @@ description: 您可以調整用於視訊時間軸的測量單位。 您可以檢
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 553c7cea-6d92-438e-a76e-639daa020ac5
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '323'
 ht-degree: 1%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 1%
 
 1. 在校訂檢視器的左下角，按一下目前的度量單位。
 
-   ![](assets/phq-viewer-video-timeline.png)
+   ![視訊時間軸](assets/phq-viewer-video-timeline.png)
 
 1. 從下列選項中選取：
 

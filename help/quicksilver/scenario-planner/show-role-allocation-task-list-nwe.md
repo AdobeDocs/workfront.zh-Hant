@@ -6,9 +6,9 @@ description: 在連線專案和方案後，您可以並排管理其資源配置�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 77152e46-0b7b-4937-9d16-1a20c2a7fdf1
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 計畫*</p> </td> 
    <td> <ul></li>
-   <li><p>新增：Ultimate </p></li>
+   <li><p>新增： Ultimate </p></li>
    <p>新的Workfront Select或Workfront Prime計畫無法使用「情境規劃工具」。 </p>
    <li><p>目前： [！UICONTROL Business]或更高版本</p></ul>
    </td> 
@@ -79,7 +79,7 @@ ht-degree: 0%
 
 1. 移至您要檢視專案以及相關方案之工作角色配置的專案。
 1. 按一下左側面板中的&#x200B;**[!UICONTROL 工作]**。
-1. 按一下工具列右上角的&#x200B;**[!UICONTROL 顯示角色配置]**&#x200B;圖示![](assets/show-role-allocation-icon.png)。
+1. 按一下工具列右上角的&#x200B;**[!UICONTROL 顯示角色配置]**&#x200B;圖示![顯示角色配置](assets/show-role-allocation-icon.png)。
 
    [!UICONTROL 角色配置]面板隨即顯示。
 

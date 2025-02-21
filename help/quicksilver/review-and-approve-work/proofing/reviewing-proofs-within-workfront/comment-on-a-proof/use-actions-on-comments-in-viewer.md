@@ -6,9 +6,9 @@ description: 您可以使用動作來追蹤校樣上每個評論對話串上需�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: d1ee871c-ef61-44ca-8287-1093c5e5cb97
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '441'
 ht-degree: 2%
 
 ---
@@ -67,7 +67,7 @@ ht-degree: 2%
 
    * 按一下評論右下角的旗標圖示，然後在下拉式選單中按一下您要的動作。
 
-     ![](assets/actions-flag-icon-350x198.png)
+     ![動作標幟圖示](assets/actions-flag-icon-350x198.png)
 
    * 按一下&#x200B;**更多**&#x200B;圖示（評論上的三個水準點），然後在出現的下拉式功能表下方按一下您想要的動作。
 

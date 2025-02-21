@@ -6,9 +6,9 @@ description: 您可以複製現有方案來建立方案。 您可以複製您建
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 0aadb074-69c3-4229-a01a-7cabdb87e7cb
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '500'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 1%
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 計畫*</p> </td> 
    <td> <ul></li>
-   <li><p>新增：Ultimate </p></li>
+   <li><p>新增： Ultimate </p></li>
    <p>新的Workfront Select或Workfront Prime計畫無法使用「情境規劃工具」。 </p>
    <li><p>目前： [！UICONTROL Business]或更高版本</p></ul>
    </td> 
@@ -102,7 +102,7 @@ ht-degree: 1%
 1. 按一下計畫的名稱以開啟，然後找到您要複製的方案。
 1. 選取您要複製的一或多個方案左側的方塊，然後在計畫底部出現的功能表中按一下&#x200B;**[!UICONTROL 複製]**。
 
-   ![](assets/bottom-manage-initiative-menu-350x45.png)
+   ![複製方案](assets/bottom-manage-initiative-menu-350x45.png)
 
    [!DNL Workfront]會立即複製行動方案，並將其放置在最後一個選取的行動方案下。
 

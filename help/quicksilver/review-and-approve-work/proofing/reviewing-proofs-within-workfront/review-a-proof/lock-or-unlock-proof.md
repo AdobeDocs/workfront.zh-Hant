@@ -6,9 +6,9 @@ description: 您可以在檢閱程式中隨時手動鎖定和解鎖校樣。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 39dc8c17-b087-4c7c-be19-3bbe93577966
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '394'
 ht-degree: 1%
 
 ---
@@ -61,13 +61,13 @@ ht-degree: 1%
 
    或
 
-   如果您想要開啟檔案舊版的校訂，請在「摘要」中按一下該版本的「更多」圖示![](assets/more-icon.png)，然後按一下&#x200B;**開啟校訂**。
+   如果您想要開啟檔案舊版的校訂，請在「摘要」中按一下該版本的「更多」圖示![「更多」圖示](assets/more-icon.png)，然後按一下&#x200B;**開啟校訂**。
 
    如需「摘要」的相關資訊，請參閱[檔案概述](../../../../documents/managing-documents/summary-for-documents.md)的摘要。
 
-1. 在左側面板中，按一下&#x200B;**鎖定**&#x200B;圖示![](assets/unlock-proof-icon.png)。
+1. 在左側面板中，按一下&#x200B;**鎖定**&#x200B;圖示![鎖定圖示](assets/unlock-proof-icon.png)。
 
-   ![](assets/lock-proof-350x277.png)
+   ![鎖定校訂](assets/lock-proof-350x277.png)
 
 ## 解鎖校訂
 
@@ -79,10 +79,10 @@ ht-degree: 1%
 
    或
 
-   如果您想要開啟檔案舊版的校訂，請在「摘要」中按一下該版本的「更多」圖示![](assets/more-icon.png)，然後按一下&#x200B;**開啟校訂**。
+   如果您想要開啟檔案舊版的校訂，請在「摘要」中按一下該版本的「更多」圖示![「更多」圖示](assets/more-icon.png)，然後按一下&#x200B;**開啟校訂**。
 
    如需「摘要」的相關資訊，請參閱[檔案概述](../../../../documents/managing-documents/summary-for-documents.md)的摘要。
 
-1. 在左側面板中，按一下&#x200B;**解除鎖定**&#x200B;圖示![](assets/unlock-proof-icon.png)，然後按一下&#x200B;**是，解除鎖定**。
+1. 在左側面板中，按一下&#x200B;**解除鎖定**&#x200B;圖示![解除鎖定圖示](assets/unlock-proof-icon.png)，然後按一下&#x200B;**是，解除鎖定**。
 
-   ![](assets/copy-of-unlock-proof-350x279.png)
+   ![解除鎖定校訂](assets/copy-of-unlock-proof-350x279.png)
