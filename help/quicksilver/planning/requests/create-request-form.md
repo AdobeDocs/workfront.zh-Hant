@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: 7fc2239de2488d2e3e5c434ab45e8a1d24c0b28f
 workflow-type: tm+mt
-source-wordcount: '1429'
+source-wordcount: '1479'
 ht-degree: 2%
 
 ---
@@ -74,8 +74,8 @@ ht-degree: 2%
 <tr>
    <td role="rowheader"><p>Adobe Workfront平台</p></td>
    <td>
-<p>貴組織的Workfront例項必須加入Adobe統一體驗，才能存取Workfront規劃的所有功能。</p>
-<p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront的Adobe統一體驗</a>。 </p>
+<p>貴組織的Workfront例項必須上線至Adobe Unified Experience，才能存取Workfront Planning的所有功能。</p>
+<p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">適用於Workfront的Adobe Unified Experience</a>。 </p>
    </td>
 
 </tr>
@@ -169,7 +169,7 @@ ht-degree: 2%
    >    * Workfront Planning connected records' lookup fields
    >    * AEM Assets connection fields-->
 
-   * **預設的分節**：這是Workfront套用至要求表單的預設分割槽符號。 無法重新命名或移除「預設」區段。
+   * **預設的分節**：這是Workfront套用至要求表單的預設分割槽符號。 所有記錄欄位都顯示在&#x200B;**預設區段**&#x200B;區域。
    * **主旨**&#x200B;欄位：將在Workfront中識別要求的欄位。 主旨欄位的設定和值無法編輯。
 
      >[!TIP]
@@ -183,6 +183,12 @@ ht-degree: 2%
 1. （選擇性）將滑鼠停留在您要移除的表單上任何欄位上，然後按一下&#x200B;**x**&#x200B;圖示以移除它們。 已將它們新增至表單左側的&#x200B;**欄位**&#x200B;索引標籤。
 
    例如，移除&#x200B;**主旨**&#x200B;欄位，因為在Workfront Planning中看不到此欄位。<!--remove this step when we connect intake with the Requests area in Workfront-->
+1. （選擇性）若要從表單中移除&#x200B;**預設區段**，請執行下列動作：
+
+   1. 從預設區段中移除所有欄位。
+   1. 按一下&#x200B;**內容元素**&#x200B;並新增區段，然後新增區段的名稱。
+   1. 新增欄位至新區段。
+   1. 按一下&#x200B;**x**&#x200B;圖示以移除&#x200B;**預設區段**。
 1. 按一下任何欄位，然後使用表單右側面板中的控制項來定義其大小或下列任何資訊：
 
    * **標籤**：這是欄位在要求表單上顯示的名稱。 這不會變更記錄欄位的名稱。
@@ -220,11 +226,11 @@ ht-degree: 2%
      如需新增核准至請求表單的詳細資訊，請參閱[新增核准至請求表單](/help/quicksilver/planning/requests/add-approval-to-request-form.md)。
 
 1. （選擇性）按一下標題中表單名稱右側的&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，然後按一下&#x200B;**編輯**&#x200B;以更新表單名稱。
-1. 按一下&#x200B;**Publish**&#x200B;以發佈表單並取得其唯一連結。
+1. 按一下&#x200B;**發佈**&#x200B;以發佈表單並取得其唯一連結。
 
    會發生下列情況：
 
-   * **Publish**&#x200B;按鈕已移除。
+   * **發佈**&#x200B;按鈕已移除。
    * **取消發佈**&#x200B;按鈕已新增至表單。 按一下此按鈕，表單將無法存取。
    * **共用**&#x200B;按鈕已新增至表單。
 

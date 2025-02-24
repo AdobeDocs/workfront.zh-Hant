@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 7fc2239de2488d2e3e5c434ab45e8a1d24c0b28f
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '913'
 ht-degree: 0%
 
 ---
@@ -68,8 +68,8 @@ ht-degree: 0%
  <tr> 
    <td role="rowheader"><p>Adobe Workfront平台</p></td> 
    <td> 
-<p>貴組織的Workfront例項必須加入Adobe統一體驗，才能存取Workfront規劃的所有功能。</p> 
-<p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront的Adobe統一體驗</a>。 </p> 
+<p>貴組織的Workfront例項必須上線至Adobe Unified Experience，才能存取Workfront Planning的所有功能。</p> 
+<p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">適用於Workfront的Adobe Unified Experience</a>。 </p> 
    </td> 
    </tr> 
   </tr> 
@@ -132,9 +132,9 @@ ht-degree: 0%
 
    這會開啟記錄型別頁面。
 1. 從&#x200B;**檢視**&#x200B;下拉式功能表中選取表格檢視。 您所選取型別的所有記錄都會顯示在表格中。
-1. 暫留在主要欄位資訊上，按一下&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，然後按一下&#x200B;**縮圖**。
+1. 暫留在主要欄位資訊上，按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下&#x200B;**縮圖**。
 
-   ![](assets/record-more-menu-expanded.png)
+   ![其他錄製功能表已展開](assets/record-more-menu-expanded.png)
 
    >[!TIP]
    >
@@ -180,15 +180,15 @@ ht-degree: 0%
 1. 從任何檢視中，按一下記錄以開啟它。
 
    詳細資訊預覽方塊隨即顯示。
-1. （選擇性）按一下右上角的&#x200B;**在新索引標籤中開啟**&#x200B;圖示![](assets/open-details-in-a-new-tab-icon.png)。
+1. （選擇性）按一下右上角的&#x200B;**在新標籤中開啟**&#x200B;圖示![在新標籤圖示中開啟詳細資料](assets/open-details-in-a-new-tab-icon.png)。
 
    記錄的詳細資訊頁面隨即開啟。
 
-1. （視條件而定）在記錄預覽或詳細資訊頁面中，將滑鼠指標暫留在縮圖影像或圖示![](assets/record-thumbnail-icon-on-details-page.png)上，接著將滑鼠指標暫留在記錄名稱上方的空白處，然後按一下[新增縮圖] **或[編輯縮圖]**。****
+1. （視條件而定）在記錄預覽或詳細資訊頁面中，將滑鼠指標暫留在詳細資訊頁面上的縮圖影像或圖示![記錄縮圖圖示](assets/record-thumbnail-icon-on-details-page.png)上，然後將滑鼠指標暫留在記錄名稱上方的空格上，然後按一下&#x200B;**新增縮圖**&#x200B;或&#x200B;**編輯縮圖**。
 
    **上傳**&#x200B;索引標籤預設會在&#x200B;**錄製縮圖**&#x200B;方塊中開啟。
 
-   ![](assets/record-thumbnail-box-for-upload.png)
+   ![錄製上傳的縮圖方塊](assets/record-thumbnail-box-for-upload.png)
 
 1. 拖放檔案以新增為縮圖
 
@@ -197,12 +197,12 @@ ht-degree: 0%
    按一下&#x200B;**瀏覽影像**，然後瀏覽以新增影像檔案。 檔案必須儲存在電腦上。
 
 1. （選擇性）在&#x200B;**錄製縮圖**&#x200B;方塊中上傳影像後，使用大小調整工具來裁切影像並調整影像大小。
-1. （選擇性）按一下&#x200B;**上傳新影像**&#x200B;圖示![](assets/upload-new-image-icon.png)以上傳另一個影像。
+1. （選擇性）按一下&#x200B;**上傳新影像**&#x200B;圖示![上傳新影像圖示](assets/upload-new-image-icon.png)以上傳另一個影像。
 1. （選擇性）按一下&#x200B;**相簿**&#x200B;標籤，然後按一下影像。 無法修改影像庫。
 
-   ![](assets/record-thumbnail-box-for-gallery.png)
+   ![錄製相簿的縮圖方塊](assets/record-thumbnail-box-for-gallery.png)
 
-1. （選擇性）若要在儲存縮圖之前移除縮圖，請按一下影像右側的&#x200B;**移除**&#x200B;圖示![](assets/remove-image-icon.png)。
+1. （選擇性）若要在儲存縮圖之前移除縮圖，請按一下影像右側的&#x200B;**移除**&#x200B;圖示![移除影像圖示](assets/remove-image-icon.png)。
 
 1. 按一下&#x200B;**使用影像**將影像新增為縮圖。
 這會關閉**錄製縮圖**方塊。
@@ -212,7 +212,7 @@ ht-degree: 0%
    >
    >   您必須啟用表格檢視中的縮圖欄位，才能在此檢視中顯示縮圖。 預設為停用。
 
-1. （選擇性）若要在儲存縮圖後移除縮圖，請按一下任何檢視中的記錄以開啟詳細資料頁面，然後將滑鼠游標停留在縮圖影像上，然後按一下&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)> **移除**&#x200B;圖示![](assets/remove-image-icon.png)。 縮圖影像即會移除。
+1. （選擇性）若要在儲存縮圖後移除縮圖，請按一下任何檢視中的記錄以開啟詳細資料頁面，然後將滑鼠游標停留在縮圖影像上，然後按一下&#x200B;**更多**&#x200B;功能表![更多功能表圖示](assets/more-menu.png)> **移除**&#x200B;圖示![移除圖示](assets/remove-image-icon.png)。 縮圖影像即會移除。
 
 
 

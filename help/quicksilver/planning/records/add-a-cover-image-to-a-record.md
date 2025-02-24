@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: 799115d836d67a81fe69cd04c8e75014d48d2443
+source-git-commit: 7fc2239de2488d2e3e5c434ab45e8a1d24c0b28f
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '748'
 ht-degree: 1%
 
 ---
@@ -68,8 +68,8 @@ ht-degree: 1%
  <tr> 
    <td role="rowheader"><p>Adobe Workfront平台</p></td> 
    <td> 
-<p>貴組織的Workfront例項必須加入Adobe統一體驗，才能存取Workfront規劃的所有功能。</p> 
-<p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront的Adobe統一體驗</a>。 </p> 
+<p>貴組織的Workfront例項必須上線至Adobe Unified Experience，才能存取Workfront Planning的所有功能。</p> 
+<p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">適用於Workfront的Adobe Unified Experience</a>。 </p> 
    </td> 
    </tr> 
   </tr> 
@@ -136,53 +136,46 @@ ht-degree: 1%
 
    或
 
-   從表格檢視中，按一下第一欄中的&#x200B;**開啟詳細資料**&#x200B;圖示![](assets/open-details-icon-in-table-name-field.png)。
+   從表格檢視中，按一下第一欄中的&#x200B;**開啟詳細資料**&#x200B;圖示![開啟詳細資料圖示](assets/open-details-icon-in-table-name-field.png)。
 
    記錄的預覽會在檢視中開啟。
 
-   <!--<div class="preview">
+   ![詳細資料預覽方塊](assets/details-box.png)
 
-    ![](assets/details-box.png) 
 
-    </div>-->
-
-1. （選擇性）按一下記錄預覽右上角的&#x200B;**在新索引標籤中開啟**&#x200B;圖示![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->，以在新索引標籤中開啟記錄的頁面。
+1. （選擇性）按一下記錄預覽右上角的&#x200B;**在新索引標籤中開啟**&#x200B;圖示![在新索引標籤中開啟](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->，以在新索引標籤中開啟記錄的頁面。
 
    記錄頁面隨即開啟。
 
-   <!--<div class="preview">
-
-    ![](assets/details-page.png)
-
-    </div>-->
+   ![詳細資料頁面](assets/details-page.png)
 
 1. 在記錄預覽或詳細資訊頁面中，將滑鼠暫留在記錄名稱上方的空白處，然後按一下&#x200B;**新增封面**。
 
    或
 
-   將滑鼠停留在現有的封面影像上，按一下&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，然後按一下&#x200B;**上傳**。 <!--check the casing here; I logged a bug for this-->
+   將滑鼠停留在現有的封面影像上，按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下&#x200B;**上傳**。 <!--check the casing here; I logged a bug for this-->
 **唱片封面**&#x200B;方塊會在&#x200B;**上傳**&#x200B;標籤中開啟。
 
-   ![](assets/record-cover-box-for-upload.png)
+   ![用於上載的錄製封面盒](assets/record-cover-box-for-upload.png)
 
 1. 按一下&#x200B;**瀏覽影像**&#x200B;並瀏覽您電腦上的圖片，以選取並新增圖片。
 
-1. （選擇性）若要在儲存影像之前移除影像，請按一下&#x200B;**上傳新影像**&#x200B;圖示![](assets/upload-new-image-icon.png)，然後上傳新影像。
+1. （選擇性）若要在儲存影像之前移除影像，請按一下&#x200B;**上傳新影像**&#x200B;圖示![上傳新影像圖示](assets/upload-new-image-icon.png)，然後上傳新影像。
 
 1. （選擇性）按一下&#x200B;**影像庫**&#x200B;標籤，然後按一下影像庫中的影像。 無法修改影像庫。
 
-   ![](assets/record-cover-box-for-gallery.png)
+   ![影像中心](assets/record-cover-box-for-gallery.png)的唱片封面盒
 
 1. 按一下&#x200B;**使用影像**。
 
    影像會上傳到記錄預覽或詳細資訊頁面的頂端，且變更會自動儲存。
 
-   ![](assets/record-page-with-cover-image.png)
+   ![含有封面影像的錄製頁面](assets/record-page-with-cover-image.png)
 
-1. （選擇性）將滑鼠停留在影像上，然後按一下封面影像右下角的&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，然後執行下列任一項作業：
+1. （選擇性）將滑鼠停留在影像上，然後按一下封面影像右下角的&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後執行下列任一項作業：
 
    * 如果您要取代封面影像，並重複步驟6以上傳並儲存新影像，請按一下&#x200B;**上傳**。
-   * 按一下[重新定位]****，並使用[重新定位]工具![](assets/reposition-tool-icon.png)將封面影像置中，然後在完成時按一下[儲存]****。****
+   * 按一下&#x200B;**重新定位**，並使用&#x200B;**重新定位**&#x200B;工具![重新定位工具圖示](assets/reposition-tool-icon.png)將封面影像置中，然後在完成時按一下&#x200B;**儲存**。
    * 按一下&#x200B;**移除**&#x200B;以移除封面影像。
 
    Workfront會自動儲存您的變更。

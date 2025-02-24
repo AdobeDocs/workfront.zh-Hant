@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 799115d836d67a81fe69cd04c8e75014d48d2443
+source-git-commit: 7fc2239de2488d2e3e5c434ab45e8a1d24c0b28f
 workflow-type: tm+mt
-source-wordcount: '1624'
+source-wordcount: '1772'
 ht-degree: 0%
 
 ---
@@ -78,8 +78,8 @@ ht-degree: 0%
 <tr>
    <td role="rowheader"><p>Adobe Workfront平台</p></td>
    <td>
-<p>貴組織的Workfront例項必須加入Adobe統一體驗，才能存取Workfront規劃的所有功能。</p>
-<p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront的Adobe統一體驗</a>。 </p>
+<p>貴組織的Workfront例項必須上線至Adobe Unified Experience，才能存取Workfront Planning的所有功能。</p>
+<p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">適用於Workfront的Adobe Unified Experience</a>。 </p>
    </td>
 
 </tr>
@@ -105,7 +105,7 @@ ht-degree: 0%
   </tr>
 <tr>
    <td role="rowheader"><p>版面配置範本</p></td>
-   <td> <p>必須為所有使用者(包括Workfront管理員)指派一個版面配置範本，該範本包含主功能表中的「規劃」區域，以及專案、投資組合和方案的「規劃」區域。 </p> 如需詳細資訊，請參閱<a href="/help/quicksilver/planning/access/access-overview.md">Adobe計畫存取總覽</a>。 </p>  </p>  
+   <td> <p>必須為所有使用者(包括Workfront管理員)指派一個版面配置範本，該範本包含主功能表中的「規劃」區域，以及專案、投資組合和方案的「規劃」區域。 </p> 如需詳細資訊，請參閱<a href="/help/quicksilver/planning/access/access-overview.md">Adobe Planning存取總覽</a>。 </p>  </p>  
 </td>
   </tr>
  </tbody>
@@ -157,29 +157,29 @@ ht-degree: 0%
 
    或
 
-   從表格檢視中，按一下第一欄中的&#x200B;**開啟詳細資料**&#x200B;圖示![](assets/open-details-icon-in-table-name-field.png)。
+   從表格檢視中，按一下第一欄中的&#x200B;**開啟詳細資料**&#x200B;圖示![在表格名稱欄位中開啟詳細資料圖示](assets/open-details-icon-in-table-name-field.png)。
 
    記錄的預覽會在檢視中開啟。
 
    <!--<div class="preview">
 
-    ![](assets/details-box.png)  
+    ![Details box](assets/details-box.png)  
 
     </div>-->
 
-1. （選擇性）按一下記錄預覽右上角的&#x200B;**在新索引標籤中開啟**&#x200B;圖示![](assets/open-details-in-a-new-tab-icon.png)，以在新索引標籤中開啟記錄的頁面。
+1. （選擇性）按一下記錄預覽右上角的&#x200B;**在新索引標籤中開啟**&#x200B;圖示![在新索引標籤中開啟詳細資料](assets/open-details-in-a-new-tab-icon.png)，以在新索引標籤中開啟記錄頁面。
 
    記錄頁面隨即開啟。 依預設，詳細資訊標籤會開啟。
 
-   ![](assets/details-page.png)
+   ![詳細資料頁面](assets/details-page.png)
 
-1. 在記錄預覽或頁面的&#x200B;**詳細資料**&#x200B;索引標籤中，將滑鼠移至欄位左側的空白區域，然後按一下&#x200B;**新增區段**&#x200B;圖示![](assets/add-section-icon.png)以新增區段。
+1. 在記錄預覽或頁面的&#x200B;**詳細資料**&#x200B;索引標籤中，將滑鼠移至欄位左側的空白區域，然後按一下&#x200B;**新增區段**&#x200B;圖示![新增區段圖示](assets/add-section-icon.png)以新增區段。
 1. 按一下區段名稱內部，將&#x200B;**未命名的區段**&#x200B;取代為名稱，然後按一下[輸入]。 在區段下顯示的欄位會自動成為新區段的一部分。
 1. 開始將欄位拖放至新區段，如本文中記錄預覽或詳細資訊頁面](#rearrange-fields-in-the-record-preview-or-details-page)中的區段[重新排列欄位中所述。
 
-1. （選擇性）將滑鼠停留在區段名稱上，然後按一下&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)。
+1. （選擇性）將滑鼠停留在區段名稱上，然後按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)。
 
-   ![](assets/more-menu-options-for-section-on-record-page.png)
+   記錄頁面](assets/more-menu-options-for-section-on-record-page.png)上區段的![更多功能表選項
 1. （可選）執行下列任一項作業來編輯區段：
 
    * 按一下&#x200B;**重新命名**&#x200B;以重新命名區段
@@ -200,19 +200,19 @@ ht-degree: 0%
 1. 按一下區段名稱左側的向下箭頭可將其摺疊，按一下向右箭頭可將其展開。
 依預設，所有截面都會展開。
 
-1. （選擇性）按一下區段名稱左側的&#x200B;**抓取**&#x200B;圖示![](assets/grab-icon.png)，然後將其拖放到所需的位置。
+1. （選擇性）按一下區段名稱左側的&#x200B;**抓取**&#x200B;圖示![抓取圖示](assets/grab-icon.png)，然後將其拖放到所需位置。
 
    對於檢視記錄的所有使用者，區段的新位置會在相同型別的所有記錄預覽和頁面中更新。
 
    對區段和欄位順序的所有變更會自動儲存。
 
-1. （選擇性）按一下&#x200B;**匯出**&#x200B;功能表![](assets/export-icon-in-record-details-page.png)，將[詳細資料]索引標籤匯出至Word或PDF檔案。 如需詳細資訊，請參閱[匯出記錄的詳細資料](/help/quicksilver/planning/records/export-the-record-page.md)。
+1. （選擇性）按一下記錄詳細資料頁面中的&#x200B;**匯出**&#x200B;功能表![匯出圖示](assets/export-icon-in-record-details-page.png)，將[詳細資訊]索引標籤匯出至Word或PDF檔案。 如需詳細資訊，請參閱[匯出記錄的詳細資料](/help/quicksilver/planning/records/export-the-record-page.md)。
 
 1. （選擇性）按一下&#x200B;**詳細資料**&#x200B;標籤旁的&#x200B;**連線**&#x200B;標籤。 您必須先按一下&#x200B;**更多**，再按一下&#x200B;**連線**&#x200B;索引標籤。
 
    所有與所選記錄連線的記錄或物件都會顯示在記錄型別或其所屬應用程式的名稱下。
 
-   ![](assets/connections-tab-on-record-in-workfront-planning.png)
+   在Workfront Planning中記錄的![連線標籤](assets/connections-tab-on-record-in-workfront-planning.png)
 
 1. （選擇性）選取[連線]索引標籤右上角的&#x200B;**顯示所有記錄**&#x200B;設定。 所有連線的記錄型別都會顯示，包括尚未有任何連線記錄的型別。 依預設，會取消選取切換並隱藏沒有連線記錄的記錄型別。
 
@@ -240,27 +240,27 @@ ht-degree: 0%
 
    或
 
-   從表格檢視中，按一下第一欄中的&#x200B;**開啟詳細資料**&#x200B;圖示![](assets/open-details-icon-in-table-name-field.png)。
+   從表格檢視中，按一下第一欄中的&#x200B;**開啟詳細資料**&#x200B;圖示![在表格名稱欄位中開啟詳細資料圖示](assets/open-details-icon-in-table-name-field.png)。
 
    記錄的預覽會在檢視中開啟。
 
    <!--<div class="preview">
 
-    ![](assets/details-box.png) 
+    ![Details box](assets/details-box.png) 
 
     </div>-->
 
-1. （選擇性）按一下記錄預覽右上角的&#x200B;**在新索引標籤中開啟**&#x200B;圖示![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->，以在新索引標籤中開啟記錄的頁面。
+1. （選擇性）按一下記錄預覽右上角的&#x200B;**在新索引標籤中開啟**&#x200B;圖示![在新索引標籤圖示中開啟詳細資訊方塊](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->，以在新索引標籤中開啟記錄的頁面。
 
    記錄的&#x200B;**詳細資料**&#x200B;索引標籤預設會開啟。
 
    <!--<div class="preview">
 
-   ![](assets/details-page.png)
+   ![Details page](assets/details-page.png)
 
    </div>-->
 
-1. 在記錄&#x200B;**詳細資料**&#x200B;索引標籤中，按一下欄位名稱左側的&#x200B;**抓取**&#x200B;圖示![](assets/grab-icon.png)，然後將其拖放到所要的位置。<!--You can drag and drop fields to another section. You must have at least one field in a section.-->
+1. 在記錄&#x200B;**詳細資料**&#x200B;索引標籤中，按一下欄位名稱左側的&#x200B;**抓取**&#x200B;圖示![抓取圖示](assets/grab-icon.png)，然後將其拖放到所要的位置。<!--You can drag and drop fields to another section. You must have at least one field in a section.-->
 
    對於檢視記錄的所有使用者，相同型別的所有記錄預覽和頁面中的欄位新位置都會更新。
 
@@ -268,40 +268,64 @@ ht-degree: 0%
 
 ## 新增連線檢視頁面到記錄的頁面
 
+<!--suggested a new name for this type of page: "Connected records details" - check to see if this changed-->
+
 將「連線」檢視新增至記錄頁面時，請考量下列事項：
 
 * 您可以將連線檢視頁面新增到記錄的頁面。
 
 * 您無法將[連線]檢視頁面新增到記錄的預覽區域。
 
-* 連線檢視頁面會在表格檢視中顯示一個連線記錄頁面。 表格檢視是唯讀的。
+* 連線檢視頁面會在表格檢視中顯示一個連線記錄頁面。 表格檢視是唯讀的。<!--more views might be added in the future-->
 
 * 您可以為每個連線的記錄型別新增一個連線檢視頁面。 <!--edit this when we can remove fields from this page-->
 
-* 將「連線」檢視頁面新增到記錄頁面後，該頁面會從記錄的預覽區域可見。
+* 將「連線」檢視頁面新增到記錄頁面後，可從記錄的預覽區域看到頁面索引標籤。 您必須移至完整頁面，才能檢視連線記錄的表格檢視。<!--this might have changed? check and take disclaimer out-->
 
 若要新增「連線」檢視頁面：
 
-1. 從記錄頁面檢視中，按一下記錄名稱以開啟它，然後按一下預覽頁面右上角的&#x200B;**在新索引標籤中開啟**&#x200B;圖示![](assets/open-details-in-a-new-tab-icon.png)。
+1. 從記錄頁面檢視中，按一下記錄名稱以開啟它，然後按一下預覽頁面右上角的&#x200B;**在新索引標籤中開啟**&#x200B;圖示![在新索引標籤中開啟詳細資料](assets/open-details-in-a-new-tab-icon.png)。
 1. 按一下&#x200B;**新增頁面** > **連線檢視**。
 
-   ![](assets/add-connection-view-page-modal.png)
+   ![新增連線檢視頁面強制回應視窗](assets/add-connection-view-page-modal.png)
 1. 新增&#x200B;**頁面名稱**，按一下&#x200B;**連線檢視**，然後按一下&#x200B;**建立**。
 
    新索引標籤將新增到記錄的頁面。
 1. 搜尋或按一下清單中連線記錄或物件型別的名稱。
 您選取之記錄型別的表格檢視會顯示，而連線的記錄會顯示在表格檢視中。
-表格檢視是唯讀的。
+已連線記錄的所有欄位都會顯示在已連線記錄之索引標籤的表格檢視中。
 
-   ![](assets/audience-connected-table-view-under-campaign-details-page.png)
+   <!--<span class="preview">When you access Workfront Planning from the Preview environment, five fields from the connected record display in the connected record's table view by default. Some connection fields display in addition to other fields. All lookup fields are hidden.</span> (*****be more specific about which connected fields show, if Robert responds*******)-->
+
+   表格檢視是唯讀的。
+
+   <!--replace screen shot below when additional capabilities come to the table view - Fields, etc-->
+
+   ![行銷活動詳細資料下的對象已連線資料表檢視](assets/audience-connected-table-view-under-campaign-details-page.png)
 1. （可選）按兩下標籤的名稱
 
    或
 
-   將游標暫留在索引標簽名稱上，然後按一下[其他] **![](assets/more-menu.png)，然後按一下[重新命名]** **以重新命名為新的[連線檢視]索引標籤。**
-1. （選擇性）使用工具列中的任何檢視元素來管理表格檢視。 如需詳細資訊，請參閱[管理資料表檢視](/help/quicksilver/planning/views/manage-the-table-view.md)。
-1. （選擇性）將游標暫留在索引標簽名稱上，然後按一下&#x200B;**更多** ![](assets/more-menu.png)，然後按一下&#x200B;**刪除**&#x200B;以移除至新的「連線檢視」索引標籤。
+   將游標暫留在索引標簽名稱上，然後按一下[其他] **** ![ [其他]功能表](assets/more-menu.png)，然後按一下[重新命名] **以重新命名為新的[連線檢視]索引標籤。**
+1. （可選）使用工具列中的下列任何檢視元素來管理表格檢視
 
+   * 篩選器
+   * 排序
+   * 分組
+
+   <!--Add to the list above some of the capabilities in the note with a preview tag when they are available.-->
+
+   如需詳細資訊，請參閱[管理資料表檢視](/help/quicksilver/planning/views/manage-the-table-view.md)。
+
+   >[!NOTE]
+   >
+   >   您無法在已連線記錄之索引標籤的表格檢視中進行下列任何操作：
+   >
+   >   * 隱藏欄位
+   >   * 建立、編輯或刪除欄位
+   >   * 重新排列欄位
+   >
+1. （選擇性）將滑鼠停留在索引標簽名稱上，然後按一下&#x200B;**更多** ![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**刪除**&#x200B;以移除新的[連線檢視]索引標籤。
 
 
 <!--
