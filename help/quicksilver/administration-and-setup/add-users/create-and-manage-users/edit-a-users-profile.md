@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: bb6697241701160f878dc3fde2c7dd4d57ec097e
 workflow-type: tm+mt
-source-wordcount: '3276'
+source-wordcount: '3325'
 ht-degree: 0%
 
 ---
@@ -86,8 +86,8 @@ ht-degree: 0%
       <td> 
        <ul> 
         <li><p><b>名字</b></p></li>
-        <li><p><b>姓氏</b></p></li> 
-        <li> <p><b>電子郵件地址：</b>使用者的電子郵件地址也是他們在Workfront的使用者名稱。 此欄位區分大小寫，且必須是唯一的。 如果有任何使用者嘗試在10分鐘視窗內新增非唯一電子郵件地址3次，就會出現reCAPTCHA回應。</p> <p> 選取<b>我不是自動機制</b>設定，然後才能繼續。</p><p>如果您使用電子郵件允許清單並輸入不在清單中的電子郵件網域，使用者將不會收到電子郵件通知。 如需允許清單的詳細資訊，請參閱<a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md" class="MCXref xref">設定您的電子郵件允許清單</a>。</p> </li> 
+        <li><p><b>姓氏</b></p><p><b>注意：</b></p><p>在Workfront中編輯使用者名稱不會在Adobe Admin Console中編輯使用者名稱。</p></li> 
+        <li> <p><b>電子郵件地址：</b>使用者的電子郵件地址也是他們在Workfront的使用者名稱。 此欄位區分大小寫，且必須是唯一的。 如果有任何使用者嘗試在10分鐘視窗內新增非唯一電子郵件地址3次，就會出現reCAPTCHA回應。</p> <p> 選取<b>我不是自動機制</b>設定，然後才能繼續。</p><p>如果您使用電子郵件允許清單並輸入不在清單中的電子郵件網域，使用者將不會收到電子郵件通知。 如需允許清單的詳細資訊，請參閱<a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md" class="MCXref xref">設定您的電子郵件允許清單</a>。</p><p>如果您的組織已移轉至Adobe Admin Console，您便無法在Workfront中編輯使用者的電子郵件地址。 使用者的電子郵件地址是在Adobe Admin Console中設定。 </li> 
         <li> <p><b>重設密碼</b>：按一下此連結可重設使用者的密碼。 您必須先輸入自己的密碼，才能重設其他使用者的密碼。</p> <p>若要重設其他使用者的密碼，您必須是Workfront管理員或群組管理員。</p> <p><b>附註</b>：  
           <ul> 
            <li> <p>如果您是群組管理員，則只能為您指定為管理員的群組中的使用者重設密碼。 此外，您必須在存取層級中啟用「使用者管理員（群組使用者）」許可權：</p> <p> <img src="assets/group-admin-user.png" > </p> <p>此設定預設為停用。 如需詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </li> 

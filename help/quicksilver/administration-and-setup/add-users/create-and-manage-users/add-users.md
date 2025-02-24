@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: bb6697241701160f878dc3fde2c7dd4d57ec097e
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1256'
 ht-degree: 1%
 
 ---
@@ -21,13 +21,19 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->如果您的組織已上線Adobe Admin Console，您必須透過Adobe Admin Console建立系統管理員。
+>* **如果您的組織已加入Adobe Admin Console，您必須透過Adobe Admin Console建立系統管理員。**
 >
->如需在Adobe Admin Console中建立系統管理員的指示，請參閱[在Adobe Admin Console中管理使用者](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)。
+>   如需在Adobe Admin Console中建立系統管理員的指示，請參閱[在Adobe Admin Console中管理使用者](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)。
 >
->已加入Adobe Admin Console的組織中，群組管理員可使用此程式來建立使用者並提交使用者以供管理員核准。
+>   已加入Adobe Admin Console的組織中，群組管理員可使用此程式來建立使用者並提交使用者以供管理員核准。
 >
->如需根據貴組織是否已加入Adobe Admin Console而有所差異的程式清單，請參閱[以平台為基礎的管理差異(Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
+>   如需根據貴組織是否已加入Adobe Admin Console而有所差異的程式清單，請參閱[以平台為基礎的管理差異(Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
+>
+>* **如果您的組織使用單一登入(SSO)**，建議您在Adobe Admin Console中建立使用者並將其指派給Workfront。 您可以在Workfront中建立這些使用者，但根據您組織的Admin Console設定方式，將該資訊傳輸至Adobe Admin Console時可能會發生問題。
+>   在Adobe Admin Console中建立使用者後，您可以在Workfront中設定使用者的資訊，例如指派角色、群組、團隊和存取層級。
+>* **如果您的組織未使用單一登入(SSO)**，您可以直接在Workfront中新增非系統管理員使用者。 您可以在Adobe Admin Console中新增使用者，但若在Workfront中新增使用者，您可於建立使用者時設定其存取層級，藉此節省您的時間。
+
+
 
 您可以從頭開始建立個別使用者，或複製現有使用者，以便在Adobe Workfront中新增使用者。
 

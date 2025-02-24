@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: bb6697241701160f878dc3fde2c7dd4d57ec097e
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1105'
 ht-degree: 0%
 
 ---
@@ -39,11 +39,14 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->建議您停用已離開組織的使用者，而非刪除他們。 如果刪除使用者，則會遺失Workfront中與該使用者相關聯的所有記錄。 這包括他們的工作指派、他們與附註、時數、檔案及他們建立過的所有其他物件的關聯。
+>* 建議您停用已離開組織的使用者，而非刪除他們。 如果刪除使用者，則會遺失Workfront中與該使用者相關聯的所有記錄。 這包括他們的工作指派、他們與附註、時數、檔案及他們建立過的所有其他物件的關聯。
 >
->在Workfront中停用使用者時，會移除使用者對Workfront和數位校訂的授權。 此外，無法再為該使用者指派工作。 當使用者停用時，該使用者的Workfront授權和校訂授權將可供其他使用者使用。 已停用使用者設定檔中的所有其他資訊維持不變。
+>   在Workfront中停用使用者時，會移除使用者對Workfront和數位校訂的授權。 此外，無法再為該使用者指派工作。 當使用者停用時，該使用者的Workfront授權和校訂授權將可供其他使用者使用。 已停用使用者設定檔中的所有其他資訊維持不變。
 >
->如需有關刪除和停用使用者之影響的詳細資訊，請參閱[刪除使用者](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)。
+>   如需有關刪除和停用使用者之影響的詳細資訊，請參閱[刪除使用者](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)。
+>
+>* 在Workfront中停用使用者時，不會從Adobe Admin Console的Workfront產品設定檔中移除該使用者。
+
 
 ## 存取需求
 

@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: 0cbce301426ee42bc00f8b0930a13d0d7875e382
+source-git-commit: bb6697241701160f878dc3fde2c7dd4d57ec097e
 workflow-type: tm+mt
-source-wordcount: '1336'
+source-wordcount: '1449'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,10 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->我們建議直接在Workfront中新增非系統管理員使用者。 您可以在Adobe Admin Console中新增使用者，但若在Workfront中新增使用者，您可於建立使用者時設定其存取層級，藉此節省您的時間。
+>* 必須在Adobe Admin Console中設定&#x200B;**Workfront管理員。**&#x200B;如需相關資訊與指示，請參閱本文中的[使用Adobe Admin Console在Workfront中建立系統管理員](#create-system-administrators-in-workfront-with-the-adobe-admin-console)。
+>* **如果您的組織使用單一登入(SSO)**，建議您在Adobe Admin Console中建立使用者並將其指派給Workfront。 您可以在Workfront中建立這些使用者，但根據您組織的Admin Console設定方式，將該資訊傳輸至Adobe Admin Console時可能會發生問題。
+>   在Adobe Admin Console中建立使用者後，您可以在Workfront中設定使用者的資訊，例如指派角色、群組、團隊和存取層級。
+>* **如果您的組織未使用單一登入(SSO)**，您可以直接在Workfront中新增非系統管理員使用者。 您可以在Adobe Admin Console中新增使用者，但若在Workfront中新增使用者，您可於建立使用者時設定其存取層級，藉此節省您的時間。
 
 <span class="preview">從Admin Console變更使用者的設定檔時，更新會新增到Workfront中使用者的系統活動標籤中。 更新會顯示為「系統」所執行。 這是指Adobe Admin Console管理員，而非Workfront主要管理員。</span>
 
