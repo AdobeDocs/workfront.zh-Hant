@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 9a588df1ef48b40056c5228c8ff03b5819eb4410
+source-git-commit: 0cc1ab3a7412b7200ddab1a789ef5e9d86c3949f
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1046'
 ht-degree: 2%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 2%
 | 角色(ROLE) | 角色 |
 | 團隊（團隊） | 團隊<br>群組 |
 | 公司(CMPY) | 公司<br>覆寫率<br>類別<br>類別引數<br>引數<br>引數群組<br>引數<br>類別顯示邏輯<br>群組 |
-| Portfolio（連線埠） | Portfolio<br>程式<br>群組<br>類別<br>類別引數<br>引數<br>引數群組<br>引數選項<br>類別顯示邏輯 |
+| Portfolio （連線埠） | Portfolio<br>程式<br>群組<br>類別<br>類別引數<br>引數<br>引數群組<br>引數選項<br>類別顯示邏輯 |
 | 方案(PRGM) | 程式<br>Portfolio<br>群組<br>類別<br>類別引數<br>引數<br>引數群組<br>引數選項<br>類別顯示邏輯 |
 
 ### 其他組態物件
@@ -100,6 +100,7 @@ ht-degree: 2%
 | 存取層級(ACSLVL) | 存取層級 |
 | 費率卡(RTCRD) | 費率卡 |
 | 位置/分類器(CLSF) | 位置/分類器 |
+| 商業規則(BSNRUL) | 業務規則 |
 
 \*目前無法使用
 
