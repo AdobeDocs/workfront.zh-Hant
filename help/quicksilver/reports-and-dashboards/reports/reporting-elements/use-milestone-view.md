@@ -2,13 +2,13 @@
 product-area: reporting
 navigation-topic: reporting-elements
 title: 使用里程碑檢視
-description: 您可以將「里程碑」檢視套用至專案清單或報告。
+description: 您可以將「里程碑」檢視套用至專案清單或報告。 您可以使用「里程碑」檢視來檢視與您所檢視專案中任務相關聯的所有里程碑。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: f3f33d870859408db5ec3dc306cf1d4209c126a3
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1360'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,13 @@ ht-degree: 0%
 
 <!-- Audited: 11/2024 -->
 
-您可以將「里程碑」檢視套用至專案清單或報告。
+您可以將「里程碑」檢視套用至專案清單或報告。 您可以使用「里程碑」檢視來檢視與您所檢視專案中任務相關聯的所有里程碑。
 
-在可以使用里程碑檢視之前，需要設定里程碑、里程碑路徑新增到專案，並且里程碑需要與任務相關聯，如文章[建立里程碑路徑](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)和[將里程碑與任務相關聯](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)中所述。
+使用里程碑檢視之前，必須存在下列元素：
+
+* 里程碑路徑已設定。 如需詳細資訊，請參閱[建立里程碑路徑](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)。
+* 專案需要新增里程碑路徑。 如需詳細資訊，請參閱[編輯專案](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md)。
+* 里程碑與任務相關聯。 如需詳細資訊，請參閱[將里程碑與任務關聯](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)。
 
 檢視專案清單或專案報告時，里程碑檢視可供使用。 以下各節說明如何檢視和使用里程碑檢視。
 

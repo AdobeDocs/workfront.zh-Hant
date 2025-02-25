@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: f3f33d870859408db5ec3dc306cf1d4209c126a3
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '1017'
 ht-degree: 0%
 
 ---
@@ -69,8 +69,8 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
 <tr>
    <td role="rowheader"><p>Adobe Workfront平台</p></td>
    <td>
-<p>貴組織的Workfront例項必須加入Adobe統一體驗，才能存取Workfront規劃的所有功能。</p>
-<p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront的Adobe統一體驗</a>。 </p>
+<p>貴組織的Workfront例項必須上線至Adobe Unified Experience，才能存取Workfront Planning的所有功能。</p>
+<p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">適用於Workfront的Adobe Unified Experience</a>。 </p>
    </td>
 
 </tr>
@@ -135,6 +135,85 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
 
 ## 向Workfront Planning提交請求
 
+<!--
+<div class="preview">
+
+Submitting requests to Workfront Planning differs depending on what environment you use. 
+
+### Submit a request to Workfront Planning in the Preview Environment
+
+>[!NOTE]
+>
+>After the monthly releases to Production, the features described in this section are also available in the Production environment for customers who enabled fast releases.
+
+{{step1-to-requests}}
+
+1. Enable the **Switch to a new experience** setting, in the upper-right corner of he screen. 
+   Enabling this setting makes the Workfront Planning request forms available in the **Requests** area of Workfront.
+
+   >[!TIP]
+   >
+   >   This setting is available only when your company has purchased a Workfront Planning package. 
+
+1. Click **New request**. (********* update scree shot at release ********)
+
+   ![New request box with unified Workfront and Planning cards](assets/new-request-box-with-unified-workfront-and-planning-cards.png)
+
+   The New request area opens with the following information: 
+
+   * The 6 most recently accessed Workfront request queues and Planning request forms display in the Recent section. 
+   * 50 additional Workfront request queues and Planning request forms display in alphabetical order in the **All request forms** section. You can search for a request queue that does not display by default. 
+
+1. Do one of the following:
+
+   * Click the card for one of the Planning request forms in the Recent or All request forms sections
+   * Start typing the name of a Planning request form in the search box, then click the card when it displays in the list. 
+
+   The request form opens.
+
+1. Update the fields available in the request form. Fields with a red asterisk are required. 
+1. Click **Submit**.
+    
+   The request form closes and you return to the **Requests** area. 
+
+   Your form is submitted and the following things occur:
+
+   * If the request form was not associated with an approval, the request is added to the Planning tab of the Submitted section of the Workfront Requests area and a new record is added to the record type associated with the form.
+   
+   * If the request form was associated with an approval, the request is added to the Planning tab of the Submitted section of the Workfront Requests area. A new record is added to the record type page only after all the approvers have approved it.
+   
+      For information, see [Add an approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+
+      ![](assets/requests-area-with-toggle-for-unified-workflow-planning-tab-open.png)
+
+      >[!IMPORTANT]
+      >
+      >All users who have access to at least one workspace can view the Planning tab in the Requests area. You can view only the requests submitted by you or anyone else to the workspaces that you have at least permissions to View. Workfront administrators can view all requests submitted to any workspace in the system. (******** ensure this is correct; asking team in slack **************)
+
+   * You receive an in-app and an email notification that the request has either been submitted successfully or has been sent for review.
+   * If the request form was associated with an approval, the approvers receive an in-app and an email notification to review and approve the request.
+
+      >[!NOTE]
+      >
+      >The email and in-app notifications are visible only when your organization's instance of Workfront is onboarded to the Adobe Unified Experience.
+
+1. (Optional) Click the **Planning** tab in the Requests area to view your request. 
+1. (Conditional) If the request form is not associated with an approval, or if the request has been approved, click the name of the request, then click the name of the record in the **Record** field. 
+
+   The record's page opens. 
+
+   >[!TIP]
+   >
+   >* If the record name was not added to the request form, the name of the record in the Record field of the request displays as **Untitled**. 
+   >
+   >* If the request form is associated with an approval, the approval must be granted before you can access the record from the request page. 
+
+</div>
+
+### Submit a request to Workfront Planning in the Production environment
+
+-->
+
 1. 從Workfront Planning記錄型別移至與您共用的連結。
 
 1. 更新表單中可用的欄位。 帶有星號的欄位為必填欄位。
@@ -166,7 +245,18 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
 
      >[!NOTE]
      >
-     >只有當貴組織的Workfront執行個體上線至Adobe統一體驗時，才會顯示電子郵件和應用程式內通知。
+     >只有當貴組織的Workfront執行個體上線至Adobe Unified Experience時，才會顯示電子郵件和應用程式內通知。
+
+1. （選擇性）按一下[要求]區域中的&#x200B;**規劃**&#x200B;索引標籤，以檢視您的要求。
+1. （視條件而定）如果要求表單未與核准相關聯，或如果要求已核准，請按一下要求名稱，然後按一下&#x200B;**記錄**&#x200B;欄位中的記錄名稱。
+
+   記錄的頁面隨即開啟。
+
+   >[!TIP]
+   >
+   >* 如果未將記錄名稱新增至請求表單，則請求之「記錄」欄位中的記錄名稱會顯示為&#x200B;**未命名**。
+   >
+   >* 如果請求表單與核准相關聯，則必須先授權核准，然後才能從請求頁面存取記錄。
 
 
 

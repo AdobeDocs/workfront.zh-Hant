@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
+source-git-commit: f3f33d870859408db5ec3dc306cf1d4209c126a3
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '700'
 ht-degree: 3%
 
 ---
@@ -22,6 +22,10 @@ ht-degree: 3%
 <!--
 NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
+
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 身為Adobe Workfront管理員，您可以建立里程碑路徑，然後將其套用至系統中的任何專案。 您在此區域中對里程碑路徑所做的變更會影響整個Workfront系統。
 
@@ -41,7 +45,7 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td>計劃</td> 
+   <td>規劃</td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -116,3 +120,38 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
    您的里程碑路徑已準備好與專案相關聯。
 
    如需有關如何將里程碑路徑與專案建立關聯以及將里程碑與任務建立關聯的詳細資訊，請參閱[將里程碑與任務建立關聯](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)。
+
+
+## 在報告中檢視里程碑路徑詳細資訊
+
+您可以在專案報告中檢視里程碑路徑的詳細資訊。
+
+您必須先將里程碑路徑與專案建立關聯，才能在專案報告中檢視其詳細資訊。
+
+如需有關將里程碑路徑關聯至專案的資訊，請參閱[編輯專案](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md)。
+
+{{step1-to-reports}}
+
+1. 按一下&#x200B;**新報告**，然後按一下&#x200B;**專案**。
+1. 按一下「**新增欄**」。
+1. 在&#x200B;**顯示在此欄**&#x200B;區域中，開始輸入&#x200B;**里程碑路徑**，然後在顯示時按一下&#x200B;**里程碑路徑名稱**。
+1. （選用）按一下&#x200B;**篩選器**，並將下列篩選器新增至報表： **專案里程碑路徑ID不是空白的**。
+
+   此篩選器可確保您只顯示與報告中里程碑路徑相關聯的專案。
+
+1. 按一下「**儲存並關閉**」。
+1. 新增報表名稱，然後按一下[套用]。****
+
+   專案報告隨即顯示。 與每個專案相關聯的里程碑路徑會顯示在報表的最後一欄。
+1. 按一下報告最後一欄中的里程碑路徑名稱。
+
+   里程碑路徑的詳細資訊隨即顯示。 也會顯示每個里程碑的詳細資訊。
+
+   ![專案報告的里程碑路徑詳細資料](assets/milestone-details-from-project-report.png)
+
+   <!--replace screen shot above with unshimming and mark it for Preview-->
+
+1. （選擇性）按一下&#x200B;**上一步**&#x200B;返回專案報告。
+
+
+
