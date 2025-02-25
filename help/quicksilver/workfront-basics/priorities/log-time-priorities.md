@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 5457f516-c213-4b82-b033-bc8db943a217
-source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # 在優先順序中記錄時間
 
 您可以在Adobe Workfront中記錄工作專案的時間，以指出您花在工作專案上的小時數。 您的記錄時間會顯示在您的時程表中。
+
+優先順序顯示指派給您的工作專案。 您看不到指派給團隊的工作專案。
 
 ## 存取需求
 
@@ -44,7 +46,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>您記錄時間的工作專案的Contribute或以上許可權包括「記錄時數」許可權</p> </td> 
+   <td> <p>在您記錄時間的工作專案上貢獻或更高許可權，包括記錄時數的許可權</p> </td> 
   </tr> 
  </tbody> 
 </table>

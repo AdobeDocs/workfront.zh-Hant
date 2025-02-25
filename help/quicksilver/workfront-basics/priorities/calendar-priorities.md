@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: d24ad7d1-3a88-479e-beaf-69f8264c9a6b
-source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '537'
 ht-degree: 4%
 
 ---
@@ -65,6 +65,8 @@ ht-degree: 4%
 +++
 
 ## 檢視您在行事曆中的工作
+
+優先順序顯示指派給您的工作專案。 您無法在優先順序行事曆中看到指派給團隊的工作專案。
 
 {{step1-to-priorities}}
 

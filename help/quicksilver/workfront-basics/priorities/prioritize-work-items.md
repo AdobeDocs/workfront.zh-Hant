@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 31793b0e-444c-492c-b1a2-909a2e97628b
-source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '200'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 1%
 # 排定重要工作專案的優先順序
 
 您可以使用「我的焦點」欄來排定工作的優先順序。 「我的焦點」欄是個人的值，不會影響任務或問題上設定的優先順序。
+
+優先順序顯示指派給您的工作專案。 您看不到指派給團隊的工作專案。
 
 ## 使用「我的焦點」欄來排定工作的優先順序
 

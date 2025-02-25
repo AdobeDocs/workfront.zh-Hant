@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '999'
-ht-degree: 3%
+source-wordcount: '1019'
+ht-degree: 2%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 3%
 * 管理日常工作並排定優先順序：透過整合式導覽來整理您的日或周，以更清楚明瞭
 * 提高生產力：存取專案情境，並透過更少的點按動作更快執行工作
 * 個人化功能：受益於專為任務所有者設計的功能
+
+「優先順序工作清單」與「工作歷」會顯示指派給您的工作專案。 您看不到指派給團隊的工作專案。
 
 ## 尋找並組織您的工作
 

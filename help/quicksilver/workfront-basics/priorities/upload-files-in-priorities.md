@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
-source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # 上傳優先順序中的檔案
 
 您可以從「優先順序」工作清單或個別工作專案上傳檔案。 從「優先順序」上傳的檔案會出現在工作專案的「檔案」標籤中。
+
+優先順序顯示指派給您的工作專案。 您看不到指派給團隊的工作專案。
 
 ## 存取需求
 

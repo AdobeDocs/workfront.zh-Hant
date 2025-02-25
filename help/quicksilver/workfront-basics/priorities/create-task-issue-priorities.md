@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 240cda0f-0acf-4b5c-872d-b7f5cee0b769
-source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '263'
 ht-degree: 4%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 4%
    <td role="rowheader"><strong>Adobe Workfront授權*</strong></td> 
    <td> 
    <p>目前：要求或更高的要求；檢閱或更高的問題或要求；工作或更高的任務要求</p>
-   <p>新增：請求的貢獻者或以上；問題<!--and documents-->的輕度或以上：標準或以上任務</p> 
+   <p>新增：要求的貢獻者或以上；問題和檔案的輕度或以上：標準或以上任務</p> 
    </td> 
   </tr> 
   <tr> 
@@ -57,7 +57,7 @@ ht-degree: 4%
 
 ## 在優先順序中建立任務或問題
 
-您可以在專案中建立任務或問題。
+您可以在專案中建立任務或問題。 優先順序顯示指派給您的工作專案。 您無法在「優先順序」工作清單中看到指派給您團隊的工作專案。
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ ht-degree: 4%
 
 1. 按一下右上角的&#x200B;**新建**。
    ![](assets/create-new.png)
-&lt;！ — 產品![](assets/create-new--.png)的新畫面 — >
+產品![](assets/create-new--.png)的新畫面
 1. 指定下列資訊：
 
    | 欄位 | 指示 |
