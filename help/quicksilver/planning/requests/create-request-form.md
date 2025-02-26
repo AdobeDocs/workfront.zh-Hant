@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 7fc2239de2488d2e3e5c434ab45e8a1d24c0b28f
+source-git-commit: 5510f99e9e5c8c4c5f85953e19563f9ab18b0fae
 workflow-type: tm+mt
-source-wordcount: '1479'
+source-wordcount: '1538'
 ht-degree: 2%
 
 ---
@@ -115,6 +115,49 @@ ht-degree: 2%
 
 +++
 
+## 請求表單中的欄位和值顯示限制
+
+<!--
+
+There are limitations in how certain fields display on the request form and how their values later display on the records or the request details page, after you submit a request. 
+
+For information about submitting requests to create records, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md). 
+
+The following are limitations for how certain fields display in request forms, records created by a request form, or on the request details page: -->
+
+* 您無法將下列型別的欄位新增至請求表單：
+
+   * 建立者和上次修改者
+   * 建立日期和上次修改日期
+   * 公式。 預覽環境中支援公式欄位。
+   * Workfront物件的查閱欄位
+   * Workfront Planning連線記錄的查詢欄位
+
+<!--at release to Preview, replace the above with this:  
+>
+>Fields of the following types do not display in the request form:
+>* Created by and Last modified by
+>* Created date and Last modified date
+>* Formula. <span class="preview">Formula fields display in request forms in the Preview environment.</span>
+>* Workfront objects' lookup fields
+>* Workfront Planning connected records' lookup fields-->
+
+* 欄位格式在請求表單產生器中顯示的方式與值在記錄或請求詳細資訊頁面中的格式之間的差異：
+
+   * 「貨幣」、「數字」和「百分比」欄位會在表單產生器中顯示為「單行」文字欄位型別。
+
+     但是，欄位格式會保留，而且這些欄位中數字的值會在記錄型別和請求詳細資訊頁面中顯示為「貨幣」、「數字」和「百分比」值。
+
+<!--
+* The following describes how some field values display on request forms and the request details pages: 
+
+   * Special formatting for Currency, Number, and Percentage fields is not preserved. For example, the decimal precision is not preserved for these fields' values in these areas.
+   * People field values display as IDs.
+   * Formula fields that don't refer to other fields or calculations don't display any values. For example, a field with a `STRING` formula displays a "N/A" value.
+   * Formula fields that refer to Currency fields display the values without accounting for exchange rates.
+   * The values of Paragraph fields that contain special formatting display a "N/A" value on the request form and they display html tags instead of the formatted text in the request details page.
+-->
+
 ## 建立記錄型別的請求表單
 
 {{step1-to-planning}}
@@ -140,34 +183,6 @@ ht-degree: 2%
    依預設，請求表單包含下列資訊：
 
    * 所選記錄型別的表格檢視中可用的記錄欄位。<!--they are working on removing the limitation below-->
-
-   <!-- when we go to prod, the Preview batch below will become the only batch-->
-
-   >[!IMPORTANT]
-   >
-   >下列型別的欄位不會顯示在請求表單中：
-   >
-   >* 建立者和上次修改者
-   >* 建立日期和上次修改日期
-   >* 公式
-   >* Workfront物件的查閱欄位
-   >* Workfront Planning連線記錄的查詢欄位
-   >
-
-   <!--before release to prod: 
-    > Depending on what environment you use to create a request form, the following scenarios exist:
-   >
-   >* Fields of the following types do not display in the request form in the Production environment: 
-   >
-   >    * Created by and Last modified by
-   >    * Created date and Last modified date
-   >    * Formula
-   >    * People 
-   >    * Workfront connected fields
-   >    * Workfront objects' lookup fields
-   >    * Workfront Planning records' connected fields
-   >    * Workfront Planning connected records' lookup fields
-   >    * AEM Assets connection fields-->
 
    * **預設的分節**：這是Workfront套用至要求表單的預設分割槽符號。 所有記錄欄位都顯示在&#x200B;**預設區段**&#x200B;區域。
    * **主旨**&#x200B;欄位：將在Workfront中識別要求的欄位。 主旨欄位的設定和值無法編輯。
@@ -196,12 +211,10 @@ ht-degree: 2%
    * **建立必要欄位**：選取時，該欄位必須具有值。 否則，無法提交表單。
    * **新增邏輯**：定義必須符合哪些條件才能顯示或隱藏欄位。
 
-   >[!NOTE]
+   >[!TIP]
    >
    >   在表單上選取欄位後，每個欄位的欄位型別都會顯示在右側面板的頂端。
-   >   
-   >
-   >   「貨幣」、「數字」和「百分比」欄位會顯示為「單行」文字欄位型別。 不過，欄位格式會保留，而且這些欄位內的值會顯示為「貨幣」、「數字」和「百分比」值。
+   >     
 
 1. （選擇性）按一下表單左側的&#x200B;**Content elements**&#x200B;標籤，然後新增下列任一元素：
 
