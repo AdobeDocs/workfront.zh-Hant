@@ -6,9 +6,9 @@ description: 您可以重設您的 [!DNL Adobe Workfront] 密碼。 作為一項
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '255'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,9 @@ ht-degree: 1%
 
 ## 存取需求
 
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視本文中功能的存取需求。
+
+您必須具備下列條件：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,17 +38,28 @@ ht-degree: 1%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計畫*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計劃</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>[！UICONTROL Request]或更高版本</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權</strong></td> 
+   <td> 
+      <p>新增：</p>
+         <ul>
+         <li><p>投稿人或以上</p></li>
+         </ul>
+      <p>目前：</p>
+         <ul>
+         <li><p>要求或更高版本</p></li>
+         </ul>
+   </td>
   </tr> 
  </tbody> 
 </table>
 
-若要瞭解您擁有的計畫或授權型別，請連絡您的[!DNL Workfront]管理員。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 在[!DNL Adobe Workfront]中重設您的密碼
 

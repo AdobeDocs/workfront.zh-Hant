@@ -7,7 +7,7 @@ description: 您可以建立您有權存取的任何報表的復本。 您可以
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 84737f48-efc5-45f1-acd1-b9f5d353f80f
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 0%
@@ -102,12 +102,12 @@ ht-degree: 0%
 
 ## 建立報告的新版本 {#create-a-new-version-of-a-report}
 
-如果要建立預設報表的副本，請執行以下操作：
+如果要建立內建報表的復本，請執行下列動作：
 
 1. 按一下Adobe Workfront右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)。
 
 1. 按一下&#x200B;**報表**，然後按一下&#x200B;**所有報表**。
-1. 按一下預設報表的名稱以開啟。
+1. 按一下內建報表的名稱以開啟。
 1. 按一下&#x200B;**報告動作**，然後按一下&#x200B;**編輯**。
 
    ![編輯報告](assets/unshimmed-report-actions-default-report.png)

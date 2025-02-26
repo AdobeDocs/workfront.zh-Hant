@@ -6,9 +6,9 @@ description: 指派存取層級時，您的Adobe Workfront管理員可授予您�
 author: Alina
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '1007'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 指派存取層級時，您的Adobe Workfront管理員可授予您檢視或編輯專案的存取權。 如需詳細資訊，請參閱[授予專案存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)。
 
-除了授予使用者的存取層級外，您還可以授予他們檢視、Contribute或管理您有權共用之特定專案的許可權。
+除了授予使用者的存取層級外，您還可以授予他們檢視、貢獻或管理您有權共用之特定專案的許可權。
 
 許可權專屬於Workfront中的一個專案，可定義使用者可對該專案執行的動作。
 
@@ -104,9 +104,9 @@ ht-degree: 2%
 
 ## 不同授權型別的限制
 
-* 擁有工作者授權的使用者沒有管理專案的許可權。 若為工作角色，則最高共用許可權為Contribute。
-* 擁有請求授權的使用者可以檢視專案資訊，但他們擁有有限的專案存取權。
-* 當具有檢視或Contribute許可權的使用者也包含在核准流程中時，會發生變更專案狀態的例外情況。 他們可以核准專案，這會變更專案狀態，但狀態是預先定義的核准或拒絕狀態。
+* 具有輕度授權及以下授權的使用者（或舊授權模式的工作授權及以下授權）沒有管理專案的許可權。 對於這些使用者，最高共用許可權為Contribute。
+* 擁有貢獻者授權（或請求舊授權模式的授權）的使用者可檢視專案資訊，但他們擁有有限的專案存取權。
+* 當具有「檢視」或「貢獻」許可權的使用者也包含在核准流程中時，變更專案狀態的例外情況就會發生。 他們可以核准專案，這會變更專案狀態，但狀態是預先定義的核准或拒絕狀態。
 * 為了能夠複製專案，使用者也必須有權在其存取層級中建立專案。
 
 <!--
@@ -144,206 +144,206 @@ The
   <tr> 
    <th> <p><strong>動作</strong> </p> </th> 
    <th> <p><strong>管理</strong> </p> </th> 
-   <th> <p><strong>Contribute</strong> </p> </th> 
+   <th> <p><strong>貢獻</strong> </p> </th> 
    <th> <p><strong>檢視</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> <p>新增自訂表格</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>更新自訂欄位</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>新增核准流程</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>核准專案</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td> <p>核准小時</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ (A) </p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓ </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>建立專案</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>新增檔案</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td> <p>新增問題</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td> <p>新增任務</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>複製專案</p> </td> 
    <td> <p> </p> </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>刪除專案</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>修改計畫日期</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>共用專案</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td> <p>全系統共用</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td> <p>檢視專案</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td> <p>更新/評論</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td> <p>變更狀態</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>記錄時數</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>編輯指派</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>管理基準線</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>管理風險*</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>管理財務*</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>新增/編輯費用*</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>檢視財務*</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td> <p>附加範本</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>另存為範本</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td> <p>新增/編輯業務案例</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>編輯專案詳細資訊</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>編輯人員配置</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>匯出到 MS Project</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td> <p>重新計算財務/時間表*</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>設定佇列屬性</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>在清單中大量編輯專案</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 

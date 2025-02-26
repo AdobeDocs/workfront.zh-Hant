@@ -6,9 +6,9 @@ description: Adobe Workfront有一個準備使用的內建報告詳細清單。 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 32a47c25-192a-4e97-9016-42e6b6e201b9
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
-source-wordcount: '2970'
+source-wordcount: '2986'
 ht-degree: 10%
 
 ---
@@ -19,9 +19,7 @@ ht-degree: 10%
 
 Adobe Workfront提供您廣泛的內建報告清單，供您使用。
 
-Workfront管理員可以隱藏內建報表，讓使用者無法存取。
-
-如需如何隱藏內建報表的詳細資訊，請參閱[隱藏內建報表](../../../administration-and-setup/manage-workfront/configure-reports/hide-built-in-reports.md)。
+Workfront管理員可以隱藏內建報表，讓使用者無法存取。 如需如何隱藏內建報表的詳細資訊，請參閱[隱藏內建報表](../../../administration-and-setup/manage-workfront/configure-reports/hide-built-in-reports.md)。
 
 ## 存取需求
 
@@ -67,7 +65,7 @@ Workfront管理員可以隱藏內建報表，讓使用者無法存取。
 
 ## 內建報表概觀 {#overview-of-built-in-reports}
 
-您可以自訂內建報表，並將其儲存為新報表。 如需自訂內建報表的詳細資訊，請參閱[建立自訂報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
+您可以建立內建報表的副本，並將其另存為新報表。 如需有關建立內建報表復本的詳細資訊，請參閱文章[建立報表復本](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md)中的[建立報表的新版本](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md#create-a-new-version-of-a-report)。
 
 下列報表隨Workfront套件提供。 報表適用於存取層級中至少擁有內建報表檢視許可權的所有使用者。
 

@@ -6,9 +6,9 @@ description: 您可以依物件上存在的日期的時間範圍來篩選報表�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7dea484c-d38e-4786-85d0-f4c106cfa46f
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1027'
 ht-degree: 5%
 
 ---
@@ -129,11 +129,11 @@ ht-degree: 5%
 
 ## 內建時間範圍修飾元 {#built-in-time-frame-modifiers}
 
-Adobe Workfront有內建的時間範圍修飾元，您無需定義特定日期即可使用。 
+Adobe Workfront有內建的時間範圍修飾元，您無需定義特定日期即可使用。
 
-這些修飾詞適用於篩選器中的任何日期欄位，或任何報表中的提示。 
+這些修飾詞適用於篩選器中的任何日期欄位，或任何報表中的提示。
 
-如需如何依與日期相關聯的時間範圍篩選報表的詳細資訊，請參閱  [依日期的時間範圍篩選報告](#filter-a-report-by-the-time-frame-of-a-date)。
+如需如何依與日期相關聯的時間範圍篩選報告的詳細資訊，請參閱上節的[依日期的時間範圍篩選報告](#filter-a-report-by-the-time-frame-of-a-date)。
 
 例如，如果您正在建立時數報表，而且想要顯示在特定時間範圍內輸入的時數，您可以從下列內建時間範圍篩選選項中選擇：
 

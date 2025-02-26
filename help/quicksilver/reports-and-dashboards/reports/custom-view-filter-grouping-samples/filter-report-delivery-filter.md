@@ -7,7 +7,7 @@ description: 此報告篩選器會顯示所有排程在Adobe Workfront中自動�
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 7b937384-80c9-4bc7-94be-5573cf86b35b
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 1%
@@ -65,8 +65,16 @@ ht-degree: 1%
 若要套用此篩選：
 
 1. 前往報告清單。
+
 1. 從&#x200B;**篩選器**&#x200B;下拉式功能表中，選取&#x200B;**新增篩選器**。
 
 1. 按一下&#x200B;**切換到文字模式**。
-1. 在&#x200B;**設定報表**&#x200B;的篩選規則區域中，複製並貼上下列程式碼： `scheduledReportID=0<br>scheduledReportID_Mod=notnull`
+
+1. 在&#x200B;**設定報表**&#x200B;的篩選規則區域中，複製並貼上下列程式碼：
+
+   ```
+   scheduledReportID=0
+   scheduledReportID_Mod=notnull
+   ```
+
 1. 按一下「**儲存篩選器**」。

@@ -9,9 +9,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -41,10 +41,16 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新計畫：標準 </p>
- <p>或</p> 
-<p>目前計畫：計畫 </p> 
-</td> 
+   <td> 
+      <p>新增：</p>
+         <ul>
+         <li><p>標準</p></li>
+         </ul>
+      <p>目前：</p>
+         <ul>
+         <li><p>規劃</p></li>
+         </ul>
+   </td>
   </tr> 
  </tbody> 
 </table>

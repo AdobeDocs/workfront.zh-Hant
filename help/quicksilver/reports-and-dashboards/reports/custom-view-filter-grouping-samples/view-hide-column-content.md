@@ -7,9 +7,9 @@ description: 您可能想要隱藏檢視欄中的資訊。 您可以修改欄的
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f4c3e1ca-d750-4f8b-835c-254c20ad72b3
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,6 @@ ht-degree: 0%
 >* 您可以使用隱藏欄，依您不想要在檢視中顯示的特定物件來排序。\
 >  例如，您可以依任務檢視中的「任務編號」排序，並在檢視中隱藏「任務編號」資訊。 在這種情況下，欄中參照的物件有助於排序檢視，但該物件的資訊不會顯示在檢視中。
 >* 當您隱藏欄時，請注意欄中的資訊是隱藏的，但該欄仍然存在於檢視中。
->
 
 ## 存取需求
 
@@ -43,7 +42,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：<ul><li>修改檢視的貢獻者</li><li>用於修改報告的標準</li></ul></p><p>或</p>目前：<ul><li>請求修改檢視</li><li>計畫修改報表</li></ul></p> </td> 
+   <td> <p>新增：<ul><li>修改檢視的貢獻者</li><li>用於修改報告的標準</li></ul></p><p>目前：<ul><li>請求修改檢視</li><li>計畫修改報表</li></ul></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -67,7 +66,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**新增欄**&#x200B;並開始在&#x200B;**顯示在此欄**&#x200B;欄位中輸入「任務編號」，然後當它顯示在清單中時選取它。
 
-1. 按一下&#x200B;**切換到文字模式**，然後&#x200B;**編輯文字**。
+1. 按一下&#x200B;**切換到文字模式**，然後按一下&#x200B;**編輯文字模式**。
 1. 移除您在&#x200B;**編輯文字模式**&#x200B;方塊中找到的文字，並取代為下列程式碼：
 
    ```
@@ -85,7 +84,7 @@ ht-degree: 0%
    此程式碼中讓欄隱藏的重要變更包括：
 
    * `displayname=`：此行必須為空白。
-   * `valuefield=`：此專案已由`value`取代，且必須為空白。
+   * `valuefield=`：此行必須由`value=`取代，其必須為空白。
    * `width=`：根據欄位，此專案的值必須是&#x200B;**0**&#x200B;或&#x200B;**1**。
 
 1. 按一下&#x200B;**完成**，然後按一下&#x200B;**儲存檢視**。

@@ -6,9 +6,9 @@ description: 使用畫布控制面板的基本指示，包括如何導覽至您�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 43456634-f891-4262-93be-bdb9e7d58c77
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '618'
 ht-degree: 0%
 
 ---
@@ -23,11 +23,11 @@ ht-degree: 0%
 
 ## 先決條件
 
-* 您必須有Plan授權（目前的授權）或Standard授權（新的授權），才能建立Canvas Dashboard。\
-  如需Workfront授權型別的相關資訊，請參閱目前授權的[授權總覽](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)，以及新授權的[新授權總覽](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)。
+* 您的組織必須屬於畫布儀表板已關閉測試版。 如需詳細資訊，請參閱[畫布控制面板Beta版資訊](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)。
 
-* 您的Workfront管理員必須授予您在存取層級中編輯儀表板的存取權，才能建立或編輯畫布儀表板。\
-  如需授與儀表板「編輯」存取權的相關資訊，請參閱[授與報表、儀表板和行事曆的存取權](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)。
+* 您必須有Plan授權（目前的授權）或Standard授權（新的授權），才能建立Canvas Dashboard。 如需Workfront授權型別的相關資訊，請參閱[授權概述](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)或[新授權概述](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)。
+
+* 您的Workfront管理員必須提供存取層級中控制面板的編輯存取權，才能建立或編輯畫布控制面板。 如需授與「編輯」存取權的相關資訊，請參閱[授與報告、儀表板和行事曆的存取權](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)。
 
 ## 導覽至畫布控制面板
 
