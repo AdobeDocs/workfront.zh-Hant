@@ -2,21 +2,21 @@
 content-type: reference
 product-area: reports and dashboards
 navigation-topic: data connect
-title: 建立讀取器帳戶以進行Snowflake
+title: 建立Snowflake的讀者帳戶
 description: 若要存取Data Connect資料，您必須先建立Snowflake讀取器帳戶。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
-source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
+source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
 
-# 建立Reader帳戶或連線以進行Snowflake
+# 建立Snowflake的讀取器帳戶或連線
 
-若要存取Data Connect資料，您必須先為貴組織建立Snowflake讀取器（或服務）帳戶，然後為您想要存取Data Connect的每個使用者或工具建立新連線。
+若要存取Data Connect資料，首先必須為貴組織建立Snowflake讀取器（或服務）帳戶，然後為您想要存取Data Connect的每個使用者或工具建立新連線。
 
 建立連線後，您可以在&#x200B;**現有連線**&#x200B;標籤下的&#x200B;**資料連線**&#x200B;頁面（**主功能表** > **設定** > **系統** > **資料連線**）上按一下連線，以找到其相關聯的URL和使用者名稱。
 
@@ -38,17 +38,17 @@ ht-degree: 0%
     <ul>
         <li>Ultimate</li> 
     </ul>    
-   <p>可作為下列計畫的附加元件購買：</p> 
+   <!--<p>Can be purchased as an add-on to the following plans:</p> 
     <ul>
-        <li>選取</li> 
+        <li>Select</li> 
         <li>Prime</li>
-    </ul> 
+    </ul>--> 
     <p>Workfront Data Connect不適用於舊版Workfront計畫。</p> 
-   </td> </td> 
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td>規劃</td> 
+   <td><p>規劃</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->每個組織只需完成此程式一次。 如果&#x200B;**建立Reader帳戶**&#x200B;按鈕不存在於下述位置，則表示您的讀取器帳戶已經建立。
+>每個組織只需完成此程式一次。 如果&#x200B;**建立Reader帳戶**&#x200B;按鈕不存在於下述位置，則表示您的讀取者帳戶已經建立。
 
 若要建立讀取器帳戶：
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 1. 在左側面板中，按一下&#x200B;**系統** > **資料連線**。
 
-1. 按一下&#x200B;**建立Reader帳戶**&#x200B;按鈕，開始建立組織的讀者帳戶。 此程式是自動的，但可能需要幾分鐘才能完成。
+1. 按一下&#x200B;**建立Reader帳戶**&#x200B;按鈕，開始建立您組織的讀者帳戶。 此程式是自動的，但可能需要幾分鐘才能完成。
 
 1. 完成後，對話方塊視窗會顯示說明您的讀者帳戶目前為使用中的狀態。 重新整理瀏覽器頁面以取得&#x200B;**建立新連線**&#x200B;按鈕的存取權。
 
@@ -93,17 +93,17 @@ ht-degree: 0%
 
    ![建立新連線](/help/quicksilver/reports-and-dashboards/data-lake/assets/new-reader-connection.png) {width="500"}
 
-1. 將會產生&#x200B;**預設密碼**，以及可透過Snowflake檢視您資料的URL。 您必須使用密碼搭配您選擇用來首次Snowflake的使用者名稱，以確保您同時保留該密碼和URL的記錄。 核取宣告您已完成此作業的方塊，然後按一下&#x200B;**關閉**。
+1. 將會產生&#x200B;**預設密碼**，以及可透過Snowflake檢視您資料的URL。 您將需要使用密碼搭配您選擇用來首次登入Snowflake的使用者名稱，因此請務必將其與URL一起記錄。 核取宣告您已完成此作業的方塊，然後按一下&#x200B;**關閉**。
 
    ![預設帳戶密碼](/help/quicksilver/reports-and-dashboards/data-lake/assets/default-password-reader-account.png) {width="500"}
 
-1. 使用瀏覽器開啟Snowflake以瀏覽至上一步驟的URL，輸入您選取的使用者名稱和上一步驟的預設密碼，然後按一下&#x200B;**登入**。
+1. 使用瀏覽器開啟Snowflake以導覽至上一步驟的URL，輸入您選取的使用者名稱和上一步驟的預設密碼，然後按一下&#x200B;**登入**。
 
 1. 第一次成功登入後，系統會提示您選擇新密碼。 在&#x200B;**新密碼**&#x200B;和&#x200B;**確認密碼**&#x200B;欄位中輸入您選擇的密碼，然後按一下&#x200B;**提交**。
 
    ![重設Snowflake密碼](/help/quicksilver/reports-and-dashboards/data-lake/assets/reset-snowflake-password.png) {width="300"}
 
-1. 您現在可以使用使用者名稱和新密碼，在Snowflake或您選擇的商業視覺化工具中存取您的Data Connect Data Lake。
+1. 您現在可以使用使用者名稱和新密碼，存取Snowflake中的Data Connect Data Lake或您選擇的商業視覺化工具。
 
 ## 撤銷Reader帳戶
 

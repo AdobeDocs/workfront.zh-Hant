@@ -7,9 +7,9 @@ description: Workfront Data Connect可讓您將組織的Workfront資料與商業
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
+source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '595'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 Workfront Data Connect可讓您將組織的Workfront資料與商業智慧工具搭配使用，或將其儲存在外部資料倉儲中。
 
-若要將您的Data Connect資料湖與外部產品連線，您必須先建立連線，如[為Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md)建立讀取器帳戶或連線中所述。 然後，您必須依照以下[新增IP至允許清單](#add-ips-to-the-allowlist)中的說明，將任何必要的IP新增至允許清單。
+若要將您的Data Connect Data Lake與外部產品連線，您必須先建立連線，如[建立Snowflake的讀取器帳戶或連線中所述](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md)。 然後，您必須依照以下[新增IP至允許清單](#add-ips-to-the-allowlist)中的說明，將任何必要的IP新增至允許清單。
 
 大部分產品在建立連線時，都需要下列資料湖相關資訊：
 
@@ -55,19 +55,19 @@ Workfront Data Connect可讓您將組織的Workfront資料與商業智慧工具�
    <td role="rowheader">Adobe Workfront計畫</td> 
    <td><p>包含在下列計畫中：</p>
     <ul>
-        <li>Ultimate</li> 
+        <li><p>Ultimate</p></li> 
     </ul>    
-   <p>可作為下列計畫的附加元件購買：</p> 
+   <!--<p>Can be purchased as an add-on to the following plans:</p> 
     <ul>
-        <li>選取</li> 
+        <li>Select</li> 
         <li>Prime</li>
-    </ul> 
+    </ul>--> 
     <p>Workfront Data Connect不適用於舊版Workfront計畫。</p> 
    </td> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td>規劃</td> 
+   <td><p>規劃</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
