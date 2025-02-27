@@ -5,9 +5,9 @@ description: AI助理總覽
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: f496d5170ff087167130a6463e18ea44af50e21f
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '817'
 ht-degree: 1%
 
 ---
@@ -139,3 +139,30 @@ AI助理目前提供下列功能：
 1. 輸入貴組織將簽署Adobe Gen AI合約之個人的名稱和電子郵件地址。
 
    合約將傳送給此人簽署。 簽署並傳回之後，就會為貴組織啟用AI小幫手。
+
+## 在AI助理中建立提示的提示
+
+在提示中使用下列關鍵字，提供內容並協助尋找正確的資訊。 關鍵字不區分大小寫。
+
+輸入提示時，請包含片語`using (keyword)`。
+
+| 關鍵字 | 效果 |
+|---|---|
+| `workfront` | 與Workfront互動。 |
+| `planning ` | 與Workfront Planning互動。 |
+| `help` | 傳回Experience League檔案中的資訊。 |
+| `formula` | 檢查並傳回用於Planning、設定或自訂表單的公式。 |
+| `health` | 使用專案健康情況建議程式檢查專案健康情況。 |
+| `summarize` | 摘要專案，例如上傳檔案或摘要專案時。 |
+
+>[!NOTE]
+>
+> 並非所有關鍵字都可在所有區域使用。
+>
+>* `formula`關鍵字僅適用於Planning、設定和自訂表單產生器。
+>* `planning`關鍵字只能從Workfront Planning取得。
+
+
+
+
+
