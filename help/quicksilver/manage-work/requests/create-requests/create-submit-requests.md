@@ -6,9 +6,9 @@ description: 計畫工作在Adobe Workfront中以專案和任務表示。 不過
 author: Lisa
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
 workflow-type: tm+mt
-source-wordcount: '2411'
+source-wordcount: '2740'
 ht-degree: 1%
 
 ---
@@ -25,6 +25,10 @@ ht-degree: 1%
 </div>
 -->
 
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 計畫工作在Adobe Workfront中以專案和任務表示。 不過，您可能會在一個環境中工作，在這種環境中，非計畫工作（以請求的形式）可以隨時進入。 Workfront透過使用請求佇列提供可容納這種環境型別的工作流程。
 
 在「請求佇列」中建立請求後，您可以將請求指派給完成者，或將其轉換為任務或專案。\
@@ -35,7 +39,14 @@ ht-degree: 1%
 * 從頭開始，如本文所述。
 * 從草稿。 如需詳細資訊，請參閱[從草稿建立請求](../../../manage-work/requests/create-requests/create-requests-from-drafts.md)。
 * 從現有請求，透過複製和提交副本。 如需詳細資訊，請參閱[複製並提交請求](../../../manage-work/requests/create-requests/copy-and-submit-requests.md)。
-* 從Workfront Planning請求表單，在Workfront Planning中建立記錄。 貴組織必須購買Workfront Planning套件。 如需詳細資訊，請參閱[提交Adobe Workfront Planning要求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)。
+
+您可以從頭開始建立Workfront Planning請求，以透過下列方式在Workfront Planning中建立記錄：
+
+* 從Workfront Planning請求表單的連結。
+
+* <span class="preview">從Workfront請求區域中的Workfront計畫請求表單。</span>
+
+  貴組織必須購買Workfront Planning套件。 如需詳細資訊，請參閱[提交Adobe Workfront Planning要求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)。
 
 ## 存取需求
 
@@ -113,6 +124,15 @@ Workfront管理員必須建立「請求佇列」的下列元件：
 
 {{step1-to-requests}}
 
+1. <span class="preview"> （選擇性和條件性）如果下列專案適用於您的組織和Workfront執行個體，請選取畫面右上角的&#x200B;**切換至新體驗**&#x200B;設定： </span>
+
+   * <span class="preview">您的組織已購買Workfront套件</span>
+   * <span class="preview">您的組織已加入Adobe Unified Experience。
+   * <span class="preview">您的管理員已授與您存取Workfront Planning的許可權</span>
+   * <span class="preview">您至少擁有Workfront規劃工作區的檢視許可權</span>
+
+   如需詳細資訊，請參閱[提交Adobe Workfront Planning要求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)
+
 1. 按一下頁面右上角的&#x200B;**新要求**。
 
    >[!TIP]
@@ -120,7 +140,19 @@ Workfront管理員必須建立「請求佇列」的下列元件：
    >* 您可以從請求區域的任何區段存取新請求選項。
    >* 當您無權建立問題時，新請求選項會變暗。
 
-1. （視條件而定）在&#x200B;**要求型別**&#x200B;欄位內按一下，然後執行下列任一項作業：
+   **新要求**&#x200B;方塊開啟。
+
+1. <span class="preview">（條件式）如果您切換至包含Workfront Planning的新體驗，**新請求**&#x200B;方塊會顯示下列專案：</span>
+
+   * <span class="preview">最近存取的6個Workfront要求佇列和Planning要求表單會顯示在「最近」區段中。</span>
+   * <span class="preview">其他Workfront要求佇列和計畫要求表單會依字母順序顯示在&#x200B;**所有要求表單**&#x200B;區段中。 您可以搜尋預設不會顯示的請求佇列。</span>
+
+   ![具有計畫要求的統一工作流程的新要求方塊](assets/new-request-box-with-unified-workflow-for-planning-requests.png)
+
+   <span class="preview">按一下其中一個Workfront請求佇列卡片，或搜尋其中一個卡片，然後當它顯示在清單中時按一下它。</span>
+1. （視條件而定） <span class="preview">如果您切換到包含Workfront Planning的新體驗，請選取您的主題群組和佇列主題，並繼續更新表單</span>
+
+   否則，請在&#x200B;**要求型別**&#x200B;欄位內按一下，然後執行下列任一項作業：
 
    * 從&#x200B;**最近使用的路徑**&#x200B;區段中，選取您最近用來開啟要求佇列的路徑。 路徑包括請求佇列、主題群組，以及您最近提交的佇列主題。 依預設會顯示最後三個路徑。
 
@@ -301,6 +333,8 @@ Workfront管理員必須建立「請求佇列」的下列元件：
 
    當您提交請求時，草稿會自動刪除且無法還原。
 
+   已提交的請求列在請求區域的&#x200B;**已提交**&#x200B;區段中。 <span class="preview">如果您使用包含Workfront Planning的新體驗，Workfront提交的請求會顯示在「請求」區域的「**Workfront**」標籤中。</span>
+
    如需有關處理傳入請求的資訊，請參閱文章[管理工作和團隊請求](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md)。
 
    如需尋找已提交或草擬之要求的詳細資訊，請參閱[尋找已提交的要求](../../../manage-work/requests/create-requests/locate-submitted-requests.md)。
@@ -348,7 +382,7 @@ Workfront管理員必須建立「請求佇列」的下列元件：
 
 ## 使用Workfront Planning請求表單建立請求
 
-您可以使用Workfront Planning請求表單來新增請求。 如果請求表單已核准或不需要核准，新增Workfront Planning請求可能會建立Planning記錄。
+您可以使用Planning請求表單新增Workfront Planning請求。 如果請求表單已核准或不需要核准，新增Workfront Planning請求可能會建立Planning記錄。
 
 貴組織必須購買Workfront Planning套件才能提交Planning請求。
 

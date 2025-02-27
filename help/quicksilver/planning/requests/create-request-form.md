@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 5510f99e9e5c8c4c5f85953e19563f9ab18b0fae
+source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
 workflow-type: tm+mt
-source-wordcount: '1538'
-ht-degree: 2%
+source-wordcount: '1868'
+ht-degree: 1%
 
 ---
 
@@ -19,11 +19,10 @@ ht-degree: 2%
 
 <!--take Preview and Production references at Production time-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
--->
 
 {{planning-important-intro}}
 
@@ -117,46 +116,37 @@ ht-degree: 2%
 
 ## 請求表單中的欄位和值顯示限制
 
-<!--
+在您提交請求後，某些欄位在請求表單上的顯示方式，以及它們的值稍後如何在記錄或請求詳細資訊頁面上顯示，皆有限制。
 
-There are limitations in how certain fields display on the request form and how their values later display on the records or the request details page, after you submit a request. 
+如需有關提交Workfront Planning要求的資訊，請參閱[提交Adobe Workfront Planning要求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)。
 
-For information about submitting requests to create records, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md). 
+* 以下為要求表單、要求表單建立的記錄或要求詳細資訊頁面中特定欄位顯示方式的限制：
 
-The following are limitations for how certain fields display in request forms, records created by a request form, or on the request details page: -->
+   * 您無法將下列型別的欄位新增至請求表單：
 
-* 您無法將下列型別的欄位新增至請求表單：
+      * 建立者和上次修改者
+      * 建立日期和上次修改日期
+      * 公式。 <span class="preview">預覽環境中支援公式欄位。</span>
+      * Workfront物件的查閱欄位
+      * Workfront Planning連線記錄的查詢欄位
 
-   * 建立者和上次修改者
-   * 建立日期和上次修改日期
-   * 公式。 預覽環境中支援公式欄位。
-   * Workfront物件的查閱欄位
-   * Workfront Planning連線記錄的查詢欄位
-
-<!--at release to Preview, replace the above with this:  
->
->Fields of the following types do not display in the request form:
->* Created by and Last modified by
->* Created date and Last modified date
->* Formula. <span class="preview">Formula fields display in request forms in the Preview environment.</span>
->* Workfront objects' lookup fields
->* Workfront Planning connected records' lookup fields-->
-
-* 欄位格式在請求表單產生器中顯示的方式與值在記錄或請求詳細資訊頁面中的格式之間的差異：
+* 以下為欄位格式在請求表單產生器中顯示方式，與欄位值在記錄或請求詳細資訊頁面中的格式設定方式之間的差異：
 
    * 「貨幣」、「數字」和「百分比」欄位會在表單產生器中顯示為「單行」文字欄位型別。
 
      但是，欄位格式會保留，而且這些欄位中數字的值會在記錄型別和請求詳細資訊頁面中顯示為「貨幣」、「數字」和「百分比」值。
 
-<!--
-* The following describes how some field values display on request forms and the request details pages: 
+<div class="preview">
 
-   * Special formatting for Currency, Number, and Percentage fields is not preserved. For example, the decimal precision is not preserved for these fields' values in these areas.
-   * People field values display as IDs.
-   * Formula fields that don't refer to other fields or calculations don't display any values. For example, a field with a `STRING` formula displays a "N/A" value.
-   * Formula fields that refer to Currency fields display the values without accounting for exchange rates.
-   * The values of Paragraph fields that contain special formatting display a "N/A" value on the request form and they display html tags instead of the formatted text in the request details page.
--->
+* 以下說明某些欄位值如何在請求表單和請求詳細資訊頁面上顯示：
+
+   * 不保留貨幣、數字和百分比欄位的特殊格式。 例如，這些區域中的這些欄位值不會保留小數精確度。
+   * 人員欄位值會顯示為ID。
+   * 未參考其他欄位或計算的公式欄位不顯示任何值。 例如，具有`STRING`公式的欄位會顯示「N/A」值。
+   * 參考「幣別」欄位的公式欄位會顯示不含匯率會計的值。
+   * 包含特殊格式的「段落」欄位值會在請求表單上顯示「N/A」值，並在請求詳細資訊頁面中顯示html標籤而非格式化的文字。
+
+</div>
 
 ## 建立記錄型別的請求表單
 
@@ -170,7 +160,7 @@ The following are limitations for how certain fields display in request forms, r
 
    記錄型別頁面會在您上次存取的檢視中開啟。 依預設，會在表格檢視中開啟記錄型別頁面。
 
-1. 按一下頁面標頭中記錄型別名稱右側的&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，然後按一下&#x200B;**建立請求表單**。
+1. 按一下頁面標頭中記錄型別名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**建立請求表單**。
 1. 更新要求表單的名稱。 依預設，表單的名稱為&#x200B;**未命名表單**。<!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. （選用）為要求表單新增&#x200B;**描述**。
 
@@ -178,7 +168,7 @@ The following are limitations for how certain fields display in request forms, r
 
 1. 按一下 **建立**。所選記錄型別的請求表單會在「表單」標籤中開啟。
 
-   ![](assets/campaigns-request-form-edit-mode.png)
+   ![行銷活動要求表單編輯模式](assets/campaigns-request-form-edit-mode.png)
 
    依預設，請求表單包含下列資訊：
 
@@ -197,7 +187,8 @@ The following are limitations for how certain fields display in request forms, r
 
 1. （選擇性）將滑鼠停留在您要移除的表單上任何欄位上，然後按一下&#x200B;**x**&#x200B;圖示以移除它們。 已將它們新增至表單左側的&#x200B;**欄位**&#x200B;索引標籤。
 
-   例如，移除&#x200B;**主旨**&#x200B;欄位，因為在Workfront Planning中看不到此欄位。<!--remove this step when we connect intake with the Requests area in Workfront-->
+   例如，移除&#x200B;**主旨**&#x200B;欄位，因為在Workfront Planning中看不到此欄位。<!--remove this example if this becomes visible in Planning?-->
+
 1. （選擇性）若要從表單中移除&#x200B;**預設區段**，請執行下列動作：
 
    1. 從預設區段中移除所有欄位。
@@ -227,7 +218,7 @@ The following are limitations for how certain fields display in request forms, r
 
 1. （選擇性）按一下&#x200B;**組態**&#x200B;標籤，然後新增至少一名使用者至&#x200B;**核准者**&#x200B;欄位，以核准此記錄表單的新要求。
 
-   ![](assets/configuration-tab.png)
+   ![設定索引標籤](assets/configuration-tab.png)
 
    <!--below bullet list is duplicated in the Add approval to a request form article-->
 
@@ -238,7 +229,7 @@ The following are limitations for how certain fields display in request forms, r
 
      如需新增核准至請求表單的詳細資訊，請參閱[新增核准至請求表單](/help/quicksilver/planning/requests/add-approval-to-request-form.md)。
 
-1. （選擇性）按一下標題中表單名稱右側的&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，然後按一下&#x200B;**編輯**&#x200B;以更新表單名稱。
+1. （選擇性）按一下標題中表單名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**編輯**&#x200B;以更新表單名稱。
 1. 按一下&#x200B;**發佈**&#x200B;以發佈表單並取得其唯一連結。
 
    會發生下列情況：
@@ -249,7 +240,7 @@ The following are limitations for how certain fields display in request forms, r
 
 1. 按一下&#x200B;**共用**&#x200B;以與其他人共用表單。
 
-   ![](assets/share-box-for-request-form.png)
+   ![分享要求表單](assets/share-box-for-request-form.png)的方塊
 
 1. 從下列選項中選取，指示哪些型別的使用者可以存取此表單：
 
@@ -261,7 +252,7 @@ The following are limitations for how certain fields display in request forms, r
    >
    >* 當您選取&#x200B;**擁有連結的任何人**&#x200B;時，任何人都可以存取表單並提交新記錄，甚至組織外沒有Workfront帳戶的人也可以。
    >
-   > * 包含下列欄位型別的表單無法公開共用：
+   >* 包含下列欄位型別的表單無法公開共用：
    >
    >     * Workfront或AEM Assets連線
    >     * 人員
@@ -271,7 +262,12 @@ The following are limitations for how certain fields display in request forms, r
 
    您可以從目前日期起180天內選取未來日期。
 
-1. 按一下&#x200B;**儲存並複製連結**&#x200B;以儲存表單的共用詳細資料。 如果表單先前已儲存，請按一下&#x200B;**複製連結**。
+   >[!TIP]
+   >
+   ><span class="preview">共用日期過期後，Workfront的[要求]區域將不再提供要求表單。</span>
+
+
+1. <span class="preview">（選擇性）</span>按一下&#x200B;**儲存並複製連結**&#x200B;以儲存表單的共用詳細資料。 如果表單先前已儲存，請按一下&#x200B;**複製連結**。
 
    表單共用選項會儲存且連結會複製到您的剪貼簿。 您現在可以與其他人共用。
 
@@ -281,11 +277,12 @@ The following are limitations for how certain fields display in request forms, r
 1. 按一下頁首中表單名稱左側的向左箭頭以關閉表單。
 
    記錄型別頁面隨即開啟。
-1. （選擇性）按一下標題中記錄型別名稱右側的&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，然後執行下列任一項作業：
+1. （選擇性）按一下標題中記錄型別名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後執行下列任一項作業：
    * 按一下&#x200B;**更新要求表單**&#x200B;以變更要求表單。
    * 按一下&#x200B;**複製表單連結**&#x200B;以與其他人共用表單連結。
+   * <span class= "preview">移至Workfront中的&#x200B;**要求**&#x200B;區域，並尋找共用表單以提交要求。 如需詳細資訊，請參閱[提交Adobe Workfront Planning要求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)。</span>
 
    >[!TIP]
    >
    >如果是這種情況，表示連結已公開共用。
-   >![](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
+   >![記錄型別功能表上的表單公開共用連結](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)

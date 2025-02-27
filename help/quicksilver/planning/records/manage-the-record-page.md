@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: f3f33d870859408db5ec3dc306cf1d4209c126a3
+source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
 workflow-type: tm+mt
-source-wordcount: '1772'
+source-wordcount: '1914'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # 管理記錄頁面配置
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">本頁標示的資訊是指尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -161,11 +161,11 @@ ht-degree: 0%
 
    記錄的預覽會在檢視中開啟。
 
-   <!--<div class="preview">
+   <div class="preview">
 
-    ![Details box](assets/details-box.png)  
+   ![詳細資訊方塊](assets/details-box.png)
 
-    </div>-->
+   </div>
 
 1. （選擇性）按一下記錄預覽右上角的&#x200B;**在新索引標籤中開啟**&#x200B;圖示![在新索引標籤中開啟詳細資料](assets/open-details-in-a-new-tab-icon.png)，以在新索引標籤中開啟記錄頁面。
 
@@ -244,23 +244,29 @@ ht-degree: 0%
 
    記錄的預覽會在檢視中開啟。
 
-   <!--<div class="preview">
+   <div class="preview">
 
-    ![Details box](assets/details-box.png) 
+   ![詳細資訊方塊](assets/details-box.png)
 
-    </div>-->
+   </div>
 
 1. （選擇性）按一下記錄預覽右上角的&#x200B;**在新索引標籤中開啟**&#x200B;圖示![在新索引標籤圖示中開啟詳細資訊方塊](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->，以在新索引標籤中開啟記錄的頁面。
 
    記錄的&#x200B;**詳細資料**&#x200B;索引標籤預設會開啟。
 
-   <!--<div class="preview">
+   <div class="preview">
 
-   ![Details page](assets/details-page.png)
+   ![詳細資料頁面](assets/details-page.png)
 
-   </div>-->
+   </div>
 
-1. 在記錄&#x200B;**詳細資料**&#x200B;索引標籤中，按一下欄位名稱左側的&#x200B;**抓取**&#x200B;圖示![抓取圖示](assets/grab-icon.png)，然後將其拖放到所要的位置。<!--You can drag and drop fields to another section. You must have at least one field in a section.-->
+1. 在記錄&#x200B;**詳細資料**&#x200B;索引標籤中，按一下欄位名稱左側的&#x200B;**抓取**&#x200B;圖示![抓取圖示](assets/grab-icon.png)，然後將其拖放到所要的位置。
+
+   >[!TIP]
+   >
+   >您可以將欄位拖放至另一個區段。
+   >區段中必須至少有一個欄位。
+   >
 
    對於檢視記錄的所有使用者，相同型別的所有記錄預覽和頁面中的欄位新位置都會更新。
 
@@ -295,23 +301,29 @@ ht-degree: 0%
 您選取之記錄型別的表格檢視會顯示，而連線的記錄會顯示在表格檢視中。
 已連線記錄的所有欄位都會顯示在已連線記錄之索引標籤的表格檢視中。
 
-   <!--<span class="preview">When you access Workfront Planning from the Preview environment, the first five fields from the connected record table display by default. No lookup fields display by default. -->
+   <span class="preview">當您從「預覽」環境存取Workfront Planning時，預設會顯示所連線記錄表格的前五個欄位。 預設不會顯示任何查閱欄位。</span>
 
    表格檢視是唯讀的。
 
    <!--replace screen shot below when additional capabilities come to the table view - Fields, etc-->
 
+   <div class="preview">
+
    ![行銷活動詳細資料下的對象已連線資料表檢視](assets/audience-connected-table-view-under-campaign-details-page.png)
+
+   </div>
+
 1. （可選）按兩下標籤的名稱
 
    或
 
    將游標暫留在索引標簽名稱上，然後按一下[其他] **** ![ [其他]功能表](assets/more-menu.png)，然後按一下[重新命名] **以重新命名為新的[連線檢視]索引標籤。**
-1. （可選）使用工具列中的下列任何檢視元素來管理表格檢視
+1. （可選）使用工具列中的下列任何檢視元素來管理表格檢視：
 
    * 篩選器
    * 排序
    * 分組
+   * <span class="preview">欄位，以顯示、隱藏或重新排列欄位</span>
 
    <!--Add to the list above from the list below - and condition these for Preview only: Hide fields, rearrange fields-->
 
@@ -321,11 +333,14 @@ ht-degree: 0%
    >
    >   您無法在已連線記錄之索引標籤的表格檢視中進行下列任何操作：
    >
-   >   * 隱藏欄位
+   >   * 隱藏或重新排列欄位。 <span class="preview">您可以在預覽環境中隱藏及重新排列欄位。</span>
    >   * 建立、編輯或刪除欄位
-   >   * 重新排列欄位
    >
-1. （選擇性）將滑鼠停留在索引標簽名稱上，然後按一下&#x200B;**更多** ![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**刪除**&#x200B;以移除新的[連線檢視]索引標籤。
+
+1. <span class="preview">按一下&#x200B;**連線**&#x200B;以新增或移除記錄。 如需詳細資訊，請參閱[連線記錄](/help/quicksilver/planning/records/connect-records.md)</span>
+1. （選擇性）將游標暫留在[連線檢視]索引標簽名稱上，按一下[其他] **** ![ [其他]功能表](assets/more-menu.png)，然後按一下[刪除] ****&#x200B;以移除新的[連線檢視]索引標籤。
+
+
 
 
 <!--

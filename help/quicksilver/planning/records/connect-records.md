@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
+source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
 workflow-type: tm+mt
-source-wordcount: '3082'
+source-wordcount: '3249'
 ht-degree: 1%
 
 ---
@@ -155,8 +155,9 @@ ht-degree: 1%
 您可以在Workfront Planning記錄的下列區域中連線記錄：
 
 * 表格檢視中的已連線記錄欄位。
-* 記錄的預覽或頁面在詳細資訊索引標籤的已連線記錄欄位中。
-* 記錄在「連線」標籤上的預覽或頁面。
+* 記錄的預覽方塊或頁面在詳細資訊索引標籤的已連線記錄欄位中。
+* 記錄的預覽方塊或頁面（在連線標籤上）。
+* <span class="preview">記錄在[連線檢視]索引標籤上的頁面。</span> <!--this needs title edit when they rename the "Connection view" page type-->
 
 ### 從記錄的表格檢視或詳細資訊區域連線Workfront Planning記錄
 
@@ -462,3 +463,25 @@ ht-degree: 1%
 * 您的Workfront或群組管理員必須將「計畫」區段新增至您的版面配置範本中的Workfront專案、投資組合和計畫。
 
 如需詳細資訊，請參閱[在Adobe Workfront物件的Planning區段管理記錄](/help/quicksilver/planning/records/manage-records-in-planning-section.md)。
+
+<div class="preview">
+
+## 從記錄詳細資訊頁面上的「連線」檢視標籤中連線記錄
+
+<!--section needs title edit when they rename the "Connection view" page type-->
+
+1. 移至記錄型別的任何檢視，該記錄型別已連線到其他Planning記錄型別或其他應用程式的物件型別。
+1. 請依照先前子段落中所述的步驟，在檢視中尋找要與其他記錄或物件連線的記錄。
+1. 按一下記錄名稱。
+
+   預覽頁面隨即開啟。
+1. 按一下&#x200B;**在新標籤中開啟**&#x200B;圖示![在新標籤中開啟詳細資料](assets/open-details-in-a-new-tab-icon.png)以開啟紀錄的頁面。
+1. 在記錄的預覽或頁面中按一下現有的連線檢視索引標籤。 您必須先建立「連線」檢視頁面。 如需詳細資訊，請參閱[管理記錄頁面配置](/help/quicksilver/planning/records/manage-the-record-page.md)。
+
+   表格檢視中會顯示已連線的記錄型別頁面。
+1. 按一下&#x200B;**連線**&#x200B;以新增或移除記錄。
+
+   連線記錄詳細資訊索引標籤中反白的![連線按鈕](assets/connect-button-highlighted-in-connected-record-details-tab.png)
+1. （選擇性）如果找不到已連線的記錄，請按一下[新增] **+ [新增]**&#x200B;來建立並連線它們。
+
+</div>
