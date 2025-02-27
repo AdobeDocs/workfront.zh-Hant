@@ -6,14 +6,16 @@ description: 您可以與其他使用者共用行事曆，也可以公開行事�
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 77eed0fe-2d47-40c4-a03d-590f7fa17dbe
-source-git-commit: d90459cb4f6fb1960552f0ab174e963582312b5c
+source-git-commit: 041e812d0663304b4bd51134020209d3a67e1423
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '668'
 ht-degree: 0%
 
 ---
 
 # 共用行事曆報告
+
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽Sandbox」環境中使用。</span>
 
 您可以與其他使用者共用行事曆，也可以公開使用，讓沒有[!DNL Adobe Workfront]授權的人檢視行事曆。
 
@@ -63,6 +65,8 @@ ht-degree: 0%
 若要在[!DNL Workfront]內共用行事曆：
 
 1. 移至您要共用的行事曆。
+1. <span class="preview">在預覽中，按一下行事曆名稱旁的&#x200B;**更多**&#x200B;功能表，然後按一下&#x200B;**共用**。
+   ![行事曆更多功能表](assets/more-menu-calendar.png)</span>
 1. 按一下&#x200B;**[!UICONTROL 行事曆動作]**，然後按一下&#x200B;**[!UICONTROL 共用]**。
 
 1. 在&#x200B;**[!UICONTROL 授與行事曆存取權]**&#x200B;欄位中，開始輸入您要共用行事曆的使用者、團隊、角色、群組或公司名稱，然後按一下顯示在下拉式清單中的名稱。\
@@ -74,10 +78,12 @@ ht-degree: 0%
    * **[!UICONTROL 檢視]：**&#x200B;使用者可以檢閱和共用行事曆。
 
      ![共用行事曆以檢視存取權](assets/calendar-share-view-permissions-350x249.png)
+     <!--![Share calendar with view access](assets/view-calendar.png)-->
 
    * **[!UICONTROL 管理]：**&#x200B;使用者擁有行事曆的完整存取權，減去在存取層級授與的管理許可權，再加上所有檢視許可權。
 
      ![使用管理存取權共用行事曆](assets/calendar-share-manage-permissions-350x241.png)
+     <!--![Share calendar with manage access](assets/manage-calendar.png)-->
 
      >[!NOTE]
      >
@@ -98,9 +104,12 @@ ht-degree: 0%
 
 1. 移至您要共用的行事曆。
 1. 按一下&#x200B;**[!UICONTROL 行事曆動作]**，然後按一下&#x200B;**[!UICONTROL 共用]**。
+1. <span class="preview">在預覽中，按一下行事曆名稱旁的&#x200B;**更多**功能表。
+   ![行事曆更多功能表](assets/more-menu-calendar.png)</span>
 
 1. 按一下齒輪圖示，然後按一下&#x200B;**[!UICONTROL 將此專案公開給外部使用者]**。
 1. 按一下&#x200B;**[!UICONTROL 複製連結]**。
+1. <span class="preview">在預覽中，按一下&#x200B;**複製公開連結**。</span>
 1. 按一下「**[!UICONTROL 儲存]**」。
 
 ## 與私人連結共用行事曆
@@ -108,8 +117,9 @@ ht-degree: 0%
 您可以與[!DNL Workfront]個使用者共用私人行事曆連結。 使用者需要登入才能在使用連結時檢視行事曆。
 
 1. 移至您要共用的行事曆。
+1. <span class="preview">在預覽中，按一下行事曆名稱旁的&#x200B;**更多**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 取得可共用的連結]**。
+   ![行事曆更多功能表](assets/more-menu-calendar.png)</span>
 1. 按一下&#x200B;**[!UICONTROL 行事曆動作]**，然後按一下&#x200B;**[!UICONTROL 取得可共用的連結]**。
-
 1. 按一下&#x200B;**[!UICONTROL 複製連結]**。
 
    >[!NOTE]
