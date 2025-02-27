@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
+source-git-commit: 22a293cf4ded2c24c58f3948c1e7b41fa1055e3f
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1481'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,62 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 如需針對Adobe Workfront Planning發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## 在瀏覽器分頁名稱中顯示Workfront Planning請求的詳細資訊頁面的記錄名稱
+
+>[!NOTE]
+>
+>預覽版： 2025年2月27日；快速發行生產：25.3版（2025年3月）；每季生產：25.4版（2025年4月）
+
+我們已更新Workfront Planning請求詳細資訊頁面在瀏覽器中的顯示方式。 現在，請求建立的記錄名稱會顯示為瀏覽器分頁名稱。 在此增強功能之前，瀏覽器索引標籤顯示「Workfront」。
+
+## Workfront和Planning的統一請求工作流程
+
+>[!NOTE]
+>
+>預覽版： 2025年2月27日；快速發行生產：25.3版（2025年3月）；每季生產：25.4版（2025年4月）
+
+您現在可以在主功能表的請求區域中提交Workfront和Workfront計畫請求。
+
+此更新現在提供下列功能：
+
+* 「新請求」按鈕旁的新切換開關會在「請求」區域中啟用此體驗。 取消選取切換後，您只能提交Workfront請求。
+
+* 您可以在統一可搜尋區域中找到Workfront請求佇列和Workfront計畫請求表單。
+
+* 最近6個請求會先顯示在統一可搜尋區域中。
+
+如需詳細資訊，請參閱[提交Adobe Workfront Planning要求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)。
+
+## 現在請求表單中支援公式欄位
+
+>[!NOTE]
+>
+>預覽版： 2025年2月27日；快速發行生產：25.3版（2025年3月）；每季生產：25.4版（2025年4月）
+
+您現在可以在Workfront Planning中將公式欄位新增至記錄型別請求表單。
+
+在此增強功能之前，這些型別的欄位無法新增到請求表單。
+
+如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
+
+## 更新記錄的「連線」檢視頁面
+
+>[!NOTE]
+>
+>預覽版： 2025年2月27日；快速發行生產：25.3版（2025年3月）；每季生產：25.4版（2025年4月）
+
+我們更新了記錄頁面的「連線」檢視，其功能如下：
+
+* 依預設，只有連線的記錄的前5個欄位會顯示在表格檢視中。 在此更新之前，顯示所有欄位。
+
+* 您現在可以隱藏連線記錄表格檢視中的欄。
+
+* 您可以使用表格工具列中的「欄位」圖示來重新排列欄。
+
+* 您可以連線及中斷記錄連線。
+
+如需詳細資訊，請參閱[管理記錄頁面配置](/help/quicksilver/planning/records/manage-the-record-page.md)。
 
 ## 新運算式已新增到公式欄位
 
