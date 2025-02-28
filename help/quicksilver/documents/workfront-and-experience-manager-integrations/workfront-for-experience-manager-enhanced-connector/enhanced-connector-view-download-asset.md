@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront中檢視或下載從Experience Manager 
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4516ddf7-b39d-4bd7-8e59-4b3bdad5b643
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 開始之前，您必須
 
-* 安裝Workfront for Experience Manager增強型聯結器
+* 安裝適用於Experience Manager增強型聯結器的Workfront
 
 ## 從Experience Manager Assets檢視或下載連結的資產
 
@@ -62,4 +62,4 @@ ht-degree: 0%
 1. 從檔案清單中選取檔案。
 1. 在右側的[檔案摘要]中，將滑鼠停留在頂端的縮圖上，並選擇[預覽] **或[下載]** **。**
 
-   ![](assets/view-or-download-enhanced-connector-350x123.png)
+   ![預覽或下載](assets/view-or-download-enhanced-connector-350x123.png)
