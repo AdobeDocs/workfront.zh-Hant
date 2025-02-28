@@ -7,9 +7,9 @@ description: 瞭解專案的預算勞力成本和預算時數
 author: Lisa
 feature: Work Management
 exl-id: 01020bbb-7cf9-4461-b0b6-dcbbc537c616
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1140'
 ht-degree: 0%
 
 ---
@@ -76,11 +76,11 @@ Workfront使用專案上工作角色的預算勞力成本來計算專案的預�
 
 * [!UICONTROL **預算勞力成本**]：業務案例在其各自角色下的資源預算區域。
 
-  ![](assets/budgeted-labor-cost-for-users-in-business-case-highlighted-350x73.png)
+  ![業務案例中的預算勞力成本](assets/budgeted-labor-cost-for-users-in-business-case-highlighted-350x73.png)
 
 * [!UICONTROL **BDG**]：資源規劃工具在依成本檢視專案和角色檢視中檢視資訊時。
 
-  ![](assets/budgeted-labor-cost-for-users-in-rp-project-view-cost--highlighted-350x115.png)
+  ![資源規劃中的預算勞力成本](assets/budgeted-labor-cost-for-users-in-rp-project-view-cost--highlighted-350x115.png)
 
 如果使用者符合下列需求，則他們會在業務案例的資源預算區域顯示其各自的角色下，或顯示在「資源規劃工具」中：
 
