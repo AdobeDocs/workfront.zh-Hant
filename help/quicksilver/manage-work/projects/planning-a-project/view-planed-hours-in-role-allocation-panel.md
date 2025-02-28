@@ -6,9 +6,9 @@ description: 您可以在專案的「角色配置」面板中，檢視指派給�
 author: Alina
 feature: Work Management
 exl-id: 76f70cb6-f707-4a73-bc81-e755e2d0a33d
-source-git-commit: 67deb48ebc90dd4a93c2af1cb89442ee2486cb16
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '471'
 ht-degree: 1%
 
 ---
@@ -100,7 +100,7 @@ ht-degree: 1%
 
 ## 在角色分配面板中檢視專案計畫時數
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**專案**。
+1. 按一下Adobe Workfront右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**專案**。
 1. 按一下專案名稱以存取。 如此將可開啟「專案」頁面。
 1. 在左側面板中按一下下列其中一項：
 
