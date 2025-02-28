@@ -6,9 +6,9 @@ description: 每個Widget都包含自己的工作清單。 工作清單會顯示
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: 0bd250b323a4e8e83d7ce8b42d0446c3879d7e6b
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '1016'
 ht-degree: 4%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>您需要處理的任務和問題的Contribute許可權或更高版本</p>  </td> 
+   <td> <p>貢獻您需要處理的任務和問題的許可權或更高</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -104,7 +104,7 @@ ht-degree: 4%
 
 若要篩選您的工作：
 
-1. 按一下右上角的&#x200B;**[!UICONTROL 主要功能表]** ![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
+1. 按一下右上角的&#x200B;**[!UICONTROL 主功能表]** ![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
 1. （視條件而定）按一下&#x200B;**自訂**&#x200B;以新增下列任何Widget：
 
    | 小工具 | 說明 |
@@ -117,12 +117,12 @@ ht-degree: 4%
    | 我的請求 | 顯示您已提交的所有請求 |
    | 我的核准 | 顯示所有擱置、已指派、已委派及已提交的核准 |
 
-1. 按一下Widget工作清單右上角的&#x200B;**篩選器**&#x200B;圖示![](assets/filter-nwepng.png)。
+1. 按一下Widget工作清單右上角的&#x200B;**篩選器**&#x200B;圖示![篩選器圖示](assets/filter-nwepng.png)。
 1. 選擇&#x200B;**建議的**篩選器或您已建立的篩選器。
 如需建議篩選的詳細資訊，請參閱[首頁Widget篩選總覽](/help/quicksilver/workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md)。
 1. （選擇性）開啟&#x200B;**棧疊篩選器**&#x200B;以選取多個篩選器選項。
 
-   ![](assets/my-task-filter-open.png)
+   ![我的任務篩選器已開啟](assets/my-task-filter-open.png)
 
 
 ## 將您的工作分組
@@ -131,7 +131,7 @@ ht-degree: 4%
 
 若要將您的工作清單分組：
 
-1. 按一下右上角的&#x200B;**[!UICONTROL 主要功能表]** ![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
+1. 按一下右上角的&#x200B;**[!UICONTROL 主功能表]** ![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
 1. （視條件而定）按一下&#x200B;**自訂**&#x200B;以新增下列任何Widget：
 
    | 小工具 | 說明 |
@@ -144,16 +144,16 @@ ht-degree: 4%
    | 我的請求 | 顯示您已提交的所有請求 |
    | 我的核准 | 顯示所有擱置、已指派、已委派及已提交的核准 |
 
-1. 按一下介面工具工作清單右上角的&#x200B;**群組**&#x200B;圖示![](assets/group-icon.png)。
+1. 按一下Widget工作清單右上角的&#x200B;**群組**&#x200B;圖示![群組圖示](assets/group-icon.png)。
 1. 選擇一個&#x200B;**建議的**群組或您已建立的群組。
-   ![](assets/grouping-expanded.png)
+   ![群組已展開](assets/grouping-expanded.png)
 
 
 ## 自訂工作清單欄
 
 您可以選擇要讓哪些欄出現在Widget工作清單中：
 
-1. 按一下右上角的&#x200B;**[!UICONTROL 主要功能表]** ![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
+1. 按一下右上角的&#x200B;**[!UICONTROL 主功能表]** ![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
 1. （視條件而定）按一下&#x200B;**自訂**&#x200B;以新增下列任何Widget：
 
    | 小工具 | 說明 |
@@ -166,10 +166,10 @@ ht-degree: 4%
    | 我的請求 | 顯示您已提交的所有請求 |
    | 我的核准 | 顯示所有擱置、已指派、已委派及已提交的核准 |
 
-1. 按一下Widget工作清單右上角的&#x200B;**欄**&#x200B;圖示![](assets/column-icon.png)。
+1. 按一下Widget工作清單右上角的&#x200B;**欄**&#x200B;圖示![欄圖示](assets/column-icon.png)。
 1. 根據您的偏好設定開啟或關閉欄。
-1. （選擇性）按一下&#x200B;**拖曳**&#x200B;圖示![](assets/drag-icon.png)以重新排序欄。
-   ![](assets/columns-expanded.png)
+1. （選擇性）按一下&#x200B;**拖曳**&#x200B;圖示![拖曳圖示](assets/drag-icon.png)以重新排序欄。
+   ![欄已展開](assets/columns-expanded.png)
 
 
 ## 檢視延遲專案
