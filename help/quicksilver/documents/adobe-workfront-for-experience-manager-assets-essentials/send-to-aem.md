@@ -2,26 +2,26 @@
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: 傳送檔案至Experience Manager Assets或Assets Essentials
-description: 您可以從Workfront傳送檔案至Experience Manager Assets或Assets Essentials。 從Workfront上傳並傳送至Assets Essentials的檔案仍會計入您的整體檔案儲存。 從Assets Essentials連結的Assets不計入整體儲存空間。
+description: 您可以從Workfront傳送檔案至Experience Manager Assets或Assets Essentials。 從Workfront上傳並傳送到Assets Essentials的檔案仍會計入您的整體檔案儲存空間。 從Assets Essentials連結的Assets不計入整體儲存空間。
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 7942e77b-9466-4dff-9737-97b17647ac48
-source-git-commit: 65805e2ca81a46cce75610ff13b77e3748a6a810
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '919'
 ht-degree: 0%
 
 ---
 
 # 傳送檔案至Experience Manager Assets或Assets Essentials
 
-您可以從Workfront傳送檔案至Experience Manager Assets或Assets Essentials。 從Workfront上傳並傳送至Assets Essentials的檔案仍會計入您的整體檔案儲存。 從Assets Essentials連結的Assets不計入整體儲存空間。
+您可以從Workfront傳送檔案至Experience Manager Assets或Assets Essentials。 從Workfront上傳並傳送到Assets Essentials的檔案仍會計入您的整體檔案儲存空間。 從Assets Essentials連結的Assets不計入整體儲存空間。
 
-透過此整合傳送給Experience Manager的Assets大小限製為&#x200B;**5 GB**。
+透過此整合傳送至Experience Manager的Assets大小限製為&#x200B;**5 GB**。
 
 在預覽環境中，透過此整合傳送至Experience Manager的Assets有&#x200B;**30 GB**&#x200B;的大小限制。
 
-從Workfront傳送資產至Experience Manager Assets或Assets Essentials時，會先對應中繼資料欄位。 設定為對應父物件的任何中繼資料也會一併傳送。 如需設定中繼資料對應的詳細資訊，請參閱[設定Experience Manager Assetsas a Cloud Service整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)或[設定Experience Manager Assets Essentials整合](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)。
+從Workfront傳送資產至Experience Manager Assets或Assets Essentials時，會先對應中繼資料欄位。 設定為對應父物件的任何中繼資料也會一併傳送。 如需設定中繼資料對應的詳細資訊，請參閱[設定Experience Manager Assets as a Cloud Service整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)或[設定Experience Manager Assets Essentials整合](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)。
 
 >[!INFO]
 >
@@ -47,7 +47,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
-   <td>您必須擁有Experience Manageras a Cloud Service或Assets Essentials，並且您必須在Admin Console中作為使用者新增到產品中。
+   <td>您必須擁有Experience Manager as a Cloud Service或Assets Essentials，並且您必須在Admin Console中作為使用者新增到產品中。
 </td> 
   </tr> 
   <tr> 
@@ -69,30 +69,30 @@ ht-degree: 0%
 
 開始之前，
 
-* 您的Workfront管理員必須設定Experience Manager整合。 如需詳細資訊，請參閱[設定Experience Manager Assetsas a Cloud Service整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)或[設定Experience Manager Assets Essentials整合](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)。
+* 您的Workfront管理員必須設定Experience Manager整合。 如需詳細資訊，請參閱[設定Experience Manager Assets as a Cloud Service整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)或[設定Experience Manager Assets Essentials整合](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)。
 
 
 ## 從Workfront傳送檔案
 
-當使用者將檔案從Workfront傳送到Experience Manager Assets或Assets Essentials時，對應的中繼資料會沿著檔案傳輸。 傳送檔案後，在Workfront中對檔案中繼資料所做的變更不會反映在Assets或Assets Essentials中。 如果Workfront中的對應欄位已變更，您必須將包含更新後中繼資料的新版檔案傳送至Assets或Assets Essentials。 若要設定或編輯中繼資料，請參閱[設定Experience Manager Assetsas a Cloud Service整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)或[設定Experience Manager Assets Essentials整合](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)。
+當使用者將檔案從Workfront傳送到Experience Manager Assets或Assets Essentials時，對應的中繼資料會沿著檔案傳輸。 傳送檔案後，在Workfront中對檔案中繼資料所做的變更不會反映在Assets或Assets Essentials中。 如果Workfront中的對應欄位已變更，您必須將包含更新後中繼資料的新版檔案傳送至Assets或Assets Essentials。 若要設定或編輯中繼資料，請參閱[設定Experience Manager Assets as a Cloud Service整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)或[設定Experience Manager Assets Essentials整合](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)。
 
 若要傳送檔案：
 
 1. 前往Workfront中的&#x200B;**檔案**&#x200B;區域，並選取您要傳送的檔案。
-1. 按一下&#x200B;**傳送至**，然後選擇系統管理員設定的Experience Manager整合。
+1. 按一下「**傳送至**」，然後選擇您的管理員設定的Experience Manager整合。
 
    >[!NOTE]
    >
-   >Workfront管理員可為這項整合選擇任何名稱，因此可能不會特別提及Assets或Assets Essentials。
+   >Workfront管理員可以選擇任何名稱來進行這項整合，因此可能不會特別提及Assets或Assets Essentials。
 
-   ![](assets/copy-of-send-to-in-toolbar-350x149.png)
+   ![傳送至](assets/copy-of-send-to-in-toolbar-350x149.png)
 
 1. 選擇要將資產移至何處，然後按一下&#x200B;**選取資料夾**。
 1. 當您找到想要的目的地，請按一下[儲存]。****
 
 ## 傳送新版本
 
-您可以將新版本新增至先前已上傳至Workfront的檔案。 如需詳細資訊，請參閱[上傳檔案的新版本](../../documents/managing-documents/upload-new-document-version.md)。 上傳最新版本後，即可傳送給Assets Essentials。 如果Workfront中的對應欄位已變更，新版本會在傳送時更新Assets Essentials中的中繼資料。
+您可以將新版本新增至先前已上傳至Workfront的檔案。 如需詳細資訊，請參閱[上傳檔案的新版本](../../documents/managing-documents/upload-new-document-version.md)。 上傳最新版本後，您可以將其傳送到Assets Essentials。 如果Workfront中的對應欄位已變更，新版本會在傳送時更新Assets Essentials中的中繼資料。
 
 >[!IMPORTANT]
 >
@@ -101,13 +101,13 @@ ht-degree: 0%
 若要傳送最新版本：
 
 1. 前往Workfront中的&#x200B;**檔案**&#x200B;區域，然後找到檔案。
-1. 選取「**傳送至**」，然後選擇系統管理員設定的Experience Manager整合。
+1. 選取「**傳送至**」，然後選擇您的管理員設定的Experience Manager整合。
 
    >[!NOTE]
    >
-   >Workfront管理員可為這項整合選擇任何名稱，因此可能沒有特別提及Assets或Assets Essentials。
+   >Workfront管理員可以選擇任何名稱來進行這項整合，因此可能沒有特別提及Assets或Assets Essentials。
 
-   ![](assets/copy-of-send-to-in-toolbar-350x149.png)
+   ![傳送至](assets/copy-of-send-to-in-toolbar-350x149.png)
 
 1. 按一下「**儲存**」。新版本會儲存在與舊版本相同的位置。
 
@@ -115,7 +115,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->此功能僅適用於Experience Manager Assetsas a Cloud Service。 它不適用於Experience Manager Assets Essentials。
+>此功能僅適用於Experience Manager Assets as a Cloud Service。 它不適用於Experience Manager Assets Essentials。
 
 如果檔案和連結資料夾都在相同的檔案清單中（例如專案的檔案區域），您可以將檔案移動到Experience Manager Assets中的連結資料夾。
 
