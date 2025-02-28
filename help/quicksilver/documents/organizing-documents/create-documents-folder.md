@@ -6,9 +6,9 @@ description: 檔案可整理到資料夾中。 您可以在個人的「檔案」
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 41974d6b-fb00-49b7-9db2-36519994e0fd
-source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 1. 按一下右側面板上方的檢視選項，以變更檔案的顯示方式。
 
-   ![](assets/screenshot-2016-07-07-12.46.54.png)
+   ![檔案檢視選項](assets/screenshot-2016-07-07-12.46.54.png)
 
 ## 建立資料夾和子資料夾
 
