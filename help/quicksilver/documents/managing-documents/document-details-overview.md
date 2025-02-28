@@ -7,9 +7,9 @@ description: 「檔案詳細資訊」頁面可讓您檢視、傳達及管理附�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 69f0560f-8612-431d-9765-0216bf47d8b0
-source-git-commit: c644f283d56a4ef3f0e013d369e3161374673be5
+source-git-commit: 5595b1c286d82f77bca9ee16e20bae8380ce45b5
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '207'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 2%
 
 1. 將滑鼠停留在檔案上，然後按一下&#x200B;**檔案詳細資料**。
 
-   ![](assets/document-details-350x179.png)
+   ![檔案詳細資料](assets/document-details-350x179.png)
 
 ## 對檔案和校訂執行基本動作
 
@@ -37,7 +37,7 @@ ht-degree: 2%
 * 編輯檔案說明
 * 簽入或簽出檔案
 
-此外，您可以使用檔名稱旁的更多圖示![](assets/more-icon.png)來執行下列動作：
+此外，您可以使用檔名稱旁的「更多」圖示![「更多」功能表](assets/more-icon.png)來執行下列動作：
 
 * 共用
 * 移動
