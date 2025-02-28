@@ -5,9 +5,9 @@ description: 除了設定收入和追蹤費用外，您還可以在專案上建�
 author: Lisa
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '1896'
+source-wordcount: '1898'
 ht-degree: 0%
 
 ---
@@ -241,7 +241,7 @@ ht-degree: 0%
 
    或
 
-   按一下右上角的&#x200B;**編輯圖示** ![](assets/edit-icon.png)，然後編輯任何可用欄位中的資訊。
+   按一下右上角的&#x200B;**編輯圖示** ![編輯圖示](assets/edit-icon.png)，然後編輯任何可用欄位中的資訊。
 
    更新下列專案：
 
