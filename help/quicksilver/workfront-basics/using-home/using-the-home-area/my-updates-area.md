@@ -6,9 +6,9 @@ description: 您可以使用[!UICONTROL 我的更新]區域來快速檢閱等待
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '787'
+source-wordcount: '823'
 ht-degree: 0%
 
 ---
@@ -76,13 +76,13 @@ ht-degree: 0%
 
 1. 在&#x200B;**[!UICONTROL 主功能表]**&#x200B;中按一下&#x200B;**[!UICONTROL 我的更新]**。
 
-   ![](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
+   ![主功能表中的我的更新](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
 
    [!UICONTROL 我的更新]區域隨即開啟。
 
    指派給您的核准和存取要求列在頁面前半段的&#x200B;**我的更新**&#x200B;底下。
 
-   ![](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
+   ![我的更新提及檢閱者](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
 
 1. （選擇性）捲動至&#x200B;[!UICONTROL **我的更新**]&#x200B;區域底部，然後按一下向右箭頭，以顯示其他頁面上顯示的更多核准。
 
@@ -90,9 +90,9 @@ ht-degree: 0%
    >
    >依預設，會顯示前五個核准或存取請求。 其餘核准會顯示在其他頁面上。 您最多可以在[!UICONTROL 我的更新]區域顯示2000個核准。
 
-   ![](assets/pagination-for-my-updates-page-highlighted-nwe-350x78.png)
+   我的更新![分頁](assets/pagination-for-my-updates-page-highlighted-nwe-350x78.png)
 
-1. （選擇性）展開&#x200B;**[!UICONTROL 我的更新]**&#x200B;區段右上角的&#x200B;**[!UICONTROL 篩選器]**&#x200B;下拉式功能表![](assets/filter-nwepng.png)，然後從下列專案選取：
+1. （選擇性）展開&#x200B;**[!UICONTROL 我的更新]**&#x200B;區段右上角的&#x200B;**[!UICONTROL 篩選器]**&#x200B;下拉式功能表![篩選器圖示](assets/filter-nwepng.png)，然後選取下列專案：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -117,13 +117,13 @@ ht-degree: 0%
 
 1. 若要核准或拒絕專案，或在核准前建議對檔案的變更，請執行下列步驟：
 
-   1. （選擇性）按一下核准決定（**[!UICONTROL 核准]**，**[!UICONTROL 變更]**，**[!UICONTROL 拒絕]**）旁的&#x200B;**下拉式清單**&#x200B;圖示![](assets/down-arrow-blue.png)並新增註解，然後按一下&#x200B;**[!UICONTROL 新增]**。
+   1. （選擇性）按一下核准決定（**[!UICONTROL 核准]**，**[!UICONTROL 變更]**，**[!UICONTROL 拒絕]**）旁的&#x200B;**下拉式清單**&#x200B;圖示![下拉式清單圖示](assets/down-arrow-blue.png)並新增註解，然後按一下&#x200B;**[!UICONTROL 新增]**。
 
       或
 
       如果您不想輸入註解，請按一下&#x200B;**[!UICONTROL 跳過]**。
 
-      ![](assets/approval-decision-buttons-in-my-updates-with-comment-box-nwe-350x183.png)
+      ![含有註解方塊的核准決定按鈕](assets/approval-decision-buttons-in-my-updates-with-comment-box-nwe-350x183.png)
 
       >[!NOTE]
       >
@@ -136,7 +136,7 @@ ht-degree: 0%
       >如果您不想在決定中新增註解，可以按一下&#x200B;**[!UICONTROL 核准]**、**[!UICONTROL 拒絕]**&#x200B;或&#x200B;**[!UICONTROL 變更]**&#x200B;按鈕，立即授予核准決定。
       >
       >
-      >![](assets/approval-decision-buttons-in-my-updates-nwe-350x169.png)
+      >![核准決定按鈕](assets/approval-decision-buttons-in-my-updates-nwe-350x169.png)
       >
       >如需核准工作的詳細資訊，請參閱[核准工作](../../../review-and-approve-work/manage-approvals/approving-work.md)。
 
@@ -146,7 +146,7 @@ ht-degree: 0%
 
    展開&#x200B;**[!UICONTROL 變更存取權]**&#x200B;下拉式功能表，在您授與存取權之前修改要求的存取權。
 
-   ![](assets/grant-access-button-in-my-updates-nwe-350x224.png)
+   ![變更存取權按鈕](assets/grant-access-button-in-my-updates-nwe-350x224.png)
 
 1. （選擇性）按一下&#x200B;**[!UICONTROL 忽略]**&#x200B;以從核准清單中清除存取要求，而不授予存取要求。
 1. 如果您有一段時間無法做出核准決定，請按一下&#x200B;**[!UICONTROL 委派我的核准]**&#x200B;以委派提交給您的核准。 如需委託核准的詳細資訊，請參閱[委託核准要求](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md)。
@@ -166,6 +166,6 @@ ht-degree: 0%
 
      新增完回覆後，請按一下&#x200B;**[!UICONTROL 提交]**。
 
-     ![](assets/reply-in-the-my-updates-area.png)
+     ![在[我的更新]區域回覆](assets/reply-in-the-my-updates-area.png)
 
 1. （選擇性）按一下「**[!UICONTROL 釘選目前頁面]**」，將「[!UICONTROL 我的更新]」區域釘選到您的頂端導覽列。
