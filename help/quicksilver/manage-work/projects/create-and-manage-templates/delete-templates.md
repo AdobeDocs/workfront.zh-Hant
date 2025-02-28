@@ -6,9 +6,9 @@ description: 我們建議您停用不再使用的範本，而不是刪除它們�
 author: Alina
 feature: Work Management
 exl-id: 41e0979c-f8ef-4a07-8848-e4ee8cc212c5
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計劃 </p> </td> 
+   <td> <p>規劃 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
@@ -67,6 +67,6 @@ ht-degree: 0%
 
    或
 
-   按一下範本名稱以存取它，然後按一下&#x200B;**更多**&#x200B;功能表![](assets/qs-more-icon-on-an-object.png)，然後&#x200B;**刪除範本>是，刪除它**。
+   按一下範本名稱以存取它，然後按一下&#x200B;**更多**&#x200B;功能表![更多圖示](assets/qs-more-icon-on-an-object.png)，然後&#x200B;**刪除範本>是，刪除它**。
 
    範本無法再與專案建立關聯。
