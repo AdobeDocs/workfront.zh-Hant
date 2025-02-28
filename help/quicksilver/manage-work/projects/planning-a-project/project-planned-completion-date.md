@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 996398c5-de92-445e-8e86-36b2efdcf6b5
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '564'
 ht-degree: 1%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計劃 </p> </td> 
+   <td> <p>規劃 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
@@ -96,7 +96,7 @@ ht-degree: 1%
 
 若要從「完成日期」排程專案，請執行下列步驟：
 
-1. 按一下右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**專案**。
+1. 按一下右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**專案**。
 
 1. 按一下&#x200B;**新增專案**，然後按&#x200B;**新增專案**。
 
@@ -117,7 +117,7 @@ ht-degree: 1%
 
 若要從「開始日期」排程專案，請執行下列步驟：
 
-1. 按一下右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**專案**。
+1. 按一下右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**專案**。
 
 1. 按一下&#x200B;**新增專案**，然後按&#x200B;**新增專案**。
 
