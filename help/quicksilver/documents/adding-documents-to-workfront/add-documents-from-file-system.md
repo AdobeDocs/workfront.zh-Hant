@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront中將檔案新增到多個區域中的�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: 8687e92ffed08e87fcb8c22816fd86bafa7f9e7a
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '769'
 ht-degree: 1%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 1%
 1. 前往您要新增檔案的專案、任務或問題。
 1. 按一下&#x200B;**檔案**&#x200B;標籤，然後按一下&#x200B;**新增**&#x200B;下拉式功能表。
 
-   ![](assets/add-new-doc.png)
+   ![新增檔案](assets/add-new-doc.png)
 
 1. 根據您要新增的檔案型別，執行下列任一項作業：
 
