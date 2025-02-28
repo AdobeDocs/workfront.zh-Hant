@@ -6,9 +6,9 @@ description: 您可以使用範本作為框架，在Adobe Workfront中建立專�
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1180'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 0%
    <td role="rowheader">存取層級</td> 
    <td> <p>編輯專案和範本的存取權</p>
 
-<p>如果您使用的範本包含Portfolio和方案，請編輯對Portfolio和方案的存取權</p>
+<p>如果您使用的範本包含Portfolio和計畫，請編輯投資組合和計畫的存取權</p>
 
 </td> 
   </tr> 
@@ -97,13 +97,13 @@ ht-degree: 0%
 
      >[!TIP]
      >
-     >當您使用專案組合中的範本建立專案時，新專案的「Portfolio」欄位會更新，以顯示您選擇建立專案的來源專案組合。 如果已指定，這會覆寫範本上的Portfolio欄位。
+     >當您使用專案組合中的範本建立專案時，新專案的Portfolio欄位會更新，以顯示您選擇建立專案來源的投資組合。 如果已指定，這會覆寫範本上的Portfolio欄位。
 
    * 前往方案，然後展開&#x200B;**新專案**。
 
      >[!TIP]
      >
-     >使用方案中的範本建立專案時，新專案的「方案」欄位會更新，以顯示您選擇建立專案的方案。 範本的「Portfolio」欄位會更新，以顯示您選擇建立專案的計畫組合。 如果已指定，這會覆寫範本上的程式和Portfolio欄位。
+     >使用方案中的範本建立專案時，新專案的「方案」欄位會更新，以顯示您選擇建立專案的方案。 範本的Portfolio欄位會更新，以顯示您選擇建立專案的方案組合。 如果已指定，這會覆寫範本上的程式和Portfolio欄位。
 
    * 如果您是群組管理員，您也可以在您管理之群組的專案區段中建立專案。 如需詳細資訊，請參閱[建立和修改群組的專案](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md)。
 
@@ -137,7 +137,7 @@ ht-degree: 0%
       * 範本中所有任務的數量
       * 範本自訂表單的名稱
 
-   1. （選擇性）將滑鼠停留在左窗格中的範本名稱上，然後按一下&#x200B;**我的最愛** **圖示** ![](assets/favorites-icon-small.png)，將其標示為我的最愛，以供日後使用。
+   1. （選擇性）將滑鼠停留在左窗格中的範本名稱上，然後按一下&#x200B;**我的最愛** **圖示** ![我的最愛圖示](assets/favorites-icon-small.png)，將其標示為我的最愛，以供日後使用。
 
       或
 
@@ -175,7 +175,7 @@ ht-degree: 0%
 {{step1-to-templates}}
 
 1. 按一下您要使用的範本名稱。
-1. 按一下&#x200B;**更多**&#x200B;功能表![](assets/more-icon.png)，然後按一下&#x200B;**建立專案**。
+1. 按一下&#x200B;**更多**&#x200B;功能表![更多圖示](assets/more-icon.png)，然後按一下&#x200B;**建立專案**。
 
    ![從範本建立專案](assets/project-sharing-on-template.png)
 
