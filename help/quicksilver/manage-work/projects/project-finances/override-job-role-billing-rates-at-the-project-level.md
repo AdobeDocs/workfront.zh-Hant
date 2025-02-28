@@ -6,9 +6,9 @@ description: 身為專案經理，您可以指定特定專案上工作角色的�
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '825'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**工作角色**&#x200B;欄位中，選取您要變更收費率的工作角色。
 
-   ![](assets/override-billing-rate-on-project-nwe-350x310.png)
+   ![覆寫專案](assets/override-billing-rate-on-project-nwe-350x310.png)的收費率
 
    **預設收費率**&#x200B;欄位會顯示此工作角色的系統層級費率。
 
