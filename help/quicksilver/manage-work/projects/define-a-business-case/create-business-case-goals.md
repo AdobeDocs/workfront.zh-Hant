@@ -1,20 +1,20 @@
 ---
 navigation-topic: business-case-and-scorecards
 title: 建立業務案例目標
-description: 建立業務案例時，您可以建立一組目標來定義專案的目標。 業務案例目標用於與Portfolio管理員或專案贊助者溝通完成專案的目的。
+description: 建立業務案例時，您可以建立一組目標來定義專案的目標。 業務案例目標用於與Portfolio經理或專案贊助者溝通以完成專案的目的。
 author: Alina
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '494'
 ht-degree: 1%
 
 ---
 
 # 建立業務案例目標
 
-建立業務案例時，您可以建立一組目標來定義專案的目標。 業務案例目標用於與Portfolio管理員或專案贊助者溝通完成專案的目的。
+建立業務案例時，您可以建立一組目標來定義專案的目標。 業務案例目標用於與Portfolio經理或專案贊助者溝通以完成專案的目的。
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: below snippet: NWE only, not classic)</p>
@@ -31,9 +31,9 @@ ht-degree: 1%
 
 * 目標不是專案業務案例中的強制區段。
 
-  即使未定義業務案例的目標區段，專案也可以在Portfolio最佳化工具中接收要優先處理的分數。
+  即使未定義業務案例的目標區段，專案也可以收到要在Portfolio Optimizer中排定優先順序的分數。
 
-  如需有關Portfolio最佳化工具分數的詳細資訊，請參閱[將計分卡套用至專案並產生一致性分數](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md)。
+  如需Portfolio Optimizer分數的詳細資訊，請參閱[將計分卡套用至專案並產生一致性分數](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md)。
 
 * 您無法報告業務案例目標。
 
@@ -53,7 +53,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計劃 </p> </td> 
+   <td> <p>規劃 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
@@ -75,7 +75,7 @@ ht-degree: 1%
 
    業務案例隨即顯示。
 
-   ![](assets/business-case-page-info-goals-expenses-nwe-350x123.png)
+   ![業務案例資訊](assets/business-case-page-info-goals-expenses-nwe-350x123.png)
 
 1. 在&#x200B;**目標**&#x200B;區段中，按一下&#x200B;**編輯目標**。
 
@@ -88,7 +88,7 @@ ht-degree: 1%
    * 低
    * 最低
 
-     ![](assets/g1-350x76.png)
+     重要性(assets/g1-350x76.png)
 
      您無法自訂目標的重要性層級。
 
