@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 exl-id: a0e80c4d-29a8-4bf8-aa19-0c2d493236c6
 recommendations: noDisplay, noCatalog
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '895'
 ht-degree: 1%
 
 ---
@@ -135,7 +135,7 @@ ht-degree: 1%
 您可以從專案清單中刪除專案。
 
 1. 前往專案清單或專案報告。
-1. 選取您要刪除的一或多個專案，然後按一下清單頂端的&#x200B;**刪除**&#x200B;圖示![](assets/delete-icon.png)。
+1. 選取您要刪除的一或多個專案，然後按一下清單頂端的&#x200B;**刪除**&#x200B;圖示![刪除圖示](assets/delete-icon.png)。
 
 1. 按一下&#x200B;**是，刪除**&#x200B;以確認刪除。
 
@@ -144,9 +144,9 @@ ht-degree: 1%
 ## 刪除專案層級的專案
 
 1. 前往您要刪除的專案。
-1. 按一下專案名稱右側的&#x200B;**更多**&#x200B;圖示![](assets/qs-more-menu.png)，然後按一下&#x200B;**刪除專案**。
+1. 按一下專案名稱右側的&#x200B;**更多**&#x200B;圖示![更多功能表](assets/qs-more-menu.png)，然後按一下&#x200B;**刪除專案**。
 
-   ![](assets/more-icon-expanded-delete-project-highlighted.png)
+   ![其他功能表已展開](assets/more-icon-expanded-delete-project-highlighted.png)
 
 1. 按一下&#x200B;**是，刪除**。
 
