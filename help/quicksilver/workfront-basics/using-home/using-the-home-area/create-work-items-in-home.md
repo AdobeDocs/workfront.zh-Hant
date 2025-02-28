@@ -6,9 +6,9 @@ description: 您可以從[!UICONTROL 首頁]區域建立工作專案和專案。
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '847'
 ht-degree: 2%
 
 ---
@@ -71,12 +71,12 @@ ht-degree: 2%
 
 若要建立待辦事項，請執行下列步驟：
 
-1. 按一下右上角的&#x200B;**[!UICONTROL 主功能表]** ![](assets/main-menu-icon.png)，或左上角的&#x200B;**主功能表** ![](assets/lines-main-menu.png) （如果可用），然後按一下&#x200B;**[!UICONTROL 首頁]**。
+1. 按一下右上角的&#x200B;**[!UICONTROL 主功能表]** ![主功能表圖示](assets/main-menu-icon.png)，或左上角的&#x200B;**主功能表** ![主功能表行圖示](assets/lines-main-menu.png) （如果可用），然後按一下&#x200B;**[!UICONTROL 首頁]**。
 1. （視條件而定）按一下「自訂」****，然後按一下「待辦事項」****，將待辦事項Widget新增至您的主畫面。
 1. 移至&#x200B;**待辦事項** Widget，然後按一下&#x200B;**新增待辦事項**。
 1. 輸入個人待辦事項的名稱，然後按一下「輸入」。
-1. （選擇性）按一下&#x200B;**日期**&#x200B;圖示![](assets/date-icon.png)以新增專案的到期日。
-   ![](assets/my-work-to-dos.png)
+1. （選擇性）按一下&#x200B;**日期**&#x200B;圖示![日期圖示](assets/date-icon.png)以新增專案的到期日。
+   ![我的待辦事項](assets/my-work-to-dos.png)
 1. （選擇性）建立個人工作報告或篩選器。 如需有關建立個人工作篩選的資訊，請參閱[篩選：個人工作](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md)。
 您可以在個人任務報告中檢視您的待辦事項以及其他使用者的待辦事項。
 
@@ -84,10 +84,10 @@ ht-degree: 2%
 
 您可以直接從「首頁」區域將任務新增到現有專案：
 
-1. 按一下右上角的&#x200B;**[!UICONTROL 主要功能表]** ![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
+1. 按一下右上角的&#x200B;**[!UICONTROL 主功能表]** ![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
 1. （視條件而定）將&#x200B;**我的任務** Widget新增至您的主畫面。 按一下&#x200B;**自訂**，然後尋找&#x200B;**我的工作**。
 1. 前往&#x200B;**我的工作** Widget，然後按一下&#x200B;**新增**。
-   ![](assets/create-new-task.png)
+   ![建立新工作](assets/create-new-task.png)
 1. 在&#x200B;**新增工作**&#x200B;對話方塊中，輸入工作名稱。
 1. 開始輸入專案名稱，然後從清單中選取名稱。
 1. （選擇性）在下列欄位中輸入資訊：
@@ -107,10 +107,10 @@ ht-degree: 2%
 
 您可以直接從首頁區域將問題新增到現有專案：
 
-1. 按一下右上角的&#x200B;**[!UICONTROL 主要功能表]** ![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
+1. 按一下右上角的&#x200B;**[!UICONTROL 主功能表]** ![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
 1. （視條件而定）將&#x200B;**我的問題** Widget新增至您的主畫面。 按一下&#x200B;**自訂**，然後尋找&#x200B;**我的問題**。
 1. 移至&#x200B;**我的問題** Widget，然後按一下&#x200B;**新增**。
-   ![](assets/create-new-issue.png)
+   ![建立新問題](assets/create-new-issue.png)
 1. 在&#x200B;**新問題對話方塊**&#x200B;中，開始輸入專案名稱，然後從清單中選取名稱。
 1. 輸入問題名稱。
 1. （選擇性）在下列欄位中輸入資訊：
@@ -128,10 +128,10 @@ ht-degree: 2%
 
 您可以直接從「首頁」區域建立請求：
 
-1. 按一下右上角的&#x200B;**[!UICONTROL 主要功能表]** ![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
+1. 按一下右上角的&#x200B;**[!UICONTROL 主功能表]** ![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
 1. （視條件而定）將&#x200B;**我的請求** Widget新增至您的主畫面。 按一下&#x200B;**自訂**，找到&#x200B;**我的要求**。
 1. 移至&#x200B;**我的要求** Widget，然後按一下&#x200B;**新增**。
-   ![](assets/create-new-request.png)
+   ![建立新要求](assets/create-new-request.png)
 
 1. 在&#x200B;**新要求**&#x200B;對話方塊中，開始輸入要求佇列的名稱。
 1. 填寫相關欄位。
@@ -143,10 +143,10 @@ ht-degree: 2%
 
 您可以直接從「首頁」區域建立專案：
 
-1. 按一下右上角的&#x200B;**[!UICONTROL 主要功能表]** ![](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
+1. 按一下右上角的&#x200B;**[!UICONTROL 主功能表]** ![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
 1. （視條件而定）將&#x200B;**我的專案** Widget新增至您的主畫面。 按一下&#x200B;**自訂**，然後尋找&#x200B;**我的專案**。
 1. 前往&#x200B;**我的專案** Widget，然後按一下&#x200B;**新增**。
-   ![](assets/create-new-project.png)
+   ![建立新專案](assets/create-new-project.png)
 1. 選擇下列其中一個選項：
 
    | 欄位 | 指示 |
@@ -161,7 +161,7 @@ ht-degree: 2%
 
 You can create a board directly from the Home area:
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. (Conditional) Add the **Boards** widget to your home screen. Click **Customize**, and find **Boards**. -->
 
 
@@ -171,13 +171,13 @@ You can create a board directly from the Home area:
 <!--
 ## Delete a to-do item
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. Go to the to-do widget.
-1. Hover over the item, then click the **Delete** icon ![](assets/delete-to-do.png). 
+1. Hover over the item, then click the **Delete** icon ![Delete icon](assets/delete-to-do.png). 
 
 ## Edit a to-do item
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. Go to the to-do widget.
 1. Edit the item name.
-1. Click on the **Date** icon ![](assets/date-icon.png) to add or adjust a due date. -->
+1. Click on the **Date** icon ![Date icon](assets/date-icon.png) to add or adjust a due date. -->
