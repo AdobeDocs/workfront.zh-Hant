@@ -7,9 +7,9 @@ author: Alina
 feature: Projects, Work Management
 role: User
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '776'
 ht-degree: 4%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 4%
 >* 範本
 >* 風險
 >* 佇列設定資訊
->* Portfolio與計畫
+>* Portfolio與程式
 >* 計分卡
 >* 任務預設資訊(任務預設核准流程、任務預設自訂Forms)
 >
@@ -89,7 +89,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td> <p>Adobe Workfront授權*</p> </td> 
-   <td> <p>計劃 </p> </td> 
+   <td> <p>規劃 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><strong>存取層級設定*</strong> </td> 
@@ -112,15 +112,15 @@ ht-degree: 4%
 
 若要複製專案：
 
-1. 前往您要複製的專案，然後按一下專案名稱右側的&#x200B;**更多**&#x200B;圖示![](assets/qs-more-menu.png)
+1. 前往您要複製的專案，然後按一下專案名稱右側的&#x200B;**更多**&#x200B;圖示![更多功能表](assets/qs-more-menu.png)
 
-   ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![更多下拉式清單](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    或
 
-   前往專案清單或報告並選取專案，然後按一下清單頂端的&#x200B;**更多**&#x200B;圖示![](assets/qs-more-menu.png)。
+   前往專案清單或報告並選取專案，然後按一下清單頂端的&#x200B;**更多**&#x200B;圖示![更多](assets/qs-more-menu.png)。
 
-   ![](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
+   ![其他功能表已展開](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
 
 1. 按一下&#x200B;**複製**。
 
@@ -128,7 +128,7 @@ ht-degree: 4%
 
    依預設，新名稱是&#x200B;**`<Original project name>`的復本。**
 
-   ![](assets/copy-project-box-nwe-350x276.png)
+   ![複製專案方塊](assets/copy-project-box-nwe-350x276.png)
 
 1. 選取新專案的&#x200B;**狀態**。
 
