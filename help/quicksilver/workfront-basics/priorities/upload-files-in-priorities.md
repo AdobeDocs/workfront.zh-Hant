@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -55,12 +55,12 @@ ht-degree: 0%
 {{step1-to-priorities}}
 
 1. 將游標暫留在名稱上，然後按一下&#x200B;**上傳**。
-   ![](assets/update-log-upload.png)
+   ![更新、記錄時間和上傳](assets/update-log-upload.png)
 1. （選擇性）選取資料夾。
 1. 拖放檔案，或按Cmd/Ctrl + V從剪貼簿貼上
 或
 按一下**新增檔案**以瀏覽檔案或從Document Cloud提供者匯入檔案。
-   ![](assets/add-files.png)
+   ![新增檔案](assets/add-files.png)
 1. （選用）新增註解。
 1. （選用）新增更多檔案。
 
@@ -68,7 +68,7 @@ ht-degree: 0%
    >
    >其他檔案會以個別檔案的形式上傳。
 1. 按一下&#x200B;**上傳**。
-   ![](assets/upload-file-module.png)
+   ![上傳檔案](assets/upload-file-module.png)
 
 
 ## 上傳工作專案中的檔案
@@ -81,7 +81,7 @@ ht-degree: 0%
 1. 拖放檔案，或按Cmd/Ctrl + V從剪貼簿貼上
 或
 按一下**新增檔案**以瀏覽檔案或從Document Cloud提供者匯入檔案。
-   ![](assets/add-files.png)
+   ![新增檔案](assets/add-files.png)
 1. （選用）新增註解。
 1. （選用）新增更多檔案。
 
@@ -89,4 +89,4 @@ ht-degree: 0%
    >
    >其他檔案會以個別檔案的形式上傳。
 1. 按一下&#x200B;**上傳**。
-   ![](assets/upload-file-module.png)
+   ![上傳檔案](assets/upload-file-module.png)
