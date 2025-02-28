@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 74e0a85b-a8aa-4e39-9c2e-0f09957ebafa
-source-git-commit: 04259d63523050d5bd43e5e776c21237e5a5cfe4
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '1325'
+source-wordcount: '1357'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 1. 在使用者區段中，按一下&#x200B;**開發人員** > **新增開發人員**。
 
-   ![](assets/manage-users-admin-console.png)
+   ![在Admin Console中管理開發人員](assets/manage-users-admin-console.png)
 
    >[!NOTE]
    >
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 1. 將必要的產品新增至開發人員設定檔，然後按一下[儲存]。****
 
-![](assets/add-developer.png)
+![新增開發人員](assets/add-developer.png)
 
 ## 存取AppBuilder
 
@@ -72,7 +72,7 @@ ht-degree: 0%
    >
    >如果沒有看見此選項，表示您在Admin Console中的設定有誤，且無法存取App Builder目錄。 只有在您有權存取AppBuilder時，才會顯示此選項。
 
-   ![](assets/create-from-template.png)
+   ![從範本建立專案](assets/create-from-template.png)
 
 1. 選取&#x200B;**App Builder**。
 
@@ -87,9 +87,9 @@ ht-degree: 0%
 
 1. 按一下「**儲存**」。
 
-## AdobeIO (aio) CLI
+## Adobe IO (aio) CLI
 
-Adobe提供開放原始碼CLI，可用來協助建立App Builder應用程式。 您可以在這裡找到檔案： [https://github.com/adobe/aio-cli](https://github.com/adobe/aio-cli)以及AdobeApp Builder指示[https://developer.adobe.com/app-builder/docs/getting_started/first_app/](https://developer.adobe.com/app-builder/docs/getting_started/first_app/)。
+Adobe提供開放原始碼CLI，可用來協助建立App Builder應用程式。 您可以在這裡找到檔案： [https://github.com/adobe/aio-cli](https://github.com/adobe/aio-cli)以及Adobe App Builder指示[https://developer.adobe.com/app-builder/docs/getting_started/first_app/](https://developer.adobe.com/app-builder/docs/getting_started/first_app/)。
 
 1. 安裝
    1. 若要安裝工具，（請先確定您位於節點v18）執行： `npm install -g @adobe/aio-cli `。
@@ -102,20 +102,20 @@ Adobe提供開放原始碼CLI，可用來協助建立App Builder應用程式。 
 
 1. 設定選擇
    1. 繼續從提供的選項中選取您的組織和專案。\
-      ![](assets/select-org.png)
-      ![](assets/select-project.png)
+      ![選取組織](assets/select-org.png)
+      ![選取專案](assets/select-project.png)
 
 1. 範本選取和設定
    1. 瀏覽所有可用的範本，並為您的專案選擇&#x200B;**@adobe/aem-cf-editor-ui-ext-tpl**範本。
-      ![](assets/search-template.png)
-      ![](assets/select-template.png)
+      ![搜尋範本](assets/search-template.png)
+      ![選取範本](assets/select-template.png)
 
 1. 定義您的擴充功能
    1. 為擴充功能命名。
    1. 提供擴充功能的描述性摘要。
    1. 選取要開始使用的初始版本編號。
    1. 選取&#x200B;**我已完成**以確認完成。
-      ![](assets/define-extension.png)
+      ![定義延伸模組](assets/define-extension.png)
 
 1. 導覽至您的專案資料夾
    1. 存取src資料夾
@@ -308,7 +308,7 @@ Adobe提供開放原始碼CLI，可用來協助建立App Builder應用程式。 
           export default Review;
       ```
 
-## Publish應用程式
+## 發佈應用程式
 
 >[!IMPORTANT]
 >
@@ -326,12 +326,12 @@ Adobe提供開放原始碼CLI，可用來協助建立App Builder應用程式。 
 1. 尋找您用來建立AppBuilder應用程式的專案。
 
 1. 選取生產Workspace。
-   ![](assets/find-application.png)
+   ![選取生產工作區](assets/find-application.png)
 
 1. 提交申請以進行私人檢閱（您會收到我們未發佈至應用程式交易市集的警告，這沒問題）。
 
 1. 填寫表單（標題、說明、圖示和稽核者備註）。
-   ![](assets/submission-details.png)
+   ![填寫私人檢閱的表單](assets/submission-details.png)
 
 >[!IMPORTANT]
 >
@@ -344,7 +344,7 @@ Adobe提供開放原始碼CLI，可用來協助建立App Builder應用程式。 
 1. 按一下&#x200B;**管理** > **Experience Cloud應用程式**。 您應該會看到已提交的應用程式，其中包含可核准/拒絕的選項。
 核准後，發佈的應用程式擴充功能應會自動載入您的Workfront環境。
 
-   ![](assets/approve-submission.png)
+   ![已核准的提交](assets/approve-submission.png)
 
 ## 其他說明
 
