@@ -5,9 +5,9 @@ description: 作為資源計畫的一部分，當您建立業務案例時，可�
 author: Alina
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '945'
 ht-degree: 0%
 
 ---
@@ -120,11 +120,11 @@ ht-degree: 0%
 
    * 如果您剛從「情境規劃工具」發佈資訊，請在「資源預算」區域中選取「情境規劃工具」**選擇要用於計算專案預算勞力成本的時數**，然後按一下&#x200B;**選擇**。
 
-     ![](assets/business-case-sp-selected-with-choose-button-350x121.png)
+     ![資源規劃工具中的業務案例與選擇按鈕](assets/business-case-sp-selected-with-choose-button-350x121.png)
 
    * 如果先前已針對專案的預算資源選取資源規劃工具，請按一下&#x200B;**變更** > **情境規劃工具** > **選擇**。
 
-     ![](assets/business-case-rp-selected-change-option-to-switch-to-sp-highlighted-350x37.png)
+     ![具有「選擇」按鈕的情境規劃工具中的業務案例](assets/business-case-rp-selected-change-option-to-switch-to-sp-highlighted-350x37.png)
 
      Workfront使用連結行動方案中的所需職務角色時數，來計算專案的預算勞力成本和預算時數。 這是建議的選項。 成本會以專案的貨幣顯示在業務案例中。
 
