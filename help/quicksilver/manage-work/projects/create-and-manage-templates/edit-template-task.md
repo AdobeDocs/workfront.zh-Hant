@@ -7,9 +7,9 @@ description: 建立範本後，您可以編輯有關範本任務的資訊。 使
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '2406'
+source-wordcount: '2420'
 ht-degree: 4%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權 </td> 
-   <td> <p>管理範本的許可權。 </p> <p>範本任務的Contribute或更高的許可權。</p> </td> 
+   <td> <p>管理範本的許可權。 </p> <p>範本任務的Contribute或更高許可權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -82,8 +82,8 @@ ht-degree: 4%
 1. 按一下清單中範本任務的名稱以開啟範本任務。
 1. （選擇性）若要大量編輯數個範本工作，請選取多個範本工作，然後按一下範本清單頂端的&#x200B;**編輯**。
 1. （視條件而定）若要編輯範本任務的有限資訊，請按一下左側面板中的&#x200B;**範本任務詳細資訊**，然後移至[詳細資訊]區段的區域以編輯每個區域的資訊。
-1. （選擇性）按一下&#x200B;**全部摺疊**&#x200B;圖示![](assets/collapse-all-icon.png)以摺疊所有區域。
-1. 若要編輯詳細資訊區段中的資訊，請按一下&#x200B;**編輯**&#x200B;圖示![](assets/edit-icon.png)，然後從下列任何區域選取，或按一下&#x200B;**編輯全部**&#x200B;以編輯所有區域的資訊：
+1. （選擇性）按一下&#x200B;**全部收合**&#x200B;圖示![全部收合圖示](assets/collapse-all-icon.png)以收合所有區域。
+1. 若要編輯詳細資訊區段中的資訊，請按一下&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)，然後從下列任何區域選取，或按一下&#x200B;**編輯全部**&#x200B;以編輯所有區域的資訊：
 
    * 概觀
    * 自訂表單
@@ -96,7 +96,7 @@ ht-degree: 4%
    >
    >如需詳細資訊區域中顯示的所有欄位相關資訊，請使用「編輯範本任務」方塊繼續編輯所有欄位，如下所述。
 
-1. （視條件而定）若要編輯範本任務的所有相關資訊，請按一下範本任務名稱旁的&#x200B;**更多**&#x200B;功能表![](assets/qs-more-icon-on-an-object.png)，然後按一下&#x200B;**編輯**。
+1. （條件式）若要編輯範本任務的所有資訊，請按一下範本任務名稱旁的&#x200B;**更多**&#x200B;功能表![更多圖示](assets/qs-more-icon-on-an-object.png)，然後按一下&#x200B;**編輯**。
 
    **編輯範本任務**&#x200B;方塊隨即顯示。
 
@@ -104,7 +104,7 @@ ht-degree: 4%
    >
    >您也可以在清單中選取範本任務，然後按一下「編輯」以開啟「編輯範本任務」方塊。
 
-   ![](assets/edit-template-tasks-box-classic-350x356.png)
+   ![編輯範本任務](assets/edit-template-tasks-box-classic-350x356.png)
 
 1. 請考慮在下列任何一節中指定資訊：
 
@@ -268,7 +268,7 @@ ht-degree: 4%
 1. 如上所述，開始編輯範本任務。
 1. 按一下&#x200B;**設定**。
 
-   ![](assets/edit-template-tasks-settings-classic-350x231.png)
+   ![編輯範本任務設定](assets/edit-template-tasks-settings-classic-350x231.png)
 
 1. 更新下列任一專案：
 
