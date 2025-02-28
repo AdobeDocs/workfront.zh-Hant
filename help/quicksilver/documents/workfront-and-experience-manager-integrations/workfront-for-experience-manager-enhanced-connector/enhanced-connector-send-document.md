@@ -6,9 +6,9 @@ description: 您可以從Workfront傳送檔案至Experience Manager Assets。 �
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: d687d2db-28e0-45e8-9d60-8419921f02e9
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '457'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 1%
 
 開始之前，您必須
 
-* 安裝Workfront for Experience Manager增強型聯結器。
+* 安裝適用於Experience Manager的Workfront增強型聯結器。
 
 ## 傳送檔案至Experience Manager Assets
 
@@ -69,7 +69,7 @@ ht-degree: 1%
    >
    >您可以為此整合選擇任何名稱，因此可能沒有特別提及Experience Manager Assets。
 
-   ![](assets/copy-of-send-to-in-toolbar-350x149.png)
+   ![傳送至](assets/copy-of-send-to-in-toolbar-350x149.png)
 
 1. 選擇要將資產移至何處，然後按一下&#x200B;**選取資料夾**。
 1. 當您找到想要的目的地，請按一下[儲存]。****
@@ -87,6 +87,6 @@ ht-degree: 1%
    >
    >您可以為此整合選擇任何名稱，因此可能沒有特別提及Experience Manager Assets。
 
-   ![](assets/copy-of-send-to-in-toolbar-350x149.png)
+   ![傳送至](assets/copy-of-send-to-in-toolbar-350x149.png)
 
 1. 按一下「**儲存**」。新版本會儲存在與舊版本相同的位置。
