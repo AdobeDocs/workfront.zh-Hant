@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: 03f95d2d6397850fd53e79fd37c2de56e94a04cd
 workflow-type: tm+mt
 source-wordcount: '1270'
 ht-degree: 0%
@@ -75,7 +75,10 @@ ht-degree: 0%
 商業規則中也提供API萬用字元。 僅在API中使用`$$ISAPI`觸發規則。 使用`!$$ISAPI`只會在使用者介面中強制執行規則，並允許使用者透過API略過規則。
 
 * 例如，此規則禁止使用者透過API編輯完成的專案。 如果未使用萬用字元，則規則會同時封鎖使用者介面和API中的動作。
-  `IF({status} = "CPL" && $$ISAPI, "You cannot edit completed projects through the API.")`
+
+  ```
+  IF({status} = "CPL" && $$ISAPI, "You cannot edit completed projects through the API.")
+  ```
 
 在運算式中使用`$$BEFORE_STATE`和`$$AFTER_STATE`萬用字元來存取任何編輯前後物件的欄位值。
 
@@ -85,8 +88,17 @@ ht-degree: 0%
 
 一些簡單的商業規則案例包括：
 
-* 使用者無法在2月的最後一週新增費用。 此公式可以表示為： `IF(MONTH($$TODAY) = 2 && DAYOFMONTH($$TODAY) >= 22, "You cannot add new expenses during the last week of February.")`
-* 使用者無法編輯處於完成狀態的專案名稱。 此公式可以表示為： `IF({status} = "CPL" && {name} != $$BEFORE_STATE.{name}, "You cannot edit the project name.")`
+* 使用者無法在2月的最後一週新增費用。 此公式可表示為：
+
+  ```
+  IF(MONTH($$TODAY) = 2 && DAYOFMONTH($$TODAY) >= 22, "You cannot add new expenses during the last week of February.")
+  ```
+
+* 使用者無法編輯處於完成狀態的專案名稱。 此公式可表示為：
+
+  ```
+  IF({status} = "CPL" && {name} != $$BEFORE_STATE.{name}, "You cannot edit the project name.")
+  ```
 
 含有巢狀IF陳述式的案例是：
 
