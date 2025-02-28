@@ -7,9 +7,9 @@ description: 「已排程工作之預算成本(BCWS)」也稱為計畫值，是�
 author: Lisa
 feature: Work Management
 exl-id: b9a36333-9430-42bd-99dd-3ad82803b633
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '621'
 ht-degree: 2%
 
 ---
@@ -77,7 +77,7 @@ Adobe Workfront會計算專案和任務的已排程工作預算成本(BCWS)。
 1. 移至專案，然後按一下左側面板中的&#x200B;**專案詳細資料**。
 1. 在&#x200B;**財務**&#x200B;區域中，找到&#x200B;**績效索引方法**&#x200B;欄位，然後按兩下以編輯它。
 
-   ![](assets/pim-options-hour-cost-based-nwe.png)
+   ![PIM選項](assets/pim-options-hour-cost-based-nwe.png)
 
 1. 從下列選項中選取：
 
@@ -126,7 +126,7 @@ Task BCWS = 20% x $10,000 = $2,000
 1. 按一下「**新增欄**」。
 1. 在&#x200B;**顯示在此資料行：**&#x200B;欄位中，開始輸入&#x200B;**BCWS**，然後按一下以在清單中顯示時選取它。
 
-   ![](assets/bcws-in-project-view.png)
+   專案檢視中的![BCWS](assets/bcws-in-project-view.png)
 
 1. 按一下「**儲存視圖**」。
 1. **BCWS**&#x200B;欄位會顯示在檢視中。
