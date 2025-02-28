@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 0%
 {{step1-to-priorities}}
 
 1. 按一下熒幕右側的&#x200B;**欄**。
-   ![](assets/columns.png)
+   ![欄](assets/columns.png)
 1. 使用切換可啟用或停用工作清單中的欄。
 
 ### 重新排序欄
@@ -77,15 +77,15 @@ ht-degree: 0%
 
 1. 按一下熒幕右側的&#x200B;**欄**。
 1. 按一下&#x200B;**拖曳**圖示，並將資料行移至您想要的位置。 自動移動工作清單中的欄更新。
-   ![](assets/reorder-columns.png)
+   ![重新排序資料行](assets/reorder-columns.png)
 
 ### 重設欄寬
 
 {{step1-to-priorities}}
 
 1. 按一下熒幕右側的&#x200B;**欄**。
-1. 按一下&#x200B;**更多**&#x200B;圖示![](assets/more-icon.png)，然後選擇&#x200B;**重設資料行寬度**。
-   ![](assets/columns.png)
+1. 按一下&#x200B;**更多**&#x200B;圖示![更多圖示](assets/more-icon.png)，然後選擇&#x200B;**重設資料行寬度**。
+   ![欄](assets/columns.png)
 
 ## 自訂「優先順序」工作清單欄
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 {{step1-to-priorities}}
 
 1. 按一下畫面左側的&#x200B;**欄**。
-   ![](assets/columns-new.png)
+   ![欄](assets/columns-new.png)
 1. 使用切換可啟用或停用工作清單中的欄。
 
 ### 重新排序欄
@@ -103,7 +103,7 @@ ht-degree: 0%
 
 1. 按一下畫面左側的&#x200B;**欄**。
 1. 按一下&#x200B;**拖曳**圖示，並將資料行移至您想要的位置。 自動移動工作清單中的欄更新。
-   ![](assets/reorder-columns-new.png)
+   ![重新排序資料行](assets/reorder-columns-new.png)
 
 >[!NOTE]
 >
