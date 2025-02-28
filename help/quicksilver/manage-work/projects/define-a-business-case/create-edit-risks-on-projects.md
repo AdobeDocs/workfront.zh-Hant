@@ -6,9 +6,9 @@ description: 風險是阻礙專案準時完成或在預算內完成的可能事�
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 928ea5da9955b8c1c98782df81698c49987d4c18
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1037'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ ht-degree: 0%
 
    * **移轉成本**：表示您必須設定移轉計畫的成本，以防止風險發生。
 
-   ![](assets/crp1-350x117.png)
+   ![風險](assets/crp1-350x117.png)
 
 1. （選擇性）按一下&#x200B;**新增其他風險**&#x200B;以新增其他風險。
 1. 按一下「**儲存**」。
