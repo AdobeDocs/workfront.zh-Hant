@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 31793b0e-444c-492c-b1a2-909a2e97628b
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 1%
+source-wordcount: '202'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 1%
    | **一般** | 「正常」表示在「緊急」和「高」優先順序專案完成之後，您將處理的例行工作專案。 這是任務和問題的預設值。 |
    | **低** | 「低」表示不需要立即關注的工作專案，並可延遲到所有優先順序較高的工作專案完成為止。 |
 
-   ![](assets/my-focus-new.png)
+   ![我的焦點](assets/my-focus-new.png)
 
    >[!TIP]
    >
