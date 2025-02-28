@@ -6,9 +6,9 @@ description: 您可以在Workfront中管理檔案的多個版本。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 477153e4-847b-46ec-8107-72a7399c3767
-source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '542'
 ht-degree: 0%
 
 ---
@@ -64,15 +64,15 @@ ht-degree: 0%
 
 1. 在「檔案詳細資訊」頁面頂端附近，按一下名稱旁邊的下拉式功能表，然後按一下您要檢視及管理的版本名稱。
 
-   ![](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
+   檔案詳細資料中的![版本下拉式清單](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
 
    除了檢視版本的詳細資訊之外，您還可以變更版本，例如其名稱、中繼資料和校訂設定（如果是檔案校訂）。
 
 ## 下載單一檔案版本
 
-1. 在[摘要]中的&#x200B;**版本**&#x200B;下，按一下版本右側的[更多]功能表![](assets/more-icon.png)，然後按一下出現的下拉式清單中的&#x200B;**下載**。
+1. 在[摘要]中的&#x200B;**版本**&#x200B;下，按一下版本右側的[更多]功能表![[更多]功能表](assets/more-icon.png)，然後在出現的下拉式清單中按一下&#x200B;**[下載]**。
 
-   ![](assets/more-versions-350x143.png)
+   ![下載單一檔案](assets/more-versions-350x143.png)
 
 ## 下載檔案的所有版本
 
@@ -105,4 +105,4 @@ ht-degree: 0%
 
    如果檔案連結到外部來源，則該連結會遭到刪除，並且該檔案無法再透過Workfront存取。
 
-   ![](assets/more-versions-350x143.png)
+   ![刪除檔案版本](assets/more-versions-350x143.png)
