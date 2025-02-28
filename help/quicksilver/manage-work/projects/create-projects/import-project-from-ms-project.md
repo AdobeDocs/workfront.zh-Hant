@@ -6,9 +6,9 @@ description: 您可以將專案從Microsoft專案匯入Adobe Workfront，並在�
 author: Alina
 feature: Work Management
 exl-id: dcc3c049-245c-4bb7-b819-b75d6d7e5b67
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '512'
 ht-degree: 1%
 
 ---
@@ -98,14 +98,14 @@ You must have the following access to perform the steps in this article:
 1. 登入Workfront。
 1. 執行下列其中一項：
 
-   * 按一下Workfront右上角的&#x200B;**主功能表** ![](assets/main-menu-icon.png)，或按一下左上角的&#x200B;**主功能表** ![](assets/lines-main-menu.png)。如果可用，請按一下&#x200B;**專案**，然後展開&#x200B;**新增專案**。
+   * 按一下Workfront右上角的&#x200B;**主功能表** ![主功能表圖示](assets/main-menu-icon.png)，或按一下左上角的&#x200B;**主功能表** ![主功能表行](assets/lines-main-menu.png)。如果可用，請按一下&#x200B;**專案**，然後展開&#x200B;**新專案**。
    * 移至投資組合，然後展開&#x200B;**新專案**。
    * 前往方案，然後展開&#x200B;**新專案**。
    * 如果您是群組管理員，您也可以在您管理之群組的專案區段中建立專案。 如需詳細資訊，請參閱[建立和修改群組的專案](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md)。
 
 1. 選擇&#x200B;**匯入MS Project**&#x200B;選項。
 
-   ![](assets/new-project-dropdown-nwe-350x358.png)
+   ![新專案下拉式清單](assets/new-project-dropdown-nwe-350x358.png)
 
 1. 按一下「**選取檔案**」，然後在電腦上瀏覽您從Microsoft專案匯出的.xml檔案。
 1. 匯入選取的檔案。
