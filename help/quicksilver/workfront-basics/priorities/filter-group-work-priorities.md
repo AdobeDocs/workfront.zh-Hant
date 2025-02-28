@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 116b9823818ac6103641c2e6ce283dfb47282851
+source-git-commit: c362c62855c71022c4bc6b3abc22ba4ea83b1b24
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '652'
 ht-degree: 4%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 4%
 1. 按一下工作清單左上角的&#x200B;**篩選器**。
 1. 按一下&#x200B;**標準篩選器**。
 1. 選取一個或多個篩選器以縮小您的工作專案。
-   ![](assets/filter-new.png)
+   ![篩選器](assets/filter-new.png)
 
 +++展開以檢視有關可用篩選器的詳細資訊
 <table>
@@ -157,7 +157,7 @@ ht-degree: 4%
 
 1. 按一下工作清單左上角的&#x200B;**群組**。
 1. 選取群組以組織您的工作清單
-   ![](assets/groups-new.png)
+   ![群組](assets/groups-new.png)
 
 +++展開以檢視有關可用群組的詳細資訊
 
@@ -184,7 +184,7 @@ ht-degree: 4%
 
 若要排序群組中的工作，請開啟&#x200B;**群組**&#x200B;並按一下&#x200B;**遞增排序**&#x200B;或&#x200B;**遞減排序**。
 
-![](assets/sort-in-groups.png)
+![在群組中排序](assets/sort-in-groups.png)
 
 ### 排序欄
 
@@ -196,4 +196,4 @@ ht-degree: 4%
 
 若要展開或收合所有群組區段，請開啟&#x200B;**群組**&#x200B;並按一下&#x200B;**全部展開**&#x200B;或&#x200B;**全部收合**。
 
-![](assets/expand-collapse-groups.png)
+![展開或收合群組](assets/expand-collapse-groups.png)
