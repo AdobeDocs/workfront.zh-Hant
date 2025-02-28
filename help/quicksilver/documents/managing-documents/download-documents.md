@@ -6,9 +6,9 @@ description: 您可以個別或大量從Adobe Workfront下載檔案。 可從Wor
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 083c604a-b2ca-4279-a90d-b103e3575dad
-source-git-commit: 060557085c6941fab4ca8df22641679199f5c55b
+source-git-commit: 5595b1c286d82f77bca9ee16e20bae8380ce45b5
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 0%
 1. 前往包含檔案的專案、任務或問題，然後選取「**檔案**」。
 1. 尋找您需要的檔案。
 
-1. 按一下&#x200B;**下載選取的專案**&#x200B;圖示![](assets/download-icon.png)。
+1. 按一下&#x200B;**下載選取的專案**&#x200B;圖示![下載選取的專案](assets/download-icon.png)。
 
 ## 同時下載多份檔案
 
@@ -66,9 +66,9 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >無法大量下載從Box、Dropbox、Google Drive等連結至Workfront的檔案。
+   >您無法大量下載從Box、Dropbox、Google Drive等連結至Workfront的檔案。
 
 1. （可選）從資料夾清單中選取包含要下載檔案的資料夾。
-1. 按一下「下載選取的專案」圖示![](assets/download-icon.png)。
+1. 按一下「下載選取的專案」圖示![下載選取的專案](assets/download-icon.png)。
 
    資料夾會下載為.zip檔案，且限製為4GB。
