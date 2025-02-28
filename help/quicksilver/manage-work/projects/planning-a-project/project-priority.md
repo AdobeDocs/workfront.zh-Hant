@@ -7,9 +7,9 @@ description: 有數種方式可以在專案中使用優先順序，而且這些�
 author: Alina
 feature: Work Management
 exl-id: b1e0b6c5-f2a7-455b-836b-6c0ead85e3ad
-source-git-commit: b08edd8dd7c339dffdba4c9ff5aa0a365229e794
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '663'
 ht-degree: 1%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計劃 </p> </td> 
+   <td> <p>規劃 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
@@ -86,9 +86,9 @@ ht-degree: 1%
 
   如需詳細資訊，請參閱本文中的[專案優先順序的考量事項](#considerations-about-project-priority)一節。
 
-* **Portfolio最佳化工具中專案的優先順序**，如果專案與投資組合相關聯：
+* **Portfolio Optimizer中專案的優先順序**，如果專案與投資組合相關聯：
 
-  如需有關Portfolio最佳化工具中專案優先順序的詳細資訊，請參閱文章[排定Portfolio最佳化工具中專案的優先順序](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)。
+  如需有關Portfolio Optimizer中專案優先順序的詳細資訊，請參閱文章[在Portfolio Optimizer中排定專案優先順序](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)。
 
 * **資源規劃工具中專案的優先順序**：您可以手動排定資源規劃工具中專案的優先順序，以指出哪些專案應該先接收資源。
 
@@ -104,7 +104,7 @@ ht-degree: 1%
 
   如需有關在Workfront中建立優先順序的詳細資訊，請參閱文章[建立及自訂優先順序](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md)。
 
-* 當您更新專案的「優先順序」欄位時，此「優先順序」不會轉移至「Portfolio最佳化工具」或「資源規劃工具」。 專案的優先順序欄位只是您放置在專案上的手動標幟，以向其他使用者表示其重要性。
+* 當您更新專案的「優先順序」欄位時，此「優先順序」不會轉移至Portfolio最佳化工具或資源規劃工具。 專案的優先順序欄位只是您放置在專案上的手動標幟，以向其他使用者表示其重要性。
 * 專案的優先順序值主要用於報告目的。
 
   例如，當您在專案篩選器中使用此欄位時，您可以搜尋所有優先順序值為緊急的專案。
@@ -119,13 +119,13 @@ ht-degree: 1%
 
 1. 前往您要更新其優先順序的專案。
 1. 按一下左側面板中的&#x200B;**專案詳細資料**。
-1. 按一下「專案詳細資料」區域右上角的&#x200B;**編輯**&#x200B;圖示![](assets/qs-edit-icon.png)，然後按一下&#x200B;**概述**。
+1. 按一下「專案詳細資料」區域右上角的&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/qs-edit-icon.png)，然後按一下&#x200B;**概述**。
 
 1. 在&#x200B;**優先順序**&#x200B;欄位中，從下列選項中選取：
 
    * 無
    * 低
-   * 標準
+   * 正常
 
      這是預設優先順序。
 
