@@ -6,9 +6,9 @@ description: 您可以從外部來源將檔案和資料夾連結到Adobe Workfro
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: fde2ad9a8ef1b7f659f8f52c157726d0562b972a
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '2608'
+source-wordcount: '2620'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
     <ul> 
      <li>方塊</li> 
      <li>Dropbox</li> 
-     <li>Dropbox企業</li> 
+     <li>Dropbox業務</li> 
      <li>WebDAM</li> 
      <li>Microsoft OneDrive</li> 
      <li>Microsoft SharePoint</li> 
@@ -119,7 +119,7 @@ ht-degree: 0%
 1. 移至Workfront中您想要檔案的&#x200B;**檔案**&#x200B;區域。
 1. 按一下「新增&#x200B;**」**，然後按一下您要將檔案連結至Workfront的外部檔案提供者。
 
-   例如，若要從Dropbox連結檔案，請按一下&#x200B;**從Dropbox**。
+   例如，若要從Dropbox連結檔案，請按一下[從Dropbox連結] ****。
 
    您已經授權的外部提供者會出現在清單頂端。
 
@@ -163,7 +163,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**新增** > **版本**，然後按一下外部檔案提供者。
 
-   例如，若要從Dropbox連結檔案的新版本，請按一下&#x200B;**從Dropbox**。
+   例如，若要從Dropbox連結檔案的新版本，請按一下[從Dropbox連結] ****。
 
    您已經授權的外部提供者會出現在清單頂端。
 
@@ -248,7 +248,7 @@ ht-degree: 0%
 1. 選取在Workfront中上傳的檔案。
 1. 按一下&#x200B;**更多** >**傳送至**，然後選取您要儲存連結檔案的雲端提供者。
 
-   您也可以使用[檔案詳細資訊]頁面上的[更多]功能表![](assets/more-icon.png)來執行此操作。
+   您也可以使用[檔案詳細資訊]頁面上的[更多]功能表![[更多]功能表](assets/more-icon.png)來執行此操作。
 
 1. 在提供者的應用程式中，選取您要儲存檔案的資料夾。
 
@@ -278,7 +278,7 @@ ht-degree: 0%
 
 ### 連結一或多個外部資料夾 {#link-one-or-more-external-folders}
 
-1. 移至Workfront中您要資料夾的區域，然後按一下左側面板中的「**檔案**」![](assets/document-icon.png)。
+1. 移至Workfront中您要資料夾的區域，然後按一下左側面板中的&#x200B;**檔案** ![檔案圖示](assets/document-icon.png)。
 
 1. 按一下[新增]****，然後按一下您要將資料夾連結至Workfront的外部檔案提供者。
 1. （視條件而定）如果您尚未授權外部服務，請指定外部提供者的登入認證，然後按一下&#x200B;**登入**。
@@ -301,9 +301,9 @@ ht-degree: 0%
 
    在Workfront中，雲端提供者的標誌會顯示在資料夾旁，表示已連結至外部雲端提供者。
 
-1. （選擇性）若要重新命名資料夾，讓Workfront中的資料夾名稱不同於外部檔案應用程式中的資料夾名稱，請在&#x200B;**資料夾**&#x200B;區段中選取資料夾，按一下資料夾名稱旁邊顯示的[更多]功能表![](assets/more-icon.png)，然後按一下[重新命名]。**重新命名**
+1. （選擇性）若要重新命名資料夾，讓Workfront中的資料夾名稱不同於外部檔案應用程式中的資料夾名稱，請在&#x200B;**資料夾**&#x200B;區段中選取資料夾，按一下資料夾名稱旁邊顯示的[更多]功能表![更多功能表](assets/more-icon.png)，然後按一下[重新命名]****。
 
-   ![](assets/documents-folderlink-rename-nwe-350x154.png)
+   ![重新命名資料夾](assets/documents-folderlink-rename-nwe-350x154.png)
 
 這不會重新命名外部應用程式中的資料夾。
 
@@ -317,7 +317,7 @@ ht-degree: 0%
 
    若要將現有資料夾拖曳至現有的連結資料夾，請移至您想要子資料夾的「檔案」區域，然後將其拖曳至連結資料夾。
 
-   ![](assets/documents-link-folder-move-nwe-350x113.png)
+   ![拖曳至連結的資料夾](assets/documents-link-folder-move-nwe-350x113.png)
 
    >[!NOTE]
    >
@@ -363,4 +363,4 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->請勿重新命名連結至Dropbox的Workfront檔案，否則會導致Workfront中的檔案無法存取。 請改用Dropbox重新命名檔案，然後重新同步檔案。
+>請勿重新命名連結至Dropbox的Workfront檔案，否則會導致Workfront中的檔案無法存取。 請改為在Dropbox中重新命名檔案，然後重新同步檔案。
