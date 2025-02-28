@@ -6,9 +6,9 @@ description: 行事曆報告是一種動態報告，可提供工作的視覺化�
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 40cc8628-7641-41ce-b8e5-7f5ed5ad36c7
-source-git-commit: c88c8dc7431f3bc711ae1942df12925fafa7eff0
+source-git-commit: 40bbb198216b2806154f83730d8afedd5f355a3e
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1104'
 ht-degree: 1%
 
 ---
@@ -205,7 +205,6 @@ ht-degree: 1%
    * **[!UICONTROL 任務]**
    * **[!UICONTROL 專案]**
    * **[!UICONTROL 問題]**
-   * **休假**
 
 1. 根據您新增至行事曆的物件型別，按一下&#x200B;**[!UICONTROL 新增任務]**、**[!UICONTROL 新增專案]**、**[!UICONTROL 新增問題]**&#x200B;或&#x200B;**休假**。
 

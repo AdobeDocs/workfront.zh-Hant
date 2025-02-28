@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 946b7d2ed2d45c3622706a0d0336b3261c22a2ad
+source-git-commit: 491a32e677b913c71396316d365fc1f18750124e
 workflow-type: tm+mt
-source-wordcount: '1469'
+source-wordcount: '1471'
 ht-degree: 0%
 
 ---
@@ -187,7 +187,7 @@ ht-degree: 0%
 
 ### 檔案核准區域的介面更新
 
-**預覽版本： 2025年2月13日；生產版本：即將宣佈**
+**預覽版本： 2025年2月13日；生產版本：自2025年2月27日起一週**
 
 我們已更新檔案上的核准區域，採用與Workfront其他區域一致的更現代化設計。
 
