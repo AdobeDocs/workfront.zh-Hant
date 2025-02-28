@@ -6,9 +6,9 @@ description: 您可以先請求核准專案，然後再開始處理。 我們建
 author: Alina
 feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '530'
 ht-degree: 2%
 
 ---
@@ -70,14 +70,14 @@ ht-degree: 2%
 
 1. 執行下列其中一項：
 
-   * 按一下右上角的&#x200B;**主功能表** ![](assets/main-menu-icon.png)，或左上角的&#x200B;**主功能表** ![](assets/lines-main-menu.png)。如果可用，請按一下&#x200B;**專案**，然後展開&#x200B;**新增專案**。
+   * 按一下右上角的&#x200B;**主功能表** ![主功能表圖示](assets/main-menu-icon.png)，或左上角的&#x200B;**主功能表** ![主功能表行](assets/lines-main-menu.png)。如果可用，請按一下&#x200B;**專案**，然後展開&#x200B;**新專案**。
    * 移至投資組合，然後展開&#x200B;**新專案**。
    * 前往方案，然後展開&#x200B;**新專案**。
    * 如果您是群組管理員，您也可以在您管理之群組的專案區段中建立專案。 如需詳細資訊，請參閱[建立和修改群組的專案](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md)。
 
 1. 按一下&#x200B;**請求專案**。
 
-   ![](assets/new-project-dropdown-nwe-350x358.png)
+   ![新專案下拉式清單](assets/new-project-dropdown-nwe-350x358.png)
 
 1. 執行下列其中一項：
 
@@ -89,4 +89,4 @@ ht-degree: 2%
 
      如需建立專案的詳細資訊，請參閱[建立專案](../../../manage-work/projects/create-projects/create-project.md)或[使用範本建立專案](../../../manage-work/projects/create-projects/create-project-from-template.md)。
 
-   您請求的專案具有&#x200B;**已請求**&#x200B;狀態，且若您將其與Portfolio相關聯，該專案會顯示在Portfolio的&#x200B;**已請求專案**&#x200B;索引標籤上。 投資組合經理現在可以稽核它，並核准或拒絕它，在這種情況下，專案狀態將變更為&#x200B;**已核准**&#x200B;或&#x200B;**已拒絕**。
+   您請求的專案具有&#x200B;**已請求**&#x200B;狀態，且若您將其與Portfolio建立關聯，該專案會顯示在Portfolio的&#x200B;**已請求專案**&#x200B;標籤上。 投資組合經理現在可以稽核它，並核准或拒絕它，在這種情況下，專案狀態將變更為&#x200B;**已核准**&#x200B;或&#x200B;**已拒絕**。
