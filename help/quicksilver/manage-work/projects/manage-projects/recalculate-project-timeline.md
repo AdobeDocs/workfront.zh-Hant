@@ -6,9 +6,9 @@ description: 重新計算時間表可讓經理檢視與專案相關的不同因�
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
-source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1064'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計劃 </p> </td> 
+   <td> <p>規劃 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
@@ -174,13 +174,13 @@ If the timeline of a project is longer than 15 years, the automatic recalculatio
 
 您可以從專案頁面或專案清單或報告，在Workfront中重新計算專案的時間表。
 
-1. 前往您要重新計算時間表之專案，然後按一下專案名稱左邊的&#x200B;**更多**&#x200B;圖示![](assets/qs-more-menu.png)
+1. 前往您要重新計算時間表之專案，然後按一下專案名稱左邊的&#x200B;**更多**&#x200B;圖示![更多功能表](assets/qs-more-menu.png)
 
-   ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![更多下拉式清單](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    或
 
-   前往專案清單或報告，選取一或多個專案，然後按一下清單頂端的&#x200B;**更多**&#x200B;圖示![](assets/qs-more-menu.png)。
+   前往專案清單或報告，選取一或多個專案，然後按一下清單頂端的&#x200B;**更多**&#x200B;圖示![更多](assets/qs-more-menu.png)。
 
    ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
