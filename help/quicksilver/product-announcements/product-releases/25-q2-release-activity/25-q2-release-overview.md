@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
+source-git-commit: f90a1066202e2c949ab5bfebf85897060f1c29d2
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,6 @@ Workfront版本編號代表每月和每季的版本追蹤。 第一個數字代�
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
             在編輯專案方塊中編輯專案時，為專案新增註解</a></p>
-            [！BADGE New in Preview ]{type=Negative}
             <p>您現在可以在「編輯專案」方塊中編輯專案時，將註解新增至專案。 您也可以在大量編輯專案時，一次為多個專案新增註解。 在此更新之前，編輯專案時不存在此功能。</p>
         </td>
         <td>

@@ -7,9 +7,10 @@ feature: Product Announcements
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 10ab6466780d9fe88604bf781c153cde89f1e454
+exl-id: 0de6119d-6a47-41f2-87da-2c6752ca436b
+source-git-commit: f90a1066202e2c949ab5bfebf85897060f1c29d2
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '338'
 ht-degree: 0%
 
 ---
@@ -26,7 +27,7 @@ ht-degree: 0%
 
 **時間？**
 
-* 第25.2發行版本（2025年2月）
+* 5月26日當週
 
 **我可以改用哪些專案？**
 
@@ -40,7 +41,7 @@ ht-degree: 0%
 
 我們的首要建議是確保您的組織可以存取Workfront Data Connect，並儘快熟悉其使用情況。 若要進一步瞭解Data Connect功能及如何開始使用，請參閱[Workfront Data Connect概觀](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md)。
 
-Data Connect包含在新的Ultimate計畫中，可作為新Select和Prime計畫的附加元件購買。 請注意，Data Connect不適用於舊版Workfront計畫中的組織。 請聯絡您的Workfront客戶代表，瞭解貴組織目前採用的計畫以及如何購買Data Connect。
+Data Connect包含在新的Ultimate計畫<!--, and can be purchased as an add-on to the new Select and Prime plans-->中。 請注意，Data Connect不適用於舊版Workfront計畫中的組織。 請聯絡您的Workfront客戶代表，瞭解貴組織目前採用的計畫以及如何購買Data Connect。
 
 ### 復寫增強的Analytics視覺效果
 
@@ -59,6 +60,7 @@ No, it will be completely removed from the application.
 +++
 
 +++ What do I do if my organization is on a legacy Workfront plan but I want to use Data Connect?
-Contact your account representative about moving to one of the new Workfront plans.
 
+Contact your account representative about moving to one of the new Workfront plans.
++++
 -->

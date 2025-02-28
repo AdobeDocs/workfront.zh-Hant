@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
+source-git-commit: f90a1066202e2c949ab5bfebf85897060f1c29d2
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,18 @@ ht-degree: 0%
 * 及更多內容
 
 如需詳細資訊，請參閱[行事曆](/help/quicksilver/reports-and-dashboards/reports/calendars/calendars.md)文章。
+
+## 更新專案檢視中專案里程碑路徑的檢視
+
+>[!NOTE]
+>
+>預覽版： 2025年2月27日；快速發行生產：25.3版（2025年3月）；每季生產：25.4版（2025年4月）
+
+從專案清單或報告存取里程碑路徑時，里程碑詳細資訊頁面現在具有新的外觀。 您必須將里程碑路徑名稱欄位新增到清單或報告的檢視中，才能存取里程碑路徑的詳細資訊頁面。
+
+在這次更新中，我們還新增了關於每個里程碑的顏色和顏色代碼的資訊。
+
+如需詳細資訊，請參閱[建立里程碑路徑](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)。
 
 ## 檔案電子郵件的暫時外觀變更
 
