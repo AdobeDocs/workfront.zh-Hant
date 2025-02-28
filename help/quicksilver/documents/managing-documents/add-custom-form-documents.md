@@ -6,9 +6,9 @@ description: 您可以將自訂表單新增到檔案或檔案版本中，以擷�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 6c974293-1f54-447b-8d42-8d039f7911f1
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '334'
 ht-degree: 1%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 1%
 1. 前往包含檔案的專案、任務或問題，然後選取「**檔案**」。
 1. 尋找您需要的檔案。
 
-1. 按一下&#x200B;**摘要**&#x200B;圖示![](assets/summary-panel-icon.png)，然後尋找&#x200B;**詳細資料**&#x200B;區段。
+1. 按一下&#x200B;**摘要**&#x200B;圖示![摘要圖示](assets/summary-panel-icon.png)，然後尋找&#x200B;**詳細資料**&#x200B;區段。
 1. 在&#x200B;**新增自訂表單**&#x200B;方塊中，開始輸入並選取自訂表單。 表單會自動儲存到檔案。
 
    >[!NOTE]
@@ -73,8 +73,8 @@ ht-degree: 1%
 1. 前往包含檔案的專案、任務或問題，然後選取「**檔案**」。
 1. 尋找您需要的檔案。
 
-1. 按一下&#x200B;**摘要**&#x200B;圖示![](assets/summary-panel-icon.png)，然後在頂端附近找到&#x200B;**詳細資料**&#x200B;區段。
+1. 按一下&#x200B;**摘要**&#x200B;圖示![摘要圖示](assets/summary-panel-icon.png)，然後在頂端附近找到&#x200B;**詳細資料**&#x200B;區段。
 1. 按一下右上角的&#x200B;**編輯**，然後展開所需的表單。
 1. 進行必要的變更，然後按一下[儲存]。****
 
-   ![](assets/edit-custom-form-350x265.png)
+   ![編輯自訂表單](assets/edit-custom-form-350x265.png)
