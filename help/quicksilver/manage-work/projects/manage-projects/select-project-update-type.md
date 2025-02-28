@@ -6,9 +6,9 @@ description: 透過為專案選取更新型別，您可以控制您對專案時�
 author: Alina
 feature: Work Management
 exl-id: ffdfffec-d217-4daa-9849-cb0c794992c0
-source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計劃 </p> </td> 
+   <td> <p>規劃 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
@@ -91,7 +91,7 @@ ht-degree: 0%
 任務更新時，其父物件（父任務或專案）會在「更新型別」所指示的時間更新。  若要指定專案的更新型別，請執行下列動作：
 
 1. 前往您要指定其更新型別的專案。
-1. 按一下專案名稱旁的[更多]功能表![](assets/more-icon.png)，然後按一下[編輯] ****。
+1. 按一下專案名稱旁的「更多」功能表![「更多」圖示](assets/more-icon.png)，然後按一下「**編輯**」。
 
 1. 按一下&#x200B;**專案** **設定**。
 
