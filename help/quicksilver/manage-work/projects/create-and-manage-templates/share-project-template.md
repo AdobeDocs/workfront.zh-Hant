@@ -6,9 +6,9 @@ description: 您可以在範本層級使用下列共用選項，與使用者共�
 author: Alina
 feature: Work Management
 exl-id: 99c6b241-a2c9-4b6c-b605-177bbbc3f21a
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '780'
+source-wordcount: '787'
 ht-degree: 2%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計劃 </p> </td> 
+   <td> <p>規劃 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
@@ -62,10 +62,10 @@ ht-degree: 2%
 
 共用範本：
 
-1. 從&#x200B;**主功能表**&#x200B;圖示![](assets/main-menu-icon.png)，按一下&#x200B;**範本**。
+1. 從&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，按一下&#x200B;**範本**。
 
 1. 執行下列其中一項：\
-   按一下範本名稱以開啟，然後按一下&#x200B;**更多**&#x200B;功能表![](assets/qs-more-icon-on-an-object.png)，再按一下&#x200B;**範本共用**。
+   按一下範本名稱以開啟，然後按一下&#x200B;**更多**&#x200B;功能表![更多圖示](assets/qs-more-icon-on-an-object.png)，然後按一下&#x200B;**範本共用**。
 
    或
 
@@ -100,7 +100,7 @@ ht-degree: 2%
 若要與使用者共用從範本建立的未來專案：
 
 1. 執行下列其中一項：\
-   按一下範本名稱以開啟，然後按一下&#x200B;**更多**&#x200B;功能表![](assets/qs-more-icon-on-an-object.png)，再按一下&#x200B;**範本共用**。
+   按一下範本名稱以開啟，然後按一下&#x200B;**更多**&#x200B;功能表![更多圖示](assets/qs-more-icon-on-an-object.png)，然後按一下&#x200B;**範本共用**。
 
    ![從範本共用專案](assets/project-sharing-on-template-nwe-2022-350x172.png)
 
@@ -119,7 +119,7 @@ ht-degree: 2%
    * **沒有存取權**：您可以指定哪些使用者沒有範本的存取權。\
      此選項僅在從範本大量共用專案時可用。 
    * **檢視**：具有這些許可權的使用者可以檢視從範本建立的專案。
-   * **Contribute**：具有這些許可權的使用者可以貢獻使用範本建立的專案 
+   * **參與**：擁有這些許可權的使用者可以參與由範本建立的專案 
    * **管理**：具有這些許可權的使用者可以管理或刪除從這個範本建立的專案。
 
 1. （選擇性）按一下&#x200B;**選項**&#x200B;圖示，讓專案在整個系統內都可用。
