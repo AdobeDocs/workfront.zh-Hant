@@ -6,9 +6,9 @@ description: 如果專案與群組相關聯，您可以將系統層級狀態以�
 author: Alina
 feature: Work Management
 exl-id: 7564ab6a-8ddf-4e76-8e45-d59f9cf8d38b
-source-git-commit: 6bb6b834c5af8ad48179fc0d60b184d083b360e4
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Alina, I moved this out of an admin article about statuses (Create and customize
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計劃 </p> </td> 
+   <td> <p>規劃 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
@@ -92,7 +92,7 @@ Alina, I moved this out of an admin article about statuses (Create and customize
 當您更新專案的群組時，任務、問題或專案狀態可用的選項會變更為符合群組。
 
 1. 移至專案或建立新專案，如[建立專案](../../../manage-work/projects/create-projects/create-project.md)中所述。
-1. 按一下&#x200B;**更多**&#x200B;圖示![](assets/more-icon.png)，然後按一下&#x200B;**編輯**。
+1. 按一下&#x200B;**更多**&#x200B;圖示![更多圖示](assets/more-icon.png)，然後按一下&#x200B;**編輯**。
 
 1. 在顯示的&#x200B;**編輯專案**&#x200B;方塊中，在&#x200B;**概觀**&#x200B;區段底部附近，選取&#x200B;**群組**&#x200B;下拉式功能表中的群組。
 
