@@ -7,9 +7,9 @@ description: 專案的淨值，是計算專案的收益並移除成本後，專�
 author: Lisa
 feature: Work Management
 exl-id: 44e3f211-c816-4ee1-aafc-c40fc8732f1a
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '402'
 ht-degree: 1%
 
 ---
@@ -48,15 +48,15 @@ Project Net Value = Planned Benefit - Budgeted Cost - Potential Risk Cost
 * 在業務案例的摘要區域中 \
   如需業務案例摘要區域的詳細資訊，請參閱文章[建立專案的業務案例](../../../manage-work/projects/define-a-business-case/create-business-case.md) [建立專案的業務案例](../../../manage-work/projects/define-a-business-case/create-business-case.md)中的「瞭解業務案例摘要」一節。
 
-  ![](assets/net-value-on-business-case-summary-highlighted-350x444.png)
+  業務案例上的![淨值](assets/net-value-on-business-case-summary-highlighted-350x444.png)
 
-* 在Portfolio最佳化工具中（若專案與專案組合相關聯）
+* 在Portfolio Optimizer中，如果專案與專案組合相關聯
 
   >[!TIP]
   >
   >所有專案淨值的總計是投資組合的淨值。
 
-  如需有關Portfolio最佳化程式的詳細資訊，請參閱[Portfolio最佳化程式概述](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)。
+  如需Portfolio Optimizer的詳細資訊，請參閱[Portfolio Optimizer概觀](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)。
 
 * 在下列清單和報告的「專案淨值」欄位中：
 
