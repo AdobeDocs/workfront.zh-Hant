@@ -7,9 +7,9 @@ description: 成本排程績效指數(CSI)是一種自動計算，它將「成�
 author: Lisa
 feature: Work Management
 exl-id: 38a8c5e0-b812-499d-8fe7-a71ddccb3aad
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ CSI有下列三個可能的值：
 * \>1 =在預算排程組合之下
 * &lt;1 =超出預算排程組合
 
-![](assets/csi-highlighted.png)
+![CSI](assets/csi-highlighted.png)
 
 ## 找出成本排程績效指數(CSI)
 
