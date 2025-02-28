@@ -6,9 +6,9 @@ description: 當專案記錄的時數或用於計算成本和收入的費率發�
 author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1633'
 ht-degree: 0%
 
 ---
@@ -149,15 +149,15 @@ ht-degree: 0%
 
 您可在大量編輯時重新計算財務。 如需相關資訊，請參閱本文中的[手動重新計算大量財務](#manually-recalculate-finances-in-bulk)一節。
 
-1. 前往您要重新計算財務的專案，然後按一下專案名稱右側的&#x200B;**更多**&#x200B;圖示![](assets/qs-more-icon-on-an-object.png)。
+1. 前往您要重新計算財務的專案，然後按一下專案名稱右邊的&#x200B;**更多**&#x200B;圖示![更多功能表](assets/qs-more-icon-on-an-object.png)。
 
-   ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![更多專案層級的下拉式清單](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    或
 
-   前往專案清單或報告，選取一或多個專案，然後按一下清單頂端的&#x200B;**更多**&#x200B;圖示![](assets/qs-more-icon-on-an-object.png)。
+   前往專案清單或報告，選取一或多個專案，然後按一下清單頂端的&#x200B;**更多**&#x200B;圖示![更多](assets/qs-more-icon-on-an-object.png)。
 
-   ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![重新計算運算式](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
    >[!TIP]
    >
@@ -181,9 +181,9 @@ ht-degree: 0%
 若要手動重新計算數個專案的財務：
 
 1. 前往專案清單。
-1. 選取清單中的多個專案，然後按一下清單頂端的&#x200B;**更多**&#x200B;圖示![](assets/qs-more-icon-on-an-object.png)。
+1. 選取清單中的多個專案，然後按一下清單頂端的&#x200B;**更多**&#x200B;圖示![更多功能表](assets/qs-more-icon-on-an-object.png)。
 
-   ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![重新計算運算式](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
    >[!TIP]
    >
@@ -207,4 +207,4 @@ ht-degree: 0%
 >
 >當您變更專案狀態時，只會重新計算計畫值。
 
-您也可以按一下&#x200B;**重新計算財務**，在專案層級的&#x200B;**更多**&#x200B;功能表![](assets/qs-more-menu.png)下手動重新計算財務。
+您也可以按一下&#x200B;**重新計算財務**，在專案層級的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/qs-more-menu.png)下手動重新計算財務。
