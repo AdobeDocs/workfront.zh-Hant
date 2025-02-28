@@ -6,9 +6,9 @@ description: 您可以將Adobe Workfront專案匯出至Microsoft專案。
 author: Alina
 feature: Work Management
 exl-id: 3f0f3644-a763-4b72-a93a-85af8626b5b3
-source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---
@@ -88,15 +88,15 @@ ht-degree: 0%
 
 您可以從專案頁面、專案清單或報表，從Workfront匯出專案。
 
-1. 前往您要匯出的專案，然後按一下專案名稱右側的&#x200B;**更多**&#x200B;圖示![](assets/qs-more-menu.png)
+1. 前往您要匯出的專案，然後按一下專案名稱右側的&#x200B;**更多**&#x200B;圖示![更多功能表](assets/qs-more-menu.png)
 
-   ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![更多下拉式清單](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    或
 
-   前往專案清單或報告，並選取專案，然後按一下清單頂端的「更多」圖示![](assets/qs-more-menu.png)。
+   前往專案清單或報告，並選取專案，然後按一下清單頂端的「更多」圖示![「更多」功能表](assets/qs-more-menu.png)。
 
-   ![](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
+   ![其他功能表已展開](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
 
 1. 按一下&#x200B;**匯出MS Project**。
 
