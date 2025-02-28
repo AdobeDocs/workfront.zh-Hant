@@ -1,20 +1,20 @@
 ---
 navigation-topic: business-case-and-scorecards
 title: 為專案建立業務案例
-description: 您可以使用業務案例來請求專案，並定義專案的目的、預算和潛在利益。 Portfolio經理或專案贊助者會使用業務案例的資訊來分析專案，並在核准專案之前先設定優先順序。
+description: 您可以使用業務案例來請求專案，並定義專案的目的、預算和潛在利益。 Portfolio經理或專案贊助者會使用業務案例的資訊來分析專案，並在核准專案之前先設定其優先順序。
 author: Alina
 feature: Work Management
 exl-id: db69b3bf-04e3-49b4-ae0d-ab6145389db5
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '833'
 ht-degree: 0%
 
 ---
 
 # 為專案建立業務案例
 
-您可以使用業務案例來請求專案，並定義專案的目的、預算和潛在利益。 Portfolio經理或專案贊助者會使用業務案例的資訊來分析專案，並在核准專案之前先設定優先順序。
+您可以使用業務案例來請求專案，並定義專案的目的、預算和潛在利益。 Portfolio經理或專案贊助者會使用業務案例的資訊來分析專案，並在核准專案之前先設定其優先順序。
 
 ## 存取需求
 
@@ -54,13 +54,13 @@ ht-degree: 0%
 
   如需業務案例領域的相關資訊，請參閱文章[業務案例領域概觀](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md)。
 
-* 如果您希望專案在Portfolio最佳化工具中收到分數，您必須完成業務案例的所有區域，但「目標」區域除外。 完成目標區域為選用。 專案會在Portfolio最佳化工具中收到分數，即使此區域未完成。
+* 如果您希望專案在Portfolio Optimizer中收到分數，您必須完成業務案例的所有區域，但「目標」區域除外。 完成目標區域為選用。 專案會在Portfolio Optimizer中收到分數，即使此區域未完成。
 
-  如需有關使用計分卡和Portfolio最佳化程式的資訊，請參閱文章[將計分卡套用至專案並產生一致性分數](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md)。
+  如需有關使用計分卡和Portfolio Optimizer的資訊，請參閱文章[將計分卡套用至專案並產生一致性分數](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md)。
 
 ## 建立業務案例
 
-1. 按一下&#x200B;**主功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**專案**。
+1. 按一下&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**專案**。
 1. 按一下&#x200B;**新增專案**&#x200B;並選取&#x200B;**要求專案**。\
    依照預設，專案會置於&#x200B;**Idea**&#x200B;狀態。
 
@@ -69,7 +69,7 @@ ht-degree: 0%
    >如果您的Workfront例項中已刪除「構想」狀態，則專案會根據「專案偏好設定」區域中的定義，置於新專案的預設狀態。 如需有關設定專案偏好設定的資訊，請參閱[設定全系統的專案偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
 
 1. 指定專案名稱，然後按Enter鍵。
-1. （選擇性）按一下&#x200B;**更多**&#x200B;圖示![](assets/qs-more-icon-on-an-object.png)，然後按一下&#x200B;**附加範本**，以建立專案的工作劃分結構。
+1. （選擇性）按一下&#x200B;**更多**&#x200B;圖示![更多圖示](assets/qs-more-icon-on-an-object.png)，然後&#x200B;**附加範本**，以建立專案的工作劃分結構。
 
    或
 
