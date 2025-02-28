@@ -88,7 +88,7 @@ Users cannot interact with approvals and team requests in Priorities. However, t
 
 Users can update custom forms inside the task view by clicking the task name, navigating to the Details tab, and scrolling to the bottom of the page.
 
-![](assets/custom-form-priorities.png)
+![Custom form in Priorities](assets/custom-form-priorities.png)
 
 #### Use the Summary panel
 
@@ -99,7 +99,7 @@ The Summary panel displays for tasks and issues. In the Summary, users can
 * Navigate to the Details tab in Priorities
 * Update task and issue information
 
-![](assets/assignments-summary.png)
+![Assignments in Summary](assets/assignments-summary.png)
 
 <!--Can admins customize this? It looks different from the task/issue summary in other areas. -->
 
@@ -107,7 +107,7 @@ The Summary panel displays for tasks and issues. In the Summary, users can
 
 On the **Table** tab, click into the name cell of the work item. Clicking on the name of the work item takes you to the Details page and does not open the Summary panel. 
 
-![](assets/open-summary-priorities.png)
+![Open Summary Priorities](assets/open-summary-priorities.png)
 
 
 ## Prepare for the deprecation

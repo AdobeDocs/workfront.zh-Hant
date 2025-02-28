@@ -28,10 +28,10 @@ The Adobe Workfront administrator restricted the user to viewing only Companies,
 As a Workfront administrator, do the following:
 
 1. Find the user and click to access it.
-1. Click the **More menu** ![](assets/more-icon.png) next to the name of the user, then click&nbsp;**Edit**. 
+1. Click the **More menu** ![More icon](assets/more-icon.png) next to the name of the user, then click&nbsp;**Edit**. 
 1. Click **Access** and make note of the name of the **Access Level** assigned to this user.
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
 1. Go to **Setup > Access Levels.**
 1. Click the name of the **Access Level** to edit it.&nbsp;
 1. Deselect the following field: **View only companies, groups & teams they belong to.**

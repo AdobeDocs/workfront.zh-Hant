@@ -25,4 +25,4 @@ The following actions trigger financial recalculation in Workfront:
 >
 >When you change the project status, only the planned values are being recalculated.
 
-You can also recalculate finances manually under the **More** menu ![](assets/qs-more-menu.png) at the project level, by clicking **Recalculate Finances**. 
+You can also recalculate finances manually under the **More** menu ![More menu](assets/qs-more-menu.png) at the project level, by clicking **Recalculate Finances**. 
