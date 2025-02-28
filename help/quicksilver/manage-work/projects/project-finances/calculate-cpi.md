@@ -7,9 +7,9 @@ description: 成本績效指數(CPI)說明專案或作業層次的計畫成本�
 author: Lisa
 feature: Work Management
 exl-id: 7f2efe26-7292-482d-986c-2d2077a7ca52
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '615'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ ht-degree: 0%
 
 #### 使用以小時為基礎的PIM時的CPI計算 {#cpi-calculations-when-using-hour-based-pim}
 
-如果
+若
 
 ```
 Actual Hours > 0 THEN CPI = Total Budgeted Cost Work Performed / Actual Hours
@@ -121,7 +121,7 @@ CPI = 1
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><code>NOTE: this used to be here before - above - but Anna sent me the one below. I kept the other one, although she is still researching its validity - see this issue: https://hub.workfront.com/issue/5fc7b1cf00012aeebf9e822db8ea2513/overview)</code> </p>
 -->
 
-如果
+若
 
 ```
 Actual Labor Cost + Incurred Actual Expense Cost <> 0 THEN CPI = (Total Budgeted Cost Work Performed + Incurred Planned Expense Cost) / (Actual Labor Cost + Incurred Actual Expense Cost)
@@ -200,4 +200,4 @@ Planned Cost of Incurred Expenses = Total of Planned Cost of all incurred expens
 
    CPI顯示在&#x200B;**CPI/ SPI/ CSI**&#x200B;欄位中。
 
-   ![](assets/cpi-on-project-nwe.png)
+   專案](assets/cpi-on-project-nwe.png)上的![CPI
