@@ -5,9 +5,9 @@ description: 在您完成並提交專案要求的業務案例後，業務案例�
 author: Alina
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
-source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計劃 </p> </td> 
+   <td> <p>規劃 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
@@ -56,7 +56,7 @@ ht-degree: 0%
 * 您必須手動前往需要業務案例核准的個別專案，以檢視他們處於未決核准。 沒有Workfront通知機制會提醒某人他們必須核准專案的業務案例。
 * 您可以透過建立專案報告或存取與其相關聯的投資組合，找到等待業務案例核准的專案。
 
-  如需Portfolio的詳細資訊，請參閱Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)中的文章[Portfolio概觀。
+  如需關於產品組合的詳細資訊，請參閱文章[ Adobe Workfront中的Portfolio概觀](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)。
 
 ## 建立專案報告以核准業務案例
 
@@ -106,7 +106,7 @@ ht-degree: 0%
    Project Portfolio Owner ID Equals $$USER. ID
    ```
 
-   以顯示您被指定為「Portfolio管理員」的位置。
+   以顯示您指定為Portfolio管理員的位置。
 
 1. 按一下&#x200B;**儲存+關閉**。
 
@@ -116,7 +116,7 @@ ht-degree: 0%
 1. 按一下左側面板中的&#x200B;**業務案例**。
 1. 按一下業務案例摘要區域中的&#x200B;**核准**&#x200B;或&#x200B;**拒絕**，以核准或拒絕業務案例。
 
-   ![](assets/business-case-summary-with-rp-information--1-.png)
+   ![業務案例](assets/business-case-summary-with-rp-information--1-.png)
 
    若業務案例已核准，專案狀態會變更為&#x200B;**已核准**。
 
