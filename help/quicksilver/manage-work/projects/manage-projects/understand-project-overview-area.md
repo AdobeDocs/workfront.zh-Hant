@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6113bc62-18f2-4558-bc2f-986b1e7d1a83
-source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1453'
 ht-degree: 3%
 
 ---
@@ -63,13 +63,13 @@ ht-degree: 3%
 
    或
 
-   按一下[詳細資料]區段右上角的&#x200B;**編輯**&#x200B;圖示![](assets/edit-icon.png)，然後按一下&#x200B;**概述**。 如此將可開啟「概述」區域以進行編輯。
+   按一下[詳細資料]區段右上角的&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)，然後按一下&#x200B;**概述**。 如此將可開啟「概述」區域以進行編輯。
 
    >[!NOTE]
    >
    >根據Workfront管理員設定版面配置範本的方式，概觀區段可能不會列在前，在此情況下會摺疊。 如需詳細資訊，請參閱[使用配置範本自訂詳細資料檢視](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)。
 
-1. （視條件而定）如果專案上有特定欄位需要更新，但未顯示在此區段中，請按一下專案名稱旁的&#x200B;**更多功能表** ![](assets/more-icon.png)，然後&#x200B;**編輯**&#x200B;以檢視更多專案欄位。
+1. （視條件而定）如果專案上有特定欄位需要更新，但未顯示在此區段中，請按一下專案名稱旁的&#x200B;**更多功能表** ![更多圖示](assets/more-icon.png)，然後&#x200B;**編輯**&#x200B;以檢視更多專案欄位。
 
    如需有關編輯專案的詳細資訊，請參閱[編輯專案](../../../manage-work/projects/manage-projects/edit-projects.md)。
 
