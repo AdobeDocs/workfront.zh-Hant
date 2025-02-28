@@ -8,9 +8,9 @@ feature: Work Management
 hide: true
 hidefromtoc: true
 exl-id: 230d8e62-a3c9-4e38-9b26-5ba1c4f56391
-source-git-commit: 60eefed6b3931f681aa86ab2c533662e76793744
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1180'
 ht-degree: 1%
 
 ---
@@ -95,7 +95,7 @@ Frame.io中的專案是由連線至Workfront群組的團隊所組織。 我們�
 
 繼續下一節。
 
-![](assets/template-group.png)
+![範本群組](assets/template-group.png)
 
 ### 新增任務並指派啟用Frame.io的使用者
 
@@ -105,7 +105,7 @@ Frame.io中的專案是由連線至Workfront群組的團隊所組織。 我們�
    或
 
    按一下&#x200B;**新增範本工作**，一次新增一個工作並設定其他設定。
-   ![](assets/add-tasks-to-template.png)
+   ![新增任務至範本](assets/add-tasks-to-template.png)
 1. 新增任務名稱。
 1. 在&#x200B;**指派**&#x200B;區域中，指派使用者或團隊。 如果您指派已啟用Frame.io的使用者（無論是個別或團隊中），則會授予他們對Frame.io專案的共同作業人員存取權，並透過電子郵件通知他們有關Frame.io專案中的任務。 他們可以從該電子郵件加入Frame.io專案並開始工作。
 1. 視需要重複步驟1和2。
@@ -133,7 +133,7 @@ Workfront擁有強大的專案管理功能。 我們建議使用[編輯專案範
 1. 按一下&#x200B;**從範本新增專案**。
 1. 使用搜尋方塊，開始輸入您需要的範本名稱。
 1. 選取範本名稱，然後按一下[使用範本]。****
-   ![](assets/find-your-template.png)
+   ![尋找您的範本](assets/find-your-template.png)
 1. 視需要調整任何專案設定，然後按一下[建立專案]。****
 1. 在左側面板中，按一下&#x200B;**檔案**。
 1. 使用單向同步資料夾，自動與Frame.io共用創意素材。 [!BADGE 即將推出]{type=Informative}
@@ -176,7 +176,7 @@ Workfront擁有強大的專案管理功能。 我們建議使用[編輯專案範
    或
 
    按一下&#x200B;**新增工作**，一次新增一個工作並設定其他設定。
-   ![](assets/add-project-tasks.png)
+   ![新任務](assets/add-project-tasks.png)
 1. 新增任務名稱。
 1. 在&#x200B;**指派**&#x200B;區域中，指派使用者或團隊。 如果您指派已啟用Frame.io的使用者（無論是個別或團隊中），則會授予他們對Frame.io專案的共同作業人員存取權，並透過電子郵件通知他們有關Frame.io專案中的任務。 他們可以從該電子郵件加入Frame.io專案並開始工作。
 1. 視需要重複步驟1和2。
