@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 923deab4-205b-4312-9ec4-4471fd6cea26
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '493'
 ht-degree: 1%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計劃 </p> </td> 
+   <td> <p>規劃 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
@@ -62,7 +62,7 @@ ht-degree: 1%
 ## 從專案建立範本
 
 1. 前往您要另存為範本的專案。
-1. 按一下&#x200B;**更多**&#x200B;功能表![](assets/qs-more-icon-on-an-object.png)，然後&#x200B;**另存為範本**。
+1. 按一下&#x200B;**更多**&#x200B;功能表![更多圖示](assets/qs-more-icon-on-an-object.png)，然後&#x200B;**另存為範本**。
 1. 指定範本的下列資訊：
 
    <table style="table-layout:auto"> 
@@ -94,17 +94,17 @@ ht-degree: 1%
 
 1. 按一下&#x200B;**管理Forms**&#x200B;以移除或重新排序表格。 如需如何在範本上移除和重新排序自訂表單的相關資訊，請參閱[自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)。
 
-   ![](assets/save-as-template-first-step-350x159.png)
+   ![第一步另存為範本](assets/save-as-template-first-step-350x159.png)
 
 1. 按一下&#x200B;**下一步。**
 1. 在&#x200B;**選項**&#x200B;區段中，選取您要從範本中清除之任何資訊旁的核取方塊。
 
-   ![](assets/save-as-template-options-step-350x109.png)
+   ![另存為範本選項](assets/save-as-template-options-step-350x109.png)
 
 1. 按一下&#x200B;**下一步。**
 1. 在&#x200B;**排除**&#x200B;區段中，選取您要從專案排除的任何工作。
 
-   ![](assets/save-as-template-exclude-350x205.png)
+   ![另存為範本排除](assets/save-as-template-exclude-350x205.png)
 
 1. 按一下&#x200B;**完成並儲存範本。**
 
