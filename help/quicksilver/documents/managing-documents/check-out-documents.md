@@ -6,9 +6,9 @@ description: 您可以出庫檔案，以防止其他使用者刪除檔案或上�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 15d9ea43-1cee-4cb1-9365-4374a291c090
-source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
@@ -77,9 +77,9 @@ ht-degree: 0%
 
    如需新增檔案的詳細資訊，請參閱[從您的檔案系統新增檔案至Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)。
 
-1. 按一下&#x200B;**簽出**&#x200B;圖示![](assets/check-out-25x23.png)。
+1. 按一下&#x200B;**簽出**&#x200B;圖示![簽出圖示](assets/check-out-25x23.png)。
 
-1. 鎖定圖示![](assets/lock-icon-locked-qs.png)會顯示在檔名稱的右側。 在您登出Workfront後，檔案會保持出庫狀態。
+1. 鎖定圖示![鎖定圖示](assets/lock-icon-locked-qs.png)會顯示在檔名稱的右側。 在您登出Workfront後，檔案會保持出庫狀態。
 1. 只有出庫檔案的使用者或Workfront管理員才能將檔案入庫。
 
 ## 管理已取出檔案
@@ -103,6 +103,6 @@ ht-degree: 0%
 
 1. 移至儲存檔案的區域，然後選取檔案。 
 
-   鎖定圖示![](assets/lock-icon-locked-qs.png)會顯示在檔名稱的右側。
+   鎖定圖示![鎖定圖示](assets/lock-icon-locked-qs.png)會顯示在檔名稱的右側。
 
-1. 按一下&#x200B;**簽入**&#x200B;圖示![](assets/check-in-25x22.png)。
+1. 按一下&#x200B;**簽入**&#x200B;圖示![簽入圖示](assets/check-in-25x22.png)。
