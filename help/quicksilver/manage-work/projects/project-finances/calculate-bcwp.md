@@ -7,9 +7,9 @@ description: 「已執行工作之預算成本(BCWP)」也稱為「盈餘值」�
 author: Lisa
 feature: Work Management
 exl-id: 203709a7-e522-4875-b3eb-40b967a938ec
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '594'
 ht-degree: 2%
 
 ---
@@ -77,7 +77,7 @@ Adobe Workfront會計算專案與任務的已執行工作預算成本(BCWP)。
 1. 移至專案，並在左側面板中展開&#x200B;**專案詳細資料**。
 1. 在&#x200B;**財務**&#x200B;區域中，找到&#x200B;**績效索引方法**&#x200B;欄位，然後按兩下以編輯它。
 
-   ![](assets/pim-options-hour-cost-based-nwe.png)
+   ![PIM選項](assets/pim-options-hour-cost-based-nwe.png)
 
 1. 從下列選項中選取：
 
@@ -125,7 +125,7 @@ BCWP = 25% x $10,000 = $2,500
 1. 按一下「**新增欄**」。
 1. 在&#x200B;**顯示在此欄：**&#x200B;欄位中開始輸入&#x200B;**BCWP**，然後按一下以在清單中顯示時選取它。
 
-   ![](assets/bcwp-project-view.png)
+   專案檢視中的![BCWP](assets/bcwp-project-view.png)
 
 1. 按一下「**儲存視圖**」。
 1. BCWP欄位會顯示在檢視中。
