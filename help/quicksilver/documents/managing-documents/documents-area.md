@@ -7,9 +7,9 @@ description: 在「檔案」區域中，您可以組織、管理和檢視上傳�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 64612345-d1ce-41db-939b-3af30d1c6a51
-source-git-commit: 8bf345be3632061b89d239697077fd42c9d9cfd6
+source-git-commit: 5595b1c286d82f77bca9ee16e20bae8380ce45b5
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 在「檔案」區域中，您可以組織、管理和檢視上傳至Adobe Workfront的檔案的中繼資料。 您也可以檢視校訂決定。
 
-![](assets/documents-area-v2-350x199.png)
+![檔案區域](assets/documents-area-v2-350x199.png)
 
 檔案區域有兩種型別。 兩者的特色和功能相同：
 
-* **方案、投資組合、專案、任務或問題的檔案區域：**&#x200B;列出您有權存取特定專案、任務或問題的所有檔案。 若要存取此區域，在檢視專案、任務或問題時，按一下左側面板中的&#x200B;**檔案** ![](assets/document-icon-12x14.png)。
+* **方案、投資組合、專案、任務或問題的檔案區域：**&#x200B;列出您有權存取特定專案、任務或問題的所有檔案。 若要存取此區域，在檢視專案、任務或問題時，按一下左側面板中的&#x200B;**檔案** ![檔案圖示](assets/document-icon-12x14.png)。
 
-* **全域檔案區域：**&#x200B;列出您在Workfront中可以存取的所有檔案。 若要存取此區域，請按一下主功能表![](assets/main-menu-icon.png)中的&#x200B;**檔案** ![](assets/document-icon.png)。
+* **全域檔案區域：**&#x200B;列出您在Workfront中可以存取的所有檔案。 若要存取此區域，請按一下主功能表![主功能表圖示](assets/main-menu-icon.png)中的&#x200B;**檔案** ![檔案圖示](assets/document-icon.png)。
 
 如需有關將檔案上傳到Workfront的資訊，請參閱[從您的檔案系統新增檔案到Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)。
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 當您需要有關檔案的所有資訊時，可以按一下「詳細資訊」標題以前往完整的「檔案詳細資訊」區域。
 
-![](assets/documents-area-v2-350x199.png)
+![檔案區域](assets/documents-area-v2-350x199.png)
 
 如需「摘要」的相關資訊，請參閱[檔案概述](../../documents/managing-documents/summary-for-documents.md)的摘要。
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 一旦做出校訂決定，它就會出現在檔案清單中。
 
-![](assets/proof-decision---doc-list-350x168.png)
+![檔案清單中的校訂決定](assets/proof-decision---doc-list-350x168.png)
 
 ## 資料夾
 
