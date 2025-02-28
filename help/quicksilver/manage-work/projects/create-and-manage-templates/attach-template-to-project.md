@@ -6,9 +6,9 @@ description: 您可以在專案的初始建立階段期間或建立專案後，�
 author: Alina
 feature: Work Management
 exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1138'
+source-wordcount: '1165'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計劃 </p> </td> 
+   <td> <p>規劃 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
@@ -77,15 +77,15 @@ ht-degree: 0%
 
 您可以從專案頁面或專案清單或報表，將範本附加至Workfront中的專案。
 
-1. 前往您要附加範本的專案，然後按一下專案名稱右側的&#x200B;**更多**&#x200B;圖示![](assets/qs-more-icon-on-an-object.png)
+1. 前往您要附加範本的專案，然後按一下專案名稱右側的&#x200B;**更多**&#x200B;圖示![更多](assets/qs-more-icon-on-an-object.png)
 
-   ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![更多下拉式清單](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    或
 
-   前往專案清單或報告並選取專案，然後按一下清單頂端的&#x200B;**更多**&#x200B;圖示![](assets/qs-more-icon-on-an-object.png)。
+   前往專案清單或報告並選取專案，然後按一下清單頂端的&#x200B;**更多**&#x200B;圖示![更多](assets/qs-more-icon-on-an-object.png)。
 
-   ![](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
+   ![其他功能表已展開](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
 
 
 1. 按一下&#x200B;**附加範本**。
@@ -106,16 +106,16 @@ ht-degree: 0%
    * 任務總數
    * 附加自訂表單的名稱
 
-   ![](assets/attach-template-box-template-preview-area-nwe-350x282.png)
+   ![附加範本方塊](assets/attach-template-box-template-preview-area-nwe-350x282.png)
 
-1. （選擇性）按一下範本名稱左側的&#x200B;**我的最愛**&#x200B;圖示![](assets/favorites-icon-small.png)，將其標示為我的最愛。 這會將範本移到「我的最愛」清單中。
+1. （選擇性）按一下範本名稱左邊的&#x200B;**我的最愛**&#x200B;圖示![我的最愛圖示](assets/favorites-icon-small.png)，將其標示為我的最愛。 這會將範本移到「我的最愛」清單中。
 
-   ![](assets/favorites-icon-on-template-list-in-attach-template-box-nwe-350x79.png)
+   範本清單上的![我的最愛圖示](assets/favorites-icon-on-template-list-in-attach-template-box-nwe-350x79.png)
 
-1. （選擇性）再次按一下&#x200B;**我的最愛**&#x200B;圖示![](assets/favorites-icon-selected.png)以將其從我的最愛清單中移除。
+1. （選擇性）再次按一下&#x200B;**我的最愛**&#x200B;圖示![我的最愛圖示](assets/favorites-icon-selected.png)以將其從我的最愛清單中移除。
 1. 按一下&#x200B;**自訂並附加**。
 
-   ![](assets/attach-template-large-box-nwe-350x262.png)
+   ![附加範本](assets/attach-template-large-box-nwe-350x262.png)
 
 1. 在附加範本之前，請更新下列區段中的資訊（或隨時按一下[附加範本] ****）：
 
@@ -193,6 +193,6 @@ ht-degree: 0%
 1. 按一下左側面板中的&#x200B;**專案詳細資料**。
 1. 在&#x200B;**專案關係**&#x200B;下的&#x200B;**總覽**&#x200B;區段底部的&#x200B;**範本**&#x200B;欄位中，尋找附加至專案的範本名稱。
 
-   ![](assets/nwe-template-info-on-project-350x356.png)
+   ![專案上的範本資訊](assets/nwe-template-info-on-project-350x356.png)
 
 
