@@ -6,9 +6,9 @@ description: 您可以對時程表、時程表中包含的工作專案以及您�
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '901'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 * 在時程表中
 * 在小時輸入項上
 * 在個別專案上，例如任務或問題
+
+您可以在附註報告中顯示時程表或個別小時輸入項的更新。 如需詳細資訊，請參閱[在備註報告中檢視所有更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)。
 
 ## 存取需求
 
@@ -73,7 +75,7 @@ ht-degree: 0%
 1. 按一下時程表右上角的&#x200B;**顯示註解**。
 註解會顯示在記錄時數專案與註解的專案下。
 
-   ![](assets/comments-expanded-under-tasks-redesigned-timesheet.png)
+   ![評論已展開至重新設計時程表的工作下](assets/comments-expanded-under-tasks-redesigned-timesheet.png)
 
 
 ## 在時程表上發表評論 {#make-comments-on-a-timesheet}
@@ -86,7 +88,7 @@ ht-degree: 0%
 
 您可以對時程表發表一般評論。 註解整個時程表與註解其他物件類似。
 
-1. 按一下右上角的&#x200B;**主功能表**&#x200B;圖示![](assets/main-menu-icon.png)，或左上角的&#x200B;**主功能表**&#x200B;圖示![](assets/lines-main-menu.png)或Workfront （若有）。
+1. 按一下右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，或左上角的&#x200B;**主功能表**&#x200B;圖示![行主功能表](assets/lines-main-menu.png)或Workfront （如果有的話）。
 
 1. 按一下&#x200B;**時程表**。
 1. 移至您要發表註解的時程表。
@@ -113,7 +115,7 @@ ht-degree: 0%
 
 ### 在時程表中評論個別小時專案 {#comment-on-an-individual-hour-entry-in-a-timesheet}
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)。
+1. 按一下Adobe Workfront右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)。
 
 1. 按一下&#x200B;**時程表**。
 1. 移至您想要加上註解的時程表，然後按一下左側面板中的&#x200B;**時程表**。
@@ -128,11 +130,11 @@ ht-degree: 0%
 
    * 輸入新註解並按一下&#x200B;**完成**。
    * 編輯現有的註解並按一下[完成]****，或按一下[取消]**以捨棄變更。**
-   * 按一下&#x200B;**刪除**&#x200B;圖示![](assets/delete.png)以刪除已儲存的註解。
+   * 按一下&#x200B;**刪除**&#x200B;圖示![刪除圖示](assets/delete.png)以刪除已儲存的註解。
 
      小時輸入方塊的右上角會出現一個藍色標籤，表示有與時間輸入一起記錄的註解。
 
-   ![](assets/commment-button-on-hour-log-redesigned-timesheet.png)
+   小時記錄上的![註解按鈕重新設計時程表](assets/commment-button-on-hour-log-redesigned-timesheet.png)
 
    >[!TIP]
    >
@@ -152,7 +154,7 @@ ht-degree: 0%
 
 您只能對時程表中的任務和問題進行評論。 您無法評論專案或一般時間。
 
-1. 按一下Adobe Workfront右上角的&#x200B;[!UICONTROL **主要功能表**]&#x200B;圖示![](assets/main-menu-icon.png)。
+1. 按一下Adobe Workfront右上角的&#x200B;[!UICONTROL **主功能表**]&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)。
 1. 按一下&#x200B;[!UICONTROL **時程表**]。
 1. 移至您想要加上註解的時程表，然後按一下左側面板中的&#x200B;[!UICONTROL **時程表**]。
 1. 按一下任務或問題的列，然後按一下&#x200B;[!UICONTROL **開啟摘要**]。

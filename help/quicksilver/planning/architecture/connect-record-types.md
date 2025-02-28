@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
 workflow-type: tm+mt
-source-wordcount: '2303'
+source-wordcount: '2344'
 ht-degree: 1%
 
 ---
@@ -59,9 +59,9 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
    <li><p> Adobe Workfront規劃<p></li>
-   <li><p> Adobe Experience Manager Assets (如果要連線AEM資產與Planning記錄型別)<p>
+   <li><p> Adobe Experience Manager Assets (如果要將AEM資產與Planning記錄型別連線)<p>
    <p>您必須擁有Adobe Experience Manager Assets授權，以及AEM Assets與Workfront之間的整合。
-    如需詳細資訊，請參閱<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Experience Manager Assets與Assets Essentials的Adobe Workfront：文章索引</a>。 </p>
+    如需詳細資訊，請參閱<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">適用於Experience Manager Assets和Assets Essentials的Adobe Workfront：文章索引</a>。 </p>
    </li>
    </ul></td> 
   </tr>   
@@ -83,8 +83,8 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
  <tr> 
    <td role="rowheader"><p>Adobe Workfront平台</p></td> 
    <td> 
-<p>貴組織的Workfront例項必須加入Adobe統一體驗，才能存取Workfront規劃的所有功能。</p> 
-<p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront的Adobe統一體驗</a>。 </p> 
+<p>貴組織的Workfront例項必須上線至Adobe Unified Experience，才能存取Workfront Planning的所有功能。</p> 
+<p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">適用於Workfront的Adobe Unified Experience</a>。 </p> 
    </td> 
    </tr> 
   </tr> 
@@ -201,20 +201,22 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
      >如果您在選取的工作區中沒有其他記錄型別，工作區區段不會顯示。
 
 
-   * 來自另一個工作區的記錄型別，該記錄型別被設定為從其他工作區連線。 如需詳細資訊，請參閱[編輯記錄型別](/help/quicksilver/planning/architecture/edit-record-types.md)。
-
-     ![](assets/new-connection-allow-multiple-records-box.png)
+   * 來自另一個工作區的記錄型別，該記錄型別被設定為從其他工作區連線。
 
      >[!TIP]
      >
-     >如果沒有記錄型別被設定為從其他工作區連線，則工作區區段不會顯示。
+     >必須針對&#x200B;**編輯記錄型別**&#x200B;方塊的&#x200B;**進階設定**&#x200B;索引標籤中的記錄型別啟用&#x200B;**從其他工作區連線**設定，才能從其他工作區存取記錄型別。 如果沒有記錄型別被設定為從其他工作區連線，則工作區區段不會顯示。
+     > ![編輯記錄型別方塊進階設定索引標籤](assets/edit-record-type-box-advanced-settings-tab.png)
 
+     如需詳細資訊，請參閱[編輯記錄型別](/help/quicksilver/planning/architecture/edit-record-types.md)。
+
+     ![](assets/new-connection-allow-multiple-records-box.png)
 
    * 來自&#x200B;**Workfront物件型別**&#x200B;區段的&#x200B;**專案、Portfolio、方案、公司**&#x200B;或&#x200B;**群組**。
 
      ![](assets/workfront-project-connection-selection.png)
 
-   * 來自&#x200B;**Adobe應用程式**&#x200B;區段的&#x200B;**Experience Manager Assets**。
+   * 來自&#x200B;**Experience Manager Assets應用程式**&#x200B;區段的&#x200B;**Adobe**。
 
      ![](assets/aem-assets-connection-selection.png)
 

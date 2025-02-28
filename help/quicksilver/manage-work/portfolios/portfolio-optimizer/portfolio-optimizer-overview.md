@@ -7,9 +7,9 @@ description: '[!UICONTROL Portfolio Optimizer]是用於專案評估與比較的�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1e48a24c-65de-49c2-85a8-dc931ac40c52
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
 workflow-type: tm+mt
-source-wordcount: '1657'
+source-wordcount: '1647'
 ht-degree: 0%
 
 ---
@@ -128,7 +128,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[！UICONTROL剩餘]</td> 
-   <td> <p>產品組合內所有專案的所有[！UICONTROL預算成本]之後的剩餘預算，已從產品組合的預算中扣除。</p> <p>使用以下公式計算[！UICONTROL剩餘Portfolio預算]：</p> <p><em>[！UICONTROL Portfolio剩餘預算] = [！UICONTROL Portfolio預算總計] — 所有Portfolio專案的[！UICONTROL預算成本]總計</em> </p> <p>投資組合中所有專案的整體[！UICONTROL預算成本]會顯示在「預算」欄位下的指標列中。 </p> <p>如需有關追蹤專案成本的詳細資訊，請參閱<a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">追蹤成本</a>。</p> </td> 
+   <td> <p>產品組合內所有專案的[！UICONTROL總成本]之後的剩餘預算，已從產品組合預算中扣除。</p> <p>使用以下公式計算[！UICONTROL剩餘Portfolio預算]：</p> <p><em>[！UICONTROL Portfolio剩餘預算] = [！UICONTROL Portfolio預算總計] — 所有Portfolio專案的[！UICONTROL預算成本]總計</em> </p> <p>專案組合預算是Portfolio Optimizer預算欄位中的手動輸入專案。 </p> <p>如需有關追蹤專案成本的詳細資訊，請參閱<a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">追蹤成本</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL總成本]</td> 

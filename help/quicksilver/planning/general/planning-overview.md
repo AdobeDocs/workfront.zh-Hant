@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
 workflow-type: tm+mt
-source-wordcount: '1806'
+source-wordcount: '1811'
 ht-degree: 2%
 
 ---
@@ -29,13 +29,13 @@ ht-degree: 2%
 >
 >本文資訊說明Adobe Workfront的額外功能Adobe Workfront Planning。
 >
->您必須具備下列專案才能存取Workfront Planning：
+>您必須具備下列專案，才能完整存取Workfront Planning中的所有功能：
 >
 >* 新的Workfront套件和授權。 Workfront計畫不適用於舊版Workfront套件或授權。
 >* Workfront計畫套件。
 >* 貴組織的Workfront執行個體必須上線至Adobe統一體驗。
 >
-> 如需存取Workfront Planning的完整需求清單，請參閱[AdobePlanning存取總覽](/help/quicksilver/planning/access/access-overview.md)。
+> 如需存取Workfront Planning的完整需求清單，請參閱[Adobe Planning存取總覽](/help/quicksilver/planning/access/access-overview.md)。
 > 
 
 本文包含有關Workfront Planning的一般資訊。
@@ -170,7 +170,7 @@ The following features are currently available in Workfront Planning:
 
 * 指派需要存取Planning版面配置範本的使用者，該範本包含主功能表中的Planning。 如需詳細資訊，請參閱[使用配置範本自訂主功能表](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)和[將使用者指派給配置範本](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)。
 
-* 為使用者指派Workfront授權和Workfront Planning許可權，讓他們能夠在Workfront Planning中檢視或建立物件。 如需授與存取權給其他人以及允許其他人使用Workfront Planning的詳細資訊，請參閱[Adobe計畫存取權概觀](/help/quicksilver/planning/access/access-overview.md)。
+* 為使用者指派Workfront授權和Workfront Planning許可權，讓他們能夠在Workfront Planning中檢視或建立物件。 如需授與存取權給其他人以及允許其他人使用Workfront Planning的詳細資訊，請參閱[Adobe Planning存取權概觀](/help/quicksilver/planning/access/access-overview.md)。
 
 ## Workfront規劃術語
 
@@ -325,7 +325,7 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
 
 ## 找到Adobe Workfront Planning
 
-若要尋找Adobe計畫，請確保貴組織已獲得Workfront計畫的存取權，且您的系統或群組管理員已將「計畫」區域新增至您的主功能表。 如需詳細資訊，請參閱[Adobe計畫存取總覽](/help/quicksilver/planning/access/access-overview.md)。
+若要找到Adobe Planning，請確保貴組織已獲得Workfront Planning的存取權，且您的系統或群組管理員已將Planning區域新增至您的主功能表。 如需詳細資訊，請參閱[Adobe Planning存取總覽](/help/quicksilver/planning/access/access-overview.md)。
 
 若要找到Workfront Planning：
 

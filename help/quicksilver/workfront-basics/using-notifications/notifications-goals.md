@@ -6,9 +6,9 @@ description: 通知：目標
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 12e66711-4438-4fcf-af79-7fcc2c3b1522
-source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
+source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '575'
 ht-degree: 4%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 4%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: because there are conditions for who sees this, I added this from the How To articles/ template although this is not a How To. But I like the format, so I thought keeping it consistent might help users. We may decide to update this when we have access and prereq for overview-type articles)</p>
 -->
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具備下列條件：
 
@@ -55,18 +57,12 @@ ht-degree: 4%
 
 &#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
 
++++
+
 ## 先決條件
 
-更新[!DNL Goals]通知的使用者必須具備下列條件：
+* 您要更新其[!DNL Goals]個通知的使用者必須有包括[!UICONTROL 主要功能表]中的[!DNL Goals]區域的配置範本。
 
-* 包含[!UICONTROL 主要功能表]中[!DNL Goals]區域的配置範本。
-* 存取新的[!DNL Adobe Workfront]體驗。
-
-  <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-  (NOTE: we need this here because you can see these notifications from Classic)
-  </MadCap:conditionalText>
-  -->
 
 ## [!UICONTROL 使用者設定檔]區域中的[!DNL Goals]個通知
 
