@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '1041'
 ht-degree: 2%
 
 ---
@@ -114,7 +114,7 @@ ht-degree: 2%
 
 如需詳細資訊，請參閱[優先處理重要工作專案](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md)。
 
-![](assets/worklist.png)
+![工作清單](assets/worklist.png)
 
 ### 使用行事曆檢視
 
@@ -142,7 +142,7 @@ ht-degree: 2%
 
 如需詳細資訊，請參閱[在優先順序](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md)中新增並檢視註解。
 
-![](assets/update-log-upload.png)
+![更新、記錄時間和上傳](assets/update-log-upload.png)
 
 ### 記錄時間
 
@@ -150,7 +150,7 @@ ht-degree: 2%
 
 如需詳細資訊，請參閱[在優先順序中記錄時間](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md)。
 
-![](assets/update-log-upload.png)
+![更新、記錄時間和上傳](assets/update-log-upload.png)
 
 ### 上傳檔案
 
@@ -163,14 +163,14 @@ ht-degree: 2%
 
 如需詳細資訊，請參閱[上傳優先順序中的檔案](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md)。
 
-![](assets/update-log-upload.png)
+![更新、記錄時間和上傳](assets/update-log-upload.png)
 
 
 ### 新增快速連結
 
 您可以將常用的連結內嵌在工作專案的詳細資訊頁面中。 快速連結可讓您快速瀏覽或複製連結。
 
-![](assets/quick-links.png)
+![快速連結](assets/quick-links.png)
 
 如需詳細資訊，請參閱[在優先順序](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md)中新增及管理快速連結。
 
@@ -194,7 +194,7 @@ ht-degree: 2%
 
 如需詳細資訊，請參閱[在優先順序](/help/quicksilver/workfront-basics/priorities/catch-me-up.md)中趕上工作。
 
-![](assets/catch-me-up.png)
+![回覆我](assets/catch-me-up.png)
 
 <!--need new screen for prod-->
 
