@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 491a32e677b913c71396316d365fc1f18750124e
+source-git-commit: 116b9823818ac6103641c2e6ce283dfb47282851
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1473'
 ht-degree: 0%
 
 ---
@@ -144,7 +144,7 @@ ht-degree: 0%
 
 ### 新增劇本和問題至反複專案
 
-**預覽版本： 2025年2月6日；生產版本：即將宣佈**
+**預覽版本： 2025年2月6日；生產版本：自2025年2月13日起一週**
 
 我們已更新新增劇本和新增問題對話方塊，使其採用與Workfront其他區域一致的更現代設計。
 
