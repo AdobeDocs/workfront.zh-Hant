@@ -6,9 +6,9 @@ description: 專案與任務相關費用的建立與管理費用流程相同。 
 author: Lisa
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '544'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td>擁有專案檢視或管理財務許可權的Contribute或更高的專案許可權</td> 
+   <td>專案貢獻或更高許可權，並具有檢視或管理財務的許可權</td> 
   </tr> 
  </tbody> 
 </table>
@@ -74,7 +74,7 @@ ht-degree: 1%
    * **實際金額：**&#x200B;費用實際成本的金額。\
      這會影響專案的實際成本。
 
-   * **計畫日期：**&#x200B;費用預計發生的日期。 您可以使用&#x200B;*mm/dd/yy*&#x200B;格式在欄位中輸入日期，也可以按一下行事曆圖示  ![](assets/calendar-icon.png)並動態選取日期。
+   * **計畫日期：**&#x200B;費用預計發生的日期。 您可以使用&#x200B;*mm/dd/yy*&#x200B;格式在欄位中輸入日期，也可以按一下行事曆圖示  ![行事曆圖示](assets/calendar-icon.png)並動態選取日期。
 
    * **支付日期：**&#x200B;支付費用的日期。
    * **可記帳：**&#x200B;若要對此費用記帳，請選取此選項。 建立付費記錄時，將費用分類為可付費很重要。
