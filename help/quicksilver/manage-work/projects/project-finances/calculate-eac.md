@@ -7,9 +7,9 @@ description: 作為效能量度，預估完成成本(EAC)代表專案或任務�
 author: Lisa
 feature: Work Management
 exl-id: 9061fa56-cff3-4fe2-866e-1fdda9d43efc
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '848'
 ht-degree: 0%
 
 ---
@@ -140,4 +140,4 @@ EAC = EAC Labor + EAC Expense
 
    EAC值會顯示在&#x200B;**預估完成時間**&#x200B;欄位中。
 
-   ![](assets/eac-highlighted-on-project-350x112.png)
+   專案](assets/eac-highlighted-on-project-350x112.png)上的![EAC
