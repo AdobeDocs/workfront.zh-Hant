@@ -5,9 +5,9 @@ description: 自訂Forms用於收集未顯示在現有Adobe Workfront欄位中�
 author: Alina
 feature: Work Management
 exl-id: f781fd00-968c-4e5d-b82c-a74acedb2734
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計劃 </p> </td> 
+   <td> <p>規劃 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
@@ -73,9 +73,9 @@ ht-degree: 0%
 
 1. 在&#x200B;**自訂表單**&#x200B;區段中，從下拉式功能表中選取您要附加的自訂表單。
 
-   ![](assets/custom-forms-drop-down-menu.png)
+   ![自訂表單下拉式清單](assets/custom-forms-drop-down-menu.png)
 
 1. （選擇性）選取&#x200B;**編輯自訂表格**。\
-   ![](assets/acf1-350x122.png)
+   ![編輯自訂表單](assets/acf1-350x122.png)
 
 1. （選擇性）在自訂表單的欄位中指定資訊，然後按一下&#x200B;**儲存** 。
