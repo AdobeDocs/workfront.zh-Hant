@@ -6,9 +6,9 @@ description: 在專案層級將專案儲存為templateSave as template （範本
 author: Alina
 feature: Work Management
 exl-id: 4b5dfe12-f984-47c6-8e19-78b549f19159
-source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '452'
 ht-degree: 1%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計劃 </p> </td> 
+   <td> <p>規劃 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
@@ -85,7 +85,7 @@ ht-degree: 1%
 ## 將專案另存為範本
 
 1. 前往您要另存為範本的專案。
-1. 按一下&#x200B;**更多**&#x200B;功能表![](assets/qs-more-icon-on-an-object.png)，然後&#x200B;**另存為範本**。
+1. 按一下&#x200B;**更多**&#x200B;功能表![更多圖示](assets/qs-more-icon-on-an-object.png)，然後&#x200B;**另存為範本**。
 1. 指定範本的下列資訊：
 
    <table style="table-layout:auto"> 
