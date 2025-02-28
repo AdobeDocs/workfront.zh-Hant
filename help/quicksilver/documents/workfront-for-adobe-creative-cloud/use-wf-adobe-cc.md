@@ -6,9 +6,9 @@ description: 您可以使用Workfront擴充功能，將您在Adobe Illustrator�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 40945eac-e8de-42af-b6ba-f3082c208e02
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '3087'
+source-wordcount: '3107'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->我們正在取代Illustrator的Workfront擴充功能，並將InDesign更換為[更新的Creative Cloud外掛程式](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)。 自2022年底開始，將不再支援此擴充功能，並依現狀提供。
+>我們正在使用[更新的Workfront外掛程式](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)取代Illustrator和InDesign的Creative Cloud擴充功能。 自2022年底開始，將不再支援此擴充功能，並依現狀提供。
 
 您可以使用Workfront擴充功能，將您在Adobe Illustrator和Adobe InDesign中儲存和建立的數位內容匯出至Workfront。 這能加快檔案稽核和核准流程。
 
@@ -72,9 +72,9 @@ ht-degree: 0%
 
 ## 從Illustrator或InDesign登入Workfront擴充功能 {#log-in-to-workfront-extension-from-illustrator-or-indesign}
 
-當您從其中一個支援的Adobe應用程式登入Workfront時，您會登入所有支援的Adobe應用程式。
+當您從其中一個支援的Workfront應用程式登入Adobe時，您會登入所有支援的Adobe應用程式。
 
-1. 前往您要使用Workfront擴充功能的Adobe應用程式。
+1. 前往您要使用Adobe擴充功能的Workfront應用程式。
 
    如需每個支援應用程式的支援格式清單，請參閱本文中的[支援的匯出檔案格式](#supported-exported-file-formats)。
 
@@ -101,7 +101,7 @@ ht-degree: 0%
 * 您的存取層級必須允許將檔案上傳至Workfront。 如需詳細資訊，請參閱[授與檔案的存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md)。
 * 您必須有許可權將檔案上傳至您想要的專案。 如需詳細資訊，請參閱[物件共用許可權總覽](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。
 * 檔案會針對您選取的Workfront物件上傳至檔案區域。
-* 您無法從Adobe Creative Cloud應用程式將檔案匯出至主功能表![](assets/main-menu-icon.png)中的檔案區域。
+* 您無法從Adobe Creative Cloud應用程式將檔案匯出至主功能表![主功能表圖示](assets/main-menu-icon.png)中的檔案區域。
 
 以下章節說明下列內容：
 
@@ -135,7 +135,7 @@ ht-degree: 0%
 
 1. （選擇性）為檔案輸入新名稱。
 
-   ![](assets/rename-file-uploading.png)
+   ![重新命名檔案](assets/rename-file-uploading.png)
 
 1. 按一下&#x200B;**上傳**。
 
@@ -165,7 +165,7 @@ ht-degree: 0%
 1. （視條件而定）如果要上傳檔案的工作專案具有檔案資料夾，請在&#x200B;**按一下以選取檔案資料夾**&#x200B;欄位，然後按一下&#x200B;**選取**。
 1. （選擇性）若要重新命名檔案，請按一下檔名稱並鍵入新名稱。
 
-   ![](assets/rename-doc-exporting.png)
+   匯出時![重新命名檔案](assets/rename-doc-exporting.png)
 
 1. 按一下&#x200B;**匯出**。
 
@@ -192,7 +192,7 @@ ht-degree: 0%
 
    您可以在&#x200B;**搜尋**&#x200B;方塊中輸入名稱，然後從&#x200B;**搜尋**&#x200B;方塊右側的下拉式功能表中選取&#x200B;**專案**、**任務**&#x200B;或&#x200B;**問題**，以搜尋此專案。 如果工作專案的名稱未出現在清單中，請按&#x200B;**Enter**&#x200B;來搜尋您有權檢視的所有Workfront專案。
 
-   上傳到專案、任務或問題的所有檔案都會顯示在清單中，無論這些檔案是否從Adobe應用程式上傳。
+   上傳至專案、任務或問題的所有檔案都會顯示在清單中，無論其是否從Adobe應用程式上傳。
 
 1. 在&#x200B;**按一下以選取格式**&#x200B;下拉式功能表中，按一下您要在Workfront中儲存檔案的格式。
 
@@ -211,11 +211,11 @@ ht-degree: 0%
    >Workfront中的檔名稱預設會填入，且無法編輯。 它也不會變更您上傳或匯出為新版本的檔案的名稱。
    >
    >
-   >![](assets/doc-name-cant-be-changed.png)
+   >![無法變更檔名稱](assets/doc-name-cant-be-changed.png)
 
-## 在Illustrator或InDesign的Workfront檔案上加上註解 {#comment-on-a-workfront-document-from-illustrator-or-indesign}
+## 在Illustrator或InDesign的Workfront檔案上新增註解 {#comment-on-a-workfront-document-from-illustrator-or-indesign}
 
-您可以在Adobe應用程式內直接將註解新增至Workfront檔案。 在Workfront中，您的註解會顯示在檔案的「更新」區域中，以及儲存檔案的Workfront專案的「更新」區域中。
+您可以在Adobe應用程式中直接將註解新增至Workfront檔案。 在Workfront中，您的註解會顯示在檔案的「更新」區域中，以及儲存檔案的Workfront專案的「更新」區域中。
 
 1. 開啟其中一個支援的Adobe應用程式。
 1. 如果未顯示Workfront擴充功能，請按一下&#x200B;**視窗** > **擴充功能** > **Workfront**。
@@ -243,7 +243,7 @@ ht-degree: 0%
 
 ## 向Illustrator或InDesign請求檔案核准
 
-您可以直接從Adobe應用程式要求Workfront檔案核准。
+您可以直接從Workfront應用程式要求Adobe檔案核准。
 
 您可以向下列實體請求檔案核准：
 
@@ -255,9 +255,9 @@ ht-degree: 0%
 * 將核准者附加至檔案。
 * 在檔案上加上註解，在註解時通知使用者，並以核准者身分將其附加至檔案。
 
-  如需有關在註解檔案時要求核准的資訊，請參閱本文中來自Illustrator或InDesign的Workfront檔案[註解一節](#comment-on-a-workfront-document-from-illustrator-or-indesign)。
+  如需有關在註解檔案時要求核准的資訊，請參閱本文中[從Illustrator或InDesign註解Workfront檔案](#comment-on-a-workfront-document-from-illustrator-or-indesign)一節。
 
-若要從Adobe應用模組請求檔案的核准，請執行下列步驟：
+若要從Adobe應用程式請求檔案的核准：
 
 1. 開啟其中一個支援的Adobe應用程式。
 1. 如果未顯示Workfront擴充功能，請按一下&#x200B;**視窗** > **擴充功能** > **Workfront**。
@@ -276,7 +276,7 @@ ht-degree: 0%
 
    * 輸入核准者的名稱，然後在清單中顯示時選取該名稱。
 
-     ![](assets/adobe-cc-adding-a-doc-approver-350x189.png)
+     ![新增檔案核准者](assets/adobe-cc-adding-a-doc-approver-350x189.png)
 
    * 輸入外部使用者的電子郵件地址。
 
@@ -325,7 +325,7 @@ ht-degree: 0%
 
    您可以檢視校樣建立流程的進度。 警報產生完成後便會顯示。 您可以開啟您建立校樣的工作，它便列於此處。
 
-## 在不離開Illustrator或InDesign的情況下上傳新版本的校訂
+## 無需離開Illustrator或InDesign即可上傳新版本的校訂
 
 1. 按一下具有校訂的現有檔案，然後按一下右下角的&#x200B;**選取**。
 1. 按一下&#x200B;**上傳為新校訂版本**&#x200B;以啟用它。
@@ -350,11 +350,11 @@ ht-degree: 0%
 
 1. 在Adobe應用程式中，按一下&#x200B;**視窗** > **擴充功能** > **Workfront**。
 
-1. 按一下面板右上角的&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)。
+1. 按一下面板右上角的&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)。
 
 1. （選用）按一下&#x200B;**意見反應**，開啟簡短的問卷調查，並將您對Adobe Creative CloudWorkfront的意見反應傳送給Workfront。
 1. 按一下&#x200B;**登出**。\
-   「登入」畫面隨即顯示。 如需登入的相關資訊，請參閱本文中的[從Illustrator登入Workfront擴充功能或InDesign](#log-in-to-workfront-extension-from-illustrator-or-indesign)。
+   「登入」畫面隨即顯示。 如需登入的相關資訊，請參閱本文中的[從Illustrator或InDesign登入Workfront擴充功能](#log-in-to-workfront-extension-from-illustrator-or-indesign)。
 
 ## 支援的匯出檔案格式 {#supported-exported-file-formats}
 
@@ -363,17 +363,17 @@ ht-degree: 0%
 
 ### Adobe InDesign支援的匯出檔案格式  {#supported-exported-file-formats-for-adobe-indesign}
 
-Workfront支援以下檔案格式，可將檔案從InDesign匯出至Workfront：
+Workfront支援下列檔案格式，可將檔案從InDesign匯出至Workfront：
 
 * EPS — 封裝式PostScript
 * ePub — 固定版面電子出版物
 * ePub — 可重新整理的電子出版物&#42;
-* HTML- HyperText標籤語言
-* IDML -InDesign標籤語言&#42;
+* HTML - HyperText標籤語言
+* IDML - InDesign標籤語言&#42;
 * JPG、JPEG — 聯合攝影專家小組
-* PDF-Adobe可攜式檔案檔案
+* PDF - Adobe可攜式檔案檔案
 * PNG — 可攜式網路圖形
-* SWF-Flash Player&#42;
+* SWF - Flash Player &#42;
 * XML — 可延伸標籤語言&#42;
 
 &#42;啟用&#x200B;**上傳新校訂**&#x200B;時，此檔案格式無法使用(如需此選項的相關資訊，請參閱本文中的[從Illustrator或InDesign產生校訂](#generate-a-proof-from-illustrator-or-indesign))。 如果您在啟用&#x200B;**上傳新校訂**&#x200B;之前已選取此檔案格式，系統會將檔案格式變更為PDF。 您可以從清單中選取不同的格式。
@@ -385,8 +385,8 @@ Workfront支援下列檔案格式，可將檔案從Illustrator匯出至Workfront
 * DWG - AutoCAD繪圖，AutoCAD交換檔案&#42;
 * JPG、JPEG — 聯合攝影專家小組
 * PNG — 可攜式網路圖形
-* PSD- Photoshop檔案
-* SWF-Flash Player&#42;
+* PSD - Photoshop檔案
+* SWF - Flash Player &#42;
 * TIFF — 標籤影像檔案格式
 
 &#42;啟用&#x200B;**上傳新校訂**&#x200B;時，此檔案格式無法使用(如需此選項的相關資訊，請參閱本文中的[從Illustrator或InDesign產生校訂](#generate-a-proof-from-illustrator-or-indesign))。 如果您在啟用&#x200B;**上傳新校訂**&#x200B;之前已選取此檔案格式，系統會將檔案格式變更為PNG。 您可以從清單中選取不同的格式。
