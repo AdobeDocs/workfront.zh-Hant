@@ -7,9 +7,9 @@ description: 排程績效指數(SPI)說明計畫排程與實際排程之間的�
 author: Lisa
 feature: Work Management
 exl-id: 38259774-f22b-4b69-9e22-5b541118a7de
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -98,6 +98,6 @@ SPI = (Total Planned Hours x % Complete) / Planned Hours Scheduled to Date*
 
    1. 按一下左側面板中的&#x200B;**工作詳細資料**，然後檢視&#x200B;**財務**&#x200B;區域。
 
-      ![](assets/spi-on-project-nwe.png)
+      專案](assets/spi-on-project-nwe.png)上的![SPI
 
 1. 尋找&#x200B;**CPI/ SPI/ CSI**&#x200B;欄位。
