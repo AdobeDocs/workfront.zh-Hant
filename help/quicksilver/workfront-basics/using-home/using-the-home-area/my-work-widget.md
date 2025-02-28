@@ -6,10 +6,10 @@ description: 「我的工作」Widget會集中顯示您所有指派的任務、�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: e110f0f6-4ecb-419b-a368-c3f802de5920
-source-git-commit: f20f1c5d10869901ba5284a4425e38d279265a06
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 5%
+source-wordcount: '744'
+ht-degree: 4%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權</strong></td> 
-   <td> <p>目前： Contribute</p>
+   <td> <p>目前：Contribute</p>
    <p>或</p> 
    <p>新增：[！UICONTROL Light]或更高<p> 
   </td> 
@@ -50,7 +50,7 @@ ht-degree: 5%
   </tr>  
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>您需要處理的任務和問題的Contribute許可權或更高版本</p>  </td> 
+   <td> <p>貢獻您需要處理的任務和問題的許可權或更高</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,7 +63,7 @@ ht-degree: 5%
 
 您可以微調「我的工作」篩選器以專注於工作清單中的特定專案：
 
-![](assets/filter-my-work-widget.png)
+![我的工作篩選器](assets/filter-my-work-widget.png)
 
 ### 篩選器詳細資訊
 
@@ -135,7 +135,7 @@ ht-degree: 5%
 >若要在「我的工作」Widget頂端建立顯示所有逾期專案的清單，請依「到期日」排序，且不套用群組。
 
 
-![](assets/sort-my-work-widget.png)
+![在我的工作Widget中排序](assets/sort-my-work-widget.png)
 
 ### 群組
 
@@ -151,7 +151,7 @@ ht-degree: 5%
 >當您套用群組時，您在「排序」選單中的選取會決定群組內的順序。
 
 
-![](assets/group-my-work-widget.png)
+![在我的工作Widget中分組](assets/group-my-work-widget.png)
 
 ## 更新摘要中的工作專案資訊
 
@@ -167,7 +167,7 @@ Workfront管理員可以自訂哪些欄位會顯示在版面配置範本的摘�
 * 記錄時間
 * 檢視附加的核准流程
 
-若要開啟[摘要]，請將滑鼠停留在工作專案上，然後按一下&#x200B;**摘要**&#x200B;圖示![](assets/open-summary-new-home.png)。
+若要開啟[摘要]，請將滑鼠停留在工作專案上，然後按一下&#x200B;**摘要**&#x200B;圖示![摘要圖示](assets/open-summary-new-home.png)。
 
 如需有關如何使用「摘要」面板的其他資訊，請參閱[摘要概觀](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)。
 
@@ -182,7 +182,7 @@ Workfront管理員可以自訂哪些欄位會顯示在版面配置範本的摘�
 
 若要找到快速動作功能表，請將滑鼠停留在工作專案上。 快速動作清單會顯示在&#x200B;**處理它**&#x200B;或&#x200B;**完成**&#x200B;按鈕附近。
 
-![](assets/quick-actions-new-home.png)
+![快速動作功能表](assets/quick-actions-new-home.png)
 
 
 ## 檢視核准和團隊請求
