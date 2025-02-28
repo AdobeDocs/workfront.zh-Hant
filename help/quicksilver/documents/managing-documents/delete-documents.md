@@ -6,9 +6,9 @@ description: 您可以刪除上傳的檔案。 如果您被授予管理特定檔
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1a4c4849-bca1-4ae3-9111-d0ed4dacca14
-source-git-commit: 060557085c6941fab4ca8df22641679199f5c55b
+source-git-commit: 5595b1c286d82f77bca9ee16e20bae8380ce45b5
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 0%
 1. 前往包含檔案的專案、任務或問題，然後選取「**檔案**」。
 1. 尋找您需要的檔案。
 
-1. 按一下檔案區域上方的&#x200B;**刪除**&#x200B;圖示![](assets/delete.png)。
+1. 按一下檔案區域上方的&#x200B;**刪除**&#x200B;圖示![刪除圖示](assets/delete.png)。
 
 1. 在出現的方塊中，按一下&#x200B;**是，刪除**&#x200B;以進行確認。
 
