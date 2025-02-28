@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront中檢視或下載從Experience Manager 
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 1118a357-7412-4ae0-8daf-01db650df549
-source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
-   <td>您必須擁有Experience Manageras a Cloud Service或Assets Essentials，並且您必須在Admin Console中作為使用者新增到產品中。</td> 
+   <td>您必須擁有Experience Manager as a Cloud Service或Assets Essentials，並且您必須在Admin Console中作為使用者新增到產品中。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 開始之前，
 
-* 您的Workfront管理員必須設定Experience Manager整合。 如需詳細資訊，請參閱[設定Experience Manager Assetsas a Cloud Service整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)或[設定Experience Manager Assets Essentials整合](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)。
+* 您的Workfront管理員必須設定Experience Manager整合。 如需詳細資訊，請參閱[設定Experience Manager Assets as a Cloud Service整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)或[設定Experience Manager Assets Essentials整合](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)。
 
 ## 檢視或下載連結的資產
 
@@ -66,4 +66,4 @@ ht-degree: 0%
 1. 從檔案清單中選取檔案。
 1. 在右側的[檔案摘要]中，將滑鼠停留在頂端的縮圖上，並選擇[預覽] **或[下載]** **。**
 
-   ![](assets/preview-or-download-350x107.png)
+   ![預覽或下載](assets/preview-or-download-350x107.png)
