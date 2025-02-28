@@ -7,10 +7,10 @@ description: 「摘要」可讓您直接從檔案清單與重要資訊互動。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 3%
+source-wordcount: '418'
+ht-degree: 2%
 
 ---
 
@@ -56,32 +56,32 @@ ht-degree: 3%
 ## 開啟摘要檢視
 
 1. 移至&#x200B;**檔案**&#x200B;區域並選取清單中的專案。
-1. 按一下&#x200B;**開啟摘要圖示** ![](assets/qs-summary-in-new-toolbar-small.png)。
+1. 按一下&#x200B;**開啟摘要圖示** ![開啟摘要圖示](assets/qs-summary-in-new-toolbar-small.png)。
 
    開啟「摘要」後，當您按一下其他檔案時，摘要會保持開啟狀態，直到您手動關閉摘要為止。
 
-   ![](assets/summary-details-350x585.png)
+   ![摘要詳細資料](assets/summary-details-350x585.png)
 
-## 詳细資料
+## 詳細資料
 
 使用詳細資訊區段檢視高階總覽資訊並與自訂表單互動。 按一下區段頂端的&#x200B;**詳細資料**，即可移至完整的「檔案詳細資料」頁面。
 
 * [總覽](#overview)
 * [自訂表單](#custom-forms)
 
-![](assets/copy-of-doc-summary-details-section-350x404.png)
+![檔案摘要詳細資料](assets/copy-of-doc-summary-details-section-350x404.png)
 
 ### 概觀 {#overview}
 
 展開「概觀」區段以檢視或下載影像縮圖、開啟校樣、更新基本說明、取出檔案等等。
 
-![](assets/copy-of-doc-summary-with-overview-350x560.png)
+![檔案摘要概觀](assets/copy-of-doc-summary-with-overview-350x560.png)
 
 ### 自訂表單 {#custom-forms}
 
 使用自訂Forms區段來新增、編輯或檢視與檔案相關聯的任何自訂表單。 開始輸入自訂表單的名稱，以將其新增到檔案。 如需詳細資訊，請參閱[新增或編輯檔案的自訂表單](../../documents/managing-documents/add-custom-form-documents.md)。
 
-![](assets/add-custom-form-doc-summary-350x265.png)
+![在檔案摘要中新增自訂表格](assets/add-custom-form-doc-summary-350x265.png)
 
 ## 更新
 
@@ -98,7 +98,7 @@ ht-degree: 3%
 * [核准工作](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [請求文件核准](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
-![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
+![檔案摘要核准](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
 
 ## 版本
 
@@ -110,4 +110,4 @@ ht-degree: 3%
 * 前往檔案詳細資訊
 * 刪除校訂或檔案
 
-![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
+![檔案摘要版本](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
