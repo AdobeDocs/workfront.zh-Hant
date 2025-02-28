@@ -6,9 +6,9 @@ description: 您可以從「範本」區域建立及刪除範本。 建立新範
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '574'
 ht-degree: 2%
 
 ---
@@ -102,7 +102,7 @@ ht-degree: 2%
    >
    >您無法直接從此甘特圖編輯任務。
 
-1. 若要新增資訊到您的新範本，請按一下&#x200B;**更多**&#x200B;功能表![](assets/more-icon.png)，然後按一下&#x200B;**編輯**。
+1. 若要新增資訊到您的新範本，請按一下&#x200B;**更多**&#x200B;功能表![更多圖示](assets/more-icon.png)，然後按一下&#x200B;**編輯**。
 
    如需有關編輯範本的資訊，請參閱[編輯專案範本](../../../manage-work/projects/create-and-manage-templates/edit-templates.md)。
 
