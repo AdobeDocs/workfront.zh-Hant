@@ -6,9 +6,9 @@ description: 身為專案管理員，您可以更新專案的「狀態型別」�
 author: Alina
 feature: Work Management
 exl-id: e6b99c48-5ccc-4956-8465-6f22f14468ef
-source-git-commit: 097cad00835f3fb415c06c93dcf11325736c5250
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '382'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計劃 </p> </td> 
+   <td> <p>規劃 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
@@ -41,7 +41,7 @@ ht-degree: 1%
    <td role="rowheader">物件許可權</td> 
    <td> 
     <ul> 
-     <li> <p>Contribute對專案的許可權，用於編輯專案詳細資訊區域中的條件型別 </p> </li> 
+     <li> <p>貢獻專案的許可權以編輯專案詳細資訊區域中的條件型別 </p> </li> 
      <li> <p>管理專案的許可權，以編輯編輯專案方塊中的條件型別</p> </li> 
     </ul> <p> 如需有關專案許可權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">在Adobe Workfront中共用專案</a>。</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
@@ -55,7 +55,7 @@ ht-degree: 1%
 1. 前往您要更新其條件型別的專案。
 1. 執行下列其中一項：
 
-   * 按一下專案名稱右側的&#x200B;**更多**&#x200B;功能表![](assets/qs-more-menu.png)，然後按一下&#x200B;**編輯**。
+   * 按一下專案名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/qs-more-menu.png)，然後按一下&#x200B;**編輯**。
    * 按一下左側面板中的&#x200B;**專案詳細資料**。
 
    ![](assets/update-condition-type-nwe-350x108.png)
