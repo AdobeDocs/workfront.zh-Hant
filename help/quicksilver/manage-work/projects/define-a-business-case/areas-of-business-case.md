@@ -6,9 +6,9 @@ description: 本文會說明專案的業務案例領域。
 author: Alina
 feature: Work Management
 exl-id: 0646e4f0-e8fb-48f2-b533-358229543081
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1603'
+source-wordcount: '1607'
 ht-degree: 2%
 
 ---
@@ -51,11 +51,11 @@ Workfront管理員無法設定業務案例的&#x200B;**專案資訊**&#x200B;區
 
   考慮將專案所有者以外的其他人員新增為專案贊助者。 贊助者會收到業務案例的核准。 
 
-* **Portfolio**：指定專案的Portfolio。 您必須先建立Portfolio並將其置於&#x200B;**作用中**&#x200B;的狀態後，才能在此下拉式功能表中選取。
+* **Portfolio**：指定專案的Portfolio。 您必須建立Portfolio並將其置於&#x200B;**作用中**&#x200B;的狀態後，才能在此下拉式功能表中選取它。
 
   如需投資組合的詳細資訊，請參閱[Adobe Workfront中的Portfolio概觀](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)。
 
-  如需有關建立Portfolio的詳細資訊，請參閱[建立投資組合](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)。
+  如需關於建立投資組合的詳細資訊，請參閱[建立投資組合](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)。
 
 * **計畫收益**：預估此專案完成時，貴組織計畫的貨幣收益。 可以是任何數量的貨幣，而且必須是正值。 例如$10,000。
 * **狀態**：依照預設，專案要求的狀態設定為&#x200B;**Idea**。
@@ -81,7 +81,7 @@ Workfront管理員無法設定業務案例的&#x200B;**專案資訊**&#x200B;區
 >
 >您可以為組織建立未與專案的個別業務案例連結的戰略目標。 您必須擁有Adobe Workfront目標的存取權才能建立策略目標。 然後，您可以將他們與業務案例以外的專案連線。 如需使用Workfront目標建立目標的相關資訊，請參閱[Adobe Workfront目標總覽](../../../workfront-goals/goal-management/wf-goals-overview.md)。
 
-若要讓專案在Portfolio最佳化工具中取得分數，可自行選擇定義目標。 此區段是業務案例中唯一的選用區段。 必須先完成業務案例的所有其他區段，專案才能在Portfolio最佳化工具中評分。 您可以在建立目標時指定目標的優先順序層級。
+若要讓專案在Portfolio Optimizer中取得分數，可自行選擇定義目標。 此區段是業務案例中唯一的選用區段。 您必須先完成業務案例的所有其他區段，專案才能在Portfolio Optimizer中計分。 您可以在建立目標時指定目標的優先順序層級。
 
 如需有關目標的詳細資訊，請參閱  [建立業務案例目標](../../../manage-work/projects/define-a-business-case/create-business-case-goals.md)。
 
@@ -115,7 +115,7 @@ Workfront管理員無法設定業務案例的&#x200B;**專案資訊**&#x200B;區
 
 如需商務案例中專案預算資源的詳細資訊，請參閱商務案例中的[預算資源](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)。
 
-![](assets/business-case-sp-selected-with-choose-button-350x121.png)
+![商業案例資源預算](assets/business-case-sp-selected-with-choose-button-350x121.png)
 
 檢視業務案例的「資源預算」區段時，請考量下列事項：
 
@@ -125,7 +125,7 @@ Workfront管理員無法設定業務案例的&#x200B;**專案資訊**&#x200B;區
 
      如需詳細資訊，請參閱使用資源規劃工具](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md)的業務案例中的[預算資源。
 
-   * 情境規劃工具，如果您的公司已為Adobe情境規劃工具購買額外授權
+   * 情境規劃工具，如果您的公司已購買Adobe情境規劃工具的額外授權
 
      如需詳細資訊，請參閱使用案例規劃工具](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)的業務案例中的[預算資源。
 
@@ -149,7 +149,7 @@ Workfront管理員無法設定業務案例的&#x200B;**專案資訊**&#x200B;區
 
 ## 風險
 
-風險是可能會阻止專案準時或準時完成的因素。 定義這些因素對於Portfolio經理或專案贊助者針對專案的核准做出教育性決定很重要。 此區域在業務案例中預設為啟用，但Workfront管理員可能會選擇不顯示。
+風險是可能會阻止專案準時或準時完成的因素。 定義這些因素對Portfolio經理或專案贊助者來說很重要，他們可就專案的核准做出明智的決定。 此區域在業務案例中預設為啟用，但Workfront管理員可能會選擇不顯示。
 
 您可以將潛在成本與正在定義的風險建立關聯，以防其發生。 專案的風險成本會影響專案的淨值。 
 
