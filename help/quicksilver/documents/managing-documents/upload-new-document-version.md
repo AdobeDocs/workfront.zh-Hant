@@ -6,9 +6,9 @@ description: 您可以新增先前上傳至Adobe Workfront的檔案的新版本�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: d475e0f0-112e-4d4e-b666-6e0af3ea7702
-source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ ht-degree: 0%
 1. 前往檔案上傳所在區域。
 1. 從您的案頭或單獨的瀏覽器索引標籤，將檔案的新版本拖曳到Workfront中現有版本的上方。
 
-   ![](assets/drag-drop-doc-qs-350x145.png)
+   ![拖放檔案版本](assets/drag-drop-doc-qs-350x145.png)
 
    拖曳新版本時，您可以將游標停留在Workfront檔案資料夾上以開啟。 然後，您就可以將檔案拖曳至熒幕的頂端或底部，上下捲動。
 
@@ -80,6 +80,6 @@ ht-degree: 0%
 1. 選取您要新增新版本的檔案。
 1. 按一下&#x200B;**新增** > **版本**。
 
-   ![](assets/add-new-version-350x185.png)
+   ![新增版本](assets/add-new-version-350x185.png)
 
 1. 選取您要上傳的檔案型別，然後依照提示操作。
