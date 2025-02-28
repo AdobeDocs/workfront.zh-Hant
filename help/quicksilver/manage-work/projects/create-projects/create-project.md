@@ -6,9 +6,9 @@ description: 專案是Adobe Workfront中的大型工作單位。 您可以從頭
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1390'
 ht-degree: 1%
 
 ---
@@ -204,7 +204,7 @@ ht-degree: 1%
 
    如需將任務新增至專案的詳細資訊，請參閱[在專案中建立任務](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)。
 
-1. 按一下專案名稱旁的&#x200B;**更多**&#x200B;功能表，然後按一下&#x200B;**編輯** ![](assets/qs-edit-icon.png)，即可編輯專案詳細資料。
+1. 按一下專案名稱旁的&#x200B;**更多**&#x200B;功能表，然後&#x200B;**編輯** ![編輯圖示](assets/qs-edit-icon.png)，即可編輯專案詳細資料。
 
    **編輯專案**&#x200B;對話方塊開啟。
 
