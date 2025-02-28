@@ -6,9 +6,9 @@ description: 您可以將範本任務複製或移動到相同範本或另一個�
 author: Alina
 feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '2128'
+source-wordcount: '2140'
 ht-degree: 3%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計劃 </p> </td> 
+   <td> <p>規劃 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
@@ -87,9 +87,9 @@ ht-degree: 3%
 1. 執行下列其中一項：
    * 按一下範本任務的名稱以開啟它。
    * 在清單中選取一或多個範本任務。
-1. （視條件而定）按一下範本工作清單頂端或範本工作名稱右側的&#x200B;**更多**&#x200B;功能表![](assets/more-icon.png) （如果您已開啟工作），然後按一下&#x200B;**複製到**&#x200B;或&#x200B;**複製** （視您存取「複製」選項的位置而定）。
+1. （視條件而定）按一下範本工作清單頂端或範本工作名稱右側的&#x200B;**更多**&#x200B;功能表![更多圖示](assets/more-icon.png) （如果您已開啟工作），然後按一下&#x200B;**複製到**&#x200B;或&#x200B;**複製** （視您存取「複製」選項的位置而定）。
 「複製範本任務」方塊開啟。
-   ![](assets/copy-template-task-box-unshimmed.png)
+   ![Copu範本任務方塊](assets/copy-template-task-box-unshimmed.png)
 1. （選擇性）重新命名&#x200B;**範本任務名稱**&#x200B;欄位中的範本任務。
 
    >[!TIP]
@@ -210,9 +210,9 @@ ht-degree: 3%
 1. 執行下列其中一項：
    * 按一下範本任務的名稱以開啟它。
    * 在清單中選取一或多個範本任務。
-1. （視條件而定）按一下範本工作清單頂端或範本工作名稱右側的&#x200B;**更多**&#x200B;功能表![](assets/more-icon.png) （如果您已開啟工作），然後依您存取「移動」選項的位置而定，按一下&#x200B;**移至**&#x200B;或&#x200B;**移動**。
+1. （視條件而定）按一下範本工作清單頂端或範本工作名稱右側的&#x200B;**更多**&#x200B;功能表![更多圖示](assets/more-icon.png) （如果您已開啟工作），然後依您存取「移動」選項的位置而定，按一下&#x200B;**移至**&#x200B;或&#x200B;**移動**。
 「移動範本任務」方塊開啟。
-   ![](assets/move-template-task-box-unshimmed.png)
+   ![移動範本任務方塊](assets/move-template-task-box-unshimmed.png)
 
 1. （選擇性）重新命名&#x200B;**範本任務名稱**&#x200B;欄位中的範本任務。
 
