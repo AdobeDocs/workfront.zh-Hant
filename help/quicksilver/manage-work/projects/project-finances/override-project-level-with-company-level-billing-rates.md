@@ -6,9 +6,9 @@ description: 以公司層級的收費率覆寫專案層級的收費率
 author: Lisa
 feature: Work Management
 exl-id: 02ea4c7c-0473-4cc4-913c-3baa613767b7
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '476'
 ht-degree: 1%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 1%
 當使用者手動重新計算專案的財務時，將套用公司層級計費率的任何變更。 除非標籤為已記帳，否則也會覆寫歷史收入計算。
 
 1. 前往專案。
-1. 按一下標題中專案名稱旁的&#x200B;**更多**&#x200B;功能表![](assets/qs-more-icon-on-an-object.png)，然後按一下&#x200B;**編輯**。
+1. 按一下標題中專案名稱旁的&#x200B;**更多**&#x200B;功能表![更多](assets/qs-more-icon-on-an-object.png)，然後按一下&#x200B;**編輯**。
 1. 在&#x200B;**財務**&#x200B;區段中，啟用&#x200B;**允許公司層級的收費率以覆寫專案層級的收費率**。
 
    >[!CAUTION]
@@ -103,4 +103,4 @@ ht-degree: 1%
    * 單一專案：
 
       1. 移至您已啟用公司層級收費率覆寫的專案。
-      1. 按一下標題中專案名稱旁的&#x200B;**更多**&#x200B;功能表![](assets/qs-more-icon-on-an-object.png)，然後按一下&#x200B;**重新計算財務**。
+      1. 按一下標題中專案名稱旁的&#x200B;**更多**&#x200B;功能表![更多](assets/qs-more-icon-on-an-object.png)，然後按一下&#x200B;**重新計算財務**。
