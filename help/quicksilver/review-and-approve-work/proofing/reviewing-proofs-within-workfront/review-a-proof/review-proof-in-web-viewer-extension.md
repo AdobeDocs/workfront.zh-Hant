@@ -6,9 +6,9 @@ description: Adobe Workfront檢閱工具是瀏覽器擴充功能，可讓您校�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4fea13cc-2d56-466e-8851-6134782e7e80
-source-git-commit: 9bc1502149d99624d8494aef86e11e18a95f563b
+source-git-commit: 91f2dd12a91889c2cd1c2c01c93402e161684665
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '496'
 ht-degree: 1%
 
 ---
@@ -22,6 +22,7 @@ Adobe Workfront檢閱工具是網頁型瀏覽器擴充功能，可讓您校訂ZI
 * Firefox
 * Chrome
 * Edge
+* Safari
 
 如果您需要檢閱的內容位於以下網站，我們建議您使用案頭校訂檢視器
 
