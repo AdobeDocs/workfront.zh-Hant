@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 116b9823818ac6103641c2e6ce283dfb47282851
+source-git-commit: 2d38448bf7da12b8f896d444d560f746e0e9798f
 workflow-type: tm+mt
-source-wordcount: '1473'
+source-wordcount: '1526'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,14 @@ ht-degree: 0%
 
 ## 管理和設定
 
+### Announcement Center介面更新
+
+**預覽版本： 2025年2月27日；即將宣佈**
+
+我們更新了Announcement Center，採用與Workfront其他區域一致的更現代化設計。
+
+若要檢視這項變更，請前往右上角的「通知」圖示，然後選擇「所有通知」。
+
 ### 自訂事件通知主題的介面更新
 
 **預覽版本： 2025年2月13日；自2025年2月13日當週開始**
@@ -34,7 +42,7 @@ ht-degree: 0%
 
 ### 團隊區域的介面更新
 
-**預覽版本： 2025年2月13日；生產版本：即將宣佈**
+**預覽版本： 2025年2月13日；生產版本：自2025年2月20日起一週**
 
 我們更新了團隊區域，使其設計更現代化，與Workfront的其他區域一致。
 
@@ -136,7 +144,7 @@ ht-degree: 0%
 
 ### 版序的介面更新概觀頁面
 
-**預覽版本： 2025年2月13日；生產版本：即將宣佈**
+**預覽版本： 2025年2月13日；生產版本：自2025年2月20日起一週**
 
 我們已更新反複專案概觀頁面，使其採用與Workfront其他區域一致的更現代化設計。
 
