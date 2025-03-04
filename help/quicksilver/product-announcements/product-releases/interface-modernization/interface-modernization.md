@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 2d38448bf7da12b8f896d444d560f746e0e9798f
+source-git-commit: 3695c5bb566434d70907bfecf775ccd12b9208f4
 workflow-type: tm+mt
-source-wordcount: '1526'
+source-wordcount: '1586'
 ht-degree: 0%
 
 ---
@@ -200,6 +200,14 @@ ht-degree: 0%
 我們已更新檔案上的核准區域，採用與Workfront其他區域一致的更現代化設計。
 
 若要檢視此變更，請前往檔案>按一下檔案詳細資訊>核准。
+
+### 智慧型資料夾編輯對話方塊的介面更新
+
+**預覽版本： 2025年1月27日；生產版本：從2025年2月3日當週開始**
+
+我們以與Workfront其他區域一致的更現代設計更新了「智慧型資料夾」編輯對話方塊。
+
+若要檢視這項變更，請前往「檔案」 > 「按一下「智慧型濾鏡」名稱旁的「更多」功能表」 > 「按一下「編輯」。
 
 ## 報告和儀表板
 
