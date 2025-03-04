@@ -5,9 +5,9 @@ description: 作為資源計畫的一部份，當您建立業務案例時，可�
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: 928ea5da9955b8c1c98782df81698c49987d4c18
+source-git-commit: f1d235a21dcf939570d4d93f08f31865eab42803
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
@@ -108,11 +108,11 @@ ht-degree: 0%
 
    * 在&#x200B;**中選取資源規劃工具選擇要用於計算專案預算勞力成本的時數**&#x200B;欄位，然後按一下&#x200B;**選擇>編輯資源預算**。
 
-     ![](assets/business-case-rp-selected-with-choose-button-350x120.png)
+     ![資源規劃工具中的業務案例](assets/business-case-rp-selected-with-choose-button-350x120.png)
 
    * 如果已選取案例規劃工具來編列專案的資源，請按一下&#x200B;**變更** > **編輯資源預算**。
 
-     ![](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)
+     ![情境規劃工具中的業務案例](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)
 
    這會使用專案的預算時數來計算專案的預算勞力成本。
 
