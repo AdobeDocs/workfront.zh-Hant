@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: d02e781be70b34a77e8c780cc29c7a234dd62e68
+source-git-commit: 77cc1acde87b2ada96117daa06e98ba38e64fa8a
 workflow-type: tm+mt
-source-wordcount: '13010'
+source-wordcount: '13018'
 ht-degree: 2%
 
 ---
@@ -2145,6 +2145,7 @@ ht-degree: 2%
       * [將Outlook電子郵件新增為工作清單](workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-as-task-to-your-work-list.md)
       * [檢視適用於Outlook的Adobe Workfront的其他相關資訊並登出](workfront-integrations-and-apps/using-workfront-with-outlook/view-additional-infor-wf-outlook-and-log-out.md)
       * [啟用Outlook for Office以搭配Adobe Workfront和SAML 2.0使用](workfront-integrations-and-apps/using-workfront-with-outlook/enable-outlook-for-office-for-use-with-wf-and-saml-2.md)
+      * [疑難排解：使用Workfront for Outlook時發生outlookIdentityToken錯誤](workfront-integrations-and-apps/using-workfront-with-outlook/troubleshooting-outlookidentitytoken-error.md)
    * 適用於Microsoft Teams {#workfront-for-microsoft-teams}的Adobe Workfront
       * [[!DNL Adobe Workfront for Microsoft Teams]：文章索引](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md)
       * [Microsoft Teams的Adobe Workfront概觀](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/workfront-for-microsoft-teams.md)

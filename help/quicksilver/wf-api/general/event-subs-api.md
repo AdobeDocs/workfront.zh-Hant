@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: f1d235a21dcf939570d4d93f08f31865eab42803
+source-git-commit: f469147947715dd1bae2718565cd521fa8bc6e96
 workflow-type: tm+mt
 source-wordcount: '2407'
 ht-degree: 3%
@@ -452,11 +452,11 @@ Workfront有兩個版本的事件訂閱。
 
 如需事件訂閱版本設定的詳細資訊，包括版本和重要日期之間的特定差異，請參閱[事件訂閱版本設定](/help/quicksilver/wf-api/general/event-subs-versioning.md)。
 
-### 單一訂閱版本變更
-
 >[!NOTE]
 >
 >將事件訂閱升級或降級至另一個版本時，在版本變更後的五分鐘內，您會收到每個事件傳送的重複事件。 重複專案包括事件訂閱版本1和版本2各一個。 這可確保不會因為變更事件訂閱版本而遺漏任何事件。
+
+### 單一訂閱版本變更
 
 變更單一訂閱版本的請求語法為：
 
