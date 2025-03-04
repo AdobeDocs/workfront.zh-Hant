@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: 78a54ec94dd5a5746144e99e14c622e8b3a7ea71
+source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,7 @@ ht-degree: 0%
 * [工作區範本清單](/help/quicksilver/planning/architecture/workspace-templates.md)
 * [記錄型別概觀](/help/quicksilver/planning/architecture/overview-of-record-types.md)
 * [建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md)
+* [從CSV或Excel檔案匯入資訊，以建立記錄型別](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md)
 * [編輯記錄型別](/help/quicksilver/planning/architecture/edit-record-types.md)
 * [連線記錄型別概觀](/help/quicksilver/planning/architecture/connect-record-types-overview.md)
 * [連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)

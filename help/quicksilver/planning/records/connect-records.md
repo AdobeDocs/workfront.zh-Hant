@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
+source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
 workflow-type: tm+mt
-source-wordcount: '3249'
+source-wordcount: '3332'
 ht-degree: 1%
 
 ---
@@ -200,13 +200,13 @@ ht-degree: 1%
    >或
    >按一下&#x200B;**連線記錄** （如果欄位是空的）以從連線的記錄或物件型別新增記錄。
    >
-   >![](assets/connect-records-from-record-page-field.png)
+   >![從記錄頁面欄位連線記錄](assets/connect-records-from-record-page-field.png)
 
 1. （選擇性）按一下&#x200B;**檢視全部**&#x200B;以顯示所有記錄。
 
 1. （視條件而定）如果您在上一步中按一下&#x200B;**檢視全部**，會顯示&#x200B;**連線物件**&#x200B;方塊。
 
-   ![](assets/connected-objects-table-for-records.png)
+   ![記錄的已連線物件資料表](assets/connected-objects-table-for-records.png)
 
 1. 開始在搜尋方塊中輸入記錄名稱，然後在清單中顯示記錄時選取記錄
 
@@ -282,7 +282,7 @@ ht-degree: 1%
 
    如果您在上一個步驟中按一下「**檢視全部**」，則會顯示「**連線物件**」方塊。
 
-   ![](assets/connect-objects-box-to-select-projects.png)
+   ![連線物件方塊以選取專案](assets/connect-objects-box-to-select-projects.png)
 
 1. 開始在搜尋方塊中輸入Workfront物件的名稱，然後在其顯示在清單中時選取它
 
@@ -359,7 +359,7 @@ ht-degree: 1%
 
    **選取Assets**&#x200B;方塊隨即顯示。<!--we might change this to Connect assets-->
 
-   ![](assets/select-assets-box-for-aem-record-connections.png)
+   ![選取AEM記錄連線的資產方塊](assets/select-assets-box-for-aem-record-connections.png)
 
 1. 按一下以選取下列部分資產型別：
 
@@ -389,7 +389,7 @@ ht-degree: 1%
 
 1. （可選）前往您連結至Experience Manager Assets的記錄型別，然後在連結的記錄欄位中按一下資產名稱。 資產的Experience Manager詳細資訊會顯示在快顯視窗中。
 
-   ![](assets/asset-pop-up-window-with-aem-details-and-thumbnail.png)
+   ![包含AEM詳細資料和縮圖的資產快顯視窗](assets/asset-pop-up-window-with-aem-details-and-thumbnail.png)
 
    影像檔案會顯示下列欄位：
 
@@ -403,7 +403,7 @@ ht-degree: 1%
    * 建立日期
    * 修改日期
 
-1. （可選）若要在Experience Manager中開啟Experience Manager資產記錄頁面，請前往您連結來源記錄的記錄型別頁面，在連結的記錄欄位中按一下資產名稱以開啟快顯視窗，然後按一下&#x200B;**在AEM中開啟**&#x200B;圖示![](assets/open-asset-icon.png)以開啟資產。
+1. （可選）若要在Experience Manager中開啟Experience Manager資產記錄頁面，請前往您連結來源記錄的記錄型別頁面，在連結的記錄欄位中按一下資產名稱以開啟快顯視窗，然後按一下&#x200B;**在AEM中開啟**&#x200B;圖示![在AEM中開啟資產圖示](assets/open-asset-icon.png)以開啟資產。
 
    如此即會在Adobe Experience Manager Assets中開啟Experience Manager資產。
 
@@ -424,7 +424,7 @@ ht-degree: 1%
 1. 按一下記錄名稱。
 
    預覽頁面隨即開啟。
-1. （選擇性）按一下&#x200B;**在新索引標籤**&#x200B;中開啟![](assets/open-details-in-a-new-tab-icon.png)圖示以開啟紀錄的頁面。
+1. （選擇性）按一下&#x200B;**在新標籤中開啟**&#x200B;圖示![在新標籤中開啟詳細資料](assets/open-details-in-a-new-tab-icon.png)以開啟紀錄的頁面。
 1. 按一下記錄預覽或頁面中的&#x200B;**連線**&#x200B;索引標籤。
 
    在Workfront Planning中記錄的![連線標籤](assets/connections-tab-on-record-in-workfront-planning.png)
@@ -449,24 +449,15 @@ ht-degree: 1%
    如需詳細資訊，請參閱文章[建立記錄](/help/quicksilver/planning/records/create-records.md)中的「當您從其他記錄連線記錄時建立記錄」一節。
 1. 請依照前幾節所述的步驟，從Workfront Planning連線記錄，或從Workfront或Experience Manager Assets連線物件。
 記錄與物件會立即新增。
-1. （選擇性）將滑鼠停留在記錄或物件的連線卡片上，然後按一下&#x200B;**中斷連線記錄**&#x200B;圖示![](assets/disconnect-icon-with-tooltip.png)以中斷連線至選取的記錄。
+1. （選擇性）將滑鼠停留在記錄或物件的連線卡片上，然後按一下&#x200B;**中斷連線記錄**&#x200B;圖示![中斷連線記錄](assets/disconnect-icon-with-tooltip.png)，將其與選取的記錄中斷連線。
 
-   ![](assets/disconnect-record-icon-with-tooltip-on-connections-tab.png)
+   ![中斷連線記錄圖示連線索引標籤上有工具提示](assets/disconnect-record-icon-with-tooltip-on-connections-tab.png)
 
    記錄會立即與Workfront Planning的所有區域或其可能顯示為已連線的其他應用程式中斷連線。 任何查詢欄位值也會被移除。
 
-## 從Workfront物件連線記錄
-
-您必須具備下列專案，才能從Workfront物件連線Workfront Planning記錄：
-
-* 在Workfront Planning中建立的記錄型別與Workfront物件型別之間的連線。
-* 您的Workfront或群組管理員必須將「計畫」區段新增至您的版面配置範本中的Workfront專案、投資組合和計畫。
-
-如需詳細資訊，請參閱[在Adobe Workfront物件的Planning區段管理記錄](/help/quicksilver/planning/records/manage-records-in-planning-section.md)。
-
 <div class="preview">
 
-## 從記錄詳細資訊頁面上的「連線」檢視標籤中連線記錄
+### 從記錄詳細資訊頁面上的「連線」檢視標籤中連線記錄
 
 <!--section needs title edit when they rename the "Connection view" page type-->
 
@@ -485,3 +476,22 @@ ht-degree: 1%
 1. （選擇性）如果找不到已連線的記錄，請按一下[新增] **+ [新增]**&#x200B;來建立並連線它們。
 
 </div>
+
+## 從Workfront物件連線記錄
+
+您必須具備下列專案，才能從Workfront物件連線Workfront Planning記錄：
+
+* 在Workfront Planning中建立的記錄型別與Workfront物件型別之間的連線。
+* 您的Workfront或群組管理員必須將下列任一專案新增至Workfront物件型別：
+
+   * 「版面配置範本」中Workfront專案、投資組合和方案的規劃區段。
+
+   * Planning將自訂欄位連線到下列其中一個物件的自訂表單：
+
+      * 專案
+      * 專案組合
+      * 方案
+      * 群組
+      * 公司
+
+  如需詳細資訊，請參閱[在Adobe Workfront物件的Planning區段管理記錄](/help/quicksilver/planning/records/manage-records-in-planning-section.md)。

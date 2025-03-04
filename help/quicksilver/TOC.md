@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 77cc1acde87b2ada96117daa06e98ba38e64fa8a
+source-git-commit: c9a5ba9a35bddfc45756cf04cd1a3da9d7a3105f
 workflow-type: tm+mt
-source-wordcount: '13018'
+source-wordcount: '13041'
 ht-degree: 2%
 
 ---
@@ -2017,6 +2017,7 @@ ht-degree: 2%
       * [建立工作區](planning/architecture/create-workspaces.md)
       * [記錄型別概觀](planning/architecture/overview-of-record-types.md)
       * [建立記錄型別](planning/architecture/create-record-types.md)
+      * [從CSV或Excel檔案匯入資訊，以建立記錄型別](planning/architecture/import-file-to-create-record-types.md)
       * [連線記錄型別概觀](planning/architecture/connect-record-types-overview.md)
       * [連線記錄型別](planning/architecture/connect-record-types.md)
       * [編輯記錄型別](planning/architecture/edit-record-types.md)
@@ -2045,6 +2046,7 @@ ht-degree: 2%
    * Adobe Workfront Planning記錄{#adobe-workfront-planning-records}
       * [記錄：文章索引](planning/records/records-information.md)
       * [建立記錄](planning/records/create-records.md)
+      * [從CSV或Excel檔案匯入資訊，以建立記錄](planning/records/import-file-to-create-records.md)
       * [連線記錄概觀](planning/records/connected-records-overview.md)
       * [連接記錄](planning/records/connect-records.md)
       * [編輯記錄](planning/records/edit-records.md)

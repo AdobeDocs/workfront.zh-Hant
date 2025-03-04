@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
+source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
 workflow-type: tm+mt
 source-wordcount: '1801'
 ht-degree: 0%
@@ -33,6 +33,7 @@ ht-degree: 0%
 * [從其他記錄連線記錄時建立記錄](#create-records-as-you-connect-them)
 * [透過向記錄型別提交請求表單來建立記錄](#create-records-by-submitting-a-request-form-to-a-record-type)
 * [從CSV或Excel檔案匯入記錄型別時建立記錄](#create-records-when-importing-record-types-from-a-csv-or-excel-file)
+<!--* <Span class="preview">[Create Records by importing information from a CSV or Excel file](/help/quicksilver/planning/records/import-file-to-create-records.md)</span> -->
 * <span class="preview">[使用自動化建立記錄](#create-records-by-using-automations)</span>
 
 
@@ -304,6 +305,19 @@ You can import records from other applications by linking them to existing recor
 當您使用CSV或Excel檔案匯入記錄型別時，可以匯入記錄。
 
 如需詳細資訊，請參閱[建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md)。
+
+<!--
+<div class="preview">
+
+## Create records when importing records from a CSV or Excel file
+
+You can import records for existing record types when you import information from a CSV or Excel file. 
+
+For information, see [Create Records by importing information from a CSV or Excel file](/help/quicksilver/planning/records/import-file-to-create-records.md). 
+
+</div> 
+
+-->
 
 <div class="preview">
 

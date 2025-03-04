@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: 22a1525658f4ba60d638d5080f8c178fcf500441
+source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
@@ -54,10 +54,11 @@ ht-degree: 0%
    * Planning中記錄型別的表格檢視中的已連線記錄欄位。
    * 記錄的預覽或頁面在詳細資訊索引標籤的已連線記錄欄位中。
    * 記錄在「連線」標籤上的預覽或頁面。
+   * <span class="preview">已連線記錄之連線檢視索引標籤中的記錄頁面。</span>
 
-* 您可以在下列區域將Workfront物件連線至Workfront Planning記錄：
+* 您可以在Workfront的下列區域中，將Workfront物件連結至Workfront Planning記錄：
 
-   * 從Workfront物件的Planning區段。
-   * <span class="preview">從Workfront物件的自訂表單上的Planning連線欄位。</span>
+   * Workfront物件的「規劃」區段。
+   * <span class="preview">Workfront物件自訂表單上的Planning連線欄位。</span>
 
   如需詳細資訊，請參閱[管理來自Workfront物件的記錄連線](/help/quicksilver/planning/records/manage-records-in-planning-section.md)
