@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: bb6697241701160f878dc3fde2c7dd4d57ec097e
+source-git-commit: 47aa463406c2807a375297f296b3e81eca1285bb
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1533'
 ht-degree: 0%
 
 ---
@@ -223,10 +223,18 @@ ht-degree: 0%
    遭拒絕的使用者會自動從Workfront中刪除。
 
 
+## 在Adobe Admin Console中編輯現有使用者
 
+您可以在Adobe Admin Console中編輯下列使用者詳細資訊：
 
+* 與使用者相關聯的使用者群組和產品
+* 管理許可權
+* 國家/地區
 
+如需有關在Adobe Admin Console中編輯單一使用者的資訊，請參閱Adobe檔案中個別管理使用者一文中的[編輯使用者詳細資料](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#edit-user-details)。
 
+如需在Adobe Admin Console中大量編輯使用者的詳細資訊，請參閱
+在Adobe檔案中管理多個使用者一文中的[編輯使用者詳細資料](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html#edit-user-details)。
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>&nbsp;</p>

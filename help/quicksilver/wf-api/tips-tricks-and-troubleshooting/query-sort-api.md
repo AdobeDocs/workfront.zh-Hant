@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: f001adb8-6295-4646-b9f1-78244a8c44a6
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 5936982217adc6cfcaf9e400bfff67a1496d3a78
 workflow-type: tm+mt
 source-wordcount: '60'
 ht-degree: 0%
@@ -23,6 +23,10 @@ ht-degree: 0%
 &entryDate_Sort=asc
 ```
 
-例如，如果您想要依任務計劃開始日期排序，請移除`entryDate`並將其取代為`plannedCompletionDate`。
+例如，如果您想要依任務計畫完成日期排序，請移除`entryDate`並將其取代為`plannedCompletionDate`。
+
+```
+&plannedCompletionDate_Sort=asc
+```
 
 這適用於Adobe Workfront中的大部分欄位。
