@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '7392'
+source-wordcount: '7388'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您的組織必須加入Adobe統一體驗，使用者才能透過許可權請求請求向檢視或工作區請求和授予許可權。
+>您的組織必須加入Adobe Unified Experience，使用者才能透過許可權請求向檢視或工作區請求和授與許可權。
 
 
 如需詳細資訊，請參閱[要求檢視或工作區的許可權](/help/quicksilver/planning/access/request-permissions.md)。
@@ -135,7 +135,7 @@ ht-degree: 0%
 * 視其設定方式而定，請求表單可能會顯示記錄型別的所有欄位，但以下型別的欄位除外：
 
    * 人員
-   * 連線的欄位(包括與Experience Manager資產的連線)
+   * 連線欄位(包括與Experience Manager資產的連線)
    * 已連線的查閱欄位
    * 公式
 
@@ -268,7 +268,7 @@ Workfront AI助理已針對Workfront規劃區域重新啟用。
 
 * Workfront Planning記錄
 * 沒有範本的Workfront專案
-* WorkfrontPortfolio
+* Workfront產品組合
 
 將其他連線的Workfront物件或Experience Manager資產連線至記錄時，您無法建立這些物件。
 
@@ -563,7 +563,7 @@ AI助理目前處於測試階段，可供特定客戶使用。 請聯絡您的�
 
 預覽：待定
 
-我們已變更哪些型別的使用者可以完整存取工作區。 現在，只有「標準」或「計畫」授權使用者可以擁有工作區的「管理」許可權。 記錄型別、記錄和欄位的存取權繼承自工作區。 所有其他使用者對工作區及其物件型別具有僅限檢視的存取權。 在此更新之前，輕度使用者和工作者授權使用者可以接收工作區的Contribute許可權。
+我們已變更哪些型別的使用者可以完整存取工作區。 現在，只有「標準」或「計畫」授權使用者可以擁有工作區的「管理」許可權。 記錄型別、記錄和欄位的存取權繼承自工作區。 所有其他使用者對工作區及其物件型別具有僅限檢視的存取權。 在此更新之前，輕度使用者和工作者授權使用者可以接收對工作區的貢獻許可權。
 
 如需詳細資訊，請參閱[使用Adobe Workfront Planning時的授權型別概觀](/help/quicksilver/planning/access/license-type-overview.md)。
 
@@ -715,7 +715,7 @@ UNIQUE運運算元適用於下列欄位型別以外的所有欄位型別：
 
 * 開啟詳細資料預覽方塊或頁面，以檢視有關連線記錄的詳細資訊
 
-如需詳細資訊，請參閱[在Adobe Workfront物件的Planning區段管理記錄](/help/quicksilver/planning/records/manage-records-in-planning-section.md)。
+如需詳細資訊，請參閱[管理來自Workfront物件的記錄連線](/help/quicksilver/planning/records/manage-records-in-planning-section.md)。
 
 ## 2024年5月13日起一週
 
@@ -800,7 +800,7 @@ UNIQUE運運算元適用於下列欄位型別以外的所有欄位型別：
 
 預覽：待定
 
-如果您是Adobe Unified Experience客戶，且有人將您新增至記錄頁面上的評論，您會收到應用程式內通知及有關評論的電子郵件通知。 您可以在Adobe Experience Cloud設定檔的偏好設定區域中管理通知偏好設定。 如需詳細資訊，請參閱[帳戶偏好設定和通知](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences)。
+如果您是Adobe Unified Experience客戶，且有人將您新增至記錄頁面上的註解，您會收到應用程式內及電子郵件有關註解的通知。 您可以在Adobe Experience Cloud設定檔的偏好設定區域中管理通知偏好設定。 如需詳細資訊，請參閱[帳戶偏好設定和通知](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences)。
 
 如需Workfront規劃通知的詳細資訊，請參閱[Adobe Workfront規劃通知：文章索引](/help/quicksilver/planning/notifications/notifications-information.md)。
 
@@ -1101,7 +1101,7 @@ UNIQUE運運算元適用於下列欄位型別以外的所有欄位型別：
 
 * 擁有「計畫」授權（或新授權模式中的「標準」授權）的使用者可以建立和管理工作區、記錄型別和記錄。
 
-* 擁有工作授權（或新授權模型中的光源）的使用者可以檢視和貢獻與他們共用的工作區，以及該工作區的記錄型別和記錄。  工作 — （或輕度）授權使用者也可以在擁有Contribute存取權的工作區中建立、編輯和刪除記錄。
+* 擁有工作授權（或新授權模型中的光源）的使用者可以檢視和貢獻與他們共用的工作區，以及該工作區的記錄型別和記錄。  Work- （或Light — ）授權使用者也可以在具有Contribute存取權的工作區中建立、編輯和刪除記錄。
 
 * 擁有「檢閱」或「請求者」授權（或新授權模式中的「貢獻者」）的使用者只能檢視與其共用的工作區，以及這些工作區的記錄型別和記錄。 他們無法建立、編輯或刪除記錄型別或記錄。
 
@@ -1237,7 +1237,7 @@ Adobe Workfront規劃功能已暫時從預覽和沙箱環境中移除。 它們�
 
 * 檢視：使用者可以檢視與他們共用的工作區。 他們也可以從共用工作區檢視記錄型別和記錄。
 
-* Contribute：使用者可在與其共用之工作區中建立、編輯或刪除記錄。  他們無法建立或編輯與其共用的記錄型別或工作區。
+* 貢獻：使用者可在與其共用之工作區中建立、編輯或刪除記錄。  他們無法建立或編輯與其共用的記錄型別或工作區。
 
 * 管理：使用者可以建立、編輯和刪除共用給他們的工作區、記錄型別、記錄和欄位。
 
@@ -1246,7 +1246,7 @@ Adobe Workfront規劃功能已暫時從預覽和沙箱環境中移除。 它們�
 * 檢視：使用者可以從記錄型別頁面的「檢視」下拉式功能表中選取檢視。
 * 管理：使用者可以編輯、共用和刪除檢視。
 
-如需詳細資訊，請參閱[Adobe計畫存取總覽](/help/quicksilver/planning/access/access-overview.md)和[Adobe Workfront計畫功能中的共用許可權總覽](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
+如需詳細資訊，請參閱[Adobe Planning存取總覽](/help/quicksilver/planning/access/access-overview.md)和[Adobe Workfront Planning功能中的共用許可權總覽](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
 
 ### 新公式欄位型別
 

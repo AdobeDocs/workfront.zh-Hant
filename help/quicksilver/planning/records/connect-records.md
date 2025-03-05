@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '3332'
+source-wordcount: '3330'
 ht-degree: 1%
 
 ---
@@ -118,7 +118,7 @@ ht-degree: 1%
   </tr> 
 <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
-   <td>   <p>管理工作區的許可權以連線記錄 </p>  
+   <td>   <p>貢獻或更高的許可權給工作區，以連線記錄 </p>  
    <p>檢視工作區或更高許可權，可檢視與其他應用程式之物件和欄位的所有連線，無論您對其他應用程式的存取權為何。 </p>
    <p>檢視或更高許可權給您要從Workfront或Experience Manager Assets連結的物件。 </p>
    <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區。</p> </td> 
@@ -494,4 +494,4 @@ ht-degree: 1%
       * 群組
       * 公司
 
-  如需詳細資訊，請參閱[在Adobe Workfront物件的Planning區段管理記錄](/help/quicksilver/planning/records/manage-records-in-planning-section.md)。
+  如需詳細資訊，請參閱[管理來自Workfront物件的記錄連線](/help/quicksilver/planning/records/manage-records-in-planning-section.md)。

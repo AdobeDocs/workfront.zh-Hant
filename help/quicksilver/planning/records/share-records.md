@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '515'
 ht-degree: 1%
 
 ---
@@ -70,8 +70,8 @@ ht-degree: 1%
  <tr> 
    <td role="rowheader"><p>Adobe Workfront平台</p></td> 
    <td> 
-<p>貴組織的Workfront例項必須加入Adobe統一體驗，才能存取Workfront規劃的所有功能。</p> 
-<p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront的Adobe統一體驗</a>。 </p> 
+<p>貴組織的Workfront例項必須上線至Adobe Unified Experience，才能存取Workfront Planning的所有功能。</p> 
+<p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">適用於Workfront的Adobe Unified Experience</a>。 </p> 
    </td> 
    </tr> 
   </tr> 
@@ -89,7 +89,7 @@ ht-degree: 1%
 <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
    <td>  <p>使用連結檢視或更高的工作區許可權以共用記錄 </p>
-   <p>管理共用記錄所屬工作區時共用記錄的工作區許可權 </p>
+   <p>管理工作區的許可權，以共用記錄所屬的工作區的記錄 </p>
    <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p>  </td> 
   </tr> 
 <tr> 
@@ -145,7 +145,7 @@ ht-degree: 1%
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
    <td> <p>View or higher permissions to a workspace to share a record using a link </p>
-   <p>Manage permissions to a workspace to share records while sharing the workspace the record belongs to </p>
+   <p>Manage permissions to a workspace to share the workspace the record belongs to </p>
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
 </td>
   </tr>

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1567'
 ht-degree: 1%
 
 ---
@@ -24,10 +24,16 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-您可以在Workfront的下列區域中，顯示Workfront Planning記錄及其連結至Adobe Workfront物件的個別記錄：
+您可在Workfront中，於下列連結物件的區域顯示Workfront Planning記錄：
 
 * Workfront物件的Planning區段：顯示連線到物件的所有記錄型別及其各自的連線記錄。
 * Planning連線自訂欄位：顯示一種記錄型別及其個別的連線記錄。
+
+<!--replace the last sentence above with this: 
+
+Displays one record type, its respective connected records, <span class="preview">and up to 7 lookup fields of the connected records.</span>
+
+-->
 
 ## 存取需求
 
@@ -85,6 +91,7 @@ ht-degree: 1%
   <tr>
    <td role="rowheader"><p>存取層級設定</p></td>
    <td> <p>檢視專案、方案和投資組合或取得更高的存取權</p>  
+   <p>Workfront Planning沒有存取層級設定。 </p>
 </td>
   </tr>
 <tr>
@@ -203,11 +210,19 @@ ht-degree: 1%
 
 當您從Workfront物件的Planning連線欄位檢視Workfront Planning記錄時，請考量下列事項：
 
-* 您只能將一個記錄型別與一個Planning連線欄位建立關聯。
-* 您必須將具有Planning連線自訂欄位的自訂表單附加至可從Workfront Planning連線的Workfront物件（如果您有正確的存取權）。
-* Workfront Planning記錄型別必須先連線至Workfront物件型別。 如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
-* 您只能針對可具有Workfront Planning連線的物件，從Workfront物件的Planning連線欄位連線或中斷連線記錄。
+<!--
+* A Planning connection field displays in the following ways on a Workfront object's custom form, after Planning records are connected to the Workfront object:
+
+   * If only the primary field of the connected record is selected, as a field with multiple values, if the connection allows for multiple records to be linked. For information, see [Connect record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+   * <span class="preview">If any additional lookup fields from the connected record are selected, the Planning connection field displays as a table. Up to 7 fields can be selected for the Planning connection field. The table view is read-only.  </span>
+-->
+* 您只能將一個記錄型別與一個Planning連線欄位建立關聯。 您在表單中的Planning連線欄位數量沒有限制。
+* 您必須擁有物件、記錄和Workfront Planning的正確存取權和許可權，才能將具有Planning連線自訂欄位的自訂表單附加至Workfront物件。
 * 您必須擁有Workfront Planning中工作區的Contribute許可權，才能從Workfront物件的Planning連線欄位連線或中斷連線記錄。
+* Workfront Planning記錄型別必須先連線至Workfront物件型別。 如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。這可讓Workfront Planning記錄從Workfront存取。
+* 您只能針對可具有Workfront Planning連線的物件，從Workfront物件的Planning連線欄位連線或中斷連線記錄。
+
+  例如，您也許可以將具有Planning連線欄位的自訂表單附加到任務，但無法將Workfront Planning物件連線到任務。
 * 大量編輯Workfront物件時，您無法編輯Planning連線欄位。
 
 ### 管理來自Planning連線欄位型別的記錄連線
@@ -249,9 +264,15 @@ ht-degree: 1%
    * 記錄會立即連線至Workfront物件，並顯示在Planning連線欄位以及Workfront物件的Planning區段中。
    * Workfront物件會新增至Workfront Planning記錄的已連線欄位。
    * 與Planning記錄連線之Workfront查詢欄位的值會填入Workfront Planning中。
-1. （選用）在Planning連線欄位中按一下記錄名稱，以在Workfront Planning中開啟該記錄。
-記錄詳細資訊索引標籤會在Workfront Planning中開啟。
-您可以複查有關記錄的資訊，或瀏覽至記錄型別頁面。
+   <!--* <span class="preview">If any record lookup fields were added when the custom form was set up, the record's lookup fields populate automatically in a table view. The table view in the Planning connection field is read-only</span>
+   
+      ![](assets/planning-connection-field-with-table-on-project-details-custom-form.png)-->
+
+1. （選擇性）在Planning連線欄位中按一下記錄<!--<span class="preview">or hover the name of the record in the table, then click the **Open record** icon ![Open record icon on Planning connection custom form](assets/open-record-icon-on-planning-connection-custom-form.png)</span>-->的名稱，以在Workfront Planning中開啟。
+Workfront Planning記錄詳細資料預覽方塊開啟。
+您可以檢閱或編輯有關記錄的資訊，或按一下**在新索引標籤中開啟**&#x200B;圖示![在新索引標籤中開啟記錄](assets/open-details-in-a-new-tab-icon.png)以開啟記錄詳細資訊頁面。
 
 1. （選擇性）從Workfront的自訂表單中，按一下記錄上的&#x200B;**移除**&#x200B;圖示![](assets/remove-icon.png)，將其從Planning連線欄位中移除，並將其從Workfront物件中中斷連線。
 Workfront物件與Planning記錄中斷連線，且任何來自Workfront的查閱資訊都會從記錄中移除。
+
+1. 按一下&#x200B;**儲存變更**&#x200B;以儲存自訂表格以及您對Workfront物件所做的任何其他變更。

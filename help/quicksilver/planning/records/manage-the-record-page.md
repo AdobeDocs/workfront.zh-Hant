@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '1914'
+source-wordcount: '1916'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ ht-degree: 0%
 <tr>
    <td role="rowheader"><p>物件許可權</p></td>
    <td>
-   <p>管理工作區</a>的許可權 </p>  
+   <p>貢獻或更高的工作區許可權</a> </p>  
    <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p> 
   </td>
   </tr>

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '1801'
+source-wordcount: '1804'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,6 @@ ht-degree: 0%
 * [從CSV或Excel檔案匯入記錄型別時建立記錄](#create-records-when-importing-record-types-from-a-csv-or-excel-file)
 <!--* <Span class="preview">[Create Records by importing information from a CSV or Excel file](/help/quicksilver/planning/records/import-file-to-create-records.md)</span> -->
 * <span class="preview">[使用自動化建立記錄](#create-records-by-using-automations)</span>
-
 
 如需有關管理表格或時間表檢視中的記錄的資訊，請參閱下列文章：
 
@@ -94,12 +93,12 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader"><p>存取層級設定</p></td> 
    <td> <p>Adobe Workfront Planning沒有存取層級控制</p> 
-   <p>將記錄連線至要建立的物件型別（專案與投資組合）時，可在Workfront中編輯其存取權。 </p>  
+   <p>在您將記錄連線到要建立的物件型別（專案、方案和投資組合）時，在Workfront中編輯其存取權。 </p>  
 </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
-   <td> <p>管理您要新增記錄的工作區的許可權。 </p>  
+   <td> <p>貢獻或更高的許可權至您要新增記錄的工作區。 </p>  
    <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p>
    <p>管理Workfront物件（專案組合）的許可權以新增子物件（專案）。</p>
    </td> 

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '2156'
+source-wordcount: '2152'
 ht-degree: 0%
 
 ---
@@ -407,4 +407,4 @@ ht-degree: 0%
 
 將記錄與Workfront物件連線後，您可以在Workfront中編輯物件的Planning區段中的Workfront Planning記錄。
 
-如需詳細資訊，請參閱[在Adobe Workfront物件的Planning區段管理記錄](/help/quicksilver/planning/records/manage-records-in-planning-section.md)。
+如需詳細資訊，請參閱[管理來自Workfront物件的記錄連線](/help/quicksilver/planning/records/manage-records-in-planning-section.md)。

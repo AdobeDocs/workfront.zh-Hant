@@ -3,13 +3,13 @@ title: 從CSV或Excel檔案匯入資訊，以建立記錄
 description: 記錄是記錄型別的個別例項，這些是Adobe Workfront Planning的物件型別。 在Workfront Planning中，您可以從CSV或Excel檔案匯入資訊，以建立記錄。
 hide: true
 hidefromtoc: true
-source-git-commit: 9f17fcab210768923e866d2f1596f40ddf8a558e
+exl-id: 940945df-391c-4672-9d9d-180d5028509b
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 1%
+source-wordcount: '985'
+ht-degree: 0%
 
 ---
-
 
 <!-- add the following in the metadata when live:
 
@@ -82,12 +82,12 @@ recommendations: noDisplay, noCatalog-->
   <tr> 
    <td role="rowheader"><p>存取層級設定</p></td> 
    <td> <p>Adobe Workfront Planning沒有存取層級控制</p> 
-   <p>將記錄連線至要建立的物件型別（專案與投資組合）時，可在Workfront中編輯其存取權。 </p>  
+   <p>在您將記錄連線到要建立的物件型別（專案、方案和投資組合）時，在Workfront中編輯其存取權。 </p>  
 </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
-   <td> <p>管理您要新增記錄的工作區的許可權。 </p>  
+   <td> <p>貢獻或更高的許可權至您要新增記錄的工作區。 </p>  
    <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p>
    <p>管理Workfront物件（專案組合）的許可權以新增子物件（專案）。</p>
    </td> 
@@ -103,23 +103,23 @@ recommendations: noDisplay, noCatalog-->
 
 +++
 
-## 有關使用Excel或CSV檔案匯入記錄型別的考量事項
+## 使用Excel或CSV檔案匯入記錄時的注意事項
 
 * 每個工作表中的欄標題會成為與記錄關聯的欄位。
 * 每一張工作表中的每一列都會成為相關聯的唯一記錄。
 * 如果Excel檔案包含多個頁面，則只匯入您在匯入過程中選取的一個頁面的資訊。
 * 檔案不應超過下列專案：
-   * 10,000列
+   * 25,000列
    * 500欄
 * 檔案不應大於5MB。
 * 不支援空白工作表。
 * 不支援下列型別的欄位，且無法對應至匯入工作表上的欄位：
-   * 查閱已連線記錄或已連線Workfront物件的欄位
+   * 連線記錄的連線和查閱欄位<!--or connected Workfront objects-->
    * 公式欄位
    * 建立日期，建立者
    * 上次修改日期，上次修改者：
    * 人員
-* 如果匯入了多重或單一選取欄位，且與Planning中的類似欄位相比，其選擇更多，則會在匯入期間建立其他選項。
+   * 如果匯入了多重或單一選取欄位，且與Planning中的類似欄位相比，其選擇更多，則會在匯入期間建立其他選項。 只有對工作區具有「管理」許可權的使用者才能匯入新的選擇。
 
 ## 透過匯入CSV或Excel檔案來建立記錄
 
@@ -144,11 +144,16 @@ recommendations: noDisplay, noCatalog-->
 
    每一列代表新記錄。 只有前10筆記錄會顯示在「預覽與編輯」方塊中。
 
-1. （選擇性）選取畫面左下角的&#x200B;**建立遺漏的選項**。 啟用時，會新增缺少的單選和多選欄位選擇。
+1. （選擇性和條件性）如果您擁有工作區的管理許可權，請選取畫面左下角的&#x200B;**建立缺少的選項**。 啟用時，會新增缺少的單選和多選欄位選擇。
 
-   例如，如果選取的記錄型別具有單選「狀態」欄位，其中包含「新增」、「進行中」和「已關閉」選項，而從檔案匯入的「狀態」欄位也具有「保留狀態」選項，則也會新增「保留」狀態選項
+>[!NOTE]
+>
+>例如，如果選取的記錄型別具有單選「狀態」欄位，其中包含「新增」、「進行中」和「已關閉」選項，而從檔案匯入的「狀態」欄位也具有「保留狀態」選項，則也會新增「保留」狀態選項。
+>
+>如果您沒有工作區的「管理」許可權，您可以匯入記錄，但將不會建立其他選項。 相反地，您在[將Planning欄位對應到欄標題]方塊的右上角收到下列訊息： **連線、單一或多重選取欄位中不存在的選擇**。
 
-   <!--when we add connected records and the info icon in the tool changes, also add those items to this step-->
+
+    &lt;！ — 當我們在工具中新增連線記錄且資訊圖示變更時，也要將這些專案新增到此步驟 — >
 
 1. 按一下&#x200B;**匯入**。
 

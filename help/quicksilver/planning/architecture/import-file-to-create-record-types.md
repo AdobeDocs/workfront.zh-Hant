@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
+exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
 source-wordcount: '754'
 ht-degree: 1%
 
 ---
-
 
 # 從CSV或Excel檔案匯入資訊，以建立記錄型別
 
@@ -101,7 +101,7 @@ ht-degree: 1%
 * 欄位對於其各自的記錄型別來說都是唯一的。
 * 每個工作表中的每一列都會成為與其個別記錄型別相關聯的唯一記錄。
 * 每個Excel檔案工作表不應超過下列專案：
-   * 10,000列
+   * 25,000列
    * 500欄
 * 檔案不應大於5MB。
 * 不支援空白工作表。

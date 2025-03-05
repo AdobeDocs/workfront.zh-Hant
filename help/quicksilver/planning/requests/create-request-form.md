@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '1869'
+source-wordcount: '1865'
 ht-degree: 1%
 
 ---
@@ -144,7 +144,7 @@ ht-degree: 1%
    * 人員欄位值會顯示為ID。
    * 未參考其他欄位或計算的公式欄位不顯示任何值。 例如，具有`STRING`公式的欄位會顯示「N/A」值。
    * 參考「幣別」欄位的公式欄位會顯示不含匯率會計的值。
-   * 包含特殊格式的「段落」欄位值會在請求表單上顯示「N/A」值，並在請求詳細資訊頁面中顯示html標籤而非格式化的文字。
+   * 段落欄位的值在請求表單上顯示「N/A」值，並在請求詳細資訊頁面中顯示html標籤而不是格式化文字。
 
 </div>
 
