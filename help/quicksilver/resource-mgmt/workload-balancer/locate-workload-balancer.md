@@ -7,9 +7,9 @@ description: 您可以使用工作負載平衡器來排程工作資源，或檢�
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
+source-git-commit: 496420d1c74b7c29d0fb2ff7109ea8478680d117
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '724'
 ht-degree: 1%
 
 ---
@@ -97,6 +97,8 @@ ht-degree: 1%
      在「已指派的工作」區域顯示使用者時，我們建議使用篩選器。 如需詳細資訊，請參閱工作負載平衡器](../workload-balancer/filter-information-workload-balancer.md)中的[篩選器資訊。
 
 ### 存取團隊的工作負載平衡器
+
+如需Workfront中團隊的詳細資訊，請參閱[團隊概觀](/help/quicksilver/people-teams-and-groups/create-and-manage-teams/teams-overview.md)。
 
 {{step1-to-team}}
 
