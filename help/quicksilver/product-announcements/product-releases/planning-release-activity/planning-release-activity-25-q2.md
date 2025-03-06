@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: 22a293cf4ded2c24c58f3948c1e7b41fa1055e3f
+source-git-commit: b03ac1037e03a70c7e685f5e6e53ce86755868c7
 workflow-type: tm+mt
-source-wordcount: '1481'
+source-wordcount: '1660'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,29 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 如需針對Adobe Workfront Planning發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## 將連線記錄的查詢欄位新增至Workfront自訂表單中的Planning連線欄位
+
+>[!NOTE]
+>
+>預覽： 2025年3月6日；快速發行生產： 2025年3月13日；所有客戶生產： 2025年4月10日
+
+為了從Workfront物件輕鬆存取連線記錄中的所有資訊，我們已將連線記錄的查詢欄位新增到Workfront中的Planning連線欄位。
+
+您可以在Planning連線自訂欄位中，將最多七個查詢欄位新增至連線至Workfront物件的記錄。 作為此改進的一部分，您現在可以透過Workfront物件的自訂形式，以易於閱讀的表格格式顯示連線的記錄及其欄位。
+
+如需詳細資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+
+## 使用CSV或Excel檔案匯入記錄
+
+>[!NOTE]
+>
+>預覽版本： 2025年3月6日；適用於所有客戶的生產： 2025年4月10日
+
+您現在可以從記錄型別的頁面，使用CSV或Excel試算表匯入記錄。
+在此增強功能之前，您只能在建立記錄型別時匯入記錄。 透過此更新，您可以將記錄匯入至現有的記錄型別。
+
+如需相關資訊，請參閱[從CSV或Excel檔案匯入資訊，以建立記錄](/help/quicksilver/planning/records/import-file-to-create-records.md)。
 
 ## 在瀏覽器分頁名稱中顯示Workfront Planning請求的詳細資訊頁面的記錄名稱
 

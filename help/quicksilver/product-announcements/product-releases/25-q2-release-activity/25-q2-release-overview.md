@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: f90a1066202e2c949ab5bfebf85897060f1c29d2
+source-git-commit: 7dba8033919f015bed4d9e1f8c7581c94f9fff4c
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
@@ -64,6 +64,29 @@ Workfront版本編號代表每月和每季的版本追蹤。 第一個數字代�
 </tbody>
 </table>
 
+### 檔案管理增強功能
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            在檔案報告中一次編輯多個檔案 </a></p>
+            <p>您現在可以在檔案報告中一次編輯多個檔案。 您可以編輯說明並更新自訂表格。</p>
+        </td>
+        <td>
+            <p><b>將於下列日期提供：</b></p>
+            <ul>
+                <li>預覽版本： 2025年2月6日</li>
+                <li><span class="preview">所有客戶的生產版本： 2025年3月13日</span></li>
+            </ul>
+        </td>
+    </tr>                          
+</tbody>
+</table>
+
 ### 專案增強功能
 
 <table>
@@ -94,6 +117,20 @@ Workfront版本編號代表每月和每季的版本追蹤。 第一個數字代�
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            升級至具有版本升級端點的新事件訂閱版本</a></p>
+            [！BADGE In Production ]{type=Informative}
+            <p>Workfront現在提供不同版本的事件訂閱。 新版本並非變更Workfront API，而是變更事件訂閱功能。 您可以將活動訂閱切換至新版本，而不會在活動訂閱中造成間隙</p>
+        </td>
+        <td>
+            <p><b>將於下列日期提供：</b></p>
+            <ul>
+                <li><span class="preview">所有客戶的生產版本： 2025年3月6日</span></li>
+            </ul>
+        </td>
+    </tr>
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
