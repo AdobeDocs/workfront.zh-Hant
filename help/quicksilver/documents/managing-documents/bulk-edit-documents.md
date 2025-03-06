@@ -7,17 +7,17 @@ description: 您可以在「檔案」區域中一次編輯多個檔案。
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: 8c1f829eb29d8cd13524814d98ed353add15e881
+exl-id: e8badce6-86f5-416c-a238-f9b7f19cdd2d
+source-git-commit: f9ebf647c7672a9d471288806cf596d103007613
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '750'
 ht-degree: 0%
 
 ---
 
-
 # 大量編輯檔案
 
-<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它只能在「預覽Sandbox」環境中使用。</span>
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽Sandbox」環境中使用。</span>
 
 您可以一次編輯多個檔案中的說明、新增自訂表單及編輯自訂表單。
 
@@ -97,4 +97,33 @@ ht-degree: 0%
     </table>
 1. 按一下「**儲存**」。
 
+<span class="preview">
 
+## 在檔案報告中大量編輯檔案
+
+1. 導覽至現有檔案報表。
+或
+建立檔案報告，如[建立自訂報告](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)中所述。
+1. 選取您要編輯的檔案。
+1. 按一下「編輯」圖示![編輯圖示](assets/edit-icon.png)。
+   ![編輯頁面](assets/edit-multiple-documents.png)上的圖示位置
+1. （選用）新增或編輯&#x200B;**描述**。 如果每個檔案的描述不同，您會在描述方塊中看到&#x200B;_多個值_。 您可以為所有檔案新增相同的說明，但當您大量編輯時，無法編輯個別檔案說明。
+1. 使用自訂表單進行下列變更：
+
+   <table>
+    <tr>
+    <td><strong>新增表單</strong></td>
+    <td>在<strong>新增自訂表單方塊</strong>中，您可以從附加的表單中選擇要新增的表單。 附加的表單位於部分選定檔案上，但不是全部檔案。 附加到所有選定檔案的表單會自動顯示在編輯視窗中。  </td>
+    </tr>
+    <tr>
+    <td><strong>編輯表單</strong></td>
+    <td>編輯任何附加的自訂表單。 您變更的資訊會覆寫個別檔案的現有資訊。 跨檔案具有不同值的欄位會顯示為「多個值」。 </td>
+    </tr>
+    <tr>
+    <td><strong>重新排清單單</strong></td>
+    <td>按一下並拖曳自訂表單以重新排列。</td>
+    </tr>
+    </table>
+1. 按一下「**儲存**」。
+
+</span>
