@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
-source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
+source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '795'
 ht-degree: 1%
 
 ---
@@ -105,6 +105,12 @@ ht-degree: 1%
    * 500欄
 * 檔案不應大於5MB。
 * 不支援空白工作表。
+* 不支援下列型別的欄位，且無法對應至匯入工作表上的欄位：
+   * 連線記錄的連線和查閱欄位<!--or connected Workfront objects-->
+   * 公式欄位
+   * 建立日期，建立者
+   * 上次修改日期，上次修改者：
+   * 人員
 
 若要使用Excel或CSV檔案匯入記錄型別：
 

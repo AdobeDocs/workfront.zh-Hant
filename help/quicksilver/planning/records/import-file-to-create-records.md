@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
+source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
 workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 0%
@@ -148,9 +148,6 @@ ht-degree: 0%
    >
    >如果您沒有工作區的「管理」許可權，您可以匯入記錄，但將不會建立其他選項。 相反地，您在[將Planning欄位對應到欄標題]方塊的右上角收到下列訊息： **連線、單一或多重選取欄位中不存在的選擇**。
 
-
-   <!--when we add connected records and the info icon in the tool changes, also add those items to this step and to the NOTE-->
-
 1. 按一下&#x200B;**匯入**。
 
    下列資訊會匯入Workfront Planning中：
@@ -162,3 +159,5 @@ ht-degree: 0%
    您可以在記錄型別頁面中開始管理欄位和記錄。
 
    有權存取Workfront Planning和工作區的每個人都現在可以檢視及編輯匯入的記錄及其資訊。
+
+   <!--when we add connected records and the info icon in the tool changes, also add those items to the Import step and to the NOTE above it-->

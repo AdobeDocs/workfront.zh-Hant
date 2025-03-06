@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
+source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
 workflow-type: tm+mt
-source-wordcount: '1858'
+source-wordcount: '1846'
 ht-degree: 0%
 
 ---
@@ -32,8 +32,7 @@ ht-degree: 0%
 * [從表格檢視複製記錄](#create-records-by-duplicating-them)
 * [從其他記錄連線記錄時建立記錄](#create-records-as-you-connect-them)
 * [透過向記錄型別提交請求表單來建立記錄](#create-records-by-submitting-a-request-form-to-a-record-type)
-* [從CSV或Excel檔案匯入記錄型別時建立記錄](#create-records-when-importing-record-types-from-a-csv-or-excel-file)
-* <Span class="preview">[從CSV或Excel檔案匯入資訊，以建立記錄](/help/quicksilver/planning/records/import-file-to-create-records.md)</span>
+* <span class="preview">[從CSV或Excel檔案匯入資訊，以建立記錄](#create-records-by-importing-records-from-a-csv-or-excel-file)</span>
 * <span class="preview">[使用自動化建立記錄](#create-records-by-using-automations)</span>
 
 如需有關管理表格或時間表檢視中的記錄的資訊，請參閱下列文章：
@@ -305,7 +304,7 @@ You can import records from other applications by linking them to existing recor
 
 <div class="preview">
 
-## 從CSV或Excel檔案匯入記錄時建立記錄
+## 從CSV或Excel檔案匯入記錄，以建立記錄
 
 從CSV或Excel檔案匯入資訊時，您可以匯入現有記錄型別的記錄。
 
