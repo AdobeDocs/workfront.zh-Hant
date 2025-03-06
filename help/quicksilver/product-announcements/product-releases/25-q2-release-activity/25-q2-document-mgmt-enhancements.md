@@ -4,9 +4,9 @@ description: 2025年第二季專案增強功能
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 7dba8033919f015bed4d9e1f8c7581c94f9fff4c
+source-git-commit: 1123c028a1971c7a66158b95642154e540dc3d0e
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽版本： 2025年2月6日；全部生產客戶： 2025年3月13日
+>預覽版本： 2025年2月6日；適用於所有客戶的生產： 2025年3月13日
 
 您現在可以在檔案報告中一次編輯多個檔案。 您可以編輯說明並更新自訂表格。
 
