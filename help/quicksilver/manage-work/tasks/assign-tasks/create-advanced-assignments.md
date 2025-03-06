@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
+source-git-commit: 4072e71dc0ba76871e17da7718ed4b77a3cdbda6
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1109'
 ht-degree: 0%
 
 ---
@@ -17,12 +17,6 @@ ht-degree: 0%
 # 建立進階任務指派
 
 <!-- Audited: 07/2024-->
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽」環境中供所有客戶使用，或在「生產」環境中供啟用快速發行的客戶使用。</span>
-
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
-<span class="preview">如需目前版本的相關資訊，請參閱[2024年第四季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)。</span>
 
 您可以使用「進階指派」來管理任務或問題指派。
 
@@ -72,7 +66,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>Contribute或任務或問題的更高許可權</p>  </td> 
+   <td> <p>貢獻或更高的任務或問題許可權</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -140,10 +134,6 @@ ht-degree: 0%
      >根據您的Workfront管理員或群組管理員設定專案偏好設定的方式，當您有多個使用者指派至任務時，Workfront可能會使用任務擁有者的排程來計算任務的時間表。 如需關於多個任務受指派人的資訊，請參閱文章[指派任務](../../../manage-work/tasks/assign-tasks/assign-tasks.md)中的「將多個使用者指派到一個任務」一節。
 
    * **配置** ：當任務的期間型別為「簡單」時，請指定每個使用者或工作角色應指派給任務的小時數。 每位使用者所有指派時數的加總等於分配欄底部&#x200B;**計畫時數**&#x200B;欄位中的數字。 在所有其他情況下，請指定您希望受分派者解決任務或問題的時間百分比（或配置）。
-
-     <!--   
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: make sure this is right in the new UI for both classic and QS???)</p>   
-     -->
 
      >[!TIP]
      >   
