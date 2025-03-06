@@ -1,22 +1,18 @@
 ---
 title: 從CSV或Excel檔案匯入資訊，以建立記錄
 description: 記錄是記錄型別的個別例項，這些是Adobe Workfront Planning的物件型別。 在Workfront Planning中，您可以從CSV或Excel檔案匯入資訊，以建立記錄。
-hide: true
-hidefromtoc: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
+recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '964'
 ht-degree: 0%
 
 ---
 
-<!-- add the following in the metadata when live:
-
-feature: Workfront Planning
-role: User, Admin
-author: Alina
-recommendations: noDisplay, noCatalog-->
 
 # 從CSV或Excel檔案匯入資訊，以建立記錄
 
@@ -125,14 +121,14 @@ recommendations: noDisplay, noCatalog-->
 
 {{step1-to-planning}}
 
-1. 按一下您要建立記錄型別的工作區，
+1. 按一下您要建立記錄的工作區，
 
    或
 
    從工作區中，展開現有工作區名稱右側的向下箭頭，搜尋工作區，然後在工作區顯示在清單中時選取該工作區。
 1. 按一下您要匯入記錄的記錄型別卡片。
 1. 按一下熒幕右上角的&#x200B;**新增唱片**。
-1. 按一下&#x200B;**從檔案上傳**，然後按&#x200B;**繼續**。
+1. 按一下&#x200B;**從檔案上傳**，然後按&#x200B;**繼續**。<!--add screen shot when all three buttons are added - with the Submit a request button-->
 1. 拖放先前儲存在電腦上的Excel或CSV檔案，或按一下&#x200B;**選取CSV或Excel檔案**&#x200B;以瀏覽檔案。
 1. 按一下&#x200B;**預覽和編輯**。
 1. （視條件而定）如果匯入的檔案有多個工作表，請在&#x200B;**選取要匯入的工作表**&#x200B;方塊中選取您要匯入的工作表的選項按鈕，然後按一下&#x200B;**下一步**。 否則，請繼續進行下一個步驟。
@@ -146,14 +142,14 @@ recommendations: noDisplay, noCatalog-->
 
 1. （選擇性和條件性）如果您擁有工作區的管理許可權，請選取畫面左下角的&#x200B;**建立缺少的選項**。 啟用時，會新增缺少的單選和多選欄位選擇。
 
->[!NOTE]
->
->例如，如果選取的記錄型別具有單選「狀態」欄位，其中包含「新增」、「進行中」和「已關閉」選項，而從檔案匯入的「狀態」欄位也具有「保留狀態」選項，則也會新增「保留」狀態選項。
->
->如果您沒有工作區的「管理」許可權，您可以匯入記錄，但將不會建立其他選項。 相反地，您在[將Planning欄位對應到欄標題]方塊的右上角收到下列訊息： **連線、單一或多重選取欄位中不存在的選擇**。
+   >[!NOTE]
+   >
+   >例如，如果選取的記錄型別具有單選「狀態」欄位，其中包含「新增」、「進行中」和「已關閉」選項，而從檔案匯入的「狀態」欄位也具有「保留狀態」選項，則也會新增「保留」狀態選項。
+   >
+   >如果您沒有工作區的「管理」許可權，您可以匯入記錄，但將不會建立其他選項。 相反地，您在[將Planning欄位對應到欄標題]方塊的右上角收到下列訊息： **連線、單一或多重選取欄位中不存在的選擇**。
 
 
-    &lt;！ — 當我們在工具中新增連線記錄且資訊圖示變更時，也要將這些專案新增到此步驟 — >
+   <!--when we add connected records and the info icon in the tool changes, also add those items to this step and to the NOTE-->
 
 1. 按一下&#x200B;**匯入**。
 
@@ -161,8 +157,8 @@ recommendations: noDisplay, noCatalog-->
 
    * 顯示在所選記錄型別之表格檢視底部的新記錄。
    * 與每個記錄關聯的現有欄位的新欄位值。
-   * Planning中沒有的多重或單一選取欄位的新選擇。
+   * Planning中沒有的多重或單一選取欄位的新選擇。 <!--when we add connected records - add those here too-->
 
-   您可以開始管理記錄型別頁面上的欄位和記錄。
+   您可以在記錄型別頁面中開始管理欄位和記錄。
 
    有權存取Workfront Planning和工作區的每個人都現在可以檢視及編輯匯入的記錄及其資訊。

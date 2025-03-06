@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
 workflow-type: tm+mt
-source-wordcount: '1567'
+source-wordcount: '1793'
 ht-degree: 1%
 
 ---
@@ -18,22 +18,16 @@ ht-degree: 1%
 
 # 管理來自Workfront物件的記錄連線
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
 您可在Workfront中，於下列連結物件的區域顯示Workfront Planning記錄：
 
 * Workfront物件的Planning區段：顯示連線到物件的所有記錄型別及其各自的連線記錄。
-* Planning連線自訂欄位：顯示一種記錄型別及其個別的連線記錄。
-
-<!--replace the last sentence above with this: 
-
-Displays one record type, its respective connected records, <span class="preview">and up to 7 lookup fields of the connected records.</span>
-
--->
+* Planning連線自訂欄位：顯示一個記錄型別、其個別連線記錄、<span class="preview">以及連線記錄的最多7個查詢欄位。</span>
 
 ## 存取需求
 
@@ -210,12 +204,11 @@ Displays one record type, its respective connected records, <span class="preview
 
 當您從Workfront物件的Planning連線欄位檢視Workfront Planning記錄時，請考量下列事項：
 
-<!--
-* A Planning connection field displays in the following ways on a Workfront object's custom form, after Planning records are connected to the Workfront object:
+* Planning記錄連線至Workfront物件後，Workfront物件的自訂表單上會以下列方式顯示Planning連線欄位：
 
-   * If only the primary field of the connected record is selected, as a field with multiple values, if the connection allows for multiple records to be linked. For information, see [Connect record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
-   * <span class="preview">If any additional lookup fields from the connected record are selected, the Planning connection field displays as a table. Up to 7 fields can be selected for the Planning connection field. The table view is read-only.  </span>
--->
+   * 如果只選取所連線記錄的主要欄位，則如果連線允許連結多個記錄，則Planning連線欄位會顯示為具有多個值的欄位。 如需詳細資訊，請參閱[連線記錄型別概觀](/help/quicksilver/planning/architecture/connect-record-types-overview.md)。
+   * <span class="preview">如果從連線記錄中選取任何其他查閱欄位，Planning連線欄位會顯示為表格。 最多可以為Planning連線欄位選取7個欄位。 表格檢視是唯讀的。 </span>
+
 * 您只能將一個記錄型別與一個Planning連線欄位建立關聯。 您在表單中的Planning連線欄位數量沒有限制。
 * 您必須擁有物件、記錄和Workfront Planning的正確存取權和許可權，才能將具有Planning連線自訂欄位的自訂表單附加至Workfront物件。
 * 您必須擁有Workfront Planning中工作區的Contribute許可權，才能從Workfront物件的Planning連線欄位連線或中斷連線記錄。
@@ -264,13 +257,13 @@ Displays one record type, its respective connected records, <span class="preview
    * 記錄會立即連線至Workfront物件，並顯示在Planning連線欄位以及Workfront物件的Planning區段中。
    * Workfront物件會新增至Workfront Planning記錄的已連線欄位。
    * 與Planning記錄連線之Workfront查詢欄位的值會填入Workfront Planning中。
-   <!--* <span class="preview">If any record lookup fields were added when the custom form was set up, the record's lookup fields populate automatically in a table view. The table view in the Planning connection field is read-only</span>
-   
-      ![](assets/planning-connection-field-with-table-on-project-details-custom-form.png)-->
+   * <span class="preview">如果您的Workfront或群組管理員在建立自訂表單時新增記錄查閱欄位，記錄的查閱欄位會自動填入表格檢視中。 Planning連線欄位中的資料表檢視是唯讀的</span>
 
-1. （選擇性）在Planning連線欄位中按一下記錄<!--<span class="preview">or hover the name of the record in the table, then click the **Open record** icon ![Open record icon on Planning connection custom form](assets/open-record-icon-on-planning-connection-custom-form.png)</span>-->的名稱，以在Workfront Planning中開啟。
+     ![](assets/planning-connection-field-with-table-on-project-details-custom-form.png)
+
+1. （選擇性）在Planning連線欄位中，按一下記錄名稱<span class="preview">或將表格中的記錄名稱暫留，然後按一下Planning連線自訂表單上的&#x200B;**開啟記錄**&#x200B;圖示![開啟記錄圖示](assets/open-record-icon-on-planning-connection-custom-form.png)</span>，以在Workfront Planning中開啟記錄。
 Workfront Planning記錄詳細資料預覽方塊開啟。
-您可以檢閱或編輯有關記錄的資訊，或按一下**在新索引標籤中開啟**&#x200B;圖示![在新索引標籤中開啟記錄](assets/open-details-in-a-new-tab-icon.png)以開啟記錄詳細資訊頁面。
+1. 檢閱或編輯紀錄的相關資訊，或按一下&#x200B;**在新索引標籤中開啟**&#x200B;圖示![在新索引標籤中開啟記錄](assets/open-details-in-a-new-tab-icon.png)以開啟紀錄詳細資訊頁面。
 
 1. （選擇性）從Workfront的自訂表單中，按一下記錄上的&#x200B;**移除**&#x200B;圖示![](assets/remove-icon.png)，將其從Planning連線欄位中移除，並將其從Workfront物件中中斷連線。
 Workfront物件與Planning記錄中斷連線，且任何來自Workfront的查閱資訊都會從記錄中移除。

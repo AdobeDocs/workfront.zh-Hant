@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
 recommendations: noDisplay, noCatalog
-source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
+source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '153'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 1%
 下列文章說明如何在Adobe Workfront Planning中建立和管理記錄及其資訊：
 
 * [建立記錄](/help/quicksilver/planning/records/create-records.md)
-  <!--* <span class="preview">[Create Records by importing information from a CSV or Excel file](/help/quicksilver/planning/records/import-file-to-create-records.md)</span>-->
+* <span class="preview">[從CSV或Excel檔案匯入資訊，以建立記錄](/help/quicksilver/planning/records/import-file-to-create-records.md)</span>
 * [當您將Workfront物件連線至記錄時，從Workfront Planning建立它們](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
 * [使用Adobe Workfront Planning記錄自動化建立物件](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
 * [編輯記錄](/help/quicksilver/planning/records/edit-records.md)

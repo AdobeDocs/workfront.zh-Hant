@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
+source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
 workflow-type: tm+mt
-source-wordcount: '1811'
+source-wordcount: '1818'
 ht-degree: 2%
 
 ---
@@ -277,9 +277,9 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
      ![](assets/new-connection-tab-with-workfront-aem-options.png)
 
 
-  在記錄型別之間建立連線之後，可以將這些型別的個別記錄彼此連線。 記錄之間的連線會顯示為連結的記錄欄位。
+  在記錄型別之間建立連線之後，可以將這些型別的個別記錄或物件彼此連線。 記錄之間的連線會顯示為已連線的記錄欄位或連線。
 
-* **連結的欄位** （或查詢欄位）：當您建立兩個記錄型別之間的連線，並將個別記錄連結在一起之後，就可以參考連結的記錄上的連結記錄欄位。
+* **查詢欄位** （或連結欄位）：當您建立兩個記錄型別之間的連線，並將個別記錄連線在一起後，就可以參照您正在連線的記錄中連線記錄的欄位。
 
   例如，如果您將Campaign記錄型別與Workfront專案物件型別連線，則可以在行銷活動記錄上顯示已連線專案的「預算」欄位。
 
