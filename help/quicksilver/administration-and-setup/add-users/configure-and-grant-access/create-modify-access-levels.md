@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: f9bf60fc39cc7cd26e242e7cc782ece060cc5471
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1465'
 ht-degree: 6%
 
 ---
@@ -184,7 +184,7 @@ ht-degree: 6%
      </tr> 
      <tr> 
       <td role="rowheader">僅檢視他們所屬的公司、群組和小組</td> 
-      <td>僅允許使用者檢視專案並與他們所屬的公司、群組和團隊共用。<p><strong>注意</strong>：擁有請求者授權的使用者無法檢視他們不屬於的公司，即使選取此選項亦然。</td> 
+      <td>僅允許使用者檢視專案並與他們所屬的公司、群組和團隊共用。<p><strong>注意</strong>：擁有請求者或貢獻者授權的使用者無法檢視他們不屬於的公司，即使選取此選項亦然。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">絕對禁止顯示規劃時數或實際時數</td> 
@@ -212,7 +212,7 @@ ht-degree: 6%
 
    如需詳細資訊，請參閱[編輯使用者的設定檔](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
 
-   如需Adobe管理員如何指派系統管理員存取層級給使用者的詳細資訊，請參閱[授與使用者完整管理存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)。
+   如需Adobe管理員如何指派系統管理員存取層級給使用者的詳細資訊，請參閱[授予使用者完整管理存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)。
 
 ## 對職位角色具有管理存取權的標準或規劃工具使用者 {#planner-users}
 
