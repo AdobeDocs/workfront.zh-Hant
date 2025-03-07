@@ -7,14 +7,19 @@ description: 專案活動視覺效果會顯示專案層級的活動彙總檢視�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9ef52be8-48d0-4f83-a214-dd32e794c73e
-source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '820'
 ht-degree: 8%
 
 ---
 
 # 在增強型分析中檢視專案活動視覺效果
+
+>[!IMPORTANT]
+>
+>增強型Analytics將於5月26日起一週從Workfront中移除。 Workfront Data Connect是全新的替代解決方案，可用來複製您目前使用的任何Enhanced Analytics視覺效果。 <br>如需詳細資訊，請參閱[Enhanced Analytics淘汰指南](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md)。
+
 
 <!-- Audited: 12/2023 -->
 

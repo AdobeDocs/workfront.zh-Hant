@@ -5,9 +5,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: e9c6a01e80d34bc873c9a06ae0782dc65afb2445
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '571'
 ht-degree: 1%
 
 ---
@@ -90,8 +90,6 @@ ht-degree: 1%
 
 1. （選擇性）如果您想要解除鎖定電子郵件通知的設定，讓群組管理員可以分別設定其群組的設定，請按一下通知右側的按鈕![[鎖定]切換](assets/lock-toggle-button.png)，將其切換至解除鎖定位置![[解除鎖定]切換](assets/unlock-toggle-button.png)。
 
-   >[!NOTE]
-   >
-   >這項功能最初僅供叢集4上的客戶使用，屬於分階段推出的一部分。 不久後，其他叢集即可使用該功能。 當這種情況發生時，本文將會更新。
-
    如需詳細資訊，請參閱[解除鎖定或鎖定所有群組的事件通知設定](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)。
+
+使用者可以在他們的使用者設定檔中自訂這些通知的頻率。

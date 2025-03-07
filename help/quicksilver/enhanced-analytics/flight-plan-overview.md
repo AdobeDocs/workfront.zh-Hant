@@ -7,14 +7,19 @@ description: 「外部測試計畫」視覺效果會顯示外部測試中的專�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c64ed752-151a-40f7-ab18-684e2cd032bc
-source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '927'
 ht-degree: 4%
 
 ---
 
 # 在Enhanced Analytics中檢視小眾測試版計畫視覺效果
+
+>[!IMPORTANT]
+>
+>增強型Analytics將於5月26日起一週從Workfront中移除。 Workfront Data Connect是全新的替代解決方案，可用來複製您目前使用的任何Enhanced Analytics視覺效果。 <br>如需詳細資訊，請參閱[Enhanced Analytics淘汰指南](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md)。
+
 
 「外部測試計畫」視覺效果會顯示外部測試中的專案數目（在套用的篩選條件範圍內）、這些專案在整個生命週期中發生了哪些狀況變更，以及這些專案與其計畫的完成截止日期之間的粘附度。
 

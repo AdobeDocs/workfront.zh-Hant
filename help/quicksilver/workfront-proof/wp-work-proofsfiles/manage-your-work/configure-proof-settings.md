@@ -7,7 +7,7 @@ description: 您可以設定在校樣中建立或編輯的校樣。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ca379054-4737-4796-a812-f2ec38b437ba
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+source-git-commit: 5635906462cf838c3ca162cb47b16f157e6a66f6
 workflow-type: tm+mt
 source-wordcount: '1055'
 ht-degree: 1%
@@ -113,11 +113,12 @@ ht-degree: 1%
 
 如果已在校訂上啟用訂閱，則下列欄位將變為使用中：
 
-* **[!UICONTROL 需要訂閱者驗證]** — 訂閱者必須按一下電子郵件中的連結才能存取校訂\
+* **[!UICONTROL 訂閱者角色]** — 這是將指派給訂閱校訂的所有檢閱者的預設校訂角色。
+* **[!UICONTROL 訂閱者的電子郵件警示設定]** — 這是將指派給所有自行訂閱校訂的檢閱者的預設電子郵件警示。
+* **[!UICONTROL 需要透過電子郵件連結存取校訂]** — 訂閱者必須按一下電子郵件中的連結才能存取校訂\
    選取此選項表示訂閱者不會立即存取校訂，但會透過電子郵件取得校訂連結。 訂閱者驗證的目的是確保該人員輸入了他們有權存取的正確電子郵件地址。
 
-* **[!UICONTROL 新訂閱者的預設角色]** — 這是將指派給訂閱校訂的所有檢閱者的預設校訂角色。
-* **[!UICONTROL 新訂閱者的預設電子郵件警示]** — 這是將指派給所有自行訂閱校訂的稽核者的預設電子郵件警示。
+
 
 另請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md)中訂閱校訂
 

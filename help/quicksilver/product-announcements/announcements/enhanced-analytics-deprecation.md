@@ -4,11 +4,9 @@ title: 增強型Analytics淘汰指南
 description: 本頁包含即將淘汰的Enhanced Analytics的相關資訊。
 author: Nolan
 feature: Product Announcements
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 0de6119d-6a47-41f2-87da-2c6752ca436b
-source-git-commit: f90a1066202e2c949ab5bfebf85897060f1c29d2
+source-git-commit: 5635906462cf838c3ca162cb47b16f157e6a66f6
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 0%

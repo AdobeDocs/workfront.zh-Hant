@@ -7,9 +7,9 @@ description: 在熒幕頂端的增強型分析區域中，顯示4個關鍵績效
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 44e43618-9a0b-4585-8659-c1fe055516be
-source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '566'
 ht-degree: 1%
 
 ---
@@ -18,8 +18,11 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->使用此功能需要商務計畫或更新版本。\
->如需各種可用計畫的詳細資訊，請參閱[Adobe Workfront計畫](https://www.workfront.com/plans)。
+>增強型Analytics將於5月26日起一週從Workfront中移除。 Workfront Data Connect是全新的替代解決方案，可用來複製您目前使用的任何Enhanced Analytics視覺效果。 <br>如需詳細資訊，請參閱[Enhanced Analytics淘汰指南](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md)。
+
+
+使用此功能需要商務計畫或更新版本。\
+如需各種可用計畫的詳細資訊，請參閱[Adobe Workfront計畫](https://www.workfront.com/plans)。
 
 在熒幕頂端的增強型分析區域中，顯示4個關鍵績效指標(KPI)。 這些量度可讓您快速瞭解專案需要多久的時間、專案的大小，以及在特定時間範圍內完成多少專案。 這些數字並不僅限於此頁面上視覺效果顯示的50個專案上限。 相反地，此資料以套用至任何集合篩選條件的所有專案為基礎，如果您變更所選日期範圍或任何篩選條件，這些數字會進行調整。
 

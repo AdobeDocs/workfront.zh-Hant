@@ -6,14 +6,19 @@ description: Adobe Workfront增強型分析區域中的篩選器可幫助您專�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 25854c04-d914-4302-a36b-e8134637efe1
-source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '1486'
+source-wordcount: '1528'
 ht-degree: 0%
 
 ---
 
 # 在增強型分析中套用篩選器
+
+>[!IMPORTANT]
+>
+>增強型Analytics將於5月26日起一週從Workfront中移除。 Workfront Data Connect是全新的替代解決方案，可用來複製您目前使用的任何Enhanced Analytics視覺效果。 <br>如需詳細資訊，請參閱[Enhanced Analytics淘汰指南](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md)。
+
 
 <!-- Audited: 12/2023 -->
 
@@ -52,7 +57,7 @@ Adobe Workfront增強型分析區域中的篩選器可幫助您專注於特定�
   </tr>
   <tr> 
    <td>存取層級設定</td> 
-   <td> <p>檢視專案的存取權</p> <p>您也必須擁有「任務」、「Portfolio」和「使用者」的「檢視」存取權，才能檢視特定專案欄位篩選選項。</p> <p>注意：如果在「編輯存取層級」對話方塊的<strong>設定其他限制</strong>區段中選取限制，則套用篩選後，您可能無法看見篩選或Enhanced Analytics頁面上的所有資訊。</p> </td> 
+   <td> <p>檢視專案的存取權</p> <p>您也必須擁有「任務」、「專案組合」和「使用者」的「檢視」存取權，才能檢視特定專案欄位篩選選項。</p> <p>注意：如果在「編輯存取層級」對話方塊的<strong>設定其他限制</strong>區段中選取限制，則套用篩選後，您可能無法看見篩選或Enhanced Analytics頁面上的所有資訊。</p> </td> 
   </tr> 
   <tr> 
    <td> <p>物件許可權 </p> </td> 

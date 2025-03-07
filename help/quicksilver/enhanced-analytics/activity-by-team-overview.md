@@ -7,14 +7,20 @@ description: 依團隊的活動視覺效果會顯示在主團隊的特定時間�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c4f9886c-ce76-43a8-bd43-cb64fff27e79
-source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 7%
+source-wordcount: '769'
+ht-degree: 6%
 
 ---
 
 # 在Enhanced Analytics中檢視依團隊的活動視覺效果
+
+>[!IMPORTANT]
+>
+>增強型Analytics將於5月26日起一週從Workfront中移除。 Workfront Data Connect是全新的替代解決方案，可用來複製您目前使用的任何Enhanced Analytics視覺效果。 <br>如需詳細資訊，請參閱[Enhanced Analytics淘汰指南](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md)。
+
+
 
 <!-- Audited: 12/2023 -->
 

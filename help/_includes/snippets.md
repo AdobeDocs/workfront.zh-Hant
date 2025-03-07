@@ -1,5 +1,5 @@
 ---
-source-git-commit: 2d75f74c7281a3ea288c892db6895754a697e198
+source-git-commit: affff16630379333465c118734babf7a239af272
 workflow-type: tm+mt
 source-wordcount: '2648'
 ht-degree: 1%
@@ -88,13 +88,13 @@ ht-degree: 1%
 您可以將滑鼠懸停在正確的群組上，並按一下資訊圖示，確定您正在將正確的群組與團隊建立關聯 旁邊顯示的<img src="assets/info-icon.png">。 這會顯示工具提示，列出群組的相關資訊，例如群組上方的群組階層及其管理員名稱。
 
 
-## Admin Console入門的重要注意事項 {#important-admin-console-onboard}
+## Admin Console入門重要注意事項 {#important-admin-console-onboard}
 
 >[!IMPORTANT]
 >
 >本頁所述的程式僅適用於尚未加入Adobe Admin Console的組織。
 >
->如果您的組織已加入Adobe Admin Console，請參閱[平台型管理差異(Adobe Workfront/Adobe商務平台)](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
+>如果您的組織已加入Adobe Admin Console，請參閱[平台型管理差異(Adobe Workfront/Adobe Business Platform)](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 
 ## 步驟1 — 接近使用者 {#step-1-to-users}
 
@@ -315,9 +315,9 @@ ht-degree: 1%
 
 <!-- Manage Work -->
 
-## 步驟1 — 前往Portfolio- {#step1-to-portfolios}
+## 步驟1 — 前往投資組合 —  {#step1-to-portfolios}
 
-1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL Portfolio]**。
+1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果可用）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 產品組合]**。
 
 ## 步驟1 — 前往計畫 —  {#step1-to-programs}
 
@@ -495,3 +495,5 @@ For each snippets, create a head 2 section and add an anchor, such as
 In any .md file, add {{classic-note}} where you want that shared snippet content to appear.
 
 -->
+
+
