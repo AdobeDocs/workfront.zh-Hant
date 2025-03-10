@@ -9,13 +9,13 @@ feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: 77d93919a84b2c3b098d1b5e6796af6b37b51034
+exl-id: 3943703a-0d0b-46d3-a708-52987d330523
+source-git-commit: bd39c5794c55e27a876da185e67bf8c654a003b2
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 1%
+source-wordcount: '110'
+ht-degree: 0%
 
 ---
-
 
 # 專案樹狀圖查詢
 
@@ -34,4 +34,104 @@ ht-degree: 1%
    1. [建立Snowflake的讀取器帳戶或連線](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md)
    1. [建立與Workfront資料連線的連線](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)
 
-建立連線後，您可以使用本檔案中的查詢來擷取及視覺化資料。
+建立連線後，您可以使用本文中的查詢來擷取及視覺化資料。
+
+## 已淘汰專案計畫時數
+
+```
+WITH task_daily_work as ( 
+    SELECT 
+        taskid, 
+        projectid, 
+        workrequired, 
+        percentcomplete, 
+        calendardate, 
+        (workrequired - (workrequired * percentcomplete)) as remainingMinutes 
+    FROM tasks_daily_history 
+) 
+ 
+SELECT 
+    p.name, 
+    p.projectid, 
+    sum(tdw.workrequired) as projectTotalWork, 
+    sum(tdw.remainingMinutes) as projectRemainingWork, 
+    tdw.calendardate 
+FROM projects_current p 
+    JOIN task_daily_work tdw ON p.projectid = tdw.projectid 
+GROUP BY p.projectid, p.name, tdw.calendardate
+```
+
+### 已淘汰專案計畫時數：待執行工作
+
+```
+WITH task_daily_work as ( 
+    SELECT 
+        taskid, 
+        projectid, 
+        workrequired, 
+        percentcomplete, 
+        calendardate, 
+        (workrequired - (workrequired * percentcomplete)) as remainingMinutes 
+    FROM tasks_daily_history 
+) 
+ 
+SELECT 
+    p.name, 
+    p.projectid, 
+    sum(tdw.workrequired) as projectTotalWork, 
+    sum(tdw.remainingMinutes) as projectRemainingWork, 
+    tdw.calendardate 
+FROM projects_current p 
+    JOIN task_daily_work tdw ON p.projectid = tdw.projectid 
+GROUP BY p.projectid, p.name, tdw.calendardate
+```
+
+## 已淘汰專案計畫期間 
+
+```
+WITH task_daily_work as ( 
+    SELECT 
+        taskid, 
+        projectid, 
+        planneddurationminutes, 
+        percentcomplete, 
+        calendardate, 
+        (planneddurationminutes - (planneddurationminutes * percentcomplete)) as remainingDurationMinutes 
+    FROM tasks_daily_history 
+) 
+ 
+SELECT 
+    p.name, 
+    p.projectid, 
+    sum(tdw.planneddurationminutes) as projectTotalWork, 
+    sum(tdw.remainingDurationMinutes) as projectRemainingWork, 
+    tdw.calendardate 
+FROM projects_current p 
+    JOIN task_daily_work tdw ON p.projectid = tdw.projectid 
+GROUP BY p.projectid, p.name, tdw.calendardate
+```
+
+### 已淘汰專案計畫期間：待執行工作
+
+```
+WITH task_daily_work as ( 
+    SELECT 
+        taskid, 
+        projectid, 
+        planneddurationminutes, 
+        percentcomplete, 
+        calendardate, 
+        (planneddurationminutes - (planneddurationminutes * percentcomplete)) as remainingDurationMinutes 
+    FROM tasks_daily_history 
+) 
+ 
+SELECT 
+    p.name, 
+    p.projectid, 
+    sum(tdw.planneddurationminutes) as projectTotalWork, 
+    sum(tdw.remainingDurationMinutes) as projectRemainingWork, 
+    tdw.calendardate 
+FROM projects_current p 
+    JOIN task_daily_work tdw ON p.projectid = tdw.projectid 
+GROUP BY p.projectid, p.name, tdw.calendardate
+```

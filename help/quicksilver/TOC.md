@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 1e372089de40c49cd99c0b0d95a614f6e6c4a997
+source-git-commit: 321a29a4792bf8a40c04e46e8b29bf44e092678f
 workflow-type: tm+mt
-source-wordcount: '13061'
+source-wordcount: '13063'
 ht-degree: 2%
 
 ---
@@ -1702,13 +1702,13 @@ ht-degree: 2%
       * [Workfront Data Connect資料字典](reports-and-dashboards/data-lake/data-dictionary.md)
       * [Workfront Data Connect查詢範例](reports-and-dashboards/data-lake/basic-query-examples.md)
       * [檢視Workfront Data Connect使用度量](reports-and-dashboards/data-lake/view-usage-metrics.md)
-      * [增強的Analytics查詢]{#enhanced-analytics-queries}
+      * 增強的Analytics查詢{#enhanced-analytics-queries}
          * [增強的Analytics查詢](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/enhanced-analytics-queries.md)
          * [KPI查詢](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/kpi-queries.md)
          * [小眾測試版計畫查詢](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/flight-plan-queries.md)
          * [專案活動查詢](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-activity-queries.md)
          * [專案樹狀圖查詢](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md)
-         * [人員查詢](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/people-queries.md)
+         * [依團隊查詢的活動](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/team-queries.md)
 * 管理資源 {#manage-resources}
    * [管理資源](resource-mgmt/manage-resources.md)
    * 資源管理 {#resource-management}
