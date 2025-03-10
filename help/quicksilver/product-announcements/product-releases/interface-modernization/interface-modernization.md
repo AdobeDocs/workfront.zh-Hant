@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 3695c5bb566434d70907bfecf775ccd12b9208f4
+source-git-commit: b4747df73cedfb512fb54f912a5370cbb3a4c6a7
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1589'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 我們以與Workfront其他區域一致的更現代設計更新了設定>群組>核准中的專案、任務和問題核准清單。
 
-若要檢視此變更，請前往「設定>群組>核准」。
+若要檢視這項變更，請前往「設定>群組>選擇群組>核准」。
 
 此更新包含區域的視覺化變更。 功能未變更。
 
