@@ -7,15 +7,13 @@ description: 增強的Analytics查詢
 author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
-source-git-commit: 1e372089de40c49cd99c0b0d95a614f6e6c4a997
+exl-id: 584a4195-150c-42a6-88be-7a0509545859
+source-git-commit: 905aaaa5d300bc71058dd6ee2d568c8fc1229570
 workflow-type: tm+mt
 source-wordcount: '11'
 ht-degree: 0%
 
 ---
-
 
 # 增強的Analytics查詢
 
