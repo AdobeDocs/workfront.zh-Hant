@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: f90a1066202e2c949ab5bfebf85897060f1c29d2
+source-git-commit: 69389422fc33839c3f557c3866f0d88b4a8ea837
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
@@ -68,3 +68,5 @@ ht-degree: 0%
 
 * 「系統範圍可見」選項現在會顯示「系統中的每個人都可以檢視」。 此選項仍會像之前一樣運作。
 * 有一個新圖示可存取進階共用設定。
+
+如需在何處尋找「共用」對話方塊的詳細資訊，請參閱[授與及要求物件的許可權](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)
