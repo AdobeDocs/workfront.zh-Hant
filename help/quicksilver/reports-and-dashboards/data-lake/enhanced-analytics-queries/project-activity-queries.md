@@ -7,10 +7,8 @@ description: 增強的Analytics查詢
 author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
 exl-id: b7155160-4537-4919-bebf-72056b181bb6
-source-git-commit: bd39c5794c55e27a876da185e67bf8c654a003b2
+source-git-commit: da5c7197b3826855bae5dd3d3bf2ba9d07d7f188
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 0%
@@ -151,7 +149,7 @@ WITH task_status_changes as (  
 SELECT 
     tds.projectid, 
     tsc.lastupdatedbyid, 
-    count(tcs.status), 
+    count(tsc.status), 
     ads.calendardate 
 FROM assignments_daily_history ads 
     INNER JOIN tasks_daily_history tds ON ads.taskid = tds.taskid AND tds.calendardate = ads.calendardate 

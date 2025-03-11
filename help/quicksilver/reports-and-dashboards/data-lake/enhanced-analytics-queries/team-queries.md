@@ -7,10 +7,8 @@ description: 增強的Analytics查詢
 author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
 exl-id: 6f07e52b-b813-4b3a-9333-0c9300e051ca
-source-git-commit: bd39c5794c55e27a876da185e67bf8c654a003b2
+source-git-commit: da5c7197b3826855bae5dd3d3bf2ba9d07d7f188
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 0%
@@ -94,7 +92,6 @@ GROUP BY uc.hometeamid, uc.userid, TO_DATE(ul.lastlogindate)
 ## 團隊使用者的登入事件
 
 ```
-Teams' users' login events 
 WITH userlogins as ( 
     SELECT 
         userid, 

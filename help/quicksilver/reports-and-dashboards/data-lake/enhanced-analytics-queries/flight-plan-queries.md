@@ -7,10 +7,8 @@ description: 增強的Analytics查詢
 author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
 exl-id: afa58d44-fd5c-48ee-aeb8-58888aaacb28
-source-git-commit: bd39c5794c55e27a876da185e67bf8c654a003b2
+source-git-commit: da5c7197b3826855bae5dd3d3bf2ba9d07d7f188
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 1%
