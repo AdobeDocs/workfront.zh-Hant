@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '510'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 1%
 <!--should this move to the Access folder when we have sharing for ALL the objects???-->
 
 # 共用記錄
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -28,13 +32,28 @@ ht-degree: 1%
 
 * 在記錄型別的表格檢視中檢視記錄時，複製指向記錄頁面的連結。
 
-* 您可以透過共用工作區來與其他使用者共用工作區中的所有記錄。 如需詳細資訊，請參閱[共用工作區](/help/quicksilver/planning/access/share-workspaces.md)。
+* 您可以共用工作區<!--<span class="preview">and record type</span>--> ，以與其他使用者共用工作區中的所有記錄。 如需詳細資訊，請參閱[共用工作區](/help/quicksilver/planning/access/share-workspaces.md)。
+
+<!-- replace the last sentence above with this: 
+
+For more information see the following articles:
+
+* [Share a workspace](/help/quicksilver/planning/access/share-workspaces.md)
+
+
+<div class="preview">
+
+* [Share a record type](/help/quicksilver/planning/access/share-record-types.md)
+
+</div>
+
+-->
 
 本文說明如何從記錄型別的表格檢視複製記錄頁面的連結。
 
 ## 存取需求
 
-+++ 展開以檢視Workfront Planning的存取需求。
++++ 展開以檢視存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -88,8 +107,8 @@ ht-degree: 1%
   </tr> 
 <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
-   <td>  <p>使用連結檢視或更高的工作區許可權以共用記錄 </p>
-   <p>管理工作區的許可權，以共用記錄所屬的工作區的記錄 </p>
+   <td>  <p>使用連結檢視或更高的工作區許可權以共用<!--<span class="preview">and record type</span>-->記錄 </p>
+   <p>管理工作區<!--<span class="preview">and record type</span>-->的許可權以共用工作區中的記錄 </p>
    <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p>  </td> 
   </tr> 
 <tr> 

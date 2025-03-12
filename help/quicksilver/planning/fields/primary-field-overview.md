@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: fe3127ab-3f59-46a0-a747-9e9e1582265b
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 1%
@@ -15,6 +15,10 @@ ht-degree: 1%
 
 
 # 主要欄位概述
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -49,4 +53,4 @@ ht-degree: 1%
 * 變更表格檢視中的主要欄位會影響其他所有選擇檢視的使用者的檢視。
 * 變更表格檢視中的主要欄位會影響記錄型別的所有表格檢視。
 * 主要欄位中列出的值一律會以超連結方式連結至記錄的頁面。
-* 如果您擁有工作區的Contribute或更高的許可權，則可編輯主要欄位（公式欄位除外）的值。 公式是自動更新的計算。
+* 如果您對工作區<!--<span class="preview">and record type</span>-->有Contribute或更高的許可權，您可以編輯主要欄位（公式欄位除外）的值。 公式是自動更新的計算。

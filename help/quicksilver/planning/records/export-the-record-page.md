@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
-source-git-commit: 5db940b197364e30ef6e1ea3e3c94ae3bda5b20c
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '475'
 ht-degree: 1%
 
 ---
@@ -17,16 +17,14 @@ ht-degree: 1%
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
 
 
 若要與可能沒有Workfront帳戶的其他人更有效率地共同作業，您可以將記錄的詳細資料匯出至檔案並與他們共用。
 
 ## 存取需求
 
-+++ 展開以檢視Workfront Planning的存取需求。
++++ 展開以檢視存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -62,8 +60,8 @@ ht-degree: 1%
  <tr> 
    <td role="rowheader"><p>Adobe Workfront平台</p></td> 
    <td> 
-<p>貴組織的Workfront例項必須加入Adobe統一體驗，才能存取Workfront規劃的所有功能。</p> 
-<p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront的Adobe統一體驗</a>。 </p> 
+<p>貴組織的Workfront例項必須上線至Adobe Unified Experience，才能存取Workfront Planning的所有功能。</p> 
+<p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">適用於Workfront的Adobe Unified Experience</a>。 </p> 
    </td> 
    </tr> 
   </tr> 
@@ -80,7 +78,7 @@ ht-degree: 1%
   </tr> 
 <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
-   <td>   <p>檢視或更高的工作區許可權</a> </p>  
+   <td>   <p>檢視工作區<!--<span class="preview">and record type</span>-->或更高的許可權</a> </p>  
    <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p> </td> 
   </tr> 
 <tr> 
@@ -137,7 +135,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >    不會顯示在頁面上，且只有在按一下記錄詳細資訊區域中的「顯示更多」後才會顯示的其他資訊，不會顯示在匯出的PDF檔案中。 匯出的檔案中只會顯示頁面上顯示的資訊。
+   >    不會顯示在頁面上，且只會在按一下記錄詳細資訊區域中的顯示更多後顯示的其他資訊，不會顯示在匯出的PDF檔案中。 匯出的檔案中只會顯示頁面上顯示的資訊。
 
 
 1. （選擇性）移至下載的檔案，開啟檔案並加以編輯（如果是Word檔案），或與其他人共用。

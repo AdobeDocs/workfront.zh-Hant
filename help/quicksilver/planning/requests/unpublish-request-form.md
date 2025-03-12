@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 1%
@@ -67,8 +67,8 @@ ht-degree: 1%
 <tr>
    <td role="rowheader"><p>Adobe Workfront平台</p></td>
    <td>
-<p>貴組織的Workfront例項必須加入Adobe統一體驗，才能存取Workfront規劃的所有功能。</p>
-<p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront的Adobe統一體驗</a>。 </p>
+<p>貴組織的Workfront例項必須上線至Adobe Unified Experience，才能存取Workfront Planning的所有功能。</p>
+<p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">適用於Workfront的Adobe Unified Experience</a>。 </p>
    </td>
 
 </tr>
@@ -89,7 +89,7 @@ ht-degree: 1%
    <td role="rowheader"><p>物件許可權</p></td>
    <td>
    <ul>
-   <li><p>管理工作區的許可權</p></li>
+   <li><p>管理工作區<!--<span class="preview">and record type</span>-->的許可權 </p></li>
     <li><p>系統管理員可以管理他們未建立的工作區。 </p></li>
     </ul>
    <p>如需有關共用Workfront Planning物件許可權的資訊，請參閱  
@@ -149,7 +149,7 @@ ht-degree: 1%
 
    畫面底部會顯示確認訊息，通知您表單已取消發佈。
 
-   **取消發佈**&#x200B;按鈕變更為&#x200B;**Publish**。
+   **取消發佈**&#x200B;按鈕變更為&#x200B;**發佈**。
 
 1. 按一下「**儲存**」。
 

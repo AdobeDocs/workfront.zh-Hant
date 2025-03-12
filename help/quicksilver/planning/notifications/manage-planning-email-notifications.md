@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 ## 存取需求
 
-+++ 展開以檢視Workfront Planning的存取需求。
++++ 展開以檢視存取需求。
 
 <table style="table-layout:auto"> 
 <col> 
@@ -70,8 +70,8 @@ ht-degree: 0%
    <td role="rowheader"><p>Adobe Workfront平台</p></td> 
    <td> 
 <p>貴組織的Workfront執行個體必須上線至Adobe統一體驗。</p> 
-<p>只有當您的組織加入Adobe統一體驗時，您組織中的使用者才會從Workfront Planning接收通知。 </p>
-<p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront的Adobe統一體驗</a>。 </p> 
+<p>只有當您的組織加入Adobe Unified Experience時，您組織中的使用者才會收到來自Workfront Planning的通知。 </p>
+<p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">適用於Workfront的Adobe Unified Experience</a>。 </p> 
    </td> 
    </tr> 
   </tr> 
@@ -191,7 +191,7 @@ OLD:
 ## 管理有關提交、核准或拒絕Workfront Planning請求的電子郵件通知
 
 1. （選用）前往Workfront傳送給您的電子郵件
-在您提交請求之後，或您提交的請求已核准或拒絕之後。 電子郵件的寄件者為AdobeWorkfort。
+在您提交請求之後，或您提交的請求已核准或拒絕之後。 電子郵件的寄件者為Adobe Workfront。
 
 1. （選擇性）按一下&#x200B;**開啟請求**。 這會在Workfront Planning中開啟請求。
 

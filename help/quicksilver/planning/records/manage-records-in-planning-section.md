@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '1800'
+source-wordcount: '1797'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 ## 存取需求
 
-+++ 展開以檢視Workfront Planning的存取需求。
++++ 展開以檢視存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -92,7 +92,11 @@ ht-degree: 1%
    <td role="rowheader"><p>物件許可權</p></td>
    <td>
    <p>在Workfront中，檢視專案、投資組合或方案的或更高許可權</a> </p> 
-   <p>在Workfront Planning中，檢視工作區許可權以檢視任何連線的記錄，或檢視工作區的Contribute或更高許可權以連線或中斷記錄連線</a> </p>  
+   <p>在Workfront規劃中：
+   <ul><li>
+   檢視工作區<!--<span class="preview">and record type</span>-->的許可權，以檢視任何連線的記錄 </li>
+   或
+   <li> 貢獻或更高的許可權給工作區<!--<span class="preview">and record type</span>-->，以連線或中斷連線記錄</a></li></ul> </p>  
    <p>系統管理員擁有所有Workfront Planning工作區的許可權，包括他們未建立的工作區</p> 
   </td>
   </tr>

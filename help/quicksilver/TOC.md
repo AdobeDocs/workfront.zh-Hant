@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 321a29a4792bf8a40c04e46e8b29bf44e092678f
+source-git-commit: e4c037b3c5d77094db51c159dcd045aa34fcbe61
 workflow-type: tm+mt
-source-wordcount: '13063'
+source-wordcount: '13066'
 ht-degree: 2%
 
 ---
@@ -2049,6 +2049,7 @@ ht-degree: 2%
       * [在Adobe Workfront Planning中共用許可權的概觀](planning/access/sharing-permissions-overview.md)
       * [使用Adobe Workfront Planning時的授權型別概觀](planning/access/license-type-overview.md)
       * [共用工作區](planning/access/share-workspaces.md)
+      * [共用記錄型別](planning/access/share-record-types.md)
       * [共用檢視](planning/access/share-views.md)
       * [要求檢視或工作區的許可權](planning/access/request-permissions.md)
    * Adobe Workfront Planning記錄{#adobe-workfront-planning-records}

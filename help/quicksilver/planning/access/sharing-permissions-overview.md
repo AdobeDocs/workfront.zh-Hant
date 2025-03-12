@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '922'
 ht-degree: 6%
 
 ---
@@ -18,17 +18,17 @@ ht-degree: 6%
 
 # 在Adobe Workfront Planning中共用許可權的概觀
 
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
+
+
 {{planning-important-intro}}
 
 您可以共用或移除Adobe Workfront Planning工作區或檢視的許可權。
 
 本文說明Workfront Planning物件的許可權層級。
-
-如需有關如何共用工作區或檢視的資訊，請參閱下列文章：
-
-* [共用工作區](/help/quicksilver/planning/access/share-workspaces.md)
-
-* [共用檢視](/help/quicksilver/planning/access/share-views.md)
 
 ## 可在Adobe Workfront Planning中共用的物件
 
@@ -39,6 +39,22 @@ ht-degree: 6%
    * 您可以和組織內部人員共用工作區。
    * 當您共用工作區時，也會共用與工作區相關聯的所有記錄型別、記錄和欄位。
    * 當您共用工作區時，檢視不會共用。 檢視會個別共用。
+
+  如需詳細資訊，請參閱[共用工作區](/help/quicksilver/planning/access/share-workspaces.md)
+
+<!--
+<div class="preview">
+
+* Record types
+
+    * You can share record types with people inside your organization.
+    * The level of permissions granted for the workspace displays as Inherited permissions for the record type. 
+    * You cannot share a workspace with a higher permission level than the user has on the workspace. 
+
+    For more information, see [Share record types](/help/quicksilver/planning/access/share-record-types.md). 
+
+</div>
+-->
 
 * 檢視
 
@@ -53,6 +69,14 @@ ht-degree: 6%
 
 * 使用者
 * 群組
+
+<div class="preview">
+
+* 團隊
+* 公司
+* 職務角色
+
+</div>
 
 ## 在Adobe Workfront Planning中共用物件的相關考量事項
 
@@ -78,7 +102,7 @@ ht-degree: 6%
 >
 >並非所有使用者都可擁有下述許可權層級。 使用者的個別授權會決定他們可以針對Workfront Planning物件接收的許可權層級。
 >
->只有Standard （或Plan）授權使用者可以擁有Contribute或工作區的「管理」許可權，以及檢視的「管理」許可權。
+>只有標準（或計畫）授權使用者才能擁有工作區的「貢獻」或「管理」許可權，以及檢視的「管理」許可權。
 > 
 >具有所有其他授權型別的使用者可以擁有對工作區和檢視的檢視許可權。
 >
@@ -98,24 +122,45 @@ ht-degree: 6%
 
 |        | 管理 | 參與 | 檢視 |
 |--------|--------|------------|-------|
-| 編輯 | ✓ (A) |            |       |
-| 共用 | ✓ (A) |            |       |
-| 刪除 | ✓ (A) |            |       |
-| 檢視 | ✓ (A) | ✓ (A) | ✓ (A) |
+| 編輯 | ✓ |            |       |
+| 共用 | ✓ |            |       |
+| 刪除 | ✓ |            |       |
+| 檢視 | ✓ | ✓ | ✓ |
 
 ### 記錄型別許可權
 
-當您授予工作區許可權時，會繼承記錄型別許可權。
+<!--In the Production environment,--> 當您授予工作區許可權時，會一律繼承記錄型別許可權。
 
 記錄型別的許可權層級如下：
 
 
 |        | 管理 | 參與 | 檢視 |
 |--------|--------|------------|-------|
-| 建立 | ✓ (A) |            |       |
-| 刪除 | ✓ (A) |            |       |
-| 編輯 | ✓ (A) |            |       |
-| 檢視 | ✓ (A) | ✓ (A) | ✓ (A) |
+| 建立 | ✓ |            |       |
+| 刪除 | ✓ |            |       |
+| 編輯 | ✓ |            |       |
+| 檢視 | ✓ | ✓ | ✓ |
+
+<!--
+
+<div class="preview">
+
+In the Preview environment, Record Type permissions are inherited when you grant permissions to the workspace. 
+
+You can remove inherited permissions from the record type, but you can never grant higher permissions for the record type than users have on the workspace. 
+
+The following scenarios exist: 
+
+|   Workspace permissions     | Automatic inherited permissions for a Record Type |Possible Record Type permissions when Inherited permissions are turned off (granted manually)| 
+|--------|--------|-------------|
+| Manage |   Manage    |   Manage, No permissions           | 
+| Contribute |     Contribute |  Contribute, View, No permissions        |
+| View   |  View     |      View, No permissions        |     
+
+
+</div>
+
+-->
 
 ### 記錄許可權
 
@@ -126,10 +171,10 @@ ht-degree: 6%
 
 |        | 管理 | 參與 | 檢視 |
 |--------|--------|------------|-------|
-| 建立 | ✓ (A) | ✓ (A) |       |
-| 刪除 | ✓ (A) | ✓ (A) |       |
-| 編輯 | ✓ (A) | ✓ (A) |       |
-| 檢視 | ✓ (A) | ✓ (A) | ✓ (A) |
+| 建立 | ✓ | ✓ |       |
+| 刪除 | ✓ | ✓ |       |
+| 編輯 | ✓ | ✓ |       |
+| 檢視 | ✓ | ✓ | ✓ |
 
 ### 欄位許可權
 
@@ -138,10 +183,10 @@ ht-degree: 6%
 
 |        | 管理 | 參與 | 檢視 |
 |--------|--------|------------|-------|
-| 建立 | ✓ (A) |            |       |
-| 刪除 | ✓ (A) |            |       |
-| 編輯 | ✓ (A) |            |       |
-| 檢視 | ✓ (A) | ✓ (A) | ✓ (A) |
+| 建立 | ✓ |            |       |
+| 刪除 | ✓ |            |       |
+| 編輯 | ✓ |            |       |
+| 檢視 | ✓ | ✓ | ✓ |
 
 
 ### 檢視許可權
@@ -163,16 +208,16 @@ ht-degree: 6%
 
 | 內部共用 | 管理（只有受邀者才能存取） | 檢視（只有受邀者才能存取） | 工作區中的所有人都可以檢視* |
 |--------|--------|-------|------------------------------|
-| 編輯 | ✓ (A) |       |                            |
-| 刪除 | ✓ (A) |       |                            |
-| 共用 | ✓ (A) |       |                           |
-| 檢視 | ✓ (A) | ✓ (A) | ✓ (A) |
-| 套用 | ✓ (A) | ✓ (A) | ✓ (A) |
+| 編輯 | ✓ |       |                            |
+| 刪除 | ✓ |       |                            |
+| 共用 | ✓ |       |                           |
+| 檢視 | ✓ | ✓ | ✓ |
+| 套用 | ✓ | ✓ | ✓ |
 
 | 公開共用 | 檢視 |
 |--------|-------|
-| 檢視 | ✓ (A) |
-| 套用 | ✓ (A) |
+| 檢視 | ✓ |
+| 套用 | ✓ |
 
 *使用者必須擁有工作區的檢視或更高許可權才能取得此檢視存取權。
 

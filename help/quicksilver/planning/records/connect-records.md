@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '3330'
+source-wordcount: '3327'
 ht-degree: 1%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 1%
 
 ## 存取需求
 
-+++ 展開以檢視Workfront Planning的存取需求。
++++ 展開以檢視存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -118,8 +118,8 @@ ht-degree: 1%
   </tr> 
 <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
-   <td>   <p>貢獻或更高的許可權給工作區，以連線記錄 </p>  
-   <p>檢視工作區或更高許可權，可檢視與其他應用程式之物件和欄位的所有連線，無論您對其他應用程式的存取權為何。 </p>
+   <td>   <p>貢獻或更高的許可權給工作區<!--<span class="preview">and record type</span>-->以連線記錄 </p>  
+   <p>檢視工作區<!--<span class="preview">and record type</span>-->的許可權或更高的許可權，以檢視與其他應用程式之物件和欄位的所有連線，無論您在其他應用程式中的存取權為何。 </p>
    <p>檢視或更高許可權給您要從Workfront或Experience Manager Assets連結的物件。 </p>
    <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區。</p> </td> 
   </tr> 

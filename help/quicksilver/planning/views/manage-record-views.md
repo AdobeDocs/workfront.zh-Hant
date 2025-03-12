@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1422'
 ht-degree: 1%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 1%
 
 ## 存取需求
 
-+++ 展開以檢視Workfront Planning的存取需求。
++++ 展開以檢視存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -84,8 +84,8 @@ ht-degree: 1%
  <tr> 
    <td role="rowheader"><p>Adobe Workfront平台</p></td> 
    <td> 
-<p>貴組織的Workfront例項必須加入Adobe統一體驗，才能存取Workfront規劃的所有功能。</p> 
-<p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront的Adobe統一體驗</a>。 </p> 
+<p>貴組織的Workfront例項必須上線至Adobe Unified Experience，才能存取Workfront Planning的所有功能。</p> 
+<p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">適用於Workfront的Adobe Unified Experience</a>。 </p> 
    </td> 
    </tr> 
   </tr> 
@@ -206,26 +206,26 @@ ht-degree: 1%
 
 | 功能 | 表格檢視 | 時間軸檢視 | 行事曆檢視 |
 |-----------------------------------------------------------------------|------------|---------------|--------------|
-| 在清單或表格中顯示記錄 | ✓ (A) |              | |
-| 預設將所有欄位顯示為表格中的欄 | ✓ (A) |              |    |
-| 隱藏或顯示欄位 | ✓ (A) |               |    |
-| 編輯每個記錄的欄位值 | ✓ (A) |               |             |
-| 在檢視中將記錄新增為新列 | ✓ (A) |               |        |
-| 在檢視中新增欄位作為新欄 | ✓ (A) |               |         |
-| 從外部清單複製列並將它們貼到表格中 | ✓ (A) |               |          |
-| 在時間軸中顯示記錄 |            | ✓ (A) |             |
-| 篩選記錄 | ✓ (A) | ✓ (A) | ✓ (A) |
-| 顯示行事曆上的記錄 |           |              | ✓ (A) |
-| 群組記錄 | ✓ (A) | ✓ (A) |
-| 排序記錄 | ✓ (A) |              |
-| 色彩代碼記錄 |           | ✓ (A) | ✓ (A) |
-| Color-code分組 |           | ✓ (A) |
-| 搜尋特定記錄 | ✓ (A) | ✓ (A) |
-| 與其他人共用檢視 | ✓ (A) | ✓ (A) | ✓ (A) |
-| 從檢視開啟記錄頁面 | ✓ (A) | ✓ (A) |    |
-| 依年份和季度顯示記錄 |           | ✓ (A) |    |
-| 依月份顯示記錄 |           | ✓ (A) | ✓ (A) |
-| 按周顯示記錄 |           |               | ✓ (A) |
+| 在清單或表格中顯示記錄 | ✓ |              | |
+| 預設將所有欄位顯示為表格中的欄 | ✓ |              |    |
+| 隱藏或顯示欄位 | ✓ |               |    |
+| 編輯每個記錄的欄位值 | ✓ |               |             |
+| 在檢視中將記錄新增為新列 | ✓ |               |        |
+| 在檢視中新增欄位作為新欄 | ✓ |               |         |
+| 從外部清單複製列並將它們貼到表格中 | ✓ |               |          |
+| 在時間軸中顯示記錄 |            | ✓ |             |
+| 篩選記錄 | ✓ | ✓ | ✓ |
+| 顯示行事曆上的記錄 |           |              | ✓ |
+| 群組記錄 | ✓ | ✓ |
+| 排序記錄 | ✓ |              |
+| 色彩代碼記錄 |           | ✓ | ✓ |
+| Color-code分組 |           | ✓ |
+| 搜尋特定記錄 | ✓ | ✓ |
+| 與其他人共用檢視 | ✓ | ✓ | ✓ |
+| 從檢視開啟記錄頁面 | ✓ | ✓ |    |
+| 依年份和季度顯示記錄 |           | ✓ |    |
+| 依月份顯示記錄 |           | ✓ | ✓ |
+| 按周顯示記錄 |           |               | ✓ |
 
 
 ## 建立或編輯檢視 {#create-or-edit-views}

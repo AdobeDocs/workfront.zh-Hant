@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
 source-wordcount: '707'
 ht-degree: 1%
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 <!--take Preview and Production references at Production time-->
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
@@ -72,8 +72,8 @@ ht-degree: 1%
 <tr>
    <td role="rowheader"><p>Adobe Workfront平台</p></td>
    <td>
-<p>貴組織的Workfront例項必須加入Adobe統一體驗，才能存取Workfront規劃的所有功能。</p>
-<p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront的Adobe統一體驗</a>。 </p>
+<p>貴組織的Workfront例項必須上線至Adobe Unified Experience，才能存取Workfront Planning的所有功能。</p>
+<p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">適用於Workfront的Adobe Unified Experience</a>。 </p>
    </td>
   </tr>
   </tr>
@@ -93,7 +93,7 @@ ht-degree: 1%
    <td role="rowheader"><p>物件許可權</p></td>
    <td>
    <ul>
-   <li><p>管理工作區的許可權</p></li>
+   <li><p>管理工作區的許可權 <!--<span class="preview">and record type</span>--></p></li>
     <li><p>系統管理員可以管理他們未建立的工作區。 </p></li>
     </ul>
    <p>如需有關共用Workfront Planning物件許可權的資訊，請參閱  
@@ -148,7 +148,7 @@ ht-degree: 1%
    >* 在核准或拒絕請求之前，所有核准者都必須做出決定。
 
 
-1. （選擇性）如果您之前從未共用過請求表單，請按一下&#x200B;**Publish**
+1. （選擇性）如果您之前從未共用過請求表單，請按一下&#x200B;**發佈**
 
    或
 
@@ -157,7 +157,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >   您組織的Workfront執行個體必須加入Adobe統一體驗，使用者才能接收電子郵件和應用程式內通知。
+   >   您組織的Workfront執行個體必須上線至Adobe統一體驗，使用者才能接收電子郵件和應用程式內通知。
 
 
    如需核准要求的詳細資訊，請參閱[核准要求](/help/quicksilver/planning/requests/approve-request.md)。

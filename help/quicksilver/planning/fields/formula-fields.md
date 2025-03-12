@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '648'
 ht-degree: 7%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 7%
 
 ## 存取需求
 
-+++ 展開以檢視Workfront Planning的存取需求。
++++ 展開以檢視存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -85,7 +85,7 @@ ht-degree: 7%
   </tr> 
 <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
-   <td>   <p>管理工作區</a>的許可權 </p>  
+   <td>   <p>管理工作區<!--<span class="preview">and record type</span>--> </a>的許可權 </p>  
    <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p> </td> 
   </tr> 
 <tr> 
@@ -186,9 +186,9 @@ Adobe Workfront Planning公式欄位支援Workfront計算欄位的大部分運�
 >Workfront Planning公式欄位不支援下列Workfront運算式：
 >
 >* SORTASCARRAY
->* 降序排序陣列
+>* SORTDESCARRAY
 >* ADDHOUR
->* 切換
+>* SWITCH
 >* 格式
 
 

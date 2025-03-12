@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 2%
@@ -87,7 +87,7 @@ ht-degree: 2%
 
 * 只有當您連線記錄型別與Workfront物件型別，並從Workfront物件新增連結或查詢欄位時，才能從Workfront Planning存取Workfront欄位。 如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
 
-* 如果您擁有欄位所屬工作區的管理許可權，您可以檢視和更新您或任何其他使用者建立的欄位設定。
+* 如果您擁有該欄位所屬之工作區<!--<span class="preview">and record type</span>-->的管理許可權，您可以檢視及更新您或任何其他使用者建立之欄位的設定。
 
 * 一個記錄型別最多可以有500個欄位。
 

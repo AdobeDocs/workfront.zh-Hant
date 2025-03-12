@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 0%
@@ -41,8 +41,8 @@ ht-degree: 0%
 
   查詢欄位的值會在原始記錄或物件上更新後，自動填入您正在連結的Workfront Planning記錄。
 
-* 有權存取Workfront Planning和「檢視」或擁有工作區較高許可權的所有人，都可以看見您在記錄之間或記錄與其他應用程式物件之間建立的連線。 無論連線至應用程式的許可權為何，使用者都可以檢視連線的記錄和物件。
-* 如果您對連線記錄所在的工作區具有管理許可權，則可以檢視及編輯其他人的連線。
+* 有權存取Workfront Planning和「檢視」或擁有工作區<!--<span class="preview">and record type</span>-->較高許可權的所有人，都可以看見您在記錄之間或記錄與其他應用程式物件之間的連線。 無論連線至應用程式的許可權為何，使用者都可以檢視連線的記錄和物件。
+* 如果您擁有工作區<!--<span class="preview">and record type</span>-->的連線記錄所在的工作區管理許可權，則可以檢視及編輯其他人的連線。
 * 您可以將一個記錄連線到另一個應用程式的一或多個物件。視您在連線記錄型別時選取的連線型別而定。 如需詳細資訊，請參閱文章[連線記錄型別概觀](/help/quicksilver/planning/architecture/connect-record-types-overview.md)中的「連線型別」一節。
 
 ## 您可以連線記錄的區域
