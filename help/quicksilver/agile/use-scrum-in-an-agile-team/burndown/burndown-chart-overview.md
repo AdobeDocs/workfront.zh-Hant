@@ -7,9 +7,9 @@ description: 待執行工作圖表提供內文在反複專案或專案中進度�
 author: Lisa
 feature: Agile
 exl-id: 414e3315-35ed-4aa4-a2d8-be42ec585f29
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '970'
 ht-degree: 0%
 
 ---
@@ -31,31 +31,31 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-dottedblue.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-dottedblue.png" alt="理想的待執行工作開始率"> </td> 
    <td> <p>理想的待執行工作速率（根據反複專案開始的時間）。</p> <p>如果反複專案的範圍從未變更（不會新增或移除時數或點），則不會顯示此行。</p> <p>此線條在休息日完成工作時顯示為平坦。 如需詳細資訊，請參閱<a title="使用敏捷待執行工作圖表" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">休假如何影響待執行工作圖表</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-solidblue.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-solidblue.png" alt="內文或工作的理想待執行工作率"> </td> 
    <td> <p>根據目前劇本或任務的理想待執行工作速率。</p> <p>當反複專案開始後，在反複專案中加入或移除時數或點時，目前的理想待執行專案速率（實心藍線）與原始的理想待執行專案速率（虛藍線）不同。</p> <p>此線條在休息日完成工作時顯示為平坦。</p> <p>如需詳細資訊，請參閱<a title="使用敏捷待執行工作圖表" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">休假如何影響待執行工作圖表</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-red.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-red.png" alt="實際待執行工作速率（紅色）"> </td> 
    <td> <p>當待執行工作速率小於理想值（每天剩餘的點數或小時數多於理想的待執行工作計算）時，實際待執行工作速率會以紅色顯示。</p> <p>下列公式用於計算實際待執行工作速率：</p> <p>[SUM（進行中工作的點或小時值*完成百分比） +完成工作的點或小時值]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-green.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-green.png" alt="實際燃盡率（綠色）"> </td> 
    <td> <p>當待執行工作速率等於或高於理想值（相等於或低於理想待執行工作計算的每日剩餘點數）時，實際待執行工作速率會以綠色顯示。</p> <p>下列公式用於計算實際待執行工作速率：</p> <p>[SUM（進行中工作的點或小時值*完成百分比） +完成工作的點或小時值]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt="範圍變更"> </td> 
    <td> <p>範圍變更（在反複專案中新增或移除時數或點）。</p> <p>範圍變更一律在白天中間顯示為垂直線。 此外，每當發生範圍變更時，中間都會顯示藍色圓點。</p> <p>待執行工作圖表的垂直軸顯示本文點或小時。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt="日期範圍變更"> </td> 
    <td> <p>日期範圍變更（反複專案持續時間會增加或減少）。</p> <p>任何反複專案持續時間變更的日子中間都會顯示一個藍色點。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt="為燒毀的工作製作綠點"> </td> 
    <td> <p>每次工作燒毀時，實際燒毀率都會顯示綠色或紅點。 （當當天的實際待執行工作速率是紅色時，點代表紅色；噹噹噹天的實際待執行工作速率是綠色時，點代表綠色。）</p> <p>發生下列任一情況時，工作就會被燒毀：</p> 
     <ul> 
      <li> [！UICONTROL完成百分比]會增加到劇本上。<br>[！UICONTROL完成百分比]在下列情況下會增加： 

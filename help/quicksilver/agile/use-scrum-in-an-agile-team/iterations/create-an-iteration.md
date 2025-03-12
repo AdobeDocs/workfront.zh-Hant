@@ -6,9 +6,9 @@ description: 反複專案是Scrum敏捷團隊規劃工作容量的關鍵元件�
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: 6ae8e48361114e897d0be83ae81f8344074a5ec2
+source-git-commit: 6fb0870b919baf49e17d48586b2a9661e5cb4b94
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1119'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,14 @@ ht-degree: 0%
 
 1. （選擇性）按一下&#x200B;**[!UICONTROL 切換群組]**&#x200B;圖示![切換群組圖示](assets/switch-team-icon.png)，然後從下拉式功能表中選取新的Scrum群組或在搜尋列中搜尋群組。
 
-1. 在左側面板上選取&#x200B;**[!UICONTROL 待處理專案]**。 然後，按一下&#x200B;**[!UICONTROL 計畫反複專案]**。
+1. 在左側面板上選取&#x200B;**[!UICONTROL 待處理專案]**。
+
+1. 在&#x200B;**內文**&#x200B;或&#x200B;**問題**&#x200B;索引標籤上，選取至少一個工作專案，然後按一下&#x200B;**[!UICONTROL 計畫反複專案]**。
+
+>[!NOTE]
+>
+> 在「待處理專案」標籤上規劃反複專案時，您無法在「內文」或「問題」標籤之間切換。 反複專案建立後，您就可以新增現有內文或問題。 如需詳細資訊，請參閱[將內文從待處理專案移至反複專案或展示板](/help/quicksilver/agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or-board)。
+
 
 1. 指定下列資訊：
 

@@ -7,9 +7,9 @@ author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 sexl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
 exl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: e02a593ddca923067eb61f838a7ade17e7fc3652
 workflow-type: tm+mt
-source-wordcount: '1914'
+source-wordcount: '1917'
 ht-degree: 0%
 
 ---
@@ -104,7 +104,9 @@ ht-degree: 0%
 
 您可以將全域核准流程與工作專案（專案、任務、問題、範本、範本任務）建立關聯。
 
-全域核准程式必須適用於與工作專案相關聯的群組或系統中的所有群組。
+只要與您所屬的群組或系統中的所有群組共用，您就可以存取任何全域核准流程。
+
+<!--The global approval process must be available to the group associated with the work item or to all groups in the system.-->
 
 >[!NOTE]
 >

@@ -6,9 +6,9 @@ description: 在Kanban板上檢視內文拼貼時，可以直接從內文拼貼�
 author: Lisa
 feature: Agile
 exl-id: 88d156ea-0913-425e-b3eb-6ae81d2d2336
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -33,38 +33,38 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>內文名稱，內有直接指向任務或問題的連結</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>含有直接連結至專案的專案名稱<br>當在反複專案上使用敏捷檢視時，此連結只會顯示在內文上（父系任務，而非子任務）；當在專案上使用敏捷檢視時，不會顯示此連結。</p> </td> 
-   <td>✓ (A) </td> 
+   <td>✓ </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>內文的完成點數或小時數，以及指派給內文的點數或小時數<br>這些數字用於計算並顯示每個內文的[！UICONTROL完成百分比]。</p> </td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>每個內文和問題的[！UICONTROL完成百分比]。<br>反複專案的[！UICONTROL完成百分比]是根據每個內文的[！UICONTROL完成百分比]計算的。</p> <p>更新內文或問題的[！UICONTROL完成百分比]時，您可以選擇0到100之間的任何數字。</p> </td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>將劇本指派給誰</p> </td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>圖磚的顏色或類別</p> </td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>任何可能透過修改敏捷檢視而新增至敏捷檢視的其他欄位（包括自訂欄位），如[！UICONTROL Adobe Workfront]</a>中<a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">檢視總覽的「建立和自訂[！UICONTROL Agile]檢視」中所述。</p> </td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
  </tbody> 
 </table>
@@ -109,7 +109,7 @@ ht-degree: 0%
 1. 移至[!UICONTROL Scrum]敏捷故事板。
 1. 展開[!UICONTROL 劇本]拼貼以檢視與劇本相關的所有欄位。
 
-   ![](assets/agile-storycard-scrum-2021-350x333.png)
+   ![劇本卡](assets/agile-storycard-scrum-2021-350x333.png)
 
 1. （可選）若要編輯欄位，請按一下該欄位，然後進行任何變更。
 

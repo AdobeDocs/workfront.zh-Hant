@@ -6,7 +6,7 @@ description: 您可以檢視指定專案團隊的所有版序，也可以檢視�
 author: Lisa
 feature: Agile
 exl-id: 1ee14c40-8047-4885-96f0-cddfc2617028
-source-git-commit: 9a3ec953ca1c7989be292f1747a052ed5cc7c74b
+source-git-commit: 556a2b89f2e380d3a0725f0d53251d3e1e3c7ca7
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
@@ -64,4 +64,4 @@ ht-degree: 0%
 1. （選擇性）按一下您要檢視的特定版序名稱。
 反複專案內文隨即顯示。
 
-   反複專案中的![[!UICONTROL 個劇本]](assets/iteration-stories-list-NWE.png)
+   反複專案中的![[!UICONTROL 個劇本]](assets/iteration-stories-list.png)

@@ -6,9 +6,9 @@ description: 您可以調整或收合待執行工作圖表，以調整它在故�
 author: Lisa
 feature: Agile
 exl-id: ad7ea883-987a-4278-8d24-7c1dd4e542a3
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 1. 移至包含您要調整大小之待執行工作圖表的反複專案。
 1. 暫留在待執行工作圖表的底線上，然後將圖表拖曳至所需的大小。
-   ![](assets/burndown-resize.png)
+   ![調整待執行工作圖表的大小](assets/burndown-resize.png)
 
 ## 收合待執行工作圖表
 

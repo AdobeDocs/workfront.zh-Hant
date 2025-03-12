@@ -7,9 +7,9 @@ author: Lisa
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 246e3f71-6403-4381-866c-fa693fb9944d
-source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
+source-git-commit: 0289e2d0a3f75827b9c799b72fdc4e9ca1c59949
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '124'
 ht-degree: 0%
 
 ---
@@ -28,5 +28,6 @@ ht-degree: 0%
 * [管理[!UICONTROL 首頁]區域的工作和團隊請求](../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)
 * [更新或編輯[!UICONTROL 首頁]區域中的工作專案](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)
 * [從[!UICONTROL 首頁]區域建立工作專案和專案](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
+* [建立和管理個人的待辦事項](/help/quicksilver/workfront-basics/using-home/using-the-home-area/manage-to-do-in-home.md)
 * [從[!UICONTROL 首頁]區域登入工作專案的時間](../../../workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
 * [在[!UICONTROL 首頁]區域將專案標示為[!UICONTROL 完成]](../../../workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)

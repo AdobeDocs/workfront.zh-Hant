@@ -7,9 +7,9 @@ description: 本文所述的完成資訊會顯示在待執行工作圖表上方�
 author: Lisa
 feature: Agile
 exl-id: cc6bebdb-f2aa-4e85-9f9f-15e7753d84cb
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '649'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 反複專案的完成百分比：
 
-![](assets/burndown-percentcomplete-350x47.png)
+![反複專案詳細資料面板](assets/burndown-percentcomplete-350x47.png)
 
 此資訊會指出目前於待執行工作表中選取之日的反複專案完成狀態。 依預設，會根據當天的日期顯示完成狀態。
 

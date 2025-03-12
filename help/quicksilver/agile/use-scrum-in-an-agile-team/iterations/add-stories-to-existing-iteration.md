@@ -6,9 +6,9 @@ description: 您可以透過多種方式將劇本新增至反複專案。
 author: Lisa
 feature: Agile
 exl-id: b016fda1-789a-42b3-9f97-2c61c4ec0917
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ ht-degree: 0%
 或
 前往專案、報告或儀表板，其中包含您要新增至疊代的任務或問題。 然後，選取一或多個任務或問題。
 
-1. 按一下&#x200B;**[!UICONTROL 更多]** ![](assets/more-icon.png) > **[!UICONTROL 新增到反複專案]**。
+1. 按一下&#x200B;**[!UICONTROL 更多]** ![更多圖示](assets/more-icon.png) > **[!UICONTROL 新增到反複專案]**。
 您無法將任務或問題指派給非敏捷團隊。
 
 1. 在&#x200B;**[!UICONTROL 新增至]**&#x200B;方塊中，開始輸入反複專案的名稱，並在它出現在清單中時選取它。

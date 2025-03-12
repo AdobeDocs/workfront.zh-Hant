@@ -6,7 +6,7 @@ description: 您可以用各種方式在反複專案上建立敏捷劇本。 建
 author: Lisa
 feature: Agile
 exl-id: d16ee940-3551-44da-8fe6-093f4fcac070
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 9a363dc0c591985c7ae8edb4a511fd648b486f1c
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 0%
@@ -65,7 +65,7 @@ ht-degree: 0%
    1. 在左側面板中，選取&#x200B;**[!UICONTROL 反複專案]**&#x200B;以選擇特定反複專案，或選取&#x200B;**[!UICONTROL 目前反複專案]**。
    1. 按一下要建立內文的特定反複專案名稱。
 
-   ![新增劇本至反複專案](assets/iteration-add-story.png)
+   ![新增劇本至反複專案](assets/iteration-stories-list.png)
 
 1. 按一下&#x200B;**[!UICONTROL 新增劇本].**
 1. 指定下列資訊：

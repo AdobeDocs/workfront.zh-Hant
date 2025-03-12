@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 1a0902c7c6e1b7f647564e448daf74748d9cb3db
+source-git-commit: 3ea3acc79a0f2d9c61b4ca7fff68855a9a7b1de7
 workflow-type: tm+mt
-source-wordcount: '1634'
+source-wordcount: '1706'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 0%
 如需Adobe Workfront的所有其他變更，請參閱[產品版本](/help/quicksilver/product-announcements/product-releases/product-releases.md)。
 
 ## 管理和設定
+
++++展開以檢視管理和設定介面更新
 
 ### Announcement Center介面更新
 
@@ -140,7 +142,11 @@ ht-degree: 0%
 
 此更新包含區域的視覺化變更。 功能未變更。
 
++++
+
 ## 敏捷
+
++++展開以檢視Agile介面更新
 
 ### 更新團隊請求的介面
 
@@ -177,7 +183,8 @@ ht-degree: 0%
 此更新包含下列變更：
 
 * 「內文和問題」標籤以及「分解內文」對話方塊的視覺增強功能
-* 計畫反複專案工具的新對話方塊
+* 計畫反複專案工具的新對話方塊。 您必須選取劇本或問題才能顯示計畫反複專案按鈕。
+* 規劃反複專案時，您無法再在「內文和問題」標籤之間切換。 建立反複專案後，您就可以從待處理專案標籤新增內文或問題。
 
 ### 版序清單的介面更新
 
@@ -199,7 +206,11 @@ ht-degree: 0%
 
 若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。****
 
++++
+
 ## 文件
+
++++展開以檢視檔案介面更新
 
 ### 檔案核准區域的介面更新
 
@@ -217,7 +228,11 @@ ht-degree: 0%
 
 若要檢視這項變更，請前往「檔案」 > 「按一下「智慧型濾鏡」名稱旁的「更多」功能表」 > 「按一下「編輯」。
 
++++
+
 ## 報告和儀表板
+
++++展開以檢視報表和控制面板介面更新
 
 ### 已更新具有新樣式的團隊報告
 
@@ -271,3 +286,5 @@ ht-degree: 0%
 
 * 舊版篩選器
 * 群組
+
++++

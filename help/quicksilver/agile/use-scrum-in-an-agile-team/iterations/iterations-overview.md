@@ -6,9 +6,9 @@ description: 敏捷反複專案包含三個區域 — 完成狀態、待執行�
 author: Lisa
 feature: Agile
 exl-id: db32d3b9-f573-43e3-b4fb-49b75162057b
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '55'
+source-wordcount: '57'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 敏捷反複專案包含三個區域：完成狀態、待執行工作及劇本面板。
 
-![](assets/agile-iteration-with-callouts.png)
+![反複專案檢視](assets/agile-iteration-with-callouts.png)
 
 如需有關待執行工作圖表和完成狀態的資訊，請參閱[[!UICONTROL 待執行工作]](../../../agile/use-scrum-in-an-agile-team/burndown/burndown.md)區段。
 

@@ -6,9 +6,9 @@ description: 您可以從[!UICONTROL 首頁]區域建立工作專案和專案。
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: e02a593ddca923067eb61f838a7ade17e7fc3652
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '842'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,6 @@ ht-degree: 2%
 
 在家中，您可以
 
-* 為您自己建立個人待辦事項
 * 提交請求
 * 將任務和問題新增到特定專案
 * 從範本、空白專案建立專案，或匯入MS專案。

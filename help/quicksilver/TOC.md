@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: e4c037b3c5d77094db51c159dcd045aa34fcbe61
+source-git-commit: e02a593ddca923067eb61f838a7ade17e7fc3652
 workflow-type: tm+mt
-source-wordcount: '13066'
+source-wordcount: '13072'
 ht-degree: 2%
 
 ---
@@ -849,6 +849,7 @@ ht-degree: 2%
          * [管理首頁區域的工作和團隊請求](workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)
          * [更新或編輯首頁區域的工作專案](workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)
          * [從首頁區域建立工作專案和專案](workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
+         * [建立和管理個人的待辦事項](workfront-basics/using-home/using-the-home-area/manage-to-do-in-home.md)
          * [從首頁區域在工作專案上記錄時間](workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
          * [在首頁區域將專案標示為完成](workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)
          * [使用我的更新區域](workfront-basics/using-home/using-the-home-area/my-updates-area.md)

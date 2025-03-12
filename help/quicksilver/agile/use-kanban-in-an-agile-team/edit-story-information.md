@@ -6,9 +6,9 @@ description: 在Kanban板上檢視內文拼貼時，可以直接從內文拼貼�
 author: Lisa
 feature: Agile
 exl-id: a22a7b61-b331-4c98-9421-e7fccedcd096
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -33,38 +33,38 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>內文名稱，內有直接指向任務或問題的連結</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>含有直接連結至專案的專案名稱</p> </td> 
-   <td>✓ (A) </td> 
+   <td>✓ </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>內文的完成點數或時數，以及指派給內文的點數或時數<br>這些數字用於計算並顯示每個內文的完成百分比。</p> </td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>每個內文和問題的[！UICONTROL完成百分比]。<br>[！UICONTROL反複運算的完成百分比]是根據每個內文的[！UICONTROL完成百分比]計算的。<br></p> <p>更新內文或問題的[！UICONTROL完成百分比]時，您可以選擇0到100之間的任何數字。</p> </td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>將劇本指派給誰</p> </td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>圖磚的顏色或類別</p> </td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>任何可能透過修改敏捷檢視新增到敏捷檢視的其他欄位（包括自訂欄位），如[!DNL Adobe Workfront]</a>中<a href="../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">檢視總覽的「建立和自訂敏捷檢視」中所述</p> </td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
  </tbody> 
 </table>
@@ -107,7 +107,7 @@ ht-degree: 0%
 1. 移至[!UICONTROL Kanban]面板。
 1. 展開內文拼貼以檢視與內文相關聯的所有欄位。
 
-   ![](assets/story-expanded-on-kanban-board-2021-350x405.png)
+   ![劇本卡](assets/story-expanded-on-kanban-board-2021-350x405.png)
 
 1. （可選）若要編輯欄位，請按一下該欄位，然後進行任何變更。
 您必須擁有任務或問題的[!UICONTROL 編輯]許可權，才能編輯劇本拼貼。

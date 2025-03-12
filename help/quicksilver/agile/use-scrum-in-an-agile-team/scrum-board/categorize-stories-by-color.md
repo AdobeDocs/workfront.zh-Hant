@@ -6,9 +6,9 @@ description: Scrum展示板內文的預設色彩關聯會依據內文展示板�
 author: Lisa
 feature: Agile
 exl-id: 8e351505-73d1-4c8f-b369-53c965b88c95
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
@@ -59,8 +59,8 @@ ht-degree: 0%
 1. 在左側面板中，選取&#x200B;**[!UICONTROL 反複專案]**&#x200B;以選擇特定反複專案，或選取&#x200B;**[!UICONTROL 目前反複專案]**。
 1. 將滑鼠停留在內文圖磚頂端的彩色橫幅上。
 
-   ![](assets/agile-story-color1-nwe-350x140.png)
+   ![劇本卡](assets/agile-story-color1-nwe-350x140.png)
 
 1. 按一下&#x200B;**[!UICONTROL 變更顏色]**，然後選取所要的顏色。
 
-   ![](assets/agile-story-color2-nwe-350x138.png)
+   ![選擇色彩](assets/agile-story-color2-nwe-350x138.png)
