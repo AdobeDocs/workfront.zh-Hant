@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 4072e71dc0ba76871e17da7718ed4b77a3cdbda6
+source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1132'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 ## Adobe Workfront中您可以進行進階指派的區域
 
-本文說明如何在任務或問題的標題中存取進階指派。
+本文會說明如何在任務或問題的標題中存取進階工作總攬。
 
 此外，您可以在Workfront的下列區域中執行進階任務指派：
 
@@ -47,6 +47,8 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
+您必須具有下列存取權才能執行本文中的步驟：
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -56,7 +58,7 @@ ht-degree: 0%
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
    <td> <p>新增：標準</p>
     <p>目前：工作或以上</p> </td> 
   </tr> 
@@ -71,7 +73,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -83,18 +85,17 @@ ht-degree: 0%
    >[!TIP]
    >
    >如果有兩個或更多指派的人員，您可以直接在任務或問題清單上進行進階指派。 按一下任務或問題所在行上的&#x200B;**工作總攬**&#x200B;欄位內，然後按一下&#x200B;**人員圖示**&#x200B;以開啟「進階工作總攬」視窗。 跳到步驟5以繼續建立進階工作分派。\
-   >![](assets/nwe-advanced-assignments-350x55.png)
-   >
+   >![按一下「連絡人」圖示](assets/nwe-advanced-assignments-350x55.png)
 
 1. 按一下任務或問題標題中&#x200B;**工作總攬**&#x200B;欄位中的&#x200B;**指派給**
 
    或
 
-   如果任務或問題已指派，則按一下指派的名稱。
+   如果任務或問題已指派，請按一下其中一個指派的名稱。
 
 1. 按一下&#x200B;**進階**。
 
-   <span class="preview">![按一下[進階]](assets/assignments-box-in-task-header.png)</span>
+   ![按一下[進階]](assets/assignments-box-in-task-header.png)
 
 1. 在&#x200B;**搜尋人員、角色和團隊**&#x200B;欄位中，開始輸入使用者、角色或團隊的名稱，然後在其出現在下拉式清單中時按一下該名稱。
 
@@ -102,7 +103,7 @@ ht-degree: 0%
    >
    >如果使用者名稱包含特殊字元，您必須在搜尋欄位中包含特殊字元。
 
-1. （選擇性）繼續在&#x200B;**搜尋人員、角色或團隊**&#x200B;方塊中新增受指派人，以將多個資源新增至任務或問題。
+1. （選擇性）繼續在&#x200B;**搜尋人員、角色和團隊**&#x200B;方塊中新增受指派人，以將多個資源新增至任務或問題。
 
    >[!TIP]
    >
@@ -118,7 +119,6 @@ ht-degree: 0%
    >   
    >   * 將工作專案重新指派給作用中的資源。
    >   * 將已停用團隊中的使用者與作用中團隊建立關聯，並將工作專案重新指派給作用中團隊。
-   >
 
    <!-- SHOULD BE THIRD BULLET POINT IN TIP TABLE WHEN THIS FEATURE IS RELEASED 
     * <span class="preview">When adding a job role assignment, you can search for the job role or location. Select the System/Default Job Role to use the default billing rate for the assignment, or select a Rate Card Job Role to override the rate at the assignment level. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
@@ -133,7 +133,7 @@ ht-degree: 0%
      >
      >根據您的Workfront管理員或群組管理員設定專案偏好設定的方式，當您有多個使用者指派至任務時，Workfront可能會使用任務擁有者的排程來計算任務的時間表。 如需關於多個任務受指派人的資訊，請參閱文章[指派任務](../../../manage-work/tasks/assign-tasks/assign-tasks.md)中的「將多個使用者指派到一個任務」一節。
 
-   * **配置** ：當任務的期間型別為「簡單」時，請指定每個使用者或工作角色應指派給任務的小時數。 每位使用者所有指派時數的加總等於分配欄底部&#x200B;**計畫時數**&#x200B;欄位中的數字。 在所有其他情況下，請指定您希望受分派者解決任務或問題的時間百分比（或配置）。
+   * **配置**：當任務的期間型別為「簡單」時，請指定每個使用者或工作角色應指派給任務的小時數。 每位使用者所有指派時數的加總等於分配欄底部&#x200B;**計畫時數**&#x200B;欄位中的數字。 在所有其他情況下，請指定您希望受分派者解決任務或問題的時間百分比（或配置）。
 
      >[!TIP]
      >   
@@ -141,7 +141,7 @@ ht-degree: 0%
      >   * 您無法手動修改問題的指派分配。
      >   * 您無法手動修改指派給任務的專案團隊的分配。
 
-   * **受指派人角色：**&#x200B;選取使用者完成此指派時應使用的角色。  預設會顯示使用者的主要角色。 按一下「受指派人的角色」方塊以選取其他角色。  當您先將任務或問題指派給角色，然後新增可以履行該角色的使用者作為第二個指派時，將會篩選建議使用者的清單，以顯示可以履行已指派給任務和問題的角色的使用者。
+   * **受指派人角色：**&#x200B;選取使用者完成此指派時應使用的角色。  預設會顯示使用者的主要角色。 按一下&#x200B;**受指派人角色**&#x200B;方塊以選取其他角色。 當您先將任務或問題指派給角色，然後新增可以履行該角色的使用者作為第二個指派時，將會篩選建議使用者的清單，以顯示可以履行已指派給任務和問題的角色的使用者。
 
      ![受指派人的角色](assets/advanced-assignments-select-role.png)
 
@@ -160,6 +160,5 @@ ht-degree: 0%
      如需詳細資訊，請參閱[任務期間與期間型別概觀](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)。 大量編輯指派資訊時，會出現類似的對話方塊，以指派使用者、時數、配置和任務擁有者。
 
    * **計畫時數**：當期間型別為計算指派或簡單時，更新計畫時數。 因此，每個資源的配置百分比或時數會平均分配。 當期間型別為已計算的工作或投入比導向時，Workfront會計算計畫時數。 如需詳細資訊，請參閱[任務期間與期間型別概觀](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)。
-
 
 1. 按一下「**儲存**」。

@@ -7,9 +7,9 @@ description: 在管理任務和問題指派時，您可以使用智慧指派來�
 author: Lisa
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
+source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '583'
 ht-degree: 0%
 
 ---
@@ -51,23 +51,23 @@ ht-degree: 0%
 
 * 工作列中的問題清單或報告
 
-  ![](assets/smart-assignments-issue-list.png)
+  ![問題清單指派資料行](assets/smart-assignments-issue-list.png)
 
 * 「工作總攬」欄中的任務清單或報告
 
-  ![](assets/smart-assignments-task-list.png)
+  ![工作清單指派資料行](assets/smart-assignments-task-list.png)
 
 * 工作列位中的任務標題
 
-  ![](assets/smart-assignments-task-header-nwe-350x302.png)
+  ![任務標題指派欄位](assets/smart-assignments-task-header-nwe-350x302.png)
 
 * 工作列位中的問題標題
 
-  ![](assets/smart-assignments-issue-header.png)
+  ![問題標題指派欄位](assets/smart-assignments-issue-header.png)
 
 * 任務或問題任務區域中的摘要面板
 
-  ![](assets/issue-assignments-summary-panel.png)
+  ![摘要面板工作區域](assets/issue-assignments-summary-panel.png)
 
 <!--* The Assignments field in the New Task box, when adding a task to a project
 
@@ -81,8 +81,7 @@ ht-degree: 0%
 
 * 當您指派任務或問題時，在「指派此給」區域的工作負載平衡器
 
-  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
-
+  ![工作負載平衡器指派區域](assets/smart-assignments-workload-balancer-bulk-assignments.png)
 
 ## 智慧指派條件
 
@@ -153,7 +152,7 @@ Workfront計算工作的智慧型指派的方式，與計算問題的方式相�
 >
 >The following criteria applies for tasks only when the first phase of the task smart assignment calculation did not find any matches. For information, see the section [First phase of smart assignment calculation for tasks](#first-phase-of-smart-assignment-calculation-for-tasks) in this article. The following criteria always applies for issues, by default. -->
 
-![](assets/smart-assignments-issue-header.png)
+![智慧型指派範例](assets/smart-assignments-issue-header.png)
 
 根據以下條件的組合，建議在智慧指派下拉式清單中使用者（按照從最重要到最不重要的順序列出）：
 

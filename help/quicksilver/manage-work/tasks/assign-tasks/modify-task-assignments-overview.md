@@ -2,12 +2,12 @@
 content-type: overview;how-to-procedural
 product-area: projects;user-management
 navigation-topic: assign-tasks
-title: 修改任務指派的概要
+title: 修改作業指定概要
 description: 您可以將任務指派給使用者、團隊或工作角色，或從使用者、團隊或工作角色中取消指派任務。 您可以同時指派多個資源，或僅指派一個資源。 您可以一次指派一個任務，或大量指派多個任務。
 author: Lisa
 feature: Work Management
 exl-id: e774f2db-494d-4f93-8727-3c073e5f930b
-source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
+source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
 workflow-type: tm+mt
 source-wordcount: '875'
 ht-degree: 0%
