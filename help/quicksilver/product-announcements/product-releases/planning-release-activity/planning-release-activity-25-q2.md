@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
+source-git-commit: e5878d3b591e65f4ece2a79248e03940976580de
 workflow-type: tm+mt
-source-wordcount: '1662'
+source-wordcount: '1935'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,31 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 如需針對Adobe Workfront Planning發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## 從記錄型別設定及管理多個請求表單
+
+>[!NOTE]
+>
+>預覽： 2025年3月13日；適用於所有客戶的生產： 2025年4月10日
+
+為協助您為來自組織不同區域的不同利害關係人自訂請求表單，我們現在引進了針對記錄型別建立和管理多個請求表單的功能。 在此增強功能之前，您只能為一個記錄型別建立一個表單。
+
+使用不同表單提交的所有請求都可以建立所選記錄型別的記錄。 您現在可以為相同記錄型別設定多個請求表單。 這些表單會列在記錄型別上的新請求表單表格檢視中。 管理請求表單時，您現在可以從記錄型別的請求表單清單中編輯、發佈、共用、複製或刪除請求表單。
+
+如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
+
+## 輕鬆存取記錄型別頁面上發佈的請求表單
+
+>[!NOTE]
+>
+>預覽： 2025年3月13日；適用於所有客戶的生產： 2025年4月10日
+
+您現在可以從記錄型別頁面右上角的新記錄按鈕存取請求表單。 對於具有工作區檢視許可權的使用者，新記錄會顯示為請求記錄按鈕。
+
+除了可以手動建立記錄以及匯入CSV或Excel檔案外，您現在還可以從記錄型別頁面的請求表單中建立記錄。
+在此改善之前，您只能從表單的直接連結或Workfront的「請求」區域，使用請求表單建立記錄。
+
+如需詳細資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md)。
 
 ## 在Workfront自訂表單的Planning連線欄位中，從連線記錄新增查詢欄位
 

@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: cbadf0a758369bf9835b5804a036fddbc37dbb51
+source-git-commit: a86b91ee323e9efdca33655eaaac805a019cbb1c
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1158'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Workfront版本編號代表每月和每季的版本追蹤。 第一個數字代�
 
 | 每月發行 | 每季發行 |
 | ----------------- | ----------------- |
-| <ul><li>25.2 （2025年2月13日）</li><li>25.3 （2025年3月）</li><li>25.4 （2025年4月）</li></ul> | <ul><li>25.4 （2025年4月）</li></ul> |
+| <ul><li>25.2 （2025年2月13日）</li><li>25.3 （2025年3月13日）</li><li>25.4 （2025年4月10日）</li></ul> | <ul><li>25.4 （2025年4月10日）</li></ul> |
 
 >[!NOTE]
 >
@@ -47,6 +47,21 @@ Workfront版本編號代表每月和每季的版本追蹤。 第一個數字代�
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
+<tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            自訂表單邏輯的增強功能</a></p>
+            <p>自訂表單邏輯產生器有更新的介面，為您提供建立邏輯規則的更多空間。 此新設計可更輕鬆地容納未來可能新增的其他邏輯型別。</p><p>除了目前的顯示和略過邏輯選項外，您也可以使用驗證邏輯。</p>
+        </td>
+        <td>
+            <p><b>將於下列日期提供：</b></p>
+            <ul>
+                <li>預覽版本： 2025年1月31日</li>
+                <li><span class="preview">所有客戶的生產版本： 2025年1月31日</span></li>
+            </ul>
+        </td>
+    </tr>                          
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
@@ -74,7 +89,7 @@ Workfront版本編號代表每月和每季的版本追蹤。 第一個數字代�
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            在檔案報告中一次編輯多個檔案 </a></p>
+            在檔案報告中一次編輯多個檔案 </a></p>[！BADGE In Production ]{type=Informative}
             <p>您現在可以在檔案報告中一次編輯多個檔案。 您可以編輯說明並更新自訂表格。</p>
         </td>
         <td>
@@ -97,7 +112,7 @@ Workfront版本編號代表每月和每季的版本追蹤。 第一個數字代�
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            在編輯專案方塊中編輯專案時，為專案新增註解</a></p>
+            在編輯專案方塊</a>[！BADGE In Production for Fast Release]{type=Positive}中編輯專案時，新增註解至專案</p>
             <p>您現在可以在「編輯專案」方塊中編輯專案時，將註解新增至專案。 您也可以在大量編輯專案時，一次為多個專案新增註解。 在此更新之前，編輯專案時不存在此功能。</p>
         </td>
         <td>
