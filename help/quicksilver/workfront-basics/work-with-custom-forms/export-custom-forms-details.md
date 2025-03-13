@@ -5,16 +5,16 @@ author: Alina
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 4dc32da0-9680-4b7f-a959-d4a0652618c5
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: c21029e098f6b4f51f8698155e2b8a2e789c8bfc
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '594'
 ht-degree: 1%
 
 ---
 
 # 匯出自訂表單和物件詳細資料
 
-您可以將物件的「詳細資訊」區段中的「概述」和自訂表單資訊匯出至PDF檔案。 然後，您可以列印或與其他使用者共用PDF。
+您可以將物件之「詳細資訊」區段中的「概述」和自訂表單資訊匯出至PDF檔案。 接著，您就可以列印或與其他使用者共用PDF。
 
 下列物件支援此功能：
 
@@ -97,14 +97,10 @@ ht-degree: 1%
    >
    >可能存在下列情況：
    >
-   >   
-   >   
    >   * 當您的群組或Workfront管理員取消選取總覽區域中的所有欄位，並且物件有附加的自訂表單時，總覽區段不顯示。
    >   * 當您的群組或Workfront管理員取消選取總覽區域中的所有欄位，並且物件沒有附加自訂表單時，匯出下拉選單不可見。
    >   * 當物件沒有附加自訂表單時，您只能匯出概述區域。
-   >   * 邏輯落後且在表單上不可見的自訂欄位不會匯出。 如需將邏輯新增至自訂表單的相關資訊，請參閱[新增顯示邏輯並略過邏輯至表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)。
-   >   
-   >
+   >   * 邏輯落後且在表單上不可見的自訂欄位不會匯出。 如需新增邏輯至自訂表單的相關資訊，請參閱[新增邏輯規則至自訂表單和欄位](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)。
 
    會產生PDF檔案並下載至您的電腦。 PDF檔案包含下列資訊：
 
