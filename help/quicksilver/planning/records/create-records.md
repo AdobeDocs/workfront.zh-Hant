@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
 workflow-type: tm+mt
-source-wordcount: '1844'
+source-wordcount: '2411'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,8 @@ ht-degree: 0%
 
 您可以執行下列其中一項作業來建立記錄：
 
-* [從表格檢視中的記錄型別頁面新增記錄](#create-records-by-adding-them-to-a-record-type-in-a-record-type-table)
+* [從記錄型別表格檢視中內嵌新增記錄，以建立記錄](#create-records-by-adding-them-inline-from-the-record-type-table-view)
+* <span class="preview">[使用任何記錄型別檢視中的[新增記錄]或[要求記錄]按鈕來建立記錄](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)</span>
 * [從外部清單複製並貼上記錄清單](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [從表格檢視複製記錄](#create-records-by-duplicating-them)
 * [從其他記錄連線記錄時建立記錄](#create-records-as-you-connect-them)
@@ -97,7 +98,8 @@ ht-degree: 0%
   </tr> 
 <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
-   <td> <p>為您要新增記錄的工作區<!--<span class="preview">and record type</span>-->貢獻或更高的許可權。 </p>  
+   <td> <p>為您要新增記錄的工作區<!--<span class="preview">and record type</span>-->貢獻或更高的許可權。 </p>
+   <p><span class="preview">檢視工作區<!--<span class="preview">and record type</span>-->或更高許可權，以使用記錄頁面上的[要求記錄]按鈕建立記錄</span></p>
    <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p>
    <p>管理Workfront物件（專案組合）的許可權以新增子物件（專案）。</p>
    </td> 
@@ -113,9 +115,9 @@ ht-degree: 0%
 
 +++
 
-## 將記錄新增至記錄型別表格中的記錄型別以建立記錄
+## 從記錄型別表格檢視中內嵌新增記錄，以建立記錄
 
-您可以在記錄型別頁面的表格檢視中建立記錄。
+您可以在記錄型別頁面的表格檢視中建立記錄，因為您是內嵌新增它們。
 
 如需有關編輯記錄資訊的資訊，請參閱[編輯記錄](/help/quicksilver/planning/records/edit-records.md)。
 
@@ -128,27 +130,28 @@ ht-degree: 0%
 1. 按一下記錄型別卡。 如需有關建立記錄型別的資訊，請參閱[建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md)。
 
    記錄型別頁面會在您上次存取的檢視中開啟。 依預設，會在表格檢視中開啟記錄型別頁面。
-所選型別的所有記錄都會顯示在檢視中。
+所選型別的記錄會顯示在檢視中。
 
-1. （視條件而定）視您顯示的檢視而定，請執行下列其中一項作業：
+1. （視條件而定）從表格檢視中，執行下列任一項作業：
 
-   * 從表格檢視中：
+   * 在表格的最後一列按一下&#x200B;**新增記錄**
 
-      * 在表格的最後一列按一下&#x200B;**新增記錄**
+   * 在表格的任何欄或列按一下鍵盤上的&#x200B;**Shift + Enter**。 這會在您開始的記錄底下新增一個空白列。
+   * 暫留在記錄的主要欄位上，按一下欄位右邊的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**插入上方記錄**&#x200B;或&#x200B;**插入下方記錄**。
 
-      * 在表格的任何欄或列按一下鍵盤上的&#x200B;**Shift + Enter**。 這會在您開始的記錄底下新增一個空白列。
-      * 暫留在記錄的主要欄位上，按一下欄位右邊的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**插入上方記錄**&#x200B;或&#x200B;**插入下方記錄**。
+   ![在資料表列](assets/adding-a-new-campaign-in-table-row.png)加入新的行銷活動
 
-     ![在資料表列](assets/adding-a-new-campaign-in-table-row.png)加入新的行銷活動
+   Workfront會自動上傳縮圖至每筆新記錄。 您稍後可以修改這些影像。 如需詳細資訊，請參閱[新增封面影像至記錄](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)。
 
-   * 從任何檢視：
+   新記錄會新增至表格中。
 
-      * 按一下頁面右上角的&#x200B;**新增記錄**。 記錄預覽方塊開啟。
+1. 按一下新記錄的主要欄位
 
-     Workfront會自動上傳縮圖和封面影像至每張新記錄。 您稍後可以修改這些影像。 如需詳細資訊，請參閱下列文章：
+   或
 
-      * [新增封面影像至記錄](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
-      * [新增縮圖至記錄](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
+   按一下記錄名稱左邊的&#x200B;**開啟詳細資料**&#x200B;圖示![在表格名稱欄位中開啟詳細資料](assets/open-details-icon-in-table-name-field.png)。
+
+   預覽方塊會在表格中開啟。
 
 1. 開始在您在預覽方塊中看到的欄位中輸入有關新記錄的資訊。
 
@@ -158,23 +161,94 @@ ht-degree: 0%
    >
    >  * 參考其他記錄型別或計算欄位的欄位為唯讀欄位。
 
-1. （視條件而定）在表格中新增記錄時，請繼續在每一列新增資訊，然後在鍵盤上按一下&#x200B;**Enter**&#x200B;以儲存變更。
+1. （條件式）在表格中新增記錄時，在開啟記錄的預覽方塊之前，繼續新增每列的資訊，然後按一下鍵盤上的&#x200B;**Enter**&#x200B;以儲存變更。
 
    或
 
-   按一下新記錄的名稱或記錄名稱左邊的&#x200B;**開啟詳細資料**&#x200B;圖示![在資料表名稱欄位](assets/open-details-icon-in-table-name-field.png)開啟詳細資料圖示。 含有記錄詳細資訊的預覽會在表格中開啟。
+   按一下新記錄的名稱或&#x200B;**開啟詳細資料**&#x200B;圖示![在記錄名稱左側的表格名稱欄位中開啟詳細資料圖示](assets/open-details-icon-in-table-name-field.png)以開啟預覽方塊，並在詳細資料區域中編輯記錄的資訊。
 
    >[!TIP]
    >
    >當「名稱」欄位是主要欄位時，您只能從記錄的名稱欄位存取&#x200B;**開啟詳細資料**&#x200B;圖示。
 
-1. 開始編輯記錄預覽中的記錄資訊。 Workfront會自動儲存您的變更。
-1. （選擇性）按一下記錄預覽右上角的&#x200B;**在新索引標籤中開啟**&#x200B;圖示![在新索引標籤中開啟詳細資料](assets/open-details-in-a-new-tab-icon.png)，以新索引標籤中開啟記錄頁面。 繼續編輯記錄頁面上的記錄。 如需詳細資訊，請參閱[編輯記錄](/help/quicksilver/planning/records/edit-records.md)。
+1. （選擇性）從記錄的預覽方塊中，按一下&#x200B;**在新標籤中開啟**&#x200B;圖示![在右上角的新標籤中開啟詳細資訊](assets/open-details-in-a-new-tab-icon.png)以在新標籤中開啟記錄的頁面。 繼續編輯記錄頁面上的記錄。 如需詳細資訊，請參閱[編輯記錄](/help/quicksilver/planning/records/edit-records.md)。
+
+   Workfront會自動儲存您的變更。
+
+1. （選擇性）關閉預覽方塊，或按一下記錄名稱左側的返回箭頭（如果您已開啟記錄的頁面）。
 
 1. （可選）在表格檢視中新增記錄或其資訊時，請使用下列鍵盤快速鍵來復原或重做新增記錄或其資訊：
 
    * CTRL + Z (Mac為⌘ + Z)可復原變更
    * CTRL + Shift + Z (Mac為⌘ + Shift + Z)以重做變更
+
+<div class="preview">
+
+## 使用任何記錄型態檢視中的「新增記錄」或「請求記錄」按鈕來建立記錄
+
+具有工作區<!--<span class="preview">and record type</span>-->檢視許可權的使用者只能使用記錄型別頁面上的[要求記錄]按鈕來建立記錄。
+
+對工作區<!--<span class="preview">and record type</span>-->具有Contribute和「管理」許可權的使用者，可以使用記錄型別頁面上的「新增記錄」按鈕來建立記錄。
+<!--did the permissions to record types get released?? if not, take the record type reference here out; AND else-where in this article, including access requirements table-->
+
+>[!IMPORTANT]
+>
+>工作區管理員必須為記錄型別建立請求表單，以便擁有檢視許可權的使用者使用請求表單新增記錄。 否則，檢視許可權使用者無法建立記錄。
+
+{{step1-to-planning}}
+
+1. 按一下您要新增記錄的工作區。
+
+   工作區隨即開啟，且記錄型別會顯示為卡片。
+
+1. 按一下記錄型別卡。 如需有關建立記錄型別的資訊，請參閱[建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md)。
+
+   記錄型別頁面會在您上次存取的檢視中開啟。 依預設，會在表格檢視中開啟記錄型別頁面。
+所選型別的所有記錄都會顯示在檢視中。
+
+1. 根據工作區<!--<span class="preview">and record type</span>-->許可權，從任何檢視按一下畫面右上角的下列專案：
+
+   * 如果您在工作區<!--<span class="preview">and record type</span>-->上有Contribute或更高的許可權，請按一下&#x200B;**新增記錄**
+
+     或
+
+   * 若您擁有工作區<!--<span class="preview">and record type</span>-->的檢視許可權，請按一下&#x200B;**要求記錄**。
+
+1. （視條件而定）如果您按一下&#x200B;**新記錄**，請執行下列動作：
+
+   1. 按一下下列其中一個方式來建立記錄，然後按一下[繼續]****：
+
+      * **手動新增**。 記錄的預覽方塊開啟。\
+        從步驟6開始，新增記錄的相關資訊，如[從本文中的記錄型別資料表檢視](#create-records-by-adding-them-inline-from-the-record-type-table-view)區段內嵌新增記錄，以建立記錄中所述。<!--insure this stays accurate-->
+      * **從檔案上傳**
+新增記錄，如文章[中所述。從步驟6開始，從CSV或Excel檔案匯入資訊來建立記錄](/help/quicksilver/planning/records/import-file-to-create-records.md)。<!--ensure this stays accurate-->
+      * **提交要求**
+記錄型別的請求表單隨即開啟。
+
+        工作區管理員必須建立請求表單，才能使用請求表單新增記錄。
+
+        >[!TIP]
+        >
+        >某些記錄型別可能具有多個表單。 按一下其中一個以開啟它。
+
+        新增記錄，如文章[提交Adobe Workfront Planning要求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)中所述，從步驟6開始。<!--ensure this stays accurate-->
+
+      ![](assets/three-ways-to-create-records-choice-modal.png)
+
+1. （視條件而定）如果您按一下&#x200B;**要求記錄**，請執行下列動作：
+
+   1. （視條件而定）如果記錄型別有多個請求表單，請按一下其中一個以選擇它。
+   2. 繼續新增表單中的資訊以建立記錄，如文章[提交Adobe Workfront Planning請求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)中所述，從步驟6開始。<!--ensure this stays accurate-->
+
+1. （視條件而定）複查新記錄。
+
+   根據您選擇新增記錄的方式，可能會發生以下一些情況：
+
+   * 新記錄會新增至記錄型別，除非您選擇使用具有核准流程的請求表單來新增記錄。 建立記錄之前，核准者必須獲得所有核准者的核准。
+   * 如果您使用CSV或Excel試算表新增記錄，系統會將多個記錄新增至記錄型別。
+   * 如果您透過提交請求表單來新增請求，則會在Workfront請求區域的Planning標籤中新增請求。
+
+</div>
 
 <!-- this is not possible anymore: 
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
 workflow-type: tm+mt
-source-wordcount: '1865'
+source-wordcount: '2084'
 ht-degree: 1%
 
 ---
@@ -160,7 +160,7 @@ ht-degree: 1%
 
    記錄型別頁面會在您上次存取的檢視中開啟。 依預設，會在表格檢視中開啟記錄型別頁面。
 
-1. 按一下頁面標頭中記錄型別名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**建立請求表單**。
+1. 按一下頁面標頭中記錄型別名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**建立請求表單** <span class="preview">或&#x200B;**管理請求表單** （如果您已經有表單，而且想要建立其他表單</span>）。
 1. 更新要求表單的名稱。 依預設，表單的名稱為&#x200B;**未命名表單**。<!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. （選用）為要求表單新增&#x200B;**描述**。
 
@@ -258,7 +258,14 @@ ht-degree: 1%
    >     * 人員
    >
 
-1. （視條件而定）如果您在上一步選取了&#x200B;**任何擁有連結**&#x200B;的人，請從可用的行事曆中選取&#x200B;**連結到期日**。 連結過期後，人員會收到錯誤，您必須更新連結日期，並產生新連結以共用，人員才能再次存取表單。
+1. （視條件而定）如果您在上一步選取了&#x200B;**任何擁有連結**&#x200B;的人，請從可用的行事曆中選取&#x200B;**連結到期日**。<!--take out this tip when we release to production as in multiple forms this is no longer happening-->
+
+   >[!TIP]
+   >
+   >如果是這種情況，表示連結已公開共用。
+   >![記錄型別功能表上的表單公開共用連結](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
+
+   連結過期後，人員會收到錯誤，您必須更新連結日期，並產生新連結以共用，人員才能再次存取表單。
 
    您可以從目前日期起180天內選取未來日期。
 
@@ -274,18 +281,31 @@ ht-degree: 1%
    如需使用要求表單的連結來建立記錄的相關資訊，請參閱[提交Adobe Workfront Planning要求](/help/quicksilver/planning/requests/submit-requests.md)。
 
 1. 按一下&#x200B;**表單**&#x200B;標籤右下角的&#x200B;**儲存**&#x200B;以儲存表單。
+
 1. 按一下頁首中表單名稱左側的向左箭頭以關閉表單。
 
-   記錄型別頁面隨即開啟。
-1. （選擇性）按一下標題中記錄型別名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後執行下列任一項作業：
+   <span class="preview">已開啟&#x200B;**要求表單**&#x200B;資料表檢視，並已新增表單。</span>
+
+1. <span class="preview">（選擇性）暫留在表格檢視中的要求表單名稱上，然後按一下表單名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下下列其中一項：</span>
+
+   * <span class="preview">**編輯表單**：按一下以進一步編輯表單上的資訊。</span>
+   * <span class="preview"> **取消發佈**：按一下以取消發佈表單，該表單會從Workfront的要求區域移除它。</span>
+   * <span class="preview">**共用**：按一下此以修改誰可以存取表單。</span>
+   * <span class="preview">**複製連結**：按一下此以快速複製要求表單的連結，而不開啟表單。</span>
+   * <span class="preview">**刪除**：按一下以刪除表單。 使用表單新增的所有請求和記錄都不會刪除。 無法復原表單。</span>
+
+   從請求表單清單中請求表單上的![更多功能表](assets/more-menu-on-request-form-from-request-forms-list.png)
+
+
+1. <span class= "preview">按一下標題中&#x200B;**要求表單**&#x200B;左側的向左箭頭，以關閉要求表單表格。   </span>
+
+   <span class= "preview">記錄型別頁面開啟。</span>
+1. （選擇性和條件性）從生產環境中，按一下標題中記錄型別名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後執行下列任一項作業：
    * 按一下&#x200B;**更新要求表單**&#x200B;以變更要求表單。
    * 按一下&#x200B;**複製表單連結**&#x200B;以與其他人共用表單連結。
 
-   或
+1. <span class="preview"> （選擇性和條件式）在預覽環境中，按一下標題中記錄型別名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**管理請求表單**。</span>
 
-   * <span class= "preview">移至Workfront中的&#x200B;**要求**&#x200B;區域，並尋找共用表單以提交要求。 如需詳細資訊，請參閱[提交Adobe Workfront Planning要求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)。</span>
-
-   >[!TIP]
-   >
-   >如果是這種情況，表示連結已公開共用。
-   >![記錄型別功能表上的表單公開共用連結](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
+   <span class="preview">這會開啟[要求表單]表格檢視。</span>
+1. <span class="preview">按一下要求表單以開啟並編輯。</span>
+1. <span class= "preview">（選擇性）移至Workfront中的&#x200B;**要求**&#x200B;區域，並尋找共用表單以提交要求。 如需詳細資訊，請參閱[提交Adobe Workfront Planning要求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)。</span>

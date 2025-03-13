@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
+source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '875'
 ht-degree: 3%
 
 ---
@@ -115,26 +115,28 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
    </table>
 
 1. 按一下&#x200B;**新增里程碑**，然後視需要繼續新增里程碑，直到路徑完成為止。
+
 1. 按一下&#x200B;**建立里程碑路徑**&#x200B;以儲存變更。
 
    您的里程碑路徑已準備好與專案相關聯。
 
    如需有關如何將里程碑路徑與專案建立關聯以及將里程碑與任務建立關聯的詳細資訊，請參閱[將里程碑與任務建立關聯](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)。
 
-<!--
-1. <span class="preview">(Optional) Click the **Export** icon ![Export icon](assets/export-icon.png), then select from the following formats to export the milestone path list to a file: </span>
+
+1. <span class="preview">（選擇性）按一下&#x200B;**匯出**&#x200B;圖示![匯出圖示](assets/export-icon.png)，然後從下列格式中選取，以將里程碑路徑清單匯出至檔案： </span>
 
    * PDF
    * Excel
    * Excel (xlsx)
-   * Tab Delimited
-1. <span class="preview">(Optional) Select a milestone in the milestone list, then click the **Edit** icon ![Edit icon](assets/edit-icon.png) to edit milestone information. </span>
-1. <span class="preview">(Optional) Select a milestone in the milestone list, then click the **Delete** icon ![Delete icon](assets/delete-icon.png) to delete it. </span>
-1. <span class="preview">Click **Yes, Delete it**. </span>
-   <span class="preview">The milestone is deleted and cannot be recovered. Any project information associated with the milestone and any task information associated with the milestone paths is also deleted. </span>
+   * 頁籤分隔檔
 
-   </div>
--->
+1. <span class="preview">（選擇性）選取里程碑清單中的里程碑，然後按一下&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)以編輯里程碑資訊。</span>
+1. <span class="preview">（選擇性）選取里程碑清單中的里程碑，然後按一下&#x200B;**刪除**&#x200B;圖示![刪除圖示](assets/delete-icon.png)將其刪除。</span>
+1. <span class="preview">按一下&#x200B;**是，刪除**。</span>
+   <span class="preview">里程碑已刪除且無法復原。 與里程碑關聯的任何專案資訊以及與里程碑路徑關聯的任何任務資訊也會被刪除。</span>
+
+
+<div class="preview">
 
 ## 在報告中檢視里程碑路徑詳細資訊
 
@@ -171,9 +173,8 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
    * 里程碑路徑群組
    * 里程碑名稱、說明、顏色和顏色圖示
 
-   </div>
-
 1. （選擇性）按一下&#x200B;**上一步**&#x200B;返回專案報告。
 
+</div>
 
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
 workflow-type: tm+mt
-source-wordcount: '1798'
+source-wordcount: '1828'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,14 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-有人與您從Adobe Workfront Planning的記錄型別頁面共用請求表單的連結後，您可以新增請求以建立與請求表單相關聯記錄型別的記錄。
+工作區管理員在Adobe Workfront Planning中建立記錄型別的請求表單後，您可以使用表單來提交將建立與表單相關聯記錄型別的記錄的請求。
+
+您可以從下列區域提交Workfront Planning請求：
+
+* 從Workfront的請求區域，或請求表單的直接連結。 本文說明如何從Workfront的「請求」區域或共用連結提交請求，以將新記錄新增至記錄型別。
+* <span class="preview">從記錄型別頁面新增或請求新記錄時。 如需詳細資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md).</span>
 
 Workfront使用者與外部使用者可以提交請求給Planning記錄型別並建立記錄。<!--double check on the external users-->
-
-本文說明如何提交請求，將新記錄新增至記錄型別。
 
 如需工作區管理員如何建立請求表單並將其與記錄型別關聯的資訊，請參閱[在Adobe Workfront Planning中建立和管理請求表單](/help/quicksilver/planning/requests/create-request-form.md)。
 
@@ -113,34 +116,41 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
 * Workfront Planning中必須存在下列專案：
 
    * 工作區
-   * 與請求表單相關聯的記錄型別。 如需詳細資訊，請參閱[在Adobe Workfront Planning中建立請求表單](/help/quicksilver/planning/requests/create-request-form.md)。
+   * 記錄型別。
+   * 與記錄型別相關聯的請求表單。
 
-* 請求表單必須以您可以存取的方式與連結共用。 存在下列情況：
+     如需詳細資訊，請參閱[在Adobe Workfront Planning中建立請求表單](/help/quicksilver/planning/requests/create-request-form.md)。
 
-   * 如果您有Workfront帳戶，連結僅與內部人員共用，而您對工作區有投稿或更高的存取許可權。 Workfront以外的人員無法存取內部共用的連結。
-   * 如果您沒有Workfront帳戶，連結已和外部人員共用。 Workfront使用者也可以存取與外部人員共用的連結。
+* 請求表單的共用方式必須讓您能存取。 存在下列情況：
+
+   * 在內部，表單必須和擁有工作區檢視或更高許可權的使用者共用。
+
+     Workfront使用者可以從連結<span class="preview">存取表單，或在Workfront的[要求]區域中尋找要求表單。</span>
+
+   * 如果您沒有Workfront帳戶，系統會將表單連結與外部人員共用。
+
+     Workfront使用者也可以存取與外部人員共用的連結。
 
 * 表單的連結不可過期。
 
 ## 提交請求至Workfront Planning的考量事項
 
-* 您只能從表單的特定連結存取Workfront Planning請求的請求表單。
-* 將請求提交至Workfront Planning後，您就無法在Workfront中編輯請求。
+* 提交請求後，您就無法再在Workfront中編輯請求。
 * 如果表單未與核准相關聯，或所有核准者皆已授權核准，則每個提交的請求都會為您使用的表單建立記錄型別記錄。
-* 提交請求表單所建立的記錄，無法與透過任何其他方法新增的記錄區分開來。 如需詳細資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md)。
+* 提交請求表單所建立的記錄，無法與透過Workfront Planning中的任何其他方法新增的記錄區分開來。
+
+  如需詳細資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md)。
 * 已提交的請求會顯示在Workfront請求區域的已提交區段的「計畫」標籤中。
-* 在提交表單後，某些欄位型別在請求表單或請求詳細資訊頁面中的顯示方式會受到限制。 如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
+* 在提交表單後，某些欄位型別在請求表單或請求詳細資訊頁面中的顯示方式會受到限制。
+
+  如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
 
 <!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.-->
 
 
-## 向Workfront Planning提交請求
-
-向Workfront Planning提交請求會因您使用的環境而異。
-
 <div class="preview">
 
-### 在預覽環境中提交請求至Workfront Planning
+## 在Workfront的請求區域中向Workfront計畫提交請求
 
 >[!NOTE]
 >
@@ -214,7 +224,7 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
 
    >[!TIP]
    >
-   >* 如果未將記錄名稱新增至請求表單，則請求之「記錄」欄位中的記錄名稱會顯示為&#x200B;**未命名**。
+   >* 如果要求表單中未更新記錄的主要欄位，則要求之記錄欄位中的記錄名稱會顯示為&#x200B;**未命名**。
    >
    >* 如果請求表單與核准相關聯，則必須先授權核准，然後才能從請求頁面存取記錄。
 
@@ -224,7 +234,7 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
 
 </div>
 
-### 在生產環境中向Workfront Planning提交請求
+## 從共用連結提交要求至Workfront Planning至要求表單
 
 1. 從Workfront Planning記錄型別移至與您共用的連結。
 

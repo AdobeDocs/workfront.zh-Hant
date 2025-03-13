@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '944'
 ht-degree: 6%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 6%
 
 ## 可在Adobe Workfront Planning中共用的物件
 
-您可以共用下列物件：
+您可以在Workfront Planning中手動共用下列物件：
 
 * 工作區
 
@@ -49,7 +49,7 @@ ht-degree: 6%
 
     * You can share record types with people inside your organization.
     * The level of permissions granted for the workspace displays as Inherited permissions for the record type. 
-    * You cannot share a workspace with a higher permission level than the user has on the workspace. 
+    * You cannot share a record type with a higher permission level than the user has on the workspace. 
 
     For more information, see [Share record types](/help/quicksilver/planning/access/share-record-types.md). 
 
@@ -77,6 +77,8 @@ ht-degree: 6%
 * 職務角色
 
 </div>
+
+<span class="preview">當您與他人共用工作區和記錄型別時，記錄型別的許可權層級會自動繼承到與其關聯的記錄和欄位。</span>
 
 ## 在Adobe Workfront Planning中共用物件的相關考量事項
 
@@ -129,7 +131,7 @@ ht-degree: 6%
 
 ### 記錄型別許可權
 
-<!--In the Production environment,--> 當您授予工作區許可權時，會一律繼承記錄型別許可權。
+<!--In the Production environment,--> 當您授與許可權給工作區時，會繼承<!--always-->記錄型別許可權。
 
 記錄型別的許可權層級如下：
 
@@ -145,18 +147,17 @@ ht-degree: 6%
 
 <div class="preview">
 
-In the Preview environment, Record Type permissions are inherited when you grant permissions to the workspace. 
+In the Preview environment, you can remove the record type's inherited permissions received from the workspace. 
 
-You can remove inherited permissions from the record type, but you can never grant higher permissions for the record type than users have on the workspace. 
+You can give users different permissions on the record type than they have on the workspace. However, you can never grant higher permissions for the record type than users have on the workspace. 
 
 The following scenarios exist: 
 
 |   Workspace permissions     | Automatic inherited permissions for a Record Type |Possible Record Type permissions when Inherited permissions are turned off (granted manually)| 
 |--------|--------|-------------|
-| Manage |   Manage    |   Manage, No permissions           | 
-| Contribute |     Contribute |  Contribute, View, No permissions        |
-| View   |  View     |      View, No permissions        |     
-
+| Manage |   Manage    |   Manage, Remove permissions           | 
+| Contribute |     Contribute |  Contribute, View, Remove permissions        |
+| View   |  View     |      View, Remove permissions        |     
 
 </div>
 
@@ -164,7 +165,7 @@ The following scenarios exist:
 
 ### 記錄許可權
 
-當您授予工作區許可權時，會繼承記錄許可權。
+記錄許可權繼承自<!--<span class="preview">the record type</span>, when you grant permissions to -->工作區<!-- and <span class="preview">the record type</span>-->。
 
 以下是記錄的許可權層級：
 
@@ -178,7 +179,8 @@ The following scenarios exist:
 
 ### 欄位許可權
 
-當您授與工作區許可權時，會繼承欄位許可權。
+欄位許可權繼承自<!--<span class="preview">the record type</span>, when you grant permissions to -->工作區<!--and <span class="preview">the record type</span>-->。
+
 以下許可權是指欄位本身，而不是與每個欄位關聯的值。 若要編輯欄位值，您必須擁有編輯記錄的許可權。
 
 |        | 管理 | 參與 | 檢視 |

@@ -3,13 +3,13 @@ title: 共用記錄型別
 description: 您可以與其他人共用記錄型別，以確保在使用Adobe Workfront Planning時共同作業。
 hide: true
 hidefromtoc: true
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+exl-id: bf49db73-09f1-417e-836b-16c6062740d4
+source-git-commit: 5005493bb98b63f4c463f424be43a9d422744846
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1188'
 ht-degree: 0%
 
 ---
-
 
 <!-- add these to metadata on release:
 
@@ -30,8 +30,9 @@ recommendations: noDisplay, noCatalog-->
 
 >[!IMPORTANT]
 >
->* 授予工作區許可權可為使用者提供工作區中記錄型別的相同許可權。
->* 授予記錄型別的許可權可能會給予使用者較小的許可權，而不是他們從工作區中已經擁有的較高許可權。
+>* 根據預設，授予工作區許可權可為使用者提供工作區中記錄型別的相同許可權。
+>* 您可以調整個別記錄型別的許可權。
+>* 您不能授予人們比他們擁有對工作區的存取許可權更高的記錄型別存取許可權。
 > 如需詳細資訊，請參閱本文中的[共用記錄型別](#considerations-when-sharing-record-types)時的考量事項。
 
 ## 存取需求
@@ -117,7 +118,7 @@ recommendations: noDisplay, noCatalog-->
 * 使用者會自動從工作區繼承記錄型別許可權。
 * 您可以手動將記錄型別的檢視許可權授予使用者，也可以從工作區中移除繼承的許可權。
 
-* 新增到記錄型別但沒有工作區許可權的使用者會自動新增到具有檢視許可權的工作區共用。
+* 新增到記錄型別共用方塊，但沒有工作區許可權的使用者會自動新增到具有檢視許可權的工作區共用。
 
   若要將工作區許可權不高於記錄型別檢視許可權的使用者授予記錄型別，您必須先與他們共用工作區。 如果您只共用記錄型別，他們只能收到該記錄型別的檢視許可權，並且他們還會以檢視許可權新增到工作區。 當您授予他們記錄型別的許可權時，共用方塊中會顯示這些許可權也已新增至工作區。
 
@@ -128,7 +129,7 @@ recommendations: noDisplay, noCatalog-->
 
 ## 共用記錄型別的許可權
 
-您可以在Workfront Planning中，將您建立的記錄型別或您擁有管理許可權的記錄型別與使用者、群組、團隊、公司和職位角色共用。
+如果您有工作區的管理許可權，您可以調整工作區的個別記錄型別的許可權。
 
 {{step1-to-planning}}
 
@@ -145,7 +146,7 @@ recommendations: noDisplay, noCatalog-->
 1. （選擇性）在&#x200B;**擁有存取權**&#x200B;區域中，從下列選項中選取： <!--the Only invited people is supposed to be removed - rewrite this - according to Vahan-->
 
    * **只有受邀人員才能存取**：您必須指定要與其共用檢視的使用者、群組、團隊、公司或工作角色。
-   * **工作區中的所有人都可以檢視**：所有擁有工作區檢視或更高許可權的使用者都可以存取檢視。 這是預設選項。
+   * **工作區中的所有人都可以檢視**：所有擁有工作區檢視或更高許可權的使用者都可以存取檢視。 這是預設選項。<!--rewrite this based on what Lilit says in the proof: At this point, once the inherited permissions are disabled, everyone in the workspace except workspace managers will have View permission to the record type because the "Everyone in the workspace can view"  setting cannot be changed. -->
 
 1. （可選）展開&#x200B;**繼承許可權**&#x200B;選項以檢視從工作區繼承許可權的使用者、團隊、群組、公司或工作角色。
 
@@ -156,8 +157,8 @@ recommendations: noDisplay, noCatalog-->
 1. （選擇性和條件性）如果您想要與特定實體共用記錄型別，並授予他們不同於工作區現有的記錄型別存取權，請執行以下操作：
 
    1. 關閉繼承的許可權。
-   1. 在&#x200B;**授與此記錄型別**的存取權欄位中，新增您要授與不同許可權等級的使用者、團隊、群組、公司或工作角色。
-1.選擇許可權等級。
+   1. 在&#x200B;**授與此記錄型別**&#x200B;的存取權欄位中，新增您要授與不同許可權等級的使用者、團隊、群組、公司或工作角色。
+   1. 選擇許可權層級。
 
    >[!IMPORTANT]
    >
@@ -207,6 +208,8 @@ Users who access a link to a record type to which they do not have permissions c
    If you approved the request, the users are added to the sharing box of the view. The user requesting the permission receives an email confirmation that their request was approved. <!--will they also get an in-app notification??-->
 
 ## 移除記錄型別的許可權
+
+<!-- take this section out - this is what Lilit said: Because of "Everyone in the workspace can view" wildcard, currently it's not possible to entirely remove access to a record type. Let's take out this section. -->
 
 {{step1-to-planning}}
 
