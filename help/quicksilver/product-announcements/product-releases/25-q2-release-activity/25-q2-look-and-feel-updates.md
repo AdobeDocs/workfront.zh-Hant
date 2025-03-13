@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: a17f501e732e4ba72bf224c7dd9efef7f90b47e7
+source-git-commit: ece8b2b248c8dd4e27465fbacb1319a7e0fbac11
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '519'
 ht-degree: 0%
 
 ---
@@ -31,19 +31,15 @@ ht-degree: 0%
 * 新指派通知
 * 所有前置任務完成通知
 
-<!--
-
-## Look and feel updates to a Milestone Path list 
+## 里程碑路徑清單的外觀和感覺更新
 
 >[!NOTE]
 >
->Preview release: March 6, 2025; Production release for all customers: April 10, 2025
+>預覽版本： 2025年3月6日；適用於所有客戶的生產版本： 2025年4月10日
 
-We have updated the look and feel of the Milestone Path list in the Setup area, to match the design of other areas of Workfront.  
+我們已更新「里程碑路徑」清單在「設定」區域中的外觀和風格，以符合Workfront其他區域的設計方式。
 
-For information, see [Create a milestone path](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
-
--->
+如需詳細資訊，請參閱[建立里程碑路徑](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)。
 
 ## Workfront行事曆的外觀與操作更新
 
@@ -89,7 +85,7 @@ For information, see [Create a milestone path](/help/quicksilver/administration-
 
 >[!NOTE]
 >
->預覽版本： 2025年2月13日；適用於所有客戶的生產版本：搭配25.3版（2025年3月13日）
+>預覽版本： 2025年2月13日；適用於所有客戶的生產版本：搭配25.4版（2025年4月10日）
 
 我們已將「共用」對話方塊的外觀與風格更新為與Workfront其他區域一致的現代化設計。 視覺上有細微的差異，包括：
 
