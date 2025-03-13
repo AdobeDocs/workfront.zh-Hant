@@ -7,9 +7,9 @@ description: 您可以新增群組來管理報告和清單中資訊的配置。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: d050372e-c4a0-4c49-b220-5b35334ab8d0
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 69dec186cdb8a6d29853703edb41073282cdd447
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '813'
 ht-degree: 0%
 
 ---
@@ -64,13 +64,17 @@ ht-degree: 0%
 
 您可以彙總報告每欄的值，彙總分組行中報告顯示的資料。 如需群組內彙總資料行資料的詳細資訊，請參閱Adobe Workfront中的[檢視總覽](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)。
 
+
 >[!NOTE]
 >
->當您彙總分組中下列欄位的值時，下列例外情況適用於父系物件（例如父系任務）：
+>當您在>分組中彙總下列欄位的值時，下列例外情況適用於父物件（例如父系任務）：
 >
->* 除「實際時數」（例如「計畫/實際勞力成本」、「計畫/實際費用成本」、「計畫/實際成本」、「計畫時數」）之外的所有數字與幣別欄位，只會彙總子任務與獨立任務的值。 它們不會彙總父系任務的值或父系父系的值。
->* 實際小時彙總主要父系和獨立任務的值；它們不會彙總父系任務的父系或子系任務的數量。
+>* 所有數字、貨幣和日期欄位（「實際時數」除外），僅彙總子任務和獨立任務的值。 它們不會彙總父系任務的值或父系父系的值。 若將數字、貨幣和日期欄位彙總在僅包含父系任務的清單中，則不會在分組列中顯示彙總值。
+>
+>* 「實際小時」彙總主要父系和獨立任務的值；它們不會彙總子系任務的數字或父系任務的父係數字。<!--Examples of Actual hours include Planned/Actual Labor Cost, Planned/Actual Expense Cost, Planned/Actual Cost, and Planned Hours.-->
+>
 >* 數字和貨幣值的自訂資料欄位會彙總所有工作：父項、子項、父項的父項以及獨立工作。
+
 
 ### 依群組排序 {#sort-by-a-grouping}
 
@@ -84,3 +88,13 @@ ht-degree: 0%
 * **如果群組已與您共用，而您將其移除**，則僅會為您移除該群組。 原本建立該群組的使用者，以及與該群組共用的任何其他使用者，仍擁有該群組的存取權。
 
 如需有關移除群組的資訊，請參閱文章[移除篩選器、檢視和群組](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)。
+
+
+<!--Original note
+
+The following exceptions apply for parent objects (for example, parent tasks) when you are aggregating values for the following fields in groupings:
+All the number and currency fields except Actual Hours (for example, Planned/ Actual Labor Cost, Planned/ Actual Expense Cost, Planned/ Actual Cost, Planned Hours) aggregate only the values for the children tasks, and standalone tasks. They do not aggregate the values for the parent tasks or parents of parents.
+Actual Hours aggregate the values for the main parent and the standalone tasks; they do not aggregate the numbers for the parents of parent tasks or the children tasks.
+Custom data fields for number and currency values aggregate all tasks: parents, children, parents of parents, and standalone tasks.
+
+-->
