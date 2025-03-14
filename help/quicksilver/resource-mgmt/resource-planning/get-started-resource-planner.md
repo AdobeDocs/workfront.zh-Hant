@@ -7,14 +7,19 @@ description: 您可以使用「資源規劃工具」，估計並預算資源配�
 author: Lisa
 feature: Resource Management
 exl-id: 06cd2226-f94d-4b6a-8692-6d35210782f2
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: 696d656816a4c1c2edef4347567b2fc553f489f7
 workflow-type: tm+mt
-source-wordcount: '2082'
+source-wordcount: '2113'
 ht-degree: 0%
 
 ---
 
-# 資源規劃工具概觀
+# 資源規劃工具概觀 {#resource-planner-overview}
+
+>[!CONTEXTUALHELP]
+>id="wf-resourcing-planner"
+>title="資源規劃工具"
+>abstract="您可以使用「資源規劃程式」來預估與預算您的資源配置給其受指派的專案，以及預測其未來工作的可用性。"
 
 <!-- Audited: 12/2023 -->
 

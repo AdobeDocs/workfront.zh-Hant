@@ -7,14 +7,19 @@ description: 在專案經理透過建立任務來計畫專案工作之後，以�
 author: Lisa
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
-source-git-commit: 233e61c011cc87f49d0d4082a20b7790104c96c8
+source-git-commit: 696d656816a4c1c2edef4347567b2fc553f489f7
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1194'
 ht-degree: 0%
 
 ---
 
-# 工作負載平衡器總覽
+# 工作負載平衡器總覽 {#workload-balancer-overview}
+
+>[!CONTEXTUALHELP]
+>id="wf-resourcing-workload-balancer"
+>title="工作負載平衡器"
+>abstract="專案所有者和團隊經理可以使用工作負載平衡器將工作專案指派給使用者。"
 
 <!--
 <p>(NOTE: this is linked from the UI for the Workload Balancer page. DO NOT CHANGE TITLE OR LINK) </p>
@@ -30,7 +35,7 @@ ht-degree: 0%
 
 本文說明工作負載平衡器的一般用途，以及如何設定您的專案和資源以成功使用它的一些最佳實務。
 
-若要觀看工作負載平衡器的影片教學課程，請前往[WorkfrontTutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)頁面。 在左側功能表中，選取&#x200B;**管理資源** > **工作負載平衡器**，然後選擇教學課程。
+若要檢閱工作負載平衡器的影片教學課程，請前往[Workfront教學課程](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)頁面。 在左側功能表中，選取&#x200B;**管理資源** > **工作負載平衡器**，然後選擇教學課程。
 
 ## 找到工作負載平衡器
 
