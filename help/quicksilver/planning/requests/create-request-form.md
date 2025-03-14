@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
+source-git-commit: 7c39f54677be746ce6305124026df7df598b3da2
 workflow-type: tm+mt
-source-wordcount: '2084'
+source-wordcount: '2121'
 ht-degree: 1%
 
 ---
@@ -161,6 +161,7 @@ ht-degree: 1%
    記錄型別頁面會在您上次存取的檢視中開啟。 依預設，會在表格檢視中開啟記錄型別頁面。
 
 1. 按一下頁面標頭中記錄型別名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**建立請求表單** <span class="preview">或&#x200B;**管理請求表單** （如果您已經有表單，而且想要建立其他表單</span>）。
+1. <span class="preview">（條件式）若要新增其他表單，請按一下&#x200B;**新增請求表單**</span>。
 1. 更新要求表單的名稱。 依預設，表單的名稱為&#x200B;**未命名表單**。<!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. （選用）為要求表單新增&#x200B;**描述**。
 
@@ -271,7 +272,7 @@ ht-degree: 1%
 
    >[!TIP]
    >
-   ><span class="preview">共用日期過期後，Workfront的[要求]區域將不再提供要求表單。</span>
+   ><span class="preview">共用日期過期後，Workfront的「要求」區域中不再提供要求表單，且無法再存取與其他使用者共用的連結。</span>
 
 
 1. <span class="preview">（選擇性）</span>按一下&#x200B;**儲存並複製連結**&#x200B;以儲存表單的共用詳細資料。 如果表單先前已儲存，請按一下&#x200B;**複製連結**。
@@ -300,12 +301,20 @@ ht-degree: 1%
 1. <span class= "preview">按一下標題中&#x200B;**要求表單**&#x200B;左側的向左箭頭，以關閉要求表單表格。   </span>
 
    <span class= "preview">記錄型別頁面開啟。</span>
-1. （選擇性和條件性）從生產環境中，按一下標題中記錄型別名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後執行下列任一項作業：
-   * 按一下&#x200B;**更新要求表單**&#x200B;以變更要求表單。
-   * 按一下&#x200B;**複製表單連結**&#x200B;以與其他人共用表單連結。
+1. （選擇性和條件性）若要編輯現有表單，請根據您使用的環境執行下列任一項作業：
 
-1. <span class="preview"> （選擇性和條件式）在預覽環境中，按一下標題中記錄型別名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**管理請求表單**。</span>
+   * 從生產環境：
 
-   <span class="preview">這會開啟[要求表單]表格檢視。</span>
-1. <span class="preview">按一下要求表單以開啟並編輯。</span>
-1. <span class= "preview">（選擇性）移至Workfront中的&#x200B;**要求**&#x200B;區域，並尋找共用表單以提交要求。 如需詳細資訊，請參閱[提交Adobe Workfront Planning要求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)。</span>
+      1. 按一下標題中記錄型別名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後執行下列其中一項作業：
+
+      1. 按一下&#x200B;**更新要求表單**&#x200B;以變更要求表單。
+      1. 按一下&#x200B;**複製表單連結**&#x200B;以與其他人共用表單連結。
+
+   * <span class="preview">從預覽環境：
+
+      1. 按一下標題中記錄型別名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**管理請求表單**。</span>
+
+         <span class="preview">這會開啟[要求表單]表格檢視。</span>
+
+      1. <span class="preview">按一下要求表單以開啟並編輯。</span>
+      1. <span class= "preview">（選擇性）移至Workfront中的&#x200B;**要求**&#x200B;區域，並尋找共用表單以提交要求。 如需詳細資訊，請參閱[提交Adobe Workfront Planning要求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)。</span>
