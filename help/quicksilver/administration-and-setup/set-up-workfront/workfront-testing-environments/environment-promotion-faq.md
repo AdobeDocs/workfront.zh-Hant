@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: b8d5abc996a3902a8ab8cdce9a8f8d92d4736db1
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 3%
@@ -26,7 +26,7 @@ ht-degree: 3%
 
 目前不支援跨網域環境升級。 您必須在相同網域中的環境之間升級。
 
-## Adobe業務平台/IMS是環境升級的先決條件嗎？
+## Adobe商業平台/IMS是提升環境的先決條件嗎？
 
 ### 解答
 
@@ -70,5 +70,4 @@ ht-degree: 3%
 ### 解答
 
 * 「使用現有」等同於「略過」或忽略部署，因為它對應到目標環境中的現有物件，而且不會進行任何變更。
-* 若要略過物件，建議移除
-不想從推進套件或直接從來源環境安裝的任何物件。 移除物件後，重新組裝封裝。
+* 若要略過物件，建議移除您不想從推進封裝或直接從來源環境安裝的任何物件。 移除物件後，重新組裝封裝。
