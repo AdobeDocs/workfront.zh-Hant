@@ -2,14 +2,14 @@
 product-area: projects
 navigation-topic: plan-a-project
 title: 計畫專案概述
-description: 計畫專案概述
+description: 瞭解什麼是專案、如何建立範圍與結構，以及重要概念，例如排程、時間表以及開始與完成日期。
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 3cbcc2dd2efb457f5f0c4213110af54230a23eb0
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1414'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 < see if you need to add something about approval settings and users's time off might add time to tasks' timelines - Ninja story 2019.3) </p>
 -->
 
-專案是Adobe Workfront中的大型工作專案。 您可以將專案劃分為較小工作專案的任務，例如任務。 可以將任務指派給負責完成任務的使用者或團隊。 當所有使用者完成其任務時，專案也會變得完成。
+專案是Adobe Workfront中的大型工作專案。 您可以將專案劃分為較小工作專案的任務。 可以將任務指派給負責完成任務的使用者或團隊。 當所有使用者完成其任務時，專案也會變得完成。
 
 除了在專案中計畫您的任務外，許多其他詳細資訊也會進入計畫專案。 從判斷經濟影響到考量資源可用性，有許多專案元素需要注意。
 
