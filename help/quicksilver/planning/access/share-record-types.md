@@ -4,7 +4,7 @@ description: 您可以與其他人共用記錄型別，以確保在使用Adobe W
 hide: true
 hidefromtoc: true
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 08c9eb508861d585d8f76de5bb523132f3be371f
+source-git-commit: 4df268c9b5a99991bee3f1862c83fe0079d162c1
 workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 0%
@@ -17,6 +17,8 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog-->
+
+<!-- take the Remove permissions section out, at the end - this is what Lilit said: Because of "Everyone in the workspace can view" wildcard, currently it's not possible to entirely remove access to a record type. Let's take out this section. -->
 
 # 共用記錄型別
 
@@ -196,6 +198,25 @@ recommendations: noDisplay, noCatalog-->
 
 1. 與他人共用複製的連結。 收到連結的使用者必須是作用中使用者，並登入Workfront，才能存取記錄型別頁面並在選取的檢視中顯示該頁面。
 
+## 移除記錄型別的許可權
+
+{{step1-to-planning}}
+
+1. 開啟您要停止共用其記錄型別的工作區，然後按一下記錄型別卡片。 這會開啟記錄型別頁面。
+
+1. 從任何檢視的索引標籤，按一下記錄型別右上角的&#x200B;**共用**。
+
+   **共用**&#x200B;方塊開啟。
+1. 尋找您要移除其許可權的使用者、群組、團隊、公司或工作角色，展開其名稱右側的許可權下拉式功能表，然後按一下&#x200B;**移除**。<!--check the screen shot below - the UI text for View might not be accurate-->
+
+   ![移除記錄型別共用下拉式清單上的選項](assets/remove-option-on-record-type-sharing-drop-down.png)
+
+1. 按一下「**儲存**」。
+
+   人員無法再存取該記錄型別。 他們仍可擁有工作區的許可權，除非您也將他們從工作區許可權中移除。
+
+   對於已從存取檢視中移除的使用者，不會通知他們不再擁有此存取權。
+
 <!-- This is not working yet: *************************** edit this before publishing, because this was not tested with record types - this section came from sharing views *******************: 
 
 ## Grant permissions to a record type from a permission request
@@ -222,25 +243,4 @@ Users who access a link to a record type to which they do not have permissions c
 1. Click the left-pointing arrow to the left of **Pending access requests**, then click **Save**.
 
    If you approved the request, the users are added to the sharing box of the view. The user requesting the permission receives an email confirmation that their request was approved. <!--will they also get an in-app notification??-->
-
-## 移除記錄型別的許可權
-
-<!-- take this section out - this is what Lilit said: Because of "Everyone in the workspace can view" wildcard, currently it's not possible to entirely remove access to a record type. Let's take out this section. -->
-
-{{step1-to-planning}}
-
-1. 開啟您要停止共用其記錄型別的工作區，然後按一下記錄型別卡片。 這會開啟記錄型別頁面。
-
-1. 從任何檢視的索引標籤，按一下記錄型別右上角的&#x200B;**共用**。
-
-   **共用**&#x200B;方塊開啟。
-1. 尋找您要移除其許可權的使用者、群組、團隊、公司或工作角色，展開其名稱右側的許可權下拉式功能表，然後按一下&#x200B;**移除**。<!--check the screen shot below - the UI text for View might not be accurate-->
-
-   ![移除記錄型別共用下拉式清單上的選項](assets/remove-option-on-record-type-sharing-drop-down.png)
-
-1. 按一下「**儲存**」。
-
-   人員無法再存取該記錄型別。 他們仍可擁有工作區的許可權，除非您也將他們從工作區許可權中移除。
-
-   對於已從存取檢視中移除的使用者，不會通知他們不再擁有此存取權。
 

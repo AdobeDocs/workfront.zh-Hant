@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 4df268c9b5a99991bee3f1862c83fe0079d162c1
 workflow-type: tm+mt
-source-wordcount: '4333'
+source-wordcount: '4611'
 ht-degree: 1%
 
 ---
@@ -232,6 +232,7 @@ OLD:
    * [建立日期](#created-date)
    * [上次修改者](#last-modified-by)
    * [上次修改日期](#last-modified-date)
+     <!--* [Object](#object-field-type)-->
 
    >[!IMPORTANT]
    >
@@ -248,7 +249,7 @@ OLD:
 
 1. 依照本文中[從頭開始建立欄位](#create-fields-from-scratch)一節的說明開始建立欄位，然後選取&#x200B;**單行文字**&#x200B;欄位型別。
 
-   ![](assets/single-line-text-field-type.png)
+   ![單行文字欄位型別](assets/single-line-text-field-type.png)
 
 1. 在&#x200B;**新欄位**&#x200B;索引標籤中新增下列資訊：
    * **名稱**：欄位型別的名稱，它將顯示在資料表或記錄的詳細資訊頁面中。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
@@ -273,7 +274,7 @@ OLD:
 
 1. 依照本文中[從頭開始建立欄位](#create-fields-from-scratch)一節的說明開始建立欄位，然後選取&#x200B;**段落**&#x200B;欄位型別。
 
-   ![](assets/paragraph-field-type.png)
+   ![段落欄位型別](assets/paragraph-field-type.png)
 
 
 1. 在&#x200B;**新欄位**&#x200B;索引標籤中新增下列資訊：
@@ -290,7 +291,7 @@ OLD:
 
 1. 依照本文中[從頭開始建立欄位](#create-fields-from-scratch)一節的說明開始建立欄位，然後選取&#x200B;**多重選取**&#x200B;欄位型別。
 
-   ![](assets/multi-select-field-type.png)
+   ![多重選取欄位型別](assets/multi-select-field-type.png)
 
 
 1. 在&#x200B;**新欄位**&#x200B;索引標籤中新增下列資訊：
@@ -319,7 +320,7 @@ OLD:
 
 1. 依照本文中[從頭開始建立欄位](#create-fields-from-scratch)一節的說明開始建立欄位，然後選取&#x200B;**單選**&#x200B;欄位型別。
 
-   ![](assets/single-select-field-type.png)
+   ![單一選取欄位型別](assets/single-select-field-type.png)
 
 
 1. 在&#x200B;**新欄位**&#x200B;索引標籤中新增下列資訊：
@@ -348,7 +349,7 @@ OLD:
 
 1. 依照本文中[從頭開始建立欄位](#create-fields-from-scratch)一節的說明開始建立欄位，然後選取&#x200B;**日期**&#x200B;欄位型別。
 
-   ![](assets/date-field-type.png)
+   ![日期欄位型別](assets/date-field-type.png)
 
 
 1. 在&#x200B;**新欄位**&#x200B;索引標籤中新增下列資訊：
@@ -377,9 +378,17 @@ OLD:
 
 數字欄位型別會以數字格式擷取資訊。
 
+>[!TIP]
+>
+>數字欄位會在請求表單產生器中顯示為「單行」文字欄位型別。
+>
+>但是，欄位格式會保留，並且這些欄位的值將在提交請求後、在記錄型別和請求詳細資訊頁面中顯示為數字。
+>如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
+
+
 1. 依照本文中[從頭開始建立欄位](#create-fields-from-scratch)一節的說明開始建立欄位，然後選取&#x200B;**數字**&#x200B;欄位型別。
 
-   ![](assets/number-field-type.png)
+   ![數字欄位型別](assets/number-field-type.png)
 1. 在&#x200B;**新欄位**&#x200B;索引標籤中新增下列資訊：
 
    * **名稱**：欄位型別的名稱，它會出現在資料表或記錄頁面中。
@@ -399,9 +408,17 @@ OLD:
 
 百分比欄位型別會以數字格式擷取資訊，後面接著百分比符號。
 
+>[!TIP]
+>
+>百分比欄位在請求表單產生器中顯示為單行文字欄位型別。
+>
+>但是，欄位格式會保留，並且這些欄位的值將在提交請求後，在記錄型別和請求詳細資訊頁面中顯示為百分比。
+>如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
+
+
 1. 依照本文中[從頭開始建立欄位](#create-fields-from-scratch)一節的說明開始建立欄位，然後選取&#x200B;**百分比**&#x200B;欄位型別。
 
-   ![](assets/percentage-field-type.png)
+   ![百分比欄位型別](assets/percentage-field-type.png)
 
 1. 在&#x200B;**新欄位**&#x200B;索引標籤中新增下列資訊：
    * **名稱**：欄位型別的名稱，它會出現在資料表或記錄頁面中。
@@ -431,9 +448,16 @@ OLD:
 
 貨幣欄位型別會以數字格式擷取資訊，前面加貨幣符號。
 
+>[!TIP]
+>
+>貨幣欄位在請求表單產生器中顯示為單行文字欄位型別。
+>
+>但是，欄位格式會保留，並且這些欄位的值將在提交請求後，在記錄型別和請求詳細資訊頁面中顯示為貨幣。
+>如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
+
 1. 依照本文中[從頭開始建立欄位](#create-fields-from-scratch)一節的說明開始建立欄位，然後選取&#x200B;**貨幣**&#x200B;欄位型別。
 
-   ![](assets/currency-field-type.png)
+   ![貨幣欄位型別](assets/currency-field-type.png)
 
 1. 在&#x200B;**新欄位**&#x200B;索引標籤中新增下列資訊：
    * **名稱**：欄位型別的名稱，它會出現在資料表或記錄頁面中。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
@@ -456,7 +480,7 @@ OLD:
 
 1. 依照本文中[從頭開始建立欄位](#create-fields-from-scratch)一節的說明開始建立欄位，然後選取&#x200B;**核取方塊**&#x200B;欄位型別。
 
-   ![](assets/checkbox-field-type.png)
+   ![核取方塊欄位型別](assets/checkbox-field-type.png)
 
 1. 在&#x200B;**新欄位**&#x200B;索引標籤中新增下列資訊：
    * **名稱**：欄位型別的名稱，它會出現在資料表或記錄頁面中。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
@@ -473,7 +497,7 @@ OLD:
 
 1. 依照本文中[從頭開始建立欄位](#create-fields-from-scratch)一節的說明開始建立欄位，然後選取&#x200B;**公式**&#x200B;欄位型別。
 
-   ![](assets/new-formula-field-with-list-of-expressions.png)
+   ![新的公式欄位，包含運算式清單](assets/new-formula-field-with-list-of-expressions.png)
 
 1. 在&#x200B;**新欄位**&#x200B;索引標籤中新增下列資訊：
 
@@ -483,7 +507,7 @@ OLD:
 
 1. 按一下選取的運算式以顯示定義並檢視其格式。
 
-   ![](assets/description-of-formula-expression.png)
+   ![公式運算式的描述](assets/description-of-formula-expression.png)
 
    如需支援哪些運算式的詳細資訊，請參閱[公式欄位概觀](/help/quicksilver/planning/fields/formula-fields.md)。
 
@@ -501,7 +525,7 @@ OLD:
    >
    >* 您可以參照與目前記錄型別相距最多4個欄位（和物件）的欄位。 例如，如果您正在建立「活動」記錄型別(1)的公式欄位，且「活動」已連線至「促銷活動」記錄型別(2)，而該記錄型別已連線至「Workfront專案」(3)，則您可以在針對「活動」記錄型別建立的公式中，參考專案的「預算」欄位(4)。
    >
-   >![](assets/formula-example-project-budget-four-fields-removed.png)
+   >![公式範例專案預算四個欄位已移除](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
 1. 在&#x200B;**格式**&#x200B;欄位中，從下列選項中選取，以識別公式型別欄位中顯示結果的格式：
@@ -516,7 +540,7 @@ OLD:
      >
      >我們建議將標籤用於顯示陣列的欄位。 在這種情況下，每個陣列成員都會顯示為個別標籤。
 
-     ![](assets/formula-field-formats-list-with-tag-selected-highlighted.png)
+     ![公式欄位格式清單，標籤已選取反白顯示](assets/formula-field-formats-list-with-tag-selected-highlighted.png)
 
    * **日期**：公式欄位的結果顯示為日期。
 
@@ -536,11 +560,15 @@ OLD:
 
 >[!TIP]
 >
->當您在「人員」欄位中新增使用者名稱時，使用者名稱及其主要工作角色會顯示在該欄位中。
+>* 當您在「人員」欄位中新增使用者名稱時，使用者名稱及其主要工作角色會顯示在該欄位中。
+>
+>* 在請求表單產生器中，人物欄位會顯示為參考（或連線）欄位型別。
+>
+>如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
 
 1. 依照本文中[從頭開始建立欄位](#create-fields-from-scratch)一節的說明開始建立欄位，然後選取&#x200B;**人員**&#x200B;欄位型別。
 
-   ![](assets/people-field-type.png)
+   ![人員欄位型別](assets/people-field-type.png)
 
 1. 在&#x200B;**新欄位**&#x200B;索引標籤中新增下列資訊：
    * **名稱**：欄位型別的名稱，它會出現在資料表或記錄頁面中。
@@ -561,7 +589,7 @@ OLD:
 
 1. 依照本文中[從頭開始建立欄位](#create-fields-from-scratch)一節的說明開始建立欄位，然後選取&#x200B;**建立者**&#x200B;欄位型別。
 
-   ![](assets/created-by-field-type.png)
+   ![由欄位型別](assets/created-by-field-type.png)建立
 
 1. 在&#x200B;**新欄位**&#x200B;索引標籤中新增下列資訊：
 
@@ -579,7 +607,7 @@ OLD:
 
 1. 依照本文中[從頭開始建立欄位](#create-fields-from-scratch)一節的說明開始建立欄位，然後選取&#x200B;**建立日期**&#x200B;欄位型別。
 
-   ![](assets/created-date-field-type.png)
+   ![已建立日期欄位型別](assets/created-date-field-type.png)
 
    <!--check the image above - added bug fix for UI text changes-->
 
@@ -612,7 +640,7 @@ OLD:
 
 1. 依照本文中[從頭開始建立欄位](#create-fields-from-scratch)一節的說明開始建立欄位，然後選取&#x200B;**上次修改者**&#x200B;欄位型別。
 
-   ![](assets/last-modified-by-field-type.png)
+   ![上次修改者欄位型別](assets/last-modified-by-field-type.png)
 
 1. 在&#x200B;**新欄位**&#x200B;索引標籤中新增下列資訊：
 
@@ -630,7 +658,7 @@ OLD:
 
 1. 依照本文中[從頭開始建立欄位](#create-fields-from-scratch)一節的說明開始建立欄位，然後選取&#x200B;**建立日期**&#x200B;欄位型別。
 
-   ![](assets/last-modified-date-field-type.png)
+   ![上次修改日期欄位型別](assets/last-modified-date-field-type.png)
 
    <!--check the image above - added bug fix for UI text changes-->
 
@@ -656,6 +684,52 @@ OLD:
 1. 按一下「**建立**」。
 
    新的上次修改日期型別欄位會新增為記錄型別的欄，其值會預先填入上次修改記錄的日期（或日期和時間）。
+
+<!--
+
+## Object field type
+
+You can use the Object field type when you need to store several fields that might include several pieces of information. For example, you can store the source, code, error message, or details of an object in one field. In this case, instead of having several separate single-line text fields for that, you can use an Object field to store all information in one place. 
+
+For example, when using an Object-type field, you can store the following type of information: 
+
+```
+"{
+""source"": ""string"",
+""code"": ""string"",
+""subCode"": ""string"",
+""message"": ""string"",
+""details"": ""string""
+}"
+
+```
+
+You can also store an array of values in one field and you would rather rely on user input for each element of the array, instead of using a multi-select field type for the same purpose. For example, you can store information in the following format: 
+
+`["EMEA", "APAC"] `
+
+Consider the following when using Object-type fields:
+
+* In addition to strings and arrays, you can store other value formats like HTML.
+* There is no format validation for this field. 
+* Object-type fields have a limit of 10,000 characters.
+
+Create an Object field: 
+
+1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Created date** field type.
+
+    ![Object field type](assets/object-field-type.png)
+
+1. Add the following information in the **New field** tab:
+
+     * **Name**: The name of the field type, as it will appear in a table or the record page. (***********this might change and they might prepopulate it with "Created date"********)
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
+
+1. Click **Create**.
+
+    The new Object-type field is added as a column to the record type.
+
+-->
 
 ## 透過連線記錄型別建立欄位
 
