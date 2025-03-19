@@ -4,7 +4,7 @@ description: 您可以與其他人共用記錄型別，以確保在使用Adobe W
 hide: true
 hidefromtoc: true
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 3cbcc2dd2efb457f5f0c4213110af54230a23eb0
+source-git-commit: 08c9eb508861d585d8f76de5bb523132f3be371f
 workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 0%
@@ -243,3 +243,4 @@ Users who access a link to a record type to which they do not have permissions c
    人員無法再存取該記錄型別。 他們仍可擁有工作區的許可權，除非您也將他們從工作區許可權中移除。
 
    對於已從存取檢視中移除的使用者，不會通知他們不再擁有此存取權。
+
