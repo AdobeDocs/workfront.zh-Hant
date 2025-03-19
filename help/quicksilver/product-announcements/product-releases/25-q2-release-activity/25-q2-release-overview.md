@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 3e9323b42037eec496cf5d1b000f5b91be998e1f
+source-git-commit: b115018560d37fd5d2741086b15b6c844ddf2505
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1226'
 ht-degree: 0%
 
 ---
@@ -189,6 +189,12 @@ Workfront版本編號代表每月和每季的版本追蹤。 第一個數字代�
 專案中的舊版敏捷檢視將在2025年3月13日的25.3版本中從Workfront移除。 您仍然可以按一下面板圖示，在專案的敏捷檢視中檢視您的任務。
 
 如需有關使用敏捷檢視的詳細資訊，請參閱[在敏捷檢視中管理專案](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md)。
+
+#### 增強型Analytics淘汰
+
+由於使用率低且不斷下降，我們已決定在2025年5月25日當週淘汰增強型分析產品。
+建議您考慮改用Data Connect產品。 Data Connect可讓您使用慣用的商業智慧工具，建立類似的可自訂視覺效果。
+如需關於此棄用的詳細資訊，請參閱[Enhanced Analytics棄用指南](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md)。
 
 ## 公告
 
