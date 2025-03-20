@@ -4,9 +4,10 @@ description: 2025年第二季專案增強功能
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1123c028a1971c7a66158b95642154e540dc3d0e
+exl-id: 32c0df18-2093-42c2-810a-015345d2fa7c
+source-git-commit: 35aa30973b5f942d3b22ad9f9338a509827f4656
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '159'
 ht-degree: 0%
 
 ---
@@ -17,6 +18,19 @@ ht-degree: 0%
 
 如需2025年第二季發行週期目前可用的所有變更清單，請參閱[2025年第二季發行概觀](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)。
 
+## 案頭校訂檢視器更新
+
+>[!NOTE]
+>
+>預覽版本： 2025年3月20日；適用於所有客戶的生產： 2025年3月20日
+
+案頭校訂檢視器已更新至2.1.45版。此更新可讓檢視器使用
+
+* Electron 35版
+* Chromium 134版
+
+此更新同時適用於Mac和Windows。
+
 ## 在檔案報告中一次編輯多個檔案
 
 >[!NOTE]
@@ -26,4 +40,3 @@ ht-degree: 0%
 您現在可以在檔案報告中一次編輯多個檔案。 您可以編輯說明並更新自訂表格。
 
 如需詳細資訊，請參閱[大量編輯檔案](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md)。
-
