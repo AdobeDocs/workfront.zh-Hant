@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 0%
+source-wordcount: '625'
+ht-degree: 1%
 
 ---
 
@@ -118,7 +118,7 @@ ht-degree: 0%
 
    顯示&#x200B;**您沒有存取權**&#x200B;頁面，通知您您沒有檢視或工作區的存取權。
 
-   ![](assets/request-access-to-view.png)
+   ![要求檢視的存取權](assets/request-access-to-view.png)
 
 1. （視條件而定）如果共用的連結是針對您有存取權的工作區的檢視，請按一下&#x200B;**以現有檢視開啟**。 如果您有存取工作區的許可權，記錄型別頁面會在預設檢視中開啟。
 
@@ -126,8 +126,8 @@ ht-degree: 0%
 
    所有具有檢視或工作區管理許可權的使用者都會收到下列存取請求通知：
    * 應用程式內通知
-     ![](assets/in-app-notification-for-access-request.png)
+     ![存取要求的應用程式內通知](assets/in-app-notification-for-access-request.png)
    * 電子郵件通知
-     ![](assets/email-notification-for-access-request.png)
+     ![存取要求的電子郵件通知](assets/email-notification-for-access-request.png)
 
 1. （視條件而定）當檢視或工作區管理員授予您檢視或工作區的許可權時，您會收到電子郵件通知和應用程式內通知，其中包含已授予許可權的確認。<!--check this - I was not able to test this, but Isk confirmed.-->

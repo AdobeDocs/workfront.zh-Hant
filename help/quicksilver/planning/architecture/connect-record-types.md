@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '2341'
+source-wordcount: '2407'
 ht-degree: 1%
 
 ---
@@ -187,13 +187,13 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 1. 按一下記錄型別的卡片以開啟記錄型別頁面。
 1. 按一下表格檢視右上角的&#x200B;**+**&#x200B;圖示，然後按一下&#x200B;**新增連線**&#x200B;索引標籤。
 
-   ![](assets/new-connection-tab-with-workfront-aem-options.png)
+   ![使用Workfront AEM選項的新連線標籤](assets/new-connection-tab-with-workfront-aem-options.png)
 
 1. 在&#x200B;**記錄型別**&#x200B;欄位中，搜尋記錄型別，或選取下列其中一項：
 
    * 來自目前工作區的另一個記錄型別
 
-     ![](assets/many-to-many-connection-picker.png)
+     ![許多對許多的連線選擇器](assets/many-to-many-connection-picker.png)
 
      >[!TIP]
      >
@@ -210,15 +210,15 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
      如需詳細資訊，請參閱[編輯記錄型別](/help/quicksilver/planning/architecture/edit-record-types.md)。
 
-     ![](assets/new-connection-allow-multiple-records-box.png)
+     ![新連線以允許多個記錄方塊](assets/new-connection-allow-multiple-records-box.png)
 
    * 來自&#x200B;**Workfront物件型別**&#x200B;區段的&#x200B;**專案、Portfolio、方案、公司**&#x200B;或&#x200B;**群組**。
 
-     ![](assets/workfront-project-connection-selection.png)
+     ![Workfront專案連線選擇](assets/workfront-project-connection-selection.png)
 
    * 來自&#x200B;**Experience Manager Assets應用程式**&#x200B;區段的&#x200B;**Adobe**。
 
-     ![](assets/aem-assets-connection-selection.png)
+     ![AEM Assets連線選擇](assets/aem-assets-connection-selection.png)
 
 1. 更新下列資訊：
 
@@ -233,7 +233,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
      只有在連線來自兩個不同工作區的記錄或記錄和Adobe Experience Manager資產物件時，才能使用此選項。
 
-     ![](assets/new-connection-allow-multiple-records-box.png)
+     ![新連線以允許多個記錄方塊](assets/new-connection-allow-multiple-records-box.png)
 
    * **連線型別**：選取下列其中一個選項，以指出它們可以連線到多少筆記錄，以及可從多少筆記錄連線：
 
@@ -244,7 +244,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
      此選項僅在連線來自相同工作區的記錄或記錄和Workfront物件型別時可用。
 
-     ![](assets/many-to-many-connection-picker.png)
+     ![許多對許多的連線選擇器](assets/many-to-many-connection-picker.png)
 
      如需連線型別的詳細資訊，請參閱[連線記錄型別概觀](/help/quicksilver/planning/architecture/connect-record-types-overview.md)。
 
@@ -303,7 +303,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
    按一下&#x200B;**-**&#x200B;圖示以從&#x200B;**選取的欄位**&#x200B;區域移除欄位
 
-   ![](assets/add-lookup-fields-for-another-maestro-record-type-box.png)
+   ![新增其他記錄型別方塊的查閱欄位](assets/add-lookup-fields-for-another-maestro-record-type-box.png)
 
    連結記錄或物件後，所連線欄位的值會自動填入。
 
@@ -328,7 +328,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    >
    >    如果您希望欄位能新增為時間軸和行事曆檢視的開始和結束日期，新增查閱日期欄位時必須選取彙總值。 例如，您可以選取MAX或查閱日期欄位的MIN彙總。
 
-   ![](assets/aggregator-drop-down-for-number-linked-field.png)
+   連結的編號欄位](assets/aggregator-drop-down-for-number-linked-field.png)的![彙總下拉式清單
 
    >[!NOTE]
    >
@@ -358,7 +358,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    >* **唯一**： $100,000
    >
 
-1. （選擇性）使用&#x200B;**搜尋**&#x200B;圖示![](assets/search-icon.png)來搜尋欄位。
+1. （選擇性）使用&#x200B;**搜尋**&#x200B;圖示![搜尋圖示](assets/search-icon.png)來搜尋欄位。
 
 1. 按一下&#x200B;**新增欄位**&#x200B;以儲存變更。
 
@@ -385,7 +385,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    * **編輯欄位**：更新欄位的&#x200B;**名稱**&#x200B;和&#x200B;**描述**&#x200B;資訊。
    * **編輯查閱欄位**：新增或移除任何連結記錄的欄位。
 
-   ![](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
+   ![編輯資料表資料行](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)中的欄位和查閱欄位下拉式功能表
 
    若要新增或移除查詢欄位，請遵循上述步驟16至17中的指示。<!--ensure these step numbers stay accurate-->
 

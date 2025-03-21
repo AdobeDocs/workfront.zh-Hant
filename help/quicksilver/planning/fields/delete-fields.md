@@ -6,9 +6,9 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 author: Alina
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '503'
 ht-degree: 1%
 
 ---
@@ -193,7 +193,7 @@ OLD:
 
 1. 在欄標題中尋找要刪除的欄位，並將滑鼠游標停留在欄標題上，然後按一下欄位名稱后面的向下箭頭。
 
-   ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
+   在表格標題中反白顯示的欄位名稱后面的![箭頭選單](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
 1. 按一下&#x200B;**刪除**。<!-- check this: they might replace it with **Delete field**-->
 

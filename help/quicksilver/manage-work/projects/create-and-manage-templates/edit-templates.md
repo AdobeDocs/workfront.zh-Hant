@@ -6,9 +6,9 @@ description: 您可以編輯專案範本以反映專案流程和設定的變更�
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '4854'
+source-wordcount: '4877'
 ht-degree: 2%
 
 ---
@@ -1098,7 +1098,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
   如需將核准程式與工作產生關聯的資訊，請參閱[將新的或現有的核准程式與工作產生關聯](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)。
 
-* 收費率
+* 計費費率
 
   如需有關覆寫專案收費率的詳細資訊，請參閱[覆寫工作角色收費率和計算專案收入的概觀](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)。
 
@@ -1106,9 +1106,16 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
   如需新增費用的詳細資訊，請參閱[管理專案費用](../../../manage-work/projects/project-finances/manage-project-expenses.md)。
 
+* 佇列詳細資訊
+
+  如需有關將佇列詳細資料新增至專案或範本的資訊，請參閱[建立請求佇列](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
+
 * 主題群組與佇列主題
 
-  如需有關將主題群組和佇列主題新增至專案或範本的詳細資訊，請參閱[建立請求佇列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
+  如需有關將主題群組和佇列主題新增至專案或範本的資訊，請參閱下列文章：
+
+   * [建立主題群組](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
+   * [建立佇列主題](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
 
 您可以將下列專案新增至範本中的任務：
 

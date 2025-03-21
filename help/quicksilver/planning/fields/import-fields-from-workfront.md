@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 994594f2-a888-423a-bf66-0d14baf57c55
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '709'
 ht-degree: 7%
 
 ---
@@ -169,11 +169,11 @@ Workfront Planning不支援所有其他Workfront欄位型別。
    將游標暫留在任何欄的標頭上，按一下欄位名稱后面的向下箭頭，然後按一下&#x200B;**插入左側**&#x200B;或&#x200B;**插入右側**&#x200B;以新增欄位。
 1. 按一下&#x200B;**新增欄位**&#x200B;索引標籤右下角的&#x200B;**新增現有**。<!--check UI - did they change this??-->
 
-   ![](assets/add-existing-fields-from-workfront-modal.png)
+   ![從Workfront強制回應視窗新增現有欄位](assets/add-existing-fields-from-workfront-modal.png)
 
 1. 開始在搜尋區域中輸入現有Workfront欄位的名稱，然後按一下清單中顯示&#x200B;**+**。
 1. （選擇性）輸入其他欄位，然後在清單中顯示&#x200B;**+**&#x200B;時按一下。
-1. （選擇性）按一下&#x200B;**篩選器**&#x200B;圖示![](assets/filters-in-import-fields-icon.png)，然後更新下列一個或兩個欄位：
+1. （選擇性）按一下&#x200B;**篩選器**&#x200B;圖示![匯入欄位中的篩選器圖示](assets/filters-in-import-fields-icon.png)，然後更新下列其中一個或兩個欄位：
 
    * 物件型別：選取您要匯入其欄位的Workfront物件型別。
    * 自訂表單：從Workfront中選取一個或多個自訂表單。 您可以不先選取物件型別而選取自訂表單。

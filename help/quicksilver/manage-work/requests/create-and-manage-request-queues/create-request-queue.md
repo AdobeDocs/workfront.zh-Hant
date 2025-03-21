@@ -8,10 +8,10 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '2653'
-ht-degree: 2%
+source-wordcount: '2799'
+ht-degree: 1%
 
 ---
 
@@ -24,9 +24,32 @@ ht-degree: 2%
 <THIS IS CONNECTED TO THE PRODUCT IN BLUEPRINTS. DO NOT MOVE/ CHANGE URL>
 -->
 
+<!--remove/ hide the entire "create requests in Production" section and just edit and leave  only the preview section when it releases to Production; also remove the template blurb when the queue details is unshimmed for templates-->
+
+<!--
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   
+
+-->
+
 您可以設定請求佇列，讓使用者可輸入專案上未計畫工作的臨時請求。 例如，服務檯請求佇列可設定為擷取所有來到IT部門的使用者請求。
 
-本文說明如何建立請求佇列，讓使用者可以在其中提交請求。 如需有關如何提交新請求至請求佇列的資訊，請參閱[複製並提交請求](../create-requests/copy-and-submit-requests.md)。
+請求成為Adobe Workfront中的問題，並會新增至專案。
+
+設定請求佇列可協助將新增至專案之問題的相關資訊正規化。 所有提交至專案的問題都將以相同方式提交，並遵循相同路徑完成。
+
+您可以在Workfront中將下列物件設定為請求佇列：
+
+* 專案
+* 範本。 從設定為請求佇列的範本建立的專案將變成請求佇列。
+
+若要將專案或範本設定為請求佇列，您必須編輯專案或範本的佇列詳細資訊區域。
+
+本文說明如何將專案設定為請求佇列，讓使用者可以在其中提交請求。 為範本設定佇列詳細資訊類似於在專案上設定它們。
+
+如需有關如何提交新請求至請求佇列的資訊，請參閱[複製並提交請求](../create-requests/copy-and-submit-requests.md)。
 
 ## 存取需求
 
@@ -64,38 +87,6 @@ ht-degree: 2%
 
 +++
 
-
-<!--old access levels: 
-You must have the following access to perform the steps in this article:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p><b>NOTE</b></p> 
-   
-   <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p> Manage permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-*To find out what plan, license type, or access you have, contact your Workfront administrator
--->
-
 ## 請求佇列總覽
 
 您可以將請求佇列設定為專案。 將專案指定為請求佇列時，可從Adobe Workfront的請求區域存取佇列。 自訂「請求佇列」時，也會自訂使用者提交請求時填寫的表單。
@@ -127,6 +118,19 @@ You must have the following access to perform the steps in this article:
 
 ## 建立請求佇列
 
+<!-- 
+
+Creating a request queue differs depending on what environment you use. 
+
+### Create a Request Queue in the Production environment
+
+This section describes how you can define Queue Details for the following objects:
+
+* A project in the Production environment
+* A template in the Production or Preview environment
+
+-->
+
 將專案設定為請求佇列時，專案狀態必須為目前才能顯示在Workfront的請求區域中。
 
 >[!TIP]
@@ -142,11 +146,11 @@ You must have the following access to perform the steps in this article:
 
    這會開啟佇列詳細資訊區段。
 
-   ![](assets/classic-queue-setup-top-of-the-setup-form-350x248.png)
+   ![佇列詳細資料在區段](assets/classic-queue-setup-top-of-the-setup-form-350x248.png)的最上方
 
 1. 指定下列資訊：
 
-   * **Publish作為說明要求佇列：**&#x200B;選取此選項可將此專案識別為要求佇列。 所有傳入問題都視為請求。\
+   * **發行為說明要求佇列：**&#x200B;選取此選項以將此專案識別為要求佇列。 所有傳入問題都視為請求。\
      若未選取此選項，專案的運作方式會類似Workfront中的標準專案，而所有傳入的問題都會是問題。
 
    * **誰可以新增要求至此佇列：**&#x200B;選取哪些使用者有權將要求新增至此佇列。 您可以允許下列群組的人在新增新請求時，於全域導覽列的「請求」區域中看到「請求佇列」：
@@ -154,9 +158,9 @@ You must have the following access to perform the steps in this article:
      | 誰可以輸入請求 | 說明 |
      |---|---|
      | 任何人 | 任何擁有有效帳戶的Workfront使用者都可以檢視此請求佇列並新增請求 |
-     | 擁有此專案檢視存取權限的人員 | 擁有專案檢視許可權的使用者可以檢視及新增請求至此佇列 |
-     | 專案公司人員 | 屬於與此專案相關聯之公司的使用者可以檢視請求並將其新增至此佇列。 如果專案有關聯的公司，則在此設定後方括弧內會列出公司名稱。 |
-     | 專案群組人員 | 屬於與此專案相關聯的群組的使用者可以檢視請求並將其新增到此佇列。 如果有與專案相關聯的群組，則該群組的名稱會以灰色字型列在此設定之後的括弧中。 |
+     | 擁有此專案檢視權限的人員 | 擁有專案檢視許可權的使用者可以檢視及新增請求至此佇列 |
+     | 專案公司中的人員 | 屬於與此專案相關聯之公司的使用者可以檢視請求並將其新增至此佇列。 如果專案有關聯的公司，則在此設定後方括弧內會列出公司名稱。 |
+     | 此專案群組中的人員 | 屬於與此專案相關聯的群組的使用者可以檢視請求並將其新增到此佇列。 如果有與專案相關聯的群組，則該群組的名稱會以灰色字型列在此設定之後的括弧中。 |
 
      {style="table-layout:auto"}
 
@@ -170,13 +174,13 @@ You must have the following access to perform the steps in this article:
 
       * **直接存取URL：**&#x200B;當使用者從瀏覽器存取此URL時，會直接將使用者帶到[要求]區域的[新增要求]區段，而且預設會為其選取此要求。
 
-        ![](assets/share-request-queue-with-direct-url-embedded-in-dashboard-nwe-350x118.png)
+        ![使用內嵌在儀表板](assets/share-request-queue-with-direct-url-embedded-in-dashboard-nwe-350x118.png)中的直接URL共用要求佇列
 
         >[!NOTE]
         >
         >您可以在控制面板中將「請求佇列」顯示為外部頁面。 在此情況下，會預先選取請求佇列，但您可以從「請求型別」欄位中選取任何其他請求佇列。 使用者可以變更請求型別。 也會顯示要求的導覽元件。
 
-      * **內嵌程式碼：**&#x200B;使用此HTML程式碼將要求佇清單單內嵌為任何HTML頁面中的iframe。\
+      * **內嵌程式碼：**&#x200B;使用此HTML程式碼將請求佇清單單內嵌為任何HTML頁面中的iframe。\
         如果使用者在檢視內嵌程式碼所在的頁面時，尚未通過Workfront驗證，則會顯示「Workfront登入」對話方塊。 使用者登入後，畫面會顯示「請求佇列」表單。
 
         >[!NOTE]
@@ -241,7 +245,7 @@ You must have the following access to perform the steps in this article:
    * **當有人提出要求時，自動授予：**&#x200B;當使用者對要求佇列提出要求時，會自動授予使用者您選擇給予該要求的許可權。 從下列許可權層級中選取：
 
       * **檢視存取權**
-      * **Contribute存取權**。 這是預設選取範圍。
+      * **貢獻存取權**。 這是預設選取範圍。
       * **管理存取權**
 
      如需Workfront許可權模型的相關資訊，請參閱[物件許可權共用簡介](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。\
@@ -292,7 +296,7 @@ You must have the following access to perform the steps in this article:
       </tbody> 
      </table>
 
-     ![](assets/nwe-new-issue-fields-area-with-documents-350x167.png)
+     ![含有檔案的新問題欄位區域](assets/nwe-new-issue-fields-area-with-documents-350x167.png)
 
    * **將所有選取和未選取的欄位顯示給：**&#x200B;選取您想要在新要求表單上檢視所有欄位的使用者。 以下選項可控制對表單上欄位的存取。
 
@@ -305,7 +309,7 @@ You must have the following access to perform the steps in this article:
    * **自訂Forms**：選取要與請求佇列關聯的自訂表單。 在此下拉式選單中僅問題自訂Forms可供選取。 提交至「請求佇列」的所有問題都會有與其關聯的選定表單。 您必須先建立問題自訂表單，才能看到它們顯示在佇列詳細資料區段中。
 如果您有多個與請求佇列相關的佇列主題，建議您改將自訂表單與佇列主題相關聯。 如需建立「請求佇列」之子區段的詳細資訊，請參閱[建立佇列主題](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)。
 
-     ![](assets/custom-forms-on-queue-details.png)
+     ![佇列上的自訂表單](assets/custom-forms-on-queue-details.png)
 
      如果您有多個與請求佇列相關聯的自訂表單，請拖放這些表單，以在&#x200B;**重新排序Forms**&#x200B;區段中依所需順序排序。
 
@@ -324,3 +328,226 @@ You must have the following access to perform the steps in this article:
 
    * 如需有關為請求佇列建立子區段的資訊，請參閱文章[建立佇列主題](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)和[建立主題群組](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)。
    * 如需將請求路由傳送給適當的受指派人、小組和適當的專案的資訊，請參閱[建立路由規則](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)。
+
+<!--
+
+<div class="preview">
+
+### Create a Request Queue in the Preview environment
+
+When you set up a project as a Request Queue, the project status must be Current in order to display in the Requests area of Workfront.
+
+>[!TIP]
+>
+>Your Workfront or group administrator might assign you to a custom Layout Template that might not include some of the sections described in the following steps.
+
+To create a Request Queue:
+
+1. Go to the project that you want to set up as a Request Queue.
+1. (Optional) Click **Project Details** in the left panel and add a **Description** to the project in the **Overview** area. This information displays on all new requests.
+1. Click **Queue Details** in the left panel. You might need to click **Show More**, then **Queue Details**.
+
+   This opens the Queue Details section.
+
+   ![Queue Type section in Queue Details area](assets/unshimmed-queue-type-section-queue-details-area.png)
+
+1. Specify the following information:
+
+   * **Publish as Help Request Queue**: Select this option to identify this project as a request queue. All incoming issues are considered Requests.  
+     When this option is not selected, the project behaves like a standard project in Workfront and all incoming issues are issues.
+   
+   * **Who can add requests to this queue?**: Select which users have access to add requests to this queue. You can allow the following groups of people to see the Request Queue in their Requests area of the Global Navigation Bar when they add a new request:
+
+     |Who can enter requests | Description|
+     |---|---|
+     | Anyone  |Any Workfront user with an active account can view this request queue and add requests to it |
+     | People with view access to this project |Users with View permissions to the project can view and add requests to this queue |
+     | People in this project's company |Users who belong to the company associated with this project can view and add requests to this queue. If there is a company associated with the project, the name of the company is listed in parentheses after this setting.  |
+     | People in this project's group |Users who belong to the group associated with this project can view and add requests to this queue. If there is a group associated with the project, the name of the group is listed in parentheses after this setting, in gray font.  |
+
+     {style="table-layout:auto"}
+
+   * (*************removed: **Share with these links:** - asked Lusine if this stays***********) Use the following options to provide direct access to the Request Queue and the forms associated with it to users outside of Workfront or to Workfront users using an embedded external page. 
+   
+    For information about embedding a request queue in a dashboard as an external page, see [Embed a request queue in a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-request-queue-dashboard.md).
+
+     Users must first have permissions to the Request Queue in order to gain direct access. Using either option described here does not automatically grant access to users.
+
+     >[!TIP]
+     >
+     >Users must first log in to Workfront before gaining access to the request queue when they access the Request Queue page from another application.
+
+      * **Direct Access URL:** When a user accesses this URL from a browser, the user is taken directly to the New Request  section in the Requests area and this request is selected by default for them.
+
+        ![New request box from Direct URL share](assets/new-request-box-from-direct-url-share.png)
+
+        >[!NOTE]
+        >
+        >You can display a Request Queue in a dashboard as an external page. In this case, the request queue is preselected, but you can select any other request queue from the Request Type field. Users submitting the request can select another Request Type. Topic Groups and Queue Topics also display.
+
+      * **Embed Code:** Use this HTML code to embed the request queue form as an iframe within any HTML page.  
+        If users are not already authenticated to Workfront when they view the page where the code is embedded, the Workfront login dialog box is displayed. After users log in, the Request Queue form is displayed.
+
+        >[!NOTE]
+        >
+        >When displaying a Request Queue in an iframe, only the request form displays, the request name is preselected and dimmed. User cannot change the Request type. Navigation components of the Requests area do not display.
+
+        In order for the request queue form to be displayed when using this embed code, your Workfront administrator must enable the "Allow embedding of Workfront in an iframe" setting in your system Setup area. 
+        
+        For more information about enabling embedding of Workfront in an iframe, see [Configure system security preferences](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md). If this setting is not enabled, the iframe is displayed as blank.
+
+        You can adjust various aspects of how the embedded form is displayed, as follows:
+
+        <table border="1" cellspacing="15"> 
+         <col> 
+         <col> 
+         <thead> 
+          <tr> 
+           <th> <p><strong>Functionality</strong> </p> </th> 
+           <th> <p><strong>Solution</strong> </p> </th> 
+          </tr> 
+         </thead> 
+         <tbody> 
+          <tr> 
+           <td> <p>Adjust the size of the frame</p> </td> 
+           <td> <p>Modify the "width" and "height" attributes.</p> <p>By default, the width is "500" and the height is "600"</p> </td> 
+          </tr> 
+          <tr> 
+           <td> <p>Direct users to a specific Queue Topic or Topic Group</p> </td> 
+           <td> <p>Add the "path" parameter to the src URL. You can find the path parameter by navigating to the desired Queue Topic or Topic Group in the non-embedded form and inspecting the URL.</p> </td> 
+          </tr> 
+          <tr> 
+           <td> <p>Show and allow users to change the pre-configured Topic Group drop-down list</p> </td> 
+           <td> <p>Use the "path" parameter by adding the <code>showPreSelectedOptions=true</code> parameter to the <code>src URL</code>.</p> </td> 
+          </tr> 
+          <tr> 
+           <td> <p>Detect when the form has been submitted</p> </td> 
+           <td> <p>Add a "message" event listener to your web page's window and checking if <code>event.data.type</code> is <code>requestSubmitted</code>. <code>event.data.newIssueID</code> will be set to the ID of the created issue.</p> </td> 
+          </tr> 
+         </tbody> 
+        </table>
+
+   * **Request Types:** In the **Queue Properties** section, select from the following options: 
+
+      * Bug Report
+      * Change Order
+      * Issue
+      * Request
+
+      This is a required field and you must select at least one option.
+
+      The Workfront administrator can rename the default request types. For more information about renaming the request types, see [Customize default issue types](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md).     
+
+     >[!NOTE]
+     >
+     >When users access the request queue from the Requests area, the Request Types display as a selection only if the Request Type is selected in both the Queue Details and the Queue Topic pages. 
+     >
+     >For information about setting up the Queue Topics area of a project, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+
+     Each type selected here will be available on the form (you can select more than one). Selecting more than one type can help organize multiple requests coming in.  
+     For example, if you are using the form on a request queue for an IT project, the following request types can come in to the queue: hardware, software, bug fixes, and issues.
+
+   * **Default Duration:** Enter a number for the Duration, then select from the drop-down menu one of the following duration units:
+
+      * Days
+      * Hours
+      * Minutes
+      * Weeks
+   
+    The default duration is the length of time it typically takes to complete an issue submitted to this request queue. This becomes the default for all incoming issues and can be modified manually. 
+    The Default Duration of an issue is the same as the Planned Hours on the issue. The Planned Completion Date of the issue calculates based on this field.  
+    If left unchanged, the default for the issue Duration is 1 day or 8 hours. 
+    If your Workfront administrator set the Typical Hours per Work Day as less than 8 hours in the Setup area, the Default Duration for issues is still 8 hours. 
+    For example, if the Typical Hours per Work Day is set to 7 hours i the Setup area of Workfront, the Default Duration for issues is 1.14 Days or 8 hours. 
+    For more information about how to set up the system Typical Hours per Work Day, see the "Timeline Calculations" section in the article [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+   
+   * **People from the same company will inherit the same permissions for all requests.**: When selected, all requests submitted to the queue are visible for users in the same company. Users can view these requests in the All Requests  section , located within the Requests area. At the time that this setting is enabled or disabled, it impacts all future requests; it does not retroactively impact information. 
+   * **When someone makes a request, automatically grant...:** When a user makes a request to the request queue, the user is automatically granted the level of permission that you choose to that request. Click the Access button to select from the following permissions levels: 
+
+      * **View Access** 
+      * **Contribute Access**. This is the default selection and the name of the Access button.
+      * **Manage Access**
+
+     For information about the Workfront permissions model, see [Overview of sharing permissions on objects](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).   
+     Setting permissions here saves time, rather than having to grant permissions individually, for each incoming request. Choosing this option impacts all future requests, but does not retroactively impact existing requests. 
+   
+   * **Default Approval**: Click the drop-down menu to select an approval process for this request queue. Only Issue Approval Processes are visible in this drop-down menu. All issues submitted to this queue will be associated with this approval process. Your Workfront administrator must define system-level approval processes before you can associate them with request queues. Users with administrative access to Approval processes can also create group-specific approval processes.
+
+     >[!IMPORTANT]
+     >
+     >If the group of the project changes, the group-specific approval process attached to existing issues becomes a single-use approval process. For more information about how changes to the group of the project or changes in the approval process affect approval settings, see [How group and approval process changes affect assigned approval processes](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md).
+
+     If you have multiple queue topics associated with a request queue, we recommend that you associate approval processes with the queue topics instead. 
+     
+     For more information about creating queue topics, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md). 
+   
+     Consider the following when adding approval processes to request queues:
+
+      * Only active issue approval processes display in the list. 
+      * System-wide and group-specific issue approval processes display in the list. An approval process associated with a group other than that of the project does not display in the list.
+
+   * **Default Route**: Click the drop-down menu to select a routing rule for this request queue. Routing rules automatically assign new issues submitted to a request queue to the correct resource (user, job role, or team), and to the correct project. All issues submitted to this queue will be associated with this routing rule. You must configure Routing Rules before they display in the Queue Details section and before you can associate them with request queue.  
+     If you have multiple queue topics associated with a request queue, we recommend that you associate routing rules with the queue topics instead. For more information about creating routing rules, see [Create Routing Rules](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
+   
+   * **New Issue Fields:** In the **Show the following selected fields to all users** section, select the fields that you want to be visible to all users who submit a request to the project or add an issue to this project or to the project's tasks.
+
+      >[!NOTE]
+      >
+      >* When you enable any of the Assigned to, Job Role, or the Team fields, they are always renamed to Assignments in the request form when users submit the request. You can only specify the type of assignment in the Queue Details area. 
+      >
+      >* If you selected Assigned To in the Queue Details area, you can enter only users in the Assignments field on the request form. In this case, you cannot enter job roles or a team. 
+   
+   * **Documents**: Select this option to display the Documents section in the new request form, then select where the document uploading section should be positioned. Select from the following:
+
+     <table style="table-layout:auto"> 
+      <col> 
+      <col> 
+      <tbody> 
+       <tr> 
+        <td role="rowheader">After custom forms</td> 
+        <td><span>The Documents section displays at the bottom of the request form.</span> </td> 
+       </tr> 
+       <tr> 
+        <td role="rowheader">Before custom forms</td> 
+        <td> <p><span>The Documents section displays between the Workfront fields and the custom fields of the request form.</span> </p> </td> 
+       </tr> 
+      </tbody> 
+     </table>   
+   
+     ![New issue fields and documents on Queue Details](assets/new-issue-fields-and-documents-on-queue-details.png)
+
+   * **Show all selected and unselected fields to:** Select which users should see all the fields on the new request form. The following options control the access to the fields on the form.
+    
+      |Which users can see all fields on the request form | Description|  
+      |---|---| 
+      | All Users (Plan Licenses) |All users who have a Plan license can see the selected as well as the unselected fields. |
+      | People with view access to this project (Plan License) |Those users with a Plan license that also have View rights to this project can see the selected as well as the unselected fields. The rest of the users who can submit requests to this project can see just the selected fields. |
+      | No Users |No users can see the unselected fields. All users who can submit requests to this project can only see the fields selected. This is the default selection. |
+  
+   * **Custom Forms**: Select a custom form to associate with the Request Queue from the drop-down menu. You can select multiple forms, then drag and drop them in the order you would like them to display in the request form. 
+   Only issue custom forms are available to select from this drop-down menu. All issues submitted to this request queue, added to the project or to its tasks will have the selected forms associated with them. 
+   You must create issue custom forms before you can see them displayed in the Queue Details section. 
+   If you have multiple queue topics associated with a request queue, we recommend that you associate custom forms with the queue topics instead. 
+   For more information, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+
+     ![Custom forms box on Queue Details](assets/custom-forms-box-on-queue-details.png)
+
+1. Continue selecting information for the settings in the **Email Queue Settings** area, to allow users to email requests to the request queue project. 
+
+    For more information, see [Enable users to email an issue into a Request Queue project](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md).
+
+1. Click **Save**.  
+   Your project has now been configured to be a Request Queue and users can now add requests to it. 
+
+1. (Optional) To enhance the Request Queue functionality, build additional sub-sections for your queue, as well as rules to route the incoming requests to the correct team, assignee or project.
+
+   * For information about creating sub-sections for the Request Queue, see the following articles
+    * [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)  
+    * [Create Topic Groups](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).  
+   
+      For information about routing the requests to the appropriate assignee, team, and appropriate project, see [Create Routing Rules](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
+
+
+</div>
+
+-->

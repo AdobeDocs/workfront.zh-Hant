@@ -8,14 +8,16 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1477'
 ht-degree: 0%
 
 ---
 
 # 建立問題
+
+<!--Audited: 03/2025-->
 
 <!--
 
@@ -46,25 +48,29 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>檢閱或更高版本以新增問題至專案或任務</p> <p>使用請求佇列請求或更高版本將問題新增為請求。</p> </td> 
+   <td> <p>新授權：</p>
+   <ul><li>投稿人或以上</li>
+   <li>輕度或以上以編輯任務或專案的問題區段中的問題</li></ul>
+   <p>目前的授權：</p>
+  <ul><li>要求或更高版本</li> <li>檢閱或更高版本以編輯任務或專案的問題區段中的問題</li></ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯問題的存取權</p> <p>檢視專案和任務的或更高存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需存取您存取層級中問題的相關資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">授與問題的存取權</a>。 如需Workfront管理員如何變更存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。 </p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>編輯問題的存取權</p> <p>檢視專案和任務的或更高存取權</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>投稿或更高的許可權，能夠新增問題至您建立問題的任務或專案</p> <p> 如需授與問題許可權的相關資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">共用問題</a></p> <p>如需請求其他許可權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>投稿或更高的許可權，能夠新增問題至您建立問題的任務或專案</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -81,76 +87,30 @@ ht-degree: 0%
 
 ## 準備新問題表單
 
-您的組織應已具備定義良好的流程，以便記錄問題的時間與方式。 設定此程式時，第一步是建立提交問題所需的表單。 無論您允許將問題直接新增到任務和專案，還是如果您有已提交問題的請求佇列，您可以定義哪些Workfront欄位，以及在使用者提交新問題時哪些自訂欄位可供使用，並且必須完成。 新問題表單可包含重要資訊，有助於快速解決問題。
+您的組織應已具備定義良好的流程，以便記錄問題的時間與方式。 設定此程式時，第一步是建立提交問題所需的表單。
 
-專案的新問題欄位會在將記錄問題的專案的佇列詳細資料區段中定義。 如需有關設定專案「佇列詳細資料」區段的資訊，請參閱[建立請求佇列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
+使用者可透過下列方式將問題新增至專案：
+
+* 直接新增至任務和專案。
+* 將它們提交至請求佇列。
+
+新問題表單可包含重要資訊，有助於快速解決問題。
+
+您可以將新問題表單設定為當使用者將問題新增至專案或其任務時，包含下列資訊：
+
+* 自訂欄位
+* 核准
+* 指定（路由規則）
+
+新問題或請求的欄位會在將記錄問題的專案的佇列詳細資料區段中定義。
+
+如需有關設定專案「佇列詳細資料」區段的資訊，請參閱[建立請求佇列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
 
 如需透過將問題提交至請求佇列來建立問題的相關資訊，請參閱本文中的[透過輸入新請求來建立問題](#create-issues-by-entering-a-new-request)區段。
 
 ## 使用新問題按鈕建立任務或專案上的問題
 
 在專案中定義新問題表單的欄位後，您可以開始建立問題。
-
-<!-- OLD UI: redesigned on Oct 26, 2023:
-
-Creating issues differs depending on which environment you choose to create the issue. 
-
-### Create issues on a task or project using the New Issue button in the Production environment
-
-To create an issue on a task or a project:
-
-1. Go to a project where you want to create the issue. 
-1. (Optional) If you want to log the issue for a task, go to the **Tasks** area, then click the name of a task. 
-1. Click the **Issues** section.
-
-   
-1. Click **New Issue**.
-
-  
-
-1. (Conditional) If the project creator created Queue Topics or Topic Groups on the project they are added to the new issue form. Specify the **Topic Group** or the **Queue Topic** of your new issue. Topic Groups and Queue Topics have names customized to your environment.  
-   For more information about creating Topic Groups, see [Create Topic Groups](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). For more information about creating Queue Topics, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
-
-   ![New issue screen](assets/new-issue-screen-when-creating-issue-from-list-project-level-nwe-350x422.png)
-
-   * If there is only one Queue Topic set on the project, it is displayed automatically.
-   * If the Topic Group does not have any Queue Topics or Topic Groups under it, nothing is available in the Topic Group drop-down.
-
-1. (Conditional) If the project creator allowed for the **Request Type** field to display on the New Issue form, select the type of your issue from the following options:
-
-   * Bug Report
-   * Change Order
-   * Issue
-   * Request  
-     Depending on how your Workfront administrator has configured your Project Preferences, the names of the issue types might be different for you. 
-
-   >[!TIP]
-   >
-   >The Request Types must be enabled in the Queue Details and as well as when creating the Queue Topic to display as a selection in the New Issue form. For information, see the following articles: 
-   >* [Create a Request Queue](../../requests/create-and-manage-request-queues/create-request-queue.md)
-   >  * [Create Queue Topics](../../requests/create-and-manage-request-queues/create-queue-topics.md)
-
-
-1. Add a name for the new issue in the **Issue Name** field. 
-1. Continue specifying the fields available in the **New Issue** form. For more information about the fields available as you enter a new issue, see [Edit issues](../../../manage-work/issues/manage-issues/edit-issues.md).
-
-   >[!IMPORTANT]
-   >
-   >Not all the issue-related fields are available in the New Issue form. The project creator enables the fields available when creating an issue when they define the Queue Details area of the project. For more information, see [Create a Requests Queue](../../requests/create-and-manage-request-queues/create-request-queue.md). 
-
-
-1. (Conditional) If the Queue Topics are associated with a custom form, that custom form will display in the **New Issue** form.  
-   Or  
-   If the project is associated with an issue custom form through the Queue Details area, the form displays in the **New Issue** form, after the default Workfront fields.
-
-   For information, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
-
-1. Click **Save New Issue.**
-
-Issues can be assigned to multiple users, job roles or to a team. For more information about assigning and managing requests, see [Manage work and team requests](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
-
-<!--When this is coming to Production, remove the "Production" section above and replace it with the following content:
--->
 
 若要在任務或專案上建立問題：
 
@@ -247,7 +207,7 @@ Issues can be assigned to multiple users, job roles or to a team. For more infor
 
 ## 輸入新請求以建立問題 {#create-issues-by-entering-a-new-request}
 
-您可以將專案指定為接收問題的接收器。 這類專案在Workfront中稱為請求佇列。 您可以透過主功能表中的請求區域存取請求佇列。
+您可以將專案指定為接收問題的接收器。 這類專案在Workfront中稱為請求佇列。 您可以從主功能表的請求區域存取請求佇列。
 
 >[!TIP]
 >

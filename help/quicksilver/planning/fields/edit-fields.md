@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '698'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-您可以編輯已在Adobe Workfront Planning中建立的欄位之欄位設定。
+您可以在Adobe Workfront Planning中編輯現有欄位的設定。
 
 如需有關建立Adobe Workfront Planning欄位的資訊，請參閱[建立欄位](/help/quicksilver/planning/fields/create-fields.md)。
 
@@ -99,72 +99,11 @@ ht-degree: 1%
 +++
 
 
-<!--
-OLD
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>New: Standard</p>
-   <p>Current: Plan</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configuration</p></td>
-   <td> <p>There are no access controls for Workfront Planning</p>  
-</td>
-  </tr>
-
-  <tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-
- </tbody>
-</table>
-
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
-
--->
-
 ## 編輯欄位設定的相關考量事項
 
 在變更欄位的設定之前，您必須考慮以下事項：
 
-* 如果您擁有該欄位所屬工作區的管理許可權，您可以編輯您建立的欄位或其他使用者建立的欄位。
-* 您可以在記錄型別表格中編輯欄位。
+* 您只能從記錄型別表中編輯欄位設定。
 * 您無法在記錄頁面或表格檢視之外的任何其他檢視中編輯欄位。
 * 儲存欄位後，您無法編輯欄位型別。
 * 如果先前選取的「數字」、「百分比」或「幣別」欄位在其附加的記錄中已有負值，則無法取消選取該欄位的「允許負數」設定。
@@ -181,6 +120,12 @@ OLD
   >當您變更欄位設定時，沒有警告或指示可能發生此資料遺失。
   >
   >不會通知其他使用者欄位設定已變更。
+
+* 您無法編輯已連線記錄中的現有查閱欄位。
+
+<!--replace he last bullet with thsi: 
+
+* <span class="preview">You can edit existing lookup fields from connected records.</span>-->
 
 <!--this is not yet true, but it might come later:
 * You can deselect Allow negative numbers option from a Number, Percentage, or Currency field after you save the field. 
@@ -207,7 +152,7 @@ OLD
 
    連按兩下欄位的欄標題。
 
-   ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
+   在表格標題中反白顯示的欄位名稱后面的![箭頭選單](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
 1. 更新欄位相關資訊，然後按一下&#x200B;**儲存**。<!--insert screen shot when finalized-->
 

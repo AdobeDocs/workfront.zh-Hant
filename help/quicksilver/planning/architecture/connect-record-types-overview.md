@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '1518'
+source-wordcount: '1541'
 ht-degree: 1%
 
 ---
@@ -93,7 +93,7 @@ ht-degree: 1%
      >
      >擁有工作區檢視或較高許可權的每個人皆可檢視查閱欄位中的資訊，無論其在連結物件型別應用程式中的許可權或存取層級，或其在其他工作區的許可權為何。
 
-     連結的記錄欄位前面有關聯圖示![](assets/relationship-field-icon.png)。
+     連結的記錄欄位前面有關聯圖示![關聯欄點陣圖示](assets/relationship-field-icon.png)。
 
      連結的欄位前面有識別欄位型別的圖示。 例如，連結（或查詢）欄位前面有圖示，表示欄位是數字、段落或日期。
 
@@ -118,7 +118,7 @@ ht-degree: 1%
 
 ### 多對多連線型別
 
-![](assets/many-to-many-connection-picker.png)
+![許多對許多的連線選擇器](assets/many-to-many-connection-picker.png)
 
 當您在記錄型別之間建立多對多連線時，您可以從兩種記錄型別中選取連線欄位中的多個記錄。
 
@@ -130,7 +130,7 @@ ht-degree: 1%
 
 ### 一對多連線型別
 
-![](assets/one-to-many-connection-picker.png)
+![一對多連線選擇器](assets/one-to-many-connection-picker.png)
 
 
 當您在記錄型別之間建立一對多連線時，您接著可以在目前記錄型別的連線欄位中選取多個記錄，但您連線的記錄型別中對應的連線欄位將只允許選取一個記錄。 在第二個記錄型別上自動建立的已連線記錄欄位會自動設定為多對一關係型別。
@@ -143,7 +143,7 @@ ht-degree: 1%
 
 ### 多對一連線型別
 
-![](assets/many-to-one-connection-picker.png)
+![多對一連線選擇器](assets/many-to-one-connection-picker.png)
 
 
 當您在記錄型別之間建立多對一連線時，您就可以只用所連線記錄型別中的一個記錄來連線目前記錄型別中的每個記錄。 在第二個記錄型別上自動建立的已連線記錄欄位會自動設定為一對多關係型別。
@@ -156,7 +156,7 @@ ht-degree: 1%
 
 ### 一對一連線型別
 
-![](assets/one-to-one-connection-picker.png)
+![一對一的連線選擇器](assets/one-to-one-connection-picker.png)
 
 當您在記錄型別之間建立一對一連線時，在這兩種記錄型別中，您只能將每筆記錄與另一記錄型別中的一個記錄連線。
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '1957'
+source-wordcount: '2047'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >從不同的工作區連線記錄或連線Experience Manager資產時，**連線型別**&#x200B;選項無法使用。 如需詳細資訊，請參閱[連線記錄型別概觀](/help/quicksilver/planning/architecture/connect-record-types-overview.md)。
+     >從不同工作區連線記錄或連線Experience Manager資產時，**連線型別**&#x200B;選項無法使用。 如需詳細資訊，請參閱[連線記錄型別概觀](/help/quicksilver/planning/architecture/connect-record-types-overview.md)。
 
    * **錄製外觀**：從下列選項中選擇：
       * **名稱和影像**：顯示連線記錄的名稱和縮圖或圖示。 依預設會選取此選項。
@@ -61,11 +61,11 @@ ht-degree: 0%
       * **影像**：只顯示連線記錄的縮圖或圖示。
    * **選取查閱欄位**：如果您保留選取此選項，則會接著開啟&#x200B;**新增查閱欄位**&#x200B;方塊，讓您將「產品」欄位與「促銷活動」記錄型別連結。 您可以按一下&#x200B;**跳過**&#x200B;以略過此步驟，並於稍後新增產品欄位。
 
-     ![](assets/new-connection-with-product-record-type.png)
+     ![產品記錄型別的新連線](assets/new-connection-with-product-record-type.png)
 
 1. （視條件而定）如果您在上一步選取了&#x200B;**選取查閱欄位選項**，請從與&#x200B;**產品**&#x200B;記錄型別相關的欄位清單中，按一下&#x200B;**預算**&#x200B;欄位的&#x200B;**+**&#x200B;圖示，然後按一下&#x200B;**新增欄位**。 這會建立名為&#x200B;**Budget （來自產品資訊）**&#x200B;的欄位，這是連結欄位的名稱。 「產品預算」的任何資訊都會顯示在此欄位中的促銷活動記錄。
 
-   ![](assets/add-fields-for-budget-field-for-connector-with-record-type.png)
+   ![為記錄型別的連線新增預算欄位的欄位](assets/add-fields-for-budget-field-for-connector-with-record-type.png)
 
    >[!TIP]
    >
@@ -84,17 +84,17 @@ ht-degree: 0%
 
       * **促銷活動**：這表示產品記錄型別是從促銷活動記錄型別連結的。
 
-     ![](assets/example-campaign-information-relationship-fields-from-product-record-table.png)
+     ![產品記錄資料表的行銷活動資訊關聯性欄位範例](assets/example-campaign-information-relationship-fields-from-product-record-table.png)
 
    >[!TIP]
    >
-   >    連結的記錄欄位前面有關聯圖示![](assets/relationship-field-icon.png)。
+   >    連結的記錄欄位前面有關聯圖示![關聯欄點陣圖示](assets/relationship-field-icon.png)。
 
 1. 從&#x200B;**Campaign**&#x200B;記錄型別表格檢視，在Campaign記錄型別頁面的表格中新增一列，以建立行銷活動。
 
 1. 在新行銷活動的&#x200B;**產品資訊**&#x200B;欄內按兩下。
 
-   ![](assets/connect-other-records-smaller-box-in-table-view.png)
+   ![在資料表檢視中連線其他較小的方塊](assets/connect-other-records-smaller-box-in-table-view.png)
 
 1. 執行下列其中一項：
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 
 1. （視條件而定）如果您在上一步中按一下&#x200B;**檢視全部**，會顯示&#x200B;**連線物件**&#x200B;方塊。
 
-   ![](assets/connected-objects-table-for-records.png)
+   ![記錄的已連線物件資料表](assets/connected-objects-table-for-records.png)
 
 1. 開始在搜尋方塊中輸入產品名稱，然後在其顯示在清單中時選取它
 
@@ -120,7 +120,7 @@ ht-degree: 0%
    * **產品資訊**&#x200B;欄位會針對選取的產品填入促銷活動記錄。
    * **預算（來自產品資訊）**&#x200B;欄位會填入每個所選產品的預算值，或所選產品的所有預算總計（如果您為彙總選取SUM）。
 
-   ![](assets/example-product-information-and-budget-relationship-fields-for-campaign-record-table.png)
+   ![行銷活動記錄資料表的產品資訊和預算關係欄位範例](assets/example-product-information-and-budget-relationship-fields-for-campaign-record-table.png)
 
    >[!TIP]
    >
@@ -159,7 +159,7 @@ ht-degree: 0%
    * **僅連結符合此條件的物件**：從&#x200B;**自訂表單**&#x200B;下拉式選單中選取自訂表單。 只有與指定表單相關聯的專案才可連線至行銷活動。 您可以選取多個表單。
    * **選取查閱欄位**：如果您保留選取此選項，則會接著開啟&#x200B;**新增查閱欄位**&#x200B;方塊，讓您連結具有行銷活動記錄型別的專案欄位。 您可以按一下[略過&#x200B;**略過**]以略過此步驟，並於稍後新增專案欄位。
 
-   ![](assets/new-connection-tab-with-workfront-option.png)
+   ![使用Workfront選項的新連線標籤](assets/new-connection-tab-with-workfront-option.png)
 
 1. （視條件而定）如果您在上一個步驟中選取&#x200B;**選取查閱欄位選項**，從與&#x200B;**專案**&#x200B;物件型別相關的欄位清單中，按一下&#x200B;**計畫收入**&#x200B;欄位的&#x200B;**+**&#x200B;圖示，然後按一下&#x200B;**新增欄位**。 這會建立名為&#x200B;**計畫收入（來自專案資訊）**&#x200B;的欄位，這是連結欄位的名稱。 「專案計畫收入」欄位中的任何資訊將自動針對「促銷活動」記錄顯示在此欄位中。
 
@@ -169,7 +169,7 @@ ht-degree: 0%
    >
    > 如果您選取「**無**」，而非「**總和**」，則會以逗號分隔個別計畫收入。
 
-   ![](assets/add-planned-revenue-project-field-to-new-connection.png)
+   ![將計畫收入專案欄位新增至新連線](assets/add-planned-revenue-project-field-to-new-connection.png)
 
    這會產生下列欄位：
 
@@ -180,13 +180,13 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >    連結物件欄位前面有關聯圖示![](assets/relationship-field-icon.png)。
+   >    連結物件欄位前面有關聯圖示![關聯欄點陣圖示](assets/relationship-field-icon.png)。
 
 1. 從&#x200B;**Campaign**&#x200B;記錄型別資料表檢視，在資料表中新增資料列，以建立行銷活動。
 
 1. 在新行銷活動的「專案資訊**」欄內按兩下。
 
-   ![](assets/connect-projects-smaller-box-in-table.png)
+   ![在資料表](assets/connect-projects-smaller-box-in-table.png)中連線較小的專案方塊
 
 1. 執行下列其中一項：
 
@@ -196,7 +196,7 @@ ht-degree: 0%
 
 1. （視條件而定）如果您在上一步中按一下&#x200B;**檢視全部**，會顯示&#x200B;**連線物件**&#x200B;方塊。
 
-   ![](assets/connect-projects-larger-box.png)
+   ![連線較大的專案](assets/connect-projects-larger-box.png)
 
 1. 開始在搜尋方塊中輸入專案名稱，然後在清單中顯示時選取它
 
@@ -214,7 +214,7 @@ ht-degree: 0%
       * **專案資訊**&#x200B;欄位會針對選取的專案填入Campaign記錄。
       * **計畫收入（來自產品資訊）**&#x200B;欄位會填入每個所選產品的預算值。 此為唯讀欄位。
 
-   ![](assets/project-linked-field-and-planned-revenue-in-campaign-table-highlighted.png)
+   ![行銷活動表格中強調的專案連結欄位和計畫收入](assets/project-linked-field-and-planned-revenue-in-campaign-table-highlighted.png)
 
    >[!TIP]
    >

@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f929806f-9087-4b64-be4b-70bbceaaeab0
-source-git-commit: 7c39f54677be746ce6305124026df7df598b3da2
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '584'
 ht-degree: 3%
 
 ---
 
 # 編輯和建立風險類型
+
+<!--Audited: 03/2025-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -46,7 +48,7 @@ Adobe Workfront有許多預設風險型別，您可以在計畫階段與專案�
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
    <td><p>新增：[！UICONTROL Standard]</p>
    或
    <p>目前： [！UICONTROL計畫]</p>
@@ -59,7 +61,7 @@ Adobe Workfront有許多預設風險型別，您可以在計畫階段與專案�
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+*如需此表格中資訊的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -95,10 +97,9 @@ Adobe Workfront有許多預設風險型別，您可以在計畫階段與專案�
 
    >[!TIP]
    >
-   >   當您連按兩下清單中風險型別的「名稱」或「說明」時，可以內嵌編輯風險型別資訊。
+   >   當您連按兩下風險型別清單中風險型別的「名稱」或「摘要」時，可以內嵌編輯風險型別資訊。
 
 1. （選擇性）變更風險型別的名稱和說明。
-
 
    **[!UICONTROL Name]**&#x200B;和&#x200B;**[!UICONTROL Description]**&#x200B;欄位有50個字元的字元限制。
 
@@ -130,7 +131,7 @@ Adobe Workfront有許多預設風險型別，您可以在計畫階段與專案�
    或
 
    按一下風險型別清單左下角的&#x200B;[!UICONTROL **新增更多風險型別**]，以內嵌新增風險型別。<!--add screen shot-->
-1. 輸入風險型別的&#x200B;**[!UICONTROL Name]** （必要）和&#x200B;**[!UICONTROL Description]** （選用）。
+1. 為風險型別新增&#x200B;**[!UICONTROL Name]** （必要）和&#x200B;**[!UICONTROL Description]** （選用）。
 
    **[!UICONTROL Name]**&#x200B;和&#x200B;**[!UICONTROL Description]**&#x200B;欄位有50個字元的字元限制。
 

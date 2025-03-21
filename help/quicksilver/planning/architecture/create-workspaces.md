@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 1%
+source-wordcount: '628'
+ht-degree: 2%
 
 ---
 
@@ -176,7 +176,7 @@ For more information about access requirements, see [Access requirements in Work
 
    系統會指出哪些作業記錄型別、分類法以及與每個範本相關聯的欄位數。
 
-   ![](assets/previewing-a-workspace-template.png)
+   ![預覽工作區範本](assets/previewing-a-workspace-template.png)
 
    如需Workfront Planning工作區範本的相關資訊，請參閱[工作區範本清單](/help/quicksilver/planning/architecture/workspace-templates.md)。
 
@@ -201,7 +201,7 @@ For more information about access requirements, see [Access requirements in Work
 
    或
 
-   暫留在區段名稱上，然後按一下&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，然後按一下&#x200B;**重新命名**&#x200B;以重新命名區段。
+   將游標暫留在區段名稱上，然後按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下&#x200B;**重新命名**&#x200B;以重新命名區段。
 
    >[!TIP]
    >

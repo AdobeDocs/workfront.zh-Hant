@@ -8,20 +8,24 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '2551'
+source-wordcount: '2522'
 ht-degree: 2%
 
 ---
 
 # 編輯問題
 
+<!--Audited: 03/2025-->
+
 您可以編輯您已建立的問題資訊，或其他使用者已建立的問題（如果他們與您共用問題）的相關資訊。
 
 您可以編輯單一問題，也可以編輯清單中的問題。 如需有關編輯清單中問題的資訊，請參閱[編輯清單中的問題](../../../manage-work/issues/manage-issues/edit-issues-in-a-list.md)。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -30,19 +34,21 @@ ht-degree: 2%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>要求或更高版本</p> <p>檢閱或更高授權以編輯任務或專案的問題區段中的問題</p> </td> 
+   <td> <p>新授權：</p>
+   <ul><li>投稿人或以上</li>
+   <li>輕度或以上以編輯任務或專案的問題區段中的問題</li></ul>
+   <p>目前的授權：</p>
+  <ul><li>要求或更高版本</li> <li>檢閱或更高版本以編輯任務或專案的問題區段中的問題</li></ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級*</td> 
-   <td> <p>編輯問題的存取權</p> <p><b>附註</b>
-
-如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需存取您存取層級中問題的相關資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">授與問題的存取權</a>。 如需Workfront管理員如何變更存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。 </p> </td>
-</tr> 
+   <td role="rowheader">存取層級</td> 
+   <td> <p>編輯問題的存取權</p>  </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
    <td> <p>為問題貢獻許可權，以編輯詳細資訊區域中的以下欄位： </p>
@@ -56,7 +62,9 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 編輯問題時的限制
 
@@ -254,14 +262,9 @@ ht-degree: 2%
       <tr> 
       <td role="rowheader">解決了</td> 
       <td>在您存取的問題獲得解決時完成的問題連結名稱。  </td> 
-     </tr>
-
-
-   </tbody> 
+     </tr> 
+    </tbody> 
    </table>
-
-
-
 
 
 1. 按一下&#x200B;**儲存**&#x200B;或繼續編輯下列區段。

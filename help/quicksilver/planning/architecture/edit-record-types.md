@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '714'
 ht-degree: 2%
 
 ---
@@ -159,15 +159,15 @@ OLD:
    工作區頁面隨即開啟，且記錄型別隨即顯示。
 1. 執行下列其中一項：
 
-   * 暫留在記錄型別的卡片上，然後按一下記錄型別卡片右上角的&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，然後按一下&#x200B;**編輯**
+   * 暫留在記錄型別的卡片上，然後按一下記錄型別卡片右上角的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**編輯**
 或
-   * 按一下記錄型別卡片以開啟記錄型別頁面，按一下記錄型別名稱右側的&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，然後按一下&#x200B;**編輯**。
+   * 按一下記錄型別卡片以開啟記錄型別頁面，按一下記錄型別名稱右側的&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下&#x200B;**編輯**。
 
-   ![](assets/more-menu-options-from-record-type-card.png)
+   ![更多記錄型別卡片中的功能表選項](assets/more-menu-options-from-record-type-card.png)
 
 1. 在&#x200B;**編輯記錄型別**&#x200B;方塊中，**外觀**&#x200B;索引標籤預設為開啟。
 
-   ![](assets/edit-record-type-box-appearance-tab.png)
+   ![編輯記錄型別方塊外觀索引標籤](assets/edit-record-type-box-appearance-tab.png)
 
    更新&#x200B;**外觀**&#x200B;索引標籤中的下列資訊：
 
@@ -179,7 +179,7 @@ OLD:
 
 1. （條件式）如果您是系統管理員，請按一下&#x200B;**編輯記錄型別**&#x200B;方塊中的&#x200B;**進階設定**&#x200B;索引標籤。
 
-   ![](assets/edit-record-type-box-advanced-settings-tab.png)
+   ![編輯記錄型別方塊進階設定索引標籤](assets/edit-record-type-box-advanced-settings-tab.png)
 
 1. （條件式）作為系統管理員，在&#x200B;**進階設定**&#x200B;標籤中更新下列資訊：
 
@@ -189,10 +189,10 @@ OLD:
 
 1. 按一下「**儲存**」。
 
-   工作區上的記錄型別卡片會在右上角顯示連線圖示![](assets/connect-from-other-workspaces-icon.png)，表示現在可以從其他工作區存取記錄。
+   工作區上的記錄型別卡片會在右上角顯示連線圖示![從其他工作區連線圖示](assets/connect-from-other-workspaces-icon.png)，表示現在可以從其他工作區存取記錄。
 
 1. （可選）從工作區區域按一下記錄型別卡以開啟記錄型別的頁面，然後重新命名標題中的記錄型別。
 
 1. （選擇性）若要編輯其他記錄型別，請從記錄型別頁面中，展開記錄型別名稱右側的向下箭頭，搜尋記錄型別，然後在其顯示在清單中時選取該記錄型別。
 
-   ![](assets/record-type-drop-down-on-record-type-page-with-search-box.png)
+   ![具有搜尋方塊的記錄型別頁面上的記錄型別下拉式清單](assets/record-type-drop-down-on-record-type-page-with-search-box.png)
