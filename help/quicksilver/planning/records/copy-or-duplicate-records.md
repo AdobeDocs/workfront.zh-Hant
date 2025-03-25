@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2fed8c96-0c9c-4662-a9c4-66dae507ff2a
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '605'
 ht-degree: 2%
 
 ---
@@ -175,13 +175,13 @@ OLD:
 
 1. 執行下列其中一項：
 
-   * 暫留在記錄名稱上，然後按一下內嵌記錄名稱的&#x200B;**更多**&#x200B;功能表，然後按一下&#x200B;**複製**&#x200B;圖示![](assets/duplicate-icon-gray.png) 。
+   * 暫留在記錄名稱上，然後按一下內嵌記錄名稱的&#x200B;**更多**&#x200B;功能表，然後按一下&#x200B;**複製**&#x200B;圖示![復製圖示（灰色](assets/duplicate-icon-gray.png)）。
 
-     ![](assets/more-menu-from-record-in-table-view.png)
+     在資料表檢視中從記錄取得![更多功能表](assets/more-menu-from-record-in-table-view.png)
 
-   * 選取記錄，然後按一下頁面底部工具列中的&#x200B;**複製**&#x200B;圖示![](assets/duplicate-icon-white-and-blue.png)。
+   * 選取記錄，然後按一下頁面底部工具列中的&#x200B;**複製**&#x200B;圖示![白色和藍色復製圖示](assets/duplicate-icon-white-and-blue.png)。
 
-     ![](assets/duplicate-icon-in-toolbar-in-table-view.png)
+     ![表格檢視中工具列中的重複圖示](assets/duplicate-icon-in-toolbar-in-table-view.png)
 
    在原始記錄下會建立具有相同名稱的相同記錄。 新記錄的所有欄位都會填入與原始記錄相同的資訊。
 

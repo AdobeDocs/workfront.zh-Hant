@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 0%
+source-wordcount: '662'
+ht-degree: 1%
 
 ---
 
@@ -163,7 +163,7 @@ OLD:
 
 1. （有條件且選用）有人在記錄上的評論中為您標籤後，請移至通知您標籤和評論的電子郵件通知。 電子郵件的寄件者為Adobe Experience Cloud。
 
-   ![](assets/email-notification-example.png)
+   ![電子郵件通知範例](assets/email-notification-example.png)
 
 1. （選擇性）按一下電子郵件內&#x200B;**Workfront**&#x200B;方塊中的訊息。
 
@@ -195,6 +195,6 @@ OLD:
 
 1. （選擇性）按一下&#x200B;**開啟請求**。 這會在Workfront Planning中開啟請求。
 
-1. 按一下畫面右上角的&#x200B;**通知**&#x200B;圖示![](assets/notifications-area-icon-unified-shell.png)以存取&#x200B;**通知**&#x200B;頁面。
+1. 按一下畫面右上角的&#x200B;**通知**&#x200B;圖示![通知區域圖示Unified Shell](assets/notifications-area-icon-unified-shell.png)以存取&#x200B;**通知**&#x200B;頁面。
 
    如需有關管理Workfront Planning通知的資訊，請參閱[管理Adobe Workfront Planning通知偏好設定](/help/quicksilver/planning/notifications/manage-notification-preferences.md)。

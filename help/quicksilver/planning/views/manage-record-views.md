@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1459'
 ht-degree: 1%
 
 ---
@@ -252,7 +252,7 @@ ht-degree: 1%
 
    會以選取的檢視建立新標籤。
 
-   視熒幕寬度而定，**更多**&#x200B;功能表![](assets/more-menu.png)中可能會顯示其他檢視。
+   視熒幕寬度而定，**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)中可能會顯示其他檢視。
 
 
 >[!TIP]
@@ -264,7 +264,7 @@ ht-degree: 1%
 >否則，「時間軸」和「行事曆」選項會變暗。
 >
 
-![](assets/view-types-drop-down-from-record-type-list.png)
+![記錄型別清單中的檢視型別下拉式清單](assets/view-types-drop-down-from-record-type-list.png)
 
 1. （視條件而定）建立時間表或行事曆檢視時，按一下&#x200B;**下一步**。
 
@@ -285,10 +285,10 @@ ht-degree: 1%
 1. 按一下「**建立**」。
 
    檢視會顯示為新標籤。 檢視會以建立或與您共用的時間順序顯示。
-1. （選擇性）按一下最後一個檢視旁的&#x200B;**更多**&#x200B;功能表![](assets/more-caret-down-icon-views.png)，以顯示所選記錄型別的所有檢視。
+1. （選擇性）按一下最後一個檢視旁的&#x200B;**更多**&#x200B;功能表![更多向下插入符號圖示檢視](assets/more-caret-down-icon-views.png)，以顯示所選記錄型別的所有檢視。
 
    最後一個檢視標籤之後的&#x200B;**更多**&#x200B;功能表下會顯示其他檢視。 **更多**&#x200B;功能表旁的數字會顯示其他檢視的數目。
-1. （選擇性）若要在建立檢視後重新命名，請按一下檢視下拉式功能表，然後按一下&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png) > **重新命名**&#x200B;以更新檢視名稱
+1. （選擇性）若要在建立檢視後重新命名，請按一下檢視下拉式功能表，然後按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png) > **重新命名**&#x200B;以更新檢視名稱
 
    或
 
@@ -315,7 +315,7 @@ ht-degree: 1%
 
    依預設，選取型別的所有記錄都會顯示在表格檢視中。
 
-1. 將游標暫留在檢視標籤中其中一個檢視名稱上，然後按一下檢視名稱左邊的&#x200B;**更多** ![](assets/more-menu.png)，然後按一下&#x200B;**刪除**。
+1. 將游標停留在檢視標籤中其中一個檢視名稱上，然後按一下檢視名稱左邊的&#x200B;**更多** ![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**刪除**。
 首先，您可能需要按一下最後一個標籤左側的**更多**，以尋找您要刪除的檢視。
 
 1. 按一下&#x200B;**刪除**&#x200B;確認。<!--ensure there is not another saving step here?!-->
@@ -345,9 +345,9 @@ ht-degree: 1%
    記錄型別頁面隨即開啟。
 依預設，所選型別的所有記錄都會顯示在表格檢視中。
 
-1. 將游標停留在您要複製的檢視的索引標籤上，然後按一下檢視名稱右側的&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，然後按一下&#x200B;**複製**。
+1. 將滑鼠停留在您要複製的檢視的索引標籤上，然後按一下檢視名稱右側的&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下&#x200B;**複製**。
 
-   ![](assets/view-more-menu-with-duplicate-option.png)
+   ![檢視包含重複選項的其他功能表](assets/view-more-menu-with-duplicate-option.png)
 
 
    檢視重複，新檢視的名稱遵循下列模式： `Original view's name (Copy)`。 新的檢視標籤會顯示在所有檢視標籤的末尾。
@@ -362,13 +362,13 @@ ht-degree: 1%
 1. （視條件而定）如果有其他使用者同時編輯所選型別的記錄，則其頭像會顯示在檢視的右上角。
 1. 按一下頭像旁的下拉式功能表，選取「**顯示共同作業人員**」切換按鈕。 依預設，會選取切換。
 
-   ![](assets/show-collaborators-toggle-selected.png)
+   ![顯示共同作業人員切換選取的專案](assets/show-collaborators-toggle-selected.png)
 
 1. （視條件而定）開啟表格檢視，另一個人正在主動編輯的欄位會以對應表格檢視中其顯示圖片外框的顏色反白。
 
    如果頭像的醒目提示顏色是灰色，使用者將在30秒前停止主動編輯記錄。
 
-   ![](assets/real-time-indicator-table-field-and-avatar-connection.png)
+   ![即時指標表格欄位和顯示圖片連線](assets/real-time-indicator-table-field-and-avatar-connection.png)
 
    >[!TIP]
    >

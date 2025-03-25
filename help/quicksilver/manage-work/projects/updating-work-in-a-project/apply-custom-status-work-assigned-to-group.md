@@ -6,9 +6,9 @@ description: 如果專案與群組相關聯，您可以將系統層級狀態以�
 author: Alina
 feature: Work Management
 exl-id: 7564ab6a-8ddf-4e76-8e45-d59f9cf8d38b
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '361'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,7 @@ Alina, I moved this out of an admin article about statuses (Create and customize
    >如果您在&#x200B;**群組**&#x200B;下拉式功能表中選取不同的群組，**狀態**&#x200B;功能表中的自訂狀態會自動變更，以便與新的群組建立關聯。
    >
    >
-   >![](assets/status-drop-down-expanded-with-custom-statuses-for-project-nwe.png)   >
+   >以專案](assets/status-drop-down-expanded-with-custom-statuses-for-project-nwe.png)的自訂狀態展開的![狀態下拉式清單   >
    >
 
 1. 選取專案狀態。 您建立並套用至該群組的自訂狀態會顯示在清單中。

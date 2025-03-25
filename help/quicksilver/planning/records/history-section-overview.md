@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 3%
+source-wordcount: '661'
+ht-degree: 4%
 
 ---
 
@@ -114,14 +114,14 @@ ht-degree: 3%
 1. 從任何檢視中，按一下記錄名稱。
 
    記錄的頁面隨即開啟。 「註解」區域預設會在右側面板中開啟。
-1. 按一下&#x200B;**顯示歷程記錄**&#x200B;圖示![](assets/show-history-icon.png)。 對記錄欄位所做的所有變更都會顯示在右側面板中，從最近的變更開始。
-1. （選擇性）按一下&#x200B;**隱藏歷程記錄**&#x200B;圖示![](assets/hide-history-icon.png)以關閉右側面板。
+1. 按一下&#x200B;**顯示歷程記錄**&#x200B;圖示![顯示歷程記錄圖示](assets/show-history-icon.png)。 對記錄欄位所做的所有變更都會顯示在右側面板中，從最近的變更開始。
+1. （選擇性）按一下&#x200B;**隱藏歷程記錄**&#x200B;圖示![隱藏歷程記錄圖示](assets/hide-history-icon.png)以關閉右側面板。
 
 ## 關於「歷史記錄」段落的考量事項
 
 您可以在記錄頁面的右側面板的「歷史記錄」區段中，檢閱對記錄欄位所做的變更。
 
-![](assets/history-area-in-comments.png)
+![註解中的歷程記錄區域](assets/history-area-in-comments.png)
 
 * Workfront Planning會在「歷史記錄」區段中記錄下列資訊：
 

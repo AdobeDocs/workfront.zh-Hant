@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: 6e772ed53cca2fe3756fc15b715693b8b1fbef34
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '780'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 ## 存取「規劃」區域的AI助理
 
-1. 登入Workfront，然後按一下熒幕右上角的&#x200B;**主功能表**&#x200B;圖示![](assets/dots-main-menu.png)，或左上角的&#x200B;**主功能表**&#x200B;圖示![](assets/lines-main-menu.png) （如果有的話）。
+1. 登入Workfront，然後按一下熒幕右上角的&#x200B;**主功能表**&#x200B;圖示![點主功能表](assets/dots-main-menu.png)，或左上角的&#x200B;**主功能表**&#x200B;圖示![行主功能表](assets/lines-main-menu.png) （若有）。
 
 。按一下&#x200B;**計畫**。 「規劃」區域隨即開啟。
 
@@ -88,11 +88,11 @@ ht-degree: 0%
 
 1. 按一下全域導覽列中熒幕右上角或記錄預覽或頁面右上角的&#x200B;**AI助理圖示**。
 
-   ![](assets/ai-assistant-icon-highlighted.png)
+   ![AI助理圖示](assets/ai-assistant-icon-highlighted.png)
 
 1. 在提供的空間中，開始輸入AI助理的命令，然後在完成時按一下Enter。
 
-   ![](assets/ai-assistant-panel-with-empty-command-box.png)
+   ![具有空白命令方塊的AI助理面板](assets/ai-assistant-panel-with-empty-command-box.png)
 
    例如，您可以鍵入下列其中一項：
 

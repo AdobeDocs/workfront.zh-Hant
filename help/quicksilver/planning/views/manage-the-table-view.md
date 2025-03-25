@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '2876'
-ht-degree: 2%
+source-wordcount: '2932'
+ht-degree: 3%
 
 ---
 
@@ -171,7 +171,7 @@ OLD:
 
 1. 建立資料表檢視，如文章[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)中所述。
 
-   ![](assets/table-view-example.png)
+   ![資料表檢視範例](assets/table-view-example.png)
 
 1. （選擇性）按一下&#x200B;**列高度**，然後從下列選項中選取，以修改表格列的高度：
    * 短
@@ -209,7 +209,7 @@ OLD:
 
    * 按一下表格工具列中的&#x200B;**欄位**，然後依所需順序拖放欄位，再按一下&#x200B;**欄位可見度和順序**&#x200B;方塊外部以關閉它。
 
-     ![](assets/fields-setting-table-view-toolbar-expanded.png)
+     ![欄位設定表格檢視工具列已展開](assets/fields-setting-table-view-toolbar-expanded.png)
 
 
      >[!TIP]
@@ -224,7 +224,7 @@ OLD:
 
 1. （選擇性）將滑鼠懸停在表格第一欄中未顯示之任何欄位之欄位標題中的欄位名稱上，按一下欄位名稱右側的向下箭頭，然後按一下&#x200B;**設定為主要欄位**。
 
-   ![](assets/set-as-primary-field-option-table-view.png)
+   ![在資料表檢視中設定為主要欄位選項](assets/set-as-primary-field-option-table-view.png)
 
 1. 按一下&#x200B;**設定欄位**&#x200B;以進行確認。
 
@@ -253,9 +253,9 @@ OLD:
 
 1. 執行下列動作以快速尋找符合關鍵字的記錄：
 
-   1. 按一下&#x200B;**搜尋**&#x200B;圖示![](assets/search-icon.png)，然後開始輸入與熒幕上顯示之記錄的任何欄位相關聯的關鍵字。 正確相符的數目會顯示在搜尋專案旁邊，而具有正確相符專案的欄位會反白顯示。
+   1. 按一下&#x200B;**搜尋**&#x200B;圖示![搜尋圖示](assets/search-icon.png)，然後開始輸入與熒幕上顯示之記錄的任何欄位相關聯的關鍵字。 正確相符的數目會顯示在搜尋專案旁邊，而具有正確相符專案的欄位會反白顯示。
 
-      ![](assets/search-box-with-results-blue-outline-table-view.png)
+      ![搜尋方塊在資料表檢視中具有結果藍色外框](assets/search-box-with-results-blue-outline-table-view.png)
 
       您可以使用熒幕上可見的任何文字或特殊字元。
 
@@ -284,7 +284,7 @@ OLD:
 
    如需詳細資訊，請參閱[新增縮圖至記錄](/help/quicksilver/planning/records/add-thumbnails-to-records.md)。
 
-1. （選擇性）在列中選取一或多個記錄，然後將&#x200B;**控制代碼**&#x200B;圖示![](assets/handle-icon.png)拖放到記錄左側，以重新排序列。
+1. （選擇性）選取一列中的一或多個記錄，然後將&#x200B;**控制代碼**&#x200B;圖示![控制代碼圖示](assets/handle-icon.png)拖放到記錄左側，以重新排序列。
 
    >[!NOTE]
    >
@@ -394,7 +394,7 @@ OLD:
 
    * 選取所選欄位的值。
 
-   ![](assets/filter-ui-table-view.png)
+   ![篩選器UI資料表檢視](assets/filter-ui-table-view.png)
 
    您可以新增的篩選條件數量沒有限制。
 
@@ -408,7 +408,7 @@ OLD:
 
    1. （選用）在多個條件群組之間新增其他&#x200B;**AND**&#x200B;或&#x200B;**OR**&#x200B;運運算元。
 
-      ![](assets/multi-tiered-filters-in-views.png)
+      ![檢視中的多重層級篩選器](assets/multi-tiered-filters-in-views.png)
 
    </div>
 
@@ -446,7 +446,7 @@ OLD:
 1. 如文章[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)中所述，建立記錄型別的時間表檢視。
 1. 按一下表格檢視右上角的&#x200B;**群組**。
 
-   ![](assets/grouping-ui-table-view-with-linked-fields.png)
+   ![使用連結欄位將UI表格檢視分組](assets/grouping-ui-table-view-with-linked-fields.png)
 
 1. 按一下其中一個建議的欄位，或按一下&#x200B;**選擇其他欄位**，搜尋其他欄位，然後在欄位顯示在清單中時按一下它。
 
@@ -456,7 +456,7 @@ OLD:
 
    為分組選取的欄位數會顯示在「分組」圖示旁。
 
-   ![](assets/grouping-applied-in-table-view.png)
+   ![在資料表檢視中套用群組](assets/grouping-applied-in-table-view.png)
 
 1. （選擇性）在&#x200B;**群組記錄依據**&#x200B;方塊中，按一下選取要移除分組的欄位右邊的&#x200B;**x**&#x200B;圖示
 
@@ -499,7 +499,7 @@ OLD:
 若要排序<!--ungrouped (add this when sorting for groupings will be available-->筆記錄，請執行下列動作：
 
 1. 建立資料表檢視，如文章[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)中所述。
-1. 按一下表格右上角的&#x200B;**排序**&#x200B;圖示![](assets/sort-icon.png)
+1. 按一下表格右上角的&#x200B;**排序**&#x200B;圖示![排序圖示](assets/sort-icon.png)
 
    或
 
@@ -523,7 +523,7 @@ OLD:
 
 1. 按一下&#x200B;**依**&#x200B;排序記錄方塊外部以將其關閉。
 
-   ![](assets/sorting-in-table-view.png)
+   ![在資料表檢視中排序](assets/sorting-in-table-view.png)
 
    表格中顯示的資訊會根據您選取的條件排序。
 

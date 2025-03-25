@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '781'
 ht-degree: 1%
 
 ---
@@ -173,7 +173,7 @@ ht-degree: 1%
 1. 移至您要檢視其行事曆的記錄型別頁面。
 1. 建立行事曆檢視，如文章[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)中所述。
 
-   ![](assets/calendar-view-example.png)
+   ![行事曆檢視範例](assets/calendar-view-example.png)
 
    與您選取的記錄型別相關聯的記錄會在行事曆中顯示為長條。 長條的顏色與記錄圖示的顏色相符。
 

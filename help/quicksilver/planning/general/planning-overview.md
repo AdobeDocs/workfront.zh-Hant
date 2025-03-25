@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '1818'
+source-wordcount: '1878'
 ht-degree: 2%
 
 ---
@@ -184,7 +184,7 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
 
 * **Workspace**：定義特定組織作業生命週期的記錄型別集合。 工作區是組織單位的工作框架。
 
-  ![](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
+  ![具有記錄型別分類的行銷工作區開啟頁面](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
 
   如需詳細資訊，請參閱[建立工作區](/help/quicksilver/planning/architecture/create-workspaces.md)。
 
@@ -202,7 +202,7 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
 
 * **記錄**：記錄型別的執行個體。
 
-  ![](assets/records-highlighted-in-campaign-record-type-list.png)
+  ![行銷活動記錄型別清單中反白的記錄](assets/records-highlighted-in-campaign-record-type-list.png)
 
   將記錄型別新增至工作區後，您就可以開始在記錄型別的頁面上新增該型別的記錄。
 
@@ -212,7 +212,7 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
 
 * **Workspace範本**：您可以使用預先定義的範本建立工作區。 您可以使用範本中預先定義的記錄型別和欄位，也可以新增您自己的記錄型別和欄位。
 
-  ![](assets/workspaces-page-with-templates-thumbnails.png)
+  ![含有範本縮圖的工作區頁面](assets/workspaces-page-with-templates-thumbnails.png)
 
   Adobe Workfront Planning包含下列範本：
 
@@ -226,7 +226,7 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
 
 * **欄位**：欄位是您可以新增到記錄型別的屬性。 欄位包含有關記錄型別的資訊。<!--check the shot below, "Connection" needs to be in lowercase-->
 
-  ![](assets/drop-down-list-of-record-fields.png)
+  ![記錄欄位的下拉式清單](assets/drop-down-list-of-record-fields.png)
 
   有關記錄欄位的考量事項：
 
@@ -274,7 +274,7 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
 
      您必須擁有Adobe Experience Manager授權，才能將記錄型別與Experience Manager物件連結。
 
-     ![](assets/new-connection-tab-with-workfront-aem-options.png)
+     ![使用Workfront AEM選項的新連線標籤](assets/new-connection-tab-with-workfront-aem-options.png)
 
 
   在記錄型別之間建立連線之後，可以將這些型別的個別記錄或物件彼此連線。 記錄之間的連線會顯示為已連線的記錄欄位或連線。
@@ -283,7 +283,7 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
 
   例如，如果您將Campaign記錄型別與Workfront專案物件型別連線，則可以在行銷活動記錄上顯示已連線專案的「預算」欄位。
 
-  ![](assets/add-lookup-fields-modal.png)
+  ![新增查閱欄位方塊](assets/add-lookup-fields-modal.png)
 
   >[!TIP]
   >
@@ -303,7 +303,7 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
 
 * **檢視**：記錄會顯示在不同檢視型別的個別記錄型別頁面下。
 
-  ![](assets/view-types-drop-down-from-record-type-list.png)
+  ![記錄型別清單中的檢視型別下拉式清單](assets/view-types-drop-down-from-record-type-list.png)
 
   檢視包含特定檢視型別的個人化設定，例如欄位清單（欄）、記錄清單（列）、其順序（排序）、套用或適用的篩選以及分組。
 
@@ -311,14 +311,14 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
 
    * **資料表檢視**：以資料表格式顯示記錄及其欄位，包括連線和查詢欄位。 表格的列是個別記錄，欄是記錄欄位。 表格檢視是預設的檢視。
 
-     ![](assets/table-view-example.png)
+     ![資料表檢視範例](assets/table-view-example.png)
 
    * **時間表檢視**：在時間軸中顯示至少有兩個日期型別欄位的記錄。 您最多可以在時間軸檢視中顯示5個連線的記錄型別及其記錄。
 
-     ![](assets/grouping-applied-in-timeline-view.png)
+     ![在時間表檢視中套用的群組](assets/grouping-applied-in-timeline-view.png)
 
    * **行事曆檢視**：以行事曆格式顯示至少有兩個日期型別欄位的記錄。
-     ![](assets/calendar-view-example.png)
+     ![行事曆檢視範例](assets/calendar-view-example.png)
 
 
 如需詳細資訊，請參閱[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)。
@@ -333,11 +333,11 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
 
 {{step1-click-main-menu}}
 
-1. 按一下&#x200B;**計畫** ![](assets/planning-icon.png)。
+1. 按一下&#x200B;**計畫** ![計畫圖示](assets/planning-icon.png)。
 
    Workfront Planning首頁面隨即開啟。
 
-   ![](assets/planning-landing-page-admin.png)
+   ![規劃登陸頁面管理員](assets/planning-landing-page-admin.png)
 
    >[!TIP]
    >

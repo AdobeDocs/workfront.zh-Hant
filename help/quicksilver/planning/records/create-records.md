@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '2411'
+source-wordcount: '2418'
 ht-degree: 0%
 
 ---
@@ -233,7 +233,7 @@ ht-degree: 0%
 
         新增記錄，如文章[提交Adobe Workfront Planning要求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)中所述，從步驟6開始。<!--ensure this stays accurate-->
 
-      ![](assets/three-ways-to-create-records-choice-modal.png)
+      ![建立記錄選擇模組的三種方法](assets/three-ways-to-create-records-choice-modal.png)
 
 1. （視條件而定）如果您按一下&#x200B;**要求記錄**，請執行下列動作：
 

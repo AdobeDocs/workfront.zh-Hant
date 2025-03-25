@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '491'
 ht-degree: 1%
 
 ---
@@ -118,11 +118,11 @@ ht-degree: 1%
 
    記錄的預覽方塊開啟。
 
-1. （選擇性）按一下&#x200B;**在新索引標籤**&#x200B;中開啟![](assets/open-details-in-a-new-tab-icon.png)圖示以開啟紀錄的頁面。
+1. （選擇性）按一下&#x200B;**在新標籤中開啟**&#x200B;圖示![在新標籤中開啟詳細資料](assets/open-details-in-a-new-tab-icon.png)以開啟紀錄的頁面。
 
 1. 選擇&#x200B;**詳細資料**&#x200B;標籤。 詳細資訊標籤預設為開啟。
 
-1. 在預覽或記錄頁面中按一下&#x200B;**匯出**&#x200B;功能表![](assets/export-icon-in-record-details-page.png)，然後按一下下列其中一項：
+1. 在預覽或記錄頁面中，按一下&#x200B;**匯出**&#x200B;功能表![記錄詳細資料頁面中的「匯出」圖示](assets/export-icon-in-record-details-page.png)，然後按一下下列其中一項：
 
    * **Microsoft Word**
    * **Adobe PDF**
@@ -131,7 +131,7 @@ ht-degree: 1%
 
    匯出的檔案的名稱是記錄的「主要」欄位。
 
-   ![](assets/exported-word-file.png)
+   ![已匯出的Word檔案](assets/exported-word-file.png)
 
    >[!NOTE]
    >

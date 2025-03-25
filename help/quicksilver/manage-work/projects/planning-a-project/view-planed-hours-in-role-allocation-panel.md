@@ -6,9 +6,9 @@ description: 您可以在專案的「角色配置」面板中，檢視指派給�
 author: Alina
 feature: Work Management
 exl-id: 76f70cb6-f707-4a73-bc81-e755e2d0a33d
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '482'
 ht-degree: 1%
 
 ---
@@ -107,11 +107,11 @@ ht-degree: 1%
    * **任務**
    * **工作量平衡工具**
 
-1. 按一下&#x200B;**顯示角色配置**&#x200B;圖示![](assets/show-role-allocation-icon.png)。
+1. 按一下&#x200B;**顯示角色配置**&#x200B;圖示![顯示角色配置圖示](assets/show-role-allocation-icon.png)。
 
    「角色配置」面板隨即顯示。
 
-   ![](assets/role-allocation-panel-planned-hours-only-350x316.png)
+   ![僅具有計畫時數的角色配置面板](assets/role-allocation-panel-planned-hours-only-350x316.png)
 
 1. 檢閱&#x200B;**角色配置**&#x200B;面板中的下列資訊：
 

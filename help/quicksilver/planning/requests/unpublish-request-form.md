@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '665'
 ht-degree: 1%
 
 ---
@@ -124,7 +124,7 @@ ht-degree: 1%
 
    記錄型別頁面會在您上次存取的檢視中開啟。 依預設，會在表格檢視中開啟記錄型別頁面。
 
-1. 按一下頁面標頭中記錄型別名稱右側的&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，然後按一下&#x200B;**更新請求表單**。
+1. 按一下頁面標頭中記錄型別名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**更新要求表單**。
 1. 按一下熒幕右上角的&#x200B;**共用**，然後更新共用選擇。 如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
 1. （選擇性）如果您已變更要求表單的共用，而且想要透過新連結與新群組的人共用，請按一下&#x200B;**複製連結**。
 
@@ -142,10 +142,10 @@ ht-degree: 1%
 
    記錄型別頁面會在您上次存取的檢視中開啟。 依預設，會在表格檢視中開啟記錄型別頁面。
 
-1. 按一下頁面標頭中記錄型別名稱右側的&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，然後按一下&#x200B;**更新請求表單**。
+1. 按一下頁面標頭中記錄型別名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**更新請求表單**。
 1. 按一下右上角的&#x200B;**取消發佈**。
 
-   ![](assets/unpublish-button-highlighted.png)
+   ![取消發佈按鈕醒目提示](assets/unpublish-button-highlighted.png)
 
    畫面底部會顯示確認訊息，通知您表單已取消發佈。
 

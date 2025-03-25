@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8b6df633-eb05-4d3e-bfe6-76cedabdb76d
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '479'
 ht-degree: 1%
 
 ---
@@ -109,11 +109,11 @@ ht-degree: 1%
 ## 還原已刪除的記錄
 
 1. 移至您刪除記錄的記錄型別頁面。
-1. 按一下任何記錄型別頁面檢視右上角的&#x200B;**復原**&#x200B;圖示![](assets/undo-icon.png)，然後按一下&#x200B;**最近刪除**。
+1. 按一下任何記錄型別頁面檢視右上角的&#x200B;**復原**&#x200B;圖示![復原圖示](assets/undo-icon.png)，然後按一下&#x200B;**最近刪除**。
 
    顯示&#x200B;**最近刪除的**&#x200B;方塊。
 
-   ![](assets/recently-deleted-box.png)
+   ![最近刪除的方塊](assets/recently-deleted-box.png)
 
 1. 選取您要刪除的記錄，然後按一下&#x200B;**還原** > **還原**。 您可以選取多個記錄。
 

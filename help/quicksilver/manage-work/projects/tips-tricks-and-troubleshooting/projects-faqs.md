@@ -5,9 +5,9 @@ author: Alina
 draft: Probably
 feature: Work Management
 exl-id: be262d72-f4e4-4426-a6bc-23499667fc97
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '625'
 ht-degree: 1%
 
 ---
@@ -99,6 +99,6 @@ ht-degree: 1%
 
 Adobe Workfront管理員限制您只能檢視您存取層級中所屬的公司、群組和團隊。 您尋找的團隊不是您所屬的團隊之一。
 
-![](assets/view-only-team-groups-companies-they-belong-to-350x141.png)
+![僅檢視他們所屬的團隊、群組、公司](assets/view-only-team-groups-companies-they-belong-to-350x141.png)
 
 如需讓使用者檢視系統中所有團隊的詳細資訊，請參閱[建立或修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。

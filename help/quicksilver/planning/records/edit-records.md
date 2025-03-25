@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '2149'
+source-wordcount: '2246'
 ht-degree: 0%
 
 ---
@@ -208,7 +208,7 @@ ht-degree: 0%
    與所選記錄型別相關聯的記錄會顯示在表格檢視中。
 1. 在記錄列內按一下，開始編輯有關內嵌記錄的資訊。
 
-   ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
+   ![使用格式化表格檢視編輯記錄段落欄位](assets/edit-record-paragraph-field-with-formatting-table-view.png)
 
    >[!TIP]
    >
@@ -226,7 +226,7 @@ ht-degree: 0%
    * 新增專案符號清單
    * 新增編號清單
 
-   ![](assets/rich-text-toolbar-on-paragraph-field.png)
+   段落欄位](assets/rich-text-toolbar-on-paragraph-field.png)上的![RTF文字工具列
 
 1. （選擇性）連按兩下連線的記錄欄位，以將連線的記錄或物件新增至其他記錄。 如需詳細資訊，請參閱[連線記錄](/help/quicksilver/planning/records/connect-records.md)。
 1. 在鍵盤上按&#x200B;**Enter**，或按一下資料列外部以儲存變更。 變更會自動儲存。 **已儲存**&#x200B;指標會短暫顯示在表格檢視的右上角，顯示變更已儲存。
@@ -240,7 +240,7 @@ ht-degree: 0%
    * 複製一個儲存格的資訊，然後選取多個儲存格並在多個儲存格中貼上相同的資訊。 您可以選取多個儲存格，並在相鄰列和欄的多個儲存格中貼上相同的資訊。
    * 選取包含您要複製之資訊的現有儲存格的右下角，然後將其拖放到您想要貼上相同資訊的相鄰儲存格上。 所有儲存格都必須包含相同型別的資訊。
 
-     ![](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
+     ![可拖曳的右下角，用於複製貼上資料表檢視](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
 
    <div class="preview">
 
@@ -293,11 +293,11 @@ ht-degree: 0%
 
    或
 
-   從表格檢視中，按一下第一欄中的&#x200B;**開啟詳細資料**&#x200B;圖示![](assets/open-details-icon-in-table-name-field.png)。 記錄的預覽會在檢視中開啟。
+   從表格檢視中，按一下第一欄中的&#x200B;**開啟詳細資料**&#x200B;圖示![在表格名稱欄位中開啟詳細資料圖示](assets/open-details-icon-in-table-name-field.png)。 記錄的預覽會在檢視中開啟。
 
    <div class="preview">
 
-   ![](assets/details-box.png)
+   ![詳細資訊方塊](assets/details-box.png)
 
    </div>
 
@@ -316,11 +316,11 @@ ht-degree: 0%
 
 1. （選擇性）按一下&#x200B;**新增封面**，將封面影像新增到記錄中。 如需詳細資訊，請參閱[新增封面影像至記錄](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)。
 
-1. （選擇性）將滑鼠停留在縮圖圖示上，然後按一下&#x200B;**更多** ![](assets/more-menu.png) > **編輯縮圖**&#x200B;以新增縮圖影像。 如需詳細資訊，請參閱[新增縮圖至記錄](/help/quicksilver/planning/records/add-thumbnails-to-records.md)。
+1. （選擇性）將滑鼠停留在縮圖圖示上，然後按一下&#x200B;**更多** ![更多功能表](assets/more-menu.png) > **編輯縮圖**&#x200B;以新增縮圖影像。 如需詳細資訊，請參閱[新增縮圖至記錄](/help/quicksilver/planning/records/add-thumbnails-to-records.md)。
 
    Workfront會自動儲存您的變更。
 
-1. <span class="preview"> （選擇性）按一下記錄預覽方塊右上角的&#x200B;**即時指標** ![](assets/real-time-indicator-icon.png)，然後啟用&#x200B;**顯示共同作業人員**&#x200B;設定以即時反白顯示其他人正在編輯的欄位。
+1. <span class="preview"> （選擇性）按一下記錄預覽方塊右上角的&#x200B;**即時指標** ![即時指標圖示](assets/real-time-indicator-icon.png)，然後啟用&#x200B;**顯示共同作業人員**&#x200B;設定以即時反白顯示其他人正在編輯的欄位。
 
    此區域會顯示同時存取記錄的所有使用者的名稱和頭像。
 
@@ -328,13 +328,13 @@ ht-degree: 0%
 
    <div class="preview">
 
-   ![](assets/real-time-indicator-expanded-record-preview-box.png)
+   ![REal-time indicator expanded record preview box](assets/real-time-indicator-expanded-record-preview-box.png)
 
    </div>
 
-1. （選擇性）按一下&#x200B;**匯出**&#x200B;功能表![](assets/export-icon-in-record-details-page.png)以匯出記錄的詳細資料。 如需詳細資訊，請參閱[匯出記錄的詳細資料](/help/quicksilver/planning/records/export-the-record-page.md)。
+1. （選擇性）按一下記錄詳細資料頁面](assets/export-icon-in-record-details-page.png)中的&#x200B;**匯出**&#x200B;功能表![匯出圖示，以匯出記錄的詳細資料。 如需詳細資訊，請參閱[匯出記錄的詳細資料](/help/quicksilver/planning/records/export-the-record-page.md)。
 
-1. （選擇性）按一下記錄預覽右上角的&#x200B;**在新索引標籤中開啟**&#x200B;圖示![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->，以在新索引標籤中開啟記錄的頁面。 繼續編輯記錄，如本文中[從記錄頁面](#edit-a-record-from-the-records-page)區段編輯記錄。
+1. （選擇性）按一下記錄預覽右上角的&#x200B;**在新索引標籤中開啟**&#x200B;圖示![在新索引標籤圖示中開啟詳細資料](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->，以在新索引標籤中開啟記錄的頁面。 繼續編輯記錄，如本文中[從記錄頁面](#edit-a-record-from-the-records-page)區段編輯記錄。
 
 ### 從記錄的頁面編輯記錄
 
@@ -350,15 +350,15 @@ ht-degree: 0%
 
 1. 執行下列其中一項：
 
-   * 從任何檢視存取記錄的預覽，如本文中[在檢視中編輯記錄預覽中的記錄](#edit-a-record-from-the-records-preview-in-a-view)區段中所述，然後按一下記錄預覽右上角的&#x200B;**在新索引標籤中開啟**&#x200B;圖示![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->，在新索引標籤中開啟記錄的頁面。
+   * 從任何檢視存取記錄的預覽，如本文中[在檢視中編輯記錄預覽](#edit-a-record-from-the-records-preview-in-a-view)區段中所述，然後按一下&#x200B;**在新索引標籤中開啟**&#x200B;圖示![在記錄預覽右上角的新索引標籤中開啟詳細資料](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->，以在新索引標籤中開啟記錄的頁面。
 
-   * 在&#x200B;**表格**&#x200B;檢視中，暫留在記錄名稱上，然後按一下&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，然後按一下&#x200B;**檢視**
+   * 在&#x200B;**表格**&#x200B;檢視中，暫留在記錄名稱上，然後按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下&#x200B;**檢視**
 
-     ![](assets/contextual-menu-for-record-row.png)
+     ![記錄列](assets/contextual-menu-for-record-row.png)的內容相關功能表
 
      記錄頁面隨即開啟。
 
-     ![](assets/details-page.png)
+     ![詳細資料頁面](assets/details-page.png)
 
 1. （選擇性）按一下記錄標題右側的&#x200B;**更多**&#x200B;功能表，然後按一下&#x200B;**重新命名**。 這會更新顯示為記錄標題的欄位。
 
@@ -378,17 +378,17 @@ ht-degree: 0%
 
    或
 
-   將滑鼠停留在現有的封面影像上，然後按一下&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png) > **上傳**，為記錄新增封面影像。
+   將滑鼠停留在現有的封面影像上，然後按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png) > **上傳**，為記錄新增封面影像。
 
    如需詳細資訊，請參閱[新增封面影像至記錄](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)。
 
-1. （選擇性）將滑鼠停留在現有的縮圖上，或&#x200B;**縮圖圖示** ![](assets/record-thumbnail-icon-on-details-page.png)，然後按一下&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png) > **編輯縮圖**&#x200B;以新增記錄的縮圖。
+1. （選擇性）將滑鼠停留在現有的縮圖上，或是&#x200B;**縮圖圖示** ![詳細資料頁面上的「錄製縮圖」圖示](assets/record-thumbnail-icon-on-details-page.png)，然後按一下&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png) > **編輯縮圖**&#x200B;以新增記錄的縮圖。
 
    如需詳細資訊，請參閱[新增縮圖至記錄](/help/quicksilver/planning/records/add-thumbnails-to-records.md)。
 
    Workfront會自動儲存您的變更。
 
-1. <span class="preview"> （選擇性）按一下記錄頁面右上角的&#x200B;**即時指標** ![](assets/real-time-indicator-icon.png)，然後啟用&#x200B;**顯示共同作業人員**&#x200B;設定以即時反白顯示其他人正在編輯的欄位。
+1. <span class="preview"> （選擇性）按一下記錄頁面右上角的&#x200B;**即時指標** ![即時指標圖示](assets/real-time-indicator-icon.png)，然後啟用&#x200B;**顯示共同作業人員**&#x200B;設定以即時反白顯示其他人正在編輯的欄位。
 
    此區域會顯示同時存取記錄的所有使用者的名稱和頭像。
 
@@ -396,11 +396,11 @@ ht-degree: 0%
 
    <div class="preview">
 
-   ![](assets/real-time-indicator-expanded-record-preview-box.png)
+   ![即時指標展開的記錄預覽方塊](assets/real-time-indicator-expanded-record-preview-box.png)
 
    </div>
 
-1. （選擇性）按一下&#x200B;**匯出**&#x200B;功能表![](assets/export-icon-in-record-details-page.png)以匯出記錄的詳細資料。 如需詳細資訊，請參閱[匯出記錄的詳細資料](/help/quicksilver/planning/records/export-the-record-page.md)。
+1. （選擇性）按一下記錄詳細資料頁面](assets/export-icon-in-record-details-page.png)中的&#x200B;**匯出**&#x200B;功能表![匯出圖示，以匯出記錄的詳細資料。 如需詳細資訊，請參閱[匯出記錄的詳細資料](/help/quicksilver/planning/records/export-the-record-page.md)。
 
 
 ## 在Planning區段中編輯Workfront物件的記錄

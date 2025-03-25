@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '517'
 ht-degree: 1%
 
 ---
@@ -196,9 +196,9 @@ For more information see the following articles:
 
    或
 
-   將游標停留在記錄名稱上，按一下&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，然後按一下&#x200B;**複製連結**。
+   將游標停留在記錄名稱上，按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下&#x200B;**複製連結**。
 
-   ![](assets/contextual-menu-for-record-row.png)
+   ![記錄列](assets/contextual-menu-for-record-row.png)的內容相關功能表
 
    連結已複製到您的剪貼簿。
 

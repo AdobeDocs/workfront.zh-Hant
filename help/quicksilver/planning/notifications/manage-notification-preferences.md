@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '513'
 ht-degree: 1%
 
 ---
@@ -169,13 +169,13 @@ OLD:
 ## 管理通知偏好設定
 
 1. 使用您的Adobe Experience Cloud憑證登入Workfront。
-1. 按一下熒幕右上角的&#x200B;**帳戶功能表**&#x200B;圖示![](assets/account-menu-icon-on-experience-cloud.png)，然後按一下&#x200B;**偏好設定**。
+1. 按一下畫面右上角的Experience Cloud](assets/account-menu-icon-on-experience-cloud.png)上的&#x200B;**帳戶功能表**&#x200B;圖示![帳戶功能表圖示，然後按一下&#x200B;**偏好設定**。
 1. 在&#x200B;**通知**&#x200B;區段下，按一下&#x200B;**Workfront**。
 1. 選取您要收到的通知。
 或
 取消選取您要停止接收的通知。
 
-   ![](assets/adobe-experience-cloud-notifications-panel-for-workfront-planning.png)
+   適用於Workfront Planning的![Adobe Experience Cloud通知面板](assets/adobe-experience-cloud-notifications-panel-for-workfront-planning.png)
 1. Workfront提供下列通知：
 
    * **提及**：當有人在Workfront Planning的評論中為您加上標籤時，您會收到通知

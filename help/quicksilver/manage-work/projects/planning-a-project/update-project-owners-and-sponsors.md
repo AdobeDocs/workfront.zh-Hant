@@ -6,9 +6,9 @@ description: 當您在Adobe Workfront中建立專案時，您會自動被設定�
 author: Alina
 feature: Work Management
 exl-id: 10421cab-237a-49a5-bb5b-5be510dc4c46
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,7 @@ ht-degree: 0%
 
    專案所有者的專案標題和專案詳細資訊區域會更新。
 
-   ![](assets/project-stakeholders-owner-highlighted-nwe-350x149.png)
+   ![強調的專案關係人擁有者](assets/project-stakeholders-owner-highlighted-nwe-350x149.png)
 
 ## 更新專案的專案贊助者
 
@@ -131,4 +131,4 @@ ht-degree: 0%
 
    專案詳細資訊區域中的專案贊助者更新。
 
-   ![](assets/project-stakeholders-sponsor-highlighted-nwe-350x147.png)
+   ![強調的專案關係人贊助者](assets/project-stakeholders-sponsor-highlighted-nwe-350x147.png)

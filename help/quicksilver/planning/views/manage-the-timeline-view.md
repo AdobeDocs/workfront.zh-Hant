@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '2635'
+source-wordcount: '2692'
 ht-degree: 0%
 
 ---
@@ -176,7 +176,7 @@ ht-degree: 0%
 1. 移至您要檢視其時間軸的記錄型別頁面。
 1. 建立時間表檢視，如文章[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)中所述。
 
-   ![](assets/timeline-view-example.png)
+   ![時間表檢視範例](assets/timeline-view-example.png)
 
    與您選取的記錄型別相關聯的記錄會在時間軸中顯示為長條，並依其開始日期的時間順序依預設排序。
 
@@ -205,9 +205,9 @@ ht-degree: 0%
 
 1. 執行下列動作以快速尋找符合關鍵字的記錄：
 
-   1. 按一下&#x200B;**搜尋**&#x200B;圖示![](assets/search-icon.png)，然後開始輸入與熒幕上顯示之記錄的任何欄位相關聯的關鍵字。 正確相符的數目會顯示在搜尋專案旁邊，而具有正確相符專案的記錄會反白顯示。
+   1. 按一下&#x200B;**搜尋**&#x200B;圖示![搜尋圖示](assets/search-icon.png)，然後開始輸入與熒幕上顯示之記錄的任何欄位相關聯的關鍵字。 正確相符的數目會顯示在搜尋專案旁邊，而具有正確相符專案的記錄會反白顯示。
 
-      ![](assets/search-box-and-results-timeline-view.png)
+      ![搜尋方塊和結果時間表檢視](assets/search-box-and-results-timeline-view.png)
 
       您可以使用熒幕上可見的任何文字或特殊字元。
 
@@ -281,7 +281,7 @@ ht-degree: 0%
 1. 如文章[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)中所述，建立記錄型別的時間表檢視。
 1. 按一下時間軸檢視右上角的&#x200B;**群組**。
 
-   ![](assets/grouping-ui-timeline-view-with-linked-fields.png)
+   ![使用連結欄位將UI時間表檢視分組](assets/grouping-ui-timeline-view-with-linked-fields.png)
 
 1. 按一下其中一個建議的欄位，或按一下&#x200B;**選擇其他欄位**，搜尋其他欄位，然後在欄位顯示在清單中時按一下它。
 
@@ -295,7 +295,7 @@ ht-degree: 0%
 
    <!-- update screen shot with view redesign-->
 
-   ![](assets/grouping-applied-in-timeline-view.png)
+   ![分組套用至時間表檢視](assets/grouping-applied-in-timeline-view.png)
 
 1. （選擇性）在&#x200B;**群組記錄依據**&#x200B;方塊中，按一下選取要移除分組的欄位右邊的&#x200B;**x**&#x200B;圖示
 
@@ -347,11 +347,11 @@ this is not possible right now; if this is the same functionality as the table v
 
    右側會顯示時間軸上長條圖的外觀。
 
-   ![](assets/record-details-panel-timeline-settings-with-preview.png)
+   ![預覽的記錄詳細資料面板時間軸設定](assets/record-details-panel-timeline-settings-with-preview.png)
 
 1. 按一下左側面板中的&#x200B;**色彩**，以自訂時間軸中記錄和群組的色彩。
 
-   ![](assets/color-tab-timeline-view.png)
+   ![色彩標籤時間表檢視](assets/color-tab-timeline-view.png)
 
 1. （條件式與選擇性）如果您將群組新增至時間軸檢視，請從下列選項中選取，以在&#x200B;**設定群組顏色**&#x200B;區段中設定群組的顏色：
 
@@ -382,7 +382,7 @@ this is not possible right now; if this is the same functionality as the table v
 
 1. （視條件而定）如果您為記錄顏色選取&#x200B;**欄位值**，請從&#x200B;**將記錄顏色與**&#x200B;下拉式功能表中選取欄位。
 
-   ![](assets/field-selector-drop-down-menu-timeline-view.png)
+   ![時間軸檢視中的欄位選擇器下拉式功能表](assets/field-selector-drop-down-menu-timeline-view.png)
 
    下拉式選單中只會顯示具有色彩編碼選項的欄位。
 
@@ -424,7 +424,7 @@ this is not possible right now; if this is the same functionality as the table v
 1. （視條件而定）如果您正在以標準模式檢視時間軸檢視，請按一下&#x200B;**劃分**。
 1. 展開&#x200B;**選取連結的記錄型別**&#x200B;方塊並選取連線的記錄型別。<!--add a new screen shot - submitted a bug to remove the "the"-->
 
-   ![](assets/breakdown-picker-and-button-on-timeline.png)
+   時間軸檢視上的![劃分選擇器和按鈕](assets/breakdown-picker-and-button-on-timeline.png)
 
    >[!TIP]
    >
@@ -439,7 +439,7 @@ this is not possible right now; if this is the same functionality as the table v
    如果選取的記錄與其他記錄連線，則時間軸中的列會顯示一個向右的箭頭。
 1. 按一下向右箭號以展開記錄型別，顯示為「連線」。
 
-   ![](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)
+   ![依時間表檢視中的方案劃分的行銷活動](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)
 
 1. （選用）重複上述步驟以新增更多連線記錄。
 

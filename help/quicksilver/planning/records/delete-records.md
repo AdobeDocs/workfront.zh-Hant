@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '737'
 ht-degree: 2%
 
 ---
@@ -124,18 +124,18 @@ ht-degree: 2%
 1. 執行下列其中一項：
 
    * 在「表格」檢視中，按一下記錄名稱。
-   * 在[資料表]檢視中，暫留在記錄名稱上，然後按一下&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，然後按一下&#x200B;**檢視**
+   * 在[資料表]檢視中，暫留在記錄名稱上，然後按一下[其他] **** [其他]功能表![ [其他]功能表](assets/more-menu.png)，然後按一下[檢視] ****
 
-     ![](assets/contextual-menu-for-record-row.png)
+     ![記錄列](assets/contextual-menu-for-record-row.png)的內容相關功能表
    * 在「時間軸」檢視中，按一下記錄列。
 
    記錄頁面隨即開啟。
 
-1. 按一下記錄名稱右側的&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，然後按一下&#x200B;**刪除**，再按一次&#x200B;**刪除**&#x200B;以進行確認。
+1. 按一下記錄名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**刪除**，再按一次&#x200B;**刪除**&#x200B;以進行確認。
 
-   ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
+   ![記錄詳細資料頁面中的更多功能表選項](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 記錄已刪除。
-1. （選擇性和條件性）如果您在預覽環境中刪除記錄，請移至記錄頁面的表格檢視，然後按一下檢視右上角的&#x200B;**復原**&#x200B;圖示![](assets/undo-icon.png)，然後按一下&#x200B;**最近刪除**&#x200B;以復原刪除的記錄。
+1. （選擇性和條件性）如果您在預覽環境中刪除記錄，請移至記錄頁面的表格檢視，然後按一下檢視右上角的&#x200B;**復原**&#x200B;圖示![復原圖示](assets/undo-icon.png)，然後按一下&#x200B;**最近刪除**&#x200B;以復原刪除的記錄。
 
 如需有關復原已刪除記錄的資訊，請參閱[復原已刪除的記錄](/help/quicksilver/planning/records/restore-deleted-records.md)。
 
@@ -156,17 +156,17 @@ ht-degree: 2%
 1. 執行下列其中一項：
 
    * 以滑鼠右鍵按一下記錄列，然後按一下&#x200B;**刪除**。
-   * 按一下記錄名稱右邊的&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，然後按一下&#x200B;**刪除**。
+   * 按一下記錄名稱右邊的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**刪除**。
 
-     ![](assets/contextual-menu-for-record-row.png)
+     ![記錄列](assets/contextual-menu-for-record-row.png)的內容相關功能表
 
-   * 按一下&#x200B;**開啟詳細資料**&#x200B;圖示![](assets/open-details-icon-in-table-name-field.png)以開啟包含記錄詳細資訊的方塊，然後按一下記錄名稱右側的&#x200B;**更多** ![](assets/more-menu.png)，然後&#x200B;**刪除**。
+   * 按一下&#x200B;**開啟詳細資料**&#x200B;圖示![開啟資料表名稱欄位中的詳細資料圖示](assets/open-details-icon-in-table-name-field.png)以開啟包含記錄詳細資訊的方塊，然後按一下記錄名稱右側的&#x200B;**更多** ![更多功能表](assets/more-menu.png)，然後&#x200B;**刪除**。
 
    記錄已刪除。
 
 1. （選擇性）執行下列任一項作業，以復原或重做刪除記錄：
 
-   * 按一下&#x200B;**復原**&#x200B;圖示![](assets/undo-icon.png)，然後按&#x200B;**最近刪除的**，復原刪除的記錄。 如需有關復原已刪除記錄的資訊，請參閱[復原已刪除的記錄](/help/quicksilver/planning/records/restore-deleted-records.md)。
+   * 按一下&#x200B;**復原**&#x200B;圖示![復原圖示](assets/undo-icon.png)，然後按一下&#x200B;**最近刪除的**，復原刪除的記錄。 如需有關復原已刪除記錄的資訊，請參閱[復原已刪除的記錄](/help/quicksilver/planning/records/restore-deleted-records.md)。
    * 使用下列鍵盤快速鍵來復原或重做刪除記錄：
 
       * CTRL + Z (Mac為⌘ + Z)可復原刪除記錄

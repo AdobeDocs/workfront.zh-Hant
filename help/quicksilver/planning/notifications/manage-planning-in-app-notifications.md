@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '440'
 ht-degree: 1%
 
 ---
@@ -160,9 +160,9 @@ OLD:
 
 ## 當有人在評論中標籤您時管理應用程式內通知
 
-1. （視條件而定）有人將您標籤為記錄中的評論後，請前往Adobe Experience Cloud中的應用程式內&#x200B;**通知**&#x200B;圖示![](assets/experience-cloud-notifications-icon.png)。
+1. （視條件而定）有人將您標籤為記錄中的評論後，請前往Adobe Experience Cloud中的應用程式內&#x200B;**通知**&#x200B;圖示![Experience Cloud通知圖示](assets/experience-cloud-notifications-icon.png)。
 
-   ![](assets/in-app-notification-example.png)
+   ![應用程式內通知範例](assets/in-app-notification-example.png)
 
 1. 按一下通知。
 

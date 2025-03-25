@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '1797'
+source-wordcount: '1837'
 ht-degree: 1%
 
 ---
@@ -166,12 +166,12 @@ ht-degree: 1%
       * 在Workfront Planning中顯示的連線記錄欄位名稱。
    * 記錄會顯示在各自的工作區和記錄型別下。
 
-   ![](assets/planning-section-on-project.png)
+   專案](assets/planning-section-on-project.png)上的![規劃區段
 
 1. （選擇性）按一下[顯示所有連線]****&#x200B;以顯示所有連線的記錄型別，包括沒有連線記錄的記錄型別。 依預設，不顯示沒有連線記錄的記錄型別。
 1. 按一下記錄卡以顯示有關記錄的更多資訊。 記錄預覽方塊隨即顯示。
 1. （選用）開始修改記錄預覽方塊中的欄位。 您的變更會自動儲存。
-1. （選擇性）按一下預覽方塊右上角的&#x200B;**在新索引標籤中開啟**&#x200B;圖示![](assets/open-details-in-a-new-tab-icon.png)以開啟記錄的詳細資訊頁面。 記錄的詳細資訊頁面會在Workfront Planning中開啟。
+1. （選擇性）按一下預覽方塊右上角的&#x200B;**在新索引標籤中開啟**&#x200B;圖示![在新索引標籤圖示中開啟詳細資料](assets/open-details-in-a-new-tab-icon.png)以開啟記錄的詳細資訊頁面。 記錄的詳細資訊頁面會在Workfront Planning中開啟。
 1. （選擇性）將游標停留在記錄卡上，然後按一下中斷連線記錄圖示&#x200B;**-**，然後按一下&#x200B;**中斷連線**。
 會發生下列情況：
    * 記錄不再連線至Workfront物件。
@@ -242,7 +242,7 @@ ht-degree: 1%
 
 1. 按一下欄位內部以新增連線的記錄，然後按一下欄位內部的向下箭頭，以從清單中選取記錄。
 
-   ![](assets/planning-connection-field-on-project-with-record-list-open.png)
+   ![在記錄清單開啟的專案上規劃連線欄位](assets/planning-connection-field-on-project-with-record-list-open.png)
 
    >[!TIP]
    >
@@ -252,7 +252,7 @@ ht-degree: 1%
    >
    >有指示表示欄位的物件與您選取的物件不相符。
    >
-   >![](assets/warning-unsupported-object-planning-connection-field-on-form.png)
+   >![警告表單](assets/warning-unsupported-object-planning-connection-field-on-form.png)上不支援的物件Planning連線欄位
 
 1. 按一下清單外部以將其關閉。
 
@@ -263,13 +263,13 @@ ht-degree: 1%
    * 與Planning記錄連線之Workfront查詢欄位的值會填入Workfront Planning中。
    * <span class="preview">如果您的Workfront或群組管理員在建立自訂表單時新增記錄查閱欄位，記錄的查閱欄位會自動填入表格檢視中。 Planning連線欄位中的資料表檢視是唯讀的</span>
 
-     ![](assets/planning-connection-field-with-table-on-project-details-custom-form.png)
+     ![專案詳細資料自訂表單上具有資料表的Planning連線欄位](assets/planning-connection-field-with-table-on-project-details-custom-form.png)
 
 1. （選擇性）在Planning連線欄位中，按一下記錄名稱<span class="preview">或將表格中的記錄名稱暫留，然後按一下Planning連線自訂表單上的&#x200B;**開啟記錄**&#x200B;圖示![開啟記錄圖示](assets/open-record-icon-on-planning-connection-custom-form.png)</span>，以在Workfront Planning中開啟記錄。
 Workfront Planning記錄詳細資料預覽方塊開啟。
 1. 檢閱或編輯紀錄的相關資訊，或按一下&#x200B;**在新索引標籤中開啟**&#x200B;圖示![在新索引標籤中開啟記錄](assets/open-details-in-a-new-tab-icon.png)以開啟紀錄詳細資訊頁面。
 
-1. （選擇性）從Workfront的自訂表單中，按一下記錄上的&#x200B;**移除**&#x200B;圖示![](assets/remove-icon.png)，將其從Planning連線欄位中移除，並將其從Workfront物件中中斷連線。
+1. （選擇性）從Workfront中的自訂表單中，按一下記錄上的&#x200B;**移除**&#x200B;圖示![移除圖示](assets/remove-icon.png)，將其從Planning連線欄位中移除，並將其與Workfront物件中斷連線。
 Workfront物件與Planning記錄中斷連線，且任何來自Workfront的查閱資訊都會從記錄中移除。
 
 1. 按一下&#x200B;**儲存變更**&#x200B;以儲存自訂表格以及您對Workfront物件所做的任何其他變更。

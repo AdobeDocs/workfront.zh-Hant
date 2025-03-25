@@ -8,9 +8,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '1800'
+source-wordcount: '1811'
 ht-degree: 2%
 
 ---
@@ -200,7 +200,7 @@ ht-degree: 2%
    您設定自動化的原始記錄型別也會建立所選記錄型別的已連線欄位。
 1. （選擇性和條件性）如果您選取建立Workfront物件，但沒有所選Workfront物件型別的連線欄位，請按一下&#x200B;**建立&lt; Workfront物件型別名稱>的「連線」欄位**&#x200B;欄位右側的問號圖示，然後按一下&#x200B;**新增**&#x200B;圖示![建立連線欄點陣圖示](assets/create-a-connection-field-icon.png)以新增連線欄位。
 
-   ![](assets/question-mark-icon-to-add-connected-fields-in-automations-with-workfront.png)
+   ![問號圖示可透過Workfront在自動化中新增連線的欄位](assets/question-mark-icon-to-add-connected-fields-in-automations-with-workfront.png)
 
    新欄位會自動建立並命名為&#x200B;**連線&lt; Workfront物件名稱>**。 例如，為記錄建立投資組合已連線欄位時，將其命名為「已連線投資組合」。
 

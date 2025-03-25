@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '906'
 ht-degree: 1%
 
 ---
@@ -141,20 +141,20 @@ ht-degree: 1%
 
 1. 執行下列其中一項：
 
-   * 如果您有Workfront Planning的存取權，而且至少可以檢視一個工作區，請按一下畫面右上角的&#x200B;**主功能表** ![](assets/dots-menu.png)，或左上角的&#x200B;**主功能表** ![](assets/lines-menu.png) （如果有的話），然後按一下&#x200B;**請求** > **已提交** > **Planning**，然後按一下狀態為&#x200B;**擱置檢閱**&#x200B;或&#x200B;**檢閱中**&#x200B;的請求。
+   * 若您擁有Workfront Planning的存取權，且至少可以檢視一個工作區，請按一下畫面右上角的&#x200B;**主功能表** ![點主功能表](assets/dots-menu.png)，或左上角的&#x200B;**主功能表** ![行主功能表](assets/lines-menu.png) （若有），然後按一下&#x200B;**要求** > **已提交** > **Planning**，再按一下狀態為&#x200B;**擱置檢閱**&#x200B;或&#x200B;**檢閱中**&#x200B;的要求。
 
      >[!TIP]
      >
      >如果您無權存取Workfront Planning，或無權檢視任何工作區，則只能使用電子郵件或應用程式內通知存取核准該工作區的請求。
 
-   * 按一下畫面右上角的&#x200B;**通知**&#x200B;區域圖示![](assets/notifications-area-icon-unified-shell.png)，然後按一下擱置您核准之要求的通知以開啟要求。
+   * 按一下畫面右上角的Unified Shell中的&#x200B;**通知**&#x200B;區域圖示![通知區域圖示](assets/notifications-area-icon-unified-shell.png)，然後按一下等待您核准之要求的相關通知以開啟要求。
    * 前往電子郵件中的電子郵件通知，通知您擱置核准的要求，然後按一下[開啟要求] **開啟要求。<!--add the name of the button here, from the email-->**
 
    請求頁面會以唯讀模式開啟。
 
-   ![](assets/read-only-reqeust-page-in-review-status.png)
+   ![稽核狀態的唯讀要求頁面](assets/read-only-reqeust-page-in-review-status.png)
 
-1. （選擇性）按一下請求右上角的&#x200B;**核准**&#x200B;圖示![](assets/approvals-icon.png)以檢視核准者。
+1. （選擇性）按一下請求右上角的&#x200B;**核准**&#x200B;圖示![核准圖示](assets/approvals-icon.png)以檢視核准者。
 1. 按一下&#x200B;**檢閱並核准**，然後選擇下列其中一項： <!--did they fix the button and removed the &??-->
 
    * **核准**：這會核准要求。 在所有核准者核准請求後，系統會立即建立與請求表單相關之記錄型別的記錄。
