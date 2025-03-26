@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;templates;user-management
 navigation-topic: layout-templates
 description: 作為Adobe Workfront管理員，您可以將已建立的版面配置範本指派給任何需要使用的使用者、工作角色、團隊或群組。
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 69cd1eafd7798861a4868fe0d68707ab5ba9106c
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '879'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 0%
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
    <td><p>新增：標準</p>
   <p> 目前：計畫</p>
    </td> 
@@ -57,7 +57,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -110,8 +110,8 @@ ht-degree: 0%
 
 ## 指派給版面配置範本的大量使用者
 
-如果您編輯指派給超過2000位使用者的版面配置範本並進行變更，則只有前2000位使用者會保留在版面配置範本上，且會看到您所做的變更。 版面配置範本會從其他所有範本中移除。
-
+<!--If you edit a layout template which is assigned to more than 2000 users and make changes to it, only the first 2000 users will be retained on the layout template and will see the changes you made. The layout template is removed from all others.
+-->
 如果要將超過2000名使用者指派給版面配置範本，建議您執行下列任一項作業：
 
 * 將使用者組織成群組或專案團隊，並將版面配置範本指派給這些群組或專案團隊。 如需詳細資訊，請參閱[建立群組](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)和[建立及管理團隊](../../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md)。
