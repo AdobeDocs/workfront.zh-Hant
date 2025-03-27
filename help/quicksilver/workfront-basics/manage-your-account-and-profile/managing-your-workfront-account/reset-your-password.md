@@ -6,9 +6,9 @@ description: 您可以重設您的 [!DNL Adobe Workfront] 密碼。 作為一項
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: 00930d520a6421a33ebe7c4842b59b9df514080b
+source-git-commit: 0df2a474fe1c29faca580088289d04ce9d1ef7f5
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '258'
 ht-degree: 1%
 
 ---
@@ -77,11 +77,10 @@ ht-degree: 1%
 
 1. 輸入您的舊密碼，然後輸入您想要的新密碼兩次。
 
-   您的密碼必須至少為8個字元，並包含下列字元型別中的其中兩種：
+   您的密碼必須至少為8個字元，並包含下列兩種字元型別：
 
    * 大寫字母
    * 小寫字母
-   * 字母
    * 數字
    * 特殊字元(如！ @ # $ %)
 
