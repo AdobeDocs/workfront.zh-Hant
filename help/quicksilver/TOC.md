@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 8d8282e095c902c0e6b2f51585ac0d4ac9b1e177
+source-git-commit: e8751b8e33ce99d56f816f12b065482c4deb7fbd
 workflow-type: tm+mt
-source-wordcount: '13099'
+source-wordcount: '13107'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,9 @@ ht-degree: 2%
          * [2025年第2季版本總覽](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)
          * [2025年第2季管理員增強功能](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md)
          * [2025年第2季檔案管理增強功能](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md)
+         * [2025年第2季行動裝置增強功能](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-mobile-enhancements.md)
          * [2025年第2季專案增強功能](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md)
+         * [2025年第2季報表增強功能](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md)
          * [2025年第二季度發行時間範圍內的其他增強功能](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md)
          * [2025年第2季度發佈時間範圍內的外觀和感覺更新](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-look-and-feel-updates.md)
       * 2025年第1季發行{#release-25-q1}
@@ -1748,10 +1750,10 @@ ht-degree: 2%
       * [資源規劃工具顯示限制](resource-mgmt/resource-planning/resource-planner-display-limitations.md)
    * 資源使用率{#resource-utilization}
       * [資源使用率](resource-mgmt/resource-utilization/resource-utilization.md)
-      * [檢視資源使用率資訊](resource-mgmt/resource-utilization/view-utilization-information.md)
+      * [檢視資源使用情況資訊](resource-mgmt/resource-utilization/view-utilization-information.md)
    * 工作負載平衡器{#the-workload-balancer}
       * [工作負載平衡器：文章索引](resource-mgmt/workload-balancer/workload-balancer.md)
-      * [工作負載平衡器總覽](resource-mgmt/workload-balancer/overview-workload-balancer.md)
+      * [工作負載平衡器概觀](resource-mgmt/workload-balancer/overview-workload-balancer.md)
       * [管理工作負載平衡工具中的資源所需的存取權](resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md)
       * [找到工作負載平衡器](resource-mgmt/workload-balancer/locate-workload-balancer.md)
       * [在工作負載平衡器中指派工作的總覽](resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)

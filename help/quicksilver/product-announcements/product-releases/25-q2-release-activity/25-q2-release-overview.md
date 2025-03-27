@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 90cb8df4735ed7868b15064588ff0b043e972a3f
+source-git-commit: e07e4c7bbdc7f68695df94cc1155e3997bad338b
 workflow-type: tm+mt
-source-wordcount: '1270'
+source-wordcount: '1624'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,9 @@ Workfront版本編號代表每月和每季的版本追蹤。 第一個數字代�
 
 * [管理員增強功能](#administrator-enhancements)
 * [檔案管理增強功能](#document-management-enhancements)
+* [行動裝置增強功能](#mobile-enhancements)
 * [專案增強功能](#project-enhancements)
+* [報告增強功能](#reporting-enhacements)
 * [其他增強功能](#other-enhancements)
 
 ### 管理員增強功能
@@ -73,7 +75,7 @@ Workfront版本編號代表每月和每季的版本追蹤。 第一個數字代�
             <p><b>將於下列日期提供：</b></p>
             <ul>
                 <li>預覽版本： 2025年1月31日</li>
-                <li><span class="preview">所有客戶的生產版本： 2025年1月31日</span></li>
+                <span class="preview"><li>所有客戶的生產版本： 2025年1月31日</li></span>
             </ul>
         </td>
     </tr>                          
@@ -86,6 +88,20 @@ Workfront版本編號代表每月和每季的版本追蹤。 第一個數字代�
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
+<!--    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            New document approval decision buttons available in proofing viewer</a></p>
+            <p>The new document approval decision buttons now appear in the proofing viewer. Now, when you create a simple proof and then add approvers and reviewers from the Document summary, they can make their decision directly inside the proofing viewer.</p>
+        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li>Preview release: March 27, 2025</li>
+                <li>Production release for all customers: With the 25.4 release (April 2025)</li>
+            </ul>
+        </td>
+    </tr>    -->                      
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
@@ -97,7 +113,7 @@ Workfront版本編號代表每月和每季的版本追蹤。 第一個數字代�
             <p><b>將於下列日期提供：</b></p>
             <ul>
                 <li>預覽版本： 2025年3月20日</li>
-                <li><span class="preview">所有客戶的生產版本： 2025年3月20日</span></li>
+                <span class="preview"><li>所有客戶的生產版本： 2025年3月20日</li></span>
             </ul>
         </td>
     </tr>                          
@@ -111,7 +127,39 @@ Workfront版本編號代表每月和每季的版本追蹤。 第一個數字代�
             <p><b>將於下列日期提供：</b></p>
             <ul>
                 <li>預覽版本： 2025年2月6日</li>
-                <li><span class="preview">所有客戶的生產版本： 2025年3月13日</span></li>
+                <span class="preview"><li>所有客戶的生產版本： 2025年3月13日</li></span>
+            </ul>
+        </td>
+    </tr>                          
+</tbody>
+</table>
+
+### 行動裝置增強功能
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            行動應用程式中校訂的增強功能(僅限iOS)</a>[！BADGE In Production ]{type=Informative}</p>
+            <p>Adobe Workfront行動應用程式中的校訂功能有數個增強功能：
+            <ul>
+            <li>您現在可以從您的行動電子郵件應用程式，透過與您共用的連結開啟校訂檔案。 以前不支援電子郵件中的連結，因此您必須從Workfront行動應用程式存取校樣。</li>
+            <li>行動應用程式現在支援多媒體校訂檔案。</li>
+            </ul>
+            </p>
+        </td>
+        <td>
+            <p><b>將於下列日期提供：</b></p>
+            <ul>
+                <li>預覽版本：不適用</li>
+                <span class="preview"><li>所有客戶的生產版本： 2025年3月12日</li> 
+            </ul>
+            <p><b>適用於下列環境：</b></p>
+            <ul>
+                <li>iOS行動應用程式</li>
             </ul>
         </td>
     </tr>                          
@@ -142,6 +190,48 @@ Workfront版本編號代表每月和每季的版本追蹤。 第一個數字代�
 </tbody>
 </table>
 
+### 報表增強功能
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Data Connect</a>[！BADGE In Production ]{type=Informational}中現在提供檔案核准和決定資料</p>
+            <p>您現在可以在Data Connect中存取檔案核准和決定的資料。 此資料集橋接來自Workfront校訂功能和Workfront檔案上發生的Frame.io核准的檔案。 您現在將能夠透過BI視覺效果說明週期時間、週期數和時間表對延遲核准的影響。</p>
+        </td>
+        <td>
+            <p><b>將於下列日期提供：</b></p>
+            <ul>
+                <li>預覽版本： 2025年3月25日</li>
+                <li>所有客戶的生產版本： 2025年3月25日</li>
+            </ul>
+        </td>
+    </tr>                          
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront行事曆的更新</a></p>
+            <p>我們已將Workfront行事曆的外觀與風格更新為與Workfront其他區域一致的現代化設計。 與目前的Workfront行事曆在功能上有細微的差異，包括：
+            <ul>
+            <li>如何將臨時專案新增至行事曆</li>
+            <li>如何建立及重新命名行事曆</li>
+            <li>行事曆動作已移至行事曆名稱旁的「更多」功能表</li>
+            <li>檢視行事曆資訊的新側面板</li>
+            <li>及更多內容</li>
+            <ul>        </td>
+        <td>
+            <p><b>將於下列日期提供：</b></p>
+            <ul>
+                <li>預覽版本： 2025年2月27日</li>
+                <li>所有客戶適用的生產版本：第25.4版本（2025年4月10日）</li>
+            </ul>
+        </td>
+    </tr>                          
+</tbody>
+</table>
+
 ### 其他增強功能
 
 <table>
@@ -158,7 +248,7 @@ Workfront版本編號代表每月和每季的版本追蹤。 第一個數字代�
         <td>
             <p><b>將於下列日期提供：</b></p>
             <ul>
-                <li><span class="preview">所有客戶的生產版本： 2025年3月6日</span></li>
+                <span class="preview"><li>所有客戶的生產版本： 2025年3月6日</li></span>
             </ul>
         </td>
     </tr>
@@ -188,7 +278,7 @@ Workfront版本編號代表每月和每季的版本追蹤。 第一個數字代�
             <p><b>將於下列日期提供：</b></p>
             <ul>
                 <li>預覽版本：在整個2025年第二季度版本時間範圍內</li>
-                <li><span class="preview">生產版本：檢閱特定日期的發行說明</span></li>
+                <span class="preview"><li>生產版本：檢閱特定日期的發行說明</li></span>
             </ul>
         </td>
     </tr>
@@ -198,6 +288,13 @@ Workfront版本編號代表每月和每季的版本追蹤。 第一個數字代�
 ### 即將從Workfront移除的功能
 
 下列功能即將從Workfront中移除：
+
+#### API 2-15版已淘汰
+
+隨著我們持續增強Workfront平台，務必讓API保持最新狀態。 這可確保最佳效能和安全性，並支援新功能。 因此，我們將淘汰Workfront API 2-15版。
+
+* **2025年9月**：目前不支援的API版本2-14將被棄用。 在此日期之後，您將無法再存取這些版本。
+* **2025年12月**： API 15版將被棄用。
 
 #### 我們正在移除專案中的舊版敏捷檢視
 

@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: e5878d3b591e65f4ece2a79248e03940976580de
+source-git-commit: e8751b8e33ce99d56f816f12b065482c4deb7fbd
 workflow-type: tm+mt
-source-wordcount: '1935'
+source-wordcount: '2166'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,45 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 如需針對Adobe Workfront Planning發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## 提交新請求後用以檢視該請求的連結
+
+>[!NOTE]
+>
+>預覽： 2025年3月27日；適用於所有客戶的生產： 2025年4月10日
+
+現在，您可以在從下列區域提交新請求後，立即開啟新請求：
+
+* 從共用連結存取請求表單後
+* 「新增記錄」或「請求記錄」按鈕中的記錄型別頁面
+* 主要功能表中的「請求」區域
+
+如需詳細資訊，請參閱[提交Adobe Workfront Planning要求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)。
+
+## 使用自動從一個記錄建立多個物件
+
+>[!NOTE]
+>
+>預覽： 2025年3月27日；適用於所有客戶的生產： 2025年4月10日
+
+在Workfront Planning中使用自動化時，您現在可以從相同的Workfront Planning記錄建立多個專案。 您可以建立多個專案，並在觸發一個自動化時，根據單一或多重選取欄位的值來建立每個專案。 您只能使用此功能來建立專案。  您無法在Planning中觸發任何其他變更或建立任何其他型別的物件。
+
+
+在此增強功能之前，每次觸發專案設定的自動化時，您只能建立一個專案。
+
+如需詳細資訊，請參閱[使用Adobe Workfront Planning記錄自動化建立物件](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)。
+
+## 重新命名查閱欄位
+
+>[!NOTE]
+>
+>預覽： 2025年3月27日；適用於所有客戶的生產： 2025年4月10日
+
+現在，在將查閱欄位新增至連線記錄的表格後，您可以更新這些欄位的資訊。
+
+在此增強功能之前，您無法編輯現有的查閱欄位。
+
+如需詳細資訊，請參閱[編輯欄位](/help/quicksilver/planning/fields/edit-fields.md)。
 
 ## 從記錄型別設定及管理多個請求表單
 

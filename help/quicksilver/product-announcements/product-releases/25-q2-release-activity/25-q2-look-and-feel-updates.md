@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: ece8b2b248c8dd4e27465fbacb1319a7e0fbac11
+source-git-commit: 9b1514ac84692703aa1938c306ff5680d7c9f74f
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,62 @@ ht-degree: 0%
 本頁說明在2025年第二季度發行時間範圍內對Adobe Workfront應用程式的各個區域外觀和感覺進行的小幅更新。
 
 如需2025年第二季版本的所有變更清單，請參閱[2025年第二季版本概觀](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)。
+
+<!--
+
+## Updated experience in the Access Levels area in Setup
+
+>[!NOTE]
+>
+>Preview release: March 27, 2025; Production release for all customers: With the 25.4 release (April 10, 2025)
+
+To enhance performance, we've made some visual updates to the Access Levels area in Setup.
+
+A small functionality change has been applied to the Access Levels list. To copy, edit, or delete an access level, select the level and click the appropriate icon.
+
+-->
+
+## 費用型別對話方塊的外觀更新
+
+>[!NOTE]
+>
+>預覽版本： 2025年3月27日；適用於所有客戶的生產版本：搭配25.4版（2025年4月10日）
+
+我們已更新在設定區域中新增和編輯費用型別的對話方塊的外觀，以符合Workfront其他區域的設計。
+
+如需詳細資訊，請參閱[建立自訂費用型別](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md)。
+
+## 「編輯風險型別」方塊的外觀更新
+
+>[!NOTE]
+>
+>預覽版本： 2025年3月27日；適用於所有客戶的生產版本：搭配25.4版（2025年4月10日）
+
+當您在Workfront的「設定」區域中更新現有的風險型別時，我們已更新「編輯風險型別」方塊的外觀。 新設計現在與Workfront的其他區域相符。
+
+如需詳細資訊，請參閱[編輯及建立風險型別](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md)。
+
+## 新風險型別方塊的外觀更新
+
+>[!NOTE]
+>
+>預覽版本： 2025年3月27日；適用於所有客戶的生產版本：搭配25.4版（2025年4月10日）
+
+當您在Workfront的「設定」區域中新增風險型別時，我們已更新「新風險型別」方塊的外觀和風格。 新設計現在與Workfront的其他區域相符。
+
+如需詳細資訊，請參閱[編輯及建立風險型別](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md)。
+
+## 專案佇列詳細資料區域的外觀和感覺更新
+
+>[!NOTE]
+>
+>預覽版本： 2025年3月27日；適用於所有客戶的生產版本：搭配25.4版（2025年4月10日）
+
+我們已更新專案上佇列詳細資料區域的外觀與風格，以符合Workfront其他區域的設計風格。
+
+透過此更新，範本「佇列詳細資料」區域的外觀和感覺未改變。
+
+如需詳細資訊，請參閱[建立要求佇列](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
 
 ## 頭像不再顯示在某些電子郵件通知中
 
@@ -35,27 +91,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽版本： 2025年3月6日；適用於所有客戶的生產版本： 2025年4月10日
+>預覽版本： 2025年3月6日；適用於所有客戶的生產版本：搭配25.4版（2025年4月10日）
 
 我們已更新「里程碑路徑」清單在「設定」區域中的外觀和風格，以符合Workfront其他區域的設計方式。
 
 如需詳細資訊，請參閱[建立里程碑路徑](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)。
-
-## Workfront行事曆的外觀與操作更新
-
->[!NOTE]
->
->預覽版本： 2025年2月27日；適用於所有客戶的生產版本：搭配25.4版（2025年4月10日）
-
-我們已將Workfront行事曆的外觀與風格更新為與Workfront其他區域一致的現代化設計。 與目前的Workfront行事曆在功能上有細微的差異，包括：
-
-* 如何將臨時專案新增至行事曆
-* 如何建立及重新命名行事曆
-* 行事曆動作已移至行事曆名稱旁的「更多」功能表
-* 檢視行事曆資訊的新側面板
-* 及更多內容
-
-如需詳細資訊，請參閱[行事曆](/help/quicksilver/reports-and-dashboards/reports/calendars/calendars.md)文章。
 
 ## 更新專案檢視中專案里程碑路徑的檢視
 
