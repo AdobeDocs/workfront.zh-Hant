@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b76b9e8-fbb8-45a7-9e26-1ddc6d5176d8
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: ff4a9b317bd75b298a7a39814b4ae265c92c6d2a
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 4%
@@ -16,6 +16,8 @@ ht-degree: 4%
 ---
 
 # 建立自訂費用類型
+
+{{highlighted-preview}}
 
 <!--**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -57,7 +59,7 @@ ht-degree: 4%
 
 ## 預設費用型別
 
-無法刪除或編輯預設為[!DNL Workfront]的費用型別，包括下列專案：
+[!DNL Workfront]中無法刪除或編輯的預設費用型別包括下列專案：
 
 * [!UICONTROL Advertising]
 * [!UICONTROL 諮詢]
@@ -72,7 +74,7 @@ ht-degree: 4%
 
 1. 按一下&#x200B;**[!UICONTROL 費用型別]**。
 1. 按一下&#x200B;**[!UICONTROL 新增費用型別]**。
-1. 在顯示的&#x200B;**[!UICONTROL 新費用型別]**&#x200B;方塊中，指定下列資訊：
+1. 在&#x200B;**[!UICONTROL 新費用型別]**&#x200B;對話方塊中，指定下列資訊：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -106,7 +108,8 @@ ht-degree: 4%
     </tbody> 
    </table>
 
-1. 按一下&#x200B;**[!UICONTROL 建立費用型別]**。\
+1. 按一下&#x200B;**建立費用型別** <span class="preview">或&#x200B;**[!UICONTROL 儲存]**。</span>
+
    使用者現在可以使用此費用型別，將其與其在專案和任務上的費用建立關聯。
 
 ## 修改自訂費用型別
@@ -116,9 +119,10 @@ ht-degree: 4%
 1. 按一下&#x200B;**[!UICONTROL 費用型別]**。
 1. 選取您要修改的費用型別，然後按一下[編輯]。****
 
-   顯示&#x200B;**[!UICONTROL 編輯費用型別]**&#x200B;對話方塊。
+   **[!UICONTROL 編輯費用型別]**&#x200B;對話方塊就會顯示。
 
-1. 進行您想要的變更，然後按一下[儲存變更]。****\
+1. 進行您想要的變更，然後按一下&#x200B;**儲存變更** <span class="preview">或&#x200B;**[!UICONTROL 儲存]**。</span>
+
    使用者現在可以使用此費用型別，將其與其在專案和任務上的費用建立關聯。
 
 如需有關如何使用費用以及這些費用如何影響專案成本的詳細資訊，請參閱文章[管理專案費用](../../../manage-work/projects/project-finances/manage-project-expenses.md)。
