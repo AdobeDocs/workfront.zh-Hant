@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f929806f-9087-4b64-be4b-70bbceaaeab0
-source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
+source-git-commit: a8d2447eea4ca8d814035d183f40921cad49a0d8
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 3%
+source-wordcount: '658'
+ht-degree: 2%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 3%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 Adobe Workfront有許多預設風險型別，您可以在計畫階段與專案建立關聯，以在核准任何工作之前識別潛在障礙。
 
@@ -93,7 +93,9 @@ Adobe Workfront有許多預設風險型別，您可以在計畫階段與專案�
 1. 選取您要編輯的風險型別。
 1. 按一下&#x200B;**[!UICONTROL 編輯]**&#x200B;圖示![編輯圖示](assets/edit-icon.png)。
 
-   [!UICONTROL **編輯風險型別**]&#x200B;方塊開啟。<!--add screen shot-->
+   <span class="preview">已開啟&#x200B;[!UICONTROL **編輯風險型別**]&#x200B;方塊。</span>
+
+   ![編輯風險型別方塊](assets/edit-risk-type-box.png)
 
    >[!TIP]
    >
@@ -126,11 +128,18 @@ Adobe Workfront有許多預設風險型別，您可以在計畫階段與專案�
 {{step-1-to-setup}}
 
 1. 按一下&#x200B;**[!UICONTROL 風險型別]**。
+
 1. 按一下&#x200B;**[!UICONTROL 新增風險型別]**&#x200B;以開啟&#x200B;[!UICONTROL **新增風險型別**]&#x200B;方塊
 
    或
 
-   按一下風險型別清單左下角的&#x200B;[!UICONTROL **新增更多風險型別**]，以內嵌新增風險型別。<!--add screen shot-->
+   按一下風險型別清單左下角的&#x200B;[!UICONTROL **新增更多風險型別**]，以內嵌新增風險型別。
+
+   <span class="preview"> **新風險型別**&#x200B;方塊開啟。<span>
+
+   ![新風險型別方塊](assets/new-risk-type-box.png)
+
+
 1. 為風險型別新增&#x200B;**[!UICONTROL Name]** （必要）和&#x200B;**[!UICONTROL Description]** （選用）。
 
    **[!UICONTROL Name]**&#x200B;和&#x200B;**[!UICONTROL Description]**&#x200B;欄位有50個字元的字元限制。

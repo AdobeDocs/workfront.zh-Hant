@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
+source-git-commit: a8d2447eea4ca8d814035d183f40921cad49a0d8
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '792'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # 編輯欄位設定
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -121,11 +121,10 @@ ht-degree: 1%
   >
   >不會通知其他使用者欄位設定已變更。
 
-* 您無法編輯已連線記錄中的現有查閱欄位。
+* 在生產環境中，您無法編輯現有的查閱欄位。
+  <span class="preview">在[預覽]環境中，您可以從連線的記錄編輯現有的查詢欄位。</span>
 
-<!--replace he last bullet with thsi: 
-
-* <span class="preview">You can edit existing lookup fields from connected records.</span>-->
+<!--at production - April 10, 2025 - remove the last bullet altogether-->
 
 <!--this is not yet true, but it might come later:
 * You can deselect Allow negative numbers option from a Number, Percentage, or Currency field after you save the field. 
@@ -164,7 +163,21 @@ ht-degree: 1%
 
    欄位資訊會針對所有有權檢視工作區的人員而更新。
 
-1. （視條件而定）對於連結的記錄欄位，按一下&#x200B;**編輯查閱欄位**&#x200B;並從連結的記錄型別新增或移除任何欄位。
+1. （視條件而定）對於連線的記錄欄位，按一下&#x200B;**編輯查閱欄位**，並從連線的記錄型別新增或移除任何查閱欄位。
 
    如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
 
+   >[!TIP]
+   >
+   >您可以新增或移除連線記錄中的查閱欄位，但無法編輯查閱欄位的設定。
+
+
+<!-- replace the TIP above with the one below at Preview, and remove this tip altogether after April 10 Prod release:-->
+
+<!--
+   >[!TIP]
+   >
+   >* In the Production environment, you can add or remove lookup fields from connected records, but you cannot edit the settings of lookup fields.
+   >* <span class="preview">In the Preview environment, you can edit the settings of lookup fields.</span>
+
+-->

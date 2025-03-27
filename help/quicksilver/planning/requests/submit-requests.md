@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
+source-git-commit: a8d2447eea4ca8d814035d183f40921cad49a0d8
 workflow-type: tm+mt
-source-wordcount: '1828'
+source-wordcount: '1878'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,10 @@ ht-degree: 0%
 
 您可以從下列區域提交Workfront Planning請求：
 
-* 從Workfront的請求區域，或請求表單的直接連結。 本文說明如何從Workfront的「請求」區域或共用連結提交請求，以將新記錄新增至記錄型別。
+* 從Workfront的要求區域。
+* 從已共用之請求表單的直接連結。
+
+  本文說明如何從Workfront的「請求」區域或共用連結提交請求，以將新記錄新增至記錄型別。
 * <span class="preview">從記錄型別頁面新增或請求新記錄時。 如需詳細資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md).</span>
 
 Workfront使用者與外部使用者可以提交請求給Planning記錄型別並建立記錄。<!--double check on the external users-->
@@ -212,6 +215,8 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
      >
      >只有當貴組織的Workfront執行個體上線至Adobe Unified Experience時，才會顯示電子郵件和應用程式內通知。
 
+   1. （選擇性）按一下確認訊息中的&#x200B;**檢視您的要求**&#x200B;以開啟要求，或按一下&#x200B;**X**&#x200B;圖示以關閉確認。
+
 1. （選擇性）按一下[要求]區域中的&#x200B;**規劃**&#x200B;索引標籤以檢視您的要求，然後按一下要求的名稱。
 
    請求詳細資訊頁面隨即開啟。
@@ -269,7 +274,13 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
      >
      >只有當貴組織的Workfront執行個體上線至Adobe Unified Experience時，才會顯示電子郵件和應用程式內通知。
 
-1. （選擇性）按一下[要求]區域中的&#x200B;**規劃**&#x200B;索引標籤以檢視您的要求，然後按一下要求的名稱。
+1. <span class="preview">（選擇性）按一下&#x200B;**檢視您的要求**，以在Workfront中開啟要求。</span>
+
+   或
+
+   <span class="preview">按一下[提交其他要求](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request)以開啟要求表單並新增要求。</span>
+
+1. （選擇性）按一下&#x200B;**主功能表** > **要求** > **規劃**&#x200B;索引標籤以檢視您的要求，然後按一下要求的名稱。
 
    請求詳細資訊頁面隨即開啟。
 

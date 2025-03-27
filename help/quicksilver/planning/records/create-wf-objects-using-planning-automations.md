@@ -8,9 +8,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 89b2e3547387397279cce751dd7c84d8174532b5
 workflow-type: tm+mt
-source-wordcount: '1811'
+source-wordcount: '2197'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 2%
 
 <!-- if they give access to use the automation to people with LESS than Manage permissions to a workspace, split this article in two: the Configure section should be for admins and the "Use a Workfront Planning automation to create an object" should be for all other users-->
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
 <span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
@@ -36,6 +36,15 @@ ht-degree: 2%
 例如，您可以建立採用Workfront Planning行銷活動的自動化，並在Workfront中建立專案以追蹤該行銷活動的進度。 此專案會連結至行銷活動上「已連線的專案」欄位中的Workfront規劃行銷活動。
 
 如需有關連線記錄的詳細資訊，請參閱[連線記錄總覽](/help/quicksilver/planning/records/connected-records-overview.md)。
+
+您可以在Workfront Planning中使用自動化來建立下列專案：
+
+* 一個<span class="preview">或數個</span>專案
+* 群組
+* 計畫
+* 投資組合
+* 專案
+* A記錄
 
 ## 存取需求
 
@@ -89,14 +98,15 @@ ht-degree: 2%
   <tr> 
    <td role="rowheader"><p>存取層級設定</p></td> 
    <td> <p>Adobe Workfront Planning沒有存取層級控制</p> 
-   <p>在Workfront中編輯您要建立之物件型別（專案、投資組合、方案）的存取權。 </p>  
+   <p>編輯存取權，並存取您要建立之物件型別（專案、投資組合、方案）的「在Workfront中建立物件」。 </p>  
 </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
-   <td> <p>為您要建立物件的工作區<!--<span class="preview">and record type</span>-->貢獻或更高的許可權。 </p>  
+   <td> <p>管理工作區的許可權以建立自動化。 </p>
+   <p>為您要使用現有自動機制建立物件的工作區<!--<span class="preview">and to the record type</span>-->貢獻或更高的許可權。 </p>  
+   <p>管理Workfront物件（投資組合）的許可權以新增子物件（方案或專案）。</p>
    <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p>
-   <p>管理Workfront物件（專案組合）的許可權以新增子物件（專案）。</p>
    </td> 
   </tr> 
 <tr> 
@@ -113,7 +123,18 @@ ht-degree: 2%
 
 ## 有關使用自動化建立物件和記錄的考量事項
 
-* 自動化建立的物件或記錄的名稱與從中建立它的記錄名稱相同。
+* 自動建立的物件或記錄名稱與建立單一物件時用來建立該物件的記錄名稱相同。
+
+<div class="preview">
+
+* 當您建立多個專案時，它們會根據以下模式自動命名：
+
+  `[ Name of the record ] Name of the field choice`
+
+  如需詳細資訊，請參閱本文中的[使用Workfront Planning自動化建立物件或記錄](#use-a-workfront-planning-automation-to-create-an-object-or-a-record)一節。
+
+</div>
+
 * 新物件或記錄不會覆寫相同欄位中的現有物件或記錄。 為同一記錄多次觸發相同的自動化，除了之前建立的物件或記錄外，還會新增原始記錄的相同連線欄位中的新物件或記錄。
 
 <!--hide this for now; they are trying to remove this militation: * The automation adds additional objects only in the Many to many or One to many connection type fields. In the all other cases, the automation creates the object, but it does not connect it to the original record from which the automation is triggered.-->
@@ -147,11 +168,13 @@ ht-degree: 2%
    * **動作**：選取您希望Workfront在觸發自動化時執行的動作。 這是必填欄位。
 選取下列其中一個動作：
 
-      * 建立群組
-      * 建立方案
-      * 建立專案組合
+      * <span class="preview">建立多個專案</span>
+      * <span class="preview">建立單一專案</span>
       * 建立專案
       * 建立記錄
+      * 建立方案
+      * 建立專案組合
+      * 建立群組
 
      >[!TIP]
      >
@@ -159,50 +182,81 @@ ht-degree: 2%
 
 1. （視條件而定）根據您選取的動作，更新下列欄位：
 
-   * **建立專案**：
-      * **建立物件的已連線欄位**：這是將顯示新專案的已連線欄位。 這是必填欄位。
+   * **建立<span class="preview">單一</span>專案**： <!--replace to the left: Create a single project-->
+      * **建立專案的已連線欄位**：這是將顯示新專案的已連線欄位。 這是必填欄位。
       * **專案範本**：選取Workfront用來建立專案的專案範本。
+
+   <div class="preview">
+
+   * 建立多個專案：
+      * **建立專案的已連線欄位**：這是將顯示新專案的已連線欄位。 這是必填欄位。
+      * **其選擇將建立記錄的欄位**：從選取的記錄型別中選擇多重或單一選取欄位。 Workfront會為您觸發自動化的記錄上目前選取的每個欄位選擇建立一個專案。
+
+     >[!TIP]
+     >
+     >專案只會針對您執行自動化之記錄的多重或單重選取欄位中目前選取的選項而建立，不會針對該欄位的所有可能選項而建立。
+     >
+
+      * **使用相同的範本**：選取此選項可針對每個新專案使用相同的範本。 如果取消選取選項，請為每個欄位選擇選取&#x200B;**專案範本**。
+      * **專案範本**：如果您已選取&#x200B;**使用相同範本**&#x200B;選項，請選取Workfront將用來建立專案的專案範本。
+
+   </div>
+
    * **建立投資組合**：
-      * **建立物件的已連線欄位**：這是將顯示新投資組合的已連線欄位。 這是必填欄位。
+      * **建立投資組合的已連線欄位**：這是將顯示新投資組合的已連線欄位。 這是必填欄位。
       * **要附加到新投資組合的自訂表單**：選取要附加到新投資組合的自訂表單。 您必須先建立產品組合自訂表單，然後才能進行選取。
    * **建立程式**：
-      * **建立物件的已連線欄位**：這是將顯示新程式的已連線欄位。 這是必填欄位。
+      * **建立程式的已連線欄位**：這是將顯示新程式的已連線欄位。 這是必填欄位。
       * **方案組合**：選取將新增新方案的組合。 這是必填欄位。
       * **要附加到新程式的自訂表單**：選取要附加到新程式的自訂表單。 您必須先建立程式自訂表單，然後才能進行選取。
    * **建立群組**：
-      * **建立物件的已連線欄位**：這是將顯示新群組的已連線欄位。 這是必填欄位。
+      * **建立群組的已連線欄位**：這是將顯示新群組的已連線欄位。 這是必填欄位。
       * **要附加到新群組的自訂表單**：選取要附加到新程式的自訂表單。 您必須先建立程式自訂表單，然後才能進行選取。
    * **建立記錄**：
       * **記錄型別**：選取您要建立的記錄型別。
 
-     **設定**&#x200B;子區段隨即顯示。 更新&#x200B;**設定**&#x200B;子區段中的下列欄位：
+        **設定**&#x200B;子區段隨即顯示。 更新&#x200B;**設定**&#x200B;子區段中的下列欄位：
 
-      * **目前記錄將顯示的連線記錄型別欄位**：這是針對目前記錄將顯示的動作選取的記錄型別上的連線欄位。
+         * **目前記錄將顯示的連線記錄型別欄位**：這是針對目前記錄將顯示的動作選取的記錄型別上的連線欄位。
 
-     例如，如果您正在建立行銷活動的自動化，以便從連線產品記錄，這是產品記錄型別上顯示的行銷活動之已連線欄位（使用自動化建立產品後）。
+        例如，如果您正在建立行銷活動的自動化，以便從連線產品記錄，這是產品記錄型別上顯示的行銷活動之已連線欄位（使用自動化建立產品後）。
 
-     這是必填欄位。
+        這是必填欄位。
 
-     <!--submitted a change in functionality and UI text for this - revise??-->
-      * **對應欄位**
+        <!--submitted a change in functionality and UI text for this - revise??-->
+在**對應欄位**&#x200B;區域中，更新下列資訊：
+
          * **傳輸自**：從建立自動化的記錄型別中選取欄位，以將它們對應到連線記錄型別的欄位。
          * **傳輸至**：從新建立的記錄中選取欄位，這些欄位會填入您執行自動化之記錄中的資訊。
 
-     >[!TIP]
-     >
-     >來自原始記錄型別的欄位型別必須與來自新建記錄型別的欄位型別匹配。
+        >[!TIP]
+        >
+        >* 來自原始記錄型別的欄位型別必須與來自新建記錄型別的欄位型別匹配。
+        >* 如果您選擇無欄位，則新記錄的名稱將為&#x200B;**未命名的記錄**。
 
 1. （選擇性和條件性）如果您選取建立記錄，請按一下&#x200B;**新增欄位**，將其他查詢欄位從一筆記錄對應到另一筆記錄。
-1. （視條件而定）如果您選取建立記錄，且原始記錄型別與在&#x200B;**動作**&#x200B;區域中所選記錄型別之間沒有連線欄位，請按一下連線記錄型別&#x200B;**欄位（目前記錄將顯示在此欄位）右邊的問號圖示**，然後按一下&#x200B;**新增**&#x200B;圖示![建立連線欄點陣圖示](assets/create-a-connection-field-icon.png)以新增連線欄位。
+1. （條件式）如果原始記錄型別與在&#x200B;**記錄型別**&#x200B;欄位中選取的記錄型別之間沒有連線欄位，請按一下&#x200B;**新增連線欄位**。
 
-   系統會自動為您在&#x200B;**動作**&#x200B;區域中選取的記錄型別建立新欄位，並命名為&#x200B;**連線的記錄**。
+   ![建立記錄的自動化設定](assets/automation-setup-create-record.png)
 
-   您設定自動化的原始記錄型別也會建立所選記錄型別的已連線欄位。
-1. （選擇性和條件性）如果您選取建立Workfront物件，但沒有所選Workfront物件型別的連線欄位，請按一下&#x200B;**建立&lt; Workfront物件型別名稱>的「連線」欄位**&#x200B;欄位右側的問號圖示，然後按一下&#x200B;**新增**&#x200B;圖示![建立連線欄點陣圖示](assets/create-a-connection-field-icon.png)以新增連線欄位。
+   將建立下列兩個欄位：
 
-   ![問號圖示可透過Workfront在自動化中新增連線的欄位](assets/question-mark-icon-to-add-connected-fields-in-automations-with-workfront.png)
+   * 已針對您在&#x200B;**記錄型別**&#x200B;欄位中指定的記錄型別，建立名為&#x200B;**連線記錄**&#x200B;的新連線欄位。
+   * 已為您設定自動化的記錄型別建立與&#x200B;**記錄型別**&#x200B;欄位中指定的名稱相同的新連線欄位。
 
-   新欄位會自動建立並命名為&#x200B;**連線&lt; Workfront物件名稱>**。 例如，為記錄建立投資組合已連線欄位時，將其命名為「已連線投資組合」。
+     例如，如果您正在設定Campaigns的自動化，以自動建立另一個名為Brands的記錄型別，然後按一下&#x200B;**新增連線的欄位**，則會建立下列欄位：
+
+      * 已為&#x200B;**品牌**&#x200B;記錄型別建立&#x200B;**連線記錄**&#x200B;連線欄位。
+      * 已針對&#x200B;**行銷活動**&#x200B;記錄型別建立&#x200B;**品牌**&#x200B;連線欄位。
+
+1. （選擇性）如果原始記錄型別與在[動作]區域中選取的Workfront物件之間沒有連線欄位，請按一下[新增]連線欄位&#x200B;**。**
+
+   ![建立多個專案的自動化設定](assets/automation-setup-create-multiple-projects.png)
+
+   將建立下列專案：
+
+   * 名稱為&#x200B;**Connected &lt; Workfront物件名稱>**&#x200B;的新連線欄位是為您建置自動化之記錄型別所建立。 例如，當您選擇自動建立專案時，會針對您正在建立自動化的記錄型別建立&#x200B;**已連線的專案**&#x200B;欄位。
+   * 新記錄型別卡片會新增至Workfront中Workfront專案的「計畫」區段，其名稱為您設定自動化的記錄型別。
 
 1. 按一下自動化詳細資料頁面右上角的&#x200B;**儲存**。
 
@@ -223,21 +277,24 @@ ht-degree: 2%
 
    1. 從自動化清單中，暫留在已儲存的自動化名稱上，然後按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)。
 
-   1. 按一下&#x200B;**編輯**&#x200B;以更新有關自動化欄位的資訊並設定欄位。
+   1. 按一下&#x200B;**編輯**&#x200B;以更新下列資訊：
 
-      >[!TIP]
-      >
-      >   您無法變更您最初為自動化選取的動作。
+      * 按一下自動化名稱右邊的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**編輯**&#x200B;以變更自動化名稱。
+      * 自動化中除了&#x200B;**動作**&#x200B;欄位以外的所有欄位。
+
+        >[!TIP]
+        >
+        >您無法變更您最初為自動化選取的動作。
 
 
    1. 按一下&#x200B;**停用**&#x200B;以從記錄的資料表檢視中移除自動化，並防止使用者使用它來建立記錄或物件。
 
-   使用已停用的自動化所建立的記錄仍會連線至最初選取的記錄。
+      使用已停用的自動化所建立的記錄仍會連線至最初選取的記錄。
 
-   若要再次使用，請按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下&#x200B;**啟動**。
+      若要再次使用，請按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下&#x200B;**啟動**。
    1. 按一下&#x200B;**刪除**&#x200B;以刪除自動化。 已刪除的自動化無法復原。
 
-   使用已刪除的自動化所建立的記錄會保持與原始選取的記錄連線。
+      使用已刪除的自動化所建立的記錄會保持與原始選取的記錄連線。
 
 ## 使用Workfront Planning自動化建立物件或記錄
 
@@ -254,7 +311,17 @@ ht-degree: 2%
 
    * 如果自動化成功建立了物件或記錄，畫面底部會顯示確認訊息。
 
-   * 新物件會顯示在您在設定自動化按鈕時所指示的已連線欄位中。 您可能需要重新整理頁面才能檢視新物件。
+   * 新物件會顯示在自動化按鈕設定中所指示的已連線欄位中。 您可能需要重新整理頁面才能檢視新物件。 新物件的名稱與原始記錄相同。
+
+   <div class="preview">
+
+   * 如果根據多選或單選欄位選項建立了多個專案，則會根據以下模式自動命名專案：
+
+     `[ Name of the record ] Name of the field choice`
+
+     例如，如果名為`Summer breeze`的行銷活動從`EMEA`的欄位選擇產生專案，則專案名為`[ Summer breeze ] EMEA`。
+
+   </div>
 
    * 您從中觸發自動化的記錄已新增至新記錄的已連線欄位。
 

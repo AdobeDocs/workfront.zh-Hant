@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 4df268c9b5a99991bee3f1862c83fe0079d162c1
+source-git-commit: a8d2447eea4ca8d814035d183f40921cad49a0d8
 workflow-type: tm+mt
-source-wordcount: '2121'
+source-wordcount: '2184'
 ht-degree: 1%
 
 ---
@@ -178,9 +178,11 @@ ht-degree: 1%
    * **預設的分節**：這是Workfront套用至要求表單的預設分割槽符號。 所有記錄欄位都顯示在&#x200B;**預設區段**&#x200B;區域。
    * **主旨**&#x200B;欄位：將在Workfront中識別要求的欄位。 主旨欄位的設定和值無法編輯。
 
-     >[!TIP]
+     >[!NOTE]
      >
-     >**Subject**&#x200B;欄位在要求表單上可見時需要值。 不過，您可以視需要移除&#x200B;**主旨**&#x200B;欄位，要求者提交要求時不會在表單上看到該欄位。
+     >* **Subject**&#x200B;欄位在要求表單上可見時需要值。 不過，您可以視需要移除&#x200B;**主旨**&#x200B;欄位，要求者提交要求時不會在表單上看到該欄位。
+     >* 當請求表單上缺少「主旨」欄位，但未來記錄的名稱有「名稱」欄位時，會自動將請求名稱指派給與所建立記錄相同的名稱。
+     >* 當要求表單上同時遺漏[主旨]和[名稱]欄位時，要求會以下列模式命名： `< Record name > request form < Entry date of the request >`；記錄命名為&#x200B;**未命名**。
 
    * 與記錄型別關聯的所有欄位。
 
