@@ -7,7 +7,7 @@ description: 如果您是AD伺服器的管理員，則可以安裝和設定AD FS
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 670422e9-5db8-4f06-baf8-1f9ce83873fe
-source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
+source-git-commit: 690b0817dfe4ff200982ffe8d67ad93e563e30ac
 workflow-type: tm+mt
 source-wordcount: '928'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## 安裝和設定AD FS
 
-1. 將[AD FS 2.0](http://www.microsoft.com/en-us/download/details.aspx?id=10909)下載到您的電腦。
+1. 將Microsoft AD FS 2.0下載至您的電腦。
 1. 開啟下載的AdfsSetup.exe檔案，以啟動ADFS (Active Directory Federation Services)安裝精靈。
 1. 在[Server Role]畫面上，選取其中一個選項（您至少需要一個Federation Server）。
 1. 如果您不想將AD伺服器上的IIS公開至網際網路（HTTP和HTTPS的連線埠80和443），您可以先在防火牆後面設定同盟伺服器，然後建立第二個同盟伺服器Proxy，透過防火牆將請求傳送至同盟伺服器。
@@ -69,7 +69,7 @@ https://*&lt;adfs.your-company.com>*/adfs/ls/？wa=wsignout1.0
    1. 在[端點]底下，按一下[新增]和[專案] ]，其詳細資訊如下：[!UICONTROL 
 
       * 端點型別= SAML登出
-      * 繫結=POST
+      * 繫結= POST
       * URL = https://*&lt;adfs.your-company.com*>/adfs/ls/？wa=wsignout1.0
       * 在AD FS中設定信賴方信任（請參閱下文）後，即可完成此步驟。
    1. 在&#x200B;**[!UICONTROL 憑證指紋]**&#x200B;方塊中，輸入憑證中的資料。
