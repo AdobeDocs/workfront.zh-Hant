@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 3e48bebde0171c13b4168d7eb5d693b07cb9e396
+source-git-commit: 674c46b699ba445abba06bec3e4da4a710c60d63
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1521'
 ht-degree: 6%
 
 ---
@@ -66,11 +66,21 @@ ht-degree: 6%
 {{step-1-to-setup}}
 
 1. 按一下左側面板中的&#x200B;**存取層級**。
-1. 選取您要複製及自訂的存取層級，然後按一下[複製]。****
+1. 
+   * 在生產環境中：
+選取您要複製及自訂的存取層級，然後按一下[複製]。****
 
-   或
+     或
 
-   如果您正在編輯現有的存取層級（您先前複製過的），請按一下其名稱。
+     如果您正在編輯現有的存取層級（您先前複製過的），請按一下其名稱。
+
+   * <span class="preview">在預覽環境中：</span>
+
+     <span class="preview">選取您要複製與自訂的存取層級，然後按一下&#x200B;**複製**&#x200B;圖示![復製圖示](assets/copy-icon.png)。</span>
+
+     <span class="preview">或</span>
+
+     <span class="preview">如果您正在編輯現有的存取層級，請按一下該存取層級左側的方塊來選取存取層級，然後按一下&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)。</span>
 
 1. 在顯示的方塊中，執行下列任一項作業以開始設定自訂存取層級：
 
