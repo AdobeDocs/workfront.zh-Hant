@@ -10,16 +10,16 @@ exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
 source-git-commit: 696d656816a4c1c2edef4347567b2fc553f489f7
 workflow-type: tm+mt
 source-wordcount: '1194'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# 工作負載平衡器總覽 {#workload-balancer-overview}
+# 工作負載平衡器概觀 {#workload-balancer-overview}
 
 >[!CONTEXTUALHELP]
 >id="wf-resourcing-workload-balancer"
 >title="工作負載平衡器"
->abstract="專案所有者和團隊經理可以使用工作負載平衡器將工作專案指派給使用者。"
+>abstract="專案擁有者和團隊經理可以使用工作負載平衡器將工作項目指派給使用者。"
 
 <!--
 <p>(NOTE: this is linked from the UI for the Workload Balancer page. DO NOT CHANGE TITLE OR LINK) </p>

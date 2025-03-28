@@ -9,16 +9,16 @@ exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
 source-git-commit: 696d656816a4c1c2edef4347567b2fc553f489f7
 workflow-type: tm+mt
 source-wordcount: '7283'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# 檢視資源使用率資訊 {#view-resource-utilization-information}
+# 檢視資源使用情況資訊 {#view-resource-utilization-information}
 
 >[!CONTEXTUALHELP]
 >id="wf-resourcing-utilization"
->title="使用率報告"
->abstract="「使用率」報表可讓您在單一報表中檢視專案、方案或投資組合的進度、成本或收入。 您也可以比較收入與成本。"
+>title="使用情況報告"
+>abstract="使用情況報告可讓您在單一報告中檢視專案、方案或專案組合的進度、成本、或收入。您也可以比較收入和成本。"
 
 <!-- Audited: 01/2024 -->
 
@@ -113,7 +113,7 @@ ht-degree: 0%
 
 ## 使用率報表概要 {#overview-of-the-utilization-report}
 
-「使用率」報表可讓您在單一報表中檢視專案、方案或投資組合的進度、成本或收入。 您也可以比較收入與成本。
+使用情況報告可讓您在單一報告中檢視專案、方案或專案組合的進度、成本、或收入。您也可以比較收入和成本。
 
 您可以在「資源」區域中檢視「使用率」報表，以顯示多個專案間的使用率，或在一個專案層次中檢視該報表，以顯示與該專案相關聯的個別資源（職務角色和使用者）的使用率。
 

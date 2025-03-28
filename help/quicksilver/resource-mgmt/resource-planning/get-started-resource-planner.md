@@ -10,7 +10,7 @@ exl-id: 06cd2226-f94d-4b6a-8692-6d35210782f2
 source-git-commit: 696d656816a4c1c2edef4347567b2fc553f489f7
 workflow-type: tm+mt
 source-wordcount: '2113'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="wf-resourcing-planner"
 >title="資源規劃工具"
->abstract="您可以使用「資源規劃程式」來預估與預算您的資源配置給其受指派的專案，以及預測其未來工作的可用性。"
+>abstract="您可以使用資源規劃工具來估算和您的資源指派至專案的預算配置，並預測其未來工作的可用性。"
 
 <!-- Audited: 12/2023 -->
 
