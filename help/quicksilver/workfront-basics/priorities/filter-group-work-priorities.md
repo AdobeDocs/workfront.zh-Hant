@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: c362c62855c71022c4bc6b3abc22ba4ea83b1b24
+source-git-commit: fbe5373ebe1c73db656384da8a339d0983215e4e
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '651'
 ht-degree: 4%
 
 ---
@@ -93,8 +93,9 @@ ht-degree: 4%
       <td>尚未就緒</td>
       <td>顯示具有
        <ul>
-      <li>未完成的前置任務或無法處理專案的任務限制</li>
+      <li>未完成的前置任務或無法處理專案的任務限制</li></ul>
       <p>或</p>
+      <ul>
       <li>超過兩週的計劃開始日期</li>
       </ul>
        </td>
@@ -131,7 +132,7 @@ ht-degree: 4%
 
 ## 使用智慧型篩選器篩選您的工作
 
-使用自然語言來篩選快速篩選工作。
+使用自然語言快速篩選工作。
 
 >[!NOTE]
 >
@@ -143,7 +144,7 @@ ht-degree: 4%
 1. 按一下&#x200B;**智慧型濾鏡**。
 1. 輸入您要如何篩選您的工作。
 
-   您可以輸入類似以下的內容
+   您可以輸入如下的內容：
 
    * 顯示延遲任務
    * 顯示我最優先的順序
