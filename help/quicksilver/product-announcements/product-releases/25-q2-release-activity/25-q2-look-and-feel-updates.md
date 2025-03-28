@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: 9b1514ac84692703aa1938c306ff5680d7c9f74f
+source-git-commit: 69f9797b5427a5dd72b7b8531cd5aa41013b3d5d
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '747'
 ht-degree: 0%
 
 ---
@@ -18,19 +18,16 @@ ht-degree: 0%
 
 如需2025年第二季版本的所有變更清單，請參閱[2025年第二季版本概觀](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)。
 
-<!--
-
-## Updated experience in the Access Levels area in Setup
+## 更新設定中存取層級區域的體驗
 
 >[!NOTE]
 >
->Preview release: March 27, 2025; Production release for all customers: With the 25.4 release (April 10, 2025)
+>預覽版本： 2025年3月27日；適用於所有客戶的生產版本：搭配25.4版（2025年4月10日）
 
-To enhance performance, we've made some visual updates to the Access Levels area in Setup.
+為了增強效能，我們對「設定」中的「存取層級」區域進行了一些視覺化更新。
 
-A small functionality change has been applied to the Access Levels list. To copy, edit, or delete an access level, select the level and click the appropriate icon.
+「存取層級」清單已套用小幅功能變更。 若要複製、編輯或刪除存取層級，請選取該層級，然後按一下適當的圖示。
 
--->
 
 ## 費用型別對話方塊的外觀更新
 
