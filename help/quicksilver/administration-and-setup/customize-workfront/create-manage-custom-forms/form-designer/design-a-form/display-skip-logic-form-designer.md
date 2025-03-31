@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 9f2ada5f9954878efc195661173fe88a0fe1d3bd
+source-git-commit: 64deb1b0b3ba52f869ca38e2a26288d461070f82
 workflow-type: tm+mt
-source-wordcount: '1745'
+source-wordcount: '1744'
 ht-degree: 0%
 
 ---
@@ -250,7 +250,7 @@ Using the following condition, the Sold KPI field only becomes visible when the 
 
 如果套用了邏輯的欄位在使用者填寫自訂表單時符合定義的驗證條件，則該欄位會醒目提示並顯示錯誤訊息。
 
-您可以將驗證邏輯套用至下列欄位型別：下拉式清單、選項按鈕、核取方塊、預先輸入、單行文字、段落文字、日期欄位、含格式的文字以及計算欄位。
+您可以將驗證邏輯套用至下列欄位型別：單行文字、段落、單選下拉式清單、多選下拉式清單、外部查閱、選項按鈕、核取方塊群組以及預先輸入。
 
 ### 範例
 
