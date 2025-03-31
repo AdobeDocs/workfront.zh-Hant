@@ -6,9 +6,9 @@ description: 您可以使用Adobe Workfront中的報表來檢閱或編輯系統�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a444d863-12a8-43d0-ae84-ee24863ad87b
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: da574efdede5aee34518f251cabdfe96983a69eb
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
@@ -88,10 +88,15 @@ ht-degree: 0%
    或\
    按一下&#x200B;**我的報表**&#x200B;資料夾下的任何資料夾。
 
-1. 將報表從報表清單拖曳至您要其所在的資料夾，然後在到達資料夾時將其放置。
+1. 選取報告，然後按一下清單頂端的資料夾圖示![資料夾圖示](assets/folder-icon.png)。
+
+1. 選擇您要新增報告的資料夾。
+
+   ![選擇要將報告移動到的資料夾](assets/choose-folder.png)
 
    >[!NOTE]
    >
    >您只能將報告從&#x200B;**我的報告**&#x200B;資料夾移動到&#x200B;**我的報告**&#x200B;下巢狀的其他資料夾。 您無法將報表從或移至&#x200B;**與我共用**&#x200B;或&#x200B;**所有報表**&#x200B;資料夾，移入或移出其他資料夾。
 
-   ![拖曳報告至資料夾](assets/nwe-drag-report-to-folder-350x292.png)
+
+
