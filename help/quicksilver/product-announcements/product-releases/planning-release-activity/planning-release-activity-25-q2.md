@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: e8751b8e33ce99d56f816f12b065482c4deb7fbd
+source-git-commit: 4b5248f667648543263073022ae10336fb022f97
 workflow-type: tm+mt
-source-wordcount: '2166'
+source-wordcount: '2208'
 ht-degree: 0%
 
 ---
@@ -28,11 +28,14 @@ ht-degree: 0%
 >
 >預覽： 2025年3月27日；適用於所有客戶的生產： 2025年4月10日
 
-現在，您可以在從下列區域提交新請求後，立即開啟新請求：
+我們已改善您存取在Workfront Planning中提交之請求的方式。
+我們已新增「檢視您的請求」連結，您可以使用它來導覽至您剛才提交之請求的詳細資訊頁面。
 
-* 從共用連結存取請求表單後
-* 「新增記錄」或「請求記錄」按鈕中的記錄型別頁面
-* 主要功能表中的「請求」區域
+當您從下列區域提交請求後，即可使用新連結：
+
+* 從共用連結
+* 從記錄型別頁面上的「新增記錄」或「請求記錄」按鈕
+* 在啟用提交請求的新體驗後，從請求區域。
 
 如需詳細資訊，請參閱[提交Adobe Workfront Planning要求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)。
 

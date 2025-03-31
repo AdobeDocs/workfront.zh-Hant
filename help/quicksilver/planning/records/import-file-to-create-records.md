@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 4b5248f667648543263073022ae10336fb022f97
 workflow-type: tm+mt
 source-wordcount: '961'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -78,7 +78,7 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader"><p>存取層級設定</p></td> 
    <td> <p>Adobe Workfront Planning沒有存取層級控制</p> 
-   <p>在您將記錄連線到要建立的物件型別（專案、方案和投資組合）時，在Workfront中編輯其存取權。 </p>  
+   <p>在Workfront中編輯您想要建立之物件型別（專案、方案和投資組合）的存取權，以便從新記錄連線它們  </p>  
 </td> 
   </tr> 
 <tr> 

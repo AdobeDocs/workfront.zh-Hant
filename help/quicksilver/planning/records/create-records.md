@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 4b5248f667648543263073022ae10336fb022f97
 workflow-type: tm+mt
-source-wordcount: '2418'
+source-wordcount: '2419'
 ht-degree: 0%
 
 ---
@@ -206,7 +206,7 @@ ht-degree: 0%
    記錄型別頁面會在您上次存取的檢視中開啟。 依預設，會在表格檢視中開啟記錄型別頁面。
 所選型別的所有記錄都會顯示在檢視中。
 
-1. 根據工作區<!--<span class="preview">and record type</span>-->許可權，從任何檢視按一下畫面右上角的下列專案：
+1. （視條件而定）根據工作區<!--<span class="preview">and record type</span>-->許可權，從任何檢視按一下畫面右上角的下列專案：
 
    * 如果您在工作區<!--<span class="preview">and record type</span>-->上有Contribute或更高的許可權，請按一下&#x200B;**新增記錄**
 
