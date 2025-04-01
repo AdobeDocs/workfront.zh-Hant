@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '2522'
+source-wordcount: '2556'
 ht-degree: 2%
 
 ---
@@ -243,15 +243,15 @@ ht-degree: 2%
       <td role="rowheader">解決者</td> 
       <td> <p>這會顯示問題是否已由其他物件解決。 您可以從下拉式選單中選取此問題是由任務、專案還是其他問題解決，然後開始輸入將解決此問題的任務、專案或問題的名稱。 當它出現在清單中時選取它。</p>
 
-   <b>附註</b>
+   <b>備註</b>
 
-   當您選取要解決問題的物件時，問題狀態會連結到解決物件的狀態，並且無法在此問題上變更。 如需解析物件的詳細資訊，請參閱<a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">解析和可解析物件概述</a>。
+   <ul><li>當您選取要解決問題的物件時，問題狀態會連結到解決物件的狀態，並且無法在此問題上變更。 如需解析物件的詳細資訊，請參閱<a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">解析和可解析物件概述</a>。</li>
 
-   <b>提示</b>
+   <li>當您連線要由另一個任務、問題或專案解決的問題時，問題中的任何資訊都不會傳輸到解決物件（在「解決者」欄位中列出的任務、問題或專案）。 </li>
 
-   當您的系統或群組管理員將「解決者」欄位新增到問題自訂標題時，當存在與問題關聯的解決物件時，該欄位將變更為「解決問題」、「解決任務」或「解決專案」。
+   <li>當您的系統或群組管理員將「解決者」欄位新增到問題自訂標題時，當存在與問題關聯的解決物件時，該欄位將變更為「解決問題」、「解決任務」或「解決專案」。
 
-   當此欄位顯示在問題標題中時，您無法編輯它。 如需自訂問題標題的詳細資訊，請參閱<a href="../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md">使用版面配置範本自訂物件標題</a>
+   當此欄位顯示在問題標題中時，您無法編輯它。 如需自訂問題標題的詳細資訊，請參閱<a href="../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md">使用版面配置範本自訂物件標題</a></li></ul>
    </td> 
      </tr>
 

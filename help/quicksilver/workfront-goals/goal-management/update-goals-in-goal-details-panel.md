@@ -1,24 +1,21 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: 更新Adobe Workfront目標中「目標詳細資料」面板的目標
+title: 更新Adobe Workfront目標中「目標詳細資料」區段中的目標
 description: 您可以存取目標詳細資訊面板，以更新個別目標的資訊。
 author: Alina
 feature: Workfront Goals
 exl-id: e9df0d98-05a1-4977-b7f1-426b8f5b3eae
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '630'
 ht-degree: 1%
 
 ---
 
 # 更新「Adobe Workfront目標」中「目標詳細資料」區段中的目標
 
-<!--drafted for the goal redesign:
-- change the title for Production to Update goals in the Goal details section in Adobe Workfront Goals. 
-- update the description in the metadata above
--->
+<!--Audited for P&P only: 4/2025-->
 
 您可以存取目標詳細資訊面板，以更新個別目標的資訊。
 
@@ -26,8 +23,9 @@ ht-degree: 1%
 >
 >您無法更新狀態為「已關閉」的目標。
 
-
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具備下列條件：
 
@@ -58,12 +56,9 @@ ht-degree: 1%
  <tr>
  <td role="rowheader">產品*</td>
  <td>
- <p> 新產品需求，下列其中一項： </p>
-<ul>
-<li>Select或Prime Adobe Workfront計畫以及額外的Adobe Workfront目標授權。</li>
-<li>Ultimate Workfront計畫，預設包含Workfront目標。 </li></ul>
- <p>或</p>
- <p>目前產品需求： Adobe Workfront Goals的Workfront計畫和額外授權。 </p> <p>如需詳細資訊，請參閱<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目標的需求</a>。 </p> </td>
+  <p> 新產品需求：Workfront</p>
+  或
+  <p>目前產品需求：除了Workfront授權之外，您必須購買Adobe Workfront Goals的授權。 </p> <p>如需詳細資訊，請參閱<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目標的需求</a>。 </p> </td>
  </tr>
  <tr>
  <td role="rowheader">存取層級*</td>
@@ -87,6 +82,8 @@ ht-degree: 1%
 </table>
 
 *如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 更新「目標詳細資料」區段中的目標
 

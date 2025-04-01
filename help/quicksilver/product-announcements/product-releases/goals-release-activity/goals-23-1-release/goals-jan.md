@@ -7,9 +7,9 @@ description: 本頁說明預覽環境的Adobe Workfront目標23.1版本所做的
 author: Courtney
 feature: Product Announcements, Workfront Goals
 exl-id: 30a8d125-f84c-4e1a-8e4c-d76da326c2ef
-source-git-commit: ebc729ad0300d54d294be275773d9ffc13128c83
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,6 @@ ht-degree: 0%
 >
 >透過此更新，我們已移除「目標」區域中的「入庫」和「脈衝」區段。
 
-如需Workfront目標的詳細資訊，請參閱Workfront檔案的[Workfront目標](/help/quicksilver/workfront-goals/workfront-goals.md)區域中提供的文章。
+如需Workfront目標的詳細資訊，請參閱Workfront檔案的[Adobe Workfront目標：文章索引](/help/quicksilver/workfront-goals/workfront-goals.md)區域中提供的文章。
 
 [觀看此功能的影片示範](https://video.tv.adobe.com/v/3413327/){target=_blank}

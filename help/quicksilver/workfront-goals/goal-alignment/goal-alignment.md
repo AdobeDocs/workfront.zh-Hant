@@ -2,20 +2,22 @@
 content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
-title: 請參閱下列文章以瞭解如何在Workfront目標中對齊目標。
-description: 瞭解如何在下列文章中調整Adobe Workfront中的目標。
+title: Adobe Workfront目標中的目標校準：文章索引
+description: 確保企業內任何層級的所有目標彼此對齊，並符合整體策略，是組織成功的重要步驟。 瞭解如何在下列文章中調整Adobe Workfront中的目標。
 author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: b5b0e5b2-1133-443b-8ef1-cbb1ca377fd6
-source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
 
-# Adobe Workfront目標中的目標校準
+# Adobe Workfront目標中的目標校準：文章索引
+
+<!--Audited P&P only: 4/2025-->
 
 >[!NOTE]
 >
@@ -24,11 +26,6 @@ ht-degree: 0%
 >* 對於新計畫和授權結構：
 >    
 >   * Ultimate計畫
->        
->     或
->        
->   * 適用於Prime或選取Adobe Workfront計畫的Adobe Workfront目標的其他授權。
->      
 >      
 >* 對於目前的計畫與授權結構：
 >    

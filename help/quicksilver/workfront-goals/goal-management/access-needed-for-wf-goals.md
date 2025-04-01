@@ -3,23 +3,22 @@ content-type: reference
 product-previous: workfront-goals
 navigation-topic: goal-management
 title: 使用Workfront目標的需求
-description: 在存取Adobe Workfront目標之前，您的Adobe Workfront管理員必須確定已符合某些條件。
+description: 在存取Adobe Workfront目標之前，您的Adobe Workfront管理員必須確定已符合某些條件。 在本文章中，您將瞭解存取Workfront目標的存取權、許可權和版面配置需求。
 author: Alina
 feature: Workfront Goals
 exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '716'
 ht-degree: 0%
 
 ---
 
 # 使用Workfront目標的需求
 
-在存取Adobe Workfront目標之前，您的Adobe Workfront管理員必須確認下列所有條件皆已符合：
+<!--Audited P&P only: 04/2025-->
 
-<!--drafted for P&P - replace the first bullet with this one when licensing changes: 
-* Your company must purchase the correct Adobe Worfront plan or Adobe Workfront Goal license. For information, see the section [Obtain Workfront Goals organization access](#obtain-workfront-goals-organization-access)in this article.-->
+在存取Adobe Workfront目標之前，您的Adobe Workfront管理員必須確認下列所有條件皆已符合：
 
 * 您的組織必須購買正確的Workfront目標授權。 如需詳細資訊，請參閱本文章的[取得Workfront目標組織存取權](#obtain-workfront-goals-organization-access)一節。
 
@@ -48,9 +47,9 @@ ht-degree: 0%
 
 視貴公司目前的Workfront計畫而定，會有以下情況：
 
-* 如果貴公司有新的Workfront計畫，您必須有Ultimate Workfront計畫。 Workfront目標僅包含在此計畫中。
+* **新的Workfront計畫**：您必須擁有Ultimate Workfront計畫。 Workfront目標僅包含在此計畫中。
 
-* 如果您的公司有目前的Workfront計畫，則貴組織除了Workfront授權外，還必須購買額外的授權，讓您的使用者能夠存取Workfront目標。
+* **目前的Workfront計畫**：您的組織除了Workfront授權外，還必須購買額外的授權。
 
   貴組織購買額外授權後，Workfront會為您的帳戶啟用Workfront目標。 如需購買Workfront目標授權的相關資訊，請聯絡您的Workfront客戶經理。
 
@@ -60,13 +59,13 @@ ht-degree: 0%
 
 視貴公司目前的Workfront計畫而定，會有以下情況：
 
-* 如果貴公司有新的存取層級模型，您的Workfront管理員必須授予您下列其中一種Workfront授權型別，才能存取Workfront目標：
+* **新的存取層級模型**：您的Workfront管理員必須授予您下列其中一種Workfront授權型別，才能存取Workfront目標：
 
    * 貢獻者
    * 精簡
    * 標準
 
-* 如果貴公司擁有目前的存取層級模型，您的Workfront管理員必須授予您下列其中一種Workfront授權型別，才能存取Workfront目標：
+* **目前的存取層級模型**：您的Workfront管理員必須授與您下列其中一種Workfront授權型別，才能存取Workfront目標：
 
    * 規劃
    * 工作

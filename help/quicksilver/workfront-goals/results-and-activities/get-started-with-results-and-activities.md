@@ -7,9 +7,9 @@ description: 您必須將結果、活動或校準的目標新增至目標，才�
 author: Alina
 feature: Workfront Goals
 exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '855'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 0%
 >
 > 一個目標不能有超過1000個活動、結果、專案或校準的目標。</span>
 
-本文提供活動和結果的概觀。 如需對齊目標的相關資訊，請參閱[Adobe Workfront目標中的目標校準](../../workfront-goals/goal-alignment/goal-alignment.md)。 如需有關將專案連線至目標的資訊，請參閱[在Adobe Workfront目標中新增專案](../results-and-activities/connect-projects-to-goals-overview.md)。
+本文提供活動和結果的概觀。 如需對齊目標的資訊，請參閱[Adobe Workfront目標中的目標校準：文章索引](../../workfront-goals/goal-alignment/goal-alignment.md)。 如需有關將專案連線至目標的資訊，請參閱[在Adobe Workfront目標中新增專案](../results-and-activities/connect-projects-to-goals-overview.md)。
 
 ## 結果概觀
 

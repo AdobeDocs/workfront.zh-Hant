@@ -2,10 +2,9 @@
 title: 開始使用Adobe Workfront Goals
 description: Workfront目標可協助您透過將策略與工作執行和交付連線起來，來定義、溝通和實現策略結果。
 author: Alina
-draft: Probably
 feature: Workfront Goals
 exl-id: 9daa074e-94ce-4825-a058-722e53dbce51
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
 source-wordcount: '1374'
 ht-degree: 1%
@@ -13,6 +12,8 @@ ht-degree: 1%
 ---
 
 # 開始使用Adobe Workfront Goals
+
+<!--Audited for P&P only: 4/2025-->
 
 >[!IMPORTANT]
 >
@@ -61,7 +62,7 @@ Workfront目標是核心Workfront工作管理平台的附加模組。 它旨在�
 >
 >想想你在成功之後想要對公司、品牌、組織所做的陳述，並想出衡量成就的方式。 例如，您的目標可能是「我們的品牌在全球範圍內被公認為我們產業的領導者。」 而與其相關的結果（衡量其成就）可能是「我們在業界獲得55%的市場份額。」
 
-我們建議參閱以下資訊：
+我們建議嘗試以下解決方法：
 
 * 建立不超過3至5個較高級別、較長期的目標。
 * 撰寫目標陳述式時，請專注於明確的結果陳述式。

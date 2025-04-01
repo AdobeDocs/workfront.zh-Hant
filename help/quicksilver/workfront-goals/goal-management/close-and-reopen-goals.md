@@ -1,19 +1,21 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: 在Adobe Workfront目標中關閉並重新開啟目標
+title: 在Adobe Workfront目標中關閉及重新開啟目標
 description: 當您想要指出您已完成目標或由於目標已過時而不再處理目標時，可以關閉目標。
 author: Alina
 feature: Workfront Goals
 exl-id: bbb549c1-aea6-4f5e-8a6b-01fc04cf06ef
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '940'
 ht-degree: 0%
 
 ---
 
 # 在Adobe Workfront目標中關閉並重新開啟目標
+
+<!--Audited for P&P only: 4/2025-->
 
 當您想要指出下列專案時，可以關閉目標：
 
@@ -23,6 +25,8 @@ ht-degree: 0%
 您可以重新開啟已關閉的目標（當這些目標再次變得相關時）。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具備下列條件：
 
@@ -54,12 +58,9 @@ ht-degree: 0%
  <tr>
  <td role="rowheader">產品*</td>
  <td>
- <p> 新產品需求，下列其中一項： </p>
-<ul>
-<li>Select或Prime Adobe Workfront計畫以及額外的Adobe Workfront目標授權。</li>
-<li>Ultimate Workfront計畫，預設包含Workfront目標。 </li></ul>
+  <p> 新產品需求：Workfront</p>
  <p>或</p>
- <p>目前產品需求： Adobe Workfront Goals的Workfront計畫和額外授權。 </p> <p>如需詳細資訊，請參閱<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目標的需求</a>。 </p> </td>
+  <p>目前產品需求：除了Workfront授權之外，您必須購買Adobe Workfront Goals的授權。 </p> <p>如需詳細資訊，請參閱<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目標的需求</a>。 </p> </td>
  </tr>
  <td role="rowheader">存取層級</td>
  <td> <p>編輯目標的存取權</p> </td>
@@ -82,6 +83,8 @@ ht-degree: 0%
 </table>
 
 *如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 關閉或重新開啟目標時的注意事項
 

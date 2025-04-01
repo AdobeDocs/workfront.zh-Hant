@@ -6,20 +6,24 @@ description: 您可以檢視自己或其他任何新增至Adobe Workfront目標�
 author: Alina
 feature: Workfront Goals
 exl-id: ec9b6789-fffe-425c-8316-eefe670ad0d6
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '1379'
+source-wordcount: '1358'
 ht-degree: 2%
 
 ---
 
 # 在Adobe Workfront目標中篩選資訊
 
+<!--Audited for P&P only: 4/2025-->
+
 您可以檢視自己或其他任何新增至Adobe Workfront目標的目標。 如需建立目標的相關資訊，請參閱[在Adobe Workfront目標中建立目標](../../workfront-goals/goal-management/create-goals.md)。 檢視目標時，您可以篩選Workfront目標中的資訊，以僅檢視對您重要的目標。
 
 ## 存取需求
 
-您必須具有下列存取權才能執行本文所述的動作：
++++ 展開以檢視本文中功能的存取需求。
+
+您必須具備下列條件：
 
 <table style="table-layout:auto">
 <col>
@@ -31,12 +35,12 @@ ht-degree: 2%
    <td role="rowheader">Adobe Workfront計畫*</td> 
    <td> 
    <p>對於新計畫和授權結構：
-  <ul><li>Ultimate計畫 </li> </ul>
-
+  <ul><li>Ultimate計畫 </li></ul>
+   </p>
 <p>對於目前的計畫與授權結構： 
 <ul><li> A Pro或更高版本 </li>
   <li>除了Adobe Workfront授權之外，還有Workfront目標授權。</li></ul></p>
-   </td> 
+   </td>  
   </tr>
  <tr>
  <td role="rowheader">Adobe Workfront授權*</td>
@@ -48,12 +52,9 @@ ht-degree: 2%
  <tr>
  <td role="rowheader">產品*</td>
  <td>
- <p> 新產品需求，下列其中一項： </p>
-<ul>
-<li>Select或Prime Adobe Workfront計畫以及額外的Adobe Workfront目標授權。</li>
-<li>Ultimate Workfront計畫，預設包含Workfront目標。 </li></ul>
- <p>或</p>
- <p>目前產品需求： Adobe Workfront Goals的Workfront計畫和額外授權。 </p> <p>如需詳細資訊，請參閱<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目標的需求</a>。 </p> </td>
+   <p> 新產品需求：Workfront</p>
+  <p>或</p>
+   <p>目前產品需求：除了Workfront授權之外，您必須購買Adobe Workfront Goals的授權。 </p> <p>如需詳細資訊，請參閱<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目標的需求</a>。 </p> </td>
  </tr>
  <tr>
  <td role="rowheader">存取層級</td>
@@ -77,6 +78,8 @@ ht-degree: 2%
 </table>
 
 *如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## Workfront目標中的篩選器概觀
 

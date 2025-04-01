@@ -7,7 +7,7 @@ description: Workfront目標可協助您透過將策略與工作執行和交付�
 author: Alina
 feature: Workfront Goals
 exl-id: bc0451ba-d729-4e8a-bde3-a2609c667d50
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # Adobe Workfront目標總覽
+
+<!--Audited: 4/2025-->
 
 >[!IMPORTANT]
 >

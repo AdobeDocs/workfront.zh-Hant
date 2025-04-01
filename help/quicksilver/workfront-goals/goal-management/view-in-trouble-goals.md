@@ -1,19 +1,21 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: 在Adobe Workfront目標中檢閱發生問題的目標
+title: 檢閱Adobe Workfront目標中的問題中目標
 description: 存在問題中進度的Oals有無法實現的危險，在Adobe Workfront目標中有紅色進度列表示。 您應該經常檢閱您的目標，並瞭解進度滯後的原因。
 author: Alina
 feature: Workfront Goals
 exl-id: df2cdc12-9102-4759-9daa-1f8ae68f110b
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 01e53bbc10573950d08f2df63fc742e6b9771e77
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
 
 # 在Adobe Workfront目標中檢閱發生問題的目標
+
+<!--Audited: 4/2025-->
 
 <!--
 <p>(NOTE: the status of goals in "red" used to be called At Risk. Now, it is "in trouble") </p>
@@ -22,6 +24,8 @@ ht-degree: 0%
 出現問題的進度目標有無法實現的危險，在Adobe Workfront目標中有紅色進度列表示。 您應該經常檢閱您的目標，並瞭解進度滯後的原因。 如需目標進度的相關資訊，請參閱[Adobe Workfront目標中的目標進度和條件總覽](../../workfront-goals/goal-management/calculate-goal-progress.md)。
 
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具備下列條件：
 
@@ -52,12 +56,9 @@ ht-degree: 0%
  <tr>
  <td role="rowheader">產品*</td>
  <td>
- <p> 新產品需求，下列其中一項： </p>
-<ul>
-<li>Select或Prime Adobe Workfront計畫以及額外的Adobe Workfront目標授權。</li>
-<li>Ultimate Workfront計畫，預設包含Workfront目標。 </li></ul>
- <p>或</p>
- <p>目前產品需求： Adobe Workfront Goals的Workfront計畫和額外授權。 </p> <p>如需詳細資訊，請參閱<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目標的需求</a>。 </p> </td>
+  <p> 新產品需求：Workfront</p>
+  或
+  <p>目前產品需求：除了Workfront授權之外，您必須購買Adobe Workfront Goals的授權。 </p> <p>如需詳細資訊，請參閱<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目標的需求</a>。 </p> </td>
  </tr>
  <tr>
  <td role="rowheader">存取層級</td>
@@ -81,6 +82,8 @@ ht-degree: 0%
 </table>
 
 *如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 防止目標達成有問題進度的建議
 

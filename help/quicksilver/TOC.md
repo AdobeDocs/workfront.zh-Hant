@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: db709d801e3e80be8fbbc184e41d0ae70b983fb6
+source-git-commit: bbbb3f7895256e2f5341e6e9fd76c4fccbd15db0
 workflow-type: tm+mt
-source-wordcount: '13110'
+source-wordcount: '13116'
 ht-degree: 2%
 
 ---
@@ -1971,10 +1971,10 @@ ht-degree: 2%
    * [顯示任務清單中專案和方案的角色分配](scenario-planner/show-role-allocation-task-list-nwe.md)
    * [在工作負載平衡器顯示專案和方案的角色分配](scenario-planner/show-role-allocation-workload-balancer.md)
 * Adobe Workfront目標{#adobe-workfront-goals}
-   * [Adobe Workfront目標](workfront-goals/workfront-goals.md)
+   * [Adobe Workfront目標：文章索引](workfront-goals/workfront-goals.md)
    * [Adobe Workfront目標總覽](workfront-goals/goal-management/wf-goals-overview.md)
    * Adobe Workfront目標{#goal-management}中的目標管理
-      * [Adobe Workfront目標中的目標管理](workfront-goals/goal-management/goal-management.md)
+      * [Adobe Workfront目標中的目標管理：文章索引](workfront-goals/goal-management/goal-management.md)
       * [開始使用Adobe Workfront Goals](workfront-goals/goal-management/getting-started-with-wf-goals.md)
       * [在Adobe Workfront目標中存取和開啟目標](workfront-goals/goal-management/access-goals-in-wf-goals.md)
       * [使用Workfront目標的需求](workfront-goals/goal-management/access-needed-for-wf-goals.md)
@@ -1991,7 +1991,7 @@ ht-degree: 2%
       * [更新「Adobe Workfront目標」中「目標詳細資料」區段中的目標](workfront-goals/goal-management/update-goals-in-goal-details-panel.md)
       * [在Adobe Workfront目標中檢閱發生問題的目標](workfront-goals/goal-management/view-in-trouble-goals.md)
    * Adobe Workfront目標{#goal-alignment}中的目標校準
-      * [Adobe Workfront目標中的目標校準](workfront-goals/goal-alignment/goal-alignment.md)
+      * [Adobe Workfront目標中的目標校準：文章索引](workfront-goals/goal-alignment/goal-alignment.md)
       * [透過在Adobe Workfront目標中連線目標來對齊目標](workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
       * [透過將結果和活動轉換為目標來校準目標](workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
       * [Adobe Workfront目標中的目標對齊方式概觀](workfront-goals/goal-alignment/goal-alignment-overview.md)

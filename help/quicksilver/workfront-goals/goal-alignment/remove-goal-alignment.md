@@ -6,14 +6,16 @@ description: 如果兩個目標之間的連線不再合理，您可以移除它�
 author: Alina
 feature: Workfront Goals
 exl-id: a6196356-ca11-4759-9cff-64850a60208e
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 1%
+source-wordcount: '475'
+ht-degree: 2%
 
 ---
 
 # 移除Adobe Workfront目標中的目標校準
+
+<!--Audited P&P only: 4/2025-->
 
 如果兩個目標之間的連線不再合理，您可以移除它們之間的對齊。
 
@@ -24,6 +26,8 @@ ht-degree: 1%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具備下列條件：
 
 <table style="table-layout:auto">
@@ -33,11 +37,15 @@ ht-degree: 1%
 </col>
 <tbody>
  <tr>
- <td role="rowheader">Adobe Workfront計畫</td>
- <td>
- <p>任何</p>
-
-</td>
+ <td role="rowheader">Adobe Workfront計畫*</td>
+ <td> 
+   <p>對於新計畫和授權結構：
+  <ul><li>Ultimate計畫 </li></ul>
+   </p>
+<p>對於目前的計畫與授權結構： 
+<ul><li> A Pro或更高版本 </li>
+  <li>除了Adobe Workfront授權之外，還有Workfront目標授權。</li></ul></p>
+   </td> 
  </tr>
  <tr>
  <td role="rowheader">Adobe Workfront授權*</td>
@@ -49,12 +57,9 @@ ht-degree: 1%
  <tr>
  <td role="rowheader">產品*</td>
  <td>
- <p> 新產品需求，下列其中一項： </p>
-<ul>
-<li>Select或Prime Adobe Workfront計畫以及額外的Adobe Workfront目標授權。</li>
-<li>Ultimate Workfront計畫，預設包含Workfront目標。 </li></ul>
- <p>或</p>
- <p>目前產品需求： Adobe Workfront Goals的Workfront計畫和額外授權。 </p> <p>如需詳細資訊，請參閱<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目標的需求</a>。 </p> </td>
+   <p> 新產品需求：Workfront</p>
+   或
+   <p>目前產品需求：除了Workfront授權之外，您必須購買Adobe Workfront Goals的授權。 </p> <p>如需詳細資訊，請參閱<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目標的需求</a>。 </p> </td>
  </tr>
  <tr>
  <td role="rowheader">存取層級</td>
@@ -76,6 +81,8 @@ ht-degree: 1%
 </table>
 
 *如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先決條件
 

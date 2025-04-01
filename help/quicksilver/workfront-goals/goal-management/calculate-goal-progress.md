@@ -6,33 +6,34 @@ description: 目標進度是由活動、結果或子目標等進度指標所驅�
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 1%
+source-wordcount: '817'
+ht-degree: 0%
 
 ---
 
 # Adobe Workfront目標中的目標進度和條件概觀
 
-您的組織必須具備下列專案，才能使用本文所述的功能：
+<!--Audited for P&P only: 4/2025-->
 
-* 對於新計畫和授權結構：
-
-   * Ultimate計畫
-
-     或
-
-     適用於Prime或選取Adobe Workfront計畫的Adobe Workfront目標的其他授權。
-
-* 對於目前的計畫與授權結構：
-
-   * A Pro或更高版本
-   * 除了Adobe Workfront授權之外，還有Workfront目標授權。
-
-請連絡您的Workfront客戶經理，以瞭解Workfront Goals授權。
-
-如需存取Workfront目標的詳細資訊，請參閱[使用Workfront目標的需求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md)。
+>[!IMPORTANT]
+>
+>您的組織必須具備下列專案，才能使用本文所述的功能：
+>
+>
+>* 對於新計畫和授權結構：
+>
+>   * Ultimate計畫
+>    
+>* 對於目前的計畫與授權結構：
+>
+>   * A Pro或更高版本
+>   * 除了Adobe Workfront授權之外，還有Workfront目標授權。
+>
+> 請連絡您的Workfront客戶經理，以瞭解Workfront Goals授權。
+>
+>如需存取Workfront目標的詳細資訊，請參閱[使用Workfront目標的需求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md)。
 
 Adobe Workfront會根據其進度指示器，自動計算目標進度。
 

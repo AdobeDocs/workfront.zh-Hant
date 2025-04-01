@@ -2,12 +2,12 @@
 content-type: overview
 product-previous: workfront-goals
 navigation-topic: goal-alignment
-title: Adobe Workfront目標中的目標對齊方式概觀
+title: Adobe Workfront目標中的目標一致性概觀
 description: 目標校準可確保組織中的每個人透過將其目標彼此校準並與團隊、群組和公司的組織目標校準，在必須實現的目標上位於同一頁上。
 author: Alina
 feature: Workfront Goals
 exl-id: e073cf10-2333-4095-b932-73d105f0c5a4
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 1%
@@ -15,6 +15,8 @@ ht-degree: 1%
 ---
 
 # Adobe Workfront目標中的目標對齊方式概觀
+
+<!--Audited P&P only: 4/2025-->
 
 >[!IMPORTANT]
 >
