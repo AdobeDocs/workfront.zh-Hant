@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: f1d235a21dcf939570d4d93f08f31865eab42803
+source-git-commit: cdd7c0ef619e4cb75be82ba936f07bc3ce6dc745
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1252'
 ht-degree: 0%
 
 ---
@@ -250,3 +250,10 @@ Workfront有兩個版本的事件訂閱。 本文會說明兩者之間的差異�
    <td>無。 如果您在受影響的欄位上有篩選器，則只有在欄位實際變更時，才會收到<code>UPDATE</code>事件，而不會在任何其他引數值已變更時收到。
  </tbody> 
 </table>
+
+
+## 更新Workfront Fusion案例中的事件訂閱版本
+
+Workfront Fusion使用事件訂閱來監視Workfront中的變更以觸發情境。 您可以使用「Workfront >更新事件裝載版本」模組，更新Fusion直接在案例中使用的事件訂閱版本。
+
+如需使用此模組的說明，請參閱Workfront Fusion檔案中的[Workfront模組](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules)。
