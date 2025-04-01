@@ -18,7 +18,20 @@ The enhancements on this page are available in the Preview environment. This pag
 
 The <add release> release webinar will be held on <date>. You can [register for the webinar here <get link from product ops>. -->
 
-<span class="preview">Off-cycle features (those releasing to Production prior to the <!-- add release --> release date) are highlighted in yellow.</span>
+>[!IMPORTANT]
+>
+>
+>Monthly and quarterly releases are planned to be available on the Thursday of the second full week of the month, unless otherwise specified.
+>
+>|Monthly release|Quarterly release|
+>|----|----|
+>|<ul><li>24.11 (November 14, 2024)</li><li>24.12 (December 12, 2024)</li><li>25.1 (January 15, 2025)</li></ul>| <ul><li>25.1 (January 16, 2025)</li></ul>|
+>
+>Note that for the final release of each quarter (25.1 this quarter), users on the fast release schedule will receive the release one day early.
+>
+>For more information on the fast release process, see [Enable or disable the fast release process](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). 
+
+
 
 ## Adobe Workfront enhancements
     
@@ -26,42 +39,26 @@ The <add release> release webinar will be held on <date>. You can [register for 
     
 ### <!--add product area name -->
 
-<table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
-            <tbody>
-                <tr>
-                    <td>
-                        <p><span class="bold">Feature</span>
-                        </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">Release dates</span>
-                        </p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="ADD LINK" class="MCXref xref" xrefformat="{para}">Title</a><span style="color: #ff0000;"> New in Preview!</span></p>
-                        <p>Body</p>
-                    </td>
-                    <td><p><b>Available on these dates:</b></p>
-                        <ul>
-                            <li>
-                                <p>Preview release:<br /></p>
-                            </li>
-                            <li>
-                                <p>Fast release to Production:</p>
-                            </li>
-                            <li>
-                                <p><span class="preview">Quarterly release to Production: </span></p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td><strong>Feature</strong>
+        </td>
+        <td><strong>Preview</strong></td>
+        <td><strong>Fast release</strong></td>
+        <td><strong>Quarterly</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <p>Title</p>
+            <p>Body</p>
+        </td>
+        <td>Date</td>
+        <td>Date</td>
+        <td>Date</td>
+    </tr>     
+  </tbody>
+</table> 
 
 
 ### Other enhancements
@@ -91,7 +88,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>Preview release:&#160;Throughout the <!-- add release--> release timeframe<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Production release: A minimum of 2 weeks after releasing to Preview (unless otherwise specified)</span></p>
+                                <p>Production release: A minimum of 2 weeks after releasing to Preview (unless otherwise specified)</p>
                             </li>
                         </ul>
                     </td>
@@ -99,48 +96,39 @@ The <add release> release webinar will be held on <date>. You can [register for 
             </tbody>
         </table>   
 
-## Announcements
+<!--
+### Functionality soon to be removed from Workfront
 
-### Workfront Fusion enhancements
+* 
+-->
 
-There are no Workfront Fusion updates at this point in the release. This area will be updated when updates are available.
+## Release notes for other areas
 
-### Workfront Scenario Planner enhancements
+* [Adobe Workfront Fusion release activity](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+* [Adobe Workfront Planning First Quarter 2025 release activity](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md).
 
-There are no Scenario Planner updates at this point in the release. This area will be updated when updates are available.
+There are no updates for the following at this point in the release:
 
-### Workfront Proof enhancements
+* Scenario Planner
+* Proof
+* Goals
 
-There are no Workfront Proof updates at this point in the release. This area will be updated when updates are available.
 
-### Workfront Goals enhancements
+### API version 19
 
-There are no Workfront Goals updates at this point in the release. This area will be updated when updates are available.
+For API version 19, we've modified some resources and endpoints. Some of the changes support new functionality, and others make it easier for you to use the information available through the API.
 
-### API version 16
-
-For API version 16, we've modified some resources and endpoints. Some of the changes support new functionality, and others make it easier for you to use the information available through the API.
-
-For information on what's new and updated, see [What's new in API version 16](/help/quicksilver/wf-api/api/new-api-version-16.md).
+For information on what's new and updated, see [What's new in API version 19](/help/quicksilver/wf-api/api/new-api-version-19.md).
 
 For information on API versions, see [API versioning and support schedule](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the 22.3 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+For information about the maintenance updates made during the First Quarter 2025 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Training updates
 
 Explore the latest updates made to learning programs, learning paths, videos, and guides for each Adobe Workfront product release. For more information, see the "What's New" section of the [Workfront Tutorials page](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
-
-<!-- Uncomment if there are any deprecations
-
-### Functionality soon to be removed from Workfront
-
-The following functionality is soon to be removed from Workfront:
-
--->
-
 
 
 
@@ -150,85 +138,39 @@ New table
 
 ### add product area name
 
-<table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
-            <tbody>
-                <tr>
-                    <td>
-                        <p><span class="bold">Feature</span>
-                        </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">Release dates</span>
-                        </p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="ADD LINK" class="MCXref xref" xrefformat="{para}">Title</a><span style="color: #ff0000;"> New in Preview!</span></p>
-                        <p>Body</p>
-                    </td>
-                    <td><p><b>Available on these dates:</b></p>
-                        <ul>
-                            <li>
-                                <p>Preview release:<br /></p>
-                            </li>
-                            <li>
-                                <p><span class="preview">Production release: </span></p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td><strong>Feature</strong>
+        </td>
+        <td><strong>Preview</strong></td>
+        <td><strong>Fast release</strong></td>
+        <td><strong>Quarterly</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <p>Title</p>
+            <p>Body</p>
+        </td>
+        <td>Date</td>
+        <td>Date</td>
+        <td>Date</td>
+    </tr>     
+  </tbody>
+</table> 
 
 New row for table 
 
 <tr>
-  <td>
-    <a href="ADD%20LINK">Title</a> New in Preview!
-    <p>Body</p>
-  </td>
-  <td>
-    <p><strong>Available on these dates:</strong></p>
-    <ul>
-      <li>
-        <p>Preview release:</p>
-      </li>
-      <li>
-        <p>Production release:</p>
-      </li>
-    </ul>
-  </td>
-</tr>
+    <td>
+        <p>Title</p>
+        <p>Body</p>
+    </td>
+        <td>Date</td>
+        <td>Date</td>
+        <td>Date</td>
+    </tr>   
 
 
-New in preview, prod, and coming soon text
-
-<span style="color: #ff0000;"> New in Preview!</span>
-<span style="color: #ff0000;"> New in Production!</span>
-<span style="color: #ff0000;"> Coming soon!</span>
-
-Badge for new in Preview
-
-[!BADGE New in Preview ]{type=Negative}
-
-
-Badge for available in Fast Release
-
-[!BADGE In production for Fast Release]{type=Positive}
-
-
-Badge for in production for everyone
-
-[!BADGE In production ]{type=Informative}
-
-
-Test for boards early access stuff
-
-Production release for early opt-in: March 2, 2023 This feature is available in Production only through the early feature opt-in for Workfront Boards.
-
-Production release for all customers: With the 23.2 release
 
 -->
