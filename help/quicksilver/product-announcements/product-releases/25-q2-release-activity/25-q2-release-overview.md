@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: e07e4c7bbdc7f68695df94cc1155e3997bad338b
+source-git-commit: 0ae0e2d3c4e47a1f7344acf18068bba9cbbab597
 workflow-type: tm+mt
-source-wordcount: '1624'
+source-wordcount: '1628'
 ht-degree: 0%
 
 ---
@@ -348,7 +348,7 @@ Workfront Planning的新功能可在生產環境中使用。 如需最新功能�
 
 如需新增和更新的詳細資訊，請參閱[ API 19](/help/quicksilver/wf-api/api/new-api-version-19.md)版的新增功能。
 
-如需API版本的資訊，請參閱[API版本設定與支援排程](/help/quicksilver/wf-api/api/api-version-support-schedule.md)。
+如需目前支援哪些API版本的資訊，請參閱[API版本設定與支援排程](/help/quicksilver/wf-api/api/api-version-support-schedule.md)。
 
 ### Workfront 維護更新
 
