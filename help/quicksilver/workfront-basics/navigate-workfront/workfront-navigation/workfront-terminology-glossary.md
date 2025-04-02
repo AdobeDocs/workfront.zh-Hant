@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront] 字彙表列出 [!DNL Adobe Workfront]. Yo
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
+source-git-commit: cd37163c78012fa4bcbe19ef92ec4d3ceecfb905
 workflow-type: tm+mt
-source-wordcount: '20935'
+source-wordcount: '20999'
 ht-degree: 0%
 
 ---
@@ -299,8 +299,18 @@ ht-degree: 0%
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> If the project is&nbsp;added to the Capacity Planner and included in the budget calculation, the value is <i>Included and Calculated</i>. </li>
      --> 
     </ul> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
+   <td>[！UICONTROL劃分]</td> 
+   <td> <p>在Workfront Planning中，您可以使用「劃分」功能，在記錄的時間表檢視中顯示連線的記錄。 </p>
+   <p>按連線劃分記錄可讓您檢視其他連線記錄的時間表，並瞭解這些記錄可能會如何影響記錄的效能和截止日期。 </p>
+   <p>連線的記錄會以巢狀方式顯示在各自的記錄下。 </p>
+   <p>如需詳細資訊，請參閱<a href="/help/quicksilver/planning/views/manage-the-timeline-view.md">管理時間表檢視</a>。 </p>
+   </td> 
+    </tr>
+
+<tr> 
    <td>[！UICONTROL預算完成日期]</td> 
    <td> <p>這是已被取代的欄位。 此欄位可能顯示的任何資訊都與[!DNL Workfront]已移除的功能有關。 無法更新此欄位。 </p>
    <p> [！UICONTROL project]報表和清單中仍會顯示此欄位。</p>  </td> 
@@ -513,7 +523,7 @@ ht-degree: 0%
      <li>[！UICONTROL專案]</li> 
      <li>[！UICONTROL任務]</li> 
      <li>[！UICONTROL問題]</li> 
-     <li>[！UICONTROLPortfolio]</li> 
+     <li>[！UICONTROL Portfolio]</li> 
      <li>[！UICONTROL檔案]</li> 
      <li>[！UICONTROL費用]</li> 
      <li>[！UICONTROL Program]</li> 
@@ -528,7 +538,7 @@ ht-degree: 0%
      <li>[！UICONTROL專案]</li> 
      <li>[！UICONTROL任務]<br></li> 
      <li>[！UICONTROL問題]<br></li> 
-     <li>[！UICONTROLPortfolio]<br></li> 
+     <li>[！UICONTROL Portfolio]<br></li> 
      <li>[！UICONTROL檔案]<br></li> 
      <li>[！UICONTROL費用]<br></li> 
      <li>[！UICONTROL Program]<br></li> 
@@ -721,7 +731,7 @@ ht-degree: 0%
      <li>[！UICONTROL問題]</li> 
      <li>[！UICONTROL檔案]</li> 
      <li>[！UICONTROL費用]</li> 
-     <li>[！UICONTROLPortfolio]</li> 
+     <li>[！UICONTROL產品組合]</li> 
      <li>[！UICONTROL程式]</li> 
      <li>[！UICONTROL反複專案]</li> 
     </ul> </td> 
@@ -1116,7 +1126,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[！UICONTROL方案上次發佈日期]</td> 
-   <td> <p>[！UICONTROL Initiative]、[！UICONTROL Initiative Job Role]和[！UICONTROL Project]報告中的欄位，顯示上次將計畫方案發佈至專案的日期。 您可以發佈方案以建立專案或更新連結至方案的專案。</p> <p>[!DNL Scenario Planner]需要額外的授權。 如需[!DNL Workfront Scenario Planner]的相關資訊，請參閱<a href="../../../scenario-planner/scenario-planner-overview.md"> [!DNL Scenario Planner]概述</a>。 </p> <p><span>如需有關發佈方案的資訊，請參閱</span><a href="../../../scenario-planner/publish-scenarios-update-projects.md">在[!DNL Workfront Scenario Planner]</a>中建立和更新專案的Publish案例。 除非您的公司已購買[!DNL Workfront Scenario Planner]授權，否則在您的[!DNL Workfront]執行個體中不會顯示此欄位。</p> </td> 
+   <td> <p>[！UICONTROL Initiative]、[！UICONTROL Initiative Job Role]和[！UICONTROL Project]報告中的欄位，顯示上次將計畫方案發佈至專案的日期。 您可以發佈方案以建立專案或更新連結至方案的專案。</p> <p>[!DNL Scenario Planner]需要額外的授權。 如需[!DNL Workfront Scenario Planner]的相關資訊，請參閱<a href="../../../scenario-planner/scenario-planner-overview.md"> [!DNL Scenario Planner]概述</a>。 </p> <p><span>如需有關發佈行動方案的資訊，請參閱</span><a href="../../../scenario-planner/publish-scenarios-update-projects.md">發佈情境以在[!DNL Workfront Scenario Planner]</a>中建立和更新專案。 除非您的公司已購買[!DNL Workfront Scenario Planner]授權，否則在您的[!DNL Workfront]執行個體中不會顯示此欄位。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL內嵌搜尋]</td> 
@@ -1395,7 +1405,7 @@ The designated full time equivalency for users. A full-time user should have 100
    <td>[！UICONTROL物件]</td> 
    <td> <p>您在[!DNL Adobe Workfront]中顯示的資訊由儲存在[!DNL Workfront]資料庫中的物件表示。 物件是驅動Workfront中資訊的因素。 物件的部分範例為：</p> 
     <ul> 
-     <li>[！UICONTROLPortfolio]</li> 
+     <li>[！UICONTROL產品組合]</li> 
      <li>[！UICONTROL程式]</li> 
      <li>[！UICONTROL專案]</li> 
      <li>[！UICONTROL工作]</li> 
@@ -1539,7 +1549,7 @@ The designated full time equivalency for users. A full-time user should have 100
      <li>[！UICONTROL專案]</li> 
      <li>[！UICONTROL工作]</li> 
      <li>[！UICONTROL問題]</li> 
-     <li>[！UICONTROLPortfolio]</li> 
+     <li>[！UICONTROL產品組合]</li> 
      <li>[！UICONTROL程式]</li> 
      <li>[！UICONTROL報表]</li> 
      <li>[！UICONTROL儀表板]</li> 
@@ -1662,20 +1672,20 @@ The designated full time equivalency for users. A full-time user should have 100
    <td>入口網站或控制面板上最多包含三個入口網站區段的標籤。</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
-   <td>[！UICONTROLPortfolio]</td> 
-   <td> <p>具有統一特性的專案集合。 這些專案通常會爭奪相同的資源、預算或時段。 您可以將Portfolio分成方案，並在將專案新增到Portfolio之前將其與方案相關聯。</p> <p>如需投資組合的詳細資訊，請參閱[!DNL Adobe Workfront]</a>中的<a href="../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md">Portfolio概觀。</p> 
+   <td>[！UICONTROL Portfolio]</td> 
+   <td> <p>具有統一特性的專案集合。 這些專案通常會爭奪相同的資源、預算或時段。 您可以將投資組合分割成計畫，並在將專案新增到Portfolio之前建立專案與計畫的關聯。</p> <p>如需投資組合的詳細資訊，請參閱[!DNL Adobe Workfront]</a>中的<a href="../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md">Portfolio概觀。</p> 
    </td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
-   <td>[！UICONTROLPortfolio管理]</td> 
+   <td>[！UICONTROL Portfolio Management]</td> 
    <td>實務領域專注於管理集合或相關的方案和專案工作。</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
-   <td>[！UICONTROLPortfolio最佳化工具]</td> 
+   <td>[！UICONTROL Portfolio Optimizer]</td> 
    <td>[!DNL Workfront]工具，可協助評估投資組合中的專案並排定其優先順序。</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
-   <td>[！UICONTROLPortfolio擁有者]</td> 
+   <td>[！UICONTROL Portfolio所有者]</td> 
    <td>專案組合中負責優先順序和預算的利害關係人。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -2095,8 +2105,8 @@ The designated full time equivalency for users. A full-time user should have 100
    <td>允許其他使用者檢視或編輯[!DNL Workfront]中特定專案的動作。</td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROLSlack日期]</td> 
-   <td>在任務檢視或報告中，[！UICONTROLSlack日期]會顯示任務絕對會影響專案的[！UICONTROL完成日期]的確切日期。 如需有關任務的[！UICONTROLSlack日期]的資訊，請參閱<a href="../../../manage-work/tasks/task-information/task-slack-date.md" class="MCXref xref">任務Slack日期概觀</a>。</td> 
+   <td>[！UICONTROL Slack日期]</td> 
+   <td>在任務檢視或報告中，[！UICONTROL Slack日期]會顯示任務絕對會影響專案的[！UICONTROL完成日期]的確切日期。 如需有關任務的[！UICONTROL Slack日期]的資訊，請參閱<a href="../../../manage-work/tasks/task-information/task-slack-date.md" class="MCXref xref">任務Slack日期概觀</a>。</td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL智慧指派]</td> 

@@ -2,15 +2,15 @@
 product-area: projects
 navigation-topic: manage-tasks
 title: 編輯任務
-description: 您可以編輯已建立之工作，或您擁有Contribute或管理許可權的工作的相關資訊。 本文說明如何搜尋、尋找及編輯工作（如果您有相關許可權）。
+description: 您可以編輯已建立或您擁有Contribute或「管理」許可權之工作的相關資訊。 本文說明如何搜尋、尋找及編輯工作（如果您有相關許可權）。
 author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: cd37163c78012fa4bcbe19ef92ec4d3ceecfb905
 workflow-type: tm+mt
-source-wordcount: '3681'
-ht-degree: 3%
+source-wordcount: '3706'
+ht-degree: 4%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 3%
 -->
 
 
-您可以編輯已建立之工作，或您擁有Contribute或管理許可權的工作的相關資訊。
+您可以編輯已建立或您擁有Contribute或「管理」許可權之工作的相關資訊。
 
 ## 存取需求
 
@@ -54,7 +54,7 @@ ht-degree: 3%
    <td role="rowheader">物件許可權</td> 
    <td> 
     <ul> 
-     <li> <p>Contribute對任務的許可權，以在任務詳細資訊區域中編輯以下資訊： </p>
+     <li> <p>貢獻許可權給任務，以編輯任務詳細資訊區域中的下列資訊： </p>
      <ul>
      <li>說明</li>
      <li>狀態</li>
@@ -63,7 +63,7 @@ ht-degree: 3%
      <li> <p>管理任務的許可權，以編輯詳細資訊區域和編輯任務方塊中的所有資訊</p> </li> 
     </ul> 
     <ul> 
-     <li> <p>Contribute或更高的專案許可權</p> </li> 
+     <li> <p>貢獻專案或更高的許可權</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -82,7 +82,7 @@ ht-degree: 3%
 * 更新任務會觸發狀態為「目前」的專案通知。 為避免指派給任務的使用者感到困惑，請在專案處於「目前」狀態時，儘可能限制編輯任務。
 * 您無法編輯核准流程中的任務。 您只能記錄時間或更新核准程式中任務的狀態。
 
-  ![](assets/edit-task-in-approval-process-nwe-350x148.png)
+  ![編輯具有核准流程的任務](assets/edit-task-in-approval-process-nwe-350x148.png)
 
 * 只有當Workfront管理員或群組管理員在專案偏好設定區域中啟用此功能時，您才能編輯檔案，並將其新增到專案上狀態為「完成」、「廢棄」或「未決核准」的任務中。 如需有關設定專案偏好設定的資訊，請參閱[設定全系統的專案偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
 
@@ -151,7 +151,7 @@ ht-degree: 3%
       * 概觀
       * 一或多個自訂表單的名稱
 
-      PDF檔案會下載到您的電腦。
+      PDF檔案會下載至您的電腦。
 
       ![](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
@@ -223,10 +223,13 @@ ht-degree: 3%
       <td role="rowheader">狀態</td> 
       <td> <p>選取任務的狀態，指出任務處於哪個開發階段。</p> <p><b>秘訣</b>
 
-   您可以在任務標題中更新任務狀態。 </p> </td>
-   </tr> 
+   您可以在任務標題中更新任務狀態。 </p>
+
+   <p>您的Workfront或群組管理員可以自訂任務狀態的名稱。 如需詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md">建立或編輯狀態</a>。 
+      </td> 
+     </tr> 
      <tr> 
-      <td role="rowheader">優先等級</td> 
+      <td role="rowheader">優先順序</td> 
       <td> <p>這是視覺化標幟，可讓您排定工作的優先順序。 </p> <p>從下列選項中選取： </p> 
        <ul> 
       <li> <p> 無</p> </li> 

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: cd37163c78012fa4bcbe19ef92ec4d3ceecfb905
 workflow-type: tm+mt
-source-wordcount: '2692'
+source-wordcount: '2684'
 ht-degree: 0%
 
 ---
@@ -394,7 +394,7 @@ this is not possible right now; if this is the same functionality as the table v
 
    記錄會以您所選取的規格顯示在時間軸檢視中。
 
-### 使用「劃分」功能，在時間軸檢視中顯示連線的記錄
+### 在時間軸檢視中劃分連線記錄
 
 您可以使用「劃分」功能，在記錄的時間軸檢視中顯示連線的記錄。 按連線劃分記錄可讓您檢視其他連線記錄的時間表，並瞭解這些記錄可能會如何影響記錄的效能和截止日期。
 
@@ -418,7 +418,7 @@ this is not possible right now; if this is the same functionality as the table v
 * 您要在時間軸檢視中顯示的記錄型別的「開始」和「結束」日期必須依時間順序排列。 例如，如果記錄的開始日期為1月31日，結束日期為1月1日，則它不會顯示在時間軸檢視中。 如需詳細資訊，請參閱本文中的[管理時間表檢視](#manage-a-timeline-view)一節。
 * 您可以在記錄的劃分中加入5種記錄型別的限制。
 
-#### 在時間軸檢視中劃分連線記錄
+#### 劃分連線記錄
 
 1. 如文章[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)中所述，建立記錄型別的時間表檢視。
 1. （視條件而定）如果您正在以標準模式檢視時間軸檢視，請按一下&#x200B;**劃分**。
