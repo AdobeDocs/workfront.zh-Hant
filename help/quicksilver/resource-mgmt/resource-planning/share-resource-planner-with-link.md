@@ -6,9 +6,9 @@ description: Adobe Workfront可以為資源規劃工具的使用者檢視產生�
 author: Lisa
 feature: Resource Management
 exl-id: feb2ec26-f1a6-4581-9e1d-be948a2170c3
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: af0f1b9baef20c5910b13a52207531887a8524c5
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '666'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,6 @@ Adobe Workfront可以為資源規劃工具的使用者檢視產生唯一的URL�
 
 +++
 
-
 為資源規劃工具的使用者檢視產生唯一URL時，請考量下列事項：
 
 * 您只能取得使用者檢視的唯一URL。 專案或角色檢視中不存在產生URL的選項。
@@ -80,18 +79,18 @@ Adobe Workfront可以為資源規劃工具的使用者檢視產生唯一的URL�
    * 季度
 
 1. （選擇性）選取您要依&#x200B;**FTE**&#x200B;或&#x200B;**小時**&#x200B;檢視資訊。\
-   ![RP_hours_or_fte_in_user_view.png](assets/rp-hours-or-fte-in-user-view.png)
+   ![選取FTE或時數](assets/rp-hours-or-fte-in-user-view.png)
 
 1. （選用）將篩選器套用至資源規劃工具。\
    如需套用篩選的詳細資訊，請參閱[資源規劃工具中的篩選資訊](../../resource-mgmt/resource-planning/filter-resource-planner.md) 。
 
 1. 按一下&#x200B;**超連結**&#x200B;圖示。\
-   ![RP_Storm_generate_URL_with_copy_URL_link.png](assets/rp-storm-generate-url-with-copy-url-link-350x182.png)
+   ![超連結圖示和URL](assets/rp-generate-url-from-link-icon.png)
 
 1. 按一下&#x200B;**複製URL**。\
    這會將使用者檢視中資源規劃工具的唯一URL複製到剪貼簿。
 
-1. （可選）執行下列任一項作業：  
+1. （可選）執行下列任一項作業：
 
    * 將URL貼到另一個應用程式中，以傳送給另一個使用者。\
      使用者必須登入Workfront才能在使用者檢視中檢視資源規劃工具。
@@ -114,4 +113,4 @@ Adobe Workfront可以為資源規劃工具的使用者檢視產生唯一的URL�
    如需將儀表板新增到版面配置範本的相關資訊，請參閱[建立和管理版面配置範本](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) 。\
    如需關於共用儀表板的資訊，請參閱[共用儀表板](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md) 。\
    檢視共用URL時，使用者可以看到包含您最初套用至資源規劃工具之設定的資訊。 使用者必須登入Workfront才能檢視共用URL。\
-   ![user_view_dashoard_from_unique_url.png](assets/user-view-dashoard-from-unique-url-350x85.png)
+   ![已顯示資源規劃工具之範例儀表板](assets/user-view-dashoard-from-unique-url-350x85.png)
