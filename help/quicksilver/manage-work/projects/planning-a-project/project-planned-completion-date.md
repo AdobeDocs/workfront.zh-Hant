@@ -8,16 +8,18 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 996398c5-de92-445e-8e86-36b2efdcf6b5
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: fedb0328450896d212081715df4cde7644b169bc
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '591'
 ht-degree: 1%
 
 ---
 
 # 設定專案計畫完成日期
 
-專案的計畫完成日期是專案設定為完成的日期。
+<!-- Audited: 4/2025 -->
+
+專案的計畫完成日期是專案設定完成的日期。
 
 專案的計劃開始日期和計畫完成日期取決於專案上任務的日期。 本文說明如何手動或自動設定專案的規劃完成日期。 如需有關任務計畫完成日期的詳細資訊，請參閱[任務計畫完成日期的總覽](../../../manage-work/tasks/task-information/task-planned-completion-date.md)。
 
@@ -56,6 +58,8 @@ ht-degree: 1%
 </table>
 -->
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
@@ -63,15 +67,22 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>規劃 </p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td><p>
+   新增：標準
+
+或
+
+目前：計畫 </p>
+
+</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
+   <td role="rowheader">存取層級設定</td> 
    <td> <p>編輯專案的存取權</p> <p><b>附註</b>
 
 如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td>
@@ -83,7 +94,9 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 手動設定專案的計畫完成日期
 
@@ -96,15 +109,17 @@ ht-degree: 1%
 
 若要從「完成日期」排程專案，請執行下列步驟：
 
-1. 按一下右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**專案**。
+{{step1-to-projects}}
 
-1. 按一下&#x200B;**新增專案**，然後按&#x200B;**新增專案**。
+1. 按一下&#x200B;**新增專案**，然後從出現的下拉式清單中選取&#x200B;**新增專案**。
 
    如需有關建立專案的詳細資訊，請參閱文章[建立專案](../../../manage-work/projects/create-projects/create-project.md)。
 
-1. 在左側面板中選取「**專案詳細資料**」，然後按一下右上角的「**編輯專案**」圖示。
+1. 在左側面板中選取&#x200B;**專案詳細資料**。
 
-1. 在&#x200B;**排程模式**&#x200B;欄位中，選取&#x200B;**完成日期**。
+1. 按一下右上角的&#x200B;**編輯專案**&#x200B;圖示![編輯圖示](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png)，然後在出現的下拉式清單中選取&#x200B;**概觀**。
+
+1. 在&#x200B;**專案日期**&#x200B;區段中，按一下&#x200B;**排程模式**&#x200B;欄位，然後選取&#x200B;**完成日期**。
 
 1. 指定專案的&#x200B;**計畫完成日期**。
 1. 按一下「**儲存變更**」。
@@ -117,15 +132,17 @@ ht-degree: 1%
 
 若要從「開始日期」排程專案，請執行下列步驟：
 
-1. 按一下右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**專案**。
+{{step1-to-projects}}
 
-1. 按一下&#x200B;**新增專案**，然後按&#x200B;**新增專案**。
+1. 按一下&#x200B;**新增專案**，然後從出現的下拉式清單中選取&#x200B;**新增專案**。
 
    如需有關建立專案的詳細資訊，請參閱文章[建立專案](../../../manage-work/projects/create-projects/create-project.md)。
 
-1. 在左側面板中選取「**專案詳細資料**」，然後按一下右上角的「**編輯專案**」圖示。
+1. 在左側面板中選取&#x200B;**專案詳細資料**。
 
-1. 在&#x200B;**排程模式**&#x200B;欄位中，選取&#x200B;**開始日期**。
+1. 按一下右上角的&#x200B;**編輯專案**&#x200B;圖示![編輯圖示](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png)，然後在出現的下拉式清單中選取&#x200B;**概觀**。
+
+1. 在&#x200B;**專案日期**&#x200B;區段中，按一下&#x200B;**排程模式**&#x200B;欄位，然後選取&#x200B;**開始日期**。
 
 1. 指定專案的&#x200B;**計劃開始日期**。
 1. 按一下「**儲存變更**」。

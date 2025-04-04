@@ -7,7 +7,7 @@ author: Alina
 feature: Timesheets
 recommendations: noDisplay, noCatalog
 exl-id: 605d47e4-fcb7-4635-a4c9-bbb34e1f73b1
-source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
+source-git-commit: fedb0328450896d212081715df4cde7644b169bc
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 1%
@@ -15,6 +15,8 @@ ht-degree: 1%
 ---
 
 # 建立和管理時程表：文章索引
+
+<!-- Audited: 4/2025 -->
 
 本節包含下列文章：
 
