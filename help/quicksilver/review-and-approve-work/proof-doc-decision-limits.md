@@ -6,16 +6,22 @@ description: 所有非付費Workfront授權之校訂和檔案決定皆受限制�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f3e68fd8-723a-4e49-9cf1-823e36d04e55
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: cc3930f01d5e2162d7c778d061a08f937877c3c0
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 3%
+source-wordcount: '259'
+ht-degree: 5%
 
 ---
 
 # 非付費使用者的有限檔案和校訂決定概覽
 
-新計畫的所有未付費Workfront授權校訂和檔案決定受限。 如需詳細資訊，請參閱[新授權總覽](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)。
+新計畫的所有未付費Workfront授權校訂和檔案決定受限。 當您被指派為檔案或校訂的核准者時，您必須決定推進稽核和核准流程。
+
+以下決策選項會計入每月限制：
+
+* 核准
+* 核准 (附帶變更)
+* 需要工作
 
 每個月會重設每個使用者的限制。 各授權的決定限制會依您所在的計畫而有所不同：
 
@@ -61,6 +67,8 @@ ht-degree: 3%
    </td>
   </tr>
 </table>
+
+如需詳細資訊，請參閱[新授權總覽](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)。
 
 ## 外部使用者
 

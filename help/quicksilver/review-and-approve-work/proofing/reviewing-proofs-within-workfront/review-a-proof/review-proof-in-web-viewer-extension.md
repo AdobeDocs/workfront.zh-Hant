@@ -6,9 +6,9 @@ description: Adobe Workfront檢閱工具是瀏覽器擴充功能，可讓您校�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4fea13cc-2d56-466e-8851-6134782e7e80
-source-git-commit: 91f2dd12a91889c2cd1c2c01c93402e161684665
+source-git-commit: 7b02d5670ebba1456e37e6fd815e7812ec06def2
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '522'
 ht-degree: 1%
 
 ---
@@ -30,8 +30,34 @@ Adobe Workfront檢閱工具是網頁型瀏覽器擴充功能，可讓您校訂ZI
 * 防止在iFrame中開啟其網站，例如Figma
 
 
+## 安裝擴充功能
 
-## 將Adobe Workfront檢閱工具設為URL和ZIP校樣的預設檢視器
+### 先決條件
+
+* 您必須移除舊版Web Viewer擴充功能，才能使用Adobe Workfront檢閱工具。
+
+### 安裝擴充功能
+
+<!--This extension is required to review conent in GS and Ex.
+
+You must install the extension to reiew content in GenS and Express.
+
+To review content in GS, Express, or Wou must install the extension if you are using GenStuido or Creative cloud express-->
+
+稽核者和核准者必須安裝Adobe Workfront稽核工具。 在下列其中一個瀏覽器中：
+
+* [Firefox擴充功能](https://addons.mozilla.org/en-US/firefox/addon/adobe-workfront-review-tool/)
+
+* [Chrome擴充功能](https://chromewebstore.google.com/detail/adobe-workfront-review-to/lhdepbgeilldghlfnankdnponhljpgml)
+
+* [Edge](https://microsoftedge.microsoft.com/addons/detail/adobe-workfront-review-to/llhapmaiiddmcamgeapaipjpagnoijen)
+
+
+為了讓互動式校訂在Adobe Workfront檢閱工具中自動開啟，Workfront管理員必須更新workfront中的校訂設定，如下節所述。
+
+## 更新Workfront校訂預設值
+
+### 將Adobe Workfront檢閱工具設為URL和ZIP校樣的預設檢視器
 
 若要使用網頁檢閱工具進行URL和ZIP校訂，Workfront管理員必須調整互動式校訂的預設設定。
 
@@ -43,9 +69,9 @@ Adobe Workfront檢閱工具是網頁型瀏覽器擴充功能，可讓您校訂ZI
 
 >[!NOTE]
 >
->此變更適用於預覽和生產環境中的所有互動式校樣。 我們建議先在預覽環境中測試新體驗，然後再在生產環境中啟用。 您可以將所有互動式校訂的帳戶設定變更回&#x200B;**已啟用**，以輕鬆切換回案頭檢視器。
+>此變更會套用至Workfront執行個體中的所有互動式校樣。 我們建議先在預覽環境中測試新體驗，然後再在生產環境中啟用。 您可以將&#x200B;**互動式校訂的案頭校訂檢視器**&#x200B;帳戶設定變更回&#x200B;**為所有互動式校訂啟用**，以輕鬆切換回案頭檢視器。
 
-## 將Adobe Workfront檢閱工具設為僅適用於ZIP校樣的預設檢視器
+### 將Adobe Workfront檢閱工具設為僅適用於ZIP校樣的預設檢視器
 
 若只要將Web檢閱工具用於ZIP校訂，Workfront管理員必須調整互動校訂的預設設定。
 
@@ -57,20 +83,7 @@ Adobe Workfront檢閱工具是網頁型瀏覽器擴充功能，可讓您校訂ZI
 
 >[!NOTE]
 >
->此變更適用於預覽和生產環境中的所有互動式校樣。 我們建議先在預覽環境中測試新體驗，然後再在生產環境中啟用。 您可以將所有互動式校訂的帳戶設定變更回&#x200B;**已啟用**，以輕鬆切換回案頭檢視器。
+>此變更會套用至Workfront執行個體中的所有ZIP校樣。 我們建議先在預覽環境中測試新體驗，然後再在生產環境中啟用。 您可以將&#x200B;**互動式校訂的案頭校訂檢視器**&#x200B;帳戶設定變更回&#x200B;**為所有互動式校訂啟用**，以輕鬆切換回案頭檢視器。
 
-## 安裝擴充功能
 
-稽核者和核准者必須安裝Adobe Workfront稽核工具。 在下列其中一個瀏覽器中：
 
-* [Firefox擴充功能](https://addons.mozilla.org/en-US/firefox/addon/adobe-workfront-review-tool/)
-
-* [Chrome擴充功能](https://chromewebstore.google.com/detail/adobe-workfront-review-to/lhdepbgeilldghlfnankdnponhljpgml)
-
-* [Edge](https://microsoftedge.microsoft.com/addons/detail/adobe-workfront-review-to/llhapmaiiddmcamgeapaipjpagnoijen)
-
-安裝擴充功能後，互動式校樣會自動在Adobe Workfront檢閱工具中開啟。
-
->[!IMPORTANT]
->
->您必須移除舊版Web Viewer擴充功能，才能使用Adobe Workfront檢閱工具。
