@@ -6,16 +6,16 @@ description: 您可以在Adobe Workfront目標的圖表區段中，檢視目標�
 author: Alina
 feature: Workfront Goals
 exl-id: 8d5f3617-c7bf-44ce-99b0-d4ebda106f25
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: a64f6e507d74201cba1455fbbc6af77c2b7ba058
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '966'
 ht-degree: 0%
 
 ---
 
 # 檢閱圖表以瞭解Adobe Workfront目標中的目標進度趨勢
 
-<!-- drafted mostly for P&P release-->
+<!--Audited for P&P only: 4/2025-->
 
 您可以在Adobe Workfront目標的圖表區段中，檢視目標的整體健康狀態及其及時進度趨勢。 此區段中的圖表不會劃分每個目標的進度，而是為您提供所有目標的進度狀態及其在指定期間內的進度趨勢的整體快照。
 
@@ -25,7 +25,9 @@ ht-degree: 0%
 
 ## 存取需求
 
-您必須具有下列存取權才能執行本文所述的動作：
++++ 展開以檢視本文中功能的存取需求。
+
+您必須具備下列條件：
 
 <table style="table-layout:auto">
 <col>
@@ -42,7 +44,7 @@ ht-degree: 0%
 <p>對於目前的計畫與授權結構： 
 <ul><li> A Pro或更高版本 </li>
   <li>除了Adobe Workfront授權之外，還有Workfront目標授權。</li></ul></p>
-   </td> 
+   </td>  
   </tr>
  <tr>
  <td role="rowheader">Adobe Workfront授權*</td>
@@ -54,12 +56,9 @@ ht-degree: 0%
  <tr>
  <td role="rowheader">產品*</td>
  <td>
- <p> 新產品需求，下列其中一項： </p>
-<ul>
-<li>Select或Prime Adobe Workfront計畫以及額外的Adobe Workfront目標授權。</li>
-<li>Ultimate Workfront計畫，預設包含Workfront目標。 </li></ul>
- <p>或</p>
- <p>目前產品需求： Adobe Workfront Goals的Workfront計畫和額外授權。 </p> <p>如需詳細資訊，請參閱<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目標的需求</a>。 </p> </td>
+    <p> 新產品需求：Workfront</p>
+    或
+    <p>目前產品需求：除了Workfront授權之外，您必須購買Adobe Workfront Goals的授權。 </p> <p>如需詳細資訊，請參閱<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目標的需求</a>。 </p> </td>
  </tr>
  <tr>
  <td role="rowheader"><p>存取層級</p></td>
@@ -83,6 +82,8 @@ ht-degree: 0%
 </table>
 
 *如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## Workfront目標中的圖表型別
 

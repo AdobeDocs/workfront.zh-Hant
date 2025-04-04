@@ -2,19 +2,21 @@
 content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
-title: 目標檢閱和Adobe Workfront目標區段
+title: 目標檢閱和Adobe Workfront目標區段：文章索引
 description: 瞭解如何檢閱目標，並瞭解您可在下列文章中管理Adobe Workfront中目標的區段。
 author: Alina
 feature: Workfront Goals
 exl-id: 81f531f7-3390-4f85-9a96-480f4e84295e
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: a64f6e507d74201cba1455fbbc6af77c2b7ba058
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '156'
 ht-degree: 0%
 
 ---
 
-# 目標檢閱和Adobe Workfront目標區段
+# 目標檢閱和Adobe Workfront目標區段：文章索引
+
+<!--Audited: 4/2025-->
 
 >[!IMPORTANT]
 >
