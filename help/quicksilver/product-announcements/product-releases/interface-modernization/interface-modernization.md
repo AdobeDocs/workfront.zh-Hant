@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 3ea3acc79a0f2d9c61b4ca7fff68855a9a7b1de7
+source-git-commit: 80cb8ffa0495c7d163de8fb99dba84e6442aa938
 workflow-type: tm+mt
-source-wordcount: '1706'
+source-wordcount: '1774'
 ht-degree: 0%
 
 ---
@@ -212,11 +212,23 @@ ht-degree: 0%
 
 +++展開以檢視檔案介面更新
 
+### 外部檔案共用頁面的介面更新
+
+**預覽版本： 2025年4月3日；生產版本：自2025年4月10日起一週**
+
+我們已更新外部使用者在與他們共用檔案時看到的頁面。 在此頁面中，外部使用者可以
+
+* 下載檔案
+* 進行核准決定
+* 開啟校訂檢視器
+
+此更新包含更現代的設計，與Workfront的其他區域一致。
+
 ### 檔案核准區域的介面更新
 
 **預覽版本： 2025年2月13日；生產版本：自2025年2月27日起一週**
 
-我們已更新檔案上的核准區域，採用與Workfront其他區域一致的更現代化設計。
+我們更新了檔案上的核准區域，使其設計更現代化，與Workfront的其他區域一致。
 
 若要檢視此變更，請前往檔案>按一下檔案詳細資訊>核准。
 
