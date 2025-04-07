@@ -8,9 +8,9 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 0c0fc9df-23eb-4a2b-a5b0-6dbd742e8238
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 1d18b58d1ac47159f301589315883f28dfa58694
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '206'
 ht-degree: 1%
 
 ---
@@ -66,8 +66,8 @@ ht-degree: 1%
 
    依預設會依還原日期來排序專案。
 
-1. 根據已還原的專案型別，按一下&#x200B;**專案**、**任務**、**問題**&#x200B;或&#x200B;**檔案**&#x200B;索引標籤。
+1. 視已還原的專案型別而定，按一下&#x200B;**專案**、**任務**、**問題**、**檔案**&#x200B;或&#x200B;**範本**&#x200B;索引標籤。
 
 1. 按一下您要檢視之專案的連結名稱。
 
-   專案、任務、問題或檔案隨即顯示。
+   專案、任務、問題、檔案或範本隨即顯示。
