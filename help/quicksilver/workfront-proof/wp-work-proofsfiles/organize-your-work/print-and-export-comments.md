@@ -7,9 +7,9 @@ description: 您可以在Workfront Proof中存取「註解」摘要。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 212d465c-5605-4bb9-af5a-cea377619cfe
-source-git-commit: 1443551b605dac6e53531c5d445b89517384fe11
+source-git-commit: e72fe6861b26caa2f9e3ff64e36b871528619f5a
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '493'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,8 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**更多**&#x200B;按鈕，然後選取&#x200B;**匯出至Excel**。
 
-   ![匯出至Excel選項](assets/Export-to-excel-option.png)
+   <!--
+   ![Export to Excel option](assets/export-to-excel-option.png) -->
 
 ## 匯出至PDF
 
