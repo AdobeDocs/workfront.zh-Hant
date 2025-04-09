@@ -6,10 +6,10 @@ description: 所有非付費Workfront授權之校訂和檔案決定皆受限制�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f3e68fd8-723a-4e49-9cf1-823e36d04e55
-source-git-commit: cc3930f01d5e2162d7c778d061a08f937877c3c0
+source-git-commit: 4038180d69d4a8027f33b5bafd2104c7c6916b82
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 5%
+source-wordcount: '286'
+ht-degree: 8%
 
 ---
 
@@ -17,11 +17,47 @@ ht-degree: 5%
 
 新計畫的所有未付費Workfront授權校訂和檔案決定受限。 當您被指派為檔案或校訂的核准者時，您必須決定推進稽核和核准流程。
 
-以下決策選項會計入每月限制：
+以下決策型別會計入每月限制：
 
-* 核准
-* 核准 (附帶變更)
-* 需要工作
+<table>
+  <tr>
+
+<td><strong>舊版檔案核准</strong> 
+   </td>
+   <td><strong>已整合核准</strong> 
+   </td>
+   <td><strong>校訂核准</strong> 
+   </td>
+  </tr>
+  <tr>
+   <td>
+   <ul>
+   <li>核准</li>
+    <li>核准 (附帶變更)</li>
+     <li>拒絕</li>
+   </ul>
+   </td>
+   <td>
+      <ul>
+   <li>核准</li>
+    <li>核准 (附帶變更)</li>
+     <li>需要工作</li>
+   </ul>
+   </td>
+   <td>
+      <ul>
+   <li>核准</li>
+    <li>核准 (附帶變更)</li>
+     <li>所需變更</li>
+   </ul>
+   <p><strong>附註</strong>：校訂核准可以有自訂決定標籤</p>
+  </tr>
+  </tr>
+</table>
+
+
+
+## 限制
 
 每個月會重設每個使用者的限制。 各授權的決定限制會依您所在的計畫而有所不同：
 

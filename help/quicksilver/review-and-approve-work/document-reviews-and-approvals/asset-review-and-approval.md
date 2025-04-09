@@ -6,9 +6,9 @@ description: Workfront中可供檢閱和核准的系統概觀。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: f2f58e3db7d99043281384cc2f6047fd9254f4fd
+source-git-commit: 4038180d69d4a8027f33b5bafd2104c7c6916b82
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
@@ -19,13 +19,13 @@ Workfront目前提供3種不同的系統，以供資產和檔案檢閱和核准�
 
 * [舊版檔案核准](#legacy-document-approvals)
 
-* [新檔案核准](#new-document-approvals)
+* [整合的核准](#new-document-approvals)
 
 * [校訂核准](#proof-approvals)
 
 ## 舊版檔案核准
 
-舊版檔案核准將於2025年從Workfront中移除。 新檔案核准系統旨在取代舊版檔案核准。
+舊版檔案核准將於2025年從Workfront中移除。 統一核准系統旨在取代舊版檔案核准。
 
 舊版檔案核准可用的主要功能：
 
@@ -36,13 +36,13 @@ Workfront目前提供3種不同的系統，以供資產和檔案檢閱和核准�
 
 如需詳細資訊，請參閱[舊版檔案核准](/help/quicksilver/review-and-approve-work/manage-approvals/approval-process-in-workfront.md#document-approval-processes)。
 
-## 新檔案核准
+## 整合的核准
 
-新檔案核准是舊版核准系統的重新設計。 目前限量發行，旨在為需要全面利害關係人參與和特定版本檔案核准的企業提供實用而有效的解決方案。
+整合式核准是舊版核准系統的重新設計。 目前限量發行，旨在為需要全面利害關係人參與和特定版本檔案核准的企業提供實用而有效的解決方案。
 
-如需新檔案核准的詳細資訊，請參閱[新檔案核准總覽](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)。
+如需整合式核准的詳細資訊，請參閱[整合式核准總覽](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)。
 
-新檔案核准可用的主要功能：
+可用於統一核准的主要功能：
 
 * 將使用者和團隊新增為核准者和稽核者
 
@@ -51,11 +51,11 @@ Workfront目前提供3種不同的系統，以供資產和檔案檢閱和核准�
 * 建立及使用範本
 
 * 在校訂檢視器中檢閱和註解
-如需有關使用校訂檢視器的詳細資訊，請參閱[一起使用新檔案核准和校訂](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)。
+如需有關使用校訂檢視器的詳細資訊，請參閱[一起使用統一核准和校訂](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)。
 
 * 在Workfront首頁Widget中檢視您核准的多個關鍵績效指標
 
-* 使用目前為測試版的畫布控制面板，檢視有關新檔案核准的報告詳細資訊
+* 使用目前處於Beta版的畫布儀表板來檢視有關統一核准的報告詳細資訊
 如需報告的詳細資訊，請參閱[建立報告儀表板以供檢閱和核准](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)。
 
 * 在校訂檢視器中做出決定[!BADGE 即將推出]{type=Informative}

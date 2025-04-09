@@ -6,20 +6,20 @@ description: 您可以在畫布控制面板中檢閱核准量度。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 48f8605b-c342-493b-96e7-f73248e34b35
-source-git-commit: 9c86cf877e0d1bbb0c4700dfc362062028496e3c
+source-git-commit: 4038180d69d4a8027f33b5bafd2104c7c6916b82
 workflow-type: tm+mt
-source-wordcount: '1991'
+source-wordcount: '1987'
 ht-degree: 1%
 
 ---
 
 # 建立報表控制面板以供檢閱和核准
 
-您可以在「畫布控制面板」區域中建立報告控制面板，以使用新檔案核准功能來顯示有關稽核與核准的高階資訊和詳細資訊。
+您可以在「畫布控制面板」區域中建立報告控制面板，以顯示有關具有整合式核准功能的檢閱和核准的高階資訊和詳細資訊。
 
 >[!IMPORTANT]
 >
->此功能僅適用於使用新檔案核准服務並註冊Canvas控制面板Beta版的客戶。
+>此功能僅適用於使用統一核准服務並註冊了畫布控制面板Beta版的客戶。
 
 
 ![範例儀表板](assets/whole-dashboard.png)
