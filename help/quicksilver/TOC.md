@@ -3,7 +3,7 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: bbbb3f7895256e2f5341e6e9fd76c4fccbd15db0
+source-git-commit: b0a8e5277003eb3189bc7c0a26367fada05d58de
 workflow-type: tm+mt
 source-wordcount: '13116'
 ht-degree: 2%
@@ -12,23 +12,23 @@ ht-degree: 2%
 
 # Workfront 指南 {#using}
 
-* [Workfront檔案](home.md)
-* 產品公告{#product-announcements}
+* [工作前文檔](home.md)
+* 產品公告 {#product-announcements}
    * [產品公告](product-announcements/product-announcements.md)
-   * 產品發行版本{#product-releases}
-      * [產品發行概觀](product-announcements/product-releases/product-releases.md)
-      * [Adobe Workfront發行排程和程式](product-announcements/product-releases/workfront-release-schedule.md)
+   * 產品發行 {#product-releases}
+      * [產品發行概述](product-announcements/product-releases/product-releases.md)
+      * [Adobe Systems Workfront 發行排程和程式](product-announcements/product-releases/workfront-release-schedule.md)
       * [準備Adobe Workfront的季度發行](product-announcements/product-releases/release-readiness.md)
-      * 2025年第2季發行{#release-25-q2}
-         * [2025年第2季版本總覽](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)
-         * [2025年第2季管理員增強功能](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md)
-         * [2025年第2季檔案管理增強功能](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md)
-         * [2025年第2季行動裝置增強功能](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-mobile-enhancements.md)
-         * [2025年第2季專案增強功能](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md)
-         * [2025年第2季報表增強功能](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md)
-         * [2025年第二季度發行時間範圍內的其他增強功能](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md)
+      * 2025年第2季發行 {#release-25-q2}
+         * [2025 Q2 版本概述](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)
+         * [2025 年第 2 季度管理員增強功能](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md)
+         * [2025 年第二季度文檔管理增強功能](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md)
+         * [2025 年第二季度移動增強功能](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-mobile-enhancements.md)
+         * [2025 年第二季度項目增強功能](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md)
+         * [2025 年第二季度報告增強功能](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md)
+         * [2025 年第二季度發行期間的其他增強功能時間範圍](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md)
          * [2025年第2季度發佈時間範圍內的外觀和感覺更新](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-look-and-feel-updates.md)
-      * 2025年第1季發行{#release-25-q1}
+      * 2025年第1季發行 {#release-25-q1}
          * [2025年第1季版本總覽](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
          * [2025年第1季管理員增強功能](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md)
          * [2025年第1季主機板增強功能](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-boards-enhancements.md)
@@ -40,18 +40,18 @@ ht-degree: 2%
          * [2025年第1季更新流增強功能](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-update-stream-enhancements.md)
          * [2025年第一季度發行時間範圍內的其他增強功能](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md)
          * [2025年第1季度發佈時間範圍內的外觀和感覺更新](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-look-and-feel-updates.md)
-      * 2024年第4季發行{#release-24-q4}
+      * 2024年第4季發行 {#release-24-q4}
          * [2024年第4季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
          * [2024年第4季管理員增強功能](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md)
          * [2024年第4季檔案管理增強功能](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-document-mgmt-enhancements.md)
          * [2024年第4季整合增強功能](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md)
          * [2024年第4季首頁增強功能](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md)
-         * [2024年第4季專案增強功能](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md)
+         * [2024 年第 4 季度項目增強功能](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md)
          * [2024年第4季校訂增強功能](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md)
          * [2024年第4季度報表和控制面板增強功能](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-report-and-dashboard-enhancements.md)
          * [2024年第四季發行時間範圍內的其他增強功能](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md)
          * [2024年第4季度發佈時間範圍內的外觀和感覺更新](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-look-and-feel-updates.md)
-      * 2024年第3季發行{#release-24-q3}
+      * 2024年第3季發行 {#release-24-q3}
          * [2024年第3季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
          * [2024年第3季管理員增強功能](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md)
          * [2024年第3季Financial Management增強功能](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-financial-mgmt-enhancements.md)
@@ -61,7 +61,7 @@ ht-degree: 2%
          * [2024年第3季資源管理增強功能](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-resource-mgmt-enhancements.md)
          * [2024年第3季發行時間範圍內的其他增強功能](product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md)
          * [2024年第3季度發佈時間範圍內的外觀與感覺更新](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-look-and-feel-updates.md)
-      * 2024年第2季發行{#release-24-q2}
+      * 2024年第2季發行 {#release-24-q2}
          * [2024年第2季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
          * [2024年第2季管理員增強功能](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md)
          * [2024年第2季檔案管理增強功能](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md)
@@ -71,26 +71,26 @@ ht-degree: 2%
          * [2024年第2季資源管理增強功能](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-resource-mgmt-enhancements.md)
          * [2024年第2季更新流增強功能](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md)
          * [2024年第2季度發佈時間範圍內的外觀和感覺更新](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md)
-      * 2024年第1季發行{#release-24-q1}
-         * [2024年第1季版本總覽](product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)
-         * [2024年第1季管理員增強功能](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md)
-         * [2024年第1季檔案管理增強功能](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md)
-         * [2024年第1季主機板增強功能](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-boards-enhancements.md)
-         * [2024年第1季首頁增強功能](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md)
+      * 2024年第1季發行 {#release-24-q1}
+         * [2024 Q1 版本概述](product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)
+         * [2024 年第 1 季度管理員增強功能](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md)
+         * [2024 年第一季度文檔管理增強功能](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md)
+         * [2024 年第一季度主板增強功能](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-boards-enhancements.md)
+         * [2024 年第一季度家居增強功能](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md)
          * [2024年第1季整合增強功能](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md)
          * [2024年第1季專案增強功能](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-project-enhancements.md)
          * [2024年第1季更新流和通知增強功能](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md)
-      * 2023年第4季發行{#release-23-q4}
+      * 2023年第4季發行 {#release-23-q4}
          * [2023年第4季版本總覽](product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)
          * [2023年第4季管理員增強功能](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md)
          * [2023年第4季主機板增強功能](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md)
          * [2023年第4季Financial Management增強功能](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-financial-mgmt-enhancements.md)
-         * [2023年第4季首頁增強功能](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md)
+         * [2023 年第 4 季度家居增強功能](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md)
          * [2023年第4季整合增強功能](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md)
          * [2023年第4季專案增強功能](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md)
          * [2023年第4季其他增強功能](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md)
          * [2023年第4季度發佈時間範圍內的外觀和感覺更新](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-look-and-feel-updates.md)
-      * 23.3版本{#release-23-3}
+      * 23.3版 {#release-23-3}
          * [23.3版本總覽](product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)
          * [23.3管理員增強功能](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-admin-enhancements.md)
          * [23.3敏捷增強功能](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md)
@@ -100,42 +100,42 @@ ht-degree: 2%
          * [23.3行動增強功能](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-mobile-enhancements.md)
          * [23.3其他增強功能](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md)
          * [在23.3發行時間範圍內的外觀和感覺更新](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
-      * 23.2版本{#release-23-2}
+      * 23.2版 {#release-23-2}
          * [23.2版本總覽](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
          * [23.2管理員增強功能](product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)
          * [23.2敏捷增強功能](product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md)
          * [23.2專案管理增強功能](product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md)
-         * [23.2資源管理增強功能](product-announcements/product-releases/23.2-release-activity/23-2-resource-management-enhancements.md)
-         * [23.2報表和控制面板增強功能](product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md)
+         * [23.2 資源管理增強功能](product-announcements/product-releases/23.2-release-activity/23-2-resource-management-enhancements.md)
+         * [23.2 報告和控制面板增強功能](product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md)
          * [23.2行動增強功能](product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md)
-         * [23.2其他增強功能](product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md)
-         * [在23.2發行時間範圍內的外觀和感覺更新](product-announcements/product-releases/23.2-release-activity/23-2-look-and-feel.md)
-      * 23.1版本{#release-23-1}
-         * [23.1版本總覽](product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md)
-         * [23.1專案與資源管理增強功能](product-announcements/product-releases/23.1-release-activity/23-1-project-enhancements.md)
-         * [23.1敏捷增強功能](product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md)
-         * [23.1行動增強功能](product-announcements/product-releases/23.1-release-activity/23-1-mobile-enhancements.md)
-         * [23.1其他增強功能](product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md)
-         * [23.1發行時間範圍內的外觀與操作方式更新](product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md)
-      * 22.4版本{#release-22-4}
-         * [22.4版本總覽](product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md)
-         * [22.4管理員增強功能](product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md)
-         * [22.4專案增強功能](product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md)
-         * [22.4敏捷增強功能](product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md)
-         * [22.4資源管理增強功能](product-announcements/product-releases/22.4-release-activity/22-4-resource-management-enhancements.md)
-         * [22.4其他增強功能](product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md)
-         * [22.4外觀與感覺更新](product-announcements/product-releases/22.4-release-activity/22-4-look-and-feel-updates.md)
-      * 22.3版本{#release-22-3}
-         * [22.3版本總覽](product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)
-         * [22.3管理員增強功能](product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md)
-         * [22.3整合增強功能](product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md)
+         * [23.2 其他增強功能](product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md)
+         * [在 23.2 發行期間Look和感覺更新時間段](product-announcements/product-releases/23.2-release-activity/23-2-look-and-feel.md)
+      * 23.1 版本 {#release-23-1}
+         * [23.1 版本概述](product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md)
+         * [23.1 專案和資源管理增強功能](product-announcements/product-releases/23.1-release-activity/23-1-project-enhancements.md)
+         * [23.1 敏捷增強](product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md)
+         * [23.1 移動增強功能](product-announcements/product-releases/23.1-release-activity/23-1-mobile-enhancements.md)
+         * [23.1 其他增強功能](product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md)
+         * [在 23.1 版本時間段期間進行了Look和感覺更新](product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md)
+      * 22.4 版本 {#release-22-4}
+         * [22.4 版本概述](product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md)
+         * [22.4 管理員增強功能](product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md)
+         * [22.4 項目增強功能](product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md)
+         * [22.4 敏捷增強](product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md)
+         * [22.4 資源管理增強功能](product-announcements/product-releases/22.4-release-activity/22-4-resource-management-enhancements.md)
+         * [22.4 其他增強功能](product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md)
+         * [22.4 Look和感覺更新](product-announcements/product-releases/22.4-release-activity/22-4-look-and-feel-updates.md)
+      * 22.3 版本 {#release-22-3}
+         * [22.3 版本概述](product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)
+         * [22.3 管理員增強功能](product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md)
+         * [22.3集成增強功能](product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md)
          * [22.3行動增強功能](product-announcements/product-releases/22.3-release-activity/22-3-mobile-enhancements.md)
          * [22.3其他增強功能](product-announcements/product-releases/22.3-release-activity/22-3-other-enhancements.md)
          * [22.3專案增強功能](product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md)
          * [22.3資源管理增強功能](product-announcements/product-releases/22.3-release-activity/22-3-resource-management-enhancements.md)
          * [22.3報表增強功能](product-announcements/product-releases/22.3-release-activity/22-3-reporting-enhancements.md)
          * [在22.3發行時間範圍內的外觀和感覺更新](product-announcements/product-releases/22.3-release-activity/22-3-look-and-feel-updates.md)
-      * 22.2版本{#release-22-2}
+      * 22.2版 {#release-22-2}
          * [22.2版本總覽](product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md)
          * [22.2管理員增強功能](product-announcements/product-releases/22.2-release-activity/22-2-admin-enhancements.md)
          * [22.2專案增強功能](product-announcements/product-releases/22.2-release-activity/22-2-project-enhancements.md)
@@ -145,7 +145,7 @@ ht-degree: 2%
          * [22.2整合增強功能](product-announcements/product-releases/22.2-release-activity/22-2-integration-enhancements.md)
          * [22.2其他增強功能](product-announcements/product-releases/22.2-release-activity/22-2-other-enhancements.md)
          * [22.2版本時間範圍內的外觀和感覺更新](product-announcements/product-releases/22.2-release-activity/22-2-look-and-feel-updates.md)
-      * 22.1版本{#release-22-1}
+      * 22.1版 {#release-22-1}
          * [22.1版本總覽](product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md)
          * [22.1管理員增強功能](product-announcements/product-releases/22.1-release-activity/22-1-admin-enhancements.md)
          * [22.1專案增強功能](product-announcements/product-releases/22.1-release-activity/22-1-project-enhancements.md)
@@ -154,7 +154,7 @@ ht-degree: 2%
          * [22.1校訂增強功能](product-announcements/product-releases/22.1-release-activity/22-1-proofing-enhancements.md)
          * [22.1其他增強功能](product-announcements/product-releases/22.1-release-activity/22-1-other-enhancements.md)
          * [22.1行動裝置增強功能](product-announcements/product-releases/22.1-release-activity/22-1-mobile-enhancements.md)
-      * 21.4版本{#release-21-4}
+      * 21.4版 {#release-21-4}
          * [21.4版本總覽](product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md)
          * [21.4管理員增強功能](product-announcements/product-releases/21.4-release-activity/21-4-admin-enhancements.md)
          * [21.4敏捷增強功能](product-announcements/product-releases/21.4-release-activity/21-4-agile-enhancements.md)
@@ -166,15 +166,15 @@ ht-degree: 2%
          * [21.4整合增強功能](product-announcements/product-releases/21.4-release-activity/21-4-integration-enhancements.md)
          * [21.4行動增強功能](product-announcements/product-releases/21.4-release-activity/21-4-mobile-enhancements.md)
          * [21.4其他增強功能](product-announcements/product-releases/21.4-release-activity/21-4-other-enhancements.md)
-      * 21.3版本{#release-21-3}
+      * 21.3版 {#release-21-3}
          * [21.3版本總覽](product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md)
          * [21.3管理員增強功能](product-announcements/product-releases/21.3-release-activity/21-3-admin-enhancements.md)
          * [21.3專案增強功能](product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md)
          * [21.3資源管理增強功能](product-announcements/product-releases/21.3-release-activity/21-3-resource-management-enhancements.md)
          * [21.3要求增強功能](product-announcements/product-releases/21.3-release-activity/21-3-requests-enhancements.md)
-         * [21.3校訂增強功能](product-announcements/product-releases/21.3-release-activity/21-3-proofing-enhancements.md)
+         * [21.3 校對增強功能](product-announcements/product-releases/21.3-release-activity/21-3-proofing-enhancements.md)
          * [21.3其他增強功能](product-announcements/product-releases/21.3-release-activity/21-3-other-enhancements.md)
-      * 21.2版本{#release-21-2}
+      * 21.2版 {#release-21-2}
          * [21.2版本總覽](product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md)
          * [21.2管理員增強功能](product-announcements/product-releases/21.2-release-activity/21-2-admin-enhancements.md)
          * [21.2專案增強功能](product-announcements/product-releases/21.2-release-activity/21-2-project-enhancements.md)
@@ -184,9 +184,9 @@ ht-degree: 2%
          * [21.2校訂增強功能](product-announcements/product-releases/21.2-release-activity/21-2-proofing-enhancements.md)
          * [21.2整合增強功能](product-announcements/product-releases/21.2-release-activity/21-2-integration-enhancements.md)
          * [21.2其他增強功能](product-announcements/product-releases/21.2-release-activity/21-2-other-enhancements.md)
-         * [21.2行動裝置增強功能](product-announcements/product-releases/21.2-release-activity/21-2-mobile-enhancements.md)
-      * 21.1版本{#release-21-1}
-         * [21.1版本總覽](product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md)
+         * [21.2 移動增強功能](product-announcements/product-releases/21.2-release-activity/21-2-mobile-enhancements.md)
+      * 21.1 版本 {#release-21-1}
+         * [21.1 版本概述](product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md)
          * [21.1管理員增強功能](product-announcements/product-releases/21.1-release-activity/21-1-admin-enhancements.md)
          * [21.1資源管理增強功能](product-announcements/product-releases/21.1-release-activity/21-1-resource-mgt-enhancements.md)
          * [21.1專案管理增強功能](product-announcements/product-releases/21.1-release-activity/21-1-project-mgt-enhancements.md)
@@ -195,34 +195,34 @@ ht-degree: 2%
          * [21.1行動裝置增強功能](product-announcements/product-releases/21.1-release-activity/21-1-mobile-enhancements.md)
          * [21.1其他增強功能](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Planning發行活動{#planning-release-activity}
-         * [Adobe Workfront Planning發行活動](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
-         * [Adobe Workfront Planning 2025年第二季發行活動](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
-         * [Adobe Workfront Planning 2025年第一季度發行活動](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
+         * [Adobe Systems Workfront Planning 發行活動](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+         * [2025 年第二季度Adobe Systems工作面規劃發佈活動](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
+         * [2025 年第一季度Adobe Systems工作面規劃發佈活動](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
          * [Adobe Workfront Planning 2024年第四季發行活動](product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
-      * Adobe Workfront Scenario Planner發行活動{#scenario-planner-release}
+      * Adobe Workfront Scenario Planner發行活動 {#scenario-planner-release}
          * [Adobe Workfront Scenario Planner發行活動](product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md)
          * [含21.3版的Adobe Workfront Scenario Planner](product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-3.md)
          * [含21.2版的Adobe Workfront Scenario Planner](product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-2.md)
          * [含21.1版的Adobe Workfront Scenario Planner](product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-1.md)
          * [含20.4版的Workfront Scenario Planner - 2020年10月14日](product-announcements/product-releases/scenario-planner-release-activity/sp-release-20-4.md)
          * [含20.3版的Workfront Scenario Planner - 2020年8月14日](product-announcements/product-releases/scenario-planner-release-activity/sp-release-20-3.md)
-      * Adobe Workfront目標發行活動{#goals-release}
+      * Adobe Workfront目標發行活動 {#goals-release}
          * [Adobe Workfront目標發行活動](product-announcements/product-releases/goals-release-activity/goals-release-activity.md)
-         * 第23.3發行版本的目標{#goals-23-3}
+         * 第23.3發行版本的目標 {#goals-23-3}
             * [第23.3發行版本中的Adobe Workfront目標](product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-release.md)
             * [Adobe Workfront Goals 23.3發行活動： 2023年5月1日起一週](product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-may-5.md)
-         * 23.2版本{#goals-23-2}的目標
+         * 第23.2發行版本的目標 {#goals-23-2}
             * [第23.2發行版本中的Adobe Workfront目標](product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-23-2-release.md)
             * [Adobe Workfront Goals 23.2發行活動：2023年3月20日起一週](product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-march.md)
-         * 23.1版本{#goals-23-1}的目標
+         * 第23.1發行版本的目標 {#goals-23-1}
             * [第23.1發行版本中的Adobe Workfront目標](product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-23-1-release.md)
             * [Adobe Workfront Goals 23.1發行活動： 2023年12月5日當週](product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-jan.md)
-         * 21.2版本{#goals-21-2}的目標
+         * 第21.2發行版本的目標 {#goals-21-2}
             * [第21.2發行版本中的Adobe Workfront目標](product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-release-21-2.md)
             * [Adobe Workfront Goals 21.2發行活動： 2021年4月19日起一週](product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-apr-19.md)
             * [Adobe Workfront Goals 21.2發行活動： 2021年4月5日當週](product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-apr-5.md)
             * [Adobe Workfront Goals 21.2發行活動： 2021年2月15日起一週](product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-feb-15.md)
-         * 第21.1發行版本的目標{#goals-21-1}
+         * 第21.1發行版本的目標 {#goals-21-1}
             * [第21.1發行版本中的Adobe Workfront目標](product-announcements/product-releases/goals-release-activity/goals-release-21-1.md)
             * [Adobe Workfront Goals 21.1發行活動： 2021年1月11日起一週](product-announcements/product-releases/goals-release-activity/goals-21.1-release/goals-jan-11.md)
             * [Adobe Workfront Goals 21.1發行活動：2020年12月14日當週](product-announcements/product-releases/goals-release-activity/goals-21.1-release/goals-dec-14.md)
@@ -230,19 +230,19 @@ ht-degree: 2%
             * [Adobe Workfront Goals 21.1發行活動：2020年11月16日當週](product-announcements/product-releases/goals-release-activity/goals-21.1-release/goals-nov-16.md)
          * [第20.4發行版本中的Workfront目標](product-announcements/product-releases/goals-release-activity/goals-release-20-4.md)
          * [Workfront 20.3版本目標 — 2020年8月14日](product-announcements/product-releases/goals-release-activity/goals-release-20-3.md)
-      * Workfront Proof發行活動{#proof-release}
-         * 23.3版本{#proof-23-3-release}的校訂
+      * Workfront Proof發行活動 {#proof-release}
+         * 第23.3發行版本校訂 {#proof-23-3-release}
             * [23.3版的Adobe Workfront校訂](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-overview.md)
             * [Adobe Workfront Proof 23.3發行活動： 2023年7月17日起一週](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jul-17.md)
             * [Adobe Workfront Proof 23.3發行活動： 2023年6月5日當週](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jun-5.md)
             * [Adobe Workfront Proof 23.3發行活動： 2023年5月8日當週](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md)
          * [Workfront Proof發行活動： 2021年5月17日起一週](product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md)
          * [Workfront Proof發行活動： 2021年11月29日當週](product-announcements/product-releases/workfront-proof-release-activity/wp-release-22-1.md)
-      * 介面現代化{#interface-modernization}
+      * 介面現代化 {#interface-modernization}
          * [介面現代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)
-      * 每季發行封存{#quarterly-release}
+      * 每季發行封存 {#quarterly-release}
          * [每季發行封存](product-announcements/product-releases/quarterly-release-archive/quarterly-release-archive.md)
-         * 20.4版本{#release-20-4}
+         * 第20.4發行版本 {#release-20-4}
             * [20.4版本總覽](product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md)
             * [20.4專案管理增強功能](product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md)
             * [20. 4 Analytics增強功能](product-announcements/product-releases/20.4-release-activity/20-4-analytics-enhancements.md)
@@ -250,23 +250,23 @@ ht-degree: 2%
             * [20.4校訂增強功能](product-announcements/product-releases/20.4-release-activity/20-4-proof-enhancements.md)
             * [20.4行動裝置和整合增強功能](product-announcements/product-releases/20.4-release-activity/20-4-mobile-enhancements.md)
             * [20.4其他增強功能](product-announcements/product-releases/20.4-release-activity/20-4-other-enhancements.md)
-         * 20.3版本{#release-20-3}
+         * 20.3版 {#release-20-3}
             * [20.3版本總覽](product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md)
-            * [20.3資源管理增強功能](product-announcements/product-releases/20.3-release-activity/20-3-resource-management-enhancements.md)
+            * [20.3 資源管理增強功能](product-announcements/product-releases/20.3-release-activity/20-3-resource-management-enhancements.md)
             * [20.3 Analytics增強功能](product-announcements/product-releases/20.3-release-activity/20-3-analytics-enhancements.md)
-            * [20.3專案管理增強功能](product-announcements/product-releases/20.3-release-activity/20-3-project-management-enhancements.md)
-            * [20.3校訂增強功能](product-announcements/product-releases/20.3-release-activity/20-3-proof-enhancements.md)
-            * [20.3敏捷增強功能](product-announcements/product-releases/20.3-release-activity/20-3-agile-enhancements.md)
-            * [20.3整合與行動增強功能](product-announcements/product-releases/20.3-release-activity/20-3-mobile-enhancements.md)
-            * [20.3其他增強功能](product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md)
-         * 20.2版本{#release-20-2}
-            * [2020.2版本總覽](product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md)
-            * [2020.2行動版增強功能](product-announcements/product-releases/2020.2.-release-activity/2020-2-mobile-enhancements.md)
-            * [2020.2其他增強功能](product-announcements/product-releases/2020.2.-release-activity/2020-2-other-enhancements.md)
-            * [2020.2專案增強功能](product-announcements/product-releases/2020.2.-release-activity/2020-2-project-enhancements.md)
-            * [2020.2校訂增強功能](product-announcements/product-releases/2020.2.-release-activity/2020-2-proofing-enhancements.md)
-            * [2020.2資源管理增強功能：工作負載平衡器](product-announcements/product-releases/2020.2.-release-activity/2020-2-resource-management.md)
-         * 20.1版本{#release-20-1}
+            * [20.3 專案管理增強功能](product-announcements/product-releases/20.3-release-activity/20-3-project-management-enhancements.md)
+            * [20.3 校樣增強功能](product-announcements/product-releases/20.3-release-activity/20-3-proof-enhancements.md)
+            * [20.3 敏捷增強](product-announcements/product-releases/20.3-release-activity/20-3-agile-enhancements.md)
+            * [20.3 集成和移動增強功能](product-announcements/product-releases/20.3-release-activity/20-3-mobile-enhancements.md)
+            * [20.3 其他增強功能](product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md)
+         * 20.2 版本 {#release-20-2}
+            * [2020.2 版本概述](product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md)
+            * [2020.2 移動增強功能](product-announcements/product-releases/2020.2.-release-activity/2020-2-mobile-enhancements.md)
+            * [2020.2 其他增強功能](product-announcements/product-releases/2020.2.-release-activity/2020-2-other-enhancements.md)
+            * [2020.2 項目增強功能](product-announcements/product-releases/2020.2.-release-activity/2020-2-project-enhancements.md)
+            * [2020.2 校對增強功能](product-announcements/product-releases/2020.2.-release-activity/2020-2-proofing-enhancements.md)
+            * [2020.2 資源管理增強功能：負載均衡器](product-announcements/product-releases/2020.2.-release-activity/2020-2-resource-management.md)
+         * 20.1 版本 {#release-20-1}
             * [2020.1版本總覽](product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md)
             * [2020.1清單增強功能](product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md)
             * [2020.1行動版增強功能](product-announcements/product-releases/2020.1-release-activity/2020-1-mobile-enhancements.md)
@@ -275,35 +275,35 @@ ht-degree: 2%
             * [2020.1校訂增強功能](product-announcements/product-releases/2020.1-release-activity/2020-1-proofing-enhancements.md)
             * [2020.1資源管理增強功能](product-announcements/product-releases/2020.1-release-activity/2020-1-resource-management-enhancements.md)
             * [2020.1版之前發行到生產環境的其他Workfront Classic功能](product-announcements/product-releases/2020.1-release-activity/prior-to-2020-1.md)
-         * 2019.4版本{#release-19-4}
+         * 2019.4版本 {#release-19-4}
             * [2019.4版本總覽](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md)
             * [2019.4清單增強功能](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md)
             * [2019.4行動版增強功能](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md)
             * [2019.4其他增強功能](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-other-enhancements.md)
             * [2019.4資源管理增強功能](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-resource-management-enhancements.md)
             * [2019.4版之前發行到生產環境的其他Workfront Classic功能](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/other-workfront-classic-features-prior-to-19-4.md)
-         * 2019.3版本{#release-19-3}
+         * 2019.3版本 {#release-19-3}
             * [2019.3版本活動概覽](product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md)
             * [2019.3資源規劃增強功能](product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-resource-planning-enhancements.md)
             * [2019.3首頁增強功能](product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-home-enhancements.md)
             * [2019.3整合與行動增強功能](product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md)
             * [2019.3專案增強功能](product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-project-enhancements.md)
-         * 2019.2版本{#release-19-2}
+         * 2019.2版本 {#release-19-2}
             * [2019.2版本活動概覽](product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md)
             * [2019.2管理員增強功能](product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-administrator-enhancements.md)
             * [2019.2敏捷增強功能](product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-agile-enhancements.md)
             * [2019.2整合與行動增強功能](product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-integration-enhancements.md)
-            * [2019.2專案增強功能](product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-project-enhancements.md)
-            * [2019.2校訂增強功能](product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-proofing-enhancements.md)
+            * [2019.2 項目增強功能](product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-project-enhancements.md)
+            * [2019.2 校對增強功能](product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-proofing-enhancements.md)
             * [2019.2資源管理增強功能](product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-resource-management-enhancements.md)
-         * 2019.1版本{#release-19-1}
+         * 2019.1版本 {#release-19-1}
             * [2019.1版本活動](product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity.md)
             * [2019.1版本活動概覽](product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity-overview.md)
             * [2019.1行動裝置和整合增強功能](product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-mbl-intgrtn-enhncmnts.md)
             * [2019.1專案增強功能](product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-project-enhancements.md)
             * [2019.1校訂增強功能](product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-proofing-enhancements.md)
             * [2019.1資源管理增強功能](product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-rsrc-mngmnt-enhncmnts.md)
-         * 2018.3版本{#release-18-3}
+         * 2018.3版本 {#release-18-3}
             * [2018.3版本活動](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity.md)
             * [2018.3版本活動概覽](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md)
             * [2018.3 Beta 1發行活動](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-1-release-activity.md)
@@ -312,7 +312,7 @@ ht-degree: 2%
             * [2018.3 Beta 4發行活動](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-4-release-activity.md)
             * [2018.3 Beta 5發行活動](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-5-release-activity.md)
             * [2018.3 Beta決賽](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-final.md)
-         * 2018.2版本{#release-18-2}
+         * 2018.2版本 {#release-18-2}
             * [2018.2版本活動](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity.md)
             * [2018.2版本活動概覽](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md)
             * [2018.2 Beta 1發行活動](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-1-release-activity.md)
@@ -321,49 +321,49 @@ ht-degree: 2%
             * [2018.2 Beta 4發行活動](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md)
             * [2018.2 Beta 5發行活動](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md)
             * [2018.2 Beta最終發行活動](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md)
-         * 2018.1版本{#release-18-1}
+         * 2018.1版本 {#release-18-1}
             * [2018.1版本活動](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity.md)
             * [2018.1版本活動概覽](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md)
             * [2018.1 Beta 1發行活動](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-1-release-activity.md)
             * [2018.1 Beta 2發行活動](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-2-release-activity.md)
             * [2018.1 Beta 3發行活動](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-3-release-activity.md)
-            * [2018.1 Beta 4發行活動](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-4-release-activity.md)
-            * [2018.1 Beta最終發行活動](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-final-release-activity.md)
-         * 2017.3版本{#release-17-3}
-            * [2017.3版本活動](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity.md)
-            * [2017.3版本活動概覽](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md)
-            * [2017.3 Beta 1發行活動](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md)
-            * [2017.3 Beta 2發行活動](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-2-release-activity.md)
-            * [2017.3 Beta 3發行活動](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-3-release-activity.md)
-            * [2017.3 Beta 4發行活動](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md)
-            * [2017.3 Beta最終發行活動](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md)
-            * [2017.3版本網路研討會](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-webinars.md)
-         * 2017.2版本{#release-17-2}
-            * [2017.2版本活動](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity.md)
+            * [2018.1 Beta 4 发布活動](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-4-release-activity.md)
+            * [2018.1 Beta 最終版本活動](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-final-release-activity.md)
+         * 2017.3 版本 {#release-17-3}
+            * [2017.3 版本活動](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity.md)
+            * [2017.3 版本活動概述](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md)
+            * [2017.3 Beta 1 發行活動](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md)
+            * [2017.3 Beta 2 發行活動](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-2-release-activity.md)
+            * [2017.3 Beta 3 發佈活動](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-3-release-activity.md)
+            * [2017.3 Beta 4 发布活動](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md)
+            * [2017.3 Beta 最終版本活動](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md)
+            * [2017.3 版本網路研討會](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-webinars.md)
+         * 2017.2 版本 {#release-17-2}
+            * [2017.2 版本活動](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity.md)
             * [2017.2版本活動概覽](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md)
             * [2017.2 Beta 1發行活動](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-1-release-activity.md)
             * [2017.2 Beta 2發行活動](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-2-release-activity.md)
-            * [2017.2 Beta 3發行活動](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-3-release-activity.md)
+            * [2017.2 Beta 3 發佈活動](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-3-release-activity.md)
             * [2017.2 Beta決賽](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md)
-            * [2017.2版本網路研討會](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-webinars.md)
-         * Workfront R1版本{#r1-release}
-            * [Workfront R1版本](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/workfront-r1-release.md)
-            * [R1發行活動概覽](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md)
-            * [2016年預覽版中提供的功能](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md)
-            * [R1 Final](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md)
-            * [R1預覽1和2](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-peview-1-and-2.md)
-            * [R1預覽3](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md)
-            * [R1預覽4](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-4.md)
-            * [R1預覽5](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md)
-            * [R1發行網路研討會](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-webinars.md)
-   * 公告{#announcements}
+            * [2017.2 版本網路研討會](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-webinars.md)
+         * Workfront R1 版本 {#r1-release}
+            * [Workfront R1 版本](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/workfront-r1-release.md)
+            * [R1 版本活動概述](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md)
+            * [2016 年 預覽 中提供的功能](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md)
+            * [R1決賽](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md)
+            * [R1 預覽 1 和 2](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-peview-1-and-2.md)
+            * [R1 預覽 3](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md)
+            * [R1 預覽 4](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-4.md)
+            * [R1 預覽 5](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md)
+            * [R1 版本網路研討會](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-webinars.md)
+   * 公告 {#announcements}
       * [公告](product-announcements/announcements/announcements.md)
       * [不再支援的功能排程](product-announcements/announcements/feature-removal-timeline.md)
       * [增強型Analytics淘汰指南](product-announcements/announcements/enhanced-analytics-deprecation.md)
       * [維護期間常見問題集](product-announcements/announcements/maintenance-window-faq.md)
       * [將校樣新增至允許清單所需變更](product-announcements/announcements/proofhq-domain-change-workfront.md)
       * [在新的Adobe Workfront體驗中取消訂閱公告中心訊息](product-announcements/announcements/unsubscribe-from-ac-messages.md)
-      * 宣告封存{#announcement-archive}
+      * 宣告封存 {#announcement-archive}
          * [宣告封存](product-announcements/announcements/announcement-archive/announcement-archive.md)
          * [自訂表單增強功能](product-announcements/announcements/announcement-archive/custom-form-enhancements.md)
          * [iOS和Android適用的更新行動應用程式（2017年8月初）](product-announcements/announcements/announcement-archive/updated-mobile-app.md)
@@ -375,20 +375,20 @@ ht-degree: 2%
          * [電子郵件詐騙和POP回覆移除](product-announcements/announcements/announcement-archive/email-spoofing-pop-reply-message.md)
          * [叢集1、2和3的客戶必須更新任何允許清單IP區塊，以防止封鎖Adobe Workfront服務](product-announcements/announcements/announcement-archive/clusters-1-3-update-whitelist.md)
          * [移除作為外寄電子郵件選項的自訂SMTP](product-announcements/announcements/announcement-archive/remove-custom-smtp.md)
-   * Beta程式{#beta}
+   * Beta計畫 {#beta}
       * [Beta計畫](product-announcements/betas/betas.md)
-      * Canvas儀表板Beta版{#canvas-dashboards-beta}
+      * Canvas控制面板Beta版 {#canvas-dashboards-beta}
          * [Canvas控制面板Beta版資訊](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
          * [報告畫布Beta版概覽](product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)
          * [Canvas Dashboards測試版：發行活動](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md)
-      * 新的評論體驗Beta {#new-commenting-experience-beta}
+      * 新的評論體驗測試版 {#new-commenting-experience-beta}
          * [新的評論測試版體驗資訊](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
          * [新的評論體驗](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
          * [新的評論體驗發行活動](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
          * [新的評論體驗常見問題集](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
 * 管理和設定 {#administration-and-setup}
    * [管理和設定：文章索引](administration-and-setup/administration-and-setup.md)
-   * 開始使用管理{#get-started-administration}
+   * 開始使用管理 {#get-started-administration}
       * [開始使用管理：文章索引](administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)
       * [定義Adobe Workfront實作目標的概觀](administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
       * [管理系統中的可用授權](administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)
@@ -407,22 +407,22 @@ ht-degree: 2%
          * [設定任務和問題偏好設定](administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)
          * [鎖定群組的專案偏好設定](administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md)
          * [設定請求型別](administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md)
-         * [自訂問題型別](administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md)
-         * [管理篩選器、檢視、群組](administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md)
-         * [資源管理喜好設定](administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)
-         * [管理風險型別](administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md)
-         * [建立費用型別](administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md)
+         * [自定義問題類型](administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md)
+         * [管理篩選器、檢視、分組](administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md)
+         * [資源管理偏好設定](administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)
+         * [管理風險類型](administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md)
+         * [建立費用類型](administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md)
          * [建立計分卡](administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)
-         * [專案時間表重新計算](administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
-         * [專案的自訂季度](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
-         * [啟用或停用組織的快速發行](administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
+         * [項目時間表重新計算](administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
+         * [專案的自定義季度](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
+         * [為組織啟用或禁用快速發佈](administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
          * [建立和編輯業務規則](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
          * [設定位置](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-locations.md)
          * [管理費率卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)
-      * 設定時程表和時程表喜好設定{#configure-timesheets-schedules}
+      * 設定時程表和時程表偏好設定 {#configure-timesheets-schedules}
          * [設定時程表和時程表偏好設定](administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-timesheets-and-schedules.md)
          * [排程總覽](administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md)
-         * [設定記錄時間型別](administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-users-log-time-in-hrs-or-days.md)
+         * [配置紀錄時間類型](administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-users-log-time-in-hrs-or-days.md)
          * [時程表和小時偏好設定](administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
          * [管理時數類型](administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md)
          * [建立排程](administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
@@ -433,15 +433,15 @@ ht-degree: 2%
          * [停用或重新啟用公司](administration-and-setup/set-up-workfront/organizational-setup/deactivate-a-company.md)
          * [職務角色](administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md)
          * [建立和管理職務角色](administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)
-         * [刪除職位角色](administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md)
-         * [停用職位角色](administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md)
-         * [覆寫工作角色收費率](administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md)
-      * 系統追蹤的更新摘要{#system-tracked-updates}
+         * [刪除工作角色](administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md)
+         * [停用工作角色](administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md)
+         * [覆蓋作業角色帳單率](administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md)
+      * 系統追蹤的更新摘要 {#system-tracked-updates}
          * [系統追蹤的更新](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md)
          * [系統追蹤的更新](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)
-         * [設定系統更新](administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)
-         * [設定使用者更新的偏好設定](administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md)
-      * Adobe Workfront測試環境{#testing-environments}
+         * [配置系統更新](administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)
+         * [設定 用戶 更新的偏好設定](administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md)
+      * Adobe Systems工作前沿測試環境 {#testing-environments}
          * [測試環境](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-testing-environments.md)
          * [預覽Sandbox環境](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)
          * [自訂重新整理沙箱環境](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
@@ -454,7 +454,7 @@ ht-degree: 2%
          * [環境提升常見問題集](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-faq.md)
          * [環境提升疑難排解](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)
 
-   * 使用者管理{#add-users}
+   * 使用者管理 {#add-users}
       * [使用者管理：文章索引](administration-and-setup/add-users/add-users.md)
       * 建立和管理使用者 {#create-manage-users}
          * [建立和管理使用者：文章索引](administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md)
@@ -474,46 +474,46 @@ ht-degree: 2%
          * [檢視和匯出稽核記錄](administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
          * [檢視使用者登入資訊](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
          * [在Adobe Admin Console中管理使用者](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
-      * 新存取層級如何運作{#access-levels}
+      * 新存取層級的運作方式 {#access-levels}
          * [新存取層級的運作方式](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
          * [新存取層級概觀](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
          * [新授權總覽](administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
-         * [透過新授權存取物件和區域](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
-         * [可用於新存取層級之每種物件型別的功能](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
-         * [停用新授權計畫上未付費使用者的自動升級選項](administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
-         * [比較不同授權模式的功能](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/comparing-old-and-new-license-models.md)
-         * [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
-      * 存取層級如何運作{#legacy-access-levels}
+         * [通過新許可證訪問對象和區域](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
+         * [新訪問級別的每種物件類型可用的功能](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
+         * [在新許可計劃中禁用非付費用戶的自動升級選項](administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
+         * [比較不同許可證模型的功能](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/comparing-old-and-new-license-models.md)
+         * [Workfront 檔中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
+      * 存取層級的運作方式 {#legacy-access-levels}
          * [存取層級的運作方式](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
          * [存取權總覽](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
          * [授權總覽](administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
-         * [存取層級和許可權](administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
-         * [依授權型別存取物件和區域](administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
-         * [每種物件型別的功能](administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
-         * [每個物件型別的可設定存取權](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
-         * [內建存取層級](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
-         * [列出使用者的存取層級和授權](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
-      * 設定Workfront {#configure-access}的存取權
+         * [訪問級別和許可權](administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
+         * [按許可證類型訪問對象和區域](administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
+         * [每種物件類型的功能](administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
+         * [每種物件類型的可配置訪問許可權](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
+         * [內置訪問級別](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
+         * [列出使用者的訪問級別和許可證](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
+      * 設定Workfront的存取權 {#configure-access}
          * [設定存取權](administration-and-setup/add-users/configure-and-grant-access/configure-access.md)
          * [建立或修改自訂存取層級](administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)
          * [授予管理存取權](administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)
-         * [授予特定區域的管理存取權](administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)
-         * [授予專案存取權](administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)
-         * [授與任務的存取權](administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)
-         * [授予問題的存取許可權](administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)
-         * [授與檔案的存取權](administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md)
-         * [授予使用者存取許可權](administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
-         * [授予團隊存取權](administration-and-setup/add-users/configure-and-grant-access/grant-access-teams.md)
-         * [授予範本存取權](administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md)
-         * [授予對報告、儀表板、行事曆的存取權](administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)
-         * [授予投資組合的存取權](administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md)
-         * [授予方案存取權](administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md)
+         * [授予對某些區域的管理訪問許可權](administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)
+         * [授予專案的訪問許可權](administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)
+         * [授予任務的訪問許可權](administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)
+         * [授予對事務的訪問許可權](administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)
+         * [授予存取檔](administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md)
+         * [向使用者授予訪問許可權](administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
+         * [向團隊授予訪問許可權](administration-and-setup/add-users/configure-and-grant-access/grant-access-teams.md)
+         * [授予範本的訪問許可權](administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md)
+         * [授予對報表、控制面板、日曆的存取權](administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)
+         * [授予對產品群組的訪問許可權](administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md)
+         * [授予對程式的訪問許可權](administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md)
          * [授予財務資料的存取權](administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)
-         * [授予對篩選器、檢視、群組的存取權](administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md)
-         * [授予Scenario Planner的存取權](administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)
+         * [授予對篩選器、檢視和分組的訪問許可權](administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md)
+         * [授予「藍本規劃器」的存取權](administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)
          * [授與資源管理的存取權](administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
          * [授予Workfront目標的存取權](administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
-      * Workfront {#sso}中的單一登入
+      * Workfront中的單一登入 {#sso}
          * [單一登入：文章索引](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
          * [單一登入概觀](administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
          * [更新單一登入的使用者](administration-and-setup/add-users/single-sign-on/update-users-sso.md)
@@ -522,15 +522,15 @@ ht-degree: 2%
          * [使用ADFS以SAML 2.0設定Adobe Workfront](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
          * [啟用Outlook for Workfront和SAML 2.0](administration-and-setup/add-users/single-sign-on/enable-outlook-for-use-w-wf-and-saml-2.md)
          * [停用單一登入](administration-and-setup/add-users/single-sign-on/deactivate-sso.md)
-      * 建立及管理團隊{#create-manage-teams}
+      * 建立及管理團隊 {#create-manage-teams}
          * [管理團隊](administration-and-setup/add-users/create-and-manage-teams/create-and-manage-teams.md)
          * [建立團隊](administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md)
          * [編輯團隊的設定](administration-and-setup/add-users/create-and-manage-teams/edit-team-settings-from-setup.md)
    * 自訂Adobe Workfront {#customize}
       * [自訂Workfront](administration-and-setup/customize-workfront/customize-workfront.md)
-      * Adobe Workfront {#custom-branding}中的自訂品牌
-         * [自訂品牌](administration-and-setup/customize-workfront/brand-workfront/brand-workfront.md)
-         * [品牌化您的執行個體](administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)
+      * Adobe Workfront中的自訂品牌 {#custom-branding}
+         * [自訂品牌化](administration-and-setup/customize-workfront/brand-workfront/brand-workfront.md)
+         * [打造您的執行個體品牌](administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)
          * [設定自訂說明 URL](administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md)
       * 版面配置範本 {#layout-templates}
          * [版面配置範本](administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md)
@@ -539,31 +539,31 @@ ht-degree: 2%
          * [自訂主要功能表](administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
          * [使用版面配置範本自訂物件標頭](administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)
          * [自訂左側面板](administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
-         * [自訂詳細資料檢視](administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
-         * [使用版面配置範本自訂摘要面板](administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
-         * [自訂新首頁](administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
+         * [自定義詳細信息視圖](administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
+         * [使用版面範本自定義「摘要」面板](administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+         * [定製新家](administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
          * [自訂釘選頁面](administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
          * [自訂篩選器、檢視、群組](administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
          * [自訂使用者介面術語](administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
          * [自訂登入頁面](administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
          * [品牌Workfront](administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
          * [測試版面範本](administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)
-         * [版面配置範本的管理存取權](administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
-         * [將使用者指派給版面配置範本](administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
-         * [復製版面範本](administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md)
-         * [使用API呼叫刪除傳統版面配置範本](administration-and-setup/customize-workfront/use-layout-templates/delete-classic-layout-templates.md)
-      * 自訂表單{#custom-forms}
-         * [自訂表單：文章索引](administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
+         * [佈局範本的管理訪問許可權](administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
+         * [將使用者指派至佈局範本](administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
+         * [複製佈局範本](administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md)
+         * [使用 API 調用刪除傳統佈局範本](administration-and-setup/customize-workfront/use-layout-templates/delete-classic-layout-templates.md)
+      * 自訂表單 {#custom-forms}
+         * [自定義表單：文章索引](administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
          * [自訂表單概觀](administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
-         * 設計自訂表單{#design-a-form}
+         * 設計自定義表單 {#design-a-form}
             * [設計表單：文章索引](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form-toc.md)
-            * [建立自訂表格](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
+            * [建立自定義表單](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
             * [從副本建立表單](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-from-copy.md)
             * [新增計算欄位至表單](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
             * [新增邏輯規則至自訂表單和欄位](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)
             * [自訂表單中的外部查詢欄位範例](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)
             * [組織和預覽表單](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)
-         * 管理自訂表單{#manage-custom-forms}
+         * 管理自訂表單 {#manage-custom-forms}
             * [管理自訂表單和欄位：文章索引](administration-and-setup/customize-workfront/create-manage-custom-forms/manage-custom-forms-toc.md)
             * [從現有自訂表單新增或刪除物件型別](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/add-or-remove-objects-from-a-form.md)
             * [重新命名自訂表單](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/rename-a-custom-form.md)
@@ -579,7 +579,7 @@ ht-degree: 2%
             * [從系統中刪除自訂欄位或Widget](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
             * [刪除自訂表單](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)
             * [API中的RTF文字欄位儲存](administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md)
-      * 狀態和優先順序標籤{#statuses-priority-labels}
+      * 狀態和優先順序標籤 {#statuses-priority-labels}
          * [建立自訂狀態和優先順序標籤](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-custom-status-and-priority-labels.md)
          * [狀態概觀](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md)
          * [列出所有專案狀態](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)
@@ -595,23 +595,23 @@ ht-degree: 2%
          * [使用特定狀態列出擱置物件](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/list-objects-pending-approval-certain-status.md)
          * [建立和自訂優先順序](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md)
          * [建立及自訂問題嚴重程度](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md)
-      * 核准程式和里程碑頁面{#approvals-milestones}
+      * 核准程式和里程碑頁面 {#approvals-milestones}
          * [核准程式和里程碑路徑](administration-and-setup/customize-workfront/configure-approval-milestone-processes/config-approval-milestone-paths.md)
          * [建立核准流程](administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
          * [編輯核准流程](administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md)
-         * [全域核准流程設定](administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md)
-         * [變更如何影響指派的核准流程](administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md)
+         * [全域審批流程設定](administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md)
+         * [變更如何影響指派的審批流程](administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md)
          * [建立里程碑路徑](administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)
-      * 建立和管理自訂條件{#custom-conditions}
+      * 建立和管理自訂條件 {#custom-conditions}
          * [自訂條件](administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)
          * [建立或編輯條件](administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md)
          * [變更條件的顯示順序](administration-and-setup/customize-workfront/create-manage-custom-conditions/change-display-order-of-conditions.md)
          * [將條件設定為專案的預設值](administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md)
          * [將條件設定為任務和問題的預設值](administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md)
-         * [刪除自訂條件](administration-and-setup/customize-workfront/create-manage-custom-conditions/delete-custom-conditions.md)
-   * 管理Adobe Workfront {#manage-wf}
-      * [管理Workfront](administration-and-setup/manage-workfront/manage-workfront.md)
-      * 設定校訂功能{#configure-proofing}
+         * [刪除自定義條件](administration-and-setup/customize-workfront/create-manage-custom-conditions/delete-custom-conditions.md)
+   * 管理 Adobe Systems Workfront {#manage-wf}
+      * [管理工作臺](administration-and-setup/manage-workfront/manage-workfront.md)
+      * 設定校訂功能 {#configure-proofing}
          * [設定校樣](administration-and-setup/manage-workfront/configure-proofing/configuring-proofing-functionality.md)
          * [校樣設定](administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md)
          * [Workfront與Workfront Proof之間的使用者同步](administration-and-setup/manage-workfront/configure-proofing/user-sync-proofing.md)
@@ -619,14 +619,14 @@ ht-degree: 2%
          * [案頭校訂檢視器](administration-and-setup/manage-workfront/configure-proofing/install-desktop-proofing-viewer-org.md)
          * [校訂角色](administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md)
          * [設定預設校訂設定](administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md)
-         * [校訂電子郵件通知設定](administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-email-notification-settings.md)
-         * [設定使用者的校訂存取權](administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md)
+         * [校樣電子郵件通知設置](administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-email-notification-settings.md)
+         * [配置用戶的校對訪問許可權](administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md)
          * [校訂共用](administration-and-setup/manage-workfront/configure-proofing/configure-sharing-settings-users.md)
          * [自動化工作流程範本](administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md)
-      * 設定報告{#configure-reports}
+      * 設定報表 {#configure-reports}
          * [設定報表](administration-and-setup/manage-workfront/configure-reports/configure-reports.md)
          * [隱藏報表](administration-and-setup/manage-workfront/configure-reports/hide-built-in-reports.md)
-      * 電子郵件{#emails}
+      * 電子郵件 {#emails}
          * [電子郵件](administration-and-setup/manage-workfront/emails/emails.md)
          * [電子郵件通知：文章索引](administration-and-setup/manage-workfront/emails/email-notifications-page.md)
          * [設定事件通知](administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
@@ -639,7 +639,7 @@ ht-degree: 2%
          * [電子郵件範本](administration-and-setup/manage-workfront/emails/configure-email-templates.md)
          * [Workfront的電子郵件](administration-and-setup/manage-workfront/emails/allow-emails-from-wf-app.md)
          * [傳送電子郵件邀請給新使用者](administration-and-setup/manage-workfront/emails/manage-email-invitations.md)
-      * 安全性{#security}
+      * 安全性 {#security}
          * [安全性](administration-and-setup/manage-workfront/security/security.md)
          * [設定系統偏好設定](administration-and-setup/manage-workfront/security/configure-security-preferences.md)
          * [驗證的密碼](administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md)
@@ -648,24 +648,24 @@ ht-degree: 2%
          * [防止重複使用者](administration-and-setup/manage-workfront/security/prevent-duplicate-users.md)
          * [依IP位址限制Workfront存取](administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md)
          * [檔案加密](administration-and-setup/manage-workfront/security/file-encryption.md)
-         * [變更您的Workfront網域](administration-and-setup/manage-workfront/security/change-your-workfront-domain.md)
+         * [變更您的 Workfront 網域](administration-and-setup/manage-workfront/security/change-your-workfront-domain.md)
          * [管理 API 金鑰](administration-and-setup/manage-workfront/security/manage-api-keys.md)
-         * [隱私權原則](administration-and-setup/manage-workfront/security/workfront-privacy-policy.md)
-         * [增強型驗證概述](administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md)
+         * [隱私策略](administration-and-setup/manage-workfront/security/workfront-privacy-policy.md)
+         * [增強Authentication概覽](administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md)
          * [使用增強型驗證時更新IDP中的SAML 2.0中繼資料](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth.md)
-      * 匯率{#exchange-rates}
+      * 匯率 {#exchange-rates}
          * [匯率](administration-and-setup/manage-workfront/exchange-rates/exchange-rates.md)
          * [設定匯率](administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)
-      * 管理已刪除的項目 {#manage-deleted-items}
+      * 管理已刪除的專案 {#manage-deleted-items}
          * [管理已刪除的專案](administration-and-setup/manage-workfront/manage-deleted-items/manage-deleted-items.md)
          * [復原已刪除的項目](administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)
          * [檢視已還原的項目](administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)
          * [刪除的物件如何影響小時](administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md)
          * [還原個別子物件](administration-and-setup/manage-workfront/manage-deleted-items/restoring-individual-child-objects.md)
-      * 診斷{#diagnostics}
+      * 診斷 {#diagnostics}
          * [診斷](administration-and-setup/manage-workfront/run-diagnostics/diagnostics.md)
          * [使用診斷來觸發自動化](administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md)
-      * Kick-Starts {#kick-starts}
+      * Kick-Start {#kick-starts}
          * [Kick-Start](administration-and-setup/manage-workfront/using-kick-starts/kick-starts.md)
          * [透過Kick-Start匯出Workfront資料](administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)
          * [使用Kick-Start範本匯入資料](administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)
@@ -674,21 +674,21 @@ ht-degree: 2%
          * [Kick-Starts情境：將多個選項自訂欄位匯入Workfront](administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-multiple-option-custom-field-import.md)
          * [Kick-Starts情境：物件匯入](administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md)
          * [Kick-Starts常見問題集](administration-and-setup/manage-workfront/using-kick-starts/frequently-asked-questions-about-kick-starts.md)
-   * 管理群組{#manage-groups}
+   * 管理群組 {#manage-groups}
       * [管理群組](administration-and-setup/manage-groups/manage-groups.md)
-      * 群組{#groups}
-         * [群組：文章索引](administration-and-setup/manage-groups/groups-overview/groups-overview.md)
-         * [群組概述](administration-and-setup/manage-groups/groups-overview/groups.md)
-         * [子群組概述](administration-and-setup/manage-groups/groups-overview/subgroups.md)
-         * [主群組概觀](administration-and-setup/manage-groups/groups-overview/home-groups.md)
-      * 建立及管理群組{#create-manage-groups}
+      * 群組 {#groups}
+         * [組：文章索引](administration-and-setup/manage-groups/groups-overview/groups-overview.md)
+         * [群組概觀](administration-and-setup/manage-groups/groups-overview/groups.md)
+         * [子組概述](administration-and-setup/manage-groups/groups-overview/subgroups.md)
+         * [家庭組概述](administration-and-setup/manage-groups/groups-overview/home-groups.md)
+      * 建立和管理群組 {#create-manage-groups}
          * [建立和管理群組](administration-and-setup/manage-groups/create-and-manage-groups/create-and-manage-groups.md)
          * [建立群組](administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)
          * [管理群組](administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md)
          * [群組事件通知](administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)
-         * [檢視及管理群組的詳細資訊](administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md)
-         * [檢視和管理群組的成員資格](administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md)
-         * [檢視已配置的群組授權](administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md)
+         * [檢視和管理群組的詳細信息](administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md)
+         * [檢視及管理群組的成員資格](administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md)
+         * [檢視分配的 群組 個許可證](administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md)
          * [設定群組專案偏好設定](administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)
          * [設定群組任務和問題偏好設定](administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)
          * [解鎖子群組偏好設定的設定](administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md)
@@ -698,18 +698,18 @@ ht-degree: 2%
          * [停用或重新啟用群組](administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md)
          * [刪除群組](administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md)
          * [匯出群組清單](administration-and-setup/manage-groups/create-and-manage-groups/export-a-list-of-groups.md)
-      * 建立及管理子群組{#create-manage-subgroups}
+      * 建立和管理子群組 {#create-manage-subgroups}
          * [建立和管理子群組](administration-and-setup/manage-groups/create-and-manage-subgroups/create-and-manage-subgroups.md)
          * [建立子群組](administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md)
          * [管理子群組](administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)
          * [檢視和管理子群組成員](administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md)
-      * 群組角色{#group-roles}
+      * 群組角色 {#group-roles}
          * [群組角色](administration-and-setup/manage-groups/group-roles/group-roles.md)
          * [群組管理員](administration-and-setup/manage-groups/group-roles/group-administrators.md)
          * [指派群組管理員](administration-and-setup/manage-groups/group-roles/assign-user-as-group-administrator.md)
          * [群組管理員權能](administration-and-setup/manage-groups/group-roles/group-actions-allowed-different-types-admins.md)
          * [業務主管概觀](administration-and-setup/manage-groups/group-roles/business-leader-overview.md)
-      * 管理群組狀態{#group-statuses}
+      * 管理群組狀態 {#group-statuses}
          * [管理群組狀態](administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md)
          * [建立或編輯群組狀態](administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md)
          * [重新排序群組狀態](administration-and-setup/manage-groups/manage-group-statuses/reorder-group-statuses-from-groups-area.md)
@@ -718,9 +718,9 @@ ht-degree: 2%
          * [群組如何繼承狀態](administration-and-setup/manage-groups/manage-group-statuses/how-groups-inherit-statuses.md)
          * [刪除群組狀態](administration-and-setup/manage-groups/manage-group-statuses/delete-a-group-status.md)
          * [移動和刪除的群組狀態](administration-and-setup/manage-groups/manage-group-statuses/custom-statuses-in-group-moved-or-deleted.md)
-         * [移動和複製的群組狀態](administration-and-setup/manage-groups/manage-group-statuses/custom-statuses-on-a-task-or-issue-that-is-moved-or-copied.md)
-      * 使用群組的物件{#group-objects}
-         * [管理群組物件](administration-and-setup/manage-groups/work-with-group-objects/work-with-a-groups-objects.md)
+         * [已移動並複製群組狀態](administration-and-setup/manage-groups/manage-group-statuses/custom-statuses-on-a-task-or-issue-that-is-moved-or-copied.md)
+      * 使用群組的物件 {#group-objects}
+         * [管理 群組 物件](administration-and-setup/manage-groups/work-with-group-objects/work-with-a-groups-objects.md)
          * [管理群組公司](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-companies.md)
          * [管理群組配置範本](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)
          * [管理群組投資組合](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-portfolios.md)
@@ -733,76 +733,76 @@ ht-degree: 2%
          * [管理群組專案範本](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)
          * [管理群組的已刪除專案](administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-deleted-objects.md)
          * [管理群組的已還原專案](administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md)
-   * 設定整合{#configure-integrations}
+   * 設定整合 {#configure-integrations}
       * [設定整合](administration-and-setup/configure-integrations/workfront-integrations.md)
       * [Adobe Workfront整合](administration-and-setup/configure-integrations/workfront-integrations-1.md)
-      * [設定Experience Manager Assets as a Cloud Service整合](administration-and-setup/configure-integrations/configure-aacs-integration.md)
+      * [將Experience Manager Assets設定為Cloud Service整合](administration-and-setup/configure-integrations/configure-aacs-integration.md)
       * [設定 Experience Manager Assets Essentials 整合](documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
-      * [使用Adobe Experience Manager舊版聯結器設定Workfront](administration-and-setup/configure-integrations/configure-workfront-aem.md)
-      * [讓使用者能夠存取行動應用程式](administration-and-setup/configure-integrations/enable-users-access-mobile-app.md)
-      * [啟用適用於Outlook的Adobe Workfront](administration-and-setup/configure-integrations/enable-workfront-for-outlook.md)
+      * [使用舊版連接器配置 Workfront Adobe Experience Manager](administration-and-setup/configure-integrations/configure-workfront-aem.md)
+      * [讓用戶能夠存取行動應用程式](administration-and-setup/configure-integrations/enable-users-access-mobile-app.md)
+      * [啟用 Adobe Systems Workfront for Outlook](administration-and-setup/configure-integrations/enable-workfront-for-outlook.md)
       * [設定文件整合](administration-and-setup/configure-integrations/configure-document-integrations.md)
-      * [停用檔案整合](administration-and-setup/configure-integrations/disable-document-integrations.md)
+      * [停用檔整合](administration-and-setup/configure-integrations/disable-document-integrations.md)
       * [設定SharePoint整合](administration-and-setup/configure-integrations/configure-sharepoint-integration.md)
       * [設定中繼資料對應](administration-and-setup/configure-integrations/set-up-metadata-mapping.md)
       * [在Adobe Admin Console中為您的使用者建立Adobe Workfront Creative Cloud套件](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
       * [為Workfront整合建立OAuth2應用程式](administration-and-setup/configure-integrations/create-oauth-application.md)
       * [檢視及管理自訂OAuth2應用程式](administration-and-setup/configure-integrations/manage-custom-oauth2-apps.md)
       * [設定 JumpSeat 整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md)
-   * 藍圖{#blueprints}
+   * 藍圖 {#blueprints}
       * [藍圖](administration-and-setup/blueprints/blueprints.md)
-      * [藍圖概觀](administration-and-setup/blueprints/blueprints-overview.md)
-      * [設定對藍圖的存取權](administration-and-setup/blueprints/configure-access-to-blueprints.md)
+      * [藍圖概述](administration-and-setup/blueprints/blueprints-overview.md)
+      * [配置對藍圖的訪問](administration-and-setup/blueprints/configure-access-to-blueprints.md)
       * [安裝Blueprint](administration-and-setup/blueprints/blueprints-install.md)
       * [設定Blueprint](administration-and-setup/blueprints/configure-template-package.md)
       * [安裝Blueprint後要採取的動作](administration-and-setup/blueprints/best-next-actions-after-install.md)
       * [可用藍圖清單](administration-and-setup/blueprints/list-of-available-blueprints.md)
-   * Adobe Admin Console {#admin-in-admin-console}中的管理
-      * [Adobe Admin Console中的Workfront管理](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
-      * [準備Adobe Admin Console](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
-      * [瞭解Workfront移轉至Adobe Admin Console](administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)
-   * 管理和設定{#admin-setup-tips}的秘訣、技巧和疑難排解
-      * [秘訣、技巧和疑難排解](administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)
-      * [群組管理員的存取權必須高於其管理的群組](administration-and-setup/tips-tricks-and-troubleshooting/group-admin-access-level.md)
-      * [使用中及已停用的物件](administration-and-setup/tips-tricks-and-troubleshooting/acitve-and-deactivated-objects.md)
-      * [ADFS登出URL無法運作](administration-and-setup/tips-tricks-and-troubleshooting/adfs-logout-url-doesnt-work.md)
+   * Adobe Admin Console中的管理 {#admin-in-admin-console}
+      * [Adobe Admin Console的工作前臺管理](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
+      * [為Adobe Admin Console做準備](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
+      * [了解 Workfront 遷移到 Adobe Admin Console](administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)
+   * 管理和設置的提示、技巧和疑難解答 {#admin-setup-tips}
+      * [提示、技巧與疑難解答](administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)
+      * [群組管理員的訪問許可權必須高於其管理](administration-and-setup/tips-tricks-and-troubleshooting/group-admin-access-level.md)
+      * [使用中和已停用的物件](administration-and-setup/tips-tricks-and-troubleshooting/acitve-and-deactivated-objects.md)
+      * [ADFS 註銷URL不起作用](administration-and-setup/tips-tricks-and-troubleshooting/adfs-logout-url-doesnt-work.md)
       * [管理和設定常見問題集](administration-and-setup/tips-tricks-and-troubleshooting/admin-and-setup-faq.md)
       * [自動提醒與提醒通知](administration-and-setup/tips-tricks-and-troubleshooting/auto-reminders-vs-reminder-notifications.md)
-      * [Microsoft Exchange中的POP](administration-and-setup/tips-tricks-and-troubleshooting/configure-pop-ms-exchange.md)
-      * [自動布建的使用者無法登入](administration-and-setup/tips-tricks-and-troubleshooting/error-auto-provisioned-user-cant-log-in.md)
-      * [無法驗證XML數位簽章](administration-and-setup/tips-tricks-and-troubleshooting/error-message-couldnt-validate-xml-digital-signature.md)
-      * [無效引數：轉換值](administration-and-setup/tips-tricks-and-troubleshooting/error-message-invalid-parameter-conversion-value.md)
-      * [SAML 2.0驗證失敗](administration-and-setup/tips-tricks-and-troubleshooting/error-message-saml-2-auth-failed-userid-not-found.md)
-      * [SAML 2.0：主要狀態代碼](administration-and-setup/tips-tricks-and-troubleshooting/error-message-saml-2-error-primary-statuscode.md)
-      * [SAML 2.0：找不到使用者識別碼](administration-and-setup/tips-tricks-and-troubleshooting/error-message-saml-2-error-user-identifier-not-found.md)
-      * [用於多表單設定的欄位](administration-and-setup/tips-tricks-and-troubleshooting/error-message-field-used-in-multi-form-config.md)
-      * [sso使用者無法登入](administration-and-setup/tips-tricks-and-troubleshooting/error-sso-users-unable-log-in-various-errors.md)
-      * [存取層級中缺少外部授權](administration-and-setup/tips-tricks-and-troubleshooting/external-user-license-type-missing-from-access-levels.md)
+      * [Microsoft Exchange 中的 POP](administration-and-setup/tips-tricks-and-troubleshooting/configure-pop-ms-exchange.md)
+      * [自動-佈建的使用者無法登入](administration-and-setup/tips-tricks-and-troubleshooting/error-auto-provisioned-user-cant-log-in.md)
+      * [無法驗證 XML 數位簽名](administration-and-setup/tips-tricks-and-troubleshooting/error-message-couldnt-validate-xml-digital-signature.md)
+      * [參數無效： 轉換值](administration-and-setup/tips-tricks-and-troubleshooting/error-message-invalid-parameter-conversion-value.md)
+      * [SAML 2.0 Authentication失敗](administration-and-setup/tips-tricks-and-troubleshooting/error-message-saml-2-auth-failed-userid-not-found.md)
+      * [SAML 2.0： 主要狀態代碼](administration-and-setup/tips-tricks-and-troubleshooting/error-message-saml-2-error-primary-statuscode.md)
+      * [SAML 2.0： 找不到使用者識別碼](administration-and-setup/tips-tricks-and-troubleshooting/error-message-saml-2-error-user-identifier-not-found.md)
+      * [多表單配置中使用的欄位](administration-and-setup/tips-tricks-and-troubleshooting/error-message-field-used-in-multi-form-config.md)
+      * [SSO 使用者無法登錄](administration-and-setup/tips-tricks-and-troubleshooting/error-sso-users-unable-log-in-various-errors.md)
+      * [存取層級遺失外部授權](administration-and-setup/tips-tricks-and-troubleshooting/external-user-license-type-missing-from-access-levels.md)
       * [正在擷取歷史資料](administration-and-setup/tips-tricks-and-troubleshooting/how-to-get-data-out-of-wf.md)
       * [欄位無效： emailAddr](administration-and-setup/tips-tricks-and-troubleshooting/login-error-following-field-invalid-emailaddr-cant-be-null.md)
-      * [防止詐騙並新增SPF記錄](administration-and-setup/tips-tricks-and-troubleshooting/prevent-spoofing-add-wf-spf-records.md)
+      * [防止欺騙並添加SPF記錄](administration-and-setup/tips-tricks-and-troubleshooting/prevent-spoofing-add-wf-spf-records.md)
       * [儲存電子郵件標題檔案](administration-and-setup/tips-tricks-and-troubleshooting/save-an-email-header-file.md)
-      * [共用會顯示多個許可權](administration-and-setup/tips-tricks-and-troubleshooting/sharing-shows-more-than-1-permission.md)
-      * [未接受未驗證的電子郵件](administration-and-setup/tips-tricks-and-troubleshooting/unauthenticated-email-not-accepted-domains-dmarc-policy.md)
+      * [共享會顯示一個以上的權限](administration-and-setup/tips-tricks-and-troubleshooting/sharing-shows-more-than-1-permission.md)
+      * [未驗證電子郵件未被接受](administration-and-setup/tips-tricks-and-troubleshooting/unauthenticated-email-not-accepted-domains-dmarc-policy.md)
       * [Workfront：ZScaler 設定可能導致效能下降](administration-and-setup/tips-tricks-and-troubleshooting/zscaler-affects-performance.md)
-      * [使用者認證與SAML認證](administration-and-setup/tips-tricks-and-troubleshooting/wf-user-credentials-vs-saml-user-credentials.md)
+      * [用戶憑證與SAML憑證](administration-and-setup/tips-tricks-and-troubleshooting/wf-user-credentials-vs-saml-user-credentials.md)
       * [更新存取層級中的自動升級選項](administration-and-setup/tips-tricks-and-troubleshooting/update-auto-upgrade-in-access-levels.md)
-* Adobe Workfront基本概念{#basics}
-   * [Adobe Workfront基本介紹：文章索引](workfront-basics/workfront-basics.md)
-   * [Adobe Workfront術語表](workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
-   * [Adobe Workfront瀏覽器需求](workfront-basics/workfront-browser-requirements.md)
-   * [Adobe Workfront支援的語言](workfront-basics/supported-languages-in-workfront.md)
-   * 導覽Adobe Workfront {#navigate}
-      * [導覽Adobe Workfront：文章索引](workfront-basics/navigate-workfront/navigate-workfront.md)
-      * Adobe Workfront搜尋{#search}
+* Adobe Systems 工作台基礎知識 {#basics}
+   * [Adobe Systems 工作前線基礎知識：文章索引](workfront-basics/workfront-basics.md)
+   * [Adobe Systems Workfront 術語表](workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
+   * [Adobe Systems工作面瀏覽器要求](workfront-basics/workfront-browser-requirements.md)
+   * [Adobe Systems Workfront 支援的語言](workfront-basics/supported-languages-in-workfront.md)
+   * 導覽Adobe Systems工作面板 {#navigate}
+      * [導覽Adobe Systems Workfront： 文章索引](workfront-basics/navigate-workfront/navigate-workfront.md)
+      * Adobe Systems工作Search {#search}
          * [Adobe Workfront搜尋](workfront-basics/navigate-workfront/search/search.md)
          * [搜尋Adobe Workfront](workfront-basics/navigate-workfront/search/search-workfront.md)
          * [使用物件的參考編號](workfront-basics/navigate-workfront/search/reference-number-of-objects.md)
-      * Adobe Workfront {#recents-and-favorites}中的最近專案與我的最愛
+      * Adobe Workfront中的最近專案和我的最愛 {#recents-and-favorites}
          * [Adobe Workfront中的最近專案和我的最愛](workfront-basics/navigate-workfront/recent-and-favorites/recent-and-favorites.md)
          * [檢視和管理我的最愛](workfront-basics/navigate-workfront/recent-and-favorites/view-and-manage-favorites.md)
          * [檢視最近專案](workfront-basics/navigate-workfront/recent-and-favorites/view-recent-items.md)
-      * Adobe Workfront {#lists-in-adobe-workfront}中的清單
+      * Adobe Workfront中的清單 {#lists-in-adobe-workfront}
          * [Adobe Workfront中的清單](workfront-basics/navigate-workfront/use-lists/lists.md)
          * [開始使用Adobe Workfront中的清單](workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)
          * [將快速篩選套用至清單](workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md)
@@ -823,7 +823,7 @@ ht-degree: 2%
       * [瞭解工作授權使用者的導覽](workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
       * [瞭解檢閱授權使用者的導覽](workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)
       * [Workfront中的專案、任務和問題日期概觀](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
-   * 優先順序{#priorities}
+   * 優先順序 {#priorities}
       * [優先順序：文章索引](workfront-basics/priorities/priorities-toc.md)
       * [優先順序：即將發行的版本](workfront-basics/priorities/priorities-upcoming-releases.md)
       * [開始使用優先順序](workfront-basics/priorities/get-started-with-priorities.md)
@@ -836,12 +836,12 @@ ht-degree: 2%
       * [在優先順序中記錄時間](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md)
       * [上傳優先順序中的檔案](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md)
       * [在優先順序中新增和管理快速連結](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md)
-      * [在優先順序中趕上工作](/help/quicksilver/workfront-basics/priorities/catch-me-up.md)
-      * [上傳檔案並在優先順序中建立校訂](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md)
-      * [在優先順序行事曆中管理您的工作](/help/quicksilver/workfront-basics/priorities/calendar-priorities.md)
+      * [趕上優先事項中的工作](/help/quicksilver/workfront-basics/priorities/catch-me-up.md)
+      * [上傳檔並在優先順序中創建校樣](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md)
+      * [在「優先順序」日曆中管理您的工作](/help/quicksilver/workfront-basics/priorities/calendar-priorities.md)
    * 首頁 {#home}
       * [首頁](workfront-basics/using-home/home.md)
-      * 使用主區域{#use-home-area}
+      * 使用首頁區域 {#use-home-area}
          * [使用「首頁」區域：文章索引](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
          * [開始使用首頁](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
          * [新增、編輯或移除新首頁中的Widget](workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)
@@ -850,24 +850,24 @@ ht-degree: 2%
          * [使用「我的工作」Widget管理您的工作](workfront-basics/using-home/using-the-home-area/my-work-widget.md)
          * [管理首頁區域的工作和團隊請求](workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)
          * [更新或編輯首頁區域的工作專案](workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)
-         * [從首頁區域建立工作專案和專案](workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
-         * [建立和管理個人的待辦事項](workfront-basics/using-home/using-the-home-area/manage-to-do-in-home.md)
-         * [從首頁區域在工作專案上記錄時間](workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
+         * [從主區域建立工作項和專案](workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
+         * [建立和管理個人待辦事項](workfront-basics/using-home/using-the-home-area/manage-to-do-in-home.md)
+         * [從主區域記錄工作項的時間](workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
          * [在首頁區域將專案標示為完成](workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)
          * [使用我的更新區域](workfront-basics/using-home/using-the-home-area/my-updates-area.md)
-   * AI小幫手{#ai-assistant}
+   * AI 助理 {#ai-assistant}
       * [AI 助理](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
       * [AI助理總覽](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)
-      * [使用AI助理摘要](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md)
+      * [使用 AI 助手匯總](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md)
       * [取得AI助理的協助](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md)
       * [使用AI助理修訂計算欄位公式](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md)
       * [使用AI助理來處理專案、任務和問題](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md)
       * [啟用或停用AI助理](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)
-   * 更新工作專案並檢視更新{#update-work-items-view-updates}
+   * 更新工作專案並檢視更新 {#update-work-items-view-updates}
       * [更新工作專案和檢視更新：文章索引](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
-      * [更新區段概觀](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
+      * [更新部分概述](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
       * [更新工作](workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
-      * [欄位中的字元限制](workfront-basics/updating-work-items-and-viewing-updates/character-limits-in-fields.md)
+      * [欄位中字元限制](workfront-basics/updating-work-items-and-viewing-updates/character-limits-in-fields.md)
       * [建立個人任務](workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md)
       * [回覆更新內容](workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md)
       * [回覆電子郵件通知](workfront-basics/updating-work-items-and-viewing-updates/reply-to-email-notifications.md)
@@ -875,13 +875,13 @@ ht-degree: 2%
       * [在備註報告中檢視所有更新](workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
       * [處理它並完成按鈕總覽](workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)
       * [使用AI助理概述更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/summarize-updates-ai-assistant.md)
-   * 使用自訂表單{#work-with-custom-forms}
+   * 使用自訂表格 {#work-with-custom-forms}
       * [使用自訂表格](workfront-basics/work-with-custom-forms/work-with-custom-forms.md)
       * [新增自訂表單至物件](workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)
       * [編輯自訂表單欄位中的資訊](workfront-basics/work-with-custom-forms/edit-custom-forms.md)
       * [匯出自訂表單和物件詳細資料](workfront-basics/work-with-custom-forms/export-custom-forms-details.md)
       * [管理附加到物件的自訂表單](workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)
-   * 使用通知{#use-notifications}
+   * 使用通知 {#use-notifications}
       * [使用通知：文章索引](workfront-basics/using-notifications/use-notifications.md)
       * [通知總覽](workfront-basics/using-notifications/wf-notifications.md)
       * [修改您自己的電子郵件通知](workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
@@ -902,7 +902,7 @@ ht-degree: 2%
       * [通知：關於指派給我的工作的資訊](workfront-basics/using-notifications/notifications-information-about-work-assigned-to-me.md)
       * [通知：其他資訊](workfront-basics/using-notifications/notifications-misc-information.md)
       * [通知：我已進行的請求](workfront-basics/using-notifications/notifications-requests-i-have-made.md)
-   * 授與物件{#grant-request-object-permissions}並請求許可權
+   * 授予物件許可權並請求物件 {#grant-request-object-permissions}
       * [授予物件許可權並請求物件](workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)
       * [物件許可權共用概觀](workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)
       * [授予「首頁」區域中物件的存取權](workfront-basics/grant-and-request-access-to-objects/grant-access-home.md)
@@ -911,32 +911,32 @@ ht-degree: 2%
       * [共用物件](workfront-basics/grant-and-request-access-to-objects/share-an-object.md)
       * [在Adobe Workfront中共用專案](workfront-basics/grant-and-request-access-to-objects/share-a-project.md)
       * [共用任務](workfront-basics/grant-and-request-access-to-objects/share-a-task.md)
-      * [共用問題](workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)
+      * [分享問題](workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)
       * [共用範本](workfront-basics/grant-and-request-access-to-objects/share-a-template.md)
       * [共用物件的財務許可權](workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md)
-      * [共用投資組合](workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md)
+      * [共用作品集](workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md)
       * [共用方案](workfront-basics/grant-and-request-access-to-objects/share-a-program.md)
-      * [共用檔案](workfront-basics/grant-and-request-access-to-objects/document-permissions.md)
+      * [共用檔](workfront-basics/grant-and-request-access-to-objects/document-permissions.md)
       * [共用檔案資料夾](workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md)
       * [共用報告、儀表板和行事曆](workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)
       * [移除物件的許可權](workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
-   * 管理您的帳戶和設定檔{#manage-account-profile}
+   * 管理您的帳戶和設定檔 {#manage-account-profile}
       * [管理您的帳戶和設定檔](workfront-basics/manage-your-account-and-profile/manage-your-account-and-profile.md)
-      * 設定您的使用者設定檔{#configure-user-profile}
-         * [設定您的使用者設定檔](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-user-profile.md)
+      * 設定您的使用者配置檔 {#configure-user-profile}
+         * [設定您的使用者配置檔](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-user-profile.md)
          * [設定我的設定](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)
-         * [設定個人休假](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)
-      * 管理您的Adobe Workfront帳戶{#manage-workfront-account}
-         * [管理您的Adobe Workfront帳戶](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/manage-workfront-account.md)
-         * [登入Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md)
-         * [登出Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-out-of-workfront.md)
-         * [使用增強式驗證重設使用者密碼](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md)
-         * [接收電子郵件邀請並建立Adobe Workfront的密碼](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md)
-         * [在 [!DNL Adobe Workfront] 中建立帳戶作為外部使用者](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/create-account-external-user.md)
+         * [配置個人休假](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)
+      * 管理您的 Adobe Systems Workfront 帳戶 {#manage-workfront-account}
+         * [管理您的 Adobe Systems Workfront 帳戶](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/manage-workfront-account.md)
+         * [登入 Adobe Systems Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md)
+         * [註銷 Adobe Systems Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-out-of-workfront.md)
+         * [透過增進Authentication重設用戶的密碼](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md)
+         * [接收電子郵件邀請併為 Adobe Systems Workfront 建立密碼](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md)
+         * [建立帳戶 [!DNL Adobe Workfront] 作為外部用戶](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/create-account-external-user.md)
          * [重設密碼](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md)
-   * 行動應用程式{#mobile-apps}
+   * 行動應用程式 {#mobile-apps}
       * [行動應用程式](workfront-basics/mobile-apps/mobile-apps.md)
-      * 使用Adobe Workfront行動應用程式{#use-workfront-mobile-app}
+      * 使用Adobe Workfront行動應用程式 {#use-workfront-mobile-app}
          * [使用Adobe Workfront行動應用程式](workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md)
          * [適用於Android的Adobe Workfront](workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
          * [成為Android Beta測試者](workfront-basics/mobile-apps/using-the-workfront-mobile-app/android-beta-tester.md)
@@ -952,34 +952,34 @@ ht-degree: 2%
          * [適用於行動裝置管理(MDM)的Adobe Workfront](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mdm.md)
          * [設定適用於MobileIron的Adobe Workfront](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)
          * [Adobe Workfront行動應用程式中的核准](workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)
-      * 使用Adobe Workfront檢視{#use-workfront-view}
+      * 使用Adobe Workfront檢視 {#use-workfront-view}
          * [使用Adobe Workfront檢視](workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md)
          * [開始使用Adobe Workfront檢視](workfront-basics/mobile-apps/using-workfront-view/get-started-with-workfront-view.md)
          * [在Adobe Workfront檢視中顯示專案](workfront-basics/mobile-apps/using-workfront-view/display-projects-in-wokrfont-view.md)
          * [在Adobe Workfront檢視中篩選專案清單](workfront-basics/mobile-apps/using-workfront-view/filter-project-lists-in-workfront-view.md)
          * [更新專案詳細資料檢視中的Widget](workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)
          * [在Adobe Workfront檢視中新增更新](workfront-basics/mobile-apps/using-workfront-view/add-updates-in-workfront-view.md)
-      * Adobe Workfront行動應用程式的秘訣、技巧和疑難排解{#tips-tricks-for-mobile-apps}
+      * Adobe Workfront行動應用程式的秘訣、技巧和疑難排解 {#tips-tricks-for-mobile-apps}
          * [Adobe Workfront行動應用程式的秘訣、技巧和疑難排解](workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-mobile.md)
-         * [Adobe Workfront行動應用程式上的錯誤訊息：「您的帳戶未啟用API。」](workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/error-message-on-mobile-app.md)
-   * Adobe Workfront基本概念的秘訣、技巧和疑難排解{#tips-tricks-for-basics}
-      * [Adobe Workfront的秘訣、技巧和疑難排解：文章索引](workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)
-      * [您在Adobe Workfront中尋找說明的快速指南](workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md)
-      * [在Adobe Workfront中變更日期格式](workfront-basics/tips-tricks-and-troubleshooting/change-date-format-chrome.md)
-      * [聯絡客戶支援](workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)
-      * [Adobe Workfront社群](workfront-basics/tips-tricks-and-troubleshooting/workfront-community.md)
-      * [Adobe Workfront狀態網站](workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md)
+         * [錯誤 Workfront Mobile 應用程式Adobe Systems上新增訊息：“您的帳戶未啟用 API。](workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/error-message-on-mobile-app.md)
+   * Adobe Systems Workfront 基礎知識的秘訣、技巧與疑難解答 {#tips-tricks-for-basics}
+      * [Adobe Systems Workfront 的秘訣、技巧與疑難解答：文章索引](workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)
+      * [快速指南在 Workfront Adobe Systems尋找説明](workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md)
+      * [變更 Workfront 中日期Adobe Systems格式](workfront-basics/tips-tricks-and-troubleshooting/change-date-format-chrome.md)
+      * [聯繫客戶支援](workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)
+      * [Adobe Systems工作面社區](workfront-basics/tips-tricks-and-troubleshooting/workfront-community.md)
+      * [Adobe Systems Workfront 狀態網站](workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md)
       * [創新實驗室](workfront-basics/tips-tricks-and-troubleshooting/idea-exchange.md)
       * [跨時區工作](workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md)
-      * [Workfront Proof Manager許可權疑難排解](workfront-basics/tips-tricks-and-troubleshooting/wp-manager-permissions-troubleshooting.md)
-      * [篩選器按鈕未顯示在頁首中](workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
+      * [工作面校樣管理器許可權疑難解答](workfront-basics/tips-tricks-and-troubleshooting/wp-manager-permissions-troubleshooting.md)
+      * [篩選按鈕不會顯示在頁面標題中](workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
       * [我參與的專案篩選器包含未預期的結果](workfront-basics/tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)
       * [多個瀏覽器分頁導致Workfront登出](workfront-basics/tips-tricks-and-troubleshooting/multiple-browser-tabs-cause-logout.md)
       * [如何共用物件而不產生通知](workfront-basics/tips-tricks-and-troubleshooting/how-to-share-objects-without-sending-out-notifications.md)
 * 敏捷 {#agile}
    * [敏捷](agile/agile.md)
    * [展示板概述](agile/boards-overview.md)
-   * 開始使用Adobe Workfront {#boards-in-workfront}中的展示板
+   * 開始使用Adobe Workfront中的面板 {#boards-in-workfront}
       * [開始使用面板：文章索引](agile/get-started-with-boards/get-started-with-boards.md)
       * [Workfront主機板影片示範](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)
       * [展示板早期功能選擇加入](agile/get-started-with-boards/boards-early-feature-opt-in.md)
@@ -993,27 +993,27 @@ ht-degree: 2%
       * [將現有任務或問題新增到展示板](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md)
       * [管理卡片](agile/get-started-with-boards/move-board-items.md)
       * [管理展示板上的子任務](/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md)
-      * [管理卡片上的檢查清單專案](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md)
-      * [在卡片上新增檔案](/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md)
-      * [自訂要在卡片上顯示的欄位](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)
-      * [從展示板中刪除或封存卡片](agile/get-started-with-boards/delete-board-items.md)
+      * [管理卡片上的核對清單專案](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md)
+      * [在卡片上新增檔](/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md)
+      * [自訂在卡片上顯示哪些欄位](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)
+      * [從展示板刪除或封存卡片](agile/get-started-with-boards/delete-board-items.md)
       * [在展示板中篩選和搜尋](agile/get-started-with-boards/filter-search-in-board.md)
-      * [新增標籤](agile/get-started-with-boards/add-tags.md)
-      * [面板電子郵件通知和偏好設定](/help/quicksilver/agile/get-started-with-boards/boards-emails.md)
-   * 在看板{#agile-planning-boards}中使用敏捷規劃工具
-      * [敏捷規劃工具總覽](agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)
-      * [管理展示板上的進行中工作(WIP)限制](agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md)
-      * [將輸入欄新增到展示板](agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
+      * [新增標記](agile/get-started-with-boards/add-tags.md)
+      * [展示板電子郵件通知和偏好設定](/help/quicksilver/agile/get-started-with-boards/boards-emails.md)
+   * 在展示板中使用敏捷規劃工具 {#agile-planning-boards}
+      * [敏捷規劃工具概述](agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)
+      * [管理展示板上的在製品 （WIP） 限制](agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md)
+      * [向展示板添加進氣柱](agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
       * [在展示板上使用群組](agile/use-boards-agile-planning-tools/group-cards-on-board.md)
-      * [設定卡片縮減](agile/use-boards-agile-planning-tools/configure-card-falloff.md)
-      * [將敏捷團隊Kanban卡片移轉至Workfront展示板](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
+      * [設定卡片流失](agile/use-boards-agile-planning-tools/configure-card-falloff.md)
+      * [將敏捷團隊看板卡遷移到 Workfront 看板](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
       * [管理工作流程](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
       * [使用卡片清單](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
       * [在工作串流中建立反複專案](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)
       * [在工作流程展示板上設定待處理專案](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-backlog-workstream-board.md)
       * [檢閱反複專案量度](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)
    * [敏捷概覽](agile/agile-overview.md)
-   * 開始使用Adobe Workfront {#agile-in-workfront}中的敏捷功能
+   * 開始使用Adobe Workfront中的敏捷 {#agile-in-workfront}
       * [開始使用Adobe Workfront中的敏捷](agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
       * [建立敏捷團隊](agile/get-started-with-agile-in-workfront/create-an-agile-team.md)
       * [設定Kanban](agile/get-started-with-agile-in-workfront/configure-kanban.md)
@@ -1023,9 +1023,9 @@ ht-degree: 2%
       * [Kanban總覽](agile/use-kanban-in-an-agile-team/kanban-overview.md)
       * [將子任務新增至Kanban面板上的現有劇本](agile/use-kanban-in-an-agile-team/add-a-subtask-to-an-existing-story.md)
       * [將現有任務或問題新增到Kanban面板](agile/use-kanban-in-an-agile-team/add-existing-tasks-or-issues-to-the-kanban-board.md)
-      * [將使用者指派給Kanban面板上的劇本](agile/use-kanban-in-an-agile-team/assign-users-to-a-story.md)
-      * [編輯劇本資訊](agile/use-kanban-in-an-agile-team/edit-story-information.md)
-      * [在Kanban板上依使用者篩選](agile/use-kanban-in-an-agile-team/filter-by-user.md)
+      * [將使用者分配到看板上的故事展示板](agile/use-kanban-in-an-agile-team/assign-users-to-a-story.md)
+      * [編輯故事信息](agile/use-kanban-in-an-agile-team/edit-story-information.md)
+      * [篩選看板上的用戶展示板](agile/use-kanban-in-an-agile-team/filter-by-user.md)
       * [從Kanban面板新增劇本和問題](agile/use-kanban-in-an-agile-team/add-story-from-kanban-board.md)
       * [管理Kanban展示板上的進行中工作(WIP)限制](agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md)
       * [重新排序Kanban展示板上的劇本](agile/use-kanban-in-an-agile-team/reorder-stories-on-the-kanban-board.md)
@@ -1033,16 +1033,16 @@ ht-degree: 2%
       * [在Kanban展示板上的劇本上使用旗標](agile/use-kanban-in-an-agile-team/use-flags-on-stories.md)
       * [將待處理專案新增至Kanban面板](agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md)
       * [從Kanban面板刪除劇本](agile/use-kanban-in-an-agile-team/delete-story-from-kanban-board.md)
-   * 敏捷團隊{#scrum}中的Scrum
+   * 敏捷團隊中的Scrum {#scrum}
       * [敏捷團隊中的Scrum](agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md)
-      * 待執行工作{#burndown}
+      * 專案待執行工作 {#burndown}
          * [專案待執行工作](agile/use-scrum-in-an-agile-team/burndown/burndown.md)
-         * [敏捷待執行工作圖表總覽](agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md)
-         * [反複專案完成狀態概觀](agile/use-scrum-in-an-agile-team/burndown/iteration-completion-status-overview.md)
-         * [調整待執行工作圖表的大小並收合](agile/use-scrum-in-an-agile-team/burndown/resize-collapse-burndown-chart.md)
+         * [敏捷燃盡圖概述](agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md)
+         * [反覆運算完成狀態概述](agile/use-scrum-in-an-agile-team/burndown/iteration-completion-status-overview.md)
+         * [調整燃盡圖的大小和摺疊](agile/use-scrum-in-an-agile-team/burndown/resize-collapse-burndown-chart.md)
          * [同步化待執行工作圖表中的資料](agile/use-scrum-in-an-agile-team/burndown/sync-the-burndown-chart.md)
-         * [對待執行工作圖表使用替代的小組排程](agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md)
-      * 反複專案{#iterations}
+         * [對燃盡圖使用備用團隊計劃](agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md)
+      * 疊代 {#iterations}
          * [疊代](agile/use-scrum-in-an-agile-team/iterations/iterations.md)
          * [反複專案概觀](agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md)
          * [建立反複專案](agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md)
@@ -1050,7 +1050,7 @@ ht-degree: 2%
          * [將劇本新增至現有反複專案](agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)
          * [檢視反複專案](agile/use-scrum-in-an-agile-team/iterations/view-iteration.md)
          * [刪除反複專案](agile/use-scrum-in-an-agile-team/iterations/delete-iteration.md)
-      * Scrum板{#scrum-board}
+      * Scrum展示板 {#scrum-board}
          * [Scrum展示板](agile/use-scrum-in-an-agile-team/scrum-board/scrum-board.md)
          * [Scrum展示板概述](agile/use-scrum-in-an-agile-team/scrum-board/scrum-board-overview.md)
          * [將子任務新增到Scrum展示板上的現有劇本](agile/use-scrum-in-an-agile-team/scrum-board/add-a-subtask-to-an-existing-story-scrum.md)
@@ -1062,60 +1062,60 @@ ht-degree: 2%
          * [管理Scrum展示板上的故事和問題](agile/use-scrum-in-an-agile-team/scrum-board/manage-scrum-board.md)
          * [更新Scrum展示板上內文和子任務的狀態](agile/use-scrum-in-an-agile-team/scrum-board/update-status-of-stories-and-subtasks.md)
          * [在Scrum板上檢視和編輯內文資訊](agile/use-scrum-in-an-agile-team/scrum-board/view-and-edit-story-info.md)
-   * 在敏捷環境{#work-in-agile-environment}中工作
+   * 在敏捷環境中工作 {#work-in-agile-environment}
       * [在敏捷環境中工作](agile/work-in-an-agile-environment/work-in-an-agile-environment.md)
       * [建立敏捷劇本](agile/work-in-an-agile-environment/create-an-agile-story.md)
       * [管理敏捷待處理專案](agile/work-in-an-agile-environment/manage-the-agile-backlog.md)
       * [移動敏捷劇本](agile/work-in-an-agile-environment/move-an-agile-story.md)
-   * 敏捷式{#tips-tricks-agile}的秘訣、技巧和疑難排解
+   * 敏捷的秘訣、技巧和疑難排解 {#tips-tricks-agile}
       * [敏捷的秘訣、技巧和疑難排解](agile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-agile.md)
       * [自訂狀態未顯示在敏捷故事板上](agile/tips-tricks-and-troubleshooting/custom-status-does-not-show.md)
-* 檔案{#documents}
+* 文件 {#documents}
    * [檔案：文章索引](documents/documents-overview.md)
    * 新增檔案至Adobe Workfront {#add-new-documents-to-workfront}
-      * [新增檔案至Adobe Workfront](documents/adding-documents-to-workfront/add-new-documents-to-workfront.md)
-      * [從您的檔案系統新增檔案至Adobe Workfront](documents/adding-documents-to-workfront/add-documents-from-file-system.md)
+      * [將新檔添加到 Adobe Systems Workfront](documents/adding-documents-to-workfront/add-new-documents-to-workfront.md)
+      * [從文件系統將檔新增到 Adobe Systems Workfront](documents/adding-documents-to-workfront/add-documents-from-file-system.md)
       * [從外部應用程式連結檔案](documents/adding-documents-to-workfront/link-documents-from-external-apps.md)
       * [移除Adobe Workfront和外部檔案儲存提供者之間的連結](documents/adding-documents-to-workfront/remove-links-between-wf-and-doc-apps.md)
       * [請求文件](documents/adding-documents-to-workfront/request-a-document.md)
-   * 管理檔案{#manage-documents}
+   * 管理檔案 {#manage-documents}
       * [管理檔案](documents/managing-documents/manage-documents.md)
       * [檔案區域](documents/managing-documents/documents-area.md)
-      * [檔案詳細資訊總覽](documents/managing-documents/document-details-overview.md)
-      * [檔案摘要概覽](documents/managing-documents/summary-for-documents.md)
+      * [文件詳細資訊概述](documents/managing-documents/document-details-overview.md)
+      * [檔概述摘要](documents/managing-documents/summary-for-documents.md)
       * [Workfront AI檢閱者](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
-      * [預覽檔案](documents/managing-documents/preview-documents.md)
-      * [檔案核准和校訂](documents/managing-documents/document-approvals-and-proofing.md)
+      * [預覽文件](documents/managing-documents/preview-documents.md)
+      * [檔審批和校對](documents/managing-documents/document-approvals-and-proofing.md)
       * [將更新新增至檔案](documents/managing-documents/add-update-documents.md)
       * [新增或編輯自訂表單至檔案](documents/managing-documents/add-custom-form-documents.md)
       * [複製和共用檔案資料夾的連結](documents/managing-documents/copy-a-doc-folder-url.md)
       * [上傳檔案的新版本](documents/managing-documents/upload-new-document-version.md)
-      * [管理檔案版本](documents/managing-documents/manage-document-versions.md)
+      * [管理檔版本](documents/managing-documents/manage-document-versions.md)
       * [簽出檔案](documents/managing-documents/check-out-documents.md)
       * [下載文件](documents/managing-documents/download-documents.md)
-      * [移動檔案](documents/managing-documents/move-documents.md)
-      * [檢查檔案儲存限制](documents/managing-documents/check-document-storage.md)
+      * [移檔](documents/managing-documents/move-documents.md)
+      * [檢查文件儲存限制](documents/managing-documents/check-document-storage.md)
       * [刪除文件](documents/managing-documents/delete-documents.md)
       * [從剪貼簿貼上影像](documents/managing-documents/paste-image-clipboard.md)
-      * [大量編輯檔案](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md)
-      * [Workfront檔案詳細資料中的AddBuilder](/help/quicksilver/documents/managing-documents/app-builder-doc-details.md)
-   * 組織檔案{#organize-documents}
-      * [組織檔案](documents/organizing-documents/organize-documents.md)
-      * [建立檔案資料夾](documents/organizing-documents/create-documents-folder.md)
-      * [建立及管理智慧資料夾](documents/organizing-documents/create-manage-smart-folders.md)
-   * Workfront與Experience Manager Assets整合{#wf-aem-integrations}
+      * [批量編輯文件](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md)
+      * [Workfront 檔中的 AddBuilder 詳細數據](/help/quicksilver/documents/managing-documents/app-builder-doc-details.md)
+   * 組織檔 {#organize-documents}
+      * [組織檔](documents/organizing-documents/organize-documents.md)
+      * [建立文件資料夾](documents/organizing-documents/create-documents-folder.md)
+      * [建立和管理智能資料夾](documents/organizing-documents/create-manage-smart-folders.md)
+   * Workfront與Experience Manager Assets整合 {#wf-aem-integrations}
       * [Workfront與Experience Manager Assets整合](documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
-      * 適用於Experience Manager的Workfront增強型聯結器{#wf-aem-enhanced-connector}
+      * 適用於Experience Manager的Workfront增強型聯結器 {#wf-aem-enhanced-connector}
          * [適用於Experience Manager的Workfront增強型聯結器](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md)
          * [適用於Experience Manager的Workfront增強型聯結器概觀](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-aem-enhanced-connector-overview.md)
-         * [適用於Experience Manager的Workfront增強型聯結器中繼資料概覽](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-metadata-overview.md)
+         * [增強型連接器Experience Manager中繼資料概述的工作前沿](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-metadata-overview.md)
          * [使用增強型聯結器連結資產和資料夾](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-link-assets.md)
-         * [使用增強型聯結器傳送檔案](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-send-document.md)
-         * [校訂具有增強型聯結器的連結資產](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-proof-asset.md)
-         * [檢視或下載具有增強型聯結器的連結資產](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-view-download-asset.md)
-      * 適用於Experience Manager Assets和Assets Essentials {#wf-aem-essentials}的Adobe Workfront
+         * [使用增強型連接器發送文件](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-send-document.md)
+         * [使用增強的連接器證明鏈接資產](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-proof-asset.md)
+         * [使用增強的連接器檢視或下載链接資產](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-view-download-asset.md)
+      * 適用於Experience Manager Assets和Assets Essentials的Adobe Workfront {#wf-aem-essentials}
          * [適用於Experience Manager Assets和Assets Essentials的Adobe Workfront：文章索引](documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)
-         * [Adobe Experience Manager Assets整合概述](documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
+         * [Adobe Experience Manager Assets 整合概述](documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
          * [從Experience Manager Assets Essentials連結資產和資料夾](documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
          * [檢視Experience Manager Assets或Assets Essentials的對應中繼資料](documents/adobe-workfront-for-experience-manager-assets-essentials/view-asset-metadata.md)
          * [從Experience Manager Assets或Assets Essentials檢視或下載連結的資產](documents/adobe-workfront-for-experience-manager-assets-essentials/view-download-asset.md)
@@ -1126,18 +1126,18 @@ ht-degree: 2%
          * [在Experience Manager Assets Essentials整合中使用工作流程](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)
          * [使用Workfront Fusion將Workfront問題轉換為包含Adobe Experience Manager工作流程的專案](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-fusion-to-create-project-with-workflows.md)
          * [疑難排解Adobe Experience Manager整合](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md)
-   * 從舊版或增強型聯結器移轉{#migrate-from-legacy-enhanced-connectors}
+   * 從舊版或增強型聯結器移轉 {#migrate-from-legacy-enhanced-connectors}
       * [從舊版或增強型聯結器移轉](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)
       * [從舊版或增強型聯結器移轉至Workfront，以進行Adobe Experience Manager as a Cloud Service整合](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
       * [從舊版聯結器移轉至增強型聯結器](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-to-enhanced.md)
       * [解除安裝具有Adobe Experience Manager舊版聯結器的Workfront](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-legacy-connector.md)
       * [解除安裝具有Adobe Experience Manager增強型聯結器的Workfront](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-enhanced-connector.md)
       * [移轉連結的資料夾和檔案](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/workfront-document-link-updates.md)
-* 管理工作{#manage-work}
+* 管理工作 {#manage-work}
    * [管理工作](manage-work/manage-work.md)
    * 專案 {#projects}
       * [專案：文章索引](manage-work/projects/projects-overview.md)
-      * 計畫專案{#plan-a-project}
+      * 計畫專案 {#plan-a-project}
          * [計畫專案：文章索引](manage-work/projects/planning-a-project/plan-project-overview.md)
          * [計畫專案概述](manage-work/projects/planning-a-project/plan-project.md)
          * [決定專案中的工作分解結構](manage-work/projects/planning-a-project/determine-project-work-breakdown-structure.md)
@@ -1158,15 +1158,15 @@ ht-degree: 2%
          * [專案、任務和問題的預計完成日期總覽](manage-work/projects/planning-a-project/project-projected-completion-date.md)
          * [專案進度狀態概觀](manage-work/projects/planning-a-project/project-progress-status.md)
          * [專案預計開始日期概要](manage-work/projects/planning-a-project/project-projected-start-date.md)
-      * 建立專案{#create-projects}
+      * 建立專案 {#create-projects}
          * [建立專案：文章索引](manage-work/projects/create-projects/create-projects-overview.md)
          * [建立專案](manage-work/projects/create-projects/create-project.md)
          * [請求專案](manage-work/projects/create-projects/request-project.md)
          * [使用範本建立專案](manage-work/projects/create-projects/create-project-from-template.md)
-         * [從Microsoft專案匯入專案](manage-work/projects/create-projects/import-project-from-ms-project.md)
-         * [建立專案基準線](manage-work/projects/create-projects/create-baselines.md)
-      * 更新專案{#update-work-on-a-project}上的工作
-         * [更新專案上的工作：文章索引](manage-work/projects/updating-work-in-a-project/update-work-on-project.md)
+         * [從專案中匯入Microsoft專案](manage-work/projects/create-projects/import-project-from-ms-project.md)
+         * [建立項目目標計劃](manage-work/projects/create-projects/create-baselines.md)
+      * 更新專案上的工作 {#update-work-on-a-project}
+         * [更新專案的工作：文章索引](manage-work/projects/updating-work-in-a-project/update-work-on-project.md)
          * [將狀態套用至與群組相關聯的工作](manage-work/projects/updating-work-in-a-project/apply-custom-status-work-assigned-to-group.md)
          * [更新任務狀態](manage-work/projects/updating-work-in-a-project/update-task-status.md)
          * [更新問題狀態](manage-work/projects/updating-work-in-a-project/update-issue-status.md)
@@ -1175,8 +1175,8 @@ ht-degree: 2%
          * [更新任務和問題的認可日期](manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md)
          * [認可日期與計畫完成日期之間的互動](manage-work/projects/updating-work-in-a-project/interactions-between-commit-and-planned-completion-dates.md)
          * [更新任務和問題的條件](manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md)
-         * [更新專案狀態](manage-work/projects/updating-work-in-a-project/update-condition-on-project.md)
-      * 管理專案{#manage-projects}
+         * [更新項目條件](manage-work/projects/updating-work-in-a-project/update-condition-on-project.md)
+      * 管理專案 {#manage-projects}
          * [管理專案：文章索引](manage-work/projects/manage-projects/manage-projects-overview.md)
          * [編輯專案](manage-work/projects/manage-projects/edit-projects.md)
          * [複製專案](manage-work/projects/manage-projects/copy-project.md)
@@ -1203,21 +1203,21 @@ ht-degree: 2%
          * [建立及管理專案範本：文章索引](manage-work/projects/create-and-manage-templates/create-manage-templates.md)
          * [專案範本概觀](manage-work/projects/create-and-manage-templates/project-template-overview.md)
          * [建立專案範本](manage-work/projects/create-and-manage-templates/create-template.md)
-         * [從範例建立專案範本](manage-work/projects/create-and-manage-templates/create-templates-from-examples.md)
+         * [從範例中建立項目範本](manage-work/projects/create-and-manage-templates/create-templates-from-examples.md)
          * [瀏覽藍圖目錄並請求安裝藍圖](administration-and-setup/blueprints/browse-catalog.md)
-         * [複製專案範本](manage-work/projects/create-and-manage-templates/copy-template.md)
-         * [將範本附加至專案](manage-work/projects/create-and-manage-templates/attach-template-to-project.md)
+         * [複製專案 範本](manage-work/projects/create-and-manage-templates/copy-template.md)
+         * [將範本附加到專案](manage-work/projects/create-and-manage-templates/attach-template-to-project.md)
          * [複製和移動範本任務](manage-work/projects/create-and-manage-templates/copy-and-move-template-tasks.md)
          * [編輯專案範本](manage-work/projects/create-and-manage-templates/edit-templates.md)
          * [編輯範本任務](manage-work/projects/create-and-manage-templates/edit-template-task.md)
          * [從專案建立範本](manage-work/projects/create-and-manage-templates/create-template-from-project.md)
-         * [共用專案範本](manage-work/projects/create-and-manage-templates/share-project-template.md)
-         * [刪除專案範本](manage-work/projects/create-and-manage-templates/delete-templates.md)
-         * [從專案移除範本資訊](manage-work/projects/create-and-manage-templates/remove-template-from-project.md)
-         * [範本中的開始與完成天數概要](manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md)
-         * [將範本附加至專案的概觀](manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md)
-      * 定義業務案例{#define-business-case}
-         * [定義業務案例：文章索引](manage-work/projects/define-a-business-case/define-business-case.md)
+         * [共用項目範本](manage-work/projects/create-and-manage-templates/share-project-template.md)
+         * [刪除項目範本](manage-work/projects/create-and-manage-templates/delete-templates.md)
+         * [拿掉專案中範本資訊](manage-work/projects/create-and-manage-templates/remove-template-from-project.md)
+         * [範本開始和完成天数概覽](manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md)
+         * [將範本附加到專案概述](manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md)
+      * 定義企業案例 {#define-business-case}
+         * [定義企業案例：文章索引](manage-work/projects/define-a-business-case/define-business-case.md)
          * [業務案例的領域概述](manage-work/projects/define-a-business-case/areas-of-business-case.md)
          * [為專案建立業務案例](manage-work/projects/define-a-business-case/create-business-case.md)
          * [核准業務案例](manage-work/projects/define-a-business-case/approve-business-case.md)
@@ -1230,7 +1230,7 @@ ht-degree: 2%
          * [將自訂表格附加至業務案例](manage-work/projects/define-a-business-case/attach-custom-form-to-business-case.md)
          * [建立及編輯專案的風險](manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)
          * [匯出專案的業務案例](manage-work/projects/define-a-business-case/export-business-case.md)
-      * 專案類務 {#project-finances}
+      * 專案類務  {#project-finances}
          * [專案財務：文章索引](manage-work/projects/project-finances/project-finances-overview.md)
          * [專案財務欄位](manage-work/projects/project-finances/project-finances-overview-1.md)
          * [重新計算專案財務](manage-work/projects/project-finances/recalculate-project-finances.md)
@@ -1259,22 +1259,22 @@ ht-degree: 2%
          * [計算已排程工作的預算成本(BCWS)](manage-work/projects/project-finances/calculate-bcws.md)
          * [瞭解專案的預算勞力成本和預算時數](manage-work/projects/project-finances/budgeted-labor-cost.md)
          * [計算計畫勞力成本](manage-work/projects/project-finances/planned-labor-cost.md)
-      * 專案{#tips-tricks-troubleshooting-for-projects}的秘訣、技巧和疑難排解
+      * 項目的秘訣、技巧與疑難解答 {#tips-tricks-troubleshooting-for-projects}
          * [秘訣、技巧和疑難排解：文章索引](manage-work/projects/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-for-projects.md)
-         * [專案常見問題集](manage-work/projects/tips-tricks-and-troubleshooting/projects-faqs.md)
-         * [專案狀態不會從完成變更為目前](manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md)
+         * [專案常見問題](manage-work/projects/tips-tricks-and-troubleshooting/projects-faqs.md)
+         * [項目狀態不會從完整應用程式變為目前](manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md)
          * [計算範例 — 從任務累加計算EAC](manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-by-rolling-up-from-tasks-example.md)
          * [計算範例 — 在專案層級計算EAC](manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-at-project-level-example.md)
    * 任務 {#tasks}
       * [任務：文章索引](manage-work/tasks/tasks-overview.md)
-      * 任務資訊{#task-information}
+      * 任務資訊 {#task-information}
          * [任務資訊](manage-work/tasks/task-information/task-information.md)
          * [任務總覽](manage-work/tasks/task-information/tasks-overview.md)
          * [檢視實際小時](manage-work/tasks/task-information/actual-hours.md)
          * [任務追蹤模式概觀](manage-work/tasks/task-information/task-tracking-mode.md)
          * [更新任務優先順序](manage-work/tasks/task-information/task-priority.md)
-         * [專案完成百分比總覽](manage-work/tasks/task-information/project-percent-complete.md)
-         * [計畫時數概觀](manage-work/tasks/task-information/planned-hours.md)
+         * [專案百分比完整應用程式概述](manage-work/tasks/task-information/project-percent-complete.md)
+         * [計劃工時概覽](manage-work/tasks/task-information/planned-hours.md)
          * [工作投入概觀](manage-work/tasks/task-information/work-effort.md)
          * [任務進度狀態總覽](manage-work/tasks/task-information/task-progress-status.md)
          * [任務計劃開始日期總覽](manage-work/tasks/task-information/task-planned-start-date.md)
@@ -1284,17 +1284,17 @@ ht-degree: 2%
          * [任務的「可以開始」總覽](manage-work/tasks/task-information/can-start-task-overview.md)
          * [設定任務的追蹤模式](manage-work/tasks/task-information/set-tracking-mode-for-tasks.md)
          * [更新任務平準延遲](manage-work/tasks/task-information/task-leveling-delay.md)
-         * [更新任務成本型別](manage-work/tasks/task-information/update-task-cost-type.md)
-         * [預計日期與估計日期概要](manage-work/tasks/task-information/differentiate-projected-estimated-dates.md)
+         * [更新任務成本類型](manage-work/tasks/task-information/update-task-cost-type.md)
+         * [預計日期和預計日期概覽](manage-work/tasks/task-information/differentiate-projected-estimated-dates.md)
          * [任務原始期間與原始計畫時數概觀](manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md)
          * [計畫期間與任務期間之間的差異](manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md)
-      * 建立任務{#create-tasks}
+      * 建立任務 {#create-tasks}
          * [建立任務：文章索引](manage-work/tasks/create-tasks/create-tasks-overview-1.md)
          * [建立任務總覽](manage-work/tasks/create-tasks/create-tasks-overview.md)
          * [在專案中建立任務](manage-work/tasks/create-tasks/create-tasks-in-project.md)
          * [建立子任務](manage-work/tasks/create-tasks/create-subtasks.md)
          * [建立週期性任務](manage-work/tasks/create-tasks/create-recurring-tasks.md)
-      * 指派任務{#assign-tasks}
+      * 指派任務 {#assign-tasks}
          * [指派任務](manage-work/tasks/assign-tasks/assign-tasks-1.md)
          * [指派任務](manage-work/tasks/assign-tasks/assign-tasks.md)
          * [建立進階任務指派](manage-work/tasks/assign-tasks/create-advanced-assignments.md)
@@ -1304,7 +1304,7 @@ ht-degree: 2%
          * [管理任務的使用者或角色配置百分比](manage-work/tasks/assign-tasks/manage-allocation-percentage-on-tasks.md)
          * [管理任務的使用者和角色分配時數](manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md)
          * [進行智慧型指派](manage-work/tasks/assign-tasks/make-smart-assignments.md)
-      * 管理任務{#manage-tasks}
+      * 管理任務 {#manage-tasks}
          * [管理任務](manage-work/tasks/manage-tasks/manage-tasks.md)
          * [編輯任務](manage-work/tasks/manage-tasks/edit-tasks.md)
          * [編輯清單中的任務](manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md)
@@ -1318,7 +1318,7 @@ ht-degree: 2%
          * [專案關鍵路徑概觀](manage-work/tasks/manage-tasks/critical-path.md)
          * [將里程碑與任務建立關聯](manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)
          * [將任務轉換為專案](manage-work/tasks/manage-tasks/convert-task-to-project.md)
-      * 任務限制{#task-constraints}
+      * 任務限制 {#task-constraints}
          * [任務限制：文章索引](manage-work/tasks/task-constraints/task-constraints.md)
          * [任務限制總覽](manage-work/tasks/task-constraints/task-constraint-overview.md)
          * [任務限制總覽：開始時間不晚於](manage-work/tasks/task-constraints/start-no-later-than.md)
@@ -1333,7 +1333,7 @@ ht-degree: 2%
          * [任務限制總覽：儘快](manage-work/tasks/task-constraints/as-soon-as-possible.md)
          * [任務限制總覽：儘可能遲](manage-work/tasks/task-constraints/as-late-as-possible.md)
          * [更新任務的任務限制](manage-work/tasks/task-constraints/update-task-constraint-of-task.md)
-      * 任務期間和期間型別{#task-duration-and-duration-types}
+      * 任務工期與工期型別 {#task-duration-and-duration-types}
          * [工作期間與期間型別：文章索引](manage-work/tasks/taskdurtn/task-duration-duration-type.md)
          * [任務期間與期間型別概觀](manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
          * [期間型別概要：計算的指定](manage-work/tasks/taskdurtn/calculated-assignment.md)
@@ -1341,26 +1341,26 @@ ht-degree: 2%
          * [期間型別概觀：計算的工作量](manage-work/tasks/taskdurtn/calculated-work.md)
          * [期間型別概觀：簡單](manage-work/tasks/taskdurtn/simple-duration-type.md)
          * [更新任務的期間型別](manage-work/tasks/taskdurtn/update-duration-type-of-task.md)
-         * [使用簡單期間型別更新任務的計畫時數和期間](manage-work/tasks/taskdurtn/update-planned-hours-duration-for-simple-duration-task.md)
+         * [使用簡單工期類型更新任務的計劃工時和工期](manage-work/tasks/taskdurtn/update-planned-hours-duration-for-simple-duration-task.md)
          * [Adobe Workfront和Microsoft專案中的期間型別](manage-work/tasks/taskdurtn/workfront-ms-project-duration-types.md)
-      * 使用前置任務{#use-task-predecessors}
-         * [使用前置任務](manage-work/tasks/use-prdcssrs/use-task-predecessors.md)
-         * [前置任務概觀](manage-work/tasks/use-prdcssrs/predecessors-overview.md)
-         * [在任務清單上建立前置任務關係](manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md)
+      * 使用任務前置產品 {#use-task-predecessors}
+         * [使用任務前置產品](manage-work/tasks/use-prdcssrs/use-task-predecessors.md)
+         * [任務前輩概述](manage-work/tasks/use-prdcssrs/predecessors-overview.md)
+         * [建立 任務 清單 上的前身關係](manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md)
          * [使用前置任務區域建立前置任務關係](manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md)
          * [透過鏈結任務建立前置任務關係](manage-work/tasks/use-prdcssrs/create-predecessors-by-chaining-tasks.md)
          * [建立跨專案前置任務](manage-work/tasks/use-prdcssrs/cross-project-predecessors.md)
-         * [作業相依性型別的概要](manage-work/tasks/use-prdcssrs/task-dependency-types.md)
+         * [任務依賴項類型概述](manage-work/tasks/use-prdcssrs/task-dependency-types.md)
          * [強制執行前置任務](manage-work/tasks/use-prdcssrs/enforced-predecessors.md)
-         * [延遲型別概觀](manage-work/tasks/use-prdcssrs/lag-types.md)
-         * [任務相依性回圈概觀](manage-work/tasks/use-prdcssrs/dependency-loop-overview.md)
-      * 工作提示、秘訣及疑難排解{#tips-tricks-and-troubleshooting-for-tasks}
-         * [工作的秘訣、技巧和疑難排解](manage-work/tasks/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-tasks.md)
+         * [滯後類型概述](manage-work/tasks/use-prdcssrs/lag-types.md)
+         * [任務依賴關係迴圈概述](manage-work/tasks/use-prdcssrs/dependency-loop-overview.md)
+      * 任務的提示、技巧和疑難解答 {#tips-tricks-and-troubleshooting-for-tasks}
+         * [任務的提示、技巧和疑難解答](manage-work/tasks/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-tasks.md)
          * [任務常見問答](manage-work/tasks/tips-tricks-and-troubleshooting/tasks-faqs.md)
-         * [預計期間與計畫期間不符](manage-work/tasks/tips-tricks-and-troubleshooting/projected-and-planned-durations-dont-match.md)
-   * 問題{#issues}
+         * [預計持續時間與計劃持續時間不匹配](manage-work/tasks/tips-tricks-and-troubleshooting/projected-and-planned-durations-dont-match.md)
+   * 問題 {#issues}
       * [問題](manage-work/issues/issues-overview.md)
-      * 轉換問題{#convert-issues}
+      * 轉換問題 {#convert-issues}
          * [轉換問題](manage-work/issues/convert-issues/convert-issues-overview.md)
          * [在Adobe Workfront中轉換問題的概觀](manage-work/issues/convert-issues/convert-issues.md)
          * [在Adobe Workfront中將問題轉換為專案](manage-work/issues/convert-issues/convert-issue-to-project.md)
@@ -1368,14 +1368,14 @@ ht-degree: 2%
          * [解析與可解析物件的概觀](manage-work/issues/convert-issues/resolving-and-resolvable-objects.md)
          * [將問題與其解析物件取消連結](manage-work/issues/convert-issues/unlink-issues-from-resolvable-objects.md)
          * [手動將問題的解決連結至其他問題、任務或專案](manage-work/issues/convert-issues/manually-tie-resolution-of-issue-to-ptis.md)
-      * 問題資訊{#issue-information}
+      * 問題資訊 {#issue-information}
          * [問題資訊](manage-work/issues/issue-information/issue-info-overview.md)
          * [問題期間概觀](manage-work/issues/issue-information/issue-duration.md)
          * [更新問題優先順序](manage-work/issues/issue-information/update-issue-priority.md)
          * [更新問題嚴重程度](manage-work/issues/issue-information/update-issue-severity.md)
          * [問題計畫完成日期總覽](manage-work/issues/issue-information/issue-planned-completion-date.md)
          * [參考問題時使用「opTask」和「issue」](manage-work/issues/issue-information/use-optask-instead-of-issue.md)
-      * 管理問題{#manage-issues}
+      * 管理問題 {#manage-issues}
          * [管理問題](manage-work/issues/manage-issues/manage-issues-overview.md)
          * [建立問題](manage-work/issues/manage-issues/create-issues.md)
          * [指派問題](manage-work/issues/manage-issues/assign-issues.md)
@@ -1388,10 +1388,10 @@ ht-degree: 2%
          * [修改問題指派的概觀](manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
          * [修改清單中多個問題的使用者指派](manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md)
          * [自動將問題狀態從等待回饋更新為進行中](manage-work/issues/manage-issues/turn-issue-status-from-awf-to-inp-automatically.md)
-   * 甘特圖{#the-gantt-chart}
-      * 甘特圖{#the-gantt-chart}
+   * 甘特圖 {#the-gantt-chart}
+      * 甘特圖 {#the-gantt-chart}
       * [甘特圖](manage-work/gantt-chart/the-gantt-chart.md)
-      * 甘特圖總覽{#gantt-chart-overview}
+      * 甘特圖概觀 {#gantt-chart-overview}
          * [甘特圖概觀](manage-work/gantt-chart/use-the-gantt-chart/gantt-chart-overview.md)
          * [開始使用甘特圖](manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md)
          * [設定資訊在甘特圖上的顯示方式](manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md)
@@ -1399,14 +1399,14 @@ ht-degree: 2%
          * [更新工作清單甘特圖中的資訊](manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)
          * [在甘特圖中平準資源](manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md)
          * [將甘特圖匯出至PDF](manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)
-   * Portfolio管理{#portfolio-management}
+   * 投資組合管理 {#portfolio-management}
       * [投資組合管理](manage-work/portfolios/portfolio-management-overview.md)
-      * Adobe Workfront {#portfolio-overview-in-adobe-workfront}中的Portfolio概觀
+      * Adobe Workfront中的Portfolio概觀 {#portfolio-overview-in-adobe-workfront}
          * [專案組合](manage-work/portfolios/portfolios-overview/portfolio-overview-1.md)
-         * [在投資組合中導覽](manage-work/portfolios/portfolios-overview/navigate-within-portfolio.md)
-         * [Portfolio管理概觀](manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md)
-         * [Adobe Workfront中的Portfolio概觀](manage-work/portfolios/portfolios-overview/portfolio-overview.md)
-      * 建立及管理投資組合{#create-and-manage-portfolios}
+         * [在作品集內流覽](manage-work/portfolios/portfolios-overview/navigate-within-portfolio.md)
+         * [Portfolio管理概述](manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md)
+         * [Portfolio Workfront 中的Adobe Systems概述](manage-work/portfolios/portfolios-overview/portfolio-overview.md)
+      * 建立和管理投資組合 {#create-and-manage-portfolios}
          * [建立和管理產品組合](manage-work/portfolios/create-and-manage-portfolios/create-and-manage-portfolios.md)
          * [建立專案組合](manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
          * [刪除和停用投資組合](manage-work/portfolios/create-and-manage-portfolios/delete-deactivate-portfolios.md)
@@ -1414,49 +1414,49 @@ ht-degree: 2%
          * [將專案新增至投資組合](manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
          * [從投資組合中移除專案](manage-work/portfolios/create-and-manage-portfolios/remove-project-from-portfolio.md)
          * [檢閱請求的專案](manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md)
-      * 建立和管理程式{#create-and-manage-programs}
+      * 建立和管理計畫 {#create-and-manage-programs}
          * [在 [!DNL Adobe Workfront]中的程式總覽](manage-work/portfolios/create-and-manage-programs/programs-overview.md)
          * [建立和管理計畫](manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)
          * [建立方案](manage-work/portfolios/create-and-manage-programs/create-program.md)
-         * [編輯計畫](manage-work/portfolios/create-and-manage-programs/edit-programs.md)
-         * [將現有方案新增至投資組合](manage-work/portfolios/create-and-manage-programs/move-program.md)
-         * [將專案新增至方案](manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)
-         * [從方案中移除專案](manage-work/portfolios/create-and-manage-programs/remove-project-from-program.md)
-      * 在Portfolio Optimizer {#manage-projects-in-portfolio-optimizer}中管理專案
-         * [在Portfolio Optimizer中管理專案](manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)
-         * [Portfolio Optimizer概述](manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
-         * [找到Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/locate-portfolio-optimizer.md)
-         * [Portfolio Optimizer分數概述](manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md)
-         * [在Portfolio Optimizer中排定專案的優先順序](manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)
-         * [在Portfolio Optimizer中最佳化專案](manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md)
+         * [編輯程序](manage-work/portfolios/create-and-manage-programs/edit-programs.md)
+         * [將現有方案添加到作品集](manage-work/portfolios/create-and-manage-programs/move-program.md)
+         * [將專案添加到方案](manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)
+         * [從方案移除專案](manage-work/portfolios/create-and-manage-programs/remove-project-from-program.md)
+      * 在 Portfolio Optimizer 中管理專案 {#manage-projects-in-portfolio-optimizer}
+         * [在 Portfolio Optimizer 中管理專案](manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)
+         * [Portfolio Optimizer 概述](manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
+         * [找到Portfolio優化器](manage-work/portfolios/portfolio-optimizer/locate-portfolio-optimizer.md)
+         * [Portfolio Optimizer 分數概觀](manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md)
+         * [在 Portfolio 優化器中確定專案的優先順序](manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)
+         * [在 Portfolio 優化器中優化專案](manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md)
          * [計算投資組合中淨值的風險](manage-work/portfolios/portfolio-optimizer/calculate-risk-to-net-value-in-portfolio.md)
-   * 要求{#requests}
+   * 請求 {#requests}
       * [請求](manage-work/requests/requests-overview.md)
-      * 建立及管理請求佇列{#create-and-manage-request-queues}
-         * [建立及管理請求佇列](manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md)
+      * 建立及管理請求佇列 {#create-and-manage-request-queues}
+         * [建立與管理要求佇列](manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md)
          * [建立請求佇列](manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
-         * [提供請求佇列的存取權](manage-work/requests/create-and-manage-request-queues/provide-access-to-request-queues.md)
+         * [提供對請求佇列的訪問](manage-work/requests/create-and-manage-request-queues/provide-access-to-request-queues.md)
          * [建立主題群組](manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
          * [建立佇列主題](manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
          * [建立路由規則](manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
-         * [定義專案的請求型別](manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md)
-      * 建立請求{#create-requests}
+         * [定義專案的請求類型](manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md)
+      * 建立請求 {#create-requests}
          * [建立請求](manage-work/requests/create-requests/create-requests.md)
          * [建立及提交請求](manage-work/requests/create-requests/create-submit-requests.md)
-         * [從草稿建立請求](manage-work/requests/create-requests/create-requests-from-drafts.md)
-         * [讓使用者透過電子郵件將問題傳送到請求佇列專案](manage-work/requests/create-requests/enable-email-issues-into-projects.md)
-         * [找出已提交的請求](manage-work/requests/create-requests/locate-submitted-requests.md)
-         * [分享請求佇列的連結](manage-work/requests/create-requests/share-link-to-request-queue.md)
-         * [刪除請求草稿](manage-work/requests/create-requests/delete-request-draft.md)
-         * [複製並提交請求](manage-work/requests/create-requests/copy-and-submit-requests.md)
-   * 委派工作{#delegate-work}
+         * [建立草稿中的請求](manage-work/requests/create-requests/create-requests-from-drafts.md)
+         * [允許使用者通過電子郵件將問題發送到請求佇列專案](manage-work/requests/create-requests/enable-email-issues-into-projects.md)
+         * [尋找提交的請求](manage-work/requests/create-requests/locate-submitted-requests.md)
+         * [將連結共享至請求佇列](manage-work/requests/create-requests/share-link-to-request-queue.md)
+         * [刪除請求草案](manage-work/requests/create-requests/delete-request-draft.md)
+         * [複製和提交請求](manage-work/requests/create-requests/copy-and-submit-requests.md)
+   * 委派工作 {#delegate-work}
       * [委派工作](manage-work/delegate-work/delegate-work.md)
-      * [委派任務和問題總覽](manage-work/delegate-work/delegate-work-overview.md)
+      * [委派任務和問題概述](manage-work/delegate-work/delegate-work-overview.md)
       * [委派任務和問題](manage-work/delegate-work/how-to-delegate-work.md)
-* 團隊和群組{#teams-groups}
-   * [團隊和群組](people-teams-and-groups/people-teams-and-groups.md)
-   * 建立及管理團隊{#create-manage-teams}
-      * [建立及管理團隊](people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md)
+* 團隊和小組 {#teams-groups}
+   * [團隊和小組](people-teams-and-groups/people-teams-and-groups.md)
+   * 建立和管理團隊 {#create-manage-teams}
+      * [建立和管理團隊](people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md)
       * [團隊概觀](people-teams-and-groups/create-and-manage-teams/teams-overview.md)
       * [建立團隊](people-teams-and-groups/create-and-manage-teams/create-a-team.md)
       * [建立及管理敏捷團隊](people-teams-and-groups/create-and-manage-teams/create-and-manage-agile-teams.md)
@@ -1466,65 +1466,65 @@ ht-degree: 2%
       * [設定任務的「完成」按鈕](people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)
       * [設定問題的完成按鈕](people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
       * [將處理它按鈕取代為開始按鈕](people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)
-   * 直接與其他人合作{#work-with-others}
+   * 直接與他人合作 {#work-with-others}
       * [直接與他人合作](people-teams-and-groups/work-directly-with-others/work-directly-with-others.md)
       * [傳送直接訊息給其他使用者](people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md)
       * [檢視組織圖](people-teams-and-groups/work-directly-with-others/view-the-org-chart.md)
-   * 使用群組及團隊{#work-with-groups-teams}
+   * 使用群組及團隊 {#work-with-groups-teams}
       * [使用群組及團隊](people-teams-and-groups/work-with-groups-and-teams/work-with-groups-and-teams.md)
       * [Adobe Workfront中的群組與團隊](people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md)
-   * 處理團隊請求{#work-with-team-requests}
+   * 處理團隊請求 {#work-with-team-requests}
       * [處理團隊請求](people-teams-and-groups/work-with-team-requests/work-with-team-requests.md)
       * [團隊請求概觀](people-teams-and-groups/work-with-team-requests/team-requests-overview.md)
       * [管理工作和團隊請求](people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md)
-   * 團隊和群組的秘訣、技巧和疑難排解{#tips-tricks-people-teams-groups}
+   * 團隊和群組的秘訣、技巧和疑難排解 {#tips-tricks-people-teams-groups}
       * [團隊和群組的秘訣、技巧和疑難排解](people-teams-and-groups/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-grps.md)
       * [使用者名稱已經有人使用](people-teams-and-groups/tips-tricks-and-troubleshooting/username-already-in-use.md)
 * 報告 {#reporting}
    * [報表和控制面板：文章索引](reports-and-dashboards/reports-and-dashboards-overview.md)
-   * 畫布控制面板{#canvas-dashboards}
+   * 畫布儀表板 {#canvas-dashboards}
       * [畫布儀表板](reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
-      * 管理畫布儀表板{#manage-canvas-dashboards}
+      * 管理畫布控制面板 {#manage-canvas-dashboards}
          * [管理畫布控制面板](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
          * [開始使用畫布儀表板](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)
          * [在畫布控制面板中新增、移除或排列報表](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)
          * [共用畫布控制面板](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
-      * 畫布儀表板報告型別{#report-types}
+      * 畫布控制面板報表型別 {#report-types}
          * [畫布控制面板報表型別概觀](reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
          * [新增現有報表至畫布控制面板](reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
-   * 報表 {#reports}
+   * 報告 {#reports}
       * [報告](reports-and-dashboards/reports/reports-overview.md)
-      * 報告基本資訊{#report-basics}
-         * [報表基本需知](reports-and-dashboards/reports/reporting/reporting-basics.md)
+      * 報表基本需知 {#report-basics}
+         * [報表基本概念：文章索引](reports-and-dashboards/reports/reporting/reporting-basics.md)
          * [開始使用報告](reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
          * [將預設報表另存為新報表](reports-and-dashboards/reports/reporting/save-default-reports-new-reports.md)
-      * 報表元素{#report-elements}
+      * 報表元素 {#report-elements}
          * [報表元素概觀](reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md)
          * [報表元素：篩選器、檢視和群組](reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
-         * [篩選器概觀](reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+         * [篩選條件概觀](reports-and-dashboards/reports/reporting-elements/filters-overview.md)
          * [在Adobe Workfront中建立或編輯篩選器](reports-and-dashboards/reports/reporting-elements/create-filters.md)
-         * [篩選和條件修飾元](reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)
+         * [篩選和條件修飾符](reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)
          * [Adobe Workfront中的檢視概觀](reports-and-dashboards/reports/reporting-elements/views-overview.md)
          * [在Adobe Workfront中建立或編輯檢視](reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
          * [在檢視中使用條件式格式](reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)
          * [Adobe Workfront中的群組概觀](reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
-         * [在Adobe Workfront中建立群組](reports-and-dashboards/reports/reporting-elements/create-groupings.md)
-         * [編輯現有群組](reports-and-dashboards/reports/reporting-elements/edit-existing-groupings.md)
+         * [建立 Workfront 中的Adobe Systems分組](reports-and-dashboards/reports/reporting-elements/create-groupings.md)
+         * [編輯現有分組](reports-and-dashboards/reports/reporting-elements/edit-existing-groupings.md)
          * [萬用字元篩選器變數概觀](reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
          * [使用日期型萬用字元來一般化報表](reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md)
          * [使用以使用者為基礎的萬用字元來歸納報表](reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md)
          * [共用篩選、檢視或分組](reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
          * [移除篩選器、視圖和分組](reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)
-         * [使用里程碑檢視](reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)
+         * [使用里程碑視圖](reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)
          * [修改欄寬和順序](reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)
-      * 使用內建報告{#built-in-reports}
-         * [使用內建報告](reports-and-dashboards/reports/using-built-in-reports/use-built-in-reports.md)
+      * 使用內建報表 {#built-in-reports}
+         * [使用內建報表](reports-and-dashboards/reports/using-built-in-reports/use-built-in-reports.md)
          * [檢視中的內建狀態圖示](reports-and-dashboards/reports/using-built-in-reports/built-in-status-icons-views.md)
-         * [使用Adobe Workfront內建報告](reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
-         * [資源使用率報表概要](reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)
-      * 建立及管理報告{#create-manage-reports}
-         * [建立及管理報表](reports-and-dashboards/reports/creating-and-managing-reports/create-manage-reports.md)
-         * [建立報告](reports-and-dashboards/reports/creating-and-managing-reports/create-report.md)
+         * [使用 Adobe Systems Workfront 內置報表](reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
+         * [“資源利用率”報告概述](reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)
+      * 建立與管理報表 {#create-manage-reports}
+         * [建立與管理報表](reports-and-dashboards/reports/creating-and-managing-reports/create-manage-reports.md)
+         * [建立報表](reports-and-dashboards/reports/creating-and-managing-reports/create-report.md)
          * [建立自訂報表](reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)
          * [執行報告](reports-and-dashboards/reports/creating-and-managing-reports/run-report.md)
          * [建立矩陣報告](reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)
@@ -1544,21 +1544,21 @@ ht-degree: 2%
          * [變更報告的所有者](reports-and-dashboards/reports/creating-and-managing-reports/change-owner-report.md)
          * [使用「日誌專案」報表報告「更新」區域的報表](reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)
          * [建立使用者委派報告](reports-and-dashboards/reports/creating-and-managing-reports/create-user-delegation-report.md)
-      * 報表{#calculated-custom-data}中計算的自訂資料
+      * 報表中計算的自訂資料 {#calculated-custom-data}
          * [報表中計算的自訂資料](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
          * [計算資料運算式的概觀](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)
          * [計算自訂欄位與計算欄的比較](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md)
-         * [計算自訂運算式中的條件運運算元](reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md)
-         * [「IF」陳述式概述](reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md)
-         * [計算自訂欄位範例：在問題自訂表單上顯示問題建立者的管理員](reports-and-dashboards/reports/calc-cstm-data-reports/custom-field-manager-issue-creator-on-issue-form.md)
-         * [計算自訂欄位範例：在自訂表單中顯示狀態時間戳記](reports-and-dashboards/reports/calc-cstm-data-reports/example-status-timestamp-in-calculated-field.md)
-         * [計算自訂欄位範例：顯示欄位的編輯歷史記錄](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-field-example-edit-history-of-another-field.md)
-      * 自訂檢視、篩選及分組範例{#custom-view-samples}
-         * [自訂檢視、篩選和分組範例：文章索引](reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
-         * [報表或清單：顯示與物件相關聯的使用者](reports-and-dashboards/reports/custom-view-filter-grouping-samples/display-object-users-in-report.md)
-         * [篩選器：顯示不完整的跨專案前置任務](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-predecessors.md)
-         * [篩選器：個人任務](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md)
-         * [篩選器：顯示不完整的跨專案後置任務](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-successors.md)
+         * [計算的自定義表示式中的條件運算元](reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md)
+         * [“IF”語句概述](reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md)
+         * [計算自定義欄位示例：在問題自定義表單上顯示問題創建者的經理](reports-and-dashboards/reports/calc-cstm-data-reports/custom-field-manager-issue-creator-on-issue-form.md)
+         * [計算自定義欄位示例：在自訂表單中顯示狀態時間戳](reports-and-dashboards/reports/calc-cstm-data-reports/example-status-timestamp-in-calculated-field.md)
+         * [計算自定義欄位範例：顯示欄位的編輯歷史記錄](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-field-example-edit-history-of-another-field.md)
+      * 自定義檢視、篩選和分組示例 {#custom-view-samples}
+         * [自定義視圖、篩選和分組示例：文章索引](reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+         * [報表或清單：顯示與對象關聯的使用者](reports-and-dashboards/reports/custom-view-filter-grouping-samples/display-object-users-in-report.md)
+         * [篩選：顯示不完整的跨專案前置任務](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-predecessors.md)
+         * [篩選：個人任務](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md)
+         * [篩選：顯示不完整的跨專案後續專案](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-successors.md)
          * [篩選：顯示您目前的擱置核准專案](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-current-projects-pending-approval.md)
          * [篩選：僅顯示處於核准狀態的專案](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-for-items-in-approval-status.md)
          * [篩選器：比較兩個欄位來排除清單中的專案](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-items-by-comparing-two-fields.md)
@@ -1587,17 +1587,17 @@ ht-degree: 2%
          * [報告：合併的任務和問題檢視和分組](reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-combined-task-issue-view-grouping.md)
          * [檢視：將父系任務的名稱顯示為全部大寫](reports-and-dashboards/reports/custom-view-filter-grouping-samples/column-show-name-parent-tasks-all-caps.md)
          * [檢視：在任務檢視的相同欄中，計畫時數內的實際時數](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-actual-hours-planned-hours-task-view.md)
-         * [檢視：指派使用者的公司和主群組](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-assigned-users-company-home-group.md)
-         * [檢視：任務檢視中「工期」與「計畫工時」的比較基準差異](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-baseline-variance-duration-planned-work-task-view.md)
+         * [檢視：分配用戶的公司和家庭組](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-assigned-users-company-home-group.md)
+         * [檢視：任務檢視中工期和計劃工時的基準變數](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-baseline-variance-duration-planned-work-task-view.md)
          * [檢視：在時程表檢視中計算加班成本](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculate-overtime-cost-timesheet-view.md)
          * [檢視：計算時間和日期差異](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculate-time-and-date-differences.md)
          * [檢視：顯示欄中兩個欄位之間的計算結果](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculation-between-two-fields.md)
-         * [檢視：在欄中新增任務後續任務清單](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-column-list-successors.md)
-         * [檢視與分組：顯示依分組中平均值彙總的專案實際期間](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-column-project-average-actual-duration-aggregated-grouping.md)
-         * [檢視：在時數清單中合併任務和問題的詳細資訊](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-combined-task-issue-details-hour-list.md)
-         * [檢視：在欄中顯示影像而非字串](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-image-in-view.md)
-         * [檢視：顯示未包含在標準介面中的物件](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-objects-not-in-standard-interface.md)
-         * [檢視：在任務或專案清單上顯示原始問題資訊](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)
+         * [檢視：在列中添加任務後續清單](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-column-list-successors.md)
+         * [檢視和分組：顯示項目實際工期 按分組中的平均值聚合](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-column-project-average-actual-duration-aggregated-grouping.md)
+         * [檢視：在一小時內結合任務和問題詳細信息清單](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-combined-task-issue-details-hour-list.md)
+         * [檢視：在列中顯示圖像而不是字串](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-image-in-view.md)
+         * [檢視：顯示標準介面中未包含的物件](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-objects-not-in-standard-interface.md)
+         * [檢視：在任務或專案列表中顯示原始問題信息](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)
          * [檢視：在任務檢視中顯示計畫和Portfolio資訊](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-program-portfolio-info-task-view.md)
          * [檢視：在任務清單中顯示任務縮排](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-task-identations.md)
          * [檢視：透過縮排任務來顯示任務中的父子關係](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-parent-child-relationship-by-indenting-tasks-with-custom-view.md)
@@ -1618,8 +1618,8 @@ ht-degree: 2%
          * [檢視：具有工作角色的專案使用者清單](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-user-list.md)
          * [檢視：移除欄中物件的連結](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-remove-link-to-object.md)
          * [檢視：報表中使用的報表元素](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-reporting-elements-used-reports.md)
-         * [檢視：任務或專案報告中的可解析物件](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resolvable-objects-task-project-report.md)
-         * [檢視：最多顯示4層深的父系任務](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-show-parent-tasks-4-levels.md)
+         * [檢視：任務或項目報告中的可解析物件](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resolvable-objects-task-project-report.md)
+         * [檢視：顯示父任務，深度達 4 個級別](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-show-parent-tasks-4-levels.md)
          * [檢視：問題的提交路徑](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-submission-path-issues.md)
          * [檢視：具有所有日期差異的任務](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-task-all-dates-variance.md)
          * [檢視：受排程例外影響的任務](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-tasks-impacted-schedule-exceptions.md)
@@ -1627,28 +1627,28 @@ ht-degree: 2%
          * [檢視：使用者工作角色的FTE可用性百分比](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-user-job-role-percentage-fte-availability.md)
          * [檢視：使用者個人休假](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-user-personal-time-off.md)
          * [依多選自訂欄位繪製報表圖表](reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md)
-      * 文字模式資源{#text-mode}
+      * 文字模式資源 {#text-mode}
          * [文字模式資源：文章索引](reports-and-dashboards/reports/text-mode/text-mode-resources.md)
-         * [文字模式概觀](reports-and-dashboards/reports/text-mode/understand-text-mode.md)
-         * [文字模式的常見用途概觀](reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)
+         * [文本模式概述](reports-and-dashboards/reports/text-mode/understand-text-mode.md)
+         * [文本模式的常見用法概述](reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)
          * [文字模式語法概觀](reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
          * [使用文字模式編輯檢視](reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
          * [使用文字模式編輯篩選器](reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
          * [使用文字模式編輯群組](reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
          * [在文字模式中使用條件式格式](reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md)
-         * [文字模式報表中的日期格式](reports-and-dashboards/reports/text-mode/format-dates-in-text-mode-reports.md)
-         * [格式化文字模式報表中的數字、貨幣和百分比值](reports-and-dashboards/reports/text-mode/format-numbers-in-text-mode-reports.md)
-         * [比較條件式格式的欄位](reports-and-dashboards/reports/text-mode/compare-fields-conditional-formatting.md)
+         * [在文字模式報表中設置日期格式](reports-and-dashboards/reports/text-mode/format-dates-in-text-mode-reports.md)
+         * [在文字模式報表中設定數位、貨幣和百分比值的格式](reports-and-dashboards/reports/text-mode/format-numbers-in-text-mode-reports.md)
+         * [比較條件式格式中的欄位](reports-and-dashboards/reports/text-mode/compare-fields-conditional-formatting.md)
          * [報表中的參考集合](reports-and-dashboards/reports/text-mode/reference-collections-report.md)
-         * [在文字模式篩選器中建立「OR」陳述式](reports-and-dashboards/reports/text-mode/create-or-statements-in-filters-text-mode.md)
-         * [使用EXISTS陳述式建立複雜的文字模式篩選器](reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md)
-      * 報告使用情況總覽{#report-usage-overview}
-         * [報表使用情況概觀](reports-and-dashboards/reports/report-usage/report-usage-overview.md)
-         * [存取及組織報告](reports-and-dashboards/reports/report-usage/access-organize-reports.md)
-         * [建立報告活動的報告](reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md)
+         * [建立文本模式中的“OR”語句篩選器](reports-and-dashboards/reports/text-mode/create-or-statements-in-filters-text-mode.md)
+         * [使用 EXISTS 語句建立複雜的文本模式篩選器](reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md)
+      * 報表使用狀況概觀 {#report-usage-overview}
+         * [報表使用狀況概觀](reports-and-dashboards/reports/report-usage/report-usage-overview.md)
+         * [存取和組織報表](reports-and-dashboards/reports/report-usage/access-organize-reports.md)
+         * [建立關於報告活動的報告](reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md)
          * [瞭解如何在控制面板上組織報表](reports-and-dashboards/reports/report-usage/understand-how-organize-reports-dashboard.md)
          * [檢視報表使用情形](reports-and-dashboards/reports/report-usage/view-report-usage.md)
-      * 行事曆{#calendars}
+      * 行事曆 {#calendars}
          * [行事曆：文章索引](reports-and-dashboards/reports/calendars/calendars.md)
          * [行事曆報表總覽](reports-and-dashboards/reports/calendars/calendar-reports-overview.md)
          * [在行事曆報告中使用自訂日期欄位](reports-and-dashboards/reports/calendars/use-custom-dates.md)
@@ -1660,20 +1660,20 @@ ht-degree: 2%
          * [刪除行事曆報告](reports-and-dashboards/reports/calendars/delete-a-calendar-report.md)
          * [複製行事曆報告](reports-and-dashboards/reports/calendars/copy-a-calendar-report.md)
          * [將臨時事件新增至行事曆報表](reports-and-dashboards/reports/calendars/add-ad-hoc-events.md)
-      * 報告{#troubleshooting-tips-tricks-reports}的秘訣、技巧和疑難排解
+      * 報告的提示、技巧和疑難排解 {#troubleshooting-tips-tricks-reports}
          * [報告的提示、技巧和疑難排解](reports-and-dashboards/reports/tips-tricks-and-troubleshooting/tips-troubleshooting-reports.md)
          * [報表常見問題集](reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)
          * [行事曆上的錯誤訊息：「此行事曆擁有已停用使用者的檢視許可權。」](reports-and-dashboards/reports/tips-tricks-and-troubleshooting/error-message-calendar.md)
          * [執行報告時的錯誤訊息：「您目前未登入。」](reports-and-dashboards/reports/tips-tricks-and-troubleshooting/error-running-report.md)
          * [內嵌編輯日期班次行事曆顯示在方塊外](reports-and-dashboards/reports/tips-tricks-and-troubleshooting/date-edits-shift-calendar.md)
          * [來自共用欄的資料不會顯示在儀表板報表中](reports-and-dashboards/reports/tips-tricks-and-troubleshooting/shared-columns-not-displayed-in-report-dashboard.md)
-   * 儀表板{#dashboards}
+   * 儀表板 {#dashboards}
       * [儀表板](reports-and-dashboards/dashboards/dashboards-overview.md)
-      * 瞭解儀表板{#understand-dashboards}
+      * 瞭解儀表板 {#understand-dashboards}
          * [瞭解儀表板](reports-and-dashboards/dashboards/understanding-dashboards/understand-dashboards.md)
          * [開始使用儀表板](reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md)
          * [瞭解報表在儀表板上的顯示方式](reports-and-dashboards/dashboards/understanding-dashboards/understand-how-reports-display-dashboard.md)
-      * 建立和管理儀表板{#create-dashboards}
+      * 建立和管理報告面板 {#create-dashboards}
          * [建立和管理報告面板](reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md)
          * [建立儀表板](reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)
          * [新增報告至儀表板](reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md)
@@ -1687,10 +1687,10 @@ ht-degree: 2%
          * [共用儀表板](reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
          * [從儀表板移除外部頁面](reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)
          * [Canvas儀表板概觀](reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
-   * 增強型分析{#enhanced-analytics}
+   * 增強型分析 {#enhanced-analytics}
       * [增強型分析](enhanced-analytics/enhanced-analytics.md)
-      * [增強型分析概述](enhanced-analytics/enhanced-analytics-overview.md)
-      * [在增強型分析中套用篩選器](enhanced-analytics/use-enhanced-analytics-filters.md)
+      * [增強分析概覽](enhanced-analytics/enhanced-analytics-overview.md)
+      * [增強分析套用篩選器](enhanced-analytics/use-enhanced-analytics-filters.md)
       * [瞭解增強型分析KPI](enhanced-analytics/understand-enhanced-analytics-kpis.md)
       * [在Enhanced Analytics中檢視小眾測試版計畫視覺效果](enhanced-analytics/flight-plan-overview.md)
       * [在增強型分析中檢視待執行工作視覺效果](enhanced-analytics/burndown-overview.md)
@@ -1698,22 +1698,22 @@ ht-degree: 2%
       * [在增強型分析中檢視專案活動視覺效果](enhanced-analytics/project-activity-overview.md)
       * [在增強型分析中檢視專案樹狀圖視覺效果](enhanced-analytics/project-treemap-overview.md)
       * [在Enhanced Analytics中檢視依團隊的活動視覺效果](enhanced-analytics/activity-by-team-overview.md)
-   * Workfront資料連線{#data-lake}
+   * Workfront Data Connect {#data-lake}
       * [Workfront Data Connect概觀](reports-and-dashboards/data-lake/data-lake-overview.md)
       * [建立Snowflake的讀取器帳戶或連線](reports-and-dashboards/data-lake/create-a-reader-account.md)
       * [建立與Workfront資料連線的連線](reports-and-dashboards/data-lake/share-data-externally.md)
-      * [Workfront Data Connect資料字典](reports-and-dashboards/data-lake/data-dictionary.md)
-      * [資料字典測試](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary-test.md)
-      * [Workfront Data Connect查詢範例](reports-and-dashboards/data-lake/basic-query-examples.md)
-      * [檢視Workfront Data Connect使用度量](reports-and-dashboards/data-lake/view-usage-metrics.md)
+      * [Workfront Data Connect Data Dictionary](reports-and-dashboards/data-lake/data-dictionary.md)
+      * [數據字典測試](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary-test.md)
+      * [工作面数据連接查詢示例](reports-and-dashboards/data-lake/basic-query-examples.md)
+      * [檢視 Workfront Data Connect 使用量度](reports-and-dashboards/data-lake/view-usage-metrics.md)
       * 增強的Analytics查詢{#enhanced-analytics-queries}
-         * [增強的Analytics查詢](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/enhanced-analytics-queries.md)
+         * [增強Analytics查詢](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/enhanced-analytics-queries.md)
          * [KPI查詢](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/kpi-queries.md)
-         * [小眾測試版計畫查詢](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/flight-plan-queries.md)
+         * [飛行計劃查詢](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/flight-plan-queries.md)
          * [專案活動查詢](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-activity-queries.md)
          * [專案樹狀圖查詢](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md)
          * [依團隊查詢的活動](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/team-queries.md)
-      * 資料連線的秘訣、技巧和疑難排解{#troubleshooting-data-connect}
+      * Data Connect的秘訣、技巧和疑難排解{#troubleshooting-data-connect}
          * [Data Connect的秘訣、技巧和疑難排解](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/tips-tricks-troubleshooting-data-connect.md)
          * [Tableau案頭無法建立連線](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/cannot-load-data.md)
          * [Power BI工具無法使用提供的密碼連線](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/cannot-connect-with-provided-password.md)
@@ -1722,9 +1722,9 @@ ht-degree: 2%
    * 資源管理 {#resource-management}
       * [資源管理](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
       * [開始使用資源管理](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
-   * Adobe Workfront {#resource-planning-in-adobe-workfront}中的資源規劃
+   * Adobe Workfront中的資源規劃 {#resource-planning-in-adobe-workfront}
       * [資源規劃：文章索引](resource-mgmt/resource-planning/resource-planning-overview.md)
-      * 資源集區{#resource-pools}
+      * 資源集區 {#resource-pools}
          * [資源集區](resource-mgmt/resource-planning/resource-pools/resource-pools.md)
          * [資源集區概觀](resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
          * [建立資源集區](resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)
@@ -1738,26 +1738,26 @@ ht-degree: 2%
       * [資源規劃工具導覽概觀](resource-mgmt/resource-planning/resource-planner-navigation.md)
       * [使用Adobe Workfront資源規劃工具檢閱資源可用性和配置](resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md)
       * [資源規劃工具之專案與角色檢視中的時數、約當全職人數及成本資訊概要](resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)
-      * [使用專案和角色檢視的資源規劃工具中的預算資源](resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)
-      * [在資源規劃工具中調整預算日期](resource-mgmt/resource-planning/adjust-budgeting-dates.md)
-      * [使用使用者檢視時檢視資源規劃工具中的可用、計畫和實際時數或FTE](resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md)
+      * [使用「專案」和「角色」視圖的資源規劃器中的預算資源](resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)
+      * [在資源規劃器中調整預算日期](resource-mgmt/resource-planning/adjust-budgeting-dates.md)
+      * [使用使用者視圖時，檢視資源規劃器中的可用、計劃工時和實際工時或 FTE](resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md)
       * [計算資源規劃工具中使用者和角色的時數和FTE的概觀](resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md)
       * [在資源規劃工具中計算成本](resource-mgmt/resource-planning/calculate-costs-resource-planner.md)
       * [排定資源規劃工具中專案的優先順序](resource-mgmt/resource-planning/prioritize-projects-resource-planner.md)
       * [使用連結共用資源規劃工具使用者檢視](resource-mgmt/resource-planning/share-resource-planner-with-link.md)
       * [在資源規劃工具中篩選資訊](resource-mgmt/resource-planning/filter-resource-planner.md)
-      * [從資源規劃工具匯出資訊](resource-mgmt/resource-planning/export-resource-planner.md)
-      * [資源規劃工具預算時數報告](resource-mgmt/resource-planning/report-on-budgeted-hours.md)
-      * [資源規劃工具顯示限制](resource-mgmt/resource-planning/resource-planner-display-limitations.md)
-   * 資源使用率{#resource-utilization}
-      * [資源使用率](resource-mgmt/resource-utilization/resource-utilization.md)
+      * [從資源規劃器導出資訊](resource-mgmt/resource-planning/export-resource-planner.md)
+      * [資源規劃器預算工時報告](resource-mgmt/resource-planning/report-on-budgeted-hours.md)
+      * [資源規劃器的顯示限制](resource-mgmt/resource-planning/resource-planner-display-limitations.md)
+   * 資源利用率 {#resource-utilization}
+      * [資源利用率](resource-mgmt/resource-utilization/resource-utilization.md)
       * [檢視資源使用情況資訊](resource-mgmt/resource-utilization/view-utilization-information.md)
-   * 工作負載平衡器{#the-workload-balancer}
+   * 工作負載平衡器 {#the-workload-balancer}
       * [工作負載平衡器：文章索引](resource-mgmt/workload-balancer/workload-balancer.md)
       * [工作負載平衡器概觀](resource-mgmt/workload-balancer/overview-workload-balancer.md)
       * [管理工作負載平衡工具中的資源所需的存取權](resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md)
       * [找到工作負載平衡器](resource-mgmt/workload-balancer/locate-workload-balancer.md)
-      * [在工作負載平衡器中指派工作的總覽](resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
+      * [在負載均衡器中分配工作概述](resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
       * [在工作負載平衡器中取消指派工作](resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md)
       * [在工作負載平衡器中篩選資訊](resource-mgmt/workload-balancer/filter-information-workload-balancer.md)
       * [使用工作負載平衡器大量指派工作](resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md)
@@ -1765,50 +1765,50 @@ ht-degree: 2%
       * [使用工作負載平衡器手動指派工作](resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md)
       * [在工作負載平衡器中管理使用者配置](resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
       * [瀏覽工作負載平衡器](resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
-      * [使用連結共用工作負載平衡器](resource-mgmt/workload-balancer/share-link-for-workload-balancer.md)
+      * [與連結共享負載均衡器](resource-mgmt/workload-balancer/share-link-for-workload-balancer.md)
       * [使用摘要更新工作負載平衡器中的工作項](resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
-* 檢閱與核准工作 {#review-and-approve-work}
-   * [檢閱和核准工作](review-and-approve-work/review-and-approve-work.md)
-   * [Alpha方案 — 檔案核准](review-and-approve-work/Documents/doc-approvals-alpha.md)
-   * [非付費使用者的有限檔案和校訂決定概覽](review-and-approve-work/proof-doc-decision-limits.md)
-   * 工作核准{#work-approvals}
+* 審查和批准工作 {#review-and-approve-work}
+   * [審查和批准工作](review-and-approve-work/review-and-approve-work.md)
+   * [Alpha 計劃 – 檔批准](review-and-approve-work/Documents/doc-approvals-alpha.md)
+   * [針對非付費使用者的有限文件與證明決定概述](review-and-approve-work/proof-doc-decision-limits.md)
+   * 工作批准 {#work-approvals}
       * [工作核准](review-and-approve-work/manage-approvals/manage-approvals.md)
       * [核准流程總覽](review-and-approve-work/manage-approvals/approval-process-in-workfront.md)
       * [請求文件核准](review-and-approve-work/manage-approvals/request-document-approvals.md)
       * [核准工作](review-and-approve-work/manage-approvals/approving-work.md)
-      * [檢視核准](review-and-approve-work/manage-approvals/view-approvals.md)
-      * [提醒核准者已提交的核准](review-and-approve-work/manage-approvals/remind-approvers-submitted-approvals.md)
-      * [將其他核准者新增至已提交的檔案核准](review-and-approve-work/manage-approvals/add-approver-submitted-doc-approvals.md)
-      * [檢視提交的校訂核准](review-and-approve-work/manage-approvals/viewsubmitted-proof-approvals.md)
+      * [檢視批准](review-and-approve-work/manage-approvals/view-approvals.md)
+      * [提醒審批者已提交的批准](review-and-approve-work/manage-approvals/remind-approvers-submitted-approvals.md)
+      * [新增其他核准者至已提交的檔核准](review-and-approve-work/manage-approvals/add-approver-submitted-doc-approvals.md)
+      * [檢視提交的證明批准](review-and-approve-work/manage-approvals/viewsubmitted-proof-approvals.md)
       * [委派核准請求](review-and-approve-work/manage-approvals/delegate-approval-requests.md)
       * [將新的或現有的核准流程與工作建立關聯](review-and-approve-work/manage-approvals/associate-approval-with-work.md)
       * [撤回已提交的核准](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
-   * 資產和檔案檢閱與核准{#document-reviews-and-approvals}
+   * 資產和檔案檢閱與核准 {#document-reviews-and-approvals}
       * [資產和檔案檢閱和核准：文章索引](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
       * [資產和檔案檢閱及核准的可用功能](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
-      * [新檔案核准總覽](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
+      * [統一核准總覽](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
       * [檔案決定狀態概觀](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
-      * 設定及管理資產和檔案核准{#manage-asset-review-and-approval}
+      * 設定及管理資產和檔案核准 {#manage-asset-review-and-approval}
          * [設定及管理資產和檔案核准：文章索引](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
          * [建立檔案稽核或核准請求](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
          * [將其他檢閱者或核准者新增至資產或檔案](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
          * [從資產或檔案中移除核准者或稽核者](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
          * [建立資產和檔案的核准範本](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
-         * [一起使用新檔案核准和校樣](review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
+         * [一起使用統一核准和校訂](review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
          * [上傳新檔案版本並請求核准](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)
          * [建立報表控制面板以供檢閱和核准](review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)
-      * 檢閱及核准資產和檔案{#review-and-approve-documents}
+      * 檢閱和核准資產和檔案 {#review-and-approve-documents}
          * [檢閱和核准檔案：文章索引](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
-         * [檢閱檔案](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
-         * [核准檔案](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
-   * 校訂{#proofing}
+         * [檢閱檔](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
+         * [批准檔](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
+   * 校訂 {#proofing}
       * [校訂：文章索引](review-and-approve-work/proofing/proofing.md)
-      * 校訂總覽{#proofing-overview}
+      * 校訂概觀 {#proofing-overview}
          * [校訂概觀：文章索引](review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
          * [校訂許可權設定檔概述](review-and-approve-work/proofing/proofing-overview/permission-profiles.md)
          * [校訂角色總覽](review-and-approve-work/proofing/proofing-overview/proof-roles.md)
          * [自動化工作流程總覽](review-and-approve-work/proofing/proofing-overview/automated-workflow.md)
-         * [自動化工作流程階段概觀](review-and-approve-work/proofing/proofing-overview/stages.md)
+         * [自動化工作流程階段概述](review-and-approve-work/proofing/proofing-overview/stages.md)
          * [校訂評論和決定總覽的通知](review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md)
          * [互動式內容校訂概觀](review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md)
          * [校訂概覽的檔案重新處理](review-and-approve-work/proofing/proofing-overview/document-reprocessing-for-proofing.md)
@@ -1816,7 +1816,7 @@ ht-degree: 2%
          * [校訂安全性總覽](review-and-approve-work/proofing/proofing-overview/proof-security-overview.md)
          * [校訂進度和狀態概觀](review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md)
          * [網頁校訂檢視器與案頭校訂檢視器之間的差異概述](review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)
-      * 建立校訂{#create-proofs}
+      * 建立校樣 {#create-proofs}
          * [建立校訂：文章索引](review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)
          * [設定個人校訂預設值](review-and-approve-work/proofing/creating-proofs-within-workfront/set-proof-defaults.md)
          * [建立多頁校訂](review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md)
@@ -1825,64 +1825,64 @@ ht-degree: 2%
          * [為網站或其他網頁內容建立靜態校樣](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md)
          * [為檔案建立校訂](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md)
          * [使用基本工作流程建立進階校訂](review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
-         * [使用自動化工作流程建立進階校訂](review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
-      * 在Adobe Workfront {#manage-proofs-in-workfront}中管理校訂
-         * [在Adobe Workfront中管理校訂：文章索引](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md)
-         * 管理校樣{#manage-proofs}
-            * [管理校訂：文章索引](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs/manage-proofs.md)
-            * [編輯校訂設定](review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md)
+         * [透過「自動化工作流程建立進階證明](review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
+      * 在 Adobe Systems Workfront 中管理校樣 {#manage-proofs-in-workfront}
+         * [在 Adobe Systems Workfront 中管理校樣：文章索引](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md)
+         * 管理校樣 {#manage-proofs}
+            * [管理校樣：文章索引](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs/manage-proofs.md)
+            * [編輯證明設定](review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md)
             * [在Adobe Workfront中列印校訂摘要](review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md)
-            * [刪除校訂](review-and-approve-work/proofing/managing-proofs-within-workfront/remove-archiveg-proof.md)
+            * [刪除證明](review-and-approve-work/proofing/managing-proofs-within-workfront/remove-archiveg-proof.md)
             * [還原已封存的校訂](review-and-approve-work/proofing/managing-proofs-within-workfront/restore-archived-proof.md)
             * [在Adobe Workfront中檢視校訂上的活動](review-and-approve-work/proofing/managing-proofs-within-workfront/view-activity-on-proof-in-wf.md)
             * [使用校訂核准報告](review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md)
             * [從Adobe Workfront存取Workfront Proof](review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)
-         * 管理校訂版本{#manage-proof-versions}
+         * 管理校訂版本 {#manage-proof-versions}
             * [管理校訂版本：文章索引](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/manage-proof-versions.md)
             * [建立新版本的校訂](review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md)
             * [檢視校訂版本](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-proof-versions.md)
-            * [檢視和管理校訂版本詳細資料](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-version-details.md)
+            * [檢視與管理證明版本詳細数据](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-version-details.md)
             * [下載校訂版本](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/download-versions.md)
-         * 管理校訂檢閱者{#manage-proof-reviewers}
+         * 管理校訂檢閱者 {#manage-proof-reviewers}
             * [管理校訂檢閱者：文章索引](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-reviewers/manage-proof-reviewers.md)
             * [設定校訂的存取權和訂閱設定](review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
             * [在Adobe Workfront中共用校訂](review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
             * [傳送電子郵件訊息給校訂上的檢閱者](review-and-approve-work/proofing/managing-proofs-within-workfront/send-email-messages-to-users-proof.md)
-         * 管理校訂通知{#manage-proof-notifications}
+         * 管理校訂通知 {#manage-proof-notifications}
             * [管理校訂通知：文章索引](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-notifications/manage-proof-notifications.md)
             * [管理校訂評論和決定的通知](review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md)
-         * 管理校訂截止日期{#manage-proof-deadlines}
+         * 管理校訂截止日期 {#manage-proof-deadlines}
             * [管理校訂截止日期：文章索引](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/manage-proof-deadlines.md)
             * [設定現有基本校訂的截止日期](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/set-deadline-basic-proof.md)
             * [新增、編輯或刪除階段的截止日期](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/add-edit-delete-deadline.md)
             * [設定個別檢閱者截止日期](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/set-individual-deadlines.md)
             * [移除個別稽核者截止日期](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/remove-individual-deadlines.md)
-         * 管理自動化校樣{#manage-automated-proofs}
-            * [管理自動化校訂：文章索引](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-automated-proofs/manage-automated-proofs.md)
-            * [在校訂上檢視自動化工作流程階段](review-and-approve-work/proofing/managing-proofs-within-workfront/view-aw-stages-proof.md)
-            * [檢視校訂上的使用中階段](review-and-approve-work/proofing/managing-proofs-within-workfront/view-active-stages-proof.md)
-            * [建立或編輯現有校訂的自動化工作流程](review-and-approve-work/proofing/managing-proofs-within-workfront/create-edit-automated-workflow-existing-proof.md)
-            * [編輯校訂階段和檢閱者](review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-stages-and-reviewers.md)
-            * [將基本工作流程轉換為校訂上的自動化工作流程](review-and-approve-work/proofing/managing-proofs-within-workfront/convert-basic-automatic-workflow.md)
-            * [將階段和使用者新增到校訂上的自動化工作流程](review-and-approve-work/proofing/managing-proofs-within-workfront/add-stages-users-to-automated-workflow-proof.md)
-      * 使用案頭校訂檢視器{#use-the-desktop-proofing-viewer}
-         * [使用案頭校訂檢視器：文章索引](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/use-desktop-proofing-viewer.md)
-         * [安裝案頭校訂檢視器](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)
-         * [更新案頭校訂檢視器](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md)
-         * [在案頭校訂檢視器中開啟校訂](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/open-proofs-in-dpv.md)
-         * [在案頭校訂檢視器中檢閱非互動式內容](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/review-non-interactive-content-in-desktop-proofing-viewer.md)
-         * [常見問題集 — 案頭校訂檢視器](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/faq-desktop-proofing-viewer.md)
-      * 在Adobe Workfront {#review-proofs-in-workfront}中檢閱校訂
-         * [在Adobe Workfront中檢閱校訂：文章索引](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)
-         * 檢閱校訂{#review-a-proof}
-            * [檢閱校訂：文章索引](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md)
-            * [在校訂中檢視內容](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-a-proof.md)
-            * [測量校訂內的區域](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/measure-an-area-proof.md)
-            * [變更視訊校訂中時間軸的測量單位](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/change-unit-of-measurement-video.md)
-            * [控制視訊校訂中的播放](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/control-playback-video.md)
-            * [在視訊校訂中啟用回圈](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/enable-loop-video.md)
-            * [鎖定或解除鎖定校訂](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/lock-or-unlock-proof.md)
-            * [搜尋校訂中的內容](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/search-in-a-proof.md)
+         * 管理自動化校樣 {#manage-automated-proofs}
+            * [管理自動校樣：文章索引](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-automated-proofs/manage-automated-proofs.md)
+            * [在證明上檢視自動化工作流程階段](review-and-approve-work/proofing/managing-proofs-within-workfront/view-aw-stages-proof.md)
+            * [檢視證明的作用中階段](review-and-approve-work/proofing/managing-proofs-within-workfront/view-active-stages-proof.md)
+            * [建立或编辑現有證明的自動化工作流程](review-and-approve-work/proofing/managing-proofs-within-workfront/create-edit-automated-workflow-existing-proof.md)
+            * [編輯證明階段和審閱者](review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-stages-and-reviewers.md)
+            * [將基本工作流程轉換為證明上的自動化工作流程](review-and-approve-work/proofing/managing-proofs-within-workfront/convert-basic-automatic-workflow.md)
+            * [將階段和使用者添加到證明上的自動化工作流](review-and-approve-work/proofing/managing-proofs-within-workfront/add-stages-users-to-automated-workflow-proof.md)
+      * 使用桌面校對查看器 {#use-the-desktop-proofing-viewer}
+         * [使用桌面校對查看器：文章索引](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/use-desktop-proofing-viewer.md)
+         * [安裝桌面校對查看器](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)
+         * [更新桌面校對查看器](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md)
+         * [在桌面校對查看器中開啟校樣](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/open-proofs-in-dpv.md)
+         * [在桌面校對查看器中查看非交互式內容](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/review-non-interactive-content-in-desktop-proofing-viewer.md)
+         * [常見問題 - 桌面校對查看器](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/faq-desktop-proofing-viewer.md)
+      * 在 Adobe Systems Workfront 中審閱校樣 {#review-proofs-in-workfront}
+         * [在 Workfront Adobe Systems審閱校樣：文章索引](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)
+         * 檢閱校訂 {#review-a-proof}
+            * [審閱證明：文章索引](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md)
+            * [在證明中檢視內容](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-a-proof.md)
+            * [測量證明內的面積](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/measure-an-area-proof.md)
+            * [變更視訊證明中時間表的測量單位](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/change-unit-of-measurement-video.md)
+            * [控制视訊證明中的播放](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/control-playback-video.md)
+            * [在視訊證明中啟用迴圈](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/enable-loop-video.md)
+            * [鎖定或解除鎖定證明](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/lock-or-unlock-proof.md)
+            * [在證明内Search內容](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/search-in-a-proof.md)
             * [比較校訂](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/compare-proofs.md)
             * [在校訂檢視器中下載校訂](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/download-a-proof-in-viewer.md)
             * [校訂檢視器中的鍵盤快速鍵](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)
@@ -1892,7 +1892,7 @@ ht-degree: 2%
             * [在校訂檢視器中變更互動式校訂解析度](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md)
             * [設定校訂檢視器設定](review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md)
             * [使用Adobe Workfront稽核工具稽核互動式內容](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md)
-         * 註解校訂{#comment-on-a-proof}
+         * 對校訂進行評論 {#comment-on-a-proof}
             * [校訂上的註解：文章索引](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)
             * [對校訂進行評論](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof-1.md)
             * [檢視並回覆校訂評論](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md)
@@ -1902,12 +1902,12 @@ ht-degree: 2%
             * [刪除校訂評論](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/delete-proof-comment.md)
             * [對校訂評論使用動作](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md)
             * [標籤要共用校訂的使用者](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md)
-         * 對校訂{#make-decision-on-proof}做出決定
+         * 對校訂做出決定 {#make-decision-on-proof}
             * [對校訂做出決定：文章索引](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decision-on-proof.md)
             * [核准校訂](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/approve-proof.md)
             * [在校訂檢視器中對校訂做出決定](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)
             * [變更校訂上的現有決定](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/change-existing-decision.md)
-      * Adobe Workfront {#ttt-proofing-in-workfront}校訂的提示、技巧和疑難排解
+      * Adobe Workfront校訂的秘訣、技巧和疑難排解 {#ttt-proofing-in-workfront}
          * [Adobe Workfront校訂的秘訣、技巧和疑難排解：文章索引](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-proofing.md)
          * [在Adobe Workfront中列出具有校訂授權的使用者](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/report-which-users-have-proofing-license-in-wf.md)
          * [大量編輯校訂許可權設定檔欄位](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/edit-proof-profile-bulk.md)
@@ -1915,19 +1915,19 @@ ht-degree: 2%
          * [常見問題集：Adobe Workfront內的校訂 — 美國移轉至EMEA](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/faq-proofing-in-wf-us-to-emea-migration.md)
          * [上傳後檔名稱已變更，且包含無效字元](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
          * [校訂PowerPoint搭配內嵌視訊](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)
-   * 核准的秘訣、技巧和疑難排解{#ttt-approvals}
+   * 核准的秘訣、技巧和疑難排解 {#ttt-approvals}
       * [核准的秘訣、技巧和疑難排解：文章索引](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
       * [檢視所有使用者的校訂和檔案決策數量](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
-* 時程表{#timesheets}
+* 時程表 {#timesheets}
    * [時程表：文章索引](timesheets/timesheets-all.md)
-   * 時程表詳細資料{#details}
+   * 時程表詳細資訊 {#details}
       * [時程表詳細資訊：文章索引](timesheets/timesheets/timesheets.md)
       * [時程表總覽](timesheets/timesheets/timesheets-overview.md)
       * [時程表配置總覽](timesheets/timesheets/timesheet-layout.md)
-   * 建立及管理時程表{#create-and-manage-timesheets-in-adobe-workfront}
+   * 建立和管理時程表 {#create-and-manage-timesheets-in-adobe-workfront}
       * [建立和管理時程表：文章索引](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
       * [建立、編輯和指派時程表設定檔](timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)
-      * [定義小時型別和可用性](timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
+      * [定義工時類型和可用性](timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
       * [建立單次使用時程表](timesheets/create-and-manage-timesheets/create-tmshts.md)
       * [編輯時程表資訊](timesheets/create-and-manage-timesheets/edit-timesheets.md)
       * [記錄時間](timesheets/create-and-manage-timesheets/log-time.md)
@@ -1939,19 +1939,19 @@ ht-degree: 2%
       * [刪除Adobe Workfront中的時間表](timesheets/create-and-manage-timesheets/delete-timesheets.md)
       * [手動產生時間表](timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)
       * [匯出時程表清單](timesheets/create-and-manage-timesheets/export-timesheets.md)
-   * 設定時間的記錄方式{#configure-timesheet-preferences}
-      * [設定時間的記錄方式：文章索引](timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
+   * 配置如何記錄時間 {#configure-timesheet-preferences}
+      * [配置時間記錄方式：文章索引](timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
       * [設定以小時或天記錄時間](timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)
-   * 時程表{#tips-tricks-troubleshooting-for-timesheets}的秘訣、技巧和疑難排解
+   * 時程表的提示、技巧和疑難排解 {#tips-tricks-troubleshooting-for-timesheets}
       * [秘訣、技巧和疑難排解：文章索引](timesheets/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-timesheets.md)
       * [修正時程表的工作週開始日期](timesheets/tips-tricks-and-troubleshooting/correct-start-day-of-work-week.md)
       * [避免重新計算財務動作在費率變更時影響歷史時數](timesheets/tips-tricks-and-troubleshooting/prevent-recalculate-finance-action.md)
       * [使用Adobe Workfront API追蹤小時記錄](timesheets/tips-tricks-and-troubleshooting/track-hour-records-with-wfapi.md)
       * [無法記錄未來日期的時間](timesheets/tips-tricks-and-troubleshooting/unable-to-log-time-future-dates.md)
-* Adobe Workfront情境規劃工具{#scenario-planner}
+* Adobe Workfront情境規劃工具 {#scenario-planner}
    * [Adobe Workfront情境規劃工具](scenario-planner/scenario-planning.md)
-   * [開始使用案例規劃工具](scenario-planner/get-started-with-scenario-planning.md)
-   * [情境規劃工具概觀](scenario-planner/scenario-planner-overview.md)
+   * [藍本規劃器入門](scenario-planner/get-started-with-scenario-planning.md)
+   * [藍本規劃器概觀](scenario-planner/scenario-planner-overview.md)
    * [使用「情境規劃工具」所需的存取權](scenario-planner/access-needed-to-use-sp.md)
    * [在「情境規劃工具」中複製方案](scenario-planner/copy-initiatives.md)
    * [在「案例規劃工具」中建立並比較計畫案例](scenario-planner/create-and-compare-scenarios-for-a-plan.md)
@@ -1970,10 +1970,10 @@ ht-degree: 2%
    * [在「情境規劃工具」中共用計畫](scenario-planner/share-a-plan.md)
    * [顯示任務清單中專案和方案的角色分配](scenario-planner/show-role-allocation-task-list-nwe.md)
    * [在工作負載平衡器顯示專案和方案的角色分配](scenario-planner/show-role-allocation-workload-balancer.md)
-* Adobe Workfront目標{#adobe-workfront-goals}
+* Adobe Workfront目標 {#adobe-workfront-goals}
    * [Adobe Workfront目標：文章索引](workfront-goals/workfront-goals.md)
    * [Adobe Workfront目標總覽](workfront-goals/goal-management/wf-goals-overview.md)
-   * Adobe Workfront目標{#goal-management}中的目標管理
+   * Adobe Workfront目標中的目標管理 {#goal-management}
       * [Adobe Workfront目標中的目標管理：文章索引](workfront-goals/goal-management/goal-management.md)
       * [開始使用Adobe Workfront Goals](workfront-goals/goal-management/getting-started-with-wf-goals.md)
       * [在Adobe Workfront目標中存取和開啟目標](workfront-goals/goal-management/access-goals-in-wf-goals.md)
@@ -1990,44 +1990,44 @@ ht-degree: 2%
       * [在Adobe Workfront目標中管理目標註解](workfront-goals/goal-management/manage-goal-comments.md)
       * [更新「Adobe Workfront目標」中「目標詳細資料」區段中的目標](workfront-goals/goal-management/update-goals-in-goal-details-panel.md)
       * [在Adobe Workfront目標中檢閱發生問題的目標](workfront-goals/goal-management/view-in-trouble-goals.md)
-   * Adobe Workfront目標{#goal-alignment}中的目標校準
+   * Adobe Workfront目標中的目標校準 {#goal-alignment}
       * [Adobe Workfront目標中的目標校準：文章索引](workfront-goals/goal-alignment/goal-alignment.md)
       * [透過在Adobe Workfront目標中連線目標來對齊目標](workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
       * [透過將結果和活動轉換為目標來校準目標](workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
       * [Adobe Workfront目標中的目標對齊方式概觀](workfront-goals/goal-alignment/goal-alignment-overview.md)
       * [導覽Adobe Workfront目標中的「目標校準」區段](workfront-goals/goal-alignment/navigate-goal-alignment-chart.md)
       * [移除Adobe Workfront目標中的目標校準](workfront-goals/goal-alignment/remove-goal-alignment.md)
-   * 目標檢閱和Adobe Workfront目標區段{#goal-review-and-adobe-workfront-goals-sections}
+   * 目標檢閱和Adobe Workfront目標區段 {#goal-review-and-adobe-workfront-goals-sections}
       * [目標檢閱和Adobe Workfront目標區段](workfront-goals/goal-review-and-workfront-goals-sections/goal-review-wf-goals-sections.md)
       * [Adobe Workfront目標區段概觀](workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md)
       * [在Adobe Workfront目標中更新目標進度](workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
       * [管理Adobe Workfront目標之目標清單中的目標](workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md)
       * [檢閱圖表以瞭解Adobe Workfront目標中的目標進度趨勢](workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md)
-   * Adobe Workfront目標{#results-activities-adobe-workfront-goals}中的結果和活動
+   * Adobe Workfront目標中的結果和活動 {#results-activities-adobe-workfront-goals}
       * [Adobe Workfront目標中的結果和活動](workfront-goals/results-and-activities/results-and-activities.md)
       * [將活動新增至Adobe Workfront目標中的目標](workfront-goals/results-and-activities/add-activities-to-goals.md)
       * [在Adobe Workfront目標中新增結果](workfront-goals/results-and-activities/add-results-to-goals.md)
-      * [在Adobe Workfront目標中新增專案](workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)
+      * [將專案添加到 Adobe Systems 工作線目標中的目標](workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)
       * [在Adobe Workfront目標中編輯結果和活動](workfront-goals/results-and-activities/edit-results-and-activities.md)
       * [開始使用Adobe Workfront目標中的結果和活動](workfront-goals/results-and-activities/get-started-with-results-and-activities.md)
-      * [從Adobe Workfront目標中的目標移除進度指示器](workfront-goals/results-and-activities/remove-results-activities-from-goals.md)
-   * Adobe Workfront目標設定{#adobe-workfront-goal-settings}
-      * [Adobe Workfront目標設定](workfront-goals/workfront-goals-settings/wf-goals-settings.md)
-      * [自訂Adobe Workfront目標術語](workfront-goals/workfront-goals-settings/customize-wf-goals-terminology.md)
+      * [從Adobe Systems工作線目標中的目標移除進度指標](workfront-goals/results-and-activities/remove-results-activities-from-goals.md)
+   * Adobe Systems工作陣線目標設定 {#adobe-workfront-goal-settings}
+      * [Adobe Systems工作陣線目標設定](workfront-goals/workfront-goals-settings/wf-goals-settings.md)
+      * [自定義Adobe Systems工作線目標術語](workfront-goals/workfront-goals-settings/customize-wf-goals-terminology.md)
       * [在Workfront目標中共用目標](workfront-goals/workfront-goals-settings/share-a-goal.md)
       * [啟用Adobe Workfront目標通知](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
-* Adobe Workfront規劃{#adobe-workfront-planning}
-   * [Adobe Workfront規劃：文章索引](planning/planning-information.md)
-   * Adobe Workfront規劃一般資訊{#adobe-workfront-planning-general-information}
-      * [Adobe Workfront Planning一般資訊：文章索引](planning/general/planning-general-article-index.md)
-      * [Adobe Workfront規劃概觀](planning/general/planning-overview.md)
+* Adobe Systems工作面規劃 {#adobe-workfront-planning}
+   * [Adobe Systems 工作前台規劃：文章索引](planning/planning-information.md)
+   * Adobe Systems前台規劃一般資訊 {#adobe-workfront-planning-general-information}
+      * [Adobe Systems 工作前台規劃 一般資訊：文章索引](planning/general/planning-general-article-index.md)
+      * [Adobe Systems前端規劃概述](planning/general/planning-overview.md)
       * [Adobe Workfront規劃最佳作法](planning/general/planning-best-practices.md)
       * [Adobe Workfront Planning API基本需知](planning/general/planning-api-basics.md)
       * [Adobe Workfront Planning AI Assistant概觀](planning/general/planning-ai-assistant-overview.md)
       * [2024年Adobe Workfront計畫發行活動](planning/general/release-activity.md)
       * [2023年Adobe Workfront計畫發行活動](planning/general/release-activity-archives-2023.md)
       * [Adobe Workfront Planning物件限制總覽](planning/general/limitations-overview.md)
-   * Adobe Workfront規劃架構{#adobe-workfront-planning-architecture}
+   * Adobe Workfront規劃架構 {#adobe-workfront-planning-architecture}
       * [架構：文章索引](planning/architecture/architecture-information.md)
       * [工作區概觀](planning/architecture/workspaces-overview.md)
       * [建立工作區](planning/architecture/create-workspaces.md)
@@ -2042,35 +2042,35 @@ ht-degree: 2%
       * [刪除記錄型別](planning/architecture/delete-record-types.md)
       * [連線記錄型別和記錄的範例](planning/architecture/example-connect-record-types-and-records.md)
       * [工作區範本清單](planning/architecture/workspace-templates.md)
-   * Adobe Workfront規劃欄位{#adobe-workfront-planning-fields}
+   * Adobe Workfront規劃欄位 {#adobe-workfront-planning-fields}
       * [欄位：文章索引](planning/fields/fields-information.md)
       * [欄位概觀](planning/fields/fields-overview.md)
       * [建立欄位](planning/fields/create-fields.md)
       * [編輯欄位設定](planning/fields/edit-fields.md)
       * [刪除欄位](planning/fields/delete-fields.md)
       * [公式欄位概觀](planning/fields/formula-fields.md)
-      * [從Adobe Workfront匯入欄位](planning/fields/import-fields-from-workfront.md)
+      * [從 Workfront Adobe Systems匯入字段](planning/fields/import-fields-from-workfront.md)
       * [主要欄位概述](planning/fields/primary-field-overview.md)
-   * Adobe Workfront計畫存取權{#adobe-workfront-planning-access}
-      * [Adobe Workfront Planning存取資訊：文章索引](planning/access/access-information.md)
-      * [Adobe Workfront Planning存取權概觀](planning/access/access-overview.md)
-      * [在Adobe Workfront Planning中共用許可權的概觀](planning/access/sharing-permissions-overview.md)
-      * [使用Adobe Workfront Planning時的授權型別概觀](planning/access/license-type-overview.md)
+   * Adobe Systems工作前台規劃訪問許可權 {#adobe-workfront-planning-access}
+      * [Adobe Systems工作前台規劃訪問資訊：文章索引](planning/access/access-information.md)
+      * [Adobe Systems工作前台規劃訪問概述](planning/access/access-overview.md)
+      * [Adobe Systems前台規劃中的共用許可權概述](planning/access/sharing-permissions-overview.md)
+      * [使用Adobe Systems前規劃時的許可證類型概述](planning/access/license-type-overview.md)
       * [共用工作區](planning/access/share-workspaces.md)
-      * [共用記錄型別](planning/access/share-record-types.md)
+      * [共用記錄類型](planning/access/share-record-types.md)
       * [共用檢視](planning/access/share-views.md)
       * [要求檢視或工作區的許可權](planning/access/request-permissions.md)
-   * Adobe Workfront Planning記錄{#adobe-workfront-planning-records}
+   * Adobe Systems工作前台計劃記錄 {#adobe-workfront-planning-records}
       * [記錄：文章索引](planning/records/records-information.md)
       * [建立記錄](planning/records/create-records.md)
-      * [從CSV或Excel檔案匯入資訊，以建立記錄](planning/records/import-file-to-create-records.md)
-      * [連線記錄概觀](planning/records/connected-records-overview.md)
+      * [透過從 CSV 或 Excel 檔案匯入資訊來建立記錄](planning/records/import-file-to-create-records.md)
+      * [連接的記錄概述](planning/records/connected-records-overview.md)
       * [連接記錄](planning/records/connect-records.md)
       * [編輯記錄](planning/records/edit-records.md)
       * [刪除記錄](planning/records/delete-records.md)
       * [還原已刪除的記錄](planning/records/restore-deleted-records.md)
-      * [共用記錄](planning/records/share-records.md)
-      * [複製記錄](planning/records/copy-or-duplicate-records.md)
+      * [共享記錄](planning/records/share-records.md)
+      * [重複記錄](planning/records/copy-or-duplicate-records.md)
       * [管理記錄註解](planning/records/manage-record-comments.md)
       * [歷史記錄區段總覽](planning/records/history-section-overview.md)
       * [新增縮圖至記錄](planning/records/add-thumbnails-to-records.md)
@@ -2080,44 +2080,44 @@ ht-degree: 2%
       * [匯出記錄的詳細資料](planning/records/export-the-record-page.md)
       * [當您將Workfront物件連線至記錄時，從Workfront Planning建立它們](planning/records/create-workfront-objects-from-workfront-planning.md)
       * [使用Workfront Planning記錄自動化建立物件](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
-   * Adobe Workfront規劃要求{#adobe-workfront-planning-requests}
+   * Adobe Workfront規劃請求 {#adobe-workfront-planning-requests}
       * [Adobe Workfront規劃請求：文章索引](planning/requests/requests-article-index.md)
       * [在Adobe Workfront Planning中建立和管理請求表單](planning/requests/create-request-form.md)
       * [提交Adobe Workfront Planning請求以建立記錄](planning/requests/submit-requests.md)
       * [在Adobe Workfront Planning中取消發佈請求表單](planning/requests/unpublish-request-form.md)
       * [在Adobe Workfront Planning中新增核准至請求表單](planning/requests/add-approval-to-request-form.md)
       * [在Adobe Workfront Planning中核准請求](planning/requests/approve-request.md)
-   * Adobe Workfront Planning檢視{#adobe-workfront-planning-views}
+   * Adobe Workfront Planning檢視 {#adobe-workfront-planning-views}
       * [檢視：文章索引](planning/views/views-information.md)
       * [管理記錄檢視](planning/views/manage-record-views.md)
       * [管理表格檢視](planning/views/manage-the-table-view.md)
       * [管理時間表檢視](planning/views/manage-the-timeline-view.md)
       * [管理行事曆檢視](planning/views/manage-the-calendar-view.md)
-   * Adobe Workfront規劃通知{#adobe-workfront-planning-notifications}
-      * [Adobe Workfront規劃通知：文章索引](planning/notifications/notifications-information.md)
-      * [管理Adobe Workfront Planning通知偏好設定](planning/notifications/manage-notification-preferences.md)
-      * [管理Adobe Workfront Planning電子郵件通知](planning/notifications/manage-planning-email-notifications.md)
-      * [管理Adobe Workfront Planning應用程式內通知](planning/notifications/manage-planning-in-app-notifications.md)
-* Adobe Workfront整合{#adobe-workfront-integrations}
-   * [Adobe Workfront整合](workfront-integrations-and-apps/workfront-integrations.md)
-   * [Adobe Workfront內建整合概述](workfront-integrations-and-apps/built-in-integrations-non-admin.md)
-   * [Adobe Workfront整合方法](workfront-integrations-and-apps/built-in-vs-api-vs-fusion.md)
-   * 適用於Creative Cloud {#workfront-for-creative-cloud}的Adobe Workfront
-      * [適用於Creative Cloud的Adobe Workfront](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)
-      * 安裝適用於Creative Cloud應用程式的Adobe Workfront外掛程式{#install-wf-cc}
-         * [安裝適用於Creative Cloud應用程式的Adobe Workfront](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
-         * [安裝並開啟適用於Photoshop的Adobe Workfront](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
-         * [安裝並開啟適用於XD的Adobe Workfront](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
+   * Adobe Systems前台規劃通知 {#adobe-workfront-planning-notifications}
+      * [Adobe Systems 工作面規劃通知： 文章索引](planning/notifications/notifications-information.md)
+      * [管理 Adobe Systems Workfront 規劃 通知 偏好設定](planning/notifications/manage-notification-preferences.md)
+      * [管理Adobe Systems Workfront Planning 電子郵件通知](planning/notifications/manage-planning-email-notifications.md)
+      * [管理 Adobe Systems Workfront 規劃應用程式內通知](planning/notifications/manage-planning-in-app-notifications.md)
+* Adobe Systems Workfront 整合 {#adobe-workfront-integrations}
+   * [Adobe Systems Workfront 整合](workfront-integrations-and-apps/workfront-integrations.md)
+   * [Adobe Systems Workfront 內建整合概述](workfront-integrations-and-apps/built-in-integrations-non-admin.md)
+   * [Adobe Systems 工作臺集成方法](workfront-integrations-and-apps/built-in-vs-api-vs-fusion.md)
+   * Adobe Systems 適用於Creative Cloud的工作台 {#workfront-for-creative-cloud}
+      * [Adobe Systems 適用於Creative Cloud的工作台](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)
+      * 安裝適用於 Creative Cloud 應用程式的 Adobe Systems Workfront 外掛程式 {#install-wf-cc}
+         * [為 Creative Cloud 應用程式安裝 Adobe Systems Workfront](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
+         * [安裝並打開 Adobe Systems Workfront for Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
+         * [安裝並打開 Adobe Systems Workfront for XD](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
          * [安裝並開啟 [!DNL Adobe Workfront for design and video]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
-      * 使用適用於Creative Cloud應用程式的Adobe Workfront外掛程式來管理工作{#manage-wf-cc}
+      * 使用適用於Creative Cloud應用程式的Adobe Workfront外掛程式管理工作 {#manage-wf-cc}
          * [使用適用於Creative Cloud應用程式的Adobe Workfront外掛程式管理工作](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)
          * [使用Adobe Workfront外掛程式尋找您的工作](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-find-work.md)
          * [使用Adobe Workfront外掛程式檢視工作專案資訊](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-view-work-info.md)
-         * [使用Adobe Workfront外掛程式更新您的工作](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
-         * [使用Adobe Workfront外掛程式將工作專案標示為完成](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
+         * [使用 Adobe Systems Workfront 外掛程式更新您的工作](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
+         * [使用Adobe Systems工作面板外掛程式標記工作項完成](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
          * [使用Adobe Workfront外掛程式記錄時間](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
          * [管理來自Adobe Creative Cloud的 [!DNL Adobe Workfront] 通知](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
-      * 使用適用於Creative Cloud應用程式的Adobe Workfront外掛程式上傳檔案和校樣{#upload-docs-proofs-wf-cc}
+      * 使用適用於Creative Cloud應用程式的Adobe Workfront外掛程式上傳檔案和校樣 {#upload-docs-proofs-wf-cc}
          * [將檔案和校訂從 [!DNL Adobe Workfront plugin] 上傳至 [!DNL Creative Cloud]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [使用適用於Creative Cloud應用程式的Adobe Workfront外掛程式上傳檔案和校樣](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
          * [從Photoshop上傳校樣](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-proofs-ps.md)
@@ -2126,18 +2126,18 @@ ht-degree: 2%
          * [將XD工作區域作為檔案上傳到Workfront](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
          * [從InDesign上傳校樣](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-id.md)
          * [從InDesign上傳檔案](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-docs-id.md)
-         * [從 [!DNL Illustrator]上傳校樣](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-ai.md)
-         * [從 [!DNL Illustrator]上傳檔案](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-ai-docs.md)
-      * 適用於Illustrator和InDesign {#workfront-for-illustrator-indesign}的Workfront擴充功能
+         * [上傳校樣來源 [!DNL Illustrator]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-ai.md)
+         * [上傳檔來源 [!DNL Illustrator]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-ai-docs.md)
+      * 適用於 Illustrator 和 InDesign 的 Workfront 擴充功能 {#workfront-for-illustrator-indesign}
          * [使用適用於Illustrator和InDesign的Workfront擴充功能](documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md)
-   * Jira {#workfront-for-jira}的Adobe Workfront
+   * Jira 的 Adobe Systems 工作檯面 {#workfront-for-jira}
       * [適用於Jira的Adobe Workfront](workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md)
       * [安裝適用於Jira的Adobe Workfront](workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md)
       * [設定Jira適用的Adobe Workfront](workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md)
       * [Adobe Workfront和Jira之間的連結專案](workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md)
       * [更新Jira和Adobe Workfront之間的連結專案](workfront-integrations-and-apps/use-workfront-with-jira/update-linked-items-between-jira-wf.md)
       * [檢視Jira活動記錄](workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md)
-   * 適用於Google Workspace {#workfront-for-g-suite}的Adobe Workfront
+   * 適用於Google Workspace的Adobe Workfront {#workfront-for-g-suite}
       * [適用於Google Workspace的Adobe Workfront](workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md)
       * [安裝適用於Google Workspace的Adobe Workfront](workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)
       * [適用於Google Workspace的Workfront中的隱私權與許可權](workfront-integrations-and-apps/workfront-for-g-suite/privacy-and-permissions-in-g-suite.md)
@@ -2163,35 +2163,35 @@ ht-degree: 2%
       * [從Outlook電子郵件建立Adobe Workfront請求](workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md)
       * [將Outlook電子郵件新增為工作清單](workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-as-task-to-your-work-list.md)
       * [檢視適用於Outlook的Adobe Workfront的其他相關資訊並登出](workfront-integrations-and-apps/using-workfront-with-outlook/view-additional-infor-wf-outlook-and-log-out.md)
-      * [啟用Outlook for Office以搭配Adobe Workfront和SAML 2.0使用](workfront-integrations-and-apps/using-workfront-with-outlook/enable-outlook-for-office-for-use-with-wf-and-saml-2.md)
+      * [啟用 Outlook for Office 以搭配 Adobe Systems Workfront 和 SAML 2.0 使用](workfront-integrations-and-apps/using-workfront-with-outlook/enable-outlook-for-office-for-use-with-wf-and-saml-2.md)
       * [疑難排解：使用Workfront for Outlook時發生outlookIdentityToken錯誤](workfront-integrations-and-apps/using-workfront-with-outlook/troubleshooting-outlookidentitytoken-error.md)
-   * 適用於Microsoft Teams {#workfront-for-microsoft-teams}的Adobe Workfront
+   * 適用於Microsoft Teams的Adobe Workfront {#workfront-for-microsoft-teams}
       * [[!DNL Adobe Workfront for Microsoft Teams]：文章索引](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md)
       * [Microsoft Teams的Adobe Workfront概觀](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/workfront-for-microsoft-teams.md)
       * [安裝適用於Microsoft Teams的Adobe Workfront](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)
       * [從Microsoft Teams存取Adobe Workfront](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/access-workfront-from-ms-teams.md)
-      * [在Microsoft Teams中搜尋和共用Adobe Workfront專案](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md)
-      * [從Microsoft Teams建立Adobe Workfront工作](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md)
-      * [從Microsoft Teams提交Adobe Workfront請求](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/submit-workfront-requests-from-ms-teams.md)
-      * [在Microsoft Teams中管理Adobe Workfront通知](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md)
-   * 適用於Salesforce {#workfront-for-salesforce}的Adobe Workfront
+      * [在 Microsoft Teams 中Search和共用Adobe Systems Workfront 項](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md)
+      * [建立 Microsoft Teams 的Adobe Systems工作線任務](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md)
+      * [提交來自 Microsoft Teams 的 Adobe Systems Workfront 請求](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/submit-workfront-requests-from-ms-teams.md)
+      * [在 Microsoft Teams 中管理 Adobe Systems Workfront 通知](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md)
+   * Adobe Systems Salesforce 的工作前沿 {#workfront-for-salesforce}
       * [適用於Salesforce的Adobe Workfront](workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce.md)
       * [適用於Salesforce的Adobe Workfront概觀](workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce-overview.md)
       * [安裝適用於Salesforce的Adobe Workfront](workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md)
       * [為Salesforce使用者設定Adobe Workfront區段](workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md)
-      * [從Salesforce物件提交Adobe Workfront請求](workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md)
+      * [從 Salesforce 物件提交 Adobe Systems Workfront 請求](workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md)
       * [從Salesforce物件建立Adobe Workfront專案](workfront-integrations-and-apps/using-workfront-with-salesforce/create-wf-projects-from-salesforce-objects.md)
-   * 適用於Slack {#workfront-for-slack}的Adobe Workfront
-      * [適用於Slack的Adobe Workfront](workfront-integrations-and-apps/using-workfront-with-slack/use-workfront-for-slack.md)
-      * [設定適用於Slack的Adobe Workfront](workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)
+   * Adobe Systems Slack 的 Workfront {#workfront-for-slack}
+      * [Adobe Systems Slack 的 Workfront](workfront-integrations-and-apps/using-workfront-with-slack/use-workfront-for-slack.md)
+      * [為 Slack 配置 Adobe Systems Workfront](workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)
       * [從Slack存取您的最愛和最近專案](workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md)
-      * [從Slack管理您的工作和核准](workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md)
-      * [從Slack建立任務和問題](workfront-integrations-and-apps/using-workfront-with-slack/create-tasks-and-issues-from-slack.md)
-      * [從Slack搜尋Adobe Workfront專案](workfront-integrations-and-apps/using-workfront-with-slack/search-for-wf-items-from-slack.md)
-      * [從Slack中的共用連結存取Adobe Workfront物件](workfront-integrations-and-apps/using-workfront-with-slack/access-wf-objects-from-shared-linked-in-slack.md)
-      * [從Slack存取Adobe Workfront](workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)
-      * [發佈Slack評論作為更新](workfront-integrations-and-apps/using-workfront-with-slack/post-a-slack-comment-as-an-update.md)
-      * [在Slack中接收Adobe Workfront通知](workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md)
+      * [從 Slack 管理你的工作和審批](workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md)
+      * [建立 Slack 中的任務和問題](workfront-integrations-and-apps/using-workfront-with-slack/create-tasks-and-issues-from-slack.md)
+      * [Search Slack 的 Adobe Systems Workfront 專案](workfront-integrations-and-apps/using-workfront-with-slack/search-for-wf-items-from-slack.md)
+      * [從 Slack 中的共享連結訪問Adobe Systems Workfront 物件](workfront-integrations-and-apps/using-workfront-with-slack/access-wf-objects-from-shared-linked-in-slack.md)
+      * [從 Slack 存取 Adobe Systems Workfront](workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)
+      * [Post Slack 評論作為更新](workfront-integrations-and-apps/using-workfront-with-slack/post-a-slack-comment-as-an-update.md)
+      * [在 Slack 中接收 Adobe Systems Workfront 通知](workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md)
    * Adobe Workfront與Anaplan {#workfront-with-anaplan}
       * [Adobe Workfront與Anaplan](workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration.md)
       * [Adobe Workfront與Anaplan整合常見問題集](workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration-faq.md)
@@ -2206,65 +2206,65 @@ ht-degree: 2%
    * [Workfront Proof：文章索引](workfront-proof/workfront-proof.md)
    * 開始使用Workfront Proof {#get-started-wf-proof}
       * [Workfront Proof快速入門](workfront-proof/wp-getstarted/getting-started-with-workfront-proof.md)
-      * 工作流程範例{#workflow-examples}
+      * 工作流程範例 {#workflow-examples}
          * [工作流程範例](workfront-proof/wp-getstarted/workflow-examples/workflow-examples.md)
          * [Workfront Proof中的基本校訂程式](workfront-proof/wp-getstarted/workflow-examples/basic-proof-process.md)
          * [Workfront Proof中的內部檢閱，然後外部檢閱](workfront-proof/wp-getstarted/workflow-examples/internal-external-review.md)
          * [與Workfront Proof中的設計人員和專案經理合作](workfront-proof/wp-getstarted/workflow-examples/work-designers-project-managers.md)
          * [與Workfront Proof中的自由譯者合作](workfront-proof/wp-getstarted/workflow-examples/work-freelancers.md)
-      * Workfront Proof {#personal-settings-in-wf-proof}中的個人設定
+      * Workfront Proof中的個人設定 {#personal-settings-in-wf-proof}
          * [Workfront Proof中的個人設定](workfront-proof/wp-getstarted/personal-settings/personal-settings.md)
          * [在Workfront Proof中指定臨時校訂所有者](workfront-proof/wp-getstarted/personal-settings/designate-temp-proof-owners.md)
          * [整合 — 使用者設定](workfront-proof/wp-getstarted/personal-settings/integrations-user-setup.md)
-      * Workfront Proof {#system-info-wf-proof}中的系統資訊
+      * Workfront Proof中的系統資訊 {#system-info-wf-proof}
          * [Workfront Proof中的系統資訊](workfront-proof/wp-getstarted/system-information/system-information.md)
          * [預覽Sandbox測試環境 — Workfront Proof](workfront-proof/wp-getstarted/system-information/preview-sandbox.md)
          * [Workfront Proof中的語言設定](workfront-proof/wp-getstarted/system-information/language-settings.md)
          * [Workfront Proof中的轉碼器](workfront-proof/wp-getstarted/system-information/codecs.md)
-      * Workfront Proof常見問題集{#wf-proof-faq}
+      * Workfront Proof常見問題集 {#wf-proof-faq}
          * [Workfront Proof — 常見問題集](workfront-proof/wp-getstarted/faqs/faqs.md)
-         * [常見問題集 — 建立和共用校樣和檔案](workfront-proof/wp-getstarted/faqs/faq-create-share-proofs-files.md)
-         * [常見問題集 — 檢閱校樣](workfront-proof/wp-getstarted/faqs/faq-review-proofs.md)
+         * [常見問題 - 建立及共用校樣和檔案](workfront-proof/wp-getstarted/faqs/faq-create-share-proofs-files.md)
+         * [常見問題 - 查看校樣](workfront-proof/wp-getstarted/faqs/faq-review-proofs.md)
          * [常見問題集 — Workfront Proof帳戶](workfront-proof/wp-getstarted/faqs/faq-wp-account.md)
          * [登入並變更Workfront Proof的密碼和電子郵件](workfront-proof/wp-getstarted/faqs/log-in-change-password.md)
          * [在Workfront Proof中設定時區](workfront-proof/wp-getstarted/faqs/set-timezones-in-wp.md)
-   * 在Workfront Proof {#work-with-proofs-in-wf-proof}中使用校訂和檔案
+   * 在Workfront Proof中使用校訂和檔案 {#work-with-proofs-in-wf-proof}
       * [在Workfront Proof中使用校訂和檔案](workfront-proof/wp-work-proofsfiles/wp-work-proofs-files.md)
-      * Workfront Proof {#automated-workflow-in-wf-proof}中的自動化工作流程
+      * Workfront Proof中的自動化工作流程 {#automated-workflow-in-wf-proof}
          * [Workfront Proof中的自動化工作流程](workfront-proof/wp-work-proofsfiles/automated-workflow/automated-workflow.md)
          * [在Workfront Proof中使用自動化工作流程設定校訂](workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md)
          * [在Workfront Proof中管理使用自動化工作流程設定的校訂](workfront-proof/wp-work-proofsfiles/automated-workflow/manage-proof-configured-auto-workflow.md)
-      * Workfront Proof {#basic-features-in-wf-proof}的基本功能
+      * Workfront Proof的基本功能 {#basic-features-in-wf-proof}
          * [Workfront Proof的基本功能](workfront-proof/wp-work-proofsfiles/basic-features/basic-features.md)
          * [Workfront Proof中的控制面板](workfront-proof/wp-work-proofsfiles/basic-features/dashboard.md)
          * [Workfront Proof中檢視索引標籤上的頁面配置](workfront-proof/wp-work-proofsfiles/basic-features/page-layout-view.md)
          * [搜尋Workfront Proof](workfront-proof/wp-work-proofsfiles/basic-features/search.md)
          * [瞭解Workfront Proof活動稽核軌跡](workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md)
-      * 建立校訂和檔案{#create-proofs-and-files}
+      * 建立校樣和檔案 {#create-proofs-and-files}
          * [建立校樣和檔案](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/create-proofs-and-files.md)
          * [將檔案和網頁內容上傳至Workfront Proof](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md)
          * [在Workfront Proof中產生校訂](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
          * [在Workfront Proof中複製校訂](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md)
          * [下拉區域](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/dropzone.md)
-      * 管理您的工作{#manage-your-work}
+      * 管理您的工作 {#manage-your-work}
          * [管理您的工作](workfront-proof/wp-work-proofsfiles/manage-your-work/manage-your-work.md)
          * [在Workfront Proof中管理檔案](workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md)
          * [在Workfront Proof中管理檢視頁面上的專案](workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)
          * [在Workfront Proof中管理校訂版本](workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-versions.md)
          * [在Workfront Proof中設定校訂設定](workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)
-         * [在Workfront Proof Proof中建立和管理自訂檢視](workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md)
-         * [下載儲存在Workfront Proof中的檔案](workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md)
+         * [建立和管理「工作面證明」中的自定義檢視](workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md)
+         * [下載儲存在工作台校樣中的檔案](workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md)
          * [在Workfront Proof中管理校訂詳細資訊](workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)
-         * [在Workfront Proof中檢視校訂的進度和狀態](workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md)
+         * [檢視工作面證明中校樣的進度和狀態](workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md)
          * [瞭解Workfront Proof中的校訂狀態](workfront-proof/wp-work-proofsfiles/manage-your-work/proof-state.md)
          * [刪除Workfront Proof中的校訂](workfront-proof/wp-work-proofsfiles/manage-your-work/delete-proof.md)
          * [在Workfront Proof中還原並清空垃圾桶](workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)
          * [在Workfront Proof中執行報表](workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md)
-      * 組織您的工作{#organize-your-work}
+      * 組織您的工作 {#organize-your-work}
          * [組織您的工作](workfront-proof/wp-work-proofsfiles/organize-your-work/organize-your-work.md)
          * [Workfront Proof資料夾](workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md)
          * [在Workfront Proof中建立資料夾](workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md)
-         * [在Workfront Proof中管理資料夾](workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md)
+         * [管理 Workfront Proof 中的資料夾](workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md)
          * [在Workfront Proof中管理資料夾及其內容](workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md)
          * [在Workfront Proof中共用資料夾](workfront-proof/wp-work-proofsfiles/organize-your-work/share-folders.md)
          * [瞭解Workfront Proof中的檔案夾許可權](workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md)
@@ -2272,42 +2272,42 @@ ht-degree: 2%
          * [Workfront Proof中的封存](workfront-proof/wp-work-proofsfiles/organize-your-work/archive.md)
          * [備份您的Workfront Proof資料](workfront-proof/wp-work-proofsfiles/organize-your-work/back-up-data.md)
          * [在Workfront Proof中列印和匯出註解](workfront-proof/wp-work-proofsfiles/organize-your-work/print-and-export-comments.md)
-      * 在案頭校訂檢視器{#review-proofs-in-viewer}中檢閱校訂
+      * 在案頭校訂檢視器中檢閱校訂 {#review-proofs-in-viewer}
          * [在案頭校訂檢視器中檢閱校訂](workfront-proof/wp-work-proofsfiles/review-proofs-dpv/review-proofs-in-desktop-proofing-viewer.md)
          * [瞭解案頭校訂檢視器](workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md)
          * [設定如何在案頭校訂檢視器中開啟超連結](workfront-proof/wp-work-proofsfiles/review-proofs-dpv/configure-how-hyperlinks-open.md)
-      * 在Web校訂檢視器{#review-proofs-web-proofing-viewer}中檢閱校訂
+      * 在網路校訂檢視器中檢閱校訂 {#review-proofs-web-proofing-viewer}
          * [在網路校訂檢視器中檢閱校訂](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proofs-in-wpv.md)
          * [在Workfront Proof中開啟校訂](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/open-proof.md)
          * [在校訂檢視器中檢閱工作流程](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-workflow.md)
          * [與多位檢閱者同時檢閱校訂](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proof-with-multiple-reviewers.md)
          * [在校訂檢視器中檢視校訂上的活動](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/view-activity-on-a-proof.md)
          * [在校訂檢視器中使用多個校訂](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/work-with-multiple-proofs.md)
-         * [在校訂檢視器中比較校訂](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md)
-         * [在網路校訂檢視器中檢視先前的校訂版本](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/view-previous-proof-versions.md)
+         * [在校樣檢視者中比較校樣](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md)
+         * [檢視 Web 校對查看器中的前證明版本](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/view-previous-proof-versions.md)
          * [在校訂檢視器中下載校訂](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/download-proof.md)
          * [Workfront Proof校訂檢視器中的鍵盤快速鍵](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md)
          * [舊版校訂檢視器已移除](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/lpv-removed.md)
-      * 共用校訂和檔案{#share-proofs-and-files}
+      * 共用校訂和檔案 {#share-proofs-and-files}
          * [共用校訂和檔案](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proofs-and-files.md)
          * [在Workfront Proof中共用校訂](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md)
          * [在Workfront Proof中共用校訂連結](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof-links.md)
          * [在Workfront Proof中共用公用URL](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-public-url.md)
          * [在Workfront Proof中共用檔案](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-files.md)
-         * [存取與您共用的校訂](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/access-proofs-shared-with-you.md)
-         * [訂閱Workfront Proof中的校訂](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md)
+         * [存取与您共享的證明](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/access-proofs-shared-with-you.md)
+         * [訂閱工作台校樣中的校樣](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md)
          * [在Workfront Proof中建立Mini校訂](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/create-mini-proof.md)
          * [內嵌Mini校訂](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/embed-mini-proof.md)
          * [在Workfront Proof中管理校訂角色](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)
-   * Workfront Proof帳戶管理{#wf-proof-account-admin}
+   * Workfront Proof帳戶管理 {#wf-proof-account-admin}
       * [Workfront Proof帳戶管理](workfront-proof/wp-acct-admin/wp-account-admin.md)
-      * Workfront Proof {#account-settings-in-wf-proof}中的帳戶設定
-         * [Workfront Proof中的帳戶設定](workfront-proof/wp-acct-admin/account-settings/account-settings.md)
-         * [管理Workfront Proof使用者](workfront-proof/wp-acct-admin/account-settings/manage-wp-users.md)
-         * [在Workfront Proof中設定使用者的校訂許可權設定檔](workfront-proof/wp-acct-admin/account-settings/config-user-pref-in-wp.md)
-         * [在Workfront Proof中設定自訂設定檔](workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md)
-         * [為Workfront Proof使用者設定單一登入](workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
-         * [Workfront Proof中的單一登入：AD FS設定](workfront-proof/wp-acct-admin/account-settings/sso-in-wp-adfs-configuration.md)
+      * Workfront Proof中的帳戶設定 {#account-settings-in-wf-proof}
+         * [Workfront Proof 中的帳戶設定](workfront-proof/wp-acct-admin/account-settings/account-settings.md)
+         * [管理 Workfront Proof 使用者](workfront-proof/wp-acct-admin/account-settings/manage-wp-users.md)
+         * [在 Workfront Testof 中配置用戶的校樣許可權配置文件](workfront-proof/wp-acct-admin/account-settings/config-user-pref-in-wp.md)
+         * [在 Workfront Proof 中設定自訂配置檔](workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md)
+         * [為 Workfront Proof 使用者設定單一登錄](workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
+         * [工作面校樣中的單一登錄：AD FS 配置](workfront-proof/wp-acct-admin/account-settings/sso-in-wp-adfs-configuration.md)
          * [Workfront Proof中的校訂許可權設定檔](workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)
          * [在Workfront Proof中設定核准決定選項](workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md)
          * [在Workfront Proof中建立和管理自訂欄位](workfront-proof/wp-acct-admin/account-settings/create-and-manage-custom-fields.md)
@@ -2322,100 +2322,100 @@ ht-degree: 2%
          * [品牌化Workfront Proof](workfront-proof/wp-acct-admin/branding/branding.md)
          * [為Workfront Proof網站建立品牌](workfront-proof/wp-acct-admin/branding/brand-wp-site.md)
          * [品牌化Workfront Proof網站 — 進階](workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md)
-      * 管理安全性{#manage-security}
+      * 管理安全性 {#manage-security}
          * [管理安全性](workfront-proof/wp-acct-admin/managing-security/manage-security.md)
          * [Workfront Proof中的證明安全性](workfront-proof/wp-acct-admin/managing-security/proof-security-in-workfront-proof.md)
          * [Workfront Proof中的單一登入](workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md)
          * [瞭解Workfront Proof中的電子簽章](workfront-proof/wp-acct-admin/managing-security/electronic-sigs-in-wp.md)
-      * Workfront Proof {#partner-accounts-in-wf-proof}中的合作夥伴帳戶
+      * Workfront Proof中的合作夥伴帳戶 {#partner-accounts-in-wf-proof}
          * [Workfront Proof中的合作夥伴帳戶](workfront-proof/wp-acct-admin/partner-accounts/partner-accounts.md)
          * [管理Workfront Proof帳戶之間的合作夥伴關係](workfront-proof/wp-acct-admin/partner-accounts/manage-partner-relationship-between-wp-accts.md)
          * [與Workfront Proof中的合作夥伴共用專案](workfront-proof/wp-acct-admin/partner-accounts/share-items-partner-in-wp.md)
-      * Workfront Proof {#satellite-accounts-in-wf-proof}中的附屬帳戶
+      * Workfront Proof中的附屬帳戶 {#satellite-accounts-in-wf-proof}
          * [Workfront Proof中的附屬帳戶](workfront-proof/wp-acct-admin/satellite-accounts/satellite-accounts.md)
          * [Workfront Proof中的附屬帳戶](workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md)
          * [在Workfront Proof中設定附屬帳戶](workfront-proof/wp-acct-admin/satellite-accounts/configure-sat-acct-in-wp.md)
          * [在Workfront Proof中管理附屬帳戶](workfront-proof/wp-acct-admin/satellite-accounts/manage-sat-acct-in-wp.md)
-      * Workfront Proof帳戶管理{#ttt-wf-proof-account-admin}的秘訣、技巧和疑難排解
+      * Workfront Proof帳戶管理的秘訣、技巧和疑難排解 {#ttt-wf-proof-account-admin}
          * [Workfront Proof帳戶管理的秘訣、技巧和疑難排解](workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting.md)
          * [常見問題集： Workfront Proof — 美國移轉至EMEA](workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/faq-wp-us-to-emea-mig.md)
-   * Workfront Proof帳單設定{#wf-proof-billing-settings}
+   * Workfront Proof計費設定 {#wf-proof-billing-settings}
       * [Workfront Proof計費設定](workfront-proof/wp-billingsettings/wp-billing-settings.md)
-      * 管理您的帳單{#manage-billing}
+      * 管理您的帳單 {#manage-billing}
          * [管理您的帳單](workfront-proof/wp-billingsettings/manage-your-billing/manage-your-billing.md)
          * [Workfront Proof帳單頁面](workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
          * [在Workfront Proof中選擇付款方法](workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md)
          * [下載您的Workfront Proof發票](workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md)
          * [關閉您的Workfront Proof帳戶](workfront-proof/wp-billingsettings/manage-your-billing/close-wp-acct.md)
-   * 校訂通知和提醒{#proof-notifications-and-reminders}
+   * 校訂通知和提醒 {#proof-notifications-and-reminders}
       * [校訂通知和提醒](workfront-proof/wp-emailsntfctns/wp-emails-and-notifications.md)
-      * 避免垃圾郵件篩選器{#avoid-spam-filters}
+      * 避免垃圾郵件篩選器 {#avoid-spam-filters}
          * [避免垃圾郵件篩選器](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/avoid-spam-filters.md)
          * [設定常見電子郵件使用者端的垃圾郵件設定](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-spam-settings-clients.md)
          * [設定Workfront Proof電子郵件以避免垃圾郵件篩選器](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-wp-emails-avoid-spam-filters.md)
-         * [Workfront Proof SPF記錄](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/wp-spf-records.md)
-      * 傳送訊息給稽核者{#send-messages-to-reviewers}
-         * [傳送訊息給稽核者](workfront-proof/wp-emailsntfctns/messaging-reviewers/send-messages-to-reviewers.md)
-         * [提醒稽核者有關Workfront Proof中的指派](workfront-proof/wp-emailsntfctns/messaging-reviewers/remind-reviewer-assignments-wp.md)
+         * [工作面證明SPF記錄](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/wp-spf-records.md)
+      * 傳送訊息給稽核者 {#send-messages-to-reviewers}
+         * [向審閱者發送消息](workfront-proof/wp-emailsntfctns/messaging-reviewers/send-messages-to-reviewers.md)
+         * [提醒審閱者有關工作面校樣中的工作分配](workfront-proof/wp-emailsntfctns/messaging-reviewers/remind-reviewer-assignments-wp.md)
          * [傳送提醒訊息給校訂上的檢閱者](workfront-proof/wp-emailsntfctns/messaging-reviewers/send-reminder-to-proof-reviewers.md)
-      * 校訂通知和提醒{#proof-notifications-and-reminders}
+      * 校訂通知和提醒 {#proof-notifications-and-reminders}
          * [校訂通知和提醒](workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-notifications-and-reminders.md)
          * [延遲校訂電子郵件](workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/late-proof-email.md)
          * [新校訂電子郵件](workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md)
          * [新版本的電子郵件](workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-version-email.md)
-         * [校樣已製作電子郵件](workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md)
-   * 電子郵件警示{#email-alerts}
+         * [製作證明電子郵件](workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md)
+   * 電子郵件警示 {#email-alerts}
       * [電子郵件警示](workfront-proof/wp-emailsntfctns/email-alerts/email-alerts.md)
       * [在Workfront Proof中設定電子郵件通知設定](workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)
       * [變更Workfront Proof中校訂的電子郵件警報設定](workfront-proof/wp-emailsntfctns/email-alerts/change-email-alert-settings-wp.md)
-   * 在Workfront Proof {#managing-users-in-wf-proof}中管理使用者和連絡人
+   * 在Workfront Proof中管理使用者和聯絡人 {#managing-users-in-wf-proof}
       * [在Workfront Proof中管理使用者和聯絡人](workfront-proof/wp-mnguserscontacts/manage-user-contacts.md)
-      * 使用者{#users}
+      * 使用者 {#users}
          * [使用者](workfront-proof/wp-mnguserscontacts/users/users.md)
          * [使用Workfront Proof建立使用者](workfront-proof/wp-mnguserscontacts/users/create-users.md)
-         * [使用Workfront Proof設定使用者資訊](workfront-proof/wp-mnguserscontacts/users/configure-user-info.md)
-         * [使用Workfront Proof建立和管理自訂設定檔](workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md)
+         * [使用 Workfront Proof 配置用戶資訊](workfront-proof/wp-mnguserscontacts/users/configure-user-info.md)
+         * [使用 Workfront Proof 建立和管理自定義配置檔](workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md)
          * [使用Workfront Proof在帳戶之間移動使用者](workfront-proof/wp-mnguserscontacts/users/move-users-between-accounts.md)
-      * 群組{#groups}
+      * 群組 {#groups}
          * [群組](workfront-proof/wp-mnguserscontacts/groups/groups.md)
          * [將群組新增至校訂](workfront-proof/wp-mnguserscontacts/groups/add-groups.md)
          * [使用Workfront Proof建立校訂群組](workfront-proof/wp-mnguserscontacts/groups/create-proofing-groups.md)
          * [使用Workfront Proof將群組設為私人](workfront-proof/wp-mnguserscontacts/groups/make-groups-private.md)
          * [使用Workfront Proof管理群組](workfront-proof/wp-mnguserscontacts/groups/manage-groups.md)
-      * 連絡人{#contacts}
+      * 連絡人 {#contacts}
          * [連絡人](workfront-proof/wp-mnguserscontacts/contacts/contacts.md)
          * [將訪客新增至Workfront Proof](workfront-proof/wp-mnguserscontacts/contacts/add-guest.md)
          * [在Workfront Proof中管理您的連絡人](workfront-proof/wp-mnguserscontacts/contacts/manage-contacts.md)
          * [瞭解Workfront Proof中的使用者、成員和來賓](workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md)
-      * Workfront Proof使用者和聯絡人的秘訣、技巧和疑難排解{#ttt-wf-proof-users-and-contacts}
+      * Workfront Proof使用者和聯絡人的秘訣、技巧和疑難排解 {#ttt-wf-proof-users-and-contacts}
          * [Workfront Proof使用者和聯絡人的秘訣、技巧和疑難排解](workfront-proof/wp-mnguserscontacts/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wfproof.md)
          * [大量編輯使用者的其他群組](workfront-proof/wp-mnguserscontacts/tips-tricks-and-troubleshooting/bulk-edit-users-other-groups.md)
    * Workfront Proof mobile {#wf-proof-mobile}
       * [Workfront Proof mobile](workfront-proof/wp-mobile/wp-mobile.md)
-      * Workfront Proof行動應用程式{#wf-proof-mobile-apps}
+      * Workfront Proof行動應用程式 {#wf-proof-mobile-apps}
          * [Workfront Proof行動應用程式](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-apps.md)
          * [Workfront Proof行動應用程式](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-phones.md)
          * [適用於平板電腦的Workfront Proof行動應用程式](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-tablet.md)
-      * Workfront Proof行動應用程式{#ttt-wf-proof-mobile-apps}的秘訣、技巧和疑難排解
+      * Workfront Proof行動應用程式的秘訣、技巧和疑難排解 {#ttt-wf-proof-mobile-apps}
          * [Workfront Proof行動應用程式的秘訣、技巧和疑難排解](workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wp-mobile.md)
          * [無法登入Workfront Proof行動應用程式](workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/unable-to-log-in.md)
-   * Workfront Proof技術角{#wf-proof-tech-corner}
+   * Workfront Proof技術園地 {#wf-proof-tech-corner}
       * [Workfront Proof技術園地](workfront-proof/wp-tech-corner/tech-corner.md)
-      * 校訂型別{#proof-types}
+      * 校訂型別 {#proof-types}
          * [校訂型別](workfront-proof/wp-tech-corner/proof-types/proof-types.md)
-         * [使用Workfront Proof建立靜態網站校訂](workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md)
-      * 疑難排解Workfront Proof {#troubleshooting-wf-proof}
-         * [Workfront Proof的疑難排解](workfront-proof/wp-tech-corner/troubleshooting/troubleshooting.md)
+         * [使用 Workfront Proof 建立靜態網站校樣](workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md)
+      * 工作前證明中的故障排除 {#troubleshooting-wf-proof}
+         * [工作前證明中的故障排除](workfront-proof/wp-tech-corner/troubleshooting/troubleshooting.md)
          * [疑難排解 — Mac上校訂檢視器中的介面字型損毀](workfront-proof/wp-tech-corner/troubleshooting/corrupted-interface-font-pv-mac.md)
          * [瞭解快取和Cookie如何影響Workfront Proof](workfront-proof/wp-tech-corner/troubleshooting/how-cache-cookies-affect-pv.md)
          * [Workfront Proof中的速度問題](workfront-proof/wp-tech-corner/troubleshooting/speed-issue.md)
          * [疑難排解 — Workfront Proof校訂檢視器](workfront-proof/wp-tech-corner/troubleshooting/proofing-viewer.md)
-   * Workfront Proof整合{#wf-proof-integrations}
+   * Workfront Proof整合 {#wf-proof-integrations}
       * [Workfront Proof整合](workfront-proof/wp-integrations/wp-integrations.md)
-      * Workfront Proof API {#wf-proof-api}
+      * WORKFRONT PROOF API {#wf-proof-api}
          * [WORKFRONT PROOF API](workfront-proof/wp-integrations/api/wp-api.md)
          * [WORKFRONT PROOF API](workfront-proof/wp-integrations/api/workfront-proof-api.md)
-      * 方塊{#box}
+      * 方塊 {#box}
          * [方塊](workfront-proof/wp-integrations/box/box.md)
          * [Workfront Proof與Box整合簡介](workfront-proof/wp-integrations/box/introduction-to-box.md)
          * [透過您的Box帳戶建立證明](workfront-proof/wp-integrations/box/create-proof-box-account.md)
@@ -2430,23 +2430,23 @@ ht-degree: 2%
       * Basecamp Classic {#basecamp-classic}
          * [Basecamp Classic](workfront-proof/wp-integrations/basecamp-classic/basecamp-classic.md)
          * [將校訂新增到Basecamp Classic專案](workfront-proof/wp-integrations/basecamp-classic/add-proof-basecamp-classic.md)
-         * [將Workfront Proof與Basecamp Classic整合](workfront-proof/wp-integrations/basecamp-classic/integrate-workfront-proof-basecamp-classic.md)
-         * [在Basecamp Classic中檢閱校訂](workfront-proof/wp-integrations/basecamp-classic/review-proof-basecamp-classic.md)
-* Adobe Workfront API {#adobe-workfront-api}
-   * [WORKFRONT API](wf-api/workfront-api.md)
-   * API附註{#api-notes}
-      * [API附註](wf-api/api/api.md)
+         * [將 Workfront Proof 與 Basecamp Classic 整合](workfront-proof/wp-integrations/basecamp-classic/integrate-workfront-proof-basecamp-classic.md)
+         * [回顧Basecamp Classic中的校樣](workfront-proof/wp-integrations/basecamp-classic/review-proof-basecamp-classic.md)
+* ADOBE WORKFRONT API {#adobe-workfront-api}
+   * [工作前線 API](wf-api/workfront-api.md)
+   * API 說明 {#api-notes}
+      * [API 說明](wf-api/api/api.md)
       * [透過API上傳檔案](wf-api/api/uploading-files-api.md)
-      * [終止支援JSONP](wf-api/api/ending-support-jsonp.md)
+      * [終止對 JSONP 的支援](wf-api/api/ending-support-jsonp.md)
       * [取得使用者可用時間](wf-api/api/api-user-available-time.md)
-      * [更新使用預設API版本設定的整合](wf-api/api/update-default-api-versioning.md)
-      * [篩選事件訂閱訊息](wf-api/api/filter-event-sub-messages.md)
+      * [更新使用預設 API 版本設定的整合](wf-api/api/update-default-api-versioning.md)
+      * [篩選事件訂閱消息](wf-api/api/filter-event-sub-messages.md)
       * [事件訂閱資源欄位](wf-api/api/event-sub-resource-fields.md)
-      * [事件訂閱憑證](wf-api/api/event-sub-certs.md)
-      * [在您的整合中指定API版本](wf-api/api/specify-api-version-integrations.md)
-      * [核心API變更：狀態搜尋回應](wf-api/api/api-changes-search.md)
+      * [事件訂閱證書](wf-api/api/event-sub-certs.md)
+      * [在您的整合中指定 API 版本](wf-api/api/specify-api-version-integrations.md)
+      * [核心 API 變更：狀態搜尋回應](wf-api/api/api-changes-search.md)
       * [API版本設定和支援排程](wf-api/api/api-version-support-schedule.md)
-      * [API回應中的逸出字元](wf-api/api/escaped-characters-api.md)
+      * [API 回應中的逸出字元](wf-api/api/escaped-characters-api.md)
       * [使用授權程式碼流程設定及使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-code-token-flow.md)
       * [使用JWT流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-jwt-flow.md)
       * [使用PKCE流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-pkce-flow.md)
@@ -2468,16 +2468,16 @@ ht-degree: 2%
       * [API第8版的更新](wf-api/api/new-api-version-8-updates.md)
       * [API 7版的新增功能](wf-api/api/new-api-version-7.md)
       * [API 6版的新增功能](wf-api/api/new-api-version-6.md)
-   * API一般資訊{#api-general-information}
+   * API一般資訊 {#api-general-information}
       * [API一般資訊](wf-api/general/api-general.md)
       * [API 基本概念](wf-api/general/api-basics.md)
       * [API Explorer](wf-api/general/api-explorer.md)
       * [使用API總管](wf-api/general/using-api-explorer.md)
-      * [Adobe Workfront API中的RTF文字欄位](wf-api/general/rich-text-field-api.md)
+      * [Adobe Systems Workfront API 中的富文本字段](wf-api/general/rich-text-field-api.md)
       * [API範例指令碼](wf-api/general/api-example-scripts.md)
       * [使用API來同步處理程式與服務的資料](wf-api/general/api-sync-data.md)
       * [透過API停用使用者](wf-api/general/deactivate-user-api.md)
-   * 活動訂閱{#event-subscriptions}
+   * 活動訂閱 {#event-subscriptions}
       * [活動訂閱](wf-api/api/event-subscriptions.md)
       * [事件訂閱API](wf-api/general/event-subs-api.md)
       * [活動訂閱最佳實務](wf-api/general/event-sub-best-practice.md)
@@ -2491,11 +2491,11 @@ ht-degree: 2%
       * [Webhooks概觀](wf-api/doc-wbhks-api/webhooks-overview.md)
       * [註冊Webhook整合](wf-api/doc-wbhks-api/register-webhook-integration.md)
       * [檔案Webhook的驗證](wf-api/doc-wbhks-api/auth-for-docu-webhook.md)
-      * [取得OAuth2 Token](wf-api/doc-wbhks-api/get-oath-token-webhooks.md)
-      * [取得檔案或資料夾的中繼資料](wf-api/doc-wbhks-api/get-metadata-file-folder.md)
+      * [取得 OAuth2 Token](wf-api/doc-wbhks-api/get-oath-token-webhooks.md)
+      * [獲取文件或資料夾的中繼資料](wf-api/doc-wbhks-api/get-metadata-file-folder.md)
       * [取得資料夾內容的專案清單](wf-api/doc-wbhks-api/get-list-folder-contents.md)
-      * [透過Document Webhook搜尋](wf-api/doc-wbhks-api/docu-webhook-search.md)
-      * [透過Webhook取得檔案內容](wf-api/doc-wbhks-api/get-docu-content-webhook.md)
+      * [透過文件網路鉤子Search](wf-api/doc-wbhks-api/docu-webhook-search.md)
+      * [通過 Webhooks 獲取文件內容](wf-api/doc-wbhks-api/get-docu-content-webhook.md)
       * [取得檔案的縮圖](wf-api/doc-wbhks-api/get-thmbnl-doc.md)
       * [透過Document Webhook上傳檔案](wf-api/doc-wbhks-api/file-upload-docu-webhook.md)
       * [建立包含檔案Webhook的資料夾](wf-api/doc-wbhks-api/create-folder-docu-webhook.md)
@@ -2506,30 +2506,30 @@ ht-degree: 2%
       * [檔案Webhooks API](wf-api/doc-wbhks-api/docu-webhook-api.md)
       * [測試Webhook連線](wf-api/doc-wbhks-api/test-webhook-connections.md)
       * [檔案Webhooks錯誤處理](wf-api/doc-wbhks-api/docu-webhooks-errors.md)
-   * Workfront物件說明{#workfrtont-object-descriptions}
+   * 工作面對象說明 {#workfrtont-object-descriptions}
       * [Workfront物件說明](wf-api/wf-objects/workfront-objects.md)
       * [類別](wf-api/wf-objects/category.md)
-   * Adobe Workfront API {#tips-troubleshooting-apis}的秘訣、技巧和疑難排解
+   * Adobe Workfront API的秘訣、技巧和疑難排解 {#tips-troubleshooting-apis}
       * [Adobe Workfront API的秘訣、技巧和疑難排解](wf-api/tips-tricks-and-troubleshooting/tips-troubleshoot-api.md)
       * [Adobe Workfront API呼叫的網域格式](wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md)
       * [API錯誤：「遠端伺服器傳回錯誤：(400)錯誤請求」](wf-api/tips-tricks-and-troubleshooting/api-error-remote-server.md)
       * [大型分頁搜尋期間傳回的重複專案](wf-api/tips-tricks-and-troubleshooting/duplicates-paginated-search.md)
       * [排序API中的查詢結果](wf-api/tips-tricks-and-troubleshooting/query-sort-api.md)
       * [更新至emailAddr不會更新使用者名稱](wf-api/tips-tricks-and-troubleshooting/update-email-addr-and-username.md)
-      * [透過Adobe Workfront API建立校訂時新增進階校訂選項](wf-api/tips-tricks-and-troubleshooting/api-create-proof-options-json.md)
-      * [OPTASK copyIssue的選項設定](wf-api/tips-tricks-and-troubleshooting/copyissue-options.md)
-      * [當貨幣為空值（未指派）時，擷取專案的貨幣資訊](wf-api/tips-tricks-and-troubleshooting/retrieve-currency-when-null.md)
-      * [不支援使用API新增連結的資料夾](wf-api/tips-tricks-and-troubleshooting/linked-folders-for-docu-not-supported.md)
-      * [檔案moveToFolder動作無效](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/error-using-movetofolder.md)
+      * [在透過 Adobe Systems Workfront API 建立證明時，新增進階校對選項](wf-api/tips-tricks-and-troubleshooting/api-create-proof-options-json.md)
+      * [OPTASK 複製問題的選項設定](wf-api/tips-tricks-and-troubleshooting/copyissue-options.md)
+      * [當貨幣為 null（未分配）時檢索項目的貨幣資訊](wf-api/tips-tricks-and-troubleshooting/retrieve-currency-when-null.md)
+      * [不支援使用 API 新增連結資料夾](wf-api/tips-tricks-and-troubleshooting/linked-folders-for-docu-not-supported.md)
+      * [檔moveToFolder 動作無效](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/error-using-movetofolder.md)
 * ProofHQ API {#proofhqpapi}
    * [ProofHQ API](proofhq-api/proofhq-api.md)
-   * 一般{#general}
+   * 一般 {#general}
       * [一般](proofhq-api/general/general.md)
       * [概觀](proofhq-api/general/overview.md)
-      * [程式碼範例](proofhq-api/general/code-samples.md)
-      * [SOAP API常見問題集](proofhq-api/general/soap-api-faqs.md)
-* [隱藏的測試檔案](hidden-test.md)
-* [2025年第一季度版本總覽 — 測試](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/release-overview-test.md)
+      * [Code樣本](proofhq-api/general/code-samples.md)
+      * [SOAP API 常見問題解答](proofhq-api/general/soap-api-faqs.md)
+* [隱藏測試文件](hidden-test.md)
+* [2025 年第一季度版本概覽 - 測試](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/release-overview-test.md)
 
 
 <!--

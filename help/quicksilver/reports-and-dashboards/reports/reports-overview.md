@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: b7117ff8-5353-4766-b982-ba624a484ad1
-source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
+source-git-commit: b0a8e5277003eb3189bc7c0a26367fada05d58de
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '64'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 本節包含下列子章節：
 
-* [報告基本資訊](../../reports-and-dashboards/reports/reporting/reporting-basics.md)
+* [報告基本資訊：文章索引](../../reports-and-dashboards/reports/reporting/reporting-basics.md)
 * [報表元素概觀](../../reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md)
 * [使用內建報告](../../reports-and-dashboards/reports/using-built-in-reports/use-built-in-reports.md)
 * [建立和管理報告](../../reports-and-dashboards/reports/creating-and-managing-reports/create-manage-reports.md)
