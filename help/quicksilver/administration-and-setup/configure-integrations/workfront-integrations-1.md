@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: 436eb2ef32363aa28593e74f7464dcd6837b2095
 workflow-type: tm+mt
-source-wordcount: '1250'
+source-wordcount: '1287'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 * [整合功能不需額外付費](#integrations-available-at-no-additional-cost)
 * [需要額外購買的整合](#integrations-requiring-an-additional-purchase)
 
-### 開始使用內建（原生）整合 {#get-started-with-built-in-native-integrations}
+### 開始使用內建 （原生） 整合 {#get-started-with-built-in-native-integrations}
 
 若要開始使用內建（原生）整合，請遵循下列工作流程：
 
@@ -112,7 +112,7 @@ ht-degree: 0%
       <li>將多個Experience Manager Assets存放庫順利連線到一個Workfront環境，或多個Workfront環境連線到跨組織ID的一個Experience Manager Assets存放庫</li></ul>
      <p>如需詳細資訊與指示，請參閱<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md" class="MCXref xref">Adobe Experience Manager Assets整合概述</a></p> 
      </td>
-   <td><ul><li>Workfront必須採用已指派組織ID的Admin Console。</li><li>Workfront和Experience Manger Assets或Assets Essentials必須指派為產品，以供設定整合的使用者使用。</li></ul></td>   <td> </td> 
+   <td><ul><li>Workfront必須位於具有指派的組織ID的Admin Console中。</li><li>Workfront和Experience Manger Assets或Assets Essentials必須指派為產品，以供設定整合的使用者使用。</li></ul></td>   <td> </td> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Box]</p> <p> <img src="assets/box,-inc.-logo.png"> </p> </td> 
@@ -138,11 +138,11 @@ ht-degree: 0%
     <ul> 
      <li>新增[!DNL Google Workspace]電子郵件至專案或任務 </li> 
      <li>在中檢視及管理[!DNL Workfront]通知 [!DNL Gmail]</li> 
-     <li>透過[!DNL Gmail]提交請求 </li> 
-    </ul> <p>如需詳細資訊，請參閱<a href="../../workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md" class="MCXref xref">[!DNL Adobe Workfront for Google Workspace]</a>。</p> </td> 
+     <li>提交請求的方式 [!DNL Gmail] </li> 
+    </ul> <p>如需詳細資訊，請參閱 <a href="../../workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md" class="MCXref xref">[!DNL Adobe Workfront for Google Workspace]</a>.</p> </td> 
    <td> 
     <ul> 
-     <li>[!DNL Google Workspace] 使用者必須擁有[!DNL Workfront]授權 </li> 
+     <li>[!DNL Google Workspace] 用戶必須具有 [!DNL Workfront] 許可證 </li> 
      <li>[!DNL Workfront] 檢視和工作共用許可權必須依存取層級設定 </li> 
      <li> 使用者必須有啟用POP的電子郵件帳戶 </li> 
      <li>[!DNL Workfront] 請求設定必須包括POP設定 </li> 
@@ -229,7 +229,7 @@ ht-degree: 0%
      <li>搜尋[!DNL Workfront]個專案、任務和問題 </li> 
      <li>建立[!DNL Workfront]個人任務 </li> 
      <li>提交[!DNL Workfront]個請求 </li> 
-    </ul> <p>如需詳細資訊，請參閱<a href="../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md" class="MCXref xref">[!DNL Adobe Workfront for Microsoft Teams]：文章索引</a>。</p> </td> 
+    </ul> <p>如需詳細資訊，請參閱<a href="../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md" class="MCXref xref">[!DNL Adobe Workfront for Microsoft Teams]：文章索引</a>。</p><p><b>注意</b>：自2025年7月1日起，Microsoft將移除對Classic Teams案頭應用程式的支援。 因此，一旦不再提供Classic Teams案頭應用程式，就不會支援Workfront與Microsoft Teams的整合。 </p></td> 
    <td> 
     <ul> 
      <li>如果多個團隊想要使用整合，貴組織中的每個團隊都必須安裝整合</li> 
@@ -269,8 +269,8 @@ ht-degree: 0%
    <td> <p>[!DNL Slack]</p> <p> <img src="assets/slacklogo.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
-     <li>在[!DNL Slack]中接收[!DNL Workfront]個通知 </li> 
-     <li>在[!DNL Slack]中管理核准 </li> 
+     <li>在中接收 [!DNL Workfront] 通知 [!DNL Slack] </li> 
+     <li>在中管理審批 [!DNL Slack] </li> 
      <li>從[!DNL Slack]建立[!DNL Workfront]個任務和問題 </li> 
      <li>將註解張貼至專案或任務，從 [!DNL Slack]</li> 
     </ul> <p>如需詳細資訊，請參閱<a href="../../workfront-integrations-and-apps/using-workfront-with-slack/use-workfront-for-slack.md" class="MCXref xref">[!DNL Adobe Workfront for Slack]</a>。</p> </td> 
@@ -303,14 +303,14 @@ ht-degree: 0%
 
 * [!DNL Workfront Fusion]
 
-  [!DNL Adobe Workfront Fusion]連結應用程式和服務內部及之間的動作，以建立自動傳輸和轉換資料的情境。 它擁有可連線許多應用程式的專用聯結器，但可以使用公用API連線至任何應用程式。
+  [!DNL Adobe Workfront Fusion]連結應用程式和服務內部及之間的動作，以建立自動傳輸和轉換資料的情境。 它具有許多應用程式的專用連接器，但可以使用公共 API 連接到任何應用程式。
 
-  如需詳細資訊，請參閱[[!DNL Adobe Workfront Fusion] 總覽](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+  更多資訊，請參見 [[!DNL Adobe Workfront Fusion] 概述](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 
 * [!DNL Adobe Experience Manager Assets]
-* [!DNL Anaplan] （需要[!DNL Workfront Fusion]）
+* [!DNL Anaplan] （需要 [!DNL Workfront Fusion]）
 
-Workfront與Experience Manager Assets或Assets Essentials之間的整合可讓組織在本質上連線工作和數位資產管理，藉以改善內容速度和上市時間。
+Workfront 與 Experience Manager Assets 或 Assets Essentials 之間的集成使組織能够通過内在地連接工作和數位資產管理來提高內容速度和上市時間。
 
 如需詳細資訊，請參閱[Adobe Workfront for Experience Manager Assets整合總覽](../../documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)。
 

@@ -1,14 +1,14 @@
 ---
 product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
-title: 從 [!DNL Microsoft] 個團隊存取 [!DNL Adobe Workfront]
+title: '從 [!DNL Microsoft] 個團隊存取 [!DNL Adobe Workfront] '
 description: 您可以從 [!DNL Microsoft Teams] 存取 [!DNL Adobe Workfront] ，並在 [!DNL Workfront] 中執行數個動作，方法是在Workfront機器人頻道或其他任何團隊頻道中輸入命令。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a12277e8-2c2e-4b53-990f-6ee9a6541492
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 41d898e82bc5b06498966ba938b68ed10e742d3b
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '485'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->適用於Microsoft Teams的Adobe Workfront整合目前僅支援傳統Microsoft Teams體驗。
+>自2025年7月1日起，Microsoft將移除對Classic Teams案頭應用程式的支援。 因此，Classic Teams案頭應用程式無法使用後，將不支援Workfront與Microsoft Teams的整合。
 
 您可以從[!DNL Microsoft Teams]存取[!DNL Adobe Workfront]，並在[!DNL Workfront]中執行數個動作，方法是在[!DNL Workfront]機器人頻道或任何其他團隊頻道中輸入命令。
 

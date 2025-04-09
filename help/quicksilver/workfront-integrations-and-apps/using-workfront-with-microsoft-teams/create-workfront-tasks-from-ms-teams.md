@@ -2,13 +2,13 @@
 product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
 title: 建立來自 [!DNL Microsoft] 團隊的 [!DNL Adobe Workfront] 工作
-description: 如果團隊擁有者已為您的團隊安裝和設定 [!DNL Workfront] 的Adobe，並且您是從Microsoft Teams登入Workfront Microsoft Teams，您就可以從Microsoft Teams [!DNL Workfront] 建立個人任務。
+description: 如果團隊擁有者已為您的團隊安裝和設定 [!DNL Workfront] 的Adobe，且您從Microsoft Teams登入Microsoft Teams，您就可以從Microsoft Teams在Workfront [!DNL Workfront] 中建立個人工作。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 31b86c8d-967a-446a-86f2-3d38e44c45e1
-source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
+source-git-commit: 41d898e82bc5b06498966ba938b68ed10e742d3b
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->適用於Microsoft Teams的Adobe Workfront整合目前僅支援傳統Microsoft Teams體驗。
+>自2025年7月1日起，Microsoft將移除對Classic Teams案頭應用程式的支援。 因此，Classic Teams案頭應用程式無法使用後，將不支援Workfront與Microsoft Teams的整合。
 
 ## 存取需求
 

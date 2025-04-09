@@ -7,9 +7,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 411ad0b1-efb2-40e9-a04c-d06840b9cdce
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 436eb2ef32363aa28593e74f7464dcd6837b2095
 workflow-type: tm+mt
-source-wordcount: '1234'
+source-wordcount: '1233'
 ht-degree: 0%
 
 ---
@@ -125,7 +125,7 @@ ht-degree: 0%
 * 內部電子報
 * 電子郵件
 * 宣告中心訊息（從[!DNL Workfront]轉寄或由您建立）
-* 共同作業工具的公告，例如[!DNL Slack]或[!DNL Microsoft Teams]
+* 共同作業工具的公告，例如[!DNL Slack]
 * 內部網路研討會或訓練
 
 您可以選擇[!DNL Workfront]資源（例如檔案、發行說明和培訓）與更符合您組織需求和工作流程之資訊之間的平衡。 向使用者展示新功能如何改善其工作或節省時間和能源，將可協助使用者接受變更，但您可以使用[!DNL Workfront]提供的示範或檔案來節省時間。

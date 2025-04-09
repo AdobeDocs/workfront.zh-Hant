@@ -1,29 +1,29 @@
 ---
 product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
-title: 提交來自 [!DNL Microsoft] 團隊的 [!DNL Adobe Workfront] 個請求
-description: 當您的團隊所有者安裝適用於Microsoft Teams的Adobe Workfront後，您就可以從您的Microsoft Teams帳戶提交Workfront請求。 若要這麼做，您必須擁有有權提交請求的Workfront帳戶。 如需有關為Microsoft Teams安裝Workfront的資訊，請參閱為Microsoft Teams安裝Workfront 。
+title: '提交 [!DNL Adobe Workfront] 來自團隊的請求 [!DNL Microsoft] '
+description: 團隊所有者安裝 Adobe Systems Workfront for Microsoft Teams 后，可以從 Microsoft Teams 帳戶提交 Workfront 請求。 為此，您必須具有有權提交請求的 Workfront 帳戶。 有關為 Microsoft Teams 安裝 Workfront 的資訊，請參閱為 Microsoft Teams 安裝 Workfront。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5975d773-eae6-44ae-8296-2013504da3a8
-source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
+source-git-commit: 41d898e82bc5b06498966ba938b68ed10e742d3b
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
 
-# 提交來自[!DNL Microsoft]團隊的[!DNL Adobe Workfront]個請求
+# 提交[!DNL Adobe Workfront]來自團隊的請求[!DNL Microsoft]
 
 >[!NOTE]
 >
->適用於Microsoft Teams的Adobe Workfront整合目前僅支援傳統Microsoft Teams體驗。
+>自2025年7月1日起，Microsoft將移除對Classic Teams案頭應用程式的支援。 因此，在經典Teams桌面應用不再可用後，將不支援與Microsoft Teams的 Workfront 集成。
 
-在團隊擁有者安裝[!DNL Adobe Workfront for Microsoft Teams]之後，您就可以從您的[!DNL Microsoft Teams]帳戶提交[!DNL Workfront]要求。 若要這麼做，您必須擁有有權提交請求的Workfront帳戶。 如需有關安裝[!DNL Workfront for Microsoft Teams]的資訊，請參閱[安裝 [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)。
+安裝 [!DNL Adobe Workfront for Microsoft Teams]團隊 所有者 后，您可以從帳戶[!DNL Microsoft Teams]提交[!DNL Workfront]請求。為此，您必須具有有權提交請求的 Workfront 帳戶。 有關安裝 [!DNL Workfront for Microsoft Teams]的資訊，請參閱 [安裝 [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)。
 
 >[!NOTE]
 >
->[!DNL Microsoft Teams]不再支援[!DNL Internet Explorer]。 若要使用[!DNL Adobe Workfront for Microsoft Teams integration]，您必須使用[!DNL Internet Explorer]以外的網頁瀏覽器。
+>[!DNL Microsoft Teams] 不再支援 [!DNL Internet Explorer]. [!DNL Adobe Workfront for Microsoft Teams integration]要使用 ，您必須使用 Web 瀏覽器 [!DNL Internet Explorer]以外的其他 Web 。
 
 
 ## 存取需求
@@ -56,13 +56,13 @@ ht-degree: 0%
 1. 按一下[!DNL Microsoft Teams]中左側導覽列上的&#x200B;**[!UICONTROL 更多新增的應用程式]** （三點）圖示。
 
 1. 在出現的清單中按一下&#x200B;**[!DNL Workfront]**。
-1. 按一下「**[!UICONTROL 要求]**」標籤。
-1. 按一下&#x200B;**[!UICONTROL 新要求]**。
-1. 在&#x200B;**[!UICONTROL 選取要求型別]**&#x200B;方塊中，選取您要提交要求的要求佇列。
-1. （選擇性）選取「主題群組」或「佇列主題」 （若請求佇列中有這些主題）。
-1. 指定下列資訊：
+1. 按兩下「 **[!UICONTROL 請求」]** 標籤。
+1. 按一下新 **[!UICONTROL 請求]**。
+1. 在「 **[!UICONTROL 選擇請求類型]** 」框中，選擇要提交請求的請求佇列。
+1. （選擇）選擇主題組或佇列主題（如果它們在請求佇列可用）。
+1. 指定以下資訊：
 
-   (您看到的選項和方塊可能會因請求佇列的設定方式而異。 如需可能欄位的完整清單與說明，請參閱[建立與提交 [!DNL Adobe Workfront] 請求](../../manage-work/requests/create-requests/create-submit-requests.md)。)
+   (您看到的選項和方塊可能會因請求佇列的設定方式而異。 有關可能欄位的完整清單和描述，請參閱 [建立和提交 [!DNL Adobe Workfront] 請求](../../manage-work/requests/create-requests/create-submit-requests.md)。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -70,11 +70,11 @@ ht-degree: 0%
     <tbody> 
      <tr> 
       <td role="rowheader">主旨</td> 
-      <td>輸入請求的主體名稱。</td> 
+      <td>鍵入請求的主旨名稱。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">說明</td> 
-      <td>輸入要求的說明。</td> 
+      <td>鍵入請求的說明。</td> 
      </tr> 
      <tr> 
       <td role="rowheader"> </td> 
@@ -96,12 +96,12 @@ ht-degree: 0%
 1. 在出現的清單中按一下&#x200B;**[!DNL Workfront]**。
 1. 按一下「**[!UICONTROL 要求]**」標籤。
 
-   您提交的請求列在[!UICONTROL 請求]索引標籤的[!UICONTROL 我提交的請求]區域中。 您無法設定此標籤中顯示的關於您提交之請求的資訊。
+   您提交的請求列在[!UICONTROL 請求]索引標籤的[!UICONTROL 我提交的請求]區域中。 您無法設定此標籤中显示的有關您提交請求的信息。
 
-   您可以在[!UICONTROL 要求]標籤的[!UICONTROL 我已提交的要求]區域中，檢視下列有關您提交要求的資訊：
+   您可以在“請求]”標籤的[!UICONTROL “[!UICONTROL 我提交的請求]”區域中視圖有關已提交請求的以下信息：
 
-   * **[!UICONTROL 主旨]**：要求的名稱
-   * **[!UICONTROL 參考號碼]**
+   * **[!UICONTROL 主題]**：請求的名稱
+   * **[!UICONTROL 參考編號]**
    * **[!UICONTROL 要求型別]**：您提交要求的要求佇列名稱
    * **[!UICONTROL 狀態]**
    * **[!UICONTROL 提交日期]**：您提交要求的日期

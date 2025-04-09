@@ -8,9 +8,9 @@ author: Becky
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 88b05a70-a304-461d-bab3-21d328c9356e
-source-git-commit: 1c8d9a62f5582b0dbc3c72b5881bb5d8f0b790ba
+source-git-commit: 41d898e82bc5b06498966ba938b68ed10e742d3b
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
@@ -21,13 +21,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->適用於Microsoft Teams的Adobe Workfront整合目前僅支援傳統Microsoft Teams體驗。
+>自2025年7月1日起，Microsoft將移除對Classic Teams案頭應用程式的支援。 因此，Classic Teams案頭應用程式無法使用後，將不支援Workfront與Microsoft Teams的整合。
 
 身為團隊擁有者在[!DNL Microsoft Teams]中，您可以為團隊安裝[!DNL Adobe Workfront for Microsoft Teams]應用程式。
 
 將[!DNL Workfront]用於Microsoft Teams可讓您在不離開Microsoft Teams的情況下在[!DNL Workfront]中執行許多動作。
 
-如需有關安裝適用於Microsoft Teams的Workfront的詳細資訊，請參閱[安裝適用於Microsoft Teams的Adobe Workfront](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)。
+如需有關為Microsoft Teams安裝Workfront的詳細資訊，請參閱[為Microsoft Teams安裝Adobe Workfront](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)。
 
 安裝[!DNL Workfront for Microsoft Teams]後，您可以在不離開[!DNL Microsoft Teams]執行個體的情況下執行下列動作：
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
   如需有關從[!DNL Microsoft Teams]提交[!DNL Workfront]要求的資訊，請參閱[從 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/submit-workfront-requests-from-ms-teams.md)提交 [!DNL Workfront] 要求。
 
-* 回應[!DNL Workfront]個有關更新與註解的通知。
+* 响应 [!DNL Workfront] 有關更新和評論的通知。
 * 回應檔案核准請求。\
    如需有關回應[!DNL Microsoft Teams]的[!DNL Workfront]通知和檔案核准要求的資訊，請參閱[在 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md)中管理 [!DNL Adobe Workfront] 通知。
 
@@ -55,4 +55,4 @@ ht-degree: 0%
 * 如果多個團隊需要從[!DNL Microsoft Teams]存取[!DNL Workfront]，您必須為每個團隊安裝應用程式。
 * 您可以在[!DNL Microsoft Teams]中檢視[!DNL Workfront]專案的部分相關資訊。 例如，[!DNL Workfront]專案的名稱、狀態、優先順序、受指派人、計畫完成日期。 無法自訂此資訊。
 * 您可以直接從[!DNL Microsoft Teams]移至[!DNL Workfront]專案與檔案。
-* [!DNL Microsoft Teams]不再支援[!DNL Internet Explorer]。 若要使用[!DNL Adobe Workfront for Microsoft Teams]整合，您必須使用[!DNL Internet Explorer]以外的網頁瀏覽器。
+* [!DNL Microsoft Teams] 不再支援 [!DNL Internet Explorer]. [!DNL Adobe Workfront for Microsoft Teams]要使用整合，您必須使用 Web 瀏覽器 以外的[!DNL Internet Explorer]其他 Web 。

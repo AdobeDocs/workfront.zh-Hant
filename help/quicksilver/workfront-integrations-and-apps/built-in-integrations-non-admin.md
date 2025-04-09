@@ -7,9 +7,9 @@ description: 您可以將 [!DNL Adobe Workfront] 與協力廠商應用程式整�
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 502e3fae874df91d4699867dcd25812659a3ffdf
+source-git-commit: 436eb2ef32363aa28593e74f7464dcd6837b2095
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '539'
 ht-degree: 3%
 
 ---
@@ -120,7 +120,7 @@ Workfront目前提供下列內建整合。
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Microsoft Teams</p> <p> <img src="assets/msteamslogo.png" style="max-width: 80px;"> </p> </td> 
+   <td role="rowheader"> <p>Microsoft Teams</p> <p> <img src="assets/msteamslogo.png" style="max-width: 80px;"> </p><b>注意</b>：自2025年7月1日起，Microsoft將移除對Classic Teams案頭應用程式的支援。 因此，一旦不再提供Classic Teams案頭應用程式，就不會支援Workfront與Microsoft Teams的整合。 </p> </td> 
    <td> 
     <ul> 
      <li>在[!DNL Microsoft Teams]中取得[!DNL Workfront]通知 </li> 
@@ -152,7 +152,7 @@ Workfront目前提供下列內建整合。
      <li>在[!DNL Slack]中接收[!DNL Workfront]個通知 </li> 
      <li>在Slack中管理核准 </li> 
      <li>從[!DNL Slack]建立[!DNL Workfront]個任務和問題 </li> 
-     <li>從Slack將註解張貼至專案或任務</li> 
+     <li>從Slack張貼註解至專案或任務</li> 
     </ul> </td> 
   </tr> 
   <tr> 
