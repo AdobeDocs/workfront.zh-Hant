@@ -2,11 +2,11 @@
 product-area: documents
 navigation-topic: approvals
 title: 一起使用統一核准和校訂
-description: 您可以將統一核准與校訂搭配使用。
+description: 您可以搭配校訂使用統一核准。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: be484629-6e70-4809-ad4c-a489d5814da6
-source-git-commit: 4038180d69d4a8027f33b5bafd2104c7c6916b82
+source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 一起使用統一核准和校訂
 
-Workfront中的統一核准引進了一組新功能，可幫助您檢閱和核准檔案。 您可以使用具有現有校訂檢視器的統一核准工作流程，在稽核的檔案中新增註釋和標示。
+Workfront中的統一核准引進了一組新功能，可幫助您檢閱和核准檔案。 您可以使用具有現有校訂檢視器的「統一核准」工作流程，將註解與標示新增至稽核中的檔案。
 
 一起使用統一核准和校訂時，工作流程有一些主要差異：
 

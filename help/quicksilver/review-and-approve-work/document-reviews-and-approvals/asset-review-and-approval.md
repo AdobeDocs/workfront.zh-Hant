@@ -6,7 +6,7 @@ description: Workfront中可供檢閱和核准的系統概觀。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: 4038180d69d4a8027f33b5bafd2104c7c6916b82
+source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Workfront目前提供3種不同的系統，以供資產和檔案檢閱和核准�
 
 * [舊版檔案核准](#legacy-document-approvals)
 
-* [整合的核准](#new-document-approvals)
+* [整合式核准](#new-document-approvals)
 
 * [校訂核准](#proof-approvals)
 
@@ -36,7 +36,7 @@ Workfront目前提供3種不同的系統，以供資產和檔案檢閱和核准�
 
 如需詳細資訊，請參閱[舊版檔案核准](/help/quicksilver/review-and-approve-work/manage-approvals/approval-process-in-workfront.md#document-approval-processes)。
 
-## 整合的核准
+## 整合式核准
 
 整合式核准是舊版核准系統的重新設計。 目前限量發行，旨在為需要全面利害關係人參與和特定版本檔案核准的企業提供實用而有效的解決方案。
 
