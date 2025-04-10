@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 03f95d2d6397850fd53e79fd37c2de56e94a04cd
+source-git-commit: 34f7f35875f063a77d33ee63c33e69721dc70c03
 workflow-type: tm+mt
-source-wordcount: '1270'
-ht-degree: 0%
+source-wordcount: '1308'
+ht-degree: 2%
 
 ---
 
@@ -124,7 +124,29 @@ IF(
 
    ![選取物件](assets/object-for-business-rule3.png)
 
-1. 輸入商業規則的&#x200B;**名稱**。
+   您可以將商業規則套用至下列物件：
+
+   * 專案
+   * 任務
+   * 問題/請求
+   * 專案組合
+   * 文件
+   * 方案
+   * 費用
+   * 使用者
+   * 公司
+   * 疊代
+   * 計費記錄
+   * 群組
+   * 風險
+   * 指派
+   * 職務角色
+   * 資源集區
+   * 休假
+   * 小時
+   * 範本
+
+1. 在規則產生器對話方塊中輸入商業規則的&#x200B;**名稱**。
 1. 在&#x200B;**為使用中**&#x200B;欄位中，選取儲存規則時是否應該使用中。
 
    如果您選取&#x200B;**否**，規則會儲存為非使用中，您可稍後再加以啟用。
