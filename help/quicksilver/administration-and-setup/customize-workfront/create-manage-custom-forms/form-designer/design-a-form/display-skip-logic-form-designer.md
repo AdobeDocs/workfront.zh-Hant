@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 64deb1b0b3ba52f869ca38e2a26288d461070f82
+source-git-commit: f94ad0f289064f243aadb08226bd5e53357f650d
 workflow-type: tm+mt
-source-wordcount: '1744'
+source-wordcount: '1680'
 ht-degree: 0%
 
 ---
 
 # 新增邏輯規則至自訂表單和欄位
-
-{{highlighted-preview}}
 
 邏輯規則可讓您進一步自訂表單上的欄位。
 
@@ -115,13 +113,7 @@ ht-degree: 0%
 1. 選取邏輯產生器上的&#x200B;**顯示**&#x200B;標籤。
 1. 按一下&#x200B;**新增顯示規則**。
 
-   <span class="preview">預覽環境中的範例影像：</span>
-
    ![顯示邏輯產生器](assets/simple-display-logic1-val-only-in-menu.png)
-
-   生產環境中的影像範例：
-
-   ![顯示邏輯產生器](assets/custom-form-logic-builder-display-blank.png)
 
 1. 請依照下列步驟，在產生器中建立邏輯陳述式。
 
@@ -130,17 +122,11 @@ ht-degree: 0%
    1. 第三個選項是&#x200B;**已選取**&#x200B;或&#x200B;**未選取**。 選擇&#x200B;**已選取**&#x200B;表示選取值時，會顯示目標欄位。 選擇&#x200B;**未選取**&#x200B;表示在定義欄位中選取任何其他值時，會顯示目標欄位。
    1. 若要將&#x200B;**And**&#x200B;規則新增至邏輯陳述式，請按一下您剛建立之規則下方的[新增規則]。 ****&#x200B;依照相同的提示來建置規則。 必須符合所有的And規則，目標欄位才會顯示。
 
-      <span class="preview">預覽環境中的範例影像：</span>
-
       ![顯示邏輯產生器](assets/simple-display-logic2.png)
-
-      生產環境中的影像範例：
-
-      ![顯示邏輯產生器](assets/custom-form-logic-builder-display1.png)
 
    1. 若要將&#x200B;**Or**&#x200B;規則新增至邏輯陳述式，請按一下邏輯產生器底部附近的&#x200B;**新增規則**。 然後，按一下Or區域中的&#x200B;**新增規則**，並依照相同的提示來建置規則。 當滿足一個Or規則時，將顯示目標欄位。
 
-1. 當您完成建立邏輯陳述式時，請按一下&#x200B;**儲存** <span class="preview">或&#x200B;**套用**</span>。
+1. 當您完成建置邏輯陳述式時，請按一下&#x200B;**套用**。
 
    顯示邏輯圖示會新增至表單設計工具的目標欄位和定義欄位。
 
@@ -212,14 +198,7 @@ Using the following condition, the Sold KPI field only becomes visible when the 
 1. 選取邏輯產生器上的&#x200B;**略過**&#x200B;索引標籤。
 1. 按一下&#x200B;**新增略過規則**。
 
-
-   <span class="preview">預覽環境中的範例影像：</span>
-
    ![略過邏輯產生器](assets/skip-logic1-val-only-in-menu.png)
-
-   生產環境中的影像範例：
-
-   ![略過邏輯產生器](assets/custom-form-logic-builder-skip-blank.png)
 
 1. 請依照下列步驟，在產生器中建立邏輯陳述式。
 
@@ -228,21 +207,13 @@ Using the following condition, the Sold KPI field only becomes visible when the 
    1. 第二個選項是&#x200B;**已選取**&#x200B;或&#x200B;**未選取**。 選擇&#x200B;**已選取**&#x200B;表示選取值時，會顯示目標欄位，並略過兩者之間的欄位。 選擇&#x200B;**未選取**&#x200B;表示在定義欄位中選取任何其他值時，會顯示目標欄位，並略過兩者之間的欄位。
    1. 第三個選項是目標欄位，或跳至的位置。 選取欄位名稱或&#x200B;**表單**&#x200B;結尾。 您可能需要先按一下「空白」這個字，才能選取選項。
 
-      <span class="preview">預覽環境中的範例影像：</span>
-
       ![略過邏輯產生器](assets/skip-logic2.png)
-
-      生產環境中的影像範例：
-
-      ![略過邏輯產生器](assets/custom-form-logic-builder-skip1.png)
 
    1. 若要將&#x200B;**Or**&#x200B;規則新增至邏輯陳述式，請按一下邏輯產生器底部附近的&#x200B;**新增規則**。 然後，在相同的提示下選取選項以建置規則。 當符合一個&#x200B;**或**&#x200B;規則時，會顯示目標欄位。
 
-1. 當您完成建立邏輯陳述式時，請按一下&#x200B;**儲存** <span class="preview">或&#x200B;**套用**</span>。
+1. 當您完成建置邏輯陳述式時，請按一下&#x200B;**套用**。
 
    略過邏輯圖示會新增至表單設計工具中的目標欄位和定義欄位。
-
-<div class="preview">
 
 ## 新增驗證邏輯至自訂表單
 
@@ -250,7 +221,7 @@ Using the following condition, the Sold KPI field only becomes visible when the 
 
 如果套用了邏輯的欄位在使用者填寫自訂表單時符合定義的驗證條件，則該欄位會醒目提示並顯示錯誤訊息。
 
-您可以將驗證邏輯套用至下列欄位型別：單行文字、段落、單選下拉式清單、多選下拉式清單、外部查閱、選項按鈕、核取方塊群組以及預先輸入。
+您可以將驗證邏輯套用至下列欄位型別：單行文字、段落、單選下拉式清單、多選下拉式清單、外部查閱、預先輸入、日期、核取方塊群組，以及選項按鈕。
 
 ### 範例
 
@@ -287,14 +258,14 @@ IF({DE:Budget Field} < 0,
 
    此邏輯會套用至表單設計器中的欄位。
 
-</div>
-
 <!--
 <div class="preview">
 
 ## Add formatting logic to a custom form
 
-Formatting logic highlights a field value when it meets the defined conditions. You can apply formatting logic to all field types, and it will work on multiple fields at once.
+Formatting logic highlights a field value when it meets the defined conditions. The applied formatting will work on multiple fields at once.
+
+You can apply formatting logic to the following field types: single line text, paragraph, single-select dropdown, multi-select dropdown, external lookup, typeahead, calculated, date, checkbox group, and radio buttons.
 
 Formatting applied to custom forms is separate from formatting applied to lists and reports. For information on report formatting, see [Use conditional formatting in views](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
