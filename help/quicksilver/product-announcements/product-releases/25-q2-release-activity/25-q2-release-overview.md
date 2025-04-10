@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 75ff6f954c1a53a36d64c4f428097fe9a0c4b053
+source-git-commit: a980fe7f2c632f9badcbbaf3abf2e6c2824e448f
 workflow-type: tm+mt
-source-wordcount: '1722'
+source-wordcount: '1653'
 ht-degree: 0%
 
 ---
@@ -88,20 +88,20 @@ Workfront版本編號代表每月和每季的版本追蹤。 第一個數字代�
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
-    <tr>
+<!--    <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            校訂檢視器中可用的新檔案核准決定按鈕</a></p>
-            <p>新檔案核准決定按鈕現在會出現在校訂檢視器中。 現在，當您建立簡單的校訂，然後從檔案摘要新增核准者和稽核者時，他們可以直接在校訂檢視器中做出決定。</p>
+            New document approval decision buttons available in proofing viewer</a></p>
+            <p>The new document approval decision buttons now appear in the proofing viewer. Now, when you create a simple proof and then add approvers and reviewers from the Document summary, they can make their decision directly inside the proofing viewer.</p>
         </td>
         <td>
-            <p><b>將於下列日期提供：</b></p>
+            <p><b>Available on these dates:</b></p>
             <ul>
-                <li>預覽版本： 2025年4月9日</li>
-                <li>有限客戶的生產版本：25.4版本（2025年4月）</li>
+                <li>Preview release: April 9, 2025</li>
+                <li>Production release for a limited set of customers: With the 25.4 release (April 2025)</li>
             </ul>
         </td>
-    </tr>                        
+    </tr>   -->                     
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
