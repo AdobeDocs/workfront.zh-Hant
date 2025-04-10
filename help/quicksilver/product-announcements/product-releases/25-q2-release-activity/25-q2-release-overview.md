@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 993b066ecefb4b345c59289d6c6466ef0416d620
+source-git-commit: 0d746db3b3665b288b4724c346a02d3f459fc365
 workflow-type: tm+mt
-source-wordcount: '1640'
+source-wordcount: '1709'
 ht-degree: 0%
 
 ---
@@ -18,19 +18,19 @@ ht-degree: 0%
 
 <span class="preview">週期外功能（在2025年第二季發行日期之前發佈到生產環境的功能）會以黃色標示。</span>
 
-## 發行排程
+## 發佈時程表
 
-Workfront版本編號代表每月和每季的版本追蹤。 第一個數字代表年份，第二個數字代表發行月份。 範例： 2025年4月版本的編號為25.4。
+Workfront 版本為月度和季度發佈軌道的帳戶編號。 第一個數位表示年份，第二個數位表示發行月份。 示例：2025 年 4 月的版本編號為 25.4。
 
-除非另有指定，否則每月和每季發行計畫於每月第二整週的星期四提供。
+除非另有說明，否則月度和季度版本計劃在每月第二個完整周的星期四提供。
 
-| 每月發行 | 每季發行 |
+| 每月發佈 | 每季發佈 |
 | ----------------- | ----------------- |
 | <ul><li>25.2 （2025年2月13日）</li><li>25.3 （2025年3月13日）</li><li>25.4 （2025年4月10日）</li></ul> | <ul><li>25.4 （2025年4月10日）</li></ul> |
 
 >[!NOTE]
 >
->對於每季的最終發行（本季25.4版），快速發行排程中的使用者將提前一天收到發行。
+>對於每個季度的最終版本（本季度為 25.4），快速發佈計劃的使用者將提前一天收到版本。
 >
 >如需快速發行程式的詳細資訊，請參閱[啟用或停用快速發行程式](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。
 
@@ -88,20 +88,20 @@ Workfront版本編號代表每月和每季的版本追蹤。 第一個數字代�
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
-<!--    <tr>
+    <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            New document approval decision buttons available in proofing viewer</a></p>
-            <p>The new document approval decision buttons now appear in the proofing viewer. Now, when you create a simple proof and then add approvers and reviewers from the Document summary, they can make their decision directly inside the proofing viewer.</p>
+            校訂檢視器中可用的新檔案核准決定按鈕</a></p>
+            <p>新檔案核准決定按鈕現在會出現在校訂檢視器中。 現在，當您建立簡單的校訂，然後從檔案摘要新增核准者和稽核者時，他們可以直接在校訂檢視器中做出決定。</p>
         </td>
         <td>
-            <p><b>Available on these dates:</b></p>
+            <p><b>將於下列日期提供：</b></p>
             <ul>
-                <li>Preview release: March 27, 2025</li>
-                <li>Production release for all customers: With the 25.4 release (April 2025)</li>
+                <li>預覽版本： 2025年4月9日</li>
+                <li>有限客戶的生產版本：25.4版本（2025年4月）</li>
             </ul>
         </td>
-    </tr>    -->                      
+    </tr>                        
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
@@ -154,19 +154,19 @@ Workfront版本編號代表每月和每季的版本追蹤。 第一個數字代�
         <td>
             <p><b>將於下列日期提供：</b></p>
             <ul>
-                <li>預覽版本：不適用</li>
-                <span class="preview"><li>所有客戶的生產版本： 2025年3月12日</li> 
+                <li>預覽 版本： 不適用</li>
+                <span class="preview"><li>面向所有客戶的生產版本：2025 年 3 月 12 日</li> 
             </ul>
-            <p><b>適用於下列環境：</b></p>
+            <p><b>在以下環境中可用：</b></p>
             <ul>
-                <li>iOS行動應用程式</li>
+                <li>iOS 行動應用程式</li>
             </ul>
         </td>
     </tr>                          
 </tbody>
 </table>
 
-### 專案增強功能
+### 項目增強功能
 
 <table>
 <col style="width: 50%;" />
@@ -182,7 +182,7 @@ Workfront版本編號代表每月和每季的版本追蹤。 第一個數字代�
             <p><b>將於下列日期提供：</b></p>
             <ul>
                 <li>預覽版本： 2025年2月13日</li>
-                <li>快速發行生產：第25.3發行版本（2025年3月）</li>
+                <li>快速發佈生產：25.3 版本（2025 年 3 月）</li>
                 <li>適用於所有客戶的生產版本：第25.4版本（2025年4月）</li>
             </ul>
         </td>
@@ -304,11 +304,9 @@ Workfront版本編號代表每月和每季的版本追蹤。 第一個數字代�
 ![舊版敏捷檢視連結](assets/project-agile-board-view.png)
 
 
-#### 增強型Analytics淘汰
+#### 增強Analytics淘汰功能
 
-由於使用率低且不斷下降，我們已決定在2025年5月25日當週淘汰增強型分析產品。
-建議您考慮改用Data Connect產品。 Data Connect可讓您使用慣用的商業智慧工具，建立類似的可自訂視覺效果。
-如需關於此棄用的詳細資訊，請參閱[Enhanced Analytics棄用指南](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md)。
+由於使用率較低且不斷下降，我們已決定在 2025 年 5 月 25 日這一周棄用增強型 Analytics 產品。我們建議考慮使用我們的數據連接產品作為替代品。 Data Connect 允許您使用首選的業務情報工具版本編號類似的可自定義可視化效果。有關此棄用的詳細資訊，請參閱 [增強Analytics棄用指南](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md)。
 
 ## 公告
 
@@ -334,13 +332,13 @@ Workfront Planning的新功能可在生產環境中使用。 如需最新功能�
 
 ### Workfront Scenario Planner增強功能
 
-此版本中目前沒有Scenario Planner更新。 在有更新可用時，此區域將會更新。
+目前發行中沒有藍本規劃器更新。 當更新可用時，此區域將更新。
 
-### Workfront Proof增強功能
+### 工作面證明增強功能
 
-此版本目前沒有Workfront Proof更新。 在有更新可用時，此區域將會更新。
+此時此版本沒有工作前沿證明更新。 當更新可用時，此區域將更新。
 
-### Workfront目標增強功能
+### 工作前線目標增強功能
 
 此版本中目前沒有Workfront目標更新。 在有更新可用時，此區域將會更新。
 

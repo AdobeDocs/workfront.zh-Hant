@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: 69f9797b5427a5dd72b7b8531cd5aa41013b3d5d
+source-git-commit: 0d746db3b3665b288b4724c346a02d3f459fc365
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '863'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,33 @@ ht-degree: 0%
 本頁說明在2025年第二季度發行時間範圍內對Adobe Workfront應用程式的各個區域外觀和感覺進行的小幅更新。
 
 如需2025年第二季版本的所有變更清單，請參閱[2025年第二季版本概觀](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)。
+
+## Google Drive檔案整合對話方塊的外觀更新
+
+>[!NOTE]
+>
+>預覽版本： 2025年3月26日；適用於所有客戶的生產版本：搭配25.4版（2025年4月10日）
+
+我們已更新您使用Google Drive檔案整合建立新版檔案時的外觀。 此更新將「版本>來自Google磁碟機」對話方塊與「新增>來自Google磁碟機」對話方塊對等。
+
+以前，如果您的帳戶與「我的磁碟機」或「共用磁碟機」相關聯，您可以選擇使用「我的磁碟機」或「共用磁碟機」。 現在，對話方塊會直接前往Google Drive的「我的磁碟機」區域。
+
++++ 展開以檢視此變更
+
+<table>
+ <thead>
+    <tr>
+        <th>上一個</th>
+        <th>新增</th>
+    </tr>
+  </thead>
+ <tr>
+        <td><img src="assets/legacy-add.png" alt="透過Google Drive整合新增檔案"></td>
+         <td><img src="assets/new-add.png" alt="透過Google Drive整合新增檔案"></td>
+    </tr>
+</table>
+
++++
 
 ## 更新設定中存取層級區域的體驗
 

@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 32c0df18-2093-42c2-810a-015345d2fa7c
-source-git-commit: e07e4c7bbdc7f68695df94cc1155e3997bad338b
+source-git-commit: 0d746db3b3665b288b4724c346a02d3f459fc365
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -22,23 +22,23 @@ ht-degree: 0%
 >
 >此頁面上列出的功能屬於分階段發行的一部分，僅適用於特定客戶。
 
-<!--
 
-## New document approval decision buttons available in proofing viewer
+
+## 校訂檢視器中可用的新檔案核准決定按鈕
 
 >[!NOTE]
 >
->Preview release: March 27, 2025; Production release for all customers: With the 25.4 release (April 10, 2025)
+>預覽版本： 2025年4月8日；適用於所有客戶的生產版本：搭配25.4版（2025年4月10日）
 
-The new document approval decision buttons now appear in the proofing viewer. Now, when you create a simple proof and then add approvers and reviewers from the Document summary, they can make their decision directly inside the proofing viewer.
+新檔案核准決定按鈕現在會出現在校訂檢視器中。 現在，當您建立簡單的校訂，然後從檔案摘要新增核准者和稽核者時，他們可以直接在校訂檢視器中做出決定。
 
-Previously, you had to exit the proofing viewer to make a decision.
+之前，您必須退出校訂檢視器才能做出決定。
 
-Approvals created before this release will not display the buttons in proofing viewer.
+在此版本之前建立的核准將不會在校訂檢視器中顯示按鈕。
 
-For more information, see [Use new document approvals and proofing together](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md).
+如需詳細資訊，請參閱[一起使用新檔案核准和校訂](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)。
 
--->
+
 
 ## 案頭校訂檢視器更新
 

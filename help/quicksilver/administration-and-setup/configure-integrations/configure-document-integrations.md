@@ -8,9 +8,9 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: 04bdfbdf1fa05082fe12c2ab239e861a6db4ee6e
+source-git-commit: 5ff071a6e0af93f5280225355edad1d0dde42b3f
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1125'
 ht-degree: 1%
 
 ---
@@ -246,3 +246,8 @@ ht-degree: 1%
 1. 按一下&#x200B;**[!UICONTROL 刪除]**。
 
    這些欄位會從中繼資料對應中移除，而且其中包含的資訊不會隨上傳的檔案傳輸到[!DNL Workfront DAM]。
+
+
+## 限制
+
+* Google Drive檔案整合支援從Google Drive的「我的磁碟機」區域新增資料夾和影像。 您無法從共用磁碟機新增資料夾或影像。 深入瞭解[Google共用磁碟機](https://support.google.com/a/users/answer/7212025?hl=en)。
