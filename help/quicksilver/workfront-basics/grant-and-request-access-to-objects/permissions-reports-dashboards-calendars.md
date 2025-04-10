@@ -7,7 +7,7 @@ description: 當使用者指派存取層級時，您的Adobe Workfront管理員�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2dac54b-6506-41b0-a7f2-6fafab12c2d1
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 0%
@@ -54,12 +54,7 @@ ht-degree: 0%
 * 您可以授予報表、控制面板和行事曆下列許可權：
 
    * 檢視
-
-     ![](assets/screen-shot-2014-01-22-at-10.19.55-am.png)
-
    * 管理
-
-     ![](assets/screen-shot-2014-01-22-at-10.20.13-am.png)
 
 * 當您共用控制面板時，使用者預設擁有控制面板上所有報告、行事曆和外部頁面的檢視許可權。
 * 擁有請求授權的使用者無法檢視系統範圍的報告。 請求者需要檢視報表時，必須個別與請求者共用報表。

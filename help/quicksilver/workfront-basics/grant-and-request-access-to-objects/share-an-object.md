@@ -6,9 +6,9 @@ description: 當使用者指派存取層級時，您的Adobe Workfront管理員�
 author: Alina, Nolan
 feature: Get Started with Workfront
 exl-id: 27a1beb9-e83a-4ef6-bf5f-ad52575a993c
-source-git-commit: 311398231719fb8a29a6bf2ddf1eeafb58e4f39f
+source-git-commit: 8b524f7cd7e1bfedbaa1e993cbf4b3b805344b7c
 workflow-type: tm+mt
-source-wordcount: '1922'
+source-wordcount: '1909'
 ht-degree: 0%
 
 ---
@@ -193,9 +193,7 @@ ht-degree: 0%
 
    ![](assets/share-a-document-350x160.png)
 
-1. 在&#x200B;**授予&lt;物件名稱>存取**&#x200B;的許可權欄位中，開始輸入您要共用物件的使用者、團隊、角色、群組或公司的名稱，然後當名稱出現在下拉式清單中時按一下該名稱。
-
-   ![](assets/portfolio-access-box.png)
+1. 在&#x200B;**授予[物件名稱]存取**&#x200B;的許可權欄位中，開始輸入您要共用物件的使用者、團隊、角色、群組或公司的名稱，然後當名稱出現在下拉式清單中時按一下該名稱。
 
    >[!TIP]
    >
@@ -205,7 +203,7 @@ ht-degree: 0%
 
 1. （選擇性）針對您想要授予物件存取權的每個使用者、專案團隊、角色或群組，重複步驟3。
 
-1. 按一下下拉式功能表，然後選取您要授與的許可權層級，以指定您在步驟3中新增的每個使用者、團隊、角色、群組或公司的許可權。
+1. 指定您在步驟3中新增的每個使用者、團隊、角色、群組或公司的許可權。
 
    若要移除物件的許可權，請參閱[移除物件的許可權](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)。
 
@@ -218,24 +216,24 @@ ht-degree: 0%
      >
      >Workfront管理員或物件建立者可以從這些實體中移除許可權。
 
-     ![](assets/view-manage-sharing-options-for-portfolio-or-document.png)
+1. （可選）按一下您已授與的許可權層級旁的進階選項圖示，以設定物件的特定許可權。
 
-1. （選擇性）按一下&#x200B;**進階設定**&#x200B;以設定物件的特定許可權。
+   ![](assets/new-share-advanced-permissions-dropdown.png)
 
    「檢視」和「管理」許可權根據所選物件有不同的進階選項。\
    如需許可權層級的詳細資訊，請參閱[物件共用許可權總覽](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。
 
-1. （選擇性）若要讓此物件可供系統中的所有使用者使用，請按一下&#x200B;**齒輪**&#x200B;圖示![](assets/gear-icon-settings-with-dn-arrow.jpg)，然後在下拉式功能表中按一下&#x200B;**讓此物件在整個系統內可見**。
+1. （選擇性）若要讓此物件可供系統內的所有使用者使用，請按一下下拉式功能表中的&#x200B;**擁有存取權的使用者**，然後選取&#x200B;**系統中的每個人都可以檢視**。
 
    所有使用者都可以根據您設定的許可權檢視物件。
 
-1. （選擇性）若要將物件設為公用，請按一下&#x200B;**將此設為公開給外部使用者**。
+1. （選擇性）若要將物件設為公用，請按一下齒輪，然後啟用&#x200B;**將此設為公開給外部使用者**。
 
    >[!TIP]
    >
    >此選項並非適用於所有物件。
 
-   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png){width="350"}
+   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png)
 
 1. （視條件而定）如果您將物件公開給外部使用者，請按一下&#x200B;**複製連結**，然後將連結發佈給外部使用者。
 
@@ -261,7 +259,6 @@ ht-degree: 0%
 
 1. 在&#x200B;**編輯&lt;物件名稱>存取**&#x200B;方塊中，開始輸入您要共用物件的使用者、團隊、角色、群組或公司的名稱，然後當名稱出現在下拉式清單中時按一下該名稱。
 
-   ![](assets/list-share-add-people.png){width="350"}
 
    >[!TIP]
    >
@@ -273,11 +270,10 @@ ht-degree: 0%
 
 1. （可選）針對您想要授予物件存取權的每個使用者、專案團隊、角色或群組，重複步驟3。
 
-1. 按一下每個使用者、團隊、角色、群組或公司名稱右側的下拉式功能表，然後選取您要授與的許可權層級，以指定您在步驟3中新增的每個使用者、團隊、角色、群組或公司的許可權。
+1. 指定您在「步驟」中新增的每個使用者、團隊、角色、群組或公司的許可權。
 
    若要移除物件的許可權，請參閱[移除物件的許可權](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)。
 
-   ![](assets/screen-shot-2013-12-04-at-1.13.11-pm.png)
 
    下列選項可供使用：
 
@@ -299,12 +295,12 @@ ht-degree: 0%
      >
      >Workfront管理員或物件建立者可以從這些實體中移除許可權。
 
-1. （選擇性）按一下&#x200B;**進階設定**&#x200B;以設定物件的特定許可權。
+1. （可選）按一下您已授與的許可權層級旁的進階選項圖示，以設定物件的特定許可權。
+
+   ![](assets/new-share-advanced-permissions-dropdown.png)
 
    「檢視」、「管理」和「貢獻」有不同的進階選項，視選取的物件而定。\
    如需許可權層級的詳細資訊，請參閱[物件共用許可權總覽](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。
-
-   ![](assets/screen-shot-2013-12-04-at-1.14.11-pm.png)
 
 1. （選擇性）若要讓此物件可供系統中的所有使用者使用，請按一下&#x200B;**齒輪**&#x200B;圖示![](assets/gear-icon-settings-with-dn-arrow.jpg)，然後在下拉式功能表中按一下&#x200B;**讓此物件在整個系統內可見**。
 

@@ -7,7 +7,7 @@ description: 指派存取層級時，您的Adobe Workfront管理員可授予您�
 author: Alina
 feature: Get Started with Workfront
 exl-id: bfa6ce97-24ad-44b3-9c2f-7fac6b748f94
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: 851e946fd4e9b0da725185227f9ed24334eafb86
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 0%
@@ -15,6 +15,7 @@ ht-degree: 0%
 ---
 
 # 共用方案
+
 
 指派存取層級時，您的Adobe Workfront管理員可授予您檢視或編輯方案的存取權。 您必須擁有計畫授權才能編輯計畫。 如需詳細資訊，請參閱[授予程式的存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md)。
 
@@ -36,9 +37,7 @@ ht-degree: 0%
 
   如需在Workfront中共用專案的詳細資訊，請參閱[共用物件](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)。
 
-* 您只能授予程式的「檢視」或「管理」許可權。
-
-  ![](assets/screen-shot-2014-01-23-at-12.45.15-pm.png)    ![](assets/screen-shot-2014-01-22-at-10.03.43-am-190x167.png)
+* 您只能授與程式的「檢視」或「管理」許可權：
 
 * 當您共用方案時，使用者預設會繼承與該方案相關聯的所有子物件的相同許可權。
 
@@ -52,17 +51,19 @@ ht-degree: 0%
 
 | **動作** | **管理** | **檢視** |
 |---|---|---|
-| 編輯計畫詳細資料 | ✓ (A) |   |
-| 檢視計畫 | ✓ (A) | ✓ (A) |
-| 刪除計畫 | ✓ (A) |   |
-| 附加自訂表格 | ✓ (A) |   |
-| 編輯自訂欄位 | ✓ (A) |   |
-| 新增或移除專案&#42; | ✓ (A) |   |
-| 核准專案 | ✓ (A) |   |
-| 新增檔案資料夾&#42; | ✓ (A) | ✓ (A) |
-| 新增檔案 | ✓ (A) | ✓ (A) |
-| 新增更新/評論 | ✓ (A) | ✓ (A) |
-| 共用 | ✓ (A) | ✓ (A) |
-| 共用系統範圍 |   | ✓ (A) |
+| 編輯計畫詳細資料 | ✓ |   |
+| 檢視計畫 | ✓ | ✓ |
+| 刪除計畫 | ✓ |   |
+| 附加自訂表格 | ✓ |   |
+| 編輯自訂欄位 | ✓ |   |
+| 新增或移除專案&#42; | ✓ |   |
+| 核准專案 | ✓ |   |
+| 新增檔案資料夾&#42; | ✓ | ✓ |
+| 新增檔案 | ✓ | ✓ |
+| 新增更新/評論 | ✓ | ✓ |
+| 共用 | ✓ | ✓ |
+| 共用系統範圍 |   | ✓ |
 
-*這些許可權是由存取層級和其他物件（例如專案）的許可權所控制。 
+*這些許可權是由存取層級和其他物件（例如專案）的許可權所控制。
+
+

@@ -6,9 +6,9 @@ description: 當使用者指派存取層級時，您的Adobe Workfront管理員�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 91ee72e0-20a9-4b06-9f80-a343dd4fbe06
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '692'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 當使用者指派存取層級時，您的Adobe Workfront管理員會授予他們檢視或編輯問題的存取權。 如需授與問題存取權的詳細資訊，請參閱[授與問題存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)。
 
-除了授予使用者的存取層級之外，您還可以授予他們檢視、Contribute或管理您有權共用之特定問題的許可權。 如需存取層級和許可權的詳細資訊，請參閱[存取層級和許可權如何搭配運作](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)。
+除了授予使用者的存取層級之外，您還可以授予他們檢視、貢獻或管理您有權共用之特定問題的許可權。 如需存取層級和許可權的詳細資訊，請參閱[存取層級和許可權如何搭配運作](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)。
 
 許可權專屬於Workfront中的一個專案，可定義使用者可對該專案執行的動作。
 
@@ -34,15 +34,8 @@ ht-degree: 2%
 * 您可以向問題授予下列許可權： 
 
    * 檢視
-
-     ![view_on_issue.png](assets/view-on-issue-221x216.png)
-
+   * 參與
    * 管理
-
-     ![manage_on_issues.png](assets/manage-on-issues-179x199.png)
-
-   * 參與\
-     ![contribute_on_issue.png](assets/contribute-on-issue-156x205.png)
 
 * 當您共用問題時，附加到問題的所有檔案都會繼承相同的許可權。
 
@@ -134,7 +127,7 @@ ht-degree: 2%
 
 ## 問題許可權
 
-下表顯示當允許使用者檢視、Contribute或管理問題時，您可以授予他們哪些許可權：
+下表顯示當允許使用者檢視、貢獻或管理問題時，您可以授予他們哪些許可權：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -145,110 +138,110 @@ ht-degree: 2%
   <tr> 
    <td><strong>動作</strong> </td> 
    <td><strong>管理</strong> </td> 
-   <td><strong>Contribute</strong> </td> 
+   <td><strong>貢獻</strong> </td> 
    <td><strong>檢視</strong> </td> 
   </tr> 
   <tr> 
    <td> <p>新增問題</p> </td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>刪除 </td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>附加自訂表單</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>編輯自訂欄位</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>核准問題</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>新增核准流程</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>新增文件</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>複製問題*</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>移動問題</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>記錄時數</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>轉換為專案*</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>接受指派</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>更新/評論</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>修改計畫日期</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>進行任務指派</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>共用</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>全系統共用</td> 
    <td> </td> 
    <td> </td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
   </tr> 
  </tbody> 
 </table>

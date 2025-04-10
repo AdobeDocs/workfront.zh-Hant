@@ -5,7 +5,7 @@ author: Alina
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 79643202-2d91-4028-b673-c3443b50d898
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 0%
@@ -31,15 +31,13 @@ ht-degree: 0%
 * 依預設，投資組合的建立者擁有投資組合的管理許可權。
 * 您可以單獨共用一個投資組合，也可以同時共用多個投資組合。 共用投資組合等同於在Workfront中共用其他物件。 如需詳細資訊，請參閱[共用物件](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)。
 
-* 您只能授予Portfolio的「檢視」或「管理」許可權。
+* 您只能授予投資組合的「檢視」或「管理」許可權。
+</span>
+*共用專案組合時，使用者預設會繼承與專案組合相關聯之所有子物件的相同許可權。
 
-  ![](assets/screen-shot-2014-01-23-at-12.45.15-pm.png)    ![](assets/screen-shot-2014-01-22-at-10.03.43-am-190x167.png)
+如需Workfront中物件階層的詳細資訊，請參閱[瞭解Adobe Workfront中的物件](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)。
 
-* 共用專案組合時，使用者預設會繼承與專案組合相關聯之所有子物件的相同許可權。
-
-  如需Workfront中物件階層的詳細資訊，請參閱[瞭解Adobe Workfront中的物件](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)。
-
-* 您可以從Portfolio中移除繼承的許可權。 如需有關移除物件許可權的詳細資訊，請參閱[移除物件許可權](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)。
+* 您可以從Portfolio移除繼承的許可權。 如需有關移除物件許可權的詳細資訊，請參閱[移除物件許可權](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)。
 
 ## Portfolio許可權
 
@@ -47,19 +45,19 @@ ht-degree: 0%
 
 | **動作** | **管理** | **檢視** |
 |---|---|---|
-| 編輯Portfolio詳細資訊 | ✓ (A) |   |
-| 檢視Portfolio | ✓ (A) | ✓ (A) |
-| 刪除Portfolio | ✓ (A) |   |
-| 附加自訂表格 | ✓ (A) |   |
-| 編輯自訂欄位 | ✓ (A) |   |
-| 新增或移除程式&#42; | ✓ (A) |   |
-| 新增或移除專案&#42; | ✓ (A) |   |
-| 核准專案 | ✓ (A) |   |
-| Portfolio最佳化&#42; | ✓ (A) |   |
-| 新增檔案資料夾&#42; | ✓ (A) | ✓ (A) |
-| 新增檔案 | ✓ (A) | ✓ (A) |
-| 更新/評論 | ✓ (A) | ✓ (A) |
-| 共用 | ✓ (A) | ✓ (A) |
-| 共用系統範圍 |   | ✓ (A) |
+| 編輯Portfolio詳細資料 | ✓ |   |
+| 檢視Portfolio | ✓ | ✓ |
+| 刪除Portfolio | ✓ |   |
+| 附加自訂表格 | ✓ |   |
+| 編輯自訂欄位 | ✓ |   |
+| 新增或移除程式&#42; | ✓ |   |
+| 新增或移除專案&#42; | ✓ |   |
+| 核准專案 | ✓ |   |
+| Portfolio最佳化&#42; | ✓ |   |
+| 新增檔案資料夾&#42; | ✓ | ✓ |
+| 新增檔案 | ✓ | ✓ |
+| 更新/評論 | ✓ | ✓ |
+| 共用 | ✓ | ✓ |
+| 共用系統範圍 |   | ✓ |
 
 *這些許可權是由其他物件（如專案、方案、檔案）的存取層級和許可權所控制。

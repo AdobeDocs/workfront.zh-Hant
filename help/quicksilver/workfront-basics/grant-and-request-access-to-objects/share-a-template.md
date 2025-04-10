@@ -6,7 +6,7 @@ description: 身為Adobe Workfront管理員，您可以在指派使用者的存�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 2%
@@ -40,12 +40,7 @@ ht-degree: 2%
      您可以將下列許可權授與範本：
 
       * 檢視
-
-        ![](assets/view-on-template-262x221.png)
-
       * 管理
-
-        ![](assets/manage-on-template-225x280.png)
 
    * 使用範本建立的未來專案。 您可以對使用範本建立的專案賦予與個別專案相同的許可權層級。 
 
@@ -124,38 +119,38 @@ You can share an object only with active users, teams,
  <tbody> 
   <tr> 
    <td>複製</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>刪除</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>編輯範本詳細資訊</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>檢視範本</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>共用</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>全系統共用</td> 
    <td> </td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>新增文件</p> <p>秘訣：有時候，人們會將檔案新增至專案範本，認為自己要新增至專案。 您可以停用此設定來防止收件者發生這種情況。</p> </td> 
    <td> </td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
   </tr> 
  </tbody> 
 </table>

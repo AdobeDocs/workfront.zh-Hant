@@ -6,7 +6,7 @@ description: 當您的Adobe Workfront管理員指派存取層級時，可以授�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 45da15cb-8880-41f7-a0de-939882c1f154
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 2%
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 當您的Adobe Workfront管理員指派存取層級時，可以授予您檢視或編輯任務的存取權。 如需授與工作存取權的詳細資訊，請參閱[授與工作存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)。
 
-除了授予使用者的存取層級外，您還可以授予他們檢視、Contribute或管理您有權共用之特定工作的許可權。
+除了授予使用者的存取層級外，您還可以授予他們檢視、貢獻或管理您有權共用之特定工作的許可權。
 
 許可權專屬於Workfront中的一個專案，可定義使用者可對該專案執行的動作。
 
@@ -33,9 +33,7 @@ ht-degree: 2%
 
    * 檢視
    * 管理
-   * 參與\
-     ![](assets/screen-shot-2014-05-30-at-11.37.24-am-175x192.png) ![](assets/screen-shot-2014-01-23-at-1.12.40-pm-154x258.png) ![](assets/screen-shot-2014-01-22-at-10.53.00-am-182x252.png)
-
+   * 參與
 * 當您共用任務時，使用者預設會繼承與任務相關的所有子物件的相同許可權。 例如，他們會對附加到任務的子任務、問題和檔案繼承相同許可權。\
   如需Workfront中物件階層的詳細資訊，請參閱  [瞭解Adobe Workfront中的物件](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)。
 
@@ -65,7 +63,7 @@ ht-degree: 2%
 
 ## 任務許可權
 
-下表顯示當允許使用者檢視、Contribute或管理任務時，您可以授予他們哪些許可權：
+下表顯示當允許使用者檢視、貢獻或管理任務時，您可以授予使用者哪些許可權：
 
 <table border="2" cellspacing="15" cellpadding="1"> 
  <col> 
@@ -76,160 +74,160 @@ ht-degree: 2%
   <tr> 
    <th><strong>動作</strong> </th> 
    <th><strong>管理</strong> </th> 
-   <th><strong>Contribute</strong> </th> 
+   <th><strong>貢獻</strong> </th> 
    <th><strong>檢視</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td scope="row">新增任務</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">新增前置任務</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">新增問題</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td scope="row">刪除任務</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row"> <p>一般任務編輯<br></p> </td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">變更任務狀態</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">編輯任務限制</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">檢視任務</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td scope="row">新增檔案</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td scope="row">複製任務*</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td scope="row">移動任務*</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">記錄時數</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">修改計畫日期</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">接受指派</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">進行指派</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">附加自訂表單</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">編輯自訂欄位</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">建立核准流程</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">核准任務</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td scope="row">編輯財務*</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">新增/編輯費用</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">檢視財務</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td scope="row">更新/評論</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td scope="row">共用</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td scope="row">全系統共用</td> 
    <td> </td> 
    <td> </td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
   </tr> 
  </tbody> 
 </table>

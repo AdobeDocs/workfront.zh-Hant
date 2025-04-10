@@ -6,9 +6,9 @@ description: 使用者可以要求存取Adobe Workfront中的物件。 如需請
 author: Alina
 feature: Get Started with Workfront
 exl-id: e0a69ed5-57c3-47ac-bb7a-65495f93b3e3
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 2c94dd423cfffc7685f24699fa73fb6a48cf2806
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 0%
 
    1. 移至&#x200B;**我的核准** Widget並尋找更多存取權的要求，然後按一下&#x200B;**授與存取權**。
 
-      ![](assets/request-for-access-to-project-in-new-home-approvals-widget.png)
+      ![核准請求](assets/request-for-access-to-project-in-new-home-approvals-widget.png)
 
    1. （選擇性）若要授與不同層級的存取權，請按一下[授與存取權]按鈕左側的下拉式功能表，並選取新的存取權，然後按一下[授與存取權]。****
 
@@ -89,29 +89,11 @@ ht-degree: 0%
 1. 執行下列任一項作業，前往您的使用者設定檔：
 
    * 按一下熒幕右上角的&#x200B;**主要功能表** ![](assets/dots-main-menu.png)，然後按一下您的名稱。
-   * 按一下右上角的Adobe **主要功能表** ![](assets/adobe-blue-main-menu.png) （如果可用），然後按一下&#x200B;**Workfront設定檔**。
+   * 按一下右上角的Adobe **主要功能表** ![設定檔圖示](assets/adobe-blue-main-menu.png) （如果有的話），然後按一下&#x200B;**Workfront設定檔**。
 
-1. 按一下標題中您名稱右側的&#x200B;**更多**&#x200B;功能表![](assets/more-icon.png)，然後按一下&#x200B;**編輯**。
+1. 按一下標題中您名稱右側的&#x200B;**更多**&#x200B;功能表![更多圖示](assets/more-icon.png)，然後按一下&#x200B;**編輯**。
 1. 按一下&#x200B;**通知**，然後選取或取消選取&#x200B;**需要動作**&#x200B;區段中的&#x200B;**某人向我要求存取權**，這取決於您是否要在其他使用者向您要求存取權時收到電子郵件通知。
 
    您可以啟用每日或即時通知。
 
 1. 按一下「**儲存變更**」。
-
-<!--1. (Conditional) From the legacy Home area, do the following: 
-   
-   1. In the **Work List**, select the access request you want to manage in the **Approvals** section.  
-
-   ![Screen_Shot_2018-07-02_at_11.35.29_AM.png](assets/screen-shot-2018-07-02-at-11.35.29-am-350x242.png)
-
-   The request displays on the right of the Work List. 
-
-   1. In the upper-right corner, click the grant access button.  
-   Depending on the type of access requested, the button name changes. For example, if the requestor asks for View access, the button says **Grant View Access**.  
-   ![Grant_Access_2.png](assets/grant-access-2-350x98.png)
-
-   1. (Optional) To grant a different level of access than requested, click the arrow next to the grant access button and select the new access, then click **Grant < Permission level > Access >**.  
-   A message appears confirming access was granted.  
-   
-   1. (Optional) Click **Ignore** to deny access.  
-   A message appears confirming access was ignored.-->

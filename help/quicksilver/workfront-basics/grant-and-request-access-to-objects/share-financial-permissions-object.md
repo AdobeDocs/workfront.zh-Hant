@@ -6,16 +6,14 @@ description: 指派存取層級時，您的Adobe Workfront管理員可授予您�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '565'
 ht-degree: 1%
 
 ---
 
 # 共用物件的財務許可權
-
-{{highlighted-preview}}
 
 指派存取層級時，您的Adobe Workfront管理員可授予您檢視或編輯財務資料的存取權。 如需詳細資訊，請參閱[授予財務資料的存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)。
 
@@ -54,6 +52,8 @@ ht-degree: 1%
  </tbody> 
 </table>
 -->
+
++++ 展開以檢視本文中功能的存取需求。
 您必須具備下列專案才能共用物件的財務資料資訊：
 
 <table style="table-layout:auto"> 
@@ -81,11 +81,13 @@ ht-degree: 1%
 
 &#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
 
++++
+
 ## 共用物件並授與財務許可權
 
 將財務許可權授與物件時，請考量下列事項：
 
-* 您可以授與專案、任務、問題、<span class="preview">和評等卡</span>的財務許可權。
+* 您可以授予專案、任務和問題的財務許可權。
 * 許可權可繼承：如果您擁有專案的檢視財務許可權，您則會自動繼承專案上任務和問題的檢視財務許可權。
 
 若要授與物件的財務許可權：
@@ -102,10 +104,8 @@ ht-degree: 1%
 1. 如果您選取的名稱右側出現下拉式功能表，請按一下下列其中一個可用選項：
 
    * **檢視它**
-   * **Contribute加入其中**
+   * **協助撰寫**
    * **管理它**
-
-     ![](assets/12.png)      ![](assets/13.png) ![](assets/14.png)
 
 1. 在同一個下拉式功能表中，按一下&#x200B;**進階設定**，然後執行下列其中一項作業：
 
@@ -116,7 +116,7 @@ ht-degree: 1%
 
 ## 所有共用層級的財務許可權
 
-下表顯示當您將物件的「檢視」、「Contribute」或「管理」許可權授予使用者時，他們可獲得的財務許可權： 
+下表顯示當您將物件的「檢視」、「貢獻」或「管理」許可權授與使用者時，他們可獲得的財務許可權： 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -127,64 +127,52 @@ ht-degree: 1%
   <tr> 
    <th><strong>動作</strong> </th> 
    <th><strong>管理</strong> </th> 
-   <th><strong>Contribute</strong> </th> 
+   <th><strong>貢獻</strong> </th> 
    <th><strong>檢視</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td>管理付費記錄</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> <p> </p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>管理/檢視角色帳單與成本費率</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>管理/檢視使用者帳單與成本費率</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>檢視財務</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td> ✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td> ✓</td> 
   </tr> 
-  <tr> 
-   <td><span class="preview">管理費率卡</span></td> 
-   <td>✓ (A)</td> 
-   <td> <p> </p> </td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td><span class="preview">檢視費率卡</span></td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td> ✓ (A)</td> 
-  </tr>
   <tr> 
    <td>在資源計畫工具中依成本檢視資訊</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>資源規劃工具中的預算資源*</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>在「資源規劃」工具中檢視資源*</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td> <p>✓</p> </td> 
   </tr> 
  </tbody> 
 </table>
