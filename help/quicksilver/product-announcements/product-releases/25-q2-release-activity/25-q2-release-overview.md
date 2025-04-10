@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: bb7f627f7ee2fdf15ba84919bf67f6c8fbb682dd
+source-git-commit: 75ff6f954c1a53a36d64c4f428097fe9a0c4b053
 workflow-type: tm+mt
-source-wordcount: '1713'
+source-wordcount: '1722'
 ht-degree: 0%
 
 ---
@@ -225,7 +225,7 @@ Workfront版本編號代表每月和每季的版本追蹤。 第一個數字代�
             <p><b>將於下列日期提供：</b></p>
             <ul>
                 <li>預覽版本： 2025年2月27日</li>
-                <li>所有客戶適用的生產版本：第25.4版本（2025年4月10日）</li>
+                <li>此功能將分三階段推出至「生產」環境：從25.4版（2025年4月10日）開始，到2024年4月17日完成</li>
             </ul>
         </td>
     </tr>                          
