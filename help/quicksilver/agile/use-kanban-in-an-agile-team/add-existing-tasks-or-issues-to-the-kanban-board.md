@@ -3,17 +3,19 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: 將現有任務或問題新增到Kanban面板
 description: 如果您擁有專案的「管理」存取權，您可以將任何任務或問題新增到Kanban面板。
-author: Lisa
+author: Courtney
 feature: Agile
 exl-id: 5f94a451-8530-478f-85c2-41bc15c22dd1
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: f78a86dcdf7b63e98bec5216fb5ab7622775a053
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
 
 # 將現有任務或問題新增到[!UICONTROL Kanban]面板
+
+<!-- Audited: 4/2025 -->
 
 如果您擁有專案的管理存取權，可以將任何任務或問題新增到[!UICONTROL Kanban]面板。 將任務或問題移至[!UICONTROL Kanban]展示板時，請記住下列事項：
 
@@ -49,23 +51,51 @@ ht-degree: 0%
 
 +++
 
-## 將現有任務或問題新增到Kanban面板
+## 從專案新增現有任務或問題
 
-若要將任務或問題新增至[!UICONTROL Kanban]面板：
+若要將任務或問題從專案新增至[!UICONTROL Kanban]面板：
 
-{{step1-click-main-menu}}
+{{step1-to-projects}}
 
-1. 選擇下列其中一項： **[!UICONTROL 專案]**、**[!UICONTROL 報告]**&#x200B;或&#x200B;**[!UICONTROL 儀表板]**。
-
-1. 前往專案、報告或儀表板，其中包含您要新增至Kanban面板的任務或問題。
-1. 選取一或多個任務或問題。
-1. 按一下&#x200B;**[!UICONTROL 更多]** > **[!UICONTROL 新增至]** > **[!UICONTROL Kanban面板]**。
-1. 在[!UICONTROL 新增劇本]對話方塊中，輸入Kanban團隊的名稱。
+1. 選取包含您要新增至Kanban面板的任務或問題的專案。
+1. 按一下&#x200B;**任務**&#x200B;或&#x200B;**問題**&#x200B;標籤，然後選取一或多個要新增的工作專案。
+1. 按一下&#x200B;**[!UICONTROL 更多]**&#x200B;圖示![更多圖示](assets/more-icon.png)，然後選取&#x200B;**新增至Kanban面板**。 [!UICONTROL **新增至**]&#x200B;對話方塊開啟。
+1. 在&#x200B;**看板**&#x200B;欄位中，輸入Kanban團隊的名稱，然後從下拉式清單中選取它。
 
    >[!NOTE]
    >
-   >如果您新增多個團隊，則任務或問題只能顯示在一個團隊的[!DNL kanban]展示板上。 這是您先前選擇的展示板。
+   >如果將多個團隊指派給任務或問題，則工作專案只能顯示在一個團隊的[!DNL kanban]展示板上。
+1. 按一下&#x200B;**新增**。
 
-1. 如果您正在新增工作，請按一下&#x200B;**[!UICONTROL 新增劇本]**。
-或
-如果您正在新增問題，請按一下**[!UICONTROL 新增問題]**。
+## 從報告新增現有任務或問題
+
+若要從報告將任務或問題新增至[!UICONTROL Kanban]面板：
+
+{{step1-to-reports}}
+
+1. 選取包含您要新增至Kanban面板之工作專案的任務或問題報告。
+1. 選取一或多個要新增的工作專案。
+1. 按一下&#x200B;**[!UICONTROL 更多]**&#x200B;圖示![更多圖示](assets/more-icon.png)，然後選取&#x200B;**新增至Kanban面板**。 [!UICONTROL **新增至**]&#x200B;對話方塊開啟。
+1. 在&#x200B;**看板**&#x200B;欄位中，輸入Kanban團隊的名稱，然後從下拉式清單中選取它。
+
+   >[!NOTE]
+   >
+   >如果將多個團隊指派給任務或問題，則工作專案只能顯示在一個團隊的[!DNL kanban]展示板上。
+1. 按一下&#x200B;**新增**。
+
+
+## 從儀表板新增現有任務或問題
+
+若要從儀表板將任務或問題新增到[!UICONTROL Kanban]面板：
+
+{{step1-to-dashboards}}
+
+1. 選取包含您要新增至Kanban面板之工作專案的儀表板。
+1. 選取一或多個要新增的工作專案。
+1. 按一下&#x200B;**[!UICONTROL 更多]**&#x200B;圖示![更多圖示](assets/more-icon.png)，然後選取&#x200B;**新增至Kanban面板**。 [!UICONTROL **新增至**]&#x200B;對話方塊開啟。
+1. 在&#x200B;**看板**&#x200B;欄位中，輸入Kanban團隊的名稱，然後從下拉式清單中選取它。
+
+   >[!NOTE]
+   >
+   >如果將多個團隊指派給任務或問題，則工作專案只能顯示在一個團隊的[!DNL kanban]展示板上。
+1. 按一下&#x200B;**新增**。

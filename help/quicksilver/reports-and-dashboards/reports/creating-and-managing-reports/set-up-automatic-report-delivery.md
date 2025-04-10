@@ -3,19 +3,19 @@ product-area: reporting;setup
 navigation-topic: create-and-manage-reports
 title: 排程自動報告傳送
 description: 排程自動報告傳送
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: f78a86dcdf7b63e98bec5216fb5ab7622775a053
 workflow-type: tm+mt
-source-wordcount: '1197'
+source-wordcount: '1268'
 ht-degree: 2%
 
 ---
 
 # 排程自動報告傳送
 
-<!-- Audited: 11/2024 -->
+<!-- Audited: 4/2025 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: If this stays, fix links which now go to the reference article)</p>
@@ -36,24 +36,21 @@ ht-degree: 2%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
       <td> 
-      <p>新增：</p>
-         <ul>
-         <li><p>標準</p></li>
-         </ul>
-      <p>目前：</p>
-         <ul>
-         <li><p>規劃</p></li>
-         </ul>
-   </td>
+      <p>新增：標準</p>
+      <p>或</p>
+
+<p>目前：計畫</p>
+
+</td>
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
+   <td role="rowheader">存取層級設定</td> 
    <td> <p>編輯報告、儀表板、行事曆的存取權</p> <p>編輯對篩選器、檢視、群組的存取權</p> </td> 
   </tr> 
   <tr> 
@@ -63,7 +60,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -73,24 +70,24 @@ ht-degree: 2%
 
 ## 排程報表傳送
 
-若要排程報表自動傳送，或編輯或刪除現有的報表傳送，請執行下列步&#x200B;驟：
 
-1. 移至您要排程傳送的報告。
+若要排程報表自動傳送，請執行下列步&#x200B;驟：
 
-   >[!NOTE]
-   >
-   >報告傳送不包含提示。 如果您想要限制報告傳送中的資料，我們建議您將篩選器套用至您要傳送的報告。
+{{step1-to-reports}}
 
-1. 按一下&#x200B;**報告動作**，然後按一下&#x200B;**傳送報告**。
+>[!NOTE]
+>
+>報告傳送不包含提示。 如果您想要限制報告傳送中的資料，我們建議您將篩選器套用至您要傳送的報告。
 
-   顯示&#x200B;**傳送報告**&#x200B;對話方塊。
+1. 在&#x200B;**報表**&#x200B;頁面上，選取報表。
+1. 在畫面頂端，按一下&#x200B;**報告動作**，然後從出現的下拉式清單&#x200B;**傳送報告**。 顯示&#x200B;**傳送報告**&#x200B;對話方塊。
 
    >[!TIP]
    >
    >若要在指定時間手動傳送報告，請移至報告，然後按一下&#x200B;**報告動作** > **傳送報告** > **立即傳送**。
 
 1. 選取&#x200B;**重複傳遞**&#x200B;索引標籤。
-1. （視條件而定）若要修改現有的重複報告傳遞，請在&#x200B;**重複傳遞**&#x200B;區段中選取報告傳遞。
+1. （視條件而定）若要修改現有的重複報告傳遞，請在對話方塊右側的&#x200B;**重複傳遞**&#x200B;區段中選取報告傳遞。
 1. 指定下列資訊：
 
    <table style="table-layout:auto"> 
@@ -99,30 +96,30 @@ ht-degree: 2%
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>傳送至</p> </td> 
-      <td> <p>開始輸入您要傳送報告的目標使用者、群組、團隊或角色的名稱，然後當名稱出現在下拉式清單中時按一下該名稱。</p> <p>或</p> <p>指定您希望存取報表的Workfront系統外部人員電子郵件地址。</p> <p>重複此程式，將報告傳送給多個使用者、群組、團隊或角色。</p> <p>注意：  <p>新增報告傳送收件者時，請考量下列事項：</p> 
+      <td> <p>開始輸入您要傳送報告的目標使用者、群組、團隊或角色的名稱，然後當名稱出現在下拉式清單中時按一下該名稱。</p> <p>或</p> <p>輸入您希望存取報表的Workfront系統外部人員電子郵件地址。</p> <p>重複此程式，將報告傳送給多個使用者、群組、團隊或角色。</p> <p>注意：  <p>新增報告傳送收件者時，請考量下列事項：</p> 
         <ul> 
          <li>如果貴組織將Workfront通知限制在特定電子郵件網域，您只能將報告傳送至電子郵件允許清單中列出的電子郵件地址。<p>如需Workfront管理員如何更新電子郵件允許清單的詳細資訊，請參閱<a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md#configur" class="MCXref xref">設定您的電子郵件允許清單</a>區段。</p></li> 
          <li> <p>將大量使用者新增為收件者可能會導致傳遞失敗。 如果您遇到傳送失敗，您可以以較小的使用者群組排程多個報表傳送。</p> </li> 
-        </ul> </p> </td> 
+        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>電子郵件主題</p> </td> 
-      <td> <p>指定電子郵件通知的主旨。</p> <p>依預設，電子郵件主旨為：</p> <p><em>Workfront報告： [報告名稱] [日期]</em> </p> </td> 
+      <td> <p>輸入電子郵件通知的主旨。</p> <p>依預設，電子郵件主旨為：</p> <p><em>Workfront報告： [報告名稱] [日期]</em> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>電子郵件訊息</p> </td> 
-      <td> <p>指定要包含在電子郵件中的訊息。</p> <p>依預設，電子郵件訊息為：</p> <p><em>附加是Workfront於[日期].</em>產生的[報告頻率]報告[報告名稱] </p> <p>注意：僅針對以Excel檔案傳送的報表，也會在電子郵件中新增下列訊息：「請注意，若使用MS Excel (XLS)檔案型別，這些檔案型別支援的超連結會有數量限制(65,530)。 如果超過這些限制，您的檔案將無法開啟，建議您在不使用超連結的情況下重新傳送。 請返回報告排程器，移除超連結並重新傳送報告。」 「請回到報告排程器」片語是回到報告的連結。</p> </td> 
+      <td> <p>輸入要包含在電子郵件中的訊息。</p> <p>依預設，電子郵件訊息為：</p> <p><em>附加是Workfront於[日期].</em>產生的[報告頻率]報告[報告名稱] </p> <p>注意：僅針對以Excel檔案傳送的報表，也會在電子郵件中新增下列訊息：「請注意，若使用MS Excel (XLS)檔案型別，這些檔案型別支援的超連結會有數量限制(65,530)。 如果超過這些限制，您的檔案將無法開啟，建議您在不使用超連結的情況下重新傳送。 請返回報告排程器，移除超連結並重新傳送報告。」 「請回到報告排程器」片語是回到報告的連結。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>提供此報告並具備以下存取許可權：</p> </td> 
-      <td> <p>開始輸入可存取報表的使用者名稱，然後在名稱出現在下拉式清單中時按一下名稱。 收到報表的使用者將被授予與您在此指定的使用者相同層級的報表存取權。<br>如需詳細資訊，請參閱<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">使用其他使用者的存取權執行並傳遞報告</a>。</p> <p>注意：此欄位不支援萬用字元。 例如，使用萬用字元$$User.ID不會以接收報表之使用者的存取許可權執行報表。</p> </td> 
+      <td> <p>開始輸入可存取報表的使用者名稱，然後在名稱出現在下拉式清單中時按一下名稱。 收到報表的使用者將被授予與您在此指定的使用者相同層級的報表存取權。<br>如需詳細資訊，請參閱<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">使用其他使用者的存取權執行並傳遞報告</a>。</p> <p>注意：此欄位不支援萬用字元。 例如，使用萬用字元<em>$$User.ID</em>無法以接收報告之使用者的存取許可權執行報告。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>格式</p> </td> 
       <td> <p>選取您要用於傳送報表的格式：</p> 
        <ul> 
         <li> <p>HTML</p> </li> 
-        <li> <p>PDF</p> <p>如果選取此專案，您可以使用額外顯示的<strong>紙張大小</strong>和<strong>方向</strong>選項來格式化輸出。</p> </li> 
+        <li> <p>PDF</p> <p>如果您選取PDF，則可以使用顯示的其他<strong>紙張大小</strong>和<strong>方向</strong>選項來格式化輸出。</p> </li> 
         <li> <p>MS Excel (.xlsx)</p> </li> 
         <li> <p>TSV</p> </li> 
        </ul> </td> 
@@ -170,9 +167,7 @@ ht-degree: 2%
     </tbody> 
    </table>
 
-1. 按一下&#x200B;**儲存**&#x200B;以儲存報告傳遞。
-
-   報告會顯示在&#x200B;**重複傳遞**&#x200B;區段（在&#x200B;**傳送報告**&#x200B;對話方塊中）中，並將於排程時間傳送。
+1. 按一下&#x200B;**儲存**&#x200B;以儲存報告傳遞。 報告會顯示在&#x200B;**傳送報告**&#x200B;對話方塊的&#x200B;**重複傳遞**&#x200B;區段中，並將在排定的時間傳送。
 
    如需可能影響報表傳送之大小限制的相關資訊，請參閱[報表傳送限制](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#understanding-export-limits)與[匯出限制](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#export)小節。
 
@@ -182,10 +177,21 @@ ht-degree: 2%
 >
 >如果您使用排程報表傳送來透過BI工具分析Workfront資料，建議您改用Workfront Data Connect 。 如需詳細資訊，請參閱[Workfront Data Connect總覽](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md)。
 
-1. （選擇性）若要刪除排程的傳送：
+## 刪除排程報告傳遞
 
-   1. 在&#x200B;**重複傳遞**&#x200B;面板中，按一下排定的傳遞，然後按一下&#x200B;**刪除**。
-   1. 按一下&#x200B;**刪除**&#x200B;確認。
+若要刪除排程報表傳送，請執行下列步&#x200B;驟：
+
+{{step1-to-reports}}
+
+1. 在&#x200B;**報表**&#x200B;頁面上，選取報表。
+
+1. 在畫面頂端，按一下&#x200B;**報告動作**，然後從出現的下拉式清單&#x200B;**傳送報告**。 顯示&#x200B;**傳送報告**&#x200B;對話方塊。
+
+1. 選取&#x200B;**重複傳遞**&#x200B;索引標籤。
+1. 在對話方塊右側的&#x200B;**重複傳遞**&#x200B;區段中，按一下您要刪除的排程傳遞。
+1. 在&#x200B;**重複傳遞**&#x200B;詳細資訊區段中，按一下&#x200B;**刪除**。
+
+1. 按一下&#x200B;**刪除**&#x200B;確認。
 
 <!--## Video walk-through
 

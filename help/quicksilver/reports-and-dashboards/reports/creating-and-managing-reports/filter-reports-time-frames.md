@@ -2,22 +2,22 @@
 product-area: reporting
 navigation-topic: create-and-manage-reports
 title: 依時間範圍篩選報表
-description: 您可以依物件上存在的日期的時間範圍來篩選報表。 例如，您可以篩選輸入時數之特定時間範圍的時數報告。
-author: Nolan
+description: 您可以依物件上現存日期的時間範圍來篩選報表。 例如，您可以篩選輸入時數之特定時間範圍的時數報告。
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 7dea484c-d38e-4786-85d0-f4c106cfa46f
-source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
+source-git-commit: f78a86dcdf7b63e98bec5216fb5ab7622775a053
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '965'
 ht-degree: 5%
 
 ---
 
 # 依時間範圍篩選報表
 
-<!-- Audited: 11/2024 -->
+<!-- Audited: 4/2025 -->
 
-您可以依物件上存在的日期的時間範圍來篩選報表。 例如，您可以篩選輸入時數之特定時間範圍的時數報告。
+您可以依物件上現存日期的時間範圍來篩選報表。 例如，您可以篩選輸入時數之特定時間範圍的時數報告。
 
 ## 存取需求
 
@@ -30,25 +30,20 @@ ht-degree: 5%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
       <td> 
-      <p>新增：</p>
-         <ul>
-         <li><p>標準</p></li>
-         </ul>
-      <p>目前：</p>
-         <ul>
-         <li><p>規劃</p></li>
-         </ul>
+      <p>新增：標準</p>
+       <p> 或</p>
+      <p>目前：計畫</p>
    </td>
 
 </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
+   <td role="rowheader">存取層級設定</td> 
    <td> <p>編輯報告、儀表板、行事曆的存取權</p> <p>編輯對篩選器、檢視、群組的存取權</p></td> 
   </tr> 
   <tr> 
@@ -58,7 +53,7 @@ ht-degree: 5%
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需此表格中資訊的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -68,18 +63,20 @@ ht-degree: 5%
 
 如需建立報告的詳細資訊，請參閱[建立報告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md)。
 
-## 依日期的時間範圍篩選報表 {#filter-a-report-by-the-time-frame-of-a-date}
+## 依日期的時間範圍篩選報表 {#filter-a-report-by-the-timeframe-of-a-date}
 
-1. 按一下&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**報表**。
+{{step1-to-reports}}
 
-1. 按一下「**新增報表**」，然後選取您要的報表型別。\
-   例如，選取&#x200B;**小時報告**。
+1. 按一下左上角的&#x200B;**新增報告**，然後選取您要建立的報告型別。
 
-1. 選取&#x200B;**篩選器**&#x200B;索引標籤。
-1. 按一下&#x200B;**新增篩選規則**，然後選取&#x200B;**小時輸入日期**。\
+1. 在&#x200B;**新報告**&#x200B;頁面上，選取&#x200B;**篩選器**&#x200B;索引標籤。
+
+1. 按一下&#x200B;**新增篩選規則**，然後&#x200B;**選取欄位**。
+
+1. 在&#x200B;**選取欄位**&#x200B;對話方塊中，選取&#x200B;**小時**，然後選取&#x200B;**輸入日期**。
    ![依時間範圍篩選小時報告](assets/qs-filtering-hour-report-by-timeframe-350x357.png)
 
-1. 在下列下拉式功能表中，選取下列任一選項：
+1. 在出現的下拉式清單中，選取下列其中一個選項：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -88,54 +85,58 @@ ht-degree: 5%
      <tr> 
       <td role="rowheader">等於</td> 
       <td>選取此修正因子後，請指定輸入時數的日期。</td> 
-     </tr> 
-     <tr> 
+     </tr>
+
+   <tr> 
       <td role="rowheader">不等於</td> 
       <td>選取此修正因子後，請指定輸入時數的日期，以將此日期排除在報表之外。 報表會針對您指定的日期，顯示所有日期記錄的時數。</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Null</td> 
-      <td>選取此修正因子可只顯示缺少「輸入日期」的小時。</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">不是 Null</td> 
-      <td>選取此修正因子以僅顯示「輸入日期」具有值的小時。</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">介於</td> 
-      <td>選取此修正因子後，請指定輸入時數的日期範圍。 報表會顯示輸入於指定日期之間的時數。</td> 
-     </tr> 
-     <tr> 
+     </tr>
+
+   <tr> 
       <td role="rowheader">小於</td> 
-      <td>選取此修正因子後，請指定輸入時數之前的日期。 報表顯示在指定日期之前輸入的時數，不包含指定日期。</td> 
-     </tr> 
-     <tr> 
+      <td>選取此修正因子後，請指定輸入時數之前的日期。 報表顯示在指定日期之前輸入的小時，不包括指定日期。</td> 
+     </tr>
+
+   <tr> 
       <td role="rowheader">小於和等於</td> 
       <td>選取此修正因子後，請指定輸入時數之前的日期。 報表顯示在指定日期（包括指定日期）之前輸入的小時。</td> 
-     </tr> 
-     <tr> 
+     </tr>
+
+   <tr> 
       <td role="rowheader">大於</td> 
-      <td>選取此修正因子後，請指定輸入時數的日期。 報表顯示在指定日期之後輸入的時數，但不包含指定日期。</td> 
-     </tr> 
-     <tr> 
+      <td>選取此修正因子後，請指定輸入時數的日期。 報表顯示在指定日期之後輸入的小時，不包括指定日期。</td> 
+     </tr>
+
+   <tr> 
       <td role="rowheader">大於或等於</td> 
-      <td> <p>選取此修正因子後，請指定輸入時數的日期。 報表顯示在指定日期（包括指定日期）之後輸入的小時。</p> <p>選取任何內建時間範圍修飾元，如<a href="#built-in-time-frame-modifiers" class="MCXref xref">內建時間範圍修飾元</a>中所述。</p> </td> 
-     </tr> 
-    </tbody> 
+      <td> 選取此修正因子後，請指定輸入時數的日期。 報表顯示在指定日期（包括指定日期）之後輸入的小時。 </td> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader">介於</td> 
+      <td>選取此修正因子後，請指定輸入時數的日期範圍。 報表會顯示輸入於指定日期之間的時數。</td> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader">Null</td> 
+      <td>選取此修正因子可只顯示缺少「輸入日期」的小時。</td> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader">不是 Null</td> 
+      <td>選取此修正因子以僅顯示「輸入日期」具有值的小時。</td> 
+     </tr>
+
+   </tbody> 
    </table>
 
-1. 這些修飾詞適用於篩選器中的任何日期欄位，或任何報表中的提示。
 1. 按一下「**儲存並關閉**」。
 
-## 內建時間範圍修飾元 {#built-in-time-frame-modifiers}
+## 內建時間範圍修飾元 {#built-in-timeframe-modifiers}
 
-Adobe Workfront有內建的時間範圍修飾元，您無需定義特定日期即可使用。
+Adobe Workfront有內建的時間範圍修飾元，您無需定義特定日期即可使用。 這些修飾詞適用於篩選器中的任何日期欄位，或任何報表中的提示。
 
-這些修飾詞適用於篩選器中的任何日期欄位，或任何報表中的提示。
-
-如需如何依與日期相關聯的時間範圍篩選報告的詳細資訊，請參閱上節的[依日期的時間範圍篩選報告](#filter-a-report-by-the-time-frame-of-a-date)。
-
-例如，如果您正在建立時數報表，而且想要顯示在特定時間範圍內輸入的時數，您可以從下列內建時間範圍篩選選項中選擇：
+例如，如果您正在建立時數報表，而且想要顯示特定時間範圍內輸入的時數，您可以從下列內建時間範圍篩選選項中選擇：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -197,7 +198,7 @@ Adobe Workfront有內建的時間範圍修飾元，您無需定義特定日期�
   </tr> 
   <tr> 
    <td role="rowheader">去年</td> 
-   <td> <p>顯示「輸入日期」為去年日期的時數，其中去年從1月1日開始，結束日期為今年之前一年的12月31日。</p> <p>備註：會計年度沒有內建時間期間。 您可以建立報表，並使用會計年度日期範圍的自訂修正因子依日期篩選資訊，如您的組織中所定義。 如果您想要即時選擇會計年度的時間範圍，則應該使用提示而非篩選器。 </p> </td> 
+   <td> <p>顯示「輸入日期」為去年日期的時數，其中去年從1月1日開始，結束日期為今年之前一年的12月31日。</p> <p>備註：會計年度沒有內建時間期間。 您可以建立報表，並使用會計年度日期範圍的自訂修正因子依日期篩選資訊，如您的組織中所定義。 如果您想要即時選擇財政年度的時間範圍，則應該使用提示而非篩選器。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

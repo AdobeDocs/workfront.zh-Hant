@@ -7,7 +7,7 @@ description: 您可以在Workfront Proof中存取「註解」摘要。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 212d465c-5605-4bb9-af5a-cea377619cfe
-source-git-commit: e72fe6861b26caa2f9e3ff64e36b871528619f5a
+source-git-commit: de23513976d7bc4fe34cbf7b007a41c3b9797347
 workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # 在[!DNL Workfront Proof]中列印及匯出註解
+
+<!-- Audited: 4/2025 -->
 
 >[!IMPORTANT]
 >

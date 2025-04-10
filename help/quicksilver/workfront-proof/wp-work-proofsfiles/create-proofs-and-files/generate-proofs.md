@@ -7,7 +7,7 @@ description: Workfront Proof可讓您從檔案或網站建立校樣，並和其�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 49657851-2948-4d3b-b2ce-c8359eeb315b
-source-git-commit: 1443551b605dac6e53531c5d445b89517384fe11
+source-git-commit: de23513976d7bc4fe34cbf7b007a41c3b9797347
 workflow-type: tm+mt
 source-wordcount: '1889'
 ht-degree: 1%
@@ -36,7 +36,7 @@ ht-degree: 1%
    * 將檔案從您的檔案系統拖放到&#x200B;**[!UICONTROL 新增檔案]**&#x200B;區域的拖放區域。
    * 在&#x200B;**[!UICONTROL 新增檔案]**&#x200B;區域中，按一下&#x200B;**瀏覽**&#x200B;連結，從工作站的檔案系統尋找並選取您要上傳的檔案。
 
-     ![證明_文件_上傳.png](assets/proof-document-upload-350x64.png)
+     ![proof_document_upload.png](assets/proof-document-upload-350x64.png)
 
 1. 若要校訂網站，請在&#x200B;**[!UICONTROL 新增檔案]**&#x200B;區域中輸入網站的URL，然後按&#x200B;**[!UICONTROL Enter]**。 重複此步驟以新增多個網站進行校訂。
 
@@ -48,7 +48,7 @@ ht-degree: 1%
 
    1. 在檔案清單中，將滑鼠停留在您要修改的檔名稱上，然後按一下&#x200B;**[!UICONTROL 編輯]**&#x200B;圖示。
 
-      ![證明_edit.png](assets/proof-edit-350x53.png)
+      ![proof_edit.png](assets/proof-edit-350x53.png)
 
    1. 在&#x200B;**[!UICONTROL 校訂名稱]**&#x200B;欄位中，指定新名稱，然後按一下&#x200B;**[!UICONTROL 完成]**。
 
@@ -161,7 +161,7 @@ ht-degree: 1%
 
 1. （選用）重複此程式，將多個網站新增至校樣中。
 
-   ![證明_website.png](assets/proof-website-350x65.png)
+   ![proof_website.png](assets/proof-website-350x65.png)
 
 1. 在&#x200B;**[!UICONTROL 新增檔案]**&#x200B;區域中，按一下URL右側的&#x200B;**編輯**&#x200B;圖示以開啟網站校訂詳細資訊。
 
@@ -221,7 +221,7 @@ ht-degree: 1%
 
 1. 建立.zip隨附檔案，準備您的內容。
 
-   有關.zip捆綁文件規範的信息，請参閱 [互動式內容校樣概述](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md)。
+   如需有關.zip套件檔案規格的資訊，請參閱[互動式內容校訂總覽](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md)。
 
 1. 執行下列任一項作業以開啟&#x200B;**[!UICONTROL 新校訂]**&#x200B;頁面：
 
