@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 0d746db3b3665b288b4724c346a02d3f459fc365
+source-git-commit: bb7f627f7ee2fdf15ba84919bf67f6c8fbb682dd
 workflow-type: tm+mt
-source-wordcount: '1709'
+source-wordcount: '1713'
 ht-degree: 0%
 
 ---
@@ -18,19 +18,19 @@ ht-degree: 0%
 
 <span class="preview">週期外功能（在2025年第二季發行日期之前發佈到生產環境的功能）會以黃色標示。</span>
 
-## 發佈時程表
+## 發行排程
 
-Workfront 版本為月度和季度發佈軌道的帳戶編號。 第一個數位表示年份，第二個數位表示發行月份。 示例：2025 年 4 月的版本編號為 25.4。
+Workfront版本編號代表每月和每季的版本追蹤。 第一個數字代表年份，第二個數字代表發行月份。 範例： 2025年4月版本的編號為25.4。
 
-除非另有說明，否則月度和季度版本計劃在每月第二個完整周的星期四提供。
+除非另有指定，否則每月和每季發行計畫於每月第二整週的星期四提供。
 
-| 每月發佈 | 每季發佈 |
+| 每月發行 | 每季發行 |
 | ----------------- | ----------------- |
 | <ul><li>25.2 （2025年2月13日）</li><li>25.3 （2025年3月13日）</li><li>25.4 （2025年4月10日）</li></ul> | <ul><li>25.4 （2025年4月10日）</li></ul> |
 
 >[!NOTE]
 >
->對於每個季度的最終版本（本季度為 25.4），快速發佈計劃的使用者將提前一天收到版本。
+>對於每季的最終發行（本季25.4版），快速發行排程中的使用者將提前一天收到發行。
 >
 >如需快速發行程式的詳細資訊，請參閱[啟用或停用快速發行程式](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。
 
@@ -53,7 +53,7 @@ Workfront 版本為月度和季度發佈軌道的帳戶編號。 第一個數位
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            自訂表單邏輯的增強功能</a></p>
+            自訂表單邏輯的增強功能</a></p><p>[！BADGE In Production ]{type=Informative}</p>
             <p>自訂表單邏輯產生器有更新的介面，為您提供建立邏輯規則的更多空間。 此新設計可更輕鬆地容納未來可能新增的其他邏輯型別。</p><p>除了目前的顯示和略過邏輯選項外，您也可以使用驗證邏輯。</p>
         </td>
         <td>
@@ -143,7 +143,7 @@ Workfront 版本為月度和季度發佈軌道的帳戶編號。 第一個數位
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            行動應用程式中校訂的增強功能(僅限iOS)</a>[！BADGE In Production ]{type=Informative}</p>
+            行動應用程式中校訂的增強功能(僅限iOS)</a><p>[！BADGE In Production ]{type=Informative}</p></p>
             <p>Adobe Workfront行動應用程式中的校訂功能有數個增強功能：
             <ul>
             <li>您現在可以從您的行動電子郵件應用程式，透過與您共用的連結開啟校訂檔案。 以前不支援電子郵件中的連結，因此您必須從Workfront行動應用程式存取校樣。</li>
@@ -154,19 +154,19 @@ Workfront 版本為月度和季度發佈軌道的帳戶編號。 第一個數位
         <td>
             <p><b>將於下列日期提供：</b></p>
             <ul>
-                <li>預覽 版本： 不適用</li>
-                <span class="preview"><li>面向所有客戶的生產版本：2025 年 3 月 12 日</li> 
+                <li>預覽版本：不適用</li>
+                <span class="preview"><li>所有客戶的生產版本： 2025年3月12日</li> 
             </ul>
-            <p><b>在以下環境中可用：</b></p>
+            <p><b>適用於下列環境：</b></p>
             <ul>
-                <li>iOS 行動應用程式</li>
+                <li>iOS行動應用程式</li>
             </ul>
         </td>
     </tr>                          
 </tbody>
 </table>
 
-### 項目增強功能
+### 專案增強功能
 
 <table>
 <col style="width: 50%;" />
@@ -175,14 +175,14 @@ Workfront 版本為月度和季度發佈軌道的帳戶編號。 第一個數位
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            在編輯專案方塊</a>[！BADGE In Production for Fast Release]{type=Positive}中編輯專案時，新增註解至專案</p>
+            在編輯專案方塊中編輯專案時，為專案新增註解</a><p>[！BADGE In Production ]{type=Informative}</p>
             <p>您現在可以在「編輯專案」方塊中編輯專案時，將註解新增至專案。 您也可以在大量編輯專案時，一次為多個專案新增註解。 在此更新之前，編輯專案時不存在此功能。</p>
         </td>
         <td>
             <p><b>將於下列日期提供：</b></p>
             <ul>
                 <li>預覽版本： 2025年2月13日</li>
-                <li>快速發佈生產：25.3 版本（2025 年 3 月）</li>
+                <li>快速發行生產：第25.3發行版本（2025年3月）</li>
                 <li>適用於所有客戶的生產版本：第25.4版本（2025年4月）</li>
             </ul>
         </td>
@@ -199,7 +199,7 @@ Workfront 版本為月度和季度發佈軌道的帳戶編號。 第一個數位
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Data Connect</a>[！BADGE In Production ]{type=Informational}中現在提供檔案核准和決定資料</p>
+            Data Connect現在提供檔案核准和決定資料</a><p>[！BADGE In Production ]{type=Informative}</p>
             <p>您現在可以在Data Connect中存取檔案核准和決定的資料。 此資料集橋接來自Workfront校訂功能和Workfront檔案上發生的Frame.io核准的檔案。 您現在將能夠透過BI視覺效果說明週期時間、週期數和時間表對延遲核准的影響。</p>
         </td>
         <td>
@@ -212,7 +212,7 @@ Workfront 版本為月度和季度發佈軌道的帳戶編號。 第一個數位
     </tr>                          
     <tr>
         <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront行事曆的更新</a></p>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront行事曆的更新</a></p><p>[！BADGE In Production ]{type=Informative}</p>
             <p>我們已將Workfront行事曆的外觀與風格更新為與Workfront其他區域一致的現代化設計。 與目前的Workfront行事曆在功能上有細微的差異，包括：
             <ul>
             <li>如何將臨時專案新增至行事曆</li>
@@ -255,9 +255,7 @@ Workfront 版本為月度和季度發佈軌道的帳戶編號。 第一個數位
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            在Workfront更新摘要中將Adobe Admin Console使用者變更顯示為「系統」</a></p>
-            [！BADGE In Production for Fast Release ]{type=Positive}
-            <p>現在，當Adobe Admin Console管理員變更Workfront使用者的使用者資訊時，Workfront會在使用者更新區域的系統活動標籤中，將此變更記錄為屬於「系統」。 他向Adobe Admin Console管理員求助。</p>
+            在Workfront更新摘要中將Adobe Admin Console使用者變更顯示為「系統」</a></p><p>[！BADGE In Production ]{type=Informative}</p><p>現在，當Adobe Admin Console管理員變更Workfront使用者的使用者資訊時，Workfront會在使用者更新區域的系統活動標籤中，將此變更記錄為屬於「系統」。 他向Adobe Admin Console管理員求助。</p>
         </td>
         <td>
             <p><b>將於下列日期提供：</b></p>
@@ -304,9 +302,11 @@ Workfront 版本為月度和季度發佈軌道的帳戶編號。 第一個數位
 ![舊版敏捷檢視連結](assets/project-agile-board-view.png)
 
 
-#### 增強Analytics淘汰功能
+#### 增強型Analytics淘汰
 
-由於使用率較低且不斷下降，我們已決定在 2025 年 5 月 25 日這一周棄用增強型 Analytics 產品。我們建議考慮使用我們的數據連接產品作為替代品。 Data Connect 允許您使用首選的業務情報工具版本編號類似的可自定義可視化效果。有關此棄用的詳細資訊，請參閱 [增強Analytics棄用指南](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md)。
+由於使用率低且不斷下降，我們已決定在2025年5月25日當週淘汰增強型分析產品。
+建議您考慮改用Data Connect產品。 Data Connect可讓您使用慣用的商業智慧工具，建立類似的可自訂視覺效果。
+如需關於此棄用的詳細資訊，請參閱[Enhanced Analytics棄用指南](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md)。
 
 ## 公告
 
@@ -332,13 +332,13 @@ Workfront Planning的新功能可在生產環境中使用。 如需最新功能�
 
 ### Workfront Scenario Planner增強功能
 
-目前發行中沒有藍本規劃器更新。 當更新可用時，此區域將更新。
+此版本中目前沒有Scenario Planner更新。 在有更新可用時，此區域將會更新。
 
-### 工作面證明增強功能
+### Workfront Proof增強功能
 
-此時此版本沒有工作前沿證明更新。 當更新可用時，此區域將更新。
+此版本目前沒有Workfront Proof更新。 在有更新可用時，此區域將會更新。
 
-### 工作前線目標增強功能
+### Workfront目標增強功能
 
 此版本中目前沒有Workfront目標更新。 在有更新可用時，此區域將會更新。
 
