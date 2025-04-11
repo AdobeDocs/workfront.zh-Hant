@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b76b9e8-fbb8-45a7-9e26-1ddc6d5176d8
-source-git-commit: ff4a9b317bd75b298a7a39814b4ae265c92c6d2a
+source-git-commit: 428e6a9365c793ce5944941ec5368a674c208c78
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '405'
 ht-degree: 4%
 
 ---
 
 # 建立自訂費用類型
-
-{{highlighted-preview}}
 
 <!--**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -108,7 +106,7 @@ ht-degree: 4%
     </tbody> 
    </table>
 
-1. 按一下&#x200B;**建立費用型別** <span class="preview">或&#x200B;**[!UICONTROL 儲存]**。</span>
+1. 按一下「**[!UICONTROL 儲存]**」。
 
    使用者現在可以使用此費用型別，將其與其在專案和任務上的費用建立關聯。
 
@@ -121,7 +119,7 @@ ht-degree: 4%
 
    **[!UICONTROL 編輯費用型別]**&#x200B;對話方塊就會顯示。
 
-1. 進行您想要的變更，然後按一下&#x200B;**儲存變更** <span class="preview">或&#x200B;**[!UICONTROL 儲存]**。</span>
+1. 進行您想要的變更，然後按一下[儲存]。****
 
    使用者現在可以使用此費用型別，將其與其在專案和任務上的費用建立關聯。
 
