@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
 workflow-type: tm+mt
-source-wordcount: '1600'
+source-wordcount: '1540'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # 共用檢視
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -35,7 +35,7 @@ ht-degree: 1%
 
 您可以與下列實體共用檢視：
 
-* 內部使用Workfront使用者、群組、<span class="preview">團隊、公司和工作角色</span>
+* 內部，具有Workfront使用者、群組、團隊、公司和職位角色
 * 公開，與Workfront以外的使用者一起
 
 <!--
@@ -129,7 +129,7 @@ This article describes how you can share a view with others. For information abo
 
 ## 與內部檢視共用許可權
 
-您可以在Workfront Planning中將您建立的檢視或您擁有管理許可權的檢視與使用者、群組、<span class="preview">團隊、公司和職位角色</span>共用。
+您可以在Workfront Planning中將您建立的檢視或您擁有管理許可權的檢視與使用者、群組、團隊、公司和職位角色共用。
 
 >[!NOTE]
 >
@@ -151,10 +151,10 @@ This article describes how you can share a view with others. For information abo
 
 1. （選擇性）在&#x200B;**擁有存取權**&#x200B;區域中，從下列選項中選取：
 
-   * **只有受邀人員才能存取**：您必須指定要與其共用檢視的使用者、群組、<span class="preview">團隊、公司或工作角色</span>。 這是預設選項。
+   * **只有受邀人員才能存取**：您必須指定要與其共用檢視的使用者、群組、團隊、公司或工作角色。 這是預設選項。
    * **工作區中的所有人都可以檢視**：所有對工作區具有「檢視」或更高許可權的使用者都可以存取檢視。
 
-1. 在&#x200B;**授與此檢視的存取權**&#x200B;欄位中，開始輸入使用者、群組、<span class="preview">團隊、公司或工作角色的名稱</span>，然後當它顯示在清單中時按一下它。
+1. 在&#x200B;**授與此檢視的存取權**&#x200B;欄位中，開始輸入使用者、群組、團隊、公司或工作角色的名稱，然後當它顯示在清單中時按一下它。
 
    ![與群組共用檢視](assets/sharing-a-view-ui-with-groups.png)
 
@@ -255,7 +255,7 @@ This article describes how you can share a view with others. For information abo
 1. 若要移除檢視的內部共用，請執行下列動作：
 
    1. 請確定已選取&#x200B;**內部共用**&#x200B;標籤。
-   1. 尋找您要移除的使用者、群組、<span class="preview">團隊、公司或工作角色</span>，展開您共用檢視的實體名稱右邊的許可權下拉式功能表，然後按一下&#x200B;**移除**。
+   1. 尋找您要移除的使用者、群組、團隊、公司或工作角色，展開您共用檢視的實體名稱右邊的許可權下拉式功能表，然後按一下&#x200B;**移除**。
 
 1. 若要移除檢視的公開共用，請執行下列動作：
 

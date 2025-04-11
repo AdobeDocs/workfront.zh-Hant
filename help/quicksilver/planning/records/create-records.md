@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 4b5248f667648543263073022ae10336fb022f97
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '2419'
+source-wordcount: '2359'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 # 建立記錄
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -28,13 +28,13 @@ ht-degree: 0%
 您可以執行下列其中一項作業來建立記錄：
 
 * [從記錄型別表格檢視中內嵌新增記錄，以建立記錄](#create-records-by-adding-them-inline-from-the-record-type-table-view)
-* <span class="preview">[使用任何記錄型別檢視中的[新增記錄]或[要求記錄]按鈕來建立記錄](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)</span>
+* [使用任何記錄型態檢視中的「新增記錄」或「請求記錄」按鈕來建立記錄](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)
 * [從外部清單複製並貼上記錄清單](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [從表格檢視複製記錄](#create-records-by-duplicating-them)
 * [從其他記錄連線記錄時建立記錄](#create-records-as-you-connect-them)
 * [透過向記錄型別提交請求表單來建立記錄](#create-records-by-submitting-a-request-form-to-a-record-type)
-* <span class="preview">[從CSV或Excel檔案匯入資訊，以建立記錄](#create-records-by-importing-records-from-a-csv-or-excel-file)</span>
-* <span class="preview">[使用自動化建立記錄](#create-records-by-using-automations)</span>
+* [從CSV或Excel檔案匯入資訊，以建立記錄](#create-records-by-importing-records-from-a-csv-or-excel-file)
+* [使用自動化建立記錄](#create-records-by-using-automations)
 
 如需有關管理表格或時間表檢視中的記錄的資訊，請參閱下列文章：
 
@@ -99,7 +99,7 @@ ht-degree: 0%
 <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
    <td> <p>為您要新增記錄的工作區<!--<span class="preview">and record type</span>-->貢獻或更高的許可權。 </p>
-   <p><span class="preview">檢視工作區<!--<span class="preview">and record type</span>-->或更高許可權，以使用記錄頁面上的[要求記錄]按鈕建立記錄</span></p>
+   <p>檢視工作區<!--<span class="preview">and record type</span>-->或更高許可權，以使用記錄頁面上的[要求記錄]按鈕建立記錄</p>
    <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p>
    <p>管理Workfront物件（專案組合）的許可權以新增子物件（專案）。</p>
    </td> 
@@ -182,8 +182,6 @@ ht-degree: 0%
    * CTRL + Z (Mac為⌘ + Z)可復原變更
    * CTRL + Shift + Z (Mac為⌘ + Shift + Z)以重做變更
 
-<div class="preview">
-
 ## 使用任何記錄型態檢視中的「新增記錄」或「請求記錄」按鈕來建立記錄
 
 具有工作區<!--<span class="preview">and record type</span>-->檢視許可權的使用者只能使用記錄型別頁面上的[要求記錄]按鈕來建立記錄。
@@ -247,8 +245,6 @@ ht-degree: 0%
    * 新記錄會新增至記錄型別，除非您選擇使用具有核准流程的請求表單來新增記錄。 建立記錄之前，核准者必須獲得所有核准者的核准。
    * 如果您使用CSV或Excel試算表新增記錄，系統會將多個記錄新增至記錄型別。
    * 如果您透過提交請求表單來新增請求，則會在Workfront請求區域的Planning標籤中新增請求。
-
-</div>
 
 <!-- this is not possible anymore: 
 
@@ -339,7 +335,7 @@ You can import records from other applications by linking them to existing recor
 
      如需詳細資訊，請參閱[管理來自Workfront物件的記錄連線](/help/quicksilver/planning/records/manage-records-in-planning-section.md)。
 
-1. （視條件而定）如果您在嘗試連線時找不到記錄，請<span class="preview">按一下&#x200B;**+新增**</span>
+1. （視條件而定）如果嘗試連線時找不到記錄，請按一下[新增] **+ [新增]**
 
    或
 開始輸入名稱，然後按一下**+新增**。 **+新增**&#x200B;按鈕後面接著您連線的記錄型別名稱。 例如，將品牌新增至現有行銷活動時，「新增品牌」。 您輸入的名稱也會跟著新增按鈕。
@@ -376,17 +372,11 @@ You can import records from other applications by linking them to existing recor
 
 如需詳細資訊，請參閱[建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md)。
 
-<div class="preview">
-
 ## 從CSV或Excel檔案匯入記錄，以建立記錄
 
 從CSV或Excel檔案匯入資訊時，您可以匯入現有記錄型別的記錄。
 
 如需詳細資訊，請參閱[從CSV或Excel檔案匯入資訊，以建立記錄](/help/quicksilver/planning/records/import-file-to-create-records.md)。
-
-</div>
-
-<div class="preview">
 
 ## 使用自動化建立記錄
 
@@ -396,6 +386,5 @@ You can import records from other applications by linking them to existing recor
 
 如需詳細資訊，請參閱[使用Adobe Workfront Planning記錄自動化建立物件](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)。
 
-</div>
 
 

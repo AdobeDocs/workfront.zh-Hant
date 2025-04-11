@@ -6,9 +6,9 @@ description: 計畫工作在Adobe Workfront中以專案和任務表示。 不過
 author: Lisa
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '2740'
+source-wordcount: '2680'
 ht-degree: 1%
 
 ---
@@ -25,9 +25,9 @@ ht-degree: 1%
 </div>
 -->
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 計畫工作在Adobe Workfront中以專案和任務表示。 不過，您可能會在一個環境中工作，在這種環境中，非計畫工作（以請求的形式）可以隨時進入。 Workfront透過使用請求佇列提供可容納這種環境型別的工作流程。
 
@@ -44,7 +44,7 @@ ht-degree: 1%
 
 * 從Workfront Planning請求表單的連結。
 
-* <span class="preview">從Workfront請求區域中的Workfront計畫請求表單。</span>
+* 從Workfront請求區域中的Workfront計畫請求表單。
 
   貴組織必須購買Workfront Planning套件。 如需詳細資訊，請參閱[提交Adobe Workfront Planning要求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)。
 
@@ -124,12 +124,12 @@ Workfront管理員必須建立「請求佇列」的下列元件：
 
 {{step1-to-requests}}
 
-1. <span class="preview"> （選擇性和條件性）如果下列專案適用於您的組織和Workfront執行個體，請選取畫面右上角的&#x200B;**切換至新體驗**&#x200B;設定： </span>
+1. （選擇性和條件性）如果下列專案適用於您的組織和Workfront執行個體，請選取畫面右上角的&#x200B;**切換至新體驗**&#x200B;設定：
 
-   * <span class="preview">您的組織已購買Workfront套件</span>
-   * <span class="preview">您的組織已加入Adobe Unified Experience。
-   * <span class="preview">您的管理員已授與您存取Workfront Planning的許可權</span>
-   * <span class="preview">您至少擁有Workfront規劃工作區的檢視許可權</span>
+   * 您的組織已購買Workfront套件
+   * 您的組織已加入Adobe Unified Experience。
+   * 您的管理員已授與您存取Workfront Planning的許可權
+   * 您至少擁有Workfront Planning工作區的檢視許可權
 
    如需詳細資訊，請參閱[提交Adobe Workfront Planning要求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)
 
@@ -142,15 +142,15 @@ Workfront管理員必須建立「請求佇列」的下列元件：
 
    **新要求**&#x200B;方塊開啟。
 
-1. <span class="preview">（條件式）如果您切換至包含Workfront Planning的新體驗，**新請求**&#x200B;方塊會顯示下列專案：</span>
+1. （視條件而定）如果您切換至包含Workfront Planning的新體驗，**新請求**&#x200B;方塊會顯示下列專案：</span>
 
-   * <span class="preview">最近存取的6個Workfront要求佇列和Planning要求表單會顯示在「最近」區段中。</span>
-   * <span class="preview">其他Workfront要求佇列和計畫要求表單會依字母順序顯示在&#x200B;**所有要求表單**&#x200B;區段中。 您可以搜尋預設不會顯示的請求佇列。</span>
+   * 最近存取的6個Workfront請求佇列及Planning請求表單會顯示在「最近」區段中。
+   * 在&#x200B;**所有請求表單**&#x200B;區段中，以字母順序顯示50個額外的Workfront請求佇列和Planning請求表單。 您可以搜尋預設不會顯示的請求佇列。
 
    ![具有計畫要求的統一工作流程的新要求方塊](assets/new-request-box-with-unified-workflow-for-planning-requests.png)
 
-   <span class="preview">按一下其中一個Workfront請求佇列卡片，或搜尋其中一個卡片，然後當它顯示在清單中時按一下它。</span>
-1. （視條件而定） <span class="preview">如果您切換到包含Workfront Planning的新體驗，請選取您的主題群組和佇列主題，並繼續更新表單</span>
+   按一下其中一個Workfront請求佇列卡片，或搜尋其中一個卡片，然後當卡片顯示在清單中時，按一下該卡片。
+1. （視條件而定）如果您切換至包含Workfront Planning的新體驗，請選取您的主題群組和佇列主題，並繼續更新表單。
 
    否則，請在&#x200B;**要求型別**&#x200B;欄位內按一下，然後執行下列任一項作業：
 
@@ -333,7 +333,7 @@ Workfront管理員必須建立「請求佇列」的下列元件：
 
    當您提交請求時，草稿會自動刪除且無法還原。
 
-   已提交的請求列在請求區域的&#x200B;**已提交**&#x200B;區段中。 <span class="preview">如果您使用包含Workfront Planning的新體驗，Workfront提交的請求會顯示在「請求」區域的「**Workfront**」標籤中。</span>
+   已提交的請求列在請求區域的&#x200B;**已提交**&#x200B;區段中。 如果您使用包含Workfront Planning的新體驗，Workfront提交的請求會顯示在「請求」區域的&#x200B;**Workfront**&#x200B;索引標籤中。
 
    如需有關處理傳入請求的資訊，請參閱文章[管理工作和團隊請求](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md)。
 

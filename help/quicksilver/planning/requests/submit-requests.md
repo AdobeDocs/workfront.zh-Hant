@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: a64f6e507d74201cba1455fbbc6af77c2b7ba058
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '1892'
+source-wordcount: '1816'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 <!--take Preview and Prod references out when releasing to Prod all-->
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 * 從已共用之請求表單的直接連結。
 
   本文說明如何從Workfront的「請求」區域或共用連結提交請求，以將新記錄新增至記錄型別。
-* <span class="preview">從記錄型別頁面新增或請求新記錄時。 如需詳細資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md).</span>
+* 從記錄型別頁面，當您新增或請求新記錄時。 如需詳細資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md)。
 
 Workfront使用者與外部使用者可以提交請求給Planning記錄型別並建立記錄。<!--double check on the external users-->
 
@@ -128,7 +128,7 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
 
    * 在內部，表單必須和擁有工作區檢視或更高許可權的使用者共用。
 
-     Workfront使用者可以從連結<span class="preview">存取表單，或在Workfront的[要求]區域中尋找要求表單。</span>
+     Workfront使用者可從連結存取表單，或在Workfront的「請求」區域中尋找請求表單。
 
    * 如果您沒有Workfront帳戶，系統會將表單連結與外部人員共用。
 
@@ -150,8 +150,6 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
 
 <!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.-->
 
-
-<div class="preview">
 
 ## 在Workfront的請求區域中向Workfront計畫提交請求
 
@@ -239,8 +237,6 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
 
    記錄型別頁面會在Workfront Planning中開啟。
 
-</div>
-
 ## 從共用連結提交要求至Workfront Planning至要求表單
 
 1. 從Workfront Planning記錄型別移至與您共用的連結。
@@ -276,11 +272,11 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
      >
      >只有當貴組織的Workfront執行個體上線至Adobe Unified Experience時，才會顯示電子郵件和應用程式內通知。
 
-1. <span class="preview">（選擇性）按一下&#x200B;**檢視您的要求**，以在Workfront中開啟要求。</span>
+1. （選擇性）按一下&#x200B;**檢視您的要求**，在Workfront中開啟要求。
 
-   或
+   <!--Or-->
 
-   <span class="preview">按一下[提交其他要求](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request)以開啟要求表單並新增要求。</span>
+   <!--Click [Submit another request](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) to open the request form and add a new request.-->
 
 1. （選擇性）按一下&#x200B;**主功能表** > **要求** > **規劃**&#x200B;索引標籤以檢視您的要求，然後按一下要求的名稱。
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
+source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
 workflow-type: tm+mt
-source-wordcount: '6615'
+source-wordcount: '6555'
 ht-degree: 5%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 5%
 # 建立自訂表格
 
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
 
 您可以使用Adobe Workfront中的表單設計工具來設計自訂表單。 您可以將自訂表單附加至不同的Workfront物件，以擷取這些物件的相關資料。
 
@@ -311,7 +311,7 @@ ht-degree: 5%
 
 1. 在畫面的左側，找到下列其中一個欄位，並將其拖曳至畫布上的區段。
 
-   * 單選按鈕
+   * 選項按鈕
    * 核取方塊群組
    * 單選下拉式清單
    * 多選下拉式清單
@@ -331,7 +331,7 @@ ht-degree: 5%
      <td role="rowheader">標籤</td> 
      <td> <p>（必要）輸入描述性標籤，以在自訂欄位上方顯示。 您可以隨時變更標籤。</p> <p><b>重要</b>： </p> <p>請避免在此標籤中使用特殊字元。 它們在報表中無法正確顯示。 如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p> </td> 
      <td><ul>
-    <li>單選按鈕</li>
+    <li>選項按鈕</li>
     <li>核取方塊群組</li>
     <li>單選下拉式清單</li>
     <li>多選下拉式清單</li>
@@ -342,7 +342,7 @@ ht-degree: 5%
      <td> <p>（必要）此名稱是系統識別欄位的方式。 當您第一次設定Widget且輸入標籤時，「名稱」欄位會自動填入以和相符。 但是「標籤」和「名稱」欄位不同步，這可讓您自由地變更使用者看到的標籤，而不必變更系統看到的名稱。</p> 
     <p>如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p> </td>
      <td><ul>
-    <li>單選按鈕</li>
+    <li>選項按鈕</li>
     <li>核取方塊群組</li>
     <li>單選下拉式清單</li>
     <li>多選下拉式清單</li>
@@ -354,7 +354,7 @@ ht-degree: 5%
     <p>  <img src="assets/instructions-form-designer.png"> </p>
     </td> 
     <td><ul>
-    <li>單選按鈕</li>
+    <li>選項按鈕</li>
     <li>核取方塊群組</li>
     <li>單選下拉式清單</li>
     <li>多選下拉式清單</li>
@@ -369,7 +369,7 @@ ht-degree: 5%
     <li>數字欄位的字元限製為16。 您也可以使用文字欄位來輸入數字並避免限制。</li>
      </ul></p></td> 
      <td><ul>
-    <li>單選按鈕</li>
+    <li>選項按鈕</li>
     <li>核取方塊群組</li>
     <li>單選下拉式清單</li>
     <li>多選下拉式清單</li>
@@ -379,7 +379,7 @@ ht-degree: 5%
      <td role="rowheader">顯示類型</td> 
     <td>在欄位的選項按鈕、核取方塊群組、單選下拉式清單或多選下拉式清單之間切換。</td> 
     <td><ul>
-    <li>單選按鈕</li>
+    <li>選項按鈕</li>
     <li>核取方塊群組</li>
     <li>單選下拉式清單</li>
     <li>多選下拉式清單</li>
@@ -389,7 +389,7 @@ ht-degree: 5%
     <td role="rowheader">設為必要欄位</td> 
     <td>如果您希望欄位是使用者完成自訂表單的必要欄位，請選取此選項。 </td> 
     <td><ul>
-    <li>單選按鈕</li>
+    <li>選項按鈕</li>
     <li>核取方塊群組</li>
     <li>單選下拉式清單</li>
     <li>多選下拉式清單</li>
@@ -418,7 +418,7 @@ ht-degree: 5%
     <p>您可以選取的選項數量沒有限制。 </p>    
     </td> 
     <td><ul>
-    <li>單選按鈕</li>
+    <li>選項按鈕</li>
     <li>核取方塊群組</li>
     <li>單選下拉式清單</li>
     <li>多選下拉式清單</li>
@@ -1009,8 +1009,8 @@ The Workfront Mobile app -->
      </tr>
 
 <tr> 
-      <td role="rowheader"><span class="preview">記錄類型欄位</span></td> 
-      <td><p><span class="preview">（可選）從連線的記錄型別中選取最多7個查詢欄位，以在自訂表單中顯示。 預設會選取主要欄位，且無法編輯。 </span></p> <span class="preview"><p> 您選取的已連線記錄欄位會顯示在自訂表單的表格檢視中。 當表單附加至Workfront物件時，表格檢視是唯讀的。 </span></p>  
+      <td role="rowheader">記錄類型欄位</td> 
+      <td><p>（可選）從連線的記錄型別中選取最多7個查詢欄位，以在自訂表單中顯示。 預設會選取主要欄位，且無法編輯。 </p> <p> 您選取的已連線記錄欄位會顯示在自訂表單的表格檢視中。 當表單附加至Workfront物件時，表格檢視是唯讀的。 </p>  
     <img src="assets/planning-connections-field-with-table-on-form-preview.png"></td> 
      </tr>
       </tbody> 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: a8d2447eea4ca8d814035d183f40921cad49a0d8
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '2184'
+source-wordcount: '2046'
 ht-degree: 1%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 1%
 
 <!--take Preview and Production references at Production time-->
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -126,7 +126,7 @@ ht-degree: 1%
 
       * 建立者和上次修改者
       * 建立日期和上次修改日期
-      * 公式。 <span class="preview">預覽環境中支援公式欄位。</span>
+      * 公式。<!--Formula fields are supported in the Preview environment.-->
       * Workfront物件的查閱欄位
       * Workfront Planning連線記錄的查詢欄位
 
@@ -136,8 +136,6 @@ ht-degree: 1%
 
      但是，欄位格式會保留，並在提交請求後、在記錄型別和請求詳細資訊頁面中，欄位值將顯示為貨幣、數字和百分比。
 
-<div class="preview">
-
 * 以下說明某些欄位值如何在請求表單和請求詳細資訊頁面上顯示：
 
    * 不保留貨幣、數字和百分比欄位的特殊格式。 例如，這些區域中的這些欄位值不會保留小數精確度。
@@ -145,8 +143,6 @@ ht-degree: 1%
    * 未參考其他欄位或計算的公式欄位不顯示任何值。 例如，具有`STRING`公式的欄位會顯示「N/A」值。
    * 參考「幣別」欄位的公式欄位會顯示不含匯率會計的值。
    * 段落欄位的值在請求表單上顯示「N/A」值，並在請求詳細資訊頁面中顯示html標籤而不是格式化文字。
-
-</div>
 
 ## 建立記錄型別的請求表單
 
@@ -160,8 +156,8 @@ ht-degree: 1%
 
    記錄型別頁面會在您上次存取的檢視中開啟。 依預設，會在表格檢視中開啟記錄型別頁面。
 
-1. 按一下頁面標頭中記錄型別名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**建立請求表單** <span class="preview">或&#x200B;**管理請求表單** （如果您已經有表單，而且想要建立其他表單</span>）。
-1. <span class="preview">（條件式）若要新增其他表單，請按一下&#x200B;**新增請求表單**</span>。
+1. 按一下頁面標頭中記錄型別名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**建立請求表單**&#x200B;或&#x200B;**管理請求表單** （如果您已經有表單，而且想要建立其他表單）。
+1. （視條件而定）若要新增其他表單，請按一下&#x200B;**新增請求表單**。
 1. 更新要求表單的名稱。 依預設，表單的名稱為&#x200B;**未命名表單**。<!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. （選用）為要求表單新增&#x200B;**描述**。
 
@@ -274,10 +270,10 @@ ht-degree: 1%
 
    >[!TIP]
    >
-   ><span class="preview">共用日期過期後，Workfront的「要求」區域中不再提供要求表單，且無法再存取與其他使用者共用的連結。</span>
+   >共用日期過期後，Workfront的「要求」區域中不再提供要求表單，且無法再存取與其他使用者共用的連結。
 
 
-1. <span class="preview">（選擇性）</span>按一下&#x200B;**儲存並複製連結**&#x200B;以儲存表單的共用詳細資料。 如果表單先前已儲存，請按一下&#x200B;**複製連結**。
+1. （選擇性）按一下&#x200B;**儲存並複製連結**&#x200B;以儲存表單的共用詳細資料。 如果表單先前已儲存，請按一下&#x200B;**複製連結**。
 
    表單共用選項會儲存且連結會複製到您的剪貼簿。 您現在可以與其他人共用。
 
@@ -287,36 +283,34 @@ ht-degree: 1%
 
 1. 按一下頁首中表單名稱左側的向左箭頭以關閉表單。
 
-   <span class="preview">已開啟&#x200B;**要求表單**&#x200B;資料表檢視，並已新增表單。</span>
+   **請求表單**&#x200B;表格檢視會開啟，並將表單新增至其中。
 
-1. <span class="preview">（選擇性）暫留在表格檢視中的要求表單名稱上，然後按一下表單名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下下列其中一項：</span>
+1. （選擇性）暫留在表格檢視中的要求表單名稱上，然後按一下表單名稱右側的&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下下列其中一項：
 
-   * <span class="preview">**編輯表單**：按一下以進一步編輯表單上的資訊。</span>
-   * <span class="preview"> **取消發佈**：按一下以取消發佈表單，該表單會從Workfront的要求區域移除它。</span>
-   * <span class="preview">**共用**：按一下此以修改誰可以存取表單。</span>
-   * <span class="preview">**複製連結**：按一下此以快速複製要求表單的連結，而不開啟表單。</span>
-   * <span class="preview">**刪除**：按一下以刪除表單。 使用表單新增的所有請求和記錄都不會刪除。 無法復原表單。</span>
+   * **編輯表單**：按一下以進一步編輯表單上的資訊。
+   * **取消發佈**：按一下以取消發佈表單，該表單會從Workfront的要求區域移除它。
+   * **共用**：按一下此以修改誰可以存取表單。
+   * **複製連結**：按一下此以快速複製要求表單的連結，而不開啟表單。
+   * **刪除**：按一下以刪除表單。 使用表單新增的所有請求和記錄都不會刪除。 無法復原表單。
 
    從請求表單清單中請求表單上的![更多功能表](assets/more-menu-on-request-form-from-request-forms-list.png)
 
 
-1. <span class= "preview">按一下標題中&#x200B;**要求表單**&#x200B;左側的向左箭頭，以關閉要求表單表格。   </span>
+1. 按一下標題中&#x200B;**要求表單**&#x200B;左側的向左箭頭，關閉要求表單表格。
 
-   <span class= "preview">記錄型別頁面開啟。</span>
-1. （選擇性和條件性）若要編輯現有表單，請根據您使用的環境執行下列任一項作業：
+   記錄型別頁面隨即開啟。
+1. （選擇性和條件性）若要編輯現有表單：
 
-   * 從生產環境：
+   1. 按一下標題中記錄型別名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**管理請求表單**。</span>
 
-      1. 按一下標題中記錄型別名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後執行下列其中一項作業：
+      這會開啟「請求表單」表格檢視。
 
-      1. 按一下&#x200B;**更新要求表單**&#x200B;以變更要求表單。
-      1. 按一下&#x200B;**複製表單連結**&#x200B;以與其他人共用表單連結。
+   1. 按一下請求表單，以開啟並編輯它。
+   1. （選用）前往Workfront中的&#x200B;**要求**&#x200B;區域，並尋找共用表單以提交要求。 如需詳細資訊，請參閱[提交Adobe Workfront Planning要求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)。
 
-   * <span class="preview">從預覽環境：
-
-      1. 按一下標題中記錄型別名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**管理請求表單**。</span>
-
-         <span class="preview">這會開啟[要求表單]表格檢視。</span>
-
-      1. <span class="preview">按一下要求表單以開啟並編輯。</span>
-      1. <span class= "preview">（選擇性）移至Workfront中的&#x200B;**要求**&#x200B;區域，並尋找共用表單以提交要求。 如需詳細資訊，請參閱[提交Adobe Workfront Planning要求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)。</span>
+<!--   * From the Production environment:
+   
+      1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the header, then do one of the following: 
+   
+      1. Click **Update request form** to make any changes to the request form.
+      1. Click **Copy link to request form**  to share the link to the form with others.-->

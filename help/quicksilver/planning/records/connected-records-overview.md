@@ -6,18 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
 
 # 連線記錄概觀
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span> -->
 
 {{planning-important-intro}}
 
@@ -54,11 +54,11 @@ ht-degree: 0%
    * Planning中記錄型別的表格檢視中的已連線記錄欄位。
    * 記錄的預覽或頁面在詳細資訊索引標籤的已連線記錄欄位中。
    * 記錄在「連線」標籤上的預覽或頁面。
-   * <span class="preview">已連線記錄之連線檢視索引標籤中的記錄頁面。</span>
+   * 已連線記錄之連線檢視標籤中的記錄頁面。
 
 * 您可以在Workfront的下列區域中，將Workfront物件連結至Workfront Planning記錄：
 
    * Workfront物件的「規劃」區段。
-   * <span class="preview">Workfront物件自訂表單上的Planning連線欄位。</span>
+   * Workfront物件自訂表單上的Planning連線欄位。
 
-  如需詳細資訊，請參閱[管理來自Workfront物件的記錄連線](/help/quicksilver/planning/records/manage-records-in-planning-section.md)
+  如需詳細資訊，請參閱[管理來自Workfront物件的記錄連線](/help/quicksilver/planning/records/manage-records-in-planning-section.md)。

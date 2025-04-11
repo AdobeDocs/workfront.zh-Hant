@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
 workflow-type: tm+mt
-source-wordcount: '2932'
+source-wordcount: '2872'
 ht-degree: 3%
 
 ---
 
 # 管理表格檢視
 
-<span class="preview">本頁標示的資訊是指尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -404,13 +404,9 @@ OLD:
    * **AND**：必須符合所有指定的條件。
    * **OR**：必須符合任何指定的條件。 這是預設選項。
 
-   <div class="preview">
-
    1. （選用）在多個條件群組之間新增其他&#x200B;**AND**&#x200B;或&#x200B;**OR**&#x200B;運運算元。
 
       ![檢視中的多重層級篩選器](assets/multi-tiered-filters-in-views.png)
-
-   </div>
 
    系統會自動篩選記錄清單。 <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
@@ -545,3 +541,4 @@ To sort grouped records:
 當您顯示表格檢視時，也可以檢視另一個使用者在您檢視記錄時正在編輯的欄位。
 
 如需詳細資訊，請參閱文章[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)中的「啟用即時顯示狀態指示器」一節。
+

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
 workflow-type: tm+mt
-source-wordcount: '2246'
+source-wordcount: '2186'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # 編輯記錄
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -242,7 +242,6 @@ ht-degree: 0%
 
      ![可拖曳的右下角，用於複製貼上資料表檢視](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
 
-   <div class="preview">
 
    * 從外部來源複製一或多個儲存格（例如，Excel檔案），然後將其貼到下列其中一個欄位型別中：
 
@@ -250,7 +249,6 @@ ht-degree: 0%
       * 人員欄位。 僅支援具有一個值的欄位。
 
      您無法從外部來源複製資訊，並將其貼到任何其他欄位型別中，包括Workfront或AEM Assets連線欄位。
-   </div>
 
    >[!NOTE]
    >
@@ -295,11 +293,7 @@ ht-degree: 0%
 
    從表格檢視中，按一下第一欄中的&#x200B;**開啟詳細資料**&#x200B;圖示![在表格名稱欄位中開啟詳細資料圖示](assets/open-details-icon-in-table-name-field.png)。 記錄的預覽會在檢視中開啟。
 
-   <div class="preview">
-
    ![詳細資訊方塊](assets/details-box.png)
-
-   </div>
 
 1. （選擇性）按一下記錄標題右側的&#x200B;**更多**&#x200B;功能表，然後按一下&#x200B;**重新命名**。 這會更新顯示為記錄標題的欄位。
 
@@ -320,17 +314,13 @@ ht-degree: 0%
 
    Workfront會自動儲存您的變更。
 
-1. <span class="preview"> （選擇性）按一下記錄預覽方塊右上角的&#x200B;**即時指標** ![即時指標圖示](assets/real-time-indicator-icon.png)，然後啟用&#x200B;**顯示共同作業人員**&#x200B;設定以即時反白顯示其他人正在編輯的欄位。
+1. （選擇性）按一下記錄預覽方塊右上角的&#x200B;**即時指標** ![即時指標圖示](assets/real-time-indicator-icon.png)，然後啟用&#x200B;**顯示共同作業人員**&#x200B;設定以醒目提示其他人即時編輯的欄位。
 
    此區域會顯示同時存取記錄的所有使用者的名稱和頭像。
 
-   停用此設定時，顯示圖片和名稱會列在即時指標區域中，而且不會反白顯示正在編輯的欄位。</span>
-
-   <div class="preview">
+   停用此設定時，顯示圖片和名稱會列在即時指標區域中，而且不會反白顯示正在編輯的欄位。
 
    ![REal-time indicator expanded record preview box](assets/real-time-indicator-expanded-record-preview-box.png)
-
-   </div>
 
 1. （選擇性）按一下記錄詳細資料頁面](assets/export-icon-in-record-details-page.png)中的&#x200B;**匯出**&#x200B;功能表![匯出圖示，以匯出記錄的詳細資料。 如需詳細資訊，請參閱[匯出記錄的詳細資料](/help/quicksilver/planning/records/export-the-record-page.md)。
 
@@ -388,17 +378,13 @@ ht-degree: 0%
 
    Workfront會自動儲存您的變更。
 
-1. <span class="preview"> （選擇性）按一下記錄頁面右上角的&#x200B;**即時指標** ![即時指標圖示](assets/real-time-indicator-icon.png)，然後啟用&#x200B;**顯示共同作業人員**&#x200B;設定以即時反白顯示其他人正在編輯的欄位。
+1. （選擇性）按一下記錄頁面右上角的&#x200B;**即時指標** ![即時指標圖示](assets/real-time-indicator-icon.png)，然後啟用&#x200B;**顯示共同作業人員**&#x200B;設定以醒目提示其他人即時編輯的欄位。
 
    此區域會顯示同時存取記錄的所有使用者的名稱和頭像。
 
-   停用此設定時，顯示圖片和名稱會列在即時指標區域中，而且不會反白顯示正在編輯的欄位。</span>
-
-   <div class="preview">
+   停用此設定時，顯示圖片和名稱會列在即時指標區域中，而且不會反白顯示正在編輯的欄位。
 
    ![即時指標展開的記錄預覽方塊](assets/real-time-indicator-expanded-record-preview-box.png)
-
-   </div>
 
 1. （選擇性）按一下記錄詳細資料頁面](assets/export-icon-in-record-details-page.png)中的&#x200B;**匯出**&#x200B;功能表![匯出圖示，以匯出記錄的詳細資料。 如需詳細資訊，請參閱[匯出記錄的詳細資料](/help/quicksilver/planning/records/export-the-record-page.md)。
 

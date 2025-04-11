@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: a8d2447eea4ca8d814035d183f40921cad49a0d8
+source-git-commit: e49f1b3d9de3984ed798e20a0a0f03f9d4060115
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '718'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # 編輯欄位設定
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -121,8 +121,7 @@ ht-degree: 1%
   >
   >不會通知其他使用者欄位設定已變更。
 
-* 在生產環境中，您無法編輯現有的查閱欄位。
-  <span class="preview">在[預覽]環境中，您可以從連線的記錄編輯現有的查詢欄位。</span>
+* 您可以從連線的記錄中編輯現有的查閱欄位。
 
 <!--at production - April 10, 2025 - remove the last bullet altogether-->
 

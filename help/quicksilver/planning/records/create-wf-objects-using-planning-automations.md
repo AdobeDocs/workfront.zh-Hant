@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: 585a65c497211c84cffafeeaa5016218fd66acd2
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '2197'
+source-wordcount: '2138'
 ht-degree: 2%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 2%
 
 <!-- if they give access to use the automation to people with LESS than Manage permissions to a workspace, split this article in two: the Configure section should be for admins and the "Use a Workfront Planning automation to create an object" should be for all other users-->
 
-<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 您可以在Adobe Workfront Planning中設定自動化，以便在從Planning記錄觸發時，在Workfront中建立物件或Workfront Planning中的記錄。 建立的物件或記錄會自動連線至您觸發自動處理的記錄。
 
@@ -37,7 +37,7 @@ ht-degree: 2%
 
 您可以在Workfront Planning中使用自動化來建立下列專案：
 
-* 一個<span class="preview">或數個</span>專案
+* 一或多個專案
 * 群組
 * 計畫
 * 投資組合
@@ -123,15 +123,11 @@ ht-degree: 2%
 
 * 自動建立的物件或記錄名稱與建立單一物件時用來建立該物件的記錄名稱相同。
 
-<div class="preview">
-
 * 當您建立多個專案時，它們會根據以下模式自動命名：
 
   `[ Name of the record ] Name of the field choice`
 
   如需詳細資訊，請參閱本文中的[使用Workfront Planning自動化建立物件或記錄](#use-a-workfront-planning-automation-to-create-an-object-or-a-record)一節。
-
-</div>
 
 * 新物件或記錄不會覆寫相同欄位中的現有物件或記錄。 為同一記錄多次觸發相同的自動化，除了之前建立的物件或記錄外，還會新增原始記錄的相同連線欄位中的新物件或記錄。
 
@@ -166,8 +162,8 @@ ht-degree: 2%
    * **動作**：選取您希望Workfront在觸發自動化時執行的動作。 這是必填欄位。
 選取下列其中一個動作：
 
-      * <span class="preview">建立多個專案</span>
-      * <span class="preview">建立單一專案</span>
+      * 建立多個專案
+      * 建立單一專案
       * 建立專案
       * 建立記錄
       * 建立方案
@@ -180,11 +176,9 @@ ht-degree: 2%
 
 1. （視條件而定）根據您選取的動作，更新下列欄位：
 
-   * **建立<span class="preview">單一</span>專案**： <!--replace to the left: Create a single project-->
+   * **建立單一專案**： <!--replace to the left: Create a single project-->
       * **建立專案的已連線欄位**：這是將顯示新專案的已連線欄位。 這是必填欄位。
       * **專案範本**：選取Workfront用來建立專案的專案範本。
-
-   <div class="preview">
 
    * 建立多個專案：
       * **建立專案的已連線欄位**：這是將顯示新專案的已連線欄位。 這是必填欄位。
@@ -197,8 +191,6 @@ ht-degree: 2%
 
       * **使用相同的範本**：選取此選項可針對每個新專案使用相同的範本。 如果取消選取選項，請為每個欄位選擇選取&#x200B;**專案範本**。
       * **專案範本**：如果您已選取&#x200B;**使用相同範本**&#x200B;選項，請選取Workfront將用來建立專案的專案範本。
-
-   </div>
 
    * **建立投資組合**：
       * **建立投資組合的已連線欄位**：這是將顯示新投資組合的已連線欄位。 這是必填欄位。
@@ -311,15 +303,11 @@ ht-degree: 2%
 
    * 新物件會顯示在自動化按鈕設定中所指示的已連線欄位中。 您可能需要重新整理頁面才能檢視新物件。 新物件的名稱與原始記錄相同。
 
-   <div class="preview">
-
    * 如果根據多選或單選欄位選項建立了多個專案，則會根據以下模式自動命名專案：
 
      `[ Name of the record ] Name of the field choice`
 
      例如，如果名為`Summer breeze`的行銷活動從`EMEA`的欄位選擇產生專案，則專案名為`[ Summer breeze ] EMEA`。
-
-   </div>
 
    * 您從中觸發自動化的記錄已新增至新記錄的已連線欄位。
 

@@ -6,18 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 1%
+source-wordcount: '825'
+ht-degree: 2%
 
 ---
 
 # 共用工作區
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -104,7 +104,7 @@ This article describes how you can share a view with others. For information abo
 ## 關於共用工作區的考量事項
 
 * 如需在Workfront Planning中共用物件的一般資訊，另請參閱[在Adobe Workfront Planning中共用許可權概觀](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
-* 您可以與組織內的使用者、<span class="preview">團隊、角色、群組或公司</span>共用工作區。
+* 您可以與組織內的使用者、團隊、角色、群組或公司共用工作區。
 * 您無法與組織外部的使用者共用工作區。
 * 當您共用工作區時，也會共用與工作區相關聯的所有記錄型別、記錄和欄位。
 * 當您共用工作區時，檢視不會共用。 您必須個別共用檢視。
@@ -133,7 +133,7 @@ This article describes how you can share a view with others. For information abo
 
    工作區右上方的![共用按鈕](assets/share-button-on-workspace-top-right.png)
 
-1. 在&#x200B;**授與此工作區的存取權**&#x200B;欄位中，開始輸入使用者、群組、<span class="preview">團隊、公司或工作角色的名稱</span>，然後當它顯示在清單中時按一下它。
+1. 在&#x200B;**授與此工作區的存取權**&#x200B;欄位中，開始輸入使用者、群組、團隊、公司或工作角色的名稱，然後當它顯示在清單中時按一下它。
 
    ![與群組共用UI](assets/sharing-ui-with-groups.png)
 
