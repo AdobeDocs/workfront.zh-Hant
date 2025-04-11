@@ -8,16 +8,14 @@ author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: e8badce6-86f5-416c-a238-f9b7f19cdd2d
-source-git-commit: f9ebf647c7672a9d471288806cf596d103007613
+source-git-commit: 486b672a67c62b86f3306c9375a286895c2fae01
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '728'
 ht-degree: 0%
 
 ---
 
 # 大量編輯檔案
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽Sandbox」環境中使用。</span>
 
 您可以一次編輯多個檔案中的說明、新增自訂表單及編輯自訂表單。
 
@@ -97,7 +95,6 @@ ht-degree: 0%
     </table>
 1. 按一下「**儲存**」。
 
-<span class="preview">
 
 ## 在檔案報告中大量編輯檔案
 
@@ -125,5 +122,3 @@ ht-degree: 0%
     </tr>
     </table>
 1. 按一下「**儲存**」。
-
-</span>

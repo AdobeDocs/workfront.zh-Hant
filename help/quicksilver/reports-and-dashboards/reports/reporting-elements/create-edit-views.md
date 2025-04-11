@@ -6,9 +6,9 @@ description: 您可以使用檢視來自訂顯示在熒幕上的資訊型別。 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: 4ab3915651e664d97c368a6b650b0d0cb0a1593c
 workflow-type: tm+mt
-source-wordcount: '1731'
+source-wordcount: '1713'
 ht-degree: 1%
 
 ---
@@ -89,31 +89,46 @@ ht-degree: 1%
    * 按一下&#x200B;**新增欄**&#x200B;來新增欄，開始輸入您要新增的欄名稱，然後當它出現在下拉式清單中時按一下它。
    * 將欄標題拖曳至新位置，調整欄的顯示順序。
 
-      * （選擇性）在&#x200B;**資料行設定**&#x200B;區域中，按一下&#x200B;**摘要此資料行**&#x200B;下拉式清單，然後選取其中一個可用選項來摘要資訊。 選擇此選項時，您欄中的資訊會在報表的群組中彙總。\
-        對於日期欄位，您可以透過以下選項彙總值：
+   * 在&#x200B;**資料行設定**&#x200B;區域中，按一下&#x200B;**依**&#x200B;摘要此資料行，然後選擇資料在資料行中的顯示方式：
 
-         * 最大值
-         * 最小值
+     <table style="table-layout:auto"> 
+         <col> 
+         <col> 
+         <tbody> 
+          <tr> 
+           <td role="rowheader"><strong>日期欄位</strong></td> 
+           <td><ul>
+           <li>最大值</li>
+         <li>最小值</li>
+           </ul></td> 
+          </tr> 
+          <tr>
+           <td role="rowheader"><strong>貨幣欄位</strong></td> 
+           <td><ul>
+           <li>計數</li>
+         <li>總和</li>
+           <li>平均</li>
+         <li>最大</li>
+           <li>最小值</li>
+         </ul></td> 
+          </tr> 
+         <tr>
+           <td role="rowheader"><strong>字串和布林值欄位</strong></td> 
+           <td><ul><li>計數</li></ul>
+           <p>注意：Workfront通常不建議依計數彙總布林欄位，因為值將一律為true/false。</p></td> 
+          </tr> 
+         </tbody> 
+        </table>
 
-        針對數字與幣別欄位，您可以透過下列選項彙總值：
-
-         * 計數
-         * 總和
-         * 平均
-         * 最大值
-         * 最小值
-
-        >[!NOTE]
-        >
-        >當您彙總分組中下列欄位的值時，下列例外情況適用於父系物件（例如父系任務）：
-        >   
-        >   * 除「實際時數」（例如「計畫/實際勞力成本」、「計畫/實際費用成本」、「計畫/實際成本」、「計畫時數」）之外的所有數字與幣別欄位，只會彙總子任務與獨立任務的值。 它們不會彙總父系任務的值或父系父系的值。
-        >   * 實際小時彙總主要父系和獨立任務的值；它們不會彙總父系任務的父系或子系任務的數量。
-        >   * 數字和貨幣值的自訂資料欄位會彙總所有工作：父項、子項、父項的父項以及獨立工作。
-        >   
-        >
-
-        如需在報告中使用群組的詳細資訊，請參閱文章[ Adobe Workfront中的群組概觀](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)。
+     >[!NOTE]
+     >
+     >當您彙總分組中下列欄位的值時，下列例外情況適用於父系物件（例如父系任務）：
+     >   
+     > * 除「實際時數」（例如「計畫/實際勞力成本」、「計畫/實際費用成本」、「計畫/實際成本」、「計畫時數」）之外的所有數字與幣別欄位，只會彙總子任務與獨立任務的值。 它們不會彙總父系任務的值或父系父系的值。
+     > * 實際小時彙總主要父系和獨立任務的值；它們不會彙總父系任務的父系或子系任務的數量。
+     > * 數字和貨幣值的自訂資料欄位會彙總所有工作：父項、子項、父項的父項以及獨立工作。
+     >
+     >如需在報告中使用群組的詳細資訊，請參閱文章[ Adobe Workfront中的群組概觀](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)。
 
       * （選擇性）按一下&#x200B;**進階選項**，為資料行指定下列資訊：
 
