@@ -6,9 +6,9 @@ description: Workfront中可供檢閱和核准的系統概觀。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
+source-git-commit: 97821d0fa97e8ba18e63b7e4156e06563e148a3d
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,7 @@ Workfront目前提供3種不同的系統，以供資產和檔案檢閱和核准�
 * 在校訂檢視器中檢閱和註解
 * 在校訂檢視器中進行決策
 * 使用舊式報告建立核准報告
+* 首頁區域中的我的核准Widget中的存取核准要求
 
 如需詳細資訊，請參閱[舊版檔案核准](/help/quicksilver/review-and-approve-work/manage-approvals/approval-process-in-workfront.md#document-approval-processes)。
 
@@ -62,6 +63,8 @@ Workfront目前提供3種不同的系統，以供資產和檔案檢閱和核准�
 
 * 建立多個階段核准[!BADGE 即將推出]{type=Informative}
 
+* 首頁區域中的我的核准Widget中的存取檢閱和核准要求
+
 
 ## 校訂核准
 
@@ -84,6 +87,8 @@ Workfront目前提供3種不同的系統，以供資產和檔案檢閱和核准�
 * 建立多個階段核准
 
 * 使用基本或自動化工作流程
+
+* 首頁區域中的我的核准Widget中的存取核准要求
 
 <!--
 ## Upcoming deprecations
