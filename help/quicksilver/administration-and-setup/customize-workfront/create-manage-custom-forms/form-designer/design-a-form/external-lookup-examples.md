@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 6f69425c811042f9f3e13f3631ba734f8fdcb95f
 workflow-type: tm+mt
-source-wordcount: '1318'
+source-wordcount: '1378'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ### 在外部查詢中使用原生Workfront欄位值
 
-此範例說明如何呼叫Workfront API，並將現有「狀態查詢」欄位的資料匯入外部查詢欄位。
+此範例示範如何呼叫Workfront API，並在「外部查詢」欄位中填入專案清單，該清單是使用「狀態查詢」自訂欄位的值和透過$$QUERY的搜尋字詞來依狀態篩選的。
 
 1. 開啟自訂表單。
 1. 在熒幕左側，尋找&#x200B;**外部查詢**&#x200B;並將其拖曳至畫布上的區段。
@@ -37,17 +37,17 @@ ht-degree: 0%
 1. 選取欄位的&#x200B;**格式**。
 1. 在&#x200B;**基本API URL**&#x200B;欄位中輸入API呼叫。
 
-   * 若要參照自訂表單所在的相同Workfront例項，請在URL使用$$HOST。
-   * 若要根據查詢其他欄位來篩選結果，請新增$$QUERY。
+   * 使用$$HOST參照自訂表單所在的相同Workfront例項。
+   * 使用$$QUERY根據使用者輸入動態篩選結果。
 
-   **範例**
-   `$$HOST/attask/api/v15.0/project/search?status={DE:StatusQuery}&$$QUERY`
+   **範例API呼叫**
+   `$$HOST/attask/api/v15.0/project/search?status={DE:Status Query}&description=$$QUERY`
 
-1. 檢閱此查詢欄位在API中參考的欄位的&#x200B;**相依性**。
+1. 檢閱API呼叫中參考之欄位的&#x200B;**相依性**。
 
-   相依性欄位可以是物件詳細資訊頁面中的任何自訂或原生欄位。
+   相依性欄位可以是物件上可用的任何自訂或原生欄位。 例如，當您建立包含外部查閱欄位的群組自訂表單時，相依性欄位可包含群組上可用的任何欄位。
 
-   在此範例中，`{DE:StatusQuery}`將由StatusQuery自訂欄位的值取代。
+   在此範例中，`{DE:Status Query}`將會以目前群組的「狀態查詢」自訂欄位值動態取代。 因此，當表單附加至群組A時，`{DE:Status Query}`將取代為該群組在「狀態查詢」欄位中設定的值。
 
 1. 選取&#x200B;**HTTP方法**。
 
