@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront中檢視您建立或與您共用的行�
 author: Lisa
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: eebece1ba576d9c654ac0fd9763ae646ce3be5a5
+source-git-commit: 3e5fdb157a6ff29daf964b505d3a0bf4f9842e88
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -82,8 +82,6 @@ ht-degree: 0%
    * **[!UICONTROL 周]**：顯示日曆的一週
    * **[!UICONTROL 甘特圖]**：顯示行事曆的連續檢視
 
-     ![[!UICONTROL 甘特圖]行事曆報告](assets/gantt-calendar-report.png)
-
      您可以向下或橫向捲動，在[!UICONTROL 甘特圖]檢視中看到更多事件。 當為檢視填入資料時，會出現載入符號。
 
    >[!NOTE]
@@ -118,16 +116,5 @@ ht-degree: 0%
 
 您可以在行事曆中檢視目前和過去事件的詳細資訊。
 
-1. 前往您要瞭解其詳細資料的事件，然後按一下事件。
-事件的詳細資訊頁面隨即開啟。
-   ![calendar_report_EventDetails.png](assets/calendar-report-eventdetails-350x145.png)
-
-1. （選擇性）若要檢視物件的其他詳細資訊：
-
-   1. 將游標停留在專案、任務或問題名稱上。
-
-      物件的詳細資訊頁面隨即開啟。
-      ![additional_object_details_-_calendar_report.png](assets/additional-object-details---calendar-report-350x131.png)
-
-   1. （可選）若要開啟相關聯的專案、任務或問題，請按一下物件的標題。
-   1. （選擇性）若要關閉所有開啟的詳細資訊頁面，請按一下事件詳細資訊頁面之外的任意位置。
+1. 前往您要瞭解其詳細資料的事件，然後按一下事件。 詳細資訊會在右側的面板中開啟。
+1. （可選）若要開啟相關聯的專案、任務或問題，請按一下物件的標題。
