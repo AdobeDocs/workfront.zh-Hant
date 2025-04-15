@@ -6,7 +6,7 @@ description: 如果您擁有專案的「管理」存取權，您可以將任何�
 author: Courtney
 feature: Agile
 exl-id: 5f94a451-8530-478f-85c2-41bc15c22dd1
-source-git-commit: f78a86dcdf7b63e98bec5216fb5ab7622775a053
+source-git-commit: 2ce454f6f6e883090fe69c953d89c2d3eef7ce5b
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 0%
@@ -67,6 +67,7 @@ ht-degree: 0%
    >如果將多個團隊指派給任務或問題，則工作專案只能顯示在一個團隊的[!DNL kanban]展示板上。
 1. 按一下&#x200B;**新增**。
 
+
 ## 從報告新增現有任務或問題
 
 若要從報告將任務或問題新增至[!UICONTROL Kanban]面板：
@@ -84,6 +85,7 @@ ht-degree: 0%
 1. 按一下&#x200B;**新增**。
 
 
+
 ## 從儀表板新增現有任務或問題
 
 若要從儀表板將任務或問題新增到[!UICONTROL Kanban]面板：
@@ -98,4 +100,5 @@ ht-degree: 0%
    >[!NOTE]
    >
    >如果將多個團隊指派給任務或問題，則工作專案只能顯示在一個團隊的[!DNL kanban]展示板上。
+
 1. 按一下&#x200B;**新增**。

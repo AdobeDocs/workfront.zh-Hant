@@ -3,19 +3,21 @@ content-type: reference
 product-area: documents;workfront-integrations
 navigation-topic: documents-navigation-topic
 title: 適用於Experience Manager Assets Essentials的Adobe Workfront：文章索引
-description: 適用於Experience Manager Assets Essentials的Adobe Workfront
+description: 適用於Experience Manager Assets Essentials的Adobe Workfront文章索引
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 8aad1efc-1a91-441a-8bb8-0ce9429492c6
-source-git-commit: c46ea3c15139b190187726eed5ddb49135052e16
+source-git-commit: 5d818b2e3c3314c6af076df46f7f806214f97bab
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
 
 # 適用於Experience Manager Assets和Assets Essentials的Adobe Workfront：文章索引
+
+<!-- Audited: 4/2025 -->
 
 * [Adobe Experience Manager Assets整合概述](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
 * [從Experience Manager Assets或Assets Essentials連結資產和資料夾](../../documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)

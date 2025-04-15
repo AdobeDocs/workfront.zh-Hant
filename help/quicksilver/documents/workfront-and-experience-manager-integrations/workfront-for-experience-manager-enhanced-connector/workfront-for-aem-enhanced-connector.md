@@ -1,23 +1,25 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: workfront-and-experience-manager-integrations
-title: Experience Manager增強型聯結器的Workfront
-description: Experience Manager增強型聯結器的Workfront
+title: 適用於Experience Manager的Workfront增強型聯結器
+description: 適用於Experience Manager的Workfront增強型聯結器文章索引
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: c4dfcc06-5140-46de-a2bf-0253605a7fbf
-source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
+source-git-commit: 5d818b2e3c3314c6af076df46f7f806214f97bab
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '70'
 ht-degree: 0%
 
 ---
 
-# Experience Manager增強型聯結器的Workfront
+# 適用於Experience Manager的Workfront增強型聯結器：文章索引
 
-* [適用於Experience Manager增強型聯結器的Workfront概觀](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-aem-enhanced-connector-overview.md)
-* [Workfront for Experience Manager增強型聯結器中繼資料總覽](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-metadata-overview.md)
+<!-- Audited: 4/2025 -->
+
+* [適用於Experience Manager的Workfront增強型聯結器總覽](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-aem-enhanced-connector-overview.md)
+* [適用於Experience Manager的Workfront增強型聯結器中繼資料總覽](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-metadata-overview.md)
 * [使用增強型聯結器連結資產和資料夾](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-link-assets.md)
 * [使用增強型聯結器傳送檔案](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-send-document.md)
 * [校訂具有增強型聯結器的連結資產](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-proof-asset.md)
