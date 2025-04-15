@@ -7,10 +7,10 @@ description: 本頁包含有關Workfront Data Connect中資料結構和內容的
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: eccc878f4b6fdeeffbcd5635b80ac3e26f7fb8c6
+source-git-commit: 8aa03e16daa7c82342741b3db7b805941508c896
 workflow-type: tm+mt
-source-wordcount: '4719'
-ht-degree: 4%
+source-wordcount: '7843'
+ht-degree: 7%
 
 ---
 
@@ -63,801 +63,8008 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
 
 下表將Workfront中的物件名稱（及其在介面和API中的名稱）與其在Data Connect中的對等名稱建立關聯。
 
+### 存取層級
+
 <table>
-  <thead>
-    <tr>
-        <th>Workfront實體名稱</th>
-        <th>介面參考</th>
-        <th>API參考 | 標籤</th>
-        <th>資料湖表格</th>
-        <th>關係欄位</th>
-        <th>關係表格與欄位</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-        <td>存取層級</td>
-        <td>存取層級</td>
-        <td>ACSLVL | 存取層級</td>
-        <td>ACCESSLEVELS_CURRENT<br>ACCESSLEVELS_DAILY_HISTORY<br>ACCESSLEVELS_EVENT</td>
-        <td>ACCESSLEVELID (self)<br>APPGLOBALID<br>LASTUPDATEDBYID<br>LEGACYACCESSLEVELID<br>OBJID<br>SYSID</td>
-        <td>Self<br>不是關聯性；用於內部應用程式<br>USER_CURRENT | USERID<br>不是關聯性；用於內部應用程式<br>在OBJCODE欄位中識別的物件識別碼<br>不是關聯性；用於內部應用程式</td>
-    </tr>
-    <tr>
-        <td>存取規則</td>
-        <td>共用</td>
-        <td>ACSURL | 共用</td>
-        <td>ACCESSRULES_CURRENT<br>ACCESSRULES_DAILY_HISTORY<br>ACCESSRULES_EVENT</td>
-        <td>ACCESSORID <br>ACCESSRULEID (self) <br>ANCESTORID <br>LASTUPDATEDBYID <br>SECURITYOBJID <br>SYSID</td>
-        <td>ACCESSOROBJCODE欄位中識別的物件識別碼<br>Self<br>ANCESTOROBJCODE欄位中識別的物件識別碼<br>USERS_CURRENT | USERID<br>在SECURITYOBJCODE欄位中識別的物件識別碼<br>不是關聯性；用於內部應用程式用途</td>
-    </tr>
-    <tr>
-        <td>核准路徑</td>
-        <td>核准路徑</td>
-        <td>ARVPTH | 核准</td>
-        <td>APPROVALPATHS_CURRENT<br>APPROVALPATHS_DAILY_HISTORY<br>APPROVALPATHS_EVENT</td>
-        <td>APPROVALPATHID （自身） <br>APPROVALPROCESSID <br>ENTEREDBYID <br>GLOBALPATHID <br>LASTUPDATEDBYID <br>SYSID</td>
-        <td>Self<br>APPROVALPROCESSES_CURRENT | APPROVALPROCESSID<br>USERS_CURRENT | USERID<br>不是關聯性；用於內部應用程式<br>USERS_CURRENT | USERID<br>不是關聯性；用於內部應用程式</td>
-    </tr>
-    <tr>
-        <td>核准流程</td>
-        <td>核准流程</td>
-        <td>ARVPRC | 核准流程</td>
-        <td>APPROVALPROCESSES_CURRENT<br>APPROVALPROCESSES_DAILY_HISTORY<br>APPROVALPROCESSES_EVENT</td>
-        <td>APPROVALPROCESSID （自身） <br>ENTEREDBYID <br>LASTUPDATEDBYID<br>SYSID</td>
-        <td>自我<br>使用者_目前 | USERID<br>USERS_CURRENT | USERID<br>不是關聯性；用於內部應用程式</td>
-    </tr>
-    <tr>
-        <td>核准步驟</td>
-        <td>核准步驟</td>
-        <td>ARVSTP | 核准階段</td>
-        <td>APPROVALSTEPS_CURRENT<br>APPROVALSTEPS_DAILY_HISTORY<br>APPROVALSTEPS_EVENT</td>
-        <td>APPROVALPATHID <br>APPROVALSTEPID （自我） <br>SYSID</td>
-        <td>APPROVALPATHS_CURRENT | APPROVALPATHID<br>Self<br>不是關聯性；用於內部應用程式</td>
-    </tr>
-    <tr>
-        <td>核准者狀態</td>
-        <td>核准者狀態</td>
-        <td>封存 | 核准者狀態</td>
-        <td>APPROVERSTATUSES_CURRENT<br>APPROVERSTATUSES_DAILY_HISTORY<br>APPROVERSTATUSES_EVENT</td>
-        <td>APPROVERSTATUSID （自身）<br>APPROVABLEOBJID<br>APPROVALSTEPID<br>APPROVEDBYID <br>DELEGATEUSERID<br>LASTUPDATEDBYID <br>OPTASKID<br>OVERRIDDENUSERID<br>PROJECTID<br>STEPAPPROVERID<br>SYSID<br>TASKID<br>WILDCARDUSERID</td>
-        <td>Self<br>在APPROVABLEOBJCODE欄位中識別的物件識別碼<br>APPROVALSTEPS_CURRENT | APPROVALSTEPID<br>USERS_CURRENT | 使用者ID <br>使用者_目前 | USERID<br>USERS_CURRENT | 使用者ID <br>OPTASKS_CURRENT | OPTASKID<br>USERS_CURRENT | 使用者ID<br>專案_目前 | PROJECTID<br>USERS_CURRENT | USERID<br>不是關聯性；用於內部應用程式<br>TASKS_CURRENT | TASKID<br>USERS_CURRENT | 使用者ID</td>
-    </tr>
-    <tr>
-        <td>指派</td>
-        <td>指派</td>
-        <td>指派 | 指定任務</td>
-        <td>ASSIGNMENTS_CURRENT<br>ASSIGNMENTS_DAILY_HISTORY<br>ASSIGNMENTS_EVENT</td>
-        <td>ASSIGNEDBYID<br>ASSIGNEDTOID<br>ASSIGNMENTID (SELF)<br>CATEGORYID<br>CLASSIFIERID<br>OPTASKID<br>PRIVATERATECARDID<br>PROJECTID<br>ROLEID<br>TASKID<br>TEAMID</td>
-        <td>USER_CURRENT | USERID<br>USER_CURRENT | 使用者ID<br>自我<br>類別_目前 | CATEGORYID<br>目前不支援的分類資料表<br>OPTASK_CURRENT | OPTASKID<br>RATECARD_CURRENT | RATECARDID<br>PROJECT_CURRENT | PROJECTID<br>ROLE_CURRENT | ROLEID<br>工作_目前 | TASKID<br>TEAM_CURRENT | TEAMID</td>
-    </tr>
-    <tr>
-        <td>等待核准</td>
-        <td>等待核准</td>
-        <td>AWAPVL | 等待核准</td>
-        <td>AWAITINGAPPROVALS_CURRENT<br>AWAITINGAPPROVALS_DAILY_HISTORY<br>AWAITINGAPPROVALS_EVENT</td>
-        <td>ACCESSREQUESTID<br>APPROVABLEID <br>APPROVERID <br>AWAITINGAPPROVALID （自身） <br>DOCUMENTID <br>DOCUMENTVERSIONID<br>OPTASKID <br>PROJECTID <br>ROLEID <br>SUBMITTEDBYID <br>SYSID<br>TASKID <br>TEAMID <br>TIMESHEETID<br>USERID</td>
-        <td>目前不支援存取要求資料表<br>不是關聯性；用於內部應用程式<br>USERS_CURRENT | USERID<br>Self<br>DOCUMENTS_CURRENT | DOCUMENTID<br>DOCUMENTVERSIONS_CURRENT | DOCUMENTVERSIONID<br>OPTASKS_CURRENT | OPTASKID<br>專案_目前 | PROJECTID<br>角色_目前 | ROLEID<br>使用者_目前 | USERID<br>不是關聯性；用於內部應用程式<br>TASKS_CURRENT | TASKID<br>團隊_目前 | TEAMID<br>時程表_目前 | TIMESHEETID<br>使用者_目前 | 使用者ID</td>
-    </tr>
-    <tr>
-        <td>基準線</td>
-        <td>基準線</td>
-        <td>BLIN | 基線</td>
-        <td>BASELINES_CURRENT<br>BASELINES_DAILY_HISTORY<br>BASELINES_EVENT</td>
-        <td>BASELINEID (SELF)<br>EXCHANGERATEID <br>PROJECTID <br>SYSID</td>
-        <td>Self<br>EXCHANGERATES_CURRENT | EXCHANGERATEID<br>專案_目前 | PROJECTID<br>不是關聯性；用於內部應用程式</td>
-    </tr>
-    <tr>
-        <td>基準線任務</td>
-        <td>基準線任務</td>
-        <td>BSTSK | 基準線任務</td>
-        <td>BASELINETASKS_CURRENT<br>BASELINETASKS_DAILY_HISTORY<br>BASELINETASKS_EVENT</td>
-        <td>BASELINEID<br>BASELINETASKID (self) <br>EXCHANGERATEID <br>PROJECTID <br>SYSID<br>TASKID</td>
-        <td>基準線_目前 | BASELINEID<br>Self<br>EXCHANGERATES_CURRENT | EXCHANGERATEID<br>專案_目前 | PROJECTID<br>不是關聯性；用於內部應用程式<br>TASKS_CURRENT | TASKID</td>
-    </tr>
-    <tr>
-        <td>計費率</td>
-        <td>費率或覆寫率</td>
-        <td>評等 | 收費率</td>
-        <td>RATES_CURRENT<br>RATES_DAILY_HISTORY<br>RATES_EVENT</td>
-        <td>ASSIGNMENTID<br>CLASSIFIERID<br>EXCHANGERATEID<br>NLBRCATEGORYID<br>NONLABORRESOURCEID<br>OBJID<br>PROJECTID <br>RATECARDID<br>RATEID (SELF)<br>ROLEID <br>SOURCERATECARDID <br>SYSID <br>TEMPLATEID<br>USERID</td>
-        <td>指定任務_目前 | ASSIGNMENTID<br>目前不支援的分類資料表<br>EXCHANGERATES_CURRENT | EXCHANGERATEID<br>目前不支援非人工資源類別資料表<br>NONLABORRESOURCES_CURRENT | NONLABORRESOURCEID<br>在OBJCODE欄位<br>PROJECTS_CURRENT中識別的物件識別碼 | PROJECTID <br>RATECARD_CURRENT | RATECARDID<br>Self<br>角色_目前 | ROLEID <br>RATECARD_CURRENT | RATECARDID <br>不是關聯性；用於內部應用程式<br>TEMPLATES_CURRNT | TEMPLATEID<br>USERS_CURRENT | 使用者ID</td>
-    </tr>
-    <tr>
-        <td>計費記錄</td>
-        <td>計費記錄</td>
-        <td>帳單 | 付費記錄</td>
-        <td>BILLINGRECORDS_CURRENT<br>BILLINGRECORDS_DAILY_HISTORY<br>BILLINGRECORDS_EVENT</td>
-        <td>BILLINGRECORDID （本身）<br>CATEGORYID<br>EXCHANGERATEID <br>INVOICEID <br>LASTUPDATEDBYID <br>PROJECTID <br>SYSID</td>
-        <td>Self<br>CATEGORY_CURRENT | CATEGORYID<br>EXCHANGERATES_CURRENT | EXCHANGERATEID <br>目前不支援的商業發票資料表<br>USERS_CURRENT | 使用者ID <br>專案_目前 | PROJECTID   <br>不是關聯性；用於內部應用程式</td>
-    </tr>
-    <tr>
-        <td>預訂</td>
-        <td>預訂</td>
-        <td>預訂 | 預訂</td>
-        <td>BOOKINGS_CURRENT<br>BOOKINGS_DAILY_HISTORY<br>BOOKINGS_EVENT</td>
-        <td>BOOKINGID (SELF)<br>ENTEREDBYID<br>LASTUPDATEDBYID<br>NLBRCATEGORYID<br>NONLABORRESOURCEID<br>OBJID<br>PROJECTID<br>SYSID<br>TASKID<br>TEMPLATEID<br>TEMPLATETASKID<br>TOPOBJID</td>
-        <td>自我<br>使用者_目前 | USERID<br>USERS_CURRENT | USERID<br>目前不支援非人工資源類別資料表<br>NONLABORRESOURCES_CURRENT | NONLABORRESOURCEID<br>在OBJOBJCODE欄位<br>PROJECTS_CURRENT中識別的物件識別碼 | PROJECTID <br>不是關聯性；用於內部應用程式<br>TASKS_CURRENT | TASKID<br>TEMPLATES_CURRENT | TEMPLATEID<br>TEMPLATETASKS_CURRENT | TEMPLATETASKID<br>在TOPOBJCODE欄位中識別的物件識別碼</td>
-    </tr>
-    <tr>
-        <td>企業設定檔</td>
-        <td>企業設定檔</td>
-        <td>BSNPRF | 商業設定檔</td>
-        <td>BUSINESSPROFILE_CURRENT<br>BUSINESSPROFILE_DAILY_HISTORY<br>BUSINESSPROFILE_EVENT</td>
-        <td>ACCESSLEVELID<br>BUSINESSPROFILEID (self)<br>ENTEREDBYID<br>GROUPID<br>LASTUPDATEDBYID<br>SYSID</td>
-        <td>ACCESSLEVELS_CURRENT | ACCESSLEVELID<br>Self<br>USERS_CURRENT | 使用者ID<br>群組_目前 | GROUPID<br>USERS_CURRENT | USERID<br>不是關聯性；用於內部應用程式</td>
-    </tr>
-    <tr>
-        <td>業務規則</td>
-        <td>業務規則</td>
-        <td>BSNRUL | 業務規則</td>
-        <td>BUSINESSRULE_CURRENT<br>BUSINESSRULE_DAILY_HISTORY<br>BUSINESSRULE_EVENT</td>
-        <td>BUSINESSRULEID (self)<br>ENTEREDBYID<br>LASTUPDATEDBYID<br>SYSID</td>
-        <td>自我<br>使用者_目前 | USERID<br>USERS_CURRENT | USERID<br>不是關聯性；用於內部應用程式</td>
-    </tr>
-    <tr>
-        <td>類別</td>
-        <td>自訂表單</td>
-        <td>CTGY | 類別</td>
-        <td>CATEGORIES_CURRENT<br>CATEGORIES_DAILY_HISTORY<br>CATEGORIES_EVENT</td>
-        <td>CATEGORYID （自身）<br>ENTEREDBYID<br>GROUPID<br>LASTUPDATEDBYID<br>SYSID</td>
-        <td>自我<br>使用者_目前 | 使用者ID<br>群組_目前 | GROUPID<br>USERS_CURRENT | USERID<br>不是關聯性；用於內部應用程式</td>
-    </tr>
-    <tr>
-        <td>類別參數</td>
-        <td>自訂表單欄位</td>
-        <td>CTGYPA | 類別引數</td>
-        <td>CATEGORIESPARAMETERS_CURRENT<br>CATEGORIESPARAMETERS_DAILY_HISTORY<br>CATEGORIESPARAMETERS_EVENT</td>
-        <td>CATEGORIESPARAMETERID （自身）<br>CATEGORYID<br>PARAMETERGROUPID<br>PARAMETERID<br>SYSID</td>
-        <td>Self<br>CATEGORY_CURRENT | 目前不支援CATEGORYID<br>引數群組表格<br>PARAMETERS_CURRENT | 引數    <br>不是關聯性；用於內部應用程式</td>
-    </tr>
-    <tr>
-        <td>分類器</td>
-        <td>位置</td>
-        <td>CLSF | 位置</td>
-        <td>CLASSIFIER_CURRENT<br>CLASSIFIER_DAILY_HISTORY<br>CLASSIFIER_EVENT</td>
-        <td>CLASSIFIERID （自身）<br>ENTEREDBYID<br>LASTUPDATEDBYID<br>PARENTID<br>SYSID</td>
-        <td>自我<br>使用者_目前 | USERID<br>USERS_CURRENT | USERID<br>CLASSIFIER_CURRENT | CLASSIFIERID<br>不是關聯性；用於內部應用程式</td>
-    </tr>
-    <tr>
-        <td>公司</td>
-        <td>公司</td>
-        <td>CMPY | 公司</td>
-        <td>COMPANIES_CURRENT<br>COMPANIES_DAILY_HISTORY<br>COMPANIES_EVENT</td>
-        <td>CATEGORYID<br>COMPANYID (self)<br>ENTEREDBYID<br>GROUPID<br>LASTUPDATEDBYID<br>PRIVATERATECARDID<br>SYSID</td>
-        <td>CATEGORIES_CURRENT |類別<br>ID 自<br>USERS_CURRENT |使用者ID GROUPS_CURRENT  <br>|群組 ID<br>USERS_CURRENT |使用者ID RATECARD_CURRENT  <br>|RATECARDID<br>不是關係;用于內部應用程式目的</td>
-    </tr>
-    <tr>
-        <td>自訂季度</td>
-        <td>自訂季度</td>
-        <td>CSTQRT |自訂季度</td>
-        <td><br>CUSTOMQUARTERS_CURRENT CUSTOMQUARTERS_DAILY_HISTORY<br>CUSTOMQUARTERS_EVENT</td>
-        <td>CUSTOMQUARTERID （自我） <br>SYSID</td>
-        <td>Self<br>不是關聯性；用於內部應用程式</td>
-    </tr>
-    <tr>
-        <td>CustomEnum</td>
-        <td>條件、優先順序、嚴重性狀態</td>
-        <td>CSTEM |自定義枚舉</td>
-        <td>CUSTOMENUMS_CURRENT<br>CUSTOMENUMS_DAILY_HISTORY<br>CUSTOMENUMS_EVENT<br>*記錄型別是透過'enumClass'屬性識別。 下列是預期的型別：<br>CONDITION_OPTASK<br>CONDITION_PROJ<br>CONDITION_TASK<br>PRIORITY_OPTASK<br>PRIORITY_PROJ<br>PRIORITY_TASK<br>SEVERITY_OPTASK<br>STATUS_OPTASK<br>STATUS_PROJ<br>STATUS_TASK</td>
-        <td>ENTEREDBYID<br>GROUPID</td>
-        <td>USER_CURRENT | 使用者ID<br>群組_目前 | GROUPID</td>
-    </tr>
-    <tr>
-        <td>文件</td>
-        <td>文件</td>
-        <td>檔案 | 檔案</td>
-        <td>DOCUMENTS_CURRENT<br>DOCUMENTS_DAILY_HISTORY<br>DOCUMENTS_EVENT<br>DOCUMENTS_CUSTOM_VALUE_CURRENT<br>DOCUMENTS_CUSTOM_VALUE_DAILY_HISTORY<br>DOCUMENTS_CUSTOM_VALUE_EVENT</td>
-        <td>CATEGORYID<br>CHECKEDOUTBYID<br>DOCUMENTID<br>DOCUMENTREQUESTID<br>EXCHANGERATEID<br>ITERATIONID<br>LASTNOTEID<br>LASTUPDATEDBYID<br>NOTEID<br>OBJID<br>OPTASKID<br>OWNERID<br>PORTFOLIOID<br>PROGRAMID<br>PROJECTID<br>ID releaseversionid<br>TASKID<br>TEMPLATEID<br>TEMPLATETASKID<br>TOPOBJID<br>USERID</td>
-        <td>CATEGORY_CURRENT | CATEGORYID<br>USER_CURRENT | USERID<br>Self<br>目前不支援檔案要求表格<br>EXCHANGERATES_CURRENT | EXCHANGERATEID<br>ITERATIONS_CURRENT | ITERATIONID<br>NOTE_CURRENT | NOTEID<br>USER_CURRENT | 使用者ID<br>NOTE_CURRENT | NOTEID<br>根據DOCOBJCODE值<br>OPTASK_CURRENT的變數 | OPTASKID<br>USER_CURRENT | 使用者ID<br>PORTFOLIO_CURRENT | PORTFOLIOID<br>PROGRAM_CURRENT | PROGRAMID<br>PROJECT_CURRENT | 目前不支援PROJECTID<br>發行版本資料表<br>TASK_CURRENT | TASKID<br>TEMPLATES_CURRENT | TEMPLATEID<br>TEMPLATETASKS_CURRENT | TEMPLATETASKID<br>根據TOPOBJCODE值<br>USER_CURRENT的變數 | 使用者ID</td>
-    </tr>
-    <tr>
-        <td>文件核准</td>
-        <td>文件核准</td>
-        <td>DOCAPL | 檔案核准</td>
-        <td>DOCAPPROVALS_CURRENT<br>DOCAPPROVALS_DAILY_HISTORY<br>DOCAPPROVALS_EVENT</td>
-        <td>APPROVERID<br>DOCAPPROVALID (self)<br>DOCUMENTID<br>NOTEID<br>REQUESTORID<br>SYSID</td>
-        <td>USERS_CURRENT | 使用者識別碼<br>Self<br>DOCUMENTS_CURRENT | DOCUMENTID<br>備註_目前 | NOTEID<br>USERS_CURRENT | 使用者ID <br>不是關聯性；用於內部應用程式</td>
-    </tr>
-    <tr>
-        <td>文件資料夾</td>
-        <td>文件資料夾</td>
-        <td>DOCFLD | 檔案資料夾</td>
-        <td>DOCFOLDERS_CURRENT<br>DOCFOLDERS_DAILY_HISTORY<br>DOCFOLDERS_EVENT</td>
-        <td>DOCFOLDERID （自身）<br>ENTEREDBYID<br>ISSUEID<br>ITERATIONID    <br>LINKEDFOLDERID<br>PARENTID<br>PORTFOLIOID <br>PROGRAMID    <br>PROJECTID<br>SYSID<br>TASKID     <br>TEMPLATEID<br>TEMPLATETASKID<br>USERID</td>
-        <td>自我<br>使用者_目前 | 使用者ID<br>OPTASKS_CURRENT | OPTASKID<br>反複專案_目前 | ITERATIONID<br>LINKEDFOLDERS_CURRENT | LINKEDFOLDERID<br>DOCFOLDERS_CURRENT | DOCFOLDERID<br>PORTFOLIO_CURRENT | PORTFOLIOID <br>PROGRAM_CURRENT | PROGRAMID    <br>專案_目前 | PROJECTID <br>不是關聯性；用於內部應用程式<br>TASKS_CURRENT | TASKID     <br>範本_目前 | TEMPLATEID<br>TEMPLATETASKS_CURRENT | TEMPLATETASKID<br>USERS_CURRENT | 使用者ID</td>
-    </tr>
-    <tr>
-        <td>DocumentProvideMetadata</td>
-        <td>檔案提供中繼資料</td>
-        <td>檔案 | DocumentProviderMetadata</td>
-        <td>DOCPROVIDERMETA_CURRENT<br>DOCPROVIDERMETA_DAILY_HISTORY<br>DOCPROVIDERMETA_EVENT</td>
-        <td>DOCPROVIDERMETAID （自我） <br>SYSID</td>
-        <td>Self<br>不是關聯性；用於內部應用程式</td>
-    </tr>
-    <tr>
-        <td>Documentprovider</td>
-        <td>文件提供者</td>
-        <td>DOCPROP | 檔案提供者</td>
-        <td>DOCPROVIDERS_CURRENT<br>DOCPROVIDERS_DAILY_HISTORY<br>DOCPROVIDERS_EVENT</td>
-        <td>DOCPROVIDERCONFIGID<br>DOCPROVIDERID （自身）<br>OWNERID    <br>SYSID</td>
-        <td>DOCPROVIDERCONFIG_CURRENT | DOCPROVIDERCONFIGID<br>Self<br>USERS_CURRENT | 使用者ID    <br>不是關聯性；用於內部應用程式</td>
-    </tr>
-    <tr>
-        <td>DocumentProviderConfig</td>
-        <td>檔案提供者設定</td>
-        <td>DOCCFG | DocumentProviderConfig</td>
-        <td>DOCPROVIDERCONFIG_CURRENT<br>DOCPROVIDERCONFIG_DAILY_HISTORY<br>DOCPROVIDERCONFIG_EVENT</td>
-        <td>DOCPROVIDERCONFIGID （自身）<br>SYSID</td>
-        <td>Self<br>不是關聯性；用於內部應用程式</td>
-    </tr>
-    <tr>
-        <td>檔案版本</td>
-        <td>文件版本</td>
-        <td>DOCV | 檔案版本</td>
-        <td>DOCUMENTVERSIONS_CURRENT<br>DOCUMENTVERSIONS_DAILY_HISTORY<br>DOCUMENTVERSIONS_EVENT</td>
-        <td>DOCUMENTID<br>DOCUMENTPROVIDERID<br>DOCUMENTVERSIONID<br>ENTEREDBYID<br>EXTERNALSTORAGEID<br>PROOFAPPROVALSTATUSIDS<br>PROOFEDBYUSERID<br>PROOFID<br>PROOFONWNERID<br>PROOFSTAGEID</td>
-        <td>DOCUMENT_CURRENT | DOCUMENTID<br>DOCPROVIDERS_CURRENT | DOCUMENTPROVIDERID<br>Self<br>USER_CURRENT | 目前不支援USERID<br>外部ID<br>校訂核准狀態表格<br>USER_CURRENT | USERID<br>目前不支援的校訂資料表<br>USER_CURRENT | 目前不支援USERID<br>校訂階段資料表</td>
-    </tr>
-    <tr>
-        <td>匯率</td>
-        <td>匯率</td>
-        <td>運算式 | 匯率</td>
-        <td>EXCHANGERATES_CURRENT<br>EXCHANGERATES_DAILY_HISTORY<br>EXCHANGERATES_EVENT</td>
-        <td>EXCHANGERATEID （自身）<br>PROJECTID<br>SYSID <br>TEMPLATEID  </td>
-        <td><br>自助PROJECTS_CURRENT |投影 ID <br>不是關係;用于內部應用程式目的 <br>TEMPLATES_CURRENT |TEMPLATEID  </td>
-    </tr>
-    <tr>
-        <td>費用</td>
-        <td>費用</td>
-        <td>EXPNS |費用</td>
-        <td><br>EXPENSES_CURRENT EXPENSES_DAILY_HISTORY<br>EXPENSES_EVENT</td>
-        <td>BILLINGRECORDID<br>CATEGORYID<br>ENTEREDBYID<br>EXCHANGERATEID <br>EXPENSEID (SELF) <br>EXPENSETYPEID <br>LASTUPDATEDBYID <br>OBJID <br>PROJECTID<br>SYSID<br>TASKID<br>TEMPLATEID<br>TEMPLATETASKID<br>TOPOBJID</td>
-        <td>BILLINGRECORDS_CURRENT | BILLINGRECORDID<br>類別_目前 | CATEGORYID<br>USERS_CURRENT | 使用者ID<br>EXCHANGERATES_CURRENT | EXCHANGERATEID <br>Self <br>EXPENSETYPES_CURRENT | EXPENSETYPEID <br>USERS_CURRENT | 使用者識別碼<br>物件識別碼（在OBJCODE欄位<br>PROJECTS_CURRENT中識別） | PROJECTID <br>不是關聯性；用於內部應用程式<br>TASKS_CURRENT | TASKID<br>TEMPLATES_CURRENT | TEMPLATEID<br>TEMPLATETASKS_CURRENT | TEMPLATETASKID<br>在TOPOBJCODE欄位中識別的物件識別碼</td>
-    </tr>
-    <tr>
-        <td>費用類型</td>
-        <td>費用類型</td>
-        <td>EXPTYP |費用類型</td>
-        <td>EXPENSETYPES_CURRENT<br>EXPENSETYPES_DAILY_HISTORY<br>EXPENSETYPES_EVENT</td>
-        <td>APPGLOBALID<br>EXPENSETYPEID (self)<br>物件ID <br>SYSID  </td>
-        <td>不是關聯性；用於內部應用程式<br>Self<br>在OBJCODE欄位中識別的物件識別碼<br>不是關聯性；用於內部應用程式  </td>
-    </tr>
-    <tr>
-        <td>群組</td>
-        <td>群組</td>
-        <td>群組 | 群組</td>
-        <td>GROUPS_CURRENT<br>GROUPS_DAILY_HISTORY<br>GROUPS_EVENT</td>
-        <td>BUSINESSLEADERID<br>CATEGORYID<br>ENTEREDBYID<br>GROUPID<br>LAYOUTTEMPLATEID<br>PARENTID<br>ROOTID<br>UITEMPLATEID</td>
-        <td>USER_CURRENT | 使用者ID<br>類別_目前 | CATEGORYID<br>USER_CURRENT | 不支援USERID<br>Self<br>配置範本資料表<br>GROUP_CURRENT | GROUPID<br>GROUP_CURRENT | GROUPID<br>UITEMPLATES_CURRENT | UITEMPLATEID</td>
-    </tr>
-    <tr>
-        <td>小時</td>
-        <td>小時</td>
-        <td>HOUR | 小時</td>
-        <td>HOURS_CURRENT<br>HOURS_DAILY_HISTORY<br>HOURS_EVENT</td>
-        <td>APPROVEDBYID<br>BILLINGRECORDID<br>CATEGORYID<br>CLASSIFIERID<br>DUPID<br>EXCHANGERATEID<br>EXTERNALTIMESHEETID<br>HOURID<br>HOURTYPEID<br>LASTUPDATEDBYID<br>OPTASKID<br>OWNERID<br>PROJECTID<br>PROJECTOVERHEADID<br>ROLEID<br>ID taskid<br>TIMESHEETID</td>
-        <td>USER_CURRENT | USERID<br>BILLINGRECORDS_CURRENT | BILLINGRECORDID<br>類別_目前 | CATEGORYID<br>目前不支援分類資料表<br>不是關聯性；用於內部應用程式<br>EXCHANGERATES_CURRENT | EXCHANGERATEID<br>不是Workfront關係；用於整合至外部系統<br>Self<br>HOURTYPE_CURRENT | HOURTYPEID<br>USER_CURRENT | 使用者ID<br>OPTASK_CURRENT | OPTASKID<br>USER_CURRENT | 使用者ID<br>PROJECT_CURRENT | PROJECTID<br>不是關聯性；用於內部應用程式<br>ROLE_CURRENT | ROLEID<br>TASK_CURRENT | TASKID<br>時程表_目前 | 時程表ID</td>
-    </tr>
-    <tr>
-        <td>時數類型</td>
-        <td>時數類型</td>
-        <td>小時 | 小時型別</td>
-        <td>HOURTYPES_CURRENT</td>
-        <td>APPGLOBALID<br>HOURTYPEID<br>物件ID</td>
-        <td>不是關聯性；用於內部應用程式<br>本身<br>不是關聯性；用於內部應用程式</td>
-    </tr>
-    <tr>
-        <td>疊代</td>
-        <td>疊代</td>
-        <td>ITRN | 反複專案</td>
-        <td>ITERATIONS_CURRENT<br>ITERATIONS_DAILY_HISTORY<br>ITERATIONS_EVENT</td>
-        <td>CATEGORYID<br>ENTEREDBYID<br>ITERATIONID (self)<br>LASTUPDATEDBYID<br>OWNERID<br>SYSID<br>TEAMID</td>
-        <td>CATEGORY_CURRENT | 類別ID<br>使用者_目前 | 使用者ID <br>自我<br>使用者_目前 | 使用者ID <br>使用者_目前 | 使用者ID <br>不是關聯性；用於內部應用程式<br>TEAMS_CURRENT | TEAMID</td>
-    </tr>
-    <tr>
-        <td>日誌輸入項目</td>
-        <td>日誌輸入項目</td>
-        <td>JRNLE | 日誌專案</td>
-        <td>JOURNALENTRIES_CURRENT<br>JOURNALENTRIES_DAILY_HISTORY<br>JOURNALENTRIES_EVENT</td>
-        <td>APPROVERSTATUSID<br>ASSIGNMENTID<br>AUDITRECORDID<br>BASELINEID <br>BILLINGRECORDID<br>COMPANYID <br>DOCUMENTID <br>DOCUMENTSHAREID <br>EDITEDBYID<br>EXPENSEID<br>HOURID<br>INITIATIVEID<br>JOURNALENTRIEID (self)<br>OBJID<br>OPTASKID<br>ID portfolioid<br>PROGRAMID<br>PROJECTID<br>SUBOBJID<br>SUBSCRIBEID<br>SYSID<br>TASKID<br>TEMPLATEID<br>TIMESHEETID<br>TOPOBJID<br>USERID</td>
-        <td>APPROVERSTATUSES_CURRENT | APPROVERSTATUSID<br>ASSIGNMENTS_CURRENT | ASSIGNMENTID<br>目前不支援稽核記錄表格<br>BASELINES_CURRENT | BASELINEID <br>BILLINGRECORDS_CURRENT | BILLINGRECORDID<br>公司_目前 | 公司ID <br>DOCUMENTS_CURRENT | DOCUMENTID <br>目前不支援的檔案共用表格<br>USERS_CURRENT | 使用者ID<br>費用_目前 | EXPENSEID<br>HOURS_CURRENT | HOURID<br>目前不支援Initiative資料表<br>Self<br>在OBJCODE欄位中識別的物件識別碼<br>OPTASKS_CURRENT | OPTASKID<br>PORTFOLIO_CURRENT | PORTFOLIOID<br>PROGRAM_CURRENT | PROGRAMID<br>專案_目前 | PROJECTID <br>在SUBOBJCODE欄位中識別的物件識別碼<br>目前不支援訂閱資料表<br>不是關聯性；用於內部應用程式目的<br>TASKS_CURRENT | TASKID<br>TEMPLATES_CURRENT | TEMPLATEID<br>時程表_目前 | TIMESHEETID<br>在TOPOBJCODE欄位<br>USERS_CURRENT中識別的物件識別碼 | 使用者ID</td>
-    </tr>
-    <tr>
-        <td>LinkedFolder</td>
-        <td>LinkedFolder</td>
-        <td>LNKFDR | LinkedFolder</td>
-        <td>LINKEDFOLDERS_CURRENT<br>LINKEDFOLDERS_DAILY_HISTORY<br>LINKEDFOLDERS_EVENT</td>
-        <td>DOCUMENTPROVIDERID<br>EXTERNALSTORAGEID<br>FOLDERID<br>LINKEDBYID<br>LINKEDFOLDERID (SELF)<br>SYSID</td>
-        <td>DOCPROVIDERS_CURRENT | DOCPROVIDERID<br>外部ID<br>DOCFOLDERS_CURRENT | DOCFOLDERID<br>USERS_CURRENT | USERID <br>Self<br>不是關聯性；用於內部應用程式  </td>
-    </tr>
-    <tr>
-        <td>里程碑</td>
-        <td>里程碑</td>
-        <td>英里 | 里程碑</td>
-        <td>MILESTONES_CURRENT<br>MILESTONES_DAILY_HISTORY<br>MILESTONES_EVENT</td>
-        <td>LASTUPDATEDBYID<br>MILESTONEID<br>MILESTONEPATHID</td>
-        <td>USER_CURRENT | USERID<br>Self<br>MILESTONEPATH_CURRENT | 里程碑ID</td>
-    </tr>
-    <tr>
-        <td>里程碑路徑</td>
-        <td>里程碑路徑</td>
-        <td>MPATH | 里程碑路徑</td>
-        <td>MILESTONEPATHS_CURRENT<br>MILESTONEPATHS_DAILY_HISTORY<br>MILESTONEPATHS_EVENT</td>
-        <td>ENTEREDBYID<br>LASTUPDATEDBYID<br>MILESTONEPATHID</td>
-        <td>USER_CURRENT |使用者ID<br>USER_CURRENT |USERID<br>自身</td>
-    </tr>
-    <tr>
-        <td>NonLaborResource</td>
-        <td>非勞動力資源</td>
-        <td>NLBR |非勞動力資源</td>
-        <td><br>NONLABORRESOURCES_CURRENT NONLABORRESOURCES_DAILY_HISTORY<br>NONLABORRESOURCES_EVENT</td>
-        <td>CATEGORYID<br>NONLABORRESOURCEID (self)<br>ENTEREDBYID<br>HOMEGROUPID<br>LASTUPDATEDBYID<br>NONLABORRESOURCECATEGORYID<br>SYSID  </td>
-        <td>CATEGORY_CURRENT | CATEGORYID<br>Self<br>使用者_目前 | 使用者ID<br>群組_目前 | GROUPID<br>USERS_CURRENT | USERID<br>目前不支援非人工資源類別資料表<br>不是關聯性；用於內部應用程式</td>
-    </tr>
-    <tr>
-        <td>非勞動力資源類別</td>
-        <td>非勞動力資源類別</td>
-        <td>NLBRCY |非勞動力資源類別</td>
-        <td>NLBRCATEGORIES_CURRENT<br>NLBRCATEGORIES_DAILY_HISTORY<br>NLBRCATEGORIES_EVENT</td>
-        <td>CATEGORYID<br>ENTEREDBYID<br>LASTUPDATEDBYID<br>NLBRCATEGORYID （自身）<br>PRIVATERATECARDID<br>SCHEDULEID<br>SYSID</td>
-        <td>CATEGORY_CURRENT | 類別ID<br>使用者_目前 | USERID<br>USERS_CURRENT | USERID<br>Self<br>RATECARD_CURRENT | RATECARDID<br>USERS_CURRENT | USERID<br>不是關聯性；用於內部應用程式</td>
-    </tr>
-    <tr>
-        <td>非工作日</td>
-        <td>排程例外狀況</td>
-        <td>NONWKD | 非工作日</td>
-        <td>NONWORKDAYS_CURRENT<br>NONWORKDAYS_DAILY_HISTORY<br>NONWORKDAYS_EVENT</td>
-        <td>NONWORKDAYID （自身）<br>物件ID <br>排程識別碼<br>SYSID <br>使用者ID  </td>
-        <td>Self<br>在OBJCODE欄位<br>SCHEDULES_CURRENT中識別的物件識別碼 | SCHEDULEID <br>不是關聯性；用於內部應用程式<br>USERS_CURRENT | 使用者ID  </td>
-    </tr>
-    <tr>
-        <td>備註</td>
-        <td>備註</td>
-        <td>注意 | 注意</td>
-        <td>NOTES_CURRENT<br>NOTES_DAILY_HISTORY<br>NOTES_EVENT</td>
-        <td>ATTACHDOCUMENTID<br>ATTACHHOPTASKID<br>ATTACHHOPTASKID<br>ATTACHWORKID<br>ATTACHWORKUSERID<br>AUDITRECORDID<br>COMPANYID<br>DOCUMENTID<br>EXTERNALSERVICEID<br>ITERATIONID<br>NOTEID<br>OBJID<br>OPTASKID<br>OWNERID<br>PARENTANDORSEMENTID<br>IDID parentjournalentryid<br>PARENTNOTEID<br>PORTFOLIOID<br>PROGRAMID<br>PROJECTID<br>PROOFACTIONID<br>PROOFID<br>RICHTEXTNOTEID<br>TASKID<br>TEMPLATEID<br>TEMPLATETASKID<br>THREADID<br>TIMESHEETID<br>TOPOBJID <br>使用者ID</td>
-        <td>DOCUMENT_CURRENT | DOCUMENTID<br>變數，依據ATTACHOBJCODE<br>OPTASK_CURRENT | OPTASKID<br>WORKITEMS_CURRENT<br>USER_CURRENT | 目前不支援USERID<br>稽核記錄資料表<br>COMPANIES_CURRENT | 公司ID <br>DOCUMENT_CURRENT | DOCUMENTID<br>不是Workfront關係；用於與外部系統整合<br>ITERATIONS_CURRENT | ITERATIONID<br>Self<br>變數（依據NOTEOBJCODE<br>OPTASK_CURRENT） | OPTASKID<br>USER_CURRENT | USERID<br>目前不支援的簽署資料表<br>JOURNALENTRIES_CURRENT | JOURNALENTRYID<br>NOTE_CURRENT | NOTEID<br>PORTFOLIO_CURRENT | PORTFOLIOID<br>PROGRAM_CURRENT | PROGRAMID<br>PROJECT_CURRENT | PROJECTID<br>目前不支援校訂動作資料表<br>目前不支援校訂資料表<br>RESERVEDTEXTNOTES_CURRENT | RICHTEXTNOTEID<br>TASK_CURRENT | TASKID<br>TEMPLATES_CURRENT | TEMPLATEID<br>TEMPLATETASKS_CURRENT | TEMPLATETASKID<br>NOTE_CURRENT | NOTEID<br>時程表_目前 | TIMESHEETID<br>變數，依據TOPOBJCODE<br>USER_CURRENT | 使用者ID</td>
-    </tr>
-    <tr>
-        <td>物件整合</td>
-        <td>物件整合</td>
-        <td>物件 | 物件整合</td>
-        <td>OBJECTINTEGRATION_CURRENT<br>OBJECTINTEGRATION_DAILY_HISTORY<br>OBJECTINTEGRATION_EVENT</td>
-        <td>LINKEDOBJECTID<br>OBJECTINTEGRATIONID   （自我）<br>物件ID <br>SYSID  </td>
-        <td>LINKEDOBJECTCODE欄位<br>Self<br>識別之物件的識別碼在OBJCODE欄位<br>識別之物件的識別碼不是關聯性；用於內部應用程式用途  </td>
-    </tr>
-    <tr>
-        <td>物件類別</td>
-        <td>物件類別</td>
-        <td>物件 | 物件類別</td>
-        <td>OBJECTSCATEGORIES_CURRENT<br>OBJECTSCATEGORIES_DAILY_HISTORY<br>OBJECTSCATEGORIES_EVENT</td>
-        <td>CATEGORYID<br>OBJECTSCATEGORYID (self)<br>OBJID <br>SYSID  </td>
-        <td>CATEGORY_CURRENT | CATEGORYID<br>Self<br>在OBJCODE欄位中識別的物件識別碼<br>不是關聯性；用於內部應用程式  </td>
-    </tr>
-    <tr>
-        <td>Op 任務</td>
-        <td>問題，請求</td>
-        <td>OPTASK | 問題</td>
-        <td>OPTASKS_CURRENT<br>OPTASKS_DAILY_HISTORY<br>OPTASKS_EVENT<br>OPTASKS_CUSTOM_VALUE_CURRENT<br>OPTASKS_CUSTOM_VALUE_DAILY_HISTORY<br>OPTASKS_CUSTOM_VALUE_EVENT</td>
-        <td>APPROVALPROCESSID<br>ASSIGNEDTOID<br>CATEGORYID<br>CURRENTAPPROVALSTEPID<br>ENTEREDBYID<br>EXCHANGERATEID<br>ITERATIONID<br>KANBANBOARDID<br>LASTCONDITIONNOTEID<br>LASTNOTEID<br>LASTUPDATEDBYID<br>OPTASKID<br>OWNERID<br>PROJECTID<br>QUEUEDEFID RESOLVEOPTASKID<br>QUEUETOPTASKID<br>RESOLVEPROJECTID<br>RESOLVETASKID<br>RESOLVETASKID<br>RESOLVINGOBJID<br>ROLEID<br>SOURCEOBJID<br>SOURCETASKID<br>SUBMITTEDBYID<br>TEAMID</td>
-        <td>APPROVALPROCESSES_CURRENT | APPROVALPROCESSID<br>USER_CURRENT | 使用者ID<br>類別_目前 | CATEGORYID<br>APPROVALSTEPS_CURRENT | APPROVALSTEPID<br>USER_CURRENT | 使用者ID<br>EXCHANGERATES_CURRENT | EXCHANGERATEID<br>ITERATIONS_CURRENT | 目前不支援ITERATIONID<br>Kanban面板資料表<br>NOTE_CURRENT | NOTEID<br>NOTE_CURRENT | NOTEID<br>USER_CURRENT | USERID<br>Self<br>USER_CURRENT | 使用者ID<br>PROJECT_CURRENT | PROJECTID<br>目前不支援佇列定義資料表<br>目前不支援佇列主題資料表<br>OPTASK_CURRENT | OPTASKID<br>專案_目前 | PROJECTID<br>TASK_CURRENT | TASKID<br>變數，依據RESOLVINGOBJCODE<br>ROLE_CURRENT | ROLEID<br>變數，依據SOURCEOBJCODE<br>TASK_CURRENT | TASKID<br>USER_CURRENT | 使用者ID<br>TEAM_CURRENT | TEAMID</td>
-    </tr>
-    <tr>
-        <td>參數</td>
-        <td>自訂欄位</td>
-        <td>引數 | 引數</td>
-        <td>PARAMETERS_CURRENT<br>PARAMETERS_DAILY_HISTORY<br>PARAMETERS_EVENT</td>
-        <td>LASTUPDATEDBYID<br>PARAMETERFILTERID<br>PARAMETERID （自身）<br>SYSID  </td>
-        <td>USERS_CURRENT | USERID<br>目前不支援引數篩選資料表<br>Self<br>不是關聯性；用於內部應用程式  </td>
-    </tr>
-    <tr>
-        <td>參數選項</td>
-        <td>參數選項</td>
-        <td>POPT | 引數選項</td>
-        <td>PARAMETEROPTIONS_CURRENT<br>PARAMETEROPTIONS_DAILY_HISTORY<br>PARAMETEROPTIONS_EVENT</td>
-        <td>PARAMETERID<br>PARAMETEROPTIONID （本身） <br>SYSID  </td>
-        <td>PARAMETERS_CURRENT | PARAMETERID <br>本身<br>不是關聯性；用於內部應用程式  </td>
-    </tr>
-    <tr>
-        <td>入口網站區段</td>
-        <td>報告</td>
-        <td>PTLSEC | 報告</td>
-        <td>PORTALSECTIONS_CURRENT<br>PORTALSECTIONS_DAILY_HISTORY<br>PORTALSECTIONS_EVENT</td>
-        <td>APPGLOBALID<br>ENTEREDBYID<br>FILTERID<br>GROUPBYID<br>LASTUPDATEDBYID<br>LASTVIEWEDBYID<br>OBJID<br>PORTALSECTIONID （自身）<br>PREFERENCEID<br>PUBLICRUNASUSERID<br>REPORTFOLDERID<br>RUNASUSERID<br>SCHEDULEDREPORTID<br>SYSID<br>VIEWID</td>
-        <td>不是關係;用於內部應用程式目的  <br>USERS_CURRENT |使用者 ID  <br>UIFILTERS_CURRENT |過濾器 ID<br>UIGROUPBYS_CURRENT |分組位元組USERS_CURRENT<br>|使用者ID  <br>USERS_CURRENT |USERID  <br>在 OBJOBJCODE 字段中<br>標識的物件的 ID 自<br>PREFERENCES_CURRENT |首選項 ID<br>USERS_CURRENT |使用者ID REPORTFOLDERS_CURRENT  <br>|報表資料夾<br>ID USERS_CURRENT |USERID  <br>目前<br>不支持計劃報表表 不是關係;用于內部應用程式目的  <br>UIVIEWS_CURRENT |VIEWID</td>
-    </tr>
-    <tr>
-        <td>入口網站標籤</td>
-        <td>儀表板</td>
-        <td>PTLTAB |擋泥板</td>
-        <td><br>PORTALTABS_CURRENT PORTALTABS_DAILY_HISTORY<br>PORTALTABS_EVENT</td>
-        <td>DOCID<br>LASTUPDATEDBYID<br>PORTALPROFILEID<br>PORTALTABID （自身）<br>SYSID<br>USERID</td>
-        <td>不是關聯性；用於內部應用程式<br>USERS_CURRENT | 不支援USERID <br>入口網站設定檔資料表<br>Self<br>不是關聯性；用於內部應用程式<br>USERS_CURRENT | 使用者ID  </td>
-    </tr>
-    <tr>
-        <td>入口網站頁籤區段</td>
-        <td>控制面板區域</td>
-        <td>PRTBSC |門戶選項卡部分</td>
-        <td><br>PORTALTABSPORTALSECTIONS_CURRENT PORTALTABSPORTALSECTIONS_DAILY_HISTORY<br>PORTALTABSPORTALSECTIONS_EVENT</td>
-        <td>CALENDARPORTALSECTIONID<br>EXTERNALSECTIONID<br>INTERNALSECTIONID <br>PORTALSECTIONOBJID <br>PORTALTABID<br>PORTALTABSECTIONID (SELF)<br>SYSID</td>
-        <td>行事曆入口網站區段目前不支援<br>外部區段表格目前不支援<br>PORTALSECTIONS_CURRENT | PORTALSECTIONID <br>在PORTALSECTIONOBJCODE欄位<br>PORTALTABS_CURRENT中識別的物件識別碼 | PORTALTABID<br>Self<br>不是關聯性；用於內部應用程式</td>
-    </tr>
-    <tr>
-        <td>PortalSectionLastViewer</td>
-        <td>報表最後檢視者</td>
-        <td>PLSLSV | PortalSectionLastViewer</td>
-        <td>REPORTLASTVIEWERS_CURRENT<br>REPORTLASTVIEWERS_DAILY_HISTORY<br>REPORTLASTVIEWERS_EVENT</td>
-        <td>REPORTID<br>REPORTLASTVIEWERID （自身）<br>SYSID<br>VIEWERID</td>
-        <td>PORTALSECTIONS_CURRENT | PORTALSECTIONID <br>REPORTLASTVIEWERID （本身）<br>不是關聯性；用於內部應用程式<br>USERS_CURRENT | 使用者ID  </td>
-    </tr>
-    <tr>
-        <td>專案組合</td>
-        <td>專案組合</td>
-        <td>連線埠 | Portfolio</td>
-        <td>PORTFOLIOS_CURRENT<br>PORTFOLIOS_DAILY_HISTORY<br>PORTFOLIOS_EVENT<br>PORTFOLIOS_CUSTOM_VALUE_CURRENT<br>PORTFOLIOS_CUSTOM_VALUE_DAILY_HISTORY<br>PORTFOLIOS_CUSTOM_VALUE_EVENT</td>
-        <td>ALIGNMENTSCORECARDID<br>CATEGORYID<br>ENTEREDBYID<br>GROUPID<br>LASTUPDATEDBYID<br>OWNERID<br>PORTFOLIOID</td>
-        <td>目前不支援計分卡表格<br>CATEGORIES_CURRENT | CATEGORYID<br>USER_CURRENT | 使用者ID<br>群組_目前 | GROUPID<br>USER_CURRENT | USERID<br>USER_CURRENT | 使用者ID<br>本身</td>
-    </tr>
-    <tr>
-        <td>喜好設定</td>
-        <td>檢視、篩選、分組、報告定義</td>
-        <td>PROSET | 偏好設定</td>
-        <td>PREFERENCES_CURRENT<br>PREFERENCES_DAY_HISTORY<br>PREFERENCES_EVENT</td>
-        <td>APPGLOBALID<br>PREFERENCEID （自我） <br>SYSID  </td>
-        <td>不是關聯性；用於內部應用程式<br>本身<br>不是關聯性；用於內部應用程式  </td>
-    </tr>
-    <tr>
-        <td>方案</td>
-        <td>方案</td>
-        <td>PRGM | 計畫</td>
-        <td>PROGRAMS_CURRENT<br>PROGRAMS_DAILY_HISTORY<br>PROGRAMS_EVENT<br>PROGRAMS_CUSTOM_VALUE_CURRENT<br>PROGRAMS_CUSTOM_VALUE_DAILY_HISTORY<br>PROGRAMS_CUSTOM_VALUE_EVENT</td>
-        <td>CATEGORYID<br>ENTEREDBYID<br>GROUPID<br>LASTUPDATEDBYID<br>OWNERID<br>PORTFOLIOID<br>PROGRAMID</td>
-        <td>CATEGORY_CURRENT | CATEGORYID<br>USER_CURRENT | 使用者ID<br>群組_目前 | GROUPID<br>USER_CURRENT | USERID<br>USER_CURRENT | 使用者ID<br>PORTFOLIO_CURRENT | PORTFOLIOID<br>自行</td>
-    </tr>
-    <tr>
-        <td>專案</td>
-        <td>專案</td>
-        <td>專案 | 專案</td>
-        <td>PROJECTS_CURRENT<br>PROJECTS_DAILY_HISTORY<br>PROJECTS_EVENT<br>PROJECTS_CUSTOM_VALUE_CURRENT<br>PROJECTS_CUSTOM_VALUE_DAILY_HISTORY<br>PROJECTS_CUSTOM_VALUE_EVENT</td>
-        <td>AEMNATIVEFOLDERTREESREFID<br>ALIGNMENTSCORECARDID<br>APPROVALPROCESSID<br>ATTACHEDRATECARDID<br>CATEGORYID<br>COMPANYID<br>CONVERTEDOPTASKID<br>CONVERTEDOPTASKORIGINATORID<br>CURRENTAPPROVALSTEPID<br>DELIVERABLESCORECARDID<br>ENTEREDBYID<br>GROUPID<br>LASTCONDITIONNOTEID LASTNOTEID<br>LASTUPDATEDBYID<br>MILESTONEPATHID<br>OWNERID<br>POPACCOUNTID<br>PORTFOLIOID<br>PRIVATERATECARDID<br>PROGRAMID<br>PROJECTID<br>QUEUEDEFID<br>REJECTIONISSUEID<br>RESOURCEPOOLID<br>SCHEDEDID SPONSORID<br>SUBMITTEDBYID<br>TEAMID<br>TEMPLATEID<br><br></td>
-        <td>不是Workfront關係；用於與外部系統整合<br>目前不支援的計分卡表格<br>APPROVALPROCESSES_CURRENT | APPROVALPROCESSID<br>RATECARD_CURRENT | RATECARDID<br>類別_目前 | 類別ID<br>公司_目前 | 公司ID <br>OPTASK_CURRENT | OPTASKID<br>USER_CURRENT | 使用者ID<br>APPROVALSTEPS_CURRENT | 目前不支援APPROVALSTEPID<br>計分卡表格<br>USER_CURRENT | 使用者ID<br>群組_目前 | GROUPID<br>NOTE_CURRENT | NOTEID<br>NOTE_CURRENT | NOTEID<br>USER_CURRENT | USERID<br>MILESTONEPATH_CURRENT | MILESTONEPATHID<br>使用者_目前 | 目前不支援USERID<br>Pop帳戶資料表<br>PORTFOLIO_CURRENT | PORTFOLIOID<br>RATECARD_CURRENT | RATECARDID<br>PROGRAM_CURRENT | 目前不支援PROGRAMID<br>Self<br>佇列定義資料表<br>OPTASK_CURRENT | OPTASKID<br>RESOURCEPOOLS_CURRENT | RESOURCEPOOLID<br>SCHEDULE_CURRENT | SCHEDULEID<br>USER_CURRENT | USERID<br>USER_CURRENT | 使用者ID<br>TEAM_CURRENT | TEAMID<br>範本_目前 | 範本ID</td>
-    </tr>
-    <tr>
-        <td>專案團隊使用者</td>
-        <td>專案團隊使用者</td>
-        <td>PRTU | 專案使用者</td>
-        <td>專案使用者USERS_CURRENT<br>專案使用者DAILY_HISTORY<br>專案使用者事件</td>
-        <td>PROJECTID<br>PROJECTSUSERID (self)<br>SYSID<br>TMPUSERID<br>USERID</td>
-        <td>專案目前 | PROJECTID<br>Self<br>不是關聯性；用於內部應用程式<br>TEMPLATES_CURRENT | 範本ID<br>使用者_目前 | 使用者ID</td>
-    </tr>
-    <tr>
-        <td>專案團隊使用者角色</td>
-        <td>專案團隊使用者角色</td>
-        <td>團隊 | 專案使用者角色</td>
-        <td>PROJECTSUSERSROLES_CURRENT<br>PROJECTSUSERSROLES_DAILY_HISTORY<br>PROJECTSUSERSROLES_EVENT</td>
-        <td>PROJECTID<br>PROJECTSUSERSROLEID (self)<br>ROLEID<br>SYSID<br>USERID</td>
-        <td>專案目前 | PROJECTID<br>Self<br>ROLES_CURRENT | ROLEID<br>不是關聯性；用於內部應用程式<br>USERS_CURRENT | 使用者ID</td>
-    </tr>
-    <tr>
-        <td>費率卡</td>
-        <td>費率卡</td>
-        <td>RTCRD |評等卡</td>
-        <td>RATECARD_CURRENT<br>RATECARD_DAILY_HISTORY<br>RATECARD_EVENT</td>
-        <td>CATEGORYID<br>ENTEREDBYID<br>LASTUPDATEDBYID <br>RATECARDID (SELF) <br>SECURITYROOTID <br>SOURCEID<br>SYSID</td>
-        <td>類別<br>ID USERS_CURRENT |使用者ID USERS_CURRENT  <br>|USERID    <br>self<br>在 SECURITYOBJCODE 欄位中  <br>標識的物件的 ID 在 SOURCEOBJCODE 字段中<br>標識的物件的 ID 不是關係;用於內部應用程式目的  </td>
-    </tr>
-    <tr>
-        <td>報告資料夾</td>
-        <td>報告資料夾</td>
-        <td>RPTFDR |報表檔案夾</td>
-        <td><br>REPORTFOLDERS_CURRENT REPORTFOLDERS_DAILY_HISTORY<br>REPORTFOLDERS_EVENT</td>
-        <td>REPORTFOLDERID （本身）<br>SYSID</td>
-        <td>Self<br>不是關聯性；用於內部應用程式</td>
-    </tr>
-    <tr>
-        <td>報表檢視統計計數</td>
-        <td>報表檢視統計計數</td>
-        <td>PLSVST | PortalSectionStatisticInfo</td>
-        <td>REPORTVIEWSTATISTICCOUNTS_CURRENT<br>REPORTVIEWSTATISTICCOUNTS_DAILY_HISTORY<br>REPORTVIEWSTATISTICCOUNTS_EVENT</td>
-        <td>REPORTID<br>REPORTVIEWSTATISTICCOUNTID （自我）<br>SYSID</td>
-        <td>PORTALSECTIONS_CURRENT | PORTALSECTIONID<br>Self<br>不是關聯性；用於內部應用程式</td>
-    </tr>
-    <tr>
-        <td>可報告預算時數</td>
-        <td>可報告預算時數</td>
-        <td>RPBGHR | 已編列預算小時</td>
-        <td>REPORTABLEBUDGETEDHOURS_CURRENT<br>REPORTABLEBUDGETEDHOURS_DAILY_HISTORY<br>REPORTABLEBUDGETEDHOURS_EVENT</td>
-        <td>PROJECTID<br>REPORTABLEBUDGETEDHOURID (self)<br>ROLEID<br>SYSID<br>USERID</td>
-        <td>專案目前 | PROJECTID<br>Self<br>ROLES_CURRENT | ROLEID<br>不是關聯性；用於內部應用程式<br>USERS_CURRENT | 使用者ID</td>
-    </tr>
-    <tr>
-        <td>保留時間</td>
-        <td>（個人）休假</td>
-        <td>REVT | 休假</td>
-        <td>RESERVEDTIMES_CURRENT<br>RESERVEDTIMES_DAILY_HISTORY<br>RESERVEDTIMES_EVENT</td>
-        <td>RESERVEDTIMEID （自身）<br>SYSID<br>TASKID<br>USERID</td>
-        <td>Self<br>不是關聯性；用於內部應用程式<br>TASKS_CURRENT | TASKID<br>USERS_CURRENT | 使用者ID</td>
-    </tr>
-    <tr>
-        <td>資源管理員</td>
-        <td>資源管理員</td>
-        <td>RESMGR | 資源管理員</td>
-        <td>RESOURCEMANAGERS_CURRENT<br>RESOURCEMANAGERS_DAILY_HISTORY<br>RESOURCEMANAGERS_EVENT</td>
-        <td>ID （自身）<br>PROJECTID<br>RESOURCEMANAGERID<br>SYSID<br>TEMPLATEID</td>
-        <td>自我<br>專案_目前 | PROJECTID<br>USERS_CURRENT | USERID<br>不是關聯性；用於內部應用程式<br>TEMPLATES_CURRENT | 範本ID</td>
-    </tr>
-    <tr>
-        <td>資源集區</td>
-        <td>資源集區</td>
-        <td>RSPL | 資源集區</td>
-        <td>RSRCPOOLS_CURRENT<br>RSRCPOOLS_DAILY_HISTORY<br>RSRCPOOLS_EVENT</td>
-        <td>ENTEREDBYID<br>LASTUPDATEDBYID <br>RESOURCEPOOLID （自身）<br>SYSID  </td>
-        <td>USERS_CURRENT | 使用者ID <br>使用者_目前 | USERID <br>Self<br>不是關聯性；用於內部應用程式  </td>
-    </tr>
-    <tr>
-        <td>RTF 備註</td>
-        <td>RTF 備註</td>
-        <td>RHNOTE | RTF備註</td>
-        <td>RESERVEDTEXTNOTES_CURRENT<br>RESERVEDTEXTNOTES_DAILY_HISTORY<br>RESERVEDTEXTNOTES_EVENT</td>
-        <td>RICHTEXTNOTEID （自身）<br>SYSID</td>
-        <td>Self<br>不是關聯性；用於內部應用程式</td>
-    </tr>
-    <tr>
-        <td>RTF引數值</td>
-        <td>RTF引數值</td>
-        <td>RCHVAL | RtfParameterValue</td>
-        <td>RICHTEXTPARAMETERVALUES_CURRENT<br>RICHTEXTPARAMETERVALUES_DAILY_HISTORY<br>RICHTEXTPARAMETERVALUES_EVENT</td>
-        <td>PARAMETERVALUEID<br>RICHTEXTPARAMETERVALUEID （本身） <br>SYSID  </td>
-        <td>目前不支援引數值資料表<br>本身<br>不是關聯性；用於內部應用程式  </td>
-    </tr>
-    <tr>
-        <td>風險</td>
-        <td>風險</td>
-        <td>風險 | 風險</td>
-        <td>RISKS_CURRENT<br>RISKS_DAILY_HISTORY<br>RISKS_EVENT</td>
-        <td>ENTEREDBYID<br>EXCHANGEERATEID<br>LASTUPDATEDBYID <br>PROJECTID <br>RISKID （自身）<br>RISKTYPEID<br>SYSID<br>TEMPLATEID</td>
-        <td>USERS_CURRENT | USERID<br>EXCHANGERATES_CURRENT | EXCHANGERATEID<br>USERS_CURRENT | 使用者ID <br>專案_目前 | PROJECTID   <br>Self<br>RISKTYPES_CURRENT | RISKTYPEID<br>不是關聯性；用於內部應用程式<br>TEMPLATES_CURRENT | 範本ID</td>
-    </tr>
-    <tr>
-        <td>風險類型</td>
-        <td>風險類型</td>
-        <td>RSKTYP | 風險型別</td>
-        <td>RISKTYPES_CURRENT<br>RISKTYPES_DAILY_HISTORY<br>RISKTYPES_EVENT</td>
-        <td>RISKTYPEID<br>SYSID</td>
-        <td>Self<br>不是關聯性；用於內部應用程式</td>
-    </tr>
-    <tr>
-        <td>角色</td>
-        <td>職務角色</td>
-        <td>角色 | 工作角色</td>
-        <td>ROLES_CURRENT<br>ROLES_DAILY_HISTORY<br>ROLES_EVENT</td>
-        <td>ENTEREDBYID<br>LAYOUTTEMPLATEID<br>PRIVATERATECARDID<br>ROLEID<br>UITEMPLATEID</td>
-        <td>USER_CURRENT | 不支援USERID<br>配置範本資料表<br>RATECARD_CURRENT | RATECARDID<br>Self<br>UITEMPLATES_CURRENT |UITEMPLATEID</td>
-    </tr>
-    <tr>
-        <td>排程</td>
-        <td>排程</td>
-        <td>時程 | 排程</td>
-        <td>SCHEDULES_CURRENT<br>SCHEDULES_DAILY_HISTORY<br>SCHEDULES_EVENT</td>
-        <td>ENTEREDBYID<br>GROUPID<br>HOMEGROUPID<br>SCHEDULEID</td>
-        <td>USER_CURRENT | 使用者ID<br>群組_目前 | GROUPID<br>GROUP_CURRENT | GROUPID<br>Self</td>
-    </tr>
-    <tr>
-        <td>步驟核准者</td>
-        <td>步驟核准者</td>
-        <td>SPAPVR | 階段核准者</td>
-        <td>STEPAPPROVERS_CURRENT<br>STEPAPPROVERS_DAILY_HISTORY<br>STEPAPPROVERS_EVENT</td>
-        <td>APPROVALSTEPID<br>ROLEID<br>STEPAPPROVERID (self)<br>SYSID <br>TEAMID<br>USERID</td>
-        <td>APPROVALSTEPS_CURRENT | APPROVALSTEPID<br>角色_目前 | ROLEID<br>Self<br>不是關聯性；用於內部應用程式<br>TEAMS_CURRENT | TEAMID<br>USERS_CURRENT | 使用者ID</td>
-    </tr>
-    <tr>
-        <td>任務</td>
-        <td>任務</td>
-        <td>任務 | 任務</td>
-        <td>TASKS_CURRENT<br>TASKS_DAILY_HISTORY<br>TASKS_EVENT<br>TASKS_CUSTOM_VALUE_CURRENT<br>TASKS_CUSTOM_VALUE_DAILY_HISTORY<br>TASKS_CUSTOM_VALUE_EVENT</td>
-        <td>APPROVALPROCESSID<br>ASSIGNEDTOID<br>BILLINGRECORDID<br>CATEGORYID<br>CONVERTEDOPTASKID<br>CONVERTEDOPTASKORIGINATORID<br>CURRENTAPPROVALSTEPID<br>ENTEREDBYID<br>EXCHANGERATEID<br>GROUPID<br>ITERATIONID<br>KANBANBOARDID<br>LASTCONDITIONNOTEID<br>LASTOTEID LASTUPDATEDBYID<br>MILESTONEID<br>PARENTID<br>PROJECTID<br>RECURRENCERULEID<br>REJECTIONISSUEID<br>RESERVEDTIMEID<br>ROLEID<br>SUBMITTEDBYID<br>TASKID<br>TEAMID<br>TEMPLATETASKID<br></td>
-        <td>APPROVALPROCESSES_CURRENT | APPROVALPROCESSID<br>USER_CURRENT | USERID<br>BILLINGRECORDS_CURRENT | BILLINGRECORDID<br>類別_目前 | CATEGORYID<br>OPTASK_CURRENT | OPTASKID<br>USER_CURRENT | 使用者ID<br>APPROVALSTEPS_CURRENT | APPROVALSTEPID<br>USER_CURRENT | 使用者ID<br>EXCHANGERATES_CURRENT | EXCHANGERATEID<br>群組目前 | GROUPID<br>ITERATIONS_CURRENT | 目前不支援ITERATIONID<br>Kanban面板資料表<br>NOTE_CURRENT | NOTEID<br>NOTE_CURRENT | NOTEID<br>USER_CURRENT | USERID<br>MILESTONE_CURRENT | MILESTONEID<br>TASK_CURRENT | TASKID<br>PROJECT_CURRENT | 目前不支援PROJECTID<br>遞回規則資料表<br>OPTASK_CURRENT | OPTASKID<br>RESERVEDTIMES_CURRENT | RESERVEDTIMEID<br>ROLE_CURRENT | ROLEID<br>使用者_目前 | 使用者ID<br>自我<br>團隊目前 | TEAMID<br>TEMPLATETASKS_CURRENT | TEMPLATETASKID</td>
-    </tr>
-    <tr>
-        <td>前置任務</td>
-        <td>前置任務</td>
-        <td>前置任務 | 前置任務</td>
-        <td>PREDECESSORS_CURRENT<br>PREDECESSORS_DAILY_HISTORY<br>PREDECESSORS_EVENT</td>
-        <td>ID （自我）<br>PREDECESSORID<br>SUCCESSORID <br>SYSID</td>
-        <td>Self<br>TASKS_CURRENT | TASKID<br>TASKS_CURRENT | TASKID <br>不是關聯性；用於內部應用程式</td>
-    </tr>
-    <tr>
-        <td>團隊</td>
-        <td>團隊</td>
-        <td>TEAMOB | 團隊</td>
-        <td>TEAMS_CURRENT<br>TEAMS_DAILY_HISTORY<br>TEAMS_EVENT</td>
-        <td>ENTEREDBYID<br>GROUPID<br>LAYOUTTEMPLATEID<br>MYWORKVIEWID<br>OWNERID<br>REQUESTSVIEWID<br>SCHEDULEID<br>TEAMID<br>UITEMPLATEID</td>
-        <td>USER_CURRENT | 使用者ID<br>群組_目前 | 不支援GROUPID<br>配置範本資料表<br>UIVIEWS_CURRENT | UIVIEWID<br>USER_CURRENT | 使用者ID<br>UIVIEWS_CURRENT | UIVIEWID<br>SCHEDULE_CURRENT | SCHEDULEID<br>Self<br>UITEMPLATES_CURRENT |UITEMPLATEID</td>
-    </tr>
-    <tr>
-        <td>小組成員</td>
-        <td>其他團隊、團隊成員</td>
-        <td>TEAMMB | 團隊成員</td>
-        <td>TEAMMEMBERS_CURRENT<br>TEAMMEMBERS_DAILY_HISTORY<br>TEAMMEMBERS_EVENT</td>
-        <td>SYSID <br>TEAMID<br>TEAMMEMBERID （本身）<br>USERID</td>
-        <td>不是關聯性；用於內部應用程式<br>TEAMS_CURRENT | TEAMID<br>自我<br>使用者_目前 | 使用者ID</td>
-    </tr>
-    <tr>
-        <td>團隊成員角色</td>
-        <td>小組成員角色</td>
-        <td>團隊成員 | 團隊成員角色</td>
-        <td>TEAMMEMBERROLES_CURRENT<br>TEAMMEMBERROLES_DAILY_HISTORY<br>TEAMMEMBERROLES_EVENT</td>
-        <td>ROLEID <br>TEAMID<br>TEAMMEMBERROLEID （本身）<br>USERID</td>
-        <td>ROLES_CURRENT | ROLEID <br>團隊_目前 | TEAMID<br>自我<br>使用者_目前 | 使用者ID</td>
-    </tr>
-    <tr>
-        <td>範本</td>
-        <td>範本</td>
-        <td>範本 | 範本</td>
-        <td>TEMPLATES_CURRENT<br>TEMPLATES_DAILY_HISTORY<br>TEMPLATES_EVENT</td>
-        <td>APPROVALPROCESSID<br>CATEGORYID<br>COMPANYID <br>DELIVERABLESCORECARDID <br>ENTEREDBYID<br>GROUPID<br>LASTNOTEID<br>LASTUPDATEDBYID<br>MILESTONEPATHID <br>OWNERID <br>PRIVATERATECARDID<br>PROGRAMID<br>QUEUEDEFID<br>SCHEDULEID <br>SYSID <br>TEAMID<br>TEMPLATEID （自助）</td>
-        <td>APPROVALPROCESSES_CURRENT | APPROVALPROCESSID<br>類別_目前 | CATEGORYID<br>公司_目前 | COMPANYID   <br>DELIVERABLESCORECARDID <br>USERS_CURRENT | 使用者ID<br>群組_目前 | GROUPID<br>NOTES_CURRENT | NOTEID<br>USERS_CURRENT | USERID<br>MILESTONEPATH_CURRENT | MILESTONEPATHID <br>使用者_目前 | 使用者ID <br>RATECARD_CURRENT | RATECARDID<br>程式目前 | 目前不支援PROGRAMID<br>佇列定義資料表<br>SCHEDULES_CURRENT | SCHEDULEID <br>不是關聯性；用於內部應用程式<br>TEAMS_CURRENT | TEAMID<br>自行</td>
-    </tr>
-    <tr>
-        <td>範本指派</td>
-        <td>範本指派</td>
-        <td>任務 | 範本指派</td>
-        <td>TEMPLATEASSIGNMENTS_CURRENT<br>TEMPLATEASSIGNMENTS_DAILY_HISTORY<br>TEMPLATEASSIGNMENTS_EVENT</td>
-        <td>ASSIGNEDTOID<br>CATEGORYID<br>LASTUPDATEDBYID<br>OBJID<br>ROLEID<br>SYSID<br>TEAMID<br>TEAMTIMELINEABLEID<br>TEMPLATEASSIGNMENTID (SELF)<br>TEMPLATETASKID</td>
-        <td>USERS_CURRENT | 使用者ID<br>類別_目前 | CATEGORYID<br>USERS_CURRENT | USERID<br>在OBJCODE欄位<br>ROLES_CURRENT中識別的物件識別碼 | ROLEID<br>不是關聯性；用於內部應用程式<br>TEAMS_CURRENT | TEAMID<br>目前不支援Team Timelineable資料表<br>Self<br>TEMPLATETASKS_CURRENT |TEMPLATETASKID</td>
-    </tr>
-    <tr>
-        <td>範本任務</td>
-        <td>範本任務</td>
-        <td>TTSK | 範本任務</td>
-        <td>TEMPLATETASKS_CURRENT<br>TEMPLATETASKS_DAILY_HISTORY<br>TEMPLATETASKS_EVENT</td>
-        <td>APPROVALPROCESSID<br>ASSIGNEDTOID<br>CATEGORYID<br>ENTEREDBYID<br>EXCHANGERATEID<br>LASTNOTEID<br>LASTUPDATEDBYID<br>MILESTONEID<br>PARENTID<br>RECURRENCERULEID<br>ROLEID<br>SYSID<br>TEAMAMTIMELINEABLEID<br>TEMPLATEID<br>ID templatetaskid (self)<br></td>
-        <td>APPROVALPROCESSES_CURRENT | APPROVALPROCESSID<br>USERS_CURRENT | 使用者ID<br>類別_目前 | 類別ID<br>使用者_目前 | 使用者ID<br>EXCHANGERATES_CURRENT | EXCHANGERATEID<br>筆記_目前 | NOTEID<br>USERS_CURRENT | USERID<br>MILESTONE_CURRENT | MILESTONEID<br>TEMPLATETASKS_CURRENT |TEMPLATETASKID<br>目前不支援週期性規則資料表<br>ROLES_CURRENT | ROLEID<br>不是關聯性；用於內部應用程式<br>TEAMS_CURRENT | 目前不支援TEAMID<br>團隊時間表<br>TEMPLATES_CURRENT | TEMPLATEID<br>本身</td>
-    </tr>
-    <tr>
-        <td>範本任務前置任務</td>
-        <td>範本前置任務</td>
-        <td>已暫存 | 前置任務</td>
-        <td>TEMPLATEPREDECESSORS_CURRENT<br>TEMPLATEPREDECESSORS_DAILY_HISTORY<br>TEMPLATEPREDECESSORS_EVENT</td>
-        <td>PREDECESSORID<br>SUCCESSORID <br>TEMPLATEPREDECESSORID （自身）<br>SYSID</td>
-        <td>TEMPLATETASKS_CURRENT |TEMPLATETASKID<br>TEMPLATETASKS_CURRENT |TEMPLATETASKID <br>Self<br>不是關聯性；用於內部應用程式用途</td>
-    </tr>
-       <tr>
-        <td>時程式KPI貨幣（有限的客戶可用性）</td>
-        <td>時程化 KPI</td>
-        <td>TMPH | TimePhasedKPI</td>
-        <td>時程表_目前<br>時程表_每日歷史記錄<br>時程表_事件</td>
-        <td>APPROVERID<br>LASTNOTEID<br>LASTUPDATEDBYID<br>TIMESHEETID<br>TIMESHEETPROFILEID<br>USERID</td>
-        <td>USER_CURRENT | 使用者ID<br>NOTE_CURRENT | NOTEID<br>USER_CURRENT | USERID<br>Self<br>TIMESHEETPROFILES_CURRENT | TIMESHEETPROFILEID<br>USER_CURRENT | 使用者ID</td>
-    </tr>
+    <thead>
         <tr>
-        <td>時程式KPI期間（有限的客戶可用性）</td>
-        <td>時程化 KPI</td>
-        <td>TMPH | TimePhasedKPI</td>
-        <td>TIMEPHASED_DURATION_CURRENT<br>TIMEPHASED_DURATION_DAILY_HISTORY<br>TIMEPHASED_DURATION_EVENT</td>
-        <td>ASSIGNMENTID<br>GROUPID<br>LOCATIONID<br>OPTASKID<br>PORTFOLIOID<br>PROGRAMID<br>PROJECTID<br>REFERENCEID<br>ROLEID<br>SOURCETASKID<br>TASKID<br>TIMEPHASEDDURATIONID (SELF)<br>USERID</td>
-        <td>指定任務_目前 | ASSIGNMENTID<br>群組_目前 | GROUPID<br>CLASSIFIER_CURRENT | CLASSIFIERID<br>OPTASKS_CURRENT | OPTASKID<br>產品組合_目前 | PORTFOLIOID<br>程式_目前 | PROGRAMID<br>專案_目前 | PROJECTID<br>識別KPI記錄的主旨<br>ROLES_CURRENT | ROLEID<br>工作_目前 | TASKID<br>TASKS_CURRENT | TASKID<br>Self<br>USERS_CURRENT | 使用者ID</td>
-    </tr>
-    <tr>
-        <td>時程表</td>
-        <td>時程表</td>
-        <td>TMPH | TimePhasedKPI</td>
-        <td>TIMEPHASED_CURRENCY_CURRENT<br>TIMEPHASED_CURRENCY_DAILY_HISTORY<br>TIMEPHASED_CURRENCY_EVENT</td>
-        <td>ASSIGNMENTID<br>GROUPID<br>LOCATIONID<br>OPTASKID<br>PORTFOLIOID<br>PROGRAMID<br>PROJECTID<br>REFERENCEID<br>ROLEID<br>SOURCETASKID<br>TASKID<br>TIMEPHASEDCURRENCYID (self)<br>USERID</td>
-        <td>USER_CURRENT | 使用者ID<br>NOTE_CURRENT | NOTEID<br>USER_CURRENT | USERID<br>Self<br>TIMESHEETPROFILES_CURRENT | TIMESHEETPROFILEID<br>USER_CURRENT | 使用者ID</td>
-    </tr>
-    <tr>
-        <td>時程表設定檔</td>
-        <td>時程表設定檔</td>
-        <td>TSPRO | 週期性時程表</td>
-        <td>時程表設定檔_目前<br>時程表設定檔_每日歷程記錄<br>時程表設定檔_事件</td>
-        <td>APPROVERID<br>ENTEREDBYID <br>GROUPID<br>SYSID<br>TIMESHEETPROFILEID (SELF)</td>
-        <td>指定任務_目前 | ASSIGNMENTID<br>群組_目前 | GROUPID<br>CLASSIFIER_CURRENT | CLASSIFIERID<br>OPTASKS_CURRENT | OPTASKID<br>產品組合_目前 | PORTFOLIOID<br>程式_目前 | PROGRAMID<br>專案_目前 | PROJECTID<br>識別KPI記錄的主旨<br>ROLES_CURRENT | ROLEID<br>工作_目前 | TASKID<br>TASKS_CURRENT | TASKID<br>Self<br>USERS_CURRENT | 使用者ID</td>
-    </tr>
-    <tr>
-        <td>UI篩選器</td>
-        <td>篩選器</td>
-        <td>UIFT | 篩選</td>
-        <td>UIFILTERS_CURRENT<br>UIFILTERS_DAILY_HISTORY<br>UIFILTERS_EVENT</td>
-        <td>APPGLOBALID<br>ENTEREDBYID <br>LASTUPDATEDBYID <br>OBJID<br>PREFERENCEID<br>SYSID <br>UIFILTERID (SELF)</td>
-        <td>不是關聯性；用於內部應用程式<br>USERS_CURRENT | 使用者ID <br>使用者_目前 | 使用者ID <br>物件識別碼欄位<br>PREFERENCES_CURRENT | PREFERENCEID<br>不是關聯性；用於內部應用程式目的<br>Self</td>
-    </tr>
-    <tr>
-        <td>UI群組依據</td>
-        <td>分組</td>
-        <td>UIGB | 分組</td>
-        <td>UIGROUPBYS_CURRENT<br>UIGROUPBYS_DAILY_HISTORY<br>UIGROUPBYS_EVENT</td>
-        <td>ENTEREDBYID<br>GROUPID <br>LASTUPDATEDBYID <br>SYSID <br>UITEMPLATEID （自我）</td>
-        <td>USERS_CURRENT | 使用者ID<br>群組_目前 | GROUPID <br>USERS_CURRENT | 使用者ID <br>不是關聯性；用於內部應用程式目的<br>自行</td>
-    </tr>
-    <tr>
-        <td>UI範本</td>
-        <td>版面配置範本</td>
-        <td>UITMPL | 版面配置範本</td>
-        <td>UITEMPLATES_CURRENT<br>UITEMPLATES_DAILY_HISTORY<br>UITEMPLATES_EVENT</td>
-        <td>APPGLOBALID<br>ENTEREDBYID <br>LASTUPDATEDBYID <br>OBJID<br>PREFERENCEID<br>SYSID <br>UIGROUPBYID (SELF)</td>
-        <td>不是關聯性；用於內部應用程式<br>USERS_CURRENT | 使用者ID <br>使用者_目前 | 使用者ID <br>物件識別碼欄位<br>PREFERENCES_CURRENT | PREFERENCEID<br>不是關聯性；用於內部應用程式目的<br>Self</td>
-    </tr>
-    <tr>
-        <td>使用者介面檢視</td>
-        <td>檢視</td>
-        <td>UIVIEW | 檢視</td>
-        <td>UIVIEWS_CURRENT<br>UIVIEWS_DAILY_HISTORY<br>UIVIEWS_EVENT</td>
-        <td>APPGLOBALID<br>ENTEREDBYID <br>LASTUPDATEDBYID <br>OBJID<br>PREFERENCEID<br>SYSID <br>UIVIEWID (SELF)</td>
-        <td>不是關聯性；用於內部應用程式<br>USERS_CURRENT | 使用者ID <br>使用者_目前 | 使用者ID <br>物件識別碼欄位<br>PREFERENCES_CURRENT | PREFERENCEID<br>不是關聯性；用於內部應用程式目的<br>Self</td>
-    </tr>
-    <tr>
-        <td>使用者</td>
-        <td>使用者</td>
-        <td>使用者 | 使用者</td>
-        <td>USERS_CURRENT<br>USERS_DAILY_HISTORY<br>USERS_EVENT<br>USERS_CUSTOM_VALUE_CURRENT<br>USERS_CUSTOM_VALUE_DAILY_HISTORY<br>USERS_CUSTOM_VALUE_EVENT</td>
-        <td>ACCESSLEVELID<br>CATEGORYID<br>COMPANYID<br>DEFAULTHOURTYPEID<br>DELEGATIONTOID<br>EAUTHUSERID<br>ENTEREDBYID<br>HOMEGROUPID<br>HOMETEAMID<br>LASTENTEREDNOTEID<br>LASTUPDATEDBYID<br>LATESTUPDATENOTEID<br>LAYOUTTEMPLATEID<br>MANAGERID<br>ID portalprofileid<br>PREFUIID<br>PRIVATERATECARDID<br>RESOURCEPOOLID<br>ROLEID<br>SCHEDULEID<br>TIMESHEETPROFILEID<br>UITEMPLATEID<br>USERID<br>UUMUSERID</td>
-        <td>ACCESSLEVELS_CURRENT |ACCESSLEVELID<br>類別_目前 | CATEGORYID<br>公司_目前 | 公司ID <br>HOURTYPE_CURRENT | HOURTYPEID<br>USER_CURRENT | USERID<br>不是關聯性；用於內部應用程式<br>USER_CURRENT | 使用者ID<br>群組_目前 | GROUPID<br>TEAM_CURRENT | TEAMID<br>NOTE_CURRENT | NOTEID<br>USER_CURRENT | 使用者ID<br>NOTE_CURRENT | 不支援NOTEID<br>配置範本資料表<br>USER_CURRENT | 不支援USERID<br>入口網站設定檔資料表<br>不是關聯性；用於內部應用程式<br>RATECARD_CURRENT | RATECARDID<br>RESOURCEPOOLS_CURRENT | RESOURCEPOOLID<br>ROLE_CURRENT | ROLEID<br>SCHEDULE_CURRENT | 排程識別碼<br>時程表設定檔_目前 | TIMESHEETPROFILEID<br>UITEMPLATES_CURRENT |UITEMPLATEID<br>Self<br>不是關聯性；用於內部應用程式</td>
-    </tr>
-    <tr>
-        <td>使用者委派</td>
-        <td>使用者委派</td>
-        <td>超級 | 使用者委派</td>
-        <td>USERDELEGATIONS_CURRENT<br>USERDELEGATIONS_DAILY_HISTORY<br>USERDELEGATIONS_EVENT</td>
-        <td>FROMUSERID<br>SYSID <br>TOUSERID <br>USERDELEGATIONID （自行）</td>
-        <td>USERS_CURRENT | USERID<br>不是關聯性；用於內部應用程式<br>USERS_CURRENT | 使用者ID <br>本身</td>
-    </tr>
-    <tr>
-        <td>使用者群組</td>
-        <td>其他群組</td>
-        <td>USRGPS | 使用者群組</td>
-        <td>USERSGROUPS_CURRENT<br>USERSGROUPS_DAILY_HISTORY<br>USERSGROUPS_EVENT</td>
-        <td>GROUPID <br>SYSID<br>USERID <br>USERSGROUPID (SELF)</td>
-        <td>群組_目前 | GROUPID <br>不是關聯性；用於內部應用程式<br>USERS_CURRENT | 使用者ID <br>本身</td>
-    </tr>
-    <tr>
-        <td>使用者位置</td>
-        <td>使用者位置</td>
-        <td>USRLOC | 使用者位置</td>
-        <td>USERLOCATIONS_CURRENT<br>USERLOCATIONS_DAILY_HISTORY<br>USERLOCATIONS_EVENT</td>
-        <td>CLASSIFIERID<br>SYSID<br>USERID<br>USERLOCATIONID （自行）</td>
-        <td>CLASSIFIER_CURRENT | CLASSIFIERID<br>不是關聯性；用於內部應用程式<br>USERS_CURRENT | 使用者ID<br>本身</td>
-    </tr>
-    <tr>
-        <td>使用者角色</td>
-        <td>其他角色</td>
-        <td>USROL | 使用者角色</td>
-        <td>USERSROLES_CURRENT<br>USERSROLES_DAILY_HISTORY<br>USERSROLES_EVENT</td>
-        <td>ROLEID <br>SYSID<br>USERID    <br>USERROLESETID<br>USERSROLEID （自行）</td>
-        <td>ROLES_CURRENT | ROLEID <br>不是關聯性；用於內部應用程式<br>USERS_CURRENT | 使用者ID    <br>使用者角色集_目前 | USERROLESETID<br>Self</td>
-    </tr>
-    <tr>
-        <td>UserPrefValue</td>
-        <td>UserPrefValue</td>
-        <td>USERPF | 使用者偏好設定</td>
-        <td>USERPREFVALUES_CURRENT<br>USERPREFVALUES_DAILY_HISTORY<br>USERPREFVALUES_EVENT</td>
-        <td>SYSID    <br>USERID <br>USERPREFVALUEID （自行）</td>
-        <td>不是關聯性；用於內部應用程式<br>USERS_CURRENT | 使用者ID    <br>自己</td>
-    </tr>
-    <tr>
-        <td>使用者角色集</td>
-        <td>使用者角色集</td>
-        <td>URSET | 使用者角色集</td>
-        <td>USERROLESET_CURRENT<br>USERROLESET_DAILY_HISTORY<br>USERROLESET_EVENT</td>
-        <td>PRIMARYROLEID <br>SYSID<br>USERID    <br>USERROLESETID （自行）</td>
-        <td>ROLES_CURRENT | ROLEID <br>不是關聯性；用於內部應用程式<br>USERS_CURRENT | 使用者ID <br>本身</td>
-    </tr>
-    <tr>
-        <td>使用者決策</td>
-        <td>使用者決策</td>
-        <td>USRDEC | 使用者決策</td>
-        <td>USERSDECISIONS_CURRENT<br>USERSDECISIONS_DAILY_HISTORY<br>USERSDECISIONS_EVENT</td>
-        <td>USERDECISIONID （自身）<br>SYSID <br>USERID  </td>
-        <td>Self<br>不是關聯性；用於內部應用程式<br>USERS_CURRENT | 使用者ID </td>
-    </tr>
-    <tr>
-        <td>工作專案</td>
-        <td>工作項目</td>
-        <td>WRKITM | 工作專案</td>
-        <td>WORKITEMS_CURRENT<br>WORKITEMS_DAILY_HISTORY<br>WORKITEMS_EVENT</td>
-        <td>ASSIGNMENTID <br>OBJID<br>OPTASKID    <br>PROJECTID <br>SYSID<br>TASKID    <br>使用者ID <br>工作專案ID （自行）</td>
-        <td>指定任務_目前 | ASSIGNMENTID <br>在OBJOBJCODE欄位<br>OPTASK_CURRENT中識別的物件識別碼 | OPTASKID    <br>專案_目前 | PROJECTID <br>不是關聯性；用於內部應用程式<br>TASKS_CURRENT | TASKID    <br>位使用者_目前 | 使用者ID    <br>自己 </td>
-    </tr>
-  </tbody>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>存取層級</td>
+            <td>存取層級</td>
+            <td>ACSLVL</td>
+            <td>存取層級</td>
+            <td>ACCESSLEVELS_CURRENT<br>ACCESSLEVELS_DAILY_HISTORY<br>ACCESSLEVELS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ACCESSLEVELID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>APPGLOBALID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>LEGACYACCESSLEVELID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>物件ID</td>
+             <td>FK</td>
+             <td>變數，根據OBJCODE</td>
+             <td>物件（在OBJCODE欄位中識別）的主鍵/ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+    </tbody>
+</table>
+
+### 存取規則
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>存取規則</td>
+            <td>共用</td>
+            <td>ACSURL</td>
+            <td>共用</td>
+            <td>ACCESSRULES_CURRENT<br>ACCESSRULES_DAILY_HISTORY<br>ACCESSRULES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ACCESSORID</td>
+             <td>FK</td>
+             <td>變數，根據ACCESSOROBJCODE</td>
+             <td>在ACCESSOROBJCODE欄位中識別的物件主索引鍵/ ID</td>
+        </tr>
+        <tr>
+             <td>ACCESSRULEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>ANCESTORID</td>
+             <td>PK</td>
+             <td>變數，根據ANCESTOROBJCODE</td>
+             <td>在ANCESTOROBJCODE欄位中識別的物件主索引鍵/ ID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>SECURITYOBJID</td>
+             <td>FK</td>
+             <td>變數，根據SECURITYOBJCODE</td>
+             <td>在SECURITYOBJCODE欄位中識別的物件主索引鍵/ ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+    </tbody>
+</table>
+
+### 核准路徑
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>核准路徑</td>
+            <td>核准路徑</td>
+            <td>ARVPTH</td>
+            <td>核准</td>
+            <td>APPROVALPATHS_CURRENT<br>APPROVALPATHS_DAILY_HISTORY<br>APPROVALPATHS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPROVALPATHID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>APPROVALPROCESSID</td>
+             <td>FK</td>
+             <td>APPROVALPROCESSES_CURRENT</td>
+             <td>APPROVALPROCESSID</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>GLOBALPATHID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+    </tbody>
+</table>
+
+### 核准流程
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>核准流程</td>
+            <td>核准流程</td>
+            <td>ARVPRC</td>
+            <td>核准流程</td>
+            <td>APPROVALPROCESSES_CURRENT<br>APPROVALPROCESSES_DAILY_HISTORY<br>APPROVALPROCESSES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPROVALPROCESSID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+    </tbody>
+</table>
+
+### 核准步驟
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>核准步驟</td>
+            <td>核准步驟</td>
+            <td>ARVSTP</td>
+            <td>核准階段</td>
+            <td>APPROVALSTEPS_CURRENT<br>APPROVALSTEPS_DAILY_HISTORY<br>APPROVALSTEPS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPROVALPATHID</td>
+             <td>FK</td>
+             <td>APPROVALPATHS_CURRENT</td>
+             <td>APPROVALPATHID</td>
+        </tr>
+        <tr>
+             <td>APPROVALSTEPID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+    </tbody>
+</table>
+
+### 核准者狀態
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>核准者狀態</td>
+            <td>核准者狀態</td>
+            <td>封存</td>
+            <td>核准者狀態</td>
+            <td>APPROVERSTATUSES_CURRENT<br>APPROVERSTATUSES_DAILY_HISTORY<br>APPROVERSTATUSES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPROVERSTATUSID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>APPROVABLEOBJID</td>
+             <td>FK</td>
+             <td>變數，根據APPROVABLEOBJCODE</td>
+             <td>在APPROVABLEOBJCODE欄位中識別的物件主索引鍵/ ID</td>
+        </tr>
+        <tr>
+             <td>APPROVALSTEPID</td>
+             <td>FK</td>
+             <td>APPROVALSTEPS_CURRENT</td>
+             <td>APPROVALSTEPID</td>
+        </tr>
+        <tr>
+             <td>APPROVEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>DELEGATEUSERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>OVERRIDDENUSERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>專案目前</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>STEPAPPROVERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>SYSYID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>任務_目前</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>WILDCARDUSERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 指派
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>指派</td>
+            <td>指派</td>
+            <td>指派</td>
+            <td>指派</td>
+            <td>ASSIGNMENTS_CURRENT<br>ASSIGNMENTS_DAILY_HISTORY<br>ASSIGNMENTS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ASSIGNEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>ASSIGNEDTOID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>ASSIGNMENTID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>類別ID</td>
+             <td>FK</td>
+             <td>CATEGORY_CURRENT</td>
+             <td>類別ID</td>
+        </tr>
+        <tr>
+             <td>CLASSIFIERID</td>
+             <td>FK</td>
+             <td>CLASSIFIER_CURRENT</td>
+             <td>CLASSIFIERID</td>
+        </tr>
+        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>PRIVATERATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>專案目前</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>角色ID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>角色ID</td>
+        </tr>
+        <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>任務_目前</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>TEAMID</td>
+             <td>FK</td>
+             <td>團隊目前</td>
+             <td>TEAMID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 等待核准
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>等待核准</td>
+            <td>等待核准</td>
+            <td>AWAPVL</td>
+            <td>等待核准</td>
+            <td>AWAITINGAPPROVALS_CURRENT<br>AWAITINGAPPROVALS_DAILY_HISTORY<br>AWAITINGAPPROVALS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ACCESSREQUESTID</td>
+             <td>-</td>
+             <td colspan="2">目前不支援存取要求表格</td>
+        </tr>
+        <tr>
+             <td>可核准ID</td>
+             <td>FK</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>APPROVERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>AWAITINGAPPROVALID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>DOCUMENTID</td>
+             <td>FK</td>
+             <td>DOCUMENTS_CURRENT</td>
+             <td>DOCUMENTID</td>
+        </tr>
+        <tr>
+             <td>DOCUMENTVERSIONID</td>
+             <td>FK</td>
+             <td>DOCUMENTVERSIONS_CURRENT</td>
+             <td>DOCUMENTVERSIONID</td>
+        </tr>
+        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>專案目前</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>角色ID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>角色ID</td>
+        </tr>
+        <tr>
+             <td>SUBMITTEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>任務_目前</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>TEAMID</td>
+             <td>FK</td>
+             <td>團隊目前</td>
+             <td>TEAMID</td>
+        </tr>
+        <tr>
+             <td>時程表ID</td>
+             <td>FK</td>
+             <td>時程表_目前</td>
+             <td>時程表ID</td>
+        </tr>
+        <tr>
+             <td>使用者ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 基準線
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>基準線</td>
+            <td>基準線</td>
+            <td>BLIN</td>
+            <td>基準線</td>
+            <td>BASELINES_CURRENT<br>BASELINES_DAILY_HISTORY<br>BASELINES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>基線ID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>EXCHANGERATEID</td>
+             <td>FK</td>
+             <td>EXCHANGERATES_CURRENT</td>
+             <td>EXCHANGERATEID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>專案目前</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+    </tbody>
+</table>
+
+### 基準線任務
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API 加標籤</th>
+            <th>數據湖檢視次數</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>基準線任務</td>
+            <td>基準線任務</td>
+            <td>BSTSK</td>
+            <td>基準線任務</td>
+            <td><br>BASELINETASKS_CURRENT BASELINETASKS_DAILY_HISTORY<br>BASELINETASKS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主鍵/外鍵</th>
+            <th>類型</th>
+            <th>相關表</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>BASELINEID</td>
+             <td>FK</td>
+             <td>基準線_目前</td>
+             <td>BASELINEID</td>
+        </tr>
+        <tr>
+             <td>BASELINETASKID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>EXCHANGERATEID</td>
+             <td>FK</td>
+             <td>EXCHANGERATES_CURRENT</td>
+             <td>EXCHANGERATEID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>專案目前</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>任務_目前</td>
+             <td>TASKID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 計費率
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>計費率</td>
+            <td>費率或覆寫率</td>
+            <td>評等</td>
+            <td>計費率</td>
+            <td>RATES_CURRENT<br>RATES_DAILY_HISTORY<br>RATES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ASSIGNMENTID</td>
+             <td>FK</td>
+             <td>指定任務_目前</td>
+             <td>ASSIGNMENTID</td>
+        </tr>
+        <tr>
+             <td>CLASSIFIERID</td>
+             <td>FK</td>
+             <td>CLASSIFIER_CURRENT</td>
+             <td>CLASSIFIERID</td>
+        </tr>
+        <tr>
+             <td>EXCHANGERATEID</td>
+             <td>FK</td>
+             <td>EXCHANGERATES_CURRENT</td>
+             <td>EXCHANGERATEID</td>
+        </tr>
+        <tr>
+             <td>NLBRCATEGORYID</td>
+             <td>FK</td>
+             <td>NLBRCATEGORIES_CURRENT</td>
+             <td>NLBRCATEGORYID</td>
+        </tr>
+        <tr>
+             <td>NONLABORRESOURCEID</td>
+             <td>FK</td>
+             <td>NONLABORRESOURCES_CURRENT</td>
+             <td>NONLABORRESOURCEID</td>
+        </tr>
+        <tr>
+             <td>物件ID</td>
+             <td>FK</td>
+             <td>變數，根據OBJCODE</td>
+             <td>物件（在OBJCODE欄位中識別）的主鍵/ID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>專案目前</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>RATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID</td>
+        </tr>
+        <tr>
+             <td>RATEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>角色ID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>角色ID</td>
+        </tr>
+        <tr>
+             <td>SOURCERATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>範本ID</td>
+             <td>FK</td>
+             <td>TEMPLATES_CURRENT</td>
+             <td>範本ID</td>
+        </tr>
+        <tr>
+             <td>使用者ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 計費記錄
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>數據湖檢視次數</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>計費記錄</td>
+            <td>計費記錄</td>
+            <td>法案</td>
+            <td>計費記錄</td>
+            <td>BILLINGRECORDS_CURRENT<br>BILLINGRECORDS_DAILY_HISTORY<br>BILLINGRECORDS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主鍵/外鍵</th>
+            <th>類型</th>
+            <th>相關表</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>BILLINGRECORDID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>類別ID</td>
+             <td>FK</td>
+             <td>CATEGORY_CURRENT</td>
+             <td>類別ID</td>
+        </tr>
+        <tr>
+             <td>EXCHANGERATEID</td>
+             <td>FK</td>
+             <td>EXCHANGERATES_CURRENT</td>
+             <td>EXCHANGERATEID</td>
+        </tr>
+        <tr>
+             <td>INVOICEID</td>
+             <td>-</td>
+             <td colspan="2">目前不支援發票表格</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>專案目前</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+    </tbody>
+</table>
+
+### 預訂
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>預訂</td>
+            <td>預訂</td>
+            <td>預訂</td>
+            <td>預訂</td>
+            <td>BOOKINGS_CURRENT<br>BOOKINGS_DAILY_HISTORY<br>BOOKINGS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>BOOKINGID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>NLBRCATEGORYID</td>
+             <td>FK</td>
+             <td>NLBRCATEGORIES_CURRENT</td>
+             <td>NLBRCATEGORYID</td>
+        </tr>
+        <tr>
+             <td>NONLABORRESOURCEID</td>
+             <td>FK</td>
+             <td>NONLABORRESOURCES_CURRENT</td>
+             <td>NONLABORRESOURCEID</td>
+        </tr>
+        <tr>
+             <td>物件ID</td>
+             <td>FK</td>
+             <td>變數，根據OBJCODE</td>
+             <td>物件（在OBJCODE欄位中識別）的主鍵/ID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>專案目前</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>任務_目前</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>範本ID</td>
+             <td>FK</td>
+             <td>TEMPLATES_CURRENT</td>
+             <td>範本ID</td>
+        </tr>
+        <tr>
+             <td>TEMPLATETASKID</td>
+             <td>FK</td>
+             <td>TEMPLATETASKS_CURRENT</td>
+             <td>TEMPLATETASKID</td>
+        </tr>
+        <tr>
+             <td>TOPOBJID</td>
+             <td>FK</td>
+             <td>變數，根據TOPOBJCODE</td>
+             <td>在TOPOBJCODE欄位中識別的物件主索引鍵/ ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 企業設定檔
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>企業設定檔</td>
+            <td>企業設定檔</td>
+            <td>BSNPRF</td>
+            <td>商業設定檔</td>
+            <td>BUSINESSPROFILE_CURRENT<br>BUSINESSPROFILE_DAILY_HISTORY<br>BUSINESSPROFILE_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ACCESSLEVELID</td>
+             <td>FK</td>
+             <td>ACCESSLEVELS_CURRENT</td>
+             <td>ACCESSLEVELID</td>
+        </tr>
+        <tr>
+             <td>BUSINESSPROFILEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>群組_目前</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+    </tbody>
+</table>
+
+### 業務規則
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>業務規則</td>
+            <td>業務規則</td>
+            <td>BSNRUL</td>
+            <td>業務規則</td>
+            <td>BUSINESSRULE_CURRENT<br>BUSINESSRULE_DAILY_HISTORY<br>BUSINESSRULE_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>BUSINESSRULEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+    </tbody>
+</table>
+
+### 類別
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>類別</td>
+            <td>自訂表單</td>
+            <td>CTGY</td>
+            <td>類別</td>
+            <td>CATEGORIES_CURRENT<br>CATEGORIES_DAILY_HISTORY<br>CATEGORIES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>類別ID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>群組_目前</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+    </tbody>
+</table>
+
+### 類別參數
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>類別參數</td>
+            <td>自訂表單欄位</td>
+            <td>CTGYPA</td>
+            <td>類別參數</td>
+            <td>CATEGORIESPARAMETERS_CURRENT<br>CATEGORIESPARAMETERS_DAILY_HISTORY<br>CATEGORIESPARAMETERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>CATEGORIESPARAMETERID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>類別ID</td>
+             <td>FK</td>
+             <td>CATEGORY_CURRENT</td>
+             <td>類別ID</td>
+        </tr>
+        <tr>
+             <td>PARAMETERGROUPID</td>
+             <td>FK</td>
+             <td>引數群組_目前</td>
+             <td>PARAMETERGROUPID</td>
+        </tr>
+        <tr>
+             <td>引數</td>
+             <td>FK</td>
+             <td>PARAMETERS_CURRENT</td>
+             <td>引數</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+    </tbody>
+</table>
+
+### 分類器
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>分類器</td>
+            <td>位置</td>
+            <td>CLSF</td>
+            <td>位置</td>
+            <td>CLASSIFIER_CURRENT<br>CLASSIFIER_DAILY_HISTORY<br>CLASSIFIER_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>CLASSIFIERID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>PARENTID</td>
+             <td>FK</td>
+             <td>CLASSIFIER_CURRENT</td>
+             <td>CLASSIFIERID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+    </tbody>
+</table>
+
+### 公司
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>公司</td>
+            <td>公司</td>
+            <td>CMPY</td>
+            <td>公司</td>
+            <td>COMPANIES_CURRENT<br>COMPANIES_DAILY_HISTORY<br>COMPANIES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>類別ID</td>
+             <td>FK</td>
+             <td>CATEGORY_CURRENT</td>
+             <td>類別ID</td>
+        </tr>
+        <tr>
+             <td>COMPANYID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>群組_目前</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>PRIVATERATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+    </tbody>
+</table>
+
+### 自訂季度
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>自訂季度</td>
+            <td>自訂季度</td>
+            <td>CSTQRT</td>
+            <td>自訂季度</td>
+            <td>CUSTOMQUARTERS_CURRENT<br>CUSTOMQUARTERS_DAILY_HISTORY<br>CUSTOMQUARTERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>CUSTOMQUARTER</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+    </tbody>
+</table>
+
+### 自訂枚舉
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>CustomEnum</td>
+            <td>條件、優先順序、嚴重性、狀態</td>
+            <td>系統</td>
+            <td>自訂枚舉</td>
+            <td>CUSTOMENUMS_CURRENT<br>CUSTOMENUMS_DAILY_HISTORY<br>CUSTOMENUMS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>CUSTOMENUMID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>群組_目前</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係;用於內部應用程式目的</td>
+        </tr>
+    </tbody>
+</table>
+<div>*透過'enumClass'屬性識別記錄的型別。 下列是預期的型別： <br>
+<ul><li>CONDITION_OPTASK</li>
+<li>CONDITION_PROJ</li>
+<li>CONDITION_TASK</li>
+<li>PRIORITY_OPTASK</li>
+<li>優先順序_專案</li>
+<li>PRIORITY_TASK</li>
+<li>SEVERITY_OPTASK</li>
+<li>STATUS_OPTASK</li>
+<li>STATUS_PROJ</li>
+<li>狀態任務</li></ul></div>
+
+### 文件
+
+<table>
+    <thead>
+        <tr>
+            <th>工作面實體名稱</th>
+            <th>介面參考</th>
+            <th>API 參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>文件</td>
+            <td>文件</td>
+            <td>檔案</td>
+            <td>文件</td>
+            <td>DOCUMENTS_CURRENT<br>DOCUMENTS_DAILY_HISTORY<br>DOCUMENTS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>類別ID</td>
+             <td>FK</td>
+             <td>CATEGORY_CURRENT</td>
+             <td>類別ID</td>
+        </tr>
+        <tr>
+             <td>CHECKEDOUTBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>DOCUMENTID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>DOCUMENTREQUESTID</td>
+             <td>-</td>
+             <td colspan="2">目前不支援檔案請求表格</td>
+        </tr>
+        <tr>
+             <td>EXCHANGERATEID</td>
+             <td>FK</td>
+             <td>EXCHANGERATES_CURRENT</td>
+             <td>EXCHANGERATEID</td>
+        </tr>
+        <tr>
+             <td>ITERATIONID</td>
+             <td>FK</td>
+             <td>ITERATIONS_CURRENT</td>
+             <td>ITERATIONID</td>
+        </tr>
+        <tr>
+             <td>LASTNOTEID</td>
+             <td>FK</td>
+             <td>附註_目前</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>NOTEID</td>
+             <td>FK</td>
+             <td>附註_目前</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>物件ID</td>
+             <td>FK</td>
+             <td>變數，根據OBJCODE</td>
+             <td>物件（在OBJCODE欄位中識別）的主鍵/ID</td>
+        </tr>
+        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>OWNERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>PORTFOLIOID</td>
+             <td>FK</td>
+             <td>產品組合_目前</td>
+             <td>PORTFOLIOID</td>
+        </tr>
+        <tr>
+             <td>PROGRAMID</td>
+             <td>FK</td>
+             <td>程式_目前</td>
+             <td>PROGRAMID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>專案目前</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>RELEASEVERSIONID</td>
+             <td>-</td>
+             <td colspan="2">目前不支援發行版本表格</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>任務_目前</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>範本ID</td>
+             <td>FK</td>
+             <td>TEMPLATES_CURRENT</td>
+             <td>範本ID</td>
+        </tr>
+        <tr>
+             <td>TEMPLATETASKID</td>
+             <td>FK</td>
+             <td>TEMPLATETASKS_CURRENT</td>
+             <td>TEMPLATETASKID</td>
+        </tr>
+        <tr>
+             <td>TOPOBJID</td>
+             <td>FK</td>
+             <td>變數，根據TOPOBJCODE</td>
+             <td>在TOPOBJCODE欄位中識別的物件主索引鍵/ ID</td>
+        </tr>
+        <tr>
+             <td>使用者ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 文件核准
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>文件核准</td>
+            <td>文件核准</td>
+            <td>DOCAPL</td>
+            <td>文件核准</td>
+            <td>DOCAPPROVALS_CURRENT<br>DOCAPPROVALS_DAILY_HISTORY<br>DOCAPPROVALS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPROVERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>DOCAPPROVALID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>DOCUMENTID</td>
+             <td>FK</td>
+             <td>DOCUMENTS_CURRENT</td>
+             <td>DOCUMENTID</td>
+        </tr>
+        <tr>
+             <td>NOTEID</td>
+             <td>FK</td>
+             <td>附註_目前</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>REQUESTORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+    </tbody>
+</table>
+
+### 文件資料夾
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>文件資料夾</td>
+            <td>文件資料夾</td>
+            <td>DOCFLD</td>
+            <td>檔案資料夾</td>
+            <td>DOCFOLDERS_CURRENT<br>DOCFOLDERS_DAILY_HISTORY<br>DOCFOLDERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>DOCFOLDERID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>ISSUEID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>ITERATIONID</td>
+             <td>FK</td>
+             <td>ITERATIONS_CURRENT</td>
+             <td>ITERATIONID</td>
+        </tr>
+        <tr>
+             <td>LINKEDFOLDERID</td>
+             <td>FK</td>
+             <td>LINKEDFOLDERS_CURRENT</td>
+             <td>LINKEDFOLDERID</td>
+        </tr>
+        <tr>
+             <td>PARENTID</td>
+             <td>FK</td>
+             <td>DOCFOLDERS_CURRENT</td>
+             <td>DOCFOLDERID</td>
+        </tr>
+        <tr>
+             <td>PORTFOLIOID</td>
+             <td>FK</td>
+             <td>產品組合_目前</td>
+             <td>PORTFOLIOID</td>
+        </tr>
+        <tr>
+             <td>PROGRAMID</td>
+             <td>FK</td>
+             <td>程式_目前</td>
+             <td>PROGRAMID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>專案目前</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>任務_目前</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>範本ID</td>
+             <td>FK</td>
+             <td>TEMPLATES_CURRENT</td>
+             <td>範本ID</td>
+        </tr>
+        <tr>
+             <td>TEMPLATETASKID</td>
+             <td>FK</td>
+             <td>TEMPLATETASKS_CURRENT</td>
+             <td>TEMPLATETASKID</td>
+        </tr>
+        <tr>
+             <td>使用者ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 檔案提供者中繼資料
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>檔案提供者中繼資料</td>
+            <td>檔案提供者中繼資料</td>
+            <td>檔案</td>
+            <td>DocumentProviderMetadata</td>
+            <td>DOCPROVIDERMETA_CURRENT<br>DOCPROVIDERMETA_DAILY_HISTORY<br>DOCPROVIDERMETA_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>DOCPROVIDERMETAID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+    </tbody>
+</table>
+
+### 文件提供者
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>文件提供者</td>
+            <td>文件提供者</td>
+            <td>DOCPROP</td>
+            <td>文件提供者</td>
+            <td>DOCPROVIDERS_CURRENT<br>DOCPROVIDERS_DAILY_HISTORY<br>DOCPROVIDERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>DOCPROVIDERCONFIGID</td>
+             <td>FK</td>
+             <td>DOCPROVIDERCONFIG_CURRENT</td>
+             <td>DOCPROVIDERCONFIGID</td>
+        </tr>
+        <tr>
+             <td>DOCPROVIDERID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>OWNERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+    </tbody>
+</table>
+
+### 檔案提供者設定
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>檔案提供者設定</td>
+            <td>檔案提供者設定</td>
+            <td>DOCCFG</td>
+            <td>DocumentProviderConfig</td>
+            <td>DOCPROVIDERCONFIG_CURRENT<br>DOCPROVIDERCONFIG_DAILY_HISTORY<br>DOCPROVIDERCONFIG_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>DOCPROVIDERCONFIGID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+    </tbody>
+</table>
+
+### 文件版本
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>文件版本</td>
+            <td>文件版本</td>
+            <td>DOCV</td>
+            <td>文件版本</td>
+            <td>DOCUMENTVERSIONS_CURRENT<br>DOCUMENTVERSIONS_DAILY_HISTORY<br>DOCUMENTVERSIONS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>DOCUMENTID</td>
+             <td>FK</td>
+             <td>DOCUMENTS_CURRENT</td>
+             <td>DOCUMENTID</td>
+        </tr>
+        <tr>
+             <td>DOCUMENTPROVIDERID</td>
+             <td>FK</td>
+             <td>DOCPROVIDERS_CURRENT</td>
+             <td>DOCUMENTPROVIDERID</td>
+        </tr>
+        <tr>
+             <td>DOCUMENTVERSIONID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>EXTERNALSTORAGEID</td>
+             <td>-</td>
+             <td colspan="2">外部儲存系統中的外部ID</td>
+        </tr>
+        <tr>
+             <td>PROOFAPPROVALSTATUSID</td>
+             <td>-</td>
+             <td colspan="2">目前不支援校訂核准狀態表格</td>
+        </tr>
+        <tr>
+             <td>PROOFEDBYUSERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>已校訂</td>
+             <td>-</td>
+             <td colspan="2">目前不支援的校訂表格</td>
+        </tr>
+        <tr>
+             <td>PROOFOWNERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>PROOFSTAGEID</td>
+             <td>FK</td>
+             <td>-</td>
+             <td colspan="2">目前不支援校訂階段表格</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+    </tbody>
+</table>
+
+### 匯率
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>匯率</td>
+            <td>匯率</td>
+            <td>運算式</td>
+            <td>匯率</td>
+            <td>EXCHANGERATES_CURRENT<br>EXCHANGERATES_DAILY_HISTORY<br>EXCHANGERATES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>EXCHANGERATEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>專案目前</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>範本ID</td>
+             <td>FK</td>
+             <td>TEMPLATES_CURRENT</td>
+             <td>範本ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 費用
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>費用</td>
+            <td>費用</td>
+            <td>費用</td>
+            <td>費用</td>
+            <td>EXPENSES_CURRENT<br>EXPENSES_DAILY_HISTORY<br>EXPENSES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>BILLINGRECORDID</td>
+             <td>FK</td>
+             <td>BILLINGRECORDS_CURRENT</td>
+             <td>BILLINGRECORDID</td>
+        </tr>
+        <tr>
+             <td>類別ID</td>
+             <td>FK</td>
+             <td>CATEGORY_CURRENT</td>
+             <td>類別ID</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>EXCHANGERATEID</td>
+             <td>FK</td>
+             <td>EXCHANGERATES_CURRENT</td>
+             <td>EXCHANGERATEID</td>
+        </tr>
+        <tr>
+             <td>費用ID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>EXPENSETYPEID</td>
+             <td>FK</td>
+             <td>EXPENSETYPES_CURRENT</td>
+             <td>EXPENSETYPEID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>物件ID</td>
+             <td>FK</td>
+             <td>變數，根據OBJCODE</td>
+             <td>物件（在OBJCODE欄位中識別）的主鍵/ID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>專案目前</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>任務_目前</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>範本ID</td>
+             <td>FK</td>
+             <td>TEMPLATES_CURRENT</td>
+             <td>範本ID</td>
+        </tr>
+        <tr>
+             <td>TEMPLATETASKID</td>
+             <td>FK</td>
+             <td>TEMPLATETASKS_CURRENT</td>
+             <td>TEMPLATETASKID</td>
+        </tr>
+        <tr>
+             <td>TOPOBJID</td>
+             <td>FK</td>
+             <td>變數，根據TOPBJCODE</td>
+             <td>在TOPBJCODE欄位中識別的物件主索引鍵/ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 費用類型
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>費用類型</td>
+            <td>費用類型</td>
+            <td>EXPTYP</td>
+            <td>費用類型</td>
+            <td>EXPENSETYPES_CURRENT<br>EXPENSETYPES_DAILY_HISTORY<br>EXPENSETYPES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPGLOBALID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>EXPENSETYPEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>物件ID</td>
+             <td>FK</td>
+             <td>變數，根據OBJCODE</td>
+             <td>物件（在OBJCODE欄位中識別）的主鍵/ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+    </tbody>
+</table>
+
+### 群組
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>群組</td>
+            <td>群組</td>
+            <td>群組</td>
+            <td>群組</td>
+            <td>GROUPS_CURRENT<br>GROUPS_DAILY_HISTORY<br>GROUPS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>BUSINESSLEADERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>類別ID</td>
+             <td>FK</td>
+             <td>CATEGORY_CURRENT</td>
+             <td>類別ID</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>LAYOUTTEMPLATEID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>PARENTID</td>
+             <td>FK</td>
+             <td>群組_目前</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>ROOTID</td>
+             <td>FK</td>
+             <td>群組_目前</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>UITEMPLATEID</td>
+             <td>FK</td>
+             <td>UITEMPLATES_CURRENT</td>
+             <td>UITEMPLATEID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 小時
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>小時</td>
+            <td>小時</td>
+            <td>HOUR</td>
+            <td>小時</td>
+            <td>HOURS_CURRENT<br>HOURS_DAILY_HISTORY<br>HOURS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPROVEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>BILLINGRECORDID</td>
+             <td>FK</td>
+             <td>BILLINGRECORDS_CURRENT</td>
+             <td>BILLINGRECORDID</td>
+        </tr>
+        <tr>
+             <td>類別ID</td>
+             <td>FK</td>
+             <td>CATEGORY_CURRENT</td>
+             <td>類別ID</td>
+        </tr>
+        <tr>
+             <td>CLASSIFIERID</td>
+             <td>FK</td>
+             <td>CLASSIFIER_CURRENT</td>
+             <td>CLASSIFIERID</td>
+        </tr>
+        <tr>
+             <td>DUPID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>EXCHANGERATEID</td>
+             <td>FK</td>
+             <td>EXCHANGERATES_CURRENT</td>
+             <td>EXCHANGERATEID</td>
+        </tr>
+        <tr>
+             <td>EXTERNALTIMESHEETID</td>
+             <td>-</td>
+             <td colspan="2">不是Workfront關係；用於與外部系統整合
+自我</td>
+        </tr>
+        <tr>
+             <td>HOURID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>HOURTYPEID</td>
+             <td>FK</td>
+             <td>HOURTYPES_CURRENT</td>
+             <td>HOURTYPEID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>OWNERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>專案目前</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>PROJECTOVERHEADID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>角色ID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>角色ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>任務_目前</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>時程表ID</td>
+             <td>FK</td>
+             <td>時程表_目前</td>
+             <td>時程表ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 時數類型
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>時數類型</td>
+            <td>時數類型</td>
+            <td>小時</td>
+            <td>時數類型</td>
+            <td>HOURTYPES_CURRENT<br>HOURTYPES_DAILY_HISTORY<br>HOURTYPES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPGLOBALID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>HOURTYPEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>物件ID</td>
+             <td>FK</td>
+             <td>變數，根據OBJCODE</td>
+             <td>物件（在OBJCODE欄位中識別）的主鍵/ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+    </tbody>
+</table>
+
+### 疊代
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>疊代</td>
+            <td>疊代</td>
+            <td>ITRN</td>
+            <td>疊代</td>
+            <td>ITERATIONS_CURRENT<br>ITERATIONS_DAILY_HISTORY<br>ITERATIONS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>類別ID</td>
+             <td>FK</td>
+             <td>CATEGORY_CURRENT</td>
+             <td>類別ID</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>ITERATIONID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>OWNERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>TEAMID</td>
+             <td>FK</td>
+             <td>團隊目前</td>
+             <td>TEAMID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 日誌輸入項目
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>日誌輸入項目</td>
+            <td>日誌輸入項目</td>
+            <td>JRNLE</td>
+            <td>日誌輸入項目</td>
+            <td>JOURNALENTRIES_CURRENT<br>JOURNALENTRIES_DAILY_HISTORY<br>JOURNALENTRIES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPROVERSTATUSID</td>
+             <td>FK</td>
+             <td>APPROVERSTATUSES_CURRENT</td>
+             <td>APPROVERSTATUSID</td>
+        </tr>
+        <tr>
+             <td>ASSIGNMENTID</td>
+             <td>FK</td>
+             <td>指定任務_目前</td>
+             <td>ASSIGNMENTID</td>
+        </tr>
+        <tr>
+             <td>AUDITRECORDID</td>
+             <td>-</td>
+             <td colspan="2">目前不支援稽核記錄表格</td>
+        </tr>
+        <tr>
+             <td>BASELINEID</td>
+             <td>FK</td>
+             <td>基準線_目前</td>
+             <td>BASELINEID</td>
+        </tr>
+        <tr>
+             <td>BILLINGRECORDID</td>
+             <td>FK</td>
+             <td>BILLINGRECORDS_CURRENT</td>
+             <td>BILLINGRECORDID</td>
+        </tr>
+        <tr>
+             <td>COMPANYID</td>
+             <td>FK</td>
+             <td>公司_目前</td>
+             <td>COMPANYID</td>
+        </tr>
+        <tr>
+             <td>DOCUMENTID</td>
+             <td>FK</td>
+             <td>DOCUMENTS_CURRENT</td>
+             <td>DOCUMENTID</td>
+        </tr>
+        <tr>
+             <td>DOCUMENTSHAREID</td>
+             <td>-</td>
+             <td colspan="2">目前不支援檔案共用表格</td>
+        </tr>
+        <tr>
+             <td>EDITEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>費用ID</td>
+             <td>FK</td>
+             <td>EXPENSES_CURRENT</td>
+             <td>費用ID</td>
+        </tr>
+        <tr>
+             <td>HOURID</td>
+             <td>FK</td>
+             <td>HOURS_CURRENT</td>
+             <td>HOURID</td>
+        </tr>
+        <tr>
+             <td>INITIATIVEID</td>
+             <td>-</td>
+             <td colspan="2">目前不支援方案表格</td>
+        </tr>
+        <tr>
+             <td>JOURNALENTRIESID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>物件ID</td>
+             <td>FK</td>
+             <td>變數，根據OBJCODE</td>
+             <td>物件（在OBJCODE欄位中識別）的主鍵/ID</td>
+        </tr>
+        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>PORTFOLIOID</td>
+             <td>FK</td>
+             <td>產品組合_目前</td>
+             <td>PORTFOLIOID</td>
+        </tr>
+        <tr>
+             <td>PROGRAMID</td>
+             <td>FK</td>
+             <td>程式_目前</td>
+             <td>PROGRAMID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>專案目前</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>SUBOBJID</td>
+             <td>FK</td>
+             <td>變數，根據SUBOBJCODE</td>
+             <td>在SUBOBJCODE欄位中識別的物件主索引鍵/ ID</td>
+        </tr>
+        <tr>
+             <td>SUBSCRIBEID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>任務_目前</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>範本ID</td>
+             <td>FK</td>
+             <td>TEMPLATES_CURRENT</td>
+             <td>範本ID</td>
+        </tr>
+        <tr>
+             <td>時程表ID</td>
+             <td>FK</td>
+             <td>時程表_目前</td>
+             <td>時程表ID</td>
+        </tr>
+        <tr>
+             <td>TOPOBJID</td>
+             <td>FK</td>
+             <td>變數，根據TOPOBJCODE</td>
+             <td>在TOPOBJCODE欄位中識別的物件主索引鍵/ ID</td>
+        </tr>
+        <tr>
+             <td>使用者ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 連結的資料夾
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>連結的資料夾</td>
+            <td>連結的資料夾</td>
+            <td>LNKFDR</td>
+            <td>LinkedFolder</td>
+            <td>LINKEDFOLDERS_CURRENT<br>LINKEDFOLDERS_DAILY_HISTORY<br>LINKEDFOLDERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>DOCUMENTPROVIDERID</td>
+             <td>FK</td>
+             <td>DOCPROVIDERS_CURRENT</td>
+             <td>DOCUMENTPROVIDERID</td>
+        </tr>
+        <tr>
+             <td>EXTERNALSTORAGEID</td>
+             <td>-</td>
+             <td colspan="2">外部儲存系統中的外部ID</td>
+        </tr>
+        <tr>
+             <td>FOLDERID</td>
+             <td>FK</td>
+             <td>DOCFOLDERS_CURRENT</td>
+             <td>FOLDERID</td>
+        </tr>
+        <tr>
+             <td>LINKEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>LINKEDFOLDERID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+    </tbody>
+</table>
+
+### 里程碑
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>里程碑</td>
+            <td>里程碑</td>
+            <td>英里</td>
+            <td>里程碑</td>
+            <td>MILESTONES_CURRENT<br>MILESTONES_DAILY_HISTORY<br>MILESTONES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>里程碑ID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>MILESTONEPATHID</td>
+             <td>FK</td>
+             <td>MILESTONEPATHS_CURRENT</td>
+             <td>MILESTONEPATHID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+    </tbody>
+</table>
+
+### 里程碑路徑
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>里程碑路徑</td>
+            <td>里程碑路徑</td>
+            <td>MPATH</td>
+            <td>里程碑路徑</td>
+            <td>MILESTONEPATHS_CURRENT<br>MILESTONEPATHS_DAILY_HISTORY<br>MILESTONEPATHS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>MILESTONEPATHID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+    </tbody>
+</table>
+
+### 非勞動力資源
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>非勞動力資源</td>
+            <td>非勞動力資源</td>
+            <td>NLBR</td>
+            <td>非勞動力資源</td>
+            <td>NONLABORRESOURCES_CURRENT<br>NONLABORRESOURCES_DAILY_HISTORY<br>NONLABORRESOURCES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>類別ID</td>
+             <td>FK</td>
+             <td>CATEGORY_CURRENT</td>
+             <td>類別ID</td>
+        </tr>
+        <tr>
+             <td>NONLABORRESOURCEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>HOMEGROUPID</td>
+             <td>FK</td>
+             <td>群組_目前</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>NONLABORRESOURCECATEGORYID</td>
+             <td>FK</td>
+             <td>NLBRCATEGORIES_CURRENT</td>
+             <td>NLBRCATEGORYID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+    </tbody>
+</table>
+
+### 非勞動力資源類別
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>非勞動力資源類別</td>
+            <td>非勞動力資源類別</td>
+            <td>NLBRCY</td>
+            <td>非勞動力資源類別</td>
+            <td>NLBRCATEGORIES_CURRENT<br>NLBRCATEGORIES_DAILY_HISTORY<br>NLBRCATEGORIES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>類別ID</td>
+             <td>FK</td>
+             <td>CATEGORY_CURRENT</td>
+             <td>類別ID</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>NLBRCATEGORYID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>PRIVATERATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID</td>
+        </tr>
+        <tr>
+             <td>SCHEDULEID</td>
+             <td>FK</td>
+             <td>SCHEDULES_CURRENT</td>
+             <td>SCHEDULEID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+    </tbody>
+</table>
+
+### 非工作日
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>非工作日</td>
+            <td>排程例外狀況</td>
+            <td>NONWKD</td>
+            <td>非工作日</td>
+            <td>NONWORKDAYS_CURRENT<br>NONWORKDAYS_DAILY_HISTORY<br>NONWORKDAYS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>NONWORKDAYID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>物件ID</td>
+             <td>FK</td>
+             <td>變數，根據OBJCODE</td>
+             <td>物件（在OBJCODE欄位中識別）的主鍵/ID</td>
+        </tr>
+        <tr>
+             <td>SCHEDULEID</td>
+             <td>FK</td>
+             <td>SCHEDULES_CURRENT</td>
+             <td>SCHEDULEID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>使用者ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 備註
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>備註</td>
+            <td>備註</td>
+            <td>附註</td>
+            <td>備註</td>
+            <td>NOTES_CURRENT<br>NOTES_DAILY_HISTORY<br>NOTES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ATTACHDOCUMENTID</td>
+             <td>FK</td>
+             <td>DOCUMENTS_CURRENT</td>
+             <td>DOCUMENTID</td>
+        </tr>
+        <tr>
+             <td>ATTACHOBJID</td>
+             <td>FK</td>
+             <td>變數，根據ATTACHOBJCODE</td>
+             <td>物件OBJCODE ATTACHOBJCODE中識別之物件的主索引鍵/ID</td>
+        </tr>
+        <tr>
+             <td>ATTACHOPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>ATTACHWORKID</td>
+             <td>FK</td>
+             <td>WORKITEMS_CURRENT</td>
+             <td>WORKITEMID</td>
+        </tr>
+        <tr>
+             <td>ATTACHWORKUSERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>AUDITRECORDID</td>
+             <td>-</td>
+             <td colspan="2">當前不支持審核記錄表</td>
+        </tr>
+        <tr>
+             <td>COMPANYID</td>
+             <td>FK</td>
+             <td>公司_目前</td>
+             <td>COMPANYID</td>
+        </tr>
+        <tr>
+             <td>DOCUMENTID</td>
+             <td>FK</td>
+             <td>DOCUMENTS_CURRENT</td>
+             <td>DOCUMENTID</td>
+        </tr>
+        <tr>
+             <td>EXTERNALSERVICEID</td>
+             <td>-</td>
+             <td colspan="2">不是Workfront關係；用於與外部系統整合</td>
+        </tr>
+        <tr>
+             <td>ITERATIONID</td>
+             <td>FK</td>
+             <td>ITERATIONS_CURRENT</td>
+             <td>ITERATIONID</td>
+        </tr>
+        <tr>
+             <td>NOTEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>物件ID</td>
+             <td>FK</td>
+             <td>變數，根據NOTEOBJCODE</td>
+             <td>在NOTEOBJCODE欄位中識別的物件主索引鍵/ ID</td>
+        </tr>
+        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>OWNERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>PARENTENDORSEMENTID</td>
+             <td>-</td>
+             <td colspan="2">目前不支援簽署表格</td>
+        </tr>
+        <tr>
+             <td>PARENTJOURNALENTRYID</td>
+             <td>FK</td>
+             <td>JOURNALENTRIES_CURRENT</td>
+             <td>JOURNALENTRYID</td>
+        </tr>
+        <tr>
+             <td>PARENTNOTEID</td>
+             <td>FK</td>
+             <td>附註_目前</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>PORTFOLIOID</td>
+             <td>FK</td>
+             <td>產品組合_目前</td>
+             <td>PORTFOLIOID</td>
+        </tr>
+        <tr>
+             <td>PROGRAMID</td>
+             <td>FK</td>
+             <td>程式_目前</td>
+             <td>PROGRAMID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>專案目前</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>PROFACTIONID</td>
+             <td>-</td>
+             <td colspan="2">目前不支援校訂動作表格</td>
+        </tr>
+        <tr>
+             <td>已校訂</td>
+             <td>-</td>
+             <td colspan="2">目前不支援的校訂表格</td>
+        </tr>
+        <tr>
+             <td>RICHTEXTNOTEID</td>
+             <td>FK</td>
+             <td>保留文字註釋_目前</td>
+             <td>RICHTEXTNOTEID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>任務_目前</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>範本ID</td>
+             <td>FK</td>
+             <td>TEMPLATES_CURRENT</td>
+             <td>範本ID</td>
+        </tr>
+        <tr>
+             <td>TEMPLATETASKID</td>
+             <td>FK</td>
+             <td>TEMPLATETASKS_CURRENT</td>
+             <td>TEMPLATETASKID</td>
+        </tr>
+        <tr>
+             <td>THREADID</td>
+             <td>FK</td>
+             <td>附註_目前</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>時程表ID</td>
+             <td>FK</td>
+             <td>時程表_目前</td>
+             <td>時程表ID</td>
+        </tr>
+        <tr>
+             <td>托博吉德</td>
+             <td>FK</td>
+             <td>變數，基於 TOPOBJCODE</td>
+             <td>在 TOPOBJCODE 字段中標識之物件的主鍵/ID</td>
+        </tr>
+        <tr>
+             <td>使用者ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+
+
+    &lt;/tbody>
+</table>
+
+### 物件整合
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API 參考</th>
+            <th>API 加標籤</th>
+            <th>數據湖檢視次數</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>物件整合</td>
+            <td>物件整合</td>
+            <td>物件</td>
+            <td>物件整合</td>
+            <td>OBJECTINTEGRATION_CURRENT<br>OBJECTINTEGRATION_DAILY_HISTORY<br>OBJECTINTEGRATION_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主鍵/外鍵</th>
+            <th>類型</th>
+            <th>相關表</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>LINKEDOBJECTID</td>
+             <td>FK</td>
+             <td>變數，根據LINKEDOBJECTCODE</td>
+             <td>在LINKEDOBJECTCODE欄位中識別的物件主索引鍵/ ID</td>
+        </tr>
+        <tr>
+             <td>OBJECTINTEGRATIONID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>物件ID</td>
+             <td>FK</td>
+             <td>變數，根據OBJCODE</td>
+             <td>物件（在OBJCODE欄位中識別）的主鍵/ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+
+    &lt;/tbody>
+</table>
+
+### 物件類別
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>物件類別</td>
+            <td>物件類別</td>
+            <td>物件</td>
+            <td>物件類別</td>
+            <td>OBJECTSCATEGORIES_CURRENT<br>OBJECTSCATEGORIES_DAILY_HISTORY<br>OBJECTSCATEGORIES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>類別ID</td>
+             <td>FK</td>
+             <td>CATEGORY_CURRENT</td>
+             <td>類別ID</td>
+        </tr>
+        <tr>
+             <td>OBJECTSCATEGORYID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>物件ID</td>
+             <td>FK</td>
+             <td>變數，根據OBJCODE</td>
+             <td>物件（在OBJCODE欄位中識別）的主鍵/ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+    </tbody>
+</table>
+
+### Op任務/問題
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Op 任務</td>
+            <td>問題，請求</td>
+            <td>OPTASK</td>
+            <td>問題</td>
+            <td>OPTASKS_CURRENT<br>OPTASKS_DAILY_HISTORY<br>OPTASKS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPROVALPROCESSID</td>
+             <td>FK</td>
+             <td>APPROVALPROCESSES_CURRENT</td>
+             <td>APPROVALPROCESSID</td>
+        </tr>
+        <tr>
+             <td>ASSIGNEDTOID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>類別ID</td>
+             <td>FK</td>
+             <td>CATEGORY_CURRENT</td>
+             <td>類別ID</td>
+        </tr>
+        <tr>
+             <td>CURRENTAPPROVALSTEPID</td>
+             <td>FK</td>
+             <td>APPROVALSTEPS_CURRENT</td>
+             <td>APPROVALSTEPID</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>EXCHANGERATEID</td>
+             <td>FK</td>
+             <td>EXCHANGERATES_CURRENT</td>
+             <td>EXCHANGERATEID</td>
+        </tr>
+        <tr>
+             <td>ITERATIONID</td>
+             <td>FK</td>
+             <td>ITERATIONS_CURRENT</td>
+             <td>ITERATIONID</td>
+        </tr>
+        <tr>
+             <td>KANBANBOARDID</td>
+             <td>-</td>
+             <td colspan="2">目前不支援Kanban面板表格</td>
+        </tr>
+        <tr>
+             <td>LASTCONDITIONNOTEID</td>
+             <td>FK</td>
+             <td>附註_目前</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>LASTNOTEID</td>
+             <td>FK</td>
+             <td>附註_目前</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>OPTASKID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>OWNERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>專案目前</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>QUEUEDEFID</td>
+             <td>-</td>
+             <td colspan="2">目前不支援佇列定義表格</td>
+        </tr>
+        <tr>
+             <td>QUEUETOPICID</td>
+             <td>-</td>
+             <td colspan="2">目前不支援佇列主題表格</td>
+        </tr>
+        <tr>
+             <td>RESOLVEOPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>RESOLVEPROJECTID</td>
+             <td>FK</td>
+             <td>專案目前</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>RESOLVETASKID</td>
+             <td>FK</td>
+             <td>任務_目前</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>RESOLVINGOBJID</td>
+             <td>FK</td>
+             <td>變數，根據RESOLVINGOBJCODE</td>
+             <td>在RESOLVINGOBJCODE欄位中識別的物件主索引鍵/ ID</td>
+        </tr>
+        <tr>
+             <td>角色ID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>角色ID</td>
+        </tr>
+        <tr>
+             <td>SOURCEOBJID</td>
+             <td>FK</td>
+             <td>變數，根據SOURCEOBJCODE</td>
+             <td>在SOURCEOBJCODE欄位中識別的物件主索引鍵/ID</td>
+        </tr>
+        <tr>
+             <td>SOURCETASKID</td>
+             <td>FK</td>
+             <td>任務_目前</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>SUBMITTEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>TEAMID</td>
+             <td>FK</td>
+             <td>團隊目前</td>
+             <td>TEAMID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 參數
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>參數</td>
+            <td>自訂欄位</td>
+            <td>引數</td>
+            <td>參數</td>
+            <td>PARAMETERS_CURRENT<br>PARAMETERS_DAILY_HISTORY<br>PARAMETERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>PARAMETERFILTERID</td>
+             <td>-</td>
+             <td colspan="2">目前不支援引數篩選器表格</td>
+        </tr>
+        <tr>
+             <td>引數</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+    </tbody>
+</table>
+
+### 參數群組
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>參數群組</td>
+            <td>表單區段</td>
+            <td>引數</td>
+            <td>參數群組</td>
+            <td>PARAMETERGROUPS_CURRENT<br>PARAMETERGROUPS_DAILY_HISTORY<br>PARAMETERGROUPS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>PARAMETERGROUPID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+    </tbody>
+</table>
+
+### 參數選項
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>參數選項</td>
+            <td>參數選項</td>
+            <td>POPT</td>
+            <td>參數選項</td>
+            <td>PARAMETEROPTIONS_CURRENT<br>PARAMETEROPTIONS_DAILY_HISTORY<br>PARAMETEROPTIONS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>引數</td>
+             <td>FK</td>
+             <td>PARAMETERS_CURRENT</td>
+             <td>引數</td>
+        </tr>
+        <tr>
+             <td>PARAMETEROPTIONID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+    </tbody>
+</table>
+
+### 入口網站區段/報表
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>入口網站區段</td>
+            <td>報告</td>
+            <td>PTLSEC</td>
+            <td>報告</td>
+            <td>PORTALSECTIONS_CURRENT<br>PORTALSECTIONS_DAILY_HISTORY<br>PORTALSECTIONS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPGLOBALID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>已篩選</td>
+             <td>FK</td>
+             <td>UIFILTERS_CURRENT</td>
+             <td>已篩選</td>
+        </tr>
+        <tr>
+             <td>GROUPBYID</td>
+             <td>FK</td>
+             <td>UIGROUPBYS_CURRENT</td>
+             <td>GROUPBYID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>LASTVIEWEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>物件ID</td>
+             <td>FK</td>
+             <td>變數，根據OBJCODE</td>
+             <td>物件（在OBJCODE欄位中識別）的主鍵/ID</td>
+        </tr>
+        <tr>
+             <td>PORTALSECTIONID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>PREFERENCEID</td>
+             <td>FK</td>
+             <td>偏好設定_目前</td>
+             <td>PREFERENCEID</td>
+        </tr>
+        <tr>
+             <td>PUBLICRUNASUSERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>REPORTFOLDERID</td>
+             <td>FK</td>
+             <td>REPORTFOLDERS_CURRENT</td>
+             <td>REPORTFOLDERID</td>
+        </tr>
+        <tr>
+             <td>RUNASUSERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>SCHEDULEDREPORTID</td>
+             <td>-</td>
+             <td colspan="2">目前不支援排程報告表格</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>VIEWID</td>
+             <td>FK</td>
+             <td>UIVIEWS_CURRENT</td>
+             <td>VIEWID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 入口網站頁簽/控制面板
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>入口網站頁簽</td>
+            <td>儀表板</td>
+            <td>PTLTAB</td>
+            <td>儀表板</td>
+            <td>PORTALTABLES_CURRENT<br>PORTALTABLES_DAILY_HISTORY<br>PORTALTABLES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>DOCID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>PORTALPROFILEID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>PORTALTABID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>使用者ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 入口網站頁籤區段
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>入口網站頁籤區段</td>
+            <td>儀表板區段</td>
+            <td>PRTBSC</td>
+            <td>入口網站頁籤區段</td>
+            <td>PORTALTABSPORTALSECTIONS_CURRENT<br>PORTALTABSPORTALSECTIONS_DAILY_HISTORY<br>PORTALTABSPORTALSECTIONS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>CALENDARPORTALSECTIONID</td>
+             <td>-</td>
+             <td colspan="2">目前不支援行事曆入口網站區段</td>
+        </tr>
+        <tr>
+             <td>EXTERNALSECTIONID</td>
+             <td>-</td>
+             <td colspan="2">目前不支援外部區段表格</td>
+        </tr>
+        <tr>
+             <td>INTERNALSECTIONID</td>
+             <td>FK</td>
+             <td>PORTALSECTIONS_CURRENT</td>
+             <td>PORTALSECTIONID</td>
+        </tr>
+        <tr>
+             <td>PORTALSECTIONOBJID</td>
+             <td>FK</td>
+             <td>變數，根據PORTALSECTIONOBJCODE</td>
+             <td>在PORTALSECTIONOBJCODE欄位中識別的物件主索引鍵/ ID</td>
+        </tr>
+        <tr>
+             <td>PORTALTABID</td>
+             <td>FK</td>
+             <td>PORTALTABLES_CURRENT</td>
+             <td>PORTALTABID</td>
+        </tr>
+        <tr>
+             <td>PORTALTABSECTIONID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+    </tbody>
+</table>
+
+### 入口網站區段上次檢視者
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>PortalSectionLastViewer</td>
+            <td>報表最後檢視者</td>
+            <td>PLSLSV</td>
+            <td>PortalSectionLastViewer</td>
+            <td>REPORTLASTVIEWERS_CURRENT<br>REPORTLASTVIEWERS_DAILY_HISTORY<br>REPORTLASTVIEWERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>REPORTID</td>
+             <td>FK</td>
+             <td>PORTALSECTIONS_CURRENT</td>
+             <td>REPORTID</td>
+        </tr>
+        <tr>
+             <td>REPORTLASTVIEWERID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>VIEWERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 專案組合
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>專案組合</td>
+            <td>專案組合</td>
+            <td>連線埠</td>
+            <td>專案組合</td>
+            <td>PORTFOLIOS_CURRENT<br>PORTFOLIOS_DAILY_HISTORY<br>PORTFOLIOS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ALIGNMENTSCORECARDID</td>
+             <td>-</td>
+             <td colspan="2">目前不支援計分卡表格</td>
+        </tr>
+        <tr>
+             <td>類別ID</td>
+             <td>FK</td>
+             <td>CATEGORY_CURRENT</td>
+             <td>類別ID</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>群組_目前</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>OWNERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>PORTFOLIOID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+    </tbody>
+</table>
+
+### 喜好設定
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>喜好設定</td>
+            <td>檢視、篩選、分組、報告定義</td>
+            <td>PROSET</td>
+            <td>喜好設定</td>
+            <td>PREFERENCES_CURRENT<br>PREFERENCES_DAY_HISTORY<br>PREFERENCES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPGLOBALID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>PREFERENCEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+    </tbody>
+</table>
+
+### 方案
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>方案</td>
+            <td>方案</td>
+            <td>PRGM</td>
+            <td>方案</td>
+            <td>PROGRAMS_CURRENT<br>PROGRAMS_DAILY_HISTORY<br>PROGRAMS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>類別ID</td>
+             <td>FK</td>
+             <td>CATEGORY_CURRENT</td>
+             <td>類別ID</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>群組_目前</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>OWNERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>PORTFOLIOID</td>
+             <td>FK</td>
+             <td>產品組合_目前</td>
+             <td>PORTFOLIOID</td>
+        </tr>
+        <tr>
+             <td>PROGRAMID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+    </tbody>
+</table>
+
+### 專案
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>專案</td>
+            <td>專案</td>
+            <td>專案</td>
+            <td>專案</td>
+            <td>PROJECTS_CURRENT<br>PROJECTS_DAILY_HISTORY<br>PROJECTS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>AEMNATIVEFOLDERTREESREFID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>ALIGNMENTSCORECARDID</td>
+             <td>-</td>
+             <td colspan="2">目前不支援計分卡表格</td>
+        </tr>
+        <tr>
+             <td>APPROVALPROCESSID</td>
+             <td>FK</td>
+             <td>APPROVALPROCESSES_CURRENT</td>
+             <td>APPROVALPROCESSID</td>
+        </tr>
+        <tr>
+             <td>ATTACHEDRATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID</td>
+        </tr>
+        <tr>
+             <td>類別ID</td>
+             <td>FK</td>
+             <td>CATEGORY_CURRENT</td>
+             <td>類別ID</td>
+        </tr>
+        <tr>
+             <td>COMPANYID</td>
+             <td>FK</td>
+             <td>公司_目前</td>
+             <td>COMPANYID</td>
+        </tr>
+        <tr>
+             <td>CONVERTEDOPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>CONVERTEDOPTASKORIGINATORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>CURRENTAPPROVALSTEPID</td>
+             <td>FK</td>
+             <td>APPROVALSTEPS_CURRENT</td>
+             <td>APPROVALSTEPID</td>
+        </tr>
+        <tr>
+             <td>DELIVERABLESCORECARDID</td>
+             <td>-</td>
+             <td colspan="2">目前不支援計分卡表格</td>
+        </tr>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>群組_目前</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>LASTCONDITIONNOTEID</td>
+             <td>FK</td>
+             <td>附註_目前</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>LASTNOTEID</td>
+             <td>FK</td>
+             <td>附註_目前</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>MILESTONEPATHID</td>
+             <td>FK</td>
+             <td>MILESTONEPATHS_CURRENT</td>
+             <td>MILESTONEPATHID</td>
+        </tr>
+        <tr>
+             <td>OWNERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>POPACCOUNTID</td>
+             <td>-</td>
+             <td colspan="2">目前不支援POP帳戶表格</td>
+        </tr>
+        <tr>
+             <td>PORTFOLIOID</td>
+             <td>FK</td>
+             <td>產品組合_目前</td>
+             <td>PORTFOLIOID</td>
+        </tr>
+        <tr>
+             <td>PRIVATERATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID</td>
+        </tr>
+        <tr>
+             <td>PROGRAMID</td>
+             <td>FK</td>
+             <td>程式_目前</td>
+             <td>PROGRAMID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>QUEUEDEFID</td>
+             <td>-</td>
+             <td colspan="2">目前不支援佇列定義表格</td>
+        </tr>
+        <tr>
+             <td>REJECTIONISSUEID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>RESOURCEPOOLID</td>
+             <td>FK</td>
+             <td>RESOURCEPOOLS_CURRENT</td>
+             <td>RESOURCEPOOLID</td>
+        </tr>
+        <tr>
+             <td>SCHEDULEID</td>
+             <td>FK</td>
+             <td>SCHEDULES_CURRENT</td>
+             <td>SCHEDULEID</td>
+        </tr>
+        <tr>
+             <td>SPONSORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>SUBMITTEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>嘎胺</td>
+             <td>FK</td>
+             <td>團隊目前</td>
+             <td>嘎胺</td>
+        </tr>
+        <tr>
+             <td>範本ID</td>
+             <td>FK</td>
+             <td>TEMPLATES_CURRENT</td>
+             <td>範本ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 專案團隊使用者
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>專案團隊使用者</td>
+            <td>專案團隊使用者</td>
+            <td>PRTU</td>
+            <td>專案使用者</td>
+            <td>專案使用者USERS_CURRENT<br>專案使用者DAILY_HISTORY<br>專案使用者事件</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>專案目前</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>PROJECTSUSERID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>TMPUSERID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>使用者ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 專案團隊使用者角色
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>專案團隊使用者角色</td>
+            <td>專案團隊使用者角色</td>
+            <td>團隊</td>
+            <td>專案使用者角色</td>
+            <td>PROJECTSUSERSROLES_CURRENT<br>PROJECTSUSERSROLES_DAILY_HISTORY<br>PROJECTSUSERSROLES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>專案目前</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>PROJECTSUSERSROLEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>角色ID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>角色ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>使用者ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 費率卡
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>費率卡</td>
+            <td>費率卡</td>
+            <td>RTCRD</td>
+            <td>費率卡</td>
+            <td>RATECARD_CURRENT<br>RATECARD_DAILY_HISTORY<br>RATECARD_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>類別ID</td>
+             <td>FK</td>
+             <td>CATEGORY_CURRENT</td>
+             <td>類別ID</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>RATECARDID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SECURITYROOTID</td>
+             <td>FK</td>
+             <td>變數，根據SECURITYOBJCODE</td>
+             <td>在SECURITYOBJCODE欄位中識別的物件主索引鍵/ ID</td>
+        </tr>
+        <tr>
+             <td>SOURCEID</td>
+             <td>FK</td>
+             <td>變數，根據SOURCEOBJCODE</td>
+             <td>在SOURCEOBJCODE欄位中識別的物件主索引鍵/ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+
+    &lt;/tbody>
+</table>
+
+### 報告資料夾
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>報告資料夾</td>
+            <td>報告資料夾</td>
+            <td>RPTFDR</td>
+            <td>報告資料夾</td>
+            <td>REPORTFOLDERS_CURRENT<br>REPORTFOLDERS_DAILY_HISTORY<br>REPORTFOLDERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>REPORTFOLDERID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+    </tbody>
+</table>
+
+### 報表檢視統計計數
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>報表檢視統計計數</td>
+            <td>報表檢視統計計數</td>
+            <td>PLSVST</td>
+            <td>PortalSectionStatisticInfo</td>
+            <td>REPORTVIEWSTATISTICCOUNTS_CURRENT<br>REPORTVIEWSTATISTICCOUNTS_DAILY_HISTORY<br>REPORTVIEWSTATISTICCOUNTS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>REPORTID</td>
+             <td>FK</td>
+             <td>PORTALSECTIONS_CURRENT</td>
+             <td>PORTALSECTIONID</td>
+        </tr>
+        <tr>
+             <td>REPORTVIEWSTATISTICCOUNTID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+    </tbody>
+</table>
+
+### 可報告預算時數
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>可報告預算時數</td>
+            <td>可報告預算時數</td>
+            <td>RPBGHR</td>
+            <td>已編列預算時數</td>
+            <td>REPORTABLEBUDGETEDHOURS_CURRENT<br>REPORTABLEBUDGETEDHOURS_DAILY_HISTORY<br>REPORTABLEBUDGETEDHOURS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>專案目前</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>REPORTABLEBUDGETEDHOURID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>角色ID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>角色ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>使用者ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 保留時間/ PTO
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>保留時間</td>
+            <td>（個人）休假</td>
+            <td>REVT</td>
+            <td>休假</td>
+            <td>RESERVEDTIMES_CURRENT<br>RESERVEDTIMES_DAILY_HISTORY<br>RESERVEDTIMES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>RESERVEDTIMEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>任務_目前</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>使用者ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 資源管理員
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>資源管理員</td>
+            <td>資源管理員</td>
+            <td>RESMGR</td>
+            <td>資源管理員</td>
+            <td>RESOURCEMANAGERS_CURRENT<br>RESOURCEMANAGERS_DAILY_HISTORY<br>RESOURCEMANAGERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>專案目前</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>RESOURCEMANAGERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>範本ID</td>
+             <td>FK</td>
+             <td>TEMPLATES_CURRENT</td>
+             <td>範本ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 資源集區
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>資源集區</td>
+            <td>資源集區</td>
+            <td>RSPL</td>
+            <td>資源集區</td>
+            <td>RSRCPOOLS_CURRENT<br>RSRCPOOLS_DAILY_HISTORY<br>RSRCPOOLS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>RESOURCEPOOLID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+    </tbody>
+</table>
+
+### RTF 備註
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>RTF 備註</td>
+            <td>RTF 備註</td>
+            <td>RHNOTE</td>
+            <td>RTF 備註</td>
+            <td>RESERVEDTEXTNOTES_CURRENT<br>RESERVEDTEXTNOTES_DAILY_HISTORY<br>RESERVEDTEXTNOTES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>RICHTEXTNOTEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+    </tbody>
+</table>
+
+### RTF引數值
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>RTF引數值</td>
+            <td>RTF引數值</td>
+            <td>RCHVAL</td>
+            <td>RtfParameterValue</td>
+            <td>RICHTEXTPARAMETERVALUES_CURRENT<br>RICHTEXTPARAMETERVALUES_DAILY_HISTORY<br>RICHTEXTPARAMETERVALUES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>PARAMETERVALUEID</td>
+             <td>-</td>
+             <td colspan="2">目前不支援引數值表</td>
+        </tr>
+        <tr>
+             <td>RICHTEXTPARAMETERVALUEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係;用於內部應用程式目的</td>
+        </tr>
+    </tbody>
+</table>
+
+### 風險
+
+<table>
+    <thead>
+        <tr>
+            <th>工作面實體名稱</th>
+            <th>介面參考</th>
+            <th>API 參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>風險</td>
+            <td>風險</td>
+            <td>風險</td>
+            <td>風險</td>
+            <td><br>RISKS_CURRENT RISKS_DAILY_HISTORY<br>RISKS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主鍵/外鍵</th>
+            <th>類型</th>
+            <th>相關表</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>EXCHANGERATEID</td>
+             <td>FK</td>
+             <td>EXCHANGERATES_CURRENT</td>
+             <td>EXCHANGERATEID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>專案目前</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>RISKID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>RISKTYPEID</td>
+             <td>FK</td>
+             <td>RISKTYPES_CURRENT</td>
+             <td>RISKTYPEID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>範本ID</td>
+             <td>FK</td>
+             <td>TEMPLATES_CURRENT</td>
+             <td>範本ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 風險類型
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>風險類型</td>
+            <td>風險類型</td>
+            <td>RSKTYP</td>
+            <td>風險類型</td>
+            <td>RISKTYPES_CURRENT<br>RISKTYPES_DAILY_HISTORY<br>RISKTYPES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>RISKTYPEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+    </tbody>
+</table>
+
+### 角色
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>角色</td>
+            <td>職務角色</td>
+            <td>角色</td>
+            <td>職務角色</td>
+            <td>ROLES_CURRENT<br>ROLES_DAILY_HISTORY<br>ROLES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>LAYOUTTEMPLATEID</td>
+             <td>-</td>
+             <td colspan="2">不支援配置範本表格</td>
+        </tr>
+        <tr>
+             <td>PRIVATERATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID</td>
+        </tr>
+        <tr>
+             <td>角色ID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>UITEMPLATEID</td>
+             <td>FK</td>
+             <td>UITEMPLATES_CURRENT</td>
+             <td>UITEMPLATEID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 排程
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>排程</td>
+            <td>排程</td>
+            <td>時程</td>
+            <td>排程</td>
+            <td>SCHEDULES_CURRENT<br>SCHEDULES_DAILY_HISTORY<br>SCHEDULES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>群組_目前</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>HOMEGROUPID</td>
+             <td>FK</td>
+             <td>群組_目前</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>SCHEDULEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+    </tbody>
+</table>
+
+### 步驟核准者
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>步驟核准者</td>
+            <td>步驟核准者</td>
+            <td>SPAPVR</td>
+            <td>階段核准者</td>
+            <td>STEPAPPROVERS_CURRENT<br>STEPAPPROVERS_DAILY_HISTORY<br>STEPAPPROVERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPROVALSTEPID</td>
+             <td>FK</td>
+             <td>APPROVALSTEPS_CURRENT</td>
+             <td>APPROVALSTEPID</td>
+        </tr>
+        <tr>
+             <td>角色ID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>角色ID</td>
+        </tr>
+        <tr>
+             <td>STEPAPPROVERID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>TEAMID</td>
+             <td>FK</td>
+             <td>團隊目前</td>
+             <td>TEAMID</td>
+        </tr>
+        <tr>
+             <td>使用者ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 任務
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>任務</td>
+            <td>任務</td>
+            <td>任務</td>
+            <td>任務</td>
+            <td>TASKS_CURRENT<br>TASKS_DAILY_HISTORY<br>TASKS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPROVALPROCESSID</td>
+             <td>FK</td>
+             <td>APPROVALPROCESSES_CURRENT</td>
+             <td>APPROVALPROCESSID</td>
+        </tr>
+        <tr>
+             <td>ASSIGNEDTOID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>BILLINGRECORDID</td>
+             <td>FK</td>
+             <td>BILLINGRECORDS_CURRENT</td>
+             <td>BILLINGRECORDID</td>
+        </tr>
+        <tr>
+             <td>類別ID</td>
+             <td>FK</td>
+             <td>CATEGORY_CURRENT</td>
+             <td>類別ID</td>
+        </tr>
+        <tr>
+             <td>CONVERTEDOPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>CONVERTEDOPTASKORIGINATORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>CURRENTAPPROVALSTEPID</td>
+             <td>FK</td>
+             <td>APPROVALSTEPS_CURRENT</td>
+             <td>APPROVALSTEPID</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>EXCHANGERATEID</td>
+             <td>FK</td>
+             <td>EXCHANGERATES_CURRENT</td>
+             <td>EXCHANGERATEID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>群組_目前</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>ITERATIONID</td>
+             <td>FK</td>
+             <td>ITERATIONS_CURRENT</td>
+             <td>ITERATIONID</td>
+        </tr>
+        <tr>
+             <td>KANBANBOARDID</td>
+             <td>-</td>
+             <td colspan="2">目前不支援Kanban面板表格</td>
+        </tr>
+        <tr>
+             <td>LASTCONDITIONNOTEID</td>
+             <td>FK</td>
+             <td>附註_目前</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>LASTNOTEID</td>
+             <td>FK</td>
+             <td>附註_目前</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>里程碑ID</td>
+             <td>FK</td>
+             <td>MILESTONE_CURRENT</td>
+             <td>里程碑ID</td>
+        </tr>
+        <tr>
+             <td>PARENTID</td>
+             <td>FK</td>
+             <td>任務_目前</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>專案目前</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>RECURRENCERULEID</td>
+             <td>-</td>
+             <td colspan="2">目前不支援遞回規則表格</td>
+        </tr>
+        <tr>
+             <td>REJECTIONISSUEID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>RESERVEDTIMEID</td>
+             <td>FK</td>
+             <td>RESERVEDTIMES_CURRENT</td>
+             <td>RESERVEDTIMEID</td>
+        </tr>
+        <tr>
+             <td>角色ID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>角色ID</td>
+        </tr>
+        <tr>
+             <td>SUBMITTEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>SUBMITTEDBYID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>TASKID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>TEAMID</td>
+             <td>FK</td>
+             <td>團隊目前</td>
+             <td>TEAMID</td>
+        </tr>
+        <tr>
+             <td>TEMPLATETASKID</td>
+             <td>FK</td>
+             <td>TEMPLATETASKS_CURRENT</td>
+             <td>TEMPLATETASKID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 前置任務
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>前置任務</td>
+            <td>前置任務</td>
+            <td>前置任務</td>
+            <td>前置任務</td>
+            <td>PREDECESSORS_CURRENT<br>PREDECESSORS_DAILY_HISTORY<br>PREDECESSORS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>PREDECESSORID</td>
+             <td>FK</td>
+             <td>任務_目前</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>SUCCESSORID</td>
+             <td>FK</td>
+             <td>任務_目前</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係;用於內部應用程式目的</td>
+        </tr>
+    </tbody>
+</table>
+
+### 團隊
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>團隊</td>
+            <td>團隊</td>
+            <td>TEAMOB</td>
+            <td>團隊</td>
+            <td>TEAMS_CURRENT<br>TEAMS_DAILY_HISTORY<br>TEAMS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>群組_目前</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>LAYOUTTEMPLATEID</td>
+             <td>-</td>
+             <td colspan="2">不支援配置範本表格</td>
+        </tr>
+        <tr>
+             <td>MYWORKVIEWID</td>
+             <td>FK</td>
+             <td>UIVIEWS_CURRENT</td>
+             <td>UIVIEWID</td>
+        </tr>
+        <tr>
+             <td>OWNERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>REQUESTSVIEWID</td>
+             <td>FK</td>
+             <td>UIVIEWS_CURRENT</td>
+             <td>UIVIEWID</td>
+        </tr>
+        <tr>
+             <td>SCHEDULEID</td>
+             <td>FK</td>
+             <td>SCHEDULES_CURRENT</td>
+             <td>SCHEDULEID</td>
+        </tr>
+        <tr>
+             <td>TEAMID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>UITEMPLATEID</td>
+             <td>FK</td>
+             <td>UITEMPLATES_CURRENT</td>
+             <td>UITEMPLATEID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 小組成員
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>小組成員</td>
+            <td>其他團隊、團隊成員</td>
+            <td>TEAMMB</td>
+            <td>小組成員</td>
+            <td>TEAMMEMBERS_CURRENT<br>TEAMMEMBERS_DAILY_HISTORY<br>TEAMMEMBERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>TEAMID</td>
+             <td>FK</td>
+             <td>團隊目前</td>
+             <td>TEAMID</td>
+        </tr>
+        <tr>
+             <td>TEAMMEMBERID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>使用者ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 小組成員角色
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>小組成員角色</td>
+            <td>小組成員角色</td>
+            <td>團隊成員</td>
+            <td>小組成員角色</td>
+            <td>TEAMMEMBERROLES_CURRENT<br>TEAMMEMBERROLES_DAILY_HISTORY<br>TEAMMEMBERROLES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>角色ID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>角色ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>TEAMID</td>
+             <td>FK</td>
+             <td>團隊目前</td>
+             <td>TEAMID</td>
+        </tr>
+        <tr>
+             <td>TEAMMEMBERROLEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>使用者ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 範本
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>範本</td>
+            <td>範本，專案範本</td>
+            <td>範本</td>
+            <td>範本</td>
+            <td>TEMPLATES_CURRENT<br>TEMPLATES_DAILY_HISTORY<br>TEMPLATES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPROVALPROCESSID</td>
+             <td>FK</td>
+             <td>APPROVALPROCESSES_CURRENT</td>
+             <td>APPROVALPROCESSID</td>
+        </tr>
+        <tr>
+             <td>類別ID</td>
+             <td>FK</td>
+             <td>CATEGORY_CURRENT</td>
+             <td>類別ID</td>
+        </tr>
+        <tr>
+             <td>COMPANYID</td>
+             <td>FK</td>
+             <td>公司_目前</td>
+             <td>COMPANYID</td>
+        </tr>
+        <tr>
+             <td>DELIVERABLESCORECARDID</td>
+             <td>-</td>
+             <td colspan="2">目前不支援可提供的計分卡表格</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>群組_目前</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>LASTNOTEID</td>
+             <td>FK</td>
+             <td>附註_目前</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>MILESTONEPATHID</td>
+             <td>FK</td>
+             <td>MILESTONEPATHS_CURRENT</td>
+             <td>MILESTONEPATHID</td>
+        </tr>
+        <tr>
+             <td>OWNERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>PRIVATERATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID</td>
+        </tr>
+        <tr>
+             <td>PROGRAMID</td>
+             <td>FK</td>
+             <td>程式_目前</td>
+             <td>PROGRAMID</td>
+        </tr>
+        <tr>
+             <td>QUEUEDEFID</td>
+             <td>-</td>
+             <td colspan="2">目前不支援佇列定義表</td>
+        </tr>
+        <tr>
+             <td>SCHEDULEID</td>
+             <td>FK</td>
+             <td>SCHEDULES_CURRENT</td>
+             <td>SCHEDULEID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>TEAMID</td>
+             <td>FK</td>
+             <td>團隊目前</td>
+             <td>TEAMID</td>
+        </tr>
+        <tr>
+             <td>範本ID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### 範本任務指派
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>範本任務指派</td>
+            <td>範本指派</td>
+            <td>任務</td>
+            <td>範本指派</td>
+            <td>TEMPLATEASSIGNMENTS_CURRENT<br>TEMPLATEASSIGNMENTS_DAILY_HISTORY<br>TEMPLATEASSIGNMENTS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ASSIGNEDTOID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>類別ID</td>
+             <td>FK</td>
+             <td>CATEGORY_CURRENT</td>
+             <td>類別ID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>物件ID</td>
+             <td>FK</td>
+             <td>變數，根據OBJCODE</td>
+             <td>物件（在OBJCODE欄位中識別）的主鍵/ID</td>
+        </tr>
+        <tr>
+             <td>角色ID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>角色ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>TEAMID</td>
+             <td>FK</td>
+             <td>團隊目前</td>
+             <td>TEAMID</td>
+        </tr>
+        <tr>
+             <td>TEAMTIMELINEABLEID</td>
+             <td>-</td>
+             <td colspan="2">目前不支援團隊時間表表格</td>
+        </tr>
+        <tr>
+             <td>TEMPLATEASSIGNMENTID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>TEMPLATETASKID</td>
+             <td>FK</td>
+             <td>TEMPLATETASKS_CURRENT</td>
+             <td>TEMPLATETASKID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 範本任務
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>範本任務</td>
+            <td>範本任務</td>
+            <td>TTSK</td>
+            <td>範本任務</td>
+            <td>TEMPLATETASKS_CURRENT<br>TEMPLATETASKS_DAILY_HISTORY<br>TEMPLATETASKS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPROVALPROCESSID</td>
+             <td>FK</td>
+             <td>APPROVALPROCESSES_CURRENT</td>
+             <td>APPROVALPROCESSID</td>
+        </tr>
+        <tr>
+             <td>ASSIGNEDTOID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>類別ID</td>
+             <td>FK</td>
+             <td>CATEGORY_CURRENT</td>
+             <td>類別ID</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>EXCHANGERATEID</td>
+             <td>FK</td>
+             <td>EXCHANGERATES_CURRENT</td>
+             <td>EXCHANGERATEID</td>
+        </tr>
+        <tr>
+             <td>LASTNOTEID</td>
+             <td>FK</td>
+             <td>附註_目前</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>里程碑ID</td>
+             <td>FK</td>
+             <td>MILESTONE_CURRENT</td>
+             <td>里程碑ID</td>
+        </tr>
+        <tr>
+             <td>PARENTID</td>
+             <td>FK</td>
+             <td>TEMPLATETASKS_CURRENT</td>
+             <td>TEMPLATETASKID</td>
+        </tr>
+        <tr>
+             <td>RECURRENCERULEID</td>
+             <td>-</td>
+             <td colspan="2">目前不支援遞回規則表格</td>
+        </tr>
+        <tr>
+             <td>角色ID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>角色ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>TEAMID</td>
+             <td>FK</td>
+             <td>團隊目前</td>
+             <td>TEAMID</td>
+        </tr>
+        <tr>
+             <td>TEAMTIMELINEABLEID</td>
+             <td>-</td>
+             <td colspan="2">目前不支援團隊時間表表格</td>
+        </tr>
+        <tr>
+             <td>範本ID</td>
+             <td>FK</td>
+             <td>TEMPLATES_CURRENT</td>
+             <td>範本ID</td>
+        </tr>
+        <tr>
+             <td>TEMPLATETASKID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### 範本任務前置任務
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>範本任務前置任務</td>
+            <td>範本前置任務</td>
+            <td>已暫存</td>
+            <td>前置任務</td>
+            <td>TEMPLATEPREDECESSORS_CURRENT<br>TEMPLATEPREDECESSORS_DAILY_HISTORY<br>TEMPLATEPREDECESSORS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主鍵/外鍵</th>
+            <th>類型</th>
+            <th>相關表</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>PREDECESSORID</td>
+             <td>FK</td>
+             <td>TEMPLATETASKS_CURRENT</td>
+             <td>TEMPLATETASKID</td>
+        </tr>
+        <tr>
+             <td>SUCCESSORID</td>
+             <td>FK</td>
+             <td>TEMPLATETASKS_CURRENT</td>
+             <td>TEMPLATETASKID</td>
+        </tr>
+        <tr>
+             <td>TEMPLATEPREDECESSORID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+    </tbody>
+</table>
+
+### 時程式KPI貨幣
+
+有限的客戶可用性
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>時程式KPI貨幣</td>
+            <td>時程化 KPI</td>
+            <td>TMPH</td>
+            <td>TimePhasedKPI</td>
+            <td>TIMEPHASED_CURRENCY_CURRENT<br>TIMEPHASED_CURRENCY_DAILY_HISTORY<br>TIMEPHASED_CURRENCY_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ASSIGNMENTID</td>
+             <td>FK</td>
+             <td>指定任務_目前</td>
+             <td>ASSIGNMENTID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>群組_目前</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>位置ID</td>
+             <td>FK</td>
+             <td>CLASSIFIER_CURRENT</td>
+             <td>CLASSIFIERID</td>
+        </tr>
+        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>PORTFOLIOID</td>
+             <td>FK</td>
+             <td>產品組合_目前</td>
+             <td>PORTFOLIOID</td>
+        </tr>
+        <tr>
+             <td>PROGRAMID</td>
+             <td>FK</td>
+             <td>程式_目前</td>
+             <td>PROGRAMID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>專案目前</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>REFERENCEID</td>
+             <td>FK</td>
+             <td>變數，根據OBJCODE</td>
+             <td>物件（在OBJCODE欄位中識別）的主鍵/ID</td>
+        </tr>
+        <tr>
+             <td>角色ID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>角色ID</td>
+        </tr>
+        <tr>
+             <td>SCHEMAID</td>
+             <td>FK</td>
+             <td>即將新增</td>
+             <td>SCHEMAID</td>
+        </tr>
+        <tr>
+             <td>SOURCETASKID</td>
+             <td>FK</td>
+             <td>任務_目前</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>任務_目前</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>TIMEPHASEDCURRENCYID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>使用者ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 時程式KPI持續時間
+
+有限的客戶可用性
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>時程式KPI持續時間</td>
+            <td>時程化 KPI</td>
+            <td>TMPH</td>
+            <td>TimePhasedKPI</td>
+            <td>TIMEPHASED_DURATION_CURRENT<br>TIMEPHASED_DURATION_DAILY_HISTORY<br>TIMEPHASED_DURATION_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ASSIGNMENTID</td>
+             <td>FK</td>
+             <td>指定任務_目前</td>
+             <td>ASSIGNMENTID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>群組_目前</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>位置ID</td>
+             <td>FK</td>
+             <td>CLASSIFIER_CURRENT</td>
+             <td>CLASSIFIERID</td>
+        </tr>
+        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>PORTFOLIOID</td>
+             <td>FK</td>
+             <td>產品組合_目前</td>
+             <td>PORTFOLIOID</td>
+        </tr>
+        <tr>
+             <td>PROGRAMID</td>
+             <td>FK</td>
+             <td>程式_目前</td>
+             <td>PROGRAMID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>專案目前</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>REFERENCEID</td>
+             <td>FK</td>
+             <td>變數，根據OBJCODE</td>
+             <td>物件（在OBJCODE欄位中識別）的主鍵/ID</td>
+        </tr>
+        <tr>
+             <td>角色ID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>角色ID</td>
+        </tr>
+        <tr>
+             <td>SCHEMAID</td>
+             <td>FK</td>
+             <td>即將新增</td>
+             <td>SCHEMAID</td>
+        </tr>
+        <tr>
+             <td>SOURCETASKID</td>
+             <td>FK</td>
+             <td>任務_目前</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>任務_目前</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>TIMEPHASEDDURATIONID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>使用者ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 時程表
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>時程表</td>
+            <td>時程表</td>
+            <td>表格</td>
+            <td>時程表</td>
+            <td>時程表_目前<br>時程表_每日歷史記錄<br>時程表_事件</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPROVERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>LASTNOTEID</td>
+             <td>FK</td>
+             <td>附註_目前</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>時程表ID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>TIMESHEETPROFILEID</td>
+             <td>FK</td>
+             <td>週期性時程表_目前</td>
+             <td>TIMESHEETPROFILEID</td>
+        </tr>
+        <tr>
+             <td>使用者ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 時程表設定檔
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>時程表設定檔</td>
+            <td>時程表設定檔</td>
+            <td>TSPRO</td>
+            <td>時程表設定檔</td>
+            <td>時程表設定檔_目前<br>時程表設定檔_每日歷程記錄<br>時程表設定檔_事件</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPROVERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>群組_目前</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>TIMESHEETPROFILEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### UI篩選器
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>UI篩選器</td>
+            <td>篩選器</td>
+            <td>UIFT</td>
+            <td>篩選器</td>
+            <td>UIFILTERS_CURRENT<br>UIFILTERS_DAILY_HISTORY<br>UIFILTERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPGLOBALID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>物件ID</td>
+             <td>FK</td>
+             <td>變數，根據OBJCODE</td>
+             <td>物件（在OBJCODE欄位中識別）的主鍵/ID</td>
+        </tr>
+        <tr>
+             <td>PREFERENCEID</td>
+             <td>FK</td>
+             <td>偏好設定_目前</td>
+             <td>PREFERENCEID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>UIFILTERID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### UI群組依據
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>UI群組依據</td>
+            <td>分組</td>
+            <td>UIGB</td>
+            <td>分組</td>
+            <td>UIGROUPBYS_CURRENT<br>UIGROUPBYS_DAILY_HISTORY<br>UIGROUPBYS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPGLOBALID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>物件ID</td>
+             <td>FK</td>
+             <td>變數，根據OBJCODE</td>
+             <td>物件（在OBJCODE欄位中識別）的主鍵/ID</td>
+        </tr>
+        <tr>
+             <td>PREFERENCEID</td>
+             <td>FK</td>
+             <td>偏好設定_目前</td>
+             <td>PREFERENCEID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>UIGROUPBYID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### UI範本
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>UI範本</td>
+            <td>版面配置範本</td>
+            <td>UITMPL</td>
+            <td>版面配置範本</td>
+            <td>UITEMPLATES_CURRENT<br>UITEMPLATES_DAILY_HISTORY<br>UITEMPLATES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>群組_目前</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>UITEMPLATEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### 使用者介面檢視
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>使用者介面檢視</td>
+            <td>檢視</td>
+            <td>UIVIEW</td>
+            <td>檢視</td>
+            <td>UIVIEWS_CURRENT<br>UIVIEWS_DAILY_HISTORY<br>UIVIEWS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPGLOBALID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>物件ID</td>
+             <td>FK</td>
+             <td>變數，根據OBJCODE</td>
+             <td>物件（在OBJCODE欄位中識別）的主鍵/ID</td>
+        </tr>
+        <tr>
+             <td>PREFERENCEID</td>
+             <td>FK</td>
+             <td>偏好設定_目前</td>
+             <td>PREFERENCEID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>UIVIEWID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### 使用者
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>使用者</td>
+            <td>使用者</td>
+            <td>使用者</td>
+            <td>使用者</td>
+            <td>USERS_CURRENT<br>USERS_DAILY_HISTORY<br>USERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ACCESSLEVELID</td>
+             <td>FK</td>
+             <td>ACCESSLEVELS_CURRENT</td>
+             <td>ACCESSLEVELID</td>
+        </tr>
+        <tr>
+             <td>類別ID</td>
+             <td>FK</td>
+             <td>CATEGORY_CURRENT</td>
+             <td>類別ID</td>
+        </tr>
+        <tr>
+             <td>COMPANYID</td>
+             <td>FK</td>
+             <td>公司_目前</td>
+             <td>COMPANYID</td>
+        </tr>
+        <tr>
+             <td>DEFAULTHOURTYPEID</td>
+             <td>FK</td>
+             <td>HOURTYPES_CURRENT</td>
+             <td>HOURTYPEID</td>
+        </tr>
+        <tr>
+             <td>DELEGATIONTOID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>EAUTHUSERID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>HOMEGROUPID</td>
+             <td>FK</td>
+             <td>群組_目前</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>HOMETEAMID</td>
+             <td>FK</td>
+             <td>團隊目前</td>
+             <td>TEAMID</td>
+        </tr>
+        <tr>
+             <td>LASTENTEREDNOTEID</td>
+             <td>FK</td>
+             <td>附註_目前</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>LATESTUPDATENOTEID</td>
+             <td>FK</td>
+             <td>附註_目前</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>LAYOUTTEMPLATEID</td>
+             <td>-</td>
+             <td colspan="2">不支援配置範本表格</td>
+        </tr>
+        <tr>
+             <td>經理ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>PORTALPROFILEID</td>
+             <td>-</td>
+             <td colspan="2">將不支援入口網站設定檔表格</td>
+        </tr>
+        <tr>
+             <td>PREFUIID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>PRIVATERATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID</td>
+        </tr>
+        <tr>
+             <td>RESOURCEPOOLID</td>
+             <td>FK</td>
+             <td>RESOURCEPOOLS_CURRENT</td>
+             <td>RESOURCEPOOLID</td>
+        </tr>
+        <tr>
+             <td>角色ID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>角色ID</td>
+        </tr>
+        <tr>
+             <td>SCHEDULEID</td>
+             <td>FK</td>
+             <td>SCHEDULES_CURRENT</td>
+             <td>SCHEDULEID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>TIMESHEETPROFILEID</td>
+             <td>FK</td>
+             <td>週期性時程表_目前</td>
+             <td>TIMESHEETPROFILEID</td>
+        </tr>
+        <tr>
+             <td>UITEMPLATEID</td>
+             <td>FK</td>
+             <td>UITEMPLATES_CURRENT</td>
+             <td>UITEMPLATEID</td>
+        </tr>
+        <tr>
+             <td>使用者ID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>UUMUSERID</td>
+             <td>-</td>
+             <td colspan="2">不是關係;用於內部應用程式目的</td>
+        </tr>
+    </tbody>
+</table>
+
+### 使用者委派
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API 參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>使用者委派</td>
+            <td>使用者委派</td>
+            <td>超級</td>
+            <td>使用者委派</td>
+            <td>USERDELEGATIONS_CURRENT<br>USERDELEGATIONS_DAILY_HISTORY<br>USERDELEGATIONS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>FROMUSERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>TOUSERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>USERDELEGATIONID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### 使用者群組
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>使用者群組</td>
+            <td>其他群組</td>
+            <td>USRGPS</td>
+            <td>使用者群組</td>
+            <td>USERSGROUPS_CURRENT<br>USERSGROUPS_DAILY_HISTORY<br>USERSGROUPS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>群組_目前</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>使用者ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>USERSGROUPID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### 使用者位置
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>使用者位置</td>
+            <td>使用者位置</td>
+            <td>USRLOC</td>
+            <td>使用者位置</td>
+            <td>USERLOCATIONS_CURRENT<br>USERLOCATIONS_DAILY_HISTORY<br>USERLOCATIONS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>CLASSIFIERID</td>
+             <td>FK</td>
+             <td>CLASSIFIER_CURRENT</td>
+             <td>CLASSIFIERID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>使用者ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>USERLOCATIONID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### 使用者角色
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>使用者角色</td>
+            <td>其他角色</td>
+            <td>USROL</td>
+            <td>使用者角色</td>
+            <td>USERSROLES_CURRENT<br>USERSROLES_DAILY_HISTORY<br>USERSROLES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>角色ID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>角色ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>使用者ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>USERROLESETID</td>
+             <td>FK</td>
+             <td>使用者角色集_目前</td>
+             <td>USERROLESETID</td>
+        </tr>
+        <tr>
+             <td>USERLOCATIONID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### 使用者偏好設定值
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>使用者偏好設定值</td>
+            <td>使用者喜好設定</td>
+            <td>USERPF</td>
+            <td>使用者喜好設定</td>
+            <td>USERPREFVALUES_CURRENT<br>USERPREFVALUES_DAILY_HISTORY<br>USERPREFVALUES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>使用者ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>USERPREFVALUEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### 使用者角色集
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API 加標籤</th>
+            <th>數據湖檢視次數</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>使用者角色集</td>
+            <td>使用者角色集</td>
+            <td>URSET</td>
+            <td>使用者角色集</td>
+            <td>USERROLESET_CURRENT<br>USERROLESET_DAILY_HISTORY<br>USERROLESET_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>PRIMARYROLEID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>角色ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>使用者ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>USERROLESETID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### 使用者決策
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>使用者決策</td>
+            <td>使用者決策</td>
+            <td>USRDEC</td>
+            <td>使用者決策</td>
+            <td>USERSDECISIONS_CURRENT<br>USERSDECISIONS_DAILY_HISTORY<br>USERSDECISIONS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>USERDECISIONID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>使用者ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 工作項目
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>工作專案</td>
+            <td>工作項目</td>
+            <td>WRKITM</td>
+            <td>工作專案</td>
+            <td>WORKITEMS_CURRENT<br>WORKITEMS_DAILY_HISTORY<br>WORKITEMS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ASSIGNMENTID</td>
+             <td>FK</td>
+             <td>指定任務_目前</td>
+             <td>ASSIGNMENTID</td>
+        </tr>
+        <tr>
+             <td>物件ID</td>
+             <td>FK</td>
+             <td>變數，根據OBJCODE</td>
+             <td>物件（在OBJCODE欄位中識別）的主鍵/ID</td>
+        </tr>
+        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>專案目前</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>任務_目前</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>使用者ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>WORKITEMID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
 </table>
