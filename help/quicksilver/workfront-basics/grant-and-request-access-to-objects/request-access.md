@@ -6,14 +6,16 @@ description: 您對Adobe Workfront中物件的可見性取決於您對該物件�
 author: Becky
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
+source-git-commit: 18b96a6d57dc358bfe52e813bc98d8eb19f37dba
 workflow-type: tm+mt
-source-wordcount: '1380'
-ht-degree: 0%
+source-wordcount: '1338'
+ht-degree: 1%
 
 ---
 
 # 要求物件的存取權
+
+<!-- Audited: 4/2025 -->
 
 您對Adobe Workfront中物件的可見性取決於您對該物件型別的存取權以及您對個別物件的許可權。
 
@@ -28,15 +30,13 @@ ht-degree: 0%
 
 您的Workfront管理員會在存取層級中設定您對某個物件型別的存取權。 如需詳細資訊，請參閱[存取層級和許可權如何搭配運作](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)。
 
-如果您需要Workfront中特定物件的許可權，可以請求存取許可權。 與其傳送電子郵件給Workfront管理員或物件擁有者來說明您的需求，您可以在Workfront中請求其他存取權（或許可權）。
+如果您需要Workfront中特定物件的許可權，可以請求存取許可權。 與其傳送電子郵件給Workfront管理員或物件擁有者來說明您的需求，您可以在Workfront中要求額外的存取權（或許可權）。
 
-如果有人與您共用物件的連結，您可以要求物件的初始存取權，或者您可以要求您至少檢視的物件的額外存取權。
-
-例如，您可能有專案的檢視許可權，但您需要將任務新增至該專案。 在此情況下，您可以要求專案的Contribute許可權。
+如果有人與您共享物件的連結，則可以請求對物件的初始訪問許可權，或者您可以請求對已具有檢視許可權的物件的其他訪問許可權。 例如，您可能有專案的檢視許可權，但您需要將任務新增至專案。 在這種情況下，您可以請求專案的Contribute許可權。
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以視圖本文中功能的訪問要求。
 
 您必須具備下列專案才能共用物件：
 
@@ -49,8 +49,9 @@ ht-degree: 0%
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
    <td> <p>新增：標準</p> 
+   <p>或</p>
    <p>目前：工作或以上</p> 
    </td> 
   </tr> 
@@ -61,16 +62,16 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需此表格中資訊的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
 ## 瞭解標準共用規則
 
-下列標準共用規則在Workfront系統中設定為預設選項時，會自動生效。
+下列標準共用規則是Workfront系統中的預設選項，會自動生效：
 
-* 指派給任務或問題的使用者擁有其Contribute存取權。
-* 專案、Portfolio和方案管理員擁有其擁有的物件管理存取權。
+* 指派給任務或問題的使用者具有其Contribute存取權。
+* 專案、Portfolio和方案經理擁有其物件的「管理」存取權。
 * 對話中包含的使用者擁有對話發生之物件的檢視存取權。
 * 被指派為核准者的使用者在等待核准的物件上有「檢視」存取權。
 * 共用控制面板時，控制面板上的所有報告也會以相同的存取權共用給相同的使用者。
@@ -85,22 +86,22 @@ ht-degree: 0%
 
 ### 要求初始存取權  {#request-initial-access}
 
-如果您尚無法存取物件，而您是從連結瀏覽至該物件，則會顯示一個畫面，通知您無權檢視資訊。
+如果您尚無法存取物件，而您是從連結導覽至該物件，畫面會顯示出來，通知您無權檢視資訊。
 
 若要要求物件的初始存取權，請執行下列動作：
 
-1. 按一下&#x200B;**要求存取權**。\
-   顯示&#x200B;**要求存取**&#x200B;對話方塊。
+1. 按一下&#x200B;**要求存取權**。 **要求存取權**&#x200B;對話方塊隨即顯示。
 
-1. （視條件而定）如果超過一位使用者擁有授予您額外存取權的適當存取權，則該使用者名稱旁邊會顯示下拉箭頭。 從下拉式清單中選取應接收存取要求的使用者。
+1. （視條件而定）如果超過一位使用者擁有授予您額外存取權的適當存取權，則該使用者名稱旁邊會顯示下拉箭頭。 從下拉式清單中選取將收到存取請求的使用者。
 
-   下拉式清單中只會顯示10位使用者。 清單會依字母排序。\
-   如需此下拉式功能表中使用者順序的詳細資訊，請參閱「要求存取」和「要求更多存取權」下拉式功能表的[階層](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus)。
+   下拉式清單中只會顯示10位使用者，而且會依字母順序排序。 如需此下拉式功能表中使用者順序的詳細資訊，請參閱「要求存取」和「要求更多存取權」下拉式功能表的[階層](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus)。
 
 1. 從下拉式清單中，選取您要求的存取型別。
-1. （選擇性）在&#x200B;**P.S.**&#x200B;欄位中，指定使用者需要其他存取權原因的備註。
+1. （選擇性）在&#x200B;**P.S.**&#x200B;欄位中，輸入有關您需要額外存取權的理由。
 
    ![要求存取對話方塊](assets/request-access-to-project.png)
+
+1. 按一下&#x200B;**要求存取權**。
 
 <!--
 If you do not have access level rights to an object and you try to access that object from a link, a screen is displayed informing you to contact the Workfront administrator.
@@ -113,23 +114,22 @@ For example, if you do not have portfolio access, but you were given a link to a
 
 若要要求您已有限制存取權的物件的額外存取權：
 
-1. 前往您要要求其他存取權的物件。
+1. 前往您要要求其他存取許可權的物件。
 
 1. 按一下專案名稱右側的&#x200B;**更多**&#x200B;功能表，然後按一下&#x200B;**要求更多存取權**。
 
    ![要求更多存取權](assets/more-menu-request-more-access.png)
 
-1. （視條件而定）如果超過一位使用者擁有授予您額外存取權的適當存取權，則該使用者名稱旁邊會顯示下拉箭頭。
-1. 從下拉式清單中選取您要接收存取要求的使用者。\
-   下拉式清單中只會顯示10位使用者。 清單會依字母排序。\
-   如需此下拉式功能表中使用者順序的詳細資訊，請參閱「要求存取」和「要求更多存取權」下拉式功能表的[階層](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus)。
+1. （視條件而定）如果超過一位使用者擁有授予您額外存取權的適當存取權，則該使用者名稱旁邊會顯示下拉箭頭。 從下拉式清單中選取將收到存取請求的使用者。
+
+   下拉式清單中只會顯示10位使用者，而且會依字母順序排序。 如需此下拉式功能表中使用者順序的詳細資訊，請參閱「要求存取」和「要求更多存取權」下拉式功能表的[階層](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus)。
 
 1. 從下拉式清單中，選取您要求的存取層級。
-1. （選擇性）在&#x200B;**P.S.**&#x200B;欄位中，指定有關您需要額外存取權的理由的備註。
-1. 按一下&#x200B;**要求存取權**。
+1. （選擇性）在&#x200B;**P.S.**&#x200B;欄位中，輸入有關您需要額外存取權的理由。
 
-   預覽環境中的範例影像：
    ![要求存取對話方塊](assets/request-access-to-project.png)
+
+1. 按一下&#x200B;**要求存取權**。
 
 ## 「要求存取權」和「要求更多存取權」下拉式功能表的階層 {#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus}
 
@@ -138,21 +138,19 @@ For example, if you do not have portfolio access, but you were given a link to a
 
 ### 瞭解「要求存取權」和「要求更多存取權」下拉式功能表中列出的使用者階層 {#understand-the-hierarchy-of-users-listed-in-the-request-access-and-request-more-access-drop-down-menus}
 
-在物件上填入「要求存取權」或「要求更多存取權」清單時，Workfront會選取最多10名使用者的清單，這些使用者履行共用物件的各種角色，如下所述。 這些使用者可以將物件的存取權授與提出請求的使用者。\
-然後產生的清單會依其名稱以遞增字母順序排序。\
-Workfront會在「要求存取權」和「要求更多存取權」清單中顯示最多10名使用者。
+在物件上填入「要求存取權」或「要求更多存取權」清單時，Workfront會選取最多10個使用者的清單，這些使用者履行各種角色，可將物件存取權授予提出請求的使用者。 然後產生的清單會依其名稱以遞增字母順序排序。
 
-「要求存取權」或「要求更多存取權」下拉式功能表中的使用者順序由以下規則指定：
+以下規則決定「要求存取權」或「要求更多存取權」下拉式清單中的使用者順序：
 
 * 清單中的第一個使用者是物件「擁有者」，如[瞭解物件的擁有者](#understand-the-owner-of-an-object)中所述。
 * 然後清單會填入個別共用物件的使用者。 它們會依字母順序列出。
-* 然後清單中會進一步填入使用者，這些使用者透過與其團隊、群組或公司共用而獲得所需存取權。 它們會依字母順序列出。
-* 如果清單為空，則會新增Workfront管理員，以便始終有人員可向其請求存取權。 它們會依字母順序列出。
-* 清單中的每個使用者都必須擁有物件的請求存取權，以及共用物件的存取權。
+* 然後使用者會進一步填入清單，透過與其團隊、群組或公司共用而獲得所需存取權。 它們會依字母順序列出。
+* 如果清單為空，則會新增Workfront管理員，以便始終有人員可向其請求存取權。 它們按字母順序列出。
+* 清單中的每個用戶都必須具有請求的物件訪問許可權和共用物件的訪問許可權。
 
-### 瞭解物件的擁有者 {#understand-the-owner-of-an-object}
+### 了解物件的所有者 {#understand-the-owner-of-an-object}
 
-物件的擁有者定義如下：
+物件的所有者定義如下：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -178,7 +176,7 @@ Workfront會在「要求存取權」和「要求更多存取權」清單中顯�
   </tr> 
   <tr> 
    <td>專案組合</td> 
-   <td>該擁有者是Portfolio擁有者。 <p>他們可能與產品組合建立者不是同一個人。 </p></td> 
+   <td>該擁有者為Portfolio擁有者。 <p>他們可能與產品組合建立者不是同一個人。 </p></td> 
   </tr> 
   <tr> 
    <td>文件</td> 
@@ -186,7 +184,7 @@ Workfront會在「要求存取權」和「要求更多存取權」清單中顯�
   </tr> 
   <tr> 
    <td>報告和儀表板</td> 
-   <td>擁有者是建立者或報告或儀表板。 </td> 
+   <td>擁有者是報告或儀表板的建立者。 </td> 
   </tr> 
   <tr> 
    <td>行事曆</td> 
