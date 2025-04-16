@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: 0d746db3b3665b288b4724c346a02d3f459fc365
+source-git-commit: 35cfdba7c206e8acb76648737588aa07120d2bbe
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '926'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,24 @@ ht-degree: 0%
 本頁說明在2025年第二季度發行時間範圍內對Adobe Workfront應用程式的各個區域外觀和感覺進行的小幅更新。
 
 如需2025年第二季版本的所有變更清單，請參閱[2025年第二季版本概觀](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)。
+
+## 已更新具有新樣式的報表
+
+>[!NOTE]
+>
+>所有客戶的預覽和生產： 2025年4月9日
+
+我們已更新多個報表的外觀和風格，以符合Workfront其他區域的設計方式。
+
+此更新包括對下列報告的清單和工具列的視覺變更。 功能未變更。
+
+* 參數
+* 參數群組
+* 自訂表單
+* 休假
+
+如需詳細資訊，請參閱[建立自訂報表](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
+
 
 ## Google Drive檔案整合對話方塊的外觀更新
 
