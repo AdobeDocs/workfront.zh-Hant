@@ -1,13 +1,13 @@
 ---
 title: 介面更新
 description: 本頁面列出我們透過Adobe Workfront進行的介面更新，以改善使用者體驗，並將其與其他Adobe應用程式統一。
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 80cb8ffa0495c7d163de8fb99dba84e6442aa938
+source-git-commit: 3761217587419fa8b7ff42e425cc277ee36fe957
 workflow-type: tm+mt
-source-wordcount: '1774'
+source-wordcount: '1817'
 ht-degree: 0%
 
 ---
@@ -211,6 +211,12 @@ ht-degree: 0%
 ## 文件
 
 +++展開以檢視檔案介面更新
+
+### 請求檔案時的介面更新
+
+**預覽版本： 2025年4月3日；生產版本：自2025年4月10日起一週**
+
+我們已更新用來向其他使用者請求檔案的對話方塊，該對話方塊的設計更現代化，與Workfront的其他區域一致。
 
 ### 外部檔案共用頁面的介面更新
 
