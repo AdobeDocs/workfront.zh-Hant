@@ -7,9 +7,9 @@ description: 您可以與檢閱者共用及檢閱各種型別的檔案，即使�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: b0454e68bdd6e9e78bd748868fc82a7b0cf8f379
+source-git-commit: 1df1eff727ff2044eee0f5c0e79794c109d16c7a
 workflow-type: tm+mt
-source-wordcount: '1052'
+source-wordcount: '1057'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Workfront有下列限制：
 * DCS - Kodak數位相機系統
 * DCM - DICOM
 * DCX — 繪圖筆刷
-* DNG -Adobe數位負片
+* DNG - Adobe數位負片
 * DOC - Microsoft Word檔案
 * DOCX - Microsoft Word Document 2007
 * DRW - DRaWing
@@ -90,9 +90,9 @@ Workfront有下列限制：
 * FITS — 彈性的影像傳輸系統
 * FLC - Flic動畫
 * FPX - Kodak FlashPix
-* GBR - GerberGIF- CompuServe
-* GIF — 圖形交換格式(僅限新Workfront Proof檢視器中的動畫GIF)
-* GIFHDP - Windows HD像片
+* GBR - Gerber GIF - CompuServe
+* GIF — 圖形交換格式(僅限新Workfront Proof檢視器中的GIF動畫)
+* GIF HDP - Windows HD像片
 * ICO - Windows圖示
 * IFF — 交換檔案格式
 * IOCA — 影像物件內容架構
@@ -100,13 +100,13 @@ Workfront有下列限制：
 * ITG — 互動圖
 * JBG - JBIG
 * JB2 - JBIG2
-* JPG — 聯合攝影專家小組(JPEG)
-* JPEG-XR - Windows Media像片/HD像片(HDP)
-* JPEG-LS — 不失真JPEG
-* J2K -JPEG2000
-* JP2 — 壓縮JPEG2000
+* JPG — 聯合攝影專家組(JPEG)
+* JPEG-XR - Windows Media像片/ HD像片(HDP)
+* JPEG-LS - JPEG不失真
+* J2K - JPEG 2000
+* JP2 — 壓縮的JPEG 2000
 * JPM - JPEG 2000第6部分
-* JPX -JPEG2000第2部分
+* JPX - JPEG 2000第2部分
 * KDC - Kodak數位攝影機
 * Mac - MacPaint
 * MIF - MapInfo交換
@@ -126,7 +126,7 @@ Workfront有下列限制：
 * PCL6 — 印表機命令語言
 * pct - Macintosh Pict
 * PCX — 繪圖筆刷
-* PDF-Adobe可攜式檔案檔案
+* PDF - Adobe可攜式檔案檔案
 * PGM — 可攜式點陣圖公用程式
 * PLT - HPGL繪圖儀
 * PNG — 可攜式網路圖形
@@ -134,7 +134,7 @@ Workfront有下列限制：
 * PPM — 可攜式點陣圖公用程式
 * PPT - PowerPoint簡報
 * PPTX - PowerPoint簡報2007 PS - PostScript檔案
-* PSD- Photoshop
+* PSD - PHOTOSHOP
 * PSP - Paint Shop Pro
 * PTK - PTOCA
 * RAS - SUN Raster
@@ -188,10 +188,10 @@ Workfront有下列限制：
 * AIT - Adobe Illustrator範本
 * DOC - Microsoft Word檔案
 * DOCX - Microsoft Word檔案
-* PDF-Adobe可攜式檔案檔案
+* PDF - Adobe可攜式檔案檔案
 * PPT- PowerPoint簡報
 * PPTX - PowerPoint簡報2007 PS - PostScript檔案
-* PSD- Photoshop
+* PSD - PHOTOSHOP
 * RTF - RTF文字
 * XLS - Microsoft Excel試算表
 * XLSX - Microsoft Excel Spreadsheet 2007
@@ -206,9 +206,9 @@ Workfront有下列限制：
 * H.265
 * 所有MPEG-4實作（Xvid、3vix等）
 * AVI
-* Flash(VP6、Sorenson Spark/H.263+、H.264)
+* Flash (VP6、Sorenson Spark/H.263+、H.264)
 * MOV
-* MP4
+* MP4 — 限制8,192 x 4,320畫素
 * MPG
 * VOB （僅限未加密的VOB）
 * Flash
@@ -248,4 +248,4 @@ Workfront有下列限制：
 
 ## InDesign和Quark檔案
 
-我們不支援InDesign和Quark檔案，因為它們不是獨立檔案型別，而且會參照許多其他檔案，例如影像和字型。 這些檔案型別的輸出會因輸出設定而異。 我們建議客戶將InDesign和Quark檔案儲存為PDF，然後上傳PDF。
+我們不支援InDesign和Quark檔案，因為它們不是獨立檔案型別，且會參照許多其他檔案，例如影像和字型。 這些檔案型別的輸出會因輸出設定而異。 我們建議客戶將InDesign和Quark檔案儲存為PDF，然後上傳PDF。
