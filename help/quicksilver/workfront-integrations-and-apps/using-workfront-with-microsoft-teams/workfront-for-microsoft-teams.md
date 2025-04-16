@@ -8,9 +8,9 @@ author: Becky
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 88b05a70-a304-461d-bab3-21d328c9356e
-source-git-commit: 41d898e82bc5b06498966ba938b68ed10e742d3b
+source-git-commit: 69fdb5c23bb501fc81e4ef3c3ab7c94e78e69d29
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,13 @@ ht-degree: 0%
 
 <!-- Audited: 12/2023 -->
 
+<!--
+
 >[!NOTE]
 >
->自2025年7月1日起，Microsoft將移除對Classic Teams案頭應用程式的支援。 因此，Classic Teams案頭應用程式無法使用後，將不支援Workfront與Microsoft Teams的整合。
+>As of July 1, 2025, Microsoft will remove support for the Classic Teams desktop app. As a result, the Workfront integration with Microsoft Teams will not be supported after the Classic Teams desktop app is no longer available.
+
+-->
 
 身為團隊擁有者在[!DNL Microsoft Teams]中，您可以為團隊安裝[!DNL Adobe Workfront for Microsoft Teams]應用程式。
 
@@ -43,7 +47,7 @@ ht-degree: 0%
 
   如需有關從[!DNL Microsoft Teams]提交[!DNL Workfront]要求的資訊，請參閱[從 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/submit-workfront-requests-from-ms-teams.md)提交 [!DNL Workfront] 要求。
 
-* 响应 [!DNL Workfront] 有關更新和評論的通知。
+* 回應[!DNL Workfront]個有關更新與註解的通知。
 * 回應檔案核准請求。\
    如需有關回應[!DNL Microsoft Teams]的[!DNL Workfront]通知和檔案核准要求的資訊，請參閱[在 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md)中管理 [!DNL Adobe Workfront] 通知。
 
@@ -55,4 +59,4 @@ ht-degree: 0%
 * 如果多個團隊需要從[!DNL Microsoft Teams]存取[!DNL Workfront]，您必須為每個團隊安裝應用程式。
 * 您可以在[!DNL Microsoft Teams]中檢視[!DNL Workfront]專案的部分相關資訊。 例如，[!DNL Workfront]專案的名稱、狀態、優先順序、受指派人、計畫完成日期。 無法自訂此資訊。
 * 您可以直接從[!DNL Microsoft Teams]移至[!DNL Workfront]專案與檔案。
-* [!DNL Microsoft Teams] 不再支援 [!DNL Internet Explorer]. [!DNL Adobe Workfront for Microsoft Teams]要使用整合，您必須使用 Web 瀏覽器 以外的[!DNL Internet Explorer]其他 Web 。
+* [!DNL Microsoft Teams]不再支援[!DNL Internet Explorer]。 若要使用[!DNL Adobe Workfront for Microsoft Teams]整合，您必須使用[!DNL Internet Explorer]以外的網頁瀏覽器。

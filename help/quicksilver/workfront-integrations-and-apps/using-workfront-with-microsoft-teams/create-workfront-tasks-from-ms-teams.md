@@ -6,18 +6,22 @@ description: 如果團隊擁有者已為您的團隊安裝和設定 [!DNL Workfr
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 31b86c8d-967a-446a-86f2-3d38e44c45e1
-source-git-commit: 41d898e82bc5b06498966ba938b68ed10e742d3b
+source-git-commit: 69fdb5c23bb501fc81e4ef3c3ab7c94e78e69d29
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '347'
 ht-degree: 0%
 
 ---
 
 # 從[!DNL Microsoft Teams]建立[!DNL Adobe Workfront]個任務
 
+<!--
+
 >[!NOTE]
 >
->自2025年7月1日起，Microsoft將移除對Classic Teams案頭應用程式的支援。 因此，Classic Teams案頭應用程式無法使用後，將不支援Workfront與Microsoft Teams的整合。
+>As of July 1, 2025, Microsoft will remove support for the Classic Teams desktop app. As a result, the Workfront integration with Microsoft Teams will not be supported after the Classic Teams desktop app is no longer available.
+
+-->
 
 ## 存取需求
 

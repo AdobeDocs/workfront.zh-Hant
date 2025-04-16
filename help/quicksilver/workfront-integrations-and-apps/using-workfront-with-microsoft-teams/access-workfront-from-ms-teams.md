@@ -6,9 +6,9 @@ description: 您可以從 [!DNL Microsoft Teams] 存取 [!DNL Adobe Workfront] �
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a12277e8-2c2e-4b53-990f-6ee9a6541492
-source-git-commit: 41d898e82bc5b06498966ba938b68ed10e742d3b
+source-git-commit: 69fdb5c23bb501fc81e4ef3c3ab7c94e78e69d29
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '449'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,13 @@ ht-degree: 1%
 
 <!--Audited: 01/2024-->
 
+<!--
+
 >[!NOTE]
 >
->自2025年7月1日起，Microsoft將移除對Classic Teams案頭應用程式的支援。 因此，Classic Teams案頭應用程式無法使用後，將不支援Workfront與Microsoft Teams的整合。
+>As of July 1, 2025, Microsoft will remove support for the Classic Teams desktop app. As a result, the Workfront integration with Microsoft Teams will not be supported after the Classic Teams desktop app is no longer available.
+
+-->
 
 您可以從[!DNL Microsoft Teams]存取[!DNL Adobe Workfront]，並在[!DNL Workfront]中執行數個動作，方法是在[!DNL Workfront]機器人頻道或任何其他團隊頻道中輸入命令。
 

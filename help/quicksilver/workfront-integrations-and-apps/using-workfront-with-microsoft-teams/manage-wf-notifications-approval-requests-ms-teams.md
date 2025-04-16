@@ -6,18 +6,22 @@ description: 您可以接收來自 [!DNL Adobe Workfront] 的通知，內容有�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-source-git-commit: 41d898e82bc5b06498966ba938b68ed10e742d3b
+source-git-commit: 69fdb5c23bb501fc81e4ef3c3ab7c94e78e69d29
 workflow-type: tm+mt
-source-wordcount: '1374'
+source-wordcount: '1338'
 ht-degree: 0%
 
 ---
 
 # 管理[!DNL Microsoft Teams]中的[!DNL Adobe Workfront]個通知
 
+<!--
+
 >[!NOTE]
 >
->自2025年7月1日起，Microsoft將移除對Classic Teams案頭應用程式的支援。 因此，Classic Teams案頭應用程式無法使用後，將不支援Workfront與Microsoft Teams的整合。
+>As of July 1, 2025, Microsoft will remove support for the Classic Teams desktop app. As a result, the Workfront integration with Microsoft Teams will not be supported after the Classic Teams desktop app is no longer available.
+
+-->
 
 您可以從[!DNL Adobe Workfront]接收有關您需要核准的專案、已給予您的指派，或您關聯專案的評論和變更的通知。
 
@@ -37,17 +41,17 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 許可證*</td> 
-   <td> <p>[!UICONTROL 工作]、[！UICONTROL 計劃]</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
+   <td> <p>[！UICONTROL Work]， [！UICONTROL計畫]</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要瞭解您擁有的計劃、許可證類型或訪問許可權，請與管理員 [!DNL Workfront] 聯繫。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
 
 ## 在[!DNL Microsoft Teams]中接收[!DNL Workfront]通知的必要條件
 
@@ -55,9 +59,9 @@ ht-degree: 0%
 
 * 團隊擁有者已為您的團隊安裝和設定[!DNL Workfront for Microsoft Teams]。
 * 您已從[!DNL Microsoft Teams]登入[!DNL Workfront]。
-* 您已在 中 [!DNL Workfront]啟用即時通知。 有關啟用即時通知的資訊，請參閱 [修改您自己的電子郵件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)。
+* 您已在[!DNL Workfront]中啟用立即通知。 如需啟用即時通知的詳細資訊，請參閱[修改您自己的電子郵件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)。
 
-有關安裝和 [!DNL Workfront for Microsoft Teams] 記錄的信息 [!DNL Workfront from Microsoft Teams]，請参閱 [安裝 [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)。
+如需有關安裝[!DNL Workfront for Microsoft Teams]和登入[!DNL Workfront from Microsoft Teams]的資訊，請參閱[安裝 [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)。
 
 ## 管理[!DNL Microsoft Teams]中的[!DNL Workfront]個通知
 
@@ -98,8 +102,8 @@ ht-degree: 0%
    如需有關登入[!DNL Workfront]的資訊，請參閱[安裝 [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)。
 
 1. 前往&#x200B;**[!UICONTROL 聊天]**&#x200B;區域並按一下&#x200B;**[!DNL Workfront]**&#x200B;機器人頻道。\
-   此通道用於您與機器人進行 [!DNL Workfront] 個人聊天。 所有 [!DNL Workfront] 通知都會顯示在這裡。
-1. 根據您收到的通知類型，轉到相關部分：
+   此頻道用於您與[!DNL Workfront]機器人的個人聊天。 所有[!DNL Workfront]通知都會顯示在這裡。
+1. 根據您收到的通知型別，請前往相關區段：
 
    * [核准通知](#approval-notifications-approval-notifications)
    * [指派通知](#assignment-notifications-assignment-notifications)
@@ -109,12 +113,12 @@ ht-degree: 0%
 
 ### 核准通知 {#approval-notifications}
 
-當系統要求您批准物件（如任務、時程表或證明）時，您會收到審批通知。 不過，您仍可對通知發表評論。您可從核准通知執行以下作：
+當您被要求核准物件時（例如任務、時程表或校訂），您會收到核准通知。 不過，您仍然可以在通知上加上註解。您可以在核准通知中執行下列動作：
 
-* **[!UICONTROL 批准]**：按下以批准專案。
-* **[!UICONTROL 更改]**：按下以批准包含更改的專案。
-* **[!UICONTROL 拒絕]**： 按兩下以拒絕該專案。
-* **[!UICONTROL 註解]**：點擊發表評論。 您的註解也會在[!DNL Workfront]中顯示為通知相關物件的更新。
+* **[!UICONTROL 核准]**：按一下以核准專案。
+* **[!UICONTROL 變更]**：按一下以核准有變更的專案。
+* **[!UICONTROL 拒絕]**：按一下以拒絕專案。
+* **[!UICONTROL 註解]**：按一下即可發表註解。 您的註解也會在[!DNL Workfront]中顯示為通知相關物件的更新。
 * **[!UICONTROL 前往校訂]**：按一下以開啟校訂。 然後，您可以直接在校訂中做出決定。 如需詳細資訊，請參閱[在校訂檢視器中對校訂做出決定](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)。
 
 >[!NOTE]
@@ -158,7 +162,7 @@ ht-degree: 0%
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">您需要批准問題</td> 
+   <td role="rowheader">您需要核准問題</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td> </td> 
@@ -206,7 +210,7 @@ ht-degree: 0%
    <td> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">您的時程表將重新打開</td> 
+   <td role="rowheader">您的時程表已重新開啟</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -230,7 +234,7 @@ ht-degree: 0%
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">您請求的文件審批請求被拒絕</td> 
+   <td role="rowheader">您請求的檔案核准請求被拒絕</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -238,7 +242,7 @@ ht-degree: 0%
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">您的時程表已獲得批准</td> 
+   <td role="rowheader">您的時程表已核准</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -275,7 +279,7 @@ ht-degree: 0%
  </thead> 
  <tbody> 
   <tr> 
-   <td role="rowheader">您已被分配到一個任務</td> 
+   <td role="rowheader">您被指派至一個任務</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -303,7 +307,7 @@ ht-degree: 0%
 
 ### 註解通知 {#comment-notifications}
 
-當有人對與您相關聯的專案發表評論或將您納入更新時，您會收到通訊通知。 從通信通知，您可以執行以下作：
+當有人對與您相關聯的專案發表評論或將您納入更新時，您會收到通訊通知。 在通訊通知中，您可以執行下列動作：
 
 * **Reply**：按一下以回覆註解或[!UICONTROL 更新]。 您的回覆也會出現在更新流中，評論會顯示在Workfront中。
 * **[!UICONTROL 在Workfront中檢視]**：選取此選項可檢視在新索引標籤中開啟的Workfront中的註解和專案。
@@ -334,7 +338,7 @@ ht-degree: 0%
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">有人評論您所在的線程</td> 
+   <td role="rowheader">有人對您所在的執行緒發表註解</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -349,17 +353,17 @@ ht-degree: 0%
    <td> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">系統會在用戶設定檔頁面上或透過批量编辑多個用戶來新增評論</td> 
+   <td role="rowheader">註解會新增至您的使用者設定檔頁面，或透過大量編輯多位使用者來進行</td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">系統會在其中一個更新中添加評論</td> 
+   <td role="rowheader">您的其中一個更新已新增註解</td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">將在時程表上添加註釋</td> 
+   <td role="rowheader">註解已新增至您的時程表</td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
@@ -389,12 +393,12 @@ ht-degree: 0%
  </thead> 
  <tbody> 
   <tr> 
-   <td role="rowheader">對您訂閱的任務、問題或專案進行了更新</td> 
+   <td role="rowheader">您訂閱的任務、問題或專案已更新</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">有人將您包括在定向更新中</td> 
+   <td role="rowheader">有人將您加入定向更新</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -411,7 +415,7 @@ ht-degree: 0%
 當指定給您的工作專案的日期變更時，您會收到日期變更通知。 從日期變更通知中，您可以執行下列動作。
 
 * **[!UICONTROL 註解]**：按一下以評論該專案。 您的註解也會顯示在Workfront的專案更新流中。
-* **[!UICONTROL 狀態]**：按兩下，然後從下拉功能表中選擇工作項的新狀態。
+* **[!UICONTROL 狀態]**：按一下，然後從下拉式功能表中選取工作專案的新狀態。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -420,13 +424,13 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th>通知</th> 
-   <th> <p>[!UICONTROL 註解]</p> </th> 
-   <th> <p>[!UICONTROL 狀態]</p> </th> 
+   <th> <p>[！UICONTROL註解]</p> </th> 
+   <th> <p>[！UICONTROL狀態]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td role="rowheader">分配給您的任務的截止日期會發生變化</td> 
+   <td role="rowheader">在指派給您的任務上變更了到期日期</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
