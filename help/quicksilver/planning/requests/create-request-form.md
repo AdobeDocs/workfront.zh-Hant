@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 594504c6a7acc9341471371ca279379042a45457
 workflow-type: tm+mt
-source-wordcount: '2046'
+source-wordcount: '2020'
 ht-degree: 1%
 
 ---
@@ -26,9 +26,7 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-您可以建立請求表單，並將其與Adobe Workfront Planning中的記錄型別建立關聯。 然後，您可以與其他內部或外部使用者共用與其的連結。
-
-具有表單連結的使用者可以更新其欄位值，並透過提交來新增記錄。
+您可以建立請求表單，並將其與Adobe Workfront Planning中的記錄型別建立關聯。 然後，您可以與其他人共用表單，他們也可以提交請求來建立記錄。
 
 本文說明工作區管理員如何建立與記錄型別相關聯的請求表單。
 
@@ -126,7 +124,7 @@ ht-degree: 1%
 
       * 建立者和上次修改者
       * 建立日期和上次修改日期
-      * 公式。<!--Formula fields are supported in the Preview environment.-->
+      * 公式
       * Workfront物件的查閱欄位
       * Workfront Planning連線記錄的查詢欄位
 
@@ -257,12 +255,7 @@ ht-degree: 1%
    >     * 人員
    >
 
-1. （視條件而定）如果您在上一步選取了&#x200B;**任何擁有連結**&#x200B;的人，請從可用的行事曆中選取&#x200B;**連結到期日**。<!--take out this tip when we release to production as in multiple forms this is no longer happening-->
-
-   >[!TIP]
-   >
-   >如果是這種情況，表示連結已公開共用。
-   >![記錄型別功能表上的表單公開共用連結](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
+1. （視條件而定）如果您在上一步選取了&#x200B;**任何擁有連結**&#x200B;的人，請從可用的行事曆中選取&#x200B;**連結到期日**。
 
    連結過期後，人員會收到錯誤，您必須更新連結日期，並產生新連結以共用，人員才能再次存取表單。
 
@@ -299,18 +292,10 @@ ht-degree: 1%
 1. 按一下標題中&#x200B;**要求表單**&#x200B;左側的向左箭頭，關閉要求表單表格。
 
    記錄型別頁面隨即開啟。
-1. （選擇性和條件性）若要編輯現有表單：
+1. （選擇性和條件式）按一下標題中記錄型別名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後執行下列其中一項作業：
 
-   1. 按一下標題中記錄型別名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**管理請求表單**。</span>
+   1. 按一下&#x200B;**更新要求表單**&#x200B;以變更要求表單，然後按一下要求表單以開啟並編輯。
+   1. 按一下&#x200B;**複製表單連結**&#x200B;以與其他人共用表單連結。
 
-      這會開啟「請求表單」表格檢視。
+1. （選用）前往Workfront中的&#x200B;**要求**&#x200B;區域，並尋找共用表單以提交要求。 如需詳細資訊，請參閱[提交Adobe Workfront Planning要求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)。
 
-   1. 按一下請求表單，以開啟並編輯它。
-   1. （選用）前往Workfront中的&#x200B;**要求**&#x200B;區域，並尋找共用表單以提交要求。 如需詳細資訊，請參閱[提交Adobe Workfront Planning要求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)。
-
-<!--   * From the Production environment:
-   
-      1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the header, then do one of the following: 
-   
-      1. Click **Update request form** to make any changes to the request form.
-      1. Click **Copy link to request form**  to share the link to the form with others.-->

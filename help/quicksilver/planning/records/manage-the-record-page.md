@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 594504c6a7acc9341471371ca279379042a45457
 workflow-type: tm+mt
-source-wordcount: '1853'
+source-wordcount: '1809'
 ht-degree: 0%
 
 ---
@@ -270,9 +270,7 @@ ht-degree: 0%
 
 * 您無法將[連線]檢視頁面新增到記錄的預覽區域。
 
-* 連線檢視頁面會在表格檢視中顯示一個連線記錄頁面。 表格檢視是唯讀的。<!--more views might be added in the future-->
-
-* 您可以為每個連線的記錄型別新增一個連線檢視頁面。 <!--edit this when we can remove fields from this page-->
+* 連線檢視頁面會在表格檢視中顯示一個連線記錄型別頁面。
 
 * 將「連線」檢視頁面新增到記錄頁面後，可從記錄的預覽區域看到頁面索引標籤。 您必須移至完整頁面，才能檢視連線記錄的表格檢視。<!--this might have changed? check and take disclaimer out-->
 
@@ -289,7 +287,7 @@ ht-degree: 0%
 您選取之記錄型別的表格檢視會顯示，而連線的記錄會顯示在表格檢視中。
 已連線記錄的所有欄位都會顯示在已連線記錄之索引標籤的表格檢視中。
 
-   當您從「預覽」環境存取Workfront Planning時，預設會顯示所連線記錄表格中的前五個欄位。 預設不會顯示任何查閱欄位。0
+   依預設，連線的記錄表格的前五個欄位會顯示出來。 依預設，不會顯示任何查閱欄位。
 
    表格檢視是唯讀的。
 
@@ -309,16 +307,11 @@ ht-degree: 0%
    * 分組
    * 欄位，以顯示、隱藏或重新排列欄位
 
-   <!--Add to the list above from the list below - and condition these for Preview only: Hide fields, rearrange fields-->
-
    如需詳細資訊，請參閱[管理資料表檢視](/help/quicksilver/planning/views/manage-the-table-view.md)。
 
    >[!NOTE]
    >
-   >   您無法在已連線記錄之索引標籤的表格檢視中進行下列任何操作：
-   >
-   >   * 隱藏或重新排列欄位。 您可以在預覽環境中隱藏及重新排列欄位。
-   >   * 建立、編輯或刪除欄位
+   >   您無法在已連線記錄之索引標籤的表格檢視中建立、編輯或刪除欄位。
    >
 
 1. 按一下&#x200B;**連線**&#x200B;以新增或移除記錄。 如需詳細資訊，請參閱[連線記錄](/help/quicksilver/planning/records/connect-records.md)

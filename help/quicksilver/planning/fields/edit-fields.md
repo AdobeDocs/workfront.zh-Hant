@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: e49f1b3d9de3984ed798e20a0a0f03f9d4060115
+source-git-commit: 594504c6a7acc9341471371ca279379042a45457
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '699'
 ht-degree: 1%
 
 ---
@@ -165,18 +165,3 @@ ht-degree: 1%
 1. （視條件而定）對於連線的記錄欄位，按一下&#x200B;**編輯查閱欄位**，並從連線的記錄型別新增或移除任何查閱欄位。
 
    如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
-
-   >[!TIP]
-   >
-   >您可以新增或移除連線記錄中的查閱欄位，但無法編輯查閱欄位的設定。
-
-
-<!-- replace the TIP above with the one below at Preview, and remove this tip altogether after April 10 Prod release:-->
-
-<!--
-   >[!TIP]
-   >
-   >* In the Production environment, you can add or remove lookup fields from connected records, but you cannot edit the settings of lookup fields.
-   >* <span class="preview">In the Preview environment, you can edit the settings of lookup fields.</span>
-
--->

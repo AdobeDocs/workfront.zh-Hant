@@ -6,9 +6,9 @@ description: 方案代表共用跨專案界限的共同策略、目標或目標�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: 7fc2239de2488d2e3e5c434ab45e8a1d24c0b28f
+source-git-commit: 594504c6a7acc9341471371ca279379042a45457
 workflow-type: tm+mt
-source-wordcount: '1353'
+source-wordcount: '1288'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 方案代表共用跨專案界限的共同策略、目標或目標的專案集合。
 計畫是投資組合的細分，它們不能存在於投資組合之外。 計畫通常與同一投資組合中的其他計畫共用相同的資源。
@@ -74,17 +74,14 @@ ht-degree: 0%
 
   如需有關在Workfront中使用Kick-Start匯入資料的資訊，請參閱[使用Kick-Start範本將資料匯入Adobe Workfront](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)。
 
-<div class="preview">
 
 * 當您從Workfront Planning中的記錄型別連結程式時新增程式。
 
-  您必須擁有新的Workfront授權和適用於Workfront Planning的額外Workfront Planning套件。
+  您必須有其他Workfront Planning套件。
 
-  如需有關存取Workfront Planning的資訊，請參閱[存取總覽](/help/quicksilver/planning/access/access-overview.md)。
+  如需有關存取Workfront Planning的資訊，請參閱[Adobe Workfront Planning存取總覽](/help/quicksilver/planning/access/access-overview.md)。
 
   如需透過將專案組合新增至記錄來建立專案組合的資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md)一文中的「連線時建立記錄」一節。
-
-</div>
 
 ## 建立方案
 

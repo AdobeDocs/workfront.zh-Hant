@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 594504c6a7acc9341471371ca279379042a45457
 workflow-type: tm+mt
-source-wordcount: '1816'
+source-wordcount: '1791'
 ht-degree: 0%
 
 ---
@@ -152,10 +152,6 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
 
 
 ## 在Workfront的請求區域中向Workfront計畫提交請求
-
->[!NOTE]
->
->在每月發行到生產環境後，本節中描述的功能也可在生產環境中用於啟用快速發行的客戶。
 
 {{step1-to-requests}}
 
