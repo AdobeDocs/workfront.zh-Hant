@@ -6,9 +6,9 @@ description: 您可以在畫布控制面板中檢閱核准量度。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 48f8605b-c342-493b-96e7-f73248e34b35
-source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
+source-git-commit: 0aeef516c8e3b94edee6fc177766be032241965f
 workflow-type: tm+mt
-source-wordcount: '1987'
+source-wordcount: '1991'
 ht-degree: 1%
 
 ---
@@ -199,19 +199,19 @@ ht-degree: 1%
     </tr>
     <tr>
     <td><strong>截止日期</strong></td>
-    <td>檔案&gt;核准階段&gt;期限</td>
+    <td>檔案核准&gt;核准階段&gt;期限</td>
     </tr>
     <tr>
     <td><strong>請求者</strong></td>
-    <td>檔案&gt;核准階段&gt;核准階段參與者* &gt;請求者&gt;在搜尋方塊中輸入_Name_。</td>
+    <td>檔案核准&gt;核准階段&gt;核准階段參與者* &gt;請求者&gt;在搜尋方塊中輸入_Name_。</td>
     </tr>
      <tr>
     <td><strong>請求的日期</strong></td>
-    <td>檔案&gt;核准階段&gt;核准階段參與者* &gt;建立於</td>
+    <td>檔案核准&gt;核准階段&gt;核准階段參與者* &gt;建立於</td>
     </tr>
      <tr>
     <td><strong>核准者</strong></td>
-    <td>檔案&gt;核准階段&gt;核准階段參與者* &gt;參與者使用者&gt;在搜尋方塊中輸入_Name_。</td>
+    <td>檔案核准&gt;核准階段&gt;核准階段參與者* &gt;參與者使用者&gt;在搜尋方塊中輸入_Name_。</td>
     </tr>
     <table>
 

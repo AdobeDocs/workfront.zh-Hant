@@ -6,9 +6,9 @@ draft: Probably
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 83e2f884-b396-444e-9533-864fd78880f2
-source-git-commit: ed708a98662c198e52b417ae53e165f3d5e9a524
+source-git-commit: 5c97fc71eb9516407cf57517d9e817abf4335343
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
@@ -23,3 +23,4 @@ ht-degree: 0%
 * [常見問題集：Adobe Workfront內的校訂 — 美國移轉至EMEA](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/faq-proofing-in-wf-us-to-emea-migration.md)
 * [上傳後檔名稱已變更，且包含無效字元](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
 * [校訂PowerPoint搭配內嵌視訊](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)
+* [將互動式校訂新增為新版本時，無法下載或預覽校訂版本](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/static-and-web-proof-downloads.md)

@@ -6,7 +6,7 @@ description: 在建立校訂後，您可以隨時編輯校訂設定。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee30ce2c-e3dc-4863-a69b-cbc1b8747362
-source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
+source-git-commit: a036a99c13d80a2ba2305ebcdc799ad6e5b62b39
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 2%
@@ -73,12 +73,7 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader">需要以電子方式簽署決策</td> 
-      <td> <p>您可以要求任何對校樣做出決定的稽核者的電子簽章。 當稽核者做出決定時，會出現提示，要求他們輸入電子郵件和密碼並確認其決定。 <!--
-         <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-          For more information, see 
-          <a href="../../../workfront-proof/wp-acct-admin/managing-security/electronic-sigs-in-wp.md" class="MCXref xref">Understanding electronic signatures in Workfront Proof</a>
-         </MadCap:conditionalText>
-        --></p> </td> 
+      <td> <p>您可以要求任何對校樣做出決定的稽核者的電子簽章。 當稽核者做出決定時，會出現提示，要求他們輸入電子郵件和密碼並確認其決定。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">完成所有必要的決定時鎖定校訂</td> 
