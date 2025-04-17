@@ -4,11 +4,10 @@ description: 2025年第三季度專案增強功能
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
-source-git-commit: 16f0caf4bdf80ef7b95e8ab51bf9f75aa3b81b3f
+exl-id: 4829d487-7041-447f-9a68-fb1acf467734
+source-git-commit: d616fcdafee137adcdd6fe88616a18c01ed969f3
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
@@ -28,7 +27,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽版本： 2025年4月10日；適用於所有客戶的生產版本： 2025年4月17日
+>* 預覽版本： 2025年4月10日；適用於所有客戶的生產版本： 2025年4月17日
+>
+>* Adobe Unified Experience的使用者目前無法使用此功能。
 
 新檔案核准決定按鈕現在會出現在校訂檢視器中。 現在，當您建立簡單的校訂，然後從檔案摘要新增核准者和稽核者時，他們可以直接在校訂檢視器中做出決定。
 

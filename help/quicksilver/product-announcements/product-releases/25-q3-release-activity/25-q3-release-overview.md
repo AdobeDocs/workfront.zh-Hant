@@ -4,9 +4,10 @@ description: 本頁提供2025年第三季度版本中包含的功能相關資訊
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 20faacf09266c455a29a04db59a4d39f825f0c2d
+exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
+source-git-commit: 94cc3fc02e5ac499684056f21e84956a00d00334
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '472'
 ht-degree: 2%
 
 ---
@@ -42,33 +43,28 @@ The <add release> release webinar will be held on <date>. You can [register for 
 * [檔案管理增強功能](#document-management-enhancements)
 * [其他增強功能](#other-enhancements)
 
-<!--
-    
-### Document management enhancements
+### 檔案管理增強功能
 
 <table style="table-layout:auto">
   <tbody>
     <tr>
-        <td><strong>Feature</strong>
+        <td><strong>功能</strong>
         </td>
-        <td><strong>Preview</strong></td>
-        <td><strong>Fast release</strong></td>
-        <td><strong>Quarterly</strong></td>
+        <td><strong>預覽</strong></td>
+        <td><strong>快速發行</strong></td>
+        <td><strong>每季</strong></td>
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">New document approval decision buttons available in proofing viewer</a><p>[!BADGE Off schedule]{type=Neutral}</p>
-            <p>The new document approval decision buttons now appear in the proofing viewer. Now, when you create a simple proof and then add approvers and reviewers from the Document summary, they can make their decision directly inside the proofing viewer.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">校訂檢視器中可用的新檔案核准決定按鈕</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
+            <p>新檔案核准決定按鈕現在會出現在校訂檢視器中。 現在，當您建立簡單的校訂，然後從檔案摘要新增核准者和稽核者時，他們可以直接在校訂檢視器中做出決定。</p><p><b>注意</b>此功能目前不適用於Adobe Unified Experience的使用者。</p>
         </td>
-        <td>April 10, 2025</td>
-        <td>April 17, 2025</td>
-        <td>April 17, 2025</td>
+        <td>2025年4月10日</td>
+        <td>2025年4月17日</td>
+        <td>2025年4月17日</td>
     </tr>     
   </tbody>
-</table> 
-
--->
-
+</table>
 
 ### 其他增強功能
 
