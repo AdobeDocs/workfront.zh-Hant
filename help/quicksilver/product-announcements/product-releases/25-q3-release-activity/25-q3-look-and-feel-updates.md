@@ -4,9 +4,7 @@ description: 2025年第三季度發行時間範圍內的外觀與感覺更新
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
-source-git-commit: 131a4443564def1437c9b26d1e29e65fcc78d069
+source-git-commit: 20faacf09266c455a29a04db59a4d39f825f0c2d
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 5%
@@ -62,6 +60,3 @@ ht-degree: 5%
 當您從公司報表中刪除公司時，我們已更新「刪除公司」方塊的外觀和風格。 新設計現在與Workfront的其他區域相符。
 
 透過此更新，「設定」區域中「公司」頁面上「刪除公司」方塊的外觀和感覺未變更。
-
-
-
