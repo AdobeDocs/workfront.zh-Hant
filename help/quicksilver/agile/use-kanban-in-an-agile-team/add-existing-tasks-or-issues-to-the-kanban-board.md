@@ -6,7 +6,7 @@ description: 如果您擁有專案的「管理」存取權，您可以將任何�
 author: Courtney
 feature: Agile
 exl-id: 5f94a451-8530-478f-85c2-41bc15c22dd1
-source-git-commit: 2ce454f6f6e883090fe69c953d89c2d3eef7ce5b
+source-git-commit: bf79bc8fd3e25ff1bae404700ca27973a8b2307d
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 0%
@@ -65,6 +65,7 @@ ht-degree: 0%
    >[!NOTE]
    >
    >如果將多個團隊指派給任務或問題，則工作專案只能顯示在一個團隊的[!DNL kanban]展示板上。
+
 1. 按一下&#x200B;**新增**。
 
 
@@ -82,6 +83,7 @@ ht-degree: 0%
    >[!NOTE]
    >
    >如果將多個團隊指派給任務或問題，則工作專案只能顯示在一個團隊的[!DNL kanban]展示板上。
+
 1. 按一下&#x200B;**新增**。
 
 

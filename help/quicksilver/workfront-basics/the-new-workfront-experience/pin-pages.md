@@ -3,12 +3,12 @@ navigation-topic: the-new-workfront-experience
 title: 釘選頁面以自訂您的工作區
 description: 您可以釘選最重要的工作 [!DNL Adobe Workfront] 以增加可見度、改善組織並加快存取速度。 釘選頁面可隨時從Workfront中任何頁面的頂端存取。
 feature: Get Started with Workfront
-author: Nolan
+author: Courtney
 exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
-source-git-commit: e8a3f47a33b862a29000436d7c08c1a0e9371907
+source-git-commit: b3fe63f7a332f50c7bac3bedee5db3bbbabd2b42
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 0%
+source-wordcount: '420'
+ht-degree: 1%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 0%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
@@ -29,27 +31,28 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計畫*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計劃</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>[！UICONTROL Request]或更高版本</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權</strong></td> 
+   <td> <p>新增：投稿人</p> 
+   <p>或</p>
+     <p>目前：要求</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫或授權型別，請連絡您的[!DNL Workfront]系統管理員。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 釘選頁面
 
-1. 移至您要釘選的頁面。
+1. 導覽至您要釘選的頁面。 這可以是任何工作專案，例如專案、任務、請求佇列等。
 
-   這可以是任何工作專案，例如專案、任務、請求佇列等。
-
-1. 按一下頁面頂端的&#x200B;**[!UICONTROL 釘選目前頁面]**。
-
-   釘選頁面現在可從[!DNL Workfront]中任何頁面的頂端存取。
+1. 在頁面的左上角，按一下&#x200B;**[!UICONTROL 釘選目前頁面]**。 釘選頁面現在可從[!DNL Workfront]中任何頁面的頂端存取。
 
 ## 存取釘選頁面
 
@@ -61,31 +64,31 @@ ht-degree: 0%
 
    或
 
-   如果您已釘選許多頁面，您可能需要按一下&#x200B;**[!UICONTROL 更多]功能表** ![](assets/more-icon-spectrum.png)以檢視其他釘選頁面。
+   如果您釘選了許多頁面，請按一下&#x200B;**[!UICONTROL 更多]**&#x200B;圖示![按一下「更多」圖示](assets/more-icon.png)以檢視其他釘選頁面。
+
+   ![檢視其他釘選頁面](assets/display-pinned-pages.png)
 
    釘選頁面隨即顯示。
 
 ## 重新命名釘選頁面
 
-您可以變更釘選頁面的名稱，使其對您更有意義。
-
-1. 將滑鼠停留在頂端導覽列的釘選頁面上，或&#x200B;**[!UICONTROL 更多功能表]**。
-1. 按一下圖釘名稱旁的[更多]圖示![](assets/more-icon.png)，然後選取&#x200B;**[!UICONTROL 重新命名圖釘]**。
+1. 暫留在頂端導覽的釘選頁面上。
+1. 按一下圖釘名稱旁出現的&#x200B;**更多**&#x200B;圖示![更多圖示](assets/more-icon.png)，並選取&#x200B;**[!UICONTROL 重新命名圖釘]**。
 
    ![重新命名圖釘](assets/pin-menu.png)
 
-1. 輸入新的pin名稱，然後按一下&#x200B;**儲存**。
+1. 輸入新的PIN名稱，然後按一下[儲存]。****
 
-   ![按一下核取記號以重新命名圖釘](assets/new-pin-name.png)
+   ![按一下核取記號以重新命名圖釘](assets/rename-pin-dialog-box.png)
 
 
 ## 重新排序釘選頁面
 
 您可以重新排列釘選頁面的顯示順序。
 
-1. 將游標停留在您要移動的釘選頁面上，然後按一下「**更多**」圖示。
+1. 將游標停留在您要移動的釘選頁面上，然後按一下&#x200B;**更多**&#x200B;圖示![更多圖示](assets/more-icon.png)。
 1. 選擇&#x200B;**向左移動**&#x200B;或&#x200B;**向右移動**&#x200B;以移動您的圖釘。
-1. （選擇性）選擇&#x200B;**移至前面**&#x200B;將圖釘移至圖釘列的右方位置。
+1. （選擇性）選擇&#x200B;**移至前面**&#x200B;將您的圖釘移至圖釘列的最左位置。
 
    ![移動圖釘](assets/pin-menu.png)
 
@@ -93,9 +96,9 @@ ht-degree: 0%
 
 ## 移除釘選頁面
 
-1. 按一下您要移除的釘選旁的「更多」圖示![](assets/more-icon.png)。
-1. 按一下&#x200B;**移除圖釘**。
+1. 按一下您要移除的釘選旁的&#x200B;**更多**&#x200B;圖示![](assets/more-icon.png)。
+1. 按一下&#x200B;**移除圖釘**。 無法再從[!DNL Workfront]中任何頁面的頂端存取該頁面。
 
    ![移除圖釘](assets/pin-menu.png)
 
-   無法再從[!DNL Workfront]中任何頁面的頂端存取該頁面。
+
