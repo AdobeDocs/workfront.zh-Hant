@@ -6,18 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '578'
 ht-degree: 0%
 
 ---
 
 # 連線記錄概觀
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span> -->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -41,8 +41,8 @@ ht-degree: 0%
 
   查詢欄位的值會在原始記錄或物件上更新後，自動填入您正在連結的Workfront Planning記錄。
 
-* 有權存取Workfront Planning和「檢視」或擁有工作區<!--<span class="preview">and record type</span>-->較高許可權的所有人，都可以看見您在記錄之間或記錄與其他應用程式物件之間的連線。 無論連線至應用程式的許可權為何，使用者都可以檢視連線的記錄和物件。
-* 如果您擁有工作區<!--<span class="preview">and record type</span>-->的連線記錄所在的工作區管理許可權，則可以檢視及編輯其他人的連線。
+* 擁有工作區<span class="preview">和記錄型別</span>之Workfront Planning和「檢視」存取許可權或較高許可權的所有人，都可以看見您在記錄之間或記錄與其他應用程式物件之間的連線。 無論連線至應用程式的許可權為何，使用者都可以檢視連線的記錄和物件。
+* 如果您擁有工作區<span class="preview">和記錄型別</span>的管理許可權，且連線的記錄位於其中，則可以檢視及編輯其他人的連線。
 * 您可以將一個記錄連線到另一個應用程式的一或多個物件。視您在連線記錄型別時選取的連線型別而定。 如需詳細資訊，請參閱文章[連線記錄型別概觀](/help/quicksilver/planning/architecture/connect-record-types-overview.md)中的「連線型別」一節。
 
 ## 您可以連線記錄的區域

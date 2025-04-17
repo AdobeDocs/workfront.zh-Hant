@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 1%
+source-wordcount: '859'
+ht-degree: 3%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 <!--take Preview and Production references at Production time-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -89,7 +89,7 @@ ht-degree: 1%
    <td role="rowheader"><p>物件許可權</p></td>
    <td>
    <ul>
-   <li><p>管理工作區<!--<span class="preview">and record type</span>-->的許可權 </p></li>
+   <li><p>管理工作區<span class="preview">和記錄型別</span>的許可權 </p></li>
     <li><p>系統管理員可以管理他們未建立的工作區。 </p></li>
     </ul>
    <p>如需有關共用Workfront Planning物件許可權的資訊，請參閱  
@@ -124,8 +124,17 @@ ht-degree: 1%
 
    記錄型別頁面會在您上次存取的檢視中開啟。 依預設，會在表格檢視中開啟記錄型別頁面。
 
-1. 按一下頁面標頭中記錄型別名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**更新要求表單**。
-1. 按一下熒幕右上角的&#x200B;**共用**，然後更新共用選擇。 如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
+1. 按一下頁面標頭中記錄型別名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**管理請求表單**。
+
+   與記錄型別相關的所有請求表單都會顯示在表格檢視中。
+1. 暫留在要求表單的名稱上，然後按一下名稱右側的&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下&#x200B;**共用**。
+1. 選取下列其中一項，更新共用選擇：
+
+   * 在工作區擁有檢視或更高存取權限的任何人
+   * 對工作區具有貢獻或更高權限的任何人
+   * 擁有此連結的任何人
+
+   如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
 1. （選擇性）如果您已變更要求表單的共用，而且想要透過新連結與新群組的人共用，請按一下&#x200B;**複製連結**。
 
 ## 取消發佈記錄型別的請求表單
@@ -142,18 +151,24 @@ ht-degree: 1%
 
    記錄型別頁面會在您上次存取的檢視中開啟。 依預設，會在表格檢視中開啟記錄型別頁面。
 
-1. 按一下頁面標頭中記錄型別名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**更新請求表單**。
-1. 按一下右上角的&#x200B;**取消發佈**。
+1. 按一下頁面標頭中記錄型別名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**管理請求表單**。
 
-   ![取消發佈按鈕醒目提示](assets/unpublish-button-highlighted.png)
+   與記錄型別相關的所有請求表單都會顯示在表格檢視中。
+1. 暫留在要求表單的名稱上，然後按一下名稱右側的&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下&#x200B;**取消發佈**
 
-   畫面底部會顯示確認訊息，通知您表單已取消發佈。
+或
 
-   **取消發佈**&#x200B;按鈕變更為&#x200B;**發佈**。
+按一下要求表單的名稱以開啟它，然後按一下要求表單右上角的&#x200B;**取消發佈**。
 
-1. 按一下「**儲存**」。
+![取消發佈按鈕醒目提示](assets/unpublish-button-highlighted.png)
 
-   無法再從連結<!--or from the request queue in the Requests area of Workfront-->存取表單。
+畫面底部會顯示確認訊息，通知您表單已取消發佈。
+
+**取消發佈**&#x200B;連結或按鈕變更為&#x200B;**發佈**。
+
+1. （視條件而定）如果您在開啟表單後取消發佈表單，請按一下&#x200B;**儲存**。
+
+   使用者無法再透過連結或Workfront要求區域中的要求佇列存取要求表單。
 
    先前使用請求表單新增的任何記錄都會保留在記錄型別頁面上。
 

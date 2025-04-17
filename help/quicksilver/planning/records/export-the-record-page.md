@@ -1,26 +1,26 @@
 ---
 title: 匯出記錄頁面
-description: 您可以將記錄的預覽或詳細資訊頁面匯出至Word。
+description: 您可以將記錄的預覽或詳細資訊頁面從Adobe Workfront Planning匯出至Microsoft Word檔案。
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '553'
 ht-degree: 1%
 
 ---
 
 # 匯出記錄的詳細資料
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽」環境中供所有客戶使用，或在「生產」環境中供啟用快速發行的客戶使用。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 
-若要與可能沒有Workfront帳戶的其他人更有效率地共同作業，您可以將記錄的詳細資料匯出至檔案並與他們共用。
+若要與可能沒有Workfront帳戶的其他人更有效率地共同作業，您可以將記錄的詳細資訊頁面匯出至Microsoft Word檔案並與他們共用。
 
 ## 存取需求
 
@@ -78,7 +78,7 @@ ht-degree: 1%
   </tr> 
 <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
-   <td>   <p>檢視工作區<!--<span class="preview">and record type</span>-->或更高的許可權</a> </p>  
+   <td>   <p>檢視工作區<span class="preview">和記錄型別</span></a>的或更高許可權 </p>  
    <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p> </td> 
   </tr> 
 <tr> 

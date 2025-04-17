@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 594504c6a7acc9341471371ca279379042a45457
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '1791'
+source-wordcount: '1875'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 <!--take Preview and Prod references out when releasing to Prod all-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -96,7 +96,7 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
 <tr>
    <td role="rowheader"><p>物件許可權</p></td>
    <td>
-   <p>如果您是Workfront使用者，可檢視工作區<!--<span class="preview">and record type</span>-->的或更高許可權</p> 
+   <p>檢視工作區<span class="preview">和記錄型別</span>的或更高許可權(如果您是Workfront使用者)</p> 
   </td>
   </tr>
 <tr>
@@ -201,6 +201,8 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
      >[!IMPORTANT]
      >
      >至少可存取一個工作區的所有使用者都可以檢視「請求」區域中的「計畫」標籤。 您只能檢視您或其他人提交至您至少擁有檢視許可權之工作區的請求。 Workfront管理員可檢視提交至系統中任何工作區的所有請求。
+
+   * 只有擁有者、核准者及至少擁有工作區<!--and people with Manage access to the request type (asking Rafael about this, because not sure how one would give Manage access to the request type??)-->檢視許可權的使用者可看見此要求。
 
    * 您會收到應用程式內及電子郵件通知，告知您請求已成功提交或已傳送以供檢閱。
    * 如果請求表單與核准相關聯，核准者會收到應用程式內和電子郵件通知，以檢閱和核准請求。

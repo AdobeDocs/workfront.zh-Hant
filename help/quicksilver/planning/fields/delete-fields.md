@@ -6,9 +6,9 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 author: Alina
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '566'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 1%
 
 # 刪除欄位
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -102,7 +102,7 @@ ht-degree: 1%
   </tr> 
 <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
-   <td>   <p>管理工作區<!--<span class="preview">and record type</span>--> </a>的許可權 </p>  
+   <td>   <p>管理工作區<span class="preview">和記錄型別</span> </a>的許可權 </p>  
    <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p></td> 
   </tr> 
 <tr> 

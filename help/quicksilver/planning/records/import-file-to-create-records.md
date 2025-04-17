@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '972'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # 從CSV或Excel檔案匯入資訊，以建立記錄
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -83,7 +83,7 @@ ht-degree: 1%
   </tr> 
 <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
-   <td> <p>為您要新增記錄的工作區<!--and record type-->貢獻或更高的許可權。 </p>  
+   <td> <p>對工作區<span class="preview">和要新增記錄的記錄型別</span>貢獻或更高的許可權。 </p>  
    <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p>
    <p>管理Workfront物件（專案組合）的許可權以新增子物件（專案）。</p>
    </td> 
@@ -128,6 +128,8 @@ ht-degree: 1%
    從工作區中，展開現有工作區名稱右側的向下箭頭，搜尋工作區，然後在工作區顯示在清單中時選取該工作區。
 1. 按一下您要匯入記錄的記錄型別卡片。
 1. 按一下熒幕右上角的&#x200B;**新增唱片**。
+
+   ![選擇新增記錄的方式三個按鈕方塊](assets/choose-way-to-add-records-three-button-box.png)
 1. 按一下&#x200B;**從檔案上傳**，然後按&#x200B;**繼續**。<!--add screen shot when all three buttons are added - with the Submit a request button-->
 1. 拖放先前儲存在電腦上的Excel或CSV檔案，或按一下&#x200B;**選取CSV或Excel檔案**&#x200B;以瀏覽檔案。
 1. 按一下&#x200B;**預覽和編輯**。

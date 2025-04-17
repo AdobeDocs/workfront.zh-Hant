@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '2138'
+source-wordcount: '2202'
 ht-degree: 2%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 2%
 
 <!-- if they give access to use the automation to people with LESS than Manage permissions to a workspace, split this article in two: the Configure section should be for admins and the "Use a Workfront Planning automation to create an object" should be for all other users-->
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 您可以在Adobe Workfront Planning中設定自動化，以便在從Planning記錄觸發時，在Workfront中建立物件或Workfront Planning中的記錄。 建立的物件或記錄會自動連線至您觸發自動處理的記錄。
 
@@ -102,7 +102,7 @@ ht-degree: 2%
 <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
    <td> <p>管理工作區的許可權以建立自動化。 </p>
-   <p>為您要使用現有自動機制建立物件的工作區<!--<span class="preview">and to the record type</span>-->貢獻或更高的許可權。 </p>  
+   <p>為工作區<span class="preview">和您要使用現有自動化建立物件的記錄型別</span>貢獻或更高的許可權。 </p>  
    <p>管理Workfront物件（投資組合）的許可權以新增子物件（方案或專案）。</p>
    <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p>
    </td> 
@@ -131,7 +131,7 @@ ht-degree: 2%
 
 * 新物件或記錄不會覆寫相同欄位中的現有物件或記錄。 為同一記錄多次觸發相同的自動化，除了之前建立的物件或記錄外，還會新增原始記錄的相同連線欄位中的新物件或記錄。
 
-<!--hide this for now; they are trying to remove this militation: * The automation adds additional objects only in the Many to many or One to many connection type fields. In the all other cases, the automation creates the object, but it does not connect it to the original record from which the automation is triggered.-->
+<!--hide this for now; they are trying to remove this limitation: * The automation adds additional objects only in the Many to many or One to many connection type fields. In the all other cases, the automation creates the object, but it does not connect it to the original record from which the automation is triggered.-->
 
 ## 在Workfront Planning中設定自動化
 

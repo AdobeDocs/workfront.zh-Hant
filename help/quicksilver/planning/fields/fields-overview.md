@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '504'
 ht-degree: 2%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 2%
 
 # 欄位概述
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 
 {{planning-important-intro}}
@@ -87,7 +87,7 @@ ht-degree: 2%
 
 * 只有當您連線記錄型別與Workfront物件型別，並從Workfront物件新增連結或查詢欄位時，才能從Workfront Planning存取Workfront欄位。 如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
 
-* 如果您擁有該欄位所屬之工作區<!--<span class="preview">and record type</span>-->的管理許可權，您可以檢視及更新您或任何其他使用者建立之欄位的設定。
+* 如果您擁有工作區<span class="preview">的管理許可權以及欄位所屬的記錄型別</span>，您可以檢視並更新您或任何其他使用者建立的欄位設定。
 
 * 一個記錄型別最多可以有500個欄位。
 

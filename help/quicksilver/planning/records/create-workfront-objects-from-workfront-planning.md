@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1088'
 ht-degree: 2%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 2%
 <!-- update the title (and all the links to this article) at preview, to be this: Create Workfront objects from Workfront Planning as you connect them to records-->
 <!-- remove preview and production at release time-->
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">本頁標示的資訊是指尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -113,7 +113,7 @@ ht-degree: 2%
   </tr> 
 <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
-   <td> <p>管理您要新增記錄的工作區<!--<span class="preview">and record type</span>-->的許可權。 </p>  
+   <td> <p>管理工作區<span class="preview">的許可權，以及您要新增記錄的記錄型別</span>。 </p>  
    <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p>
    <p>管理Workfront物件（專案組合）的許可權以新增子物件（專案）。</p>
    </td> 
@@ -145,11 +145,7 @@ ht-degree: 2%
 
 1. （視條件而定）按一下&#x200B;**新增專案**
 或
-開始輸入專案名稱，如果找不到，請按一下[新增專案]。****
-
-   如果您在嘗試從其他記錄的已連線記錄欄位新增專案時找不到專案，請新增名稱，然後按一下[新增專案]。**** 「新增」按鈕後面接著您輸入的專案名稱。
-
-   <!--at production or when the permanent Add button is released to preview, take the first part of the direction above out and say "Click Add to add a new project"; take this out too: "The Add button is followed by the project name you typed."-->
+開始輸入專案名稱，如果找不到，請按一下[新增專案]。 ****「新增」按鈕後面接著您輸入的專案名稱。
 
    ![從連線欄位連線時新增專案](assets/add-project-when-connecting-it-from-connection-field.png)
 
@@ -170,13 +166,11 @@ ht-degree: 2%
 
 1. 移至記錄的詳細資訊頁面或記錄型別的表格，然後開始將Workfront Planning記錄與Workfront投資組合連線，如文章[連線記錄](/help/quicksilver/planning/records/connect-records.md)中所述。
 
-   <!--at production or when the permanent Add button is released to preview, take the first part of the direction below out and say "Click Add to add a new portfolio"; take this out too: "The Add button is followed by the portfolio name you typed."-->
-
 1. （視條件而定）按一下&#x200B;**新增投資組合**
 
    或
 
-   開始輸入投資組合的名稱，如果找不到，請按一下[新增投資組合] ****。—>如果您在嘗試從其他記錄的已連線記錄欄位新增投資組合時找不到投資組合，請新增名稱，然後按一下&#x200B;**新增投資組合**。 「新增」按鈕後面也會跟著您輸入的投資組合名稱。
+   開始輸入投資組合的名稱，如果找不到，請按一下[新增投資組合] ****。 「新增」按鈕後面接著您輸入的投資組合名稱。
 
    ![從連線欄位連線時新增投資組合](assets/add-portfolio-when-connecting-it-from-connection-field.png)
 
@@ -189,8 +183,6 @@ ht-degree: 2%
 若要在從Planning記錄連線程式時建立程式，請執行下列動作：
 
 1. 移至記錄的詳細資訊頁面或記錄型別的表格，然後開始將Workfront Planning記錄與Workfront投資組合連線，如文章[連線記錄](/help/quicksilver/planning/records/connect-records.md)中所述。
-
-   <!--at production or when the permanent Add button is released to preview, take the first part of the direction below out and say "Click Add to add a new program"; take this out too: "The Add button is followed by the program name you typed."-->
 
 1. 按一下&#x200B;**新增程式**
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '969'
 ht-degree: 1%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 1%
 
 <!-- do you need to add that only workspace owners can view the Submitted/ Planning tab?? - asking team in slack-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -105,7 +105,7 @@ ht-degree: 1%
    <td role="rowheader"><p>物件許可權</p></td>
    <td>
    <ul>
-   <li><p>管理工作區<!--<span class="preview">and record type</span>-->的許可權 </p></li>
+   <li><p>管理工作區<span class="preview">和記錄型別</span>的許可權 </p></li>
     <li><p>系統管理員可以管理他們未建立的工作區。 </p></li>
     </ul>
    <p>如需有關共用Workfront Planning物件許可權的資訊，請參閱  
@@ -155,7 +155,7 @@ ht-degree: 1%
    ![稽核狀態的唯讀要求頁面](assets/read-only-reqeust-page-in-review-status.png)
 
 1. （選擇性）按一下請求右上角的&#x200B;**核准**&#x200B;圖示![核准圖示](assets/approvals-icon.png)以檢視核准者。
-1. 按一下&#x200B;**檢閱並核准**，然後選擇下列其中一項： <!--did they fix the button and removed the &??-->
+1. 按一下&#x200B;**檢閱並核准**，然後選擇下列其中一項：
 
    * **核准**：這會核准要求。 在所有核准者核准請求後，系統會立即建立與請求表單相關之記錄型別的記錄。
    * **拒絕**：這會拒絕要求，即使您是唯一拒絕要求的核准者亦然。 不會針對與請求表單關聯的記錄型別建立記錄。

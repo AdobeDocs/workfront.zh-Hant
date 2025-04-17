@@ -6,15 +6,17 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '944'
-ht-degree: 6%
+source-wordcount: '1122'
+ht-degree: 5%
 
 ---
 
 
 <!--over time, this article should look like this one does: https://eperienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
+
+<!--remove the Prod and Preview references when we release to Prod-->
 
 # 在Adobe Workfront Planning中共用許可權的概觀
 
@@ -69,14 +71,9 @@ ht-degree: 6%
 
 * 使用者
 * 群組
-
-<div class="preview">
-
 * 團隊
 * 公司
 * 職務角色
-
-</div>
 
 <span class="preview">當您與他人共用工作區和記錄型別時，記錄型別的許可權層級會自動繼承到與其關聯的記錄和欄位。</span>
 
@@ -131,7 +128,7 @@ ht-degree: 6%
 
 ### 記錄型別許可權
 
-<!--In the Production environment,--> 當您授與許可權給工作區時，會繼承<!--always-->記錄型別許可權。
+在生產環境中，當您授與工作區許可權時，會一律繼承記錄型別許可權。
 
 記錄型別的許可權層級如下：
 
@@ -143,29 +140,35 @@ ht-degree: 6%
 | 編輯 | ✓ |            |       |
 | 檢視 | ✓ | ✓ | ✓ |
 
-<!--
-
 <div class="preview">
 
-In the Preview environment, you can remove the record type's inherited permissions received from the workspace. 
+在預覽環境中，您可以移除從工作區接收的記錄型別繼承許可權。
 
-You can give users different permissions on the record type than they have on the workspace. However, you can never grant higher permissions for the record type than users have on the workspace. 
+您可以授予使用者比他們在工作區中擁有更低的記錄型別許可權。
 
-The following scenarios exist: 
+但是，您不能執行下列動作：
 
-|   Workspace permissions     | Automatic inherited permissions for a Record Type |Possible Record Type permissions when Inherited permissions are turned off (granted manually)| 
+* 授予記錄型別比使用者在工作區上更高的許可權。
+* 為工作區管理員提供記錄型別的較低許可權。
+* 從記錄型別許可權中移除使用者，以移除記錄型別或工作區的檢視許可權。
+
+存在下列情況：
+
+| Workspace許可權 | 記錄型別的自動繼承許可權 | 已關閉繼承許可權時可能的記錄型別許可權（手動授予） |
 |--------|--------|-------------|
-| Manage |   Manage    |   Manage, Remove permissions           | 
-| Contribute |     Contribute |  Contribute, View, Remove permissions        |
-| View   |  View     |      View, Remove permissions        |     
+| 管理 | 管理 | 管理，移除許可權* |
+| 參與 | 參與 | 參與、檢視、移除許可權* |
+| 檢視 | 檢視 | 檢視，移除許可權* |
+
+>[!NOTE]
+>
+>*當您從記錄型別中移除許可權時，使用者仍然保留對工作區和所有記錄型別的檢視許可權，除非您從工作區中移除其許可權。
 
 </div>
 
--->
-
 ### 記錄許可權
 
-記錄許可權繼承自<!--<span class="preview">the record type</span>, when you grant permissions to -->工作區<!-- and <span class="preview">the record type</span>-->。
+當您授與許可權給工作區和<span class="preview">記錄型別</span>時，記錄許可權繼承自<span class="preview">記錄型別</span>。
 
 以下是記錄的許可權層級：
 
@@ -179,7 +182,7 @@ The following scenarios exist:
 
 ### 欄位許可權
 
-欄位許可權繼承自<!--<span class="preview">the record type</span>, when you grant permissions to -->工作區<!--and <span class="preview">the record type</span>-->。
+當您授與許可權給工作區和<span class="preview">記錄型別</span>時，欄位許可權繼承自<span class="preview">記錄型別</span>。
 
 以下許可權是指欄位本身，而不是與每個欄位關聯的值。 若要編輯欄位值，您必須擁有編輯記錄的許可權。
 

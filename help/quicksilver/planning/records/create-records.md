@@ -6,20 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '2359'
+source-wordcount: '2425'
 ht-degree: 0%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # 建立記錄
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -98,8 +97,8 @@ ht-degree: 0%
   </tr> 
 <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
-   <td> <p>為您要新增記錄的工作區<!--<span class="preview">and record type</span>-->貢獻或更高的許可權。 </p>
-   <p>檢視工作區<!--<span class="preview">and record type</span>-->或更高許可權，以使用記錄頁面上的[要求記錄]按鈕建立記錄</p>
+   <td> <p>對工作區<span class="preview">和要新增記錄的記錄型別</span>貢獻或更高的許可權。 </p>
+   <p>檢視工作區<span class="preview">和記錄型別</span>的或更高許可權，以使用記錄頁面上的[要求記錄]按鈕建立記錄</p>
    <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p>
    <p>管理Workfront物件（專案組合）的許可權以新增子物件（專案）。</p>
    </td> 

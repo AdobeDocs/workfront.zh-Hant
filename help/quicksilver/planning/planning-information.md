@@ -6,14 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
 recommendations: noDisplay, noCatalog
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '653'
 ht-degree: 0%
 
 ---
 
 # Adobe Workfront規劃：文章索引
+
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 
 {{planning-important-intro}}
@@ -46,7 +50,13 @@ ht-degree: 0%
    * Workfront授權和Planning許可權
    * Planning共用許可權
    * 共用檢視
-   * 共用工作區（記錄型別、記錄和欄位）
+   * 共用工作區（記錄和欄位）
+
+  <div class="preview">
+
+   * 共用記錄型別
+
+  </div>
 
 * [架構：文章索引](/help/quicksilver/planning/architecture/architecture-information.md)包含下列資訊：
 

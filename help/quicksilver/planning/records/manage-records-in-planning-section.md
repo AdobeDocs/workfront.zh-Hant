@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '1777'
+source-wordcount: '1863'
 ht-degree: 1%
 
 ---
@@ -18,16 +18,16 @@ ht-degree: 1%
 
 # 管理來自Workfront物件的記錄連線
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
 您可在Workfront中，於下列連結物件的區域顯示Workfront Planning記錄：
 
 * Workfront物件的Planning區段：顯示連線到物件的所有記錄型別及其各自的連線記錄。
-* Planning連線自訂欄位：顯示一個記錄型別、其個別連線記錄、<span class="preview">以及連線記錄的最多7個查詢欄位。</span>
+* Planning連線自訂欄位：顯示一個記錄型別、其個別連線記錄，以及連線記錄的最多7個查詢欄位。
 
 ## 存取需求
 
@@ -94,9 +94,9 @@ ht-degree: 1%
    <p>在Workfront中，檢視專案、投資組合或方案的或更高許可權</a> </p> 
    <p>在Workfront規劃中：
    <ul><li>
-   檢視工作區<!--<span class="preview">and record type</span>-->的許可權，以檢視任何連線的記錄 </li>
+   檢視工作區<span class="preview">和記錄型別</span>的許可權，以檢視任何連線的記錄 </li>
    或
-   <li> 貢獻或更高的許可權給工作區<!--<span class="preview">and record type</span>-->，以連線或中斷連線記錄</a></li></ul> </p>  
+   <li> 為工作區<span class="preview">和記錄型別</span>貢獻或更高的許可權，以連線或中斷記錄連線</a></li></ul> </p>  
    <p>系統管理員擁有所有Workfront Planning工作區的許可權，包括他們未建立的工作區</p> 
   </td>
   </tr>
@@ -211,7 +211,7 @@ ht-degree: 1%
 * Planning記錄連線至Workfront物件後，Workfront物件的自訂表單上會以下列方式顯示Planning連線欄位：
 
    * 如果只選取所連線記錄的主要欄位，則如果連線允許連結多個記錄，則Planning連線欄位會顯示為具有多個值的欄位。 如需詳細資訊，請參閱[連線記錄型別概觀](/help/quicksilver/planning/architecture/connect-record-types-overview.md)。
-   * <span class="preview">如果您的Workfront或群組管理員從自訂表單上的連線記錄中新增了其他查閱欄位，則Planning連線欄位會顯示為表格。 最多可以為Planning連線欄位選取7個欄位。 表格檢視是唯讀的。 </span>
+   * 如果您的Workfront或群組管理員從自訂表單上的連線記錄中新增了其他查閱欄位，則Planning連線欄位會顯示為表格。 最多可以為Planning連線欄位選取7個欄位。 表格檢視是唯讀的。
 
 * 您只能將一個記錄型別與一個Planning連線欄位建立關聯。 您在表單中的Planning連線欄位數量沒有限制。
 * 您必須擁有物件、記錄和Workfront Planning的正確存取權和許可權，才能將具有Planning連線自訂欄位的自訂表單附加至Workfront物件。
@@ -261,11 +261,16 @@ ht-degree: 1%
    * 記錄會立即連線至Workfront物件，並顯示在Planning連線欄位以及Workfront物件的Planning區段中。
    * Workfront物件會新增至Workfront Planning記錄的已連線欄位。
    * 與Planning記錄連線之Workfront查詢欄位的值會填入Workfront Planning中。
-   * <span class="preview">如果您的Workfront或群組管理員在建立自訂表單時新增記錄查閱欄位，記錄的查閱欄位會自動填入表格檢視中。 Planning連線欄位中的資料表檢視是唯讀的</span>
+   * 如果您的Workfront或群組管理員在建立自訂表單時新增記錄查詢欄位，記錄的查詢欄位會自動填入表格檢視中。 Planning連線欄位中的表格檢視是唯讀的。
 
      ![專案詳細資料自訂表單上具有資料表的Planning連線欄位](assets/planning-connection-field-with-table-on-project-details-custom-form.png)
 
-1. （選擇性）在Planning連線欄位中，按一下記錄名稱<span class="preview">或將表格中的記錄名稱暫留，然後按一下Planning連線自訂表單上的&#x200B;**開啟記錄**&#x200B;圖示![開啟記錄圖示](assets/open-record-icon-on-planning-connection-custom-form.png)</span>，以在Workfront Planning中開啟記錄。
+     >[!NOTE]
+     >
+     >只有在自訂表單的Planning連線欄位中新增查閱欄位時，才會顯示表格檢視。
+
+
+1. （選擇性）在Planning連線欄位中，按一下記錄名稱或暫留在表格中的記錄名稱，然後按一下Planning連線自訂表單上的&#x200B;**開啟記錄**&#x200B;圖示![開啟記錄圖示](assets/open-record-icon-on-planning-connection-custom-form.png)，以在Workfront Planning中開啟記錄。
 Workfront Planning記錄詳細資料預覽方塊開啟。
 1. 檢閱或編輯紀錄的相關資訊，或按一下&#x200B;**在新索引標籤中開啟**&#x200B;圖示![在新索引標籤中開啟記錄](assets/open-details-in-a-new-tab-icon.png)以開啟紀錄詳細資訊頁面。
 
