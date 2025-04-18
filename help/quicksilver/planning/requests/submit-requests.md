@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
+source-git-commit: 4bdd4510a5ff7faf8f497299eac0a10f4fe7fbc2
 workflow-type: tm+mt
 source-wordcount: '1875'
 ht-degree: 0%
@@ -202,7 +202,7 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
      >
      >至少可存取一個工作區的所有使用者都可以檢視「請求」區域中的「計畫」標籤。 您只能檢視您或其他人提交至您至少擁有檢視許可權之工作區的請求。 Workfront管理員可檢視提交至系統中任何工作區的所有請求。
 
-   * 只有擁有者、核准者及至少擁有工作區<!--and people with Manage access to the request type (asking Rafael about this, because not sure how one would give Manage access to the request type??)-->檢視許可權的使用者可看見此要求。
+   * 只有擁有者、核准者及至少擁有工作區檢視許可權的使用者可看見要求。
 
    * 您會收到應用程式內及電子郵件通知，告知您請求已成功提交或已傳送以供檢閱。
    * 如果請求表單與核准相關聯，核准者會收到應用程式內和電子郵件通知，以檢閱和核准請求。
