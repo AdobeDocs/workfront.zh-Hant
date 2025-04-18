@@ -5,18 +5,14 @@ description: 您可以使用「摘要」這項功能，快速摘要工作專案�
 author: Becky
 feature: Get Started with Workfront
 exl-id: 5b0e1002-b6e9-4354-9ead-643de1de5bab
-source-git-commit: c91a0cd0987b810cc5fb3f52199dccc64bf4d0a1
+source-git-commit: 1b11eb212f8eb980361cfd22a07ac17be71d4472
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 0%
+source-wordcount: '185'
+ht-degree: 1%
 
 ---
 
 # 使用AI助理來處理專案、任務和問題
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 預覽環境中可供所有客戶使用，生產環境中可供已啟用每月發行的客戶使用。</span>
-
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 
 AI助理可以協助您在Workfront中找到專案、任務和問題。
