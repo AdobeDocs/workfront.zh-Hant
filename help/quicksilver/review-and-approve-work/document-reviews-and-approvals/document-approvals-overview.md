@@ -6,9 +6,9 @@ description: 您可以將其他核准者或稽核者新增至已有待核准的�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
+source-git-commit: e20f1b70ffd6c94b302cea6e691337624db497ef
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '568'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,6 @@ ht-degree: 1%
 
 **與校訂的差異**
 
-* 檔案核准決定按鈕在校訂檢視器中無法使用。 您可以在檔案摘要、Workfront首頁Widget或檔案詳細資訊頁面上做出決定。
 * 檔案核准參與者顯示在檔案「摘要」中，而不是校訂工作流程標籤中。
 * 目前的報告工具不支援整合式核准。
 

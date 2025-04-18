@@ -6,9 +6,9 @@ description: Workfront中可供檢閱和核准的系統概觀。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: 24668c9fdbb5e23f41831b388d509220d0783057
+source-git-commit: e20f1b70ffd6c94b302cea6e691337624db497ef
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,6 @@ Workfront目前提供3種不同的系統，以供資產和檔案檢閱和核准�
 
 * 將使用者新增為核准者
 * 在校訂檢視器中檢閱和註解
-* 在校訂檢視器中進行決策
 * 使用舊式報告建立核准報告
 * 首頁區域中的我的核准Widget中的存取核准請求
 
@@ -51,15 +50,13 @@ Workfront目前提供3種不同的系統，以供資產和檔案檢閱和核准�
 
 * 建立及使用範本
 
-* 在校訂檢視器中檢閱和註解
+* 在校訂檢視器中檢閱、評論和做出決策
 如需有關使用校訂檢視器的詳細資訊，請參閱[一起使用統一核准和校訂](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)。
 
 * 在Workfront首頁Widget中檢視您核准的多個關鍵績效指標
 
 * 使用目前處於Beta版的畫布儀表板來檢視有關統一核准的報告詳細資訊
 如需報告的詳細資訊，請參閱[建立報告儀表板以供檢閱和核准](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)。
-
-* 在校訂檢視器中做出決定[!BADGE 即將推出]{type=Informative}
 
 * 建立多個階段核准[!BADGE 即將推出]{type=Informative}
 
