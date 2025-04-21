@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
+source-git-commit: c0a7603ed461d903f4d0b0f6788c17d58f20c328
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 0%
@@ -39,4 +39,6 @@ ht-degree: 0%
 * [刪除工作區](/help/quicksilver/planning/architecture/delete-workspaces.md)
 * [編輯工作區](/help/quicksilver/planning/architecture/edit-workspaces.md)
 * [刪除記錄型別](/help/quicksilver/planning/architecture/delete-record-types.md)
+
+<!--* [Create record types globally](/help/quicksilver/planning/architecture/create-record-types-globally.md)-->
 

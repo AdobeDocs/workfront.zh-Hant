@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: c0a7603ed461d903f4d0b0f6788c17d58f20c328
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '1098'
 ht-degree: 2%
 
 ---
@@ -146,20 +146,30 @@ ht-degree: 2%
 
    從工作區中，展開現有工作區名稱右側的向下箭頭，搜尋工作區，然後在工作區顯示在清單中時選取該工作區。
 1. （選擇性）按一下&#x200B;**新增區段**&#x200B;以新增區段至工作區。
-1. 按一下&#x200B;**新增記錄型別**，然後按&#x200B;**新增**。
+1. 按一下&#x200B;**新增記錄型別**，然後按&#x200B;**手動新增**。
 
    「新增記錄型別」方塊開啟。
    <!--1. (Conditional) When creating record types by importing an Excel or CSV file is enabled, click **From scratch**. Otherwise, the **Add record type** box opens. -->
 
    ![新增具有外觀選項的記錄型別方塊](assets/add-record-type-box-with-appearance-options.png)
 
-1. 更新下列資訊：
+1. 更新&#x200B;**外觀**&#x200B;標籤上的下列資訊：
 
    * 將「未命名的記錄型別」取代為您未來記錄型別的名稱。<!--did they bring back the field label here and did they rename it to "Name"-->
    * **描述**：新增記錄型別的詳細資訊。
    * 為與記錄型別關聯的圖示選取顏色和形狀。 執行下列動作：
       * 選取顏色以識別您的新記錄型別。 這是記錄型別圖示的顏色。 預設會選取「灰色」。
       * 從清單中選取圖示，或開始輸入圖示名稱以說明其代表內容，然後在顯示時選取它。 這是記錄型別的圖示。 依預設，會選取檔案圖示。
+
+1. （選擇性和條件性）如果您是系統管理員，請按一下&#x200B;**進階設定**&#x200B;並更新&#x200B;**連線範圍**&#x200B;區段中的下列資訊： <!--the info here is duplicated in the Edit record types article-->
+
+   * 啟用&#x200B;**從其他工作區連線**&#x200B;設定。 啟用時，記錄型別可供存取，並可從其他工作區連線。
+   * 選擇可存取記錄型別的工作區。 從下列選項中選擇：
+
+      * **系統範圍**：使用者可以從他們擁有管理許可權的所有工作區連線到此記錄型別。
+      * **特定工作區**：新增工作區管理員可連線至此記錄型別的工作區名稱。
+
+   ![在進階設定索引標籤上建立記錄型別方塊](assets/create-record-type-box-advanced-settings-tab.png)
 
 1. 按一下「**建立**」。
 
