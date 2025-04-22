@@ -6,7 +6,7 @@ description: 您可以與其他使用者共用行事曆，也可以公開行事�
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 77eed0fe-2d47-40c4-a03d-590f7fa17dbe
-source-git-commit: 041e812d0663304b4bd51134020209d3a67e1423
+source-git-commit: 14b78ee4dc441ca84b891b2f021d959fcf357fdd
 workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 0%
@@ -78,11 +78,15 @@ ht-degree: 0%
    * **[!UICONTROL 檢視]：**&#x200B;使用者可以檢閱和共用行事曆。
 
      ![共用行事曆以檢視存取權](assets/calendar-share-view-permissions-350x249.png)
-     <!--![Share calendar with view access](assets/view-calendar.png)-->
+
+     <!--
+      ![Share calendar with view access](assets/view-calendar.png)
+      -->
 
    * **[!UICONTROL 管理]：**&#x200B;使用者擁有行事曆的完整存取權，減去在存取層級授與的管理許可權，再加上所有檢視許可權。
 
      ![使用管理存取權共用行事曆](assets/calendar-share-manage-permissions-350x241.png)
+
      <!--![Share calendar with manage access](assets/manage-calendar.png)-->
 
      >[!NOTE]
