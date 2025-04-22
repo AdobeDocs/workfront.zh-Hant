@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: 82694183c32938905f1f8542c430d3c453274cb6
+source-git-commit: a5769e57a9fe28b816e7fb4474ec4a67f837f530
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1275'
 ht-degree: 0%
 
 ---
@@ -58,16 +58,16 @@ Workfront有兩個版本的事件訂閱。 本文會說明兩者之間的差異�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>引數值</p> </td> 
-   <td> <p>對於從包含自訂表單的範本建立的任何物件，會傳送<code>CREATE</code>事件，然後隨引數值（包括計算欄位及其值）傳送<code>UPDATE</code>。    </p> </td> 
+   <td> <p>計算的引數值</p> </td> 
+   <td> <p>從包含自訂表單的範本建立的任何物件若包含已計算的引數值，將會傳送<code>CREATE</code>事件，然後會傳送<code>UPDATE</code>與引數值（包括已計算的欄位及其值）。 </p> </td> 
    <td> <p>當從包含具有計算引數值的自訂表單的範本建立物件時，只會傳送<code>CREATE</code>事件，且會包含包括計算欄位的引數值。</p> </td> 
-   <td> <p>如果您有訂閱 <tr><ul><ul><code>UPDATE<code> events and are expecting to receive an <code>UPDATE</code> event after an object is created with calculated parameter values, you will no longer receive that <code>UPDATE</code> event. If you wish to see calculated parameter values on object creation, you must create an additional <code>CREATE</code> subscription.</p> </td> 
+   <td> <p>如果您有<code>UPDATE</code>個事件的訂閱，且預期在使用計算的引數值建立物件後會收到<code>UPDATE</code>個事件，則您將不會再收到該<code>UPDATE</code>個事件。 如果您希望在建立物件時檢視計算的引數值，則必須建立額外的<code>CREATE</code>訂閱。</p> </td> 
   </tr> 
-   
-   <td> <p>Multi-Select type fields</p> </td> 
-   <td> <p>For any type of event that contains a change on a multi-select type field, if the field only contained one value it would be converted to and sent as a string. Otherwise it would be sent as an array. </p><p>Examples:</p><li><code>myMultiSelectField: ["oneValue"]</code> is converted and sent as <code>myMultiSelectField: "oneValue"</code>.</li><li><code>myMultiSelectField: ["first", "second"]</code> is sent as <code>myMultiSelectField: ["first", "second"]</code>.</li></ul> </td> 
-   <td> <p>Regardless of how many values are in the array, it will be sent as an array. </p><p>Examples:</p><li><code>myMultiSelectField: ["oneValue"]</code> is sent as <code>myMultiSelectField: ["oneValue"]</code>.</li><li><code>myMultiSelectField: ["first", "second"]</code> is sent as <code>myMultiSelectField: ["first", "second"]</code>.</li></ul> </td> 
-   <td> <p>If you have a subscription with a filter on a multi-select field, and the value as a string, you must create a new subscription with the same filter that has the value as an array. </p> </td> 
+  <tr> 
+   <td> <p>多重選取型別欄位</p> </td> 
+   <td> <p>針對包含多選型別欄位變更的任何事件型別，如果欄位僅包含一個值，則會轉換為並以字串形式傳送。 否則，會以陣列形式傳送。 </p><p>範例：</p><ul><li><code>myMultiSelectField: ["oneValue"]</code> 已轉換並以<code>myMultiSelectField: "oneValue"</code>傳送。</li><li><code>myMultiSelectField: ["first", "second"]</code> 以<code>myMultiSelectField: ["first", "second"]</code>傳送。</li></ul> </td> 
+   <td> <p>無論陣列中有多少值，都會以陣列的形式傳送。 </p><p>範例：</p><ul><li><code>myMultiSelectField: ["oneValue"]</code> 以<code>myMultiSelectField: ["oneValue"]</code>傳送。</li><li><code>myMultiSelectField: ["first", "second"]</code> 以<code>myMultiSelectField: ["first", "second"]</code>傳送。</li></ul> </td> 
+   <td> <p>如果您的訂閱在多重選取欄位上使用篩選器，且值為字串，則必須使用具有值為陣列的相同篩選器建立新訂閱。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
