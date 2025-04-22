@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 title: 共用問題
 description: 當使用者指派存取層級時，您的Adobe Workfront管理員會授予他們檢視或編輯問題的存取權。 有關授予問題存取權的詳細資訊，請參閱授予問題存取權。
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 91ee72e0-20a9-4b06-9f80-a343dd4fbe06
-source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
+source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '1242'
 ht-degree: 2%
 
 ---
@@ -21,6 +21,43 @@ ht-degree: 2%
 
 許可權專屬於Workfront中的一個專案，可定義使用者可對該專案執行的動作。
 
+
+## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
+
+您必須具備下列專案才能共用物件：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td> <p>任何 </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>新增：標準</p> 
+   或
+   <p>目前：工作或以上</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>檢視您要共用之物件的存取許可權或以上許可權</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>檢視您要共用之物件的許可權或更高的許可權</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
+
 ## 關於共用問題的考量事項
 
 除了下列考量事項外，另請參閱[物件共用許可權概觀](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。
@@ -29,7 +66,7 @@ ht-degree: 2%
 >
 >Workfront管理員可以新增或移除系統中所有使用者的任何專案許可權，而無需擁有這些專案。
 
-* 依預設，問題的建立者擁有管理許可權。
+* 問題的建立者預設擁有其「管理」許可權。
 * 您可以個別共用問題，也可以一次共用數個問題。 共用問題等同於在Workfront中共用其他專案。 如需在Workfront中共用專案的詳細資訊，請參閱[共用物件](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)。
 * 您可以向問題授予下列許可權： 
 
@@ -45,7 +82,7 @@ ht-degree: 2%
 
 ## 共用問題的方式
 
-* 手動，類似Workfront中的共用任何其他物件。 如需有關如何在Workfront中共用物件的詳細資訊，請參閱[共用物件](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)。
+* 手動，類似Workfront中的共用任何其他物件。
 * 執行下列任一項作業以自動執行：
 
    * 指定問題之任何父系物件的許可權：專案、方案或投資組合。 問題會繼承其父物件的許可權。 如需有關檢視物件繼承許可權的資訊，請參閱[檢視物件的繼承許可權](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)。
@@ -55,7 +92,7 @@ ht-degree: 2%
 
      >[!TIP]
      >
-     >如果您未指定將使用者指派給專案問題的時候您希望使用者擁有哪些問題許可權，預設情況下，他們會獲得在專案上擁有的相同許可權。
+     >如果您未指定將使用者指派給專案問題的時候您希望使用者擁有哪些問題許可權，預設情況下，他們會獲得與專案相同的許可權。
 
    * 指定使用者在建立請求佇列時，針對在請求佇列中提交的問題所接收的許可權。 如需詳細資訊，請參閱[建立要求佇列](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
 
@@ -124,6 +161,73 @@ ht-degree: 2%
 </ol>
 </div>
 -->
+
+## 共用問題
+
+1. 導覽至您要共用的問題。
+
+1. 在問題名稱的右側，按一下&#x200B;**共用**。 **共用[問題名稱]**&#x200B;對話方塊開啟。
+
+   ![共用問題按鈕](assets/share-issue-button.png)
+
+1. 在&#x200B;**授與問題存取權**&#x200B;欄位中，開始輸入您要與其共用問題的使用者、團隊、角色、群組或公司的名稱，然後在其出現在下拉式清單中時按一下該名稱。
+
+   >[!TIP]
+   >
+   >您只能與作用中使用者、團隊、角色或公司共用問題。
+
+
+1. （選擇性）選取&#x200B;**誰有存取權**&#x200B;下拉式清單，並選取問題的存取層級：
+
+   * **只有受邀人員才能存取：**&#x200B;只有受邀參與問題的使用者才能存取（預設）。
+   * **系統中的每個人都可以檢視**：系統中的所有使用者都可以在沒有邀請的情況下檢視問題。
+
+1. 按一下使用者名稱右側的下拉式清單，然後選取其對此問題的許可權層級：
+
+   * **檢視**：使用者可以檢視並共用問題。
+   * **貢獻**：使用者可以更新、記錄資訊、進行次要編輯及共用問題（也包括所有檢視許可權）。
+   * **管理**：使用者擁有此問題的完整存取權，但無管理許可權，這些許可權是在存取層級授與的（也包含所有[檢視]和[貢獻]許可權）。
+
+1. （可選）按一下您已授與的許可權層級旁的進階選項圖示，以設定問題的特定許可權。
+
+   ![已設定的進階許可權選項](assets/advanced-permission-options.png)
+
+1. （選擇性）若要使用連結快速共用問題，請按一下[複製連結] **，然後將其轉寄給收件者。**
+
+1. 按一下「**儲存**」。
+
+## 大量共用問題
+
+1. 導覽至包含您要共用之問題的專案。
+
+1. 在專案頁面的「**問題**」標籤中，選取您要共用之每個問題左側的方塊，然後按一下頁面頂端的「**共用**」圖示「![共用」圖示](assets/share-icon.png)。 共用強制回應視窗隨即開啟。
+
+   ![大量共用問題](assets/bulk-share-issues.png)
+
+1. 在&#x200B;**授與問題存取權**&#x200B;欄位中，開始輸入您要與其共用問題的使用者、團隊、角色、群組或公司的名稱，然後在其出現在下拉式清單中時按一下該名稱。
+
+   >[!TIP]
+   >
+   >您只能與作用中使用者、團隊、角色或公司共用問題。
+
+
+1. （選擇性）選取&#x200B;**誰有存取權**&#x200B;下拉式清單，並選取問題的存取層級：
+
+   * **只有受邀人員才能存取：**&#x200B;只有受邀參與問題的使用者才能存取問題（預設）。
+   * **系統中的每個人都可以檢視**：系統中的所有使用者都可以在沒有邀請的情況下檢視問題。
+
+
+1. 按一下使用者名稱右側的下拉式清單，並選取其問題的許可權層級：
+
+   * **檢視**：使用者可以檢視和共用問題。
+   * **貢獻**：使用者可以更新、記錄資訊、進行次要編輯及共用問題（也包括所有檢視許可權）。
+   * **管理**：使用者擁有問題的完整存取權，但沒有管理許可權，這些許可權是在存取層級授與的（也包含所有檢視和貢獻許可權）。
+
+1. （可選）按一下您已授與的許可權層級旁的進階選項圖示，以設定問題的特定許可權。
+
+   ![已設定的進階許可權選項](assets/advanced-permission-options.png)
+
+1. 按一下「**儲存**」。
 
 ## 問題許可權
 

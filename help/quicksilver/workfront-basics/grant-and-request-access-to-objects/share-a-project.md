@@ -1,19 +1,19 @@
 ---
-title: 在Adobe Workfront中共用專案
+title: 共用專案
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 description: 指派存取層級時，您的Adobe Workfront管理員可授予您檢視或編輯專案的存取權。 如需詳細資訊，請參閱授予專案存取權。
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
-source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
+source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
 workflow-type: tm+mt
-source-wordcount: '990'
+source-wordcount: '1579'
 ht-degree: 2%
 
 ---
 
-# 在Adobe Workfront中共用專案
+# 共用專案
 
 <!-- Audited: 1/2024 -->
 
@@ -22,6 +22,43 @@ ht-degree: 2%
 除了授予使用者的存取層級外，您還可以授予他們檢視、貢獻或管理您有權共用之特定專案的許可權。
 
 許可權專屬於Workfront中的一個專案，可定義使用者可對該專案執行的動作。
+
+
+## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
+
+您必須具備下列專案才能共用物件：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td> <p>任何 </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>新增：標準</p> 
+   或
+   <p>目前：工作或以上</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>檢視您要共用之物件的存取許可權或以上許可權</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>檢視您要共用之物件的許可權或更高的許可權</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 共用專案的相關考量事項
 
@@ -46,6 +83,13 @@ ht-degree: 2%
 
 * 您可以從專案移除繼承的許可權，這樣子物件就不會繼承它們。 如需有關移除物件繼承許可權的詳細資訊，請參閱[移除物件許可權](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)。
 
+## 不同授權型別的限制
+
+* 擁有工作者授權的使用者沒有管理專案的許可權。 若為工作角色，則最高共用許可權為Contribute。
+* 擁有請求授權的使用者可以檢視專案資訊，但他們擁有有限的專案存取權。
+* 當具有「檢視」或「貢獻」許可權的使用者也包含在核准流程中時，變更專案狀態的例外情況就會發生。 他們可以核准專案，這會變更專案狀態，但狀態是預先定義的核准或拒絕狀態。
+* 為了能夠複製專案，使用者也必須有權在其存取層級中建立專案。
+
 ## 共用專案的方式 {#ways-to-share-a-project}
 
 您可以透過下列方式共用專案：
@@ -56,22 +100,15 @@ ht-degree: 2%
      如需新增使用者至專案團隊的詳細資訊，請參閱[專案團隊概述](../../manage-work/projects/planning-a-project/project-team-overview.md)中的「新增使用者至專案團隊」一節。
    * 使用&#x200B;**共用**&#x200B;選項時，個別或大量共用專案。
 
-     共用專案類似於在Adobe Workfront中共用所有其他物件。
-
-     如需在Workfront中共用物件的相關資訊，請參閱[共用物件](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)。
-
-* 執行下列任一項作業以自動執行：
+* 執行下列任一項作業來自動執行：
 
    * 將專案放在已與其他人共用的&#x200B;**Portfolio**&#x200B;或&#x200B;**方案**&#x200B;中。 使用者獲得與投資組合或計畫相同的專案許可權。\
      如需將專案新增至&#x200B;**Portfolio**&#x200B;的相關資訊，請參閱[將專案新增至投資組合](../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)。\
      如需將專案新增至&#x200B;**方案**&#x200B;的相關資訊，請參閱[將專案新增至方案](../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)。
-
-     如需有關檢視物件繼承許可權的資訊，請參閱[檢視物件的繼承許可權](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)。
+如需有關檢視物件繼承許可權的資訊，請參閱[檢視物件的繼承許可權](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)。
 
    * 在用來建立專案的範本上，將實體新增至專案共用。 如需從範本共用專案的詳細資訊，請參閱[共用範本](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)。
    * 定義專案存取權範本。
-
-     若要定義專案存取權範本，請參閱[共用物件](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)。
 
      >[!TIP]
      >
@@ -100,12 +137,87 @@ ht-degree: 2%
 </ol>
 -->
 
-## 不同授權型別的限制
+## 共用專案
 
-* 擁有工作者授權的使用者沒有管理專案的許可權。 若為工作角色，則最高共用許可權為Contribute。
-* 擁有請求授權的使用者可以檢視專案資訊，但他們擁有有限的專案存取權。
-* 當具有「檢視」或「貢獻」許可權的使用者也包含在核准流程中時，變更專案狀態的例外情況就會發生。 他們可以核准專案，這會變更專案狀態，但狀態是預先定義的核准或拒絕狀態。
-* 為了能夠複製專案，使用者也必須有權在其存取層級中建立專案。
+{{step1-to-projects}}
+
+1. 在&#x200B;**專案**&#x200B;頁面上，從清單中選取您要共用的專案。 專案頁面隨即開啟。
+
+1. 在專案名稱的右側，按一下&#x200B;**共用**。 **共用[專案名稱]**&#x200B;對話方塊開啟。
+
+   ![共用專案按鈕](assets/share-project.png)
+
+1. 在&#x200B;**授與專案存取權**&#x200B;欄位中，開始輸入您要共用專案的使用者、團隊、角色、群組或公司名稱，然後當專案出現在下拉式清單中時按一下名稱。
+
+   >[!TIP]
+   >
+   >您只能與作用中使用者、團隊、角色或公司共用專案。
+
+
+1. （選擇性）選取&#x200B;**擁有存取權**&#x200B;下拉式清單，並選取專案的存取層級：
+
+   * **只有受邀人員才能存取：**&#x200B;只有受邀加入專案的使用者才能存取（預設）。
+   * **系統中的每個人都可以檢視**：系統中的所有使用者都可以在沒有邀請的情況下檢視專案。
+
+1. （選擇性）若要自動將您選取的專案存取設定套用至所有新專案，請按一下&#x200B;**齒輪**&#x200B;圖示![選取齒輪圖示](assets/gear-icon.png)，然後核取與&#x200B;**設定為我的專案存取範本**&#x200B;內嵌的方塊。
+
+   >[!NOTE]
+   >
+   >專案存取範本會覆寫Workfront管理員在存取層級中授予您的共用預設值。\
+   >如需有關在存取層級中指定專案共用預設值的詳細資訊，請參閱[授予專案的存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)
+
+   <!--
+   >this note also appears in Understanding Project Permissions-->
+
+
+1. 按一下使用者名稱右側的下拉式清單，並選取其對此專案的許可權層級：
+
+
+   * **檢視**：使用者可以檢閱並共用專案。
+   * **貢獻**：使用者可以更新、記錄資訊、進行微幅編輯及共用專案（也包含所有檢視許可權）。
+   * **管理**：使用者擁有專案的完整存取權，但無管理許可權，這些許可權是在存取層級授與的（也包含所有檢視和貢獻許可權）。
+
+1. （可選）按一下您已授與的許可權層級旁的進階選項圖示，以設定專案的特定許可權。
+
+   ![已設定的進階許可權選項](assets/advanced-permission-options.png)
+
+1. （選擇性）若要使用連結來快速共用專案，請按一下[複製連結] **，然後將其轉寄給收件者。**
+
+1. 按一下「**儲存**」。
+
+## 大量共用專案
+
+{{step1-to-projects}}
+
+1. 在&#x200B;**專案**&#x200B;頁面上，選取您要共用的每個專案左側的方塊，然後按一下頁面頂端的&#x200B;**共用**&#x200B;圖示![共用圖示](assets/share-icon.png)。 共用強制回應視窗隨即開啟。
+
+   ![大量共用專案](assets/bulk-share-icon.png)
+
+1. 在&#x200B;**授與專案存取權**&#x200B;欄位中，開始輸入您要共用專案的使用者、團隊、角色、群組或公司名稱，然後當名稱出現在下拉式清單中時按一下該名稱。
+
+   >[!TIP]
+   >
+   >您只能與作用中的使用者、團隊、角色或公司共用專案。
+
+
+1. （選擇性）選取&#x200B;**誰有存取權**&#x200B;下拉式清單，並選取專案的存取層級：
+
+   * **只有受邀人員才能存取：**&#x200B;只有受邀加入專案的使用者才能存取他們（預設）。
+   * **系統中的每個人都可以檢視**：系統中的所有使用者都可以在沒有邀請的情況下檢視專案。
+
+
+1. 按一下使用者名稱右側的下拉式清單，並為專案選取其許可權層級：
+
+   * **檢視**：使用者可以檢閱並共用專案。
+   * **Contribute**：使用者可以更新、記錄資訊、進行微幅編輯及共用專案（也包含所有檢視許可權）。
+   * **管理**：使用者擁有專案的完整存取權，但無管理許可權，這些許可權是在存取層級授與的（也包含所有檢視和貢獻許可權）。
+
+1. （可選）按一下您已授與的許可權層級旁的進階選項圖示，以設定專案的特定許可權。
+
+   ![已設定的進階許可權選項](assets/advanced-permission-options.png)
+
+1. 按一下「**儲存**」。
+
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

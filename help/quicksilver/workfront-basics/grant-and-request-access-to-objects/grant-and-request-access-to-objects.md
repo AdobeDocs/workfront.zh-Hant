@@ -2,20 +2,20 @@
 content-type: reference
 product-area: user-management
 navigation-topic: get-started-with-workfront
-title: 授予物件許可權並請求物件
+title: 授予物件許可權並請求物件：文章索引
 description: 請檢閱這些文章，瞭解如何授與和請求Workfront中物件的許可權。
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: b7b3de2c-8537-49c5-8674-a7a0f3691db3
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 0%
+source-wordcount: '176'
+ht-degree: 1%
 
 ---
 
-# 授予物件許可權並請求物件
+# 授予物件許可權並請求物件：文章索引
 
 本節包含下列文章，說明如何授予物件許可權並請求物件許可權：
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 * [要求物件的存取權](../../workfront-basics/grant-and-request-access-to-objects/request-access.md)
 * [檢視物件的繼承許可權](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)
 * [移除物件的許可權](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
-* [在Adobe Workfront中共用專案](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)
+* [共用專案](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)
 * [共用工作](../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md)
 * [共用問題](../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)
 * [共用範本](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)

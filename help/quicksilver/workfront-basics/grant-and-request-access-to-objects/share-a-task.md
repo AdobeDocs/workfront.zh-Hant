@@ -3,13 +3,13 @@ title: 共用任務
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 description: 當您的Adobe Workfront管理員指派存取層級時，可以授予您檢視或編輯任務的存取權。 如需授與工作存取權的詳細資訊，請參閱授與工作存取權。
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 45da15cb-8880-41f7-a0de-939882c1f154
-source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
+source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 2%
+source-wordcount: '1201'
+ht-degree: 1%
 
 ---
 
@@ -21,11 +21,48 @@ ht-degree: 2%
 
 許可權專屬於Workfront中的一個專案，可定義使用者可對該專案執行的動作。
 
+
+## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
+
+您必須具備下列專案才能共用物件：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td> <p>任何 </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>新增：標準</p> 
+   或
+   <p>目前：工作或以上</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>檢視您要共用之物件的存取許可權或以上許可權</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>檢視您要共用之物件的許可權或更高的許可權</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
+
 ## 共用任務時的注意事項
 
 除了下列考量事項外，另請參閱[物件共用許可權概觀](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。
 
-* 依預設，任務的建立者擁有管理許可權。
+* 任務的建立者預設擁有其「管理」許可權。
 * 您可以個別共用工作，也可以一次大量共用數個工作。\
   共用工作與共用其他物件相同。 如需在Workfront中共用專案的詳細資訊，請參閱[共用物件](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)。
 
@@ -46,9 +83,7 @@ ht-degree: 2%
 
 您可以透過下列方式共用任務：
 
-* 手動（個別或大量）。 手動共用工作類似於在Workfront中共用任何其他物件。
-
-  如需在Workfront中共用物件的詳細資訊，請參閱  [共用物件](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)。
+* 手動（個別或大量）。
 
 * 自動，執行下列動作：
 
@@ -59,7 +94,77 @@ ht-degree: 2%
 
   >[!TIP]
   >
-  >如果您未指定將使用者指派給專案中的任務時，希望使用者擁有哪些任務許可權，預設情況下，使用者會獲得與其在專案上相同的許可權。
+  >如果您未指定將使用者指派給專案中的任務時，您希望使用者擁有哪些任務許可權，預設情況下，他們會獲得與專案相同的許可權。
+
+## 共用任務
+
+1. 導覽至您要共用的工作。
+
+1. 在工作名稱的右側，按一下&#x200B;**共用**。 **共用[工作名稱]**&#x200B;對話方塊開啟。
+
+   ![共用工作按鈕](assets/share-task-button.png)
+
+1. 在&#x200B;**授與任務存取權**&#x200B;欄位中，開始輸入您要與其共用任務的使用者、團隊、角色、群組或公司名稱，然後在其出現在下拉式清單中時按一下該名稱。
+
+   >[!TIP]
+   >
+   >您只能與作用中使用者、團隊、角色或公司共用任務。
+
+
+1. （選擇性）選取&#x200B;**擁有存取權**&#x200B;下拉式清單，並選取工作的存取層級：
+
+   * **只有受邀者才能存取：**&#x200B;只有受邀參與工作的使用者才能存取（預設）。
+   * **系統中的每個人都可以檢視**：系統中的所有使用者都可以在沒有邀請的情況下檢視工作。
+
+1. 按一下使用者名稱右側的下拉式清單，並選取他們對於此工作的許可權層級：
+
+   * **檢視**：使用者可以檢閱並共用工作。
+   * **Contribute**：使用者可以更新、記錄資訊、進行微幅編輯及共用工作（也包含所有檢視許可權）。
+   * **管理**：使用者擁有工作的完整存取權，但沒有管理許可權，這些許可權是在存取層級授與的（也包含所有檢視和貢獻許可權）。
+
+1. （可選）按一下您已授與的許可權層級旁的進階選項圖示，以設定工作的特定許可權。
+
+   ![已設定的進階許可權選項](assets/advanced-permission-options.png)
+
+1. （選擇性）若要關閉工作子物件的繼承許可權，請按一下&#x200B;**關閉**&#x200B;與&#x200B;**繼承許可權**&#x200B;連結。
+
+1. （選擇性）若要使用連結快速共用工作，請按一下[複製連結] **，然後將其轉寄給收件者。**
+
+1. 按一下「**儲存**」。
+
+
+## 大量共用任務
+
+1. 導覽至包含您要共用之任務的專案。
+
+1. 在專案頁面的「**任務**」標籤中，選取您要共用之每個任務左側的方塊，然後按一下頁面頂端的「**共用**」圖示「![共用」圖示](assets/share-icon.png)。 共用強制回應視窗隨即開啟。
+
+   ![大量共用工作](assets/bulk-share-tasks.png)
+
+1. 在&#x200B;**將任務存取權授予**&#x200B;欄位中，開始輸入您要與其共用任務的使用者、團隊、角色、群組或公司的名稱，然後在其出現在下拉式清單中時按一下該名稱。
+
+   >[!TIP]
+   >
+   >您只能與作用中使用者、團隊、角色或公司共用任務。
+
+
+1. （選擇性）選取&#x200B;**誰有存取權**&#x200B;下拉式清單，並選取工作的存取層級：
+
+   * **只有受邀者才能存取：**&#x200B;只有受邀參與工作的使用者才能存取（預設）。
+   * **系統中的每個人都可以檢視**：系統中的所有使用者都可以檢視沒有邀請的工作。
+
+
+1. 按一下使用者名稱右側的下拉式清單，並選取其工作的許可權層級：
+
+   * **檢視**：使用者可以檢閱和共用工作。
+   * **Contribute**：使用者可以更新、記錄資訊、進行微幅編輯及共用工作（也包含所有檢視許可權）。
+   * **管理**：使用者擁有無管理許可權之工作的完整存取權，這些許可權是在存取層級授與的（也包含所有檢視和貢獻許可權）。
+
+1. （可選）按一下您已授與的許可權層級旁的進階選項圖示，以設定作業的特定許可權。
+
+   ![已設定的進階許可權選項](assets/advanced-permission-options.png)
+
+1. 按一下「**儲存**」。
 
 ## 任務許可權
 

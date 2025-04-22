@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: c0a7603ed461d903f4d0b0f6788c17d58f20c328
+source-git-commit: ef09ee2fce1619f7e44deb7a584738db955a8599
 workflow-type: tm+mt
-source-wordcount: '13163'
+source-wordcount: '13162'
 ht-degree: 2%
 
 ---
@@ -908,13 +908,13 @@ ht-degree: 2%
       * [通知：其他資訊](workfront-basics/using-notifications/notifications-misc-information.md)
       * [通知：我已進行的請求](workfront-basics/using-notifications/notifications-requests-i-have-made.md)
    * 授予物件許可權並請求物件 {#grant-request-object-permissions}
-      * [授予物件許可權並請求物件](workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)
+      * [授予物件許可權並請求物件：文章索引](workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)
       * [物件許可權共用概觀](workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)
       * [授予「首頁」區域中物件的存取權](workfront-basics/grant-and-request-access-to-objects/grant-access-home.md)
       * [要求物件的存取權](workfront-basics/grant-and-request-access-to-objects/request-access.md)
       * [檢視物件的繼承許可權](workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)
       * [共用物件](workfront-basics/grant-and-request-access-to-objects/share-an-object.md)
-      * [在Adobe Workfront中共用專案](workfront-basics/grant-and-request-access-to-objects/share-a-project.md)
+      * [共用專案](workfront-basics/grant-and-request-access-to-objects/share-a-project.md)
       * [共用任務](workfront-basics/grant-and-request-access-to-objects/share-a-task.md)
       * [共用問題](workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)
       * [共用範本](workfront-basics/grant-and-request-access-to-objects/share-a-template.md)
