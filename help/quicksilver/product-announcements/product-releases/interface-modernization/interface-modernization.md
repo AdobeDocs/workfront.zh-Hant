@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 3761217587419fa8b7ff42e425cc277ee36fe957
+source-git-commit: 7d8a7e59465920c3cca831db70fe48d485d324a9
 workflow-type: tm+mt
-source-wordcount: '1817'
+source-wordcount: '1911'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,19 @@ ht-degree: 0%
 >在大多數情況下，每個更新都會先發佈到預覽環境，然後在生產環境中以遞增方式啟用，以供從列出的生產發行日期開始的成長客戶子集使用。
 
 如需Adobe Workfront的所有其他變更，請參閱[產品版本](/help/quicksilver/product-announcements/product-releases/product-releases.md)。
+
+## Workfront導覽和搜尋
+
+### 進階搜尋的介面更新
+
+**預覽版本： 4月17日；生產版本：即將宣佈**
+
+我們更新了「進階搜尋」區域，變更如下：
+
+* 已新增完整搜尋標籤。 在此標籤上，您可以依型別、輸入者、輸入日期、類別和上次更新者來搜尋。
+* 「進階搜尋」標籤上的篩選條件稍有不同。 現在，篩選器未預先填入。 您必須將其開啟，並從頭開始建立篩選器。 如果頁面重新整理，則篩選器不會保留。
+
+如需詳細資訊，請參閱[搜尋 [!DNL Adobe Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/search/search-workfront.md)。
 
 ## 管理和設定
 

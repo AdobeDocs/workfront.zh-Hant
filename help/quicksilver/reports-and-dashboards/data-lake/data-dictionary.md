@@ -7,9 +7,9 @@ description: 本頁包含有關Workfront Data Connect中資料結構和內容的
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 8aa03e16daa7c82342741b3db7b805941508c896
+source-git-commit: 44342db0a473eac70212d08cedf9ac0f571cda0b
 workflow-type: tm+mt
-source-wordcount: '7843'
+source-wordcount: '8129'
 ht-degree: 7%
 
 ---
@@ -749,7 +749,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
     </thead>
     <tbody>
         <tr>
-             <td>基線ID</td>
+             <td>BASELINEID</td>
              <td>PK</td>
              <td>-</td>
              <td>-</td>
@@ -782,8 +782,8 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
             <th>API參考</th>
-            <th>API 加標籤</th>
-            <th>數據湖檢視次數</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
         </tr>
       </thead>
       <tbody>
@@ -792,16 +792,16 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
             <td>基準線任務</td>
             <td>BSTSK</td>
             <td>基準線任務</td>
-            <td><br>BASELINETASKS_CURRENT BASELINETASKS_DAILY_HISTORY<br>BASELINETASKS_EVENT</td>
+            <td>BASELINETASKS_CURRENT<br>BASELINETASKS_DAILY_HISTORY<br>BASELINETASKS_EVENT</td>
         </tr>
       </tbody>
 </table>
 <table>
     <thead>
         <tr>
-            <th>主鍵/外鍵</th>
+            <th>主要/外部索引鍵</th>
             <th>類型</th>
-            <th>相關表</th>
+            <th>相關表格</th>
             <th>相關欄位</th>
         </tr>
     </thead>
@@ -971,14 +971,14 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
             <th>介面參考</th>
             <th>API參考</th>
             <th>API標籤</th>
-            <th>數據湖檢視次數</th>
+            <th>資料湖檢視</th>
         </tr>
       </thead>
       <tbody>
         <tr>
             <td>計費記錄</td>
             <td>計費記錄</td>
-            <td>法案</td>
+            <td>帳單</td>
             <td>計費記錄</td>
             <td>BILLINGRECORDS_CURRENT<br>BILLINGRECORDS_DAILY_HISTORY<br>BILLINGRECORDS_EVENT</td>
         </tr>
@@ -987,9 +987,9 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
 <table>
     <thead>
         <tr>
-            <th>主鍵/外鍵</th>
+            <th>主要/外部索引鍵</th>
             <th>類型</th>
-            <th>相關表</th>
+            <th>相關表格</th>
             <th>相關欄位</th>
         </tr>
     </thead>
@@ -1170,7 +1170,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>主要/外部索引鍵</th>
             <th>類型</th>
-            <th>相關表</th>
+            <th>相關表格</th>
             <th>相關欄位</th>
         </tr>
     </thead>
@@ -1644,7 +1644,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
              <td>SYSID</td>
              <td>-</td>
-             <td colspan="2">不是關係;用於內部應用程式目的</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
         </tr>
     </tbody>
 </table>
@@ -1665,9 +1665,9 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
 <table>
     <thead>
         <tr>
-            <th>工作面實體名稱</th>
+            <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API 參考</th>
+            <th>API參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -1890,6 +1890,235 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
              <td>SYSID</td>
              <td>-</td>
              <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+    </tbody>
+</table>
+
+### 檔案核准（新）
+
+有限的客戶可用性
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>文件核准</td>
+            <td>核准</td>
+            <td>不適用</td>
+            <td>不適用</td>
+            <td>APPROVAL_CURRENT<br>APPROVAL_DAILY_HISTORY<br>APPROVAL_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td class="key">已核准</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>注意：這也是與核准相關聯之DOCUMENTVERSION物件的ID。</td>
+        </tr>
+        <tr>
+             <td class="key">ASSETID</td>
+             <td>FK</td>
+             <td>變數，根據ASSETTYPE</td>
+             <td>在ASSETTYPE欄位中識別的物件的主索引鍵/ID</td>
+        </tr>
+        <tr>
+             <td class="key">CREATORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td class="key">EAUTHTENANTID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td class="key">PRODUCTID</td>
+             <td>-</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
+        </tr>
+        <tr>
+             <td class="key">REALCREATORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 檔案核准階段（新）
+
+有限的客戶可用性
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>文件核准階段</td>
+            <td>核准階段</td>
+            <td>不適用</td>
+            <td>不適用</td>
+            <td>APPROVAL_STAGE_CURRENT<br>APPROVAL_STAGE_DAILY_HISTORY<br>APPROVAL_STAGE_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td class="key">已核准</td>
+             <td>FK</td>
+             <td>APPROVAL_CURRENT</td>
+             <td>已核准</td>
+        </tr>
+        <tr>
+             <td class="key">APPROVALSTAGEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td class="key">CREATORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td class="key">物件ID</td>
+             <td class="type">FK</td>
+             <td class="relatedtable">變數，根據OBJCODE</td>
+             <td>物件（在OBJCODE欄位中識別）的主鍵/ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 檔案核准階段參與者（新）
+
+有限的客戶可用性
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>文件核准階段參與者</td>
+            <td>核准決定</td>
+            <td>不適用</td>
+            <td>不適用</td>
+            <td>APPROVAL_STAGE_PARTICIPANT_CURRENT<br>APPROVAL_STAGE_PARTICIPANT_DAILY_HISTORY<br>APPROVAL_STAGE_PARTICIPANT_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td class="key">已核准</td>
+             <td>FK</td>
+             <td>APPROVAL_CURRENT</td>
+             <td>已核准</td>
+        </tr>
+        <tr>
+             <td class="key">APPROVALSTAGEPARTICIPANTID/td&gt;
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td class="key">ASSETID</td>
+             <td>FK</td>
+             <td>變數，根據ASSETTYPE</td>
+             <td>在ASSETTYPE欄位中識別的物件的主索引鍵/ID</td>
+        </tr>
+        <tr>
+             <td class="key">DECISIONUSERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td class="key">物件ID</td>
+             <td class="type">FK</td>
+             <td class="relatedtable">變數，根據OBJCODE</td>
+             <td>物件（在OBJCODE欄位中識別）的主鍵/ID</td>
+        </tr>
+        <tr>
+             <td class="key">PARTICIPANTID</td>
+             <td>FK</td>
+             <td class="relatedtable">變數，根據PARTICIPANTTYPE</td>
+             <td>在PARTICIPANTTYPE欄位中識別的物件主索引鍵/ID</td>
+        </tr>
+        <tr>
+             <td class="key">REALREQUESTORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td class="key">REALUSERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td class="key">REQUESTORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td class="key">STAGEID</td>
+             <td>FK</td>
+             <td>APPROVAL_STAGE_CURRENT</td>
+             <td>STAGEID</td>
         </tr>
     </tbody>
 </table>
@@ -3504,7 +3733,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
              <td>AUDITRECORDID</td>
              <td>-</td>
-             <td colspan="2">當前不支持審核記錄表</td>
+             <td colspan="2">目前不支援稽核記錄表格</td>
         </tr>
         <tr>
              <td>COMPANYID</td>
@@ -3640,10 +3869,10 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
              <td>時程表ID</td>
         </tr>
         <tr>
-             <td>托博吉德</td>
+             <td>TOPOBJID</td>
              <td>FK</td>
-             <td>變數，基於 TOPOBJCODE</td>
-             <td>在 TOPOBJCODE 字段中標識之物件的主鍵/ID</td>
+             <td>變數，根據TOPOBJCODE</td>
+             <td>在TOPOBJCODE欄位中識別的物件主索引鍵/ ID</td>
         </tr>
         <tr>
              <td>使用者ID</td>
@@ -3663,9 +3892,9 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API 參考</th>
-            <th>API 加標籤</th>
-            <th>數據湖檢視次數</th>
+            <th>API參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
         </tr>
       </thead>
       <tbody>
@@ -3681,9 +3910,9 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
 <table>
     <thead>
         <tr>
-            <th>主鍵/外鍵</th>
+            <th>主要/外部索引鍵</th>
             <th>類型</th>
-            <th>相關表</th>
+            <th>相關表格</th>
             <th>相關欄位</th>
         </tr>
     </thead>
@@ -4859,10 +5088,10 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
              <td colspan="2">不是關係；用於內部應用程式用途</td>
         </tr>
         <tr>
-             <td>嘎胺</td>
+             <td>TEAMID</td>
              <td>FK</td>
              <td>團隊目前</td>
-             <td>嘎胺</td>
+             <td>TEAMID</td>
         </tr>
         <tr>
              <td>範本ID</td>
@@ -5511,7 +5740,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
              <td>SYSID</td>
              <td>-</td>
-             <td colspan="2">不是關係;用於內部應用程式目的</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
         </tr>
     </tbody>
 </table>
@@ -5521,9 +5750,9 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
 <table>
     <thead>
         <tr>
-            <th>工作面實體名稱</th>
+            <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API 參考</th>
+            <th>API參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -5534,16 +5763,16 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
             <td>風險</td>
             <td>風險</td>
             <td>風險</td>
-            <td><br>RISKS_CURRENT RISKS_DAILY_HISTORY<br>RISKS_EVENT</td>
+            <td>RISKS_CURRENT<br>RISKS_DAILY_HISTORY<br>RISKS_EVENT</td>
         </tr>
       </tbody>
 </table>
 <table>
     <thead>
         <tr>
-            <th>主鍵/外鍵</th>
+            <th>主要/外部索引鍵</th>
             <th>類型</th>
-            <th>相關表</th>
+            <th>相關表格</th>
             <th>相關欄位</th>
         </tr>
     </thead>
@@ -5561,7 +5790,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
              <td>EXCHANGERATEID</td>
         </tr>
         <tr>
-             <td>LASTUPDATEBYID</td>
+             <td>LASTUPDATEDBYID</td>
              <td>FK</td>
              <td>USERS_CURRENT</td>
              <td>使用者ID</td>
@@ -6094,7 +6323,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
              <td>SYSID</td>
              <td>-</td>
-             <td colspan="2">不是關係;用於內部應用程式目的</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
         </tr>
     </tbody>
 </table>
@@ -6388,7 +6617,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
              <td>NOTEID</td>
         </tr>
         <tr>
-             <td>LASTUPDATEBYID</td>
+             <td>LASTUPDATEDBYID</td>
              <td>FK</td>
              <td>USERS_CURRENT</td>
              <td>使用者ID</td>
@@ -6420,7 +6649,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
              <td>QUEUEDEFID</td>
              <td>-</td>
-             <td colspan="2">目前不支援佇列定義表</td>
+             <td colspan="2">目前不支援佇列定義表格</td>
         </tr>
         <tr>
              <td>SCHEDULEID</td>
@@ -6694,9 +6923,9 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
 <table>
     <thead>
         <tr>
-            <th>主鍵/外鍵</th>
+            <th>主要/外部索引鍵</th>
             <th>類型</th>
-            <th>相關表</th>
+            <th>相關表格</th>
             <th>相關欄位</th>
         </tr>
     </thead>
@@ -7582,7 +7811,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
              <td>UUMUSERID</td>
              <td>-</td>
-             <td colspan="2">不是關係;用於內部應用程式目的</td>
+             <td colspan="2">不是關係；用於內部應用程式用途</td>
         </tr>
     </tbody>
 </table>
@@ -7594,7 +7823,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API 參考</th>
+            <th>API參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -7885,8 +8114,8 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
             <th>API參考</th>
-            <th>API 加標籤</th>
-            <th>數據湖檢視次數</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
         </tr>
       </thead>
       <tbody>
