@@ -3,7 +3,7 @@ title: '[!DNL Adobe Workfront]檔案'
 description: ' [!DNL Adobe Workfront]的檔案。'
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: ee145dc2ea21cbadefd5abd80886a3d5f074f804
+source-git-commit: 82694183c32938905f1f8542c430d3c453274cb6
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 1%
