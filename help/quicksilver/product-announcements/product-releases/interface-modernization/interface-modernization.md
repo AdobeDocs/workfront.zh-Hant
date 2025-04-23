@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 7d8a7e59465920c3cca831db70fe48d485d324a9
+source-git-commit: 4536b0f15b208d96e7d823504574f879ed3dee2b
 workflow-type: tm+mt
-source-wordcount: '1911'
+source-wordcount: '1958'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,12 @@ ht-degree: 0%
 * 「進階搜尋」標籤上的篩選條件稍有不同。 現在，篩選器未預先填入。 您必須將其開啟，並從頭開始建立篩選器。 如果頁面重新整理，則篩選器不會保留。
 
 如需詳細資訊，請參閱[搜尋 [!DNL Adobe Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/search/search-workfront.md)。
+
+### 用於授予您Workfront帳戶支援存取權的介面更新
+
+**預覽版本： 4月24日；生產版本：即將宣佈**
+
+我們已更新您用來授與支援存取許可權給您Workfront帳戶的頁面，其中包含更現代的設計，與Workfront的其他區域一致。
 
 ## 管理和設定
 
