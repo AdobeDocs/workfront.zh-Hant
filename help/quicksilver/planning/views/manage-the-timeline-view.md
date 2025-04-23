@@ -6,14 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: cd37163c78012fa4bcbe19ef92ec4d3ceecfb905
+source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
 workflow-type: tm+mt
-source-wordcount: '2684'
+source-wordcount: '2863'
 ht-degree: 0%
 
 ---
 
 # 管理時間表檢視
+
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -90,65 +94,6 @@ ht-degree: 0%
 *如需Workfront存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
-
-<!--OLD: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>New: Standard</p>
-   Or
-   <p>Current: Plan </p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configurations</p></td>
-   <td> There are no access controls for Adobe Workfront Planning</p>  
-</td>
-  </tr>
-
-  <tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a view</p>  
-   <p>View permissions to a view to temporarily change the view settings</p>
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> <p>For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p> 
-</td>
-  </tr>
- </tbody>
-</table>
-
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
-
 
 ## 管理時間表檢視 {#manage-a-timeline-view}
 
@@ -326,7 +271,7 @@ this is not possible right now; if this is the same functionality as the table v
    >
    >沒有開始或結束日期值或開始日期晚於結束日期的記錄不會顯示在時間軸檢視中。
 
-1. 按一下左側面板中的&#x200B;**列樣式**，以指示您要在記錄列上顯示的欄位。
+1. 按一下左側面板中的&#x200B;**長條樣式**，以指示您要在記錄長條上顯示的資訊。
 
    預設會選取記錄的主要欄位（或標題），如記錄的表格檢視中所定義。<!--adjust this when the primary field is released??-->
 
@@ -336,18 +281,30 @@ this is not possible right now; if this is the same functionality as the table v
    >
    >    您必須先在表格檢視中新增縮圖，才能在時間軸檢視中顯示它們。 如需詳細資訊，請參閱[新增縮圖至記錄](/help/quicksilver/planning/records/add-thumbnails-to-records.md)。
 
-1. 按一下&#x200B;**新增欄位**&#x200B;以將最多4個欄位新增到記錄列。
-1. 在&#x200B;**搜尋欄位**&#x200B;方塊內按一下，然後按一下您要新增的欄位。
+1. 按一下&#x200B;**新增欄位**，然後按一下&#x200B;**搜尋欄位**&#x200B;方塊內部，再按一下您要新增的欄位。
 
    >[!TIP]
    >
    >   * 您必須先建立欄位，才能將其新增到記錄列。
    > 
    >   * 您必須至少選取一個欄位。 預設會選取&#x200B;**名稱**。
+   >
+   >   * 您最多可以新增5個欄位。
 
    右側會顯示時間軸上長條圖的外觀。
 
    ![預覽的記錄詳細資料面板時間軸設定](assets/record-details-panel-timeline-settings-with-preview.png)
+
+1. <span class="preview"> （選擇性和條件性）如果您以標準模式顯示時間軸，請啟用&#x200B;**截斷列詳細資料**&#x200B;設定。 啟用時，記錄列上的資訊將會被截斷，而且只有在您將滑鼠懸停在記錄列上時才會完全顯示。 此設定預設為停用，資訊會完全顯示在長條上。</span>
+
+   ![時間軸設定方塊上啟用截斷設定](assets/truncate-setting-enabled-on-timeline-settings-highlighted.png)
+
+   >[!TIP]
+   >
+   >* <span class="preview">以精簡模式顯示時間軸檢視時，無法使用截斷列詳細資料設定，且無法在行事曆檢視中使用。</span>
+   >
+   >* <span class="preview">如果您劃分時間軸檢視，以在時間軸中顯示連線的物件，則「截斷列詳細資料」設定只會套用至主要記錄型別。 它不適用於連線的記錄列。</span>
+
 
 1. 按一下左側面板中的&#x200B;**色彩**，以自訂時間軸中記錄和群組的色彩。
 
