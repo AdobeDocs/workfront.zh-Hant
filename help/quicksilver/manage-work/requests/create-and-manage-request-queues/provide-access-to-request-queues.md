@@ -3,10 +3,10 @@ product-area: requests;user-management
 navigation-topic: create-and-manage-request-queues
 title: 提供請求佇列的存取權
 description: 提供請求佇列的存取權時，您可決定組織中的哪個人員可以在Adobe Workfront的「請求」區域中檢視請求佇列。
-author: Lisa
+author: Alina
 feature: Work Management
 exl-id: eb88c32a-f8b8-42d3-9a3a-72c62fd1dc3a
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 0%
@@ -73,7 +73,7 @@ ht-degree: 0%
    >請求區域中只會顯示具有目前狀態的專案。
 
 1. 按一下左側面板中的&#x200B;**佇列詳細資料**。 您可能需要按一下&#x200B;**顯示更多**，然後按一下&#x200B;**佇列詳細資料**。
-1. 選取&#x200B;**Publish作為說明要求佇列**&#x200B;以將專案指定為要求佇列。
+1. 選取&#x200B;**發佈為說明要求佇列**，將專案指定為要求佇列。
 1. 從下列選項中選取：
 
    * **任何人**：任何使用者都可以檢視及新增要求至要求佇列。

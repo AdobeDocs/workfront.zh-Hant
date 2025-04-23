@@ -3,10 +3,10 @@ product-area: requests
 navigation-topic: create-requests
 title: 刪除請求草稿
 description: 您可以在建立請求草稿時將其刪除，方法是捨棄這些請求草稿。
-author: Lisa
+author: Alina
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 0%
