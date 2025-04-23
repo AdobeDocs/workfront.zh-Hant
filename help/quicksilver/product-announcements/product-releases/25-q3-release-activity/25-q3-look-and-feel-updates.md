@@ -4,7 +4,8 @@ description: 2025年第三季度發行時間範圍內的外觀與感覺更新
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 20faacf09266c455a29a04db59a4d39f825f0c2d
+exl-id: 1a98053a-7f0d-4c87-a9eb-f081dade872c
+source-git-commit: 88bbfdc21501fb1575cd07d03af43afe90142adc
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 5%
@@ -15,7 +16,7 @@ ht-degree: 5%
 
 本頁說明在2025年第三季度發行時間範圍內對Adobe Workfront應用程式的各個區域外觀和感覺所做的小幅更新。
 
-如需2025年第三季度版本的所有變更清單，請參閱[2025年第三季度版本概觀](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)。
+如需2025年第三季度版本的所有變更清單，請參閱[2025年第三季度版本概觀](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)。
 
 ## 設定中資源管理區域的外觀更新
 
