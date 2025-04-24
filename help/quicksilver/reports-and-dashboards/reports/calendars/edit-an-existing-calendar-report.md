@@ -6,16 +6,14 @@ description: 您可以透過新增或刪除專案的連結來修改現有行事�
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 494d040c-bd1d-4356-824f-a75890803617
-source-git-commit: c8f4d8e460ed9247ca5d89c9a711ecb1ec5ed1e9
+source-git-commit: 5c0278607faf65b58abeb9b813e403f97032a965
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '295'
 ht-degree: 0%
 
 ---
 
 # 編輯現有的行事曆報告
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽Sandbox」環境中使用。</span>
 
 您可以透過新增或刪除專案的連結來修改現有行事曆。 您也可以修改與行事曆報告相關聯的行事曆群組。
 
@@ -60,45 +58,12 @@ ht-degree: 0%
 
 +++
 
-## 在生產環境中編輯現有的行事曆報告
+
+## 編輯現有的行事曆報告
 
 {{step1-to-calendars}}
 
-1. （選擇性）若要變更行事曆報告的名稱，請按一下[!UICONTROL 行事曆名稱]欄位，然後進行所需的變更。 我們建議僅使用UTF-8字元以避免相容性問題。
-
-   ![變更報表名稱](assets/titlechange-250x230.png)
-
-   如果您已與其他使用者或團隊共用行事曆報告，則已修改的行事曆名稱會自動更新其行事曆檢視。
-
-1. （選擇性）若要將專案新增至行事曆報表：
-
-   1. 按一下&#x200B;**[!UICONTROL 新增至行事曆].**
-   1. 在&#x200B;**[!UICONTROL 專案名稱]**&#x200B;欄位中，開始輸入您要新增行事曆事件的專案名稱，然後按一下該名稱（當它顯示在下拉式清單中時）。
-
-      ![選取專案名稱](assets/calendar-project-name.png)
-來自專案的專案及其相關任務和問題會新增到行事曆報告中。
-
-1. （選擇性）若要新增行事曆群組或修改現有的行事曆群組：
-
-   1. 暫留在專案名稱上，按一下專案名稱旁邊的下拉箭頭，然後按一下&#x200B;**[!UICONTROL 編輯]**。
-
-      ![編輯行事曆群組](assets/editcalendergroup-350x126.png)
-
-   1. 選擇您要如何群組專案：
-
-      * [在行事曆報告中使用[!UICONTROL 計畫日期]](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
-      * [在行事曆報告中使用[!UICONTROL 預計日期]](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
-      * [在行事曆報告中使用自訂日期欄位](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)
-
-
-<div class="preview">
-
-## 在預覽中編輯現有行事曆報告
-
-{{step1-to-calendars}}
-
-1. （選擇性）若要變更行事曆報告的名稱，請按一下&#x200B;**更多**&#x200B;功能表，然後選取&#x200B;**編輯**。
-   ![更多功能表](assets/new-more-menu-calendar.png)
+1. （選擇性）若要變更行事曆報告的名稱，請按一下行事曆下拉式功能表旁的&#x200B;**重新命名**。
 如果您已與其他使用者或團隊共用行事曆報告，則已修改的行事曆名稱會自動更新其行事曆檢視。
 
 1. （選擇性）若要將專案新增至行事曆報表：
@@ -110,7 +75,7 @@ ht-degree: 0%
 
 1. （選擇性）若要新增行事曆群組或修改現有的行事曆群組：
    1. 按一下專案名稱旁的&#x200B;**更多**&#x200B;功能表，然後按一下&#x200B;**編輯**。
-      ![編輯行事曆中的專案](assets/edit-project-in-calendar.png)e
+      ![在行事曆中編輯專案](assets/edit-project-in-calendar.png)
 
    1. 選擇您要如何群組專案：
 
@@ -118,5 +83,3 @@ ht-degree: 0%
       * [在行事曆報告中使用[!UICONTROL 預計日期]](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
       * [在行事曆報告中使用自訂日期欄位](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)
 
-
-      </div>
