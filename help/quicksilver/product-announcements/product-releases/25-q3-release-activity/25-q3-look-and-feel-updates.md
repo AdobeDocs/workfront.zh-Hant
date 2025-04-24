@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1a98053a-7f0d-4c87-a9eb-f081dade872c
-source-git-commit: 88bbfdc21501fb1575cd07d03af43afe90142adc
+source-git-commit: f47c1ad2c3c5d82e62efa1a8920bc0aac59af26e
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '424'
 ht-degree: 5%
 
 ---
@@ -17,6 +17,35 @@ ht-degree: 5%
 本頁說明在2025年第三季度發行時間範圍內對Adobe Workfront應用程式的各個區域外觀和感覺所做的小幅更新。
 
 如需2025年第三季度版本的所有變更清單，請參閱[2025年第三季度版本概觀](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)。
+
+## 最近還原專案的外觀更新
+
+>[!NOTE]
+>
+>預覽版本： 2025年4月23日；適用於所有客戶的生產版本： 2025年4月23日
+
+我們已更新設定區域中最近還原專案的外觀與風格，以符合Workfront其他區域的設計。 最近還原的專案、任務、請求、檔案或範本的功能未變更。
+
+若要檢視這項變更，請前往「設定>資源回收筒>最近還原」。
+
+如需詳細資訊，請參閱[檢視還原的專案](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)。
+
+## 已更新具有新樣式的報表
+
+>[!NOTE]
+>
+>預覽版本： 2025年4月23日；適用於所有客戶的生產版本： 2025年4月23日
+
+我們已更新多個報表的外觀和風格，以符合Workfront其他區域的設計方式。 功能未變更。
+
+此更新包含下列物件型別之報表清單與工具列的視覺變更：
+
+* 範本任務
+* 主題群組
+* 計分卡
+* 排程
+
+如需詳細資訊，請參閱[建立自訂報表](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
 ## 設定中資源管理區域的外觀更新
 

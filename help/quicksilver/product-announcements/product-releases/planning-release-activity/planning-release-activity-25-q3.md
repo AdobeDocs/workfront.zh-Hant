@@ -6,9 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 16f0caf4bdf80ef7b95e8ab51bf9f75aa3b81b3f
+exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
+source-git-commit: a92261330ddf289217057c83fa9360776a8628b8
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
@@ -20,6 +21,18 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 如需針對Adobe Workfront Planning發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## 新設定，可截斷「標準時間軸」檢視中的長記錄名稱
+
+>[!NOTE]
+>
+>* 預覽： 2025年4月23日
+>* 生產快速發行： 2025年5月15日
+>* 適用於所有客戶的生產： 2025年7月17日
+
+您現在可以在時間軸檢視的「設定」方塊的「長條樣式」標籤中啟用設定，以在「標準」檢視中顯示較長記錄名稱時截斷它們。 此設定預設為停用，而且只有在以「標準」模式顯示時間軸檢視時才能啟用。
+
+如需詳細資訊，請參閱[管理時間表檢視](/help/quicksilver/planning/views/manage-the-timeline-view.md)。
 
 ## 共用記錄型別的許可權
 
