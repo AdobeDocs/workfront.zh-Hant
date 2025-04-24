@@ -6,29 +6,31 @@ description: 管理作品多個版本或修訂版本的意見回饋可能是一�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee0c859e-349b-4e7a-ac80-164740b950f0
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
 workflow-type: tm+mt
-source-wordcount: '1737'
+source-wordcount: '1523'
 ht-degree: 0%
 
 ---
 
 # 建立新版本的校訂
 
-管理作品多個版本或修訂版本的意見回饋可能是一項巨大的挑戰。 Workfront可讓您建立和比較多個版本的校樣，藉此簡化此程式。
+<!-- Audited: 4/2025 -->
 
-建立新版本的校樣時，請考慮下列資訊：
+管理作品多個版本或修訂版本的意見反應可能是一項挑戰。 Adobe Workfront可讓您建立和比較多個版本的校樣，藉此簡化此程式。
 
-* 您可以授予使用者檢視某個版本的許可權，但不能授予另一個版本的許可權。 反之，如果您與使用者共用較新版本，除非您返回並明確授予使用者存取先前版本的許可權，否則該使用者無法看到較舊版本。
-* 若要建立新版本的校訂，您必須擁有該校訂的編輯許可權。
+建立新版本的校訂時，請考慮下列資訊：
 
-  請參閱[在Workfront Proof中管理校訂角色](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)和[在Workfront Proof中的校訂許可權設定檔](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)，以取得誰擁有校訂編輯許可權的詳細資訊。
+* 您可以授予使用者檢視某個版本的許可權，但不能授予另一個版本的許可權。 反之，如果您與使用者共用較新版本，除非您返回並授予他們存取先前版本的許可權，否則該使用者無法看到較舊版本。
+* 您必須有校訂的編輯許可權才能建立新版本。
+
+  如需詳細資訊，請參閱[在Workfront Proof中管理校訂角色](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)和[在Workfront Proof中的校訂許可權設定檔](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)。
 
   如需共用校訂版本的相關資訊，請參閱  [在Workfront Proof中共用校訂](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md)。
 
 >[!IMPORTANT]
 >
->如果在Adobe Workfront中建立校訂，則該校訂建立的任何新版本也必須在Workfront中建立。 如果校訂是在Workfront Proof中建立，則無法在Workfront中建立新版本的校訂。
+>如果在Adobe Workfront中建立校訂，也必須在Workfront中建立該校訂的任何新版本。 如果校訂是在Workfront Proof中建立，則無法在Workfront中建立新版本的校訂。
 
 ## 存取需求
 
@@ -41,60 +43,38 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
-   <td> <p>目前計畫：Pro或更高版本</p> <p>或</p> <p>舊版計畫：選擇或Premium</p> <p>如需有關不同方案的校訂存取許可權的詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">存取Workfront中的校訂功能</a>。</p> </td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td> <p>目前：Pro或更高</p> <p>或</p> <p>舊版：選擇或Premium</p> <p>如需有關不同方案的校訂存取許可權的詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">存取Workfront中的校訂功能</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>目前計畫：工作或計畫</p> <p>舊版計畫：任何（您必須為使用者啟用校訂）</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>目前：標準</p> 
+   <p>或</p>
+   <p>舊版：工作或計畫（您必須為使用者啟用校訂）</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">校樣權限設定檔 </td> 
    <td>經理或以上</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
+   <td role="rowheader">存取層級設定</td> 
    <td> <p>編輯檔案的存取權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、角色或校訂許可權設定檔，請連絡您的Workfront或Workfront Proof管理員。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
-## 在Workfront中建立新版本的校訂
+## 在Workfront中建立新的校訂版本
 
-有幾種方式可以在Workfront中上傳新的校訂版本。 預設校樣設定可能會或不會延續自上一個版本，端視您選擇的方法而定：
+有幾種方式可以在Workfront中上傳新的校訂版本。 預設校樣設定可能會或不會延續自上一個版本，端視您選取的方法而定：
 
-* **上傳檔案時自動產生校訂**：預設校訂設定不會延續。 如果您在使用者設定檔中啟用此設定，當您拖放新版本時，預設校樣設定不會延續。
-* **建立校訂>簡單**：預設校訂設定不會延續。 如果您在建立新校訂版本時選擇簡單，預設校訂設定不會延續到先前的版本。
-* **新增>版本>校訂**：預設校訂設定延續自上一個版本。
-* **建立校訂>進階**：預設校訂設定延續自上一個版本。
-
-  <table>
-  <tbody>
-  <tr>
-  <td>上傳文件時自動產生憑證</td>
-  <td>預設校樣設定不會延續。 如果您在使用者設定檔中啟用此設定，當您拖放新版本時，預設校樣設定不會延續。</td>
-  </tr>
-  <tr>
-  <td>建立校訂&gt;簡單</td>
-  <td>預設校樣設定不會延續。 如果您在建立新校訂版本時選擇簡單，預設校訂設定不會延續到先前的版本。</td>
-  </tr>
-  <tr>
-  <td>新增&gt;版本&gt;校訂</td>
-  <td>預設校訂設定延續自上一個版本。</td>
-  </tr>
-  <tr>
-  <td>建立校訂&gt;進階</td>
-  <td>預設校訂設定延續自上一個版本。</td>
-  </tr>
-  </tbody>
-  </table>
-
-
-
+* **上傳檔案時自動產生校訂**：如果您已在使用者設定檔中啟用此設定，當您拖放新版本時，預設校訂設定不會延續。
+* **建立校訂>簡單**：如果您選取此選項，預設校訂設定不會延續到先前的版本。
+* **新增>版本>校訂**：如果您選取此選項，預設校訂設定會延續到先前的版本。
+* **建立校訂>進階**：如果您選取此選項，預設校訂設定會延續到先前的版本。
 
 若要建立新版本的校訂：
 
@@ -105,9 +85,9 @@ ht-degree: 0%
 
    選取列出校訂的列，按一下&#x200B;**新增** > **版本**，然後按一下您要用來新增新版本的校訂的選項。
 
-   ![新增版本](assets/add-new-version-350x185.png)
+   ![新增版本](assets/add-new-proof-version.png)
 
-## 從校訂檢視器建立新版本的校訂(僅限Workfront Proof)
+## 從校訂檢視器建立新的校訂版本(僅限Workfront Proof)
 
 如果您使用獨立Workfront Proof，您可以建立包含單一檔案或網頁擷取的新版校訂。 
 
@@ -118,63 +98,66 @@ ht-degree: 0%
 若要在Workfront Proof中建立新版本的校訂：
 
 1. 開啟校訂。
-1. 按一下左上角的&#x200B;**版本**&#x200B;下拉式功能表，然後在出現的方塊中按一下&#x200B;**+新版本**。
+1. 在左上角，按一下&#x200B;**版本**&#x200B;下拉式功能表，然後在出現的方塊中按一下&#x200B;**+新版本**。 新校訂版本頁面隨即開啟。
 
-   在出現的&#x200B;**新校訂版**&#x200B;頁面上，您可以看到所有舊版的稽核者，包括其角色和電子郵件通知設定。 您可以在此頁面上輕鬆編輯現有稽核者的角色和通知，或從新版本中移除現有稽核者。
+   ![新增版本](assets/new-version-button.png)
 
-1. 在「**新增檔案**」下，從電腦拖放或按一下「**瀏覽**」並選取您想要的檔案，將檔案上傳為新的校訂版本。 您可以為版本輸入&#x200B;**校訂名稱**，或將此方塊留空以使用在結尾處新增版本編號的相同檔案名稱。
+1. 在&#x200B;**新增檔案**&#x200B;區段中，從電腦拖放檔案，或按一下&#x200B;**瀏覽**&#x200B;並選取檔案，將檔案上傳為新的校訂版本。
 
    或
 
-   輸入URL以擷取網頁作為新版本的校訂。
+   透過輸入URL將網頁擷取為新版本的校訂。
 
    >[!NOTE]
    >
    >拖放功能僅適用於完全支援HTML5的瀏覽器。 這不包括Internet Explorer 7到9和Safari。
 
-1. 在&#x200B;**工作流程**&#x200B;底下，進行下列任何變更以指定此版本校訂的稽核者。
+1. （選擇性）選取校訂標題並為版本輸入新的&#x200B;**校訂名稱**。
 
-   先前版本的稽核者會由您新增的稽核者取代。
+1. 在&#x200B;**工作流程**&#x200B;區段中，進行下列任何變更以為此校訂版本新增稽核者（這將取代先前版本的稽核者）：
 
-   * 將版本的&#x200B;**所有者**&#x200B;變更為您帳戶中的其他使用者。\
-     如需關於擁有者許可權的資訊，請參閱[Workfront Proof中的校訂許可權設定檔](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)。
+   * （選擇性）將版本的&#x200B;**所有者**&#x200B;變更為您帳戶中的其他使用者。
 
-   * 使用&#x200B;**輸入連絡人名稱或電子郵件地址來新增收件者方塊**，將稽核者新增至版本。 您可以為每個收件者指定&#x200B;**校訂角色**&#x200B;和&#x200B;**電子郵件警示**&#x200B;型別。
+     如需詳細資訊，請參閱Workfront Proof中的[校訂許可權設定檔](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)。
 
-     如需有關將群組新增到校訂的資訊，請參閱  [將群組新增到校訂](../../../workfront-proof/wp-mnguserscontacts/groups/add-groups.md)。 如需角色的相關資訊，請參閱[在Workfront Proof中管理校訂角色](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)。
+   * （選擇性）使用&#x200B;**輸入連絡人名稱或電子郵件地址來新增收件者**&#x200B;方塊，將稽核者新增至版本。 然後，您可以為每個收件者選取&#x200B;**校訂角色**&#x200B;和&#x200B;**電子郵件警示**&#x200B;型別。
+
+     如需詳細資訊，請參閱[將群組新增到校訂](../../../workfront-proof/wp-mnguserscontacts/groups/add-groups.md)和[在Workfront Proof中管理校訂角色](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)。
 
      >[!NOTE]
      >
-     >若的建立者或擁有者  校訂已[根據預設，校訂製作的電子郵件](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md)已停用（在他們的個人設定中），即使在[新校訂]頁面上勾選[透過電子郵件通知人員]方塊，他們也不會收到任何校訂或新校訂電子郵件。 如需電子郵件通知的相關資訊，請參閱[在Workfront Proof中設定電子郵件通知設定](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)。 另請參閱[校訂製作電子郵件](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md)和[新校訂電子郵件](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md)。
+     >如果校訂建立者或擁有者在其個人設定中預設停用已製作校訂的電子郵件，則即使在新校訂頁面上勾選&#x200B;**將此校訂通知收件者**&#x200B;方塊，他們也不會收到任何已製作校訂或新校訂電子郵件。 如需詳細資訊，請參閱[在Workfront Proof中設定電子郵件通知設定](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)、[校訂製作電子郵件](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md)和[新校訂電子郵件](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md)。
 
-   * 設定版本的校訂期限。
-   * 將滑鼠停留在檢閱者的名稱上，即可檢視其在先前版本上所做的任何決定。
+   * （選用）設定校訂期限。
 
-1. 在&#x200B;**電子郵件通知**&#x200B;底下，執行下列任一項作業：
+   * （選擇性和條件性）在&#x200B;**將主要決策權轉移到**&#x200B;下拉式清單中選取新的主要決策者。
 
-   * 指定您是否要將新版本通知稽核者。\
-     您的選擇將記錄在Proof詳細資訊頁面的活動區段。 如需詳細資訊，請參閱[在Workfront Proof中管理校訂詳細資訊](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)。
+   * （選擇性）選取&#x200B;**此階段**&#x200B;僅需要一個決定，以移除將使用者設定為新的主要決策者的選項。
 
-   * 新增自訂主旨和訊息。
+1. 在&#x200B;**電子郵件通知**&#x200B;區段中，選取下列任一設定：
 
-1. 在&#x200B;**組織**&#x200B;區段中，執行下列任一項作業： 
+   * （選擇性） **將此校訂通知收件者**：選取此選項以通知新版本的稽核者。 您的選取專案將記錄在&#x200B;**校訂詳細資料**&#x200B;頁面的&#x200B;**活動**&#x200B;區段。 如需詳細資訊，請參閱[在Workfront Proof中管理校訂詳細資訊](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)。
 
-   * 將一個或多個標籤套用到校樣。 如需詳細資訊，請參閱[在Workfront Proof中建立及管理標籤](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md)。\
-     請注意，標籤也繼承自校訂的先前版本。 如果您將新標籤新增至新版本，先前的版本也會加上標籤。
+   * （條件式與選擇式） **新增自訂主旨與訊息**：選取此選項可將自訂主旨行與訊息新增至電子郵件通知。
 
-   * 將版本新增至資料夾。 如需詳細資訊，請參閱[在Workfront Proof中管理資料夾](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md)。 資料夾將會從舊版的校樣中複製。 如果您選取不同的資料夾，則會移動整個校訂（所有版本）。
+1. 在&#x200B;**組織**&#x200B;區段中，選取下列任一設定：
 
-   * 帳單管理員和管理員可在「設定」標籤上將資料夾欄位設為整個帳戶的必填欄位。 如需詳細資訊，請參閱。
+   * 將一個或多個標籤套用到校樣。 如需詳細資訊，請參閱[在Workfront Proof中建立及管理標籤](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md)。
 
-1. 在「校訂設定」底下，進行以下任何變更：
+   * 將版本新增至資料夾。 資料夾將會從舊版的校樣中複製。 如果您選取不同的資料夾，則會移動整個校訂（包括所有版本）。 如需詳細資訊，請參閱[在Workfront Proof中管理資料夾](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md)。
 
-   * 需要登入校訂
-   * 需要在證明上以電子方式簽章（僅限企業方案）
-   * 完成所有決定時鎖定校訂
-   * 允許或封鎖原始檔案的下載
-   * 公開共用校樣，包括公開共用設定
-   * 訂閱證明\
-     在此區段中進行的選取將顯示在校訂詳細資訊頁面（可以編輯某些欄位）中。 如需詳細資訊，請參閱[在Workfront Proof中管理校訂詳細資訊](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)。
+   * 帳單管理員和管理員可以在&#x200B;**設定**&#x200B;標籤中，將資料夾欄位設為整個帳戶的必要欄位。
+
+1. 在&#x200B;**校訂設定**&#x200B;區段中，選取下列任一設定：
+
+   * 需要使用者登入才能檢視校訂。
+   * 需要在證明上以電子方式簽章（僅限企業方案）。
+   * 完成所有決定時鎖定校訂。
+   * 允許下載原始檔案。
+   * 允許公開共用證明。
+   * 允許訂閱校訂。
+
+     在此區段中所做的選擇將顯示在&#x200B;**校訂詳細資料**&#x200B;頁面（可以編輯某些欄位）中。 如需詳細資訊，請參閱[在Workfront Proof中管理校訂詳細資訊](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)。
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Create a new version of a proof from the proofing viewer</h2>
@@ -234,12 +217,12 @@ If the creator or owner of&nbsp;&nbsp;the proof has
   >
   >這不會受到您個人設定中儲存的任何預設自訂主旨/訊息的影響。
 
-如果您在個人設定中儲存了預設主旨和訊息，這會影響「新版本」頁面上預設顯示的訊息：
+如果您在個人設定中儲存了預設主旨和訊息，這將決定預設在新版本頁面上顯示的訊息：
 
-* 如果您選擇使用標準電子郵件（例如無自訂主旨/訊息），以電子郵件方式通知檢閱者先前的校訂版本，則您的預設自訂主旨/訊息（您的個人設定）將顯示在新版本頁面上。 然後，您可以編輯自訂主旨和訊息，或取消選取「透過電子郵件通知人員」方塊（這表示不會向您的稽核者傳送電子郵件，通知他們他們有要稽核的新版本）。
-* 如果您選擇不透過電子郵件通知檢閱者先前的校訂版本（例如，沒有標準或自訂電子郵件），則新版本頁面預設不會包含任何訊息。 若要將新版本通知給檢閱者，請按一下「傳送訊息」連結，此連結將顯示您的預設自訂主旨/訊息（根據您的個人設定）。 之後，您可以視需要編輯自訂主旨和訊息。
+* 如果您使用標準電子郵件通知檢閱者先前的校訂版本（例如，無自訂主旨/訊息），您的預設自訂主旨/訊息（您的個人設定）將顯示在新版本頁面上。 然後，您可以編輯自訂主旨和訊息，或取消選取「透過電子郵件通知人員」方塊，這表示不會向您的稽核者傳送電子郵件，通知他們他們有要稽核的新版本。
+* 如果您未將先前的校訂版本通知給檢閱者（例如沒有標準或自訂電子郵件），「新版本」頁面預設不會包含訊息。 若要將新版本通知給檢閱者，請按一下「傳送訊息」連結，此連結將顯示您的預設自訂主旨/訊息（根據您的個人設定）。 之後，您可以視需要編輯自訂主旨和訊息。
 
 如果您未在個人設定中儲存預設主旨和訊息，下列內容將會顯示在「新版本」頁面上：
 
-* 如果您選擇使用標準電子郵件（例如無自訂主旨/訊息），以電子郵件通知您上一個校訂版本的檢閱者，依預設將會在「新版本」頁面上選取「以電子郵件通知人員」選項。 若要新增自訂訊息，請按一下連結。
-* 如果您選擇不透過電子郵件通知檢閱者先前的校訂版本（例如，沒有標準或自訂電子郵件），則新版本頁面預設不會包含任何訊息。 若要通知檢閱者新版本，請按一下「傳送訊息」連結。 然後，您可以按一下「新增自訂訊息」連結，以新增自訂主旨和訊息。
+* 如果您使用標準電子郵件（例如無自訂主旨/訊息）通知檢閱者先前的校訂版本，依預設將會在新版本頁面上選取「透過電子郵件通知人員」選項。 若要新增自訂訊息，請按一下連結。
+* 如果您沒有透過電子郵件通知檢閱者先前的校訂版本（例如沒有標準或自訂電子郵件），「新版本」頁面預設不會包含任何訊息。 若要通知檢閱者新版本，請按一下「傳送訊息」連結。 然後，您可以按一下「新增自訂訊息」連結，以新增自訂主旨和訊息。

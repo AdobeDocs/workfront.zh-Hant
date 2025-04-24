@@ -6,7 +6,7 @@ description: 當您處理校訂時，無論您是Adobe Workfront使用者或外�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: c38e005c-8984-4e99-9527-94a0a6b1071d
-source-git-commit: b3fe63f7a332f50c7bac3bedee5db3bbbabd2b42
+source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 2%
@@ -14,6 +14,8 @@ ht-degree: 2%
 ---
 
 # 管理校訂評論和決定的通知
+
+<!-- Audited: 4/2025 -->
 
 當您處理校訂時，無論您是Adobe Workfront使用者或外部共同作業人員，都可指定您想要收到哪些有關校訂上所做評論和決定的電子郵件通知。 如需詳細資訊，請參閱[校訂評論和決定總覽通知](../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md)。
 

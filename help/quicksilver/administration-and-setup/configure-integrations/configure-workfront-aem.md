@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 024b8606-a9b7-413a-b393-8e5cdff37dd4
-source-git-commit: 5d818b2e3c3314c6af076df46f7f806214f97bab
+source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
 workflow-type: tm+mt
-source-wordcount: '1869'
+source-wordcount: '1868'
 ht-degree: 0%
 
 ---
@@ -128,7 +128,7 @@ ht-degree: 0%
 1. 在熒幕右側，選取&#x200B;**[!UICONTROL 新增ACE]**&#x200B;以建立新專案。
 1. 在{&#x200B;0}新增專案&#x200B;]**視窗中，選取**[!UICONTROL &#x200B;路徑&#x200B;]**欄&#x200B;位中的核取方塊圖示&#x200B;，然後選擇資料夾： */conf***[!UICONTROL 
 1. 在&#x200B;**許可權**&#x200B;欄位中，輸入： *jcr：read*
-1. 在右上角，選取&#x200B;**[!UICONTROL 新增]**&#x200B;。
+1. 在右上角，選取&#x200B;**新增**。
 1. （可選）重複上述步驟以建立更多專案。
 
 ### 將AEM與[!DNL Workfront]整合 {#integrate-aem-with-workfront}

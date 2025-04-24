@@ -8,7 +8,7 @@ description: 校訂許可權設定檔決定使用者在您的帳戶中擁有所�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: fb6faa48-d97b-4b7b-83ae-fe39d40b3963
-source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
+source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 2%
@@ -44,7 +44,7 @@ ht-degree: 2%
 
 下表顯示每個校訂許可權設定檔的可用許可權。
 
-<table>
+<table style="table-layout:auto">
   <tr>
    <td colspan="1" ><strong></strong>
    </td>

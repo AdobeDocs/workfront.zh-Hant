@@ -5,14 +5,16 @@ description: 您可以釘選最重要的工作 [!DNL Adobe Workfront] 以增加�
 feature: Get Started with Workfront
 author: Courtney
 exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
-source-git-commit: b3fe63f7a332f50c7bac3bedee5db3bbbabd2b42
+source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '423'
 ht-degree: 1%
 
 ---
 
 # 釘選頁面以自訂您的工作區
+
+<!-- Audited: 4/2025 -->
 
 您可以在[!DNL Adobe Workfront]中釘選您最重要的工作，以增加可見度、改善組織結構，並加快存取速度。 釘選頁面可隨時從Workfront中任何頁面的頂端存取。
 
@@ -53,6 +55,8 @@ ht-degree: 1%
 1. 導覽至您要釘選的頁面。 這可以是任何工作專案，例如專案、任務、請求佇列等。
 
 1. 在頁面的左上角，按一下&#x200B;**[!UICONTROL 釘選目前頁面]**。 釘選頁面現在可從[!DNL Workfront]中任何頁面的頂端存取。
+
+   ![釘選目前頁面](assets/pin-current-page-button.png)
 
 ## 存取釘選頁面
 
