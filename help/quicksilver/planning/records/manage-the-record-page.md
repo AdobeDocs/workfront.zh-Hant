@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
+source-git-commit: f171db8474df703fddbf63a673f9bfbd2ab2db27
 workflow-type: tm+mt
-source-wordcount: '1872'
+source-wordcount: '2034'
 ht-degree: 0%
 
 ---
@@ -116,7 +116,6 @@ ht-degree: 0%
 +++
 
 <!--replace the layout template info in the table with this at release: 
-
 
 <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
 <p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
@@ -268,42 +267,75 @@ ht-degree: 0%
 
    對記錄預覽或頁面儲存的版面配置所做的所有變更都會自動完成。
 
-## 新增連線檢視頁面到記錄的頁面
+## 新增連線檢視索引標籤到記錄的頁面
 
-<!--suggested a new name for this type of page: "Connected records details" - check to see if this changed-->
+<!--suggested a new name for this type of page: "Connected records page" - check to see if this changed, and update this everywhere in this section-->
+
+您可以將「連線」檢視頁面型別的索引標籤新增至記錄，以檢視連線記錄或物件的資訊。 來自已連線記錄的資訊會以唯讀表格檢視顯示。
+
+&lt;！ — 在發行版本中以下列內容取代上述最後一句：
+
+在生產環境中，來自已連線記錄或物件的資訊會以唯讀表格檢視顯示。
+
+<Span class="preview">在「預覽」環境中，可以在表格檢視中編輯來自連線記錄的資訊。 從其他應用程式連線的物件資訊在資料表檢視中無法編輯。</span> —>
 
 將「連線」檢視新增至記錄頁面時，請考量下列事項：
 
-* 您可以將連線檢視頁面新增到記錄的頁面。
+* 將記錄或物件型別連線至記錄型別後，您可以將「連線」檢視頁面新增至記錄頁面。
 
 * 您無法將[連線]檢視頁面新增到記錄的預覽區域。
 
-* 連線檢視頁面會在表格檢視中顯示一個連線記錄型別頁面。
+* 「連線檢視」頁面會在表格檢視中顯示一個連線記錄型別頁面，或是另一個應用程式中的連線物件型別。
 
 * 將「連線」檢視頁面新增到記錄頁面後，可從記錄的預覽區域看到頁面索引標籤。 您必須移至完整頁面，才能檢視連線記錄的表格檢視。<!--this might have changed? check and take disclaimer out-->
 
 若要新增「連線」檢視頁面：
 
 1. 從記錄頁面檢視中，按一下記錄名稱以開啟它，然後按一下預覽頁面右上角的&#x200B;**在新索引標籤中開啟**&#x200B;圖示![在新索引標籤中開啟詳細資料](assets/open-details-in-a-new-tab-icon.png)。
-1. 按一下&#x200B;**新增頁面** > **連線檢視**。
+1. 按一下&#x200B;**新增頁面**。
 
    ![新增連線檢視頁面強制回應視窗](assets/add-connection-view-page-modal.png)
 1. 新增&#x200B;**頁面名稱**，按一下&#x200B;**連線檢視**，然後按一下&#x200B;**建立**。
 
    新索引標籤將新增到記錄的頁面。
 1. 搜尋或按一下清單中連線記錄或物件型別的名稱。
-您選取之記錄型別的表格檢視會顯示，而連線的記錄會顯示在表格檢視中。
+您選取的記錄型別表格檢視會顯示在新頁面中，而連線的記錄會顯示在表格檢視中。
 已連線記錄的所有欄位都會顯示在已連線記錄之索引標籤的表格檢視中。
 
    依預設，連線的記錄表格的前五個欄位會顯示出來。 依預設，不會顯示任何查閱欄位。
-
-   表格檢視是唯讀的。
 
    <!--replace screen shot below when additional capabilities come to the table view - Fields, etc-->
 
    ![行銷活動詳細資料下的對象已連線資料表檢視](assets/audience-connected-table-view-under-campaign-details-page.png)
 
-1. （可選）按兩下標籤的名稱
+1. （選擇性）在連線記錄的表格檢視中，執行下列任一項作業：
+
+   * 按一下記錄名稱。 這會在新索引標籤中開啟記錄頁面。<!--<span class="preview">In the Preview environment, this opens the record's preview page.</span>-->
+   * 按一下[連線]**連線**以連線更多記錄，然後按一下連線方塊外部以關閉連線。 新記錄會自動新增到表格中。
+     <!--* <span class="preview">Edit any information from the connected records inside the table view. </span>-->
+
+   <!--<div class="preview">
+
+   * Hover over a connected record's name, then click the **More** menu ![More menu](assets/more-menu.png), then click one of the following options: 
+      * View 
+      * Copy link
+      * Edit thumbnail
+      * Duplicate
+      * Insert record above or below
+      * Delete 
+   * Select one of the records, then click one of the following options in the blue bar at the bottom of the screen: 
+      * View
+      * Copy link
+      * Edit thumbnail
+      * Duplicate
+      * Delete. Delete is the only option available when you select more than one record. 
+
+      For information about editing records in the table view, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
+
+   </div>-->
+
+
+1. （可選）連按兩下「連線」檢視標籤的名稱
 
    或
 
@@ -323,7 +355,7 @@ ht-degree: 0%
    >
 
 1. 按一下&#x200B;**連線**&#x200B;以新增或移除記錄。 如需詳細資訊，請參閱[連線記錄](/help/quicksilver/planning/records/connect-records.md)
-1. （選擇性）將游標暫留在[連線檢視]索引標簽名稱上，按一下[其他] **** ![ [其他]功能表](assets/more-menu.png)，然後按一下[刪除] ****&#x200B;以移除新的[連線檢視]索引標籤。
+1. （選擇性）將游標暫留在[連線檢視]索引標簽名稱上，按一下[其他] **** ![ [其他]功能表](assets/more-menu.png)，然後按一下[刪除] ****&#x200B;以移除索引標籤。
 
 
 
