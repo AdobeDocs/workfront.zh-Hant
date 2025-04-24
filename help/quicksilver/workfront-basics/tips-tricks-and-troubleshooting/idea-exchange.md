@@ -5,9 +5,9 @@ title: 創新實驗室
 description: '[!UICONTROL 創新實驗室]可讓已驗證身分的使用者提交、投票及與其他客戶討論想法。'
 feature: Get Started with Workfront
 exl-id: 4775ece1-2841-4acc-b3f0-66cd2783669f
-source-git-commit: 813b97ee0979e29a90293d9ddaba12a33c99f64d
+source-git-commit: 3583368918cf9eb4c64faeda4730e2be08375aed
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -47,4 +47,4 @@ ht-degree: 0%
 * **[!UICONTROL 已傳遞]：**&#x200B;已建立並傳遞解決方案。 將不會提供進一步的更新，且將停用評論。
 * **[!UICONTROL 已封存]**：達到第18個月標籤（從提交日期算起）且分數少於300點的創意將會封存。
 
-若要開始使用或瞭解更多資訊，請登入[workfront.com/customer](https://www.workfront.com/customer)的創新實驗室。
+若要開始使用或瞭解更多資訊，請登入[創新實驗室](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)。
