@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: a92261330ddf289217057c83fa9360776a8628b8
+source-git-commit: 881eea5b527532227a40483d2cd2edeba84dc30f
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 >* 生產快速發行： 2025年5月15日
 >* 適用於所有客戶的生產： 2025年7月17日
 
-您現在可以在時間軸檢視的「設定」方塊的「長條樣式」標籤中啟用設定，以在「標準」檢視中顯示較長記錄名稱時截斷它們。 此設定預設為停用，而且只有在以「標準」模式顯示時間軸檢視時才能啟用。
+您現在可以在時間軸檢視的「設定」方塊的「長條樣式」標籤中啟用設定，以在「標準」檢視中顯示較長記錄名稱時截斷它們。 此設定預設為停用，而且只有在以「標準」模式顯示時間軸檢視時才能啟用。 由於此設定已停用，依預設，記錄列上的資訊會以展開方式顯示。 在此增強功能之前，記錄列上的資訊預設為截斷。
 
 如需詳細資訊，請參閱[管理時間表檢視](/help/quicksilver/planning/views/manage-the-timeline-view.md)。
 
