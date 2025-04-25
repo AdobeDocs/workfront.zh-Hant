@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 441d84d6-6c40-4a03-967e-836cf78c8fc1
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2799'
 ht-degree: 0%
@@ -486,7 +486,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">將Workfront欄位對應到自訂Experience Manager Assets中繼資料欄位</a></p>
-                        <p>透過原生整合，您現在可以將原生和內建Workfront欄位對應到Experience Manager Assetsas a Cloud Service中的自訂中繼資料結構欄位。</p>
+                        <p>透過原生整合，您現在可以將原生和內建Workfront欄位對應到Experience Manager Assets as a Cloud Service中的自訂中繼資料結構欄位。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
@@ -501,7 +501,7 @@ ht-degree: 0%
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">使用Adobe Workfront為Creative Cloud調整自動校樣工作流程範本設定</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">使用Creative Cloud的Adobe Workfront調整自動校樣工作流程範本設定</a></p>
                         <p>您現在可以直接在Creative Cloud中調整現有的自動化工作流程範本設定。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -768,11 +768,11 @@ Workfront Goals將在23.3發行時間範圍內發行的新功能。 如需這些
 
 ### Workfront 維護更新
 
-如需22.3版期間維護更新的相關資訊，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)。
+如需22.3版期間維護更新的相關資訊，請參閱[Workfront維護更新](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)。
 
 ### 訓練更新
 
-探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[WorkfrontTutorials頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的「新增功能」一節。
+探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[Workfront教學課程頁面](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)的「新增功能」一節。
 
 ### 即將從Workfront移除的功能
 

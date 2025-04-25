@@ -6,7 +6,7 @@ description: 專案會依優先順序列在資源規劃工具中，最重要的�
 author: Lisa
 feature: Resource Management
 exl-id: fe9c8cf9-f1e0-4cd5-9299-0f04893d71a5
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 1%
@@ -112,7 +112,7 @@ ht-degree: 1%
 >
 >貴公司必須有業務或以上的Workfront計畫，才能在Portfolio Optimizer中排定專案的優先順序。
 >
->如需Workfront計畫的詳細資訊，請參閱[我們的計畫](https://www.workfront.com/plans)。
+>如需Workfront計畫的詳細資訊，請參閱[我們的計畫](https://business.adobe.com/products/workfront/pricing.html)。
 >
 >如需有關在Portfolio Optimizer中排定專案優先順序的資訊，請參閱[在Portfolio Optimizer中排定專案優先順序](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)。
 

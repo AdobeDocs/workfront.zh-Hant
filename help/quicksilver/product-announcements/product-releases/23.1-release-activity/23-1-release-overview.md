@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: e86524d3-5f57-45b6-8582-102d2de92be4
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2462'
 ht-degree: 0%
@@ -361,10 +361,10 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">在Adobe Workfront中新增Illustrator以用於設計和視訊外掛程式</a><span style="color: #ff0000;"> New in Production！</span></p>
-                        <p>我們很高興宣佈擴充Adobe Workfront的InDesign外掛程式，以包含Adobe Illustrator。</p>
-                        <p>適用於設計和視訊的更新外掛程式Adobe Workfront現在將支援Illustrator、InDesign、Premiere Pro和After Effects。  </p>
-                        <p>此外掛程式可讓您存取工作專案詳細資料、與更新區域的同事共同作業，以及在不離開您最喜愛的Creative Cloud應用程式的情況下完整記錄時間。</p>
-                        <p>管理員也可以使用外掛程式從Admin Console建立套件，並以受管或自我管理的方式部署給使用者。</p>
+                        <p>我們很高興宣佈擴充Adobe Workfront for InDesign外掛程式，以包含Adobe Illustrator。</p>
+                        <p>更新版的外掛程式Adobe Workfront現在支援Illustrator、InDesign、Premiere Pro和After Effects，可協助您撰寫設計與視訊。  </p>
+                        <p>此外掛程式可讓您存取工作專案詳細資料、與更新區域的同事共同作業，以及在不離開您最愛的Creative Cloud應用程式的情況下完整記錄。</p>
+                        <p>管理員也可以從Admin Console使用外掛程式建立套件，並以受管或自我管理方式部署給使用者。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                      <p>
@@ -421,9 +421,9 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">介紹Adobe Workfront的設計和影片</a></p>
-                        <p>我們很高興宣佈擴充Adobe Workfront的InDesign外掛程式，以包含Adobe Premiere Pro和After Effects。 外掛程式將重新命名為Adobe Workfront以用於設計和視訊。</p>
-                        <p>適用於設計和視訊的更新外掛程式Adobe Workfront現在將支援InDesign、Premiere Pro和After Effects，Illustrator即將推出。</p>
-                        <p>此外掛程式可讓您存取工作專案詳細資料、與更新區域的同事共同作業，以及在不離開您最喜愛的Creative Cloud應用程式的情況下完整記錄時間。 </p>
+                        <p>我們很高興宣佈擴充Adobe Workfront for InDesign外掛程式，以包含Adobe Premiere Pro和After Effects。 外掛程式將重新命名為Adobe Workfront以用於設計和視訊。</p>
+                        <p>適用於設計和視訊的更新外掛程式Adobe Workfront現在將支援InDesign、Premiere Pro和After Effects，Illustrator也即將推出。</p>
+                        <p>此外掛程式可讓您存取工作專案詳細資料、與更新區域的同事共同作業，以及在不離開您最愛的Creative Cloud應用程式的情況下完整記錄。 </p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
@@ -454,9 +454,9 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">如何存取Workfront說明，適用於Adobe整合式體驗的客戶</a></p>
-                        <p>如果您的組織已加入Adobe Admin Console和Workfront的Adobe統一體驗，Workfront導覽列將不再包含「說明」連結。</p>
-                        <p>您可以從Workfront導覽列左側的主要功能表，或透過頂端導覽區域中的問號圖示，存取Adobe Experience League上的Workfront說明。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">如何存取Workfront說明，適用於Adobe Unified Experience的客戶</a></p>
+                        <p>如果您的組織已加入Workfront的Adobe Admin Console和Adobe統一體驗，Workfront導覽列將不再包含「說明」連結。</p>
+                        <p>您可以從Adobe Experience League導覽列左側的主要功能表，或透過頂端導覽區域中的問號圖示，存取Workfront上的Workfront說明。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                      <p>
@@ -466,7 +466,7 @@ ht-degree: 0%
                                 <p>預覽版本： 2022年10月27日<br /></p>
                             </li>
                             <li>
-                                <p>生產版本： 2022年11月3日<span style="color: #ff0000;">此功能僅適用於已加入Workfront統一體驗Adobe的客戶。</span></p>
+                                <p>生產版本： 2022年11月3日<span style="color: #ff0000;">此功能僅適用於已加入Workfront的Adobe Unified Experience的客戶。</span></p>
                             </li>
                         </ul>
                     </td>
@@ -524,11 +524,11 @@ Workfront Goals第23.1發行版本包含的新功能。 如需這些現在可在
 
 ### Workfront 維護更新
 
-如需22.3版期間維護更新的相關資訊，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)。
+如需22.3版期間維護更新的相關資訊，請參閱[Workfront維護更新](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)。
 
 ### 訓練更新
 
-探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[WorkfrontTutorials頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的「新增功能」一節。
+探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[Workfront教學課程頁面](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)的「新增功能」一節。
 
 ### 即將從Workfront移除的功能
 
@@ -555,7 +555,7 @@ Workfront Goals第23.1發行版本包含的新功能。 如需這些現在可在
 
 我們正在以更新的Workfront外掛程式取代Illustrator和InDesign的[Creative Cloud擴充功能](/help/quicksilver/documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md)。 自2022年底開始，將無法再在Adobe Exchange中安裝此擴充功能。
 
-此擴充功能中的功能以及數項增強功能，在更新的Adobe WorkfrontCreative Cloud外掛程式中提供：
+此擴充功能中的功能以及數項增強功能，可在更新的Adobe Workfront for Creative Cloud外掛程式中取得：
 * [適用於Photoshop的Adobe Workfront](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
 * [適用於XD的Adobe Workfront](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
 * [適用於設計與影片的Adobe Workfront](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)

@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aa6cfba2-d1df-4d7c-975b-2ae0e63b6d85
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '742'
 ht-degree: 0%
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 如需我們為何進行此變更的詳細資訊，請參閱[新的Adobe Workfront受管系統，以21.1](../../../product-announcements/announcements/announcement-archive/pop-removal-request-queue.md)取代請求佇列的POP電子郵件。
 
-此功能現已包含在Workfront One上新Workfront體驗](https://one.workfront.com/s/learningpath4/queue-management-MCYCJRWK36QZBP7PGMNDMSPRN3LE)學習路徑的[佇列管理中。
+此功能現已包含在Workfront One上新Workfront體驗](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)學習路徑的[佇列管理中。
 
 ## 限制時程表上的小時編輯
 

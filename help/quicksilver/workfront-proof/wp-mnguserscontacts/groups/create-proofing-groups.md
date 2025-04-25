@@ -7,7 +7,7 @@ description: 必須有Select或Premium計畫才能使用此功能。 如需各�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c0433621-3988-45f2-9d6b-68ef92b5b7d2
-source-git-commit: 1a85f2a214036b62d13cb01f0b7a77392648a5fd
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 >
 >本文提及獨立產品[!DNL Workfront Proof]中的功能。 有關[!DNL Adobe Workfront]內部校訂的資訊，請參閱[校訂](../../../review-and-approve-work/proofing/proofing.md)。
 
-必須有Select或Premium計畫才能使用此功能。 如需各種可用計畫的詳細資訊，請參閱[[!DNL Workfront] 計畫](https://www.workfront.com/plans)。
+必須有Select或Premium計畫才能使用此功能。 如需各種可用計畫的詳細資訊，請參閱[[!DNL Workfront] 計畫](https://business.adobe.com/products/workfront/pricing.html)。
 
 您可以建立使用者群組，以將其新增為多個校訂的檢閱者。 如果您定期傳送內容給相同的使用者，這將很有用。
 

@@ -6,7 +6,7 @@ description: 我們對Adobe Workfront在20.3版（目標為2020年8月）中傳�
 author: Luke
 feature: Product Announcements
 exl-id: 9110f04d-b7a9-428b-928c-c4eb746fec3f
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 0%
@@ -31,4 +31,4 @@ ht-degree: 0%
 
 直接來自Workfront Proof系統的電子郵件不會有任何變更。 您將會繼續收到這些電子郵件，一如以往。
 
-如果您有任何其他問題或顧慮，請聯絡[Workfront支援團隊](https://one.workfront.com/s/support?language=en_US)。
+如果您有任何其他問題或顧慮，請聯絡[Workfront支援團隊](https://experienceleague.adobe.com/?support-tab=home#support)。

@@ -7,7 +7,7 @@ description: 檢視「工期」與「計畫工時」的比較基準差異。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2a1eef9c-016c-4a04-acda-6070fcb0e23d
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 1%

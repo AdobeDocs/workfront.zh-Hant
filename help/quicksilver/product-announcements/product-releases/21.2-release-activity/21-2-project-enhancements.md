@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4e954d79-da5a-42f5-b43f-b1fdd17316d2
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1653'
 ht-degree: 1%
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 如需詳細資訊，請參閱[建立週期性工作](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md)。
 
-此功能現在包含在新Workfront體驗的[規劃基礎中，第2部分：在Workfront One上規劃專案](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-2-plan-a-project-MCDUWIMXC3JRAAFGHX7QYIN2BVDI)學習路徑。
+此功能現在包含在新Workfront體驗的[規劃基礎中，第2部分：在Workfront One上規劃專案](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)學習路徑。
 
 ## 專案標題中可用的新按鈕
 
@@ -39,7 +39,7 @@ ht-degree: 1%
 
 為了讓您快速篩選「專案」頁面上的專案清單，標題中有兩個新按鈕，可讓您快速套用我所在的專案或我擁有的專案篩選。
 
-此功能現在包含在新Workfront體驗的[規劃師基礎課程第1部分：在Workfront One上建立專案](https://one.workfront.com/s/learningpath5/planner-fundamentals-for-the-new-workfront-experience-MCTOONVRZDLRD3FAIX6SQYSUAHDE)學習路徑。
+此功能現在包含在新Workfront體驗的[規劃師基礎課程第1部分：在Workfront One上建立專案](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)學習路徑。
 
 ## 從Scrum展示板移動或刪除劇本或問題
 
@@ -133,9 +133,9 @@ ht-degree: 1%
 
 先前，在Workfront Classic中，文字格式只顯示在專案、任務和小時清單中。
 
-如需有關在自訂欄位中格式化文字的資訊，請參閱[建立自訂表單](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FAdministration_and_Setup%2FCustomize_Workfront%2FCreate_manage_Custom_Forms%2Fcreate-a-custom-form.html)。
+如需有關在自訂欄位中格式化文字的資訊，請參閱[建立自訂表單](https://experienceleague.adobe.com/en/docs/workfront/using/home)。
 
-如需有關在清單中顯示資訊的資訊，請參閱[開始使用清單](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FWorkfront_basics%2FNavigate_Workfront%2FWorkfront_Navigation%2Fview-items-in-a-list.html&amp;_LANG=en)。
+如需有關在清單中顯示資訊的資訊，請參閱[開始使用清單](https://experienceleague.adobe.com/en/docs/workfront/using/home)。
 
 ## 新增編輯任務方塊
 

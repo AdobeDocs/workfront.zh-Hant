@@ -6,7 +6,7 @@ description: 使用工作負載平衡器瞭解資源的可用性，並將工作�
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '4078'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 工作負載平衡器可在Adobe Workfront的多個區域使用。 導覽它在所有區域都類似。
 
-如需工作負載平衡器所在位置的詳細資訊，請參閱[找到工作負載平衡器](https://experienceleague.adobe.com/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer.html?lang=en)。
+如需工作負載平衡器所在位置的詳細資訊，請參閱[找到工作負載平衡器](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer)。
 
 ## 存取需求
 
@@ -106,8 +106,8 @@ ht-degree: 0%
 
 如需有關使用工作負載平衡器管理資源的資訊，另請參閱下列文章：
 
-* [在工作負載平衡器](https://experienceleague.adobe.com/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer.html?lang=en)中指派工作的總覽
-* [在工作負載平衡器](https://experienceleague.adobe.com/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer.html?lang=en)中管理使用者配置
+* [在工作負載平衡器](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)中指派工作的總覽
+* [在工作負載平衡器](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)中管理使用者配置
 
 
 ## 在資源區域瀏覽工作負載平衡器多個專案

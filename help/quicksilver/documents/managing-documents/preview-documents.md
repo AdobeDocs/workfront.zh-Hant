@@ -6,7 +6,7 @@ description: 您可以從檔案區域預覽檔案。 這對於影像特別有用
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1e12003d-4ea6-4449-9536-05feca793c44
-source-git-commit: f8ce7b64b117b709328be982339fd28ef4a741a7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 0%

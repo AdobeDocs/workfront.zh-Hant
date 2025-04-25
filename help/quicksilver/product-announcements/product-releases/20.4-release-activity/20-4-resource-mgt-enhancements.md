@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9f660a38-4a59-4135-8178-0841088cc7d6
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1042'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 如需工作投入的相關資訊，請參閱[工作投入概觀](../../../manage-work/tasks/task-information/work-effort.md)。
 
-此功能現已包含在Workfront One上的[規劃基礎課程第2部分學習路徑](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-2-plan-a-project-20Y0z000000bm79EAA)中。
+此功能現已包含在Workfront One上的[規劃基礎課程第2部分學習路徑](https://experienceleague.adobe.com/en/docs/workfront/using/home)中。
 
 ## 工作負載平衡器中工作項的專案狀態型顏色
 

@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd8fcafc-00cc-4025-b2d3-e3a6f12e40fc
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 在Workfront Classic中，按一下「全域導覽列」右上角的設定檔圖片時，選單中會顯示切換到新體驗選項。
 
-此功能現已納入Workfront One的第1部分學習路徑[管理員基礎課程](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY)中。
+此功能現已納入Workfront One的第1部分學習路徑[管理員基礎課程](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)中。
 
 ## Workfront Proof的改良加密
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 如需有關設定電子郵件通知的資訊，請參閱[為系統中的每個人設定事件通知](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)。
 
-此功能現已包含在Workfront One上的[電子郵件和應用程式內通知學習路徑](https://one.workfront.com/s/learningpath2/email-and-in-app-notifications-in-the-new-workfront-experience-20Y4X000000CaZGUA0)中。
+此功能現已包含在Workfront One上的[電子郵件和應用程式內通知學習路徑](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)中。
 
 ## 觸發事件訂閱更新的新API物件
 

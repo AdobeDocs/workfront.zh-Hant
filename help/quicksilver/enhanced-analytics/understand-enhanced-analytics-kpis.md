@@ -7,7 +7,7 @@ description: 在熒幕頂端的增強型分析區域中，顯示4個關鍵績效
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 44e43618-9a0b-4585-8659-c1fe055516be
-source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 
 使用此功能需要商務計畫或更新版本。\
-如需各種可用計畫的詳細資訊，請參閱[Adobe Workfront計畫](https://www.workfront.com/plans)。
+如需各種可用計畫的詳細資訊，請參閱[Adobe Workfront計畫](https://business.adobe.com/products/workfront/pricing.html)。
 
 在熒幕頂端的增強型分析區域中，顯示4個關鍵績效指標(KPI)。 這些量度可讓您快速瞭解專案需要多久的時間、專案的大小，以及在特定時間範圍內完成多少專案。 這些數字並不僅限於此頁面上視覺效果顯示的50個專案上限。 相反地，此資料以套用至任何集合篩選條件的所有專案為基礎，如果您變更所選日期範圍或任何篩選條件，這些數字會進行調整。
 

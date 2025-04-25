@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2194'
 ht-degree: 0%
@@ -511,12 +511,12 @@ ht-degree: 0%
             </tr>
             <tr>
                 <td>
-                    <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront中可用的AdobeAI小幫手</a></p>
+                    <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe AI助理可在Workfront中使用</a></p>
                     [！BADGE In Production ]{type=Informative}
                     <p>為了讓您更輕鬆地完成工作，我們已將Adobe的AI助理新增至Workfront。 AI助理可以透過以下方式協助您：</p>
                     <ul>
                         <li>摘要工作專案和檔案，讓您快速大致瞭解任務、專案和資產。</li>
-                        <li>提供Experience League檔案中的資訊、將指示和參考資料帶入Workfront，同時連結至更深入的檔案。</li>
+                        <li>提供來自Experience League檔案的資訊，將指示和參考資料帶入Workfront，同時連結到更深入的檔案。</li>
                         <li>建立和修訂已計算自訂表單欄位的公式、從文字提示產生公式，或尋找現有公式中的錯誤。</li>
                         </ul>
                         <p>您的Workfront管理員可以為您的組織啟用或停用AI助理。 AI助理可用於具有Select、Prime和Ultimate計畫的執行個體。</p>
@@ -591,8 +591,8 @@ Workfront Planning的新功能可在生產環境中使用。 如需最新功能�
 
 ### Workfront 維護更新
 
-如需2024年第四季期間所進行維護更新的相關資訊，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)。
+如需2024年第四季期間所進行維護更新的相關資訊，請參閱[Workfront維護更新](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)。
 
 ### 訓練更新
 
-探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[WorkfrontTutorials頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的「新增功能」一節。
+探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[Workfront教學課程頁面](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)的「新增功能」一節。

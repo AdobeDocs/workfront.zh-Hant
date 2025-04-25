@@ -3,11 +3,11 @@ title: 增強型分析概述
 content-type: overview
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
-description: 增強型分析是Adobe Workfront中的強大工具，具有預先建立的視覺效果，可讓您檢視專案資料，並透過計畫和完成來識別趨勢。 對您專案的這種深入分析有助於您管理目前的工作，並可讓您更準確地規劃未來的工作。
+description: 增強型分析是Adobe Workfront中的強大工具，具有預先建立的視覺效果，可讓您檢視專案資料，並透過計畫和完成來識別趨勢。 將此insight放入您的專案中有助於您管理目前的工作，並可讓您更準確地規劃未來的工作。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a14ad57c-859b-43df-84c0-575ccda86e50
-source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1246'
 ht-degree: 3%
@@ -21,7 +21,7 @@ ht-degree: 3%
 >增強型Analytics將於5月26日起一週從Workfront中移除。 Workfront Data Connect是全新的替代解決方案，可用來複製您目前使用的任何Enhanced Analytics視覺效果。 <br>如需詳細資訊，請參閱[Enhanced Analytics淘汰指南](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md)。
 
 
-增強型分析是Adobe Workfront中的強大工具，具有預先建立的視覺效果，可讓您檢視專案資料，並透過計畫和完成來識別趨勢。 對您專案的這種深入分析有助於您管理目前的工作，並可讓您更準確地規劃未來的工作。
+增強型分析是Adobe Workfront中的強大工具，具有預先建立的視覺效果，可讓您檢視專案資料，並透過計畫和完成來識別趨勢。 將此insight放入您的專案中有助於您管理目前的工作，並可讓您更準確地規劃未來的工作。
 
 增強型分析可協助您識別：
 
@@ -34,7 +34,7 @@ ht-degree: 3%
 
 ![分析](assets/nwe-full-screen-analytics-350x222.png)
 
-若要檢視使用案例，或瞭解更多有關使用增強型分析管理目前工作和規劃未來工作的資訊，請參閱[增強型分析學習路徑](https://one.workfront.com/s/enhanced-analytics-program)。
+若要檢視使用案例，或瞭解更多有關使用增強型分析管理目前工作和規劃未來工作的資訊，請參閱[增強型分析學習路徑](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)。
 
 ## 先決條件
 
@@ -42,11 +42,11 @@ ht-degree: 3%
 
 * 擁有業務或企業計畫。
 
-  如需詳細資訊，請參閱[Workfront計畫](https://www.workfront.com/plans)。
+  如需詳細資訊，請參閱[Workfront計畫](https://business.adobe.com/products/workfront/pricing.html)。
 
 * 請您的Workfront管理員將增強型分析新增至您的版面配置範本。
 
-  如需詳細資訊，請參閱[增強型分析：新增分析至配置範本](https://one.workfront.com/s/managed-content-videos/enhanced-analytics-adding-analytics-to-layout-templates-MCH7URDSIXRREHHHF7TRTYYP2LTE)。
+  如需詳細資訊，請參閱[增強型分析：新增分析至配置範本](https://experienceleague.adobe.com/en/docs/workfront/using/home)。
 
 若要檢視專案與任務的資訊，您必須：
 
@@ -139,7 +139,7 @@ ht-degree: 3%
 
 ## 增強的分析檢視和功能
 
-若要深入瞭解增強型分析中特定功能的詳細資料、可完成哪些動作以取得進一步分析，以及可從這些資料瞭解哪些內容，請參閱下列文章：
+若要深入瞭解增強型分析中特定功能的詳細資料、可完成以取得更多insight的動作，以及可從此資料瞭解的內容，請參閱下列文章：
 
 <table style="table-layout:auto"> 
  <col> 

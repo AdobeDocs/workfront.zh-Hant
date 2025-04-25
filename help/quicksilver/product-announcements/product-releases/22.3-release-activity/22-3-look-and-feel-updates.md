@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7f85bc50-52c7-4fe8-9f0f-489eaf19b441
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 14%
@@ -43,6 +43,6 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->此變更於2022年5月23日在生產環境中更新。 如需詳細資訊，請參閱2022年5月26日的[維護更新](https://one.workfront.com/s/article/Maintenance-Update-on-May-26-2022)。
+>此變更於2022年5月23日在生產環境中更新。 如需詳細資訊，請參閱2022年5月26日的[維護更新](https://experienceleague.adobe.com/en/docs/workfront/using/home)。
 
 我們在所有可用階層連結的區域更新了階層連結分隔符號。現在，階層連結中的物件由豎線 (|) 分隔。在此更新之前，它們由正斜線 (/) 分隔。

@@ -8,7 +8,7 @@ description: 單一登入(SSO)可讓您的使用者使用您組織的現有使�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb1f6883-6209-4a55-b181-67af4b496ca0
-source-git-commit: 405523606094d4f8553b0aee544d71c2b7f97d86
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 >
 >本文提及獨立產品[!DNL Workfront Proof]中的功能。 有關[!DNL Adobe Workfront]內部校訂的資訊，請參閱[校訂](../../../review-and-approve-work/proofing/proofing.md)。
 
-需要[!UICONTROL Enterprise] [!DNL Workfront]計畫才能使用此功能。 如需各種可用計畫的詳細資訊，請參閱[Workfront計畫](https://www.workfront.com/plans)。
+需要[!UICONTROL Enterprise] [!DNL Workfront]計畫才能使用此功能。 如需各種可用計畫的詳細資訊，請參閱[Workfront計畫](https://business.adobe.com/products/workfront/pricing.html)。
 
 單一登入(SSO)可讓您的使用者使用您組織現有的使用者名稱和密碼登入[!DNL Workfront Proof]。
 

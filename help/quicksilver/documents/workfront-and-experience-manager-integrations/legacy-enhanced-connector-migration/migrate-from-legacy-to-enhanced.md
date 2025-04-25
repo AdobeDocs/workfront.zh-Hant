@@ -6,7 +6,7 @@ description: 下列程式概述將Adobe Experience Manager舊版聯結器移出�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4a8d1e2b-9744-4f72-a337-5057448db4fb
-source-git-commit: 3a1bc4a56cba2fe224a1f0a21c8882c2d9d030de
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 >本檔案僅適用於使用Adobe Experience Manager Assets內部部署或Managed Services環境的客戶。
 
 
-若客戶使用Adobe Experience Manager Assetsas a Cloud Service，舊版聯結器的移轉路徑將為Workfront內的全新原生整合。 若要深入瞭解此移轉程式，請參閱[從舊版或增強型聯結器移轉至Workfront以進行Adobe Experience Manager as a Cloud Service整合](/help/quicksilver/documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)。
+若客戶使用Adobe Experience Manager Assets as a Cloud Service，舊版聯結器的移轉路徑將為Workfront內的全新原生整合。 若要深入瞭解此移轉程式，請參閱[從舊版或增強型聯結器移轉至Workfront以進行Adobe Experience Manager as a Cloud Service整合](/help/quicksilver/documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)。
 
 ## 實作增強型聯結器
 
@@ -30,9 +30,9 @@ ht-degree: 0%
 >
 >實作增強型聯結器需要認證合作夥伴或Adobe Consulting服務。
 >
-> 對於希望認證增強型聯結器的合作夥伴，請檢閱下列文章： [Workfront for Experience Manager增強型聯結器專家系列](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview.html?lang=en)。
+> 對於希望認證增強型聯結器的合作夥伴，請參閱下列文章： [適用於Experience Manager的Workfront增強型聯結器專家系列](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview)。
 
-若要實作增強型聯結器，請參閱[為Experience Manager增強型聯結器設定Workfront](https://experienceleague.adobe.com/docs/experience-manager-65/assets/integrations/workfront-connector-configure.html?lang=en)。
+若要實作增強型聯結器，請參閱[為Experience Manager增強型聯結器設定Workfront](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/integrations/workfront-connector-configure)。
 
 
 ## 移動現有資產

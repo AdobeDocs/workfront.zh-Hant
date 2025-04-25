@@ -6,7 +6,7 @@ navigation-topic: configure-proofing-functionality
 title: 設定是否自動產生校樣
 description: 您可以設定在您指定的使用者將檔案新增到Workfront時，系統是否自動產生校樣。 此設定預設為停用。
 author: Courtney
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 2%
@@ -27,7 +27,7 @@ ht-degree: 2%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront計畫</a> </td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Adobe Workfront計畫</a> </td> 
    <td>任何</td> 
   </tr> 
   <tr> 

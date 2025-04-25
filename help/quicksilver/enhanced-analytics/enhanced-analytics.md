@@ -8,7 +8,7 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5d5be823-77d9-4d0c-bec6-cc172ea7f50b
-source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 3%
@@ -42,4 +42,4 @@ ht-degree: 3%
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../enhanced-analytics/trend-views-overview.md" class="MCXref xref" xrefformat="{para}">Trend views overview</a> </li>
   -->
 
-如需有關增強型分析的深入訓練，請參閱[增強型分析學習路徑](https://one.workfront.com/s/enhanced-analytics-program)。
+如需有關增強型分析的深入訓練，請參閱[增強型分析學習路徑](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)。

@@ -5,7 +5,7 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: df24d13e-d9ff-4c04-8669-9e0b6e4f6501
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 0%
@@ -29,10 +29,10 @@ ht-degree: 0%
 * 直接從「我的更新」和「首頁」做出核准決定
 * 為特定檔案版本建立核准
 
-如需有關使用新檔案核准的詳細資訊，請參閱[新檔案核准總覽](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.html)。
+如需有關使用新檔案核准的詳細資訊，請參閱[新檔案核准總覽](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview)。
 
 ## 新共用按鈕
 
 已從專案、任務和問題的更多選單中提取「共用」選項，以讓共用更直覺。 新的「共用」按鈕現在顯示在「更多」功能表之前的物件名稱旁。 共用檔案、專案組合和方案維持不變。
 
-如需共用物件的詳細資訊，請參閱[共用物件](https://experienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/share-an-object.html)。
+如需共用物件的詳細資訊，請參閱[共用物件](https://experienceleague.adobe.com/en/docs/workfront/using/basics/grant-request-object-permissions/share-an-object)。

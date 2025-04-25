@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2770'
 ht-degree: 0%
@@ -21,11 +21,11 @@ ht-degree: 0%
 
 ## 發行網路研討會
 
-我們邀請您註冊Adobe Summit，以觀看下列Workfront研討會，以代替發行網路研討會：
+若不要參加發行網路研討會，我們邀請您註冊Adobe Summit，以觀看下列Workfront研討會：
 
 [具影響力的體驗：從內容建立到2023年3月21日的Personalization](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982243928001D5Z9)，瞭解建立、管理和個人化內容的新方式，並以更高效率提供具影響力的體驗。 此工作階段將為虛擬對象進行即時串流。
 
-[Adobe Workfront的未來](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982239896001DoHU)，2023年3月23日，瞭解Workfront的遠景及其在Adobe生態系統中的位置，並窺探未來藍圖。 此會議將錄製，並於稍後隨選內容提供。
+[Adobe Workfront的未來](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982239896001DoHU)，2023年3月23日，瞭解Workfront的願景及其在Adobe生態系統中的位置，並窺探未來藍圖。 此會議將錄製，並於稍後隨選內容提供。
 
 <span class="preview">週期外功能（在23.2發行日期之前發佈到生產環境的功能）會以黃色標示出來。</span>
 
@@ -516,8 +516,8 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">剛開始使用Workfront的Creative Cloud外掛程式</a>
-                        <p>我們已將下列變更新增至Workfront的Creative Cloud外掛程式：
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">剛開始使用Creative Cloud外掛程式的Workfront</a>
+                        <p>我們已將下列變更新增至Creative Cloud外掛程式的Workfront：
                         <ul>
                         <li>外掛程式現在會在任務具有前置任務時通知您</li>
                         <li>韓文現在為支援的語言</li>
@@ -553,7 +553,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">已接收新客戶加入Adobe統一體驗</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">加入Adobe Unified Experience的新客戶</a></p>
                         <p>Adobe Unified Experience包括：
                         <ul>
                         <li>透過Adobe Experience Cloud對所有Adobe應用程式執行單一登入</li>
@@ -592,8 +592,8 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">在XD的Adobe Workfront中將工作區域匯出為單一PDF或多個PDF檔案</span></a>
-                        <p>在XD適用的Adobe Workfront外掛程式中，您現在可以選擇將工作區域匯出為單一PDF檔案或多個PDF檔案。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">將工作區域匯出為XD的單一PDFPDF或多個Adobe Workfront檔案</span></a>
+                        <p>在適用於XD的Adobe Workfront外掛程式中，您現在可以選擇將工作區域匯出為單一PDF檔案或多個PDF檔案。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
@@ -653,11 +653,11 @@ API版本16將隨22.3版一起發行。 針對API版本16，我們已修改一�
 
 ### Workfront 維護更新
 
-如需23.2版期間維護更新的相關資訊，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)。
+如需23.2版期間維護更新的相關資訊，請參閱[Workfront維護更新](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)。
 
 ### 訓練更新
 
-探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[WorkfrontTutorials頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的「新增功能」一節。
+探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[Workfront教學課程頁面](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)的「新增功能」一節。
 
 ### 即將從Workfront移除的功能
 

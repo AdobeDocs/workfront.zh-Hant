@@ -7,7 +7,7 @@ description: 「外部測試計畫」視覺效果會顯示外部測試中的專�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c64ed752-151a-40f7-ab18-684e2cd032bc
-source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '927'
 ht-degree: 4%
@@ -34,7 +34,7 @@ ht-degree: 4%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront計畫</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Adobe Workfront計畫</a>*</td> 
    <td> <p>商務或以上版本</p> </td> 
   </tr> 
   <tr> 
@@ -149,6 +149,6 @@ ht-degree: 4%
 
 1. 若要檢視更多專案資訊，請按一下視覺效果上的專案，以開啟小眾測試版中的「待執行工作」和「任務」視覺效果。
 
-   這些視覺效果可協助您更深入地瞭解導致專案偏離正軌的原因。 它們還可以讓您輕鬆簽入進行中的專案。\
+   這些視覺效果可協助您更深入瞭解insight為何導致專案偏離軌道。 它們還可以讓您輕鬆簽入進行中的專案。\
    如需有關待執行工作視覺效果的詳細資訊，請參閱[在增強型分析中檢視待執行工作視覺效果](../enhanced-analytics/burndown-overview.md)。 如需小眾測試版中任務的詳細資訊，請參閱[在增強型分析中檢視小眾測試版中的任務](../enhanced-analytics/tasks-in-flight-overview.md)。
 

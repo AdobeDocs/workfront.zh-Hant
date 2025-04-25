@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bfc7ce9e-b715-47b7-bab7-2e3540d0da3e
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3221'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 22.3版本總覽
 
-本頁提供22.3版本中包含之功能的相關資訊。 新版Adobe Workfront體驗將列出所有功能。 Adobe Workfront Classic也提供部分功能；不過，[Workfront Classic將於2022年3月終止](https://one.workfront.com/s/new-workfront-experience)，其後不久將於2022年7月Workfront Classic終止服務。
+本頁提供22.3版本中包含之功能的相關資訊。 新版Adobe Workfront體驗將列出所有功能。 Adobe Workfront Classic也提供部分功能；不過，[Workfront Classic將於2022年3月終止](https://experienceleague.adobe.com/en/docs/workfront/using/home)，其後不久將於2022年7月Workfront Classic終止服務。
 
 這些增強功能已在2022年7月11日當週的生產環境中推出。
 
@@ -240,7 +240,7 @@ ht-degree: 0%
     </ul> <p><strong>在以下環境中可用：</strong> </p> 
     <ul> 
      <li> <p>全新Adobe Workfront體驗 </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic已於2022年3月終止服務</a>，其後於2022年7月終止Workfront Classic服務。)</p> </li> 
+     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic已於2022年3月終止服務</a>，其後於2022年7月終止Workfront Classic服務。)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -278,7 +278,7 @@ ht-degree: 0%
     </ul> <p><strong>在以下環境中可用：</strong> </p> 
     <ul> 
      <li> <p>全新Adobe Workfront體驗 </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic已於2022年3月終止服務</a>，其後於2022年7月終止Workfront Classic服務。)</p> </li> 
+     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic已於2022年3月終止服務</a>，其後於2022年7月終止Workfront Classic服務。)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -290,7 +290,7 @@ ht-degree: 0%
     </ul> <p><strong>在以下環境中可用：</strong> </p> 
     <ul> 
      <li> <p>全新Adobe Workfront體驗 </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic將於2022年3月終止服務</a>，緊接著將於2022年7月Workfront Classic終止服務。)</p> </li> 
+     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic將於2022年3月終止服務</a>，緊接著將於2022年7月Workfront Classic終止服務。)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr>
@@ -376,7 +376,7 @@ ht-degree: 0%
    <td> <p><strong>發行日期與環境</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>適用於Experience Manager Assets整合的<a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront</a> </p> <p>我們很高興宣佈Adobe Workfront Experience Manager Assets整合現在可供Cloud Service。</p>
+   <td> <p>適用於Experience Manager Assets整合的<a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront</a> </p> <p>我們很高興地宣佈，Adobe Workfront Experience Manager Assets整合現在可供Cloud Service使用。</p>
    <p>我們也為Cloud Service和Assets Essentials引進了新功能。</p> </td> 
    <td> <p><b>在以下日期可用：</b> </p> 
     <ul> 
@@ -388,7 +388,7 @@ ht-degree: 0%
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">在Creative Cloud外掛程式的單一校訂中合併多個檔案</a> </p> <p>您現在可以上傳外部檔案，其中包含您在Adobe Workfront中建立的內容以供Creative Cloud外掛程式在Workfront中建立多檔案校訂。 外部檔案會顯示為Workfront內的其他校樣頁面。 透過此增強功能，我們還更新了校樣建立體驗的外觀和感覺。</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">在Creative Cloud外掛程式的單一校訂中合併多個檔案</a> </p> <p>您現在可以上傳外部檔案，其中包含您在Adobe Workfront for Creative Cloud外掛程式中建立的內容，以在Workfront中建立多檔案校訂。 外部檔案會顯示為Workfront內的其他校樣頁面。 透過此增強功能，我們還更新了校樣建立體驗的外觀和感覺。</p> </td> 
    <td> <p><b>在以下日期可用：</b> </p> 
     <ul> 
      <li> <p>預覽版本：不適用<br></p> </li> 
@@ -534,7 +534,7 @@ Workfront Fusion中的新功能可在22.3發行排程之外的步調中用於生
 
 ## Workfront 維護更新
 
-如需22.3版期間維護更新的相關資訊，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)。
+如需22.3版期間維護更新的相關資訊，請參閱[Workfront維護更新](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)。
 
 ## 22.3版本網路研討會
 
@@ -565,7 +565,7 @@ was presented on January 12, 2022. You can view the webinar recording on the
 
 ## 訓練更新
 
-探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[訓練版本更新頁面](https://one.workfront.com/s/training-release-updates)。
+探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[訓練版本更新頁面](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)。
 
 ## 不再支援的功能
 

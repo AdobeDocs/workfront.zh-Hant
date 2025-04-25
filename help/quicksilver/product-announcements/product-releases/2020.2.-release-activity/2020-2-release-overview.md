@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 88a97b1e-4052-485e-8566-963c6ba640b9
-source-git-commit: 99aac8d1621370f901704f58affd9e3e18497c4e
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2544'
 ht-degree: 0%
@@ -267,7 +267,7 @@ API第11版於2020.1版時發行。 如需有關新增功能和更新的資訊�
 
 自2020年5月20日起，Workfront將開始每週在預覽環境中提供功能。 在此變更之前，功能通常每兩週發佈一次到預覽環境。
 
-如需詳細資訊，請參閱[在Workfront預覽發行步調常見問答集](https://one.workfront.com/s/article/Change-in-Workfront-Preview-release-cadence)中變更
+如需詳細資訊，請參閱[在Workfront預覽發行步調常見問答集](https://experienceleague.adobe.com/en/docs/workfront/using/home)中變更
 
 ### 新增其他網域至存取Workfront所需的允許清單 {#adding-additional-domains-to-the-allowlist-required-for-accessing-workfront}
 
@@ -282,7 +282,7 @@ API第11版於2020.1版時發行。 如需有關新增功能和更新的資訊�
 
 有了Workfront One，您將能從Workfront探索最重要的內容、資源和新聞 — 全部整合在單一位置，只需登入一次。 我們已整合體驗、社群和訓練網站，讓您更容易找到想要的東西。
 
-[進一步瞭解Workfront One](https://www.workfront.com/campaigns/workfront-one)。
+[進一步瞭解Workfront One](https://business.adobe.com/products/workfront.html)。
 
 ### 2020.1版本網路研討會 {#2020-1-release-webinar}
 

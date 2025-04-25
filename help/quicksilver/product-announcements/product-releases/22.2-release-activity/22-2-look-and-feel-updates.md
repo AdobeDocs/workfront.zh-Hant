@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 00113f7e-2f69-445d-847e-14fd464241de
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 0%
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->儀表板中這些相同報告的工具列也隨著每週[維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)在2022年3月3日更新。
+>儀表板中這些相同報告的工具列也隨著每週[維護更新](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)在2022年3月3日更新。
 
 * 專案報告
 * 任務報告

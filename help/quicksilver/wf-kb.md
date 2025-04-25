@@ -3,7 +3,7 @@ filename: wf-kb
 title: Workfront知識庫
 recommendations: noDisplay, noCatalog
 description: 。
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '39'
 ht-degree: 12%

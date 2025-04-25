@@ -1,19 +1,19 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: 設定[!UICONTROL Experience Manager Assetsas a Cloud Service]整合
+title: 設定[!UICONTROL Experience Manager Assets as a Cloud Service]整合
 description: 您可以在 [!DNL Experience Manager Assets]中將您的工作與您的內容連結。
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 25d250e7be17773117761aa739b8e4804c6fc55a
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1708'
 ht-degree: 0%
 
 ---
 
-# 設定[!UICONTROL Experience Manager Assetsas a Cloud Service]整合
+# 設定[!UICONTROL Experience Manager Assets as a Cloud Service]整合
 
 <!-- Audited: 1/2024 -->
 
@@ -121,7 +121,7 @@ ht-degree: 0%
 
 若要設定中繼資料欄位：
 
-1. 依照[設定Adobe [!DNL Workfront] 和 [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en)之間的資產中繼資料對應，在[!DNL Experience Manager Assets]中設定中繼資料結構描述。
+1. 依照[設定Adobe [!DNL Workfront] 與 [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)之間的資產中繼資料對應，在[!DNL Experience Manager Assets]中設定中繼資料結構描述。
 
 
 1. 在Workfront中設定自訂表單欄位。 [!DNL Workfront]有許多您可以使用的內建自訂欄位。 不過，您也可以建立自己的自訂欄位，如[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)中所述。
@@ -146,12 +146,12 @@ ht-degree: 0%
 >
 >如果您希望標籤成為標籤樹中最左邊的專案，它後面必須跟一個冒號。 在此範例中，若要對應到景觀標籤，Workfront中的欄位值將是`landscapes:`。
 >
->在AEM](assets/aem-folder-structure-with-red-boxes.png)中的![資料夾結構
+>AEM中的![資料夾結構](assets/aem-folder-structure-with-red-boxes.png)
 
 
 在Experience Manager Assets中建立標籤後，標籤會顯示在中繼資料區段的「標籤」下拉式清單下。 若要將欄位連結至標籤，請在中繼資料對應區域的Experience Manager Assets欄位下拉式清單中選取`xcm:keywords`。
 
-如需Experience Manager Assets中標籤的詳細資訊，包括如何建立和管理標籤，請參閱[管理標籤](https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html)。
+如需Experience Manager Assets中標籤的詳細資訊，包括如何建立和管理標籤，請參閱[管理標籤](https://experienceleague.adobe.com/en/docs/experience-manager-64/administering/contentmanagement/tags)。
 
 **Experience Manager Assets自訂中繼資料結構描述欄位**
 
@@ -251,7 +251,7 @@ When this option is enabled, any asset that has been pushed to Adobe Experience 
 Adobe Experience Manager整合提供下列工作流程：
 
 * [建立Adobe Experience Manager連結資料夾](#create-adobe-experience-manager-linked-folders)
-* [傳送至Adobe Experience Manager Assets的Publish資產](#publish-assets-that-are-sent-to-adobe-experience-manager-assets)
+* [發佈傳送至Adobe Experience Manager Assets的資產](#publish-assets-that-are-sent-to-adobe-experience-manager-assets)
 
 ### 建立Adobe Experience Manager連結資料夾
 
@@ -282,7 +282,7 @@ Adobe Experience Manager整合提供下列工作流程：
    1. （選擇性）若要刪除資料夾，請選取資料夾並按一下&#x200B;**刪除資料夾**&#x200B;圖示![刪除資料夾](assets/delete-folder.png)。
 1. （視條件而定）若要新增另一個資料夾樹狀結構，請按一下&#x200B;**+新增資料夾樹狀結構**，並依照步驟5中的步驟進行。
 
-1. 按一下「儲存」****，或繼續前往本文中傳送至Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets)區段的[Publish資產。
+1. 按一下&#x200B;**[!UICONTROL 儲存]**，或繼續前往本文中傳送至Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets)的[發佈資產區段。
 
 >[!NOTE]
 >
@@ -291,9 +291,9 @@ Adobe Experience Manager整合提供下列工作流程：
 >* 如果未提供資料夾樹狀結構，則根資料夾會成為連結的資料夾。
 
 
-### 傳送至Adobe Experience Manager Assets的Publish資產
+### 發佈傳送至Adobe Experience Manager Assets的資產
 
-1. 自動開啟&#x200B;**[!UICONTROL Publish資產]**。
+1. 開啟&#x200B;**[!UICONTROL 自動發佈資產]**。
 1. 勾選您要發佈傳送至Adobe Experience Manager資產之資產的位置旁的方塊。 您可以啟用任一或兩個選項。
 1. （視條件而定）如果您已啟用Brand Portal選項，請選取您要發佈資產的Brand Portal 。
 1. 按一下&#x200B;**[!UICONTROL 儲存]**&#x200B;或移至本文中的[設定連結資料夾（選用）](#set-up-linked-folders-optional)區段。

@@ -6,7 +6,7 @@ description: 在Experience Manager Assets Essentials中將您的工作與您的�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 1%
@@ -86,7 +86,7 @@ ht-degree: 1%
    <tr>
       <td><strong>導覽URL</strong>
       </td>
-      <td>系統會自動填入導覽URL。 此URL用於從主選單連結到您組織的Assets Essentials執行個體，以進行快速存取。
+      <td>系統會自動填入導覽URL。 此URL用於從主選單連結到您組織的Assets Essentials例項以快速訪問。
       </td>
    </tr>
    <tr>
@@ -111,7 +111,7 @@ ht-degree: 1%
 
 開始之前，您必須
 
-* 在Experience Manager Assets Essentials中設定中繼資料結構，如[設定Adobe Workfront和Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en)中所述。
+* 在Experience Manager Assets Essentials中設定中繼資料結構，如[設定Adobe Workfront和Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)中所述。
 * （選用）在Workfront中設定自訂表單欄位。 Workfront有許多內建的自訂欄位可供您使用。 不過，您也可以建立自己的自訂欄位。 如需詳細資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 ## 支援的Workfront和Experience Manager Assets欄位

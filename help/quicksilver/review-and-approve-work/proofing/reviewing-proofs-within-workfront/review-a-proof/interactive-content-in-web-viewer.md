@@ -6,7 +6,7 @@ description: 建議您使用「案頭校訂檢視器」來檢閱所有互動式�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: daddc225-62df-4e1a-98fd-8bb7c7c5553b
-source-git-commit: eeaf2f2cec65fae9e4b898ed43d8c9b781b29d9e
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 0%

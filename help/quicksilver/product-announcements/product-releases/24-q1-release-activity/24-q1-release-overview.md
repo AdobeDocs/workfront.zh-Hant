@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1622'
 ht-degree: 0%
@@ -281,7 +281,7 @@ ht-degree: 0%
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Experience Manager Assets Essentials中的對應中繼資料現在使用<code>xcm:keywords</code>，而非<code>dc:subject</code></a></p><p>[！BADGE In Production ]{type=Informative}</p><p>我們已更新Experience Manager Assets Essentials整合，以符合Experience Manager Assetsas a Cloud Service整合的體驗。 現在，將多個單行文字欄位對應到Experience Manager Assets中的單一欄位時，兩個服務都會使用<code>xcm:keywords</code>欄位。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Experience Manager Assets Essentials中的對應中繼資料現在使用<code>xcm:keywords</code>，而非<code>dc:subject</code></a></p><p>[！BADGE In Production ]{type=Informative}</p><p>我們已更新Experience Manager Assets Essentials整合，以符合Experience Manager Assets as a Cloud Service整合中的體驗。 現在，將多個單行文字欄位對應到Experience Manager Assets中的單一欄位時，兩個服務都會使用<code>xcm:keywords</code>欄位。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
@@ -482,8 +482,8 @@ Workfront Fusion中的新功能可在2023年第一季度發行排程之外的步
 
 ### Workfront 維護更新
 
-如需2024年第一季度期間所進行維護更新的相關資訊，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)。
+如需2024年第一季度期間所進行維護更新的相關資訊，請參閱[Workfront維護更新](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)。
 
 ### 訓練更新
 
-探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[WorkfrontTutorials頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的「新增功能」一節。
+探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[Workfront教學課程頁面](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)的「新增功能」一節。

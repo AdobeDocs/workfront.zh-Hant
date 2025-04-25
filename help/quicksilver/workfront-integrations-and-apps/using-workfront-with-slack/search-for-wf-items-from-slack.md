@@ -6,7 +6,7 @@ description: 您可以從已安裝的 [!DNL Slack], if your instance of Slack ha
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 85821f21-d4fd-4f28-bd7a-0c109a4433a8
-source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 6%
@@ -30,7 +30,7 @@ ht-degree: 6%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL [!DNL Adobe Workfront]計畫]</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront]計畫]</a>*</td> 
    <td> <p>[！UICONTROL Pro]或更高版本</p> </td> 
   </tr> 
  </tbody> 

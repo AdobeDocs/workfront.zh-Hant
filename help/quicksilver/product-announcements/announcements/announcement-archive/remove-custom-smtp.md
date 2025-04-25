@@ -6,7 +6,7 @@ description: 在20.3版（預計於2020年8月推出）中，Adobe Workfront將�
 author: Luke
 feature: Product Announcements
 exl-id: 73abd185-81c6-43fc-b8b0-cad14d15b348
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 0%
@@ -25,4 +25,4 @@ ht-degree: 0%
 
 如果您已設定自訂SMTP郵件伺服器，**強烈建議您連絡您的IT團隊**，以確保不會封鎖來自notifications@my.workfront.com的電子郵件，以接收系統傳入的電子郵件。 您也可以參考設定防火牆，以取得流量和電子郵件來自哪些IP位址的詳細資訊。
 
-如果您有任何其他問題或顧慮，請聯絡[Workfront支援團隊](https://one.workfront.com/s/support?language=en_US)。
+如果您有任何其他問題或顧慮，請聯絡[Workfront支援團隊](https://experienceleague.adobe.com/?support-tab=home#support)。

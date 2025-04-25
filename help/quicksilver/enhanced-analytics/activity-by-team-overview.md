@@ -7,7 +7,7 @@ description: 依團隊的活動視覺效果會顯示在主團隊的特定時間�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c4f9886c-ce76-43a8-bd43-cb64fff27e79
-source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '769'
 ht-degree: 6%
@@ -44,7 +44,7 @@ ht-degree: 6%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Workfront計畫</a></td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Workfront計畫</a></td> 
    <td> <p>商務或以上版本</p> </td> 
   </tr> 
   <tr> 

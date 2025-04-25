@@ -1,12 +1,12 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: workfront-for-slack
-title: 設定 [!DNL Adobe Workfront] 以進行Slack
-description: 將 [!DNL Adobe Workfront] 與Slack整合可讓您從Slack存取及建立 [!DNL Workfront] 工作專案、核准、我的最愛、最近專案。
+title: '設定Slack的 [!DNL Adobe Workfront] '
+description: 將 [!DNL Adobe Workfront] 與Slack整合可讓您從Slack存取及建立 [!DNL Workfront] 個工作專案、核准、我的最愛、最近專案。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: cac75a81-26e8-4713-a6be-453943b431ab
-source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%
@@ -37,7 +37,7 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL [!DNL Adobe Workfront]計畫]</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront]計畫]</a>*</td> 
    <td> <p>[！UICONTROL Pro]或更高版本</p> </td> 
   </tr> 
  </tbody> 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->發行用於Slack的新版本[!DNL Workfront]時，您必須重新授權應用程式才能繼續使用。
+>發行Slack適用的[!DNL Workfront]新版本時，您必須重新授權應用程式才能繼續使用。
 
 1. 在[[!DNL Slack] 存放區](https://workfront.slack.com/apps/A7CLAMVNW-adobe-workfront?tab=more_info)中找到[!DNL Adobe Workfront]附加元件。
 

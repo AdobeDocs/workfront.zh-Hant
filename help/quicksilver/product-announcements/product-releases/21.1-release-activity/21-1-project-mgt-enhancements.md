@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 95e75a28-5ac2-4d1d-acc3-dbc0b295b28f
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 1%
@@ -27,7 +27,7 @@ ht-degree: 1%
 
 如需詳細資訊，請參閱[專案量度概觀](../../../manage-work/projects/manage-projects/project-metrics.md)。
 
-此功能現在包含在新Workfront體驗的[規劃師基礎知識部分，第3部分：管理Workfront One上的專案](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-3-manage-a-project-MCG6OJL724XRBLHBXEAKGAUZOJ6U)學習路徑。
+此功能現在包含在新Workfront體驗的[規劃師基礎知識部分，第3部分：管理Workfront One上的專案](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)學習路徑。
 
 ## 從問題更新轉換而來的專案或任務時，更新問題完成百分比
 
@@ -41,9 +41,9 @@ ht-degree: 1%
 
 如需如何尋找已提交要求的詳細資訊，請參閱[尋找已提交的要求](../../../manage-work/requests/create-requests/locate-submitted-requests.md)。
 
-此功能現已包含在Workfront One上的新Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A)學習路徑的[Collaborator基礎知識中。
+此功能現已包含在Workfront One上的新Workfront Experience](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request)學習路徑的[Collaborator基礎知識中。
 
-此功能現已包含在Workfront One上新Workfront體驗](https://one.workfront.com/s/learningpath3/core-team-requests-in-the-new-workfront-experience-MCHWSSDWRFC5EKXFBXTQ6MJNKE7E)學習路徑的[要求中。
+此功能現已包含在Workfront One上新Workfront體驗](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/request-queues/understand-request-queues)學習路徑的[要求中。
 
 ## 從新請求頁面移除的欄位
 

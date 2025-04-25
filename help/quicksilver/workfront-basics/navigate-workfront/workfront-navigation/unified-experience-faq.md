@@ -6,7 +6,7 @@ description: ' [!DNL Workfront] 和Adobe Experience Cloud的一些功能不同�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: 68a5bfe5d85ac530ac14faf2a6a5cccf602e6c8c
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1385'
 ht-degree: 0%
@@ -42,12 +42,12 @@ ht-degree: 0%
 
 ### 如何判斷我使用的是Adobe Unified Experience還是Adobe Workfront？
 
-若要判斷您的組織是否位在Adobe統一體驗，請檢查您用來存取Workfront的URL。
+若要判斷您的組織是否位在Adobe統一體驗上，請檢查您用來存取Workfront的URL。
 
 | URL | Adobe體驗 |
 |------------|------------|
 | （公司名稱）.my.workfront.com | Workfront體驗 |
-| experience.adobe.com | Adobe統一體驗 |
+| experience.adobe.com | Adobe Unified Experience |
 
 ### 如何進一步瞭解[!DNL Adobe Admin Console]？
 
@@ -61,9 +61,9 @@ ht-degree: 0%
 
 將會聯絡現有客戶以排程移轉。 移轉團隊支援同事將引導客戶完成程式、建議[!DNL Admin Console]設定，並提供必要的檔案連結，讓移轉過程儘可能簡單且輕鬆自在。
 
-* [[!DNL Adobe Workfront] 支援概述](https://experienceleague.adobe.com/docs/customer-one/using/workfront/overview.html)
-* [[!DNL Workfront Admin Console] 資訊](https://experienceleague.adobe.com/docs/customer-one/using/workfront/landing.html)
-* [[!DNL Adobe Business Platform] 和 [!DNL Admin Console] 常見問題集](https://experienceleague.adobe.com/docs/customer-one/using/workfront/faq.html)
+* [[!DNL Adobe Workfront] 支援概述](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/overview)
+* [[!DNL Workfront Admin Console] 資訊](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/landing)
+* [[!DNL Adobe Business Platform] 和 [!DNL Admin Console] 常見問題集](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/faq)
 
 ### 對於已為Federated ID啟用此功能與已設定[!DNL Workfront] SSO不同功能的公司，您如何處理[!DNL Adobe Admin Console]？
 

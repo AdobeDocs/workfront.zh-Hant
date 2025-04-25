@@ -6,7 +6,7 @@ description: 您可以測量校樣中的區域。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: c44de4f0-654e-4b1e-b3d6-2bd8f1ee9d8a
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 1%

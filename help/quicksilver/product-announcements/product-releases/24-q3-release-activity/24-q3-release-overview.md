@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1831'
 ht-degree: 0%
@@ -225,7 +225,7 @@ ht-degree: 0%
                     <td>
                         適用於Experience Manager Assets和Assets Essentials的<a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront改善</a></p>
                         [！BADGE In Production ]{type=Informative}
-                        <p>我們已針對Experience Manager Assets與Assets Essentials整合的Workfront進行下列改善：</p>
+                        <p>我們針對用於Experience Manager Assets和Assets Essentials整合的Workfront進行了以下改進：</p>
                         <ul>
                             <li><p>整合現在支援GCP作為雲端服務提供者。 先前已支援AWS和Azure。</p></li>
                             <li><p>透過整合傳送至Experience Manager的檔案大小限制已提高至30 GB。 先前的限製為5 GB。</p></li>
@@ -423,9 +423,9 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">現在更多Workfront組織可使用Adobe統一體驗</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Unified Experience現在可供更多Workfront組織使用</a></p>
                         [！BADGE In Production ]{type=Informative}
-                        <p>為了讓組織能夠存取Adobe統一體驗的各項優點，我們已經開始為現有的Workfront客戶提供這項功能。 </p>
+                        <p>為了讓組織能夠存取Adobe Unified Experience的優點，我們已開始將其提供給現有的Workfront客戶。 </p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
@@ -436,7 +436,7 @@ ht-degree: 0%
                                 <p>指定客戶的生產：搭配24.7版（2024年7月18日）</p>
                             </li>
                          </ul>
-                         <span style="color: #ff0000;">AdobeUnified Shell正在分階段推出。 其他組織將加入AdobeUnified Shell 24.10和25.1版本。 </p>
+                         <span style="color: #ff0000;">Adobe Unified Shell正在分階段推出。 其他組織將加入Adobe Unified Shell 24.10和25.1版。 </p>
                     </td>
                 </tr>
                 <tr>
@@ -523,8 +523,8 @@ Workfront Fusion中的新功能可在2024年第三季度發行排程之外的步
 
 ### Workfront 維護更新
 
-如需2024年第三季期間所進行維護更新的相關資訊，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)。
+如需2024年第三季期間所進行維護更新的相關資訊，請參閱[Workfront維護更新](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)。
 
 ### 訓練更新
 
-探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[WorkfrontTutorials頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的「新增功能」一節。
+探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[Workfront教學課程頁面](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)的「新增功能」一節。

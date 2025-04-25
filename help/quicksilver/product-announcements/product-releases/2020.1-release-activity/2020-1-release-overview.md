@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4162cfb7-d5e1-4152-857a-fc4a6eb09cd7
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2566'
 ht-degree: 0%
@@ -183,7 +183,7 @@ ht-degree: 0%
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-project-enhancements.md#include" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">在更新註解或回覆中包含並識別引號文字</a><!--
       <a href="https://experience.workfront.com/s/article/2020-1-Project-enhancements-1509887664?language=en_US&amp;r=3&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Include and identify quoted text in an update comment or reply</a>
-     --> </p> <p>當您輸入註解時，可以將註解的一部分標示為引號文字，以便將其與您自己的註解區分開來。 使用HTML編輯器中的Block Quote按鈕。</p> </td> 
+     --> </p> <p>當您輸入註解時，可以將註解的一部分標示為引號文字，以便將其與您自己的註解區分開來。 使用HTML編輯器中的「區塊報價」按鈕。</p> </td> 
    <td> <p>Beta預覽版本： 2020年2月27日</p> <p>生產版本： 2020年3月26日</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -286,9 +286,9 @@ ht-degree: 0%
    <td> <p>Beta預覽版本： 2020年3月10日</p> <p>生產版本：使用2020.1版本<span style="color: #ff0000;"> （從版本中移除）</span></p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-other-enhancements.md#the" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">FlashPortfolio最佳化工具已移除</a><!--
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-other-enhancements.md#the" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">已移除Flash Portfolio Optimizer</a><!--
       <a href="https://experience.workfront.com/s/article/2020-1-Other-enhancements-1407923545?language=en_US&amp;r=13&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">The Flash Portfolio Optimizer has been removed</a>
-     --> </p> <p>我們已移除針對所有客戶，從Workfront Classic環境切換新舊版（以Flash為基礎）PortfolioOptimizer的功能。 舊版Portfolio最佳化工具是一項過時的功能，現今的新工具可提供相同的功能。</p> </td> 
+     --> </p> <p>我們已移除針對所有客戶，從Workfront Classic環境切換新舊版（以Flash為基礎） Portfolio Optimizer的功能。 舊版Portfolio Optimizer是一項過時的功能，現今新工具提供的功能與舊版相同。</p> </td> 
    <td> <p>Beta預覽版本： 2020年2月27日</p> <p>生產版本：2020.1版本</p> </td> 
   </tr> 
   <tr> 
@@ -343,7 +343,7 @@ API第11版於2020.1版時發行。 如需有關新增功能和更新的資訊�
 * [第1季產品藍圖網路研討會](#q1-product-roadmap-webinar)
 * [要移除的各種單一登入選項](#various-single-sign-on-options-to-be-removed)
 * [TLS 1.0和1.1支援即將結束](#tls-1-0-and-1-1-support-is-ending)
-* [Flash應用程式移除](#flash-application-removal)
+* [移除Flash應用程式](#flash-application-removal)
 
 ### 新增其他網域至存取Workfront所需的允許清單 {#adding-additional-domains-to-the-allowlist-required-for-accessing-workfront}
 
@@ -358,7 +358,7 @@ API第11版於2020.1版時發行。 如需有關新增功能和更新的資訊�
 
 有了Workfront One，您將能從Workfront探索最重要的內容、資源和新聞 — 全部整合在單一位置，只需登入一次。 我們已整合體驗、社群和訓練網站，讓您更容易找到想要的東西。
 
-[進一步瞭解Workfront One](https://www.workfront.com/campaigns/workfront-one)。
+[進一步瞭解Workfront One](https://business.adobe.com/products/workfront.html)。
 
 ### 2020.1版本網路研討會 {#2020-1-release-webinar}
 
@@ -435,11 +435,11 @@ and watch the recording on demand
 
 如需詳細資訊，請參閱Adobe Workfront](../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md)中所需的[TLS 1.2。
 
-### Flash應用程式移除 {#flash-application-removal}
+### 移除Flash應用程式 {#flash-application-removal}
 
-自2018.3發行版本以來，Workfront已移除所有依賴Flash技術的功能，並更換為新解決方案。
+自2018.3發行版本以來，Workfront已移除所有依賴Flash技術的功能，並以新解決方案取代。
 
-如需有關舊版Flash工具及其取代的詳細資訊，請參閱[在Adobe Workfront中取代Flash工具](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)。
+如需有關舊版Flash工具及其取代的詳細資訊，請參閱[Adobe Workfront中Flash工具的取代](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)。
 
 <!--
 <a href="https://experience.workfront.com/s/article/Replacement-of-Flash-Based-Tools-in-Workfront-194935493" target="_blank" data-mc-conditions="QuicksilverOrClassic.Draft mode">

@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6fef7261-114f-4c26-861e-61a4acb22d40
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1503'
 ht-degree: 0%
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 以前，您只能在實際日期不可用時，以預計或計畫的方式管理行事曆。
 
-如需詳細資訊，請參閱[在行事曆報告中使用自訂日期欄位](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md) (或者，如果您使用的是Workfront Classic，請參閱[在行事曆報告中使用自訂日期欄位](https://one.workfront.com/s/article/Use-custom-date-fields-in-a-calendar-report-432597950?language=en_US))。
+如需詳細資訊，請參閱[在行事曆報告中使用自訂日期欄位](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md) (或者，如果您使用的是Workfront Classic，請參閱[在行事曆報告中使用自訂日期欄位](https://experienceleague.adobe.com/en/docs/workfront/using/home))。
 
 ## 電子郵件變更
 
@@ -82,11 +82,11 @@ ht-degree: 0%
 
 **傳入電子郵件POP回覆變更：**&#x200B;系統管理員將無法再設定自訂POP電子郵件伺服器來接收通知的電子郵件回覆。
 
-如需詳細資訊，請參閱[電子郵件詐騙和POP回覆電子郵件變更](https://one.workfront.com/s/article/Email-spoofing-and-POP-reply-email-changes?language=en_US)。
+如需詳細資訊，請參閱[電子郵件詐騙和POP回覆電子郵件變更](https://experienceleague.adobe.com/en/docs/workfront/using/home)。
 
-## 傳出的Workfront電子郵件現在包含DomainKeys識別的郵件(DKIM)
+## 傳出的Workfront電子郵件現在包含DomainKeys Indified Mail (DKIM)
 
-所有外寄電子郵件都將包含電子郵件驗證技術(DKIM)。 一般使用者看不到此DKIM簽章，但允許在伺服器層級驗證，並強化我們現有的驗證架構。
+所有外寄電子郵件都會包含電子郵件驗證技術(DKIM)。 一般使用者看不到此DKIM簽章，但允許在伺服器層級驗證，並強化我們現有的驗證架構。
 
 ## 更新新Workfront體驗的註冊
 
@@ -95,7 +95,7 @@ ht-degree: 0%
 現在也有顯示下列使用者資訊的使用者詳細資訊連結：
 
 * 姓名
-* 工作角色
+* 職務角色
 * 電子郵件地址
 * 個人資料圖片
 

@@ -7,7 +7,7 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 478747bc-82b4-45c5-bd64-57e370c86567
-source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 0%
@@ -23,4 +23,4 @@ ht-degree: 0%
 * 檢視表中的[內建狀態圖示](../../../reports-and-dashboards/reports/using-built-in-reports/built-in-status-icons-views.md)
 * [使用Adobe Workfront內建報告](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
 * [資源使用率報告概觀](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)
-* 新Workfront體驗的[基本報告建立程式](https://one.workfront.com/s/basic-report-creation-program)
+* 新Workfront體驗的[基本報告建立程式](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)

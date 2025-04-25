@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 46ed705e-b966-4ae9-a602-a5a73a3de3aa
-source-git-commit: 99aac8d1621370f901704f58affd9e3e18497c4e
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%
@@ -55,9 +55,9 @@ ht-degree: 0%
 * 為物件（專案、任務或問題）建立單次使用的核准流程，並以與使用該物件的群組相關聯的狀態為基礎。 這包括任何與群組相關聯的自訂狀態。
 * 建立全域核准流程，並僅供群組或系統中的所有人使用。
 
-對於具有核准程式之管理存取權的使用者，有關設定核准程式的資訊可在[建立工作專案的核准程式](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)中取得(或者如果您使用Adobe Workfront Classic，請參閱[建立核准程式](https://one.workfront.com/s/article/Creating-Approval-Processes-1001577410))。
+對於具有核准程式之管理存取權的使用者，有關設定核准程式的資訊可在[建立工作專案的核准程式](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)中取得(或者如果您使用Adobe Workfront Classic，請參閱[建立核准程式](https://experienceleague.adobe.com/en/docs/workfront/using/home))。
 
-使用者可在[將新的或現有的核准程式與工作建立關聯](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) (或如果您使用Adobe Workfront Classic，請參閱[將新的或現有的核准程式與工作建立關聯](https://one.workfront.com/s/article/Associating-a-New-or-Existing-Approval-Process-with-Work-708455630))中取得有關將核准程式與工作專案建立關聯的資訊。
+使用者可在[將新的或現有的核准程式與工作建立關聯](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) (或如果您使用Adobe Workfront Classic，請參閱[將新的或現有的核准程式與工作建立關聯](https://experienceleague.adobe.com/en/docs/workfront/using/home))中取得有關將核准程式與工作專案建立關聯的資訊。
 
 **在以下環境中可用：**
 

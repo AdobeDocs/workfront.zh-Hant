@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 74e0a85b-a8aa-4e39-9c2e-0f09957ebafa
-source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1357'
 ht-degree: 0%
@@ -58,7 +58,7 @@ ht-degree: 0%
 組織需要與其客戶經理合作，才能購買AppBuilder。 我們不需要針對POC執行此動作，因此無法瞭解此情形的確切程式。
 
 如果您想要測試AppBuilder整合，可以在這裡為您的IMS組織請求免費試用：
-[https://developer.adobe.com/app-builder/trial/#](https://developer.adobe.com/app-builder/trial/#)
+[https://developer.adobe.com/app-builder/docs/overview/getting_access/#](https://developer.adobe.com/app-builder/docs/overview/getting_access/#)
 
 我的印象是，即使是30天的免費試用，在此時間之後他們實際上並不會停用此試用。
 

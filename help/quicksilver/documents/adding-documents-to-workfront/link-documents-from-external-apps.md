@@ -6,7 +6,7 @@ description: 您可以從外部來源將檔案和資料夾連結到Adobe Workfro
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2620'
 ht-degree: 0%
@@ -39,7 +39,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Workfront Proof </td> 
-   <td>您可以在Workfront中提供原本在Workfront Proof中建立的校樣。 若為目前的授權，需要Pro Workfront Plan或更新版本才能使用此功能。 對於新授權，所有計畫都包含此功能。 如需各種可用計畫的詳細資訊，請參閱<a href="https://www.workfront.com/plans">Workfront計畫</a>。</td> 
+   <td>您可以在Workfront中提供原本在Workfront Proof中建立的校樣。 若為目前的授權，需要Pro Workfront Plan或更新版本才能使用此功能。 對於新授權，所有計畫都包含此功能。 如需各種可用計畫的詳細資訊，請參閱<a href="https://business.adobe.com/products/workfront/pricing.html">Workfront計畫</a>。</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td role="rowheader">Experience Manager Assets Essentials </td> 
@@ -51,7 +51,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">其他檔案提供者（透過自訂檔案整合）</td> 
-   <td> <p class="workfront_plans">若為目前的授權，需要Pro Workfront Plan或更新版本才能使用此功能。 對於新授權，所有計畫都包含此功能。 如需各種可用計畫的詳細資訊，請參閱<a href="https://www.workfront.com/plans">Workfront計畫</a>。</p> </td>
+   <td> <p class="workfront_plans">若為目前的授權，需要Pro Workfront Plan或更新版本才能使用此功能。 對於新授權，所有計畫都包含此功能。 如需各種可用計畫的詳細資訊，請參閱<a href="https://business.adobe.com/products/workfront/pricing.html">Workfront計畫</a>。</p> </td>
   </tr> 
  </tbody> 
 </table>

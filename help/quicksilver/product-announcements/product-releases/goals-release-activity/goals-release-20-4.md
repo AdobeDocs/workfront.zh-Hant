@@ -5,7 +5,7 @@ author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Goals
 exl-id: 86d3b8d3-cf91-4f67-9be7-244fc296f43c
-source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%
@@ -47,7 +47,7 @@ ht-degree: 0%
 >
 >**生產可用性：** （20.4版本）
 
-此功能現已納入Workfront One上的[Workfront目標學習路徑](https://one.workfront.com/s/getting-started?tabset-9473f=c292c)。
+此功能現已納入Workfront One上的[Workfront目標學習路徑](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)。
 
 ## Workfront目標的存取控制
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 >
 >**生產可用性：** （20.4版本）
 
-此功能現已納入Workfront One上的[Workfront目標學習路徑](https://one.workfront.com/s/getting-started?tabset-9473f=c292c)。
+此功能現已納入Workfront One上的[Workfront目標學習路徑](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)。
 
 ## Workfront目標可用性改善
 
@@ -82,4 +82,4 @@ ht-degree: 0%
 >
 >**生產可用性：** （20.4版本）
 
-此功能現已納入Workfront One上的[Workfront目標學習路徑](https://one.workfront.com/s/getting-started?tabset-9473f=c292c)。
+此功能現已納入Workfront One上的[Workfront目標學習路徑](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)。

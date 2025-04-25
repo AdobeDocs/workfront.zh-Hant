@@ -2,11 +2,11 @@
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-slack
 title: 從Slack管理您的工作和核准
-description: 您可以存取您的首頁工作清單、檢閱並同意處理任務和問題，以及直接從Slack檢閱或決定核准。
+description: 您可以存取首頁工作清單、檢閱並同意處理任務和問題，以及直接從Slack檢閱或決定核准。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 802a2f16-d827-455e-9e49-f58f4c5fc482
-source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '906'
 ht-degree: 1%
@@ -32,7 +32,7 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL Adobe Workfront]計畫</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">[!DNL Adobe Workfront]計畫</a>*</td> 
    <td> <p>[！UICONTROL Pro]或更高版本</p> </td> 
   </tr> 
  </tbody> 

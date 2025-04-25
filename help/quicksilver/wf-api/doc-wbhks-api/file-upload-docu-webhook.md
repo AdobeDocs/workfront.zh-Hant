@@ -8,10 +8,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 2c5727ee-bf8f-4664-a9b1-c5da356d94f5
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '264'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 2%
 
 **URL**
 
-POST/uploadInit
+POST /uploadInit
 
 ### 查詢參數
 
@@ -77,7 +77,7 @@ https://www.acme.com/api/uploadInit?parentId=12345&filename=new-file.png&documen
 
 **URL**
 
-PUT/upload
+PUT /upload
 
 ## 查詢參數
 

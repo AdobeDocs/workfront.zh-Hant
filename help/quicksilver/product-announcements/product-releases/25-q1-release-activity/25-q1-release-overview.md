@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 46faf723ea7a8e9dfa02c0f2bed1f5f450976fc8
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2775'
 ht-degree: 0%
@@ -155,7 +155,7 @@ ht-degree: 0%
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             現起提供原生預先輸入欄位上的篩選</a></p>
             [！BADGE In Production ]{type=Informative}
-            <p>當您將原生欄位參考新增至自訂表單，並且它參考預先輸入欄位(例如，Portfolio、公司或所有者)時，現在可以使用篩選器選項。 篩選器可讓您限制使用者在使用欄位時可選擇的物件。 此自訂篩選的運作方式與自訂預先輸入欄位上的篩選相同，是使用文字模式來定義篩選。</p>
+            <p>當您將原生欄位參考新增至自訂表單，並且它參考預先輸入欄位(例如Portfolio、公司或所有者)時，現在可以使用篩選器選項。 篩選器可讓您限制使用者在使用欄位時可選擇的物件。 此自訂篩選的運作方式與自訂預先輸入欄位上的篩選相同，是使用文字模式來定義篩選。</p>
         </td>
         <td>
             <p><b>將於下列日期提供：</b></p>
@@ -638,7 +638,7 @@ ht-degree: 0%
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             更新如何管理連結資料夾中移動或刪除的資產</a></p>
             [！BADGE In Production ]{type=Informative}
-            <p>我們已變更使用Adobe Workfront與Experience Manager Assets和Assets Essentials整合時移動和刪除資產的處理方式：</p>
+            <p>當使用Adobe Workfront與Experience Manager Assets和Assets Essentials整合時，我們已變更處理移動和刪除資產的方式：</p>
             <ul>
                 <li>已刪除的資產：當資產在Assets或Assets Essentials中的連結資料夾內刪除時，已刪除的資產將保留在專案檔案區域。</li>
                 <li>移動的資產：當資產移出Assets或Assets Essentials中的連結資料夾時，移動的資產將保留在專案檔案區域中。</li>
@@ -747,8 +747,8 @@ Workfront Planning的新功能可在生產環境中使用。 如需最新功能�
 
 ### Workfront 維護更新
 
-如需2025年第一季度期間所進行維護更新的相關資訊，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)。
+如需2025年第一季度期間所進行維護更新的相關資訊，請參閱[Workfront維護更新](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)。
 
 ### 訓練更新
 
-探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[WorkfrontTutorials頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的「新增功能」一節。
+探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[Workfront教學課程頁面](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)的「新增功能」一節。

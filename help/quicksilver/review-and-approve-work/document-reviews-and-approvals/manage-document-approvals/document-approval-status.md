@@ -6,7 +6,7 @@ description: 列出並解釋檔案決策狀態
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 30a10ed9-ae11-4ff1-a66c-58ea94fe9959
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 5%

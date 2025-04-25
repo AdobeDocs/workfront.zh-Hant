@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements, Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 1f82c397-5cb6-4adc-bb84-f5b1e1ed9d5e
-source-git-commit: ea1248f7b5227bbab222b3616ff4222122964358
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 如需有關校訂決定的詳細資訊，請參閱[檔案區域](../../../documents/managing-documents/documents-area.md)。
 
-此功能現已包含在Workfront One上的新Workfront體驗](https://one.workfront.com/s/learningpath3/manage-proofs-and-versions-in-the-new-workfront-experience-MCPBYNLTQSS5H4NG7C27IPCVR5YA)學習路徑的[管理校訂和版本中。
+此功能現已包含在Workfront One上的新Workfront體驗](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)學習路徑的[管理校訂和版本中。
 
 ## 校訂核准報告的新欄位
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 這些欄位不是預設報表的一部分。 如果您想要看到這些縮圖，則需要將其新增。
 
-此功能現在包含在Workfront One上的[校訂系統設定第2部分：工作流程管理](https://one.workfront.com/s/learningpath3/proof-system-setups-part-2-workflow-management-MCKUF6NTIJ6BGMXHBCXXX6NN53EA)學習路徑中。
+此功能現在包含在Workfront One上的[校訂系統設定第2部分：工作流程管理](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)學習路徑中。
 
 ## 產生新版本時延續現有校訂工作流程
 

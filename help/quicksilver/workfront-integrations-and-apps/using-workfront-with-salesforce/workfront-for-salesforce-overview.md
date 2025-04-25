@@ -7,7 +7,7 @@ description: 您可以為Salesforce安裝 [!DNL Adobe Workfront] ，以允許Sal
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 65d4cdae-1d34-4a8a-a1c0-706cd41fc75e
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # [!DNL Adobe Workfront for Salesforce]總覽
 
-需要[!UICONTROL Pro] [!DNL Workfront]計畫才能使用此功能。 如需各種可用計畫的詳細資訊，請參閱[[!DNL Workfront] 計畫。](https://www.workfront.com/plans)
+需要[!UICONTROL Pro] [!DNL Workfront]計畫才能使用此功能。 如需各種可用計畫的詳細資訊，請參閱[[!DNL Workfront] 計畫。](https://business.adobe.com/products/workfront/pricing.html)
 
 您可以安裝[!DNL Adobe Workfront for Salesforce]，讓您的[!DNL Salesforce]使用者提交[!DNL Workfront]要求並自動建立專案，而不需離開[!DNL Salesforce]。
 

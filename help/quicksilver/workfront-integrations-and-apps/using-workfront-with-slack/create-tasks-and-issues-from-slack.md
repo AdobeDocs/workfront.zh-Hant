@@ -2,11 +2,11 @@
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-slack
 title: 從Slack建立任務和問題
-description: 安裝並設定 [!DNL Adobe Workfront] 以進行Slack後，您可以從Slack建立任務和問題，並將它們與Workfront中的專案建立關聯。
+description: 為Slack安裝並設定 [!DNL Adobe Workfront] 後，您可以從Slack建立任務和問題，並將它們與Workfront中的專案建立關聯。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: cf4a514a-fe69-4c2f-8e35-5738dfaab24e
-source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL [!DNL Adobe Workfront]計畫]</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront]計畫]</a>*</td> 
    <td> <p>[！UICONTROL Pro]或更高版本</p> </td> 
   </tr> 
  </tbody> 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 在您可以從[!DNL Slack]建立任務和問題之前，您必須
 
-* 設定[!DNL Workfront]以進行Slack\
+* 為Slack設定[!DNL Workfront]\
    如需設定[!DNL Workfront for Slack]的說明，請參閱[設定 [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)。
 
 ## 從[!DNL Slack]建立任務

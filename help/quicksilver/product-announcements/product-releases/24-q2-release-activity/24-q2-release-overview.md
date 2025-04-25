@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2247'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 此頁面提供2024年第二季度版本中包含的功能相關資訊。 這些增強功能已在2024年4月10日和11日發行的24.4版本中，於生產環境中提供給所有客戶。
 
 <!--The 24.1 release webinar was on January 11, 2024. You can [register for the webinar to view an on-demand recording here](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).-->
-我們邀請您[註冊Adobe Summit](https://summit.adobe.com/na/)以觀看下列Workfront研討會，以代替發行網路研討會：
+為了代替發行網路研討會，我們邀請您[註冊Adobe Summit](https://summit.adobe.com/na/)，以觀看下列Workfront研討會：
 
 [Adobe Workfront的未來](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=S302)於2024年3月26日舉行，以窺探策略規劃和工作流程的未來。 瞭解Workfront團隊如何計畫在整個行銷生命週期中處理業務功能，而所有這一切都透過AI優先的方法來自動化工作、簡化使用者體驗並提高生產力。
 
@@ -662,9 +662,9 @@ Workfront Fusion中的新功能可在2024年第二季發行排程之外的步調
 
 ### Workfront 維護更新
 
-如需2024年第二季期間所進行維護更新的相關資訊，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)。
+如需2024年第二季期間所進行維護更新的相關資訊，請參閱[Workfront維護更新](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)。
 
 ### 訓練更新
 
-探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[WorkfrontTutorials頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的「新增功能」一節。
+探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[Workfront教學課程頁面](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)的「新增功能」一節。
 

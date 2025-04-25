@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0897b269-c6f3-4b63-8956-b7f9fbe0a553
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '4718'
 ht-degree: 0%
@@ -343,11 +343,11 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
    <td> <p><strong>發行日期與環境</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-integration-enhancements.md#link" class="MCXref xref" xrefformat="{para}">從Dropbox公司連結檔案</a> </p> <p>我們已將Dropbox Business新增為可用的檔案整合。 現在，您可以直接從Workfront內部存取儲存在Dropbox Business中的檔案。</p> <p>「Dropbox業務」可讓您連結共用檔案，並將檔案上傳至共用資料夾。 Dropbox (而非Dropbox企業)只允許檔案的擁有者在Workfront中檢視檔案。</p> <p>您的Workfront管理員可為貴組織啟用此整合。</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-integration-enhancements.md#link" class="MCXref xref" xrefformat="{para}">從Dropbox Business連結檔案</a> </p> <p>我們已將Dropbox商務新增為可用的檔案整合。 現在，您可以直接從Workfront內部存取儲存在Dropbox Business中的檔案。</p> <p>Dropbox Business可讓您連結共用檔案，並將檔案上傳至共用資料夾。 Dropbox (非Dropbox Business)僅允許檔案擁有者在Workfront中檢視檔案。</p> <p>您的Workfront管理員可為貴組織啟用此整合。</p> </td> 
    <td> <p><b>在以下日期可用：</b> </p> <p>預覽版本：不適用<br></p> <p>生產版本：第21.4發行版本</p> <p><strong>在以下環境中可用：</strong> </p> <p>全新Adobe Workfront體驗 </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>針對Slack</a>對Workfront進行<a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-integration-enhancements.md#updates" class="MCXref xref" xrefformat="{para}">更新 </p> <p>下列更新現在可在Workfront中看到，以進行Slack整合：</p> <p>適用於Slack整合的Workfront現在擁有全新的外觀。 此外，您現在會即時收到Workfront的Slack通知。 </p> <p>例如，如果您被指派給任務，您會在被指派後立即收到該通知。 </p> <p>以前，通知出現在Slack中之前可能會有所延遲。</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-integration-enhancements.md#updates" class="MCXref xref" xrefformat="{para}">Slack的Workfront更新</a> </p> <p>用於Slack整合的Workfront現在會顯示下列更新：</p> <p>適用於Slack的Workfront整合現在提供全新的外觀。 此外，您現在會即時收到Slack的Workfront通知。 </p> <p>例如，如果您被指派給任務，您會在被指派後立即收到該通知。 </p> <p>之前，通知出現在Slack中可能會有延遲。</p> </td> 
    <td><strong>在以下日期可用：</strong> <p>預覽版本： 2021年7月29日<br></p> <p>生產版本： 2021年7月29日</p> <p><strong>在以下環境中可用：</strong> </p> <p>全新Adobe Workfront體驗 </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -465,7 +465,7 @@ Workfront 21.4版本網路研討會已於2021年9月23日推出。 您可以從W
 
 ## 訓練更新
 
-探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[訓練版本更新頁面](https://one.workfront.com/s/training-release-updates)。
+探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[訓練版本更新頁面](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)。
 
 ## 不再支援的功能
 

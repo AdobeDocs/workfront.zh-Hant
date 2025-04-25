@@ -6,7 +6,7 @@ description: 您可以自動或手動將 [!DNL Jira] 問題連結至 [!DNL Adobe
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 1c37f361-e866-4ac6-b672-408848a80ed6
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1231'
 ht-degree: 0%
@@ -28,11 +28,11 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL [!DNL Adobe Workfront]計畫]</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront]計畫]</a>*</td> 
    <td> <p>[！UICONTROL Pro]或更高版本</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe[!DNL Workfront]授權總覽</a>*</td> 
+   <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe [!DNL Workfront]授權總覽</a>*</td> 
    <td> <p>規劃</p> </td> 
   </tr> 
   <tr> 
@@ -144,9 +144,9 @@ ht-degree: 0%
 
    >[!IMPORTANT]
    >
-   >如果您的組織已加入Adobe統一體驗，您必須使用&#x200B;**參考編號**&#x200B;將Workfront專案連結至Jira。 （URL選項可供使用，但如果您使用它，則會傳回錯誤。） 如需Unified Experience的相關資訊，請參閱[Workfront的AdobeUnified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
+   >如果您的組織已加入Adobe統一體驗，您必須使用&#x200B;**參考編號**&#x200B;將Workfront專案連結至Jira。 （URL選項可供使用，但如果您使用它，則會傳回錯誤。） 如需Unified Experience的相關資訊，請參閱[Workfront的Adobe Unified Experience ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
    >
-   >對於不在Adobe統一體驗中的組織，不建議使用URL選項，因為URL可能會變更。
+   >對於不在Adobe Unified Experience上的組織，不建議使用URL選項，因為URL可能會變更。
 
    >[!NOTE]
    >

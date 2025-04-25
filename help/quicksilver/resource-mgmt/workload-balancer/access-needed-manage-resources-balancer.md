@@ -6,7 +6,7 @@ description: 沒有正確的存取權或許可權，您可能無法在工作負�
 author: Lisa
 feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 0%
@@ -50,7 +50,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-如需Workfront計畫的相關資訊，請參閱[我們的計畫](https://www.workfront.com/plans)。
+如需Workfront計畫的相關資訊，請參閱[我們的計畫](https://business.adobe.com/products/workfront/pricing.html)。
 
 如需您可以在Workfront中尋找工作負載平衡器的相關資訊，請參閱[尋找工作負載平衡器](../../resource-mgmt/workload-balancer/locate-workload-balancer.md)。
 
@@ -104,7 +104,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p> 您想要管理其指派的專案的Contribute或以上許可權，包括進行指派的許可權。 </p> <p>如需有關專案許可權的資訊，請參閱文章<a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">在Adobe Workfront中共用專案</a>。</p></td>
+   <td> <p> 您想要管理其指派的專案的Contribute或更高許可權，包括進行指派的許可權。 </p> <p>如需有關專案許可權的資訊，請參閱文章<a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">在Adobe Workfront中共用專案</a>。</p></td>
   </tr> 
  </tbody> 
 </table>

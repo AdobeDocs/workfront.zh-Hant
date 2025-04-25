@@ -2,11 +2,11 @@
 product-area: workfront-integrations;setup;user-management
 navigation-topic: workfront-for-salesforce
 title: 設定 [!DNL Salesforce] 使用者的 [!DNL Adobe Workfront] 區段
-description: 當您以 [!DNL Workfront] 管理員身分安裝Salesforce的 [!DNL Adobe Workfront] 之後，您可以將其新增至Salesforce中「機會」和「帳戶」頁面配置的新區段，讓使用者可以使用它。
+description: 當您以 [!DNL Workfront] 管理員身分安裝Salesforce的 [!DNL Adobe Workfront] 後，您可以將其新增至使用者在Salesforce中的「商機」和「帳戶」頁面配置的新區段，讓使用者可以使用它。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 81481813-74db-4408-8c85-c3b5b844f932
-source-git-commit: ad2fc27db2a19ea231e925d5991dbef27ea48030
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # 設定[!DNL Salesforce]使用者的[!DNL Adobe Workfront]區段
 
-需要[!UICONTROL Pro] [!DNL Workfront]計畫才能使用此功能。 如需各種可用計畫的詳細資訊，請參閱[[!DNL Workfront] 計畫。](https://www.workfront.com/plans)
+需要[!UICONTROL Pro] [!DNL Workfront]計畫才能使用此功能。 如需各種可用計畫的詳細資訊，請參閱[[!DNL Workfront] 計畫。](https://business.adobe.com/products/workfront/pricing.html)
 
 當您以[!DNL Workfront]管理員身分安裝[!DNL Salesforce]的[!DNL Adobe Workfront]後，您可以將其新增至使用者的[!UICONTROL 機會]和[!UICONTROL 帳戶]的新區段，讓使用者可以使用它
 [!UICONTROL Salesforce]中的版面配置。

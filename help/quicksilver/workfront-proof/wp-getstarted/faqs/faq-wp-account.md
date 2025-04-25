@@ -8,7 +8,7 @@ description: 若要開啟新帳戶，請移至試用註冊頁面，並開啟試�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 47092717-3895-40a3-9db1-0009638e2544
-source-git-commit: d5ffd576fcedf9b10dce5e5d5bd9245dd7f67ef8
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## 如何開啟新的[!DNL Workfront Proof]帳戶？
 
-若要開啟新帳戶，請移至[試用註冊頁面](https://www.proofhq.com/html/free-trial.html)並開啟試用帳戶。 然後我們團隊的成員會與您連絡，協助您開始使用[!DNL Workfront Proof]。
+若要開啟新帳戶，請移至[試用註冊頁面](https://business.adobe.com/products/workfront/proofing-approvals.html)並開啟試用帳戶。 然後我們團隊的成員會與您連絡，協助您開始使用[!DNL Workfront Proof]。
 
 如果您已經知道系統並且想要註冊付費方案，請移至&#x200B;*[!UICONTROL 設定]* *>* *[!UICONTROL 帳單]*，並將您的帳戶升級為我們的付費方案之一。
 

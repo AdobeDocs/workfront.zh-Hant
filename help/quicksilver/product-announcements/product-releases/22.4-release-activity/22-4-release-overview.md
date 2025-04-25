@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3272'
 ht-degree: 0%
@@ -61,8 +61,8 @@ ht-degree: 0%
     </ul>  </td>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">移轉至Adobe整合式體驗</a> </p>
-                        <p>如果您的組織已上線Adobe Admin Console，您的Workfront執行個體將會移轉至Adobe Unified Experience 22.4版。</p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">移轉至Adobe Unified Experience</a> </p>
+                        <p>如果您的組織已上線到Adobe Admin Console，您的Workfront執行個體將移轉至Adobe Unified Experience 22.4版。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                      <p>
@@ -298,7 +298,7 @@ ht-degree: 0%
 
 </p>
 <ol>
-<li>新增Adobe XD檔案，讓自訂表單更視覺化，並提供更多資訊。 當表單附加到物件時，使用物件的使用者可以從表單內檢視XD檔案並與其互動。
+<li>新增Adobe XD檔案，讓自訂表單更視覺化，並提供更多資訊。 當表單附加到物件時，使用物件的使用者可以從表單內檢視及與XD檔案互動。
 </li>
 <li>使用快速篩選器輕鬆找出現代化自訂表單和欄位清單中的專案。 管理表單和欄位時，也能享受改善的外觀和感覺。
 </li>
@@ -604,7 +604,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        InDesign</a>的<a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront <span style="color: #ff0000;">生產中的新功能！</span> </p>
+                        適用於InDesign的<a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront</a> <span style="color: #ff0000;">生產中的新功能！</span> </p>
                         <p>此外掛程式現在可在InDesign中安裝。 它可讓您存取工作專案詳細資料、與更新區域中的同事共同作業，以及提交校樣以供全部檢閱，而不需離開XD。 立即前往Adobe Creative Cloud Marketplace下載外掛程式。 </p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -623,7 +623,7 @@ ht-degree: 0%
                     <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">將物件中繼資料與原生Experience Manager Assets整合約步</a> </p>
                         <p>現在，Workfront投資組合、方案、專案、任務、問題和檔案欄位會在Workfront中變更欄位時自動更新。</p>
-                        <p>若要允許物件中繼資料自動同步，您必須在「設定&gt;Experience Manager整合」中為您的整合啟用「同步物件中繼資料」切換按鈕。</p>
+                        <p>若要允許物件中繼資料自動同步，您必須在「設定&gt; Experience Manager整合」中為您的整合啟用「同步物件中繼資料」切換功能。</p>
                         <p>以前只會自動更新專案欄位。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -640,7 +640,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">程式和投資組合父物件的中繼資料推送</a></p>
-                        <p>現在，當資產首次傳送到Experience Manager Assets或Assets Essentials時，也會傳送為計畫和投資組合父物件設定的任何中繼資料。</p>
+                        <p>現在，當資產首次傳送到Experience Manager Assets或Assets Essentials時，為方案和投資組合父物件設定的任何中繼資料也會一併傳送。</p>
                         <p>以前，只傳送父級專案資料。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -734,7 +734,7 @@ Workfront Fusion中的新功能可在22.4版發行排程之外的步調內用於
 
 ### Workfront 維護更新
 
-如需22.3版期間維護更新的相關資訊，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)。
+如需22.3版期間維護更新的相關資訊，請參閱[Workfront維護更新](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)。
 
 ### 22.4版本網路研討會
 
@@ -742,7 +742,7 @@ Workfront Fusion中的新功能可在22.4版發行排程之外的步調內用於
 
 ### 訓練更新
 
-探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[訓練版本更新頁面](https://one.workfront.com/s/training-release-updates)。
+探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[訓練版本更新頁面](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)。
 
 ### 22.4版本中移除的功能
 

@@ -8,7 +8,7 @@ description: ' [!DNL Workfront Proof]的資料安全性至高無上。 我們投
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bee0fece-e22b-4f92-9641-81a130f5c346
-source-git-commit: 405523606094d4f8553b0aee544d71c2b7f97d86
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 因此，我們為客戶提供了無與倫比的安全性和隱私權。
 
-如需詳細資訊，請參閱[安全性總覽](https://www.workfront.com/workfront-security)頁面。
+如需詳細資訊，請參閱[安全性總覽](https://www.adobe.com/legal/terms/enterprise-licensing/workfront-legacy-terms.html)頁面。
 
 ## 需要電子簽章
 

@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1b621b35-6c8b-4f6a-bcba-ed6cbfe83a8c
-source-git-commit: 77c07c7c7104d37360cc7630a89dd72836da477c
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 使用Adobe Workfront事件訂閱訊息的服務端點必須符合下列基本要求，才能確保訊息可正確傳送及接收：
 
-* 服務端點必須接受HTTPPOST要求。 HTTPPOST是在所有傳送事件訂閱訊息（包括驗證訊息）中使用的要求方法。
+* 服務端點必須接受HTTP POST要求。 HTTP POST是在所有傳送事件訂閱訊息（包括驗證訊息）中使用的要求方法。
 
 * 為了讓事件訂閱傳遞系統確認訊息已成功接收，端點必須為所有傳入訊息傳回200層級HTTP狀態（例如，200 OK或202）。
 

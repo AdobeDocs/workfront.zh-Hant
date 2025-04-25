@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3affee76-347e-4610-b255-4b1bb4414c5d
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3659'
 ht-degree: 0%
@@ -337,7 +337,7 @@ This section will be updated with more information prior to the 20.4 release bei
 </MadCap:conditionalText>
 -->
 
-如需有關新增功能和更新的資訊，請參閱[ API 12](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FWF_API%2FAPI%2Fnew-api-version-12.htm)版的新功能。
+如需有關新增功能和更新的資訊，請參閱[ API 12](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12)版的新功能。
 
 如需API版本的詳細資訊，請參閱[API版本設定與支援排程](../../../wf-api/api/api-version-support-schedule.md)
 
@@ -356,7 +356,7 @@ This section will be updated with more information prior to the 20.4 release bei
 * [21.1發行版本的Workfront電子郵件的新IP位址](#new-ip-addresses-for-workfront-email-with-the-21-1-release)
 * [事件訂閱的其他IP位址允許清單](#allowlist-of-additional-ip-addresses-for-event-subscriptions)
 * [存取Workfront所需的其他網域允許清單](#allowlist-of-additional-domains-required-for-accessing-workfront)
-* [Flash棄用](#flash-deprecation)
+* [Flash淘汰](#flash-deprecation)
 * [21.1發行網路研討會](#21-1-release-webinar)
 * [預覽發行順序變更](#change-in-preview-release-cadence)
 * [Workfront One](#workfront-one)
@@ -384,11 +384,11 @@ This section will be updated with more information prior to the 20.4 release bei
 
 如需詳細資訊，請參閱[設定防火牆的允許清單](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)。
 
-### Flash淘汰 {#flash-deprecation}
+### 不再使用Flash {#flash-deprecation}
 
-所有以Flash為基礎的工具，已於2020年11月19日從所有產品中移除。
+2020年11月19日，所有的Flash工具均已移除。
 
-在下列文章中進一步瞭解每個特定Flash型工具的取代解決方案： [在Adobe Workfront中取代Flash型工具](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)。
+在下列文章中進一步瞭解每個特定Flash工具的取代解決方案： [Adobe Workfront中Flash工具的取代](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)。
 
 ### 21.1版本網路研討會 {#21-1-release-webinar}
 
@@ -398,10 +398,10 @@ Workfront 21.1版本網路研討會將於2月3日上午11:00 (東部夏令時間
 
 自2020年5月20日起，Workfront開始每週在預覽環境中提供功能。 在此變更之前，功能通常每兩週發佈一次到預覽環境。
 
-如需詳細資訊，請參閱[在Workfront預覽發行步調常見問答集](https://one.workfront.com/s/article/Change-in-Workfront-Preview-release-cadence)中變更
+如需詳細資訊，請參閱[在Workfront預覽發行步調常見問答集](https://experienceleague.adobe.com/en/docs/workfront/using/home)中變更
 
 ### Workfront One {#workfront-one}
 
 有了Workfront One，您將能從Workfront探索最重要的內容、資源和新聞 — 全部整合在單一位置，只需登入一次。 我們已整合體驗、社群和訓練網站，讓您更容易找到想要的東西。
 
-[進一步瞭解Workfront One](https://www.workfront.com/campaigns/workfront-one)。
+[進一步瞭解Workfront One](https://business.adobe.com/products/workfront.html)。

@@ -7,7 +7,7 @@ description: Adobe Workfront展示板會在您將您新增至展示板以及將�
 author: Lisa
 feature: Agile
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 0%

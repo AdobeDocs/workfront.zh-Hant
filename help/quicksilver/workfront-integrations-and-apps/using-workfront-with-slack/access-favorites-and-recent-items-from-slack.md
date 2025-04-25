@@ -2,11 +2,11 @@
 product-area: workfront-integrations
 navigation-topic: workfront-for-slack
 title: 從 [!DNL Slack]存取您的最愛和最近專案
-description: 安裝並設定 [!DNL Adobe Workfront] 進行Slack後，您可以檢視您的Workfront「我的最愛」和「最近專案」，並從Slack存取任一清單中的專案。
+description: 為Slack安裝並設定 [!DNL Adobe Workfront] 後，您可以檢視Workfront的「我的最愛」和「最近專案」，並從Slack的任一清單存取專案。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4bf62192-66fe-42a7-b8c0-23b7bdef45e8
-source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL [!DNL Adobe Workfront]計畫]</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront]計畫]</a>*</td> 
    <td> <p>[！UICONTROL Pro]或更高版本</p> </td> 
   </tr> 
  </tbody> 

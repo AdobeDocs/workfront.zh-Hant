@@ -6,7 +6,7 @@ description: 您可以從多個Widget中進行選擇，以自訂首頁上顯示�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
-source-git-commit: 2d75f74c7281a3ea288c892db6895754a697e198
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '818'
 ht-degree: 13%
@@ -34,7 +34,7 @@ ht-degree: 13%
 
 <table>
   <tr>
-    <td>使用中</td>
+    <td>作用中</td>
     <td>以下列狀態顯示專案：目前、已計畫和已核准 </td>
   </tr>
   <tr>

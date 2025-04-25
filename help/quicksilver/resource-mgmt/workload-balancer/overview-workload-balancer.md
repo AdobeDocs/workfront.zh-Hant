@@ -7,7 +7,7 @@ description: 在專案經理透過建立任務來計畫專案工作之後，以�
 author: Lisa
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
-source-git-commit: 696d656816a4c1c2edef4347567b2fc553f489f7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1194'
 ht-degree: 1%
@@ -35,7 +35,7 @@ ht-degree: 1%
 
 本文說明工作負載平衡器的一般用途，以及如何設定您的專案和資源以成功使用它的一些最佳實務。
 
-若要檢閱工作負載平衡器的影片教學課程，請前往[Workfront教學課程](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)頁面。 在左側功能表中，選取&#x200B;**管理資源** > **工作負載平衡器**，然後選擇教學課程。
+若要檢閱工作負載平衡器的影片教學課程，請前往[Workfront教學課程](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)頁面。 在左側功能表中，選取&#x200B;**管理資源** > **工作負載平衡器**，然後選擇教學課程。
 
 ## 找到工作負載平衡器
 

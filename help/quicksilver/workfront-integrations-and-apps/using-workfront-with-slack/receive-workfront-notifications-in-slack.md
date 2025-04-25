@@ -6,7 +6,7 @@ description: 接收 [!DNL Slack]中的 [!DNL Adobe Workfront] 通知
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: bc1ce4ea-58be-4cd7-ab59-7dddb82949b9
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 1%
@@ -38,7 +38,7 @@ ht-degree: 1%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL [!DNL Adobe Workfront]計畫]</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront]計畫]</a>*</td> 
    <td> <p>[！UICONTROL Pro]或更高版本</p> </td> 
   </tr> 
  </tbody> 
@@ -112,7 +112,7 @@ ht-degree: 1%
    * （有條件且選擇性）按一下&#x200B;**[!UICONTROL 核准]**、**[!UICONTROL 變更]**&#x200B;或&#x200B;**[!UICONTROL 拒絕]**，以核准、核准變更，或拒絕檔案。
 
      您也可以將滑鼠移到檔案的縮圖上，然後按一下放大鏡圖示，在核准檔案之前檢視檔案的較大預覽。\
-      只能預覽核准的Slack[檔案型別](https://api.slack.com/types/file)。
+      只能預覽核准的Slack [檔案型別](https://api.slack.com/types/file)。
 
    * （條件式及選擇性）按一下&#x200B;**[!UICONTROL 授予]**&#x200B;或&#x200B;**[!UICONTROL 忽略]**&#x200B;以授予或忽略其他使用者要求更多存取許可權的要求。\
 

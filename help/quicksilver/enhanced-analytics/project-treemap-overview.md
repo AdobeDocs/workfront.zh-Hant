@@ -7,7 +7,7 @@ description: 「專案樹狀圖」視覺效果是在特定時段內工作的小�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6216465e-c3bb-4f2f-b71c-766ad0c2ed40
-source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '896'
 ht-degree: 2%
@@ -38,7 +38,7 @@ ht-degree: 2%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront計畫</a></td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Adobe Workfront計畫</a></td> 
    <td> <p>商務或以上版本</p> </td> 
   </tr> 
   <tr> 
@@ -156,7 +156,7 @@ ht-degree: 2%
    * **圖表(PNG)**
    * **資料表(XSLX)**
 
-1. 按一下專案以開啟「待執行工作」和「小眾測試版中的任務」視覺效果，以更深入地瞭解任務和小時（或天數）對專案大小的貢獻。
+1. 按一下專案以開啟「待執行工作」和「小眾測試版中的任務」視覺效果，以更深入了insight任務和小時（或天數）對專案大小的貢獻。
 
 如需有關待執行工作視覺效果的詳細資訊，請參閱[在增強型分析中檢視待執行工作視覺效果](../enhanced-analytics/burndown-overview.md)。 如需小眾測試版中任務的詳細資訊，請參閱[在增強型分析中檢視小眾測試版中的任務](../enhanced-analytics/tasks-in-flight-overview.md)。
 

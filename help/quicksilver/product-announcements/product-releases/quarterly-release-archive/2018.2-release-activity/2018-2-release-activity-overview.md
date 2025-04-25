@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91e79c87-9c70-4050-9a3f-236eff0be41d
-source-git-commit: b9dd01ee0e8732bf7e2fec68a7682fc17271e19e
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1132'
 ht-degree: 0%
@@ -54,7 +54,7 @@ ht-degree: 0%
 * [支援Google Team磁碟機](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#support-for-google-team-drives) 
 * [甘特圖新的匯出限制](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#new-export-limit-for-the-gantt-chart) 
 * [在專案清單的甘特圖上檢視跨專案前置任務關係](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#view-cross-project-predecessor-relationshipts-in-the-gantt)
-* [在Portfolio最佳化工具中使用預算成本來計算Portfolio財務](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#use-budgeted-cost-in-the-portfolio-optimizer)
+* [在Portfolio Optimizer中使用預算成本來計算Portfolio財務](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#use-budgeted-cost-in-the-portfolio-optimizer)
 * [修改甘特圖中的任務日期](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-1-release-activity.md#modify-task-dates-in-the-gantt-chart)
 * [從更新索引標籤存取專案甘特圖](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-1-release-activity.md#access-the-project-gantt-chart-from-the-updates-tab)
 * [新專案清單體驗](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-1-release-activity.md#new-project-list-expeirence)
@@ -97,9 +97,9 @@ ht-degree: 0%
 
 ### 整合增強功能
 
-* [適用於Salesforce的Workfront](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#workfront-for-salesforce)即將推出！
+* Salesforce的[Workfront](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#workfront-for-salesforce)即將推出！
 
-* [Workfront的Slack改善專案](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#workfront-for-slack-improvements)新增！ (在Beta Final中)
+* [Workfront的Slack改善專案](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#workfront-for-slack-improvements)最新！ (在Beta Final中)
 
 ### API增強功能
 
@@ -158,7 +158,7 @@ ht-degree: 0%
 
 ### Flash應用程式移除 {#flash-application-removal}
 
-2018.3發行版本將從Workfront移除所有依賴Flash技術的功能，並以新解決方案取代。
+所有依賴Flash技術的功能將於2018.3版本從Workfront中移除，並以新解決方案取代。
 
 此功能包括：
 
@@ -166,9 +166,9 @@ ht-degree: 0%
 
   如需詳細資訊，請參閱[檢視甘特圖中的資訊](../../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md)。
 
-* Portfolio最佳化工具將由新的Portfolio最佳化工具取代
+* Portfolio Optimizer將被新的Portfolio Optimizer取代
 
-  如需詳細資訊，請參閱[Portfolio最佳化程式概述](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)。
+  如需詳細資訊，請參閱[Portfolio Optimizer概觀](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)。
 
 * 能力計畫者將替換為新的資源計畫者
 
@@ -215,7 +215,7 @@ ht-degree: 0%
 
 使用下列資源深入瞭解適用於Outlook的Workfront並開始使用：
 
-* [網站與影片](https://www.workfront.com/integrations/outlook) 
+* [網站與影片](https://business.adobe.com/products/workfront/integrations.html) 
 * [搭配Outlook使用Workfront](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md) （說明文章）
 
 ### 移除舊版API {#removing-old-api-versions}

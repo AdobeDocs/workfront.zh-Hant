@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 18f8f5ac-48a3-45fe-9bf0-12b4b402f85f
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[藍圖概觀](../../../administration-and-setup/blueprints/blueprints-overview.md)。
 
-此功能現已包含在Workfront One上新Workfront體驗](https://one.workfront.com/s/learningpath4/project-templates-in-the-new-workfront-experience-MCGLS7GRNLDZDFPF6AEOGIDZFDG4)學習路徑的[專案範本中。
+此功能現已包含在Workfront One上新Workfront體驗](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)學習路徑的[專案範本中。
 
 ## 群組管理員的新增功能：建立和管理任何層級群組的狀態
 

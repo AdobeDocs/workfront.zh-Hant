@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0a8602aa-34c8-44d0-a102-9497d106f806
-source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3158'
 ht-degree: 1%
@@ -155,7 +155,7 @@ ht-degree: 1%
 
 如需有關重新排序清單中資料行大小的資訊，請參閱[修改資料行寬度和順序](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)。
 
-若要參與我們目前的清單改進測試計畫，請參閱[新清單研究。](http://community.workfront.com/discussions/community-home/digestviewer/viewthread?GroupId=457&amp;MessageKey=6b135c15-33dd-4fa2-8bc3-7cd7f7740c57&amp;CommunityKey=0425cafc-f0ec-47fc-be20-a21dc073d520&amp;tab=digestviewer&amp;ReturnUrl=%2fdiscussions%2fcommunity-home%2fdigestviewer%3fCommunityKey%3d0425cafc-f0ec-47fc-be20-a21dc073d520) （需要登入）
+若要參與我們目前的清單改進測試計畫，請參閱[新清單研究。](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront) （需要登入）
 
 ## 新專案清單的圖示支援 {#icon-support-for-the-new-project-lists}
 
@@ -238,7 +238,7 @@ ht-degree: 1%
 
 * 校樣
 * 僅文件
-* 連結選項(從Dropbox、從Google Drive等)
+* 連結選項(來自Dropbox、來自Google Drive等)
 * 從剪貼簿貼上（這是新增版本時的新選項）
 
 如需詳細資訊，請參閱[從您的檔案系統新增檔案至Adobe Workfront](../../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)一文中的[從您的檔案系統新增檔案至Adobe Workfront](../../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)。
@@ -424,7 +424,7 @@ ht-degree: 1%
 
 在Workfront Proof中校訂時，您現在可以直接從新的校訂檢視器和案頭校訂檢視器建立新版本的校訂。
 
-以前，此選項只能在舊版Flash檢視器中使用。
+以前，此選項只能在舊版Flash Viewer中使用。
 
 如需詳細資訊，請參閱文章中的[在Workfront Proof中複製校樣](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md)  [在Workfront Proof中複製校樣](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md)。
 

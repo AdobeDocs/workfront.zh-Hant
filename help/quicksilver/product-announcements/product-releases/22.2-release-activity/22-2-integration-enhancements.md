@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 5e841349-7d76-4ab9-9625-a0c53111bf35
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 0%
@@ -29,7 +29,7 @@ in January 2022
 
 ## Adobe Workfront與Anaplan整合現已推出
 
-為了讓您更靈活地瞭解Workfront專案的財務層面，Workfront現在可與您的Anaplan帳戶整合。 透過將Workfront物件連結至Anaplan物件，您可以自動更新兩個帳戶之間的資訊，確保兩個帳戶中的資訊都是最新且相同的。 您也可以根據Workfront中的動作在Anaplan中觸發自動化程式（反之亦然）。
+為了讓您在Workfront專案的財務方面有更好的彈性和insight，Workfront現在可與您的Anaplan帳戶整合。 透過將Workfront物件連結至Anaplan物件，您可以自動更新兩個帳戶之間的資訊，確保兩個帳戶中的資訊都是最新且相同的。 您也可以根據Workfront中的動作在Anaplan中觸發自動化程式（反之亦然）。
 
 例如，您可以在Anaplan中建立行銷活動，然後建立連結至行銷活動的Workfront專案或方案。 Workfront中追蹤的所有成本都可以上傳回Anaplan以審查行銷活動績效。
 
@@ -41,27 +41,27 @@ in January 2022
 
 如需詳細資訊，請參閱[具有Anaplan的Adobe Workfront](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration.md)。
 
-## Workfront的Experience Manager增強型聯結器更新
+## 適用於Experience Manager的Workfront增強型聯結器更新
 
-Workfront for Experience Manager增強型聯結器現在包含下列更新：
+適用於Experience Manager的Workfront增強型聯結器現在包含下列更新：
 
-* 現在，即使有多個專案連結資料夾設定，您仍可以在Adobe Workfront和Adobe Experience Manager Assetsas a Cloud Service之間建立連結資料夾。
+* 現在，即使有多個專案連結資料夾設定，您仍可以在Adobe Workfront和Adobe Experience Manager Assets as a Cloud Service之間建立連結資料夾。
 * 新增對事件訂閱分頁的支援
 * 新增對AEM 6.4.x的支援
 * 新增對Proxy環境的支援
 * 根據合作夥伴和客戶的意見回應進行多項錯誤修正
 
-如需詳細資訊，請參閱[Workfront的Experience Manager增強型聯結器總覽](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-aem-enhanced-connector-overview.md)。
+如需詳細資訊，請參閱[適用於Experience Manager的Workfront增強型聯結器總覽](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-aem-enhanced-connector-overview.md)。
 
 >[!NOTE]
 >
->此聯結器的部署和設定需要經過認證的合作夥伴。 如需詳細資訊，請參閱[安裝Workfront for Experience Manager增強型聯結器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install.html?lang=en#)。
+>此聯結器的部署和設定需要經過認證的合作夥伴。 如需詳細資訊，請參閱[安裝Workfront for Experience Manager增強型聯結器](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install)。
 
 ## Adobe Creative Cloud整合現在使用OAuth2
 
 為了提高安全性，也為了在整合間提供更一致的體驗，我們已更新Adobe Creative Cloud整合，以使用OAuth2驗證（驗證使用者的業界標準方式）。 現在，當您的使用者登入時，他們可以檢視整合有權存取的特定動作和區域，並允許存取。 之後，他們不需要如此頻繁地登入。
 
-如需詳細資訊，請參閱[使用Illustrator的Workfront擴充功能和InDesign](../../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md)。
+如需詳細資訊，請參閱[使用適用於Illustrator和InDesign的Workfront擴充功能](../../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md)。
 
 ## 檢視自訂OAuth2或JWT整合的使用者端密碼詳細資訊
 

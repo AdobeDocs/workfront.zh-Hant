@@ -7,7 +7,7 @@ description: 必須有Select或Premium [!DNL Workfront] 計畫才能使用此功
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 87c8aff7-b638-4d14-9c5a-7e316f1ec608
-source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
+source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
 workflow-type: tm+mt
 source-wordcount: '1044'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >本文提及獨立產品[!DNL Workfront Proof]中的功能。 有關[!DNL Adobe Workfront]內部校訂的資訊，請參閱[校訂](../../../review-and-approve-work/proofing/proofing.md)。
 
-需要Select或Premium [!DNL Workfront]計畫才能使用此功能。 如需各種可用計畫的詳細資訊，請參閱[Workfront計畫](https://www.workfront.com/plans)。
+需要Select或Premium [!DNL Workfront]計畫才能使用此功能。 如需各種可用計畫的詳細資訊，請參閱[Workfront計畫](https://business.adobe.com/products/workfront/pricing.html)。
 
 自訂欄位可讓您在建立新校訂、使用者或訪客時擷取其他資料。 例如，建立新校樣的使用者可能想要包含額外的區段，以允許他們擷取工作編號、部門代碼或供應商參考。
 
