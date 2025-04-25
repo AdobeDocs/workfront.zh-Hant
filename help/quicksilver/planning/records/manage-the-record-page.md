@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: f171db8474df703fddbf63a673f9bfbd2ab2db27
+source-git-commit: 8fcc6c75811080f3ee152849a149542be8ae820c
 workflow-type: tm+mt
-source-wordcount: '2034'
+source-wordcount: '1974'
 ht-degree: 0%
 
 ---
@@ -273,11 +273,11 @@ ht-degree: 0%
 
 您可以將「連線」檢視頁面型別的索引標籤新增至記錄，以檢視連線記錄或物件的資訊。 來自已連線記錄的資訊會以唯讀表格檢視顯示。
 
-&lt;！ — 在發行版本中以下列內容取代上述最後一句：
+<!--replace the last sentence above with this at release:
 
-在生產環境中，來自已連線記錄或物件的資訊會以唯讀表格檢視顯示。
+In the Production environment, the information from the connected records or objects displays in a read-only table view. 
 
-<Span class="preview">在「預覽」環境中，可以在表格檢視中編輯來自連線記錄的資訊。 從其他應用程式連線的物件資訊在資料表檢視中無法編輯。</span> —>
+<Span class="preview">In the Preview environment, the information from the connected records can be edited in the table view. The information from the objects connected from another application is not editable in the table view.</span> -->
 
 將「連線」檢視新增至記錄頁面時，請考量下列事項：
 
