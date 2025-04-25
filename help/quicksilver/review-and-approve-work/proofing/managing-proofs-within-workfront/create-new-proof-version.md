@@ -6,9 +6,9 @@ description: 管理作品多個版本或修訂版本的意見回饋可能是一�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee0c859e-349b-4e7a-ac80-164740b950f0
-source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
+source-git-commit: daa46f0e2a5f656d048260d4a714ed02f01cdbbf
 workflow-type: tm+mt
-source-wordcount: '1523'
+source-wordcount: '1521'
 ht-degree: 0%
 
 ---
@@ -225,4 +225,4 @@ If the creator or owner of&nbsp;&nbsp;the proof has
 如果您未在個人設定中儲存預設主旨和訊息，下列內容將會顯示在「新版本」頁面上：
 
 * 如果您使用標準電子郵件（例如無自訂主旨/訊息）通知檢閱者先前的校訂版本，依預設將會在新版本頁面上選取「透過電子郵件通知人員」選項。 若要新增自訂訊息，請按一下連結。
-* 如果您沒有透過電子郵件通知檢閱者先前的校訂版本（例如沒有標準或自訂電子郵件），「新版本」頁面預設不會包含任何訊息。 若要通知檢閱者新版本，請按一下「傳送訊息」連結。 然後，您可以按一下「新增自訂訊息」連結，以新增自訂主旨和訊息。
+* 如果您未將先前的校訂版本通知給檢閱者（例如沒有標準或自訂電子郵件），「新版本」頁面預設不會包含任何訊息。 若要通知檢閱者新版本，請按一下「傳送訊息」連結。 然後，您可以按一下「新增自訂訊息」連結，以新增自訂主旨和訊息。

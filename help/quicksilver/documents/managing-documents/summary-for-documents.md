@@ -7,9 +7,9 @@ description: 「摘要」可讓您直接從檔案清單與重要資訊互動。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: daa46f0e2a5f656d048260d4a714ed02f01cdbbf
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '443'
 ht-degree: 2%
 
 ---
@@ -20,9 +20,13 @@ ht-degree: 2%
 
 您可以使用「摘要」面板，直接從檔案清單存取和更新重要資訊。
 
+
++++ 展開以檢視本文中功能的存取需求。
+
+
 ## 存取需求
 
-您必須具備下列條件：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,7 +39,7 @@ ht-degree: 2%
    <td> <p> 任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
    <td> <p>新增：投稿人或更高版本</p> 
    <p>目前：要求或以上</p>
    </td> 
@@ -51,43 +55,47 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。 如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 開啟摘要檢視
 
-1. 移至&#x200B;**檔案**&#x200B;區域並選取清單中的專案。
-1. 按一下&#x200B;**開啟摘要圖示** ![開啟摘要圖示](assets/qs-summary-in-new-toolbar-small.png)。
+{{step1-to-documents}}
 
-   開啟「摘要」後，當您按一下其他檔案時，摘要會保持開啟狀態，直到您手動關閉摘要為止。
+1. 在&#x200B;**檔案**&#x200B;頁面上，選取清單中的檔案。
 
-   ![摘要詳細資料](assets/summary-details-350x585.png)
+1. 在頁面的右上角，按一下&#x200B;**開啟摘要**&#x200B;圖示![開啟摘要圖示](assets/qs-summary-in-new-toolbar-small.png)。 **檔案摘要**&#x200B;側面板隨即開啟。
+
+   ![摘要詳細資料](assets/document-summary-panel.png)
+
+   開啟「摘要」後，它仍會在此頁面上保持開啟狀態（即使您按一下其他檔案），直到您手動關閉它為止。
+
 
 ## 詳細資料
 
-使用詳細資訊區段檢視高階總覽資訊並與自訂表單互動。 按一下區段頂端的&#x200B;**詳細資料**，即可移至完整的「檔案詳細資料」頁面。
+使用詳細資訊區段檢視高階總覽資訊並與自訂表單互動。 按一下區段頂端的詳細資訊，即可移至完整的檔案詳細資訊頁面。
 
 * [總覽](#overview)
 * [自訂表單](#custom-forms)
-
-![檔案摘要詳細資料](assets/copy-of-doc-summary-details-section-350x404.png)
 
 ### 概觀 {#overview}
 
 展開「概觀」區段以檢視或下載影像縮圖、開啟校樣、更新基本說明、取出檔案等等。
 
-![檔案摘要概觀](assets/copy-of-doc-summary-with-overview-350x560.png)
+![檔案摘要概觀](assets/details-section.png)
 
 ### 自訂表單 {#custom-forms}
 
 使用自訂Forms區段來新增、編輯或檢視與檔案相關聯的任何自訂表單。 開始輸入自訂表單的名稱，以將其新增到檔案。 如需詳細資訊，請參閱[新增或編輯檔案的自訂表單](../../documents/managing-documents/add-custom-form-documents.md)。
 
-![在檔案摘要中新增自訂表格](assets/add-custom-form-doc-summary-350x265.png)
+![在檔案摘要中新增自訂表格](assets/custom-forms-section.png)
 
 ## 更新
 
-使用更新區段來讀取某人對該檔案或校訂進行的更新。 摘要會顯示前2個註解。 如需更新的詳細資訊，請參閱[對校訂的註解](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)。
+使用更新區段來檢視某人對該檔案或校訂進行的更新。 摘要會顯示前2個註解。 如需更新的詳細資訊，請參閱[對校訂的註解](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)。
 
-摘要面板中的![更新區段](assets/summary-updates-section-new-comments.png)
+摘要面板中的![更新區段](assets/updates-section.png)
 
 ## 核准
 
@@ -98,16 +106,16 @@ ht-degree: 2%
 * [核准工作](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [請求文件核准](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
-![檔案摘要核准](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
+![檔案摘要核准](assets/approvals-section.png)
 
 ## 版本
 
-使用「版本」區段可檢視針對特定檔案建立的版本數目。 按一下&#x200B;**其他功能表**&#x200B;以
+使用「版本」區段可檢視針對特定檔案建立的版本數目。 按一下&#x200B;**更多**&#x200B;圖示![更多圖示](assets/more-icon.png)以執行下列動作：
 
-* 開啟校訂
-* 下載校訂或檔案
-* 預覽瀏覽器支援的檔案
-* 前往檔案詳細資訊
-* 刪除校訂或檔案
+* 開啟校訂。
+* 下載校訂或檔案。
+* 預覽瀏覽器支援的檔案。
+* 前往檔案詳細資訊。
+* 刪除校訂或檔案。
 
-![檔案摘要版本](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
+![檔案摘要版本](assets/versions-section.png)
