@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 4536b0f15b208d96e7d823504574f879ed3dee2b
+source-git-commit: 828426242e87d99d27d763e1893dee81afa36fc4
 workflow-type: tm+mt
-source-wordcount: '1958'
+source-wordcount: '2009'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 如需Adobe Workfront的所有其他變更，請參閱[產品版本](/help/quicksilver/product-announcements/product-releases/product-releases.md)。
 
-## Workfront導覽和搜尋
+## 導覽與搜尋
 
 ### 進階搜尋的介面更新
 
@@ -325,3 +325,30 @@ ht-degree: 0%
 * 群組
 
 +++
+
+## 使用者
+
+### 已更新外部使用者的檔案共用頁面
+
+**預覽版本： 2024年4月10日；生產版本：自2024年4月17日起一週**
+
+我們已更新外部使用者的檔案共用頁面，採用與Workfront其他區域一致的更現代化設計。
+
+外部使用者無法再從此頁面存取&#x200B;_我的設定_。
+
+<!--
+
+### Updated external user registration page
+
+**Preview release: April 24, 2024; Production release: To be announced**
+
+We have updated the external user registration page with a more modern design that is consistent with other areas of Workfront.
+
+
+## Licenses
+
+### Updated license agreement page
+
+**Preview release: tbd; Production release: To be announced**
+
+We have updated the license agreement page with a more modern design that is consistent with other areas of Workfront.-->
