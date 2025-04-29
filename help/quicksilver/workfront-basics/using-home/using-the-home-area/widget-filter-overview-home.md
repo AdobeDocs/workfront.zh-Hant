@@ -6,10 +6,10 @@ description: 您可以從多個Widget中進行選擇，以自訂首頁上顯示�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 4994f099b11703bbffb396d494fd5622fc006cbf
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 13%
+source-wordcount: '963'
+ht-degree: 12%
 
 ---
 
@@ -238,6 +238,44 @@ ht-degree: 13%
     <td>顯示所有未指派主要使用者但已指派角色的問題 </td>
   </tr>
 </table>
+
+## 我的請求
+
+<table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">全部</td> 
+      <td>顯示所有已提交的請求，不論狀態或提交者為何。</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">開啟</td> 
+      <td> <p>顯示所有已提交的請求 
+      <ul>
+      <li>目前未完成的檔案，無論其提交者為何。 只有您至少有許可權檢視的要求，才會顯示在這裡（如果您未自行提交）。</li>
+      <li>沒有實際完成日期或其解析物件沒有實際完成日期則會列在「開啟」子標籤中。</li> 
+      </ul>
+      <p><b>附註</b> 
+      處於任何不等於「已關閉」狀態的請求會視為未完成。</p> 
+      </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">我的請求</td> 
+      <td>顯示您提交的請求，無論其狀態為何。 </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">我的待處理請求</td> 
+      <td> <p>顯示請求 
+      <ul>
+      <li>您已提交但尚未完成的專案。 </li> 
+      <li>沒有實際完成日期或其解析物件沒有實際完成日期則會列在「我的未結請求」子頁標中。 </li> 
+      </ul>
+      <p><b>附註</b> 
+      未處於已關閉狀態的請求會視為未完成。</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
 
 ## 我的工作
 
