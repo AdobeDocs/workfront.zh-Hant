@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f4c1f2170d826b4b6f1e8189e1fecc1edb6e0d97
 workflow-type: tm+mt
-source-wordcount: '3272'
+source-wordcount: '3231'
 ht-degree: 0%
 
 ---
@@ -661,24 +661,23 @@ ht-degree: 0%
                         <p>Workfront行銷活動可讓您在新的工作容器中組織來自不同投資組合和方案的專案。
 行銷活動在2022年7月透過22.3版發行預覽測試版。</p>
 <p>此新容器將在未來版本中改進，以連線目前在不同獨立單位中管理的工作物件。</p>
-
-    &lt;/td>
-    &lt;td>&lt;p>&lt;b>在以下日期提供：&lt;/b>&lt;/p>
-    &lt;ul>
-    &lt;li>
-    &lt;p>預覽版本：&amp;#GenStudio for Performance Marketers&amp;-160;整個22.4發行時間範圍&lt;br />&lt;/p>
-    &lt;/li>
-    &lt;li>
-    &lt;p>生產版本：&amp;#GenStudio for Performance Marketers&amp;-160;TBD IP&lt;/p>
-    &lt;/li>
-    &lt;/ul>
-    &lt;/td>
-    &lt;/tr>
-    &lt;tr>
-    &lt;td>
-    &lt;a href=&quot;../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>擴展的團隊描述&lt;/a>&lt;/p>
-    &lt;p>在團隊區域中，您現在可以通過按一下描述以彈出視窗顯示它來檢視完整的團隊描述。 說明中的任何URL都可以在快顯視窗中點選，而且您可以按一下說明文字來進行編輯（如果您有權編輯專案團隊設定）。&lt;/p>
-    &lt;p>之前，在狹窄區域中捲動說明是檢視所有內容的唯一方法。&lt;/p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本：在整個22.4版本時間範圍內<br /></p>
+                            </li>
+                            <li>
+                                <p>生產版本：待定</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">展開的團隊描述</a></p>
+                        <p>在專案團隊區域中，您現在可以按一下說明以在快顯視窗中顯示完整專案團隊說明。 說明中的任何URL都可以在快顯視窗中點選，而且您可以按一下說明文字來進行編輯（如果您有權編輯專案團隊設定）。</p>
+                        <p>之前，在狹窄區域中捲動說明是檢視所有內容的唯一方法。</p>
 <p>說明的這一增強功能適用於敏捷和非敏捷團隊。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
