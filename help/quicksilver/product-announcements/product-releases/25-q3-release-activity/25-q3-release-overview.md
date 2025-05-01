@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 036846cc84e53b090276f7b853372e4e0050c316
+source-git-commit: f8344ad64305b5ffe05f208da06cf330affa5850
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '595'
 ht-degree: 2%
 
 ---
@@ -41,7 +41,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Adobe Workfront增強功能
 
 * [檔案管理增強功能](#document-management-enhancements)
-* [更新及通知增強功能]
+* [報告增強功能](#reporting-enhancements)
+* [更新和通知增強功能](#update-and-notification-enhancements)
 * [其他增強功能](#other-enhancements)
 
 ### 檔案管理增強功能
