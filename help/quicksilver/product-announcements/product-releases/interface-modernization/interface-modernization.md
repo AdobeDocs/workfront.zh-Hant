@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 828426242e87d99d27d763e1893dee81afa36fc4
+source-git-commit: 6350e815e39d642a88a2c9c8b17208db5cb253c5
 workflow-type: tm+mt
-source-wordcount: '2009'
+source-wordcount: '2064'
 ht-degree: 0%
 
 ---
@@ -150,6 +150,14 @@ ht-degree: 0%
 **預覽版本： 2025年1月16日；自2025年1月30日起一週**
 
 我們已更新「設定>檔案> Sharepoint整合」中的「新增Sharepoint」對話方塊，採用與Workfront其他區域一致的更現代化設計。
+
+此更新包含區域的視覺化變更。 功能未變更。
+
+### 新增自訂整合對話方塊的介面更新
+
+**預覽版本： 2025年1月16日；自2025年1月30日起一週**
+
+我們已更新「設定>檔案>自訂整合」中的「新增自訂整合」對話方塊，使其採用與Workfront其他區域一致的更現代化設計。
 
 此更新包含區域的視覺化變更。 功能未變更。
 
