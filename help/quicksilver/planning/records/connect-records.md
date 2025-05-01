@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '3333'
+source-wordcount: '3359'
 ht-degree: 1%
 
 ---
@@ -125,7 +125,8 @@ ht-degree: 1%
   </tr> 
 <tr> 
    <td role="rowheader"><p>版面配置範本</p></td> 
-   <td> <p>必須為所有使用者(包括Workfront管理員)指派一個版面配置範本，該範本包含主功能表中的Planning區域 </p> </td> 
+   <td> <p>在「生產」環境中，所有使用者（包括系統管理員）都必須指派給包含Planning區域的版面配置範本。</p>
+<p><span class="preview">在「預覽」環境中，「標準使用者」和「系統管理員」預設會啟用「規劃」區域。</span></p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -133,14 +134,6 @@ ht-degree: 1%
 *如需Workfront存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
-
-<!--replace the layout template info in the table with this at release: 
-
-
-<p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
-
--->
 
 ## 連線記錄的考量事項
 
@@ -165,7 +158,7 @@ ht-degree: 1%
 * 表格檢視中的已連線記錄欄位。
 * 記錄的預覽方塊或頁面在詳細資訊索引標籤的已連線記錄欄位中。
 * 記錄的預覽方塊或頁面（在連線標籤上）。
-* 記錄在「連線檢視」標籤上的頁面。<!--this needs title edit when they rename the "Connection view" page type-->
+* <span class="preview">連線的記錄頁面</span>索引標籤上的記錄頁面。
 
 ### 從記錄的表格檢視或詳細資訊區域連線Workfront Planning記錄
 
@@ -463,9 +456,8 @@ ht-degree: 1%
 
    記錄會立即與Workfront Planning的所有區域或其可能顯示為已連線的其他應用程式中斷連線。 任何查詢欄位值也會被移除。
 
-### 從記錄詳細資訊頁面上的「連線」檢視標籤中連線記錄
+### Connect records from the <span class="preview">Connected records page</span> of a record
 
-<!--section needs title edit when they rename the "Connection view" page type-->
 
 1. 移至記錄型別的任何檢視，該記錄型別已連線到其他Planning記錄型別或其他應用程式的物件型別。
 1. 請依照先前子段落中所述的步驟，在檢視中尋找要與其他記錄或物件連線的記錄。
@@ -473,9 +465,11 @@ ht-degree: 1%
 
    預覽頁面隨即開啟。
 1. 按一下&#x200B;**在新標籤中開啟**&#x200B;圖示![在新標籤中開啟詳細資料](assets/open-details-in-a-new-tab-icon.png)以開啟紀錄的頁面。
-1. 在記錄的預覽或頁面中按一下現有的連線檢視索引標籤。 您必須先建立「連線」檢視頁面。 如需詳細資訊，請參閱[管理記錄頁面配置](/help/quicksilver/planning/records/manage-the-record-page.md)。
+1. 按一下記錄頁面中現有的<span class="preview">連線記錄頁面</span>索引標籤。 您必須先建立<span class="preview">連線的記錄頁面</span>。 如需詳細資訊，請參閱[管理記錄頁面配置](/help/quicksilver/planning/records/manage-the-record-page.md)。
 
    表格檢視中會顯示已連線的記錄型別頁面。
+
+   表格中會顯示一種型別的所有連線記錄。
 1. 按一下&#x200B;**連線**&#x200B;以新增或移除記錄。
 
    連線記錄詳細資訊索引標籤中反白的![連線按鈕](assets/connect-button-highlighted-in-connected-record-details-tab.png)

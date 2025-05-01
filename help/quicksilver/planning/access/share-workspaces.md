@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '918'
 ht-degree: 1%
 
 ---
@@ -113,6 +113,7 @@ This article describes how you can share a view with others. For information abo
 
 * 如需在Workfront Planning中共用物件的一般資訊，另請參閱[在Adobe Workfront Planning中共用許可權概觀](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
 * 您可以與組織內的使用者、團隊、角色、群組或公司共用工作區。
+* 除了團隊、群組、公司和職務角色之外，您只能與已新增至Adobe Admin Console的使用者共用。
 * 您無法與組織外部的使用者共用工作區。
 * 當您共用工作區時，也會共用與工作區相關聯的所有記錄型別、記錄和欄位。
 * 當您共用工作區時，檢視不會共用。 您必須個別共用檢視。

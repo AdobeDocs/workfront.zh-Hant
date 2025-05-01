@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: f171db8474df703fddbf63a673f9bfbd2ab2db27
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '2872'
-ht-degree: 3%
+source-wordcount: '3205'
+ht-degree: 2%
 
 ---
 
 # 管理表格檢視
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">本頁標示的資訊是指尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -86,7 +86,8 @@ ht-degree: 3%
   </tr> 
 <tr> 
    <td role="rowheader"><p>版面配置範本</p></td> 
-   <td> <p>必須為所有使用者(包括Workfront管理員)指派一個版面配置範本，該範本包含主功能表中的Planning區域。 </p> </td> 
+   <td> <p>在「生產」環境中，所有使用者（包括系統管理員）都必須指派給包含Planning區域的版面配置範本。</p>
+<p><span class="preview">在「預覽」環境中，「標準使用者」和「系統管理員」預設會啟用「規劃」區域。</span></p></td> 
   </tr> 
 </tbody> 
 </table>
@@ -95,13 +96,7 @@ ht-degree: 3%
 
 +++
 
-<!--replace the layout template info in the table with this at release: 
 
-
-<p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
-
--->
 
 ## 使用表格檢視編輯記錄
 
@@ -117,9 +112,11 @@ ht-degree: 3%
 
 若要管理表格檢視：
 
-1. 建立資料表檢視，如文章[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)中所述。
+1. <span class="preview">建立資料表檢視，如文章[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)中所述。</span>
 
-   ![資料表檢視範例](assets/table-view-example.png)
+   <span class="preview">![資料表檢視範例](assets/table-view-example.png)
+
+   </span>
 
 1. （選擇性）按一下&#x200B;**列高度**，然後從下列選項中選取，以修改表格列的高度：
    * 短
@@ -130,14 +127,17 @@ ht-degree: 3%
    * [欄（或欄位）](#add-columns-or-fields)
    * [列（或記錄）](#add-rows-or-records)
    * [篩選器](#add-filters)
-   * [分組](#add-groupings)
    * [排序](#add-a-sort)
-   * [啟用即時顯示狀態指示器](#enable-the-real-time-presence-indicator)
+   * [分組](#add-groupings)
+   * <span class="preview">[列色彩](#add-row-colors)</span>
+   * [即時狀態指示器](#enable-the-real-time-presence-indicator)
 
 
 ### 新增欄（或欄位） {#add-columns}
 
-表格檢視的欄標題會顯示與檢視中記錄相關聯的欄位。 表格檢視中顯示的相同欄位也會顯示在記錄的「詳細資訊」區段中。 如需詳細資訊，請參閱[編輯記錄](/help/quicksilver/planning/records/edit-records.md)。
+表格檢視的欄標題會顯示與檢視中記錄相關聯的欄位。 表格檢視中顯示的欄位也會顯示在記錄的「詳細資訊」區段中。
+
+如需詳細資訊，請參閱[編輯記錄](/help/quicksilver/planning/records/edit-records.md)。
 
 <!--this is not available yet:You can display record fields (or columns) in both a table and a timeline view. However, the number of columns displayed in the table of the timeline view is limited and you cannot add columns in addition to those selected by default.-->
 
@@ -362,55 +362,6 @@ ht-degree: 3%
 1. （選擇性）按一下&#x200B;**x**&#x200B;圖示以移除篩選條件。
 1. （選擇性）按一下&#x200B;**篩選器**&#x200B;以關閉篩選器方塊。<!--right now you cannot "clear all" for filters, but this might come later-->
 
-### 新增群組 {#add-groupings}
-
-<!--this section exists in the timeline view too, but the display is slightly different, so I kept both steps; consider updating both sections if any updates to groupings are introduced-->
-
-將群組套用至檢視時，您可以依照類似的資訊來群組記錄。
-
-在表格檢視中新增群組，類似於在時間軸檢視中新增群組。
-
-請考量下列事項：
-
-* 您可以在表格和時間軸檢視中套用群組。 表格檢視的分組與相同記錄型別之時間軸檢視中的群組是獨立的。
-* 您可以在檢視中套用3個群組層級。 記錄會依照您選取的群組順序進行分組。
-&lt;！—*使用API時，您最多可以套用4個層級的群組。  — 現在正在檢查此專案 — >
-* 群組對於您選取的檢視而言是唯一的。 相同記錄型別的兩個表格檢視可以套用不同的群組。 檢視相同表格檢視的兩個使用者會看到目前套用的相同分組。
-* 您無法為表格檢視建立的分組命名。
-* 移除群組會將群組從存取與您相同記錄型別以及顯示與您相同檢視的任何人中移除。
-* 您可以編輯列在群組下的記錄。
-* 您可以依連線的記錄欄位或查詢欄位來分組。
-* 當您依具有多個值（尚未由彙總器彙總）的查閱欄位來分組時，記錄會依每個唯一的欄位值組合來分組。
-* 您可以參考與目前記錄型別相距最多4個層級的欄位。 例如，如果您正在建立「活動」記錄型別的群組，且「活動」已連線至「產品」記錄型別，而該記錄型別已連線至「行銷活動」記錄型別，而該記錄型別已連線至「Workfront專案」，則您可在您為「活動」記錄型別所建立的分組中參考專案的「狀態」。
-<!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
-<!-- checking also into this: * You cannot group by a Paragraph-type field.-->
-
-若要新增群組：
-
-1. 如文章[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)中所述，建立記錄型別的時間表檢視。
-1. 按一下表格檢視右上角的&#x200B;**群組**。
-
-   ![使用連結欄位將UI表格檢視分組](assets/grouping-ui-table-view-with-linked-fields.png)
-
-1. 按一下其中一個建議的欄位，或按一下&#x200B;**選擇其他欄位**，搜尋其他欄位，然後在欄位顯示在清單中時按一下它。
-
-   此分組會自動套用至表格，且記錄會顯示在分組分隔行下方。
-
-1. （選擇性）按一下&#x200B;**新增條件**&#x200B;並重複上述步驟以新增最多3個群組。
-
-   為分組選取的欄位數會顯示在「分組」圖示旁。
-
-   ![在資料表檢視中套用群組](assets/grouping-applied-in-table-view.png)
-
-1. （選擇性）在&#x200B;**群組記錄依據**&#x200B;方塊中，按一下選取要移除分組的欄位右邊的&#x200B;**x**&#x200B;圖示
-
-   或
-
-   按一下&#x200B;**全部清除**&#x200B;以移除所有欄位。
-
-1. 按一下「**依**&#x200B;分組記錄」方塊外部以關閉它。
-1. （選擇性）在任何群組結束時按一下&#x200B;**+新記錄**&#x200B;以新增記錄，然後重新整理您的頁面以將新記錄新增到適當的群組。<!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
-
 ### 新增排序 {#sort-information}
 
 透過套用排序，您可以依指定順序組織資訊。
@@ -473,6 +424,56 @@ ht-degree: 3%
 
    為排序選取的欄位會顯示排序圖示，後面跟著數字，表示套用排序的順序。
 
+### 新增群組 {#add-groupings}
+
+<!--this section exists in the timeline view too, but the display is slightly different, so I kept both steps; consider updating both sections if any updates to groupings are introduced-->
+
+將群組套用至檢視時，您可以依照類似的資訊來群組記錄。
+
+在表格檢視中新增群組，類似於在時間軸檢視中新增群組。
+
+請考量下列事項：
+
+* 您可以在表格和時間軸檢視中套用群組。 表格檢視的分組與相同記錄型別之時間軸檢視中的群組是獨立的。
+* 您可以在檢視中套用3個群組層級。 記錄會依照您選取的群組順序進行分組。
+&lt;！—*使用API時，您最多可以套用4個層級的群組。  — 現在正在檢查此專案 — >
+* 群組對於您選取的檢視而言是唯一的。 相同記錄型別的兩個表格檢視可以套用不同的群組。 檢視相同表格檢視的兩個使用者會看到目前套用的相同分組。
+* 您無法為表格檢視建立的分組命名。
+* 移除群組會將群組從存取與您相同記錄型別以及顯示與您相同檢視的任何人中移除。
+* 您可以編輯列在群組下的記錄。
+* 您可以依連線的記錄欄位或查詢欄位來分組。
+* 當您依具有多個值（尚未由彙總器彙總）的查閱欄位來分組時，記錄會依每個唯一的欄位值組合來分組。
+* 您可以參考與目前記錄型別相距最多4個層級的欄位。 例如，如果您正在建立「活動」記錄型別的群組，且「活動」已連線至「產品」記錄型別，而該記錄型別已連線至「行銷活動」記錄型別，而該記錄型別已連線至「Workfront專案」，則您可在您為「活動」記錄型別所建立的分組中參考專案的「狀態」。
+<!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
+<!-- checking also into this: * You cannot group by a Paragraph-type field.-->
+
+若要新增群組：
+
+1. 如文章[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)中所述，建立記錄型別的時間表檢視。
+1. 按一下表格檢視右上角的&#x200B;**群組**。
+
+   ![使用連結欄位將UI表格檢視分組](assets/grouping-ui-table-view-with-linked-fields.png)
+
+1. 按一下其中一個建議的欄位，或按一下&#x200B;**選擇其他欄位**，搜尋其他欄位，然後在欄位顯示在清單中時按一下它。
+
+   此分組會自動套用至表格，且記錄會顯示在分組分隔行下方。
+
+1. （選擇性）按一下&#x200B;**新增條件**&#x200B;並重複上述步驟以新增最多3個群組。
+
+   為分組選取的欄位數會顯示在「分組」圖示旁。
+
+   ![在資料表檢視中套用群組](assets/grouping-applied-in-table-view.png)
+
+1. （選擇性）在&#x200B;**群組記錄依據**&#x200B;方塊中，按一下選取要移除分組的欄位右邊的&#x200B;**x**&#x200B;圖示
+
+   或
+
+   按一下&#x200B;**全部清除**&#x200B;以移除所有欄位。
+
+1. 按一下「**依**&#x200B;分組記錄」方塊外部以關閉它。
+1. （選擇性）在任何群組結束時按一下&#x200B;**+新記錄**&#x200B;以新增記錄，然後重新整理您的頁面以將新記錄新增到適當的群組。<!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
+
+
 <!-- this is not available yet: 
 
 To sort grouped records: 
@@ -481,6 +482,42 @@ To sort grouped records:
 1. ************************* add steps here for sorting grouped records****************
 
 -->
+
+<div class="preview">
+
+### 新增列顏色
+
+1. （選擇性）按一下&#x200B;**列色彩**&#x200B;以定義條件並選擇為表格列設定不同的色彩。
+
+1. 按一下&#x200B;**新增顏色**，然後&#x200B;**選取要決定列顏色的欄位**。
+
+   例如，若要以綠色顯示狀態為「作用中」的行銷活動，請選取「**狀態**」，然後為該欄位選擇修飾元和值。
+
+   ![已選取[使用中]狀態且預設顏色選擇的[列顏色]方塊](assets/row-colors-box-with-active-status-selected-default-color-choice.png)
+
+1. 按一下所選取條件左上角之檢色器的下拉式功能表，以選取條件的顏色，然後按一下檢色器方塊外部以關閉它。
+
+   ![列顏色方塊中的下拉式檢色器功能表反白顯示](assets/drop-down-color-picker-menu-in-row-colors-box-highlighted.png)
+
+1. （選擇性）按一下&#x200B;**新增條件**，將更多欄位和值新增至第一組條件
+
+   或
+
+   按一下&#x200B;**新增顏色**&#x200B;以新增一組條件並識別新顏色。
+
+   例如，您可以定義一組新的條件，以黃色顯示「計畫」狀態的行銷活動。
+
+   ![列色彩方塊，具有作用中和Planning狀態自訂色彩](assets/row-colors-box-with-active-and-planning-status-custom-colors.png)
+
+1. （選擇性）開啟[列色彩]方塊右上角的&#x200B;**套用至整列**&#x200B;設定。 符合條件的整列會自動以選取的顏色顯示。
+
+   >[!TIP]
+   >
+   >如果關閉「套用至整個列」設定，則只有「主要」欄位的左側會顯示具有所選顏色的窄顏色指示器。 此設定預設為關閉。
+
+1. 按一下&#x200B;**列色彩**&#x200B;方塊外部以將其關閉。 會自動套用顏色。
+
+</div>
 
 ### 啟用即時顯示狀態指示器
 

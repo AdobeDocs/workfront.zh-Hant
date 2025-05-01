@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 8fcc6c75811080f3ee152849a149542be8ae820c
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '1974'
-ht-degree: 0%
+source-wordcount: '2258'
+ht-degree: 1%
 
 ---
 
@@ -105,7 +105,8 @@ ht-degree: 0%
   </tr>
 <tr>
    <td role="rowheader"><p>版面配置範本</p></td>
-   <td> <p>必須為所有使用者(包括Workfront管理員)指派一個版面配置範本，該範本包含主功能表中的「規劃」區域，以及專案、投資組合和方案的「規劃」區域。 </p> 如需詳細資訊，請參閱<a href="/help/quicksilver/planning/access/access-overview.md">Adobe Planning存取總覽</a>。 </p>  </p>  
+   <td> <p>在「生產」環境中，所有使用者（包括系統管理員）都必須指派給包含Planning區域的版面配置範本。</p>
+<p><span class="preview">在「預覽」環境中，「標準使用者」和「系統管理員」預設會啟用「規劃」區域。</span></p>  
 </td>
   </tr>
  </tbody>
@@ -115,12 +116,6 @@ ht-degree: 0%
 
 +++
 
-<!--replace the layout template info in the table with this at release: 
-
-<p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
-
--->
 
 ## 編輯記錄頁面的考量事項
 
@@ -267,35 +262,48 @@ ht-degree: 0%
 
    對記錄預覽或頁面儲存的版面配置所做的所有變更都會自動完成。
 
-## 新增連線檢視索引標籤到記錄的頁面
+## 將<span class="preview">連線的記錄頁面</span>新增至記錄
 
-<!--suggested a new name for this type of page: "Connected records page" - check to see if this changed, and update this everywhere in this section-->
+您可以將<span class="preview">連線記錄頁面</span>的索引標籤新增至記錄，以檢視連線記錄或物件的資訊。
 
-您可以將「連線」檢視頁面型別的索引標籤新增至記錄，以檢視連線記錄或物件的資訊。 來自已連線記錄的資訊會以唯讀表格檢視顯示。
+在生產環境中，來自已連線記錄或物件的資訊會以唯讀表格檢視顯示。
 
-<!--replace the last sentence above with this at release:
+<span class="preview">在「預覽」環境中，可以在表格檢視中編輯來自連線記錄的資訊。 從其他應用程式連線的物件資訊在資料表檢視中無法編輯。</span>
 
-In the Production environment, the information from the connected records or objects displays in a read-only table view. 
+將<span class="preview">連線的記錄頁面</span>新增至記錄時，請考量下列事項：
 
-<Span class="preview">In the Preview environment, the information from the connected records can be edited in the table view. The information from the objects connected from another application is not editable in the table view.</span> -->
+* 從記錄型別的表格檢視中，將記錄或物件型別連線到記錄型別之後，您可以將<span class="preview">連線的記錄頁面</span>新增到記錄中。
 
-將「連線」檢視新增至記錄頁面時，請考量下列事項：
+* 您無法將<span class="preview">連線的記錄頁面</span>新增到記錄的預覽區域。
 
-* 將記錄或物件型別連線至記錄型別後，您可以將「連線」檢視頁面新增至記錄頁面。
+* <span class="preview">連線的記錄頁面</span>在表格檢視中只會顯示連線的物件或來自一個物件或記錄型別的記錄。 頁面不會在表格檢視中顯示該型別的所有記錄。
 
-* 您無法將[連線]檢視頁面新增到記錄的預覽區域。
+* 將<span class="preview">已連線的記錄頁面</span>新增到記錄之後，可從記錄的預覽區域看到頁面標籤，但它是空白的。 您必須移至完整頁面，才能檢視連線記錄的表格檢視。<!--this might have changed? check and take disclaimer out-->
 
-* 「連線檢視」頁面會在表格檢視中顯示一個連線記錄型別頁面，或是另一個應用程式中的連線物件型別。
+* 您可以為下列連線記錄或物件型別新增<span class="preview">連線記錄頁面</span>：
 
-* 將「連線」檢視頁面新增到記錄頁面後，可從記錄的預覽區域看到頁面索引標籤。 您必須移至完整頁面，才能檢視連線記錄的表格檢視。<!--this might have changed? check and take disclaimer out-->
+   * Workfront Planning記錄型別
+   * Workfront專案、方案、投資組合、群組或公司。 即使您沒有在Workfront中存取Workfront物件的許可權，仍可檢視連線物件。
 
-若要新增「連線」檢視頁面：
+  >[!NOTE]
+  >
+  >   您無法新增已連線AEM Assets記錄的<span class="preview">已連線記錄頁面</span>。
+
+
+若要新增<span class="preview">連線記錄頁面</span>：
 
 1. 從記錄頁面檢視中，按一下記錄名稱以開啟它，然後按一下預覽頁面右上角的&#x200B;**在新索引標籤中開啟**&#x200B;圖示![在新索引標籤中開啟詳細資料](assets/open-details-in-a-new-tab-icon.png)。
 1. 按一下&#x200B;**新增頁面**。
 
-   ![新增連線檢視頁面強制回應視窗](assets/add-connection-view-page-modal.png)
-1. 新增&#x200B;**頁面名稱**，按一下&#x200B;**連線檢視**，然後按一下&#x200B;**建立**。
+   <div class="preview">
+
+   **建立頁面**&#x200B;方塊開啟。
+
+   ![新增連線記錄頁面模組](assets/add-connection-view-page-modal.png)
+
+   </div>
+
+1. 新增&#x200B;**頁面名稱**，按一下&#x200B;**<span class="preview">連線記錄頁面</span>**，然後按一下&#x200B;**建立**。
 
    新索引標籤將新增到記錄的頁面。
 1. 搜尋或按一下清單中連線記錄或物件型別的名稱。
@@ -310,32 +318,37 @@ In the Production environment, the information from the connected records or obj
 
 1. （選擇性）在連線記錄的表格檢視中，執行下列任一項作業：
 
-   * 按一下記錄名稱。 這會在新索引標籤中開啟記錄頁面。<!--<span class="preview">In the Preview environment, this opens the record's preview page.</span>-->
-   * 按一下[連線]**連線**以連線更多記錄，然後按一下連線方塊外部以關閉連線。 新記錄會自動新增到表格中。
-     <!--* <span class="preview">Edit any information from the connected records inside the table view. </span>-->
+   * 按一下記錄名稱。 這會在新索引標籤中開啟記錄頁面。
 
-   <!--<div class="preview">
+     <span class="preview">在預覽環境中，這會開啟記錄的預覽頁面。 按一下右上角的&#x200B;**在新索引標籤中開啟**&#x200B;圖示![在新索引標籤中開啟](assets/open-details-in-a-new-tab-icon.png)以開啟連線記錄的頁面。</span>
 
-   * Hover over a connected record's name, then click the **More** menu ![More menu](assets/more-menu.png), then click one of the following options: 
-      * View 
-      * Copy link
-      * Edit thumbnail
-      * Duplicate
-      * Insert record above or below
-      * Delete 
-   * Select one of the records, then click one of the following options in the blue bar at the bottom of the screen: 
-      * View
-      * Copy link
-      * Edit thumbnail
-      * Duplicate
-      * Delete. Delete is the only option available when you select more than one record. 
+   * 按一下[連線]**連線**&#x200B;以連線更多記錄，然後按一下連線方塊外部以關閉連線。 新記錄會自動新增到表格中。
+   * <span class="preview">編輯資料表檢視內連線記錄的任何資訊。</span>
 
-      For information about editing records in the table view, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
+   <div class="preview">
 
-   </div>-->
+   * 將游標停留在連線記錄的名稱上，然後按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下下列其中一個選項：
+      * 檢視
+      * 複製連結
+      * 編輯縮圖
+      * 複製
+      * 在上方或下方插入記錄
+      * 刪除
+   * 選取其中一個記錄，然後按一下畫面底部藍色列中的下列選項之一：
+      * 檢視
+      * 複製連結
+      * 編輯縮圖
+      * 複製
+      * 刪除。 當您選取多個記錄時，「刪除」是唯一可用的選項。
+
+     如需有關編輯表格檢視中記錄的資訊，請參閱[編輯記錄](/help/quicksilver/planning/records/edit-records.md)。
+
+   * 在「連線的記錄」頁面上，內聯編輯表格中的任何記錄。 Workfront物件會以唯讀表格檢視顯示，且您無法加以編輯。
+
+   </div>
 
 
-1. （可選）連按兩下「連線」檢視標籤的名稱
+1. （選擇性）連按兩下<span class="preview">連線記錄頁面</span>索引標籤的名稱
 
    或
 
@@ -355,7 +368,7 @@ In the Production environment, the information from the connected records or obj
    >
 
 1. 按一下&#x200B;**連線**&#x200B;以新增或移除記錄。 如需詳細資訊，請參閱[連線記錄](/help/quicksilver/planning/records/connect-records.md)
-1. （選擇性）將游標暫留在[連線檢視]索引標簽名稱上，按一下[其他] **** ![ [其他]功能表](assets/more-menu.png)，然後按一下[刪除] ****&#x200B;以移除索引標籤。
+1. （選擇性）將游標暫留在<span class="preview">連線記錄頁面</span>索引標簽名稱上，按一下&#x200B;**更多** ![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**刪除**&#x200B;以移除索引標籤。
 
 
 

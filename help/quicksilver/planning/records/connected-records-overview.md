@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 0%
    * Planning中記錄型別的表格檢視中的已連線記錄欄位。
    * 記錄的預覽或頁面在詳細資訊索引標籤的已連線記錄欄位中。
    * 記錄在「連線」標籤上的預覽或頁面。
-   * 已連線記錄之連線檢視標籤中的記錄頁面。
+   * 已連線記錄之<span class="preview">已連線記錄頁面</span>索引標籤中的記錄頁面。
 
 * 您可以在Workfront的下列區域中，將Workfront物件連結至Workfront Planning記錄：
 

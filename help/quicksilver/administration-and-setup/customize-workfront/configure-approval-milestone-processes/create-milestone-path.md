@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '816'
 ht-degree: 3%
 
 ---
@@ -136,7 +136,7 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
 里程碑已刪除且無法復原。 與里程碑關聯的任何專案資訊以及與里程碑路徑關聯的任何任務資訊也會被刪除。
 
 
-## 在報告中檢視里程碑路徑詳細資訊
+## 在專案報告中檢視里程碑路徑詳細資訊
 
 您可以在專案報告中檢視里程碑路徑的詳細資訊。
 

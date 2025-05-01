@@ -6,9 +6,9 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '798'
 ht-degree: 2%
 
 ---
@@ -116,12 +116,16 @@ ht-degree: 2%
   </tr>
 <tr>
    <td role="rowheader"><p>版面配置範本</p></td>
-   <td> <p>必須為所有使用者(包括Workfront管理員)指派一個版面配置範本，該範本包含以下區域的Planning選項：</p>
+   <td> <div class="preview">
+<p>標準使用者和系統管理員預設會啟用Planning區域。</p>
+<p> 必須為具有輕度或貢獻者授權的使用者指派包含下列區域中Planning選項的版面配置範本：</p>
    <ul><li>主要功能表</li>
    <li>專案、投資組合和方案的左側面板</li>
-   <li>登陸頁面</li>
-   <li>圖釘</li></ul>
-   <p>如需詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">建立及管理配置範本</a>。</p> 
+   </ul>
+   <p>如需詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">建立及管理配置範本</a>。</p>
+   </div>
+   <p><b>附註</b></p>
+   <p>在「生產」環境中，所有使用者（包括系統管理員）都必須指派給包含Planning區域的版面配置範本。</p>
 </td>
   </tr>
  </tbody>
@@ -130,20 +134,9 @@ ht-degree: 2%
 *如需Workfront存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 
-<!--replace the layout template info in the table with this at release: 
 
-<div class="preview">
-<p> Users with a Light or Contributor license must be assigned a layout template that includes the Planning option  in the following areas:</p>
-   <ul><li>Main Menu</li>
-   <li>Left panel of projects, portfolios, and programs</li>
-   <li>Landing page</li>
-   <li>Pins</li></ul>
-   <p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">Create and manage layout templates</a>.</p>
-   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div>
-   <p><b>NOTE</b></p>
-   <p>In the Production environment, all users including the System administrators must be assigned to a layout template that includes the Planning areas.</p>
 
--->
+
 
 ## 使用版面配置範本共用Planning區域
 
@@ -156,7 +149,16 @@ ht-degree: 2%
 * 專案、投資組合和計畫的左側面板
 * 圖釘
 
-若要將Workfront Planning區域新增至Workfront例項：
+<div class="preview">
+
+標準使用者和系統管理員預設會在下列區域中啟用Planning區域：
+
+* 主要功能表
+* 專案、專案組合或方案的左側面板
+
+</div>
+
+若要新增<span class="preview">或移除Workfront執行個體使用者的</span>個Workfront Planning區域：
 
 1. 以Workfront管理員身分登入&#x200B;**Workfront**。
 
