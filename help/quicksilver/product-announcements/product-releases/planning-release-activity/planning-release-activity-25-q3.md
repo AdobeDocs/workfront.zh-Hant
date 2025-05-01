@@ -7,7 +7,7 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 711810c00ba8657230dbda558629613be2b35d9b
+source-git-commit: 036846cc84e53b090276f7b853372e4e0050c316
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 0%
@@ -103,3 +103,5 @@ ht-degree: 0%
 * 您可以停用記錄型別的繼承許可權，讓工作區中所有人員的記錄型別成為唯讀。 之後，您可以新增個別人員、團隊、群組、公司或角色，並授予他們記錄型別的Contribute許可權。
 
 如需詳細資訊，請參閱[共用記錄型別](/help/quicksilver/planning/access/share-record-types.md)。
+
+
