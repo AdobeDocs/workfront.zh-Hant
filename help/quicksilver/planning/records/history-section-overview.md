@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
-source-git-commit: f171db8474df703fddbf63a673f9bfbd2ab2db27
+source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '757'
 ht-degree: 3%
 
 ---
@@ -89,7 +89,15 @@ ht-degree: 3%
   </tr> 
 <tr> 
    <td role="rowheader"><p>版面配置範本</p></td> 
-   <td> <p>必須為所有使用者(包括Workfront管理員)指派一個版面配置範本，該範本包含主功能表中的Planning區域。 </p> </td> 
+   <td> 
+   <p>在「生產」環境中，所有使用者（包括系統管理員）都必須指派給包含Planning區域的版面配置範本。</p>
+   <div class="preview">
+<p> 在「預覽」環境中，必須為具有輕度或貢獻者授權的使用者指派包含Planning的版面配置範本。</p>
+
+<p>標準使用者和系統管理員預設啟用Planning。</p></div>
+
+<p>如需詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">建立及管理配置範本</a>。</p>
+    </td> 
   </tr> 
 </tbody> 
 </table>
@@ -97,21 +105,6 @@ ht-degree: 3%
 *如需Workfront存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
-
-<!--replace the layout template info in the table with this at release: 
-
-<div class="preview">
-<p> Users with a Light or Contributor license must be assigned a layout template that includes the Planning option  in the following areas:</p>
-   <ul><li>Main Menu</li>
-   <li>Left panel of projects, portfolios, and programs</li>
-   <li>Landing page</li>
-   <li>Pins</li></ul>
-   <p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">Create and manage layout templates</a>.</p>
-   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div>
-   <p><b>NOTE</b></p>
-   <p>In the Production environment, all users including the System administrators must be assigned to a layout template that includes the Planning areas.</p>
-
--->
 
 ## 找出記錄的「歷史記錄」區段
 

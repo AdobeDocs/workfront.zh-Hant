@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
+source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
 workflow-type: tm+mt
-source-wordcount: '1878'
+source-wordcount: '1979'
 ht-degree: 2%
 
 ---
@@ -19,11 +19,9 @@ ht-degree: 2%
 
 <!--do not use the snippet for IMPORTANT as it links to this article-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>-->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 >[!IMPORTANT]
 >
@@ -168,18 +166,14 @@ The following features are currently available in Workfront Planning:
 
 貴組織購買Workfront Planning套件後，身為Workfront管理員，您必須確定已具備下列專案，使用者才能存取Workfront Planning：
 
-* 指派需要存取Planning版面配置範本的使用者，該範本包含主功能表中的Planning。 如需詳細資訊，請參閱[使用配置範本自訂主功能表](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)和[將使用者指派給配置範本](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)。
+* 根據您使用的環境，為下列使用者指派配置範本，該範本包含「主功能表」中的Planning：
 
-<!-- replace the bullet above with this at release: 
-* Depending on what environment you use, assign the following users a layout template that includes Planning in the Main Menu:
+   * 在生產環境中，將範本指派給所有授權型別的所有使用者，包括系統管理員。
 
-    * In the Production environment, assign the template to all users of all license types, including System Administrators. 
+   * <span class="preview">在「預覽」環境中，將範本指派給「輕度」和「貢獻」使用者。 標準使用者和系統管理員預設啟用Planning。</span>
 
-    * <span class="preview">In the Preview environment, assign the template to Light and Contribute users. Standard users and System Administrators have the Planning area in their Main Menu by default. </span>
-    
-    For more information, see [Customize the Main Menu using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) and [Assign users to a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md). 
+  如需詳細資訊，請參閱[使用配置範本自訂主功能表](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)和[將使用者指派給配置範本](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)。
 
--->
 
 * 為使用者指派Workfront授權和Workfront Planning許可權，讓他們能夠在Workfront Planning中檢視或建立物件。 如需授與存取權給其他人以及允許其他人使用Workfront Planning的詳細資訊，請參閱[Adobe Planning存取權概觀](/help/quicksilver/planning/access/access-overview.md)。
 

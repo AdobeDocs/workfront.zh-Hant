@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
+source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
 workflow-type: tm+mt
-source-wordcount: '1499'
+source-wordcount: '1517'
 ht-degree: 0%
 
 ---
@@ -63,61 +63,54 @@ ht-degree: 0%
 <ul><li>選取</li> 
 <li>Prime</li> 
 <li>Ultimate</li></ul> 
-<p>工作前台計劃不適用於舊版工作前台計劃</p> 
+<p>舊版Workfront計畫不提供Workfront計畫</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Systems 工作前端規劃包*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront規劃套件*</p></td> 
    <td> 
 <p>任何 </p> 
-<p>有關每個工作前端計劃中包含的內容的詳細信息，請聯繫您的工作前台客戶經理。 </p> 
+<p>如需每個Workfront計畫包含內容的詳細資訊，請聯絡您的Workfront客戶經理。 </p> 
    </td> 
  <tr> 
-   <td role="rowheader"><p>Adobe Systems 工作面板平臺</p></td> 
+   <td role="rowheader"><p>Adobe Workfront平台</p></td> 
    <td> 
-<p>組織的 Workfront 執行個體必須加入 Adobe Systems 統一體驗，才能訪問 Workfront 計劃的所有功能。</p> 
-<p>您的組織必須加入 Adobe Systems 統一體驗，使用者才能從權限請求請求並授予對視圖的許可權。 </p>
-<p>有關詳細資訊，請參閱 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Systems Workfront</a> 的統一體驗。 </p> 
+<p>貴組織的Workfront例項必須上線至Adobe Unified Experience，才能存取Workfront Planning的所有功能。</p> 
+<p>您的組織必須加入Adobe Unified Experience，使用者才能從許可權要求中要求並授予檢視的許可權。 </p>
+<p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">適用於Workfront的Adobe Unified Experience</a>。 </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Systems Workfront 許可證*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront授權*</p></td> 
    <td><p> 標準</p>
-   <p>Workfront Planning 不適用於舊版 Workfront 許可證</p> 
+   <p>Workfront計畫不適用於舊版Workfront授權</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>存取層級組態</p></td> 
-   <td> <p>沒有適用於Adobe Systems前台規劃的訪問級別控件</p>   
+   <td role="rowheader"><p>存取層級設定</p></td> 
+   <td> <p>Adobe Workfront Planning沒有存取層級控制</p>   
 </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
    <td>  <p>管理記錄型別的許可權</p>  
-   <p>只有對工作環境具有管理許可權的使用者才能共享對記錄類型的管理許可權</p></td> 
+   <p>只有具有工作區管理許可權的使用者才能共用記錄型別的管理許可權</p></td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>版面配置範本</p></td> 
-   <td> <p>必須為所有使用者（包括 Workfront 管理員）分配一個佈局範本，該佈局在主功能表中包含“計劃”區域。 </p> </td> 
+   <td> <p>在「生產」環境中，所有使用者（包括系統管理員）都必須指派給包含Planning區域的版面配置範本。</p>
+<p><span class="preview">在「預覽」環境中，「標準使用者」和「系統管理員」預設會啟用「規劃」區域。</span></p> </td> 
   </tr> 
 </tbody> 
 </table>
 
-*有關 Workfront 訪問要求的詳細資訊，請參閱 [Workfront 文檔中](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)的訪問要求。
+*如需Workfront存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
-<!--replace the layout template info in the table with this at release: 
+## 共用記錄型別時的注意事項
 
-
-<p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
-
--->
-
-## 共用記錄類型時的注意事項
-
-* 默認情況下，向工作環境授予許可權會授予使用者對工作環境中的記錄類型的相同許可權。
+* 根據預設，授予工作區許可權可為使用者提供工作區中記錄型別的相同許可權。
 
   此外，您可以調整個別記錄型別的許可權。
 
@@ -127,21 +120,21 @@ ht-degree: 0%
 
 * 目前，當您共用記錄型別時，可以達成下列目標：
 
-   * 當您首次與用戶共享記錄類型並且他們對工作環境沒有任何許可權時，向他們授予對工作環境的檢視許可權。
+   * 當您第一次與他人共用記錄型別，而對方沒有任何工作區許可權時，提供人員的工作區檢視許可權。
 
-     這也賦予了他們對工作環境中所有記錄類型的檢視許可權。
+     這也會授予他們工作區中所有記錄型別的檢視許可權。
 
-     當您授予他們對記錄類型的許可權時，共用框中會指示他們也已添加到工作環境中。
-   * 禁用「繼承的許可權」時，將記錄類型設置為僅視圖工作環境中的所有人（工作環境經理除外）。
+     當您授予他們記錄型別的許可權時，共用方塊中會顯示這些許可權也已新增至工作區。
+   * 當您停用「繼承」許可權時，讓記錄型別僅供工作區中的每個人檢視（工作區管理員除外）。
 
-     對工作環境具有“管理”許可權的用戶始終對記錄類型具有“管理”許可權，平均關閉記錄類型的“繼承許可權”時也是如此。
-   * 將人們的權限降低到記錄類型。 您不能將某人的權限從他們工作環境上的記錄類型增加。
+     擁有工作區管理許可權的人員一律對記錄型別擁有管理許可權，即使您關閉記錄型別的繼承許可權亦然。
+   * 降低人員對記錄型別的許可權。 您無法根據某人在工作區中的擁有權來增加其對記錄型別的許可權。
 
-     例如，如果某人Contribute權限到工作環境，您可以將其權限更改為要檢視的特定記錄類型。 但是，如果他們對工作環境具有檢視權限，則不能授予他們對任何記錄類型的Contribute權限。
+     例如，如果某人擁有工作區的「貢獻內容」許可權，您可以將其許可權變更為檢視的特定記錄型別。 但是，如果他們擁有工作區的檢視許可權，您無法將任何記錄型別的貢獻許可權授予他們。
 
-* 無法刪除工作環境中的人員對記錄類型的訪問許可權。 如果每個人對工作環境具有至少 檢視 許可權，則他們始終對所有記錄類型具有至少 檢視 權限。
+* 無法移除工作區中人員的記錄型別存取權。 如果每個人都至少擁有工作區的檢視許可權，則至少每個人都擁有所有記錄型別的檢視許可權。
 
-* 您可以在內部與以下實體共享記錄類型：
+* 您可以在內部與下列實體共用記錄型別：
 
   Workfront使用者、群組、團隊、公司和職位角色
 * 您無法從外部與Workfront外部的使用者共用記錄型別。
@@ -188,42 +181,42 @@ ht-degree: 0%
    >* 除了團隊、群組、公司和職務角色之外，您只能與已新增至Adobe Admin Console的使用者共用。
    >* 您永遠都不能授予使用者比他們在工作區上更大的記錄型別許可權。
    >* 如果使用者擁有工作區的「管理」許可權，則您無法授予比「管理」更小的使用者記錄型別許可權。
-   >* 如果使用者對記錄類型具有Contribute許可權，則可以為使用者提供對記錄類型的較低權限工作環境。
-   > 有關詳細資訊，請參閱 [Adobe Systems前端規劃](/help/quicksilver/planning/access/sharing-permissions-overview.md)中的共用許可權概述。
+   >* 如果使用者擁有工作區的貢獻許可權，您可以授予他們較少記錄型別的許可權。
+   > 如需詳細資訊，請參閱[在Adobe Workfront Planning中共用許可權的總覽](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
 
-1. 若要授予對工作環境無權訪問視圖記錄類型的使用者，請在“ **授予對此視圖** 的訪問許可權”字段中，開始鍵入用戶、群組、團隊、公司或作業角色的名稱，然後在清單中顯示時單擊它。
+1. 若要為沒有工作區存取許可權的使用者授予檢視記錄型別的存取許可權，請在&#x200B;**授予此檢視的存取許可權**&#x200B;欄位中，開始輸入使用者、群組、團隊、公司或工作角色的名稱，然後在其顯示在清單中時按一下該名稱。
 
-   您選擇的實體將添加到記錄類型和具有檢視&#x200B;**許可權的工作環境**&#x200B;中。
+   您選取的實體已新增至記錄型別以及具有&#x200B;**檢視**&#x200B;許可權的工作區。
 
-   系統管理員始終會收到與他們共用的記錄類型的管理許可權，並且有跡象表明用戶是系統管理員。
+   系統管理員一律會獲得記錄與其共用的型別的管理許可權，並且有跡象表明使用者是系統管理員。
 
-1. （選擇）按兩下複製連結&#x200B;**，**&#x200B;將記錄類型的連結複製到您的剪貼簿並與他人共用。
+1. （選擇性）按一下&#x200B;**複製連結**&#x200B;以將記錄型別的連結複製到剪貼簿，並與他人共用。
 1. 按一下「**儲存**」。
 
-   記錄類型現在與其他用戶共用。
+   記錄型別現在與其他使用者共用。
 
-1. 與他人共享複製的連結。 接收連結的用戶必須是活動用戶並登錄到 Workfront 才能訪問記錄類型頁面並在所選視圖中顯示。 他們必須對記錄類型具有許可權才能對其進行視圖。
+1. 與他人共用複製的連結。 收到連結的使用者必須是作用中使用者，並登入Workfront，才能存取記錄型別頁面並在選取的檢視中顯示該頁面。 使用者必須具有記錄型別的許可權才能檢視該記錄型別。
 
-## 拿掉記錄類型的許可權
+## 移除記錄型別的許可權
 
-您可以從記錄類型中刪除使用者的許可權。 但是，他們將保留對工作環境的至少 視圖 訪問許可權，這使他們有權至少視圖記錄類型。 如果您希望他們對工作環境中的記錄類型沒有許可權，則必須從工作環境中刪除他們的訪問許可權。
+您可以從記錄型別中移除使用者的許可權。 但他們將保留對工作區的至少檢視存取權，這讓他們有權至少檢視記錄型別。 如果您希望他們沒有工作區中記錄型別的許可權，則必須從工作區中移除他們的存取權。
 
 {{step1-to-planning}}
 
-1. 打開要停止共用其記錄類型的工作環境，然後按下卡片記錄類型。 這將打開記錄類型頁面。
+1. 開啟您要停止共用其記錄型別的工作區，然後按一下記錄型別卡片。 這會開啟記錄型別頁面。
 
 1. 從任何檢視的索引標籤，按一下記錄型別右上角的&#x200B;**共用**。
 
    **共用**&#x200B;方塊開啟。
-1. 找到要刪除其許可權的用戶、群組、團隊、公司或作業角色，展開其名稱右側的許可權下拉功能表，然後單擊 **移除**。 <!--check the screen shot below - the UI text for View might not be accurate-->
+1. 尋找您要移除其許可權的使用者、群組、團隊、公司或工作角色，展開其名稱右側的許可權下拉式功能表，然後按一下&#x200B;**移除**。<!--check the screen shot below - the UI text for View might not be accurate-->
 
-   ![拿掉記錄類型共用下拉式選單的選項](assets/remove-option-on-record-type-sharing-drop-down.png)
+   ![移除記錄型別共用下拉式清單上的選項](assets/remove-option-on-record-type-sharing-drop-down.png)
 
 1. 按一下「**儲存**」。
 
-   使用者不再具有記錄類型的指示許可權。 但是，他們仍然有權訪問工作環境，除非您同時將其從工作環境許可權中刪除。
+   人員不再具有記錄型別的指定許可權。 但是，他們仍擁有工作區的許可權，除非您也將他們從工作區許可權中移除。
 
-   對於已從訪問許可權中刪除的使用者，如果不再具有此訪問許可權視圖，則不會通知。
+   對於已從存取檢視中移除的使用者，不會通知他們不再擁有此存取權。
 
 <!-- This is not working yet: *************************** edit this before publishing, because this was not tested with record types - this section came from sharing views *******************: 
 

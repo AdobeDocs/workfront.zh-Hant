@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
+source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
 workflow-type: tm+mt
-source-wordcount: '3359'
+source-wordcount: '3355'
 ht-degree: 1%
 
 ---
@@ -125,8 +125,8 @@ ht-degree: 1%
   </tr> 
 <tr> 
    <td role="rowheader"><p>版面配置範本</p></td> 
-   <td> <p>在「生產」環境中，所有使用者（包括系統管理員）都必須指派給包含Planning區域的版面配置範本。</p>
-<p><span class="preview">在「預覽」環境中，「標準使用者」和「系統管理員」預設會啟用「規劃」區域。</span></p> </td> 
+   <td> <p>在生產環境中，所有使用者（包括系統管理員）都必須指派給包含Planning的版面配置範本。</p>
+<p><span class="preview">在預覽環境中，標準使用者和系統管理員預設啟用Planning。</span></p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -456,7 +456,7 @@ ht-degree: 1%
 
    記錄會立即與Workfront Planning的所有區域或其可能顯示為已連線的其他應用程式中斷連線。 任何查詢欄位值也會被移除。
 
-### Connect records from the <span class="preview">Connected records page</span> of a record
+### 從記錄的<span class="preview">連線記錄頁面</span>連線記錄
 
 
 1. 移至記錄型別的任何檢視，該記錄型別已連線到其他Planning記錄型別或其他應用程式的物件型別。

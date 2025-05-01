@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: afb58d04-fa75-4eb7-9c19-2a8c1748fbc2
-source-git-commit: 20e8d45264f9441d9576c7d4d5521e4f6053a7f3
+source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
 workflow-type: tm+mt
 source-wordcount: '973'
 ht-degree: 1%
@@ -37,8 +37,8 @@ Adobe Workfront Planning API的目標是引入透過HTTP運作的REST-ful架構�
 標準HTTP方法會對應至下列作業：
 
 * **GET** — 依識別碼擷取物件，依查詢搜尋所有物件
-* **POST** — 插入新物件
-* **PUT** — 編輯現有的物件
+* **貼文** — 插入新物件
+* **PUT** — 編輯現有物件
 * **DELETE** — 刪除物件
 
 如需每個作業的詳細資訊與範例，請參閱[Workfront Planning API開發人員檔案](https://developer.adobe.com/wf-planning/)。
@@ -290,7 +290,7 @@ Workfront Planning支援下列搜尋修飾元：
                         "id": "Rc665728ff95730b58bc757b13",
                         "value": null
                     },
-....
+..
 ```
 
 會傳回類似下列的回應：

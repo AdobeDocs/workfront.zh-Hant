@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
-source-git-commit: 425c3d3afb892ac83a10bbd36efb4c7d9712c4dc
+source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 0%
@@ -59,7 +59,7 @@ You must have the following:
    <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
    <p>Any</p> 
-  <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td>
+  <p>For more information, see <a href="././administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td>
   </tr>
   <tr>
    <td role="rowheader"><p>Product</p></td>

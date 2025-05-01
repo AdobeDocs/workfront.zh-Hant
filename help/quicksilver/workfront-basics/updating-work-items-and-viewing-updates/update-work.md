@@ -6,7 +6,7 @@ description: 您可以在Adobe Workfront物件（專案、任務或問題）上�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
+source-git-commit: c06f25de917474ffae9a7de3a00033fdf9c84b58
 workflow-type: tm+mt
 source-wordcount: '3234'
 ht-degree: 0%
@@ -127,13 +127,13 @@ ht-degree: 0%
 
 * 您可以從Workfront的下列區域新增更新至專案、任務和問題：
 
-   * 從 Workfront 物件，在「更新」部分（用於專案、任務和問題）
-   * 從主區域（用於工作和問題）
+   * 從Workfront物件，在更新區段（專案、任務和問題）
+   * 從首頁區域（用於任務和問題）
 
-     有關資訊，請參閱 [使用「我的工作」微件](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-work-widget.md)管理您的工作。
-   * 從「摘要」面板的以下區域（用於任務、問題和檔）：
+     如需詳細資訊，請參閱[使用「我的工作」Widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-work-widget.md)管理您的工作。
+   * 從「摘要」面板的下列區域（針對任務、問題和檔案）：
 
-      * 物件的清單
+      * 物件清單
       * 時程表
       * 首頁
       * 工作負載平衡器
@@ -233,18 +233,17 @@ You can add updates to the following objects:
 
 <!--info for April 11: reword the title of this section to: "Add an update to a work item"; take out the step that says you need to enable the "New commenting" toggle (I think it is step 3??)-->
 
-## 向工作項添加註釋
+## 將註解新增至工作專案
 
-本文介紹如何更新專案、任務或問題。 更新大多數其他對像是類似的。
+本文會介紹如何更新專案、任務或問題。 更新大多數其他物件類似。
 
-1. 找到要向其添加註釋的對象，然後按下其名稱以打開物件的頁面。
-1. 按兩下  **左側面板中的更新** 。默認 **會選取「備註** 」標籤。
+1. 找到您要新增註解的物件，然後按一下其名稱以開啟物件的頁面。
+1. 按一下左側面板中的&#x200B;**更新**。
+預設會選取**註解**&#x200B;標籤。
 
-1. 
-   <div class="preview">開始在**新增註解**方塊中輸入註解。
+1. <span class="preview">開始在&#x200B;**新註解**&#x200B;方塊中輸入註解。</span>
 
-   ![新註解方塊](assets/comment-box-all-tabs.png)
-   </div>
+   <span class="preview">![新註解方塊](assets/comment-box-all-tabs.png)</span>
 
    >[!TIP]
    >
@@ -311,27 +310,27 @@ You can add updates to the following objects:
 
    >[!TIP]
    >
-   >您無法將註解新增至系統更新。 但是，對舊版評論體驗中系統活動記錄所做的任何回覆，都會以唯讀形式新增至「系統活動」索引標籤。 旧版評論體驗已於 2024 年 4 月 11 日從 Workfront 中移除。
+   >您無法將註解新增至系統更新。 但是，對舊版評論體驗中系統活動記錄所做的任何回覆，都會以唯讀形式新增至「系統活動」索引標籤。 舊版評論體驗已於2024年4月11日從Workfront移除。
 
-1. （選擇）按击“ **全部** ”標籤在一個位置視圖用戶評論和系统活動評論。 這是僅限 視圖 標籤。
+1. （選擇性）按一下&#x200B;**全部**&#x200B;索引標籤，以在一個位置檢視使用者註解和系統活動註解。 這是僅供檢視的標籤。
 
    >[!TIP]
    >
-   >您無法在“全部”標籤的現有評論中回复評論或標記其他使用者。 若要在“全部”標籤中回復批注，請按兩下 **“批注** ”中的回復以在“批注”標籤中打開批注。
+   >您無法在[全部]索引標籤的現有註解中回覆註解或標籤其他使用者。 若要在[全部]索引標籤中回複評論，請按一下[在評論中回覆]****，在[評論]索引標籤中開啟評論。
 
-## 在 Workfront 註釋中使用 RTF{#use-rich-text-in-a-workfront-comment}
+## 在Workfront註解中使用RTF文字{#use-rich-text-in-a-workfront-comment}
 
 您可以使用RTF或新增各種專案（例如emoji、連結或影像）來增強您的註解。
 
 1. 前往Workfront物件的&#x200B;**更新**&#x200B;區域，開啟&#x200B;**註解**&#x200B;索引標籤並開始輸入註解。
 1. （選擇性）若要將RTF格式新增至您的註解，請在輸入時使用&#x200B;**RTF**&#x200B;工具列上的任何屬性。
 
-   ![RTF 工具列](assets/rich-text-toolbar.png)
+   ![RTF工具列](assets/rich-text-toolbar.png)
 
    | **屬性** | **工具列按鈕** | **Mac快速鍵** | **Windows快速鍵** |
    |---|---|---|---|
    | 粗體 | ![粗體圖示](assets/mceclip10.png) | ⌘+b | Ctrl+B |
-   | 斜體 字 | ![斜體圖示](assets/mceclip9.png) | ⌘+i | Ctrl+I |
+   | 斜體 | ![斜體圖示](assets/mceclip9.png) | ⌘+i | Ctrl+I |
    | 底線 | ![加底線圖示](assets/mceclip8.png) | ⌘+u | Ctrl+U |
    | 超連結 | ![超連結圖示](assets/mceclip7.png) | <br>若要開啟[新增連結]方塊： ⌘+K</br> <br>若要在選取的文字上貼上連結： ⌘+V</br> | <br>若要開啟[新增連結]方塊： Ctrl+K</br> <br>若要在選取的文字上貼上連結： Ctrl+V</br> |
    | 項目符號清單 | ![專案符號清單圖示](assets/mceclip6.png) | ⌘+Shift+8 | Ctrl+Shift+8 |
@@ -367,33 +366,33 @@ You can add updates to the following objects:
    >* 在報表中檢視的「附註」和「最後條件」物件無法使用Emoji。
    >* Workfront中的emoji功能使用Unicode字元，因此只會在支援Unicode字碼點的瀏覽器和作業系統上顯示。 平台、瀏覽器或作業系統版本與您的使用者不同，可能無法存取相同的emoji。
    >* 不支援的emoji會以黑白方塊表示。
-   >* Windows 7 僅支援黑白表情符號。
-   >* 應用於通過電子郵件進行的更新的表情符號在「更新」區域中查看時不會顯示在更新上。
+   >* Windows 7僅支援黑白表情符號。
+   >* 在「更新」區域中檢視時，套用至透過電子郵件進行的更新的Emoji不會顯示在更新上。
 
 1. （選用）若要新增URL連結至其他資訊來源，請執行下列動作：
 
    1. 在更新中按一下您要插入連結的位置。
    1. 在&#x200B;**RTF**&#x200B;工具列上，按一下&#x200B;**超連結**&#x200B;圖示![超連結圖示](assets/link-icon.png)。
 
-   1. 在“**建立連結**”框中的“URL **”下**，鍵入或粘貼要連結源的URL。
+   1. 在&#x200B;**建立連結**&#x200B;方塊的&#x200B;**URL**&#x200B;下，輸入或貼上您要連結之來源的URL。
 
-   1. 在“要顯示&#x200B;**的文本”下**，鍵入或粘貼連結文本。
+   1. 在&#x200B;**要顯示的文字**&#x200B;下，輸入或貼上連結文字。
    1. 按一下「**儲存**」。
 
-1. （選擇）將映像附加到更新。
+1. （選用）將影像附加至更新。
 
    >[!WARNING]
    >
-   >無法將映像附加到以下物件的更新區域：
+   >您無法將影像附加到下列物件的更新區域：
    >
    >* 目標
-   >* 展示板上的臨機卡片
-   >* 工作前台規劃中的記錄。 有關資訊，請參閱 [Adobe Systems前端規劃概述](/help/quicksilver/planning/general/planning-overview.md)
+   >* 展示板上的臨時卡片
+   >* Workfront Planning中的記錄。 如需詳細資訊，請參閱[Adobe Workfront規劃總覽](/help/quicksilver/planning/general/planning-overview.md)
    >
 
-   若要將映像附加到更新，請執行以下作之一：
+   若要將影像附加到更新中，請執行下列任一項作業：
 
-   * 在我們的計算機上儲存圖像，然後將其拖放到新評論區域中。
+   * 將影像儲存在電腦上，然後將其拖放到「新增註解」區域。
    * 從電腦複製熒幕擷圖，然後貼到註解中。
    * 按一下&#x200B;**新增影像**&#x200B;圖示![新增含加號圖示的影像山](assets/add-image-mountain-with-plus-icon.png)，並瀏覽您電腦上的影像。
 
@@ -403,25 +402,25 @@ You can add updates to the following objects:
    >
    ><!--<span class="preview">You cannot add images to goals or ad-hoc cards on boards.</span> -->
    >
-   >* 您的Workfront管理員必須先在Workfront介面區域的更新摘要偏好設定區段中啟用新增影像，您才能看到影像或新增附件圖示。 有關資訊，請參閱 [配置用戶更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md)的首選項。
-   >* 最大影像檔案大小為 7 MB。 支援的影像檔案類型為 .jpg、.gif 和 .png。
+   >* 您的Workfront管理員必須先在Workfront介面區域的更新摘要偏好設定區段中啟用新增影像，您才能看到影像或新增附件圖示。 如需詳細資訊，請參閱[設定使用者更新的偏好設定](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md)。
+   >* 影像檔案大小上限為7 MB。 支援的影像檔案型別為.jpg、.gif和.png。
    >* 可從物件的「更新」區段存取影像，也可從主功能表下的「檔案」區域存取影像。
    >您可以使用鍵盤組合或Print Screen功能（在Windows電腦上）從您的電腦複製熒幕擷圖。
    >* 您可以在新的註解中按一下滑鼠右鍵，然後按一下&#x200B;**貼上**，或在鍵盤上按Windows適用的CTRL + V (或Mac適用的⌘ + V )，以貼上影像。
    >* 您可以傳送包含影像且不含文字的更新。
    >* 當您刪除包含影像的註解時，該影像會從「更新」區段及「檔案」區域移除。 當您編輯註解並刪除影像時，也會從「檔案」區域刪除影像。
-   >* 當有人從「文檔」區域刪除附加到註釋的圖像時，該圖像也會從註釋中刪除。
+   >* 當有人從「檔案」區域刪除附加至註解的影像時，該影像也會從註解中移除。
 
    <!--remove the statement above about legacy, when we remove the legacy environment.-->
 
-1. （選擇）要在現有更新中視圖映射，請執行以下作之一：
+1. （選擇性）若要在現有更新中檢視影像，請執行下列任一項作業：
 
-   * **按兩下影像縮圖上的預覽**&#x200B;圖示![預覽](assets/previewimageicon-31x31.png)圖示，在新瀏覽器標籤中打開全尺寸圖像。
-   * 按兩下影像縮圖上的「**下載**」圖示![](assets/downloadimageicon.png)，即可下載影像。
+   * 按一下影像縮圖上的&#x200B;**預覽**&#x200B;圖示![預覽圖示](assets/previewimageicon-31x31.png)，在新的瀏覽器標籤中開啟全尺寸影像。
+   * 按一下影像縮圖上的&#x200B;**下載**&#x200B;圖示![下載圖示](assets/downloadimageicon.png)來下載影像。
 
-1. 按兩下 **提交** 以添加您的評論。
+1. 按一下&#x200B;**提交**&#x200B;以新增您的註解。
 
-## 更新Search
+## 搜尋更新
 
 您可以在物件的「更新」區段中搜尋註解或回覆。
 
@@ -467,14 +466,14 @@ You can add updates to the following objects:
 
 #### 引用回覆
 
-引用回復選項將原始註釋作為塊引用複製到新回復。
+「報價」回複選項會將原始註解複製到新的回覆，做為區塊報價。
 
-1. 轉到要複製的評論或回復。
-1. **按兩下更多**&#x200B;功能表，然後按兩下&#x200B;**引用回復**。
+1. 移至您要複製的註解或回覆。
+1. 按一下&#x200B;**更多**&#x200B;功能表，然後按一下&#x200B;**報價回覆**。
 
-   將打開一個新的註釋框，引用的回復包含在新註釋中並標記為塊引用。
+   新註解方塊開啟，引述的回覆會包含在新的註解中，並標示為區塊引號。
 
-   ![提交前在評論中間突出顯示塊引用](assets/block-quote-highlighted-mid-comment-before-submit.png)
+   提交前![封鎖引號標示為中間註解](assets/block-quote-highlighted-mid-comment-before-submit.png)
 
 
 1. 繼續新增您的更新，然後按一下&#x200B;**提交**&#x200B;以新增註解。
@@ -483,11 +482,11 @@ You can add updates to the following objects:
 
 「複製連結」選項可將註解或對話串連結複製到剪貼簿，以便與其他使用者共用註解或整個對話串。
 
-1. 轉到要複製其連結的評論。
+1. 前往您要複製其連結的註解。
 
-1. 單擊更多&#x200B;****&#x200B;功能表，然後按下&#x200B;**複製連結**。
+1. 按一下&#x200B;**更多**&#x200B;功能表，然後按一下&#x200B;**複製連結**。
 
-1. 貼上您在上一步中複製的電子郵件或其他應用程式中複製的連結，以便與他人共用。 共享連結會開啟您共享連結的評論。
+1. 將您在上一步中複製的連結貼入電子郵件或其他應用程式，以便與其他人共用。 共用連結會開啟您共用連結的註解。
 
    >[!TIP]
    >
@@ -497,10 +496,10 @@ You can add updates to the following objects:
 
 #### 複製本文
 
-複製正文文字選項將文字從特定註釋複製到剪貼簿。
+「複製內文」選項會將文字從特定註解複製到剪貼簿。
 
-1. 轉到要複製的評論或回復。
-1. **點按更多**&#x200B;功能表，然後按下&#x200B;**複製內文字**。
+1. 移至您要複製的註解或回覆。
+1. 按一下&#x200B;**更多**&#x200B;功能表，然後按一下&#x200B;**複製內文**。
 
 
 
@@ -564,30 +563,30 @@ The Quote Reply option copies the original comment to a new reply as a block quo
 1. Continue adding your update and click **Reply** to add the comment.
 -->
 
-## 刪除評論或回復
+## 刪除評論或回覆
 
-根據 Workfront 管理員授予您的訪問許可權，您也許能夠刪除在物件的“更新”部分添加評論。
+根據Workfront管理員賦予您的存取權，您或許可以刪除在物件的「更新」區段中新增的註解。
 
-有關詳細資訊，請參閱[建立或修改自定義訪問級別一文[中的建立或修改自定義訪問級別](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch)](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
+如需詳細資訊，請參閱文章[建立或修改自訂存取層級](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)中的[建立或修改自訂存取層級](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch)。
 
-任何 Workfront 用戶（包括 Workfront 管理員）都無法刪除其他用戶所做的更新。 但是，如果用戶的訪問級別允許他們刪除自己的更新，則 Workfront 管理員可以以該用戶身份登錄並刪除他們所做的更新。 有關詳細資訊，請參閱 [建立或修改自定義訪問級別](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) 和 [以其他用戶](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md)登錄。
+Workfront使用者(包括Workfront管理員)無法刪除其他使用者所做的更新。 但是，如果使用者的存取層級允許他們刪除自己的更新，Workfront管理員可以以該使用者的身分登入，並刪除他們所做的更新。 如需詳細資訊，請參閱[建立或修改自訂存取層級](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch)和[以其他使用者身分登入](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md)。
 
-1. 轉到要刪除的評論或回復。
-1. **點按您要刪除的評論或回復旁邊的更多**&#x200B;功能表，然後按下&#x200B;**刪除**。
+1. 前往您要刪除的註解或回覆。
+1. 按一下您要刪除的評論或回覆旁的&#x200B;**更多**&#x200B;功能表，然後按一下&#x200B;**刪除**。
 
-   ![更新流評論 更多功能表](assets/update-stream-comment-menu-marked-350x152.png)
+   ![更新資料流註解更多功能表](assets/update-stream-comment-menu-marked-350x152.png)
 
 1. 在顯示的訊息中，按一下&#x200B;**刪除**。
 
    >[!NOTE]
    >
-   >刪除具有附加影像的更新會同時刪除註解和影像。 有關詳細資訊，請參閱 [本文中的在 Workfront 更新](#use-rich-text-in-a-workfront-update) 中使用富文本部分。
+   >刪除具有附加影像的更新會同時刪除註解和影像。 如需詳細資訊，請參閱本文中的[在Workfront更新中使用RTF文字](#use-rich-text-in-a-workfront-update)一節。
 
-   當您刪除的評論具有與之關聯的回復時，會指示該評論已刪除，並帶有刪除該評論的用戶的名稱。
+   當您刪除的評論有關聯的回覆時，會顯示已移除評論，以及移除評論的使用者姓名。
 
-   ![刪除了註釋指示器](assets/removed-comment-indicator-new-experience.png)
+   ![已移除評論指標](assets/removed-comment-indicator-new-experience.png)
 
-   已刪除的評論會立即從 Workfront 中移除。 使用更新區段的使用者會看到另一個使用者即時刪除的評論。
+   已刪除的評論會立即從Workfront中移除。 使用更新區段的使用者會看到另一個使用者即時刪除的評論。
 
 
 ## 檢閱系統更新
@@ -598,13 +597,13 @@ Workfront物件的更新區段會顯示兩種型別的資訊：
 
   ![使用者更新](assets/user-update-cl-350x277.png)
 
-* **系統更新：** 系統更新記錄刪除任務或問題、添加或刪除檔版本、附加或刪除批准請求，以及對物件所做的任何編輯或更改。 系統更新顯示在「系統活動」和「更新」部分的「所有」選項卡中。
+* **系統更新：**&#x200B;系統更新記錄移除任務或問題、新增或刪除檔案版本、附加或移除核准要求，以及對物件所做的任何編輯或變更。 系統更新會顯示在「系統活動」和「更新」區段的「所有」標籤中。
 
   ![系統更新](assets/system-updates-cl-350x277.png)
 
-  Workfront 管理員可以確定系統更新中跟蹤的內容，如系統跟蹤更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)中所述[。您還可以篩選出系統更新或活動，以便僅查看所有對象的用戶更新。
+  如[系統追蹤更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)所述，Workfront管理員可決定系統更新中追蹤的內容。 您也可以篩選掉系統更新或活動，以便只看到所有物件的使用者更新。
 
-  以下物件沒有系統產生的更新：
+  下列物件沒有系統產生的更新：
 
    * 團隊
    * 範本

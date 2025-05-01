@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
+source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
 workflow-type: tm+mt
-source-wordcount: '2258'
+source-wordcount: '2254'
 ht-degree: 1%
 
 ---
@@ -105,8 +105,8 @@ ht-degree: 1%
   </tr>
 <tr>
    <td role="rowheader"><p>版面配置範本</p></td>
-   <td> <p>在「生產」環境中，所有使用者（包括系統管理員）都必須指派給包含Planning區域的版面配置範本。</p>
-<p><span class="preview">在「預覽」環境中，「標準使用者」和「系統管理員」預設會啟用「規劃」區域。</span></p>  
+   <td> <p>在生產環境中，所有使用者（包括系統管理員）都必須指派給包含Planning的版面配置範本。</p>
+<p><span class="preview">在預覽環境中，標準使用者和系統管理員預設啟用Planning。</span></p>  
 </td>
   </tr>
  </tbody>
