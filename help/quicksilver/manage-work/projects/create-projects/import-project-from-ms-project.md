@@ -6,14 +6,16 @@ description: 您可以將專案從Microsoft專案匯入Adobe Workfront，並在�
 author: Alina
 feature: Work Management
 exl-id: dcc3c049-245c-4bb7-b819-b75d6d7e5b67
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: b38c98ec79617a78c76510bcb109da2ff83247af
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '523'
 ht-degree: 1%
 
 ---
 
 # 從Microsoft專案匯入專案
+
+<!-- Audited: 4/2025 -->
 
 您可以將專案從Microsoft專案匯入Adobe Workfront，並在一個應用程式中管理您的所有專案。 每次從Microsoft專案匯入專案時，都會在Workfront中建立新專案。
 
@@ -36,10 +38,10 @@ ht-degree: 1%
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>新授權： Standard </p> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>新增：標準 </p> 
    或
-   <p>目前授權：計畫 </p>
+   <p>目前：計畫 </p>
    </td> 
   </tr> 
   <tr> 
@@ -53,7 +55,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -90,9 +92,9 @@ You must have the following access to perform the steps in this article:
 
 ## 從MS Project建立專案
 
-您可以從主要功能表的「專案」區域，或從投資組合或方案的專案區域建立專案。
+您可以從&#x200B;**主功能表**&#x200B;中的&#x200B;**專案**&#x200B;區域，或投資組合或方案的&#x200B;**專案**&#x200B;區域建立專案。
 
-1. 前往Microsoft專案，並在Workfront中開啟您要匯入的專案。
+1. 登入Microsoft專案，並在Workfront中開啟您要匯入的專案。
 1. 按一下&#x200B;**檔案**，然後按&#x200B;**另存新檔**，將專案儲存為.xml檔案。
 
 1. 登入Workfront。
@@ -101,16 +103,14 @@ You must have the following access to perform the steps in this article:
    * 按一下Workfront右上角的&#x200B;**主功能表** ![主功能表圖示](assets/main-menu-icon.png)，或按一下左上角的&#x200B;**主功能表** ![主功能表行](assets/lines-main-menu.png)。如果可用，請按一下&#x200B;**專案**，然後展開&#x200B;**新專案**。
    * 移至投資組合，然後展開&#x200B;**新專案**。
    * 前往方案，然後展開&#x200B;**新專案**。
-   * 如果您是群組管理員，您也可以在您管理之群組的專案區段中建立專案。 如需詳細資訊，請參閱[建立和修改群組的專案](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md)。
+   * 如果您是群組管理員，則可以在您管理之群組的&#x200B;**專案**&#x200B;區段中建立專案。 如需詳細資訊，請參閱[建立和修改群組的專案](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md)。
 
-1. 選擇&#x200B;**匯入MS Project**&#x200B;選項。
+1. 按一下&#x200B;**匯入MS Project**。 **匯入MS檔案**&#x200B;對話方塊就會顯示。
 
-   ![新專案下拉式清單](assets/new-project-dropdown-nwe-350x358.png)
+   ![新專案下拉式清單](assets/import-ms-project-option.png)
 
 1. 按一下「**選取檔案**」，然後在電腦上瀏覽您從Microsoft專案匯出的.xml檔案。
-1. 匯入選取的檔案。
-
-   Workfront會開始匯入程式，並根據從Microsoft專案匯出的檔案建立新專案。
+1. 匯入選取的檔案。 Workfront會開始匯入程式，並根據從Microsoft專案匯出的檔案建立新專案。
 
    匯入程式完成後，您會被導向新專案頁面，該頁面會顯示匯入已成功完成的確認訊息。
 
@@ -120,4 +120,7 @@ You must have the following access to perform the steps in this article:
 
 1. （選用）繼續在Workfront中編輯專案。 如需有關編輯專案的資訊，請參閱[編輯專案](../../../manage-work/projects/manage-projects/edit-projects.md)。
 
-   從範本建立的新專案狀態與您的Workfront管理員在專案偏好設定區域中定義的狀態相對應，或由群組管理員在群組專案偏好設定區域中定義。 如需有關設定專案偏好設定的資訊，請參閱[設定全系統的專案偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
+
+   >[!NOTE]
+   >
+   >從範本建立的新專案狀態與您的Workfront管理員在&#x200B;**專案偏好設定**&#x200B;區域中定義的狀態相對應，或由群組管理員在&#x200B;**群組專案偏好設定**&#x200B;區域中定義。 如需有關設定專案偏好設定的資訊，請參閱[設定全系統的專案偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
