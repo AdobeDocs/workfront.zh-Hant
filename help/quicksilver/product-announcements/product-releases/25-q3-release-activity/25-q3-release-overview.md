@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 27107a4c2f694e9e8725d074058b008972116924
+source-git-commit: b36cfdc4587bc440867a6a84b9460eaeaf4daf88
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '593'
 ht-degree: 2%
 
 ---
@@ -41,6 +41,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Adobe Workfront增強功能
 
 * [檔案管理增強功能](#document-management-enhancements)
+* [更新及通知增強功能]
 * [其他增強功能](#other-enhancements)
 
 ### 檔案管理增強功能
@@ -62,6 +63,52 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>2025年4月10日</td>
         <td>2025年4月17日</td>
         <td>2025年4月17日</td>
+    </tr>     
+  </tbody>
+</table>
+
+### 報告增強功能
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td><strong>功能</strong>
+        </td>
+        <td><strong>預覽</strong></td>
+        <td><strong>快速發行</strong></td>
+        <td><strong>每季</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">篩選</a>時，使用者萬用字元不再傳回值為null的結果<p></p>
+            <p>我們已更新在篩選報告時排除null值的使用者萬用字元行為。 此變更可協助篩選器產生更準確的結果，而非傳回未正確設定使用者的結果（空結果）。 </p>
+        </td>
+        <td>2025年4月30日</td>
+        <td>2025年5月15日</td>
+        <td>2025年7月17日</td>
+    </tr>     
+  </tbody>
+</table>
+
+### 更新和通知增強功能
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td><strong>功能</strong>
+        </td>
+        <td><strong>預覽</strong></td>
+        <td><strong>快速發行</strong></td>
+        <td><strong>每季</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-update-and-notification-enhancements.md" class="MCXref xref" xrefformat="{para}">將人員新增至評論時修改體驗</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
+            <p>為了改善效能，我們在新增評論人員時引進了修改後的體驗。 現在，在您開始將使用者或團隊新增到評論後，「標籤人員或團隊」連結在「評論」方塊中持續存在。 </p>
+        </td>
+        <td>2025年4月30日</td>
+        <td>（分階段推出）：2025年5月8日至5月15日</td>
+        <td>（分階段推出）：2025年5月8日至5月15日</td>
     </tr>     
   </tbody>
 </table>

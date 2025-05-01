@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: c3e71e5126f68878411764766eb053215d050145
+source-git-commit: b36cfdc4587bc440867a6a84b9460eaeaf4daf88
 workflow-type: tm+mt
-source-wordcount: '13172'
+source-wordcount: '13178'
 ht-degree: 2%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 2%
       * 2025年第3季發行 {#release-25-q3}
          * [2025年第3季版本總覽](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)
          * [檔案管理增強功能](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md)
+         * [報告增強功能](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-reporting-enhancements.md)
+         * [更新和通知增強功能](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-update-and-notification-enhancements.md)
          * [2025年第3季度發佈時間範圍內的外觀與感覺更新](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-look-and-feel-updates.md)
       * 2025年第2季發行 {#release-25-q2}
          * [2025年第2季版本總覽](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)
