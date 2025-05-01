@@ -6,9 +6,9 @@ description: 篩選和條件修飾元可讓您建立篩選器，並建立格式�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 13e9d926-8a89-490e-aa7a-e6e8baf2a36b
-source-git-commit: b2b17c34fe4887e291e69facf76f5071bca43b06
+source-git-commit: 6bd9dc626befc4dfa4054760e7ec7d677f6da6e5
 workflow-type: tm+mt
-source-wordcount: '1565'
+source-wordcount: '1593'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,12 @@ ht-degree: 0%
   <tr valign="top"> 
    <td> <p><strong>不包含</strong> </p> </td> 
    <td> <p><strong>cinotcontains</strong> </p> </td> 
-   <td> <p>這是<strong>notcontains</strong>的<i>不區分大小寫</i>版本。</p><p>此修飾元會篩選缺少指定值的專案。</p> <p>例如，<code>does not contain inf</code>擷取名稱中沒有<code>Inf</code>或<code>inf</code>的任何專案。</p> <p>注意： <span>如果您要篩選的欄位有多個選項，這會篩選出包含您所指定之選項、您所指定之選項以及任何其他選項的結果。</span> </p> </td> 
+   <td> <p>這是<strong>notcontains</strong>的<i>不區分大小寫</i>版本。</p><p>此修飾元會篩選缺少指定值的專案。</p> <p>例如，<code>does not contain inf</code>擷取名稱中沒有<code>Inf</code>或<code>inf</code>的任何專案。</p> <p>附註：套用至包含多個值的欄位時（例如專案中的附註集合），篩選器會依照下列方式決定排除專案：
+<ul>
+    <li>如果集合中的所有專案都包含指定文字，則從結果中排除整個記錄。</li>
+    <li>如果集合中至少有一個專案不包含指定的文字，則記錄會保留在結果中。</li>
+</ul>
+ </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> </td> 
