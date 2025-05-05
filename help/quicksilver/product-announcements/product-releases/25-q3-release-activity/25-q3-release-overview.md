@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 05311b556067289b81e597038dbbfc1fdd19629a
+source-git-commit: 74714ce45c815afc9cff1360fd3542fa15763907
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '603'
 ht-degree: 2%
 
 ---
@@ -58,7 +58,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">校訂檢視器中可用的新檔案核准決定按鈕</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">校訂檢視器中可用的新檔案核准決定按鈕</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
             <p>新檔案核准決定按鈕現在會出現在校訂檢視器中。 現在，當您建立簡單的校訂，然後從檔案摘要新增核准者和稽核者時，他們可以直接在校訂檢視器中做出決定。</p>
         </td>
         <td>2025年4月10日</td>
@@ -104,7 +104,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-update-and-notification-enhancements.md" class="MCXref xref" xrefformat="{para}">將人員新增至評論時修改體驗</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-update-and-notification-enhancements.md" class="MCXref xref" xrefformat="{para}">將人員新增至評論時修改體驗</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
             <p>為了改善效能，我們在新增評論人員時引進了修改後的體驗。 現在，在您開始將使用者或團隊新增到評論後，「標籤人員或團隊」連結在「評論」方塊中持續存在。 </p>
         </td>
         <td>2025年4月30日</td>
@@ -157,7 +157,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## 其他區域發行說明
 
-* [Adobe Workfront Fusion發行活動](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
+* [Adobe Workfront Fusion發行活動](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
 * [Adobe Workfront規劃2025年第三季發行活動](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)。
 
 此版本尚無下列專案的更新：
@@ -167,21 +167,21 @@ The <add release> release webinar will be held on <date>. You can [register for 
 * 目標
 
 
-### API 19版
+### API 20版
 
-針對API版本19，我們已修改一些資源和端點。 有些變更支援新功能，有些則讓您更輕鬆地透過API使用可用資訊。
+Workfront API 20版已於2024年5月4日發行。 針對API 20版，我們已修改一些資源和端點。 有些變更支援新功能，有些則讓您更輕鬆地透過API使用可用資訊。
 
-如需新增和更新的詳細資訊，請參閱[ API 19](/help/quicksilver/wf-api/api/new-api-version-19.md)版的新增功能。
+如需新增和更新的詳細資訊，請參閱[ API 20](/help/quicksilver/wf-api/api/new-api-version-19.md)版的新增功能。
 
 如需API版本的資訊，請參閱[API版本設定與支援排程](/help/quicksilver/wf-api/api/api-version-support-schedule.md)。
 
 ### Workfront 維護更新
 
-如需2025年第一季度期間所進行維護更新的相關資訊，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=zh-Hant)。
+如需2025年第一季度期間所進行維護更新的相關資訊，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)。
 
 ### 訓練更新
 
-探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[Workfront教學課程頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=zh-Hant)的「新增功能」一節。
+探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[Workfront教學課程頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的「新增功能」一節。
 
 
 
