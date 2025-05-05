@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 22.1版本總覽
 
-本頁提供22.1版本所含功能的相關資訊。 全新Adobe Workfront體驗提供所有功能。 Adobe Workfront Classic也提供部分功能；不過，[Workfront Classic將於2022年3月終止](https://experienceleague.adobe.com/en/docs/workfront/using/home)，其後不久將於2022年7月Workfront Classic終止服務。
+本頁提供22.1版本所含功能的相關資訊。 全新Adobe Workfront體驗提供所有功能。 Adobe Workfront Classic也提供部分功能；不過，[Workfront Classic將於2022年3月終止](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home)，其後不久將於2022年7月Workfront Classic終止服務。
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -77,7 +77,7 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-admin-enhancements.md#document" class="MCXref xref" xrefformat="{para}">檔案下載記錄在[更新]區域</a> </p> <p>為協助您的使用者追蹤他們儲存在Workfront中的檔案下載情形，系統現在會在有人下載檔案時，在更新區域記錄檔案的專案。</p> <p>我們建議在新上傳檔案的「預覽」中測試此功能。</p> </td> 
-   <td> <p>預覽版本： 2021年12月16日<br></p> <p>生產版本：第22.1發行版本 </p> <p><strong>在以下環境中可用：</strong> </p> <p>全新Adobe Workfront體驗 </p> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic將於2022年3月終止服務</a>，緊接著將於2022年7月Workfront Classic終止服務。)</p> </td> 
+   <td> <p>預覽版本： 2021年12月16日<br></p> <p>生產版本：第22.1發行版本 </p> <p><strong>在以下環境中可用：</strong> </p> <p>全新Adobe Workfront體驗 </p> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home" target="_blank">Workfront Classic將於2022年3月終止服務</a>，緊接著將於2022年7月Workfront Classic終止服務。)</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-admin-enhancements.md#create" class="MCXref xref" xrefformat="{para}">建立OAuth2應用程式以整合應用程式與Workfront</a> </p> <p>現在，您可以將Workfront與Workfront未提供內建整合的其他應用程式整合。 透過為您要整合的應用程式建立OAuth2應用程式，您可以允許該應用程式存取Workfront，同時瞭解您的資料受到安全且符合產業標準的OAuth2驗證通訊協定保護。</p> <p>之前，您只能透過內建整合、Workfront Fusion或Workfront API來與其他應用程式整合。</p> </td> 
@@ -140,11 +140,11 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-admin-enhancements.md#groups" class="MCXref xref" xrefformat="{para}">群組可以設定自己的時程表和小時喜好設定</a> </p> <p>在大型組織中，某些群組可能需要單獨設定時程表和小時偏好設定以符合其獨特的工作流程，而不是繼承系統管理員在系統層級設定的偏好設定。 現在，Workfront管理員可以解鎖系統中所有群組的時程表和小時偏好設定，以便他們能夠自行設定。</p> <p>此功能最近也針對專案偏好設定以及任務和問題偏好設定新增。 </p> </td> 
-   <td> <p><b>在以下日期可用：</b> </p> <p>預覽版本： 2021年9月9日<br></p> <p>生產版本： 2021年11月8日<span style="color: #ff0000;">（此功能在生產環境中僅提供給叢集4上具有21.4版本的客戶；此功能在2021年11月8日提供給生產環境中的所有其他叢集。）</span></p> <p><strong>在以下環境中可用：</strong> </p> <p>全新Adobe Workfront體驗 </p> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic將於2022年3月終止服務</a>，緊接著將於2022年7月Workfront Classic終止服務。)</p> </td> 
+   <td> <p><b>在以下日期可用：</b> </p> <p>預覽版本： 2021年9月9日<br></p> <p>生產版本： 2021年11月8日<span style="color: #ff0000;">（此功能在生產環境中僅提供給叢集4上具有21.4版本的客戶；此功能在2021年11月8日提供給生產環境中的所有其他叢集。）</span></p> <p><strong>在以下環境中可用：</strong> </p> <p>全新Adobe Workfront體驗 </p> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home" target="_blank">Workfront Classic將於2022年3月終止服務</a>，緊接著將於2022年7月Workfront Classic終止服務。)</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-admin-enhancements.md#select2" class="MCXref xref" xrefformat="{para}">選取您要解除鎖定或重新鎖定群組的多個通知</a> </p> <p>現在，解鎖或重新鎖定群組的電子郵件通知變得更加快速和輕鬆。 現在您可以選取多個通知，檢查您的選取以確定它們是否正確，然後按一下工具列中顯示的新「解除鎖定」或「鎖定」按鈕。</p> <p>之前，您必須一次解鎖並重新鎖定一個通知。 Workfront目前有95項通知，因此如果您必須針對全部或多項通知，則需要一段時間才能完成。</p> </td> 
-   <td><strong>在以下日期可用：</strong> <p>預覽版本： 2021年10月14日 <br></p> <p>生產版本：第22.1發行版本 </p> <p><strong>在以下環境中可用：</strong> </p> <p>全新Adobe Workfront體驗 </p> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic將於2022年3月終止服務</a>，緊接著將於2022年7月Workfront Classic終止服務。)</p> </td> 
+   <td><strong>在以下日期可用：</strong> <p>預覽版本： 2021年10月14日 <br></p> <p>生產版本：第22.1發行版本 </p> <p><strong>在以下環境中可用：</strong> </p> <p>全新Adobe Workfront體驗 </p> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home" target="_blank">Workfront Classic將於2022年3月終止服務</a>，緊接著將於2022年7月Workfront Classic終止服務。)</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-admin-enhancements.md#for" class="MCXref xref" xrefformat="{para}">對於群組管理員：刪除群組時，更容易選取替代群組</a> </p> <p>當您刪除群組時，「刪除群組」方塊中的兩項改善可讓您更輕鬆地選取要保留已刪除群組使用者、工作專案和子群組的取代群組：</p> 
@@ -173,7 +173,7 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-project-enhancements.md#limit" class="MCXref xref" xrefformat="{para}">限制將檔案新增至您共用的範本的能力</a> </p> <p>有時候，人們會將檔案新增至專案範本，以為他們要將檔案新增至專案。 現在您可以協助防止這種情況 — 當您以檢視存取權共用範本時，可以停用新的進階設定「新增檔案」。 這會停用收件者將檔案新增至範本的能力。</p> </td> 
-   <td><strong>在以下日期可用：</strong> <p>預覽版本： 2021年10月14日 <br></p> <p>生產版本：第22.1發行版本 </p> <p><strong>在以下環境中可用：</strong> </p> <p>全新Adobe Workfront體驗 </p> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic將於2022年3月終止服務</a>，緊接著將於2022年7月Workfront Classic終止服務。)</p> </td> 
+   <td><strong>在以下日期可用：</strong> <p>預覽版本： 2021年10月14日 <br></p> <p>生產版本：第22.1發行版本 </p> <p><strong>在以下環境中可用：</strong> </p> <p>全新Adobe Workfront體驗 </p> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home" target="_blank">Workfront Classic將於2022年3月終止服務</a>，緊接著將於2022年7月Workfront Classic終止服務。)</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-project-enhancements.md#update" class="MCXref xref" xrefformat="{para}">已更新儀表板清單上的工具列和儀表板中的報告</a> </p> <p>四個儀表板頁面上的工具列現在具有符合其他Workfront清單（例如專案、任務和問題）的現代化外觀。 此直覺式工具列現在可讓您更輕鬆地新增、編輯、共用、複製和刪除控制面板。</p> </td> 
@@ -238,7 +238,7 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-resource-mgt-enhancements.md#override" class="MCXref xref" xrefformat="{para}">在管理工作角色時覆寫貨幣</a> </p> <p>為了協助您輕鬆管理全域組織的成本和計費率，我們已實作覆寫工作角色的貨幣。 使用此功能，您現在可以使用與工作角色位置相符的貨幣來設定工作角色的成本和計費率。 這將會在職務角色的所有財務計算中覆寫系統貨幣。</p> </td> 
-   <td><strong>在以下日期可用：</strong> <p>預覽版本： 2021年12月2日 <br></p> <p>生產版本：第22.1發行版本 </p> <p><strong>在以下環境中可用：</strong> </p> <p>全新Adobe Workfront體驗 </p> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic將於2022年3月終止服務</a>，緊接著將於2022年7月Workfront Classic終止服務。)</p> </td> 
+   <td><strong>在以下日期可用：</strong> <p>預覽版本： 2021年12月2日 <br></p> <p>生產版本：第22.1發行版本 </p> <p><strong>在以下環境中可用：</strong> </p> <p>全新Adobe Workfront體驗 </p> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home" target="_blank">Workfront Classic將於2022年3月終止服務</a>，緊接著將於2022年7月Workfront Classic終止服務。)</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -289,11 +289,11 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-proofing-enhancements.md#electron" class="MCXref xref" xrefformat="{para}">校訂的電子簽章增強功能</a> </p> <p>我們讓使用者更輕鬆地以電子方式簽署校樣。 現在，使用者可以使用其Workfront憑證在校訂上簽署決定。</p> <p>若要使用SSO憑證以電子方式簽署校樣，您必須在Workfront Proof中設定SSO。 </p> <p>之前，使用者必須使用Workfront Proof憑證，這些憑證與其Workfront憑證不同。</p> </td> 
-   <td><strong>在以下日期可用：</strong> <p>預覽版本： 2021年12月2日<b style="color: #ff0000;"> （適用於EMEA和美國客戶）</b><br></p> <p>生產版本：待定<b style="color: #ff0000;"> （2021年12月21日適用於EMEA的客戶；2022年2月3日適用於所有其餘客戶）</b></p> <p><strong>在以下環境中可用：</strong> </p> <p>全新Adobe Workfront體驗 </p> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic將於2022年3月終止服務</a>，緊接著將於2022年7月Workfront Classic終止服務。)</p> </td> 
+   <td><strong>在以下日期可用：</strong> <p>預覽版本： 2021年12月2日<b style="color: #ff0000;"> （適用於EMEA和美國客戶）</b><br></p> <p>生產版本：待定<b style="color: #ff0000;"> （2021年12月21日適用於EMEA的客戶；2022年2月3日適用於所有其餘客戶）</b></p> <p><strong>在以下環境中可用：</strong> </p> <p>全新Adobe Workfront體驗 </p> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home" target="_blank">Workfront Classic將於2022年3月終止服務</a>，緊接著將於2022年7月Workfront Classic終止服務。)</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-proofing-enhancements.md#desktop" class="MCXref xref" xrefformat="{para}">案頭檢視器升級</a> </p> <p>我們已將Desktop Proofing Viewer升級為支援Chrome 91版，以便與互動式校訂更相容。</p> <p>Windows使用者必須手動重新安裝案頭檢視器，才能升級至最新版本。 之後，未來案頭校訂檢視器會自動更新。</p> <p>Mac使用者會自動升級至最新版本。</p> </td> 
-   <td><strong>在以下日期可用：</strong> <p>預覽版本：不適用<br></p> <p>生產版本： 2021年12月2日</p> <p><strong>在以下環境中可用：</strong> </p> <p>全新Adobe Workfront體驗 </p> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic將於2022年3月終止服務</a>，緊接著將於2022年7月Workfront Classic終止服務。)</p> </td> 
+   <td><strong>在以下日期可用：</strong> <p>預覽版本：不適用<br></p> <p>生產版本： 2021年12月2日</p> <p><strong>在以下環境中可用：</strong> </p> <p>全新Adobe Workfront體驗 </p> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home" target="_blank">Workfront Classic將於2022年3月終止服務</a>，緊接著將於2022年7月Workfront Classic終止服務。)</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -332,7 +332,7 @@ For specific release dates and times for each cluster, see the
      <li> <p>包含時程表按鈕的頁尾現在有粘性，因此您隨時可以儲存和取消，而無需捲動至頁面底部。 我們在此區域中也新增了「返回頂端」按鈕，以便快速返回頁面頂端。</p> </li> 
      <li> <p>新的警告通知現在會提醒您未儲存的變更，以防止您在離開時程表時遺失資訊。</p> </li> 
     </ul> </td> 
-   <td><strong>在以下日期可用：</strong> <p>預覽版本： 2021年12月2日<br></p> <p>生產版本：第22.1發行版本</p> <p><strong>在以下環境中可用：</strong> </p> <p>全新Adobe Workfront體驗 </p> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic將於2022年3月終止服務</a>，緊接著將於2022年7月Workfront Classic終止服務。)</p> </td> 
+   <td><strong>在以下日期可用：</strong> <p>預覽版本： 2021年12月2日<br></p> <p>生產版本：第22.1發行版本</p> <p><strong>在以下環境中可用：</strong> </p> <p>全新Adobe Workfront體驗 </p> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home" target="_blank">Workfront Classic將於2022年3月終止服務</a>，緊接著將於2022年7月Workfront Classic終止服務。)</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-other-enhancements.md#updated" class="MCXref xref" xrefformat="{para}">已更新說明功能表</a> </p> <p>現在，當您按一下頂端導覽列中的說明連結時，更新且更簡化的功能表就會出現。 新功能表會提供相同資訊，但導覽層級較少，因此需要較少的點按次數即可檢視相關內容。</p> </td> 
@@ -365,7 +365,7 @@ For specific release dates and times for each cluster, see the
 
 ## Workfront Fusion增強功能
 
-Workfront Fusion中的新功能可在22.1發行排程之外的步調中用於生產環境。 如需最新功能的詳細資訊，請參閱[Adobe Workfront Fusion發行活動](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
+Workfront Fusion中的新功能可在22.1發行排程之外的步調中用於生產環境。 如需最新功能的詳細資訊，請參閱[Adobe Workfront Fusion發行活動](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
 
 ## Workfront Scenario Planner增強功能
 
@@ -417,7 +417,7 @@ Workfront 22.1版本網路研討會已於2022年1月12日推出。 您可以在W
 
 ## 訓練更新
 
-探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[訓練版本更新頁面](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)。
+探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[訓練版本更新頁面](https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/home)。
 
 ## 不再支援的功能
 

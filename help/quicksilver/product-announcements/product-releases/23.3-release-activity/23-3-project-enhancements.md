@@ -29,10 +29,10 @@ ht-degree: 0%
 * 直接從「我的更新」和「首頁」做出核准決定
 * 為特定檔案版本建立核准
 
-如需有關使用新檔案核准的詳細資訊，請參閱[新檔案核准總覽](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview)。
+如需有關使用新檔案核准的詳細資訊，請參閱[新檔案核准總覽](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview)。
 
 ## 新共用按鈕
 
 已從專案、任務和問題的更多選單中提取「共用」選項，以讓共用更直覺。 新的「共用」按鈕現在顯示在「更多」功能表之前的物件名稱旁。 共用檔案、專案組合和方案維持不變。
 
-如需共用物件的詳細資訊，請參閱[共用物件](https://experienceleague.adobe.com/en/docs/workfront/using/basics/grant-request-object-permissions/share-an-object)。
+如需共用物件的詳細資訊，請參閱[共用物件](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/basics/grant-request-object-permissions/share-an-object)。

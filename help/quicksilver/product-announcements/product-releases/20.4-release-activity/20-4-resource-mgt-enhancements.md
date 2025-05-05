@@ -32,7 +32,7 @@ ht-degree: 0%
 
 如需工作投入的相關資訊，請參閱[工作投入概觀](../../../manage-work/tasks/task-information/work-effort.md)。
 
-此功能現已包含在Workfront One上的[規劃基礎課程第2部分學習路徑](https://experienceleague.adobe.com/en/docs/workfront/using/home)中。
+此功能現已包含在Workfront One上的[規劃基礎課程第2部分學習路徑](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home)中。
 
 ## 工作負載平衡器中工作項的專案狀態型顏色
 

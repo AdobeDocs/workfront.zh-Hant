@@ -97,4 +97,4 @@ Adobe[!DNL Workfront]管理員可以為您的[!DNL Workfront]執行個體建立O
 >
 >![範例：在Fusion中新增註解](assets/fusion-example-comment-350x416.png)
 
-如需[!DNL Workfront Fusion]的詳細資訊，請參閱[[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home)。
+如需[!DNL Workfront Fusion]的詳細資訊，請參閱[[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/home)。

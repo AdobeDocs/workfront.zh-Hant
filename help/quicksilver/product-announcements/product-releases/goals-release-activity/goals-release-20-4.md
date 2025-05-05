@@ -47,7 +47,7 @@ ht-degree: 0%
 >
 >**生產可用性：** （20.4版本）
 
-此功能現已納入Workfront One上的[Workfront目標學習路徑](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)。
+此功能現已納入Workfront One上的[Workfront目標學習路徑](https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/home)。
 
 ## Workfront目標的存取控制
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 >
 >**生產可用性：** （20.4版本）
 
-此功能現已納入Workfront One上的[Workfront目標學習路徑](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)。
+此功能現已納入Workfront One上的[Workfront目標學習路徑](https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/home)。
 
 ## Workfront目標可用性改善
 
@@ -82,4 +82,4 @@ ht-degree: 0%
 >
 >**生產可用性：** （20.4版本）
 
-此功能現已納入Workfront One上的[Workfront目標學習路徑](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)。
+此功能現已納入Workfront One上的[Workfront目標學習路徑](https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/home)。

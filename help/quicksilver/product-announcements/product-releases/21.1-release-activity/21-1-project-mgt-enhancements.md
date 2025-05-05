@@ -27,7 +27,7 @@ ht-degree: 1%
 
 如需詳細資訊，請參閱[專案量度概觀](../../../manage-work/projects/manage-projects/project-metrics.md)。
 
-此功能現在包含在新Workfront體驗的[規劃師基礎知識部分，第3部分：管理Workfront One上的專案](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)學習路徑。
+此功能現在包含在新Workfront體驗的[規劃師基礎知識部分，第3部分：管理Workfront One上的專案](https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/home)學習路徑。
 
 ## 從問題更新轉換而來的專案或任務時，更新問題完成百分比
 
@@ -41,9 +41,9 @@ ht-degree: 1%
 
 如需如何尋找已提交要求的詳細資訊，請參閱[尋找已提交的要求](../../../manage-work/requests/create-requests/locate-submitted-requests.md)。
 
-此功能現已包含在Workfront One上的新Workfront Experience[&#128279;](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request)學習路徑的Collaborator基礎知識中。
+此功能現已包含在Workfront One上的新Workfront Experience[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request)學習路徑的Collaborator基礎知識中。
 
-此功能現已包含在Workfront One上新Workfront體驗[&#128279;](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/request-queues/understand-request-queues)學習路徑的要求中。
+此功能現已包含在Workfront One上新Workfront體驗[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/manage-work/request-queues/understand-request-queues)學習路徑的要求中。
 
 ## 從新請求頁面移除的欄位
 

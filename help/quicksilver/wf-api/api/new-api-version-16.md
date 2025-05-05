@@ -514,7 +514,7 @@ Task物件代表作為達成最終目標（完成專案）的步驟而必須執�
             </p>
             <p><b>enableSystemWideVisibility </b>
             </p>
-            <p>這些動作支援在整個系統內共用篩選器、檢視和群組的功能。</p><p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">讓所有使用者都可以使用篩選器、檢視或群組</a>。</p>
+            <p>這些動作支援在整個系統內共用篩選器、檢視和群組的功能。</p><p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">讓所有使用者都可以使用篩選器、檢視或群組</a>。</p>
          </li>
         </ul>
       </td>
@@ -538,7 +538,7 @@ Task物件代表作為達成最終目標（完成專案）的步驟而必須執�
             </p>
             <p><b>enableSystemWideVisibility </b>
             </p>
-            <p>這些動作支援在整個系統內共用篩選器、檢視和群組的功能。</p><p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">讓所有使用者都可以使用篩選器、檢視或群組</a>。</p>
+            <p>這些動作支援在整個系統內共用篩選器、檢視和群組的功能。</p><p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">讓所有使用者都可以使用篩選器、檢視或群組</a>。</p>
          </li>
         </ul>
       </td>
@@ -579,7 +579,7 @@ Task物件代表作為達成最終目標（完成專案）的步驟而必須執�
             </p>
             <p><b>enableSystemWideVisibility </b>
             </p>
-            <p>這些動作支援在整個系統內共用篩選器、檢視和群組的功能。</p><p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">讓所有使用者都可以使用篩選器、檢視或群組</a>。</p>
+            <p>這些動作支援在整個系統內共用篩選器、檢視和群組的功能。</p><p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">讓所有使用者都可以使用篩選器、檢視或群組</a>。</p>
          </li>
         </ul>
       </td>

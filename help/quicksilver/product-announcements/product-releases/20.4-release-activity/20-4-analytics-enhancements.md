@@ -29,4 +29,4 @@ ht-degree: 0%
 
 之前，增強型分析區域限制您可以檢視的專案數量為50個。
 
-此功能現已納入Workfront One上的[Enhanced Analytics，第1部分學習路徑](https://experienceleague.adobe.com/en/docs/workfront/using/home)。
+此功能現已納入Workfront One上的[Enhanced Analytics，第1部分學習路徑](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home)。

@@ -104,7 +104,7 @@ ht-degree: 2%
 >
 >如果您的組織已加入[!DNL Adobe Business Platform]，您必須透過[!UICONTROL Adobe Admin Console]停用使用者。
 >
->如需在[!UICONTROL Adobe Admin Console]中停用使用者的指示，請參閱文章[個別管理使用者](https://helpx.adobe.com/enterprise/using/manage-users-individually.html)中的「移除使用者」一節，或連絡您的[!UICONTROL Adobe Admin Console]系統管理員。
+>如需在[!UICONTROL Adobe Admin Console]中停用使用者的指示，請參閱文章[個別管理使用者](https://helpx.adobe.com/tw/enterprise/using/manage-users-individually.html)中的「移除使用者」一節，或連絡您的[!UICONTROL Adobe Admin Console]系統管理員。
 >
 >如需根據貴組織是否已加入[!DNL Adobe Business Platform]而不同的程式清單，請參閱[以平台為基礎的管理差異(Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 

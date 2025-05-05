@@ -55,7 +55,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->儀表板中這些相同報告的工具列也隨著每週[維護更新](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)在2022年3月3日更新。
+>儀表板中這些相同報告的工具列也隨著每週[維護更新](https://experienceleague.adobe.com/zh-hant/docs/workfront-known-issues/releases/current-updates)在2022年3月3日更新。
 
 * 專案報告
 * 任務報告

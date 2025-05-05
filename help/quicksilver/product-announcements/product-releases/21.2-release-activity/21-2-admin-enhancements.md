@@ -36,7 +36,7 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[稽核記錄](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)。
 
-此功能現在包含在新Workfront體驗的[管理基礎中，第2部分：專案設定](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) Workfront One上的學習路徑。
+此功能現在包含在新Workfront體驗的[管理基礎中，第2部分：專案設定](https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/home) Workfront One上的學習路徑。
 
 ## 對於群組管理員：改善子群組的移動控制項和更新的工具列
 
@@ -137,7 +137,7 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[使用配置範本自訂篩選器、檢視和群組](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)。
 
-此功能現已包含在Workfront One上的新Workfront Experience （第3部分：控制與介面體驗）學習路徑的[管理員基礎課程中](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)。
+此功能現已包含在Workfront One上的新Workfront Experience （第3部分：控制與介面體驗）學習路徑的[管理員基礎課程中](https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/home)。
 
 ## 管理員的新增功能：輕鬆列出目前使用自訂欄位的報表
 

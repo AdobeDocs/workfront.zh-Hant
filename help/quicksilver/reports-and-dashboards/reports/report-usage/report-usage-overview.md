@@ -19,7 +19,7 @@ ht-degree: 0%
 
 本節包含下列文章：
 
-* 新Workfront體驗的[基本報告建立程式](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)
+* 新Workfront體驗的[基本報告建立程式](https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/home)
 * [存取及組織報告](../../../reports-and-dashboards/reports/report-usage/access-organize-reports.md)
 * [建立報告活動的報告](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md)
 * [瞭解如何在儀表板上組織報告](../../../reports-and-dashboards/reports/report-usage/understand-how-organize-reports-dashboard.md)

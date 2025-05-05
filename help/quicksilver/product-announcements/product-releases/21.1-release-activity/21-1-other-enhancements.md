@@ -47,7 +47,7 @@ ht-degree: 0%
 
 如需我們為何進行此變更的詳細資訊，請參閱[新的Adobe Workfront受管系統，以21.1](../../../product-announcements/announcements/announcement-archive/pop-removal-request-queue.md)取代請求佇列的POP電子郵件。
 
-此功能現已包含在Workfront One上新Workfront體驗[&#128279;](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)學習路徑的佇列管理中。
+此功能現已包含在Workfront One上新Workfront體驗[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/home)學習路徑的佇列管理中。
 
 ## 限制時程表上的小時編輯
 

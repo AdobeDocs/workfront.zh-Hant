@@ -33,7 +33,7 @@ ht-degree: 0%
 
 如需有關校訂決定的詳細資訊，請參閱[檔案區域](../../../documents/managing-documents/documents-area.md)。
 
-此功能現已包含在Workfront One上的新Workfront體驗[&#128279;](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)學習路徑的管理校訂和版本中。
+此功能現已包含在Workfront One上的新Workfront體驗[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/home)學習路徑的管理校訂和版本中。
 
 ## 校訂核准報告的新欄位
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 這些欄位不是預設報表的一部分。 如果您想要看到這些縮圖，則需要將其新增。
 
-此功能現在包含在Workfront One上的[校訂系統設定第2部分：工作流程管理](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)學習路徑中。
+此功能現在包含在Workfront One上的[校訂系統設定第2部分：工作流程管理](https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/home)學習路徑中。
 
 ## 產生新版本時延續現有校訂工作流程
 

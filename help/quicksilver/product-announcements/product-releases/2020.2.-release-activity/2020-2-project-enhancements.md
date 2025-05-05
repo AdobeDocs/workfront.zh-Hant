@@ -26,7 +26,7 @@ ht-degree: 0%
 
 為了確保新專案總是有狀態，即使管理員隱藏或解鎖為新專案設定的狀態，系統現在會將「狀態」清單中的第一個狀態指派給所有新專案，直到您再次為新專案設定新狀態為止。
 
-如需有關設定所有新專案狀態喜好設定的資訊，請參閱[設定全系統的專案喜好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) (或者，如果您正在使用Adobe Workfront Classic，請參閱[設定專案喜好設定](https://experienceleague.adobe.com/en/docs/workfront/using/home))。
+如需有關設定所有新專案狀態喜好設定的資訊，請參閱[設定全系統的專案喜好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) (或者，如果您正在使用Adobe Workfront Classic，請參閱[設定專案喜好設定](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home))。
 
 **在以下環境中可用：**
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 * 如果您輸入無效數字給選項，例如「每工作日一般時數」，警告訊息會立即出現，而不是在您按一下「儲存」後出現。
 * 選項標籤會比對Workfront中其他位置的對應介面文字，例如詳細資訊區域和報表。
 
-如需「專案偏好設定」區域的詳細資訊，請參閱[設定全系統的專案偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) (或如果您使用Adobe Workfront Classic，請參閱[設定專案偏好設定](https://experienceleague.adobe.com/en/docs/workfront/using/home))。
+如需「專案偏好設定」區域的詳細資訊，請參閱[設定全系統的專案偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) (或如果您使用Adobe Workfront Classic，請參閱[設定專案偏好設定](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home))。
 
 **在以下環境中可用：**
 
@@ -68,11 +68,11 @@ ht-degree: 0%
 
 在此變更之前，任務限制一律會儘快變更為。
 
-如需關於移動任務的資訊，請參閱[移動任務](../../../manage-work/tasks/manage-tasks/move-tasks.md) (或如果您使用Adobe Workfront Classic，請參閱[移動任務](https://experienceleague.adobe.com/en/docs/workfront/using/home))。
+如需關於移動任務的資訊，請參閱[移動任務](../../../manage-work/tasks/manage-tasks/move-tasks.md) (或如果您使用Adobe Workfront Classic，請參閱[移動任務](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home))。
 
-如需有關複製任務的資訊，請參閱[複製和複製任務](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (或者如果您正在使用Adobe Workfront Classic，請參閱[複製和複製任務](https://experienceleague.adobe.com/en/docs/workfront/using/home))。
+如需有關複製任務的資訊，請參閱[複製和複製任務](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (或者如果您正在使用Adobe Workfront Classic，請參閱[複製和複製任務](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home))。
 
-如需所有任務限制的概觀，請參閱[任務限制概觀](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (或者，如果您正在使用Adobe Workfront Classic，請參閱[任務限制概觀](https://experienceleague.adobe.com/en/docs/workfront/using/home))。
+如需所有任務限制的概觀，請參閱[任務限制概觀](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (或者，如果您正在使用Adobe Workfront Classic，請參閱[任務限制概觀](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home))。
 
 **在以下環境中可用：**
 

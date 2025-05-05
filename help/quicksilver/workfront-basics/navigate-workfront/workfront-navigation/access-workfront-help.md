@@ -40,11 +40,11 @@ ht-degree: 0%
 
 ## 存取Experience League上的[!DNL Adobe Workfront]檔案
 
-1. 移至 [!DNL Experience League][&#128279;](https://experienceleague.adobe.com/en/docs/workfront/using/home)上的[!DNL Adobe Workfront] 檔案頁面。
+1. 移至 [!DNL Experience League][&#128279;](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home)上的[!DNL Adobe Workfront] 檔案頁面。
 
 除了搜尋說明檔案之外，您也可以從Experience League存取下列[!DNL Workfront]資源：
 
-* Workfront教學課程：如需詳細資訊，請參閱[[!DNL Workfront] 教學課程](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)。
+* Workfront教學課程：如需詳細資訊，請參閱[[!DNL Workfront] 教學課程](https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/home)。
 
 * [!UICONTROL 創新實驗室]：如需詳細資訊，請參閱[[!UICONTROL 創新實驗室]](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas)。
 * [!UICONTROL [!DNL Workfront]社群]：如需詳細資訊，請參閱[社群 [!DNL Adobe Workfront]  ](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)

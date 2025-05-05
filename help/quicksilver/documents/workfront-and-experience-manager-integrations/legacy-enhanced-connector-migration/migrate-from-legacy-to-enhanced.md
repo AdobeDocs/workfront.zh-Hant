@@ -30,9 +30,9 @@ ht-degree: 0%
 >
 >實作增強型聯結器需要認證合作夥伴或Adobe Consulting服務。
 >
-> 對於希望認證增強型聯結器的合作夥伴，請參閱下列文章： [適用於Experience Manager的Workfront增強型聯結器專家系列](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview)。
+> 對於希望認證增強型聯結器的合作夥伴，請參閱下列文章： [適用於Experience Manager的Workfront增強型聯結器專家系列](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview)。
 
-若要實作增強型聯結器，請參閱[為Experience Manager增強型聯結器設定Workfront](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/integrations/workfront-connector-configure)。
+若要實作增強型聯結器，請參閱[為Experience Manager增強型聯結器設定Workfront](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/integrations/workfront-connector-configure)。
 
 
 ## 移動現有資產

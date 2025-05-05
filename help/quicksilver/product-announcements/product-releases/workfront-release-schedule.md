@@ -40,7 +40,7 @@ Adobe Workfront有兩種發佈新功能和更新的模型。 貴組織可選擇�
 
 ### 維護更新
 
-Adobe Workfront產品的問題修正每週可在生產環境中提供。 請參閱[Workfront維護更新](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)頁面，瞭解最近修正的內容。
+Adobe Workfront產品的問題修正每週可在生產環境中提供。 請參閱[Workfront維護更新](https://experienceleague.adobe.com/zh-hant/docs/workfront-known-issues/releases/current-updates)頁面，瞭解最近修正的內容。
 
 ## 從排程發行中移除的功能
 

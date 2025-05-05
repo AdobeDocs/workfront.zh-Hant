@@ -43,6 +43,6 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->此變更於2022年5月23日在生產環境中更新。 如需詳細資訊，請參閱2022年5月26日的[維護更新](https://experienceleague.adobe.com/en/docs/workfront/using/home)。
+>此變更於2022年5月23日在生產環境中更新。 如需詳細資訊，請參閱2022年5月26日的[維護更新](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home)。
 
 我們在所有可用階層連結的區域更新了階層連結分隔符號。現在，階層連結中的物件由豎線 (|) 分隔。在此更新之前，它們由正斜線 (/) 分隔。

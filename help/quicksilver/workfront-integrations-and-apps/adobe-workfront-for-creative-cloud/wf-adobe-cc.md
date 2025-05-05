@@ -41,7 +41,7 @@ ht-degree: 2%
 * [安裝 [!DNL Creative Cloud] 應用程式的 [!DNL Adobe Workfront] 外掛程式](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
 * [使用 [!DNL Creative Cloud] 應用程式的 [!DNL Adobe Workfront] 外掛程式管理工作](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)
 * [使用 [!DNL Adobe Workfront] 外掛程式為 [!DNL Creative Cloud] 應用程式上傳檔案和校樣](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
-* [影片教學課程：使用 [!DNL Adobe Workfront] 外掛程式進行 [!DNL Creative Cloud]](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/integrations/adobe-creative-cloud/use-adobe-workfront-extensions-for-creative-cloud)
+* [影片教學課程：使用 [!DNL Adobe Workfront] 外掛程式進行 [!DNL Creative Cloud]](https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/integrations/adobe-creative-cloud/use-adobe-workfront-extensions-for-creative-cloud)
 * [影片教學課程：建立及管理套件、部署更新，以及疑難排解安裝錯誤](https://www.youtube.com/watch?v=zzvXNLIBzrc)
 
 >[!NOTE]

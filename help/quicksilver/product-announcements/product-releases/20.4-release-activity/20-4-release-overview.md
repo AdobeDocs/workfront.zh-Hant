@@ -298,7 +298,7 @@ Workfront Goals第20.4發行版本包含的新功能大多數。 如需這些現
 
 ## Workfront Fusion增強功能
 
-Workfront Fusion中的新功能可在20.4版發行排程之外的步調內用於生產環境。 如需最新功能的詳細資訊，請參閱[Adobe Workfront Fusion發行活動](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
+Workfront Fusion中的新功能可在20.4版發行排程之外的步調內用於生產環境。 如需最新功能的詳細資訊，請參閱[Adobe Workfront Fusion發行活動](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
 
 ## API增強功能
 
@@ -310,7 +310,7 @@ This section will be updated with more information prior to the 20.4 release bei
 </MadCap:conditionalText>
 -->
 
-如需有關新增功能和更新的資訊，請參閱[ API 12](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12)版的新功能。
+如需有關新增功能和更新的資訊，請參閱[ API 12](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12)版的新功能。
 
 如需API版本的詳細資訊，請參閱[API版本設定與支援排程](../../../wf-api/api/api-version-support-schedule.md)
 
@@ -348,7 +348,7 @@ Workfront 20.4版本網路研討會將於東部夏令時間2020年10月28日星�
 
 自2020年5月20日起，Workfront開始每週在預覽環境中提供功能。 在此變更之前，功能通常每兩週發佈一次到預覽環境。
 
-如需詳細資訊，請參閱[在Workfront預覽發行步調常見問答集](https://experienceleague.adobe.com/en/docs/workfront/using/home)中變更
+如需詳細資訊，請參閱[在Workfront預覽發行步調常見問答集](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home)中變更
 
 ### 存取Workfront所需的其他網域允許清單 {#allowlist-of-additional-domains-required-for-accessing-workfront}
 

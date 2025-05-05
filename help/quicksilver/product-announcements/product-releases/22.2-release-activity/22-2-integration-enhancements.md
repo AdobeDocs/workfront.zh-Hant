@@ -55,7 +55,7 @@ in January 2022
 
 >[!NOTE]
 >
->此聯結器的部署和設定需要經過認證的合作夥伴。 如需詳細資訊，請參閱[安裝Workfront for Experience Manager增強型聯結器](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install)。
+>此聯結器的部署和設定需要經過認證的合作夥伴。 如需詳細資訊，請參閱[安裝Workfront for Experience Manager增強型聯結器](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install)。
 
 ## Adobe Creative Cloud整合現在使用OAuth2
 

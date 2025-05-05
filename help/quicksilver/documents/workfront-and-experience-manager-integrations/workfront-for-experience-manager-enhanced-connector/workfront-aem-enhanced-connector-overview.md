@@ -41,15 +41,15 @@ Adobe Workfront是工作管理應用程式，協助您在一個地方管理整�
 ## 先決條件和支援的平台
 
 * Adobe Workfront
-* [Adobe Experience Manager as a Cloud Service Assets](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-cloud-service.html)
-* [內部部署的Adobe Experience Manager 6.5 Assets](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-on-premise.html)
-* [Adobe Experience Manager 6.5 Assets as a Managed Service](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-managed-services.html)
+* [Adobe Experience Manager as a Cloud Service Assets](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-experience-manager-cloud-service.html)
+* [內部部署的Adobe Experience Manager 6.5 Assets](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-experience-manager-on-premise.html)
+* [Adobe Experience Manager 6.5 Assets as a Managed Service](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-experience-manager-managed-services.html)
 * Adobe Experience Manager Assets內部部署
 * Adobe Experience Manager Assets as a Managed Service
 
 ## 開始使用
 
-1. **安裝並設定聯結器**。 使用認證合作夥伴或Adobe Professional Services，安裝並設定Workfront for Experience Manager加強聯結器，以整理、標準化流程、建立治理，並簡化從建立到交付的資產生命週期。 [安裝在Adobe Experience Manager 6.5](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/integrations/workfront-integrations)或[安裝在Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install)。
+1. **安裝並設定聯結器**。 使用認證合作夥伴或Adobe Professional Services，安裝並設定Workfront for Experience Manager加強聯結器，以整理、標準化流程、建立治理，並簡化從建立到交付的資產生命週期。 [安裝在Adobe Experience Manager 6.5](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/integrations/workfront-integrations)或[安裝在Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install)。
 1. **使用聯結器**。 瞭解增強型聯結器在Experience Manager Assets中自動產生專案連結資料夾、對應至Experience Manager Assets和資料夾的Workfront中繼資料、雙向中繼資料同步等方面的實際功能。 如需詳細資訊，請參閱[Experience Manager增強型聯結器的Workfront](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md)。
 
 ## 更多相關資訊

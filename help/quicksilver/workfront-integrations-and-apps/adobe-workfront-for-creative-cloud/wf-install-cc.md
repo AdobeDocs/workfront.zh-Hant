@@ -57,7 +57,7 @@ ht-degree: 1%
   </tr> -->
   <tr> 
    <td role="rowheader">產品</td> 
-   <td><p>除了[!DNL Workfront]授權之外，您還必須有[!DNL Adobe Creative Cloud]授權。</p><p>如需詳細資訊，請參閱<a href="https://helpx.adobe.com/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Creative Cloud支援政策</a>。</p></td> 
+   <td><p>除了[!DNL Workfront]授權之外，您還必須有[!DNL Adobe Creative Cloud]授權。</p><p>如需詳細資訊，請參閱<a href="https://helpx.adobe.com/tw/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Creative Cloud支援政策</a>。</p></td> 
   </tr> 
  </tbody> 
 </table>

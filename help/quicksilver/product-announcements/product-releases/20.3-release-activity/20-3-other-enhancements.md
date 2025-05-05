@@ -72,7 +72,7 @@ ht-degree: 0%
 
 以前，您只能在實際日期不可用時，以預計或計畫的方式管理行事曆。
 
-如需詳細資訊，請參閱[在行事曆報告中使用自訂日期欄位](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md) (或者，如果您使用的是Workfront Classic，請參閱[在行事曆報告中使用自訂日期欄位](https://experienceleague.adobe.com/en/docs/workfront/using/home))。
+如需詳細資訊，請參閱[在行事曆報告中使用自訂日期欄位](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md) (或者，如果您使用的是Workfront Classic，請參閱[在行事曆報告中使用自訂日期欄位](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home))。
 
 ## 電子郵件變更
 
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 **傳入電子郵件POP回覆變更：**&#x200B;系統管理員將無法再設定自訂POP電子郵件伺服器來接收通知的電子郵件回覆。
 
-如需詳細資訊，請參閱[電子郵件詐騙和POP回覆電子郵件變更](https://experienceleague.adobe.com/en/docs/workfront/using/home)。
+如需詳細資訊，請參閱[電子郵件詐騙和POP回覆電子郵件變更](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home)。
 
 ## 傳出的Workfront電子郵件現在包含DomainKeys Indified Mail (DKIM)
 

@@ -27,7 +27,7 @@ ht-degree: 0%
 
 在Workfront Classic中，按一下「全域導覽列」右上角的設定檔圖片時，選單中會顯示切換到新體驗選項。
 
-此功能現已納入Workfront One的第1部分學習路徑[管理員基礎課程](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)中。
+此功能現已納入Workfront One的第1部分學習路徑[管理員基礎課程](https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/home)中。
 
 ## Workfront Proof的改良加密
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 如需有關設定電子郵件通知的資訊，請參閱[為系統中的每個人設定事件通知](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)。
 
-此功能現已包含在Workfront One上的[電子郵件和應用程式內通知學習路徑](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)中。
+此功能現已包含在Workfront One上的[電子郵件和應用程式內通知學習路徑](https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/home)中。
 
 ## 觸發事件訂閱更新的新API物件
 

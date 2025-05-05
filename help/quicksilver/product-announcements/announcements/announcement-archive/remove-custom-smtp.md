@@ -25,4 +25,4 @@ ht-degree: 0%
 
 如果您已設定自訂SMTP郵件伺服器，**強烈建議您連絡您的IT團隊**，以確保不會封鎖來自notifications@my.workfront.com的電子郵件，以接收系統傳入的電子郵件。 您也可以參考設定防火牆，以取得流量和電子郵件來自哪些IP位址的詳細資訊。
 
-如果您有任何其他問題或顧慮，請聯絡[Workfront支援團隊](https://experienceleague.adobe.com/?support-tab=home#support)。
+如果您有任何其他問題或顧慮，請聯絡[Workfront支援團隊](https://experienceleague.adobe.com/zh-hant?support-tab=home#support)。

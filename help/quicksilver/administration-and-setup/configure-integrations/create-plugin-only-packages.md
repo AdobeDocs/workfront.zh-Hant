@@ -44,4 +44,4 @@ ht-degree: 4%
 
 套件是透過[!DNL Adobe Admin Console]建立的。
 
-如需建立這些封裝的指示，請參閱Adobe Admin Console檔案中的[受管理的封裝](https://helpx.adobe.com/enterprise/using/create-nul-packages.html#managed-packages)。
+如需建立這些封裝的指示，請參閱Adobe Admin Console檔案中的[受管理的封裝](https://helpx.adobe.com/tw/enterprise/using/create-nul-packages.html#managed-packages)。

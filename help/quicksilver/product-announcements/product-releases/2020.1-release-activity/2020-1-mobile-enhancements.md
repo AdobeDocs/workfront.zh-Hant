@@ -25,7 +25,7 @@ ht-degree: 0%
 
 若要在行動應用程式和網頁上使用Workfront時讓您的體驗更一致，在新的或現有的版面配置範本中，左側面板次要導覽的任何自訂都會自動反映在行動應用程式中。
 
-若要深入瞭解如何自訂左側面板，請參閱[使用新Workfront體驗中的版面配置範本自訂左側面板](https://experienceleague.adobe.com/en/docs/workfront/using/home)。
+若要深入瞭解如何自訂左側面板，請參閱[使用新Workfront體驗中的版面配置範本自訂左側面板](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home)。
 
 ## 按一下行動應用程式上的更新
 

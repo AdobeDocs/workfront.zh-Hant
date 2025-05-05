@@ -35,7 +35,7 @@ ht-degree: 1%
 
 本文說明工作負載平衡器的一般用途，以及如何設定您的專案和資源以成功使用它的一些最佳實務。
 
-若要檢閱工作負載平衡器的影片教學課程，請前往[Workfront教學課程](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)頁面。 在左側功能表中，選取&#x200B;**管理資源** > **工作負載平衡器**，然後選擇教學課程。
+若要檢閱工作負載平衡器的影片教學課程，請前往[Workfront教學課程](https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/home)頁面。 在左側功能表中，選取&#x200B;**管理資源** > **工作負載平衡器**，然後選擇教學課程。
 
 ## 找到工作負載平衡器
 

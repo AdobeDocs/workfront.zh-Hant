@@ -31,4 +31,4 @@ ht-degree: 0%
 
 直接來自Workfront Proof系統的電子郵件不會有任何變更。 您將會繼續收到這些電子郵件，一如以往。
 
-如果您有任何其他問題或顧慮，請聯絡[Workfront支援團隊](https://experienceleague.adobe.com/?support-tab=home#support)。
+如果您有任何其他問題或顧慮，請聯絡[Workfront支援團隊](https://experienceleague.adobe.com/zh-hant?support-tab=home#support)。

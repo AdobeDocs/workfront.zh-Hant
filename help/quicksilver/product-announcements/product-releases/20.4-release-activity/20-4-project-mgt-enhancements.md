@@ -138,5 +138,5 @@ ht-degree: 0%
 
 放棄已儲存的草稿時，您現在可以在通知您將刪除草稿的確認訊息上按一下「取消」。 如此一來，您就不會遺失草稿，以防您改變捨棄草稿的意向。
 
-此功能僅在新的Workfront體驗中可用。 如需詳細資訊，請參閱[建立和提交Workfront要求](https://experienceleague.adobe.com/en/docs/workfront/using/home)。
+此功能僅在新的Workfront體驗中可用。 如需詳細資訊，請參閱[建立和提交Workfront要求](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home)。
 

@@ -76,7 +76,7 @@ ht-degree: 0%
 >
 >貴組織必須購買Adobe Workfront Fusion，才能與Adobe Workfront Planning功能建立連線。
 >
->如需詳細資訊，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+>如需詳細資訊，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 
 現在，您可以使用Adobe Workfront Fusion連線至規劃功能。 透過新的Fusion連線，您可以：
 
@@ -92,7 +92,7 @@ ht-degree: 0%
 
 * 在規劃功能中變更時觸發案例
 
-如需詳細資訊，請參閱[Adobe Workfront規劃模組](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)。
+如需詳細資訊，請參閱[Adobe Workfront規劃模組](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)。
 
 ## 2023年12月11日當週
 

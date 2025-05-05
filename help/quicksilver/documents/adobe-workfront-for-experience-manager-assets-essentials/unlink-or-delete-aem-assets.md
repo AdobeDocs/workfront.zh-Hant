@@ -30,8 +30,8 @@ ht-degree: 0%
 
 當您從外部應用程式中刪除連結的檔案或資料夾時，該檔案或資料夾會保留在Workfront系統中，直到您也從Workfront中刪除它為止。
 
-* 若要從Adobe Experience Manager as a Cloud Service刪除資產，請參閱Adobe Experience Manager as a Cloud Service檔案中的[刪除資產](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#delete-assets)。
-* 若要從Adobe Experience Manager Assets Essentials刪除資產，請參閱Adobe Experience Manager Assets Essentials檔案中的[刪除資產或資料夾](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/add-delete#delete-assets)。
+* 若要從Adobe Experience Manager as a Cloud Service刪除資產，請參閱Adobe Experience Manager as a Cloud Service檔案中的[刪除資產](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#delete-assets)。
+* 若要從Adobe Experience Manager Assets Essentials刪除資產，請參閱Adobe Experience Manager Assets Essentials檔案中的[刪除資產或資料夾](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-assets-essentials/help/add-delete#delete-assets)。
 
 
 

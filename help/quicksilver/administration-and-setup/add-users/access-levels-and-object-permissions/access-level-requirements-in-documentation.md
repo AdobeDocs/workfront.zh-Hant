@@ -96,7 +96,7 @@ Workfront檔案how-to文章包含一個表格，說明該程式所需的存取�
    <ul><li>目前：目前的許可證模型是以執行的作業數為基礎，對組織可執行的動作沒有限制。 </li>
    <li>舊版：舊版授權取決於案例能否連線至協力廠商應用程式，或案例是否僅用於Workfront自動化。 </li>
    </ul>
-   如需Fusion授權的詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref">Workfront Fusion授權</a>。
+   如需Fusion授權的詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref">Workfront Fusion授權</a>。
    </td> 
   </tr> 
  </tbody> 

@@ -153,7 +153,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>ASSEMBLY_FAILED</td> 
-   <td><p>如果ASSEMBLY階段失敗，則推進封裝會自動處於此狀態。</p><p>若要將封裝返回ASSEMBLING階段，您必須再次觸發組裝過程。</p><p>如需組裝套件的詳細資訊，請參閱文章建立或編輯環境升級套件中的<a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">編輯或組裝現有套件</a>小節。</td> 
+   <td><p>如果ASSEMBLY階段失敗，則推進封裝會自動處於此狀態。</p><p>若要將封裝返回ASSEMBLING階段，您必須再次觸發組裝過程。</p><p>如需組裝套件的詳細資訊，請參閱文章建立或編輯環境升級套件中的<a href="https://experienceleague.adobe.com/zh-hant/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">編輯或組裝現有套件</a>小節。</td> 
   </tr> 
   </tbody> 
 </table>

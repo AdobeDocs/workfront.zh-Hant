@@ -23,7 +23,7 @@ ht-degree: 0%
 >
 >此頁面中說明的程式僅適用於尚未加入Admin Console的組織。 如果您的組織已加入Adobe Admin Console，您必須透過Adobe Admin Console執行此動作。
 >
->若要在貴組織已加入Adobe Admin Console的情況下設定允許清單，請參閱[允許Adobe應用程式和服務的網域](https://helpx.adobe.com/enterprise/kb/network-endpoints.html)。
+>若要在貴組織已加入Adobe Admin Console的情況下設定允許清單，請參閱[允許Adobe應用程式和服務的網域](https://helpx.adobe.com/tw/enterprise/kb/network-endpoints.html)。
 >
 >如需根據貴組織是否已加入Adobe Admin Console而有所差異的程式清單，請參閱[以平台為基礎的管理差異(Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 
