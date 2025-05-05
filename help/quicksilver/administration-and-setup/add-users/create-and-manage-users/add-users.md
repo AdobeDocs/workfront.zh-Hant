@@ -126,9 +126,9 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
    >
    >* 如果您的Workfront管理員啟用了與Workfront的SSO整合，那麼如果您停用電子郵件邀請，則僅允許&lt;SSO設定>驗證欄位會隱藏。 同盟ID或&lt;SSO組態>使用者名稱欄位仍然可見。
    >
-   * 如果您的組織已加入Admin Console，而您透過Workfront新增使用者，則無法傳送電子郵件邀請。
+   >* 如果您的組織已加入Admin Console，而您透過Workfront新增使用者，則無法傳送電子郵件邀請。
    >
-   對於現有的Adobe使用者，使用者可能會收到也可能不會收到有關Workfront可用性的電子郵件。 這是由Adobe管理員控制的產品偏好設定。
+   >對於現有的Adobe使用者，使用者可能會收到也可能不會收到有關Workfront可用性的電子郵件。 這是由Adobe管理員控制的產品偏好設定。
 
 1. 按一下&#x200B;**新增此人員**。
 
@@ -138,7 +138,7 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
 
    >[!NOTE]
    >
-   如果您是群組管理員，正在將使用者新增至已加入Adobe Admin Console的組織，此步驟的選項為&#x200B;**提交使用者以供管理員核准**&#x200B;和&#x200B;**提交以供核准並開始另一個**。 系統會在已停用及未決核准狀態中建立使用者。 Workfront管理員必須核准使用者，這樣才能在Workfront中啟用使用者，並將他們新增至Adobe Admin Console。
+   >如果您是群組管理員，正在將使用者新增至已加入Adobe Admin Console的組織，此步驟的選項為&#x200B;**提交使用者以供管理員核准**&#x200B;和&#x200B;**提交以供核准並開始另一個**。 系統會在已停用及未決核准狀態中建立使用者。 Workfront管理員必須核准使用者，這樣才能在Workfront中啟用使用者，並將他們新增至Adobe Admin Console。
 
 ## 複製使用者以建立新使用者
 
@@ -146,11 +146,11 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
 
 >[!NOTE]
 >
-當您以這種方式建立使用者時，所有資訊都會從原始使用者複製到新建立的使用者，以下資訊除外：
+>當您以這種方式建立使用者時，所有資訊都會從原始使用者複製到新建立的使用者，以下資訊除外：
 >
-* 「個人資訊」區段中的資訊。
-* 當我登入時，顯示：在此方塊中會選取存取層級的預設登陸標籤。
-* 直接下屬
+>* 「個人資訊」區段中的資訊。
+>* 當我登入時，顯示：在此方塊中會選取存取層級的預設登陸標籤。
+>* 直接下屬
 >
 
 若要複製現有使用者來建立新使用者，請執行下列動作：
@@ -174,6 +174,6 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
 
 >[!NOTE]
 >
-如果您的組織已加入Admin Console，而您透過Workfront新增使用者，則無法傳送電子郵件邀請。
+>如果您的組織已加入Admin Console，而您透過Workfront新增使用者，則無法傳送電子郵件邀請。
 >
-對於現有的Adobe使用者，使用者可能會收到也可能不會收到有關Workfront可用性的電子郵件。 這是由Adobe管理員控制的產品偏好設定。
+>對於現有的Adobe使用者，使用者可能會收到也可能不會收到有關Workfront可用性的電子郵件。 這是由Adobe管理員控制的產品偏好設定。

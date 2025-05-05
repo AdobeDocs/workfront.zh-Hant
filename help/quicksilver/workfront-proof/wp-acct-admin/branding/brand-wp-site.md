@@ -65,7 +65,7 @@ ht-degree: 1%
    ![Proof_loading_page_setup.png](assets/proof-loading-page-setup-350x159.png)
 
 1. 從下拉式功能表中選取&#x200B;**[!UICONTROL 品牌化影像]**。
-如果您選取**[!UICONTROL 停用]**，則校樣載入頁面上會顯示[!DNL Workfront Proof]標誌
+如果您選取&#x200B;**[!UICONTROL 停用]**，則校樣載入頁面上會顯示[!DNL Workfront Proof]標誌
 
 1. 按一下「**[!UICONTROL 儲存]**」。(3)
 
@@ -101,7 +101,7 @@ ht-degree: 1%
 
 1. 選取您要用於標籤電子郵件的影像。 (2)
 
-   如果您已設定電子郵件品牌，而且想要停用它，請按一下[清除]。**** (4)
+   如果您已設定電子郵件品牌，而且想要停用它，請按一下[清除]。**&#x200B;** (4)
 
    ![Email_branding_setup_2.png](assets/email-branding-setup-2-350x96.png)
 

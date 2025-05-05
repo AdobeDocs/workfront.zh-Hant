@@ -47,14 +47,14 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>[！UICONTROL Request]或更新版本以變更您自己的設定</p> <p>[！UICONTROL Plan]可編輯其他使用者的設定</p> </td> 
+   <td> <p>[!UICONTROL Request]或更新版本以變更您自己的設定</p> <p>[!UICONTROL Plan]可編輯其他使用者的設定</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>存取層級設定*</strong></td> 
    <td> <p>您必須具備下列其中一項：</p> 
     <ul> 
-     <li> <p>[！UICONTROL系統管理員]存取層級。</p> <p> 如需有關這個存取層級的資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授與使用者完整的管理存取權</a>。 </p> </li> 
-     <li> <p>在您的存取層級中，必須為[！UICONTROL使用者]設定選取[！UICONTROL編輯] 。 此外，針對[！UICONTROL使用者]設定，在[！UICONTROL微調您的設定] <img src="assets/gear-icon-in-access-levels.png">下，必須啟用[！UICONTROL建立]選項以及兩個[！UICONTROL使用者管理]選項中的至少一個。 </p> <p>如果您使用[！UICONTROL使用者管理員（群組使用者）]選項，您必須是使用者所屬群組的群組管理員。</p> <p> <img src="assets/access-req-users-350x101.png" style="width: 350;height: 101;"> </p> <p>如需存取層級中[！UICONTROL使用者]設定的相關資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予使用者存取權</a>。</p> </li> 
+     <li> <p>[!UICONTROL 系統管理員]存取層級。</p> <p> 如需有關這個存取層級的資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授與使用者完整的管理存取權</a>。 </p> </li> 
+     <li> <p>在您的存取層級中，必須為[!UICONTROL 使用者]設定選取[!UICONTROL 編輯] 。 此外，針對[!UICONTROL 使用者]設定，在[!UICONTROL 微調您的設定] <img src="assets/gear-icon-in-access-levels.png">下，必須啟用[!UICONTROL 建立]選項以及兩個[!UICONTROL 使用者管理]選項中的至少一個。 </p> <p>如果您使用[!UICONTROL 使用者管理員（群組使用者）]選項，您必須是使用者所屬群組的群組管理員。</p> <p> <img src="assets/access-req-users-350x101.png" style="width: 350;height: 101;"> </p> <p>如需存取層級中[!UICONTROL 使用者]設定的相關資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予使用者存取權</a>。</p> </li> 
     </ul> <p>注意：如果您還是沒有存取權，請詢問您的[!DNL Workfront]管理員是否對您的存取層級設定了其他限制。 如需[!DNL Workfront]管理員如何修改存取層級的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
  </tbody> 

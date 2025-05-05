@@ -165,7 +165,7 @@ ht-degree: 0%
 
 在此變更之前，為了建立自訂檢視，您必須從頭開始建立檢視。 
 
-如需詳細資訊，請參閱[在[在Workfront Proof校訂中建立和管理自訂檢視](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md)中建立自訂檢視](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md#creating)。
+如需詳細資訊，請參閱[&#128279;](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md#creating)在[在Workfront Proof校訂中建立和管理自訂檢視](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md)中建立自訂檢視。
 
 ## 篩選報告區域(ProofHQ) {#filter-the-reporting-area-proofhq}
 

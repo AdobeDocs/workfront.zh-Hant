@@ -31,21 +31,21 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Adobe Workfront]計畫*</td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront]計畫*</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Adobe Workfront]授權*</td> 
-   <td> <p>新增：[！UICONTROL Light]或更高</p>
-   <p>目前：[！UICONTROL Review]或以上</p> </td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront]授權*</td> 
+   <td> <p>新增：[!UICONTROL Light]或更高</p>
+   <p>目前：[!UICONTROL Review]或以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
-   <td> <p>[！UICONTROL檢視]或更高的專案和任務存取權</p> </td> 
+   <td> <p>[!UICONTROL 檢視]或更高的專案和任務存取權</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>[！UICONTROL檢視]或更高的專案存取權</p> </td> 
+   <td> <p>[!UICONTROL 檢視]或更高的專案存取權</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -110,7 +110,7 @@ ht-degree: 1%
    例如，如果您正在檢視包含50個任務的專案的[!UICONTROL 甘特圖]，但您只想在匯出的[!UICONTROL 甘特圖]上顯示10個任務，請選取您要顯示的10個任務。
 
 1. 按一下甘特圖右上角的印表機圖示![印表機圖示](assets/printer-icon.png)。
-顯示**[!UICONTROL 匯出至PDF]**&#x200B;對話方塊。
+顯示&#x200B;**[!UICONTROL 匯出至PDF]**&#x200B;對話方塊。
 
    ![exported_gantt_UI.png](assets/exported-gantt-ui-350x225.png)
 
@@ -140,7 +140,7 @@ ht-degree: 1%
      >   * 當它包含超過500個專案
 
 
-1. 如果PDF在匯出到PDF之後會列印，請在&#x200B;**[!UICONTROL 頁面大小]**下拉式功能表中，選取您要列印的紙張大小。
+1. 如果PDF在匯出到PDF之後會列印，請在&#x200B;**[!UICONTROL 頁面大小]**&#x200B;下拉式功能表中，選取您要列印的紙張大小。
 您可選取下列選項：
 
    * **[!UICONTROL 字母]**

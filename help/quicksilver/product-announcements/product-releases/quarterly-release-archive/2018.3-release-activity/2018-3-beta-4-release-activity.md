@@ -22,7 +22,7 @@ ht-degree: 0%
 
 2018.3 Beta 4版本包含適用於Workfront管理員和其他使用者的增強功能：
 
-管理員的&#x200B;****
+管理員的&#x200B;**&#x200B;**
 
 * [以群組管理員身分更新使用者設定檔中的報告結構](#update-reporting-structure-in-the-user-profile-as-a-group-administrator) 
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 * [專案清單改善](#project-list-improvements)
 * [在甘特圖編輯模式下編輯工作清單](#editing-the-task-list-in-gantt-chart-edit-mode)已從發行版本移除
 * [測量工具色彩](#measurement-tool-colors)
-* 在新索引標籤](#proofs-open-in-a-new-tab)中開啟的[校訂已從發行版本中移除
+* 在新索引標籤[&#128279;](#proofs-open-in-a-new-tab)中開啟的校訂已從發行版本中移除
 
 * [列印摘要增強功能](#print-summary-enhancements)
 * [在Workfront行動應用程式中記錄時間（以天為單位）](#log-time-in-days-in-the-workfront-mobile-app)

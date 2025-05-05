@@ -32,4 +32,4 @@ ht-degree: 0%
 
 行動應用程式現在也支援面板集合，可讓行動使用者在案頭版本中，從行動面板清單檢視他們可存取的任何集合。
 
-如需詳細資訊，請參閱行動裝置](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)的[[!DNL Adobe Workfront] [!UICONTROL 面板]。
+如需詳細資訊，請參閱行動裝置[&#128279;](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)的[!DNL Adobe Workfront] [!UICONTROL 面板]。

@@ -93,7 +93,7 @@ ht-degree: 0%
 
 當功能發行到預覽Sandbox環境時，[!DNL Workfront]檔案將更新以包括新功能。 您可以搜尋適用的文章，或遵循發行說明中的檔案連結。
 
-如需[!UICONTROL 預覽沙箱]環境的詳細資訊，請參閱[預覽沙箱]環境](../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)。 [!DNL Adobe Workfront] [!UICONTROL 
+如需[!UICONTROL 預覽沙箱]環境的詳細資訊，請參閱[預覽沙箱]環境(../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)。 [!DNL Adobe Workfront] 
 
 ### 出席發行網路研討會
 

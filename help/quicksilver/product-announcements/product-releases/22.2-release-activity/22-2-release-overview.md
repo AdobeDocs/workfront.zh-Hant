@@ -624,7 +624,7 @@ Workfront Fusion中的新功能可在22.2版發行排程以外的步調中提供
 
 ## 22.2版本網路研討會
 
-Workfront 22.2版本網路研討會將於2022年3月24日上午8:00 （山區標準時間）舉行。 您可以在Workfront One](https://webinars.on24.com/adobe_workfront/WF22point2?partnerref=WFOne)的[事件頁面上註冊此事件。
+Workfront 22.2版本網路研討會將於2022年3月24日上午8:00 （山區標準時間）舉行。 您可以在Workfront One[&#128279;](https://webinars.on24.com/adobe_workfront/WF22point2?partnerref=WFOne)的事件頁面上註冊此事件。
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">

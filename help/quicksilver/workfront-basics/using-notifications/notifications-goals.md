@@ -33,11 +33,11 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
-   <td> <p>[！UICONTROL Pro]或更高版本</p> </td> 
+   <td> <p>[!UICONTROL Pro]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>[！UICONTROL Request]或更高版本</p> </td> 
+   <td> <p>[!UICONTROL Request]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>產品</strong></td> 
@@ -45,7 +45,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>存取層級設定*</strong></td> 
-   <td> <p>[！UICONTROL View]存取[!DNL Goals]或更新版本</p> <p>注意：如果您還是沒有存取權，請詢問您的[!DNL Workfront]管理員是否對您的存取層級設定了其他限制。 如需[!DNL Workfront]管理員如何變更您的存取層級的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td> <p>[!UICONTROL View]存取[!DNL Goals]或更新版本</p> <p>注意：如果您還是沒有存取權，請詢問您的[!DNL Workfront]管理員是否對您的存取層級設定了其他限制。 如需[!DNL Workfront]管理員如何變更您的存取層級的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">Object permissions</td> 
@@ -86,15 +86,15 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td><strong>有人將結果/活動指派給我</strong></td> 
-   <td> <p>將結果或活動指派給您的人員姓名</p> <p>結果或活動的目標期間</p> <p>結果或活動的名稱</p> <p><strong>[！UICONTROL在網頁應用程式中開啟]</strong>按鈕可開啟[！UICONTROL目標詳細資料]面板</p> <p><strong>[！UICONTROL變更通知設定]</strong>按鈕可讓您管理通知。</p> </td> 
+   <td> <p>將結果或活動指派給您的人員姓名</p> <p>結果或活動的目標期間</p> <p>結果或活動的名稱</p> <p><strong>[!UICONTROL 在網頁應用程式中開啟]</strong>按鈕可開啟[!UICONTROL 目標詳細資料]面板</p> <p><strong>[!UICONTROL 變更通知設定]</strong>按鈕可讓您管理通知。</p> </td> 
   </tr> 
   <tr> 
    <td><strong>有人為我建立了新的個人目標</strong> </td> 
-   <td> <p>指派目標的人員名稱</p> <p>目標的期間</p> <p>目標的名稱</p> <p><strong>[！UICONTROL在網頁應用程式中開啟]</strong>按鈕可開啟[！UICONTROL目標詳細資料]面板</p> <p><strong>[！UICONTROL變更通知設定]</strong>按鈕可讓您管理通知。</p> </td> 
+   <td> <p>指派目標的人員名稱</p> <p>目標的期間</p> <p>目標的名稱</p> <p><strong>[!UICONTROL 在網頁應用程式中開啟]</strong>按鈕可開啟[!UICONTROL 目標詳細資料]面板</p> <p><strong>[!UICONTROL 變更通知設定]</strong>按鈕可讓您管理通知。</p> </td> 
   </tr> 
   <tr> 
    <td><strong>有人對我目標上的更新留言</strong></td> 
-   <td> <p>留下評論的人員的姓名</p> <p>目標的期間 </p> <p>目標的名稱</p> <p>註解的文字</p> <p><strong>[！UICONTROL在網頁應用程式中開啟]</strong>按鈕可開啟[！UICONTROL目標詳細資料]面板</p> <p><strong>[！UICONTROL變更通知設定]</strong>按鈕可讓您管理通知。</p> </td> 
+   <td> <p>留下評論的人員的姓名</p> <p>目標的期間 </p> <p>目標的名稱</p> <p>註解的文字</p> <p><strong>[!UICONTROL 在網頁應用程式中開啟]</strong>按鈕可開啟[!UICONTROL 目標詳細資料]面板</p> <p><strong>[!UICONTROL 變更通知設定]</strong>按鈕可讓您管理通知。</p> </td> 
   </tr> 
   <tr> 
   </tbody> 

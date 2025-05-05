@@ -34,7 +34,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>存取層級設定</strong></td> 
-   <td> <p>[！UICONTROL系統管理員] </p> </td> 
+   <td> <p>[!UICONTROL 系統管理員] </p> </td> 
   </tr> 
  </tbody> 
 </table>

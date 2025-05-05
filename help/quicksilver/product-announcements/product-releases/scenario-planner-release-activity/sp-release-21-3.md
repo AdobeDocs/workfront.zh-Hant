@@ -28,7 +28,7 @@ Adobe Workfront Scenario Planner僅適用於新的Adobe Workfront體驗。
 
 這僅適用於已購買Adobe Workfront Scenario Planner授權的新版Adobe Workfront Experience客戶。
 
-如需詳細資訊，請參閱使用案例規劃工具](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)的業務案例中的[預算資源。
+如需詳細資訊，請參閱使用案例規劃工具[&#128279;](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)的業務案例中的預算資源。
 
 ## 為版面配置範本中的情境規劃工具和目標建立圖釘和登陸頁面
 

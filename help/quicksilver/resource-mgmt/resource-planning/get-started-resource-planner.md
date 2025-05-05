@@ -299,4 +299,4 @@ You can only add a resource pool in the Resource Budgeting area of the Business 
 ## 在資源規劃工具中篩選資訊
 
 您可以透過建立篩選器來減少顯示在資源規劃工具中的專案、角色或使用者的數量。\
-如需詳細資訊，請參閱資源規劃工具](../../resource-mgmt/resource-planning/filter-resource-planner.md)中的文章[篩選資訊。
+如需詳細資訊，請參閱資源規劃工具[&#128279;](../../resource-mgmt/resource-planning/filter-resource-planner.md)中的文章篩選資訊。

@@ -29,11 +29,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
-   <td> <p>目前計畫： [！UICONTROL Pro]或更高版本</p> <p>或</p> <p>舊版計畫： [！UICONTROL Premium]</p> <p>如需有關校訂不同方案的存取許可權的詳細資訊，請參閱。</p> </td> 
+   <td> <p>目前計畫： [!UICONTROL Pro]或更高版本</p> <p>或</p> <p>舊版計畫： [!UICONTROL Premium]</p> <p>如需有關校訂不同方案的存取許可權的詳細資訊，請參閱。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>目前計畫： [！UICONTROL Work]或[！UICONTROL Proof]</p> <p>舊版計畫：任何（您必須為使用者啟用校訂）</p> </td> 
+   <td> <p>目前計畫： [!UICONTROL Work]或[!UICONTROL Proof]</p> <p>舊版計畫：任何（您必須為使用者啟用校訂）</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
@@ -41,11 +41,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">校樣權限設定檔 </td> 
-   <td>[！UICONTROL Manager]或更高版本</td> 
+   <td>[!UICONTROL Manager]或更高版本</td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>編輯[！UICONTROL檔案]的存取權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>編輯[!UICONTROL 檔案]的存取權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -88,17 +88,17 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL Basic]： </td> 
+      <td role="rowheader">[!UICONTROL Basic]： </td> 
       <td> <p>基本核准流程是臨時性的，可以根據需要包含不同的稽核者： </p> 
        <ul> 
         <li> <p>（選擇性）在方塊中新增<strong>核准者</strong>。</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL自動化]</td> 
+      <td role="rowheader">[!UICONTROL 自動化]</td> 
       <td> <p>自動核准流程由管理員預先建立，並包括特定稽核者和階段。 如需詳細資訊，請參閱<a href="../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">自動化工作流程總覽</a>。</p> 
        <ul> 
-        <li> <p>從下拉式選單中選擇[！UICONTROL工作流程範本]。</p> </li> 
+        <li> <p>從下拉式選單中選擇[!UICONTROL 工作流程範本]。</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -108,7 +108,7 @@ ht-degree: 0%
 
 1. （選擇性）在&#x200B;**[!UICONTROL 更新]**&#x200B;區域輸入註解。
 
-   在XD](assets/proof-approvals-xd-350x396.png)中![校訂核准
+   在XD![&#128279;](assets/proof-approvals-xd-350x396.png)中校訂核准
 
 1. 從&#x200B;**[!UICONTROL 資產型別]**&#x200B;下拉式功能表中選擇匯出格式。
 
@@ -164,17 +164,17 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL Basic]： </td> 
+      <td role="rowheader">[!UICONTROL Basic]： </td> 
       <td> <p>基本核准流程是臨時性的，可以根據需要包含不同的稽核者： </p> 
        <ul> 
         <li> <p>（選擇性）在方塊中新增<strong>核准者</strong>。</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL自動化]</td> 
+      <td role="rowheader">[!UICONTROL 自動化]</td> 
       <td> <p>自動核准流程由管理員預先建立，並包括特定稽核者和階段。 如需詳細資訊，請參閱<a href="../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">自動化工作流程總覽</a>。</p> 
        <ul> 
-        <li> <p>從下拉式選單中選擇[！UICONTROL工作流程範本]。</p> </li> 
+        <li> <p>從下拉式選單中選擇[!UICONTROL 工作流程範本]。</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -184,7 +184,7 @@ ht-degree: 0%
 
 1. （選擇性）在&#x200B;**[!UICONTROL 更新]**&#x200B;區域輸入註解。
 
-   在XD](assets/proof-approvals-xd-350x396.png)中![校訂核准
+   在XD![&#128279;](assets/proof-approvals-xd-350x396.png)中校訂核准
 
 1. 在&#x200B;**[!UICONTROL 資產型別]**&#x200B;下拉式功能表中，選擇您剛才在&#x200B;**共用連結**&#x200B;標籤下建立的連結。 如需詳細資訊，請參閱[為您的工作區域建立互動式連結](#create-an-interactive-link-for-your-artboard)。\
    ![在XD中共用的連結](assets/shared-links-xd-350x870.png)
@@ -223,17 +223,17 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL Basic]： </td> 
+      <td role="rowheader">[!UICONTROL Basic]： </td> 
       <td> <p>基本核准流程是臨時性的，可以根據需要包含不同的稽核者： </p> 
        <ul> 
         <li> <p>（選擇性）在方塊中新增<strong>核准者</strong>。</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL自動化]</td> 
+      <td role="rowheader">[!UICONTROL 自動化]</td> 
       <td> <p>自動核准流程由管理員預先建立，並包括特定稽核者和階段。 如需詳細資訊，請參閱<a href="../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">自動化工作流程總覽</a>。</p> 
        <ul> 
-        <li> <p>從下拉式選單中選擇[！UICONTROL工作流程範本]。</p> </li> 
+        <li> <p>從下拉式選單中選擇[!UICONTROL 工作流程範本]。</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -247,7 +247,7 @@ ht-degree: 0%
 
 1. （選擇性）在&#x200B;**[!UICONTROL 更新]**&#x200B;區域輸入註解。
 
-   在XD](assets/proof-approvals-xd-350x396.png)中![校訂核准
+   在XD![&#128279;](assets/proof-approvals-xd-350x396.png)中校訂核准
 
 1. （選擇性）如果您選取PDF作為資產型別，且選取了多個工作區域，請選擇您要將工作區域匯出為&#x200B;**[!UICONTROL 單一PDF檔案]s**&#x200B;或&#x200B;**M[!UICONTROL 多個PDF檔案]**。
 

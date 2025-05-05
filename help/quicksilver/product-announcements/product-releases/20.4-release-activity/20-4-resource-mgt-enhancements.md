@@ -88,7 +88,7 @@ ht-degree: 0%
 
 在此增強功能之前，您有權檢視的所有使用者都會顯示在此區域中。
 
-如需在工作負載平衡器中使用篩選器的相關資訊，請參閱在工作負載平衡器](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)中管理篩選器。[
+如需在工作負載平衡器中使用篩選器的相關資訊，請參閱在工作負載平衡器[&#128279;](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)中管理篩選器。
 
 ## 新圖示可在時數和百分比值之間切換，或在工作負載平衡器中的已分配時間和剩餘時間
 
@@ -102,5 +102,5 @@ ht-degree: 0%
 
 為了使您在工作負載平衡器中的篩選體驗更有效率，我們在已指派的工作區域中新增一個新的內建篩選器。 您現在可以套用專案上的使用者篩選器，該篩選器顯示指派給您指定專案中的任務和問題的使用者。
 
-如需有關在工作負載平衡器中使用篩選器的資訊，請參閱工作負載平衡器](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)中的[篩選資訊。
+如需有關在工作負載平衡器中使用篩選器的資訊，請參閱工作負載平衡器[&#128279;](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)中的篩選資訊。
 

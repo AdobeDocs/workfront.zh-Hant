@@ -53,7 +53,7 @@ Workfront版本編號代表每月和每季的版本追蹤。 第一個數字代�
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            自訂表單邏輯的增強功能</a></p><p>[！BADGE In Production ]{type=Informative}</p>
+            自訂表單邏輯的增強功能</a></p><p>[!BADGE In Production &#x200B;]{type=Informative}</p>
             <p>自訂表單邏輯產生器有更新的介面，為您提供建立邏輯規則的更多空間。 此新設計可更輕鬆地容納未來可能新增的其他邏輯型別。</p><p>除了目前的顯示和略過邏輯選項外，您也可以使用驗證邏輯。</p>
         </td>
         <td>
@@ -68,7 +68,7 @@ Workfront版本編號代表每月和每季的版本追蹤。 第一個數字代�
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             新增到計算自訂欄位的運算式</a></p>
-            [！BADGE In Production ]{type=Informative}
+            [!BADGE In Production &#x200B;]{type=Informative}
             <p>Workfront計算自訂欄位現在提供下列運算式：ARRAY、FORMAT、SWITCH、SORTASCARRAY、SORTDESCARRAY、ARRAYLENGTH、ARRAYELEMENT和ADDHOUR。 計算編輯器和Experience League上提供每個運算式的定義和範例。</p>
         </td>
         <td>
@@ -105,7 +105,7 @@ Workfront版本編號代表每月和每季的版本追蹤。 第一個數字代�
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            案頭校訂檢視器更新 </a></p>[！BADGE In Production ]{type=Informative}
+            案頭校訂檢視器更新 </a></p>[!BADGE In Production &#x200B;]{type=Informative}
             <p>案頭校訂檢視器已更新至2.1.45版。此更新可讓檢視器使用
             <ul><li>Electron 35版</li><li>Chromium 134版</li><ul></p>
         </td>
@@ -120,7 +120,7 @@ Workfront版本編號代表每月和每季的版本追蹤。 第一個數字代�
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            在檔案報告中一次編輯多個檔案 </a></p>[！BADGE In Production ]{type=Informative}
+            在檔案報告中一次編輯多個檔案 </a></p>[!BADGE In Production &#x200B;]{type=Informative}
             <p>您現在可以在檔案報告中一次編輯多個檔案。 您可以編輯說明並更新自訂表格。</p>
         </td>
         <td>
@@ -143,7 +143,7 @@ Workfront版本編號代表每月和每季的版本追蹤。 第一個數字代�
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            行動應用程式中校訂的增強功能(僅限iOS)</a><p>[！BADGE In Production ]{type=Informative}</p></p>
+            行動應用程式中校訂的增強功能(僅限iOS)</a><p>[!BADGE In Production &#x200B;]{type=Informative}</p></p>
             <p>Adobe Workfront行動應用程式中的校訂功能有數個增強功能：
             <ul>
             <li>您現在可以從您的行動電子郵件應用程式，透過與您共用的連結開啟校訂檔案。 以前不支援電子郵件中的連結，因此您必須從Workfront行動應用程式存取校樣。</li>
@@ -175,7 +175,7 @@ Workfront版本編號代表每月和每季的版本追蹤。 第一個數字代�
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            在編輯專案方塊中編輯專案時，為專案新增註解</a><p>[！BADGE In Production ]{type=Informative}</p>
+            在編輯專案方塊中編輯專案時，為專案新增註解</a><p>[!BADGE In Production &#x200B;]{type=Informative}</p>
             <p>您現在可以在「編輯專案」方塊中編輯專案時，將註解新增至專案。 您也可以在大量編輯專案時，一次為多個專案新增註解。 在此更新之前，編輯專案時不存在此功能。</p>
         </td>
         <td>
@@ -199,7 +199,7 @@ Workfront版本編號代表每月和每季的版本追蹤。 第一個數字代�
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Data Connect現在提供檔案核准和決定資料</a><p>[！BADGE In Production ]{type=Informative}</p>
+            Data Connect現在提供檔案核准和決定資料</a><p>[!BADGE In Production &#x200B;]{type=Informative}</p>
             <p>您現在可以在Data Connect中存取檔案核准和決定的資料。 此資料集橋接來自Workfront校訂功能和Workfront檔案上發生的Frame.io核准的檔案。 您現在將能夠透過BI視覺效果說明週期時間、週期數和時間表對延遲核准的影響。</p>
         </td>
         <td>
@@ -212,7 +212,7 @@ Workfront版本編號代表每月和每季的版本追蹤。 第一個數字代�
     </tr>                          
     <tr>
         <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront行事曆的更新</a></p><p>[！BADGE In Production ]{type=Informative}</p>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront行事曆的更新</a></p><p>[!BADGE In Production &#x200B;]{type=Informative}</p>
             <p>我們已將Workfront行事曆的外觀與風格更新為與Workfront其他區域一致的現代化設計。 與目前的Workfront行事曆在功能上有細微的差異，包括：
             <ul>
             <li>如何將臨時專案新增至行事曆</li>
@@ -242,7 +242,7 @@ Workfront版本編號代表每月和每季的版本追蹤。 第一個數字代�
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             升級至具有版本升級端點的新事件訂閱版本</a></p>
-            [！BADGE In Production ]{type=Informative}
+            [!BADGE In Production &#x200B;]{type=Informative}
             <p>Workfront現在提供不同版本的事件訂閱。 新版本並非變更Workfront API，而是變更事件訂閱功能。 您可以將活動訂閱切換至新版本，而不會在活動訂閱中造成間隙</p>
         </td>
         <td>
@@ -255,7 +255,7 @@ Workfront版本編號代表每月和每季的版本追蹤。 第一個數字代�
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            在Workfront更新摘要中將Adobe Admin Console使用者變更顯示為「系統」</a></p><p>[！BADGE In Production ]{type=Informative}</p><p>現在，當Adobe Admin Console管理員變更Workfront使用者的使用者資訊時，Workfront會在使用者更新區域的系統活動標籤中，將此變更記錄為屬於「系統」。 他向Adobe Admin Console管理員求助。</p>
+            在Workfront更新摘要中將Adobe Admin Console使用者變更顯示為「系統」</a></p><p>[!BADGE In Production &#x200B;]{type=Informative}</p><p>現在，當Adobe Admin Console管理員變更Workfront使用者的使用者資訊時，Workfront會在使用者更新區域的系統活動標籤中，將此變更記錄為屬於「系統」。 他向Adobe Admin Console管理員求助。</p>
         </td>
         <td>
             <p><b>將於下列日期提供：</b></p>

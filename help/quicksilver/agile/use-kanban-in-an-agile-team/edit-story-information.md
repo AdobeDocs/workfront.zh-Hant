@@ -47,7 +47,7 @@ ht-degree: 0%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>每個內文和問題的[！UICONTROL完成百分比]。<br>[！UICONTROL反複運算的完成百分比]是根據每個內文的[！UICONTROL完成百分比]計算的。<br></p> <p>更新內文或問題的[！UICONTROL完成百分比]時，您可以選擇0到100之間的任何數字。</p> </td> 
+   <td> <p>每個內文和問題的[!UICONTROL 完成百分比]。<br>[!UICONTROL 反複運算的完成百分比]是根據每個內文的[!UICONTROL 完成百分比]計算的。<br></p> <p>更新內文或問題的[!UICONTROL 完成百分比]時，您可以選擇0到100之間的任何數字。</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -87,9 +87,9 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>新增：[！UICONTROL Standard]</p> 
+   <td> <p>新增：[!UICONTROL Standard]</p> 
    或
-   <p>目前： [！UICONTROL Work]或更高版本</p> </td> 
+   <p>目前： [!UICONTROL Work]或更高版本</p> </td> 
   </tr>
  </tbody> 
 </table>

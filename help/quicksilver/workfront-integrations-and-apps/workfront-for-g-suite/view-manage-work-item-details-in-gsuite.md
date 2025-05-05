@@ -36,7 +36,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[！UICONTROL Work]， [！UICONTROL計畫]</p> </td> 
+   <td> <p>[!UICONTROL Work]， [!UICONTROL 計畫]</p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 ## 在[!DNL Google Workspace]中檢視和管理工作專案詳細資料
 
-1. 如果未顯示Google Workspace]的[!UICONTROL Workfront面板，請按一下頁面最右側[!DNL Google Workspace]附加元件側邊欄中的[!DNL Workfront]圖示![Workfront圖示](assets/wf-lion-icon.png)。
+1. 如果未顯示Google Workspace的Workfront面板，請按一下頁面最右側[!DNL Google Workspace]附加元件側邊欄中的[!DNL Workfront]圖示![Workfront圖示](assets/wf-lion-icon.png)。
 1. 移至[!DNL Google Workspace]內的[!DNL Workfront]任務或問題，如[存取 [!DNL Adobe Workfront] [!UICONTROL 首頁]來自 [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md)的內容中所述。
 
    當您選取任務或問題時，**[!UICONTROL 詳細資料]**&#x200B;索引標籤會開啟。 **[!UICONTROL 詳細資料]**&#x200B;標籤上方的區域會顯示父物件的名稱、任務或問題的名稱，以及[!UICONTROL 到期日] （如果是任務）或[!UICONTROL 優先順序日期] （如果是問題）。
@@ -82,4 +82,4 @@ ht-degree: 0%
 1. （選擇性）按一下&#x200B;**[!UICONTROL 在[!DNL Workfront]]**&#x200B;中檢視以移至[!DNL Workfront]中的目前工作專案。
 
 * 如需有關在[!DNL Workfront for Google Workspace]中使用[!UICONTROL 更新]索引標籤的資訊，請參閱[從 [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md)更新 [!DNL Adobe Workfront] 物件。
-* 如需有關在[!DNL Workfront for Google Workspace]中使用[!UICONTROL 檔案]索引標籤的資訊，請參閱[從[！DNL G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-and-manage-documents-in-gsuite.md)檢視及管理檔案。
+* 如需有關在[!DNL Workfront for Google Workspace]中使用[!UICONTROL 檔案]索引標籤的資訊，請參閱[從[!DNL G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-and-manage-documents-in-gsuite.md)檢視及管理檔案。

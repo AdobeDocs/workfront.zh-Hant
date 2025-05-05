@@ -62,7 +62,7 @@ ht-degree: 0%
 
 您現在可以在任務或問題的詳細資訊頁面上檢視即時更新。 您也可以檢視其他人是否與您同時檢視頁面，並透過即時狀態指標。
 
-如需詳細資訊，請參閱「優先順序」工作清單](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md)中的[檢視專案與工作詳細資訊。
+如需詳細資訊，請參閱「優先順序」工作清單[&#128279;](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md)中的檢視專案與工作詳細資訊。
 
 ## 上傳和檢視優先順序中的檔案和校樣
 
@@ -132,7 +132,7 @@ ht-degree: 0%
 
 您現在可以從優先順序工作清單直接導覽至Workfront中的專案。
 
-如需詳細資訊，請參閱「優先順序」工作清單](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md)中的[檢視專案與工作詳細資訊。
+如需詳細資訊，請參閱「優先順序」工作清單[&#128279;](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md)中的檢視專案與工作詳細資訊。
 
 ## 更新「優先順序」中「我的焦點」欄的選項
 
@@ -157,7 +157,7 @@ ht-degree: 0%
 
 您現在可以從「優先順序」的工作清單中檢視專案詳細資訊和註解。
 
-如需詳細資訊，請參閱「優先順序」工作清單](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md)中的[檢視專案與工作詳細資訊。
+如需詳細資訊，請參閱「優先順序」工作清單[&#128279;](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md)中的檢視專案與工作詳細資訊。
 
 ## 優先順序增強功能示範影片
 

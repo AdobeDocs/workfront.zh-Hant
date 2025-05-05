@@ -48,7 +48,7 @@ ht-degree: 0%
 
 在此增強功能之前，Workfront僅使用預算時數計算淨值。 淨值會顯示可用與預算或計畫時數、FTE或成本之間的差異。 計算淨值時，預算時數仍是預設設定。
 
-如需相關資訊，請參閱資源規劃工具](../../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)的專案與角色檢視中的[時數概觀、約當全職人數與成本資訊。
+如需相關資訊，請參閱資源規劃工具[&#128279;](../../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)的專案與角色檢視中的時數概觀、約當全職人數與成本資訊。
 
 ## 在工作負載平衡器12週檢視
 
@@ -62,4 +62,4 @@ ht-degree: 0%
 
 在此增強功能之前，當將工作角色篩選器套用至未指派區域時，工作負載平衡器顯示與指派給工作角色的工作專案相關的所有時數。
 
-如需有關在工作負載平衡器中篩選資訊的資訊，請參閱在工作負載平衡器中管理篩選器[](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)。
+如需有關在工作負載平衡器中篩選資訊的資訊，請參閱在工作負載平衡器中管理篩選器[&#128279;](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)。

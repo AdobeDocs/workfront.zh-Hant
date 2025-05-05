@@ -69,7 +69,7 @@ ht-degree: 0%
 
 ## 依授權型別存取Scenario Planner
 
-如需有關每個存取層級中的使用者可以使用Scenario Planner做什麼，請參閱每個物件型別](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)可用的[功能文章中的[Scenario Planner區域](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#scenario)一節。
+如需有關每個存取層級中的使用者可以使用Scenario Planner做什麼，請參閱每個物件型別[&#128279;](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)可用的功能文章中的[Scenario Planner區域](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#scenario)一節。
 
 ## 依存取層級設定的「案例規劃工具」存取權
 

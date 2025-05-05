@@ -63,7 +63,7 @@ Portfolio或專案Portfolio管理(PPM)是排定專案清單優先順序及加以
 
 提交專案請求後，Portfolio經理或執行團隊會進行稽核，並決定是否核准專案。 如果他們核准了專案，則會為公司Project Portfolio選取該專案。
 
-如需投資組合的詳細資訊，請參閱 [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)中的[Portfolio概觀。 如需核准業務案例的詳細資訊，請參閱[核准業務案例](../../../manage-work/projects/define-a-business-case/approve-business-case.md)。
+如需投資組合的詳細資訊，請參閱 [!DNL Adobe Workfront][&#128279;](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)中的Portfolio概觀。 如需核准業務案例的詳細資訊，請參閱[核准業務案例](../../../manage-work/projects/define-a-business-case/approve-business-case.md)。
 
 ### 投資組合最佳化 {#portfolio-optimization}
 

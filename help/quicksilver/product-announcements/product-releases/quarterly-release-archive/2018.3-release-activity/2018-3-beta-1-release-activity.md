@@ -28,7 +28,7 @@ ht-degree: 0%
 
 * [在首頁存取團隊請求](#access-team-requests-in-home)
 * [檢視專案清單甘特圖中的任務資訊](#view-task-information-in-the-project-list-gantt-chart)
-* 匯出資源規劃工具](#improvements-when-exporting-the-role-and-project-views-of-the-resource-planner)的角色和專案檢視時進行[改進
+* 匯出資源規劃工具[&#128279;](#improvements-when-exporting-the-role-and-project-views-of-the-resource-planner)的角色和專案檢視時進行改進
 * [直接從校訂檢視器(Workfront Proof)存取多個校訂](#access-multiple-proofs-directly-from-the-proofing-viewer-workfront-proof)
 
 ## 存取首頁中的團隊請求 {#access-team-requests-in-home}

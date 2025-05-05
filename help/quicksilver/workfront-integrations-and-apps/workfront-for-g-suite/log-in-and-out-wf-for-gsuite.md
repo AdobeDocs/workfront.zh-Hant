@@ -34,7 +34,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[！UICONTROL Work]， [！UICONTROL計畫]</p> </td> 
+   <td> <p>[!UICONTROL Work]， [!UICONTROL 計畫]</p> </td> 
   </tr> 
    </tbody> 
 </table>
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 ## 登出[!DNL Workfront for Google Workspace]
 
-1. 如果未顯示Google Workspace]的[!UICONTROL Workfront面板，請按一下頁面最右側[!DNL Google Workspace]附加元件側邊欄中的[!DNL Workfront]圖示![Workfront圖示](assets/wf-lion-icon.png)。
+1. 如果未顯示Google Workspace的Workfront面板，請按一下頁面最右側[!DNL Google Workspace]附加元件側邊欄中的[!DNL Workfront]圖示![Workfront圖示](assets/wf-lion-icon.png)。
 1. 按一下[!DNL Workfront for Google Workspace]面板頂端的&#x200B;**[!UICONTROL 更多動作]**&#x200B;圖示。
 
 1. 在出現的功能表中按一下&#x200B;**[!UICONTROL 登出]**。

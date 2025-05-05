@@ -35,11 +35,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
-   <td> <p>[！UICONTROL Pro]或更高版本</p> </td> 
+   <td> <p>[!UICONTROL Pro]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[！UICONTROL計畫]</p> </td> 
+   <td> <p>[!UICONTROL 計畫]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 * 在機會或帳戶中手動建立來自[!DNL Salesforce]的新[!DNL Workfront]要求。
 
-  如需有關從[!DNL Salesforce]建立[!DNL Workfront]要求的詳細資訊，請參閱來自 [!DNL Salesforce] 物件](../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md)的[提交 [!DNL Adobe Workfront] 要求。
+  如需有關從[!DNL Salesforce]建立[!DNL Workfront]要求的詳細資訊，請參閱來自 [!DNL Salesforce] 物件[&#128279;](../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md)的提交 [!DNL Adobe Workfront] 要求。
 
 * 在[!DNL Salesforce]中符合某些條件時，自動觸發在[!DNL Workfront]中建立專案。 您的[!DNL Salesforce]系統管理員必須設定從[!DNL Salesforce]建立專案的觸發器。
 

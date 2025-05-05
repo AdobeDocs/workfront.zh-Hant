@@ -74,7 +74,7 @@ ht-degree: 0%
 
    ![刪除儀表板](assets/unshimmed-delete-dashboard.png)
 
-1. 若要確認您要刪除儀表板，請按一下[是，刪除]。****
+1. 若要確認您要刪除儀表板，請按一下[是，刪除]。**&#x200B;**
 儀表板會從Workfront中移除。
 
 ## 從儀表板區域刪除儀表板 {#delete-a-dashboard-from-the-dashboards-area}
@@ -88,5 +88,5 @@ ht-degree: 0%
 
    ![刪除儀表板](assets/unshimmed-delete-dashboard-list.png)
 
-1. 若要確認您要刪除儀表板，請按一下[是，刪除]。****
+1. 若要確認您要刪除儀表板，請按一下[是，刪除]。**&#x200B;**
 儀表板會從Workfront中移除。

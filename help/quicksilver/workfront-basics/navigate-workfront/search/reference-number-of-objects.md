@@ -52,7 +52,7 @@ ht-degree: 0%
 
 若要檢視物件的參考編號，您可以建立自訂檢視或修改現有檢視，並將[!UICONTROL 參考編號]欄位新增至檢視中的欄。 例如，您可以修改[!UICONTROL 專案]檢視，以顯示您所有專案的參考編號。
 
-如需有關如何建立或修改檢視的資訊，請參閱 [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)中的[檢視總覽。
+如需有關如何建立或修改檢視的資訊，請參閱 [!DNL Adobe Workfront][&#128279;](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)中的檢視總覽。
 
 ### 在報表中檢視參考編號
 

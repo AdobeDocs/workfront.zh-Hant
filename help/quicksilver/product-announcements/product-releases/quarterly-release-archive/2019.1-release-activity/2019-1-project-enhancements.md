@@ -24,7 +24,7 @@ ht-degree: 1%
 
 如需2019.1年進行的所有變更清單，請參閱「2019.1版本活動概覽」。
 
-管理員的&#x200B;****
+管理員的&#x200B;**&#x200B;**
 
 * [從資源回收筒還原範本](#restore-templates-from-the-recycle-bin)
 * [顯示首頁](#show-timestamps-for-date-fields-in-home)中日期欄位的時間戳記

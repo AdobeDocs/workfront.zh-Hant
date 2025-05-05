@@ -28,7 +28,7 @@ Adobe Workfront中的某些物件允許以RTF格式儲存文字。 在Workfront 
 **範例：**&#x200B;擷取自訂表單欄位&#x200B;**具有RTF文字的欄位值的基本GET要求**：
 
 <!-- [Copy](javascript:void(0);) -->
-<pre><OBJ Code><OBJ ID><OBJ Code><OBJ ID></pre> 
+<pre>&lt;OBJ Code>&lt;OBJ ID>&lt;OBJ Code>&lt;OBJ ID></pre> 
 
 **範例：**&#x200B;此要求將傳回JSON中儲存於&#x200B;**parameterValue** **DE：Field with rich text**&#x200B;中的&#x200B;**Field with rich text**&#x200B;的值
 
@@ -63,7 +63,7 @@ Adobe Workfront中的某些物件允許以RTF格式儲存文字。 在Workfront 
 
 ![RTF對應](assets/copy-of-rich-text-mapping-2-350x136.png)
 
-如果已將多種型別的格式套用至單一行，樣式將會對應至** inlineStyleRanges**陣列中的其他元素。
+如果已將多種型別的格式套用至單一行，樣式將會對應至 **&#x200B; inlineStyleRanges**&#x200B;陣列中的其他元素。
 
 **範例：**&#x200B;儲存包含混合格式化的文字行時，區塊會是什麼樣子： **粗體文字和斜體**
 
@@ -118,4 +118,4 @@ Adobe Workfront中的某些物件允許以RTF格式儲存文字。 在Workfront 
 1. 使用上述JSON上的&#x200B;**stringify**&#x200B;方法，發出&#x200B;**PUT**&#x200B;要求並傳送更新
 
    <!-- [Copy](javascript:void(0);) -->
-   <pre><OBJ Code><OBJ ID></pre>
+   <pre>&lt;OBJ Code>&lt;OBJ ID></pre>

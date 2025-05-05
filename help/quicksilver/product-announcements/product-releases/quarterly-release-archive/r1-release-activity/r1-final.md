@@ -76,7 +76,7 @@ Workfront現在會停用來自「預覽」沙箱環境和「自訂重新整理�
 
 如需詳細資訊，請參閱下列資訊：
 
-* [在[Adobe Workfront預覽沙箱環境](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)中的Adobe Workfront預覽沙箱環境](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)。
+* [&#128279;](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)在[Adobe Workfront預覽沙箱環境](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)中的Adobe Workfront預覽沙箱環境。
 
 * [Adobe Workfront自訂重新整理沙箱環境](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)中的「接收來自自訂重新整理沙箱的電子郵件」
 

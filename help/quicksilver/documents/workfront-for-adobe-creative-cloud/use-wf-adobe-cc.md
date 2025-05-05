@@ -31,7 +31,7 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >我們建議使用適用於Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)外掛程式的新[Adobe Workfront。
+  >我們建議使用適用於Photoshop[&#128279;](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)外掛程式的新Adobe Workfront。
 
 ## 存取需求
 
@@ -202,7 +202,7 @@ ht-degree: 0%
 
    或
 
-   如果您想要從電腦檔案系統上傳檔案，做為您選取之Workfront檔案的新版本，請按一下[上傳本機檔案] **，在出現的方塊中尋找檔案，按一下[開啟]****，然後按一下[上傳]****。**
+   如果您想要從電腦檔案系統上傳檔案，做為您選取之Workfront檔案的新版本，請按一下[上傳本機檔案] **，在出現的方塊中尋找檔案，按一下[開啟]**&#x200B;**，然後按一下[上傳]**&#x200B;**。**
 
 1. （選用）按一下檔名稱，在Workfront中檢視其新版本。
 

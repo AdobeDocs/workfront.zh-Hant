@@ -51,11 +51,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
-   <td> <p>[！UICONTROL Edit]專案與投資組合的存取權</p></td> 
+   <td> <p>[!UICONTROL Edit]專案與投資組合的存取權</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>投資組合的[！UICONTROL Manage]許可權</p> <p>貢獻專案或更高的許可權</p> 
+   <td> <p>投資組合的[!UICONTROL Manage]許可權</p> <p>貢獻專案或更高的許可權</p> 
    <p>您必須擁有清單中所有專案的管理許可權，才能使用<b>設定專案優先順序</b>。</p>
     </td> 
   </tr> 

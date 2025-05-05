@@ -19,7 +19,7 @@ ht-degree: 0%
 
 您可以在校樣中新增註解，並經歷修訂過程以做出最終決定。 如需註解的詳細資訊，請參閱[註解 [!DNL iOS]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-ios.md)中的校訂或[註解 [!DNL Android]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-android.md)中的校訂。
 
-您檢閱和核准校訂的存取權與[!DNL Adobe Workfront]中的相同。 如需校訂功能的相關資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔。
+您檢閱和核准校訂的存取權與[!DNL Adobe Workfront]中的相同。 如需校訂功能的相關資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校訂許可權設定檔。
 
 ## 開啟並檢閱校訂
 
@@ -89,15 +89,15 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>[！UICONTROL已核准]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL 已核准]</strong></td> 
       <td>校訂已準備好移動到工作流程的下一個階段。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[！UICONTROL已核准變更]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL 已核准變更]</strong></td> 
       <td> <p>校訂需要一些變更，但在修訂移至工作流程的下一個階段之前，您不需要檢視修訂專案。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[！UICONTROL已拒絕]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL 已拒絕]</strong></td> 
       <td>校訂被拒絕，不會在工作流程中前進。</td> 
      </tr> 
     </tbody> 

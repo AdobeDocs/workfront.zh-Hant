@@ -151,7 +151,7 @@ Workfront Library是企業數位內容中樞，可用來管理組織數位資產
 
 為了提供最佳安全性，Workfront要求所有使用TLS 1.0或較舊版本的整合和網頁流量，都必須升級為使用TLS 1.1或更新版本。 此變更已在預覽環境中生效。
 
-如需詳細資訊，請參閱Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md)中所需的[TLS 1.2。
+如需詳細資訊，請參閱Adobe Workfront[&#128279;](../../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md)中所需的TLS 1.2。
 
 ### Flash應用程式移除 {#flash-application-removal}
 

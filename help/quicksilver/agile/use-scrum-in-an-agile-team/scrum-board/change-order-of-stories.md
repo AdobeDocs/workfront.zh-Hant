@@ -35,9 +35,9 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>新增：[！UICONTROL Standard]</p> 
+   <td> <p>新增：[!UICONTROL Standard]</p> 
    或
-   <p>目前： [！UICONTROL Work]或更高版本</p> </td> 
+   <p>目前： [!UICONTROL Work]或更高版本</p> </td> 
   </tr>
  </tbody> 
 </table>
@@ -59,4 +59,4 @@ ht-degree: 0%
 
 和敏捷反複專案不同，在敏捷檢視中檢視專案時，您無法變更本文順序。 若要修改專案的內文順序，您必須在標準檢視中檢視專案。
 
-如需有關如何變更專案檢視的資訊，請參閱[!UICONTROL 敏捷]檢視](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)中的[[!UICONTROL 管理專案]。 請選取標準檢視，而不是選取敏捷檢視。
+如需有關如何變更專案檢視的資訊，請參閱[!UICONTROL 敏捷]檢視[&#128279;](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)中的[!UICONTROL 管理專案]。 請選取標準檢視，而不是選取敏捷檢視。

@@ -51,7 +51,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>清單所在物件的[！UICONTROL View]許可權</p>  </td> 
+   <td> <p>清單所在物件的[!UICONTROL View]許可權</p>  </td> 
   </tr> 
  </tbody> 
 </table>

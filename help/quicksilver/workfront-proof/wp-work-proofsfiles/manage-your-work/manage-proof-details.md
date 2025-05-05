@@ -46,7 +46,7 @@ ht-degree: 0%
 
 ## 校訂詳細資訊頁面上的資訊和選項
 
-您可以在「校訂詳細資訊」頁面上找到以下資訊。 如果您有校訂的編輯許可權，可以編輯其中的一些詳細資訊。 [!DNL Workfront Proof]會自動儲存您的變更。 如需詳細資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔和 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中的[管理校訂角色。
+您可以在「校訂詳細資訊」頁面上找到以下資訊。 如果您有校訂的編輯許可權，可以編輯其中的一些詳細資訊。 [!DNL Workfront Proof]會自動儲存您的變更。 如需詳細資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔和 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中的管理校訂角色。
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ ht-degree: 0%
 
    * **檔案名稱**：針對合併的校訂，您可以&#x200B;**[!UICONTROL 按一下以檢視]**&#x200B;校訂中包含的檔案清單。
 
-   * **擁有者：**&#x200B;擁有證明的人。 您可以在此為校訂選擇不同的擁有者。 如需詳細資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔。
+   * **擁有者：**&#x200B;擁有證明的人。 您可以在此為校訂選擇不同的擁有者。 如需詳細資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校訂許可權設定檔。
 
    * **已委派：**&#x200B;如果已啟用「外出」功能，則會顯示校訂的已委派擁有者。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/personal-settings/designate-temp-proof-owners.md)中指定暫存校訂擁有者。
 
@@ -101,11 +101,11 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >您必須擁有校訂的編輯許可權，才能編輯校訂階段和檢閱者的詳細資訊。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中管理校訂角色，以及在 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中管理[校訂許可權設定檔。
+     >您必須擁有校訂的編輯許可權，才能編輯校訂階段和檢閱者的詳細資訊。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中管理校訂角色，以及在 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中管理校訂許可權設定檔。
 
    * **[!UICONTROL 更多共用選項]**&#x200B;區段：可讓您啟用校訂URL和內嵌程式碼。 如果您使用Basecamp與[!DNL Workfront] Proof整合，此區段也可讓您新增校訂到[!DNL Basecamp]專案、變更新增校訂的專案（按一下&#x200B;**[!UICONTROL 編輯]**），以及存取Basecamp中的校訂（按一下提供的連結）。
 
-   * **[!UICONTROL 設定]**&#x200B;區段：可讓您變更設定，如 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)中的[[!UICONTROL 設定校訂]設定中所述。
+   * **[!UICONTROL 設定]**&#x200B;區段：可讓您變更設定，如 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)中的[!UICONTROL 設定校訂]設定中所述。
 
    * **[!UICONTROL 活動]**&#x200B;區段：以時間順序顯示對校訂執行的所有動作清單，提供校訂的稽核軌跡。 這包括證明上任何最近活動的日期和詳細資訊。 連同[!UICONTROL 訊息]區段，[!UICONTROL 活動]區段提供校訂的稽核程式完整總覽，對負責核准程式的專案經理特別有用。
    * **[!UICONTROL 訊息]**&#x200B;區段：列出校訂中所有電子郵件活動的詳細資料。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)中設定電子郵件通知設定。

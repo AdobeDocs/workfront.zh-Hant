@@ -36,7 +36,7 @@ ht-degree: 0%
    註解已新增至Box中的檔案，其中包含[!DNL Workfront Proof]中校訂的個人連結。
 
    * 如果您有自己的品牌[!DNL Workfront Proof]登入頁面，您將被帶到該頁面，而不是標準的[!DNL Workfront Proof]登入頁面。 如需詳細資訊，請參閱[品牌](https://support.workfront.com/hc/en-us/sections/115000921208-Branding)。
-   * 如果您已在您的[!DNL Workfront Proof]帳戶中啟用單一登入功能，系統會將您帶到SSO登入頁面，並要求您輸入單一登入登入認證，但前提是您的Box帳戶和[!DNL Workfront Proof]使用相同的電子郵件地址。 如需詳細資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md)中的[單一登入。
+   * 如果您已在您的[!DNL Workfront Proof]帳戶中啟用單一登入功能，系統會將您帶到SSO登入頁面，並要求您輸入單一登入登入認證，但前提是您的Box帳戶和[!DNL Workfront Proof]使用相同的電子郵件地址。 如需詳細資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md)中的單一登入。
    * 如果您的[!DNL Box]帳戶和[!DNL Workfront Proof]帳戶未使用相同的電子郵件地址，系統一律會帶您進入標準[!DNL Workfront Proof]登入頁面。
 
 ## 透過[!DNL Box]中的檔案建立新版本的校訂
@@ -53,7 +53,7 @@ ht-degree: 0%
    * 依名稱篩選 — 輸入上一個校訂的名稱，並按一下篩選圖示套用篩選 — 僅在清單中有超過一頁專案時可用。
    * 以[!DNL Box]標誌識別您其他[!DNL Box]提交的專案。
 
-1. 按一下[儲存]****&#x200B;以移至[新版本]頁面，您可以在此頁面執行下列任何一項作業：
+1. 按一下[儲存]&#x200B;**&#x200B;**&#x200B;以移至[新版本]頁面，您可以在此頁面執行下列任何一項作業：
 
    * 按一下&#x200B;**[!UICONTROL 變更校訂]**&#x200B;以變更父版本。
    * 按一下垃圾桶圖示可取消建立新版本。 繼續提交您的檔案作為新校訂。

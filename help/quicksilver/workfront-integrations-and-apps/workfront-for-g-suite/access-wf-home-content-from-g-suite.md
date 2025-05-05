@@ -36,7 +36,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[！UICONTROL Work]， [！UICONTROL計畫]</p> </td> 
+   <td> <p>[!UICONTROL Work]， [!UICONTROL 計畫]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,7 +53,7 @@ ht-degree: 0%
 ## 從[!DNL Google Workspace]存取[!DNL Workfront] [!UICONTROL 首頁]
 
 1. 請確定您已登入[!DNL Workfront]。
-1. 如果未顯示Google Workspace]的[!UICONTROL Workfront面板，請按一下頁面最右側[!DNL Google Workspace]附加元件側邊欄中的[!DNL Workfront]圖示![Workfront圖示](assets/wf-lion-icon.png)。
+1. 如果未顯示Google Workspace的Workfront面板，請按一下頁面最右側[!DNL Google Workspace]附加元件側邊欄中的[!DNL Workfront]圖示![Workfront圖示](assets/wf-lion-icon.png)。
 1. 如果您在[!DNL Google Workspace]的[!DNL Workfront]頂端看到向左的箭頭，請按一下箭頭以移至[!UICONTROL 首頁]區域。
 
 1. 在&#x200B;**[!UICONTROL 排序依據]**&#x200B;區域中，按一下展開箭頭![展開箭頭](assets/dropdown-arrow.png)，然後按一下選項以指定您要如何群組您的工作專案，以便找到您想要的專案。

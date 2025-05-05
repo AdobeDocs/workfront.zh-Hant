@@ -54,7 +54,7 @@ ht-degree: 0%
 
 ## 正在啟用[!DNL Basecamp]與[!DNL Workfront Proof]的整合
 
-作為 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔或 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔，您可以在[帳戶設定](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings)中設定整個帳戶的[!DNL Basecamp]整合。
+作為 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔或 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校訂許可權設定檔，您可以在[帳戶設定](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings)中設定整個帳戶的[!DNL Basecamp]整合。
 
 1. 在[!UICONTROL Basecamp]中，收集下列資訊：
 

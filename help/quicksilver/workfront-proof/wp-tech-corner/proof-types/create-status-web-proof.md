@@ -27,7 +27,7 @@ ht-degree: 0%
 1. 開啟[!UICONTROL 新校訂]頁面，如[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)中產生校訂中所述。
 1. 在&#x200B;**www.shareyourlink.com**&#x200B;方塊中貼上或輸入您的URL。
 1. 您可以重複此步驟以新增多個URL。
-1. 在此方塊正下方，按一下解析度（預設為1366x768），然後在&#x200B;**[!UICONTROL 熒幕解析度]**方塊中選取您要的任何解析度。
+1. 在此方塊正下方，按一下解析度（預設為1366x768），然後在&#x200B;**[!UICONTROL 熒幕解析度]**&#x200B;方塊中選取您要的任何解析度。
 如果您想要校訂行動裝置的設計，請選取較小的解析度。 一般而言，設計會根據熒幕/瀏覽器視窗解析度來載入。
 
 1. 如果您想要包含與輸入的URL位於相同網域/子網域的已連線頁面，請按一下&#x200B;**[!UICONTROL 尋找子頁面]**。

@@ -50,7 +50,7 @@ ht-degree: 0%
 
 具有[!UICONTROL 管理員]或[!UICONTROL 帳單管理員]設定檔的使用者也可以在[帳戶]設定中，為其帳戶中的其他使用者設定校訂預設值。
 
-如需設定檔的相關資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔。
+如需設定檔的相關資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校訂許可權設定檔。
 
 ## 存取需求
 
@@ -91,32 +91,32 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL所有活動]</td> 
-      <td>每次校訂上有任何活動（例如新評論、回覆或決定）時，[！UICONTROL Workfront]都會傳送電子郵件給檢閱者。 <p>這是管理校訂流程之人員的絕佳選項，因為可讓他們檢視活動發生的情形。 </p><p>使用者不會收到有關其活動的電子郵件警報。</p></td> 
+      <td role="rowheader">[!UICONTROL 所有活動]</td> 
+      <td>每次校訂上有任何活動（例如新評論、回覆或決定）時，[!UICONTROL Workfront]都會傳送電子郵件給檢閱者。 <p>這是管理校訂流程之人員的絕佳選項，因為可讓他們檢視活動發生的情形。 </p><p>使用者不會收到有關其活動的電子郵件警報。</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL回覆我的意見]</td> 
+      <td role="rowheader">[!UICONTROL 回覆我的意見]</td> 
       <td>只有當某人明確回覆其評論時（這不包括他們自己的評論），才會傳送電子郵件給稽核者。 這表示如果校訂上的某人發表新評論，則不會通知檢閱者。<p>建議將此設定提供給校訂上的客戶，這樣他們就不會收到校訂上任何其他評論的通知，而只會在回覆他們自己的評論時收到通知。</p><p>雖然具有此電子郵件警報設定的檢閱者不會收到其他新評論的通知，但他們仍可在校訂檢視器中檢視校訂上的所有評論。</p><p>如需有關註解的資訊，請參閱<a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">檢視並回覆校訂註解</a>。</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL決策]</td> 
+      <td role="rowheader">[!UICONTROL 決策]</td> 
       <td>[!DNL Workfront] 只有在有人做出決定時，才會傳送電子郵件給稽核者。<p>這對於管理核准流程的人員（例如專案經理）非常有用，他們需要監視校訂的進度並檢視哪些使用者已做出決定。</p><p>除非您在提交決定時選取電子郵件確認選項，否則不會通知您自己的決定。</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL最終決定]</td> 
+      <td role="rowheader">[!UICONTROL 最終決定]</td> 
       <td>[!DNL Workfront] 當校訂的最後一位核准者做出決定時傳送電子郵件。<p>設計人員經常會使用此警示，他們通常不需要參與實際的稽核討論。 做出最終決定時，設計人員會收到通知，然後可以對任何必要的變更採取行動。</p><p>此警示對於必須在複查程式完成後才收到通知的部門主管來說也很有用。</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL每小時摘要]</td> 
+      <td role="rowheader">[!UICONTROL 每小時摘要]</td> 
       <td>[!DNL Workfront] 每小時會傳送電子郵件給稽核者，其中包含該小時發生的所有評論、回覆和決定的摘要。<p>只有當您以外的活動發生在過去一小時內，才會傳送電子郵件。 </p><p>此警報是檢視專案概觀的好地方。</p><p>此摘要的範例使用案例是資深檢閱者，他需要專案的概觀，但不需要立即收到校訂上所有活動的通知。</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL每日摘要]</td> 
+      <td role="rowheader">[!UICONTROL 每日摘要]</td> 
       <td>[!DNL Workfront] 只會在您擁有的活動以外的日期傳送一封電子郵件，其中包含列出的所有評論、回覆和決定。<p>此警報是檢視專案摘要的好方法，而不會在一天中忙於多次更新。</p><p>此摘要的範例使用案例是部門負責人，他想要監控專案的整體進度。</p><p>如需詳細資訊，請參閱<a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">管理校訂評論和決定的通知</a>。</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[！UICONTROL無電子郵件]</td> 
-      <td>[!DNL Workfront] 不會傳送任何電子郵件警示。<br>這對於僅供參考而新增到校訂中且不需要通知任何變更的人員非常有用。<p>系統預設為[！UICONTROL Daily summary] （亦稱為[！UICONTROL未設定]）。 如果您或您的稽核者未進行任何其他變更，則您的所有校樣都會具有此設定。</p></td> 
+      <td role="rowheader">[!UICONTROL 無電子郵件]</td> 
+      <td>[!DNL Workfront] 不會傳送任何電子郵件警示。<br>這對於僅供參考而新增到校訂中且不需要通知任何變更的人員非常有用。<p>系統預設為[!UICONTROL Daily summary] （亦稱為[!UICONTROL 未設定]）。 如果您或您的稽核者未進行任何其他變更，則您的所有校樣都會具有此設定。</p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -128,13 +128,13 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL校訂就緒時透過電子郵件確認]</td> 
-      <td>指定您是否要在建立校訂時接收[！UICONTROL Proof maked]電子郵件。 如需詳細資訊，請參閱<a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md" class="MCXref xref">製作的[！UICONTROL校訂]電子郵件</a></td> 
+      <td role="rowheader">[!UICONTROL 校訂就緒時透過電子郵件確認]</td> 
+      <td>指定您是否要在建立校訂時接收[!UICONTROL Proof maked]電子郵件。 如需詳細資訊，請參閱<a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md" class="MCXref xref">製作的[!UICONTROL 校訂]電子郵件</a></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL傳送給我的電子郵件格式] </td> 
+      <td role="rowheader">[!UICONTROL 傳送給我的電子郵件格式] </td> 
       <td> <p>在HTML樣式電子郵件和純文字電子郵件之間選擇。 </p> <p><b>附註</b></p>
-      <p>校訂層級的設定會覆寫校訂預設設定。 不過，如果在[！UICONTROL帳戶]設定中針對整個帳戶停用校訂電子郵件通知，即使未在校訂上選取[！UICONTROL停用的電子郵件通知]，也不會傳送任何電子郵件通知給共同作業人員。<br></p> </td> 
+      <p>校訂層級的設定會覆寫校訂預設設定。 不過，如果在[!UICONTROL 帳戶]設定中針對整個帳戶停用校訂電子郵件通知，即使未在校訂上選取[!UICONTROL 停用的電子郵件通知]，也不會傳送任何電子郵件通知給共同作業人員。<br></p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -185,32 +185,32 @@ ht-degree: 0%
     <col>
     <tbody>
      <tr>
-      <td role="rowheader">[！UICONTROL所有活動]</td>
+      <td role="rowheader">[!UICONTROL 所有活動]</td>
       <td>[!DNL Workfront] 每次在校訂上發生任何活動（例如新評論、回覆或決定）時，都會傳送電子郵件給檢閱者。 <p>這是管理校訂流程之人員的絕佳選項，因為可讓他們檢視活動發生的情形。 </p><p>使用者不會收到有關其活動的電子郵件警報。</p></td>
      </tr>
      <tr>
-      <td role="rowheader">[！UICONTROL回覆我的意見]</td>
+      <td role="rowheader">[!UICONTROL 回覆我的意見]</td>
       <td>只有當某人明確回覆其評論時（這不包括他們自己的評論），才會傳送電子郵件給稽核者。 這表示如果校訂上的某人發表新評論，則不會通知檢閱者。<p>建議將此設定提供給校訂上的客戶，這樣他們就不會收到校訂上任何其他評論的通知，而只會在回覆他們自己的評論時收到通知。</p><p>雖然具有此電子郵件警報設定的檢閱者不會收到其他新評論的通知，但他們仍可在校訂檢視器中檢視校訂上的所有評論。</p><p>如需有關註解的資訊，請參閱<a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">檢視並回覆校訂註解</a>。</p></td>
      </tr>
      <tr>
-      <td role="rowheader">[！UICONTROL決策]</td>
+      <td role="rowheader">[!UICONTROL 決策]</td>
       <td>[!DNL Workfront] 只有在有人做出決定時，才會傳送電子郵件給稽核者。<p>這對於管理核准流程的人員（例如專案經理）非常有用，他們需要監視校訂的進度並檢視哪些使用者已做出決定。</p><p>除非您在提交決定時選取電子郵件確認選項，否則不會通知您自己的決定。</p></td>
      </tr>
      <tr>
-      <td role="rowheader">[！UICONTROL最終決定]</td>
+      <td role="rowheader">[!UICONTROL 最終決定]</td>
       <td>[!DNL Workfront] 當校訂的最後一位核准者做出決定時傳送電子郵件。<p>設計人員經常會使用此警示，他們通常不需要參與實際的稽核討論。 做出最終決定時，設計人員會收到通知，然後可以對任何必要的變更採取行動。</p><p>此警示對於必須在複查程式完成後才收到通知的部門主管來說也很有用。</p></td>
      </tr>
      <tr>
-      <td role="rowheader">[！UICONTROL每小時摘要]</td>
+      <td role="rowheader">[!UICONTROL 每小時摘要]</td>
       <td>[!DNL Workfront] 每小時會傳送電子郵件給稽核者，其中包含該小時發生的所有評論、回覆和決定的摘要。<p>只有當您以外的活動發生在過去一小時內，才會傳送電子郵件。 </p><p>此警報是檢視專案概觀的好地方。</p><p>此摘要的範例使用案例是資深檢閱者，他需要專案的概觀，但不需要立即收到校訂上所有活動的通知。</p></td>
      </tr>
      <tr>
-      <td role="rowheader">[！UICONTROL每日摘要]</td>
+      <td role="rowheader">[!UICONTROL 每日摘要]</td>
       <td>[!DNL Workfront] 只會在您擁有的活動以外的日期傳送一封電子郵件，其中包含列出的所有評論、回覆和決定。<p>此警報是檢視專案摘要的好方法，而不會在一天中忙於多次更新。</p><p>此摘要的範例使用案例是部門負責人，他想要監控專案的整體進度。</p><p>如需詳細資訊，請參閱<a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">管理校訂評論和決定的通知</a>。</p></td>
      </tr>
      <tr data-mc-conditions="">
-      <td role="rowheader">[！UICONTROL無電子郵件]</td>
-      <td>[!DNL Workfront] 不會傳送任何電子郵件警示。<br>這對於僅供參考而新增到校訂中且不需要通知任何變更的人員非常有用。<p>系統預設為[！UICONTROL Daily summary] （亦稱為[！UICONTROL未設定]）。 如果您或您的稽核者未進行任何其他變更，則您的所有校樣都會具有此設定。</p></td>
+      <td role="rowheader">[!UICONTROL 無電子郵件]</td>
+      <td>[!DNL Workfront] 不會傳送任何電子郵件警示。<br>這對於僅供參考而新增到校訂中且不需要通知任何變更的人員非常有用。<p>系統預設為[!UICONTROL Daily summary] （亦稱為[!UICONTROL 未設定]）。 如果您或您的稽核者未進行任何其他變更，則您的所有校樣都會具有此設定。</p></td>
      </tr>
     </tbody>
    </table>
@@ -222,12 +222,12 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL校訂就緒時透過電子郵件確認]</td> 
-      <td>指定您是否要在建立校訂時接收[！UICONTROL Proof maked]電子郵件。 如需詳細資訊，請參閱<a href="https://support.workfront.com/hc/en-us/article">已做校訂]電子郵件</a></td> 
+      <td role="rowheader">[!UICONTROL 校訂就緒時透過電子郵件確認]</td> 
+      <td>指定您是否要在建立校訂時接收[!UICONTROL Proof maked]電子郵件。 如需詳細資訊，請參閱<a href="https://support.workfront.com/hc/en-us/article">已做校訂&rbrack;電子郵件</a></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL傳送給我的電子郵件格式] </td> 
-      <td> <p>在HTML樣式電子郵件和純文字電子郵件之間選擇。 </p> <p><b>附註</b></p> <p>校訂層級的設定會覆寫校訂預設設定。 不過，如果在[！UICONTROL帳戶]設定中針對整個帳戶停用校訂電子郵件通知，即使未在校訂上選取[！UICONTROL停用的電子郵件通知]，也不會傳送任何電子郵件通知給共同作業人員。<br></p> </td> 
+      <td role="rowheader">[!UICONTROL 傳送給我的電子郵件格式] </td> 
+      <td> <p>在HTML樣式電子郵件和純文字電子郵件之間選擇。 </p> <p><b>附註</b></p> <p>校訂層級的設定會覆寫校訂預設設定。 不過，如果在[!UICONTROL 帳戶]設定中針對整個帳戶停用校訂電子郵件通知，即使未在校訂上選取[!UICONTROL 停用的電子郵件通知]，也不會傳送任何電子郵件通知給共同作業人員。<br></p> </td> 
      </tr> 
     </tbody> 
    </table>

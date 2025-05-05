@@ -36,7 +36,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[！UICONTROL Work]， [！UICONTROL計畫]</p> </td> 
+   <td> <p>[!UICONTROL Work]， [!UICONTROL 計畫]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 ## 檢視及管理[!DNL Google Workspace]中的[!DNL Workfront]檔案
 
-1. 如果未顯示Google Workspace]的[!UICONTROL Workfront面板，請按一下頁面最右側[!DNL Google Workspace]附加元件側邊欄中的[!DNL Workfront]圖示![Workfront圖示](assets/wf-lion-icon.png)。
+1. 如果未顯示Google Workspace的Workfront面板，請按一下頁面最右側[!DNL Google Workspace]附加元件側邊欄中的[!DNL Workfront]圖示![Workfront圖示](assets/wf-lion-icon.png)。
 1. 移至[!DNL Google Workspace]內的[!DNL Workfront]任務或問題，如[存取 [!DNL Adobe Workfront] [!UICONTROL 首頁]來自 [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md)的內容中所述。
 1. 按一下&#x200B;**[!UICONTROL 檔案]**。
 

@@ -146,7 +146,7 @@ The daily hour amount represents one of the following:
 
 ### 工作負載平衡器 {#the-workload-balancer}
 
-工作負載平衡器](assets/planned-hours-on-wb-expanded-with-pti-info.png)中的![計畫時數
+工作負載平衡器![&#128279;](assets/planned-hours-on-wb-expanded-with-pti-info.png)中的計畫時數
 
 任務、問題和專案的以下計畫時數顯示在任務、問題或專案名稱右側的工作負載平衡器：
 
@@ -178,7 +178,7 @@ The daily hour amount represents one of the following:
 >
 >工作負載平衡器中的每日配置調整會影響資源規劃工具中任務和問題的每週配置。
 
-每個物件的計畫時數會依您套用至資源規劃工具的檢視而有所不同。 如需詳細資訊，請參閱資源規劃工具](../../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)的專案與角色檢視中的[時數概觀、約當全職人數與成本資訊。
+每個物件的計畫時數會依您套用至資源規劃工具的檢視而有所不同。 如需詳細資訊，請參閱資源規劃工具[&#128279;](../../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)的專案與角色檢視中的時數概觀、約當全職人數與成本資訊。
 
 任務和問題的每週計畫時數表示以下其中一項：
 
@@ -245,7 +245,7 @@ The daily hour amount represents one of the following:
 
 如需有關管理工作的整體使用者和工作角色配置的資訊，請參閱[管理工作的使用者和角色配置時數](../../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md)。
 
-如需有關管理任務的每日分派資訊，請參閱工作負載平衡器](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)中的[管理使用者分派。
+如需有關管理任務的每日分派資訊，請參閱工作負載平衡器[&#128279;](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)中的管理使用者分派。
 
 手動更新工作的使用者或工作角色配置時，會發生下列情況：
 

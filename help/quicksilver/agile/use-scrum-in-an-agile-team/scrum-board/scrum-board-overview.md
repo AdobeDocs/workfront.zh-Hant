@@ -42,7 +42,7 @@ ht-degree: 0%
 
 * **任務狀態：**&#x200B;根據內文所在的狀態列，指出內文在反複專案或專案中的進度。
 
-  修改敏捷檢視即可自訂專案的任務狀態，如[!UICONTROL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)中[檢視總覽的[建立或自訂敏捷檢視](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view)中所述。
+  修改敏捷檢視即可自訂專案的任務狀態，如[!UICONTROL Adobe Workfront][&#128279;](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)中檢視總覽的[建立或自訂敏捷檢視](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view)中所述。
 
 * **泳道：**&#x200B;當父劇本及其子任務出現在劇本面板上時，會為劇本及其子任務特別建立泳道。 這提供了視覺上的區別，以便更好地檢視劇本的子任務在整個劇本板中的進度。
 

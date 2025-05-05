@@ -41,12 +41,12 @@ ht-degree: 4%
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權</strong></td> 
    <td> <p>目前：Contribute</p>
    <p>或</p> 
-   <p>新增：[！UICONTROL Light]或更高<p> 
+   <p>新增：[!UICONTROL Light]或更高<p> 
   </td> 
   </tr> </ul>
   <tr> 
    <td role="rowheader"><strong>存取層級設定</strong></td> 
-   <td> <p>[！UICONTROL檢視]或更高的專案、任務、問題和檔案存取權</p> </td> 
+   <td> <p>[!UICONTROL 檢視]或更高的專案、任務、問題和檔案存取權</p> </td> 
   </tr>  
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 

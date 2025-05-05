@@ -30,7 +30,7 @@ ht-degree: 5%
 * [停用檔案整合](../../administration-and-setup/configure-integrations/disable-document-integrations.md)
 * [設定 [!DNL SharePoint] 整合](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md)
 * [設定中繼資料對應](../../administration-and-setup/configure-integrations/set-up-metadata-mapping.md)
-* [在 [!DNL Adobe Admin Console]為您的使用者建立 [!DNL Creative Cloud]] 封裝的[！UICONTROL [!DNL Adobe Workfront] ](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
+* [在 [!DNL Adobe Admin Console]為您的使用者建立 [!DNL Creative Cloud]] 封裝的[[!UICONTROL [!DNL Adobe Workfront] &#x200B;]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
 
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../administration-and-setup/configure-integrations/create-oauth-application.md" class="MCXref xref" xrefformat="{para}">Create OAuth2 applications for Workfront integrations</a> </li>

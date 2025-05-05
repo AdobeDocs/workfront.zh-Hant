@@ -26,7 +26,7 @@ ht-degree: 1%
 
 2018.2 Beta 5版本包含Workfront管理員和其他使用者的增強功能：
 
-管理員的&#x200B;****
+管理員的&#x200B;**&#x200B;**
 
 * [檢視使用者觸發的變更及稽核記錄](#view-user-triggered-changes-with-audit-logs)
 * [以群組管理員身分檢視授權資訊](#view-license-information-as-a-group-administrator)
@@ -34,7 +34,7 @@ ht-degree: 1%
 **所有使用者**
 
 * [首頁區域中的行事曆檢視](#calendar-view-in-the-home-area)
-* 首頁](#additional-updates-to-the-work-list-left-panel-in-home)中工作清單（左側面板）的[其他更新
+* 首頁[&#128279;](#additional-updates-to-the-work-list-left-panel-in-home)中工作清單（左側面板）的其他更新
 * [設定自動資源排程的工作角色限制](#configure-job-role-limits-for-automated-resource-scheduling)
 * 資源規劃工具中的[專案和角色檢視改善](#project-and-role-view-improvements-in-the-resource-planner)
 * [調整專案清單的欄寬](#resize-column-widths-for-project-lists)
@@ -220,7 +220,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->在以下影片中，問題集合的範例文字模式不正確。 報表](../../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md)中的[參考集合中有正確的範例文字模式。
+>在以下影片中，問題集合的範例文字模式不正確。 報表[&#128279;](../../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md)中的參考集合中有正確的範例文字模式。
 
 ## 在Workfront中新增檔案版本時，新增更強大的版本選單 {#new-more-robust-version-menu-when-adding-new-document-versions-in-workfront}
 

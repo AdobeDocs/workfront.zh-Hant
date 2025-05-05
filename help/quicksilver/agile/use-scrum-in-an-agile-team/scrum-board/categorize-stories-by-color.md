@@ -21,7 +21,7 @@ ht-degree: 0%
 
 * **[!UICONTROL 反複專案]**：在反複專案上，內文板圖磚會根據內文相關聯的專案進行色彩編碼。 （每個專案都會任意指定故事板上的顏色。） 您可以為每個敏捷團隊變更此預設行為。 疊代上敏捷內文的顏色可以與專案（預設）、內文優先順序、所有者或自由形式繫結。 如需詳細資訊，請參閱[設定Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)文章中的[設定如何針對敏捷故事板上的劇本使用顏色指標](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur4)。
 
-* **[!UICONTROL 專案]**：在專案上，任何子任務都與父任務的顏色相符，因此任何指定泳道中的所有劇本顏色都相同。 如果任務沒有任何子任務或沒有父任務，則在建立顏色時，顏色會隨機指派給任務。 您可以修改敏捷檢視來變更此預設行為。 專案中敏捷內文的顏色可以與父內文（預設）、內文優先順序、所有者或自由形式繫結。 如需詳細資訊，請參閱 [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)中[檢視總覽中的[建立或自訂[!UICONTROL 敏捷]檢視](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view)。
+* **[!UICONTROL 專案]**：在專案上，任何子任務都與父任務的顏色相符，因此任何指定泳道中的所有劇本顏色都相同。 如果任務沒有任何子任務或沒有父任務，則在建立顏色時，顏色會隨機指派給任務。 您可以修改敏捷檢視來變更此預設行為。 專案中敏捷內文的顏色可以與父內文（預設）、內文優先順序、所有者或自由形式繫結。 如需詳細資訊，請參閱 [!DNL Adobe Workfront][&#128279;](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)中檢視總覽中的[建立或自訂[!UICONTROL 敏捷]檢視](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view)。
 
 ## 存取需求
 
@@ -37,9 +37,9 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>新增：[！UICONTROL Standard]</p> 
+   <td> <p>新增：[!UICONTROL Standard]</p> 
    或
-   <p>目前： [！UICONTROL Work]或更高版本</p> </td> 
+   <p>目前： [!UICONTROL Work]或更高版本</p> </td> 
   </tr>
  </tbody> 
 </table>

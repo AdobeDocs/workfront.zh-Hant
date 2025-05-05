@@ -51,7 +51,7 @@ ht-degree: 0%
 
 ## 正在停用[!UICONTROL 校訂已製作]電子郵件
 
-1. 按一下&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 個人設定]**，開啟&#x200B;**[!UICONTROL 校訂預設值]**&#x200B;標籤，然後按一下&#x200B;**[!UICONTROL 校訂就緒時電子郵件確認旁的**[!UICONTROL &#x200B;停用&#x200B;]**]**。
+1. 按一下&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 個人設定]**，開啟&#x200B;**[!UICONTROL 校訂預設值]**&#x200B;標籤，然後按一下&#x200B;**[!UICONTROL 校訂就緒時電子郵件確認旁的**&#x200B;[!UICONTROL &#x200B;停用&#x200B;]&#x200B;**]**。
 
 1. ![Proof_Made_-_proofing_defaults.png](assets/proof-made---proofing-defaults-350x103.png)
 

@@ -88,7 +88,7 @@ Blueprint型別顯示Blueprint中包含的內容。 型別會列在目錄中的B
 
 Workfront管理員可以直接在任何環境（生產、預覽或沙箱環境）中安裝Blueprint。 若要深入瞭解，請參閱[安裝Blueprint](../../administration-and-setup/blueprints/blueprints-install.md)或[設定Blueprint](../../administration-and-setup/blueprints/configure-template-package.md)。
 
-安裝後，您可能無法確定接下來要採取的最佳動作。 如需詳細資訊，請參閱安裝Blueprint](../../administration-and-setup/blueprints/best-next-actions-after-install.md)後要採取的[動作。
+安裝後，您可能無法確定接下來要採取的最佳動作。 如需詳細資訊，請參閱安裝Blueprint[&#128279;](../../administration-and-setup/blueprints/best-next-actions-after-install.md)後要採取的動作。
 
 ## 藍圖與範本的其他附註
 

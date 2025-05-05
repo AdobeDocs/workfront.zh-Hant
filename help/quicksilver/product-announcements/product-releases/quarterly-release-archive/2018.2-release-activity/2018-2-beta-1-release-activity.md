@@ -41,7 +41,7 @@ ht-degree: 0%
 
 在此變更之前，您只能在工作清單或工作層次中變更工作日期。
 
-如需詳細資訊，請參閱工作清單甘特圖](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)中的[更新資訊。
+如需詳細資訊，請參閱工作清單甘特圖[&#128279;](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)中的更新資訊。
 
 ## 從更新索引標籤存取專案甘特圖 {#access-the-project-gantt-chart-from-the-updates-tab}
 

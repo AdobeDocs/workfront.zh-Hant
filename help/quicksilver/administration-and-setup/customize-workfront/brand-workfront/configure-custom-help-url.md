@@ -49,7 +49,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td>[！UICONTROL系統管理員]</td>
+   <td>[!UICONTROL 系統管理員]</td>
   </tr> 
  </tbody> 
 </table>
@@ -69,4 +69,4 @@ ht-degree: 2%
 
 1. 按一下「**儲存**」。
 
-   儲存自訂說明URL後，您可以刪除自訂URL並按一下「儲存」****，返回預設的Workfront說明網站。
+   儲存自訂說明URL後，您可以刪除自訂URL並按一下「儲存」**&#x200B;**，返回預設的Workfront說明網站。

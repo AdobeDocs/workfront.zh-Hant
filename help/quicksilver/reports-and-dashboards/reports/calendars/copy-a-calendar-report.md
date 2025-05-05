@@ -45,11 +45,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[！UICONTROL Edit]對[！UICONTROL報告]、[！UICONTROL儀表板]和[！UICONTROL行事曆的存取權</p></td> 
+   <td> <p>[!UICONTROL Edit]對[!UICONTROL 報告]、[!UICONTROL 儀表板]和&lbrack;！UICONTROL行事曆的存取權</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td>[！UICONTROL Manage]對行事曆報表的存取權</td> 
+   <td>[!UICONTROL Manage]對行事曆報表的存取權</td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,7 +62,7 @@ ht-degree: 0%
 ## 複製行事曆報告
 
 1. 移至您要複製的行事曆。
-1. 按一下[行事曆]下拉式功能表旁的&#x200B;**更多**功能表。
+1. 按一下[行事曆]下拉式功能表旁的&#x200B;**更多**&#x200B;功能表。
    ![行事曆更多功能表](assets/more-menu-calendar.png)
 
 1. 從下拉式清單中選取&#x200B;**[!UICONTROL 複製]**。 行事曆會被複製，而您會被帶往新復本。

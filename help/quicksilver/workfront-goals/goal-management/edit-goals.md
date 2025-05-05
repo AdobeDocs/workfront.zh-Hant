@@ -169,7 +169,7 @@ Editing goals differs depending on what environment you use.
    * 更新目標標題中的下列資訊，然後按Enter儲存變更：
       * **目標名稱**：按一下目標的名稱，然後開始輸入新名稱。
       * **擁有者**：按一下擁有者的名稱，然後開始輸入使用者、團隊、群組或您公司的名稱，然後在清單中顯示時選取該名稱。 一個目標只能有一個擁有者。
-   * 在[編輯目標]方塊中更新下列資訊，然後按一下[儲存] ****：
+   * 在[編輯目標]方塊中更新下列資訊，然後按一下[儲存] **&#x200B;**：
       * **目標名稱**
       * **期間**：按一下以更新目標的期間\
         或\
@@ -181,7 +181,7 @@ Editing goals differs depending on what environment you use.
 
       * **目標所有者**
       * **描述**：新增或更新目標的相關資訊。
-   * 更新或檢閱「目標詳細資料」區段中的資訊。 如需詳細資訊，請參閱Adobe Workfront目標](../goal-management/update-goals-in-goal-details-panel.md)中「目標詳細資料」一節的[更新目標。
+   * 更新或檢閱「目標詳細資料」區段中的資訊。 如需詳細資訊，請參閱Adobe Workfront目標[&#128279;](../goal-management/update-goals-in-goal-details-panel.md)中「目標詳細資料」一節的更新目標。
 
    <!-- (should you update the title here after changing it at production??? - change it to Update goals in the goal Details section)-->
 

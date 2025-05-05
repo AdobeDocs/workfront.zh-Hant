@@ -39,9 +39,9 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
    <td> 
-   <p>新增：[！UICONTROL Contributor]或以上</p> 
+   <p>新增：[!UICONTROL Contributor]或以上</p> 
    <p>或</p>
-   <p>目前： [！UICONTROL Request]或以上</p>
+   <p>目前： [!UICONTROL Request]或以上</p>
    </td> 
   </tr> 
  </tbody> 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 {{step1-to-boards}}
 
-1. 若要開啟工作流程，請按一下[檢視工作流程]。[!UICONTROL ****]
+1. 若要開啟工作流程，請按一下[檢視工作流程]。[!UICONTROL **&#x200B;**]
 1. 選取[!UICONTROL 反複專案程式]展示板。
 1. 檢閱右上角展示板上方的量度區域。 按一下向上和向下箭頭可在版序之間移動。
 

@@ -29,7 +29,7 @@ ht-degree: 0%
 1. 移至[!UICONTROL 帳單]頁面。
 1. 開啟頁面頂端的下拉式功能表(1)，然後選擇相關的附屬帳戶。 (2)
 
-   如需詳細資訊，請參閱[帳單]頁面](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)。 [!DNL Workfront Proof] [!UICONTROL 
+   如需詳細資訊，請參閱[帳單]頁面(../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)。 [!DNL Workfront Proof] 
 
    ![Satellite_Account_Billing_Page_1__.png](assets/satellite-account-billing-page--1--350x167.png)
 

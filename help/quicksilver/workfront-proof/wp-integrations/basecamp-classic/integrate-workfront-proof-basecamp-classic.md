@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## 瞭解[!DNL Basecamp]與[!DNL Workfront]的整合
 
-與[!DNL Basecamp]整合可讓使用者在[!DNL Basecamp]內檢視、檢閱及核准校訂。 使用者可以將校訂提交至您的[!DNL Workfront Proof]帳戶，並將它們連結至您的[!DNL Basecamp]專案。 您的檢閱者可以使用Basecamp郵件中內嵌的迷你校訂，透過[!DNL Basecamp]在校訂檢視者](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)中決定校訂[。
+與[!DNL Basecamp]整合可讓使用者在[!DNL Basecamp]內檢視、檢閱及核准校訂。 使用者可以將校訂提交至您的[!DNL Workfront Proof]帳戶，並將它們連結至您的[!DNL Basecamp]專案。 您的檢閱者可以使用Basecamp郵件中內嵌的迷你校訂，透過[!DNL Basecamp]在校訂檢視者[&#128279;](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)中決定校訂。
 
 與[!DNL Workfront Proof]整合時，[!DNL Basecamp]可讓使用者對校訂進行下列操作：
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 ## 正在啟用[!DNL Basecamp]與[!DNL Workfront Proof]的整合
 
-作為 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔或 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔，您可以在[帳戶設定](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings)中為整個帳戶設定Basecamp整合。
+作為 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔或 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校訂許可權設定檔，您可以在[帳戶設定](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings)中為整個帳戶設定Basecamp整合。
 
 1. 移至[帳戶設定。](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings)
 1. 開啟&#x200B;**[!UICONTROL 整合]**&#x200B;標籤(1)。

@@ -37,7 +37,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td>[！UICONTROL計畫]</td> 
+   <td>[!UICONTROL 計畫]</td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
@@ -69,4 +69,4 @@ ht-degree: 1%
 
 如需有關使用[!DNL Outlook]的[!DNL Workfront]增益集的系統需求資訊，請參閱[為 [!DNL Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)設定Adobe Workfront中的[系統需求](../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md#system-requirements-and-prerequisites)。
 
-如需如何為[!DNL Outlook]安裝[!DNL Workfront]增益集的資訊，請參閱[在[設定 [!DNL Adobe Workfront for Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)中安裝增益集](../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md#downloading-and-installing-the-add-in)。
+如需如何為[!DNL Outlook]安裝[!DNL Workfront]增益集的資訊，請參閱[&#128279;](../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md#downloading-and-installing-the-add-in)在[設定 [!DNL Adobe Workfront for Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)中安裝增益集。

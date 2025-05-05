@@ -80,7 +80,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>清單所在物件的[！UICONTROL View]許可權</p>  </td> 
+   <td> <p>清單所在物件的[!UICONTROL View]許可權</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -129,6 +129,6 @@ ht-degree: 0%
    >只有您在快速篩選搜尋中找到的專案會匯出至您選取的檔案。 如果您在匯出清單之前未選取任何專案，則會匯出完整、未篩選的清單。\
    >如需詳細資訊，請參閱[匯出清單](../../../workfront-basics/navigate-workfront/use-lists/export-lists.md)。
 
-1. （選擇性）若要清除篩選的結果，請按一下視窗右上角的&#x200B;**[!UICONTROL 快速篩選]**圖示。
+1. （選擇性）若要清除篩選的結果，請按一下視窗右上角的&#x200B;**[!UICONTROL 快速篩選]**&#x200B;圖示。
 或
 重新整理頁面。

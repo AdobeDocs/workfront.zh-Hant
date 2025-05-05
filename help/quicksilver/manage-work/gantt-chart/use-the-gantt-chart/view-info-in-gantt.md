@@ -30,17 +30,17 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權概述*</td> 
-   <td> <p>[！UICONTROL Review]或更高版本</p> </td> 
+   <td> <p>[!UICONTROL Review]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
-   <td> <p>[！UICONTROL檢視]或更高的專案和任務存取權</p> <p><b>附註</b>
+   <td> <p>[!UICONTROL 檢視]或更高的專案和任務存取權</p> <p><b>附註</b>
 
 如果您仍然沒有存取權，請詢問您的[!DNL Workfront]管理員是否已在您的存取層級中設定其他限制。 如需[!DNL Workfront]管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>[！UICONTROL檢視]或更高的專案存取權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>[!UICONTROL 檢視]或更高的專案存取權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>

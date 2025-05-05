@@ -42,5 +42,5 @@ ht-degree: 0%
 如需詳細資訊，請參閱<a href="../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md" class="MCXref xref">在[!DNL Workfront Proof]</a>中管理校訂角色，以及<a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md" class="MCXref xref">在[!DNL Workfront Proof]</a>中設定電子郵件通知設定。
 1. （選擇性）將游標移至使用者的資訊上並按一下&#x200B;**[!UICONTROL X]**，從校訂中刪除群組成員。
 或
-按一下**[!UICONTROL 全部刪除]**，從校訂中刪除所有成員。
+按一下&#x200B;**[!UICONTROL 全部刪除]**，從校訂中刪除所有成員。
 1. 繼續建立校訂，如<a href="../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md" class="MCXref xref">在[!DNL Workfront Proof]</a>中產生校訂中所述  或<a href="../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md" class="MCXref xref">在[!DNL Workfront Proof]</a>中複製校樣。 

@@ -54,7 +54,7 @@ ht-degree: 0%
 
   如需這兩個範例的詳細資訊，請參閱[設定您系統的基本資訊](../../administration-and-setup/get-started-wf-administration/configure-basic-info.md)。
 
-* 專案之覆寫收費率的開始或結束。 如需詳細資訊，請參閱專案層級](../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)的[覆寫工作角色收費率。
+* 專案之覆寫收費率的開始或結束。 如需詳細資訊，請參閱專案層級[&#128279;](../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)的覆寫工作角色收費率。
 
 ### 您的使用者設定檔 {#your-user-profile}
 

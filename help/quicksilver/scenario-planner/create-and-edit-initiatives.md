@@ -32,13 +32,13 @@ ht-degree: 0%
    <td> <ul></li>
    <li><p>新增： Ultimate </p></li>
    <p>新的Workfront Select或Workfront Prime計畫無法使用「情境規劃工具」。 </p>
-   <li><p>目前： [！UICONTROL Business]或更高版本</p></ul>
+   <li><p>目前： [!UICONTROL Business]或更高版本</p></ul>
    </td> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 授權*</p> </td> 
    <td> <p>新增：淺色或更高</p> 
-   <p>目前： [！UICONTROL Review]或以上</p> </td> 
+   <p>目前： [!UICONTROL Review]或以上</p> </td> 
   </tr> 
   <tr> 
    <td>產品* </td> 
@@ -50,11 +50,11 @@ ht-degree: 0%
   </tr> 
   <tr data-mc-conditions=""> 
    <td>存取層級 </td> 
-   <td> <p>[！UICONTROL Edit]對的存取權 [!DNL Scenario Planner]</p> </td> 
+   <td> <p>[!UICONTROL Edit]對的存取權 [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>物件許可權 </p> </td> 
-   <td> <p>[！UICONTROL Manage]計畫的許可權</p> <p>如需有關請求對計畫的額外存取權的資訊，請參閱<a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">在[!DNL Scenario Planner]</a>中請求對計畫的存取權。</p> </td> 
+   <td> <p>[!UICONTROL Manage]計畫的許可權</p> <p>如需有關請求對計畫的額外存取權的資訊，請參閱<a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">在[!DNL Scenario Planner]</a>中請求對計畫的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 您必須先建立計畫，或必須讓其他使用者與您共用計畫，才能在該計畫內建立方案。 如需有關建立計畫的資訊，請參閱[在 [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md)中建立和編輯計畫。
 
-如需有關哪些方案的詳細資訊，請參閱 [!DNL Scenario Planner]](../scenario-planner/initiatives-overview.md)中的[方案概觀。
+如需有關哪些方案的詳細資訊，請參閱 [!DNL Scenario Planner][&#128279;](../scenario-planner/initiatives-overview.md)中的方案概觀。
 
 ## 建立方案
 
@@ -146,14 +146,14 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader">必要職務角色段落 </td> 
-      <td> <p>按一下<strong>[！UICONTROL開始輸入工作角色]</strong>欄位，然後從清單中選取一個角色，或開始輸入<span>n個使用中</span>工作角色的名稱。 </p> <p><span>根據計畫是設定為使用FTE或時數，</span>在計畫</span>的每個月中，新增此方案在FTE <span><span>或時數</span></span><span>中所需的工作角色數量。 <span>預設會顯示方案的前三個月。</span></p> <p><span>更新方案的工作角色資訊也會更新計畫的必要工作角色資訊。</span> </p> <p>如需設定計畫以使用FTE或時數的詳細資訊，請參閱<a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">在[!DNL Scenario Planner]</a>中建立和編輯計畫。 </p>
+      <td> <p>按一下<strong>[!UICONTROL 開始輸入工作角色]</strong>欄位，然後從清單中選取一個角色，或開始輸入<span>n個使用中</span>工作角色的名稱。 </p> <p><span>根據計畫是設定為使用FTE或時數，</span>在計畫</span>的每個月中，新增此方案在FTE <span><span>或時數</span></span><span>中所需的工作角色數量。 <span>預設會顯示方案的前三個月。</span></p> <p><span>更新方案的工作角色資訊也會更新計畫的必要工作角色資訊。</span> </p> <p>如需設定計畫以使用FTE或時數的詳細資訊，請參閱<a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">在[!DNL Scenario Planner]</a>中建立和編輯計畫。 </p>
       <p><b>重要</b></p>  
       <p>對於[!DNL Scenario Planner]中的所有計算，[!DNL Workfront]會使用以下值： 1 FTE = 8小時。 </p>
 
    <p><b>秘訣</b></p>
 
    <ul> 
-       <li> <p><span>使用[！UICONTROL Tab]鍵移至下個月。</span> </p> </li> 
+       <li> <p><span>使用[!UICONTROL Tab]鍵移至下個月。</span> </p> </li> 
       <li> <p> 當您按一下此欄位時，系統會列出系統中所有的<span>使用中</span>工作角色。 </p> </li> 
        <li> <p>已新增至計畫之可用職務角色的工作角色會先顯示。 如需有關將可用職務角色新增至計畫的資訊，請參閱<a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">在Scenario Planner中建立及編輯計畫</a>。 </p> </li> 
        <li> <p>[!DNL Workfront] 認為全時相當於一個月160小時。 </p> <p>對於「情境規劃工具」中的所有計算，Workfront會使用以下值： 1 FTE = 8小時。 </p></li> 
@@ -161,21 +161,21 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td rowspan="3" role="rowheader">成本區段</td> 
-      <td> <p>方案的總成本會顯示在[！UICONTROL Costs]區段的右側。 [!DNL Workfront]使用下列公式計算方案的成本：</p> <p><code>[!UICONTROL Initiative Costs] = [!UICONTROL Fixed Costs] + [!UICONTROL People] Costs</code> </p> </td> 
+      <td> <p>方案的總成本會顯示在[!UICONTROL Costs]區段的右側。 [!DNL Workfront]使用下列公式計算方案的成本：</p> <p><code>[!UICONTROL Initiative Costs] = [!UICONTROL Fixed Costs] + [!UICONTROL People] Costs</code> </p> </td> 
      </tr> 
      <tr> 
-      <td> <p>在<strong>[！UICONTROL固定成本]</strong>欄位中，手動輸入您認為完成此方案所需成本的粗略預估金額。 這不應包括與方案估計的工作角色相關的成本。</p> <p><span>使用Tab鍵時，從一個月移至下個月，以輸入方案每個月的金額。</span> </p> </td> 
+      <td> <p>在<strong>[!UICONTROL 固定成本]</strong>欄位中，手動輸入您認為完成此方案所需成本的粗略預估金額。 這不應包括與方案估計的工作角色相關的成本。</p> <p><span>使用Tab鍵時，從一個月移至下個月，以輸入方案每個月的金額。</span> </p> </td> 
      </tr> 
      <tr> 
       <td> 
        <div> 
-        <p>視計畫設定為使用FTE或時數而定，[！UICONTROL Workfront]會使用下列公式來計算[！UICONTROL人員成本]：</p> 
+        <p>視計畫設定為使用FTE或時數而定，[!UICONTROL Workfront]會使用下列公式來計算[!UICONTROL 人員成本]：</p> 
         <ul> 
          <li> <p>使用FTE時： </p> <p><code>[!UICONTROL People Costs] = SUM(Job role hourly rate * Number of months in the Duration * 160 * Number of FTEs)</code>，其中160是一個月內的工作時數總計。 </p> </li> 
          <li> <p style="font-weight: normal;">使用時數時： </p> <p style="font-weight: normal;"><code>Monthly People Costs = SUM(Job role hourly rate * Number of hours estimated for an initiative)</code> </p> <p style="font-weight: normal;">如需有關設定計畫以使用時數或FTE的資訊，請參閱<a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">在「情境規劃工具」中建立和編輯計畫</a>。</p> </li> 
         </ul> 
         <p>人員成本是以您在「匯率」偏好設定中選取的基本貨幣計算。 如需有關匯率的資訊，請參閱<a href="../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">設定匯率</a>。</p> 
-        <p>更新方案的成本資訊也會更新計畫的[！UICONTROL成本]區域。 </p> 
+        <p>更新方案的成本資訊也會更新計畫的[!UICONTROL 成本]區域。 </p> 
        </div> </td> 
      </tr> 
      <tr> 
@@ -187,7 +187,7 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader">[!DNL Net Value] 區段</td> 
-      <td>在<strong>[!DNL Net Value]</strong>區段中，在<strong>[！UICONTROL計畫收益]</strong>欄位中手動輸入粗略預估金額。 這就是您認為達成此計畫將會帶來的好處。 </td> 
+      <td>在<strong>[!DNL Net Value]</strong>區段中，在<strong>[!UICONTROL 計畫收益]</strong>欄位中手動輸入粗略預估金額。 這就是您認為達成此計畫將會帶來的好處。 </td> 
      </tr> 
     </tbody> 
    </table>
@@ -209,7 +209,7 @@ ht-degree: 0%
 1. （視條件而定）如果您未進行任何變更，請按一下方案詳細資料面板右上角的&#x200B;**X**&#x200B;圖示以將其關閉。
 1. （選用）更新方案的優先順序。
 
-   如需排定方案優先順序的資訊，請參閱情境規劃工具](../scenario-planner/prioritize-initiatives.md)中的[更新方案優先順序。
+   如需排定方案優先順序的資訊，請參閱情境規劃工具[&#128279;](../scenario-planner/prioritize-initiatives.md)中的更新方案優先順序。
 
    >[!TIP]
    >

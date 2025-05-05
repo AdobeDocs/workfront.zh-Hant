@@ -45,7 +45,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>[！UICONTROL View]存取您要更新的物件。 </p> <p>如需請求其他存取權的資訊，請參閱<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>[!UICONTROL View]存取您要更新的物件。 </p> <p>如需請求其他存取權的資訊，請參閱<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>

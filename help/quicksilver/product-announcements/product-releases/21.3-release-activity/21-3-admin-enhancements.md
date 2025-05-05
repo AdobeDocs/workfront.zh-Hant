@@ -27,7 +27,7 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[藍圖概觀](../../../administration-and-setup/blueprints/blueprints-overview.md)。
 
-此功能現已包含在Workfront One上新Workfront體驗](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)學習路徑的[專案範本中。
+此功能現已包含在Workfront One上新Workfront體驗[&#128279;](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)學習路徑的專案範本中。
 
 ## 群組管理員的新增功能：建立和管理任何層級群組的狀態
 

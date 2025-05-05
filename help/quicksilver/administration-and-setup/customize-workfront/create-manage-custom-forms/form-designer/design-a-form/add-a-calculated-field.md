@@ -100,7 +100,7 @@ ht-degree: 0%
     >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
 
 1. 按一下&#x200B;**新增自訂表格。**
-1. 選取您要附加自訂表單的物件型別，然後按一下[繼續]。****
+1. 選取您要附加自訂表單的物件型別，然後按一下[繼續]。**&#x200B;**
 
 1. 在熒幕左上方，按一下&#x200B;**欄位程式庫**。
 
@@ -117,7 +117,7 @@ ht-degree: 0%
    >
    >複雜表單的範例包括含有階層式引數的表單、計算的自訂資料欄位，以及單一欄位中的多個值選項。
 
-1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -138,7 +138,7 @@ ht-degree: 0%
     >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
 
 1. 按一下&#x200B;**新增自訂表格。**
-1. 選取您要附加自訂表單的物件型別，然後按一下[繼續]。****
+1. 選取您要附加自訂表單的物件型別，然後按一下[繼續]。**&#x200B;**
 
 1. 在畫面左側，找到&#x200B;**已計算**，並將其拖曳至畫布上的區段。
 
@@ -330,7 +330,7 @@ ht-degree: 0%
     </tbody> 
    </table>
 
-1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
 
    或
 

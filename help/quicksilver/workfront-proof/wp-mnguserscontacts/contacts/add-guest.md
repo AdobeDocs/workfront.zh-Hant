@@ -32,6 +32,6 @@ ht-degree: 0%
 
 1. 在儀表板上，按一下&#x200B;**[!UICONTROL 新校訂]**&#x200B;旁的向下箭頭，然後按一下&#x200B;**[!UICONTROL 新來賓]**。
 
-1. 如果您有觀察者設定檔，您將無法新增連絡人。 如需詳細資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔。
-1. 輸入來賓的資訊，然後按一下[建立]。**** 您可以選擇新來賓的預設校訂角色和許可權。 然後將此人新增到校訂時，他們將會獲得此角色和預設警報，但是當他們新增到校訂時，可以在新校訂頁面上變更這些角色。
-如需詳細資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔，以及 [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)中的[設定電子郵件通知設定。
+1. 如果您有觀察者設定檔，您將無法新增連絡人。 如需詳細資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校訂許可權設定檔。
+1. 輸入來賓的資訊，然後按一下[建立]。**&#x200B;** 您可以選擇新來賓的預設校訂角色和許可權。 然後將此人新增到校訂時，他們將會獲得此角色和預設警報，但是當他們新增到校訂時，可以在新校訂頁面上變更這些角色。
+如需詳細資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔，以及 [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)中的設定電子郵件通知設定。

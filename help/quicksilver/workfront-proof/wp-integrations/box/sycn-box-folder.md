@@ -60,7 +60,7 @@ ht-degree: 0%
 >
 >* 您也可以從[!UICONTROL 資料夾選項]功能表同步[!DNL Box]資料夾。
 >* 如果您有自己的品牌[!DNL Workfront Proof]登入頁面，您將被帶到該頁面，而不是標準的[!DNL Workfront Proof]登入頁面。 如需詳細資訊，請參閱[品牌](https://support.workfront.com/hc/en-us/sections/115000921208-Branding)下的文章。
->* 如果您已在您的[!DNL Workfront Proof]帳戶中啟用[!UICONTROL 單一登入(SSO)]功能，系統會將您帶到SSO登入頁面並要求您輸入SSO登入認證，但前提是您的[!DNL Box]帳戶和[!DNL Workfront Proof]使用相同的電子郵件地址。 如需詳細資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md)中的[[!UICONTROL 單一登入]。
+>* 如果您已在您的[!DNL Workfront Proof]帳戶中啟用[!UICONTROL 單一登入(SSO)]功能，系統會將您帶到SSO登入頁面並要求您輸入SSO登入認證，但前提是您的[!DNL Box]帳戶和[!DNL Workfront Proof]使用相同的電子郵件地址。 如需詳細資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md)中的[!UICONTROL 單一登入]。
 >* 如果您的[!DNL Box]帳戶和[!DNL Workfront Proof]帳戶未使用相同的電子郵件地址，系統一律會帶您進入標準[!DNL Workfront Proof]登入頁面。
 >
 

@@ -401,7 +401,7 @@ Workfront Proof現已提供新功能。 如需詳細資訊，請參閱[Workfront
 
 ## 22.1版本網路研討會
 
-Workfront 22.1版本網路研討會已於2022年1月12日推出。 您可以在Workfront One](https://one.workfront.com/s/event)的[活動頁面上檢視網路研討會影片。
+Workfront 22.1版本網路研討會已於2022年1月12日推出。 您可以在Workfront One[&#128279;](https://one.workfront.com/s/event)的活動頁面上檢視網路研討會影片。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

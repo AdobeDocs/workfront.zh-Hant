@@ -67,7 +67,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">顯示邏輯和略過邏輯現在可在表單設計工具預覽模式中使用</a></p><p>[！BADGE In Production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">顯示邏輯和略過邏輯現在可在表單設計工具預覽模式中使用</a></p><p>[!BADGE In Production &#x200B;]{type=Informative}</p>
                         <p>Beta版自訂表單設計工具現在可讓您在預覽模式下測試顯示邏輯及略過邏輯。 以前，即使套用了邏輯，預覽中仍會顯示所有欄位。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -83,7 +83,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">公司和使用者現在支援進階自訂表單欄位</a></p><p>[！BADGE In Production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">公司和使用者現在支援進階自訂表單欄位</a></p><p>[!BADGE In Production &#x200B;]{type=Informative}</p>
                         <p>當您將自訂表單附加至公司或使用者時，現在可以使用進階自訂表單功能，例如外部查詢欄位和Workfront原生欄位。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -99,7 +99,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">JumpSeat整合現在可用於新封裝型別</a></p><p>[！BADGE In Production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">JumpSeat整合現在可用於新封裝型別</a></p><p>[!BADGE In Production &#x200B;]{type=Informative}</p>
                         <p>使用其中一個新套件型別(即Select、Prime或Ultimate)的帳戶現在可以使用現有的JumpSeat整合。 您必須擁有使用中的JumpSeat訂閱才能啟用整合。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -118,7 +118,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">表單設計工具Beta版中有Workfront原生欄位可用</a></p><p>[！BADGE In Production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">表單設計工具Beta版中有Workfront原生欄位可用</a></p><p>[!BADGE In Production &#x200B;]{type=Informative}</p>
                         <p>Workfront原生欄位現在可讓您新增至自訂表單。 此新欄位型別可讓您以邏輯方式組織資料並將其呈現給使用者，而無需在自訂欄位中重新建立現有資料。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -138,7 +138,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">屬性對應現在可供移轉至Adobe IMS的組織使用</a></p>
-                        <p>[！BADGE In Production ]{type=Informative}</p><p>Workfront系統管理員現在可以為已移轉至Adobe IMS的組織設定使用者屬性對應。 這可讓使用者資訊從組織的SSO （單一登入）提供者傳遞到Workfront，因此使用者的資料不必同時輸入到Workfront和SSO提供者。</p>
+                        <p>[!BADGE In Production &#x200B;]{type=Informative}</p><p>Workfront系統管理員現在可以為已移轉至Adobe IMS的組織設定使用者屬性對應。 這可讓使用者資訊從組織的SSO （單一登入）提供者傳遞到Workfront，因此使用者的資料不必同時輸入到Workfront和SSO提供者。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
@@ -153,7 +153,7 @@ ht-degree: 0%
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">表單設計工具Beta版現在提供略過邏輯和顯示邏輯</a></p><p>[！BADGE In Production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">表單設計工具Beta版現在提供略過邏輯和顯示邏輯</a></p><p>[!BADGE In Production &#x200B;]{type=Informative}</p>
                         <p>您現在可以編輯現有的顯示和略過邏輯，並在表單設計工具Beta版中新增邏輯至自訂表單。 易於使用的邏輯產生器可協助您根據表單中的選取專案定義要顯示或略過的欄位。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -195,7 +195,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">新增檔案稽核與核准的截止日期</a></p><p>[！BADGE In Production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">新增檔案稽核與核准的截止日期</a></p><p>[!BADGE In Production &#x200B;]{type=Informative}</p>
                         <p>您現在可以指定使用者或專案團隊檢閱或核准檔案的截止日期。 稽核者和核准者在指定截止日期前72小時和之後24小時收到電子郵件通知。 截止日期也會反映在新首頁區域的核准Widget。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -211,7 +211,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">建立及使用核准範本</a></p><p>[！BADGE In Production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">建立及使用核准範本</a></p><p>[!BADGE In Production &#x200B;]{type=Informative}</p>
                         <p>您現在可以在「設定」區域中建立「核准範本」，以簡化複查與核准流程。 核准範本可讓您透過以下方式使稽核和核准流程更可重複
                         <ul>
                             <li>
@@ -236,7 +236,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">一次檢視您所有核准的相關資訊</a></p><p>[！BADGE In Production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">一次檢視您所有核准的相關資訊</a></p><p>[!BADGE In Production &#x200B;]{type=Informative}</p>
                         <p>為協助您快速管理和分析核准請求，我們在「所有核准」小工具中新增了以下關鍵績效指標：
                         <ul>
                             <li>
@@ -286,7 +286,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">欄選項已新增至使用配置範本的新首頁的管理員控制項</a></p><p>[！BADGE In Production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">欄選項已新增至使用配置範本的新首頁的管理員控制項</a></p><p>[!BADGE In Production &#x200B;]{type=Informative}</p>
                         <p>管理員現在可以使用版面配置範本，自訂在特定新首頁Widget中哪些欄可供使用者使用。 選項包括隱藏或顯示預設欄，以及將現有欄位新增為新欄。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -324,7 +324,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager整合中自動化資料夾建立工作流程的增強功能</a></p><p>[！BADGE In Production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager整合中自動化資料夾建立工作流程的增強功能</a></p><p>[!BADGE In Production &#x200B;]{type=Informative}</p>
                         <p>為確保您的Adobe Experience Manager資料夾能更準確地反映您的需求，我們已對Adobe Experience Manager連結資料夾工作流程進行一些更新。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -360,7 +360,7 @@ ht-degree: 0%
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">更多相關指派已新增至新任務工作流程</a></p>
-                        <p>[！BADGE In Production for Fast Release ]{type=Positive}</p>
+                        <p>[!BADGE In Production for Fast Release &#x200B;]{type=Positive}</p>
                         <p>將任務新增至專案和專案任務清單時，我們已將相同功能新增至「新增任務」方塊的「工作總攬」欄位，以提供更相關的智慧指派。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -378,7 +378,7 @@ ht-degree: 0%
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">更多相關的智慧指派</a></p>
-                        <p>[！BADGE In Production for Fast Release ]{type=Positive}</p>
+                        <p>[!BADGE In Production for Fast Release &#x200B;]{type=Positive}</p>
                         <p>我們已變更Workfront用來計算及建議智慧型任務指派的演演算法。 新演演算法適用於Workfront中指派任務的以下區域：任務清單、任務標題中的「工作」區域、「首頁」和「摘要」面板。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -414,7 +414,7 @@ ht-degree: 0%
                  </tr>
                  <tr>
                     <td>
-                        工作負載平衡器</a>中手動調整分配的<a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-resource-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">指標</p><p>[！BADGE In Production ]{type=Informative}</p><p>為了更清楚地說明工作負載平衡器中手動調整或分佈，手動調整的每小時分配現在會顯示一個鉛筆圖示。</p>
+                        工作負載平衡器</a>中手動調整分配的<a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-resource-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">指標</p><p>[!BADGE In Production &#x200B;]{type=Informative}</p><p>為了更清楚地說明工作負載平衡器中手動調整或分佈，手動調整的每小時分配現在會顯示一個鉛筆圖示。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
@@ -451,7 +451,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新註解體驗已新增至反複專案</a></p><p>[！BADGE In Production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新註解體驗已新增至反複專案</a></p><p>[!BADGE In Production &#x200B;]{type=Informative}</p>
                         <p>為了讓您在應用程式中擁有一致的體驗，我們為反複專案新增了新的評論體驗。 </p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -477,7 +477,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">對舊版評論區域的存取權已移除</a></p><p>[！BADGE In Production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">對舊版評論區域的存取權已移除</a></p><p>[!BADGE In Production &#x200B;]{type=Informative}</p>
                         <p>我們已移除專案、任務、問題和檔案更新區域中的「新註解」切換。 新註解現在是這些物件的預設和唯一選項。 經過此變更後，您將無法再回覆至舊版評論體驗。 此外，我們已移除使用者設定檔上的「更新狀態顯示完成百分比」設定。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -493,7 +493,7 @@ ht-degree: 0%
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新首頁Widget的快速動作現在提供新的評論資料流</a></p><p>[！BADGE In Production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新首頁Widget的快速動作現在提供新的評論資料流</a></p><p>[!BADGE In Production &#x200B;]{type=Informative}</p>
                         <p>我們現在已將新的評論功能新增到新首頁中的「我的工作、我的專案、我的任務和我的問題」小工具中的「新增更新」快速動作按鈕。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -512,7 +512,7 @@ ht-degree: 0%
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新評論體驗中可用的其他評論者資訊</a></p><p>[！BADGE In Production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新評論體驗中可用的其他評論者資訊</a></p><p>[!BADGE In Production &#x200B;]{type=Informative}</p>
                         <p>我們在新的註解體驗中進行了下列增強功能：</p>
                         <ul>
                             <li>
@@ -539,7 +539,7 @@ ht-degree: 0%
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新註解體驗上的系統活動索引標籤支援唯讀註解</a></p><p>[！BADGE In Production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新註解體驗上的系統活動索引標籤支援唯讀註解</a></p><p>[!BADGE In Production &#x200B;]{type=Informative}</p>
                         <p>對舊版評論體驗中系統活動記錄所做的評論，現在會以唯讀形式填入新評論體驗的「系統活動」標籤中。 您無法回覆新評論體驗中的系統活動記錄。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -558,7 +558,7 @@ ht-degree: 0%
                 </tr> 
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新的更新資料流索引標籤，可擷取註解和系統活動專案</a></p><p>[！BADGE In Production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新的更新資料流索引標籤，可擷取註解和系統活動專案</a></p><p>[!BADGE In Production &#x200B;]{type=Informative}</p>
                         <p>為了讓您依時間順序呈現評論和系統活動記錄的檢視，我們將在所有物件的「更新」區域引入第三個標籤。 「全部」索引標籤會在一個內聚的串流中擷取使用者評論和系統活動評論。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -577,7 +577,7 @@ ht-degree: 0%
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">摘要面板中現在有新的註解資料流</a></p><p>[！BADGE In Production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">摘要面板中現在有新的註解資料流</a></p><p>[!BADGE In Production &#x200B;]{type=Informative}</p>
                         <p>我們現在已將新的評論功能新增到任務和問題清單的摘要面板。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -615,7 +615,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        在2024年第二季時間範圍內<a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">外觀和感覺更新</a></p><p>[！BADGE In Production ]{type=Informative}</p>
+                        在2024年第二季時間範圍內<a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">外觀和感覺更新</a></p><p>[!BADGE In Production &#x200B;]{type=Informative}</p>
                         <p>在2024年第二季時間範圍內，對Adobe Workfront應用程式的各個區域外觀和感覺進行了小幅更新。 檢閱特定發行日期的個別發行說明。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>

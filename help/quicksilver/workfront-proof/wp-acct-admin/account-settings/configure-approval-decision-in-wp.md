@@ -57,7 +57,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 帳戶設定]**。
 
-1. 開啟&#x200B;**[!UICONTROL 決定]**標籤。
+1. 開啟&#x200B;**[!UICONTROL 決定]**&#x200B;標籤。
 依預設，校訂上的所有決策者都可以利用原因，但您可以將其限製為僅供主要決策者使用。
 視您的需求而定，您可以允許選取多個原因，也可以將其設為單一選擇清單。 您也可以將原因設為強制性，這表示檢閱者必須先挑選原因，才能將其決定儲存於校樣中。
    ![Reasons_setup.png](assets/reasons-setup-350x121.png)
@@ -71,7 +71,7 @@ ht-degree: 0%
    ![reasons_setup_2.png](assets/reasons-setup-2-350x146.png)
 最重要的步驟是選取應顯示原因的決定。 如果您忘記這麼做，原因不會顯示在您的校樣上。
 
-1. 勾選頁面頂端決定清單中&#x200B;**[!UICONTROL 顯示原因]**欄中的方塊。 基於您的理由，您可以選取一或多個決定。
+1. 勾選頁面頂端決定清單中&#x200B;**[!UICONTROL 顯示原因]**&#x200B;欄中的方塊。 基於您的理由，您可以選取一或多個決定。
    ![原因_-_decision_selection.png](assets/reasons---decision-selection-350x150.png)
 
 ## 建立Post決定訊息
@@ -85,6 +85,6 @@ ht-degree: 0%
 您也可以決定是否要向所有決策者顯示訊息，或是否要將訊息限制在主要決策者。
    ![post_decision_message_set_up.png](assets/post-decision-message-set-up-350x125.png)
 
-1. 在&#x200B;**[!UICONTROL 顯示訊息]**欄中，指定此訊息應顯示的決策。
+1. 在&#x200B;**[!UICONTROL 顯示訊息]**&#x200B;欄中，指定此訊息應顯示的決策。
 如果您未選取至少一個決定，則訊息不會顯示在您的校樣上。 請務必在該欄中勾選至少一個方塊。
    ![post_decision_message_set_up_2.png](assets/post-decision-message-set-up-2-350x151.png)

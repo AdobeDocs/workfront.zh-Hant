@@ -59,11 +59,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[！UICONTROL檢視]清單所在區域的存取權</p> <p>例如，若要修改專案的檢視，您需要[！UICONTROL檢視]專案的存取權。</p></td> 
+   <td> <p>[!UICONTROL 檢視]清單所在區域的存取權</p> <p>例如，若要修改專案的檢視，您需要[!UICONTROL 檢視]專案的存取權。</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>[！UICONTROL檢視]或套用至清單之檢視的更高許可權</p>  </td> 
+   <td> <p>[!UICONTROL 檢視]或套用至清單之檢視的更高許可權</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -94,7 +94,7 @@ ht-degree: 0%
 
 1. （選擇性和條件性）如果您想要在熒幕上顯示特定數量的專案，請按一下熒幕右下角的&#x200B;**[!UICONTROL Showing]**&#x200B;下拉式功能表，然後選取以顯示&#x200B;**100**、**250**、**500**、**[!UICONTROL All]**&#x200B;或&#x200B;**2000**&#x200B;專案。
 
-   第](assets/list-number-page-350x119.png)頁上的![清單編號
+   第![&#128279;](assets/list-number-page-350x119.png)頁上的清單編號
 
    >[!TIP]
    >

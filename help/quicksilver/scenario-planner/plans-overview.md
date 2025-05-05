@@ -30,7 +30,7 @@ ht-degree: 0%
 
 您可以識別每個高階組織結果，並將其新增為計畫至[!DNL Workfront Scenario Planner]。 計畫是[!DNL Scenario Planner]中最大的工作專案。 為了更方便達成計畫，您可以將計劃分成數個方案，以指出個別組織單位需要採取哪些步驟才能完成計畫。
 
-然後，您可以將方案與實際專案連線起來，以指出實際完成計畫時的工作因素。 本文提供計畫的一般資訊。 如需方案的相關資訊，請參閱 [!DNL Scenario Planner]](../scenario-planner/initiatives-overview.md)中的[方案概觀。
+然後，您可以將方案與實際專案連線起來，以指出實際完成計畫時的工作因素。 本文提供計畫的一般資訊。 如需方案的相關資訊，請參閱 [!DNL Scenario Planner][&#128279;](../scenario-planner/initiatives-overview.md)中的方案概觀。
 
 您可以定義完成計畫上所識別之工作所需的人工與財務資源。 您也可以檢視計畫中方案所需的人工與財務資源，以便完成計畫。
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 您可以複查計畫的工作角色一般資訊，指出可用於計畫的工作角色數量，以及方案完成所需的工作角色數量。 您可以在計畫標題的[!UICONTROL 工作角色]方塊中檢視此資訊。
 
-計畫](assets/job-role-box-on-plan-not-expanded-fte-350x141.png)上的![工作角色方塊
+計畫![&#128279;](assets/job-role-box-on-plan-not-expanded-fte-350x141.png)上的工作角色方塊
 
 您可以在工作角色方塊中檢視下列專案：
 
@@ -87,11 +87,11 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p role="rowheader">[！UICONTROL預算] </p> <p role="rowheader"> </p> </td> 
+   <td role="rowheader"> <p role="rowheader">[!UICONTROL 預算] </p> <p role="rowheader"> </p> </td> 
    <td>這是貴公司決定可用於執行計畫的貨幣金額。 Workfront會在計畫期間為每個月平均分配預算。 預算通常設定為一年，但也可能會設定為3或5年的期間。 「財務」方塊標題左方括弧內的貨幣表示系統的貨幣。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL成本]</td> 
+   <td role="rowheader">[!UICONTROL 成本]</td> 
    <td> <p>這是來自計畫上所有方案的成本總額。 Workfront會使用下列公式計算計畫的「成本」：</p> <p><code>Plan Costs = SUM(Initiative Costs)</code> </p> <p>如需如何計算方案成本的詳細資訊，請參閱<a href="../scenario-planner/create-and-edit-initiatives.md" class="MCXref xref">在[!DNL Scenario Planner]</a>中建立和編輯方案。 </p> </td> 
   </tr> 
   <tr> 
@@ -99,7 +99,7 @@ ht-degree: 0%
    <td> <p>這是與方案相關的成本與為計畫定義的預算之間的計算百分比。 </p> <p>[!DNL Workfront] 使用下列公式計算計畫的預算使用率百分比： </p> <p><code>Utilization percentage = (Plan Costs* 100))/ Plan Budget</code> </p> <p>成本的計算公式如下：</p> <p><code>Plan Costs = SUM(Initiatives People Costs, Initiatives Fixed Costs)</code> </p> <p>提示：「使用率」百分比會四捨五入並有一個小數。 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p role="rowheader">[！UICONTROL摘要]方塊中的[！UICONTROL淨值]區域<span></span></p> <p role="rowheader"> </p> </td> 
+   <td role="rowheader"> <p role="rowheader">[!UICONTROL 摘要]方塊中的[!UICONTROL 淨值]區域<span></span></p> <p role="rowheader"> </p> </td> 
    <td> <p>這是計畫中所有方案的所有「淨值」的計算。 </p> <p>Workfront會使用下列公式計算計畫的「淨值」： </p> <p><code>Plan Net Value = SUM(Initiative Planned Benefit - People Costs)</code> </p> <p>或</p> <p><code>Plan Net Value = SUM(Initiative Net Value)</code> </p> <p>如需方案淨值的相關資訊，請參閱[!DNL Scenario Planner]</a>中的<a href="../scenario-planner/initiatives-overview.md" class="MCXref xref">方案概觀一文。</p> </td> 
   </tr> 
  </tbody> 

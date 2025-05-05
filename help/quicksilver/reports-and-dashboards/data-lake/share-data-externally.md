@@ -100,7 +100,7 @@ Workfront Data Connect可讓您將組織的Workfront資料與商業智慧工具�
 
 1. 按一下&#x200B;**允許的IP**&#x200B;標籤，然後按一下您要移除的IP位址右側的垃圾桶圖示![刪除圖示](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png)。
 
-1. 在出現的視窗中，核取方塊以確認，然後按一下[刪除]。****
+1. 在出現的視窗中，核取方塊以確認，然後按一下[刪除]。**&#x200B;**
 
 ## 與商業智慧工具共用資料
 

@@ -36,11 +36,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>[！UICONTROL Work]或更高版本</p> </td> 
+   <td> <p>[!UICONTROL Work]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>存取層級設定*</strong></td> 
-   <td> <p>[！UICONTROL編輯]對任務和問題的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的[!DNL Workfront]管理員是否對您的存取層級設定了其他限制。 如需[!DNL Workfront]管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td> <p>[!UICONTROL 編輯]對任務和問題的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的[!DNL Workfront]管理員是否對您的存取層級設定了其他限制。 如需[!DNL Workfront]管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 您可以選取篩選器，以顯示準備好要處理的專案或您目前處理的專案。
 
-本文說明如何使用[!UICONTROL 首頁]區域中的篩選器，以檢視您目前正在處理或可能考慮開始處理的專案。 如需如何在[!UICONTROL 首頁]區域中使用篩選器的相關資訊，請參閱[!UICONTROL 首頁]區域](/help/quicksilver/workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)的[!UICONTROL 工作清單]中的[顯示專案。
+本文說明如何使用[!UICONTROL 首頁]區域中的篩選器，以檢視您目前正在處理或可能考慮開始處理的專案。 如需如何在[!UICONTROL 首頁]區域中使用篩選器的相關資訊，請參閱[!UICONTROL 首頁]區域[&#128279;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)的[!UICONTROL 工作清單]中的顯示專案。
 
 若要在「我的工作」Widget中檢視工作專案：
 
@@ -120,9 +120,9 @@ ht-degree: 0%
 1. 按一下右上角的&#x200B;**[!UICONTROL 主功能表]** ![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
 1. （視條件而定）按一下&#x200B;**自訂**&#x200B;以新增&#x200B;**我的工作** Widget。
 
-1. 在Widget工作清單中，暫留在工作專案上，然後按一下&#x200B;**摘要**圖示以檢視工作專案的相關資訊。
+1. 在Widget工作清單中，暫留在工作專案上，然後按一下&#x200B;**摘要**&#x200B;圖示以檢視工作專案的相關資訊。
    ![開啟摘要](assets/open-summary-new-home.png)
-1. 在&#x200B;**工作總攬**區段中，移除您的名稱。
+1. 在&#x200B;**工作總攬**&#x200B;區段中，移除您的名稱。
    ![移除指定任務](assets/remove-assignment.png)
 
 

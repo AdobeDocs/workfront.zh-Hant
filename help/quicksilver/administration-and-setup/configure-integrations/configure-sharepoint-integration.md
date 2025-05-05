@@ -172,7 +172,7 @@ ht-degree: 0%
 
 1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![設定圖示](/help/_includes/assets/gear-icon-setup.png)。
 1. 在左側導覽中選取&#x200B;**[!UICONTROL 檔案]**，然後選取&#x200B;**[!UICONTROL 雲端提供者]**。
-1. 請確定&#x200B;**[!DNL SharePoint]**&#x200B;選項和&#x200B;**[!UICONTROL [!DNL SharePoint](Graph API)]**&#x200B;選項皆已啟用。
+1. 請確定&#x200B;**[!DNL SharePoint]**&#x200B;選項和&#x200B;**[!UICONTROL [!DNL SharePoint] (Graph API)]**&#x200B;選項皆已啟用。
 1. 按一下「**[!UICONTROL 儲存]**」。
 1. 在左側導覽中選取&#x200B;**[!UICONTROL 檔案]**，然後選取&#x200B;**[!UICONTROL [!DNL SharePoint]整合]**。
 1. 選取清單左側的核取記號，以取得所有現有的整合，然後選取&#x200B;**[!UICONTROL 停用]**。
@@ -430,19 +430,19 @@ For instructions, see [Link an external document to [!DNL Workfront]](../../docu
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL設計]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 設計]</p> </td> 
    <td> <p>可以檢視、新增、更新、刪除、核准和自訂</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL編輯]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 編輯]</p> </td> 
    <td> <p>可以新增、編輯和刪除清單；可以檢視、新增、更新和刪除清單專案和檔案</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Contribute]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Contribute]</p> </td> 
    <td> <p>可以檢視、新增、更新及刪除清單專案和檔案</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL檢視]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 檢視]</p> </td> 
    <td> <p>可以檢視頁面、清單專案和檔案（具有伺服器端檔案處理常式的檔案型別可以在瀏覽器中檢視，但不能下載）</p> </td> 
   </tr> 
  </tbody> 

@@ -17,7 +17,7 @@ ht-degree: 0%
 
 您可以檢閱和解決校訂上的現有評論，並將新評論和註解新增到校訂檔案中。
 
-您對校訂的評論存取權與[!DNL Adobe Workfront]中的相同。 如需校訂功能的相關資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔。
+您對校訂的評論存取權與[!DNL Adobe Workfront]中的相同。 如需校訂功能的相關資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校訂許可權設定檔。
 
 >[!NOTE]
 >

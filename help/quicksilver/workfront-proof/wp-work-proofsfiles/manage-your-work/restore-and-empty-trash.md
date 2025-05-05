@@ -38,7 +38,7 @@ Workfront Proof不會限制垃圾桶中的校樣、檔案和資料夾數量。
 
 ## 清空垃圾桶
 
-如果您是管理員或帳單管理員，則可以清空垃圾桶。 如需有關許可權的資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔。
+如果您是管理員或帳單管理員，則可以清空垃圾桶。 如需有關許可權的資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校訂許可權設定檔。
 
 1. 按一下左側邊欄中的&#x200B;**[!UICONTROL 垃圾桶]**。
 1. 按一下&#x200B;**[!UICONTROL 清空垃圾桶]**。

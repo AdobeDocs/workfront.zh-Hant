@@ -33,7 +33,7 @@ ht-degree: 0%
    <th><strong>狀態</strong></th> 
   </tr>
   <tr>
-   <td>[！UICONTROL主功能表]中的[！UICONTROL面板]區域</td>
+   <td>[!UICONTROL 主功能表]中的[!UICONTROL 面板]區域</td>
    <td>已發行</td>
   </tr>
     <tr>
@@ -61,7 +61,7 @@ ht-degree: 0%
    <td>已發行</td>
   </tr>
   <tr>
-   <td>將[！UICONTROL進行中的工作]限制新增至欄</td>
+   <td>將[!UICONTROL 進行中的工作]限制新增至欄</td>
    <td>已發行</td>
   </tr>
   <tr>

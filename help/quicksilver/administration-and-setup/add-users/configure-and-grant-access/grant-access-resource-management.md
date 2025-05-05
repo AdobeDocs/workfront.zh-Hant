@@ -79,7 +79,7 @@ ht-degree: 4%
 
 ## 依授權型別存取資源管理
 
-如需有關每個存取層級中的使用者可以執行哪些資源管理的資訊，請參閱每個物件型別](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)可用的文章[功能中的[資源管理](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#resource)小節。
+如需有關每個存取層級中的使用者可以執行哪些資源管理的資訊，請參閱每個物件型別[&#128279;](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)可用的文章功能中的[資源管理](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#resource)小節。
 
 ## 存取共用問題
 

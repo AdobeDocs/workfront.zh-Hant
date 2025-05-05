@@ -43,7 +43,7 @@ ht-degree: 2%
 
 * 轉換問題時，原始問題的許可權未傳輸到轉換的物件（任務或專案）。
 
-* 使用範本將問題轉換為專案時，範本中的大部分資訊會傳輸到新專案。 不過，問題中的某些資訊也可傳輸到新專案。 如需詳細資訊，請參閱本文章使用範本](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template)將問題轉換為專案時的[專案欄位概觀。
+* 使用範本將問題轉換為專案時，範本中的大部分資訊會傳輸到新專案。 不過，問題中的某些資訊也可傳輸到新專案。 如需詳細資訊，請參閱本文章使用範本[&#128279;](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template)將問題轉換為專案時的專案欄位概觀。
 * 轉換問題時，並非所有檔案或其資訊都會移至問題轉換為的新物件。 當您轉換附加了檔案或檔案連結的問題時，會包含下列專案：
 
    * 文件

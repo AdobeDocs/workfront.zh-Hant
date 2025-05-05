@@ -78,14 +78,14 @@ ht-degree: 0%
 >* 適用於Outlook的Workfront
 >* 適用於Salesforce的Workfront
 
-* 允許叢集1、2、3、5、7、8和9](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)的[IP位址
-* 允許叢集4](#ip-addresses-to-allow-for-cluster-4)的[IP位址
-* 允許叢集6](#ip-addresses-to-allow-for-cluster-6)的[IP位址
+* 允許叢集1、2、3、5、7、8和9[&#128279;](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)的IP位址
+* 允許叢集4[&#128279;](#ip-addresses-to-allow-for-cluster-4)的IP位址
+* 允許叢集6[&#128279;](#ip-addresses-to-allow-for-cluster-6)的IP位址
 * [允許叢集10使用的IP位址](#ip-addresses-to-allow-for-cluster-10)
 * [允許測試磁碟機的IP位址](#IP%20Addre2)
 * 實作事件訂閱時允許的[IP位址](#ip-addresses-to-allow-when-implementing-event-subscriptions)
 * [要新增的IP位址以存取Workfront Fusion](#ip-addresses-to-add-for-accessing-workfront-fusion)
-* 使用Workfront for Jira](#ip-addresses-to-add-for-using-workfront-for-jira)要新增的[個IP位址
+* 使用Workfront for Jira[&#128279;](#ip-addresses-to-add-for-using-workfront-for-jira)要新增的個IP位址
 * [Workfront要為所有叢集新增的URL](#urls-to-add-for-all-clusters-workfront)
 
 ### 允許叢集1、2、3、5、7、8和9使用的IP位址 {#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9}

@@ -33,7 +33,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">[!DNL Adobe Workfront]計畫</a>*</td> 
-   <td> <p>[！UICONTROL Pro]或更高版本</p> </td> 
+   <td> <p>[!UICONTROL Pro]或更高版本</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -188,7 +188,7 @@ ht-degree: 1%
 
    * **文件**
 
-     按一下[核准]]**核准檔案，**[!UICONTROL &#x200B;拒絕&#x200B;]**拒絕檔案，或**[!UICONTROL &#x200B;變更&#x200B;]**指示您核准檔案，但檔案需要其他變更。**[!UICONTROL \
+     按一下[核准]&#x200B;**核准檔案，**&#x200B;[!UICONTROL &#x200B;拒絕&#x200B;]&#x200B;**拒絕檔案，或**&#x200B;[!UICONTROL &#x200B;變更&#x200B;]&#x200B;**指示您核准檔案，但檔案需要其他變更。**\
      （選擇性）將滑鼠移到檔案縮圖上，按一下放大鏡並預覽檔案。
 
    * **校訂**&#x200B;按一下校訂名稱，在個別索引標籤的[!DNL Workfront]中開啟並管理核准。

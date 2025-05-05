@@ -48,6 +48,6 @@ Adobe Workfront Scenario Planner僅適用於新的Adobe Workfront體驗。
 如需詳細資訊，請參閱下列文章：
 
 * [刪除Scenario Planner](../../../scenario-planner/delete-initiatives.md)中的方案
-* 在Scenario Planner](../../../scenario-planner/copy-initiatives.md)中[複製方案
+* 在Scenario Planner[&#128279;](../../../scenario-planner/copy-initiatives.md)中複製方案
 * [更新「情境規劃工具」中的方案優先順序](../../../scenario-planner/prioritize-initiatives.md)
 

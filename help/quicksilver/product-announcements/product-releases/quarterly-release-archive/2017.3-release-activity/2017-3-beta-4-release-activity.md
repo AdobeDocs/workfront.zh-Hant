@@ -26,7 +26,7 @@ ht-degree: 0%
 
 2017.3 Beta 4版本包含適用於Workfront管理員和其他使用者的增強功能：
 
-管理員的&#x200B;****
+管理員的&#x200B;**&#x200B;**
 
 * [在設定區域中新增資源管理喜好設定區域](#new-resource-management-preferences-area-in-the-setup-area)
 

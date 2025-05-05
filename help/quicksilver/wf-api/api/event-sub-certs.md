@@ -65,7 +65,7 @@ server {
 }
 ```
 
-如需詳細資訊，請參閱ngx_http_ssl_module](https://nginx.org/en/docs/http/ngx_http_ssl_module.html)的[NGiNX檔案。
+如需詳細資訊，請參閱ngx_http_ssl_module[&#128279;](https://nginx.org/en/docs/http/ngx_http_ssl_module.html)的NGiNX檔案。
 
 ### Apache
 

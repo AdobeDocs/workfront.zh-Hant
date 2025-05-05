@@ -54,7 +54,7 @@ ht-degree: 0%
 Group Admins of a subgroup can't manage statuses or project preferences of the subgroup YET (Sprint 22/Oct 28, 2020)</p>
 -->
 
-建立或編輯子群組時，您可以將子群組成員指派為子群組的群組管理員。 如需指示，請參閱文章[建立群組](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)中的[](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#create)。
+建立或編輯子群組時，您可以將子群組成員指派為子群組的群組管理員。 如需指示，請參閱文章[建立群組](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)中的[&#128279;](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#create)。
 
 或者，您也可以將子群組的管理權交給群組管理員，由他們指定給該子群組之上的群組。 建立子群組時，上方群組的群組管理員擁有管理子群組的自動存取權。
 

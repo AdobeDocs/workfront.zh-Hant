@@ -64,7 +64,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td>[！UICONTROL系統管理員]</td>
+   <td>[!UICONTROL 系統管理員]</td>
   </tr> 
  </tbody> 
 </table>
@@ -87,7 +87,7 @@ ht-degree: 2%
 
    此貨幣是用作整個系統中所有專案和報表的預設貨幣。
 
-1. 按一下[儲存]儲存變更。****
+1. 按一下[儲存]儲存變更。**&#x200B;**
 
 ## 讓使用者修改專案的預設貨幣
 

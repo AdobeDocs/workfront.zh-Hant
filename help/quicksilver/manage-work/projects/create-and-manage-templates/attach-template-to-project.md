@@ -117,7 +117,7 @@ ht-degree: 0%
 
    ![附加範本](assets/attach-template-large-box-nwe-350x262.png)
 
-1. 在附加範本之前，請更新下列區段中的資訊（或隨時按一下[附加範本] ****）：
+1. 在附加範本之前，請更新下列區段中的資訊（或隨時按一下[附加範本] **&#x200B;**）：
 
    <table style="table-layout:auto"> 
     <col> 

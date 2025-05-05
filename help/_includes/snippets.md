@@ -55,7 +55,7 @@ ht-degree: 1%
 >
 >此頁面上說明的程式僅適用於尚未上線到[!DNL Adobe Experience Cloud]的組織。
 >
-> 如果您的組織已上線到[!DNL Adobe Experience Cloud]，請參閱 [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)的[[!DNL Adobe Unified Experience] 。
+> 如果您的組織已上線到[!DNL Adobe Experience Cloud]，請參閱 [!DNL Workfront][&#128279;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)的[!DNL Adobe Unified Experience] 。
 
 ## 步驟1 — 僅按一下主功能表 {#step1-click-main-menu}
 

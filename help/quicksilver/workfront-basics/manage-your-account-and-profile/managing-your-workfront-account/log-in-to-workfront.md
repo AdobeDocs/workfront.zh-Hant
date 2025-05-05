@@ -52,8 +52,8 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
    <td> 
-   <p>新增：[！UICONTROL Contributor]或以上</p>
-   <p>目前： [！UICONTROL Request]或以上</p> </td> 
+   <p>新增：[!UICONTROL Contributor]或以上</p>
+   <p>目前： [!UICONTROL Request]或以上</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -151,7 +151,7 @@ ht-degree: 0%
 >
 >對於IMS上的iOS使用者，您可以選取&#x200B;**使用公司網域登入**，並使用[!DNL Workfront]管理員提供的網域來使用您的[!DNL Adobe] ID登入。
 
-1. 輸入您的電子郵件，然後按一下[繼續]。****
+1. 輸入您的電子郵件，然後按一下[繼續]。**&#x200B;**
 
 1. （視條件而定）選取您要用來登入的帳戶。 一般來說，如果您的[!DNL Adobe] ID與組織相關聯，這將是&#x200B;**公司或學校帳戶**。
 

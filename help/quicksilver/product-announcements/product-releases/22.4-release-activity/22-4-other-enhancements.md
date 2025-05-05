@@ -23,7 +23,7 @@ ht-degree: 0%
 
 此外掛程式現在可在InDesign中安裝。 它可讓您存取工作專案詳細資料、與更新區域中的同事共同作業，以及提交校樣以供全部檢閱，而不需離開XD。 立即前往Adobe Creative Cloud Marketplace下載外掛程式。
 
-如需外掛程式的詳細資訊，請參閱 [!DNL Creative Cloud] 應用程式](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)的[[!DNL Adobe Workfront] 外掛程式。
+如需外掛程式的詳細資訊，請參閱 [!DNL Creative Cloud] 應用程式[&#128279;](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)的[!DNL Adobe Workfront] 外掛程式。
 
 [立即下載Adobe Workfront以在Marketplace中進行InDesign](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-indesign)。
 

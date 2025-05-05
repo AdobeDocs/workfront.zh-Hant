@@ -26,7 +26,7 @@ ht-degree: 0%
 
 2018.1 Beta 1版本包含適用於Workfront管理員和其他使用者的增強功能：
 
-管理員的&#x200B;****
+管理員的&#x200B;**&#x200B;**
 
 * [已更新配置範本以支援主區域](#updated-layout-template-to-support-the-home-area)
 * [停用從Workfront傳送的校訂電子郵件通知](#disable-proofing-email-notifications-sent-from-workfront)

@@ -36,7 +36,7 @@ Adobe Workfront於2022年6月14日發行API第15版。 API第15版具有第14版
 
 方案物件會在Workfront情境規劃工具中建立職位角色的種類和數量、固定成本和計畫福利的估計值。
 
-如需方案的詳細資訊，請參閱情境規劃工具](../../scenario-planner/initiatives-overview.md)中的[方案概觀。
+如需方案的詳細資訊，請參閱情境規劃工具[&#128279;](../../scenario-planner/initiatives-overview.md)中的方案概觀。
 
 <table>
   <col/>

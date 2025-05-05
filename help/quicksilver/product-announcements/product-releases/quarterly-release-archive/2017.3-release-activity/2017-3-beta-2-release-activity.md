@@ -26,7 +26,7 @@ ht-degree: 0%
 
 2017.3 Beta 2版本包含適用於Workfront管理員和其他使用者的增強功能：
 
-管理員的&#x200B;****
+管理員的&#x200B;**&#x200B;**
 
 * [依Stage Activation (Workfront Proof)限制工作流程的存取權](#restrict-access-to-workflows-by-stage-activation-workfront-proof)
 

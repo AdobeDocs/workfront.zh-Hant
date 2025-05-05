@@ -43,7 +43,7 @@ ht-degree: 0%
 
 在此變更之前，只能在「首頁」區域檢視資訊，不能編輯。
 
-如需詳細資訊，請參閱文章的[首頁]區域](../../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)中的[更新或編輯工作專案  [更新或編輯首頁區域中的工作專案](../../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)。
+如需詳細資訊，請參閱文章的[首頁]區域[&#128279;](../../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)中的更新或編輯工作專案  [更新或編輯首頁區域中的工作專案](../../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)。
 
 ## 以天為單位記錄時間 {#log-time-in-days}
 

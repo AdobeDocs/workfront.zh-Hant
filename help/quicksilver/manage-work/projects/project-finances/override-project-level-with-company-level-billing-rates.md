@@ -88,7 +88,7 @@ ht-degree: 1%
 1. 按一下左側面板中的&#x200B;**收費率**。
 1. 更新現有職務角色的&#x200B;**公司收費率**&#x200B;和開始/結束日期，然後按Enter鍵。
 
-   若要新增生效日期的公司收費率，請選取工作角色的收費率，然後按一下[編輯]。**** 如需日期有效公司收費率的詳細資訊，請參閱[覆寫公司層級的工作角色收費率](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md)。
+   若要新增生效日期的公司收費率，請選取工作角色的收費率，然後按一下[編輯]。**&#x200B;** 如需日期有效公司收費率的詳細資訊，請參閱[覆寫公司層級的工作角色收費率](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md)。
 
 1. 若要更新一或多個專案的公司費率，請執行下列其中一項作業：
 

@@ -160,6 +160,6 @@ To access an individual goal in the Production environment:
 目標的頁面隨即顯示。
    ![目標頁面](assets/goal-page-unshimmed.png)
 1. 按一下目標名稱右側的&#x200B;**更多**&#x200B;功能表![更多圖示](assets/more-icon.png)，以進一步編輯或共用目標。
-1. 按一下左側面板中的&#x200B;**目標詳細資料**&#x200B;以編輯目標的相關資訊。 如需詳細資訊，請參閱Adobe Workfront目標](../goal-management/update-goals-in-goal-details-panel.md)中「目標詳細資料」一節的[更新目標。
+1. 按一下左側面板中的&#x200B;**目標詳細資料**&#x200B;以編輯目標的相關資訊。 如需詳細資訊，請參閱Adobe Workfront目標[&#128279;](../goal-management/update-goals-in-goal-details-panel.md)中「目標詳細資料」一節的更新目標。
 
 

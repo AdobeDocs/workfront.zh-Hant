@@ -41,7 +41,7 @@ ht-degree: 0%
 若要建立自訂檢視：
 
 1. 移至&#x200B;**[!UICONTROL 檢視]**&#x200B;頁面。
-1. 如需檢視的詳細資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中的[管理檢視頁面上的專案。
+1. 如需檢視的詳細資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中的管理檢視頁面上的專案。
 1. 根據您是要從頭開始建立新的自訂檢視，還是要根據現有的標準檢視建立新的自訂檢視，執行下列任一項作業：
 
    * 若要根據現有標準檢視建立新的自訂檢視：從下拉式功能表中，選取要作為新自訂檢視基礎的現有標準檢視。 按一下「**[!UICONTROL 檢視設定]**」圖示，然後按一下「**[!UICONTROL 複製]**」以新增自訂檢視。
@@ -95,7 +95,7 @@ ht-degree: 0%
       <td>建立專案的使用者。</td>
       </tr>
       <tr>
-      <td><strong>[！UICONTROL日期已新增到校訂]</strong></td>
+      <td><strong>[!UICONTROL 日期已新增到校訂]</strong></td>
       <td>新增到校訂的日期。 </td>
       </tr>
       <tr>
@@ -107,7 +107,7 @@ ht-degree: 0%
       <td>從預期數量中給出的決策數量（例如0 / 1、1 / 1等）</td>
       </tr>
       <tr>
-      <td><strong>[！UICONTROL下載]</strong></td>
+      <td><strong>[!UICONTROL 下載]</strong></td>
       <td>原始檔案的下載次數。</td>
       </tr>
       <tr>
@@ -263,14 +263,14 @@ ht-degree: 0%
    * 如果您目前選擇不與其他使用者共用您的檢視，您稍後可以編輯自訂檢視來執行此操作。
 
 1. 按一下「**[!UICONTROL 建立]**」。
-1. 此自訂檢視已顯示並可在[!DNL Views]頁面上使用。 如需檢視的詳細資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中 [!DNL Views] 頁面上的[管理專案。
+1. 此自訂檢視已顯示並可在[!DNL Views]頁面上使用。 如需檢視的詳細資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中 [!DNL Views] 頁面上的管理專案。
 
 ## 編輯自訂檢視
 
 您可以輕鬆編輯自訂檢視。 若要編輯自訂檢視：
 
 1. 移至&#x200B;**[!UICONTROL 檢視]**&#x200B;頁面。\
-   如需檢視的詳細資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中的[管理檢視頁面上的專案。
+   如需檢視的詳細資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中的管理檢視頁面上的專案。
 
 1. 按一下[!UICONTROL 檢視]按鈕(1)
 1. 從下拉式選單中選取您要編輯的檢視。\
@@ -301,7 +301,7 @@ ht-degree: 0%
 若要複製自訂檢視：
 
 1. 移至&#x200B;**[!UICONTROL 檢視]**&#x200B;頁面。\
-   如需檢視的詳細資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中的[管理檢視頁面上的專案。
+   如需檢視的詳細資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中的管理檢視頁面上的專案。
 
 1. 按一下&#x200B;**[!UICONTROL 檢視]**&#x200B;按鈕。 (1)
 1. 從清單中選取您的「自訂」檢視。 (2)
@@ -321,7 +321,7 @@ ht-degree: 0%
 若要與其他使用者共用自訂檢視：
 
 1. 移至&#x200B;**[!UICONTROL 檢視]**&#x200B;頁面。\
-   如需檢視的詳細資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中的[管理檢視頁面上的專案。
+   如需檢視的詳細資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中的管理檢視頁面上的專案。
 
 1. 按一下&#x200B;**[!UICONTROL 檢視]**&#x200B;按鈕(1)
 1. 從清單中選取您的自訂檢視(2)
@@ -339,7 +339,7 @@ ht-degree: 0%
 若要將資料從自訂檢視匯出至CSV檔案：
 
 1. 移至&#x200B;**[!UICONTROL 檢視]**&#x200B;頁面。\
-   如需檢視的詳細資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中的[管理檢視頁面上的專案。
+   如需檢視的詳細資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中的管理檢視頁面上的專案。
 
 1. 按一下&#x200B;**[!UICONTROL 檢視]**&#x200B;按鈕。 (1)
 1. 從清單中選取您的「自訂檢視」 。 (2)
@@ -359,7 +359,7 @@ ht-degree: 0%
 您可以輕鬆刪除自訂檢視。 若要這麼做：
 
 1. 移至&#x200B;**[!UICONTROL 檢視]**&#x200B;頁面。\
-   如需檢視的詳細資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中的[管理檢視頁面上的專案。
+   如需檢視的詳細資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中的管理檢視頁面上的專案。
 
 1. 按一下&#x200B;**[!UICONTROL 檢視]**&#x200B;按鈕。
 1. 從清單中選取您的自訂檢視

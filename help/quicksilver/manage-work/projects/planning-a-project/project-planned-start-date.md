@@ -97,7 +97,7 @@ ht-degree: 0%
 
 您可以指定任務的計劃開始日期，也可以讓Workfront根據特定條件決定是否要計算任務開始日期。
 
-如需任務計劃開始日期的相關資訊，請參閱任務計劃開始日期](../../../manage-work/tasks/task-information/task-planned-start-date.md)的[總覽。
+如需任務計劃開始日期的相關資訊，請參閱任務計劃開始日期[&#128279;](../../../manage-work/tasks/task-information/task-planned-start-date.md)的總覽。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

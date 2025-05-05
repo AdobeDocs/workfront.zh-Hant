@@ -162,8 +162,8 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
 
 {{step1-to-requests}}
 
-1. 啟用熒幕右上角的&#x200B;**切換至新的體驗**設定。
-啟用此設定可讓Workfront Planning請求表單出現在Workfront的**請求**&#x200B;區域中。
+1. 啟用熒幕右上角的&#x200B;**切換至新的體驗**&#x200B;設定。
+啟用此設定可讓Workfront Planning請求表單出現在Workfront的&#x200B;**請求**&#x200B;區域中。
 
    >[!TIP]
    >

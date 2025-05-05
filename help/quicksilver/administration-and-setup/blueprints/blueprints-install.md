@@ -91,10 +91,10 @@ ht-degree: 1%
    如需詳細資訊，請參閱[我該在哪裡安裝Blueprint？本文中的](#where-should-i-install-a-blueprint)節。
 1. 在[!UICONTROL 設定]頁面上，您可以選擇執行下列任一項作業：
 
-   * 依原樣安裝Blueprint。 對於不需要任何設定的Blueprint型別，這是唯一的選項。 對於需要設定的Blueprint型別，您可以選擇現在安裝Blueprint並於稍後進行設定。 按一下[依原樣安裝] ****。
-   * 在安裝之前設定藍圖，適用於需要設定的Blueprint。 選擇您的設定，然後按一下[安裝Blueprint]。\****
+   * 依原樣安裝Blueprint。 對於不需要任何設定的Blueprint型別，這是唯一的選項。 對於需要設定的Blueprint型別，您可以選擇現在安裝Blueprint並於稍後進行設定。 按一下[依原樣安裝] **&#x200B;**。
+   * 在安裝之前設定藍圖，適用於需要設定的Blueprint。 選擇您的設定，然後按一下[安裝Blueprint]。\**&#x200B;**
 
      如需詳細資訊，請參閱[設定藍圖](../../administration-and-setup/blueprints/configure-template-package.md)。
 安裝完成後，訊息會顯示已成功與Blueprint一起安裝的特定物件（例如角色、專案團隊或群組）清單，以及任何無法安裝的物件。
 
-安裝Blueprint後，可能需要一些其他動作才能完全部署。 如需詳細資訊，請參閱安裝Blueprint](../../administration-and-setup/blueprints/best-next-actions-after-install.md)後要採取的[動作。
+安裝Blueprint後，可能需要一些其他動作才能完全部署。 如需詳細資訊，請參閱安裝Blueprint[&#128279;](../../administration-and-setup/blueprints/best-next-actions-after-install.md)後要採取的動作。

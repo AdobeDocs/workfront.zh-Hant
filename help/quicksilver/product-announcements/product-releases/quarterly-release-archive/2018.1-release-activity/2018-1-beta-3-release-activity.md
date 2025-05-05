@@ -26,7 +26,7 @@ ht-degree: 0%
 
 2018.1 Beta 3版本包含適用於Workfront管理員和其他使用者的增強功能：
 
-管理員的&#x200B;****
+管理員的&#x200B;**&#x200B;**
 
 * [群組管理員改善](#group-administrator-improvements)
 
@@ -221,13 +221,13 @@ HTML5校訂檢視器中的比較模式與舊版校訂檢視器有下列差異：
 
 當您啟用甘特圖中的編輯模式時，您可以變更圖表內的資訊。 在此變更之前，您無法編輯甘特圖中的資訊。 您只能編輯工作清單上的工作資訊。
 
-如需有關編輯甘特圖的詳細資訊，請參閱工作清單甘特圖](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)中的[更新資訊。
+如需有關編輯甘特圖的詳細資訊，請參閱工作清單甘特圖[&#128279;](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)中的更新資訊。
 
 ### 編輯甘特圖時移除前置任務 {#remove-predecessors-when-editing-the-gantt-chart}
 
 使用甘特圖的編輯模式，您現在可以移除專案甘特圖中任務之間的前置任務關係。 在此增強功能之前，您只能在任務清單或任務層級移除前置任務關係。
 
-如需有關編輯甘特圖的詳細資訊，請參閱工作清單甘特圖](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)中的[更新資訊。
+如需有關編輯甘特圖的詳細資訊，請參閱工作清單甘特圖[&#128279;](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)中的更新資訊。
 
 ## 資源規劃工具改善 {#resource-planner-improvements}
 

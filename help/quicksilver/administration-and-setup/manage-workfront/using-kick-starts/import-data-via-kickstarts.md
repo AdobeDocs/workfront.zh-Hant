@@ -53,7 +53,7 @@ Kick-Start是特別格式化的Excel活頁簿，可填入您要匯入Workfront�
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td>[！UICONTROL系統管理員]</td> 
+   <td>[!UICONTROL 系統管理員]</td> 
   </tr> 
  </tbody> 
 </table>

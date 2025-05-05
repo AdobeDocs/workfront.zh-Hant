@@ -34,15 +34,15 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
    <td> <p>新增：標準</p>
-   <p>目前： [！UICONTROL計畫] </p> </td> 
+   <p>目前： [!UICONTROL 計畫] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
-   <td> <p>[！UICONTROL Edit]對投資組合和專案的存取權</p>  </td>
+   <td> <p>[!UICONTROL Edit]對投資組合和專案的存取權</p>  </td>
 </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>投資組合的[！UICONTROL Manage]許可權</p>  </td> 
+   <td> <p>投資組合的[!UICONTROL Manage]許可權</p>  </td> 
   </tr> 
  </tbody> 
 </table>

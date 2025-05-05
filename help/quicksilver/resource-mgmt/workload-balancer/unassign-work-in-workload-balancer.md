@@ -81,4 +81,4 @@ ht-degree: 2%
 
    如果專案符合該區域的篩選條件，且未指派給任何其他使用者，則會顯示在「未指派的工作」區域中；如果專案指派給其他使用者，則會顯示在使用者區域中。
 
-   如需有關在工作負載平衡器中篩選資訊的資訊，請參閱在工作負載平衡器](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)中的篩選資訊[。
+   如需有關在工作負載平衡器中篩選資訊的資訊，請參閱在工作負載平衡器[&#128279;](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)中的篩選資訊。

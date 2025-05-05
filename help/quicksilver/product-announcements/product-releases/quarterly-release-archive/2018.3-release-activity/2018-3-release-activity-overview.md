@@ -58,7 +58,7 @@ ht-degree: 0%
 * [匯出資源規劃工具中指定期間的資料](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-2-release-activity.md#export-data-for-a-given-period-in-the-resource-planner)
 * 當使用者過度分配時，[每日總計現在會以紅色顯示](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-2-release-activity.md#daily-totals-now-display-in-red-when-the-user-is-overallocated)
 * 最小化時，[排程時間表上會隱藏任務和問題](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-2-release-activity.md#tasks-and-issues-are-hidden-on-the-scheduling-timeline-when-minimized)
-* 匯出資源規劃工具](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-1-release-activity.md#improvements-when-exporting-the-role-and-project-views-of-the-resource-planner)的角色和專案檢視時進行[改進
+* 匯出資源規劃工具[&#128279;](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-1-release-activity.md#improvements-when-exporting-the-role-and-project-views-of-the-resource-planner)的角色和專案檢視時進行改進
 * [使用率報告：從新資源預算區域填入預算時數](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-5-release-activity.md#utilization-report-populates-budgeted-hours)
 * [使用率報表：依使用者檢視專案的預算時數](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-5-release-activity.md#utilization-view-budgeted-hours-by-user)
 
@@ -134,7 +134,7 @@ API版本10現在可在預覽環境中使用。 它將在18.3版本的生產環�
 
 為了提供最佳安全性，Workfront要求所有使用TLS 1.0或較舊版本的整合和網頁流量，都必須升級為使用TLS 1.1或更新版本。 此變更已在預覽環境中生效。
 
-如需詳細資訊，請參閱  在Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md)中需要[TLS 1.2。
+如需詳細資訊，請參閱  在Adobe Workfront[&#128279;](../../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md)中需要TLS 1.2。
 
 ### JSONP支援即將結束 {#jsonp-support-is-ending}
 

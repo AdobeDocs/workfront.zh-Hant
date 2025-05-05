@@ -37,9 +37,9 @@ WIP限制只是視覺上的警告，不會限制您在每一欄中擁有的料�
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
    <td> 
-   <p>新增：[！UICONTROL Contributor]或以上</p> 
+   <p>新增：[!UICONTROL Contributor]或以上</p> 
    <p>或</p>
-   <p>目前： [！UICONTROL Request]或以上</p>
+   <p>目前： [!UICONTROL Request]或以上</p>
    </td> 
   </tr> 
  </tbody> 

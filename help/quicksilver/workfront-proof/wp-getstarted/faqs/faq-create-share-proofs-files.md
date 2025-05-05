@@ -49,7 +49,7 @@ ht-degree: 1%
 
 您可以從靜態檔案、音訊檔案、視訊檔案和URL建立校樣（請參閱）。
 
-若要在帳戶中建立校訂，您必須是具有正確許可權設定檔的使用者（請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[[!UICONTROL 校訂許可權設定檔]）。
+若要在帳戶中建立校訂，您必須是具有正確許可權設定檔的使用者（請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[!UICONTROL 校訂許可權設定檔]）。
 
 如果同時上傳多個檔案，您會建立多個校樣，並使用一封電子郵件將其傳送給相同的稽核者群組。 如果您的組織有[!UICONTROL Enterprise]或[!UICONTROL Unlimited]帳戶，您可以將檔案合併為單一校訂（請參閱[建立多頁校訂](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md)）。
 

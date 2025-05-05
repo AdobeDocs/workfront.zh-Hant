@@ -57,7 +57,7 @@ ht-degree: 0%
    >
    >當您為特定型別的物件設定存取層級設定時，該設定不會影響使用者存取排名較低的物件。 例如，您可以限制使用者刪除其存取層級中的任務，但這不會限制他們刪除排名低於任務的問題。如需有關物件階層的詳細資訊，請參閱[瞭解Adobe Workfront中的物件](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)一文中的[相互依存性和物件階層](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects)一節。
 
-1. （選擇性）若要限制從較高等級物件繼承之任務的許可權，請按一下[設定其他限制] **，然後選取[從專案、任務、問題等繼承檔案存取權]**。****
+1. （選擇性）若要限制從較高等級物件繼承之任務的許可權，請按一下[設定其他限制] **，然後選取[從專案、任務、問題等繼承檔案存取權]**。**&#x200B;**
 
 1. （選擇性）若要針對您正在處理的存取層級中的其他物件與區域設定存取設定，請繼續[設定Adobe Workfront存取權](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)中列出的文章之一，例如[授予財務資料的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)。
 1. 完成時，按一下&#x200B;**儲存**。

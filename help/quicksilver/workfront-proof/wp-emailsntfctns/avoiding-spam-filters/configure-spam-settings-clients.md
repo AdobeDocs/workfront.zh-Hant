@@ -43,7 +43,7 @@ ht-degree: 0%
 1. 按一下對話方塊下方的&#x200B;**[!UICONTROL 新增]**。 此地址已新增至您的連絡人清單。
 1. 針對第二個&quot;[!UICONTROL from]&quot;位址，重複步驟2-4。
 
-或者，若要為兩個[!DNL Workfront Proof] &quot;[!UICONTROL  from]&quot;地址中的每一個建立電子郵件篩選：
+或者，若要為兩個[!DNL Workfront Proof] &quot;[!UICONTROL &#x200B; from]&quot;地址中的每一個建立電子郵件篩選：
 
 1. 按一下任何Gmail頁面頂端的&#x200B;**[!UICONTROL 搜尋]**&#x200B;按鈕旁的&#x200B;**[!UICONTROL 建立篩選器]**。
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 1. 從&#x200B;**[!UICONTROL 選擇動作]**&#x200B;清單中，選取&#x200B;**[!UICONTROL 永遠不要傳送給垃圾訊息]**。
 
 1. 按一下&#x200B;**[!UICONTROL 建立篩選器]**&#x200B;按鈕。 篩選器已新增至您在[!UICONTROL 設定]頁面上的篩選器清單中。
-1. 針對第二個「[!UICONTROL 來自]」位址，按一下[設定]頁面底部的[建立篩選器&#x200B;]**]並重複步驟2-5。**[!UICONTROL 
+1. 針對第二個「[!UICONTROL 來自]」位址，按一下[設定]頁面底部的[建立篩選器&#x200B;]&#x200B;**並重複步驟2-5。**
 
 ### 針對現有[!DNL Workfront Proof]電子郵件
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 1. 按一下任何Gmail頁面頂端的[!UICONTROL 搜尋]按鈕旁的&#x200B;**[!UICONTROL 建立篩選器]**。
 1. 按一下[!UICONTROL 建立篩選器]對話方塊底部的&#x200B;**[!UICONTROL 顯示目前的篩選器]**。 現有的篩選器會依欄位（寄件者）以及名稱或地址列在「設定」頁面上。
-1. 如果現有[!DNL Workfront Proof]位址]篩選器的[!UICONTROL 執行此動作是[!UICONTROL 刪除它]，請按一下&#x200B;**[!UICONTROL 編輯]**。
+1. 如果現有[!DNL Workfront Proof]位址篩選器的執行此動作是[!UICONTROL 刪除它]，請按一下&#x200B;**[!UICONTROL 編輯]**。
 1. 按一下&#x200B;**[!UICONTROL 下一步]**&#x200B;按鈕。
 1. 取消選取&#x200B;**[!UICONTROL 刪除它]**&#x200B;選項，並選取&#x200B;**[!UICONTROL 永遠不要傳送給垃圾訊息]**。
 
@@ -82,7 +82,7 @@ ht-degree: 0%
 在本節中：
 
 * 將兩個[!DNL Workfront Proof] &quot;[!UICONTROL from]&quot;位址新增至[!DNL Outlook]中的[!UICONTROL 安全寄件者]清單
-* 從[!UICONTROL 垃圾郵件]資料夾中移除任何現有的[!DNL Workfront Proof]封電子郵件，並從[!UICONTROL 封鎖的寄件者]清單中移除任何]位址中的[!UICONTROL 封電子郵件
+* 從[!UICONTROL 垃圾郵件]資料夾中移除任何現有的[!DNL Workfront Proof]封電子郵件，並從[!UICONTROL 封鎖的寄件者]清單中移除任何位址中的封電子郵件
 
 ### 針對新[!DNL Workfront Proof]封電子郵件
 
@@ -162,13 +162,13 @@ ht-degree: 0%
 
 ### 針對新[!DNL Workfront Proof]封電子郵件
 
-若要為每個[!DNL Workfront Proof] &quot;[!UICONTROL  from]&quot;位址在[!DNL Yahoo Mail]中建立新的篩選器：
+若要為每個[!DNL Workfront Proof] &quot;[!UICONTROL &#x200B; from]&quot;位址在[!DNL Yahoo Mail]中建立新的篩選器：
 
 1. 按一下[郵件]頁面右上角的&#x200B;**[!UICONTROL 選項]**。
 1. 按一下&#x200B;**[!UICONTROL 其他選項]**。
 1. 按一下頁面左側的&#x200B;**[!UICONTROL 篩選器]**。
 1. 按一下&#x200B;**[!UICONTROL 建立或編輯篩選器]**。
-1. 按一下[篩選器]頁面上的[新增]。****
+1. 按一下[篩選器]頁面上的[新增]。**&#x200B;**
 1. 為篩選器命名。
 1. 針對[!UICONTROL From標頭]規則，選取&#x200B;**[!UICONTROL 包含]**&#x200B;選項，然後複製並貼上第一個「[!UICONTROL from]」位址或只是網域名稱（@符號之後的其餘名稱）。
 1. 按一下&#x200B;**[!UICONTROL 選擇資料夾]**&#x200B;並選取&#x200B;**[!UICONTROL 收件匣]**。
@@ -184,7 +184,7 @@ ht-degree: 0%
 1. 如果資料夾中有任何[!DNL Workfront Proof]電子郵件，請選取每封電子郵件並按一下&#x200B;**[!UICONTROL 非垃圾郵件]**&#x200B;按鈕。
 1. 您現在會在收件匣中找到這些電子郵件。
 
-若要從封鎖的位址清單移除任何[!DNL Workfront Proof]個]位址中的[!UICONTROL ：
+若要從封鎖的位址清單移除任何[!DNL Workfront Proof]個位址中的：
 
 1. 按一下[郵件]頁面右上角的&#x200B;**[!UICONTROL 選項]**。
 1. 按一下&#x200B;**[!UICONTROL 其他選項]**。
@@ -218,7 +218,7 @@ ht-degree: 0%
 1. 如果資料夾中有任何[!DNL Workfront Proof]電子郵件，請一次開啟一個電子郵件，然後按一下&#x200B;**[!UICONTROL 這不是垃圾訊息]**&#x200B;按鈕。
 1. 您現在會在收件匣中找到這[!DNL Workfront Proof]封電子郵件。
 
-若要檢查[!DNL Aol] [!UICONTROL 垃圾訊息]篩選器中是否封鎖任何[!DNL Workfront Proof] ]的[!UICONTROL 位址：
+若要檢查[!DNL Aol] [!UICONTROL 垃圾訊息]篩選器中是否封鎖任何[!DNL Workfront Proof] 的位址：
 
 1. 移至&#x200B;**[!UICONTROL [!DNL Aol]關鍵字：郵件控制]**&#x200B;以顯示[!UICONTROL 垃圾郵件設定]頁面。
 

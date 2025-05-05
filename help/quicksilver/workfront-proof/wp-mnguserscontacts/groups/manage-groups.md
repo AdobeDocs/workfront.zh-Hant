@@ -66,10 +66,10 @@ ht-degree: 0%
 
 ## 篩選群組
 
-1. 按一下欄標題最右邊的&#x200B;**[!UICONTROL 篩選器]**圖示，以顯示欄標題下方的篩選選項。
+1. 按一下欄標題最右邊的&#x200B;**[!UICONTROL 篩選器]**&#x200B;圖示，以顯示欄標題下方的篩選選項。
    ![Group_page-Filter_icon_and_options.png](assets/group-page-filter-icon-and-options-350x134.png)
 
-1. 從下拉式功能表中選取[!UICONTROL 篩選選項]，並輸入每個欄標題下方的篩選方塊，然後再次按一下&#x200B;**[!UICONTROL 篩選]**圖示以套用選項。
+1. 從下拉式功能表中選取[!UICONTROL 篩選選項]，並輸入每個欄標題下方的篩選方塊，然後再次按一下&#x200B;**[!UICONTROL 篩選]**&#x200B;圖示以套用選項。
 或\
    選取「群組」名稱中的第一個字母。
    ![Groups_page-filtering_by_letter.png](assets/groups-page-filtering-by-letter-350x245.png)
@@ -101,7 +101,7 @@ ht-degree: 0%
 1. 按一下左側導覽面板中的&#x200B;**[!UICONTROL 連絡人]**，即可移至&#x200B;**[!UICONTROL 連絡人]**&#x200B;頁面。
 
 1. 選取您要新增至群組的連絡人姓名旁邊的核取方塊。
-1. 按一下&#x200B;**[!UICONTROL 新增至群組]**按鈕。
+1. 按一下&#x200B;**[!UICONTROL 新增至群組]**&#x200B;按鈕。
    ![新增至群組](assets/screenshot-2018-04-06-15-27-17.png)
 **[!UICONTROL 新增至群組]**&#x200B;對話方塊就會顯示。
 

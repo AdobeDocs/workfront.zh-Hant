@@ -86,7 +86,7 @@ ht-degree: 0%
 1. 按一下&#x200B;**報表設定**。
 
 1. 在&#x200B;**使用：**&#x200B;的存取許可權執行此報告欄位中，開始輸入您希望報告顯示為的使用者名稱，然後在清單中看到報告時選取它。\
-   以](assets/unshimmed-access-rights-of.png)的存取許可權執行![
+   以![&#128279;](assets/unshimmed-access-rights-of.png)的存取許可權執行
 
    >[!NOTE]
    >

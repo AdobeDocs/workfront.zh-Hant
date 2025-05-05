@@ -32,7 +32,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->在將校訂新增至[!DNL Basecamp Classic]之前，您必須確保已啟用您的[!DNL Basecamp]整合，且已在您的個人設定中選擇相關的[!DNL Basecamp]帳戶（因為您可以整合一個以上的[！DNL [!DNL Basecamp]]帳戶，但一次只能將校訂新增至一個[!DNL Basecamp]帳戶）。 如需有關您設定的資訊，請參閱[個人設定。](https://support.workfront.com/hc/en-us/sections/115000921168-Personal-settings)
+>在將校訂新增至[!DNL Basecamp Classic]之前，您必須確保已啟用您的[!DNL Basecamp]整合，且已在您的個人設定中選擇相關的[!DNL Basecamp]帳戶（因為您可以整合一個以上的[!DNL [!DNL Basecamp]]帳戶，但一次只能將校訂新增至一個[!DNL Basecamp]帳戶）。 如需有關您設定的資訊，請參閱[個人設定。](https://support.workfront.com/hc/en-us/sections/115000921168-Personal-settings)
 
 1. 建立校訂，如[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)中產生校訂中所述。
 1. 如果您要以電子郵件通知檢閱者，請確定已選取&#x200B;**[!UICONTROL 以郵件通知人員]**。\

@@ -26,7 +26,7 @@ ht-degree: 0%
 
 2017.3 Beta最終版本包含適用於Workfront管理員和其他使用者的增強功能：
 
-管理員的&#x200B;****
+管理員的&#x200B;**&#x200B;**
 
 * [在核准設定區域中重新呼叫要求的新設定](#new-configuration-for-recalling-requests-in-the-approval-settings-area)
 * [設定預設校訂角色](#configure-default-proof-roles)
@@ -141,7 +141,7 @@ Workfront中的Scrum和Kanban敏捷方法有以下差異：
 
 如需有關使用待處理專案問題的資訊，請參閱  [管理敏捷待處理專案](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)。
 
-如需啟用問題以供敏捷Scrum團隊待處理專案使用的相關資訊，請參閱  [設定在[設定Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)中將工作專案新增到疊代](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5)時如何套用日期。
+如需啟用問題以供敏捷Scrum團隊待處理專案使用的相關資訊，請參閱  [&#128279;](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5)設定在[設定Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)中將工作專案新增到疊代時如何套用日期。
 
 ## 在Scrum敏捷故事板上包含問題 {#include-issues-on-the-scrum-agile-story-board}
 

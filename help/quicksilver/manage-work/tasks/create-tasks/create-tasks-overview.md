@@ -86,7 +86,7 @@ ht-degree: 0%
 * 當您將任務從一個專案複製到另一個專案並且目標專案具有不同的任務預設設定時，複製的任務會保留原始專案的預設設定，除非在複製過程中清除這些設定。
 * 當您在相同專案上複製任務時，自訂表單和核准流程會轉移到複製任務。
 
-  如需有關複製和複製任務的資訊，請參閱[[複製和複製任務](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)。
+  如需有關複製和複製任務的資訊，請參閱[&#128279;](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) [複製和複製任務](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)。
 
 * 當您將任務移動到另一個專案時，預設任務設定將儲存在原始專案的任務上，無論新專案上的任務預設設定如何。
 

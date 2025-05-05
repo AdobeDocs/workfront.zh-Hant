@@ -62,7 +62,7 @@ ht-degree: 0%
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">現在提供前12個月的校訂/檔案決定</a></p><p>[！BADGE In Production ]{type=Informative}</p><p>新授權和舊授權型別的「使用者決策」報告現在會顯示當月以及前12個月的決策數。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">現在提供前12個月的校訂/檔案決定</a></p><p>[!BADGE In Production &#x200B;]{type=Informative}</p><p>新授權和舊授權型別的「使用者決策」報告現在會顯示當月以及前12個月的決策數。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
@@ -99,7 +99,7 @@ ht-degree: 0%
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">建立展示板時，動態展示板封存完成的卡片</a></p><p>[！BADGE In Production ]{type=Informative}</p><p>建立動態展示板時，您可以選擇將已完成的任務和問題包含在展示板上。 對於具有大量已完成任務和問題的專案，動態展示板可能有效能問題。 現在，當您建立動態展示板並選擇包含已完成的工作時，任務和問題將作為封存卡片帶入展示板。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">建立展示板時，動態展示板封存完成的卡片</a></p><p>[!BADGE In Production &#x200B;]{type=Informative}</p><p>建立動態展示板時，您可以選擇將已完成的任務和問題包含在展示板上。 對於具有大量已完成任務和問題的專案，動態展示板可能有效能問題。 現在，當您建立動態展示板並選擇包含已完成的工作時，任務和問題將作為封存卡片帶入展示板。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
@@ -134,7 +134,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">已更新檔案核准的狀態</a></p><p>[！BADGE In Production ]{type=Informative}</p><p>為了更清楚的檔案核准狀態，我們已更新可用的檔案狀態核准。 現在，核准狀態會說明標籤為稽核完成的稽核者，以及只有稽核者但沒有核准者的情況。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">已更新檔案核准的狀態</a></p><p>[!BADGE In Production &#x200B;]{type=Informative}</p><p>為了更清楚的檔案核准狀態，我們已更新可用的檔案狀態核准。 現在，核准狀態會說明標籤為稽核完成的稽核者，以及只有稽核者但沒有核准者的情況。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
@@ -153,7 +153,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">將評論標示為完成</a></p><p>[！BADGE In Production ]{type=Informative}</p><p>為了更清楚說明檔案已檢閱並準備好進入下一個核准階段時，我們已建立新的<strong>完成我的檢閱</strong>按鈕。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">將評論標示為完成</a></p><p>[!BADGE In Production &#x200B;]{type=Informative}</p><p>為了更清楚說明檔案已檢閱並準備好進入下一個核准階段時，我們已建立新的<strong>完成我的檢閱</strong>按鈕。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
@@ -172,7 +172,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">檔案檢閱和核准狀態會顯示在檔案標題</a>中</p><p>[！BADGE In Production ]{type=Informative}</p><p>為了讓檢閱和核准程式更透明，我們已將狀態新增到「檔案詳細資訊」頁面的頁首。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">檔案檢閱和核准狀態會顯示在檔案標題</a>中</p><p>[!BADGE In Production &#x200B;]{type=Informative}</p><p>為了讓檢閱和核准程式更透明，我們已將狀態新增到「檔案詳細資訊」頁面的頁首。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
@@ -210,7 +210,7 @@ ht-degree: 0%
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">有新的擱置核准Widget可用</a></p><p>[！BADGE In Production ]{type=Informative}</p><p>為了讓您更輕鬆地檢視您擁有的專案上的核准和稽核狀態，我們已將一個新的未決核准Widget新增到首頁。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">有新的擱置核准Widget可用</a></p><p>[!BADGE In Production &#x200B;]{type=Informative}</p><p>為了讓您更輕鬆地檢視您擁有的專案上的核准和稽核狀態，我們已將一個新的未決核准Widget新增到首頁。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
@@ -229,7 +229,7 @@ ht-degree: 0%
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">使用配置範本的新首頁的管理員控制項</a></p><p>[！BADGE In Production ]{type=Informative}</p><p>管理員現在可以使用版面配置範本來自訂使用者的新首頁。 自訂選項包括選取必要的Widget及其位置、選擇背景，以及用於選擇可用篩選器和群組（以及設定預設值）的Widget特定選項。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">使用配置範本的新首頁的管理員控制項</a></p><p>[!BADGE In Production &#x200B;]{type=Informative}</p><p>管理員現在可以使用版面配置範本來自訂使用者的新首頁。 自訂選項包括選取必要的Widget及其位置、選擇背景，以及用於選擇可用篩選器和群組（以及設定預設值）的Widget特定選項。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
@@ -247,7 +247,7 @@ ht-degree: 0%
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">我的工作快速動作按鈕已變更為僅顯示在滑鼠上方</a></p><p>[！BADGE In Production ]{type=Informative}</p><p>為了提高效能，現在只有當工作專案以滑鼠懸停在工作專案上時，才會顯示我的工作Widget中可用的快速動作按鈕。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">我的工作快速動作按鈕已變更為僅顯示在滑鼠上方</a></p><p>[!BADGE In Production &#x200B;]{type=Informative}</p><p>為了提高效能，現在只有當工作專案以滑鼠懸停在工作專案上時，才會顯示我的工作Widget中可用的快速動作按鈕。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
@@ -281,7 +281,7 @@ ht-degree: 0%
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Experience Manager Assets Essentials中的對應中繼資料現在使用<code>xcm:keywords</code>，而非<code>dc:subject</code></a></p><p>[！BADGE In Production ]{type=Informative}</p><p>我們已更新Experience Manager Assets Essentials整合，以符合Experience Manager Assets as a Cloud Service整合中的體驗。 現在，將多個單行文字欄位對應到Experience Manager Assets中的單一欄位時，兩個服務都會使用<code>xcm:keywords</code>欄位。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Experience Manager Assets Essentials中的對應中繼資料現在使用<code>xcm:keywords</code>，而非<code>dc:subject</code></a></p><p>[!BADGE In Production &#x200B;]{type=Informative}</p><p>我們已更新Experience Manager Assets Essentials整合，以符合Experience Manager Assets as a Cloud Service整合中的體驗。 現在，將多個單行文字欄位對應到Experience Manager Assets中的單一欄位時，兩個服務都會使用<code>xcm:keywords</code>欄位。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
@@ -298,7 +298,7 @@ ht-degree: 0%
                     </td>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager整合中現在提供自動提示欄位</a></p><p>[！BADGE In Production ]{type=Informative}</p><p>為了更方便在Workfront和Adobe Experience Manager之間連結欄位，我們在中繼資料對應中新增了預先輸入欄位的支援。 現在，您可以將預先輸入欄位對應至Adobe Experience Manager中的對應欄位。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager整合中現在提供自動提示欄位</a></p><p>[!BADGE In Production &#x200B;]{type=Informative}</p><p>為了更方便在Workfront和Adobe Experience Manager之間連結欄位，我們在中繼資料對應中新增了預先輸入欄位的支援。 現在，您可以將預先輸入欄位對應至Adobe Experience Manager中的對應欄位。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
@@ -313,7 +313,7 @@ ht-degree: 0%
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">在Adobe Experience Manager中自動發佈資產</a></p><p>[！BADGE In Production ]{type=Informative}</p><p>我們已新增另一個工作流程至Adobe Experience Manager整合。 現在，您可以將資產設定為在傳送至Adobe Experience Manager時自動發佈。 整合可設定為發佈至Adobe Experience Manager發佈服務或Adobe Experience Manager Brand Portal。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">在Adobe Experience Manager中自動發佈資產</a></p><p>[!BADGE In Production &#x200B;]{type=Informative}</p><p>我們已新增另一個工作流程至Adobe Experience Manager整合。 現在，您可以將資產設定為在傳送至Adobe Experience Manager時自動發佈。 整合可設定為發佈至Adobe Experience Manager發佈服務或Adobe Experience Manager Brand Portal。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
@@ -349,7 +349,7 @@ ht-degree: 0%
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">更多相關的智慧指派</a></p>
-                        [！BADGE In Production for Fast Release ]{type=Positive}<p>我們已變更Workfront用來計算及建議智慧型任務指派的演演算法。 新演演算法適用於Workfront中指派任務的以下區域：任務清單、任務標題中的「工作」區域、「首頁」和「摘要」面板。</p>
+                        [!BADGE In Production for Fast Release &#x200B;]{type=Positive}<p>我們已變更Workfront用來計算及建議智慧型任務指派的演演算法。 新演演算法適用於Workfront中指派任務的以下區域：任務清單、任務標題中的「工作」區域、「首頁」和「摘要」面板。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
@@ -384,7 +384,7 @@ ht-degree: 0%
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">在更新區段的註解中拖放影像</a></p><p>[！BADGE In Production ]{type=Informative}</p><p>若要增強註解的內容，您現在可以快速將影像拖放到註解中，或回覆物件的「更新」區段。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">在更新區段的註解中拖放影像</a></p><p>[!BADGE In Production &#x200B;]{type=Informative}</p><p>若要增強註解的內容，您現在可以快速將影像拖放到註解中，或回覆物件的「更新」區段。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
@@ -402,7 +402,7 @@ ht-degree: 0%
                     </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新的評論體驗會擷取專案、任務、問題和檔案的所有資訊</a></p><p>[！BADGE In Production ]{type=Informative}</p><p>專案、任務、問題和檔案會顯示自Workfront執行個體開始以來的新評論體驗區域中的所有更新。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新的評論體驗會擷取專案、任務、問題和檔案的所有資訊</a></p><p>[!BADGE In Production &#x200B;]{type=Informative}</p><p>專案、任務、問題和檔案會顯示自Workfront執行個體開始以來的新評論體驗區域中的所有更新。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
@@ -417,7 +417,7 @@ ht-degree: 0%
                     </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">在更新區段中搜尋評論或使用者</a></p><p>[！BADGE In Production ]{type=Informative}</p><p>若要在物件的「更新」區段中快速尋找資訊，您現在可以從註解搜尋關鍵字，或搜尋與註解相關聯的任何使用者。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">在更新區段中搜尋評論或使用者</a></p><p>[!BADGE In Production &#x200B;]{type=Informative}</p><p>若要在物件的「更新」區段中快速尋找資訊，您現在可以從註解搜尋關鍵字，或搜尋與註解相關聯的任何使用者。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
@@ -435,7 +435,7 @@ ht-degree: 0%
                     </tr>
                     <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">在更新區段的註解中複製並貼上影像</a></p><p>[！BADGE In Production ]{type=Informative}</p><p>若要提供訊息內容的前後關聯，您現在可以從電腦複製影像，然後貼到新的更新或回覆中，以快速將影像附加至註解。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">在更新區段的註解中複製並貼上影像</a></p><p>[!BADGE In Production &#x200B;]{type=Informative}</p><p>若要提供訊息內容的前後關聯，您現在可以從電腦複製影像，然後貼到新的更新或回覆中，以快速將影像附加至註解。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>

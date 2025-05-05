@@ -88,7 +88,7 @@ ht-degree: 2%
    * 指定問題之任何父系物件的許可權：專案、方案或投資組合。 問題會繼承其父物件的許可權。 如需有關檢視物件繼承許可權的資訊，請參閱[檢視物件的繼承許可權](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)。
    * 在用來建立問題所在專案的範本上，將實體新增到專案共用。 如需從範本共用專案的詳細資訊，請參閱[共用範本](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)。
 
-   * 指定編輯專案時專案中所有問題的許可權。 如需有關根據使用者對專案的許可權來管理專案上問題或請求的存取許可權的資訊，請參閱文章[編輯專案](../../manage-work/projects/manage-projects/edit-projects.md)中的[](../../manage-work/projects/manage-projects/edit-projects.md#access)區段。
+   * 指定編輯專案時專案中所有問題的許可權。 如需有關根據使用者對專案的許可權來管理專案上問題或請求的存取許可權的資訊，請參閱文章[編輯專案](../../manage-work/projects/manage-projects/edit-projects.md)中的[&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access)區段。
 
      >[!TIP]
      >

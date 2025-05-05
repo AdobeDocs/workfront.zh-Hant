@@ -19,7 +19,7 @@ ht-degree: 1%
 
 您可以使用Adobe Workfront工作負載平衡器大量指派資源給多個任務和問題。
 
-如需使用工作負載平衡器指派工作給使用者的一般資訊，請參閱在工作負載平衡器](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)中指派工作的總覽。[
+如需使用工作負載平衡器指派工作給使用者的一般資訊，請參閱在工作負載平衡器[&#128279;](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)中指派工作的總覽。
 
 ## 存取需求
 
@@ -119,7 +119,7 @@ ht-degree: 1%
 
    或
 
-   按一下「大量任務」面板右上角的「全部清除&#x200B;****」以移除所有選取專案。
+   按一下「大量任務」面板右上角的「全部清除&#x200B;**&#x200B;**」以移除所有選取專案。
 
 1. 選取下列其中一個選項，然後繼續下列步驟：
 

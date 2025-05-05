@@ -44,7 +44,7 @@ ht-degree: 0%
 
 1. （視條件而定）執行下列任一項作業：
 
-   * 如果您要將校訂新增至資料夾，請依照 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)中[[!UICONTROL 管理校訂詳細資訊]中的說明，前往[!UICONTROL 校訂詳細資訊]頁面
+   * 如果您要將校訂新增至資料夾，請依照 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)中[!UICONTROL 管理校訂詳細資訊]中的說明，前往[!UICONTROL 校訂詳細資訊]頁面
    * 如果您要將檔案新增至資料夾，請依照[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md)中管理檔案中的說明，移至[檔案詳細資料]頁面。
 
 1. 按一下檔案或校樣所在的&#x200B;**資料夾**&#x200B;的名稱，然後按一下您要移動它的資料夾名稱。\
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 1. （視條件而定）執行下列任一項作業：
 
-   * 如果您正在將校訂移出資料夾，請依照 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)中[[!UICONTROL 管理校訂詳細資訊]的說明，前往[!UICONTROL 校訂詳細資訊]頁面
+   * 如果您正在將校訂移出資料夾，請依照 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)中[!UICONTROL 管理校訂詳細資訊]的說明，前往[!UICONTROL 校訂詳細資訊]頁面
 
      或\
       如果您要將檔案移出資料夾，請依照[管理 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md)中的檔案中的說明，移至「檔案詳細資料」頁面。
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果您不是檔案的建立者或擁有者，則可用的選項將取決於您在 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的使用者[校訂許可權設定檔。
+>如果您不是檔案的建立者或擁有者，則可用的選項將取決於您在 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的使用者校訂許可權設定檔。
 
 1. 在左側導覽功能表的「**[!UICONTROL 資料夾]**」索引標籤上，按一下任何資料夾以開啟「[!UICONTROL 資料夾詳細資料]」頁面。
 1. 如果資料夾僅包含封存的校樣，頁面頂端會以黃色顯示訊息。 如果您按一下郵件中的連結，資料夾檢視會變更為[!UICONTROL 已封存的校樣]檢視。
@@ -102,11 +102,11 @@ ht-degree: 0%
    * **[!UICONTROL 刪除]**：從[!DNL Workfront]校訂中刪除檔案。
 
 1. （選擇性）在&#x200B;**[!UICONTROL 與]**&#x200B;共用區段中，若要傳送提醒給校訂上的檢閱者，請按一下使用者名稱右側的&#x200B;**[!UICONTROL 更多]**&#x200B;圖示，然後按一下&#x200B;**[!UICONTROL 訊息]**。\
-   您可以按一下[移除&#x200B;****]來取消共用資料夾給該人員。\
+   您可以按一下[移除&#x200B;**&#x200B;**]來取消共用資料夾給該人員。\
    資料夾的所有者和建立者一律會出現在此清單中，而且無法移除。 如果使用者接管資料夾的所有權，資料夾會自動出現且無法移除。\
    您可以與個別使用者和合作夥伴公司共用資料夾。 如果資料夾已與合作夥伴公司共用，您可以按一下將游標停留在資料列上時顯示的[!UICONTROL 資訊]圖示，以檢視完整的收件者清單。 如需詳細資訊，請參閱[夥伴帳戶。](https://support.workfront.com/hc/en-us/sections/115000912107-Partner-accounts)
 
-1. （選擇性）編輯管理員對私人資料夾的許可權，方法是按一下該人在資料夾&#x200B;]**上**[!UICONTROL &#x200B;允許下的行，然後指定您是否希望該人能夠建立、編輯和刪除該資料夾中的專案。 **注意**&#x200B;此選項僅適用於與資料夾擁有者來自相同帳戶，且已新增至私人資料夾的管理員。 主管、管理員和帳單管理員擁有對帳戶中所有資料夾的編輯許可權，而觀察者無法建立任何專案。 如需有關許可權的資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔。
+1. （選擇性）編輯管理員對私人資料夾的許可權，方法是按一下該人在資料夾&#x200B;&rbrack;**上**&#x200B;[[!UICONTROL &#x200B;允許下的行，然後指定您是否希望該人能夠建立、編輯和刪除該資料夾中的專案。 **注意**&#x200B;此選項僅適用於與資料夾擁有者來自相同帳戶，且已新增至私人資料夾的管理員。 主管、管理員和帳單管理員擁有對帳戶中所有資料夾的編輯許可權，而觀察者無法建立任何專案。 如需有關許可權的資訊，請參閱 [!DNL Workfront Proof]]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的&lbrack;校訂許可權設定檔。
 
 1. （選擇性）按一下「**[!UICONTROL 活動]**」，以時間順序檢視資料夾中執行的所有動作。
 1. （選擇性）按一下&#x200B;**[!UICONTROL 訊息]**&#x200B;區段以檢視已傳送給資料夾上使用者的訊息。\

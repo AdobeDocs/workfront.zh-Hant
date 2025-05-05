@@ -41,9 +41,9 @@ ht-degree: 1%
 
 如需如何尋找已提交要求的詳細資訊，請參閱[尋找已提交的要求](../../../manage-work/requests/create-requests/locate-submitted-requests.md)。
 
-此功能現已包含在Workfront One上的新Workfront Experience](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request)學習路徑的[Collaborator基礎知識中。
+此功能現已包含在Workfront One上的新Workfront Experience[&#128279;](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request)學習路徑的Collaborator基礎知識中。
 
-此功能現已包含在Workfront One上新Workfront體驗](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/request-queues/understand-request-queues)學習路徑的[要求中。
+此功能現已包含在Workfront One上新Workfront體驗[&#128279;](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/request-queues/understand-request-queues)學習路徑的要求中。
 
 ## 從新請求頁面移除的欄位
 

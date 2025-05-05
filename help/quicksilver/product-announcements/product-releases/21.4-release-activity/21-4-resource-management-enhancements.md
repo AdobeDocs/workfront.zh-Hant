@@ -25,7 +25,7 @@ ht-degree: 0%
 
 在此增強功能之前，您只能透過按一下任務或問題的更多選單，然後使用指派選項來指派專案。 現在，分配給使用者的計畫時數在拖曳任務時即時更新。
 
-有關在工作負載平衡器中指派工作專案的資訊，請參閱在工作負載平衡器中指派工作的概述[](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)。
+有關在工作負載平衡器中指派工作專案的資訊，請參閱在工作負載平衡器中指派工作的概述[&#128279;](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)。
 
 ## 工作負載平衡器的新預設選項
 

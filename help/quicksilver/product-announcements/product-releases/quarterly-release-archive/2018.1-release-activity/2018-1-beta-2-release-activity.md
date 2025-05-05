@@ -26,7 +26,7 @@ ht-degree: 2%
 
 2018.1 Beta 2版本包含適用於Workfront管理員和其他使用者的增強功能：
 
-管理員的&#x200B;****
+管理員的&#x200B;**&#x200B;**
 
 * [使用者和版面配置範本的群組管理](#group-administration-for-users-and-layout-templates)
 

@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->在使用者可以訂閱校訂之前，必須啟用其訂閱設定（請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)中設定校訂設定 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)中的[設定校訂設定一節）。
+>在使用者可以訂閱校訂之前，必須啟用其訂閱設定（請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)中設定校訂設定 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)中的設定校訂設定一節）。
 
 若要訂閱校訂：
 

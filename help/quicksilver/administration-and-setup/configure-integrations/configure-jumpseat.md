@@ -31,11 +31,11 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
-   <td> <p>[！UICONTROL Enterprise] </p> </td> 
+   <td> <p>[!UICONTROL Enterprise] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td>[！UICONTROL計畫]</td> 
+   <td>[!UICONTROL 計畫]</td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
@@ -85,7 +85,7 @@ ht-degree: 4%
 
 https://{mycompanyname}.jumpseat.io
 
->>
+&#x200B;>>
 
 >[!ENDSHADEBOX]
 

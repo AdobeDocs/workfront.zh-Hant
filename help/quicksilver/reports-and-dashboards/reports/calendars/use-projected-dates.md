@@ -45,11 +45,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[！UICONTROL Edit]對[！UICONTROL報告]、[！UICONTROL儀表板]和[！UICONTROL行事曆的存取權</p></td> 
+   <td> <p>[!UICONTROL Edit]對[!UICONTROL 報告]、[!UICONTROL 儀表板]和&lbrack;！UICONTROL行事曆的存取權</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td>[！UICONTROL Manage]對行事曆報表的存取權</td> 
+   <td>[!UICONTROL Manage]對行事曆報表的存取權</td> 
   </tr> 
  </tbody> 
 </table>
@@ -66,7 +66,7 @@ ht-degree: 1%
 
 1. 選取您要新增一組專案的行事曆，按一下[更多]功能表，然後按一下&#x200B;**編輯**。
 或
-按一下**[!UICONTROL +新行事曆]**，輸入專案名稱，然後按一下&#x200B;**[!UICONTROL 新增進階專案]**。
+按一下&#x200B;**[!UICONTROL +新行事曆]**，輸入專案名稱，然後按一下&#x200B;**[!UICONTROL 新增進階專案]**。
 
    >[!NOTE]
    >
@@ -81,33 +81,33 @@ ht-degree: 1%
     <col>
     <tbody>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL命名此專案群組]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 命名此專案群組]</strong></td>
       <td>輸入專案群組的名稱。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL色彩]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 色彩]</strong></td>
       <td>選取專案群組的顏色。 所有專案都會以選取的顏色顯示在行事曆報告中。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL日期欄位]</strong></td>
-      <td><p>選擇<strong>[！UICONTROL預計日期]</strong>。 如需預計日期的詳細資訊，請參閱 </p>
+      <td role="rowheader"><strong>[!UICONTROL 日期欄位]</strong></td>
+      <td><p>選擇<strong>[!UICONTROL 預計日期]</strong>。 如需預計日期的詳細資訊，請參閱 </p>
        <ul>
         <li><a href="../../../manage-work/projects/planning-a-project/project-projected-start-date.md" class="MCXref xref">專案預計開始日期概要</a></li>
         <li><a href="../../../manage-work/projects/planning-a-project/project-projected-completion-date.md" class="MCXref xref">專案、任務和問題的預計完成日期總覽</a><br></li>
        </ul></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL在行事曆上，顯示]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 在行事曆上，顯示]</strong></td>
       <td><p>選擇日期的顯示方式：</p>
        <ul>
-        <li><strong>[！UICONTROL僅開始日期]</strong>：行事曆在單一日期顯示物件。</li>
-        <li><strong>[！UICONTROL結束日期僅限]</strong>：行事曆會在單一日期顯示物件。</li>
-        <li><strong>[！UICONTROL Duration] （開始至結束）</strong>：行事曆顯示物件超過天數。</li>
+        <li><strong>[!UICONTROL 僅開始日期]</strong>：行事曆在單一日期顯示物件。</li>
+        <li><strong>[!UICONTROL 結束日期僅限]</strong>：行事曆會在單一日期顯示物件。</li>
+        <li><strong>[!UICONTROL Duration] （開始至結束）</strong>：行事曆顯示物件超過天數。</li>
        </ul></td>
      </tr>
      <tr data-mc-conditions="">
-      <td role="rowheader"><strong>[！UICONTROL切換至實際日期（可用時）]</strong></td>
-      <td><p>行事曆會在實際日期可用時自動切換到實際日期。 <br>選擇<strong>[！UICONTROL是]</strong>或<strong>[！UICONTROL否]</strong>，在可用時切換到實際日期。 如需實際日期的詳細資訊，請參閱</p>
+      <td role="rowheader"><strong>[!UICONTROL 切換至實際日期（可用時）]</strong></td>
+      <td><p>行事曆會在實際日期可用時自動切換到實際日期。 <br>選擇<strong>[!UICONTROL 是]</strong>或<strong>[!UICONTROL 否]</strong>，在可用時切換到實際日期。 如需實際日期的詳細資訊，請參閱</p>
        <ul>
         <li><a href="../../../manage-work/projects/planning-a-project/project-actual-start-date.md" class="MCXref xref">專案實際開始日期概要 </a></li>
         <li><a href="../../../manage-work/projects/planning-a-project/project-actual-completion-date.md" class="MCXref xref">專案實際完成日期概要 </a></li>

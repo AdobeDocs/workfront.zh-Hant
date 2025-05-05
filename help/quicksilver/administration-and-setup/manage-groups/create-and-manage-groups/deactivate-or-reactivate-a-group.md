@@ -76,7 +76,7 @@ If Callisto adds the <b>Is active</b> checkbox to the Details page for groups yo
 
 1. 按一下群組的名稱以開啟其頁面。
 
-1. 按一下群組名稱旁的[更多]功能表![更多圖示](assets/more-icon.png)，然後按一下[停用] **或[重新啟用]****。**
+1. 按一下群組名稱旁的[更多]功能表![更多圖示](assets/more-icon.png)，然後按一下[停用] **或[重新啟用]**&#x200B;**。**
 
    >[!NOTE]
    >

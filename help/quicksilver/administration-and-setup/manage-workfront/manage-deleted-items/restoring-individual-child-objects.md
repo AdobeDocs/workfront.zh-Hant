@@ -67,7 +67,7 @@ Workfront管理員可以還原每個Workfront執行個體中的專案、工作�
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td>[！UICONTROL系統管理員]</td>
+   <td>[!UICONTROL 系統管理員]</td>
   </tr> 
  </tbody> 
 </table>

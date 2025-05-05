@@ -37,13 +37,13 @@ ht-degree: 1%
    <td> <ul></li>
    <li><p>新增： Ultimate </p></li>
    <p>新的Workfront Select或Workfront Prime計畫無法使用「情境規劃工具」。 </p>
-   <li><p>目前： [！UICONTROL Business]或更高版本</p></ul>
+   <li><p>目前： [!UICONTROL Business]或更高版本</p></ul>
    </td> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 授權*</p> </td> 
    <td> <p>新增：淺色或更高</p> 
-   <p>目前： [！UICONTROL Review]或以上</p> </td> 
+   <p>目前： [!UICONTROL Review]或以上</p> </td> 
   </tr> 
   <tr> 
    <td>產品* </td> 
@@ -55,11 +55,11 @@ ht-degree: 1%
   </tr> 
   <tr data-mc-conditions=""> 
    <td>存取層級 </td> 
-   <td> <p>[！UICONTROL Edit]對的存取權 [!DNL Scenario Planner]</p> </td> 
+   <td> <p>[!UICONTROL Edit]對的存取權 [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>物件許可權 </p> </td> 
-   <td> <p>[！UICONTROL Manage]計畫的許可權</p> <p>如需有關請求對計畫的額外存取權的資訊，請參閱<a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">在[!DNL Scenario Planner]</a>中請求對計畫的存取權。</p> </td> 
+   <td> <p>[!UICONTROL Manage]計畫的許可權</p> <p>如需有關請求對計畫的額外存取權的資訊，請參閱<a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">在[!DNL Scenario Planner]</a>中請求對計畫的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -101,8 +101,8 @@ ht-degree: 1%
  <thead> 
   <tr> 
    <th> <p><strong>動作</strong> </p> </th> 
-   <th> <p><strong>[！UICONTROL管理]</strong> </p> </th> 
-   <th> <p><strong>[！UICONTROL檢視]</strong> </p> </th> 
+   <th> <p><strong>[!UICONTROL 管理]</strong> </p> </th> 
+   <th> <p><strong>[!UICONTROL 檢視]</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -206,11 +206,11 @@ ht-degree: 1%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL檢視]</td> 
+      <td role="rowheader">[!UICONTROL 檢視]</td> 
       <td>您共用計畫的使用者將擁有檢視計畫的許可權。 他們無法編輯計畫、新增方案、案例或發佈案例的相關資訊。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL管理]</td> 
+      <td role="rowheader">[!UICONTROL 管理]</td> 
       <td> <p>您共用計畫的使用者具有管理計畫的許可權，包括編輯資訊、新增方案、情境和發佈計畫。 </p> </td> 
      </tr> 
     </tbody> 

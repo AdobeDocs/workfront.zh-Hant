@@ -29,7 +29,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront]計畫]</a>*</td> 
-   <td> <p>[！UICONTROL Pro]或更高版本</p> </td> 
+   <td> <p>[!UICONTROL Pro]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe [!DNL Workfront]授權總覽</a>*</td> 
@@ -91,7 +91,7 @@ ht-degree: 0%
 
    或
 
-   選取現有工作，然後按一下[編輯]。****
+   選取現有工作，然後按一下[編輯]。**&#x200B;**
 
 1. 指定或更新任何可用於任務的欄位。
 1. 按一下「**[!UICONTROL 指派]**」並將任務指派給在[!DNL Jira]整合中指定為觸發器的使用者、角色或團隊。

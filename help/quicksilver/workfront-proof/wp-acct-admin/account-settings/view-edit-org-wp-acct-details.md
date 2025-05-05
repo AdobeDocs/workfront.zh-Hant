@@ -24,7 +24,7 @@ ht-degree: 0%
 
 1. 按一下[!DNL Workfront Proof]視窗右上角的&#x200B;**[!UICONTROL 設定]**，然後從下拉式功能表中選取&#x200B;**[!UICONTROL 帳戶設定]**。
 
-1. 在出現的[!UICONTROL 帳戶設定]頁面上，確定&#x200B;**[!UICONTROL 詳細資料]**標籤已開啟。
+1. 在出現的[!UICONTROL 帳戶設定]頁面上，確定&#x200B;**[!UICONTROL 詳細資料]**&#x200B;標籤已開啟。
 您可以在此標籤上檢視下列區段：
 
 ## 編輯帳戶詳細資料

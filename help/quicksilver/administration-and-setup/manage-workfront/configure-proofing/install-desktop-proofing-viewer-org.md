@@ -73,7 +73,7 @@ ht-degree: 0%
 
    ![校訂預設值](assets/proof-defaults.png)
 
-1. 按一下[已啟用]及[預設&#x200B;**]，然後按一下[儲存]。******
+1. 按一下[已啟用]及[預設&#x200B;**]，然後按一下[儲存]。**&#x200B;**&#x200B;**
 
 ## 為您的使用者安裝案頭校訂檢視器
 
@@ -88,7 +88,7 @@ ht-degree: 0%
    * 如果您使用預覽環境，請按一下案頭校訂檢視器的[Mac預覽下載](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.19.pkg)。
 
 1. 開啟您剛下載的檔案，開始安裝。
-1. 在出現的安裝方塊中，按一下[繼續]****，然後按一下[安裝]****。
+1. 在出現的安裝方塊中，按一下[繼續]&#x200B;**&#x200B;**，然後按一下[安裝]&#x200B;**&#x200B;**。
 
    ![安裝方塊](assets/install-wf-proof-box.png)
 

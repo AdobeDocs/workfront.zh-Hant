@@ -59,7 +59,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->如果您手動修改欄的寬度，如[暫時修改欄的寬度和順序[修改欄的寬度和順序](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)一節中所述，在您永久修改欄的寬度之後，欄的寬度會根據手動調整大小保留。 ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md#modify-width-and-order-of-columns-temporarily)在此情況下，會覆寫根據下列步驟更新的欄寬。 清除快取或從其他瀏覽器登入後，您可以根據下列步驟中定義的寬度來檢視欄。
+>如果您手動修改欄的寬度，如[&#128279;](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md#modify-width-and-order-of-columns-temporarily)暫時修改欄的寬度和順序[修改欄的寬度和順序](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)一節中所述，在您永久修改欄的寬度之後，欄的寬度會根據手動調整大小保留。 在此情況下，會覆寫根據下列步驟更新的欄寬。 清除快取或從其他瀏覽器登入後，您可以根據下列步驟中定義的寬度來檢視欄。
 >
 >如需在使用「文字模式」介面時自訂欄寬的其他資訊，請參閱Adobe Workfront術語[辭彙表](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)中的「寬度」和「延伸」定義。
 

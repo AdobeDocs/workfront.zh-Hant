@@ -41,13 +41,13 @@ ht-degree: 1%
   <tr>
    <td>[!DNL Adobe Workfront] 授權
    </td>
-   <td><p>目前： [！UICONTROL計畫]</p>
-   <p>新增：[！UICONTROL Standard]</p></td>
+   <td><p>目前： [!UICONTROL 計畫]</p>
+   <p>新增：[!UICONTROL Standard]</p></td>
   </tr>
   <tr>
    <td>[!DNL Experience Manager] 授權
    </td>
-   <td>[！UICONTROL標準]
+   <td>[!UICONTROL 標準]
    </td>
   </tr>
   <tr>

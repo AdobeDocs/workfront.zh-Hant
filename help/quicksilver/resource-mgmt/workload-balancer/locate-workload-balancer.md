@@ -94,7 +94,7 @@ ht-degree: 1%
    * **未指派的工作**：沒有未指派的工作專案。
    * **已指派的工作**：系統中的所有作用中使用者。
 
-     在「已指派的工作」區域顯示使用者時，我們建議使用篩選器。 如需詳細資訊，請參閱工作負載平衡器](../workload-balancer/filter-information-workload-balancer.md)中的[篩選器資訊。
+     在「已指派的工作」區域顯示使用者時，我們建議使用篩選器。 如需詳細資訊，請參閱工作負載平衡器[&#128279;](../workload-balancer/filter-information-workload-balancer.md)中的篩選器資訊。
 
 ### 存取團隊的工作負載平衡器
 

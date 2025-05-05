@@ -29,11 +29,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe[!DNL Workfront]授權</strong></td> 
-   <td> <p>[！UICONTROL計畫] </p> </td> 
+   <td> <p>[!UICONTROL 計畫] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>存取層級設定</strong></td> 
-   <td> <p>[！UICONTROL系統管理員]</p> </td> 
+   <td> <p>[!UICONTROL 系統管理員]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -51,19 +51,19 @@ ht-degree: 1%
    <td><strong>篩選按鈕</strong></td> 
   </tr> 
   <tr> 
-   <td> <p>[！UICONTROL專案] </p> </td> 
+   <td> <p>[!UICONTROL 專案] </p> </td> 
    <td> 
     <ul> 
-     <li> <p>[！UICONTROL我所在的專案]</p> </li> 
-     <li> <p>[！UICONTROL我擁有的專案]</p> </li> 
+     <li> <p>[!UICONTROL 我所在的專案]</p> </li> 
+     <li> <p>[!UICONTROL 我擁有的專案]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td><span>[！UICONTROL時程表]</span> </td> 
+   <td><span>[!UICONTROL 時程表]</span> </td> 
    <td> 
     <ul> 
-     <li> <p><span>[！UICONTROL我的時程表核准]</span> </p> </li> 
-     <li> <p><span>[！UICONTROL我的時程表]</span> </p> </li> 
+     <li> <p><span>[!UICONTROL 我的時程表核准]</span> </p> </li> 
+     <li> <p><span>[!UICONTROL 我的時程表]</span> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -86,7 +86,7 @@ ht-degree: 1%
 
    1. 存取配置範本。
    1. 選取&#x200B;**[!UICONTROL 自訂使用者看到的內容]**&#x200B;下的&#x200B;**[!UICONTROL 清單]**。
-   1. 選取&#x200B;**[!UICONTROL 下的**[!UICONTROL &#x200B;專案&#x200B;]**或**[!UICONTROL &#x200B;時程表&#x200B;]**選取要自訂的清單]**。
+   1. 選取&#x200B;**[!UICONTROL 下的**&#x200B;[!UICONTROL &#x200B;專案&#x200B;]&#x200B;**或**&#x200B;[!UICONTROL &#x200B;時程表&#x200B;]&#x200B;**選取要自訂的清單]**。
    1. 在&#x200B;**[!UICONTROL 篩選器]**&#x200B;區段中，確認已選取&#x200B;**[!UICONTROL 我所在的專案]**、**[!UICONTROL 我擁有的專案]** （針對專案）及&#x200B;**[!UICONTROL 我的時程表核准]**&#x200B;和&#x200B;**[!UICONTROL 我的時程表]** （針對時程表）。
    1. 按一下「**[!UICONTROL 儲存]**」。
 

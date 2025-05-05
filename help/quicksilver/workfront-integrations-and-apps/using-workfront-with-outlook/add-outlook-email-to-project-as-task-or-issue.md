@@ -31,7 +31,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[！UICONTROL Work]， [！UICONTROL計畫]</p> </td> 
+   <td> <p>[!UICONTROL Work]， [!UICONTROL 計畫]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -75,17 +75,17 @@ ht-degree: 0%
 
    <table style="table-layout:auto">
       <tr>
-        <td>[！UICONTROL任務或問題名稱]</td>
+        <td>[!UICONTROL 任務或問題名稱]</td>
         <td>依預設，任務名稱與電子郵件主旨相同。 您可以視需要修改工作名稱。</td>
         <td></td>
       </tr>
       <tr>
-        <td>[！UICONTROL說明]</td>
+        <td>[!UICONTROL 說明]</td>
         <td>預設情況下，說明與電子郵件內文相同。 您可以視需要修改說明。</td>
       </tr>
       <tr>
-        <td>[！UICONTROL附件]</td>
-        <td>任何電子郵件附件都會儲存至任務或問題的[！UICONTROL檔案]區域。 將電子郵件儲存為任務或問題之前，您可以刪除任何附件。</td>
+        <td>[!UICONTROL 附件]</td>
+        <td>任何電子郵件附件都會儲存至任務或問題的[!UICONTROL 檔案]區域。 將電子郵件儲存為任務或問題之前，您可以刪除任何附件。</td>
       </tr>
    </table>
 

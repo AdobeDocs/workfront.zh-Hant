@@ -47,6 +47,6 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >校訂的建立者會收到每個已建立校訂的個別[!UICONTROL 校訂]電子郵件。 如需詳細資訊，請參閱[校訂內容]電子郵件](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md)。[!UICONTROL 
+  >校訂的建立者會收到每個已建立校訂的個別[!UICONTROL 校訂]電子郵件。 如需詳細資訊，請參閱[校訂內容]電子郵件(../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md)。
 
 * 如果您或您的檢閱者沒有收到預期的電子郵件通知，請參閱[設定 [!DNL Workfront Proof] 電子郵件以避免垃圾郵件篩選器](../../../workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-wp-emails-avoid-spam-filters.md)。

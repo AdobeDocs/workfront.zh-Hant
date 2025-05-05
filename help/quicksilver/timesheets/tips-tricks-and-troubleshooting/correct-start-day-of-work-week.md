@@ -33,7 +33,7 @@ Adobe Workfront中時程表一週的開始日期會使用瀏覽器中的語言�
 以下是Workfront支援的各種瀏覽器語言和區域設定變更的指示。
 
 * **Chrome：**&#x200B;將下列連結複製並貼到您的Chrome瀏覽器： `chrome://settings/languages`然後移至語言。
-* **Firefox：**複製下列連結並貼到您的Firefox瀏覽器： `about:preferences#content`然後移至[語言]。
+* **Firefox：**&#x200B;複製下列連結並貼到您的Firefox瀏覽器： `about:preferences#content`然後移至[語言]。
 * **IE 11：**&#x200B;工具 — >網際網路選項 — >一般 — >語言
 * **Safari：**&#x200B;很遺憾，Safari不允許變更網頁瀏覽語言而不變更整個作業系統語言。 直接安裝其他瀏覽器(如Chrome或Firefox)可能會更容易。
 

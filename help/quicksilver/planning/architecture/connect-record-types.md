@@ -148,7 +148,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
      >[!TIP]
      >
-     >必須針對&#x200B;**編輯記錄型別**&#x200B;方塊的&#x200B;**進階設定**&#x200B;索引標籤中的記錄型別啟用&#x200B;**從其他工作區連線**設定，才能從其他工作區存取記錄型別。 如果沒有記錄型別被設定為從其他工作區連線，則工作區區段不會顯示。
+     >必須針對&#x200B;**編輯記錄型別**&#x200B;方塊的&#x200B;**進階設定**&#x200B;索引標籤中的記錄型別啟用&#x200B;**從其他工作區連線**&#x200B;設定，才能從其他工作區存取記錄型別。 如果沒有記錄型別被設定為從其他工作區連線，則工作區區段不會顯示。
      > ![編輯記錄型別方塊進階設定索引標籤](assets/edit-record-type-box-advanced-settings-tab.png)
 
      如需詳細資訊，請參閱[編輯記錄型別](/help/quicksilver/planning/architecture/edit-record-types.md)。
@@ -271,7 +271,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    >
    >    如果您希望欄位能新增為時間軸和行事曆檢視的開始和結束日期，新增查閱日期欄位時必須選取彙總值。 例如，您可以選取MAX或查閱日期欄位的MIN彙總。
 
-   連結的編號欄位](assets/aggregator-drop-down-for-number-linked-field.png)的![彙總下拉式清單
+   連結的編號欄位![&#128279;](assets/aggregator-drop-down-for-number-linked-field.png)的彙總下拉式清單
 
    >[!NOTE]
    >

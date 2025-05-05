@@ -288,7 +288,7 @@ ht-degree: 2%
    </table>
 
 1. 當您變更任務的時間表時，Workfront會更新所有專案內和跨專案相依性。
-1. 當您想要永久保留工作變更並儲存專案的時間表時，請按一下[儲存]。****
+1. 當您想要永久保留工作變更並儲存專案的時間表時，請按一下[儲存]。**&#x200B;**
 
 #### 當您選取「手動儲存時程表計畫」選項時，手動儲存工作清單中的變更 {#save-changes-in-a-task-list-manually-when-you-select-the-manual-save-timeline-planning-option}
 
@@ -390,7 +390,7 @@ ht-degree: 2%
    </table>
 
 1. 當您變更任務的時間表時，Workfront會更新所有專案內和跨專案相依性。
-1. 當您想要永久保留工作變更並儲存專案的時間表時，請按一下[儲存]。****
+1. 當您想要永久保留工作變更並儲存專案的時間表時，請按一下[儲存]。**&#x200B;**
 
 ## 使用「摘要」編輯清單中的任務
 
@@ -399,7 +399,7 @@ ht-degree: 2%
 
    專案上的任務清單隨即顯示。
 
-1. 按一下工作名稱后面的[更多]功能表![](assets/more-icon-task-list.png)，然後按一下[開啟摘要]****。 選取您要編輯的工作，然後按一下清單右上角的&#x200B;**開啟摘要圖示** ![](assets/qs-open-summary-icon-in-new-toolbar-small.png)。
+1. 按一下工作名稱后面的[更多]功能表![](assets/more-icon-task-list.png)，然後按一下[開啟摘要]&#x200B;**&#x200B;**。 選取您要編輯的工作，然後按一下清單右上角的&#x200B;**開啟摘要圖示** ![](assets/qs-open-summary-icon-in-new-toolbar-small.png)。
 
    **摘要**&#x200B;隨即開啟。
 
@@ -409,7 +409,7 @@ ht-degree: 2%
 
    依照編輯清單中任務的步驟來內聯編輯任務。
 
-   如需有關編輯清單中工作的資訊，請參閱本文中有關編輯清單中工作的考量[](#considerations-about-editing-tasks-in-a-list)。
+   如需有關編輯清單中工作的資訊，請參閱本文中有關編輯清單中工作的考量[&#128279;](#considerations-about-editing-tasks-in-a-list)。
 
 1. （選擇性）在&#x200B;**更新**&#x200B;區域輸入工作的更新。
 1. 按一下下列任一圖示或區域，移至工作並編輯工作層次的資訊：

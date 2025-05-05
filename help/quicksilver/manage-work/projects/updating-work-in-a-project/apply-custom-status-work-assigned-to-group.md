@@ -103,7 +103,7 @@ Alina, I moved this out of an admin article about statuses (Create and customize
    >如果您在&#x200B;**群組**&#x200B;下拉式功能表中選取不同的群組，**狀態**&#x200B;功能表中的自訂狀態會自動變更，以便與新的群組建立關聯。
    >
    >
-   >以專案](assets/status-drop-down-expanded-with-custom-statuses-for-project-nwe.png)的自訂狀態展開的![狀態下拉式清單   >
+   >以專案![&#128279;](assets/status-drop-down-expanded-with-custom-statuses-for-project-nwe.png)的自訂狀態展開的狀態下拉式清單   >
    >
 
 1. 選取專案狀態。 您建立並套用至該群組的自訂狀態會顯示在清單中。

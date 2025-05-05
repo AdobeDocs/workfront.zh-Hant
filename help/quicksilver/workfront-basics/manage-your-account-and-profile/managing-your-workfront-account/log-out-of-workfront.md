@@ -31,7 +31,7 @@ ht-degree: 0%
 >
 >此頁面上說明的程式僅適用於尚未上線到[!DNL Adobe Experience Cloud]的組織。
 >
-> 如果您的組織已上線到[!DNL Adobe Experience Cloud]，您將會登出，方法是按一下頂端導覽列中的個人資料圖片，然後從功能表選取&#x200B;[!UICONTROL **登出**]。 如需詳細資訊，請參閱 [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)的[[!DNL Adobe Unified Experience] 。
+> 如果您的組織已上線到[!DNL Adobe Experience Cloud]，您將會登出，方法是按一下頂端導覽列中的個人資料圖片，然後從功能表選取&#x200B;[!UICONTROL **登出**]。 如需詳細資訊，請參閱 [!DNL Workfront][&#128279;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)的[!DNL Adobe Unified Experience] 。
 
 ## 存取需求
 
@@ -49,7 +49,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>[！UICONTROL Request]或更高版本</p> </td> 
+   <td> <p>[!UICONTROL Request]或更高版本</p> </td> 
   </tr> 
  </tbody> 
 </table>

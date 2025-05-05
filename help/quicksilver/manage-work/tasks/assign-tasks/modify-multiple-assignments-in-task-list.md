@@ -26,7 +26,7 @@ ht-degree: 0%
 
 本文旨在為工作清單中的多個工作修改多個使用者指派。 另請參閱下列文章，瞭解如何修改其他區域中多個任務的指派：
 
-* 如需有關使用工作負載平衡器指派工作的資訊，請參閱在工作負載平衡器](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)中指派工作的總覽。[
+* 如需有關使用工作負載平衡器指派工作的資訊，請參閱在工作負載平衡器[&#128279;](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)中指派工作的總覽。
 
 如需將任務指派給清單中一個資源的相關資訊，請參閱[指派任務](../../../manage-work/tasks/assign-tasks/assign-tasks.md)。
 

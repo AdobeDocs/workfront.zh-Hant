@@ -36,9 +36,9 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
    <td> 
-   <p>新增：[！UICONTROL Contributor]或以上</p> 
+   <p>新增：[!UICONTROL Contributor]或以上</p> 
    <p>或</p>
-   <p>目前： [！UICONTROL Request]或以上</p>
+   <p>目前： [!UICONTROL Request]或以上</p>
    </td> 
   </tr> 
  </tbody> 
@@ -59,7 +59,7 @@ ht-degree: 0%
 
    按一下卡片上的&#x200B;**[!UICONTROL 更多]**&#x200B;功能表![更多](assets/more-icon-spectrum.png)，然後選取&#x200B;**[!UICONTROL 編輯]**。
 
-1. 若要新增專案，請按一下[新增]檢查清單專案&#x200B;]**。**[!UICONTROL &#x200B;然後，輸入專案的標題並按Enter鍵。 系統會自動新增另一個專案。 繼續輸入標題以新增更多專案。
+1. 若要新增專案，請按一下[新增]檢查清單專案&#x200B;**。**&#x200B;然後，輸入專案的標題並按Enter鍵。 系統會自動新增另一個專案。 繼續輸入標題以新增更多專案。
 
    檢查清單頂端的計數器顯示已完成的專案數和專案總數。
 

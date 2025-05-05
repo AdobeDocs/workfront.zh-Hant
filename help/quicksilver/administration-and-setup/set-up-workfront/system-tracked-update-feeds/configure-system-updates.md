@@ -50,14 +50,14 @@ ht-degree: 8%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td><p>新增：[！UICONTROL Standard]</p>
+   <td><p>新增：[!UICONTROL Standard]</p>
    或
-   <p>目前： [！UICONTROL計畫]</p>
+   <p>目前： [!UICONTROL 計畫]</p>
    </td> 
   </tr>  
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td>[！UICONTROL系統管理員]</td>
+   <td>[!UICONTROL 系統管理員]</td>
   </tr> 
  </tbody> 
 </table>
@@ -119,7 +119,7 @@ ht-degree: 8%
 
    這會顯示目前追蹤的內建和自訂欄位。
 
-1. 選取您要停止追蹤的欄位，然後按一下[移除]。****
+1. 選取您要停止追蹤的欄位，然後按一下[移除]。**&#x200B;**
 
 1. 在出現的&#x200B;**[!UICONTROL 移除欄位]**&#x200B;方塊中，按一下&#x200B;**[!UICONTROL 是，移除它]**&#x200B;以進行確認。
 

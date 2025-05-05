@@ -22,7 +22,7 @@ ht-degree: 0%
 
 如果您有校訂的編輯許可權，可以輕鬆與其他檢閱者共用校訂。 任何人都可以新增到校訂中，因為您不需要有[!DNL Workfront Proof]帳戶即可檢閱校訂。
 
-如需有關編輯許可權的資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔。
+如需有關編輯許可權的資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校訂許可權設定檔。
 
 如果您透過新增稽核者來共用校訂：
 

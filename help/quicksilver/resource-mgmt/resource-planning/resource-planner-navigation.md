@@ -110,7 +110,7 @@ ht-degree: 1%
   如需有關在資源規劃工具中篩選資訊的詳細資訊，請參閱資源規劃工具中的[篩選資訊](../../resource-mgmt/resource-planning/filter-resource-planner.md)。
 
 * 為了改善效能，您顯示或可從「專案檢視」匯出的專案數量會受到限制。\
-  如需在專案檢視中檢視資源規劃工具時的限制詳細資訊，請參閱[資源規劃工具顯示限制](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)文章中專案檢視](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md#project-view-limits)區段的[限制。
+  如需在專案檢視中檢視資源規劃工具時的限制詳細資訊，請參閱[資源規劃工具顯示限制](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)文章中專案檢視[&#128279;](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md#project-view-limits)區段的限制。
 
 * 專案會在「專案檢視」中按優先順序列出。\
   如需資源規劃工具中專案優先順序的詳細資訊，請參閱本文的[專案計畫優先順序](#project-planning-priority)一節。
@@ -139,7 +139,7 @@ ht-degree: 1%
 * 您必須至少具有資源管理的檢視存取權和專案的檢視許可權，才能檢視與這些專案關聯的角色。
 * 您可以展開每個角色以顯示專案清單，而每個專案會顯示可在專案上履行這些角色的使用者清單。
 * 為了改善效能，您顯示或可從「角色檢視」匯出的專案數量是有限的。\
-  如需在角色檢視中檢視資源規劃工具時限制的詳細資訊，請參閱[資源規劃工具顯示限制](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)中角色檢視](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md#role-view-limits)區段的[限制。
+  如需在角色檢視中檢視資源規劃工具時限制的詳細資訊，請參閱[資源規劃工具顯示限制](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)中角色檢視[&#128279;](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md#role-view-limits)區段的限制。
 
 * 這些專案會以與「專案檢視」中相同的優先順序列在工作角色底下。
 * 套用此檢視時，專案時數、約當全職人數或成本將加總至角色時數、約當全職人數或成本。\
@@ -173,7 +173,7 @@ ht-degree: 1%
   如需有關在資源規劃工具中篩選資訊的詳細資訊，請參閱[資源規劃工具中的篩選資訊](../../resource-mgmt/resource-planning/filter-resource-planner.md) 。
 
 * 為了提高效能，您顯示或可從「使用者檢視」匯出的專案數量會受到限制。\
-  如需在使用者檢視中檢視資源規劃工具時的限制詳細資訊，請參閱[資源規劃工具顯示限制](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)中使用者檢視](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md#user-view-limits)區段的[限制。
+  如需在使用者檢視中檢視資源規劃工具時的限制詳細資訊，請參閱[資源規劃工具顯示限制](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)中使用者檢視[&#128279;](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md#user-view-limits)區段的限制。
 
 * 這些專案會按照與「專案檢視」中列出的相同優先順序，列在使用者的名稱下。\
   如需資源規劃工具中專案優先順序的詳細資訊，請參閱本文的[專案計畫優先順序](#project-planning-priority)一節。

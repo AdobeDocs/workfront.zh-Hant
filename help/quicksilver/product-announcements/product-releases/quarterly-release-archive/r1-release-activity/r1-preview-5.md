@@ -59,10 +59,10 @@ ht-degree: 13%
 在「里程碑」檢視中檢視專案清單或專案報告時，現在提供下列改善專案：
 
 * **設定進度狀態和完成百分比是否顯示在檢視中：**&#x200B;有一個新選項可讓您設定進度狀態圖示是否顯示在里程碑檢視中。 此外，您也可以設定是否顯示與專案及任務相關的「完成百分比」資訊。\
-  如需詳細資訊，請參閱[在[使用里程碑檢視](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)中使用里程碑檢視](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)。
+  如需詳細資訊，請參閱[&#128279;](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)在[使用里程碑檢視](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)中使用里程碑檢視。
 
 * **直接從[里程碑]檢視編輯完成百分比：**&#x200B;現在您可以直接從[里程碑]檢視編輯專案和任務的完成百分比。\
-  如需詳細資訊，請參閱[在[使用里程碑檢視](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)中使用里程碑檢視](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)。 
+  如需詳細資訊，請參閱[&#128279;](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)在[使用里程碑檢視](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)中使用里程碑檢視。 
 
 ## 更新數個系統設定頁面的外觀
 

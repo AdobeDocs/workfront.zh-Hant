@@ -49,7 +49,7 @@ ht-degree: 0%
 
 1. 新增使用者的電子郵件。 它應該搜尋已從Admin Console中新增的現有使用者。
 
-1. 將必要的產品新增至開發人員設定檔，然後按一下[儲存]。****
+1. 將必要的產品新增至開發人員設定檔，然後按一下[儲存]。**&#x200B;**
 
 ![新增開發人員](assets/add-developer.png)
 
@@ -106,7 +106,8 @@ Adobe提供開放原始碼CLI，可用來協助建立App Builder應用程式。 
       ![選取專案](assets/select-project.png)
 
 1. 範本選取和設定
-   1. 瀏覽所有可用的範本，並為您的專案選擇&#x200B;**@adobe/aem-cf-editor-ui-ext-tpl**範本。
+   1. 瀏覽所有可用的範本，並為您的專案選擇&#x200B;**@adobe/aem-cf-editor-ui-ext-tpl**&#x200B;範本。
+
       ![搜尋範本](assets/search-template.png)
       ![選取範本](assets/select-template.png)
 
@@ -114,7 +115,8 @@ Adobe提供開放原始碼CLI，可用來協助建立App Builder應用程式。 
    1. 為擴充功能命名。
    1. 提供擴充功能的描述性摘要。
    1. 選取要開始使用的初始版本編號。
-   1. 選取&#x200B;**我已完成**以確認完成。
+   1. 選取&#x200B;**我已完成**&#x200B;以確認完成。
+
       ![定義延伸模組](assets/define-extension.png)
 
 1. 導覽至您的專案資料夾

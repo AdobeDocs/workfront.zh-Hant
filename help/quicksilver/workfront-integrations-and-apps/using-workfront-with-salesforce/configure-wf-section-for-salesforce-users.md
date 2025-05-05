@@ -34,11 +34,11 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
-   <td> <p>[！UICONTROL Pro]或更高版本</p> </td> 
+   <td> <p>[!UICONTROL Pro]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[！UICONTROL計畫]</p> </td> 
+   <td> <p>[!UICONTROL 計畫]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -130,7 +130,7 @@ ht-degree: 1%
 
    或
 
-   按一下[新增]****&#x200B;以建立新的版面配置。
+   按一下[新增]&#x200B;**&#x200B;**&#x200B;以建立新的版面配置。
 
 1. 繼續進行[在以下的機會或帳戶層級](#configure-the-workfront-section-at-the-opportunity-or-account-level-configure-the-workfront-section-at-the-opportunity-or-account-level)設定 [!DNL Workfront] 區段。
 

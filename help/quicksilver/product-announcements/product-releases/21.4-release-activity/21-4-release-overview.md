@@ -449,7 +449,7 @@ Workfront Scenario Planner第21.4發行版本將推出新功能。 如需這些�
 
 ## 21.4版本網路研討會
 
-Workfront 21.4版本網路研討會已於2021年9月23日推出。 您可以從Workfront One](https://one.workfront.com/s/event)上的[活動頁面檢視網路研討會影片。
+Workfront 21.4版本網路研討會已於2021年9月23日推出。 您可以從Workfront One[&#128279;](https://one.workfront.com/s/event)上的活動頁面檢視網路研討會影片。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

@@ -72,7 +72,7 @@ ht-degree: 1%
    ![傳送至](assets/copy-of-send-to-in-toolbar-350x149.png)
 
 1. 選擇要將資產移至何處，然後按一下&#x200B;**選取資料夾**。
-1. 當您找到想要的目的地，請按一下[儲存]。****
+1. 當您找到想要的目的地，請按一下[儲存]。**&#x200B;**
 
 ## 傳送新版本至Experience Manager Assets
 

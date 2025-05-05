@@ -56,11 +56,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>[！UICONTROL Review]或更高版本</p> </td> 
+   <td> <p>[!UICONTROL Review]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>存取層級設定*</strong></td> 
-   <td>[！UICONTROL Reviewer]或更高版本</td> 
+   <td>[!UICONTROL Reviewer]或更高版本</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
@@ -95,7 +95,7 @@ ht-degree: 1%
 
 ## 在物件的左側面板中顯示儀表板
 
-如需有關在物件下新增儀表板的詳細資訊，請參閱本文中Workfront物件或區域](#add-a-dashboard-in-the-left-panel-of-a-workfront-object-or-area)左側面板中的[[!UICONTROL 新增儀表板]小節。
+如需有關在物件下新增儀表板的詳細資訊，請參閱本文中Workfront物件或區域[&#128279;](#add-a-dashboard-in-the-left-panel-of-a-workfront-object-or-area)左側面板中的[!UICONTROL 新增儀表板]小節。
 
 當您將儀表板新增到物件下的自訂區段時，該物件會充當儀表板的濾鏡。 例如，如果您在儀表板上新增任務報告，並將儀表板新增到專案中，則包含專案儀表板的自訂區段僅顯示您正在檢視的專案上的任務。
 

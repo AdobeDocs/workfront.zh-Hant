@@ -26,7 +26,7 @@ ht-degree: 0%
 
 2018.1 Beta最終版本包含適用於Workfront管理員和其他使用者的增強功能：
 
-管理員的&#x200B;****
+管理員的&#x200B;**&#x200B;**
 
 * [設定資源可用性與使用者配置，以根據使用者排程進行計算](#configure-resource-availability-and-user-allocations-to-calculate-based-on-the-user-schedule)
 

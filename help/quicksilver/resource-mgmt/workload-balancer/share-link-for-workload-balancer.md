@@ -121,7 +121,7 @@ ht-degree: 1%
 
    * 將篩選器套用至「未指派」和「已指派」工作區域。
 
-     如需有關在工作負載平衡器中篩選資訊的資訊，請參閱在工作負載平衡器](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)中的篩選資訊[。
+     如需有關在工作負載平衡器中篩選資訊的資訊，請參閱在工作負載平衡器[&#128279;](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)中的篩選資訊。
 
 1. 按一下&#x200B;**連結圖示** ![連結圖示](assets/wb-shearable-link-icon-small.png)。
 

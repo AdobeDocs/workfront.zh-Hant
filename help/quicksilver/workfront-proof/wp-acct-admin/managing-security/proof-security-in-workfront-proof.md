@@ -55,4 +55,4 @@ ht-degree: 0%
 
 儲存在您個人設定中的設定會套用至您建立的所有校訂，但可在建立新校訂或修改校訂時覆寫這些設定，如[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)中管理校訂詳細資訊。
 
-您可以修改您的個人校訂設定來停用檔案下載，如[在[!DNL  Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)中設定校訂設定。
+您可以修改您的個人校訂設定來停用檔案下載，如[在[!DNL &#x200B; Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)中設定校訂設定。

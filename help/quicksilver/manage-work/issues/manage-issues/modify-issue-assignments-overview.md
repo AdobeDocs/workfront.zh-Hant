@@ -31,7 +31,7 @@ ht-degree: 0%
 
 * 如需指派問題的相關資訊，請參閱[指派問題](../../../manage-work/issues/manage-issues/assign-issues.md)和[修改清單中多個問題的使用者指派](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md)。
 
-* 如需有關使用工作負載平衡器指派問題的資訊，請參閱在工作負載平衡器](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)中指派工作的總覽。[
+* 如需有關使用工作負載平衡器指派問題的資訊，請參閱在工作負載平衡器[&#128279;](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)中指派工作的總覽。
 
 本文章中的部分資訊也適用於工作的指派。 如需指派任務及其他考量事項的詳細資訊，請參閱[修改任務指派的概觀](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)。
 

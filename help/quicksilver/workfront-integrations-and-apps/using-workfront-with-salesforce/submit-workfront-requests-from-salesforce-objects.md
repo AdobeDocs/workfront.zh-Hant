@@ -27,11 +27,11 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader"><p>[!DNL Adobe Workfront] 計畫*</p></td> 
-   <td> <p>[！UICONTROL Pro]或更高版本</p> </td> 
+   <td> <p>[!UICONTROL Pro]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>[!DNL Adobe Workfront] 授權*</p></td> 
-   <td> <p>[！UICONTROL計畫]</p> </td> 
+   <td> <p>[!UICONTROL 計畫]</p> </td> 
   </tr> 
  </tbody> 
 </table>

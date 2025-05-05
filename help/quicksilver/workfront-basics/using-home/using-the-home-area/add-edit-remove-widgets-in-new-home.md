@@ -84,7 +84,7 @@ ht-degree: 6%
 
 ## 將Widget新增至首頁
 
-Widget是Home的基礎。 將Widget新增至首頁後，您就可以選擇最符合您工作需求的資訊型別。 某些Widget僅適用於特定授權型別，因為它們追蹤的物件僅適用於這些授權。 如需詳細資訊，請參閱上面特定授權型別](#widgets-available-for-specific-license-types)可用的[Widget。
+Widget是Home的基礎。 將Widget新增至首頁後，您就可以選擇最符合您工作需求的資訊型別。 某些Widget僅適用於特定授權型別，因為它們追蹤的物件僅適用於這些授權。 如需詳細資訊，請參閱上面特定授權型別[&#128279;](#widgets-available-for-specific-license-types)可用的Widget。
 
 新增Widget：
 
@@ -166,4 +166,4 @@ Widget是Home的基礎。 將Widget新增至首頁後，您就可以選擇最符
 
    ![自訂按鈕](assets/customize-button.png)
 
-1. 在「**自訂**」面板的「**背景**」區段中，按一下您要為「首頁」背景選取的色彩。 您也可以按一下[無]來移除背景。****
+1. 在「**自訂**」面板的「**背景**」區段中，按一下您要為「首頁」背景選取的色彩。 您也可以按一下[無]來移除背景。**&#x200B;**

@@ -48,8 +48,8 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
    <td> 
-   <p>新計畫： [！UICONTROL Standard]</p> 
-   <p>目前計畫：[！UICONTROL Work]， [！UICONTROL Plan]</p> </td> 
+   <p>新計畫： [!UICONTROL Standard]</p> 
+   <p>目前計畫：[!UICONTROL Work]， [!UICONTROL Plan]</p> </td> 
   </tr> 
  </tbody> 
 </table>

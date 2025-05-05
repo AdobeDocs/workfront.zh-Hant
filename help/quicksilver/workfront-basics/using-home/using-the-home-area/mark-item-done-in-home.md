@@ -39,11 +39,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>[！UICONTROL Work]或更高版本</p> </td> 
+   <td> <p>[!UICONTROL Work]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>存取層級設定*</strong></td> 
-   <td> <p>[！UICONTROL編輯]對任務和問題的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的[!DNL Workfront]管理員是否對您的存取層級設定了其他限制。 如需[!DNL Workfront]管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td> <p>[!UICONTROL 編輯]對任務和問題的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的[!DNL Workfront]管理員是否對您的存取層級設定了其他限制。 如需[!DNL Workfront]管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 1. 按一下右上角的&#x200B;**[!UICONTROL 主功能表]** ![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
 1. （視條件而定）按一下&#x200B;**自訂**&#x200B;以新增&#x200B;**我的任務**&#x200B;或&#x200B;**我的問題** Widget。
-1. 將滑鼠停留在工作專案上，然後按一下&#x200B;**摘要**圖示。
+1. 將滑鼠停留在工作專案上，然後按一下&#x200B;**摘要**&#x200B;圖示。
    ![開啟摘要](assets/open-summary-new-home.png)
 1. 按一下摘要面板頂端的&#x200B;**標籤為完成**。
 
@@ -107,7 +107,7 @@ ht-degree: 0%
 ### 指派給多個資源的專案的[!UICONTROL 完成]按鈕
 
 將任務或問題指派給多個資源時，按鈕會顯示單字&#x200B;**[!UICONTROL 完成]**，後面接著下拉式功能表。 在下拉式功能表中，您可以選擇在&#x200B;**[!UICONTROL 完成我的部分]** （讓團隊成員知道您已完成您的一部份工作）或與[!UICONTROL 完成]按鈕（完成專案）相關的狀態之間選擇。 選取&#x200B;**[!UICONTROL 完成我的零件]**&#x200B;後，工作專案會從您的工作清單中移除，但會保留在那些仍指派給工作專案的工作清單中。\
-如果「完成」按鈕與多個狀態相關聯，它們會列在「完成我的零件」****&#x200B;下。
+如果「完成」按鈕與多個狀態相關聯，它們會列在「完成我的零件」**&#x200B;**&#x200B;下。
 
 >[!NOTE]
 >

@@ -74,7 +74,7 @@ ht-degree: 0%
 
 1. 按一下您收到的通知電子郵件中的連結。
 1. 登入 [!DNL Workfront Proof]。\
-     [!DNL  Workfront Proof]顯示資料夾詳細資訊頁面。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md)中管理資料夾及其內容。
+     [!DNL &#x200B; Workfront Proof]顯示資料夾詳細資訊頁面。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md)中管理資料夾及其內容。
 
 ## 關於共用子資料夾
 

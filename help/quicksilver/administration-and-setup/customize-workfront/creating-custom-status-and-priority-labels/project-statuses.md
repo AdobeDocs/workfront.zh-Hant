@@ -50,7 +50,7 @@ Workfront隨附9種系統專案狀態。 您可以變更這些狀態的名稱，
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td>[！UICONTROL系統管理員]</td>
+   <td>[!UICONTROL 系統管理員]</td>
   </tr> 
  </tbody> 
 </table>

@@ -32,16 +32,16 @@ ht-degree: 2%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Adobe Workfront]計畫*</td> 
-   <td> <p>[！UICONTROL Pro]或更高版本</p> </td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront]計畫*</td> 
+   <td> <p>[!UICONTROL Pro]或更高版本</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[！UICONTROL計畫]，[！UICONTROL工作]</p> </td> 
+   <td> <p>[!UICONTROL 計畫]，[!UICONTROL 工作]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td> 
-   <td> <p>[！UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p> </td> 
+   <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
@@ -90,23 +90,23 @@ ht-degree: 2%
    </thead> 
    <tbody> 
     <tr> 
-     <td role="rowheader">[！UICONTROL上市日期]</td> 
+     <td role="rowheader">[!UICONTROL 上市日期]</td> 
      <td>日期 </td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[！UICONTROL市場結束日期]</td> 
+     <td role="rowheader">[!UICONTROL 市場結束日期]</td> 
      <td>日期</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[！UICONTROL行銷活動概覽]</td> 
+     <td role="rowheader">[!UICONTROL 行銷活動概覽]</td> 
      <td>段落文字欄位</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[！UICONTROL金鑰訊息]</td> 
+     <td role="rowheader">[!UICONTROL 金鑰訊息]</td> 
      <td>段落文字欄位</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[！UICONTROL目標對象]</td> 
+     <td role="rowheader">[!UICONTROL 目標對象]</td> 
      <td> <p>下拉</p> <p>包含適合您流程的選項。</p> </td> 
     </tr> 
    </tbody> 

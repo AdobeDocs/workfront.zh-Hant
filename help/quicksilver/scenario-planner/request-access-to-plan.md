@@ -31,13 +31,13 @@ ht-degree: 1%
    <td> <ul></li>
    <li><p>新增： Ultimate </p></li>
    <p>新的Workfront Select或Workfront Prime計畫無法使用「情境規劃工具」。 </p>
-   <li><p>目前： [！UICONTROL Business]或更高版本</p></ul>
+   <li><p>目前： [!UICONTROL Business]或更高版本</p></ul>
    </td> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 授權*</p> </td> 
    <td> <p>新增：淺色或更高</p> 
-   <p>目前： [！UICONTROL Review]或以上</p> </td> 
+   <p>目前： [!UICONTROL Review]或以上</p> </td> 
   </tr> 
   <tr> 
    <td>產品* </td> 
@@ -49,7 +49,7 @@ ht-degree: 1%
   </tr> 
   <tr data-mc-conditions=""> 
    <td>存取層級 </td> 
-   <td>  <p>[！UICONTROL檢視]或更高存取權以存取 [!DNL Scenario Planner]</p>  </td> 
+   <td>  <p>[!UICONTROL 檢視]或更高存取權以存取 [!DNL Scenario Planner]</p>  </td> 
   </tr>
  </tbody> 
 </table>

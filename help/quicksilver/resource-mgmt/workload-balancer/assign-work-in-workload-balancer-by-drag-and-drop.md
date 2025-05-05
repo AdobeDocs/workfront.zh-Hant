@@ -17,7 +17,7 @@ ht-degree: 0%
 
 您可以透過拖放工作專案給正確的使用者，使用Adobe Workfront工作負載平衡器指派工作專案。
 
-如需使用工作負載平衡器指派工作給使用者的一般資訊，請參閱在工作負載平衡器](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)中指派工作的總覽。[
+如需使用工作負載平衡器指派工作給使用者的一般資訊，請參閱在工作負載平衡器[&#128279;](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)中指派工作的總覽。
 
 ## 存取需求
 
@@ -127,7 +127,7 @@ ht-degree: 0%
 
    按兩下每日或每週配置，以修改將使用者配置給工作專案的時間量。
 
-   如需有關在工作負載平衡器中修改使用者配置的資訊，請參閱在工作負載平衡器](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)中管理使用者配置一文[中的「修改使用者配置」一節。
+   如需有關在工作負載平衡器中修改使用者配置的資訊，請參閱在工作負載平衡器[&#128279;](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)中管理使用者配置一文中的「修改使用者配置」一節。
 
-   如需有關使用工作負載平衡器從工作專案移除指派的資訊，請參閱在工作負載平衡器](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md)中取消指派工作。[
+   如需有關使用工作負載平衡器從工作專案移除指派的資訊，請參閱在工作負載平衡器[&#128279;](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md)中取消指派工作。
 

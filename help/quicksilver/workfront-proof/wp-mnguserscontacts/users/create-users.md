@@ -22,7 +22,7 @@ ht-degree: 0%
 
 作為[!DNL Workfront Proof]管理員，您可以建立新使用者。
 
-如需有關管理員許可權的資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔。
+如需有關管理員許可權的資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校訂許可權設定檔。
 
 >[!NOTE]
 >

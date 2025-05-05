@@ -51,13 +51,13 @@ ht-degree: 0%
   <tr>
    <td>[!DNL Adobe Workfront] 授權
    </td>
-   <td><p>目前： [！UICONTROL計畫]</p>
-   <p>新增：[！UICONTROL Standard]</p></td>
+   <td><p>目前： [!UICONTROL 計畫]</p>
+   <p>新增：[!UICONTROL Standard]</p></td>
   </tr>
   <tr>
    <td>[!DNL Experience Manager] 授權
    </td>
-   <td>[！UICONTROL標準]
+   <td>[!UICONTROL 標準]
    </td>
   </tr>
   <tr>
@@ -282,7 +282,7 @@ Adobe Experience Manager整合提供下列工作流程：
    1. （選擇性）若要刪除資料夾，請選取資料夾並按一下&#x200B;**刪除資料夾**&#x200B;圖示![刪除資料夾](assets/delete-folder.png)。
 1. （視條件而定）若要新增另一個資料夾樹狀結構，請按一下&#x200B;**+新增資料夾樹狀結構**，並依照步驟5中的步驟進行。
 
-1. 按一下&#x200B;**[!UICONTROL 儲存]**，或繼續前往本文中傳送至Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets)的[發佈資產區段。
+1. 按一下&#x200B;**[!UICONTROL 儲存]**，或繼續前往本文中傳送至Adobe Experience Manager Assets[&#128279;](#publish-assets-that-are-sent-to-adobe-experience-manager-assets)的發佈資產區段。
 
 >[!NOTE]
 >

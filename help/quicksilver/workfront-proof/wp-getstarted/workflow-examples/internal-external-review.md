@@ -51,7 +51,7 @@ ht-degree: 0%
 
 ![internal_external_-_option_B.png](assets/internal_external_-_option_B.png)
 
-1. **建立新校訂** — 設計人員在[!DNL Workfront Proof]中建立新校訂，並與內部檢閱者共用。 設計師讓專案經理成為校訂的擁有者，或給予他校訂上[!UICONTROL 作者]的角色（請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中的[管理校訂角色）。
+1. **建立新校訂** — 設計人員在[!DNL Workfront Proof]中建立新校訂，並與內部檢閱者共用。 設計師讓專案經理成為校訂的擁有者，或給予他校訂上[!UICONTROL 作者]的角色（請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中的管理校訂角色）。
 
 1. **內部檢閱** — 專案經理和其他同事檢閱校訂。 如需詳細資訊，請參閱[在網頁校訂檢視器中檢閱校訂](https://support.workfront.com/hc/en-us/sections/115000275214-Reviewing-Proofs-in-the-Web-Proofing-Viewer)和[在案頭校訂檢視器中檢閱校訂。](https://support.workfront.com/hc/en-us/sections/360000686434-Reviewing-Proofs-in-the-Desktop-Proofing-Viewer)
 

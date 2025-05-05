@@ -42,7 +42,7 @@ ht-degree: 15%
 
 如果公用資料夾為管理員所擁有，他或她可以刪除根資料夾及任何子資料夾。
 
-如需詳細資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔。
+如需詳細資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校訂許可權設定檔。
 
 ## 私人資料夾
 
@@ -65,7 +65,7 @@ ht-degree: 15%
 
 您可以在[新增資料夾]頁面中個別設定每個人的此專案，並在[資料夾詳細資料]頁面的[共用對象] 區段中加以變更。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md)中建立資料夾，以及[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md)中管理資料夾及其內容。
 
-如果與或觀察者共用私人資料夾，他們將對該資料夾中的所有專案具有唯讀存取權。 如需詳細資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔和 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/share-folders.md)中的[共用資料夾。
+如果與或觀察者共用私人資料夾，他們將對該資料夾中的所有專案具有唯讀存取權。 如需詳細資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔和 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/share-folders.md)中的共用資料夾。
 
 >[!NOTE]
 >

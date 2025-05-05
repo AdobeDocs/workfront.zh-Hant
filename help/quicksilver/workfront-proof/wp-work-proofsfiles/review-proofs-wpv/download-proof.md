@@ -25,4 +25,4 @@ ht-degree: 0%
 1. 在校訂檢視器左側的工具列中，按一下&#x200B;**[!UICONTROL 下載]**&#x200B;按鈕。\
    ![Proofing_Viewer_toolbar_button_-_Download.png](assets/proofing-viewer-toolbar-button---download.png)
 
-1. 瀏覽到您要下載校訂的檔案系統位置，然後按一下[儲存]。****
+1. 瀏覽到您要下載校訂的檔案系統位置，然後按一下[儲存]。**&#x200B;**

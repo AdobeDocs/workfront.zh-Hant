@@ -39,13 +39,13 @@ ht-degree: 0%
    <td role="rowheader">[!DNL Adobe Workfront] 計劃</td> 
    <td> 
    <p>新增：任何</p>
-   <p>目前： [！UICONTROL Pro]或更高版本</p> </td> 
+   <p>目前： [!UICONTROL Pro]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe[!DNL Workfront]授權總覽</td> 
    <td> 
    <p>新增：標準</p>
-   <p>目前： [！UICONTROL計畫]</p></td> 
+   <p>目前： [!UICONTROL 計畫]</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Jira] 存取</td> 

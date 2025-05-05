@@ -56,7 +56,7 @@ ht-degree: 0%
 
 ## 活動記錄
 
-傳送[!UICONTROL 新校訂]電子郵件給檢閱者記錄在[!UICONTROL 校訂詳細資料]頁面的[!UICONTROL 活動]區段。 如需詳細資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)中的[管理[!UICONTROL 校訂詳細資料]。 您可以檢查在建立校訂時是否已啟用[!UICONTROL 新校訂]電子郵件。
+傳送[!UICONTROL 新校訂]電子郵件給檢閱者記錄在[!UICONTROL 校訂詳細資料]頁面的[!UICONTROL 活動]區段。 如需詳細資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)中的管理[!UICONTROL 校訂詳細資料]。 您可以檢查在建立校訂時是否已啟用[!UICONTROL 新校訂]電子郵件。
 
 ![New_Verison_email_-_activity_log.png](assets/new-verison-email---acitivity-log-350x44.png)
 

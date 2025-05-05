@@ -32,9 +32,9 @@ ht-degree: 2%
    <td> 
     <ul> 
      <li>開始處理任務和問題</li> 
-     <li>將任務和問題標示為[！UICONTROL完成]</li> 
+     <li>將任務和問題標示為[!UICONTROL 完成]</li> 
      <li>重新指派任務和問題</li> 
-     <li>變更[！UICONTROL認可日期]</li> 
+     <li>變更[!UICONTROL 認可日期]</li> 
     </ul> </td> 
    <td> 
     <ul> 
@@ -48,7 +48,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-如需詳細資訊，請參閱行動應用程式](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md)中的[[!UICONTROL 首頁]區域Widget](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md)和[[!UICONTROL 我的工作]區段。
+如需詳細資訊，請參閱行動應用程式[&#128279;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md)中的[[!UICONTROL 首頁]區域Widget](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md)和[!UICONTROL 我的工作]區段。
 
 ![主區域](assets/mobile-home-area.png)
 
@@ -58,7 +58,7 @@ ht-degree: 2%
 
 ![展示板區域](assets/mobile-all-boards-displayed.png)
 
-如需詳細資訊，請參閱行動裝置](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)的[[!DNL Adobe Workfront] [!UICONTROL 面板]。
+如需詳細資訊，請參閱行動裝置[&#128279;](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)的[!DNL Adobe Workfront] [!UICONTROL 面板]。
 
 ## [!UICONTROL 專案]
 
@@ -73,7 +73,7 @@ ht-degree: 2%
     <ul> 
      <li>更新專案狀態</li> 
      <li>檢視重要專案詳細資訊</li> 
-     <li>[！UICONTROL更新]區域中的Post</li> 
+     <li>[!UICONTROL 更新]區域中的Post</li> 
      <li>將任務、問題和請求轉換為專案</li> 
     </ul> </td> 
    <td> 
@@ -113,7 +113,7 @@ ht-degree: 2%
  </tbody>
 </table>
 
-如需核准的詳細資訊，請參閱 [!DNL Adobe Workfront] 行動應用程式](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)中的[核准。
+如需核准的詳細資訊，請參閱 [!DNL Adobe Workfront] 行動應用程式[&#128279;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)中的核准。
 
 如需檢閱和核准校訂的資訊，請參閱[在 [!DNL Adobe Workfront] 行動應用程式](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)中檢閱和決定校訂。
 

@@ -78,9 +78,7 @@ ht-degree: 0%
      >     例如，如果您有一個與進行中狀態相關聯的任務核准，則當核准被授予時，任務會自動將其狀態變更為進行中。 它無法自動將其狀態變更為「已完成」或任何其他與核准無關聯的狀態。
      >   
      >   
-     >
-
-   * 與核准流程關聯的實體可以是使用者、工作角色或團隊。 使用者最終需負責接受或拒絕核准。 您可以將核准指派給在專案上履行特定角色的使用者。 例如，您可以將核准指派給專案所有者或贊助者。 如需詳細資訊，請參閱[建立工作專案的核准程式](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)。
+     >* 與核准流程關聯的實體可以是使用者、工作角色或團隊。 使用者最終需負責接受或拒絕核准。 您可以將核准指派給在專案上履行特定角色的使用者。 例如，您可以將核准指派給專案所有者或贊助者。 如需詳細資訊，請參閱[建立工作專案的核准程式](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)。
 
      存在下列情況：
 

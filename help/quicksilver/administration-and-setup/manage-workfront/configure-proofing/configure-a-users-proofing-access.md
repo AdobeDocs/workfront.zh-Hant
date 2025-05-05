@@ -69,7 +69,7 @@ ht-degree: 0%
 
 {{step-1-to-users}}
 
-1. 選取一或多個使用者，然後按一下[編輯]。****
+1. 選取一或多個使用者，然後按一下[編輯]。**&#x200B;**
 
 1. 在&#x200B;**存取**&#x200B;區段中，按一下&#x200B;**校訂許可權設定檔**&#x200B;下拉式功能表中的下列Workfront Proof許可權選項之一：
 
@@ -112,7 +112,7 @@ ht-degree: 0%
 
 設定許可權時，請考慮下列資訊：
 
-* 如果您將使用者的許可權設定檔變更為許可權較少的設定檔，使用者可能會失去Workfront中現有校訂的可見度。 當有人在Workfront中與使用者共用工作，但未共用附加至工作的校訂(請參閱[在Adobe Workfront中共用](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)的校訂](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)的校訂[在Adobe Workfront中共用)時，就會發生這種情況。
+* 如果您將使用者的許可權設定檔變更為許可權較少的設定檔，使用者可能會失去Workfront中現有校訂的可見度。 當有人在Workfront中與使用者共用工作，但未共用附加至工作的校訂(請參閱[在Adobe Workfront中共用](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)的校訂[&#128279;](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)的校訂在Adobe Workfront中共用)時，就會發生這種情況。
 * 您必須將Workfront Proof環境與Workfront Premium帳戶整合，才能從Workfront Proof設定Workfront許可權。 如果您無法依照本節所述使用校訂，請聯絡Workfront管理員。
 * 在您的Workfront環境中，必須至少有一個使用者擁有校訂的管理員許可權。 如果您嘗試從所有使用者中移除校訂的管理員許可權，則會出現錯誤訊息。
 * 當您將使用者的Workfront存取層級變更為系統管理員以外的任何層級時，該使用者的Workfront Proof許可權設定檔預設為「管理員」。

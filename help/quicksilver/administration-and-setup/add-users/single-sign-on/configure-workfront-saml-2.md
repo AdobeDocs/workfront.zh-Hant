@@ -27,7 +27,7 @@ ht-degree: 7%
 
 身為Adobe Workfront管理員，您可以設定Workfront網頁和行動應用程式，以整合單一登入(SSO)的安全宣告標籤語言(SAML) 2.0解決方案。
 
-在Workfront中設定SAML 2.0後，如下列各節所述，您可以維持設定，如身分提供者](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)中的[更新SAML 2.0中繼資料所述。
+在Workfront中設定SAML 2.0後，如下列各節所述，您可以維持設定，如身分提供者[&#128279;](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)中的更新SAML 2.0中繼資料所述。
 
 ## 存取需求
 

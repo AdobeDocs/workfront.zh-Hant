@@ -44,7 +44,7 @@ ht-degree: 0%
 
 當您套用這些篩選器之一，然後共用工作負載平衡器或將其放在儀表板上，所有其他使用者將看到他們自己的資訊。
 
-如需有關將篩選器套用至工作負載平衡器的資訊，請參閱工作負載平衡器](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)中的[篩選器資訊。
+如需有關將篩選器套用至工作負載平衡器的資訊，請參閱工作負載平衡器[&#128279;](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)中的篩選器資訊。
 
 ## 工作負載平衡器中專案的新排序
 

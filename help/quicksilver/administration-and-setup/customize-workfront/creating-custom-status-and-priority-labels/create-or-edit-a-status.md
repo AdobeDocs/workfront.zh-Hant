@@ -51,7 +51,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td>[！UICONTROL系統管理員]</td>
+   <td>[!UICONTROL 系統管理員]</td>
   </tr> 
  </tbody> 
 </table>
@@ -78,7 +78,7 @@ ht-degree: 2%
 
    如果狀態為群組或子群組，請在右上角開始輸入群組的名稱，然後在其出現時選取它。
 
-   群組](assets/system-statuses-in-upper-rt-corner-group.jpg)的![系統狀態
+   群組![&#128279;](assets/system-statuses-in-upper-rt-corner-group.jpg)的系統狀態
 
 1. 選取您想要與狀態關聯的物件型別（**專案**、**任務**&#x200B;或&#x200B;**問題**）的標籤。
 

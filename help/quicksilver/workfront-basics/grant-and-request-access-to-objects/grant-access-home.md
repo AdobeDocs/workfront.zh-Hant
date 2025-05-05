@@ -61,7 +61,7 @@ ht-degree: 0%
 
 1. 按一下熒幕右上角的&#x200B;**主功能表** ![](assets/dots-main-menu.png)，或按一下左上角的&#x200B;**主功能表** ![](assets/lines-main-menu.png) （如果可用），然後按一下&#x200B;**首頁**
 或
-按一下Adobe Workfront左上角的**首頁**&#x200B;圖示![](assets/home-icon-30x29.png)。
+按一下Adobe Workfront左上角的&#x200B;**首頁**&#x200B;圖示![](assets/home-icon-30x29.png)。
 
    >[!NOTE]
    >
@@ -76,7 +76,7 @@ ht-degree: 0%
 
       ![核准請求](assets/request-for-access-to-project-in-new-home-approvals-widget.png)
 
-   1. （選擇性）若要授與不同層級的存取權，請按一下[授與存取權]按鈕左側的下拉式功能表，並選取新的存取權，然後按一下[授與存取權]。****
+   1. （選擇性）若要授與不同層級的存取權，請按一下[授與存取權]按鈕左側的下拉式功能表，並選取新的存取權，然後按一下[授與存取權]。**&#x200B;**
 
       存取請求被授予，並從核准請求清單中消失。
 

@@ -39,7 +39,7 @@ ht-degree: 1%
   <tr>
    <td><strong>[!DNL Adobe Workfront]個授權</strong>
    </td>
-   <td> <p>[！UICONTROL標準]</p><p>或</p><p>目前：無法使用</p>
+   <td> <p>[!UICONTROL 標準]</p><p>或</p><p>目前：無法使用</p>
    </td>
   </tr>
    <tr>

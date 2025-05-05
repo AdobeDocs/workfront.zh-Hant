@@ -38,14 +38,14 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
    <td> 
-   <p>新增：[！UICONTROL Contributor]或以上</p> 
+   <p>新增：[!UICONTROL Contributor]或以上</p> 
    <p>或</p>
-   <p>目前： [！UICONTROL Request]或以上</p>
+   <p>目前： [!UICONTROL Request]或以上</p>
    </td> 
   </tr> 
    <tr>
    <td role="rowheader">存取層級設定</td>
-   <td>[！UICONTROL Edit]檔案存取權</td>
+   <td>[!UICONTROL Edit]檔案存取權</td>
   </tr>
  </tbody> 
 </table>

@@ -140,4 +140,4 @@ EAC = EAC Labor + EAC Expense
 
    EAC值會顯示在&#x200B;**預估完成時間**&#x200B;欄位中。
 
-   專案](assets/eac-highlighted-on-project-350x112.png)上的![EAC
+   專案![&#128279;](assets/eac-highlighted-on-project-350x112.png)上的EAC

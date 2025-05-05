@@ -89,7 +89,7 @@ ht-degree: 1%
      >[!NOTE]
      >
      >如果您停用使用者且無法再檢視與使用者相關聯的報告或儀表板，則可能需要更新&#x200B;**使用**&#x200B;欄位的存取許可權執行此報告。\
-     >若要深入瞭解，請參閱[為何無法存取停用使用者所擁有的報告？[報告常見問題集](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)文章的](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why)區段。
+     >若要深入瞭解，請參閱[&#128279;](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why)為何無法存取停用使用者所擁有的報告？[報告常見問題集](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)文章的區段。
 
    * 文件
    * 更新
@@ -112,7 +112,7 @@ ht-degree: 1%
      >[!NOTE]
      >
      >您也會失去對包含與已刪除使用者相關聯之控制面板的自訂區段的存取權。\
-     >若要深入瞭解，請參閱[如何存取包含已刪除使用者所擁有之報告的儀表板？[報告常見問題集](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)文章的](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#how)區段。
+     >若要深入瞭解，請參閱[&#128279;](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#how)如何存取包含已刪除使用者所擁有之報告的儀表板？[報告常見問題集](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)文章的區段。
 
    * 更新
    * 時數
@@ -132,7 +132,7 @@ ht-degree: 1%
 
 {{step-1-to-users}}
 
-1. 請至少選取一個要刪除的使用者，按一下[更多]功能表![[更多]圖示](assets/more-icon.png)，然後按一下[刪除]****。
+1. 請至少選取一個要刪除的使用者，按一下[更多]功能表![[更多]圖示](assets/more-icon.png)，然後按一下[刪除]&#x200B;**&#x200B;**。
 1. 在出現的方塊中，按一下&#x200B;**刪除**&#x200B;以確認刪除。
 
    刪除使用者的程式會以背景程式執行，因此您可以在刪除使用者時繼續使用Workfront。

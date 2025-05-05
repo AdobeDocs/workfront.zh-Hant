@@ -83,15 +83,15 @@ ht-degree: 0%
 1. 在左側面板中，按兩下企業 **案例**」。
 1. （選擇）要編輯“項目信息”**部分，請按兩下**&#x200B;編輯項目資訊&#x200B;**。**
 
-   有關編輯「**項目資訊**」部分字段的詳細資訊，請參閱文章[企業](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md)案例區域概述中的項目資訊](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#project-info)部分[。
+   有關編輯「**項目資訊**」部分字段的詳細資訊，請參閱文章[企業](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md)案例區域概述中的項目資訊[&#128279;](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#project-info)部分。
 
-1. （選擇）要编辑目標&#x200B;****&#x200B;部分，請按兩下&#x200B;**編輯目標**。
+1. （選擇）要编辑目標&#x200B;**&#x200B;**&#x200B;部分，請按兩下&#x200B;**編輯目標**。
 
-   有關編輯企業案例的“**目標**”部分的詳細資訊，請參閱企業案例](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md)區域概述一文[中的目標](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#goals)部分[。
+   有關編輯企業案例的“**目標**”部分的詳細資訊，請參閱企業案例[&#128279;](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md)區域概述一文[中的目標](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#goals)部分。
 
 1. （選擇）要編輯 **“費用”** 部分，請按兩下 **編輯費用**。
 
-   有關編輯&#x200B;**企業案例的「費用**」部分的詳細資訊，請參閱企業案例](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md)區域概述一文[中的“費用](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#expenses)”部分[。
+   有關編輯&#x200B;**企業案例的「費用**」部分的詳細資訊，請參閱企業案例[&#128279;](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md)區域概述一文[中的“費用](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#expenses)”部分。
 
 1. （選擇性）按一下&#x200B;**編輯資源預算**&#x200B;以預算您的資源，並取得與專案上工作角色相關的預算勞力成本。 如需詳細資訊，請參閱業務案例中的[預算資源](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)。
 
@@ -104,17 +104,17 @@ ht-degree: 0%
 
    必須先建立計分卡，才能將其附加至專案。
 
-   有關計分卡的詳細資訊，請參閱將計分卡套用到專案並生成對齊方式分數](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md)一文[。
+   有關計分卡的詳細資訊，請參閱將計分卡套用到專案並生成對齊方式分數[&#128279;](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md)一文。
 
 1. （選擇）**在自定義Forms**&#x200B;下拉功能表中選擇&#x200B;**自定義表單。**
 
    必須先建立自定義Forms，才能將其附加到專案。
 
-   有關自定義Forms窗體的詳細資訊，請參閱建立自定義表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)一文[。
+   有關自定義Forms窗體的詳細資訊，請參閱建立自定義表單[&#128279;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)一文。
 
 1. 按兩下&#x200B;**提交**。 項目狀態將更改為 **「已請求」** 並提交該專案以批准企業案例。
 
-   有關批准企業案例的詳細信息，請參閱批准企業案例](../../../manage-work/projects/define-a-business-case/approve-business-case.md)一文[。
+   有關批准企業案例的詳細信息，請參閱批准企業案例[&#128279;](../../../manage-work/projects/define-a-business-case/approve-business-case.md)一文。
 
 
 >[!TIP]

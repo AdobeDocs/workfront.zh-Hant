@@ -75,7 +75,7 @@ ht-degree: 0%
 1. 按一下左側面板中的&#x200B;**專案詳細資料**，然後移至&#x200B;**財務**&#x200B;區域。
 1. 在&#x200B;**貨幣**&#x200B;欄位中按一下&#x200B;**新增**，然後選取您要做為專案預設貨幣的貨幣。 顯示您的Workfront管理員為您的Workfront執行個體設定的所有貨幣。
 
-   專案](assets/currency-on-project-expanded-nwe.png)上的![貨幣
+   專案![&#128279;](assets/currency-on-project-expanded-nwe.png)上的貨幣
 
 1. （視條件而定）如果您選取的貨幣不是為Workfront系統設定的預設貨幣，請指定所選貨幣的匯率，因為該匯率與系統中設定為基本貨幣的貨幣相關。
 1. 按一下「**儲存變更**」。

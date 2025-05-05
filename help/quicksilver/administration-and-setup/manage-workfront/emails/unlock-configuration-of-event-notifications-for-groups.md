@@ -71,7 +71,7 @@ ht-degree: 0%
 
    或
 
-   若要一次解除鎖定或鎖定多個通知，請選取通知，然後按一下清單上方工具列中顯示的[解除鎖定![解除鎖定]圖示](assets/unlock-icon-toolbar.png)或[鎖定![鎖定]圖示](assets/lock-icon-locked-qs.png)按鈕。
+   若要一次解除鎖定或鎖定多個通知，請選取通知，然後按一下清單上方工具列中顯示的![解除鎖定[解除鎖定]圖示](assets/unlock-icon-toolbar.png)或![鎖定[鎖定]圖示](assets/lock-icon-locked-qs.png)按鈕。
 
 1. 按一下「**儲存**」。
 1. （選擇性）如果要為最上層群組設定事件通知，而不是將此工作留給群組管理員，您可以執行下列任一項作業：

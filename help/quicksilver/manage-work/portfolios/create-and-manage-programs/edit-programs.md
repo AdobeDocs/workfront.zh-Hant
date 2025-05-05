@@ -36,15 +36,15 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>新增：[！UICONTROL Standard] </p><p>或 </p><p>目前： [！UICONTROL計畫] </p> </td> 
+   <td> <p>新增：[!UICONTROL Standard] </p><p>或 </p><p>目前： [!UICONTROL 計畫] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級</td> 
-   <td> <p>[！UICONTROL Edit]程式存取權</p>  </td> 
+   <td> <p>[!UICONTROL Edit]程式存取權</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>[！UICONTROL Manage]方案許可權</p>  </td> 
+   <td> <p>[!UICONTROL Manage]方案許可權</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -135,23 +135,23 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL名稱]</td> 
+      <td role="rowheader">[!UICONTROL 名稱]</td> 
       <td> <p>更新方案的名稱。 </p> <p>提示：當您選取多個方案時，此選項不可用。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL說明]</td> 
+      <td role="rowheader">[!UICONTROL 說明]</td> 
       <td> <p>輸入Portfolio的說明以指出其獨特性。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL計畫管理員]</td> 
-      <td> <p>開始輸入您想指定做為方案管理員的使用者名稱，然後當它出現在清單中時選取它。 此人員可監督計畫專案中定義的工作。 </p> <p>重要：當您指定某人擔任方案管理員時，他會自動取得該方案和方案內專案的[！UICONTROL管理]許可權。 </p> <p>提示：您可以在方案標題中快速更新方案管理員。 </p> </td> 
+      <td role="rowheader">[!UICONTROL 計畫管理員]</td> 
+      <td> <p>開始輸入您想指定做為方案管理員的使用者名稱，然後當它出現在清單中時選取它。 此人員可監督計畫專案中定義的工作。 </p> <p>重要：當您指定某人擔任方案管理員時，他會自動取得該方案和方案內專案的[!UICONTROL 管理]許可權。 </p> <p>提示：您可以在方案標題中快速更新方案管理員。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL群組]</td> 
-      <td> <p>如果群組與方案相關聯或負責完成方案，請新增單一群組的名稱。 </p> <p>秘訣：  <p>從[！UICONTROL計畫詳細資訊]頁面存取[！UICONTROL群組]欄位時，請執行下列動作： </p> <p>您可以暫留在群組上，並按一下旁邊顯示的[！UICONTROL資訊]圖示<img src="assets/info-icon.png">，確定您選取的群組正確。 這會顯示工具提示，列出群組的相關資訊，例如群組及其管理員上方的群組階層。</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>此選項在[！UICONTROL編輯程式]方塊中無法使用。 </p> </p> </td> 
+      <td role="rowheader">[!UICONTROL 群組]</td> 
+      <td> <p>如果群組與方案相關聯或負責完成方案，請新增單一群組的名稱。 </p> <p>秘訣：  <p>從[!UICONTROL 計畫詳細資訊]頁面存取[!UICONTROL 群組]欄位時，請執行下列動作： </p> <p>您可以暫留在群組上，並按一下旁邊顯示的[!UICONTROL 資訊]圖示<img src="assets/info-icon.png">，確定您選取的群組正確。 這會顯示工具提示，列出群組的相關資訊，例如群組及其管理員上方的群組階層。</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>此選項在[!UICONTROL 編輯程式]方塊中無法使用。 </p> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL作用中]</td> 
+      <td role="rowheader">[!UICONTROL 作用中]</td> 
       <td> <p> 如果您希望程式處於作用中狀態，請選取此核取方塊。 其他使用者可以找到使用中的計畫，並將它們附加到專案或新增到投資組合。 非作用中的計畫不能附加到專案或投資組合。 這預設為啟用。</p> </td> 
      </tr> 
     </tbody> 

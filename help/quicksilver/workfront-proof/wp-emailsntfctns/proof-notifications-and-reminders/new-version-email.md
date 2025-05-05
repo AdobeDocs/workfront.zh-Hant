@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->本文提及獨立產品[！DNL [!DNL Workfront Proof]]中的功能。 如需[！DNL [!DNL Adobe Workfront]]內部校訂的相關資訊，請參閱[校訂](../../../review-and-approve-work/proofing/proofing.md)。
+>本文提及獨立產品[!DNL [!DNL Workfront Proof]]中的功能。 如需[!DNL [!DNL Adobe Workfront]]內部校訂的相關資訊，請參閱[校訂](../../../review-and-approve-work/proofing/proofing.md)。
 
 <!--
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Does this apply to PiW?</p>

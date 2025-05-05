@@ -42,11 +42,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[！UICONTROL檢視]或更高許可權可存取[！UICONTROL報表]、[！UICONTROL儀表板]和[！UICONTROL行事曆]</p></td> 
+   <td> <p>[!UICONTROL 檢視]或更高許可權可存取[!UICONTROL 報表]、[!UICONTROL 儀表板]和[!UICONTROL 行事曆]</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td>[！UICONTROL檢視]或行事曆報告的更高許可權（可存取共用）</td> 
+   <td>[!UICONTROL 檢視]或行事曆報告的更高許可權（可存取共用）</td> 
   </tr> 
  </tbody> 
 </table>
@@ -99,9 +99,9 @@ ht-degree: 0%
 
 1. 移至您要共用的行事曆。
 1. 按一下&#x200B;**[!UICONTROL 行事曆動作]**，然後按一下&#x200B;**[!UICONTROL 共用]**。
-1. 按一下行事曆名稱旁的&#x200B;**更多**功能表。
+1. 按一下行事曆名稱旁的&#x200B;**更多**&#x200B;功能表。
    ![行事曆更多功能表](assets/more-menu-calendar.png)
-按一下**複製公開連結**。
+按一下&#x200B;**複製公開連結**。
 1. 按一下「**[!UICONTROL 儲存]**」。
 
 ## 與私人連結共用行事曆

@@ -47,7 +47,7 @@ ht-degree: 0%
 
 任何對校樣具有編輯許可權的使用者都可以將其解鎖。
 
-如需許可權的詳細資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔。
+如需許可權的詳細資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校訂許可權設定檔。
 
 >[!NOTE]
 >
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 ## 檢視和變更校訂狀態
 
-如需有關檢視處於特定狀態之所有校訂清單的資訊，例如檢視所有作用中或鎖定的校訂，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中檢視頁面上的[管理專案一文中的[管理檢視頁面上的專案 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)。
+如需有關檢視處於特定狀態之所有校訂清單的資訊，例如檢視所有作用中或鎖定的校訂，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中檢視頁面上的管理專案一文中的[管理檢視頁面上的專案 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)。
 
 1. 存取您的[!DNL Workfront Proof]儀表板。
 

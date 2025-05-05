@@ -62,11 +62,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[！UICONTROL Edit]清單所在區域的存取權</p> <p>例如，若要內聯編輯專案中的任務，您需要[！UICONTROL Edit]專案存取權。</p></td> 
+   <td> <p>[!UICONTROL Edit]清單所在區域的存取權</p> <p>例如，若要內聯編輯專案中的任務，您需要[!UICONTROL Edit]專案存取權。</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>[！UICONTROL管理]</p> <p>您也必須有權編輯特定欄位，例如自訂欄位、狀態等。</p>  </td> 
+   <td> <p>[!UICONTROL 管理]</p> <p>您也必須有權編輯特定欄位，例如自訂欄位、狀態等。</p>  </td> 
   </tr> 
  </tbody> 
 </table>

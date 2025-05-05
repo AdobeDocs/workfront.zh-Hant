@@ -21,7 +21,7 @@ ht-degree: 0%
 
 在[!DNL Adobe Workfront]中，投資組合代表競爭相同資源、預算、時程表和優先順序的專案集合。 投資組合的主要目的是協助主管和專案經理選擇處理對組織提供最大利益的專案。
 
-如需投資組合的詳細資訊，請參閱 [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)中的[Portfolio概觀。
+如需投資組合的詳細資訊，請參閱 [!DNL Adobe Workfront][&#128279;](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)中的Portfolio概觀。
 
 ## 存取需求
 
@@ -40,16 +40,16 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>新增：[！UICONTROL Standard] </p>
-   <p>目前： [！UICONTROL計畫] </p> </td> 
+   <td> <p>新增：[!UICONTROL Standard] </p>
+   <p>目前： [!UICONTROL 計畫] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[！UICONTROL Edit]專案與投資組合的存取權</p>  </td> 
+   <td> <p>[!UICONTROL Edit]專案與投資組合的存取權</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>投資組合的[！UICONTROL Manage]許可權</p> <p>檢視專案或更高許可權</p>  </td> 
+   <td> <p>投資組合的[!UICONTROL Manage]許可權</p> <p>檢視專案或更高許可權</p>  </td> 
   </tr> 
  </tbody> 
 </table>

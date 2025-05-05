@@ -36,7 +36,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[！UICONTROL Work]， [！UICONTROL計畫]</p> </td> 
+   <td> <p>[!UICONTROL Work]， [!UICONTROL 計畫]</p> </td> 
   </tr> 
   </tbody> 
 </table>
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 ## 回覆來自[!DNL Google Workspace]的更新通知
 
-1. 如果未顯示Google Workspace]的[!UICONTROL Workfront面板，請按一下頁面最右側[!DNL Google Workspace]附加元件側邊欄中的[!DNL Workfront]圖示![Workfront圖示](assets/wf-lion-icon.png)。
+1. 如果未顯示Google Workspace的Workfront面板，請按一下頁面最右側[!DNL Google Workspace]附加元件側邊欄中的[!DNL Workfront]圖示![Workfront圖示](assets/wf-lion-icon.png)。
 1. 開啟包含更新的[!DNL Workfront]電子郵件通知。
 1. 在[!UICONTROL Google Workspace的Workfront]面板底部附近，按一下&#x200B;**[!UICONTROL 發表評論]**，然後輸入您的回覆。
 1. （選擇性）若要將您的回覆通知給特定使用者，請按一下&#x200B;**[!DNL Notify people and teams]**，開始輸入名稱，然後在名稱出現在下拉式清單中時按一下該名稱。

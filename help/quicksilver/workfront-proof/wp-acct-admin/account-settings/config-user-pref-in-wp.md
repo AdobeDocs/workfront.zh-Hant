@@ -22,7 +22,7 @@ ht-degree: 0%
 
 作為[!DNL Workfront]管理員或[!DNL Workfront Proof]管理員，您可以透過指派使用者設定檔來授予使用者許可權。 當您進行此操作時，使用者可以使用這些許可權來使用系統中的所有校訂。
 
-如需校訂許可權設定檔的相關資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔。
+如需校訂許可權設定檔的相關資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校訂許可權設定檔。
 
 >[!NOTE]
 >

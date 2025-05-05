@@ -99,7 +99,7 @@ ht-degree: 0%
 
 ### [!UICONTROL 使用警告]
 
- [!DNL Workfront] Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中設定為帳務連絡人(1)的[[!UICONTROL 校訂許可權設定檔]，會在您的帳戶達到下列條件時透過電子郵件通知：
+ [!DNL Workfront] Proof[&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中設定為帳務連絡人(1)的[!UICONTROL 校訂許可權設定檔]，會在您的帳戶達到下列條件時透過電子郵件通知：
 
 * 儲存容量的75%和98%
 * 75%然後100%的證明限制

@@ -22,7 +22,7 @@ ht-degree: 0%
 
 在[!DNL Workfront Proof]中，您可以使用資料夾將您要一起處理的校訂或希望檢閱者一起處理的校訂分組。 當您或其他檢閱者開啟其中一個校訂，並啟動校訂檢視器時，資料夾中的所有校訂也會在那裡提供。 您不需離開校訂檢視器，即可檢視其他校訂、排序及搜尋校訂，並互相比較。
 
-如需資料夾的一般資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md)中的[資料夾。
+如需資料夾的一般資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md)中的資料夾。
 
 >[!NOTE]
 >

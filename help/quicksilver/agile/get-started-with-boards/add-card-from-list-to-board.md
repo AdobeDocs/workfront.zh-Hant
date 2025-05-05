@@ -38,14 +38,14 @@ ht-degree: 0%
   <tr>
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td>
    <td>
-   <p>新增：[！UICONTROL Standard]</p> 
+   <p>新增：[!UICONTROL Standard]</p> 
    <p>或</p>
-   <p>目前： [！UICONTROL Work]或更高版本</p>
+   <p>目前： [!UICONTROL Work]或更高版本</p>
    </td>
   </tr>
   <tr>
    <td role="rowheader">物件許可權</td>
-   <td>[！UICONTROL檢視]或更高的任務或問題許可權 </td>
+   <td>[!UICONTROL 檢視]或更高的任務或問題許可權 </td>
   </tr>
  </tbody>
 </table>
@@ -102,7 +102,7 @@ ht-degree: 0%
 1. 移至專案、報告或儀表板，其中包含您要檢視其面板資訊的任務或問題。
 1. 選取包含「面板」欄的檢視，或使用「面板」欄建立新檢視。
 如需檢視的資訊，請參閱[在Adobe Workfront中建立或編輯檢視](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md)。
-1. 按一下欄中的[顯示&#x200B;[!UICONTROL ****]]以顯示任務或問題所在面板的清單。
+1. 按一下欄中的[顯示&#x200B;[!UICONTROL **&#x200B;**]]以顯示任務或問題所在面板的清單。
 
    ![顯示欄](assets/show-boards-in-column.png)中的面板
 

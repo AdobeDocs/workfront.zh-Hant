@@ -36,7 +36,7 @@ ht-degree: 2%
 >
 >* 通常，已解鎖的偏好設定會無限期地保持解鎖狀態。 如果Workfront管理員將其重新鎖定，系統設定將再次生效，並且群組管理員所做的偏好設定設定將遺失。
 >* 為與專案關聯的群組設定的偏好設定優先於為建立專案之使用者的「首頁」群組設定的偏好設定。
->* 有些群組層級偏好設定會影響您為群組建立的專案範本。 如需詳細資訊，請參閱文章[建立及修改群組的專案範本](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)中的「群組」區域](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#view)，一節[「檢視、使用及建立群組的範本」。
+>* 有些群組層級偏好設定會影響您為群組建立的專案範本。 如需詳細資訊，請參閱文章[建立及修改群組的專案範本](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)中的「群組」區域[&#128279;](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#view)，一節「檢視、使用及建立群組的範本」。
 >
 >* Workfront管理員在系統層級解除鎖定偏好設定後，您可以對其進行設定，然後將其鎖定，以確保您的群組及其子群組中的每個人都使用相同的設定。 此功能與Workfront管理員必須為系統中的每個人設定並鎖定偏好設定的功能平行。 如需詳細資訊，請參閱[鎖定或解除鎖定子群組的專案、任務或問題偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md)。
 >
@@ -86,7 +86,7 @@ ht-degree: 2%
 
 1. 按一下您要為其設定解除鎖定任務和問題偏好設定的群組名稱。
 1. 在顯示的群組頁面上，在左側面板中按一下&#x200B;**任務和問題偏好設定**。
-1. 在出現的頁面上，繼續這些步驟下列出的5個區段之一，以設定[新增任務預設值]、[問題]、[刪除]、[實際日期]和[存取]區域的設定，然後按一下[儲存]。****
+1. 在出現的頁面上，繼續這些步驟下列出的5個區段之一，以設定[新增任務預設值]、[問題]、[刪除]、[實際日期]和[存取]區域的設定，然後按一下[儲存]。**&#x200B;**
 
    如果您將滑鼠游標停留在鎖定圖示![鎖定圖示](assets/lock-toggle-button-dimmed.png)上以取得需要設定的偏好設定，且顯示工具提示以告知您已鎖定，您可以要求Workfront管理員為組織中的所有群組解除鎖定。
 

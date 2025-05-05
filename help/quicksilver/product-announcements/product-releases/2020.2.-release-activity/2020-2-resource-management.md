@@ -45,7 +45,7 @@ ht-degree: 0%
 
 為了使工作負載平衡器中的資訊與您相關，您現在可以為工作負載平衡器的未指派工作和指派的工作區域建立篩選器，並儲存它們以供將來使用。 然後您可以編輯儲存的版本以進行小型變更，而不是從頭開始使用新的篩選器。
 
-如需有關在工作負載平衡器中篩選的資訊，請參閱在工作負載平衡器中管理篩選器[](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)
+如需有關在工作負載平衡器中篩選的資訊，請參閱在工作負載平衡器中管理篩選器[&#128279;](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">

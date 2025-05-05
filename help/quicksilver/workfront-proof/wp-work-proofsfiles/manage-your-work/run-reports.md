@@ -40,7 +40,7 @@ Workfront Proof可讓您檢視報表，以便追蹤團隊的工作進度和效�
 
 ### 使用者必要條件 {#user-prerequisites}
 
-報告資訊僅適用於擁有您帳戶中所有校訂完整存取權的使用者（亦即 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中至少有[個校訂許可權設定檔的使用者）。
+報告資訊僅適用於擁有您帳戶中所有校訂完整存取權的使用者（亦即 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中至少有個校訂許可權設定檔的使用者）。
 
 在此面板中，您可以
 
@@ -57,7 +57,7 @@ Workfront Proof可讓您檢視報表，以便追蹤團隊的工作進度和效�
    ![proof_reports.png](assets/proof-reports-350x193.png)
 
 1. 在&#x200B;**[!UICONTROL 時間範圍]**&#x200B;下拉式功能表中，選取您要顯示過去24小時、7天、30天、90天或自訂時段內所建立校樣的相關資訊。\
-   如果您選取自訂時段，請選取開始和結束日期，然後按一下[套用]。****\
+   如果您選取自訂時段，請選取開始和結束日期，然後按一下[套用]。**&#x200B;**\
    系統會顯示所選時段的下列資訊：\
    **建立的校訂：**&#x200B;在選取的時段內建立的校訂數目。\
    **每個校訂的版本：**&#x200B;所選時段內所有已完成校訂（已核准或已核准變更）的每個校訂平均版本數。\

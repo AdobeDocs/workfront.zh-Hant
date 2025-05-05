@@ -37,7 +37,7 @@ ht-degree: 0%
 * 您的[!UICONTROL 安全寄件者]清單
 * 您建立的篩選器，可將這些地址的電子郵件傳送到您的收件匣
 
-您可能還需要從垃圾郵件資料夾中移除任何現有的[!DNL Workfront Proof]封電子郵件，並檢查是否有&quot;[!UICONTROL 來自]&quot;的位址在封鎖的位址清單中。 此說明頁面列出[!DNL Workfront Proof]個]的[!UICONTROL 位址，並顯示如何在下列電子郵件使用者端中將它們新增至垃圾郵件篩選器：
+您可能還需要從垃圾郵件資料夾中移除任何現有的[!DNL Workfront Proof]封電子郵件，並檢查是否有&quot;[!UICONTROL 來自]&quot;的位址在封鎖的位址清單中。 此說明頁面列出[!DNL Workfront Proof]個的位址，並顯示如何在下列電子郵件使用者端中將它們新增至垃圾郵件篩選器：
 
 * [!DNL Gmail]
 * [!DNL Microsoft Outlook 2003 - 2007]

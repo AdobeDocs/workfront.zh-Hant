@@ -76,7 +76,7 @@ ht-degree: 2%
 
    ![比較校樣階層連結](assets/compare-proofs-breadcrumbs-350x148.jpg)
 
-   如需可用來比較兩個校訂之工具的相關資訊，請參閱  [在[在校訂檢視器](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md)中比較校訂](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md#using-compare-tools)中使用比較工具。
+   如需可用來比較兩個校訂之工具的相關資訊，請參閱  [&#128279;](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md#using-compare-tools)在[在校訂檢視器](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md)中比較校訂中使用比較工具。
 
 ## 比較相同校訂的兩個版本
 

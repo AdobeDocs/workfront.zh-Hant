@@ -43,15 +43,15 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[！UICONTROL計畫] </p> </td> 
+   <td> <p>[!UICONTROL 計畫] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
-   <td> <p>[！UICONTROL Edit]對專案和任務的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的[!DNL Workfront]管理員是否對您的存取層級設定了其他限制。 如需[!DNL Workfront]管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td> <p>[!UICONTROL Edit]對專案和任務的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的[!DNL Workfront]管理員是否對您的存取層級設定了其他限制。 如需[!DNL Workfront]管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>[！UICONTROL Manage]專案和任務的存取權 </p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>[!UICONTROL Manage]專案和任務的存取權 </p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -142,7 +142,7 @@ ht-degree: 0%
 
    ![Change_start_end_date.png](assets/change-start-end-date.png)
 
-1. 如果您以影響任務限制的方式變更任務日期，請按一下[接受] ****&#x200B;認可任務限制變更。
+1. 如果您以影響任務限制的方式變更任務日期，請按一下[接受] **&#x200B;**&#x200B;認可任務限制變更。
 
    >[!NOTE]
    >
@@ -212,7 +212,7 @@ ht-degree: 0%
 
 您可以使用工作清單[!UICONTROL 甘特圖]來平準您的資源。
 
-如需[!UICONTROL 甘特圖]中資源平準的相關資訊，請參閱[!UICONTROL 甘特圖]](../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md)中的[平準資源。
+如需[!UICONTROL 甘特圖]中資源平準的相關資訊，請參閱[!UICONTROL 甘特圖][&#128279;](../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md)中的平準資源。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

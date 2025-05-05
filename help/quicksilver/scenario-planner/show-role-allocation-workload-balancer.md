@@ -36,13 +36,13 @@ ht-degree: 1%
    <td> <ul></li>
    <li><p>新增： Ultimate </p></li>
    <p>新的Workfront Select或Workfront Prime計畫無法使用「情境規劃工具」。 </p>
-   <li><p>目前： [！UICONTROL Business]或更高版本</p></ul>
+   <li><p>目前： [!UICONTROL Business]或更高版本</p></ul>
    </td> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 授權*</p> </td> 
    <td> <p>新增：淺色或更高</p> 
-   <p>目前： [！UICONTROL Review]或以上</p> </td> 
+   <p>目前： [!UICONTROL Review]或以上</p> </td> 
   </tr> 
   <tr> 
    <td>產品* </td> 
@@ -109,7 +109,7 @@ ht-degree: 1%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL工作角色]</td> 
+      <td role="rowheader">[!UICONTROL 工作角色]</td> 
       <td> <p>與下列任一專案關聯的工作角色名稱：</p> 
        <ul> 
         <li> <p>專案任務</p> </li> 
@@ -118,16 +118,16 @@ ht-degree: 1%
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL方案時數]</td> 
+      <td role="rowheader">[!UICONTROL 方案時數]</td> 
       <td>在方案總期間內，與方案上每個工作角色相關聯的所需時數。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL計畫時數]</td> 
+      <td role="rowheader">[!UICONTROL 計畫時數]</td> 
       <td>在專案總期間中，與專案上任務或問題中的每個工作角色關聯的計畫時數。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL變數]</td> 
-      <td> <p>方案所需時數與專案工作相關計畫時數之間的差異。 [!DNL Workfront]使用此公式計算[！UICONTROL變異數]：</p> <p><code>Role Allocation Variance = Initiative Hours - Planned Hours</code> </p> <p>當計畫資源的時數超過方案所需的時，該[！UICONTROL差異]為負數且以紅色顯示。 這表示您的資源配置過度。 </p> </td> 
+      <td role="rowheader">[!UICONTROL 變數]</td> 
+      <td> <p>方案所需時數與專案工作相關計畫時數之間的差異。 [!DNL Workfront]使用此公式計算[!UICONTROL 變異數]：</p> <p><code>Role Allocation Variance = Initiative Hours - Planned Hours</code> </p> <p>當計畫資源的時數超過方案所需的時，該[!UICONTROL 差異]為負數且以紅色顯示。 這表示您的資源配置過度。 </p> </td> 
      </tr> 
     </tbody> 
    </table>

@@ -45,11 +45,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[！UICONTROL Edit]對[！UICONTROL報告]、[！UICONTROL儀表板]和[！UICONTROL行事曆的存取權</p></td> 
+   <td> <p>[!UICONTROL Edit]對[!UICONTROL 報告]、[!UICONTROL 儀表板]和&lbrack;！UICONTROL行事曆的存取權</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td>[！UICONTROL Manage]對行事曆報表的存取權</td> 
+   <td>[!UICONTROL Manage]對行事曆報表的存取權</td> 
   </tr> 
  </tbody> 
 </table>
@@ -70,11 +70,13 @@ ht-degree: 0%
    1. 按一下&#x200B;**[!UICONTROL 新增至行事曆].**
    1. 開始輸入您想要新增日曆事件的專案名稱，然後按一下下拉式清單中顯示的名稱。
    1. 按一下&#x200B;**新增**。
+
       ![將專案新增至行事曆](assets/add-a-calendar-project.png)
 
 
 1. （選擇性）若要新增行事曆群組或修改現有的行事曆群組：
    1. 按一下專案名稱旁的&#x200B;**更多**&#x200B;功能表，然後按一下&#x200B;**編輯**。
+
       ![在行事曆中編輯專案](assets/edit-project-in-calendar.png)
 
    1. 選擇您要如何群組專案：

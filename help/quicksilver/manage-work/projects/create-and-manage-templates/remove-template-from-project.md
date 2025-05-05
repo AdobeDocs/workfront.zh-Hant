@@ -88,4 +88,4 @@ ht-degree: 1%
 
      如需建立檢視的相關資訊，請參閱[在Adobe Workfront中的檢視總覽](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)。
 
-1. 選取步驟2中識別為使用範本建立的所有工作，然後按一下&#x200B;**刪除圖示****>是，刪除**。 如需詳細資訊，請參閱[刪除工作](../../../manage-work/tasks/manage-tasks/delete-tasks.md)。
+1. 選取步驟2中識別為使用範本建立的所有工作，然後按一下&#x200B;**刪除圖示**&#x200B;**>是，刪除**。 如需詳細資訊，請參閱[刪除工作](../../../manage-work/tasks/manage-tasks/delete-tasks.md)。

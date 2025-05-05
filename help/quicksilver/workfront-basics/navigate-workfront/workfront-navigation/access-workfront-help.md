@@ -31,7 +31,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>[！UICONTROL Request]或更高版本</p> </td> 
+   <td> <p>[!UICONTROL Request]或更高版本</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 ## 存取Experience League上的[!DNL Adobe Workfront]檔案
 
-1. 移至 [!DNL Experience League]](https://experienceleague.adobe.com/en/docs/workfront/using/home)上的[[!DNL Adobe Workfront] 檔案頁面。
+1. 移至 [!DNL Experience League][&#128279;](https://experienceleague.adobe.com/en/docs/workfront/using/home)上的[!DNL Adobe Workfront] 檔案頁面。
 
 除了搜尋說明檔案之外，您也可以從Experience League存取下列[!DNL Workfront]資源：
 

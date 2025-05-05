@@ -41,15 +41,15 @@ ht-degree: 1%
 
 1. 在熒幕右側的&#x200B;**「新增區塊」**&#x200B;底下：
 
-   將&#x200B;**視覺效果**&#x200B;圖示****直接拖曳至畫布上，到您想要的位置。
+   將&#x200B;**視覺效果**&#x200B;圖示&#x200B;**&#x200B;**&#x200B;直接拖曳至畫布上，到您想要的位置。
 
    或
 
-   連按兩下&#x200B;**視覺效果**&#x200B;圖示****，將視覺效果新增至畫布頂端。
+   連按兩下&#x200B;**視覺效果**&#x200B;圖示&#x200B;**&#x200B;**，將視覺效果新增至畫布頂端。
 
    或
 
-   選取畫布上現有表格頂端的&#x200B;**視覺化**&#x200B;圖示****。
+   選取畫布上現有表格頂端的&#x200B;**視覺化**&#x200B;圖示&#x200B;**&#x200B;**。
 
    >[!TIP]
    >
@@ -61,7 +61,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >如果您選取&#x200B;**+新增表格**，會在視覺效果區塊下方建立新的表格區塊。 您必須先將資料填入表格中，才能為其新增視覺效果。 如需建立及編輯表格的詳細資訊，請參閱[[在報告畫布中新增或編輯表格區塊](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)
+   >如果您選取&#x200B;**+新增表格**，會在視覺效果區塊下方建立新的表格區塊。 您必須先將資料填入表格中，才能為其新增視覺效果。 如需建立及編輯表格的詳細資訊，請參閱[&#128279;](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md) [在報告畫布中新增或編輯表格區塊](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)
 
 1. 選取您要新增的視覺效果型別。
 

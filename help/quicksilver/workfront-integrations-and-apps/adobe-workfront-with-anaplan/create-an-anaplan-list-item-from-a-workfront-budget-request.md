@@ -31,15 +31,15 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
-   <td> <p>[！UICONTROL Pro]或更高版本</p> </td> 
+   <td> <p>[!UICONTROL Pro]或更高版本</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[！UICONTROL計畫]，[！UICONTROL工作]</p> </td> 
+   <td> <p>[!UICONTROL 計畫]，[!UICONTROL 工作]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td> 
-   <td> <p>[！UICONTROL Workfront Fusion for Work Automation and Integration] </p> </td> 
+   <td> <p>[!UICONTROL Workfront Fusion for Work Automation and Integration] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 &#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
 
-&#42;&#42;如需[!DNL  Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)
+&#42;&#42;如需[!DNL &#x200B; Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)
 
 ## 觸發中的事件
 
@@ -81,19 +81,19 @@ ht-degree: 0%
    </thead> 
    <tbody> 
     <tr> 
-     <td role="rowheader">[！UICONTROL預算請求型別]</td> 
-     <td> <p>[！UICONTROL下拉式清單]</p> <p>選項：</p> 
+     <td role="rowheader">[!UICONTROL 預算請求型別]</td> 
+     <td> <p>[!UICONTROL 下拉式清單]</p> <p>選項：</p> 
       <ul> 
-       <li> <p>[！UICONTROL資金調整]</p> </li> 
-       <li> <p>[！UICONTROL初始資金]</p> </li> 
+       <li> <p>[!UICONTROL 資金調整]</p> </li> 
+       <li> <p>[!UICONTROL 初始資金]</p> </li> 
       </ul> </td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[！UICONTROL申請勞力資金]</td> 
+     <td role="rowheader">[!UICONTROL 申請勞力資金]</td> 
      <td> </td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[！UICONTROL請求的費用基金]</td> 
+     <td role="rowheader">[!UICONTROL 請求的費用基金]</td> 
      <td> </td> 
     </tr> 
    </tbody> 
@@ -119,24 +119,24 @@ ht-degree: 0%
    </thead> 
    <tbody> 
     <tr> 
-     <td role="rowheader">[！UICONTROL上市日期]</td> 
-     <td>[！UICONTROL日期] </td> 
+     <td role="rowheader">[!UICONTROL 上市日期]</td> 
+     <td>[!UICONTROL 日期] </td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[！UICONTROL市場結束日期]</td> 
-     <td>[！UICONTROL日期]</td> 
+     <td role="rowheader">[!UICONTROL 市場結束日期]</td> 
+     <td>[!UICONTROL 日期]</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[！UICONTROL行銷活動概覽]</td> 
-     <td>[！UICONTROL RTF欄位]</td> 
+     <td role="rowheader">[!UICONTROL 行銷活動概覽]</td> 
+     <td>[!UICONTROL RTF欄位]</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[！UICONTROL金鑰訊息]</td> 
-     <td>[！UICONTROL RTF欄位]</td> 
+     <td role="rowheader">[!UICONTROL 金鑰訊息]</td> 
+     <td>[!UICONTROL RTF欄位]</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[！UICONTROL目標對象]</td> 
-     <td> <p>[！UICONTROL下拉式清單]</p> <p>包含適合您流程的選項。</p> </td> 
+     <td role="rowheader">[!UICONTROL 目標對象]</td> 
+     <td> <p>[!UICONTROL 下拉式清單]</p> <p>包含適合您流程的選項。</p> </td> 
     </tr> 
    </tbody> 
   </table>

@@ -112,7 +112,7 @@ Workfront Planning中發生下列動作時，您可能會收到應用程式內�
 ## 管理通知偏好設定
 
 1. 使用您的Adobe Experience Cloud憑證登入Workfront。
-1. 按一下畫面右上角的Experience Cloud](assets/account-menu-icon-on-experience-cloud.png)上的&#x200B;**帳戶功能表**&#x200B;圖示![帳戶功能表圖示，然後按一下&#x200B;**偏好設定**。
+1. 按一下畫面右上角的Experience Cloud![&#128279;](assets/account-menu-icon-on-experience-cloud.png)上的&#x200B;**帳戶功能表**&#x200B;圖示帳戶功能表圖示，然後按一下&#x200B;**偏好設定**。
 1. 在&#x200B;**通知**&#x200B;區段下，按一下&#x200B;**Workfront**。
 1. 選取您要收到的通知。
 或

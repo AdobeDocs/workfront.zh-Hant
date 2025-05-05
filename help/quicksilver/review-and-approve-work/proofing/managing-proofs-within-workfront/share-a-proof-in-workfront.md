@@ -75,7 +75,7 @@ ht-degree: 0%
 1. 按一下&#x200B;**共用** > **校訂連結**。
 1. 在出現的&#x200B;**校訂連結**&#x200B;方塊中，執行下列其中一項作業：
 
-   * 若要將連結複製到剪貼簿，請按一下[複製連結]。****
+   * 若要將連結複製到剪貼簿，請按一下[複製連結]。**&#x200B;**
 
      您現在可以透過第三方工具（例如聊天或電子郵件應用程式）發佈連結。
 
@@ -148,7 +148,7 @@ ht-degree: 0%
 1. （選用）設定稽核者的截止日期。
 1. （選擇性）如果您想要讓檢閱者知道您已將他們新增至校訂，請確定已選取&#x200B;**透過電子郵件通知人員**。
 1. （選擇性） **新增自訂訊息**&#x200B;至電子郵件。
-1. 新增所有檢閱者後，請按一下[共用]。****
+1. 新增所有檢閱者後，請按一下[共用]。**&#x200B;**
 
 ### 從校訂檢視器將使用者新增到現有校訂
 
@@ -174,4 +174,4 @@ ht-degree: 0%
 
 當使用者將您新增到校訂並使用Automated Workflow授予核准者角色或檢閱者和核准者角色時，核准請求將顯示在首頁區域的我的核准Widget中。 然後您可以直接從Workfront檢視校樣並對校樣做出核准決定。
 
-如需如何從我的核准Widget做出核准決定的相關資訊，請參閱[從首頁區域核准工作](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-home-area)或[在[核准工作](../../../review-and-approve-work/manage-approvals/approving-work.md)中核准工作](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-my-work-area)。
+如需如何從我的核准Widget做出核准決定的相關資訊，請參閱[從首頁區域核准工作](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-home-area)或[&#128279;](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-my-work-area)在[核准工作](../../../review-and-approve-work/manage-approvals/approving-work.md)中核准工作。

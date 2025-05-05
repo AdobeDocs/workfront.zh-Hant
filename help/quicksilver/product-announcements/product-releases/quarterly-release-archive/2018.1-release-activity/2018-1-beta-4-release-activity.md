@@ -26,7 +26,7 @@ ht-degree: 0%
 
 2018.1 Beta 4版本包含適用於Workfront管理員和其他使用者的增強功能：
 
-管理員的&#x200B;****
+管理員的&#x200B;**&#x200B;**
 
 * [由群組管理員管理的排程](#schedules-managed-by-group-administrators)
 

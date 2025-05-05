@@ -35,7 +35,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td>[！UICONTROL計畫]</td> 
+   <td>[!UICONTROL 計畫]</td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 

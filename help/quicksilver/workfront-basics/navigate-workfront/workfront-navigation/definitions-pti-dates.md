@@ -252,7 +252,7 @@ ht-degree: 3%
 * [設定專案[!UICONTROL 計畫完成日期]](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md)
 * [問題[!UICONTROL 計畫完成日期]的總覽](../../../manage-work/issues/issue-information/issue-planned-completion-date.md)
 
-標頭](assets/project-header-planned-completion-date-highlighted-nwe-350x34.png)中的![計畫完成日期
+標頭![&#128279;](assets/project-header-planned-completion-date-highlighted-nwe-350x34.png)中的計畫完成日期
 
 ![任務清單中的計畫完成日期](assets/planned-completion-date-in-task-list-highlighted-nwe-350x183.png)
 
@@ -287,7 +287,7 @@ ht-degree: 3%
 
 如果一切順利且按計畫進行，[!UICONTROL 預計完成日期]應符合[!UICONTROL 計畫完成日期]。 否則，由於前置任務上的延遲，[!UICONTROL 預計完成日期]可能會與[!UICONTROL 計畫完成日期]不同。
 
-如需詳細資訊，請參閱專案、任務和問題的[專案預計完成日期]的[!UICONTROL 總覽](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md)。
+如需詳細資訊，請參閱專案、任務和問題的[專案預計完成日期]的[[!UICONTROL 總覽]](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md)。
 
 ![預計完成日期](assets/projected-completion-date-in-task-details-highlighted-nwe-350x187.png)
 

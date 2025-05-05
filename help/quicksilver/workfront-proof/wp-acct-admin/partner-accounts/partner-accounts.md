@@ -24,5 +24,5 @@ ht-degree: 0%
 
 本節包含下列文章：
 
-* [管理 [!DNL Workfront Proof ]帳戶之間的夥伴關係](../../../workfront-proof/wp-acct-admin/partner-accounts/manage-partner-relationship-between-wp-accts.md)
+* [管理 [!DNL Workfront Proof &#x200B;]帳戶之間的夥伴關係](../../../workfront-proof/wp-acct-admin/partner-accounts/manage-partner-relationship-between-wp-accts.md)
 * [在 [!DNL Workfront Proof]中與夥伴共用專案](../../../workfront-proof/wp-acct-admin/partner-accounts/share-items-partner-in-wp.md)

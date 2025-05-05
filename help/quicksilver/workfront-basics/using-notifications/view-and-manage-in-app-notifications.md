@@ -42,7 +42,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>[！UICONTROL Request]或更高版本</p> </td> 
+   <td> <p>[!UICONTROL Request]或更高版本</p> </td> 
   </tr> 
  </tbody> 
 </table>

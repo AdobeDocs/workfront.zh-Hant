@@ -20,9 +20,9 @@ ht-degree: 0%
 >
 >本文提及獨立產品[!DNL Workfront Proof]中的功能。 有關[!DNL Adobe Workfront]內部校訂的資訊，請參閱[校訂](../../../review-and-approve-work/proofing/proofing.md)。
 
-附屬帳戶是您從自己的[!DNL Workfront Proof]帳戶中設定並管理的付費帳戶。 如需詳細資訊，請參閱 [!DNL Workfront] 校訂](../../../workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md)中的[附屬帳戶。
+附屬帳戶是您從自己的[!DNL Workfront Proof]帳戶中設定並管理的付費帳戶。 如需詳細資訊，請參閱 [!DNL Workfront] 校訂[&#128279;](../../../workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md)中的附屬帳戶。
 
-任何帳單管理員都可以建立Satellite帳戶。 如需有關帳單管理員的資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[[!UICONTROL 校訂許可權設定檔]。
+任何帳單管理員都可以建立Satellite帳戶。 如需有關帳單管理員的資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[!UICONTROL 校訂許可權設定檔]。
 
 >[!NOTE]
 >
@@ -76,7 +76,7 @@ ht-degree: 0%
 1. 按一下頁面右上角的&#x200B;**[!UICONTROL 新增使用者]**&#x200B;按鈕。 (2)\
    顯示[!DNL New User]頁面。
 
-1. 輸入使用者的詳細資料，然後按一下[儲存]。****\
+1. 輸入使用者的詳細資料，然後按一下[儲存]。**&#x200B;**\
    使用者會收到電子郵件通知，告知其可存取該帳戶。
 
 新增至Satellite帳戶的使用者會在中心帳戶的連絡人清單中顯示為成員。
