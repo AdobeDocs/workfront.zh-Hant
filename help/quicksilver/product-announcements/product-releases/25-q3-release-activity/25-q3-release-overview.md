@@ -58,7 +58,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">校訂檢視器中可用的新檔案核准決定按鈕</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">校訂檢視器中可用的新檔案核准決定按鈕</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
             <p>新檔案核准決定按鈕現在會出現在校訂檢視器中。 現在，當您建立簡單的校訂，然後從檔案摘要新增核准者和稽核者時，他們可以直接在校訂檢視器中做出決定。</p>
         </td>
         <td>2025年4月10日</td>
@@ -104,7 +104,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-update-and-notification-enhancements.md" class="MCXref xref" xrefformat="{para}">將人員新增至評論時修改體驗</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-update-and-notification-enhancements.md" class="MCXref xref" xrefformat="{para}">將人員新增至評論時修改體驗</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
             <p>為了改善效能，我們在新增評論人員時引進了修改後的體驗。 現在，在您開始將使用者或團隊新增到評論後，「標籤人員或團隊」連結在「評論」方塊中持續存在。 </p>
         </td>
         <td>2025年4月30日</td>
