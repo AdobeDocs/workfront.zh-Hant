@@ -87,7 +87,7 @@ ht-degree: 0%
 
 1. 輸入&#x200B;**延遲**&#x200B;量。
 
-   如需詳細資訊，請參閱{&#x200B;0}延遲型別概觀](../../../manage-work/tasks/use-prdcssrs/lag-types.md)。[
+   如需詳細資訊，請參閱{&#x200B;0}延遲型別概觀[&#128279;](../../../manage-work/tasks/use-prdcssrs/lag-types.md)。
 
    ![新增前置任務對話方塊](assets/add-predecessor-dialog-box.png)
 
