@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront中檢視您建立或與您共用的行�
 author: Lisa
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: 3e5fdb157a6ff29daf964b505d3a0bf4f9842e88
+source-git-commit: 83b425998de978fef4998f407960a2489e1320b4
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
@@ -41,11 +41,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[!UICONTROL 檢視]或更高許可權可存取[!UICONTROL 報表]、[!UICONTROL 儀表板]和[!UICONTROL 行事曆]</p></td> 
+   <td> <p>[！UICONTROL檢視]或更高許可權可存取[！UICONTROL報表]、[！UICONTROL儀表板]和[！UICONTROL行事曆]</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td>[!UICONTROL 檢視]或日曆報告的較高許可權</td> 
+   <td>[！UICONTROL檢視]或日曆報告的較高許可權</td> 
   </tr> 
  </tbody> 
 </table>
@@ -74,7 +74,7 @@ ht-degree: 0%
 
      若要瞭解共用行事曆，請參閱[[!UICONTROL 共用行事曆]報告](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)。
 
-1. （視條件而定）按一下&#x200B;**[!UICONTROL 檢視]**&#x200B;下拉式清單，然後選取您要檢視的行事曆持續時間。
+1. （視條件而定）按一下&#x200B;**[!UICONTROL 檢視]**下拉式清單，然後選取您要檢視的行事曆持續時間。
    ![行事曆持續時間](assets/view-menu-calendar-report-350x189.png)
 您可以從下列行事曆報表檢視中進行選擇：
 
@@ -90,21 +90,21 @@ ht-degree: 0%
 
 1. （選擇性）如果您是以[!UICONTROL 月]或[!UICONTROL 周]檢視檢視檢視檢視行事曆，可以使用下列選項變更行事曆檢視：
 
-   * 若要包含或排除週末：
+<!--   * To include or exclude weekends:
 
-      1. 在&#x200B;**[!UICONTROL 行事曆]**&#x200B;工具列上，按一下&#x200B;**[!UICONTROL 行事曆動作]**，然後從下拉式清單中選取&#x200B;**[!UICONTROL 顯示週末]**&#x200B;或&#x200B;**[!UICONTROL 隱藏週末]**。
+      1. On the **[!UICONTROL Calendar]** toolbar, click **[!UICONTROL Calendar Actions]**, then from the drop-down list select either **[!UICONTROL Show Weekend]** or **[!UICONTROL Hide Weekend]**.-->
 
-   * 若要快速變更顯示的日期：
+* 若要快速變更顯示的日期：
 
-      1. 在&#x200B;**[!UICONTROL 行事曆]**&#x200B;工具列上，按一下日期指示器的左箭頭在行事曆中往回移動，或按一下右箭頭往前移動。
+   1. 在&#x200B;**[!UICONTROL 行事曆]**&#x200B;工具列上，按一下日期指示器的左箭頭在行事曆中往回移動，或按一下右箭頭往前移動。
 
-         ![按一下箭頭以變更日期](assets/click-arrows-to-change-dates-calendar-report.png)\
-         顯示的日期會根據您目前的行事曆檢視調整間隔。 例如，如果您在[!UICONTROL 周]檢視中檢視行事曆，行事曆會向前顯示一週，或向後顯示一週，視您選取的箭頭而定。
+      ![按一下箭頭以變更日期](assets/click-arrows-to-change-dates-calendar-report.png)\
+      顯示的日期會根據您目前的行事曆檢視調整間隔。 例如，如果您在[!UICONTROL 周]檢視中檢視行事曆，行事曆會向前顯示一週，或向後顯示一週，視您選取的箭頭而定。
 
-      1. （選擇性）若要返回當天，請按一下&#x200B;[!UICONTROL **今天**]。
+   1. （選擇性）若要返回當天，請按一下&#x200B;[!UICONTROL **今天**]。
 
 
-1. （選擇性）若要以全熒幕檢視行事曆，請按一下&#x200B;**[!UICONTROL 行事曆]**&#x200B;工具列右側的全熒幕箭頭。
+1. （選擇性）若要以全熒幕檢視行事曆，請按一下&#x200B;**[!UICONTROL 行事曆]**工具列右側的全熒幕箭頭。
    ![按一下箭頭以變更日期](assets/click-arrows-to-change-dates-calendar-report.png)\
    按下Esc鍵以返回行事曆的正常檢視。
 
