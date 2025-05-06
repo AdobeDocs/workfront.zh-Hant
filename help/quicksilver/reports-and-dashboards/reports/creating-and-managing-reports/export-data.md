@@ -2,22 +2,22 @@
 product-area: reporting
 navigation-topic: create-and-manage-reports
 title: 匯出資料
-description: 您可以從各種清單、報表、控制面板和搜尋匯出Adobe Workfront資料。
+description: 您可以從清單、報表、控制面板及搜尋匯出Adobe Workfront資料。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: ae3fc73e93474c75fd03144b66af23f7142867c0
 workflow-type: tm+mt
-source-wordcount: '2247'
+source-wordcount: '2264'
 ht-degree: 0%
 
 ---
 
 # 匯出資料
 
-<!-- Audited: 12/2023 -->
+<!-- Audited: 5/2025 -->
 
-您可以從各種清單、報表、控制面板和搜尋匯出Adobe Workfront資料。
+您可以從清單、報表、控制面板及搜尋匯出Adobe Workfront資料。
 
 匯出資料的部分原因包括：
 
@@ -97,14 +97,14 @@ ht-degree: 0%
 
 資訊可以下列格式匯出：
 
-* PDF （字母橫向或縱向、法律、分類帳及A4）
-* Excel (.xls)
+* PDF （橫向或縱向）
+* Excel
 * Excel (.xlsx)
 * 頁籤分隔檔
 
 >[!NOTE]
 >
->控制面板只能列印或匯出為.pdf檔案。
+>控制面板只能列印或匯出到PDF檔案。
 
 ### 匯出限制 {#export-limits}
 
@@ -115,10 +115,10 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 關於報表在Workfront中的顯示方式，以及透過手動匯出、已傳送報表或透過API匯出的方式，有一些限制。
 
 * **50,000個儲存格：**&#x200B;報表匯出Excel檔案時允許的儲存格數目上限。
-* **50,000列：**&#x200B;報表匯出中允許用於.pdf和Tab分隔檔案的資料列數。
+* **50,000列：**&#x200B;報表匯出中允許用於PDF和Tab分隔檔案的資料列數。
 
-   * 若是Excel .xls檔案，此限製為&#x200B;**65,000列**。
-   * 若為Excel .xlsx檔案，此限製為&#x200B;**100,000列**。
+   * 若為Excel檔案，此限製為&#x200B;**65,000列**。
+   * 對於Excel(.xlsx)檔案，此限製為&#x200B;**100,000列**。
    * 這些限制會排除欄標題，以及報表中分組的列。 例如，如果報表中有6個群組，且有50,000列資料，則匯出的檔案會有50,000列。
 
   >[!IMPORTANT]
@@ -153,7 +153,7 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
      如需有關匯出專案使用率資訊的詳細資訊，請參閱[資源使用率報告概述](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md#exporting-utilization-information-for-a-project)。
 
 * **10MB檔案大小：**&#x200B;任何排定傳送之匯出報告的檔案大小限制。 如果附加至電子郵件的匯出檔案大於5MB，則會以電子郵件傳送可下載該檔案的連結，而非附加的匯出報告。
-* **65,530個超連結：**&#x200B;這是Excel對包含超過65,530個超連結的檔案所強加的限制。 以手動方式匯出或以傳送的報表傳送檔案時，無法開啟這些檔案。 請注意，一個Excel檔案可能只有200列資料，但如果檔案中有超過65,530個連結，則檔案不會開啟。 此限制僅存在於Excel檔案中，不存在於其他支援的格式中。 
+* **65,530個超連結：**&#x200B;這是Excel對包含超過65,530個超連結的檔案所強加的限制。 以手動方式匯出或以傳送的報表傳送檔案時，無法開啟這些檔案。 請注意，一個Excel檔案可能只有200列資料，但如果檔案中有超過65,530個連結，則檔案不會開啟。 此限制僅存在於Excel檔案中，不存在於其他支援的格式中。
 * **256欄**：這是Excel對包含超過256欄的檔案所施加的限制。 這些檔案無法手動匯出，或以傳送的報告傳送。 此限制僅存在於Excel檔案中，不存在於其他支援的格式中。
 
   >[!IMPORTANT]
@@ -175,7 +175,7 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 ### 從報表或清單匯出資料 {#export-data-from-a-report-or-list}
 
 1. 前往您要匯出的報告或清單。
-1. 選取要匯出的專案。 （選取個別專案只會匯出您選取的專案。）
+1. 選取要匯出的專案。 選取個別專案只會匯出您選取的專案。
 
    例如，在專案中，選取要匯出的任務。
 
@@ -197,30 +197,24 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
    按一下&#x200B;**匯出**&#x200B;圖示![匯出圖示](assets/export-icon-nwe.png)，然後選取格式。
 
-   您可用於PDF匯出的選項取決於Workfront使用者設定中的地區設定：
+   您可用於PDF匯出的選項取決於Workfront使用者設定中的電子郵件地區設定：
 
-   * 北美洲 — 信件（預設）、法律、分類帳、A4
+   * 北美 — 信紙 — 橫向、信紙 — 縱向、其他尺寸
 
-     <!--   
-     <img src="assets/north-america.jpg" alt="" data-mc-conditions="QuicksilverOrClassic.Draft mode">   
-     -->
-
-   * 北美以外的所有地點 — A3、A4 （預設）、信件、法律、分類帳
-
-     <!--   
-     <img src="assets/everywhere-else.jpg" alt="" data-mc-conditions="QuicksilverOrClassic.Draft mode">   
-     -->
+   * 北美以外的所有位置 — A4 — 橫向、A4 — 縱向、其他尺寸
 
 1. （視條件而定）視您使用的作業系統而定，您可以選擇開啟或儲存檔案。 使用關聯的應用程式開啟檔案，或將其儲存到硬碟。
-1. 繼續[使用匯出的檔案](#use-the-exported-document)。
+1. 若要瞭解資訊在匯出的檔案中的顯示方式，請繼續閱讀本文章節[使用匯出的檔案](#use-the-exported-document)。
 
 ### 從儀表板匯出資料 {#export-data-from-a-dashboard}
 
-您可以從儀表板列印資訊，也可以將其匯出為.pdf檔案。
+您可以從控制面板列印資訊，或將其匯出為PDF檔案。
 
 如需從儀表板匯出資料的詳細資訊，請參閱[匯出儀表板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md)。
 
 ## 使用匯出的檔案 {#use-the-exported-document}
+
+下列段落說明資訊在匯出檔案中的顯示方式：
 
 * [檔案名稱](#file-names)
 * [標題](#titles)
@@ -308,11 +302,11 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
 ### 格式設定 {#formatting}
 
-將專案匯出為.pdf時，任何子任務都會以縮排顯示為其父任務。 匯出的清單不會摺疊任何父系任務。
+將專案匯出至PDF時，任何子任務都會以縮排顯示為其父任務。 匯出的清單不會摺疊任何父系任務。
 
 除非報表有特殊檢視，否則在傳送或排程傳送報表時，您一律會收到報表的預設標籤。
 
-如果您的報表在Web應用程式中具有特殊格式，則在傳送「詳細資料」和「矩陣」標籤時，報表應具有特殊格式，僅適用於.pdf和Excel檔案。
+如果您的報表在Web應用程式中具有特殊格式，則在傳送「詳細資料」和「矩陣」標籤時，報表應具有特殊格式，僅適用於PDF和Excel檔案。
 
 >[!NOTE]
 >
@@ -322,11 +316,11 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
 ### 連結 {#links}
 
-連結可以指向Workfront中支援連結的任何物件。 當您將Workfront中的清單匯出為.pdf時，原始檔案中任何支援的連結都會保留在匯出的檔案中。
+連結可以指向Workfront中支援連結的任何物件。 當您將Workfront中的清單匯出至PDF時，原始檔案中任何支援的連結都會保留在匯出的檔案中。
 
 >[!TIP]
 >
->如果自訂欄位欄的行`valueformat=HTML`以文字模式顯示，而連結值未顯示在匯出的.pdf檔案中，則您必須在文字模式中輸入額外的欄位程式碼行。
+>如果自訂欄位欄的行`valueformat=HTML`以文字模式顯示，並且連結值未顯示在匯出的PDF檔案中，則您必須在文字模式中為欄輸入額外的程式碼行。
 >
 >例如，如果您有一個名為「開啟第1季專案」的自訂欄位，其中包含連結，您可以新增下列程式碼：
 >
@@ -343,7 +337,7 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 >
 >如果您的組織已上線Adobe Experience Cloud，將無法使用品牌推廣。
 
-如果您的Workfront管理員已將自訂品牌新增至全域導覽列的Workfront執行個體，則匯出的.pdf檔案也會包含您的個人化標誌。
+如果您的Workfront管理員已將自訂品牌新增至全域導覽列的Workfront執行個體，則匯出的PDF檔案也會包含您的個人化標誌。
 
 以任何其他格式匯出的資料無法以您的標誌進行個人化。
 
