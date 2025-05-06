@@ -41,11 +41,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[！UICONTROL檢視]或更高許可權可存取[！UICONTROL報表]、[！UICONTROL儀表板]和[！UICONTROL行事曆]</p></td> 
+   <td> <p>[!UICONTROL 檢視]或更高許可權可存取[!UICONTROL 報表]、[!UICONTROL 儀表板]和[!UICONTROL 行事曆]</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td>[！UICONTROL檢視]或日曆報告的較高許可權</td> 
+   <td>[!UICONTROL 檢視]或日曆報告的較高許可權</td> 
   </tr> 
  </tbody> 
 </table>
@@ -74,7 +74,7 @@ ht-degree: 0%
 
      若要瞭解共用行事曆，請參閱[[!UICONTROL 共用行事曆]報告](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)。
 
-1. （視條件而定）按一下&#x200B;**[!UICONTROL 檢視]**下拉式清單，然後選取您要檢視的行事曆持續時間。
+1. （視條件而定）按一下&#x200B;**[!UICONTROL 檢視]**&#x200B;下拉式清單，然後選取您要檢視的行事曆持續時間。
    ![行事曆持續時間](assets/view-menu-calendar-report-350x189.png)
 您可以從下列行事曆報表檢視中進行選擇：
 
@@ -104,7 +104,7 @@ ht-degree: 0%
    1. （選擇性）若要返回當天，請按一下&#x200B;[!UICONTROL **今天**]。
 
 
-1. （選擇性）若要以全熒幕檢視行事曆，請按一下&#x200B;**[!UICONTROL 行事曆]**工具列右側的全熒幕箭頭。
+1. （選擇性）若要以全熒幕檢視行事曆，請按一下&#x200B;**[!UICONTROL 行事曆]**&#x200B;工具列右側的全熒幕箭頭。
    ![按一下箭頭以變更日期](assets/click-arrows-to-change-dates-calendar-report.png)\
    按下Esc鍵以返回行事曆的正常檢視。
 
