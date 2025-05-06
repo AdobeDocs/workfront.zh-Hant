@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront中將檔案新增到多個區域中的�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
+source-git-commit: a69193eb7a98949222f71561b44d8fecea4dd496
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '763'
 ht-degree: 1%
 
 ---
@@ -123,7 +123,7 @@ Workfront網站可透過檔案以下列方式防止病毒和其他惡意內容�
 
 如果已啟用檔案掃描，則會在上傳檔案時掃描25 MB以下的檔案。 不會掃描超過25 MB的檔案。
 
-如果Workfront偵測到檔案損毀，Workfront會停止上傳程式，並顯示檔案損毀訊息。 當Workfront偵測到潛在的惡意內容且檔案已設定為要移除時，您也會收到電子郵件通知。
+如果Workfront偵測到檔案損毀，則會出現一則訊息，指出檔案已損毀。 當Workfront偵測到潛在的惡意內容且檔案已設定為要移除時，您也會收到電子郵件通知。
 
 損毀的檔案會在偵測到24小時內移除，除非您手動移除。 如果您刪除損壞的檔案，Workfront會將此動作作為更新加以追蹤。 如果您允許Workfront將其移除，則不會記錄任何更新。
 
