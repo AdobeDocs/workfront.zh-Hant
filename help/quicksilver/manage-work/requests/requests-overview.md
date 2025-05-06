@@ -2,20 +2,22 @@
 content-type: overview;reference
 product-area: requests
 navigation-topic: projects-navigation-topic
-title: 請求
+title: 請求：文章索引
 description: 在以下章節瞭解有關建立請求和請求佇列的資訊。
 author: Lisa
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: f7c12f06-868e-45da-816b-4eb94e06c783
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
 workflow-type: tm+mt
-source-wordcount: '27'
-ht-degree: 7%
+source-wordcount: '31'
+ht-degree: 0%
 
 ---
 
-# 請求
+# 請求：文章索引
+
+<!-- Audited: 5/2025 -->
 
 本節包含下列子章節：
 

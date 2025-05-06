@@ -2,20 +2,22 @@
 content-type: reference
 product-area: projects
 navigation-topic: tasks
-title: 任務資訊
+title: 任務資訊：文章索引
 description: 任務是指有助於完成Adobe Workfront中專案的工作專案。 在下列文章中瞭解任務資訊。
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 2c0e7f40-f680-4e7e-8827-be69703a393f
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---
 
-# 任務資訊
+# 任務資訊：文章索引
+
+<!-- Audited: 5/2025 -->
 
 本節包含下列文章：
 
