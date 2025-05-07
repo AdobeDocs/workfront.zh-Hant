@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
 workflow-type: tm+mt
-source-wordcount: '3205'
+source-wordcount: '3497'
 ht-degree: 2%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 2%
 <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
    <td>   <p>管理檢視的許可權</p>  
-   <p>檢視許可權以暫時變更檢視設定</p> </td> 
+   <p>檢視許可權以暫時變更檢視設定或複製檢視 <!--<span class="preview">or to export the view</span>--></p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>版面配置範本</p></td> 
@@ -509,9 +509,11 @@ To sort grouped records:
 
 1. （選擇性）開啟[列色彩]方塊右上角的&#x200B;**套用至整列**&#x200B;設定。 符合條件的整列會自動以選取的顏色顯示。
 
-   >[!TIP]
+   >[!NOTE]
    >
-   >如果關閉「套用至整個列」設定，則只有「主要」欄位的左側會顯示具有所選顏色的窄顏色指示器。 此設定預設為關閉。
+   >* 如果關閉「套用至整個列」設定，則只有「主要」欄位的左側會顯示具有所選顏色的窄顏色指示器。 此設定預設為關閉。
+   >
+   >* 在表格檢視中選取至少一個群組時，您無法將列顏色套用至整列。
 
 1. 按一下&#x200B;**列色彩**&#x200B;方塊外部以將其關閉。 會自動套用顏色。
 
@@ -525,3 +527,49 @@ To sort grouped records:
 
 如需詳細資訊，請參閱文章[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)中的「啟用即時顯示狀態指示器」一節。
 
+<div class="preview">
+
+## 匯出表格檢視
+
+您可以將表格檢視中的資訊匯出為CSV或Excel檔案。
+
+匯出表格檢視時，請考量下列事項：
+
+* 匯出至Excel檔案的資訊會保留套用至Workfront Planning表格檢視的篩選器、群組和排序。 群組在CSV檔案中不可見。
+
+* 匯出的檔案不支援縮圖和自訂列顏色。
+
+* 只會匯出Workfront介面中顯示的欄位。 隱藏欄位不會匯出。
+
+若要從表格檢視或記錄型別匯出資訊，請執行下列動作：
+
+1. 移至記錄型別頁面，然後按一下表格檢視標籤。
+1. 暫留在表格檢視標簽名稱上，然後按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)。
+1. 按一下&#x200B;**匯出**，然後選取下列其中一種格式：
+
+   * Excel
+   * CSV
+
+   >[!IMPORTANT]
+   >
+   >當您在熒幕上顯示不同的檢視時，無法從表格檢視中匯出資訊。 您必須顯示要匯出的表格檢視，才能存取「更多」選單中的「匯出」選項。
+
+   檔案已下載到您的電腦。
+
+1. （選擇性）前往電腦上的下載資料夾，並尋找已下載的檔案。
+
+   匯出的檔案名稱會遵循下列格式：
+
+   `Name of the view - name of the record type`
+
+   例如，促銷活動記錄型別的表格檢視會產生名為`Table view - Campaigns`的檔案。
+
+   檔案會顯示下列資訊：
+
+   * 在Excel檔案中，欄標題會以黑色反白
+   * Workfront介面中可見的所有欄位，皆依相同條件排序和篩選
+   * 群組會保留在Excel檔案中
+
+   您現在可以與其他人共用匯出的檔案，或將它們附加到任何通訊中。
+
+</div>

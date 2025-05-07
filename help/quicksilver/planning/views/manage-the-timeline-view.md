@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
 workflow-type: tm+mt
-source-wordcount: '2874'
+source-wordcount: '2878'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 0%
 <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
    <td>   <p>管理檢視的許可權</p>  
-   <p>檢視許可權以暫時變更檢視設定</p> </td> 
+   <p>檢視許可權以暫時變更檢視設定或複製檢視</p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>版面配置範本</p></td> 

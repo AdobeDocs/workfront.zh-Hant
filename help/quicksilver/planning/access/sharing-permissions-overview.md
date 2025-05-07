@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+source-git-commit: 3550d7addcc0bb790f15d141d9470e0b75f940a6
 workflow-type: tm+mt
-source-wordcount: '1122'
+source-wordcount: '1227'
 ht-degree: 5%
 
 ---
@@ -44,19 +44,18 @@ ht-degree: 5%
 
   如需詳細資訊，請參閱[共用工作區](/help/quicksilver/planning/access/share-workspaces.md)
 
-<!--
 <div class="preview">
 
-* Record types
+* 記錄類型
 
-    * You can share record types with people inside your organization.
-    * The level of permissions granted for the workspace displays as Inherited permissions for the record type. 
-    * You cannot share a record type with a higher permission level than the user has on the workspace. 
+   * 您可以和組織內部人員共用記錄型別。
+   * 授予工作區的許可權層級會顯示為記錄型別的繼承許可權。
+   * 您無法以高於使用者在工作區上的許可權層級來共用記錄型別。
 
-    For more information, see [Share record types](/help/quicksilver/planning/access/share-record-types.md). 
+  如需詳細資訊，請參閱[共用記錄型別](/help/quicksilver/planning/access/share-record-types.md)。
 
 </div>
--->
+
 
 * 檢視
 
@@ -67,7 +66,7 @@ ht-degree: 5%
 
   如需詳細資訊，請參閱[共用檢視](/help/quicksilver/planning/access/share-views.md)。
 
-在內部，您可以與下列Workfront實體共用工作區或檢視：
+在內部，您可以與下列Workfront實體共用工作區、檢視、<span class="preview">或記錄型別</span>：
 
 * 使用者
 * 群組
@@ -76,6 +75,11 @@ ht-degree: 5%
 * 職務角色
 
 <span class="preview">當您與他人共用工作區和記錄型別時，記錄型別的許可權層級會自動繼承到與其關聯的記錄和欄位。</span>
+
+>[!IMPORTANT]
+>
+>如果您組織的Workfront例項已上線至Adobe統一體驗，則您想要與其共用Planning物件的使用者必須新增至Adobe Admin Console。 您無法與尚未新增至Adobe Admin Console的Workfront使用者共用Planning物件。
+
 
 ## 在Adobe Workfront Planning中共用物件的相關考量事項
 

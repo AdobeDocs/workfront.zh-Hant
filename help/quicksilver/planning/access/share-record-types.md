@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 3550d7addcc0bb790f15d141d9470e0b75f940a6
 workflow-type: tm+mt
-source-wordcount: '1517'
+source-wordcount: '1509'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 0%
    <td role="rowheader"><p>Adobe Workfront平台</p></td> 
    <td> 
 <p>貴組織的Workfront例項必須上線至Adobe Unified Experience，才能存取Workfront Planning的所有功能。</p> 
-<p>您的組織必須加入Adobe Unified Experience，使用者才能從許可權要求中要求並授予檢視的許可權。 </p>
+<p>必須將使用者新增到Adobe Admin Console才能取得Workfront Planning檢視的許可權。</p>
 <p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">適用於Workfront的Adobe Unified Experience</a>。 </p> 
    </td> 
    </tr> 
@@ -199,7 +199,7 @@ ht-degree: 0%
 
 ## 移除記錄型別的許可權
 
-您可以從記錄型別中移除使用者的許可權。 但他們將保留對工作區的至少檢視存取權，這讓他們有權至少檢視記錄型別。 如果您希望他們沒有工作區中記錄型別的許可權，則必須從工作區中移除他們的存取權。
+您可以從記錄型別中移除使用者的許可權。 但他們將保留工作區的至少檢視許可權，這也會授予他們記錄型別的至少檢視許可權。 如果您希望他們沒有工作區中記錄型別的許可權，則必須從工作區中移除他們的存取權。
 
 {{step1-to-planning}}
 

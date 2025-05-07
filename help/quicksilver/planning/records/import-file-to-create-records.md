@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '1002'
 ht-degree: 1%
 
 ---
@@ -112,7 +112,12 @@ ht-degree: 1%
 * 檔案不應大於5MB。
 * 不支援空白工作表。
 * 不支援下列型別的欄位，且無法對應至匯入工作表上的欄位：
-   * 連線記錄的連線和查閱欄位<!--or connected Workfront objects-->
+
+   * <!--In the Production environment,--> Planning記錄或Workfront和AEM Assets物件的連線欄位
+
+     <!--<span class="preview">In the Preview environment, you can map and import connection fields to Planning records. </span>-->
+
+   * 從連線的Planning記錄或Workfront與AEM Assets物件查詢欄位
    * 公式欄位
    * 建立日期，建立者
    * 上次修改日期，上次修改者：

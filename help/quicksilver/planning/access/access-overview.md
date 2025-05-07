@@ -6,7 +6,7 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
+source-git-commit: 3550d7addcc0bb790f15d141d9470e0b75f940a6
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 2%
@@ -132,10 +132,6 @@ ht-degree: 2%
 </table>
 
 *如需Workfront存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
-
-
-
-
 
 
 ## 使用版面配置範本共用Planning區域
