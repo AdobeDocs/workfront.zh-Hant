@@ -109,7 +109,7 @@ ht-degree: 1%
 * 不支援空白工作表。
 * 不支援下列型別的欄位，且無法對應至匯入工作表上的欄位：
 
-   * <!--In the Production environment,--> Planning記錄或Workfront和AEM Assets物件的連線欄位
+   * &#x200B;<!--In the Production environment,--> Planning記錄或Workfront和AEM Assets物件的連線欄位
 
      <!--<span class="preview">In the Preview environment, you can map and import connection fields to Planning records. </span>-->
 
@@ -161,7 +161,7 @@ ht-degree: 1%
 
 1. （視條件而定）更新欄位相關資訊後，按一下&#x200B;**儲存**。
 
-1. 當您準備好匯入您的檔案時，請按一下[匯入]。****
+1. 當您準備好匯入您的檔案時，請按一下[匯入]。**&#x200B;**
 
    下列資訊會匯入Workfront Planning中：
 

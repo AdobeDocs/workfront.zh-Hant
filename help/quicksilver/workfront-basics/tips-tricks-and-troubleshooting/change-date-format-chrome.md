@@ -21,7 +21,7 @@ ht-degree: 0%
 >
 > 本文資訊僅適用於尚未上線Adobe Unified Experience的組織。
 > 如果您的組織已加入Adobe Unified Experience，您的日期偏好設定是由Adobe Unified Shell中設定的語言偏好設定所控制。 預設語言設定（因此也是預設日期設定）是`en-US`。
-> 如需詳細資訊，請參閱 [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md/#access-your-profile-and-preferences)的[[!DNL Adobe Unified Experience] 。
+> 如需詳細資訊，請參閱 [!DNL Workfront][&#128279;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md/#access-your-profile-and-preferences)的[!DNL Adobe Unified Experience] 。
 
 您可以在[!DNL Adobe Workfront]中變更日期的日期格式，例如[!UICONTROL 計畫完成日期]、[!UICONTROL 實際完成日期]或[!UICONTROL 預計完成日期]。
 
