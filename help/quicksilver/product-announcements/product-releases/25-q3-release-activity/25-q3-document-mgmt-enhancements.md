@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: d072b8e9c657e970c12f75a304f63e04d0512505
+source-git-commit: f9de87b7b874910cb986cbf6d57e998afe602bb8
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '346'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,25 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >此頁面上列出的功能屬於分階段發行的一部分，僅適用於特定客戶。
+
+## 已連結Google資料夾中的Assets必須個別新增，才能在Workfront中顯示
+
+>[!NOTE]
+>
+>* 預覽版本： 2025年5月31日；適用於所有客戶的生產版本： 2025年5月31日
+
+Google針對存取Google Drive的協力廠商應用程式[加強安全性控制](https://workspace.google.com/blog/product-announcements/enhancing-security-controls-for-google-drive-third-party-apps)，要求應用程式採用每位使用者的同意模式。 因此，個別資產必須一次連結一個資產，才能在Workfront中顯示。 如需詳細資訊，請參閱[設定檔案整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md)。
+
+維持不變的主要功能：
+
+* 在Google磁碟機模式中搜尋並篩選資產和資料夾
+* 從Google Drive將資產連結至Workfront物件
+* 透過檔案頁面上的「傳送至」下拉式清單，將資產上傳至Google Drive
+* 在使用者的「我的磁碟機」區域中檢視及存取資料夾結構
+* 從Google Drive將資產的新版本連結至Workfront中的現有檔案
+* 從Google Drive將資料夾連結至Workfront物件
+* 將檔案拖放至連結資料夾，即可將資產上傳至Google Drive
+* 在Workfront中建立新的Google Drive檔案
 
 
 ## 校訂檢視器中可用的新檔案核准決定按鈕
