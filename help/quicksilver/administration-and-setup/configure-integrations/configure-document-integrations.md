@@ -8,9 +8,9 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+source-git-commit: ec0e2be036ce1298e285ce85cdeddae97cd1f144
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1199'
 ht-degree: 1%
 
 ---
@@ -45,9 +45,9 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td><p>新增：[!UICONTROL Standard]</p>
+   <td><p>新增：[！UICONTROL Standard]</p>
        <p>或</p>
-       <p>目前： [!UICONTROL 計畫]</p></td>
+       <p>目前： [！UICONTROL計畫]</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -138,19 +138,19 @@ ht-degree: 1%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 名稱]</td> 
+      <td role="rowheader">[！UICONTROL名稱]</td> 
       <td>自訂整合的名稱。 這是使用者在Workfront中使用整合時看到的名稱。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 基本API URL] </td> 
+      <td role="rowheader">[！UICONTROL基本API URL] </td> 
       <td>API呼叫的基本HTTP或安全HTTP URL。 例如， <code>https://&lt;documentprovider&gt;.com/api/v2</code></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 驗證型別]</td> 
+      <td role="rowheader">[！UICONTROL驗證型別]</td> 
       <td> <p>對自訂整合發出授權API呼叫時所使用的驗證方法。</p> 
        <ul> 
-        <li>如果您選擇<strong>[!UICONTROL OAuth]</strong>，請繼續步驟5。</li> 
-        <li>如果您選擇<strong>[!UICONTROL ApiKey]</strong>，請繼續步驟6。</li> 
+        <li>如果您選擇<strong>[！UICONTROL OAuth]</strong>，請繼續步驟5。</li> 
+        <li>如果您選擇<strong>[！UICONTROL ApiKey]</strong>，請繼續步驟6。</li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -163,23 +163,23 @@ ht-degree: 1%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 驗證URL]</td> 
+      <td role="rowheader">[！UICONTROL驗證URL]</td> 
       <td>用於使用者驗證的完整URL。 [!DNL Workfront]會在OAuth布建程式過程中將使用者導覽至此位址。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 權杖端點URL]</td> 
+      <td role="rowheader">[！UICONTROL權杖端點URL]</td> 
       <td>用於擷取 OAuth 權杖的完整 API URL。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 使用者端ID]</td> 
+      <td role="rowheader">[！UICONTROL使用者端ID]</td> 
       <td>此整合的OAut使用者端ID。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 使用者端密碼]</td> 
+      <td role="rowheader">[！UICONTROL使用者端密碼]</td> 
       <td>此整合的OAut使用者端密碼。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 請求引數]</td> 
+      <td role="rowheader">[！UICONTROL請求引數]</td> 
       <td> <p>輸入要附加至每個API呼叫之查詢字串的選用值。 例如，access_type=offline。</p> <p>若要新增多個請求引數，請按一下<strong>+新增請求引數</strong>。</p> </td> 
      </tr> 
     </tbody> 
@@ -250,4 +250,12 @@ ht-degree: 1%
 
 ## 限制
 
-* Google Drive檔案整合支援從Google Drive的「我的磁碟機」區域新增資料夾和影像。 您無法從共用磁碟機新增資料夾或影像。 深入瞭解[Google共用磁碟機](https://support.google.com/a/users/answer/7212025?hl=en)。
+### Google Drive整合
+
+* 將連結資料夾新增至Workfront時，資料夾中的檔案不再自動新增。
+   * 您可以將Google資料夾新增至Workfront （不含檔案），然後將個別檔案新增至Workfront。 這些檔案會自動新增至Workfront中的Google資料夾。
+或
+   * 您可以在Workfront中建立「檔案」資料夾，然後選取Google資料夾中的所有檔案，並將它們新增至Workfront資料夾。
+
+
+* Google Drive檔案整合支援從Google Drive的「我的磁碟機」區域新增檔案。 您無法從共用磁碟機新增資料夾或影像。 深入瞭解[Google共用磁碟機](https://support.google.com/a/users/answer/7212025?hl=en)。
