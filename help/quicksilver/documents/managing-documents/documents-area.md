@@ -7,9 +7,9 @@ description: 在「檔案」區域中，您可以組織、管理和檢視上傳�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 64612345-d1ce-41db-939b-3af30d1c6a51
-source-git-commit: 5595b1c286d82f77bca9ee16e20bae8380ce45b5
+source-git-commit: d231bc962bddf44daad6e10c5652d1ff46554f8a
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '429'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 # 檔案區域
 
 在「檔案」區域中，您可以組織、管理和檢視上傳至Adobe Workfront的檔案的中繼資料。 您也可以檢視校訂決定。
+
+新增到個別任務和問題的檔案都可在專案>檔案區域使用。
 
 ![檔案區域](assets/documents-area-v2-350x199.png)
 
