@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 6350e815e39d642a88a2c9c8b17208db5cb253c5
+source-git-commit: 78300d47d9a892a07816d94c448c7b957f11f14f
 workflow-type: tm+mt
-source-wordcount: '2064'
+source-wordcount: '2138'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ### 進階搜尋的介面更新
 
-**預覽版本： 4月17日；生產版本：即將宣佈**
+**預覽版本： 4月17日；生產版本：從4月24日當週開始**
 
 我們更新了「進階搜尋」區域，變更如下：
 
@@ -231,7 +231,7 @@ ht-degree: 0%
 
 此更新包含區域的視覺化變更。 功能未變更。
 
-若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。**&#x200B;**
+若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。****
 
 +++
 
@@ -344,19 +344,16 @@ ht-degree: 0%
 
 外部使用者無法再從此頁面存取&#x200B;_我的設定_。
 
-<!--
+### 已更新外部使用者註冊頁面
 
-### Updated external user registration page
+**預覽版本： 2024年4月24日；生產版本：從2024年5月8日當週開始**
 
-**Preview release: April 24, 2024; Production release: To be announced**
+我們更新了外部使用者註冊頁面，使其設計更現代化，與Workfront的其他區域一致。
 
-We have updated the external user registration page with a more modern design that is consistent with other areas of Workfront.
+## 授權
 
+### 已更新授權協定頁面
 
-## Licenses
+**預覽版本： 2024年4月24日；生產版本：從2024年5月8日當週開始**
 
-### Updated license agreement page
-
-**Preview release: tbd; Production release: To be announced**
-
-We have updated the license agreement page with a more modern design that is consistent with other areas of Workfront.-->
+我們已更新授權協定頁面，使其採用與Workfront其他區域一致的更現代化設計。
