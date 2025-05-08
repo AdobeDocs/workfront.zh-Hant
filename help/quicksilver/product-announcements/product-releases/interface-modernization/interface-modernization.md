@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 78300d47d9a892a07816d94c448c7b957f11f14f
+source-git-commit: 7de63fbe2df6aa5f173b8e5647097e3f8aabc08c
 workflow-type: tm+mt
-source-wordcount: '2138'
+source-wordcount: '2140'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 ### Announcement Center介面更新
 
-**預覽版本： 2025年2月27日；即將宣佈**
+**預覽版本： 2025年2月27日；自2025年3月6日當週開始**
 
 我們更新了Announcement Center，採用與Workfront其他區域一致的更現代化設計。
 
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 ### 「設定」中核准流程設定的介面更新
 
-**預覽版本： 2025年2月6日；生產版本：即將宣佈**
+**預覽版本： 2025年2月6日；生產版本：自2025年2月13日起一週**
 
 我們已更新「核准設定」對話方塊，使其採用與Workfront其他區域一致的更現代化設計。
 
@@ -177,7 +177,7 @@ ht-degree: 0%
 
 ### 更新團隊請求的介面
 
-**預覽版本： 2025年3月6日；生產版本：即將宣佈**
+**預覽版本： 2025年3月6日；生產版本： 2025年3月13日**
 
 我們已更新「團隊請求」頁面，使其採用與Workfront其他區域一致的更現代化設計。
 
@@ -231,7 +231,7 @@ ht-degree: 0%
 
 此更新包含區域的視覺化變更。 功能未變更。
 
-若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。**&#x200B;**
+若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。****
 
 +++
 

@@ -5,9 +5,9 @@ description: 當您不記得專案的確切位置時，可以搜尋專案，在 
 feature: Get Started with Workfront
 author: Lisa
 exl-id: 7c856349-c79f-40d8-9c96-b32bfb6d5417
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: b04d09d1244a7d7abef8aaddb62dbdf7124bfde8
 workflow-type: tm+mt
-source-wordcount: '1690'
+source-wordcount: '1673'
 ht-degree: 1%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>存取層級設定*</strong></td> 
-   <td> <p>[!UICONTROL View]物件型別的存取權 </p> <p>注意：如果您還是沒有存取權，請詢問您的[!DNL Workfront]管理員是否對您的存取層級設定了其他限制。 如需[!DNL Workfront]管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p></td> 
+   <td> <p>[！UICONTROL View]物件型別的存取權 </p> <p>注意：如果您還是沒有存取權，請詢問您的[!DNL Workfront]管理員是否對您的存取層級設定了其他限制。 如需[!DNL Workfront]管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
@@ -136,7 +136,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>包含OR</td> 
-   <td> <p>使用「OR」連線單字（不含引號）可讓您僅尋找至少符合[!UICONTROL 搜尋]方塊中一個單字的物件。 這些字詞可依任何順序輸入。<br>例如，搜尋「Marketing OR Demo」（不含引號）會尋找具有以下名稱的物件：</p> 
+   <td> <p>使用「OR」連線單字（不含引號）可讓您僅尋找至少符合[！UICONTROL搜尋]方塊中一個單字的物件。 這些字詞可依任何順序輸入。<br>例如，搜尋「Marketing OR Demo」（不含引號）會尋找具有以下名稱的物件：</p> 
     <ul> 
      <li> 市場分析示範</li> 
      <li>1月市場分析示範</li> 
@@ -146,7 +146,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>包含和</td> 
-   <td> <p>使用「AND」連線單字（不含引號）可讓您僅尋找符合[!UICONTROL 搜尋]方塊中所有單字的物件。 這些字詞可依任何順序輸入。<br>例如，搜尋「Marketing AND Demo」（不含引號）會尋找具有以下名稱的物件：</p> 
+   <td> <p>使用「AND」連線單字（不含引號）可讓您僅尋找符合[！UICONTROL搜尋]方塊中所有單字的物件。 這些字詞可依任何順序輸入。<br>例如，搜尋「Marketing AND Demo」（不含引號）會尋找具有以下名稱的物件：</p> 
     <ul> 
      <li>行銷示範</li> 
      <li>示範行銷</li> 
@@ -165,7 +165,7 @@ ht-degree: 1%
 
 ### 基本搜尋
 
-基本搜尋可讓您搜尋系統中所有物件的關鍵字，或一次只搜尋一個物件（例如專案）。 [!DNL Workfront]然後在幾個特定欄位中搜尋這些關鍵字。 然後，您可以根據[!DNL Workfront]選取的其他物件特定欄位來調整搜尋結果。
+「基本搜尋」可讓您搜尋系統中所有物件的關鍵字，或一次只搜尋一個物件（例如專案）。 [!DNL Workfront]然後在幾個特定欄位中搜尋這些關鍵字。 然後，您可以根據[!DNL Workfront]選取的其他物件特定欄位來調整搜尋結果。
 
 如需在基本搜尋中搜尋的特定欄位清單，請參閱本文中可供搜尋的[欄位](#fields-available-for-search)。
 
@@ -178,12 +178,12 @@ ht-degree: 1%
 
 #### 執行基本搜尋
 
-您可以透過下列其中一種方式來執行基本搜尋：
+您可以使用下列任一方式進行「基本搜尋」：
 
 * 橫跨系統中的所有物件（一般搜尋）。
 * 一次只在一個物件上（物件特定搜尋）。
 
-若要執行基本搜尋：
+執行基本搜尋：
 
 1. 按一下頁面右上角的放大鏡![搜尋圖示](assets/search-icon.png)。 您也可以輸入&#x200B;**[!UICONTROL ALT + /]**&#x200B;或&#x200B;**[!UICONTROL Option + /]**&#x200B;以開啟[!UICONTROL 搜尋]功能表。
 
@@ -191,9 +191,10 @@ ht-degree: 1%
 
    ![依物件型別搜尋](assets/search-objecttype.png)
 
-1. 在&#x200B;**[!UICONTROL 搜尋]**&#x200B;方塊中，開始輸入您要搜尋的資訊。\
-   如需[!DNL Workfront]中搜尋哪些欄位的詳細資訊，請參閱[瞭解搜尋](#understand-search)。\
-   ![搜尋下拉式清單](assets/qs-search-drop-down-highlighted-350x234.png)\
+1. 在&#x200B;**[!UICONTROL 搜尋]**方塊中，開始輸入您要搜尋的資訊。
+如需[!DNL Workfront]中搜尋哪些欄位的詳細資訊，請參閱[瞭解搜尋](#understand-search)。
+   ![搜尋下拉式清單](assets/qs-search-drop-down-highlighted-350x234.png)
+
    當您開始輸入搜尋列時，[!DNL Workfront]會根據您的檢視歷程記錄提出建議，並以藍色標示您正在搜尋的關鍵字。
 
 1. 如果您要尋找的專案顯示在[!UICONTROL 自動提示]功能表中，請按一下該專案。
@@ -220,19 +221,20 @@ ht-degree: 1%
 
 #### 精簡基本搜尋
 
-執行基本搜尋後（如[[!UICONTROL 執行基本搜尋]](#perform-a-basic-search)中所述），您可以調整搜尋。
+執行基本搜尋之後（如[[!UICONTROL 執行基本搜尋]](#perform-a-basic-search)中所述），您可以調整搜尋。
 
 使用搜尋結果左側的工具列來縮小您要尋找的資訊範圍。
 
 若要縮小搜尋範圍：
 
 1. （條件式）如果您執行一般搜尋，請在結果左上角的物件清單中選取要搜尋的物件。
-1. 在結果左側的工具列中，找出搜尋中顯示的物件可用的欄位。\
-   每個欄位的值會依計數排序，每個欄位最多可顯示10個值。
-1. 在任一可用欄位中按一下，以縮短結果清單。\
-   您所做的選擇會以藍色反白，而未選取的欄位值會隱藏。\
-   選取每個新值後，右側的結果會動態更新。\
-   ![調整搜尋](assets/qs-refine-search-350x175.png)
+1. 在結果左側的工具列中，找出搜尋中顯示的物件可用的欄位。
+每個欄位的值會依計數排序，每個欄位最多可顯示10個值。
+1. 在任一可用欄位中按一下，以縮短結果清單。
+您所做的選擇會以藍色反白，而未選取的欄位值會隱藏。
+選取每個新值後，右側的結果會動態更新。
+
+   ![基本搜尋索引標籤](assets/basic-search.png)
 
 1. （選擇性）按一下選取的值以取消選取它們，然後再次顯示每個欄位的所有值。
 
@@ -260,14 +262,12 @@ ht-degree: 1%
    [!UICONTROL 進階搜尋]頁面投影片從右側開啟，並涵蓋上一頁的大部分內容。
 
 1. 選取您要搜尋的物件型別。\
-   預設會選取&#x200B;**[!UICONTROL 專案]**。
+   預設會選取&#x200B;**[!UICONTROL 工作]**。
 
-   ![進階搜尋物件](assets/advanced-search-objects-qs-remove-after-prod-release.png)
+   ![進階搜尋物件](assets/advanced-search.png)
 
 1. （選用）在清單頂端的欄位中輸入關鍵字。
-1. （選擇性）按一下&#x200B;**[!UICONTROL 篩選結果]**&#x200B;以根據特定欄位型別篩選搜尋結果，然後從清單中選取欄位。 如有必要，也請為欄位選取值。\
-   或\
-   新增篩選器。
+1. （選擇性）切換&#x200B;**[!UICONTROL 篩選結果]**&#x200B;開啟，以建立篩選來縮小搜尋範圍。 完成時，按一下&#x200B;**套用**。
 
 1. 按一下&#x200B;**[!UICONTROL 搜尋]**。\
    符合您搜尋的專案清單會顯示在[!UICONTROL 進階搜尋]工具列的右側。
