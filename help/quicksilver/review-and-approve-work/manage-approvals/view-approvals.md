@@ -6,9 +6,9 @@ description: 核准流程提供了為專案、任務和問題建立多步驟核�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: 06e42fa713bc9b0c1e308feb2b84ca62dafa416c
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '794'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 0%
 * 在「首頁」區域中
 
    * 所有等待您核准的專案、任務、問題、時程表、檔案和存取權都會顯示在首頁區域的我的核准Widget中。
-   * 當您選擇我已提交的核准篩選選項時，您自己提交的核准也會顯示在首頁區域的我的核准Widget中。 如需詳細資訊，請參閱本文中[首頁]區域[&#128279;](#review-work-you-submit-for-approval-in-the-home-area)一節中的檢閱您提交核准的工作。
+   * 當您選擇我已提交的核准篩選選項時，您自己提交的核准也會顯示在首頁區域的我的核准Widget中。 如需詳細資訊，請參閱本文中[首頁]區域](#review-work-you-submit-for-approval-in-the-home-area)一節中的[檢閱您提交核准的工作。
    * 當關聯的專案、任務或問題標示為「已解決」、「保留」、「已關閉」或「已取消」時，核准會從「首頁」區域的「我的核准」小工具中移除。
 
   如需有關使用首頁的資訊，請參閱[開始使用首頁](../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md)。
@@ -129,7 +129,7 @@ ht-degree: 0%
 若要檢視任務或問題在核准流程中的目前狀態：
 
 1. 前往與核准相關聯的專案、任務或問題。
-1. 在左側面板中，按一下&#x200B;**核准**。 您可能需要先按一下「**顯示更多**」。
+1. 在左側面板中，按一下&#x200B;**核准**。
 
    「核准」標籤會顯示所有過去核准路徑和階段的完整資訊。 您可以檢視確切的核准決策者，或核准是針對團隊、工作角色或使用者所設定。
 

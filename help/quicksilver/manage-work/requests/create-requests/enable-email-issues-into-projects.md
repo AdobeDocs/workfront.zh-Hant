@@ -6,9 +6,9 @@ description: 您可以設定專案，讓使用者能透過電子郵件將問題�
 author: Alina, Courtney
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: fedb0328450896d212081715df4cde7644b169bc
+source-git-commit: 06e42fa713bc9b0c1e308feb2b84ca62dafa416c
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '782'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;When updating POP account information here, also update information in these articles: Allowing users to reply to email notifications, Configuring Email Notifications, Understanding the Queue Details Tab in a Project )</p>
 -->
 
-您可以設定專案，讓使用者能透過電子郵件將問題新增至專案。 您只能允許在專案指定為「請求佇列」時，將問題以電子郵件傳送至專案。 有關創建請求佇列專案的更多資訊，請參閱 [建立請求佇列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
+您可以設定專案，讓使用者能透過電子郵件將問題新增至專案。 您只能允許在專案指定為「請求佇列」時，將問題以電子郵件傳送至專案。 如需有關建立請求佇列專案的詳細資訊，請參閱[建立請求佇列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
 
 ## 存取需求
 
@@ -38,35 +38,35 @@ ht-degree: 0%
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Systems Workfront 許可證</td> 
-   <td> <p>新：貢獻者或以上</p>
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>新增：投稿人或更高版本</p>
    或
-   <p>當前：請求或更高</p>
+   <p>目前：要求或以上</p>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級組態</td> 
-   <td> <p>編輯存取問題</p>  </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>編輯問題的存取權</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-有關此表中資訊的更多詳細資訊，請參閱 [Workfront 文件中](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)的訪問要求。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
 ## 先決條件
 
-設定項目以允許使用者透過電子郵件向專案新增問題需要以下條件：
+設定專案需要以下條件，才能讓使用者透過電子郵件將問題新增至專案：
 
-* 通過電子郵件將問題發送給此帳戶的用戶必須是具有 Workfront 許可證的活動使用者。
-* 通過電子郵件將問題發送給此帳戶的用戶必須對專案具有「添加問題」許可權。
+* 透過電子郵件將問題傳送到此帳戶的使用者必須是具有Workfront授權的有效使用者。
+* 透過電子郵件將問題傳送到此帳戶的使用者必須具有專案的「新增問題」許可權。
 * 外部使用者無法透過電子郵件將問題傳送到請求佇列，因為他們無權建立問題。
 * 只有來自與作用中Workfront使用者相關聯之電子郵件地址的電子郵件，才允許將問題傳送至專案。 從與Workfront帳戶無關的電子郵件轉寄至使用中Workfront使用者電子郵件的電子郵件無法在專案下建立問題，因為原始寄件者的電子郵件地址必須與使用中Workfront帳戶相關聯。
 * 專案已設定為請求佇列。
-* 與項目關聯的電子郵件帳戶未連結到 Workfront 用戶 帳戶。
+* 與專案相關聯的電子郵件帳戶未連結至Workfront使用者帳戶。
 
-## 在 Workfront 中設定專案
+## 在Workfront中設定專案
 
 >[!NOTE]
 >
@@ -77,28 +77,28 @@ ht-degree: 0%
 >* 如果請求佇列有多個佇列主題或主題群組，Workfront會隨機選取要傳送電子郵件請求的佇列主題，使電子郵件請求難以管理。
 >我們建議您設定為透過電子郵件接收請求的專案不應有多個佇列主題。 如果提交的請求是針對不同的資源或專案，您應該在提交後手動路由或移動這些請求。
 
-1. 轉到要啟用以通過電子郵件接收問題的專案。
-1. 按兩下 **左側面板中的佇列詳細資訊** 。 您可能需要先按兩下 **顯示更多** 。
-1. 在“佇列類型”**區域中，選擇**“Publish作為說明請求佇列&#x200B;**”。**
+1. 前往您要啟用的專案，透過電子郵件接收問題。
+1. 按一下左側面板中的&#x200B;**佇列詳細資料**。
+1. 在&#x200B;**佇列型別**&#x200B;區域中，選取&#x200B;**發佈為說明要求佇列**。
 
-1. 向下滾動到「 **電子郵件佇列設定** 區域，然後選擇」 **啟用通過電子郵件接收**&#x200B;請求」。
+1. 向下捲動至&#x200B;**電子郵件佇列設定**&#x200B;區域，然後選取&#x200B;**啟用透過電子郵件要求錄取**。
 
-1. 在「 **接收電子郵件位址** 」框中輸入電子郵件地址的開頭。
+1. 在&#x200B;**錄取電子郵件地址**&#x200B;方塊中輸入電子郵件地址的開頭。
 
-   您必須建立唯一的電子郵件位址。 我們建議使用您的公司姓名作為您的接收電子郵件位址的一部分。
+   您必須建立唯一的電子郵件地址。 建議您使用公司名稱作為錄取電子郵件地址的一部分。
 
    >[!CAUTION]
    >
-   >* 如果刪除包含請求佇列的專案，則無法從回收站中恢復此電子郵件位址。
+   >* 如果刪除包含請求佇列的專案，則無法從資源回收筒復原此電子郵件地址。
    >
-   >* 由於此電子郵件地址必須是唯一的，因此如果刪除，將來可能無法使用。
+   >* 由於此電子郵件地址必須是唯一的，因此若將其刪除，未來可能無法使用。
    <!--
    >This was the case previously, but it's not working this way anymore, since August 2022: * Emails forwarded to this email address are not added as issues to the project in&nbsp;Workfront. Only emails created from this email address are added as issues.
    -->
 
-1. （選擇） **選擇轉發所有無法通過電子郵件提交**&#x200B;的問題，然後在下面的框中輸入轉發電子郵件位址。
+1. （選擇性）選取&#x200B;**轉寄所有無法透過電子郵件提交的問題**，然後在下列方塊中輸入轉寄電子郵件地址。
 
-   此電子郵件位址接收有關無法提交到專案的電子郵件的資訊。
+   此電子郵件地址會接收無法提交至專案的電子郵件相關資訊。
 
 1. 按一下「**儲存**」。現在，當具有有效Workfront帳戶的使用者傳送電子郵件至此電子郵件地址時，Workfront專案中就會建立一個問題。
 
@@ -108,13 +108,13 @@ ht-degree: 0%
    >
    >外部使用者無法透過電子郵件將問題傳送到請求佇列，因為他們無權建立問題。
 
-## 在 Workfront 中接收問題
+## 在Workfront中接收問題
 
-當 Workfront 用戶向 Workfront 發送電子郵件時，會發生以下情況：
+當Workfront使用者傳送電子郵件至Workfront時，會發生下列情況：
 
-* 電子郵件的主旨行將成為問題名稱。
-* 電子郵件的正文將成為問題的說明。
-* 如果電子郵件中附加了任何文件，這些檔將附加到 Workfront 中的問題。
-* 發送電子郵件的用戶將成為 Workfront 中新問題的主要連絡人。
-* 電子郵件的正文文本不能超過 4,000 個字元。
-* 電子郵件附件的總大小不得超過 7 MB。
+* 電子郵件的「主旨」行會變成「問題名稱」。
+* 電子郵件內文會變成問題的說明。
+* 如果電子郵件有任何附加檔案，這些檔案會附加至Workfront中的問題。
+* 傳送電子郵件的使用者會成為Workfront新問題的主要聯絡人。
+* 電子郵件的內文不可超過4,000個字元。
+* 電子郵件附件總計不得超過7 MB。
