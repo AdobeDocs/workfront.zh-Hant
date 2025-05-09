@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: d5fbc71b-3b22-48d1-a056-f2c4b32c220c
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '437'
 ht-degree: 1%
 
 ---
@@ -31,30 +31,34 @@ ht-degree: 1%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具備下列專案才能執行本文所述的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>規劃 </p> <p>您必須是群組的群組管理員或Workfront管理員。 如需詳細資訊，請參閱<a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">群組管理員</a>和<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授與使用者完整管理存取權</a>。</p> </td> 
-  </tr> 
+   <td role="rowheader">Adobe Workfront授權</td>
+   <td><p>新增：標準</p>
+       <p>或</p>
+       <p>目前：計畫</p></td>
   <tr> 
-   <td role="rowheader">物件許可權</td> 
-   <td> <p>已刪除的專案必須與群組或其任何子群組相關聯。 </p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td>您必須是群組的群組管理員或系統管理員。</td>
+  </tr>
+  <tr> 
+   <td role="rowheader">物件許可權</td>
+   <td>已刪除的專案必須與群組或其任何子群組相關聯。</td> 
+  </tr> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;如果您需要瞭解您擁有的計畫或授權型別，請連絡您的Workfront管理員。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -83,7 +87,7 @@ ht-degree: 1%
    >
    >如果有人個別刪除任務、問題、檔案或範本，您可以在適當的索引標籤上檢視和管理它。
 
-1. 執行下列任一項作業：
+1. 完成下列任一動作：
 
    <table style="table-layout:auto"> 
     <col> 

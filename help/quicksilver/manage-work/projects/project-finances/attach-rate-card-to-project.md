@@ -5,9 +5,9 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: 97c33c5a-e42d-4015-841f-69dc44a0599d
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '400'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ ht-degree: 0%
 ## 將費率卡附加至專案
 
 1. 前往專案。
-1. 按一下左側面板中的&#x200B;**收費率**。 您可能需要先按一下「**顯示更多**」。
+1. 按一下左側面板中的&#x200B;**收費率**。
 1. 按一下&#x200B;**新增收費率>附加費率卡**。
 
    「附加費率卡」頁面隨即開啟。 如需詳細資訊，請參閱[管理費率卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)。

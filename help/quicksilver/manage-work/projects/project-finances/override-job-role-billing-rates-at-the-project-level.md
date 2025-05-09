@@ -6,9 +6,9 @@ description: 身為專案經理，您可以指定特定專案上工作角色的�
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '817'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ ht-degree: 0%
 若要覆寫專案的收費率，請執行下列步驟：
 
 1. 移至您要覆寫其計費率的專案。
-1. 按一下左側面板中的&#x200B;**收費率**。 您可能需要先按一下「**顯示更多**」。
+1. 按一下左側面板中的&#x200B;**收費率**。
 1. 按一下&#x200B;**新增收費率** > **新增收費率**。
 
    「新收費率」方塊開啟。

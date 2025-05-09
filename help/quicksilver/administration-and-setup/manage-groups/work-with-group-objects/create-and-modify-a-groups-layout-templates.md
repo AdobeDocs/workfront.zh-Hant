@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 2be211a8-df84-49c3-827f-1215c77159e0
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
@@ -26,24 +26,30 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具備下列專案才能執行本文所述的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>規劃 </p> <p>您必須是群組的群組管理員或Workfront管理員。 如需詳細資訊，請參閱<a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">群組管理員</a>和<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授與使用者完整管理存取權</a>。</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td>
+   <td><p>新增：標準</p>
+       <p>或</p>
+       <p>目前：計畫</p></td>
+  <tr> 
+   <td role="rowheader">存取層級設定</td> 
+   <td>您必須是群組的群組管理員或系統管理員。</td>
+  </tr>
   </tr> 
  </tbody> 
 </table>
 
-&#42;如果您需要瞭解您擁有的計畫或授權型別，請連絡您的Workfront管理員。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -60,19 +66,19 @@ ht-degree: 0%
 
 1. 執行下列任一項作業：
 
-   * 若要建立群組的新範本，請按一下[新增配置範本]。**&#x200B;**
+   * 若要建立群組的新範本，請按一下[新增配置範本]。****
 
      或
 
-     若要建立以現有範本為基礎的群組新範本，請選取現有範本，然後按一下[複製]。**&#x200B;**
+     若要建立以現有範本為基礎的群組新範本，請選取現有範本，然後按一下[複製]。****
 
      如需有關建立版面配置範本的資訊，請參閱[建立和管理版面配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)。
 
      如需複製配置範本以建立新配置範本的相關資訊，請參閱[複製配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md)。
 
-   * 若要編輯現有的群組配置範本，請選取該範本，然後按一下[編輯]。**&#x200B;**
+   * 若要編輯現有的群組配置範本，請選取該範本，然後按一下[編輯]。****
 
      如需有關編輯版面配置範本的資訊，請參閱[建立和管理版面配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)。
 
-   * 若要刪除一或多個配置範本，請選取這些範本，然後按一下[刪除]。**&#x200B;**
+   * 若要刪除一或多個配置範本，請選取這些範本，然後按一下[刪除]。****
    * **匯出**&#x200B;配置範本清單。

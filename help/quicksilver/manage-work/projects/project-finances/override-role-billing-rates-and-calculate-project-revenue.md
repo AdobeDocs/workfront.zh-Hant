@@ -6,7 +6,7 @@ description: 當您將記帳費率乘以專案所花費的時數時，您可以�
 author: Lisa
 feature: Work Management
 exl-id: 63ba6758-ba62-48b4-89f4-d784e32a1bfa
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
 source-wordcount: '3860'
 ht-degree: 0%
@@ -101,7 +101,7 @@ If you still don't have access, ask your Workfront administrator if they set add
 * 身為專案經理，您可以在專案層次為相同職務角色定義收費率。\
   專案上工作角色費率的變更只會影響該專案。
 
-  如需有關覆寫專案角色費率的資訊，請參閱專案層級[&#128279;](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)的覆寫工作角色收費率。
+  如需有關覆寫專案角色費率的資訊，請參閱專案層級](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)的[覆寫工作角色收費率。
 
 >[!IMPORTANT]
 >
@@ -134,7 +134,7 @@ If you still don't have access, ask your Workfront administrator if they set add
 <p>To override a billing rate for a project:</p>
 <ol>
 <li value="1">Go to the project you want to override billing rates for.</li>
-<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <strong>Billing Rates</strong> in the left panel. You might have to first click <strong>Show More</strong>. </p> </li>
+<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <strong>Billing Rates</strong> in the left panel. </p> </li>
 <li value="3"> <p>Click <strong>Add Billing Rate</strong> > <strong>New Billing Rate</strong>.</p> <p>The New Billing Rate box opens</p> <p> <img src="assets/override-billing-rate-on-project-nwe-350x310.png" style="width: 350;height: 310;"> </p> <p> <br>The <strong>Default Billing Rate</strong> field displays the system-level rate for this job role.</p> </li>
 <li value="4">In the <strong>Job Role</strong> field, select the job role you want to change the billing rate for.<br></li>
 <li value="5">In the <strong>Billing Rates 1</strong> field, enter the one time billing rate override, then click <strong>Save</strong> to override the billing rate one time, <br>Or Click <strong>Add Rate</strong> to add more billing rate overrides.</li>
@@ -276,7 +276,7 @@ You cannot specify a
 
 * 如果在專案層次已覆寫工作角色的收費率，Workfront會使用專案的覆寫費率來計算實際收入。 當您覆寫專案上工作角色的收費率時，將會使用新調整後的費率自動重新計算專案的&#x200B;**實際收入**。
 
-  如需有關覆寫專案角色費率的資訊，請參閱專案層級[&#128279;](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)的覆寫工作角色收費率。
+  如需有關覆寫專案角色費率的資訊，請參閱專案層級](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)的[覆寫工作角色收費率。
 
 >[!NOTE]
 >
@@ -359,7 +359,7 @@ You cannot specify a
 ## 使用API新增收費率
 
 若要使用API為工作角色新增收費率，請使用&#x200B;*PUT方法*&#x200B;為&#x200B;**Rate**&#x200B;物件執行&#x200B;*setRatesForRole*動作。
-**Rate**&#x200B;物件上的動作和日期欄位可在API 8.0版中使用。
+**Rate**物件上的動作和日期欄位可在API 8.0版中使用。
 如果您已為專案中的工作角色定義了數個收費率，並且想要使用新的日期範圍為其新增收費率，則必須在同一API呼叫中同時包含現有收費率和要新增的收費率。 這類似於更新物件上的集合的方式。
 
 下列API呼叫的範例中，**attachableID**&#x200B;是您新增收費率之專案的&#x200B;**專案識別碼**，**RoleID**&#x200B;是您新增收費率的&#x200B;**工作角色識別碼**。<pre>{</pre><pre>&quot;attachableID&quot;：&quot;593f01500000557d75fdd4fdfcc624f2&quot;，</pre><pre>&quot;attachableObjCode&quot;：&quot;PROJ&quot;，</pre><pre>&quot;roleID&quot;：&quot;544820df000014148cda5136d4b79d09&quot;， </pre><pre>&quot;rates&quot;：[</pre><pre>         {&quot;rateValue&quot;：&quot;0.00&quot;，&quot;startDate&quot;：null，&quot;endDate&quot;：&quot;2017-06-11&quot;}，</pre><pre>         {&quot;rateValue&quot;：&quot;45.00&quot;，&quot;startDate&quot;：&quot;2017-06-12&quot;，&quot;endDate&quot;：&quot;2017-06-17&quot;}，</pre><pre>         {&quot;rateValue&quot;：&quot;95.00&quot;，&quot;startDate&quot;：&quot;2017-06-21&quot;，&quot;endDate&quot;：null}</pre><pre>]</pre><pre>}</pre>如需使用Workfront API的詳細資訊，請參閱文章[API基本知識](https://experience.workfront.com/s/article/API-Basics-638808549)。

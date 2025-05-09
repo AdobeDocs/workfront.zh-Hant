@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f97a12eb-9002-4f11-908a-c68c1e6dc9c9
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: '1264'
 ht-degree: 1%
 
 ---
@@ -25,28 +25,34 @@ ht-degree: 1%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具備下列專案才能執行本文所述的步驟：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>規劃 </p> <p>您必須是群組的群組管理員或Workfront管理員。 如需詳細資訊，請參閱<a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">群組管理員</a>和<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授與使用者完整管理存取權</a>。</p> </td> 
-  </tr> 
+   <td role="rowheader">Adobe Workfront授權</td>
+   <td><p>新增：標準</p>
+       <p>或</p>
+       <p>目前：計畫</p></td>
   <tr> 
-   <td role="rowheader">物件許可權</td> 
-   <td> <p>檢視您要檢視及使用之範本的存取許可權或以上版本</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td>您必須是群組的群組管理員或系統管理員。</td>
+  </tr>
+  <tr> 
+   <td role="rowheader">物件許可權</td>
+   <td>檢視您要檢視及使用之範本的存取許可權或以上版本</td> 
+  </tr> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;如果您需要瞭解您擁有的計畫或授權型別，請連絡您的Workfront管理員。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

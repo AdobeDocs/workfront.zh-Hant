@@ -7,9 +7,9 @@ description: 您可以使用工作負載平衡器來排程工作資源，或檢�
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '714'
 ht-degree: 1%
 
 ---
@@ -94,7 +94,7 @@ ht-degree: 1%
    * **未指派的工作**：沒有未指派的工作專案。
    * **已指派的工作**：系統中的所有作用中使用者。
 
-     在「已指派的工作」區域顯示使用者時，我們建議使用篩選器。 如需詳細資訊，請參閱工作負載平衡器[&#128279;](../workload-balancer/filter-information-workload-balancer.md)中的篩選器資訊。
+     在「已指派的工作」區域顯示使用者時，我們建議使用篩選器。 如需詳細資訊，請參閱工作負載平衡器](../workload-balancer/filter-information-workload-balancer.md)中的[篩選器資訊。
 
 ### 存取團隊的工作負載平衡器
 
@@ -122,7 +122,7 @@ ht-degree: 1%
 {{step1-to-projects}}
 
 1. 按一下專案名稱以開啟專案頁面。
-1. 按一下左側面板中的&#x200B;**工作負載平衡器**。 您可能需要按一下&#x200B;**顯示更多**，然後按一下&#x200B;**工作負載平衡器**。
+1. 按一下左側面板中的&#x200B;**工作負載平衡器**。
 
    專案的工作負載平衡器顯示。
 
