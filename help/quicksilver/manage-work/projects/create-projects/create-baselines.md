@@ -6,9 +6,9 @@ description: 基準線是專案快照，代表初始專案計畫或專案生命�
 author: Alina
 feature: Work Management
 exl-id: 422bd7a5-d7a0-4c24-8624-bd0fe6e79d7b
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '750'
 ht-degree: 0%
 
 ---
@@ -116,11 +116,7 @@ drafted for P&P:
 1. 前往專案。
 1. 在左側面板中，按一下&#x200B;**基準線**。
 
-   或
-
-   按一下&#x200B;**顯示更多**，然後按一下&#x200B;**基準線**。
-
-   專案![&#128279;](assets/baselines-section-on-project-with-header.png)上的基準線區段
+   專案](assets/baselines-section-on-project-with-header.png)上的![基準線區段
 
 1. 按一下&#x200B;**新增基準線。**
 1. 指定基準線的名稱。

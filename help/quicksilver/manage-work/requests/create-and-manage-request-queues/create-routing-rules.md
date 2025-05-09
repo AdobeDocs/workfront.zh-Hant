@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 640f9054-f2f8-4594-9311-e93518f58453
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '506'
 ht-degree: 1%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 1%
 ## 建立路由規則
 
 1. 前往您要為請求新增路由規則的專案。
-1. 按一下左側面板中的&#x200B;**路由規則**。 您可能需要按一下&#x200B;**顯示更多**，然後按一下&#x200B;**路由規則**。
+1. 按一下左側面板中的&#x200B;**路由規則**。
 1. 按一下&#x200B;**新增路由規則**&#x200B;以新增規則。 **新路由規則**&#x200B;方塊開啟。
 
    ![新路由規則方塊](assets/new-routing-rule-box.png)

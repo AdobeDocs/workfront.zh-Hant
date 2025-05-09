@@ -6,9 +6,9 @@ description: 前置任務是指其他任務需依賴完成的任務。 前置任
 author: Alina
 feature: Work Management
 exl-id: c3242b92-9036-4770-a073-2a9c393b97fd
-source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 0%
 ## 在任務層級強制執行前置任務
 
 1. 移至您要執行其前置任務的後續任務。
-1. 按一下左側面板中的&#x200B;**前置任務**，然後按一下&#x200B;**新增前置任務**。 您可能需要按一下&#x200B;**顯示更多**，然後按一下&#x200B;**前置任務**。
+1. 按一下左側面板中的&#x200B;**前置任務**，然後按一下&#x200B;**新增前置任務**。
 1. （條件式）如果您想要新增跨專案前置任務，請移除&#x200B;**父專案**&#x200B;欄位中的專案名稱，並以其他專案取代。
 1. 在&#x200B;**任務**&#x200B;欄位中指定前置任務名稱。
 1. 指定這兩個工作之間的&#x200B;**相依性型別**。

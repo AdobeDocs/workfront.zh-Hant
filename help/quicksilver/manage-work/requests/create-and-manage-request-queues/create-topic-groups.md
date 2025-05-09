@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 7c5959f4-f33f-4f5e-b031-748dbe1a24a5
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ ht-degree: 0%
 1. 移至您以「說明要求佇列」形式發佈的專案。\
    如需將專案發佈為說明要求佇列的詳細資訊，請參閱[建立要求佇列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
 
-1. 按一下左側面板中的&#x200B;**主題群組**。 您可能需要按一下「**顯示更多**」，然後按&#x200B;**主題群組**。
+1. 按一下左側面板中的&#x200B;**主題群組**。
 1. 按一下&#x200B;**新增主題群組**。
 
    ![](assets/new-topic-group-box-nwe-350x306.png)

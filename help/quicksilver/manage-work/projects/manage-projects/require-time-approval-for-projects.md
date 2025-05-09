@@ -6,9 +6,9 @@ description: 專案需要時間核准
 author: Alina
 feature: Work Management
 exl-id: e4a27640-9f5c-4a9f-82cc-3384694594af
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '754'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ ht-degree: 0%
 若要核准或拒絕專案的時數：
 
 1. 前往專案。
-1. 按一下左側面板中的&#x200B;**小時**&#x200B;區域。 這可能位於&#x200B;**顯示更多**&#x200B;區域下。
+1. 按一下左側面板中的&#x200B;**小時**&#x200B;區域。
 
 1. 為問題、任務和專案顯示所記錄的時數，其狀態應為&#x200B;**已提交**。\
    按一下小時專案左側的方塊，以選取您要核准的小時。

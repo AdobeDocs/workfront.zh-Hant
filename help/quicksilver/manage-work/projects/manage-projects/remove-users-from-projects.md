@@ -6,9 +6,9 @@ description: 當使用者不再參與完成專案工作時，您可以從專案�
 author: Alina
 feature: Work Management
 exl-id: 3a75c78d-faed-41cd-a0a4-59504bb981af
-source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計劃 </p> </td> 
+   <td> <p>規劃 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 1. 前往您要移除使用者的專案。
 
-1. 按一下左側面板中的&#x200B;**人員**，然後選取您要移除的使用者。 您可能需要按一下「**顯示更多**」，然後按「**人員**」。
+1. 按一下左側面板中的&#x200B;**人員**，然後選取您要移除的使用者。
 
 1. 按一下使用者清單頂端的&#x200B;**移除**&#x200B;圖示![移除專案](assets/remove-icon---x-in-circle.png)。
 

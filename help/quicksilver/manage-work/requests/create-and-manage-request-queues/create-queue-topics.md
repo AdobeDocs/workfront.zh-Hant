@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '844'
 ht-degree: 2%
 
 ---
@@ -108,7 +108,7 @@ ht-degree: 2%
 
    如需有關建立主題群組的資訊，請參閱[建立主題群組](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)。
 
-1. 按一下左側面板中的&#x200B;**佇列主題**。 您可能需要按一下&#x200B;**顯示更多**，然後按一下&#x200B;**佇列主題**。
+1. 按一下左側面板中的&#x200B;**佇列主題**。
 1. 按一下&#x200B;**新增佇列主題**。
 1. 在&#x200B;**新佇列主題**&#x200B;表單上，輸入下列內容：
 

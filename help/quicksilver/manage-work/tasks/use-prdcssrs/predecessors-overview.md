@@ -7,9 +7,9 @@ description: 前置任務是另一個任務（稱為後置任務或相依任務�
 author: Alina
 feature: Work Management
 exl-id: b2020a50-0921-4ed2-8a34-1a0411992b99
-source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1180'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ CONTEXT SENSITIVE HELP article. DO NOT CHANGE THE NAME OF THE ARTICLE/ DO NOT MO
 * 前往您正在處理的專案，然後執行下列動作：
 
    1. 尋找您要尋找前置任務的工作，然後按一下該工作。
-   1. 按一下左側面板中的&#x200B;**前置任務**。 您可能需要按一下&#x200B;**顯示更多**，然後按一下&#x200B;**前置任務**。
+   1. 按一下左側面板中的&#x200B;**前置任務**。
    1. 前置任務所在的專案名稱會顯示在&#x200B;**專案**&#x200B;欄中。
 
       **#**&#x200B;欄中的數字顯示前置任務編號。 例如，「6」表示專案中的第六個任務。

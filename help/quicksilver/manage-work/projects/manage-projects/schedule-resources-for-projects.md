@@ -2,22 +2,26 @@
 product-area: projects;resource-management
 navigation-topic: manage-projects
 title: 為專案排程資源
-description: 您可以為單一專案排程資源，以指出每項資源被指派的工作，以及完成工作所花費的時間。 您可以為專案排程資源，並在專案層級使用排程工具或工作負載平衡器為每個資源分配時數。
-author: Alina
+description: 您可以為單一專案排程資源，以指出每項資源被指派的工作，以及完成工作所花費的時間。 您可以為專案排程資源，並在專案級別使用工作負載平衡器為每個資源分配時數。
+author: Alina, Lisa
 feature: Work Management
 exl-id: d59f6083-49d3-4fe6-ac60-656f992363d9
-source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 1%
+source-wordcount: '283'
+ht-degree: 2%
 
 ---
 
 # 為專案排程資源
 
-您可以為單一專案排程資源，以指出每項資源被指派的工作，以及完成工作所花費的時間。 您可以為專案排程資源，並在專案層級使用排程工具或工作負載平衡器為每個資源分配時數。
+<!--Audited: 5/2025-->
+
+您可以為單一專案排程資源，以指出每項資源被指派的工作，以及完成工作所花費的時間。 您可以為專案排程資源，並在專案級別使用工作負載平衡器為每個資源分配時數。
 
 ## 存取需求
+
++++ 展開以檢視存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -31,7 +35,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計劃 </p> </td> 
+   <td> <p>規劃 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級*</td> 
@@ -45,31 +49,25 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>專案、任務和問題的Contribute許可權或更高版本 </p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>貢獻專案、任務和問題的許可權或更高 </p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 為專案排程資源
 
-若要存取專案中的「排程」工具：
+您可以使用工作負載平衡器來排程專案的資源。
 
 1. 移至您要排程資源的專案。
-1. 按一下左側面板中的&#x200B;**排程**&#x200B;或工作負載平衡器區段。 排程或工作負載平衡器區段可能位於&#x200B;**顯示更多**&#x200B;下。
-
-   如需有關在專案中使用排程工具排程資源的資訊，請參閱「開始使用資源排程」一文中的「修改使用者指派和配置」一節。
-
-1. （條件式且建議使用）如果您按一下[排程]，請按一下&#x200B;**切換至工作負載平衡器**&#x200B;以使用工作負載平衡器排程資源。
-
-   >[!TIP]
-   >
-   >如果您之前已選取工作負載平衡器，區段的名稱會變更為工作負載平衡器。
+1. 按一下左側面板中的&#x200B;**工作負載平衡器**。
 
    如需有關使用工作負載平衡器排程資源的資訊，請參閱下列文章：
 
    * [在工作負載平衡器](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)中指派工作的總覽
    * [在工作負載平衡器中管理使用者配置](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
 
- 
+
