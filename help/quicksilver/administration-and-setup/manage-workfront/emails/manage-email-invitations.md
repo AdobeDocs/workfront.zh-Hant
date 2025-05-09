@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: emails-administration
 title: 管理新使用者的電子郵件邀請
 description: 身為Adobe Workfront管理員，您可以使用電子郵件邀請將使用者新增至Workfront，並通知他們已新增。
-author: Nolan
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: e13e3479-391f-4aec-b998-e9b6057f256b
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: dccbd5a036e1b148bc8f3e41fac3a67babe6dc9a
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->此頁面中說明的程式僅適用於尚未加入Admin Console的組織。 如果您的組織已加入Adobe Admin Console，您必須透過Adobe Admin Console執行此動作。
+>本頁所述的程式僅適用於尚未加入Admin Console的組織。 如果您的組織已加入Adobe Admin Console，您必須透過Adobe Admin Console執行此動作。
 >
 >如需根據貴組織是否已加入Adobe Admin Console而有所差異的程式清單，請參閱[以平台為基礎的管理差異(Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 +++
 
-## 產生電子郵件邀請 {#generate-email-invitations}
+## 重新傳送電子郵件邀請給現有的未註冊使用者
 
 在下列情況下會產生電子郵件邀請：
 
@@ -82,7 +82,7 @@ ht-degree: 0%
   >
   >如果您在建立使用者時取消選取&#x200B;**傳送電子郵件邀請給此人**&#x200B;方塊，則無法手動產生電子郵件邀請。 只有已在其帳戶建立時傳送原始電子郵件邀請的使用者，才能手動重新傳送電子郵件邀請。 如需有關建立新使用者的詳細資訊，請參閱[新增使用者](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md)。
 
-若要手動產生電子郵件邀請給現有的未註冊使用者：
+若要手動將電子郵件邀請重新傳送給現有的未註冊使用者：
 
 {{step-1-to-users}}
 
@@ -98,9 +98,9 @@ ht-degree: 0%
    >
    >如果您的組織已加入Admin Console，而您透過Workfront新增使用者，則無法選擇傳送電子郵件邀請給新使用者。
    >
-   >新的Adobe使用者會新增至Admin Console，而Admin Console會傳送電子郵件邀請他們完成註冊程式。 所有使用者必須完成註冊程式才能存取任何Adobe系統。
+   >新的Adobe使用者會新增至Admin Console，而Admin Console會傳送電子郵件邀請他們完成註冊程式。 所有使用者都必須完成註冊程式，才能存取任何Adobe系統。
    >
-   >對於現有的Adobe使用者，使用者可能會收到也可能不會收到有關Workfront可用性的電子郵件。 這是產品的Adobe管理員所控制的偏好設定。
+   >對於現有的Adobe使用者，使用者可能會收到也可能不會收到有關Workfront可用性的電子郵件。 這是由Adobe管理員控制的產品偏好設定。
 
 ## 設定電子郵件邀請 {#configure-email-invitations}
 
