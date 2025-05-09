@@ -106,7 +106,7 @@ ht-degree: 3%
       </tbody> 
      </table>
 
-   * **編輯團隊**：請至少選取一個團隊，按一下&#x200B;****「編輯」圖示![「編輯」圖示](assets/edit-icon.png)，然後使用下列選項進行設定：
+   * **編輯團隊**：請至少選取一個團隊，按一下&#x200B;**&#x200B;**「編輯」圖示![「編輯」圖示](assets/edit-icon.png)，然後使用下列選項進行設定：
 
      <table style="table-layout:auto"> 
       <col> 
