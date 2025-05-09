@@ -116,7 +116,7 @@ drafted for P&P:
 1. 前往專案。
 1. 在左側面板中，按一下&#x200B;**基準線**。
 
-   專案](assets/baselines-section-on-project-with-header.png)上的![基準線區段
+   專案![&#128279;](assets/baselines-section-on-project-with-header.png)上的基準線區段
 
 1. 按一下&#x200B;**新增基準線。**
 1. 指定基準線的名稱。
