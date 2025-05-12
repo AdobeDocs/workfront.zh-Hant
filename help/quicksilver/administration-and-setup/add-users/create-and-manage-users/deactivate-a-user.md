@@ -8,16 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: bb6697241701160f878dc3fde2c7dd4d57ec097e
+source-git-commit: 0c2a54406ceb690e638cdc0376a3dc01a7c2df76
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1089'
 ht-degree: 0%
 
 ---
 
 # 停用或重新啟用使用者
 
-<!--Audited 2/2024-->
+<!--Audited 5/2025-->
 
 <!--
 
@@ -25,13 +25,13 @@ ht-degree: 0%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/tw/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 -->
 
-如果使用者離開組織，您可能需要從Adobe Workfront中將其移除。 他們不應在系統中保持作用中，因為這可能會在將其新增到更新或指派他們工作時，造成其他使用者的混淆。 當您停用使用者時，其他使用者在系統中搜尋人員時不會再看到其名稱。
+如果使用者離開組織，建議在系統中停用他們，以避免當其他使用者將他們新增到更新或指派他們工作時，造成混淆。 當您停用使用者時，其他使用者在系統中搜尋人員時不會再看到其名稱。
 
 管理員可在設定區域中看到非作用中使用者。
 
@@ -41,11 +41,9 @@ ht-degree: 0%
 >
 >* 建議您停用已離開組織的使用者，而非刪除他們。 如果刪除使用者，則會遺失Workfront中與該使用者相關聯的所有記錄。 這包括他們的工作指派、他們與附註、時數、檔案及他們建立過的所有其他物件的關聯。
 >
->   在Workfront中停用使用者時，會移除使用者對Workfront和數位校訂的授權。 此外，無法再為該使用者指派工作。 當使用者停用時，該使用者的Workfront授權和校訂授權將可供其他使用者使用。 已停用使用者設定檔中的所有其他資訊維持不變。
+>* 在Workfront中停用使用者時，會移除使用者對Workfront和數位校訂的授權。 此外，無法再為該使用者指派工作。 當使用者停用時，該使用者的Workfront授權和校訂授權將可供其他使用者使用。 已停用使用者設定檔中的所有其他資訊維持不變。
 >
->   如需有關刪除和停用使用者之影響的詳細資訊，請參閱[刪除使用者](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)。
->
->* 在Workfront中停用使用者時，不會從Adobe Admin Console的Workfront產品設定檔中移除該使用者。
+>* 在Workfront中停用使用者時，不會從Adobe Admin Console的Workfront產品設定檔中移除該使用者。 如需詳細資訊，請參閱[刪除使用者](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)。
 
 
 ## 存取需求
@@ -71,7 +69,7 @@ ht-degree: 0%
    <td> <p>您必須具備下列其中一項：</p> 
     <ul> 
      <li> <p>系統管理員存取層級。 </li> 
-     <li> <p>您的存取層級中的<b>使用者</b>設定已設定為<b>編輯</b>存取權，其中<b>建立</b>以及在<b>微調您的設定</b> <img src="assets/gear-icon-in-access-levels.png">下啟用的兩個<b>使用者管理員</b>選項中的至少一個。 </p> <p>在這兩個選項中，如果已啟用<b>使用者管理員（群組使用者）</b>，您必須是使用者所屬群組的群組管理員。</p> </li> 
+     <li> <p>您的存取層級中的使用者設定已設定為「編輯」存取，且「建立」下至少已啟用兩個「使用者管理員」選項之一（微調您的設定<img src="assets/gear-icon-in-access-levels.png">）。 </p> <p>在這兩個選項中，如果已啟用「使用者管理員（群組使用者）」，您必須是使用者所屬群組的群組管理員。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -101,9 +99,10 @@ ht-degree: 0%
 
 {{step-1-to-users}}
 
-1. 選取使用者，按一下&#x200B;**更多**&#x200B;圖示![更多](assets/more-icon.png)，然後按一下&#x200B;**停用**。
+1. 在使用者清單中選取使用者。
+1. 按一下&#x200B;**更多**&#x200B;圖示![更多圖示](assets/more-icon.png)，然後按一下&#x200B;**停用**。
 
-1. 在出現的方塊中，按一下&#x200B;**停用**。
+1. 在&#x200B;**停用使用者**&#x200B;對話方塊中，按一下&#x200B;**停用**。
 
 ## 排程使用者停用
 
@@ -115,36 +114,37 @@ Workfront管理員和計畫授權使用者可在他們的使用者設定檔中�
 
 {{step-1-to-users}}
 
-1. 選取使用者的名稱。
+1. 在使用者清單中選取使用者。
 
    或
 
    （選用）選取多位使用者以排程大量停用。
 
-1. 按一下「編輯」圖示![編輯圖示](assets/edit-icon.png)。
-1. 在顯示的編輯使用者方塊中，按一下&#x200B;**資源規劃**&#x200B;移至該區域。
-1. 啟用&#x200B;**排程停用**&#x200B;選項。
+1. 按一下&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)。
+1. 在&#x200B;**編輯使用者**&#x200B;方塊的左側面板中，按一下&#x200B;**資源規劃**。
+1. 選取&#x200B;**排程停用**&#x200B;核取方塊。
 
-1. 在顯示的行事曆中，指定&#x200B;**排定的停用日期**&#x200B;的日期和時間。
+1. 選取&#x200B;**排定的停用日期**&#x200B;的日期和時間。
 
    >[!NOTE]
    >
    >* 在時間方塊中，您只能選取整小時增量，不能選取分鐘。
-   >* 如果您選取已通過當天的時間，Workfront會將停用排程定於隔天凌晨12:00。 選取的時間符合正在排程停用之使用者的電腦時區。
+   >* 如果您選取已通過當天的時間，Workfront會將停用排程定於隔天凌晨12:00。
+   >* 選取的時間符合正在排程停用之使用者的電腦時區。
 
 1. 按一下「**儲存變更**」。
 
-   在選取的時間過後就會在選取的日期停用使用者。 如果您選取了多個要大量停用的使用者，則所有選取的使用者在選取的日期晚於選取的時間點停用。
+在選取的時間過後就會在選取的日期停用使用者。 如果您選取了多個要大量停用的使用者，則所有選取的使用者在選取的日期晚於選取的時間點停用。
 
-我們建議您為您已排程停用的使用者建立報表，以隨時瞭解即將停用的使用者。 無法確認停用是否發生在使用者停用後。
+我們建議您為您已排程停用的使用者建立報表，以隨時瞭解即將停用的使用者。 使用者停用後，無法確認是否已發生停用。
 
 ## 重新啟用使用者
 
 {{step-1-to-users}}
 
-1. 選取使用者，按一下「更多」圖示![「更多」圖示](assets/more-icon.png)，然後按一下&#x200B;**「啟動」**。
+1. 選取使用者，按一下&#x200B;**更多**&#x200B;圖示![更多圖示](assets/more-icon.png)，然後按一下&#x200B;**啟動**。
 
-1. 在下拉式功能表中指派新的&#x200B;**存取層級**，然後按一下&#x200B;**重新啟用**。
+1. 在&#x200B;**重新啟用使用者**&#x200B;對話方塊中，從下拉式功能表中選取新的&#x200B;**存取層級**，然後按一下&#x200B;**重新啟用**。
 <!--
 ### Asset review and approval impact when you reactivate a user
 
@@ -163,16 +163,16 @@ Deactivated users lose access to their assigned Frame.io accounts as well as ass
 
 這些物件與活動可能包含下列專案：
 
-* 指派給使用者的任務或問題
-* 使用者擁有的專案
-* 設定為透過使用者的存取許可權執行的報表
-* 使用者擁有的範本
-* 使用者設定為資源管理員的專案和範本
-* Workfront管理員或計畫授權使用者為預設受指派人的請求佇列路由規則
-* 具有包含使用者的階段的核准流程（尤其是如果他們是該階段的唯一核准者）
-* 將使用者列為核准者的時程表
-* 將使用者列為核准者的時程表設定檔
-* 校訂包含使用者的自動化工作流程
+* 指派給使用者的任務或問題。
+* 使用者擁有的專案。
+* 設定為透過使用者的存取許可權執行的報表。
+* 使用者擁有的範本。
+* 使用者設定為資源管理員的專案和範本。
+* 請求佇列路由規則Workfront管理員或計畫授權使用者是預設受指派人。
+* 具有包含使用者的階段的核准流程（尤其是如果他們是該階段的唯一核准者）。
+* 將使用者列為核准者的時程表。
+* 將使用者列為核准者的時程表設定檔。
+* 校訂包含使用者的自動化工作流程。
 
 ## 排定使用者停用時的資源規劃影響
 

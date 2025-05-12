@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 0c2a54406ceb690e638cdc0376a3dc01a7c2df76
 workflow-type: tm+mt
-source-wordcount: '2422'
+source-wordcount: '2434'
 ht-degree: 0%
 
 ---
 
 # 新增計算欄位至表單
+
+<!-- Audited: 5/2025 -->
 
 您可以將自訂表單附加至物件時，新增使用現有資料產生新資料的計算自訂欄位。
 
@@ -93,15 +95,15 @@ ht-degree: 0%
 
 {{step-1-to-setup}}
 
-1. 按一下左側面板中的&#x200B;**自訂Forms**。
+1. 在左側面板中，按一下&#x200B;**自訂Forms**，然後按&#x200B;**Forms**。
 
    <!-- >[!TIP]
     >
     >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
 
-1. 按一下&#x200B;**新增自訂表格。**
-1. 選取您要附加自訂表單的物件型別，然後按一下[繼續]。**&#x200B;**
+1. 按一下&#x200B;**新增自訂表格**。
 
+1. 在&#x200B;**新增自訂表單**&#x200B;對話方塊中，選取您要附加自訂表單的物件型別，然後按一下&#x200B;**繼續**。
 1. 在熒幕左上方，按一下&#x200B;**欄位程式庫**。
 
    ![欄位程式庫](assets/field-library.png)
@@ -117,7 +119,7 @@ ht-degree: 0%
    >
    >複雜表單的範例包括含有階層式引數的表單、計算的自訂資料欄位，以及單一欄位中的多個值選項。
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -127,18 +129,19 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->在建立新的計算自訂欄位之前，請識別要包含的現有欄位，以確定Workfront中存在計算所需的資料。
+>在建立新的計算自訂欄位之前，請識別要包含的現有欄位，以便確定Workfront中存在計算所需的資料。
 
 {{step-1-to-setup}}
 
-1. 按一下左側面板中的&#x200B;**自訂Forms**。
+1. 在左側面板中，按一下&#x200B;**自訂Forms**，然後按&#x200B;**Forms**。
+
+1. 按一下&#x200B;**新增自訂表格**。
 
    <!-- >[!TIP]
     >
     >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
 
-1. 按一下&#x200B;**新增自訂表格。**
-1. 選取您要附加自訂表單的物件型別，然後按一下[繼續]。**&#x200B;**
+1. 在&#x200B;**新增自訂表單**&#x200B;對話方塊中，選取您要附加自訂表單的物件型別，然後按一下&#x200B;**繼續**。
 
 1. 在畫面左側，找到&#x200B;**已計算**，並將其拖曳至畫布上的區段。
 
@@ -166,9 +169,9 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader">格式</td> 
-      <td> <p>您希望儲存並顯示欄位結果的格式。</p> <p>如果欄位將用於數學計算，請一律使用<strong>數字</strong>或<strong>貨幣</strong>格式。 當您選取「數字」或「貨幣」時，系統會自動截斷以0開頭的數字。</p> 
+      <td> <p>您希望儲存並顯示欄位結果的格式。</p> <p>如果欄位將用於數學計算，請一律使用<strong>數字</strong>或<strong>貨幣</strong>格式。 當您選取<strong>數字</strong>或<strong>貨幣</strong>時，系統會自動截斷以0開頭的數字。</p> 
       <p><b>重要</b>：在選擇格式之前，請考慮新欄位的正確格式。 儲存自訂表單後無法編輯格式欄位。 選擇錯誤的格式可能會影響未來的計算，以及報告和清單分組中的彙總值。</p>
-      <p><strong>注意：</strong>使用貨幣格式的計算欄位不應該包含引號。 （例如，使用800.00而非「800.00」。） 使用引號可能會由於貨幣型別的語言格式細微差別而造成非預期的後果。</p></td>
+      <p><strong>注意</strong>：使用<strong>貨幣</strong>格式的計算欄位不應該包含引號。 （例如，使用800.00而非「800.00」。） 使用引號可能會由於貨幣型別的語言格式細微差別而造成非預期的後果。</p></td>
      </tr> 
     </tbody> 
    </table>
@@ -295,7 +298,7 @@ ht-degree: 0%
       >
       >您可以執行下列任一項作業，以取得計算的協助：
       > 
-      >* 將滑鼠停留在計算中的運算式上可檢視說明、如何使用的範例，以及文章[計算資料運算式概觀](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)中其他資訊的「瞭解更多」連結。
+      >* 將滑鼠停留在計算中的運算式上可檢視說明、如何使用的範例，以及文章[計算資料運算式概觀](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)中詳細資訊的&#x200B;**深入瞭解**連結。
       >  ![運算式說明文字](assets/hover-expression-help-text.jpg)
       >* 使用顏色編碼來識別您新增的元件。 運算式會以藍色顯示，而欄位則會以綠色顯示。
       >  欄位運算式的![色彩](assets/colors-fields-expressions.jpg)
@@ -330,7 +333,7 @@ ht-degree: 0%
     </tbody> 
    </table>
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
