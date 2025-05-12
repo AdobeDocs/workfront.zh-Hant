@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: f9de87b7b874910cb986cbf6d57e998afe602bb8
+source-git-commit: d0a82c1ae306edb4f63c961120bb1df4613ace7e
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,14 @@ ht-degree: 0%
 
 如需2025年第三季度發行週期中目前可用的所有變更清單，請參閱[2025年第三季度發行概觀](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)。
 
->[!IMPORTANT]
->
->此頁面上列出的功能屬於分階段發行的一部分，僅適用於特定客戶。
+## 案頭校訂檢視器更新
+
+案頭校訂檢視器已更新至2.1.48版。
+
+此更新是修正問題，以保持Desktop Viewer與Mac作業系統相容。 Electron已降級為34.4.0，而Chromium已降級為132。
+
+此更新同時適用於Mac和Windows。
+
 
 ## 已連結Google資料夾中的Assets必須個別新增，才能在Workfront中顯示
 
@@ -43,6 +48,10 @@ Google針對存取Google Drive的協力廠商應用程式[加強安全性控制]
 
 
 ## 校訂檢視器中可用的新檔案核准決定按鈕
+
+>[!IMPORTANT]
+>
+>此功能屬於分階段發行，僅供特定客戶使用。
 
 >[!NOTE]
 >
