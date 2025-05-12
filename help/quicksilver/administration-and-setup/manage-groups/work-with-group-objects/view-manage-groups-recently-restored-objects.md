@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: 檢視和管理群組最近還原的專案
 description: 當您在「群組」區域中檢視您管理的群組時，可以檢視、篩選、群組，以及還原其最近還原的工作專案、檔案和範本。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8ec06363-080e-4f1d-8a50-fc14f06ad323
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: 96b9939131beebd9c1968cb5c287d75295c68c5b
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 1%
