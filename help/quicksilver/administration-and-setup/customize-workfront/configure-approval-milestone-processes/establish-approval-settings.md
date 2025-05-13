@@ -8,9 +8,9 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2fb0c647-bb6d-46d0-a985-6ab820b4a7f2
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 1397702a6b50953e7abcfe491b95aeb8b981df5b
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '879'
 ht-degree: 2%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader">當核准程式包含角色時，專案團隊中不需要有核准者</td> 
-      <td> <p>如果核准流程包含角色時，不需要專案團隊中的核准者，請選取此選項。 將核准決定指派給工作角色時，只有擁有專案中相關角色的使用者可以看到核准。 如果您啟用此設定，則無論是否屬於專案團隊，任何具有該工作角色的使用者都會收到核准請求。 如需有關編輯使用者專案角色的資訊，請參閱<a href="../../../manage-work/projects/planning-a-project/manage-project-team.md" class="MCXref xref">管理專案團隊</a>。 </p> 
+      <td> <p>如果核准流程包含角色時，不需要專案團隊中的核准者，請選取此選項。 不論使用者是否屬於專案團隊，擁有該工作角色的任何使用者都會收到核准請求，但不會自動授予他們專案的存取權。 如需有關編輯使用者專案角色的資訊，請參閱<a href="../../../manage-work/projects/planning-a-project/manage-project-team.md" class="MCXref xref">管理專案團隊</a>。 </p> 
       <p><b>秘訣</b>：當您指派核准給角色，且專案團隊中不需要有選項<b>核准者（針對包含角色的核准程式）</b>已停用，但專案團隊中沒有符合核准角色的角色，核准就會重新指派給專案所有者。 </p> </td> 
      </tr> 
      <tr> 
