@@ -255,4 +255,4 @@ Workfront有兩個版本的事件訂閱。 本文會說明兩者之間的差異�
 
 Workfront Fusion使用事件訂閱來監視Workfront中的變更以觸發情境。 您可以使用「Workfront >更新事件裝載版本」模組，更新Fusion直接在案例中使用的事件訂閱版本。
 
-如需使用此模組的說明，請參閱Workfront Fusion檔案中的[Workfront模組](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules)。
+如需使用此模組的說明，請參閱Workfront Fusion檔案中的[Workfront模組](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules)。
