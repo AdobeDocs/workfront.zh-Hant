@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 2c6e3567-d5eb-4528-a393-dbf235958ed2
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 19e0b792bc49ede0504af479952fdbdf384dc73c
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
@@ -42,15 +42,13 @@ ht-degree: 0%
 
 若要透過防火牆接收事件訂閱裝載，您必須依全域區域將IP位址新增至允許清單。 若要深入瞭解，請參閱[事件訂閱API](../../wf-api/general/event-subs-api.md)。
 
-## 擁有正確的存取層級和API金鑰
+## 擁有正確的存取層級和驗證
 
 若要建立、查詢或刪除事件訂閱，您的Workfront使用者需要：
 
-* **系統管理員**&#x200B;的存取層級
+* **系統管理員**的存取層級
 若要瞭解更多資訊，請參閱[授予使用者完整管理存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)或[授予使用者對特定區域的管理存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)。
 
-* API金鑰
+* 需要`sessionID`標頭才能使用事件訂閱API
 
-  <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">To learn more, see .</p>
-  -->
+  如需詳細資訊，請參閱[API基本知識](api-basics.md)中的[驗證](api-basics.md#authentication)。
