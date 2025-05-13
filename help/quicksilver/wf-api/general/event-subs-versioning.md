@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: 19e0b792bc49ede0504af479952fdbdf384dc73c
+source-git-commit: e4ff9c9c44c75518e75b14209a18586363cdf4f5
 workflow-type: tm+mt
-source-wordcount: '1275'
+source-wordcount: '1259'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,6 @@ Workfront有兩個版本的事件訂閱。 本文會說明兩者之間的差異�
 >下列版本將影響事件訂閱版本設定：
 >
 >* **25.2版** （2025年4月10日）：在25.2版之後建立的所有新訂閱皆建立為版本2。
->* **25.3版** （2025年7月17日）：在25.3版發行後，訂閱無法再降級為版本1。
 >* **2026年1月15日**：所有剩餘的第1版訂閱都會移轉至第2版。
 
 ## 第1版與第2版之間的變更
@@ -256,4 +255,4 @@ Workfront有兩個版本的事件訂閱。 本文會說明兩者之間的差異�
 
 Workfront Fusion使用事件訂閱來監視Workfront中的變更以觸發情境。 您可以使用「Workfront >更新事件裝載版本」模組，更新Fusion直接在案例中使用的事件訂閱版本。
 
-如需使用此模組的說明，請參閱Workfront Fusion檔案中的[Workfront模組](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules)。
+如需使用此模組的說明，請參閱Workfront Fusion檔案中的[Workfront模組](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules)。
