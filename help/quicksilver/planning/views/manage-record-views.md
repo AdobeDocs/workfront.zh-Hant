@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
+source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
 workflow-type: tm+mt
-source-wordcount: '1537'
+source-wordcount: '1508'
 ht-degree: 1%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 1%
 
 * [建立及編輯檢視](#create-or-edit-record-views)
 * [刪除檢視](#delete-views)
-* [複製檢視](#duplicate-views)
+* [複製檢視](#duplicate-a-view)
 * [在檢視中啟用即時狀態指示器](#enable-the-real-time-presence-indicator-in-a-view)
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 
@@ -258,7 +258,7 @@ ht-degree: 1%
    依預設，選取型別的所有記錄都會顯示在表格檢視中。
 
 1. 將游標停留在檢視標籤中其中一個檢視名稱上，然後按一下檢視名稱左邊的&#x200B;**更多** ![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**刪除**。
-首先，您可能需要按一下最後一個標籤左側的&#x200B;**更多**，以尋找您要刪除的檢視。
+首先，您可能需要按一下最後一個標籤左側的**更多**，以尋找您要刪除的檢視。
 
 1. 按一下&#x200B;**刪除**&#x200B;確認。<!--ensure there is not another saving step here?!-->
 

@@ -6,10 +6,10 @@ description: 除了從頭開始建立專案範本外，您也可以複製現有�
 author: Alina
 feature: Work Management
 exl-id: b2e0878b-8245-4e01-819d-c3746f553d95
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 3%
+source-wordcount: '322'
+ht-degree: 2%
 
 ---
 
@@ -81,9 +81,14 @@ ht-degree: 3%
 1. 按一下標題中範本名稱右側的&#x200B;**更多**&#x200B;功能表![更多圖示](assets/qs-more-icon-on-an-object.png)，然後按一下&#x200B;**複製**。
 
    **複製範本**&#x200B;方塊開啟。
+
+   <!--![Copy template box](assets/copy-template-box.png)-->
+
 1. 在&#x200B;**新範本名稱**&#x200B;欄位中指定範本的名稱。
 
    依預設，新名稱為`Copy of Original template name`。
 
-1. 選取是否要&#x200B;**保留使用者在任務與範本上的指派**：選取此選項可將原始範本中的所有任務與範本指派傳送到新範本。
-1. 按一下[儲存]&#x200B;**以建立範本的復本。**
+1. 如果要將所有來自原始範本的任務和範本指派傳送到新範本，請選取&#x200B;**保留使用者在任務或範本上的指派**&#x200B;選項。 範本任務指派，以及範本擁有者和贊助者會轉移到複製的範本。
+1. 按一下[儲存]**以建立範本的復本。**
+
+   新範本會顯示在Workfront的「範本」區域的範本清單中。

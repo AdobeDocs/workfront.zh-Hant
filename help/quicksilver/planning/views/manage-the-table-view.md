@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
+source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
 workflow-type: tm+mt
-source-wordcount: '3497'
+source-wordcount: '3229'
 ht-degree: 2%
 
 ---
@@ -527,49 +527,51 @@ To sort grouped records:
 
 如需詳細資訊，請參閱文章[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)中的「啟用即時顯示狀態指示器」一節。
 
-<div class="preview">
+<!--<div class="preview">
 
-## 匯出表格檢視
+## Export the table view
 
-您可以將表格檢視中的資訊匯出為CSV或Excel檔案。
+You can export information in the table view to a CSV or an Excel file. 
 
-匯出表格檢視時，請考量下列事項：
+Consider the following when exporting the table view:
 
-* 匯出至Excel檔案的資訊會保留套用至Workfront Planning表格檢視的篩選器、群組和排序。 群組在CSV檔案中不可見。
+* The information exported to an Excel file preserves the filters, groupings, and sorts applied to the table view in Workfront Planning. Groupings are not visible in the CSV file.
 
-* 匯出的檔案不支援縮圖和自訂列顏色。
+* Thumbnails and custom row colors are not supported in exported files.  
 
-* 只會匯出Workfront介面中顯示的欄位。 隱藏欄位不會匯出。
+* Only fields made visible in the Workfront interface are exported. Hidden fields are not exported.
 
-若要從表格檢視或記錄型別匯出資訊，請執行下列動作：
+To export information from the table view or a record type:
 
-1. 移至記錄型別頁面，然後按一下表格檢視標籤。
-1. 暫留在表格檢視標簽名稱上，然後按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)。
-1. 按一下&#x200B;**匯出**，然後選取下列其中一種格式：
+1. Go to a record type page and click a table view tab. 
+1. Hover over the table view tab's name, then click the **More** menu ![More menu](assets/more-menu.png).
+1. Click **Export**, then select one of the following formats:
 
-   * Excel
-   * CSV
+    * Excel
+    * CSV
 
-   >[!IMPORTANT]
-   >
-   >當您在熒幕上顯示不同的檢視時，無法從表格檢視中匯出資訊。 您必須顯示要匯出的表格檢視，才能存取「更多」選單中的「匯出」選項。
+    >[!IMPORTANT]
+    >
+    >You cannot export information from the table view when you display a different view on the screen. You must display the table view that you want to export in order to access the Export option in the More menu. 
 
-   檔案已下載到您的電腦。
+    The file is downloaded to your computer. 
 
-1. （選擇性）前往電腦上的下載資料夾，並尋找已下載的檔案。
+1. (Optional) Go to the downloads folder on your computer and find the downloaded file. 
 
-   匯出的檔案名稱會遵循下列格式：
+    The name of the exported file follows the following format: 
 
-   `Name of the view - name of the record type`
+    `Name of the view - name of the record type`
 
-   例如，促銷活動記錄型別的表格檢視會產生名為`Table view - Campaigns`的檔案。
+    For example, a table view for the Campaigns record type generates a file named `Table view - Campaigns`.
 
-   檔案會顯示下列資訊：
+    The file displays the following information: 
+    
+    * The column headers are highlighted in black, in the Excel file
+    * All the fields visible in the Workfront interface, sorted and filtered by the same criteria
+    * Groupings are preserved in the Excel file
 
-   * 在Excel檔案中，欄標題會以黑色反白
-   * Workfront介面中可見的所有欄位，皆依相同條件排序和篩選
-   * 群組會保留在Excel檔案中
+    You can now share the exported files with others, or attach them to any communication. 
+    
+ </div>   
 
-   您現在可以與其他人共用匯出的檔案，或將它們附加到任何通訊中。
-
-</div>
+ -->

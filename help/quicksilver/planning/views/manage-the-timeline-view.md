@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
+source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
 workflow-type: tm+mt
-source-wordcount: '2878'
+source-wordcount: '2946'
 ht-degree: 0%
 
 ---
@@ -171,7 +171,7 @@ ht-degree: 0%
 
 1. （選擇性）按一下&#x200B;**劃分**，在時間軸上顯示連線的記錄。
 
-   如需詳細資訊，請參閱[使用劃分功能在時間軸檢視中顯示連線記錄](#break-down-connected-records-in-the-timeline-view)一節
+   如需相關資訊，請參閱本文章的[使用劃分功能在時間軸檢視](#break-down-connected-records-in-the-timeline-view)中顯示連線記錄。
 
 ### 新增篩選器
 
@@ -266,15 +266,22 @@ this is not possible right now; if this is the same functionality as the table v
 
 1. 如文章[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)中所述，建立記錄型別的時間表檢視。
 1. 按一下&#x200B;**設定**。
-1. 按一下左側面板中的&#x200B;**日期和時間**，然後選取要在時間軸上顯示的&#x200B;**開始日期**&#x200B;和&#x200B;**結束日期**。 您可以選擇預設的「開始」和「結束」日期，也可以選擇任何可用的日期欄位。 代表記錄的長條圖，其開始日期為您為「開始」日期指定的日期，結束日期為您與「結束」日期對應的日期。
+1. 按一下左側面板中的&#x200B;**日期和時間**，然後選取要在時間軸上顯示的&#x200B;**開始日期**&#x200B;和&#x200B;**結束日期**。 您可以選擇預設的「開始」和「結束」日期，也可以選擇任何可用的日期欄位。
+
+   代表記錄的長條圖，其開始日期為您為「開始」日期指定的日期，結束日期為您與「結束」日期對應的日期。
 
    >[!NOTE]
    >
-   >沒有開始或結束日期值或開始日期晚於結束日期的記錄不會顯示在時間軸檢視中。
+   >* 沒有開始或結束日期值或開始日期晚於結束日期的記錄不會顯示在時間軸檢視中。
+   >
+   >* 如果您使用「劃分」選項顯示其他記錄，則「開始」與「結束」日期為主要記錄的日期。 您無法在此區域選擇連線記錄的「開始」和「結束」日期。
 
 1. 按一下左側面板中的&#x200B;**長條樣式**，以指示您要在記錄長條上顯示的資訊。
 
-   預設會選取記錄的主要欄位（或標題），如記錄的表格檢視中所定義。<!--adjust this when the primary field is released??-->
+   <!--<span class="preview">You can define the bar style of  the main record as well as for the connected records, when using the Breakdown option in the Standard view. </span>-->
+
+   預設會選取記錄的主要欄位（或標題），如記錄的表格檢視中所定義。
+   <!--adjust this when the primary field is released??-->
 
 1. （選擇性和條件性）如果您將縮圖新增至記錄，請選取「縮圖」選項，以顯示與其記錄列中的記錄相關聯的影像。
 
@@ -306,10 +313,13 @@ this is not possible right now; if this is the same functionality as the table v
    >
    >* <span class="preview">如果您劃分時間軸檢視來顯示連線的物件，則「截斷列」詳細資料設定只會套用至主要記錄型別。 它不適用於連線的記錄列。</span>
 
+   <!--take out the last bullet in the Tip above when we release the additional records in breakdown formatting-->
 
 1. 按一下左側面板中的&#x200B;**色彩**，以自訂時間軸中記錄和群組的色彩。
 
    ![色彩標籤時間表檢視](assets/color-tab-timeline-view.png)
+
+   <!--<span class="preview">You can define the color of  the main record as well as for the connected records, when using the Breakdown option in the Standard view. </span>-->
 
 1. （條件式與選擇性）如果您將群組新增至時間軸檢視，請從下列選項中選取，以在&#x200B;**設定群組顏色**&#x200B;區段中設定群組的顏色：
 
@@ -348,9 +358,13 @@ this is not possible right now; if this is the same functionality as the table v
 
    如果選取的記錄型別沒有包含顏色編碼選項的欄位，則此選項會變暗。
 
+   <!--1. <span class="preview">(Optional) If you are using the Breakdown option, repeat the steps starting with step 4 for each connected record displayed in the timeline. </span>-->
+
 1. 按一下「**儲存**」。
 
    記錄會以您所選取的規格顯示在時間軸檢視中。
+
+
 
 ### 在時間軸檢視中劃分連線記錄
 
@@ -359,6 +373,7 @@ this is not possible right now; if this is the same functionality as the table v
 #### 使用劃分功能時的注意事項
 
 * 您可以在時間軸檢視中選取的記錄型別記錄下顯示連線的記錄或物件。
+* 只有在以「標準」模式檢視記錄時，才可以在時間軸檢視中顯示連線的記錄。 您無法在時間軸檢視的「精簡」模式中使用「劃分」選項。
 * 您可以使用「劃分」功能，在時間軸檢視中顯示下列專案：
    * Workfront Planning記錄已連線至選取的記錄型別。
    * Workfront物件型別或連線到所選記錄型別的Experience Manager資產。
