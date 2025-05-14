@@ -1,14 +1,14 @@
 ---
 title: 管理表格檢視
-description: 存取Adobe Workfront Planning中的記錄型別頁面時，您可以在表格檢視中顯示記錄及其欄位。 本文說明如何建立表格檢視，以及如何編輯或刪除現有的表格檢視。
+description: 存取Adobe Workfront Planning中的記錄型別頁面時，您可以在表格檢視中顯示記錄及其欄位。 本文說明如何建立或編輯表格檢視編輯，以及如何啟用檢視的即時顯示狀態指示器，或是如何將其匯出為CSV或Excel檔案。
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
+source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
 workflow-type: tm+mt
-source-wordcount: '3229'
+source-wordcount: '3395'
 ht-degree: 2%
 
 ---
@@ -24,6 +24,12 @@ ht-degree: 2%
 存取Adobe Workfront Planning中的記錄型別頁面時，您可以在表格檢視中顯示記錄及其欄位。
 
 如需有關記錄檢視以及如何管理它們的資訊，請參閱[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)。
+
+本文會說明下列資訊：
+
+* [在表格檢視中建立或編輯欄和列](#manage-a-table-view)
+* [啟用資料表檢視的即時狀態指示器](#enable-the-real-time-presence-indicator)
+  <!--* <span class="preview">[Export a table view to a CSV or Excel file](#export-the-table-view)</span>-->
 
 ## 存取需求
 
@@ -525,7 +531,21 @@ To sort grouped records:
 
 當您顯示表格檢視時，也可以檢視另一個使用者在您檢視記錄時正在編輯的欄位。
 
-如需詳細資訊，請參閱文章[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)中的「啟用即時顯示狀態指示器」一節。
+1. 移至記錄型別頁面並開啟任何檢視。
+1. （視條件而定）如果有其他使用者同時編輯所選型別的記錄，則其頭像會顯示在檢視的右上角。
+1. 按一下頭像旁的下拉式功能表，選取「**顯示共同作業人員**」切換按鈕。 依預設，會選取切換。
+
+   ![顯示共同作業人員切換選取的專案](assets/show-collaborators-toggle-selected.png)
+
+1. （視條件而定）開啟表格檢視，另一個人正在主動編輯的欄位會以對應表格檢視中其顯示圖片外框的顏色反白。
+
+   如果頭像的醒目提示顏色是灰色，使用者將在30秒前停止主動編輯記錄。
+
+   ![即時指標表格欄位和顯示圖片連線](assets/real-time-indicator-table-field-and-avatar-connection.png)
+
+   >[!TIP]
+   >
+   >您可以從任何檢視中選取&#x200B;**顯示共同作業人員**&#x200B;切換按鈕。 目前由其他人編輯的欄位僅在表格檢視中列出。
 
 <!--<div class="preview">
 

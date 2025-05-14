@@ -1,14 +1,14 @@
 ---
 title: 管理記錄檢視
-description: 使用Adobe Workfront Planning時，您可以在表格、時間軸或行事曆檢視中顯示記錄。 本文說明如何建立檢視，以及如何編輯或刪除現有檢視。
+description: 使用Adobe Workfront Planning時，您可以在表格、時間軸或行事曆檢視中顯示記錄。 本文說明如何建立檢視及編輯現有檢視。
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
+source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
 workflow-type: tm+mt
-source-wordcount: '1508'
+source-wordcount: '1161'
 ht-degree: 1%
 
 ---
@@ -40,10 +40,14 @@ ht-degree: 1%
 本文說明有關記錄檢視的下列資訊：
 
 * [建立及編輯檢視](#create-or-edit-record-views)
-* [刪除檢視](#delete-views)
-* [複製檢視](#duplicate-a-view)
 * [在檢視中啟用即時狀態指示器](#enable-the-real-time-presence-indicator-in-a-view)
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
+
+如需有關管理Workfront Planning記錄檢視的詳細資訊，另請參閱下列文章：
+
+* [刪除記錄檢視](/help/quicksilver/planning/views/delete-record-views.md)
+* [複製記錄檢視](/help/quicksilver/planning/views/duplicate-record-views.md)
+* [共用檢視](/help/quicksilver/planning/access/share-views.md)
 
 
 ## 存取需求
@@ -123,21 +127,17 @@ ht-degree: 1%
 * 您建立的檢視只對您和共用檢視的使用者可見。
 * 當您修改或刪除檢視時，該檢視會被修改並刪除，以供擁有該檢視許可權的所有使用者使用。
 * 每位使用者最多可建立100個檢視。 您可以為記錄型別顯示100個以上的檢視，但一個使用者只能建立100個檢視。
-* 您可以與其他人共用您建立的檢視。 如需詳細資訊，請參閱[共用檢視](/help/quicksilver/planning/access/share-views.md)。
-* 以下元素是每個記錄檢視所獨有的：
+* 雖然某些檢視元素可以套用至相同記錄的多個檢視，但它們對每個記錄檢視都是獨一無二的：
 
    * 篩選器
-   * 分組
-   * 排序
-   * 長條圖外觀（用於時間軸檢視）
+   * 分組（針對表格和時間表檢視）
+   * 長條圖外觀（適用於時間軸和行事曆檢視）
 
-  <!-- some of these are not available in all of the views - edit above-->
+  例如，在表格檢視中建立篩選時，篩選結果只會在選取的檢視（表格檢視）中顯示，而不會在與記錄型別關聯的所有檢視中顯示。
 
-  例如，在表格檢視中建立篩選時，篩選結果只會在選取的檢視中顯示，而不會在與記錄型別相關的所有檢視中顯示。
-
-  >[!NOTE]
+  >[!TIP]
   >
-  > 某些檢視元素可能不適用於所有檢視。
+  >某些檢視元素並非對所有檢視都可用。
 
 
 ## 記錄檢視之間的相似之處和差異
@@ -160,7 +160,7 @@ ht-degree: 1%
 | 顯示行事曆上的記錄 |           |              | ✓ |
 | 群組記錄 | ✓ | ✓ |
 | 排序記錄 | ✓ |              |
-| 色彩代碼記錄 |           | ✓ | ✓ |
+| <span class="preview">色彩代碼記錄</span> | <span class="preview">✓</span> | ✓ | ✓ |
 | Color-code分組 |           | ✓ |
 | 搜尋特定記錄 | ✓ | ✓ |
 | 與其他人共用檢視 | ✓ | ✓ | ✓ |
@@ -242,76 +242,18 @@ ht-degree: 1%
    * [管理時間表檢視](/help/quicksilver/planning/views/manage-the-timeline-view.md)
    * [管理行事曆檢視](/help/quicksilver/planning/views/manage-the-calendar-view.md)
 
-
-## 刪除檢視
-
-{{step1-to-planning}}
-
-1. 按一下工作區的卡片。
-
-   工作區隨即開啟，且記錄型別會顯示為卡片。
-
-1. 按一下記錄型別卡。
-
-   記錄型別頁面隨即開啟。
-
-   依預設，選取型別的所有記錄都會顯示在表格檢視中。
-
-1. 將游標停留在檢視標籤中其中一個檢視名稱上，然後按一下檢視名稱左邊的&#x200B;**更多** ![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**刪除**。
-首先，您可能需要按一下最後一個標籤左側的&#x200B;**更多**，以尋找您要刪除的檢視。
-
-1. 按一下&#x200B;**刪除**&#x200B;確認。<!--ensure there is not another saving step here?!-->
-
-   所有可存取記錄區域的使用者檢視都會刪除，且無法復原。
-
-<!--## Add a view as a favorite - this is not possible yet-->
-
-<!--not possible yet - August 30, 2023: -->
-
-## 複製檢視
-
-如果您想要保留一個檢視的多個版本，並在這些版本之間做些微變更，您可以複製一個檢視。
-
-複製檢視會建立現有檢視的相同副本。
-
-原始檢視的共用許可權不會轉移到複製的檢視。
-
-{{step1-to-planning}}
-
-1. 按一下工作區的卡片。
-
-   工作區隨即開啟，且記錄型別會顯示為卡片。
-
-1. 按一下記錄型別卡。
-
-   記錄型別頁面隨即開啟。
-依預設，所選型別的所有記錄都會顯示在表格檢視中。
-
-1. 將滑鼠停留在您要複製的檢視的索引標籤上，然後按一下檢視名稱右側的&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下&#x200B;**複製**。
-
-   ![檢視包含重複選項的其他功能表](assets/view-more-menu-with-duplicate-option.png)
-
-
-   檢視重複，新檢視的名稱遵循下列模式： `Original view's name (Copy)`。 新的檢視標籤會顯示在所有檢視標籤的末尾。
-
 ## 在檢視中啟用即時顯示狀態指示器
+
+您可以依照檢視中的即時狀態指示器，檢視其他使用者是否與您同時編輯記錄。
 
 根據預設，當您編輯記錄資訊的同時，其他使用者的頭像會顯示在所有記錄檢視的右上角。
 
 當您顯示表格檢視時，也可以檢視另一個使用者在您檢視記錄時正在編輯的欄位。
 
-1. 移至記錄型別頁面並開啟任何檢視。
-1. （視條件而定）如果有其他使用者同時編輯所選型別的記錄，則其頭像會顯示在檢視的右上角。
-1. 按一下頭像旁的下拉式功能表，選取「**顯示共同作業人員**」切換按鈕。 依預設，會選取切換。
+如需詳細資訊，請參閱[管理資料表檢視](/help/quicksilver/planning/views/manage-the-table-view.md)。
 
-   ![顯示共同作業人員切換選取的專案](assets/show-collaborators-toggle-selected.png)
 
-1. （視條件而定）開啟表格檢視，另一個人正在主動編輯的欄位會以對應表格檢視中其顯示圖片外框的顏色反白。
 
-   如果頭像的醒目提示顏色是灰色，使用者將在30秒前停止主動編輯記錄。
+<!--## Add a view as a favorite - this is not possible yet-->
 
-   ![即時指標表格欄位和顯示圖片連線](assets/real-time-indicator-table-field-and-avatar-connection.png)
-
-   >[!TIP]
-   >
-   >您可以從任何檢視中選取&#x200B;**顯示共同作業人員**&#x200B;切換按鈕。 目前由其他人編輯的欄位僅在表格檢視中列出。
+<!--not possible yet - August 30, 2023: -->
