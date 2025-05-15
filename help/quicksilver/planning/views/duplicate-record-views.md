@@ -5,13 +5,13 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+exl-id: 441a53d1-ad39-41b7-93fe-2ae1836476c9
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 1%
 
 ---
-
 
 # 複製記錄檢視
 
@@ -114,9 +114,9 @@ ht-degree: 1%
    記錄型別頁面隨即開啟。
 依預設，所選型別的所有記錄都會顯示在表格檢視中。
 
-1. 將滑鼠停留在您要複製的檢視的索引標籤上，然後按一下檢視名稱右側的&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下&#x200B;**複製**。
+1. <span class="preview">將滑鼠停留在您要複製的檢視的索引標籤上，然後按一下檢視名稱右側的&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下&#x200B;**複製**。</span>
 
-   ![在記錄檢視上檢視更多功能表](assets/view-more-menu-with-duplicate-option.png)
+   <span class="preview">![在記錄檢視上檢視更多功能表](assets/view-more-menu-with-duplicate-option.png)</span>
 
 
    檢視重複，新檢視的名稱遵循下列模式： `Original view's name (Copy)`。 新的檢視標籤會顯示在所有檢視標籤的末尾。

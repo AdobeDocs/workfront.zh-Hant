@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
-source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '1007'
 ht-degree: 1%
 
 ---
@@ -109,9 +109,11 @@ ht-degree: 1%
 * 不支援空白工作表。
 * 不支援下列型別的欄位，且無法對應至匯入工作表上的欄位：
 
-   * &#x200B;<!--In the Production environment,--> Planning記錄或Workfront和AEM Assets物件的連線欄位
+   * 連線欄位，視您使用的環境而定：
 
-     <!--<span class="preview">In the Preview environment, you can map and import connection fields to Planning records. </span>-->
+      * 在生產環境中，與Planning記錄或Workfront和AEM Assets物件的連線欄位無法對應
+
+      * <span class="preview">在「預覽」環境中，您可以將連線欄位對應並匯入至Planning記錄。 您無法將欄位對應到Workfront和AEM Assets。</span>
 
    * 從連線的Planning記錄或Workfront與AEM Assets物件查詢欄位
    * 公式欄位
@@ -129,8 +131,8 @@ ht-degree: 1%
 
    從工作區中，展開現有工作區名稱右側的向下箭頭，搜尋工作區，然後在工作區顯示在清單中時選取該工作區。
 1. 按一下&#x200B;**新增記錄型別**。
-1. 按一下&#x200B;**從檔案**。
-1. 拖放先前儲存在電腦上的Excel或CSV檔案，或按一下&#x200B;**選取CSV或Excel檔案**&#x200B;以瀏覽檔案。
+1. 按一下&#x200B;**從檔案**&#x200B;上傳。
+1. 拖放先前儲存在電腦上的Excel或CSV檔案，或按一下&#x200B;**選取CSV或Excel檔案**&#x200B;來瀏覽並選取檔案。
 1. 按一下&#x200B;**預覽和編輯**。
 
    **預覽和編輯**&#x200B;方塊會顯示下列資訊：
@@ -153,15 +155,25 @@ ht-degree: 1%
 
    取消選取的頁面會以灰色背景顯示。
 
-1. （選擇性）按一下欄標題右側的向下箭頭，執行下列任一項作業：
+1. （選擇性）按一下欄標題右側的向下箭頭，在&#x200B;**欄位**&#x200B;索引標籤</span>中執行下列其中一項作業： <span class="preview">
+
+   <span class="preview">![記錄型別對應匯入方塊上的欄位索引標籤](assets/field-tab-on-record-type-import-mapping-box.png)</span>
 
    * 重新命名其中一個欄位
    * 變更&#x200B;**欄位型別**
    * 更新欄位&#x200B;**描述**
 
+1. <span class="preview">（選擇性）按一下&#x200B;**連線**&#x200B;索引標籤，將資料行中的資訊對應到其他記錄型別的連線欄位。</span>
+
+   <span class="preview">![記錄型別匯入對應方塊上的連線標籤](assets/connection-tab-on-record-type-import-mapping-box.png)</span>
+
+   >[!TIP]
+   >
+   ><span class="preview">您只能對應到Workfront Planning連線記錄中的欄位。 您無法從Workfront或AEM Assets連線對應到欄位。 如需詳細資訊，請參閱本文中的[有關使用Excel或CSV檔案匯入記錄型別的考量事項](#considerations-about-importing-record-types-using-an-excel-or-csv-file)一節。</span>
+
 1. （視條件而定）更新欄位相關資訊後，按一下&#x200B;**儲存**。
 
-1. 當您準備好匯入您的檔案時，請按一下[匯入]。**&#x200B;**
+1. 當您準備好匯入您的檔案時，請按一下[匯入]。****
 
    下列資訊會匯入Workfront Planning中：
 

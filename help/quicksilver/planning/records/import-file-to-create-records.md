@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '1065'
 ht-degree: 1%
 
 ---
@@ -113,9 +113,11 @@ ht-degree: 1%
 * 不支援空白工作表。
 * 不支援下列型別的欄位，且無法對應至匯入工作表上的欄位：
 
-   * &#x200B;<!--In the Production environment,--> Planning記錄或Workfront和AEM Assets物件的連線欄位
+   * 連線欄位，視您使用的環境而定：
 
-     <!--<span class="preview">In the Preview environment, you can map and import connection fields to Planning records. </span>-->
+      * 在生產環境中，與Planning記錄或Workfront和AEM Assets物件的連線欄位無法對應
+
+      * <span class="preview">在「預覽」環境中，您可以將連線欄位對應並匯入至Planning記錄。 您無法將欄位對應到Workfront和AEM Assets。</span>
 
    * 從連線的Planning記錄或Workfront與AEM Assets物件查詢欄位
    * 公式欄位
@@ -148,6 +150,11 @@ ht-degree: 1%
    匯入記錄時![將Planning欄位對應到欄](assets/map-planning-fields-to-columns-when-importing-records.png)
 
    每一列代表新記錄。 只有前10筆記錄會顯示在「預覽與編輯」方塊中。
+
+   >[!TIP]
+   >
+   >並非所有欄位型別都受支援。 如需詳細資訊，請參閱本文中[關於使用Excel或CSV檔案匯入記錄的考量事項](#considerations-about-importing-records-using-an-excel-or-csv-file)一節。
+
 
 1. （選擇性和條件性）如果您擁有工作區的管理許可權，請選取畫面左下角的&#x200B;**建立缺少的選項**。 啟用時，會新增缺少的單選和多選欄位選擇。
 

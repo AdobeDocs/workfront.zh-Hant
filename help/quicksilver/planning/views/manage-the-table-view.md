@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '3395'
+source-wordcount: '3680'
 ht-degree: 2%
 
 ---
@@ -28,8 +28,8 @@ ht-degree: 2%
 本文會說明下列資訊：
 
 * [在表格檢視中建立或編輯欄和列](#manage-a-table-view)
-* [啟用資料表檢視的即時狀態指示器](#enable-the-real-time-presence-indicator)
-  <!--* <span class="preview">[Export a table view to a CSV or Excel file](#export-the-table-view)</span>-->
+* [啟用表格檢視的即時顯示狀態指示器](#enable-the-real-time-presence-indicator)
+* <span class="preview">[將表格檢視匯出為CSV或Excel檔案](#export-the-table-view)</span>
 
 ## 存取需求
 
@@ -88,7 +88,7 @@ ht-degree: 2%
 <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
    <td>   <p>管理檢視的許可權</p>  
-   <p>檢視許可權以暫時變更檢視設定或複製檢視 <!--<span class="preview">or to export the view</span>--></p> </td> 
+   <p>檢視檢視許可權以暫時變更檢視設定、複製、<span class="preview">或匯出檢視</span></p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>版面配置範本</p></td> 
@@ -109,8 +109,6 @@ ht-degree: 2%
 如需在表格檢視中編輯記錄的詳細資訊，請參閱[編輯記錄](/help/quicksilver/planning/records/edit-records.md)。
 
 ## 管理表格檢視 {#manage-a-table-view}
-
-<!--insert screen shot of table view-->
 
 建立表格檢視時，選取型別的所有記錄都會顯示在表格中。 每一列都是唯一的記錄，每一欄都是一個記錄欄位。 預設會顯示所有欄位和所有記錄。
 
@@ -547,51 +545,52 @@ To sort grouped records:
    >
    >您可以從任何檢視中選取&#x200B;**顯示共同作業人員**&#x200B;切換按鈕。 目前由其他人編輯的欄位僅在表格檢視中列出。
 
-<!--<div class="preview">
+<div class="preview">
 
-## Export the table view
+## 匯出表格檢視
 
-You can export information in the table view to a CSV or an Excel file. 
+您可以將表格檢視中的資訊匯出為CSV或Excel檔案。
 
-Consider the following when exporting the table view:
+匯出表格檢視時，請考量下列事項：
 
-* The information exported to an Excel file preserves the filters, groupings, and sorts applied to the table view in Workfront Planning. Groupings are not visible in the CSV file.
+* 匯出至Excel檔案的資訊會保留套用至Workfront Planning表格檢視的篩選器、群組和排序。 群組在CSV檔案中不可見。
 
-* Thumbnails and custom row colors are not supported in exported files.  
+* 匯出的檔案不支援縮圖和自訂列顏色。
 
-* Only fields made visible in the Workfront interface are exported. Hidden fields are not exported.
+* 只會匯出Workfront介面中顯示的欄位。 隱藏欄位不會匯出。
 
-To export information from the table view or a record type:
+若要從表格檢視或記錄型別匯出資訊，請執行下列動作：
 
-1. Go to a record type page and click a table view tab. 
-1. Hover over the table view tab's name, then click the **More** menu ![More menu](assets/more-menu.png).
-1. Click **Export**, then select one of the following formats:
+1. 移至記錄型別頁面，然後按一下表格檢視標籤。
+1. 暫留在表格檢視標簽名稱上，然後按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)。
 
-    * Excel
-    * CSV
+   檢視表上的![更多功能表](assets/view-more-menu-with-duplicate-option.png)
+1. 按一下&#x200B;**匯出**，然後選取下列其中一種格式：
 
-    >[!IMPORTANT]
-    >
-    >You cannot export information from the table view when you display a different view on the screen. You must display the table view that you want to export in order to access the Export option in the More menu. 
+   * Excel
+   * CSV
 
-    The file is downloaded to your computer. 
+   >[!IMPORTANT]
+   >
+   >當您在熒幕上顯示不同的檢視時，無法從表格檢視中匯出資訊。 您必須顯示要匯出的表格檢視，才能存取「更多」選單中的「匯出」選項。
 
-1. (Optional) Go to the downloads folder on your computer and find the downloaded file. 
+   檔案已下載到您的電腦。
 
-    The name of the exported file follows the following format: 
+1. （選擇性）前往電腦上的下載資料夾，並尋找已下載的檔案。
 
-    `Name of the view - name of the record type`
+   匯出的檔案名稱會遵循下列格式：
 
-    For example, a table view for the Campaigns record type generates a file named `Table view - Campaigns`.
+   `Name of the view - name of the record type`
 
-    The file displays the following information: 
-    
-    * The column headers are highlighted in black, in the Excel file
-    * All the fields visible in the Workfront interface, sorted and filtered by the same criteria
-    * Groupings are preserved in the Excel file
+   例如，促銷活動記錄型別的表格檢視會產生名為`Table view - Campaigns`的檔案。
 
-    You can now share the exported files with others, or attach them to any communication. 
-    
- </div>   
+   檔案會顯示下列資訊：
 
- -->
+   * 在Excel檔案中，欄標題會以黑色反白
+   * Workfront介面中可見的所有欄位，皆依相同條件排序和篩選
+   * 群組會保留在Excel檔案中
+
+   您現在可以與其他人共用匯出的檔案，或將它們附加到任何通訊中。
+
+</div>
+

@@ -6,9 +6,9 @@ description: 身為專案經理，您可以指定特定專案上工作角色的�
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,8 @@ ht-degree: 0%
 
 * 多次，針對特定日期範圍選取數個新費率。\
   在每個指定日期範圍內可使用不同的費率。
+
+* 您可以將新的收費率新增至專案範本，當您從該範本建立專案時，這些收費率就會成為專案收費率。 如需有關編輯範本的資訊，請參閱[編輯專案範本](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md)。
 
 >[!TIP]
 >

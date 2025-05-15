@@ -6,9 +6,9 @@ description: 您可以編輯專案範本以反映專案流程和設定的變更�
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '4877'
+source-wordcount: '4881'
 ht-degree: 2%
 
 ---
@@ -780,7 +780,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 1. （選用）更新自訂表單上任何欄位中的資訊。 此資訊將會傳輸至將使用範本建立的專案。
 
-1. （選擇性）按一下自訂表單名稱右邊的&#x200B;**x**&#x200B;圖示，然後按一下[移除]&#x200B;**&#x200B;**&#x200B;以從範本中移除它。
+1. （選擇性）按一下自訂表單名稱右邊的&#x200B;**x**&#x200B;圖示，然後按一下[移除]****&#x200B;以從範本中移除它。
 
 1. （選擇性）根據您要修改的資訊，繼續編輯下列區段。
 
@@ -1100,7 +1100,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 * 計費費率
 
-  如需有關覆寫專案收費率的詳細資訊，請參閱[覆寫工作角色收費率和計算專案收入的概觀](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)。
+  為範本新增收費率與為專案新增收費率類似。 如需詳細資訊，請參閱專案層級](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)的[覆寫工作角色收費率。
 
 * 費用
 

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 3550d7addcc0bb790f15d141d9470e0b75f940a6
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '1660'
+source-wordcount: '1657'
 ht-degree: 1%
 
 ---
@@ -145,9 +145,9 @@ This article describes how you can share a view with others. For information abo
 
    這會開啟記錄型別頁面。
 
-1. 在檢視標籤中，將滑鼠停留在您要共用的檢視上，然後按一下檢視名稱右邊的&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下&#x200B;**共用**。
+1. <span class="preview">在[檢視]索引標籤中，將滑鼠停留在您要共用的檢視上，然後按一下檢視名稱右邊的&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下&#x200B;**共用**。</span>
 
-   ![更多以共用選項展開的檢視功能表](assets/more-menu-for-views-expanded-with-share-option.png)
+   檢視的<span class="preview">![更多功能表](assets/more-menu-for-views-expanded-with-share-option.png) </span>
 
    依預設，應該選取&#x200B;**內部共用**&#x200B;標籤。
 
@@ -236,14 +236,12 @@ This article describes how you can share a view with others. For information abo
 1. （視條件而定）如果您是檢視的管理員，您可能會收到其他使用者存取下列區域檢視的請求：
 
    * 應用程式內通知
-
      ![檢視](assets/in-app-notification-for-access-request-for-view.png)存取要求的應用程式內通知
    * 電子郵件通知
-
      ![檢視](assets/in-app-notification-for-access-request-for-view.png)存取要求的應用程式內通知
 1. （視條件而定）從Workfront的通知區域，按一下應用程式內通知
 或
-在電子郵件通知中，按一下&#x200B;**檢視所有通知**，然後按一下清單中的通知。
+在電子郵件通知中，按一下**檢視所有通知**，然後按一下清單中的通知。
 
    顯示&#x200B;**擱置中的存取要求**&#x200B;方塊。
 

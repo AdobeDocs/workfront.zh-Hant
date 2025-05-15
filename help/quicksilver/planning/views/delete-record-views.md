@@ -5,13 +5,13 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+exl-id: f86971bc-e807-459e-9fa8-dc34967bc069
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '440'
 ht-degree: 2%
 
 ---
-
 
 # 刪除記錄檢視
 
@@ -111,11 +111,14 @@ ht-degree: 2%
 
    依預設，選取型別的所有記錄都會顯示在表格檢視中。
 
-1. 將游標停留在檢視標籤中其中一個檢視名稱上，然後按一下檢視名稱左邊的&#x200B;**更多** ![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**刪除**。
+1. <span class="preview">將游標暫留在檢視標籤中其中一個檢視名稱上，然後按一下檢視名稱左邊的&#x200B;**更多** ![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**刪除**。</span>
 
-   首先，您可能需要按一下最後一個標籤左側的&#x200B;**更多**，以尋找您要刪除的檢視。
+   <span class="preview">![在記錄檢視上檢視更多功能表](assets/view-more-menu-with-duplicate-option.png)</span>
 
-   ![在記錄檢視上檢視更多功能表](assets/view-more-menu-with-duplicate-option.png)
+   >[!TIP]
+   >
+   >您可能需要按一下最後一個標籤右側的&#x200B;**更多**，以尋找您要刪除的檢視。
+
 
 1. 按一下&#x200B;**刪除**&#x200B;確認。<!--ensure there is not another saving step here?!-->
 

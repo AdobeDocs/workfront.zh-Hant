@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '2946'
+source-wordcount: '3060'
 ht-degree: 0%
 
 ---
@@ -97,8 +97,6 @@ ht-degree: 0%
 +++
 
 ## 管理時間表檢視 {#manage-a-timeline-view}
-
-<!--insert screen shot of timeline view-->
 
 建立時間表檢視時，所選記錄型別的所有記錄都會以時間順序時間表顯示。
 
@@ -278,7 +276,7 @@ this is not possible right now; if this is the same functionality as the table v
 
 1. 按一下左側面板中的&#x200B;**長條樣式**，以指示您要在記錄長條上顯示的資訊。
 
-   <!--<span class="preview">You can define the bar style of  the main record as well as for the connected records, when using the Breakdown option in the Standard view. </span>-->
+   <span class="preview">使用[標準]檢視中的[劃分]選項時，您可以定義主要記錄以及連線記錄的長條樣式。</span>
 
    預設會選取記錄的主要欄位（或標題），如記錄的表格檢視中所定義。
    <!--adjust this when the primary field is released??-->
@@ -309,17 +307,14 @@ this is not possible right now; if this is the same functionality as the table v
 
    >[!TIP]
    >
-   >* <span class="preview">以精簡模式顯示時間軸檢視時，無法使用截斷列詳細資料設定，且無法在行事曆檢視中使用。</span>
+   ><span class="preview">以精簡模式顯示時間軸檢視時，無法使用截斷列詳細資料設定，且無法在行事曆檢視中使用。</span>
    >
-   >* <span class="preview">如果您劃分時間軸檢視來顯示連線的物件，則「截斷列」詳細資料設定只會套用至主要記錄型別。 它不適用於連線的記錄列。</span>
-
-   <!--take out the last bullet in the Tip above when we release the additional records in breakdown formatting-->
 
 1. 按一下左側面板中的&#x200B;**色彩**，以自訂時間軸中記錄和群組的色彩。
 
    ![色彩標籤時間表檢視](assets/color-tab-timeline-view.png)
 
-   <!--<span class="preview">You can define the color of  the main record as well as for the connected records, when using the Breakdown option in the Standard view. </span>-->
+   <span class="preview">使用[標準]檢視中的[劃分]選項時，您可以定義主要記錄以及連線記錄的色彩。</span>
 
 1. （條件式與選擇性）如果您將群組新增至時間軸檢視，請從下列選項中選取，以在&#x200B;**設定群組顏色**&#x200B;區段中設定群組的顏色：
 
@@ -358,7 +353,7 @@ this is not possible right now; if this is the same functionality as the table v
 
    如果選取的記錄型別沒有包含顏色編碼選項的欄位，則此選項會變暗。
 
-   <!--1. <span class="preview">(Optional) If you are using the Breakdown option, repeat the steps starting with step 4 for each connected record displayed in the timeline. </span>-->
+   1. <span class="preview">（選擇性）如果您使用「劃分」選項，請對時間軸中顯示的每個已連線記錄，重複從步驟4開始的步驟。</span>
 
 1. 按一下「**儲存**」。
 
@@ -410,9 +405,18 @@ this is not possible right now; if this is the same functionality as the table v
    >    開始和結束日期必須是循序的。 如果「結束日期」早於「開始日期」，則時間軸中不會顯示任何記錄。
 
    如果選取的記錄與其他記錄連線，則時間軸中的列會顯示一個向右的箭頭。
-1. 按一下向右箭號以展開記錄型別，顯示為「連線」。
+1. 按一下向右箭號以展開記錄型別並顯示其連線。
 
    ![依時間表檢視中的方案劃分的行銷活動](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)
+
+   >[!IMPORTANT]
+   >
+   >    當您在劃分中顯示多個連線的記錄時，它們並非以階層順序。
+   >
+   >例如，如果您檢視行銷活動的時間表，並將產品接著將方案新增至劃分，則方案不一定先連線至產品。
+   >
+   >產品和方案都必須連線至行銷活動，才能顯示為劃分選項的選項，而且您可以依任何順序將其新增至劃分。
+
 
 1. （選用）重複上述步驟以新增更多連線記錄。
 
