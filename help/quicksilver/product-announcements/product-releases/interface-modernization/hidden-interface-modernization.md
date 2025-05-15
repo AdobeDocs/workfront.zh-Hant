@@ -6,9 +6,10 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: b2ab4ca5aab65966d3833b0e6d58a563e70694e0
+exl-id: c0bf438f-f496-420a-b3b6-b958c8a70d3f
+source-git-commit: 1d2761d50176ea5ddf7649f31da8423fd60a6fe6
 workflow-type: tm+mt
-source-wordcount: '3354'
+source-wordcount: '3365'
 ht-degree: 1%
 
 ---
@@ -336,7 +337,7 @@ ht-degree: 1%
 
 此更新包含區域的視覺化變更。 功能未變更。
 
-若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。**&#x200B;**
+若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。****
 
 +++
 
@@ -556,6 +557,8 @@ ht-degree: 1%
 
 ### 更新與註解
 
++++展開以檢視第二季所做的更新和評論介面更新
+
 ### 註釋的「更多」選單選項的外觀和感覺更新
 
 **預覽版本： 2024年4月17日；生產版本：自2024年4月17日起一週**
@@ -569,3 +572,5 @@ ht-degree: 1%
 * 以紅色顯示，反白顯示「刪除」動作。
 
 如需詳細資訊，請參閱[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
+
++++
