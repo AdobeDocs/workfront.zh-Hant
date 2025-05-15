@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: b81164511776efed53d3f41b4ac1cbf0c035c741
+source-git-commit: a39ba047fc4c1e422f3bea8bd9266b9197219900
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '1041'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,61 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 如需針對Adobe Workfront Planning發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## 更新時間軸檢視設定，以定義使用「劃分」選項時連線記錄長條的外觀
+
+>[!NOTE]
+>
+>* 預覽： 2025年5月15日
+>* 生產快速發行： 2025年6月12日
+>* 適用於所有客戶的生產： 2025年7月17日
+
+您現在可以在時間軸檢視中，針對劃分中的記錄，格式化記錄列的外觀。 您可以更新這些記錄列的下列設定：
+
+* 列樣式
+* 顏色
+
+在此增強功能之前，您只能格式化主要記錄顯示在時間軸檢視中的長條，而且無法格式化連線記錄的長條。\
+ 
+如需詳細資訊，請參閱[管理時間表檢視](/help/quicksilver/planning/views/manage-the-timeline-view.md)。  
+
+## 將表格檢視匯出為CSV或Excel檔案 
+
+>[!NOTE]
+>
+>* 預覽： 2025年5月15日
+>* 生產快速發行： 2025年6月12日
+>* 適用於所有客戶的生產： 2025年7月17日
+
+我們已為Workfront Planning新增一項功能，可讓您將表格檢視中的可見資訊匯出為CSV或Excel檔案。  
+
+從表格檢視匯出資訊時，請考量下列事項：  
+
+* 匯出的資訊會考慮套用至Workfront Planning中表格檢視的篩選器、群組和排序。
+* 匯出的檔案不支援縮圖和自訂列顏色。  
+* 只會匯出Workfront介面中顯示的欄位。 隱藏欄位不會匯出。  
+
+如需詳細資訊，請參閱[管理資料表檢視](/help/quicksilver/planning/views/manage-the-table-view.md)。 
+
+## 使用CSV或Excel檔案匯入記錄時，現在支援Workfront Planning連線欄位
+
+>[!NOTE]
+>
+>* 預覽： 2025年5月15日
+>* 生產快速發行： 2025年6月12日
+>* 適用於所有客戶的生產： 2025年7月17日
+
+現在當您使用CSV或Excel檔案將記錄新增到記錄型別時，可以填入已連線欄位的值。  僅支援連線的Planning記錄欄位。 不支援顯示與其他應用程式連線的欄位。
+
+匯入CSV和Excel檔案以建立現有記錄型別的記錄型別和記錄時，支援此變更。
+
+在此增強功能之前，當您匯入記錄時，無法填入連線欄位。
+
+如需詳細資訊，請參閱下列文章：
+
+* [從CSV或Excel檔案匯入資訊，以建立記錄](/help/quicksilver/planning/records/import-file-to-create-records.md)。
+
+* [從CSV或Excel檔案匯入資訊，以建立記錄型別](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md)。
 
 ## 在記錄的「連線記錄」頁面中內嵌編輯
 
