@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
+source-git-commit: d0ec729a510b78a7ce417356ac9250a485308f0b
 workflow-type: tm+mt
 source-wordcount: '3060'
 ht-degree: 0%
@@ -276,7 +276,7 @@ this is not possible right now; if this is the same functionality as the table v
 
 1. 按一下左側面板中的&#x200B;**長條樣式**，以指示您要在記錄長條上顯示的資訊。
 
-   <span class="preview">使用[標準]檢視中的[劃分]選項時，您可以定義主要記錄以及連線記錄的長條樣式。</span>
+   在[標準]檢視中使用[劃分]選項時，您可以定義主要記錄<span class="preview">以及連線記錄</span>的橫條樣式。
 
    預設會選取記錄的主要欄位（或標題），如記錄的表格檢視中所定義。
    <!--adjust this when the primary field is released??-->
@@ -314,7 +314,7 @@ this is not possible right now; if this is the same functionality as the table v
 
    ![色彩標籤時間表檢視](assets/color-tab-timeline-view.png)
 
-   <span class="preview">使用[標準]檢視中的[劃分]選項時，您可以定義主要記錄以及連線記錄的色彩。</span>
+   在[標準]檢視中使用[劃分]選項時，您可以定義主要記錄<span class="preview">以及連線記錄</span>的色彩。
 
 1. （條件式與選擇性）如果您將群組新增至時間軸檢視，請從下列選項中選取，以在&#x200B;**設定群組顏色**&#x200B;區段中設定群組的顏色：
 
