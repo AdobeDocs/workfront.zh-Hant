@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 0525dc9025f43491a5413726600df0dbb9e45b94
+source-git-commit: e94d7f40accd80d631765405752a03bf3a0363f1
 workflow-type: tm+mt
-source-wordcount: '3539'
+source-wordcount: '3691'
 ht-degree: 1%
 
 ---
@@ -82,8 +82,28 @@ ht-degree: 1%
 
 我們已更新您用來授與支援存取許可權給您Workfront帳戶的頁面，其中包含更現代的設計，與Workfront的其他區域一致。
 
+## 報表與控制面板
+
+### Workfront儀表板不再支援含有/tile或/qstile的URL
+
+**預覽版本： 5月13日；生產版本：即將宣佈**
+
+如果您的外部頁面在控制面板上，其Workfront URL包含`/tile`或`/qstile`，則不再載入該頁面。
+
+將`/tile`或`/qstile`新增至Workfront URL後，瀏覽器可載入不支援的經典體驗頁面，這些頁面已於2022年7月淘汰。
+
+建議取代URL以前往支援的頁面，或從您的控制面板移除外部頁面。
+
 
 ## 使用者
+
+### 新使用者註冊頁面的介面更新
+
+**預覽版本： 2024年5月15日；生產版本：即將宣佈**
+
+我們已更新新的使用者註冊頁面，採用更現代的設計，與Workfront的其他區域一致。
+
+使用者無法再選擇在此頁面上上傳像片。 但是，一旦他們登入Workfront，就可以將像片上傳到他們的使用者設定檔中。
 
 ### 更新登入頁面的外觀
 
@@ -122,7 +142,6 @@ ht-degree: 1%
 **預覽版本： 2024年4月24日；生產版本：從2024年5月8日當週開始**
 
 我們已更新授權協定頁面，使其採用與Workfront其他區域一致的更現代化設計。
-
 
 
 ## 於第2季進行的介面更新
@@ -366,7 +385,7 @@ ht-degree: 1%
 
 此更新包含區域的視覺化變更。 功能未變更。
 
-若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。**&#x200B;**
+若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。****
 
 +++
 
