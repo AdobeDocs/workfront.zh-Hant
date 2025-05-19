@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
+source-git-commit: 4c80802c8e0084aa9e7be350caefc8929c9c4e2b
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1043'
 ht-degree: 7%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 7%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td>
+   <td>[！UICONTROL系統管理員]</td>
   </tr> 
  </tbody> 
 </table>
@@ -168,6 +168,10 @@ ht-degree: 7%
     </tbody> 
    </table>
 
+   >[!NOTE]
+   >
+   >如果&#x200B;**儀表板**&#x200B;選項無法使用，表示您的系統中沒有任何在整個系統內共用的儀表板。 您無法匯出私人儀表板。
+
 1. 按一下&#x200B;**其他選項**&#x200B;以檢視物件的完整清單。
 
    此處列出的所有物件也可用來將資料匯入Workfront。
@@ -234,7 +238,7 @@ ht-degree: 7%
       <td valign="top">ZIP</td> 
      </tr> 
      <tr> 
-      <td valign="top">小時</td> 
+      <td valign="top">時數</td> 
       <td valign="top"> 小時<br>喜好設定 </td> 
       <td valign="top">Excel</td> 
      </tr> 
@@ -330,7 +334,7 @@ ht-degree: 7%
 
    匯出的Kick-start檔案會以Excel檔案或的格式下載至您的電腦。 包含多個Excel和屬性檔案的zip檔案。 每個Excel檔案都是工作表的集合，其中每個工作表代表與所選物件相關聯的欄位。 每次匯出都有&#x200B;**屬性**&#x200B;工作表。
 
-   **儀表板**&#x200B;和&#x200B;**報告**&#x200B;選項可讓您選取要包含在下載中的特定儀表板和報告。 您只能匯出在整個系統內共用的控制面板。
+   **儀表板**&#x200B;和&#x200B;**報告**&#x200B;選項可讓您選取要包含在下載中的特定儀表板和報告。 對於控制面板，您只能匯出在整個系統內共用的控制面板。
 
    您無法匯出矩陣報表。 如需矩陣報表的詳細資訊，請參閱[建立矩陣報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)。
 

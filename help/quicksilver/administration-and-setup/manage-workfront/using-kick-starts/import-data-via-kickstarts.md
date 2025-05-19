@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 69cd1eafd7798861a4868fe0d68707ab5ba9106c
+source-git-commit: 4c80802c8e0084aa9e7be350caefc8929c9c4e2b
 workflow-type: tm+mt
-source-wordcount: '2776'
+source-wordcount: '2785'
 ht-degree: 6%
 
 ---
@@ -53,7 +53,7 @@ Kick-Start是特別格式化的Excel活頁簿，可填入您要匯入Workfront�
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td> 
+   <td>[！UICONTROL系統管理員]</td> 
   </tr> 
  </tbody> 
 </table>
@@ -104,7 +104,7 @@ Kick-Start是特別格式化的Excel活頁簿，可填入您要匯入Workfront�
     </thead> 
     <tbody> 
      <tr> 
-      <td scope="col"> <p>儀表板</p> <p>系統中的所有儀表板都可以匯出。 您在一次匯出中最多可以選取100個特定儀表板。</p> </td> 
+      <td scope="col"> <p>儀表板</p> <p>系統中所有公開共用的儀表板都可供匯出。 無法匯出未在整個系統內共用的儀表板。 您在一次匯出中最多可以選取100個特定儀表板。</p> </td> 
       <td scope="col">匯出為ZIP檔案</td> 
       <td scope="col"> <p>參數</p> <p>描述文字</p><p>參數選項</p> <p>參數群組</p> <p>類別參數</p> <p>類別</p> <p>報告</p> <p>入口網站頁籤區段</p> <p>儀表板</p> <p>偏好設定</p> </td> 
      </tr> 
@@ -189,9 +189,9 @@ Kick-Start是特別格式化的Excel活頁簿，可填入您要匯入Workfront�
       <td> <p> 分組</p> <p>偏好設定 </p> </td> 
      </tr> 
      <tr> 
-      <td>小時</td> 
+      <td>時數</td> 
       <td>匯出為Excel檔案</td> 
-      <td> <p> 小時</p> <p>偏好設定 </p> </td> 
+      <td> <p> 時數</p> <p>偏好設定 </p> </td> 
      </tr> 
      <tr> 
       <td>問題</td> 

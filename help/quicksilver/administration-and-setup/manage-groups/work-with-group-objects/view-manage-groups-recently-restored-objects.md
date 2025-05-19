@@ -3,14 +3,14 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: 檢視和管理群組最近還原的專案
-description: 當您在「群組」區域中檢視您管理的群組時，可以檢視、篩選、群組，以及還原其最近還原的工作專案、檔案和範本。
+description: 當您在「群組」區域中檢視您管理的群組時，可以檢視、篩選、群組和還原其最近還原的工作專案、檔案和範本。
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8ec06363-080e-4f1d-8a50-fc14f06ad323
-source-git-commit: 96b9939131beebd9c1968cb5c287d75295c68c5b
+source-git-commit: 379772f6bd1ed9448e6fd5feee956a931f65f69e
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '333'
 ht-degree: 1%
 
 ---
@@ -79,19 +79,8 @@ ht-degree: 1%
 
    每個索引標籤會列出屬於目前群組或其子群組，且在過去30天內已還原之對應物件型別的專案。
 
-1. 完成下列任一動作：
+1. （選擇性）若要匯出標籤上的整個物件清單，請按一下&#x200B;**匯出**&#x200B;圖示。 ![匯出圖示](assets/export-icon.png)。
+1. （可選）使用篩選、檢視或分組變更清單中的資訊顯示。
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader"> <p>匯出標籤上的整個物件清單</p> </td> 
-      <td> <p>按一下<strong>匯出</strong>。</p> </td> 
-     </tr> 
-     <tr data-mc-conditions=""> 
-      <td role="rowheader"> <p>變更清單中資訊的顯示</p> </td> 
-      <td> <p>在清單的右上角，使用<strong>篩選器</strong>來根據您提供的條件定義顯示內容。 使用<strong>檢視</strong>定義哪些欄位會顯示為欄。 使用<strong>分組</strong>將專案分組為類別。</p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
+   如需詳細資訊，請參閱[報表元素概觀](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md)。
+
