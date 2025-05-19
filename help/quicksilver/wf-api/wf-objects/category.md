@@ -1,21 +1,23 @@
 ---
 content-type: api
 navigation-topic: workfront-objects
-title: 當APIModel INTERNAL不支援欄位專案ID (OpTask)類別時
-description: 當APIModel INTERNAL不支援欄位專案ID (OpTask)時
+title: 類別
+description: 「類別」物件可用的欄位表格，及其說明和值型別。
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 24c900ee-a8f1-458e-a18b-c098c6314e0c
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 25%
+source-wordcount: '281'
+ht-degree: 27%
 
 ---
 
 
 # 類別
+
+<!-- Audited: 5/2025 -->
 
 欄位類別： &quot;java.lang.IllegalArgumentException&quot;，\
 訊息：「APIModel INTERNAL不支援欄位專案(OpTask)」
@@ -90,7 +92,7 @@ ht-degree: 25%
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;extRefID&quot;}"><strong>extRefID</strong> </td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;External Reference ID&quot;}">外部參考 ID</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String&quot;}">字串</td> 
-   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;User Editable Field inteded to be used a link to an external object&quot;}">使用者可編輯欄位打算用作外部物件的連結</td> 
+   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;User Editable Field inteded to be used a link to an external object&quot;}">使用者可編輯欄位，用於連結外部物件</td> 
    <td> </td> 
    <td> <p><span class="dtEdit">可編輯</span> </p> </td> 
   </tr> 
@@ -137,25 +139,25 @@ ht-degree: 25%
  </tbody> 
 </table>
 
-## 引用
+## 參考
 
-| 姓名 | 標籤 | 類型 | 輸入物件程式碼 | URL |
-|---|---|---|---|---|
-| 客戶 | 客戶 | 客戶 | 客戶 | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| 輸入者 | 輸入者 | 使用者 | 使用者 | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| 群組 | 群組 | 群組 | 群組 | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| 上次更新者 | lastUpdatedBy | 使用者 | 使用者 | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
+| 姓名 | 標籤 | 類型 | 輸入物件程式碼 |
+|---|---|---|---|
+| 客戶 | 客戶 | 客戶 | 客戶 |
+| 輸入者 | 輸入者 | 使用者 | 使用者 |
+| 群組 | 群組 | 群組 | 群組 |
+| 上次更新者 | lastUpdatedBy | 使用者 | 使用者 |
 
 
 ## 集合
 
-| 姓名 | 標籤 | 類型 | 輸入物件程式碼 | URL |
-|---|---|---|---|---|
-| 存取權限規則 | accessRules | 存取規則 | ACSURL | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| 類別存取規則 | categoryAccessRules | 類別存取規則 | 字幕 | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| 類別重疊顯示規則 | categoryCascadeRules | 類別重疊顯示規則 | CTCSRL | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| 類別參數 | categoryParameters | 類別參數 | CTGYPA | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| 其他群組 | 其他群組 | 群組 | 群組 | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
+| 姓名 | 標籤 | 類型 | 輸入物件程式碼 |
+|---|---|---|---|
+| 存取權限規則 | accessRules | 存取規則 | ACSURL |
+| 類別存取規則 | categoryAccessRules | 類別存取規則 | 字幕 |
+| 類別重疊顯示規則 | categoryCascadeRules | 類別重疊顯示規則 | CTCSRL |
+| 類別參數 | categoryParameters | 類別參數 | CTGYPA |
+| 其他群組 | 其他群組 | 群組 | 群組 |
 
 
 ## 動作

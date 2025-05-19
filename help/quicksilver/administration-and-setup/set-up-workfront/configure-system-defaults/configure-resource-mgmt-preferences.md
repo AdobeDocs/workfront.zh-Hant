@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
 
 # 設定[!UICONTROL 資源管理]偏好設定
+
+<!-- Audited: 5/2025 -->
 
 <!--Linked to lots of articles for resource planning and LINKED TO CONTEXT SENSITIVE HELP - DO NOT CHANGE OR REMOVE!</p>
 Edit the first part, once they add more settings in the Res Management Preferences - right now, only the FTE calculation is the
@@ -34,19 +36,19 @@ Edit the first part, once they add more settings in the Res Management Preferenc
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td><p>新增：[!UICONTROL Standard]</p>
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td><p>新增：標準</p>
    或
-   <p>目前： [!UICONTROL 計畫]</p>
+   <p>目前：計畫</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td>
+   <td>系統管理員</td>
   </tr> 
  </tbody> 
 </table>
@@ -59,11 +61,11 @@ Edit the first part, once they add more settings in the Res Management Preferenc
 
 計算使用者的容量時，Workfront會考量下列資訊：
 
-* 排程時數，如使用者排程或Workfront系統的[!UICONTROL 預設排程]中所定義
-* [!UICONTROL 排程] [!UICONTROL 例外] （視使用哪個[!UICONTROL 排程]而定，可能是使用者排程的例外，或是與[!DNL Workfront] [!UICONTROL 預設排程]相關聯的例外）
-* 使用者的休假
+* 排程的時數，如使用者的排程或Workfront系統的預設排程中所定義。
+* 排程例外(視使用的排程而定，可能是使用者排程的例外，或是與Workfront預設排程相關的例外)。
+* 使用者的休假。
 * 使用者或[!DNL Workfront]系統之全時相當值([!UICONTROL FTE])的值。 如排程中所定義，使用者全職工作時，[!UICONTROL FTE]等於1。
-* 使用者的[!UICONTROL 工作時間]值，表示使用者花費在專案相關工作的時間。 這不包括管理時間，例如會議和訓練。 當[!UICONTROL 工作時間]等於1，當使用者可以工作整個時間（如[!UICONTROL FTE]或排程所示）時，這表示他們不會花費任何時間在會議或訓練等與專案無關的工作上。
+* 使用者的[!UICONTROL 工作時間]值，代表使用者花費在專案相關工作的時間。 這不包括管理時間，例如會議和訓練。 當[!UICONTROL 工作時間]等於1，當使用者可以工作整個時間（如[!UICONTROL FTE]或排程所示）時，這表示他們不會花費任何時間在會議或訓練等與專案無關的工作上。
 
 
 如需[!DNL Workfront]中計畫與排程資源的相關資訊，請參閱[開始使用資源管理](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)。
@@ -82,11 +84,9 @@ Edit the first part, once they add more settings in the Res Management Preferenc
 
    * **預設排程**： [!DNL Workfront]會使用系統的預設排程和使用者的個別FTE，來計算使用者在資源管理工具中的可用時數。
 
-     如需排程的詳細資訊，請參閱[建立排程](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)。
+     如需詳細資訊，請參閱[建立排程](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)和[編輯使用者的設定檔](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
 
-     如需尋找使用者[!UICONTROL FTE]值的詳細資訊，請參閱[編輯使用者設定檔](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
-
-     當Workfront管理員選擇[!UICONTROL 預設排程]時，Workfront會使用下列公式計算使用者的可用時數：
+     選取此選項時，Workfront會使用下列公式計算使用者的「可用時數」：
 
 
      `User Available Hours = [([!UICONTROL Default Schedule] Hours - [!UICONTROL Exceptions]) * [!UICONTROL FTE] - Time off hours] * [!UICONTROL Work Time]`
@@ -94,7 +94,7 @@ Edit the first part, once they add more settings in the Res Management Preferenc
 
      >[!INFO]
      >
-     >例如，如果預設排程為一週40小時，使用者設定檔中的FTE為0.5，使用者一天有1小時的休假，而使用者設定檔中的[!UICONTROL 工作時間]為0.5，則使用者每週可實際進行9.5小時的專案工作。
+     >例如，如果預設排程是一週40小時，使用者設定檔中的FTE為0.5，使用者一天有1小時的休假，而使用者設定檔中的[!UICONTROL 工作時間]為0.5，且使用者每週可實際進行9.5小時的專案工作。
      >
      >如果使用者有一天的1小時休假，其「可用時數」的計算如下：
      >
@@ -132,11 +132,9 @@ Edit the first part, once they add more settings in the Res Management Preferenc
       </div></li>      
       -->
 
-   * **使用者的排程**： [!DNL Workfront]會使用使用者的排程以及系統的[!UICONTROL 預設排程]，來計算資源管理工具中使用者的可用[!UICONTROL FTE]值。 「可用時數」只會根據使用者的排程進行計算。 已忽略使用者的[!UICONTROL FTE]的值。 這是預設設定。
+   * **使用者的排程**： [!DNL Workfront]會使用使用者的排程以及系統的[!UICONTROL 預設排程]，來計算資源管理工具中使用者的可用[!UICONTROL FTE]值。 可用時數只會根據使用者的排程進行計算，而會忽略使用者的[!UICONTROL FTE]的值。 這是預設設定。
 
-     如需排程的詳細資訊，請參閱[建立排程](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)。
-
-     如需使用者[!UICONTROL 排程]的詳細資訊，請參閱[編輯使用者設定檔](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
+     如需詳細資訊，請參閱[建立排程](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)和[編輯使用者的設定檔](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
 
      >[!NOTE]
      >
@@ -156,7 +154,7 @@ Edit the first part, once they add more settings in the Res Management Preferenc
 
      >[!INFO]
      >
-     >例如，如果[!UICONTROL 預設排程]是一週40小時，使用者的排程是一週30小時，且使用者的[!UICONTROL 工作時間]為0.5，使用者的[!UICONTROL FTE]為0.35。
+     >例如，如果[!UICONTROL 預設排程]是一週40小時，使用者的排程是一週30小時，使用者的[!UICONTROL 工作時間]是0.5，使用者的[!UICONTROL FTE]是0.35。
      >
      >如果使用者一天有2小時的休假，其每週可用的[!UICONTROL FTE]的計算方式如下：
      >

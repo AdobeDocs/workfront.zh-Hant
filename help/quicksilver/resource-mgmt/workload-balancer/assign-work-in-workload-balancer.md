@@ -6,14 +6,16 @@ description: 身為資源管理員，您可以使用Adobe Workfront工作負載�
 author: Lisa
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1032'
 ht-degree: 1%
 
 ---
 
 # 在工作負載平衡器中指派工作的總覽
+
+<!-- Audited: 5/2025 -->
 
 身為資源管理員，您可以使用Adobe Workfront工作負載平衡器來檢視尚未指派給使用者的工作專案，並將這些專案指派給使用者。
 
@@ -30,7 +32,7 @@ ht-degree: 1%
 
 您可以在工作負載平衡器中指派工作以符合使用者的可用時間。 為了確保您指派正確的工作量且不會過度配置使用者，指派給使用者的工作專案計畫時數總計必須符合使用者每日或每週配置。
 
-您必須瞭解Workfront如何計算使用者的可用時間。
+瞭解Workfront如何計算使用者的可用時間非常重要。
 
 Workfront使用下列資訊在工作負載平衡器中計算使用者的容量：
 
@@ -43,7 +45,7 @@ Workfront使用下列資訊在工作負載平衡器中計算使用者的容量�
 
   如需詳細資訊，請參閱[設定資源管理喜好設定](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)。
 
-  如需排程的相關資訊，請參閱[建立排程](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
+  如需排程的相關資訊，請參閱[建立排程](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)。
 
 * 使用者的休假。 這表示使用者計畫起飛的日期。
 
