@@ -139,10 +139,10 @@ Workfront管理員在「設定」的「資源管理」區域中選取下列其�
 * 預算時數
 * 小時差異
 * 淨小時\
-  如需相關資訊，請參閱資源規劃工具](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)的專案與角色檢視中的[時數概觀、約當全職人數與成本資訊。
+  如需相關資訊，請參閱資源規劃工具[&#128279;](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)的專案與角色檢視中的時數概觀、約當全職人數與成本資訊。
 
 * 小時差異\
-  如需相關資訊，請參閱資源規劃工具](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)的專案與角色檢視中的[時數概觀、約當全職人數與成本資訊。
+  如需相關資訊，請參閱資源規劃工具[&#128279;](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)的專案與角色檢視中的時數概觀、約當全職人數與成本資訊。
 
 您可以在「資源規劃工具」中顯示與FTE或時數相同的資訊。
 
