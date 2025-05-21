@@ -7,14 +7,16 @@ description: 成本績效指數(CPI)說明專案或作業層次的計畫成本�
 author: Lisa
 feature: Work Management
 exl-id: 7f2efe26-7292-482d-986c-2d2077a7ca52
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: a411c1ddf0c6d19dc7f6e181cceeebba5504530c
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
 
 # 計算成本績效指數(CPI)
+
+<!-- Audited: 5/2025 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Linked to the product. Do not change link.)</p>
@@ -61,9 +63,6 @@ ht-degree: 0%
 +++
 
 ## 成本績效指數(CPI)概要
-
-* [CPI值](#the-cpi-value)
-* [CPI的計算方式](#how-cpi-is-calculated)
 
 ### CPI值 {#the-cpi-value}
 
@@ -184,7 +183,7 @@ Planned Cost of Incurred Expenses = Total of Planned Cost of all incurred expens
 * 專案的&#x200B;**：**
 
   ```
-  Total Budgeted Cost Work Performed = SUM(Total Budgeted Cost Work Performed field for all top level tasks)
+  Total Budgeted Cost Work Performed = SUM(Total Budgeted Cost Work Performed field for all top-level tasks)
   ```
 
 
@@ -196,8 +195,6 @@ Planned Cost of Incurred Expenses = Total of Planned Cost of all incurred expens
 1. 前往您要檢視CPI的專案或任務。
 1. 展開左側面板中的&#x200B;**專案詳細資料**&#x200B;或&#x200B;**任務詳細資料**，具體取決於您檢視的是專案還是任務的CPI。
 
-1. 按一下&#x200B;**財務**。
+1. 按一下&#x200B;**財務**。 CPI顯示在&#x200B;**CPI/ SPI/ CSI**&#x200B;欄位中。
 
-   CPI顯示在&#x200B;**CPI/ SPI/ CSI**&#x200B;欄位中。
-
-   專案![&#128279;](assets/cpi-on-project-nwe.png)上的CPI
+   專案](assets/cpi-on-project-nwe.png)上的![CPI
