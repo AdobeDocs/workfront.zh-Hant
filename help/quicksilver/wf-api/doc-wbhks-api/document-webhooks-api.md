@@ -3,21 +3,23 @@ filename: document-webhooks-api
 content-type: api
 product-area: documents
 navigation-topic: workfront-api
-title: 檔案Webhooks API總覽
+title: 檔案Webhooks API：文章索引
 description: 檔案Webhooks API主題
 author: Becky
 feature: Workfront API
 role: Developer
 recommendations: noDisplay, noCatalog
 exl-id: e946c988-6a97-4ef1-a381-4b3bd10ced99
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 48de4553478fc42d88d81ea953440337f6684e50
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
 
-# 檔案Webhooks API總覽
+# 檔案Webhooks API：文章索引
+
+<!-- Audited: 5/2025 -->
 
 本節包含下列文章：
 

@@ -7,7 +7,7 @@ description: 使用Adobe Workfront資源規劃工具，您可以輕鬆瞭解資�
 author: Lisa
 feature: Resource Management
 exl-id: 5a1be723-e3ac-443a-9c09-85e8839fcbef
-source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
+source-git-commit: 48de4553478fc42d88d81ea953440337f6684e50
 workflow-type: tm+mt
 source-wordcount: '2424'
 ht-degree: 2%
@@ -249,7 +249,6 @@ Adobe Workfront資源規劃工具可協助您輕鬆瞭解資源的可用性，�
 
    * 如果次要職務角色在其使用者設定檔中具有有效的FTE可用性百分比。
    * 如果將使用者指派給這些角色中的任務。
-
 如需有關工作角色FTE可用性百分比的詳細資訊，請參閱[編輯使用者設定檔](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) 。
 
 ## 沒有角色和沒有使用者區段

@@ -8,10 +8,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: b56ec13a-1ee1-4bef-b39b-e625d00e4952
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 48de4553478fc42d88d81ea953440337f6684e50
 workflow-type: tm+mt
 source-wordcount: '84'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 5%
 
 ## URL
 
-PUT/delete
+PUT /delete
 
 ## 查詢參數
 
@@ -39,7 +39,7 @@ PUT/delete
 
 ### 範例
 
-PUThttps://www.example.com/api/delete­­­­­­­­­­­­­­­­­­­­­­­­­­­­­id=1234
+PUT https://www.example.com/api/delete­­­­­­­­­­­­­­­­­­­­­­­­­­­­­id=1234
 * 傳回`status: "success"`
 
 * 傳回`status: "failure", error: "File not found"`

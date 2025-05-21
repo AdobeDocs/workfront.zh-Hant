@@ -8,14 +8,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: 04d41a8c9c8c04f2e7ef308465328ccc57bd3195
+source-git-commit: 48de4553478fc42d88d81ea953440337f6684e50
 workflow-type: tm+mt
-source-wordcount: '2017'
+source-wordcount: '2057'
 ht-degree: 0%
 
 ---
 
 # 可用藍圖清單
+
+<!-- Audited: 5/2025 -->
 
 系統管理員可以安裝下列[!DNL Adobe Workfront]個Blueprint。 如需藍圖的詳細資訊，請參閱[藍圖概觀](/help/quicksilver/administration-and-setup/blueprints/blueprints-overview.md)。
 
@@ -50,7 +52,7 @@ ht-degree: 0%
 此Blueprint包含[!DNL Workfront]專業服務組織在與企業IT團隊實作合約期間已使用多年的範本，以管理當員工調任新角色時必須發生的各種活動。 此範本可減少員工調動在沒有IT監督的情況下完成時存在的安全性風險。 此外，當系統存取權未授予以履行員工新職務的職責時，它還可避免浪費時間於非生產性的工作。
 
 **[!UICONTROL 月底作業關閉]**
-此Blueprint包含[!DNL Workfront]專業服務組織在與財務團隊進行實作參與期間已使用數年的範本，用以組織月末報表簿的結算。 範本提供每個月必須完成的常見活動清單，以準確報告及促進業務健康。
+此Blueprint包含一個[!DNL Workfront]專業服務組織在與財務團隊進行實作合約期間已使用多年的範本，用以組織帳本的月底結算。 範本提供每個月必須完成的常見活動清單，以準確報告及促進業務健康。
 
 **[!UICONTROL 財務組織設定]**
 此Blueprint包含要擴充至財務部門的組織結構設定。
@@ -77,10 +79,13 @@ ht-degree: 0%
 此Blueprint包含[!DNL Workfront professional services]組織在與人力資源團隊實作參與期間已使用多年的範本，以協助新員工追蹤其上線活動。
 
 **[!UICONTROL 新員工整備]**
-此藍圖包含[!DNL Workfront]專業服務組織在與人力資源團隊實作合作期間使用多年的範本，以提示人力資源專家和招聘經理完成基本活動，讓新員工的第一天變得引人注目。
+此Blueprint包含一個[!DNL Workfront]專業服務組織在與人力資源團隊實作合約期間使用多年的範本，以提示人力資源專家和招聘經理完成員工第一天的基本活動。
 
 **離線 | 離開使用者儀表板**
 此Blueprint包含單一控制面板和13個報表，可協助您尋找、重新指派或管理與離開Workfront的使用者相關聯的物件與指派。 您也可以將這些報告用於移動至新角色或群組的使用者，以重新指派其工作。
+
+**夥伴啟用： GenStudio Foundation封裝**
+合作夥伴啟用： GenStudio Foundation套件旨在促進GenStudio基礎環境的順暢宣傳。 它包含有效執行啟動營地所需的所有元件。
 
 **人員管理員儀表板**
 此藍圖包含包含12個報表的單一控制面板，讓人員管理員可檢視其直接下屬的工作。
@@ -95,10 +100,10 @@ ht-degree: 0%
 [!UICONTROL Print Asset Production]封裝包含組織標準列印生產程式工作的範本。 此套件旨在作為在Workfront中管理列印資產建立的入口點。 使用此套件來建立列印內容建立的基礎，然後自訂它以符合其他創意程式對列印材料的需求。
 
 **[!UICONTROL 列印：直接郵件資產製作]**
-此[!UICONTROL 列印：直接郵件資產製作]藍圖會為列印宣傳品製作流程組織工作。 此Blueprint旨在作為在Workfront中管理印刷宣傳品（特別是直接郵件）的入口點。
+[!UICONTROL 列印：直接郵件資產生產]藍圖會組織印刷宣傳品生產程式的工作。 此Blueprint旨在作為在Workfront中管理印刷宣傳品（特別是直接郵件）的入口點。
 
 **[!UICONTROL 列印：直接郵件內容建立與行銷活動執行]**
-此[!UICONTROL 列印：直接郵件內容建立與執行]藍圖會組織列印宣傳品製作程式的工作。 此Blueprint旨在作為在Workfront中管理印刷宣傳品（特別是直接郵件）的入口點。 此範本是獨一無二的，因為它也包含列印資產和執行直接郵件行銷活動的任務，而不受其他行銷活動的影響。
+[!UICONTROL 列印：直接郵件內容建立與執行]藍圖會組織列印宣傳品製作程式的工作。 此Blueprint旨在作為在Workfront中管理印刷宣傳品（特別是直接郵件）的入口點。 此範本是獨一無二的，因為它也包含列印資產和執行直接郵件行銷活動的任務，而不受其他行銷活動的影響。
 
 **[!UICONTROL Professional Services組織設定]**
 此Blueprint包含組織結構的設定，以展開至Professional Services使用案例。
@@ -107,8 +112,7 @@ ht-degree: 0%
 此藍圖定義內部招聘資源的檢查清單，用於協助業務利害關係人追蹤人員招募請求的進度。 其設計可支援受管理的成熟度等級。
 
 **資源管理準備**
-
-使用此專案範本和使用者報告，確保您擁有產生正確資源管理資料所需的正確設定和資訊。
+使用此Blueprint可確保您擁有產生正確資源管理資料所需的正確設定和資訊。
 
 **[!UICONTROL 風險控制自我評估：關鍵風險緩解計畫]**
 [!UICONTROL 風險控制自我評估] (RSCA)定義識別風險並測量您為降低這些風險而設定之控制項的程式。 此範本會正式化程式，供您評估新風險、確保適當的控制項已到位，並確保您知道如何測量及記錄控制項的有效性。
@@ -120,10 +124,10 @@ ht-degree: 0%
 [!UICONTROL Social Asset Production]封裝包含可組織工作以建立社交成品的範本。 此範本為團隊提供建立原始社交資產的精益處理，該團隊依賴標準作業程式來定義工作方式，並僅使用專案來排定工作優先順序及追蹤進度。
 
 **[!UICONTROL 社交資產生產] （管理）**
-[!UICONTROL Social Asset Production]封裝包含可組織工作以建立社交成品的範本。 此套件旨在作為管理Workfront中社交資產建立的入口點。 使用此套件，透過自訂來建立所有社交內容建立程式的基礎，以符合社交內容的其他創意程式的需求。
+[!UICONTROL Social Asset Production]封裝包含可組織工作以建立社交成品的範本。 其目的是作為管理Workfront中社交資產建立的入口點。 使用此套件，透過自訂來建立所有社交內容建立程式的基礎，以符合社交內容的其他創意程式的需求。
 
 **[!UICONTROL 軟體實作/應用程式開發]**
-此Blueprint包含[!DNL Workfront]專業服務組織在執行與IT團隊的合作期間已使用多年的範本，用以組織安裝協力廠商解決方案或建立內部公用程式和應用程式的工作。
+此Blueprint包含一個[!DNL Workfront]專業服務組織在執行與IT團隊合作期間使用多年的範本，用以在安裝協力廠商解決方案或建立內部公用程式和應用程式時組織工作。
 
 **[!UICONTROL 系統管理員維護儀表板]**
 此藍圖包含單一儀表板，可協助系統管理員定期維護及清除系統，避免隨著時間累積而造成的其他混亂。
@@ -142,7 +146,7 @@ ht-degree: 0%
 
 **值實現 | 檢閱及核准儀表板**
 
-此藍圖包含單一控制面板和7個報表，可協助您實現Workfront的價值。 這些報告可協助您將「稽核與核准」工作的價值轉化為可衡量的好處，讓您隨著時間推移追蹤這些好處，以產生更好的成果。
+此Blueprint包含單一控制面板和7個報表，可協助您實現Workfront的價值。 這些報告可協助您將「稽核與核准」工作的價值轉化為可衡量的好處，讓您隨著時間推移追蹤這些好處，以產生更好的成果。
 
 **[!UICONTROL 視訊資產製作] （整合）**
 
@@ -153,7 +157,11 @@ ht-degree: 0%
 
 **[!UICONTROL [!DNL Workfront]通訊與啟動範本]**
 
-此Blueprint包含單一範本，可組織[!DNL Workfront]客戶為了[!DNL Workfront]應用程式的精彩轉出而需完成的工作。
+此Blueprint包含單一範本，可組織[!DNL Workfront]客戶在其[!DNL Workfront]應用程式轉出時需要完成的工作。
+
+**新使用者的Workfront培訓**
+
+此Blueprint包含3個專案範本，用於在Workfront中啟用使用者時的培訓檢查清單。
 
 **[!DNL Workfront Usage Dashboard]**
 此藍圖包含包含11個報表的單一儀表板，以協助系統管理員和治理團隊瞭解其設定是否如預期使用。

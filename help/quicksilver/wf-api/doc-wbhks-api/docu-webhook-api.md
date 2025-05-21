@@ -3,20 +3,22 @@ content-type: api
 product-area: documents
 navigation-topic: documents-webhooks-api
 title: 檔案Webhooks API
-description: 檔案Webhooks API
+description: Adobe Workfront Document Webhooks定義了一組API端點，Workfront會透過這些端點向外部檔案提供者發出授權的API呼叫。 這可讓任何人為任何檔案儲存提供者建立中介外掛程式。
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 7ac2c6c8-1cb8-49df-8d63-a6b47ad02a13
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 48de4553478fc42d88d81ea953440337f6684e50
 workflow-type: tm+mt
-source-wordcount: '3627'
+source-wordcount: '3649'
 ht-degree: 2%
 
 ---
 
 
 # 檔案Webhooks API
+
+<!-- Audited: 5/2025 -->
 
 Adobe Workfront Document Webhooks定義了一組API端點，Workfront會透過這些端點向外部檔案提供者發出授權的API呼叫。 這可讓任何人為任何檔案儲存提供者建立中介外掛程式。
 
@@ -34,7 +36,7 @@ webhook型整合的使用者體驗將與現有檔案整合類似，例如Google 
 
 ## 註冊Webhook整合
 
-Workfront管理員可透過導覽至Workfront中的「設定>檔案>自訂整合」，為其公司新增自訂webhook整合。 在「設定」的「自訂整合」頁面中，管理員可以檢視現有檔案Webhook整合的清單。 您可以在此頁面新增、編輯、啟用和停用整合。 若要新增整合，請按一下「新增整合」按鈕。
+Workfront管理員可透過導覽至Workfront中的「設定>檔案>自訂整合」，為其公司新增自訂webhook整合。 在「設定」的「自訂整合」頁面中，管理員可以檢視現有檔案Webhook整合的清單。 您可以在此頁面新增、編輯、啟用和停用整合。 若要新增整合，請按一下新增整合按鈕。
 
 ### 可用欄位
 
@@ -56,39 +58,39 @@ Workfront管理員可透過導覽至Workfront中的「設定>檔案>自訂整合
   </tr> 
   <tr> 
    <td>基底 API URL</td> 
-   <td> <p>回撥API的位置。 呼叫外部系統時，Workfront僅會將端點名稱附加至此位址。 例如，如果管理員輸入基本API URL " https://www.mycompany.com/api/v1 "，Workfront將使用以下URL來取得檔案的中繼資料：https://www.mycompany.com/api/v1/metadata?id=1234。</p> </td> 
+   <td> <p>回撥API的位置。 呼叫外部系統時，Workfront會將端點名稱附加至此位址。 例如，如果管理員輸入基本API URL " https://www.mycompany.com/api/v1 "，Workfront將使用以下URL來取得檔案的中繼資料：https://www.mycompany.com/api/v1/metadata?id=1234。</p> </td> 
   </tr> 
   <tr> 
    <td>要求引數</td> 
-   <td> <p>附加至每個 API 呼叫的 querystring 的選用值。例如，access_type</p> <p> </p> </td> 
+   <td> <p>附加至每個 API 呼叫的 querystring 的選用值。例如，access_type</p> </td> 
   </tr> 
   <tr> 
    <td>驗證類型</td> 
-   <td>OAuth2或ApiKey</td> 
+   <td>OAuth2或ApiKey。</td> 
   </tr> 
   <tr> 
    <td>驗證 URL</td> 
-   <td> <p>（僅限OAuth2）用於使用者驗證的完整URL。 Workfront會在OAuth布建程式過程中，將使用者導覽至此位址。 注意： Workfront會將「state」引數附加至查詢字串。 提供者必須透過將此附加至Workfront重新導向URI，將其傳回Workfront。</p> </td> 
+   <td> <p>（僅限OAuth2）用於使用者驗證的完整URL。 Workfront會在OAuth布建程式過程中，將使用者導覽至此位址。 <br><br>注意： Workfront會將"state"引數附加至查詢字串。 提供者必須透過將此附加至Workfront重新導向URI，將其傳回Workfront。</p> </td> 
   </tr> 
   <tr> 
    <td>權杖端點 URL</td> 
-   <td> <p>（僅限OAuth2）用於擷取OAuth2 Token的完整API URL。 這是由webhook提供者或外部檔案提供者所託管</p> <p> </p> </td> 
+   <td> <p>（僅限OAuth2）用於擷取OAuth2 Token的完整API URL。 這是由webhook提供者或外部檔案提供者所託管。</p> </td> 
   </tr> 
   <tr> 
    <td>用戶端 ID</td> 
-   <td>（僅限OAuth2）此整合的OAuth2使用者端ID</td> 
+   <td>（僅限OAuth2）此整合的OAuth2使用者端ID。</td> 
   </tr> 
   <tr> 
    <td>用戶端密碼</td> 
-   <td> <p>（僅限OAuth2）此整合的OAuth2使用者端密碼</p> </td> 
+   <td> <p>（僅限OAuth2）此整合的OAuth2使用者端密碼。</p> </td> 
   </tr> 
   <tr> 
    <td>Workfront 重新導向 URI</td> 
-   <td>  <p>（僅限OAuth2）這是唯讀欄位，由Workfront產生。 此值可用來向外部檔案提供者註冊此整合。 注意：如上述驗證URL所述，提供者在執行重新導向時，必須將"state"引數及其值附加至查詢字串。</p></td> 
+   <td> <p>（僅限OAuth2）這是唯讀欄位，由Workfront產生。 此值可用來向外部檔案提供者註冊此整合。 <br><br>注意：如上述驗證URL所述，提供者在執行重新導向時，必須將"state"引數及其值附加至querystring。</p></td> 
   </tr> 
   <tr> 
    <td>ApiKey</td> 
-   <td>  <p>（僅限ApiKey）用來對webhook提供者進行授權的API呼叫。 webhook提供者所發行的API金鑰。</p></td> 
+   <td>  <p>（僅限ApiKey）用來對webhook提供者進行授權的API呼叫。 API金鑰由webhook提供者發行。</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -101,14 +103,12 @@ Workfront檔案webhook支援兩種不同的驗證形式： OAuth2和ApiKey。 �
 
 ### OAuth2
 
-OAuth2可讓Workfront代表使用者向webhook提供者發出授權的API呼叫。 在執行此操作之前，使用者必須將其外部檔案提供者帳戶連線至Workfront並授予Workfront
+OAuth2可讓Workfront代表使用者向webhook提供者發出授權的API呼叫。 在執行此操作之前，使用者必須將其外部檔案提供者帳戶連結至Workfront，並授予Workfront存取權以代表其採取行動。 此握手程式只會針對每位使用者進行一次。 以下是運作方式：
 
-代表他們行事的存取權。 此握手程式只會針對每位使用者進行一次。 以下是運作方式：
-
-1. 使用者開始將webhook整合連線至其帳戶。 目前，若要這麼做，請按一下「新增檔案」下拉式清單>「新增服務」>自訂整合名稱。
-1. Workfront會導覽使用者驗證URL，這可能會提示使用者登入外部檔案提供者。 此頁面由webhook提供者或外部檔案管理系統託管。 Workfront這麼做時，會將「state」引數新增至驗證URL。 必須在下列步驟中，將相同的值附加至Workfront傳回URI，將此值傳回Workfront。
+1. 使用者開始將webhook整合連線至其帳戶。 目前，若要這麼做，請按一下新增檔案下拉式清單>新增服務>自訂整合名稱。
+1. Workfront會將使用者導覽至驗證URL，這可能會提示使用者登入外部檔案提供者。 此頁面由webhook提供者或外部檔案管理系統託管。 Workfront這麼做時，會將「state」引數新增至驗證URL。 必須在下列步驟中，將相同的值附加至Workfront傳回URI，將此值傳回Workfront。
 1. 登入外部系統後（或如果使用者已登入），使用者將被帶到「驗證」頁面，此頁面說明Workfront正在請求存取權，以代表使用者執行一組動作。
-1. 如果使用者按一下「允許」按鈕，瀏覽器會重新導向至Workfront重新導向URI ，並將「code=`<code>`」新增至querystring。 根據OAuth2規格，此代號只會短暫有效。 查詢字串也必須具有下列「state=`<sent_by_workfront>`」。
+1. 如果使用者按一下「允許」按鈕，瀏覽器會重新導向至Workfront重新導向URI ，新增&quot;code=`<code>`&quot;至查詢字串。 根據OAuth2規格，此代號只會短暫有效。 查詢字串也必須具有下列專案： &quot;state=`<sent_by_workfront>`&quot;。
 1. Workfront處理此要求，並使用授權代碼對權杖端點URL進行API呼叫。
 1. 權杖端點URL會傳回重新整理權杖和存取權杖。
 1. Workfront會儲存這些Token並完整布建此使用者的webhook整合。
@@ -120,7 +120,7 @@ OAuth2可讓Workfront代表使用者向webhook提供者發出授權的API呼叫�
    -------------------------------
    ```
 
-1. 如果存取權杖已過期，Workfront會呼叫權杖端點URL以擷取新的存取權杖，然後使用新的存取權杖再次嘗試授權API呼叫。
+1. 如果存取權杖已過期，Workfront將會呼叫權杖端點URL以擷取新的存取權杖，然後使用新的存取權杖再次嘗試授權API呼叫。
 
 ### ApiKey
 
@@ -136,11 +136,11 @@ username: johndoe@foo.com
 -------------------------------
 ```
 
-Webhook提供者可以使用使用者名稱來套用使用者特定的許可權。 當兩個系統都使用單一登入(SSO)連線到LDAP時，這個方法會發揮最佳效果。
+Webhook提供者可以使用使用者名稱來套用使用者特定的許可權。 當兩個系統都使用單一登入(SSO)連線至LDAP時，這個方法最有效。
 
 ### 新增請求標頭（選用）
 
-除了使用OAuth2 Token或ApiKey進行驗證外，Workfront還可以為每個API呼叫將預先定義的標題集傳送給webhook提供者。 Workfront管理員可在註冊或編輯Webook整合時進行此設定，如上節所述。 請參閱註冊Webhook整合。
+除了使用OAuth2 Token或ApiKey進行驗證外，Workfront還可以為每個API呼叫將預先定義的標題集傳送給webhook提供者。 Workfront管理員可在註冊或編輯Webook整合時進行此設定，如上節所述。
 
 例如，這可用於基本驗證。 若要這麼做，Workfront管理員會在「自訂整合」對話方塊中新增下列「請求標題」資訊：
 
@@ -168,7 +168,7 @@ Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ== ­­­­­­­­­­­­­­­
 
 傳回已驗證使用者的OAuth2重新整理權杖和存取權杖。 當使用者布建檔案提供者時，就會叫用一次。 進行後續呼叫以取得更新的存取Token。
 
-HTTP要求POST/any/url
+HTTP要求POST /any/url
 
 URL可設定，並與自訂整合設定頁面上的權杖端點URL值相對應。
 
@@ -277,7 +277,7 @@ client_secret=6asdf7a7a9a4af
 
 **URL**
 
-/metadata？id=[檔案或資料夾識別碼]GET
+GET /metadata？id=[檔案或資料夾識別碼]
 
 **查詢引數**
 
@@ -317,12 +317,12 @@ client_secret=6asdf7a7a9a4af
   <tr> 
    <td>標題 </td> 
    <td>字串 </td> 
-   <td>檔案或資料夾的名稱</td> 
+   <td>檔案或資料夾的名稱。</td> 
   </tr> 
   <tr> 
    <td>種類 </td> 
    <td>字串 </td> 
-   <td>指定此專案是檔案還是資料夾（'file'或'folder'）</td> 
+   <td>指定此專案是檔案還是資料夾（'file'或'folder'）。</td> 
   </tr> 
   <tr> 
    <td>id</td> 
@@ -342,22 +342,22 @@ client_secret=6asdf7a7a9a4af
   <tr> 
    <td>mimeType</td> 
    <td>字串 </td> 
-   <td>檔案的MIME型別。 (可選)</td> 
+   <td>（選用）檔案的MIME型別。</td> 
   </tr> 
   <tr> 
    <td>dateModified</td> 
    <td>字串 </td> 
-   <td>上次修改此檔案的時間（格式為RFC 3339時間戳記）</td> 
+   <td>上次修改此檔案的時間（格式為RFC 3339時間戳記）。</td> 
   </tr> 
   <tr> 
    <td>大小</td> 
    <td>長</td> 
-   <td>  檔案大小（位元組）。 (可選)</td> 
+   <td>（選用）檔案大小（位元組）。</td> 
   </tr> 
   <tr> 
    <td>readOnly</td> 
    <td>布林值</td> 
-   <td>  <p> 指出此檔案或資料夾對於已驗證的使用者是否為唯讀。(可選)</p><p> </p></td> 
+   <td><p> （選擇性）指出此檔案或資料夾對於已驗證的使用者是否為唯讀。</p><p> </p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -381,7 +381,7 @@ client_secret=6asdf7a7a9a4af
 
 >[!NOTE]
 >
->所有API呼叫的錯誤處理都應保持一致。 如需詳細資訊，請參閱下方的「錯誤處理」一節。
+>所有API呼叫的錯誤處理都應保持一致。 如需詳細資訊，請參閱下文的錯誤處理一節。
 
 ### 取得資料夾中的專案清單
 
@@ -389,7 +389,7 @@ client_secret=6asdf7a7a9a4af
 
 **URL**
 
-GET/files
+GET /files
 
 **查詢引數**
 
@@ -440,7 +440,7 @@ GET/files
 
 **URL**
 
-GET/search
+GET /search
 
 **查詢引數**
 
@@ -460,7 +460,7 @@ GET/search
   </tr> 
   <tr> 
    <td>parentId</td> 
-   <td> <p>（選用）執行搜尋的來源資料夾ID。 注意：這是Workfront中未來功能的預留位置。 目前，Workfront不傳遞此引數。 </p> </td> 
+   <td> <p>（選用）執行搜尋的來源資料夾ID。 <br><br>注意：這是Workfront中未來功能的預留位置。 目前Workfront不會傳遞此引數。 </p> </td> 
   </tr> 
   </tbody> 
 </table>
@@ -471,7 +471,7 @@ GET/search
 
 **回應**
 
-JSON，其中包含符合查詢的檔案和資料夾的中繼資料清單。 構成「符合」的專案由webhook提供者決定。 理想情況下，應該執行全文檢索搜尋。 執行檔案名稱式搜尋也可運作。
+JSON，其中包含符合查詢的檔案和資料夾的中繼資料清單。 構成「符合」的專案由webhook提供者決定。 理想情況下，應該執行全文檢索或檔案名稱式搜尋。
 
 **範例：** `https://www.acme.com/api/search?query=test-query`
 
@@ -486,11 +486,11 @@ JSON，其中包含符合查詢的檔案和資料夾的中繼資料清單。 構
 
 ### 取得檔案的內容
 
-傳回檔案的原始位元組
+傳回檔案的原始位元組。
 
 **URL**
 
-GET/下載
+GET /下載
 
 **查詢引數**
 
@@ -525,14 +525,14 @@ GET/下載
 
 **URL**
 
-GET/thumbnail
+GET /thumbnail
 
 **查詢引數**
 
 | 名稱  | 說明 |
 |---|---|
 | id  | 檔案識別碼。 |
-| 大小  |  縮圖的寬度 |
+| 大小  | 縮圖的寬度。 |
 
 {style="table-layout:auto"}
 
@@ -546,13 +546,13 @@ GET/thumbnail
 
 ### 上傳檔案 — 第1部分，共2部分
 
-將檔案上傳至檔案儲存提供者是一個包含兩個步驟的程式，需要兩個不同的API端點。 Workfront會呼叫/uploadInit以開始上傳程式。 此端點會傳回檔案ID，然後在上傳檔案位元組時傳遞給/upload。 根據基礎檔案儲存系統，可能需要建立長度為零的檔案，然後稍後更新檔案的內容。
+將檔案上傳至檔案儲存提供者是一個兩步驟的程式，需要2個獨立的API端點。 Workfront會呼叫/uploadInit以開始上傳程式。 此端點會傳回檔案ID，然後在上傳檔案位元組時傳遞給/upload。 根據基礎檔案儲存系統，可能需要建立長度為零的檔案，然後稍後更新檔案的內容。
 
-將檔案ID和檔案版本ID新增至本規格1.1版，可用來從Workfront擷取額外資訊。 例如，如果檔案管理系統想要關於檔案的額外資訊，webhook實作程式碼可以使用檔案ID來使用Workfront的RESTful API擷取該資訊。 好的實務是，此資訊可能來自檔案上的自訂資料欄位，並包含任務、問題或專案。
+將檔案ID和檔案版本ID新增至本規格1.1版，可用來從Workfront擷取額外資訊。 例如，如果檔案管理系統想要關於檔案的額外資訊，webhook實作程式碼可以使用檔案ID來使用Workfront的RESTful API擷取該資訊。 好的實務是，此資訊可能來自檔案及其包含任務、問題或專案的自訂資料欄位。
 
 **URL**
 
-POST/uploadInit
+POST /uploadInit
 
 **查詢引數**
 
@@ -572,15 +572,15 @@ POST/uploadInit
   </tr> 
   <tr> 
    <td>檔案名稱 </td> 
-   <td>檔案的名稱</td> 
+   <td>檔案的名稱。</td> 
   </tr> 
   <tr> 
    <td>documentId</td> 
-   <td> <p>Workfront檔案ID （在1.1版中新增）</p> <p> </p> </td> 
+   <td> <p>Workfront檔案ID （在1.1版中新增）。</p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td>documentVersionId </td> 
-   <td>Workfront檔案版本ID （在1.1版中新增）</td> 
+   <td>Workfront檔案版本ID （在1.1版中新增）。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -603,7 +603,7 @@ POST/uploadInit
 
 **URL**
 
-PUT/upload
+PUT /upload
 
 **查詢引數**
 
@@ -650,7 +650,7 @@ PUT/upload
 
 **URL**
 
-GET/serviceInfo
+GET /serviceInfo
 
 查詢參數
 
@@ -658,7 +658,7 @@ GET/serviceInfo
 
 **回應**
 
-包含此服務相關資訊的JSON
+包含此服務相關資訊的JSON。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -720,14 +720,14 @@ GET/serviceInfo
 （在1.2版中新增）在指定目錄中建立資料夾。
 URL
 
-POST/createFolder
+POST /createFolder
 
 **查詢引數**
 
 | 名稱  | 說明 |
 |---|---|
-| parentId  | 應在其中建立資料夾的資料夾ID |
-| 名稱  | 新資料夾的名稱 |
+| parentId  | 應在其中建立資料夾的資料夾ID。 |
+| 名稱  | 新資料夾的名稱。 |
 
 {style="table-layout:auto"}
 
@@ -768,20 +768,20 @@ name=New Folder ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­
 
 URL
 
-PUT/delete
+PUT /delete
 
 **查詢引數**
 
 | 名稱  | 說明 |
 |---|---|
-| documentId  | 要刪除的檔案識別碼 |
-| folderId  |  要刪除的資料夾識別碼 |
+| documentId  | 要刪除的檔案識別碼。 |
+| folderId  | 要刪除的資料夾ID。 |
 
 {style="table-layout:auto"}
 
 回應：指出成功或失敗的JSON字串，如底下「錯誤處理」區段中所指定。
 
-**範例：** PUThttps://www.acme.com/api/delete id=1234
+**範例：** PUT https://www.acme.com/api/delete id=1234
 
 傳回
 
@@ -806,14 +806,14 @@ PUT/delete
 
 URL
 
-PUT/重新命名
+PUT /rename
 
 **查詢引數**
 
 | 名稱  | 說明 |
 |---|---|
-| id | 要重新命名的檔案或資料夾ID |
-| 名稱  | 檔案或資料夾的新名稱 |
+| id | 要重新命名的檔案或資料夾ID。 |
+| 名稱  | 檔案或資料夾的新名稱。 |
 
 {style="table-layout:auto"}
 
@@ -853,12 +853,12 @@ name=Folder B ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­
 webhook提供者會將actions包含在customActions下的/serviceInfo回應中，藉此向Workfront註冊自訂動作。 Workfront會在設定>檔案>自訂整合底下設定或重新整理webhook提供者時載入此清單。\
 ![執行自訂動作](assets/mceclip0-350x262.png)
 
-使用者可以透過選擇「檔案動作」下的區段來觸發自訂動作\
+使用者可透過選取「檔案動作」下的區段來觸發自訂動作。\
 ![觸發自訂動作](assets/mceclip1-350x95.png)
 
 **URL**
 
-GET/customAction
+GET /customAction
 
 **查詢引數**
 
@@ -882,7 +882,7 @@ GET/customAction
   </tr>
   <tr>
    <td>documentVersionId </td>
-   <td> 正在對其執行動作的Workfront檔案版本ID。</td>
+   <td>正在對其執行動作的Workfront檔案版本ID。</td>
   </tr>
  </tbody>
 </table>
@@ -933,9 +933,9 @@ GET/customAction
 
 若要執行這些測試，您將需要下列專案：
 
-* 已啟用進階檔案管理(ADM)的Workfront帳戶
-* 此帳戶的Workfront使用者，擁有系統管理員許可權
-* Workfront可存取其HTTP端點的檔案Webhook例項
+* 已啟用進階檔案管理(ADM)的Workfront帳戶。
+* 此帳戶的Workfront使用者，擁有系統管理員許可權。
+* Workfront可存取其HTTP端點的檔案Webhook例項。
 
 這些測試也假設您已經在Workfront中的「設定>檔案>自訂整合」下註冊了Document Webhook例項。
 
@@ -944,8 +944,8 @@ GET/customAction
 測試以OAuth為基礎的Webhook提供者的驗證URL和權杖端點URL。
 
 1. 在Workfront中，按一下頂端導覽列中的「檔案」連結，前往「檔案」首頁面。
-1. 按一下新增檔案下拉式清單，在新增服務下選取您的檔案Webhook服務。
-1. （僅限OAuth服務）完成上一步驟後，您會在快顯視窗中看到服務的OAuth2驗證頁面載入載入內容。 （注意：系統可能會提示您先登入服務。） 在驗證頁面中，按一下「信任」或「允許」按鈕，將Workfront存取權授與使用者帳戶。
+1. 按一下「新增檔案」下拉式清單，並在「新增服務」下選取您的Document Webhook服務。
+1. （僅限OAuth服務）完成上一步驟後，您會在快顯視窗中看到服務的OAuth2驗證頁面載入載入內容。 （注意：系統可能會提示您先登入服務。） 在驗證頁面中，按一下「信任」或「允許」按鈕，授予Workfront使用者帳戶的存取權。
 1. 確認您的服務已新增至新增檔案下拉式清單。 如果一開始沒有看見，請嘗試重新整理瀏覽器。
 
 ### 測試2：將檔案連結至Workfront測試下列端點： /files、/metadata
@@ -954,29 +954,29 @@ GET/customAction
 1. 在新增檔案下選擇您的檔案Webhook服務。
 1. 從強制回應視窗中，導覽至資料夾結構。
 1. 確認您能夠正確導覽資料夾結構。
-1. 選擇檔案並將其連結至Workfront
+1. 選取檔案並將其連結至Workfront。
 
 ### 測試3：導覽至內容管理系統中的檔案
 
-測試下列端點： /metadata （尤其是viewLink）
+測試下列端點： /metadata （尤其是viewLink）。
 
-1. 將檔案連結至Workfront
+1. 將檔案連結至Workfront。
 1. 選取檔案並按一下「開啟」連結。
 1. 確認檔案會在新標籤中開啟。
 
 ### 測試4：導覽至內容管理系統中的檔案（含登入）
 
-測試下列端點： /metadata （尤其是viewLink）
+測試下列端點： /metadata （尤其是viewLink）。
 
 1. 確保您已登出內容管理系統。
 1. 將檔案連結至Workfront。
 1. 選取檔案並按一下「開啟」連結。
 1. 確認內容管理系統的登入畫面會在新標籤中載入。
-1. 登入並確認您已前往檔案
+1. 登入並確認您已進入檔案。
 
 ### 測試5：從內容管理系統下載檔案
 
-測試以下端點： /metadata （尤其是downloadLink）
+測試以下端點： /metadata （尤其是downloadLink）。
 
 1. 將檔案連結至Workfront。
 1. 選取檔案並按一下下載連結。
@@ -996,9 +996,9 @@ GET/customAction
 測試下列端點： /files、/uploadInit、/upload
 
 1. 在Workfront中，按一下頂端導覽列中的「檔案」連結，前往「檔案」首頁面。
-1. 從您的電腦上傳檔案至Workfront
-1. 前往檔案詳細資訊頁面
-1. 從「檔案動作」下拉式清單中，選取「傳送至……」下的「檔案Webhook服務」。
+1. 從您的電腦上傳檔案至Workfront。
+1. 前往檔案詳細資訊頁面。
+1. 從「檔案動作」下拉式清單中，選取「傳送至……」下的「檔案Webhook」服務。
 1. 前往所需的目的地資料夾，然後按一下「儲存」按鈕。
 1. 確認檔案已上傳至內容管理系統中的正確位置。
 
@@ -1023,8 +1023,8 @@ GET/customAction
 
 測試下列端點：權杖端點URL
 
-1. 為使用者布建Document Webhook服務
-1. 讓使用者的存取Token失效，方法是1 )等待它逾時，或2)在外部系統中手動讓它失效。
+1. 為使用者布建Document Webhook服務。
+1. 等候使用者的存取權杖逾時或在外部系統中手動讓使用者存取權杖失效。
 1. 在Workfront中重新整理存取Token。 例如，您可以將檔案連結至Workfront來執行此操作。 如果您能夠導覽至並連結檔案，您將知道存取權杖已成功重新整理。
 
 >[!NOTE]
