@@ -197,4 +197,4 @@ Planned Cost of Incurred Expenses = Total of Planned Cost of all incurred expens
 
 1. 按一下&#x200B;**財務**。 CPI顯示在&#x200B;**CPI/ SPI/ CSI**&#x200B;欄位中。
 
-   專案](assets/cpi-on-project-nwe.png)上的![CPI
+   專案![&#128279;](assets/cpi-on-project-nwe.png)上的CPI
