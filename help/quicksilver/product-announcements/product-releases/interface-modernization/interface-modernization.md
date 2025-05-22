@@ -1,11 +1,11 @@
 ---
-title: 介面更新
+title: 介面現代化
 description: 本頁面列出我們透過Adobe Workfront進行的介面更新，以改善使用者體驗，並將其與其他Adobe應用程式統一。
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 3c1961f649298eda4e76830ca39c23fc4dadb407
+source-git-commit: da7151e210bc779beb963e53a2beed5b5280f494
 workflow-type: tm+mt
 source-wordcount: '3938'
 ht-degree: 1%
@@ -436,7 +436,7 @@ ht-degree: 1%
 
 此更新包含區域的視覺化變更。 功能未變更。
 
-若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。**&#x200B;**
+若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。****
 
 +++
 
