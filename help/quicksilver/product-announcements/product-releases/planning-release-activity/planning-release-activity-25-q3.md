@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: a39ba047fc4c1e422f3bea8bd9266b9197219900
+source-git-commit: 870e4130daf9924bf85b59eb09f7d548b8152096
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1165'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,23 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 如需針對Adobe Workfront Planning發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## 在時間軸檢視中以精簡模式劃分記錄的新體驗
+
+>[!NOTE]
+>
+>* 預覽： 2025年5月22日
+>* 生產快速發行： 2025年6月12日
+>* 適用於所有客戶的生產： 2025年7月17日
+
+我們已在時間軸檢視中劃分記錄時變更體驗，且您已套用壓縮檢視。
+透過新的更新，當您在「緊湊」模式下顯示時間軸時定義劃分物件時，在完成劃分條件的設定後，系統會提示您將檢視切換為「標準」。
+
+在此增強功能之前，以精簡模式顯示時間軸檢視時，無法定義劃分條件。
+
+在這次升級中，「標準」選項是預設選項。 在此之前，預設模式為精簡模式。
+
+如需詳細資訊，請參閱[管理時間表檢視](/help/quicksilver/planning/views/manage-the-timeline-view.md)。
 
 ## 更新時間軸檢視設定，以定義使用「劃分」選項時連線記錄長條的外觀
 

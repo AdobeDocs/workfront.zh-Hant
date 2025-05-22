@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: e94d7f40accd80d631765405752a03bf3a0363f1
+source-git-commit: 3c1961f649298eda4e76830ca39c23fc4dadb407
 workflow-type: tm+mt
-source-wordcount: '3691'
+source-wordcount: '3938'
 ht-degree: 1%
 
 ---
@@ -24,6 +24,14 @@ ht-degree: 1%
 
 
 ## 管理和設定
+
+### 新計分卡和複製計分卡方塊的新外觀
+
+**預覽版本： 2025年5月22日；生產版本： 2025年5月29日**
+
+我們已更新新計分卡和複製計分卡方塊的外觀和風格，以符合應用程式其他區域的設計。 在Workfront的「設定」區域中建立或複製計分卡時，您可以檢視更新的設計。
+
+如需詳細資訊，請參閱[建立計分卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)。
 
 ### 群組最近還原專案的介面更新
 
@@ -82,7 +90,42 @@ ht-degree: 1%
 
 我們已更新您用來授與支援存取許可權給您Workfront帳戶的頁面，其中包含更現代的設計，與Workfront的其他區域一致。
 
-## 報表與控制面板
+## 專案
+
+## 專案或範本的「新增」和「編輯」風險方塊的外觀和感覺更新
+
+**預覽版本： 2025年5月22日；生產版本： 2025年5月29日**
+
+我們在風險區段中新增風險或編輯專案或範本的風險時，更新了「新風險」和「編輯風險」方塊的外觀和風格。 現在，方塊的設計與Workfront的其他區域相符。
+
+如需詳細資訊，請參閱[在專案中建立與編輯風險](/help/quicksilver/manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md#create-and-edit-risks-on-projects)。
+
+### 「複製範本」方塊的外觀變更
+
+**預覽版本： 2025年5月22日；生產版本： 2025年5月22日**
+
+我們已更新「複製範本」方塊的外觀與操作方式，以符合Workfront其他區域的設計方式。
+
+如需詳細資訊，請參閱[複製專案範本](/help/quicksilver/manage-work/projects/create-and-manage-templates/copy-template.md)。
+
+### 將物件新增至程式和投資組合時，外觀和感覺會更新
+
+**預覽版本： 2025年5月22日；生產版本： 2025年5月29日**
+
+進行下列操作時，我們已更新新增方塊的介面：
+
+* 將專案新增至方案
+* 將專案新增至投資組合
+* 將計畫新增至投資組合
+
+如需詳細資訊，請參閱下列文章：
+
+* [將現有方案新增至投資組合](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/move-program.md)
+* [將專案新增至投資組合](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
+* [將專案新增至方案](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)
+
+
+## 報告和儀表板
 
 ### Workfront儀表板不再支援含有/tile或/qstile的URL
 
@@ -151,7 +194,15 @@ ht-degree: 1%
 
 +++展開以檢視第2季進行的管理和設定介面更新
 
-### 更新安裝程式中資源管理區域的介面
+### 最近還原專案的介面更新
+
+**預覽版本： 2025年4月23日；生產版本： 2025年4月23日**
+
+我們已更新設定區域中最近還原專案的外觀與風格，以符合Workfront其他區域的設計。 最近還原的專案、任務、請求、檔案或範本的功能未變更。
+
+若要檢視這項變更，請前往「設定>資源回收筒>最近還原」。
+
+如需詳細資訊，請參閱[檢視還原的專案](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)。###介面更新至安裝程式中的資源管理區域
 
 **預覽版本： 2025年4月17日；自2025年4月17日起一週**
 
@@ -159,7 +210,7 @@ ht-degree: 1%
 
 如需詳細資訊，請參閱[設定資源管理喜好設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)。
 
-## 介面更新至設定的里程碑路徑清單
+### 介面更新至設定的里程碑路徑清單
 
 **預覽版本： 2025年3月6日；從2025年4月10日當週開始**
 
@@ -167,7 +218,7 @@ ht-degree: 1%
 
 如需詳細資訊，請參閱[建立里程碑路徑](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)。
 
-## 介面更新至設定中的「編輯風險型別」方塊
+### 介面更新至設定中的「編輯風險型別」方塊
 
 **預覽版本： 2025年3月27日；自2025年4月10日起一週**
 
@@ -385,7 +436,7 @@ ht-degree: 1%
 
 此更新包含區域的視覺化變更。 功能未變更。
 
-若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。**&#x200B;**
+若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。****
 
 +++
 
@@ -482,16 +533,6 @@ ht-degree: 1%
 * 排程
 
 如需詳細資訊，請參閱[建立自訂報表](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
-
-### 最近還原專案的介面更新
-
-**預覽版本： 2025年4月23日；生產版本： 2025年4月23日**
-
-我們已更新設定區域中最近還原專案的外觀與風格，以符合Workfront其他區域的設計。 最近還原的專案、任務、請求、檔案或範本的功能未變更。
-
-若要檢視這項變更，請前往「設定>資源回收筒>最近還原」。
-
-如需詳細資訊，請參閱[檢視還原的專案](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)。
 
 ### 更新公司報告中「刪除公司」方塊的介面
 
@@ -620,3 +661,8 @@ ht-degree: 1%
 * 以紅色顯示，反白顯示「刪除」動作。
 
 如需詳細資訊，請參閱[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
+
+
+
+
+
