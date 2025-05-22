@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: d0ec729a510b78a7ce417356ac9250a485308f0b
+source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
 workflow-type: tm+mt
-source-wordcount: '3060'
+source-wordcount: '3152'
 ht-degree: 0%
 
 ---
@@ -139,13 +139,8 @@ ht-degree: 0%
       * 年
       * 季度
       * 月
-1. 按一下&#x200B;**切換至標準**&#x200B;檢視，以個別行<!--check to see if they updated the name of the setting here-->顯示記錄
-
-   或
-
-   按一下&#x200B;**切換到壓縮檢視**&#x200B;以顯示日期在同一行上不相交的記錄。<!--check to see if they updated the name of the setting here-->
-
-   預設情況下，記錄會顯示在「壓縮」檢視中。
+1. （選擇性）按一下&#x200B;**切換至精簡檢視**&#x200B;以顯示日期在同一行上不相交的記錄。<!--check to see if they updated the name of the setting here-->
+1. （視條件而定）如果您將模式變更為&#x200B;**緊密**，請按一下&#x200B;**切換至標準**&#x200B;檢視，以個別行顯示記錄。 <span class="preview">預設值為&#x200B;**標準**&#x200B;選項。</span>  <!--check to see if they updated the name of the setting here-->
 
 1. 執行下列動作以快速尋找符合關鍵字的記錄：
 
@@ -353,7 +348,7 @@ this is not possible right now; if this is the same functionality as the table v
 
    如果選取的記錄型別沒有包含顏色編碼選項的欄位，則此選項會變暗。
 
-   1. <span class="preview">（選擇性）如果您使用「劃分」選項，請對時間軸中顯示的每個已連線記錄，重複從步驟4開始的步驟。</span>
+1. <span class="preview">（選擇性）如果您使用「劃分」選項，請對時間軸中顯示的每個已連線記錄，重複從步驟4開始的步驟。</span>
 
 1. 按一下「**儲存**」。
 
@@ -389,7 +384,7 @@ this is not possible right now; if this is the same functionality as the table v
 #### 劃分連線記錄
 
 1. 如文章[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)中所述，建立記錄型別的時間表檢視。
-1. （視條件而定）如果您正在以標準模式檢視時間軸檢視，請按一下&#x200B;**劃分**。
+1. 從&#x200B;**標準**&#x200B;或&#x200B;<span class="preview">**緊密**&#x200B;模式，按一下時間軸檢視右上角的&#x200B;**劃分**</span>。
 1. 展開&#x200B;**選取連結的記錄型別**&#x200B;方塊並選取連線的記錄型別。<!--add a new screen shot - submitted a bug to remove the "the"-->
 
    時間軸檢視上的![劃分選擇器和按鈕](assets/breakdown-picker-and-button-on-timeline.png)
@@ -417,7 +412,15 @@ this is not possible right now; if this is the same functionality as the table v
    >
    >產品和方案都必須連線至行銷活動，才能顯示為劃分選項的選項，而且您可以依任何順序將其新增至劃分。
 
+1. <span class="preview">（條件式）如果您正在以精簡模式檢視時間表，請按一下&#x200B;**切換檢視**。 劃分在&#x200B;**壓縮**&#x200B;模式中不可見。</span>
 
+   >[!TIP]
+   >
+   ><span class="preview">選取&#x200B;**不要在**&#x200B;切換至標準檢視中再顯示此專案&#x200B;**？**&#x200B;方塊，然後再切換檢視。</span>
+   >
+   ><span class="preview">此喜好設定只適用於目前的瀏覽器。 如果您變更瀏覽器或電腦，則必須再次選取此喜好設定。</span>
+   >
+   >將檢視切換為「標準」後，您無法恢復為「緊密」模式，並在檢視中顯示已連線的記錄。
 1. （選用）重複上述步驟以新增更多連線記錄。
 
 

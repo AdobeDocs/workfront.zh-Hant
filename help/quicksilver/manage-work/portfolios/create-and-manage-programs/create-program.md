@@ -6,7 +6,7 @@ description: 方案代表共用跨專案界限的共同策略、目標或目標�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: 594504c6a7acc9341471371ca279379042a45457
+source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
 workflow-type: tm+mt
 source-wordcount: '1288'
 ht-degree: 0%
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
 
 方案代表共用跨專案界限的共同策略、目標或目標的專案集合。
 計畫是投資組合的細分，它們不能存在於投資組合之外。 計畫通常與同一投資組合中的其他計畫共用相同的資源。
@@ -45,15 +45,15 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>新增：[!UICONTROL Standard] </p><p>或 </p><p>目前： [!UICONTROL 計畫] </p> </td> 
+   <td> <p>新增：[！UICONTROL Standard] </p><p>或 </p><p>目前： [！UICONTROL計畫] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[!UICONTROL Edit]對投資組合和計畫的存取權 </p>  </td> 
+   <td> <p>[！UICONTROL Edit]對投資組合和計畫的存取權 </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>投資組合的[!UICONTROL Manage]許可權</p> <p>建立方案後，預設情況下您擁有[!UICONTROL 管理]許可權。</p>  </td> 
+   <td> <p>投資組合的[！UICONTROL Manage]許可權</p> <p>建立方案後，預設情況下您擁有[！UICONTROL管理]許可權。</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -129,16 +129,16 @@ ht-degree: 0%
     </thead> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 說明]</td> 
+      <td role="rowheader">[！UICONTROL說明]</td> 
       <td> <p>指定程式的說明。</p> <p>說明會顯示在程式的登陸頁面上。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 計畫管理員]</td> 
-      <td> <p>開始輸入您想當作「方案管理員」的使用者名稱，然後在使用者名稱出現在下拉式清單中時按一下該使用者的名稱。 這與[!UICONTROL 計畫所有者]相同。 </p> <p>提示：您也可以在方案標題中更新「方案管理員」。 </p> </td> 
+      <td role="rowheader">[！UICONTROL計畫管理員]</td> 
+      <td> <p>開始輸入您想當作「方案管理員」的使用者名稱，然後在使用者名稱出現在下拉式清單中時按一下該使用者的名稱。 這與[！UICONTROL計畫所有者]相同。 </p> <p>提示：您也可以在方案標題中更新「方案管理員」。 </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[!UICONTROL 群組] </td> 
-      <td> <p>如果群組擁有方案或負責完成方案，請新增單一群組的名稱。 </p> <p>您可以暫留在群組上，並按一下旁邊顯示的[!UICONTROL 資訊]圖示<img src="assets/info-icon.png">，確定您選取的群組正確。 這會顯示工具提示，列出群組的相關資訊，例如群組及其管理員上方的群組階層。</p> 
+      <td role="rowheader">[！UICONTROL群組] </td> 
+      <td> <p>如果群組擁有方案或負責完成方案，請新增單一群組的名稱。 </p> <p>您可以暫留在群組上，並按一下旁邊顯示的[！UICONTROL資訊]圖示<img src="assets/info-icon.png">，確定您選取的群組正確。 這會顯示工具提示，列出群組的相關資訊，例如群組及其管理員上方的群組階層。</p> 
        <div data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
         <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> 
        </div> </td> 
@@ -187,14 +187,14 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">物件型別名稱和啟動狀態</td> 
-   <td>當您檢視方案時，「方案」一詞會顯示橘色圖示。 單字「[!UICONTROL 已停用]」會顯示在其旁邊，如果程式未標示為[!UICONTROL 作用中]，則大綱為灰色。 </td> 
+   <td>當您檢視方案時，「方案」一詞會顯示橘色圖示。 單字「[！UICONTROL已停用]」會顯示在其旁邊，如果程式未標示為[！UICONTROL作用中]，則大綱為灰色。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">計畫的動作區域 </td> 
    <td> <p>按一下下列任一項，以存取更多資訊或編輯程式的選項：</p> 
     <ul> 
      <li>星形圖示可將方案新增至您的最愛清單</li> 
-     <li> <p>[!UICONTROL More]功能表<img src="assets/qs-more-menu.png">可執行下列任一項作業： </p> 
+     <li> <p>[！UICONTROL More]功能表<img src="assets/qs-more-menu.png">可執行下列任一項作業： </p> 
       <ul> 
        <li>編輯方案</li> 
        <li>停用它。 停用方案時，您無法再將其與專案層級的專案建立關聯。 </li> 
@@ -204,20 +204,20 @@ ht-degree: 0%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 完成百分比]</td> 
-   <td> <p>您無法在標題中編輯程式的[!UICONTROL 完成百分比]。 此資訊會從計畫中的專案更新。 依預設，方案的完成百分比是屬於方案且處於[!UICONTROL 目前]或[!UICONTROL 已核准]狀態的專案之完成百分比值的平均值。</p> </td> 
+   <td role="rowheader">[！UICONTROL完成百分比]</td> 
+   <td> <p>您無法在標題中編輯程式的[！UICONTROL完成百分比]。 此資訊會從計畫中的專案更新。 依預設，方案的完成百分比是屬於方案且處於[！UICONTROL目前]或[！UICONTROL已核准]狀態的專案之完成百分比值的平均值。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 計畫管理員]</td> 
-   <td> <p>您可以在標題中編輯「方案管理員」。 這與[!UICONTROL 計畫所有者]相同。 </p> </td> 
+   <td role="rowheader">[！UICONTROL計畫管理員]</td> 
+   <td> <p>您可以在標題中編輯「方案管理員」。 這與[！UICONTROL計畫所有者]相同。 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 計畫完成日期]</td> 
+   <td role="rowheader">[！UICONTROL計畫完成日期]</td> 
    <td>您無法在標題中編輯方案的規劃完成日期。 此資訊會從計畫中的專案更新。 計畫中最新專案的計畫完成日期會變成計畫的計畫完成日期。  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 作用中專案條件]</td> 
-   <td>這是計算在計畫中有多少百分比的專案將[!UICONTROL Condition]設定為[!UICONTROL On Target]、[!UICONTROL At Risk]或[!UICONTROL In Trouble]。 這裡所代表的專案是狀態為[!UICONTROL 目前]和[!UICONTROL 已核准]的專案。 </td> 
+   <td role="rowheader">[！UICONTROL作用中專案條件]</td> 
+   <td>這是計算在計畫中有多少百分比的專案將[！UICONTROL Condition]設定為[！UICONTROL On Target]、[！UICONTROL At Risk]或[！UICONTROL In Trouble]。 這裡所代表的專案是狀態為[！UICONTROL目前]和[！UICONTROL已核准]的專案。 </td> 
   </tr> 
  </tbody> 
 </table>

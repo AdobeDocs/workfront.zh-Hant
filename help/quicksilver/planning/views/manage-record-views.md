@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
+source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1181'
 ht-degree: 1%
 
 ---
@@ -221,9 +221,13 @@ ht-degree: 1%
 
 1. （視條件而定）針對將在時間軸或行事曆檢視中顯示的記錄，選取&#x200B;**開始**&#x200B;和&#x200B;**結束日期**。
 
-   >[!TIP]
+   >[!NOTE]
    >
-   >    您可以從記錄日期欄位中選取，或從連線的記錄或物件型別中查詢日期欄位。 當您選取查閱欄位作為時間軸和行事曆檢視的開始和結束日期時，您必須使用日期欄位的彙總(MAX或MIN)。 如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
+   >    您可以從記錄日期欄位中選取，或從連線的記錄或物件型別中查詢日期欄位。
+   >
+   >連線記錄型別時，當您選取查閱欄位時，必須為日期欄位使用彙總(MAX或MIN)。 僅新增彙總可讓您使用連線的日期作為時間軸和行事曆檢視的開始和結束日期。
+   >
+   >如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
 
 1. 按一下「**建立**」。
 

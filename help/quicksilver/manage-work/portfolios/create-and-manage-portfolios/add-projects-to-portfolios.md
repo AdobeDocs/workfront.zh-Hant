@@ -6,16 +6,20 @@ description: 我們建議您在啟動專案時，將專案新增至專案組合�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
 
 # 將專案新增至投資組合
 
-<!--Audited: 7/2024-->
+<!--Audited: 5/2025-->
+
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在預覽版發佈一週後，生產環境中也將提供相同功能給所有客戶。</span>
+
+<span class="preview">如需詳細資訊，請參閱[介面現代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。</span>
 
 我們建議您在啟動專案時，將專案新增至專案組合。 不過，您可以在產品組合期限內的任何時間將其新增至產品組合。
 
@@ -40,15 +44,15 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
    <td><p>新增：標準</p> 
-   <p>目前：[!UICONTROL 計畫] </p> </td> 
+   <p>目前： [！UICONTROL計畫] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級</td> 
-   <td> <p>[!UICONTROL Edit]存取權投資組合</p> <p>[!UICONTROL Edit]專案的存取權</p> </td> 
+   <td> <p>[！UICONTROL Edit]存取權投資組合</p> <p>[！UICONTROL Edit]專案的存取權</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>投資組合的[!UICONTROL Manage]許可權</p> <p>[!UICONTROL Manage]專案的許可權</p>  </td> 
+   <td> <p>投資組合的[！UICONTROL Manage]許可權</p> <p>[！UICONTROL Manage]專案的許可權</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -69,8 +73,6 @@ ht-degree: 0%
    >
    >當您在[!UICONTROL 里程碑]檢視中檢視專案清單時，無法新增專案。
 
-   ![新增現有專案](assets/add-existing-project-from-portfolio-window-nwe-350x545.png)
-
    從下列選項中選取：
 
    <table style="table-layout:auto"> 
@@ -78,23 +80,23 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 現有專案]</td> 
+      <td role="rowheader">[！UICONTROL現有專案]</td> 
       <td> <p>新增已建立的專案。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 新專案]</td> 
+      <td role="rowheader">[！UICONTROL新專案]</td> 
       <td> <p>新增專案。 </p> <p>如需建立新專案的詳細資訊，請參閱<a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">建立專案</a>。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">&lbrack;！UICONTROL從[!DNL MS Project]匯入專案 </td> 
+      <td role="rowheader">[！UICONTROL從[!DNL MS Project]匯入專案 </td> 
       <td> <p>新增您先前從[!DNL MS Project]匯出且儲存在電腦上的專案。 </p> <p>如需有關從[!DNL Microsoft Project]匯入以建立新專案的詳細資訊，請參閱<a href="../../../manage-work/projects/create-projects/import-project-from-ms-project.md" class="MCXref xref">從[!DNL Microsoft Project]</a>匯入專案。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 請求專案]</td> 
+      <td role="rowheader">[！UICONTROL請求專案]</td> 
       <td> <p>請求核准專案。</p> <p>如需請求專案的詳細資訊，請參閱<a href="../../../manage-work/projects/create-projects/request-project.md">請求專案</a>。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL New from Template]</td> 
+      <td role="rowheader">[！UICONTROL New from Template]</td> 
       <td> <p>使用現有範本新增專案。 </p> <p>如需從範本建立專案的詳細資訊，請參閱<a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">使用範本建立專案</a>。</p> </td> 
      </tr> 
     </tbody> 
@@ -102,7 +104,11 @@ ht-degree: 0%
 
    ![新專案下拉式清單](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
 
-1. （視條件而定）如果您選取新增現有專案，請在&#x200B;**[!UICONTROL 將專案新增至此Portfolio]**&#x200B;欄位中開始輸入專案名稱，然後當專案出現在清單中時按一下它們。
+1. （視條件而定）如果您選取新增現有的專案，<span class="preview">**新增專案**&#x200B;方塊就會開啟。</span> <!--check this after UI changes-->
+
+   <span class="preview">![新增現有專案](assets/add-existing-projects-to-portfolios-box.png)</span> <!--check this after UI changes-->
+
+1. 在&#x200B;**[!UICONTROL 將專案新增至此Portfolio]**&#x200B;欄位中開始輸入專案名稱，然後當專案出現在清單中時按一下它們。 <!--check this after UI changes-->
 
    您可以新增多個專案。
 
@@ -110,6 +116,6 @@ ht-degree: 0%
 
    <!--replace last step with this, for unshim: 1. (Optional) Click the **Delete** icon ![Delete icon](assets/delete-icon.png) next to the name of a project if you decide not to add it to the portfolio.-->
 
-1. 按一下&#x200B;**[!UICONTROL 新增專案]**。
+1. 按一下&#x200B;**[!UICONTROL 新增專案]**。<!--check this after UI changes-->
 
    您選取的一或多個專案現在與投資組合相關聯。
