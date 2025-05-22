@@ -122,7 +122,7 @@ ht-degree: 3%
      >[!NOTE]
      >
      >Planning需要額外的授權。 如需Workfront Planning的相關資訊，請參閱[Adobe Workfront Planning概觀](/help/quicksilver/planning/general/planning-overview.md)
-      * 自訂應用程式
+     > * 自訂應用程式
 
      >[!NOTE]
      >
