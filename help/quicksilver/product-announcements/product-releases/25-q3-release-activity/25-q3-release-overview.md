@@ -59,7 +59,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">案頭校訂檢視器更新</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">案頭校訂檢視器更新</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
             <p>此更新是修正問題，以保持Desktop Viewer與Mac作業系統相容。 Electron已降級為34.4.0，而Chromium已降級為132。</p>
         </td>
         <td>2025年5月7日</td>
@@ -68,7 +68,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr> 
       <tr>
         <td>
-            已連結Google資料夾中的<a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Assets必須個別新增，才能顯示在Workfront</a>中<p>[！BADGE Off Schedule]{type=Neutral}</p>
+            已連結Google資料夾中的<a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Assets必須個別新增，才能顯示在Workfront</a>中<p>[!BADGE Off Schedule]{type=Neutral}</p>
             <p>Google正在<a href="https://workspace.google.com/blog/product-announcements/enhancing-security-controls-for-google-drive-third-party-apps">增強安全性控制項</a>
             對於存取Google Drive的協力廠商應用程式，要求應用程式採用每個使用者的同意模式。 因此，個別資產必須一次連結一個資產，才能在Workfront中顯示。 請參閱<a href="/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md">設定檔案整合</a>
              以取得詳細資訊。 </p>
@@ -79,7 +79,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>  
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">校訂檢視器中可用的新檔案核准決定按鈕</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">校訂檢視器中可用的新檔案核准決定按鈕</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
             <p>新檔案核准決定按鈕現在會出現在校訂檢視器中。 現在，當您建立簡單的校訂，然後從檔案摘要新增核准者和稽核者時，他們可以直接在校訂檢視器中做出決定。</p>
         </td>
         <td>2025年4月10日</td>
@@ -129,7 +129,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">在專案、任務和問題中使用AI助理時提高透明度</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">在專案、任務和問題中使用AI助理時提高透明度</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
             <p>為了更清楚說明AI助理如何找到有關Workfront專案、任務和問題的解答，我們將此資訊新增至問題回應。 現在，AI助理在輸出中包含其搜尋資訊。 您可以使用此資訊來檢查AI助理是否正確識別您提出的問題，並了解答案的內容。</p>
         </td>
         <td>2025年5月19日</td>
@@ -177,7 +177,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-update-and-notification-enhancements.md" class="MCXref xref" xrefformat="{para}">將人員新增至評論時修改體驗</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-update-and-notification-enhancements.md" class="MCXref xref" xrefformat="{para}">將人員新增至評論時修改體驗</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
             <p>為了改善效能，我們在新增評論人員時引進了修改後的體驗。 現在，在您開始將使用者或團隊新增到評論後，「標籤人員或團隊」連結在「評論」方塊中持續存在。 </p>
         </td>
         <td>2025年4月30日</td>
