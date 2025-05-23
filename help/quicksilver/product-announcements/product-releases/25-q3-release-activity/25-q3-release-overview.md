@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: fe2e7c5ad5d2d2f32d66f5dfd3e1fd69eca8ca92
+source-git-commit: f9b0f6b246a723ce407de05c4ae4d5dec0c06fe2
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '992'
 ht-degree: 1%
 
 ---
@@ -59,7 +59,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">案頭校訂檢視器更新</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">案頭校訂檢視器更新</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
             <p>此更新是修正問題，以保持Desktop Viewer與Mac作業系統相容。 Electron已降級為34.4.0，而Chromium已降級為132。</p>
         </td>
         <td>2025年5月7日</td>
@@ -68,7 +68,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr> 
       <tr>
         <td>
-            已連結Google資料夾中的<a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Assets必須個別新增，才能顯示在Workfront</a>中<p>[!BADGE Off Schedule]{type=Neutral}</p>
+            已連結Google資料夾中的<a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Assets必須個別新增，才能顯示在Workfront</a>中<p>[！BADGE Off Schedule]{type=Neutral}</p>
             <p>Google正在<a href="https://workspace.google.com/blog/product-announcements/enhancing-security-controls-for-google-drive-third-party-apps">增強安全性控制項</a>
             對於存取Google Drive的協力廠商應用程式，要求應用程式採用每個使用者的同意模式。 因此，個別資產必須一次連結一個資產，才能在Workfront中顯示。 請參閱<a href="/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md">設定檔案整合</a>
              以取得詳細資訊。 </p>
@@ -79,7 +79,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>  
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">校訂檢視器中可用的新檔案核准決定按鈕</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">校訂檢視器中可用的新檔案核准決定按鈕</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
             <p>新檔案核准決定按鈕現在會出現在校訂檢視器中。 現在，當您建立簡單的校訂，然後從檔案摘要新增核准者和稽核者時，他們可以直接在校訂檢視器中做出決定。</p>
         </td>
         <td>2025年4月10日</td>
@@ -115,6 +115,31 @@ The <add release> release webinar will be held on <date>. You can [register for 
 </table> 
 
 -->
+
+### 專案增強功能
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td><strong>功能</strong>
+        </td>
+        <td><strong>預覽</strong></td>
+        <td><strong>快速發行</strong></td>
+        <td><strong>每季</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">在專案、任務和問題中使用AI助理時提高透明度</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
+            <p>為了更清楚說明AI助理如何找到有關Workfront專案、任務和問題的解答，我們將此資訊新增至問題回應。 現在，AI助理在輸出中包含其搜尋資訊。 您可以使用此資訊來檢查AI助理是否正確識別您提出的問題，並了解答案的內容。</p>
+        </td>
+        <td>2025年5月19日</td>
+        <td>2025年5月19日</td>
+        <td>2025年5月19日</td>
+    </tr>     
+  </tbody>
+</table>
+
+
 
 ### 報告增強功能
 
@@ -152,7 +177,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-update-and-notification-enhancements.md" class="MCXref xref" xrefformat="{para}">將人員新增至評論時修改體驗</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-update-and-notification-enhancements.md" class="MCXref xref" xrefformat="{para}">將人員新增至評論時修改體驗</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
             <p>為了改善效能，我們在新增評論人員時引進了修改後的體驗。 現在，在您開始將使用者或團隊新增到評論後，「標籤人員或團隊」連結在「評論」方塊中持續存在。 </p>
         </td>
         <td>2025年4月30日</td>
@@ -168,6 +193,32 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <col style="width: 50%;" />
             <col style="width: 50%;" />
             <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">功能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">發行日期</span>
+                        </p>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">使用AI助理時提高透明度</a></p>
+                        <p>為了更清楚說明AI助理如何找到有關Workfront專案、任務和問題的解答，我們將此資訊新增至問題回應。 現在，AI助理在輸出中包含其搜尋資訊。 您可以使用此資訊來檢查AI助理是否正確識別您提出的問題，並了解答案的內容。 </p>
+                    </td>
+                    <td><p><b>將於下列日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>預覽版本：在整個2025年第三季度版本時間範圍內<br /></p>
+                            </li>
+                            <li>
+                                <p>生產發行：發行至預覽後至少需要2週（除非另有指定）</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                 <tr>
                     <td>
                         <p><span class="bold">功能</span>
@@ -211,7 +262,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ### Workfront Fusion增強功能
 
-Workfront Fusion的新功能可在標準發行排程以外的生產環境中使用。 如需最新功能的詳細資訊，請參閱[Adobe Workfront Fusion發行活動](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
+Workfront Fusion的新功能可在標準發行排程以外的生產環境中使用。 如需最新功能的詳細資訊，請參閱[Adobe Workfront Fusion發行活動](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
 
 ### Workfront規劃增強功能
 
@@ -233,11 +284,11 @@ Workfront API 20版已於2024年5月4日發行。 針對API 20版，我們已修
 
 ### Workfront 維護更新
 
-如需2025年第一季度期間所進行維護更新的相關資訊，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=zh-Hant)。
+如需2025年第一季度期間所進行維護更新的相關資訊，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)。
 
 ### 訓練更新
 
-探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[Workfront教學課程頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=zh-Hant)的「新增功能」一節。
+探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[Workfront教學課程頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的「新增功能」一節。
 
 
 
