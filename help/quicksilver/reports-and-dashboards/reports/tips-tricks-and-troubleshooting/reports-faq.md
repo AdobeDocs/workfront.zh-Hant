@@ -7,14 +7,16 @@ description: 報表常見問題集
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1494'
 ht-degree: 0%
 
 ---
 
 # 報表常見問題集
+
+<!--Audited: 05/2025-->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: ***This is the ONE anchor article for all FAQs about Reporting. Add a new FAQ in the TOC at the top first, then add the answer as a section at the bottom.)</p>
@@ -23,6 +25,8 @@ ht-degree: 0%
 以下是關於報告的常見問題。
 
 ## 存取需求
+
++++ 展開以檢視存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -33,39 +37,51 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計畫、工作</p> </td> 
+   <td><p>新增：標準</p> 
+   <p>目前：工作或以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯報告、儀表板、行事曆的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>編輯報告、儀表板、行事曆的存取權</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>管理報表的許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>管理報表的許可權</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 為什麼我針對時數差異的自訂計算沒有在欄中顯示正確結果？
 
-在專案報告上，我有一個計算從計畫時數(4)減去實際時數(2)。 我得到的結果是120，而它應該是2。\
+<!--this section is linked from the Actual Hours article for Tasks in the Task Information folder; edit the links or do not delete or change this section-->
+
+在專案報告中，我的計算方式是從計畫時數減去實際時數。結果不正確。
+
+<!--this changed with this issue in May 2025; Actual Hours changed from actualWorkRequired to actualWorkRequiredDouble: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/task/68108e860000120e90a79cb82e5811c2/updates : On a project report I have a calculation that subtracts Actual Hours (2) from Planned Hours (4). The result I am getting is 120 when it should be 2.  -->
+
+
 我的計算方式為：
-<pre>valueexpression=SUB(workRequired，actualWorkRequired)</pre>
+
+`valueexpression=SUB(workRequired,actualWorkRequiredDouble)`
 
 ### 解答
 
-在Workfront中使用時數的欄位會以分鐘為單位儲存。 在計算中使用欄位時，結果將以分鐘為單位。 若要以小時取得結果，您必須將計算結果除以60。
+在Workfront中使用時數的欄位大多以分鐘為單位儲存。 在計算中使用這些欄位時，結果通常會以分鐘為單位。 若要以小時取得結果，您必須將計算結果或您正在參照的欄位除以60。
+
+例如，計畫時數以分鐘為單位儲存，而實際時數則以時數為單位儲存。 因此，您必須將計畫時數從分鐘轉換為時數。
 
 正確的計算方式為：
 
-<pre>valueexpression=SUB(workRequired，actualWorkRequired)/60</pre>
+`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
 
 ## 為什麼報表中每個圖表元素的值沒有顯示在圖表上？
 
@@ -175,7 +191,7 @@ ht-degree: 0%
 
 ### 解答
 
-有時候，該報告的擁有者也是在報告上的&#x200B;**以：**&#x200B;欄位的存取許可權執行此報告中指定的使用者。 如果停用具有：**使用者存取許可權的**&#x200B;執行此報告，則報告不再顯示給共用給他們的使用者。 發生此情況時，您可以讓&#x200B;**使用此報告的存取權：**&#x200B;保留空白或在此欄位中輸入有效使用者，以再次存取報告。
+有時候，該報告的擁有者也是在報告上的&#x200B;**以：**&#x200B;欄位的存取許可權執行此報告中指定的使用者。 如果停用具有：**使用者存取許可權的**&#x200B;執行此報告，則報告不再顯示給共用給他們的使用者。 發生此情況時，您可以讓&#x200B;**使用此報告的存取權：**&#x200B;保留空白或在此欄位中輸入有效使用者，以再次存取報告。
 
 若要深入瞭解&#x200B;**以**&#x200B;欄位的存取許可權執行此報告，請參閱[以其他使用者的存取許可權執行並傳遞報告](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md)。 如需識別已停用使用者所擁有之所有報告的資訊，請參閱[建立報告活動的報告](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md)。
 

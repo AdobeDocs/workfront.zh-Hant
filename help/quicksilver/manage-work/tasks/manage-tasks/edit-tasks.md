@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: cd37163c78012fa4bcbe19ef92ec4d3ceecfb905
+source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
 workflow-type: tm+mt
-source-wordcount: '3706'
+source-wordcount: '3721'
 ht-degree: 4%
 
 ---
@@ -622,12 +622,14 @@ ht-degree: 4%
 
 * 任務名稱
 * 完成百分比
+
+  如需詳細資訊，請參閱[檢視和更新任務的完成百分比](/help/quicksilver/manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md)。
 * 指派
 * 規劃完成日期
 
   >[!CAUTION]
   >
-  >某些任務限制和其他相依性可能會阻止您編輯此欄位。 如需任務限制的相關資訊，請參閱[任務限制總覽](../../../manage-work/tasks/task-constraints/task-constraint-overview.md)。
+  >有些任務限制和其他相依性可能會阻止您編輯任務的規劃完成日期。 如需任務限制的相關資訊，請參閱[任務限制總覽](../../../manage-work/tasks/task-constraints/task-constraint-overview.md)。
 
 * 狀態
 * 如果您在目前的核准程式中設為核准者，請進行核准決定

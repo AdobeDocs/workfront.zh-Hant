@@ -5,9 +5,9 @@ description: 您可以使用「摘要」面板，直接從任務問題、檔案�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '986'
 ht-degree: 2%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 2%
 >* 完成百分比
 >* 認可日期
 >* 規劃完成日期
->* 狀況
+>* 條件
 
 
 
@@ -54,10 +54,10 @@ ht-degree: 2%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 工作負載平衡器]的[!UICONTROL 未指派]和[!UICONTROL 已指派]工作區域中的任務</td> 
+   <td>[！UICONTROL工作負載平衡器]的[！UICONTROL未指派]和[！UICONTROL已指派]工作區域中的任務</td> 
   </tr> 
    <tr> 
-   <td>[!UICONTROL 時程表]中的任務</td> 
+   <td>[！UICONTROL時程表]中的任務</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><b>問題</b></td> 
@@ -71,24 +71,24 @@ ht-degree: 2%
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 工作負載平衡器]的[!UICONTROL 指派的工作]區域發生問題</td> 
+   <td>[！UICONTROL工作負載平衡器]的[！UICONTROL指派的工作]區域發生問題</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 請求]區域的[!UICONTROL 已提交]區段中的問題</td> 
+   <td>[！UICONTROL請求]區域的[！UICONTROL已提交]區段中的問題</td> 
   </tr> 
 </tr> 
    <tr> 
-   <td>[!UICONTROL 時程表]中的問題</td> 
+   <td>[！UICONTROL時程表]中的問題</td> 
   </tr>
 
 <tr data-mc-conditions=""> 
    <td><b>文件</b></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 檔案]區域</td> 
+   <td>[！UICONTROL檔案]區域</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>任何物件（專案、任務、問題、方案、投資組合、範本、範本任務、使用者）的[!UICONTROL 檔案]區段</td> 
+   <td>任何物件（專案、任務、問題、方案、投資組合、範本、範本任務、使用者）的[！UICONTROL檔案]區段</td> 
   </tr> 
  </tbody> 
 </table>
@@ -101,7 +101,7 @@ ht-degree: 2%
 
 如需有關存取[!UICONTROL 工作負載平衡器]中[!UICONTROL 摘要]的資訊，請參閱[使用[!UICONTROL 摘要]](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)更新[!UICONTROL 工作負載平衡器]中的工作專案。
 
-如需有關存取檔案[!UICONTROL 摘要]的資訊，請參閱檔案[&#128279;](../../documents/managing-documents/summary-for-documents.md)的[!UICONTROL 摘要]。
+如需有關存取檔案[!UICONTROL 摘要]的資訊，請參閱檔案](../../documents/managing-documents/summary-for-documents.md)的[[!UICONTROL 摘要]。
 
 ## 存取需求
 
@@ -119,15 +119,15 @@ ht-degree: 2%
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
    <td> <p>新增：投稿人或更高版本</p>
    或
-   <p>目前：[!UICONTROL 要求]或更高</p> </td> 
+   <p>目前：[！UICONTROL要求]或更高</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>存取層級設定</strong></td> 
-   <td> <p>[!UICONTROL 檢視]或更高的任務、問題、檔案存取權</p> <p>[!UICONTROL 檢視]或更高的存取權存取您要檢視其檔案[!UICONTROL 摘要]的任何物件</p> </td> 
+   <td> <p>[！UICONTROL檢視]或更高的任務、問題、檔案存取權</p> <p>[！UICONTROL檢視]或更高的存取權存取您要檢視其檔案[！UICONTROL摘要]的任何物件</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>[!UICONTROL 檢視]或任務、問題或檔案的更高許可權</p> </td> 
+   <td> <p>[！UICONTROL檢視]或任務、問題或檔案的更高許可權</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -167,7 +167,9 @@ ht-degree: 2%
 
 ## [!UICONTROL 完成百分比]
 
-使用[!UICONTROL 摘要]頂端的進度列，更新您已選取之任務或問題的完成百分比。 輸入數字或將橫條拖曳到正確的百分比。
+使用[!UICONTROL 摘要]頂端的進度藍色泡泡圖更新您已選取之任務或問題的完成百分比。 輸入數字或將泡泡拖曳到正確的百分比。
+
+當您拖放「摘要」面板中的泡泡時，「完成百分比」會以一點為單位更新。 您不能輸入十進位數字。
 
 摘要面板中的![完成百分比](assets/summary-overview-percent-complete.png)
 

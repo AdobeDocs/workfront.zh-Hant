@@ -2,26 +2,28 @@
 product-area: projects
 navigation-topic: update-work-in-a-project
 title: 檢視和更新任務的完成百分比
-description: 您可以更新任務的完成百分比，以指出完成任務的進度。
+description: 您可以更新任務的完成百分比，以指出完成任務的進度。 更新問題的完成百分比類似於更新任務的完成百分比。 本文會介紹如何更新任務的完成百分比。
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
-source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
+source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '690'
 ht-degree: 0%
 
 ---
 
 # 檢視並更新任務的完成百分比
 
-<!--Audited:01/2024-->
+<!--Audited: 05/2025-->
 
 您可以更新任務的完成百分比，以指出完成任務的進度。
 
+更新問題的完成百分比類似於更新任務的完成百分比。 本文會介紹如何更新任務的完成百分比。
+
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視存取需求。
 
 您必須具有下列存取權才能手動更新任務：
 
@@ -59,23 +61,20 @@ ht-degree: 0%
 
 您可以在下列任一區域中更新任務的完成百分比：
 
-* **在任務清單中**：當顯示「完成百分比」欄時，您可以更新任務的完成百分比。\
+* **在任務清單中**：當顯示完成百分比欄時，您可以更新任務的完成百分比。
+
   如需內嵌編輯的詳細資訊，請參閱[在Adobe Workfront中內嵌編輯清單的專案](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md)。
 
-* **在里程碑檢視中**：在專案清單或專案報告上使用里程碑檢視時，您可以更新任務的完成百分比。 如需詳細資訊，請參閱[使用里程碑檢視](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)。
+* **在里程碑檢視中**：在專案清單或專案報告上使用里程碑檢視時，您可以更新任務的完成百分比。
 
-<!--only in legacy commenting: 
-* **As you update the task**:  You can update the percent complete option of a task when adding an update to the task.
-
-  >[!IMPORTANT]
+  >[!TIP]
   >
-  >This option displays only after you enable the Show Percent Complete option.  
-  >To enable the percent complete update bar for tasks, do the following:   
-  >
-  >1. Go to the **Main** menu>your name>**More** icon next to your name >**Edit** > select **Show percent complete on update status**.   
-  >![](assets/show-percent-complete-toggle-in-user-profile-350x243.png)  >-->
+  >  您無法更新「里程碑」檢視中問題的完成百分比。
 
-* **在任務標題中**：您可以更新任務標題中任務的完成百分比。 如需詳細資訊，請參閱[編輯工作](../../tasks/manage-tasks/edit-tasks.md)。
+
+  如需詳細資訊，請參閱[使用里程碑檢視](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)。
+
+* **在任務標題中**：您可以更新任務標題中任務的完成百分比。
 
   ![](assets/nwe-updatetaskpercentinheader-350x54.png)
 
@@ -95,39 +94,42 @@ ht-degree: 0%
 
 ## 更新任務完成百分比的考量事項
 
-* 當您將任務標示為100%完成時，任務「狀態」會更新為「完成」。
-* 父系任務存在下列情況：
+* 當您將任務標示為100%完成時，任務「狀態」會更新為「完成」。 問題的狀態更新為「已關閉」。
+* 完成任務也會更新父系和專案的完成百分比。
+* 父級任務和專案存在下列案例：
    * 當專案的「摘要完成模式」設定為「自動」且子任務未完成時，您無法將父系任務的完成百分比更新為100%。
-   * 當專案的「摘要完成模式」設定為「手動」，且子作業已完成或不完成時，您可以將父系作業的完成百分比更新為100%。
+   * 當專案的「摘要完成模式」設定為「手動」，且子任務完成或不完成時，您可以將父系任務或專案的完成百分比更新為100%。
 
   如需詳細資訊，請參閱[編輯專案](../manage-projects/edit-projects.md)。
 
 ## 更新任務的完成百分比
 
-1. 前往Workfront中的下列任一區域：
+1. 前往您要更新任務完成百分比的任何區域。
 
-   * 工作清單
-   * 專案清單和應用里程碑檢視
-   * 任務，透過存取任務頁面
+   如需詳細資訊，請參閱本文章中[您可以更新任務](#areas-where-you-can-update-the-percent-complete-of-a-task)完成百分比的區域。
+
 1. 找到您要更新其完成百分比的任務的&#x200B;**完成百分比**&#x200B;欄位。
 
    >[!TIP]
    >
-   >  完成百分比欄位一律顯示在摘要面板頂端。
-
+   >完成百分比欄位一律顯示在摘要面板頂端。
 
 1. 在&#x200B;**完成百分比**&#x200B;欄位內按一下，然後輸入介於0到100之間的數字
 
    或
 
-   按一下&#x200B;**完成百分比**&#x200B;並拖曳至必要的數字，以指出您完成了多少工作（可用時）。
+   按一下並拖曳&#x200B;**完成百分比**&#x200B;藍色泡泡至必要的數字，以指出您完成了多少工作（可用時）。
 
    >[!NOTE]
    >
-   >當您指出所有的工作都已完成時，工作的狀態也會更新為「完成」。
-
+   >    * 當您在「完成百分比」泡泡內按一下時，無法輸入十進位數字。
+   >    * 當您拖放「摘要」面板中的藍色泡泡時，「完成百分比」會以一點為單位更新。
+   >
+   >    * 當您拖放任務標題中的藍色泡泡時，完成百分比會以5點為單位更新。
 
 1. 在鍵盤上按Enter鍵以儲存完成百分比。
 
-專案的完成百分比也會自動更新。
+   專案或任何父系任務的完成百分比也可能自動更新。
+
+   任務或問題的狀態也會更新。
 

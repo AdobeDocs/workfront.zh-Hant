@@ -7,9 +7,9 @@ description: 您在Adobe Workfront中登入工作專案的時數會視為實際�
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
+source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '803'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 0%
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
+   <td role="rowheader">Adobe Workfront授權*</td> 
    <td> 
    <p>新增：標準<p>
    <p>或</p>
@@ -49,7 +49,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>檢視或更高的任務、專案或問題存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td> <p>檢視或更高的任務、專案或問題存取權</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
@@ -58,7 +58,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+*如需此表格中資訊的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -83,13 +83,6 @@ Project Actual Hours = All Tasks Actual Hours + All Issues Actual Hours + All Pr
 ## 尋找實際小時
 
 為任務、專案和問題尋找專案實際時數的值是相同的。
-
-您可以在下列位置找到有關作業的「實際時數」資訊：
-
-* [詳細資訊區段中的實際時數](#actual-hours-in-the-details-section)
-* [時數區段中的實際時數](#actual-hours-in-the-hours-section)
-* 報表中的[實際時數](#actual-hours-in-reports)
-* [資源管理工具中的實際時數](#actual-hours-in-resource-management-tools)
 
 ### 詳細資訊區段中的實際小時 {#actual-hours-in-the-details-section}
 
@@ -139,6 +132,21 @@ Project Actual Hours = All Tasks Actual Hours + All Issues Actual Hours + All Pr
 * 資源規劃工具。
 
   如需相關資訊，請參閱使用使用者檢視時[資源規劃工具中的可用檢視、計畫時數與實際時數，或FTE](../../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md)。
+
+
+### Workfront資料庫、API和自訂資料中的實際時數
+
+<!--this section was added as a result to this issue: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/task/6810910e0001b932e0948336208e76f2/overview-->
+
+儲存時數的大多數Workfront欄位都會在數分鐘內儲存在Workfront資料庫中。 例如，任務的「規劃時數」欄位名稱在Workfront資料庫中為`workRequired`，且以分鐘為單位儲存。
+
+存取API呼叫或計算自訂欄位或欄中的這些欄位時，您必須考慮從分鐘到小時的轉換。
+
+不過，實際時數會以時數儲存在Workfront資料庫中。
+
+您必須對API呼叫中的實際時數或Workfront中的計算自訂欄位或欄使用下列valuefield名稱： `actualWorkRequiredDouble`。
+
+如需有關在計算欄或欄位中使用實際時數的資訊，請參閱[報告常見問題集](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)。
 
 ## 記錄時間
 

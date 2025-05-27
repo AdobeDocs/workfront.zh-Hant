@@ -6,16 +6,20 @@ description: 如果您有正確的存取權和許可權，可以刪除Adobe Work
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '720'
 ht-degree: 1%
 
 ---
 
 # 刪除問題
 
-<!--Audited: 01/2024-->
+<!--Audited: 05/2025-->
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>    
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). -->
 
 如果您有正確的存取權和許可權，可以刪除Adobe Workfront中的問題或請求。
 
@@ -24,6 +28,8 @@ ht-degree: 1%
 >在Workfront中，「問題」和「要求」可互換使用。 您可以同時記錄專案和任務的問題，以指出需要解決的無法預見的工作。 您也可以在指定為「請求佇列」的專案上提交記錄為問題的請求。
 
 ## 存取需求
+
++++ 展開以檢視存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -43,30 +49,29 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>編輯問題的存取權</p> <p>檢視專案和任務的或更高存取權</p>  <p>如需存取您存取層級中問題的相關資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">授與問題的存取權</a>。  </p> </td> 
+   <td> <p>編輯問題的存取權</p> <p>檢視專案和任務的或更高存取權</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>管理問題的許可權</p> <p>專案或任務的貢獻或較高許可權</p> <p> 如需授與問題許可權的相關資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">共用問題</a></p> </td> 
+   <td> <p>管理問題的許可權</p> <p>專案或任務的貢獻或較高許可權</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。 如需存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 刪除問題的考量
 
-* 您的Workfront管理員或群組管理員必須在您的專案偏好設定區域中啟用刪除狀態為「完成」的專案中的問題。 如需有關設定專案偏好設定的資訊，請參閱[設定全系統的專案偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
+* 您的Workfront管理員或群組管理員必須在您的專案偏好設定區域中啟用刪除狀態為「完成」的專案中的問題。
+
+  如需有關設定專案偏好設定的資訊，請參閱[設定全系統的專案偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
 
 * 如果問題已記錄時數，Workfront管理員或群組管理員必須透過在您的Workfront執行個體中設定任務和問題偏好設定，以允許刪除這些問題。 當您嘗試刪除有記錄時數問題的專案時，這也適用。
 
-  <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-  <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">(this is not possible in classic)</span>
-  </MadCap:conditionalText>
-  -->
-
   如需有關啟用刪除記錄時數之問題的詳細資訊，請參閱[設定系統範圍的任務和問題偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)中的「刪除」一節。
+
 
 ## 刪除問題的影響
 
@@ -101,20 +106,20 @@ ht-degree: 1%
 
 ## 刪除問題
 
-* [同時刪除專案中的多個問題](#delete-multiple-issues-in-a-project-simultaneously)
-* [刪除單一問題](#delete-a-single-issue)
-
 ### 同時刪除專案中的多個問題  {#delete-multiple-issues-in-a-project-simultaneously}
 
 1. 移至&#x200B;**主功能表**。
 1. 按一下&#x200B;**專案**。
 1. 按一下包含您要刪除之問題的專案名稱。
 1. 按一下左側面板中的&#x200B;**問題**。
-1. 選取問題，然後按一下清單頂端的&#x200B;**刪除**&#x200B;圖示![刪除圖示](assets/delete.png)。
 
-1. 如果允許刪除，請按一下&#x200B;**是，刪除**。\
+   與所選專案相關的問題清單會在右側顯示。
+1. 在清單中選取一或多個問題，然後按一下清單頂端的&#x200B;**刪除**&#x200B;圖示![刪除圖示](assets/delete.png)。
+
+1. 如果允許刪除，請按一下&#x200B;**是，刪除**。<!--change this to this button instead: <span class="preview">*Delete*</span>-->
+
    您的Workfront管理員可能不允許刪除記錄時數的問題。\
-   如需有關刪除問題所需存取權和許可權的詳細資訊，請參閱[刪除問題](#access-and-permissions-needed)。
+   如需有關刪除問題所需的存取權和許可權的詳細資訊，請參閱本文中的[刪除問題的考量事項](#considerations-for-deleting-issues)一節。
 
 ### 刪除單一問題 {#delete-a-single-issue}
 
@@ -123,7 +128,7 @@ ht-degree: 1%
 1. 按一下包含您要刪除之問題的專案名稱。
 1. 按一下左側面板中的&#x200B;**問題**。
 
-   ![問題圖示](assets/qs-issues-icon-highlighted-on-project-350x278.png)
+   左側面板中的![問題區段](assets/qs-issues-icon-highlighted-on-project-350x278.png)
 
 1. 按一下您要刪除的問題名稱。
 1. 按一下問題名稱右側的&#x200B;**更多**&#x200B;功能表。
@@ -131,11 +136,13 @@ ht-degree: 1%
    ![問題更多功能表](assets/qs-issue-more-menu-highlighted-350x469.png)
 
 1. 按一下&#x200B;**刪除問題**。
-1. 如果允許刪除，請按一下&#x200B;**是，刪除**。
+1. 如果允許刪除，請按一下&#x200B;**是，刪除**。<!--change this to this button instead: <span class="preview">*Delete*</span>-->
 
    您的Workfront管理員可能不允許刪除記錄時數的問題。\
-   如需有關刪除問題所需存取權和許可權的詳細資訊，請參閱[刪除問題](#access-and-permissions-needed)。
+   如需有關刪除問題所需的存取權和許可權的詳細資訊，請參閱本文中的[刪除問題的考量事項](#considerations-for-deleting-issues)一節。
 
 ## 還原已刪除的問題
 
-Workfront或群組管理員可在問題刪除後30天內將其還原。 如需有關在Workfront中還原專案的詳細資訊，請參閱[還原已刪除的專案](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)。
+Workfront或群組管理員可在問題刪除後30天內將其還原。
+
+如需有關在Workfront中還原專案的詳細資訊，請參閱[還原已刪除的專案](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)。
