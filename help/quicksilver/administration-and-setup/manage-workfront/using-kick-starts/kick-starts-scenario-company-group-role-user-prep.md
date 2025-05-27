@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: a8faf4aa1a0a1b60f61c0c981c3be1b0d9d033a4
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1218'
 ht-degree: 2%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td> 
+   <td>[！UICONTROL系統管理員]</td> 
   </tr> 
  </tbody> 
 </table>
@@ -71,7 +71,7 @@ ht-degree: 2%
   <tr> 
    <td valign="top"> <p>Acme， Co</p> <p>Workfront公司</p> <p><em>您的公司</em> </p> <p>XYZ， Inc.</p> </td> 
    <td valign="top"> <p valign="top" rowspan="7">財務</p> <p valign="top" rowspan="7">IT </p> <p valign="top" rowspan="7">行銷 </p> <p valign="top" rowspan="7">銷售額</p> </td> 
-   <td valign="top"> <p valign="top">業務分析師</p> <p valign="top">Controller Creative</p> <p valign="top">設計師</p> <p valign="top">資源管理員</p> <p valign="top">Scrum Master</p> <p valign="top">技術撰稿人</p> <p valign="top">Web開發人員</p> </td> 
+   <td valign="top"> <p valign="top">業務分析師</p> <p valign="top">控制器Creative</p> <p valign="top">設計師</p> <p valign="top">資源管理員</p> <p valign="top">Scrum Master</p> <p valign="top">技術撰稿人</p> <p valign="top">Web開發人員</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -309,3 +309,13 @@ ht-degree: 2%
 1. 匯入Excel檔案。
 
    遵循[使用Kick-Start範本將資料匯入Adobe Workfront](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)中提供的指示。
+
+
+
+>[!NOTE]
+>
+>匯入至Workfront的使用者會建立在「已停用」和「等待核准」狀態。
+> 
+>如果您的組織已移轉至Adobe Admin Console，且使用者未在幾分鐘內離開「已停用」和「未決核准」狀態，您可以將使用者批次直接新增到Adobe Admin Console。
+>
+>如需指示，請參閱[管理多個使用者 | 在Adobe檔案中大量上傳CSV](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html)。
