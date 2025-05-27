@@ -2060,7 +2060,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL Scenario] （在[!DNL Workfront Fusion]） </td> 
-   <td> <p>案例由一系列步驟（模組）組成，這些步驟（模組）會指出應如何在應用程式/服務之間傳輸和轉換資料。</p> <p>如需[!DNL Workfront Fusion]中案例的相關資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion]案例概述</a>。</p> </td> 
+   <td> <p>案例由一系列步驟（模組）組成，這些步驟（模組）會指出應如何在應用程式/服務之間傳輸和轉換資料。</p> <p>如需[!DNL Workfront Fusion]中案例的相關資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion]案例概述</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Scenario] （在[!DNL Workfront Scenario Planner]） </td> 
