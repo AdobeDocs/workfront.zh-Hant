@@ -7,9 +7,9 @@ description: 主功能表會隨著您的 [!DNL Adobe Workfront] 管理員指派�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -45,8 +45,6 @@ ht-degree: 0%
 * **[!UICONTROL 檔案]**：您可以在這裡上傳檔案或檢閱與您共用的檔案。 如需詳細資訊，請參閱[檔案](../../../documents/documents-overview.md)。
 
 * **[!UICONTROL 資源]**：您可以在「資源規劃」工具中檢視資源配置，並在這裡檢視資源集區。 如需詳細資訊，請參閱[管理資源](../../../resource-mgmt/manage-resources.md)。
-
-* **[!UICONTROL Analytics]**：檢視專案資料，並透過計畫和完成來識別趨勢。 此區域會顯示您有權檢視之專案的深入分析。 如需詳細資訊，請參閱[增強型分析總覽](../../../enhanced-analytics/enhanced-analytics-overview.md)。
 
 * **[!UICONTROL 面板]**：使用共用面板，其中包含欄和卡片，可反映您想要完成的工作，以彈性與團隊成員共同作業。 如需詳細資訊，請參閱[開始使用看板：文章索引](../../../agile/get-started-with-boards/get-started-with-boards.md)。
 

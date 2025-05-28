@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: 身為Workfront管理員，您可以使用版面配置範本來指定使用者每次登入Workfront時想要看到的區域。
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 57a1046a-434a-4453-a101-c5f0a16e079e
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: 76797ce2afb6a6a929531f02ed3a3b3f75240602
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '414'
 ht-degree: 5%
 
 ---
@@ -73,7 +73,6 @@ ht-degree: 5%
 
    從下列區域選取，或新增自訂儀表板：
 
-   * 分析
    * 行事曆
    * 儀表板
    * 文件

@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ca388df9-234f-4115-b399-f3f0a379f3d8
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
@@ -34,5 +34,4 @@ Workfront現在提供增強型分析。 此功能為您提供視覺效果工作�
 
 除了您可以獲得的見解外，您還可以完成任務的動作，例如更新狀態、要求更新、將任務指派給某人等。 — 直接從「增強型分析」區域。
 
-如需詳細資訊，請參閱[增強型分析總覽](../../../enhanced-analytics/enhanced-analytics-overview.md)。
 

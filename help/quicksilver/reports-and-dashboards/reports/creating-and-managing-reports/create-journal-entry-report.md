@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '2798'
+source-wordcount: '2771'
 ht-degree: 4%
 
 ---
@@ -168,15 +168,6 @@ ht-degree: 4%
 如果您想要檢視專案的狀況，也可以使用專案&#x200B;**狀況**&#x200B;欄位來設定報告以顯示相同的資訊。
 
 此資訊可用於協助稽核及說明您與貴組織的規劃成效。
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;for tip below: When analytics adds the status option, update this note to say "these entries (status or condition changes)")</p>
--->
-
->[!TIP]
->
->如果您想比較條件變更之間的天數差異，可使用增強型分析。\
->若要深入瞭解增強型分析，請參閱[增強型分析總覽](../../../enhanced-analytics/enhanced-analytics-overview.md)。
 
 1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**報表**。
 1. 按一下&#x200B;**新報告**，然後選取&#x200B;**日誌專案**。

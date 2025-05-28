@@ -7,9 +7,9 @@ description: 增強型分析是Adobe Workfront中的強大工具，具有預先�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a14ad57c-859b-43df-84c0-575ccda86e50
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 2a6e767036ae702f6c19dc71cdb11dae8e9e37ea
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1243'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->增強型Analytics將於5月26日起一週從Workfront中移除。 Workfront Data Connect是全新的替代解決方案，可用來複製您目前使用的任何Enhanced Analytics視覺效果。 <br>如需詳細資訊，請參閱[Enhanced Analytics淘汰指南](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md)。
+>增強型Analytics已於5月27日從Workfront移除。 Workfront Data Connect是全新的替代解決方案，可用來複製您目前使用的任何Enhanced Analytics視覺效果。 <br>如需詳細資訊，請參閱[Enhanced Analytics淘汰指南](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md)。
 
 
 增強型分析是Adobe Workfront中的強大工具，具有預先建立的視覺效果，可讓您檢視專案資料，並透過計畫和完成來識別趨勢。 將此insight放入您的專案中有助於您管理目前的工作，並可讓您更準確地規劃未來的工作。
@@ -34,7 +34,7 @@ ht-degree: 3%
 
 ![分析](assets/nwe-full-screen-analytics-350x222.png)
 
-若要檢視使用案例，或瞭解更多有關使用增強型分析管理目前工作和規劃未來工作的資訊，請參閱[增強型分析學習路徑](https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/home)。
+若要檢視使用案例，或瞭解更多有關使用增強型分析管理目前工作和規劃未來工作的資訊，請參閱[增強型分析學習路徑](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)。
 
 ## 先決條件
 
@@ -46,7 +46,7 @@ ht-degree: 3%
 
 * 請您的Workfront管理員將增強型分析新增至您的版面配置範本。
 
-  如需詳細資訊，請參閱[增強型分析：新增分析至配置範本](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home)。
+  如需詳細資訊，請參閱[增強型分析：新增分析至配置範本](https://experienceleague.adobe.com/en/docs/workfront/using/home)。
 
 若要檢視專案與任務的資訊，您必須：
 

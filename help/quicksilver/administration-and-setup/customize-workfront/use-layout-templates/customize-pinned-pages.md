@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: 在版面配置範本中，您可以在Adobe Workfront頂端釘選希望使用者始終可用的頁面。 這些頁面可以透過「主要功能表」或控制面板來存取。
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
+source-git-commit: 76797ce2afb6a6a929531f02ed3a3b3f75240602
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '545'
 ht-degree: 4%
 
 ---
@@ -77,7 +77,6 @@ ht-degree: 4%
 
    * 從下列區域選取：
 
-      * 分析
       * 行事曆
       * 儀表板
       * 文件
@@ -115,9 +114,9 @@ ht-degree: 4%
 
 1. 重複上一步驟以釘選任何其他頁面。
 
-1. （選擇性）若要移動圖釘，請將滑鼠游標停留在圖釘上，並按一下圖釘名稱旁的[更多]功能表圖示![更多圖示](assets/more-icon.png)，然後按一下[左移] **或[4] [右移]**，將圖釘往選擇的方向移動，或按一下[6] [移動到前方] **，將圖釘移至最左邊的位置。**&#x200B;**&#x200B;**
+1. （選擇性）若要移動圖釘，請將滑鼠游標停留在圖釘上，並按一下圖釘名稱旁的[更多]功能表圖示![更多圖示](assets/more-icon.png)，然後按一下[左移] **或[4] [右移]**，將圖釘往選擇的方向移動，或按一下[6] [移動到前方] **，將圖釘移至最左邊的位置。******
 
-1. （選擇性）若要重新命名圖釘，請將游標停留在圖釘上，然後按一下圖釘名稱旁的[更多]功能表圖示![[更多]圖示](assets/more-icon.png)，然後按一下[重新命名圖釘]&#x200B;**。**&#x200B;輸入新名稱，然後按一下[儲存]。**&#x200B;**
+1. （選擇性）若要重新命名圖釘，請將游標停留在圖釘上，然後按一下圖釘名稱旁的[更多]功能表圖示![[更多]圖示](assets/more-icon.png)，然後按一下[重新命名圖釘]**。**&#x200B;輸入新名稱，然後按一下[儲存]。****
 
 1. （選擇性）若要刪除圖釘，請將滑鼠游標停留在圖釘上，然後按一下圖釘名稱旁的[更多]功能表圖示![[更多]圖示](assets/more-icon.png)，然後按一下[移除]圖釘&#x200B;**。**
 
@@ -129,4 +128,4 @@ ht-degree: 4%
 
    >[!TIP]
    >
-   >您可以隨時按一下[儲存]來儲存進度，然後再繼續修改範本。**&#x200B;**
+   >您可以隨時按一下[儲存]來儲存進度，然後再繼續修改範本。****

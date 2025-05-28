@@ -6,9 +6,9 @@ description: Adobe Workfront增強型分析區域中的篩選器可幫助您專�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 25854c04-d914-4302-a36b-e8134637efe1
-source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
+source-git-commit: 2a6e767036ae702f6c19dc71cdb11dae8e9e37ea
 workflow-type: tm+mt
-source-wordcount: '1528'
+source-wordcount: '1525'
 ht-degree: 0%
 
 ---
@@ -17,12 +17,12 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->增強型Analytics將於5月26日起一週從Workfront中移除。 Workfront Data Connect是全新的替代解決方案，可用來複製您目前使用的任何Enhanced Analytics視覺效果。 <br>如需詳細資訊，請參閱[Enhanced Analytics淘汰指南](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md)。
+>增強型Analytics已於5月27日從Workfront移除。 Workfront Data Connect是全新的替代解決方案，可用來複製您目前使用的任何Enhanced Analytics視覺效果。 <br>如需詳細資訊，請參閱[Enhanced Analytics淘汰指南](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md)。
 
 
 <!-- Audited: 12/2023 -->
 
-Adobe Workfront增強型分析區域中的篩選器可幫助您專注於特定專案或特定型別的資料。 您使用的篩選器型別可讓您深入分析：
+Adobe Workfront增強型分析區域中的篩選器可幫助您專注於特定專案或特定型別的資料。 您使用的篩選器型別可提供insight於：
 
 * 您擁有的專案
 * 特定投資組合或計畫檢視
@@ -142,7 +142,7 @@ Adobe Workfront增強型分析區域中的篩選器可幫助您專注於特定�
 
 1. 在&#x200B;**搜尋**&#x200B;欄位中輸入至少三個文字字元，然後選取要納入篩選的每個值，以找出您要檢視資料的值。
 
-   若要選取所有目前值，請按一下[全選] **&#x200B;**。
+   若要選取所有目前值，請按一下[全選] ****。
 
    ![選取篩選器值](assets/select-filter-value-350x251.png)
 

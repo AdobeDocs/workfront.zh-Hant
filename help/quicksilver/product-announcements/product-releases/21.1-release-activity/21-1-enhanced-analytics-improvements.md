@@ -8,9 +8,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 886fe974-7813-425c-b5cf-f6bca21a888b
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '267'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,6 @@ ht-degree: 2%
 
 在預設的版面配置範本中，Analytics區域現在預設為啟用，這表示指派給此版面配置範本的使用者現在會在Adobe Workfront Classic的全域導覽列和新Adobe Workfront體驗的主要功能表中看到Analytics區域。
 
-若要深入瞭解增強型分析，請參閱[增強型分析總覽](../../../enhanced-analytics/enhanced-analytics-overview.md)。
 
 ## 增強的分析功能適用於所有叢集
 
@@ -37,7 +36,6 @@ ht-degree: 2%
 
 之前，增強型分析不適用於Google Cloud Platform，導致叢集6上的客戶無法存取Analytics區域。 現在，叢集6上的商業和企業客戶可以存取Analytics區域。
 
-若要深入瞭解增強型分析，請參閱[增強型分析總覽](../../../enhanced-analytics/enhanced-analytics-overview.md)。
 
 ## 人員頁面現在可用於所有叢集
 
@@ -49,4 +47,4 @@ ht-degree: 2%
 
 此頁面先前在Workfront Classic的20.3版和所有其他叢集的新Workfront體驗中均提供。
 
-若要進一步瞭解「人物」頁面中可用的圖表，請參閱[增強型分析總覽](../../../enhanced-analytics/enhanced-analytics-overview.md)。
+

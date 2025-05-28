@@ -6,9 +6,9 @@ description: 主功能表會隨著您的 [!DNL Adobe Workfront] 管理員指派�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c646b3d2-2eca-47ef-b181-9358cef03ed7
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '358'
 ht-degree: 0%
 
 ---
@@ -31,8 +31,6 @@ ht-degree: 0%
 
 * **[!UICONTROL 請求]**：您可以提交並檢閱您或貴公司其他使用者在此區域提交的請求。
 * **[!UICONTROL 檔案]**：您可以在這裡上傳檔案或檢閱與您共用的檔案。
-* **[!UICONTROL Analytics]**：檢視專案資料，並透過計畫和完成來識別趨勢。 此區域會顯示您有權檢視之專案的深入分析。 如需詳細資訊，請參閱[增強型分析總覽](../../../enhanced-analytics/enhanced-analytics-overview.md)。
-
 * **[!UICONTROL 藍圖]**：檢閱您系統中的現有藍圖，並請求安裝藍圖（如果[!DNL Workfront]管理員已設定藍圖的請求佇列）。 如需詳細資訊，請參閱[藍圖概觀](../../../administration-and-setup/blueprints/blueprints-overview.md)。
 
 

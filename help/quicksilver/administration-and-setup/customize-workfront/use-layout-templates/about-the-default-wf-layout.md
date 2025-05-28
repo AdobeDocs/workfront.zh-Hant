@@ -5,13 +5,13 @@ content-type: reference;overview
 product-area: system-administration;templates
 navigation-topic: layout-templates
 description: 預設版面配置是主要功能表、左側面板，以及檢視、群組和篩選器的排列，然後Adobe Workfront管理員才能使用版面配置範本進行任何變更。
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 76797ce2afb6a6a929531f02ed3a3b3f75240602
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '614'
 ht-degree: 9%
 
 ---
@@ -192,16 +192,6 @@ ht-degree: 9%
     <td class="tg-0lax">✔</td>
     <td class="tg-0lax"></td>
     <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">分析</td>
-    <td class="tg-0lax">工作<br>人員</td>
-    <td class="tg-0lax">✔</td>
-    <td class="tg-0lax">✔</td>
-    <td class="tg-0lax">✔</td>
-    <td class="tg-0lax">✔</td>
     <td class="tg-0lax"></td>
     <td class="tg-0lax"></td>
   </tr>
@@ -408,15 +398,6 @@ ht-degree: 9%
     <td class="tg-0pky">✔</td>
     <td class="tg-0pky">✔</td>
     <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">分析</td>
-    <td class="tg-0pky">工作<br>人員</td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky">✔</td>
     <td class="tg-0pky"></td>
     <td class="tg-0pky"></td>
   </tr>
