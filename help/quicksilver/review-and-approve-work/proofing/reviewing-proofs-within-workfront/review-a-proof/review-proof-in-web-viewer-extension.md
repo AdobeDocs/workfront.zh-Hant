@@ -6,16 +6,16 @@ description: Adobe Workfront檢閱工具是瀏覽器擴充功能，可讓您校�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4fea13cc-2d56-466e-8851-6134782e7e80
-source-git-commit: 7b02d5670ebba1456e37e6fd815e7812ec06def2
+source-git-commit: 5a8bfdeae7f5d23ecf835e652cf0ff5efd5aa410
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '575'
 ht-degree: 1%
 
 ---
 
 # 使用Adobe Workfront稽核工具稽核互動式內容
 
-<span class="preview">Adobe Workfront檢閱工具將於2024年11月7日推出。 此擴充功能目前是測試版。</span>
+<span class="preview">Adobe Workfront檢閱工具已於2024年11月7日推出。 此擴充功能目前是測試版。</span>
 
 Adobe Workfront檢閱工具是網頁型瀏覽器擴充功能，可讓您校訂ZIP檔案或具有URL的互動式內容。 Adobe Workfront檢閱工具提供下列瀏覽器：
 
@@ -24,10 +24,9 @@ Adobe Workfront檢閱工具是網頁型瀏覽器擴充功能，可讓您校訂ZI
 * Edge
 * Safari
 
-如果您需要檢閱的內容位於以下網站，我們建議您使用案頭校訂檢視器
-
-* 需要SSO驗證
-* 防止在iFrame中開啟其網站，例如Figma
+>[!IMPORTANT]
+>
+>檢閱GenStudio for Performance Marketing和Creative Cloud Express中的內容需要此擴充功能。 Assets會自動在網頁檢視器中開啟。 您不需要更新任何帳戶設定。
 
 
 ## 安裝擴充功能
@@ -37,12 +36,6 @@ Adobe Workfront檢閱工具是網頁型瀏覽器擴充功能，可讓您校訂ZI
 * 您必須移除舊版Web Viewer擴充功能，才能使用Adobe Workfront檢閱工具。
 
 ### 安裝擴充功能
-
-<!--This extension is required to review conent in GS and Ex.
-
-You must install the extension to reiew content in GenS and Express.
-
-To review content in GS, Express, or Wou must install the extension if you are using GenStuido or Creative cloud express-->
 
 稽核者和核准者必須安裝Adobe Workfront稽核工具。 在下列其中一個瀏覽器中：
 
@@ -56,6 +49,15 @@ To review content in GS, Express, or Wou must install the extension if you are u
 為了讓互動式校訂在Adobe Workfront檢閱工具中自動開啟，Workfront管理員必須更新workfront中的校訂設定，如下節所述。
 
 ## 更新Workfront校訂預設值
+
+若要使用Workfront檢閱工具做為互動式內容的預設檢視器，您必須更新Workfront中的校訂預設值。
+
+>[!NOTE]
+>
+>如果您需要檢閱的內容位於以下網站，我們建議您使用案頭校訂檢視器
+>
+>* 需要SSO驗證
+>* 防止在iFrame中開啟其網站，例如Figma
 
 ### 將Adobe Workfront檢閱工具設為URL和ZIP校樣的預設檢視器
 
@@ -84,6 +86,4 @@ To review content in GS, Express, or Wou must install the extension if you are u
 >[!NOTE]
 >
 >此變更會套用至Workfront執行個體中的所有ZIP校樣。 我們建議先在預覽環境中測試新體驗，然後再在生產環境中啟用。 您可以將&#x200B;**互動式校訂的案頭校訂檢視器**&#x200B;帳戶設定變更回&#x200B;**為所有互動式校訂啟用**，以輕鬆切換回案頭檢視器。
-
-
 
