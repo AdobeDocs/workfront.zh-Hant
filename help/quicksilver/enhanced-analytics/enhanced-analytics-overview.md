@@ -34,7 +34,7 @@ ht-degree: 3%
 
 ![分析](assets/nwe-full-screen-analytics-350x222.png)
 
-若要檢視使用案例，或瞭解更多有關使用增強型分析管理目前工作和規劃未來工作的資訊，請參閱[增強型分析學習路徑](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)。
+若要檢視使用案例，或瞭解更多有關使用增強型分析管理目前工作和規劃未來工作的資訊，請參閱[增強型分析學習路徑](https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/home)。
 
 ## 先決條件
 
@@ -46,7 +46,7 @@ ht-degree: 3%
 
 * 請您的Workfront管理員將增強型分析新增至您的版面配置範本。
 
-  如需詳細資訊，請參閱[增強型分析：新增分析至配置範本](https://experienceleague.adobe.com/en/docs/workfront/using/home)。
+  如需詳細資訊，請參閱[增強型分析：新增分析至配置範本](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home)。
 
 若要檢視專案與任務的資訊，您必須：
 
