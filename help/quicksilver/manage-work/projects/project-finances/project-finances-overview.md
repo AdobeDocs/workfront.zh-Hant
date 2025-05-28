@@ -8,7 +8,7 @@ author: Lisa
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 7dda021d-4cf8-4f65-b187-23fcd935a842
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: 97d755c71eb1bdfa8a031fa387741318f9a7f261
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%
@@ -16,6 +16,8 @@ ht-degree: 0%
 ---
 
 # 專案財務：文章索引
+
+<!-- Audited: 5/2025 -->
 
 如需有關可在其中找到專案財務資訊的區域以及如何管理專案財務的資訊，請參閱下列文章：
 

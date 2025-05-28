@@ -9,25 +9,31 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d8f2a295-c053-4763-bf6e-6e836087a839
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 97d755c71eb1bdfa8a031fa387741318f9a7f261
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 20%
+source-wordcount: '456'
+ht-degree: 24%
 
 ---
 
 # 依授權型別存取物件和區域
 
+<!-- Audited: 5/2025 -->
+
 下表告訴您每個Adobe Workfront授權對於Workfront中的物件與區域允許的最高存取層級（編輯或檢視）。
 
-* **檢視**：使用者可以檢閱和共用專案。
-* **編輯**：使用者可以建立、編輯、刪除和共用專案。
+* 檢視：使用者可以檢閱和共用專案。
+* 編輯：使用者可以建立、編輯、刪除和共用專案。
 
   >[!NOTE]
   >
-  >當其他使用者共用物件時，共用者可以指定許可權來限制他們編輯物件的能力。 如需詳細資訊，請參閱[物件共用許可權總覽](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。
+  >當其他使用者共用物件時，共用者可以指定許可權來限制他們編輯物件的能力。 如需有關新授權型別的詳細資訊，請參閱[物件共用許可權總覽](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。
 
-|   | 計劃 | 工作 | 檢閱 | 請求 | 外部 |
+  >[!NOTE]
+  >
+  >本文包含舊版授權型別物件存取的相關資訊。 如需新授權型別的詳細資訊，請參閱[新存取層級總覽](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)和[新授權總覽](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)。
+
+|   | 規劃 | 工作 | 檢閱 | 請求 | 外部 |
 |---|---|---|---|---|---|
 | 專案 | 編輯 | 編輯（沒有「建立」許可權） | 檢視 | 檢視（僅限「詳細資訊」頁面） | 無存取權 |
 | 任務 | 編輯 | 編輯 | 檢視 | 檢視 | 檢視 |
@@ -49,7 +55,7 @@ ht-degree: 20%
 
 >[!NOTE]
 >
->擁有「檢閱」授權或「請求」授權的使用者共用功能有限。 如需詳細資訊，請參閱[Adobe Workfront授權總覽](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)。
+>擁有「檢閱」授權或「請求」授權的使用者共用功能有限。 如需詳細資訊，請參閱[授權總覽](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)。
 >
 >外部使用者無法在Workfront中搜尋專案。 他們可以檢視特別與他們共用的檔案和行事曆。 他們也可以檢視與他們共用專案的使用者。
 

@@ -10,7 +10,7 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 92b02c31-7e77-4b27-9b17-d7803df2ba2d
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 97d755c71eb1bdfa8a031fa387741318f9a7f261
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # 使用者管理：文章索引
 
-<!-- Audited: 12/2023 -->
+<!-- Audited: 5/2025 -->
 
 您可以在Workfront中建立和管理使用者。
 

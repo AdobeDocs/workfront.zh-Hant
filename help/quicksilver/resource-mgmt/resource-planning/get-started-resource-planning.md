@@ -7,14 +7,16 @@ description: 您可以使用資源計畫工具來管理您的職務角色、其�
 author: Lisa
 feature: Resource Management
 exl-id: 0db9fbb3-4e94-47bd-b272-00b3ca4decaf
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: 97d755c71eb1bdfa8a031fa387741318f9a7f261
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
 
 # 開始使用資源規劃
+
+<!--Audited: 5/2025-->
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -23,7 +25,7 @@ ht-degree: 0%
 </div>
 -->
 
-您可以使用Adobe Workfront資源管理工具來預測資源的配置，以便準確知道專案是否準時及符合預算。 如需Workfront的資源管理概觀，請參閱[開始使用資源管理](../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)。
+您可以使用Adobe Workfront資源管理工具來預測資源配置，以便準確知道專案是否準時及按預算交付。 如需Workfront的資源管理概觀，請參閱[開始使用資源管理](../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)。
 
 您可以使用資源計畫工具來管理您的職務角色、其可用性，以及根據此可用性的一般專案配置。
 
@@ -35,7 +37,7 @@ ht-degree: 0%
 
 若要針對您計畫指派給專案的資源，編列其預算時間，您可以使用下列工具：
 
-* 若要在系統層次編列多重專案的預算分配，並設定其優先順序：請使用系統層次「資源規劃工具」。
+* 若要在系統層次為多個專案編列預算配置並設定優先順序，請使用系統層次的資源規劃工具。
 
   您可以前往「資源」區域中的規劃工具區段來存取資源規劃工具。
 

@@ -8,16 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: 6068c9c53568d3ebec9fae294bfee1cbd365714b
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '738'
 ht-degree: 0%
 
 ---
 
 # 以另一位使用者身分登入
 
-<!--Audited: April, 2024-->
+<!--Audited: 5/2025-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all users only in the Preview environment.</span> -->
 
@@ -25,9 +25,7 @@ ht-degree: 0%
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. Also linked to other articles: Creating and Managing Groups, etc.</p>
 -->
 
-身為Adobe Workfront管理員，您有時可能需要代表其他使用者存取Workfront 。
-
-或者，作為群組管理員，您可能需要代表您管理群組之成員的使用者存取Workfront。
+身為Adobe Workfront管理員，您有時可能需要代表其他使用者存取Workfront 。 或者，作為群組管理員，您可能需要代表您管理群組之成員的使用者存取Workfront。
 
 例如，如果任務在休假的使用者執行特定動作之前無法進度，您可以以該使用者的身分登入，並改為執行動作。
 
@@ -44,7 +42,7 @@ Some users, such as executives, need to be able to control which administrators 
 >
 >由於檔案整合可能會連線到私人個人檔案，因此管理員在作為其他使用者登入時無法存取檔案整合。
 >
->如需檔案整合的詳細資訊，請參閱[設定檔案整合](../../../administration-and-setup/configure-integrations/configure-document-integrations.md)
+>如需檔案整合的詳細資訊，請參閱[設定檔案整合](../../../administration-and-setup/configure-integrations/configure-document-integrations.md)。
 
 ## 存取需求
 
@@ -68,8 +66,8 @@ Some users, such as executives, need to be able to control which administrators 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>使用「系統管理員」存取層級，您可以以任何身分登入。</p> <p>如果存取層級中的<b>使用者</b>設定設定為<b>編輯</b>存取，且在<b>微調您的設定</b> <img src="assets/gear-icon-in-access-levels.png">中啟用<b>建立</b>以及兩個<b>使用者管理員</b>選項中的至少一個，則使用標準或規劃師存取層級，您可以以授權層級較低的使用者身分登入。 </p> 
-   <p><b>注意</b>：在這兩個選項中，如果已啟用<b>使用者管理員（群組使用者）</b>，您必須是使用者所屬群組的群組管理員。</p></td>
+   <td> <p>使用「系統管理員」存取層級，您可以以任何身分登入。</p> <p>使用標準或規劃師存取層級，如果存取層級中的使用者設定設為編輯存取權，並且在「微調您的設定<img src="assets/gear-icon-in-access-levels.png">」下啟用建立及至少兩個使用者管理員選項中的一個，則您可以以較低授權層級的使用者身分登入。 </p> 
+   <p>注意：在這兩個選項中，如果已啟用「使用者管理員（群組使用者）」，您必須是使用者所屬群組的群組管理員。</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -94,17 +92,16 @@ Some users, such as executives, need to be able to control which administrators 
 
 {{step-1-to-setup}}
 
-1. 在左側面板中，按一下&#x200B;**以**&#x200B;登入。
+1. 在左側面板中，按一下&#x200B;**登入身份**。
 
-1. 在&#x200B;**登入身份**&#x200B;索引標籤的&#x200B;**使用者**&#x200B;方塊中，開始輸入使用者的名稱，然後在其出現在下拉式清單中時按一下該名稱。
+1. 在&#x200B;**登入身份**&#x200B;索引標籤的&#x200B;**開始輸入名稱……**&#x200B;方塊中，開始輸入使用者的名稱，然後在其出現在下拉式清單中時按一下該名稱。
 
-   使用者必須擁有Workfront中定義的存取層級。 您無法以沒有登入許可權的使用者身分登入Workfront系統。
 
    >[!NOTE]
-   >
-   >群組管理員只能以他們管理之群組成員的使用者身分登入。 他們無法以Workfront管理員身分登入。
+   >* 您選取的使用者必須在Workfront中定義存取層級。 您無法以沒有登入許可權的使用者身分登入Workfront系統。
+   >* 群組管理員只能以他們管理之群組成員的使用者身分登入。 他們無法以Workfront管理員身分登入。
 
-1. 按一下&#x200B;**登入。**
+1. 按一下&#x200B;**登入**。 您以其他使用者身份登入，畫面上方會顯示通知，說明此問題。
 
    <!--
    <p> Might come in a future story:</p>
@@ -131,15 +128,15 @@ Some users, such as executives, need to be able to control which administrators 
    </div>
    -->
 
-   當您以其他使用者身份登入時，畫面頂端會顯示通知以指出此問題。
 
-1. 以使用者身分執行必要的動作後，請按一下&#x200B;**[登出]。**
+
+1. 以使用者身分執行必要的動作後，請按一下畫面頂端的&#x200B;**[登出**]。
 
 ## 在管理員以其他使用者身份登入時追蹤和稽核活動
 
 Workfront提供機制，可在管理員以其他使用者身份登入時追蹤和稽核活動。
 
-當您以其他使用者身份登入時，該使用者的上次登入日期會修改為系統或群組管理員以該使用者身份登入的日期。
+當您以其他使用者身份登入時，該使用者的上次登入日期將修改為該使用者系統或群組管理員登入的日期。
 
 * [檢視專案上的指標](#view-indicators-on-items)
 * [檢視稽核資訊](#view-audit-information)
@@ -153,14 +150,17 @@ Workfront提供機制，可在管理員以其他使用者身份登入時追蹤�
 ### 檢視稽核資訊 {#view-audit-information}
 
 1. 以Workfront管理員或群組管理員身分登入Workfront。
-1. 按一下Adobe Workfront右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![齒輪設定圖示](assets/gear-icon-settings.png)。
+   {{step-1-to-setup}}
+   <!--1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).-->
 
-1. 按一下&#x200B;**登入身份，**，然後按一下&#x200B;**存取記錄檔**&#x200B;索引標籤。
+1. 在左側面板中，按一下&#x200B;**登入身份**，然後按一下&#x200B;**存取記錄檔**&#x200B;索引標籤。
 
-   每當系統或群組管理員以其他使用者身份登入Workfront時，該事件就會記錄到稽核軌跡。 此外，當管理員以其他使用者身份登入時，所發生的任何可稽核動作都會登入稽核軌跡。
+   >[!NOTE]
+   >
+   >每當系統或群組管理員以其他使用者身份登入Workfront時，該事件就會記錄到稽核軌跡。 此外，當管理員以其他使用者身份登入時，所發生的任何可稽核動作都會登入稽核軌跡。
 
-1. （選擇性）您可以以下列方式篩選稽核軌跡中顯示的結果：
+1. （選擇性）您可以透過下列方式篩選稽核軌跡中顯示的結果：
 
    * 依已登入的使用者
    * 依登入身份的使用者
-   * 依日期
+   * 依日期和時間
