@@ -30,7 +30,7 @@ Adobe Workfront中的某些物件允許以RTF格式儲存文字。 在Workfront 
 範例：使用RTF文字自訂表單欄位擷取欄位值的基本GET請求：
 
 <!-- [Copy](javascript:void(0);) -->
-<pre><OBJ Code><OBJ ID><OBJ Code><OBJ ID></pre> 
+<pre>&lt;OBJ Code>&lt;OBJ ID>&lt;OBJ Code>&lt;OBJ ID></pre> 
 
 範例：此請求將傳回JSON格式為RTF的欄位值，並儲存在RTF格式的parameterValue DE：Field中
 
@@ -120,4 +120,4 @@ Adobe Workfront中的某些物件允許以RTF格式儲存文字。 在Workfront 
 1. 使用上述JSON上的stringify方法發出PUT請求並傳送更新。
 
    <!-- [Copy](javascript:void(0);) -->
-   <pre><OBJ Code><OBJ ID></pre>
+   <pre>&lt;OBJ Code>&lt;OBJ ID></pre>
