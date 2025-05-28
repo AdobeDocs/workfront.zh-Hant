@@ -7,9 +7,9 @@ description: 您在Adobe Workfront中登入工作專案的時數會視為實際�
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: d68189272bd3f78de2d57b8393b44b698fa5db13
 workflow-type: tm+mt
-source-wordcount: '803'
+source-wordcount: '819'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ Project Actual Hours = All Tasks Actual Hours + All Issues Actual Hours + All Pr
   如需相關資訊，請參閱使用使用者檢視時[資源規劃工具中的可用檢視、計畫時數與實際時數，或FTE](../../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md)。
 
 
-### Workfront資料庫、API和自訂資料中的實際時數
+### Workfront <!--database and the--> API <!--, and custom data-->中的實際時數
 
 <!--this section was added as a result to this issue: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/task/6810910e0001b932e0948336208e76f2/overview-->
 
@@ -142,9 +142,14 @@ Project Actual Hours = All Tasks Actual Hours + All Issues Actual Hours + All Pr
 
 存取API呼叫或計算自訂欄位或欄中的這些欄位時，您必須考慮從分鐘到小時的轉換。
 
-不過，實際時數會以時數儲存在Workfront資料庫中。
+視您存取「實際時數」的方式而定，它們可以儲存在資料庫的下列欄位和單位中：
 
-您必須對API呼叫中的實際時數或Workfront中的計算自訂欄位或欄使用下列valuefield名稱： `actualWorkRequiredDouble`。
+* 在API中：實際時數的`valuefield`是`actualWorkRequiredDouble`，以小時儲存。
+* 在Workfront介面（計算的自訂欄位和欄）中：實際時數的`valuefield`是`actualWorkRequired`，以分鐘為單位儲存。
+
+<!--Change the above with this when we fix this for the Workfront UI: 
+
+You must use the following valuefield name for Actual Hours in API calls or calculated custom fields or columns in Workfront: `actualWorkRequiredDouble`. -->
 
 如需有關在計算欄或欄位中使用實際時數的資訊，請參閱[報告常見問題集](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)。
 
