@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
-source-git-commit: 2a216610f6ea8ad8c4698964f96f2357bf3b5943
+source-git-commit: 59431354076a0909fb1878d68cf266f08d2114b3
 workflow-type: tm+mt
-source-wordcount: '1204'
-ht-degree: 2%
+source-wordcount: '1216'
+ht-degree: 3%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td> 
+   <td>[！UICONTROL系統管理員]</td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,25 +56,11 @@ ht-degree: 2%
 
 下表顯示要匯入的公司、群組和角色：
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <col> 
- <thead> 
-  <tr> 
-   <th><strong>公司</strong> </th> 
-   <th><strong>群組</strong> </th> 
-   <th><strong>角色</strong> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td valign="top"> <p>Acme， Co</p> <p>Workfront公司</p> <p><em>您的公司</em> </p> <p>XYZ， Inc.</p> </td> 
-   <td valign="top"> <p valign="top" rowspan="7">財務</p> <p valign="top" rowspan="7">IT </p> <p valign="top" rowspan="7">行銷 </p> <p valign="top" rowspan="7">銷售額</p> </td> 
-   <td valign="top"> <p valign="top">業務分析師</p> <p valign="top">控制器Creative</p> <p valign="top">設計師</p> <p valign="top">資源管理員</p> <p valign="top">Scrum Master</p> <p valign="top">技術撰稿人</p> <p valign="top">Web開發人員</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 公司 | 群組 | 角色 |
+|---|---|---|
+| Acme， Co <p>Workfront公司 <p>_您的公司_ <p>XYZ， Inc. | 財務 <p>IT <p>行銷 <p>銷售額 | 業務分析師 <p>控制器Creative <p>設計師 <p>資源管理員 <p>Scrum Master <p>技術撰稿人 <p>Web開發人員 |
+
+{style="table-layout:auto"}
 
 角色名稱必須是唯一的。 無法匯入現有職位角色。
 
@@ -82,8 +68,9 @@ ht-degree: 2%
 
 ### 使用者1
 
-| **名字** | Chris |
+| 屬性 | 值 |
 |---|---|
+| **名字** | Chris |
 | **姓氏** | 人員管理 |
 | **使用者名稱/電子郵件** | mailto:cmanning@foo.com |
 | **密碼** | 更新我 |
@@ -96,8 +83,9 @@ ht-degree: 2%
 
 ### 使用者2
 
-| **名字** | Jennifer |
+| 屬性 | 值 |
 |---|---|
+| **名字** | Jennifer |
 | **姓氏** | 坎貝爾 |
 | **使用者名稱/電子郵件** | jcampbell@foo.com |
 | **密碼** | 更新我 |
@@ -110,8 +98,9 @@ ht-degree: 2%
 
 ### 使用者3
 
-| **名字** | 吉爾 |
+| 屬性 | 值 |
 |---|---|
+| **名字** | 吉爾 |
 | **姓氏** | 沙利文 |
 | **使用者名稱/電子郵件** | jsullivan@foo.com |
 | **密碼** | 更新我 |
@@ -124,8 +113,9 @@ ht-degree: 2%
 
 ### 使用者4
 
-| **名字** | 馬克 |
+| 屬性 | 值 |
 |---|---|
+| **名字** | 馬克 |
 | **姓氏** | Lewis |
 | **使用者名稱/電子郵件** | mlewis@foo.com |
 | **密碼** | 更新我 |
@@ -138,8 +128,9 @@ ht-degree: 2%
 
 ### 使用者5
 
-| **名字** | Pam |
+| 屬性 | 值 |
 |---|---|
+| **名字** | Pam |
 | **姓氏** | Reynolds |
 | **使用者名稱/電子郵件** | preynolds@foo.com |
 | **密碼** | 更新我 |
@@ -152,8 +143,9 @@ ht-degree: 2%
 
 ### 使用者6
 
-| **名字** | Ray |
+| 屬性 | 值 |
 |---|---|
+| **名字** | Ray |
 | **姓氏** | Andrews |
 | **使用者名稱/電子郵件** | randrews@foo.com |
 | **密碼** | 更新我 |
@@ -184,9 +176,9 @@ ht-degree: 2%
 
 1. 移至&#x200B;**CMPY公司**&#x200B;工作表。
 
-   除非系統中已有公司，否則應留空。 ![公司工作表](assets/cmpysheet-350x16.png)
+   除非系統中已有公司，否則應留空。
 
-   ![公司ID](assets/companyid--1--350x78.png)
+   ![公司工作表](assets/cmpysheet-350x16.png) ![公司ID](assets/companyid--1--350x78.png)
 
 1. 在&#x200B;**isNew**&#x200B;資料行中輸入&#x200B;**TRUE**。
 
@@ -296,23 +288,18 @@ ht-degree: 2%
 
    對每個使用者和群組指派重複此步驟。
 
-   ![公司ID](assets/companyid--1--350x78.png)
-
-   ![貼上公司ID](assets/pastecompanyid-350x84.png)
+   ![公司ID](assets/companyid--1--350x78.png) ![貼上公司ID](assets/pastecompanyid-350x84.png)
 
 1. 輸入使用者的工作角色詳細資訊。
 
    根據情況，Chris Manning將擔任Business Analyst角色。 在&#x200B;**ROLE角色**&#x200B;工作表上，找到Business Analyst角色的ID，複製它，然後在&#x200B;**USER User**&#x200B;工作表上將其貼到使用者列上的&#x200B;**setRoleID**&#x200B;欄。&#x200B;URL對每個使用者和群組指派重複此步驟。
 
-   ![複製角色ID](assets/copyroleid-350x149.png)
-
-   ![貼上角色ID](assets/pasteroleid-350x95.png)
+   ![複製角色ID](assets/copyroleid-350x149.png) ![貼上角色ID](assets/pasteroleid-350x95.png)
 
 1. 視需要填寫其他使用者詳細資訊，然後儲存檔案。
 1. 匯入Excel檔案。
 
    遵循[使用Kick-Start範本將資料匯入Adobe Workfront](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)中提供的指示。
-
 
 >[!NOTE]
 >
@@ -320,4 +307,4 @@ ht-degree: 2%
 > 
 >如果您的組織已移轉至Adobe Admin Console，且使用者未在幾分鐘內離開「已停用」和「未決核准」狀態，您可以將使用者批次直接新增到Adobe Admin Console。
 >
->如需指示，請參閱[管理多個使用者 | 在Adobe檔案中大量上傳CSV](https://helpx.adobe.com/tw/enterprise/using/bulk-upload-users.html)。
+>如需指示，請參閱[管理多個使用者 | 在Adobe檔案中大量上傳CSV](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html)。
