@@ -3,14 +3,15 @@ content-type: reference
 navigation-topic: get-started-with-workfront
 title: Adobe Workfront基本介紹：文章索引
 description: 請檢視這些區域以了解 Adobe Workfront 的基礎知識；同時，了解如何執行基本功能，例如使用首頁或優先順序區域、管理您的帳戶設定檔、使用 AI Assistant，或了解瀏覽器需求和支援的語言。請參閱 Workfront 字彙表以了解 Workfront 中的常用術語。
+short-description: 瞭解Adobe Workfront的基本知識以及如何執行基本功能。
 author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c0b25ec2-38a5-4499-9366-be3b71ae62a2
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: 0c76cf9ebadaeabee55939969d59ea16d69ed328
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 58%
+source-wordcount: '205'
+ht-degree: 55%
 
 ---
 
