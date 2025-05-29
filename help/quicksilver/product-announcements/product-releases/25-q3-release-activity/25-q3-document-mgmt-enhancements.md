@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: c8222e177d7e1ab9f62f5a520a2a941ca87cc27a
+source-git-commit: e73986702dac81d698f59caca76f6c7239ddeef8
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 預覽版本： 2025年5月31日；適用於所有客戶的生產版本： 2025年5月31日
+>* 預覽版本： 2025年6月2日；適用於所有客戶的生產版本： 2025年6月2日
 
 Google針對存取Google Drive的協力廠商應用程式[加強安全性控制](https://workspace.google.com/blog/product-announcements/enhancing-security-controls-for-google-drive-third-party-apps)，要求應用程式採用每位使用者的同意模式。 因此，個別資產必須一次連結一個資產，才能在Workfront中顯示。 如需詳細資訊，請參閱[設定檔案整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md)。
 

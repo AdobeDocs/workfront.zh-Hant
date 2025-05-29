@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 870e4130daf9924bf85b59eb09f7d548b8152096
+source-git-commit: 686db6004d1a64279080ab3ba311c172a6a24d1f
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1308'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,30 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 如需針對Adobe Workfront Planning發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## 篩選、欄和新增到請求區域中Planning索引標籤的其他欄位
+
+>[!NOTE]
+>
+>* 預覽： 2025年5月29日
+>* 生產快速發行： 2025年6月12日
+>* 適用於所有客戶的生產： 2025年7月17日
+
+我們在請求區域的計畫標籤中的請求清單中新增了以下功能：
+
+* 依欄輸入，以指出新增請求的人員
+* 篩選條件可限制您在Planning標籤上檢視的請求數。 您可以依下列專案篩選清單：
+
+   * 請求表單源自的Workspace
+   * 與請求表單相關聯的記錄型別
+   * 請求的輸入日期
+   * 請求表單的名稱
+   * 請求的狀態
+   * 輸入請求的人員姓名。
+
+* 欄控制以檢視或隱藏「計畫請求」清單中的欄位（或欄）。
+
+如需詳細資訊，請參閱[提交Adobe Workfront Planning要求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)。
 
 ## 在時間軸檢視中以精簡模式劃分記錄的新體驗
 
@@ -126,7 +150,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >所有具有系統管理員和Standard授權的新使用者及現有使用者皆可看見此變更。
->指派給版面配置範本的現有使用者將根據版面配置範本中定義的設定繼續檢視所有內容。
+>>指派給版面配置範本的現有使用者將根據版面配置範本中定義的設定繼續檢視所有內容。
 
 如需詳細資訊，請參閱[Adobe Workfront規劃總覽](/help/quicksilver/planning/access/access-overview.md)。
 
