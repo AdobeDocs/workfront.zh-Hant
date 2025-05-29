@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 author: Courtney
 hide: true
 hidefromtoc: true
-source-git-commit: 779fc409d316e957a4cbec951047e41641b69863
+source-git-commit: a984038eea41d249cb0ad0d2ec6ba47025c56a65
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Workfront的HIPAA整備
 
-如HIPAA所定義，若是Workfront客戶是&#x200B;**Business Associate**&#x200B;及/或&#x200B;**Covered Entity** (Business Associate代表此客戶提供Adobe Workfront)，應使用下列准則來設定Workfront以供HIPAA使用：
+Workfront如HIPAA所定義，若客戶為Business Associate及/或Covered Entity (Business Associate代表其提供Adobe Workfront)，應使用下列准則來設定Workfront以供HIPAA使用：
 
 
 ## 密碼需求
@@ -35,7 +35,7 @@ ht-degree: 0%
 | **安全性設定** | **這是什麼？** | **需求** |
 |----------------------|------------------|------------------|
 | 登入失敗次數上限 | 有多少次失敗的登入嘗試造成使用者被鎖定？ | 在5分鐘期間內不超過5次嘗試；30分鐘後允許重試 |
-| 最大SSO驗證失敗數 | 有多少失敗的SSO驗證嘗試會導致鎖定？ | 不超過5個（僅適用於使用SSO的客戶） |
+| 最大SSO驗證失敗數 | 有多少失敗的SSO驗證嘗試會造成鎖定？ | 不超過5個（僅適用於使用SSO的客戶） |
 
 
 ## 工作階段需求
