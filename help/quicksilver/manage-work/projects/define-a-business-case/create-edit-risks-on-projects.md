@@ -6,10 +6,10 @@ description: 風險是阻礙專案準時完成或在預算內完成的可能事�
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 0%
+source-wordcount: '1080'
+ht-degree: 1%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 <!--Audited: 01/2025-->
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在預覽版發佈一週後，生產環境中也將提供相同功能給所有客戶。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">如需詳細資訊，請參閱[介面現代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。</span>
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
 
 風險是阻礙專案準時完成或在預算內完成的可能事件或因素。 您可以在建立專案的業務案例時記錄風險，或使用「風險」頁標來記錄風險。
 
@@ -117,9 +117,9 @@ ht-degree: 0%
 
    按一下&#x200B;**新增風險**。
 
-   <span class="preview"> **新風險**&#x200B;方塊開啟。</span>
+   **新風險**&#x200B;方塊開啟。
 
-   <span class="preview">![新風險方塊](assets/new-risk-box.png)</span>
+   ![新風險方塊](assets/new-risk-box.png)
 
 1. （視條件而定）如果您在&#x200B;**新風險**&#x200B;方塊中新增風險，請輸入下列資訊：
 
@@ -157,7 +157,7 @@ ht-degree: 0%
 
    或
 
-   選取一或多個風險，然後按一下[編輯] **&#x200B;**&#x200B;以同時編輯多個風險。
+   選取一或多個風險，然後按一下[編輯] ****&#x200B;以同時編輯多個風險。
 
    >[!NOTE]
    >
@@ -175,7 +175,7 @@ ht-degree: 0%
    * **實際成本**：表示風險發生時的實際風險成本。
    * **緩解計畫**：更新計畫的描述以降低風險。
 
-1. <span class="preview">按一下&#x200B;**儲存**。</span>
+1. 按一下「**儲存**」。
 1. （選擇性）套用風險清單的&#x200B;**標準**&#x200B;檢視時，在&#x200B;**狀態**&#x200B;下拉式功能表中編輯風險的&#x200B;**狀態**。
 
    >[!NOTE]

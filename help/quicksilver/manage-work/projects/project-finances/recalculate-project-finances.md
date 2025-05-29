@@ -6,9 +6,9 @@ description: 當專案記錄的時數或用於計算成本和收入的費率發�
 author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '1633'
+source-wordcount: '1632'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
    <td>任何 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
+   <td role="rowheader">Adobe Workfront授權*</td> 
    <td>
    <p>新增：標準</p>
    <p>或</p>
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 ## 在Adobe Workfront中計算財務的考量事項
 
-增強型分析中的財務計算方式如下：
+專案的財務計算方式如下：
 
 * 您可以使用專案上的「重新計算財務」選項，手動重新計算專案的成本和收入。
 * 此外，某些動作會觸發自動重新計算。

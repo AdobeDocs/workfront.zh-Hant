@@ -6,9 +6,9 @@ description: 如果您有正確的存取權和許可權，可以刪除Adobe Work
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '767'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 1%
 
 <!--Audited: 05/2025-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>    
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在預覽版發佈一週後，生產環境中也將提供相同功能給所有客戶。</span>
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). -->
+<span class="preview">如需詳細資訊，請參閱[介面現代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。</span>
 
 如果您有正確的存取權和許可權，可以刪除Adobe Workfront中的問題或請求。
 
@@ -116,7 +116,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    與所選專案相關的問題清單會在右側顯示。
 1. 在清單中選取一或多個問題，然後按一下清單頂端的&#x200B;**刪除**&#x200B;圖示![刪除圖示](assets/delete.png)。
 
-1. 如果允許刪除，請按一下&#x200B;**是，刪除**。<!--change this to this button instead: <span class="preview">*Delete*</span>-->
+1. 如果允許刪除，請按一下&#x200B;**<span class="preview">刪除</span>**。
 
    您的Workfront管理員可能不允許刪除記錄時數的問題。\
    如需有關刪除問題所需的存取權和許可權的詳細資訊，請參閱本文中的[刪除問題的考量事項](#considerations-for-deleting-issues)一節。
@@ -136,7 +136,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    ![問題更多功能表](assets/qs-issue-more-menu-highlighted-350x469.png)
 
 1. 按一下&#x200B;**刪除問題**。
-1. 如果允許刪除，請按一下&#x200B;**是，刪除**。<!--change this to this button instead: <span class="preview">*Delete*</span>-->
+1. 如果允許刪除，請按一下&#x200B;**<span class="preview">刪除</span>**。
 
    您的Workfront管理員可能不允許刪除記錄時數的問題。\
    如需有關刪除問題所需的存取權和許可權的詳細資訊，請參閱本文中的[刪除問題的考量事項](#considerations-for-deleting-issues)一節。

@@ -8,16 +8,18 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '1022'
 ht-degree: 1%
 
 ---
 
 # 找出已提交的請求
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 您可以找到以下您或其他人提交的請求型別，或您已開始但您從未完成提交的請求。 您可以在Adobe Workfront的下列區域中找到這些請求：
 
@@ -165,8 +167,8 @@ ht-degree: 1%
       <td>無論狀態為何，您皆已提交請求。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">我的待處理要求</td> 
-      <td> <p>您提交的請求仍未完成。 </p> <p>沒有實際完成日期或解析物件沒有實際完成日期的請求會列在「我的未結請求」子頁標中。 </p> <p><b>秘訣</b>
+      <td role="rowheader">我的待處理請求</td> 
+      <td> <p>您提交的請求仍未完成。 </p> <p>沒有實際完成日期或解析物件沒有實際完成日期的請求會列在「我的未結請求」子頁標中。 </p> <p><b>秘訣</b>
 
    未處於已關閉狀態的請求會視為未完成。</p> </td>
    </tr> 
@@ -176,13 +178,13 @@ ht-degree: 1%
 1. （選擇性）按一下清單頂端的&#x200B;**篩選頁面**&#x200B;圖示![](assets/search-icon.png)，依名稱搜尋請求。 清單會以符合搜尋條件的結果更新。
 
    <!--
-   <li value="9" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Click the&nbsp;<strong>Complete</strong> subtab to view requests that have been completed.</p> <p>(NOTE: this step will stay drafted even after release. We can't see Completed at this time!) <br>Requests with an Actual Completion Date or whose resolving object has an Actual Completion Date are listed in the Complete subtab.<br>Once a request receives an Actual Completion Date, it stays in the Recently Completed area for 10 business days. After that, it is moved to the Completed area. <br>For information about resolving and resolvable objects, see the article <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>.</p> </li>
+   <li value="9" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Click the <strong>Complete</strong> subtab to view requests that have been completed.</p> <p>(NOTE: this step will stay drafted even after release. We can't see Completed at this time!) <br>Requests with an Actual Completion Date or whose resolving object has an Actual Completion Date are listed in the Complete subtab.<br>Once a request receives an Actual Completion Date, it stays in the Recently Completed area for 10 business days. After that, it is moved to the Completed area. <br>For information about resolving and resolvable objects, see the article <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>.</p> </li>
    -->
 
    <!--
-   <li value="10" data-mc-conditions="QuicksilverOrClassic.Draft mode">(Optional) Select an option from the <strong>Sort by</strong> drop-down menu to sort the requests by the following criteria:&nbsp; &nbsp;(NOTE:&nbsp;this step will stay drafted even after release. We can't see Completed at this time!) &nbsp;
+   <li value="10" data-mc-conditions="QuicksilverOrClassic.Draft mode">(Optional) Select an option from the <strong>Sort by</strong> drop-down menu to sort the requests by the following criteria:   (NOTE: this step will stay drafted even after release. We can't see Completed at this time!)  
    <ul>
-   <li><strong>Assigned To</strong>: Requests are sorted alphabetically by the name of the assignee using the following criteria:&nbsp;
+   <li><strong>Assigned To</strong>: Requests are sorted alphabetically by the name of the assignee using the following criteria: 
    <ul>
    <li>All requests assigned to users are sorted first, in the order of the users' names.</li>
    <li>Requests assigned to job roles are sorted secondly, in the order of the job roles' names and are listed after all the requests assigned to users.</li>
@@ -191,10 +193,10 @@ ht-degree: 1%
    </ul></li>
    <li><strong>Submitted On</strong>: Requests are sorted chronologically by the date when they were submitted.</li>
    <li><strong>Recently Updated</strong> (this is the default): Requests are sorted chronologically by the date of their last update.</li>
-   <li><strong>Name</strong>: Requests are sorted alphabetically by name.&nbsp;</li>
+   <li><strong>Name</strong>: Requests are sorted alphabetically by name. </li>
    <li><strong>Priority</strong>: Requests are sorted in the order of their priority.</li>
-   <li><strong>Queue</strong>: Requests are sorted alphabetically by the name of the requests queue where they were submitted.&nbsp;</li>
-   <li><strong>Status</strong>: Requests are sorted alphabetically by their status.&nbsp;</li>
+   <li><strong>Queue</strong>: Requests are sorted alphabetically by the name of the requests queue where they were submitted. </li>
+   <li><strong>Status</strong>: Requests are sorted alphabetically by their status. </li>
    </ul></li>
    -->
 
@@ -202,12 +204,10 @@ ht-degree: 1%
 
 1. （選擇性和條件性）如果您的組織購買了Workfront計畫套件，請按一下&#x200B;**計畫**&#x200B;標籤，然後按一下左側面板中的&#x200B;**已提交**，以檢視Workfront計畫請求。
 
-   ![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
+   <span class="preview">使用&#x200B;**篩選器**&#x200B;和&#x200B;**資料行**&#x200B;來更新Planning要求清單中的資訊。</span>
+
+   <span class="preview">![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)</span>
 
    如需詳細資訊，請參閱[提交Adobe Workfront Planning要求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)。
 
- 
 
- 
-
- 

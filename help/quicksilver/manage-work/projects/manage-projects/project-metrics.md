@@ -1,16 +1,16 @@
 ---
 content-type: overview;how-to-procedural
 product-area: projects
-keywords: 分析，量度，專案，增強，任務，受指派人，完成，狀態，過期，近期
+keywords: 分析，量度，專案，任務，受指派人，完成，狀態，過期，近期
 navigation-topic: manage-projects
 title: 專案量度概觀
 description: 專案量度可讓您以視覺效果呈現專案中發生的事件，讓您快速評估專案的需求和狀態。 瞭解如何解讀專案左側面板中的量度區域。
 author: Alina
 feature: Work Management
 exl-id: 54c2a59d-9f6b-4126-9526-5169aeda8517
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '1258'
+source-wordcount: '1163'
 ht-degree: 0%
 
 ---
@@ -21,32 +21,35 @@ ht-degree: 0%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Workfront計畫*</td> 
+   <td role="rowheader">Workfront計畫</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Workfront授權*</td> 
-   <td> <p>評論或以上 </p> </td> 
+   <td> <p>新增：淺色或更高 </p>
+   <p>目前：檢閱或以上 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級*</td> 
-   <td> <p>檢視專案的存取權</p> <p><b>附註</b>
-
-如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需有關存取專案的資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">授予專案的存取權</a>。 如需Workfront管理員如何變更存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。 </p> </td>
-</tr> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>檢視專案的存取權</p>  </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>檢視專案的許可權</p> <p> 如需有關專案許可權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">在Adobe Workfront中共用專案</a>。</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>檢視專案的許可權</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先決條件
 
@@ -72,10 +75,11 @@ ht-degree: 0%
 
 若要深入瞭解檢視這些工作或問題，請參閱[檢視量度詳細資料](#view-metrics-details)。
 
+<!--this was deprecated: 
 >[!TIP]
 >
->若要檢視計畫、投資組合等中一組專案的更高層級量度，請導覽至增強分析區域。\
->若要深入瞭解增強型分析，請參閱[增強型分析總覽](../../../enhanced-analytics/enhanced-analytics-overview.md)。
+>To see metrics at a higher level for a group of projects within a program, portfolio, etc., navigate to the Enhanced analytics area.  
+>To learn more about Enhanced analytics, see [Enhanced analytics overview](../../../enhanced-analytics/enhanced-analytics-overview.md).-->
 
 ## 專案KPI
 
