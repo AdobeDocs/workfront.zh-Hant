@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 2cf14ed7a4d96760c2c64ea8cca869ba5ba54c73
+source-git-commit: c5cf44d1e68aebdb5b61d2588a8cefc088b6d2a2
 workflow-type: tm+mt
-source-wordcount: '4043'
+source-wordcount: '4126'
 ht-degree: 1%
 
 ---
@@ -25,14 +25,13 @@ ht-degree: 1%
 
 ## 管理和設定
 
-<!--
-### Interface updates for the Import Data (Kick-Starts) page
+### 匯入資料(Kick-Start)頁面的介面更新
 
-**Preview release: May 29, 2025; Production release: June 5, 2025**
+**預覽版本： 2025年5月29日；生產版本： 2025年6月5日**
 
-We have updated the Import Data (Kick-Starts) page in the Setup area with a more modern design that is consistent with other areas of Workfront. Also, the import process was streamlined so that the selected file is uploaded immediately. You no longer have to click a separate **Upload** button to complete the import after choosing the file.
+我們以與Workfront其他區域一致的更現代設計更新了設定區域中的匯入資料(Kick-Start)頁面。 此外，Kick-Start匯入程式已經過簡化，因此選取的檔案會立即上傳。 選擇檔案後，您不必再按一下個別的&#x200B;**上傳**&#x200B;按鈕即可完成匯入。
 
-For information, see [Import data into Workfront using a Kick-Start template](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).-->
+如需詳細資訊，請參閱[使用Kick-Start範本將資料匯入Workfront](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)。
 
 ### 「設定」中「存取記錄」標籤的介面更新
 
@@ -474,7 +473,7 @@ For information, see [View the organizational chart](/help/quicksilver/people-te
 
 此更新包含區域的視覺化變更。 功能未變更。
 
-若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。**&#x200B;**
+若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。****
 
 +++
 

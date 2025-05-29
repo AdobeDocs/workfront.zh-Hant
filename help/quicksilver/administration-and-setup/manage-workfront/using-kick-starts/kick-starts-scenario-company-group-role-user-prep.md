@@ -5,13 +5,13 @@ keywords: kickstart，kick-start，kickstart，kick-start
 navigation-topic: use-kick-starts
 title: Kick-Start情境：公司、群組、角色和使用者Kick-Start準備
 description: 開始實作Adobe Workfront時，您可以匯入客戶清單、內部部門、職位角色和使用者資訊，而不是手動輸入資料。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
-source-git-commit: a8faf4aa1a0a1b60f61c0c981c3be1b0d9d033a4
+source-git-commit: 2a216610f6ea8ad8c4698964f96f2357bf3b5943
 workflow-type: tm+mt
-source-wordcount: '1218'
+source-wordcount: '1204'
 ht-degree: 2%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td> 
+   <td>[！UICONTROL系統管理員]</td> 
   </tr> 
  </tbody> 
 </table>
@@ -172,6 +172,7 @@ ht-degree: 2%
 
 1. 按一下&#x200B;**其他選項**&#x200B;檢視匯入選項的完整清單。
 1. 選取您要匯入的存取層級、公司、群組、工作角色和使用者物件。
+1. 按一下&#x200B;**下載**。
 
 ## 輸入公司資訊
 
@@ -181,69 +182,67 @@ ht-degree: 2%
    >
    >使用非常寬的資料表時，您可能想要使用試算表編輯器的「凍結窗格」（或同等功能）工具，讓試算表更易於使用。
 
-1. 前往「公司」表。
+1. 移至&#x200B;**CMPY公司**&#x200B;工作表。
 
    除非系統中已有公司，否則應留空。 ![公司工作表](assets/cmpysheet-350x16.png)
 
    ![公司ID](assets/companyid--1--350x78.png)
 
-1. 在&#x200B;**isNew**&#x200B;資料行中指定TRUE。
-1. 對每個要新增的公司重複此動作。 （在此範例中，請針對列3-6完成此動作，因為將新增4家公司）。
+1. 在&#x200B;**isNew**&#x200B;資料行中輸入&#x200B;**TRUE**。
+
+   對每個要新增的公司重複此動作。 （在此範例中，請針對列3-6完成此動作，因為將新增4家公司）。
 
    ![公司是新的](assets/cmpyisnew-350x86.png)
 
-1. 指定唯一識別碼。
+1. 輸入唯一的&#x200B;**識別碼**。
 
-   您必須針對ID欄的每一列執行此作業。 建立新記錄時，從1開始的整數可正常運作。
+   您必須為每一列輸入識別碼。 建立新記錄時，從1開始的整數可正常運作。
 
    ![公司是新的](assets/cmpyisnew-350x86.png)
 
-1. 設定名稱。
-
-   在&#x200B;**setName**&#x200B;欄中指定每個客戶的名稱。
+1. 在&#x200B;**setName**&#x200B;欄中輸入每個客戶的名稱。
 
    ![公司ID](assets/companyid-350x78.png)
 
-1. 移至「群組」工作表。
+1. 移至&#x200B;**群組**&#x200B;工作表。
 
    除非您已在Workfront中建立群組，否則此工作表應該僅顯示與Workfront的每個帳戶布建的「預設群組」。
 
    ![群組工作表](assets/groupsheet-350x15.png) ![空白群組工作表](assets/emptygroupsheet-350x85.png)
 
-1. 設定&#x200B;**isNew**&#x200B;欄。根據情境，將匯入4個群組，因此請為&#39;isNew&#39;欄的第4到7列指定TRUE。
-1. 指定唯一識別碼。
+1. 在&#x200B;**isNew**&#x200B;資料行中輸入&#x200B;**TRUE**。
 
-   您必須針對ID欄的每一列執行此作業。 建立新記錄時，從1開始的整數可正常運作。
+   根據此情境，將匯入4個群組，因此請在&#x200B;**isNew**&#x200B;欄中為第4到7列輸入&#x200B;**TRUE**。
+
+1. 輸入唯一的&#x200B;**識別碼**。
+
+   您必須為每一列輸入識別碼。 建立新記錄時，從1開始的整數可正常運作。
 
    ![群組ID](assets/groupids-350x85.png)
 
-1. 設定名稱。
-
-   指定&#x200B;**setName**&#x200B;欄中每個部門的名稱。
+1. 在&#x200B;**setName**&#x200B;欄位中輸入每個部門的名稱。
 
    ![群組名稱](assets/groupnames-350x85.png)
 
-   指定角色資訊。 前往「角色」角色表。
+1. 移至&#x200B;**ROLE Role**&#x200B;工作表。
 
-1. 除非您已建立或刪除帳戶中的角色，否則此工作表應顯示8個已布建每個Workfront帳戶的角色。
+   除非您已建立或刪除帳戶中的角色，否則此工作表應顯示8個已布建每個Workfront帳戶的角色。
 
    ![群組名稱](assets/groupnames-350x85.png)
 
-1. 設定True陳述式。
+1. 在&#x200B;**isNew**&#x200B;資料行中輸入&#x200B;**TRUE**。
 
-   正在匯入7個工作角色，在「isNew」欄的列12到18中輸入TRUE。
+   根據此情境，將會匯入7個工作角色，所以請在列12到18的&#x200B;**isNew**&#x200B;欄中輸入&#x200B;**TRUE**。
 
    ![角色是新的](assets/roleisnew-350x104.png)
 
-1. 指定唯一識別碼。
+1. 輸入唯一的&#x200B;**識別碼**。
 
-   您必須針對ID欄的每一列執行此作業。 建立新記錄時，從1開始的整數可正常運作。
-
-   ![使用者工作表](assets/usersheet-350x16.png)
+   您必須為每一列輸入識別碼。 建立新記錄時，從1開始的整數可正常運作。
 
    ![角色是新的](assets/roleisnew--1--350x104.png)
 
-1. 在setName欄中鍵入每個角色的名稱。
+1. 為&#x200B;**setName**&#x200B;欄中的每個角色輸入名稱。
 
    ![角色是新的](assets/roleisnew-350x104.png)
 
@@ -251,45 +250,49 @@ ht-degree: 2%
 
    視需要包含您正在建立之角色的收費率、成本費率和說明。
 
-1. 移至「使用者」工作表以輸入使用者資訊。
+1. 移至&#x200B;**使用者**&#x200B;工作表。
 
    除非您已在您的帳戶中建立使用者，否則本工作表應該僅顯示已布建每個Workfront帳戶的「管理員使用者」。
 
-   ![角色名稱](assets/rolenames-350x104.png) ![空白的使用者工作表](assets/emptyusersheet-350x52.png)
+   ![使用者工作表](assets/usersheet-350x16.png) ![空白的使用者工作表](assets/emptyusersheet-350x52.png)
 
-1. 在&#39;isNew&#39;欄的列4到列9中指定TRUE，設定True值，因為有6個使用者正在匯入。
+1. 在&#x200B;**isNew**&#x200B;資料行中輸入&#x200B;**TRUE**。
 
-   ![使用者是新使用者](assets/userisnew-350x52.png)
-
-1. 在ID欄的每一列中指定唯一ID，以設定唯一ID。 通常從1開始的整數對於新記錄來說很有效。
+   根據此情境，將會匯入6位使用者，所以請在&#x200B;**isNew**&#x200B;欄中為列4到9輸入&#x200B;**TRUE**。
 
    ![使用者是新使用者](assets/userisnew-350x52.png)
 
-1. 在&#39;setFirstName&#39;和&#39;setLastName&#39;欄中輸入每個使用者的名稱。
+1. 輸入唯一的&#x200B;**識別碼**。
+
+   您必須為每一列輸入識別碼。 建立新記錄時，從1開始的整數可正常運作。
+
+   ![使用者是新使用者](assets/userisnew-350x52.png)
+
+1. 在&#x200B;**setFirstName**&#x200B;和&#x200B;**setLastName**&#x200B;欄位中輸入每個使用者的名稱。
 
    ![使用者名稱](assets/usernames-350x52.png)
 
-1. 在「setEmail」、「setPassword」和「setUsername」欄中指定值，以設定詳細值。
+1. 在&#x200B;**setEmail**、**setPassword**&#x200B;和&#x200B;**setUsername**&#x200B;欄中輸入值，以設定詳細值。
 
    ![使用者認證](assets/usercredentials-350x52.png)
 
 1. 指定存取層級值。
 
-   例如，團隊成員Chris Manning會在「ACSLVL存取層級」表上查詢「團隊成員」存取層級的ID。 將ID複製到剪貼簿，然後在[使用者使用者]工作表中貼到Chris&#39;列上的&#x200B;**setAccessLevelID**&#x200B;欄。
+   例如，Chris Manning是團隊成員。 在&#x200B;**ACSLVL存取層級**&#x200B;工作表上查詢團隊成員存取層級的識別碼。 複製ID，並在&#x200B;**USER User**&#x200B;工作表上貼到該使用者列上的&#x200B;**setAccessLevelID**&#x200B;欄。
 
    對每個使用者和存取層級重複此步驟。
 
    ![複製存取層級ID](assets/copyalid-350x171.png) ![貼上存取層級ID](assets/pastealid-350x59.png)
 
-1. 指定主群組詳細資料。
+1. 輸入使用者的「主群組」詳細資料。
 
-   根據情境，Chris Manning屬於行銷群組。 在「群組群組」工作表上，找到「行銷」群組的ID，將其複製到剪貼簿，然後在「使用者」工作表上將其貼到Chris列上的&#x200B;**setHomeGroupID**&#x200B;欄。&#x200B;URL對每個使用者和群組指派重複此步驟。
+   根據情境，Chris Manning屬於行銷群組。 在&#x200B;**群組群組**&#x200B;工作表上，找出行銷群組的識別碼，加以複製，然後在&#x200B;**使用者使用者**&#x200B;工作表上，將其貼到使用者列上的&#x200B;**setHomeGroupID**&#x200B;欄。&#x200B;URL對每個使用者和群組指派重複此步驟。
 
    ![複製群組識別碼](assets/copygroupid-1-350x133.png) ![貼上群組識別碼](assets/pastegroupid-350x59.png)
 
-1. 指定公司詳細資料。
+1. 輸入使用者的公司詳細資料。
 
-   此情境中的所有使用者都屬於相同公司。 在CMPY公司工作表上，找到*Your Own Company *company的ID，將ID複製到剪貼簿，然後在「使用者」索引標籤上，將此值貼到「setCompanyID」欄的每一列&#x200B;。
+   此情境中的所有使用者都屬於相同公司。 在&#x200B;**CMPY公司**&#x200B;工作表上，找到&#x200B;**您自己的公司**&#x200B;公司的ID，複製ID，然後在&#x200B;**使用者使用者**&#x200B;索引標籤上，將此值貼到&#x200B;**setCompanyID**&#x200B;欄的每一列&#x200B;。
 
    對每個使用者和群組指派重複此步驟。
 
@@ -297,9 +300,9 @@ ht-degree: 2%
 
    ![貼上公司ID](assets/pastecompanyid-350x84.png)
 
-1. 指定工作角色詳細資訊。
+1. 輸入使用者的工作角色詳細資訊。
 
-   根據情況，Chris Manning將擔任Business Analyst角色。 在「角色角色」工作表上，找到「業務分析員」角色的ID，將其複製到剪貼簿，然後在「使用者」工作表上，將其貼到Chris列上的「setRoleID」欄。&#x200B;URL對每個使用者和群組指派重複此步驟。
+   根據情況，Chris Manning將擔任Business Analyst角色。 在&#x200B;**ROLE角色**&#x200B;工作表上，找到Business Analyst角色的ID，複製它，然後在&#x200B;**USER User**&#x200B;工作表上將其貼到使用者列上的&#x200B;**setRoleID**&#x200B;欄。&#x200B;URL對每個使用者和群組指派重複此步驟。
 
    ![複製角色ID](assets/copyroleid-350x149.png)
 
@@ -311,11 +314,10 @@ ht-degree: 2%
    遵循[使用Kick-Start範本將資料匯入Adobe Workfront](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)中提供的指示。
 
 
-
 >[!NOTE]
 >
 >匯入至Workfront的使用者會建立在「已停用」和「等待核准」狀態。
 > 
 >如果您的組織已移轉至Adobe Admin Console，且使用者未在幾分鐘內離開「已停用」和「未決核准」狀態，您可以將使用者批次直接新增到Adobe Admin Console。
 >
->如需指示，請參閱[管理多個使用者 | 在Adobe檔案中大量上傳CSV](https://helpx.adobe.com/tw/enterprise/using/bulk-upload-users.html)。
+>如需指示，請參閱[管理多個使用者 | 在Adobe檔案中大量上傳CSV](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html)。

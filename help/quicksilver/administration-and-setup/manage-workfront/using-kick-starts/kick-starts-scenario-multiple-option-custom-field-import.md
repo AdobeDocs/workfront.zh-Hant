@@ -9,14 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 137d7112c051322c191488463e52abdd73e50d1f
 workflow-type: tm+mt
-source-wordcount: '2181'
+source-wordcount: '2271'
 ht-degree: 0%
 
 ---
 
 # Kick-Starts情境：將多個選項自訂欄位匯入Workfront
+
+{{highlighted-preview}}
 
 您可以使用Kick-Start功能，在Adobe Workfront中匯入具有多個選項的自訂欄位。
 
@@ -25,7 +27,7 @@ ht-degree: 0%
 * 多選下拉清單
 * 下拉
 * 核取方塊
-* 單選按鈕
+* 選項按鈕
 
 這些欄位有時會有許多（有時數百個）選項。 使用Kick-Start功能匯入這些變數，可讓您作為Workfront管理員節省大量時間並確保避免錯誤。
 
@@ -61,7 +63,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td> 
+   <td>[！UICONTROL系統管理員]</td> 
   </tr> 
  </tbody> 
 </table>
@@ -122,9 +124,9 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**匯入資料(Kick-Starts)**。
 
-1. 在&#x200B;**下載空白的Kick-Start試算表**&#x200B;區域中，選取&#x200B;**自訂資料**&#x200B;核取方塊並按一下&#x200B;**下載**。
+1. 在&#x200B;**下載空白的Kick-Start試算表**&#x200B;區域中，選取&#x200B;**自訂資料**&#x200B;核取方塊，然後按一下&#x200B;**下載**。
 
-   ![選取自訂資料](assets/kickstarts-select-existing-data.png)
+   ![選取自訂資料](assets/kickstarts-blank-spreadsheet-options.png)
 
    將空白的快速啟動檔案下載到您的電腦。
 
@@ -167,7 +169,7 @@ ht-degree: 0%
      >
      >有些欄雖然非粗體，但還是需要使用。 例如，`isNew`和`ID`欄不是粗體，但為必填欄位。
 
-1. 選取&#x200B;**0&rbrace;工作表，並在下列必要欄位中新增新自訂欄位的相關資訊：`**&#x200B;PARAM Parameter`
+1. 選取**0}工作表，並在下列必要欄位中新增新自訂欄位的相關資訊：`**PARAM Parameter`
 
    * **`isNew`** =在此欄中為每個代表新自訂欄位的行輸入&#x200B;**`TRUE`**。 這表示欄位是Workfront中的新欄位且不存在。
 
@@ -223,9 +225,9 @@ ht-degree: 0%
      >
      >每個欄位只能有一個預設選項。
 
-   * **`setParameterID`** =與&#x200B;_品牌_&#x200B;自訂欄位對應的選項為&#x200B;**`setParameterID`** （共1個），而與&#x200B;_媒體_&#x200B;對應的選項為&#x200B;**`setParameterID`** （共2個）。 `PARAM`與`POPT`工作表會相互交叉參照，指出哪些選項屬於哪個自訂欄位。
+   * **`setParameterID`** =與&#x200B;_品牌_&#x200B;自訂欄位對應的選項為&#x200B;**`setParameterID`** （共1個），而與&#x200B;_媒體_&#x200B;對應的選項為**`setParameterID`** （共2個）。 `PARAM`與`POPT`工作表會相互交叉參照，指出哪些選項屬於哪個自訂欄位。
    * **`setDisplayOrder`**=顯示順序欄表示選項在自訂欄位中的顯示順序。 您可以從1開始，然後依遞增順序繼續所有選項，無論它們屬於哪個欄位。 這裡重要的是每個選項都有唯一編號。
-   * **`setLabel`**&#x200B;和`**setValue`**&#x200B;欄通常包含相同的資訊，且應反映Workfront UI中所需的名稱。 選項的值是顯示在報表中的名稱，例如，而標籤在附加到物件時顯示在自訂表單中。 如需詳細資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+   * **`setLabel`**&#x200B;和`**setValue`**欄通常包含相同的資訊，且應反映Workfront UI中所需的名稱。 選項的值是顯示在報表中的名稱，例如，而標籤在附加到物件時顯示在自訂表單中。 如需詳細資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
    * **`setIsHidden`** =若要隱藏任何選項，請輸入`TRUE`。
 
    ![參數列已填寫](assets/parameter-option-sheet-filled-out-kick-starts.png)
@@ -243,7 +245,7 @@ ht-degree: 0%
       * 公司&#x200B;**`CMPY`**
       * 任務的&#x200B;**`TASK`**
       * 專案的&#x200B;**`PROJ`**
-      * Portfolio的&#x200B;**`PORT`**
+      * 適用於Portfolio的&#x200B;**`PORT`**
       * 計畫的&#x200B;**`PRGM`**
       * 使用者的&#x200B;**`USER`**
       * 檔案&#x200B;**`DOCU`**
@@ -263,7 +265,6 @@ ht-degree: 0%
 
 1. 將試算表儲存為電腦上的.xls或.xlsx檔案。 您的Excel試算表已填滿，現在可以匯入Workfront了。
 
-
 ## 將Excel試算表上傳至Workfront
 
 執行前述各節所述的步驟後，繼續下列步驟，將新欄位和表單上傳至Workfront：
@@ -274,14 +275,11 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**使用Kick-Start試算表上傳資料**&#x200B;區段下的&#x200B;**選擇檔案**。
 
-1. 在電腦上瀏覽您準備的Excel試算表，並在找到時加以選取。 當Workfront辨識出檔案時，上傳按鈕會變成藍色。
-1. 按一下&#x200B;**上傳。**
+1. 在電腦上瀏覽您準備的Excel試算表，並在找到時加以選取。
 
-   ![已選取檔案並上傳按鈕](assets/kick-start-file-selected-and-upload-blue-button.png)
+   <div class="preview">
 
-1. 系統會顯示匯入成功的通知。 視您匯入的資訊量而定，此步驟可能需要幾秒鐘到一分鐘的時間。
-
-   ![快速啟動成功](assets/kick-start-successful.png)
+   檔案會自動上傳，並顯示已成功匯入的通知。 視您匯入的資訊量而定，此步驟可能需要幾秒鐘到一分鐘的時間。
 
    新的自訂欄位和表單現在包含在您的Workfront系統中。 您可以在「設定」的「自訂Forms」區域中找到它們。
 
@@ -289,12 +287,23 @@ ht-degree: 0%
    >
    >您匯入的新表單和欄位尚未連線。 匯入的表單沒有自訂欄位。 您必須手動將欄位新增至新自訂表單或其他現有自訂表單。
 
+   如需有關新增欄位至自訂表單的資訊，請參閱[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+
+   </div>
+
+1. （僅限生產環境）按一下「**上傳**」。
+
+   系統會顯示匯入成功的通知。 視您匯入的資訊量而定，此步驟可能需要幾秒鐘到一分鐘的時間。
+
+   新的自訂欄位和表單現在包含在您的Workfront系統中。 您可以在「設定」的「自訂Forms」區域中找到它們。
+
+   >[!NOTE]
+   >
+   >您匯入的新表單和欄位尚未連線。 匯入的表單沒有自訂欄位。 您必須手動將欄位新增至新自訂表單或其他現有自訂表單。
 
    如需有關新增欄位至自訂表單的資訊，請參閱[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
-1. （條件式）如果匯入失敗，您會收到錯誤訊息，指出問題所在。 請嘗試識別發生問題的欄位、工作表和列號，並修正Excel檔案中的資訊，然後再次嘗試匯入檔案。
-
-   ![快速啟動錯誤](assets/kick-start-error.png)
+1. （視條件而定）如果匯入失敗，您會收到錯誤訊息，指出問題所在。 嘗試識別發生問題的欄位、工作表和列號，並更正Excel檔案中的資訊。 然後，嘗試再次匯入檔案。
 
 1. （視條件而定）根據問題性質（如錯誤訊息所述），某些資訊可能已匯入。 您必須執行下列任一項作業，才能再次匯入頁面：
 

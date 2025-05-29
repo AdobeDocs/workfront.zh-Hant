@@ -9,14 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 4c80802c8e0084aa9e7be350caefc8929c9c4e2b
+source-git-commit: 137d7112c051322c191488463e52abdd73e50d1f
 workflow-type: tm+mt
-source-wordcount: '2785'
+source-wordcount: '2894'
 ht-degree: 6%
 
 ---
 
 # 使用Kick-Start範本將資料匯入Workfront
+
+{{highlighted-preview}}
 
 <!--Audited: 12/2023-->
 
@@ -53,7 +55,7 @@ Kick-Start是特別格式化的Excel活頁簿，可填入您要匯入Workfront�
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td> 
+   <td>[！UICONTROL系統管理員]</td> 
   </tr> 
  </tbody> 
 </table>
@@ -490,10 +492,17 @@ Kick-Start匯入支援下列檔案型別：
 
 1. 在&#x200B;**使用Kick-Start試算表上傳資料**&#x200B;區段中，按一下&#x200B;**選擇檔案**，然後瀏覽並選取填入的試算表。
 
-1. 按一下&#x200B;**上傳。**
+   <div class="preview">
 
-   如果Excel檔案上傳至Workfront需要5分鐘以上的時間，應用程式會逾時，且Workfront無法上傳檔案。
+   在預覽環境中，檔案會自動上傳，並顯示匯入成功的通知。
 
-   嘗試以較小的物件批次匯入資料。
+   如果Excel檔案上傳至Workfront需要5分鐘以上的時間，應用程式會逾時，且Workfront無法上傳檔案。 嘗試以較小的物件批次匯入資料。
 
-1. （視條件而定）如果您正在使用Workfront Fusion，現在可以開啟FLO或情境。
+   </div>
+
+1. （僅限生產環境）按一下「**上傳**」。
+
+   如果Excel檔案上傳至Workfront需要5分鐘以上的時間，應用程式會逾時，且Workfront無法上傳檔案。 嘗試以較小的物件批次匯入資料。
+
+1. （視條件而定）如果匯入失敗，您會收到錯誤訊息，指出問題所在。 嘗試識別發生問題的欄位、工作表和列號，並更正Excel檔案中的資訊。 然後，嘗試再次匯入檔案。
+1. （視條件而定）如果您正在使用Workfront Fusion，現在可以在匯入完成時開啟FLO或案例。
