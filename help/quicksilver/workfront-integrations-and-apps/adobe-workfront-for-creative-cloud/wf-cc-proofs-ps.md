@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->檔案必須是像片檔案預設集，如[Photoshop](https://helpx.adobe.com/photoshop/using/create-documents.html)中的範本和預設集所述。
+>檔案必須是像片檔案預設集，如[Photoshop](https://helpx.adobe.com/tw/photoshop/using/create-documents.html)中的範本和預設集所述。
 
 
 
