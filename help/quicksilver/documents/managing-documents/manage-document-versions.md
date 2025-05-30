@@ -6,14 +6,16 @@ description: 您可以在Workfront中管理檔案的多個版本。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 477153e4-847b-46ec-8107-72a7399c3767
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '665'
 ht-degree: 0%
 
 ---
 
 # 管理檔案版本
+
+<!-- Audited: 5/2025 -->
 
 您可以在Workfront中管理檔案的多個版本。
 
@@ -28,15 +30,21 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
    <td> <p> 任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>要求或更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> 
+   <p>新增：投稿人或更高版本<p>
+   <p>或</p>
+   <p>目前：要求或以上 </p>
+
+
+</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
+   <td role="rowheader">存取層級設定</td> 
    <td> <p>檢視檔案的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -46,7 +54,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -58,27 +66,47 @@ ht-degree: 0%
 
 ## 檢視檔案所有版本的清單
 
-1. 在[摘要]中，捲動至檢視&#x200B;**所有版本**&#x200B;區段。 您可以在此檢視檔案的所有版本。
+{{step1-to-documents}}
+
+1. 在&#x200B;**檔案**&#x200B;頁面上，選取清單中的檔案。
+
+1. 在頁面的右上角，按一下&#x200B;**開啟摘要**&#x200B;圖示![開啟摘要圖示](assets/qs-summary-in-new-toolbar-small.png)。 **檔案摘要**&#x200B;側面板隨即開啟。
+
+1. 向下捲動至&#x200B;**版本**&#x200B;區段以檢視所有檔案版本。
 
 ## 檢視和管理先前檔案版本的詳細資訊
 
-1. 在「檔案詳細資訊」頁面頂端附近，按一下名稱旁邊的下拉式功能表，然後按一下您要檢視及管理的版本名稱。
+{{step1-to-documents}}
 
-   檔案詳細資料中的![版本下拉式清單](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
+1. 將滑鼠停留在檔案上，然後按一下&#x200B;**檔案詳細資料**。
+
+1. 在&#x200B;**檔案詳細資料**&#x200B;頁面頂端附近，按一下名稱旁邊的下拉式功能表，然後按一下您要檢視及管理的版本名稱。
+
+   檔案詳細資訊頁面上的![版本下拉式清單](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
 
    除了檢視版本的詳細資訊之外，您還可以變更版本，例如其名稱、中繼資料和校訂設定（如果是檔案校訂）。
 
 ## 下載單一檔案版本
 
-1. 在[摘要]中的&#x200B;**版本**&#x200B;下，按一下版本右側的[更多]功能表![[更多]功能表](assets/more-icon.png)，然後在出現的下拉式清單中按一下&#x200B;**[下載]**。
+{{step1-to-documents}}
+
+1. 在&#x200B;**檔案**&#x200B;頁面上，選取清單中的檔案。
+
+1. 在頁面的右上角，按一下&#x200B;**開啟摘要**&#x200B;圖示![開啟摘要圖示](assets/qs-summary-in-new-toolbar-small.png)。 **檔案摘要**&#x200B;側面板隨即開啟。
+
+1. 在&#x200B;**版本**&#x200B;區段中，按一下版本右側的&#x200B;**更多**&#x200B;功能表![更多](assets/more-icon.png)，然後按一下出現的下拉式清單中的&#x200B;**下載**。
 
    ![下載單一檔案](assets/more-versions-350x143.png)
 
 ## 下載檔案的所有版本
 
-1. 按一下&#x200B;**檔案詳細資料**，然後在左側面板中選取&#x200B;**所有版本**。
+{{step1-to-documents}}
 
-1. 按一下清單頂端的&#x200B;**全部下載**。
+1. 在&#x200B;**檔案**&#x200B;頁面上，選取清單中的檔案。
+
+1. 在頁面的右上角，按一下&#x200B;**開啟摘要**&#x200B;圖示![開啟摘要圖示](assets/qs-summary-in-new-toolbar-small.png)。 **檔案摘要**&#x200B;側面板隨即開啟。
+
+1. 向下捲動至&#x200B;**版本**&#x200B;區段，然後按一下&#x200B;**全部下載**。
 
 ## 刪除檔案版本
 
@@ -90,7 +118,7 @@ ht-degree: 0%
 
 當您考慮刪除檔案版本時，請牢記下列事項：
 
-* 一次只能刪除一個版本。 如果刪除了版本，此動作會出現在檔案上的&#x200B;**更新**&#x200B;中。
+* 一次只能刪除一個版本。 如果刪除了版本，則此動作會出現在檔案上的「更新」區段中。
 * 如果您在刪除版本後上傳新版本，則新版本會收到下一個連續數字。 例如，如果檔案有3個版本，而您刪除了版本3，則下一個上傳的檔案將是版本4。
 * 刪除版本後，針對版本所做的系統更新和註解會保留在Workfront中。
 
@@ -100,9 +128,18 @@ ht-degree: 0%
 
 若要刪除檔案版本：
 
-1. 前往包含檔案的專案、任務或問題，然後選取「**檔案**」。尋找您需要的檔案。
-1. 在[摘要]的&#x200B;**版本**&#x200B;區域中，按一下版本，然後按一下出現的下拉式清單中的&#x200B;**刪除**。 **刪除**&#x200B;選項只有在至少有兩個版本時才可見。
+{{step1-to-documents}}
 
-   如果檔案連結到外部來源，則該連結會遭到刪除，並且該檔案無法再透過Workfront存取。
+1. 在&#x200B;**檔案**&#x200B;頁面上，從清單中選取檔案。
+
+1. 在頁面的右上角，按一下&#x200B;**開啟摘要**&#x200B;圖示![開啟摘要圖示](assets/qs-summary-in-new-toolbar-small.png)。 **檔案摘要**&#x200B;側面板隨即開啟。
+
+1. 向下捲動至&#x200B;**版本**&#x200B;區段以檢視所有檔案版本。
+1. 在&#x200B;**版本**&#x200B;區段中，按一下版本右側的&#x200B;**更多**&#x200B;功能表![更多](assets/more-icon.png)，然後按一下出現的下拉式清單中的&#x200B;**刪除**。
+
+   >[!NOTE]
+   >
+   >* **刪除**&#x200B;選項只有在至少有2個版本時才可見。
+   >* 如果檔案連結到外部來源，則該連結會遭到刪除，並且該檔案無法再透過Workfront存取。
 
    ![刪除檔案版本](assets/more-versions-350x143.png)

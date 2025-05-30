@@ -2,21 +2,23 @@
 content-type: overview
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
-title: 敏捷規劃工具總覽
-description: 當您使用隨選和連線的卡片建立展示板時，您可能想要利用展示板上的其他敏捷計畫工具。
+title: 敏捷規劃工具總覽：文章索引
+description: 當您使用臨機操作卡和連線的卡片來建立展示板時，您可以利用展示板上的其他敏捷計畫工具。
 author: Lisa
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 0%
 
 ---
 
-# 敏捷規劃工具總覽
+# 敏捷規劃工具總覽：文章索引
 
-當您使用臨機操作卡和連線的卡片來建立展示板時，您可能想要利用其他的敏捷規劃工具。
+<!-- Audited: 5/2025 -->
+
+當您使用臨機操作卡和連線的卡片來建立展示板時，您可以利用其他的敏捷規劃工具。
 
 適用於Kanban的工具包括：
 

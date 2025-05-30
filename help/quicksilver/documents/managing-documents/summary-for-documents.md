@@ -7,7 +7,7 @@ description: 「摘要」可讓您直接從檔案清單與重要資訊互動。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: daa46f0e2a5f656d048260d4a714ed02f01cdbbf
+source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 2%
@@ -110,7 +110,7 @@ ht-degree: 2%
 
 ## 版本
 
-使用「版本」區段可檢視針對特定檔案建立的版本數目。 按一下&#x200B;**更多**&#x200B;圖示![更多圖示](assets/more-icon.png)以執行下列動作：
+使用「版本」區段可檢視針對特定檔案建立的版本數目。 按一下「更多」圖示![「更多」圖示](assets/more-icon.png)以執行下列動作：
 
 * 開啟校訂。
 * 下載校訂或檔案。
