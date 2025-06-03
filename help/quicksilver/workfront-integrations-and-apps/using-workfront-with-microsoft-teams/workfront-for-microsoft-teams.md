@@ -8,24 +8,20 @@ author: Becky
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 88b05a70-a304-461d-bab3-21d328c9356e
-source-git-commit: 69fdb5c23bb501fc81e4ef3c3ab7c94e78e69d29
+source-git-commit: 75c4baf5ceca53f7ba85ffcc34876bca1238c9de
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront for Microsoft Teams] 概觀
 
-<!-- Audited: 12/2023 -->
-
-<!--
-
->[!NOTE]
+>[!IMPORTANT]
 >
->As of July 1, 2025, Microsoft will remove support for the Classic Teams desktop app. As a result, the Workfront integration with Microsoft Teams will not be supported after the Classic Teams desktop app is no longer available.
-
--->
+>隨著Microsoft轉換為新團隊使用者端，Classic Teams使用者端在2025年7月1日之後將不再可用。 為此，我們正在開發Microsoft Teams整合的新版本，此版本將與新團隊使用者端完全相容，並可在7月1日之前提供使用，以確保順利轉換。
+>
+>整合推出後，說明如何下載及安裝在新團隊使用者端中。
 
 身為團隊擁有者在[!DNL Microsoft Teams]中，您可以為團隊安裝[!DNL Adobe Workfront for Microsoft Teams]應用程式。
 

@@ -7,24 +7,20 @@ description: Adobe Workfront提供與Microsoft Teams的整合。 本文連結至
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: b8b9d216-b529-4ff0-9259-b37724675d6a
-source-git-commit: 69fdb5c23bb501fc81e4ef3c3ab7c94e78e69d29
+source-git-commit: 75c4baf5ceca53f7ba85ffcc34876bca1238c9de
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront for Microsoft Teams]：文章索引
 
-<!--Audited: 01/2024-->
-
-<!--
-
->[!NOTE]
+>[!IMPORTANT]
 >
->As of July 1, 2025, Microsoft will remove support for the Classic Teams desktop app. As a result, the Workfront integration with Microsoft Teams will not be supported after the Classic Teams desktop app is no longer available.
-
--->
+>隨著Microsoft轉換為新團隊使用者端，Classic Teams使用者端在2025年7月1日之後將不再可用。 為此，我們正在開發Microsoft Teams整合的新版本，此版本將與新團隊使用者端完全相容，並可在7月1日之前提供使用，以確保順利轉換。
+>
+>整合推出後，說明如何下載及安裝在新團隊使用者端中。
 
 Adobe Workfront提供與Microsoft Teams的整合。 本文連結至安裝和設定此整合的說明，以及如何在日常工作中使用它。
 

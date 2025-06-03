@@ -6,22 +6,20 @@ description: 當您的團隊所有者安裝適用於Microsoft Teams的Adobe Work
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5975d773-eae6-44ae-8296-2013504da3a8
-source-git-commit: 69fdb5c23bb501fc81e4ef3c3ab7c94e78e69d29
+source-git-commit: 75c4baf5ceca53f7ba85ffcc34876bca1238c9de
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '574'
 ht-degree: 0%
 
 ---
 
 # 提交來自[!DNL Microsoft]團隊的[!DNL Adobe Workfront]個請求
 
-<!--
-
->[!NOTE]
+>[!IMPORTANT]
 >
->As of July 1, 2025, Microsoft will remove support for the Classic Teams desktop app. As a result, the Workfront integration with Microsoft Teams will not be supported after the Classic Teams desktop app is no longer available.
-
--->
+>隨著Microsoft轉換為新團隊使用者端，Classic Teams使用者端在2025年7月1日之後將不再可用。 為此，我們正在開發Microsoft Teams整合的新版本，此版本將與新團隊使用者端完全相容，並可在7月1日之前提供使用，以確保順利轉換。
+>
+>整合推出後，說明如何下載及安裝在新團隊使用者端中。
 
 在團隊擁有者安裝[!DNL Adobe Workfront for Microsoft Teams]之後，您就可以從您的[!DNL Microsoft Teams]帳戶提交[!DNL Workfront]要求。 若要這麼做，您必須擁有有權提交請求的Workfront帳戶。 如需有關安裝[!DNL Workfront for Microsoft Teams]的資訊，請參閱[安裝 [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)。
 
@@ -82,7 +80,7 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader"> </td> 
-      <td> <p>附加您要納入請求的任何檔案。 您可以透過拖放或按一下[!UICONTROL 選取檔案]並瀏覽至您的檔案系統並選取檔案來附加檔案。</p> </td> 
+      <td> <p>附加您要納入請求的任何檔案。 您可以透過拖放或按一下[！UICONTROL選取檔案]並瀏覽至您的檔案系統並選取檔案來附加檔案。</p> </td> 
      </tr> 
     </tbody> 
    </table>
