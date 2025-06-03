@@ -5,9 +5,9 @@ description: 您可以使用計分卡來測量專案與先前建立的專案組�
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
 workflow-type: tm+mt
-source-wordcount: '1240'
+source-wordcount: '1227'
 ht-degree: 0%
 
 ---
@@ -24,8 +24,6 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -33,20 +31,20 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">Adobe Workfront計畫</td> 
    <td>
-   <p>新增：Prime或更高</p>
+   <p>目前：Prime或更新版本</p>
    <p>或</p>
-   <p>目前：商務或以上</p> </td>
+   <p>舊版：商務或更新版本</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td>
-   <p>新增：標準</p>
+   <p>目前：標準</p>
    <p>或</p>
-   <p>目前：計畫</p></td>  
+   <p>舊版：計畫</p></td>  
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>編輯專案的存取權</p> <p>檢視或更高的Portfolio存取許可權</p> </td> 
+   <td> <p>編輯專案的存取權</p> <p>檢視或更高的投資組合存取權</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
@@ -68,7 +66,7 @@ ht-degree: 0%
 
 通常，專案經理會完成計分卡資訊，以便為專案產生介於0到100之間的對齊值。 產品組合經理在審查產品組合最佳化工具中的專案以進行比較時，稍後會使用產生的值。
 
-如需產品組合最佳化的詳細資訊，請參閱[Portfolio最佳化工具概觀](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)。
+如需產品組合最佳化的詳細資訊，請參閱[Portfolio最佳化工具總覽](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)。
 
 ### 將計分卡套用至專案
 
@@ -151,14 +149,14 @@ ht-degree: 0%
 
 ## 檢視一致性分數
 
-您可以在專案層級或Portfolio最佳化工具中檢視專案的對齊分數。
+您可以在專案層級或Portfolio Optimizer中檢視專案的對齊分數。
 
 * [檢視專案上的對齊分數](#view-the-alignment-score-on-a-project)
-* [在Portfolio最佳化工具中檢視專案和專案組合的對齊分數](#view-the-alignment-scores-of-the-project-and-of-the-portfolio-in-the-portfolio-optimizer)
+* [在Portfolio Optimizer中檢視專案和專案組合的對齊分數](#view-the-alignment-scores-of-the-project-and-of-the-portfolio-in-the-portfolio-optimizer)
 
 ### 檢視專案上的對齊分數
 
-如果您擁有專案的Contribute許可權，則可以在專案層級檢視專案的對齊分數。
+如果您擁有專案的貢獻許可權，則可以在專案層級檢視專案的對齊分數。
 
 1. 前往您要檢視其對齊分數的專案。
 1. 按一下左側面板中的&#x200B;**業務案例**。
@@ -168,51 +166,51 @@ ht-degree: 0%
 
    專案上的![一致性分數](assets/alignment-score-on-a-project.png)
 
-### 在Portfolio最佳化工具中檢視專案和專案組合的對齊分數
+### 在Portfolio Optimizer中檢視專案和專案組合的對齊分數
 
-如果您擁有專案組合的管理存取權，可以在Portfolio最佳化工具中檢視專案或專案組合的對齊分數。
+如果您擁有專案組合的管理存取權，可以在Portfolio Optimizer中檢視專案或專案組合的對齊分數。
 
-如需有關Portfolio最佳化工具中顯示之資訊的詳細資訊，請參閱[Portfolio最佳化工具概觀](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)。
+如需Portfolio Optimizer中所顯示資訊的詳細資訊，請參閱[Portfolio Optimizer概觀](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)。
 
-* [在Portfolio最佳化工具中找出專案的對齊分數](#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer)
-* [在Portfolio最佳化工具中找出專案組合的對齊分數](#locate-the-alignment-score-of-the-portfolio-in-the-portfolio-optimizer)
+* [在Portfolio Optimizer中找到專案的對齊分數](#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer)
+* [在Portfolio Optimizer中找到專案組合的對齊分數](#locate-the-alignment-score-of-the-portfolio-in-the-portfolio-optimizer)
 
-  Portfolio最佳化工具中的![一致性分數](assets/alignment-score-in-portfolio-optimizer.png)
+  Portfolio Optimizer中的![一致性分數](assets/alignment-score-in-portfolio-optimizer.png)
 
-#### 在Portfolio最佳化工具中找出專案的對齊分數 {#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer}
+#### 在Portfolio Optimizer中找出專案的對齊分數 {#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer}
 
 {{step1-to-portfolios}}
 
 1. 按一下投資組合的名稱。
 1. 按一下左側面板中的&#x200B;**Portfolio最佳化**。
 
-   隨即顯示Portfolio最佳化工具。
+   Portfolio Optimizer隨即顯示。
 
-   專案的對齊分數會在Portfolio最佳化工具的&#x200B;**對齊**&#x200B;欄中顯示為百分比。
+   專案的對齊分數在Portfolio Optimizer的&#x200B;**對齊方式**&#x200B;欄中顯示為百分比。
 
    這是根據與專案相關聯計分卡的專案一致性分數。
 
-#### 在Portfolio最佳化工具中找出專案組合的對齊分數  {#locate-the-alignment-score-of-the-portfolio-in-the-portfolio-optimizer}
+#### 在Portfolio Optimizer中找到專案組合的對齊分數  {#locate-the-alignment-score-of-the-portfolio-in-the-portfolio-optimizer}
 
 {{step1-to-portfolios}}
 
 1. 按一下投資組合的名稱。
 1. 按一下左側面板中的&#x200B;**Portfolio最佳化**。
-1. 在Portfolio最佳化工具頂端找到&#x200B;**Aligned**&#x200B;值，以及&#x200B;**Alignment**&#x200B;量規，表示投資組合的對齊分數。
+1. 在Portfolio Optimizer頂端找到&#x200B;**Aligned**&#x200B;值，以及&#x200B;**Aligned**&#x200B;量規，其表示投資組合的對齊分數。
 
    這是投資組合的對齊分數。
 
    如需如何產生投資組合的對齊分數的相關資訊，請參閱[產生投資組合的對齊分數](#generate-an-alignment-score-for-a-portfolio)。
 
-## Portfolio最佳化工具分數概述
+## Portfolio Optimizer分數概述
 
 一致性分數和專案的投資組合最佳化工具分數之間有所差異。
 
 專案的對齊分數是根據完成計分卡後獲得的點數來計算。 然後，會使用此分數來決定產品組合校準分數。 對齊分數會以百分比顯示。
 
-專案的對齊分數會顯示在Portfolio最佳化工具的&#x200B;**對齊**&#x200B;欄中。
+專案的對齊分數會顯示在Portfolio Optimizer的&#x200B;**Alignment**&#x200B;欄中。
 
-專案組合最佳化工具分數是在Portfolio最佳化工具中自動計算的排名，專案可依此排定優先順序。 專案組合最佳化工具分數會顯示為指標圖示，並附上數字，且會顯示在Portfolio最佳化工具的&#x200B;**分數**&#x200B;欄中。 Portfolio最佳化工具分數只會在業務案例的所有區段（目標除外）完成後產生。
+專案組合最佳化工具分數是在Portfolio最佳化工具中自動計算的排名，專案可依此排定優先順序。 專案組合最佳化工具分數會顯示為指標圖示，並附上數字，且會顯示在Portfolio最佳化工具的&#x200B;**分數**&#x200B;欄中。 Portfolio Optimizer分數只會在業務案例的所有區段（目標除外）完成後產生。
 
 如需為專案建立業務案例的詳細資訊，請參閱[為專案建立業務案例](../../../manage-work/projects/define-a-business-case/create-business-case.md)。
 

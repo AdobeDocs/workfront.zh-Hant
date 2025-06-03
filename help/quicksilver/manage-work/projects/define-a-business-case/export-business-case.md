@@ -6,9 +6,9 @@ description: 您可以將業務案例匯出至PDF檔案，以備您以更精簡�
 author: Alina
 feature: Work Management
 exl-id: 834c56c4-ca11-4aff-b67e-0eac9fa23403
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## 存取需求
 
-您必須具備下列條件：
++++ 展開以檢視本文中功能的存取需求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -27,11 +27,13 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront計畫*</td> 
-   <td> <p>任何 </p> </td> 
+   <td> <p>目前：Prime或更新版本 </p> <p>舊版：Pro或更高版本 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>評論或以上</p> </td> 
+   <td> 
+   <p>目前：淺色或更高</p>
+   <p>舊版：檢閱或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
@@ -44,7 +46,9 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 匯出業務案例
 

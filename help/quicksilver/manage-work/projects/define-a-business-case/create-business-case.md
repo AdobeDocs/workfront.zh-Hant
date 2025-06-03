@@ -5,9 +5,9 @@ description: 您可以使用業務案例來請求專案，並定義專案的目�
 author: Alina
 feature: Work Management
 exl-id: db69b3bf-04e3-49b4-ae0d-ab6145389db5
-source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
+source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '841'
 ht-degree: 0%
 
 ---
@@ -20,19 +20,22 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr> 
+ <tr> 
    <td role="rowheader">Adobe Workfront計畫</td> 
-   <td> <p>任何 </p> </td> 
+   <td> 
+   <p>目前：Prime或更新版本</p> 
+   <p>舊版：Pro或更高版本</p> 
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>計畫或更高</p> </td> 
+   <td> 
+   <p>目前：標準 </p> 
+   <p>舊版：計畫 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 

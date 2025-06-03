@@ -5,9 +5,9 @@ description: 建立業務案例時，您可以建立一組目標來定義專案�
 author: Alina
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: b38c98ec79617a78c76510bcb109da2ff83247af
+source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '495'
 ht-degree: 1%
 
 ---
@@ -43,8 +43,6 @@ ht-degree: 1%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -53,14 +51,14 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront計畫</td> 
-   <td> <p>Pro或更高</p> </td> 
+   <td> <p>目前：Prime或更新版本</p>
+   <p>舊版：Pro或更高版本</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td>
    <td> 
-   <p>新增：標準</p> 
-   <p>或</p>
-   <p>目前：計畫 </p> 
+   <p>目前：標準</p> 
+   <p>舊版：計畫 </p> 
    </td> 
   </tr> 
   <tr> 
@@ -105,6 +103,6 @@ ht-degree: 1%
      >
      >您無法自訂目標的重要性層級。
 
-1. （選擇性）若要新增其他目標，請按一下[新增其他目標] **&#x200B;**，並重複步驟5-6。
+1. （選擇性）若要新增其他目標，請按一下[新增其他目標] ****，並重複步驟5-6。
 
 1. 按一下「**儲存**」。

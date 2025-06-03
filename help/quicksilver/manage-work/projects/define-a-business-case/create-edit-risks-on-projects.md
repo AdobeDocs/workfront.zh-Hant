@@ -6,7 +6,7 @@ description: 風險是阻礙專案準時完成或在預算內完成的可能事�
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
+source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
 workflow-type: tm+mt
 source-wordcount: '1080'
 ht-degree: 1%
@@ -45,10 +45,11 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront計畫</td> 
-   <td> <p>任何</p> </td> 
+   <td> 
+   <p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
    <td> <p>新增：標準 </p>
    <p>目前：計畫 </p> </td> 
   </tr> 
@@ -63,7 +64,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -157,7 +158,7 @@ ht-degree: 1%
 
    或
 
-   選取一或多個風險，然後按一下[編輯] **&#x200B;**&#x200B;以同時編輯多個風險。
+   選取一或多個風險，然後按一下[編輯] ****&#x200B;以同時編輯多個風險。
 
    >[!NOTE]
    >

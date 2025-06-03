@@ -5,9 +5,9 @@ description: 作為資源計畫的一部份，當您建立業務案例時，可�
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: f1d235a21dcf939570d4d93f08f31865eab42803
+source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1240'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,9 @@ ht-degree: 0%
 >
 >您在專案層次「資源供需規劃員」中輸入的資訊，也會顯示在系統層次「資源供需規劃員」中。 反之亦然。 如需資源規劃工具的相關資訊，請參閱[資源規劃工具概觀](../../../resource-mgmt/resource-planning/get-started-resource-planner.md)。
 
-您也可以使用Adobe Workfront案例規劃工具，為業務案例中的資源編列預算。 如需詳細資訊，請參閱使用案例規劃工具[&#128279;](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)的業務案例中的預算資源。
+您也可以使用Adobe Workfront案例規劃工具，為業務案例中的資源編列預算。 如需詳細資訊，請參閱使用案例規劃工具](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)的業務案例中的[預算資源。
 
 ## 存取需求
-
-您必須具備下列專案才能執行本文所述的步驟：
 
 +++ 展開以檢視本文中功能的存取需求。
 
@@ -38,12 +36,14 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront計畫</td> 
-   <td> <p>Prime或更新版本</p> </td> 
+   <td> <p>目前：Prime或更新版本</p>
+   <p>舊版：Pro或更高版本</p> 
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>新增：淺色或更高</p>
-   <p>目前：檢閱或以上</p>
+   <td> <p>目前：淺色或更高</p>
+   <p>舊版：檢閱或更高版本</p>
 
 <p><b>重要：</b></p> 
    <p>新增：您必須擁有標準授權，才能修改資源預算資訊。 </p> 
@@ -66,7 +66,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
