@@ -8,14 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 52ba2457ac2870d23e325f64163b683756f88ad4
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '823'
 ht-degree: 8%
 
 ---
 
 # 設定系統更新
+
+<!-- Audited: 5/2025 -->
 
 [!DNL Adobe Workfront]在物件的[!UICONTROL 更新]區域產生自動系統更新，以記錄下列事件：
 
@@ -38,8 +40,6 @@ ht-degree: 8%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -50,14 +50,14 @@ ht-degree: 8%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td><p>新增：[!UICONTROL Standard]</p>
+   <td><p>新增：[！UICONTROL Standard]</p>
    或
-   <p>目前： [!UICONTROL 計畫]</p>
+   <p>目前： [！UICONTROL計畫]</p>
    </td> 
   </tr>  
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td>
+   <td>[！UICONTROL系統管理員]</td>
   </tr> 
  </tbody> 
 </table>
@@ -79,7 +79,7 @@ ht-degree: 8%
 
 
 * [新增您要 [!DNL Workfront] 追蹤的欄位](#add-fields-you-want-workfront-to-track)
-* [移除不想追蹤的欄位](#remove-fields-that-you-don-t-want-tracked)
+* [移除您不想要追蹤的欄位](#remove-fields-you-don-t-want-tracked)
 
 ### 新增您要[!DNL Workfront]追蹤的欄位 {#add-fields-you-want-workfront-to-track}
 
@@ -87,39 +87,35 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->您可以在更新摘要中追蹤最多300個內建和自訂欄位。 若您正在追蹤最大欄位數，且想要追蹤未顯示在[!UICONTROL 所有欄位]子標籤中的其他欄位，您必須先移除部分已追蹤的欄位，才能追蹤新欄位。 如需有關從更新欄位移除欄位的詳細資訊，請參閱[移除您不想追蹤的欄位](#remove-fields-that-you-don-t-want-tracked)。
+>您可以在更新摘要中追蹤最多300個內建和自訂欄位。 若您正在追蹤最大欄位數，且想要追蹤未顯示在[!UICONTROL 所有欄位]子標籤中的其他欄位，您必須先移除部分已追蹤的欄位，才能追蹤新欄位。 如需有關從更新欄位移除欄位的詳細資訊，請參閱[移除您不想追蹤的欄位](#remove-fields-you-don-t-want-tracked)。
 
-1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![齒輪設定圖示](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
-1. 在左側的面板中，按一下&#x200B;**[!UICONTROL 介面]** > **[!UICONTROL 更新摘要]**。
+1. 在左側的面板中，按一下&#x200B;**[!UICONTROL 介面]**，然後按&#x200B;**[!UICONTROL 更新摘要]**。
 
-1. 按&#x200B;一下&#x200B;**[!UICONTROL 新增欄位]**，然後按一下您要追蹤的物件。
+1. 按&#x200B;一下&#x200B;**[!UICONTROL 新增欄位]**，然後從下拉式清單中選取您要追蹤的物件。
 
-1. 在出現的&#x200B;**[!UICONTROL 更新摘要]**&#x200B;方塊中，開始輸入物件的內建（標準）欄位或自訂欄位，然後按一下以在物件出現在清單中時選取它。
+1. 在出現的方塊中，開始輸入物件的內建（標準）欄位或自訂欄位，然後當物件出現在清單中時選取它。
 
-   如果[!DNL Workfront]已在追蹤欄位，您無法從清單中再次新增該欄位。
+   >[!NOTE]
+   >
+   >如果[!DNL Workfront]已在追蹤欄位，您無法從清單中再次新增該欄位。
 
-1. 新增所有您要[!DNL Workfront]追蹤的欄位後，請按一下&#x200B;**[!UICONTROL 新增欄位]**。
-
-   您新增的內建欄位會顯示在&#x200B;**[!UICONTROL 內建欄位]**&#x200B;子標籤下。
-
-   您新增的自訂欄位會顯示在&#x200B;**[!UICONTROL 自訂欄位]**&#x200B;子標籤下。
+1. 新增所有您要[!DNL Workfront]追蹤的欄位後，請按一下&#x200B;**[!UICONTROL 新增欄位]**。 您新增的內建欄位會顯示在&#x200B;**[!UICONTROL 內建欄位]**&#x200B;子標籤下，而自訂欄位會顯示在&#x200B;**[!UICONTROL 自訂欄位]**&#x200B;子標籤下。
 
    **[!UICONTROL 所有欄位]**&#x200B;子標籤同時顯示正在追蹤的內建和自訂欄位。
 
-### 移除不想追蹤的欄位 {#remove-fields-that-you-don-t-want-tracked}
+### 移除您不想要追蹤的欄位 {#remove-fields-you-don-t-want-tracked}
 
 您可以移除不希望系統透過[!DNL Workfront]介面追蹤特定物件型別的欄位。
 
-1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![齒輪設定圖示](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
-1. 按一下&#x200B;**[!UICONTROL 介面]** > **[!UICONTROL 更新摘要]**。
+1. 按一下&#x200B;**[!UICONTROL 介面]**，然後按&#x200B;**[!UICONTROL 更新摘要]**。
 
-1. 在&#x200B;**[!UICONTROL 追蹤的欄位]**&#x200B;標籤上，選取&#x200B;**[!UICONTROL 所有欄位]**&#x200B;子標籤。
+1. 在&#x200B;**[!UICONTROL 追蹤的欄位]**&#x200B;標籤上，選取&#x200B;**[!UICONTROL 所有欄位]**&#x200B;子標籤。 目前追蹤的內建和自訂欄位都會顯示。
 
-   這會顯示目前追蹤的內建和自訂欄位。
-
-1. 選取您要停止追蹤的欄位，然後按一下[移除]。**&#x200B;**
+1. 選取您要停止追蹤的欄位，然後按一下[移除]。****
 
 1. 在出現的&#x200B;**[!UICONTROL 移除欄位]**&#x200B;方塊中，按一下&#x200B;**[!UICONTROL 是，移除它]**&#x200B;以進行確認。
 
@@ -198,13 +194,13 @@ ht-degree: 8%
 
 若要設定您要[!DNL Workfront]追蹤的動作：
 
-1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![齒輪設定圖示](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
-1. 按一下&#x200B;**[!UICONTROL 介面]** > **[!UICONTROL 更新摘要]**。
+1. 按一下&#x200B;**[!UICONTROL 介面]**，然後按&#x200B;**[!UICONTROL 更新摘要]**。
 
 1. 按一下&#x200B;**[!UICONTROL 動作]**&#x200B;標籤。
 
-1. 選取要啟用的動作，或取消選取要停用的動作。
+1. 選取動作的核取方塊以啟用動作，或取消選取動作以停用動作。
 1. 按一下「**[!UICONTROL 儲存]**」。
 
 當您停用動作時，先前記錄的有關該動作的任何更新都會保留在記錄該動作的[!UICONTROL 更新]區域中。

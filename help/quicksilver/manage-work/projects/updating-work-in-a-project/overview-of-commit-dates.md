@@ -3,20 +3,20 @@ content-type: overview
 product-area: projects
 navigation-topic: update-work-in-a-project
 title: 認可日期總覽
-description: 認可日期是指指派給任務或問題的使用者認可完成任務或問題的日期。 這與計畫完成日期不同，因為這是由直接負責工作的使用者提供的完成日期更實際的估計值。
+description: 認可日期是指使用者指派給任務或問題認可完成任務或問題的日期。 這與計畫完成日期不同，因為這是由直接負責工作的使用者提供的完成日期更實際的估計值。
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
+source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '869'
 ht-degree: 0%
 
 ---
 
 # 認可日期總覽
 
-<!--Audited: 07/2024-->
+<!--Audited: 05/2025-->
 
 <!-- <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
@@ -24,9 +24,7 @@ ht-degree: 0%
 
 <span class="preview">For information about the current release, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>-->
 
-認可日期是指指派給任務或問題的使用者認可完成任務或問題的日期。
-
-這與任務或問題的規劃完成日期不同，因為這是僅由負責工作的使用者提供的完成日期更實際的估計值。
+認可日期是指使用者指派給任務或問題認可完成任務或問題的日期。 這與任務或問題的規劃完成日期不同，因為這是僅由負責工作的使用者提供的完成日期更實際的估計值。
 
 如需計畫完成日期的詳細資訊，請參閱[任務計畫完成日期的總覽](../../../manage-work/tasks/task-information/task-planned-completion-date.md)。
 
@@ -35,13 +33,11 @@ ht-degree: 0%
 處理認可日期時，請考量下列事項：
 
 * 只有任務和問題具有認可日期。
-* Adobe Workfront不會自動設定認可日期。\
-  當您建立任務或問題時，沒有指派給任務或問題的認可日期。
+* Adobe Workfront不會自動設定認可日期。 當您建立任務或問題時，沒有為其指派認可日期。
 * 如果您被指派到任務或問題，則可以執行下列操作之一來設定「認可日期」：
 
-   * 透過按一下任務或問題上的「處理任務」、「開始問題」或「開始任務」，讓Workfront設定認可日期以符合任務或問題的現有規劃完成日期。 有關將[處理它]按鈕取代為[開始]按鈕的資訊，請參閱[將[處理它]按鈕取代為[開始]按鈕](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)。
-   * 根據您認為任務或問題可能完成的時間手動設定認可日期。 這是您作為受託人，對「專案經理」的估計與承諾，表示您將在特定日期前完成任務或問題。
-如需詳細資訊，請參閱[更新任務和問題的認可日期](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md)。
+   * 透過按一下任務或問題上的「處理任務」、「開始問題」或「開始任務」，讓Workfront設定認可日期以符合任務或問題的現有規劃完成日期。 如需詳細資訊，請參閱[以開始按鈕取代處理它按鈕](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)。
+   * 根據您認為任務或問題將完成的時間，手動設定認可日期。 這是您作為受託人，對「專案經理」的估計與承諾，表示您將在特定日期前完成任務或問題。 如需詳細資訊，請參閱[更新任務和問題的認可日期](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md)。
 
 >[!NOTE]
 >
@@ -52,7 +48,7 @@ ht-degree: 0%
 >* 資源管理員
 >* 系統管理員
 >* 任務上的任何其他受指派人
->* 擁有任務許可權的任何其他使用者。
+>* 擁有任務許可權的任何其他使用者
 >
 >如需有關工作擁有者的詳細資訊，請參閱[編輯工作](../../../manage-work/tasks/manage-tasks/edit-tasks.md)。
 
@@ -61,7 +57,7 @@ ht-degree: 0%
 您可以在Workfront的下列區域中找到任務和問題的認可日期：
 
 * 詳細資訊頁面
-* 在Workfront或群組管理員將其新增到您的版面配置範本後，顯示「摘要」面板。 如需詳細資訊，請參閱[使用配置範本自訂摘要面板](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)。
+* Workfront或群組管理員新增至您的版面配置範本後的「摘要」面板。 如需詳細資訊，請參閱[使用配置範本自訂摘要面板](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)。
 * Workfront或群組管理員將任務或問題的標題新增到您的版面配置範本後。 如需詳細資訊，請參閱[使用配置範本自訂物件標頭](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)。
 
 ## 變更認可日期所觸發的通知和更新 {#notifications-and-updates-triggered-by-changing-the-commit-date}
@@ -76,9 +72,9 @@ ht-degree: 0%
 
 * 認可日期變更會填入任務或問題的「系統活動」和「更新」區段的「所有」標籤中。
 
-  ![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
+  ![認可日期變更通知](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
 
-  當Workfront管理員在設定的更新摘要區域中啟用此更新時，認可日期的變更會顯示在任務或問題的更新區域中。 如需詳細資訊，請參閱[系統追蹤的更新](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)。
+  當Workfront管理員在設定的更新摘要區域中啟用此更新時，認可日期變更會顯示在任務或問題的更新區域中。 如需詳細資訊，請參閱[系統追蹤的更新](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)。
 
   如果專案所有者不想接受變更，我們建議他們使用「更新」區段中的「註解」索引標籤，將註解回覆給提出新日期的使用者，讓他們將「認可日期」變更回原始計畫日期，或選取新日期。
 
@@ -94,7 +90,7 @@ ht-degree: 0%
   >
   >* [摘要概述](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
   >* [使用配置範本自訂摘要面板](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
-  >* [使用配置範本自訂物件標頭](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)。
+  >* [使用配置範本自訂物件標頭](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)
 
 <!--this is no longer possible: 
 >[!NOTE]
@@ -109,13 +105,13 @@ ht-degree: 0%
 
 * 任務或問題的預計完成日期設定為相同日期，因為任務現在有更準確的指示可能完成的時間。
 
-  如需預計完成日期的詳細資訊，請參閱[專案、任務和問題的預計完成日期總覽](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md)。
+  如需詳細資訊，請參閱[專案、任務和問題的預計完成日期總覽](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md)。
 
   ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
-* 在「通知」區域中通知專案所有者，任務或問題認可日期已變更。
+* 在「通知」區域中通知專案所有者，任務或問題的認可日期已變更。
 
-  ![](assets/in-product-notification-commit-date-changed-nwe-350x149.png)
+  ![認可日期變更通知](assets/in-product-notification-commit-date-changed-nwe-350x149.png)
 
   <!--
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the tip below is actually wrong and the updates feeds should not control this setting, but at this time it does, according to this issue in Hub: https://hub.workfront.com/issue/61e1aa5e0002a186fdd0a73a10db0fc3/updates?email-source=comm</p>

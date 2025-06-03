@@ -7,14 +7,16 @@ description: 「計算的任務指派」是一種期間型別，您可以在Adob
 author: Alina
 feature: Work Management
 exl-id: 5f1f6109-5d54-4c3f-9aa5-dc6ce165a1cd
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
 
 # 期間型別概要：計算的指定
+
+<!-- Audited: 5/2025 -->
 
 「計算的任務指派」是一種期間型別，您可以在Adobe Workfront中為任務設定。 如需Workfront中期間型別的一般資訊，請參閱[任務期間與期間型別概觀](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)。
 
@@ -31,7 +33,7 @@ ht-degree: 0%
 
 在下列情況下，計算的指派是慣用的期間型別：
 
-* 當指派具有活動視窗，但未完成其工作所分配的整個期間時。 例如，您被指派在週末之前將報告遞送給您的主管。 您有5天的工期，但您只需要10個小時即可草擬檔案。
+* 當指派具有活動視窗，但未完成其工作所分配的整個期間時。 例如，您被指派在週末之前將報告遞送給您的主管。 您有5天的持續時間，但您只需10小時即可草稿檔案。
 * 當由於專案經理可以相互獨立地估計計畫持續時間和計畫投入量而將單一資源指派給任務時。
 
   您可以對相同結果使用「已計算的工作期間型別」，但專案經理必須輸入資源的百分比配置，才能影響已計算的「計畫時數」值。 這使得專案規劃更加困難和耗時。

@@ -2,42 +2,47 @@
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: 將範本附加至專案
-description: 您可以在專案的初始建立階段期間或建立專案後，將範本附加至專案。
+description: 您可以在專案的初始建立階段或建立專案後，將範本附加至專案。
 author: Alina
 feature: Work Management
 exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1151'
 ht-degree: 0%
 
 ---
 
 # 將範本附加至專案
 
-您可以在專案的初始建立階段期間或建立專案後，將範本附加至專案。
+<!-- Audited: 5/2025 -->
+
+您可以在專案的初始建立階段或建立專案後，將範本附加至專案。
 
 如需使用範本建立專案的詳細資訊，請參閱[使用範本建立專案](../../../manage-work/projects/create-projects/create-project-from-template.md)。
 
 ## 存取需求
 
-您必須具備下列專案才能執行本文所述的步驟：
++++ 展開以檢視本文中功能的存取需求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>規劃 </p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>新增：標準</p>
+   <p>或</p>
+   <p>目前：計畫</p>
+    </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯專案的存取權 </p> <p>如需有關專案存取許可權的資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">授予專案存取許可權</a>。</p> <p>檢視範本的存取權</p> <p>如需範本許可權的相關資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md" class="MCXref xref">共用範本</a>。 </p> <p>如需有關範本存取許可權的資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">授予範本存取許可權</a>。</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>編輯專案的存取權 </p> <p>如需有關專案存取許可權的資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">授予專案存取許可權</a>。</p> <p>檢視範本的存取權</p> <p>如需範本許可權的相關資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md" class="MCXref xref">共用範本</a>。 </p> <p>如需有關範本存取許可權的資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">授予範本存取許可權</a>。</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立和修改自訂存取層級</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
@@ -46,7 +51,9 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -75,24 +82,26 @@ ht-degree: 0%
 
 ## 將範本附加至現有專案 {#attach-a-template-to-an-existing-project}
 
-您可以從專案頁面或專案清單或報表，將範本附加至Workfront中的專案。
+您可以從專案頁面、專案清單或報表將範本附加至專案。
 
-1. 前往您要附加範本的專案，然後按一下專案名稱右側的&#x200B;**更多**&#x200B;圖示![更多](assets/qs-more-icon-on-an-object.png)
+{{step1-to-projects}}
 
-   ![更多下拉式清單](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+1. 在&#x200B;**專案**&#x200B;頁面上，選取您要附加範本的專案。
+
+1. 按一下專案名稱右側的&#x200B;**更多**&#x200B;圖示![更多圖示](assets/qs-more-icon-on-an-object.png)。
+
+   其他![個下拉式清單](assets/more-dropdown.png)
 
    或
 
    前往專案清單或報告並選取專案，然後按一下清單頂端的&#x200B;**更多**&#x200B;圖示![更多](assets/qs-more-icon-on-an-object.png)。
 
-   ![其他功能表已展開](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
+   ![其他功能表已展開](assets/more-menu-expanded.png)
 
 
-1. 按一下&#x200B;**附加範本**。
+1. 按一下&#x200B;**附加範本**。 顯示&#x200B;**附加範本**&#x200B;方塊。
 
-   「附加範本」方塊隨即顯示。
-
-1. 開始在&#x200B;**搜尋範本**&#x200B;欄位中輸入您要附加的範本名稱，然後在清單中顯示時按一下它。
+1. 開始在&#x200B;**搜尋範本**&#x200B;欄位中輸入您要附加的範本名稱，然後當它顯示在清單中時按一下它。
 
    或
 
@@ -102,22 +111,18 @@ ht-degree: 0%
 
    * 期間
    * 所有者
-   * 最上層作業的數目（包含前三個最上層作業的清單）
+   * 最上層作業的數目（包括前3個最上層作業的清單）
    * 任務總數
    * 附加自訂表單的名稱
 
    ![附加範本方塊](assets/attach-template-box-template-preview-area-nwe-350x282.png)
 
-1. （選擇性）按一下範本名稱左邊的&#x200B;**我的最愛**&#x200B;圖示![我的最愛圖示](assets/favorites-icon-small.png)，將其標示為我的最愛。 這會將範本移到「我的最愛」清單中。
+1. （選擇性）按一下範本名稱右側的&#x200B;**我的最愛**&#x200B;圖示![我的最愛圖示](assets/favorites-icon-small.png)，將其標示為我的最愛，並將其移至&#x200B;**我的最愛**&#x200B;清單。
 
-   範本清單上的![我的最愛圖示](assets/favorites-icon-on-template-list-in-attach-template-box-nwe-350x79.png)
+1. （選擇性）再次按一下&#x200B;**我的最愛**&#x200B;圖示![我的最愛圖示](assets/favorites-icon-selected.png)以從&#x200B;**我的最愛**&#x200B;清單中移除它。
+1. 按一下&#x200B;**自訂並附加**。 **附加範本**&#x200B;側面板開啟。
 
-1. （選擇性）再次按一下&#x200B;**我的最愛**&#x200B;圖示![我的最愛圖示](assets/favorites-icon-selected.png)以將其從我的最愛清單中移除。
-1. 按一下&#x200B;**自訂並附加**。
-
-   ![附加範本](assets/attach-template-large-box-nwe-350x262.png)
-
-1. 在附加範本之前，請更新下列區段中的資訊（或隨時按一下[附加範本] **&#x200B;**）：
+1. （可選）更新下列區段中的資訊：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -132,18 +137,18 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader">選取您想要作為此範本中任務的前置任務的專案任務。</td> 
-      <td> <p>按一下欄位以顯示專案任務清單。 選取您要在範本任務開始前完成的專案任務。 或者，您可以略過此步驟，並在附加範本後在專案中設定關係。 </p> <p> 選取<strong>相依性型別</strong>、<strong>Lag</strong>資訊，以及您是否要前置任務為<strong>強制</strong>。 </p> </td> 
+      <td> <p>按一下該欄位以顯示專案任務清單，然後選取在範本任務可以開始之前必須完成的任務。 或者，您可以略過此步驟，並在附加範本後在專案中設定關係。 </p> <p> 選取<strong>相依性型別</strong>、<strong>延遲時間</strong>資訊，如果您要透過勾選<strong>強制執行前置任務</strong>核取方塊來強制執行前置任務，請選取。 </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">選取您想要當作此範本中任務之父系的專案任務。</td> 
-      <td> 選取您想要指定為所有範本任務之父系任務的專案任務。 如果您未進行選取，則所有範本任務都會顯示在目前專案任務的結尾。 您可以略過此步驟，並在附加範本後移動專案中的任務。</td> 
+      <td> 選取您想要指定為所有範本任務之父系任務的專案任務。 如果您未進行選取，所有範本任務都會顯示在目前專案任務的結尾。 您可以略過此步驟，並在附加範本後移動專案中的任務。</td> 
      </tr> 
      <tr> 
       <td role="rowheader" colspan="2"> <p role="rowheader" colspan="2">選項區段</p> <p role="rowheader" colspan="2"> <img src="assets/attach-template-large-box-options-section-nwe-350x78.png" style="width: 350;height: 78;"> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">以下選取的專案會傳輸到專案。 取消選取您要排除的專案。</td> 
-      <td> <p>取消選取您想要從範本中清除的任何資訊旁的核取方塊，然後再將其附加至專案。 此資訊不會從範本傳輸到專案。 如需每個欄位的詳細資訊，請參閱<a href="../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md" class="MCXref xref">將範本附加到專案的概觀</a>。 </p> <p>重要：如果您勾選<strong>佇列屬性和問題設定</strong>方塊，範本的佇列詳細資料會覆寫專案的佇列詳細資訊。 在這種情況下，範本的路由規則、佇列主題和主題群組會新增至專案的路由規則、佇列主題和主題群組。 <br>如果專案設定為要求佇列，而您附加至專案的範本未設定為要求佇列，則若您保留<strong>佇列屬性和問題設定</strong>核取方塊，則會移除專案的佇列資訊。 <br>如果您取消選取<strong>佇列屬性和問題設定</strong>方塊，則會保留專案的所有佇列設定設定，且不會附加範本中的佇列設定設定。 </p> </td> 
+      <td> <p>取消選取您想要從範本中排除的任何資訊核取方塊，然後再將其附加至專案。 如需每個欄位的詳細資訊，請參閱<a href="../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md" class="MCXref xref">將範本附加到專案的概觀</a>。 </p> <p>重要：如果您勾選<strong>佇列屬性和問題設定</strong>方塊，範本的佇列詳細資料會覆寫專案的佇列詳細資訊。 在這種情況下，範本的路由規則、佇列主題和主題群組會新增至專案的路由規則、佇列主題和主題群組。 <br>如果專案設定為請求佇列，而您附加至專案的範本未設定為請求佇列，則若您保留<strong>佇列屬性和問題設定</strong>核取方塊，專案的佇列資訊將會移除。 <br>如果您取消選取<strong>佇列屬性和問題設定</strong>方塊，則會保留專案的所有佇列設定設定，且不會附加範本中的佇列設定設定。 </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader" colspan="2"> <p role="rowheader" colspan="2">自訂Forms區段</p> <p role="rowheader" colspan="2"> <img src="assets/attach-template-large-box-custom-forms-section-nwe-350x274.png" style="width: 350;height: 274;"> </p> </td> 
@@ -160,7 +165,7 @@ ht-degree: 0%
    >[!TIP]
    >
    >* 當範本上的自訂表單包含空白的必填欄位時，此步驟為必要步驟。
-   >* 如果範本自訂表單中的欄位已存在於專案中並包含資訊，則這些欄位會保留專案中已存在的資訊。 您無法在附加範本期間編輯它們。
+   >* 如果範本自訂表單中的欄位已存在於專案中並包含資訊，則這些欄位會保留專案中已存在的資訊。 附加範本時無法編輯它們。
 
 1. 按一下&#x200B;**附加範本。**
 1. 按一下&#x200B;**取消附件**&#x200B;以停止附加範本。
@@ -171,27 +176,31 @@ ht-degree: 0%
 
    附加範本後，您可以編輯專案並視需要調整任何任務、資訊或設定。
 
-1. （選擇性）按一下&#x200B;**專案詳細資料**，然後按一下&#x200B;**總覽**，以檢視您在&#x200B;**專案關係**&#x200B;區域中附加的範本名稱。
+1. （選擇性）在左側面板中，按一下&#x200B;**專案詳細資料**，然後按一下&#x200B;**總覽**，以檢視您在&#x200B;**專案關係**&#x200B;區域中附加的範本名稱。
 
    >[!TIP]
    >
-   >如果您將多個範本附加至專案，則此欄位只會顯示您先附加的範本。 如需相關資訊，請參閱本文中的[將多個範本附加至現有專案並檢視範本資訊](#attach-multiple-templates-to-an-existing-project-and-view-template-information)一節。
+   >如果您將多個範本附加至專案，則只有您先附加的範本才會顯示在此欄位中。 如需相關資訊，請參閱本文中的[將多個範本附加至現有專案並檢視範本資訊](#attach-multiple-templates-to-an-existing-project-and-view-template-information)一節。
 
 1. （可選）從您附加範本的專案中移除範本資訊。 如需詳細資訊，請參閱[從專案移除範本資訊](../../../manage-work/projects/create-and-manage-templates/remove-template-from-project.md)。
 
 ## 將多個範本附加至現有專案並檢視範本資訊 {#attach-multiple-templates-to-an-existing-project-and-view-template-information}
 
-您可以依照本文中[將範本附加到現有專案](#attach-a-template-to-an-existing-project)一節中所述的步驟，將多個範本（一次一個）附加到相同專案。 這會將每個範本的任務和其他資訊新增至專案。
+您可以依照本文[將範本附加到現有專案](#attach-a-template-to-an-existing-project)一節中所述的步驟，將多個範本（一次一個）附加到相同專案。 這會將每個範本的任務和其他資訊新增至專案。
 
 >[!TIP]
 >
->當您將多個範本附加到專案時，只有您首先附加的範本會顯示在「專案詳細資訊」區域中。
+>當您將多個範本附加到專案時，只有您先附加的範本才會顯示在專案詳細資訊區域中。
 
-若要瞭解將哪些範本套用至專案：
+若要檢視套用至專案的範本，請執行下列動作：
 
-1. 導覽至附加了範本的專案。
+{{step1-to-projects}}
+
+1. 在&#x200B;**專案**&#x200B;頁面上，選取具有附加範本的專案。
+
 1. 按一下左側面板中的&#x200B;**專案詳細資料**。
-1. 在&#x200B;**專案關係**&#x200B;下的&#x200B;**總覽**&#x200B;區段底部的&#x200B;**範本**&#x200B;欄位中，尋找附加至專案的範本名稱。
+
+1. 在&#x200B;**專案關係**&#x200B;底下的&#x200B;**總覽**&#x200B;區段底部的&#x200B;**範本**&#x200B;欄位中，找出附加至專案的範本名稱。
 
    ![專案上的範本資訊](assets/nwe-template-info-on-project-350x356.png)
 

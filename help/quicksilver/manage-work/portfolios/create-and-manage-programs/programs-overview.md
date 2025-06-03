@@ -2,18 +2,19 @@
 content-type: overview
 product-area: portfolios
 navigation-topic: create and manage programs
-title: ' [!DNL Adobe Workfront]中的程式總覽'
+title: 計畫總覽
 description: 計畫是具有統一特性的專案集合。 這些專案通常會爭奪相同的資源、預算或時段。 計畫是投資組合的子群組。 在將專案新增到投資組合之前，您可以將其與方案建立關聯。
 author: Alina
 feature: Work Management, Strategic Planning
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+exl-id: 1c64fe00-12e3-49f6-b864-b8f89ed9140d
+source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '497'
 ht-degree: 1%
 
 ---
 
-# 在[!DNL Adobe Workfront]中的計畫總覽
+# 計畫總覽
 
 <!-- Audited: 09/2024 -->
 
@@ -32,18 +33,18 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td> 
    <td> <p>新增：任何</p>
-   <p>目前： [!UICONTROL Business]或更高版本</p> </td> 
+   <p>目前： [！UICONTROL Business]或更高版本</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>新增：[!UICONTROL Standard]</p>
-   <p>目前： [!UICONTROL 計畫] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
+   <td> <p>新增：[！UICONTROL Standard]</p>
+   <p>目前： [！UICONTROL計畫] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[!UICONTROL Edit]對Portfolio和計畫的存取權</p>  </td> 
+   <td> <p>[！UICONTROL Edit]對投資組合和計畫的存取權</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
@@ -56,7 +57,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 
 ## 有關使用方案的注意事項
@@ -93,7 +94,4 @@ ht-degree: 1%
 
 * 您可以使用專案組合最佳化工具來分析專案組合內所有專案的效能。 您無法單獨比較相同方案中多個專案的效能。 您必須在投資組合層級分析專案績效。
 
-  如需詳細資訊，請參閱[在Portfolio最佳化工具](/help/quicksilver/manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md)中最佳化專案。
-
-
-
+  如需詳細資訊，請參閱[在Portfolio最佳化工具中最佳化專案](/help/quicksilver/manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md)。

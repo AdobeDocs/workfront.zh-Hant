@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: update-work-in-a-project
 title: 更新任務狀態
-description: 您可以更新任務的狀態，以通知其他人該任務在何處（以及整個專案）及其進行方式。
+description: 您可以更新任務的狀態，以通知其他人該任務在何處（以及整個專案）及其進度。
 author: Alina
 feature: Work Management
 exl-id: e1efc676-e110-486e-91dc-f521421575e8
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '638'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--Audited: 10/2024-->
 
-您可以更新任務的狀態，以通知其他人該任務在何處（以及整個專案）及其進行方式。
+您可以更新任務的狀態，以通知其他人該任務在何處（以及整個專案）及其進度。
 
 預設狀態為「新增」、「進行中」和「完成」。 您的Adobe Workfront管理員可為您的組織新增自訂狀態。 如需詳細資訊，請參閱[建立或編輯狀態](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)。
 
@@ -26,8 +26,6 @@ ht-degree: 1%
 ## 存取需求
 
 +++ 展開以檢視本文中功能的存取需求。
-
-您必須具有下列存取權才能手動更新任務：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,7 +36,7 @@ ht-degree: 1%
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
    <td> <p>新增：標準</p> 
    或
    <p>目前：工作或以上</p>
@@ -55,7 +53,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -70,23 +68,23 @@ ht-degree: 1%
 
 ## 手動更新任務狀態
 
-您可以在Workfront的下列區域中更新任務狀態：
+您可以在下列區域中更新任務狀態：
 
 * 任務頁面上的任務標題。
 * 編輯任務時顯示的「編輯任務」方塊。
 * 「任務」頁面上的「任務詳細資訊」區段。
-* 在任務清單或報告中，何時在檢視中可看到Status欄位。
+* 在檢視中顯示「狀態」欄位時顯示在任務清單或報告中。
 * 在任務的摘要面板中。
 
 若要手動更新任務標題中的任務狀態：
 
-1. 移至您要更新其狀態的作業。
-1. 按一下工作標題中的&#x200B;**狀態**&#x200B;欄位並選取新狀態。
-1. 若要提供任務完成的視覺化指示，請拖曳或按兩下任務標題中&#x200B;**完成百分比**&#x200B;下的泡泡
+1. 移至您要為其更新狀態的任務。
+1. 在工作標題中，按一下&#x200B;**狀態**&#x200B;欄位並選取新狀態。
+1. 若要提供任務完成的視覺指示，請將泡泡拖曳至任務標頭的&#x200B;**完成百分比**&#x200B;下。
 
    或
 
-   在任務標題的泡泡內按一下以輸入百分比。
+   在&#x200B;**完成百分比**&#x200B;泡泡內按兩下，以手動輸入新百分比。
 
    ![](assets/percent-complete-status-widgets-task-header.png)
 
@@ -94,7 +92,7 @@ ht-degree: 1%
 
    * 若要新增關於更新的備註，請移至&#x200B;**更新**&#x200B;區段，然後按一下&#x200B;**新增註解**，然後輸入備註。
 
-     ![](assets/add-update-to-task.png)
+     ![正在新增更新至工作](assets/add-update-to-task.png)
 
    * 若要通知特定使用者有關更新，請在您輸入評論時顯示的&#x200B;**標籤人員或團隊**&#x200B;欄位中輸入其名稱。 如需詳細資訊，請參閱[標籤其他人的更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)。
    * 若要更新任務的認可日期，請按一下&#x200B;**任務詳細資料**，然後編輯&#x200B;**認可日期**&#x200B;欄位。 如需詳細資訊，請參閱[編輯工作](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md)。
