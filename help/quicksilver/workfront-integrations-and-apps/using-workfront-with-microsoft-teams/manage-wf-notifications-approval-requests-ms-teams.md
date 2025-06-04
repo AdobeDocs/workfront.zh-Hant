@@ -44,7 +44,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[！UICONTROL Work]， [！UICONTROL計畫]</p> </td> 
+   <td> <p>[!UICONTROL Work]， [!UICONTROL 計畫]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -135,11 +135,11 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th>通知</th> 
-   <th>[！UICONTROL核准]</th> 
-   <th>[！UICONTROL拒絕]</th> 
-   <th> <p>[！UICONTROL變更]</p> </th> 
-   <th> <p>[！UICONTROL前往校訂] </p> </th> 
-   <th>[！UICONTROL註解]</th> 
+   <th>[!UICONTROL 核准]</th> 
+   <th>[!UICONTROL 拒絕]</th> 
+   <th> <p>[!UICONTROL 變更]</p> </th> 
+   <th> <p>[!UICONTROL 前往校訂] </p> </th> 
+   <th>[!UICONTROL 註解]</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -270,9 +270,9 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th>通知</th> 
-   <th>[！UICONTROL開始]</th> 
-   <th>[！UICONTROL註解]</th> 
-   <th> <p>[！UICONTROL狀態]</p> </th> 
+   <th>[!UICONTROL 開始]</th> 
+   <th>[!UICONTROL 註解]</th> 
+   <th> <p>[!UICONTROL 狀態]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -320,8 +320,8 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th>通知</th> 
-   <th>[！UICONTROL回覆]</th> 
-   <th> <p>[！UICONTROL狀態]</p> </th> 
+   <th>[!UICONTROL 回覆]</th> 
+   <th> <p>[!UICONTROL 狀態]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -385,8 +385,8 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th>通知</th> 
-   <th>[！UICONTROL回覆]</th> 
-   <th> <p>[！UICONTROL狀態]</p> </th> 
+   <th>[!UICONTROL 回覆]</th> 
+   <th> <p>[!UICONTROL 狀態]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -401,7 +401,7 @@ ht-degree: 0%
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">有人將您的團隊加入[！UICONTROL導向更新]</td> 
+   <td role="rowheader">有人將您的團隊加入[!UICONTROL 導向更新]</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -422,8 +422,8 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th>通知</th> 
-   <th> <p>[！UICONTROL註解]</p> </th> 
-   <th> <p>[！UICONTROL狀態]</p> </th> 
+   <th> <p>[!UICONTROL 註解]</p> </th> 
+   <th> <p>[!UICONTROL 狀態]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
