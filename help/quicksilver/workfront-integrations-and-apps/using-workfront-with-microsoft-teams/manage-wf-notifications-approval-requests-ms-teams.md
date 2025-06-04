@@ -6,7 +6,7 @@ description: 您可以接收來自 [!DNL Adobe Workfront] 的通知，內容有�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-source-git-commit: 75c4baf5ceca53f7ba85ffcc34876bca1238c9de
+source-git-commit: 372b7566fa5eb38703905b22ff43d49a76bcb400
 workflow-type: tm+mt
 source-wordcount: '1412'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 >
 >隨著Microsoft轉換為新團隊使用者端，Classic Teams使用者端在2025年7月1日之後將不再可用。 為此，我們正在開發Microsoft Teams整合的新版本，此版本將與新團隊使用者端完全相容，並可在7月1日之前提供使用，以確保順利轉換。
 >
->整合推出後，說明如何下載及安裝在新團隊使用者端中。
+>在發行整合後，即可取得有關如何下載及安裝在新團隊使用者端中的整合的指示。
 
 您可以從[!DNL Adobe Workfront]接收有關您需要核准的專案、已給予您的指派，或您關聯專案的評論和變更的通知。
 
@@ -44,7 +44,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[!UICONTROL Work]， [!UICONTROL 計畫]</p> </td> 
+   <td> <p>[！UICONTROL Work]， [！UICONTROL計畫]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -135,11 +135,11 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th>通知</th> 
-   <th>[!UICONTROL 核准]</th> 
-   <th>[!UICONTROL 拒絕]</th> 
-   <th> <p>[!UICONTROL 變更]</p> </th> 
-   <th> <p>[!UICONTROL 前往校訂] </p> </th> 
-   <th>[!UICONTROL 註解]</th> 
+   <th>[！UICONTROL核准]</th> 
+   <th>[！UICONTROL拒絕]</th> 
+   <th> <p>[！UICONTROL變更]</p> </th> 
+   <th> <p>[！UICONTROL前往校訂] </p> </th> 
+   <th>[！UICONTROL註解]</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -270,9 +270,9 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th>通知</th> 
-   <th>[!UICONTROL 開始]</th> 
-   <th>[!UICONTROL 註解]</th> 
-   <th> <p>[!UICONTROL 狀態]</p> </th> 
+   <th>[！UICONTROL開始]</th> 
+   <th>[！UICONTROL註解]</th> 
+   <th> <p>[！UICONTROL狀態]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -320,8 +320,8 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th>通知</th> 
-   <th>[!UICONTROL 回覆]</th> 
-   <th> <p>[!UICONTROL 狀態]</p> </th> 
+   <th>[！UICONTROL回覆]</th> 
+   <th> <p>[！UICONTROL狀態]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -385,8 +385,8 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th>通知</th> 
-   <th>[!UICONTROL 回覆]</th> 
-   <th> <p>[!UICONTROL 狀態]</p> </th> 
+   <th>[！UICONTROL回覆]</th> 
+   <th> <p>[！UICONTROL狀態]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -401,7 +401,7 @@ ht-degree: 0%
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">有人將您的團隊加入[!UICONTROL 導向更新]</td> 
+   <td role="rowheader">有人將您的團隊加入[！UICONTROL導向更新]</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -422,8 +422,8 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th>通知</th> 
-   <th> <p>[!UICONTROL 註解]</p> </th> 
-   <th> <p>[!UICONTROL 狀態]</p> </th> 
+   <th> <p>[！UICONTROL註解]</p> </th> 
+   <th> <p>[！UICONTROL狀態]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
