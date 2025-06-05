@@ -9,16 +9,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 137d7112c051322c191488463e52abdd73e50d1f
+source-git-commit: aa2bef064df3ff7dd9e4fd896ac7482df3c55e32
 workflow-type: tm+mt
-source-wordcount: '2271'
+source-wordcount: '2163'
 ht-degree: 0%
 
 ---
 
 # Kick-Starts情境：將多個選項自訂欄位匯入Workfront
-
-{{highlighted-preview}}
 
 您可以使用Kick-Start功能，在Adobe Workfront中匯入具有多個選項的自訂欄位。
 
@@ -63,7 +61,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td> 
+   <td>[！UICONTROL系統管理員]</td> 
   </tr> 
  </tbody> 
 </table>
@@ -144,20 +142,17 @@ ht-degree: 0%
 
 若要將新自訂欄位的資訊填入Excel試算表中：
 
-1. 開啟您在上一節下載的Excel試算表，並注意一些工作表。 每個工作表代表應用程式中的一個物件。
+1. 開啟您在上一節下載的Excel試算表，並檢閱工作表。 每個工作表代表應用程式中的一個物件。
 
-   >[!INFO]
-   >
-   >例如，**Parameter** （參考自訂欄位）、**Parameter Option** （參考自訂欄位選項）、**Category** （參考自訂表單）。
-   >
-   >您必須使用Workfront資料庫支援的格式來寫入物件名稱及其屬性。
-   >
-   >如需這些物件含義的詳細資訊，請參閱[術語 [!DNL Adobe Workfront] 辭彙表](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)。
-   >
-   >如需Workfront資料庫中物件名稱的相關資訊，請參閱[API總管](../../../wf-api/general/api-explorer.md)。
-   >
-   >![資料匯出中包含的工作表](assets/sheets-included-in-custom-data-export-kick-start-file.png)
+   例如，**Parameter** （參考自訂欄位）、**Parameter Option** （參考自訂欄位選項）、**Category** （參考自訂表單）。
 
+   您必須使用Workfront資料庫支援的格式來寫入物件名稱及其屬性。
+
+   如需這些物件含義的詳細資訊，請參閱[術語 [!DNL Adobe Workfront] 辭彙表](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)。
+
+   如需Workfront資料庫中物件名稱的相關資訊，請參閱[API總管](../../../wf-api/general/api-explorer.md)。
+
+   ![資料匯出中包含的工作表](assets/sheets-included-in-custom-data-export-kick-start-file.png)
 
 1. 請確認下列資訊的格式正確：
 
@@ -169,7 +164,7 @@ ht-degree: 0%
      >
      >有些欄雖然非粗體，但還是需要使用。 例如，`isNew`和`ID`欄不是粗體，但為必填欄位。
 
-1. 選取&#x200B;**0&rbrace;工作表，並在下列必要欄位中新增新自訂欄位的相關資訊：`**&#x200B;PARAM Parameter`
+1. 選取**0}工作表，並在下列必要欄位中新增新自訂欄位的相關資訊：`**PARAM Parameter`
 
    * **`isNew`** =在此欄中為每個代表新自訂欄位的行輸入&#x200B;**`TRUE`**。 這表示欄位是Workfront中的新欄位且不存在。
 
@@ -179,9 +174,11 @@ ht-degree: 0%
 
    * **`ID`** =代表新欄位的每行必須是唯一的數字。 您可以使用任何從1開始的數字，但前提是每個新欄位都有唯一的數字。
    * **`setDataType`** =對於代表新欄位的每一行，輸入欄位支援的資料型別。 必須按在資料庫中顯示的形式輸入資料型別。 從下列資料型別中選取：
+
       * 數字&#x200B;**`NMBR`**
       * **`CURC`**&#x200B;代表貨幣
       * **`TEXT`**&#x200B;文字
+
    * `**setDisplaySize**`=任何多個選項自訂欄位的顯示大小(&#39;**setDisplaySize**&#39;)一律為0。
    * **`setDisplayType`** =對於代表新欄位的每一行，輸入欄位的顯示型別。 必須輸入顯示型別，就像在資料庫中顯示的顯示型別一樣。
 
@@ -225,13 +222,12 @@ ht-degree: 0%
      >
      >每個欄位只能有一個預設選項。
 
-   * **`setParameterID`** =與&#x200B;_品牌_&#x200B;自訂欄位對應的選項為&#x200B;**`setParameterID`** （共1個），而與&#x200B;_媒體_&#x200B;對應的選項為&#x200B;**`setParameterID`** （共2個）。 `PARAM`與`POPT`工作表會相互交叉參照，指出哪些選項屬於哪個自訂欄位。
+   * **`setParameterID`** =與&#x200B;_品牌_&#x200B;自訂欄位對應的選項為&#x200B;**`setParameterID`** （共1個），而與&#x200B;_媒體_&#x200B;對應的選項為**`setParameterID`** （共2個）。 `PARAM`與`POPT`工作表會相互交叉參照，指出哪些選項屬於哪個自訂欄位。
    * **`setDisplayOrder`**=顯示順序欄表示選項在自訂欄位中的顯示順序。 您可以從1開始，然後依遞增順序繼續所有選項，無論它們屬於哪個欄位。 這裡重要的是每個選項都有唯一編號。
-   * **`setLabel`**&#x200B;和`**setValue`**&#x200B;欄通常包含相同的資訊，且應反映Workfront UI中所需的名稱。 選項的值是顯示在報表中的名稱，例如，而標籤在附加到物件時顯示在自訂表單中。 如需詳細資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+   * **`setLabel`**&#x200B;和`**setValue`**欄通常包含相同的資訊，且應反映Workfront UI中所需的名稱。 選項的值是顯示在報表中的名稱，例如，而標籤在附加到物件時顯示在自訂表單中。 如需詳細資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
    * **`setIsHidden`** =若要隱藏任何選項，請輸入`TRUE`。
 
    ![參數列已填寫](assets/parameter-option-sheet-filled-out-kick-starts.png)
-
 
 1. （選擇性）如果您也想要建立自訂表單，以便稍後在其中新增欄位，請選取&#x200B;**`CTGY Category`**&#x200B;工作表並更新自訂表單資訊的下列必要欄：
 
@@ -277,23 +273,7 @@ ht-degree: 0%
 
 1. 在電腦上瀏覽您準備的Excel試算表，並在找到時加以選取。
 
-   <div class="preview">
-
    檔案會自動上傳，並顯示已成功匯入的通知。 視您匯入的資訊量而定，此步驟可能需要幾秒鐘到一分鐘的時間。
-
-   新的自訂欄位和表單現在包含在您的Workfront系統中。 您可以在「設定」的「自訂Forms」區域中找到它們。
-
-   >[!NOTE]
-   >
-   >您匯入的新表單和欄位尚未連線。 匯入的表單沒有自訂欄位。 您必須手動將欄位新增至新自訂表單或其他現有自訂表單。
-
-   如需有關新增欄位至自訂表單的資訊，請參閱[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
-
-   </div>
-
-1. （僅限生產環境）按一下「**上傳**」。
-
-   系統會顯示匯入成功的通知。 視您匯入的資訊量而定，此步驟可能需要幾秒鐘到一分鐘的時間。
 
    新的自訂欄位和表單現在包含在您的Workfront系統中。 您可以在「設定」的「自訂Forms」區域中找到它們。
 

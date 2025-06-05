@@ -6,9 +6,9 @@ description: 如果您有正確的存取權和許可權，可以刪除Adobe Work
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
+source-git-commit: aa2bef064df3ff7dd9e4fd896ac7482df3c55e32
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '716'
 ht-degree: 1%
 
 ---
@@ -16,10 +16,6 @@ ht-degree: 1%
 # 刪除問題
 
 <!--Audited: 05/2025-->
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在預覽版發佈一週後，生產環境中也將提供相同功能給所有客戶。</span>
-
-<span class="preview">如需詳細資訊，請參閱[介面現代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。</span>
 
 如果您有正確的存取權和許可權，可以刪除Adobe Workfront中的問題或請求。
 
@@ -116,7 +112,7 @@ ht-degree: 1%
    與所選專案相關的問題清單會在右側顯示。
 1. 在清單中選取一或多個問題，然後按一下清單頂端的&#x200B;**刪除**&#x200B;圖示![刪除圖示](assets/delete.png)。
 
-1. 如果允許刪除，請按一下&#x200B;**<span class="preview">刪除</span>**。
+1. 如果允許刪除，請按一下&#x200B;**刪除**。
 
    您的Workfront管理員可能不允許刪除記錄時數的問題。\
    如需有關刪除問題所需的存取權和許可權的詳細資訊，請參閱本文中的[刪除問題的考量事項](#considerations-for-deleting-issues)一節。
@@ -136,7 +132,7 @@ ht-degree: 1%
    ![問題更多功能表](assets/qs-issue-more-menu-highlighted-350x469.png)
 
 1. 按一下&#x200B;**刪除問題**。
-1. 如果允許刪除，請按一下&#x200B;**<span class="preview">刪除</span>**。
+1. 如果允許刪除，請按一下&#x200B;**刪除**。
 
    您的Workfront管理員可能不允許刪除記錄時數的問題。\
    如需有關刪除問題所需的存取權和許可權的詳細資訊，請參閱本文中的[刪除問題的考量事項](#considerations-for-deleting-issues)一節。
