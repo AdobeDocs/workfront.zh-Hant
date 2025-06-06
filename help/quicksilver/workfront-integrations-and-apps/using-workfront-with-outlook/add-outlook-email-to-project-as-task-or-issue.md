@@ -6,7 +6,7 @@ description: 您可以將電子郵件轉換為 [!DNL Adobe Workfront] 個任務�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 00755c27-9fc9-4357-a39b-4f9772484252
-source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
+source-git-commit: d9b0e6b1c2afd17cefe190f29a072634f0b0ce50
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 0%
@@ -22,7 +22,6 @@ ht-degree: 0%
 >* **在Microsoft完全停用這些Token後，適用於Microsoft Outlook整合的Workfront將無法繼續運作。**
 >
 >在這次變更中，Microsoft已決定變更代號重新啟用的方式。 在&#x200B;**2025年6月30日**&#x200B;之後，管理員將無法再自行重新啟用權杖 — 只有Microsoft支援可授予例外狀況。 **在2025年10月1日，所有租使用者的舊版代號將會關閉。 將不會授與例外。**
-
 
 您可以將電子郵件轉換為[!DNL Adobe Workfront]個任務或問題。 電子郵件轉換後，任務或問題會顯示在您轉換時所選取的專案上。
 
@@ -40,7 +39,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[!UICONTROL Work]， [!UICONTROL 計畫]</p> </td> 
+   <td> <p>[！UICONTROL Work]， [！UICONTROL計畫]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -84,17 +83,17 @@ ht-degree: 0%
 
    <table style="table-layout:auto">
       <tr>
-        <td>[!UICONTROL 任務或問題名稱]</td>
+        <td>[！UICONTROL任務或問題名稱]</td>
         <td>依預設，任務名稱與電子郵件主旨相同。 您可以視需要修改工作名稱。</td>
         <td></td>
       </tr>
       <tr>
-        <td>[!UICONTROL 說明]</td>
+        <td>[！UICONTROL說明]</td>
         <td>預設情況下，說明與電子郵件內文相同。 您可以視需要修改說明。</td>
       </tr>
       <tr>
-        <td>[!UICONTROL 附件]</td>
-        <td>任何電子郵件附件都會儲存至任務或問題的[!UICONTROL 檔案]區域。 將電子郵件儲存為任務或問題之前，您可以刪除任何附件。</td>
+        <td>[！UICONTROL附件]</td>
+        <td>任何電子郵件附件都會儲存至任務或問題的[！UICONTROL檔案]區域。 將電子郵件儲存為任務或問題之前，您可以刪除任何附件。</td>
       </tr>
    </table>
 

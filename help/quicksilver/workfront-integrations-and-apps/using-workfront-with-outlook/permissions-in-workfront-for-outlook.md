@@ -6,7 +6,7 @@ description: ' [!DNL Workfront for Outlook] 增益集需要讀取/寫入信箱�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 704da044-21ed-4ca1-be6f-0e0aa832e069
-source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
+source-git-commit: d9b0e6b1c2afd17cefe190f29a072634f0b0ce50
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 0%
@@ -22,7 +22,6 @@ ht-degree: 0%
 >* **在Microsoft完全停用這些Token後，適用於Microsoft Outlook整合的Workfront將無法繼續運作。**
 >
 >在這次變更中，Microsoft已決定變更代號重新啟用的方式。 在&#x200B;**2025年6月30日**&#x200B;之後，管理員將無法再自行重新啟用權杖 — 只有Microsoft支援可授予例外狀況。 **在2025年10月1日，所有租使用者的舊版代號將會關閉。 將不會授與例外。**
-
 
 [!DNL Workfront for Outlook]需要[!DNL Outlook]增益集所允許之四個許可權等級中的最高者。
 

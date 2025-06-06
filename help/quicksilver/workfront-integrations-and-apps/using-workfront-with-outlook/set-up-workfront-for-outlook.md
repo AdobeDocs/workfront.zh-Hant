@@ -6,7 +6,7 @@ description: ' [!DNL Adobe Workfront] [!DNL Outlook]增益集可讓您直接從O
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
+source-git-commit: d9b0e6b1c2afd17cefe190f29a072634f0b0ce50
 workflow-type: tm+mt
 source-wordcount: '797'
 ht-degree: 0%
@@ -24,7 +24,6 @@ ht-degree: 0%
 >* **在Microsoft完全停用這些Token後，適用於Microsoft Outlook整合的Workfront將無法繼續運作。**
 >
 >在這次變更中，Microsoft已決定變更代號重新啟用的方式。 在&#x200B;**2025年6月30日**&#x200B;之後，管理員將無法再自行重新啟用權杖 — 只有Microsoft支援可授予例外狀況。 **在2025年10月1日，所有租使用者的舊版代號將會關閉。 將不會授與例外。**
-
 
 [!DNL Adobe Workfront] [!DNL Outlook]增益集可讓您直接從Outlook執行下列主要的[!DNL Workfront]工作：
 
@@ -57,8 +56,8 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
    <td> 
-   <p>新計畫： [!UICONTROL Standard]</p> 
-   <p>目前計畫：[!UICONTROL Work]， [!UICONTROL Plan]</p> </td> 
+   <p>新計畫： [！UICONTROL Standard]</p> 
+   <p>目前計畫：[！UICONTROL Work]， [！UICONTROL Plan]</p> </td> 
   </tr> 
  </tbody> 
 </table>

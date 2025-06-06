@@ -6,7 +6,7 @@ description: 當您在Outlook收件匣收到 [!DNL Adobe Workfront] 電子郵件
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 36239da6-b5f2-423c-9e81-af78bc31bf26
-source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
+source-git-commit: d9b0e6b1c2afd17cefe190f29a072634f0b0ce50
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 0%
@@ -25,7 +25,6 @@ ht-degree: 0%
 
 當您在[!DNL Outlook]收件匣中收到[!DNL Adobe Workfront]電子郵件通知時，只要在Outlook中回覆通知，即可快速將註解張貼至[!DNL Workfront]。
 
-
 ## 存取需求
 
 您必須具有下列存取權才能執行本文中的步驟：
@@ -40,7 +39,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[!UICONTROL Work]， [!UICONTROL 計畫]</p> </td> 
+   <td> <p>[！UICONTROL Work]， [！UICONTROL計畫]</p> </td> 
   </tr> 
  </tbody> 
 </table>
