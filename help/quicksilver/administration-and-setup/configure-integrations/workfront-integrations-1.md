@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+source-git-commit: 5ed9ee77c14948d81ef132e1977b902f8927a620
 workflow-type: tm+mt
 source-wordcount: '1280'
 ht-degree: 0%
@@ -84,6 +84,21 @@ ht-degree: 0%
   </tr> 
  </thead> 
  <tbody> 
+ <!--<tr> 
+   <td role="rowheader"> <p>GenStudio for Performance Marketing </p> </td> 
+   <td> 
+    <ul> 
+     <li>Integrate the proofing experience with Genstudio for Performance Marketing. With this integration, you can 
+     <ul>
+     <li>Use Workfront approval templates to define approval workflows. </li>
+     <li>Review GenStudio draft content in the proofing viewer. </li>
+     <li>See review decisions in GenStudio for final approval and publishing. </li>
+     </ul>
+   </ul>
+     <p>For more information, see <a href="/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md" class="MCXref xref">Get started with the proofing and GenStudio for Performance Marketing integration</a>.</p> 
+     </td>  <td><ul><li>You must have licenses for both Workfront and GenStudio for Performance Marketing.</li><li>Your Workfront instance must be on the Adobe Unified Experience.</li><li>Workfront and GenStudio for Performance Marketing must be deployed to the same IMS Org.</li></ul></td> 
+   <td>The integration can be toggled on in the Workfront Setup area once all the requirements are met. For more information, see <a href="/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md" class="MCXref xref">Get started with the proofing and GenStudio for Performance Marketing integration</a>. </td> 
+  </tr> -->
   <tr> 
    <td role="rowheader"> <p>Adobe Creative Cloud </p> <p> <img src="assets/creative-cloud-logo.png"> </p> </td> 
    <td> 
@@ -98,7 +113,7 @@ ht-degree: 0%
      <li>After Effects </li>
      </ul>
      <li><p>從<a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>下載/安裝。</p></li></ul>
-     <p>如需資訊與指示，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">為[!DNL Creative Cloud]應用程式安裝[!DNL Adobe Workfront]外掛程式</a></p> 
+     <p>如需資訊與指示，請參閱<a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">為[!DNL Creative Cloud]應用程式安裝[!DNL Adobe Workfront]外掛程式</a></p> 
      </td>  <td> </td> 
    <td> </td> 
   </tr> 
@@ -172,7 +187,7 @@ ht-degree: 0%
     </ul> <p>如需詳細資訊，請參閱<a href="../../workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md" class="MCXref xref">[!DNL Adobe Workfront for Jira]</a>。</p> </td> 
    <td> 
     <ul> 
-     <li><p>新的Workfront計畫： [!UICONTROL Select] [!DNL Workfront]計畫或以上</p><p>目前的Workfront計畫： [!UICONTROL Pro] [!DNL Workfront]計畫或以上</p> </li> 
+     <li><p>新的Workfront計畫： [！UICONTROL Select] [!DNL Workfront]計畫或以上</p><p>目前的Workfront計畫： [！UICONTROL Pro] [!DNL Workfront]計畫或以上</p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
@@ -185,8 +200,8 @@ ht-degree: 0%
    <td> 
     <ul> 
      <li> <p>與雲端託管[!DNL Office 365]或[!DNL Outlook Live.]中的Web型[!DNL Outlook]版本整合 </p> </li> 
-     <li> <p>在[!UICONTROL 首頁行事曆]中，顯示您[!DNL Outlook]行事曆及您選取的任何相關行事曆（例如生日與節假日行事曆）中的所有事件。</p> </li> 
-    </ul> <p><b>注意</b>： [!UICONTROL Outlook]行事曆組態與[!DNL Outlook]增益集完全不同（[!DNL Outlook]整合或[!DNL Workfront for Outlook]）。 不需要安裝即可設定行事曆。</p></td> 
+     <li> <p>在[！UICONTROL首頁行事曆]中，顯示您[!DNL Outlook]行事曆及您選取的任何相關行事曆（例如生日與節假日行事曆）中的所有事件。</p> </li> 
+    </ul> <p><b>注意</b>： [！UICONTROL Outlook]行事曆組態與[!DNL Outlook]增益集完全不同（[!DNL Outlook]整合或[!DNL Workfront for Outlook]）。 不需要安裝即可設定行事曆。</p></td> 
    <td> </td> 
    <td> </td> 
   </tr> 
@@ -248,7 +263,7 @@ ht-degree: 0%
     </ul> <p>如需詳細資訊，請參閱<a href="../../workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce.md" class="MCXref xref">[!DNL Adobe Workfront for Salesforce]</a>。</p> </td> 
    <td> 
     <ul> 
-     <li><p>新的Workfront計畫： [!UICONTROL Select] [!DNL Workfront]計畫或以上</p><p>目前的Workfront計畫： [!UICONTROL Pro] [!DNL Workfront]計畫或以上</p> </li> 
+     <li><p>新的Workfront計畫： [！UICONTROL Select] [!DNL Workfront]計畫或以上</p><p>目前的Workfront計畫： [！UICONTROL Pro] [!DNL Workfront]計畫或以上</p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
@@ -305,7 +320,7 @@ ht-degree: 0%
 
   [!DNL Adobe Workfront Fusion]連結應用程式和服務內部及之間的動作，以建立自動傳輸和轉換資料的情境。 它擁有可連線許多應用程式的專用聯結器，但可以使用公用API連線至任何應用程式。
 
-  如需詳細資訊，請參閱[[!DNL Adobe Workfront Fusion] 總覽](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+  如需詳細資訊，請參閱[[!DNL Adobe Workfront Fusion] 總覽](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 
 * [!DNL Adobe Experience Manager Assets]
 * [!DNL Anaplan] （需要[!DNL Workfront Fusion]）
