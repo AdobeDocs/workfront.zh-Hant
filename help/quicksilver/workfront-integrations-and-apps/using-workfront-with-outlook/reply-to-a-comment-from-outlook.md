@@ -6,16 +6,25 @@ description: 當您在Outlook收件匣收到 [!DNL Adobe Workfront] 電子郵件
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 36239da6-b5f2-423c-9e81-af78bc31bf26
-source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
+source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
 
 # 回覆[!DNL Outlook]的註解
 
+>[!IMPORTANT]
+>
+>[Microsoft正在停用對舊版Exchange Online權杖](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens)的支援，Workfront Outlook增益集目前使用這些權杖進行驗證。 Microsoft的這項變更已開始影響客戶，並將在2025年10月前持續分階段推出。
+>
+>* **在Microsoft完全停用這些Token後，適用於Microsoft Outlook整合的Workfront將無法繼續運作。**
+>
+>在這次變更中，Microsoft已決定變更代號重新啟用的方式。 在&#x200B;**2025年6月30日**&#x200B;之後，管理員將無法再自行重新啟用權杖 — 只有Microsoft支援可授予例外狀況。 **在2025年10月1日，所有租使用者的舊版代號將會關閉。 將不會授與例外。**
+
 當您在[!DNL Outlook]收件匣中收到[!DNL Adobe Workfront]電子郵件通知時，只要在Outlook中回覆通知，即可快速將註解張貼至[!DNL Workfront]。
+
 
 ## 存取需求
 
@@ -31,7 +40,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[!UICONTROL Work]， [!UICONTROL 計畫]</p> </td> 
+   <td> <p>[！UICONTROL Work]， [！UICONTROL計畫]</p> </td> 
   </tr> 
  </tbody> 
 </table>

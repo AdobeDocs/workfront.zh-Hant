@@ -6,14 +6,24 @@ description: 您可以將 [!DNL Outlook] 電子郵件轉換為 [!DNL Adobe Workf
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: fcd02116-ffeb-43d3-8541-5e30e6cfdc5e
-source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
+source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
 
 # 將[!DNL Outlook]電子郵件新增為您的工作清單
+
+>[!IMPORTANT]
+>
+>[Microsoft正在停用對舊版Exchange Online權杖](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens)的支援，Workfront Outlook增益集目前使用這些權杖進行驗證。 Microsoft的這項變更已開始影響客戶，並將在2025年10月前持續分階段推出。
+>
+>* **在Microsoft完全停用這些Token後，適用於Microsoft Outlook整合的Workfront將無法繼續運作。**
+>
+>在這次變更中，Microsoft已決定變更代號重新啟用的方式。 在&#x200B;**2025年6月30日**&#x200B;之後，管理員將無法再自行重新啟用權杖 — 只有Microsoft支援可授予例外狀況。 **在2025年10月1日，所有租使用者的舊版代號將會關閉。 將不會授與例外。**
+
+
 
 您可以將[!DNL Outlook]封電子郵件轉換為[!DNL Adobe Workfront]個任務。 電子郵件轉換後，任務便可在[!UICONTROL 首頁]區域的[!UICONTROL 工作]清單中使用。
 
@@ -31,7 +41,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[!UICONTROL Work]， [!UICONTROL 計畫]</p> </td> 
+   <td> <p>[！UICONTROL Work]， [！UICONTROL計畫]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,7 +73,7 @@ ht-degree: 0%
 1. 按一下&#x200B;**[!UICONTROL 新增]**。\
    任務已新增到首頁區域的[!UICONTROL 工作清單]，但沒有認可日期。
 
-1. （選擇性）按一下[在Workfront中檢視] **&#x200B;**，在新標籤中顯示[!DNL Workfront]應用程式內的工作。
+1. （選擇性）按一下[在Workfront中檢視] ****，在新標籤中顯示[!DNL Workfront]應用程式內的工作。
 
 1. （選用）導覽回[!DNL Outlook]，並選取原始電子郵件。\
    在[!DNL Workfront]增益集面板頂端，請注意含有連結的確認訊息，指出電子郵件已新增至Workfront作為工作。 連結包含轉換日期。\

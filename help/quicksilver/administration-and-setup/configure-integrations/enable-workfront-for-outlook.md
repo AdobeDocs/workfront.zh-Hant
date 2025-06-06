@@ -1,5 +1,5 @@
 ---
-title: 為Outlook啟用 [!DNL Adobe Workfront]
+title: '為Outlook啟用 [!DNL Adobe Workfront] '
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
@@ -8,14 +8,23 @@ author: Lisa, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: be523b27-191f-46ca-9a87-d512f9a15a1e
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '312'
 ht-degree: 1%
 
 ---
 
-# 啟用[!DNL Adobe Workfront for Outlook]
+# 啟用 [!DNL Adobe Workfront for Outlook]
+
+>[!IMPORTANT]
+>
+>[Microsoft正在停用對舊版Exchange Online權杖](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens)的支援，Workfront Outlook增益集目前使用這些權杖進行驗證。 Microsoft的這項變更已開始影響客戶，並將在2025年10月前持續分階段推出。
+>
+>* **在Microsoft完全停用這些Token後，適用於Microsoft Outlook整合的Workfront將無法繼續運作。**
+>
+>在這次變更中，Microsoft已決定變更代號重新啟用的方式。 在&#x200B;**2025年6月30日**&#x200B;之後，管理員將無法再自行重新啟用權杖 — 只有Microsoft支援可授予例外狀況。 **在2025年10月1日，所有租使用者的舊版代號將會關閉。 將不會授與例外。**
+
 
 在使用者開始使用[!DNL Adobe Workfront for Outlook]之前，您必須先為您的系統啟用它。
 
@@ -37,7 +46,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td>[!UICONTROL 計畫]</td> 
+   <td>[！UICONTROL計畫]</td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
@@ -69,4 +78,4 @@ ht-degree: 1%
 
 如需有關使用[!DNL Outlook]的[!DNL Workfront]增益集的系統需求資訊，請參閱[為 [!DNL Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)設定Adobe Workfront中的[系統需求](../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md#system-requirements-and-prerequisites)。
 
-如需如何為[!DNL Outlook]安裝[!DNL Workfront]增益集的資訊，請參閱[&#128279;](../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md#downloading-and-installing-the-add-in)在[設定 [!DNL Adobe Workfront for Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)中安裝增益集。
+如需如何為[!DNL Outlook]安裝[!DNL Workfront]增益集的資訊，請參閱[在[設定 [!DNL Adobe Workfront for Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)中安裝增益集](../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md#downloading-and-installing-the-add-in)。
