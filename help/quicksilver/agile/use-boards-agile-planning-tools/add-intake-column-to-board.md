@@ -7,9 +7,9 @@ description: 您可以選擇將輸入欄新增到您的展示板，在任務與�
 author: Courtney
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
+source-git-commit: 0ff02569d3c7fb532a2faafc46fe4235ce77acd4
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: '1033'
 ht-degree: 3%
 
 ---
@@ -63,9 +63,9 @@ ht-degree: 3%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
    <td> 
-   <p>新增：[!UICONTROL Contributor]或以上</p> 
+   <p>新增：[！UICONTROL Contributor]或以上</p> 
    <p>或</p>
-   <p>目前： [!UICONTROL Request]或以上</p>
+   <p>目前： [！UICONTROL Request]或以上</p>
    </td> 
   </tr> 
  </tbody> 
@@ -84,16 +84,10 @@ ht-degree: 3%
 1. 選取&#x200B;**展示板**&#x200B;區段。 新欄位隨即顯示。
 1. 開啟&#x200B;**動態擷取專案到展示板**。 空白輸入欄會顯示在展示板的左側。
 
-   ![輸入資料行簡單篩選選項](assets/intake-column-simple-filters.png)
+   ![輸入資料行簡單篩選選項](assets/board-section.png)
 
 1. （選擇性）搜尋並選取[!DNL Workfront] [!UICONTROL **專案**]。
 1. （選擇性）搜尋並選取使用者或團隊&#x200B;[!UICONTROL **指派**]。
-1. 選取&#x200B;[!UICONTROL **包含已完成的工作**]&#x200B;以在輸入欄中顯示具有「完成」狀態的任務和問題。
-
-   >[!NOTE]
-   >
-   >如果未選取此選項，當處於其他狀態的卡片被標籤為完成時，它們將不會顯示在展示板上。
-
 1. 按一下&#x200B;**套用**。 物件會在看板輸入欄中顯示為已連線的卡片。
 
    ![輸入資料行](assets/intake-column-added3.png)
@@ -133,7 +127,7 @@ ht-degree: 3%
 
    如需建立篩選的詳細資訊，請參閱文章[在 [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md)中建立或編輯篩選中，標準產生器中的建立或編輯篩選區段。
 
-1. 為篩選器命名，然後按一下[儲存]。**&#x200B;** 該篩選器會出現在您儲存的篩選器清單中，並自動套用至輸入欄。
+1. 為篩選器命名，然後按一下[儲存]。**** 該篩選器會出現在您儲存的篩選器清單中，並自動套用至輸入欄。
 
    ![正在輸入新的篩選器名稱](assets/save-as-modal.png)
 

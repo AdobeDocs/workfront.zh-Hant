@@ -8,15 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
+source-git-commit: 0ff02569d3c7fb532a2faafc46fe4235ce77acd4
 workflow-type: tm+mt
-source-wordcount: '6555'
+source-wordcount: '6494'
 ht-degree: 5%
 
 ---
 
 # 建立自訂表格
 
+<!-- Audited: 6/2025 -->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
@@ -60,31 +61,31 @@ ht-degree: 5%
 
 {{step-1-to-setup}}
 
-1. 按一下左側面板中的&#x200B;**自訂Forms**。
+1. 在左側面板中，按一下&#x200B;**自訂Forms**，然後選取&#x200B;**Forms**。
 
 1. 按一下&#x200B;**新增自訂表格。**
-1. 選取您要附加自訂表單的物件型別，然後按一下[繼續]。**&#x200B;**
+1. 選取您要附加自訂表單的物件型別，然後按一下[繼續]。****
 
    ![選擇物件型別](assets/choose-object-type.jpg)
 
-1. 在&#x200B;**需要標題**&#x200B;區域中，輸入自訂表單標題。
-1. （選擇性）如果您想要新增更多物件型別至表單，以便將其附加到更多物件，請在&#x200B;**物件型別**&#x200B;後按一下&#x200B;**新增**&#x200B;圖示![新增物件圖示](assets/add-objects-icon.png)，然後在顯示的功能表中選取您想要的型別。 您可以重複此步驟，新增任意數目的物件型別。
+1. 在&#x200B;**新增表單名稱**&#x200B;區域中，輸入自訂表單標題。
+1. （選擇性）如果您想要新增更多物件型別至表單，以便將其附加到更多物件，請按一下&#x200B;**物件型別**&#x200B;旁的&#x200B;**新增**&#x200B;圖示![新增物件圖示](assets/add-objects-icon.png)，然後在顯示的功能表中選取您想要的型別。 您可以重複此步驟，新增任意數目的物件型別。
 
-   您也可以按一下物件型別上的X，將其從表單中刪除。
+   將多個物件新增至表單後，您可以按一下物件型別上的X以將其從表單中刪除。
 
    >[!CAUTION]
    >
-   >刪除自訂表單也會刪除與表單關聯的物件上的所有自訂資料。 已刪除的資料無法復原。 請考慮改為停用自訂表單 — 當停用您不再使用的自訂表單時，您可保留所有關聯的歷史資料。
+   >刪除自訂表單也會刪除與表單關聯的物件上的所有自訂資料。 無法復原已刪除的資料。 或者，您可以停用不再使用的自訂表單，這會保留所有關聯的歷史資料。
    >
    >如需詳細資訊，請參閱[從現有的自訂表單新增或刪除物件型別](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/add-or-remove-objects-from-a-form.md)和[停用或重新啟用自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/activate-deactivate-form.md)。
 
 
-1. 接下來，您可以開始將欄位新增至自訂表單。 請參閱下列章節：
+1. 接下來，您可以開始將欄位新增至自訂表單。 如需詳細資訊，請參閱下列章節：
    * [重複使用已在其他自訂表單中使用的現有欄位或Widget](#reuse-an-existing-field-or-widget-already-used-in-another-custom-form)
    * [欄位名稱和標籤的附註](#notes-on-field-names-and-labels)
    * [新增文字欄位](#add-text-fields)
    * [新增計算欄位](#add-calculated-fields)
-   * [新增選項按鈕、核取方塊群組和下拉式清單](#add-radio-buttons-checkboxes-and-dropdowns)
+   * [新增選項按鈕、核取方塊群組和下拉式清單](#add-radio-buttons-checkbox-groups-and-drop-downs)
    * [新增預先輸入和日期欄位](#add-typeahead-and-date-fields)
    * [新增外部查詢欄位](#add-external-lookup-fields)
    * [新增影像、PDF和影片](#add-images-pdfs-and-videos)
@@ -100,10 +101,9 @@ ht-degree: 5%
 
 ### 重複使用已在其他自訂表單中使用的現有欄位或Widget
 
-1. 在熒幕左上方，按一下&#x200B;**欄位程式庫**。
+1. 在熒幕的左上角，按一下&#x200B;**欄位程式庫**。
 
-1. 將您想要的欄位或Widget拖曳至此以自訂表單顯示。
-1. （選用）重複上一步驟，新增任何其他欄位或Widget。
+1. 將所需的欄位或Widget拖放至畫布上。 重複此步驟以新增任何其他欄位或Widget。
 
    >[!NOTE]
    >
@@ -112,7 +112,7 @@ ht-degree: 5%
    >
    >複雜表單的範例包括含有階層式引數的表單、計算的自訂資料欄位，以及單一欄位中的多個值選項。
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -120,20 +120,20 @@ ht-degree: 5%
 
 ### 欄位名稱和標籤的附註 {#notes-on-field-names-and-labels}
 
-**標籤**&#x200B;適用於大部分欄位。 這是自訂表單上欄位或Widget上方的描述性標籤。 您可以隨時變更標籤。
+標籤適用於大多數欄位。 這是描述性標籤，顯示在自訂表單上的欄位或Widget上方。 您可以隨時變更標籤。
 
 >[!NOTE]
 >
->請避免在此標籤中使用特殊字元。 它們在報表中無法正確顯示。
+>請避免在此標籤中使用特殊字元，因為這些字元在報表中無法正確顯示。
 
-每個欄位都需要&#x200B;**名稱**。 此名稱是當您新增自訂欄位至Workfront的各個區域時（例如報表、首頁和API互動），系統識別該欄位的方法。 當您首次設定欄位或Widget且輸入標籤時，會自動填入名稱欄位以和欄位相符。 但是「標籤」和「名稱」欄位不同步，這可讓您自由地變更使用者看到的標籤，而不必變更系統看到的名稱。
+每個欄位都必須有名稱。 此名稱是當您新增自訂欄位至Workfront的各個區域時（例如報表、首頁和API互動），系統識別該欄位的方法。 當您首次設定欄位或Widget且輸入標籤時，會自動填入名稱欄位以和欄位相符。 「標籤」和「名稱」欄位未同步。 這可讓您選擇變更使用者看到的標籤，而不必變更系統看到的名稱。
 
 每個自訂欄位名稱在貴組織的Workfront例項中必須是唯一的。 如此一來，您便可重複使用已針對其他自訂表單建立的表單。
 
 >[!NOTE]
 >
 >雖然可以這樣做，但建議您不要在您或其他使用者開始使用Workfront中的自訂表單後變更此名稱。 如果這樣做，系統將不再識別現在可能在Workfront其他區域參考該欄位的自訂欄位。
->例如，如果您新增自訂欄位至報表，之後又變更其名稱，Workfront將無法辨識報表中的自訂欄位，且除非您使用新名稱將其重新新增至報表，否則將無法正常運作。
+>>例如，如果您新增自訂欄位至報表，之後又變更其名稱，Workfront將無法辨識報表中的自訂欄位，且除非您使用新名稱將其重新新增至報表，否則將無法正常運作。
 >
 >建議您不要輸入已用於內建Workfront欄位的名稱。
 >
@@ -157,7 +157,7 @@ ht-degree: 5%
 
 您可以將數個不同的文字欄位新增至自訂表格。
 
-+++ **展開以檢視可用文字欄位的說明**
++++ 展開以檢視可用文字欄位的說明。
 
 * **單行文字欄位**：允許使用者在欄位中輸入單行文字。
 * **段落欄位**：允許使用者在欄位中輸入多行文字。
@@ -177,7 +177,7 @@ ht-degree: 5%
 
 若要新增文字欄位：
 
-1. 在熒幕左側，找到下列其中一個文字欄位，並將其拖曳至畫布上的區段：
+1. 在畫面左側的&#x200B;**新欄位**&#x200B;索引標籤中，尋找下列文字欄位之一，並將其拖曳至畫布上的區段：
 
    * 單行文字
    * 段落
@@ -196,7 +196,7 @@ ht-degree: 5%
     </tr>
     <tr>
     <td>大小</td>
-    <td><p>變更表單上文字欄位的大小。<p>
+    <td><p>（選用）變更表單上文字欄位的大小。<p>
    </td>
     <td><ul>
     <li>單行文字</li>
@@ -208,7 +208,7 @@ ht-degree: 5%
     <tr>
     <td>標籤</td>
     <td><p>（必要）輸入描述性標籤以顯示於欄位上方。 您可以隨時變更標籤。<p>
-    <p>重要：請避免在此標籤中使用特殊字元。 它們在報表中無法正確顯示。 如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p></td>
+    <p><b>重要</b>：請避免在此標籤中使用特殊字元，因為這些字元在報表中無法正確顯示。 如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p></td>
     <td><ul>
     <li>單行文字</li>
     <li>段落</li>
@@ -217,7 +217,7 @@ ht-degree: 5%
     </tr>
     <tr>
      <td>姓名</td>
-    <td><p>（必要）此名稱是系統識別欄位的方式。 當您第一次設定Widget且輸入標籤時，「名稱」欄位會自動填入以和相符。 但是「標籤」和「名稱」欄位不同步，這可讓您自由地變更使用者看到的標籤，而不必變更系統看到的名稱。</p>
+    <td><p>（必要）此名稱是系統識別欄位的方式。 當您第一次設定Widget且輸入標籤時，「名稱」欄位會自動填入以和相符。 「標籤」和「名稱」欄位未同步。 這可讓您選擇變更使用者看到的標籤，而不必變更系統看到的名稱。</p>
     <p>如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p>
     </td>
     <td><ul>
@@ -242,7 +242,7 @@ ht-degree: 5%
     <td>格式</td>
     <td><p>選取將在自訂欄位中擷取的資料型別。</p> <p><b>附註</b>：   
     <ul> 
-    <li>表單儲存後即無法編輯此欄位。 如果您要在數學計算中使用欄位，請務必選取「數字」或「貨幣」格式。</li> 
+    <li>表單儲存後無法編輯此欄位。 如果您要在數學計算中使用欄位，請務必選取「數字」或「貨幣」格式。</li> 
     <li>當您選取「數字」或「貨幣」時，系統會自動截斷以0開頭的數字。</li>
     <li>數字欄位的字元限製為16。 您也可以使用文字欄位來輸入數字並避免限制。</li>
      </ul></p></td> </td>
@@ -267,6 +267,11 @@ ht-degree: 5%
     <tr> 
       <td role="rowheader">設為必要欄位</td>
       <td><p>如果您希望欄位是使用者完成自訂表單的必要欄位，請選取此選項。</p></td>
+    <td><ul>
+    <li>單行文字</li>
+    <li>段落</li>
+    <li>含格式的文字</li>
+    </ul></td> 
     </tr> 
    </table>
 
@@ -278,7 +283,7 @@ ht-degree: 5%
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -292,9 +297,9 @@ ht-degree: 5%
 
 ### 新增選項按鈕、核取方塊群組和下拉式清單
 
-您可以新增選項按鈕、核取方塊群組、下拉式清單和多選下拉式清單至自訂表單。
+您可以將選項按鈕、核取方塊群組、下拉式清單及多選下拉式清單新增至自訂表單。
 
-+++ **展開以檢視可用欄位的說明**
++++ 展開以檢視可用欄位的說明。
 
 * **選項按鈕**：要求使用者只選取一個選項。
 * **核取方塊群組**：允許使用者選取多個選項。
@@ -305,11 +310,11 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->允許進行多重選取的欄位（例如「核取方塊群組」和「多重選取下拉式清單」）很難在報告中建立圖表和群組。 若要更輕鬆地在報表中進行圖表和分組，您可以為每個選擇建立個別欄位（例如，單行文字欄位）。
+>允許進行多重選取的欄位（例如「核取方塊群組」和「多重選取下拉式清單」）很難在報告中建立圖表和群組。 若要更輕鬆地在報表中進行圖表和分組，您可以為每個選擇建立個別欄位（例如單行文字欄位）。
 
 若要新增選項按鈕、核取方塊群組和下拉式清單：
 
-1. 在畫面的左側，找到下列其中一個欄位，並將其拖曳至畫布上的區段。
+1. 在畫面左側的&#x200B;**新欄位**&#x200B;索引標籤中，尋找下列其中一個欄位並將其拖曳至畫布上的區段：
 
    * 選項按鈕
    * 核取方塊群組
@@ -329,7 +334,7 @@ ht-degree: 5%
     </tr>
     <tr> 
      <td role="rowheader">標籤</td> 
-     <td> <p>（必要）輸入描述性標籤，以在自訂欄位上方顯示。 您可以隨時變更標籤。</p> <p><b>重要</b>： </p> <p>請避免在此標籤中使用特殊字元。 它們在報表中無法正確顯示。 如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p> </td> 
+     <td> <p>（必要）輸入描述性標籤，以在自訂欄位上方顯示。 您可以隨時變更標籤。</p> <p><b>重要</b>：請避免在此標籤中使用特殊字元，因為這些字元在報表中無法正確顯示。 如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p> </td> 
      <td><ul>
     <li>選項按鈕</li>
     <li>核取方塊群組</li>
@@ -339,7 +344,7 @@ ht-degree: 5%
      </tr> 
      <tr> 
     <td role="rowheader">姓名</td> 
-     <td> <p>（必要）此名稱是系統識別欄位的方式。 當您第一次設定Widget且輸入標籤時，「名稱」欄位會自動填入以和相符。 但是「標籤」和「名稱」欄位不同步，這可讓您自由地變更使用者看到的標籤，而不必變更系統看到的名稱。</p> 
+     <td> <p>（必要）此名稱是系統識別欄位的方式。 當您第一次設定Widget且輸入標籤時，「名稱」欄位會自動填入以和相符。 「標籤」和「名稱」欄位未同步。 這可讓您選擇變更使用者看到的標籤，而不必變更系統看到的名稱。</p> 
     <p>如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p> </td>
      <td><ul>
     <li>選項按鈕</li>
@@ -364,7 +369,7 @@ ht-degree: 5%
     <td role="rowheader">格式</td> 
     <td> <p>選取將在自訂欄位中擷取的資料型別。</p> <p><b>附註</b>：   
      <ul> 
-    <li>表單儲存後即無法編輯此欄位。 如果您要在數學計算中使用欄位，請務必選取「數字」或「貨幣」格式。<br></li> 
+    <li>表單儲存後無法編輯此欄位。 如果您要在數學計算中使用欄位，請務必選取「數字」或「貨幣」格式。<br></li> 
     <li>當您選取「數字」或「貨幣」時，系統會自動截斷以0開頭的數字。</li>
     <li>數字欄位的字元限製為16。 您也可以使用文字欄位來輸入數字並避免限制。</li>
      </ul></p></td> 
@@ -385,7 +390,30 @@ ht-degree: 5%
     <li>多選下拉式清單</li>
     </ul></td>
     </tr> 
-     <tr> 
+    <td role="rowheader">選擇 </td> 
+    <td> 
+    <p>選取下列任一選項：</p> 
+    <ul> 
+    <li><strong>顯示值</strong>：顯示欄位中每個選擇的值。 依預設，會顯示每個選擇的標籤。</li>
+   <li><strong>排序選擇A-Z</strong>：依字母順序排序您在欄位中新增的選擇。</li>
+    </ul>
+     <p>針對您為使用者新增的每個選擇，按一下齒輪圖示<img src="assets/gear-icon-settings.png">，然後選取下列其中一個選項：</p> 
+    <ul> 
+    <li><strong>依預設選取</strong>：依預設在欄位中選取選項。</li> 
+    <li> <p><strong>隱藏選擇</strong>：隱藏欄位中的選擇。 隱藏的選擇在報表中仍可存取。</p> </li> 
+    <li> <p><strong>移除選擇</strong>：從欄位移除選擇。</p> <p><b>警告</b>：如果您有使用此選擇的目前物件，請勿將其從欄位移除。 移除它將會導致歷史資料遺失。 相反地，選取要隱藏它的選項，這會防止使用者在將來選取它。</p> </li> 
+    </ul>   
+    <p><b>注意：</b>您可以選取的選項數目沒有限制。 </p>    
+    </td> 
+    <td><ul>
+    <li>選項按鈕</li>
+    <li>核取方塊群組</li>
+    <li>單選下拉式清單</li>
+    <li>多選下拉式清單</li>
+    </ul>
+    </td>
+     </tr> 
+          <tr> 
     <td role="rowheader">設為必要欄位</td> 
     <td>如果您希望欄位是使用者完成自訂表單的必要欄位，請選取此選項。 </td> 
     <td><ul>
@@ -396,35 +424,6 @@ ht-degree: 5%
     </ul></td>
      </tr> 
     <tr> 
-    <td role="rowheader">選擇 </td> 
-    <td> 
-    <ol> 
-    <li> <p>按一下<b>選項</b>，然後啟用下列任一專案：</p> 
-    <ul> 
-    <li><strong>顯示值</strong>：顯示欄位中每個選擇的值。 依預設，會顯示每個選擇的標籤。</li> 
-     <li><strong>排序選擇A-Z</strong>：依字母順序排序您在欄位中新增的選擇。</li> 
-    </ul> 
-    </li> 
-    <li> <p>針對您為使用者新增的每個選擇，按一下齒輪圖示<img src="assets/gear-icon-settings.png">，然後選取下列其中一個選項：</p> 
-    <ul> 
-    <li><strong>依預設選取</strong>：依預設在欄位中選取選項。</li> 
-    <li> <p><strong>隱藏選擇</strong>：隱藏欄位中的選擇。 隱藏的選擇在報表中仍可存取。</p> </li> 
-    <li> <p><strong>移除選擇</strong>：從欄位移除選擇。</p> <p><b>警告</b>：如果您有使用此選擇的目前物件，請勿將其從欄位移除。 移除它將會導致歷史資料遺失。 相反地，選取要隱藏它的選項，這會防止使用者在將來選取它。</p> </li> 
-    </ul> 
-     </li> 
-    </ol>
-
-   <p><b>注意：</b></p>
-    <p>您可以選取的選項數量沒有限制。 </p>    
-    </td> 
-    <td><ul>
-    <li>選項按鈕</li>
-    <li>核取方塊群組</li>
-    <li>單選下拉式清單</li>
-    <li>多選下拉式清單</li>
-    </ul>
-    </td>
-     </tr> 
     </tbody> 
     </table>
 
@@ -436,7 +435,7 @@ ht-degree: 5%
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -446,7 +445,7 @@ ht-degree: 5%
 
 您可以將預先輸入和日期欄位新增至自訂表單。
 
-+++ **展開以檢視可用欄位的說明**
++++ 展開以檢視可用欄位的說明。
 
 * **自動提示**：允許使用者輸入Workfront中存在的物件名稱。 當使用者開始輸入時，建議清單隨即出現。 此欄位型別支援下列物件：
    * 使用者
@@ -464,7 +463,7 @@ ht-degree: 5%
 
 若要新增預先輸入和日期欄位：
 
-1. 在畫面的左側，找到下列其中一個欄位，並將其拖曳至畫布上的區段。
+1. 在畫面左側的&#x200B;**新欄位**&#x200B;索引標籤中，尋找下列其中一個欄位並將其拖曳至畫布上的區段。
 
    * 自動提示
    * 日期
@@ -482,7 +481,7 @@ ht-degree: 5%
     </tr>
      <tr> 
       <td role="rowheader">標籤</td> 
-      <td> <p>（必要）輸入描述性標籤，以在自訂欄位上方顯示。 您可以隨時變更標籤。</p> <p><b>重要</b>：請避免在此標籤中使用特殊字元。 它們在報表中無法正確顯示。 如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p> </td> 
+      <td> <p>（必要）輸入描述性標籤，以在自訂欄位上方顯示。 您可以隨時變更標籤。</p> <p><b>重要</b>：請避免在此標籤中使用特殊字元，因為這些字元在報表中無法正確顯示。 如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p> </td> 
        <td><ul>
     <li>自動提示</li>
     <li>日期</li>
@@ -490,7 +489,7 @@ ht-degree: 5%
      </tr> 
      <tr> 
       <td role="rowheader">姓名</td> 
-      <td> <p>（必要）此名稱是系統識別欄位的方式。 當您第一次設定Widget且輸入標籤時，「名稱」欄位會自動填入以和相符。 但是「標籤」和「名稱」欄位不同步，這可讓您自由地變更使用者看到的標籤，而不必變更系統看到的名稱。</p> 
+      <td> <p>（必要）此名稱是系統識別欄位的方式。 當您第一次設定Widget且輸入標籤時，「名稱」欄位會自動填入以和相符。 「標籤」和「名稱」欄位未同步。 這可讓您選擇變更使用者看到的標籤，而不必變更系統看到的名稱。</p> 
       <p>如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p> </td>
     <td><ul>
     <li>自動提示</li>
@@ -516,7 +515,7 @@ ht-degree: 5%
      </tr> 
      <tr> 
       <td role="rowheader">參考物件類型</td> 
-      <td> <p>選取您要與欄位關聯的物件型別。</p> <p>按一下「套用」或「儲存+關閉」後，就無法變更欄位的物件型別。</p> <p><b>附註</b>：   
+      <td> <p>選取您要與欄位關聯的物件型別。</p> <p>按一下<b>套用</b>或<b>儲存並關閉</b>後，您就無法變更欄位的物件型別。</p> <p><b>附註</b>：   
         <ul> 
          <li>如果您的Workfront管理員在Workfront使用者介面中為投資組合、程式或專案自訂名稱，則該物件的預設Workfront名稱會出現在下拉式清單中，而不是自訂名稱。 如果您需要這方面的協助，請洽詢Workfront管理員。<br></li> 
          <li>iOS和Android Workfront Mobile應用程式支援下列物件型別：使用者、公司、群組、工作角色、Portfolio、方案、專案和範本。</li> 
@@ -527,11 +526,11 @@ ht-degree: 5%
      </tr>
      <tr>
       <td role="rowheader">新增篩選器</td>
-      <td><p>為物件型別新增篩選條件，以限制使用者在使用欄位時可以選擇的物件。 </p> <p>例如，您可以限制欄位，以便只有在使用者符合以下條件時才可選取使用者名稱：</p> 
+      <td><p>為物件型別新增篩選條件，以限制使用者在使用欄位時可以選擇的物件。 </p> <p>例如，您可以限制欄位，讓使用者名稱只有在符合以下條件時才可選取：</p> 
        <ul> 
-        <li>它們屬於您指定的群組</li> 
-        <li>它們與您指定的角色或職稱相關聯</li> 
-        <li>他們與使用欄位的人屬於同一群組</li> 
+        <li>它們屬於您指定的群組。</li> 
+        <li>它們與您指定的角色或職稱相關聯。</li> 
+        <li>他們與使用欄位的人屬於同一群組。</li> 
        </ul> <p>您必須使用「文字模式」語法來定義所選物件型別的濾鏡。 如需有關使用文字模式建立篩選的資訊，請參閱<a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">使用文字模式編輯篩選</a>。</p>
        <p><b>附註</b>：
        <ul> 
@@ -563,7 +562,7 @@ ht-degree: 5%
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -571,7 +570,7 @@ ht-degree: 5%
 
 ### 新增外部查詢欄位
 
-外部查詢欄位會呼叫外部API，並在下拉式欄位中傳回值作為選項。 使用自訂表單附加至之物件的使用者可以從下拉式清單中選取一個或多個選項。 清單和報告中也提供外部查詢欄位。
+外部查詢欄位會呼叫外部API，並在下拉式欄位中傳回值作為選項。 使用自訂表單附加至之物件的使用者可以從下拉式清單中選取這些選項中的一個或多個選項。 清單和報告中也提供外部查詢欄位。
 
 如需使用外部查詢欄位來呼叫相同Workfront執行個體或公用API的範例，請參閱[自訂表單中的外部查詢欄位範例](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)。
 
@@ -582,7 +581,7 @@ ht-degree: 5%
 
 若要新增外部查詢：
 
-1. 在熒幕左側，尋找&#x200B;**外部查詢**&#x200B;並將其拖曳至畫布上的區段。
+1. 在畫面左側的&#x200B;**新欄位**&#x200B;索引標籤中，尋找&#x200B;**外部查詢**&#x200B;並將其拖曳至畫布上的區段。
 1. 在畫面右側，設定自訂欄位的選項：
 
    <table style="table-layout:auto"> 
@@ -591,11 +590,11 @@ ht-degree: 5%
     <tbody> 
      <tr> 
       <td role="rowheader">標籤</td> 
-      <td> <p>（必要）輸入描述性標籤，以在自訂欄位上方顯示。 您可以隨時變更標籤。</p> <p><b>重要</b>：請避免在此標籤中使用特殊字元。 它們在報表中無法正確顯示。 如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p> </td> 
+      <td> <p>（必要）輸入描述性標籤，以在自訂欄位上方顯示。 您可以隨時變更標籤。</p> <p><b>重要</b>：請避免在此標籤中使用特殊字元，因為這些字元在報表中無法正確顯示。 如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">姓名</td> 
-      <td> <p>（必要）此名稱是系統識別欄位的方式。 當您第一次設定Widget且輸入標籤時，「名稱」欄位會自動填入以和相符。 但是「標籤」和「名稱」欄位不同步，這可讓您自由地變更使用者看到的標籤，而不必變更系統看到的名稱。</p>
+      <td> <p>（必要）此名稱是系統識別欄位的方式。 當您第一次設定Widget且輸入標籤時，「名稱」欄位會自動填入以和相符。 但是「標籤」和「名稱」欄位不同步，因此您可以選擇變更使用者看到的標籤，而不必變更系統看到的名稱。</p>
       <p>如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p> </td>
      </tr> 
       <td role="rowheader">指示</td> 
@@ -612,16 +611,16 @@ ht-degree: 5%
      </tr> 
      <tr> 
       <td role="rowheader">基底 API URL</td> 
-      <td><p>輸入或貼上API的URL。</p><p>API URL必須傳回您要在下拉式清單中顯示的選項JSON內容。 您可以使用JSON路徑欄位，從傳回的JSON中選取特定值作為下拉式選項。</p><p>輸入API URL時，您可以選擇在URL中傳遞下列值：</p>
+      <td><p>輸入或貼上API的URL。</p><p>API URL必須傳回您要在下拉式清單中顯示的選項的JSON內容。 您可以使用JSON路徑欄位，從傳回的JSON中選取特定值作為下拉式選項。</p><p>輸入API URL時，您可以選擇在URL中傳遞下列值：</p>
       <ul>
-      <li>$$HOST — 這代表目前的Workfront主機，可用來對Workfront API進行/search API呼叫。 使用此萬用字元時，會處理驗證，使用者不需要傳送驗證標題。 （例如，使用者可以使用基本URL <code>$$HOST/attask/api/task/search</code>來搜尋工作，而且它允許搜尋工作並從傳回的工作清單中選取值。）</li>
+      <li>$$HOST — 這代表目前的Workfront主機，可用來對Workfront API進行/搜尋API呼叫。 使用此萬用字元時，會處理驗證，使用者不需要傳送驗證標題。 （例如，使用者可以使用基本URL <code>$$HOST/attask/api/task/search</code>來搜尋工作，而且它允許搜尋工作並從傳回的工作清單中選取值。）</li>
       <li><p>$$QUERY — 這代表一般使用者在欄位中輸入的搜尋文字，可讓您為一般使用者實作查詢篩選。 （使用者會在下拉式清單中搜尋值。）</p>
       <p>如果您參考的API允許，您也可以在搜尋查詢中包含修飾詞，以識別搜尋應該如何運作。 例如，您可以使用下列作為基礎API URL，以允許人員搜尋包含特定文字的任何Workfront專案： <code>$$HOST/attask/api/v15.0/proj/search?name=$$QUERY&name_Mod=contains</code>。</p><p>進一步瞭解<a href="/help/quicksilver/wf-api/general/api-basics.md">API基本知識</a>中的Workfront搜尋修飾詞。</p>
       <p><strong>注意：</strong>如果您未使用$$QUERY，而且使用者在搜尋方塊中輸入文字，將會縮小您現有的選擇。 但是，如果您使用$$QUERY且使用者鍵入任何內容，則會對您的API執行新的網路呼叫。 因此，如果您的API中有超過2000個值，且API支援查詢，您便可以利用$$QUERY來不僅搜尋現有2000個值，而且搜尋具有縮小選項的原始API。</p></li>
       <li><p>{fieldName} — 其中fieldName是Workfront中的任何自訂或原生欄位。 這樣，當您將已選取欄位的值傳遞至外部查詢欄位以篩選下拉選項時，您就可以實作階層式下拉選項篩選器。 （例如，「地區」欄位已存在於表單上，而您正在將國家/地區清單從API縮小至特定地區。）</p>
       <p>對於相依於其他欄位（使用{fieldName}語法）的外部查詢欄位，從API傳回的選項僅限於符合在其他欄位中輸入的任何字串或值的選項。 （清單和報告不支援此功能。）</p></li>
       <li>{referenceObject}。{fieldName} — 其中欄位是物件的一部分。 此語法類似於自訂運算式。 (例如，portfolioID={project}。{portfolioID})</li></ul>
-      <p><strong>注意：</strong>檢閱您正在使用的API檔案，以瞭解您可以定義的特定查詢。</p></td>
+      <p><strong>秘訣：</strong>檢閱您正在使用的API檔案，以瞭解您可以定義的特定查詢。</p></td>
      </tr>
      <tr> 
       <td role="rowheader">HTTP 方法</td> 
@@ -629,24 +628,24 @@ ht-degree: 5%
      </tr>
      <tr> 
       <td role="rowheader">JSON 路徑</td>
-      <td><p>輸入或貼上API的JSON路徑。</p> <p>此選項允許從API URL傳回的JSON擷取資料。 這可當作選取要讓JSON內的哪些值出現在下拉選項中的方式。</p><p>例如，若您的API URL傳回此格式的JSON： </br>
+      <td><p>輸入或貼上API的JSON路徑。</p> <p>此選項允許從API URL傳回的JSON擷取資料。 這可當作選取要讓JSON內的哪些值會出現在下拉式選項中的方式。</p><p>例如，如果您的API URL以下列格式傳回JSON，則您可以使用「$.data[*].name」選取美國和加拿大作為下拉式選項：</br>
       <pre>
-      &lbrace;
-       資料： &lbrace;
+      {
+       資料： {
          { name： "USA"}，
          { name： "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
-      <p>然後您可以使用「$.data[*].name」選取美國和加拿大作為下拉式清單選項。</p> <p>如需有關JSON路徑並確保您撰寫正確JSON路徑的詳細資訊，請參閱<a href="https://jsonpath.com/">https://jsonpath.com/</a>。</p></td>
+     <p>如需有關JSON路徑並確保您撰寫正確JSON路徑的詳細資訊，請參閱<a href="https://jsonpath.com/">https://jsonpath.com/</a>。</p></td>
      </tr>
      <tr> 
       <td role="rowheader">標頭</td>
       <td><p>按一下<strong>新增標題</strong>，然後輸入或貼上使用API驗證所需的金鑰值組。</p><p><strong>注意：</strong>標頭欄位不是儲存認證的安全位置，您應該注意輸入和儲存的內容。</p></td>
      </tr>
      <tr> 
-      <td role="rowheader">多選下拉清單</td>
+      <td role="rowheader">多選下拉式清單</td>
       <td><p>選取此選項可允許使用者在下拉式清單中選取多個值。</p></td>
      </tr>
      </tr>
@@ -657,7 +656,7 @@ ht-degree: 5%
     </tbody>
    </table>
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -677,8 +676,8 @@ ht-degree: 5%
 
 您可以將影像、PDF和視訊新增至自訂表單。 使用自訂表單附加至之物件的使用者只能在下列區域檢視影像、PDF或影片：
 
-* 物件的「詳細資訊」區域（例如，專案的「詳細資訊」區域）
-* 物件的「編輯」方塊(如果它具有新的Adobe Workfront體驗外觀) （例如「編輯專案」和「編輯任務」方塊）
+* 物件的「詳細資訊」區域（例如，針對專案，則為「專案詳細資訊」區域）。
+* 物件的「編輯」方塊(如果它具有新的Adobe Workfront體驗外觀) （例如「編輯專案」和「編輯任務」方塊）。
 
 <!-- Do we need to tell them where they can't see it if we tell them where they can see it?
 Currently, users cannot see the widget in the following areas:​
@@ -687,7 +686,7 @@ Home and Summary
 The Edit box for the object, if it doesn't have the new Adobe Workfront experience look and feel (for example, the Edit Expense box)
 The Workfront Mobile app -->
 
-+++ **展開以檢視可用欄位的說明**
++++ 展開以檢視可用欄位的說明。
 
 * **影像**：允許使用者新增影像檔案。
 * **PDF**：允許使用者新增PDF
@@ -697,7 +696,7 @@ The Workfront Mobile app -->
 
 若要新增影像、PDF或視訊：
 
-1. 在畫面的左側，找到下列其中一個欄位，並將其拖曳至畫布上的區段。
+1. 在畫面左側的&#x200B;**新欄位**&#x200B;索引標籤中，尋找下列其中一個欄位並將其拖曳至畫布上的區段。
 
    * 影像
    * PDF
@@ -711,13 +710,17 @@ The Workfront Mobile app -->
     <col> 
     <col> 
     <tbody> 
+         <tr> 
+      <td role="rowheader">大小</td> 
+      <td>（選用）視需要變更Widget的顯示大小。</td> 
+     </tr> 
      <tr> 
       <td role="rowheader">標籤</td> 
-      <td> <p>（必要）輸入要顯示在Widget上方的描述性標籤。 您可以隨時變更標籤。</p> <p><b>重要</b>：請避免在此標籤中使用特殊字元。 它們在報表中無法正確顯示。 如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p> </td> 
+      <td> <p>（必要）輸入要顯示在Widget上方的描述性標籤。 您可以隨時變更標籤。</p> <p><b>重要</b>：請避免在此標籤中使用特殊字元，因為這些字元在報表中無法正確顯示。 如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">姓名</td> 
-      <td> <p>（必要）此名稱是系統識別Widget的方式。 當您第一次設定Widget且輸入標籤時，「名稱」欄位會自動填入以和相符。 但是「標籤」和「名稱」欄位不同步，這可讓您自由地變更使用者看到的標籤，而不必變更系統看到的名稱。</p> <p>如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p> </td> 
+      <td> <p>（必要）此名稱是系統識別Widget的方式。 當您第一次設定Widget且輸入標籤時，「名稱」欄位會自動填入以和相符。 「標籤」和「名稱」欄位未同步。 這可讓您選擇變更使用者看到的標籤，而不必變更系統看到的名稱。</p> <p>如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
@@ -735,10 +738,6 @@ The Workfront Mobile app -->
       <td role="rowheader">指示</td> 
       <td> <p>輸入有關Widget的任何其他資訊。 當使用者填寫自訂表單時，可以將滑鼠指標暫留在問號圖示上，以檢視包含您在此處輸入資訊的工具提示。</p> </td> 
      </tr> 
-     <tr> 
-      <td role="rowheader">大小</td> 
-      <td>視需要變更Widget的顯示大小。</td> 
-     </tr> 
     </tbody> 
    </table>
 
@@ -750,7 +749,7 @@ The Workfront Mobile app -->
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -766,7 +765,7 @@ The Workfront Mobile app -->
 1. 開啟校訂。
 1. 以滑鼠右鍵按一下視訊上的任何位置，然後選取&#x200B;**複製視訊位址**。
 1. 在您新增視訊Widget的自訂表單中，將複製的地址貼到&#x200B;**URL**&#x200B;方塊中。
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -776,7 +775,7 @@ The Workfront Mobile app -->
 
 您可以將Workfront原生欄位新增至自訂表單。 當自訂表單附加到物件時，會從物件資料填入欄位。 例如，附加到專案的自訂表單上的說明欄位將提取專案說明。 （如果沒有可用資料，欄位可能會顯示「N/A」。）
 
-+++ **展開以檢視支援的原生欄位清單**
++++ 展開以檢視支援的原生欄位清單。
 
 此表格列出自訂表單中特定Workfront物件的可用原生欄位。
 
@@ -823,20 +822,24 @@ The Workfront Mobile app -->
 
 +++
 
-1. 在熒幕左側，尋找&#x200B;**原生欄位參考**&#x200B;並將其拖曳至畫布上的區段。
+1. 在畫面左側的&#x200B;**新欄位**&#x200B;索引標籤中，尋找&#x200B;**原生欄位參考**&#x200B;並將其拖曳至畫布上的區段。
 1. 在畫面右側，設定自訂欄位的選項：
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
+         <tr> 
+      <td role="rowheader">大小</td> 
+      <td>（可選）視需要變更欄位的顯示大小。</td> 
+     </tr> 
      <tr> 
       <td role="rowheader">標籤</td> 
-      <td> <p>（必要）輸入描述性標籤以顯示於欄位上方。 您可以隨時變更標籤。</p> <p><b>重要</b>：請避免在此標籤中使用特殊字元。 它們在報表中無法正確顯示。 如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p> </td> 
+      <td> <p>（必要）輸入描述性標籤以顯示於欄位上方。 您可以隨時變更標籤。</p> <p><b>重要</b>：請避免在此標籤中使用特殊字元，因為這些字元在報表中無法正確顯示。 如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">姓名</td>
-      <td> <p>（必要）此名稱是系統識別欄位的方式。 當您第一次設定欄位並輸入標籤時，「名稱」欄位會自動填入以和欄位相符。 但是「標籤」和「名稱」欄位不同步，這可讓您自由地變更使用者看到的標籤，而不必變更系統看到的名稱。</p>
+      <td> <p>（必要）此名稱是系統識別欄位的方式。 當您第一次設定欄位並輸入標籤時，「名稱」欄位會自動填入以和欄位相符。 「標籤」和「名稱」欄位未同步。 這可讓您選擇變更使用者看到的標籤，而不必變更系統看到的名稱。</p>
       <p>如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p></td> 
      </tr> 
      <tr> 
@@ -849,13 +852,13 @@ The Workfront Mobile app -->
      </tr>
      <tr>
       <td role="rowheader">新增篩選器</td>
-      <td><p>為參考欄位新增篩選器，以限制使用者在使用欄位時可以選擇的專案清單。 </p> <p>例如，您可以限制欄位，以便只有在使用者符合以下條件時才可選取使用者名稱：</p> 
+      <td><p>為參考欄位新增篩選器，以限制使用者在使用欄位時可以選擇的專案清單。 </p> <p>例如，您可以限制欄位，讓使用者名稱只有在符合以下條件時才可選取：</p> 
        <ul>
-        <li>它們屬於您指定的群組</li> 
-        <li>它們與您指定的角色或職稱相關聯</li> 
-        <li>他們與使用欄位的人屬於同一群組</li> 
+        <li>它們屬於您指定的群組。</li> 
+        <li>它們與您指定的角色或職稱相關聯。</li> 
+        <li>他們與使用欄位的人屬於同一群組。</li> 
        </ul>
-       <p>您必須使用「文字模式」語法來定義所選參考欄位的篩選器。 如需有關使用文字模式建立篩選的資訊，請參閱<a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">使用文字模式編輯篩選</a>。</p>
+       <p>您必須使用「文字模式」語法來定義所選參考欄位的篩選器。 如需詳細資訊，請參閱<a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">使用文字模式編輯篩選器</a>。</p>
        <p><b>附註</b>：
        <ul> 
         <li>篩選選項僅在您參考原生預先輸入欄位時可用，例如Portfolio、公司或所有者。</li>
@@ -868,14 +871,10 @@ The Workfront Mobile app -->
       <td role="rowheader">設為必要欄位</td>
       <td><p>如果您希望欄位是使用者完成自訂表單的必要欄位，請選取此選項。</p></td>
      </tr> 
-     <tr> 
-      <td role="rowheader">大小</td> 
-      <td>（可選）視需要變更欄位的顯示大小。</td> 
-     </tr> 
     </tbody> 
    </table>
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -890,36 +889,36 @@ The Workfront Mobile app -->
 
 新增Adobe XD檔案：
 
-1. 在熒幕左側，尋找&#x200B;**Adobe XD**&#x200B;並將其拖曳至畫布上的區段。
+1. 在畫面左側的&#x200B;**新欄位**&#x200B;索引標籤中，尋找&#x200B;**Adobe XD**&#x200B;並將其拖曳至畫布上的區段。
 1. 為Widget輸入或編輯下列任一屬性：
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
+         <tr> 
+      <td role="rowheader">大小</td> 
+      <td>（選用）視需要變更Widget的顯示大小。</td> 
+     </tr> 
      <tr> 
       <td role="rowheader">標籤</td> 
-      <td> <p>（必要）輸入要顯示在Widget上方的描述性標籤。 您可以隨時變更標籤。</p> <p><b>重要</b>：請避免在此標籤中使用特殊字元。 它們在報表中無法正確顯示。 如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p> </td> 
+      <td> <p>（必要）輸入要顯示在Widget上方的描述性標籤。 您可以隨時變更標籤。</p> <p><b>重要</b>：請避免在此標籤中使用特殊字元，因為這些字元在報表中無法正確顯示。 如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">姓名</td> 
-      <td> <p>（必要）此名稱是系統識別Widget的方式。 當您第一次設定Widget且輸入標籤時，「名稱」欄位會自動填入以和相符。 但是「標籤」和「名稱」欄位不同步，這可讓您自由地變更使用者看到的標籤，而不必變更系統看到的名稱。</p>
+      <td> <p>（必要）此名稱是系統識別Widget的方式。 當您第一次設定Widget且輸入標籤時，「名稱」欄位會自動填入以和相符。 「標籤」和「名稱」欄位未同步。 這可讓您選擇變更使用者看到的標籤，而不必變更系統看到的名稱。</p>
     <p>如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>（必要）輸入或貼上有效的XD原型連結。</p> 
-      <p>注意：在Adobe XD中，共用標籤上的連結存取設定必須設定為具有連結的任何人。 否則，使用者將無法檢視原型。 
+      <p><b>注意</b>： Adobe XD中「共用」標籤上的「連結存取」設定必須設定為「擁有連結的任何人」。 否則，使用者將無法檢視原型。 
    </td> 
      </tr> 
      <tr> 
       <td role="rowheader">指示</td> 
       <td> <p>輸入有關Widget的任何其他資訊。 當使用者填寫自訂表單時，可以將滑鼠指標暫留在問號圖示上，以檢視包含您在此處輸入資訊的工具提示。
     <img src="assets/instructions-form-designer.png"></p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">大小</td> 
-      <td>（選用）視需要變更Widget的顯示大小。</td> 
      </tr> 
     </tbody> 
    </table>
@@ -932,7 +931,7 @@ The Workfront Mobile app -->
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -964,26 +963,30 @@ The Workfront Mobile app -->
 
 新增Planning連線欄位：
 
-1. 在熒幕左側，尋找&#x200B;**Planning連線**，並將其拖曳至畫布上的區段。
+1. 在畫面左側的&#x200B;**新欄位**&#x200B;索引標籤中，尋找&#x200B;**Planning連線**，並將其拖曳至畫布上的區段。
 1. 在畫面右側，設定自訂欄位的選項：
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
+    <tr> 
+      <td role="rowheader">大小</td> 
+      <td>（選用）視需要變更Widget的顯示大小。</td> 
+     </tr> 
      <tr> 
       <td role="rowheader">標籤</td> 
-      <td> <p>（必要）輸入描述性標籤以顯示於欄位上方。 您可以隨時變更標籤。</p> <p><b>重要</b>：</p> <p>請避免在此標籤中使用特殊字元。</p> 
-      <p>建議您選擇一個標籤，以便輕鬆識別Planning記錄的來源。 新增工作區名稱或記錄型別名稱之類的資訊。 </p>   </td> 
+      <td> <p>（必要）輸入描述性標籤以顯示於欄位上方。 您可以隨時變更標籤。</p> <p><b>重要</b>：請避免在此標籤中使用特殊字元。</p> 
+      <p>建議您選擇一個有助於您輕鬆識別Planning記錄來源的標籤。 新增工作區名稱或記錄型別名稱之類的資訊。 </p>   </td> 
      </tr> 
      <tr> 
       <td role="rowheader">姓名</td>
-      <td> <p>（必要）名稱是系統識別欄位的方式。 當您第一次設定欄位並輸入標籤時，「名稱」欄位會自動填入以和欄位相符。 但是「標籤」和「名稱」欄位不同步，這可讓您自由地變更使用者看到的標籤，而不必變更系統看到的名稱。</p></td> 
+      <td> <p>（必要）名稱是系統識別欄位的方式。 當您第一次設定欄位並輸入標籤時，「名稱」欄位會自動填入以和欄位相符。 「標籤」和「名稱」欄位未同步。 這可讓您選擇變更使用者看到的標籤，而不必變更系統看到的名稱。</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">指示</td> 
       <td> <p>（建議）輸入欄位的任何其他資訊。 當使用者填寫自訂表單時，可以將滑鼠指標暫留在問號圖示上，以檢視包含您在此處輸入資訊的工具提示。</p>
-      <p>在這裡，您可以新增有關記錄和您連線之物件的明確資訊。 </p>
+      <p>您可以在此處新增有關記錄和您連線之物件的詳細資訊。 </p>
       </td> 
      </tr> 
      <tr> 
@@ -992,7 +995,7 @@ The Workfront Mobile app -->
       您可以從下列物件型別中選取：
       <ul><li> 專案</li>
       <li> 專案組合</li><li> 方案</li><li> 公司</li><li> 群組</li></ul>
-       <p>只有表單物件型別的Workfront物件型別可用。</p> <p> 例如，如果表單設計器頂端的「物件型別」清單顯示「專案」，則您只能在此欄位中選取「專案」，而且您無法選取「產品組合」，儘管產品組合也可以連線至記錄型別。</p>
+       <p>只有表單物件型別的Workfront物件型別可用。</p> <p> 例如，如果表單設計器頂端的「物件型別」清單顯示「專案」，則您只能在此欄位中選取「專案」，而不能選取「產品組合」，儘管產品組合也可以連線到記錄型別。</p>
       </td>
      </tr>
      <tr> 
@@ -1005,7 +1008,7 @@ The Workfront Mobile app -->
      </tr>
      <tr> 
       <td role="rowheader">連線欄位</td> 
-      <td><p>（必要）選取要顯示在Workfront物件上的所選Planning記錄型別與Workfront物件型別之間的連線欄位。 </p> <p> <b>附註</b></p><p>相同物件和記錄型別之間可以有多個連線欄位，但只能選取一個欄位。</p>  </td> 
+      <td><p>（必要）選取要顯示在Workfront物件上的所選Planning記錄型別與Workfront物件型別之間的連線欄位。 </p> <p> <b>注意</b>：在相同物件和記錄型別之間可以有多個連線欄位，但只能選取一個欄位。</p>  </td> 
      </tr>
 
 <tr> 
@@ -1024,7 +1027,7 @@ The Workfront Mobile app -->
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
