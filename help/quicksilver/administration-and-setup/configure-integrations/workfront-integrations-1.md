@@ -187,7 +187,7 @@ ht-degree: 0%
     </ul> <p>如需詳細資訊，請參閱<a href="../../workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md" class="MCXref xref">[!DNL Adobe Workfront for Jira]</a>。</p> </td> 
    <td> 
     <ul> 
-     <li><p>新的Workfront計畫： [！UICONTROL Select] [!DNL Workfront]計畫或以上</p><p>目前的Workfront計畫： [！UICONTROL Pro] [!DNL Workfront]計畫或以上</p> </li> 
+     <li><p>新的Workfront計畫： [!UICONTROL Select] [!DNL Workfront]計畫或以上</p><p>目前的Workfront計畫： [!UICONTROL Pro] [!DNL Workfront]計畫或以上</p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
@@ -200,8 +200,8 @@ ht-degree: 0%
    <td> 
     <ul> 
      <li> <p>與雲端託管[!DNL Office 365]或[!DNL Outlook Live.]中的Web型[!DNL Outlook]版本整合 </p> </li> 
-     <li> <p>在[！UICONTROL首頁行事曆]中，顯示您[!DNL Outlook]行事曆及您選取的任何相關行事曆（例如生日與節假日行事曆）中的所有事件。</p> </li> 
-    </ul> <p><b>注意</b>： [！UICONTROL Outlook]行事曆組態與[!DNL Outlook]增益集完全不同（[!DNL Outlook]整合或[!DNL Workfront for Outlook]）。 不需要安裝即可設定行事曆。</p></td> 
+     <li> <p>在[!UICONTROL 首頁行事曆]中，顯示您[!DNL Outlook]行事曆及您選取的任何相關行事曆（例如生日與節假日行事曆）中的所有事件。</p> </li> 
+    </ul> <p><b>注意</b>： [!UICONTROL Outlook]行事曆組態與[!DNL Outlook]增益集完全不同（[!DNL Outlook]整合或[!DNL Workfront for Outlook]）。 不需要安裝即可設定行事曆。</p></td> 
    <td> </td> 
    <td> </td> 
   </tr> 
@@ -263,7 +263,7 @@ ht-degree: 0%
     </ul> <p>如需詳細資訊，請參閱<a href="../../workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce.md" class="MCXref xref">[!DNL Adobe Workfront for Salesforce]</a>。</p> </td> 
    <td> 
     <ul> 
-     <li><p>新的Workfront計畫： [！UICONTROL Select] [!DNL Workfront]計畫或以上</p><p>目前的Workfront計畫： [！UICONTROL Pro] [!DNL Workfront]計畫或以上</p> </li> 
+     <li><p>新的Workfront計畫： [!UICONTROL Select] [!DNL Workfront]計畫或以上</p><p>目前的Workfront計畫： [!UICONTROL Pro] [!DNL Workfront]計畫或以上</p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
