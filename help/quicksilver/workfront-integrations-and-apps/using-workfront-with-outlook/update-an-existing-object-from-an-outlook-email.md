@@ -40,7 +40,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[！UICONTROL Work]， [！UICONTROL計畫]</p> </td> 
+   <td> <p>[!UICONTROL Work]， [!UICONTROL 計畫]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -60,7 +60,7 @@ ht-degree: 0%
 1. 按一下&#x200B;**[!UICONTROL 功能表]**&#x200B;圖示![o365_addin_menu_icon.png](assets/o365-addin-menu2-icon.png)以顯示可用[!DNL Workfront]選項的清單。\
 
 
-1. 在Workfront **中按一下**[!UICONTROL &#x200B;更新]。\
+1. 在Workfront **中按一下**&#x200B;[!UICONTROL &#x200B;更新]。\
    在儲存為任務之前，您可以從電子郵件更新以下資訊：
 
    * **[!UICONTROL 型別]**：選取您要更新的物件型別。 您可以選取&#x200B;**[!UICONTROL 專案]**、**[!UICONTROL 任務]**&#x200B;或&#x200B;**[!UICONTROL 問題]**。 您選取的物件會決定顯示在下方&#x200B;**[!UICONTROL 名稱]**&#x200B;欄位中的結果。 如果您不確定物件型別，請選取&#x200B;**[!UICONTROL 全部]**&#x200B;以同時搜尋專案、任務和問題。
@@ -88,4 +88,4 @@ ht-degree: 0%
      ![o365_addin_lock.png](assets/o365-addin-lock.png)
 
 1. 按一下&#x200B;**[!UICONTROL 更新]**。
-1. （選擇性）按一下[在Workfront中檢視&#x200B;****]以檢視[!UICONTROL Outlook]中與[!DNL Workfront]整合的更新專案。
+1. （選擇性）按一下[在Workfront中檢視&#x200B;**&#x200B;**]以檢視[!UICONTROL Outlook]中與[!DNL Workfront]整合的更新專案。

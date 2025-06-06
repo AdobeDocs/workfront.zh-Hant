@@ -41,7 +41,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[！UICONTROL Work]， [！UICONTROL計畫]</p> </td> 
+   <td> <p>[!UICONTROL Work]， [!UICONTROL 計畫]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -73,7 +73,7 @@ ht-degree: 0%
 1. 按一下&#x200B;**[!UICONTROL 新增]**。\
    任務已新增到首頁區域的[!UICONTROL 工作清單]，但沒有認可日期。
 
-1. （選擇性）按一下[在Workfront中檢視] ****，在新標籤中顯示[!DNL Workfront]應用程式內的工作。
+1. （選擇性）按一下[在Workfront中檢視] **&#x200B;**，在新標籤中顯示[!DNL Workfront]應用程式內的工作。
 
 1. （選用）導覽回[!DNL Outlook]，並選取原始電子郵件。\
    在[!DNL Workfront]增益集面板頂端，請注意含有連結的確認訊息，指出電子郵件已新增至Workfront作為工作。 連結包含轉換日期。\
