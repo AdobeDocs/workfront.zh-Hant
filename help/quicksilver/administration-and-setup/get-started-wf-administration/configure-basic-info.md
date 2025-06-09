@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 83d236a4d50c0eef7062f161757d2f9fe6bc4e06
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '829'
 ht-degree: 2%
 
 ---
@@ -80,9 +80,14 @@ ht-degree: 2%
 
      如需將IP位址新增至您的允許清單(您的使用者可存取Workfront)的相關資訊，請參閱[設定防火牆的允許清單](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)。
 
-   * **授權**
+   * **電子郵件允許清單**
 
-     如需授權的相關資訊，請參閱[管理您系統中的可用授權](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)。
+     如需新增電子郵件至允許清單的詳細資訊，請參閱[設定電子郵件允許清單](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)。
+
+   <!--
+   * **License**
+
+     For information about licenses, see [Manage available licenses in your system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).-->
 
 ## 設定基本資訊 {#configure-basic-info}
 
@@ -125,21 +130,17 @@ ht-degree: 2%
        </ul> <p>使用者可以在個人資料下修改其Workfront執行個體的時區。 當使用者修改他們的時區時，他們來自Workfront的電子郵件中的日期和時間符合他們的設定檔偏好設定。 如需有關修改使用者設定檔偏好設定的詳細資訊，請參閱<a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">設定我的設定</a>。 當您建立新排程時，系統會選取預設時區作為預設時區。 如需建立排程的詳細資訊，請參閱<a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">建立排程</a>。</p> <p>如需使用排程協助使用者在Workfront中跨時區共同作業的詳細資訊，請參閱<a href="../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">跨時區工作</a>。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">語系設定</td> 
+      <td role="rowheader">預設電子郵件地區設定</td> 
       <td>控制用於外寄電子郵件訊息的語言、日期和數字格式。 此處選取的地區設定是建立新使用者時的預設設定。 使用者可以在他們的使用者設定檔中修改他們的地區設定。 當使用者修改他們的地區設定時，他們來自Workfront的電子郵件中的語言、日期和數字格式符合他們的設定檔偏好設定。 如需有關修改設定檔偏好設定的詳細資訊，請參閱<a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">設定我的設定</a>。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">儲存配額</td> 
       <td> <p>這是您的Workfront執行個體中可用的檔案儲存空間量。<br>配額包含您直接上傳至Workfront的檔案。<br>它不包含：</p> 
        <ul> 
-        <li>從任何其他第三方服務提供者(SharePoint、Google Drive、Webdam、Box、Dropbox、任何其他檔案資產管理提供者)連結至Workfront的檔案。</li> 
+        <li>檔案會從任何其他第三方服務提供者(SharePoint、Google Drive、Webdam、Box、Dropbox、任何其他檔案資產管理提供者)連結至Workfront。</li> 
         <li>您的Workfront資料（專案、任務、問題、使用者等）。</li> 
        </ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">產品版本</td> 
-      <td>這是指派給您的Workfront執行個體型別。 大多數Workfront客戶的產品版本為<strong>Enterprise</strong>。</td> 
-     </tr> 
+     </tr>
     </tbody> 
    </table>
 
