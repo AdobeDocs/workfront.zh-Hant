@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: c5cf44d1e68aebdb5b61d2588a8cefc088b6d2a2
+source-git-commit: b011ee9afcce273c82c1f7d93ca86dfde035a497
 workflow-type: tm+mt
 source-wordcount: '4126'
 ht-degree: 1%
@@ -239,7 +239,9 @@ For information, see [View the organizational chart](/help/quicksilver/people-te
 
 若要檢視這項變更，請前往「設定>資源回收筒>最近還原」。
 
-如需詳細資訊，請參閱[檢視還原的專案](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)。###介面更新至安裝程式中的資源管理區域
+如需詳細資訊，請參閱[檢視還原的專案](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)。
+
+### 更新安裝程式中資源管理區域的介面
 
 **預覽版本： 2025年4月17日；自2025年4月17日起一週**
 
@@ -473,7 +475,7 @@ For information, see [View the organizational chart](/help/quicksilver/people-te
 
 此更新包含區域的視覺化變更。 功能未變更。
 
-若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。**&#x200B;**
+若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。****
 
 +++
 
