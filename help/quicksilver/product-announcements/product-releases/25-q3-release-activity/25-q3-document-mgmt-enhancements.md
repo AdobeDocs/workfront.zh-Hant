@@ -1,22 +1,42 @@
 ---
-title: 2025年第三季檔案管理增強功能
-description: 2025年第三季檔案管理增強功能
+title: 2025年第三季校訂和檔案管理增強功能
+description: 2025年第三季校訂和檔案管理增強功能
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: e73986702dac81d698f59caca76f6c7239ddeef8
+source-git-commit: 26a97126bbe809bc5fdd40d52bce2e0763110bcb
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
 
-# 2025年第三季檔案管理增強功能
+# 2025年第三季校訂和檔案管理增強功能
 
 本頁說明2025年第三季度版本對預覽環境所做的所有檔案管理增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2025年第三季度發行週期中目前可用的所有變更清單，請參閱[2025年第三季度發行概觀](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)。
+
+## 新校訂與GenStudio for Performance Marketing整合
+
+>[!NOTE]
+>
+>* 所有客戶的生產版本： 2025年6月12日
+
+我們很高興推出校訂和GenStudio for Performance Marketing之間的全新整合。 透過這項整合，您可以
+
+* 使用Workfront核准範本以定義核准工作流程
+
+* 在Workfront校訂檢視器中檢閱草稿內容
+
+* 請參閱稽核決定，以獲得GenStudio for Performance Marketing的最終核准和發佈
+
+### 整合需求
+
+Workfront和GenStudio for Performance Marketing必須部署至相同的IMS組織。
+
+如需詳細資訊，請參閱[開始使用GenStudio for Performance Marketing與Workfront Proof整合](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)。
 
 ## 案頭校訂檢視器更新
 

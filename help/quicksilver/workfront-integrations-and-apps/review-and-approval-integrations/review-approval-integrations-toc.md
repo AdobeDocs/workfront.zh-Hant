@@ -7,10 +7,8 @@ description: 檢閱和核准整合：文章索引
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
 exl-id: 96da8480-3788-4b76-a22d-7e9c5b2ae023
-source-git-commit: e67446c6fb3e90d5dc45dd446988e5d02291f775
+source-git-commit: 4a6e46b71fdddbb33758770d0022f58114cc09fa
 workflow-type: tm+mt
 source-wordcount: '29'
 ht-degree: 0%
