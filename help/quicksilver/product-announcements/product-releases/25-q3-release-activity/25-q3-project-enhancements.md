@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: a5a61045bad5a97fb1413fac4a5a2666b753fa83
+source-git-commit: 3ff70fcc949644d511c876add10d2c58901cb197
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 預覽： 2025年5月27日
->* 生產快速發行： 2025年5月27日
->* 適用於所有客戶的生產： 2025年5月27日
+>* 預覽：下一版API預計於2025年下半年推出
+>* 生產環境快速發行：下一版API預計於2025年下半年推出
+>* 適用於所有客戶的生產：下一版API預計於2025年下半年推出
 
 此更新引進了專案、任務和問題實際時數儲存在資料庫中的方式變更。 從此更新開始，實際時數將使用`actualWorkRequiredDouble`的valuefield （具有以小時為單位的值）。
 

@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 686db6004d1a64279080ab3ba311c172a6a24d1f
+source-git-commit: 39762dbf34501f3cd967a2a766042086d18003c8
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1601'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,62 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 如需針對Adobe Workfront Planning發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## Workfront Planning時間表檢視的自訂季度可用性
+
+>[!NOTE]
+>
+>* 預覽： 2025年6月12日
+>* 生產快速發行： 2025年7月17日
+>* 適用於所有客戶的生產： 2025年7月17日
+
+透過此更新，當您在「設定」的「專案偏好設定」區域中設定自訂季度時，自訂季度可用於Workfront Planning中的「時間表」檢視。
+
+在此更新之前，自訂季度僅可用於Workfront的報告功能。
+
+有了這項改善後，已購買Workfront Planning的客戶將能檢視定義自訂季的更新體驗。 此更新包含下列改善專案：
+
+不再接受季度之間的間隔和重疊。
+
+您可以設定最多100個自訂季度。 在此更新之前，您只能設定8個自訂季度
+
+未購買Workfront Planning之客戶的自訂季度體驗沒有變更。
+
+如需詳細資訊，請參閱[啟用專案的自訂季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
+
+## 同時計算所有相依公式
+
+>[!NOTE]
+>
+>* 預覽： 2025年6月12日
+>* 生產快速發行： 2025年6月12日
+>* 適用於所有客戶的生產： 2025年6月12日
+
+我們引進了一項改進，手動更新參考欄位後，可同時更新所有相互依賴的公式欄位。 與手動變更值的欄位相距2、3或4個欄位且彼此參照的公式欄位現在將自動同時更新。
+
+在此改進之前，當手動更新參考欄位的值時，僅更新直接相依公式欄位。
+
+如需詳細資訊，請參閱[公式欄位概述](/help/quicksilver/planning/fields/formula-fields.md)。
+
+## 公式欄位新增運算式
+
+>[!NOTE]
+>
+>* 預覽： 2025年6月6日
+>* 生產快速發行： 2025年6月6日
+>* 適用於所有客戶的生產： 2025年6月6日
+
+我們在公式欄位中新增了下列運算式：
+
+* ARRAYCONTAINS
+
+* SORTASCARRAY
+
+* SORTDESCARRAY
+
+在此增強功能之前，只有Workfront計算自訂欄位支援這些運算式。
+
+如需詳細資訊，請參閱[公式欄位概述](/help/quicksilver/planning/fields/formula-fields.md)。
 
 ## 篩選、欄和新增到請求區域中Planning索引標籤的其他欄位
 
@@ -150,7 +206,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >所有具有系統管理員和Standard授權的新使用者及現有使用者皆可看見此變更。
->&#x200B;>指派給版面配置範本的現有使用者將根據版面配置範本中定義的設定繼續檢視所有內容。
+>>指派給版面配置範本的現有使用者將根據版面配置範本中定義的設定繼續檢視所有內容。
 
 如需詳細資訊，請參閱[Adobe Workfront規劃總覽](/help/quicksilver/planning/access/access-overview.md)。
 
@@ -184,7 +240,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 預覽： 2025年4月17日
->* 生產快速發行： 2025年6月12日
+>* 生產快速發行： 2025年7月17日
 >* 適用於所有客戶的生產： 2025年7月17日
 
 為了更好地控制誰可以檢視或管理每種記錄型別的記錄，並確保只有授權人員才能根據其角色和職責來管理每種記錄型別的資訊，我們在記錄型別層級引進了許可權。

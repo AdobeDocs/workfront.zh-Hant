@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: b011ee9afcce273c82c1f7d93ca86dfde035a497
+source-git-commit: 6fa00a88f6620936ed9af00faf60f61d48c2f825
 workflow-type: tm+mt
-source-wordcount: '4126'
+source-wordcount: '4390'
 ht-degree: 1%
 
 ---
@@ -24,6 +24,16 @@ ht-degree: 1%
 
 
 ## 管理和設定
+
+### 客戶資訊頁面的介面更新
+
+**預覽版本： 2025年6月12日；生產版本： 2025年6月19日**
+
+我們更新了客戶資訊頁面，使其採用與Workfront其他區域一致的更現代化設計。
+
+若要檢視這項變更，請前往「設定>系統>客戶資訊」。
+
+如需詳細資訊，請參閱[設定您系統的基本資訊](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md)。
 
 ### 匯入資料(Kick-Start)頁面的介面更新
 
@@ -108,6 +118,22 @@ ht-degree: 1%
 
 ## 專案
 
+### 專案之關聯專案區段的介面更新（僅適用於特定客戶）
+
+**預覽版本： 2025年6月12日；生產版本： 2025年6月19日**
+
+我們以與Workfront其他區域一致的更現代設計更新了專案的「相關專案」區段。
+
+特定客戶可前往左側面板中專案的相關專案區段，以檢視此變更。
+
+### 「另存為範本」方塊的新外觀
+
+**預覽版本： 2025年6月12日；生產版本： 2025年6月19日**
+
+我們更新了將專案另存為範本時顯示的「另存為範本」方塊的外觀和風格。 新設計包括一個簡化的介面，其中所有區段都以一個內聚形式顯示，您可以使用左側面板中的連結進行導覽。 新設計會比對應用程式中的其他區域和其他物件。
+
+如需詳細資訊，請參閱[將專案另存為範本](/help/quicksilver/manage-work/projects/manage-projects/save-project-as-template.md)。
+
 ### 「刪除問題」方塊的外觀和感覺更新
 
 **預覽版本： 2025年5月29日；生產版本： 2025年6月5日**
@@ -150,6 +176,21 @@ ht-degree: 1%
 
 
 ## 報告和儀表板
+
+### 已更新具有新樣式的報表
+
+**預覽版本： 2025年6月12日；生產版本： 2025年6月19日**
+
+我們已更新多個報表的外觀和風格，以符合Workfront其他區域的設計方式。 功能未變更。
+
+此更新包含下列物件型別之報表清單與工具列的視覺變更：
+
+* 風險
+* 基準線
+* 費率
+* 版面配置範本
+
+如需詳細資訊，請參閱[建立自訂報表](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
 ### Workfront儀表板不再支援含有/tile或/qstile的URL
 
@@ -475,7 +516,7 @@ For information, see [View the organizational chart](/help/quicksilver/people-te
 
 此更新包含區域的視覺化變更。 功能未變更。
 
-若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。**&#x200B;**
+若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。****
 
 +++
 
