@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: ee4cf80bc69416e3224c895c1f04628432ce2f4c
+source-git-commit: d710c8bd9854d4d92945e034e708d06410d0779b
 workflow-type: tm+mt
-source-wordcount: '1646'
+source-wordcount: '1616'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->此頁面中說明的程式僅適用於尚未加入Admin Console的組織。 如果您的組織已加入Adobe Admin Console，您必須透過Adobe Admin Console執行此動作。
+>本頁所述的程式僅適用於尚未加入Admin Console的組織。 如果您的組織已加入Adobe Admin Console，您必須透過Adobe Admin Console執行此動作。
 >
->若要在貴組織已加入Adobe Admin Console的情況下設定允許清單，請參閱[允許Adobe應用程式和服務的網域](https://helpx.adobe.com/tw/enterprise/kb/network-endpoints.html)。
+>若要在貴組織已加入Adobe Admin Console的情況下設定允許清單，請參閱[允許Adobe應用程式和服務使用的網域](https://helpx.adobe.com/enterprise/kb/network-endpoints.html)。
 >
 >如需根據貴組織是否已加入Adobe Admin Console而有所差異的程式清單，請參閱[以平台為基礎的管理差異(Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 
@@ -78,14 +78,14 @@ ht-degree: 0%
 >* 適用於Outlook的Workfront
 >* 適用於Salesforce的Workfront
 
-* 允許叢集1、2、3、5、7、8和9[&#128279;](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)的IP位址
-* 允許叢集4[&#128279;](#ip-addresses-to-allow-for-cluster-4)的IP位址
-* 允許叢集6[&#128279;](#ip-addresses-to-allow-for-cluster-6)的IP位址
+* 允許叢集1、2、3、5、7、8和9](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)的[IP位址
+* 允許叢集4](#ip-addresses-to-allow-for-cluster-4)的[IP位址
+* 允許叢集6](#ip-addresses-to-allow-for-cluster-6)的[IP位址
 * [允許叢集10使用的IP位址](#ip-addresses-to-allow-for-cluster-10)
 * [允許測試磁碟機的IP位址](#IP%20Addre2)
 * 實作事件訂閱時允許的[IP位址](#ip-addresses-to-allow-when-implementing-event-subscriptions)
 * [要新增的IP位址以存取Workfront Fusion](#ip-addresses-to-add-for-accessing-workfront-fusion)
-* 使用Workfront for Jira[&#128279;](#ip-addresses-to-add-for-using-workfront-for-jira)要新增的個IP位址
+* 使用Workfront for Jira](#ip-addresses-to-add-for-using-workfront-for-jira)要新增的[個IP位址
 * [Workfront要為所有叢集新增的URL](#urls-to-add-for-all-clusters-workfront)
 
 ### 允許叢集1、2、3、5、7、8和9使用的IP位址 {#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9}
@@ -423,6 +423,7 @@ jira.workfront.com網域也必須可從您的公司伺服器存取。 此網域�
 * fonts.gstatic.com
 * dpm.demdex.net
 * storage.googleapis.com
+* snippet.maze.co
 * *.aptrinsic.com
 * *.static.workfront.com
 
@@ -435,7 +436,7 @@ jira.workfront.com網域也必須可從您的公司伺服器存取。 此網域�
    * mfe-preview.static.workfront.com
    * mfe-review.static.workfront.com
 
-如果您的組織使用AdobeUnified Experience，則會使用下列網域。 這些網域涵蓋在`*.adobe.com`下，但可視需要新增。
+如果您的組織使用Adobe Unified Experience，則會使用下列網域。 這些網域涵蓋在`*.adobe.com`下，但可視需要新增。
 
 * &lt;您的網域>.my.workfront.adobe.com
 * &lt;您的網域>.preview.workfront.adobe.com
@@ -445,12 +446,12 @@ jira.workfront.com網域也必須可從您的公司伺服器存取。 此網域�
 
 針對Workfront Fusion，新增下列網域：
 
-* 對於不在Adobe統一體驗中的組織：
+* 對於不在Adobe Unified Experience上的組織：
    * app.workfrontfusion.com (美國AWS)
    * app-eu.workfrontfusion.com (歐盟AWS)
    * app-az.workfrontfusion.com (US Azure)
 
-* 針對Adobe上的組織Unified Experience
+* 適用於Adobe Unified Experience上的組織
 （`*.adobe.com`涵蓋這些網域，但可視需要新增。）
 
    * fusion.adobe.com
