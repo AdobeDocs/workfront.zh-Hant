@@ -7,9 +7,9 @@ description: 您在Adobe Workfront中登入工作專案的時數會視為實際�
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: d68189272bd3f78de2d57b8393b44b698fa5db13
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -144,7 +144,7 @@ Project Actual Hours = All Tasks Actual Hours + All Issues Actual Hours + All Pr
 
 視您存取「實際時數」的方式而定，它們可以儲存在資料庫的下列欄位和單位中：
 
-* 在API中：實際時數的`valuefield`是`actualWorkRequiredDouble`，以小時儲存。
+* 在API中：由於下列Workfront API版本排定在2025年稍後發行，實際時數的`valuefield`為`actualWorkRequiredDouble`，以小時儲存。 目前版本將實際時數儲存為`actualWorkRequired`，以分鐘為單位儲存。
 * 在Workfront介面（計算的自訂欄位和欄）中：實際時數的`valuefield`是`actualWorkRequired`，以分鐘為單位儲存。
 
 <!--Change the above with this when we fix this for the Workfront UI: 

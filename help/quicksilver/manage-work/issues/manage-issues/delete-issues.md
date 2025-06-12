@@ -6,9 +6,9 @@ description: 如果您有正確的存取權和許可權，可以刪除Adobe Work
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: aa2bef064df3ff7dd9e4fd896ac7482df3c55e32
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '712'
 ht-degree: 1%
 
 ---
@@ -132,10 +132,12 @@ ht-degree: 1%
    ![問題更多功能表](assets/qs-issue-more-menu-highlighted-350x469.png)
 
 1. 按一下&#x200B;**刪除問題**。
-1. 如果允許刪除，請按一下&#x200B;**刪除**。
+1. 按一下「**刪除**」。
 
-   您的Workfront管理員可能不允許刪除記錄時數的問題。\
-   如需有關刪除問題所需的存取權和許可權的詳細資訊，請參閱本文中的[刪除問題的考量事項](#considerations-for-deleting-issues)一節。
+   >[!NOTE]
+   >
+   >  您的Workfront管理員可能不允許刪除記錄時數的問題。\
+   >  如需有關刪除問題所需的存取權和許可權的詳細資訊，請參閱本文中的[刪除問題的考量事項](#considerations-for-deleting-issues)一節。
 
 ## 還原已刪除的問題
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '808'
 ht-degree: 2%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 2%
  <tr> 
    <td role="rowheader"><p>Adobe Workfront平台</p></td> 
    <td> 
-<p>貴組織的Workfront例項必須上線至Adobe Unified Experience，才能存取Workfront Planning的所有功能。</p> 
+<p>貴組織的Workfront例項必須上線至Adobe Unified Experience，才能存取Workfront Planning。</p> 
 <p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">適用於Workfront的Adobe Unified Experience</a>。 </p> 
    </td> 
    </tr> 
@@ -125,7 +125,7 @@ ht-degree: 2%
 1. 執行下列其中一項：
 
    * 在「表格」檢視中，按一下記錄名稱。
-   * 在[資料表]檢視中，暫留在記錄名稱上，然後按一下[其他] **&#x200B;**&#x200B;[其他]功能表![ [其他]功能表](assets/more-menu.png)，然後按一下[檢視] **&#x200B;**
+   * 在[資料表]檢視中，暫留在記錄名稱上，然後按一下[其他] **** [其他]功能表![ [其他]功能表](assets/more-menu.png)，然後按一下[檢視] ****
 
      ![記錄列](assets/contextual-menu-for-record-row.png)的內容相關功能表
    * 在「時間軸」檢視中，按一下記錄列。
@@ -170,8 +170,8 @@ ht-degree: 2%
    * 按一下&#x200B;**復原**&#x200B;圖示![復原圖示](assets/undo-icon.png)，然後按一下&#x200B;**最近刪除的**，復原刪除的記錄。 如需有關復原已刪除記錄的資訊，請參閱[復原已刪除的記錄](/help/quicksilver/planning/records/restore-deleted-records.md)。
    * 使用下列鍵盤快速鍵來復原或重做刪除記錄：
 
-      * CTRL + Z (Mac為⌘ + Z)可復原刪除記錄
-      * CTRL + Shift + Z (Mac為⌘ + Shift + Z)以重做刪除記錄
+      * 按CTRL + Z (⌘ + Z代表Mac)以復原刪除記錄
+      * 按CTRL + Shift + Z (⌘ + Shift + Z代表Mac)以重做刪除記錄
 
 
 

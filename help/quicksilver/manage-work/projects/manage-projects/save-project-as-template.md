@@ -6,83 +6,70 @@ description: 在專案層級將專案儲存為templateSave as template （範本
 author: Alina
 feature: Work Management
 exl-id: 4b5dfe12-f984-47c6-8e19-78b549f19159
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '787'
 ht-degree: 1%
 
 ---
 
 # 將專案另存為範本
 
+<!--Audited: 6/2025-->
+
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Keep this the way it is in the Managing Projects area because the functionality in the UI is "Save as template" at the project level, so users see that in the UI; there is another article that this links to which is more in depth (step-by-step). This functionality needs to stay in both projects AND templates areas.)</p>
 -->
+
+<div class="preview">
+
+本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在預覽版發佈一週後，生產環境中也將提供相同功能給所有客戶。
+
+如需詳細資訊，請參閱[介面現代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。
+
+</div>
 
 如果您決定某個專案將在未來再次發生，則可以從現有專案建立範本。 然後，您可以再次使用範本來建立未來專案，這些專案可能包含類似的資訊，或與現有專案共用相同的時間表或工作分派。
 
 ## 存取需求
 
-<!--drafted for P&P:
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard </p>
-   Or 
-   <p>Legacy license: Plan </p> 
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Templates</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions to a project </p> <p>You obtain Manage permissions to the template after you save the project as a template</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視本文中功能的存取需求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>規劃 </p> </td> 
+   <td> <p>新增：標準 </p>
+   或 
+   <p>目前：計畫 </p> 
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯範本的存取權</p> <p><b>附註</b>
-
-如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td>
-</tr> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>編輯範本的存取權</p> /td&gt; 
+  </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>檢視專案或更高的許可權 </p> <p>將專案另存為範本後，即可取得範本的管理許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>檢視專案或更高的許可權 </p> <p>將專案另存為範本後，即可取得範本的管理許可權</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 將專案另存為範本
+
+將專案另存為範本的情況在生產環境和預覽環境中有所不同。
+
+### 在生產環境中將專案另存為範本
 
 1. 前往您要另存為範本的專案。
 1. 按一下&#x200B;**更多**&#x200B;功能表![更多圖示](assets/qs-more-icon-on-an-object.png)，然後&#x200B;**另存為範本**。
@@ -132,3 +119,62 @@ ht-degree: 1%
 1. 按一下&#x200B;**完成並儲存範本。**
 
    您的範本現在會顯示在可用範本清單中，並可附加至現有專案或用來建立新專案。
+
+
+<div class="preview">
+
+### 在預覽環境中將專案另存為範本
+
+1. 前往您要另存為範本的專案。
+1. 按一下&#x200B;**更多**&#x200B;功能表![更多圖示](assets/qs-more-icon-on-an-object.png)，然後&#x200B;**另存為範本**。
+1. 在&#x200B;**另存為範本**&#x200B;區段中，指定範本的下列資訊：
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">範本名稱</td> 
+      <td>指定範本的名稱。</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">說明</td> 
+      <td>提供範本的說明。</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">為作用中</td> 
+      <td> <p>從下列選項中選取：</p> 
+       <ul> 
+        <li> <p><strong>是</strong>：其他使用者可以找到範本並將其附加至專案。</p> </li> 
+        <li><strong>否</strong>：其他使用者找不到範本，也無法將其附加至專案。</li> 
+       </ul> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">自訂表單</td> 
+      <td>使用下拉式清單來選取要附加至範本的任何自訂表單。 如果有任何自訂表單已與專案相關聯，則會顯示這些自訂表單中的所有資料欄位。<br>您最多可以在單一範本上包含10個自訂表格。</td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. 按一下左側面板中的「自訂Forms」****，移除或重新排序表單。
+
+   若要重新排序表單，請以正確順序拖放表單。
+若要移除表單，請選取該表單，然後按一下[移除]。**** 按一下&#x200B;**取消**&#x200B;以移除選取的表單。
+
+   ![儲存為範本方塊中的自訂表單區域](assets/custom-forms-ara-in-save-as-template-box.png)
+
+1. 如有需要，請更新附加自訂表單中的資訊。 資訊將會傳輸至範本。
+
+1. 按一下左側面板區段中的&#x200B;**選項**，然後選取您要傳送至範本的任何資訊旁的核取方塊。 取消選取的專案不會轉移到範本。 預設會取消選取所有選項。
+
+   另存為範本方塊中的![選項區域](assets/options-area-in-save-as-template-box.png)
+
+1. 按一下左側面板中的「排除&#x200B;****」，然後選取您要從專案排除的任何工作。 預設會取消選取所有工作。
+
+   ![另存為範本方塊中的排除區域](assets/exclude-area-save-as-template-box.png)
+
+1. 按一下&#x200B;**完成並儲存範本。**
+
+   您的範本現在會顯示在可用範本清單中，並可附加至現有專案或用來建立新專案。
+
+</span>

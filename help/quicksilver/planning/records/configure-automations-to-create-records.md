@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
-source-git-commit: ae3fc73e93474c75fd03144b66af23f7142867c0
+exl-id: cde20e5a-15a2-413a-8de4-ccf6eeb4395f
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '1800'
-ht-degree: 2%
+source-wordcount: '1796'
+ht-degree: 3%
 
 ---
-
 
 # 設定Adobe Workfront Planning自動化
 
@@ -75,7 +75,7 @@ ht-degree: 2%
  <tr> 
    <td role="rowheader"><p>Adobe Workfront平台</p></td> 
    <td> 
-<p>貴組織的Workfront例項必須上線至Adobe Unified Experience，才能存取Workfront Planning的所有功能。</p> 
+<p>貴組織的Workfront例項必須上線至Adobe Unified Experience，才能存取Workfront Planning。</p> 
 <p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">適用於Workfront的Adobe Unified Experience</a>。 </p> 
    </td> 
    </tr> 
@@ -191,7 +191,7 @@ ht-degree: 2%
         這是必填欄位。
 
         <!--submitted a change in functionality and UI text for this - revise??-->
-在&#x200B;**對應欄位**&#x200B;區域中，更新下列資訊：
+在**對應欄位**&#x200B;區域中，更新下列資訊：
 
          * **傳輸自**：從建立自動化的記錄型別中選取欄位，以將它們對應到連線記錄型別的欄位。
          * **傳輸至**：從新建立的記錄中選取欄位，這些欄位會填入您執行自動化之記錄中的資訊。

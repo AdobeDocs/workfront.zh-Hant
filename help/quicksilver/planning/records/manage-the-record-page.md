@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '2254'
+source-wordcount: '2250'
 ht-degree: 1%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 1%
 <tr>
    <td role="rowheader"><p>Adobe Workfront平台</p></td>
    <td>
-<p>貴組織的Workfront例項必須上線至Adobe Unified Experience，才能存取Workfront Planning的所有功能。</p>
+<p>貴組織的Workfront例項必須上線至Adobe Unified Experience，才能存取Workfront Planning。</p>
 <p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">適用於Workfront的Adobe Unified Experience</a>。 </p>
    </td>
 
@@ -173,11 +173,11 @@ ht-degree: 1%
 
 1. 在記錄預覽或頁面的&#x200B;**詳細資料**&#x200B;索引標籤中，將滑鼠移至欄位左側的空白區域，然後按一下&#x200B;**新增區段**&#x200B;圖示![新增區段圖示](assets/add-section-icon.png)以新增區段。
 1. 按一下區段名稱內部，將&#x200B;**未命名的區段**&#x200B;取代為名稱，然後按一下[輸入]。 在區段下顯示的欄位會自動成為新區段的一部分。
-1. 開始將欄位拖放至新區段，如本文中記錄預覽或詳細資訊頁面[&#128279;](#rearrange-fields-in-the-record-preview-or-details-page)中的區段重新排列欄位中所述。
+1. 開始將欄位拖放至新區段，如本文中記錄預覽或詳細資訊頁面](#rearrange-fields-in-the-record-preview-or-details-page)中的區段[重新排列欄位中所述。
 
 1. （選擇性）將滑鼠停留在區段名稱上，然後按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)。
 
-   記錄頁面![&#128279;](assets/more-menu-options-for-section-on-record-page.png)上區段的更多功能表選項
+   記錄頁面](assets/more-menu-options-for-section-on-record-page.png)上區段的![更多功能表選項
 1. （可選）執行下列任一項作業來編輯區段：
 
    * 按一下&#x200B;**重新命名**&#x200B;以重新命名區段
@@ -190,7 +190,7 @@ ht-degree: 1%
 
      或
 
-     按一下&#x200B;**下移**&#x200B;將區段下移一個位置。
+     按一下&#x200B;**下移**將區段下移一個位置。
 區段中的所有欄位會隨著區段移動。
 
    * 按一下&#x200B;**刪除**&#x200B;以刪除區段。 該區段已刪除且無法復原。 所有存取此型別記錄的使用者將不再檢視已刪除的區段。
@@ -322,7 +322,7 @@ ht-degree: 1%
 
      <span class="preview">在預覽環境中，這會開啟記錄的預覽頁面。 按一下右上角的&#x200B;**在新索引標籤中開啟**&#x200B;圖示![在新索引標籤中開啟](assets/open-details-in-a-new-tab-icon.png)以開啟連線記錄的頁面。</span>
 
-   * 按一下[連線]&#x200B;**連線**&#x200B;以連線更多記錄，然後按一下連線方塊外部以關閉連線。 新記錄會自動新增到表格中。
+   * 按一下[連線]**連線**&#x200B;以連線更多記錄，然後按一下連線方塊外部以關閉連線。 新記錄會自動新增到表格中。
    * <span class="preview">編輯資料表檢視內連線記錄的任何資訊。</span>
 
    <div class="preview">
@@ -352,7 +352,7 @@ ht-degree: 1%
 
    或
 
-   將游標暫留在索引標簽名稱上，然後按一下[其他] **&#x200B;**&#x200B;![ [其他]功能表](assets/more-menu.png)，然後按一下[重新命名] **以重新命名為新的[連線檢視]索引標籤。**
+   將游標暫留在索引標簽名稱上，然後按一下[其他] **** ![ [其他]功能表](assets/more-menu.png)，然後按一下[重新命名] **以重新命名為新的[連線檢視]索引標籤。**
 1. （可選）使用工具列中的下列任何檢視元素來管理表格檢視：
 
    * 篩選器

@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 1%
+source-wordcount: '697'
+ht-degree: 2%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 1%
  <tr> 
    <td role="rowheader"><p>Adobe Workfront平台</p></td> 
    <td> 
-<p>貴組織的Workfront例項必須上線至Adobe Unified Experience，才能存取Workfront Planning的所有功能。</p> 
+<p>貴組織的Workfront例項必須上線至Adobe Unified Experience，才能存取Workfront Planning。</p> 
 <p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">適用於Workfront的Adobe Unified Experience</a>。 </p> 
    </td> 
    </tr> 
@@ -129,7 +129,7 @@ ht-degree: 1%
 
    或
 
-   按一下[上一步]&#x200B;**&#x200B;**，然後按一下[新工作區]&#x200B;**&#x200B;**&#x200B;從頭開始建立工作區。
+   按一下[上一步]****，然後按一下[新工作區]****&#x200B;從頭開始建立工作區。
 
    會建立下列其中一種工作區型別：
 

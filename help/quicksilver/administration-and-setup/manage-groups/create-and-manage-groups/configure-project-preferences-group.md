@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: c69097fb-99e4-441b-9599-fd8af2dd7116
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '2767'
+source-wordcount: '2765'
 ht-degree: 2%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 2%
 >
 >* 通常，已解鎖的偏好設定會無限期地保持解鎖狀態。 如果Workfront管理員將其重新鎖定，系統設定將再次生效，並且群組管理員所做的偏好設定設定將遺失。
 >* 為與專案關聯的群組設定的偏好設定優先於為建立專案之使用者的「首頁」群組設定的偏好設定。
->* 有些群組層級偏好設定會影響您為群組建立的專案範本。 如需詳細資訊，請參閱文章[建立及修改群組的專案範本](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)中的「群組」區域[&#128279;](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#view)，一節「檢視、使用及建立群組的範本」。
+>* 有些群組層級偏好設定會影響您為群組建立的專案範本。 如需詳細資訊，請參閱文章[建立及修改群組的專案範本](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)中的「群組」區域](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#view)，一節[「檢視、使用及建立群組的範本」。
 >
 >* Workfront管理員在系統層級解除鎖定偏好設定後，您可以對其進行設定，然後將其鎖定，以確保您的群組及其子群組中的每個人都使用相同的設定。 此功能與Workfront管理員必須為系統中的每個人設定並鎖定偏好設定的功能平行。 如需詳細資訊，請參閱[鎖定或解除鎖定子群組的專案、任務或問題偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md)。
 >
@@ -220,10 +220,10 @@ ht-degree: 2%
    <td role="rowheader"> <p><strong>將一位使用者指派給任務時，請使用……</strong>的排程 </p> </td> 
    <td> <p>如果專案未指派排程，或指派給其任務的使用者未指派排程，[!DNL Workfront]會使用系統預設排程來計算任務的時間表。</p>
 
-<p>如果您將一位使用者指派至專案中的任務，且專案與使用者都有相關的排程，則[!UICONTROL Workfront]會使用下列排程：</p> 
+<p>如果您將一位使用者指派至專案中的任務，且專案與使用者都有相關的排程，則[！UICONTROL Workfront]會使用下列排程：</p> 
     <ul> 
-     <li><strong>[!UICONTROL User]</strong>：指派的使用者計算時間表的工作排程。</li> 
-     <li><strong>[!UICONTROL 專案]</strong>：計算任務時間表之專案的排程。</li> 
+     <li><strong>[！UICONTROL User]</strong>：指派的使用者計算時間表的工作排程。</li> 
+     <li><strong>[！UICONTROL專案]</strong>：計算任務時間表之專案的排程。</li> 
     </ul> <p>如需排程的詳細資訊，請參閱<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">建立排程</a>。</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -238,14 +238,14 @@ ht-degree: 2%
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p><strong>自訂季度</strong> </p> </td> 
-   <td> <p>為將處理專案的使用者設定自訂每年季度。 自訂季度通常是不符合日曆年度中傳統季度劃分的季度。 您可以新增多個自訂季度。 如需詳細資訊，請參閱<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">啟用專案的自訂季度</a>。</p> <p><b>注意</b>： Workfront管理員無法解除鎖定自訂季度偏好設定。</p> </td> 
+   <td> <p>為將處理專案的使用者設定自訂每年季度。 自訂季度通常是不符合日曆年度中傳統季度劃分的季度。 您可以新增多個自訂季度。 如需詳細資訊，請參閱<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">啟用自訂季度</a>。</p> <p><b>注意</b>： Workfront管理員無法解除鎖定自訂季度偏好設定。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### 業務案例 {#business-cases}
 
-您可以為與群組關聯的新建立專案建立業務案例，以提交專案請求。 您可以定義偏好設定來決定可在&#x200B;**業務案例**&#x200B;表單上看到的區域。 建議您啟用這些選項，以便其他工具(例如Portfolio最佳化程式)能夠正確更新。 如需每個欄位顯示內容的詳細資訊，請參閱[定義業務案例：文章索引](../../../manage-work/projects/define-a-business-case/define-business-case.md)。
+您可以為與群組關聯的新建立專案建立業務案例，以提交專案請求。 您可以定義偏好設定來決定可在&#x200B;**業務案例**&#x200B;表單上看到的區域。 建議您啟用這些選項，以便其他工具(例如Portfolio Optimizer)能夠正確更新。 如需每個欄位顯示內容的詳細資訊，請參閱[定義業務案例：文章索引](../../../manage-work/projects/define-a-business-case/define-business-case.md)。
 
 Workfront管理員啟用業務案例的區段後，專案所有者就可以在專案層級建立業務案例。 如需建立業務案例的相關資訊，請參閱[為專案建立業務案例](../../../manage-work/projects/define-a-business-case/create-business-case.md)。
 

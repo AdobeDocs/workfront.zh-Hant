@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: fb8b65b59ee9cd591c2a7f8edceab19f89afd29d
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '13255'
+source-wordcount: '13254'
 ht-degree: 2%
 
 ---
@@ -423,7 +423,7 @@ ht-degree: 2%
          * [建立費用型別](administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md)
          * [建立計分卡](administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)
          * [專案時間表重新計算](administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
-         * [專案的自訂季度](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
+         * [啟用自訂季度](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
          * [啟用或停用組織的快速發行](administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
          * [建立和編輯業務規則](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
          * [設定位置](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-locations.md)
@@ -1886,7 +1886,7 @@ ht-degree: 2%
          * [常見問題集 — 案頭校訂檢視器](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/faq-desktop-proofing-viewer.md)
       * 在Adobe Workfront中檢閱校樣 {#review-proofs-in-workfront}
          * [在Adobe Workfront中檢閱校訂：文章索引](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)
-         * 檢閱校訂 {#review-a-proof}
+         * 審閱校訂 {#review-a-proof}
             * [檢閱校訂：文章索引](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md)
             * [在校訂中檢視內容](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-a-proof.md)
             * [測量校訂內的區域](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/measure-an-area-proof.md)
@@ -2177,7 +2177,7 @@ ht-degree: 2%
    * 適用於Outlook的Adobe Workfront {#workfront-for-outlook}
       * [適用於Outlook的Adobe Workfront：文章索引](workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)
       * [設定適用於Outlook的Adobe Workfront](workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
-      * [適用於Outlook的Workfront的許可權層級](workfront-integrations-and-apps/using-workfront-with-outlook/permissions-in-workfront-for-outlook.md)
+      * 適用於Outlook的Workfront的[許可權層級](workfront-integrations-and-apps/using-workfront-with-outlook/permissions-in-workfront-for-outlook.md)
       * [回覆Outlook的註解](workfront-integrations-and-apps/using-workfront-with-outlook/reply-to-a-comment-from-outlook.md)
       * [從Outlook電子郵件更新現有的物件](workfront-integrations-and-apps/using-workfront-with-outlook/update-an-existing-object-from-an-outlook-email.md)
       * [將Outlook電子郵件作為任務或問題新增至專案](workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-to-project-as-task-or-issue.md)
@@ -2472,8 +2472,8 @@ ht-degree: 2%
       * [使用JWT流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-jwt-flow.md)
       * [使用PKCE流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-pkce-flow.md)
       * [棄用API — 內部](wf-api/api/deprecation-api-internal.md)
-      * [ API 20版的新增功能](wf-api/api/new-api-version-20.md)
-      * [ API 19版的新增功能](wf-api/api/new-api-version-19.md)
+      * [ API 20](wf-api/api/new-api-version-20.md)版的新增功能
+      * [ API 19](wf-api/api/new-api-version-19.md)版的新增功能
       * [API 18版的新增功能](wf-api/api/new-api-version-18.md)
       * [API 17版的新增功能](wf-api/api/new-api-version-17.md)
       * [API 16版的新增功能](wf-api/api/new-api-version-16.md)

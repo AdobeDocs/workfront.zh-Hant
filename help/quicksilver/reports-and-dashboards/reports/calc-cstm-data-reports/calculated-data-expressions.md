@@ -7,9 +7,9 @@ description: 您可以使用資料運算式，在Adobe Workfront中定義計算�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 6a46486b62974f1cc7033b4497d32ab787b05bf2
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '2433'
+source-wordcount: '2463'
 ht-degree: 2%
 
 ---
@@ -391,7 +391,17 @@ ht-degree: 2%
    <p><code>ARRAY(string1, "delimiter")</code></p> 
    </td> 
   </tr>
-  <tr> 
+
+<tr> 
+   <td><strong>陣列包含</strong> </td> 
+   <td> <p>在清單或陣列中搜尋特定值。 如果找到值，此函式會傳回True，否則會傳回False。 </p> 
+   <p>運算式的格式如下：</p>
+   <p><code>ARRAY(value 1, value 2)</code></p> 
+   </td> 
+  </tr>
+
+
+<tr> 
    <td><strong>ARRAYLENGTH</strong> </td> 
    <td> <p>傳回陣列中的元素數，格式如下：</p>
    <p><code>ARRAYLENGTH(array)</code></p> 

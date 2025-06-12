@@ -6,9 +6,9 @@ description: 您可以依物件上現存日期的時間範圍來篩選報表。 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 7dea484c-d38e-4786-85d0-f4c106cfa46f
-source-git-commit: f78a86dcdf7b63e98bec5216fb5ab7622775a053
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '963'
 ht-degree: 5%
 
 ---
@@ -186,7 +186,7 @@ Adobe Workfront有內建的時間範圍修飾元，您無需定義特定日期�
   </tr> 
   <tr> 
    <td role="rowheader">上個季度</td> 
-   <td> <p>顯示「輸入日期」為本季前一個季度之日期的小時，其中季度定義於上面。</p> <p>注意：如果您的Workfront管理員已啟用並定義系統的自訂季度，則季度的內建篩選器會取代為您的自訂季度資訊。 如需啟用自訂季數的詳細資訊，請參閱<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">啟用專案的自訂季數</a>。</p> </td> 
+   <td> <p>顯示「輸入日期」為本季前一個季度之日期的小時，其中季度定義於上面。</p> <p>注意：如果您的Workfront管理員已啟用並定義系統的自訂季度，則季度的內建篩選器會取代為您的自訂季度資訊。 如需有關啟用自訂季度的詳細資訊，請參閱<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">啟用自訂季度</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">今年</td> 

@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '724'
-ht-degree: 7%
+source-wordcount: '755'
+ht-degree: 6%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 7%
  <tr> 
    <td role="rowheader"><p>Adobe Workfront平台</p></td> 
    <td> 
-<p>貴組織的Workfront例項必須上線至Adobe Unified Experience，才能存取Workfront Planning的所有功能。</p> 
+<p>貴組織的Workfront例項必須上線至Adobe Unified Experience，才能存取Workfront Planning。</p> 
 <p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">適用於Workfront的Adobe Unified Experience</a>。 </p> 
    </td> 
    </tr> 
@@ -118,6 +118,7 @@ ht-degree: 7%
    * 日期
 
   如需詳細資訊，請參閱文章[建立欄位](/help/quicksilver/planning/fields/create-fields.md)中的「公式」一節。
+* 您可以在新的公式中參考公式欄位。 在公式欄位中參照的欄位中更新值後，參照該欄位的所有後續欄位或包含該欄位的公式欄位將自動更新。
 
 ## 支援的公式
 
@@ -127,12 +128,13 @@ Adobe Workfront Planning公式欄位支援Workfront計算欄位的大部分運�
 >
 >Workfront Planning公式欄位不支援下列Workfront運算式：
 >
->* SORTASCARRAY
->* SORTDESCARRAY
+><!--* SORTASCARRAY-->
+><!--* SORTDESCARRAY-->
 >* ADDHOUR
 >* SWITCH
 >* 格式
 
+<!--remove the ones commented out when we go live to Preview and Prod, if they truly are added to Planning-->
 
 如需Workfront運算式的完整清單，請參閱[計算資料運算式概觀](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)。
 

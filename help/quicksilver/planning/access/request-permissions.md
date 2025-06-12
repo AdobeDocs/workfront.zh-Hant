@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '739'
 ht-degree: 1%
 
 ---
@@ -76,7 +76,7 @@ ht-degree: 1%
  <tr> 
    <td role="rowheader"><p>Adobe Workfront平台</p></td> 
    <td> 
-<p>貴組織的Workfront例項必須上線至Adobe Unified Experience，才能存取Workfront Planning的所有功能。</p> 
+<p>貴組織的Workfront例項必須上線至Adobe Unified Experience，才能存取Workfront Planning。</p> 
 <p><b>重要</b></p>
 <p>只有當您的組織加入Adobe統一體驗時，您組織中的使用者才能請求檢視和工作區的許可權。 </p>
 <p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">適用於Workfront的Adobe Unified Experience</a>。 </p> 
@@ -140,10 +140,8 @@ ht-degree: 1%
 
    所有具有檢視或工作區管理許可權的使用者都會收到下列存取請求通知：
    * 應用程式內通知
-
      ![存取要求的應用程式內通知](assets/in-app-notification-for-access-request.png)
    * 電子郵件通知
-
      ![存取要求的電子郵件通知](assets/email-notification-for-access-request.png)
 
 1. （視條件而定）當檢視或工作區管理員授予您檢視或工作區的許可權時，您會收到電子郵件通知和應用程式內通知，其中包含已授予許可權的確認。<!--check this - I was not able to test this, but Isk confirmed.-->

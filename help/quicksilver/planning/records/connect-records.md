@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '3355'
+source-wordcount: '3351'
 ht-degree: 1%
 
 ---
@@ -99,7 +99,7 @@ ht-degree: 1%
  <tr> 
    <td role="rowheader"><p>Adobe Workfront平台</p></td> 
    <td> 
-<p>貴組織的Workfront例項必須上線至Adobe Unified Experience，才能存取Workfront Planning的所有功能。</p> 
+<p>貴組織的Workfront例項必須上線至Adobe Unified Experience，才能存取Workfront Planning。</p> 
 <p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">適用於Workfront的Adobe Unified Experience</a>。 </p> 
    </td> 
    </tr> 
@@ -213,7 +213,7 @@ ht-degree: 1%
 
    或
 
-   在方塊中選取一或多個記錄的名稱，然後按一下[連線物件]。**&#x200B;**
+   在方塊中選取一或多個記錄的名稱，然後按一下[連線物件]。****
 
    新增下列專案：
 
@@ -289,7 +289,7 @@ ht-degree: 1%
 
    或
 
-   在方塊中選取一或多個物件的名稱，然後按一下[連線物件]。**&#x200B;**
+   在方塊中選取一或多個物件的名稱，然後按一下[連線物件]。****
 
    >[!IMPORTANT]
    >
@@ -339,7 +339,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->當您的Experience Manager Assets管理員透過Workfront與Workfront之間的整合設定中繼資料對應時，可從Adobe Experience Manager Assets存取Planning記錄及其欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
+>當您的Experience Manager Assets管理員透過Workfront與Workfront之間的整合設定中繼資料對應時，可從Adobe Experience Manager Assets存取Planning記錄及其欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
 
 若要將記錄與Experience Manager資產連線：
 
@@ -436,7 +436,7 @@ ht-degree: 1%
    >
    >    依預設，只會顯示已連線個別記錄的已連線記錄。
 
-1. （選擇性）按一下[顯示所有連線]&#x200B;**&#x200B;**&#x200B;以顯示所有連線的記錄型別，包括沒有連線記錄的記錄型別。
+1. （選擇性）按一下[顯示所有連線]****&#x200B;以顯示所有連線的記錄型別，包括沒有連線記錄的記錄型別。
 
 1. （選擇性）按一下區段左側的向下箭頭以收合區段。
 

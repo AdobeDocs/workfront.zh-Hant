@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '985'
 ht-degree: 1%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 1%
  <tr> 
    <td role="rowheader"><p>Adobe Workfront平台</p></td> 
    <td> 
-<p>貴組織的Workfront例項必須上線至Adobe Unified Experience，才能存取Workfront Planning的所有功能。</p> 
+<p>貴組織的Workfront例項必須上線至Adobe Unified Experience，才能存取Workfront Planning。</p> 
 <p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">適用於Workfront的Adobe Unified Experience</a>。 </p> 
    </td> 
    </tr> 
@@ -206,8 +206,8 @@ ht-degree: 1%
 
 1. （選擇性）若要在儲存縮圖之前移除縮圖，請按一下影像右側的&#x200B;**移除**&#x200B;圖示![移除影像圖示](assets/remove-image-icon.png)。
 
-1. 按一下&#x200B;**使用影像**&#x200B;將影像新增為縮圖。
-這會關閉&#x200B;**錄製縮圖**&#x200B;方塊。
+1. 按一下&#x200B;**使用影像**將影像新增為縮圖。
+這會關閉**錄製縮圖**方塊。
 縮圖會顯示在Workfront Planning中記錄顯示的區域中。
 
    >[!TIP]

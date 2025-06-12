@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '780'
+source-wordcount: '776'
 ht-degree: 1%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 1%
 <tr>
    <td role="rowheader"><p>Adobe Workfront平台</p></td>
    <td>
-<p>貴組織的Workfront例項必須上線至Adobe Unified Experience，才能存取Workfront Planning的所有功能。</p>
+<p>貴組織的Workfront例項必須上線至Adobe Unified Experience，才能存取Workfront Planning。</p>
 <p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">適用於Workfront的Adobe Unified Experience</a>。 </p>
    </td>
   </tr>
@@ -153,7 +153,7 @@ ht-degree: 1%
 
    或
 
-   按一下[共用]以共用表單，然後按[複製]連結&#x200B;**。**&#x200B;**&#x200B;**
+   按一下[共用]以共用表單，然後按[複製]連結&#x200B;**。******
 1. （選用）使用者使用您共用的連結並提交請求後，Workfront Planning會傳送核准應用程式內通知及電子郵件給核准者。
 
    >[!NOTE]
