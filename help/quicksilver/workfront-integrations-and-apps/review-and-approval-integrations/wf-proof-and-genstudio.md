@@ -25,7 +25,7 @@ ht-degree: 0%
 
 * 在GenStudio for Performance Marketing中檢視稽核決定以進行最終核准和發佈
 
-如需在GenStudio for Performance Marketing中檢閱和核准的詳細資訊，請參閱[Workfront Proof與GenStudio for Performance Marketing整合](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/proof-integration)。
+如需在GenStudio for Performance Marketing中檢閱和核准的詳細資訊，請參閱[Workfront Proof與GenStudio for Performance Marketing整合](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/approve/proof-integration)。
 
 
 ## 存取需求
