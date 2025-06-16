@@ -3,15 +3,15 @@ content-type: reference
 navigation-topic: get-started-with-workfront
 title: Adobe Workfront基本介紹：文章索引
 description: 請檢視這些區域以了解 Adobe Workfront 的基礎知識；同時，了解如何執行基本功能，例如使用首頁或優先順序區域、管理您的帳戶設定檔、使用 AI Assistant，或了解瀏覽器需求和支援的語言。請參閱 Workfront 字彙表以了解 Workfront 中的常用術語。
-short-description: 瞭解Adobe Workfront的基本知識以及如何執行基本功能。
+short-description: 了解 Adobe Workfront 的基礎知識，並學習如何執行基本功能。
 author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c0b25ec2-38a5-4499-9366-be3b71ae62a2
-source-git-commit: 0c76cf9ebadaeabee55939969d59ea16d69ed328
+source-git-commit: 15a703e2292883427e371603f77a99765ed9d00a
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 55%
+source-wordcount: '209'
+ht-degree: 60%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 55%
 * [Adobe Workfront術語表](../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
 * [Adobe Workfront瀏覽器需求](../workfront-basics/workfront-browser-requirements.md)
 * 在Adobe Workfront中支援[語言](../workfront-basics/supported-languages-in-workfront.md)
+* [Workfront的HIPAA整備](/help/quicksilver/workfront-basics/hipaa-readiness-for-workfront.md)
 * [導覽Adobe Workfront：文章索引](../workfront-basics/navigate-workfront/navigate-workfront.md)
 * [優先順序：文章索引](/help/quicksilver/workfront-basics/priorities/priorities-toc.md)
 * [首頁](../workfront-basics/using-home/home.md)

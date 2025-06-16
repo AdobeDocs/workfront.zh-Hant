@@ -5,19 +5,17 @@ title: Workfront的HIPAA整備
 description: Workfront如HIPAA所定義，若客戶為Business Associate及/或Covered Entity (Business Associate代表其提供Adobe Workfront)，應使用下列指引設定Workfront以供HIPAA使用。
 feature: Get Started with Workfront
 author: Courtney
-hide: true
-hidefromtoc: true
-source-git-commit: a984038eea41d249cb0ad0d2ec6ba47025c56a65
+exl-id: e3cdaa03-d523-46a4-954b-8456d5f190e4
+source-git-commit: 15a703e2292883427e371603f77a99765ed9d00a
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
 
-
 # Workfront的HIPAA整備
 
-Workfront如HIPAA所定義，若客戶為Business Associate及/或Covered Entity (Business Associate代表其提供Adobe Workfront)，應使用下列准則來設定Workfront以供HIPAA使用：
+Workfront如HIPAA所定義，若客戶為Business Associate及/或Covered Entity (Business Associate代表其提供Adobe Workfront)，應使用下列准則來設定Workfront以供HIPAA就緒使用：
 
 
 ## 密碼需求
@@ -66,5 +64,5 @@ Workfront如HIPAA所定義，若客戶為Business Associate及/或Covered Entity
 * 對於任何可以存取ePHI的Workfront資料庫，請確定已啟用&#x200B;**靜態加密(EAR)**。
    * 請聯絡您的客戶經理(AE)，確認您的Workfront購買包含EAR。
    * 設定可透過Workfront存取的系統/資料庫，以符合法規遵循義務。
-* 確保ePHI未進行傳輸、連結或與其他Adobe解決方案共用。
+* 請確定ePHI未轉移、連結或與其他不符合HIPAA標準的Adobe解決方案共用。
 * 確保透過Workfront處理的患者照片能夠安全地儲存，並且不會公開存取。
