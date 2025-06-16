@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: ec018b8987a45cbf29c8a908f3adbdb8aade9d90
+source-git-commit: 334b08f4689318201d3b8260916655f57c2a9320
 workflow-type: tm+mt
-source-wordcount: '2407'
+source-wordcount: '2479'
 ht-degree: 3%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 3%
 * 文件
 * 費用
 * 欄位
-* 小時
+* 時數
 * 問題
 * 備註
 * 專案組合
@@ -130,7 +130,7 @@ ht-degree: 3%
         <td scope="col"><p>欄位</p></td> 
        </tr> 
       <tr> 
-        <td scope="col"><p>小時</p></td> 
+        <td scope="col"><p>時數</p></td> 
         <td scope="col">HOUR</td> 
        </tr> 
        <tr> 
@@ -707,6 +707,33 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 }
 ```
 
+#### containsOnly
+
+此篩選器允許只有在完整的選取值集完全符合篩選器中的fieldValue時，訊息才會通過，無論順序為何。 不能有額外的或遺漏的值。
+
+注意：這用於陣列型別（多選）欄位。 以下範例訂閱僅當`groups`欄位包含完全是&quot;Choice 3&quot;和&quot;Choice 4&quot;時，才允許傳遞訊息，沒有其他或遺失值，且無論順序為何。
+
+
+```
+{
+    "objCode": "PROJ",
+    "eventType": "UPDATE",
+    "authToken": "token",
+    "url": "https://domain-for-subscription.com/API/endpoint/UpdatedProjects",
+    "filters": [
+        {
+            "fieldName": "groups",
+            "fieldValue": [
+                "Choice 3",
+                "Choice 4"
+            ],
+            "state": "newState",
+            "comparison": "containsOnly"
+        }
+    ]
+}
+```
+
 #### 變更
 
 只有在指定的欄位(`fieldName`)在oldstate和newstate中有不同的值時，此篩選器才允許訊息通過。 更新指定欄位(`fieldName`)以外的其他欄位將不會傳回該變更。
@@ -739,7 +766,7 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 >[!NOTE]
 >
 >底下具有指定篩選器的訂閱只會傳回工作名稱在`oldState`上包含`again`的訊息，這是更新工作之前的訊息。
->此情況下的使用案例是尋找從一個事物變更為另一個事物的objCode訊息。 例如，找出從「Research Some name」變更為「Research TeamName Some name」的所有任務
+>>此情況下的使用案例是尋找從一個事物變更為另一個事物的objCode訊息。 例如，找出從「Research Some name」變更為「Research TeamName Some name」的所有任務
 
 ```
 {
