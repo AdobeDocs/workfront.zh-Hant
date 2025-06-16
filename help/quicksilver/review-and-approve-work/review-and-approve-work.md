@@ -9,9 +9,9 @@ feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: c88c09aa-166f-4ae1-bcfc-89b678590f51
 source-git-commit: 92ebfc6e2f33c15865b824c99546c8856d4f8edd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '31'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
