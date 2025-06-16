@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: 26a97126bbe809bc5fdd40d52bce2e0763110bcb
+source-git-commit: 11fb8416c4432708b4847486d345ab7a9489f6fb
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,14 @@ ht-degree: 0%
 本頁說明2025年第三季度版本對預覽環境所做的所有檔案管理增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2025年第三季度發行週期中目前可用的所有變更清單，請參閱[2025年第三季度發行概觀](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)。
+
+## 案頭校訂檢視器更新
+
+案頭校訂檢視器已更新至2.1.50版。
+
+此更新包含內部工具更新，不會影響一般使用者功能。
+
+此更新同時適用於Mac和Windows。
 
 ## 新校訂與GenStudio for Performance Marketing整合
 
