@@ -8,20 +8,20 @@ author: Lisa
 feature: Resource Management
 recommendations: noDisplay, noCatalog
 exl-id: b6a9e2ad-bd69-4075-8b87-3545e07b744d
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: fc82ce4b5abb2cd7411d62ac8bb428bc5337386f
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '151'
 ht-degree: 0%
 
 ---
 
 # 工作負載平衡器：文章索引
 
-<!--Audited: 12/2023-->
+<!--Audited: 6/2025-->
 
 工作負載平衡器是Adobe Workfront中的資源排程工具，可讓您將任務和問題指派給人員資源。
 
-如需有關工作負載平衡器是什麼、如何導覽它以及如何使用它指派工作的資訊，請參閱以下文章：
+本節包含下列文章：
 
 * [工作負載平衡器總覽](../../resource-mgmt/workload-balancer/overview-workload-balancer.md)
 * [在工作負載平衡器](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md)中管理資源所需的存取權

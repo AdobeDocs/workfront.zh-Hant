@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 26a97126bbe809bc5fdd40d52bce2e0763110bcb
+source-git-commit: 5413ab5cfbb06a7e047a4ccab87e82af7c859cab
 workflow-type: tm+mt
-source-wordcount: '13256'
+source-wordcount: '13262'
 ht-degree: 2%
 
 ---
@@ -1730,9 +1730,9 @@ ht-degree: 2%
          * [Tableau案頭無法建立連線](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/cannot-load-data.md)
          * [Power BI工具無法使用提供的密碼連線](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/cannot-connect-with-provided-password.md)
 * 管理資源 {#manage-resources}
-   * [管理資源](resource-mgmt/manage-resources.md)
+   * [管理資源：文章索引](resource-mgmt/manage-resources.md)
    * 資源管理 {#resource-management}
-      * [資源管理](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
+      * [資源管理：文章索引](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
       * [開始使用資源管理](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
    * Adobe Workfront中的資源規劃 {#resource-planning-in-adobe-workfront}
       * [資源規劃：文章索引](resource-mgmt/resource-planning/resource-planning-overview.md)
@@ -1762,7 +1762,7 @@ ht-degree: 2%
       * [資源規劃工具預算時數報告](resource-mgmt/resource-planning/report-on-budgeted-hours.md)
       * [資源規劃工具顯示限制](resource-mgmt/resource-planning/resource-planner-display-limitations.md)
    * 資源使用率 {#resource-utilization}
-      * [資源使用率](resource-mgmt/resource-utilization/resource-utilization.md)
+      * [資源使用率：文章索引](resource-mgmt/resource-utilization/resource-utilization.md)
       * [檢視資源使用情況資訊](resource-mgmt/resource-utilization/view-utilization-information.md)
    * 工作負載平衡器 {#the-workload-balancer}
       * [工作負載平衡器：文章索引](resource-mgmt/workload-balancer/workload-balancer.md)
@@ -2177,7 +2177,7 @@ ht-degree: 2%
    * 適用於Outlook的Adobe Workfront {#workfront-for-outlook}
       * [適用於Outlook的Adobe Workfront：文章索引](workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)
       * [設定適用於Outlook的Adobe Workfront](workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
-      * [適用於Outlook的Workfront的許可權層級](workfront-integrations-and-apps/using-workfront-with-outlook/permissions-in-workfront-for-outlook.md)
+      * 適用於Outlook的Workfront的[許可權層級](workfront-integrations-and-apps/using-workfront-with-outlook/permissions-in-workfront-for-outlook.md)
       * [回覆Outlook的註解](workfront-integrations-and-apps/using-workfront-with-outlook/reply-to-a-comment-from-outlook.md)
       * [從Outlook電子郵件更新現有的物件](workfront-integrations-and-apps/using-workfront-with-outlook/update-an-existing-object-from-an-outlook-email.md)
       * [將Outlook電子郵件作為任務或問題新增至專案](workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-to-project-as-task-or-issue.md)
@@ -2472,8 +2472,8 @@ ht-degree: 2%
       * [使用JWT流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-jwt-flow.md)
       * [使用PKCE流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-pkce-flow.md)
       * [棄用API — 內部](wf-api/api/deprecation-api-internal.md)
-      * [ API 20版的新增功能](wf-api/api/new-api-version-20.md)
-      * [ API 19版的新增功能](wf-api/api/new-api-version-19.md)
+      * [ API 20](wf-api/api/new-api-version-20.md)版的新增功能
+      * [ API 19](wf-api/api/new-api-version-19.md)版的新增功能
       * [API 18版的新增功能](wf-api/api/new-api-version-18.md)
       * [API 17版的新增功能](wf-api/api/new-api-version-17.md)
       * [API 16版的新增功能](wf-api/api/new-api-version-16.md)
