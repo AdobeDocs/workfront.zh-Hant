@@ -7,7 +7,7 @@ description: 使用Adobe Workfront資源規劃工具，您可以輕鬆瞭解資�
 author: Lisa
 feature: Resource Management
 exl-id: 5a1be723-e3ac-443a-9c09-85e8839fcbef
-source-git-commit: 48de4553478fc42d88d81ea953440337f6684e50
+source-git-commit: af7789f3a4c7443854639fd60bcf0661217b37ae
 workflow-type: tm+mt
 source-wordcount: '2424'
 ht-degree: 2%
