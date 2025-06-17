@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: 7373ee9f31e4b7561735920f3ff02cbd4fdce44a
 workflow-type: tm+mt
-source-wordcount: '1330'
+source-wordcount: '1341'
 ht-degree: 0%
 
 ---
@@ -162,7 +162,7 @@ ht-degree: 0%
 
    ![將欄位移至區段](assets/move-field-to-section.png)
 
-1. 若要儲存變更，請按一下[套用] **&#x200B;**
+1. 若要儲存變更，請按一下[套用] ****
 
    或
 
@@ -173,4 +173,9 @@ ht-degree: 0%
 1. 開始建立或編輯自訂表單，並新增欄位，如[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)中所述。
 
 1. 按一下右上角的&#x200B;**預覽**，檢視使用表單時的外觀，然後按一下&#x200B;**結束預覽**，返回編輯表單。
+
+   >[!NOTE]
+   >
+   >表單設計工具預覽模式不支援進階邏輯。
+
 
