@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: 72f955e9-75ff-4ff7-b434-7a2b2d5ee0e8
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: 1d7d094a682a02b09651023f94e81ee0b330163c
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '217'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>[!UICONTROL 計畫]</p> </td> 
+   <td> <p>[！UICONTROL計畫]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>存取層級設定*</strong></td> 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 1. 按一下[!DNL Workfront]右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 使用者]** ![使用者圖示](assets/users-icon-in-main-menu.png)。
 
-   ![主要功能表選項](assets/main-menu-options-350x481.png)
+
 
 1. 選取需要重設密碼的&#x200B;**[!UICONTROL 使用者]**。
    ![選取使用者](assets/100520classicnweselectuser-350x105.png)
