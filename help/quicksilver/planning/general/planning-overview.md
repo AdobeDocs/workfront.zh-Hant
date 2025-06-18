@@ -325,6 +325,7 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
      ![在時間表檢視中套用的群組](assets/grouping-applied-in-timeline-view.png)
 
    * **行事曆檢視**：以行事曆格式顯示至少有兩個日期型別欄位的記錄。
+
      ![行事曆檢視範例](assets/calendar-view-example.png)
 
 
