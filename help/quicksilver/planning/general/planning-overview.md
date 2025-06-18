@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: fe9d3cfbb50bfda672360b918d971cc77b0b8b0a
 workflow-type: tm+mt
-source-wordcount: '1979'
-ht-degree: 2%
+source-wordcount: '2061'
+ht-degree: 1%
 
 ---
 
@@ -277,12 +277,14 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
    * 記錄型別和Workfront專案、方案、投資組合、公司或群組物件型別。
    * 記錄型別和Adobe Experience Manager資產或資料夾。
 
-     您必須擁有Adobe Experience Manager授權，才能將記錄型別與Experience Manager物件連結。
+     您必須擁有Adobe Experience Manager授權，才能將記錄型別與Experience Manager物件連線。
 
      ![使用Workfront AEM選項的新連線標籤](assets/new-connection-tab-with-workfront-aem-options.png)
 
 
   在記錄型別之間建立連線之後，可以將這些型別的個別記錄或物件彼此連線。 記錄之間的連線會顯示為已連線的記錄欄位或連線。
+
+  當有數種工作物件型別影響彼此時，連線記錄型別會很有幫助。 例如，您可以使用行銷活動，而每個行銷活動可能會迎合多個品牌。 若要指出此關係，您可以將行銷活動連結至品牌。 此外，每個行銷活動的工作可能會在Workfront的多個專案中進行規劃。 若要指出此問題，您可以將行銷活動連結至相關專案。 連線記錄型別，然後連線個別記錄，可在Workfront Planning中達成此關係。
 
 * **查詢欄位** （或連結欄位）：當您建立兩個記錄型別之間的連線，並將個別記錄連線在一起後，就可以參照您正在連線的記錄中連線記錄的欄位。
 
@@ -299,7 +301,7 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
   >* 上次修改者
   >* Workfront預先輸入欄位（包括專案所有者或專案贊助者等欄位）
 
-  如需連結記錄型別、記錄和建立連結欄位的相關資訊，請參閱下列文章：
+  如需有關連線記錄型別、記錄和建立連結欄位的資訊，請參閱下列文章：
 
    * [連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)
    * [連接記錄](/help/quicksilver/planning/records/connect-records.md)
@@ -323,7 +325,6 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
      ![在時間表檢視中套用的群組](assets/grouping-applied-in-timeline-view.png)
 
    * **行事曆檢視**：以行事曆格式顯示至少有兩個日期型別欄位的記錄。
-
      ![行事曆檢視範例](assets/calendar-view-example.png)
 
 
@@ -395,7 +396,7 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
     >
     >    The Workfront AI Assistant has been temporarily removed and it will be available at a later date.-->
 
-* [適用於Workfront Fusion的Adobe Workfront規劃模組](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)：透過Adobe Workfront規劃模組，您可以在Workfront規劃中發生事件時觸發情境。 您也可以建立、讀取、更新及刪除記錄，或對Adobe Workfront Planning帳戶執行自訂API呼叫。
+* [適用於Workfront Fusion的Adobe Workfront規劃模組](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)：透過Adobe Workfront規劃模組，您可以在Workfront規劃中發生事件時觸發情境。 您也可以建立、讀取、更新及刪除記錄，或對Adobe Workfront Planning帳戶執行自訂API呼叫。
 
 * [Adobe Workfront Planning API基本知識](/help/quicksilver/planning/general/planning-api-basics.md)： Adobe Workfront Planning API的目標是透過引入透過HTTP運作的REST-ful架構，簡化與Planning的整合建置。
 
