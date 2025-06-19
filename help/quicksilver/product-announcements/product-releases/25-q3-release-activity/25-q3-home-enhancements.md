@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91789b7b-3aec-415c-a03d-e06d0c43a263
-source-git-commit: 75a8990a3bb75a0f8177b10d5e42bd6b4211f7f1
+source-git-commit: d7b9f6cac531bed5fd2a3e5c766e9d714f2625e4
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,20 @@ ht-degree: 0%
 本頁說明2025年第三季度版本對「預覽」環境所做的所有首頁增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2025年第三季度發行週期中目前可用的所有變更清單，請參閱[2025年第三季度發行概觀](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)。
+
+## 更新「我的更新」區域中「提及」區段的註解體驗
+
+>[!NOTE]
+>
+>* 預覽： 2024年12月19日
+>* 生產快速發行： 2025年6月19日
+>* 適用於所有客戶的生產： 2025年6月19日
+
+我們正在更新「我的更新」區域中「提及」區段中的評論體驗。 現在，大部分的Workfront物件更新區域中的相同體驗也可在我的更新的提及區段中取得。
+
+在此增強功能之前，此區域提供舊版評論體驗。
+
+如需詳細資訊，請參閱[使用我的更新區域](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-updates-area.md)。
 
 ## 我的核准Widget現在會依截止日期自動排序
 

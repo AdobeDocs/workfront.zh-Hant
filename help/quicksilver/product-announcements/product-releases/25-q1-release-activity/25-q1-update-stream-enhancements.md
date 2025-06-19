@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 29fa2641-9ac0-4cad-aef1-0f5ac877bab1
-source-git-commit: 270bf0fb1bb5b3ab93e82aafd423ee6fceaa7b42
+source-git-commit: ec74d34bc69f2f1424414453f9fdf94e539a75fd
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽版本： 2024年12月19日；適用於所有客戶的生產版本：即將宣佈
+>預覽版： 2024年12月19日；適用於所有客戶的生產版Home：即將宣佈；適用於所有客戶的生產版My Updates： 2025年6月19日
 
 我們正在更新首頁的「提及」小工具和「我的更新」區域的「提及」區段中的評論體驗。 現在，大部分的Workfront物件的「更新」區域中也有相同的體驗，可在「我的更新」的「提及」小工具中取得。
 
