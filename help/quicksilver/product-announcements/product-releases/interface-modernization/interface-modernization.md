@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 95a8d56b82e6d28995f7adc9cf3e23cbb039c096
+source-git-commit: f7e8dd73dc50d5e8a600abe42868a6c7096d8ed6
 workflow-type: tm+mt
-source-wordcount: '4589'
+source-wordcount: '4583'
 ht-degree: 1%
 
 ---
@@ -260,14 +260,14 @@ For information, see [Create a custom report](/help/quicksilver/reports-and-dash
 
 ### 已更新具有新樣式的報表
 
-**預覽版本： 2025年6月12日；生產版本：即將宣佈**
+**預覽版本： 2025年6月12日；生產版本： 6月19日。 2025**
 
 我們已更新多個報表的外觀和風格，以符合Workfront其他區域的設計方式。 功能未變更。
 
 此更新包含下列物件型別之報表清單與工具列的視覺變更：
 
 * 風險
-* 基準線(於6月19日發行至生產環境。 2025)
+* 基準線
 * 費率
 * 版面配置範本
 
@@ -598,7 +598,7 @@ For information, see [View the organizational chart](/help/quicksilver/people-te
 
 此更新包含區域的視覺化變更。 功能未變更。
 
-若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。**&#x200B;**
+若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。****
 
 +++
 
