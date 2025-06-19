@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: f7e8dd73dc50d5e8a600abe42868a6c7096d8ed6
+source-git-commit: 4c09cbe74e8f277cd6a9a7732aa1a93e17f7dfeb
 workflow-type: tm+mt
-source-wordcount: '4583'
+source-wordcount: '4622'
 ht-degree: 1%
 
 ---
@@ -248,15 +248,13 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 ## 報告和儀表板
 
-<!--
-### Interface updates for the Expense report
+### 費用報表的介面更新
 
-Preview release: June 19, 2025; Production release: June 26, 2025
+預覽版本： 2025年6月19日；生產版本： 2025年6月26日
 
-We have updated the look and feel of the Expense report to match the design of other areas of Workfront.
+我們已更新「費用」報表的外觀與操作方式，以符合Workfront其他區域的設計方式。
 
-For information, see [Create a custom report](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
--->
+如需詳細資訊，請參閱[建立自訂報表](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
 ### 已更新具有新樣式的報表
 
@@ -598,7 +596,7 @@ For information, see [View the organizational chart](/help/quicksilver/people-te
 
 此更新包含區域的視覺化變更。 功能未變更。
 
-若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。**&#x200B;**
+若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。****
 
 +++
 
