@@ -58,14 +58,14 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td><p>新增：[！UICONTROL Standard]</p>
+   <td><p>新增：[!UICONTROL Standard]</p>
    或
-   <p>目前： [！UICONTROL計畫]</p>
+   <p>目前： [!UICONTROL 計畫]</p>
    </td> 
   </tr>  
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td>[！UICONTROL系統管理員]</td>
+   <td>[!UICONTROL 系統管理員]</td>
   </tr> 
  </tbody> 
 </table>
@@ -123,7 +123,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    >如果[!DNL Workfront]已在追蹤欄位，您無法從清單中再次新增該欄位。
 
 1. 新增所有您要[!DNL Workfront]追蹤的欄位後，請按一下&#x200B;**[!UICONTROL 新增欄位]**。
-您新增的內建欄位會顯示在**[!UICONTROL 內建欄位]**&#x200B;子標籤下，而自訂欄位會顯示在&#x200B;**[!UICONTROL 自訂欄位]**子標籤下。
+您新增的內建欄位會顯示在&#x200B;**[!UICONTROL 內建欄位]**&#x200B;子標籤下，而自訂欄位會顯示在&#x200B;**[!UICONTROL 自訂欄位]**&#x200B;子標籤下。
 **[!UICONTROL 所有欄位]**&#x200B;子標籤會顯示[!DNL Workfront]追蹤的內建和自訂欄位。
 
 <!-- replace the above when releasing to Preview: 
