@@ -6,9 +6,9 @@ description: 您可以使用[!UICONTROL 我的更新]區域來快速檢閱等待
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: 4448d2fc6d0230ef2f53ad0ea7ae0f10f52fcac4
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '811'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 0%
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
    <td> <p>新增：投稿人或更高版本</p>
    或   
-   <p>目前： [!UICONTROL Request]或以上</p> </td> 
+   <p>目前： [！UICONTROL Request]或以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>存取層級設定</strong></td> 
@@ -55,7 +55,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>[!UICONTROL 檢視]對您在對話中被標籤或需要解決核准的專案、任務、問題和檔案的許可權或更高</p> </td> 
+   <td> <p>[！UICONTROL檢視]對您在對話中被標籤或需要解決核准的專案、任務、問題和檔案的許可權或更高</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -74,15 +74,13 @@ ht-degree: 0%
 
 ## 存取[!UICONTROL 我的更新]區域
 
-1. 在&#x200B;**[!UICONTROL 主功能表]**&#x200B;中按一下&#x200B;**[!UICONTROL 我的更新]**。
+{{step1-to-my-updates}}
 
-   ![主功能表中的我的更新](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
+[!UICONTROL 我的更新]區域隨即開啟。
 
-   [!UICONTROL 我的更新]區域隨即開啟。
+指派給您的核准和存取要求列在頁面前半段的&#x200B;**我的更新**&#x200B;底下。
 
-   指派給您的核准和存取要求列在頁面前半段的&#x200B;**我的更新**&#x200B;底下。
-
-   ![我的更新提及檢閱者](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
+![我的更新提及檢閱者](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
 
 1. （選擇性）捲動至&#x200B;[!UICONTROL **我的更新**]&#x200B;區域底部，然後按一下向右箭頭，以顯示其他頁面上顯示的更多核准。
 
@@ -101,15 +99,15 @@ ht-degree: 0%
     </col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL All]</strong></td> 
+      <td role="rowheader"><strong>[！UICONTROL All]</strong></td> 
       <td>由其他使用者提交給您或委派給您的核准。 如需委託核准的詳細資訊，請參閱<a href="../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md" class="MCXref xref">委託核准要求</a>。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 委派核准]</strong></td> 
+      <td role="rowheader"><strong>[！UICONTROL委派核准]</strong></td> 
       <td>其他使用者委派給您的核准。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 我的核准]</strong></td> 
+      <td role="rowheader"><strong>[！UICONTROL我的核准]</strong></td> 
       <td> <p>核准已提交給您。 </p> <p>如需核准專案的詳細資訊，請參閱<a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">核准工作</a>。</p> </td> 
      </tr> 
     </tbody> 

@@ -8,16 +8,24 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-source-git-commit: 52ba2457ac2870d23e325f64163b683756f88ad4
+source-git-commit: f7cb314067d105d5534f4be356024aea8e8f9a28
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '931'
 ht-degree: 8%
 
 ---
 
 # 設定系統更新
 
-<!-- Audited: 5/2025 -->
+<!-- Audited: 6/2025 -->
+
+<!--<div class="preview">
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
+
+</div> -->
 
 [!DNL Adobe Workfront]在物件的[!UICONTROL 更新]區域產生自動系統更新，以記錄下列事件：
 
@@ -49,20 +57,20 @@ ht-degree: 8%
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td><p>新增：[!UICONTROL Standard]</p>
+   <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
+   <td><p>新增：[！UICONTROL Standard]</p>
    或
-   <p>目前： [!UICONTROL 計畫]</p>
+   <p>目前： [！UICONTROL計畫]</p>
    </td> 
   </tr>  
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td>
+   <td>[！UICONTROL系統管理員]</td>
   </tr> 
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+*如需此表格中資訊的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -77,10 +85,6 @@ ht-degree: 8%
 >
 
 
-
-* [新增您要 [!DNL Workfront] 追蹤的欄位](#add-fields-you-want-workfront-to-track)
-* [移除您不想要追蹤的欄位](#remove-fields-you-don-t-want-tracked)
-
 ### 新增您要[!DNL Workfront]追蹤的欄位 {#add-fields-you-want-workfront-to-track}
 
 您可以新增要[!DNL Workfront]在整個[!DNL Workfront]介面中追蹤特定物件型別的欄位。 當使用者在該欄位中變更資訊時，[!DNL Workfront]會將有關變更的資訊記錄為物件的[!UICONTROL 更新]區域中的系統更新。
@@ -92,18 +96,70 @@ ht-degree: 8%
 {{step-1-to-setup}}
 
 1. 在左側的面板中，按一下&#x200B;**[!UICONTROL 介面]**，然後按&#x200B;**[!UICONTROL 更新摘要]**。
+1. （選擇性）在&#x200B;**追蹤的欄位**&#x200B;索引標籤中，根據您要在更新摘要中追蹤的欄位型別，按一下下列其中一個子索引標籤：
 
-1. 按&#x200B;一下&#x200B;**[!UICONTROL 新增欄位]**，然後從下拉式清單中選取您要追蹤的物件。
+   * **內建欄位**：顯示內建欄位清單。
+   * **自訂欄位**：顯示自訂欄位清單。 您必須先建立自訂欄位，清單才能顯示這些欄位。
+   * **所有欄位**：顯示內建和自訂欄位的清單。
 
-1. 在出現的方塊中，開始輸入物件的內建（標準）欄位或自訂欄位，然後當物件出現在清單中時選取它。
+1. 按一下&#x200B;**[!UICONTROL 新增欄位]**，然後從下拉式清單中選取您要追蹤的物件。
+
+   手動選取欄位並非適用於具有「更新」區域的所有物件。
+
+   從欄位中選取下列物件：
+
+   * 專案
+   * 任務
+   * 問題
+   * 專案組合
+   * 方案
+   * 使用者
+
+   針對每個選取的物件，**新增欄位**&#x200B;方塊會開啟。
+1. 在&#x200B;**新增欄位**&#x200B;方塊中，開始輸入物件的內建（標準）欄位或自訂欄位，然後當物件出現在清單中時選取它。
 
    >[!NOTE]
    >
    >如果[!DNL Workfront]已在追蹤欄位，您無法從清單中再次新增該欄位。
 
-1. 新增所有您要[!DNL Workfront]追蹤的欄位後，請按一下&#x200B;**[!UICONTROL 新增欄位]**。 您新增的內建欄位會顯示在&#x200B;**[!UICONTROL 內建欄位]**&#x200B;子標籤下，而自訂欄位會顯示在&#x200B;**[!UICONTROL 自訂欄位]**&#x200B;子標籤下。
+1. 新增所有您要[!DNL Workfront]追蹤的欄位後，請按一下&#x200B;**[!UICONTROL 新增欄位]**。
+您新增的內建欄位會顯示在**[!UICONTROL 內建欄位]**&#x200B;子標籤下，而自訂欄位會顯示在&#x200B;**[!UICONTROL 自訂欄位]**子標籤下。
+**[!UICONTROL 所有欄位]**&#x200B;子標籤會顯示[!DNL Workfront]追蹤的內建和自訂欄位。
 
-   **[!UICONTROL 所有欄位]**&#x200B;子標籤同時顯示正在追蹤的內建和自訂欄位。
+<!-- replace the above when releasing to Preview: 
+
+1. In the panel on the left, click **[!UICONTROL Interface]**, then **[!UICONTROL Update Feeds]**.
+1. (Optional) In the <span class="preview">**Tracked fields** tab</span>, click one of the following subtabs, depending on which types of fields you want to track in the update feed:
+
+   * <span class="preview">**Built-in fields**</span>: Displays a list of built-in fields.
+   * <span class="preview">**Custom fields**</span>: Displays a list of custom fields. You must create the custom fields before they are available in the list. 
+   * <span class="preview">**All fields**</span>: Displays a list of both built-in and custom fields. 
+
+1. Click <span class="preview">**[!UICONTROL Add fields]**,</span> then select the object that you want to be tracked from the drop-down. 
+
+   Manually selecting fields is not available for all the objects that have an Updates area.
+
+   Select from fields for the following objects:
+
+      * Project
+      * Task
+      * Issue
+      * Portfolio
+      * Program
+      * User
+
+   The <span class="preview">**Add fields** </span> box opens, for each object selected.
+1. In the <span class="preview">**Add fields** </span> box, start typing either a built-in (standard) field or a custom field for the object, then select it when it appears in the list.
+
+   >[!NOTE]
+   >
+   >If [!DNL Workfront] is already tracking the field, you can't add it a second time from the list.
+
+1. After adding all the fields you want [!DNL Workfront] to track, <span class="preview"> click **[!UICONTROL Add]**.
+   The built-in fields that you added show under the **[!UICONTROL Built-in fields]** subtab, and the custom fields show under the **[!UICONTROL Custom fields]** subtab.
+   The **[!UICONTROL All fields]** subtab shows both the built-in and the custom fields that [!DNL Workfront] tracks.</span>
+
+-->
 
 ### 移除您不想要追蹤的欄位 {#remove-fields-you-don-t-want-tracked}
 
@@ -115,17 +171,30 @@ ht-degree: 8%
 
 1. 在&#x200B;**[!UICONTROL 追蹤的欄位]**&#x200B;標籤上，選取&#x200B;**[!UICONTROL 所有欄位]**&#x200B;子標籤。 目前追蹤的內建和自訂欄位都會顯示。
 
-1. 選取您要停止追蹤的欄位，然後按一下[移除]。**&#x200B;**
+1. 選取您要停止追蹤的欄位，然後按一下&#x200B;**[!UICONTROL 移除]**。
+
+
+<!--replace above at Preview release with this:
+
+1. On the <span class="preview">**[!UICONTROL Tracked fields]** tab</span>, select the **[!UICONTROL All fields]** subtab. Both the built-in and custom fields that are currently being tracked display.
+
+1. Select the field you want to stop tracking, then click the <span class="preview">**[!UICONTROL Remove]** icon ![Remove icon](assets/remove-icon.png).</span>
+
+-->
 
 1. 在出現的&#x200B;**[!UICONTROL 移除欄位]**&#x200B;方塊中，按一下&#x200B;**[!UICONTROL 是，移除它]**&#x200B;以進行確認。
 
-有關先前追蹤的欄位的任何更新會保留在記錄它們的[!UICONTROL 更新]區域中。
+   有關先前追蹤的欄位的任何更新會保留在記錄它們的[!UICONTROL 更新]區域中。
 
 ## 決定物件型別要追蹤哪些動作[!DNL Workfront]
 
-您可以讓[!DNL Workfront]在整個[!DNL Workfront]介面中追蹤使用者可以在物件上執行的下列動作。
+您可以讓使用者在[!DNL Workfront]介面中的物件上執行[!DNL Workfront]個追蹤動作。
 
-例如，每次使用者將指派變更至任務或問題時，您都可以讓[!DNL Workfront]記錄更新。 然後，變更會以系統更新的形式出現在任務或問題的[!UICONTROL 更新]區域中。
+例如，每次使用者將指派變更至任務或問題時，您都可以讓[!DNL Workfront]記錄更新。
+
+然後，變更會以系統更新的形式出現在任務或問題的[!UICONTROL 更新]區域中。
+
+下表說明您可以在[!DNL Workfront]中追蹤的物件動作：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -203,4 +272,4 @@ ht-degree: 8%
 1. 選取動作的核取方塊以啟用動作，或取消選取動作以停用動作。
 1. 按一下「**[!UICONTROL 儲存]**」。
 
-當您停用動作時，先前記錄的有關該動作的任何更新都會保留在記錄該動作的[!UICONTROL 更新]區域中。
+   當您停用動作時，先前記錄的有關該動作的任何更新都會保留在記錄該動作的[!UICONTROL 更新]區域中。 [!DNL Workfront]停止記錄已停用動作的任何新更新。

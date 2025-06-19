@@ -3,22 +3,22 @@ user-type: administrator
 content-type: reference;overview
 product-area: system-administration
 navigation-topic: system-tracked-update-feeds
-title: 系統追蹤更新
+title: 系統追蹤更新概述
 description: Adobe Workfront會將狀態資訊記錄在物件的[!UICONTROL 更新]區域中，藉此擷取特定物件上發生的活動。
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 4448d2fc6d0230ef2f53ad0ea7ae0f10f52fcac4
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 1%
+source-wordcount: '386'
+ht-degree: 0%
 
 ---
 
-# 系統追蹤的更新
+# 系統追蹤更新概觀
 
-<!-- Audited: April, 2024-->
+<!-- Audited: 06/2025-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
@@ -75,7 +75,7 @@ ht-degree: 1%
    * [!UICONTROL 反複專案]
    * [!UICONTROL 目標]
 
-     您必須有額外的授權才能存取[!UICONTROL 目標]區域。 如需詳細資訊，請參閱[使用Workfront目標的需求](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md)。
+     並非所有Workfront套件都包含Workfront目標。 如需詳細資訊，請參閱[使用Workfront目標的需求](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md)。
    * 主機板上的[!UICONTROL 卡片]
 
      如需有關卡片更新的詳細資訊，請參閱[在面板上使用連線的卡片](../../../agile/get-started-with-boards/connected-cards.md)。

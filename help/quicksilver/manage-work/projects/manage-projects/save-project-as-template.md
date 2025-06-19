@@ -6,9 +6,9 @@ description: 在專案層級將專案儲存為templateSave as template （範本
 author: Alina
 feature: Work Management
 exl-id: 4b5dfe12-f984-47c6-8e19-78b549f19159
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: f7cb314067d105d5534f4be356024aea8e8f9a28
 workflow-type: tm+mt
-source-wordcount: '787'
+source-wordcount: '489'
 ht-degree: 1%
 
 ---
@@ -21,13 +21,15 @@ ht-degree: 1%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Keep this the way it is in the Managing Projects area because the functionality in the UI is "Save as template" at the project level, so users see that in the UI; there is another article that this links to which is more in depth (step-by-step). This functionality needs to stay in both projects AND templates areas.)</p>
 -->
 
+<!--
 <div class="preview">
 
-本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在預覽版發佈一週後，生產環境中也將提供相同功能給所有客戶。
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
 
-如需詳細資訊，請參閱[介面現代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
 
 </div>
+-->
 
 如果您決定某個專案將在未來再次發生，則可以從現有專案建立範本。 然後，您可以再次使用範本來建立未來專案，這些專案可能包含類似的資訊，或與現有專案共用相同的時間表或工作分派。
 
@@ -67,63 +69,67 @@ ht-degree: 1%
 
 ## 將專案另存為範本
 
-將專案另存為範本的情況在生產環境和預覽環境中有所不同。
+<!--
+Saving a project as a template differs in the Production and the Preview environments. 
 
-### 在生產環境中將專案另存為範本
+### Save a project as a template in the Production environment
 
-1. 前往您要另存為範本的專案。
-1. 按一下&#x200B;**更多**&#x200B;功能表![更多圖示](assets/qs-more-icon-on-an-object.png)，然後&#x200B;**另存為範本**。
-1. 指定範本的下列資訊：
+
+1. Go to the project that you want to save as a template. 
+1. Click the **More** menu ![More icon](assets/qs-more-icon-on-an-object.png), then **Save as Template**. 
+1. Specify the following information for the template:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">姓名</td> 
-      <td>指定範本的名稱。</td> 
+      <td role="rowheader">Name</td> 
+      <td>Specify a name for the template.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">說明</td> 
-      <td>提供範本的說明。</td> 
+      <td role="rowheader">Description</td> 
+      <td>Provide a description for the template.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">為作用中</td> 
-      <td> <p>從下列選項中選取：</p> 
+      <td role="rowheader">Is Active</td> 
+      <td> <p>Select from the following options:</p> 
        <ul> 
-        <li> <p><strong>是</strong>：其他使用者可以找到範本並將其附加至專案。</p> </li> 
-        <li><strong>否</strong>：其他使用者找不到範本，也無法將其附加至專案。</li> 
+        <li> <p><strong>Yes</strong>: Other users can find the template and attach it to projects.</p> </li> 
+        <li><strong>No</strong>: Other users cannot find the template and cannot attach it to projects.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">自訂表單</td> 
-      <td>使用下拉式清單來選取要附加至範本的任何自訂表單。 如果有任何自訂表單已與專案相關聯，則會顯示這些自訂表單中的所有資料欄位。<br>您最多可以在單一範本上包含10個自訂表格。</td> 
+      <td role="rowheader">Custom Forms</td> 
+      <td>Use the drop-down list to select any custom forms to attach to the template. If any custom forms have already been associated with the project, all of the data fields from those custom forms are displayed.<br>You can include up to 10 custom forms on a single template.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 按一下&#x200B;**管理Forms**&#x200B;以移除或重新排序表格。 如需如何在範本上移除和重新排序自訂表單的相關資訊，請參閱[自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)。
+1. Click **Manage Forms** to remove or reorder the forms. For information about how to remove and reorder custom forms on the template, see [Custom forms](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
 
    ![](assets/save-as-template-first-step-350x159.png)
 
-1. 按一下&#x200B;**下一步。**
-1. 在&#x200B;**選項**&#x200B;區段中，選取您要從範本中清除之任何資訊旁的核取方塊。
+1. Click **Next Step.**
+1. In the **Options** section, select the checkbox beside any information you want to clear from the template.
 
    ![](assets/save-as-template-options-step-350x109.png)
 
-1. 按一下&#x200B;**下一步。**
-1. 在&#x200B;**排除**&#x200B;區段中，選取您要從專案排除的任何工作。
+1. Click **Next Step.**
+1. In the **Exclude** section, select any tasks that you want to exclude from the project.
 
    ![](assets/save-as-template-exclude-350x205.png)
 
-1. 按一下&#x200B;**完成並儲存範本。**
+1. Click **Finish and Save Template.**
 
-   您的範本現在會顯示在可用範本清單中，並可附加至現有專案或用來建立新專案。
+   Your template now appears in the list of available templates and can either be attached to an existing project or used to create a new one.
 
 
 <div class="preview">
 
-### 在預覽環境中將專案另存為範本
+### Save a project as a template in the Preview environment
+
+-->
 
 1. 前往您要另存為範本的專案。
 1. 按一下&#x200B;**更多**&#x200B;功能表![更多圖示](assets/qs-more-icon-on-an-object.png)，然後&#x200B;**另存為範本**。
@@ -156,25 +162,24 @@ ht-degree: 1%
     </tbody> 
    </table>
 
-1. 按一下左側面板中的「自訂Forms」**&#x200B;**，移除或重新排序表單。
+1. 按一下左側面板中的「自訂Forms」****，移除或重新排序表單。
 
    若要重新排序表單，請以正確順序拖放表單。
-若要移除表單，請選取該表單，然後按一下[移除]。**&#x200B;** 按一下&#x200B;**取消**&#x200B;以移除選取的表單。
+若要移除表單，請選取該表單，然後按一下[移除]。**** 按一下&#x200B;**取消**&#x200B;以移除選取的表單。
 
    ![儲存為範本方塊中的自訂表單區域](assets/custom-forms-ara-in-save-as-template-box.png)
 
 1. 如有需要，請更新附加自訂表單中的資訊。 資訊將會傳輸至範本。
 
-1. 按一下左側面板區段中的&#x200B;**選項**，然後選取您要傳送至範本的任何資訊旁的核取方塊。 取消選取的專案不會轉移到範本。 預設會取消選取所有選項。
+1. 按一下左側面板中的&#x200B;**選項**，然後選取您要傳送至範本的任何資訊旁的核取方塊。 取消選取的專案不會轉移到範本。 預設會取消選取所有選項。
 
    另存為範本方塊中的![選項區域](assets/options-area-in-save-as-template-box.png)
 
-1. 按一下左側面板中的「排除&#x200B;**&#x200B;**」，然後選取您要從專案排除的任何工作。 預設會取消選取所有工作。
+1. 按一下左側面板中的「排除&#x200B;****」，然後選取您要從專案排除的任何工作。 預設會取消選取所有工作。
 
    ![另存為範本方塊中的排除區域](assets/exclude-area-save-as-template-box.png)
 
-1. 按一下&#x200B;**完成並儲存範本。**
+1. 按一下畫面右上角的&#x200B;**完成並儲存範本**。
 
    您的範本現在會顯示在可用範本清單中，並可附加至現有專案或用來建立新專案。
 
-</span>

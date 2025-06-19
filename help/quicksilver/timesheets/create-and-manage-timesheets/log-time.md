@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 1926500c76e4f9cfdac829f8d9f0cdfa6231e31d
+source-git-commit: f7cb314067d105d5534f4be356024aea8e8f9a28
 workflow-type: tm+mt
-source-wordcount: '3818'
+source-wordcount: '4065'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,17 @@ ht-degree: 0%
 <!--remove all preview and production references if any-->
 <!--update screen shots for the general hour entries and the mixed selection of hours at production, if they fixed the bugs -->
 
+<!--
+<div class="preview">
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
+
+</div>
+
+-->
+
 您可以在Adobe Workfront中記錄工作專案的時間，以指出您花在工作專案上的小時數。 您也可以記錄與工作無關的時間，例如假期、病假或會議時間。 您的記錄時間會顯示在您的時程表中。
 
 如需您可以登入Workfront時數型別的詳細資訊，請參閱[管理時數型別](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md)。
@@ -28,8 +39,6 @@ ht-degree: 0%
 ## 存取需求
 
 +++ 展開以檢視存取需求。
-
-您必須具有下列存取權才能執行本文中的步驟，並記錄專案特定時數：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -131,7 +140,7 @@ ht-degree: 0%
 
 1. （選擇性）展開篩選、檢視或群組下拉式功能表，以套用或自訂其中一個功能表，並檢視您想要的專案資訊。
 
-1. 在清單中選取一或多個專案，然後按一下[新增]。**&#x200B;**
+1. 在清單中選取一或多個專案，然後按一下[新增]。****
 
    如果您一次新增的專案少於50個，這些專案會新增到時程表中。 任務和問題會列在專案名稱下。
 
@@ -142,9 +151,9 @@ ht-degree: 0%
 
 1. （視條件而定）如果您一次新增50個或更多專案，會顯示一則確認訊息，顯示新增至時程表的專案數量。
 
-   按一下&#x200B;**全部新增**&#x200B;以新增所有專案
+   按一下&#x200B;**全部新增**以新增所有專案
 或
-按一下&#x200B;**取消**&#x200B;停止新增選取的專案，然後按一下&#x200B;**取消**&#x200B;關閉專案清單。
+按一下**取消**&#x200B;停止新增選取的專案，然後按一下&#x200B;**取消**&#x200B;關閉專案清單。
 
    任務和問題會列在專案名稱下。
 
@@ -344,11 +353,25 @@ ht-degree: 0%
 1. （選擇性）在清單中選取任務、問題或請求，然後按一下&#x200B;**處理它**。
 1. 暫留在您要記錄時間的任務或問題上，然後按一下任務資訊右側的&#x200B;**記錄時間**&#x200B;圖示![](assets/log-time-icon-in-new-home.png)。
 
-   ![](assets/log-time-ui-for-task-from-new-home.png)
+   顯示&#x200B;**記錄時間**&#x200B;方塊。
+
+   ![在首頁記錄工作的時間方塊](assets/log-time-ui-for-task-from-new-home.png)
+
+1. 指定下列資訊：
+
+   * **小時型別**：如果小時型別與預設顯示的型別不同，請從下拉式功能表中選取小時型別。
+
+     根據系統中設定的小時型別，此處提供的選項可能會有所不同。 如需有關設定時數型別的詳細資訊，請參閱[定義時數型別和可用性](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)。
+
+   * **工作角色**： （視條件而定）如果您的Workfront或群組管理員已啟用&#x200B;**手動將工作角色指派到時數專案**&#x200B;設定，請從下拉式選單中選取&#x200B;**工作角色**。 依預設，系統會顯示指定給物件時所指定的角色。 如果您在物件上未被指派角色，則您的「主要角色」將顯示為預設值。 如需此設定的詳細資訊，請參閱文章[設定時程表和小時偏好設定](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)。
+
+   * 在每週行事曆中，輸入專案、任務或問題的小時數。
 
 1. 按一下&#x200B;**記錄時間**。
 
    記錄時間會顯示在物件的「小時」區段和您的時程表中。
+
+   記錄時間方塊中的&#x200B;**總時數**&#x200B;欄位會顯示所有使用者針對專案、任務或問題記錄的所有時數。
 
 <!--#### Log time on a work item from the legacy Home area
 
@@ -395,7 +418,7 @@ ht-degree: 0%
    >   
    >   在「輸入天數」方塊的右上角，會顯示一天包含多少小時。
 
-   ![](assets/log-time-box-in-updates-stream.png)
+   ![在[更新]區域中記錄任務的時間ox](assets/log-time-box-in-updates-stream.png)
 
 1. 指定下列資訊：
 
@@ -405,11 +428,13 @@ ht-degree: 0%
 
    * **工作角色**： （視條件而定）如果您的Workfront或群組管理員已啟用&#x200B;**手動將工作角色指派到時數專案**&#x200B;設定，請從下拉式選單中選取&#x200B;**工作角色**。 依預設，系統會顯示指定給物件時所指定的角色。 如果您在物件上未被指派角色，則您的「主要角色」將顯示為預設值。 如需此設定的詳細資訊，請參閱文章[設定時程表和小時偏好設定](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)。
 
-   * **小時**：輸入專案、任務或問題的小時數。
+   * 在每週行事曆中，輸入專案、任務或問題的小時數。
 
 1. 按一下&#x200B;**記錄時間**。
 
    記錄時間會顯示在物件的「小時」區段和您的時程表中。
+
+   記錄時間方塊中的&#x200B;**總時數**&#x200B;欄位會顯示所有使用者針對專案、任務或問題記錄的所有時數。
 
 #### 「小時」部分{#hours-section}
 
@@ -429,7 +454,13 @@ ht-degree: 0%
 1. 在左側面板中，按一下&#x200B;**小時**。
 1. 按一下&#x200B;**記錄時間**。
 
-   記錄時數對話方塊隨即顯示。
+   顯示&#x200B;**記錄時間**&#x200B;方塊。
+
+   <!--<div class="preview">
+  
+   ![Log time in the Hours section of a task](assets/log-time-box-in-hours-section-on-task.png)
+
+   </div>-->
 
 1. 指定下列資訊：
 
@@ -438,14 +469,19 @@ ht-degree: 0%
 
    * **小時型別**：如果小時型別與預設顯示的型別不同，請從下拉式功能表中選取小時型別。
 
-     根據系統中設定的小時型別，此處提供的選項可能會有所不同。 如需有關設定時數型別的詳細資訊，請參閱[定義時數型別和可用性](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)。
+     根據系統中設定的小時型別，此處提供的選項可能會有所不同。
+
+     如需有關設定時數型別的詳細資訊，請參閱[定義時數型別和可用性](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)。
 
    * **工作角色**： （視條件而定）如果您的Workfront或群組管理員已啟用&#x200B;**手動將工作角色指派到時數專案**&#x200B;設定，請從下拉式選單中選取&#x200B;**工作角色**。 依預設，系統會顯示指定給物件時所指定的角色。 如果您在物件上未被指派角色，則您的「主要角色」將顯示為預設值。 如需此設定的詳細資訊，請參閱文章[設定時程表和小時偏好設定](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)。
-
-     ![](assets/log-time-box-in-hours-section-on-task.png)
-   * **小時**：輸入專案、任務或問題的小時數。
+   * **小時**：輸入專案、任務或問題的小時數。<!--<span class="preview">In the weekly calendar, enter the number of hours for the project, task, or issue.</span>-->
+   * **附註**：新增附註以說明時數的用途。 這會儲存為&#x200B;**小時附註**&#x200B;或&#x200B;**小時說明**。
 
 1. 按一下&#x200B;**記錄時間**。
+
+   記錄時間會顯示在物件的「小時」區段和您的時程表中。
+
+   記錄時間方塊中的&#x200B;**總時數**&#x200B;欄位會顯示所有使用者針對專案、任務或問題記錄的所有時數。
 
 ### 摘要面板
 
