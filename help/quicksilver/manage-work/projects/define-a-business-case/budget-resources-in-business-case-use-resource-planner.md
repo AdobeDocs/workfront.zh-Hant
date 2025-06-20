@@ -24,7 +24,7 @@ ht-degree: 0%
 >
 >您在專案層次「資源供需規劃員」中輸入的資訊，也會顯示在系統層次「資源供需規劃員」中。 反之亦然。 如需資源規劃工具的相關資訊，請參閱[資源規劃工具概觀](../../../resource-mgmt/resource-planning/get-started-resource-planner.md)。
 
-您也可以使用Adobe Workfront案例規劃工具，為業務案例中的資源編列預算。 如需詳細資訊，請參閱使用案例規劃工具](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)的業務案例中的[預算資源。
+您也可以使用Adobe Workfront案例規劃工具，為業務案例中的資源編列預算。 如需詳細資訊，請參閱使用案例規劃工具[&#128279;](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)的業務案例中的預算資源。
 
 ## 存取需求
 

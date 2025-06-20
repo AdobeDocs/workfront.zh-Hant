@@ -24,9 +24,9 @@ ht-degree: 0%
 
 * 使用資源規劃工具將資源集區套用至專案和預算職位角色。
 
-  如需詳細資訊，請參閱使用資源規劃工具](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md)的業務案例中的[預算資源。
+  如需詳細資訊，請參閱使用資源規劃工具[&#128279;](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md)的業務案例中的預算資源。
 
-* 使用Scenario Planner建立具有所需職務角色的方案，並將它們連結至專案。 如需詳細資訊，請參閱使用案例規劃工具](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)的業務案例中的[預算資源。
+* 使用Scenario Planner建立具有所需職務角色的方案，並將它們連結至專案。 如需詳細資訊，請參閱使用案例規劃工具[&#128279;](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)的業務案例中的預算資源。
 
   >[!NOTE]
   >
