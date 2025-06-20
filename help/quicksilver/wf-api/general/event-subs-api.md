@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 334b08f4689318201d3b8260916655f57c2a9320
+source-git-commit: 1e893dd5933ce5740b2bfea1e028f39a07a2291c
 workflow-type: tm+mt
-source-wordcount: '2479'
-ht-degree: 3%
+source-wordcount: '2632'
+ht-degree: 2%
 
 ---
 
@@ -711,7 +711,9 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 
 此篩選器允許只有在完整的選取值集完全符合篩選器中的fieldValue時，訊息才會通過，無論順序為何。 不能有額外的或遺漏的值。
 
-注意：這用於陣列型別（多選）欄位。 以下範例訂閱僅當`groups`欄位包含完全是&quot;Choice 3&quot;和&quot;Choice 4&quot;時，才允許傳遞訊息，沒有其他或遺失值，且無論順序為何。
+>[!NOTE]
+>
+>這用於陣列型別（多選）欄位。 以下範例訂閱僅當`groups`欄位包含完全是&quot;Choice 3&quot;和&quot;Choice 4&quot;時，才允許傳遞訊息，沒有其他或遺失值，且無論順序為何。 如果在`fieldValue`中指定字串或整數，而非陣列，則只有當`groups`欄位包含正好一個選項，且該選項完全符合「`fieldValue`」中指定的字串或整數時，訂閱才允許訊息通過
 
 
 ```
@@ -729,6 +731,31 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
             ],
             "state": "newState",
             "comparison": "containsOnly"
+        }
+    ]
+}
+```
+
+#### notcontains
+
+只有在指定的欄位(`fieldName`)不包含指定的值(`fieldValue`)時，此篩選器才允許傳遞訊息。
+
+>[!NOTE]
+>
+>用於陣列型別（多重選取）或字串欄位。 如果欄位為字串，我們會檢查字串中未包含指定的值（例如「New」不在字串「Project - Updated」中）。 如果欄位為陣列，而指定的欄位值為字串或整數，我們會檢查陣列是否不包含指定的值（例如，「選擇1」不在[「選擇2」、「選擇3」]中）。 下列範例訂閱僅在`groups`欄位不包含字串「Group 2」時才允許傳遞訊息。
+
+```
+{
+    "objCode": "PROJ",
+    "eventType": "UPDATE",
+    "authToken": "token",
+    "url": "https://domain-for-subscription.com/API/endpoint/UpdatedProjects",
+    "filters": [
+        {
+            "fieldName": "groups",
+            "fieldValue": "Group 2",
+            "state": "newState",
+            "comparison": "notContains"
         }
     ]
 }
@@ -766,7 +793,7 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 >[!NOTE]
 >
 >底下具有指定篩選器的訂閱只會傳回工作名稱在`oldState`上包含`again`的訊息，這是更新工作之前的訊息。
->&#x200B;>此情況下的使用案例是尋找從一個事物變更為另一個事物的objCode訊息。 例如，找出從「Research Some name」變更為「Research TeamName Some name」的所有任務
+>>此情況下的使用案例是尋找從一個事物變更為另一個事物的objCode訊息。 例如，找出從「Research Some name」變更為「Research TeamName Some name」的所有任務
 
 ```
 {
