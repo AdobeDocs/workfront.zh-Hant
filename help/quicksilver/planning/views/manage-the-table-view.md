@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '3676'
+source-wordcount: '3633'
 ht-degree: 2%
 
 ---
@@ -34,8 +34,6 @@ ht-degree: 2%
 ## 存取需求
 
 +++ 展開以檢視存取需求。
-
-您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
 <col> 
@@ -260,8 +258,6 @@ ht-degree: 2%
 
 * 移除篩選器會將其從存取與您相同記錄型別的任何人中移除，並使用與您使用的相同檢視。
 
-* 將濾鏡新增至表格檢視與將濾鏡新增至時間軸檢視相同。
-
 * 您可以依已連線的記錄欄位或查詢欄位進行篩選。
 
 * 您可以依顯示多個值的查閱欄位進行篩選。
@@ -432,8 +428,6 @@ ht-degree: 2%
 
 將群組套用至檢視時，您可以依照類似的資訊來群組記錄。
 
-在表格檢視中新增群組，類似於在時間軸檢視中新增群組。
-
 請考量下列事項：
 
 * 您可以在表格和時間軸檢視中套用群組。 表格檢視的分組與相同記錄型別之時間軸檢視中的群組是獨立的。
@@ -464,6 +458,8 @@ ht-degree: 2%
 
    為分組選取的欄位數會顯示在「分組」圖示旁。
 
+   <!--replace screen shot for Expand all-->
+
    ![在資料表檢視中套用群組](assets/grouping-applied-in-table-view.png)
 
 1. （選擇性）在&#x200B;**群組記錄依據**&#x200B;方塊中，按一下選取要移除分組的欄位右邊的&#x200B;**x**&#x200B;圖示
@@ -475,6 +471,26 @@ ht-degree: 2%
 1. 按一下「**依**&#x200B;分組記錄」方塊外部以關閉它。
 1. （選擇性）在任何群組結束時按一下&#x200B;**+新記錄**&#x200B;以新增記錄，然後重新整理您的頁面以將新記錄新增到適當的群組。<!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
+<!--
+
+1. <span class="preview">To expand or collapse groupings, do one of the following:</span>
+
+    <div class="preview">
+
+    1. Click the **Grouping** icon, then **Expand all**, or **Collapse all**. This expands all the groupings and subgroupings in the table view. 
+
+        ![Expand and collapse all buttons on grouping box table view](assets/expand-collapse-all-buttons-on-grouping-box-table-view.png)
+
+    1. Right-click any of the grouping headers in the table view, then click one of the following options:
+        * **Expand group**
+        * **Collapse group**
+        * **Expand all**
+        * **Collapse all**
+        * **Expand subgroups**
+        * **Collapse subgroups**
+
+        Depending on the number of groupings you apply to the view, some options might not be available.</div>
+-->
 
 <!-- this is not available yet: 
 

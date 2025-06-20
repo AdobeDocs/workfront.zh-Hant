@@ -6,16 +6,16 @@ description: 風險是阻礙專案準時完成或在預算內完成的可能事�
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1108'
 ht-degree: 1%
 
 ---
 
 # 建立及編輯專案的風險
 
-<!--Audited: 01/2025-->
+<!--Audited: 06/2025-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
@@ -44,27 +44,30 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td> 
-   <p>任何</p></td> 
+   <td role="rowheader"><p>Adobe Workfront計畫*</p></td> 
+   <td> <p>目前計畫：</p>
+   <ul><li>任何計畫，以在專案的風險區域中新增風險</p></li>
+   <li><p>Prime （含）以上版本，在專案的業務案例中新增風險</p></li></ul>
+   <p>舊版計畫：任何計畫</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：標準 </p>
-   <p>目前：計畫 </p> </td> 
+   <td role="rowheader"><p>Adobe Workfront授權*</p></td> 
+   <td> <p>目前：標準 </p>
+   <p>舊版：計畫 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
+   <td role="rowheader"><p>存取層級設定</p></td> 
    <td> <p>編輯專案與財務資料的存取權</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件許可權</td> 
+   <td role="rowheader"><p>物件許可權</p></td> 
    <td> <p> 管理許可權，包括管理您要建立或編輯風險的專案財務 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -158,7 +161,7 @@ ht-degree: 1%
 
    或
 
-   選取一或多個風險，然後按一下[編輯] **&#x200B;**&#x200B;以同時編輯多個風險。
+   選取一或多個風險，然後按一下[編輯] ****&#x200B;以同時編輯多個風險。
 
    >[!NOTE]
    >

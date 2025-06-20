@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: dae692617f447c446a421207143225b33b51debe
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '3512'
-ht-degree: 0%
+source-wordcount: '3788'
+ht-degree: 2%
 
 ---
 
@@ -28,8 +28,6 @@ ht-degree: 0%
 ## 存取需求
 
 +++ 展開以檢視存取需求。
-
-您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
 <col> 
@@ -146,7 +144,7 @@ ht-degree: 0%
 
    ![時間軸檢視上遺失自訂季度原始訊息](assets/missing-custom-quarters-original-message-on-timeline-view.png)
 
-   這些警告訊息會為每位使用者顯示一次。
+   關於自訂季度的警告訊息為每位使用者顯示一次。
 
    >[!NOTE]
    >
@@ -162,12 +160,12 @@ ht-degree: 0%
    >
    ><span class="preview">「前往設定」按鈕僅針對Workfront管理員顯示。</span>
 
-1. （選擇性和條件性）當記錄名稱被截斷時，將滑鼠懸停在記錄列上以顯示記錄的完整名稱和其他資訊。
+1. （選擇性和條件性）當記錄名稱被截斷時，將滑鼠懸停在記錄列上以顯示記錄的完整名稱和其他資訊。 如需有關在時間軸中設定記錄列截斷的資訊，請參閱本文中的[編輯時間軸檢視設定](#edit-the-timeline-view-settings)小節。
 
 1. 執行下列任一項作業來瀏覽時間軸：
 
-   * 按一下左右圖示，或使用水準捲動在時間軸中前後移動。 重新整理頁面會保留選取的時間範圍。
-   * 按一下&#x200B;**今天**，將時間表置中到今天的日期。
+   * 按一下左上角的左右圖示，或使用水準捲動在時間軸中前後移動。 重新整理頁面會保留選取的時間範圍。
+   * 按一下右上角的&#x200B;**今日**，將時間軸置中到今天的日期。
    * 從時間範圍下拉式選單中選取下列其中一個選項，以更新時間增量並更新檢視：
 
       * **年**：顯示有年指標的季和月。
@@ -218,12 +216,105 @@ ht-degree: 0%
 
 * 移除篩選器會將篩選器從存取與您相同記錄型別以及顯示與您相同檢視的任何人移除。
 
-* 在時間軸檢視中新增濾鏡，與在表格檢視中新增濾鏡相同。
-
-  如需詳細資訊，請參閱文章[管理資料表檢視](/help/quicksilver/planning/views/manage-the-table-view.md)中的「新增篩選器」一節。
-
 * 您可以依已連線的記錄欄位或查詢欄位進行篩選。
 * 您可以依顯示多個值的查閱欄位進行篩選。
+
+若要將篩選器新增至時間表檢視：
+
+1. 如文章[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)中所述，建立記錄型別頁面的時間軸檢視。
+1. 選取時間表檢視，然後按一下表格右上角的&#x200B;**篩選器**。
+1. 按一下&#x200B;**新增條件**&#x200B;並新增下列資訊：
+
+   * **選取您要依<!-- the tip below might change-->篩選的欄位**
+
+   * **選取選項** （或篩選修飾元）以定義欄位必須符合何種條件
+
+     下表顯示每種欄位型別的可用修飾元。
+
+     <table>
+        <thead>
+        <tr>
+            <th><b>欄位類型</b></th>
+            <th><b>修飾元</b></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>單行，段落，公式 </td>
+            <td><p>包含</p>
+            <p>不包含</p>
+            <p>是</p>
+            <p>不是</p>
+            <p>是空的</p>
+            <p>不是空的</p></td>
+        </tr>
+        <tr><td>單選</td>
+            <td><p>是</p>
+            <p>不是</p>
+            <p>屬於任一</p>
+            <p>不屬於</p>
+            <p>是空的</p>
+            <p>不是空的</p></td>
+        </tr>
+        <tr>
+            <td>多選，人員</td>
+            <td><p>具有任一</p>
+            <p>具有所有</p>
+            <p>完全符合</p>
+            <p>不具有</p>
+            <p>是空的</p>
+            <p>不是空的</p></td>
+        </tr>
+        <tr>
+            <td>數字、百分比、貨幣</td>
+            <td><p>=</p>
+            <p>≠</p>
+            <p> &lt; </p>
+            <p>&gt;</p>
+            <p>≤</p>
+            <p>≥</p>
+            <p>是空的</p>
+            <p>不是空的</p></td>
+        </tr>
+        <tr>
+            <td>日期</td>
+            <td><p>是</p>
+            <p>不是</p>
+            <p>晚於</p>
+            <p>早於</p>
+            <p>介於</p><p>不介於</p>
+            <p>是空的</p><p>不是空的</p></td>
+        </tr>
+
+     <tr>
+            <td>核取方塊</td>
+            <td><p>是</p>
+        </tr>
+        </tbody>
+        </table>
+
+   * 選取所選欄位的值。
+
+   ![篩選器UI資料表檢視](assets/filter-ui-table-view.png)
+
+   您可以新增的篩選條件數量沒有限制。
+
+1. （選擇性）按一下&#x200B;**新增條件**&#x200B;以新增另一個篩選選項，並重複上述步驟。 套用的篩選器數會顯示在&#x200B;**篩選器**&#x200B;圖示的左側。
+1. 按一下左側的下列運運算元，指示如何連結及套用篩選條件：
+
+   * **AND**：必須符合所有指定的條件。
+   * **OR**：必須符合任何指定的條件。
+這是預設選項。
+
+   1. （選擇性）新增其他篩選器群組，並由&#x200B;**AND**&#x200B;或&#x200B;**OR**&#x200B;運運算元加入。
+
+      ![檢視中的多重層級篩選器](assets/multi-tiered-filters-in-views.png)
+
+   系統會根據您的篩選條件自動篩選記錄清單。 <!--at this time, you can't name and save the filter - but will this change?!-->
+   <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
+
+1. （選擇性）按一下&#x200B;**x**&#x200B;圖示以移除篩選條件。
+1. （選擇性）按一下&#x200B;**篩選器**&#x200B;或頁面上的任何其他位置，以關閉篩選器方塊。<!--right now you cannot "clear all" for filters, but this might come later-->
 
 
 ### 新增分組
@@ -231,8 +322,6 @@ ht-degree: 0%
 <!-- groupings are almost identical between this view and table  but they display a little differently, so I kept the steps for both; update in both places if they make changes to groupings-->
 
 將群組套用至檢視時，您可以依照類似的資訊來群組記錄。
-
-在時間軸檢視中新增群組，類似於在表格檢視中新增群組。
 
 在時間軸檢視中使用群組時，請考量下列事項：
 
@@ -320,7 +409,7 @@ this is not possible right now; if this is the same functionality as the table v
    預設會選取記錄的主要欄位（或標題），如記錄的表格檢視中所定義。
    <!--adjust this when the primary field is released??-->
 
-1. （選擇性和條件性）如果您將縮圖新增至記錄，請選取「縮圖」選項，以顯示與其記錄列中的記錄相關聯的影像。
+1. （選擇性和條件性）如果您在記錄中新增縮圖，請選取&#x200B;**縮圖**&#x200B;選項，以顯示與其記錄列中的記錄相關聯的影像。
 
    >[!NOTE]
    >
@@ -340,13 +429,13 @@ this is not possible right now; if this is the same functionality as the table v
 
    ![預覽的記錄詳細資料面板時間軸設定](assets/record-details-panel-timeline-settings-with-preview.png)
 
-1. <span class="preview"> （選擇性和條件性）如果您以標準模式顯示時間軸，請啟用&#x200B;**截斷列詳細資料**&#x200B;設定。 啟用時，記錄列上的資訊將會被截斷，而且只有在您將滑鼠懸停在記錄列上時才會完全顯示。 此設定預設為停用，資訊會完全顯示在長條上。</span>
+1. <span class="preview"> （選擇性和條件性）如果您以標準模式顯示時間軸，請選取&#x200B;**截斷列詳細資料**&#x200B;設定。 選取時，記錄列上的資訊會被截斷，而且只有在您將滑鼠懸停在記錄列上時，才會完全顯示資訊。 預設會取消選取此設定，且記錄資訊會完全顯示在長條上。</span>
 
    ![時間軸設定方塊上啟用截斷設定](assets/truncate-setting-enabled-on-timeline-settings-highlighted.png)
 
    >[!TIP]
    >
-   ><span class="preview">以精簡模式顯示時間軸檢視時，無法使用截斷列詳細資料設定，且無法在行事曆檢視中使用。</span>
+   ><span class="preview">以精簡模式顯示時間軸檢視時，無法使用截斷列詳細資料設定。</span>
    >
 
 1. 按一下左側面板中的&#x200B;**色彩**，以自訂時間軸中記錄和群組的色彩。
@@ -392,13 +481,11 @@ this is not possible right now; if this is the same functionality as the table v
 
    如果選取的記錄型別沒有包含顏色編碼選項的欄位，則此選項會變暗。
 
-1. <span class="preview">（選擇性）如果您使用「劃分」選項，請對時間軸中顯示的每個已連線記錄，重複從步驟4開始的步驟。</span>
+1. <span class="preview">（選擇性）如果您使用&#x200B;**劃分**&#x200B;選項，請對時間軸中顯示的每個連線記錄，重複從步驟4開始的步驟。</span>
 
 1. 按一下「**儲存**」。
 
    記錄會以您所選取的規格顯示在時間軸檢視中。
-
-
 
 ### 在時間軸檢視中劃分連線記錄
 

@@ -5,16 +5,16 @@ description: 您可以使用計分卡來測量專案與先前建立的專案組�
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '1227'
+source-wordcount: '1220'
 ht-degree: 0%
 
 ---
 
 # 將計分卡套用至專案並產生一致性分數
 
-<!-- Audited: 02/2024 -->
+<!-- Audited: 06/2025 -->
 
 您可以使用計分卡來測量專案與先前建立的專案組合准則的符合程度。 計分卡通常可反映組織的使命、價值和策略目標。
 
@@ -29,14 +29,14 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront計畫*</td> 
    <td>
    <p>目前：Prime或更新版本</p>
    <p>或</p>
    <p>舊版：商務或更新版本</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
+   <td role="rowheader">Adobe Workfront授權*</td> 
    <td>
    <p>目前：標準</p>
    <p>或</p>
@@ -53,7 +53,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

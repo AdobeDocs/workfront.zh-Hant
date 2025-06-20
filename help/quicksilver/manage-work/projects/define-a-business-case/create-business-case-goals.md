@@ -5,16 +5,16 @@ description: 建立業務案例時，您可以建立一組目標來定義專案�
 author: Alina
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '445'
 ht-degree: 1%
 
 ---
 
 # 建立業務案例目標
 
-<!-- Audited: 4/2025 -->
+<!-- Audited: 6/2025 -->
 
 建立業務案例時，您可以建立一組目標來定義專案的目標。 這些目標可用來將完成專案的目的傳達給Portfolio管理員或專案贊助者。
 
@@ -50,12 +50,12 @@ ht-degree: 1%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader"><p>Adobe Workfront計畫*</p></td> 
    <td> <p>目前：Prime或更新版本</p>
    <p>舊版：Pro或更高版本</p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td>
+   <td role="rowheader"><p>Adobe Workfront授權*</p></td>
    <td> 
    <p>目前：標準</p> 
    <p>舊版：計畫 </p> 
@@ -63,16 +63,16 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>編輯專案的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td> <p>編輯專案的存取權</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件許可權</td> 
-   <td> <p>管理專案的許可權或更高版本</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td role="rowheader"><p>物件許可權</p></td> 
+   <td> <p>管理專案的許可權或更高版本</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+*如需此表格中資訊的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -103,6 +103,6 @@ ht-degree: 1%
      >
      >您無法自訂目標的重要性層級。
 
-1. （選擇性）若要新增其他目標，請按一下[新增其他目標] **&#x200B;**，並重複步驟5-6。
+1. （選擇性）若要新增其他目標，請按一下[新增其他目標] ****，並重複步驟5-6。
 
 1. 按一下「**儲存**」。

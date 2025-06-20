@@ -5,14 +5,16 @@ description: 作為資源計畫的一部分，當您建立業務案例時，可�
 author: Alina
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '972'
 ht-degree: 0%
 
 ---
 
 # 使用案例規劃工具之業務案例中的預算資源
+
+<!--Audited: 06/2025-->
 
 作為資源計畫的一部分，當您建立業務案例時，可以使用Adobe Workfront案例規劃工具來預算完成專案中工作所需的職務角色。
 
@@ -33,7 +35,7 @@ ht-degree: 0%
 
 ## 存取需求
 
-您必須具備下列條件：
++++ 展開以檢視本文中功能的存取需求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,19 +44,22 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
-   <td> <p>商務或以上版本</p> </td> 
+   <td role="rowheader"><p>Adobe Workfront計畫*</p></td> 
+   <td><p>目前： Ultimate</p> 
+   <p>舊版：商務或更新版本</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>評論或以上</p> </td> 
+   <td role="rowheader"><p>Adobe Workfront授權*</p></td> 
+   <td><p>目前：淺色或更高 
+   <p>舊版：檢閱或更高版本</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">產品</td> 
-   <td> <p>您必須為Adobe Workfront Scenario Planner購買額外的授權，才能存取本文所述的功能。</p> <p>如需有關取得Workfront Scenario Planner的資訊，請參閱<a href="../../../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">使用Scenario Planner所需的存取權</a>。 </p> </td> 
+   <td role="rowheader"><p>產品</p></td> 
+   <td><p>情境規劃工具包含在目前的Ultimate Workfront計畫中。</p> 
+   <p>針對舊版Workfront計畫，除了Workfront授權外，您必須購買Adobe Workfront情境規劃工具的授權，才能存取本文所述功能。</p> <p>如需有關取得Workfront Scenario Planner的資訊，請參閱<a href="../../../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">使用Scenario Planner所需的存取權</a>。 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
+   <td role="rowheader"><p>存取層級設定</p></td> 
    <td> <p>編輯下列專案的存取權： </p> 
     <ul> 
      <li> <p>專案</p> </li> 
@@ -63,13 +68,15 @@ ht-degree: 0%
     </ul> <p>如需有關預算資源所需存取許可權的資訊，另請參閱<a href="../../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md" class="MCXref xref">在Adobe Workfront中預算資源所需的存取許可權</a>。</p> <p>注意：如果您還是沒有存取權，請詢問您的Adobe Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件許可權</td> 
+   <td role="rowheader"><p>物件許可權</p></td> 
    <td> <p>管理專案的許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先決條件
 
