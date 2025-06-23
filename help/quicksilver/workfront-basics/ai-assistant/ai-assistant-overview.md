@@ -5,9 +5,9 @@ description: AI助理總覽
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: f496d5170ff087167130a6463e18ea44af50e21f
+source-git-commit: a4e403abadc0268b919ce8105989ef6c912f33a4
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '825'
 ht-degree: 1%
 
 ---
@@ -138,7 +138,7 @@ AI助理目前提供下列功能：
 1. 當Adobe Gen AI合約訊息出現時，請按一下&#x200B;**檢閱合約**。
 1. 輸入貴組織將簽署Adobe Gen AI合約之個人的名稱和電子郵件地址。
 
-   合約將傳送給此人簽署。 簽署並傳回之後，就會為貴組織啟用AI小幫手。
+   合約將傳送給此人簽署。 簽署並傳回協定後，Adobe會稽核協定，然後為您的組織啟用AI助理。
 
 ## 在AI助理中建立提示的提示
 
