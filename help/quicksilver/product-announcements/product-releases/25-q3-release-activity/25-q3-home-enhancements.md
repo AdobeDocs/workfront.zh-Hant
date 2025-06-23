@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91789b7b-3aec-415c-a03d-e06d0c43a263
-source-git-commit: d7b9f6cac531bed5fd2a3e5c766e9d714f2625e4
+source-git-commit: de30f2600c5d13bb4bbc56cdc1b166ac7c5adb05
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
@@ -42,4 +42,7 @@ ht-degree: 0%
 
 我們已更新首頁中的我的核准Widget，以依預設截止日期（降序）排序。 如此一來，最緊急的核准便可出現在清單頂端。
 
+目前，只有校訂核准可以按我的核准Widget中的截止日期排序。
+
 以往，Widget會依輸入日期排序，因此決定優先順序相當困難。
+
