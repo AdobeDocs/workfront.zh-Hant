@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 44b3298905a04c64a457045c4112d9628d933aae
 workflow-type: tm+mt
-source-wordcount: '3788'
+source-wordcount: '3804'
 ht-degree: 2%
 
 ---
@@ -106,7 +106,7 @@ ht-degree: 2%
 
    * 記錄日期
    * 記錄系統產生的欄位：建立日期、上次修改日期
-   * 來自已連線記錄或物件型別的查詢日期。
+   * 來自已連線的記錄或物件型別的查詢日期（只有在您連線記錄或物件型別時為其新增彙總器時）
 * 根據與記錄關聯的日期，在下列情況下，某些記錄可能不會顯示在時間軸檢視中：
 
    * 當開始和結束日期沒有值時
