@@ -3,13 +3,13 @@ product-area: Canvas Dashboards
 navigation-topic: canvas-dashboards-beta
 title: Canvas控制面板Beta版資訊
 description: Canvas控制面板Beta版的一般資訊
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 0c37044aaffbe6ebb22af3877c93d5c65d40de98
+source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -21,29 +21,23 @@ ht-degree: 0%
 如需有關使用畫布控制面板的基本資訊，請參閱[開始使用畫布控制面板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)。
 如需所有畫布控制面板檔案的清單，請參閱[畫布控制面板概觀](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)。
 
-**Beta狀態**
-
-畫布儀表板目前處於封閉的測試階段，因此可能會經常變更。 如需如何註冊Beta版的說明，請參閱下文。
-
-## 參與測試版
-
->[!IMPORTANT]
+>[!NOTE]
 >
->畫布儀表板目前是封閉測試版，因此僅適用於特定組織。 我們持續直接邀請有興趣的組織從輪候表中加入Beta版。 您可以提交[此Adobe回饋方案表單](https://www.feedbackprogram.adobe.com/c/r/Workfront-Canvas-Dashboards-Visualizations-Beta)，將您的組織新增至輪候表。 此外，已購買Workfront Planning作為其套件一部分的組織已獲得測試版存取權，以測試跨產品報告功能。
->
->最後，我們會改用公開測試版，屆時所有組織都可使用註冊程式。
+>畫布儀表板目前處於封閉的測試階段，因此可能會經常變更。
 
-### 註冊
-
-若要註冊Beta版：
+## 註冊測試版
 
 1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**儀表板**。
 
-1. 按一下頁面右上角的&#x200B;**加入畫布控制面板beta版**&#x200B;測試版按鈕。 請注意，只有在貴組織受邀參加封閉式測試版時，才能使用此按鈕。
+1. 在頁面的右上角，按一下&#x200B;**加入畫布控制面板beta版**&#x200B;測試版按鈕。
 
-1. 閱讀條款，然後按一下&#x200B;**接受**。 您現在已註冊Beta版；但請注意，您的Workfront資料需要幾分鐘才能在Canvas儀表板中完全存取。
+   >[!NOTE]
+   >
+   > **加入畫布控制面板Beta版**&#x200B;按鈕只有在貴組織受邀加入封閉式Beta版時才可用。
 
-### 提供意見回饋
+1. 檢閱&#x200B;**Beta合約**&#x200B;方塊中的條款，然後按一下&#x200B;**同意**。 您現已註冊Beta版。 請注意，您可能需要幾分鐘時間，您的Workfront資料才能在畫布儀表板中完全存取。
+
+## 提供意見回饋
 
 我們在Beta版過程中開發此工具時，會感謝您的意見反應。 請依照下列指示，與我們分享您的體驗。
 
@@ -51,7 +45,9 @@ ht-degree: 0%
 
 1. 在左側面板中，按一下&#x200B;**畫布控制面板**。
 
-1. 按一下頁面右下角的&#x200B;**傳送意見**&#x200B;按鈕，然後在出現的表單中輸入您的意見，然後按一下&#x200B;**提交**。
+1. 按一下頁面右下角的&#x200B;**傳送意見**&#x200B;按鈕，然後在顯示的表單中輸入您的意見。
+
+1. 按一下&#x200B;**提交**。
 
 ## 計畫功能
 
