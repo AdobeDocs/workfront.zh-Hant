@@ -6,9 +6,9 @@ description: 排程自動報告傳送
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-source-git-commit: f78a86dcdf7b63e98bec5216fb5ab7622775a053
+source-git-commit: 62f56486ccc590921b7dc8227d46cdede84df32d
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1309'
 ht-degree: 2%
 
 ---
@@ -98,7 +98,7 @@ ht-degree: 2%
       <td role="rowheader"> <p>傳送至</p> </td> 
       <td> <p>開始輸入您要傳送報告的目標使用者、群組、團隊或角色的名稱，然後當名稱出現在下拉式清單中時按一下該名稱。</p> <p>或</p> <p>輸入您希望存取報表的Workfront系統外部人員電子郵件地址。</p> <p>重複此程式，將報告傳送給多個使用者、群組、團隊或角色。</p> <p>注意：  <p>新增報告傳送收件者時，請考量下列事項：</p> 
         <ul> 
-         <li>如果貴組織將Workfront通知限制在特定電子郵件網域，您只能將報告傳送至電子郵件允許清單中列出的電子郵件地址。<p>如需Workfront管理員如何更新電子郵件允許清單的詳細資訊，請參閱<a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md#configur" class="MCXref xref">設定您的電子郵件允許清單</a>區段。</p></li> 
+         <li><p>如果貴組織將Workfront通知限制在特定電子郵件網域，您只能將報告傳送至電子郵件允許清單中列出的電子郵件地址。</p> <p>例如，當使用者設定為報告收件者，且具有先前允許的電子郵件地址時，以及允許清單更新為不再傳送電子郵件至該網域時，使用者將不再收到傳送的報告。</p><p>如需Workfront管理員如何更新電子郵件允許清單的詳細資訊，請參閱<a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md#configur" class="MCXref xref">設定您的電子郵件允許清單</a>區段。</p></li> 
          <li> <p>將大量使用者新增為收件者可能會導致傳遞失敗。 如果您遇到傳送失敗，您可以以較小的使用者群組排程多個報表傳送。</p> </li> 
         </ul> </td> 
      </tr> 
