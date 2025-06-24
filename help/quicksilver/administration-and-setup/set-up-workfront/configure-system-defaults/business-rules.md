@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 34f7f35875f063a77d33ee63c33e69721dc70c03
+source-git-commit: 1cf16fd93de383aae66ba810ad85dd00806b8237
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1341'
 ht-degree: 2%
 
 ---
@@ -100,6 +100,8 @@ ht-degree: 2%
   IF({status} = "CPL" && {name} != $$BEFORE_STATE.{name}, "You cannot edit the project name.")
   ```
 
+系統允許每個觸發器的每個物件擁有一個商業規則。 例如，一個編輯觸發規則可用於問題。 不過，您可以在含有巢狀IF陳述式的公式中加入多個規則。
+
 含有巢狀IF陳述式的案例是：
 
 使用者無法編輯已完成的專案，也無法編輯具有三月計畫完成日期的專案。 此公式可表示為：
@@ -120,7 +122,7 @@ IF(
 
 1. 按一下左側面板中的&#x200B;**商業規則**。
 1. 按一下&#x200B;**新商業規則**。
-1. 選取要指派商業規則的物件型別，然後按一下[繼續]。**&#x200B;**
+1. 選取要指派商業規則的物件型別，然後按一下[繼續]。****
 
    ![選取物件](assets/object-for-business-rule3.png)
 
@@ -143,7 +145,7 @@ IF(
    * 職務角色
    * 資源集區
    * 休假
-   * 小時
+   * 時數
    * 範本
 
 1. 在規則產生器對話方塊中輸入商業規則的&#x200B;**名稱**。
@@ -185,7 +187,7 @@ IF(
 
    可用欄位清單僅限於與商業規則物件型別相關的欄位。
 
-1. 當您完成建立商業規則時，請按一下[儲存]。**&#x200B;**
+1. 當您完成建立商業規則時，請按一下[儲存]。****
 
 >[!NOTE]
 >
