@@ -6,9 +6,9 @@ description: 重新計算時間表可讓經理檢視與專案相關的不同因�
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
-source-git-commit: fe9d3cfbb50bfda672360b918d971cc77b0b8b0a
+source-git-commit: 3dfb30646e8a967264f7e562441a52a059d73d32
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '994'
 ht-degree: 0%
 
 ---
@@ -38,10 +38,10 @@ ht-degree: 0%
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>新授權： Standard </p> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>新增：標準 </p> 
    或
-   <p>目前授權：計畫 </p>
+   <p>目前：計畫 </p>
    </td> 
   </tr> 
   <tr> 
@@ -55,7 +55,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果專案的時間表超過15年，則會停用該專案的自動重新計算。 您只能為超過15年的專案選取「手動更新型別」。 如果您將專案日期變更為少於15年，則必須在自動計算時間表之前手動重新計算一次。
+>如果專案的時間表超過15年，則該專案的自動重新計算功能會停用，而且您只能選取「手動」更新型別。 如果您將專案日期變更為少於15年，則必須在自動計算時間表之前手動重新計算一次。
 
 * [自動重新計算專案時間表](#automatic-recalculation-of-project-timelines)
 * [觸發自動重新計算專案時程表的動作](#actions-that-trigger-an-automatic-recalculation-of-project-timelines)
@@ -77,15 +77,14 @@ ht-degree: 0%
 
 ### 自動重新計算專案時間表 {#automatic-recalculation-of-project-timelines}
 
-Adobe Workfront只會在符合下列所有條件的專案中，每天重新計算時間表：
+Workfront只會在符合下列所有條件的專案中，每天重新計算時間表：
 
-* 具有目前狀態
-* 專案的更新型別設定為「自動」或「自動」及「變更時」
+* 擁有目前狀態。
+* 專案更新型別設定為「自動」或「自動」及「變更時」。
 
-  如需有關專案更新型別的資訊，請參閱[專案更新型別總覽](../../../manage-work/projects/planning-a-project/project-update-type-overview.md)。
+  如需詳細資訊，請參閱[專案更新型別總覽](../../../manage-work/projects/planning-a-project/project-update-type-overview.md)。
 
-* 具有過去三個月內的上次更新日期\
-  Workfront管理員可以變更此預設功能，如[設定專案的時間表重新計算](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)中所述。
+* 上次更新日期為過去三個月內。 Workfront管理員可以變更此預設功能。 如需詳細資訊，請參閱[設定專案的時間表重新計算](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)。
 
 * 專案時間表的最後計算日期不在目前行事曆日期內。 這表示專案時間表的最後計算日期在當天的00:00之前。
 
@@ -149,9 +148,7 @@ If the timeline of a project is longer than 15 years, the automatic recalculatio
 
 您可以從專案頁面或專案清單或報告，在Workfront中重新計算專案的時間表。
 
-1. 前往您要重新計算時間表之專案，然後按一下專案名稱左邊的&#x200B;**更多**&#x200B;圖示![更多功能表](assets/qs-more-menu.png)
-
-   ![更多下拉式清單](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+1. 移至您要重新計算時間表的時間表，然後按一下專案名稱左邊的&#x200B;**更多**&#x200B;圖示![更多功能表](assets/qs-more-menu.png)。
 
    或
 
@@ -163,9 +160,7 @@ If the timeline of a project is longer than 15 years, the automatic recalculatio
    >
    >根據您專案的複雜性，我們建議不要在大量重新計算專案的時間表時選取大量專案，以確保最佳效能。 某些因素會導致專案過於複雜，例如依賴關係或指派過多，或是自訂欄位過多。
 
-1. 按一下&#x200B;**重新計算時間表**。
-
-   重新計算時間表後，您會看到一則訊息，指出重新計算成功。
+1. 按一下&#x200B;**重新計算時間表**。 時間軸會重新計算，畫面上會顯示成功訊息。
 
    >[!TIP]
    >
@@ -177,10 +172,10 @@ If the timeline of a project is longer than 15 years, the automatic recalculatio
 
 >[!TIP]
 >
->根據您專案的複雜性，我們建議不要在大量編輯專案時選取大量專案，以確保最佳效能。 有些因素會導致專案過於複雜，包括多重相依性或指派，或大量自訂欄位。
+>根據您專案的複雜性，我們建議不要在大量編輯專案時選取大量專案，以確保最佳效能。 某些因素會導致專案過於複雜，例如依賴關係或指派過多，或是自訂欄位過多。
 
 1. 前往專案清單。
-1. 選取清單中的多個專案，然後按一下[編輯]。**&#x200B;**
+1. 選取清單中的多個專案，然後按一下[編輯]。****
 1. 按一下&#x200B;**設定**，然後選取&#x200B;**重新計算時間表**。
 
 1. 按一下「**儲存變更**」。
@@ -189,7 +184,7 @@ If the timeline of a project is longer than 15 years, the automatic recalculatio
 
 Workfront管理員可以執行重新計算時間表診斷，以立即重新計算Workfront系統中的所有時間表。 這可讓所有專案經理立即檢視外部變更對計畫和預計日期的影響。
 
-如需重新計算整個Workfront網站時間表的相關資訊，請參閱[設定專案時間表重新計算](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)中的「重新計算整個Workfront執行個體的時間表」一節。
+如需重新計算整個Workfront網站的時間表的詳細資訊，請參閱[設定專案的時間表重新計算](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)中的重新計算整個Workfront執行個體時間表一節。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
