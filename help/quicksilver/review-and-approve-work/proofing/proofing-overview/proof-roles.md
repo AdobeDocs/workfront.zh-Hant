@@ -7,9 +7,9 @@ description: 校訂角色可讓您授予個別校訂的許可權。 校訂角色
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 258213af-0081-412e-bf6b-cdeb75d52966
-source-git-commit: 1aa5f36208578b0a7bbc1820cfb220b112bec05b
+source-git-commit: 93452926a27026f2b0e8a7a807381d562d7cbb01
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '382'
 ht-degree: 1%
 
 ---
@@ -21,10 +21,6 @@ ht-degree: 1%
 ## 校樣角色
 
 在邀請使用者檢閱校訂時，校訂角色會針對個別校訂授與使用者。 如果您有Workfront Pro+計畫，您可以將校訂角色授與擁有工作或計畫授權的使用者。 如果您有Workfront Premium舊版計畫，您可以授予具有指定校訂授權的使用者校訂角色。 如需詳細資訊，請參閱[存取Workfront中的校訂功能](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md)。
-
->[!NOTE]
->
->新Workfront計畫上的使用者可以將作者或版主角色授予系統中的任何使用者。 舊版計畫中的使用者可以將作者或版主角色授予系統中擁有校訂授權的任何使用者。
 
 校樣角色定義檢閱者可對該特定校樣執行的動作。
 
@@ -68,7 +64,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <p><strong>唯讀</strong> </p> </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
@@ -77,90 +73,94 @@ ht-degree: 1%
    <td> </td> 
    <td> </td> 
    <td> <p> </p> </td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>檢閱者</strong> </p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td> <p><strong>審閱者</strong> </p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
    <td> </td> 
    <td></td> 
    <td> <p> </p> </td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>核准者</strong> </p> </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> </td> 
    <td></td> 
    <td> <p> </p> </td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>檢閱者和核准者</strong> </p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> </td> 
    <td></td> 
    <td> <p> </p> </td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>作者</strong> </p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td> <p><strong>作者*</strong> </p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td> <p>✓</p> </td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p><strong>仲裁者</strong> </p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ <strong></strong> </p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ (A)</p> <p> </p> </td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td> <p><strong>版主*</strong> </p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p><strong>✓</strong> </p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> <p> </p> </td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td> <p>✓</p> </td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
  </tbody> 
 </table>
+
+<p>*新Workfront計畫上的使用者可以將作者或版主角色授予系統中的任何使用者，但只有具有Standard授權的使用者才能使用與這些角色相關聯的所有功能。
+
+舊版計畫中的使用者可以將作者或版主角色授予系統中擁有校訂授權的任何使用者。</p>
