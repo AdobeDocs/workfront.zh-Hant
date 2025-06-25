@@ -17,7 +17,7 @@ ht-degree: 0%
 
 [!DNL Workfront]的[!DNL Adobe Unified Experience]可讓您透過單一登入在一個位置管理所有[!DNL Adobe]應用程式。 [!DNL Adobe]導覽區域與[!DNL Workfront]緊密整合。 有些功能不同，當您將[!DNL Workfront]執行個體移轉至統一體驗時，可能會有一些問題。
 
-如需有關如何登入[!DNL Adobe Unified Experience]的資訊，請參閱 [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)的[[!DNL Adobe Unified Experience] 。
+如需有關如何登入[!DNL Adobe Unified Experience]的資訊，請參閱 [!DNL Workfront][&#128279;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)的[!DNL Adobe Unified Experience] 。
 
 ## [!DNL Adobe Unified Experience]與[!DNL Workfront only]體驗的比較
 
