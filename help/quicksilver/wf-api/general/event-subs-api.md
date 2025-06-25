@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 1e893dd5933ce5740b2bfea1e028f39a07a2291c
+source-git-commit: d41bb7beb4879bcef224b0234b1c024eb16c9bd6
 workflow-type: tm+mt
-source-wordcount: '2632'
-ht-degree: 2%
+source-wordcount: '2647'
+ht-degree: 3%
 
 ---
 
@@ -51,6 +51,9 @@ ht-degree: 2%
 
 事件訂閱支援下列Workfront物件。
 
+* 核准
+* 核准階段
+* 核准階段參與者
 * 指派
 * 公司
 * 儀表板
@@ -105,6 +108,18 @@ ht-degree: 2%
        </tr> 
       </thead> 
       <tbody> 
+       <tr> 
+        <td scope="col">核准</td> 
+        <td scope="col"><p>核准</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">核准階段</td> 
+        <td scope="col"><p>approval_stage</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">核准階段參與者</td> 
+        <td scope="col"><p>approval_stage_participant</p></td> 
+       </tr> 
        <tr> 
         <td scope="col">指派</td> 
         <td scope="col"><p>指派</p></td> 
@@ -793,7 +808,7 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 >[!NOTE]
 >
 >底下具有指定篩選器的訂閱只會傳回工作名稱在`oldState`上包含`again`的訊息，這是更新工作之前的訊息。
->&#x200B;>此情況下的使用案例是尋找從一個事物變更為另一個事物的objCode訊息。 例如，找出從「Research Some name」變更為「Research TeamName Some name」的所有任務
+>>此情況下的使用案例是尋找從一個事物變更為另一個事物的objCode訊息。 例如，找出從「Research Some name」變更為「Research TeamName Some name」的所有任務
 
 ```
 {

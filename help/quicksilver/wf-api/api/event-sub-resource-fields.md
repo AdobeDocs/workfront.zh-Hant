@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: e53f845a00245049ac78616848d243453b2d57eb
+source-git-commit: d41bb7beb4879bcef224b0234b1c024eb16c9bd6
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 9%
+source-wordcount: '848'
+ht-degree: 10%
 
 ---
 
@@ -21,6 +21,10 @@ ht-degree: 9%
 請注意，資料可使用巢狀篩選進行篩選。 如需詳細資訊，請參閱文章事件訂閱API中的[使用巢狀篩選器](/help/quicksilver/wf-api/general/event-subs-api.md#using-nested-filters)。
 
 下表列出事件訂閱資源可用的欄位：
+
+>[!NOTE]
+>
+>部分物件僅適用於「事件訂閱」版本2。 這些物件會在表格中註明。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,6 +38,200 @@ ht-degree: 9%
   </tr> 
  </thead> 
  <tbody> 
+  <tr> 
+   <td>核准<p>（事件子集v2）</p></td> 
+   <td>核准</td> 
+   <td>createdAt</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>creatorId</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>customerID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> ID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> isLocked </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> 物件代碼 </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>物件ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>狀態</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>更新時間</td> 
+  </tr> 
+  <tr> 
+   <td>核准階段<p>（事件子集v2）</p></td> 
+   <td>approval_stage</td> 
+   <td>approvalID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>createdAt</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>creatorId</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>customerID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> deadlineDate </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> ID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> isLocked </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> 名稱 </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> 物件代碼 </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>物件ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>狀態</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>更新時間</td> 
+  </tr> 
+  <tr> 
+   <td>核准階段參與者<p>（事件子集v2）</p></td> 
+   <td>approval_stage_participant</td> 
+   <td>createdAt</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>customerID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> deadlineDate </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> 決定 </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> decisiondate </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> decisionuserid </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> 物件代碼 </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>物件ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> 參與者ID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> participantMetadata </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> 參與者角色 </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> 參與者型別 </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> Realuserid </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> 請求者ID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> stageID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>狀態</td> 
+  </tr> 
   <tr> 
    <td>指派</td> 
    <td>指派</td> 
@@ -183,7 +381,7 @@ ht-degree: 9%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>workPerDate <p>[!BADGE 已移除]{type=negative tooltip="此欄位已於2023年10月26日移除。"}</span></td> 
+   <td>workPerDate <p>[！BADGE已移除]{type=negative tooltip="此欄位已於2023年10月26日移除。"}</span></td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -806,7 +1004,7 @@ ht-degree: 9%
    <td>topReferenceObjID</td> 
   </tr> 
   <tr> 
-   <td>欄位</td> 
+   <td>欄位<p>（事件子集v2）</p></td> 
    <td>欄位</td> 
    <td>createdAt</td> 
   </tr> 
@@ -1876,7 +2074,7 @@ ht-degree: 9%
    <td><span>請求者ID</span> </td> 
   </tr> 
   <tr> 
-   <td>記錄</td> 
+   <td>記錄<p><p>（事件子集v2）</p></td> 
    <td>記錄</td> 
    <td>createdAt</td> 
   </tr> 
@@ -1921,7 +2119,7 @@ ht-degree: 9%
    <td>更新時間</td> 
   </tr> 
   <tr> 
-   <td>記錄類型 </td> 
+   <td>記錄類型<p><p>（事件子集v2）</p> </td> 
    <td>RECORD_TYPE </td> 
    <td>顏色</td> 
   </tr> 
@@ -2776,7 +2974,7 @@ ht-degree: 9%
    <td>workHoursPerDay </td> 
   </tr> 
   <tr> 
-   <td>工作區</td> 
+   <td>工作區<p><p>（事件子集v2）</p></td> 
    <td>Workspace</td> 
    <td>顏色</td> 
   </tr> 
