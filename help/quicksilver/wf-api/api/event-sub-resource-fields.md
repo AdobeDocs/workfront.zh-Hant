@@ -381,7 +381,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>workPerDate <p>[！BADGE已移除]{type=negative tooltip="此欄位已於2023年10月26日移除。"}</span></td> 
+   <td>workPerDate <p>[!BADGE 已移除]{type=negative tooltip="此欄位已於2023年10月26日移除。"}</span></td> 
   </tr> 
   <tr> 
    <td> </td> 
