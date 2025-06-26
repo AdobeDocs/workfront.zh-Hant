@@ -7,9 +7,9 @@ description: 使用文字模式在Adobe Workfront中建立計算的自訂資料�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ce98ca39-cb86-4ef7-b75c-29ceb916e885
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: e10fd7a3237d38ece8a5213990306ce511bd2412
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '731'
 ht-degree: 1%
 
 ---
@@ -29,12 +29,15 @@ ht-degree: 1%
 * 檢視
 * 群組
 * 已計算的自訂欄位
+* 業務規則
 
 如需有關建立「IF」陳述式的詳細資訊，請參閱[「IF」陳述式概述](../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md)。
 
 本指南中的範例說明如何在計算的自訂欄位中使用條件運運算元。 當您在報告中遵循計算自訂欄位的正確語法時，也可在計算自訂欄或分組中使用它們。
 
 如需有關報表中計算自訂欄位與計算自訂資料之間語法差異的資訊，請參閱[計算自訂欄位與計算欄](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md)。
+
+如需商業規則的詳細資訊，請參閱[建立和編輯商業規則](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)。
 
 請參考API Explorer以尋找您要在計算的自訂運算式中參考的欄位。 如需API總管的相關資訊，請參閱[API總管](../../../wf-api/general/api-explorer.md)。
 
