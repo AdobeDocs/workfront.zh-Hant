@@ -7,9 +7,9 @@ description: 報表常見問題集
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: 04818bc054c3bab6e6208b6678365549664d1594
+source-git-commit: 957c6e6955a828aa40ac996490d66e9c46f594bc
 workflow-type: tm+mt
-source-wordcount: '1500'
+source-wordcount: '1510'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 <!--this section is linked from the Actual Hours article for Tasks in the Task Information folder; edit the links or do not delete or change this section-->
 
-在專案報告上，我的計算方式是從計畫時數減去舊版實際時數。
+在專案報告上，我有一個計算從計畫時數減去實際時數。
 
 我得到的結果不正確。
 
@@ -78,17 +78,19 @@ ht-degree: 0%
 
 在Workfront中使用時數的欄位大多以分鐘為單位儲存。 在計算中使用這些欄位時，結果通常會以分鐘為單位。 若要以小時取得結果，您必須將計算結果或您正在參照的欄位除以60。
 
-正確的計算方式為：
+計畫時數會以分鐘為單位儲存。
 
-`valueexpression=SUB(workRequired,actualWorkRequired)/60`
+根據您要用於計算的「實際時數」欄位，正確的公式為：
 
->[!NOTE]
->
->如果您在計算中使用實際時數，請對valuefield使用`actualWorkRequiredDouble`。 實際時數會以時數儲存。 計畫時數會以分鐘為單位儲存。
->
->實際時數的正確計算方式為：
->&#x200B;>`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+* 針對舊版實際時數（以分鐘為單位儲存）：
 
+  `valueexpression=SUB(workRequired,actualWorkRequired)/60`
+
+* 對於實際時數（以小時為單位儲存）：
+
+  `valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+
+如需詳細資訊，請參閱[檢視實際時數](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md)。
 
 ## 為什麼報表中每個圖表元素的值沒有顯示在圖表上？
 

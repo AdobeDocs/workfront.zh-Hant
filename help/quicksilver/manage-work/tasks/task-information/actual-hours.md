@@ -7,9 +7,9 @@ description: 您在Adobe Workfront中登入工作專案的時數會視為實際�
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: 04818bc054c3bab6e6208b6678365549664d1594
+source-git-commit: 957c6e6955a828aa40ac996490d66e9c46f594bc
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1010'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 * 在專案、任務或問題詳細資訊區域：
 
-   * **實際時數**：隨時為專案、任務或問題記錄的時數，包括2021年5月前的時間。 它們對應於報告和清單中的舊版實際小時。 它們以分鐘數儲存在Workfront資料庫中，其valuefield為`actualWorkRequired`。
+   * **實際時數**：2021年5月前的專案、任務或問題記錄時數。 它們會以小時為單位儲存在Workfront資料庫中，其valuefield為`actualWorkRequiredDouble`。
 
 ## 任務和問題的實際小時與專案的實際小時比較
 
@@ -157,11 +157,10 @@ Project Actual Hours = All Tasks Actual Hours + All Issues Actual Hours + All Pr
 
 專案、任務或問題所記錄的實際時數目前以分鐘的形式儲存在Workfront資料庫中，其valuefield為`actualWorkRequired`。
 
-由於下列Workfront API版本排定在2025年下半年發行，因此根據您存取實際時數的方式，這些API可以儲存在資料庫的下列欄位和單位中：
+由於下列Workfront API版本排定在2025年下半年發行，因此實際時數會儲存在資料庫的下列欄位和單位中：
 
 * **實際時數**： 2021年5月之後為專案、任務或問題記錄的時數。 它們會以小時為單位儲存在Workfront資料庫中，其valuefield為`actualWorkRequiredDouble`。
-
-* **舊版實際時數**：隨時為專案、任務或問題記錄的時數，包括2021年5月前的時間。 它們以分鐘數儲存在Workfront資料庫中，其valuefield為`actualWorkRequired`。
+   * **舊版實際時數**：隨時為專案、任務或問題記錄的時數，包括2021年5月前的時間。 它們以分鐘數儲存在Workfront資料庫中，其valuefield為`actualWorkRequired`。
 
 如需有關在計算欄或欄位中使用實際時數的資訊，請參閱[報告常見問題集](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)。
 
