@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 39762dbf34501f3cd967a2a766042086d18003c8
+source-git-commit: 482067778b6a5b7291eb25d00245a394bc72ccf0
 workflow-type: tm+mt
-source-wordcount: '1601'
+source-wordcount: '1799'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,39 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 如需針對Adobe Workfront Planning發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+
+## 展開和摺疊表格檢視中的所有群組
+
+>[!NOTE]
+>
+>* 預覽： 2025年6月26日
+>* 適用於所有人的生產： 2025年7月17日
+
+您現在可以使用下列區域來收合和展開表格檢視中的群組：
+
+* 「群組」方塊，可從表格檢視的工具列存取
+
+* 在群組標題上按一下右鍵
+
+您可以同時摺疊或展開一個群組或所有群組。
+
+在此增強功能之前，您一次只能從每個群組標題摺疊或展開一個群組。
+
+如需詳細資訊，請參閱[管理資料表檢視](/help/quicksilver/planning/views/manage-the-table-view.md)。
+
+## 公式欄位的新彙總功能
+
+>[!NOTE]
+>
+>* 預覽： 2025年6月26日
+>* 每個人都要生產： 2025年6月26日
+
+現在，當您連線記錄型別並將公式欄位作為查詢時，可以根據公式欄位的格式套用彙總函式(SUM、AVERAGE、MIN、MAX等)。 例如，如果公式欄位是數字，您可以使用SUM或AVG之類的函式；如果公式欄位的格式為文字，則不會應用SUM之類的彙總函式。
+
+先前，當連線記錄型別並從連線的記錄引入查閱欄位時，您只能將彙總函式套用至常規欄位，而不能套用至公式欄位。
+
+如需詳細資訊，請參閱[公式欄位概述](/help/quicksilver/planning/fields/formula-fields.md)。
 
 ## Workfront Planning時間表檢視的自訂季度可用性
 
@@ -206,7 +239,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >所有具有系統管理員和Standard授權的新使用者及現有使用者皆可看見此變更。
->&#x200B;>指派給版面配置範本的現有使用者將根據版面配置範本中定義的設定繼續檢視所有內容。
+>>指派給版面配置範本的現有使用者將根據版面配置範本中定義的設定繼續檢視所有內容。
 
 如需詳細資訊，請參閱[Adobe Workfront規劃總覽](/help/quicksilver/planning/access/access-overview.md)。
 

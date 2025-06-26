@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: 3ff70fcc949644d511c876add10d2c58901cb197
+source-git-commit: b87b32d0396b0c277a5fc30d060c76a71192171b
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,31 @@ ht-degree: 0%
 本頁說明2025年第三季度版本中針對預覽環境所進行的專案增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2025年第三季度發行週期中目前可用的所有變更清單，請參閱[2025年第三季度發行概觀](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)。
+
+## 以舊版實際時數取代現有實際時數欄位，並建立新的實際時數欄位
+
+>[!NOTE]
+>
+> 預覽和生產： 2025年6月24日 
+
+現有的實際時數欄位已重新命名為舊版實際時數。 此欄位會儲存專案、任務和問題的記錄時間（以分鐘為單位）。 欄位會以actualWorkRequired形式儲存在Workfront資料庫中。
+
+我們新增了實際時數欄位，該欄位以時數為單位儲存專案、任務和問題的記錄時間，精確到小數。 欄位會以actualWorkRequiredDouble形式儲存在Workfront資料庫中。
+
+實際時數和舊版實際時數欄位都顯示在專案、任務和問題檢視與報告中。
+
+專案、任務和問題詳細資訊區段中顯示的實際時數欄位代表舊版實際時數。
+
+
+>[!IMPORTANT]
+>
+>2021年5月前記錄的時數會儲存在舊版實際時數欄位。  
+>>2021年5月前記錄時數的專案、任務和問題的「實際時數」欄位值為零。 
+>>2021年5月之後記錄的時數會儲存在實際時數欄位和舊版實際時數欄位中。
+>> 您可能需要更新報告以反映新欄位。
+
+如需詳細資訊，請參閱[檢視實際時數](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md)。
+
 
 ## 變更API呼叫實際時數在資料庫中儲存的方式
 
