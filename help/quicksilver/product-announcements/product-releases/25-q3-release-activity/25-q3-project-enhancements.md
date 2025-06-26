@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: b87b32d0396b0c277a5fc30d060c76a71192171b
+source-git-commit: e3fa5f6fd86f0fe9ba221fb7c20f46f966437a42
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '745'
 ht-degree: 0%
 
 ---
@@ -32,15 +32,19 @@ ht-degree: 0%
 
 實際時數和舊版實際時數欄位都顯示在專案、任務和問題檢視與報告中。
 
-專案、任務和問題詳細資訊區段中顯示的實際時數欄位代表舊版實際時數。
+專案、任務和問題詳細資訊區段中顯示的實際時數欄位代表新的實際時數。
+
 
 
 >[!IMPORTANT]
 >
->2021年5月前記錄的時數會儲存在舊版實際時數欄位。  
->&#x200B;>2021年5月前記錄時數的專案、任務和問題的「實際時數」欄位值為零。 
->&#x200B;>2021年5月之後記錄的時數會儲存在實際時數欄位和舊版實際時數欄位中。
->&#x200B;> 您可能需要更新報告以反映新欄位。
+>根據記錄時數的時間，專案、任務或問題的實際時數與舊版實際時數之間可能會出現差異。<br>
+>>存在下列情況：
+>
+>* 代表自2021年5月起為專案、任務和問題記錄時數的實際時數，已從舊版實際時數欄位移至新的實際時數欄位。
+>* 代表2021年5月之前記錄的專案、任務和問題的實際時數僅計入舊版實際時數欄位。
+>  ><br>您可能需要更新報告以反映新欄位及其值。
+
 
 如需詳細資訊，請參閱[檢視實際時數](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md)。
 
