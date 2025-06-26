@@ -37,14 +37,14 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td><p>新增：[！UICONTROL Standard]</p>
+   <td><p>新增：[!UICONTROL Standard]</p>
    或
-   <p>目前： [！UICONTROL計畫]</p>
+   <p>目前： [!UICONTROL 計畫]</p>
    </td> 
   </tr>  
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td><p>若要在系統層級執行這些步驟，您需要[！UICONTROL系統管理員]存取層級。</p><p>若要為群組執行這些動作，您必須是該群組的管理員。</p></td>
+   <td><p>若要在系統層級執行這些步驟，您需要[!UICONTROL 系統管理員]存取層級。</p><p>若要為群組執行這些動作，您必須是該群組的管理員。</p></td>
   </tr> 
  </tbody> 
 </table>

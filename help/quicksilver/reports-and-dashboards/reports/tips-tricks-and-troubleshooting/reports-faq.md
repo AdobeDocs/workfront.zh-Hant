@@ -87,7 +87,7 @@ ht-degree: 0%
 >如果您在計算中使用實際時數，請對valuefield使用`actualWorkRequiredDouble`。 實際時數會以時數儲存。 計畫時數會以分鐘為單位儲存。
 >
 >實際時數的正確計算方式為：
->>`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+>&#x200B;>`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
 
 
 ## 為什麼報表中每個圖表元素的值沒有顯示在圖表上？
