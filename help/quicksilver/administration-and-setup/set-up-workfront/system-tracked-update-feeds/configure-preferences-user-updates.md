@@ -4,11 +4,11 @@ product-area: system-administration;setup
 navigation-topic: system-tracked-update-feeds
 title: 設定使用者更新的偏好設定
 description: 當使用者在物件的[!UICONTROL 更新]區域新增註解時，您可以設定存取特定功能的偏好設定。
-author: Lisa
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d6d18423-d13c-42e8-b8ee-43e6842b6481
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 1%
@@ -16,6 +16,8 @@ ht-degree: 1%
 ---
 
 # 設定使用者更新的偏好設定
+
+<!--Audited: 06/2025-->
 
 當使用者在物件的[!UICONTROL 更新]區域新增註解時，您可以設定讓使用者存取特定功能的偏好設定。
 
@@ -34,20 +36,20 @@ ht-degree: 1%
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td><p>新增：[!UICONTROL Standard]</p>
+   <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
+   <td><p>新增：[！UICONTROL Standard]</p>
    或
-   <p>目前： [!UICONTROL 計畫]</p>
+   <p>目前： [！UICONTROL計畫]</p>
    </td> 
   </tr>  
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td><p>若要在系統層級執行這些步驟，您需要[!UICONTROL 系統管理員]存取層級。</p><p>若要為群組執行這些動作，您必須是該群組的管理員。</p></td>
+   <td><p>若要在系統層級執行這些步驟，您需要[！UICONTROL系統管理員]存取層級。</p><p>若要為群組執行這些動作，您必須是該群組的管理員。</p></td>
   </tr> 
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+*如需此表格中資訊的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

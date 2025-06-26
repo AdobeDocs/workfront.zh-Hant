@@ -1,19 +1,29 @@
 ---
 product-area: timesheets;system-administration
 navigation-topic: create-and-manage-timesheets
-title: 建立、編輯和指派週期性時程表
+title: 建立、編輯和指派時程表設定檔
 description: 您可以建立、編輯和指派為使用者產生週期性時程表的時程表設定檔，您無需採取任何進一步的干預。 這可為您節省時間，並確保使用者之間的一致性。
 author: Alina
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
 workflow-type: tm+mt
-source-wordcount: '1472'
-ht-degree: 0%
+source-wordcount: '1540'
+ht-degree: 1%
 
 ---
 
-# 建立、編輯和指派週期性時程表
+# 建立、編輯和指派時程表設定檔
+
+<!--Audited: 06/2025-->
+
+<!--<div class="preview">
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
+
+</div> -->
 
 您可以建立、編輯和指派為使用者產生週期性時程表的時程表設定檔，您無需採取任何進一步的干預。 這可為您節省時間，並確保使用者之間遵循下列原則：
 
@@ -38,20 +48,20 @@ ht-degree: 0%
    <td> <p>任何</p> </td> 
   </tr> 
    <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
+   <td role="rowheader">Adobe Workfront授權*</td> 
    <td> <p>新增：標準 </p>
  <p>或</p> 
 <p>目前：計畫 </p> 
 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
+   <td role="rowheader">存取層級設定</td> 
    <td> <p>您必須擁有時程表的管理存取權。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+*如需此表格中資訊的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -66,18 +76,18 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->若要在目前時程表中啟用時程表設定檔變更，您必須刪除現有時程表，然後產生新時程表。 如需指示，請參閱[刪除Adobe Workfront中的時程表](../../timesheets/create-and-manage-timesheets/delete-timesheets.md)和[手動產生時程表](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)。
+>若要在目前時程表中啟用時程表設定檔變更，您必須先刪除現有時程表，才能變更時程表設定檔，然後產生新的時程表。 如需指示，請參閱[刪除Adobe Workfront中的時程表](../../timesheets/create-and-manage-timesheets/delete-timesheets.md)和[手動產生時程表](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)。
 
 {{step-1-to-setup}}
 
-1. 如果您要建立或編輯時程表設定檔以在整個系統中使用，請按一下&#x200B;**時程表和時數**。
+1. 如果您建立或編輯時程表設定檔，以便在整個系統中使用，請按一下&#x200B;**時程表和時數**。
 
    或
 
-   如果您建立或編輯群組的週期性時程表，請按一下&#x200B;**群組**，然後按一下群組的名稱。
+   如果您建立或編輯群組的時程表設定檔，請按一下&#x200B;**群組**，然後按一下群組的名稱。
 
 1. 按一下&#x200B;**週期性時程表**。
-1. 若要建立新的時程表設定檔，請按一下&#x200B;**新增設定檔**。
+1. 若要建立時間表設定檔，請按一下&#x200B;**新增設定檔**。
 
    或
 
@@ -86,13 +96,26 @@ ht-degree: 0%
    此時會顯示新的或現有的時程表設定檔。
 
 
-1. 在&#x200B;**設定詳細資料**&#x200B;索引標籤上，輸入時程表設定檔的&#x200B;**名稱**&#x200B;和&#x200B;**描述**，並提供下列資訊：
+1. 按一下「**設定詳細資料**」標籤，然後更新下列資訊：
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
+      <td role="rowheader"><strong>名稱</strong> </td> 
+      <td> <p> 為時程表設定檔新增名稱。 這可以是團隊名稱，或人員與其時程表共用相同時間範圍的群組名稱。 </p> </td> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader"><strong>說明</strong> </td> 
+      <td> <p> 新增更多關於週期性時程表的資訊。     
+      </p> </td> 
+     </tr>
+
+
+
+   <tr> 
       <td role="rowheader">具有管理存取許可權的<strong>群組</strong> </td> 
       <td> <p> 
       <ul> 
@@ -147,8 +170,14 @@ ht-degree: 0%
       <td role="rowheader"><strong>可用的小時型別</strong> </td> 
       <td><p>此設定僅參考一般小時型別，不適用於特定專案小時型別。 </p>
       <p>依預設，使用者會在時程表上檢視所有一般時數。 不過，如果您的組織只想為一組特定使用者顯示特定的一般小時，您可以透過在此欄位中選取他們在時程表設定檔中的方式，選取他們需要在時程表中檢視的一般小時。 如果您要停用所有一般時數，請取消選取所有時數型別，以產生不含一般時數區段的時程表。</p></td> 
-     </tr> 
-     <tr data-mc-conditions=""> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader"><strong>提醒通知</strong> </td> 
+      <td> <p> 新增提醒通知。 Workfront會傳送提醒給使用者，要求他們完成或核准其時程表。 您必須先建立提醒通知，然後才能將其與時程表設定檔建立關聯。  </p> </td> 
+     </tr>
+
+   <tr data-mc-conditions=""> 
       <td role="rowheader"><span style="font-weight: bold;">加班</span> </td> 
       <td>您可以選擇隱藏時程表中的「加班」方塊。 此選項預設為停用。</td> 
      </tr> 

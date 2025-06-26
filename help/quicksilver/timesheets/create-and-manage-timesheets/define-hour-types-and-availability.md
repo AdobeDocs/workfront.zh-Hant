@@ -6,9 +6,9 @@ description: 小時型別是一種標籤，可讓您將時間專案分類。 根
 author: Alina
 feature: Timesheets
 exl-id: 3c07a6b0-4751-4fce-ac28-6a83084025d4
-source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
+source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
 workflow-type: tm+mt
-source-wordcount: '1487'
+source-wordcount: '1488'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 Adobe Workfront中有2組小時型別：
 
 * **一般時數**：與專案無關的時數，例如病假或管理。 您只能在時程表上記錄一般時數。
-* **專案特定時數**：專案、任務和問題記錄的時數。 您可以從任何可記錄時間的位置記錄專案專屬時數。
+* **專案特定時數**：登入專案、任務和問題的時數。 您可以從任何可記錄時間的位置記錄專案專屬時數。
 
 在Workfront中記錄時間時，可用的專案特定小時型別取決於在系統、專案和使用者層級設定的設定選項。 （下列專案專屬預設小時型別一律可用：專案時間、任務時間和問題時間。）
 
@@ -45,7 +45,7 @@ Adobe Workfront中有2組小時型別：
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
+   <td role="rowheader">Adobe Workfront授權*</td> 
    <td> <p>新增：標準</p> 
    <p>目前：計畫</p>
    </td> 
@@ -61,7 +61,7 @@ Adobe Workfront中有2組小時型別：
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+*如需此表格中資訊的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
