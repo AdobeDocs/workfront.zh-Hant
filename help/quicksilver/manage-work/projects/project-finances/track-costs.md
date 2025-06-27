@@ -7,9 +7,9 @@ description: 您可以在Adobe Workfront中追蹤專案、任務和問題的成�
 author: Lisa
 feature: Work Management
 exl-id: df3090ae-9721-4e9b-84b4-315890619801
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: 23a5c90b9321b72a20f21752f957b3be0a9f3a02
 workflow-type: tm+mt
-source-wordcount: '2480'
+source-wordcount: '2499'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,11 @@ Workfront會計算專案的許多成本績效指數，以便追蹤專案以符�
     </tr> 
     <tr> 
      <td>實際勞力成本</td> 
-     <td> <p>會使用下列公式計算：</p><code>Actual Labor Costs = Actual Hours * Cost per Hour rate</code> </td> 
+     <td> <p>會使用下列公式計算：</p><code>Actual Labor Costs = Actual Hours * Cost per Hour rate</code> 
+     <p><strong>附註</strong>
+     <p>Workfront使用舊版實際時數來計算實際勞力成本。 如需詳細資訊，請參閱<a href="/help/quicksilver/manage-work/tasks/task-information/actual-hours.md">檢視實際時數</a>。 </p>
+
+  </td> 
     </tr> 
    </tbody> 
   </table>
@@ -150,7 +154,7 @@ Workfront會計算專案中每個個別任務的計畫成本與實際成本。 W
 >[!NOTE]
 >
 >專案的實際費用成本計算方式如下：
->`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
+>>`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
 >
 >這些成本在實際成本計算中不會重複。 例如，如果固定成本是專案實際費用成本的一部分，則不會單獨新增到實際成本。
 
