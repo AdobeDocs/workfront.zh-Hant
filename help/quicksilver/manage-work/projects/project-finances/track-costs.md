@@ -154,7 +154,7 @@ Workfront會計算專案中每個個別任務的計畫成本與實際成本。 W
 >[!NOTE]
 >
 >專案的實際費用成本計算方式如下：
->>`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
+>&#x200B;>`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
 >
 >這些成本在實際成本計算中不會重複。 例如，如果固定成本是專案實際費用成本的一部分，則不會單獨新增到實際成本。
 
