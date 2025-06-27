@@ -57,8 +57,8 @@ ht-degree: 1%
 
 若要進一步瞭解品牌指引，請參閱
 
-* [GenStudio for Performance Marketing品牌](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
-* [新增准則](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
+* [GenStudio for Performance Marketing品牌](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
+* [新增准則](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
 
 ## 新增AI檢閱者
 
