@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: e3fa5f6fd86f0fe9ba221fb7c20f46f966437a42
+source-git-commit: f02a07c0bc4568d7e0fa25ca6e880024423527b7
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '741'
 ht-degree: 0%
 
 ---
@@ -26,25 +26,23 @@ ht-degree: 0%
 >
 > 預覽和生產： 2025年6月24日 
 
-現有的實際時數欄位已重新命名為舊版實際時數。 此欄位會儲存專案、任務和問題的記錄時間（以分鐘為單位）。 欄位會以actualWorkRequired形式儲存在Workfront資料庫中。
+我們新增了實際時數欄位，該欄位以時數為單位儲存專案、任務和問題的記錄時間，精確到小數。 欄位以`actualWorkRequiredDouble`形式儲存在Workfront資料庫中。
 
-我們新增了實際時數欄位，該欄位以時數為單位儲存專案、任務和問題的記錄時間，精確到小數。 欄位會以actualWorkRequiredDouble形式儲存在Workfront資料庫中。
+現有的實際時數欄位已重新命名為舊版實際時數。 欄位會儲存專案、任務和問題的記錄時間（以分鐘為單位），並以`actualWorkRequired`形式儲存在Workfront資料庫中。
 
 實際時數和舊版實際時數欄位都顯示在專案、任務和問題檢視與報告中。
 
 專案、任務和問題詳細資訊區段中顯示的實際時數欄位代表新的實際時數。
 
-
-
 >[!IMPORTANT]
 >
 >根據記錄時數的時間，專案、任務或問題的實際時數與舊版實際時數之間可能會出現差異。<br>
->&#x200B;>存在下列情況：
+>>存在下列情況：
 >
->* 代表自2021年5月起為專案、任務和問題記錄時數的實際時數，已從舊版實際時數欄位移至新的實際時數欄位。
->* 代表2021年5月之前記錄的專案、任務和問題的實際時數僅計入舊版實際時數欄位。
->  &#x200B;><br>您可能需要更新報告以反映新欄位及其值。
-
+>* 實際時數代表自2021年5月起為專案、任務和問題記錄的時數。
+>* 舊版實際時數代表專案、任務或問題存留期內的專案、任務或問題記錄時數。 這包括在2021年5月之前記錄到目前時間的小時數。
+>  ><br>您可能需要更新報告以反映新欄位及其值。
+>  ><br>Workfront使用舊版實際時數來計算實際勞力成本。
 
 如需詳細資訊，請參閱[檢視實際時數](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md)。
 
