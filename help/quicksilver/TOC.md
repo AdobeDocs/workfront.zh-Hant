@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: a6d0cf24d560a64f4e1f0bae7f8655ebc2d44a9b
+source-git-commit: 8d37762a2f6b01ff25845639c6436b2a39aa5449
 workflow-type: tm+mt
-source-wordcount: '13211'
+source-wordcount: '13224'
 ht-degree: 2%
 
 ---
@@ -1095,7 +1095,6 @@ ht-degree: 2%
       * [檔案區域](documents/managing-documents/documents-area.md)
       * [檔案詳細資訊總覽](documents/managing-documents/document-details-overview.md)
       * [檔案摘要概覽](documents/managing-documents/summary-for-documents.md)
-      * [Workfront AI檢閱者](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
       * [預覽檔案](documents/managing-documents/preview-documents.md)
       * [檔案核准和校訂](documents/managing-documents/document-approvals-and-proofing.md)
       * [將更新新增至檔案](documents/managing-documents/add-update-documents.md)
@@ -1792,8 +1791,10 @@ ht-degree: 2%
       * [資產和檔案檢閱及核准的可用功能](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
       * [整合式核准總覽](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
       * [檔案決定狀態概觀](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
+      * [開始使用Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
       * 設定及管理資產和檔案核准 {#manage-asset-review-and-approval}
          * [設定及管理資產和檔案核准：文章索引](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
+         * [建立AI檢閱者](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
          * [建立檔案稽核或核准請求](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
          * [將其他檢閱者或核准者新增至資產或檔案](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
          * [從資產或檔案中移除核准者或稽核者](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
@@ -1803,6 +1804,7 @@ ht-degree: 2%
          * [建立報表控制面板以供檢閱和核准](review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)
       * 檢閱和核准資產和檔案 {#review-and-approve-documents}
          * [檢閱和核准檔案：文章索引](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
+         * [檢視AI檢閱者評分和意見反應](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md)
          * [檢閱檔案](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
          * [核准檔案](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
    * 校訂 {#proofing}
@@ -2169,7 +2171,7 @@ ht-degree: 2%
    * 適用於Outlook的Adobe Workfront {#workfront-for-outlook}
       * [適用於Outlook的Adobe Workfront：文章索引](workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)
       * [設定適用於Outlook的Adobe Workfront](workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
-      * [適用於Outlook的Workfront的許可權層級](workfront-integrations-and-apps/using-workfront-with-outlook/permissions-in-workfront-for-outlook.md)
+      * 適用於Outlook的Workfront的[許可權層級](workfront-integrations-and-apps/using-workfront-with-outlook/permissions-in-workfront-for-outlook.md)
       * [回覆Outlook的註解](workfront-integrations-and-apps/using-workfront-with-outlook/reply-to-a-comment-from-outlook.md)
       * [從Outlook電子郵件更新現有的物件](workfront-integrations-and-apps/using-workfront-with-outlook/update-an-existing-object-from-an-outlook-email.md)
       * [將Outlook電子郵件作為任務或問題新增至專案](workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-to-project-as-task-or-issue.md)
@@ -2464,8 +2466,8 @@ ht-degree: 2%
       * [使用JWT流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-jwt-flow.md)
       * [使用PKCE流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-pkce-flow.md)
       * [棄用API — 內部](wf-api/api/deprecation-api-internal.md)
-      * [ API 20版的新增功能](wf-api/api/new-api-version-20.md)
-      * [ API 19版的新增功能](wf-api/api/new-api-version-19.md)
+      * [ API 20](wf-api/api/new-api-version-20.md)版的新增功能
+      * [ API 19](wf-api/api/new-api-version-19.md)版的新增功能
       * [API 18版的新增功能](wf-api/api/new-api-version-18.md)
       * [API 17版的新增功能](wf-api/api/new-api-version-17.md)
       * [API 16版的新增功能](wf-api/api/new-api-version-16.md)
