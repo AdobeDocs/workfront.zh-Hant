@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 8934c3f5681c09c00769442900013844ee7a80ef
 workflow-type: tm+mt
-source-wordcount: '1330'
+source-wordcount: '1336'
 ht-degree: 2%
 
 ---
@@ -106,15 +106,14 @@ Workfront管理員也有唯一的API金鑰。 當應用程式使用管理員API�
 
    1. 展開&#x200B;**系統**，然後按一下&#x200B;**單一登入(SSO)**。
    1. 在&#x200B;**型別**&#x200B;欄位中，選取貴組織使用的SSO型別。
-   1. 選取型別後，向下捲動並清除&#x200B;**啟用**&#x200B;核取方塊。
-
+   1. 選取型別後，向下捲動並清除&#x200B;**啟用**核取方塊。
       ![啟用SSO](assets/sysadmin-security-sso-disable-31620-350x320.png)
    1. 按一下「**儲存**」。
 
 
 1. 在瀏覽器的位址列中，輸入下列API呼叫：
 
-   `<domain>`**.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&amp;username=**&#x200B;使用者名稱&#x200B;**&amp;password=**&#x200B;密碼**&amp;method=PUT
+   `<domain>`.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&amp;username=**使用者名稱**&amp;password=**密碼**&amp;method=PUT
 
    將`<domain>`取代為您的Workfront網域名稱，並將使用者名稱和密碼取代為使用者的Workfront認證。
 
@@ -140,9 +139,9 @@ Workfront管理員也有唯一的API金鑰。 當應用程式使用管理員API�
 
    根據預設，API金鑰每個月都會過期。
 
-1. 若要設定API金鑰在使用者的密碼過期時到期，請選取&#x200B;**在使用者的密碼過期時移除API金鑰**。
+1. 若要設定API金鑰在使用者的密碼過期時到期，請啟用&#x200B;**在使用者的密碼過期時移除API金鑰**。
 
-   依預設，不會選取此選項。
+   依預設，此選項不會啟用。
 
    如需有關如何設定使用者密碼到期的資訊，請參閱[設定系統安全性偏好設定](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)。
 
@@ -166,15 +165,15 @@ Workfront管理員也有唯一的API金鑰。 當應用程式使用管理員API�
 
 >[!IMPORTANT]
 >
->本節所述的程式僅適用於尚未加入「Adobe業務平台」的組織。 如果您的組織已加入Adobe Business Platform，就無法透過Workfront API登入Workfront。
+>本節中說明的程式僅適用於尚未加入Adobe Business Platform的組織。 如果您的組織已加入Workfront Business Platform，就無法透過Workfront API登入Adobe。
 >
 >如需根據貴組織是否已加入Adobe Business Platform而有所差異的程式清單，請參閱[以平台為基礎的管理差異(Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
-
-協力廠商應用程式可透過API與Workfront通訊。 為了提高Workfront網站的安全性，您可以將Workfront設定為透過將X.509憑證上傳到Workfront來限制API登入請求。 啟用後，所有透過API的登入請求都必須包含使用者端憑證以及使用者名稱和密碼。
 
 >[!NOTE]
 >
 >如果您組織的Workfront執行個體已啟用Adobe IMS，便無法使用此功能。 如需詳細資訊，請洽詢您的網路或IT管理員。
+
+協力廠商應用程式可透過API與Workfront通訊。 為了提高Workfront網站的安全性，您可以將Workfront設定為透過將X.509憑證上傳到Workfront來限制API登入請求。 啟用後，所有透過API的登入請求都必須包含使用者端憑證以及使用者名稱和密碼。
 
 * [取得X.509憑證](#obtain-the-x-509-certificate)
 * [將憑證上傳至Workfront](#upload-the-certificate-to-workfront)
@@ -182,7 +181,7 @@ Workfront管理員也有唯一的API金鑰。 當應用程式使用管理員API�
 
 ### 取得X.509憑證 {#obtain-the-x-509-certificate}
 
-從受信任的憑證授權單位（例如Verisign）取得有效的X.509憑證，並將其放置在工作站上的暫存位置。
+從受信任的憑證授權單位（例如Verisign）取得有效的X.509憑證，並將其儲存至工作站上的暫存位置。
 
 ### 將憑證上傳至Workfront {#upload-the-certificate-to-workfront}
 
@@ -192,7 +191,8 @@ Workfront管理員也有唯一的API金鑰。 當應用程式使用管理員API�
 
 1. 展開&#x200B;**系統**，然後按一下&#x200B;**客戶資訊**。
 
-1. 在&#x200B;**API金鑰設定**&#x200B;區域中，選取&#x200B;**啟用X.509憑證**。
+1. 在&#x200B;**API金鑰設定**&#x200B;區域中，選取&#x200B;**API登入需要X.509憑證**。
+1. 按一下&#x200B;**變更憑證**。
 1. 在您的工作站上，瀏覽並選取您先前下載的X.509憑證。
 1. （選擇性）按一下憑證名稱旁的&#x200B;**檢視詳細資料**&#x200B;以檢視憑證的下列詳細資料：
 
