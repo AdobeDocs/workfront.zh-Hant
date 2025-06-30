@@ -6,9 +6,9 @@ description: 您可以將其他核准者或稽核者新增至已有待核准的�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: e20f1b70ffd6c94b302cea6e691337624db497ef
+source-git-commit: 9ede952041f89eca4ba324348880d7eb5f2bccd7
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '569'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 1%
 * 檔案核准參與者顯示在檔案「摘要」中，而不是校訂工作流程標籤中。
 * 目前的報告工具不支援整合式核准。
 
-  您可以加入新的畫布控制面板Beta版以[建立報表控制面板以供檢閱和核准](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)，或者您可以使用新首頁和畫布控制面板中可用的所有核准Widget，並提供有關整合核准的下列詳細資訊：
+  您可以加入新的畫布儀表板Beta版以[建立報表儀表板以供檢閱和核准](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)，或者您可以使用新的首頁和畫布儀表板中提供的檔案核准量度Widget，其中包含有關統一核准的下列詳細資訊：
 
    * 核准 (依決策區分)
    * 平均核准時間

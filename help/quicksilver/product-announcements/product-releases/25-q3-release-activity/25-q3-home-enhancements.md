@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91789b7b-3aec-415c-a03d-e06d0c43a263
-source-git-commit: 3f8d0430ce5685aeec4b5881ab3436201273e4a2
+source-git-commit: 9808596e561ef30cc0edf5006f5ac2f190ed64f5
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 如需2025年第三季度發行週期中目前可用的所有變更清單，請參閱[2025年第三季度發行概觀](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)。
 
-<!--## All Approvals widget renamed to Document approval metrics
+## 所有核准Widget已重新命名為檔案核准量度
 
-We've renamed the All Approvals widget to Document Approval Metrics to more accurately reflect the information it displays. The Document Approval Metrics widget provides high-level insights into document approvals for the projects you own.
+我們已重新命名所有核准Widget為檔案核准量度，以更準確地反映其顯示的資訊。 檔案核准量度Widget為您擁有的專案提供檔案核准的高層級深入分析。
 
-This widget does not contain any information about proof approvals. -->
+此Widget不包含任何有關校訂核准的資訊。
 
 ## 更新「我的更新」區域中「提及」區段的註解體驗
 

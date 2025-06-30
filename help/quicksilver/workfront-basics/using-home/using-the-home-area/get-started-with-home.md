@@ -6,9 +6,9 @@ description: 首頁可協助您管理工作。 您可以自訂此彈性空間，
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 9ede952041f89eca4ba324348880d7eb5f2bccd7
 workflow-type: tm+mt
-source-wordcount: '1015'
+source-wordcount: '1011'
 ht-degree: 4%
 
 ---
@@ -33,7 +33,7 @@ Adobe Workfront新的首頁體驗旨在改善目前的首頁體驗，同時提�
 
 Widget是新首頁的基礎。 將Widget新增至首頁後，您就可以選擇最符合您工作需求的資訊型別。 某些Widget僅適用於特定授權型別，因為它們追蹤的物件僅適用於這些授權。
 
-如需新增、移動、調整大小或刪除介面工具集的資訊，請參閱新首頁[&#128279;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)中的新增、編輯或移除介面工具。
+如需新增、移動、調整大小或刪除介面工具集的資訊，請參閱新首頁](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)中的[新增、編輯或移除介面工具。
 
 目前有11個Widget可供選擇，以及它們顯示的資訊摘要如下：
 
@@ -61,8 +61,8 @@ Widget是新首頁的基礎。 將Widget新增至首頁後，您就可以選擇�
 * **我的核准**\
     顯示所有擱置、已指派、已委派及已提交的核准；委派核准的按鈕；以及直接在Widget內做出核准決策的按鈕。
 
-* **所有核准**\
-        顯示2個圖表，內含平均核准時間和決定的相關資訊，以及擱置和逾期核准的清單檢視。 <span style="color: #ff0000;">此功能是分階段發行的一部分，目前僅供特定客戶使用。</span>
+* **檔案核准量度**\
+        顯示2個圖表，內含平均檔案核准時間和決定的相關資訊，以及擱置和逾期核准的清單檢視。 您必須啟用整合式核准才能使用此Widget。
 
 * **提及次數**\
     顯示來自Workfront的最近評論對話串，類似於「我的更新」頁面。 您可以使用回覆按鈕在Widget中撰寫回覆。 只要任務或問題在過去30天內已更新，此Widget也會顯示針對您指派給、您指派給其他使用者、您擁有、您是主要連絡人或您建立之任務或問題所做的評論。
@@ -113,7 +113,7 @@ Widget是新首頁的基礎。 將Widget新增至首頁後，您就可以選擇�
         <td>我的工作、提及、待辦事項</td>
     </tr>
     <tr>
-        <td>檢閱</td>
+        <td>審閱</td>
         <td>我的工作，提及</td>
     </tr>
     <tr>
@@ -147,7 +147,7 @@ Widget是新首頁的基礎。 將Widget新增至首頁後，您就可以選擇�
 
    「自訂」面板隨即開啟。
 
-1. 在「**自訂**」面板的「**背景**」區段中，按一下您要為「首頁」背景選取的色彩。 您也可以按一下[無]來移除背景。**&#x200B;**
+1. 在「**自訂**」面板的「**背景**」區段中，按一下您要為「首頁」背景選取的色彩。 您也可以按一下[無]來移除背景。****
 
 
 
