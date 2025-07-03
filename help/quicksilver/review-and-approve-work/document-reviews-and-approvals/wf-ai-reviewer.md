@@ -12,7 +12,7 @@ exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
 source-git-commit: da980cee8710570f52c724053d1e0f359c6a9fe1
 workflow-type: tm+mt
 source-wordcount: '594'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="wf_document_approvals_ai_supported_files"
 >title="不受支援的檔案類型"
->abstract="此AI檢閱者不支援選取的檔案型別。 上傳支援的檔案類型，或移除 AI 檢閱者以提交請求。"
+>abstract="此 AI 檢閱者不支援所選的檔案類型。上傳支援的檔案類型，或移除 AI 檢閱者以提交請求。"
 
 AI檢閱者可檢閱下列檔案型別：
 
@@ -55,8 +55,8 @@ Workfront AI檢閱者在檢閱內容時，會使用Genstudio Foundation中設定
 
 若要進一步瞭解品牌指引，請參閱
 
-* [GenStudio for Performance Marketing品牌](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
-* [新增准則](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
+* [GenStudio for Performance Marketing品牌](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
+* [新增准則](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
 
 
 ## 建立AI檢閱者
