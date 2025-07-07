@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 3606b6c3-b373-47ea-9cb5-813bd3af8da7
-source-git-commit: c747d3697fd2a4e74dd4af5a8a418d0f52cf71ed
+source-git-commit: f409bc84360d92f1b952b594720d5e4aea1fc354
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 2%
+source-wordcount: '305'
+ht-degree: 1%
 
 ---
 
@@ -30,6 +30,11 @@ Sandbox 2
 -->
 
 使用者端TLS可讓您驗證您收到的事件訂閱訊息是否實際來自Adobe Workfront。 若要啟用此功能，您的伺服器必須設定為請求及驗證Workfront的x509憑證。
+
+>[!NOTE]
+>
+>* 依預設，Workfront目前支援TLS 1.2版。
+>* 組織可以要求為其Workfront執行個體啟用TLS 1.3版。
 
 
 ## 驗證Workfront的使用者端憑證
@@ -65,7 +70,7 @@ server {
 }
 ```
 
-如需詳細資訊，請參閱ngx_http_ssl_module[&#128279;](https://nginx.org/en/docs/http/ngx_http_ssl_module.html)的NGiNX檔案。
+如需詳細資訊，請參閱ngx_http_ssl_module[的](https://nginx.org/en/docs/http/ngx_http_ssl_module.html)NGiNX檔案。
 
 ### Apache
 
