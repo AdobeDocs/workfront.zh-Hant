@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 8d37762a2f6b01ff25845639c6436b2a39aa5449
+source-git-commit: cd5dcbd0f39754fb9ab1605c1eb65af37aa21996
 workflow-type: tm+mt
-source-wordcount: '13224'
+source-wordcount: '13227'
 ht-degree: 2%
 
 ---
@@ -2171,7 +2171,7 @@ ht-degree: 2%
    * 適用於Outlook的Adobe Workfront {#workfront-for-outlook}
       * [適用於Outlook的Adobe Workfront：文章索引](workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)
       * [設定適用於Outlook的Adobe Workfront](workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
-      * [適用於Outlook的Workfront的許可權層級](workfront-integrations-and-apps/using-workfront-with-outlook/permissions-in-workfront-for-outlook.md)
+      * 適用於Outlook的Workfront的[許可權層級](workfront-integrations-and-apps/using-workfront-with-outlook/permissions-in-workfront-for-outlook.md)
       * [回覆Outlook的註解](workfront-integrations-and-apps/using-workfront-with-outlook/reply-to-a-comment-from-outlook.md)
       * [從Outlook電子郵件更新現有的物件](workfront-integrations-and-apps/using-workfront-with-outlook/update-an-existing-object-from-an-outlook-email.md)
       * [將Outlook電子郵件作為任務或問題新增至專案](workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-to-project-as-task-or-issue.md)
@@ -2457,7 +2457,7 @@ ht-degree: 2%
       * [更新使用預設API版本設定的整合](wf-api/api/update-default-api-versioning.md)
       * [篩選事件訂閱訊息](wf-api/api/filter-event-sub-messages.md)
       * [事件訂閱資源欄位](wf-api/api/event-sub-resource-fields.md)
-      * [事件訂閱憑證](wf-api/api/event-sub-certs.md)
+      * [設定事件訂閱的使用者端TLS](wf-api/api/event-sub-certs.md)
       * [在您的整合中指定API版本](wf-api/api/specify-api-version-integrations.md)
       * [核心API變更：狀態搜尋回應](wf-api/api/api-changes-search.md)
       * [API版本設定和支援排程](wf-api/api/api-version-support-schedule.md)
@@ -2466,8 +2466,8 @@ ht-degree: 2%
       * [使用JWT流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-jwt-flow.md)
       * [使用PKCE流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-pkce-flow.md)
       * [棄用API — 內部](wf-api/api/deprecation-api-internal.md)
-      * [ API 20版的新增功能](wf-api/api/new-api-version-20.md)
-      * [ API 19版的新增功能](wf-api/api/new-api-version-19.md)
+      * [ API 20](wf-api/api/new-api-version-20.md)版的新增功能
+      * [ API 19](wf-api/api/new-api-version-19.md)版的新增功能
       * [API 18版的新增功能](wf-api/api/new-api-version-18.md)
       * [API 17版的新增功能](wf-api/api/new-api-version-17.md)
       * [API 16版的新增功能](wf-api/api/new-api-version-16.md)
