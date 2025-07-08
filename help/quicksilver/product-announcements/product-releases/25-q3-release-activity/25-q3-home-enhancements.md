@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91789b7b-3aec-415c-a03d-e06d0c43a263
-source-git-commit: 9808596e561ef30cc0edf5006f5ac2f190ed64f5
+source-git-commit: 69677755d3e2f018169461683caf5750fba4fde0
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,12 @@ ht-degree: 0%
 如需2025年第三季度發行週期中目前可用的所有變更清單，請參閱[2025年第三季度發行概觀](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)。
 
 ## 所有核准Widget已重新命名為檔案核准量度
+
+>[!NOTE]
+>
+>* 預覽： 2025年6月30日
+>* 生產快速發行： 2025年6月30日
+>* 適用於所有客戶的生產： 2025年6月30日
 
 我們已重新命名所有核准Widget為檔案核准量度，以更準確地反映其顯示的資訊。 檔案核准量度Widget為您擁有的專案提供檔案核准的高層級深入分析。
 
