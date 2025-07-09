@@ -6,9 +6,9 @@ description: 計畫工作在Adobe Workfront中以專案和任務表示。 不過
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 8e9d9c9489d43917386e581ac9834fbb65b33d25
 workflow-type: tm+mt
-source-wordcount: '2680'
+source-wordcount: '2863'
 ht-degree: 1%
 
 ---
@@ -25,9 +25,9 @@ ht-degree: 1%
 </div>
 -->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 計畫工作在Adobe Workfront中以專案和任務表示。 不過，您可能會在一個環境中工作，在這種環境中，非計畫工作（以請求的形式）可以隨時進入。 Workfront透過使用請求佇列提供可容納這種環境型別的工作流程。
 
@@ -142,7 +142,7 @@ Workfront管理員必須建立「請求佇列」的下列元件：
 
    **新要求**&#x200B;方塊開啟。
 
-1. （視條件而定）如果您切換至包含Workfront Planning的新體驗，**新請求**&#x200B;方塊會顯示下列專案：</span>
+1. （視條件而定）如果您切換到包含Workfront Planning的新體驗，而且是在生產環境中，則&#x200B;**新請求**&#x200B;方塊會顯示下列專案：</span>
 
    * 最近存取的6個Workfront請求佇列及Planning請求表單會顯示在「最近」區段中。
    * 在&#x200B;**所有請求表單**&#x200B;區段中，以字母順序顯示50個額外的Workfront請求佇列和Planning請求表單。 您可以搜尋預設不會顯示的請求佇列。
@@ -150,6 +150,13 @@ Workfront管理員必須建立「請求佇列」的下列元件：
    ![具有計畫要求的統一工作流程的新要求方塊](assets/new-request-box-with-unified-workflow-for-planning-requests.png)
 
    按一下其中一個Workfront請求佇列卡片，或搜尋其中一個卡片，然後當卡片顯示在清單中時，按一下該卡片。
+1. <span class="preview">（視條件而定）如果您切換至包含Workfront Planning的新體驗，而且是在預覽環境中，則&#x200B;**新請求**&#x200B;方塊會顯示下列專案：</span>
+
+   <ul><span class="preview"><li>最近存取的6個Workfront請求佇列及Planning請求表單會顯示在「最近」區段中。 </li></span>
+    <span class="preview"><li>所有其他Workfront和Planning要求表單<b>所有要求表單</b>區段。 您可以搜尋預設不會顯示的請求表單。 </li></span>
+    <span class="preview"><li>所有其他Workfront和Planning請求佇列路徑會顯示在<b>所有請求路徑</b>區段中。 您可以搜尋預設不會顯示的請求佇列。</li></span></ul>
+    <span class="preview">按一下其中一個Workfront要求佇列路徑或表單，或搜尋其中一個路徑或表單，然後在清單中顯示時按一下它。</span>
+
 1. （視條件而定）如果您切換至包含Workfront Planning的新體驗，請選取您的主題群組和佇列主題，並繼續更新表單。
 
    否則，請在&#x200B;**要求型別**&#x200B;欄位內按一下，然後執行下列任一項作業：
@@ -221,7 +228,7 @@ Workfront管理員必須建立「請求佇列」的下列元件：
    >當您將滑鼠游標停留在「主題群組」或「佇列主題」上時，「說明」欄位就會顯示在右側。 這包含有關主題群組或佇列主題的其他資訊。
    >
    >
-   >![](assets/show-description-on-queue-topic-when-submitting-request-nwe-350x81.png)   >
+   >![](assets/show-description-on-queue-topic-when-submitting-request-nwe-350x81.png)
    >
 
    您的請求佇列中最多可包含10層主題群組。\
@@ -323,7 +330,7 @@ Workfront管理員必須建立「請求佇列」的下列元件：
 
 1. 執行下列其中一項：
 
-   * 如果您已準備好提交要求，請按一下&#x200B;**提交**。 請求會儲存在已提交區段中。 根據「請求佇列」的「路由規則」，此請求可能會路由至指定為「請求佇列」的不同專案。 如需路由規則的詳細資訊，請參閱[建立路由規則](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)。
+   * 如果您已準備好提交要求，請按一下&#x200B;**提交**。 請求會儲存在「已提交」區段。 根據「請求佇列」的「路由規則」，此請求可能會路由至指定為「請求佇列」的不同專案。 如需路由規則的詳細資訊，請參閱[建立路由規則](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)。
 
      或
 
