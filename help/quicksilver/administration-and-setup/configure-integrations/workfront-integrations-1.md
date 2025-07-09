@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 273db4b8e9b59930dc640a342dbeb276c22ccda3
+source-git-commit: af54faae1e78d7ffbe679fd82dfb5a3abd45f5cf
 workflow-type: tm+mt
-source-wordcount: '1407'
+source-wordcount: '1292'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ ht-degree: 0%
      <li>After Effects </li>
      </ul>
      <li><p>從<a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>下載/安裝。</p></li></ul>
-     <p>如需資訊與指示，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">為[!DNL Creative Cloud]應用程式安裝[!DNL Adobe Workfront]外掛程式</a></p> 
+     <p>如需資訊與指示，請參閱<a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">為[!DNL Adobe Workfront]應用程式安裝[!DNL Creative Cloud]外掛程式</a></p> 
      </td>  <td> </td> 
    <td> </td> 
   </tr> 
@@ -187,7 +187,7 @@ ht-degree: 0%
     </ul> <p>如需詳細資訊，請參閱<a href="../../workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md" class="MCXref xref">[!DNL Adobe Workfront for Jira]</a>。</p> </td> 
    <td> 
     <ul> 
-     <li><p>新的Workfront計畫： [!UICONTROL Select] [!DNL Workfront]計畫或以上</p><p>目前的Workfront計畫： [!UICONTROL Pro] [!DNL Workfront]計畫或以上</p> </li> 
+     <li><p>新的Workfront計畫： [！UICONTROL Select] [!DNL Workfront]計畫或以上</p><p>目前的Workfront計畫： [！UICONTROL Pro] [!DNL Workfront]計畫或以上</p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
@@ -195,16 +195,16 @@ ht-degree: 0%
      <li>非[!DNL Jira]管理員必須向[!DNL Jira]管理員要求並授與存取權</li> 
     </ul> </td> 
   </tr> 
-  <tr> 
-   <td>[!DNL Microsoft] 行事曆([!DNL Office 365] / [!DNL Outlook Live])</td> 
+  <!--<tr> 
+   <td>[!DNL Microsoft] Calendars ([!DNL Office 365] / [!DNL Outlook Live])</td> 
    <td> 
     <ul> 
-     <li> <p>與雲端託管[!DNL Office 365]或[!DNL Outlook Live.]中的Web型[!DNL Outlook]版本整合 </p> </li> 
-     <li> <p>在[!UICONTROL 首頁行事曆]中，顯示您[!DNL Outlook]行事曆及您選取的任何相關行事曆（例如生日與節假日行事曆）中的所有事件。</p> </li> 
-    </ul> <p><b>注意</b>： [!UICONTROL Outlook]行事曆組態與[!DNL Outlook]增益集完全不同（[!DNL Outlook]整合或[!DNL Workfront for Outlook]）。 不需要安裝即可設定行事曆。</p></td> 
-   <td> </td> 
-   <td> </td> 
-  </tr> 
+     <li> <p>Integrate with a web-based version of [!DNL Outlook] in cloud-hosted [!DNL Office 365] or [!DNL Outlook Live.] </p> </li> 
+     <li> <p>Display all events from your [!DNL Outlook] calendar and any associated calendars you select, such as Birthdays and Holidays calendars, in your [!UICONTROL Home Calendar].</p> </li> 
+    </ul> <p><b>NOTE</b>: The [!UICONTROL Outlook] calendar configuration is completely separate from the [!DNL Outlook] Add-in ([!DNL Outlook] Integration or [!DNL Workfront for Outlook]). There's no installation required to configure the calendar.</p></td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> -->
   <tr> 
    <td> <p>[!DNL Microsoft OneDrive]</p> <p> <img src="assets/microsoft-onedrive.png"> </p> </td> 
    <td> 
@@ -214,32 +214,32 @@ ht-degree: 0%
    <td> </td> 
    <td> </td> 
   </tr> 
-  <tr> 
+  <!--<tr> 
    <td> <p>[!DNL Microsoft Outlook]</p> <p> <img src="assets/outlook.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
-     <li>使用電子郵件中的資訊更新現有的專案/任務/問題 </li> 
-     <li>直接從您的收件匣將電子郵件轉換為Workfront專案 </li> 
-     <li>從電子郵件建立新任務 </li> 
-     <li>註解[!DNL Workfront]個專案 </li> 
-    </ul> <p>如需詳細資訊，請參閱<a href="../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md" class="MCXref xref">[!DNL Adobe Workfront for Outlook]</a>。</p> </td> 
+     <li>Update an existing project/task/issue with info from an email </li> 
+     <li>Convert emails into Workfront items right from your inbox </li> 
+     <li>Create new tasks from an email </li> 
+     <li>Comment on [!DNL Workfront] items </li> 
+    </ul> <p>For more information, see <a href="../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md" class="MCXref xref">[!DNL Adobe Workfront for Outlook]</a>.</p> </td> 
    <td> 
     <ul> 
-     <li>[!DNL Outlook] 2013或2016用於[!DNL Windows]和[!DNL Outlook] 2016 [!DNL Mac] </li> 
-     <li>[!DNL Outlook] 網頁上的2016年必須是[!DNL Exchange]且[!DNL Office] 365 </li> 
-     <li>[!DNL Outlook Web Access] 必須為[!DNL Exchange] 2013 </li> 
-     <li>直接連線到[!DNL Exchange]伺服器或 [!DNL Office 365]</li> 
+     <li>[!DNL Outlook] 2013 or 2016 for [!DNL Windows] and [!DNL Outlook] 2016 for [!DNL Mac] </li> 
+     <li>[!DNL Outlook] on the web must be for [!DNL Exchange] 2016 and [!DNL Office] 365 </li> 
+     <li>[!DNL Outlook Web Access] must be for [!DNL Exchange] 2013 </li> 
+     <li>Direct connection to an [!DNL Exchange] Server or [!DNL Office 365]</li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li>[!DNL Workfront] 管理員 </li> 
-    </ul> </td> 
+     <li>[!DNL Workfront] administrator </li> 
+    </ul> </td>--> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Microsoft Teams]</p> <p> <img src="assets/msteamslogo.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
-     <li>取得[!DNL Microsoft]團隊中的[!DNL Workfront]個通知 </li> 
+     <li>取得[!DNL Workfront]團隊中的[!DNL Microsoft]個通知 </li> 
      <li>進行核准決定 </li> 
      <li>搜尋[!DNL Workfront]個專案、任務和問題 </li> 
      <li>建立[!DNL Workfront]個人任務 </li> 
@@ -258,12 +258,12 @@ ht-degree: 0%
    <td> <p>[!DNL Salesforce]</p> <p> <img src="assets/salesforce-logo-web-2019.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
-     <li>建立來自[!DNL Salesforce]的新[!DNL Workfront]請求 </li> 
+     <li>建立來自[!DNL Workfront]的新[!DNL Salesforce]請求 </li> 
      <li>建立[!DNL Workfront]個專案，從 [!DNL Salesforce]</li> 
     </ul> <p>如需詳細資訊，請參閱<a href="../../workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce.md" class="MCXref xref">[!DNL Adobe Workfront for Salesforce]</a>。</p> </td> 
    <td> 
     <ul> 
-     <li><p>新的Workfront計畫： [!UICONTROL Select] [!DNL Workfront]計畫或以上</p><p>目前的Workfront計畫： [!UICONTROL Pro] [!DNL Workfront]計畫或以上</p> </li> 
+     <li><p>新的Workfront計畫： [！UICONTROL Select] [!DNL Workfront]計畫或以上</p><p>目前的Workfront計畫： [！UICONTROL Pro] [!DNL Workfront]計畫或以上</p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
@@ -284,9 +284,9 @@ ht-degree: 0%
    <td> <p>[!DNL Slack]</p> <p> <img src="assets/slacklogo.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
-     <li>在[!DNL Slack]中接收[!DNL Workfront]個通知 </li> 
+     <li>在[!DNL Workfront]中接收[!DNL Slack]個通知 </li> 
      <li>在[!DNL Slack]中管理核准 </li> 
-     <li>從[!DNL Slack]建立[!DNL Workfront]個任務和問題 </li> 
+     <li>從[!DNL Workfront]建立[!DNL Slack]個任務和問題 </li> 
      <li>將註解張貼至專案或任務，從 [!DNL Slack]</li> 
     </ul> <p>如需詳細資訊，請參閱<a href="../../workfront-integrations-and-apps/using-workfront-with-slack/use-workfront-for-slack.md" class="MCXref xref">[!DNL Adobe Workfront for Slack]</a>。</p> </td> 
    <td> 
@@ -320,7 +320,7 @@ ht-degree: 0%
 
   [!DNL Adobe Workfront Fusion]連結應用程式和服務內部及之間的動作，以建立自動傳輸和轉換資料的情境。 它擁有可連線許多應用程式的專用聯結器，但可以使用公用API連線至任何應用程式。
 
-  如需詳細資訊，請參閱[[!DNL Adobe Workfront Fusion] 總覽](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+  如需詳細資訊，請參閱[[!DNL Adobe Workfront Fusion] 總覽](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 
 * [!DNL Adobe Experience Manager Assets]
 * [!DNL Anaplan] （需要[!DNL Workfront Fusion]）
