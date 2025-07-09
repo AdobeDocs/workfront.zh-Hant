@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: f02a07c0bc4568d7e0fa25ca6e880024423527b7
+source-git-commit: d950346c549d22c7a8db82ce032caa24202f9126
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '881'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,23 @@ ht-degree: 0%
 本頁說明2025年第三季度版本中針對預覽環境所進行的專案增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2025年第三季度發行週期中目前可用的所有變更清單，請參閱[2025年第三季度發行概觀](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)。
+
+## 提出請求時的體驗更新
+
+>[!NOTE]
+>
+>* 預覽： 2025年7月9日
+>* 生產快速發行： 2025年7月17日
+>* 適用於所有客戶的生產： 2025年7月17日
+
+我們已更新在新的請求體驗中提出請求時的體驗。
+
+* 可用的請求表單和路徑會出現在清單中，而不是卡片上。 最近一次出現在頂端附近的區段中。
+* 所有請求表單(包括Workfront和Workfront Planning請求表單)都會顯示在清單中。 之前，只顯示前50個。
+* 請求路徑和請求表單會列在個別的區段中，包括最近使用的區域及下方較大型的清單中。
+* 當您搜尋請求佇列時，清單會篩選以僅顯示包含搜尋字詞的表單和路徑。 每個顯示的請求表單或路徑都會反白顯示搜尋字詞。
+
+如需提出要求的資訊，請參閱[建立及提交要求](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)。
 
 ## 以舊版實際時數取代現有實際時數欄位，並建立新的實際時數欄位
 
@@ -37,12 +54,12 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >根據記錄時數的時間，專案、任務或問題的實際時數與舊版實際時數之間可能會出現差異。<br>
->&#x200B;>存在下列情況：
+>>存在下列情況：
 >
 >* 實際時數代表自2021年5月起為專案、任務和問題記錄的時數。
 >* 舊版實際時數代表專案、任務或問題存留期內的專案、任務或問題記錄時數。 這包括在2021年5月之前記錄到目前時間的小時數。
->  &#x200B;><br>您可能需要更新報告以反映新欄位及其值。
->  &#x200B;><br>Workfront使用舊版實際時數來計算實際勞力成本。
+>  ><br>您可能需要更新報告以反映新欄位及其值。
+>  ><br>Workfront使用舊版實際時數來計算實際勞力成本。
 
 如需詳細資訊，請參閱[檢視實際時數](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md)。
 
@@ -96,3 +113,5 @@ ht-degree: 0%
 以前，AI助理的回應中不會提供此資訊。
 
 如需有關使用AI助理取得Workfront專案相關資訊的資訊，請參閱[使用AI助理處理專案、任務和問題](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md)。
+
+
