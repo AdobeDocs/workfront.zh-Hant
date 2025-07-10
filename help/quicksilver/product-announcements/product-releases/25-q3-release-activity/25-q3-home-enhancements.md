@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91789b7b-3aec-415c-a03d-e06d0c43a263
-source-git-commit: 69677755d3e2f018169461683caf5750fba4fde0
+source-git-commit: a1295e5dfa3c608c5f1eca9cabb67bd402617db5
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,11 @@ ht-degree: 0%
 >* 生產快速發行： 2025年6月30日
 >* 適用於所有客戶的生產： 2025年6月30日
 
-我們已重新命名所有核准Widget為檔案核准量度，以更準確地反映其顯示的資訊。 檔案核准量度Widget為您擁有的專案提供檔案核准的高層級深入分析。
+我們已重新命名所有核准Widget為檔案核准量度，以更準確地反映其顯示的資訊。 檔案核准量度Widget為您擁有的專案提供檔案核准的高層級深入分析。 您必須啟用[整合式核准](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)，才能使用此Widget。
 
 此Widget不包含任何有關校訂核准的資訊。
+
+如需詳細資訊，請參閱[開始使用首頁](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md)。
 
 ## 更新「我的更新」區域中「提及」區段的註解體驗
 
