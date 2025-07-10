@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 04818bc054c3bab6e6208b6678365549664d1594
+source-git-commit: 4fafdcea97874e791104260375617e3989af1870
 workflow-type: tm+mt
-source-wordcount: '3720'
+source-wordcount: '3758'
 ht-degree: 2%
 
 ---
@@ -270,7 +270,7 @@ ht-degree: 2%
 1. 選取表格檢視，然後按一下表格右上角的&#x200B;**篩選器**。
 1. 按一下&#x200B;**新增條件**&#x200B;並新增下列資訊：
 
-   * **選取您要依<!-- the tip below might change-->篩選的欄位**
+   * **選取您要依**&#x200B;篩選的欄位<!-- the tip below might change-->
 
    * **選取選項** （或篩選修飾元）以定義欄位必須符合何種條件
 
@@ -573,13 +573,20 @@ To sort grouped records:
 若要從表格檢視或記錄型別匯出資訊，請執行下列動作：
 
 1. 移至記錄型別頁面，然後按一下表格檢視標籤。
-1. 暫留在表格檢視標簽名稱上，然後按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)。
+1. 執行下列其中一項：
+
+   * 暫留在表格檢視標簽名稱上，然後按一下檢視名稱右邊的&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下&#x200B;**匯出**。
 
    檢視表上的![更多功能表](assets/view-more-menu-with-duplicate-option.png)
-1. 按一下&#x200B;**匯出**，然後選取下列其中一種格式：
 
-   * Excel
-   * CSV
+   * 按一下「共用&#x200B;**>**&#x200B;匯出目前的檢視&#x200B;**」。**&#x200B;只有在顯示表格檢視時，才能使用此選項。
+
+   ![含有記錄型別和檢視共用選項的[共用]按鈕](assets/share-button-with-record-type-and-view-sharing-options.png)
+
+1. 選取下列其中一種格式：
+
+   * **Excel**
+   * **CSV**
 
    >[!IMPORTANT]
    >

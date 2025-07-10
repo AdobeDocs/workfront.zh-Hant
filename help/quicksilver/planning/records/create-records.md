@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 4fafdcea97874e791104260375617e3989af1870
 workflow-type: tm+mt
-source-wordcount: '2419'
+source-wordcount: '2468'
 ht-degree: 0%
 
 ---
@@ -133,7 +133,11 @@ ht-degree: 0%
 
 1. （視條件而定）從表格檢視中，執行下列任一項作業：
 
-   * 在表格的最後一列按一下&#x200B;**新增記錄**
+   * 在表格的最後一列或群組的最後一筆記錄之後，按一下&#x200B;**新增記錄**
+
+     >[!TIP]
+     >
+     ><span class="preview">當您在分組或子分組中的最後一個記錄之後新增記錄時，Workfront會自動填入分組中包含的欄位。 如有需要，您可以手動編輯這些欄位，記錄可能會從分組中移除。</span>
 
    * 在表格的任何欄或列按一下鍵盤上的&#x200B;**Shift + Enter**。 這會在您開始的記錄底下新增一個空白列。
    * 暫留在記錄的主要欄位上，按一下欄位右邊的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**插入上方記錄**&#x200B;或&#x200B;**插入下方記錄**。
@@ -205,15 +209,15 @@ ht-degree: 0%
 
 1. （視條件而定）根據工作區<!--<span class="preview">and record type</span>-->許可權，從任何檢視按一下畫面右上角的下列專案：
 
-   * 如果您在工作區<!--<span class="preview">and record type</span>-->上有Contribute或更高的許可權，請按一下&#x200B;**新增記錄**
+   * 如果您在工作區&#x200B;**上有Contribute或更高的許可權，請按一下**&#x200B;新增記錄<!--<span class="preview">and record type</span>-->
 
      或
 
-   * 若您擁有工作區<!--<span class="preview">and record type</span>-->的檢視許可權，請按一下&#x200B;**要求記錄**。
+   * 若您擁有工作區&#x200B;**的檢視許可權，請按一下**&#x200B;要求記錄<!--<span class="preview">and record type</span>-->。
 
 1. （視條件而定）如果您按一下&#x200B;**新記錄**，請執行下列動作：
 
-   1. 按一下下列其中一個方式來建立記錄，然後按一下[繼續]&#x200B;**&#x200B;**：
+   1. 按一下下列其中一個方式來建立記錄，然後按一下[繼續]****：
 
       * **手動新增**。 記錄的預覽方塊開啟。\
         從步驟6開始，新增記錄的相關資訊，如[從本文中的記錄型別資料表檢視](#create-records-by-adding-them-inline-from-the-record-type-table-view)區段內嵌新增記錄，以建立記錄中所述。<!--insure this stays accurate-->
@@ -337,7 +341,7 @@ You can import records from other applications by linking them to existing recor
 1. （視條件而定）如果嘗試連線時找不到記錄，請按一下[新增] **+ [新增]**
 
    或
-開始輸入名稱，然後按一下&#x200B;**+新增**。 **+新增**&#x200B;按鈕後面接著您連線的記錄型別名稱。 例如，將品牌新增至現有行銷活動時，「新增品牌」。 您輸入的名稱也會跟著新增按鈕。
+開始輸入名稱，然後按一下**+新增**。 **+新增**&#x200B;按鈕後面接著您連線的記錄型別名稱。 例如，將品牌新增至現有行銷活動時，「新增品牌」。 您輸入的名稱也會跟著新增按鈕。
 
    ![新增按鈕以在醒目提示的內容中建立記錄](assets/add-button-to-create-records-in-context-highlighted.png)
 

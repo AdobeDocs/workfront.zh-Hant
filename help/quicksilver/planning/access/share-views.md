@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: e8e8e12bef55303c65894aa495f7554a9f1a811c
 workflow-type: tm+mt
-source-wordcount: '1653'
-ht-degree: 1%
+source-wordcount: '1950'
+ht-degree: 0%
 
 ---
 
@@ -32,11 +32,6 @@ ht-degree: 1%
 >
 >* 當您共用檢視時，您會授予其他人存取檢視所有元素的許可權。 例如，當您將檢視的管理許可權授予他們時，他們可以修改分組、篩選、排序或長條圖外觀。
 
-
-您可以與下列實體共用檢視：
-
-* 內部，具有Workfront使用者、群組、團隊、公司和職位角色
-* 公開，與Workfront以外的使用者一起
 
 <!--
 This article describes how you can share a view with others. For information about requesting, granting, or denying permissions to a view, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md). -->
@@ -118,6 +113,13 @@ This article describes how you can share a view with others. For information abo
 
 ## 共用檢視時的注意事項
 
+* 您可以透過下列方式共用檢視：
+
+   * 內部，具有Workfront使用者、群組、團隊、公司和職位角色
+   * 公開，與Workfront以外的使用者一起
+   * 複製並共用檢視的連結
+   * 將其匯出為Excel或CSV檔案。 您只能將表格檢視匯出至檔案。 如需詳細資訊，請參閱[管理資料表檢視](/help/quicksilver/planning/views/manage-the-table-view.md)。
+
 * 如需在Workfront Planning中共用物件的一般資訊，另請參閱[在Adobe Workfront Planning中共用許可權概觀](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
 * 您可以將檢視或管理許可權授予內部Workfront使用者。
 
@@ -145,11 +147,17 @@ This article describes how you can share a view with others. For information abo
 
    這會開啟記錄型別頁面。
 
-1. <span class="preview">在[檢視]索引標籤中，將滑鼠停留在您要共用的檢視上，然後按一下檢視名稱右邊的&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下&#x200B;**共用**。</span>
+1. 從[檢視]索引標籤，<span class="preview">執行下列任一項作業：</span>
 
-   檢視的<span class="preview">![更多功能表](assets/more-menu-for-views-expanded-with-share-option.png) </span>
+   * 暫留在您要共用的檢視表名稱上，然後按一下檢視表名稱右邊的&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下&#x200B;**共用**。
 
-   依預設，應該選取&#x200B;**內部共用**&#x200B;標籤。
+     檢視的其他![功能表](assets/more-menu-for-views-expanded-with-share-option.png)
+
+   * <span class="preview">按一下&#x200B;**共用** > **共用目前的檢視**</span>
+
+     <span class="preview">![含有記錄型別和檢視共用選項的[共用]按鈕](assets/share-button-with-record-type-and-view-sharing-options.png)</span>
+
+   **共用檢視**&#x200B;方塊開啟，預設應該選取&#x200B;**內部共用**&#x200B;標籤。
 
 1. （選擇性）在&#x200B;**擁有存取權**&#x200B;區域中，從下列選項中選取：
 
@@ -174,7 +182,6 @@ This article describes how you can share a view with others. For information abo
 
      系統管理員一律會獲得與其共用檢視的管理許可權。
 
-1. 按一下&#x200B;**複製連結**&#x200B;以將檢視的連結複製到剪貼簿。
 1. 按一下「**儲存**」。
 
    檢視會以人員圖示![與他人共用的檢檢視示](assets/view-shared-with-others-people-icon.png)更新，表示檢視現在與其他使用者共用。
@@ -202,9 +209,14 @@ This article describes how you can share a view with others. For information abo
 
    這會開啟記錄型別頁面。
 
-1. <span class="preview">在[檢視]索引標籤中，將滑鼠停留在您要共用的檢視上，然後按一下檢視名稱右邊的&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下&#x200B;**共用**。</span>
+1. 在檢視標籤中，執行下列任一項作業：
 
-   <span class="preview">![更多以共用選項展開的檢視功能表](assets/more-menu-for-views-expanded-with-share-option.png)</span>
+   * 暫留在您要共用的檢視表名稱上，然後按一下檢視表名稱右邊的&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下&#x200B;**共用**。
+
+   ![更多以共用選項展開的檢視功能表](assets/more-menu-for-views-expanded-with-share-option.png)
+   * <span class="preview">按一下&#x200B;**共用** > **共用目前的檢視**</span>
+
+   **共用檢視**&#x200B;方塊開啟。
 
 1. 按一下&#x200B;**公用共用**。
 
@@ -229,6 +241,34 @@ This article describes how you can share a view with others. For information abo
 
 1. （可選）將您複製的連結貼到電子郵件、聊天訊息、檔案，或貼到Workfront註解中，以便與其他人共用。
 
+## 複製檢視的連結
+
+您可以將檢視的連結複製到剪貼簿，並將連結加入其他應用程式中或與其他人共用。
+
+若要複製公開共用檢視的連結，請參閱本文中的[共用公開檢視的許可權](#share-permissions-to-a-view-publicly)一節。
+
+本節說明如何在內部共用檢視。
+
+>[!IMPORTANT]
+>
+>首先，您必須先與使用者共用檢視，然後再共用檢視的連結，使用者才能檢視檢視。
+
+
+{{step1-to-planning}}
+
+1. 開啟您要複製並共用連結之檢視的工作區，然後按一下記錄型別卡片。
+
+   這會開啟記錄型別頁面。
+
+1. 在檢視的標籤中，執行下列任一項作業：
+
+   * 暫留在您要共用的檢視標籤上，然後按一下檢視名稱右邊的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**共用檢視**&#x200B;方塊中的&#x200B;**共用** > **複製連結**。
+   * <span class="preview">按一下&#x200B;**共用檢視**&#x200B;方塊中的&#x200B;**共用**</span> > **複製檢視連結** > **複製連結**。
+
+   檢視的連結會複製到剪貼簿，而您會在畫面底部收到確認。
+
+   您現在可以將連結貼上至其他應用程式，或傳送給其他應用程式。
+
 ## 從許可權要求授予檢視的許可權
 
 使用者若沒有許可權存取檢視的連結，可要求該檢視的許可權。 具有檢視之「管理」許可權的所有使用者都會收到許可權要求，並可授予或拒絕許可權。
@@ -236,14 +276,12 @@ This article describes how you can share a view with others. For information abo
 1. （視條件而定）如果您是檢視的管理員，您可能會收到其他使用者存取下列區域檢視的請求：
 
    * 應用程式內通知
-
      ![檢視](assets/in-app-notification-for-access-request-for-view.png)存取要求的應用程式內通知
    * 電子郵件通知
-
      ![檢視](assets/in-app-notification-for-access-request-for-view.png)存取要求的應用程式內通知
 1. （視條件而定）從Workfront的通知區域，按一下應用程式內通知
 或
-在電子郵件通知中，按一下&#x200B;**檢視所有通知**，然後按一下清單中的通知。
+在電子郵件通知中，按一下**檢視所有通知**，然後按一下清單中的通知。
 
    顯示&#x200B;**擱置中的存取要求**&#x200B;方塊。
 
@@ -261,7 +299,13 @@ This article describes how you can share a view with others. For information abo
 {{step1-to-planning}}
 
 1. 開啟您要停止共用其檢視的工作區，然後按一下記錄型別卡片。 這會開啟記錄型別頁面。
-1. 將滑鼠停留在您要移除共用之檢視的索引標簽名稱上，然後按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下&#x200B;**共用**。
+1. 從[檢視]索引標籤，<span class="preview">執行下列其中一項作業：</span>
+
+   * 暫留在您要共用的檢視表名稱上，然後按一下檢視表名稱右邊的&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下&#x200B;**共用**。
+
+   * <span class="preview">按一下&#x200B;**共用** > **共用目前的檢視**</span>
+
+   **共用檢視**&#x200B;方塊開啟。
 1. 若要移除檢視的內部共用，請執行下列動作：
 
    1. 請確定已選取&#x200B;**內部共用**&#x200B;標籤。

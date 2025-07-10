@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 5f9f4d4f100557238d9ff8d7f571108de4341c75
 workflow-type: tm+mt
-source-wordcount: '2255'
+source-wordcount: '2305'
 ht-degree: 0%
 
 ---
@@ -140,6 +140,10 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)。
 
+<span class="preview">當您在群組或子群組中的最後一個記錄之後新增記錄時，Workfront會自動更新新記錄之群組中包含的欄位。 如有需要，您可以手動編輯這些欄位，記錄可能會從分組中移除。</span>
+
+如需詳細資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md)。
+
 {{step1-to-planning}}
 
 1. 按一下您要編輯其記錄的工作區
@@ -171,7 +175,7 @@ ht-degree: 0%
    * 新增專案符號清單
    * 新增編號清單
 
-   段落欄位![&#128279;](assets/rich-text-toolbar-on-paragraph-field.png)上的RTF文字工具列
+   段落欄位![上的](assets/rich-text-toolbar-on-paragraph-field.png)RTF文字工具列
 
 1. （選擇性）連按兩下連線的記錄欄位，以將連線的記錄或物件新增至其他記錄。 如需詳細資訊，請參閱[連線記錄](/help/quicksilver/planning/records/connect-records.md)。
 1. 在鍵盤上按&#x200B;**Enter**，或按一下資料列外部以儲存變更。 變更會自動儲存。 **已儲存**&#x200B;指標會短暫顯示在表格檢視的右上角，顯示變更已儲存。
@@ -267,7 +271,7 @@ ht-degree: 0%
 
    ![REal-time indicator expanded record preview box](assets/real-time-indicator-expanded-record-preview-box.png)
 
-1. （選擇性）按一下記錄詳細資料頁面![&#128279;](assets/export-icon-in-record-details-page.png)中的&#x200B;**匯出**&#x200B;功能表匯出圖示，以匯出記錄的詳細資料。 如需詳細資訊，請參閱[匯出記錄的詳細資料](/help/quicksilver/planning/records/export-the-record-page.md)。
+1. （選擇性）按一下記錄詳細資料頁面&#x200B;**中的**&#x200B;匯出![功能表](assets/export-icon-in-record-details-page.png)匯出圖示，以匯出記錄的詳細資料。 如需詳細資訊，請參閱[匯出記錄的詳細資料](/help/quicksilver/planning/records/export-the-record-page.md)。
 
 1. （選擇性）按一下記錄預覽右上角的&#x200B;**在新索引標籤中開啟**&#x200B;圖示![在新索引標籤圖示中開啟詳細資料](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->，以在新索引標籤中開啟記錄的頁面。 繼續編輯記錄，如本文中[從記錄頁面](#edit-a-record-from-the-records-page)區段編輯記錄。
 
@@ -331,7 +335,7 @@ ht-degree: 0%
 
    ![即時指標展開的記錄預覽方塊](assets/real-time-indicator-expanded-record-preview-box.png)
 
-1. （選擇性）按一下記錄詳細資料頁面![&#128279;](assets/export-icon-in-record-details-page.png)中的&#x200B;**匯出**&#x200B;功能表匯出圖示，以匯出記錄的詳細資料。 如需詳細資訊，請參閱[匯出記錄的詳細資料](/help/quicksilver/planning/records/export-the-record-page.md)。
+1. （選擇性）按一下記錄詳細資料頁面&#x200B;**中的**&#x200B;匯出![功能表](assets/export-icon-in-record-details-page.png)匯出圖示，以匯出記錄的詳細資料。 如需詳細資訊，請參閱[匯出記錄的詳細資料](/help/quicksilver/planning/records/export-the-record-page.md)。
 
 
 ## 在Planning區段中編輯Workfront物件的記錄

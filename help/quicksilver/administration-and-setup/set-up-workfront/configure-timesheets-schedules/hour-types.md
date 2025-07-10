@@ -9,9 +9,9 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: f35da9077b0422ba939ed9f6285835897f28874c
+source-git-commit: 4fafdcea97874e791104260375617e3989af1870
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '843'
 ht-degree: 1%
 
 ---
@@ -23,13 +23,14 @@ ht-degree: 1%
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
 **Linked to Creating Billing Record-->
 
-<div class="preview">
+<!--<div class="preview">
 
-本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在預覽版發佈一週後，生產環境中也將提供相同功能給所有客戶。
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
 
-如需詳細資訊，請參閱[介面現代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
 
 </div>
+-->
 
 小時型別是您用來定義小時專案的標籤。 您可以將時數型別與時數專案建立關聯。
 
@@ -119,19 +120,19 @@ Workfront隨附一組內建時數型別。 這些小時型別無法編輯或隱�
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 名稱]</td> 
+      <td role="rowheader">[！UICONTROL名稱]</td> 
       <td>輸入在系統中可輕鬆識別的小時型別名稱。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 說明]</td> 
+      <td role="rowheader">[！UICONTROL說明]</td> 
       <td>新增小時型別的說明。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 範圍]</td> 
-      <td> <p>在<strong>範圍</strong>下拉式功能表中，選取時數型別是一般或專案特定的時數型別。</p> <p>一般小時型別僅在時程表中可見，並且不能與專案、任務或問題相關聯。</p> <p><b>重要</b>：如果您有特定於&lbrack;！UICONTROL專案的自訂時數型別，並且您將其變更為[!UICONTROL 一般]，則所有現有的任務、問題和專案時數都會設定為其系統預設型別。</p> </td> 
+      <td role="rowheader">[！UICONTROL範圍]</td> 
+      <td> <p>在<strong>範圍</strong>下拉式功能表中，選取時數型別是一般或專案特定的時數型別。</p> <p>一般小時型別僅在時程表中可見，並且不能與專案、任務或問題相關聯。</p> <p><b>重要</b>：如果您有特定於[！UICONTROL專案的自訂時數型別，並且您將其變更為[！UICONTROL一般]，則所有現有的任務、問題和專案時數都會設定為其系統預設型別。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 計入收入]</td> 
+      <td role="rowheader">[！UICONTROL計入收入]</td> 
       <td><p>如果您希望與此時數型別相關的時數條目影響您的收入計算，請選取此選項。</p>
       <p>病假和休假時間不計算為收入。</p>
       <p><b>附註</b></p>
@@ -165,11 +166,11 @@ Workfront隨附一組內建時數型別。 這些小時型別無法編輯或隱�
 1. 選取要停用的時數型別。
 
 
-1. <span class="preview">按一下&#x200B;**更多**，然後&#x200B;**停用**。</span>
+1. 按一下&#x200B;**更多**，然後按&#x200B;**停用**。
 
-   <span class="preview">![啟用和停用時數型別連結](assets/activate-and-deactivate-hour-type-links.png)</span>
+   ![啟用和停用時數型別連結](assets/activate-and-deactivate-hour-type-links.png)
 
-   <span class="preview">時數型別已停用，使用者在記錄時數時數時已無法找到該時數型別。</span>
+   時數型別已停用，使用者在記錄時數時數時已無法找到該型別。
 
-1. <span class="preview">（選擇性）若要重新啟用時數型別，請在&#x200B;**時數型別**&#x200B;清單中選取該時數型別，然後按一下&#x200B;**更多** > **啟用**。</span>
+1. （選擇性）若要重新啟用小時型別，請在&#x200B;**小時型別**&#x200B;清單中選取該型別，然後按一下&#x200B;**更多** > **啟用**。
 
