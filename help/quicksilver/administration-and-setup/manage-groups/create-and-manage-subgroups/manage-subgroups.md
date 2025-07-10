@@ -81,9 +81,9 @@ ht-degree: 0%
 
 1. 按一下要新增子群組的群組名稱。
 1. 在左側功能表中，按一下&#x200B;**子群組**。
-1. 若要從您檢視的群組建立新子群組，請按一下[新增子群組]。****
+1. 若要從您檢視的群組建立新子群組，請按一下[新增子群組]。**&#x200B;**
 
-   或者，如果您想要在清單中另一個子群組下方建立新的子群組，請選取該子群組，然後按一下[新增子群組]。****
+   或者，如果您想要在清單中另一個子群組下方建立新的子群組，請選取該子群組，然後按一下[新增子群組]。**&#x200B;**
 
    如需您可以用來設定子群組的選項相關資訊，請參閱[建立子群組](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md)。
 
@@ -185,7 +185,7 @@ ht-degree: 0%
 >[!TIP]
 >
 >當您停用下有子群組的群組時，這些子群組也會變成非使用中。 如果您希望其中一個處於作用中狀態，可以使用這些指示將其從父群組中移除，然後重新啟用它。
->>如需停用及重新啟動群組的說明，請參閱[停用或重新啟動群組](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md)。
+>&#x200B;>如需停用及重新啟動群組的說明，請參閱[停用或重新啟動群組](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md)。
 
 {{step-1-to-setup}}
 
