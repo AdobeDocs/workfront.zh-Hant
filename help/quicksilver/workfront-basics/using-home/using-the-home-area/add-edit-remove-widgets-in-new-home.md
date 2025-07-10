@@ -6,9 +6,9 @@ description: 您可以從多個Widget中進行選擇，以自訂首頁上顯示�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 81f32dfe-cde0-4e61-a542-9b99a18a3953
-source-git-commit: c1f5e11c6327ef86bd3f89eb383b3bf06bd4981f
+source-git-commit: 10efc850b4951c3ad1a7086d3ec087d848dde96e
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1098'
 ht-degree: 6%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 6%
         <td>我的工作、提及、待辦事項</td>
     </tr>
     <tr>
-        <td>檢閱</td>
+        <td>審閱</td>
         <td>我的工作，提及</td>
     </tr>
     <tr>
@@ -84,7 +84,7 @@ ht-degree: 6%
 
 ## 將Widget新增至首頁
 
-Widget是Home的基礎。 將Widget新增至首頁後，您就可以選擇最符合您工作需求的資訊型別。 某些Widget僅適用於特定授權型別，因為它們追蹤的物件僅適用於這些授權。 如需詳細資訊，請參閱上面特定授權型別[&#128279;](#widgets-available-for-specific-license-types)可用的Widget。
+Widget是Home的基礎。 將Widget新增至首頁後，您就可以選擇最符合您工作需求的資訊型別。 某些Widget僅適用於特定授權型別，因為它們追蹤的物件僅適用於這些授權。 如需詳細資訊，請參閱上面特定授權型別[可用的](#widgets-available-for-specific-license-types)Widget。
 
 新增Widget：
 
@@ -121,8 +121,8 @@ Widget是Home的基礎。 將Widget新增至首頁後，您就可以選擇最符
    * **我的核准**\
        顯示所有待指派或委派的核准、用於委派核准的按鈕，以及用於直接在小工具中做出核准決策的按鈕。
 
-   * **所有核准**\
-           顯示2個圖表，內含平均核准時間和決定的相關資訊，以及擱置和逾期核准的清單檢視。 <span style="color: #ff0000;">此功能是分階段發行的一部分，目前僅供特定客戶使用。</span>
+   * **檔案核准量度**\
+           顯示2個圖表，內含平均核准時間和決定的相關資訊，以及擱置和逾期核准的清單檢視。 您必須啟用[整合式核准](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)，才能使用此Widget。
 
    * **提及次數**\
        顯示來自Workfront的最近評論對話串，類似於「我的更新」頁面。 您可以使用回覆按鈕在Widget中撰寫回覆。 只要任務或問題在過去30天內已更新，此Widget也會顯示針對您指派給、您指派給其他使用者、您擁有、您是主要連絡人或您建立之任務或問題所做的評論。
@@ -166,4 +166,4 @@ Widget是Home的基礎。 將Widget新增至首頁後，您就可以選擇最符
 
    ![自訂按鈕](assets/customize-button.png)
 
-1. 在「**自訂**」面板的「**背景**」區段中，按一下您要為「首頁」背景選取的色彩。 您也可以按一下[無]來移除背景。**&#x200B;**
+1. 在「**自訂**」面板的「**背景**」區段中，按一下您要為「首頁」背景選取的色彩。 您也可以按一下[無]來移除背景。****
