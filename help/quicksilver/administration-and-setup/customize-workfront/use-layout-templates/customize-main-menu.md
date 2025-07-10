@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: 作為Adobe Workfront管理員或群組管理員，您可以使用版面配置範本來設定使用者在Workfront中開啟「主要」功能表時看到的選項。
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: bb0c3139be903e34fd01be055010673764fe9787
+source-git-commit: 00ec13dfb082ecd9b087d79b385a4eea677cf55d
 workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 3%
@@ -118,13 +118,13 @@ ht-degree: 3%
 
      >[!NOTE]
      >
-     >Planning需要額外的授權。 如需Workfront Planning的相關資訊，請參閱[Adobe Workfront Planning概觀](/help/quicksilver/planning/general/planning-overview.md)
-     > * 自訂應用程式
+     >Planning需要額外的授權。 如需Workfront Planning的相關資訊，請參閱[Adobe Workfront Planning概觀](/help/quicksilver/planning/general/planning-overview.md)。
+
+   * 自訂應用程式
 
      >[!NOTE]
      >
      > 自訂應用程式必須個別建立，才能作為主功能表選項使用。 如需詳細資訊，請參閱[使用Adobe App Builder建立Workfront的自訂應用程式](/help/quicksilver/app-builder/app-builder.md)。
-
 
 1. 執行下列任一項作業：
 
@@ -144,6 +144,6 @@ ht-degree: 3%
 
    >[!TIP]
    >
-   >您可以隨時按一下「儲存」以儲存進度，然後繼續修改範本。
+   >您可以隨時按一下[儲存]來儲存進度，然後再繼續修改範本。****
 
 如需配置範本的詳細資訊，請參閱[建立和管理配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)。
