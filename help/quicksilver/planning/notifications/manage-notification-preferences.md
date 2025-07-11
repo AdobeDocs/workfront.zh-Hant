@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: 60f2890e431065d0eb034a9254680e43a51ecab8
+source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '519'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 Workfront Planning中發生下列動作時，您可能會收到應用程式內或電子郵件通知：
 
-* 有人將您新增至記錄頁面上的註解
+* 有人將您或您的團隊新增到記錄頁面上的註解
 * 某人要求存取檢視或工作區的許可權
 * 有人授予您存取檢視或工作區<!--I could not test this but Isk confirmed-->的許可權
 * 您提交Workfront Planning請求。
@@ -129,7 +129,7 @@ Workfront Planning中發生下列動作時，您可能會收到應用程式內�
       * 您提交變更的Workfront Planning請求狀態
       * 請求、授予或拒絕對Workfront Planning請求的核准
 
-   如需有關管理通知的詳細資訊，請參閱[帳戶偏好設定和通知](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/features/account-preferences)。
+   如需有關管理通知的詳細資訊，請參閱[帳戶偏好設定和通知](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences)。
 
 <!--OLD: notifications are not available to non-IMS customers: 
 
@@ -139,7 +139,7 @@ The following scenarios exist:
 
 * Adobe Unified Experience customers receive both an in-app notification and an email notification. They can manage their in-app and email notification preferences in the Preferences area of their Adobe Experience Cloud profile for the Workfront product. 
 
-    For more information, see [Account preferences and notifications](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/features/account-preferences).
+    For more information, see [Account preferences and notifications](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 
 * Customers who are not on the Adobe Unified Experience receive only an email notification. They cannot manage their email notifications preferences and will always receive an email when someone adds them to a comment on a record in Workfront Planning.   
 

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
+source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
 workflow-type: tm+mt
-source-wordcount: '2556'
+source-wordcount: '2602'
 ht-degree: 1%
 
 ---
@@ -150,7 +150,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
      >[!TIP]
      >
-     >必須針對&#x200B;**編輯記錄型別**&#x200B;方塊的&#x200B;**進階設定**&#x200B;索引標籤中的記錄型別啟用&#x200B;**從其他工作區連線**&#x200B;設定，才能從其他工作區存取記錄型別。 如果沒有記錄型別被設定為從其他工作區連線，則工作區區段不會顯示。
+     >必須針對&#x200B;**編輯記錄型別**&#x200B;方塊的&#x200B;**進階設定**&#x200B;索引標籤中的記錄型別啟用&#x200B;**從其他工作區連線**設定，才能從其他工作區存取記錄型別。 如果沒有記錄型別被設定為從其他工作區連線，則工作區區段不會顯示。
      > ![編輯記錄型別方塊進階設定索引標籤](assets/edit-record-type-box-advanced-settings-tab.png)
 
      如需詳細資訊，請參閱[編輯記錄型別](/help/quicksilver/planning/architecture/edit-record-types.md)。
@@ -201,7 +201,11 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
    >[!TIP]
    >
-   >您無法將Workfront預先輸入欄位（包括專案所有者或專案贊助者之類的欄位）新增為查詢欄位。
+   >* 您無法將Workfront預先輸入欄位（包括專案所有者或專案贊助者之類的欄位）新增為查詢欄位。
+   >
+   >* Workfront物件的日期欄位資訊在Workfront Planning中會以24小時格式顯示，無論其在Workfront中的顯示方式為何。
+   >
+   >   例如，如果專案的計劃開始日期在Workfront中顯示為3:00 PM，則在匯入的查詢欄位中，它將在Workfront Planning中顯示為15:00。
 
 1. （有條件且選擇性）如果您選取連線Workfront物件，請從&#x200B;**僅連結符合這些條件的物件**&#x200B;區段中選取&#x200B;**自訂表單**。 只有已附加所選自訂表單的物件才能連結至所選記錄型別。 您可以選取多個表單。
 
@@ -213,7 +217,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
    >[!NOTE]
    >
-   >您的Workfront管理員可以透過Workfront中的中繼資料對應，將Workfront Planning欄位對應至Experience Manager Assets欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
+   >您的Workfront管理員可以透過Workfront中的中繼資料對應，將Workfront Planning欄位對應至Experience Manager Assets欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
 
 1. （視條件而定）如果您選取連線至Experience Manager Assets或Workfront Planning記錄型別，請在&#x200B;**記錄外觀**&#x200B;區域中選取下列其中一個選項：
 
@@ -276,7 +280,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    >
    > 如果您希望欄位能新增為時間軸和行事曆檢視的開始和結束日期，新增查閱日期欄位時必須選取彙總值。 例如，您可以選取MAX或查閱日期欄位的MIN彙總。
 
-   連結的編號欄位![&#128279;](assets/aggregator-drop-down-for-number-linked-field.png)的彙總下拉式清單
+   連結的編號欄位![的](assets/aggregator-drop-down-for-number-linked-field.png)彙總下拉式清單
 
    >[!NOTE]
    >

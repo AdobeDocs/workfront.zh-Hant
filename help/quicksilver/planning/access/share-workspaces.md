@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '969'
 ht-degree: 1%
 
 ---
@@ -147,6 +147,8 @@ This article describes how you can share a view with others. For information abo
 1. 與他人共用複製的連結。 收到連結的使用者必須是作用中使用者，並登入Workfront才能存取工作區。
 1. 按一下「**儲存**」。
 
+   您共用工作區的使用者會同時收到應用程式內通知和電子郵件通知，告知其擁有使用許可權。
+
 ## 透過許可權請求向工作區授予許可權
 
 使用者若存取連結至沒有許可權的工作區，可以要求存取工作區的許可權。 所有具有工作區管理許可權的使用者都會收到許可權要求，並可授予或拒絕許可權。
@@ -154,14 +156,12 @@ This article describes how you can share a view with others. For information abo
 1. （視條件而定）如果您是工作區的管理員，您可能會收到其他使用者存取下列區域檢視的請求：
 
    * 應用程式內通知
-
      ![存取要求的應用程式內通知](assets/in-app-notification-for-access-request.png)
    * 電子郵件通知
-
      ![存取要求的電子郵件通知](assets/email-notification-for-access-request.png)
 1. （視條件而定）從Workfront的通知區域，按一下應用程式內通知
 或
-在電子郵件通知中，按一下&#x200B;**檢視所有通知**，然後按一下清單中的通知。
+在電子郵件通知中，按一下**檢視所有通知**，然後按一下清單中的通知。
 
    顯示&#x200B;**擱置中的存取要求**&#x200B;方塊。
 

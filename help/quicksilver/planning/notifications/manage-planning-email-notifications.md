@@ -1,14 +1,14 @@
 ---
 title: 管理Adobe Workfront Planning電子郵件通知
-description: 當有人在Adobe Workfront Planning的記錄評論中為您標籤時，您會收到該標籤的電子郵件通知。
+description: 當有人在Adobe Workfront Planning的記錄評論中為您或您的團隊加標籤時，您會收到該標籤的電子郵件通知。
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: 60f2890e431065d0eb034a9254680e43a51ecab8
+source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '671'
 ht-degree: 1%
 
 ---

@@ -1,14 +1,14 @@
 ---
 title: Adobe Workfront規劃通知：文章索引
-description: 當有人在記錄評論中標籤您，或請求或授予您檢視或工作區的許可權時，您可能會收到電子郵件或應用程式內通知。 下列文章說明您可能會收到的Workfront Planning通知型別，以及如何管理通知偏好設定。
+description: 當有人在記錄評論中標籤您或您的團隊，或請求或授予您檢視或工作區的許可權時，您可能會收到電子郵件或應用程式內通知。 下列文章說明您可能會收到的Workfront Planning通知型別，以及如何管理通知偏好設定。
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 9c2f5b14-77c5-42fd-83ad-acbe7da801bd
-source-git-commit: 60f2890e431065d0eb034a9254680e43a51ecab8
+source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '133'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-當有人在記錄評論中標籤您，或請求或授予您檢視或工作區的許可權時，您可能會收到電子郵件或應用程式內通知。
+當有人在記錄評論中標籤您或您的團隊，或請求或授予您檢視或工作區的許可權時，您可能會收到電子郵件或應用程式內通知。
 
 下列文章說明您可能會收到的Workfront Planning通知型別，以及如何管理您的偏好設定：
 

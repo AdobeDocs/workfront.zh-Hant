@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
 workflow-type: tm+mt
-source-wordcount: '3351'
+source-wordcount: '3414'
 ht-degree: 1%
 
 ---
@@ -213,7 +213,7 @@ ht-degree: 1%
 
    或
 
-   在方塊中選取一或多個記錄的名稱，然後按一下[連線物件]。**&#x200B;**
+   在方塊中選取一或多個記錄的名稱，然後按一下[連線物件]。****
 
    新增下列專案：
 
@@ -227,6 +227,11 @@ ht-degree: 1%
    >* 我們會交替使用「連結欄位」和「查詢欄位」。
    >
    >* 當您選擇在連線記錄型別時連線多個記錄時，來自多個物件的欄位值會以逗號分隔顯示，或根據您在連線記錄型別時選擇的彙總進行彙總。
+   >* 您無法將Workfront預先輸入欄位（包括專案所有者或專案贊助者之類的欄位）新增為查詢欄位。
+   >
+   >* Workfront物件的日期欄位資訊在Workfront Planning中會以24小時格式顯示，無論其在Workfront中的顯示方式為何。
+   >
+   >   例如，如果專案的計劃開始日期在Workfront中顯示為3:00 PM，則在匯入的查詢欄位中，它將在Workfront Planning中顯示為15:00。
 
 1. （可選）關閉記錄型別頁面，然後移至您選取的工作區。
 1. 按一下您所連結之記錄型別的卡片。
@@ -289,7 +294,7 @@ ht-degree: 1%
 
    或
 
-   在方塊中選取一或多個物件的名稱，然後按一下[連線物件]。**&#x200B;**
+   在方塊中選取一或多個物件的名稱，然後按一下[連線物件]。****
 
    >[!IMPORTANT]
    >
@@ -339,7 +344,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->當您的Experience Manager Assets管理員透過Workfront與Workfront之間的整合設定中繼資料對應時，可從Adobe Experience Manager Assets存取Planning記錄及其欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
+>當您的Experience Manager Assets管理員透過Workfront與Workfront之間的整合設定中繼資料對應時，可從Adobe Experience Manager Assets存取Planning記錄及其欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
 
 若要將記錄與Experience Manager資產連線：
 
@@ -436,7 +441,7 @@ ht-degree: 1%
    >
    >    依預設，只會顯示已連線個別記錄的已連線記錄。
 
-1. （選擇性）按一下[顯示所有連線]&#x200B;**&#x200B;**&#x200B;以顯示所有連線的記錄型別，包括沒有連線記錄的記錄型別。
+1. （選擇性）按一下[顯示所有連線]****&#x200B;以顯示所有連線的記錄型別，包括沒有連線記錄的記錄型別。
 
 1. （選擇性）按一下區段左側的向下箭頭以收合區段。
 

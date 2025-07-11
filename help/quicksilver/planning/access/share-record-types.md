@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 4fafdcea97874e791104260375617e3989af1870
+source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
 workflow-type: tm+mt
-source-wordcount: '1515'
+source-wordcount: '1560'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >有權存取工作區的使用者至少會自動取得工作區中所有記錄型別的檢視許可權。
->&#x200B;>共用檢視未授予使用者記錄型別的許可權。 只有共用工作區才能授予使用者記錄型別的許可權。
+>>共用檢視未授予使用者記錄型別的許可權。 只有共用工作區才能授予使用者記錄型別的許可權。
 >
 >* 如需在Workfront Planning中共用物件的一般資訊，另請參閱[在Adobe Workfront Planning中共用許可權概觀](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
 >* 如需詳細資訊，請參閱本文中的[共用記錄型別](#considerations-when-sharing-record-types)時的考量事項。
@@ -195,6 +195,10 @@ ht-degree: 0%
 1. 按一下「**儲存**」。
 
    記錄型別現在與其他使用者共用。
+您與其共用記錄型別的使用者會同時收到應用程式內和電子郵件通知，告知其擁有下列實體的特定許可權：
+
+   * 記錄型別
+   * 工作區（如果在與他們共用記錄型別之前，他們未擁有工作區的許可權）。
 
 1. 與他人共用複製的連結。 收到連結的使用者必須是作用中使用者，並登入Workfront，才能存取記錄型別頁面並在選取的檢視中顯示該頁面。 使用者必須具有記錄型別的許可權才能檢視該記錄型別。
 

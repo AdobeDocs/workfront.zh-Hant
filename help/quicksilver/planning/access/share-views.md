@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: e8e8e12bef55303c65894aa495f7554a9f1a811c
+source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
 workflow-type: tm+mt
-source-wordcount: '1950'
+source-wordcount: '1969'
 ht-degree: 0%
 
 ---
@@ -186,6 +186,8 @@ This article describes how you can share a view with others. For information abo
 
    檢視會以人員圖示![與他人共用的檢檢視示](assets/view-shared-with-others-people-icon.png)更新，表示檢視現在與其他使用者共用。
 
+   您共用檢視的使用者會同時收到應用程式內和電子郵件通知，告知其擁有檢視的許可權。
+
    >[!TIP]
    >
    >沒有人員或全域圖示的檢視是您建立的檢視，不會與他人共用。 非共用檢視僅對您可見。
@@ -276,14 +278,12 @@ This article describes how you can share a view with others. For information abo
 1. （視條件而定）如果您是檢視的管理員，您可能會收到其他使用者存取下列區域檢視的請求：
 
    * 應用程式內通知
-
      ![檢視](assets/in-app-notification-for-access-request-for-view.png)存取要求的應用程式內通知
    * 電子郵件通知
-
      ![檢視](assets/in-app-notification-for-access-request-for-view.png)存取要求的應用程式內通知
 1. （視條件而定）從Workfront的通知區域，按一下應用程式內通知
 或
-在電子郵件通知中，按一下&#x200B;**檢視所有通知**，然後按一下清單中的通知。
+在電子郵件通知中，按一下**檢視所有通知**，然後按一下清單中的通知。
 
    顯示&#x200B;**擱置中的存取要求**&#x200B;方塊。
 
