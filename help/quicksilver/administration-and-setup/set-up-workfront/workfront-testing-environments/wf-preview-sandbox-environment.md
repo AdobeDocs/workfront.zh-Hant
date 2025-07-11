@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 7549c9699a86b6f87e5562efd7e586be282c5619
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1302'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 * 自訂重新整理沙箱
 
-  自訂重新整理沙箱是獨立的測試環境，由您手動重新整理。 取得自訂重新整理沙箱需要額外付費。 如需此環境的詳細資訊，請參閱[自訂重新整理沙箱環境](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)。 [!DNL Adobe Workfront] 
+  自訂重新整理沙箱是獨立的測試環境，由您手動重新整理。 取得自訂重新整理沙箱需要額外付費。 如需此環境的詳細資訊，請參閱[自訂重新整理沙箱環境 [!DNL Adobe Workfront] 。](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,8 +39,8 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th> <p> </p> </th> 
-   <th> <p><strong>[!UICONTROL Standard]支援套件</strong> </p> </th> 
-   <th> <p><strong>[!UICONTROL Plus]、[!UICONTROL Preferred]和[!UICONTROL Enterprise]支援套件</strong> </p> </th> 
+   <th> <p><strong>[！UICONTROL Standard]支援套件</strong> </p> </th> 
+   <th> <p><strong>[！UICONTROL Plus]、[！UICONTROL Preferred]和[！UICONTROL Enterprise]支援套件</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -158,7 +158,7 @@ Workfront會停用來自預覽Sandbox環境的所有電子郵件通訊。 如果
 >
 >本頁所述的程式僅適用於尚未上線到[!DNL Adobe Admin Console]的組織。 如果您的組織已加入[!DNL Adobe Admin Console]，則不需要採取任何動作。
 >
->如需根據貴組織是否已加入[!DNL Adobe Admin Console]而不同的程式清單，請參閱[以平台為基礎的管理差異([!UICONTROL Adobe Workfront]/[!UICONTROL Adobe商務平台])](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
+>如需根據貴組織是否已加入[!DNL Adobe Admin Console]而不同的程式清單，請參閱[以平台為基礎的管理差異([!UICONTROL Adobe Workfront]/[!UICONTROL Adobe Business Platform])](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 
 
 如果您想要將預覽沙箱設定為使用單一登入解決方案，您可以透過與生產環境分開設定來執行此操作。 預覽沙箱中的SSO設定與生產環境中的SSO設定無關。
@@ -179,12 +179,15 @@ Workfront會停用來自預覽Sandbox環境的所有電子郵件通訊。 如果
 
 對於預覽環境，會停用夜間重新計算，且不會自動重新計算專案時間表。 您必須手動重新計算預覽環境的專案時間表。 如需詳細資訊，請參閱[重新計算專案時間表](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md)。
 
+
 ## 預覽環境效能和可用性
 
-[!DNL Workfront]預覽環境並非用於效能或負載測試。 反之，使用這些環境來驗證組織現有工作流程的功能性。
+* [!DNL Workfront]預覽環境並非用於效能或負載測試。 反之，使用這些環境來驗證組織現有工作流程的功能性。
 
-[!DNL Workfront]預覽環境旨在永遠可用。
+* 涉及檔案的工作流程應專注於流程，而不是負載測試。 沙箱環境不支援大型檔案。
 
-[!DNL Workfront]預覽環境在正常工作時間內發生的任何中斷都將成為解決任何生產問題（如果存在）後的第一優先專案。
+* [!DNL Workfront]預覽環境旨在永遠可用。
 
-[!DNL Workfront]預覽環境在週末（星期六和星期日）發生的任何中斷都會得到解決，因此環境會在星期一的營業時間執行。
+* [!DNL Workfront]預覽環境在正常工作時間內發生的任何中斷都將成為解決任何生產問題（如果存在）後的第一優先專案。
+
+* [!DNL Workfront]預覽環境在週末（星期六和星期日）發生的任何中斷都會得到解決，因此環境會在星期一的營業時間執行。
