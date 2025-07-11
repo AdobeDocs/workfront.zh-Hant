@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 60f2890e431065d0eb034a9254680e43a51ecab8
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '446'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 當存在以下情況時，您可以從Workfront Planning接收應用程式內通知：
 
-* 有人在記錄註解中為您加上標籤
+* 有人在記錄評論中為您或您的團隊加上標籤
 
   如需有關在記錄註解中標籤其他人的資訊，請參閱[管理記錄註解](/help/quicksilver/planning/records/manage-record-comments.md)。
 * 有人向您要求存取檢視或工作區的許可權
@@ -160,7 +160,7 @@ OLD:
 
 ## 當有人在評論中標籤您時管理應用程式內通知
 
-1. （視條件而定）有人將您標籤為記錄中的評論後，請前往Adobe Experience Cloud中的應用程式內&#x200B;**通知**&#x200B;圖示![Experience Cloud通知圖示](assets/experience-cloud-notifications-icon.png)。
+1. （視條件而定）有人在記錄上的評論中為您或您的團隊加上標籤後，請前往Adobe Experience Cloud中的應用程式內&#x200B;**通知**&#x200B;圖示![Experience Cloud通知圖示](assets/experience-cloud-notifications-icon.png)。
 
    ![應用程式內通知範例](assets/in-app-notification-example.png)
 

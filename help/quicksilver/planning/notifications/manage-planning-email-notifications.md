@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 60f2890e431065d0eb034a9254680e43a51ecab8
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '668'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 當存在以下情況時，您可以從Workfront Planning接收電子郵件通知：
 
-* 有人在記錄註解中為您加上標籤
+* 有人在記錄評論中為您或您的團隊加上標籤
 
   如需有關在記錄註解中標籤其他人的資訊，請參閱[管理記錄註解](/help/quicksilver/planning/records/manage-record-comments.md)。
 * 有人向您要求存取檢視或工作區的許可權
@@ -161,7 +161,7 @@ OLD:
 
 ## 當有人在評論中標籤您時管理電子郵件通知
 
-1. （有條件且選用）有人在記錄上的評論中為您標籤後，請移至通知您標籤和評論的電子郵件通知。 電子郵件的寄件者為Adobe Experience Cloud。
+1. （有條件且選用）在記錄中某人為您或團隊加入評論後，請移至通知您標籤和評論的電子郵件通知。 電子郵件的寄件者為Adobe Experience Cloud。
 
    ![電子郵件通知範例](assets/email-notification-example.png)
 

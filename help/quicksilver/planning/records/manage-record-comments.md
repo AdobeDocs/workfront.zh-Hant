@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 60f2890e431065d0eb034a9254680e43a51ecab8
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1045'
 ht-degree: 0%
 
 ---
@@ -120,9 +120,7 @@ ht-degree: 0%
 
   例如，在Workfront中新增至專案的評論不會顯示在連結至Workfront Planning中行銷活動的相同專案上，而新增至專案Workfront Planning記錄的評論不會顯示在Workfront中。
 
-* 您可以標籤使用者，以提醒他們注意更新。 標籤的使用者不會收到應用程式內通知或有關您更新的電子郵件。<!--this might change??-->
-
-* 您可以標籤使用者，以提醒他們注意更新。 標籤的使用者會收到應用程式內通知或您更新的電子郵件通知。
+* 您可以標籤使用者或團隊，以吸引他們注意更新。 個別標籤的使用者和標籤團隊的使用者都會收到應用程式內通知和更新相關電子郵件。
 
   >[!NOTE]
   >
@@ -162,7 +160,7 @@ ht-degree: 0%
 1. （可選）若要復原或重做變更，請使用下列快速鍵：
    * CTRL + Z (Mac為⌘+z)可復原變更
    * 按CTRL + Y (Mac為⌘+y)以重做變更
-1. （選擇性和條件性）如果您的Workfront執行個體是Adobe統一體驗的一部分，請新增&#x200B;**@**，後跟使用者名稱，以在更新中標籤某人。 如需詳細資訊，請參閱本文中關於評論記錄[&#128279;](#considerations-about-commenting-on-a-record)的考量事項。
+1. （選擇性和條件性）如果您的Workfront執行個體是Adobe整合式體驗的一部分，請新增&#x200B;**@**，然後加上使用者或團隊的名稱，以便在更新中標籤這些使用者。 如需詳細資訊，請參閱本文中關於評論記錄[的](#considerations-about-commenting-on-a-record)考量事項。
 
 1. （可選）使用RTF工具列中的選項來格式化文字、新增emoji或連結至更新，以強化內容。
 
