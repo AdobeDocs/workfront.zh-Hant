@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: fe9d3cfbb50bfda672360b918d971cc77b0b8b0a
+source-git-commit: 718ed3efd56c532693d26cc067041bedbc71cca0
 workflow-type: tm+mt
-source-wordcount: '2061'
+source-wordcount: '2059'
 ht-degree: 1%
 
 ---
@@ -325,7 +325,6 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
      ![在時間表檢視中套用的群組](assets/grouping-applied-in-timeline-view.png)
 
    * **行事曆檢視**：以行事曆格式顯示至少有兩個日期型別欄位的記錄。
-
      ![行事曆檢視範例](assets/calendar-view-example.png)
 
 
@@ -397,9 +396,9 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
     >
     >    The Workfront AI Assistant has been temporarily removed and it will be available at a later date.-->
 
-* [適用於Workfront Fusion的Adobe Workfront規劃模組](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)：透過Adobe Workfront規劃模組，您可以在Workfront規劃中發生事件時觸發情境。 您也可以建立、讀取、更新及刪除記錄，或對Adobe Workfront Planning帳戶執行自訂API呼叫。
+* [適用於Workfront Fusion的Adobe Workfront規劃模組](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)：透過Adobe Workfront規劃模組，您可以在Workfront規劃中發生事件時觸發情境。 您也可以建立、讀取、更新及刪除記錄，或對Adobe Workfront Planning帳戶執行自訂API呼叫。
 
 * [Adobe Workfront Planning API基本知識](/help/quicksilver/planning/general/planning-api-basics.md)： Adobe Workfront Planning API的目標是透過引入透過HTTP運作的REST-ful架構，簡化與Planning的整合建置。
 
-* **Workfront Planning報告功能**：您現在可以使用Workfront Canvas Dashboard，在Workfront的報告中檢視Workfront Planning資訊。 如需詳細資訊，請參閱[開始使用畫布儀表板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)。
+* **Workfront Planning報告功能**：您現在可以使用Workfront Canvas Dashboard，在Workfront的報告中檢視Workfront Planning資訊。 如需詳細資訊，請參閱[畫布儀表板概觀](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)。
 

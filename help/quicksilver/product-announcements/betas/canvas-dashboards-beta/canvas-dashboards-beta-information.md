@@ -7,23 +7,58 @@ author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
+source-git-commit: ba9256255905e139c281099555a6d129fc570984
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '346'
 ht-degree: 0%
 
 ---
 
 # Canvas控制面板Beta版資訊
 
-「畫布控制面板」是目前正在開發中的功能，可讓您將各種報表型別新增至可自訂的畫布上，輕鬆將Adobe Workfront資料視覺化。 請注意，雖然我們感謝您參與測試階段的工作，但部分功能可能不完整，或無法如期運作。 請依照下方[提供意見反應](#provide-feedback)一節中的指示，提交有關您體驗的任何意見反應。
-
-如需有關使用畫布控制面板的基本資訊，請參閱[開始使用畫布控制面板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)。
-如需所有畫布控制面板檔案的清單，請參閱[畫布控制面板概觀](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)。
-
 >[!NOTE]
 >
 >畫布儀表板目前處於封閉的測試階段，因此可能會經常變更。
+
+「畫布控制面板」是目前正在開發中的功能，可讓您將各種報表型別新增至可自訂的畫布上，輕鬆將Adobe Workfront資料視覺化。
+
+請注意，雖然我們感謝您參與測試階段的工作，但部分功能可能不完整，或無法如期運作。 請依照下方[提供回饋意見](#provide-feedback)一節中的指示，提交有關您體驗的任何回饋意見。
+
+## 存取需求
+
++++ 展開以檢視存取需求。
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront計畫</p></td> 
+   <td> 
+<p>任何 </p> 
+   </td> 
+<tr> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront授權</p></td> 
+   <td> 
+<p>目前：計畫 </p> 
+<p>新增：標準</p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>存取層級設定</p></td> 
+   <td><p>編輯報告、儀表板和行事曆的存取權</p>
+  </td> 
+  </tr>  
+</tbody> 
+</table>
+
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
++++
+
 
 ## 註冊測試版
 
@@ -49,29 +84,3 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**提交**。
 
-## 計畫功能
-
-以下為目前受測試版支援的報告型別清單，以及我們計畫在整個測試版期間及之後新增到畫布控制面板的其他功能清單。
-
-### 支援的報表型別
-
-* 現有報表（使用目前報表工具建立的報表）
-* 圖表報告
-* KPI報告
-* 表格報表
-* 擱置核准報告
-
-### 開發中的功能
-
-* 篩選的日期和使用者型萬用字元
-* Workfront規劃報表
-* 其他Workfront物件型別
-* 面板報表
-* 其他可用性增強功能
-* 工作表
-* 內嵌式網頁內容
-
-### 未來的藍圖功能
-
-* 儀表板層級提示
-* 貨幣支援

@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
 exl-id: d593a9d5-6351-48ff-891d-cc1b727188bc
-source-git-commit: e8c0242ff89cad5378c7fb9d16b54257fc901a2e
+source-git-commit: 718ed3efd56c532693d26cc067041bedbc71cca0
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
@@ -29,15 +29,3 @@ ht-degree: 0%
 * KPI報告
 * 表格報表
 * 擱置核准報告
-
-如需在畫布控制面板上新增和排列報表的一般資訊，請參閱[在畫布控制面板中新增、移除或排列報表](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)。 如需新增及格式化特定報表型別的詳細資訊，請參閱下方的文章索引。
-
-## 畫布控制面板報表型別：文章索引
-
-本節包含下列文章：
-
-<!--* [Add an existing report to a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/add-existing-report.md)
-* [Build a KPI report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
-* [Build a chart report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
-* [Build a table report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
-* [Add a pending approvals report to a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)-->
