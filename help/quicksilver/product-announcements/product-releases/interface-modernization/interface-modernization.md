@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 0e519e9d5cb5bbc5052448d399b9cf54e4ed2766
+source-git-commit: 3d24c7ac7c88aacd51c1c85c8ee20c69c627a014
 workflow-type: tm+mt
-source-wordcount: '5164'
+source-wordcount: '5168'
 ht-degree: 0%
 
 ---
@@ -217,7 +217,7 @@ We have updated the look and feel of the Log time box when logging time for a pr
 For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
 -->
 
-### 專案之「新主題群組」方塊的外觀變更
+### 專案的「新主題群組」和「編輯主題群組」方塊的外觀變更
 
 **預覽版本： 2025年6月26日；生產版本： 2025年7月10日**
 
@@ -632,7 +632,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 此更新包含區域的視覺化變更。 功能未變更。
 
-若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。**&#x200B;**
+若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。****
 
 +++
 
