@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: 您可以使用版面配置範本來設定當使用者按一下摘要中的任務或問題時會看到的內容。 您使用下列步驟進行的每個設定都會影響「摘要」面板。 這些自訂不適用於「檔案摘要」面板。
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 2%
@@ -77,7 +77,7 @@ ht-degree: 2%
 
 1. 開始使用版面配置範本，如[建立和管理版面配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)中所述。
 
-1. 按一下&#x200B;**自訂使用者看到的內容**&#x200B;下的向下箭頭![向下箭頭](assets/dropdown-arrow.png)，然後按一下&#x200B;**摘要面板**。
+1. 按一下![自訂使用者看到的內容](assets/dropdown-arrow.png)下的向下箭頭&#x200B;**向下箭頭**，然後按一下&#x200B;**摘要面板**。
 
 1. 在下方顯示的清單中，按一下您要自訂「摘要」面板的物件型別。
 
@@ -151,7 +151,7 @@ ht-degree: 2%
     <tbody> 
      <tr> 
       <td role="rowheader">顯示工作的更新</td> 
-      <td>在「摘要」面板中顯示對選定任務或問題所做的任何更新。 這包括系統更新和使用者所做的更新。 使用者仍然可以篩選掉系統更新，如<a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">更新工作</a>中的<a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable" class="MCXref xref">啟用或停用系統更新</a>中所述。</td> 
+      <td>在「摘要」面板中顯示對選定任務或問題所做的任何更新。 這包括系統更新和使用者所做的更新。 使用者仍然可以篩選掉系統更新，如<a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable" class="MCXref xref">更新工作</a>中的<a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">啟用或停用系統更新</a>中所述。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">針對工作記錄時間</td> 

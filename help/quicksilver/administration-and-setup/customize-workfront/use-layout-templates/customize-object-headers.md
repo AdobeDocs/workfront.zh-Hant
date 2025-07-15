@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: 身為Adobe Workfront管理員或群組管理員，您可以使用版面配置範本來設定使用者在開啟物件頁面時，在物件標題中看到的欄位。
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 0%

@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates
 navigation-topic: layout-templates
 description: 身為Adobe Workfront管理員或群組管理員，您可以使用版面配置範本來自訂頂端導覽區域以及[主要]功能表中特定群組、團隊、工作角色和使用者的標誌。 這對於擁有品牌的大型組織中的群組特別有用。
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 0%
@@ -71,7 +71,7 @@ ht-degree: 0%
 ## 使用版面配置範本的品牌Adobe Workfront
 
 1. 開始使用版面配置範本，如[建立和管理版面配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)中所述。
-1. 按一下&#x200B;**自訂使用者看到的內容**&#x200B;下的向下箭頭![向下箭頭](assets/dropdown-arrow.png)，然後按一下&#x200B;**品牌**。
+1. 按一下![自訂使用者看到的內容](assets/dropdown-arrow.png)下的向下箭頭&#x200B;**向下箭頭**，然後按一下&#x200B;**品牌**。
 1. 進行下列任何變更，以使用指派此版面配置範本的使用者品牌影像來自訂Workfront。
 
    <table style="table-layout:auto"> 
@@ -80,11 +80,11 @@ ht-degree: 0%
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>品牌首頁圖示<span style="font-weight: normal;"> （顯示在頂端導覽區域的最左側）</span></p> </td> 
-      <td> <p>在<strong>上層導覽區域</strong>區段的<strong>首頁圖示</strong>下，按一下方塊中的任何位置，然後尋找並選取您的標誌影像。 或將影像拖曳至方塊。</p> <p>若要裁切影像，請使用捲動控制項，並將影像拖曳至您想要在指定空間內的位置。</p> <p>建議使用120 x 120影像。 其格式可為下列任一格式：GIF、JPG、PNG、SVG。</p> <p>此圖示也會顯示在使用者匯出為PDF檔案的報告、清單、控制面板以及傳遞的報告中。</p> </td> 
+      <td> <p>在<strong>上層導覽區域</strong>區段的<strong>首頁圖示</strong>下，按一下方塊中的任何位置，然後尋找並選取您的標誌影像。 或將影像拖曳至方塊。</p> <p>若要裁切影像，請使用捲動控制項，並將影像拖曳至您想要在指定空間內的位置。</p> <p>建議使用120 x 120影像。 其格式可為下列任一：GIF、JPG、PNG、SVG。</p> <p>此圖示也會顯示在使用者匯出為PDF檔案的報告、清單、控制面板以及傳遞的報告中。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>標籤主要功能表<img src="assets/main-menu-icon.png">標誌<span style="font-weight: normal;"> （顯示在主要功能表的右上角）</span></p> </td> 
-      <td> <p> <p> <p>在<strong>頂端導覽區域</strong>區段的<strong>主功能表標誌</strong>下，按一下方塊中的任何位置，然後尋找並選取您的標誌影像。 或將影像拖曳至方塊。</p> <p>若要裁切影像，請使用捲動控制項，並將影像拖曳至您想要在指定空間內的位置。</p> <p>建議使用300 x 120畫素的影像。 其格式可為下列任一格式：GIF、JPG、PNG、SVG。</p> </p> </p> </td> 
+      <td> <p> <p> <p>在<strong>頂端導覽區域</strong>區段的<strong>主功能表標誌</strong>下，按一下方塊中的任何位置，然後尋找並選取您的標誌影像。 或將影像拖曳至方塊。</p> <p>若要裁切影像，請使用捲動控制項，並將影像拖曳至您想要在指定空間內的位置。</p> <p>建議使用300 x 120畫素的影像。 其格式可為下列任一：GIF、JPG、PNG、SVG。</p> </p> </p> </td> 
      </tr> 
     </tbody> 
    </table>

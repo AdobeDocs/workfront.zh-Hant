@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates;user-management
 navigation-topic: layout-templates
 description: 作為Adobe Workfront管理員，您可以將版面配置範本的管理存取權授與特定群組的群組管理員，以便他們編輯範本。 這不會將範本指派給群組中的使用者。
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 066a55ef-1904-4678-8866-c59428f78bc1
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%
@@ -71,4 +71,4 @@ ht-degree: 0%
    >   
    >* 如果您未將管理存取權授與特定群組的群組管理員，則所有可編輯使用者帳戶的使用者都會擁有版面配置範本的管理存取權。 有些Workfront管理員故意選擇不授予版面配置範本的管理存取權，以便使其成為系統層級的版面配置範本。
 
-1. 您可以隨時按一下[儲存]來儲存進度，然後再繼續修改範本。**&#x200B;**
+1. 您可以隨時按一下[儲存]來儲存進度，然後再繼續修改範本。****

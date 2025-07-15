@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: 身為Adobe Workfront管理員，您可以使用版面配置範本來變更某些物件的標籤，這些標籤會顯示在Workfront中，以符合組織中使用的辭彙。
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 2%
@@ -34,7 +34,7 @@ ht-degree: 2%
 >[!NOTE]
 >
 >* Outlook增益集區域未顯示自訂標籤。
->* 當您自訂標籤時，可能會遇到文法和其他問題。 例如，如果您將「問題」變更為「請求」，UI中可能會出現您看到片語「請求」的位置。 如需詳細資訊，請參閱文章[瞭解Adobe Workfront中的物件](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)中的[自訂物件名稱的影響](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#implications-of-customizing-object-names)
+>* 當您自訂標籤時，可能會遇到文法和其他問題。 例如，如果您將「問題」變更為「請求」，UI中可能會出現您看到片語「請求」的位置。 如需詳細資訊，請參閱文章[瞭解Adobe Workfront中的物件](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#implications-of-customizing-object-names)中的[自訂物件名稱的影響](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
 >
 
 如需配置範本的詳細資訊，請參閱[建立和管理配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)。

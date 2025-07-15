@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: 作為Workfront管理員，您可以使用版面配置範本來指定哪些清單控制項會出現在篩選、檢視和分組下拉式功能表中。 這些功能表會出現在整個Workfront的上方清單中，例如專案的任務清單。
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
 workflow-type: tm+mt
 source-wordcount: '784'
 ht-degree: 0%
@@ -62,11 +62,11 @@ ht-degree: 0%
 ## 自訂篩選器、檢視和群組清單控制項：
 
 1. 開始使用版面配置範本，如[建立和管理版面配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)中所述。
-1. 按一下&#x200B;**自訂使用者看到的內容**&#x200B;下的向下箭頭![向下箭頭](assets/down-arrow-blue.png)，然後在顯示的下拉式功能表中按一下&#x200B;**清單**。
+1. 按一下![自訂使用者看到的內容](assets/down-arrow-blue.png)下的向下箭頭&#x200B;**向下箭頭**，然後在顯示的下拉式功能表中按一下&#x200B;**清單**。
 
    ![自訂使用者看到的內容](assets/customize-what-users-see-dropdown-on-pg-adobe-branding.png)
 
-1. 按一下&#x200B;**下方的向下箭頭![向下箭頭](assets/down-arrow-blue.png)選取要自訂的清單**，然後選取您要自訂篩選、檢視及群組清單控制項的Workfront物件型別。
+1. 按一下![下方的向下箭頭](assets/down-arrow-blue.png)向下箭頭&#x200B;**選取要自訂的清單**，然後選取您要自訂篩選、檢視及群組清單控制項的Workfront物件型別。
 
    ![選取要自訂的清單](assets/select-a-list-to-customize-menu-on-pg-adobe-branding.png)
 

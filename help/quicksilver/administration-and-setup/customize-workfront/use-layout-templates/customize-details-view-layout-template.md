@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: 作為Workfront管理員，您可以使用版面配置範本來決定當使用者在檢視任務、問題、檔案、計畫或產品組合時選擇左側面板中的詳細資訊區段時會出現哪些資訊。
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 0%
@@ -100,7 +100,7 @@ or billing record
 ## 自訂使用者在詳細資料檢視中看到的內容
 
 1. 開始使用版面配置範本，如[建立和管理版面配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)中所述。
-1. 按一下&#x200B;**自訂使用者看到的內容**&#x200B;下的向下箭頭![向下箭頭](assets/dropdown-arrow-12x12.png)，然後按一下&#x200B;**專案**、**任務**、**問題**、**方案**&#x200B;或&#x200B;**Portfolio。**
+1. 按一下![自訂使用者看到的內容](assets/dropdown-arrow-12x12.png)下的向下箭頭&#x200B;**向下箭頭**，然後按一下&#x200B;**專案**、**任務**、**問題**、**方案**&#x200B;或&#x200B;**Portfolio。**
 <!--
 , or billing record
 -->

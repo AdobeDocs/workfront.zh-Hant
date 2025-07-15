@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: 您可以使用版面配置範本來設定使用者在Adobe Workfront中開啟「首頁」時看到的內容。
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 1%
@@ -77,7 +77,7 @@ ht-degree: 1%
 
 1. 開始使用版面配置範本，如[建立和管理版面配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)中所述。
 
-1. 按一下&#x200B;**自訂使用者看到的內容**&#x200B;下的向下箭頭![向下箭頭](assets/dropdown-arrow.png)，然後按一下&#x200B;**首頁Workspace**。
+1. 按一下![自訂使用者看到的內容](assets/dropdown-arrow.png)下的向下箭頭&#x200B;**向下箭頭**，然後按一下&#x200B;**首頁Workspace**。
 
 1. 在右側的標籤中，按一下下列其中一項：
 
@@ -99,7 +99,7 @@ ht-degree: 1%
       <p> 執行下列任一項作業： </p>
       <ul><li>根據<a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">新增、編輯或移除首頁</a>中的Widget中所述的步驟自訂此索引標籤。 </li>
       <li>選取Widget，並依照您想要為使用者顯示的工作區來安排工作區。</li>
-      <li>若要變更背景，請依照<a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md" class="MCXref xref">開始使用首頁</a>中的<b>背景自訂</b>下的步驟操作。</li></p>
+      <li>若要變更背景，請依照<b>開始使用首頁</b>中的<a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md" class="MCXref xref">背景自訂</a>下的步驟操作。</li></p>
       <p>
 
    >[!NOTE]

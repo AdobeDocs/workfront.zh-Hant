@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates
 navigation-topic: layout-templates
 description: 您可以複製現有的配置範本。 當您的組織需要共用許多相同設定的多個版面配置範本時，這會很有幫助。
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: fec77b37-3968-4e0e-8034-63a816a7a3d5
-source-git-commit: 8880891c0f5fd8fecad6c2f58136d36a943105ae
+source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%
