@@ -6,7 +6,7 @@ description: 主要顯示單一彙總KPI的KPI報告可新增至畫布控制面�
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
-source-git-commit: ba9256255905e139c281099555a6d129fc570984
+source-git-commit: 981d86fa7d54d9d26c0a2b6142db98d5989cbed2
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 0%
@@ -86,8 +86,8 @@ ht-degree: 0%
    1. 輸入報告&#x200B;**描述**。
 
       >[!NOTE]
-      > 
-      > 此說明將用作KPI值下方的標題。 如果您未輸入說明，系統會根據您在下列步驟中選取的彙總及彙總型別，為您產生標題。
+      >
+      >此說明將用作KPI值下方的標題。 如果您未輸入說明，系統會根據您在下列步驟中選取的彙總及彙總型別，為您產生標題。
 
 1. 請依照下列步驟設定&#x200B;**建置KPI**&#x200B;區段：
 

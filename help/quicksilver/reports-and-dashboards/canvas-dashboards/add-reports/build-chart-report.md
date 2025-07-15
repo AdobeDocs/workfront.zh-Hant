@@ -6,7 +6,7 @@ description: 可將您的資料視覺化為橫條、欄、折線圖或圓餅圖�
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: ba9256255905e139c281099555a6d129fc570984
+source-git-commit: 981d86fa7d54d9d26c0a2b6142db98d5989cbed2
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 0%
@@ -139,7 +139,6 @@ ht-degree: 0%
 ## 建立圖表報告範例
 
 在本節中，我們將逐步說明建立欄點陣圖表的步驟，該圖表依專案所有者顯示逾期任務。
-
 
 {{step1-to-dashboards}}
 

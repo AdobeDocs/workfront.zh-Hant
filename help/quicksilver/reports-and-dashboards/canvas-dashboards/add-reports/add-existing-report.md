@@ -6,9 +6,9 @@ description: 透過Adobe Workfront報告工具建立的報告可以新增到畫�
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: f77990ab-da7a-4dcb-89fa-f65ed2b79522
-source-git-commit: ba9256255905e139c281099555a6d129fc570984
+source-git-commit: 981d86fa7d54d9d26c0a2b6142db98d5989cbed2
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
@@ -55,6 +55,8 @@ ht-degree: 0%
 {{step1-to-dashboards}}
 
 1. 在左側面板中，按一下&#x200B;**畫布控制面板**。
+
+1. 按一下右上角的&#x200B;**新儀表板**。
 
 1. 在&#x200B;**建立儀表板**&#x200B;方塊中，輸入儀表板的&#x200B;**名稱**&#x200B;和&#x200B;**描述**。
 
