@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 60f2890e431065d0eb034a9254680e43a51ecab8
+source-git-commit: 2572093857bb1ad27f869e1d7244549e531ba421
 workflow-type: tm+mt
-source-wordcount: '2148'
+source-wordcount: '2200'
 ht-degree: 0%
 
 ---
@@ -82,11 +82,21 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 
 為了讓在Workfront Planning中共用請求表單時享有更安全、更簡單的體驗，我們做了下列變更：
 
-* 我們已移除繼承的許可權。 現在，請求表單僅與您選取的人共用。
-* 我們已針對您共用請求表單的使用者移除管理和貢獻選項。 現在，新增的使用者只能提交表單。
-* 公開共用索引標籤現在僅在啟用建立公開連結選項後，才會顯示連結和到期日欄位。
+* 我們已將「共用表單」對話方塊分隔為內部共用（選取共用對象）和公開共用（建立共用連結）。
+* 您現在可以將申請表單與以下專案共用：
 
-如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form)。
+   * 使用者
+   * 團隊
+   * 群組
+   * 公司
+   * 職務角色
+
+  之前，您只能根據工作區存取權或共用連結來共用。
+* 我們已移除要求表單的繼承許可權。 現在，請求表單僅與您選取的人共用。
+* 我們已針對您共用請求表單的使用者移除管理和貢獻選項。 現在，新增的使用者只能提交表單。
+* 在啟用「建立公開連結」選項後，「公開共用」索引標籤現在會顯示連結和到期日欄位。
+
+如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form)。
 
 ## 展開和摺疊表格檢視中的所有群組
 
@@ -304,7 +314,7 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 >[!NOTE]
 >
 >所有具有系統管理員和Standard授權的新使用者及現有使用者皆可看見此變更。
->&#x200B;>指派給版面配置範本的現有使用者將根據版面配置範本中定義的設定繼續檢視所有內容。
+>>指派給版面配置範本的現有使用者將根據版面配置範本中定義的設定繼續檢視所有內容。
 
 如需詳細資訊，請參閱[Adobe Workfront規劃總覽](/help/quicksilver/planning/access/access-overview.md)。
 
