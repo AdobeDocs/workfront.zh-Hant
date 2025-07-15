@@ -1,14 +1,14 @@
 ---
 title: 管理表格檢視
-description: 存取Adobe Workfront Planning中的記錄型別頁面時，您可以在表格檢視中顯示記錄及其欄位。 本文說明如何建立或編輯表格檢視編輯，以及如何啟用檢視的即時顯示狀態指示器，或是如何將其匯出為CSV或Excel檔案。
+description: 存取Adobe Workfront Planning中的記錄型別頁面時，您可以在表格檢視中顯示記錄及其欄位。 本文說明如何建立或編輯表格檢視編輯，以及如何啟用檢視的即時顯示狀態指示器。
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 4fafdcea97874e791104260375617e3989af1870
+source-git-commit: 8f4c1be156094d18df4bc3628d4f1fca90372119
 workflow-type: tm+mt
-source-wordcount: '3758'
+source-wordcount: '3446'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,8 @@ ht-degree: 2%
 
 * [在表格檢視中建立或編輯欄和列](#manage-a-table-view)
 * [啟用表格檢視的即時顯示狀態指示器](#enable-the-real-time-presence-indicator)
-* <span class="preview">[將表格檢視匯出為CSV或Excel檔案](#export-the-table-view)</span>
+
+如需將表格檢視匯出為Excel或CSV檔案的相關資訊，請參閱[從表格檢視匯出記錄](/help/quicksilver/planning/records/export-records-from-the-table-view.md)。
 
 ## 存取需求
 
@@ -558,57 +559,5 @@ To sort grouped records:
 
 <div class="preview">
 
-## 匯出表格檢視
 
-您可以將表格檢視中的資訊匯出為CSV或Excel檔案。
-
-匯出表格檢視時，請考量下列事項：
-
-* 匯出至Excel檔案的資訊會保留套用至Workfront Planning表格檢視的篩選器、群組和排序。 群組在CSV檔案中不可見。
-
-* 匯出的檔案不支援縮圖和自訂列顏色。
-
-* 只會匯出Workfront介面中顯示的欄位。 隱藏欄位不會匯出。
-
-若要從表格檢視或記錄型別匯出資訊，請執行下列動作：
-
-1. 移至記錄型別頁面，然後按一下表格檢視標籤。
-1. 執行下列其中一項：
-
-   * 暫留在表格檢視標簽名稱上，然後按一下檢視名稱右邊的&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下&#x200B;**匯出**。
-
-   檢視表上的![更多功能表](assets/view-more-menu-with-duplicate-option.png)
-
-   * 按一下「共用&#x200B;**>**&#x200B;匯出目前的檢視&#x200B;**」。**&#x200B;只有在顯示表格檢視時，才能使用此選項。
-
-   ![含有記錄型別和檢視共用選項的[共用]按鈕](assets/share-button-with-record-type-and-view-sharing-options.png)
-
-1. 選取下列其中一種格式：
-
-   * **Excel**
-   * **CSV**
-
-   >[!IMPORTANT]
-   >
-   >當您在熒幕上顯示不同的檢視時，無法從表格檢視中匯出資訊。 您必須顯示要匯出的表格檢視，才能存取「更多」選單中的「匯出」選項。
-
-   檔案已下載到您的電腦。
-
-1. （選擇性）前往電腦上的下載資料夾，並尋找已下載的檔案。
-
-   匯出的檔案名稱會遵循下列格式：
-
-   `Name of the view - name of the record type`
-
-   例如，促銷活動記錄型別的表格檢視會產生名為`Table view - Campaigns`的檔案。
-
-   檔案會顯示下列資訊：
-
-   * 在Excel檔案中，欄標題會以黑色反白
-   * Workfront介面中可見的所有欄位，皆依相同條件排序和篩選
-   * 群組會保留在Excel檔案中
-
-   您現在可以與其他人共用匯出的檔案，或將它們附加到任何通訊中。
-
-</div>
 

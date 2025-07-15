@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 459e3883101b644a91d5e2a32288cf5b02a02bd9
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 2%
@@ -134,6 +134,17 @@ ht-degree: 2%
 
       * **系統範圍**：使用者可以從他們擁有管理許可權的所有工作區連線到此記錄型別。
       * **特定工作區**：新增工作區管理員可連線至此記錄型別的工作區名稱。
+
+   <!--replace last point with this when we release dynamic record types:
+      1. (Optional and conditional) If you are a system administrator, click **Advanced settings** and update the following information in the **Cross-workspace capability** section: **** the info here is duplicated in the Edit record types article ***
+         * Enable the **Allow adding this record type to other workspaces** setting: This allows workspace managers to add this record type to other workspaces. 
+               You can designate specific users who can add this record type to other workspaces. 
+         * Enable the **Allow connecting to this record type in other workspaces** setting: This allows workspace managers to connect to this record type from other workspaces.  
+               You can designate which workspaces this record type can be connected from. You can make it available for all workspaces or designate specific ones where you can import it.
+         For more information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).  
+         ******** replace screen shot below **********
+         ![Create record type box on advanced settings tab](assets/create-record-type-box-advanced-settings-tab.png) 
+      -->
 
 1. 按一下「**儲存**」。
 
