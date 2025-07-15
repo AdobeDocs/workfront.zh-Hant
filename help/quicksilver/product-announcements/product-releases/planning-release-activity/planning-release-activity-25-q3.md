@@ -96,7 +96,7 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 * 我們已針對您共用請求表單的使用者移除管理和貢獻選項。 現在，新增的使用者只能提交表單。
 * 在啟用「建立公開連結」選項後，「公開共用」索引標籤現在會顯示連結和到期日欄位。
 
-如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form)。
+如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form)。
 
 ## 展開和摺疊表格檢視中的所有群組
 
