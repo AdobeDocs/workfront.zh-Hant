@@ -6,19 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 1%
+source-wordcount: '923'
+ht-degree: 0%
 
 ---
 
 
 # 從CSV或Excel檔案匯入資訊，以建立記錄
 
-<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -29,8 +29,6 @@ ht-degree: 1%
 ## 存取需求
 
 +++ 展開以檢視存取需求。
-
-您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
 <col> 
@@ -83,15 +81,10 @@ ht-degree: 1%
   </tr> 
 <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
-   <td> <p>對工作區<span class="preview">和要新增記錄的記錄型別</span>貢獻或更高的許可權。 </p>  
+   <td> <p>提供或更高許可權給您要新增記錄的工作區和記錄型別。 </p>  
    <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p>
    <p>管理Workfront物件（專案組合）的許可權以新增子物件（專案）。</p>
    </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>版面配置範本</p></td> 
-   <td> <p>在生產環境中，所有使用者（包括系統管理員）都必須指派給包含Planning的版面配置範本。</p>
-<p><span class="preview">在預覽環境中，標準使用者和系統管理員預設啟用Planning。</span></p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -113,16 +106,12 @@ ht-degree: 1%
 * 不支援空白工作表。
 * 不支援下列型別的欄位，且無法對應至匯入工作表上的欄位：
 
-   * 連線欄位，視您使用的環境而定：
-
-      * 在生產環境中，與Planning記錄或Workfront和AEM Assets物件的連線欄位無法對應
-
-      * <span class="preview">在「預覽」環境中，您可以將連線欄位對應並匯入至Planning記錄。 您無法將欄位對應到Workfront和AEM Assets。</span>
-
+   * Workfront和AEM Assets物件型別的連線欄位。 您只能將連線欄位對應到Planning記錄型別。
    * 從連線的Planning記錄或Workfront與AEM Assets物件查詢欄位
    * 公式欄位
    * 建立日期，建立者
    * 上次修改日期，上次修改者：
+     <!--* <span class="preview">Approved date, Approved by</span>-->
    * 人員
    * 如果匯入了多重或單一選取欄位，且與Planning中的類似欄位相比，其選擇更多，則會在匯入期間建立其他選項。 只有對工作區具有「管理」許可權的使用者才能匯入新的選擇。
 

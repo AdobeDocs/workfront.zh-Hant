@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '970'
 ht-degree: 1%
 
 ---
@@ -35,15 +35,17 @@ ht-degree: 1%
 * [提交Adobe Workfront Planning請求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)
 * [新增核准至請求表單](/help/quicksilver/planning/requests/add-approval-to-request-form.md)
 
-## 有關核准請求和請求狀態的考量事項
+## 核准請求的相關考量事項
 
-已提交的請求會顯示在Workfront請求區域中「已提交」區段的「計畫」標籤中，且具有以下請求狀態之一：
+* 已提交的請求會顯示在Workfront請求區域中「已提交」區段的「計畫」標籤中，且具有以下請求狀態之一：
 
-* **擱置檢閱**：當沒有核准者開啟要求物件時，會顯示此狀態。
-* **稽核中**：當至少一位核准者開啟要求物件時，**擱置稽核**&#x200B;狀態變更為&#x200B;**稽核中**。 在所有核准者核准要求之前，要求的狀態仍為&#x200B;**稽核中**。
-* **已核准**：當核准者核准要求物件時，其個別狀態會變成&#x200B;**已核准**，但整體要求物件狀態仍為&#x200B;**稽核中**，直到所有核准者都做出決定為止。 當所有核准者核准請求時，請求狀態會變成&#x200B;**已核准**。
-* **已完成**：如果所有核准者核准該要求物件，其狀態會變更為&#x200B;**已完成**，或者該要求不需要核准。
-* **已拒絕**：如果任何核准者拒絕要求物件，狀態會變成&#x200B;**已拒絕**。 不會建立記錄，必須提交新請求才能建立記錄。
+   * **擱置檢閱**：當沒有核准者開啟要求物件時，會顯示此狀態。
+   * **稽核中**：當至少一位核准者開啟要求物件時，**擱置稽核**&#x200B;狀態變更為&#x200B;**稽核中**。 在所有核准者核准要求之前，要求的狀態仍為&#x200B;**稽核中**。
+   * **已核准**：當核准者核准要求物件時，其個別狀態會變成&#x200B;**已核准**，但整體要求物件狀態仍為&#x200B;**稽核中**，直到所有核准者都做出決定為止。 當所有核准者核准請求時，請求狀態會變成&#x200B;**已核准**。
+   * **已完成**：如果所有核准者核准該要求物件，其狀態會變更為&#x200B;**已完成**，或者該要求不需要核准。
+   * **已拒絕**：如果任何核准者拒絕要求物件，狀態會變成&#x200B;**已拒絕**。 不會建立記錄，必須提交新請求才能建立記錄。
+
+<!--* <span class="preview">You can display approval information on a record created by submitting a request form in the Approved by and Approved date fields. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).</span>-->
 
 ## 存取需求
 
@@ -150,7 +152,7 @@ ht-degree: 1%
      >如果您無權存取Workfront Planning，或無權檢視任何工作區，則只能使用電子郵件或應用程式內通知存取核准該工作區的請求。
 
    * 按一下畫面右上角的Unified Shell中的&#x200B;**通知**&#x200B;區域圖示![通知區域圖示](assets/notifications-area-icon-unified-shell.png)，然後按一下等待您核准之要求的相關通知以開啟要求。
-   * 前往電子郵件中的電子郵件通知，通知您擱置核准的要求，然後按一下[開啟要求] **開啟要求。<!--add the name of the button here, from the email-->**
+   * 前往電子郵件中的電子郵件通知，通知您擱置核准的要求，然後按一下[開啟要求] **開啟要求。**<!--add the name of the button here, from the email-->
 
    請求頁面會以唯讀模式開啟。
 

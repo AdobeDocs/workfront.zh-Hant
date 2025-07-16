@@ -6,15 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 04818bc054c3bab6e6208b6678365549664d1594
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '4717'
+source-wordcount: '4607'
 ht-degree: 1%
 
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=zh-Hant ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -22,9 +22,9 @@ ht-degree: 1%
 
 # 建立欄位
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -100,13 +100,8 @@ ht-degree: 1%
   </tr> 
 <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
-   <td>   <p>管理工作區<span class="preview">和記錄型別</span> </a>的許可權 </p>  
+   <td>   <p>管理工作區與記錄型別</a>的許可權 </p>  
    <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區。</p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>版面配置範本</p></td> 
-   <td> <p>在生產環境中，所有使用者（包括系統管理員）都必須指派給包含Planning的版面配置範本。</p>
-<p><span class="preview">在預覽環境中，標準使用者和系統管理員預設啟用Planning。</span></p></td> 
   </tr> 
 </tbody> 
 </table>
@@ -191,7 +186,7 @@ ht-degree: 1%
    ![單行文字欄位型別](assets/single-line-text-field-type.png)
 
 1. 在&#x200B;**新欄位**&#x200B;索引標籤中新增下列資訊：
-   * **名稱**：欄位型別的名稱，它將顯示在資料表或記錄的詳細資訊頁面中。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **名稱**：欄位名稱，它將顯示在資料表或記錄的詳細資訊頁面中。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **描述**：有關欄位的額外資訊。 當您將滑鼠懸停在表格中的欄位欄標題上，或當您按一下記錄詳細資訊頁面中欄位名稱旁的資訊圖示時，會顯示欄位說明。
 1. 按一下「**建立**」。
 
@@ -217,7 +212,7 @@ ht-degree: 1%
 
 
 1. 在&#x200B;**新欄位**&#x200B;索引標籤中新增下列資訊：
-   * **名稱**：欄位型別的名稱，它將顯示在資料表或記錄的詳細資訊頁面中。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **名稱**：欄位名稱，它將顯示在資料表或記錄的詳細資訊頁面中。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **描述**：有關欄位的額外資訊。 當您將滑鼠游標停留在表格中的欄位欄位上，或當您在記錄的詳細資訊頁面中按一下欄位名稱旁的資訊圖示時，會顯示欄位說明。
 1. 按一下「**建立**」。
 
@@ -234,7 +229,7 @@ ht-degree: 1%
 
 
 1. 在&#x200B;**新欄位**&#x200B;索引標籤中新增下列資訊：
-   * **名稱**：欄位型別的名稱，它將顯示在資料表或記錄的詳細資訊頁面中。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **名稱**：欄位名稱，它將顯示在資料表或記錄的詳細資訊頁面中。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **描述**：有關欄位的額外資訊。 當您將滑鼠游標停留在表格中的欄位欄位上，或當您在記錄的詳細資訊頁面中按一下欄位名稱旁的資訊圖示時，會顯示欄位說明。
    * **選擇**：使用者在更新此欄位時可以選取的選項。 每個選擇的名稱可以同時使用數字和字母。
 1. 按一下&#x200B;**新增選擇**&#x200B;以新增更多選擇。 您可以在多重選取欄位中新增多少選擇，沒有限制。
@@ -263,7 +258,7 @@ ht-degree: 1%
 
 
 1. 在&#x200B;**新欄位**&#x200B;索引標籤中新增下列資訊：
-   * **名稱**：欄位型別的名稱，它將顯示在資料表或記錄的詳細資訊頁面中。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **名稱**：欄位名稱，它將顯示在資料表或記錄的詳細資訊頁面中。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **描述**：有關欄位的額外資訊。 當您將滑鼠游標停留在表格中的欄位欄位上，或當您在記錄的詳細資訊頁面中按一下欄位名稱旁的資訊圖示時，會顯示欄位說明。
    * **選擇**：儲存欄位後，可從下拉式功能表中選取的選項。 每個選擇的名稱可以同時使用數字和字母。
 
@@ -292,7 +287,7 @@ ht-degree: 1%
 
 
 1. 在&#x200B;**新欄位**&#x200B;索引標籤中新增下列資訊：
-   * **名稱**：欄位型別的名稱，它會出現在資料表或記錄頁面中。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **名稱**：欄位名稱，它將顯示在資料表或記錄頁面中。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **描述**：有關欄位的額外資訊。 當您將滑鼠游標停留在表格中的欄位欄位上，或當您在記錄的詳細資訊頁面中按一下欄位名稱旁的資訊圖示時，會顯示欄位說明。
    * **日期格式**：您要在此欄位中顯示的日期格式型別。<!--update this casing - submitted bug for it-->
 
@@ -322,7 +317,7 @@ ht-degree: 1%
 >數字欄位會在請求表單產生器中顯示為「單行」文字欄位型別。
 >
 >但是，欄位格式會保留，並且這些欄位的值將在提交請求後、在記錄型別和請求詳細資訊頁面中顯示為數字。
->&#x200B;>如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
+>>如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
 
 
 1. 依照本文中[從頭開始建立欄位](#create-fields-from-scratch)一節的說明開始建立欄位，然後選取&#x200B;**數字**&#x200B;欄位型別。
@@ -330,7 +325,7 @@ ht-degree: 1%
    ![數字欄位型別](assets/number-field-type.png)
 1. 在&#x200B;**新欄位**&#x200B;索引標籤中新增下列資訊：
 
-   * **名稱**：欄位型別的名稱，它會出現在資料表或記錄頁面中。
+   * **名稱**：欄位名稱，它將顯示在資料表或記錄頁面中。
    * **描述**：有關欄位的額外資訊。 當您將滑鼠游標停留在表格中的欄位欄位上，或當您在記錄的詳細資訊頁面中按一下欄位名稱旁的資訊圖示時，會顯示欄位說明。
    * **精確度**：您要為欄位記錄的小數位數。 您最多可以顯示6個小數位數。
    * **允許負數**：如果您要在此欄位中允許負數，請選取此選項。 預設會取消選取此選項。
@@ -352,7 +347,7 @@ ht-degree: 1%
 >百分比欄位在請求表單產生器中顯示為單行文字欄位型別。
 >
 >但是，欄位格式會保留，並且這些欄位的值將在提交請求後，在記錄型別和請求詳細資訊頁面中顯示為百分比。
->&#x200B;>如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
+>>如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
 
 
 1. 依照本文中[從頭開始建立欄位](#create-fields-from-scratch)一節的說明開始建立欄位，然後選取&#x200B;**百分比**&#x200B;欄位型別。
@@ -360,7 +355,7 @@ ht-degree: 1%
    ![百分比欄位型別](assets/percentage-field-type.png)
 
 1. 在&#x200B;**新欄位**&#x200B;索引標籤中新增下列資訊：
-   * **名稱**：欄位型別的名稱，它會出現在資料表或記錄頁面中。
+   * **名稱**：欄位名稱，它將顯示在資料表或記錄頁面中。
    * **描述**：有關欄位的額外資訊。 當您將滑鼠游標停留在表格中的欄位欄位上，或當您在記錄的詳細資訊頁面中按一下欄位名稱旁的資訊圖示時，會顯示欄位說明。
    * **精確度**：您要為欄位記錄的小數位數。 您最多可以顯示6個小數位數。
    * **允許負數**：若要允許此欄位中有負百分比值，請選取此選項。 預設會取消選取此選項。
@@ -392,14 +387,14 @@ ht-degree: 1%
 >貨幣欄位在請求表單產生器中顯示為單行文字欄位型別。
 >
 >但是，欄位格式會保留，並且這些欄位的值將在提交請求後，在記錄型別和請求詳細資訊頁面中顯示為貨幣。
->&#x200B;>如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
+>>如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
 
 1. 依照本文中[從頭開始建立欄位](#create-fields-from-scratch)一節的說明開始建立欄位，然後選取&#x200B;**貨幣**&#x200B;欄位型別。
 
    ![貨幣欄位型別](assets/currency-field-type.png)
 
 1. 在&#x200B;**新欄位**&#x200B;索引標籤中新增下列資訊：
-   * **名稱**：欄位型別的名稱，它會出現在資料表或記錄頁面中。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **名稱**：欄位名稱，它將顯示在資料表或記錄頁面中。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **描述**：有關欄位的額外資訊。 當您將滑鼠游標停留在表格中的欄位欄位上，或當您在記錄的詳細資訊頁面中按一下欄位名稱旁的資訊圖示時，會顯示欄位說明。
    * **貨幣**：您要在此欄位中顯示的貨幣型別。 這是一份國際標準化組織(ISO)的貨幣清單。
    * **精確度**：您要為欄位記錄的小數位數。 您最多可以顯示6個小數。
@@ -422,7 +417,7 @@ ht-degree: 1%
    ![核取方塊欄位型別](assets/checkbox-field-type.png)
 
 1. 在&#x200B;**新欄位**&#x200B;索引標籤中新增下列資訊：
-   * **名稱**：欄位型別的名稱，它會出現在資料表或記錄頁面中。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **名稱**：欄位名稱，它將顯示在資料表或記錄頁面中。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **描述**：有關欄位的額外資訊。 當您將滑鼠游標停留在表格中的欄位欄位上，或當您在記錄的詳細資訊頁面中按一下欄位名稱旁的資訊圖示時，會顯示欄位說明。
 1. 按一下「**建立**」。
 
@@ -513,7 +508,7 @@ ht-degree: 1%
    ![人員欄位型別](assets/people-field-type.png)
 
 1. 在&#x200B;**新欄位**&#x200B;索引標籤中新增下列資訊：
-   * **名稱**：欄位型別的名稱，它會出現在資料表或記錄頁面中。
+   * **名稱**：欄位名稱，它將顯示在資料表或記錄頁面中。
    * **描述**：有關欄位的額外資訊。 當您將滑鼠游標停留在表格中的欄位欄位上，或當您在記錄的詳細資訊頁面中按一下欄位名稱旁的資訊圖示時，會顯示欄位說明。
    * **允許多個值**：如果您要允許使用者在此欄位中新增一個以上的使用者，請選取此選項。 預設會取消選取此選項。
 
@@ -535,7 +530,7 @@ ht-degree: 1%
 
 1. 在&#x200B;**新欄位**&#x200B;索引標籤中新增下列資訊：
 
-   * **名稱**：欄位型別的名稱，它會出現在資料表或記錄頁面中。<!--this might change and they might prepopulate it with "Created by"-->
+   * **名稱**：欄位名稱，它將顯示在資料表或記錄頁面中。<!--this might change and they might prepopulate it with "Created by"-->
    * **描述**：有關欄位的額外資訊。 當您將滑鼠游標停留在表格中的欄位欄位上，或當您在記錄的詳細資訊頁面中按一下欄位名稱旁的資訊圖示時，會顯示欄位說明。
 
 1. 按一下「**建立**」。
@@ -555,7 +550,7 @@ ht-degree: 1%
 
 1. 在&#x200B;**新欄位**&#x200B;索引標籤中新增下列資訊：
 
-   * **名稱**：欄位型別的名稱，它會出現在資料表或記錄頁面中。<!--this might change and they might prepopulate it with "Created date"-->
+   * **名稱**：欄位名稱，它將顯示在資料表或記錄頁面中。<!--this might change and they might prepopulate it with "Created date"-->
    * **描述**：有關欄位的額外資訊。 當您將滑鼠游標停留在表格中的欄位欄位上，或當您在記錄的詳細資訊頁面中按一下欄位名稱旁的資訊圖示時，會顯示欄位說明。
    * **日期格式**：從下列格式選取：
 
@@ -586,7 +581,7 @@ ht-degree: 1%
 
 1. 在&#x200B;**新欄位**&#x200B;索引標籤中新增下列資訊：
 
-   * **名稱**：欄位型別的名稱，它會出現在資料表或記錄頁面中。<!--this might change and they might prepopulate it with "Created by"-->
+   * **名稱**：欄位名稱，它將顯示在資料表或記錄頁面中。<!--this might change and they might prepopulate it with "Created by"-->
    * **描述**：有關欄位的額外資訊。 當您將滑鼠游標停留在表格中的欄位欄位上，或當您在記錄的詳細資訊頁面中按一下欄位名稱旁的資訊圖示時，會顯示欄位說明。
 
 1. 按一下「**建立**」。
@@ -606,7 +601,7 @@ ht-degree: 1%
 
 1. 在&#x200B;**新欄位**&#x200B;索引標籤中新增下列資訊：
 
-   * **名稱**：欄位型別的名稱，它會出現在資料表或記錄頁面中。<!--this might change and they might prepopulate it with "Created date"-->
+   * **名稱**：欄位名稱，它將顯示在資料表或記錄頁面中。<!--this might change and they might prepopulate it with "Created date"-->
    * **描述**：有關欄位的額外資訊。 當您將滑鼠游標停留在表格中的欄位欄位上，或當您在記錄的詳細資訊頁面中按一下欄位名稱旁的資訊圖示時，會顯示欄位說明。
    * **日期格式**：從下列格式選取：
 
@@ -626,6 +621,75 @@ ht-degree: 1%
 1. 按一下「**建立**」。
 
    新的上次修改日期型別欄位會新增為記錄型別的欄，其值會預先填入上次修改記錄的日期（或日期和時間）。
+
+<!--
+
+<div class="preview">
+
+### Approved date
+
+You can use the Approved date field type to add the date when a request was approved and it resulted in the creation of the record. This is a read-only field, and it automatically populates with the date (and optionally with the time) when the request was approved by the last approver. In this case, the approval date should coincide with the date the record was created. 
+
+>[!TIP]
+>
+>The Approved date field populates with information only for records that were created by submitting a request form associated with approvers. 
+>
+>If the form is associated with more than one approver, only the date of the last approval decision is recorded in the Approved date field.
+ 
+
+1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Created date** field type.
+ 
+   ![Approved date field type](assets/approved-date-field-type.png)
+
+   1. Add the following information in the **New field** tab:
+
+     * **Name**: The name of the field, as it will appear in a table or the record page. 
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
+     * **Date Format**: Select from the following formats:
+
+        * **Locale**: Matches the locale of your browser.
+        * **Standard**: 05/16/2023
+        * **Long**: May 16, 2023
+        * **European**: 16/05/2023
+        * **ISO**: 2023-05-16
+     
+     * **Include a time field**: Select this option if you want to include a time stamp. This is unselected by default. 
+    
+        Select from the following options:
+        
+        * **24hr**: For example: 18:00
+        * **12hr**: For example: 6:00 PM 
+    
+1. Click **Create**.
+
+    The new Approved date-type field is added as a column to the record type and its values are prefilled with the date (or date and time) when the record request was approved, if the record was created by submitting a request associated with approvers. 
+
+### Approved by
+
+You can use the Approved by field type to add the user who last approved the request to create a record. This is a read-only field, and it automatically populates with the name of the user who approved the request to create the record.
+
+>[!TIP]
+>
+>The Approved by field populates with information only for records that were created by submitting a request form associated with approvers.
+>
+>If the form is associated with more than one approver, the name of all approvers are recorded in the Approved date field, separated by commas.
+ 
+1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Approved by** field type.
+ 
+   ![Approved by field type](assets/approved-by-field-type.png)
+
+1. Add the following information in the **New field** tab:
+
+     * **Name**: The name of the field, as it will appear in a table or the record page. 
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
+    
+1. Click **Create**.
+
+    The new Approved by-type field is added as a column to the record type and its values are prefilled with the name of the user who last modified each record.  
+
+</div>
+-->
+
 
 <!--
 
@@ -664,7 +728,7 @@ Create an Object field:
 
 1. Add the following information in the **New field** tab:
 
-     * **Name**: The name of the field type, as it will appear in a table or the record page. (***********this might change and they might prepopulate it with "Created date"********)
+     * **Name**: The name of the field, as it will appear in a table or the record page. (***********this might change and they might prepopulate it with "Created date"********)
      * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
 
 1. Click **Create**.

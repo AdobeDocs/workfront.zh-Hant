@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '1969'
+source-wordcount: '1856'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # 共用檢視
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -41,8 +41,6 @@ This article describes how you can share a view with others. For information abo
 +++ 展開以檢視存取需求。
 
 <!--at GA, check that the Workfront plans article linked below has Planning info-->
-
-您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
 <col> 
@@ -98,12 +96,8 @@ This article describes how you can share a view with others. For information abo
    <td role="rowheader"><p>物件許可權</p></td> 
    <td>  <p>管理檢視的許可權</p>  
    <p>只有具有工作區管理許可權的使用者才能公開共用檢視。</p></td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>版面配置範本</p></td> 
-   <td> <p>在「生產」環境中，所有使用者（包括系統管理員）都必須指派給包含Planning區域的版面配置範本。</p>
-<p><span class="preview">在「預覽」環境中，「標準使用者」和「系統管理員」預設會啟用「規劃」區域。</span></p></td> 
-  </tr> 
+  </tr>
+
 </tbody> 
 </table>
 
@@ -147,15 +141,15 @@ This article describes how you can share a view with others. For information abo
 
    這會開啟記錄型別頁面。
 
-1. 從[檢視]索引標籤，<span class="preview">執行下列任一項作業：</span>
+1. 在檢視標籤中，執行下列任一項作業：
 
    * 暫留在您要共用的檢視表名稱上，然後按一下檢視表名稱右邊的&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下&#x200B;**共用**。
 
      檢視的其他![功能表](assets/more-menu-for-views-expanded-with-share-option.png)
 
-   * <span class="preview">按一下&#x200B;**共用** > **共用目前的檢視**</span>
+   * 按一下「**共用**」>「**共用目前的檢視**」
 
-     <span class="preview">![含有記錄型別和檢視共用選項的[共用]按鈕](assets/share-button-with-record-type-and-view-sharing-options.png)</span>
+     ![含有記錄型別和檢視共用選項的[共用]按鈕](assets/share-button-with-record-type-and-view-sharing-options.png)
 
    **共用檢視**&#x200B;方塊開啟，預設應該選取&#x200B;**內部共用**&#x200B;標籤。
 
@@ -216,7 +210,7 @@ This article describes how you can share a view with others. For information abo
    * 暫留在您要共用的檢視表名稱上，然後按一下檢視表名稱右邊的&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下&#x200B;**共用**。
 
    ![更多以共用選項展開的檢視功能表](assets/more-menu-for-views-expanded-with-share-option.png)
-   * <span class="preview">按一下&#x200B;**共用** > **共用目前的檢視**</span>
+   * 按一下「**共用**」>「**共用目前的檢視**」
 
    **共用檢視**&#x200B;方塊開啟。
 
@@ -265,7 +259,7 @@ This article describes how you can share a view with others. For information abo
 1. 在檢視的標籤中，執行下列任一項作業：
 
    * 暫留在您要共用的檢視標籤上，然後按一下檢視名稱右邊的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**共用檢視**&#x200B;方塊中的&#x200B;**共用** > **複製連結**。
-   * <span class="preview">按一下&#x200B;**共用檢視**&#x200B;方塊中的&#x200B;**共用**</span> > **複製檢視連結** > **複製連結**。
+   * 按一下&#x200B;**共用檢視**&#x200B;方塊中的&#x200B;**共用** > **複製檢視連結** > **複製連結**。
 
    檢視的連結會複製到剪貼簿，而您會在畫面底部收到確認。
 
@@ -278,14 +272,12 @@ This article describes how you can share a view with others. For information abo
 1. （視條件而定）如果您是檢視的管理員，您可能會收到其他使用者存取下列區域檢視的請求：
 
    * 應用程式內通知
-
      ![檢視](assets/in-app-notification-for-access-request-for-view.png)存取要求的應用程式內通知
    * 電子郵件通知
-
      ![檢視](assets/in-app-notification-for-access-request-for-view.png)存取要求的應用程式內通知
 1. （視條件而定）從Workfront的通知區域，按一下應用程式內通知
 或
-在電子郵件通知中，按一下&#x200B;**檢視所有通知**，然後按一下清單中的通知。
+在電子郵件通知中，按一下**檢視所有通知**，然後按一下清單中的通知。
 
    顯示&#x200B;**擱置中的存取要求**&#x200B;方塊。
 
@@ -303,11 +295,11 @@ This article describes how you can share a view with others. For information abo
 {{step1-to-planning}}
 
 1. 開啟您要停止共用其檢視的工作區，然後按一下記錄型別卡片。 這會開啟記錄型別頁面。
-1. 從[檢視]索引標籤，<span class="preview">執行下列其中一項作業：</span>
+1. 在檢視標籤中，執行下列任一項作業：
 
    * 暫留在您要共用的檢視表名稱上，然後按一下檢視表名稱右邊的&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下&#x200B;**共用**。
 
-   * <span class="preview">按一下&#x200B;**共用** > **共用目前的檢視**</span>
+   * 按一下「**共用**」>「**共用目前的檢視**」
 
    **共用檢視**&#x200B;方塊開啟。
 1. 若要移除檢視的內部共用，請執行下列動作：

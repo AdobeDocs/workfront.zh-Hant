@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 8f4c1be156094d18df4bc3628d4f1fca90372119
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '3446'
+source-wordcount: '3346'
 ht-degree: 2%
 
 ---
 
 # 管理表格檢視
 
-<span class="preview">本頁標示的資訊是指尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -87,12 +87,7 @@ ht-degree: 2%
 <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
    <td>   <p>管理檢視的許可權</p>  
-   <p>檢視檢視許可權以暫時變更檢視設定、複製、<span class="preview">或匯出檢視</span></p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>版面配置範本</p></td> 
-   <td> <p>在「生產」環境中，所有使用者（包括系統管理員）都必須指派給包含Planning區域的版面配置範本。</p>
-<p><span class="preview">在「預覽」環境中，「標準使用者」和「系統管理員」預設會啟用「規劃」區域。</span></p></td> 
+   <p>檢視許可權以暫時變更檢視設定、複製或匯出檢視</p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -113,11 +108,9 @@ ht-degree: 2%
 
 若要管理表格檢視：
 
-1. <span class="preview">建立資料表檢視，如文章[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)中所述。</span>
+1. 建立資料表檢視，如文章[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)中所述。
 
-   <span class="preview">![資料表檢視範例](assets/table-view-example.png)
-
-   </span>
+   ![資料表檢視範例](assets/table-view-example.png)
 
 1. （選擇性）按一下&#x200B;**列高度**，然後從下列選項中選取，以修改表格列的高度：
    * 短
@@ -130,7 +123,7 @@ ht-degree: 2%
    * [篩選器](#add-filters)
    * [排序](#add-a-sort)
    * [分組](#add-groupings)
-   * <span class="preview">[列色彩](#add-row-colors)</span>
+   * [列顏色](#add-row-colors)
    * [即時狀態指示器](#enable-the-real-time-presence-indicator)
 
 
@@ -459,7 +452,7 @@ ht-degree: 2%
 
    為分組選取的欄位數會顯示在「分組」圖示旁。
 
-   <span class="preview">![在資料表檢視中套用群組](assets/grouping-applied-in-table-view.png)</span>
+   ![在資料表檢視中套用群組](assets/grouping-applied-in-table-view.png)
 
 1. （選擇性）在&#x200B;**群組記錄依據**&#x200B;方塊中，按一下選取要移除分組的欄位右邊的&#x200B;**x**&#x200B;圖示
 
@@ -470,9 +463,7 @@ ht-degree: 2%
 1. 按一下「**依**&#x200B;分組記錄」方塊外部以關閉它。
 1. （選擇性）在任何群組結束時按一下&#x200B;**+新記錄**&#x200B;以新增記錄，然後重新整理您的頁面以將新記錄新增到適當的群組。<!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
-1. <span class="preview">若要展開或收合群組，請執行下列其中一個動作：</span>
-
-   <div class="preview">
+1. 若要展開或收合群組，請執行下列任一項動作：
 
    1. 按一下&#x200B;**群組**&#x200B;圖示，然後&#x200B;**全部展開**，或&#x200B;**全部收合**。 這會展開表格檢視中的所有群組和子群組。
 
@@ -486,7 +477,7 @@ ht-degree: 2%
       * **展開子群組**
       * **摺疊子群組**
 
-      視您套用至檢視的群組數量而定，某些選項可能無法使用。</div>
+      視您套用至檢視的群組數量而定，某些選項可能無法使用。
 
 <!-- this is not available yet: 
 
@@ -496,8 +487,6 @@ To sort grouped records:
 1. ************************* add steps here for sorting grouped records****************
 
 -->
-
-<div class="preview">
 
 ### 新增列顏色
 
@@ -533,8 +522,6 @@ To sort grouped records:
 
 1. 按一下&#x200B;**列色彩**&#x200B;方塊外部以將其關閉。 會自動套用顏色。
 
-</div>
-
 ### 啟用即時顯示狀態指示器
 
 根據預設，當您編輯記錄資訊的同時，其他使用者的頭像會顯示在所有記錄檢視的右上角。
@@ -557,7 +544,7 @@ To sort grouped records:
    >
    >您可以從任何檢視中選取&#x200B;**顯示共同作業人員**&#x200B;切換按鈕。 目前由其他人編輯的欄位僅在表格檢視中列出。
 
-<div class="preview">
+
 
 
 

@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '1594'
+source-wordcount: '1485'
 ht-degree: 5%
 
 ---
 
 # 管理行事曆檢視
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -28,8 +28,6 @@ ht-degree: 5%
 ## 存取需求
 
 +++ 展開以檢視存取需求。
-
-您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
 <col> 
@@ -83,12 +81,8 @@ ht-degree: 5%
    <td role="rowheader"><p>物件許可權</p></td> 
    <td>   <p>管理檢視的許可權</p>  
    <p>檢視許可權以暫時變更檢視設定或複製檢視</p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>版面配置範本</p></td> 
-   <td> <p>在生產環境中，所有使用者（包括系統管理員）都必須指派給包含Planning的版面配置範本。</p>
-<p><span class="preview">在預覽環境中，標準使用者和系統管理員預設啟用Planning。</span></p> </td> 
-  </tr> 
+  </tr>
+
 </tbody> 
 </table>
 
@@ -168,7 +162,7 @@ ht-degree: 5%
 1. 選取行事曆檢視，然後按一下表格右上角的&#x200B;**篩選器**。
 1. 按一下&#x200B;**新增條件**&#x200B;並新增下列資訊：
 
-   * **選取您要依<!-- the tip below might change-->篩選的欄位**
+   * **選取您要依**&#x200B;篩選的欄位<!-- the tip below might change-->
 
    * **選取選項** （或篩選修飾元）以定義欄位必須符合何種條件
 

@@ -6,18 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '855'
 ht-degree: 1%
 
 ---
 
 # 從CSV或Excel檔案匯入資訊，建立記錄型別
 
-<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -26,8 +26,6 @@ ht-degree: 1%
 ## 存取需求
 
 +++ 展開以檢視存取需求。
-
-您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
 <col> 
@@ -81,12 +79,8 @@ ht-degree: 1%
    <td role="rowheader"><p>物件許可權</p></td> 
    <td>   <p>管理工作區</a>的許可權 </p>  
    <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p>  </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>版面配置範本</p></td> 
-   <td> <p>在生產環境中，所有使用者（包括系統管理員）都必須指派給包含Planning的版面配置範本。</p>
-<p><span class="preview">在預覽環境中，標準使用者和系統管理員預設啟用Planning。</span></p> </td> 
-  </tr> 
+  </tr>
+
 </tbody> 
 </table>
 
@@ -109,16 +103,12 @@ ht-degree: 1%
 * 不支援空白工作表。
 * 不支援下列型別的欄位，且無法對應至匯入工作表上的欄位：
 
-   * 連線欄位，視您使用的環境而定：
-
-      * 在生產環境中，與Planning記錄或Workfront和AEM Assets物件的連線欄位無法對應
-
-      * <span class="preview">在「預覽」環境中，您可以將連線欄位對應並匯入至Planning記錄。 您無法將欄位對應到Workfront和AEM Assets。</span>
-
+   * Workfront和AEM Assets物件型別的連線欄位。
    * 從連線的Planning記錄或Workfront與AEM Assets物件查詢欄位
    * 公式欄位
    * 建立日期，建立者
    * 上次修改日期，上次修改者：
+     <!--* <span class="preview">Approved date, Approved by</span>-->
    * 人員
 
 若要使用Excel或CSV檔案匯入記錄型別：
@@ -155,25 +145,25 @@ ht-degree: 1%
 
    取消選取的頁面會以灰色背景顯示。
 
-1. （選擇性）按一下欄標題右側的向下箭頭，在&#x200B;**欄位**&#x200B;索引標籤</span>中執行下列其中一項作業： <span class="preview">
+1. （選擇性）按一下欄標題右側的向下箭頭，在&#x200B;**欄位**&#x200B;索引標籤中執行下列其中一項作業：
 
-   <span class="preview">![記錄型別對應匯入方塊上的欄位索引標籤](assets/field-tab-on-record-type-import-mapping-box.png)</span>
+   ![記錄型別對應匯入方塊上的欄位索引標籤](assets/field-tab-on-record-type-import-mapping-box.png)
 
    * 重新命名其中一個欄位
    * 變更&#x200B;**欄位型別**
    * 更新欄位&#x200B;**描述**
 
-1. <span class="preview">（選擇性）按一下&#x200B;**連線**&#x200B;索引標籤，將資料行中的資訊對應到其他記錄型別的連線欄位。</span>
+1. （選擇性）按一下&#x200B;**連線**&#x200B;索引標籤，將資料行中的資訊對應到其他記錄型別的連線欄位。
 
-   <span class="preview">![記錄型別匯入對應方塊上的連線標籤](assets/connection-tab-on-record-type-import-mapping-box.png)</span>
+   ![記錄型別匯入對應方塊上的連線標籤](assets/connection-tab-on-record-type-import-mapping-box.png)
 
    >[!TIP]
    >
-   ><span class="preview">您只能對應到Workfront Planning連線記錄中的欄位。 您無法從Workfront或AEM Assets連線對應到欄位。 如需詳細資訊，請參閱本文中的[有關使用Excel或CSV檔案匯入記錄型別的考量事項](#considerations-about-importing-record-types-using-an-excel-or-csv-file)一節。</span>
+   >您只能對應至Workfront Planning連線記錄中的欄位。 您無法從Workfront或AEM Assets連線對應到欄位。 如需詳細資訊，請參閱本文中[關於使用Excel或CSV檔案匯入記錄型別的考量事項](#considerations-about-importing-record-types-using-an-excel-or-csv-file)一節。
 
 1. （視條件而定）更新欄位相關資訊後，按一下&#x200B;**儲存**。
 
-1. 當您準備好匯入您的檔案時，請按一下[匯入]。**&#x200B;**
+1. 當您準備好匯入您的檔案時，請按一下[匯入]。****
 
    下列資訊會匯入Workfront Planning中：
 

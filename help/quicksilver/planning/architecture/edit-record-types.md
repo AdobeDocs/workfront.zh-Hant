@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: 459e3883101b644a91d5e2a32288cf5b02a02bd9
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '646'
 ht-degree: 2%
 
 ---
@@ -16,9 +16,10 @@ ht-degree: 2%
 
 # 編輯記錄型別
 
-<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -80,15 +81,11 @@ ht-degree: 2%
   </tr> 
 <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
-   <td>   <p>管理工作區<span class="preview">和記錄型別</span>的許可權 </p>  
+   <td>   <p>管理工作區和記錄型別的許可權 </p>  
    <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p>
    <p>只有系統管理員可以啟用記錄型別以從其他工作區連線</p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>版面配置範本</p></td> 
-   <td> <p>在生產環境中，所有使用者（包括系統管理員）都必須指派給包含Planning的版面配置範本。</p>
-<p><span class="preview">在預覽環境中，標準使用者和系統管理員預設啟用Planning。</span></p> </td> 
-  </tr> 
+  </tr>
+
 </tbody> 
 </table>
 
@@ -123,17 +120,22 @@ ht-degree: 2%
       * 選取顏色以識別記錄型別。 這是記錄型別圖示的顏色。
       * 從清單中選取圖示，或開始輸入圖示名稱以說明其代表內容，然後在顯示時選取它。 這是記錄型別的圖示。 依預設，會選取檔案圖示。
 
-1. （條件式）如果您是系統管理員，請按一下&#x200B;**編輯記錄型別**&#x200B;方塊中的&#x200B;**進階設定**&#x200B;索引標籤。<!--the info here is duplicated in the Create record types article-->
+   <!--old info: 
+   1. (Conditional) If you are a system administrator, click the **Advanced settings** tab in the **Edit record type** box. 
+      ![Edit record type box advanced settings tab](assets/edit-record-type-box-advanced-settings-tab.png)
+   1. (Conditional) Update the following information in the **Advanced settings** tab: 
+      * Enable the **Connect from other workspace** setting. When enabled, the record type is accessible and can be connected from other workspaces. 
+      * Choose from which workspaces the record type can be accessed. Choose from the following options:
+         * **System wide**: Users can connect to this record type from all workspaces where they have manage permissions. 
+         * **Specific workspaces**: Add the names of the workspaces where workspace managers can connect to this record type.-->
+
+
+1. （選擇性和條件性）如果您是系統管理員，請按一下&#x200B;**進階設定**，並更新&#x200B;**跨工作區功能**&#x200B;區段中的下列資訊： <!--the info here is duplicated in the Create record types article-->
+   * 啟用&#x200B;**允許連線到其他工作區中的這個記錄型別**&#x200B;設定：這可讓工作區管理員從其他工作區連線到這個記錄型別。\
+     您可以指定此記錄型別可以連線哪些工作區。 您可以使其可用於所有工作區，或指定可匯入其的特定工作區。
+如需詳細資訊，請參閱[設定記錄型別的跨工作區功能](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)。
 
    ![編輯記錄型別方塊進階設定索引標籤](assets/edit-record-type-box-advanced-settings-tab.png)
-
-1. （條件式）在&#x200B;**進階設定**&#x200B;標籤中更新下列資訊：
-
-   * 啟用&#x200B;**從其他工作區連線**&#x200B;設定。 啟用時，記錄型別可供存取，並可從其他工作區連線。
-   * 選擇可存取記錄型別的工作區。 從下列選項中選擇：
-
-      * **系統範圍**：使用者可以從他們擁有管理許可權的所有工作區連線到此記錄型別。
-      * **特定工作區**：新增工作區管理員可連線至此記錄型別的工作區名稱。
 
    <!--replace last point with this when we release dynamic record types:
       1. (Optional and conditional) If you are a system administrator, click **Advanced settings** and update the following information in the **Cross-workspace capability** section: **** the info here is duplicated in the Edit record types article ***

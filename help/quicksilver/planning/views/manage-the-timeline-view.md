@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 44b3298905a04c64a457045c4112d9628d933aae
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '3804'
+source-wordcount: '3708'
 ht-degree: 2%
 
 ---
 
 # 管理時間表檢視
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -81,12 +81,7 @@ ht-degree: 2%
    <td role="rowheader"><p>物件許可權</p></td> 
    <td>   <p>管理檢視的許可權</p>  
    <p>檢視許可權以暫時變更檢視設定或複製檢視</p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>版面配置範本</p></td> 
-   <td> <p>在生產環境中，所有使用者（包括系統管理員）都必須指派給包含Planning的版面配置範本。</p>
-<p><span class="preview">在預覽環境中，標準使用者和系統管理員預設啟用Planning。</span></p> </td> 
-  </tr> 
+  </tr>  
 </tbody> 
 </table>
 
@@ -126,9 +121,7 @@ ht-degree: 2%
    >
    >    時間軸中記錄的排序在壓縮檢視中不可見。
 
-1. <span class="preview"> （視條件而定）如果您的管理員已啟用自訂季度，而Workfront已偵測到自訂季度設定方式的問題，則開啟時間表檢視時，您可能會收到警告。</span>
-
-   <div class="preview">
+1. （視條件而定）如果管理員已啟用自訂季度，而Workfront偵測到自訂季度設定方式發生問題，則開啟時間表檢視時，您可能會收到警告。
 
    存在下列情況：
 
@@ -152,13 +145,11 @@ ht-degree: 2%
    >在「設定」區域中設定自訂季度後，時間軸檢視會顯示自訂季度，而非傳統季度。
    >如需詳細資訊，請參閱[啟用自訂季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
 
-   </div>
-
-1. <span class="preview">（條件式）如果您是Workfront管理員，請按一下&#x200B;**前往設定**&#x200B;設定您的季度。 如果沒有，請按一下[確定] **，並要求Workfront管理員設定自訂季度。</span>**
+1. （視條件而定）如果您是Workfront管理員，請按一下&#x200B;**前往設定**&#x200B;設定您的季度。 如果沒有，請按一下[確定] ****，並要求Workfront管理員設定自訂季度。
 
    >[!TIP]
    >
-   ><span class="preview">「前往設定」按鈕僅針對Workfront管理員顯示。</span>
+   >僅會針對Workfront管理員顯示「前往設定」按鈕。
 
 1. （選擇性和條件性）當記錄名稱被截斷時，將滑鼠懸停在記錄列上以顯示記錄的完整名稱和其他資訊。 如需有關在時間軸中設定記錄列截斷的資訊，請參閱本文中的[編輯時間軸檢視設定](#edit-the-timeline-view-settings)小節。
 
@@ -172,7 +163,7 @@ ht-degree: 2%
       * **季**：顯示有季指示的月和周。
       * **月**：顯示周和日。
 1. （選擇性）按一下&#x200B;**切換至精簡檢視**&#x200B;以顯示日期在同一行上不相交的記錄。<!--check to see if they updated the name of the setting here-->
-1. （視條件而定）如果您將模式變更為&#x200B;**緊密**，請按一下&#x200B;**切換至標準**&#x200B;檢視，以個別行顯示記錄。 <span class="preview">預設值為&#x200B;**標準**&#x200B;選項。</span>  <!--check to see if they updated the name of the setting here-->
+1. （視條件而定）如果您將模式變更為&#x200B;**緊密**，請按一下&#x200B;**切換至標準**&#x200B;檢視，以個別行顯示記錄。 **標準**&#x200B;選項是預設值。 <!--check to see if they updated the name of the setting here-->
 
 1. 執行下列動作以快速尋找符合關鍵字的記錄：
 
@@ -225,7 +216,7 @@ ht-degree: 2%
 1. 選取時間表檢視，然後按一下表格右上角的&#x200B;**篩選器**。
 1. 按一下&#x200B;**新增條件**&#x200B;並新增下列資訊：
 
-   * **選取您要依<!-- the tip below might change-->篩選的欄位**
+   * **選取您要依**&#x200B;篩選的欄位<!-- the tip below might change-->
 
    * **選取選項** （或篩選修飾元）以定義欄位必須符合何種條件
 
@@ -392,7 +383,7 @@ this is not possible right now; if this is the same functionality as the table v
    >
    >* 如果您使用「劃分」選項顯示其他記錄，則「開始」與「結束」日期為主要記錄的日期。 您無法在此區域選擇連線記錄的「開始」和「結束」日期。
 
-1. <span class="preview"> （條件式與選擇性）如果您是Workfront管理員，請在&#x200B;**使用自訂季度**&#x200B;方塊中按一下&#x200B;**前往設定**，前往設定區域並設定自訂季度。 設定自訂季度後，您可以在時間軸檢視中顯示它們，而非傳統季度。 如果您不是Workfront管理員，可以向管理員要求為您的組織啟用自訂季度。</span>
+1. （條件式與選擇性）如果您是Workfront管理員，請在&#x200B;**使用自訂季度**&#x200B;方塊中按一下&#x200B;**前往設定**，前往設定區域並設定自訂季度。 設定自訂季度後，您可以在時間軸檢視中顯示它們，而非傳統季度。 如果您不是Workfront管理員，可以向管理員要求為您的組織啟用自訂季度。
 
    如需詳細資訊，請參閱[啟用自訂季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
 
@@ -400,11 +391,11 @@ this is not possible right now; if this is the same functionality as the table v
 
    >[!TIP]
    >
-   ><span class="preview">「前往設定」按鈕僅針對Workfront管理員顯示。</span>
+   >僅會針對Workfront管理員顯示「前往設定」按鈕。
 
 1. 按一下左側面板中的&#x200B;**長條樣式**，以指示您要在記錄長條上顯示的資訊。
 
-   在[標準]檢視中使用[劃分]選項時，您可以定義主要記錄<span class="preview">以及連線記錄</span>的橫條樣式。
+   使用「標準」檢視中的「劃分」選項時，您可以定義主要記錄以及連線記錄的長條樣式。
 
    預設會選取記錄的主要欄位（或標題），如記錄的表格檢視中所定義。
    <!--adjust this when the primary field is released??-->
@@ -429,20 +420,20 @@ this is not possible right now; if this is the same functionality as the table v
 
    ![預覽的記錄詳細資料面板時間軸設定](assets/record-details-panel-timeline-settings-with-preview.png)
 
-1. <span class="preview"> （選擇性和條件性）如果您以標準模式顯示時間軸，請選取&#x200B;**截斷列詳細資料**&#x200B;設定。 選取時，記錄列上的資訊會被截斷，而且只有在您將滑鼠懸停在記錄列上時，才會完全顯示資訊。 預設會取消選取此設定，且記錄資訊會完全顯示在長條上。</span>
+1. （選擇性和條件性）如果您以標準模式顯示時間軸，請選取&#x200B;**截斷列詳細資料**&#x200B;設定。 選取時，記錄列上的資訊會被截斷，而且只有在您將滑鼠懸停在記錄列上時，才會完全顯示資訊。 預設會取消選取此設定，且記錄資訊會完全顯示在長條上。
 
    ![時間軸設定方塊上啟用截斷設定](assets/truncate-setting-enabled-on-timeline-settings-highlighted.png)
 
    >[!TIP]
    >
-   ><span class="preview">以精簡模式顯示時間軸檢視時，無法使用截斷列詳細資料設定。</span>
+   >以精簡模式顯示時間軸檢視時，無法使用截斷列詳細資料設定。
    >
 
 1. 按一下左側面板中的&#x200B;**色彩**，以自訂時間軸中記錄和群組的色彩。
 
    ![色彩標籤時間表檢視](assets/color-tab-timeline-view.png)
 
-   在[標準]檢視中使用[劃分]選項時，您可以定義主要記錄<span class="preview">以及連線記錄</span>的色彩。
+   使用「標準」檢視中的「劃分」選項時，您可以定義主要記錄以及連線記錄的色彩。
 
 1. （條件式與選擇性）如果您將群組新增至時間軸檢視，請從下列選項中選取，以在&#x200B;**設定群組顏色**&#x200B;區段中設定群組的顏色：
 
@@ -481,7 +472,7 @@ this is not possible right now; if this is the same functionality as the table v
 
    如果選取的記錄型別沒有包含顏色編碼選項的欄位，則此選項會變暗。
 
-1. <span class="preview">（選擇性）如果您使用&#x200B;**劃分**&#x200B;選項，請對時間軸中顯示的每個連線記錄，重複從步驟4開始的步驟。</span>
+1. （選擇性）如果您使用&#x200B;**劃分**&#x200B;選項，請對時間軸中顯示的每個已連線記錄，重複從步驟4開始的步驟。
 
 1. 按一下「**儲存**」。
 
@@ -515,7 +506,7 @@ this is not possible right now; if this is the same functionality as the table v
 #### 劃分連線記錄
 
 1. 如文章[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)中所述，建立記錄型別的時間表檢視。
-1. 從&#x200B;**標準**&#x200B;或&#x200B;<span class="preview">**緊密**&#x200B;模式，按一下時間軸檢視右上角的&#x200B;**劃分**</span>。
+1. 從&#x200B;**標準**&#x200B;或&#x200B;**緊密**&#x200B;模式，按一下時間軸檢視右上角的&#x200B;**劃分**。
 1. 展開&#x200B;**選取連結的記錄型別**&#x200B;方塊並選取連線的記錄型別。<!--add a new screen shot - submitted a bug to remove the "the"-->
 
    時間軸檢視上的![劃分選擇器和按鈕](assets/breakdown-picker-and-button-on-timeline.png)
@@ -543,13 +534,13 @@ this is not possible right now; if this is the same functionality as the table v
    >
    >產品和方案都必須連線至行銷活動，才能顯示為劃分選項的選項，而且您可以依任何順序將其新增至劃分。
 
-1. <span class="preview">（條件式）如果您正在以精簡模式檢視時間表，請按一下&#x200B;**切換檢視**。 劃分在&#x200B;**壓縮**&#x200B;模式中不可見。</span>
+1. （視條件而定）如果您正在以精簡模式檢視時間軸，請按一下&#x200B;**切換檢視**。 劃分在&#x200B;**壓縮**&#x200B;模式中不可見。
 
    >[!TIP]
    >
-   ><span class="preview">選取&#x200B;**不要在**&#x200B;切換至標準檢視中再顯示此專案&#x200B;**？**&#x200B;方塊，然後再切換檢視。</span>
+   >在&#x200B;**切換到標準檢視中選取**&#x200B;不要再顯示此專案&#x200B;**？**&#x200B;方塊，然後再切換檢視。
    >
-   ><span class="preview">此喜好設定只適用於目前的瀏覽器。 如果您變更瀏覽器或電腦，則必須再次選取此喜好設定。</span>
+   >只有目前的瀏覽器才會記住此喜好設定。 如果您變更瀏覽器或電腦，則必須再次選取此喜好設定。
    >
    >將檢視切換為「標準」後，您無法恢復為「緊密」模式，並在檢視中顯示已連線的記錄。
 1. （選用）重複上述步驟以新增更多連線記錄。

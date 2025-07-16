@@ -6,18 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 6%
+source-wordcount: '684'
+ht-degree: 7%
 
 ---
 
 # 公式欄位概觀
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -30,8 +30,6 @@ ht-degree: 6%
 ## 存取需求
 
 +++ 展開以檢視存取需求。
-
-您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
 <col> 
@@ -83,14 +81,10 @@ ht-degree: 6%
   </tr> 
 <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
-   <td>   <p>管理工作區<span class="preview">和記錄型別</span> </a>的許可權 </p>  
+   <td>   <p>管理工作區與記錄型別</a>的許可權 </p>  
    <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>版面配置範本</p></td> 
-   <td> <p>在生產環境中，所有使用者（包括系統管理員）都必須指派給包含Planning的版面配置範本。</p>
-<p><span class="preview">在預覽環境中，標準使用者和系統管理員預設啟用Planning。</span></p> </td> 
-  </tr> 
+  </tr>
+
 </tbody> 
 </table>
 
@@ -102,7 +96,7 @@ ht-degree: 6%
 
 * 公式欄位參考屬於相同記錄型別的欄位。
 * 只有在您將其他記錄型別連線到要為其建立公式欄位的記錄型別時，才能引用其他記錄型別的欄位。
-* &lt;span class-&quot;preview&quot;>在公式中參考已連線的記錄型別或其查詢欄位取決於您對已連線的記錄型別的許可權。 如果您沒有檢視記錄型別的許可權，則無法在公式中參考其欄位。</span>
+* 在公式中參考連線的記錄型別或其查閱欄位，取決於您對連線的記錄型別的許可權。 如果您沒有檢視記錄型別的許可權，則無法在公式中參考其欄位。
 * 儲存公式欄位後，您無法變更其欄位型別。
 * 儲存公式欄位後，您可以更新公式欄位的計算，而計算結果會自動更新相同型別的所有記錄。
 * 您必須在Workfront Planning介面中顯示的公式中，新增您參考的欄位。

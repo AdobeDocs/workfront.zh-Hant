@@ -8,7 +8,7 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 1%
@@ -204,9 +204,9 @@ ht-degree: 1%
 
 1. （選擇性和條件性）如果您的組織購買了Workfront計畫套件，請按一下&#x200B;**計畫**&#x200B;標籤，然後按一下左側面板中的&#x200B;**已提交**，以檢視Workfront計畫請求。
 
-   <span class="preview">使用&#x200B;**篩選器**&#x200B;和&#x200B;**資料行**&#x200B;來更新Planning要求清單中的資訊。</span>
+   使用&#x200B;**篩選器**&#x200B;和&#x200B;**資料行**&#x200B;來更新Planning要求清單中的資訊。
 
-   <span class="preview">![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)</span>
+   ![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
 
    如需詳細資訊，請參閱[提交Adobe Workfront Planning要求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)。
 
