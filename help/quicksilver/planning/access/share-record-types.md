@@ -29,7 +29,7 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >有權存取工作區的使用者至少會自動取得工作區中所有記錄型別的檢視許可權。
->>共用檢視未授予使用者記錄型別的許可權。 只有共用工作區才能授予使用者記錄型別的許可權。
+>&#x200B;>共用檢視未授予使用者記錄型別的許可權。 只有共用工作區才能授予使用者記錄型別的許可權。
 >
 >* 如需在Workfront Planning中共用物件的一般資訊，另請參閱[在Adobe Workfront Planning中共用許可權概觀](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
 >* 如需詳細資訊，請參閱本文中的[共用記錄型別](#considerations-when-sharing-record-types)時的考量事項。
