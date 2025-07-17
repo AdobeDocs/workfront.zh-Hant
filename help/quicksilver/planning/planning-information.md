@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
 recommendations: noDisplay, noCatalog
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 6705e9437d8e562dd43b8f530be90ee401042c80
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '608'
 ht-degree: 0%
 
 ---
@@ -96,13 +96,15 @@ ht-degree: 0%
 
 * [Adobe Workfront Planning API基本知識](/help/quicksilver/planning/general/planning-api-basics.md)： Adobe Workfront Planning API的目標是透過引入透過HTTP運作的REST-ful架構，簡化與Planning的整合建置。
 
-* [適用於Workfront Fusion的Adobe Workfront規劃模組](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)：透過Adobe Workfront規劃模組，您可以在Workfront規劃中發生事件時觸發情境。 您也可以建立、讀取、更新及刪除記錄，或對Adobe Workfront Planning帳戶執行自訂API呼叫。
+* [適用於Workfront Fusion的Adobe Workfront規劃模組](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)：透過Adobe Workfront規劃模組，您可以在Workfront規劃中發生事件時觸發情境。 您也可以建立、讀取、更新及刪除記錄，或對Adobe Workfront Planning帳戶執行自訂API呼叫。
 
 * [Adobe Workfront Planning AI Assistant總覽](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)：使用Workfront AI Assistant for Planning，您可以使用命令來搜尋記錄，或建立、更新和刪除記錄，並讓助理為您工作。
 
-  >[!NOTE]
-  >
-  >    Workfront AI助理已暫時移除，並將在稍後提供。
+<!--
+    >[!NOTE]
+    >
+    >    The Workfront AI Assistant has been temporarily removed and it will be available at a later date.
+    -->
 
 * [設定Adobe Workfront Planning自動化](/help/quicksilver/planning/records/configure-automations-to-create-records.md)：您可以設定Adobe Workfront Planning中的自動化，當從Planning記錄觸發時，在啟動時在Workfront中建立物件或在Workfront Planning中建立記錄。
 

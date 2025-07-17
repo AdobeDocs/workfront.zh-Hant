@@ -7,7 +7,7 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: ef33a8bcdec76747434b5c5aaf62a743335fb10f
 workflow-type: tm+mt
 source-wordcount: '844'
 ht-degree: 2%
@@ -154,18 +154,16 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>要求型別</strong> </td> 
-      <td> <p>選擇此佇列主題儲存的請求型別。 可見的選項是在專案的<strong>佇列詳細資料</strong>索引標籤上設定的。 這是必填欄位。 </p>
-
-   <p><b>附註</b>：
-
-   只有在「佇列詳細資訊」和「佇列主題」頁面中同時選取「請求型別」時，「型別」才會顯示為「請求」區域的選取專案。 如需有關設定專案佇列詳細資料區域的資訊，請參閱<a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">建立請求佇列</a>。 </p> <p>從下列型別中選取：</p>
-   <ul>
-   <li>錯誤報告</li>
-   <li>變更順序</li>
-   <li>問題</li>
-   <li>請求</li>
-   </ul> <p>您的Workfront管理員可能已重新命名其中的一些選項。 </p> </td>
-   </tr> 
+      <td> <p>選擇此佇列主題儲存的請求型別。 可見的選項是在專案的<strong>佇列詳細資料</strong>索引標籤上設定的。 這是必填欄位。 </p> 
+       <p><b>附註</b>：</p>
+      <p>只有在「佇列詳細資訊」和「佇列主題」頁面中同時選取「請求型別」時，「型別」才會顯示為「請求」區域的選取專案。 如需有關設定專案佇列詳細資料區域的資訊，請參閱<a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">建立請求佇列</a>。 </p> <p>從下列型別中選取：</p> 
+       <ul> 
+        <li>錯誤報告</li> 
+        <li>變更順序</li> 
+        <li>問題</li> 
+        <li>請求</li> 
+       </ul> <p>您的Workfront管理員可能已重新命名其中的一些選項。 </p> </td> 
+     </tr> 
     </tbody> 
    </table>
 
