@@ -3,9 +3,9 @@ title: '[!DNL Adobe Workfront]檔案'
 description: ' [!DNL Adobe Workfront]的檔案。'
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: ec094da1912604bdc6b4893ed51339d6a377bf35
+source-git-commit: 4558180667d3812f3b4089b7d599158327a683bf
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '410'
 ht-degree: 1%
 
 ---
@@ -20,11 +20,11 @@ ht-degree: 1%
 
 >[!TAB 最新版本]
 
+* [2025年第四季版本總覽](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)
 * [2025年第三季度版本總覽](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)
-* [Adobe Workfront Fusion發行活動](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
+* [Adobe Workfront Fusion發行活動](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
+* [Adobe Workfront規劃2025年第四季發行活動](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
 * [Adobe Workfront規劃2025年第三季發行活動](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
-* [Adobe Workfront規劃2025年第二季發行活動](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
-* [Adobe Workfront規劃2025年第一季度發行活動](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
 
 >[!TAB 2025版本]
 
@@ -42,7 +42,7 @@ ht-degree: 1%
 * [2024年第二季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
 * [2024年第三季度版本總覽](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
 * [2024年第四季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
-* [Adobe Workfront Fusion發行活動](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
+* [Adobe Workfront Fusion發行活動](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
 * [Adobe Workfront規劃2025年第四季發行活動](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
 
 >[!TAB Betas]
@@ -51,7 +51,7 @@ ht-degree: 1%
 
 >[!TAB 已知問題]
 
-* [已知問題](https://experienceleague.adobe.com/zh-hant/docs/workfront-known-issues/issues/overview)
+* [已知問題](https://experienceleague.adobe.com/en/docs/workfront-known-issues/issues/overview)
 
 
 >[!ENDTABS]
@@ -70,7 +70,7 @@ ht-degree: 1%
     <td>
     <ul>
     <li><a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md">開始使用Workfront管理</a></li>
-    <li><a href="https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/get-started-with-fusion/get-started-fusion-toc">開始使用Workfront Fusion</li>
+    <li><a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/get-started-fusion-toc">開始使用Workfront Fusion</li>
     </ul>
  </td>
     <td>
@@ -108,8 +108,8 @@ ht-degree: 1%
 
 ### 探索學習與訓練區段
 
-* **訓練教材**：瀏覽至[Workfront訓練](https://experienceleague.adobe.com/zh-hant/browse/workfront)頁面，以取得訓練影片和文章庫，協助您更瞭解Workfront功能和設定。 您也可以在[learning.adobe.com](https://learning.adobe.com/)存取付費訓練教材。
-* **課程**：尋找[結構化學習課程](https://experienceleague.adobe.com/home?lang=zh-Hant&Solution=Workfront#courses)，以邏輯順序引導您使用各種Workfront功能。
+* **訓練教材**：瀏覽至[Workfront訓練](https://experienceleague.adobe.com/en/browse/workfront)頁面，以取得訓練影片和文章庫，協助您更瞭解Workfront功能和設定。 您也可以在[learning.adobe.com](https://learning.adobe.com/)存取付費訓練教材。
+* **課程**：尋找[結構化學習課程](https://experienceleague.adobe.com/home?Solution=Workfront#courses)，以邏輯順序引導您使用各種Workfront功能。
 
 ### 在社群論壇中尋找答案
 

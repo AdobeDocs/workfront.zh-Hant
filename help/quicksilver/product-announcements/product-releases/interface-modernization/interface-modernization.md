@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: ba7939d80c074510f829e7f66edf083141cad5a5
+source-git-commit: 6b93cca4a434885e39cddcb4a01a8d753609b220
 workflow-type: tm+mt
-source-wordcount: '5214'
+source-wordcount: '5280'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,19 @@ ht-degree: 0%
 如需Adobe Workfront的所有其他變更，請參閱[產品版本](/help/quicksilver/product-announcements/product-releases/product-releases.md)。
 
 ## 管理和設定
+
+
+### 版面配置範本頁面的介面更新
+
+**預覽版本： 2025年7月17日；生產版本： 2025年7月24日**
+
+我們更新了「版面配置範本」頁面，使其設計更現代化，與Workfront的其他區域一致。
+
+此更新包含版面配置範本清單的視覺變更。 功能未變更。
+
+若要檢視變更，請前往「設定>介面>版面配置範本」。
+
+如需詳細資訊，請參閱[建立及管理配置範本](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)。
 
 ### 更新群組中「投資組合」索引標籤的介面
 
@@ -388,6 +401,414 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 我們已更新授權協定頁面，使其採用與Workfront其他區域一致的更現代化設計。
 
+<!--## Interface updates made in Q3
+
+### Admin and Setup
+
++++Expand to view Admin and Setup interface updates made in Q3
+
+### Interface updates for the Layout Templates page
+
+**Preview release: July 17, 2025; Production release: July 24, 2025**
+
+We have updated the Layout Templates page with a more modern design that is consistent with other areas of Workfront.
+
+This update includes visual changes to the list of layout templates. No functionality has changed.
+
+To view the change, go to Setup > Interface > Layout Templates.
+
+For information, see [Create and manage layout templates](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+
+### Interface updates to Portfilios tab in a group
+
+**Preview: July 10, 2025; Production for everyone: July 17, 2025**  
+
+We have updated the Portfolio page in the left panel in a group to match other areas of the application.
+
+To view these changes, go to Setup > Groups > select a group > Portiolios. 
+
+### Interface updates to subgroup dialogs
+
+**Preview release: July 10, 2025; Production release: July 17, 2025**
+
+We have updated the dialog boxes for adding a subgroup, editing a subgroup, and copying a subgroup, to match other areas of the application.
+
+To view these changes, go to Setup > Groups > select a group > Subgroups. (The dialogs for adding, editing, and copying a subgroup from the main list of groups have already been updated.)
+
+For information, see [Create a subgroup](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md) and [Manage a subgroup](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
+
+### Look and feel updates for the Update Feeds section of Setup 
+
+**Preview: June 27, 2025; Production for everyone: July 10, 2025**  
+
+We have updated the look and feel of all the tabs and subtabs in the Update Feeds section of Setup. The Update Feeds section displays under the Interface area of Setup. Now, all the tabs in the Update Feeds section match other areas of Workfront. 
+
+For information, see [Configure system updates](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)
+
+### Look and feel updates for the Add fields box in the Update Feeds section of Setup 
+
+**Preview release: June 27, 2025; Production release: July 10, 2025** 
+
+We have updated the look and feel of the Add fields box in the Update Feeds section of Setup. The Update Feeds section displays under the Interface area of Setup. Now, when you add fields in any subtab of the Tracked Fields tab, the Add fields box has a new look and feel, and some of the interface elements have been updated.  
+
+For information, see [Configure system updates](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+
+### New look and feel of the lists in the Timesheets & Hours section in the Setup area
+
+**Preview: June 26, 2025; Production for everyone: July 10, 2025**   
+
+We have updated the look and feel of the following lists in the Timesheets & Hours section in the Setup area:  
+
+* The list of Timesheet Profiles 
+
+* The list of Hour Types 
+
+These lists now match other areas of Workfront.  
+
+ For information, see [Create, edit, and assign timesheet profiles](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+
+### Interface updates for the Companies page
+
+**Preview release: June 26, 2025; Production release: July 10, 2025**
+
+We have updated the Companies page with a more modern design that is consistent with other areas of Workfront.
+
+This update includes visual changes to the list of companies. No functionality has changed.
+
+To view the change, go to Setup > Companies.
+
+For information, see [Create and edit companies](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
+
+
+### Update to the Access Levels list in Setup
+
+**Preview release: June 19, 2025; Production release: June 23, 2025**
+
+We have updated the Access Levels list in Setup with a more modern design that is consistent with other areas of Workfront.
+
+To view this change, go to Setup > Access Levels.
+
+
+### Interface updates for creating, copying, and editing schedules
+
+**Preview release: June 18, 2025; Production release: June 26, 2025** 
+
+We have updated the dialog box for when you create, edit, or copy a schedule with a more modern design that is consistent with other areas of Workfront. 
+
+There are a few small functionality changes with this update: 
+
+* On the Schedule tab, we have improved the way you select hours for the schedule.
+
+* On the Details tab, all of the checkboxes are in one column instead of two columns. 
+
+* On the Exceptions tab, if you want to change an all-day event to a partial-day event or a partial-day event to an all-day event, you have to delete the existing event and then create a new one. 
+
+
+For information, see [Create a schedule](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+
+### Update to the Access Levels dialog 
+
+**Preview release: June 19, 2025; Production release: June 19, 2025**
+
+We have updated the Access Levels dialog box with a more modern design that is consistent with other areas of Workfront.
+
+The button to fine-tune access has moved to the right of the Edit button. 
+
+To view this change, go to Setup > Access Levels > New Access Level.
+
+
+### Interface updates for the Customer Info page
+
+**Preview release: June 12, 2025; Production release: June 19, 2025**
+
+We have updated the Customer Info page with a more modern design that is consistent with other areas of Workfront.
+
+To view this change, go to Setup > System > Customer Info.
+
+For information, see [Configure basic information for your system](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+
+### Interface updates for the Import Data (Kick-Starts) page
+
+**Preview release: May 29, 2025; Production release: June 5, 2025**
+
+We have updated the Import Data (Kick-Starts) page in the Setup area with a more modern design that is consistent with other areas of Workfront. Also, the Kick-Start import process was streamlined so that the selected file is uploaded immediately. You no longer have to click a separate **Upload** button to complete the import after choosing the file.
+
+For information, see [Import data into Workfront using a Kick-Start template](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+
+### Interface update for the Access Log tab in Setup
+
+**Preview release: May 21, 2025; Production release: May 29, 2025**
+
+We have updated the Access Log tab with a more modern design that is consistent with other areas of Workfront.
+
+To view this change, go to Setup > Log in as > Choose Access log at the top of the screen. 
+
+### New look and feel of the New and Copy Scorecard boxes   
+
+**Preview release:  May 22, 2025 ; Production release: May 29, 2025**   
+
+We have updated the look and feel of the New and Copy Scorecard boxes to match the design in other areas of the application. You can view the updated design when creating or copying a scorecard in the Setup area of Workfront.  
+
+For information, see [Create a scorecard](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
+
+### Interface updates to a group's recently restored items
+
+**Preview release: May 15, 2025; Production release: May 15, 2025**
+
+We have updated the look and feel of the recently restored items for groups, to match the design of other areas of Workfront. No functionality has changed for recently restored group projects, tasks, requests, documents, or templates.
+
+To view this change, go to Setup > Groups > Select name of group > Recently Restored.
+
+For information, see [View and manage a group's recently restored items](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md).
+
+
+### Interface updates to the Diagnostics page in Setup
+
+**Preview release: May 15, 2025; Production release: May 15, 2025**
+
+We have updated the look and feel of the Diagnostics page in the Setup area, to match the design of other areas of Workfront.
+
+To view this change, go to Setup > System > Diagnostics.
+
+For information, see [Use Diagnostics to trigger automated processes](/help/quicksilver/administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md).
+
+### Interface updates when adding a billing rate to a template
+
+**Preview release: May 15, 2025; Production release: May 15, 2025**
+
+We have updated the interface when adding a billing rate to a template, to match other areas of the application.  
+
+No functionality changes have been introduced with this update.
+
++++
+
+### Documents 
+
++++Expand to view Documents interface updates made in Q3
+
+### Share a document with an external email address
+
+**Preview release: May 15, 2025; Production release: May 21, 2025**
+
+We have updated the share dialog box to allow users to share documents with external users using an email address. This funtionality was temporarily unavailable due to the interface modernization work.
+
++++
+
+### Navigation and search
+
++++Expand to view Navigation and search interface updates made in Q3
+
+### Interface update for Advanced Search
+
+**Preview release: April 17; Production release: Starting the week of April 24**
+
+We have updated the Advanced Search area with the following changes:
+
+* Added a new Full Search tab. On this tab, you can search by type, entered by, entry date, category, and last updated by.
+* The filter on the  Advance Search tab is slightly different. Now, the filter is not prepopulated. You must toggle it on and build the filter from scratch. The filter does not remain if the page is refreshed. 
+* The Advanced Search is now full screen. You must navigate away from the page rather than closing the dialog.
+
+For more information, see [Search [!DNL Adobe Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/search/search-workfront.md).
+
+### Interface update for granting support access to your Workfront account
+
+**Preview release: April 24; Production release: Starting the week of May 1, 2024**
+
+We have updated the page you use to grant support access to your Workfront account with a more modern design that is consistent with other areas of Workfront. 
+
++++
+
+### Projects
+
++++Expand to view Projects interface updates made in Q3
+
+<!--
+### New look and feel for logging time on a project, task, or issue in the Hours tab   
+
+**Preview release: June 19, 2025; Production release: June 26, 2025** 
+
+We have updated the look and feel of the Log time box when logging time for a project, task, or issue in the Hours tab, to match the design of other areas of Workfront.  
+
+For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
+
+
+### Look-and-feel changes of the New Topic Group and Edit Topic Group boxes of a project
+
+**Preview release: June 26, 2025; Production release: July 10, 2025**
+
+We have updated the look and feel of the experience when creating or editing Topic Groups for Request Queues, to match other areas in Workfront.
+
+The new experience is available when creating or editing Topic Groups in projects or templates.
+
+### Interface updates for the Associated projects section of a project (available for specific customers only)
+
+**Preview release: June 12, 2025; Production release: To be announced**
+
+We have updated the Associated projects section of a project with a more modern design that is consistent with other areas of Workfront.
+
+Specific customers can view this change by going to a project's Associated projects section in the left panel.
+
+### New look and feel for the "Save as template" box 
+
+**Preview release: June 12, 2025; Production release: To be announced**
+
+We have updated the look and feel of the "Save as template" box that displays when saving a project as a template. The new design includes a streamlined interface, where all the sections display in one cohesive form which you can navigate by using links in the left panel. The new design matches other areas and other objects in the application.  
+
+For information, see [Save a project as a template](/help/quicksilver/manage-work/projects/manage-projects/save-project-as-template.md).
+
+### Look and feel updates for the Delete Issue box 
+
+**Preview release: May 29, 2025; Production release: June 5, 2025**
+
+We have updated the look and feel of the Delete issue box when deleting one or several issues. The Delete issue box now matches other areas of Workfront. 
+
+For information, see [Delete issues](/help/quicksilver/manage-work/issues/manage-issues/delete-issues.md).
+
+### Look and feel updates to the New and Edit risk boxes for a project or a template 
+
+**Preview release: May 22, 2025; Production release: May 29, 2025**
+
+We have updated the look and feel of the New risk and Edit risk boxes when adding risks or editing them on a project or a template in the Risks section. The design of the boxes now matches other areas of Workfront.
+
+For information, see [Create and edit risks in projects](/help/quicksilver/manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md#create-and-edit-risks-on-projects).
+
+### Look-and-feel changes for the Copy Template box
+
+**Preview release: May 22, 2025; Production release: May 22, 2025**
+
+We have updated the look and feel of the Copy Template box to match the design of other areas of Workfront. 
+
+For information, see [Copy a project template](/help/quicksilver/manage-work/projects/create-and-manage-templates/copy-template.md).
+
+### Look and feel updates when adding objects to programs and portfolios 
+
+**Preview release: May 22, 2025; Production release: May 29, 2025**
+
+We have updated the interface for the Add boxes when doing the following: 
+
+* Adding projects to programs
+* Adding projects to portfolios
+* Adding programs to portfolios
+
+For information, see the following articles: 
+
+* [Add an existing program to a portfolio](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/move-program.md)
+* [Add projects to a portfolio](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
+* [Add a project to a program](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/add-project-to-program.md) 
+
++++
+
+
+### Reports and Dashboards
+
++++Expand to view Reports and Dashboards interface updates made in Q3
+
+### Interface updates for the Expense report
+
+Preview release: June 19, 2025; Production release: June 26, 2025
+
+We have updated the look and feel of the Expense report to match the design of other areas of Workfront.
+
+For information, see [Create a custom report](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+
+### Updated reports with new styling
+
+**Preview release: June 12, 2025; Production release: June 19. 2025**
+
+We have updated the look and feel of multiple reports, to match the design of other areas of Workfront. No functionality has changed.
+
+This update includes visual changes to the lists and toolbars of the reports for the following object types:
+
+* Risks
+* Baselines
+* Rates
+* Layout Templates
+
+For information, see [Create a custom report](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+
+### URLs with /tile or /qstile no longer supported in Workfront Dashboards
+
+**Preview release: May 13; Production release: To be announced**
+
+If you have an external page on a Dashboard with a Workfront URL that contains `/tile` or `/qstile`, that page will no longer load.
+
+Adding `/tile` or `/qstile` to a Workfront URL allowed the browser to load unsupported classic experience pages that were deprecated in July of 2022.
+
+We recommend replacing the URL to go to a supported page, or removing the external page from your Dashboard.
+
++++
+
+
+## Users 
+
++++Expand to view Users interface updates made in Q3
+
+### Interface updates to the organizational chart
+
+**Preview release: June 26, 2025; Production release for all customers: July 10, 2025**
+
+We have updated the look and feel of the organizational chart associated with a Workfront user, to match the design of other areas of Workfront.
+
+To view this change, go to a Workfront user profile and click **Org Chart** in the left panel. (This feature is available through the Workfront user profile, not the Adobe user profile.)
+
+For information, see [View the organizational chart](/help/quicksilver/people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
+
+
+### Interface update to the new user registration page
+
+**Preview release: May 12, 2024; Production release: May 19, 2025**
+
+We have updated the new user registration page with a more modern design that is consistent with other areas of Workfront.
+
+Users no longer have the option to upload a photo on this page. However, they can upload a photo in their user profile once they log in to Workfront.
+
+### Updated look for the login page
+
+**Preview release: May 12, 2024; Production release: May 19, 2025**
+
+We have updated the login page with a more modern design that is consistent with other areas of Workfront.
+
+With this change, the login page no longer supports custom branding.
+
+### Updated look for reset password page
+
+**Preview release: May 12, 2024; Production release: May 19, 2025**
+
+We have updated the reset password screen with a more modern design that is consistent with other areas of Workfront. This update includes updates to the following pages:
+
+* Password almost expired 
+* Expired password
+* Temporary password
+
+### Updated document share page for external users
+
+**Preview release: April 10, 2024; Production release: Starting the week of April 17, 2024**
+
+We have updated the document share page for external users with a more modern design that is consistent with other areas of Workfront.
+
+External users can no longer access _My Settings_ from this page. 
+
+### Updated external user registration page
+
+**Preview release: April 24, 2024; Production release: Starting the week of May 8, 2024**
+
+We have updated the external user registration page with a more modern design that is consistent with other areas of Workfront.
+
++++
+
+### Licenses
+
++++Expand to view Users interface updates made in Q3
+
+### Updated license agreement page
+
+**Preview release: April 24, 2024; Production release: Starting the week of May 8, 2024**
+
+We have updated the license agreement page with a more modern design that is consistent with other areas of Workfront.
+
++++
+
+-->
 
 ## 於第2季進行的介面更新
 
@@ -640,7 +1061,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 此更新包含區域的視覺化變更。 功能未變更。
 
-若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。**&#x200B;**
+若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。****
 
 +++
 
