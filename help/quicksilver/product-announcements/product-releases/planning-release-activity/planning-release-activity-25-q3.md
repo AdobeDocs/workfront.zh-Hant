@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: eb3bace0298ea67deb3d4515da23b9301625bec7
+source-git-commit: 8dd86b364e23089f3ff02c7817807e5219a3ebb4
 workflow-type: tm+mt
-source-wordcount: '2273'
+source-wordcount: '2275'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,11 @@ ht-degree: 0%
 
 ## 建立和編輯記錄型別時更新進階設定
 
-預覽和生產： 2025年7月10日
+>[!NOTE]
+>
+>預覽： 2025年7月10日
+>>適用於所有人的生產： 2025年7月10日
+
 
 在建立或編輯記錄型別時，我們已更新「進階設定」索引標籤。
 
@@ -37,8 +41,10 @@ ht-degree: 0%
 
 ## 當團隊新增到記錄評論時，為團隊使用者新增通知
 
-預覽： 2025年7月10日
-適用於所有人的生產： 2025年7月10日
+>[!NOTE]
+>
+>預覽： 2025年7月10日
+>>適用於所有人的生產： 2025年7月10日
 
 現在，當您在Workfront Planning中將團隊新增到記錄評論時，團隊的所有成員都會收到有關評論的應用程式內通知和電子郵件通知。 在此增強功能之前，只有個別新增到評論的使用者會收到通知。
 
@@ -46,9 +52,12 @@ ht-degree: 0%
 
 ## 根據套用的分組自動填入欄位
 
-預覽： 2025年7月10日
-生產快速發行： 2025年8月14日
-適用於所有人的生產： 2025年10月16日
+>[!NOTE]
+>
+>預覽： 2025年7月10日
+>>生產快速發行： 2025年8月14日
+>>適用於所有人的生產： 2025年10月16日
+
 
 現在，當您已將群組套用至表格檢視時，將記錄新增至表格將會自動填入與您將記錄新增至的群組相關聯的欄位。
 
@@ -62,8 +71,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 預覽： 2025年7月9日
->* 適用於所有人的生產： 2025年7月17日
+>預覽： 2025年7月9日
+>>適用於所有人的生產： 2025年7月17日
 
 您現在可以從記錄型別頁面上的相同按鈕共用檢視和記錄型別。 在此增強功能之前，您只能從記錄型別頁面上的「共用」按鈕和檢視索引標籤的檢視共用記錄型別。
 
@@ -109,7 +118,7 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 * 我們已針對您共用請求表單的使用者移除管理和貢獻選項。 現在，新增的使用者只能提交表單。
 * 在啟用「建立公開連結」選項後，「公開共用」索引標籤現在會顯示連結和到期日欄位。
 
-如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form)。
+如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form)。
 
 ## 展開和摺疊表格檢視中的所有群組
 
@@ -327,7 +336,7 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 >[!NOTE]
 >
 >所有具有系統管理員和Standard授權的新使用者及現有使用者皆可看見此變更。
->&#x200B;>指派給版面配置範本的現有使用者將根據版面配置範本中定義的設定繼續檢視所有內容。
+>>指派給版面配置範本的現有使用者將根據版面配置範本中定義的設定繼續檢視所有內容。
 
 如需詳細資訊，請參閱[Adobe Workfront規劃總覽](/help/quicksilver/planning/access/access-overview.md)。
 

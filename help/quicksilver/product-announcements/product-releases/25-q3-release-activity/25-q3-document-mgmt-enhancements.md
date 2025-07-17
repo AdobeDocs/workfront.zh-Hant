@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: 53c5c970f2bfd0191c053baec25bd29f11b6272d
+source-git-commit: 6da80f55fd4314c661c52bb2327ae8fa6c7e55b6
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,31 @@ Note: The integration must be enabled for your accounts by the Adobe Product Tea
 For more information, see [Get started with the Adobe Express and Workfront Proof integration](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md).
 -->
 
+## 統一核准分階段推出
+
+>[!NOTE]
+>
+>客戶的生產版本：自2025年7月17日起分階段推出
+
+
+我們正在分階段啟用統一核准（先前稱為新檔案核准）。 在接下來的六個月中，此功能將會在您的Workfront執行個體中自動啟用。
+
+整合式核准會取代舊版檔案核准，並直接在檔案上提供下列功能：
+
+* 將整個Workfront團隊指定為稽核者或核准者
+* 設定檢閱或核准的期限
+* 建立及重新使用核准範本
+* 利用新版本
+* 在Workfront首頁Widget中檢視您核准的多個關鍵績效指標
+* 使用畫布儀表板可檢視有關統一核准的報告詳細資訊
+
+如需詳細資訊，請參閱[整合式核准總覽](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)。
+
 ## 案頭校訂檢視器更新
+
+>[!NOTE]
+>
+>* 所有客戶的生產版本： 2025年6月16日
 
 案頭校訂檢視器已更新至2.1.50版。
 

@@ -6,7 +6,8 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 3c61d147d3f3a9851645f21ec1ee1d5ab9b445d8
+exl-id: 4e1761f9-bf73-4355-925a-9136f2787a3f
+source-git-commit: 8300595f63fab4f4ef6f00c7b8ff8b06120db2cc
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 0%
@@ -23,9 +24,12 @@ ht-degree: 0%
 
 ## 顯示記錄核准資訊的新欄位
 
-預覽： 2025年7月17日
-快速發行生產： 2025年8月14日
-所有人的生產： 2025年10月16日
+>[!NOTE]
+>
+>預覽： 2025年7月17日
+>>快速發行生產： 2025年8月14日
+>>所有人的生產： 2025年10月16日
+
 
 我們引進了以下欄位，以擷取透過提交具有核准的請求所建立的記錄的核准資訊：
 
@@ -37,9 +41,12 @@ ht-degree: 0%
 
 ## 根據套用的分組自動填入欄位
 
-預覽： 2025年7月10日
-生產快速發行： 2025年8月14日
-適用於所有人的生產： 2025年10月16日
+>[!NOTE]
+>
+>預覽： 2025年7月10日
+>>生產快速發行： 2025年8月14日
+>>適用於所有人的生產： 2025年10月16日
+
 
 現在，當您已將群組套用至表格檢視時，將記錄新增至表格將會自動填入與您將記錄新增至的群組相關聯的欄位。
 
@@ -61,4 +68,3 @@ To make the approval process more flexible, we've added the ability to add teams
 Previously, only individual users could be assigned as approvers. 
 
 For more information, see [Add an approval to a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/add-approval-to-request-form.md).-->
-
