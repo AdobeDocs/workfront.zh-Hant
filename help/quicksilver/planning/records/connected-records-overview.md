@@ -6,18 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '519'
 ht-degree: 0%
 
 ---
 
 # 連線記錄概觀
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>  -->
 
 {{planning-important-intro}}
 
@@ -41,8 +41,8 @@ ht-degree: 0%
 
   查詢欄位的值會在原始記錄或物件上更新後，自動填入您正在連結的Workfront Planning記錄。
 
-* 擁有工作區<span class="preview">和記錄型別</span>之Workfront Planning和「檢視」存取許可權或較高許可權的所有人，都可以看見您在記錄之間或記錄與其他應用程式物件之間的連線。 無論連線至應用程式的許可權為何，使用者都可以檢視連線的記錄和物件。
-* 如果您擁有工作區<span class="preview">和記錄型別</span>的管理許可權，且連線的記錄位於其中，則可以檢視及編輯其他人的連線。
+* 有權存取Workfront Planning和「檢視」或對工作區和記錄型別擁有更高許可權的每個人，都可以看到您在記錄之間或記錄與其他應用程式物件之間建立的連線。 無論連線至應用程式的許可權為何，使用者都可以檢視連線的記錄和物件。
+* 如果您擁有工作區的「管理」許可權以及連線記錄的記錄型別，則可以檢視及編輯其他人的連線。
 * 您可以將一個記錄連線到另一個應用程式的一或多個物件。視您在連線記錄型別時選取的連線型別而定。 如需詳細資訊，請參閱文章[連線記錄型別概觀](/help/quicksilver/planning/architecture/connect-record-types-overview.md)中的「連線型別」一節。
 
 ## 您可以連線記錄的區域
@@ -54,7 +54,7 @@ ht-degree: 0%
    * Planning中記錄型別的表格檢視中的已連線記錄欄位。
    * 記錄的預覽或頁面在詳細資訊索引標籤的已連線記錄欄位中。
    * 記錄在「連線」標籤上的預覽或頁面。
-   * 已連線記錄之<span class="preview">已連線記錄頁面</span>索引標籤中的記錄頁面。
+   * 已連線記錄之「已連線記錄」頁面索引標籤中的記錄頁面。
 
 * 您可以在Workfront的下列區域中，將Workfront物件連結至Workfront Planning記錄：
 

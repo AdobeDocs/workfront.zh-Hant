@@ -3,12 +3,12 @@ title: 在Adobe Workfront Planning中建立和管理請求表單
 description: 在Adobe Workfront Planning區域中選取記錄型別後，您可以建立請求表單，並將其與該記錄型別建立關聯。 然後，您可以與其他內部或外部使用者共用與其的連結。 具有表單連結的使用者可以填寫其上的欄位值，透過提交它，他們可以為與其關聯的記錄型別新增記錄。
 feature: Workfront Planning
 role: User, Admin
-author: Alina
+author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '2166'
+source-wordcount: '2242'
 ht-degree: 1%
 
 ---
@@ -35,8 +35,6 @@ ht-degree: 1%
 ## 存取需求
 
 +++ 展開以檢視存取需求。
-
-您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto">
  <col>
@@ -93,18 +91,12 @@ ht-degree: 1%
    <td role="rowheader"><p>物件許可權</p></td>
    <td>
    <ul>
-   <li><p>管理工作區<span class="preview">和記錄型別</span>的許可權 </p></li>
+   <li><p>管理工作區和記錄型別的許可權</p></li>
     <li><p>系統管理員可以管理他們未建立的工作區。 </p></li>
     </ul>
    <p>如需有關共用Workfront Planning物件許可權的資訊，請參閱  
    <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">在Adobe Workfront Planning中共用許可權的概觀</a> 
   </td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>版面配置範本</p></td>
-   <td> <p>在生產環境中，所有使用者（包括系統管理員）都必須指派給包含Planning的版面配置範本。</p>
-<p><span class="preview">在預覽環境中，標準使用者和系統管理員預設啟用Planning。</span></p>  
-</td>
   </tr>
  </tbody>
 </table>
@@ -124,8 +116,8 @@ ht-degree: 1%
 
    * 您無法將下列型別的欄位新增至請求表單：
 
-      * 建立者及上次修改者： <!--Created by, Last modified by, <span class="preview">Approved by</span>-->
-      * 建立日期和上次修改日期<!--Created date, Last modified date, <span class="preview">Approved date</span>-->
+      * 建立者，上次修改者，<span class="preview">核准者</span>
+      * 建立日期，上次修改日期，<span class="preview">核准日期</span>
       * 公式
       * Workfront物件的查閱欄位
       * Workfront Planning連線記錄的查詢欄位
@@ -229,6 +221,7 @@ ht-degree: 1%
      如需新增核准至請求表單的詳細資訊，請參閱[新增核准至請求表單](/help/quicksilver/planning/requests/add-approval-to-request-form.md)。
 
 1. （選擇性）按一下標題中表單名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**編輯**&#x200B;以更新表單名稱。
+
 1. 按一下&#x200B;**發佈**&#x200B;以發佈表單並取得其唯一連結。
 
    會發生下列情況：
@@ -236,47 +229,11 @@ ht-degree: 1%
    * **發佈**&#x200B;按鈕已移除。
    * **取消發佈**&#x200B;按鈕已新增至表單。 按一下此按鈕，表單將無法存取。
    * **共用**&#x200B;按鈕已新增至表單。
+   * 此表單將在Workfront主要功能表的請求區域中變得可用。
 
 1. 按一下&#x200B;**共用**&#x200B;以與其他人共用表單。
 
-   ![分享要求表單](assets/share-box-for-request-form.png)的方塊
-
-1. （視條件而定）在生產環境中，從下列選項中選取，以指出哪些型別的使用者可以存取此表單：
-
-   * 在工作區擁有檢視或更高存取權限的任何人
-   * 對工作區具有貢獻或更高權限的任何人
-   * 擁有此連結的任何人
-
-   >[!WARNING]
-   >
-   >* 當您選取&#x200B;**擁有連結的任何人**&#x200B;時，任何人都可以存取表單並提交新記錄，甚至組織外沒有Workfront帳戶的人也可以。
-   >
-   >* 包含下列欄位型別的表單無法公開共用：
-   >
-   >     * Workfront或AEM Assets連線
-   >     * 人員
-   >
-
-1. （視條件而定）在生產環境中，如果您在上一步選取了&#x200B;**任何擁有連結**&#x200B;的人，請從可用的行事曆中選取&#x200B;**連結到期日**。
-
-   連結過期後，人員會收到錯誤，您必須更新連結日期，並產生新連結以共用，人員才能再次存取表單。
-
-   您可以從目前日期起180天內選取未來日期。
-
-   >[!TIP]
-   >
-   >共用日期過期後，Workfront的「要求」區域中不再提供要求表單，且無法再存取與其他使用者共用的連結。
-
-1. （選擇性和條件性）在生產環境中，按一下&#x200B;**儲存並複製連結**&#x200B;以儲存表單的共用詳細資料。 如果表單先前已儲存，請按一下&#x200B;**複製連結**。
-
-   表單共用選項會儲存且連結會複製到您的剪貼簿。 您現在可以與其他人共用。
-
-   如需使用要求表單的連結來建立記錄的相關資訊，請參閱[提交Adobe Workfront Planning要求](/help/quicksilver/planning/requests/submit-requests.md)。
-
-1. <span class="preview">（條件式）在預覽環境中，若要與使用者共用，請選取[內部共用]索引標籤，搜尋使用者名稱，然後在其出現在清單中時選取它。</span>
-1. <span class="preview">（條件式）在預覽環境中，若要建立公用連結，請選取「公用共用」標籤，然後開啟「建立公用連結」選項。 然後，您可以在此處複製連結，或設定連結到期日。</span>
-1. 按一下&#x200B;**表單**&#x200B;標籤右下角的&#x200B;**儲存**&#x200B;以儲存表單。
-
+   如需共用申請表格的詳細資訊，請參閱本文的[共用申請表單](#share-a-request-form)一節
 1. 按一下頁首中表單名稱左側的向左箭頭以關閉表單。
 
    **請求表單**&#x200B;表格檢視會開啟，並將表單新增至其中。
@@ -291,7 +248,6 @@ ht-degree: 1%
 
    從請求表單清單中請求表單上的![更多功能表](assets/more-menu-on-request-form-from-request-forms-list.png)
 
-
 1. 按一下標題中&#x200B;**要求表單**&#x200B;左側的向左箭頭，關閉要求表單表格。
 
    記錄型別頁面隨即開啟。
@@ -302,3 +258,54 @@ ht-degree: 1%
 
 1. （選用）前往Workfront中的&#x200B;**要求**&#x200B;區域，並尋找共用表單以提交要求。 如需詳細資訊，請參閱[提交Adobe Workfront Planning要求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)。
 
+## 共用請求表單
+
+1. 依照本文中[建立記錄型別](#create-a-request-form-for-a-record-type)區段中的說明建立要求表單。
+1. 按一下記錄型別頁面中要求表單名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)。
+1. 按一下&#x200B;**共用**&#x200B;以與其他人共用表單。
+
+1. 若要在內部共用表單，請選取&#x200B;**內部共用**&#x200B;索引標籤，在&#x200B;**授予許可權以提交此表單**&#x200B;欄位，搜尋使用者、團隊、工作角色、群組或公司的名稱，然後當它出現在清單中時選取它。 預設會為每個實體選取&#x200B;**提交**&#x200B;許可權。
+
+   ![分享要求表單](assets/share-box-for-request-form.png)的方塊
+
+1. （選擇性）按一下實體名稱后的下拉式功能表，然後按一下&#x200B;**移除**，將其從清單中移除並停止與它們共用表單。
+
+1. 在&#x200B;**可以透過此表單**&#x200B;提交請求的使用者區段中，從下列選項中選取，以指出哪些型別的使用者可以存取此表單：
+
+   * 只有受邀人員才能存取
+   * 在工作區擁有檢視或更高存取權限的任何人
+   * 對工作區具有貢獻或更高權限的任何人
+1. （選擇性）按一下&#x200B;**複製連結**，與有存取許可權的人共用表單連結。 連結已複製到您的剪貼簿。
+1. 若要公開共用表單，請選取&#x200B;**公開共用**&#x200B;標籤，然後啟用&#x200B;**建立公開連結**&#x200B;設定。
+
+   ![公開共用要求表單](assets/share-request-form-publicly-tab.png)
+
+   >[!WARNING]
+   >
+   >* 當您啟用&#x200B;**建立公開連結**&#x200B;設定時，任何人都可以存取表單並提交新記錄，甚至組織外沒有Workfront帳戶的人也可以。
+   >
+   >* 包含下列欄位型別的表單無法公開共用：
+   >
+   >     * Workfront或AEM Assets連線
+   >     * 人員
+   >
+
+1. 選擇&#x200B;**連結到期日**。
+
+   您可以從目前日期起180天內選取未來日期。
+
+   >[!TIP]
+   >
+   >共用日期過期後，Workfront的「要求」區域中不再提供要求表單，且無法再存取與其他使用者共用的連結。
+
+   連結過期後，人員會收到錯誤，您必須更新連結日期，並產生新連結以共用，人員才能再次存取表單。
+
+
+1. （選擇性和條件性）按一下&#x200B;**儲存**&#x200B;以儲存表單的共用詳細資料。
+1. （視條件而定）如果表單先前已儲存，請按一下&#x200B;**複製連結**。
+
+   表單共用選項會儲存且連結會複製到您的剪貼簿。 您現在可以與其他人共用。
+
+   如需使用要求表單的連結來建立記錄的相關資訊，請參閱[提交Adobe Workfront Planning要求](/help/quicksilver/planning/requests/submit-requests.md)。
+
+1. 按一下&#x200B;**表單**&#x200B;標籤右下角的&#x200B;**儲存**&#x200B;以儲存表單。

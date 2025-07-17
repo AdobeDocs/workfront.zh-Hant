@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '679'
 ht-degree: 1%
 
 ---
@@ -91,10 +91,14 @@ ht-degree: 1%
    <td>   <p>檢視或更高的工作區許可權</a> </p>  
    <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p> </td> 
   </tr> 
-<tr> 
-   <td role="rowheader"><p>版面配置範本</p></td> 
-   <td> <p>必須為所有使用者(包括Workfront管理員)指派一個版面配置範本，該範本包含主功能表中的Planning區域。 </p> </td> 
-  </tr> 
+<tr>
+   <td role="rowheader"><p>版面配置範本</p></td>
+   <td> 必須為具有輕度或貢獻者授權的使用者指派包含Planning的版面配置範本。
+   <p>標準使用者和系統管理員預設會啟用Planning區域。</p></div></li></ul>
+
+</td>
+  </tr>
+
 </tbody> 
 </table>
 

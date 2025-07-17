@@ -6,9 +6,9 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '711'
 ht-degree: 2%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 2%
 
 <!--do not use the snippet for IMPORTANT , as it links to this article-->
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 >[!IMPORTANT]
 >
@@ -104,8 +104,8 @@ ht-degree: 2%
    <td role="rowheader"><p>物件許可權</p></td>
    <td>
    <ul>
-   <li><p>檢視或更高的工作區許可權、<span class="preview">記錄型別</span>以及您未建立用來存取它們及其物件的檢視。</p></li>
-   <li><p>為工作區<span class="preview">和記錄型別</span>貢獻或更高的許可權，而您並未建立這些記錄型別來編輯它們，以及建立、編輯或刪除記錄型別和記錄。</p></li>
+   <li><p>檢視或更高的工作區許可權、記錄未建立用來存取它們及其物件的型別和檢視。</p></li>
+   <li><p>貢獻或更高的許可權給您未建立的工作區和記錄型別，以編輯它們，以及建立、編輯或刪除記錄型別和記錄。</p></li>
    <li><p>為您未建立的檢視貢獻或更高的許可權，以編輯、刪除和共用檢視</p>
    </li>
     <li><p>系統管理員可以管理他們未建立的工作區。 </p></li>
@@ -116,16 +116,14 @@ ht-degree: 2%
   </tr>
 <tr>
    <td role="rowheader"><p>版面配置範本</p></td>
-   <td> <div class="preview">
+   <td> 
 <p>標準使用者和系統管理員預設會啟用Planning區域。</p>
 <p> 必須為具有輕度或貢獻者授權的使用者指派包含下列區域中Planning選項的版面配置範本：</p>
    <ul><li>主要功能表</li>
    <li>專案、投資組合和方案的左側面板</li>
    </ul>
    <p>如需詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">建立及管理配置範本</a>。</p>
-   </div>
-   <p><b>附註</b></p>
-   <p>在「生產」環境中，所有使用者（包括系統管理員）都必須指派給包含Planning區域的版面配置範本。</p>
+
 </td>
   </tr>
  </tbody>
@@ -145,16 +143,12 @@ ht-degree: 2%
 * 專案、投資組合和計畫的左側面板
 * 圖釘
 
-<div class="preview">
-
 標準使用者和系統管理員預設會在下列區域中啟用Planning區域：
 
 * 主要功能表
 * 專案、專案組合或方案的左側面板
 
-</div>
-
-若要新增<span class="preview">或移除Workfront執行個體使用者的</span>個Workfront Planning區域：
+若要從Workfront例項的使用者中新增或移除Workfront Planning區域：
 
 1. 以Workfront管理員身分登入&#x200B;**Workfront**。
 

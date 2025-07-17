@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '658'
 ht-degree: 1%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 1%
 
 # 共用記錄
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  -->
 
 {{planning-important-intro}}
 
@@ -34,25 +34,19 @@ ht-degree: 1%
 
 * 在記錄型別的表格檢視中檢視記錄時，複製指向記錄頁面的連結。
 
-* 您可以共用工作區<span class="preview">和記錄型別，藉此與其他使用者共用工作區中的所有記錄。</span>
+* 您可以透過共用工作區和記錄型別來與其他使用者共用工作區中的所有記錄。
 
   如需詳細資訊，請參閱下列文章：
 
    * [共用工作區](/help/quicksilver/planning/access/share-workspaces.md)
 
-  <div class="preview">
-
    * [共用記錄型別](/help/quicksilver/planning/access/share-record-types.md)
-
-  </div>
 
 本文說明如何從記錄型別的表格檢視複製記錄頁面的連結。
 
 ## 存取需求
 
 +++ 展開以檢視存取需求。
-
-您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
 <col> 
@@ -104,20 +98,16 @@ ht-degree: 1%
   </tr> 
 <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
-   <td>  <p>檢視工作區<span class="preview">和記錄型別</span>的更高許可權以進行共用   使用連結的記錄 </p>
-   <p>管理工作區<span class="preview">和記錄型別</span>的許可權，以共用工作區中的記錄 </p>
+   <td>  <p>檢視或更高的工作區許可權，並記錄共用的型別   使用連結的記錄 </p>
+   <p>管理工作區的許可權和記錄型別，以共用工作區中的記錄 </p>
    <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p>  </td> 
   </tr> 
-<tr> 
-   <td role="rowheader"><p>版面配置範本</p></td> 
-   <td> <p>在「生產」環境中，所有使用者（包括系統管理員）都必須指派給包含Planning區域的版面配置範本。</p>
-   <div class="preview">
-<p> 在「預覽」環境中，必須為具有輕度或貢獻者授權的使用者指派包含Planning的版面配置範本。</p>
-
-<p>標準使用者和系統管理員預設啟用Planning。</p></div>
-
-<p>如需詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">建立及管理配置範本</a>。</p></td> 
-  </tr> 
+<tr>
+   <td role="rowheader"><p>版面配置範本</p></td>
+   <td> 必須為具有輕度或貢獻者授權的使用者指派包含Planning的版面配置範本。
+   <p>標準使用者和系統管理員預設會啟用Planning區域。</p></div></li></ul>
+</td>
+  </tr>
 </tbody> 
 </table>
 
@@ -160,18 +150,15 @@ ht-degree: 1%
 
 當您與其他人共用工作區時，可以共用工作區中的所有記錄。
 
+記錄型別和記錄會從工作區繼承相同許可權。
+
 只有具有工作區管理許可權的使用者才能與其他人共用。
 
 如需詳細資訊，請參閱[共用工作區](/help/quicksilver/planning/access/share-workspaces.md)。
 
-
-<div class="preview">
-
 ## 透過共用記錄型別來共用記錄型別中的所有記錄
 
-在生產環境中，記錄會繼承工作區的許可權。
-
-在預覽環境中，記錄會繼承記錄型別的許可權。
+記錄會從記錄型別繼承許可權。
 
 依預設，記錄型別會繼承工作區的許可權。
 
@@ -184,4 +171,3 @@ ht-degree: 1%
 
 如需詳細資訊，請參閱[共用記錄型別](/help/quicksilver/planning/access/share-record-types.md)。
 
-</div>

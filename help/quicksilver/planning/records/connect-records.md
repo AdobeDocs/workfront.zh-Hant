@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '3414'
+source-wordcount: '3306'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # 連接記錄
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  -->
 
 {{planning-important-intro}}
 
@@ -59,8 +59,6 @@ ht-degree: 1%
 ## 存取需求
 
 +++ 展開以檢視存取需求。
-
-您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
 <col> 
@@ -118,15 +116,10 @@ ht-degree: 1%
   </tr> 
 <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
-   <td>   <p>為工作區<span class="preview">和記錄型別</span>貢獻或更高的許可權以連線記錄 </p>  
-   <p>檢視工作區<span class="preview">和記錄型別</span>的或更高許可權，以檢視與其他應用程式之物件和欄位的所有連線，無論您在其他應用程式中的存取權為何。 </p>
+   <td>   <p>貢獻或更高的許可權到工作區和記錄型別以連線記錄 </p>  
+   <p>檢視工作區或記錄型別的更高許可權，以檢視與其他應用程式之物件和欄位的所有連線，無論您在其他應用程式中的存取權為何。 </p>
    <p>檢視或更高許可權給您要從Workfront或Experience Manager Assets連結的物件。 </p>
    <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區。</p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>版面配置範本</p></td> 
-   <td> <p>在生產環境中，所有使用者（包括系統管理員）都必須指派給包含Planning的版面配置範本。</p>
-<p><span class="preview">在預覽環境中，標準使用者和系統管理員預設啟用Planning。</span></p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -158,7 +151,7 @@ ht-degree: 1%
 * 表格檢視中的已連線記錄欄位。
 * 記錄的預覽方塊或頁面在詳細資訊索引標籤的已連線記錄欄位中。
 * 記錄的預覽方塊或頁面（在連線標籤上）。
-* <span class="preview">連線的記錄頁面</span>索引標籤上的記錄頁面。
+* 記錄在「連線的記錄」頁面標籤上的頁面。
 
 ### 從記錄的表格檢視或詳細資訊區域連線Workfront Planning記錄
 
@@ -213,7 +206,7 @@ ht-degree: 1%
 
    或
 
-   在方塊中選取一或多個記錄的名稱，然後按一下[連線物件]。**&#x200B;**
+   在方塊中選取一或多個記錄的名稱，然後按一下[連線物件]。****
 
    新增下列專案：
 
@@ -231,7 +224,7 @@ ht-degree: 1%
    >
    >* Workfront物件的日期欄位資訊在Workfront Planning中會以24小時格式顯示，無論其在Workfront中的顯示方式為何。
    >
-   >   例如，如果專案的計劃開始日期在Workfront中顯示為3:00 PM，則在匯入的查詢欄位中，它將在Workfront Planning中顯示為15:00。
+   >   例如，如果專案的計劃開始日期在Workfront中顯示為3:00下午，則在匯入的查詢欄位中，它將在Workfront Planning中顯示為15:00。
 
 1. （可選）關閉記錄型別頁面，然後移至您選取的工作區。
 1. 按一下您所連結之記錄型別的卡片。
@@ -294,7 +287,7 @@ ht-degree: 1%
 
    或
 
-   在方塊中選取一或多個物件的名稱，然後按一下[連線物件]。**&#x200B;**
+   在方塊中選取一或多個物件的名稱，然後按一下[連線物件]。****
 
    >[!IMPORTANT]
    >
@@ -344,7 +337,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->當您的Experience Manager Assets管理員透過Workfront與Workfront之間的整合設定中繼資料對應時，可從Adobe Experience Manager Assets存取Planning記錄及其欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
+>當您的Experience Manager Assets管理員透過Workfront與Workfront之間的整合設定中繼資料對應時，可從Adobe Experience Manager Assets存取Planning記錄及其欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
 
 若要將記錄與Experience Manager資產連線：
 
@@ -441,7 +434,7 @@ ht-degree: 1%
    >
    >    依預設，只會顯示已連線個別記錄的已連線記錄。
 
-1. （選擇性）按一下[顯示所有連線]&#x200B;**&#x200B;**&#x200B;以顯示所有連線的記錄型別，包括沒有連線記錄的記錄型別。
+1. （選擇性）按一下[顯示所有連線]****&#x200B;以顯示所有連線的記錄型別，包括沒有連線記錄的記錄型別。
 
 1. （選擇性）按一下區段左側的向下箭頭以收合區段。
 
@@ -461,8 +454,7 @@ ht-degree: 1%
 
    記錄會立即與Workfront Planning的所有區域或其可能顯示為已連線的其他應用程式中斷連線。 任何查詢欄位值也會被移除。
 
-### 從記錄的<span class="preview">連線記錄頁面</span>連線記錄
-
+### 從記錄的「連線記錄」頁面連線記錄
 
 1. 移至記錄型別的任何檢視，該記錄型別已連線到其他Planning記錄型別或其他應用程式的物件型別。
 1. 請依照先前子段落中所述的步驟，在檢視中尋找要與其他記錄或物件連線的記錄。
@@ -470,7 +462,7 @@ ht-degree: 1%
 
    預覽頁面隨即開啟。
 1. 按一下&#x200B;**在新標籤中開啟**&#x200B;圖示![在新標籤中開啟詳細資料](assets/open-details-in-a-new-tab-icon.png)以開啟紀錄的頁面。
-1. 按一下記錄頁面中現有的<span class="preview">連線記錄頁面</span>索引標籤。 您必須先建立<span class="preview">連線的記錄頁面</span>。 如需詳細資訊，請參閱[管理記錄頁面配置](/help/quicksilver/planning/records/manage-the-record-page.md)。
+1. 按一下記錄頁面中現有的連線記錄頁面索引標籤。 您必須先建立「連線的記錄」頁面。 如需詳細資訊，請參閱[管理記錄頁面配置](/help/quicksilver/planning/records/manage-the-record-page.md)。
 
    表格檢視中會顯示已連線的記錄型別頁面。
 

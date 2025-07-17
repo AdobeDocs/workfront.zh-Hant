@@ -3,12 +3,12 @@ title: 提交Adobe Workfront規劃請求
 description: 有人與您從Adobe Workfront Planning的記錄型別頁面共用請求表單的連結後，您可以新增請求以建立與請求表單相關聯記錄型別的記錄。
 feature: Workfront Planning
 role: User, Admin
-author: Alina
+author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '2091'
+source-wordcount: '2019'
 ht-degree: 0%
 
 ---
@@ -41,8 +41,6 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
 ## 存取需求
 
 +++ 展開以檢視存取需求。
-
-您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto">
  <col>
@@ -96,20 +94,8 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
 <tr>
    <td role="rowheader"><p>物件許可權</p></td>
    <td>
-   <p>檢視工作區<span class="preview">和記錄型別</span>的或更高許可權(如果您是Workfront使用者)</p> 
+   <p>如果您是Workfront使用者，可檢視或更高許可權的工作區和記錄型別</p> 
   </td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>版面配置範本</p></td>
-   <td> <p>若要存取Workfront中的Planning區域，您必須擁有下列配置範本設定： </p>
-<ul>
-<li><p>在生產環境中，必須將所有使用者（包括系統管理員）指派給包含Planning的版面配置範本。</p></li>
-<li><div class="preview">
-<p> 在「預覽」環境中，必須為具有輕度或貢獻者授權的使用者指派包含Planning的版面配置範本。
-   <p>標準使用者和系統管理員預設會啟用Planning區域。</p></div></li></ul>
-
-<p> 不過，向Workfront Planning提交請求不需要存取「計畫」區域。 </p>  
-</td>
   </tr>
  </tbody>
 </table>
@@ -162,8 +148,8 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
 
 {{step1-to-requests}}
 
-1. 啟用熒幕右上角的&#x200B;**切換至新的體驗**&#x200B;設定。
-啟用此設定可讓Workfront Planning請求表單出現在Workfront的&#x200B;**請求**&#x200B;區域中。
+1. 啟用熒幕右上角的&#x200B;**切換至新的體驗**設定。
+啟用此設定可讓Workfront Planning請求表單出現在Workfront的**請求**&#x200B;區域中。
 
    >[!TIP]
    >
@@ -222,11 +208,9 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
 
 1. （選擇性）按一下確認訊息中的&#x200B;**檢視您的要求**&#x200B;以開啟要求，或按一下&#x200B;**X**&#x200B;圖示以關閉確認。
 
-1. （選擇性）按一下&#x200B;**要求**&#x200B;區域中的&#x200B;**規劃**&#x200B;索引標籤，以檢視您的要求。
+1. （選擇性）按一下&#x200B;**要求**&#x200B;區域中的&#x200B;**規劃**索引標籤，以檢視您的要求。
 提交至Planning請求表單的所有您有權檢視的請求都會顯示在清單中。
 1. （可選）執行下列任一項作業：
-
-   <div class="preview">
 
    * 按一下&#x200B;**篩選器**，開始新增條件以決定您要在Planning標籤中檢視哪些請求。
 
@@ -241,7 +225,7 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
       * **狀態**：要求的狀態。
       * **輸入者**：新增請求的使用者名稱。 如果要求是由Workfront外部的人員加入，則&#x200B;**輸入者**&#x200B;欄位會顯示`N/A`。
 
-        您可以有多個&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;加入的篩選器。
+        您可以有多個&#x200B;**And**&#x200B;或&#x200B;**Or**加入的篩選器。
 當您新增篩選條件時，要求清單會自動篩選。
 
    * 按一下&#x200B;**欄**&#x200B;並隱藏、顯示或重新排列請求清單中的欄。
@@ -260,8 +244,6 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
    請求詳細資訊頁面隨即開啟。
 
    ![要求詳細資料頁面](assets/request-details-page.png)
-
-   </div>
 
 
 1. （視條件而定）如果要求表單未與核准相關聯，或如果要求已核准，請按一下要求名稱，然後按一下&#x200B;**記錄**&#x200B;欄位中的記錄名稱。
@@ -313,7 +295,7 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
      >
      >只有當貴組織的Workfront執行個體上線至Adobe Unified Experience時，才會顯示電子郵件和應用程式內通知。
 
-   <!--* <span class="preview"> After the request was approved and the record was created, the Approved by and Approved date fields display information about the approval on the record.</span>-->
+   * <span class="preview">在核准要求並建立記錄之後，[核准者]與[核准日期]欄位會顯示記錄上核准的相關資訊。</span>
 
 1. （選擇性）按一下&#x200B;**檢視您的要求**，在Workfront中開啟要求。
 

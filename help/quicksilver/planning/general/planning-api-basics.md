@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: afb58d04-fa75-4eb7-9c19-2a8c1748fbc2
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '1006'
 ht-degree: 1%
 
 ---
@@ -25,6 +25,13 @@ Adobe Workfront Planning API的目標是引入透過HTTP運作的REST-ful架構�
 您可以從Workfront自訂表單中的外部查詢欄位呼叫Planning API。
 
 如需外部查閱欄位的詳細資訊，請參閱自訂表單中的[外部查閱欄位範例](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)。
+
+>[!NOTE]
+>
+>必須將使用者新增到Adobe Admin Console才能在API呼叫中存取。 無法使用Adobe Planning API存取僅限Workfront的使用者。
+>
+>如需詳細資訊，請參閱[Workfront的Adobe Unified Experience ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
+
 
 ## Workfront規劃API URL
 

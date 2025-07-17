@@ -6,15 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '4607'
+source-wordcount: '5201'
 ht-degree: 1%
 
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=zh-Hant ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -22,9 +22,9 @@ ht-degree: 1%
 
 # 建立欄位
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 
 {{planning-important-intro}}
@@ -166,6 +166,8 @@ ht-degree: 1%
    * [建立日期](#created-date)
    * [上次修改者](#last-modified-by)
    * [上次修改日期](#last-modified-date)
+   * <span class="preview">[核准日期](#approved-date)</span>
+   * <span class="preview">[核准者](#approved-by)</span>
      <!--* [Object](#object-field-type)-->
 
    >[!IMPORTANT]
@@ -317,7 +319,7 @@ ht-degree: 1%
 >數字欄位會在請求表單產生器中顯示為「單行」文字欄位型別。
 >
 >但是，欄位格式會保留，並且這些欄位的值將在提交請求後、在記錄型別和請求詳細資訊頁面中顯示為數字。
->&#x200B;>如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
+>>如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
 
 
 1. 依照本文中[從頭開始建立欄位](#create-fields-from-scratch)一節的說明開始建立欄位，然後選取&#x200B;**數字**&#x200B;欄位型別。
@@ -347,7 +349,7 @@ ht-degree: 1%
 >百分比欄位在請求表單產生器中顯示為單行文字欄位型別。
 >
 >但是，欄位格式會保留，並且這些欄位的值將在提交請求後，在記錄型別和請求詳細資訊頁面中顯示為百分比。
->&#x200B;>如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
+>>如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
 
 
 1. 依照本文中[從頭開始建立欄位](#create-fields-from-scratch)一節的說明開始建立欄位，然後選取&#x200B;**百分比**&#x200B;欄位型別。
@@ -387,7 +389,7 @@ ht-degree: 1%
 >貨幣欄位在請求表單產生器中顯示為單行文字欄位型別。
 >
 >但是，欄位格式會保留，並且這些欄位的值將在提交請求後，在記錄型別和請求詳細資訊頁面中顯示為貨幣。
->&#x200B;>如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
+>>如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
 
 1. 依照本文中[從頭開始建立欄位](#create-fields-from-scratch)一節的說明開始建立欄位，然後選取&#x200B;**貨幣**&#x200B;欄位型別。
 
@@ -622,74 +624,70 @@ ht-degree: 1%
 
    新的上次修改日期型別欄位會新增為記錄型別的欄，其值會預先填入上次修改記錄的日期（或日期和時間）。
 
-<!--
-
 <div class="preview">
 
-### Approved date
+### 核准日期
 
-You can use the Approved date field type to add the date when a request was approved and it resulted in the creation of the record. This is a read-only field, and it automatically populates with the date (and optionally with the time) when the request was approved by the last approver. In this case, the approval date should coincide with the date the record was created. 
-
->[!TIP]
->
->The Approved date field populates with information only for records that were created by submitting a request form associated with approvers. 
->
->If the form is associated with more than one approver, only the date of the last approval decision is recorded in the Approved date field.
- 
-
-1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Created date** field type.
- 
-   ![Approved date field type](assets/approved-date-field-type.png)
-
-   1. Add the following information in the **New field** tab:
-
-     * **Name**: The name of the field, as it will appear in a table or the record page. 
-     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
-     * **Date Format**: Select from the following formats:
-
-        * **Locale**: Matches the locale of your browser.
-        * **Standard**: 05/16/2023
-        * **Long**: May 16, 2023
-        * **European**: 16/05/2023
-        * **ISO**: 2023-05-16
-     
-     * **Include a time field**: Select this option if you want to include a time stamp. This is unselected by default. 
-    
-        Select from the following options:
-        
-        * **24hr**: For example: 18:00
-        * **12hr**: For example: 6:00 PM 
-    
-1. Click **Create**.
-
-    The new Approved date-type field is added as a column to the record type and its values are prefilled with the date (or date and time) when the record request was approved, if the record was created by submitting a request associated with approvers. 
-
-### Approved by
-
-You can use the Approved by field type to add the user who last approved the request to create a record. This is a read-only field, and it automatically populates with the name of the user who approved the request to create the record.
+您可以使用核准日期欄位型別來新增核准請求並導致建立記錄的日期。 此為唯讀欄位，當最後核准者的請求獲得核準時，會自動填入日期（以及可選的時間）。 在此情況下，核准日期應該與記錄的建立日期一致。
 
 >[!TIP]
 >
->The Approved by field populates with information only for records that were created by submitting a request form associated with approvers.
+>「核准日期」欄位只會針對提交與核准者關聯的請求表單所建立的記錄，填入資訊。
 >
->If the form is associated with more than one approver, the name of all approvers are recorded in the Approved date field, separated by commas.
- 
-1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Approved by** field type.
- 
-   ![Approved by field type](assets/approved-by-field-type.png)
+>如果表單與多個核准者相關聯，則在「核准日期」欄位中僅記錄最後核准決定的日期。
 
-1. Add the following information in the **New field** tab:
 
-     * **Name**: The name of the field, as it will appear in a table or the record page. 
-     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
-    
-1. Click **Create**.
+1. 依照本文中[從頭開始建立欄位](#create-fields-from-scratch)一節的說明開始建立欄位，然後選取&#x200B;**建立日期**&#x200B;欄位型別。
 
-    The new Approved by-type field is added as a column to the record type and its values are prefilled with the name of the user who last modified each record.  
+   ![核准的日期欄位型別](assets/approved-date-field-type.png)
+
+   1. 在&#x200B;**新欄位**&#x200B;索引標籤中新增下列資訊：
+
+   * **名稱**：欄位名稱，它將顯示在資料表或記錄頁面中。
+   * **描述**：有關欄位的額外資訊。 當您將滑鼠游標停留在表格中的欄位欄位上，或當您在記錄的詳細資訊頁面中按一下欄位名稱旁的資訊圖示時，會顯示欄位說明。
+   * **日期格式**：從下列格式選取：
+
+      * **地區**：符合瀏覽器的地區。
+      * **標準**： 05/16/2023
+      * **長**：2023年5月16日
+      * **歐洲**： 16/05/2023
+      * **ISO**： 2023-05-16
+
+   * **包含時間欄位**：若要包含時間戳記，請選取此選項。 預設會取消選取此選項。
+
+     從下列選項中選取：
+
+      * **24hr**：例如： 18:00
+      * **12hr**：例如：下午6:00
+
+1. 按一下「**建立**」。
+
+   新的「已核准的日期型別」欄位會新增為記錄型別的欄，如果記錄是由提交與核准者關聯的請求所建立，其值會預先填入記錄請求核准的日期（或日期和時間）。
+
+### 核准者
+
+您可以使用「核准者」欄位型別來新增上次核准請求的使用者，以建立記錄。 這是唯讀欄位，會自動填入核准建立記錄請求的使用者名稱。
+
+>[!TIP]
+>
+>「核准者」欄位只會針對提交與核准者關聯的請求表單所建立的記錄，填入資訊。
+>
+>如果表單與多個核准者相關聯，則所有核准者的名稱都會記錄在「核准日期」欄位中，並以逗號分隔。
+
+1. 依照本文中[從頭開始建立欄位](#create-fields-from-scratch)一節的說明開始建立欄位，然後選取&#x200B;**核准者**&#x200B;欄位型別。
+
+   ![由欄位型別](assets/approved-by-field-type.png)核准
+
+1. 在&#x200B;**新欄位**&#x200B;索引標籤中新增下列資訊：
+
+   * **名稱**：欄位名稱，它將顯示在資料表或記錄頁面中。
+   * **描述**：有關欄位的額外資訊。 當您將滑鼠游標停留在表格中的欄位欄位上，或當您在記錄的詳細資訊頁面中按一下欄位名稱旁的資訊圖示時，會顯示欄位說明。
+
+1. 按一下「**建立**」。
+
+   新的「已核准的副檔型別」欄位會新增為記錄型別的欄，其值會預先填入上次修改每筆記錄的使用者名稱。
 
 </div>
--->
-
 
 <!--
 

@@ -3,10 +3,10 @@ title: Adobe Workfront規劃請求：文章索引
 description: 您可以為每個記錄型別建立請求表單，與使用者共用，他們可以通過填寫並提交表單來新增記錄。
 feature: Workfront Planning
 role: User, Admin
-author: Alina
+author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 91d9a1b1-c677-4aea-997e-f787eb109be1
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 3550d7addcc0bb790f15d141d9470e0b75f940a6
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '1227'
+source-wordcount: '1155'
 ht-degree: 5%
 
 ---
@@ -20,19 +20,23 @@ ht-degree: 5%
 
 # 在Adobe Workfront Planning中共用許可權的概觀
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 
 {{planning-important-intro}}
 
-您可以共用或移除Adobe Workfront Planning工作區或檢視的許可權。
+您可以共用或移除Adobe Workfront Planning工作區、記錄型別或檢視的許可權。
 
-本文說明Workfront Planning物件的許可權層級。
+您也可以共用Planning請求表單。 如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
+
+本文說明Workfront Planning工作區、記錄型別、記錄、欄位及檢視的許可權層級。
 
 ## 可在Adobe Workfront Planning中共用的物件
+
+您可以手動共用某些Workfront Planning物件，而其他物件會繼承其他物件的這些許可權。
 
 您可以在Workfront Planning中手動共用下列物件：
 
@@ -44,8 +48,6 @@ ht-degree: 5%
 
   如需詳細資訊，請參閱[共用工作區](/help/quicksilver/planning/access/share-workspaces.md)
 
-<div class="preview">
-
 * 記錄類型
 
    * 您可以和組織內部人員共用記錄型別。
@@ -53,8 +55,6 @@ ht-degree: 5%
    * 您無法以高於使用者在工作區上的許可權層級來共用記錄型別。
 
   如需詳細資訊，請參閱[共用記錄型別](/help/quicksilver/planning/access/share-record-types.md)。
-
-</div>
 
 
 * 檢視
@@ -66,7 +66,7 @@ ht-degree: 5%
 
   如需詳細資訊，請參閱[共用檢視](/help/quicksilver/planning/access/share-views.md)。
 
-在內部，您可以與下列Workfront實體共用工作區、檢視、<span class="preview">或記錄型別</span>：
+在內部，您可以與下列Workfront實體共用工作區、檢視或記錄型別：
 
 * 使用者
 * 群組
@@ -74,7 +74,7 @@ ht-degree: 5%
 * 公司
 * 職務角色
 
-<span class="preview">當您與他人共用工作區和記錄型別時，記錄型別的許可權層級會自動繼承到與其關聯的記錄和欄位。</span>
+當您與他人共用工作區和記錄型別時，記錄型別的許可權層級會自動繼承到與其關聯的記錄和欄位。
 
 >[!IMPORTANT]
 >
@@ -112,7 +112,7 @@ ht-degree: 5%
 >如需詳細資訊，請參閱[使用Adobe Workfront Planning時的授權型別概觀](/help/quicksilver/planning/access/license-type-overview.md)。
 
 
-### Workspace許可權
+### 工作區的許可權
 
 您必須授予使用者對工作區的許可權，才能允許他們存取下列實體：
 
@@ -130,23 +130,26 @@ ht-degree: 5%
 | 刪除 | ✓ |            |       |
 | 檢視 | ✓ | ✓ | ✓ |
 
-### 記錄型別許可權
+### 記錄型別的許可權
 
-在生產環境中，當您授與工作區許可權時，會一律繼承記錄型別許可權。
+<!-- old access:
+In the Production environment, Record Type permissions are always inherited when you grant permissions to the workspace.
 
-記錄型別的許可權層級如下：
+The following are the levels of permissions for record types: 
 
 
-|        | 管理 | 參與 | 檢視 |
+|        | Manage | Contribute | View  |
 |--------|--------|------------|-------|
-| 建立 | ✓ |            |       |
-| 刪除 | ✓ |            |       |
-| 編輯 | ✓ |            |       |
-| 檢視 | ✓ | ✓ | ✓ |
+| Create | ✓      |            |       |
+| Delete | ✓      |            |       |
+| Edit   | ✓      |            |       |
+| View   | ✓      | ✓          | ✓     |
 
-<div class="preview">
+-->
 
-在預覽環境中，您可以移除從工作區接收的記錄型別繼承許可權。
+當您授予工作區許可權時，會一律繼承記錄型別許可權。
+
+您可以移除從工作區接收的記錄型別繼承許可權。
 
 您可以授予使用者比他們在工作區中擁有更低的記錄型別許可權。
 
@@ -168,11 +171,9 @@ ht-degree: 5%
 >
 >*當您從記錄型別中移除許可權時，使用者仍然保留對工作區和所有記錄型別的檢視許可權，除非您從工作區中移除其許可權。
 
-</div>
+### 記錄的許可權
 
-### 記錄許可權
-
-當您授與許可權給工作區和<span class="preview">記錄型別</span>時，記錄許可權繼承自<span class="preview">記錄型別</span>。
+當您將許可權授予工作區和記錄型別時，記錄許可權是從記錄型別繼承的。
 
 以下是記錄的許可權層級：
 
@@ -184,9 +185,9 @@ ht-degree: 5%
 | 編輯 | ✓ | ✓ |       |
 | 檢視 | ✓ | ✓ | ✓ |
 
-### 欄位許可權
+### 記錄欄位的許可權
 
-當您授與許可權給工作區和<span class="preview">記錄型別</span>時，欄位許可權繼承自<span class="preview">記錄型別</span>。
+當您授與許可權給工作區和記錄型別時，欄位許可權是從記錄型別繼承的。
 
 以下許可權是指欄位本身，而不是與每個欄位關聯的值。 若要編輯欄位值，您必須擁有編輯記錄的許可權。
 
@@ -198,7 +199,7 @@ ht-degree: 5%
 | 檢視 | ✓ | ✓ | ✓ |
 
 
-### 檢視許可權
+### 檢視的許可權
 
 您必須授予個別許可權才能記錄檢視。 授予工作區許可權不會授予工作區中記錄檢視的許可權。
 
