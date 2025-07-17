@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: 5113771baf269405e758307d11a392f95ee870fe
+source-git-commit: 09bb41e16da89edd2c2cbfb5a85213045e52394d
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '767'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td>計劃</td> 
+   <td>規劃</td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -67,11 +67,13 @@ ht-degree: 1%
 1. 開始建立或編輯存取層級，如[建立或修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)中所述。
 1. 若要變更擁有計畫或工作授權的使用者檢視其他使用者設定檔的能力：
 
-   1. 按一下&#x200B;**使用者**&#x200B;右側&#x200B;**檢視**&#x200B;按鈕上的齒輪圖示![](assets/gear-icon-settings.png)。
+   1. 按一下![](assets/gear-icon-settings.png)使用者&#x200B;**右側**&#x200B;檢視&#x200B;**按鈕上的齒輪圖示**。
 
    1. 停用&#x200B;**檢視連絡人資訊**，然後按一下X以關閉&#x200B;**微調您的設定**&#x200B;方塊。
 
-1. 若要修改擁有計畫授權存取許可權的使用者編輯其他使用者的能力，請按一下&#x200B;**使用者**&#x200B;右側&#x200B;**編輯**&#x200B;按鈕上的齒輪圖示![](assets/gear-icon-settings.png)，然後選取您要授與的功能：
+      ![微調使用者設定](assets/fine-tune-users.png)
+
+1. 若要修改擁有計畫授權存取許可權的使用者編輯其他使用者的能力，請按一下![](assets/gear-icon-settings.png)使用者&#x200B;**右側**&#x200B;編輯&#x200B;**按鈕上的齒輪圖示**，然後選取您要授與的功能：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -80,12 +82,9 @@ ht-degree: 1%
      <tr> 
       <td role="rowheader"><strong>建立</strong> </td> 
       <td> <p>允許使用者建立使用者。<br>此選項預設為啟用。</p> 
-      &lt;！—
-        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">在取消草擬這2個備註之前，請確定已進行此變更。 2029年3月29日，請求檔案指出這取決於調查結果。</p>
-
-       &lt;p>&lt;b>注意&lt;/b>：如果您的組織已上線Adobe Admin Console，將無法使用此功能。 如需詳細資訊，請洽詢您的網路或IT管理員。&lt;/p>
-       —> &lt;/td>
-   </tr> 
+     <p><b>注意</b>：如果您的組織已加入Adobe Admin Console，則無法使用此功能。 如需詳細資訊，請洽詢您的網路或IT管理員。</p>
+        </td>  
+     </tr> 
      <tr> 
       <td role="rowheader"><strong>刪除</strong> </td> 
       <td> <p> 允許使用者刪除他們自己建立的使用者。<br>此選項預設為啟用。</p> <p><b>注意</b>：如果您的組織已加入Adobe Admin Console，則無法使用此功能。 如需詳細資訊，請洽詢您的網路或IT管理員。</p> </td> 
@@ -120,4 +119,4 @@ ht-degree: 1%
 
 ## 依授權型別存取使用者
 
-如需有關每個存取層級中的使用者可以對使用者執行哪些操作的資訊，請參閱文章[每個物件型別可用的功能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)中的[使用者](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#users)小節。
+如需有關每個存取層級中的使用者可以對使用者執行哪些操作的資訊，請參閱文章[每個物件型別可用的功能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#users)中的[使用者](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)小節。

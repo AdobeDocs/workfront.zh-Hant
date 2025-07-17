@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8639da14-d545-4f9a-894b-12c29699b0db
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: 09bb41e16da89edd2c2cbfb5a85213045e52394d
 workflow-type: tm+mt
 source-wordcount: '335'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td>計劃</td> 
+   <td>規劃</td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
@@ -59,7 +59,6 @@ ht-degree: 0%
 1. 開始建立或編輯存取層級，如[建立或修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)中所述。
 1. 按一下您要用於此存取層級的&#x200B;**目標**&#x200B;右邊的選項。
 
-   ![](assets/edit-access-level-goals.png)
 
    >[!NOTE]
    >

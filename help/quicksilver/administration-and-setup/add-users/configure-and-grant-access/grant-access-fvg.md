@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4fb6eefd-74dd-4941-91d4-0e5f637febf3
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: 09bb41e16da89edd2c2cbfb5a85213045e52394d
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 1%
@@ -37,7 +37,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td>計劃</td> 
+   <td>規劃</td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -51,9 +51,9 @@ ht-degree: 1%
 ## 使用自訂存取層級設定使用者對篩選器、檢視和群組的存取權
 
 1. 開始建立或編輯存取層級，如[建立或修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)中所述。
-1. 按一下篩選器右側&#x200B;**檢視**&#x200B;或&#x200B;**編輯**&#x200B;按鈕上的齒輪圖示![](assets/gear-icon-settings.png)，然後在&#x200B;**微調您的設定**&#x200B;下選取您要授與的功能。
+1. 按一下篩選器右側![](assets/gear-icon-settings.png)檢視&#x200B;**或**&#x200B;編輯&#x200B;**按鈕上的齒輪圖示**，然後在&#x200B;**微調您的設定**&#x200B;下選取您要授與的功能。
 
-   ![](assets/gear-icon-filters-dashboards-groupings.jpg)
+   ![](assets/gear-icon-filters-dashboards-groupings.png)
 
    依預設，擁有「計畫」、「工作」、「稽核者」或「請求」授權的使用者具有完整的「檢視」和「編輯」功能。 擁有外部使用者授權的使用者無權存取篩選器、檢視和群組。
 
@@ -80,54 +80,54 @@ Drafting out this section for now because the table is redundant since all four 
 <thead>
 <tr>
 <th> 動作 </th>
-<th> 規劃工具 </th>
+<th> 規劃者 </th>
 <th> 工作者 </th>
-<th> 檢閱者 </th>
+<th> 審閱者 </th>
 <th> 請求者 </th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>編輯篩選器、檢視和群組</td>
-<td>✓ (A)</td>
-<td>✓ (A)</td>
-<td>✓ (A)</td>
-<td>✓ (A)</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
 </tr>
 <tr>
 <td>建立篩選器、檢視和群組</td>
-<td>✓ (A)</td>
-<td>✓ (A)</td>
-<td>✓ (A)</td>
-<td>✓ (A)</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
 </tr>
 <tr>
 <td>檢視篩選器、檢視和群組</td>
-<td>✓ (A)</td>
-<td>✓ (A)</td>
-<td>✓ (A)</td>
-<td>✓ (A)</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
 </tr>
 <tr>
 <td>刪除篩選器、檢視和群組</td>
-<td>✓ (A)</td>
-<td>✓ (A)</td>
-<td>✓ (A)</td>
-<td>✓ (A)</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
 </tr>
 <tr>
 <td>共用篩選器、檢視和群組</td>
-<td>✓ (A)</td>
-<td>✓ (A)</td>
-<td>✓ (A)</td>
-<td>✓ (A)</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
 </tr>
 <tr>
 <td>在整個系統內共用篩選器、檢視和群組</td>
-<td>✓ (A)</td>
-<td>✓ (A)</td>
-<td>✓ (A)</td>
-<td>✓ (A)</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
 </tr>
 </tbody>
 </table>

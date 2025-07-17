@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 915d1520-f5c4-4e33-b645-cb219289383c
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: 09bb41e16da89edd2c2cbfb5a85213045e52394d
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '699'
 ht-degree: 5%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td>計劃</td> 
+   <td>規劃</td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -46,7 +46,9 @@ ht-degree: 5%
 ## 設定使用者的存取權，以使用自訂存取層級編輯使用者
 
 1. 開始建立或編輯存取層級，如[建立或修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)中所述。
-1. 按一下Teams右側&#x200B;**檢視**&#x200B;或&#x200B;**編輯**&#x200B;按鈕上的齒輪圖示![](assets/gear-icon-settings.png)，然後在&#x200B;**微調您的設定**&#x200B;下選取您要授與的功能。
+1. 按一下Teams右側![](assets/gear-icon-settings.png)檢視&#x200B;**或**&#x200B;編輯&#x200B;**按鈕上的齒輪圖示**，然後在&#x200B;**微調您的設定**&#x200B;下選取您要授與的功能。
+
+   ![微調小組](assets/fine-tune-teams.png)
 
    * **檢視**：如果您正在設定擁有任何授權的使用者檢視團隊的方式，請變更下列任一選項：
 
@@ -104,6 +106,8 @@ ht-degree: 5%
        </tbody>
       </table>
 
+
+
 1. 按一下X以關閉&#x200B;**微調您的設定**&#x200B;方塊。
 1. （選擇性）若要針對您正在處理的存取層級中的其他物件與區域設定存取設定，請繼續使用[設定對Adobe Workfront的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)中所列的文章之一，例如[授與對工作的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)和[授與對財務資料的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)。
 1. 完成時，按一下&#x200B;**儲存**。
@@ -120,4 +124,4 @@ ht-degree: 5%
 
 ## 依授權型別存取團隊
 
-如需有關每個存取層級中的使用者可以對問題執行的資訊，請參閱文章[每個物件型別可用的功能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)中的[團隊](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#teams)小節。
+如需有關每個存取層級中的使用者可以對問題執行的資訊，請參閱文章[每個物件型別可用的功能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#teams)中的[團隊](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)小節。
