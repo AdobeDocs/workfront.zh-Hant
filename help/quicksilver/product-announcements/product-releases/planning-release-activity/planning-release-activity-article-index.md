@@ -2,14 +2,14 @@
 content-type: release-notes
 title: Adobe Workfront規劃發行活動：文章索引
 description: 這是Adobe Workfront Planning產品的發行活動。
-author: Alina
+author: Alina, Courtney
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: b3f1002b-e3b4-48e5-9a64-467d4f7a15b2
-source-git-commit: 3eaab5818e982914f807ce2c4e92dee1885ea8d9
+source-git-commit: 7815fd0f84170cb92eef1bafa8aa90abe5365c04
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,6 @@ ht-degree: 0%
 
 如需有關在2025年4月10日生產版本之前發行的功能的資訊，請參閱下列文章：
 
-* [Adobe Workfront Planning 2025年第四季發行活動](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
 * [Adobe Workfront Planning 2025年第三季度發行活動](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
 * [Adobe Workfront Planning 2025年第二季發行活動](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
 * [Adobe Workfront Planning 2025年第一季度發行活動](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
