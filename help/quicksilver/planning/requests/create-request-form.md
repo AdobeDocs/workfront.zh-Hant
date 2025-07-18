@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
 workflow-type: tm+mt
-source-wordcount: '2242'
+source-wordcount: '2281'
 ht-degree: 1%
 
 ---
@@ -269,6 +269,10 @@ ht-degree: 1%
    ![分享要求表單](assets/share-box-for-request-form.png)的方塊
 
 1. （選擇性）按一下實體名稱后的下拉式功能表，然後按一下&#x200B;**移除**，將其從清單中移除並停止與它們共用表單。
+
+   >[!NOTE]
+   >
+   >除了團隊、群組、公司和職務角色之外，您只能與已新增至Adobe Admin Console的使用者共用。 您無法新增僅限Workfront的使用者。 如需詳細資訊，請參閱[在Adobe Admin Console中管理使用者](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)。
 
 1. 在&#x200B;**可以透過此表單**&#x200B;提交請求的使用者區段中，從下列選項中選取，以指出哪些型別的使用者可以存取此表單：
 

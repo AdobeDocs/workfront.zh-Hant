@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
 workflow-type: tm+mt
 source-wordcount: '766'
 ht-degree: 0%
@@ -15,11 +15,9 @@ ht-degree: 0%
 
 # 使用Adobe Workfront Planning記錄自動化建立物件
 
-<!--add screen shots when UI is finalized AND redo all the steps - some things got changed and moved around-->
 
 <!--you might need to add something about notifications and emails?!-->
-<!--add a new section to this article to mention a new way to create objects: help/quicksilver/planning/records/create-records.md-->
-<!-- add a new section to this article to mention a new way to create WF objects from Planning: help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md-->
+
 
 <!-- if they give access to use the automation to people with LESS than Manage permissions to a workspace, split this article in two: the Configure section should be for admins and the "Use a Workfront Planning automation to create an object" should be for all other users-->
 

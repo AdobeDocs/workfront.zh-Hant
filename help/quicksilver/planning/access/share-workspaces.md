@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '908'
 ht-degree: 1%
 
 ---
@@ -128,6 +128,11 @@ This article describes how you can share a view with others. For information abo
 
    ![與群組共用UI](assets/sharing-ui-with-groups.png)
 
+   >[!NOTE]
+   >
+   >   除了團隊、群組、公司和職務角色之外，您只能與已新增至Adobe Admin Console的使用者共用。 您無法新增僅限Workfront的使用者。 如需詳細資訊，請參閱[在Adobe Admin Console中管理使用者](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)。
+
+
 1. 從下拉式功能表中選取下列其中一個許可權等級：
    * 檢視
    * 參與
@@ -147,14 +152,12 @@ This article describes how you can share a view with others. For information abo
 1. （視條件而定）如果您是工作區的管理員，您可能會收到其他使用者存取下列區域檢視的請求：
 
    * 應用程式內通知
-
      ![存取要求的應用程式內通知](assets/in-app-notification-for-access-request.png)
    * 電子郵件通知
-
      ![存取要求的電子郵件通知](assets/email-notification-for-access-request.png)
 1. （視條件而定）從Workfront的通知區域，按一下應用程式內通知
 或
-在電子郵件通知中，按一下&#x200B;**檢視所有通知**，然後按一下清單中的通知。
+在電子郵件通知中，按一下**檢視所有通知**，然後按一下清單中的通知。
 
    顯示&#x200B;**擱置中的存取要求**&#x200B;方塊。
 
