@@ -131,7 +131,7 @@ Workfront Planning中發生下列動作時，您可能會收到應用程式內�
       * 您提交變更的Workfront Planning請求狀態
       * 請求、授予或拒絕對Workfront Planning請求的核准
 
-   如需有關管理通知的詳細資訊，請參閱[帳戶偏好設定和通知](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences)。
+   如需有關管理通知的詳細資訊，請參閱[帳戶偏好設定和通知](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/features/account-preferences)。
 
 <!--OLD: notifications are not available to non-IMS customers: 
 
@@ -141,7 +141,7 @@ The following scenarios exist:
 
 * Adobe Unified Experience customers receive both an in-app notification and an email notification. They can manage their in-app and email notification preferences in the Preferences area of their Adobe Experience Cloud profile for the Workfront product. 
 
-    For more information, see [Account preferences and notifications](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
+    For more information, see [Account preferences and notifications](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/features/account-preferences).
 
 * Customers who are not on the Adobe Unified Experience receive only an email notification. They cannot manage their email notifications preferences and will always receive an email when someone adds them to a comment on a record in Workfront Planning.   
 
