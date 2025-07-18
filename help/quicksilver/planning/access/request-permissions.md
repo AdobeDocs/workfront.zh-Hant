@@ -135,8 +135,10 @@ ht-degree: 1%
 
    所有具有檢視或工作區管理許可權的使用者都會收到下列存取請求通知：
    * 應用程式內通知
+
      ![存取要求的應用程式內通知](assets/in-app-notification-for-access-request.png)
    * 電子郵件通知
+
      ![存取要求的電子郵件通知](assets/email-notification-for-access-request.png)
 
 1. （視條件而定）當檢視或工作區管理員授予您檢視或工作區的許可權時，您會收到電子郵件通知和應用程式內通知，其中包含已授予許可權的確認。<!--check this - I was not able to test this, but Isk confirmed.-->
