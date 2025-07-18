@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 8f4c1be156094d18df4bc3628d4f1fca90372119
+exl-id: d8ac4d94-28b5-41d6-acb8-259696897c8a
+source-git-commit: ee366e05097518a4618dd11ed5807b8766465d94
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 2%
 
 ---
-
 
 # 從表格檢視匯出記錄
 

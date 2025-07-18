@@ -800,7 +800,7 @@ UNIQUE運運算元適用於下列欄位型別以外的所有欄位型別：
 
 預覽：待定
 
-如果您是Adobe Unified Experience客戶，且有人將您新增至記錄頁面上的註解，您會收到應用程式內及電子郵件有關註解的通知。 您可以在Adobe Experience Cloud設定檔的偏好設定區域中管理通知偏好設定。 如需詳細資訊，請參閱[帳戶偏好設定和通知](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/features/account-preferences)。
+如果您是Adobe Unified Experience客戶，且有人將您新增至記錄頁面上的註解，您會收到應用程式內及電子郵件有關註解的通知。 您可以在Adobe Experience Cloud設定檔的偏好設定區域中管理通知偏好設定。 如需詳細資訊，請參閱[帳戶偏好設定和通知](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences)。
 
 如需Workfront規劃通知的詳細資訊，請參閱[Adobe Workfront規劃通知：文章索引](/help/quicksilver/planning/notifications/notifications-information.md)。
 

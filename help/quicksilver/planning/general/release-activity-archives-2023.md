@@ -76,7 +76,7 @@ ht-degree: 0%
 >
 >貴組織必須購買Adobe Workfront Fusion，才能與Adobe Workfront Planning功能建立連線。
 >
->如需詳細資訊，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+>如需詳細資訊，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 
 現在，您可以使用Adobe Workfront Fusion連線至規劃功能。 透過新的Fusion連線，您可以：
 
@@ -92,7 +92,7 @@ ht-degree: 0%
 
 * 在規劃功能中變更時觸發案例
 
-如需詳細資訊，請參閱[Adobe Workfront規劃模組](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)。
+如需詳細資訊，請參閱[Adobe Workfront規劃模組](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)。
 
 ## 2023年12月11日當週
 
@@ -132,7 +132,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->貴組織的Workfront例項必須上線至Adobe業務平台或Adobe Admin Console，才能將Adobe Workfront Planning功能記錄連線至Adobe Experience Manager Assets。
+>貴組織的Workfront例項必須上線至Adobe商業平台或Adobe Admin Console，才能將Adobe Workfront Planning功能記錄連線至Adobe Experience Manager Assets。
 >
 >如果您對加入Adobe Admin Console有任何疑問，請參閱[Adobe統一體驗常見問題集](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)。
 
@@ -140,7 +140,7 @@ ht-degree: 0%
 
 建立連線後，此更新便可使用下列功能：
 
-* 您可以將Experience Manager資產和資料夾從他們有權存取的Experience Manager Assets中的特定存放庫連結到規劃功能記錄。 您可以在此程式中連線資產欄位與計畫功能欄位。
+* 您可以將Experience Manager資產和資料夾從Experience Manager Assets中他們有權存取的特定存放庫連結至規劃功能記錄。 您可以在此程式中連線資產欄位與計畫功能欄位。
 
 * Planning功能使用者可檢視連線資產的名稱，以及規劃功能中連線欄位的值。
 
@@ -148,7 +148,7 @@ ht-degree: 0%
 * An Experience Manager Assets record type is automatically created in Planning after you establish the connection. Connected assets are visible in the table and timeline views of this new record type.  
 -->
 
-* 您可以從連線的記錄欄位按一下規劃功能記錄之表格檢視中的資產名稱，並檢視包含資產縮圖和數個關鍵欄位的快顯視窗。 從快顯視窗中，您可以導覽至Experience Manager中的資產檢視器，並檢視有關該檢視器的所有詳細資訊。
+* 您可以從連線的記錄欄位按一下規劃功能記錄之表格檢視中的資產名稱，並檢視包含資產縮圖和數個關鍵欄位的快顯視窗。 從快顯視窗中，您可以導覽至Experience Manager中的資產檢視器，並檢視有關該檢視器的所有詳細資料。
 
 如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
 
@@ -363,7 +363,7 @@ ht-degree: 0%
 
 預覽和生產： 2023年8月24日
 
-您現在可以將規劃功能記錄與Workfront程式和產品組合連結。 您必須在計畫權能記錄型別與建立連線欄位的方案或投資組合之間建立連線。 然後，您可以將來自相同工作區中所有其他記錄型別的任何規劃權能記錄連線到特定程式和產品組合，這些程式和產品組合會在相同工作區中建立唯讀Workfront程式或WorkfrontPortfolio記錄型別。 請考量下列事項：
+您現在可以將規劃功能記錄與Workfront程式和產品組合連結。 您必須在計畫權能記錄型別與建立連線欄位的方案或投資組合之間建立連線。 然後，您可以將來自相同工作區中所有其他記錄型別的任何規劃功能記錄連線到特定計畫和產品組合，這些計畫和產品組合會在相同工作區中建立唯讀Workfront計畫或Workfront Portfolio記錄型別。 請考量下列事項：
 
 * Workfront聯結器記錄型別對於每個工作區都是唯一的。
 * 您可以將多個規劃權能記錄連線到同一個Workfront方案或產品組合，並將多個方案和產品組合連線到同一規劃權能記錄。
