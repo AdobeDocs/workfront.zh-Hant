@@ -4,9 +4,9 @@ description: 記錄型別是Adobe Workfront Planning的物件型別。 在Workfr
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: ee366e05097518a4618dd11ed5807b8766465d94
+source-git-commit: 943c26efa6f6351abf885dbc5f3aa09c0b0fab05
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '591'
 ht-degree: 2%
 
 ---
@@ -36,8 +36,6 @@ recommendations: noDisplay, noCatalog
 ## 存取需求
 
 +++ 展開以檢視存取需求。
-
-您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
 <col> 
@@ -108,6 +106,32 @@ recommendations: noDisplay, noCatalog
    * 記錄
    * 記錄連線
 
-## 從現有的全域記錄型別建立記錄型別
+* 您只能在其原始工作區中編輯記錄型別，包括其欄位。 您無法從新增它的工作區中編輯它。
 
-1. 開始建立記錄型別，如文章[建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md)中所述，然後按一下&#x200B;**使用全域記錄型別**。<!--check this - the option might have been renamed in the UI-->
+## 從現有記錄型別建立記錄型別
+
+1. 開始建立記錄型別，如文章[建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md)中所述，然後按一下&#x200B;**新增現有的**。<!--check this - the option might have been renamed in the UI-->
+
+   ![模式以新增記錄型別，並附上從其他工作區匯入的選項](assets/add-record-type-from-existing-workspace-option-when-creating-records.png)
+
+1. 按一下&#x200B;**繼續**。
+1. 在&#x200B;**選擇記錄型別**&#x200B;方塊中，按一下您要從現有工作區新增的記錄型別的卡片，然後按一下&#x200B;**新增**。
+
+   記錄型別會新增至您選取的工作區，且會發生下列情況：
+
+   * **跨工作區記錄型別**&#x200B;圖示![跨工作區連線圖示](assets/global-icon.png)已新增至匯入記錄型別的卡片。
+   * 唯讀&#x200B;**Workspace**&#x200B;欄位已新增至匯入的記錄型別。 欄位會顯示每個記錄建立時所在的工作區。
+
+     >[!NOTE]
+     >
+     >* 您無法編輯匯入的記錄型別或其欄位。 您可以從原始工作區中編輯記錄型別及其欄位。
+
+1. （選擇性）在匯入的記錄型別卡片中按一下&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，或在其頁面上的記錄型別名稱右側，然後按一下&#x200B;**刪除**。
+1. （視條件而定）在提供的欄位中輸入&#x200B;**刪除**，然後按一下&#x200B;**永久刪除**。
+
+   這會從選取的工作區移除匯入的記錄型別。 原始記錄型別及其欄位會保留在其原始工作區中。
+
+   <!--**************************ASK LILIT ON THIS ONE, NOT SURE IF THIS IS TRUE: Any records added in the current workspace are saved in the original workspace.**********-->
+
+
+

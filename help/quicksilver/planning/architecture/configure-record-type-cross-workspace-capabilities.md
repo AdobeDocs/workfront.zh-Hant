@@ -4,9 +4,9 @@ description: 您可以啟用記錄型別，以新增至另一個工作區，或�
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 8f4c1be156094d18df4bc3628d4f1fca90372119
+source-git-commit: 943c26efa6f6351abf885dbc5f3aa09c0b0fab05
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '1006'
 ht-degree: 1%
 
 ---
@@ -44,8 +44,6 @@ recommendations: noDisplay, noCatalog
 ## 存取需求
 
 +++ 展開以檢視存取需求。
-
-您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
 <col> 
@@ -117,7 +115,7 @@ recommendations: noDisplay, noCatalog
 
 {{step1-to-planning}}
 
-1. 按一下您要編輯其記錄型別的工作區，
+1. 按一下您要編輯其記錄型別的工作區。
 
    工作區頁面隨即開啟，且記錄型別隨即顯示。
 1. 執行下列其中一項：
@@ -134,11 +132,11 @@ recommendations: noDisplay, noCatalog
 
    ![編輯記錄型別使用[新增至其他工作區]的進階設定可啟用](assets/edit-record-type-advanced-settings-add-to-other-workspaces-enabled.png)
 
-1. 在&#x200B;**選取誰可以新增此記錄型別至他們管理的工作區**&#x200B;欄位中，新增您想要新增此記錄型別的使用者至他們管理的工作區。
+1. 在&#x200B;**選取誰可以新增此記錄型別至他們管理的工作區**&#x200B;欄位中，新增您要允許新增此記錄型別的使用者至他們管理的工作區。
 
    您的名稱會自動新增到欄位中。
 
-   您可以新增個別使用者，或您想要將其記錄型別新增至其管理工作區的群組、團隊、職務角色或公司。
+   您可以新增個別使用者，或群組、團隊、職務角色或您想允許其使用者將此記錄型別新增到他們管理的工作區的公司。
 
    儲存記錄型別後，您可以編輯此欄位。
 1. （選擇性）從&#x200B;**選取誰可以新增此記錄型別到他們管理的工作區**&#x200B;欄位，移除您的名稱。
@@ -148,6 +146,11 @@ recommendations: noDisplay, noCatalog
    會發生下列情況：
 
    * 記錄型別及其欄位現在可以由您指定的人員新增到另一個工作區。
+
+   >[!NOTE]
+   >
+   >您只能從原始工作區編輯記錄型別及其欄位。
+
    * 記錄型別卡片會顯示全域圖示![全域記錄型別圖示](assets/global-icon.png)，以表示該記錄型別可新增至您在組態中指定的管理員所在的任何工作區。
    * 系統產生的&#x200B;**Workspace**&#x200B;欄位已新增至記錄型別。
 
@@ -155,9 +158,9 @@ recommendations: noDisplay, noCatalog
 
      此欄位是唯讀的，無法刪除。
 
-## 設定連線到其他工作區中的記錄型別
+## 設定從其他工作區連線到記錄型別
 
-當您建立或編輯記錄型別時，可以設定記錄型別，以便從其他工作區連線到。
+當您建立或編輯記錄型別時，可以設定要從其他工作區連線的記錄型別。
 
 若要在編輯記錄型別時，設定記錄型別以從其他工作區連線：
 
@@ -175,7 +178,7 @@ recommendations: noDisplay, noCatalog
    ![更多記錄型別卡片中的功能表選項](assets/more-menu-options-from-record-type-card.png)
 
 1. 在&#x200B;**編輯記錄型別**&#x200B;方塊中，選取&#x200B;**進階設定**&#x200B;索引標籤。
-1. 啟用&#x200B;**允許從其他工作區**&#x200B;設定連線到此記錄型別。<!-- check the setting name, this is the suggested UI text to be edited by Lilit and team-->
+1. 啟用&#x200B;**允許連線到其他工作區中的這個記錄型別**&#x200B;設定。<!-- check the setting name, I sent this to Lilit to say FROM instead of IN-->
 
    ![編輯記錄型別[進階設定]索引標籤並啟用從其他工作區的連線](assets/edit-record-type-advanced-settings-connect-from-other-workspaces-enabled.png)
 
@@ -191,6 +194,11 @@ recommendations: noDisplay, noCatalog
 
    * 記錄型別及其欄位現在可以從您指定的工作區連線。
    * 記錄型別卡片會顯示跨工作區連線圖示![跨工作區連線圖示](assets/connect-from-other-workspaces-icon.png)，表示您可以從您在組態中指定的任何工作區連線記錄型別。
+
+   記錄型別變為可以從指定的工作區連線。
+
+
+
 
 
 
