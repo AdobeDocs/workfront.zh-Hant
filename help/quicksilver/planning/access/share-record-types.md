@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
+source-git-commit: 948ca1f8a91e20616b5a42876df8432e85737b2d
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1474'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >有權存取工作區的使用者至少會自動取得工作區中所有記錄型別的檢視許可權。
->&#x200B;>共用檢視未授予使用者記錄型別的許可權。 只有共用工作區才能授予使用者記錄型別的許可權。
+>>共用檢視未授予使用者記錄型別的許可權。 只有共用工作區才能授予使用者記錄型別的許可權。
 >
 >* 如需在Workfront Planning中共用物件的一般資訊，另請參閱[在Adobe Workfront Planning中共用許可權概觀](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
 >* 如需詳細資訊，請參閱本文中的[共用記錄型別](#considerations-when-sharing-record-types)時的考量事項。
@@ -142,9 +142,21 @@ ht-degree: 0%
 
 {{step1-to-planning}}
 
-1. 開啟您要共用其記錄型別的工作區，然後按一下記錄型別卡片。
+1. 開啟您要共用其記錄型別的工作區。
 
-   這會開啟記錄型別頁面。
+<!--when we release Share on the record type card, replace the next 3 steps with this: 
+
+1. Do one of the following: 
+
+   * <span class="preview">From the record type card, click the **More** menu > **Share**.</span>
+   * Click a record type card to open the record type's page, then click **Share** > **Share the record type** from any record type view.
+
+   The **Share** box opens.
+-->
+
+1. 按一下記錄型別卡。
+
+   記錄型別頁面隨即開啟。
 
 1. 從任何檢視的索引標籤，按一下記錄型別右上角的&#x200B;**共用**。
 1. 按一下&#x200B;**共用記錄型別**。
@@ -160,7 +172,6 @@ ht-degree: 0%
    >[!TIP]
    >
    >您無法從繼承的許可權清單中移除個別實體。
-
 
 1. （選擇性和條件性）如果您想要與特定實體共用記錄型別，並授予他們不同於工作區現有的記錄型別存取權，請執行以下操作：
 

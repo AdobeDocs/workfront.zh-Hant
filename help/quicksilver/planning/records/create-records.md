@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 948ca1f8a91e20616b5a42876df8432e85737b2d
 workflow-type: tm+mt
 source-wordcount: '2388'
 ht-degree: 0%
@@ -26,8 +26,12 @@ ht-degree: 0%
 
 您可以執行下列其中一項作業來建立記錄：
 
-* [從記錄型別表格檢視中內嵌新增記錄，以建立記錄](#create-records-by-adding-them-inline-from-the-record-type-table-view)
 * [使用任何記錄型態檢視中的「新增記錄」或「請求記錄」按鈕來建立記錄](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)
+* [從記錄型別表格檢視中內嵌新增記錄，以建立記錄](#create-records-by-adding-them-inline-from-the-record-type-table-view)
+
+<!--
+* [Create records by adding them in the record type timeline view](#create-records-by-adding-them-in-the-record-type-timeline-view)-->
+
 * [從外部清單複製並貼上記錄清單](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [從表格檢視複製記錄](#create-records-by-duplicating-them)
 * [從其他記錄連線記錄時建立記錄](#create-records-as-you-connect-them)
@@ -109,6 +113,92 @@ ht-degree: 0%
 
 +++
 
+## 使用任何記錄型態檢視中的「新增記錄」或「請求記錄」按鈕來建立記錄
+
+具有工作區及記錄型別檢視許可權的使用者僅能使用記錄型別頁面上的「請求記錄」按鈕來建立記錄。
+
+對工作區和記錄型別具有「貢獻」和「管理」許可權的使用者可以使用記錄型別頁面上的「新增記錄」按鈕來建立記錄。
+
+
+>[!IMPORTANT]
+>
+>工作區管理員必須為記錄型別建立請求表單，以便擁有檢視許可權的使用者使用請求表單新增記錄。 否則，檢視許可權使用者無法建立記錄。
+
+{{step1-to-planning}}
+
+1. 按一下您要新增記錄的工作區。
+
+   工作區隨即開啟，且記錄型別會顯示為卡片。
+
+1. 按一下記錄型別卡。 如需有關建立記錄型別的資訊，請參閱[建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md)。
+
+   記錄型別頁面會在您上次存取的檢視中開啟。 依預設，會在表格檢視中開啟記錄型別頁面。
+所選型別的所有記錄都會顯示在檢視中。
+
+1. （視條件而定）從任何檢視中，根據工作區和錄製型別許可權，在熒幕右上角按一下下列內容：
+
+   * 如果您對工作區和記錄型別有Contribute或更高的許可權，請按一下&#x200B;**新增記錄**
+
+     或
+
+   * 如果您擁有工作區和記錄型別的檢視許可權，請按一下&#x200B;**要求記錄**。
+
+1. （視條件而定）如果您按一下&#x200B;**新記錄**，請執行下列動作：
+
+   1. 按一下下列其中一個方式來建立記錄，然後按一下[繼續]****：
+
+      * **手動新增**。 記錄的預覽方塊開啟。\
+        從步驟6開始，新增記錄的相關資訊，如[從本文中的記錄型別資料表檢視](#create-records-by-adding-them-inline-from-the-record-type-table-view)區段內嵌新增記錄，以建立記錄中所述。<!--insure this stays accurate-->
+      * **從檔案上傳**
+新增記錄，如文章[中所述。從步驟6開始，從CSV或Excel檔案匯入資訊來建立記錄](/help/quicksilver/planning/records/import-file-to-create-records.md)。<!--ensure this stays accurate-->
+      * **提交要求**
+記錄型別的請求表單隨即開啟。
+
+        工作區管理員必須建立請求表單，才能使用請求表單新增記錄。
+
+        >[!TIP]
+        >
+        >某些記錄型別可能具有多個表單。 按一下其中一個以開啟它。
+
+        新增記錄，如文章[提交Adobe Workfront Planning要求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)中所述，從步驟6開始。<!--ensure this stays accurate-->
+
+      ![建立記錄選擇模組的三種方法](assets/three-ways-to-create-records-choice-modal.png)
+
+1. （視條件而定）如果您按一下&#x200B;**要求記錄**，請執行下列動作：
+
+   1. （視條件而定）如果記錄型別有多個請求表單，請按一下其中一個以選擇它。
+   2. 繼續新增表單中的資訊以建立記錄，如文章[提交Adobe Workfront Planning請求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)中所述，從步驟6開始。<!--ensure this stays accurate-->
+
+1. （視條件而定）複查新記錄。
+
+   根據您選擇新增記錄的方式，可能會發生以下一些情況：
+
+   * 新記錄會新增至記錄型別，除非您選擇使用具有核准流程的請求表單來新增記錄。 建立記錄之前，核准者必須獲得所有核准者的核准。
+   * 如果您使用CSV或Excel試算表新增記錄，系統會將多個記錄新增至記錄型別。
+   * 如果您透過提交請求表單來新增請求，則會在Workfront請求區域的Planning標籤中新增請求。
+
+<!-- this is not possible anymore: 
+
+## Create records by connecting them from another application
+
+You can import records from other applications by linking them to existing records. This creates a linked record for the other application's connected object. 
+
+1. Create a record type, as described in the [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).
+
+1. Create records for the record type you created in the previous step. For information, see the section [Create records by manually adding them to a record type](#create-records-by-manually-adding-them-to-a-record-type) in this article. 
+
+1. Create a connection to an object type from another application for the record type you created. For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+1. Add objects from another application to the records you created above using the linked record field you created in the previous step. For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md). 
+
+    The following items are created in Workfront Planning:
+
+    * A read-only record type that refers to the other application's record type you linked to in the connected record field. 
+
+      For example, if you connect a Planning record type to Workfront project, a read-only record type named "Workfront project" is created in the same workspace. You can access the read-only Workfront record types from the table view of the Planning records you're linking from. 
+   
+-->
+
 ## 從記錄型別表格檢視中內嵌新增記錄，以建立記錄
 
 您可以在記錄型別頁面的表格檢視中建立記錄，因為您是內嵌新增它們。
@@ -180,91 +270,64 @@ ht-degree: 0%
    * CTRL + Z (⌘ + Z代表Mac)可復原變更
    * 按CTRL + Shift + Z (⌘ + Shift + Z代表Mac)以重做變更
 
-## 使用任何記錄型態檢視中的「新增記錄」或「請求記錄」按鈕來建立記錄
+<!--<div class="preview">
 
-具有工作區及記錄型別檢視許可權的使用者僅能使用記錄型別頁面上的「請求記錄」按鈕來建立記錄。
+## Create records by adding them in the record type timeline view
 
-對工作區和記錄型別具有「貢獻」和「管理」許可權的使用者可以使用記錄型別頁面上的「新增記錄」按鈕來建立記錄。
+You can create records in the timeline view of a record type page, by double-clicking in the timeline. 
 
-
->[!IMPORTANT]
->
->工作區管理員必須為記錄型別建立請求表單，以便擁有檢視許可權的使用者使用請求表單新增記錄。 否則，檢視許可權使用者無法建立記錄。
+For information about creating a timeline view, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 {{step1-to-planning}}
+  
+1. Click the workspace where you want to add records.
 
-1. 按一下您要新增記錄的工作區。
+    The workspace opens and the record types display as cards.
 
-   工作區隨即開啟，且記錄型別會顯示為卡片。
+1. Click a record type card. 
 
-1. 按一下記錄型別卡。 如需有關建立記錄型別的資訊，請參閱[建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md)。
+    The record type page opens in the view that you last accessed. 
 
-   記錄型別頁面會在您上次存取的檢視中開啟。 依預設，會在表格檢視中開啟記錄型別頁面。
-所選型別的所有記錄都會顯示在檢視中。
+1. Click to open a timeline view, or create a timeline view, first. 
 
-1. （視條件而定）從任何檢視中，根據工作區和錄製型別許可權，在熒幕右上角按一下下列內容：
+    >[!NOTE]
+    >
+    >You can create a timeline view only if there are at least two date fields associated with the record type.
+1. Double-click anywhere in the timeline. 
 
-   * 如果您對工作區和記錄型別有Contribute或更高的許可權，請按一下&#x200B;**新增記錄**
+    A new record box opens. 
 
-     或
+    ![New record box on timeline with unnamed record bar](assets/new-record-small-box-on-timeline.png)
+1. Update the following information:
 
-   * 如果您擁有工作區和記錄型別的檢視許可權，請按一下&#x200B;**要求記錄**。
+    * **Name**: Enter the name of the record. If you leave it empty, Workfront names it **Untitled** by default. The name will not be visible in the record bar if left empty. 
+    * **Record date fields**: Update the dates of the record. 
+        
+        The names of the date fields are customized according to the fields selected for the Start and End dates when the timeline view was created.
 
-1. （視條件而定）如果您按一下&#x200B;**新記錄**，請執行下列動作：
+        By default, date values are preselected depending on how you display the timeline view. The following scenarios exist:
 
-   1. 按一下下列其中一個方式來建立記錄，然後按一下[繼續]&#x200B;**&#x200B;**：
+        * By **Year**: The record start and end dates span a month.
+        * By **Quarter**: The record start and end dates span a week. 
+        * By **Month**: The record start and end dates span three days.
 
-      * **手動新增**。 記錄的預覽方塊開啟。\
-        從步驟6開始，新增記錄的相關資訊，如[從本文中的記錄型別資料表檢視](#create-records-by-adding-them-inline-from-the-record-type-table-view)區段內嵌新增記錄，以建立記錄中所述。<!--insure this stays accurate-->
-      * **從檔案上傳**
-新增記錄，如文章[中所述。從步驟6開始，從CSV或Excel檔案匯入資訊來建立記錄](/help/quicksilver/planning/records/import-file-to-create-records.md)。<!--ensure this stays accurate-->
-      * **提交要求**
-記錄型別的請求表單隨即開啟。
+1. (Optional) Click one of the following icons: 
 
-        工作區管理員必須建立請求表單，才能使用請求表單新增記錄。
+    * **Expand** ![Expand icon](assets/expand-icon.png) to open the record details in the preview window. 
+    * **Delete** ![Delete icon](assets/delete-icon.png) to delete the record.
+    * **Close**  ![Close icon](assets/close-icon.png) to close the new record box. 
 
-        >[!TIP]
-        >
-        >某些記錄型別可能具有多個表單。 按一下其中一個以開啟它。
+    The record is added to the timeline as well as to the table and calendar views immediately, unless you clicked the **Delete** icon. 
 
-        新增記錄，如文章[提交Adobe Workfront Planning要求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)中所述，從步驟6開始。<!--ensure this stays accurate-->
+1. (Optional) Click the record bar in the timeline to open the record's details window and update its information, delete it, or add comments. 
 
-      ![建立記錄選擇模組的三種方法](assets/three-ways-to-create-records-choice-modal.png)
+    >[!TIP]
+    >
+    >By default, Workfront associates the record with a thumbnail and a cover image.
+    >
+    >The thumbnail displays in the timeline view only when it is enabled in the Settings of the view. 
 
-1. （視條件而定）如果您按一下&#x200B;**要求記錄**，請執行下列動作：
-
-   1. （視條件而定）如果記錄型別有多個請求表單，請按一下其中一個以選擇它。
-   2. 繼續新增表單中的資訊以建立記錄，如文章[提交Adobe Workfront Planning請求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)中所述，從步驟6開始。<!--ensure this stays accurate-->
-
-1. （視條件而定）複查新記錄。
-
-   根據您選擇新增記錄的方式，可能會發生以下一些情況：
-
-   * 新記錄會新增至記錄型別，除非您選擇使用具有核准流程的請求表單來新增記錄。 建立記錄之前，核准者必須獲得所有核准者的核准。
-   * 如果您使用CSV或Excel試算表新增記錄，系統會將多個記錄新增至記錄型別。
-   * 如果您透過提交請求表單來新增請求，則會在Workfront請求區域的Planning標籤中新增請求。
-
-<!-- this is not possible anymore: 
-
-## Create records by connecting them from another application
-
-You can import records from other applications by linking them to existing records. This creates a linked record for the other application's connected object. 
-
-1. Create a record type, as described in the [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).
-
-1. Create records for the record type you created in the previous step. For information, see the section [Create records by manually adding them to a record type](#create-records-by-manually-adding-them-to-a-record-type) in this article. 
-
-1. Create a connection to an object type from another application for the record type you created. For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
-
-1. Add objects from another application to the records you created above using the linked record field you created in the previous step. For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md). 
-
-    The following items are created in Workfront Planning:
-
-    * A read-only record type that refers to the other application's record type you linked to in the connected record field. 
-
-      For example, if you connect a Planning record type to Workfront project, a read-only record type named "Workfront project" is created in the same workspace. You can access the read-only Workfront record types from the table view of the Planning records you're linking from. 
-   
--->
+</div>-->
 
 ## 從外部清單複製並貼上記錄，以建立記錄
 
@@ -336,7 +399,7 @@ You can import records from other applications by linking them to existing recor
 1. （視條件而定）如果嘗試連線時找不到記錄，請按一下[新增] **+ [新增]**
 
    或
-開始輸入名稱，然後按一下&#x200B;**+新增**。 **+新增**&#x200B;按鈕後面接著您連線的記錄型別名稱。 例如，將品牌新增至現有行銷活動時，「新增品牌」。 您輸入的名稱也會跟著新增按鈕。
+開始輸入名稱，然後按一下**+新增**。 **+新增**&#x200B;按鈕後面接著您連線的記錄型別名稱。 例如，將品牌新增至現有行銷活動時，「新增品牌」。 您輸入的名稱也會跟著新增按鈕。
 
    ![新增按鈕以在醒目提示的內容中建立記錄](assets/add-button-to-create-records-in-context-highlighted.png)
 
