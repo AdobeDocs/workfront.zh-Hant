@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 6b93cca4a434885e39cddcb4a01a8d753609b220
+source-git-commit: b2fdf8d54adacfa4ab2d665767f2265fdd23da4f
 workflow-type: tm+mt
-source-wordcount: '5280'
+source-wordcount: '5276'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,6 @@ ht-degree: 0%
 如需Adobe Workfront的所有其他變更，請參閱[產品版本](/help/quicksilver/product-announcements/product-releases/product-releases.md)。
 
 ## 管理和設定
-
 
 ### 版面配置範本頁面的介面更新
 
@@ -248,7 +247,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 ### 專案之關聯專案區段的介面更新（僅適用於特定客戶）
 
-**預覽版本： 2025年6月12日；生產版本：即將宣佈**
+**預覽版本： 2025年6月12日；生產版本： 2025年6月19日**
 
 我們以與Workfront其他區域一致的更現代設計更新了專案的「相關專案」區段。
 
@@ -256,7 +255,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 ### 「另存為範本」方塊的新外觀
 
-**預覽版本： 2025年6月12日；生產版本：即將宣佈**
+**預覽版本： 2025年6月12日；生產版本： 2025年6月19日**
 
 我們更新了將專案另存為範本時顯示的「另存為範本」方塊的外觀和風格。 新設計包括一個簡化的介面，其中所有區段都以一個內聚形式顯示，您可以使用左側面板中的連結進行導覽。 新設計會比對應用程式中的其他區域和其他物件。
 
@@ -1061,7 +1060,7 @@ We have updated the license agreement page with a more modern design that is con
 
 此更新包含區域的視覺化變更。 功能未變更。
 
-若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。**&#x200B;**
+若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。****
 
 +++
 

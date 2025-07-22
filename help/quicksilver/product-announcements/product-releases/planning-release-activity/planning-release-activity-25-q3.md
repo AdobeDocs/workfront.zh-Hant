@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 8dd86b364e23089f3ff02c7817807e5219a3ebb4
+source-git-commit: 9d5249e5587a4291dc9020d456a320da4cdbb8f1
 workflow-type: tm+mt
-source-wordcount: '2275'
+source-wordcount: '2267'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >預覽： 2025年7月10日
->&#x200B;>適用於所有人的生產： 2025年7月10日
+>>適用於所有人的生產： 2025年7月10日
+>>[!BADGE 不在排程]{type=Neutral}內
 
 
 在建立或編輯記錄型別時，我們已更新「進階設定」索引標籤。
@@ -44,7 +45,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >預覽： 2025年7月10日
->&#x200B;>適用於所有人的生產： 2025年7月10日
+>>適用於所有人的生產： 2025年7月10日
+>>[!BADGE 不在排程]{type=Neutral}內
 
 現在，當您在Workfront Planning中將團隊新增到記錄評論時，團隊的所有成員都會收到有關評論的應用程式內通知和電子郵件通知。 在此增強功能之前，只有個別新增到評論的使用者會收到通知。
 
@@ -55,8 +57,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >預覽： 2025年7月10日
->&#x200B;>生產快速發行： 2025年8月14日
->&#x200B;>適用於所有人的生產： 2025年10月16日
+>>生產快速發行： 2025年8月14日
+>>適用於所有人的生產： 2025年10月16日
 
 
 現在，當您已將群組套用至表格檢視時，將記錄新增至表格將會自動填入與您將記錄新增至的群組相關聯的欄位。
@@ -72,7 +74,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >預覽： 2025年7月9日
->&#x200B;>適用於所有人的生產： 2025年7月17日
+>>適用於所有人的生產： 2025年7月17日
 
 您現在可以從記錄型別頁面上的相同按鈕共用檢視和記錄型別。 在此增強功能之前，您只能從記錄型別頁面上的「共用」按鈕和檢視索引標籤的檢視共用記錄型別。
 
@@ -118,7 +120,7 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 * 我們已針對您共用請求表單的使用者移除管理和貢獻選項。 現在，新增的使用者只能提交表單。
 * 在啟用「建立公開連結」選項後，「公開共用」索引標籤現在會顯示連結和到期日欄位。
 
-如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form)。
+如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form)。
 
 ## 展開和摺疊表格檢視中的所有群組
 
@@ -145,6 +147,7 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 >
 >* 預覽： 2025年6月26日
 >* 每個人都要生產： 2025年6月26日
+>  >[!BADGE 不在排程]{type=Neutral}內
 
 現在，當您連線記錄型別並將公式欄位作為查詢時，可以根據公式欄位的格式套用彙總函式(SUM、AVERAGE、MIN、MAX等)。 例如，如果公式欄位是數字，您可以使用SUM或AVG之類的函式；如果公式欄位的格式為文字，則不會應用SUM之類的彙總函式。
 
@@ -179,8 +182,8 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 >[!NOTE]
 >
 >* 預覽： 2025年6月12日
->* 生產快速發行： 2025年6月12日
->* 適用於所有客戶的生產： 2025年6月12日
+>* 每個人都要生產： 2025年6月12日
+>  >[!BADGE 不在排程]{type=Neutral}內
 
 我們引進了一項改進，手動更新參考欄位後，可同時更新所有相互依賴的公式欄位。 與手動變更值的欄位相距2、3或4個欄位且彼此參照的公式欄位現在將自動同時更新。
 
@@ -193,8 +196,8 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 >[!NOTE]
 >
 >* 預覽： 2025年6月6日
->* 生產快速發行： 2025年6月6日
 >* 適用於所有客戶的生產： 2025年6月6日
+>  >[!BADGE 不在排程]{type=Neutral}內
 
 我們在公式欄位中新增了下列運算式：
 
@@ -238,7 +241,7 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 >
 >* 預覽： 2025年5月22日
 >* 生產快速發行： 2025年6月12日
->* 適用於所有客戶的生產： 2025年7月17日
+>* 適用於所有人的生產： 2025年7月17日
 
 我們已在時間軸檢視中劃分記錄時變更體驗，且您已套用壓縮檢視。
 透過新的更新，當您在「緊湊」模式下顯示時間軸時定義劃分物件時，在完成劃分條件的設定後，系統會提示您將檢視切換為「標準」。
@@ -255,7 +258,7 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 >
 >* 預覽： 2025年5月15日
 >* 生產快速發行： 2025年6月12日
->* 適用於所有客戶的生產： 2025年7月17日
+>* 適用於所有人的生產： 2025年7月17日
 
 您現在可以在時間軸檢視中，針對劃分中的記錄，格式化記錄列的外觀。 您可以更新這些記錄列的下列設定：
 
@@ -272,7 +275,7 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 >
 >* 預覽： 2025年5月15日
 >* 生產快速發行： 2025年6月12日
->* 適用於所有客戶的生產： 2025年7月17日
+>* 適用於所有人的生產： 2025年7月17日
 
 我們已為Workfront Planning新增一項功能，可讓您將表格檢視中的可見資訊匯出為CSV或Excel檔案。  
 
@@ -290,7 +293,7 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 >
 >* 預覽： 2025年5月15日
 >* 生產快速發行： 2025年6月12日
->* 適用於所有客戶的生產： 2025年7月17日
+>* 適用於所有人的生產： 2025年7月17日
 
 現在當您使用CSV或Excel檔案將記錄新增到記錄型別時，可以填入已連線欄位的值。  僅支援連線的Planning記錄欄位。 不支援顯示與其他應用程式連線的欄位。
 
@@ -310,7 +313,7 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 >
 >* 預覽： 2025年4月30日
 >* 生產快速發行： 2025年5月15日
->* 適用於所有客戶的生產： 2025年7月17日
+>* 適用於所有人的生產： 2025年7月17日
 
 您現在可以在記錄的「連線記錄」頁面中編輯記錄。 透過此更新，我們引進了以下內容：
 
@@ -327,7 +330,7 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 >
 >* 預覽： 2025年4月30日
 >* 生產快速發行： 2025年5月15日
->* 適用於所有客戶的生產： 2025年7月17日
+>* 適用於所有人的生產： 2025年7月17日
 
 標準與系統管理員使用者現在預設可在「主功能表」中找到Planning區域，而無需指派給包含它的版面配置範本。 所有其他使用者都必須有一個版面配置範本，其中包含指派給他們的Planning區域，才能存取該範本。
 
@@ -336,7 +339,7 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 >[!NOTE]
 >
 >所有具有系統管理員和Standard授權的新使用者及現有使用者皆可看見此變更。
->&#x200B;>指派給版面配置範本的現有使用者將根據版面配置範本中定義的設定繼續檢視所有內容。
+>>指派給版面配置範本的現有使用者將根據版面配置範本中定義的設定繼續檢視所有內容。
 
 如需詳細資訊，請參閱[Adobe Workfront規劃總覽](/help/quicksilver/planning/access/access-overview.md)。
 
@@ -346,7 +349,7 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 >
 >* 預覽： 2025年4月30日
 >* 生產快速發行： 2025年5月15日
->* 適用於所有客戶的生產： 2025年7月17日
+>* 適用於所有人的生產： 2025年7月17日
 
 為了更清楚地顯示記錄的重要資訊，我們為表格檢視引入了列層級色彩格式。 您現在可以在定義每個選擇的條件後，為每一列選擇一種顏色。  這是一項新功能，在此更新之前不存在。
 
@@ -358,7 +361,7 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 >
 >* 預覽： 2025年4月23日
 >* 生產快速發行： 2025年5月15日
->* 適用於所有客戶的生產： 2025年7月17日
+>* 適用於所有人的生產： 2025年7月17日
 
 您現在可以在時間軸檢視的「設定」方塊的「長條樣式」標籤中啟用設定，以在「標準」檢視中顯示較長記錄名稱時截斷它們。 此設定預設為停用，而且只有在以「標準」模式顯示時間軸檢視時才能啟用。 由於此設定已停用，依預設，記錄列上的資訊會以展開方式顯示。 在此增強功能之前，記錄列上的資訊預設為截斷。
 
@@ -366,12 +369,11 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 
 ## 共用記錄型別的許可權
 
-
 >[!NOTE]
 >
 >* 預覽： 2025年4月17日
 >* 生產快速發行： 2025年7月17日
->* 適用於所有客戶的生產： 2025年7月17日
+>* 適用於所有人的生產： 2025年7月17日
 
 為了更好地控制誰可以檢視或管理每種記錄型別的記錄，並確保只有授權人員才能根據其角色和職責來管理每種記錄型別的資訊，我們在記錄型別層級引進了許可權。
 
