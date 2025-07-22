@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: 6da80f55fd4314c661c52bb2327ae8fa6c7e55b6
+source-git-commit: 9948927b4f61e0bafd815951bfaede0da064ef91
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ For more information, see [Get started with the Adobe Express and Workfront Proo
 
 * 將整個Workfront團隊指定為稽核者或核准者
 * 設定檢閱或核准的期限
-* 建立及重新使用核准範本
+* 建立及重複使用核准範本
 * 利用新版本
 * 在Workfront首頁Widget中檢視您核准的多個關鍵績效指標
 * 使用畫布儀表板可檢視有關統一核准的報告詳細資訊
