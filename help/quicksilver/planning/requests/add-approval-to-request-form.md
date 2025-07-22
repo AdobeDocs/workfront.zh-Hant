@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 83b3bd73fd30b5fba931e64783dee67485d98fe9
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '782'
 ht-degree: 1%
 
 ---
@@ -123,11 +123,11 @@ ht-degree: 1%
    顯示&#x200B;**組態**&#x200B;區域。
 
    ![設定索引標籤](assets/configuration-tab.png)
-1. 在&#x200B;**核准者**&#x200B;欄位中，按一下下拉式圖示，然後在清單中選取一或多個名稱
+1. 在&#x200B;**核准者**&#x200B;欄位中，按一下下拉式圖示，然後在清單中選取一或多個使用者<span class="preview">或團隊</span>
 
    或
 
-   開始輸入核准者的名稱，然後在其顯示在清單中時選取它。
+   開始輸入您想要設定為核准者的使用者<span class="preview">或團隊</span>的名稱，然後當它顯示在清單中時選取它。
 
    <!--most of the Note below is duplicated in the Create a request form article-->
 
@@ -141,13 +141,15 @@ ht-degree: 1%
    >* 如果至少有一位核准者拒絕請求，則請求會遭到拒絕，且不會建立記錄。 請求會保留在Workfront請求區域的已提交區段的Planning索引標籤中。
    >
    >* 在核准或拒絕請求之前，所有核准者都必須做出決定。
+   >
+   >* <span class="preview">如果團隊設定為核准者，則僅需要團隊中的一個決定。</span>
 
 
 1. （選擇性）如果您之前從未共用過請求表單，請按一下&#x200B;**發佈**
 
    或
 
-   按一下[共用]以共用表單，然後按[複製]連結&#x200B;**。**&#x200B;**&#x200B;**
+   按一下[共用]以共用表單，然後按[複製]連結&#x200B;**。******
 1. （選用）使用者使用您共用的連結並提交請求後，Workfront Planning會傳送核准應用程式內通知及電子郵件給核准者。
 
    >[!NOTE]

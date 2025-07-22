@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
+source-git-commit: 83b3bd73fd30b5fba931e64783dee67485d98fe9
 workflow-type: tm+mt
-source-wordcount: '2281'
+source-wordcount: '2299'
 ht-degree: 1%
 
 ---
@@ -207,7 +207,7 @@ ht-degree: 1%
 
 1. （選擇性）按一下&#x200B;**預覽**&#x200B;以檢視其他使用者使用表單提交新記錄時表單的顯示方式。
 
-1. （選擇性）按一下&#x200B;**組態**&#x200B;標籤，然後新增至少一名使用者至&#x200B;**核准者**&#x200B;欄位，以核准此記錄表單的新要求。
+1. （選擇性）按一下&#x200B;**組態**&#x200B;標籤，然後新增至少一位使用者<span class="preview">或團隊</span>至&#x200B;**核准者**&#x200B;欄位，以核准此記錄表單的新要求。
 
    ![設定索引標籤](assets/configuration-tab.png)
 
@@ -217,6 +217,7 @@ ht-degree: 1%
    * 您可以將一個或多個核准者新增至請求表單。
    * 如果至少有一位核准者拒絕請求，則請求會遭到拒絕，且不會建立記錄。
    * 在核准或拒絕請求之前，所有核准者都必須做出決定。
+   * <span class="preview">如果團隊設定為核准者，則僅需要團隊中的一個決定。</span>
 
      如需新增核准至請求表單的詳細資訊，請參閱[新增核准至請求表單](/help/quicksilver/planning/requests/add-approval-to-request-form.md)。
 
