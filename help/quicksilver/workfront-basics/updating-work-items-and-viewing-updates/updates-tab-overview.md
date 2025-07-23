@@ -7,9 +7,9 @@ description: 物件的「更新」區段會顯示使用者對物件所做的註�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
+source-git-commit: de42974a9a5c4c346ef3ae1cce09968befd1381c
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1196'
 ht-degree: 4%
 
 ---
@@ -231,7 +231,7 @@ The following objects don't record system updates:
   </tr> 
   <tr> 
    <td>專案</td> 
-   <td>計畫，Portfolio</td> 
+   <td>程式， Portfolio</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>文件 </td> 
@@ -299,24 +299,33 @@ The following objects don't record system updates:
 
 更新團隊的部分，以及代表其他使用者輸入更新時，有一些限制。
 
-### 使用者和團隊的限制
+### 使用者和團隊的考量事項
 
 檢視使用者和團隊的更新時，請考量下列事項：
 
 * 您無法在團隊的「更新」區段中新增註解。
-
-* 專案團隊的「更新」區段由在下列物件上輸入的更新來填入：
-
-   * 使用者
-   * 劇本
-   * 時程表
-   * 疊代
 
 * 您可以對您在團隊中檢視的更新新增回覆。 回覆會顯示在專案團隊的「更新」區段，以及專案團隊所屬物件的「更新」區段中。
 
 * 在適用於使用者和團隊的更新區段中，您可以檢視過去90天內輸入的更新。
 
   如果您想要在90天限制之外檢視使用者或團隊進行的所有更新，您可以建立附註報表。 報告不應具有顯示使用者或團隊所有更新的時間篩選器。 如需詳細資訊，請參閱[建立自訂報表](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
+
+* 團隊的「更新」區段由新增到下列物件的註解來填入：
+
+   * 使用者
+   * 劇本
+   * 時程表
+   * 疊代
+
+* 使用者的「更新」區域的「系統更新」標籤由其他物件的更新來填入。 當在設定的更新摘要區域中追蹤這些欄位時，以下是在使用者設定檔的系統更新索引標籤中顯示的更新：
+
+   * 檔案新增、移除和其他檔案更新
+   * 小時新增、移除、代表新增及其他小時專案更新
+   * 附註、自訂欄位的更新
+   * 使用者設定檔更新（使用者頭像的更新、行動電話號碼、與我討論欄位、標題）
+   * 使用者新增、移除、存取層級變更、內建使用者欄位變更
+   * 來自任務和專案的財務資訊。
 
 ### 代表其他使用者輸入評論時的限制
 
