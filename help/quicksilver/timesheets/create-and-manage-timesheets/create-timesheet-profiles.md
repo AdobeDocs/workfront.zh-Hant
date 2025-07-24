@@ -6,9 +6,9 @@ description: 您可以建立、編輯和指派為使用者產生週期性時程�
 author: Alina
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
+source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1604'
 ht-degree: 1%
 
 ---
@@ -36,8 +36,6 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 ## 存取需求
 
 +++ 展開以檢視本文中功能的存取需求。
-
-您必須具備下列專案才能執行本文所述的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -194,9 +192,17 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    >* 新增群組時，「指派人員」標籤上只會顯示群組名稱，而不會顯示群組成員清單。 如果您想要檢視這裡列出的群組成員，請按一下儲存變更，然後按一下您剛建立之時程表設定檔的名稱。
    >* 當您完成這些步驟時，時間表設定檔只會為指派的使用者或群組成員產生時間表，這些使用者或群組成員沒有當期的時間表。
 
-1. 按一下「**儲存變更**」。
+1. 按一下「**儲存**」。
 
-   週期性時程表首次產生時程表時，系統會為每個使用者建立2個時程表。 之後，每次產生新時程表時，就會根據使用者建立時程表。
+1. 在時程表設定檔清單頂端，按一下系統層級時程表設定檔的&#x200B;**更多**&#x200B;圖示![更多圖示](assets/more-icon.png)或群組時程表設定檔的&#x200B;**更多**，然後按一下&#x200B;**產生時程表**。
+
+   畫面底部會顯示已成功產生時程表的確認訊息。 系統會根據您建立的新設定檔產生新的時間表。
+
+   如需詳細資訊，請參閱[手動產生時間表](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)。
+
+   週期性時程表首次產生時程表時，會為每個使用者建立2個時程表，針對包括目前時間及以下時間範圍的時程表都包含在內。
+
+   之後，每次產生新時程表時，就會為每個使用者建立一個時程表。
 
    <!--the content in the table above will need to match the content in the Create timesheets article-->
 

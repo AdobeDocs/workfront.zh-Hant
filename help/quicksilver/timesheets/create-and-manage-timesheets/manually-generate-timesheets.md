@@ -6,9 +6,9 @@ description: 若要啟用您對時程表設定檔所做的變更以反映在目�
 author: Alina
 feature: Timesheets
 exl-id: 316c270a-c64e-4d83-a035-4128abe33f87
-source-git-commit: 7786d899841cb82cc4d3832fb083c6e2bda2e197
+source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>計劃 </p> </td> 
+   <td> <p>規劃 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
@@ -49,7 +49,7 @@ ht-degree: 0%
 當您手動產生時程表時：
 
 * 會根據與使用者相關聯的時程表設定檔來產生。 沒有相關時間表設定檔的使用者不會收到時間表。 
-* 系統只會產生目前的時程表及要追蹤的時程表。 Workfront不會為同一期間產生兩個時程表。 如果您已經有特定時間範圍的時程表，則當您使用手動程式來產生時程表時，將不會產生另一個時程表。
+* 系統只會產生目前的時程表及要追蹤的時程表。 Workfront不會為同一期間產生兩個時程表。 如果您已經有目前時間範圍的時程表，當您使用手動程式產生時程表時，將不會產生另一個時程表。
 
 ## 從時程表和時數區域手動產生時程表
 
@@ -64,7 +64,7 @@ ht-degree: 0%
    如果您正在產生特定群組使用的時程表，請按一下&#x200B;**群組**，然後按一下群組的名稱。
 
 1. 按一下&#x200B;**週期性時程表**。
-1. 按一下&#x200B;**更多**，然後&#x200B;**產生時程表**。
+1. 按一下&#x200B;**更多**&#x200B;圖示![更多圖示](assets/more-icon.png)，然後&#x200B;**產生時程表**。
 
    新時程表最多可為與時程表設定檔相關聯的使用者建立兩個時段。
 

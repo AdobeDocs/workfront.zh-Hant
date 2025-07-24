@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5c895e77-bd88-435f-a903-37c2325eab45
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
@@ -27,9 +27,7 @@ ht-degree: 0%
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
-
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視存取需求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -67,7 +65,7 @@ ht-degree: 0%
 
 ## 手動產生群組時間表
 
-若要啟用您對群組時程表設定檔所做的變更以反映在目前的群組時程表中，您必須先刪除現有時程表，然後手動產生新時程表。 如需指示，請參閱[手動產生時間表](../../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)中的[從時間表和時數區域](../../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md#manually)手動產生時間表。
+若要啟用您對群組時程表設定檔所做的變更以反映在目前的群組時程表中，您必須先刪除現有時程表，然後手動產生新時程表。 如需指示，請參閱[手動產生時間表](../../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md#manually)中的[從時間表和時數區域](../../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)手動產生時間表。
 
 如需有關刪除群組時程表的資訊，請參閱[刪除Adobe Workfront中的時程表](../../../timesheets/create-and-manage-timesheets/delete-timesheets.md)。
 
