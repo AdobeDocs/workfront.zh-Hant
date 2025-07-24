@@ -6,7 +6,7 @@ description: 專案與任務相關費用的建立與管理費用流程相同。 
 author: Lisa
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
+source-git-commit: e1884aa7975018a737538d909954319e6feee318
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 1%
@@ -58,8 +58,8 @@ ht-degree: 1%
 
 1. 移至您要輸入費用的專案或任務。
 1. 按一下左側面板中的&#x200B;**費用**。
-1. 按一下&#x200B;**新增費用**。 **新增費用**&#x200B;對話方塊隨即顯示。
-1. 更新下列專案：
+1. 按一下&#x200B;**新增費用**。 **新增費用**&#x200B;對話方塊就會顯示。
+1. 輸入下列資訊：
 
    * **描述：**&#x200B;輸入費用的描述。
    * **費用型別：** （必要）選取最能描述費用的類別。
@@ -68,7 +68,7 @@ ht-degree: 1%
 
    * **實際金額：**&#x200B;輸入費用實際成本的金額。 這會影響專案的實際成本。
 
-   * **計畫日期：**&#x200B;輸入費用發生的預期日期。 您可以使用&#x200B;*mm/dd/yy*&#x200B;格式在欄位中輸入日期，也可以按一下&#x200B;**行事曆**&#x200B;圖示  ![行事曆圖示](assets/calendar-icon.png)並動態選取日期。
+   * **計畫日期：**&#x200B;輸入費用發生的預期日期。 您可以使用&#x200B;*mm/dd/yy*&#x200B;格式在欄位中輸入日期，也可以按一下&#x200B;**行事曆**&#x200B;圖示![行事曆圖示](assets/calendar-icon.png)並動態選取日期。
 
    * **支付日期：**&#x200B;輸入或選取支付費用的日期。
    * **可記帳：**&#x200B;若要對此費用記帳，請選取此選項。 建立付費記錄時，將費用分類為可付費很重要。
@@ -80,7 +80,7 @@ ht-degree: 1%
    >
    >您必須先建立自訂表格，然後才能將其與費用建立關聯。 清單中只會顯示作用中的自訂表單。 如需有關建立自訂表單的資訊，請參閱文章[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
-1. 按一下「**儲存變更**」。
+1. 按一下「**儲存**」。
 
 ## 刪除費用
 
