@@ -6,9 +6,9 @@ description: 若要啟用您對時程表設定檔所做的變更以反映在目�
 author: Alina
 feature: Timesheets
 exl-id: 316c270a-c64e-4d83-a035-4128abe33f87
-source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
+source-git-commit: c9df676467007a84920073fe06bc3c73b18a89ae
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## 存取需求
 
-您必須具備下列專案才能執行本文所述的步驟：
++++ 展開以檢視存取需求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,13 +42,15 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 關於手動產生時程表的考量事項
 
 當您手動產生時程表時：
 
-* 會根據與使用者相關聯的時程表設定檔來產生。 沒有相關時間表設定檔的使用者不會收到時間表。 
+* 會根據與使用者相關聯的時程表設定檔來產生。 沒有相關時間表設定檔的使用者不會收到時間表。
 * 系統只會產生目前的時程表及要追蹤的時程表。 Workfront不會為同一期間產生兩個時程表。 如果您已經有目前時間範圍的時程表，當您使用手動程式產生時程表時，將不會產生另一個時程表。
 
 ## 從時程表和時數區域手動產生時程表
@@ -64,7 +66,7 @@ ht-degree: 0%
    如果您正在產生特定群組使用的時程表，請按一下&#x200B;**群組**，然後按一下群組的名稱。
 
 1. 按一下&#x200B;**週期性時程表**。
-1. 按一下&#x200B;**更多**&#x200B;圖示![更多圖示](assets/more-icon.png)，然後&#x200B;**產生時程表**。
+1. 在時程表設定檔清單頂端，按一下系統層級時程表設定檔的&#x200B;**更多**&#x200B;圖示![更多圖示](assets/more-icon.png)或群組時程表設定檔的&#x200B;**更多**，然後按一下&#x200B;**產生時程表**。
 
    新時程表最多可為與時程表設定檔相關聯的使用者建立兩個時段。
 
@@ -76,5 +78,5 @@ ht-degree: 0%
 
 1. 展開&#x200B;**系統**，然後按一下&#x200B;**診斷**。
 
-1. 按一下&#x200B;**執行診斷**。 
+1. 按一下&#x200B;**執行診斷**。
 1. 按一下&#x200B;**產生時程表**。
