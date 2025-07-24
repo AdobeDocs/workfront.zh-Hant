@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 83b3bd73fd30b5fba931e64783dee67485d98fe9
+source-git-commit: 4f8a8c263f53ff30f99062dedc10d674b867b0b7
 workflow-type: tm+mt
-source-wordcount: '2299'
+source-wordcount: '2298'
 ht-degree: 1%
 
 ---
@@ -118,7 +118,6 @@ ht-degree: 1%
 
       * 建立者，上次修改者，<span class="preview">核准者</span>
       * 建立日期，上次修改日期，<span class="preview">核准日期</span>
-      * 公式
       * Workfront物件的查閱欄位
       * Workfront Planning連線記錄的查詢欄位
 
