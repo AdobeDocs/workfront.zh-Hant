@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: ef33a8bcdec76747434b5c5aaf62a743335fb10f
+source-git-commit: 3563d5e7136d8bd70504a0b7762c4be06e5a9c56
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '957'
 ht-degree: 2%
 
 ---
@@ -18,11 +18,15 @@ ht-degree: 2%
 
 <!-- Audited: 12/2023 -->
 
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽Sandbox」環境中使用。</span>
+
 「佇列主題」可與「路由規則」搭配使用，以自動將內送工作指派給使用者、工作角色、專案團隊，或將其置於專案上。 「佇列主題」定義要實作「路由規則」所需存在的條件。
 
 可指派給主題群組或專案的佇列主題數量沒有限制。 佇列主題是可報告的物件型別。
 
-佇列主題一旦建立，就不能再從一個專案移動到另一個專案。
+您可以為個別專案或專案範本建立佇列主題。
+
+建立後，您無法將佇列主題從一個專案或範本移動到另一個專案或範本。
 
 ## 存取需求
 
@@ -97,7 +101,7 @@ ht-degree: 2%
    * [建立主題群組](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
    * [建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
 
-1. 移至您選擇啟用為「說明要求佇列」的專案，以及您要建立新佇列主題的位置。\
+1. 移至您選擇啟用為「說明要求佇列」的專案或範本，以及您想要建立新佇列主題的位置。\
    如需如何將專案指定為說明要求佇列的詳細資訊，請參閱[建立要求佇列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
 
    您可以在「主題群組」下組織相關的「佇列主題」。 這會在提出要求時，為要求者提供一系列下拉式功能表。
@@ -171,3 +175,13 @@ ht-degree: 2%
 
 1. 按一下「**儲存**」。\
    佇列主題現在可供使用，並在選取請求佇列和主題群組後，顯示在Workfront的請求區域中。
+
+## 編輯佇列主題
+
+編輯現有的佇列主題：
+
+1. 移至包含您要編輯之佇列主題的專案或範本。
+1. 按一下左側面板中的&#x200B;**佇列主題**。
+1. 在生產環境中，選取您要編輯的佇列主題。 在開啟的詳細資訊頁面上，按一下&#x200B;**編輯佇列主題**。
+1. <span class="preview">在預覽環境中，選取您要編輯的佇列主題，然後按一下編輯圖示![編輯圖示](assets/edit-icon.png)。</span>
+
