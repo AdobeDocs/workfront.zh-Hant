@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d8ac4d94-28b5-41d6-acb8-259696897c8a
-source-git-commit: ee366e05097518a4618dd11ed5807b8766465d94
+source-git-commit: 10fec10e1bb885ac20e1ef9526cfa8a59086d874
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '486'
 ht-degree: 2%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront授權*</p></td> 
-   <td><p> 標準 </p>
+   <td><p> 淺色或更高 </p>
    <p>Workfront計畫不適用於舊版Workfront授權</p> 
   </td> 
   </tr> 
@@ -77,8 +77,8 @@ ht-degree: 2%
   </tr> 
 <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
-   <td>   <p>管理檢視的許可權</p>  
-   <p>檢視檢視許可權以暫時變更檢視設定、複製或匯出檢視。</p> </td> 
+   <td>   <p>檢視或更高的檢視許可權</p>  
+   </td> 
   </tr> 
 </tbody> 
 </table>
