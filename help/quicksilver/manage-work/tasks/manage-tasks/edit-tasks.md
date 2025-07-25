@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: f98dd9c4bbb342e20ef77690ef20b0b14f5e9b6b
 workflow-type: tm+mt
-source-wordcount: '3721'
+source-wordcount: '3723'
 ht-degree: 4%
 
 ---
@@ -360,7 +360,7 @@ ht-degree: 4%
       <li> <p>指派給任務的資源數 </p> </li> 
       <li> <p>完成任務所需的總工作量 </p> </li> 
       <li> <p> 任務的總持續時間。 </p> </li> 
-       </ul> <p>您的Workfront管理員或群組管理員會為您的系統或群組中的任務選擇預設期間型別設定。 如需有關設定專案預設值的資訊，請參閱<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">設定全系統的專案偏好設定</a>。 </p> <p>期間型別可讓您根據作業的需求設定一致的資源指定。 如需有關任務期間型別的詳細資訊，請參閱<a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">任務期間與期間型別概觀</a>。 </p> <p>從下列選項中選取： </p> 
+       </ul> <p>您的Workfront管理員或群組管理員會為您的系統或群組中的任務選擇預設期間型別設定。 如需有關設定專案預設值的資訊，請參閱<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">設定全系統的任務和問題偏好設定</a>。 </p> <p>期間型別可讓您根據作業的需求設定一致的資源指定。 如需有關任務期間型別的詳細資訊，請參閱<a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">任務期間與期間型別概觀</a>。 </p> <p>從下列選項中選取： </p> 
        <ul> 
       <li> <p>已計算的任務指派 </p> </li> 
       <li> <p> 已計算的工作 </p> </li> 

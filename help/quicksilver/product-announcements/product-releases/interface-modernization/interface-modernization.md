@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 10fec10e1bb885ac20e1ef9526cfa8a59086d874
+source-git-commit: f98dd9c4bbb342e20ef77690ef20b0b14f5e9b6b
 workflow-type: tm+mt
 source-wordcount: '5853'
 ht-degree: 0%
@@ -357,7 +357,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 ### 「另存為範本」方塊的新外觀
 
-**預覽版本： 2025年6月12日；生產版本： 2025年6月19日
+**預覽版本： 2025年6月12日；生產版本： 2025年6月19日**
 
 我們更新了將專案另存為範本時顯示的「另存為範本」方塊的外觀和風格。 新設計包括一個簡化的介面，其中所有區段都以一個內聚形式顯示，您可以使用左側面板中的連結進行導覽。 新設計會比對應用程式中的其他區域和其他物件。
 
@@ -515,7 +515,6 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 +++
 
-—>
 
 ## 於第2季進行的介面更新
 
@@ -768,7 +767,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 此更新包含區域的視覺化變更。 功能未變更。
 
-若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。**&#x200B;**
+若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。****
 
 +++
 
