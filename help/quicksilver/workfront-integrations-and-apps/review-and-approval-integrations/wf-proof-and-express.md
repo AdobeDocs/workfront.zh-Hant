@@ -7,12 +7,10 @@ description: 開始使用校訂和Creative Cloud Express
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
 exl-id: 2eef36a6-8c61-4e7e-9760-23114f942250
-source-git-commit: ca9625b1cb3c51f208bad28792e9090802521dfa
+source-git-commit: dce2d9413b3a363d6508cabec0147c260817ed98
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
@@ -80,7 +78,7 @@ ht-degree: 0%
 
 ## 在Workfront中設定核准工作流程
 
-必須先由校訂管理員在Workfront中建立核准工作流程，使用者才能在快速範本上新增核准工作流程。
+在使用者可以在快速範本上新增核准工作流程之前，具有Standard授權的校訂管理員必須在Workfront中建立核准工作流程。
 
 如需詳細資訊，請參閱[建立和管理自動化工作流程範本](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md)。
 
@@ -90,7 +88,9 @@ ht-degree: 0%
 
 重新混合快速範本時，發佈之前需要核准，這會自動觸發預先設定的核准工作流程。
 
-進一步瞭解如何將稽核和核准工作流程新增至可共用範本。<!--need link to help article-->
+使用者必須擁有Standard Workfront授權，才能向Adobe Express請求核准。
+
+瞭解如何[取得設計的核准](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html)。
 
 
 ## 重新混合快速範本，並傳送以供檢閱和核准
@@ -104,8 +104,8 @@ Adobe Express使用者可以根據自己的需求混合使用快速範本。 發
 * 讀取註解
 * 及更多內容
 
-瞭解如何取得設計的核准。\
-<!--need link to help article-->
+<!--Learn how to get approval on designs.   
+need link to help article-->
 
 ## 檢閱並核准重新混合的快速檔案
 
@@ -113,8 +113,4 @@ Adobe Express使用者可以根據自己的需求混合使用快速範本。 發
 
 他們還負責做出最終決定，以核准內容以供發佈。
 
-進一步瞭解如何在Workfront中檢閱和核准設計。
-
-
-Workfront Collaborator授權 — 正在嘗試找出如何在中執行此工作 — 
-
+使用者必須至少擁有Collaborator Workfront授權，才能進行檢閱並作出決定。

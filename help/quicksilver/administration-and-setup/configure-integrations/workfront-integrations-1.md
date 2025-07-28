@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
+source-git-commit: 2ca2361ee96c3940f1f4073274386262f76725ff
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1252'
 ht-degree: 0%
 
 ---
@@ -84,6 +84,21 @@ ht-degree: 0%
   </tr> 
  </thead> 
  <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>Adobe Express</p> </td> 
+   <td> 
+    <ul> 
+     <li>將校訂體驗與Adobe Express整合。 透過這項整合，您可以 
+     <ul>
+     <li>使用Workfront核准範本以定義核准工作流程。 </li>
+     <li>在校訂檢視器中檢閱Adobe Express草稿內容。 </li>
+     <li>請參閱Adobe Express中的稽核決定，以取得最終核准和發佈。 </li>
+     </ul>
+   </ul>
+     <p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md" class="MCXref xref">開始使用Adobe Express和Workfront Proof整合</a>。</p> 
+     </td>  <td><ul><li>您必須同時擁有Workfront和Adobe Express的授權。</li><li>Workfront和Adobe Express必須部署至相同的IMS組織。</li></ul></td> 
+   <td>整合必須由Adobe產品團隊為您的帳戶啟用。 如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md" class="MCXref xref">開始使用Adobe Express和Workfront Proof整合</a>。</td> 
+  </tr>
  <tr> 
    <td role="rowheader"> <p>GenStudio for Performance Marketing </p> </td> 
    <td> 
@@ -113,7 +128,7 @@ ht-degree: 0%
      <li>After Effects </li>
      </ul>
      <li><p>從<a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>下載/安裝。</p></li></ul>
-     <p>如需資訊與指示，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">為[!DNL Adobe Workfront]應用程式安裝[!DNL Creative Cloud]外掛程式</a></p> 
+     <p>如需資訊與指示，請參閱<a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">為[!DNL Adobe Workfront]應用程式安裝[!DNL Creative Cloud]外掛程式</a></p> 
      </td>  <td> </td> 
    <td> </td> 
   </tr> 
@@ -264,7 +279,7 @@ ht-degree: 0%
 
   [!DNL Adobe Workfront Fusion]連結應用程式和服務內部及之間的動作，以建立自動傳輸和轉換資料的情境。 它擁有可連線許多應用程式的專用聯結器，但可以使用公用API連線至任何應用程式。
 
-  如需詳細資訊，請參閱[[!DNL Adobe Workfront Fusion] 總覽](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+  如需詳細資訊，請參閱[[!DNL Adobe Workfront Fusion] 總覽](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 
 * [!DNL Adobe Experience Manager Assets]
 * [!DNL Anaplan] （需要[!DNL Workfront Fusion]）

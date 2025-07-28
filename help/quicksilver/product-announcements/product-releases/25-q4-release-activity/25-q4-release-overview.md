@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
+source-git-commit: 2ca2361ee96c3940f1f4073274386262f76725ff
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '887'
 ht-degree: 2%
 
 ---
@@ -38,8 +38,32 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Adobe Workfront增強功能
 
-<!--* [Resource Management enhancements](#resource-management-enhancements)-->
+* [檔案和校訂增強功能](#document-and-proofing-enhancements)
+  <!--* [Resource Management enhancements](#resource-management-enhancements)-->
 * [其他增強功能](#other-enhancements)
+
+### 檔案和校訂增強功能
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-document-and-proof.md" class="MCXref xref" xrefformat="{para}">Adobe Express的新校訂整合</a><p></p>
+            <p>我們很高興宣佈Adobe Express與Workfront Proof之間新的整合。</p>
+            <ul>
+            <li>簡化創意、法律和合規團隊之間的協同合作，縮短發布時間，同時維持監督</li>
+            <li>使用工程圖標籤、註釋和使用Workfront校訂檢視器進行註解來進行深入審視</li>
+            <li>透過電子簽章和完整的稽核記錄，符合企業法規遵循標準</li>
+            <li>要求核准來自Express品牌範本的任何重新混合檔案</li>
+            <li>使用進階校樣範本，將快速範本對應至多階段檢閱和核准工作流程</li>
+            </ul>
+        </td>
+        <td>2025年7月28日</td>
+        <td>2025年7月28日</td>
+        <td>2025年7月28日</td>
+    </tr>     
+  </tbody>
+</table>
 
 
 
@@ -109,7 +133,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ### Workfront Fusion增強功能
 
-Workfront Fusion的新功能可在標準發行排程以外的生產環境中使用。 如需最新功能的詳細資訊，請參閱[Adobe Workfront Fusion發行活動](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
+Workfront Fusion的新功能可在標準發行排程以外的生產環境中使用。 如需最新功能的詳細資訊，請參閱[Adobe Workfront Fusion發行活動](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
 
 ### Workfront規劃增強功能
 
@@ -146,11 +170,11 @@ Workfront Planning的新功能可在生產環境中使用。 如需最新功能�
 * 適用於Salesforce的Workfront。
 
 為了滿足貴組織與Google Workspace的整合需求，我們建議您使用Workfront自動化和整合。
-如需Workfront自動化與整合的概觀，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+如需Workfront自動化與整合的概觀，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 
 ### API 20版
 
-Workfront API版本20已於2024年5月4日發行。 針對API 20版，我們已修改一些資源和端點。 有些變更支援新功能，有些則讓您更輕鬆地透過API使用可用資訊。
+Workfront API版本20已於2025年5月4日發行。 針對API 20版，我們已修改一些資源和端點。 有些變更支援新功能，有些則讓您更輕鬆地透過API使用可用資訊。
 
 如需新增和更新的詳細資訊，請參閱[ API 20](/help/quicksilver/wf-api/api/new-api-version-19.md)版的新增功能。
 
@@ -158,8 +182,8 @@ Workfront API版本20已於2024年5月4日發行。 針對API 20版，我們已�
 
 ### Workfront 維護更新
 
-如需2025年第一季度期間所進行維護更新的相關資訊，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=zh-Hant)。
+如需2025年第一季度期間所進行維護更新的相關資訊，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)。
 
 ### 訓練更新
 
-探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[Workfront教學課程頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=zh-Hant)的「新增功能」一節。
+探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[Workfront教學課程頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的「新增功能」一節。
