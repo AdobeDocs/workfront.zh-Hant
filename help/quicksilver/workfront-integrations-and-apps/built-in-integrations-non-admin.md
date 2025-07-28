@@ -1,15 +1,15 @@
 ---
 product-area: workfront-integrations
-keywords: adobe，box，dropbox，gsuite，google，jira，microsoft，salesforce，sharepoint，slack，webdam，zoom
+keywords: adobe，box，dropbox，microsoft，sharepoint，slack，webdam，縮放
 navigation-topic: workfront-integrations-navigation-topic
 title: Adobe Workfront內建整合概述
 description: 您可以將 [!DNL Adobe Workfront] 與協力廠商應用程式整合。 這些整合可擴充 [!DNL Workfront] 的公用程式，並根據貴組織的需求量身打造。 例如，如果您是行銷行業的創意工作者，可以使用Adobe Creative Cloud增益集將資產直接從Photoshop匯出至Workfront。
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: af54faae1e78d7ffbe679fd82dfb5a3abd45f5cf
+source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '433'
 ht-degree: 3%
 
 ---
@@ -44,7 +44,7 @@ Workfront目前提供下列內建整合。
      <li>After Effects </li>
      </ul>
      <li><p>從<a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>下載/安裝。</p></li></ul>
-     <p>如需資訊與指示，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">安裝[!DNL Adobe Workfront]應用程式的[!DNL Creative Cloud]外掛程式</a>。</p> </td> 
+     <p>如需資訊與指示，請參閱<a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">安裝[!DNL Adobe Workfront]應用程式的[!DNL Creative Cloud]外掛程式</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Adobe Experience Manager Assets與Assets Essentials </p>  </p> </td> 
@@ -72,27 +72,10 @@ Workfront目前提供下列內建整合。
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>G Suite</p> <p> <img src="assets/gsuite.png" style="max-width: 80px;"> </p> </td> 
-   <td> 
-    <ul> 
-     <li>將Google Workspace電子郵件新增至專案或任務 </li> 
-     <li>在Gmail中檢視及管理[!DNL Workfront]個通知</li> 
-     <li>透過Gmail提交請求 </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
    <td role="rowheader"> <p>Google Drive</p> <p> <img src="assets/google-drive-logo.png"> </p> </td> 
    <td> 
     <ul> 
      <li>將檔案和資料夾連結至 [!DNL Workfront]</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>Jira</p> <p> <img src="assets/jiralogo.png" style="max-width: 80px;"> </p> </td> 
-   <td> 
-    <ul> 
-     <li>根據中的任務和問題在[!DNL Jira]中建立新票證 [!DNL Workfront]</li> 
-     <li>同步處理[!DNL Workfront]與[!DNL Jira]之間連結工作的更新與狀態 </li> 
     </ul> </td> 
   </tr> 
   <!--<tr> 
@@ -128,21 +111,6 @@ Workfront目前提供下列內建整合。
      <li>搜尋[!DNL Workfront]個專案、任務和問題 </li> 
      <li>建立[!DNL Workfront]個人任務 </li> 
      <li>提交[!DNL Workfront]個請求 </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>Salesforce</p> <p> <img src="assets/salesforce-logo-web-2019.png" style="max-width: 80px;"> </p> </td> 
-   <td> 
-    <ul> 
-     <li>建立來自[!DNL Workfront]的新[!DNL Salesforce]請求 </li> 
-     <li>建立[!DNL Workfront]個專案，從 [!DNL Salesforce]</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>Sharepoint</p> <p> <img src="assets/sharepoint.png"> </p> </td> 
-   <td> 
-    <ul> 
-     <li>將檔案和資料夾連結至 [!DNL Workfront]</li> 
     </ul> </td> 
   </tr> 
   <tr> 

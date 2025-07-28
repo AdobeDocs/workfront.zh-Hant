@@ -7,18 +7,28 @@ description: 您無需離開Google Workspace，即可檢視 [!DNL Adobe Workfron
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 13cd0478-4557-4d4c-915e-5b7b70aee8ce
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
 
-# 從[!DNL Google Workspace]檢視[!DNL Adobe Workfront]物件更新
+# 從[!DNL Adobe Workfront]檢視[!DNL Google Workspace]物件更新
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Google適用的Adobe Workfront外掛程式最新版本已於2023年6月26日發行。
+>為了提供更穩定且更可擴充的整合，我們改用現代、彈性的整合方法，即使用Workfront自動化與整合(Fusion)。 在此轉換過程中，下列Google Workspace適用的Workfront功能在&#x200B;**2026年2月28日**&#x200B;後將無法使用：
+>
+>* 從Workfront存取Google Workspace功能
+>
+>* 從Gmail或Google行事曆網站面板檢視和管理Workfront工作
+>
+>為了滿足貴組織與Google Workspace的整合需求，我們建議您使用Workfront自動化和整合。
+>
+>如需Workfront自動化與整合的概觀，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+>
+>如需Google Workspace之Workfront自動化與整合模組的特定功能相關資訊，請參閱[Gmail模組](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)和[Google行事曆模組](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)。
 
 您無需離開[!DNL Google Workspace]，即可檢視[!DNL Adobe Workfront]物件上的更新及更新回覆。
 
@@ -36,7 +46,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[!UICONTROL Work]， [!UICONTROL 計畫]</p> </td> 
+   <td> <p>[！UICONTROL Work]， [！UICONTROL計畫]</p> </td> 
   </tr> 
    </tbody> 
 </table>
@@ -52,7 +62,7 @@ ht-degree: 0%
 
 ## 在[!DNL Google Workspace]中檢視物件更新
 
-1. 檢視[!DNL Google Workspace]中的物件，如[從 [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md)檢視及管理 [!DNL Adobe Workfront] 物件詳細資料中所述。
+1. 檢視[!DNL Google Workspace]中的物件，如[從 [!DNL Adobe Workfront] 檢視及管理 [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md)物件詳細資料中所述。
 1. 按一下「**[!UICONTROL 更新]**」標籤。
 1. 使用顯示的選項，該選項由已新增至物件的更新決定：
 

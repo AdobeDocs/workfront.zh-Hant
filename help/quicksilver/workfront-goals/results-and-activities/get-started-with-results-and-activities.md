@@ -7,7 +7,7 @@ description: 您必須將結果、活動或校準的目標新增至目標，才�
 author: Alina
 feature: Workfront Goals
 exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
-source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
+source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 0%
@@ -67,10 +67,6 @@ ht-degree: 0%
 
 * 他們回答以下問題：「我如何知道我的目標何時完成？」
 * 它們是量度指標。 您可以從下列選項中選取，以指示結果的進度：
-
-  <!--
-  this might change (jira, Salesforce, etc))
-  -->
 
    * 貨幣
    * 數字

@@ -7,20 +7,30 @@ description: 您可以從Google Workspace Marketplace安裝Google Workspace的 [
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: eb11d62d-86ed-49fc-8bbc-6f04eb30865d
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '253'
 ht-degree: 0%
 
 ---
 
 # 安裝[!DNL Adobe Workfront for Google Workspace]
 
->[!NOTE]
+>[!IMPORTANT]
 >
->[!DNL Google]適用的[!DNL Adobe Workfront]外掛程式最新版本已於2023年6月26日發行。
+>為了提供更穩定且更可擴充的整合，我們改用現代、彈性的整合方法，即使用Workfront自動化與整合(Fusion)。 在此轉換過程中，下列Google Workspace適用的Workfront功能在&#x200B;**2026年2月28日**&#x200B;後將無法使用：
+>
+>* 從Workfront存取Google Workspace功能
+>
+>* 從Gmail或Google行事曆網站面板檢視和管理Workfront工作
+>
+>為了滿足貴組織與Google Workspace的整合需求，我們建議您使用Workfront自動化和整合。
+>
+>如需Workfront自動化與整合的概觀，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+>
+>如需Google Workspace之Workfront自動化與整合模組的特定功能相關資訊，請參閱[Gmail模組](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)和[Google行事曆模組](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)。
 
-您可以從[!DNL Google Workspace] Marketplace安裝[!DNL Adobe Workfront for Google Workspace]附加元件。
+您可以從[!DNL Adobe Workfront for Google Workspace] Marketplace安裝[!DNL Google Workspace]附加元件。
 
 ## 存取需求
 
@@ -36,7 +46,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[!UICONTROL Work]， [!UICONTROL 計畫]</p> </td> 
+   <td> <p>[！UICONTROL Work]， [！UICONTROL計畫]</p> </td> 
   </tr>
    </tbody> 
 </table>
@@ -49,9 +59,9 @@ ht-degree: 0%
 
    或
 
-   按一下[!DNL Google Workspace]應用程式（[!DNL Gmail]、[!DNL Google Calendar]或[!DNL Google Drive]）最右側[!DNL Google Workspace]附加元件側邊欄中的加號圖示。 搜尋&#x200B;*[!DNL Workfront for Google Workspace]*，然後按一下顯示的[!DNL Workfront for Google Workspace]應用程式專案。
+   按一下[!DNL Google Workspace]應用程式（[!DNL Google Workspace]、[!DNL Gmail]或[!DNL Google Calendar]）最右側[!DNL Google Drive]附加元件側邊欄中的加號圖示。 搜尋&#x200B;*[!DNL Workfront for Google Workspace]*，然後按一下顯示的[!DNL Workfront for Google Workspace]應用程式專案。
 
 1. 按一下&#x200B;**[!UICONTROL 安裝]**，然後依照出現的提示操作。
-1. （條件式）在您的[!DNL Google Workspace]應用程式中，如果在頁面最右側的[!DNL Google Workspace]附加元件側邊欄中未看見[!DNL Workfront]圖示![Workfront圖示](assets/wf-lion-icon.png)，請重新整理頁面。
+1. （條件式）在您的[!DNL Google Workspace]應用程式中，如果在頁面最右側的[!DNL Workfront]附加元件側邊欄中未看見![圖示](assets/wf-lion-icon.png)Workfront圖示[!DNL Google Workspace]，請重新整理頁面。
 
 如需登入的相關資訊，請參閱[登入和登出 [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md)。

@@ -7,18 +7,28 @@ description: 當您在 [!DNL Adobe] [!DNL Workfront]中收到更新通知時，�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: b39c53b5-02b6-4c13-9f25-83cb3e3096d8
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
 
-# 回覆[!DNL Google Workspace]的[!DNL Adobe Workfront]更新通知
+# 回覆[!DNL Adobe Workfront]的[!DNL Google Workspace]更新通知
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Google適用的Adobe Workfront外掛程式最新版本已於2023年6月26日發行。
+>為了提供更穩定且更可擴充的整合，我們改用現代、彈性的整合方法，即使用Workfront自動化與整合(Fusion)。 在此轉換過程中，下列Google Workspace適用的Workfront功能在&#x200B;**2026年2月28日**&#x200B;後將無法使用：
+>
+>* 從Workfront存取Google Workspace功能
+>
+>* 從Gmail或Google行事曆網站面板檢視和管理Workfront工作
+>
+>為了滿足貴組織與Google Workspace的整合需求，我們建議您使用Workfront自動化和整合。
+>
+>如需Workfront自動化與整合的概觀，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+>
+>如需Google Workspace之Workfront自動化與整合模組的特定功能相關資訊，請參閱[Gmail模組](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)和[Google行事曆模組](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)。
 
 當您在[!DNL Adobe Workfront]中收到更新通知時，您可以快速張貼來自[!DNL Workfront for Google Workspace]的回覆。
 
@@ -36,7 +46,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[!UICONTROL Work]， [!UICONTROL 計畫]</p> </td> 
+   <td> <p>[！UICONTROL Work]， [！UICONTROL計畫]</p> </td> 
   </tr> 
   </tbody> 
 </table>
@@ -45,14 +55,14 @@ ht-degree: 0%
 
 ## 先決條件
 
-您必須先在[!DNL Google Workspace]中建立[!DNL Workfront]任務
+您必須先在[!DNL Workfront]中建立[!DNL Google Workspace]任務
 
 * 安裝[!DNL Workfront for Google Workspace]\
    如需指示，請參閱[安裝 [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)。
 
 ## 回覆來自[!DNL Google Workspace]的更新通知
 
-1. 如果未顯示Google Workspace的Workfront面板，請按一下頁面最右側[!DNL Google Workspace]附加元件側邊欄中的[!DNL Workfront]圖示![Workfront圖示](assets/wf-lion-icon.png)。
+1. 如果未顯示Google Workspace[!UICONTROL 的]Workfront面板，請按一下頁面最右側[!DNL Workfront]附加元件側邊欄中的![圖示](assets/wf-lion-icon.png)Workfront圖示[!DNL Google Workspace]。
 1. 開啟包含更新的[!DNL Workfront]電子郵件通知。
 1. 在[!UICONTROL Google Workspace的Workfront]面板底部附近，按一下&#x200B;**[!UICONTROL 發表評論]**，然後輸入您的回覆。
 1. （選擇性）若要將您的回覆通知給特定使用者，請按一下&#x200B;**[!DNL Notify people and teams]**，開始輸入名稱，然後在名稱出現在下拉式清單中時按一下該名稱。

@@ -3,13 +3,13 @@ content-type: reference
 product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic
 title: Adobe Workfront整合總覽
-description: Adobe Workfront提供與其他常見應用程式的整合，例如 [!DNL Adobe Creative Cloud]、 [!DNL Salesforce]、Jira和Slack。 本文連結至目前提供之所有整合功能的檔案。
+description: Adobe Workfront提供與其他常見應用程式的整合，例如 [!DNL Adobe Creative Cloud] 和Slack。 本文連結至目前提供之所有整合功能的檔案。
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 6298e42d-3cf4-4bed-8a9d-3df2f6d74f93
-source-git-commit: 833976934745b7b5c1c3a8b969547bf00befbf09
+source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
 workflow-type: tm+mt
-source-wordcount: '48'
+source-wordcount: '47'
 ht-degree: 0%
 
 ---

@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 1%
+source-wordcount: '717'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 1%
 這是透過允許清單來完成，其實質為「允許」透過防火牆傳送或接收資料的網站「清單」。 您可以使用下列兩種方式之一來識別網站：
 
 * **IP位址**：一系列數字，例如52.31.132.175
-* **網域**： URL的一部分，例如`www.thisdomain.com`中的`thisdomain`。
+* **網域**： URL的一部分，例如`thisdomain`中的`www.thisdomain.com`。
 
 Workfront使用特定的IP位址和網域進行網頁通訊。 必須先將這些專案新增到貴組織的允許清單中，您才能在組織中使用Workfront。
 
@@ -75,11 +75,8 @@ Workfront使用特定的IP位址和網域進行網頁通訊。 必須先將這�
    <td role="rowheader">Adobe Workfront整合</td> 
    <td>如果您使用下列任何一項，請通知您的網路管理員：
     <ul>
-     <li><p>適用於 Jira 的 Workfront</p></li>
-     <li><p>適用於Google Workspace的Workfront</p></li>
      <li><p>適用於 Microsoft Teams 的 Workfront</p></li>
      <li><p>適用於Outlook的Workfront</p></li>
-     <li><p>適用於Salesforce的Workfront</p></li>
     </ul></td> 
   </tr> 
   <tr> 

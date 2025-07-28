@@ -6,16 +6,28 @@ description: 作為 [!DNL Jira] 管理員，您可以在活動記錄檔中檢視
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 3e66c8e3-94b7-4153-abbb-32b872b9402b
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
 
 # 檢視[!UICONTROL [!DNL Jira]活動記錄]
 
-作為[!DNL Jira]管理員，您可以在[!UICONTROL 活動記錄檔]中檢視同步處理或建立[!DNL Adobe Workfront]與[!DNL Jira]之間票證期間發生的例外狀況與錯誤。
+>[!IMPORTANT]
+>
+>為了提供更穩定且更可擴充的整合，我們改用現代、彈性的整合方法，即使用Workfront自動化與整合(Fusion)。 在此轉換過程中，Jira整合的Workfront在&#x200B;**2026年2月28日**&#x200B;後將無法使用。
+>
+>根據貴組織與Jira的整合需求，我們建議使用Workfront自動化和整合。
+>
+>8月前，我們將提供8個適用於Jira且現成可用的Workfront自動化和整合範本，以協助複製常見的工作流程並加速實作。 範本是完全可自訂的，可滿足特定的業務需求，且可隨著需求的發展而擴充。
+> 
+>如需Workfront自動化與整合的概觀，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+>
+>如需Jira的Workfront自動化與整合模組特定功能的相關資訊，請參閱[Jira軟體模組](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules)。
+
+作為[!DNL Jira]管理員，您可以在[!DNL Adobe Workfront]活動記錄檔[!DNL Jira]中檢視同步處理或建立[!UICONTROL 與]之間票證期間發生的例外狀況與錯誤。
 
 您最多可在活動記錄中看到500個專案，這些專案會從最近的專案開始列出。
 
@@ -31,11 +43,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">[!DNL Adobe Workfront]計畫</a>*</td> 
-   <td> <p>[!UICONTROL Pro]或更高版本</p> </td> 
+   <td> <p>[！UICONTROL Pro]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe [!DNL Workfront]授權總覽</a>*</td> 
-   <td> <p>[!UICONTROL 計畫]</p> </td> 
+   <td> <p>[！UICONTROL計畫]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Jira] 存取</td> 
@@ -61,7 +73,7 @@ ht-degree: 0%
 ## 存取[!UICONTROL [!DNL Jira]活動記錄]：
 
 1. 以系統管理員身分登入Jira。
-1. 在主[!DNL Jira]功能表中按一下&#x200B;**[!UICONTROL 設定]**。
+1. 在主&#x200B;**[!UICONTROL 功能表中按一下]**&#x200B;設定[!DNL Jira]。
 1. 按一下&#x200B;**[!UICONTROL 附加元件]**，然後按一下&#x200B;**[!UICONTROL 管理附加元件]**。
 
 1. 展開&#x200B;**[!DNL Workfront]**&#x200B;附加元件。
