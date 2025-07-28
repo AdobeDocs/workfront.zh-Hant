@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: f98dd9c4bbb342e20ef77690ef20b0b14f5e9b6b
+source-git-commit: d3a5d0c94df449a23e2b36d3e0f6fb816d306ce6
 workflow-type: tm+mt
-source-wordcount: '5853'
+source-wordcount: '5961'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## 群組中「週期性時程表」清單的介面更新
 
-**預覽版本： 2025年7月24日；生產版本：即將宣佈**
+**預覽版本： 2025年7月24日；生產版本： 2025年7月28日**
 
 我們已更新群組中左側面板中時間表設定檔清單的外觀和風格，以符合應用程式的其他區域。
 
@@ -50,15 +50,23 @@ ht-degree: 0%
 
 若要檢視此變更，請前往「設定>變更追蹤>稽核記錄」 。
 
-<!--## Interface updates to the Update users for SSO page in Setup
+## 更新設定中SSO更新使用者頁面的介面
 
-**Preview release: July 22, 2025; Production release: To be annoounced**
+**預覽版本： 2025年7月22日；生產版本： 2025年7月28日**
 
-We have updated the Update users for SSO page with a more modern design that is consistent with other areas of Workfront.
+我們以與Workfront其他區域一致的更現代設計更新了SSO的「更新使用者」頁面。
 
-To view this change, go to Setup > System > Update Users For SSO-->
+若要檢視這項變更，請前往「設定>系統>更新SSO的使用者」
 
 ## 專案
+
+## 匯入MS Project檔案方塊的介面更新
+
+**預覽版本： 2025年7月24日；生產版本：即將宣佈**
+
+從MS Project匯入專案時，我們已更新「匯入MS Project檔案」方塊的外觀與操作方式，以符合Workfront其他區域的設計。
+
+若要檢視此變更，請前往「專案>新增專案>匯入MS專案」。
 
 ## 專案或範本之「新增費用」方塊的介面更新
 
@@ -767,7 +775,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 此更新包含區域的視覺化變更。 功能未變更。
 
-若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。**&#x200B;**
+若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。****
 
 +++
 
