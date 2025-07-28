@@ -90,7 +90,7 @@ ht-degree: 0%
 
 使用者必須擁有Standard Workfront授權，才能向Adobe Express請求核准。
 
-瞭解如何[取得設計的核准](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html)。
+瞭解如何[取得設計的核准](https://helpx.adobe.com/tw/express/web/share-and-publish/share-and-collaborate/request-approval.html)。
 
 
 ## 重新混合快速範本，並傳送以供檢閱和核准
