@@ -50,7 +50,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[！UICONTROL Work]， [！UICONTROL計畫]</p> </td> 
+   <td> <p>[!UICONTROL Work]， [!UICONTROL 計畫]</p> </td> 
   </tr> 
    </tbody> 
 </table>
@@ -78,32 +78,32 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL任務名稱]</td> 
+      <td role="rowheader">[!UICONTROL 任務名稱]</td> 
       <td>編輯此文字的任何部分，這部分取自電子郵件的主旨列。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL說明]</td> 
+      <td role="rowheader">[!UICONTROL 說明]</td> 
       <td>編輯此文字的任何部分，這些部分取自電子郵件的內文。</td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[！UICONTROL指派給]</td> 
-      <td>按一下<strong>[！UICONTROL指派給]</strong>，按一下出現的<strong>[！UICONTROL將此指派給]</strong>選項，然後開始輸入人員名稱，並在人員名稱出現在以下清單中時按一下該名稱。 對您要新增的每個人重複此動作，然後按一下<strong>[！UICONTROL儲存]</strong>。</td> 
+      <td role="rowheader">[!UICONTROL 指派給]</td> 
+      <td>按一下<strong>[!UICONTROL 指派給]</strong>，按一下出現的<strong>[!UICONTROL 將此指派給]</strong>選項，然後開始輸入人員名稱，並在人員名稱出現在以下清單中時按一下該名稱。 對您要新增的每個人重複此動作，然後按一下<strong>[!UICONTROL 儲存]</strong>。</td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[！UICONTROL計畫持續時間]</td> 
-      <td> <p>按一下<strong>[！UICONTROL計畫持續時間]</strong>，然後輸入您要工作花費的天數。 </p> <p>附註：您可以不同方式為您的組織設定此選項。 例如，對於您的組織，您可能需要輸入小時數而非天數。 如果您需要更多資訊，請洽詢您的[!DNL Workfront]管理員。 如果您想要指定設定的預設值以外的時段，請在數字後面輸入<strong>m</strong>、<strong>h</strong>、<strong>d</strong>、<strong>w</strong>或<strong>mo</strong>，以表示分鐘、小時、天、周或月。</p> </td> 
+      <td role="rowheader">[!UICONTROL 計畫持續時間]</td> 
+      <td> <p>按一下<strong>[!UICONTROL 計畫持續時間]</strong>，然後輸入您要工作花費的天數。 </p> <p>附註：您可以不同方式為您的組織設定此選項。 例如，對於您的組織，您可能需要輸入小時數而非天數。 如果您需要更多資訊，請洽詢您的[!DNL Workfront]管理員。 如果您想要指定設定的預設值以外的時段，請在數字後面輸入<strong>m</strong>、<strong>h</strong>、<strong>d</strong>、<strong>w</strong>或<strong>mo</strong>，以表示分鐘、小時、天、周或月。</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[！UICONTROL優先順序]</td> 
+      <td role="rowheader">[!UICONTROL 優先順序]</td> 
       <td>按一下下拉箭頭，然後按一下您想要的作業優先順序。</td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[！UICONTROL包含電子郵件附件]</td> 
-      <td> <p>（只有在電子郵件至少包含一個附件時才可用。） 按一下此選項，將電子郵件中的附件儲存至任務的[！UICONTROL檔案]區域。 </p> <p>如果您不想儲存附件，請按一下附件名稱右側的X。 </p> <p>如果電子郵件包含指向[!DNL Google Drive]中檔案的連結，則會將它們儲存到您正在建立的工作的[！UICONTROL概觀]索引標籤。 </p> <p>重要：為了使其運作，您的[!DNL Workfront]管理員必須授權[!DNL Google Drive]使用[!DNL Workfront]中的檔案，如文章<a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md#configur" class="MCXref xref">設定檔案整合</a>中的<a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md" class="MCXref xref">設定整合以管理檔案</a>一節所述。</p> <p>如果啟用此選項，則對於您轉換為任務、問題和更新的其他電子郵件，此選項仍保持啟用狀態。</p> </td> 
+      <td role="rowheader">[!UICONTROL 包含電子郵件附件]</td> 
+      <td> <p>（只有在電子郵件至少包含一個附件時才可用。） 按一下此選項，將電子郵件中的附件儲存至任務的[!UICONTROL 檔案]區域。 </p> <p>如果您不想儲存附件，請按一下附件名稱右側的X。 </p> <p>如果電子郵件包含指向[!DNL Google Drive]中檔案的連結，則會將它們儲存到您正在建立的工作的[!UICONTROL 概觀]索引標籤。 </p> <p>重要：為了使其運作，您的[!DNL Workfront]管理員必須授權[!DNL Google Drive]使用[!DNL Workfront]中的檔案，如文章<a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md#configur" class="MCXref xref">設定檔案整合</a>中的<a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md" class="MCXref xref">設定整合以管理檔案</a>一節所述。</p> <p>如果啟用此選項，則對於您轉換為任務、問題和更新的其他電子郵件，此選項仍保持啟用狀態。</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[！UICONTROL包含電子郵件檔案]</td> 
-      <td> <p>按一下此選項，將原始電子郵件儲存為電子郵件(EML)檔案<span>至任務的[！UICONTROL檔案]區域</span>。 從那裡，您可以連按兩下檔案，以在電子郵件應用程式中開啟電子郵件。</p> <p>如果啟用此選項，則對於您轉換為任務、問題和更新的其他電子郵件，此選項仍保持啟用狀態。</p> </td> 
+      <td role="rowheader">[!UICONTROL 包含電子郵件檔案]</td> 
+      <td> <p>按一下此選項，將原始電子郵件儲存為電子郵件(EML)檔案<span>至任務的[!UICONTROL 檔案]區域</span>。 從那裡，您可以連按兩下檔案，以在電子郵件應用程式中開啟電子郵件。</p> <p>如果啟用此選項，則對於您轉換為任務、問題和更新的其他電子郵件，此選項仍保持啟用狀態。</p> </td> 
      </tr> 
     </tbody> 
    </table>

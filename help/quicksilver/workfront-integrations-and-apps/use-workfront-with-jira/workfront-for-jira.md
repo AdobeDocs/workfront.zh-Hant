@@ -37,4 +37,4 @@ ht-degree: 0%
 * [設定 [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md)
 * [連結介於 [!DNL Adobe Workfront] 和 [!DNL Jira]之間的專案](../../workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md)
 * [更新 [!DNL Jira] 和 [!DNL Adobe Workfront]之間的連結專案](../../workfront-integrations-and-apps/use-workfront-with-jira/update-linked-items-between-jira-wf.md)
-* [檢視[！UICONTROL [!DNL Jira] 活動記錄]](../../workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md)
+* [檢視[!UICONTROL [!DNL Jira] 活動記錄]](../../workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md)

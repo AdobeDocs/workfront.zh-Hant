@@ -46,7 +46,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[！UICONTROL Work]， [！UICONTROL計畫]</p> </td> 
+   <td> <p>[!UICONTROL Work]， [!UICONTROL 計畫]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -80,17 +80,17 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL更新]</td> 
+      <td role="rowheader">[!UICONTROL 更新]</td> 
       <td>編輯此文字的任何部分，這些部分取自電子郵件的主旨行與內文。</td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[！UICONTROL包含電子郵件附件]</td> 
-      <td><p>（只有在電子郵件至少包含一個附件時才可用。） 按一下此選項，將附件儲存在任務或問題的[！UICONTROL檔案]索引標籤中。 </p><p>如果您不想儲存附件，請按一下附件名稱右側的X。 </p><p>如果電子郵件包含指向[!DNL Google Drive]中檔案的連結，則連結會儲存到您正在建立之任務或問題的[！UICONTROL概觀]索引標籤。 </p><p>重要： <span style="color: #ff1493;"><span style="color: #000000;">若要讓此功能運作，您的</span></span>[!DNL Workfront]管理員<span style="color: #ff1493;"><span style="color: #000000;">必須授權[!DNL Google Drive]與[!DNL Workfront]</span></span>合作</p>
+      <td role="rowheader">[!UICONTROL 包含電子郵件附件]</td> 
+      <td><p>（只有在電子郵件至少包含一個附件時才可用。） 按一下此選項，將附件儲存在任務或問題的[!UICONTROL 檔案]索引標籤中。 </p><p>如果您不想儲存附件，請按一下附件名稱右側的X。 </p><p>如果電子郵件包含指向[!DNL Google Drive]中檔案的連結，則連結會儲存到您正在建立之任務或問題的[!UICONTROL 概觀]索引標籤。 </p><p>重要： <span style="color: #ff1493;"><span style="color: #000000;">若要讓此功能運作，您的</span></span>[!DNL Workfront]管理員<span style="color: #ff1493;"><span style="color: #000000;">必須授權[!DNL Google Drive]與[!DNL Workfront]</span></span>合作</p>
       <p>如果啟用此選項，則對於您轉換為任務、問題和更新的其他電子郵件，此選項仍保持啟用狀態。</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">通知</td> 
-      <td>按一下<strong>[！UICONTROL通知]</strong>，按一下出現的<strong>[！UICONTROL搜尋使用者或團隊]</strong>選項，然後開始輸入人員或團隊的名稱，並在它出現在以下清單中時按一下它。 對您要新增的每個人和團隊重複此動作，然後按一下<strong>[！UICONTROL儲存]</strong>。</td> 
+      <td>按一下<strong>[!UICONTROL 通知]</strong>，按一下出現的<strong>[!UICONTROL 搜尋使用者或團隊]</strong>選項，然後開始輸入人員或團隊的名稱，並在它出現在以下清單中時按一下它。 對您要新增的每個人和團隊重複此動作，然後按一下<strong>[!UICONTROL 儲存]</strong>。</td> 
      </tr> 
     </tbody> 
    </table>

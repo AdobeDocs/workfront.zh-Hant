@@ -37,11 +37,11 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
-   <td> <p>[！UICONTROL Pro]或更高版本</p> </td> 
+   <td> <p>[!UICONTROL Pro]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[！UICONTROL計畫]</p> </td> 
+   <td> <p>[!UICONTROL 計畫]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -159,7 +159,7 @@ ht-degree: 3%
       >專案只有在[!UICONTROL 機會]上更新階段時才會建立。 為更新「階段」欄位時指定的每個產品建立唯一的專案，而不是因為產品已新增到[!UICONTROL 機會]。
 
 1. （選擇性）按一下&#x200B;**[!UICONTROL 新增觸發器]**。
-1. （選擇性）從&#x200B;**[!UICONTROL [!DNL Salesforce]物件]**下拉式功能表中，選取**帳戶
+1. （選擇性）從&#x200B;**[!UICONTROL [!DNL Salesforce]物件]**&#x200B;下拉式功能表中，選取**帳戶
 **。
 
    這是必填欄位。
@@ -168,7 +168,7 @@ ht-degree: 3%
    1. 從&#x200B;**[!UICONTROL 型別]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 型別]**。
 
       任何**Account時
-**被指定為**[!UICONTROL 中在此指定的]**&#x200B;型別[!DNL Salesforce]，在&#x200B;**[!UICONTROL 中建立了一個]**&#x200B;專案[!DNL Workfront]。
+**被指定為**&#x200B;[!UICONTROL 中在此指定的]&#x200B;**&#x200B;型別[!DNL Salesforce]，在&#x200B;**&#x200B;[!UICONTROL 中建立了一個]**&#x200B;專案[!DNL Workfront]。
 
       這是必填欄位。
 
