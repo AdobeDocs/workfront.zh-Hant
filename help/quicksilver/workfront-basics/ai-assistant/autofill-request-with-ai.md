@@ -5,9 +5,9 @@ description: 您可以使用AI自動填寫請求欄位。
 author: Becky
 feature: Get Started with Workfront
 exl-id: d053e604-5a28-4fd3-8f89-4467b6e46f02
-source-git-commit: d890d467dfdade676a5c93f061a5cbeda53556b6
+source-git-commit: b0454d5fe3d866b30513cdea67d22c06c5efbfb3
 workflow-type: tm+mt
-source-wordcount: '961'
+source-wordcount: '937'
 ht-degree: 1%
 
 ---
@@ -170,6 +170,5 @@ AI可協助您自動填寫請求欄位。 它可以根據先前的請求來建�
 如果您沒有收到預期的建議，可能是因為下列其中一個原因：
 
 * 您必須在系統中擁有至少一個月的請求資料，然後才能建議來自先前請求的欄位值。
-* 請求資料專案在系統中的存在時間必須超過24小時，才能在另一個請求中建議。
 * 您在上傳要從中提取建議的檔案時，可能未依循檔案上傳護欄。 如需詳細資訊，請參閱本文中的[檔案上傳護欄](#document-upload-guardrails)。
 
