@@ -3,10 +3,10 @@ product-area: workfront-navigation
 navigation-topic: workfront-navigation
 title: ' [!DNL Workfront]的Adobe Unified Experience'
 description: 透過Adobe Experience Cloud存取 [!DNL Workfront] 可讓您以順暢、統一的體驗管理所有Adobe應用程式。
-author: Nolan
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: e292b54c4488ac12e1af5719117cf6c3cf3392a7
+source-git-commit: bd34fe3404e590e74ecd666c039f78c0cc0d72e7
 workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 0%
@@ -42,8 +42,8 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>新增：[!UICONTROL Contributor]或以上</p> 
-   <p>目前： [!UICONTROL Request]或以上</p> </td> 
+   <td> <p>新增：[！UICONTROL Contributor]或以上</p> 
+   <p>目前： [！UICONTROL Request]或以上</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -125,7 +125,7 @@ ht-degree: 0%
 
 如果您的密碼是由[!DNL Adobe]管理，您可以在Adobe帳戶中變更密碼。
 
-[請參閱這篇文章以變更您的Adobe密碼。](https://helpx.adobe.com/tw/manage-account/using/change-or-reset-password.html){target="_blank"}
+[請參閱這篇文章以變更您的Adobe密碼。](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}
 
 如需變更密碼的詳細資訊，請連絡管理員。
 

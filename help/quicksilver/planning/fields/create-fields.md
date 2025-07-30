@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: f4ea19368b664d0b3a47f93c70fd489685791538
 workflow-type: tm+mt
 source-wordcount: '5201'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=zh-Hant ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -35,12 +35,12 @@ ht-degree: 1%
 
 您可以在Workfront Planning中以下列方式建立欄位：
 
-* 從頭開始
-* 透過連線記錄型別
-* 藉由建立記錄型別
-* 從範本建立工作區
-* 使用Excel或CSV檔案匯入記錄型別
-* 透過匯入現有Workfront欄位的副本
+* [從頭開始](#create-fields-from-scratch)
+* [透過連線記錄型別](#create-fields-from-scratch)
+* [藉由建立記錄型別](#create-fields-by-creating-a-record-type)
+* [從範本建立工作區](#create-fields-by-creating-a-workspace-from-a-template)
+* [使用Excel或CSV檔案匯入記錄型別](#create-fields-when-importing-record-types-from-a-csv-or-excel-file)
+* [透過匯入現有Workfront欄位的副本](#create-fields-by-importing-them-from-workfront)
 
 如需Workfront Planning欄位的詳細資訊，請參閱[欄位概觀](/help/quicksilver/planning/fields/fields-overview.md)。
 
@@ -109,6 +109,45 @@ ht-degree: 1%
 *如需Workfront存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+## 透過連線記錄型別建立欄位
+
+當您在兩個記錄型別之間新增連線，或記錄型別和其他應用程式的物件型別之間新增連線時，可以建立連結的記錄欄位。
+
+如需有關連線Workfront Planning記錄型別的資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
+
+<!--## Create fields by importing record types using an Excel or CSV file
+
+For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).-->
+
+## 建立記錄型別以建立欄位
+
+建立記錄型別時，依預設也會建立與新記錄型別相關聯的多個欄位。 如需詳細資訊，請參閱[建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md)。
+
+## 從範本建立工作區以建立欄位
+
+當您從範本建立工作區時，Adobe Workfront Planning會為記錄型別建立欄位。
+
+如需詳細資訊，請參閱[建立工作區](/help/quicksilver/planning/architecture/create-workspaces.md)。
+
+
+
+## 從CSV或Excel檔案匯入記錄型別時建立欄位
+
+當您使用CSV或Excel檔案匯入記錄型別時，可以匯入欄位。
+
+如需詳細資訊，請參閱[建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md)。
+
+## 從Workfront匯入欄位，以建立欄位
+
+您可以匯入現有Workfront欄位的復本。
+
+從Workfront匯入欄位會為Workfront Planning記錄型別建立每個欄位的副本。
+
+複製欄位後，這些欄位彼此獨立，不會交換資訊。
+
+如需詳細資訊，請參閱[從Workfront匯入欄位](/help/quicksilver/planning/fields/import-fields-from-workfront.md)。
+
 
 ## 從頭開始建立欄位 {#create-fields-from-scratch}
 
@@ -319,7 +358,7 @@ ht-degree: 1%
 >數字欄位會在請求表單產生器中顯示為「單行」文字欄位型別。
 >
 >但是，欄位格式會保留，並且這些欄位的值將在提交請求後、在記錄型別和請求詳細資訊頁面中顯示為數字。
->&#x200B;>如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
+>>如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
 
 
 1. 依照本文中[從頭開始建立欄位](#create-fields-from-scratch)一節的說明開始建立欄位，然後選取&#x200B;**數字**&#x200B;欄位型別。
@@ -349,7 +388,7 @@ ht-degree: 1%
 >百分比欄位在請求表單產生器中顯示為單行文字欄位型別。
 >
 >但是，欄位格式會保留，並且這些欄位的值將在提交請求後，在記錄型別和請求詳細資訊頁面中顯示為百分比。
->&#x200B;>如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
+>>如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
 
 
 1. 依照本文中[從頭開始建立欄位](#create-fields-from-scratch)一節的說明開始建立欄位，然後選取&#x200B;**百分比**&#x200B;欄位型別。
@@ -389,7 +428,7 @@ ht-degree: 1%
 >貨幣欄位在請求表單產生器中顯示為單行文字欄位型別。
 >
 >但是，欄位格式會保留，並且這些欄位的值將在提交請求後，在記錄型別和請求詳細資訊頁面中顯示為貨幣。
->&#x200B;>如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
+>>如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
 
 1. 依照本文中[從頭開始建立欄位](#create-fields-from-scratch)一節的說明開始建立欄位，然後選取&#x200B;**貨幣**&#x200B;欄位型別。
 
@@ -443,6 +482,8 @@ ht-degree: 1%
 
 1. 按一下選取的運算式以顯示定義並檢視其格式。
 
+   <!--update screen shot for Maximize button-->
+
    ![公式運算式的描述](assets/description-of-formula-expression.png)
 
    如需支援哪些運算式的詳細資訊，請參閱[公式欄位概觀](/help/quicksilver/planning/fields/formula-fields.md)。
@@ -466,6 +507,12 @@ ht-degree: 1%
    >
    >![公式範例專案預算四個欄位已移除](assets/formula-example-project-budget-four-fields-removed.png)
    >
+
+   <!--
+    1. <span class="preview">(Optional) Click **Maximize** to open the Formula box in a larger area. </span>
+           <span class="preview">The Formula box opens in a larger window. </span>
+    1. <span class="preview">(Optional and conditional) If you opened the Formula box in a larger area,click **Minimize** to return to the original formula field box.</span> 
+    -->
 
 1. 在&#x200B;**格式**&#x200B;欄位中，從下列選項中選取，以識別公式型別欄位中顯示結果的格式：
 
@@ -735,42 +782,6 @@ Create an Object field:
 
 -->
 
-## 透過連線記錄型別建立欄位
 
-當您在兩個記錄型別之間新增連線，或記錄型別和其他應用程式的物件型別之間新增連線時，可以建立連結的記錄欄位。
-
-如需有關連線Workfront Planning記錄型別的資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
-
-<!--## Create fields by importing record types using an Excel or CSV file
-
-For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).-->
-
-## 建立記錄型別以建立欄位
-
-建立記錄型別時，依預設也會建立與新記錄型別相關聯的多個欄位。 如需詳細資訊，請參閱[建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md)。
-
-## 從範本建立工作區以建立欄位
-
-當您從範本建立工作區時，Adobe Workfront Planning會為記錄型別建立欄位。
-
-如需詳細資訊，請參閱[建立工作區](/help/quicksilver/planning/architecture/create-workspaces.md)。
-
-
-
-## 從CSV或Excel檔案匯入記錄型別時建立欄位
-
-當您使用CSV或Excel檔案匯入記錄型別時，可以匯入欄位。
-
-如需詳細資訊，請參閱[建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md)。
-
-## 從Workfront匯入欄位，以建立欄位
-
-您可以匯入現有Workfront欄位的復本。
-
-從Workfront匯入欄位會為Workfront Planning記錄型別建立每個欄位的副本。
-
-複製欄位後，這些欄位彼此獨立，不會交換資訊。
-
-如需詳細資訊，請參閱[從Workfront匯入欄位](/help/quicksilver/planning/fields/import-fields-from-workfront.md)。
 
 

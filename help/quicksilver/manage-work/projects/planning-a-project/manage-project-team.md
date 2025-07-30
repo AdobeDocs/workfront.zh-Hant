@@ -2,25 +2,85 @@
 product-area: projects;agile-and-teams
 navigation-topic: plan-a-project
 title: 管理專案團隊
-description: 專案團隊由與專案相關聯的使用者組成。 專案團隊的成員會顯示在專案的「人員」區段中。
+description: 專案團隊由與專案相關聯的使用者組成。 專案團隊的成員會顯示在專案的「人員」區段或範本中，可用來建立專案的「人員」區段。
 author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: d77da0569389104172fc759c53a9eb00acec4f65
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 0%
+source-wordcount: '1181'
+ht-degree: 1%
 
 ---
 
 # 管理專案團隊
 
-專案團隊由與專案相關聯的使用者組成。 專案團隊的成員會顯示在專案的「人員」區段中。
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+
+-->
+
+專案團隊由與專案相關聯的使用者組成。 如需詳細資訊，請參閱[專案團隊概述](/help/quicksilver/manage-work/projects/planning-a-project/project-team-overview.md)。
+
+專案團隊的成員會顯示在專案的「人員」區段中。
+
+從範本建立專案後，顯示在專案範本的「人員」區段中的使用者將成為專案團隊。
+
+下列使用者會針對專案和範本自動新增至專案團隊：
+
+* 所有者
+* 贊助者
+* 指派給任務的使用者
+* 指派給問題的使用者（僅適用於專案）
+
+專案團隊中的使用者會收到有關專案的通知。 如需詳細資訊，請參閱[事件通知型別](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)。
+
+您可以新增專案和範本團隊中的使用者（僅限專案）、將其移除或傳送更新給他們，以管理這些使用者。
 
 ## 存取需求
 
-<!--drafted for P&P:
++++ 展開以檢視存取需求。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td> <p>任何</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td> <p>新增：標準 </p>
+    <p>目前：計畫 </p>
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">存取層級</td> 
+   <td> <p>編輯專案和範本的存取權</p> <p>檢視或更高的使用者存取權</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>檢視專案或範本的或更高許可權</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
+
+<!--Old access: 
+
+You must have the following access to perform the steps in this article:
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -31,10 +91,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard </p>
-   Or
-   <p>Legacy license: Plan </p>
-    </td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -48,70 +105,42 @@ ht-degree: 0%
   </tr> 
  </tbody> 
 </table>
--->
 
-您必須具有下列存取權才能執行本文中的步驟：
+*To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
-   <td> <p>任何</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>規劃 </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯專案的存取權</p> <p>檢視或更高的使用者存取權</p> <p><b>附註</b>
+## Add users to a Project Team
 
-如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td>
-</tr> 
-  <tr> 
-   <td role="rowheader">物件許可權</td> 
-   <td> <p>檢視專案或更高的許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
-
-## 將使用者新增至專案團隊
-
-當您將使用者新增到專案團隊時，他們將獲得有關專案以及專案的任務、問題和檔案的檢視許可權。 如需詳細資訊，請參閱文章[專案團隊概述](../../../manage-work/projects/planning-a-project/project-team-overview.md)。
+When you add users to the project team, they gain View permissions on the project and the tasks, issues, and documents of the project. For more information, see the article [Project Team overview](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 >[!TIP]
 >
->專案團隊中的使用者不會自動新增至專案的資源管理工具。
+>Users on the Project Team are not automatically added to the resource management tools for the project.
 
-您可以透過下列方式將使用者新增至專案團隊：
+You can add users to the project team in the following ways:
 
-* [自動新增使用者至專案團隊](#automatically-add-users-to-a-project-team)
-* [手動新增使用者至專案團隊](#manually-add-users-to-a-project-team)
+* [Automatically add users to a Project Team](#automatically-add-users-to-a-project-team) 
+* [Manually add users to a Project Team](#manually-add-users-to-a-project-team)
 
-### 自動將使用者新增至專案團隊 {#automatically-add-users-to-a-project-team}
+### Automatically add users to a Project Team {#automatically-add-users-to-a-project-team}
 
-在專案中履行下列角色的使用者會自動新增至專案團隊，並在建立專案時顯示在「人員」區段中：
+The users that fulfill the following roles on the project are automatically added to the project team and appear  in the People section when the project is created:
 
-* 專案的建立者
-* 專案所有者
-* 專案贊助者
+* The creator of the project
+* The project owner
+* The project sponsor
 
-當使用者被指派到以下專案時，他們也會被自動新增到專案團隊：
+Users are also automatically added to the project team when they are assigned to the following:
 
-* 任務
-* 問題
+* Tasks
+* Issues
 
-### 手動新增使用者至專案團隊 {#manually-add-users-to-a-project-team}
+### Manually add users to a Project Team {#manually-add-users-to-a-project-team}
 
-如果專案上未履行任何角色的使用者希望在專案存留期間收到有關某些更新或變更的通知，您可以手動將其新增到專案團隊。
+If users that don't fulfill any role on the project want to be notified about certain updates or changes during the life of the project, you can manually add them to the project team. 
 
-如需專案團隊使用者可啟用哪些通知的詳細資訊，請參閱[事件通知型別](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)。
+ For more information about what notifications can be enabled for users on the project team, see [Event notification types](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md). 
 
-<!--drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
+ <!--drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
 
 >[!IMPORTANT]
 >
@@ -119,17 +148,23 @@ ht-degree: 0%
 
 -->
 
-1. 前往您要新增使用者的專案。
+## 管理專案人員
+
+1. 移至您要管理專案團隊的專案。
+
+   >[!TIP]
+   >
+   >您必須將使用者指派給專案上的任務、問題或利害關係人，他們才會顯示在「人員」區段中。
 
 1. 按一下左側面板中的&#x200B;**人員**。
 
 1. 按一下&#x200B;**新增使用者**。
 
-   新增使用者至專案團隊對話方塊隨即顯示。
+   顯示&#x200B;**新增使用者至專案團隊**&#x200B;方塊。
 
    ![add_users_dialog.png](assets/add-users-dialog-350x217.png)
 
-1. 在&#x200B;**新增使用者**&#x200B;方塊中，開始輸入您要新增至專案團隊的作用中Workfront使用者名稱，然後在其出現在下拉式清單中時按一下該名稱。
+1. 在&#x200B;**新增使用者**&#x200B;方塊中，開始輸入您要新增至專案團隊的作用中Workfront使用者名稱，然後在其出現在清單中時按一下該名稱。
 
    重複此步驟，將多位使用者新增至專案團隊。 使用者必須屬於與專案相關聯的群組。
 
@@ -140,17 +175,126 @@ ht-degree: 0%
    >
    >  您必須在存取層級中啟用檢視聯絡資訊設定，使用者才能檢視使用者的電子郵件。 如需詳細資訊，請參閱[授予使用者存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)。
 
-
 1. 按一下&#x200B;**新增**。
 
    使用者取得專案的檢視許可權，並作為專案團隊的一部分接收有關專案的通知。
 
-## 從專案團隊中移除使用者
+1. （選擇性）如果您希望使用者在其工作角色新增至任務、問題或專案核準時收到通知，請按一下使用者的&#x200B;**工作角色**&#x200B;欄，然後選取將與核准關聯的工作角色。
+
+   使用者將收到與指派給所選工作角色的核准相關的通知。
+
+   如需詳細資訊，請參閱文章[專案團隊概觀](/help/quicksilver/manage-work/projects/planning-a-project/project-team-overview.md)中的「角色型核准」一節。
+
+1. 在清單中選取一或多個使用者，然後按一下&#x200B;**移除**&#x200B;圖示![移除圖示](assets/remove-icon.png)，將使用者從團隊中移除。
+
+1. 按一下&#x200B;**是，移除選取的使用者**&#x200B;以確認並移除使用者。
+
+   會從未完成的工作專案移除及取消指派使用者。
+
+   如需詳細資訊，請參閱本文的[從專案團隊](#considerations-for-removing-users-from-a-project-team)移除使用者的考量事項。
+1. （選用）若要將此專案的更新傳送給使用者，請按一下「全部更新」將更新傳送給團隊中的每個人
+
+   或
+
+   在清單中選取一或多個使用者，然後按一下&#x200B;**傳送更新給使用者**。
+
+   ![傳送更新給專案的使用者](assets/send-update-to-user-on-project-box.png)
+
+   **傳送更新給使用者**&#x200B;方塊開啟。
+
+1. 執行下列其中一項：
+
+   * 為選取的使用者新增更新。
+   * 按一下鎖定圖示，將更新設為貴公司使用者的私密更新。
+   * 標籤接收相同更新的其他使用者。
+   * 按一下「**傳送**」。
+
+   更新已新增至專案的&#x200B;**更新**&#x200B;區段，且所有選取的使用者都會顯示為已標籤的使用者。
+
+   使用者若已啟用，可能會收到電子郵件通知，並收到新更新的應用程式內通知。
+
+1. （選擇性）按一下&#x200B;**匯出**&#x200B;圖示![匯出圖示](assets/export-icon.png)，將使用者清單匯出至檔案
+
+   或
+
+   選取使用者，然後按一下&#x200B;**匯出**&#x200B;圖示以僅匯出特定使用者。
+
+## 管理範本上的人員
+
+1. 移至您要為其管理專案團隊的範本。
+
+   >[!TIP]
+   >
+   >您必須將使用者指派給任務或範本上的利害關係人，他們才會顯示在「人員」區段中。
+
+1. 按一下左側面板中的&#x200B;**人員**。
+
+1. 在清單中選取一或多個使用者，然後按一下[移除] ****&#x200B;以從團隊中移除這些使用者。
+
+1. 按一下&#x200B;**是，移除選取的使用者**&#x200B;以確認並移除使用者。
+
+   會從範本任務中移除及取消指派使用者。
+
+   如需詳細資訊，請參閱本文的[從專案團隊](#considerations-for-removing-users-from-a-project-team)移除使用者的考量事項。
+
+1. （選用）若要傳送更新給使用者，請按一下全部更新，將更新傳送給清單中的所有使用者
+
+   或
+
+   在清單中選取一或多個使用者，然後按一下[更新]。****
+
+   <!--update screen shot for unshim-->
+
+   ![傳送更新給範本上的使用者方塊](assets/send-update-to-user-on-template-box.png)
+
+   **傳送更新給使用者**&#x200B;方塊開啟。
+
+1. 執行下列動作：
+
+   * 為選取的使用者新增更新。
+   * 按一下人員圖示可標籤其他使用者，以接收相同的更新。
+   * 按一下鎖定圖示，將更新設為貴公司使用者的私密更新。
+   * 按一下「**傳送**」。
+
+   <!--replace list above with:
+   <div class="preview">
+
+   * Add an update for the selected users.
+   * Click **Tag people** to tag additional users to receive the same update. 
+   * Select the **Private to my company** option to to make the update private to the users in your company. 
+   * Click **Send**. 
+   </div>
+   -->
+
+   更新已新增到每個已標籤使用者設定檔的&#x200B;**更新**&#x200B;區段。
+
+   使用者若已啟用，可能會收到電子郵件通知，並收到新更新的應用程式內通知。
+
+1. （選擇性）按一下[匯出&#x200B;****]將使用者清單匯出至檔案
+
+   或
+
+   選取使用者，然後按一下&#x200B;**匯出**&#x200B;以僅匯出特定使用者。
+
+## 從專案團隊中移除使用者的考量事項
 
 當您從使用者在專案中的角色中移除使用者時，他們仍然是專案團隊的一部分。
 
+您必須從專案團隊從專案的「人員」區段中移除這些人員，他們才能停止接收傳送給專案團隊的通知。
+
 如果您從專案團隊中移除使用者，並且使用者被指派到專案中的任務或問題，則會從未完成的任務和問題中取消指派使用者。 在這種情況下，任務和問題返回到工作負載平衡器中的未指派工作區域。
 
-即使您將使用者從專案團隊中移除，仍會指派給指派給已完成任務和問題的使用者。
+指派給已完成任務和問題的使用者仍會指派給任務和問題，即使您將其從專案團隊中移除後亦然。
+
+從專案或範本的「人員」區段移除下列使用者時，系統就會從他們在專案中的角色中移除這些使用者：
+
+* 指派給未完成任務的使用者
+* 指派給未完成問題的使用者
+
+從專案或範本的「人員」區段中移除下列使用者時，系統不會將他們從其在專案中的角色中移除：
+
+* 所有者
+* 贊助者
 
 如需有關從專案團隊移除使用者的詳細資訊，請參閱[從專案移除使用者](../../../manage-work/projects/manage-projects/remove-users-from-projects.md)。
+

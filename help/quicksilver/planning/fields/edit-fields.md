@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 567fa8c960f7db47279d6cde1f5e90dc7f38ae79
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '668'
 ht-degree: 1%
 
 ---
@@ -146,7 +146,11 @@ ht-degree: 1%
 
    在表格標題中反白顯示的欄位名稱后面的![箭頭選單](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
-1. 更新欄位相關資訊，然後按一下&#x200B;**儲存**。<!--insert screen shot when finalized-->
+1. 更新欄位相關資訊，然後按一下&#x200B;**儲存**。
+
+   如需詳細資訊，請參閱[建立欄位](/help/quicksilver/planning/fields/create-fields.md)。
+
+   <!--insert screen shot when finalized-->
 
    >[!TIP]
    >

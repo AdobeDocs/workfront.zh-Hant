@@ -3,14 +3,14 @@ content-type: overview
 product-area: projects;agile-and-teams
 navigation-topic: plan-a-project
 title: 專案團隊概述
-description: 以某種容量與專案相關聯的使用者組成專案團隊。 在專案的「人員」區域下列出的使用者是組成專案團隊的使用者。
+description: 以某種容量與專案相關聯的使用者組成專案團隊。 在專案或範本的「人員」區域下列出的使用者是組成專案團隊的使用者。
 author: Alina
 feature: Work Management
 exl-id: ceb25fb1-57fc-476c-b92c-fc41aadc0b5b
-source-git-commit: 3dfb30646e8a967264f7e562441a52a059d73d32
+source-git-commit: d77da0569389104172fc759c53a9eb00acec4f65
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 0%
+source-wordcount: '450'
+ht-degree: 1%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 0%
 
 專案團隊由以一定容量與專案相關聯的使用者組成。 專案的「人員」區域底下列出的使用者構成了專案團隊。 例如，被指派處理專案的使用者或專案所有者屬於專案團隊。
 
+使用範本建立專案後，與專案範本工作相關聯的使用者，或是範本擁有者或贊助者，都是未來專案團隊的成員。
+
 ## 專案團隊成員
 
 您可以手動或自動將使用者指派給專案團隊。 如需詳細資訊，請參閱[管理專案團隊](../../../manage-work/projects/planning-a-project/manage-project-team.md)一文中的「將使用者新增至專案團隊」一節。
@@ -28,7 +30,13 @@ ht-degree: 0%
 
 ## 通知專案團隊成員
 
-根據Adobe Workfront管理員啟用的電子郵件通知，專案團隊中的使用者會收到有關專案各種動作的通知。 如需有關啟用電子郵件通知的詳細資訊，請參閱[設定系統中每個人的事件通知](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)。
+根據Adobe Workfront管理員啟用的電子郵件通知，專案團隊中的使用者會收到有關專案各種動作的通知。
+
+如需詳細資訊，另請參閱下列文章：
+
+* [事件通知型別](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
+
+* [為系統中的每個人設定事件通知](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
 
 >[!NOTE]
 >

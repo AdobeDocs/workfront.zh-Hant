@@ -7,9 +7,9 @@ description: 物件的「更新」區段會顯示使用者對物件所做的註�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: de42974a9a5c4c346ef3ae1cce09968befd1381c
+source-git-commit: d77da0569389104172fc759c53a9eb00acec4f65
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1195'
 ht-degree: 4%
 
 ---
@@ -322,7 +322,7 @@ The following objects don't record system updates:
 
    * 檔案新增、移除和其他檔案更新
    * 小時新增、移除、代表新增及其他小時專案更新
-   * 附註、自訂欄位的更新
+   * 自訂欄位的更新
    * 使用者設定檔更新（使用者頭像的更新、行動電話號碼、與我討論欄位、標題）
    * 使用者新增、移除、存取層級變更、內建使用者欄位變更
    * 來自任務和專案的財務資訊。
