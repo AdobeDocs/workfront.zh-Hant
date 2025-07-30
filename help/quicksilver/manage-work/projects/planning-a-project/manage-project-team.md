@@ -229,7 +229,7 @@ If users that don't fulfill any role on the project want to be notified about ce
 
 1. 按一下左側面板中的&#x200B;**人員**。
 
-1. 在清單中選取一或多個使用者，然後按一下[移除] ****&#x200B;以從團隊中移除這些使用者。
+1. 在清單中選取一或多個使用者，然後按一下[移除] **&#x200B;**&#x200B;以從團隊中移除這些使用者。
 
 1. 按一下&#x200B;**是，移除選取的使用者**&#x200B;以確認並移除使用者。
 
@@ -241,7 +241,7 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    或
 
-   在清單中選取一或多個使用者，然後按一下[更新]。****
+   在清單中選取一或多個使用者，然後按一下[更新]。**&#x200B;**
 
    <!--update screen shot for unshim-->
 
@@ -270,7 +270,7 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    使用者若已啟用，可能會收到電子郵件通知，並收到新更新的應用程式內通知。
 
-1. （選擇性）按一下[匯出&#x200B;****]將使用者清單匯出至檔案
+1. （選擇性）按一下[匯出&#x200B;**&#x200B;**]將使用者清單匯出至檔案
 
    或
 
