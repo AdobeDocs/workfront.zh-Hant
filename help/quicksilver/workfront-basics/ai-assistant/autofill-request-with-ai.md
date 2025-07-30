@@ -5,9 +5,9 @@ description: 您可以使用AI自動填寫請求欄位。
 author: Becky
 feature: Get Started with Workfront
 exl-id: d053e604-5a28-4fd3-8f89-4467b6e46f02
-source-git-commit: a3e93311277bc5b68063e0ec1cbdcce3a40eb3dd
+source-git-commit: d890d467dfdade676a5c93f061a5cbeda53556b6
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '961'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->此功能目前是封閉測試版的一部分。 若要啟用此功能，請連絡sargism@adobe.com。
+>此功能目前是封閉測試版的一部分。 若要啟用此功能，請連絡`sargism@adobe.com`。
 >
 >若要符合封閉Beta版的資格，您的組織必須符合使用Workfront AI Assistant的需求。 如需詳細資訊，請參閱[ AI助理的必要條件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
 
@@ -25,6 +25,8 @@ AI可協助您自動填寫請求欄位。 它可以根據先前的請求來建�
 您可以在提交請求之前核准或拒絕這些建議。
 
 自動填寫不會覆寫您已填寫的任何欄位。
+
+使用者不會收到他們無法存取的資料建議。
 
 ## 填寫表單時取得建議
 
@@ -162,4 +164,12 @@ AI可協助您自動填寫請求欄位。 它可以根據先前的請求來建�
    或
 
    在頁面頂端選取「**全部接受**」或「**全部拒絕**」以接受或拒絕所有建議。
+
+## 疑難排解
+
+如果您沒有收到預期的建議，可能是因為下列其中一個原因：
+
+* 您必須在系統中擁有至少一個月的請求資料，然後才能建議來自先前請求的欄位值。
+* 請求資料專案在系統中的存在時間必須超過24小時，才能在另一個請求中建議。
+* 您在上傳要從中提取建議的檔案時，可能未依循檔案上傳護欄。 如需詳細資訊，請參閱本文中的[檔案上傳護欄](#document-upload-guardrails)。
 

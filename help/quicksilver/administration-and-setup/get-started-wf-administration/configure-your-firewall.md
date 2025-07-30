@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: d710c8bd9854d4d92945e034e708d06410d0779b
+source-git-commit: d890d467dfdade676a5c93f061a5cbeda53556b6
 workflow-type: tm+mt
-source-wordcount: '1616'
+source-wordcount: '1609'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 >
 >本頁所述的程式僅適用於尚未加入Admin Console的組織。 如果您的組織已加入Adobe Admin Console，您必須透過Adobe Admin Console執行此動作。
 >
->若要在貴組織已加入Adobe Admin Console的情況下設定允許清單，請參閱[允許Adobe應用程式和服務使用的網域](https://helpx.adobe.com/tw/enterprise/kb/network-endpoints.html)。
+>若要在貴組織已加入Adobe Admin Console的情況下設定允許清單，請參閱[允許Adobe應用程式和服務使用的網域](https://helpx.adobe.com/enterprise/kb/network-endpoints.html)。
 >
 >如需根據貴組織是否已加入Adobe Admin Console而有所差異的程式清單，請參閱[以平台為基礎的管理差異(Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
    CL01是指Cluster 1，CL02是Cluster 2，依此類推。
 
-如需詳細資訊，請參閱文章[防火牆概觀](../../administration-and-setup/get-started-wf-administration/firewall-overview.md)中的[檢視您組織的叢集和Workfront計畫](../../administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan)一節。
+如需詳細資訊，請參閱文章[防火牆概觀](../../administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan)中的[檢視您組織的叢集和Workfront計畫](../../administration-and-setup/get-started-wf-administration/firewall-overview.md)一節。
 
 ## 要新增至允許清單的IP位址
 
@@ -74,18 +74,16 @@ ht-degree: 0%
 >
 >部分Workfront整合在啟用允許清單時無法運作，因為它們無法設定靜態IP位址。 若要使用下列整合，您必須停用允許清單。
 >
->* 適用於Google Workspace的Workfront
 >* 適用於Outlook的Workfront
->* 適用於Salesforce的Workfront
 
-* 允許叢集1、2、3、5、7、8和9[&#128279;](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)的IP位址
-* 允許叢集4[&#128279;](#ip-addresses-to-allow-for-cluster-4)的IP位址
-* 允許叢集6[&#128279;](#ip-addresses-to-allow-for-cluster-6)的IP位址
+* 允許叢集1、2、3、5、7、8和9[的](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)IP位址
+* 允許叢集4[的](#ip-addresses-to-allow-for-cluster-4)IP位址
+* 允許叢集6[的](#ip-addresses-to-allow-for-cluster-6)IP位址
 * [允許叢集10使用的IP位址](#ip-addresses-to-allow-for-cluster-10)
 * [允許測試磁碟機的IP位址](#IP%20Addre2)
 * 實作事件訂閱時允許的[IP位址](#ip-addresses-to-allow-when-implementing-event-subscriptions)
 * [要新增的IP位址以存取Workfront Fusion](#ip-addresses-to-add-for-accessing-workfront-fusion)
-* 使用Workfront for Jira[&#128279;](#ip-addresses-to-add-for-using-workfront-for-jira)要新增的個IP位址
+* 使用Workfront for Jira[要新增的](#ip-addresses-to-add-for-using-workfront-for-jira)個IP位址
 * [Workfront要為所有叢集新增的URL](#urls-to-add-for-all-clusters-workfront)
 
 ### 允許叢集1、2、3、5、7、8和9使用的IP位址 {#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9}
