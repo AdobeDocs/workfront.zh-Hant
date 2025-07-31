@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 3563d5e7136d8bd70504a0b7762c4be06e5a9c56
+source-git-commit: 81b40eda8536d1a63c38a297d92158a12f9d350e
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '937'
 ht-degree: 2%
 
 ---
@@ -183,5 +183,5 @@ ht-degree: 2%
 1. 移至包含您要編輯之佇列主題的專案或範本。
 1. 按一下左側面板中的&#x200B;**佇列主題**。
 1. 在生產環境中，選取您要編輯的佇列主題。 在開啟的詳細資訊頁面上，按一下&#x200B;**編輯佇列主題**。
-1. <span class="preview">在預覽環境中，選取您要編輯的佇列主題，然後按一下編輯圖示![編輯圖示](assets/edit-icon.png)。</span>
+   <!--1. <span class="preview">In the Preview environment, select the Queue Topic that you want to edit, then click the Edit icon ![Edit icon](assets/edit-icon.png).</span>-->
 
