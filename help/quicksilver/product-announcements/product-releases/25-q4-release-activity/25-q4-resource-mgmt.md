@@ -4,11 +4,10 @@ description: 2025年第四季資源管理增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
-source-git-commit: 610066cc1b5703d048e867767474fb5335a2b0d5
+exl-id: c8c03cb5-0468-4c2b-b69e-70e4c1354514
+source-git-commit: 0dfeebeef4369a67072368eb4034e105818b99a5
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
@@ -19,11 +18,25 @@ ht-degree: 0%
 
 如需2025年第四季版本週期目前可用的所有變更清單，請參閱[2025年第四季版本概觀](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)。
 
+## 工作負載平衡器現在可在您的使用者設定檔上使用
+
+>[!NOTE]
+>
+>* 預覽： 2025年7月31日
+>* 生產快速發行： 2025年8月14日
+>* 所有客戶的生產： 2025年10月16日
+
+所有使用者現在可以從他們的設定檔在工作負載平衡器中檢視他們自己的需求和容量資料，無論他們的存取層級如何。 當您存取Workfront使用者設定檔時，工作負載平衡器會出現在左側導覽面板中。
+
+使用者的工作負載平衡器資料是唯讀的。 您不能在使用者層級指派工作、取消指派工作或調整配置。
+
+如需詳細資訊，請參閱[尋找工作負載平衡器](/help/quicksilver/resource-mgmt/workload-balancer/locate-workload-balancer.md)。
+
 ## 角色指派顯示在工作負載平衡器
 
 >[!NOTE]
 >
->* 預覽： 2025年7月24日
+>* 預覽： 2025年7月31日
 >* 生產快速發行： 2025年8月14日
 >* 所有客戶的生產： 2025年10月16日
 

@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: d3a5d0c94df449a23e2b36d3e0f6fb816d306ce6
+source-git-commit: eafc56adab1fad3bbc1a4f3dc8f61e599ab21f57
 workflow-type: tm+mt
-source-wordcount: '5961'
+source-wordcount: '6162'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,50 @@ ht-degree: 0%
 
 ## 專案
 
+## 範本「佇列詳細資訊」段落的新外觀
+
+**預覽版本： 2025年7月31日；生產版本： 2025年8月7日**
+
+我們已更新範本「佇列詳細資料」區段的外觀與操作方式。 「佇列詳細資料」區段的外觀與風格現在與Workfront的其他區域相符。
+
+如需詳細資訊，請參閱[建立要求佇列](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
+
+<!--## Interface updates when bulk editing templates
+
+**Preview release: July 31, 2025; Production release: August 7, 2025**
+
+We have updated the look and feel of the Edit templates box when editing templates in bulk from a list of templates. The organization of information on the Edit templates box now matches the single-template edit box.
+
+For information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).-->
+
+## 範本上傳送更新給使用者方塊的介面更新
+
+**預覽版本： 2025年7月31日；生產版本： 2025年8月7日**
+
+從範本的「人員」標籤存取「傳送更新給使用者」方塊時，我們更新了方塊的外觀和風格。 當您將更新傳送給一個或多個使用者時，傳送更新給使用者方塊現在會比對Workfront的其他區域。
+
+如需詳細資訊，請參閱[管理專案團隊](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md)。
+
+<!--## Updated experience when editing a Queue Topic in a project or template
+
+**Preview release: July 31, 2025; Production release: August 7, 2025**
+
+We have updated the look and feel of a Queue Topic when editing it on a template. The Queue Topic editing page now matches the design of other areas of Workfront.
+
+A small functionality change has been applied to the Routing Rules list. To edit A Queue Topic, select the Queue Topic from the list and click the Edit icon. You are no longer directed to the Queue Topic details page before you can edit.
+
+For more information, see [Create Queue Topics](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).-->
+
+## 付費記錄的介面更新
+
+**預覽版本： 2025年7月31日；生產版本： 2025年8月7日**
+
+我們已更新計費記錄的可計費時數、可計費費用及固定收入頁面的外觀與風格，以符合應用程式的其他區域。 用於新增可記帳小時、可記帳費用以及固定收入的對話方塊也已更新。
+
+若要檢視這些變更，請前往專案>記帳記錄>選取記帳記錄>可記帳小時、可記帳費用或固定收入>新增可記帳小時、可記帳費用或固定收入。
+
+如需詳細資訊，請參閱[建立付費記錄](/help/quicksilver/manage-work/projects/project-finances/create-billing-records.md)。
+
 ## 匯入MS Project檔案方塊的介面更新
 
 **預覽版本： 2025年7月24日；生產版本：即將宣佈**
@@ -84,7 +128,7 @@ ht-degree: 0%
 
 我們在範本上編輯路由規則時，更新了路由規則的外觀和風格。 路由規則編輯頁面現在會比對Workfront其他區域的設計。
 
-路由規則清單已套用小幅功能變更。 若要編輯路由規則，請從清單中選取路由規則，然後按一下編輯圖示。
+若要編輯路由規則，請從清單中選取路由規則，然後按一下編輯圖示。
 
 如需詳細資訊，請參閱[建立路由規則](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)。
 
@@ -98,7 +142,7 @@ ht-degree: 0%
 * 主題群組
 * 路由規則
 
-清單已套用小幅功能變更。 若要編輯或刪除其中一個清單中的專案，請選取該專案並按一下適當的圖示。
+若要編輯或刪除其中一個清單中的專案，請選取該專案並按一下適當的圖示。
 
 如需詳細資訊，請參閱
 
@@ -398,6 +442,11 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 ### 將物件新增至程式和投資組合時，外觀和感覺會更新
 
 **預覽版本： 2025年5月22日；生產版本： 2025年5月29日**
+
+>[!NOTE]
+>
+>暫時從預覽和生產中移除
+
 
 進行下列操作時，我們已更新新增方塊的介面：
 
@@ -775,7 +824,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 此更新包含區域的視覺化變更。 功能未變更。
 
-若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。**&#x200B;**
+若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。****
 
 +++
 

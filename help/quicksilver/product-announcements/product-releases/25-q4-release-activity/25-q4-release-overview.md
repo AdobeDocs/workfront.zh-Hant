@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: 2ca2361ee96c3940f1f4073274386262f76725ff
+source-git-commit: eafc56adab1fad3bbc1a4f3dc8f61e599ab21f57
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 2%
+source-wordcount: '1190'
+ht-degree: 1%
 
 ---
 
@@ -38,9 +38,30 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Adobe Workfront增強功能
 
+* [管理員增強功能](#administrator-enhancements)
 * [檔案和校訂增強功能](#document-and-proofing-enhancements)
-  <!--* [Resource Management enhancements](#resource-management-enhancements)-->
+<!--* [Home enhancements](#home-enhancements)
+* [Requests enhancements](#requests-enhancements)-->
+* [資源管理增強功能](#resource-management-enhancements)
 * [其他增強功能](#other-enhancements)
+
+### 管理員增強功能
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">從外部API新增多個值選項至自訂表單</a><p></p>
+            <p>自訂表單設計工具現在提供新欄位型別「多重選取外部查詢」。 當資料儲存在外部系統時，此欄位型別可讓您從外部API載入選項，並根據自訂表單中的其他欄位值進行篩選。 這等同於單一選取的外部查閱。</p>
+            <p>將表單新增到物件時，從API傳回的值會出現在下拉欄位中，使用者可以選取多個值。</p>
+        </td>
+        <td>2025年7月31日</td>
+        <td>2025年8月14日</td>
+        <td>2025年10月16日</td>
+    </tr>     
+  </tbody>
+</table>
+
 
 ### 檔案和校訂增強功能
 
@@ -65,24 +86,77 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table>
 
-
-
-<!--### Resource Management enhancements
+<!--### Home enhancements
 
 <table style="table-layout:auto">
   <tbody>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md" class="MCXref xref" xrefformat="{para}">Role assignments display in the Workload Balancer </a><p></p>
-            <p>Resource managers can now review job role assignments in the Workload Balancer. The assignments are displayed in the Unassigned Work area, under the tasks or issues the roles are assigned to. Only work items assigned to users are displayed in the Assigned Work area. </p>
-            <p>A new Workload Balancer setting, Show Role Assignments, determines whether role assignments are displayed. The setting is enabled by default.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-home.md" class="MCXref xref" xrefformat="{para}">Updates to the My Requests widget in Home</a><p></p>
+            <p>To create a more seamless experience between Workfront and Workfront Planning, we've redesigned the My Requests widget in Home. The new widget features the following changes:
+            <ul>
+                <li>Improved layout and organization of request information</li>
+                <li>Enhanced filtering and sorting options</li>
+                <li>Integration with Workfront Planning for better visibility into resource allocation</li>
+            </ul>
+            </p>
         </td>
-        <td>July 24, 2025</td>
+        <td>July 31, 2025</td>
+        <td>August 14, 2025</td>
+        <td>October 16, 2025</td>
+    </tr>     
+  </tbody>
+</table> 
+
+### Requests enhancements
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">Updates to Requesting experience</a><p></p>
+            <p>To create a better user experience when making requests in Workfront and Workfront Planning, we've updated the requesting experience. Now you can:
+            <ul>
+                <li>View Workfront and Workfront Planning requests in a single list.</li>
+                <li>Filter submitted requests based on criteria you specify.</li>
+                <li>Search for and select Workfront request queues and Workfront Planning forms in a consolidated experience.</li>
+                <li>Hide and reorder columns in the submitted requests list.</li>
+            </ul>
+            </p>
+        </td>
+        <td>July 31, 2025</td>
         <td>August 14, 2025</td>
         <td>October 16, 2025</td>
     </tr>     
   </tbody>
 </table> -->
+
+### 資源管理增強功能
+
+<table style="table-layout:auto">
+  <tbody>
+  <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md" class="MCXref xref" xrefformat="{para}">工作負載平衡器現在可在您的使用者設定檔上使用</a><p></p>
+            <p>所有使用者現在可以從他們的設定檔在工作負載平衡器中檢視他們自己的需求和容量資料，無論他們的存取層級如何。 當您存取Workfront使用者設定檔時，工作負載平衡器會出現在左側導覽面板中。</p>
+            <p>使用者的工作負載平衡器資料是唯讀的。 您不能在使用者層級指派工作、取消指派工作或調整配置。</p>
+        </td>
+        <td>2025年7月31日</td>
+        <td>2025年8月14日</td>
+        <td>2025年10月16日</td>
+    </tr> 
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md" class="MCXref xref" xrefformat="{para}">角色指派顯示在工作負載平衡器</a><p></p>
+            <p>資源管理員現在可以在工作負載平衡器檢視工作角色指派。 任務指派會顯示在「未指派的工作」區域中，位於指派角色的任務或問題下。 只有指派給使用者的工作專案才會顯示在「指派的工作」區域中。 </p>
+            <p>新的工作負載平衡器設定顯示角色指派確定是否顯示角色指派。 此設定預設為啟用。</p>
+        </td>
+        <td>2025年7月31日</td>
+        <td>2025年8月14日</td>
+        <td>2025年10月16日</td>
+    </tr>     
+  </tbody>
+</table>
 
 ### 其他增強功能
 
@@ -133,7 +207,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ### Workfront Fusion增強功能
 
-Workfront Fusion的新功能可在標準發行排程以外的生產環境中使用。 如需最新功能的詳細資訊，請參閱[Adobe Workfront Fusion發行活動](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
+Workfront Fusion的新功能可在標準發行排程以外的生產環境中使用。 如需最新功能的詳細資訊，請參閱[Adobe Workfront Fusion發行活動](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
 
 ### Workfront規劃增強功能
 
@@ -144,6 +218,18 @@ Workfront Planning的新功能可在生產環境中使用。 如需最新功能�
 * 情境規劃工具
 * 校樣
 * 目標
+
+## 案頭校訂檢視器更新
+
+### 版本2.1.52
+
+**所有客戶的生產版本： 2025年7月31日**
+
+案頭校訂檢視器已更新至2.1.52版，解決錯誤修正問題。
+
+2.1.51更新包含內部工具更新，不會影響一般使用者功能。
+
+此更新同時適用於Mac和Windows。
 
 ## 公告
 
@@ -170,7 +256,7 @@ Workfront Planning的新功能可在生產環境中使用。 如需最新功能�
 * 適用於Salesforce的Workfront。
 
 為了滿足貴組織與Google Workspace的整合需求，我們建議您使用Workfront自動化和整合。
-如需Workfront自動化與整合的概觀，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+如需Workfront自動化與整合的概觀，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 
 ### API 20版
 
@@ -182,8 +268,8 @@ Workfront API版本20已於2025年5月4日發行。 針對API 20版，我們已�
 
 ### Workfront 維護更新
 
-如需2025年第一季度期間所進行維護更新的相關資訊，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=zh-Hant)。
+如需2025年第一季度期間所進行維護更新的相關資訊，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)。
 
 ### 訓練更新
 
-探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[Workfront教學課程頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=zh-Hant)的「新增功能」一節。
+探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[Workfront教學課程頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的「新增功能」一節。
