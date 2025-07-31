@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: eafc56adab1fad3bbc1a4f3dc8f61e599ab21f57
+source-git-commit: db0a8e78454ffb5b85865265a273e21e99022f9f
 workflow-type: tm+mt
-source-wordcount: '6162'
+source-wordcount: '6262'
 ht-degree: 0%
 
 ---
@@ -84,15 +84,15 @@ For information, see [Edit project templates](/help/quicksilver/manage-work/proj
 
 如需詳細資訊，請參閱[管理專案團隊](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md)。
 
-<!--## Updated experience when editing a Queue Topic in a project or template
+## 更新在專案或範本中編輯佇列主題時的體驗
 
-**Preview release: July 31, 2025; Production release: August 7, 2025**
+**預覽版本： 2025年7月31日；生產版本： 2025年7月31日**
 
-We have updated the look and feel of a Queue Topic when editing it on a template. The Queue Topic editing page now matches the design of other areas of Workfront.
+我們在範本上編輯佇列主題時，已更新其外觀和風格。 佇列主題編輯頁面現在符合Workfront其他區域的設計。
 
-A small functionality change has been applied to the Routing Rules list. To edit A Queue Topic, select the Queue Topic from the list and click the Edit icon. You are no longer directed to the Queue Topic details page before you can edit.
+路由規則清單已套用小幅功能變更。 若要編輯佇列主題，請從清單中選取佇列主題，然後按一下編輯圖示。 在編輯之前，您不會再被導向至「佇列主題」詳細資訊頁面。
 
-For more information, see [Create Queue Topics](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).-->
+如需詳細資訊，請參閱[建立佇列主題](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)。
 
 ## 付費記錄的介面更新
 
@@ -824,7 +824,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 此更新包含區域的視覺化變更。 功能未變更。
 
-若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。**&#x200B;**
+若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。****
 
 +++
 
