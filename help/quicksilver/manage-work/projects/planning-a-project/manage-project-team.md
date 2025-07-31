@@ -7,25 +7,24 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: d77da0569389104172fc759c53a9eb00acec4f65
+source-git-commit: fe51ded26c57e3b7137e42ad2218d79adf032b85
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1280'
 ht-degree: 1%
 
 ---
 
 # 管理專案團隊
 
-<!--
-<div class="preview"> 
+<!--take preview and production references out at production - August 7-->
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
+<div class="preview">
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在預覽版發佈一週後，生產環境中也將提供相同功能給所有客戶。
 
-</div> 
+如需詳細資訊，請參閱[介面現代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。
 
--->
+</div>
 
 專案團隊由與專案相關聯的使用者組成。 如需詳細資訊，請參閱[專案團隊概述](/help/quicksilver/manage-work/projects/planning-a-project/project-team-overview.md)。
 
@@ -229,7 +228,7 @@ If users that don't fulfill any role on the project want to be notified about ce
 
 1. 按一下左側面板中的&#x200B;**人員**。
 
-1. 在清單中選取一或多個使用者，然後按一下[移除] **&#x200B;**&#x200B;以從團隊中移除這些使用者。
+1. 在清單中選取一或多個使用者，然後按一下[移除] ****&#x200B;以從團隊中移除這些使用者。
 
 1. 按一下&#x200B;**是，移除選取的使用者**&#x200B;以確認並移除使用者。
 
@@ -241,9 +240,9 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    或
 
-   在清單中選取一或多個使用者，然後按一下[更新]。**&#x200B;**
+   在清單中選取一或多個使用者，然後按一下[更新]。****
 
-   <!--update screen shot for unshim-->
+   <!--update screen shot for unshim production, notice the text above the box - it needs to say "Post an update to each person's profile"-->
 
    ![傳送更新給範本上的使用者方塊](assets/send-update-to-user-on-template-box.png)
 
@@ -251,26 +250,29 @@ If users that don't fulfill any role on the project want to be notified about ce
 
 1. 執行下列動作：
 
-   * 為選取的使用者新增更新。
-   * 按一下人員圖示可標籤其他使用者，以接收相同的更新。
-   * 按一下鎖定圖示，將更新設為貴公司使用者的私密更新。
-   * 按一下「**傳送**」。
+   * 在生產環境中：
 
-   <!--replace list above with:
+      * 為選取的使用者新增更新。
+      * 按一下人員圖示可標籤其他使用者，以接收相同的更新。
+      * 按一下鎖定圖示，將更新設為貴公司使用者的私密更新。
+      * 按一下「**傳送**」。
+
+   * <span class="preview">在預覽環境中： </span>
+
    <div class="preview">
 
-   * Add an update for the selected users.
-   * Click **Tag people** to tag additional users to receive the same update. 
-   * Select the **Private to my company** option to to make the update private to the users in your company. 
-   * Click **Send**. 
+   * 為選取的使用者新增更新。
+   * 按一下「**標籤人員**」以標籤接收相同更新的其他使用者。
+   * 選取&#x200B;**我的公司私有**&#x200B;選項，將更新設為貴公司使用者的私有。
+   * 按一下「**傳送**」。
+
    </div>
-   -->
 
    更新已新增到每個已標籤使用者設定檔的&#x200B;**更新**&#x200B;區段。
 
    使用者若已啟用，可能會收到電子郵件通知，並收到新更新的應用程式內通知。
 
-1. （選擇性）按一下[匯出&#x200B;**&#x200B;**]將使用者清單匯出至檔案
+1. （選擇性）按一下[匯出&#x200B;****]將使用者清單匯出至檔案
 
    或
 

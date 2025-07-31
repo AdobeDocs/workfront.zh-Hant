@@ -6,15 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: f4ea19368b664d0b3a47f93c70fd489685791538
+source-git-commit: fe51ded26c57e3b7137e42ad2218d79adf032b85
 workflow-type: tm+mt
-source-wordcount: '5201'
+source-wordcount: '5244'
 ht-degree: 1%
 
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=zh-Hant ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -358,7 +358,7 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 >數字欄位會在請求表單產生器中顯示為「單行」文字欄位型別。
 >
 >但是，欄位格式會保留，並且這些欄位的值將在提交請求後、在記錄型別和請求詳細資訊頁面中顯示為數字。
->&#x200B;>如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
+>>如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
 
 
 1. 依照本文中[從頭開始建立欄位](#create-fields-from-scratch)一節的說明開始建立欄位，然後選取&#x200B;**數字**&#x200B;欄位型別。
@@ -388,7 +388,7 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 >百分比欄位在請求表單產生器中顯示為單行文字欄位型別。
 >
 >但是，欄位格式會保留，並且這些欄位的值將在提交請求後，在記錄型別和請求詳細資訊頁面中顯示為百分比。
->&#x200B;>如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
+>>如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
 
 
 1. 依照本文中[從頭開始建立欄位](#create-fields-from-scratch)一節的說明開始建立欄位，然後選取&#x200B;**百分比**&#x200B;欄位型別。
@@ -428,7 +428,7 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 >貨幣欄位在請求表單產生器中顯示為單行文字欄位型別。
 >
 >但是，欄位格式會保留，並且這些欄位的值將在提交請求後，在記錄型別和請求詳細資訊頁面中顯示為貨幣。
->&#x200B;>如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
+>>如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
 
 1. 依照本文中[從頭開始建立欄位](#create-fields-from-scratch)一節的說明開始建立欄位，然後選取&#x200B;**貨幣**&#x200B;欄位型別。
 
@@ -482,8 +482,6 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 
 1. 按一下選取的運算式以顯示定義並檢視其格式。
 
-   <!--update screen shot for Maximize button-->
-
    ![公式運算式的描述](assets/description-of-formula-expression.png)
 
    如需支援哪些運算式的詳細資訊，請參閱[公式欄位概觀](/help/quicksilver/planning/fields/formula-fields.md)。
@@ -508,11 +506,10 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
    >![公式範例專案預算四個欄位已移除](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
-   <!--
-    1. <span class="preview">(Optional) Click **Maximize** to open the Formula box in a larger area. </span>
-           <span class="preview">The Formula box opens in a larger window. </span>
-    1. <span class="preview">(Optional and conditional) If you opened the Formula box in a larger area,click **Minimize** to return to the original formula field box.</span> 
-    -->
+1. （選擇性）按一下&#x200B;**最大化**，在較大的區域中開啟[公式]方塊。
+
+   「公式」方塊會在較大的視窗中開啟。
+1. （選擇性和條件式）如果您在較大的區域中開啟公式方塊，請按一下&#x200B;**最小化**&#x200B;以返回原始公式欄位方塊。
 
 1. 在&#x200B;**格式**&#x200B;欄位中，從下列選項中選取，以識別公式型別欄位中顯示結果的格式：
 

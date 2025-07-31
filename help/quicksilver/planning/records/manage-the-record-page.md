@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 567fa8c960f7db47279d6cde1f5e90dc7f38ae79
+source-git-commit: fe51ded26c57e3b7137e42ad2218d79adf032b85
 workflow-type: tm+mt
-source-wordcount: '2133'
+source-wordcount: '2241'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # 管理記錄頁面配置
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">本頁標示的資訊是指尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -182,7 +182,7 @@ ht-degree: 1%
 
      或
 
-     按一下&#x200B;**下移**&#x200B;將區段下移一個位置。
+     按一下&#x200B;**下移**將區段下移一個位置。
 區段中的所有欄位會隨著區段移動。
 
    * 按一下&#x200B;**刪除**&#x200B;以刪除區段。 該區段已刪除且無法復原。 所有存取此型別記錄的使用者將不再檢視已刪除的區段。
@@ -264,11 +264,16 @@ ht-degree: 1%
 
 * 從記錄型別的表格檢視中，將記錄或物件型別連線至記錄型別後，您可以將「已連線的記錄」頁面新增至記錄。
 
-* 您無法將「連線的記錄」頁面新增至記錄的預覽區域。<!--take this out when we release connected record pages to the record preview area-->
+* 在生產環境中，您無法將「連線的記錄」頁面新增到記錄的預覽區域。
+
+  <span class="preview">您可以在預覽環境中將[連線的記錄]頁面新增至記錄的預覽區域。</span>
 
 * 「連線的記錄」頁面在表格檢視中只會顯示連線的物件或來自一個物件或記錄型別的記錄。 頁面不會在表格檢視中顯示該型別的所有記錄。
 
-* 將「連線的記錄」頁面新增到記錄後，可從記錄的預覽區域看到頁面標籤，但為空白。 您必須移至完整頁面，才能檢視連線記錄的表格檢視。 &lt;！ — 這將隨著將連結的頁面發行到預覽區域而改變 — 檢查並取消免責宣告 — >
+* 根據您使用的環境，您可能會注意到下列內容：
+
+   * 在生產環境中，將「連線的記錄」頁面新增到記錄後，可以從記錄的預覽區域看到頁面索引標籤，但它是空的。 您必須移至完整頁面，才能檢視連線記錄的表格檢視。
+   * <span class="preview">在[預覽]環境中，[連線的記錄]頁面會從記錄的預覽區域和個別的瀏覽器標籤中顯示。</span>
 
 * 您可以為下列連線記錄或物件型別新增「連線記錄」頁面：
 
@@ -281,18 +286,11 @@ ht-degree: 1%
 
 若要新增「連線的記錄」頁面：
 
-<!--replace the first 2 steps with these steps when we release connected record page to the record preview area, if this goes both to Preview and Prod: 
+1. 按一下記錄名稱以開啟。
+1. 從下列其中一個區域按一下&#x200B;**新增頁面**：
 
-1. Click the name of the record to open it. 
-1. Click **Add page** from one of the following areas: 
-
-   * The record's preview window
-   * The record's details page, after clicking the **Open in new tab** icon ![Open details in a new tab icon](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview page.  
-
--->
-
-1. 從記錄頁面檢視中，按一下記錄名稱以開啟它，然後按一下預覽頁面右上角的&#x200B;**在新索引標籤中開啟**&#x200B;圖示![在新索引標籤中開啟詳細資料](assets/open-details-in-a-new-tab-icon.png)。
-1. 按一下&#x200B;**新增頁面**。
+   * <span class="preview">記錄的預覽視窗</span>
+   * 記錄的詳細資訊頁面，在按一下預覽頁面右上角的&#x200B;**在新索引標籤中開啟**&#x200B;圖示![在新索引標籤中開啟詳細資訊](assets/open-details-in-a-new-tab-icon.png)之後。
 
    **建立頁面**&#x200B;方塊開啟。
 
@@ -307,8 +305,6 @@ ht-degree: 1%
 
    依預設，連線的記錄表格的前五個欄位會顯示出來。 依預設，不會顯示任何查閱欄位。
 
-   <!--replace screen shot below when additional capabilities come to the table view - Fields, etc-->
-
    ![行銷活動詳細資料下的對象已連線資料表檢視](assets/audience-connected-table-view-under-campaign-details-page.png)
 
 1. （選擇性）在連線記錄的表格檢視中，執行下列任一項作業：
@@ -317,7 +313,7 @@ ht-degree: 1%
 
      這會開啟記錄的預覽頁面。 按一下右上角的&#x200B;**在新索引標籤中開啟**&#x200B;圖示![在新索引標籤中開啟](assets/open-details-in-a-new-tab-icon.png)以開啟連線記錄的頁面。
 
-   * 按一下[連線]&#x200B;**連線**&#x200B;以連線更多記錄，然後按一下連線方塊外部以關閉連線。 新記錄會自動新增到表格中。
+   * 按一下[連線]**連線**&#x200B;以連線更多記錄，然後按一下連線方塊外部以關閉連線。 新記錄會自動新增到表格中。
    * 編輯表格檢視內連線記錄的任何資訊。
 
    * 將游標停留在連線記錄的名稱上，然後按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下下列其中一個選項：
@@ -342,7 +338,7 @@ ht-degree: 1%
 
    或
 
-   將游標暫留在索引標簽名稱上，然後按一下[其他] **&#x200B;**&#x200B;![ [其他]功能表](assets/more-menu.png)，然後按一下[重新命名] **以重新命名為新的[連線檢視]索引標籤。**
+   將游標暫留在索引標簽名稱上，然後按一下[其他] **** ![ [其他]功能表](assets/more-menu.png)，然後按一下[重新命名] **以重新命名為新的[連線檢視]索引標籤。**
 1. （可選）使用工具列中的下列任何檢視元素來管理表格檢視：
 
    * 篩選器
@@ -358,7 +354,7 @@ ht-degree: 1%
    >
 
 1. 按一下&#x200B;**連線**&#x200B;以新增或移除記錄。 如需詳細資訊，請參閱[連線記錄](/help/quicksilver/planning/records/connect-records.md)
-1. （選擇性）將游標暫留在[連線的記錄]頁面索引標簽名稱上，按一下[其他] **&#x200B;**&#x200B;![ [其他]功能表](assets/more-menu.png)，然後按一下[刪除] **&#x200B;**&#x200B;以移除索引標籤。
+1. （選擇性）將游標暫留在[連線的記錄]頁面索引標簽名稱上，按一下[其他] **** ![ [其他]功能表](assets/more-menu.png)，然後按一下[刪除] ****&#x200B;以移除索引標籤。
 
 
 
