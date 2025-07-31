@@ -6,9 +6,9 @@ description: 當專案中的任務需要比您原本計畫更大的工作量完�
 author: Alina
 feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
-source-git-commit: b781687b175167784367a2fdec158d97fb3fd6a4
+source-git-commit: 0c45c768be1dda579e507f5f6ff4b127021a5f73
 workflow-type: tm+mt
-source-wordcount: '1142'
+source-wordcount: '1148'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計劃 </p> </td> 
+   <td> <p>規劃 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
@@ -53,7 +53,7 @@ ht-degree: 2%
 * 所有子任務、問題和附註都會彙總至新專案。
 * 檔案、檔案版本和校樣會移至新專案。
 * 所有子任務和問題的狀態和完成百分比會保留。
-* 任務的共用使用者會成為專案中的共用使用者。
+* 任務受指派人和將任務轉換為專案的使用者成為專案上的共用使用者。
 * 專案開始日期設定為任務的開始日期。
 * 下表列出專案資訊，以及專案資訊是從範本還是從作業轉移：
 
