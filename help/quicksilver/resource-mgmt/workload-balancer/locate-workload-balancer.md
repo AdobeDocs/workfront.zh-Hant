@@ -3,18 +3,20 @@ product-area: resource-management
 keywords: 工作，團隊，員工，資源
 navigation-topic: the-workload-balancer
 title: 找到工作負載平衡器
-description: 您可以使用工作負載平衡器來排程工作資源，或檢閱其使用狀態和目前配置。
+description: 工作負載平衡器可用於資源區域中的多個專案、團隊、專案和使用者。
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: a63c53652491a25b909b7563990d4375d8f5885f
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 1%
+source-wordcount: '841'
+ht-degree: 0%
 
 ---
 
 # 找到工作負載平衡器
+
+{{preview-fast-release-general}}
 
 您可以使用工作負載平衡器來排程工作資源，或檢閱其使用狀態和目前配置。
 
@@ -55,7 +57,8 @@ ht-degree: 1%
    <td><p>新增：標準</p>
        <p>或</p>
        <p>目前：計畫，在資源區域使用工作負載平衡器時；</br>
-       工作，使用團隊或專案的工作負載平衡器時</p></td>
+       工作，使用團隊或專案的工作負載平衡器時</p>
+       <p><span class="preview">注意：所有使用者都可以在他們自己的使用者設定檔中存取工作負載平衡器，不需要任何授權要求。</span></p></td>
   </tr> 
    <td role="rowheader">存取層級設定</td> 
    <td> <p>檢視以下專案或更高存取權：</p> 
@@ -94,7 +97,7 @@ ht-degree: 1%
    * **未指派的工作**：沒有未指派的工作專案。
    * **已指派的工作**：系統中的所有作用中使用者。
 
-     在「已指派的工作」區域顯示使用者時，我們建議使用篩選器。 如需詳細資訊，請參閱工作負載平衡器[&#128279;](../workload-balancer/filter-information-workload-balancer.md)中的篩選器資訊。
+     在「已指派的工作」區域顯示使用者時，我們建議使用篩選器。 如需詳細資訊，請參閱工作負載平衡器[中的](../workload-balancer/filter-information-workload-balancer.md)篩選器資訊。
 
 ### 存取團隊的工作負載平衡器
 
@@ -137,6 +140,27 @@ ht-degree: 1%
      >
      >您可以透過啟用「顯示所有使用者」選項來顯示系統中的所有使用者，而不是僅顯示專案上的使用者（在指派的工作區域中）。 如需詳細資訊，請參閱[瀏覽工作負載平衡器](../workload-balancer/navigate-the-workload-balancer.md)。
 
+<div class="preview">
+
+### 存取使用者的工作負載平衡器
+
+所有使用者都有權在其個人設定檔上檢視工作負載平衡器。 使用者的工作負載平衡器資料是唯讀的。 您不能在使用者層級指派工作、取消指派工作或調整配置。
+
+所有顯示設定都可供使用者使用於工作負載平衡器。 如需詳細資訊，請參閱[瀏覽工作負載平衡器](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。
+
+{{step1-click-profile-pic}}
+
+1. 按一下左側面板中的&#x200B;**工作負載平衡器**。
+
+   顯示使用者的工作負載平衡器。
+
+   ![使用者的工作負載平衡器](assets/workload-balancer-user.png)
+
+   依預設，使用者的工作負載平衡器會依資訊顯示以下內容：
+
+   * **指派的工作**：指派給特定使用者的任務和問題。
+
+</div>
 
 ## 將工作負載平衡器新增到自訂區段
 

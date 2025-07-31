@@ -6,14 +6,16 @@ description: 沒有正確的存取權或許可權，您可能無法在工作負�
 author: Lisa
 feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 78d73d0d7bd0ffc00ae1afed0adb324501e0c310
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '502'
 ht-degree: 0%
 
 ---
 
 # 管理工作負載平衡工具中的資源所需的存取權
+
+{{preview-fast-release-general}}
 
 沒有正確的存取權或許可權，您可能無法在工作負載平衡器中檢視或管理您的工作指派。
 
@@ -81,6 +83,8 @@ ht-degree: 0%
 </table>
 
 如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
+<span class="preview">所有使用者都有權在自己的設定檔上檢視工作負載平衡器。 這不受授權或存取層級的限制。 請注意，使用者設定檔上的工作負載平衡器是唯讀的，指派和配置無法變更。</span>
 
 ## 管理工作負載平衡器中指派所需的存取權
 

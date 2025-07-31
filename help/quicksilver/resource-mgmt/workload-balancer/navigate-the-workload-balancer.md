@@ -6,9 +6,9 @@ description: 使用工作負載平衡器瞭解資源的可用性，並將工作�
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: 2d674504274dcbb4a44da80694fac331d3f17d88
+source-git-commit: a63c53652491a25b909b7563990d4375d8f5885f
 workflow-type: tm+mt
-source-wordcount: '4271'
+source-wordcount: '4371'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 工作負載平衡器可在Adobe Workfront的多個區域使用。 導覽它在所有區域都類似。
 
-如需工作負載平衡器所在位置的詳細資訊，請參閱[找到工作負載平衡器](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer)。
+如需工作負載平衡器所在位置的詳細資訊，請參閱[找到工作負載平衡器](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer)。
 
 ## 存取需求
 
@@ -109,8 +109,8 @@ ht-degree: 0%
 
 如需有關使用工作負載平衡器管理資源的資訊，另請參閱下列文章：
 
-* [在工作負載平衡器](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)中指派工作的總覽
-* [在工作負載平衡器](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)中管理使用者配置
+* [在工作負載平衡器](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)中指派工作的總覽
+* [在工作負載平衡器](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)中管理使用者配置
 
 
 ## 在資源區域瀏覽工作負載平衡器多個專案
@@ -333,7 +333,7 @@ ht-degree: 0%
       * 在Windows中：按住CTRL鍵並按一下任務列或問題列。
       * 在Mac中： CMD按一下任務或問題列。
 
-     如需有關在工作負載平衡器中指派工作專案給使用者的詳細資訊，請參閱在工作負載平衡器中指派工作的概述[&#128279;](../workload-balancer/assign-work-in-workload-balancer.md)。
+     如需有關在工作負載平衡器中指派工作專案給使用者的詳細資訊，請參閱在工作負載平衡器中指派工作的概述[](../workload-balancer/assign-work-in-workload-balancer.md)。
 
      >[!NOTE]
      >
@@ -478,12 +478,37 @@ ht-degree: 0%
 
    如需詳細資訊，請參閱[協調專案與方案之間的資源配置總覽](../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md)。
 
-
    >[!NOTE]
    >
    >如果您的組織尚未購買Workfront Scenario Planner的授權，便無法檢視方案工作角色資訊。 在此情況下，您只能檢視與專案上工作角色相關的計畫時數。 如需詳細資訊，請參閱[使用Scenario Planner所需的存取權](../../scenario-planner/access-needed-to-use-sp.md)。
 
 1. 繼續瀏覽專案的工作負載平衡器，如本文的[瀏覽多個專案的工作負載平衡器](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area)區段中所述。
+
+<div class="preview">
+
+### 瀏覽使用者的工作負載平衡器
+
+您可以在自己的使用者設定檔上存取工作負載平衡器。
+
+{{step1-click-profile-pic}}
+
+1. 按一下左側面板中的&#x200B;**工作負載平衡器**。
+
+   顯示使用者的工作負載平衡器。
+
+   ![使用者的工作負載平衡器](assets/workload-balancer-user.png)
+
+   依預設，使用者的工作負載平衡器會依資訊顯示以下內容：
+
+   * **指派的工作**：指派給特定使用者的任務和問題。
+
+   >[!NOTE]
+   >
+   >使用者設定檔上的工作負載平衡器是唯讀的，指派和分配無法變更。
+
+1. 繼續瀏覽使用者的工作負載平衡器，如本文的[瀏覽多個專案的工作負載平衡器](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area)區段中所述。
+
+</div>
 
 <!--old content below - this used to be a one-large-procedure article - outdated, and rewrote it above with several smaller procedures: 
 
