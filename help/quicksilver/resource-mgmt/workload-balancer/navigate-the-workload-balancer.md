@@ -6,14 +6,16 @@ description: 使用工作負載平衡器瞭解資源的可用性，並將工作�
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: 2d674504274dcbb4a44da80694fac331d3f17d88
 workflow-type: tm+mt
-source-wordcount: '4068'
+source-wordcount: '4271'
 ht-degree: 0%
 
 ---
 
 # 瀏覽工作負載平衡器
+
+{{preview-fast-release-general}}
 
 <!--Audited: 12/2024-->
 
@@ -21,7 +23,7 @@ ht-degree: 0%
 
 工作負載平衡器可在Adobe Workfront的多個區域使用。 導覽它在所有區域都類似。
 
-如需工作負載平衡器所在位置的詳細資訊，請參閱[找到工作負載平衡器](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer)。
+如需工作負載平衡器所在位置的詳細資訊，請參閱[找到工作負載平衡器](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer)。
 
 ## 存取需求
 
@@ -38,7 +40,7 @@ ht-degree: 0%
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
    <td><p>新增：標準</p>
        <p>或</p>
        <p>目前：計畫，在資源區域使用工作負載平衡器時；</br>
@@ -62,7 +64,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*如需此表格中資訊的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -80,8 +82,9 @@ ht-degree: 0%
   >* 指派給工作角色或團隊的工作專案，以及指派給使用者的工作專案，會顯示在「未指派的工作」區域中，並在「已指派的工作」區域中的已指派使用者名稱下方。
   >* 指派給使用者和工作角色的工作專案（工作角色被選取為專案的主要受指派者）會顯示在「未指派的工作」區域中。
   >* 指派給多個使用者的工作專案會顯示在「已指派的工作」區域中所有已指派使用者的名稱下。
+  >* 啟用[顯示角色指派]設定時，<span class="preview">角色指派會顯示在[未指派的工作]區域的工作專案下。 如需詳細資訊，請參閱本文章的[自訂檢視](#customize-the-view)一節。</span>
 
-  如需詳細資訊，請參閱工作負載平衡器[&#128279;](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)中指派工作的總覽中的「工作負載平衡器中的指派區域」。
+  如需詳細資訊，請參閱[工作負載平衡器](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md#assignment-areas-in-the-workload-balancer)中指派工作的總覽[工作負載平衡器](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)中的指派區域。
 
 * 當專案在一段時間內沒有任務時，專案層級的列在該時間內為空白。
 
@@ -106,8 +109,8 @@ ht-degree: 0%
 
 如需有關使用工作負載平衡器管理資源的資訊，另請參閱下列文章：
 
-* [在工作負載平衡器](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)中指派工作的總覽
-* [在工作負載平衡器](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)中管理使用者配置
+* [在工作負載平衡器](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)中指派工作的總覽
+* [在工作負載平衡器](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)中管理使用者配置
 
 
 ## 在資源區域瀏覽工作負載平衡器多個專案
@@ -137,7 +140,9 @@ ht-degree: 0%
       * 指派給角色、團隊或未指派的工作專案（任務和問題）會在您套用篩選器後顯示。
 依預設，「未指派的工作」區域不會顯示任何工作專案。 我們建議使用篩選器在此區域顯示您的相關資訊。
 
-        如需有關使用篩選的資訊，請參閱工作負載平衡器[&#128279;](../workload-balancer/filter-information-workload-balancer.md)中的篩選資訊。
+        如需有關使用篩選的資訊，請參閱工作負載平衡器[中的](../workload-balancer/filter-information-workload-balancer.md)篩選資訊。
+
+      * <span class="preview">工作專案下的角色指派只有在您啟用[顯示角色指派]設定時才會顯示。 如需詳細資訊，請參閱本文章的[自訂檢視](#customize-the-view)一節。</span>
 
       * 專案僅在您啟用依專案分組設定時顯示。 如需詳細資訊，請參閱本文中的[自訂檢視](#customize-the-view)一節。
 
@@ -161,7 +166,7 @@ ht-degree: 0%
             > 
             >如需自訂設定的相關資訊，請參閱本文中的[自訂檢視](#customize-the-view)一節。
 
-1. （選擇性）在&#x200B;**指派的工作**&#x200B;區域中按一下&#x200B;**篩選器**&#x200B;圖示![篩選器圖示](assets/filter-icon.png)，然後在篩選器方塊的&#x200B;**建議**&#x200B;區域中選取&#x200B;**預設篩選器**。
+1. （選擇性）在&#x200B;**指派的工作**&#x200B;區域中按一下![篩選器](assets/filter-icon.png)圖示&#x200B;**篩選器圖示**，然後在篩選器方塊的&#x200B;**建議**&#x200B;區域中選取&#x200B;**預設篩選器**。
 
    套用「預設」篩選器時，屬於您任何團隊的使用者及其工作專案都會顯示。 您可以編輯此篩選的復本。
 
@@ -212,7 +217,7 @@ ht-degree: 0%
 
 1. （選擇性和建議性）使用「未指派工作」和「已指派工作」區域中的篩選器，僅顯示與您相關的工作專案或使用者。
 
-   如需詳細資訊，請參閱工作負載平衡器[&#128279;](../workload-balancer/filter-information-workload-balancer.md)中的篩選器資訊。
+   如需詳細資訊，請參閱工作負載平衡器[中的](../workload-balancer/filter-information-workload-balancer.md)篩選器資訊。
 
    根據預設，藍色列代表專案和任務的時間表，而栗色列代表問題。
 
@@ -239,6 +244,10 @@ ht-degree: 0%
 
    「設定」面板會顯示在右側。
 
+   <span class="preview">預覽環境中的範例影像：</span>
+   ![工作負載平衡器設定面板](assets/workload-balancer-settings.png)
+
+   生產環境中的影像範例：
    ![設定面板](assets/settings-box-options-global-with-color-theme-and-percentage-wb-nwe.png)
 
    從下列選項中選取以更新您在工作負載平衡器中檢視的資訊，然後按一下「設定」方塊右上角的&#x200B;**X圖示**&#x200B;以關閉它。
@@ -260,6 +269,8 @@ ht-degree: 0%
 
      任務或問題列完成時，其右上角會顯示綠色核取記號圖示。 當專案所選時間範圍內的任務或問題完成時，專案會顯示相同的圖示。
    * **顯示剩餘時間**：啟用此功能後，Workfront會根據使用者的排程，顯示使用者每天可工作的時間，與使用者在指派的工作區域中所分配的時間之間的差異。 依預設會停用此專案，並依預設顯示配置時間。
+   * <span class="preview">**顯示角色指派**：啟用時，角色指派會顯示在未指派的工作區域中，在其指派的工作專案下。 預設為啟用。</span>
+
    * 在&#x200B;**選取顏色佈景主題**&#x200B;區段中，選取專案與工作列的所要顏色。
 
      >[!TIP]
@@ -304,24 +315,29 @@ ht-degree: 0%
    >* 您必須啟用依專案分組設定以顯示專案的每日計畫時數。
    >* 當您按周檢視工作負載平衡器時，顯示的時數是每週計畫時數。
 
-
 1. （選用）將滑鼠指標暫留在使用者列中的已分配時間上，以瞭解使用者的容量和配置。 容量是根據使用者的排程提供使用者的可用性。
 
    ![配置的時間詳細資料](assets/overallocation-vs-capacity-tooltip-wb-nwe.png)
 
 1. （選擇性）按一下&#x200B;**隱藏配置圖示** ![顯示配置圖示](assets/show-allocations-icon-small.png)，在工作專案的長條中顯示任務和問題的名稱。
-1. 按一下任務或問題名稱右側的&#x200B;**更多功能表**&#x200B;圖示![更多圖示](assets/more-icon.png)，然後按一下下列其中一個選項。
+1. 按一下任務、問題、**或角色**&#x200B;名稱右側的![更多功能表](assets/more-icon.png)圖示<span class="preview">更多圖示</span>，然後按一下下列其中一個選項。
 
    ![更多功能表](assets/more-menu-right-of-task-350x104.png)
 
    * **將此指派給**，然後開始在&#x200B;**搜尋人員、角色或團隊**&#x200B;欄位中輸入您要指派工作專案的使用者、角色或團隊名稱。
+
+     按一下&#x200B;**進階**&#x200B;以存取工作專案的進階工作分派畫面。 如需詳細資訊，請參閱[建立進階工作分派](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md)。
 
      您也可以使用下列捷徑來指派任務或問題：
 
       * 在Windows中：按住CTRL鍵並按一下任務列或問題列。
       * 在Mac中： CMD按一下任務或問題列。
 
-     如需有關在工作負載平衡器中指派工作專案給使用者的詳細資訊，請參閱在工作負載平衡器中指派工作的概述[&#128279;](../workload-balancer/assign-work-in-workload-balancer.md)。
+     如需有關在工作負載平衡器中指派工作專案給使用者的詳細資訊，請參閱在工作負載平衡器中指派工作的概述[](../workload-balancer/assign-work-in-workload-balancer.md)。
+
+     >[!NOTE]
+     >
+     ><span class="preview">啟用[顯示角色指派]設定時，角色指派只會顯示在[未指派的工作]區域的工作專案下。 如需詳細資訊，請參閱本文中的[自訂檢視](#customize-the-view)一節。 角色指派在&#x200B;**更多功能表**.**中只有**&#x200B;將此指派給</span>選項
 
      >[!TIP]
      >
@@ -397,7 +413,6 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**結束全熒幕**&#x200B;圖示![結束全熒幕圖示](assets/exit-full-screen.png)以返回預設熒幕，並在瀏覽器索引標籤內檢視工作負載平衡器。
 
-
 ## 瀏覽團隊的工作負載平衡器
 
 瀏覽團隊的工作負載平衡器類似於瀏覽多個專案的工作負載平衡器。 如需詳細資訊，請參閱本文中的[瀏覽多個專案的工作負載平衡器](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area)一節。
@@ -412,7 +427,7 @@ ht-degree: 0%
 
    依預設，團隊的工作負載平衡器顯示以下資訊：
 
-   * 在&#x200B;**未指派的工作**&#x200B;區域中：指派給團隊或團隊和工作角色的工作專案，以及未指派給使用者的工作專案。
+   * 在&#x200B;**未指派的工作**&#x200B;區域中：指派給團隊或團隊和工作角色的工作專案，以及未指派給使用者的工作專案。 啟用[顯示角色指派]設定時，<span class="preview">角色指派會顯示在[未指派的工作]區域的工作專案下。</span>
    * 在&#x200B;**指派的工作**&#x200B;區域中：指派給使用者的工作專案會顯示在使用者的名稱下。
 
 1. 繼續瀏覽團隊的工作負載平衡器，如本文的[瀏覽資源區域](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area)區段中多個專案的工作負載平衡器。
@@ -428,12 +443,12 @@ ht-degree: 0%
 
    預設情況下，專案的工作負載平衡器顯示以下資訊：
 
-   * 在&#x200B;**未指派的工作**&#x200B;區域中：專案上已指派給角色或團隊且未指派給使用者的工作專案。
+   * 在&#x200B;**未指派的工作**&#x200B;區域中：專案上已指派給角色或團隊且未指派給使用者的工作專案。 啟用[顯示角色指派]設定時，<span class="preview">角色指派會顯示在[未指派的工作]區域的工作專案下。</span>
    * 在&#x200B;**已指派的工作**&#x200B;區域中：專案上已指派給至少一個使用者的工作專案。
 
    我們建議使用篩選器來只顯示對您重要的使用者。
 
-   例如，您可以考慮只顯示屬於您團隊或群組的使用者。 如需詳細資訊，請參閱工作負載平衡器[&#128279;](../workload-balancer/filter-information-workload-balancer.md)中的篩選器資訊。
+   例如，您可以考慮只顯示屬於您團隊或群組的使用者。 如需詳細資訊，請參閱工作負載平衡器[中的](../workload-balancer/filter-information-workload-balancer.md)篩選器資訊。
 
 1. （選擇性）按一下指派的工作區域中的&#x200B;**篩選器**&#x200B;圖示![篩選器圖示](assets/filter-icon.png)，然後從篩選器面板的&#x200B;**建議**&#x200B;區域選取&#x200B;**此專案的工作專案**&#x200B;選項。 預設會取消選取此篩選器。
 
@@ -449,7 +464,7 @@ ht-degree: 0%
 
    例如，您可能想要先篩選屬於您團隊或群組的使用者，然後顯示所有這些使用者。
 
-   如需有關如何建立篩選的資訊，請參閱工作負載平衡器[&#128279;](../workload-balancer/filter-information-workload-balancer.md)中的篩選資訊。
+   如需有關如何建立篩選的資訊，請參閱工作負載平衡器[中的](../workload-balancer/filter-information-workload-balancer.md)篩選資訊。
 
    >[!NOTE]
    >

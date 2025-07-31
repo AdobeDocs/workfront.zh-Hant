@@ -6,14 +6,16 @@ description: 身為資源管理員，您可以使用Adobe Workfront工作負載�
 author: Lisa
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
+source-git-commit: 6db33763294bc9fa343bb010b318fbcceccfff4c
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1058'
 ht-degree: 1%
 
 ---
 
 # 在工作負載平衡器中指派工作的總覽
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 5/2025 -->
 
@@ -144,11 +146,11 @@ Workfront使用下列資訊在工作負載平衡器中計算使用者的容量�
  </tbody> 
 </table>
 
-&#42;將工作專案指派給使用者和角色時，只有當角色是主要受指派人時，它才會顯示在「未指派的工作」區域中。
+&#42;將工作專案指派給使用者和角色時，只有當角色是主要受指派人時，它才會顯示在「未指派的工作」區域中。 啟用<span class="preview">顯示角色指派&#x200B;**設定時，**&#x200B;角色指派會顯示在未指派的工作區域的工作專案下。</span>
 
 &#42;&#42;將工作專案指派給使用者和另一個實體時，只有當使用者是主要受指派人時，它才會顯示在「已指派的工作」區域中。
 
-如需有關工作負載平衡器的未指派和已指派區域的詳細資訊，請參閱[瀏覽工作負載平衡器](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。
+如需有關工作負載平衡器的未指派和已指派工作區域以及工作負載平衡器設定的詳細資訊，請參閱[瀏覽工作負載平衡器](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。
 
 ## 對工作角色、團隊和使用者的多個指派的考量事項
 
