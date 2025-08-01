@@ -1,24 +1,24 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: 在儀表板中排列報表
+title: 在畫布控制面板中排列報表
 description: 您可以排列報告新增到畫布控制面板後，在畫布控制面板中的顯示方式。
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
 
-# 在儀表板中排列報表
+# 在畫布控制面板中排列報表
 
 >[!IMPORTANT]
 >
 >畫布儀表板功能目前僅適用於參與Beta階段的使用者。 如需詳細資訊，請參閱[畫布控制面板Beta版資訊](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)。
 
-將報表新增到儀表板後，會在儀表板中顯示為報表Widget，以便您快速將報表資料視覺化。 新增多個報表後，建議重新排列每個Widget的大小和順序，以更有效率地顯示儀表板資料。
+將報表新增至「畫布控制面板」後，會在控制面板中顯示為報表Widget，讓您快速將資料視覺化。 新增多個報表後，建議重新排列每個Widget的大小和順序，以更有效率地顯示儀表板資料。
 
 +++ 展開以檢視存取需求。
 

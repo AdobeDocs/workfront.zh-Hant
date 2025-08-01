@@ -1,18 +1,18 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: 變更儀表板的名稱或說明
+title: 變更畫布控制面板的名稱或說明
 description: 您可以在畫布控制面板建立後，編輯其名稱或說明。
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '212'
 ht-degree: 1%
 
 ---
 
-# 變更儀表板的名稱或說明
+# 變更畫布控制面板的名稱或說明
 
 >[!IMPORTANT]
 >
@@ -65,7 +65,7 @@ ht-degree: 1%
 
 您必須先建立儀表板，才能變更其名稱或說明。
 
-如需詳細資訊，請參閱[建立畫布儀表板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)。
+如需詳細資訊，請參閱[建立畫布控制面板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)。
 
 
 ## 變更控制面板的名稱和說明

@@ -1,18 +1,18 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: 建立儀表板：文章索引
+title: 建立畫布控制面板：文章索引
 description: 檢視本節中的文章。
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: 9974e36905d35afa0f6c87e06ace3074d24707cf
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '47'
+source-wordcount: '49'
 ht-degree: 0%
 
 ---
 
-# 建立儀表板：文章索引
+# 建立畫布控制面板：文章索引
 
 >[!IMPORTANT]
 >

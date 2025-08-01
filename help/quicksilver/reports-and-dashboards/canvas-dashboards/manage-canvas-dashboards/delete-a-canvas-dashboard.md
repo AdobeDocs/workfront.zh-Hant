@@ -1,24 +1,24 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: 刪除儀表板
+title: 刪除畫布控制面板
 description: 您可以排列報告新增到畫布控制面板後，在畫布控制面板中的顯示方式。
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '198'
 ht-degree: 0%
 
 ---
 
-# 刪除儀表板
+# 刪除畫布控制面板
 
 >[!IMPORTANT]
 >
 >畫布儀表板功能目前僅適用於參與Beta階段的使用者。 如需詳細資訊，請參閱[畫布控制面板Beta版資訊](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)。
 
-當您不再需要畫布儀表板時，可以將其從Adobe Workfront中移除。
+當您不再需要畫布控制面板時，可以將其從Adobe Workfront中移除。
 
 
 +++ 展開以檢視存取需求。
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 您必須先建立儀表板，然後才能將其刪除。
 
-如需詳細資訊，請參閱[建立畫布儀表板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)。
+如需詳細資訊，請參閱[建立畫布控制面板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)。
 
 ## 刪除儀表板
 

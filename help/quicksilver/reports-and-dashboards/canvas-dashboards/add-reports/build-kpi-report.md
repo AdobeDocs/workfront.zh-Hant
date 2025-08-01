@@ -1,19 +1,19 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: 建立KPI報告
+title: 在畫布控制面板中建立KPI報告
 description: 主要顯示單一彙總KPI的KPI報告可新增至畫布控制面板。
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
-source-git-commit: 981d86fa7d54d9d26c0a2b6142db98d5989cbed2
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
 
-# 建立KPI報告
+# 在畫布控制面板中建立KPI報告
 
 >[!IMPORTANT]
 >

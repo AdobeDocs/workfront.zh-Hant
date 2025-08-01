@@ -1,26 +1,26 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: 編輯報告篩選器
+title: 在畫布控制面板中編輯報告篩選器
 description: 報告篩選器套用至畫布控制面板後，您就可以編輯這些篩選器。
 author: Courtney and Jenny
 feature: Reports and Dashboards
 hidefromtoc: true
 hide: true
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '244'
 ht-degree: 1%
 
 ---
 
-# 編輯報告篩選器
+# 在畫布控制面板中編輯報告篩選器
 
 >[!IMPORTANT]
 >
 >畫布儀表板功能目前僅適用於參與Beta階段的使用者。 如需詳細資訊，請參閱[畫布控制面板Beta版資訊](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)。
 
-將報表篩選器套用至畫布控制面板後，您就可以編輯報表篩選器，以更新專案進行時所顯示的資料。
+將報表篩選器套用至畫布控制面板後，您就可以編輯報表篩選器，以更新專案進度時顯示的資料。
 
 +++ 展開以檢視存取需求。
 

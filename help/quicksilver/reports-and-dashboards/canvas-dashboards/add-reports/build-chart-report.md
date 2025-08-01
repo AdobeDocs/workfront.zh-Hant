@@ -1,19 +1,19 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: 建立圖表報告
+title: 在畫布儀表板中建立圖表報告
 description: 可將您的資料視覺化為橫條、欄、折線圖或圓餅圖的圖表報表，可新增至畫布控制面板。
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: 981d86fa7d54d9d26c0a2b6142db98d5989cbed2
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1045'
 ht-degree: 0%
 
 ---
 
-# 建立圖表報告
+# 在畫布儀表板中建立圖表報告
 
 >[!IMPORTANT]
 >

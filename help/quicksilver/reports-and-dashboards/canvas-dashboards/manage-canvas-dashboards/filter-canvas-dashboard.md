@@ -1,20 +1,20 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: 篩選儀表板
+title: 篩選畫布控制面板
 description: 建立畫布控制面板後，您就可以將篩選器套用至控制面板。
 author: Courtney and Jenny
 feature: Reports and Dashboards
 hidefromtoc: true
 hide: true
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
 
-# 篩選儀表板
+# 篩選畫布控制面板
 
 >[!IMPORTANT]
 >
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 您必須先建立控制面板，然後才能進行篩選。
 
-如需詳細資訊，請參閱[建立畫布儀表板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)。
+如需詳細資訊，請參閱[建立畫布控制面板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)。
 
 ## 篩選儀表板
 

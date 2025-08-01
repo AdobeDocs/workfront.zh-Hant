@@ -1,24 +1,24 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: 刪除報告
+title: 刪除畫布控制面板中的報告
 description: 您可以從「畫布」控制面板刪除報表。
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
 
-# 刪除報告
+# 刪除畫布控制面板中的報告
 
 >[!IMPORTANT]
 >
 >畫布儀表板功能目前僅適用於參與Beta階段的使用者。 如需詳細資訊，請參閱[畫布控制面板Beta版資訊](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)。
 
-建立控制面板且新增報表後，您就可以刪除不再適用於該特定控制面板的舊版報表。
+建立「畫布控制面板」且新增報表後，您可以刪除不再適用於該特定控制面板的舊版報表。
 
 刪除報告是永久性的。 如果在刪除報告後需要重新新增報告，則需要重新建立報告。
 

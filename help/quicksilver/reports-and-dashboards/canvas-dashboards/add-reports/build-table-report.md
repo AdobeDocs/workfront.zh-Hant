@@ -1,19 +1,19 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: 建立表格報告
+title: 在畫布儀表板中建立表格報告
 description: 您可以將表格報表新增至畫布控制面板，以使用表格格式視覺化您的資料。
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
-source-git-commit: 981d86fa7d54d9d26c0a2b6142db98d5989cbed2
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
 
-# 建立表格報告
+# 在畫布儀表板中建立表格報告
 
 >[!IMPORTANT]
 >

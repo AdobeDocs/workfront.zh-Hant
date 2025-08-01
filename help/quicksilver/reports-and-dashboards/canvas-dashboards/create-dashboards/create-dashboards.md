@@ -5,7 +5,7 @@ title: 建立畫布控制面板
 description: 有了畫布控制面板，您可以建立報表並新增至可自訂的控制面板，以便快速將您的帳戶資料視覺化。
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: ba9256255905e139c281099555a6d129fc570984
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 0%

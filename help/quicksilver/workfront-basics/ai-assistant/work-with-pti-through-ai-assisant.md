@@ -5,10 +5,10 @@ description: 您可以使用「摘要」這項功能，快速摘要工作專案�
 author: Becky
 feature: Get Started with Workfront
 exl-id: 5b0e1002-b6e9-4354-9ead-643de1de5bab
-source-git-commit: 1b11eb212f8eb980361cfd22a07ac17be71d4472
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 1%
+source-wordcount: '182'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ AI助理可以協助您在Workfront中找到專案、任務和問題。
 
 ## 存取需求
 
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視本文中功能的存取需求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -28,13 +28,11 @@ AI助理可以協助您在Workfront中找到專案、任務和問題。
   <tr> 
    <td role="rowheader">Adobe Workfront計畫</td> 
    <td><p>新增：任何</p>
-       <p>或</p>
        <p>目前：無法使用</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td><p>新增：標準</p>
-       <p>或</p>
        <p>目前：無法使用</p></td>
   </tr> 
  </tbody> 
@@ -42,20 +40,23 @@ AI助理可以協助您在Workfront中找到專案、任務和問題。
 
 如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-
++++
 
 ## 尋找工作專案
 
 1. 按一下熒幕右上角附近的&#x200B;**AI小幫手**&#x200B;圖示![AI小幫手圖示](assets/ai-assistant-icon.png)。
-1. 輸入提示，例如
+1. 輸入提示，例如：
 
-   * 尋找本週到期的工作
-   * 專案「春季行銷活動」中有哪些問題
-   * 尋找處於目前狀態的專案
+   * *尋找本週到期的工作*
+   * *專案「春季行銷活動」有哪些問題*
+   * *尋找目前狀態的專案*
 
-   AI Assistant可能需要一些時間來尋找資訊，這取決於提示的大小或複雜程度以及需要搜尋的記錄數。
-1. 在AI助理面板中檢視回應。
-1. （可選）若要移至工作專案，請按一下AI助理面板中的連結。
+   >[!NOTE]
+   >
+   > AI助理可能需要一些時間來尋找資訊，這取決於提示的大小或複雜程度以及它需要搜尋的記錄數量。
+1. 在&#x200B;**AI小幫手**&#x200B;面板中檢視回應。
+1. （選擇性）若要移至工作專案，請按一下&#x200B;**AI助理**&#x200B;面板中的連結。
+
 
 <!--
 

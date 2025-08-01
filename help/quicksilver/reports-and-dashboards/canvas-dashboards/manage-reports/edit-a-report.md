@@ -1,24 +1,24 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: 編輯報告
+title: 在畫布控制面板中編輯報告
 description: 您可以在畫布控制面板報表建立後加以編輯。
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
 
-# 編輯報告
+# 在畫布控制面板中編輯報告
 
 >[!IMPORTANT]
 >
 >畫布儀表板功能目前僅適用於參與Beta階段的使用者。 如需詳細資訊，請參閱[畫布控制面板Beta版資訊](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)。
 
-將報表新增到儀表板後，您可以編輯報表的資訊以變更儀表板中顯示的資料。
+將報表新增至畫布控制面板後，您可以編輯報表資訊以變更控制面板中顯示的資料。
 
 對報告所做的任何變更都將影響對包含該報告的儀表板具有存取權的所有使用者。
 
