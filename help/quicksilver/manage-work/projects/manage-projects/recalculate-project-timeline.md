@@ -6,9 +6,9 @@ description: 重新計算時間表可讓經理檢視與專案相關的不同因�
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
-source-git-commit: 3dfb30646e8a967264f7e562441a52a059d73d32
+source-git-commit: d846f2f90a8ca2a38c1b18897341cb50f4c5aef4
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視存取需求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,9 +39,8 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：標準 </p> 
-   或
-   <p>目前：計畫 </p>
+   <td> <p>標準 </p> 
+    <p>規劃 </p>
    </td> 
   </tr> 
   <tr> 
@@ -63,17 +62,21 @@ ht-degree: 0%
 
 根據預設，專案時間表會在每天或每晚變更專案範圍時自動重新計算。 Workfront管理員藉由管理「設定」中「專案偏好設定」區域的「時間表」設定，決定是每晚自動計算時間表，還是隨著每次範圍變更自動計算時間表。 如需詳細資訊，請參閱[設定專案的時間表重新計算](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)。
 
->[!NOTE]
+>[!IMPORTANT]
 >
->如果專案的時間表超過15年，則該專案的自動重新計算功能會停用，而且您只能選取「手動」更新型別。 如果您將專案日期變更為少於15年，則必須在自動計算時間表之前手動重新計算一次。
+>* 如果專案的時間表超過15年，則該專案的自動重新計算功能會停用，而且您只能選取「手動」更新型別。 如果您將專案日期變更為少於15年，則必須在自動計算時間表之前手動重新計算一次。
+>* 針對「預覽」和「自訂重新整理沙箱」環境，會停用每晚重新計算，且不會自動重新計算專案時間表。 您必須手動重新計算預覽和自訂重新整理沙箱環境的專案時間表。
+>* 如果專案複雜，則可能不會發生自動重新計算時間表的情況。
+>  > 複雜專案的範例可能是具有多個相依性、大量任務、多個跨專案前置任務或多個任務縮排的專案。
+>  > Workfront會在專案頁面上的專案名稱右側放置警告，以建議使用者必須手動重新計算專案時間表。 只有具有專案管理許可權的使用者才能手動重新計算時間表。
+>
+>   ![](assets/project-warning-to-manually-recalculate-timeline.png)
+>
 
 * [自動重新計算專案時間表](#automatic-recalculation-of-project-timelines)
 * [觸發自動重新計算專案時程表的動作](#actions-that-trigger-an-automatic-recalculation-of-project-timelines)
 
 
->[!IMPORTANT]
->
->針對「預覽」和「自訂重新整理沙箱」環境，會停用每晚重新計算，且不會自動重新計算專案時間表。 您必須手動重新計算預覽和自訂重新整理沙箱環境的專案時間表。
 
 ### 自動重新計算專案時間表 {#automatic-recalculation-of-project-timelines}
 
@@ -175,7 +178,7 @@ If the timeline of a project is longer than 15 years, the automatic recalculatio
 >根據您專案的複雜性，我們建議不要在大量編輯專案時選取大量專案，以確保最佳效能。 某些因素會導致專案過於複雜，例如依賴關係或指派過多，或是自訂欄位過多。
 
 1. 前往專案清單。
-1. 選取清單中的多個專案，然後按一下[編輯]。**&#x200B;**
+1. 選取清單中的多個專案，然後按一下[編輯]。****
 1. 按一下&#x200B;**設定**，然後選取&#x200B;**重新計算時間表**。
 
 1. 按一下「**儲存變更**」。
