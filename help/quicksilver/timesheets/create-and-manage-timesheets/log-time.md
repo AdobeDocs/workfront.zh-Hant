@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: f7cb314067d105d5534f4be356024aea8e8f9a28
+source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
 workflow-type: tm+mt
-source-wordcount: '4065'
+source-wordcount: '4064'
 ht-degree: 0%
 
 ---
@@ -50,12 +50,13 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>新增：</p>
+   <td> 
    <ul><li> 將工作、問題或一般時數的小時記錄到時程表上的輕度或更高</li>
    <li>在專案上記錄時數的標準</li></ul>
 
-<p>目前： 
-   <ul><li>檢閱或更高版本以在時程表中記錄一般時數</li>
+<p>或： </p>
+
+<ul><li>檢閱或更高版本以在時程表中記錄一般時數</li>
    <li>在專案、任務或問題上記錄小時數的工作或更高</li></ul> </td> 
   </tr> 
   <tr> 
@@ -140,7 +141,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 1. （選擇性）展開篩選、檢視或群組下拉式功能表，以套用或自訂其中一個功能表，並檢視您想要的專案資訊。
 
-1. 在清單中選取一或多個專案，然後按一下[新增]。**&#x200B;**
+1. 在清單中選取一或多個專案，然後按一下[新增]。****
 
    如果您一次新增的專案少於50個，這些專案會新增到時程表中。 任務和問題會列在專案名稱下。
 
@@ -151,9 +152,9 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 1. （視條件而定）如果您一次新增50個或更多專案，會顯示一則確認訊息，顯示新增至時程表的專案數量。
 
-   按一下&#x200B;**全部新增**&#x200B;以新增所有專案
+   按一下&#x200B;**全部新增**以新增所有專案
 或
-按一下&#x200B;**取消**&#x200B;停止新增選取的專案，然後按一下&#x200B;**取消**&#x200B;關閉專案清單。
+按一下**取消**&#x200B;停止新增選取的專案，然後按一下&#x200B;**取消**&#x200B;關閉專案清單。
 
    任務和問題會列在專案名稱下。
 

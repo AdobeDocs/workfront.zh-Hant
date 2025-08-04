@@ -7,9 +7,9 @@ description: 建立範本後，您可以編輯有關範本任務的資訊。 使
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
 workflow-type: tm+mt
-source-wordcount: '2420'
+source-wordcount: '2493'
 ht-degree: 4%
 
 ---
@@ -31,9 +31,7 @@ ht-degree: 4%
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
-
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視存取需求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,8 +43,8 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>新增：標準 </p>
-   <p>目前：計畫 </p> </td> 
+   <td> <p>標準 </p>
+   <p>規劃 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級</td> 
@@ -80,7 +78,9 @@ ht-degree: 4%
 1. 按一下範本名稱以開啟。
 1. 按一下左側面板中的&#x200B;**範本任務**。
 1. 按一下清單中範本任務的名稱以開啟範本任務。
-1. （選擇性）若要大量編輯數個範本工作，請選取多個範本工作，然後按一下範本清單頂端的&#x200B;**編輯**。
+1. （選擇性）按一下左側面板中的&#x200B;**前置任務**&#x200B;區段，為範本任務新增前置任務。 新增範本任務前置任務與新增專案任務前置任務類似。 如需詳細資訊，請參閱[使用前置任務區域建立前置任務關係](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md)。
+1. （選擇性）按一下左側面板中的&#x200B;**子任務**&#x200B;區段，為範本任務新增子系。 為範本任務新增子任務與新增專案任務子任務類似。 如需詳細資訊，請參閱文章[建立子任務](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md)中的「從任務建立子任務區段」一節。
+
 1. （視條件而定）若要編輯範本任務的有限資訊，請按一下左側面板中的&#x200B;**範本任務詳細資訊**，然後移至[詳細資訊]區段的區域以編輯每個區域的資訊。
 1. （選擇性）按一下&#x200B;**全部收合**&#x200B;圖示![全部收合圖示](assets/collapse-all-icon.png)以收合所有區域。
 1. 若要編輯詳細資訊區段中的資訊，請按一下&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)，然後從下列任何區域選取，或按一下&#x200B;**編輯全部**&#x200B;以編輯所有區域的資訊：
@@ -95,8 +95,8 @@ ht-degree: 4%
    >[!TIP]
    >
    >如需詳細資訊區域中顯示的所有欄位相關資訊，請使用「編輯範本任務」方塊繼續編輯所有欄位，如下所述。
-
-1. （條件式）若要編輯範本任務的所有資訊，請按一下範本任務名稱旁的&#x200B;**更多**&#x200B;功能表![更多圖示](assets/qs-more-icon-on-an-object.png)，然後按一下&#x200B;**編輯**。
+1. （選擇性）若要大量編輯數個範本工作，請選取多個範本工作，然後按一下範本清單頂端的&#x200B;**編輯**。
+1. （視條件而定）若要同時編輯範本任務或數個任務的所有相關資訊，請按一下以從清單中選取它們，然後按一下清單頂端的&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)。
 
    **編輯範本任務**&#x200B;方塊隨即顯示。
 

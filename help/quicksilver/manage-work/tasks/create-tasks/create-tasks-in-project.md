@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
 workflow-type: tm+mt
-source-wordcount: '959'
-ht-degree: 1%
+source-wordcount: '1041'
+ht-degree: 0%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 1%
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視存取需求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -60,9 +60,9 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"> <p role="rowheader">Adobe Workfront授權</p> </td> 
-   <td><p>目前：工作或以上</p> 
-   或
-   <p>新增：標準</p> </td> 
+   <td><p>標準</p> 
+   <p>工作或更高</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
@@ -70,7 +70,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>專案的Contribute許可權可新增任務或以上版本</p> <p>建立任務時，您會自動收到該任務的「管理」許可權</p> <p> 如需工作許可權的相關資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">共用工作</a>。 </p> <p>如需請求其他許可權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>為專案貢獻許可權，並可新增任務或以上專案</p> <p>建立任務時，您會自動收到該任務的「管理」許可權</p> <p> 如需工作許可權的相關資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">共用工作</a>。 </p> <p>如需要求其他許可權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求存取物件。</a></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -80,6 +80,10 @@ ht-degree: 1%
 +++
 
 ## 在專案中建立任務
+
+在專案中建立任務類似於在範本上建立任務。 將範本任務新增到範本時，您可以遵循下述步驟。
+
+若要在專案上建立任務：
 
 1. 前往您要建立任務的專案。
 1. 按一下左側面板中的&#x200B;**工作**。
@@ -105,7 +109,7 @@ ht-degree: 1%
 
       或
 
-      若要更新工作的所有欄位，請按一下[其他選項] **&#x200B;**&#x200B;以開啟[建立工作] **方塊**。
+      若要更新工作的所有欄位，請按一下[其他選項] ****&#x200B;以開啟[建立工作] **方塊**。
 
       ![](assets/nwe-create-task-small-screen-350x272.png)
 
@@ -113,7 +117,6 @@ ht-degree: 1%
 
       ![](assets/create-task-larger-box-nwe-350x244.png)
 
-       
 
       >[!NOTE]
       >
@@ -162,13 +165,15 @@ ht-degree: 1%
 
          這會使新任務成為先前任務的子任務或子任務。
 
-         如需有關子系工作的詳細資訊，請參閱[建立子工作](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md)。
+         如需有關子系任務的詳細資訊，請參閱文章[建立子任務](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md)中的「從任務子任務建立子任務」一節。
 
       1. （視條件而定）如果您在按&#x200B;**新增更多工作**&#x200B;後停用&#x200B;**自動儲存**&#x200B;選項，您可以執行下列動作：
 
          * 隨時按一下&#x200B;**復原**&#x200B;以迴轉您上次的變更，或按一下&#x200B;**取消**&#x200B;以迴轉您對工作清單所做的所有變更。
          * 如果您先前已按一下&#x200B;**復原**，請按一下&#x200B;**取消復原**&#x200B;以重新套用您取消的上次變更。
          * 按一下&#x200B;**儲存**&#x200B;以儲存您對工作清單所做的變更。
+   1. （選擇性）在工作清單中，按一下&#x200B;**前置任務**&#x200B;區段，將前置任務新增至工作。 如需詳細資訊，請參閱[使用前置任務區域建立前置任務關係](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md)。
+   1. （選擇性）在工作清單中，按一下&#x200B;**子工作**&#x200B;區段以新增子工作。 如需詳細資訊，請參閱[建立子工作](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md)。
 
 ## 將個人任務移至專案以建立任務
 

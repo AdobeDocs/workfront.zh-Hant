@@ -6,9 +6,9 @@ description: 跨專案前置任務是指另一個專案中另一個任務（稱�
 author: Alina
 feature: Work Management
 exl-id: 7e29e589-e0a5-437e-935d-d5bc1b268594
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '753'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Adobe Workfront允許任務相依於其他專案中的任務，就像它允許�
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視存取需求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -49,9 +49,9 @@ Adobe Workfront允許任務相依於其他專案中的任務，就像它允許�
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>新增：標準 </p> 
-   或
-   <p>目前：計畫 </p>
+   <td> <p>標準 </p>
+
+<p>規劃 </p>
    </td> 
   </tr> 
   <tr> 
@@ -70,6 +70,11 @@ Adobe Workfront允許任務相依於其他專案中的任務，就像它允許�
 +++
 
 ## 建立跨專案前置任務
+
+>[!TIP]
+>
+>雖然建立範本任務前置任務與建立專案任務前置任務類似，但您無法為範本任務建立跨範本前置任務。
+
 
 1. 移至將成為您後續任務的工作（相依任務）。
 1. 按一下左側面板中的&#x200B;**前置任務**。
