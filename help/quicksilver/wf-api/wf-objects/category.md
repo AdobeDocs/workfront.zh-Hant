@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 24c900ee-a8f1-458e-a18b-c098c6314e0c
-source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
+source-git-commit: 8c72a44c49d137c6c73f7c213cb411e45f5a6e24
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 27%
+source-wordcount: '270'
+ht-degree: 28%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 27%
 
 <!-- Audited: 5/2025 -->
 
-欄位類別： &quot;java.lang.IllegalArgumentException&quot;，\
-訊息：「APIModel INTERNAL不支援欄位專案(OpTask)」
+<!--Fieldsclass: "java.lang.IllegalArgumentException",  
+message: "APIModel INTERNAL does not support field projectid (OpTask)"-->
 
 <table style="table-layout:auto"> 
  <col width="100"> 
