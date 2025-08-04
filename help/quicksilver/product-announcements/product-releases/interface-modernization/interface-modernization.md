@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: db0a8e78454ffb5b85865265a273e21e99022f9f
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
-source-wordcount: '6262'
+source-wordcount: '6319'
 ht-degree: 0%
 
 ---
@@ -59,6 +59,16 @@ ht-degree: 0%
 若要檢視這項變更，請前往「設定>系統>更新SSO的使用者」
 
 ## 專案
+
+## 專案業務案例的介面更新
+
+**預覽版本： 2025年8月4日；生產版本：即將宣佈**
+
+我們已更新專案業務案例的外觀和風格，以符合應用程式的其他領域。
+
+若要檢視此變更，請前往「專案>選取專案>業務案例」。
+
+如需詳細資訊，請參閱[為專案建立業務案例](/help/quicksilver/manage-work/projects/define-a-business-case/create-business-case.md)。
 
 ## 範本「佇列詳細資訊」段落的新外觀
 
@@ -824,7 +834,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 此更新包含區域的視覺化變更。 功能未變更。
 
-若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。**&#x200B;**
+若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。****
 
 +++
 

@@ -5,9 +5,9 @@ description: 您可以使用計分卡來測量專案與先前建立的專案組�
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1208'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ ht-degree: 0%
 
 1. 從下拉式選單中選取計分卡。
 
-   ![新計分卡](assets/new-scorecard.png)
+   <!--![New scorecard](assets/new-scorecard.png)-->
 
 1. 輸入計分卡中所有問題的答案。
 
@@ -164,7 +164,7 @@ ht-degree: 0%
 
    對齊分數位於業務案例摘要中，位於&#x200B;**對齊**&#x200B;值中。
 
-   專案上的![一致性分數](assets/alignment-score-on-a-project.png)
+   <!--![Alignment score on a project](assets/alignment-score-on-a-project.png)-->
 
 ### 在Portfolio Optimizer中檢視專案和專案組合的對齊分數
 
@@ -175,7 +175,7 @@ ht-degree: 0%
 * [在Portfolio Optimizer中找到專案的對齊分數](#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer)
 * [在Portfolio Optimizer中找到專案組合的對齊分數](#locate-the-alignment-score-of-the-portfolio-in-the-portfolio-optimizer)
 
-  Portfolio Optimizer中的![一致性分數](assets/alignment-score-in-portfolio-optimizer.png)
+  <!--![Alignment score in Portfolio Optimizer](assets/alignment-score-in-portfolio-optimizer.png)-->
 
 #### 在Portfolio Optimizer中找出專案的對齊分數 {#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer}
 

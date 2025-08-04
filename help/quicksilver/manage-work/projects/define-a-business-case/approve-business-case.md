@@ -5,7 +5,7 @@ description: 在您完成並提交專案要求的業務案例後，業務案例�
 author: Alina
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 0%
@@ -126,7 +126,7 @@ ht-degree: 0%
 1. 按一下左側面板中的&#x200B;**業務案例**。
 1. 按一下業務案例摘要區域中的&#x200B;**核准**&#x200B;或&#x200B;**拒絕**，以核准或拒絕業務案例。
 
-   ![業務案例](assets/business-case-summary-with-rp-information--1-.png)
+   &lt;！—![業務案例](assets/business-case-summary-with-rp-information--1-.png)—>
 
    若業務案例已核准，專案狀態會變更為&#x200B;**已核准**。
 

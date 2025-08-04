@@ -5,9 +5,9 @@ description: 作為資源計畫的一部份，當您建立業務案例時，可�
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
-source-wordcount: '1240'
+source-wordcount: '1229'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 >
 >您在專案層次「資源供需規劃員」中輸入的資訊，也會顯示在系統層次「資源供需規劃員」中。 反之亦然。 如需資源規劃工具的相關資訊，請參閱[資源規劃工具概觀](../../../resource-mgmt/resource-planning/get-started-resource-planner.md)。
 
-您也可以使用Adobe Workfront案例規劃工具，為業務案例中的資源編列預算。 如需詳細資訊，請參閱使用案例規劃工具[&#128279;](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)的業務案例中的預算資源。
+您也可以使用Adobe Workfront案例規劃工具，為業務案例中的資源編列預算。 如需詳細資訊，請參閱使用案例規劃工具[的業務案例中的](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)預算資源。
 
 ## 存取需求
 
@@ -108,11 +108,11 @@ ht-degree: 0%
 
    * 在&#x200B;**中選取資源規劃工具選擇要用於計算專案預算勞力成本的時數**&#x200B;欄位，然後按一下&#x200B;**選擇>編輯資源預算**。
 
-     ![資源規劃工具中的業務案例](assets/business-case-rp-selected-with-choose-button-350x120.png)
+     <!--![Business case in Resource Planner](assets/business-case-rp-selected-with-choose-button-350x120.png)-->
 
    * 如果已選取案例規劃工具來編列專案的資源，請按一下&#x200B;**變更** > **編輯資源預算**。
 
-     ![情境規劃工具中的業務案例](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)
+     <!--![Business case in Scenario Planner](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)-->
 
    這會使用專案的預算時數來計算專案的預算勞力成本。
 
@@ -138,7 +138,7 @@ ht-degree: 0%
 
    如需資源規劃工具的詳細資訊，請參閱[資源規劃工具概觀](../../../resource-mgmt/resource-planning/get-started-resource-planner.md)。
 
-   ![BC_resource_budgeting_area.png](assets/bc-resource-budgeting-area-350x276.png)
+   <!--![BC_resource_budgeting_area.png](assets/bc-resource-budgeting-area-350x276.png)-->
 
 1. （選擇性和條件性）展開工作角色以檢視與工作角色相關聯的使用者。
 

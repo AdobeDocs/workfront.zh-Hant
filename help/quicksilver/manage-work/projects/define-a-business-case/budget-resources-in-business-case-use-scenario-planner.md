@@ -5,9 +5,9 @@ description: 作為資源計畫的一部分，當您建立業務案例時，可�
 author: Alina
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
-source-wordcount: '972'
+source-wordcount: '964'
 ht-degree: 0%
 
 ---
@@ -127,7 +127,7 @@ ht-degree: 0%
 
    * 如果您剛從「情境規劃工具」發佈資訊，請在「資源預算」區域中選取「情境規劃工具」**選擇要用於計算專案預算勞力成本的時數**，然後按一下&#x200B;**選擇**。
 
-     ![資源規劃工具中的業務案例與選擇按鈕](assets/business-case-sp-selected-with-choose-button-350x121.png)
+     <!--![Business case in Resource Planner with Choose button](assets/business-case-sp-selected-with-choose-button-350x121.png)-->
 
    * 如果先前已針對專案的預算資源選取資源規劃工具，請按一下&#x200B;**變更** > **情境規劃工具** > **選擇**。
 
