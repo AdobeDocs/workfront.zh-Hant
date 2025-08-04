@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: 1e8b25a0e6ff5c402bb662ef4b1831056e08c58b
+source-git-commit: 1c6a1238e9ea1ca843dcb296db7a552ff354c50a
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 10%
+source-wordcount: '873'
+ht-degree: 9%
 
 ---
 
@@ -24,7 +24,8 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->部分物件僅適用於「事件訂閱」版本2。 這些物件會在表格中註明。
+>* 部分物件僅適用於「事件訂閱」版本2。 這些物件會在表格中註明。
+>* 此頁面上列出的欄位一律會顯示在傳送的事件中，即使該欄位的值為Null。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -381,7 +382,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>workPerDate <p>[!BADGE 已移除]{type=negative tooltip="此欄位已於2023年10月26日移除。"}</span></td> 
+   <td>workPerDate <p>[！BADGE已移除]{type=negative tooltip="此欄位已於2023年10月26日移除。"}</span></td> 
   </tr> 
   <tr> 
    <td> </td> 

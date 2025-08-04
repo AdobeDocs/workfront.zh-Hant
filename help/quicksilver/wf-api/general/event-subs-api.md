@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 5b984451d19ed0381c75c4fa19f3eba16804fbf5
+source-git-commit: 1c6a1238e9ea1ca843dcb296db7a552ff354c50a
 workflow-type: tm+mt
 source-wordcount: '2666'
 ht-degree: 3%
@@ -77,7 +77,9 @@ ht-degree: 3%
 * 使用者
 * 工作區
 
-如需事件訂閱物件支援的欄位清單，請參閱[事件訂閱資源欄位](../../wf-api/api/event-sub-resource-fields.md)。
+>[!NOTE]
+>
+>如需事件訂閱物件支援的欄位清單，請參閱[事件訂閱資源欄位](../../wf-api/api/event-sub-resource-fields.md)。
 
 ## 事件訂閱驗證
 
@@ -810,7 +812,7 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 >[!NOTE]
 >
 >底下具有指定篩選器的訂閱只會傳回工作名稱在`again`上包含`oldState`的訊息，這是更新工作之前的訊息。
->&#x200B;>此情況下的使用案例是尋找從一個事物變更為另一個事物的objCode訊息。 例如，找出從「Research Some name」變更為「Research TeamName Some name」的所有任務
+>>此情況下的使用案例是尋找從一個事物變更為另一個事物的objCode訊息。 例如，找出從「Research Some name」變更為「Research TeamName Some name」的所有任務
 
 ```
 {
