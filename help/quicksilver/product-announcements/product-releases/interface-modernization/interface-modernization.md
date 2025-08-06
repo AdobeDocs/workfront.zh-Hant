@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 4ecb9141054c2f927a936f498941cc41108cbe45
 workflow-type: tm+mt
 source-wordcount: '6319'
 ht-degree: 0%
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 ## 範本「佇列詳細資訊」段落的新外觀
 
-**預覽版本： 2025年7月31日；生產版本： 2025年8月7日**
+**預覽版本： 2025年7月31日；生產版本： 2025年8月14日**
 
 我們已更新範本「佇列詳細資料」區段的外觀與操作方式。 「佇列詳細資料」區段的外觀與風格現在與Workfront的其他區域相符。
 
@@ -834,7 +834,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 此更新包含區域的視覺化變更。 功能未變更。
 
-若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。**&#x200B;**
+若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。****
 
 +++
 
