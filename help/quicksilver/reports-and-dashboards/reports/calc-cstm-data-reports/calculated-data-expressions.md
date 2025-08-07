@@ -4,12 +4,12 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: 計算資料運算式的概觀
 description: 您可以使用資料運算式，在Adobe Workfront中定義計算的自訂資料欄位。 計算運算式會連線產生新欄位的陳述式中的現有Workfront欄位。
-author: Nolan
+author: Courtney, Lisa
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: fe9d3cfbb50bfda672360b918d971cc77b0b8b0a
+source-git-commit: 89e15f6d99514e11e43e06487a4477d35a155cb0
 workflow-type: tm+mt
-source-wordcount: '2463'
+source-wordcount: '2551'
 ht-degree: 2%
 
 ---
@@ -414,23 +414,8 @@ ht-degree: 2%
    <p><code>ARRAYELEMENT(array, number)</code></p> 
    </td> 
   </tr>
-  <tr> 
-   <td><strong>SORTASCARRAY</strong> </td> 
-   <td> <p>以遞增順序排序陣列元素，並將其轉換為第一個元素的型別。</p>
-   <p>運算式的格式如下：</p>
-   <p><code>SORTASCARRAY(array)</code></p>
-   <p>例如，["-12.6"， -13.0]會變成["-12.6"， "-13"]。</p>
-   <p>注意：Workfront Planning不支援此運算式。</p></td> 
-  </tr>
-  <tr> 
-   <td><strong>SORTDESCARRAY</strong> </td> 
-   <td> <p>以遞減順序排序陣列元素，並將其轉換為第一個元素的型別。</p>
-   <p>運算式的格式如下：</p>
-   <p><code>SORTDESCARRAY(array)</code></p>
-   <p>例如，["-12.6"， -13.0]會變成["-13"， "-12.6"]。</p>
-   <p>注意：Workfront Planning不支援此運算式。</p></td> 
-  </tr>
-  <tr>   
+
+<tr>   
    <td><strong>個案例</strong> </td> 
    <td> <p>與其他運算式搭配使用，根據索引編號從清單中選擇值。 </p>
    <p>索引數字是傳回數值（通常在已知範圍內）的欄位或函式。</p> 
@@ -543,10 +528,35 @@ ht-degree: 2%
 <p><code>LOWER(string)</code></p></td> 
   </tr> 
   <tr> 
+   <td><strong>PASCAL</strong> </td> 
+   <td> <p>將輸入字串轉換為PascalCase，方法是將每個字的第一個字母轉換為大寫，並移除所有空格。 </p>
+   <p>運算式的格式如下：</p>
+   <p><code>PASCAL(string) </code></p>
+   <p>例如，「hello world」會變成「HelloWorld」</p> 
+   </td> 
+  </tr>
+  <tr> 
+   <td><strong>移除動作</strong> </td> 
+   <td> <p>移除輸入字串中所有重音字元的變音符號。 </p> 
+   <p>運算式的格式如下：</p>
+   <p><code>REMOVEACCENTS(string)</code></p> 
+   <p>例如，「有口音的Héllo世界」會變成「有口音的Hello世界」。 </p>
+   </td> 
+  </tr>
+  <tr> 
    <td><strong>取代</strong> </td> 
    <td> <p>在string1中，以string3取代所有出現的string2。</p> <p>運算式的格式如下：</p>
 
 <p><code>REPLACE(string1, string2, string3)</code></p> </td> 
+  </tr>
+
+<tr> 
+   <td><strong>REPLACEPATTERN</strong> </td> 
+   <td> <p>以取代字串取代指定模式的符合專案。 </p> 
+   <p>運算式的格式如下：</p>
+   <p><code>REPLACEPATTERN (string, pattern, replacement string)</code></p> 
+   <p>例如，REPLACEPATTERN("foo123bar"， "\d+"， "_")會產生字串"foo_bar"。 
+   </td> 
   </tr> 
   <tr> 
    <td><strong>右</strong> </td> 
@@ -560,6 +570,22 @@ ht-degree: 2%
 
 <p><code>SEARCH(findText, withinText, start)</code></p> </td> 
   </tr> 
+  <tr> 
+   <td><strong>SORTASCARRAY</strong> </td> 
+   <td> <p>以遞增順序排序陣列元素，並將其轉換為第一個元素的型別。</p>
+   <p>運算式的格式如下：</p>
+   <p><code>SORTASCARRAY(array)</code></p>
+   <p>例如，["-12.6"， -13.0]會變成["-12.6"， "-13"]。</p>
+   <p>注意：Workfront Planning不支援此運算式。</p></td> 
+  </tr>
+  <tr> 
+   <td><strong>SORTDESCARRAY</strong> </td> 
+   <td> <p>以遞減順序排序陣列元素，並將其轉換為第一個元素的型別。</p>
+   <p>運算式的格式如下：</p>
+   <p><code>SORTDESCARRAY(array)</code></p>
+   <p>例如，["-12.6"， -13.0]會變成["-13"， "-12.6"]。</p>
+   <p>注意：Workfront Planning不支援此運算式。</p></td> 
+  </tr>
   <tr> 
    <td><strong>字串</strong> </td> 
    <td> <p>將數字轉換為字串，格式如下：</p>
@@ -603,3 +629,4 @@ ht-degree: 2%
   </tr> 
  </tbody> 
 </table>
+
