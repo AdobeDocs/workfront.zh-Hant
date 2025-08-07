@@ -4,9 +4,9 @@ description: 當貴公司同時購買產品，且您的GenStudio for Performance
 hide: true
 hidefromtoc: true
 exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
-source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
+source-git-commit: 36cd1c23dfb6e01dc1016a6a12ae47e4f9172d20
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '684'
 ht-degree: 2%
 
 ---
@@ -26,7 +26,7 @@ recommendations: noDisplay, noCatalog
 
 當貴公司同時購買產品，且您的GenStudio for Performance Marketing執行個體已整合至貴公司的GenStudio執行個體時，Adobe Workfront Planning中即可使用Workfront工作區。 您可以從Planning檢視GenStudio工作區，並更新兩個系統中的資訊。
 
-如需使用GenStudio for Performance Marketing的相關資訊，請參閱[Adobe GenStudio for Performance Marketing使用手冊](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/home)。
+如需使用GenStudio for Performance Marketing的相關資訊，請參閱[Adobe GenStudio for Performance Marketing使用手冊](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home)。
 
 ## 存取需求
 
@@ -94,6 +94,17 @@ recommendations: noDisplay, noCatalog
 
 +++
 
+## 在Workfront Planning中管理GenStudio工作區的考量事項
+
+* 貴組織必須先購買Adobe GenStudio for Performance Marketing，才能在Workfront Planning中檢視GenStudio工作區。
+
+  如需GenStudio的詳細資訊，請參閱[Adobe GenStudio for Performance Marketing使用手冊](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home)。
+
+  如需GenStudio與Workfront Planning整合的詳細資訊，請參閱[開始使用Workfront Planning與GenStudio for Performance Marketing整合](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
+
+* Workfront使用者必須擁有GenStudio的存取權，才能在Workfront Planning中檢視GenStudio工作區。
+
+
 ## 在Workfront Planning中管理GenStudio工作區
 
 >[!NOTE]
@@ -127,7 +138,7 @@ recommendations: noDisplay, noCatalog
 
 1. 執行下列其中一項：
 
-   * 按一下「共用」**&#x200B;**，然後按一下「複製檢視連結」**&#x200B;**&#x200B;以共用記錄型別的連結，或&#x200B;**匯出目前的檢視**&#x200B;以匯出至檔案。 您只能匯出表格檢視。
+   * 按一下「共用」****，然後按一下「複製檢視連結」****&#x200B;以共用記錄型別的連結，或&#x200B;**匯出目前的檢視**&#x200B;以匯出至檔案。 您只能匯出表格檢視。
 
    * 按一下&#x200B;**+檢視**&#x200B;以建立GenStudio記錄型別的檢視。
 

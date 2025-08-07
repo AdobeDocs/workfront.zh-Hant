@@ -7,7 +7,7 @@ description: 您可以使用資料運算式，在Adobe Workfront中定義計算�
 author: Courtney, Lisa
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 89e15f6d99514e11e43e06487a4477d35a155cb0
+source-git-commit: 36cd1c23dfb6e01dc1016a6a12ae47e4f9172d20
 workflow-type: tm+mt
 source-wordcount: '2551'
 ht-degree: 2%
@@ -374,7 +374,7 @@ ht-degree: 2%
 
 您可以使用下列運算式建立計算自訂欄位，以顯示文字格式的值：
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto:fixed"> 
  <col> 
  <col> 
  <thead> 
@@ -555,7 +555,7 @@ ht-degree: 2%
    <td> <p>以取代字串取代指定模式的符合專案。 </p> 
    <p>運算式的格式如下：</p>
    <p><code>REPLACEPATTERN (string, pattern, replacement string)</code></p> 
-   <p>例如，REPLACEPATTERN("foo123bar"， "\d+"， "_")會產生字串"foo_bar"。 
+   <p>例如，REPLACEPATTERN("foo123bar"， "\d+"， "_")會產生字串"foo_bar"。
    </td> 
   </tr> 
   <tr> 
