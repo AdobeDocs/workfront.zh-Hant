@@ -4,12 +4,12 @@ product-area: reports and dashboards
 navigation-topic: data connect
 title: Workfront Data Connect資料字典
 description: 本頁包含有關Workfront Data Connect中資料結構和內容的資訊。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 44342db0a473eac70212d08cedf9ac0f571cda0b
+source-git-commit: 5a7f61b9b5237e282c1a61fb49b85533497836e3
 workflow-type: tm+mt
-source-wordcount: '8129'
+source-wordcount: '8114'
 ht-degree: 7%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 7%
 
 ## 表格型別
 
-在「資料連線」中您可以運用許多表格型別，以提供最深入分析的方式檢視您的Workfront資料。
+您可以在Data Connect中運用多種表格型別，以最能提供insight的方式檢視您的Workfront資料。
 
 * **目前的資料表**
 
@@ -54,8 +54,8 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
 
 有許多日期物件可提供特定事件發生時間的相關資訊。
 
-* `DL_LOAD_TIMESTAMP`：此日期用於內部參考，並反映資料載入目前、事件或每日記錄表格的時間。 此日期不應用於資料分析，且計畫在Workfront資料湖的測試階段期間移除。
-* `CALENDAR_DATE`：此日期僅出現在「每日歷史記錄」表格中。 此表格記錄了`CALENDAR_DATE`中指定的每個日期在11:59 UTC時的資料外觀。
+* `DL_LOAD_TIMESTAMP`：此日期會在成功的資料重新整理完成後更新，並包含提供最新記錄版本的重新整理工作開始時的時間戳記。
+* `CALENDAR_DATE`：此日期僅出現在「每日歷史記錄」表格中。 此表格記錄了:59中指定的每個日期在11`CALENDAR_DATE` UTC時的資料外觀。
 * `BEGIN_EFFECTIVE_TIMESTAMP`：此日期同時存在於「事件」和「每日歷史記錄」表格中，且記錄記錄將記錄目前資料列中的值&#x200B;_變更為_&#x200B;的確切時間。
 * `END_EFFECTIVE_TIMESTAMP`：此日期同時存在於「事件」和「每日歷史記錄」表格中，而且記錄記錄將目前資料列中的值&#x200B;_從_&#x200B;變更為其他資料列中的值的確切時間。 若要允許在`BEGIN_EFFECTIVE_TIMESTAMP`和`END_EFFECTIVE_TIMESTAMP`上的查詢之間進行，此值絕不為Null，即使沒有新值也是如此。 在記錄仍有效的情況下（亦即值未變更），`END_EFFECTIVE_TIMESTAMP`的值將為2300-01-01。
 
@@ -844,7 +844,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
     </tbody>
 </table>
 
-### 計費率
+### 計費費率
 
 <table>
     <thead>
@@ -858,10 +858,10 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
       </thead>
       <tbody>
         <tr>
-            <td>計費率</td>
+            <td>計費費率</td>
             <td>費率或覆寫率</td>
             <td>評等</td>
-            <td>計費率</td>
+            <td>計費費率</td>
             <td>RATES_CURRENT<br>RATES_DAILY_HISTORY<br>RATES_EVENT</td>
         </tr>
       </tbody>
@@ -2808,7 +2808,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
     </tbody>
 </table>
 
-### 小時
+### 時數
 
 <table>
     <thead>
@@ -2822,10 +2822,10 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
       </thead>
       <tbody>
         <tr>
-            <td>小時</td>
-            <td>小時</td>
+            <td>時數</td>
+            <td>時數</td>
             <td>HOUR</td>
-            <td>小時</td>
+            <td>時數</td>
             <td>HOURS_CURRENT<br>HOURS_DAILY_HISTORY<br>HOURS_EVENT</td>
         </tr>
       </tbody>
