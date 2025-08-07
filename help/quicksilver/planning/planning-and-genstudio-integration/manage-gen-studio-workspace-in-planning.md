@@ -26,7 +26,7 @@ recommendations: noDisplay, noCatalog
 
 當貴公司同時購買產品，且您的GenStudio for Performance Marketing執行個體已整合至貴公司的GenStudio執行個體時，Adobe Workfront Planning中即可使用Workfront工作區。 您可以從Planning檢視GenStudio工作區，並更新兩個系統中的資訊。
 
-如需使用GenStudio for Performance Marketing的相關資訊，請參閱[Adobe GenStudio for Performance Marketing使用手冊](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home)。
+如需使用GenStudio for Performance Marketing的相關資訊，請參閱[Adobe GenStudio for Performance Marketing使用手冊](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/home)。
 
 ## 存取需求
 
@@ -98,7 +98,7 @@ recommendations: noDisplay, noCatalog
 
 * 貴組織必須先購買Adobe GenStudio for Performance Marketing，才能在Workfront Planning中檢視GenStudio工作區。
 
-  如需GenStudio的詳細資訊，請參閱[Adobe GenStudio for Performance Marketing使用手冊](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home)。
+  如需GenStudio的詳細資訊，請參閱[Adobe GenStudio for Performance Marketing使用手冊](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/home)。
 
   如需GenStudio與Workfront Planning整合的詳細資訊，請參閱[開始使用Workfront Planning與GenStudio for Performance Marketing整合](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
 
