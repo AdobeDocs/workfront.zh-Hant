@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 4ecb9141054c2f927a936f498941cc41108cbe45
+source-git-commit: 832b4044feaea902b807c12b5fad072c6dd04fc8
 workflow-type: tm+mt
-source-wordcount: '6319'
+source-wordcount: '6584'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,19 @@ ht-degree: 0%
 
 ## 管理和設定
 
-## 群組中「週期性時程表」清單的介面更新
+## 安裝程式中條件區域的介面更新
+
+**預覽版本： 2025年8月7日；生產版本： 2025年8月18日**
+
+我們以更現代的設計更新了「條件」頁面，並且與Workfront的其他區域一致。
+
+介面中一項顯而易見的增強功能，就是現在可以在您可以編輯的條件旁顯示&#x200B;**編輯**&#x200B;按鈕，而且您不必再將游標停留在條件上即可找到「編輯」圖示。
+
+若要檢視這些變更，請前往「設定>專案偏好設定>條件」。
+
+如需詳細資訊，請參閱[建立或編輯自訂條件](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md)。
+
+### 群組中「週期性時程表」清單的介面更新
 
 **預覽版本： 2025年7月24日；生產版本： 2025年7月28日**
 
@@ -32,7 +44,7 @@ ht-degree: 0%
 
 若要檢視這些變更，請前往「設定>群組>選取群組>時程表設定檔」。
 
-## 「新增」和「編輯時數型別」方塊的介面變更
+### 「新增」和「編輯時數型別」方塊的介面變更
 
 **預覽版本： 2025年7月24日；生產版本： 2025年7月31日**
 
@@ -40,7 +52,7 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[管理小時型別](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md)。
 
-## 更新設定中「稽核記錄」頁面的介面
+### 更新設定中「稽核記錄」頁面的介面
 
 **預覽版本： 2025年7月22日；生產版本：即將宣佈**
 
@@ -50,7 +62,7 @@ ht-degree: 0%
 
 若要檢視此變更，請前往「設定>變更追蹤>稽核記錄」 。
 
-## 更新設定中SSO更新使用者頁面的介面
+### 更新設定中SSO更新使用者頁面的介面
 
 **預覽版本： 2025年7月22日；生產版本： 2025年7月28日**
 
@@ -60,9 +72,17 @@ ht-degree: 0%
 
 ## 專案
 
-## 專案業務案例的介面更新
+### 在時數索引標籤中更新記錄專案、任務或問題的時間的介面
 
-**預覽版本： 2025年8月4日；生產版本：即將宣佈**
+**預覽版本： 2025年8月7日；生產版本： 2025年8月14日**
+
+我們已在時數索引標籤中記錄專案、任務或問題的時間時，更新記錄時間方塊的外觀和風格，以符合Workfront其他區域的設計。
+
+如需詳細資訊，請參閱[記錄時間](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md)。
+
+### 專案業務案例的介面更新
+
+**預覽版本： 2025年8月4日；生產版本： Aufust 18**
 
 我們已更新專案業務案例的外觀和風格，以符合應用程式的其他領域。
 
@@ -70,7 +90,7 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[為專案建立業務案例](/help/quicksilver/manage-work/projects/define-a-business-case/create-business-case.md)。
 
-## 範本「佇列詳細資訊」段落的新外觀
+### 範本「佇列詳細資訊」段落的新外觀
 
 **預覽版本： 2025年7月31日；生產版本： 2025年8月14日**
 
@@ -78,7 +98,7 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[建立要求佇列](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
 
-<!--## Interface updates when bulk editing templates
+<!--### Interface updates when bulk editing templates
 
 **Preview release: July 31, 2025; Production release: August 7, 2025**
 
@@ -86,15 +106,15 @@ We have updated the look and feel of the Edit templates box when editing templat
 
 For information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).-->
 
-## 範本上傳送更新給使用者方塊的介面更新
+### 範本上傳送更新給使用者方塊的介面更新
 
-**預覽版本： 2025年7月31日；生產版本： 2025年8月7日**
+**預覽版本： 2025年7月31日；生產版本：待定，2025年**
 
 從範本的「人員」標籤存取「傳送更新給使用者」方塊時，我們更新了方塊的外觀和風格。 當您將更新傳送給一個或多個使用者時，傳送更新給使用者方塊現在會比對Workfront的其他區域。
 
 如需詳細資訊，請參閱[管理專案團隊](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md)。
 
-## 更新在專案或範本中編輯佇列主題時的體驗
+### 更新在專案或範本中編輯佇列主題時的體驗
 
 **預覽版本： 2025年7月31日；生產版本： 2025年7月31日**
 
@@ -104,7 +124,7 @@ For information, see [Edit project templates](/help/quicksilver/manage-work/proj
 
 如需詳細資訊，請參閱[建立佇列主題](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)。
 
-## 付費記錄的介面更新
+### 付費記錄的介面更新
 
 **預覽版本： 2025年7月31日；生產版本： 2025年8月7日**
 
@@ -114,7 +134,7 @@ For information, see [Edit project templates](/help/quicksilver/manage-work/proj
 
 如需詳細資訊，請參閱[建立付費記錄](/help/quicksilver/manage-work/projects/project-finances/create-billing-records.md)。
 
-## 匯入MS Project檔案方塊的介面更新
+### 匯入MS Project檔案方塊的介面更新
 
 **預覽版本： 2025年7月24日；生產版本：即將宣佈**
 
@@ -122,7 +142,7 @@ For information, see [Edit project templates](/help/quicksilver/manage-work/proj
 
 若要檢視此變更，請前往「專案>新增專案>匯入MS專案」。
 
-## 專案或範本之「新增費用」方塊的介面更新
+### 專案或範本之「新增費用」方塊的介面更新
 
 **預覽版本： 2025年7月24日；生產版本： 2025年7月31日**
 
@@ -132,7 +152,15 @@ For information, see [Edit project templates](/help/quicksilver/manage-work/proj
 
 ## 範本
 
-## 編輯範本的路由規則時介面變更
+### 更新範本上前置任務清單的介面
+
+**預覽版本： 2025年8月7日；生產版本： 2025年8月14日**
+
+我們更新了範本上「前置任務」清單的外觀與操作方式，以符合Workfront其他區域的設計方式。
+
+為範本任務新增前置任務與為專案任務新增前置任務類似。 如需詳細資訊，請參閱[使用前置任務區域建立前置任務關係](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md)。
+
+### 編輯範本的路由規則時介面變更
 
 **預覽版本： 2025年7月24日；生產版本： 2025年7月31日**
 
@@ -142,7 +170,7 @@ For information, see [Edit project templates](/help/quicksilver/manage-work/proj
 
 如需詳細資訊，請參閱[建立路由規則](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)。
 
-## 範本之請求佇列管理區域的介面變更
+### 範本之請求佇列管理區域的介面變更
 
 **預覽版本： 2025年7月24日；生產版本： 2025年7月31日**
 
@@ -160,6 +188,18 @@ For information, see [Edit project templates](/help/quicksilver/manage-work/proj
 * [建立主題群組](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)。
 * [建立路由規則](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)。
 
+## 使用者
+
+### 匯入使用者對話方塊的介面更新
+
+**預覽版本： 2025年8月7日；適用於所有客戶的生產版本： 2025年8月14日**
+
+我們已更新透過試算表檔案匯入新使用者的對話方塊，以符合應用程式的其他區域。
+
+若要檢視這項變更，請前往「使用者>新使用者>匯入使用者」。
+
+如需詳細資訊，請參閱[匯入使用者](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/import-users.md)。
+
 ## 第3季的介面更新
 
 ### 管理和設定
@@ -168,7 +208,7 @@ For information, see [Edit project templates](/help/quicksilver/manage-work/proj
 
 ### 版面配置範本頁面的介面更新
 
-**預覽版本： 2025年7月17日；生產版本： 2025年7月24日**
+**預覽版本： 2025年7月17日；生產版本：待定**
 
 我們更新了「版面配置範本」頁面，使其設計更現代化，與Workfront的其他區域一致。
 
@@ -834,7 +874,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 此更新包含區域的視覺化變更。 功能未變更。
 
-若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。**&#x200B;**
+若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。****
 
 +++
 

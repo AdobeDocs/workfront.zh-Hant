@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: eafc56adab1fad3bbc1a4f3dc8f61e599ab21f57
+source-git-commit: cbdc60db525dabb93e984dff7787a83edceb6c8c
 workflow-type: tm+mt
-source-wordcount: '1190'
+source-wordcount: '1334'
 ht-degree: 1%
 
 ---
@@ -40,8 +40,9 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 * [管理員增強功能](#administrator-enhancements)
 * [檔案和校訂增強功能](#document-and-proofing-enhancements)
-<!--* [Home enhancements](#home-enhancements)
-* [Requests enhancements](#requests-enhancements)-->
+  <!--* [Home enhancements](#home-enhancements)-->
+* [專案增強功能](#project-enhancements)
+  <!--* [Requests enhancements](#requests-enhancements)-->
 * [資源管理增強功能](#resource-management-enhancements)
 * [其他增強功能](#other-enhancements)
 
@@ -131,6 +132,36 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table> -->
 
+### 專案增強功能
+
+<table style="table-layout:auto">
+  <tbody>
+  <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">新增運算式至Planning的公式欄位和Workfront的計算自訂欄位</a><p><p>[！BADGE Off Schedule]{type=Neutral}</p></p>
+            <p>我們已將具有以下用途的新運算式新增至Workfront Planning中的公式欄位及Workfront中的計算自訂欄位：</p>
+            <ul>
+            <li>REMOVEACCENTS(string)：移除輸入字串中所有重音字元的變音標籤。</li>
+            <li>REPLACEPATTERN(string， pattern， replacement string)：以取代字串取代指定模式的符合專案。</li>
+            <li>PASCAL(string)：將輸入字串轉換為PascalCase，方法是將每個字的第一個字母轉換為大寫，並移除所有空格。</li>
+            </ul>
+        </td>
+        <td>2025年8月7日</td>
+        <td>2025年8月7日</td>
+        <td>2025年8月7日</td>
+    </tr> 
+  <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">從清單存取進階工作分派的其他方式</a><p></p>
+            <p><b>進階</b>按鈕現在可用於清單中的指派，讓您更快存取進階指派頁面。 清單中的工作分派上也提供要取得進階工作分派的<b>人員</b>圖示。</p>
+        </td>
+        <td>2025年8月7日</td>
+        <td>2025年9月11日</td>
+        <td>2025年10月16日</td>
+    </tr> 
+  </tbody>
+  </table>
+
 ### 資源管理增強功能
 
 <table style="table-layout:auto">
@@ -207,7 +238,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ### Workfront Fusion增強功能
 
-Workfront Fusion的新功能可在標準發行排程以外的生產環境中使用。 如需最新功能的詳細資訊，請參閱[Adobe Workfront Fusion發行活動](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
+Workfront Fusion的新功能可在標準發行排程以外的生產環境中使用。 如需最新功能的詳細資訊，請參閱[Adobe Workfront Fusion發行活動](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
 
 ### Workfront規劃增強功能
 
@@ -256,7 +287,7 @@ Workfront Planning的新功能可在生產環境中使用。 如需最新功能�
 * 適用於Salesforce的Workfront。
 
 為了滿足貴組織與Google Workspace的整合需求，我們建議您使用Workfront自動化和整合。
-如需Workfront自動化與整合的概觀，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+如需Workfront自動化與整合的概觀，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 
 ### API 20版
 
@@ -268,8 +299,8 @@ Workfront API版本20已於2025年5月4日發行。 針對API 20版，我們已�
 
 ### Workfront 維護更新
 
-如需2025年第一季度期間所進行維護更新的相關資訊，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=zh-Hant)。
+如需2025年第一季度期間所進行維護更新的相關資訊，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)。
 
 ### 訓練更新
 
-探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[Workfront教學課程頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=zh-Hant)的「新增功能」一節。
+探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[Workfront教學課程頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的「新增功能」一節。
