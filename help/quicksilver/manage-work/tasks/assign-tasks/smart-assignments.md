@@ -7,9 +7,9 @@ description: 在管理任務和問題指派時，您可以使用智慧指派來�
 author: Lisa
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
+source-git-commit: a0b635953245cf307b558d343ad234a27c96da94
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
@@ -17,14 +17,6 @@ ht-degree: 0%
 # 智慧指派總覽
 
 <!--Audited: 07/2024-->
-
-<!--keep the yellow around the Rate card job roles and the Preview intro for those-->
-
-<span class="preview">此頁面中醒目提示的資訊是指預覽環境中才能使用的功能。</span>
-
-<!--<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview"> This functionality will be removed from the Production environment for customers who enabled fast release with the 25.1 release in January 2025. For information about the 25.1 release, see [First Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md). -->
 
 在管理任務和問題指派時，您可以使用智慧指派來識別誰是完成工作的最佳資源。
 
@@ -143,7 +135,7 @@ Workfront計算工作的智慧型指派的方式，與計算問題的方式相�
 
 <!--For more information, see the section [Smart assignments criteria for tasks and issues](#smart-assignments-criteria-for-tasks-and-issues) in this article. -->
 
-已識別的指派列在[指派]欄位的&#x200B;**使用者與團隊**、**工作角色指派**&#x200B;及&#x200B;<span class="preview">**評等卡片角色**</span>&#x200B;區段中。 <span class="preview">如需費率卡的詳細資訊，請參閱[管理費率卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)</span>。<!--keep the rate cards roles in yellow after the release of assignments to Prod-->
+已識別的指派會列在[指派]欄位的&#x200B;**使用者與團隊**&#x200B;與&#x200B;**工作角色**<!--, and <span class="preview">**Rate card roles**</span>-->&#x200B;區段中。<!--<span class="preview">For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)</span>. keep the rate cards roles in yellow after the release of assignments to Prod-->
 
 <!--
 ### Smart assignments criteria for tasks and issues 

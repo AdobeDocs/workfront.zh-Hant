@@ -7,24 +7,18 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
+source-git-commit: a0b635953245cf307b558d343ad234a27c96da94
 workflow-type: tm+mt
-source-wordcount: '2012'
+source-wordcount: '1836'
 ht-degree: 1%
 
 ---
 
 # 指派任務
 
+{{preview-fast-release-general}}
+
 <!--Audited: 07/2024-->
-
-<!--remove the span class preview from everywhere but the Rate Card roles references must stay in yellow; replace the intro with preview and fast track only but not sure if with the link to third quarter release?!-->
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽」環境中供所有客戶使用，或在「生產」環境中供啟用快速發行的客戶使用。</span>
-
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
-<span class="preview">如需目前版本的相關資訊，請參閱[2024年第四季版本總覽](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)。</span>
 
 您可以將任務指派給使用者、工作角色或專案團隊，以指出負責完成任務的人員。 您可以一次將任務指派給多個資源。
 
@@ -55,8 +49,6 @@ ht-degree: 1%
 * [在工作負載平衡器中指派工作的總覽](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 
 ## 存取需求
-
-<!-- Audited: 07/2024-->
 
 +++ 展開以檢視本文中功能的存取需求。
 
@@ -152,23 +144,21 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 
    如果任務已經指派，請按一下指派的名稱。
 
-   ![指派](assets/assignments-box-in-task-header.png)
+   ![指派](assets/assignments-from-task-header-0825.png)
 
 1. 執行下列其中一項：
 
-   * 開始輸入您要指派的使用者、角色或團隊名稱，然後當名稱出現在清單中時按一下它。
-
+   * 開始輸入您要指派的使用者、工作角色或團隊名稱，然後當名稱出現在清單中時按一下它。
 
      >[!TIP]
      >
      >新增使用者指派時，請注意頭像、使用者的主要角色或其電子郵件地址，以區分具有相同名稱的使用者。 使用者必須至少與一個工作角色相關聯，才能在您新增時檢視該角色。
      >
      >您必須在存取層級中啟用檢視聯絡資訊設定，使用者才能檢視使用者的電子郵件。 如需詳細資訊，請參閱[授予使用者存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)。
-     >
-     ><span class="preview">新增工作角色指派時，您可以搜尋工作角色或位置。 從「工作角色」清單中選取角色，以使用指定之預設收費率，或從費率卡選取要使用收費率的「費率卡」工作角色。 如需費率卡的詳細資訊，請參閱[管理費率卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)。</span>
 
+     <!--When adding a job role assignment, you can search for the job role or location. Select a role from the Job roles list to use the default billing rate for the assignment, or select a Rate card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md). -->
 
-   * （視條件而定）顯示時，按一下&#x200B;<span class="preview">**建議的指派**</span>、**使用者和團隊**、**工作角色**&#x200B;或&#x200B;<span class="preview">**評等卡片角色**</span>&#x200B;清單中的其中一個名稱。 如需詳細資訊，請參閱[智慧指派總覽](../../../manage-work/tasks/assign-tasks/smart-assignments.md)。
+   * （視條件而定）顯示&#x200B;**使用者與團隊**&#x200B;或&#x200B;**工作角色**&#x200B;清單時，按一下其中一個名稱。 如需詳細資訊，請參閱[智慧指派總覽](../../../manage-work/tasks/assign-tasks/smart-assignments.md)。
 
      您可以開始鍵入要指派給任務的任何使用者、團隊或工作角色的名稱，然後當它顯示在清單中時選取它。
 
@@ -214,15 +204,11 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      >新增使用者指派時，請注意頭像、使用者的主要角色或其電子郵件地址，以區分具有相同名稱的使用者。 使用者必須至少與一個工作角色相關聯，才能在您新增時檢視該角色。
      >
      >您必須在存取層級中啟用檢視聯絡資訊設定，使用者才能檢視使用者的電子郵件。 如需詳細資訊，請參閱[授予使用者存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
-     >
-     ><span class="preview">新增工作角色指派時，您可以搜尋工作角色或位置。 選取工作角色，以使用指定之預設收費率，或選取費率卡工作角色，以使用費率卡中的收費率。 如需費率卡的詳細資訊，請參閱[管理費率卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)。</span>
+
+     <!--<span class="preview">When adding a job role assignment, you can search for the job role or location. Select a Job role to use the default billing rate for the assignment, or select a Rate Card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>-->
 
 
-1. （視條件而定）顯示在&#x200B;**工作總攬**&#x200B;欄位中時，按一下工作總攬方塊右上角的&#x200B;**人員**&#x200B;圖示以開啟&#x200B;**進階工作總攬**&#x200B;方塊並建立進階工作總攬。
-
-   <!--
-   there is a People icon in NWE but it's hard to see - you need to assign the task to at least 2 users, not roles, or teams, before it shows up</p>
-   -->
+1. （條件式）在[工作總攬]欄位中，按一下[工作總攬]方塊右上角的&#x200B;<span class="preview">**進階**</span>&#x200B;或&#x200B;**人員圖示** ![人員圖示](assets/teams.png)以開啟&#x200B;**進階工作總攬**&#x200B;方塊，並建立進階工作總攬。
 
    如需詳細資訊，請參閱[建立進階工作分派](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)。
 
@@ -270,7 +256,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 1. （選擇性）如果要從所有工作移除現有的受指派人，請執行下列任一項作業：
 
    1. 開始輸入您要從任務中移除的使用者、角色或團隊名稱，然後當名稱出現在清單中時選取名稱，並按一下&#x200B;**移除受指派人**&#x200B;以移除更多受指派人。
-   1. 按一下「移除所有現有受指派人」**&#x200B;**，從所有選取的工作中移除所有受指派人。
+   1. 按一下「移除所有現有受指派人」****，從所有選取的工作中移除所有受指派人。
 
 1. 按一下「**儲存變更**」。
 1. （選擇性和條件性）當「指派至」或「工作總攬」欄位顯示在您的任務清單中時，按一下這些欄中的一個以取得任務，然後按一下受指派人名稱旁的&#x200B;**X圖示**，以將其從任務中移除。

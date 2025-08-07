@@ -6,9 +6,9 @@ description: 您可以使用智慧指派來識別最佳使用者是何人來完�
 author: Lisa
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
+source-git-commit: a0b635953245cf307b558d343ad234a27c96da94
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -16,14 +16,6 @@ ht-degree: 0%
 # 進行智慧型指派
 
 <!--Audited: 07/2024-->
-
-<!--keep the yellow around the Rate card job roles and the Preview intro for those-->
-
-<span class="preview">此頁面中醒目提示的資訊是指預覽環境中才能使用的功能。</span>
-
-<!--<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview"> This functionality will be removed from the Production environment for customers who enabled fast release with the 25.1 release in January 2025. For information about the 25.1 release, see [First Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md). -->
 
 您可以使用智慧指派來識別最佳使用者是何人來完成工作。
 
@@ -90,7 +82,7 @@ ht-degree: 0%
    智慧指派會顯示在下列區段<!--, depending on which phase of the algorithm's calculation identified the assignments-->：
 
    <!--* <span class="preview">**Suggested assignments**: Displays assignments identified in the first phase of the task smart assignment algorithm.</span> -->
-   * **使用者和團隊**、**工作角色**，或&#x200B;<span class="preview">**評等卡片工作角色**</span>： <!--Assignments identified in the second phase of the task smart assignment's algorithm calculation.-->
+   * **使用者和團隊**&#x200B;或&#x200B;**工作角色** <!--or **Rate card job roles**: Assignments identified in the second phase of the task smart assignment's algorithm calculation.-->
 
    ![工作清單中的智慧指派範例](assets/smart-assignments-task-list.png)
 
