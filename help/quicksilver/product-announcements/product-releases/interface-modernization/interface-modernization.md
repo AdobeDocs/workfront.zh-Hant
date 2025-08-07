@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: e8178ef6b746057e9f1b3991c1d87c89c08dddd8
+source-git-commit: 6e6f88362eb46122e43f049ae975a2087cdbe588
 workflow-type: tm+mt
-source-wordcount: '6617'
+source-wordcount: '6618'
 ht-degree: 0%
 
 ---
@@ -72,11 +72,11 @@ ht-degree: 0%
 
 ## 專案
 
-### 在時數索引標籤中更新記錄專案、任務或問題的時間的介面
+### 在時數區段中記錄專案、任務或問題的時間的介面更新
 
 **預覽版本： 2025年8月7日；生產版本： 2025年8月14日**
 
-我們已在時數索引標籤中記錄專案、任務或問題的時間時，更新記錄時間方塊的外觀和風格，以符合Workfront其他區域的設計。
+我們已在時數區段中更新記錄專案、任務或問題的時間時，記錄時間方塊的外觀和風格，以符合Workfront其他區域的設計。
 
 如需詳細資訊，請參閱[記錄時間](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md)。
 
@@ -112,9 +112,9 @@ For information, see [Edit project templates](/help/quicksilver/manage-work/proj
 
 我們從下列區域存取「傳送更新給使用者」方塊時，已更新該方塊的外觀和風格：
 
-* 範本上的「人物」區段
-* 專案的「人員」區段
-* 公司上的使用者清單
+* 範本的「人物」區段
+* 專案的「人物」區段
+* 公司的公司成員區段
 * 使用者區域中的使用者清單
 
 當您將更新傳送給一個或多個使用者時，傳送更新給使用者方塊現在會比對Workfront的其他區域。
@@ -885,7 +885,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 此更新包含區域的視覺化變更。 功能未變更。
 
-若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。**&#x200B;**
+若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。****
 
 +++
 
