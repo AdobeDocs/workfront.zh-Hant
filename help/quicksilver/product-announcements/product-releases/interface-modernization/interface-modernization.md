@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 832b4044feaea902b807c12b5fad072c6dd04fc8
+source-git-commit: e8178ef6b746057e9f1b3991c1d87c89c08dddd8
 workflow-type: tm+mt
-source-wordcount: '6584'
+source-wordcount: '6617'
 ht-degree: 0%
 
 ---
@@ -106,13 +106,24 @@ We have updated the look and feel of the Edit templates box when editing templat
 
 For information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).-->
 
-### 範本上傳送更新給使用者方塊的介面更新
+### 多個物件上傳送更新至使用者方塊的介面更新
 
-**預覽版本： 2025年7月31日；生產版本：待定，2025年**
+**預覽版本： 2025年7月31日；生產版本： 2025年8月7日**
 
-從範本的「人員」標籤存取「傳送更新給使用者」方塊時，我們更新了方塊的外觀和風格。 當您將更新傳送給一個或多個使用者時，傳送更新給使用者方塊現在會比對Workfront的其他區域。
+我們從下列區域存取「傳送更新給使用者」方塊時，已更新該方塊的外觀和風格：
 
-如需詳細資訊，請參閱[管理專案團隊](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md)。
+* 範本上的「人物」區段
+* 專案的「人員」區段
+* 公司上的使用者清單
+* 使用者區域中的使用者清單
+
+當您將更新傳送給一個或多個使用者時，傳送更新給使用者方塊現在會比對Workfront的其他區域。
+
+如需詳細資訊，請參閱下列文章：
+
+* [傳送直接訊息給其他使用者](/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md)
+* [管理專案團隊](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md)
+* [管理公司成員資格](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)
 
 ### 更新在專案或範本中編輯佇列主題時的體驗
 
@@ -874,7 +885,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 此更新包含區域的視覺化變更。 功能未變更。
 
-若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。**&#x200B;**
+若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。****
 
 +++
 
