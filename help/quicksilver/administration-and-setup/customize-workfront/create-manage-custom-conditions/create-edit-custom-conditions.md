@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
-source-git-commit: 1c3c82db8c1320130aa3eec9d5ad1fe31340e2e9
+source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 2%
@@ -45,7 +45,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td>
+   <td>[！UICONTROL系統管理員]</td>
   </tr> 
  </tbody> 
 </table>
@@ -62,7 +62,7 @@ ht-degree: 2%
 
 1. 按一下您想要與條件關聯的物件型別（**專案**、**任務**&#x200B;或&#x200B;**問題**）的標籤。
 
-1. 若要建立新條件，請按一下[新增條件] **&#x200B;**。
+1. 若要建立新條件，請按一下[新增條件] ****。
 
    或
 
@@ -124,15 +124,15 @@ ht-degree: 2%
 
      編輯專案時![變更條件](assets/change-condition-edit-project-0825.png)
 
-<!-- 
+   <!-- 
    * When a user is changing the condition for a task or issue on the Updates tab:
 
      ![Change condition when updating comment](assets/change-condition-update-comment.png)
--->
+   -->
 
-* 當使用者在清單檢視中變更任務或問題的條件時：
+   * 當使用者在清單檢視中變更任務或問題的條件時：
 
-  ![變更清單](assets/change-conditions-list-dropdown-only.png)中的狀況
+     ![變更清單](assets/change-conditions-list-dropdown-only.png)中的狀況
 
 1. 按一下「**儲存**」。
 

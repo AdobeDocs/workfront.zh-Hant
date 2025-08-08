@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b9a489e8-0ffe-4f52-bbd9-172e7273048c
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 * 當使用者編輯專案時
 
-  編輯專案時![變更條件](assets/change-condition-edit-project.png)
+  編輯專案時![變更條件](assets/change-condition-edit-project-0825.png)
 
 * 當使用者變更任務或問題的條件時
 
@@ -51,7 +51,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td>
+   <td>[！UICONTROL系統管理員]</td>
   </tr> 
  </tbody> 
 </table>

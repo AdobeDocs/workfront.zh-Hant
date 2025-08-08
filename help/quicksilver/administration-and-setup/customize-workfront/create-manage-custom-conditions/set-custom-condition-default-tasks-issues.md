@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 40b426f4-0a9c-49a6-91c7-b5f8aa48bd37
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Workfront使用內建條件「順利進行」作為任務的預設條件，如�
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td>
+   <td>[！UICONTROL系統管理員]</td>
   </tr> 
  </tbody> 
 </table>
@@ -70,8 +70,5 @@ Workfront使用內建條件「順利進行」作為任務的預設條件，如�
 >
 >* 指派給任務或問題的使用者，或對其具有「管理」許可權的使用者，可以手動變更其條件。 如需詳細資訊，請參閱[更新任務和問題的條件](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md)。
 >* Workfront隨附的任務和問題的三個預設條件進行得很順利、有一些問題和主要障礙。 您無法隱藏或刪除這些條件，但可以變更其名稱和顏色。 或者，您可以建立新的條件來取代使用，如[建立或編輯自訂條件](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md)中所述。
->
 
 如需將自訂條件設定為專案預設條件的詳細資訊，請參閱[將自訂條件設定為專案的預設值](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md)。
-
-如需自訂條件的詳細資訊，請參閱[自訂條件](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)。

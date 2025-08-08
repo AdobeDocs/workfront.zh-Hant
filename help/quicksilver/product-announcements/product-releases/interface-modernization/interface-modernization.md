@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 46cb91855937742ee681b3d2412941b2d3831086
+source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
 workflow-type: tm+mt
-source-wordcount: '6618'
+source-wordcount: '6622'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 我們以更現代的設計更新了「條件」頁面，並且與Workfront的其他區域一致。
 
-介面中一項顯而易見的增強功能，就是現在可以在您可以編輯的條件旁顯示&#x200B;**編輯**&#x200B;按鈕，而且您不必再將游標停留在條件上即可找到「編輯」圖示。
+介面中一項顯而易見的增強功能，就是現在可以在您可以編輯的條件旁顯示&#x200B;**編輯**&#x200B;和&#x200B;**刪除**&#x200B;按鈕，而且您不必再將游標停留在條件上即可找到「編輯」和「刪除」圖示。
 
 若要檢視這些變更，請前往「設定>專案偏好設定>條件」。
 
@@ -885,7 +885,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 此更新包含區域的視覺化變更。 功能未變更。
 
-若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。**&#x200B;**
+若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。****
 
 +++
 

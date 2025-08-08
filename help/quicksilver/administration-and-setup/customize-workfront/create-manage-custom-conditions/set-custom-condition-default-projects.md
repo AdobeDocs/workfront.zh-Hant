@@ -8,18 +8,20 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: dba052ed-83a2-44d2-b025-d970783c4151
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
 
 # 將自訂條件設定為專案的預設值
 
+{{highlighted-preview}}
+
 如果專案的狀態型別設定為「進度狀態」而非「手動」，Adobe Workfront會在專案進行時，自動顯示專案上三個內建預設狀態之一（「達成目標」、「有風險」或「存在問題」），如[專案狀態與狀態型別概觀](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md)中所述。
 
-專案標題![&#128279;](assets/condition-in-project-header-nwe.png)中的狀況
+專案標題![中的](assets/condition-in-project-header-nwe.png)狀況
 
 您可以將自訂條件設定為預設條件，而不使用這三個內建的預設條件。 例如，您可以將「準時」預設條件變更為在所有專案中顯示為「追蹤良好」。
 
@@ -47,7 +49,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td>
+   <td>[！UICONTROL系統管理員]</td>
   </tr> 
  </tbody> 
 </table>
@@ -64,12 +66,10 @@ ht-degree: 0%
 
 1. 按一下「**專案**」標籤。
 1. 按一下&#x200B;**設定預設條件**。
-1. 在您要變更之預設條件旁的下拉式功能表中，按一下您要改用的自訂條件。
+1. 在您要變更之預設條件的下拉式功能表中，按一下您要改用的自訂條件。
 1. 針對您要變更的任何其他預設條件，重複上述步驟。
 1. 按一下「**儲存**」。
 
 如需有關設定自訂條件作為任務和問題的預設條件的資訊，請參閱[設定自訂條件作為任務和問題的預設值](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md)。
 
 如需關於設定專案以便使用者可以手動更新其條件的資訊，請參閱[更新任務和問題的條件](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md)。
-
-如需自訂條件的詳細資訊，請參閱[自訂條件](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)。
