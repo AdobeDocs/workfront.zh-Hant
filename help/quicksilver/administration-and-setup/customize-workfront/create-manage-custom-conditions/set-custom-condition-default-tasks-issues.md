@@ -45,7 +45,7 @@ Workfront使用內建條件「順利進行」作為任務的預設條件，如�
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td>[！UICONTROL系統管理員]</td>
+   <td>[!UICONTROL 系統管理員]</td>
   </tr> 
  </tbody> 
 </table>
