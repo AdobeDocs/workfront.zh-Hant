@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 6e6f88362eb46122e43f049ae975a2087cdbe588
+source-git-commit: 46cb91855937742ee681b3d2412941b2d3831086
 workflow-type: tm+mt
 source-wordcount: '6618'
 ht-degree: 0%
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 ### 專案業務案例的介面更新
 
-**預覽版本： 2025年8月4日；生產版本： Aufust 18**
+**預覽版本： 2025年8月4日；生產版本： 8月18日**
 
 我們已更新專案業務案例的外觀和風格，以符合應用程式的其他領域。
 
@@ -885,7 +885,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 此更新包含區域的視覺化變更。 功能未變更。
 
-若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。**&#x200B;**
+若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。****
 
 +++
 

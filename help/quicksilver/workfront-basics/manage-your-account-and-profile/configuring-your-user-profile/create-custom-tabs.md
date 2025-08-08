@@ -6,9 +6,9 @@ description: 根據預設，您在 [!DNL Workfront] 網頁應用程式中看到�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 68f4b83b-a8b4-4304-930f-62551cb06a92
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: ac34076ddc0b5815c262a61326534a1241c17a4c
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '680'
 ht-degree: 1%
 
 ---
@@ -26,17 +26,18 @@ ht-degree: 1%
 
 | **[!DNL Workfront]區域或物件** | **預設系統區段** | **自訂節** |
 |---|---|---|
-| [!UICONTROL 專案]區域 | ✓ (A) | ✓ (A) |
-| [!UICONTROL 團隊] | ✓ (A) |   |
-| [!UICONTROL 要求]區域 | ✓ (A) |   |
-| [!UICONTROL 時程表]區域 | ✓ (A) |   |
-| [!UICONTROL Portfolio] | ✓ (A) | ✓ (A) |
-| [!UICONTROL 程式] | ✓ (A) | ✓ (A) |
-| [!UICONTROL 專案] | ✓ (A) | ✓ (A) |
-| [!UICONTROL 任務] | ✓ (A) |  ✓ (A) |
-| [!UICONTROL 問題] |  ✓ (A) |  ✓ (A) |
-| [!UICONTROL 使用者] |  ✓ (A) |  ✓ (A) |
-| [!UICONTROL 檔案] |  ✓ (A) |  ✓ (A) |
+| [!UICONTROL 專案]區域 | ✓ | ✓ |
+| [!UICONTROL 團隊] | ✓ |   |
+| [!UICONTROL 要求]區域 | ✓ |   |
+| [!UICONTROL 時程表]區域 | ✓ |   |
+| [!UICONTROL Portfolio] | ✓ | ✓ |
+| [!UICONTROL 程式] | ✓ | ✓ |
+| [!UICONTROL 專案] | ✓ | ✓ |
+| [!UICONTROL 任務] | ✓ |  ✓ |
+| [!UICONTROL 問題] |  ✓ |  ✓ |
+| [!UICONTROL 使用者] |  ✓ |  ✓ |
+| [!UICONTROL 檔案] |  ✓ |  ✓ |
+| [!UICONTROL 資源]區域 | ✓ | ✓ |
 
 {style="table-layout:auto"}
 
@@ -51,19 +52,19 @@ ht-degree: 1%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計畫*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>[!UICONTROL Review]或更高版本</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
+   <td> <p>[！UICONTROL Review]或更高版本</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>存取層級設定*</strong></td> 
-   <td>[!UICONTROL Reviewer]或更高版本</td> 
+   <td role="rowheader">存取層級設定*</td> 
+   <td>[！UICONTROL Reviewer]或更高版本</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>物件許可權</strong></td> 
+   <td role="rowheader">物件許可權</td> 
    <td>檢視物件型別的存取權</td> 
   </tr> 
  </tbody> 
@@ -95,7 +96,7 @@ ht-degree: 1%
 
 ## 在物件的左側面板中顯示儀表板
 
-如需有關在物件下新增儀表板的詳細資訊，請參閱本文中Workfront物件或區域[&#128279;](#add-a-dashboard-in-the-left-panel-of-a-workfront-object-or-area)左側面板中的[!UICONTROL 新增儀表板]小節。
+如需有關在物件下新增儀表板的詳細資訊，請參閱本文中Workfront物件或區域[[!UICONTROL 左側面板中的]新增儀表板](#add-a-dashboard-in-the-left-panel-of-a-workfront-object-or-area)小節。
 
 當您將儀表板新增到物件下的自訂區段時，該物件會充當儀表板的濾鏡。 例如，如果您在儀表板上新增任務報告，並將儀表板新增到專案中，則包含專案儀表板的自訂區段僅顯示您正在檢視的專案上的任務。
 
@@ -108,7 +109,7 @@ ht-degree: 1%
 * 備註
 * 文件
 
-如需物件階層與相依性的詳細資訊，請參閱文章[瞭解Adobe Workfront中的物件](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)中的[相依性和物件階層](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects)一節。
+如需物件階層與相依性的詳細資訊，請參閱文章[瞭解Adobe Workfront中的物件](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects)中的[相依性和物件階層](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)一節。
 
 ## 自訂版面配置範本中的左側面板
 
