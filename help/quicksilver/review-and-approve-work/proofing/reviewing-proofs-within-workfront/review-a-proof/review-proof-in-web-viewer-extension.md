@@ -6,28 +6,26 @@ description: Adobe Workfront檢閱工具是瀏覽器擴充功能，可讓您校�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4fea13cc-2d56-466e-8851-6134782e7e80
-source-git-commit: 5a8bfdeae7f5d23ecf835e652cf0ff5efd5aa410
+source-git-commit: 7bff0a8c43355472453403fcd404388a3d95d471
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '604'
 ht-degree: 1%
 
 ---
 
 # 使用Adobe Workfront稽核工具稽核互動式內容
 
-<span class="preview">Adobe Workfront檢閱工具已於2024年11月7日推出。 此擴充功能目前是測試版。</span>
 
-Adobe Workfront檢閱工具是網頁型瀏覽器擴充功能，可讓您校訂ZIP檔案或具有URL的互動式內容。 Adobe Workfront檢閱工具提供下列瀏覽器：
+>[!IMPORTANT]
+>
+> 對於在需要SSO驗證或防止在iFrame中開啟其網站的網站（例如Figma）上託管的互動式內容，建議使用案頭校訂檢視器。
+
+Adobe Workfront檢閱工具是網頁型瀏覽器擴充功能，可讓您在ZIP檔案中或使用URL標示互動式內容。 Adobe Workfront檢閱工具提供下列瀏覽器：
 
 * Firefox
 * Chrome
 * Edge
 * Safari
-
->[!IMPORTANT]
->
->檢閱GenStudio for Performance Marketing和Creative Cloud Express中的內容需要此擴充功能。 Assets會自動在網頁檢視器中開啟。 您不需要更新任何帳戶設定。
-
 
 ## 安裝擴充功能
 
@@ -48,11 +46,16 @@ Adobe Workfront檢閱工具是網頁型瀏覽器擴充功能，可讓您校訂ZI
 
 為了讓互動式校訂在Adobe Workfront檢閱工具中自動開啟，Workfront管理員必須更新workfront中的校訂設定，如下節所述。
 
+## 使用GenStudio for Performance Marketing和Creative Cloud Express中的Adobe Workfront檢閱工具
+
+檢閱GenStudio for Performance Marketing和Creative Cloud Express中的內容需要此擴充功能。 Assets會自動在網頁檢視器中開啟。 您不需要更新任何帳戶設定。
+
+
 ## 更新Workfront校訂預設值
 
 若要使用Workfront檢閱工具做為互動式內容的預設檢視器，您必須更新Workfront中的校訂預設值。
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >如果您需要檢閱的內容位於以下網站，我們建議您使用案頭校訂檢視器
 >
