@@ -3,14 +3,14 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: exchange-rates
 title: 設定匯率
-description: 身為Adobe Workfront管理員，您可以在Workfront中設定貨幣匯率。
+description: 匯率會影響Workfront中的所有財務元素。 基礎貨幣是整個系統內所有專案的預設貨幣。
 feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 149c08de-fd3a-465a-afd1-0b53012d30d8
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: cb12c715d6b20dd4737e2d2e29d9849f08ce67e9
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '634'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 2%
 * 更新Workfront中的匯率以符合目前的匯率
 * 設定多種貨幣的匯率（如此可讓使用者為個別專案選擇預設貨幣）
 
-匯率會影響Workfront中的所有財務元素。 「基本貨幣」是整個系統內所有專案的預設貨幣，除非針對指定的專案或工作角色覆寫它。 您也可以選取在報表或清單中檢視時，以系統中可用的貨幣顯示財務資訊，這些貨幣與基礎貨幣或專案中的貨幣不同。 如需詳細資訊，請參閱[建立具有唯一匯率的財務資料報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md)。
+匯率會影響Workfront中的所有財務元素。 基本貨幣是整個系統內所有專案的預設貨幣，除非指定專案或工作角色會覆寫基本貨幣。 清單中目前的基本貨幣或預設貨幣會以圖示![預設貨幣圖示](assets/default-icon.png)表示。 您也可以選取在報表或清單中檢視時，以系統中可用的貨幣顯示財務資訊，這些貨幣與基礎貨幣或專案中的貨幣不同。 如需詳細資訊，請參閱[建立具有唯一匯率的財務資料報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md)。
 
 如需為專案和工作角色覆寫Workfront中基本貨幣的相關資訊，請參閱下列文章：
 
@@ -64,7 +64,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td>
+   <td>[！UICONTROL系統管理員]</td>
   </tr> 
  </tbody> 
 </table>
@@ -77,23 +77,26 @@ ht-degree: 2%
 
 {{step-1-to-setup}}
 
-1. 按一下&#x200B;**專案偏好設定** > **匯率。**
+1. 按一下&#x200B;**專案偏好設定** > **匯率**。
 
-1. 按一下&#x200B;**新增貨幣。**
-1. 開始輸入貨幣名稱，然後在貨幣出現在下拉式清單中時按一下貨幣。
+1. 按一下&#x200B;**新增貨幣**。
+1. 在&#x200B;**新增貨幣**&#x200B;方塊中，開始輸入貨幣的名稱，然後當它出現在下拉式清單中時按一下它。
+1. 在&#x200B;**匯率**&#x200B;欄位中，輸入您所選取貨幣的匯率，與系統中設定為基礎貨幣的匯率比較。
+1. 按一下&#x200B;**新增**&#x200B;以新增貨幣及其匯率。
+1. （選用）若要變更基本（預設）貨幣，請執行下列任一項作業：
 
-1. 在提供的欄位中，指定所選貨幣的匯率，因為該匯率與系統中設定為基本貨幣的貨幣相關。
-1. （選用）將貨幣設為Workfront的基礎（預設）貨幣。
+   * 選取貨幣名稱旁的核取方塊，並在熒幕底部的動作列中選取&#x200B;**設定預設值**。
+   * 將滑鼠停留在貨幣名稱上，然後按一下出現的&#x200B;**更多**&#x200B;功能表。 然後，選取&#x200B;**設定預設值**。
 
-   此貨幣是用作整個系統中所有專案和報表的預設貨幣。
+     新的預設貨幣會以圖示更新。
 
-1. 按一下[儲存]儲存變更。**&#x200B;**
+1. （選擇性）若要刪除貨幣，請選取貨幣名稱旁的核取方塊，然後在畫面底部的動作列中選取&#x200B;**刪除**。 您無法刪除預設貨幣。
 
 ## 讓使用者修改專案的預設貨幣
 
 使用者可在符合下列條件時修改專案的預設貨幣：
 
-* 使用者擁有管理匯率存取權的計畫授權。
+* 使用者的「標準」或「計畫」授權具有「匯率」的管理存取權。
 
   如需詳細資訊，請參閱[授予使用者對特定區域的管理存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)。
 
@@ -105,10 +108,13 @@ ht-degree: 2%
 
 當滿足以下條件時，使用者可以修改工作角色的貨幣：
 
-* 使用者擁有對工作角色具有管理存取權的計畫授權。
+* 使用者擁有對工作角色具有管理存取權的標準或計畫授權。
 
   如需詳細資訊，請參閱[授予使用者對特定區域的管理存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)。
 
 * Workfront系統中啟用了多種貨幣。
 
 若要瞭解使用者如何變更指定工作角色的預設貨幣，請參閱[建立和管理工作角色](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)。
+
+
+<!--The default currency is the currency that is used as the default for all projects and reports throughout the system. The current default is indicated with an icon ![Default currency icon](assets/default-icon.png).-->
