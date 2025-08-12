@@ -4,9 +4,10 @@ content-type: reference
 description: 您可以使用AI輸入提示或提供檔案來自動填寫請求欄位。
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: cf2ae77ed27b1dd30144f6de31bec474f53f1efb
+exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
+source-git-commit: fd42ac97be05df9499ea3214642099738ccc69b1
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1093'
 ht-degree: 2%
 
 ---
@@ -62,6 +63,8 @@ AI可協助您根據輸入的提示自動填寫請求欄位。 它也可以根�
 
 如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
++++
+
 ## 先決條件
 
 若要使用提示或檔案自動填寫請求，必須套用下列&#x200B;**所有**：
@@ -72,6 +75,9 @@ AI可協助您根據輸入的提示自動填寫請求欄位。 它也可以根�
 * Adobe必須已簽署檔案Adobe Gen AI合約
 
   如需簽署合約的詳細資訊，請參閱AI助理總覽一文中的[簽署Adobe Gen AI合約](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)。
+* AI助理必須在您組織的系統設定中啟用。 這項工作由Workfront管理員管理。
+
+  如需有關在系統設定中啟用AI助理的詳細資訊，請參閱[啟用或停用AI助理](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)。
 
 ## 從文字提示取得建議
 
@@ -252,4 +258,3 @@ Workfront欄位型別會影響指定欄位是否可自動填入。
 
 * 您必須在系統中擁有至少一個月的請求資料，然後才能建議來自先前請求的欄位值。
 * 您在上傳要從中提取建議的檔案時，可能未依循檔案上傳護欄。 如需詳細資訊，請參閱本文中的[檔案上傳護欄](#document-upload-guardrails)。
-
