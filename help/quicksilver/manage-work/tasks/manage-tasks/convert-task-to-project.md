@@ -6,9 +6,9 @@ description: 當專案中的任務需要比您原本計畫更大的工作量完�
 author: Alina
 feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
-source-git-commit: 0c45c768be1dda579e507f5f6ff4b127021a5f73
+source-git-commit: 55c714436fe59c84251c7f4e2a46614feae92cd6
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1189'
 ht-degree: 2%
 
 ---
@@ -52,6 +52,7 @@ ht-degree: 2%
 * 已刪除原始任務。
 * 所有子任務、問題和附註都會彙總至新專案。
 * 檔案、檔案版本和校樣會移至新專案。
+* 將任務轉換為專案時有5分鐘的處理限制。 如果任務附加了大量檔案且無法轉換，您可能需要移除部分檔案，然後再試一次。
 * 所有子任務和問題的狀態和完成百分比會保留。
 * 任務受指派人和將任務轉換為專案的使用者成為專案上的共用使用者。
 * 專案開始日期設定為任務的開始日期。

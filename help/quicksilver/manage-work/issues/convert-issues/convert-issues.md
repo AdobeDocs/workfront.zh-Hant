@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
+source-git-commit: 55c714436fe59c84251c7f4e2a46614feae92cd6
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1506'
 ht-degree: 2%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 2%
 
 * 轉換問題時，原始問題的許可權未傳輸到轉換的物件（任務或專案）。
 
-* 使用範本將問題轉換為專案時，範本中的大部分資訊會傳輸到新專案。 不過，問題中的某些資訊也可傳輸到新專案。 如需詳細資訊，請參閱本文章使用範本[&#128279;](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template)將問題轉換為專案時的專案欄位概觀。
+* 使用範本將問題轉換為專案時，範本中的大部分資訊會傳輸到新專案。 不過，問題中的某些資訊也可傳輸到新專案。 如需詳細資訊，請參閱本文章使用範本[將問題轉換為專案時的](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template)專案欄位概觀。
 * 轉換問題時，並非所有檔案或其資訊都會移至問題轉換為的新物件。 當您轉換附加了檔案或檔案連結的問題時，會包含下列專案：
 
    * 文件
@@ -51,7 +51,7 @@ ht-degree: 2%
    * 版本
    * 只有取消選取&#x200B;**保留原始問題並將其解決方案連結至此任務**&#x200B;選項時，才會包含校樣。
    * 當您轉換附加了檔案和檔案連結的問題時，不包含檔案核准。
-
+* 轉換問題時有5分鐘的處理限制。 如果問題附加了大量檔案且無法轉換，您可能需要移除部分檔案，然後重試。
 * 如果您決定將問題保留在轉換中並且附加了檔案，則檔案及其版本會複製到專案或任務中。 校訂和檔案核准不會複製到專案或任務。
 * 如果您決定不將問題保留在轉換中，而其中包含附加的檔案、檔案、其版本和校樣會傳輸到專案或任務。 檔案核准將不會傳輸到專案或任務。
 * 如果您有來自協力廠商服務(例如Google Drive)的檔案和資料夾連結至原始問題，則無論您是否於轉換期間保留問題，這些連結都會複製到新物件。

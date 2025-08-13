@@ -7,9 +7,9 @@ description: Adobe Workfront對可與專案相關聯的物件數量有限制。 
 author: Alina
 feature: Work Management
 exl-id: 60576107-89f1-4328-89e2-5b1e5e243fd9
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 71ddeb83543c3c1491a412ac18deaa3ce1077c21
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,10 @@ Adobe Workfront對可與專案相關聯的物件數量有限制。 設定專案�
   <tr> 
    <td role="rowheader"><p>時間表計算</p></td> 
    <td>Workfront不會為在6個月內未更新的專案執行自動時間表計算，並在更新後才會繼續。<p>對於在3個月內未更新的專案，Workfront會每週執行時間表計算，而非每晚執行。</p><p>如需有關計算專案時間表的相關資訊，請參閱<a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">重新計算專案時間表</a>。 </p></td> 
+  </tr> 
+    <tr> 
+   <td role="rowheader"><p>轉換物件 </p></td> 
+   <td>轉換物件時，Workfront有5分鐘的處理限制。 如果物件附加了大量檔案，則可能無法在5分鐘限制內轉換。 您可能需要移除部分檔案，然後再試一次。</td> 
   </tr> 
  </tbody> 
 </table>
