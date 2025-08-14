@@ -49,7 +49,7 @@ GenStudio for Performance Marketing與Workfront Planning之間有原生整合。
 
 * Workfront和GenStudio for Performance Marketing必須啟用至相同的組織。
 
-  如需GenStudio的詳細資訊，請參閱[Adobe GenStudio for Performance Marketing使用手冊](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home)。
+  如需GenStudio的詳細資訊，請參閱[Adobe GenStudio for Performance Marketing使用手冊](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/home)。
 
 * 當您的公司有多個GenStudio執行個體時，Workfront Planning中將無法使用Workfront。<!--this will change-->
 
@@ -134,7 +134,7 @@ GenStudio for Performance Marketing與Workfront Planning之間有原生整合。
 </table>
 
 *如需Workfront存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
-*如需Adobe GenStudio for Performance Marketing的詳細資訊，請參閱[Adobe GenStudio for Performance Marketing使用手冊](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home)。
+*如需Adobe GenStudio for Performance Marketing的詳細資訊，請參閱[Adobe GenStudio for Performance Marketing使用手冊](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/home)。
 
 
 ## Workfront Planning與GenStudio整合概述

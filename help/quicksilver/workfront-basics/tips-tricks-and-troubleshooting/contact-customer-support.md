@@ -82,7 +82,7 @@ ht-degree: 0%
 >只有授權支援聯絡人（或支援授權的使用者）才能提交線上支援票證。
 
 
-1. 從[[!DNL Experience League]](https://experienceleague.adobe.com)網站，按一下頁面頂端的&#x200B;**[!UICONTROL 支援]**。
+1. 從[[!DNL Experience League]](https://experienceleague.adobe.com/zh-hant)網站，按一下頁面頂端的&#x200B;**[!UICONTROL 支援]**。
 
    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
 
