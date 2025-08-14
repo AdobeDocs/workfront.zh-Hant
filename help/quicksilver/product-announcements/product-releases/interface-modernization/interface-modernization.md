@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: c8f552a4f4da2365f793e9111ee12a9905516134
+source-git-commit: 343ffcc5ba894f389e4ca00e12ea31009eb6c76a
 workflow-type: tm+mt
-source-wordcount: '6622'
+source-wordcount: '6687'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,16 @@ ht-degree: 0%
 如需Adobe Workfront的所有其他變更，請參閱[產品版本](/help/quicksilver/product-announcements/product-releases/product-releases.md)。
 
 ## 管理和設定
+
+### 最近刪除專案的介面更新
+
+**預覽版本： 2025年8月14日；生產版本： 2025年8月21日**
+
+我們已更新「設定」區域中最近刪除之專案的外觀與操作方式，以符合Workfront其他區域的設計方式。 最近刪除的專案、任務、請求、檔案或範本的功能未變更。
+
+若要檢視這項變更，請前往「設定>資源回收筒>最近刪除」。
+
+如需詳細資訊，請參閱[還原已刪除的專案](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)。
 
 ### 安裝程式中條件區域的介面更新
 
@@ -82,7 +92,7 @@ ht-degree: 0%
 
 ### 專案業務案例的介面更新
 
-**預覽版本： 2025年8月4日；生產版本： 8月18日**
+**預覽版本： 2025年8月4日；生產版本： 2025年8月13日**
 
 我們已更新專案業務案例的外觀和風格，以符合應用程式的其他領域。
 
@@ -125,15 +135,14 @@ For information, see [Edit project templates](/help/quicksilver/manage-work/proj
 * [管理專案團隊](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md)
 * [管理公司成員資格](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)
 
-### 更新在專案或範本中編輯佇列主題時的體驗
+### 更新在專案或範本中編輯主題群組的體驗
 
 **預覽版本： 2025年7月31日；生產版本： 2025年7月31日**
 
-我們在範本上編輯佇列主題時，已更新其外觀和風格。 佇列主題編輯頁面現在符合Workfront其他區域的設計。
+我們在範本上編輯「主題群組」時，已更新其外觀和風格。 主題群組編輯頁面現在會比對Workfront其他區域的設計。
+主題群組已套用小幅功能變更。 若要編輯「主題群組」，請從清單中選取「主題群組」，然後按一下「編輯」圖示。 在您可以編輯之前，您不會再被導向至「主題群組詳細資訊」頁面。
 
-路由規則清單已套用小幅功能變更。 若要編輯佇列主題，請從清單中選取佇列主題，然後按一下編輯圖示。 在編輯之前，您不會再被導向至「佇列主題」詳細資訊頁面。
-
-如需詳細資訊，請參閱[建立佇列主題](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)。
+如需詳細資訊，請參閱[建立主題群組](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)。
 
 ### 付費記錄的介面更新
 
@@ -219,7 +228,7 @@ For information, see [Edit project templates](/help/quicksilver/manage-work/proj
 
 ### 版面配置範本頁面的介面更新
 
-**預覽版本： 2025年7月17日；生產版本：待定**
+**預覽版本： 2025年7月17日；生產版本： 2025年8月14日**
 
 我們更新了「版面配置範本」頁面，使其設計更現代化，與Workfront的其他區域一致。
 
@@ -885,7 +894,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 此更新包含區域的視覺化變更。 功能未變更。
 
-若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。**&#x200B;**
+若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。****
 
 +++
 
@@ -931,7 +940,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 ### 專案
 
-+++展開以檢視在第2季進行的專案介面更新
++++展開以檢視第二季度進行的專案介面更新
 
 ### 專案佇列詳細資料區域的外觀和感覺更新
 
@@ -958,7 +967,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 ### 報告和儀表板
 
-+++展開以檢視第二季所做的報表和儀表板介面更新
++++展開以檢視第二季度進行的報表和儀表板介面更新
 
 ### 里程碑路徑報表的外觀和感覺更新
 
@@ -1095,7 +1104,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 ### 更新與註解
 
-+++展開以檢視第二季所做的更新和評論介面更新
++++展開以檢視第2季所做的更新和評論介面更新
 
 ### 註釋的「更多」功能表選項的介面更新
 

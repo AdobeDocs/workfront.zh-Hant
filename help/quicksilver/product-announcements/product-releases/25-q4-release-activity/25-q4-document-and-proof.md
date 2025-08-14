@@ -4,9 +4,10 @@ description: 2025年第四季檔案和校訂增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0babf2c4028ee0c45258ec3490bab336fd05a68b
+exl-id: f4615994-8a56-482c-b033-62e719be152e
+source-git-commit: 5422b7f5aa3dc1f3827c6d0d0ff559effb447fa4
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,27 @@ ht-degree: 0%
 
 如需2025年第四季版本週期目前可用的所有變更清單，請參閱[2025年第四季版本概觀](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)。
 
+## 新增Workfront AI檢閱者
+
+>[!NOTE]
+>
+>2025年8月14日開放所有客戶使用
+
+新的Workfront AI檢閱者會根據您的品牌方針，從影像方針開始，自動檢閱內容，協助確保影像品牌法規遵循。 它提供分數和可操作的意見回饋，以簡化核准流程。
+
+您可以將AI稽核者新增至核准範本或個別稽核與核准請求，在保持品牌標準的同時實現更快的內容製作。
+
+如需詳細資訊，請參閱[開始使用Workfront AI檢閱者](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)。
+
+此功能目前處於Beta測試階段。
+
+
 ## Adobe Express的全新校訂整合
+
+>[!NOTE]
+>
+>2025年7月28日開放所有客戶使用
+
 
 我們很高興宣佈Adobe Express與Workfront Proof之間新的整合。
 
