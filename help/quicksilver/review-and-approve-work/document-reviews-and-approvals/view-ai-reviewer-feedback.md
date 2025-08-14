@@ -6,17 +6,19 @@ description: 提交核准請求幾秒後，您即可在檔案摘要面板中從A
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
-source-git-commit: da980cee8710570f52c724053d1e0f359c6a9fe1
+exl-id: 838e8f3d-0ea6-4844-a261-ef7b0e78a755
+source-git-commit: 7d7291539d4436f0c4700363b7800a5cc6ac4096
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
 
-
 # 檢視AI檢閱者評分和意見反應
+
+>[!NOTE]
+>
+>此功能目前處於Beta測試階段。
 
 在您提交檢閱和核准請求數秒後，即可在「檔案摘要」面板中從AI檢閱者檢視分數和回饋。
 
