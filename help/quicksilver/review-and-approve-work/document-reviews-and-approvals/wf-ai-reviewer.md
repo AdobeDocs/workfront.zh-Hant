@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: cfa948baf31891d389ca38fc35d546b77e599c5e
+source-git-commit: bcf9e3eb987bf4c33b994d68276cb04b817c484d
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '622'
 ht-degree: 4%
 
 ---
@@ -53,7 +53,7 @@ AI檢閱者可檢閱下列檔案型別：
 
 ## 設定品牌指南
 
-Workfront AI Reviewer在檢閱內容時，會使用Genstudio for Performance Marketing中設定的品牌准則。 目前，您只能設定影像的品牌指南。 如需詳細資訊，請參閱[開始使用Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/get-started)。
+Workfront AI Reviewer在檢閱內容時，會使用Genstudio for Performance Marketing中設定的品牌准則。 目前，您只能設定影像的品牌指南。 如需詳細資訊，請參閱[開始使用Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started)。
 
 
 ## 建立AI檢閱者
@@ -103,3 +103,6 @@ AI檢閱者並非設計成檢閱和核准工作流程中的決策者。 它只�
 ![AI檢閱者意見](assets/ai-reviewer-feedback.png)
 
 
+## 影片逐步解說
+
+>[!VIDEO](https://video.tv.adobe.com/v/3470847/)

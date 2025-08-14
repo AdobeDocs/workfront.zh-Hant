@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f4615994-8a56-482c-b033-62e719be152e
-source-git-commit: 5422b7f5aa3dc1f3827c6d0d0ff559effb447fa4
+source-git-commit: bcf9e3eb987bf4c33b994d68276cb04b817c484d
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 0%
@@ -32,6 +32,7 @@ ht-degree: 0%
 
 此功能目前處於Beta測試階段。
 
+>[!VIDEO](https://video.tv.adobe.com/v/3470847/)
 
 ## Adobe Express的全新校訂整合
 
