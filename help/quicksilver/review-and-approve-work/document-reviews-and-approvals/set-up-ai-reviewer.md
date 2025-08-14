@@ -57,7 +57,7 @@ ht-degree: 1%
 
 開始之前，您必須在GenStudio基礎中設定影像品牌指導方針。
 
-若要深入瞭解影像品牌准則，請參閱[開始使用Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started)。
+若要深入瞭解影像品牌准則，請參閱[開始使用Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/get-started)。
 
 ## 新增AI檢閱者
 
