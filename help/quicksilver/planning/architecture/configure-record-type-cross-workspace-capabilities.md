@@ -4,9 +4,9 @@ description: 您可以啟用記錄型別，以新增至另一個工作區，或�
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 943c26efa6f6351abf885dbc5f3aa09c0b0fab05
+source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '1030'
 ht-degree: 1%
 
 ---
@@ -22,15 +22,37 @@ recommendations: noDisplay, noCatalog
 
 <!--*******************THIS TITLE MIGHT NEED TO CHANGE WHEN WE HAVE THE FINAL NAME FOR THE "GLOBAL" RECORD TYPE - NOT SURE IF WE ARE GOING TO USE "GLOBAL" OR "DYNAMIC", OR ???? ***************; also update TOC file, the miniTOC,  etc when this is finalized-->
 
-<!--this is linked to the UI in the info icon of when you create a record type from a global record type-->
+
+
+<!--this article is linked to the UI - do not delete or change the URL-->
+<!--add more info here about permissions, how users gain permissions from the original record type, per Lilit: users who add this to another space gain View permissions on that space when they add records to this imported record type - this info is in the UI - this is what she sent in figma:
+
+Hey, Alina, Lusine. As this page contains not only the "global record types" but also cross-workspace connectivity setting, we shouldn't have this message that's highlighting only the global rt features. I think we should have explanation for each setting both in enabled and disabled states. 
+
+So we'd have the "Allow adding this record type to other workspaces" setting in enabled or disabled state, and display an explanation text below it explaining the capability, as well as a link to help articles for more context. I'd like to include the following key points in the message:  
+
+Once enabled, this record type can be added in other workspaces by designated people 
+
+Members of those workspaces can create and manage records in scope of their workspace 
+
+Any records added by other workspace members will be rolled up to this workspace with view access so members of the current workspace can create views for cross-workspace records.  
+
+Then for the second setting for cross-workspace connections, we'll need a similar explanation text would highlight that the other workspaces can create connections and gain view access to the records in this record type, but will not see the record type in their workspace. (not sure what she means by this last bit, asking in figma also)
+
+-->
 
 # 設定記錄型別的跨工作區功能
+
+<!--this is linked to the UI in the info icon of when you create a record type from a global record type-->
 
 <span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
 <span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
-您可以在Adobe Workfront Planning中，指定要新增至其他工作區或從其他工作區連線的記錄型別。
+以下是記錄型別的跨工作區功能：
+
+* 您可以將記錄型別指定為集中式。 使用者可以將集中式記錄型別新增到他們可以管理的其他工作區。
+* 您可以將記錄型別指定為可連線。 使用者可以從其他工作區連線到此記錄型別。
 
 您必須先定義記錄型別的跨工作區功能，然後工作區管理員才能從其他工作區連線記錄型別或將記錄型別匯入其他工作區。
 
@@ -43,7 +65,7 @@ recommendations: noDisplay, noCatalog
 
 ## 存取需求
 
-+++ 展開以檢視存取需求。
++++ 展開以檢視存取需求。  
 
 <table style="table-layout:auto"> 
 <col> 
@@ -103,7 +125,7 @@ recommendations: noDisplay, noCatalog
 
 *如需Workfront存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-+++
++++   
 
 ## 設定將記錄型別新增至其他工作區
 

@@ -6,10 +6,10 @@ description: 投資組合是Adobe Workfront中的專案或方案集合。 如果
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 8a4668a568fde2ca7ee26714caae3cd33efe4eda
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 0%
+source-wordcount: '441'
+ht-degree: 1%
 
 ---
 
@@ -23,9 +23,7 @@ ht-degree: 0%
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
-
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視存取需求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,16 +35,16 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>新增：[!UICONTROL Standard] </p>
-   <p>目前： [!UICONTROL 計畫] </p> </td> 
+   <td> <p>[！UICONTROL標準]</p>
+   <p>[！UICONTROL計畫]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[!UICONTROL Edit]專案與投資組合的存取權</p>  </td> 
+   <td> <p>[！UICONTROL Edit]專案與投資組合的存取權</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>投資組合的[!UICONTROL Manage]許可權 </p> </td> 
+   <td> <p>投資組合的[！UICONTROL Manage]許可權 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -68,6 +66,7 @@ ht-degree: 0%
 * 刪除投資組合不會刪除與其相關聯的專案。
 * 您無法復原已刪除的投資組合。
 * 停用專案組合可確保建立專案時，專案組合及其方案的名稱不再指派給專案。
+* 停用已附加至專案的投資組合併不會將其從專案中移除。 如果您從專案中移除已停用的投資組合，則必須先將其重新啟用，才能將其重新附加至專案。
 
 ## 停用投資組合
 
@@ -82,11 +81,17 @@ ht-degree: 0%
 1. 按一下「**[!UICONTROL 投資組合]**」。
 1. 按一下投資組合的名稱。
 1. 按一下投資組合名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-icon.png)，然後按一下&#x200B;**[!UICONTROL 停用Portfolio]**。
+投資組合會立即停用。
+1. （選擇性）按一下投資組合名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-icon.png)，然後按一下&#x200B;**[!UICONTROL 啟用Portfolio]**&#x200B;以重新啟用。
 
 ## 刪除投資組合
 
-{{step1-click-main-menu}}
+{{step1-to-portfolios}}
 
-1. 按一下「**[!UICONTROL 投資組合]**」。
-1. 選取投資組合，然後按一下&#x200B;**[!UICONTROL 刪除]**&#x200B;[!UICONTROL 刪除]圖示![刪除圖示](assets/delete.png)。
+1. 執行下列其中一項：
+
+   * 在清單中選取投資組合，然後按一下&#x200B;**[!UICONTROL 刪除]**&#x200B;圖示![刪除圖示](assets/delete.png)。
+   * 按一下投資組合以開啟，然後按一下投資組合名稱右側的&#x200B;**更多**&#x200B;功能表![更多](assets/more-icon.png)，然後&#x200B;**刪除Portfolio**。
 1. 按一下&#x200B;**[!UICONTROL 是，刪除]**&#x200B;以進行確認。
+
+   投資組合已刪除，且無法復原。

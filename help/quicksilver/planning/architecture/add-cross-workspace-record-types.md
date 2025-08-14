@@ -4,9 +4,9 @@ description: 記錄型別是Adobe Workfront Planning的物件型別。 在Workfr
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 943c26efa6f6351abf885dbc5f3aa09c0b0fab05
+source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '599'
 ht-degree: 2%
 
 ---
@@ -27,15 +27,15 @@ recommendations: noDisplay, noCatalog
 
 身為工作區管理員，您可以匯入現有記錄型別或將其新增至另一個工作區。
 
-必須先定義記錄型別的跨工作區功能，工作區管理員才能將其匯入其他工作區。
+必須先將記錄型別指定為集中型別，工作區管理員才能將其匯入其他工作區。
 
-當您建立或編輯記錄型別時，可以定義記錄型別的跨工作區功能。
+當您在定義記錄型別的跨工作區設定時，可以在建立或編輯記錄型別時將其指定為集中型別。
 
 如需詳細資訊，請參閱[設定記錄型別的跨工作區功能](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)。
 
 ## 存取需求
 
-+++ 展開以檢視存取需求。
++++ 展開以檢視存取需求。  
 
 <table style="table-layout:auto"> 
 <col> 
@@ -95,9 +95,11 @@ recommendations: noDisplay, noCatalog
 
 *如需Workfront存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-+++
++++   
 
-## 從另一個工作區新增現有記錄型別時的注意事項
+## 集中記錄型別概觀
+
+從另一個工作區新增現有記錄型別時的注意事項
 
 * 當沒有記錄型別設定為要新增到另一個工作區時，建立記錄型別時不會顯示從另一個工作區匯入它們的選項。<!--add this a tip in the steps below, and/ or add a Conditional step that this is possible only when these record types are first enabled-->
 * 從另一個工作區新增記錄型別之後，也會從現有記錄型別新增以下資訊：
