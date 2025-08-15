@@ -77,12 +77,12 @@ ht-degree: 5%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront套件</p></td> 
    <td> 
-<p>任何Adobe Workfront套件或Adobe Workfront Workflow套件</p> (***這太過分了****)
+<p>任何Adobe Workfront套件或Adobe Workfront Workflow套件</p> (***這太過分了**&#x200B;**)
 
 與
 <p>任何Adobe Workfront Planning套件</p> 
    </td> </tr>
-<td role="rowheader"><p>Adobe Workfront平台(****我們是否要標註此內容，或將其設為底部連結之文章的一部分???*****)</p></td> 
+<td role="rowheader"><p>Adobe Workfront平台(**&#x200B;**&#x200B;我們是否要標註此內容，或將其設為底部連結之文章的一部分???**&#x200B;***)</p></td> 
    <td> 
 <p>貴組織的Workfront例項必須上線至Adobe Unified Experience，才能存取Workfront Planning。</p> 
 <p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">適用於Workfront的Adobe Unified Experience</a>。 </p> 
@@ -140,15 +140,15 @@ ht-degree: 5%
    <td> <p>[!DNL Adobe Workfront] 授權*</p> </td> 
    <td> <p>淺色或更高</p> 
    或
-   <p>[！UICONTROL Review]或更高版本</p> </td> 
+   <p>[!UICONTROL Review]或更高版本</p> </td> 
   </tr>
 
 <td><p>存取層級設定</p> </td> 
-   <td> <p>[！UICONTROL Edit]對的存取權 [!DNL Scenario Planner]</p> </td> 
+   <td> <p>[!UICONTROL Edit]對的存取權 [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>物件許可權 </p> </td> 
-   <td> <p>[！UICONTROL Manage]計畫的許可權</p>  </td> 
+   <td> <p>[!UICONTROL Manage]計畫的許可權</p>  </td> 
   </tr> 
  </tbody> 
 </table>
