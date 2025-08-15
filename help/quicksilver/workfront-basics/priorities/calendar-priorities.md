@@ -68,7 +68,7 @@ ht-degree: 4%
 
 {{step1-to-priorities}}
 
-1. 按一下工作清單頂端的&#x200B;**行事曆**圖示。
+1. 按一下工作清單頂端的&#x200B;**行事曆**&#x200B;圖示。
    ![行事曆圖示](assets/calendar-tab.png)
 1. 選取一或多個篩選器以縮小您的工作專案。
 
@@ -142,17 +142,17 @@ ht-degree: 4%
    * 記錄時間
    * 新增快速連結
 
-1. （選擇性）按一下[新建] ****&#x200B;以新增工作專案至行事曆。 如需詳細資訊，請參閱[在優先順序](/help/quicksilver/workfront-basics/priorities/create-task-issue-priorities.md)中建立新任務或問題。
+1. （選擇性）按一下[新建] **&#x200B;**&#x200B;以新增工作專案至行事曆。 如需詳細資訊，請參閱[在優先順序](/help/quicksilver/workfront-basics/priorities/create-task-issue-priorities.md)中建立新任務或問題。
 
 ## 設定日曆
 
 {{step1-to-priorities}}
 
-1. 按一下工作清單頂端的&#x200B;**行事曆**圖示。
+1. 按一下工作清單頂端的&#x200B;**行事曆**&#x200B;圖示。
    ![行事曆圖示](assets/calendar-tab.png)
 1. 按一下行事曆右角的&#x200B;**設定**&#x200B;圖示。
 
-1. 在&#x200B;**列樣式**標籤上，選擇最多5個欄位顯示在行事曆的工作專案列上。
+1. 在&#x200B;**列樣式**&#x200B;標籤上，選擇最多5個欄位顯示在行事曆的工作專案列上。
    ![範例列](assets/sample-task-for-field-config.png)
 
 1. 在&#x200B;**色彩**&#x200B;標籤上，選擇您要如何顯示工作專案。 例如，如果您選擇&#x200B;**專案**，您的工作專案會根據工作清單上指派給專案的顏色顯示。

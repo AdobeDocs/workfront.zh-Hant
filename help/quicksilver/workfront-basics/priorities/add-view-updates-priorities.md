@@ -65,7 +65,7 @@ ht-degree: 0%
 {{step1-to-priorities}}
 
 1. 找到您要更新的工作專案。
-1. 將游標暫留在名稱上，然後按一下[新增更新]。****
+1. 將游標暫留在名稱上，然後按一下[新增更新]。**&#x200B;**
    ![新增更新](assets/add-update.png)
    <!--new screen for prod ![Update](assets/update-log-upload.png)-->
 1. 開始輸入您的註解。

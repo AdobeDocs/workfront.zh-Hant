@@ -76,7 +76,7 @@ ht-degree: 2%
 1. 按一下&#x200B;**上傳檔案**&#x200B;圖示![上傳檔案圖示](assets/upload-file-icon.png)。
 1. 拖放檔案，或按Cmd/Ctrl + V從剪貼簿貼上
 或
-按一下**新增檔案**以瀏覽檔案或從Document Cloud提供者匯入檔案。
+按一下&#x200B;**新增檔案**&#x200B;以瀏覽檔案或從Document Cloud提供者匯入檔案。
    ![新增檔案](assets/add-files.png)
 1. （選用）新增註解。
 1. （選用）新增更多檔案。
@@ -95,7 +95,7 @@ ht-degree: 2%
 1. 按一下右上角的&#x200B;**上傳檔案**，然後選取&#x200B;**檔案**。
 1. 拖放檔案，或按Cmd/Ctrl + V從剪貼簿貼上
 或
-按一下**新增檔案**以瀏覽檔案或從Document Cloud提供者匯入檔案。
+按一下&#x200B;**新增檔案**&#x200B;以瀏覽檔案或從Document Cloud提供者匯入檔案。
    ![新增檔案](assets/add-files.png)
 1. （選用）新增註解。
 1. （選用）新增更多檔案。
