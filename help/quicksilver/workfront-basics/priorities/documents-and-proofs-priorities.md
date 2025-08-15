@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 63aa5e45-e51d-4049-a5d9-18dfaaa79647
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '599'
 ht-degree: 2%
 
 ---
@@ -72,13 +72,18 @@ ht-degree: 2%
 {{step1-to-priorities}}
 
 1. 在工作清單中，暫留在工作名稱上，然後按一下&#x200B;**摘要**&#x200B;圖示![開啟摘要圖示](assets/summary-icon.png)。
-1. 確保您位於面板中的任務或問題索引標籤。
-1. 按一下右側欄中的「檔案」圖示。
-1. 按一下「上傳檔案」圖示，然後選擇檔案。
-1. （可選）執行下列任一項作業：
-   1. 選取資料夾。
-   1. 發表評論
-   1. 新增其他檔案。
+1. 確定您位於摘要面板中的&#x200B;**任務**&#x200B;或&#x200B;**問題**&#x200B;索引標籤上。
+1. 按一下&#x200B;**上傳檔案**&#x200B;圖示![上傳檔案圖示](assets/upload-file-icon.png)。
+1. 拖放檔案，或按Cmd/Ctrl + V從剪貼簿貼上
+或
+按一下**新增檔案**以瀏覽檔案或從Document Cloud提供者匯入檔案。
+   ![新增檔案](assets/add-files.png)
+1. （選用）新增註解。
+1. （選用）新增更多檔案。
+
+   >[!NOTE]
+   >
+   >其他檔案會以個別檔案的形式上傳。
 1. 按一下&#x200B;**上傳**。
 
 ### 工作專案詳細資料
@@ -86,12 +91,18 @@ ht-degree: 2%
 {{step1-to-priorities}}
 
 1. 在工作清單中，按一下工作專案名稱。
-1. 按一下熒幕頂端的檔案標籤。
-1. 按一下&#x200B;**上傳檔案** > **檔案**。
-1. （可選）執行下列任一項作業：
-   1. 選取資料夾。
-   1. 發表評論
-   1. 新增其他檔案。
+1. 按一下熒幕上方的&#x200B;**檔案**&#x200B;索引標籤。
+1. 按一下右上角的&#x200B;**上傳檔案**，然後選取&#x200B;**檔案**。
+1. 拖放檔案，或按Cmd/Ctrl + V從剪貼簿貼上
+或
+按一下**新增檔案**以瀏覽檔案或從Document Cloud提供者匯入檔案。
+   ![新增檔案](assets/add-files.png)
+1. （選用）新增註解。
+1. （選用）新增更多檔案。
+
+   >[!NOTE]
+   >
+   >其他檔案會以個別檔案的形式上傳。
 1. 按一下&#x200B;**上傳**。
 
 
@@ -105,16 +116,17 @@ ht-degree: 2%
 {{step1-to-priorities}}
 
 1. 在工作清單中，暫留在工作名稱上，然後按一下&#x200B;**摘要**&#x200B;圖示![開啟摘要圖示](assets/summary-icon.png)。
-1. 確保您位於面板中的任務或問題索引標籤。
-1. 按一下右側邊欄中的&#x200B;**檔案**&#x200B;圖示。
-1. 按一下&#x200B;**上傳檔案**&#x200B;圖示，然後選擇檔案。
+1. 確定您位於摘要面板中的&#x200B;**任務**&#x200B;或&#x200B;**問題**&#x200B;索引標籤上。
+1. 按一下右側邊欄中的&#x200B;**檔案**&#x200B;圖示![檔案圖示](assets/show-document-icon.png)。
+1. 按一下&#x200B;**上傳檔案**&#x200B;圖示![上傳檔案圖示](assets/upload-file-icon.png)，然後選擇檔案。
 
    >[!NOTE]
    >
    >在建立校樣之前，您必須上傳檔案。
 
 
-1. 上傳檔案後，按一下&#x200B;**建立校訂**。
+1. 上傳檔案後，在&#x200B;**檔案**&#x200B;區段中選取檔案。
+1. 按一下檔案詳細資料方塊右上角的&#x200B;**建立校訂**。
 1. 選擇下列其中一項：
 
    <table style="table-layout:auto"> 
@@ -122,11 +134,11 @@ ht-degree: 2%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">簡單校訂</td> 
+      <td role="rowheader"><b>簡單校訂</b></td> 
       <td>此選項會建立未附加工作流程的校訂，並套用預設校訂設定。 您可以更新預設校訂設定，或在建立校訂後新增工作流程。 如需校訂設定的詳細資訊，請參閱<a href="/help/quicksilver/review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md" class="MCXref xref">編輯校訂設定</a>。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">進階校訂</td> 
+      <td role="rowheader"><b>進階校訂</b></td> 
       <td> <p>此選項可讓您設定基本或進階工作流程，並修改您建立之校訂的校訂設定。 如需詳細資訊，請參閱 </p> 
        <ul> 
         <li><p><a href="/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md" class="MCXref xref">使用基本工作流程建立進階校訂</a> </p> </li> 
@@ -143,7 +155,7 @@ ht-degree: 2%
 
 1. 在工作清單中，按一下工作專案名稱。
 1. 按一下熒幕上方的&#x200B;**檔案**&#x200B;索引標籤。
-1. 按一下&#x200B;**上傳檔案** > **校訂**。
+1. 按一下右上角的&#x200B;**上傳檔案**，然後選取&#x200B;**校訂**。
 1. 建立校訂，如所述
    [使用基本工作流程建立進階校訂](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
    [使用自動化工作流程建立進階校訂](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)

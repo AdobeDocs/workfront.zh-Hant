@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
-source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '204'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,6 @@ ht-degree: 0%
 ## 存取需求
 
 +++ 展開以檢視本文中功能的存取需求。
-
-您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -57,35 +55,9 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
-
-## 自訂生產環境中的優先順序工作清單欄
-
-### 啟用或停用欄
-
-{{step1-to-priorities}}
-
-1. 按一下熒幕右側的&#x200B;**欄**。
-   ![欄](assets/columns.png)
-1. 使用切換可啟用或停用工作清單中的欄。
-
-### 重新排序欄
-
-{{step1-to-priorities}}
-
-1. 按一下熒幕右側的&#x200B;**欄**。
-1. 按一下&#x200B;**拖曳**&#x200B;圖示，並將資料行移至您想要的位置。 自動移動工作清單中的欄更新。
-   ![重新排序資料行](assets/reorder-columns.png)
-
-### 重設欄寬
-
-{{step1-to-priorities}}
-
-1. 按一下熒幕右側的&#x200B;**欄**。
-1. 按一下&#x200B;**更多**&#x200B;圖示![更多圖示](assets/more-icon.png)，然後選擇&#x200B;**重設資料行寬度**。
-   ![欄](assets/columns.png)
 
 ## 自訂「優先順序」工作清單欄
 
@@ -102,7 +74,7 @@ ht-degree: 0%
 {{step1-to-priorities}}
 
 1. 按一下畫面左側的&#x200B;**欄**。
-1. 按一下&#x200B;**拖曳**&#x200B;圖示，並將資料行移至您想要的位置。 自動移動工作清單中的欄更新。
+1. 按一下&#x200B;**拖曳**圖示，並將資料行移至您想要的位置。 自動移動工作清單中的欄更新。
    ![重新排序資料行](assets/reorder-columns-new.png)
 
 >[!NOTE]

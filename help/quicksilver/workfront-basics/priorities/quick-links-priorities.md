@@ -6,7 +6,7 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 2d76077d-2913-40b8-9596-4e201d12ec1a
-source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 0%
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 {{step1-to-priorities}}
 
-1. 按一下工作專案名稱以開啟「概觀」頁面。
+1. 按一下工作專案名稱以開啟&#x200B;**概觀**&#x200B;頁面。
 1. 在&#x200B;**快速連結**&#x200B;區段中，按一下&#x200B;**新增連結**。
 1. 在&#x200B;**新增連結**&#x200B;方塊中貼上URL。
 1. 按一下「**儲存**」。
@@ -71,16 +71,16 @@ ht-degree: 0%
 
 {{step1-to-priorities}}
 
-1. 按一下工作專案名稱以開啟「概觀」頁面。
+1. 按一下工作專案名稱以開啟&#x200B;**概觀**&#x200B;頁面。
 1. 在&#x200B;**快速連結**&#x200B;區段中，尋找您要複製的連結。
-1. 按一下「複製」圖示![復製圖示](assets/copy-icon.png)。
+1. 按一下&#x200B;**複製**![&#x200B;復製圖示](assets/copy-icon.png)圖示。
    ![複製連結](assets/copy-link.png)
 
 ## 開啟快速連結
 
 {{step1-to-priorities}}
 
-1. 按一下工作專案名稱以開啟「概觀」頁面。
+1. 按一下工作專案名稱以開啟&#x200B;**概觀**&#x200B;頁面。
 1. 在&#x200B;**快速連結**&#x200B;區段中，尋找您要開啟的連結。
 1. 按一下連結。 連結會在新標籤中開啟。
    ![開啟連結](assets/open-link.png)
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 {{step1-to-priorities}}
 
-1. 按一下工作專案名稱以開啟「概觀」頁面。
+1. 按一下工作專案名稱以開啟&#x200B;**概觀**&#x200B;頁面。
 1. 按一下畫面右上角的&#x200B;**編輯詳細資料**。
    ![編輯詳細資料](assets/edit-details.png)
-1. 尋找您要移除的連結，然後按一下「刪除」圖示![「刪除」圖示](assets/delete-icon.png)。
+1. 尋找您要移除的連結，然後按一下&#x200B;**刪除** ![刪除圖示](assets/delete-icon.png)圖示。

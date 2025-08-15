@@ -6,7 +6,7 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 1%
@@ -74,7 +74,7 @@ ht-degree: 1%
    * 檢視專案並新增註解
    * 記錄時間
    * 新增檔案
-   * <span class="preview">直接前往專案</span>
+   * 直接前往專案
 
    ![專案詳細資料](assets/project-details-new.png)
 
@@ -101,7 +101,7 @@ ht-degree: 1%
 
 1. 在工作清單中，暫留在工作名稱上，然後按一下&#x200B;**摘要**&#x200B;圖示![開啟摘要圖示](assets/summary-icon.png)。
 
-1. 依預設會選取問題。 您可以
+1. 依預設會選取問題。 您可以：
    * 檢視和編輯專案和問題的詳細資訊和說明
    * 檢視專案並新增註解
    * 檢視和新增檔案
@@ -116,7 +116,7 @@ ht-degree: 1%
 
 您可以在任務或問題的詳細資訊頁面上檢視即時更新。 您也可以檢視其他人是否與您同時檢視頁面，並透過即時狀態指標。
 
-## 檢視工作專案詳細資料
+### 檢視工作專案詳細資料
 
 {{step1-to-priorities}}
 

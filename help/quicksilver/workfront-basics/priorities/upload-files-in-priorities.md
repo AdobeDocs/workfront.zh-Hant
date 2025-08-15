@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
-source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
@@ -54,12 +54,13 @@ ht-degree: 0%
 
 {{step1-to-priorities}}
 
-1. 將游標暫留在名稱上，然後按一下&#x200B;**上傳**。
+1. 將游標停留在名稱上，然後按一下&#x200B;**更多** ![更多圖示](assets/more-icon.png)圖示。
+1. 按一下&#x200B;**上傳**。
    ![更新、記錄時間和上傳](assets/update-log-upload.png)
-1. （選擇性）選取資料夾。
+1. （選擇性）在&#x200B;**上傳檔案**&#x200B;方塊中，選取資料夾。
 1. 拖放檔案，或按Cmd/Ctrl + V從剪貼簿貼上
 或
-按一下&#x200B;**新增檔案**&#x200B;以瀏覽檔案或從Document Cloud提供者匯入檔案。
+按一下**新增檔案**以瀏覽檔案或從Document Cloud提供者匯入檔案。
    ![新增檔案](assets/add-files.png)
 1. （選用）新增註解。
 1. （選用）新增更多檔案。
@@ -68,19 +69,17 @@ ht-degree: 0%
    >
    >其他檔案會以個別檔案的形式上傳。
 1. 按一下&#x200B;**上傳**。
-   ![上傳檔案](assets/upload-file-module.png)
-
 
 ## 上傳工作專案中的檔案
 
 {{step1-to-priorities}}
 
-1. 按一下工作專案名稱以開啟「概觀」頁面。
-1. 在&#x200B;**快速動作**&#x200B;區段中，按一下&#x200B;**上傳**。
-1. （選擇性）選取資料夾。
+1. 按一下工作專案名稱以開啟&#x200B;**概觀**&#x200B;頁面。
+1. 在&#x200B;**快速動作**&#x200B;區段中，按一下&#x200B;**上傳**，然後選取&#x200B;**檔案**。
+1. （選擇性）在&#x200B;**上傳檔案**&#x200B;方塊中，選取資料夾。
 1. 拖放檔案，或按Cmd/Ctrl + V從剪貼簿貼上
 或
-按一下&#x200B;**新增檔案**&#x200B;以瀏覽檔案或從Document Cloud提供者匯入檔案。
+按一下**新增檔案**以瀏覽檔案或從Document Cloud提供者匯入檔案。
    ![新增檔案](assets/add-files.png)
 1. （選用）新增註解。
 1. （選用）新增更多檔案。
@@ -89,4 +88,3 @@ ht-degree: 0%
    >
    >其他檔案會以個別檔案的形式上傳。
 1. 按一下&#x200B;**上傳**。
-   ![上傳檔案](assets/upload-file-module.png)
