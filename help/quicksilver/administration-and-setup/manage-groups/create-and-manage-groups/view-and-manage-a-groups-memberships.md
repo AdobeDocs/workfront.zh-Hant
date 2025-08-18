@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 219e5fa3-cf25-477d-82f6-046e3ff30989
-source-git-commit: 2096cfa0fd4d0e7eeb85dbf00668dc1dd7fb1d99
+source-git-commit: c23b3967cf06aaff1bcd7465ce6c7a0c7b7fe9af
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 1%
+source-wordcount: '750'
+ht-degree: 0%
 
 ---
 
@@ -73,18 +73,18 @@ ht-degree: 1%
      <tr> 
       <td role="rowheader">新增使用者至群組</td> 
       <td> 
-       <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">按一下<strong>新增成員</strong> <img src="assets/add-icon-plus-in-circle.png">，開始輸入使用者的名稱，然後在其出現時選取它。</li> 
-        <li value="2"> <p>對您要新增的任何其他使用者重複此步驟。</p> <p>如果您決定不新增該使用者，可以按一下名稱右側的X。</p> </li> 
-        <li value="3">完成時，按一下<strong>完成</strong>。</li> 
+       <ol> 
+        <li>按一下<strong>新增成員</strong> <img src="assets/add-icon-plus-in-circle.png">，開始輸入使用者的名稱，然後在其出現時選取它。</li>
+        <li> <p>對您要新增的任何其他使用者重複此步驟。</p> <p>如果您決定不新增該使用者，可以按一下名稱右側的X。</p> </li>
+        <li>完成時，按一下<strong>完成</strong>。</li>
        </ol> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">從群組移除使用者</td> 
       <td> 
-       <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">選取一或多個使用者名稱，然後按一下[移除成員]。<strong></strong><img src="assets/remove-icon---x-in-circle.png"></li> 
-        <li value="2"> <p>在顯示的警告訊息中，按一下<strong>移除</strong>。</p> <p>您可以按一下<strong>搜尋清單中的人員和群組</strong>，在方塊中輸入其名稱，然後在名稱出現時按一下該名稱，來尋找您要從清單中移除的使用者。</p> <p><b>附註</b>：  
+       <ol> 
+        <li>選取一或多個使用者名稱，然後按一下[移除成員]。<strong></strong><img src="assets/remove-icon---x-in-circle.png"></li> 
+        <li> <p>在顯示的警告訊息中，按一下<strong>移除</strong>。</p> <p>您可以按一下<strong>搜尋清單中的人員和群組</strong>，在方塊中輸入其名稱，然後在名稱出現時按一下該名稱，來尋找您要從清單中移除的使用者。</p> <p><b>附註</b>：  
           <ul> 
            <li>如果此群組是您要移除之使用者的「主群組」，您必須先在使用者設定檔中指派另一個主群組。 如需詳細資訊，請參閱<a href="../../../administration-and-setup/manage-groups/groups-overview/home-groups.md" class="MCXref xref">主群組總覽</a>和<a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">編輯使用者的設定檔</a>。</li> 
            <li>如果群組只有一個群組管理員，而您需要從群組中移除該管理員，則需要先將另一個群組管理員指派給該群組。</li> 
@@ -95,17 +95,17 @@ ht-degree: 1%
      <tr> 
       <td role="rowheader">編輯使用者的設定檔資訊</td> 
       <td> 
-       <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">選取一或多個使用者名稱，然後按一下<strong>編輯</strong> <img src="assets/edit-icon.png">。</li> 
-        <li value="2"> <p>變更使用者的設定檔資訊。</p> <p>如需您可以進行之變更的相關資訊，請參閱<a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">編輯使用者的設定檔</a>。</p> </li> 
+       <ol> 
+        <li>選取一或多個使用者名稱，然後按一下<strong>編輯</strong> <img src="assets/edit-icon.png">。</li> 
+        <li> <p>變更使用者的設定檔資訊。</p> <p>如需您可以進行之變更的相關資訊，請參閱<a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">編輯使用者的設定檔</a>。</p> </li> 
        </ol> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">匯出使用者成員資格資料</td> 
       <td> 
-       <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">選取一或多個使用者名稱，然後按一下[匯出]。<strong></strong> <img src="assets/export.png">。</li> 
-        <li value="2"> <p>將資料匯出為PDF、Excel或Tab分隔檔案。</p> <p>如需匯出資料的詳細資訊，請參閱<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">匯出資料</a>。</p> </li> 
+       <ol> 
+        <li>選取一或多個使用者名稱，然後按一下[匯出]。<strong></strong> <img src="assets/export.png">。</li> 
+        <li> <p>將資料匯出為PDF、Excel或Tab分隔檔案。</p> <p>如需匯出資料的詳細資訊，請參閱<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">匯出資料</a>。</p> </li> 
        </ol> </td> 
      </tr> 
      <tr> 
@@ -115,9 +115,9 @@ ht-degree: 1%
      <tr> 
       <td role="rowheader">傳送註解給群組成員</td> 
       <td> 
-       <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">請至少選取一個群組成員，然後按一下工具列中的<strong>傳送更新給使用者</strong>。</li> 
-        <li value="2"><p>輸入您要傳送給使用者的註解，以及使用者設定檔的更新區域。</p>
+       <ol> 
+        <li>請至少選取一個群組成員，然後按一下工具列中的<strong>傳送更新給使用者</strong>。</li> 
+        <li><p>輸入您要傳送給使用者的註解，以及使用者設定檔的更新區域。</p>
         <p>如需詳細資訊，請參閱<a href="/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md">傳送直接訊息給其他使用者</a>。</p></li> 
        </ol> </td> 
      </tr> 
