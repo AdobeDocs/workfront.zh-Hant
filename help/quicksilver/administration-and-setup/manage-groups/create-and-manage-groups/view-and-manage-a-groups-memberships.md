@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 219e5fa3-cf25-477d-82f6-046e3ff30989
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 2096cfa0fd4d0e7eeb85dbf00668dc1dd7fb1d99
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '761'
 ht-degree: 1%
 
 ---
@@ -105,7 +105,7 @@ ht-degree: 1%
       <td> 
        <ol style="list-style-type: lower-alpha;"> 
         <li value="1">選取一或多個使用者名稱，然後按一下[匯出]。<strong></strong> <img src="assets/export.png">。</li> 
-        <li value="2"> <p>將資料匯出為PDF、Excel或定位字元分隔的檔案。</p> <p>如需匯出資料的詳細資訊，請參閱<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">匯出資料</a>。</p> </li> 
+        <li value="2"> <p>將資料匯出為PDF、Excel或Tab分隔檔案。</p> <p>如需匯出資料的詳細資訊，請參閱<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">匯出資料</a>。</p> </li> 
        </ol> </td> 
      </tr> 
      <tr> 
@@ -116,8 +116,9 @@ ht-degree: 1%
       <td role="rowheader">傳送註解給群組成員</td> 
       <td> 
        <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">選取一或多個使用者名稱，然後按一下<strong>更新</strong> <img src="assets/comment-icon.png">。</li> 
-        <li value="2">輸入註解。</li> 
+        <li value="1">請至少選取一個群組成員，然後按一下工具列中的<strong>傳送更新給使用者</strong>。</li> 
+        <li value="2"><p>輸入您要傳送給使用者的註解，以及使用者設定檔的更新區域。</p>
+        <p>如需詳細資訊，請參閱<a href="/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md">傳送直接訊息給其他使用者</a>。</p></li> 
        </ol> </td> 
      </tr> 
      <tr> 
@@ -126,7 +127,7 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader">在Workfront中停用使用者</td> 
-      <td>選取一或多個使用中的使用者，然後按一下[停用使用者]，在Workfront中停用使用者</strong><img src="assets/deactivate-user.png">。<strong></td> 
+      <td>選取一或多個使用中的使用者，然後按一下[停用使用者]，在Workfront中停用使用者<strong>。</strong><img src="assets/deactivate-user.png"></td> 
      </tr> 
      <tr> 
       <td role="rowheader">依欄排序</td> 

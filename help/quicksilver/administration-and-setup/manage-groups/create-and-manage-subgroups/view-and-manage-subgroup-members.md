@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8f7b0183-6035-4dd4-8e42-fd65485449bf
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 2096cfa0fd4d0e7eeb85dbf00668dc1dd7fb1d99
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 0%
    <td> <p>您必須具備下列其中一項：</p> 
     <ul> 
      <li> <p>系統管理員存取層級。 </li> 
-     <li> <p>您的存取層級中的<b>使用者</b>設定已設定為<b>編輯</b>存取權，其中<b>建立</b>以及在<b>微調您的設定</b> <img src="assets/gear-icon-settings.png">下啟用的兩個<b>使用者管理員</b>選項中的至少一個。 </p> <p>在這兩個選項中，如果已啟用<b>使用者管理員（群組使用者）</b>，您必須是使用者所屬群組的群組管理員。</p> </li> 
+     <li> <p>您的存取層級中的<b>使用者</b>設定已設定為<b>編輯</b>存取權，其中<b>建立</b>以及在<b>微調您的設定</b> <b>下啟用的兩個</b>使用者管理員<img src="assets/gear-icon-settings.png">選項中的至少一個。 </p> <p>在這兩個選項中，如果已啟用<b>使用者管理員（群組使用者）</b>，您必須是使用者所屬群組的群組管理員。</p> </li> 
     </ul> </td> 
   </tr>  
  </tbody> 
@@ -77,9 +77,11 @@ ht-degree: 0%
 
      如需詳細資訊，請參閱[編輯使用者的設定檔](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)或[大量編輯使用者的設定檔](../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md)。
 
-   * 選取清單中任意數量的成員，然後按一下[更新![註解圖示](assets/comment-icon.png)]，將註解新增至其使用者設定檔。
+   * 選取清單中任意數量的子群組成員，然後按一下&#x200B;**傳送更新給使用者**，將註解新增至其使用者設定檔。
 
      使用者會收到應用程式內通知以及包含您評論的電子郵件通知。 註解會顯示在使用者設定檔的更新區域中。
+
+     如需詳細資訊，請參閱[傳送直接訊息給其他使用者](/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md)。
 
    * 選取清單中任意數量的成員，然後按一下[停用![停用使用者](assets/deactivate-user.png)]或[啟用![啟用使用者](assets/activate-user.png)]。
 
