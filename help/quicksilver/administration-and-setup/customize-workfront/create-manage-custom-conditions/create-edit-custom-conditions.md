@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
-source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
+source-git-commit: f62d8f681fa75d2b18d78d7918df46734fa61e2e
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '601'
 ht-degree: 2%
 
 ---
 
 # 建立或編輯自訂條件
-
-{{highlighted-preview}}
 
 作為Adobe Workfront管理員，您可以建立或編輯專案、任務和問題的自訂條件，以符合您組織的需求。
 
@@ -45,7 +43,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td>
+   <td>[！UICONTROL系統管理員]</td>
   </tr> 
  </tbody> 
 </table>
@@ -62,17 +60,13 @@ ht-degree: 2%
 
 1. 按一下您想要與條件關聯的物件型別（**專案**、**任務**&#x200B;或&#x200B;**問題**）的標籤。
 
-1. 若要建立新條件，請按一下[新增條件] **&#x200B;**。
+1. 若要建立新條件，請按一下[新增條件] ****。
 
    或
 
-   若要編輯現有條件，請按一下條件名稱&#x200B;<span class="preview">**旁的**&#x200B;編輯</span>，或將滑鼠游標停留在您要編輯的條件上，然後按一下顯示於最右側的&#x200B;**編輯**&#x200B;圖示。
+   若要編輯現有條件，請按一下條件名稱旁的&#x200B;**編輯**。
 
-   <span class="preview">預覽環境中的範例影像：</span>
    ![編輯自訂條件](assets/custom-conditions-0825.png)
-
-   生產環境中的影像範例：
-   ![自訂條件](assets/custom-condition-edit-nwe.jpg)
 
 1. 使用下列選項設定自訂條件：
 

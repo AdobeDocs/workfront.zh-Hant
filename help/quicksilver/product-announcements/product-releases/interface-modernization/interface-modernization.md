@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: a7a4ef39cf5e50d487ec2053e6b02cb2bb06c3f5
+source-git-commit: 8cfb8a6c9a5c512b5722dc6d66840faaeba08c67
 workflow-type: tm+mt
-source-wordcount: '6776'
+source-wordcount: '6894'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,24 @@ ht-degree: 0%
 如需Adobe Workfront的所有其他變更，請參閱[產品版本](/help/quicksilver/product-announcements/product-releases/product-releases.md)。
 
 ## 管理和設定
+
+### 「設定」中「檢閱和核准」通知頁面的介面更新
+
+**預覽版本： 2025年8月18日；生產版本： 2025年8月18日**
+
+我們更新了檢閱和核准通知頁面，使其採用與Workfront其他區域一致的更現代化設計。
+
+若要檢視這些變更，請前往「設定>電子郵件>檢閱和核准」。
+
+### 新增和編輯付費記錄對話方塊的介面更新
+
+**預覽版本： 2025年8月14日；生產版本： 2025年8月18日**
+
+我們已更新新增及編輯付費記錄的對話方塊，其設計更現代化，與Workfront的其他區域一致。
+
+若要檢視這些變更，請前往「專案>選取專案>付費記錄>新增付費記錄或編輯付費記錄」
+
+如需詳細資訊，請參閱[建立付費記錄](/help/quicksilver/manage-work/projects/project-finances/create-billing-records.md)。
 
 ### 群組上傳送更新給使用者方塊的介面更新
 
@@ -43,6 +61,7 @@ ht-degree: 0%
 若要檢視這項變更，請前往「設定>資源回收筒>最近刪除」。
 
 如需詳細資訊，請參閱[還原已刪除的專案](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)。
+
 
 ### 安裝程式中條件區域的介面更新
 
@@ -84,7 +103,7 @@ ht-degree: 0%
 
 ### 更新設定中SSO更新使用者頁面的介面
 
-**預覽版本： 2025年7月22日；生產版本： 2025年7月28日**
+**預覽版本： 2025年7月22日；生產版本： 2025年8月18日**
 
 我們以與Workfront其他區域一致的更現代設計更新了SSO的「更新使用者」頁面。
 
@@ -908,7 +927,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 此更新包含區域的視覺化變更。 功能未變更。
 
-若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。**&#x200B;**
+若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。****
 
 +++
 

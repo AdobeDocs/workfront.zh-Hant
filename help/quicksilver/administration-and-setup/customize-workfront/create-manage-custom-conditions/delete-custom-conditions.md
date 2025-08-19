@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5fbd4989-460b-4380-a136-8a9f6b79787d
-source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
+source-git-commit: f62d8f681fa75d2b18d78d7918df46734fa61e2e
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---
 
 # 刪除自訂條件
-
-{{highlighted-preview}}
 
 您可以刪除不再需要的自訂條件。
 
@@ -45,7 +43,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td>
+   <td>[！UICONTROL系統管理員]</td>
   </tr> 
  </tbody> 
 </table>
@@ -62,8 +60,7 @@ ht-degree: 0%
 
 1. 選取您要刪除的條件所在之物件型別（**專案**、**任務**&#x200B;或&#x200B;**問題**）的標籤。
 
-1. 按一下您要刪除的條件名稱&#x200B;<span class="preview">**旁的**&#x200B;刪除</span>，或暫留在條件上，然後按一下出現在最右邊的&#x200B;**刪除**&#x200B;圖示![刪除](assets/delete.png)。
-
+1. 按一下您要刪除的條件名稱旁的&#x200B;**刪除**。
 1. 在出現的「**刪除條件**」方塊中，從下拉式清單中選取新條件，以用於使用您要刪除條件的全部專案、任務或問題。
 
    自訂條件必須與您要刪除的內建條件相同，才可在下拉式清單中使用。 例如，如果您要刪除等同於「有風險」的條件，則只能選取等同於「有風險」的自訂條件。
