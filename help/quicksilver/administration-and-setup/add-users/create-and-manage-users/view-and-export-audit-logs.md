@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b04e8ba5-c3f2-4838-8df1-35e90de5c7bd
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 994518f7abe519180fa6c3eab6b29165475ab4fc
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td>
+   <td>[！UICONTROL系統管理員]</td>
   </tr> 
  </tbody> 
 </table>
@@ -77,7 +77,7 @@ ht-degree: 0%
    >
    >「動作型別」下拉式功能表中的選項會依選取的稽核記錄而有所不同。
 
-   ![稽核記錄](assets/audit-logs.jpg)
+   ![稽核記錄](assets/audit-logs.png)
 
 1. 按一下&#x200B;**套用**。
 1. （選擇性）按一下&#x200B;**清除篩選器**&#x200B;以重設對篩選器所做的變更。
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 {{step-1-to-setup}}
 
-1. 在左側面板中，按一下&#x200B;**系統>稽核記錄**。
+1. 在左側面板中，按一下&#x200B;**系統>變更追蹤>稽核記錄**。
 
 1. 在&#x200B;**記錄型別**&#x200B;下拉式功能表中，選取稽核記錄。
 
