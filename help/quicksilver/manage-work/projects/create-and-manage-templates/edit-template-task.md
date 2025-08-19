@@ -7,9 +7,9 @@ description: 建立範本後，您可以編輯有關範本任務的資訊。 使
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
+source-git-commit: 5bdf1bd285023d29ee6c61f16a4bd6a622d964d8
 workflow-type: tm+mt
-source-wordcount: '2493'
+source-wordcount: '2491'
 ht-degree: 4%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 4%
 
 ## 存取需求
 
-+++ 展開以檢視存取需求。
++++ 展開以檢視存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -52,7 +52,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權 </td> 
-   <td> <p>管理範本的許可權。 </p> <p>範本任務的Contribute或更高許可權。</p> </td> 
+   <td> <p>管理範本的許可權。 </p> <p>您無法共用範本任務。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
