@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 629e7943e7f14e555bf658d6b5c04c2b647b6f83
 workflow-type: tm+mt
-source-wordcount: '13424'
+source-wordcount: '13427'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 * [Workfront檔案](home.md)
 * 產品公告 {#product-announcements}
    * [產品公告](product-announcements/product-announcements.md)
-   * 產品發行 {#product-releases}
+   * 產品發行版 {#product-releases}
       * [產品發行概觀](product-announcements/product-releases/product-releases.md)
       * [Adobe Workfront發行排程和程式](product-announcements/product-releases/workfront-release-schedule.md)
       * [準備Adobe Workfront的季度發行](product-announcements/product-releases/release-readiness.md)
@@ -885,6 +885,7 @@ ht-degree: 2%
       * [使用AI助理來處理專案、任務和問題](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md)
       * [啟用或停用AI助理](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)
       * [使用AI自動填寫請求](/help/quicksilver/workfront-basics/ai-assistant/autofill-request-with-ai.md)
+      * [專案健康情況概觀](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md)
    * 更新工作專案並檢視更新 {#update-work-items-view-updates}
       * [更新工作專案和檢視更新：文章索引](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
       * [更新區段概觀](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
@@ -1799,7 +1800,7 @@ ht-degree: 2%
    * [非付費使用者的有限檔案和校訂決定概覽](review-and-approve-work/proof-doc-decision-limits.md)
    * 工作核准 {#work-approvals}
       * [工作核准](review-and-approve-work/manage-approvals/manage-approvals.md)
-      * [核准流程總覽](review-and-approve-work/manage-approvals/approval-process-in-workfront.md)
+      * [核准程序概觀](review-and-approve-work/manage-approvals/approval-process-in-workfront.md)
       * [請求文件核准](review-and-approve-work/manage-approvals/request-document-approvals.md)
       * [核准工作](review-and-approve-work/manage-approvals/approving-work.md)
       * [檢視核准](review-and-approve-work/manage-approvals/view-approvals.md)
@@ -2201,7 +2202,7 @@ ht-degree: 2%
    * 適用於Outlook的Adobe Workfront {#workfront-for-outlook}
       * [適用於Outlook的Adobe Workfront：文章索引](workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)
       * [設定適用於Outlook的Adobe Workfront](workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
-      * [適用於Outlook的Workfront的許可權層級](workfront-integrations-and-apps/using-workfront-with-outlook/permissions-in-workfront-for-outlook.md)
+      * 適用於Outlook的Workfront的[許可權層級](workfront-integrations-and-apps/using-workfront-with-outlook/permissions-in-workfront-for-outlook.md)
       * [回覆Outlook的註解](workfront-integrations-and-apps/using-workfront-with-outlook/reply-to-a-comment-from-outlook.md)
       * [從Outlook電子郵件更新現有的物件](workfront-integrations-and-apps/using-workfront-with-outlook/update-an-existing-object-from-an-outlook-email.md)
       * [將Outlook電子郵件作為任務或問題新增至專案](workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-to-project-as-task-or-issue.md)
@@ -2496,8 +2497,8 @@ ht-degree: 2%
       * [使用JWT流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-jwt-flow.md)
       * [使用PKCE流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-pkce-flow.md)
       * [棄用API — 內部](wf-api/api/deprecation-api-internal.md)
-      * [ API 20版的新增功能](wf-api/api/new-api-version-20.md)
-      * [ API 19版的新增功能](wf-api/api/new-api-version-19.md)
+      * [ API 20](wf-api/api/new-api-version-20.md)版的新增功能
+      * [ API 19](wf-api/api/new-api-version-19.md)版的新增功能
       * [API 18版的新增功能](wf-api/api/new-api-version-18.md)
       * [API 17版的新增功能](wf-api/api/new-api-version-17.md)
       * [API 16版的新增功能](wf-api/api/new-api-version-16.md)
