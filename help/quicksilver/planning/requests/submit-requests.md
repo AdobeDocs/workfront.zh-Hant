@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: c3e3dfdb0a1819954c97168cbabddfc8dc5863a0
 workflow-type: tm+mt
-source-wordcount: '2019'
+source-wordcount: '2005'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
 
 ## 存取需求
 
-+++ 展開以檢視存取需求。
++++ 展開以檢視存取需求。 
 
 <table style="table-layout:auto">
  <col>
@@ -60,7 +60,7 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
    <td role="rowheader"><p>Adobe Workfront計畫*</p></td>
    <td>
 <p>下列任一Workfront計畫：</p>
-<ul><li>選取</li>
+<ul><li>選擇</li>
 <li>Prime</li>
 <li>Ultimate</li></ul>
 <p>舊版Workfront計畫不提供Workfront計畫</p>
@@ -148,8 +148,8 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
 
 {{step1-to-requests}}
 
-1. 啟用熒幕右上角的&#x200B;**切換至新的體驗**&#x200B;設定。
-啟用此設定可讓Workfront Planning請求表單出現在Workfront的&#x200B;**請求**&#x200B;區域中。
+1. 啟用熒幕右上角的&#x200B;**切換至新的體驗**設定。
+啟用此設定可讓Workfront Planning請求表單出現在Workfront的**請求**&#x200B;區域中。
 
    >[!TIP]
    >
@@ -162,7 +162,7 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
 
 1. 按一下&#x200B;**新要求**。
 
-   ![具有統一Workfront和Planning卡的新請求方塊](assets/new-request-box-with-unified-workfront-and-planning-cards.png)
+   <!--![New request box with unified Workfront and Planning cards](assets/new-request-box-with-unified-workfront-and-planning-cards.png-->
 
    **新請求**&#x200B;方塊開啟，內含下列資訊：
 
@@ -171,7 +171,7 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
 
 1. 執行下列其中一項：
 
-   * 按一下「最近」或「全部」請求表單區段中某個Planning請求表單的卡片
+   * 選取「最近」或「全部」請求表單區段中的Planning請求表單
    * 開始在搜尋方塊中輸入Planning請求表單的名稱，然後按一下卡片（當卡片顯示在清單中時）。
 
    請求表單隨即開啟。
@@ -208,7 +208,7 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
 
 1. （選擇性）按一下確認訊息中的&#x200B;**檢視您的要求**&#x200B;以開啟要求，或按一下&#x200B;**X**&#x200B;圖示以關閉確認。
 
-1. （選擇性）按一下&#x200B;**要求**&#x200B;區域中的&#x200B;**規劃**&#x200B;索引標籤，以檢視您的要求。
+1. （選擇性）按一下&#x200B;**要求**&#x200B;區域中的&#x200B;**規劃**索引標籤，以檢視您的要求。
 提交至Planning請求表單的所有您有權檢視的請求都會顯示在清單中。
 1. （可選）執行下列任一項作業：
 
@@ -225,7 +225,7 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
       * **狀態**：要求的狀態。
       * **輸入者**：新增請求的使用者名稱。 如果要求是由Workfront外部的人員加入，則&#x200B;**輸入者**&#x200B;欄位會顯示`N/A`。
 
-        您可以有多個&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;加入的篩選器。
+        您可以有多個&#x200B;**And**&#x200B;或&#x200B;**Or**加入的篩選器。
 當您新增篩選條件時，要求清單會自動篩選。
 
    * 按一下&#x200B;**欄**&#x200B;並隱藏、顯示或重新排列請求清單中的欄。
