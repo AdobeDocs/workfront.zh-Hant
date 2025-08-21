@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 81b40eda8536d1a63c38a297d92158a12f9d350e
+source-git-commit: 613904bd75aabe3062c5ab50f28cf44eb62919e8
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '1036'
 ht-degree: 2%
 
 ---
@@ -183,5 +183,16 @@ ht-degree: 2%
 1. 移至包含您要編輯之佇列主題的專案或範本。
 1. 按一下左側面板中的&#x200B;**佇列主題**。
 1. 在生產環境中，選取您要編輯的佇列主題。 在開啟的詳細資訊頁面上，按一下&#x200B;**編輯佇列主題**。
-   <!--1. <span class="preview">In the Preview environment, select the Queue Topic that you want to edit, then click the Edit icon ![Edit icon](assets/edit-icon.png).</span>-->
+1. <span class="preview">在預覽環境中，按一下您要編輯的佇列主題。
+
+如需有關可用編輯選項的資訊，請參閱本文中的[建立佇列主題](#create-a-queue-topic)。
+
+## 刪除佇列主題
+
+您可以同時刪除一或多個佇列主題。
+
+1. 移至包含您要刪除之佇列主題的專案或範本。
+1. 按一下左側面板中的&#x200B;**佇列主題**。
+1. 按一下要刪除的每個佇列主題名稱旁的方塊。 方塊中會出現核取記號。
+1. 按一下頁面頂端的&#x200B;**刪除**&#x200B;圖示![刪除圖示](assets/delete-icon.png)。
 
