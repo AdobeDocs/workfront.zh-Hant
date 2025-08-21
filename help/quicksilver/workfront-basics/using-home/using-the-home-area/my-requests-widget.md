@@ -5,13 +5,13 @@ title: 使用我的請求Widget
 description: 您可以在「我的請求」Widget中提交請求。 您也可以使用篩選器和欄來自訂Widget。
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: 68379a6c41db1b694e2968d93de259cb7b0d8bc4
+exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
+source-git-commit: 2fe55f61bd24ebb3ecfe09fff29c4aad2ca33608
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '825'
 ht-degree: 3%
 
 ---
-
 
 # 使用我的請求Widget
 
@@ -19,11 +19,16 @@ ht-degree: 3%
 
 <span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。
 
+>[!IMPORTANT]
+>
+>本文會說明新的「我的請求」Widget。 您必須啟用新的請求體驗才能檢視新的Widget。
+>>您可以在請求區域中啟用新的請求體驗。
+
 「我的請求」Widget會顯示已提交至您組織的請求。 您可以篩選請求、搜尋特定請求，或調整欄順序和可見度。 您也可以從「我的請求」Widget建立新請求。
 
 >[!NOTE]
 >
->當「我的請求」Widget載入時，最多會顯示50個請求。 若要顯示更多請求，請向下捲動清單。
+>* 當「我的請求」Widget載入時，最多會顯示50個請求。 若要顯示更多請求，請向下捲動清單。
 
 ## 存取需求
 
@@ -47,7 +52,7 @@ ht-degree: 3%
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
    <td> <p>新增：投稿人或更高版本</p>
    或   
-   <p>目前： [!UICONTROL Request]或以上</p> </td> 
+   <p>目前： [！UICONTROL Request]或以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>存取層級設定</strong></td> 
@@ -55,7 +60,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>[!UICONTROL 檢視]對您在對話中被標籤或需要解決核准的專案、任務、問題和檔案的許可權或更高</p> </td> 
+   <td> <p>[！UICONTROL檢視]對您在對話中被標籤或需要解決核准的專案、任務、問題和檔案的許可權或更高</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -90,7 +95,7 @@ ht-degree: 3%
 
 1. 在下一個欄位中，選取您要用於此篩選條件的運運算元。 可用的運運算元取決於所選的欄位。
 1. （視條件而定）如果運運算元右側出現欄位，請選取您要作為篩選依據的值。
-1. （選擇性）若要新增其他篩選條件，請按一下[新增條件] **&#x200B;**&#x200B;並重複步驟4-6。
+1. （選擇性）若要新增其他篩選條件，請按一下[新增條件] ****&#x200B;並重複步驟4-6。
 1. （選擇性和條件式）如果您有多個條件，請按一下條件左邊的&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;來切換And或Or值。
 
 篩選器會自動儲存。
@@ -137,8 +142,3 @@ ht-degree: 3%
    包含辭彙的請求會以橘色醒目提示。
 
 1. （可選）若要跳至醒目提示的請求，請按一下搜尋列中的向上或向下箭頭。
-
-
-
-
-

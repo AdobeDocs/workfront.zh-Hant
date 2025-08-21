@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2d8c5d2b-a026-4741-b907-aac4c0eac98f
-source-git-commit: 870fcb44506ae583fb6a5c36419fda71be581e6d
+source-git-commit: 2fe55f61bd24ebb3ecfe09fff29c4aad2ca33608
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '188'
 ht-degree: 0%
 
 ---
@@ -31,5 +31,7 @@ ht-degree: 0%
 * Workfront和Workfront Planning請求都會顯示在Widget中。
 * 篩選器現在更可自訂。 現在您可以使用And和Or規則，依特定欄位值進行篩選。
 * 您可以隱藏或重新排列Widget中的欄。
+
+您必須啟用新的請求體驗才能檢視新的Widget。 您可以在請求區域中啟用新的請求體驗。
 
 如需新的我的請求Widget的詳細資訊，請參閱[使用我的請求Widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)。
