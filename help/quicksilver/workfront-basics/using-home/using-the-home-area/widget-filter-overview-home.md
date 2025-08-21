@@ -6,14 +6,18 @@ description: 您可以從多個Widget中進行選擇，以自訂首頁上顯示�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
-source-git-commit: 6350e815e39d642a88a2c9c8b17208db5cb253c5
+source-git-commit: 884ade1102e685ec01af2790b17acb50c2114ca7
 workflow-type: tm+mt
-source-wordcount: '965'
-ht-degree: 12%
+source-wordcount: '1092'
+ht-degree: 11%
 
 ---
 
 # 首頁Widget篩選器概觀
+
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 您可以對下列Widget使用篩選器來尋找及組織工作：
 
@@ -242,6 +246,8 @@ ht-degree: 12%
 
 ## 我的請求
 
+在生產環境中：
+
 <table style="table-layout:auto"> 
     <col> 
     <col> 
@@ -277,6 +283,16 @@ ht-degree: 12%
      </tr> 
     </tbody> 
    </table>
+
+<div class="preview">
+
+在預覽環境中：
+
+我的請求Widget具備可自訂的篩選器，可讓您控制哪些請求會出現在Widget中。 您可以為不同的欄位和值設定此篩選器，也可以使用AND和OR棧疊條件。
+
+如需在「我的請求」Widget中設定篩選器的指示，請參閱「使用我的請求」Widget一文中的[篩選請求](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md#filter-requests)。
+
+</div>
 
 ## 我的工作
 

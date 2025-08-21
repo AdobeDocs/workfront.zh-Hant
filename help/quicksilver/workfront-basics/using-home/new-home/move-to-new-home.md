@@ -7,13 +7,13 @@ author: Courtney
 hide: true
 hidefromtoc: true
 feature: Get Started with Workfront
-source-git-commit: 28bb652f371d3168ffe03c39fc33e29d710605db
+exl-id: cfb3de96-0710-44e9-a934-05877fa75b51
+source-git-commit: f5ffb83d2a9cab48a4ce623088e11e3e13d8f744
 workflow-type: tm+mt
-source-wordcount: '1596'
+source-wordcount: '1632'
 ht-degree: 5%
 
 ---
-
 
 # 從舊版首頁移至新首頁
 
@@ -30,7 +30,7 @@ ht-degree: 5%
 
 「我的工作」Widget是以Widget格式建立的，以便儘可能映象舊版首頁工作清單。 使用者可以使用類似的篩選器和分組，在我的工作Widget中分組和篩選其工作清單：
 
-| **篩選器** | **群組** |
+| **篩選** | **群組** |
 |------------|-----------|
 |  — 處理<br> — 準備開始<br> — 未就緒<br> — 已要求<br> — 已委派<br> — 已完成 |  — 專案<br> — 狀態<br> — 到期日期<br> — 無 |
 
@@ -163,6 +163,8 @@ Workfront管理員可使用版面配置範本自訂「新首頁」中可用的Wi
 * **我的要求**\
     顯示您已提交的所有請求、僅顯示已開啟請求的篩選條件，以及可開啟請求摘要面板的按鈕。
 
+  <span class="preview">在預覽環境中，此Widget會顯示您已提交的所有請求、僅顯示符合您指定之條件的請求的篩選器，以及允許您重新排列Widget中欄的按鈕。</span>
+
 * **團隊要求**\
     顯示您所在團隊的所有待處理請求 (依團隊排序)，以及用於直接將請求指派給使用者或自行處理請求的按鈕。
 
@@ -268,9 +270,9 @@ Workfront管理員可使用版面配置範本自訂「新首頁」中可用的Wi
 
 * [使用我的工作Widget管理您的工作]
 
-**培訓**
+**訓練**
 
-* [在首頁教學課程中移除、新增及重新排列Widget](https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
+* [在首頁教學課程中移除、新增及重新排列Widget](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
 * [Adobe Workfront中的Worker基礎知識](https://adobe-ats.sabacloud.com/Saba/Web_spf/PRODTNT100/app/me/learningeventdetail/cours000000000098821?regId=regdw000000001250612)
 
 >[!IMPORTANT]
