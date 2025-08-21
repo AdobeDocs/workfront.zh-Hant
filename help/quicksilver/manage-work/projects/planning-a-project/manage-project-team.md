@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: 89e15f6d99514e11e43e06487a4477d35a155cb0
+source-git-commit: bb2479b936a9064a4df34ac3e840dd78cae297b6
 workflow-type: tm+mt
-source-wordcount: '1183'
-ht-degree: 1%
+source-wordcount: '1193'
+ht-degree: 2%
 
 ---
 
@@ -47,7 +47,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 ## 存取需求
 
-+++ 展開以檢視存取需求。
++++ 展開以檢視存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -159,7 +159,7 @@ If users that don't fulfill any role on the project want to be notified about ce
 
 1. 按一下左側面板中的&#x200B;**人員**。
 
-1. 按一下&#x200B;**新增使用者**。
+1. Click **Add users**.
 
    顯示&#x200B;**新增使用者至專案團隊**&#x200B;方塊。
 
@@ -186,14 +186,14 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    如需詳細資訊，請參閱文章[專案團隊概觀](/help/quicksilver/manage-work/projects/planning-a-project/project-team-overview.md)中的「角色型核准」一節。
 
-1. 在清單中選取一或多個使用者，然後按一下&#x200B;**移除**&#x200B;圖示![移除圖示](assets/remove-icon.png)，將使用者從團隊中移除。
+1. 在清單中選取一或多個使用者，然後按一下&#x200B;**移除**&#x200B;圖示![移除圖示](assets/remove-icon.png)，將他們從團隊中移除。
 
 1. 按一下&#x200B;**是，移除選取的使用者**&#x200B;以確認並移除使用者。
 
    會從未完成的工作專案移除及取消指派使用者。
 
    如需詳細資訊，請參閱本文的[從專案團隊](#considerations-for-removing-users-from-a-project-team)移除使用者的考量事項。
-1. （選用）若要將此專案的更新傳送給使用者，請按一下「全部更新」將更新傳送給團隊中的每個人
+1. （選擇性）若要將此專案的更新傳送給使用者，請按一下[全部更新]，將更新傳送給團隊中的每個人&#x200B;****
 
    或
 
@@ -235,7 +235,7 @@ If users that don't fulfill any role on the project want to be notified about ce
 
 1. 按一下左側面板中的&#x200B;**人員**。
 
-1. 在清單中選取一或多個使用者，然後按一下[移除] **&#x200B;**&#x200B;以從團隊中移除這些使用者。
+1. Select one or several users in the list, then click the **Remove** icon to remove them from the team.
 
 1. 按一下&#x200B;**是，移除選取的使用者**&#x200B;以確認並移除使用者。
 
@@ -243,11 +243,11 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    如需詳細資訊，請參閱本文的[從專案團隊](#considerations-for-removing-users-from-a-project-team)移除使用者的考量事項。
 
-1. （選用）若要傳送更新給使用者，請按一下全部更新，將更新傳送給清單中的所有使用者
+1. （選擇性）若要傳送更新給使用者，請按一下[全部更新]，將更新傳送給清單中的所有使用者&#x200B;****
 
    或
 
-   在清單中選取一或多個使用者，然後按一下[更新]。**&#x200B;**
+   在清單中選取一或多個使用者，然後按一下&#x200B;**傳送更新給使用者**。
 
    <!--update screen shot for unshim production, notice the text above the box - it needs to say "Post an update to each person's profile"-->
 
@@ -255,7 +255,7 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    **傳送更新給使用者**&#x200B;方塊開啟。
 
-1. 執行下列動作：
+1. 請執行下列動作：
 
    * 為選取的使用者新增更新。
    * 按一下「**標籤人員**」以標籤接收相同更新的其他使用者。
@@ -266,11 +266,11 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    使用者若已啟用，可能會收到電子郵件通知，並收到新更新的應用程式內通知。
 
-1. （選擇性）按一下[匯出&#x200B;**&#x200B;**]將使用者清單匯出至檔案
+1. 按一下&#x200B;**匯出**&#x200B;圖示![匯出圖示](assets/export-icon.png)，將使用者清單匯出至檔案
 
    或
 
-   選取使用者，然後按一下&#x200B;**匯出**&#x200B;以僅匯出特定使用者。
+   選取使用者，然後按一下&#x200B;**匯出**&#x200B;圖示以僅匯出特定使用者。
 
 ## 從專案團隊中移除使用者的考量事項
 
