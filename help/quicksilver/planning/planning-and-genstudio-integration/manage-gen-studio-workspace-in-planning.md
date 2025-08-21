@@ -175,7 +175,7 @@ CAN YOU DO THIS??
 
    * 按一下記錄型別頁面右上角的&#x200B;**共用**，然後按一下下列其中一項：
       * **複製檢視連結**&#x200B;以共用記錄型別的連結
-      * **匯出目前的檢視**以將其匯出為CSV或Excel檔案。
+      * **匯出目前的檢視**&#x200B;以將其匯出為CSV或Excel檔案。
 您只能匯出表格檢視。<!--check on this later; is this true or are there more options in the Share button-->
 
    * 按一下&#x200B;**+檢視**&#x200B;以建立GenStudio記錄型別的檢視。
