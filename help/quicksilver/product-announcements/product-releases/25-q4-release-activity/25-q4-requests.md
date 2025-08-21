@@ -3,10 +3,9 @@ title: 2025年第四季要求增強功能
 description: 2025年第四季要求增強功能
 author: Courtney
 feature: Product Announcements
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: eafc56adab1fad3bbc1a4f3dc8f61e599ab21f57
+exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
+source-git-commit: 870fcb44506ae583fb6a5c36419fda71be581e6d
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 0%
@@ -23,8 +22,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 預覽： 2025年7月31日
->* 生產快速發行： 2025年8月14日
+>* 預覽： 2025年8月21日
+>* 生產快速發行： 2025年9月11日
 >* 所有客戶的生產： 2025年10月16日
 
 為了在Workfront和Workfront Planning中提出請求時建立更好的使用者體驗，我們已更新請求體驗。 現在您可以：

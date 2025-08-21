@@ -6,7 +6,8 @@ feature: Product Announcements
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 832b4044feaea902b807c12b5fad072c6dd04fc8
+exl-id: 65012e89-3e3e-42b7-94af-8fa3687501ed
+source-git-commit: 4b708e10e54a0a7ef9d305bbcfd8cf80a82d0376
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 0%
@@ -18,6 +19,23 @@ ht-degree: 0%
 本頁說明2025年第四季版本中針對預覽環境所進行的專案增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2025年第四季版本週期目前可用的所有變更清單，請參閱[2025年第四季版本概觀](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)。
+
+<!--
+## Create project intake forms in Workfront
+
+>[!NOTE]
+>
+>* Preview: August 21, 2025
+>* Production fast release: September 11, 2025
+>* Production for all customers: October 16, 2025
+
+To make it easier to create requested projects without converting from issues, we've created Project intake forms. You can configure these intake forms with specific fields, templates, and custom forms, and set approvers for project creation. Then, when a user uses this form, the project is configured to your specifications and sent for approval.
+
+Previously, requests were entered into Workfront as issues, which had to be converted to projects.
+
+For information and instructions about project intake forms, see [Create project intake forms](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-project-intake-form.md).
+
+-->
 
 ## 新增運算式至Workfront的計算自訂欄位
 
@@ -48,4 +66,3 @@ ht-degree: 0%
 此變更同時適用於任務和問題指派。
 
 如需詳細資訊，請參閱[建立進階工作分派](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md)。
-

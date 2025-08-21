@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: b050e096a05bd25d07b5e93ae9db7d0fef332d3a
+source-git-commit: 870fcb44506ae583fb6a5c36419fda71be581e6d
 workflow-type: tm+mt
-source-wordcount: '6892'
+source-wordcount: '7094'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,17 @@ ht-degree: 0%
 如需Adobe Workfront的所有其他變更，請參閱[產品版本](/help/quicksilver/product-announcements/product-releases/product-releases.md)。
 
 ## 管理和設定
+
+<!--
+### Interface updates when editing a Scorecard
+
+**Preview release: August 21, 2025; Production release: August 21, 2025**
+
+We have updated the look and feel of the when editing a Scorecard to match the design in other areas of the application. You can view the updated design when editing a scorecard in the Setup area of Workfront.
+
+A small functionality change has been applied to the Scorecard. To edit a Scorecard, select the Scorecard from the list and click the Edit icon. You are no longer directed to the Scorecard details page before you can edit.
+
+-->
 
 ### 「設定」中「檢閱和核准」通知頁面的介面更新
 
@@ -110,6 +121,54 @@ ht-degree: 0%
 若要檢視這項變更，請前往「設定>系統>更新SSO的使用者」
 
 ## 專案
+
+### 將物件新增至程式和投資組合時介面更新
+
+**預覽版本： 2025年5月22日；生產版本： 2025年5月29日**
+
+>[!NOTE]
+>
+>這項功能暫時從「預覽」和「生產」中移除，並於2025年8月21日重新新增。
+
+
+進行下列操作時，我們已更新新增方塊的介面：
+
+* 將專案新增至方案
+* 將專案新增至投資組合
+* 將計畫新增至投資組合
+
+如需詳細資訊，請參閱下列文章：
+
+* [將現有方案新增至投資組合](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/move-program.md)
+* [將專案新增至投資組合](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
+* [將專案新增至方案](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)
+
+### 專案和範本之「新佇列主題」方塊的介面更新
+
+**預覽版本： 2025年8月21日；生產版本： 2025年8月28日**
+
+當您將新佇列主題新增至專案或範本時，我們已更新「新佇列主題」方塊的外觀和風格，以符合Workfront其他區域的設計。
+
+如需詳細資訊，請參閱[建立佇列主題](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)。
+
+### 編輯專案或範本上的佇列主題時更新介面
+
+**預覽版本： 2025年8月21日；生產版本： 2025年8月28日**
+
+我們已更新編輯專案和範本的佇列主題時的體驗，以符合Workfront的其他區域。
+
+此更新引入了一個小的功能變更。 現在，按一下「佇列主題」時，您會直接進入「佇列主題」的編輯頁面，而不是「佇列主題詳細資訊」頁面。
+
+如需詳細資訊，請參閱[建立佇列主題](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)。
+
+<!--### Interface update for the Edit Expense box of a project
+
+**Preview release: August 21, 2025; Production release: August 28, 2025**
+
+We have updated the dialog box for editing a project expense, to match other areas of the application. The updated dialog box is available when editing expenses in projects or templates.
+
+For information, see [Manage project expenses](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
+-->
 
 ### 在時數區段中記錄專案、任務或問題的時間的介面更新
 
@@ -204,6 +263,14 @@ For information, see [Edit project templates](/help/quicksilver/manage-work/proj
 如需詳細資訊，請參閱[管理專案費用](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md)。
 
 ## 範本
+
+### 範本上「人物」清單的介面更新
+
+**預覽版本： 2025年8月21日；生產版本： 2025年8月28日**
+
+我們已更新範本上「人物」清單的外觀與風格，以符合Workfront其他區域的設計風格。
+
+使用範本中的人員與使用專案中的人員類似。 如需詳細資訊，請參閱[管理專案團隊](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md)。
 
 ### 更新範本上前置任務清單的介面
 
@@ -542,26 +609,6 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 如需詳細資訊，請參閱[複製專案範本](/help/quicksilver/manage-work/projects/create-and-manage-templates/copy-template.md)。
 
-### 將物件新增至程式和投資組合時，外觀和感覺會更新
-
-**預覽版本： 2025年5月22日；生產版本： 2025年5月29日**
-
->[!NOTE]
->
->暫時從預覽和生產中移除
-
-
-進行下列操作時，我們已更新新增方塊的介面：
-
-* 將專案新增至方案
-* 將專案新增至投資組合
-* 將計畫新增至投資組合
-
-如需詳細資訊，請參閱下列文章：
-
-* [將現有方案新增至投資組合](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/move-program.md)
-* [將專案新增至投資組合](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
-* [將專案新增至方案](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)
 
 +++
 
@@ -927,7 +974,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 此更新包含區域的視覺化變更。 功能未變更。
 
-若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。**&#x200B;**
+若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。****
 
 +++
 
