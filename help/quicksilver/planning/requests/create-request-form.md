@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 4f8a8c263f53ff30f99062dedc10d674b867b0b7
+source-git-commit: 359131cef04fdb46def64428a7a693c3f00b2cd4
 workflow-type: tm+mt
-source-wordcount: '2298'
+source-wordcount: '2568'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-您可以建立請求表單，並將其與Adobe Workfront Planning中的記錄型別建立關聯。 然後，您可以與其他人共用表單，他們也可以提交請求來建立記錄。
+您可以建立請求表單，並將其與Adobe Workfront Planning中的記錄型別建立關聯。 然後，您可以與其他人共用表單，他們也可以提交請求以建立該型別的記錄。
 
 本文說明工作區管理員如何建立與記錄型別相關聯的請求表單。
 
@@ -34,7 +34,7 @@ ht-degree: 1%
 
 ## 存取需求
 
-+++ 展開以檢視存取需求。
++++ 展開以檢視存取需求。 
 
 <table style="table-layout:auto">
  <col>
@@ -54,7 +54,7 @@ ht-degree: 1%
    <td role="rowheader"><p>Adobe Workfront計畫*</p></td>
    <td>
 <p>下列任一Workfront計畫：</p>
-<ul><li>選取</li>
+<ul><li>選擇</li>
 <li>Prime</li>
 <li>Ultimate</li></ul>
 <p>舊版Workfront計畫不提供Workfront計畫</p>
@@ -135,7 +135,11 @@ ht-degree: 1%
    * 參考「幣別」欄位的公式欄位會顯示不含匯率會計的值。
    * 段落欄位的值在請求表單上顯示「N/A」值，並在請求詳細資訊頁面中顯示html標籤而不是格式化文字。
 
-## 建立記錄型別的請求表單
+## 開始建立請求表單
+
+您可以從與表單<span class="preview">關聯的記錄型別或Workfront的「請求」區域建立請求表單。</span>
+
+### 從記錄型別建立請求表單
 
 {{step1-to-planning}}
 
@@ -149,12 +153,51 @@ ht-degree: 1%
 
 1. 按一下頁面標頭中記錄型別名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**建立請求表單**&#x200B;或&#x200B;**管理請求表單** （如果您已經有表單，而且想要建立其他表單）。
 1. （視條件而定）若要新增其他表單，請按一下&#x200B;**新增請求表單**。
-1. 更新要求表單的名稱。 依預設，表單的名稱為&#x200B;**未命名表單**。<!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
+
+   「建立請求表單」方塊隨即開啟。
+
+1. 在「建立請求表單」方塊中，更新請求表單的名稱。 依預設，表單的名稱為&#x200B;**未命名表單**。<!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. （選用）為要求表單新增&#x200B;**描述**。
 
    <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
 
-1. 按一下 **建立**。所選記錄型別的請求表單會在「表單」標籤中開啟。
+1. 按一下「**建立**」。
+
+   所選記錄型別的請求表單會在「表單」標籤中開啟。
+1. 繼續[設定表單](#configure-the-form)。
+
+<div class="preview">
+
+### 從Workfront的「請求」區域建立請求表單
+
+1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**要求**。
+1. 在熒幕的右上角，按一下&#x200B;**要求表單**。
+1. （視條件而定）如果您正在編輯現有的請求表單，請從清單中選取它，然後繼續[設定表單](#confgure-the-form)。
+1. 如果您正在建立新的要求表單，請在畫面的右上角，按一下&#x200B;**新增要求表單**。
+
+   建立請求表單方塊隨即開啟
+
+1. 在「建立請求表單」方塊中，更新請求表單的名稱。 依預設，表單的名稱是&#x200B;**未命名的表單**。
+1. 在「物件型別」欄位中，選取與請求表單相關聯的記錄型別。 記錄型別會分組到其所在的工作區。
+1. （選用）為要求表單新增&#x200B;**描述**。
+
+   <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
+
+1. 按一下「**建立**」。
+
+   所選記錄型別的請求表單會在「表單」標籤中開啟。
+1. 繼續[設定表單](#configure-the-form)。
+
+</div>
+
+## 設定表單
+
+1. 開始建立或編輯請求表單，如下列其中一個區段所述：
+
+   * [從記錄型別建立請求表單](#create-a-request-form-from-a-record-type)
+   * <span class="preview">[從Workfront的要求區域建立要求表單](#create-a-request-form-from-the-requests-area-of-workfront)</span>
+
+   所選記錄型別的請求表單會在「表單」標籤中開啟。
 
    ![行銷活動要求表單編輯模式](assets/campaigns-request-form-edit-mode.png)
 

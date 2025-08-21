@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: ce611ec0c91b114f1a10977970e42fa753f62f22
 workflow-type: tm+mt
-source-wordcount: '2845'
+source-wordcount: '2868'
 ht-degree: 2%
 
 ---
@@ -47,6 +47,8 @@ ht-degree: 2%
 本文說明如何將專案設定為請求佇列，讓使用者可以在其中提交請求。 為範本設定佇列詳細資訊類似於在專案上設定它們。
 
 如需有關如何提交新請求至請求佇列的資訊，請參閱[複製並提交請求](../create-requests/copy-and-submit-requests.md)。
+
+有關如何在Workfront Planning中設定請求表單的資訊，請參閱[在Adobe Workfront Planning中建立和管理請求表單](/help/quicksilver/planning/requests/create-request-form.md)。
 
 ## 存取需求
 
@@ -443,7 +445,7 @@ To create a Request Queue:
 
    * **預設期間：**&#x200B;輸入期間的數字，然後從下拉式功能表中選取下列其中一個期間單位：
 
-      * 天
+      * 日
       * 時數
       * 分鐘
       * 週
