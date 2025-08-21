@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 1%
+source-wordcount: '1102'
+ht-degree: 2%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 1%
 
 ## 存取需求
 
-+++ 展開以檢視存取需求。
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -50,7 +50,7 @@ ht-degree: 1%
    <td role="rowheader"><p>Adobe Workfront計畫*</p></td> 
    <td> 
 <p>下列任一Workfront計畫：</p> 
-<ul><li>選取</li> 
+<ul><li>選擇</li> 
 <li>Prime</li> 
 <li>Ultimate</li></ul> 
 <p>舊版Workfront計畫不提供Workfront計畫</p> 
@@ -90,7 +90,7 @@ ht-degree: 1%
 
 *如需Workfront存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-+++
++++   
 
 ## 建立記錄型別的相關考量事項
 
@@ -117,7 +117,7 @@ ht-degree: 1%
 
      <!--
         * <span class="preview">By importing them from another workspace or adding cross-workspace record types</span>
-            <span class="preview">For information, see [Add cross-workspace record types](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md). </span>-->
+            <span class="preview">For information, see [Add existing record types](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md). </span>-->
 
 
 * 您可以在區段內以及工作區一個區段之間移動記錄型別。 您無法將記錄型別從一個工作區移動到另一個工作區。
@@ -158,7 +158,7 @@ ht-degree: 1%
 
    * 將「未命名的記錄型別」取代為您未來記錄型別的名稱。<!--did they bring back the field label here and did they rename it to "Name"-->
    * **描述**：新增記錄型別的詳細資訊。
-   * 為與記錄型別關聯的圖示選取顏色和形狀。 執行下列動作：
+   * 為與記錄型別關聯的圖示選取顏色和形狀。 請執行下列動作：
       * 選取顏色以識別您的新記錄型別。 這是記錄型別圖示的顏色。 預設會選取「灰色」。
       * 從清單中選取圖示，或開始輸入圖示名稱以說明其代表內容，然後在顯示時選取它。 這是記錄型別的圖示。 依預設，會選取檔案圖示。
 
@@ -257,9 +257,9 @@ ht-degree: 1%
 
 ## Create record types by importing them from another workspace 
 
-You can add record types to a workspace by importing them from another workspace. You can only add record types that have been configured as cross-workspace record types. 
+You can add record types to a workspace by importing them from another workspace. You can only add record types that have been configured as centralized record types. 
 
-For information, see [Add cross-workspace record types](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md).
+For information, see [Add existing record types](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md).
 
 </div>
 

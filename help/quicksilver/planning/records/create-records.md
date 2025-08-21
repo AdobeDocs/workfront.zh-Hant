@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
+source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
 workflow-type: tm+mt
-source-wordcount: '2798'
+source-wordcount: '2814'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,14 @@ ht-degree: 0%
 
 </div>
 
+<!--
+<div class="preview">
+
+* [Add them in the record type calendar view](#create-records-by-adding-them-in-the-record-type-calendar-view)
+
+</div>
+-->
+
 * [從外部清單複製並貼上記錄清單](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [從表格檢視複製記錄](#create-records-by-duplicating-them)
 * [從其他記錄連線](#create-records-as-you-connect-them)
@@ -49,7 +57,7 @@ ht-degree: 0%
 
 ## 存取需求
 
-+++ 展開以檢視存取需求。
++++ 展開以檢視存取需求。  
 
 <table style="table-layout:auto"> 
 <col> 
@@ -69,7 +77,7 @@ ht-degree: 0%
    <td role="rowheader"><p>Adobe Workfront計畫*</p></td> 
    <td> 
 <p>下列任一Workfront計畫：</p> 
-<ul><li>選取</li> 
+<ul><li>選擇</li> 
 <li>Prime</li> 
 <li>Ultimate</li></ul> 
 <p>舊版Workfront計畫不提供Workfront計畫</p> 
@@ -148,7 +156,7 @@ ht-degree: 0%
 
 1. （視條件而定）如果您按一下&#x200B;**新記錄**，請執行下列動作：
 
-   1. 按一下下列其中一個方式來建立記錄，然後按一下[繼續]&#x200B;**&#x200B;**：
+   1. 按一下下列其中一個方式來建立記錄，然後按一下[繼續]****：
 
       * **手動新增**。 記錄的預覽方塊開啟。\
         從步驟6開始，新增記錄的相關資訊，如[從本文中的記錄型別資料表檢視](#create-records-by-adding-them-inline-from-the-record-type-table-view)區段內嵌新增記錄，以建立記錄中所述。<!--insure this stays accurate-->
@@ -273,6 +281,7 @@ You can import records from other applications by linking them to existing recor
    * CTRL + Z (⌘ + Z代表Mac)可復原變更
    * 按CTRL + Shift + Z (⌘ + Shift + Z代表Mac)以重做變更
 
+
 <div class="preview">
 
 ## 在記錄型別時間軸檢視中新增記錄，以建立記錄
@@ -303,7 +312,12 @@ You can import records from other applications by linking them to existing recor
    ![時間軸上的新記錄方塊（含未命名的記錄列）](assets/new-record-small-box-on-timeline.png)
 1. 更新下列資訊：
 
-   * **名稱**：輸入記錄名稱。 如果您將其保留為空白，Workfront會依預設將其命名為&#x200B;**無標題**。 如果留空，該名稱將不會顯示在記錄列中。
+   * **名稱**：輸入記錄名稱。 如果您將其保留為空白，Workfront會依預設將其命名為&#x200B;**無標題**。
+
+     >[!TIP]
+     >
+     >如果您根據時間軸設定在記錄列中顯示記錄的「名稱」，如果留空，該名稱將不會顯示在記錄列中。
+
    * **記錄日期欄位**：更新記錄的日期。
 
      建立時間表檢視時，會根據為「開始」和「結束」日期選取的欄位，自訂日期欄位的名稱。
@@ -331,6 +345,74 @@ You can import records from other applications by linking them to existing recor
    >只有在檢視的「設定」中啟用縮圖時，縮圖才會顯示在時間軸檢視中。
 
 </div>
+
+<!--
+
+<div class="preview">
+
+## Create records by adding them in the record type calendar view
+
+You can create records in the calendar view of a record type page, by double-clicking anywhere on the calendar. 
+
+For information about creating a calendar view, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+
+{{step1-to-planning}}
+  
+1. Click the workspace where you want to add records.
+
+    The workspace opens and the record types display as cards.
+
+1. Click a record type card. 
+
+    The record type page opens in the view that you last accessed. 
+
+1. Click to open a calendar view, or create a calendar view.
+
+    >[!NOTE]
+    >
+    >You can create a calendar view only if there are at least two date fields associated with the record type.
+1. Double-click anywhere on the calendar. 
+
+    A new record box opens. (********might need a new screen shot for Production - might add a title etc*********)
+
+    ![New record box on calendar with unnamed record bar](assets/new-record-small-box-on-calendar.png)
+
+1. Update the following information:
+
+    * **Name**: Enter the name of the record. If you leave it empty, Workfront names it **Untitled** by default. 
+    
+        >[!TIP]
+        >
+        >If you display the Name of the record in the record bars according to the calendar settings, the name is not visible in the record bar if left empty. 
+
+    * **Record date fields**: Update the dates of the record. 
+        
+        The names of the date fields are customized according to the fields selected for the Start and End dates when the timeline view was created.
+
+        By default, date values are preselected depending on how you display the timeline view. The following scenarios exist:
+
+        * By **Month**: The record start and end dates span one day.
+        * By **Week**: The record start and end dates span two days.
+
+1. (Optional) Click one of the following icons: 
+
+    * **Expand** ![Expand icon](assets/expand-icon.png) to open the record details in the preview window. 
+    * **Delete** ![Delete icon](assets/delete-icon.png) to delete the record.
+    * **Close**  ![Close icon](assets/close-icon.png) to close the new record box. 
+
+    The record is added to the calendar as well as to the table and timeline views immediately, unless you clicked the **Delete** icon. 
+
+1. (Optional) Click the record bar in the calendar to open the record's details window and update its information, delete it, or add comments. 
+
+    >[!TIP]
+    >
+    >By default, Workfront associates the record with a thumbnail and a cover image.
+    >
+    >The thumbnail displays in the calendar view only when it is enabled in the Settings of the view. 
+
+</div>
+
+-->
 
 ## 從外部清單複製並貼上記錄，以建立記錄
 
@@ -402,7 +484,7 @@ You can import records from other applications by linking them to existing recor
 1. （視條件而定）如果嘗試連線時找不到記錄，請按一下[新增] **+ [新增]**
 
    或
-開始輸入名稱，然後按一下&#x200B;**+新增**。 **+新增**&#x200B;按鈕後面接著您連線的記錄型別名稱。 例如，將品牌新增至現有行銷活動時，「新增品牌」。 您輸入的名稱也會跟著新增按鈕。
+開始輸入名稱，然後按一下**+新增**。 **+新增**&#x200B;按鈕後面接著您連線的記錄型別名稱。 例如，將品牌新增至現有行銷活動時，「新增品牌」。 您輸入的名稱也會跟著新增按鈕。
 
    ![新增按鈕以在醒目提示的內容中建立記錄](assets/add-button-to-create-records-in-context-highlighted.png)
 

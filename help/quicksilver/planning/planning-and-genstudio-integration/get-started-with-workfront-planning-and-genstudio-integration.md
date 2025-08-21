@@ -4,16 +4,12 @@ description: 當貴公司同時購買這兩個產品時，即可在Adobe Workfro
 hide: true
 hidefromtoc: true
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
+source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
 workflow-type: tm+mt
-source-wordcount: '1359'
+source-wordcount: '1475'
 ht-degree: 0%
 
 ---
-
-# 開始使用Adobe Workfront規劃和Adobe GenStudio for Performance Marketing整合
-
-<!--update the text in the title everywhere this article is linked from - it changed a few times-->
 
 <!--Better metadata, at publishing:
 ---
@@ -29,13 +25,22 @@ recommendations: noDisplay, noCatalog
 
 <!--use this article to make this one similar to it: https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/review-approval-integrations/wf-proof-and-genstudio-->
 
+
+# 開始使用Adobe Workfront規劃和Adobe GenStudio for Performance Marketing整合
+
+<!--update the text in the title everywhere this article is linked from - it changed a few times-->
+
+<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 同時使用Adobe Workfront Planning和Adobe GenStudio for Performance Marketing的組織通常會比GenStudio預設支援的更詳細地定義行銷概念，例如行銷活動、產品和角色。
 
 GenStudio for Performance Marketing與Workfront Planning之間有原生整合。 此整合可讓Workfront Planning中的使用者管理GenStudio中使用的行銷活動、產品、角色、啟用、管道和區域。 它也能讓他們設定GenStudio，以參照Workfront Planning中的現有記錄型別，建立更連線且一致的行銷工作流程。
 
-此整合可協助您避免重複資料輸入、保持規劃和啟用工作的一致性，並支援您的行銷記錄系統。
-
 當貴公司同時購買這兩個產品時，即可在Adobe Workfront Planning中使用GenStudio for Performance Marketing工作區。
+
+## 整合優點
 
 透過Workfront Planning與GenStudio for Performance Marketing的整合，您可以：
 
@@ -44,6 +49,8 @@ GenStudio for Performance Marketing與Workfront Planning之間有原生整合。
 * 在Workfront Planning中檢視GenStudio工作區。
 * 在GenStudio中修改行銷活動，並在Workfront Planning中即時更新相同資訊。
 * 在Workfront Planning中修改行銷活動，並在GenStudio中即時更新相同資訊。
+* 避免重複資料輸入。
+* 保持規劃和啟動工作的一致性。
 
 ## 整合需求
 
@@ -70,25 +77,16 @@ GenStudio for Performance Marketing與Workfront Planning之間有原生整合。
 </col> 
 <tbody> 
     <tr> 
-<tr> 
-<td> 
-   <p> 產品</p> </td> 
+    <td role="rowheader"><p>Adobe Workfront套件</p></td> 
    <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe GenStudio for Performance Marketing</p></li>
-   </ul></td> 
-  </tr>   
-<tr> 
-   <td role="rowheader"><p>Adobe Workfront套件</p></td> 
-   <td> 
-<p>任何Workfront Workflow套件</p>  
-<p>任何Workfront Planning套件</p>
-   </td> </tr>
+<p>任何Adobe Workfront Workflow套件</p>
+<p>任何Adobe Workfront Planning套件</p>
 
+</td> </tr>
 <tr> 
    <td role="rowheader"><p>Adobe GenStudio套件</p></td> 
    <td> 
-<p>???</p>
+<p>???GEN STUDIO是否有支援此功能的套件???</p>
 
 </td> </tr>
 
@@ -102,22 +100,28 @@ GenStudio for Performance Marketing與Workfront Planning之間有原生整合。
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront授權</p></td> 
-   <td><p> 系統管理員</p>
+   <td><p> 標準</p>
   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe GenStudio授權</p></td> 
-   <td><p> ???</p>
+   <td><p> ???GEN STUDIO是否需要支援此的特定授權???</p>
   </td> 
   </tr> 
   <tr> 
+<td> 
+   <p> 其他產品</p> </td> 
+   <td> 
+   <p> Adobe GenStudio for Performance Marketing</p></td> 
+  </tr>   
+  <tr> 
    <td role="rowheader"><p>存取層級設定</p></td> 
    <td> <p>Adobe Workfront Planning沒有存取層級控制</p>  
-   <p>GenStudio的設定： ???</p> 
+   <p>GenStudio的設定：???GENS的存取層級需求為何???</p> 
 </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>物件許可權</p></td> 
+   <td role="rowheader"><p>物件許可權*</p></td> 
    <td>  
    <p>在Workfront規劃中： </p>
    <ul>
@@ -161,23 +165,25 @@ GenStudio for Performance Marketing與Workfront Planning之間有原生整合。
 
 ### 記錄類型
 
-* 您可以在Workfront Planning中從GenStudio編輯記錄型別資訊（例如其外觀）。
+* 您可以從Workfront Planning編輯GenStudio記錄型別資訊（例如其外觀）。
 * 您可以在Planning中與其他人共用GenStudio記錄型別。
 * 您可以在GenStudio工作區上從Planning建立記錄型別。 這些記錄型別僅保留在Planning中。 它們不會顯示在GenStudio中。
 * 與GenStudio同步的記錄型別在Workfront Planning中顯示視覺指標，可清楚顯示記錄型別是從GenStudio匯入。
 
 ### 記錄
 
+下列為同時顯示在GenStudio與GenStudio Planning中的Workfront記錄型別：
+
 * 您可以在GenStudio中新增或刪除記錄，這些記錄便會顯示在Workfront Planning中（或從中移除）。
 * 您可以在Workfront Planning中新增或刪除記錄，且這些記錄會顯示在GenStudio中（或從中移除）。
-* 當您從Workfront Planning或GenStudio刪除記錄時，這些記錄會放在「最近刪除」的資料匣中30天。 GenStudio沒有最近刪除的bin。
+* 當您從Workfront Planning或GenStudio刪除記錄時，這些記錄會放在Workfront Planning最近刪除的資料匣中30天。 GenStudio沒有最近刪除的bin。
 * 從最近刪除的資料匣復原記錄，會將它們放回Workfront Planning和GenStudio。
 * 您可以透過下列方式，從Workfront Planning新增記錄：
 
    * 使用「新增記錄」按鈕，從任何檢視手動從頭開始
    * 使用CSV或Excel檔案匯入這些檔案
    * 手動、內嵌、在表格檢視中
-   * 手動、直接在時間軸檢視中
+   * 手動、直接在時間表或行事曆檢視<!--ensure the calendar is released when this releases-->中
 
   如需詳細資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md)。
 * 您無法從Workfront Planning建立或刪除啟用記錄。
@@ -189,7 +195,7 @@ GenStudio for Performance Marketing與Workfront Planning之間有原生整合。
 
 ### 欄位
 
-* 記錄欄位會從GenStudio匯入。 您可以在Workfront規劃中編輯欄位設定。
+* 記錄欄位會從GenStudio匯入。 您可以從Workfront Planning編輯GenStudio欄位設定。
 * 如果您在Gen Studio中擁有「管理」存取權，便可以在Workfront Planning中建立GenStudio記錄型別的欄位。
 * 當您在Planning中為GenStudio記錄型別建立欄位時，可從下列區域看到這些欄位：
    * Planning檢視
@@ -204,13 +210,12 @@ GenStudio for Performance Marketing與Workfront Planning之間有原生整合。
 * 您無法刪除從Workfront Planning的GenStudio匯入的欄位。
 * 您可以從Workfront Planning中刪除在Workfront Planning中為GenStudio記錄型別建立的欄位。
 
-
 ### 建立者與核准者欄位
 
 * 您可以從Workfront Planning為Workfront Planning中的GenStudio記錄型別新增「建立者」和「核准者」欄位。
 * 在「管道」和「地區」記錄型別中顯示的記錄會將「系統」顯示為「建立者」。 在Workfront Planning中建立GenStudio工作區時，會自動建立這些記錄。
 * 工作區在Workfront Planning中可供使用後，在GenStudio中建立的記錄將顯示在「建立者」欄位中建立記錄的IMS使用者名稱，即使該使用者在GenStudio中建立記錄且不是Workfront使用者。
-* 提交請求表單以建立記錄時，「核准者」欄位會顯示核准者的名稱。
+* 當在Workfront Planning中提交請求表單以在GenStudio記錄型別中建立記錄時，「核准者」欄位會顯示核准者的名稱。
 
 ### 檢視
 
@@ -218,7 +223,7 @@ GenStudio for Performance Marketing與Workfront Planning之間有原生整合。
 
   如需詳細資訊，請參閱[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)。
 
-* 當您要共用Planning記錄型別的檢視時，可以共用GenStudio記錄型別的檢視。
+* 共用GenStudio記錄型別的檢視與共用Planning記錄型別的檢視相同。
 * 您無法在GenStudio中建立多個檢視。
 
 ### 連線
@@ -233,12 +238,13 @@ GenStudio for Performance Marketing與Workfront Planning之間有原生整合。
 
 ### 請求表單與自動化
 
-* 您可以在Workfront Planning中將請求表單和自動化新增到GenStudio記錄型別。
+* 您可以在Workfront Planning中將請求表單新增至GenStudio記錄型別。
+* 您可以在Workfront Planning中設定GenStudio記錄型別的自動化。
 
 ### 預覽環境
 
 * 可從生產環境存取的GenStudio工作區也會顯示在您的預覽環境中。
-* 您可以在預覽環境中，於Workfront規劃的GenStudio工作區上執行本文所述的所有活動，但這些變更不會轉移至GenStudio。
+* 您可以在預覽環境的Workfront Planning中，於GenStudio工作區上執行本文所述的所有活動，但這些變更不會轉移至GenStudio。
 只有您對生產環境中的專案所做的變更，才會在Workfront Planning和GenStudio之間同步。
 GenStudio沒有預覽環境。
 

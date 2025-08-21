@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '694'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 ## 存取需求
 
-+++ 展開以檢視存取需求。
++++ 展開以檢視存取需求。 
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -53,7 +53,7 @@ ht-degree: 1%
    <td role="rowheader"><p>Adobe Workfront計畫*</p></td> 
    <td> 
 <p>下列任一Workfront計畫：</p> 
-<ul><li>選取</li> 
+<ul><li>選擇</li> 
 <li>Prime</li> 
 <li>Ultimate</li></ul> 
 <p>舊版Workfront計畫不提供Workfront計畫</p> 
@@ -92,7 +92,7 @@ ht-degree: 1%
 
 *如需Workfront存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-+++
++++   
 
 ## 建立工作區
 
@@ -124,7 +124,7 @@ ht-degree: 1%
 
    或
 
-   按一下[上一步]&#x200B;**&#x200B;**，然後按一下[新工作區]&#x200B;**&#x200B;**&#x200B;從頭開始建立工作區。
+   按一下[上一步]****，然後按一下[新工作區]****&#x200B;從頭開始建立工作區。
 
    會建立下列其中一種工作區型別：
 
@@ -154,5 +154,15 @@ ht-degree: 1%
    如需詳細資訊，請參閱[建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md)。
 
    如需在工作區中編輯和刪除記錄型別的詳細資訊，請參閱[編輯工作區](/help/quicksilver/planning/architecture/edit-workspaces.md)。
+
+1. （可選）按一下新工作區左側的返回箭頭，以開啟Planning首頁面。 在我所在的&#x200B;**工作區**&#x200B;索引標籤中為新工作區建立了新工作區卡片。
+
+   建立工作區的使用者名稱會以擁有者的身分儲存在工作區卡片上。
+
+   >[!NOTE]
+   >
+   >對於目前正在轉換至Adobe Identity Management System (IMS)的使用者，非IMS使用者的僅Workfront使用者所建立的工作區，會顯示為&#x200B;**系統**&#x200B;所建立。
+   >
+   >如需IMS的相關資訊，請參閱[Workfront的Adobe Unified Experience ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 
 

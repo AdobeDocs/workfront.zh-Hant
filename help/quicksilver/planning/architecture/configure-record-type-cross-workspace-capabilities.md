@@ -4,9 +4,9 @@ description: 您可以啟用記錄型別，以新增至另一個工作區，或�
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
+source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1021'
 ht-degree: 1%
 
 ---
@@ -43,7 +43,7 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 
 # 設定記錄型別的跨工作區功能
 
-<!--this is linked to the UI in the info icon of when you create a record type from a global record type-->
+<!--this is linked to the UI in the info icon when you enable a record to be either centralized or connectable-->
 
 <span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
@@ -85,7 +85,7 @@ Then for the second setting for cross-workspace connections, we'll need a simila
    <td role="rowheader"><p>Adobe Workfront計畫*</p></td> 
    <td> 
 <p>下列任一Workfront計畫：</p> 
-<ul><li>選取</li> 
+<ul><li>選擇</li> 
 <li>Prime</li> 
 <li>Ultimate</li></ul> 
 <p>舊版Workfront計畫不提供Workfront計畫</p> 
@@ -127,7 +127,9 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 
 +++   
 
-## 設定將記錄型別新增至其他工作區
+## 設定集中記錄型別
+
+<!--this is a UI term; don't change the title of this section-->
 
 作為工作區管理員，您可以設定記錄型別，以便在建立或編輯記錄型別時將其新增到其他工作區。
 
@@ -180,7 +182,9 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 
      此欄位是唯讀的，無法刪除。
 
-## 設定從其他工作區連線到記錄型別
+## 設定可連線的記錄型別
+
+<!--this is a UI term; don't change the title of this section-->
 
 當您建立或編輯記錄型別時，可以設定要從其他工作區連線的記錄型別。
 

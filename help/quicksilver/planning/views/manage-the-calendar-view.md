@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
+source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
 workflow-type: tm+mt
 source-wordcount: '1624'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 4%
 
 ## 存取需求
 
-+++ 展開以檢視存取需求。
++++ 展開以檢視存取需求。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -47,7 +47,7 @@ ht-degree: 4%
    <td role="rowheader"><p>Adobe Workfront計畫*</p></td> 
    <td> 
 <p>下列任一Workfront計畫：</p> 
-<ul><li>選取</li> 
+<ul><li>選擇</li> 
 <li>Prime</li> 
 <li>Ultimate</li></ul> 
 <p>舊版Workfront計畫不提供Workfront計畫</p> 
@@ -94,7 +94,7 @@ ht-degree: 4%
 
 *如需Workfront存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-+++
++++   
 
 ## 管理行事曆檢視 {#manage-a-calendar-view}
 
@@ -110,6 +110,14 @@ ht-degree: 4%
    * 當「開始」與「結束」日期都沒有值時，記錄不會顯示在行事曆上
    * 當「開始」或「結束」日期沒有值時，記錄會顯示為單日事件
    * 當開始日期晚於結束日期時，記錄不會顯示在行事曆上。
+
+<!--
+<div class="preview">
+
+* You can create and edit records in the calendar view. For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
+
+</div>
+-->
 
 若要管理行事曆檢視：
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: dea77522-d89f-4baa-a701-aea124d2b3a5
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '253'
 ht-degree: 1%
 
 ---
@@ -30,19 +30,19 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td><p>新增：標準</p><p>或</p><p>目前：計畫</p></td> 
+   <td><p>標準</p><p>規劃</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
    <td> <p>您必須具備下列其中一項：</p> 
     <ul> 
      <li> <p>系統管理員存取層級。 </li> 
-     <li> <p>您的存取層級中的<b>使用者</b>設定已設定為<b>編輯</b>存取權，其中<b>建立</b>以及在<b>微調您的設定</b> <img src="assets/gear-icon-in-access-levels.png">下啟用的兩個<b>使用者管理員</b>選項中的至少一個。 </p> <p>在這兩個選項中，如果已啟用<b>使用者管理員（群組使用者）</b>，您必須是使用者所屬群組的群組管理員。</p> </li> 
+     <li> <p>您的存取層級中的<b>使用者</b>設定已設定為<b>編輯</b>存取權，其中<b>建立</b>以及在<b>微調您的設定</b> <b>下啟用的兩個</b>使用者管理員<img src="assets/gear-icon-in-access-levels.png">選項中的至少一個。 </p> <p>在這兩個選項中，如果已啟用<b>使用者管理員（群組使用者）</b>，您必須是使用者所屬群組的群組管理員。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

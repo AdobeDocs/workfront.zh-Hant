@@ -1,13 +1,13 @@
 ---
-title: 新增跨工作區記錄型別
+title: 新增現有記錄型別
 description: 記錄型別是Adobe Workfront Planning的物件型別。 在Workfront Planning中，您可以從另一個工作區匯入現有的記錄型別。
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
+source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 2%
+source-wordcount: '635'
+ht-degree: 1%
 
 ---
 
@@ -19,7 +19,7 @@ author: Alina
 recommendations: noDisplay, noCatalog
 -->
 
-# 新增跨工作區記錄類型
+# 新增現有記錄型別
 
 <span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
@@ -35,7 +35,7 @@ recommendations: noDisplay, noCatalog
 
 ## 存取需求
 
-+++ 展開以檢視存取需求。  
++++ 展開以檢視本文中功能的存取需求。
 
 <table style="table-layout:auto"> 
 <col> 
@@ -55,7 +55,7 @@ recommendations: noDisplay, noCatalog
    <td role="rowheader"><p>Adobe Workfront計畫*</p></td> 
    <td> 
 <p>下列任一Workfront計畫：</p> 
-<ul><li>選取</li> 
+<ul><li>選擇</li> 
 <li>Prime</li> 
 <li>Ultimate</li></ul> 
 <p>舊版Workfront計畫不提供Workfront計畫</p> 
@@ -109,6 +109,7 @@ recommendations: noDisplay, noCatalog
    * 記錄連線
 
 * 您只能在其原始工作區中編輯記錄型別，包括其欄位。 您無法從新增它的工作區中編輯它。
+* 從所有工作區新增的記錄將對從所有工作區存取它們的所有使用者可見，即使這些記錄是在沒有許可權的工作區中建立的。
 
 ## 從現有記錄型別建立記錄型別
 
