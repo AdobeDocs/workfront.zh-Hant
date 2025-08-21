@@ -193,7 +193,7 @@ If users that don't fulfill any role on the project want to be notified about ce
    會從未完成的工作專案移除及取消指派使用者。
 
    如需詳細資訊，請參閱本文的[從專案團隊](#considerations-for-removing-users-from-a-project-team)移除使用者的考量事項。
-1. （選擇性）若要將此專案的更新傳送給使用者，請按一下[全部更新]，將更新傳送給團隊中的每個人&#x200B;****
+1. （選擇性）若要將此專案的更新傳送給使用者，請按一下[全部更新]，將更新傳送給團隊中的每個人&#x200B;**&#x200B;**
 
    或
 
@@ -243,7 +243,7 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    如需詳細資訊，請參閱本文的[從專案團隊](#considerations-for-removing-users-from-a-project-team)移除使用者的考量事項。
 
-1. （選擇性）若要傳送更新給使用者，請按一下[全部更新]，將更新傳送給清單中的所有使用者&#x200B;****
+1. （選擇性）若要傳送更新給使用者，請按一下[全部更新]，將更新傳送給清單中的所有使用者&#x200B;**&#x200B;**
 
    或
 
