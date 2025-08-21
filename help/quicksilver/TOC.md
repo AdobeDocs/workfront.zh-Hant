@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 6ad5c482e8c1638612d46d4287bda27466acef3f
+source-git-commit: aa1c75263b23389b2a98cb6f10d7cd76515612d8
 workflow-type: tm+mt
-source-wordcount: '13436'
+source-wordcount: '13445'
 ht-degree: 2%
 
 ---
@@ -1948,6 +1948,11 @@ AI小幫手 {#ai-assistant}
          * [上傳後檔名稱已變更，且包含無效字元](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
          * [校訂PowerPoint搭配內嵌視訊](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)
          * [將互動式校訂新增為新版本時，無法下載或預覽校訂版本](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/static-and-web-proof-downloads.md)
+   * 原生整合 {#native-integrations}
+   * [檢閱和核准原生整合：文章索引](/help/quicksilver/review-and-approve-work/native-integrations/review-approva-native-integrations-toc.md)
+   * [開始使用校訂和GenStudio for Performance Marketing整合](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
+   * [開始使用校訂和Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
+   * [開始使用Frame.io整合](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md)
    * 核准的秘訣、技巧和疑難排解 {#ttt-approvals}
       * [核准的秘訣、技巧和疑難排解：文章索引](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
       * [檢視所有使用者的校訂和檔案決策數量](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
@@ -2147,9 +2152,6 @@ AI小幫手 {#ai-assistant}
    * [Adobe Workfront內建整合概述](workfront-integrations-and-apps/built-in-integrations-non-admin.md)
    * [Adobe Workfront整合方法](workfront-integrations-and-apps/built-in-vs-api-vs-fusion.md)
    * 檢閱和核准整合 {#review-approval-integrations}
-      * [檢閱和核准整合：文章索引](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/review-approval-integrations-toc.md)
-      * [開始使用校訂和GenStudio for Performance Marketing整合](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
-      * [開始使用校訂和Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
    * 適用於Creative Cloud的Adobe Workfront {#workfront-for-creative-cloud}
       * [適用於Creative Cloud的Adobe Workfront](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)
       * 安裝適用於Creative Cloud應用程式的Adobe Workfront外掛程式 {#install-wf-cc}
@@ -2204,7 +2206,7 @@ AI小幫手 {#ai-assistant}
    * 適用於Outlook的Adobe Workfront {#workfront-for-outlook}
       * [適用於Outlook的Adobe Workfront：文章索引](workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)
       * [設定適用於Outlook的Adobe Workfront](workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
-      * [適用於Outlook的Workfront的許可權層級](workfront-integrations-and-apps/using-workfront-with-outlook/permissions-in-workfront-for-outlook.md)
+      * 適用於Outlook的Workfront的[許可權層級](workfront-integrations-and-apps/using-workfront-with-outlook/permissions-in-workfront-for-outlook.md)
       * [回覆Outlook的註解](workfront-integrations-and-apps/using-workfront-with-outlook/reply-to-a-comment-from-outlook.md)
       * [從Outlook電子郵件更新現有的物件](workfront-integrations-and-apps/using-workfront-with-outlook/update-an-existing-object-from-an-outlook-email.md)
       * [將Outlook電子郵件作為任務或問題新增至專案](workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-to-project-as-task-or-issue.md)
@@ -2499,8 +2501,8 @@ AI小幫手 {#ai-assistant}
       * [使用JWT流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-jwt-flow.md)
       * [使用PKCE流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-pkce-flow.md)
       * [棄用API — 內部](wf-api/api/deprecation-api-internal.md)
-      * [ API 20版的新增功能](wf-api/api/new-api-version-20.md)
-      * [ API 19版的新增功能](wf-api/api/new-api-version-19.md)
+      * [ API 20](wf-api/api/new-api-version-20.md)版的新增功能
+      * [ API 19](wf-api/api/new-api-version-19.md)版的新增功能
       * [API 18版的新增功能](wf-api/api/new-api-version-18.md)
       * [API 17版的新增功能](wf-api/api/new-api-version-17.md)
       * [API 16版的新增功能](wf-api/api/new-api-version-16.md)
