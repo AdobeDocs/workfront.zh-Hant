@@ -123,7 +123,7 @@ ht-degree: 0%
 
 若要設定中繼資料欄位：
 
-1. 依照[!DNL Experience Manager Assets]設定Adobe[與 [!DNL Workfront]  [!DNL Experience Manager Assets]之間的資產中繼資料對應，在](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)中設定中繼資料結構描述。
+1. 依照[!DNL Experience Manager Assets]設定Adobe[與 [!DNL Workfront]  [!DNL Experience Manager Assets]之間的資產中繼資料對應，在](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)中設定中繼資料結構描述。
 
 
 1. 在Workfront中設定自訂表單欄位。 [!DNL Workfront]有許多您可以使用的內建自訂欄位。 不過，您也可以建立自己的自訂欄位，如[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)中所述。
@@ -153,7 +153,7 @@ ht-degree: 0%
 
 在Experience Manager Assets中建立標籤後，標籤會顯示在中繼資料區段的「標籤」下拉式清單下。 若要將欄位連結至標籤，請在中繼資料對應區域的Experience Manager Assets欄位下拉式清單中選取`xcm:keywords`。
 
-如需Experience Manager Assets中標籤的詳細資訊，包括如何建立和管理標籤，請參閱[管理標籤](https://experienceleague.adobe.com/en/docs/experience-manager-64/administering/contentmanagement/tags)。
+如需Experience Manager Assets中標籤的詳細資訊，包括如何建立和管理標籤，請參閱[管理標籤](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-64/administering/contentmanagement/tags)。
 
 **Experience Manager Assets自訂中繼資料結構描述欄位**
 
