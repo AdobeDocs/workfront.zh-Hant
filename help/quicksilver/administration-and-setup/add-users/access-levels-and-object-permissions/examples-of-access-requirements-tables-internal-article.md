@@ -4,7 +4,7 @@ description: 這是我們的團隊的內部文章，詳細記錄我們用於存�
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: 15eba2f627e31661c5fde60e989dfc68a9f4cd15
+source-git-commit: 5fd51b6fad81eb54696784745989efee06b79c94
 workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 2%
@@ -25,7 +25,7 @@ ht-degree: 2%
 
 ## 存取需求（當套件保持不變並更新授權列時，此為範例）
 
-展開以檢視本文中功能的存取需求
+展開以檢視本文中功能的存取需求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -56,7 +56,7 @@ ht-degree: 2%
 
 ## 存取需求
 
-展開以檢視本文中功能的存取需求
+展開以檢視本文中功能的存取需求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -86,7 +86,7 @@ ht-degree: 2%
 
 ## 存取需求（僅適用於淨新客戶）
 
-展開以檢視本文中功能的存取需求
+展開以檢視本文中功能的存取需求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -117,7 +117,7 @@ ht-degree: 2%
 
 ## 存取需求（這是新功能僅存在於2023/2025套件中的範例）
 
-展開以檢視本文中功能的存取需求
+展開以檢視本文中功能的存取需求。
 
 <table>
   <tr>
@@ -145,7 +145,7 @@ ht-degree: 2%
 
 ## 存取需求（以下是您需要擁有其他產品的範例）
 
-展開以檢視本文中功能的存取需求
+展開以檢視本文中功能的存取需求。
 
 <table>
   <tr>
@@ -220,7 +220,7 @@ ht-degree: 2%
    <td> 
 <p>任何Adobe Workfront工作流程套件和任何Adobe Workfront計畫套件</p> 
    </td> </tr>
-<td role="rowheader"><p>Adobe Workfront平台(**&#x200B;**&#x200B;我們是否要標註此內容，或將其設為底部連結之文章的一部分???**&#x200B;***)</p></td> 
+<td role="rowheader"><p>Adobe Workfront平台(****我們是否要標註此內容，或將其設為底部連結之文章的一部分???*****)</p></td> 
    <td> 
 <p>貴組織的Workfront例項必須上線至Adobe Unified Experience，才能存取Workfront Planning。</p> 
 <p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">適用於Workfront的Adobe Unified Experience</a>。 </p> 
@@ -273,15 +273,15 @@ ht-degree: 2%
    <td> <p>[!DNL Adobe Workfront] 授權*</p> </td> 
    <td> <p>淺色或更高</p> 
    或
-   <p>[!UICONTROL Review]或更高版本</p> </td> 
+   <p>[！UICONTROL Review]或更高版本</p> </td> 
   </tr>
 
 <td><p>存取層級設定</p> </td> 
-   <td> <p>[!UICONTROL Edit]對的存取權 [!DNL Scenario Planner]</p> </td> 
+   <td> <p>[！UICONTROL Edit]對的存取權 [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>物件許可權 </p> </td> 
-   <td> <p>[!UICONTROL Manage]計畫的許可權</p>  </td> 
+   <td> <p>[！UICONTROL Manage]計畫的許可權</p>  </td> 
   </tr> 
  </tbody> 
 </table>
