@@ -42,8 +42,8 @@ Workfront管理員可啟用Workfront與Frame.io之間的整合，方法是在「
   <tr>
    <td>[!DNL Adobe Workfront] 授權
    </td>
-   <td><p>目前： [！UICONTROL計畫]</p>
-   <p>新增：[！UICONTROL Standard]</p></td>
+   <td><p>目前： [!UICONTROL 計畫]</p>
+   <p>新增：[!UICONTROL Standard]</p></td>
   </tr>
   <tr>
    <td>存取層級設定
@@ -75,7 +75,7 @@ Workfront管理員可啟用Workfront與Frame.io之間的整合，方法是在「
 {{step-1-to-setup}}
 
 1. 在左側面板中，按一下&#x200B;**群組**。
-1. 選擇現有的群組，或按一下[建立群組] ****。
+1. 選擇現有的群組，或按一下[建立群組] **&#x200B;**。
 1. 在左側面板中，按一下&#x200B;**連線到Frame.io**。
 1. 輸入API開發人員權杖。
 1. 按一下&#x200B;**起始連線**。
