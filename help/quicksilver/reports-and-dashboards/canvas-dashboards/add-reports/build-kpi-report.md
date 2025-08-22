@@ -6,9 +6,9 @@ description: 主要顯示單一彙總KPI的KPI報告可新增至畫布控制面�
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+source-git-commit: 72344e5c1607ba6b4dd2a1e71a462bba93369b27
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ![KPI報告範例](assets/kpi-example-main.png)
 
-+++ 展開以檢視存取需求。
++++ 展開以檢視存取需求。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -122,5 +122,57 @@ ht-degree: 0%
    1. 按一下「**新增群組**」按鈕，然後選取要建立為群組的欄位。
 
 1. 按一下&#x200B;**儲存**&#x200B;以建立報告並將其新增到儀表板。
+
+## 建立KPI報告範例
+
+在本節中，我們將逐步說明建立可顯示待處理檔案核准的KPI報告。
+
+如需KPI報告範例的詳細資訊，請參閱[建立報告儀表板以供檢閱和核准](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)。
+
+{{step1-to-dashboards}}
+
+1. 在左側面板中，按一下&#x200B;**畫布控制面板**。
+
+1. 按一下右上角的&#x200B;**新儀表板**。
+
+1. 在&#x200B;**建立儀表板**&#x200B;方塊中，輸入儀表板的&#x200B;**名稱**&#x200B;和&#x200B;**描述**。
+
+1. 按一下「**建立**」。
+
+1. 在&#x200B;**新增報告**&#x200B;方塊中，選取&#x200B;**建立報告**。
+
+1. 在左側，選取&#x200B;**KPI**。
+
+1. 按一下右上角的&#x200B;**建立報告**。
+
+1. 請依照下列步驟設定&#x200B;**詳細資料**&#x200B;區段：
+
+   1. 在&#x200B;*名稱*&#x200B;欄位中輸入&#x200B;**擱置中**。
+   1. 在&#x200B;*描述*&#x200B;欄位中輸入&#x200B;**擱置核准**。 這會在KPI值下方顯示為標題。
+
+1. 請依照下列步驟設定&#x200B;**建置KPI**&#x200B;區段：
+
+   1. 在左側面板中，按一下&#x200B;**建置KPI** ![建置KPI圖示](assets/build-kpi-icon.png)。
+
+   1. 按一下&#x200B;**選取欄位**。
+
+   1. 尋找並選取&#x200B;**檔案核准**&#x200B;資料夾。
+
+   1. 選取&#x200B;**狀態**。
+
+   1. 在&#x200B;**彙總型別**&#x200B;下拉式清單中，選取&#x200B;**計數**。
+
+1. 請依照下列步驟設定&#x200B;**篩選器**&#x200B;區段：
+
+   1. 在左側面板中，按一下&#x200B;**篩選器** ![篩選器圖示](assets/filter-icon.png)圖示。
+
+   1. 選取&#x200B;**編輯篩選器**。
+
+   1. 按一下&#x200B;**新增條件**。
+
+   1. 按一下空白條件篩選，按一下&#x200B;**挑選欄位**，然後選擇&#x200B;**狀態**。
+   1. 將運運算元保留為&#x200B;**Equal**，然後在文字方塊中輸入&#x200B;_擱置檢閱_。
+      ![擱置的KPI篩選範例](assets/pending-kpi-filter.png)
+1. 按一下熒幕右上角的&#x200B;**儲存**。
 
 
