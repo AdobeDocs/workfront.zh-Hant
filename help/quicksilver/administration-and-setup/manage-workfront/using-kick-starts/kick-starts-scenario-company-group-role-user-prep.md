@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
-source-git-commit: 59431354076a0909fb1878d68cf266f08d2114b3
+source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
 workflow-type: tm+mt
-source-wordcount: '1216'
-ht-degree: 3%
+source-wordcount: '1206'
+ht-degree: 4%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td> 
+   <td>[！UICONTROL系統管理員]</td> 
   </tr> 
  </tbody> 
 </table>
@@ -68,7 +68,7 @@ ht-degree: 3%
 
 ### 使用者1
 
-| 屬性 | 值 |
+| 屬性 | 價值 |
 |---|---|
 | **名字** | Chris |
 | **姓氏** | 人員管理 |
@@ -83,7 +83,7 @@ ht-degree: 3%
 
 ### 使用者2
 
-| 屬性 | 值 |
+| 屬性 | 價值 |
 |---|---|
 | **名字** | Jennifer |
 | **姓氏** | 坎貝爾 |
@@ -98,7 +98,7 @@ ht-degree: 3%
 
 ### 使用者3
 
-| 屬性 | 值 |
+| 屬性 | 價值 |
 |---|---|
 | **名字** | 吉爾 |
 | **姓氏** | 沙利文 |
@@ -113,7 +113,7 @@ ht-degree: 3%
 
 ### 使用者4
 
-| 屬性 | 值 |
+| 屬性 | 價值 |
 |---|---|
 | **名字** | 馬克 |
 | **姓氏** | Lewis |
@@ -128,7 +128,7 @@ ht-degree: 3%
 
 ### 使用者5
 
-| 屬性 | 值 |
+| 屬性 | 價值 |
 |---|---|
 | **名字** | Pam |
 | **姓氏** | Reynolds |
@@ -143,7 +143,7 @@ ht-degree: 3%
 
 ### 使用者6
 
-| 屬性 | 值 |
+| 屬性 | 價值 |
 |---|---|
 | **名字** | Ray |
 | **姓氏** | Andrews |
@@ -305,6 +305,6 @@ ht-degree: 3%
 >
 >匯入至Workfront的使用者會建立在「已停用」和「等待核准」狀態。
 > 
->如果您的組織已移轉至Adobe Admin Console，且使用者未在幾分鐘內離開「已停用」和「未決核准」狀態，您可以將使用者批次直接新增到Adobe Admin Console。
+>如果使用者沒有在幾分鐘內移出「已停用」和「未決核准」狀態，您可以將使用者批次直接新增到Adobe Admin Console。
 >
->如需指示，請參閱[管理多個使用者 | 在Adobe檔案中大量上傳CSV](https://helpx.adobe.com/tw/enterprise/using/bulk-upload-users.html)。
+>如需指示，請參閱[管理多個使用者 | 在Adobe檔案中大量上傳CSV](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html)。

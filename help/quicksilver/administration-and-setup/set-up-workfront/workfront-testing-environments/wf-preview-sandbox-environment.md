@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: 7549c9699a86b6f87e5562efd7e586be282c5619
+source-git-commit: d2dd148c8b7a08f4ea9a13e325a33f753eea2d7d
 workflow-type: tm+mt
-source-wordcount: '1302'
+source-wordcount: '1180'
 ht-degree: 0%
 
 ---
@@ -39,8 +39,8 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th> <p> </p> </th> 
-   <th> <p><strong>[!UICONTROL Standard]支援套件</strong> </p> </th> 
-   <th> <p><strong>[!UICONTROL Plus]、[!UICONTROL Preferred]和[!UICONTROL Enterprise]支援套件</strong> </p> </th> 
+   <th> <p><strong>[！UICONTROL Standard]支援套件</strong> </p> </th> 
+   <th> <p><strong>[！UICONTROL Plus]、[！UICONTROL Preferred]和[！UICONTROL Enterprise]支援套件</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -156,18 +156,28 @@ Workfront會停用來自預覽Sandbox環境的所有電子郵件通訊。 如果
 
 >[!IMPORTANT]
 >
->本頁所述的程式僅適用於尚未上線到[!DNL Adobe Admin Console]的組織。 如果您的組織已加入[!DNL Adobe Admin Console]，則不需要採取任何動作。
+>本節中說明的程式已移除，因為它僅適用於尚未加入Adobe Admin Console的組織。
 >
->如需根據貴組織是否已加入[!DNL Adobe Admin Console]而不同的程式清單，請參閱[以平台為基礎的管理差異([!UICONTROL Adobe Workfront]/[!UICONTROL Adobe Business Platform])](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
+>所有Workfront組織現在都已上線Adobe Admin Console。
+
+<!--DELETE THIS SECTION MARCH 2026-->
+
+<!--
+
+>[!IMPORTANT]
+>
+>The procedure described on this page applies only to organizations that have not yet been onboarded to the [!DNL Adobe Admin Console]. If your organization has been onboarded to the [!DNL Adobe Admin Console], no action is necessary.
+>
+>For a list of procedures that differ based on whether your organization has been onboarded to the [!DNL Adobe Admin Console], see [Platform-based administration differences ([!UICONTROL Adobe Workfront]/[!UICONTROL Adobe Business Platform])](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 
-如果您想要將預覽沙箱設定為使用單一登入解決方案，您可以透過與生產環境分開設定來執行此操作。 預覽沙箱中的SSO設定與生產環境中的SSO設定無關。
+If you want to configure your Preview Sandbox to work with a Single Sign-On solution, you can do so by configuring it separately from your Production environment. The SSO configuration in the Preview Sandbox is independent from your SSO configuration in the Production environment.
 
-當您的預覽沙箱重新整理（每個週末）時，SSO資訊不會從您的生產環境複製以覆寫預覽沙箱設定。
+When your Preview Sandbox refreshes (every weekend), the SSO information is not copied from your Production environment to overwrite the Preview Sandbox configuration.
 
-在預覽沙箱中設定單一登入的步驟與在生產環境中設定它的步驟類似。
+The steps for configuring single sign-on in the Preview Sandbox are similar to those for configuring it in the Production environment.
 
-如需使用SSO設定[!DNL Workfront]的詳細資訊，請參閱[Adobe Workfront單一登入的概觀](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)。
+For more information about configuring [!DNL Workfront] with SSO, see [Overview of single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).-->
 
 ## 自動重新計算專案時間表
 

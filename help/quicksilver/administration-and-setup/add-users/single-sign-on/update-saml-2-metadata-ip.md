@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 75cd0ab5-8d76-40a4-96a8-00e9f0f4fec6
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '26'
 ht-degree: 0%
 
 ---
@@ -19,141 +19,143 @@ ht-degree: 0%
 
 {{important-admin-console-onboard}}
 
-以下各節說明在使用Active Directory Federation Services (ADFS)做為身分提供者時，如何更新您的安全性宣告標籤語言(SAML) 2.0中繼資料。
+<!--REMOVE ME MARCH 2026-->
 
-## 存取需求
+<!--The following sections describe how to update your Security Assertion Markup Language (SAML) 2.0 metadata when using Active Directory Federation Services (ADFS) as your identity provider.
 
-+++ 展開以檢視本文中功能的存取需求。
+## Access requirements
 
-您必須具有下列存取權才能執行本文中的步驟：
++++ Expand to view access requirements for the functionality in this article.
+
+You must have the following access to perform the steps in this article: 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td>任何</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td>規劃</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
-   <td> <p>您必須是Workfront管理員。</p> <p><b>注意</b>：如果您還是沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must be a Workfront administrator.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 +++
 
-## 使用ADFS作為您的身分提供者
+## Use ADFS as your identity provider
 
-您可以在Adobe Workfront更新SAML 2.0憑證之前或之後更新ADFS中繼資料。 如果您選擇在更新SAML 2.0憑證之前，先更新Workfront中繼資料，則需執行其他步驟。
+You can update your ADFS metadata prior to Adobe Workfront updating the SAML 2.0 certificate or after. If you choose to update the ADFS metadata prior to Workfront updating the SAML 2.0 certificate, additional steps are required.
 
-* [更新您的ADFS中繼資料](#update-your-adfs-metadata)
-* [強制更新ADFS中繼資料](#force-your-adfs-metadata-to-update)
+* [Update your ADFS metadata](#update-your-adfs-metadata) 
+* [Force your ADFS metadata to update](#force-your-adfs-metadata-to-update)
 
-### 更新您的ADFS中繼資料 {#update-your-adfs-metadata}
+### Update your ADFS metadata {#update-your-adfs-metadata}
 
-若要將您的ADFS中繼資料設定為自動更新，請完成本節中的步驟。
+To set your ADFS metadata to update automatically, complete the steps in this section.
 
-依預設，ADFS會設定為自動檢查其所有信賴方信任中繼資料的更新；不過，預設值僅設定為每24小時輪詢一次。 您可以使用powershell命令變更此值。
+By default, ADFS is configured to automatically check for updates to all of its relying party trust metadata; however, the default is set to poll only every 24 hours. You can change this value with powershell commands.
 
-1. 登入ADFS伺服器並開啟ADFS管理主控台。
-1. 在左側面板中，展開&#x200B;**ADFS 2.0，**，然後展開&#x200B;**信任關係。**
+1. Log in to the ADFS server and open the ADFS Management Console. 
+1. In the left-hand panel, expand **ADFS 2.0,** then expand **Trust Relationships.**
 
-1. 按一下&#x200B;**信賴方信任**&#x200B;資料夾。
-1. 選取您先前設定要與Workfront搭配使用的信賴方信任，然後在右側面板中，按一下&#x200B;**從同盟中繼資料更新**。
-1. （條件式）如果此選項變暗（表示先前已使用中繼資料檔案設定信賴方信任），請完成下列操作。
+1. Click the **Relying Party Trusts** folder.
+1. Select the relying party trust that you previously configured to be used with Workfront, then in the right-hand panel, click**Update from Federation Metadata**.
+1. (Conditional) If this option is dimmed (which means that the relying party trust was previously configured using a metadata file), complete the following.
 
-   1. 按一下Adobe Workfront右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![齒輪設定圖示](assets/gear-icon-settings.png)。
-
-   1. 按一下&#x200B;**系統** > **單一登入(SSO)**。
-
-   1. 按一下&#x200B;**編輯設定。**
-   1. 按一下&#x200B;**編輯組態**，然後在&#x200B;**型別**&#x200B;下拉式清單中選取&#x200B;**SAML 2.0**。
-
-   1. 複製&#x200B;**中繼資料URL**，它應該類似於以下內容：
+   1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).
+   
+   1. Click **System** > **Single Sign On (SSO)**.
+   
+   1. Click **Edit Settings.** 
+   1. Click **Edit Configuration**, then select **SAML 2.0** in the **Type** drop-down list. 
+   
+   1. Copy the **Metadata URL**, which should be similar to the following:
 
       `https://<yourdomain>.my.workfront.com/sso/downloadSAML2MetaData`
+   
+   1. On the ADFS server, right-click on the relying party trust that you previously configured, then click **Properties.**
+   1. Click the **Monitoring** tab, then paste the URL that you copied from Workfront into the **Relying party's federation metadata URL** field.
+   
+   1. Check the options to **Monitor relying party** and **Automatically update relying party**.
+   
+   1. Click **OK.**
+   1. Select the relying party trust that you previously configured to be used with Workfront; then, in the right-hand panel, click **Update from Federation Metadata.**
 
-   1. 在ADFS伺服器上，用滑鼠右鍵按一下您先前設定的信賴方信任，然後按一下&#x200B;**[內容]。**
-   1. 按一下&#x200B;**監視**&#x200B;標籤，然後將您從Workfront複製的URL貼到&#x200B;**信賴方的同盟中繼資料URL**&#x200B;欄位。
-
-   1. 檢查&#x200B;**監視信賴方**&#x200B;和&#x200B;**自動更新信賴方**&#x200B;的選項。
-
-   1. 按一下&#x200B;**確定。**
-   1. 選取您先前設定要與Workfront搭配使用的信賴方信任；然後在右側面板中，按一下&#x200B;**從同盟中繼資料更新。**
-
-1. 按一下[確定]&#x200B;**&#x200B;**&#x200B;忽略有關ADFS 2.0不支援同盟中繼資料中某些內容的訊息。
-1. 開啟&#x200B;**Windows Powershell模組。**
-1. 載入所有模組後，在powershell中執行以下命令：
+1. Click **OK** to ignore the message about some of the content in the federation metadata not being supported by ADFS 2.0.
+1. Open **Windows Powershell Modules.**
+1. After all the modules load, run the following command in powershell:
 
    `Get-ADFSProperties`
 
-1. 尋找&#x200B;**監視間隔**&#x200B;旁的值。
+1. Look for the value next to **Monitoring Interval.**
 
-   它將是一個數字，代表兩次輪詢之間的分鐘數。 預設值應為1440 （1440分鐘= 24小時）。
+   It will be a number that represents the number of minutes between polls. The default should be 1440 (1440 minutes = 24 hours).
 
-1. 在powershell中執行下列命令來設定新值：
+1. Set a new value by running the following command in powershell:
 
    `Set-ADFSProperties -MonitoringInterval 1`
+   
+   This changes the monitoring interval from every 24 hours to every minute. You can change the 1 to another larger value if you want it to poll less frequently.
 
-   這會將監視間隔從每24小時變更為每分鐘。 如果您希望降低1的輪詢頻率，可將其變更為另一個較大的值。
+1. To verify that this is working correctly, use the **Event Viewer** to look for the following information in the ADFS2.0 logs:
 
-1. 若要確認此功能正常運作，請使用&#x200B;**事件檢視器**&#x200B;在ADFS2.0記錄檔中尋找下列資訊：
+   **Event ID 156 and 157**
 
-   **事件ID 156和157**
+### Force your ADFS metadata to update {#force-your-adfs-metadata-to-update}
 
-### 強制更新ADFS中繼資料 {#force-your-adfs-metadata-to-update}
+To update your ADFS metadata complete the steps in the following section.
 
-若要更新ADFS中繼資料，請完成下節中的步驟。
-
-若要在使用Active Directory Federation Services (ADFS)時強制在Workfront與您的SAML 2.0提供者之間交換中繼資料：
+To force metadata to be exchanged between Workfront and your SAML 2.0 provider when using Active Directory Federation Services (ADFS):
 
 >[!NOTE]
 >
->其中有些變更可能需要由您的IT部門執行。
+>Some of these changes might need to be done by your IT department.
 
-1. 登入ADFS伺服器並開啟&#x200B;**ADFS管理主控台**。
-1. 在左側面板中，展開&#x200B;**ADFS 2.0**，然後展開&#x200B;**信任關係**。
+1. Log in to the ADFS server and open the **ADFS Management Console**.
+1. In the left-hand panel, expand **ADFS 2.0**, then expand **Trust Relationships**.
 
-1. 按一下&#x200B;**信賴方信任**&#x200B;資料夾。
-1. 選取您先前設定要與Workfront搭配使用的信賴方信任，然後在右側面板中，按一下&#x200B;**從同盟中繼資料更新**。
+1. Click the **Relying Party Trusts** folder.
+1. Select the relying party trust that you previously configured to be used with Workfront, then in the right-hand panel, click **Update from Federation Metadata**.
 
-   如果此選項變暗且無法選取，請完成下列操作：
+   If this option is dimmed and cannot be selected, complete the following:
 
-   （只有先前使用中繼資料檔案設定信賴方信任時，選項才會變暗。）
+   (The option is dimmed only when the relying party trust was previously configured using a metadata file.)
 
-   1. 在Workfront的「設定」區域中，從您的Workfront單一登入設定畫面複製&#x200B;**中繼資料URL**。
+   1. In Workfront, in the Setup area, copy the **Metadata URL** from your Workfront Single Sign-On setup screen.
 
-      若要存取&#x200B;**中繼資料URL**&#x200B;的資訊：
+      To access the information for the **Metadata URL**:
 
-      1. 按一下全域導覽列上Adobe Workfront右上角附近的&#x200B;**設定**。
-      1. 按一下> **系統** > **單一登入(SSO)**。
-      1. 按一下&#x200B;**編輯設定。**
-      1. 按一下&#x200B;**編輯組態**，然後在&#x200B;**型別**&#x200B;下拉式清單中選取&#x200B;**SAML 2.0**。
-      1. 複製&#x200B;**中繼資料URL**，它應該類似於以下內容：
+      1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
+      1. Click > **System** > **Single Sign On (SSO)**.
+      1. Click **Edit Settings.**
+      1. Click **Edit Configuration**, then select **SAML 2.0** in the **Type** drop-down list.
+      1. Copy the **Metadata URL**, which should be similar to the following:
 
          `https://<yourdomain>.my.workfront.com/sso/downloadSAML2MetaData`
 
-   1. 在ADFS伺服器上，用滑鼠右鍵按一下您先前設定的信賴方信任，然後按一下&#x200B;**[內容]。**
-   1. 按一下&#x200B;**監視**&#x200B;標籤，然後將您從Workfront複製的URL貼到&#x200B;**信賴方的同盟中繼資料URL**&#x200B;欄位。
-   1. 檢查&#x200B;**監視信賴方**&#x200B;和&#x200B;**自動更新信賴方**&#x200B;的選項。
-   1. 按一下&#x200B;**確定**。
-   1. 選取您先前設定要與Workfront搭配使用的信賴方信任，然後在右側面板中，按一下&#x200B;**從同盟中繼資料更新。**
+   1. On the ADFS server, right-click on the relying party trust that you previously configured, then click **Properties.**
+   1. Click the **Monitoring** tab, then paste the URL that you copied from Workfront into the **Relying party's federation metadata URL** field.
+   1. Check the options to **Monitor relying party** and **Automatically update relying party**.
+   1. Click **OK**.
+   1. Select the relying party trust that you previously configured to be used with Workfront, then in the right-hand panel, click **Update from Federation Metadata.**
 
-1. 按一下[確定]&#x200B;**&#x200B;**&#x200B;忽略有關ADFS 2.0不支援同盟中繼資料中某些內容的訊息。
-1. 按一下&#x200B;**更新**&#x200B;以完成更新同盟中繼資料。
+1. Click **OK** to ignore the message about some of the content in the federation metadata not being supported by ADFS 2.0.
+1. Click **Update** to complete updating your federation metadata.
 
-允許透過Workfront登入憑證的原生登入畫面存取Workfront的使用者（這可從&#x200B;**存取**&#x200B;區段中的每個使用者的設定檔頁面進行設定），可透過瀏覽至下列URL，使用其Workfront使用者名稱和密碼登入： `https://<yourdomain>.my.workfront.com/Workfront/login.cmd`。
+Users who are allowed to access Workfront via the native login screen using Workfront login credentials (this can be configured from each user's profile page in the **Access** section) can log in using their Workfront user name and password by navigating to the following URL: `https://<yourdomain>.my.workfront.com/Workfront/login.cmd`.
 
-## 使用其他身分識別提供者
+## Using other identity providers
 
-使用ADFS以外的身分提供者（例如Ping、Okta或Centrify）時，必須將Workfront中繼資料重新上傳至身分提供者。
+When using identity providers other than ADFS (such as Ping, Okta, or Centrify), you must re-upload the Workfront metadata to your identity provider.
 
-如需有關如何取得新的Workfront中繼資料URL的詳細資訊，請參閱[更新您的ADFS中繼資料](#update-your-adfs-metadata)。
+For more information about how to obtain a new Workfront Metadata URL, see [Update your ADFS metadata](#update-your-adfs-metadata).
 
-如需在Workfront中使用Active Directory Federation Services (ADFS)搭配SAML 2.0的其他資訊，請參閱[使用ADFS設定Adobe Workfront搭配SAML 2.0 ](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)。
+For additional information about using Active Directory Federation Services (ADFS) with SAML 2.0 in Workfront, see [Configure Adobe Workfront with SAML 2.0 using ADFS](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md).-->

@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
+source-git-commit: 5a2df341a54d305807a1c9f175baf60b9007ffa2
 workflow-type: tm+mt
-source-wordcount: '1523'
+source-wordcount: '1351'
 ht-degree: 3%
 
 ---
@@ -67,7 +67,7 @@ ht-degree: 3%
 * [存取層級](#access-level)
 * [業務規則](#business-rules)
 * [公司](#company)
-* [狀況](#condition)
+* [條件](#condition)
 * [自訂欄位](#custom-field)
 * [自訂表單](#custom-forms)
 * [自訂節](#custom-section)
@@ -252,19 +252,24 @@ Business Rules僅適用於已購買Ultimate Workfront計畫的客戶。 如需�
 
 如需設定工作角色的詳細資訊，請參閱[建立和管理工作角色](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)。
 
-### 登入嘗試 {#login-attempt}
+<!--DELETE THIS SECTION MARCH 2026-->
 
-當使用者執行下列其中一個動作時，系統會產生「登入嘗試」稽核記錄專案：
+<!--
+### Login Attempt {#login-attempt}
 
-* 在Workfront中登入、登出或登入嘗試失敗（在瀏覽器和行動應用程式中）
-* 在任何Workfront整合中(例如適用於Slack的Workfront)，登入、登出或登入嘗試失敗
-* 登入或登出Workfront API
+The system generates a Login Attempt audit log entry when a user does one of the following actions:
 
-Workfront管理員使用「登入身份」功能時，不會記錄登入嘗試記錄檔。
+* Logs in, logs out, or fails a login attempt in Workfront (in a browser and in the mobile app)
+* Logs in, logs out, or fails a login attempt in any Workfront integration (such as Workfront for Slack)
+* Logs in or logs out of the Workfront API
+
+Login Attempt Logs do not record when a Workfront administrator uses the Log In As feature.
 
 >[!NOTE]
 >
->如果您的組織已上線Adobe Admin Console，則無法使用此功能。 如需詳細資訊，請洽詢您的網路或IT管理員。
+>This is not available if your organization has been onboarded to the Adobe Admin Console. See your network or IT administrator if you need more information.
+
+-->
 
 ### 優先順序 {#priority}
 
@@ -345,21 +350,17 @@ Workfront管理員使用「登入身份」功能時，不會記錄登入嘗試�
 
 ### 使用者 {#user}
 
-當使用者執行下列其中一個動作時，系統會產生「使用者」稽核記錄專案：
+<!--DELETE THIS SECTION MARCH 2026-->
+<!--
+The system generates a User audit log entry when a user does one of the following actions:
 
-* 建立使用者
-
-  <!--
-  DRAFTED IN FLARE:
-  Gevorg checking with Jonah on whether this note should be here:
-  
-  -->
+* Creates a user
 
   >[!NOTE]
   >
-  >如果您的組織已上線Adobe Admin Console，則無法使用此功能。 如需詳細資訊，請洽詢您的網路或IT管理員。
+  >This is not available if your organization has been onboarded to the Adobe Admin Console. See your network or IT administrator if you need more information.
 
-* 刪除使用者
-* 變更使用者的存取層級、公司、團隊或群組
-* 啟動使用者
-* 停用使用者
+* Deletes a user
+* Changes a user's access level, company, team, or group
+* Activates a user
+* Deactivates a user-->
