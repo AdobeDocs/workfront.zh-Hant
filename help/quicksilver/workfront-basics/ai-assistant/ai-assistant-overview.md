@@ -5,9 +5,9 @@ description: AI助理總覽
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: a4e403abadc0268b919ce8105989ef6c912f33a4
+source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '807'
 ht-degree: 1%
 
 ---
@@ -49,8 +49,10 @@ Workfront的AI助理可在自然語言對話中提供應用程式內資訊和建
 
 若要為您的組織啟用AI助理，必須套用下列&#x200B;**所有**：
 
-* 貴組織必須已移轉至Adobe IMS (Identity Management系統)
-* 必須啟用Adobe Unified Experience
+<!--DELETE THIS SECTION MARCH 2026-->
+
+<!--* Your organization must have migrated to Adobe IMS (Identity Management System)
+* The Adobe Unified Experience must be enabled-->
 * 貴組織必須有Select、Prime或Ultimate Workfront計畫
 * Adobe必須已簽署檔案Adobe Gen AI合約
 
@@ -113,7 +115,7 @@ AI助理目前提供下列功能：
 * Workfront Planning記錄
 
 
-## 存取AI助理
+## 存取 AI 助理
 
 1. 在任何Workfront頁面頂端，按一下AI助理圖示![AI助理圖示](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png)。
 1. 在熒幕右側的面板中輸入您的問題或提示。

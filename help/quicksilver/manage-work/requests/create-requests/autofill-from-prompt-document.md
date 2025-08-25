@@ -5,9 +5,9 @@ description: 您可以使用AI輸入提示或提供檔案來自動填寫請求�
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: fd42ac97be05df9499ea3214642099738ccc69b1
+source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1091'
 ht-degree: 2%
 
 ---
@@ -69,7 +69,7 @@ AI可協助您根據輸入的提示自動填寫請求欄位。 它也可以根�
 
 若要使用提示或檔案自動填寫請求，必須套用下列&#x200B;**所有**：
 
-* 貴組織必須已移轉至Adobe IMS (Identity Management系統)
+* 貴組織必須使用Adobe IMS (Identity Management系統)
 * 必須啟用Adobe Unified Experience
 * 貴組織必須有Select、Prime或Ultimate Workfront計畫
 * Adobe必須已簽署檔案Adobe Gen AI合約

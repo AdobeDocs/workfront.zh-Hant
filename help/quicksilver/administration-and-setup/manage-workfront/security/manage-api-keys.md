@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
-source-git-commit: 8934c3f5681c09c00769442900013844ee7a80ef
+source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
 workflow-type: tm+mt
-source-wordcount: '1336'
+source-wordcount: '1207'
 ht-degree: 2%
 
 ---
@@ -92,40 +92,47 @@ Workfront管理員也有唯一的API金鑰。 當應用程式使用管理員API�
 
    若要移除API金鑰：在&#x200B;**API金鑰設定**&#x200B;區段中，按一下&#x200B;**移除**，然後按&#x200B;**移除**。
 
-## 為非管理員使用者產生API金鑰
+## 為非管理員使用者產生API金鑰 — >
 
-您可以為角色不是Workfront管理員的使用者產生和管理API金鑰。
+<!--DELETE THIS SECTION MARCH 2026-->
+
+>[!IMPORTANT]
+>
+>本節中說明的程式已移除，因為它僅適用於尚未加入Adobe Admin Console的組織。
+>
+>所有Workfront組織現在都已上線Adobe Admin Console。
+
+<!--You can generate and manage API Keys for users in roles other than Workfront administrator.
 
 >[!NOTE]
 >
->如果您組織的Workfront執行個體已啟用Adobe IMS，便無法使用此功能。 如需詳細資訊，請洽詢您的網路或IT管理員。
+>This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
 
-1. （視條件而定）如果您的組織使用單一登入(SSO)存取管理，請暫時停用需要SSO驗證的選項。
+1. (Conditional) If your organization uses Single Sign-On (SSO) access management, temporarily disable the option requiring SSO authentication.
+
+   {{step-1-to-setup}} 
+   
+   1. Expand **System**, then click **Single Sign-on (SSO)**. 
+   1. In the **Type** field, select the type of SSO your organization uses.
+   1. With the type selected, scroll down and clear the **Enable** checkbox. 
+      ![Enable SSO](assets/sysadmin-security-sso-disable-31620-350x320.png)  
+   1. Click **Save**.
+
+
+1. In the address bar of a browser, enter the following API call:
+
+   `<domain>`.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&username=**username**&password=**password**&method=PUT
+
+   Replace `<domain>` with your Workfront domain name, and username and password with the user's Workfront credentials.
+
+1. (Conditional) Enable the option requiring SSO authentication if you disabled it in Step 1.
 
    {{step-1-to-setup}}
-
-   1. 展開&#x200B;**系統**，然後按一下&#x200B;**單一登入(SSO)**。
-   1. 在&#x200B;**型別**&#x200B;欄位中，選取貴組織使用的SSO型別。
-   1. 選取型別後，向下捲動並清除&#x200B;**啟用**&#x200B;核取方塊。
-
-      ![啟用SSO](assets/sysadmin-security-sso-disable-31620-350x320.png)
-   1. 按一下「**儲存**」。
-
-
-1. 在瀏覽器的位址列中，輸入下列API呼叫：
-
-   `<domain>`.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&amp;username=**使用者名稱**&amp;password=**密碼**&amp;method=PUT
-
-   將`<domain>`取代為您的Workfront網域名稱，並將使用者名稱和密碼取代為使用者的Workfront認證。
-
-1. （視條件而定）如果您在步驟1中停用SSO驗證，請啟用該選項。
-
-   {{step-1-to-setup}}
-
-   1. 展開&#x200B;**系統**，然後按一下&#x200B;**單一登入(SSO)**。
-
-   1. 在&#x200B;**型別**&#x200B;下拉式功能表中選取您的SSO方法。
-   1. 核取需要SSO驗證的核取方塊。
+   
+   1. Expand **System**, then click **Single Sign-on (SSO)**.
+   
+   1. Select your SSO method in the **Type** drop down menu.
+   1. Check the checkbox requiring SSO authentication.-->
 
 ## 設定API金鑰何時到期
 

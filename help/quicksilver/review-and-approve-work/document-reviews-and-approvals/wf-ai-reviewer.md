@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: bcf9e3eb987bf4c33b994d68276cb04b817c484d
+source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '611'
 ht-degree: 4%
 
 ---
@@ -31,7 +31,9 @@ ht-degree: 4%
 
 ## 先決條件
 
-* 貴組織必須已移轉至Adobe IMS (Identity Management系統)。
+<!--DELETE THIS SECTION MARCH 2026-->
+
+<!--* Your organization must have migrated to Adobe IMS (Identity Management System).-->
 * 您的Workfront執行個體必須已啟用統一核准。
 * Adobe必須有已簽署的Adobe Gen AI合約檔案。
 如需簽署合約的詳細資訊，請參閱[簽署Adobe Gen AI合約](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)。
@@ -53,7 +55,7 @@ AI檢閱者可檢閱下列檔案型別：
 
 ## 設定品牌指南
 
-Workfront AI Reviewer在檢閱內容時，會使用Genstudio for Performance Marketing中設定的品牌准則。 目前，您只能設定影像的品牌指南。 如需詳細資訊，請參閱[開始使用Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/get-started)。
+Workfront AI Reviewer在檢閱內容時，會使用Genstudio for Performance Marketing中設定的品牌准則。 目前，您只能設定影像的品牌指南。 如需詳細資訊，請參閱[開始使用Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started)。
 
 
 ## 建立AI檢閱者

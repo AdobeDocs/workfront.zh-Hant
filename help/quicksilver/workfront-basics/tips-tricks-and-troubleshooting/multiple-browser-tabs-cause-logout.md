@@ -4,18 +4,15 @@ navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: 多個瀏覽器分頁導致Workfront登出
 description: 當使用者開啟多個瀏覽器標籤時，Workfront 可能會自動登出。
 feature: Get Started with Workfront
-source-git-commit: ef85b267b3417dddd0c9cc4a2b916b83dc416e14
+exl-id: 1cc8bf6c-0eda-41ef-8efd-bba3a5f33b08
+source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 7%
+source-wordcount: '164'
+ht-degree: 32%
 
 ---
 
 # 多個瀏覽器分頁導致Workfront登出
-
->[!IMPORTANT]
->
->只有已上線Adobe IMS的組織才會出現此問題。
 
 ## 問題
 
@@ -34,6 +31,6 @@ This tab session has been halted due to inactivity. Refresh the tab to continue 
 
 解決方案取決於您是否已在登入Workfront的其他索引標籤中處於作用中狀態。
 
-* 如果您有作用中的Workfront標籤開啟，請重新載入過期的標籤。 它會傳回至您過期前開啟的頁面。
+* 如果您開啟了啟用中的 Workfront 索引標籤，請重新載入過期的索引標籤。系統會返回您在索引標籤過期之前開啟的頁面。
 
-* 如果您沒有開啟作用中的Workfront索引標籤，請重新登入Workfront。
+* 如果您沒有開啟啟用中的 Workfront 索引標籤，請重新登入 Workfront。

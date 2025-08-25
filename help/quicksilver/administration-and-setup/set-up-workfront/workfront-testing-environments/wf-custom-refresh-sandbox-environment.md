@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 7549c9699a86b6f87e5562efd7e586be282c5619
+source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
 workflow-type: tm+mt
-source-wordcount: '1763'
+source-wordcount: '1669'
 ht-degree: 0%
 
 ---
@@ -43,15 +43,15 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Workfront] 計劃</td> 
-   <td> <p>[!UICONTROL Business]或更高版本</p> </td> 
+   <td> <p>[！UICONTROL Business]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p role="rowheader">[!DNL Workfront] 授權</p> </td> 
-   <td> <p>[!UICONTROL 計畫] </p> <p>您必須是[!DNL Workfront]管理員。 如需[!DNL Workfront]管理員的相關資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予使用者完整管理存取權</a>。</p> </td> 
+   <td> <p>[！UICONTROL計畫] </p> <p>您必須是[!DNL Workfront]管理員。 如需[!DNL Workfront]管理員的相關資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予使用者完整管理存取權</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">支援套件</td> 
-   <td> <p>[!UICONTROL Plus]、[!UICONTROL Preferred]或[!UICONTROL Enterprise]</p> <p>標準支援套件無法存取「自訂重新整理沙箱」，但可存取「預覽沙箱」。</p> </td> 
+   <td> <p>[！UICONTROL Plus]、[！UICONTROL Preferred]或[！UICONTROL Enterprise]</p> <p>標準支援套件無法存取「自訂重新整理沙箱」，但可存取「預覽沙箱」。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -190,15 +190,22 @@ If you are a Workfront Goals customer, Workfront Goals data does not transfer to
 
 ## 在自訂重新整理沙箱中設定單一登入
 
-如果您想要設定自訂重新整理沙箱以搭配單一登入解決方案使用，您可以透過與生產環境分開設定來執行此操作。 自訂重新整理沙箱中的SSO設定與生產環境中的SSO設定無關。\
-當您重新整理自訂重新整理沙箱時，不會從生產環境複製SSO資訊以覆寫自訂重新整理沙箱設定。
+>[!IMPORTANT]
+>
+>本節中說明的程式已移除，因為它僅適用於尚未加入Adobe Admin Console的組織。
+>
+>所有Workfront組織現在都已上線Adobe Admin Console。
 
-在「自訂重新整理沙箱」中設定單一登入的步驟，類似於在生產環境中設定單一登入的步驟。\
-如需使用SSO設定[!DNL Workfront]的詳細資訊，請參閱[Adobe Workfront單一登入的概觀](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)。
+<!--If you want to configure your Custom Refresh Sandbox to work with a Single Sign-On solution, you can do so by configuring it separately from your Production environment. The SSO configuration in the Custom Refresh Sandbox is independent from your SSO configuration in the Production environment.\
+When you refresh your Custom Refresh Sandbox, the SSO information is not copied from your Production environment to overwrite the Custom Refresh Sandbox configuration.
+
+The steps for configuring single sign-on in the Custom Refresh Sandbox are similar to those for configuring it in the Production environment.\
+For more information about configuring [!DNL Workfront] with SSO, see [Overview of single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
 
 >[!NOTE]
 >
->如果您組織的[!DNL Workfront]執行個體已啟用Adobe IMS，則無法使用此選項。 如需詳細資訊，請洽詢您的網路或IT管理員。
+>This is not available if your organization's [!DNL Workfront] instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
+-->
 
 ## 自動重新計算專案時間表
 
