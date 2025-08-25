@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
+source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
 workflow-type: tm+mt
-source-wordcount: '1236'
+source-wordcount: '1299'
 ht-degree: 1%
 
 ---
@@ -21,14 +21,16 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->* **您必須透過Adobe Admin Console建立系統管理員。**
+>* **如果您的組織已加入Adobe Admin Console，您必須透過Adobe Admin Console建立系統管理員。**
 >
 >   如需在Adobe Admin Console中建立系統管理員的指示，請參閱[在Adobe Admin Console中管理使用者](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)。
 >
->   群組管理員可以使用此程式來建立使用者，並提交使用者以供管理員核准。
+>   已加入Adobe Admin Console的組織中，群組管理員可使用此程式來建立使用者並提交使用者以供管理員核准。
+>
+>   如需根據貴組織是否已加入Adobe Admin Console而有所差異的程式清單，請參閱[以平台為基礎的管理差異(Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 >
 >* **如果您的組織使用單一登入(SSO)**，建議您在Adobe Admin Console中建立使用者並將其指派給Workfront。 您可以在Workfront中建立這些使用者，但根據您組織的Admin Console設定方式，將該資訊傳輸至Adobe Admin Console時可能會發生問題。
->  &#x200B;>   在Adobe Admin Console中建立使用者後，您可以在Workfront中設定使用者的資訊，例如指派角色、群組、團隊和存取層級。
+>  >   在Adobe Admin Console中建立使用者後，您可以在Workfront中設定使用者的資訊，例如指派角色、群組、團隊和存取層級。
 >* **如果您的組織未使用單一登入(SSO)**，您可以直接在Workfront中新增非系統管理員使用者。 您可以在Adobe Admin Console中新增使用者，但若在Workfront中新增使用者，您可於建立使用者時設定其存取層級，藉此節省您的時間。
 
 
@@ -36,7 +38,11 @@ ht-degree: 1%
 您可以從頭開始建立個別使用者，或複製現有使用者，以便在Adobe Workfront中新增使用者。
 
 如需如何同時匯入多個使用者的詳細資訊，請參閱[匯入使用者](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md)。
-—>
+
+<!--
+Replace this intro with something like the following when we switch to Admin Console:
+As an Adobe administrator, you can add users in Adobe Workfront by adding them to your Workfront product profile in the Adobe Admin Console. For instructions, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md" class="MCXref xref">Manage users in the Adobe Admin Console</a>.
+-->
 
 ## 存取需求
 
@@ -132,7 +138,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >* 如果您是新增使用者的群組管理員，此步驟的選項為&#x200B;**提交使用者以供管理員核准**&#x200B;和&#x200B;**提交以供核准並開始另一個**。 系統會在已停用及未決核准狀態中建立使用者。
+   >* 如果您是群組管理員，正在將使用者新增至已加入Adobe Admin Console的組織，此步驟的選項為&#x200B;**提交使用者以供管理員核准**&#x200B;和&#x200B;**提交以供核准並開始另一個**。 系統會在已停用及未決核准狀態中建立使用者。
    > 
    >* 如果使用者未在數分鐘內從「已停用」和「未決核准」狀態中移出，且畫面重新整理未移除「未決核准」徽章，您可以手動核准使用者。
    >

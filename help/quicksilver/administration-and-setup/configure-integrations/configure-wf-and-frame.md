@@ -10,9 +10,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 7d909976-d3ff-4e60-9158-c3bffe498e6e
-source-git-commit: 5a2df341a54d305807a1c9f175baf60b9007ffa2
+source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,9 @@ Workfront管理員可啟用Workfront與Frame.io之間的整合，方法是在「
 
 ## 存取需求
 
-<!--DELETE THIS SECTION MARCH 2026-->
-<!--
 >[!IMPORTANT]
 >
->This functionality is available only to organization that have been onboarded to the [!DNL Adobe Admin Console].-->
+>此功能僅適用於已加入[!DNL Adobe Admin Console]的組織。
 
 +++ 展開以檢視本文中功能的存取需求。
 
@@ -42,8 +40,8 @@ Workfront管理員可啟用Workfront與Frame.io之間的整合，方法是在「
   <tr>
    <td>[!DNL Adobe Workfront] 授權
    </td>
-   <td><p>目前： [!UICONTROL 計畫]</p>
-   <p>新增：[!UICONTROL Standard]</p></td>
+   <td><p>目前： [！UICONTROL計畫]</p>
+   <p>新增：[！UICONTROL Standard]</p></td>
   </tr>
   <tr>
    <td>存取層級設定
@@ -75,7 +73,7 @@ Workfront管理員可啟用Workfront與Frame.io之間的整合，方法是在「
 {{step-1-to-setup}}
 
 1. 在左側面板中，按一下&#x200B;**群組**。
-1. 選擇現有的群組，或按一下[建立群組] **&#x200B;**。
+1. 選擇現有的群組，或按一下[建立群組] ****。
 1. 在左側面板中，按一下&#x200B;**連線到Frame.io**。
 1. 輸入API開發人員權杖。
 1. 按一下&#x200B;**起始連線**。

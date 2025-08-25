@@ -1,7 +1,7 @@
 ---
-source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
+source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
 workflow-type: tm+mt
-source-wordcount: '2645'
+source-wordcount: '2648'
 ht-degree: 1%
 
 ---
@@ -92,9 +92,9 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->此頁面上說明的程式已移除，因為它僅適用於尚未上線至Adobe Admin Console的組織。
+>本頁所述的程式僅適用於尚未加入Adobe Admin Console的組織。
 >
->所有Workfront組織現在都已上線Adobe Admin Console。
+>如果您的組織已加入Adobe Admin Console，請參閱[平台型管理差異(Adobe Workfront/Adobe Business Platform)](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 
 ## 步驟1 — 接近使用者 {#step-1-to-users}
 

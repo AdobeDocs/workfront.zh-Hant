@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9bc5987b-6e32-47df-90c8-08ea4b1b7451
-source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
+source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
 workflow-type: tm+mt
-source-wordcount: '25'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
@@ -19,161 +19,159 @@ ht-degree: 0%
 
 {{important-admin-console-onboard}}
 
-<!--REMOVE ME MARCH 2026-->
+身為Adobe Workfront管理員，您可以將Workfront與安全性宣告標籤語言(SAML) 2.0解決方案整合，以便在使用Active Directory Federation Services (ADFS)時進行單一登入。
 
-<!--As an Adobe Workfront administrator, you can integrate Workfront with a Security Assertion Markup Language (SAML) 2.0 solution for single sign-on while using Active Directory Federation Services (ADFS).
+本指南著重於設定ADFS而不使用自動布建或屬性對應。 建議您在設定任何自動布建之前，先完成設定並進行測試。
 
-This guide focuses on setting up ADFS without auto provisioning or attribute mappings. We recommend that you complete the setup and test it prior to setting up any auto provisioning.
+## 存取需求
 
-## Access requirements
++++ 展開以檢視本文中功能的存取需求。
 
-+++ Expand to view access requirements for the functionality in this article.
-
-You must have the following access to perform the steps in this article: 
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td>Any</td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td>規劃</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a Workfront administrator.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>您必須是Workfront管理員。</p> <p><b>注意</b>：如果您還是沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 +++
 
-## Enable authentication to Workfront with SAML 2.0
+## 啟用使用SAML 2.0對Workfront的驗證
 
-To enable authentication to the Workfront web application and the Workfront mobile application with SAML 2.0, complete the following sections:
+若要啟用對Workfront Web應用程式和具有SAML 2.0的Workfront行動應用程式的驗證，請完成以下章節：
 
-* [Retrieve the Workfront SSO metadata file](#retrieve-the-workfront-sso-metadata-file) 
-* [Configure Relying Party Trusts](#configure-relying-party-trusts) 
-* [Configure Claim Rules](#configure-claim-rules) 
-* [Upload the metadata file and test the connection](#upload-the-metadata-file-and-test-the-connection)
+* [擷取Workfront SSO中繼資料檔案](#retrieve-the-workfront-sso-metadata-file)
+* [設定信賴方信任](#configure-relying-party-trusts)
+* [設定宣告規則](#configure-claim-rules)
+* [上傳中繼資料檔案並測試連線](#upload-the-metadata-file-and-test-the-connection)
 
-### Retrieve the Workfront SSO metadata file {#retrieve-the-workfront-sso-metadata-file}
+### 擷取Workfront SSO中繼資料檔案 {#retrieve-the-workfront-sso-metadata-file}
 
 {{step-1-to-setup}}
 
-1. In the left panel, click **System** > **Single Sign-On (SSO)**.
-1. In the **Type** drop-down menu, click **SAML 2.0** to display additional information and options.  
-1. Copy the URL that displays after **Metadata URL**. 
-1. Continue to the following section, [Configure Relying Party Trusts](#configure-relying-party-trusts).
+1. 在左側面板中，按一下&#x200B;**系統** > **單一登入(SSO)**。
+1. 在&#x200B;**型別**&#x200B;下拉式功能表中，按一下&#x200B;**SAML 2.0**&#x200B;以顯示其他資訊和選項。
+1. 複製&#x200B;**中繼資料URL**&#x200B;之後顯示的URL。
+1. 繼續下列章節，[設定信賴方信任](#configure-relying-party-trusts)。
 
-### Configure Relying Party Trusts {#configure-relying-party-trusts}
+### 設定信賴方信任 {#configure-relying-party-trusts}
 
-1. Open the **ADFS Manager** using the Windows server 2008 R2 (version may vary).
-1. Go to **Start.**
-1. Click **Administration Tools.**
-1. Click **ADFS 2.0 Management.**
-1. Select **ADFS** and expand **Trust Relationships**.
-1. Right-click **Relying Party Trusts**, then select **Add Relying Party Trust** to launch the Add Relying Party Trust Wizard.
-1. From the **Welcome Page**, select **Start**. 
-1. In the **Select Date Source** section, paste the metadata URL from Workfront.
-1. Click **Next**.
-1. Click **OK** to acknowledge the warning message.
-1. In the **Specify Display Name** section, add a **Display Name** and **Notes** to distinguish the Trust, then click **Next**.
-1. Select **Permit all user to access this relying party** (Or **None** if you want to configure this later).
-1. Click **Next**.
+1. 使用Windows Server 2008 R2 （版本可能有所不同）開啟&#x200B;**ADFS管理員**。
+1. 移至&#x200B;**開始。**
+1. 按一下&#x200B;**管理工具。**
+1. 按一下&#x200B;**ADFS 2.0管理。**
+1. 選取&#x200B;**ADFS**&#x200B;並展開&#x200B;**信任關係**。
+1. 用滑鼠右鍵按一下&#x200B;**信賴方信任**，然後選取&#x200B;**新增信賴方信任**&#x200B;以啟動[新增信賴方信任]精靈。
+1. 從&#x200B;**歡迎頁面**，選取&#x200B;**開始**。
+1. 在&#x200B;**選取日期Source**&#x200B;區段中，貼上Workfront的中繼資料URL。
+1. 按一下&#x200B;**下一步**。
+1. 按一下&#x200B;**確定**&#x200B;認可警告訊息。
+1. 在&#x200B;**指定顯示名稱**&#x200B;區段中，新增&#x200B;**顯示名稱**&#x200B;和&#x200B;**附註**&#x200B;以區分信任，然後按一下&#x200B;**下一步**。
+1. 選取&#x200B;**允許所有使用者存取此信賴方** （或若您稍後要設定，請選取&#x200B;**無**）。
+1. 按一下&#x200B;**下一步**。
 
-   This takes you to the **Ready to Add Trust** section.
+   這會將您帶往&#x200B;**準備新增信任**&#x200B;區段。
 
-1. Continue to the following section [Configure Claim Rules](#configure-claim-rules).
+1. 繼續下列章節[設定宣告規則](#configure-claim-rules)。
 
-### Configure Claim Rules {#configure-claim-rules}
+### 設定宣告規則 {#configure-claim-rules}
 
-1. Click **Next** in the **Ready to Add Trust** section, then ensure that the **Open the Edit Claim Rules dialog box** option is selected.
-    
-    This will allow you to edit Claim Rules in a future step.
-    
-1. Click **Close**.
-1. Click **Add Rule.**
-1. Select **Send LDAP Attribute as Claims**.    
-1. Click **Next** to display the **Configure Claim Rule** step.  
-1. Specify the following minimum requirements to configure the claim rule: (This will go in the **Federation ID** on the user setup and is used to distinguish who is logging in.)
-    
+1. 按一下&#x200B;**準備新增信任**&#x200B;區段中的&#x200B;**下一步**，然後確定已選取&#x200B;**開啟[編輯宣告規則]對話方塊**&#x200B;選項。
+
+   這可讓您在未來的步驟中編輯宣告規則。
+
+1. 按一下 **關閉**。
+1. 按一下&#x200B;**新增規則。**
+1. 選取&#x200B;**傳送LDAP屬性作為宣告**。
+1. 按一下&#x200B;**下一步**&#x200B;以顯示&#x200B;**設定宣告規則**&#x200B;步驟。
+1. 指定設定宣告規則的下列最低需求： （這會進入使用者設定的&#x200B;**同盟ID**，用來區分登入者。）
+
 
    <table >                
       <tbody>
             <tr>
-               <td>Claim rule name
+               <td>宣告規則名稱
                </td>
-               <td>Specify a name for the claim rule. For example, "Workfront."</td>
+               <td>指定宣告規則的名稱。 例如，「Workfront」。</td>
             </tr>
             <tr>
-               <td>Attribute store</td>
-               <td >Select <b>Active Directory</b> from the drop-down menu.</td>
+               <td>屬性存放區</td>
+               <td >從下拉式功能表中選取<b>Active Directory</b>。</td>
             </tr>
             <tr>
-               <td>LDAP Attribute</td>
-               <td>This can be any type of attribute. We recommend using <b>SAM-Account-Name</b> for this attribute.</td>
+               <td>LDAP屬性</td>
+               <td>這可以是任何型別的屬性。 我們建議對此屬性使用<b>SAM-Account-Name</b>。</td>
             </tr>
             <tr>
-               <td>Outgoing Claim Type</td>
-               <td>You must select <b>Name ID</b> as the outgoing claim type</td>
+               <td>連出宣告型別</td>
+               <td>您必須選取<b>名稱ID</b>做為傳出宣告型別</td>
             </tr>
       </tbody>
    </table>
 
-1. (Optional) In order to establish auto provisioning, add the following additional claims in both the LDAP Attribute and Outgoing Claim Type:
-    
-    * Given Name
-    * Surname
-    * E-Mail Address
+1. （選擇性）若要建立自動布建，請在LDAP屬性和傳出宣告型別中新增下列其他宣告：
 
-1. Click **Finish**, then click **OK** on the next screen.
-1. Right-click the new **Relying Party Trust**, then select **Properties**.    
-1. Select the**Advanced Tab**. And under **Secure Hash Algorithm** select SHA-1 or SHA-256.
+   * 名字
+   * 姓氏
+   * 電子郵件地址
 
-   >[!NOTE]
-   >
-   >The option that you select under Secure Hash Algorithm must match the Secure Hash Algorithm field in Workfront under Setup > System > Single Sign-ON (SSO).
-
-1. Continue to the following section [Upload the metadata file and test the connection](#upload-the-metadata-file-and-test-the-connection).
-
-### Upload the metadata file and test the connection {#upload-the-metadata-file-and-test-the-connection}
-
-1. Open a browser and navigate to `https://<yourserver>/FederationMetadata/2007-06/FederationMetadata.xml` .
-
-   This should download a Metadata file FederationMetadata.xml file.
-
-1. Click **Choose File** under **Populate fields from Identity Provider Metadata**, and select the **FederationMetadata.xml** file.
-
-1. (Optional) If the certificate information did not populate with the metadata file, you can upload a file separately. Select **Choose File** in the **Certificate** section.
-
-1. Click **Test Connection**. If set up correctly, you should see a page similar to the one shown below:
-
-   ![SAML 2 success message](assets/success-saml-2.png)
+1. 按一下[完成]****，然後在下一個畫面中按一下[確定]****。
+1. 用滑鼠右鍵按一下新的&#x200B;**信賴方信任**，然後選取&#x200B;**內容**。
+1. 選取&#x200B;**進階索引標籤**。 在&#x200B;**安全雜湊演演算法**&#x200B;下，選取SHA-1或SHA-256。
 
    >[!NOTE]
    >
-   >If you want to set up attribute mapping, ensure that you copy the attributes from the Test Connection into the Directory Attribute. For more information, see Mapping User Attributes.
+   >您在「安全雜湊演演算法」下選取的選項，必須與Workfront中「設定>系統>單一登入(SSO)」下的「安全雜湊演演算法」欄位相符。
 
-1. Select **Admin Exemption** to allow Workfront administrators to log in using Workfront credentials with the bypass url.
+1. 繼續下列區段[上傳中繼資料檔並測試連線](#upload-the-metadata-file-and-test-the-connection)。
 
-   Bookmarks pointing to `<yourdomain>`.my.workfront.com/login bypass the redirect.
+### 上傳中繼資料檔案並測試連線 {#upload-the-metadata-file-and-test-the-connection}
 
-1. Select the **Enable** box to enable the configuration.
-1. Click **Save**.
+1. 開啟瀏覽器並導覽至`https://<yourserver>/FederationMetadata/2007-06/FederationMetadata.xml` 。
 
-## About updating users for SSO
+   這應該會下載中繼資料檔案FederationMetadata.xml檔案。
 
-Following this guide, the **SSO Username** will be their **Active Directory Username**.
+1. 按一下&#x200B;**從識別提供者中繼資料**&#x200B;填入欄位&#x200B;**選擇檔案**，然後選取&#x200B;**FederationMetadata.xml**&#x200B;檔案。
 
-As a Workfront administrator, you can bulk update users for SSO. For more information about updating users for SSO, see [Update users for single sign-on](../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md).
+1. （選擇性）如果憑證資訊未填入中繼資料檔案，您可以另外上傳檔案。 在&#x200B;**憑證**&#x200B;區段中選取&#x200B;**選擇檔案**。
 
-As a Workfront administrator, you can also manually assign a Federation ID editing the user's profile and completing the Federation ID field. For more information about editing a user, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+1. 按一下&#x200B;**測試連線**。 如果設定正確，您應該會看到類似以下所示的頁面：
+
+   ![SAML 2成功訊息](assets/success-saml-2.png)
+
+   >[!NOTE]
+   >
+   >如果要設定屬性對應，請確定您將屬性從「測試連線」複製到「目錄屬性」。 如需詳細資訊，請參閱對應使用者屬性。
+
+1. 選取&#x200B;**管理劐免**&#x200B;以允許Workfront管理員使用略過URL的Workfront憑證登入。
+
+   指向`<yourdomain>`.my.workfront.com/login的書籤略過重新導向。
+
+1. 選取&#x200B;**啟用**&#x200B;方塊以啟用組態。
+1. 按一下「**儲存**」。
+
+## 關於更新SSO的使用者
+
+依照本指南，**SSO使用者名稱**&#x200B;將是他們的&#x200B;**Active Directory使用者名稱**。
+
+身為Workfront管理員，您可以大量更新SSO的使用者。 如需更新SSO使用者的詳細資訊，請參閱[更新單一登入的使用者](../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md)。
+
+身為Workfront管理員，您也可以手動指派同盟ID，以編輯使用者的設定檔並完成「同盟ID」欄位。 如需編輯使用者的詳細資訊，請參閱[編輯使用者的設定檔](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
 
 >[!NOTE]
 >
->When editing users' profiles to include a Federation ID, selecting **Only Allow SAML 2.0 Authentication** removes the ability to log in to Workfront using the bypass url (`<yourdomain>`.my.workfront.com/login).-->
+>編輯使用者的設定檔以包含Federation ID時，選取&#x200B;**僅允許SAML 2.0驗證**&#x200B;會移除使用略過URL (`<yourdomain>`.my.workfront.com/login)登入Workfront的功能。

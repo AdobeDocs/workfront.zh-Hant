@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7832986b-a5e8-4f14-8802-d3b8e32b14bc
-source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
+source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
 workflow-type: tm+mt
-source-wordcount: '30'
-ht-degree: 33%
+source-wordcount: '705'
+ht-degree: 3%
 
 ---
 
@@ -19,108 +19,105 @@ ht-degree: 33%
 
 {{important-admin-console-onboard}}
 
-<!--REMOVE ME MARCH 2026-->
+身為Adobe Workfront管理員，您可以設定密碼原則選項，以自訂Workfront系統的驗證體驗。
 
-<!--As an Adobe Workfront administrator, you can configure password policy options to customize the authentication experience to your Workfront system.
+我們建議您在Workfront實作期間設定驗證偏好設定，之後僅偶爾重新造訪一次。
 
-We recommend that you configure authentication preferences during the Workfront implementation and only occasionally revisit them afterward.
+改進的密碼管理功能即將推出，或可能已經提供給您的組織使用。 視您的組織是否具備新驗證體驗的存取權而定，請使用下列任一章節。
 
-Improved password management capabilities are coming soon or might already be available for your organization. Use either of the following sections, depending on whether your organization has access to the new authentication experience.
+## 存取需求
 
-## Access requirements
++++ 展開以檢視本文中功能的存取需求。
 
-+++ Expand to view access requirements for the functionality in this article.
-
-You must have the following access to perform the steps in this article: 
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td>Any</td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td>規劃</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a Workfront administrator.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>您必須是Workfront管理員。</p> <p><b>注意</b>：如果您還是沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 +++
 
-## Configure authentication (available for all customers) {#configure-authentication-available-for-all-customers}
+## 設定驗證（適用於所有客戶） {#configure-authentication-available-for-all-customers}
 
-Authentication options are displayed for all customers. Improved password management capabilities are coming soon or might already be available for your organization, as described in the section [Configure enhanced authentication)](#configure-enhanced-authentication-coming-soon) in this article.
+所有客戶皆會顯示驗證選項。 已改善的密碼管理功能即將推出，或可能已經提供給您的組織使用，如本文的[設定增強驗證)](#configure-enhanced-authentication-coming-soon)一節所述。
 
-To configure authentication preferences:
+若要設定驗證偏好設定：
 
 {{step-1-to-setup}}
 
-1. Click **System** > **Authentication**.
+1. 按一下&#x200B;**系統** > **驗證**。
 
-1. Select any of the following fields to establish the authentication settings for your organization:
+1. 選取下列任一欄位，為您的組織建立驗證設定：
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Force users to reset their password every <em>&lt;value&gt;</em> days</td> 
-      <td>This establishes the time frame for users to reset their Workfront password. By default, this option is disabled. When you enable it, you can choose between 30, 60, 90, 120, 180 days. The default is 30 days.</td> 
+      <td role="rowheader">強制使用者每<em>&lt;value&gt;</em>天重設密碼</td> 
+      <td>這會建立使用者重設Workfront密碼的時間範圍。 此選項預設為停用。 啟用後，您可以選擇30、60、90、120、180天。 預設值為30天。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Don't allow users to set the same password as any of their previous <em>&lt;value&gt;</em> passwords</td> 
-      <td> <p>This field prohibits users from reusing passwords for a set number of resets. By default, this field is disabled. When you enable it, you can set this value to 5, 10, or 15 resets before a password can be reused.</p> <p>When this option is selected, users cannot reset their passwords more than one time in a given day</p> </td> 
+      <td role="rowheader">不允許使用者將密碼設定為與其先前<em>&lt;value&gt;</em>個密碼相同的密碼</td> 
+      <td> <p>此欄位禁止使用者針對設定的重設次數重複使用密碼。 依預設，此欄位為停用。 啟用後，您可以將此值設定為5、10或15重設，然後才能重複使用密碼。</p> <p>選取此選項時，使用者無法在指定時間內多次重設密碼</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">If an incorrect password is entered five consecutive times, lock the account for <em>&lt;value&gt;</em> minutes: </td> 
-      <td> <p>Select how long a user will be locked out of Workfront after entering an incorrect password five consecutive times. By default, this option is enabled, and the amount of wait time is 10 minutes. You can lock accounts for 10 minutes, 30 minutes, 1 hour, 8 hours, or 24 hours. </p> <p>Manually resetting the password for the user overrides this default wait value. <br>Users can reset their own passwords when they are locked out via the login screen. For more information about how they can reset their password, if they forgot it, see <a href="../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md" class="MCXref xref">Reset your password</a>.</p> </td> 
+      <td role="rowheader">如果連續5次輸入密碼不正確，請鎖定帳戶<em>&lt;value&gt;</em>分鐘： </td> 
+      <td> <p>選取連續5次輸入錯誤密碼後，使用者將被鎖定在Workfront中的時間。 依預設，此選項已啟用，等待時間為10分鐘。 您可以鎖定帳戶10分鐘、30分鐘、1小時、8小時或24小時。 </p> <p>手動重設使用者的密碼將會覆寫此預設等待值。 <br>使用者透過登入畫面鎖定時，可以重設自己的密碼。 如需有關如何重設密碼的詳細資訊（若忘記密碼），請參閱<a href="../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md" class="MCXref xref">重設密碼</a>。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Passwords must contain at least <em>&lt;value&gt;</em> different types of characters:</td> 
-      <td> <p>Determines how strong user passwords are required to be by allowing you to select the number of different types of characters required in your passwords.</p> <p>A recognizable dictionary word cannot be used as a password.<br>By default, Workfront requires that at least 2 of the following are present in passwords (you can also require 3 of these characters to be present for a valid password): </p> 
+      <td role="rowheader">密碼必須包含至少<em>&lt;value&gt;</em>個不同型別的字元：</td> 
+      <td> <p>可讓您選取密碼中所需的不同字元型別數目，以決定需要多強使用者密碼。</p> <p>可辨識的字典單字無法當做密碼使用。<br>依預設，Workfront要求密碼中至少要有2個下列字元（您也可以要求有效密碼中要有3個字元）： </p> 
        <ul> 
-        <li>Uppercase characters</li> 
-        <li>Lowercase characters</li> 
-        <li>Numbers</li> 
-        <li>Symbols</li> 
+        <li>大寫字</li> 
+        <li>小寫字母</li> 
+        <li>數字</li> 
+        <li>符號</li> 
        </ul> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Click **Save**.
+1. 按一下「**儲存**」。
 
-## Configure enhanced authentication{#configure-enhanced-authentication-coming-soon}
+## 設定增強式驗證{#configure-enhanced-authentication-coming-soon}
 
-This section describes the enhanced authentication experience, which might not yet be available for your organization. If your organization has not been migrated to the new authentication experience, you must configure the authentication settings, as described in [Configure authentication (available for all customers)](#configure-authentication-available-for-all-customers).
+本節說明增強型驗證體驗，您的組織可能尚未提供此體驗。 如果貴組織尚未移轉至新的驗證體驗，您必須依照[設定驗證（適用於所有客戶）](#configure-authentication-available-for-all-customers)中的說明來設定驗證設定。
 
-To configure enhanced authentication preferences:
+若要設定增強的驗證偏好設定：
 
 {{step-1-to-setup}}
 
-1. Click **System** > **Enhanced Authentication**.
-1. In the **Password Length** box, enter the minimum number of characters required for a valid password.
+1. 按一下&#x200B;**系統** > **增強式驗證**。
+1. 在&#x200B;**密碼長度**&#x200B;方塊中，輸入有效密碼所需的最小字元數。
 
-   Workfront requires at least 6 characters.
+   Workfront至少需要6個字元。
 
-1. (Optional) In the **Password Requirements** section, select the types of characters required in user passwords.
+1. （選擇性）在&#x200B;**密碼需求**&#x200B;區段中，選取使用者密碼所需的字元型別。
 
-   You can increase the strength of user passwords by requiring any or all the types of characters in the Password Requirement section. The following options are available:
+   您可以在「密碼要求」區段中要求任何或所有型別的字元，以增加使用者密碼的強度。 提供下列選項：
 
-   | Lowercase Letters |Require at least one lowercase letter |
+   | 小寫字母 | 至少需要一個小寫字母 |
    |---|---|
-   | Uppercase Letters |Require at least one uppercase letter |
-   | Numbers |Require at least one number |
-   | Special Characters |Require at least one special character |
+   | 大寫字母 | 至少需要一個大寫字母 |
+   | 數字 | 至少需要一個數字 |
+   | 特殊字元 | 至少需要一個特殊字元 |
 
    {style="table-layout:auto"}
 
-1. Click **Save**.
--->
+1. 按一下「**儲存**」。

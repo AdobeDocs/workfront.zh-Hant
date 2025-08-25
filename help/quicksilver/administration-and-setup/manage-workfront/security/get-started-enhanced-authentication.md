@@ -6,10 +6,10 @@ hide: true
 feature: System Setup and Administration
 role: Admin
 exl-id: bf3c6c6f-ddd5-42d0-9efe-b5eb94549f85
-source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
+source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
 workflow-type: tm+mt
-source-wordcount: '13'
-ht-degree: 0%
+source-wordcount: '537'
+ht-degree: 4%
 
 ---
 
@@ -19,11 +19,9 @@ ht-degree: 0%
 
 {{important-admin-console-onboard}}
 
-<!--REMOVE ME MARCH 2026-->
+Adobe Workfront正在變更使用者和密碼的系統管理。 這些變更將以稱為&#x200B;**增強式驗證**&#x200B;體驗的分階段發行推出。 增強型驗證可在所有Workfront產品和服務中，為使用者提供更一致且安全的登入體驗。
 
-<!--Adobe Workfront is changing the system management of users and passwords. These changes will roll out in a phased release called **Enhanced Authentication** experience. Enhanced Authentication offers users a more consistent and secure sign-in experience across all Workfront products and services.
-
-The following table provides details about current and future functionality:
+下表提供有關目前和未來功能的詳細資訊：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,83 +30,83 @@ The following table provides details about current and future functionality:
  <col data-mc-conditions=""> 
  <thead> 
   <tr> 
-   <th> <p><strong>Feature</strong> </p> </th> 
-   <th><strong>Legacy Authentication</strong> </th> 
-   <th><strong>Enhanced Authentication 1.0</strong> </th> 
-   <th> <p>Enhanced Authentication 2.0</p> </th> 
+   <th> <p><strong>功能</strong> </p> </th> 
+   <th><strong>舊版驗證</strong> </th> 
+   <th><strong>增強式驗證1.0</strong> </th> 
+   <th> <p>增強型驗證2.0</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td colspan="3"> <p><strong>Login options</strong> </p> </td> 
+   <td colspan="3"> <p><strong>登入選項</strong> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Enable a single username to be used for all Workfront products and services, including training, support, and others</p> </td> 
-   <td>Not available</td> 
-   <td> <p>Not available</p> </td> 
+   <td> <p>啟用用於所有Workfront產品和服務的單一使用者名稱，包括訓練、支援和其他</p> </td> 
+   <td>未提供</td> 
+   <td> <p>未提供</p> </td> 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Allow using the same email address across Workfront instances</p> </td> 
-   <td> <p>✓</p> <p>Available as of the 2019.3 release</p> </td> 
-   <td> <p>✓</p> <p>Available as of the 2019.3 release</p> </td> 
-   <td> <p>✓</p> <p>Available as of the 2019.3 release</p> </td> 
+   <td> <p>允許在Workfront執行個體中使用相同的電子郵件地址</p> </td> 
+   <td> <p>✓</p> <p>自2019.3版起提供</p> </td> 
+   <td> <p>✓</p> <p>自2019.3版起提供</p> </td> 
+   <td> <p>✓</p> <p>自2019.3版起提供</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Email addresses are case-insensitive</p> </td> 
-   <td> <p>✓</p> <p>Available as of the 2019.3 release</p> </td> 
-   <td> <p>✓</p> <p>Multiple users cannot have the same email address if the address differs only by case. </p> </td> 
-   <td> <p>✓</p> <p>Multiple users cannot have the same email address if the address differs only by case. </p> <p>Workfront administrators will be notified toward the end of 2019 to begin fixing duplicate email addresses.</p> </td> 
+   <td> <p>電子郵件地址區分大小寫</p> </td> 
+   <td> <p>✓</p> <p>自2019.3版起提供</p> </td> 
+   <td> <p>✓</p> <p>如果地址僅依大小寫不同，則多位使用者不能擁有相同的電子郵件地址。 </p> </td> 
+   <td> <p>✓</p> <p>如果地址僅依大小寫不同，則多位使用者不能擁有相同的電子郵件地址。 </p> <p>Workfront管理員將會在2019年底收到通知，開始修正重複的電子郵件地址。</p> </td> 
   </tr> 
   <tr> 
-   <td colspan="3"> <p><strong>Password management options</strong> </p> </td> 
+   <td colspan="3"> <p><strong>密碼管理選項</strong> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Instigate a password reset email for a user as the Workfront administrator</p> </td> 
-   <td> <p>Not available </p> </td> 
+   <td> <p>為身為Workfront管理員的使用者啟動密碼重設電子郵件</p> </td> 
+   <td> <p>未提供 </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Set a temporary password for a user as the Workfront administrator</p> </td> 
+   <td> <p>為身為Workfront管理員的使用者設定暫時密碼</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p>Not planned</p> <p>This functionality is not a security best practice</p> </td> 
-   <td> <p>Not planned</p> <p>This functionality is not a security best practice</p> </td> 
+   <td> <p>未計畫</p> <p>此功能不是安全性最佳實務</p> </td> 
+   <td> <p>未計畫</p> <p>此功能不是安全性最佳實務</p> </td> 
   </tr> 
   <tr> 
-   <td colspan="3"> <p><strong>Password policy requirements</strong> </p> </td> 
+   <td colspan="3"> <p><strong>密碼原則需求</strong> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Require users to reset passwords after a certain timeframe</p> </td> 
+   <td> <p>要求使用者在特定時間範圍後重設密碼</p> </td> 
    <td>✓</td> 
-   <td> <p>Not planned</p> </td> 
+   <td> <p>未計畫</p> </td> 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Restrict users from using a previous password </p> </td> 
+   <td> <p>限制使用者使用先前的密碼 </p> </td> 
    <td>✓</td> 
-   <td>Not planned </td> 
+   <td>未計畫 </td> 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Safeguard against incorrect password entry attempts </p> </td> 
-   <td> <p>✓ </p> <p>Locks the account after 5 incorrect password entry attempts. The wait time required after lockout is configured by the Workfront administrator</p> </td> 
-   <td> <p>✓</p> <p>Wait time is exponentially increased after each successive incorrect password based on industry best practices; the time required is not configurable by the Workfront administrator</p> </td> 
-   <td> <p>✓</p> <p>Uses a lock-out algorithm that proactively blocks a variety of suspicious behavior.</p> </td> 
+   <td> <p>防止錯誤密碼輸入嘗試 </p> </td> 
+   <td> <p>✓ </p> <p>在5次密碼輸入嘗試不正確後鎖定帳戶。 Workfront管理員設定鎖定後所需的等待時間</p> </td> 
+   <td> <p>✓</p> <p>根據業界最佳實務，在每次出現連續錯誤密碼後，等待時間都會以指數方式增加；Workfront管理員無法設定所需的時間</p> </td> 
+   <td> <p>✓</p> <p>使用鎖定演演算法，主動封鎖各種可疑行為。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Require a mix of lowercase, uppercase, numbers, and special characters</p> </td> 
+   <td> <p>需要混合小寫、大寫、數字和特殊字元</p> </td> 
    <td>✓</td> 
-   <td> <p>✓ </p> <p>Enhanced flexibility in choosing specific requirements</p> </td> 
+   <td> <p>✓ </p> <p>更靈活地選擇特定需求</p> </td> 
    <td> <p>✓</p> <p> 
      </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Set a minimum password length </p> </td> 
-   <td> Not available </td> 
+   <td> <p>設定密碼長度下限 </p> </td> 
+   <td> 未提供 </td> 
    <td> ✓ </td> 
    <td> <p>✓</p> </td> 
   </tr> 
@@ -119,55 +117,55 @@ The following table provides details about current and future functionality:
     <td>Not available</td> 
     <td> <p>✓</p> </td> 
    </tr>
-  -->
-<!--<tr> 
-   <td colspan="3"> <p><strong>Single Sign-On Protocol support</strong></p> </td> 
-   <td>&nbsp;</td> 
+  --> 
+  <tr> 
+   <td colspan="3"> <p><strong>單一登入通訊協定支援</strong></p> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Supports SSO integrations that are compliant with Active Directory and LDAP protocols</p> </td> 
-   <td> ✓&nbsp;</td> 
-   <td> <p> Deprecated</p> <p>Active Directory, Azure, and LDAP systems should use SAML 2.0</p> </td> 
-   <td> <p>Deprecated</p> <p>Active Directory, Azure, and LDAP systems can be configured with encrypted SAML 2.0 or OpenID Connect.</p> </td> 
+   <td> <p>支援與Active Directory和LDAP通訊協定相容的SSO整合</p> </td> 
+   <td> ✓ </td> 
+   <td> <p> 已棄用</p> <p>Active Directory、Azure和LDAP系統應該使用SAML 2.0</p> </td> 
+   <td> <p>已棄用</p> <p>Active Directory、Azure和LDAP系統可設定為加密的SAML 2.0或OpenID Connect。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Supports SSO protocols that are compliant with SAML 2.0&nbsp;</p> </td> 
+   <td> <p>支援符合SAML 2.0的SSO通訊協定 </p> </td> 
    <td>✓</td> 
-   <td> ✓&nbsp;</td> 
+   <td> ✓ </td> 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Supports Open ID Connect protocols</p> </td> 
-   <td> <p>Not available</p> </td> 
-   <td> <p>Not available</p> </td> 
+   <td> <p>支援Open ID連線通訊協定</p> </td> 
+   <td> <p>未提供</p> </td> 
+   <td> <p>未提供</p> </td> 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p> Configure the Workfront login page to always redirect to the identity provider login page </p> </td> 
-   <td> Enabled by default and cannot be disabled</td> 
-   <td> <p>✓</p> <p>Workfront administrator can configure the login page to redirect to the identity provider login page, or can configure a login button or buttons.</p> </td> 
-   <td> <p>✓</p> <p> Workfront administrators can configure the login page to redirect to the identity provider login page, or can configure a login button or buttons.</p> </td> 
+   <td> <p> 設定Workfront登入頁面，一律重新導向至身分提供者登入頁面 </p> </td> 
+   <td> 預設為啟用，無法停用</td> 
+   <td> <p>✓</p> <p>Workfront管理員可以設定登入頁面，以重新導向至身份提供者登入頁面，也可以設定登入按鈕。</p> </td> 
+   <td> <p>✓</p> <p> Workfront管理員可以設定登入頁面，以重新導向至身份提供者登入頁面，也可以設定登入按鈕。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Allow each instance to enable multiple SSO providers</p> </td> 
-   <td> <p>N/A</p> </td> 
-   <td> <p>Not planned</p> </td> 
+   <td> <p>允許每個執行個體啟用多個SSO提供者</p> </td> 
+   <td> <p>不適用</p> </td> 
+   <td> <p>未計畫</p> </td> 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td colspan="3"> <p><strong>Environment support</strong> </p> </td> 
-   <td>&nbsp;</td> 
+   <td colspan="3"> <p><strong>環境支援</strong> </p> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>A single username and password for Preview environments</p> </td> 
-   <td> <p>Not available</p> </td> 
-   <td> <p>Not available</p> </td> 
+   <td> <p>預覽環境的單一使用者名稱和密碼</p> </td> 
+   <td> <p>未提供</p> </td> 
+   <td> <p>未提供</p> </td> 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>A single username and password for Sandbox environments</p> </td> 
-   <td> <p>Not available</p> </td> 
-   <td> <p>Not available</p> </td> 
+   <td> <p>沙箱環境的單一使用者名稱和密碼</p> </td> 
+   <td> <p>未提供</p> </td> 
+   <td> <p>未提供</p> </td> 
    <td> <p>✓</p> </td> 
   </tr> 
   <!--
@@ -183,5 +181,6 @@ The following table provides details about current and future functionality:
     <td> ✓</td> 
     <td> <p>✓</p> </td> 
    </tr>
-   </tbody> 
-</table>-->
+  --> 
+ </tbody> 
+</table>

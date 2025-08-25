@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a0617270-e233-4ebe-a5ee-8df7a8a85823
-source-git-commit: d2dd148c8b7a08f4ea9a13e325a33f753eea2d7d
+source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '747'
 ht-degree: 2%
 
 ---
@@ -96,9 +96,17 @@ ht-degree: 2%
 
 使用者必須在進行指派或共用物件時，才會出現在所有其他物件的任何預先輸入欄位中。
 
-您必須透過[!UICONTROL Adobe Admin Console]停用使用者。
+您可以從使用者頁面或當您編輯使用者時，停用使用者。
 
-如需在[!UICONTROL Adobe Admin Console]中停用使用者的指示，請參閱文章[個別管理使用者](https://helpx.adobe.com/tw/enterprise/using/manage-users-individually.html)中的「移除使用者」一節，或連絡您的[!UICONTROL Adobe Admin Console]系統管理員。
+如需停用使用者的詳細資訊，請參閱[停用或重新啟用使用者](../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)。
+
+>[!IMPORTANT]
+>
+>如果您的組織已加入[!DNL Adobe Business Platform]，您必須透過[!UICONTROL Adobe Admin Console]停用使用者。
+>
+>如需在[!UICONTROL Adobe Admin Console]中停用使用者的指示，請參閱文章[個別管理使用者](https://helpx.adobe.com/tw/enterprise/using/manage-users-individually.html)中的「移除使用者」一節，或連絡您的[!UICONTROL Adobe Admin Console]系統管理員。
+>
+>如需根據貴組織是否已加入[!DNL Adobe Business Platform]而不同的程式清單，請參閱[以平台為基礎的管理差異(Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 
 ## 團隊
 
