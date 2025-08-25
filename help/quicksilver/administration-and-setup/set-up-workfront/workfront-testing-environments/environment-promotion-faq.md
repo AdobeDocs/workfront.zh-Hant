@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
-source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
+source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 2%
+source-wordcount: '294'
+ht-degree: 3%
 
 ---
 
@@ -24,15 +24,13 @@ ht-degree: 2%
 
 ### 解答
 
-目前不支援跨網域環境升級。 您必須在相同網域中的環境之間升級。—>
+目前不支援跨網域環境升級。 您必須在相同網域中的環境之間升級。
 
-<!--DELETE THIS SECTION MARCH 2026-->
+## Adobe商業平台/IMS是提升環境的先決條件嗎？
 
-<!--## Is the Adobe Business Platform / IMS a prerequisite for environment promotion?
+### 解答
 
-### Answer
-
-No. Environment Promotion is available for both IMS-enabled and non-IMS Workfront instances.-->
+否。「環境升級」適用於啟用IMS和非IMS Workfront執行個體。
 
 ## 如何找出我們的Workfront執行個體是否位於Prime或Ultimate授權上？
 

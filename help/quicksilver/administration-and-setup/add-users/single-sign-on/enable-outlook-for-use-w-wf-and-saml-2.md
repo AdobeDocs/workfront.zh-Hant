@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8a55d364-962a-4eef-8968-b2233a71cf31
-source-git-commit: 9fa4f85c914121adddcba4189af1398021544776
+source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 0%
@@ -25,16 +25,15 @@ ht-degree: 0%
 >
 >在這次變更中，Microsoft已決定變更代號重新啟用的方式。 在&#x200B;**2025年6月30日**&#x200B;之後，管理員將無法再自行重新啟用權杖 — 只有Microsoft支援可授予例外狀況。 **在2025年10月1日，所有租使用者的舊版代號將會關閉。 將不會授與例外。**
 
-<!--DELETE ME MARCH 2026-->
-
 如果您啟用SAML 2.0驗證，並且希望使用者能夠使用他們的SAML 2.0憑證從Microsoft Outlook登入Workfront，您必須啟用SAML 2.0才能在Office增益集中進行驗證。
 
 >[!NOTE]
 >
->如果您組織的Workfront執行個體使用自訂SSO入口網站，則無法使用此選項。
->&#x200B;>如需詳細資訊，請洽詢您的網路或IT管理員。
-<!--
-or is enabled with Adobe IMS-->
+>如果您組織的Workfront執行個體使用自訂SSO入口網站，則無法使用此選項。>
+><!--
+>or is enabled with Adobe IMS>
+>-->
+>如需詳細資訊，請洽詢您的網路或IT管理員。
 
 ## 存取需求
 
