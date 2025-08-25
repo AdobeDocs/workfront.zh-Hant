@@ -9,22 +9,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4b481215-36a1-4945-828a-1598502529d8
-source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
+source-git-commit: a25eb28800ca8bbeeffedb521b3d72c8df71c697
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
 
 # 續約Adobe Workfront SAML 2.0中繼資料憑證
-
->[!IMPORTANT]
->
->此頁面上說明的程式已移除，因為它僅適用於尚未上線至Adobe Admin Console的組織。 Adobe Admin Console上的組織不需要執行此程式。
->
->由於所有Workfront組織現已上線至Adobe Admin Console，因此本文將於近期移除。
-
-<!--DELETE ME MARCH 2026-->
 
 >[!IMPORTANT]
 >
