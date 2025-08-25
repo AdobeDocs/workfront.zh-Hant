@@ -30,7 +30,7 @@ ht-degree: 0%
 >
 >* 必須在Adobe Admin Console中設定&#x200B;**Workfront管理員。**&#x200B;如需相關資訊與指示，請參閱本文中的[使用Adobe Admin Console在Workfront中建立系統管理員](#create-system-administrators-in-workfront-with-the-adobe-admin-console)。
 >* **如果您的組織使用單一登入(SSO)**，建議您在Adobe Admin Console中建立使用者並將其指派給Workfront。 您可以在Workfront中建立這些使用者，但根據您組織的Admin Console設定方式，將該資訊傳輸至Adobe Admin Console時可能會發生問題。
->  >   在Adobe Admin Console中建立使用者後，您可以在Workfront中設定使用者的資訊，例如指派角色、群組、團隊和存取層級。
+>  &#x200B;>   在Adobe Admin Console中建立使用者後，您可以在Workfront中設定使用者的資訊，例如指派角色、群組、團隊和存取層級。
 >* **如果您的組織未使用單一登入(SSO)**，您可以直接在Workfront中新增非系統管理員使用者。 您可以在Adobe Admin Console中新增使用者，但若在Workfront中新增使用者，您可於建立使用者時設定其存取層級，藉此節省您的時間。
 
 從Admin Console變更使用者的設定檔時，更新會新增到Workfront中使用者的系統活動索引標籤。 更新會顯示為「系統」所執行。 這是指Adobe Admin Console管理員，而非Workfront主要管理員。
@@ -216,11 +216,11 @@ ht-degree: 0%
 
 1. 選取使用者，然後按一下&#x200B;**更多**&#x200B;圖示![更多圖示](assets/more-icon.png)。
 
-1. 若要核准使用者，請按一下[核准]。****，然後按一下[提交]。****
+1. 若要核准使用者，請按一下[核准]。**&#x200B;**，然後按一下[提交]。**&#x200B;**
 
    或
 
-   若要拒絕使用者並從Workfront刪除使用者，請按一下[拒絕] **，然後按一下[提交]****。**
+   若要拒絕使用者並從Workfront刪除使用者，請按一下[拒絕] **，然後按一下[提交]**&#x200B;**。**
 
    已核准的使用者會自動新增至Adobe Admin Console。
 
