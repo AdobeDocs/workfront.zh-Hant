@@ -43,15 +43,15 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Workfront] 計劃</td> 
-   <td> <p>[！UICONTROL Business]或更高版本</p> </td> 
+   <td> <p>[!UICONTROL Business]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p role="rowheader">[!DNL Workfront] 授權</p> </td> 
-   <td> <p>[！UICONTROL計畫] </p> <p>您必須是[!DNL Workfront]管理員。 如需[!DNL Workfront]管理員的相關資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予使用者完整管理存取權</a>。</p> </td> 
+   <td> <p>[!UICONTROL 計畫] </p> <p>您必須是[!DNL Workfront]管理員。 如需[!DNL Workfront]管理員的相關資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予使用者完整管理存取權</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">支援套件</td> 
-   <td> <p>[！UICONTROL Plus]、[！UICONTROL Preferred]或[！UICONTROL Enterprise]</p> <p>標準支援套件無法存取「自訂重新整理沙箱」，但可存取「預覽沙箱」。</p> </td> 
+   <td> <p>[!UICONTROL Plus]、[!UICONTROL Preferred]或[!UICONTROL Enterprise]</p> <p>標準支援套件無法存取「自訂重新整理沙箱」，但可存取「預覽沙箱」。</p> </td> 
   </tr> 
  </tbody> 
 </table>

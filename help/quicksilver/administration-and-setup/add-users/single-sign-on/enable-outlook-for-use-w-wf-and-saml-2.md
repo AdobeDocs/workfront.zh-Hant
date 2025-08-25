@@ -32,7 +32,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >如果您組織的Workfront執行個體使用自訂SSO入口網站，則無法使用此選項。
->>如需詳細資訊，請洽詢您的網路或IT管理員。
+>&#x200B;>如需詳細資訊，請洽詢您的網路或IT管理員。
 <!--
 or is enabled with Adobe IMS-->
 
