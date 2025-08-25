@@ -8,9 +8,9 @@ feature: Work Management
 hide: true
 hidefromtoc: true
 exl-id: 230d8e62-a3c9-4e38-9b26-5ba1c4f56391
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1167'
 ht-degree: 1%
 
 ---
@@ -28,11 +28,7 @@ Workfront與Frame.io整合可讓您在Workfront中建立在Frame.io中映象的�
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
-
->[!IMPORTANT]
->
->此功能僅適用於已加入[!DNL Adobe Admin Console]的組織。
++++ 展開以檢視本文中功能的存取需求。 
 
 您必須具備下列條件：
 
@@ -132,9 +128,9 @@ Workfront擁有強大的專案管理功能。 我們建議使用[編輯專案範
 
 1. 按一下&#x200B;**從範本新增專案**。
 1. 使用搜尋方塊，開始輸入您需要的範本名稱。
-1. 選取範本名稱，然後按一下[使用範本]。**&#x200B;**
+1. 選取範本名稱，然後按一下[使用範本]。****
    ![尋找您的範本](assets/find-your-template.png)
-1. 視需要調整任何專案設定，然後按一下[建立專案]。**&#x200B;**
+1. 視需要調整任何專案設定，然後按一下[建立專案]。****
 1. 在左側面板中，按一下&#x200B;**檔案**。
 1. 使用單向同步資料夾，自動與Frame.io共用創意素材。 [!BADGE 即將推出]{type=Informative}
 

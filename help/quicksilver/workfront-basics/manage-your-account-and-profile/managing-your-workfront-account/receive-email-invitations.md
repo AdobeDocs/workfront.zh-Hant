@@ -6,9 +6,9 @@ description: 當 [!DNL Workfront] 管理員建立新使用者時，新使用者�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: a13dbe33-f283-4732-a7f2-5a94a37855f0
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>[!UICONTROL Request]或更高版本</p> </td> 
+   <td> <p>[！UICONTROL Request]或更高版本</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -42,7 +42,6 @@ ht-degree: 0%
 
 當[!DNL Workfront]管理員建立新使用者時，新使用者可能會收到基於幾個因素的邀請電子郵件：
 
-* 使用者的組織是否已上線到[!DNL Adobe Admin Console]
 * 使用者是在[!DNL Workfront]還是[!DNL Admin Console]中新增
 * 使用者是否擁有其他[!DNL Adobe]產品的存取權，或是新的[!DNL Adobe]使用者
 * 管理員是否選擇傳送電子郵件邀請給使用者（僅適用於尚未在[!DNL Admin Console]上的組織）
@@ -57,7 +56,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->電子郵件中的連結僅在[!DNL Workfront]管理員在[!UICONTROL 邀請]頁面的[!UICONTROL 一般選項]區域中所指定的天數內有效。
+>電子郵件中的連結僅在[!UICONTROL 管理員在]邀請[!UICONTROL 頁面的]一般選項[!DNL Workfront]區域中所指定的天數內有效。
 
 若要使用邀請電子郵件建立[!DNL Workfront]的密碼：
 

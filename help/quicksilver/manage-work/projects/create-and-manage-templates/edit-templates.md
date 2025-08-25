@@ -6,7 +6,7 @@ description: 您可以編輯專案範本，以反映未來專案的程式與設�
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: f4ea19368b664d0b3a47f93c70fd489685791538
+source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
 workflow-type: tm+mt
 source-wordcount: '5045'
 ht-degree: 2%
@@ -102,7 +102,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. 請考慮編輯下列任一節中的資訊：
 
    * [範本名稱](#template-name)
-   * [總覽](#overview-preview)
+   * [概觀](#overview-preview)
    * [財務](#finance-preview)
    * [自訂表單](#custom-forms-preview)
    * [範本設定](#template-settings)
@@ -182,7 +182,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    </tr>
 
 <tr> 
-   <td role="rowheader"><strong>專案組合</strong></td> 
+   <td role="rowheader"><strong>產品組合</strong></td> 
    <td><p>針對從此範本建立的專案指定Portfolio。 您必須先建立Portfolio，才能讓其出現在下拉式清單中。 </p><p>只有作用中的投資組合會顯示在清單中。 如需關於建立投資組合的詳細資訊，請參閱<a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">建立投資組合</a>。</p></td> 
    </tr> 
    <tr> 
@@ -304,7 +304,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 1. （選用）更新自訂表單上任何欄位中的資訊。 此資訊將會傳輸至將使用範本建立的專案。
 
-1. （選擇性）按一下自訂表單名稱右邊的&#x200B;**x**&#x200B;圖示，然後按一下[移除]&#x200B;**&#x200B;**&#x200B;以從範本中移除它。
+1. （選擇性）按一下自訂表單名稱右邊的&#x200B;**x**&#x200B;圖示，然後按一下[移除]****&#x200B;以從範本中移除它。
 
 1. （選擇性）根據您要修改的資訊，繼續編輯下列區段。
 
@@ -468,7 +468,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    | 工作投入等級 | 百分比值 |
    |---|---|
    | 小 | 25% |
-   | 中 | 50% |
+   | 媒體 | 50% |
    | 大 | 75% |
 
    如需使用工作量來管理專案上任務之工作量的相關資訊，請參閱[工作量概觀](../../../manage-work/tasks/task-information/work-effort.md)。
@@ -488,7 +488,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    ![編輯範本方塊問題設定區段](assets/edit-template-box-issue-settings-section.png)
 
-1. （選擇性）取消選取&#x200B;**允許使用者新增內嵌問題**&#x200B;選項。 預設為啟用。
+1. （選擇性）取消選取&#x200B;**允許使用者新增內嵌問題**&#x200B;選項。 這項設定預設為啟用。
 
    停用此選項時，當從範本建立專案時，使用者無法將內聯問題新增到專案或問題區段中的任務。
 
@@ -577,7 +577,6 @@ Linked folder functionality automatically creates folders in Adobe Experience Ma
 
 This section appears only if all of the following apply:
 
-* Your organization has been migrated to the Adobe Admin Console
 * Your organization has enabled and configured an integration with Adobe Experience Manager
 * The template has enabled and configured linked folders.
 
@@ -591,7 +590,7 @@ For instructions on editing Linked folders, see [Edit workflow values in a proje
 1. 在&#x200B;**編輯範本**&#x200B;方塊中，按一下&#x200B;**註解**。
 
    ![編輯範本方塊註解區段](assets/edit-template-box-comment-section.png)
-1. 新增您正在進行之更新的相關註解、標籤其他使用者，或選取&#x200B;**我的公司私有**&#x200B;方塊，讓貴公司的使用者無法存取更新，然後按一下[儲存]。**&#x200B;**
+1. 新增您正在進行之更新的相關註解、標籤其他使用者，或選取&#x200B;**我的公司私有**&#x200B;方塊，讓貴公司的使用者無法存取更新，然後按一下[儲存]。****
 
 ## 大量編輯範本
 
@@ -623,7 +622,7 @@ Editing templates in bulk differs depending on which environment you are using.
 
    * 概觀
    * 財務
-   * 專案組合
+   * 產品組合
    * 設定
    * 存取
    * 自訂表單

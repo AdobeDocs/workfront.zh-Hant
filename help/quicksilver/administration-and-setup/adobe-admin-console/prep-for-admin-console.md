@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d9b5e4a1-069e-48be-80d0-84f4bf8aea8b
-source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
+source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '668'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,12 @@ ht-degree: 0%
 # 準備將您的組織加入Adobe Admin Console
 
 <!-- Audited: 12/2023 -->
+
+<!--DELETE ME MARCH 2026-->
+
+>[!IMPORTANT]
+>
+>由於所有組織現已移轉至Adobe Admin Console，因此本文將於近期移除。
 
 由於Adobe Workfront是Adobe產品，因此您可以透過Adobe Admin Console存取。 這可讓您集中管理Workfront，以及使用者的其他Adobe帳戶和產品。
 
@@ -35,7 +41,7 @@ ht-degree: 0%
 
    * 如果貴組織沒有現有的Adobe Admin Console，或您不想使用現有的Adobe Admin Console，Workfront支援可協助您建立新架構。
 
-   * 如果您有多個AdobeAdmin Console，但不確定哪一個最適合新增Workfront，請聯絡Workfront支援。
+   * 如果您有多個Adobe Admin Console，而且您不確定哪一個最適合新增Workfront，請聯絡Workfront支援。
 
 1. 向Workfront支援確認您要使用現有的Adobe Admin Console，或建立一個新的系統。
 
@@ -45,7 +51,7 @@ ht-degree: 0%
    >
    >請準備好與Workfront支援和您的IT團隊討論驗證偏好設定，例如單一登入(SSO)或非SSO。
 
-   如需指示，請參閱[Adobe Admin Console部署指南](https://helpx.adobe.com/tw/enterprise/using/deployment-planning.html)的Identity Management一節。
+   如需指示，請參閱[Adobe Admin Console部署指南](https://helpx.adobe.com/enterprise/using/deployment-planning.html)的Identity Management一節。
 
 1. （視條件而定）如果使用單一登入，請將新的Adobe Admin Console連線至您現有的SSO提供者。
 
@@ -59,7 +65,7 @@ ht-degree: 0%
 
    1. 從Workfront移除重複的電子郵件。
 
-      如需指示，請參閱[防止重複使用者](/help/quicksilver/administration-and-setup/manage-workfront/security/prevent-duplicate-users.md)中的[更新Workfront執行個體中現有使用者的電子郵件地址](/help/quicksilver/administration-and-setup/manage-workfront/security/prevent-duplicate-users.md#update-email-addresses-of-existing-users-in-your-workfront-instance)。
+      如需指示，請參閱[防止重複使用者](/help/quicksilver/administration-and-setup/manage-workfront/security/prevent-duplicate-users.md#update-email-addresses-of-existing-users-in-your-workfront-instance)中的[更新Workfront執行個體中現有使用者的電子郵件地址](/help/quicksilver/administration-and-setup/manage-workfront/security/prevent-duplicate-users.md)。
 
       如果您的組織中有重複的電子郵件地址，則以電子郵件地址表示並具有最近`lastLoginDate`的使用者將會移至Adobe Admin Console組織。 將停用使用該電子郵件地址的任何其他使用者。
 
@@ -87,4 +93,4 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[在Adobe Admin Console中管理使用者](../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)。
 
-如需根據貴組織是否已加入Adobe Admin Console而有所不同的其他動作清單，請參閱[以平台為基礎的管理差異(Adobe Workfront/Adobe商務平台)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
+如需根據貴組織是否已加入Adobe Admin Console而有所不同的其他動作清單，請參閱[平台型管理差異(Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
