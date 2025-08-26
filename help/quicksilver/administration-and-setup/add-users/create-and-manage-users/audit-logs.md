@@ -1,5 +1,5 @@
 ---
-title: 稽核記錄
+title: 稽核記錄概觀
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
@@ -8,14 +8,14 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: aeb55124fa76192a5c39b504964fe9acc16c31d8
 workflow-type: tm+mt
-source-wordcount: '1523'
+source-wordcount: '1522'
 ht-degree: 3%
 
 ---
 
-# 稽核記錄
+# 稽核記錄概觀
 
 <!--Audited: 01/2024-->
 
@@ -73,14 +73,14 @@ ht-degree: 3%
 * [自訂節](#custom-section)
 * [匯率](#exchange-rate)
 * [群組](#group)
-* [工作角色](#job-roles)
-* [登入嘗試](#login-attempt)
+* [工作角色](#job-role)
 * [優先順序](#priority)
 * [專案喜好設定](#project-preference)
 * [嚴重性](#severity)
 * [狀態](#status)
 * [任務和問題偏好設定](#tasks-issues-preferences)
 * [使用者](#user)
+<!--* [Login Attempt](#login-attempt) -->
 
 ### 存取層級 {#access-level}
 
@@ -236,7 +236,7 @@ Business Rules僅適用於已購買Ultimate Workfront計畫的客戶。 如需�
    * 新增或移除使用者
    * 新增或移除子群組
 
-### 職務角色 {#job-roles}
+### s {#job-role}
 
 當使用者執行下列其中一個動作時，系統會產生「工作角色」稽核記錄專案：
 

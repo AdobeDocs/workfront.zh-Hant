@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 0%
@@ -44,4 +44,6 @@ ht-degree: 0%
 
 * <span class="preview">[Add existing record types](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md)</span>
 -->
+
+<!--* [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)-->
 

@@ -8,9 +8,9 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 9905a522-9913-49c0-8c80-a8b46221fcbb
-source-git-commit: 4b0ba0112138b91b12e10f4770ecab3db4e3fddb
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 * 在GenStudio for Performance Marketing中檢視稽核決定以進行最終核准和發佈
 
-如需在GenStudio for Performance Marketing中檢閱和核准的詳細資訊，請參閱[Workfront Proof與GenStudio for Performance Marketing整合](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/approve/proof-integration)。
+如需在GenStudio for Performance Marketing中檢閱和核准的詳細資訊，請參閱[Workfront Proof與GenStudio for Performance Marketing整合](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/proof-integration)。
 
 
 ## 存取需求
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 ## 整合需求
 
-* Workfront和GenStudio for Performance Marketing必須部署至相同的IMS組織。
+* Workfront和GenStudio for Performance Marketing必須部署至相同的Identity Management系統(IMS)組織。
 
 * 使用者只能屬於IMS組織內的一個Workfront執行個體。
 
@@ -102,7 +102,7 @@ ht-degree: 0%
 
 當使用者在GenStudio for Performance Marketing中啟動稽核時，他們只需選擇所需的範本。 使用者可隨時輕鬆變更任何校訂工作流程範本、新增或移除稽核者和階段。
 
-如需詳細資訊，請參閱[要求檢閱與核准](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/approve/request-review)。
+如需詳細資訊，請參閱[要求檢閱與核准](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/request-review)。
 
 ## 在GenStudio for Performance Marketing校訂檢視器中檢閱和核准Workfront草稿內容
 
@@ -114,7 +114,7 @@ ht-degree: 0%
 * 標示草稿以顯示需要變更的專案
 * 做出決定
 
-如需詳細資訊，請參閱[檢閱和編輯內容](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/approve/review-and-edit)。
+如需詳細資訊，請參閱[檢閱和編輯內容](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/review-and-edit)。
 
 
 >[!IMPORTANT]
@@ -126,4 +126,4 @@ ht-degree: 0%
 
 當資產通過稽核和核准程式後，您可以直接從GenStudio for Performance Marketing檢視稽核決定並發佈內容。
 
-如需詳細資訊，請參閱[發佈核准的內容](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content)。
+如需詳細資訊，請參閱[發佈核准的內容](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content)。

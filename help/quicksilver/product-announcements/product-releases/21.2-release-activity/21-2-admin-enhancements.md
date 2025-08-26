@@ -8,9 +8,9 @@ author: Luke
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 7ae5a04a-a9bc-4a85-8651-2b912f7fd7e4
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
-source-wordcount: '1525'
+source-wordcount: '1526'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 * 變更專案偏好設定或建立或刪除自訂季度
 * 變更任務和問題偏好設定
 
-如需詳細資訊，請參閱[稽核記錄](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)。
+如需詳細資訊，請參閱[稽核記錄總覽](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)。
 
 此功能現在包含在新Workfront體驗的[管理基礎中，第2部分：專案設定](https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/home) Workfront One上的學習路徑。
 

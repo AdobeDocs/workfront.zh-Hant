@@ -6,7 +6,7 @@ description: 您可以使用前置任務（或只是前置任務）來連結依�
 author: Alina
 feature: Work Management
 exl-id: 68774286-da24-409a-bbd8-eb18dfe75063
-source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%

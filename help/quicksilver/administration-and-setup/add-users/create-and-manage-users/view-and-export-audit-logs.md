@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b04e8ba5-c3f2-4838-8df1-35e90de5c7bd
-source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '426'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 稽核記錄列出過去90天內系統中觸發的使用者變更。
 
-如需有關所有稽核記錄型別及其產生原因的資訊，請參閱[稽核記錄](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)。
+如需有關所有稽核記錄型別及其產生原因的資訊，請參閱[稽核記錄概觀](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)。
 
 ## 存取需求
 
@@ -74,7 +74,7 @@ ht-degree: 1%
 
    依預設會選取&#x200B;**所有記錄型別**。
 
-   如需您可以檢視的所有稽核記錄型別清單，以及它們包含的資訊，請參閱[稽核記錄](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)。
+   如需您可以檢視的所有稽核記錄型別及其包含資訊的清單，請參閱[稽核記錄概觀](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)。
 
 1. （選用）為下列欄位設定任何可用的篩選器：
 
