@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f4615994-8a56-482c-b033-62e719be152e
-source-git-commit: bcf9e3eb987bf4c33b994d68276cb04b817c484d
+source-git-commit: f4493666ce8053f98490b87a6cfd76d759393d8c
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,26 @@ ht-degree: 0%
 本頁說明了2025年第四季版本對預覽環境所做的檔案和校訂增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2025年第四季版本週期目前可用的所有變更清單，請參閱[2025年第四季版本概觀](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)。
+
+## 統一核准分階段推出
+
+>[!NOTE]
+>
+>客戶的生產版本：自2025年7月17日起分階段推出
+
+
+我們正在分階段啟用統一核准（先前稱為新檔案核准）。 在接下來的六個月中，此功能將會在您的Workfront執行個體中自動啟用。
+
+整合式核准會取代舊版檔案核准，並直接在檔案上提供下列功能：
+
+* 將整個Workfront團隊指定為稽核者或核准者
+* 設定檢閱或核准的期限
+* 建立及重複使用核准範本
+* 利用新版本
+* 在Workfront首頁Widget中檢視您核准的多個關鍵績效指標
+* 使用畫布儀表板可檢視有關統一核准的報告詳細資訊
+
+如需詳細資訊，請參閱[整合式核准總覽](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)。
 
 ## 新增Workfront AI檢閱者
 
