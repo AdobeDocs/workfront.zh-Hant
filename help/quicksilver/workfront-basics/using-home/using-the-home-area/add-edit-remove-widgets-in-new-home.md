@@ -6,10 +6,10 @@ description: 您可以從多個Widget中進行選擇，以自訂首頁上顯示�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 81f32dfe-cde0-4e61-a542-9b99a18a3953
-source-git-commit: 10efc850b4951c3ad1a7086d3ec087d848dde96e
+source-git-commit: e153ccb40112688769a3c6b706a2b23f1f084021
 workflow-type: tm+mt
-source-wordcount: '1098'
-ht-degree: 6%
+source-wordcount: '1111'
+ht-degree: 4%
 
 ---
 
@@ -95,7 +95,7 @@ Widget是Home的基礎。 將Widget新增至首頁後，您就可以選擇最符
    ![自訂按鈕](assets/customize-button.png)
 1. 捲動至&#x200B;**Widget**&#x200B;區段，然後選取您要新增的Widget。
 
-+++ 展開以檢視可用Widget的詳細清單
+   +++ 展開以檢視可用Widget的詳細清單
 
    * **我的工作**\
        在一個位置顯示所有指派的任務、問題和請求。 您可以按一下「處理它」按鈕開始處理專案，或按一下「完成」按鈕將其標籤為完成。 您也可以更新有關任務和問題的資訊（狀態、條件、完成百分比）、記錄時間，以及從「我的工作」Widget新增更新。
@@ -119,7 +119,10 @@ Widget是Home的基礎。 將Widget新增至首頁後，您就可以選擇最符
        顯示您所在團隊的所有待處理請求 (依團隊排序)，以及用於直接將請求指派給使用者或自行處理請求的按鈕。
 
    * **我的核准**\
-       顯示所有待指派或委派的核准、用於委派核准的按鈕，以及用於直接在小工具中做出核准決策的按鈕。
+       顯示所有未決指派或已委派的核准、委派核准的按鈕，以及直接在Widget中做出核准決策的按鈕。 核准的順序如下：
+      * 逾期截止日期
+      * 近期截止日期
+      * 無截止日期的專案
 
    * **檔案核准量度**\
            顯示2個圖表，內含平均核准時間和決定的相關資訊，以及擱置和逾期核准的清單檢視。 您必須啟用[整合式核准](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)，才能使用此Widget。
@@ -134,7 +137,7 @@ Widget是Home的基礎。 將Widget新增至首頁後，您就可以選擇最符
      >
      >您必須有建立工作的許可權，才能在待辦事項Widget中建立待辦事項，而且只有目前使用者輸入的個人工作才會出現。
 
-+++
+   +++
 
 1. 按一下&#x200B;**新增Widget**。
 
@@ -166,4 +169,4 @@ Widget是Home的基礎。 將Widget新增至首頁後，您就可以選擇最符
 
    ![自訂按鈕](assets/customize-button.png)
 
-1. 在「**自訂**」面板的「**背景**」區段中，按一下您要為「首頁」背景選取的色彩。 您也可以按一下[無]來移除背景。**&#x200B;**
+1. 在「**自訂**」面板的「**背景**」區段中，按一下您要為「首頁」背景選取的色彩。 您也可以按一下[無]來移除背景。****

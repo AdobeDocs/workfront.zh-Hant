@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91789b7b-3aec-415c-a03d-e06d0c43a263
-source-git-commit: a1295e5dfa3c608c5f1eca9cabb67bd402617db5
+source-git-commit: e153ccb40112688769a3c6b706a2b23f1f084021
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,11 @@ ht-degree: 0%
 >* 生產快速發行： 2025年6月12日
 >* 適用於所有客戶的生產： 2025年7月17日
 
-我們已更新首頁中的我的核准Widget，以依預設截止日期（降序）排序。 如此一來，最緊急的核准便可出現在清單頂端。
+我們已更新首頁中的我的核准Widget，以依預設截止日期（升序）排序。 如此一來，最緊急的核准便可出現在清單頂端。 核准的順序如下：
+
+* 逾期截止日期
+* 近期截止日期
+* 無截止日期的專案
 
 目前，只有校訂核准可以按我的核准Widget中的截止日期排序。
 
