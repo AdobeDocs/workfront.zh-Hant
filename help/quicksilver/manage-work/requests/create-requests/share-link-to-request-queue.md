@@ -5,10 +5,10 @@ author: Alina
 draft: Probably
 feature: Work Management
 exl-id: 91e456ae-a192-4f3a-afff-b3c48854e295
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 0ffae8ed285f6e9164a239552feb90465bea3cca
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 3%
+source-wordcount: '311'
+ht-degree: 4%
 
 ---
 
@@ -44,6 +44,10 @@ ht-degree: 3%
   <tr> 
    <td role="rowheader">存取層級設定</td> 
    <td> <p>編輯問題的存取權</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> 產品</td> 
+   <td> <ul><li>Adobe Workfront</li><li>您必須安裝Adobe Workfront Planning才能檢視Planning請求或請求表單</td> 
   </tr> 
  </tbody> 
 </table>

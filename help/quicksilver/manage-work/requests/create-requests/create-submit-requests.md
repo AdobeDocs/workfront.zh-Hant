@@ -6,9 +6,9 @@ description: 計畫工作在Adobe Workfront中以專案和任務表示。 不過
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
+source-git-commit: b24b1e481bbe726aaf9810124fcf55bdac866cb0
 workflow-type: tm+mt
-source-wordcount: '2765'
+source-wordcount: '2841'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,17 @@ ht-degree: 1%
 
 <!--Audited: 12/2023-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>(NOTE: Linked to the UI - do not change/ remove; THIS IS NOW SPLIT IN THREE ARTICLES>> MAKE SURE THE TRANSITION TO THE OTHER TWO IS CLEAR SINCE THIS IS LINKED TO UI)</p>
+<p>(NOTE: If they come out with templates AND drafts, consider splitting this article to keep Create in one and Working with Drafts and Requests in another??)</p>
+<p>(NOTE: this article is linked from Submitting Workfront Requests from Salesforce) </p>
+</div>
+-->
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 計畫工作在Adobe Workfront中以專案和任務表示。 不過，您可能會在一個環境中工作，在這種環境中，非計畫工作（以請求的形式）可以隨時進入。 Workfront透過使用請求佇列提供可容納這種環境型別的工作流程。
 
@@ -50,6 +58,7 @@ ht-degree: 1%
  <col> 
  <col> 
  <tbody> 
+ <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront計畫</td> 
    <td> <p>任何 </p> </td> 
@@ -64,6 +73,10 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">存取層級設定</td> 
    <td> <p>編輯問題的存取權</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> 產品</td> 
+   <td> <ul><li>Adobe Workfront</li><li>您必須安裝Adobe Workfront Planning才能檢視Planning請求或請求表單</td> 
   </tr> 
  </tbody> 
 </table>
@@ -136,18 +149,20 @@ Workfront管理員必須建立「請求佇列」的下列元件：
 
 1. （視條件而定）如果您切換到包含Workfront Planning的新體驗，而且是在生產環境中，則&#x200B;**新請求**&#x200B;方塊會顯示下列專案：</span>
 
-   * 最近存取的6個Workfront請求佇列及Planning請求表單會顯示在「最近」區段中。
-   * 在&#x200B;**所有請求表單**&#x200B;區段中，以字母順序顯示50個額外的Workfront請求佇列和Planning請求表單。 您可以搜尋預設不會顯示的請求佇列。
-
-   ![具有計畫要求的統一工作流程的新要求方塊](assets/new-request-box-with-unified-workflow-for-planning-requests.png)
-
-   按一下其中一個Workfront請求佇列卡片，或搜尋其中一個卡片，然後當卡片顯示在清單中時，按一下該卡片。
-1. （視條件而定）如果您切換至包含Workfront Planning的新體驗，且處於預覽環境中，則&#x200B;**新請求**&#x200B;方塊會顯示下列內容：
-
    <ul><li>最近存取的6個Workfront請求佇列及Planning請求表單會顯示在「最近」區段中。 </li>
     <li>所有其他Workfront和Planning要求表單<b>所有要求表單</b>區段。 您可以搜尋預設不會顯示的請求表單。 </li>
     <li>所有其他Workfront和Planning請求佇列路徑會顯示在<b>所有請求路徑</b>區段中。 您可以搜尋預設不會顯示的請求佇列。</li></ul>
    按一下其中一個Workfront請求佇列路徑或表單，或搜尋其中一個路徑或表單，然後在清單中顯示時按一下它。
+1. <span class="preview">（條件式）如果您切換至包含Workfront Planning的新體驗，請選取其中一個Workfront要求佇列路徑或表單，或按一下搜尋列。</span>
+
+   <span class="preview">當您按一下搜尋列時，會出現一個下拉式清單，首先顯示最近使用的佇列和表單。 從清單中選取一個佇列，或開始輸入並選取佇列或出現時的清單。</span>
+
+   >[!NOTE]
+   >
+   ><span class="preview">考慮下列有關預覽中目前可用的新請求體驗：</span>
+   >* <span class="preview">此清單包含Workfront請求佇列和Workfront Planning請求表單。</span>
+   >* <span class="preview">您可以依物件型別篩選清單。</span>
+   >* <span class="preview">若要只顯示Workfront要求佇列，請篩選`Issue`物件型別。</span>
 
 1. （視條件而定）如果您切換至包含Workfront Planning的新體驗，請選取您的主題群組和佇列主題，並繼續更新表單。
 

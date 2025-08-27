@@ -6,9 +6,9 @@ description: 您可以設定專案，讓使用者能透過電子郵件將問題�
 author: Alina, Courtney
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: 06e42fa713bc9b0c1e308feb2b84ca62dafa416c
+source-git-commit: 0ffae8ed285f6e9164a239552feb90465bea3cca
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '798'
 ht-degree: 0%
 
 ---
@@ -48,6 +48,10 @@ ht-degree: 0%
    <td role="rowheader">存取層級設定</td> 
    <td> <p>編輯問題的存取權</p>  </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader"> 產品</td> 
+   <td> <ul><li>Adobe Workfront</li><li>您必須安裝Adobe Workfront Planning才能檢視Planning請求或請求表單</td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -75,7 +79,7 @@ ht-degree: 0%
 >* Workfront允許所有叢集的每個請求佇列都有一個唯一的電子郵件。 如果您選擇停用您的要求佇列，只要您建立的電子郵件地址仍在錄取電子郵件地址方塊中，就會保留該地址。 如果您選擇停止使用錄取電子郵件，您必須從錄取電子郵件欄位中刪除它，以便將來可以使用。
 >
 >* 如果請求佇列有多個佇列主題或主題群組，Workfront會隨機選取要傳送電子郵件請求的佇列主題，使電子郵件請求難以管理。
->我們建議您設定為透過電子郵件接收請求的專案不應有多個佇列主題。 如果提交的請求是針對不同的資源或專案，您應該在提交後手動路由或移動這些請求。
+>  >我們建議您設定為透過電子郵件接收請求的專案不應有多個佇列主題。 如果提交的請求是針對不同的資源或專案，您應該在提交後手動路由或移動這些請求。
 
 1. 前往您要啟用的專案，透過電子郵件接收問題。
 1. 按一下左側面板中的&#x200B;**佇列詳細資料**。

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: c3e3dfdb0a1819954c97168cbabddfc8dc5863a0
+source-git-commit: b24b1e481bbe726aaf9810124fcf55bdac866cb0
 workflow-type: tm+mt
-source-wordcount: '2005'
+source-wordcount: '2047'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,10 @@ ht-degree: 0%
 
 * 從Workfront的要求區域。
 * 從已共用之請求表單的直接連結。
-
-  本文說明如何從Workfront的「請求」區域或共用連結提交請求，以將新記錄新增至記錄型別。
 * 從記錄型別頁面，當您新增或請求新記錄時。 如需詳細資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md)。
+
+本文說明如何從Workfront的「請求」區域或共用連結提交請求，以將新記錄新增至記錄型別。
+
 
 Workfront使用者與外部使用者可以提交請求給Planning記錄型別並建立記錄。<!--double check on the external users-->
 
@@ -148,8 +149,8 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
 
 {{step1-to-requests}}
 
-1. 啟用熒幕右上角的&#x200B;**切換至新的體驗**&#x200B;設定。
-啟用此設定可讓Workfront Planning請求表單出現在Workfront的&#x200B;**請求**&#x200B;區域中。
+1. 啟用熒幕右上角的&#x200B;**切換至新的體驗**設定。
+啟用此設定可讓Workfront Planning請求表單出現在Workfront的**請求**&#x200B;區域中。
 
    >[!TIP]
    >
@@ -160,7 +161,9 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
    >* 您至少可以檢視一個工作區。
    >
 
-1. 按一下&#x200B;**新要求**。
+<!--Production-->
+
+1. 在生產環境中，按一下&#x200B;**新要求**。
 
    <!--![New request box with unified Workfront and Planning cards](assets/new-request-box-with-unified-workfront-and-planning-cards.png-->
 
@@ -169,12 +172,15 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
    * 最近存取的6個Workfront請求佇列及Planning請求表單會顯示在「最近」區段中。
    * 在&#x200B;**所有請求表單**&#x200B;區段中，以字母順序顯示50個額外的Workfront請求佇列和Planning請求表單。 您可以搜尋預設不會顯示的請求佇列。
 
-1. 執行下列其中一項：
+1. 在生產環境中，執行下列任一項作業：
 
    * 選取「最近」或「全部」請求表單區段中的Planning請求表單
    * 開始在搜尋方塊中輸入Planning請求表單的名稱，然後按一下卡片（當卡片顯示在清單中時）。
 
    請求表單隨即開啟。
+
+<!-- Put preview section here-->
+1. <span class="preview">在[預覽]環境中，從[最近存取的請求表單]區域選取請求表單或佇列，或在清單中開始輸入表單或佇列名稱，然後在其出現時選取它。
 
 1. 更新請求表單中可用的欄位。 需要紅色星號的欄位。
 1. 按一下&#x200B;**提交**。
@@ -208,7 +214,7 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
 
 1. （選擇性）按一下確認訊息中的&#x200B;**檢視您的要求**&#x200B;以開啟要求，或按一下&#x200B;**X**&#x200B;圖示以關閉確認。
 
-1. （選擇性）按一下&#x200B;**要求**&#x200B;區域中的&#x200B;**規劃**&#x200B;索引標籤，以檢視您的要求。
+1. （選擇性）按一下&#x200B;**要求**&#x200B;區域中的&#x200B;**規劃**索引標籤，以檢視您的要求。
 提交至Planning請求表單的所有您有權檢視的請求都會顯示在清單中。
 1. （可選）執行下列任一項作業：
 
@@ -225,7 +231,7 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
       * **狀態**：要求的狀態。
       * **輸入者**：新增請求的使用者名稱。 如果要求是由Workfront外部的人員加入，則&#x200B;**輸入者**&#x200B;欄位會顯示`N/A`。
 
-        您可以有多個&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;加入的篩選器。
+        您可以有多個&#x200B;**And**&#x200B;或&#x200B;**Or**加入的篩選器。
 當您新增篩選條件時，要求清單會自動篩選。
 
    * 按一下&#x200B;**欄**&#x200B;並隱藏、顯示或重新排列請求清單中的欄。

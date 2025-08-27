@@ -6,10 +6,10 @@ description: 除了使用Workfront在您輸入新請求時向您建議的可用�
 author: Alina
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 0ffae8ed285f6e9164a239552feb90465bea3cca
 workflow-type: tm+mt
-source-wordcount: '583'
-ht-degree: 1%
+source-wordcount: '599'
+ht-degree: 2%
 
 ---
 
@@ -41,6 +41,10 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">存取層級設定</td> 
    <td> <p>編輯問題的存取權</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> 產品</td> 
+   <td> <ul><li>Adobe Workfront</li><li>您必須安裝Adobe Workfront Planning才能檢視Planning請求或請求表單</td> 
   </tr> 
  </tbody> 
 </table>
