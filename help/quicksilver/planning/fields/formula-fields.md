@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
+source-git-commit: 7288c6fb0f5d45758e0a82b8d1283e1f43ae94e6
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 6%
+source-wordcount: '684'
+ht-degree: 7%
 
 ---
 
@@ -112,14 +112,32 @@ ht-degree: 6%
 
   如需詳細資訊，請參閱文章[建立欄位](/help/quicksilver/planning/fields/create-fields.md)中的「公式」一節。
 * 您可以在新的公式中參考公式欄位。 在公式欄位中參照的欄位中更新值後，參照該欄位的所有後續欄位或包含該欄位的公式欄位將自動更新。
-* 公式欄位在下列情況下可能會顯示為`#ERROR!`：
-   * 刪除公式中使用的欄位時。
-   * 當彙總查閱欄位中使用的欄位顯示為`#ERROR!`時。
 
-     例如，如果您顯示包含彙總查閱公式欄位的查閱欄位，且其中一個參考的公式欄位會顯示為`#ERROR!`。
-   * 當公式值無法以選取的格式顯示時。
 
-     例如，如果我為公式欄位的「格式」選取「數字」，而公式中使用的欄位是隻顯示非數字文字值的文字欄位，則公式結果將顯示為`#ERROR!`，因為它無法將文字解析為數字。
+<!--
+
+<div class="preview">
+
+## Limitations of formula fields
+
+* You can add a maximum of 20 formula fields for one record type. 
+
+   Formula lookup fields added from connected record types do not count against this limit. 
+
+* The formula expression cannot exceed 50,000 characters. 
+
+* Formula fields might display as `#ERROR!` in the following cases:
+   * When a field used in a formula is deleted.
+   * When a field used in an aggregated lookup field displays as `#ERROR!`. 
+   
+      For example, if you display a lookup field that contains aggregated lookup formula fields and one of the referenced formula fields  displays as `#ERROR!`. 
+   *  When a formula value cannot be displayed in the selected format. 
+   
+      For example, if I select Number for the Format of a formula field, and the fields used in the formula are text fields that display only non-numeric text values, the formula result will display as `#ERROR!`, because it cannot parse the text into a number.
+ 
+ </div>
+ 
+ -->
 
 ## 支援的公式
 
