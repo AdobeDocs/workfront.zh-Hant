@@ -6,9 +6,9 @@ feature: Get Started with Workfront
 author: Nolan
 recommendations: noDisplay, noCatalog
 exl-id: 71819834-2e2d-4bdd-8c82-a01d2849355e
-source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
+source-git-commit: 97141bd032f672aae3ba1a18dfa5b3ca415adc41
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
@@ -26,3 +26,4 @@ ht-degree: 0%
 * [在 [!DNL Adobe Workfront]的清單中內嵌編輯專案](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md)
 * [修改清單的顯示方式](../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md)
 * [匯出清單](../../../workfront-basics/navigate-workfront/use-lists/export-lists.md)
+* [使用增強型清單](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)

@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: b5899500cad1ac32345d39f76eea7f643f1cd0ea
+source-git-commit: 6f1b24548fe99b5833dce0e5456eaefa5591abd1
 workflow-type: tm+mt
-source-wordcount: '13461'
+source-wordcount: '13464'
 ht-degree: 2%
 
 ---
@@ -830,6 +830,7 @@ ht-degree: 2%
          * [匯出清單](workfront-basics/navigate-workfront/use-lists/export-lists.md)
          * [在Adobe Workfront中內嵌編輯清單中的專案](workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md)
          * [修改清單的顯示方式](workfront-basics/navigate-workfront/use-lists/modify-list-display.md)
+         * [使用增強型清單](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)
       * [適用於Workfront的Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)
       * [Adobe Unified Experience常見問題集](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)
       * [頂端導覽列概觀](workfront-basics/the-new-workfront-experience/global-navigation-overview.md)
@@ -2208,7 +2209,7 @@ ht-degree: 2%
    * 適用於Outlook的Adobe Workfront {#workfront-for-outlook}
       * [適用於Outlook的Adobe Workfront：文章索引](workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)
       * [設定適用於Outlook的Adobe Workfront](workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
-      * [適用於Outlook的Workfront的許可權層級](workfront-integrations-and-apps/using-workfront-with-outlook/permissions-in-workfront-for-outlook.md)
+      * 適用於Outlook的Workfront的[許可權層級](workfront-integrations-and-apps/using-workfront-with-outlook/permissions-in-workfront-for-outlook.md)
       * [回覆Outlook的註解](workfront-integrations-and-apps/using-workfront-with-outlook/reply-to-a-comment-from-outlook.md)
       * [從Outlook電子郵件更新現有的物件](workfront-integrations-and-apps/using-workfront-with-outlook/update-an-existing-object-from-an-outlook-email.md)
       * [將Outlook電子郵件作為任務或問題新增至專案](workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-to-project-as-task-or-issue.md)
@@ -2503,8 +2504,8 @@ ht-degree: 2%
       * [使用JWT流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-jwt-flow.md)
       * [使用PKCE流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-pkce-flow.md)
       * [棄用API — 內部](wf-api/api/deprecation-api-internal.md)
-      * [ API 20版的新增功能](wf-api/api/new-api-version-20.md)
-      * [ API 19版的新增功能](wf-api/api/new-api-version-19.md)
+      * [ API 20](wf-api/api/new-api-version-20.md)版的新增功能
+      * [ API 19](wf-api/api/new-api-version-19.md)版的新增功能
       * [API 18版的新增功能](wf-api/api/new-api-version-18.md)
       * [API 17版的新增功能](wf-api/api/new-api-version-17.md)
       * [API 16版的新增功能](wf-api/api/new-api-version-16.md)

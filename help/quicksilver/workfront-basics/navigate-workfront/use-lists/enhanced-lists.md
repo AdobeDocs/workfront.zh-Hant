@@ -1,0 +1,163 @@
+---
+navigation-topic: get-started-with-workfront
+title: 使用增強型清單
+description: 增強型清單會使用表格格式來顯示清單專案，而且其外觀和感覺與標準清單不同
+author: Lisa
+feature: Get Started with Workfront
+source-git-commit: 8e88db186c574ea57dd609301b816d57636b125b
+workflow-type: tm+mt
+source-wordcount: '1038'
+ht-degree: 0%
+
+---
+
+# 使用增強型清單
+
+{{preview-fast-release-general}}
+
+Adobe Workfront的部分割槽域提供增強型清單。 這些清單使用表格格式來顯示清單專案，並且它們具有與標準清單不同的外觀和感覺。
+
+如需有關標準清單的資訊，請參閱[開始使用Adobe Workfront中的清單](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)。
+
+>[!NOTE]
+>
+>每個增強型清單的設定方式可能有所不同，以協助您顯示所需的資料。 並非每個清單都會使用本文所述的所有功能，有些清單可能會有僅適用於該清單的特殊功能。
+
+## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
+
+<table style="table-layout:auto">
+ <col> 
+ <col>
+ <tbody> 
+  <tr> 
+   <td>Adobe Workfront套件</td> 
+   <td><p>任何</p></td> 
+  </tr> 
+  <tr> 
+   <td>Adobe Workfront授權</td> 
+   <td>
+   <p>投稿人或以上</p>
+   <p>要求或更高版本</p></td>
+  </tr>
+ </tbody> 
+</table>
+
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
+
+## 使用增強型清單的物件
+
+以下是一些型別的Workfront物件清單，這些清單使用增強型清單格式，以及在您有權檢視物件時預設會顯示這些清單的一些區域。
+
+>[!NOTE]
+>
+>此清單並不完整。 這些物件清單中的每一份也都會出現在報表或儀表板上。 例如，包含專案報告的專案報告或控制面板也會顯示專案清單。
+
+| Workfront清單 | 物件清單的位置 |
+|--- |--- |
+| 優先順序 | <ul><li>首頁>選取左側功能表中的「優先順序」圖示</li><li>主要功能表>優先順序</li></ul> |
+| 請求清單 | <ul><li>請求（僅限新體驗）</li><li>首頁上的我的請求Widget</li></ul> |
+| 匯率清單 | <ul><li>設定>專案偏好設定>匯率</li></ul> |
+
+## 新增和編輯增強型清單中的專案
+
+根據增強型清單的設定，可能有兩種方法可以將專案新增到清單：
+
+* 按一下清單上方的按鈕。 此選項會開啟對話方塊，您可在其中輸入資訊並加以儲存。
+* 按一下清單底部的&#x200B;**新列**。 此選項會將新的一列加入表格中，而且您會在每個儲存格中輸入資訊。 如果儲存格僅限於特定資料集（例如貨幣名稱），系統可能會提示您從清單中選擇或搜尋名稱。
+
+若要編輯清單中的專案，請在要編輯的儲存格中連按兩下，然後輸入資訊。 某些儲存格可能是唯讀的。
+
+![增強型清單範例](assets/glist-exchange-rates.png)
+
+## 使用增強型清單中的動作列和更多選單
+
+當您選取增強型清單中專案旁的核取方塊時，動作列會出現在畫面底部，並顯示您可以對專案採取的動作。 有些動作可能是該清單專屬的動作，不會出現在任何其他清單中。
+
+按一下動作列上的按鈕即可執行該動作，例如檢視清單專案、刪除專案或使其成為預設專案。
+
+如果選取的專案沒有可用的動作，動作列會顯示「沒有可用的動作」。
+
+![動作列範例](assets/glist-action-bar-exchange-rates.png)
+
+**更多**&#x200B;功能表是當您將滑鼠游標停留在清單專案旁邊時出現的三個點功能表。 按一下功能表以檢視專案的其他動作。 有些動作可能是該清單專屬的動作，不會出現在任何其他清單中。
+
+![更多功能表範例](assets/glist-more-menu-exchange-rates.png)
+
+## 自訂增強型清單中的欄
+
+某些增強型清單可讓您隱藏和顯示欄，以及重新排序欄。
+
+1. 按一下清單上方的&#x200B;**欄**。
+
+   ![顯示資料行範例](assets/glist-display-move-columns.png)
+
+1. 使用切換來顯示或隱藏清單中的欄。
+1. 若要重新排序欄，請按一下&#x200B;**拖曳**&#x200B;圖示，並將欄移至您想要的位置。 移動欄會自動變更清單。
+
+   >[!NOTE]
+   >
+   >欄位可能一律顯示在第一個位置或固定，而且您無法變更其欄。
+
+   <span class="preview">當欄隱藏時，**欄**&#x200B;按鈕上會出現指示器。 當您重新排序欄時，指示器未出現。</span>
+
+   隱藏資料行的![指標](assets/glist-columns-hidden-indicator.png)
+
+## 篩選和分組增強型清單中的專案
+
+篩選器可協助您減少在清單中顯示的資訊量。 群組會根據特定條件將清單中的物件區隔在區域中。
+
+### 使用篩選器
+
+1. 按一下清單上方的&#x200B;**篩選器**。
+1. 在[篩選]方塊中，按一下[**新增條件**]。
+1. 選取欄位作為篩選依據。
+1. 選取篩選修飾元，例如「具有任何」、「不具有任何」、「早於」或「晚於」。 修正因子選項會因您篩選的欄位型別而異。
+1. 選取一或多個欄位值。 根據您篩選的欄位型別，系統可能會提示您從清單中選取專案、搜尋專案，或使用日曆來選取日期範圍。
+
+   ![在增強型清單中篩選](assets/glist-filter-with-options.png)
+
+   篩選器會自動套用至清單。
+
+1. 按一下&#x200B;**新增條件**，將另一個條件以OR陳述式形式新增至篩選器。
+1. 套用篩選器時，您可以再次開啟&#x200B;**篩選器**&#x200B;選項來變更篩選器選項或清除所有篩選器。
+
+   將篩選器套用至清單時，<span class="preview">指標會出現在&#x200B;**篩選器**&#x200B;按鈕上。</span>
+
+   ![已套用篩選指示器](assets/glist-filter-applied-indicator.png)
+
+### 使用群組
+
+1. 按一下清單上方的&#x200B;**群組**。
+1. 選取要組織清單的分組。
+
+   ![選取一個群組](assets/glist-grouping-choose-a-group-by.png)
+
+1. 套用群組時，您可以再次開啟「群組」選項以一次摺疊或展開所有群組、將群組變更為依不同欄位分組，或清除所有群組。
+
+   ![在增強型清單中分組](assets/glist-group-by-due-date-priorities.png)
+
+   將群組套用至清單時，<span class="preview">指標會出現在&#x200B;**群組**&#x200B;按鈕上。</span>
+
+   ![群組已套用指標](assets/glist-grouping-applied-indicator.png)
+
+## 在增強型清單中排序和搜尋
+
+若要排序個別欄，請移至欄並按一下向下箭頭。 欄名稱旁的圖示表示清單會依該欄中的值排序，以及排序的方向。
+
+>[!NOTE]
+>
+>如果清單具有預設專案，則無論清單如何排序，該專案始終是清單中的第一個專案。
+
+![依資料行排序](assets/glist-sort-by-column.png)
+
+若要在群組內排序您的工作，請開啟&#x200B;**群組**，並選取是否要以遞增或遞減順序排序。
+
+![在群組中排序](assets/sort-in-groups.png)
+
+若要搜尋，請在清單上方的搜尋欄位中輸入搜尋字詞。 當您鍵入時，結果會在清單中反白顯示。
+
+![強調的搜尋字詞](assets/glist-search-highlighted.png)
