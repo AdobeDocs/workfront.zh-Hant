@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
 description: 作為Adobe Workfront管理員，您可以決定Workfront中核准流程的全域設定。 這些設定會影響您系統中的所有工作專案核准流程。
-author: Alina, Lisa
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 2fb0c647-bb6d-46d0-a985-6ab820b4a7f2
-source-git-commit: 1397702a6b50953e7abcfe491b95aeb8b981df5b
+source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
 workflow-type: tm+mt
 source-wordcount: '879'
 ht-degree: 2%
@@ -54,7 +54,7 @@ ht-degree: 2%
 
 1. 按一下&#x200B;**處理序** > **核准**。
 
-1. 按一下&#x200B;**核准**&#x200B;區域名稱旁的&#x200B;**設定**&#x200B;圖示![齒輪設定圖示](assets/gear-icon-settings.png)。
+1. 按一下&#x200B;**核准**&#x200B;區域名稱旁的![設定](assets/gear-icon-settings.png)圖示&#x200B;**齒輪設定圖示**。
 
 1. 在出現的&#x200B;**核准設定**&#x200B;方塊中，指定下列資訊：
 

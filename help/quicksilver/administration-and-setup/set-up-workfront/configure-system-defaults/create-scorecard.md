@@ -4,11 +4,11 @@ product-area: system-administration
 navigation-topic: configure-system-defaults
 title: 建立計分卡
 description: 計分卡可測量專案與專案組合先前建立之條件的符合程度。 計分卡通常會反映組織的使命、價值和策略目標。Portfolio經理通常會定義計分卡問題和答案，以確保它們在專案優先順序設定和選擇期間具有意義和價值。  [!DNL Adobe Workfront] 管理員會根據投資組合經理的建議來建置計分卡。
-author: Lisa, Alina
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
 workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 1%
@@ -49,13 +49,13 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
    <td> <p>新增： Ultimate</p>
-   <p>目前： [!UICONTROL Business]或更高版本</p> 
+   <p>目前： [！UICONTROL Business]或更高版本</p> 
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td><p>新增：[!UICONTROL Standard]</p>
-   <p>目前： [!UICONTROL 計畫]</p>
+   <td><p>新增：[！UICONTROL Standard]</p>
+   <p>目前： [！UICONTROL計畫]</p>
    </td> 
   </tr> 
    <tr> 
@@ -91,21 +91,21 @@ ht-degree: 1%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Question]</td> 
+      <td role="rowheader">[！UICONTROL Question]</td> 
       <td>輸入您要納入計分卡中的問題。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 點]</td> 
+      <td role="rowheader">[！UICONTROL點]</td> 
       <td>輸入此問題的最大可能分數。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 負點]</td> 
+      <td role="rowheader">[！UICONTROL負點]</td> 
       <td>選取此選項以指出[!DNL Workfront]應該從總可能點數中減去。 負分無法新增到計分卡的最大可能點數。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 顯示型別]</td> 
-      <td>如果您想要在計分卡中顯示數值欄位，讓使用者可指定介於0到100之間的任何值，請選取<strong>[!UICONTROL Value(0-100)]</strong>。<p>或者，選取<strong>[!UICONTROL 下拉式清單]</strong>或<strong>[!UICONTROL 選項按鈕]</strong>，以建立使用者可使用該控制項指定的答案。 按一下<strong>[!UICONTROL 新增答案]</strong>，然後輸入此答案的<strong>[!UICONTROL 值]</strong> （以百分點為單位），以備回應完成。 如果您選擇100%，則會完全達到分配給此問題的點數。 如果您要指出此答案只包含分配給此問題的總點數的一部分，請選取較低的百分比值。 例如，如果您的問題值是10點，而您想要此答案攜帶其中5點，請為您的值選擇50%。</p>
-      <p>如果您要指出此答案為預設答案，請選取<strong>[!UICONTROL 預設值]</strong>。</strong></p>
+      <td role="rowheader">[！UICONTROL顯示型別]</td> 
+      <td>如果您想要在計分卡中顯示數值欄位，讓使用者可指定介於0到100之間的任何值，請選取<strong>[！UICONTROL Value(0-100)]</strong>。<p>或者，選取<strong>[！UICONTROL下拉式清單]</strong>或<strong>[！UICONTROL選項按鈕]</strong>，以建立使用者可使用該控制項指定的答案。 按一下<strong>[！UICONTROL新增答案]</strong>，然後輸入此答案的<strong>[！UICONTROL值]</strong> （以百分點為單位），以備回應完成。 如果您選擇100%，則會完全達到分配給此問題的點數。 如果您要指出此答案只包含分配給此問題的總點數的一部分，請選取較低的百分比值。 例如，如果您的問題值是10點，而您想要此答案攜帶其中5點，請為您的值選擇50%。</p>
+      <p>如果您要指出此答案為預設答案，請選取<strong>[！UICONTROL預設值]</strong>。</strong></p>
      </tr> 
     </tbody> 
    </table>

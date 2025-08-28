@@ -6,18 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 7288c6fb0f5d45758e0a82b8d1283e1f43ae94e6
+source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 7%
+source-wordcount: '889'
+ht-degree: 5%
 
 ---
 
 # 公式欄位概觀
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -114,30 +114,26 @@ ht-degree: 7%
 * 您可以在新的公式中參考公式欄位。 在公式欄位中參照的欄位中更新值後，參照該欄位的所有後續欄位或包含該欄位的公式欄位將自動更新。
 
 
-<!--
-
 <div class="preview">
 
-## Limitations of formula fields
+## 公式欄位的限制
 
-* You can add a maximum of 20 formula fields for one record type. 
+* 您最多可以為一個記錄型別新增20個公式欄位。
 
-   Formula lookup fields added from connected record types do not count against this limit. 
+  從連線的記錄型別新增的公式查閱欄位不會計入此限制。
 
-* The formula expression cannot exceed 50,000 characters. 
+* 公式運算式不可超過50,000個字元。
 
-* Formula fields might display as `#ERROR!` in the following cases:
-   * When a field used in a formula is deleted.
-   * When a field used in an aggregated lookup field displays as `#ERROR!`. 
-   
-      For example, if you display a lookup field that contains aggregated lookup formula fields and one of the referenced formula fields  displays as `#ERROR!`. 
-   *  When a formula value cannot be displayed in the selected format. 
-   
-      For example, if I select Number for the Format of a formula field, and the fields used in the formula are text fields that display only non-numeric text values, the formula result will display as `#ERROR!`, because it cannot parse the text into a number.
- 
- </div>
- 
- -->
+* 公式欄位在下列情況下可能會顯示為`#ERROR!`：
+   * 刪除公式中使用的欄位時。
+   * 當彙總查閱欄位中使用的欄位顯示為`#ERROR!`時。
+
+     例如，如果您顯示包含彙總查閱公式欄位的查閱欄位，且其中一個參考的公式欄位會顯示為`#ERROR!`。
+   * 當公式值無法以選取的格式顯示時。
+
+     例如，如果我為公式欄位的「格式」選取「數字」，而公式中使用的欄位是隻顯示非數字文字值的文字欄位，則公式結果將顯示為`#ERROR!`，因為它無法將文字解析為數字。
+
+</div>
 
 ## 支援的公式
 

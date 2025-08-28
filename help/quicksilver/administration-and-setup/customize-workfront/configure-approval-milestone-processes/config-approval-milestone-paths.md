@@ -5,12 +5,12 @@ content-type: reference
 product-area: system-administration;projects
 navigation-topic: customize-workfront
 description: 您可以建立使用者可附加至工作專案、檔案或校訂的核准流程。 您也可以建立可套用至系統中任何專案的里程碑路徑。
-author: Alina, Lisa
+author: Alina
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 5719f8ce-0b30-42a1-9b88-1466630401f2
-source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
+source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
 workflow-type: tm+mt
 source-wordcount: '78'
 ht-degree: 5%

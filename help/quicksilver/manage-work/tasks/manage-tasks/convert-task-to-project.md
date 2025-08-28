@@ -6,29 +6,28 @@ description: 當專案中的任務需要比您原本計畫更大的工作量完�
 author: Alina
 feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
-source-git-commit: 7288c6fb0f5d45758e0a82b8d1283e1f43ae94e6
+source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
 workflow-type: tm+mt
-source-wordcount: '1198'
+source-wordcount: '1244'
 ht-degree: 2%
 
 ---
 
 # 將任務轉換為專案
 
-<!--
-<div class="preview"> 
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
+本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在預覽版發佈一週後，生產環境中也將提供相同功能給所有客戶。
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+如需詳細資訊，請參閱[介面現代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。
 
-</div>-->
+</div>
 
 當專案中的任務需要比您原本計畫更大的工作量完成時，您可以將其轉換為專案。
 
 ## 存取需求
 
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -53,7 +52,9 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 將任務轉換為專案的考量事項
 
@@ -202,4 +203,4 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
      >
      >如果您使用範本進行轉換，並且附加到範本的自訂表單包含附加到任務的自訂表單中也找到的自訂欄位，則任務的欄位值將用於新專案。 但是，如果任務上的自訂欄位為空，則會使用範本的值。
 
-1. 按一下&#x200B;**儲存變更** <!--<span class="preview">or **Convert to Project**</span>-->。
+1. 按一下&#x200B;**儲存變更** <span class="preview">或&#x200B;**轉換至專案**。</span>
