@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 4e1761f9-bf73-4355-925a-9136f2787a3f
-source-git-commit: cbdc60db525dabb93e984dff7787a83edceb6c8c
+source-git-commit: f7dcae5e6bcc8674ef37ef94282c50dc9ffe951d
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '900'
 ht-degree: 0%
 
 ---
@@ -22,14 +22,46 @@ ht-degree: 0%
 
 如需針對Adobe Workfront Planning發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
 
+## 公式欄位的新限制
+
+>[!NOTE]
+>
+>* 預覽： 2025年8月28日
+>* 生產快速發行： 2025年9月11日
+>* 所有客戶的生產： 2025年10月16日
+
+我們在公式欄位上設定了下列限制：
+
+* 每個記錄型別有20個公式欄位的限制
+* 公式運算式有50,000個字元的限制
+
+如需詳細資訊，請參閱[公式欄位概述](/help/quicksilver/planning/fields/formula-fields.md)。
+
+## 無法解析公式值時顯示錯誤
+
+>[!NOTE]
+>
+>* 預覽： 2025年8月28日
+>* 生產快速發行： 2025年9月11日
+>* 所有客戶的生產： 2025年10月16日
+
+為了表示解析公式欄位時出現問題，該欄位現在將顯示為「#ERROR！」 在下列其中一種情況下：
+
+* 刪除公式中使用的欄位時。
+
+* 當彙總查閱欄位中使用的欄位顯示為#ERROR！
+
+* 當公式值無法以選取的格式顯示時。
+
+如需詳細資訊，請參閱[公式欄位概述](/help/quicksilver/planning/fields/formula-fields.md)。
 
 ## 新增運算式至Planning中的公式欄位
 
 >[!NOTE]
 >
 >預覽： 2025年8月7日
->&#x200B;>2025年所有客戶的生產:August
->&#x200B;>[!BADGE 不在排程]{type=Neutral}內
+>>2025年所有客戶的生產:August
+>>[!BADGE 不在排程]{type=Neutral}內
 
 我們已將具有以下用途的新運算式新增至Workfront Planning中的公式欄位及Workfront中的計算自訂欄位：
 
@@ -44,8 +76,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >預覽： 2025年7月31日
->&#x200B;>適用於所有客戶的生產： 2025年7月31日
->&#x200B;>[!BADGE 不在排程]{type=Neutral}內
+>>適用於所有客戶的生產： 2025年7月31日
+>>[!BADGE 不在排程]{type=Neutral}內
 
 我們在記錄表格檢視中建立或編輯欄位時，新增了「最大化」按鈕來放大公式欄位。 此外，我們在新的放大視窗中新增了「最小化」按鈕，以恢復至欄位建立方塊。
 
@@ -94,8 +126,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >預覽： 2025年7月24日
->&#x200B;>生產快速發行： 2025年8月14日
->&#x200B;>所有客戶的生產： 2025年10月16日
+>>生產快速發行： 2025年8月14日
+>>所有客戶的生產： 2025年10月16日
 
 您現在可以在時間軸上的任何位置按兩下，在記錄型別的時間軸檢視中建立記錄。
 
@@ -110,8 +142,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >預覽： 2025年7月24日
->&#x200B;>生產快速發行： 2025年8月14日
->&#x200B;>所有客戶的生產： 2025年10月16日
+>>生產快速發行： 2025年8月14日
+>>所有客戶的生產： 2025年10月16日
 
 您現在可以從工作區頁面上記錄型別卡片的「更多」選單共用記錄型別。 在此增強功能之前，「共用」選項僅在記錄型別頁面內可用。
 
@@ -122,8 +154,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >預覽： 2025年7月24日
->&#x200B;>生產快速發行： 2025年8月14日
->&#x200B;>所有客戶的生產： 2025年10月16日
+>>生產快速發行： 2025年8月14日
+>>所有客戶的生產： 2025年10月16日
 
 您現在能以全熒幕模式顯示所有Workfront Planning檢視（表格、時間軸和行事曆）。 檢視功能會保留，您也可以在全熒幕中變更檢視。
 
@@ -136,8 +168,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >預覽： 2025年7月22日
->&#x200B;>快速發行生產： 2025年8月14日
->&#x200B;>所有客戶的生產： 2025年10月16日
+>>快速發行生產： 2025年8月14日
+>>所有客戶的生產： 2025年10月16日
 
 為了讓核准程式更靈活，我們新增了在Planning請求表單上新增團隊作為核准者的功能。 現在，您可以在設定核准者時輸入並選取專案團隊名稱。 任何團隊成員都可以做出決定，這會計為整個團隊的核准決定。
 
@@ -150,8 +182,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >預覽： 2025年7月17日
->&#x200B;>快速發行生產： 2025年8月14日
->&#x200B;>所有客戶的生產： 2025年10月16日
+>>快速發行生產： 2025年8月14日
+>>所有客戶的生產： 2025年10月16日
 
 我們引進了以下欄位，以擷取透過提交具有核准的請求所建立的記錄的核准資訊：
 
@@ -165,8 +197,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >預覽： 2025年7月10日
->&#x200B;>生產快速發行： 2025年8月14日
->&#x200B;>所有客戶的生產： 2025年10月16日
+>>生產快速發行： 2025年8月14日
+>>所有客戶的生產： 2025年10月16日
 
 
 現在，當您已將群組套用至表格檢視時，將記錄新增至表格將會自動填入與您將記錄新增至的群組相關聯的欄位。

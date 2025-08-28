@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 870fcb44506ae583fb6a5c36419fda71be581e6d
+source-git-commit: ae5cc55bcd1d9db4484b5c5447a483456015f9fe
 workflow-type: tm+mt
-source-wordcount: '7094'
+source-wordcount: '7449'
 ht-degree: 0%
 
 ---
@@ -24,16 +24,26 @@ ht-degree: 0%
 
 ## 管理和設定
 
-<!--
-### Interface updates when editing a Scorecard
+### 群組中版面配置範本清單的介面更新
 
-**Preview release: August 21, 2025; Production release: August 21, 2025**
+**預覽版本： 2025年8月28日；生產版本： 2025年9月4日**
 
-We have updated the look and feel of the when editing a Scorecard to match the design in other areas of the application. You can view the updated design when editing a scorecard in the Setup area of Workfront.
+我們已更新群組中左側面板的版面配置範本清單外觀，以符合應用程式的其他區域。
 
-A small functionality change has been applied to the Scorecard. To edit a Scorecard, select the Scorecard from the list and click the Edit icon. You are no longer directed to the Scorecard details page before you can edit.
+若要檢視這些變更，請前往「設定>群組>選取群組>版面配置範本」。
 
--->
+如需詳細資訊，請參閱[建立和修改群組的配置範本](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)。
+
+
+### 編輯計分卡時介面更新
+
+**預覽版本： 2025年8月28日；生產版本： 2025年8月28日**
+
+我們更新了編輯計分卡時的外觀和風格，以符合應用程式其他區域的設計。 您可以在Workfront的「設定」區域中編輯計分卡時，檢視更新的設計。
+
+計分卡已套用小幅功能變更。 若要編輯計分卡，請從清單中選取計分卡，然後按一下編輯圖示。 在您編輯前，系統不會再將您導向計分卡詳細資訊頁面。
+
+
 
 ### 「設定」中「檢閱和核准」通知頁面的介面更新
 
@@ -120,7 +130,30 @@ A small functionality change has been applied to the Scorecard. To edit a Scorec
 
 若要檢視這項變更，請前往「設定>系統>更新SSO的使用者」
 
+## 專案組合
+
+### 編輯投資組合的介面更新
+
+**預覽版本： 2025年8月28日；生產版本： 2025年9月4日**
+
+我們引進了介面更新以編輯Portfolio方塊中的產品組合。 「編輯投資組合」和「編輯投資組合」方塊現在擁有符合Workfront其他區域的更新設計。
+
+>[!NOTE]
+>
+>大量編輯投資組合時，已移除重新計算運算式設定。 在清單中選取多個專案組合併按一下工具列「更多」選單中的「重新計算運算式」選項時，您仍可大量重新計算自訂運算式。
+
+
+如需詳細資訊，請參閱[編輯投資組合](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md)。
+
 ## 專案
+
+### 將任務轉換為沒有範本的專案的介面變更
+
+**預覽版本： 2025年8月28日；生產版本： 2025年9月4日**
+
+將任務轉換為沒有範本的專案時，我們對「轉換為專案」方塊引進了介面更新。 此方塊現在符合Workfront其他區域的設計。
+
+如需詳細資訊，請參閱[將任務轉換為專案](/help/quicksilver/manage-work/tasks/manage-tasks/convert-task-to-project.md)。
 
 ### 將物件新增至程式和投資組合時介面更新
 
@@ -161,14 +194,14 @@ A small functionality change has been applied to the Scorecard. To edit a Scorec
 
 如需詳細資訊，請參閱[建立佇列主題](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)。
 
-<!--### Interface update for the Edit Expense box of a project
+### 專案的「編輯費用」方塊的介面更新
 
-**Preview release: August 21, 2025; Production release: August 28, 2025**
+**預覽版本： 2025年8月28日；生產版本： 2025年9月4日**
 
-We have updated the dialog box for editing a project expense, to match other areas of the application. The updated dialog box is available when editing expenses in projects or templates.
+我們已更新用於編輯專案費用的對話方塊，以符合應用程式的其他區域。 編輯專案或範本中的費用時，可使用更新的對話方塊。
 
-For information, see [Manage project expenses](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
--->
+如需詳細資訊，請參閱[管理專案費用](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md)。
+
 
 ### 在時數區段中記錄專案、任務或問題的時間的介面更新
 
@@ -974,7 +1007,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 此更新包含區域的視覺化變更。 功能未變更。
 
-若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。**&#x200B;**
+若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。****
 
 +++
 
