@@ -166,7 +166,7 @@ Workfront中的Web Proof Viewer支援Workfront支援的大部分語言。
 
 1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下您的使用者設定檔圖片。
 
-1. 按一下[更多]功能表![](assets/more-icon.png)，然後按一下[編輯]****。
+1. 按一下[更多]功能表![](assets/more-icon.png)，然後按一下[編輯]&#x200B;**&#x200B;**。
 
 1. 在&#x200B;**偏好設定**&#x200B;區段中，按一下&#x200B;**電子郵件地區設定**&#x200B;下拉式清單，以選取您希望Workfront電子郵件顯示的語言。
 
