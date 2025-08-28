@@ -8,7 +8,7 @@ description: 作為 [!DNL Workfront Proof] 系統管理員，您可以為帳戶�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ca585494-5cda-4c41-b9b2-908e24d210d6
-source-git-commit: bf6c6c497d98d91ca78f892606a52f82ee4b5666
+source-git-commit: 3a938714a948ca7681dfd7deaf924af6453dee58
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 2%
@@ -28,7 +28,7 @@ ht-degree: 2%
 [!DNL Workfront Proof]提供下列語言版本：
 
 * 英文（美國/英國）
-* 巴西文（葡萄牙文）
+* 巴西葡萄牙文
 * 中文
 * 荷蘭文
 * 法文
@@ -42,11 +42,11 @@ ht-degree: 2%
 
 若要變更帳戶的預設語言，請遵循下列步驟。
 
-1. 移至[!DNL Workfront Proof]中&#x200B;**[!UICONTROL 帳戶設定]**&#x200B;的&#x200B;**[!UICONTROL 詳細資料]**&#x200B;標籤。
+1. 移至&#x200B;**[!UICONTROL 中]**&#x200B;帳戶設定&#x200B;**[!UICONTROL 的]**&#x200B;詳細資料[!DNL Workfront Proof]標籤。
 
 1. 在&#x200B;**[!UICONTROL 帳戶詳細資料]**&#x200B;區段中，針對&#x200B;**[!UICONTROL 預設語言]**&#x200B;設定按一下&#x200B;**[!UICONTROL 編輯]**。
 
-1. 在下拉式功能表中，選取您的預設語言。\
+1. 在下拉式功能表中，選取您的預設語言。
    ![account_language_setting.png](assets/account-language-setting-350x230.png)
 
 1. 按一下&#x200B;**[!UICONTROL 儲存]。**
@@ -55,7 +55,7 @@ ht-degree: 2%
 
 個別[!DNL Workfront Proof]使用者可以指定與其帳戶中預設使用的語言不同的語言。 若要變更您的個人預設語言，請遵循下列步驟。
 
-1. 移至[!DNL Workfront Proof]中&#x200B;**[!UICONTROL 個人設定]**&#x200B;的&#x200B;**[!UICONTROL 個人詳細資料]**&#x200B;標籤。\
+1. 移至&#x200B;**[!UICONTROL 中]**&#x200B;個人設定&#x200B;**[!UICONTROL 的]**&#x200B;個人詳細資料[!DNL Workfront Proof]標籤。\
    如需詳細資訊，請參閱[管理 [!DNL Workfront Proof] 使用者](../../../workfront-proof/wp-acct-admin/account-settings/manage-wp-users.md)。
 
 1. 按一下&#x200B;**[!UICONTROL 語言]**&#x200B;設定中的可見語言。

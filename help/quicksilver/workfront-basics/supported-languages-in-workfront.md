@@ -6,9 +6,9 @@ description: 您可以調整瀏覽器上的語言偏好設定和Adobe Workfront�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 0ae0e2d3c4e47a1f7344acf18068bba9cbbab597
+source-git-commit: 046c1eada53631c9ab50bb0c8233adb012223bb3
 workflow-type: tm+mt
-source-wordcount: '1159'
+source-wordcount: '1156'
 ht-degree: 1%
 
 ---
@@ -72,9 +72,8 @@ Workfront中的Web Proof Viewer支援Workfront支援的大部分語言。
 
 校訂工具不支援下列語言：
 
-* 中文 — 簡體(zh-CN)
 * 中文 — 繁體(zh-TW)
-* 葡萄牙文(pt-BR)
+* 韓文(ko-KR)
 
 貴公司必須購買校訂授權，您才能存取網頁校訂檢視器。
 
@@ -93,7 +92,7 @@ Workfront中的Web Proof Viewer支援Workfront支援的大部分語言。
 * Workfront Fusion不支援在使用者輸入的欄位中使用非英文文字字元。
 
 貴公司必須購買Workfront Fusion授權才能存取Workfront Fusion。\
-如需Workfront Fusion的詳細資訊，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+如需Workfront Fusion的詳細資訊，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 
 ## 變更語言
 
@@ -167,7 +166,7 @@ Workfront中的Web Proof Viewer支援Workfront支援的大部分語言。
 
 1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下您的使用者設定檔圖片。
 
-1. 按一下[更多]功能表![](assets/more-icon.png)，然後按一下[編輯]&#x200B;**&#x200B;**。
+1. 按一下[更多]功能表![](assets/more-icon.png)，然後按一下[編輯]****。
 
 1. 在&#x200B;**偏好設定**&#x200B;區段中，按一下&#x200B;**電子郵件地區設定**&#x200B;下拉式清單，以選取您希望Workfront電子郵件顯示的語言。
 
