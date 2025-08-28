@@ -4,9 +4,10 @@ description: 2025年第四季管理員增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0687c93dfc9b49379fd9592791e4b814f06a7ba1
+exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
+source-git-commit: a4aa7a6f8909dc3f7212f78391f28068d50a2786
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
@@ -16,6 +17,38 @@ ht-degree: 0%
 本頁說明2025年第四季版本管理員對預覽環境所做的增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2025年第四季版本週期目前可用的所有變更清單，請參閱[2025年第四季版本概觀](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)。
+
+## 為您的組織啟用AI Beta功能
+
+>[!NOTE]
+>
+>* 預覽： 2025年8月28日
+>* 生產快速發行： 2025年9月11日
+>* 所有客戶的生產： 2025年10月16日
+
+為了讓您更輕鬆地檢視及影響即將推出的AI功能，我們讓您能夠為貴組織啟用這些功能的Beta。 現在，您可以選擇從您的系統偏好設定啟用一或多個目前可用的AI Beta功能。
+
+之前，系統管理員無法啟用Beta功能。
+
+如需設定系統偏好設定的詳細資訊，請參閱[設定系統偏好設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)。
+
+如需啟用AI功能的先決條件，請參閱[ AI助理的必要條件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
+
+## Workfront使用者設定檔的更新
+
+>[!NOTE]
+>
+>* 預覽： 2025年8月28日
+>* 適用於所有客戶的生產： 2025年9月4日
+
+我們已將Workfront使用者設定檔的外觀與操作方式，更新為與Workfront其他區域一致的現代化設計。 這些更新會套用至編輯單一設定檔或大量編輯多個設定檔的管理員，或編輯自己設定檔的使用者。
+
+與目前的使用者設定檔有一些小的功能差異，包括：
+
+* 有些核取方塊（例如將使用者標示為使用中）已變更為切換或按鈕。
+* 「偏好設定」下的「將我指派給自己的工作傳送給我的工作索引標籤」選項已移除，因為它參考已棄用的功能。
+
+如需詳細資訊，請參閱[編輯使用者的設定檔](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
 
 ## 從外部API新增多個值選項至自訂表單
 
