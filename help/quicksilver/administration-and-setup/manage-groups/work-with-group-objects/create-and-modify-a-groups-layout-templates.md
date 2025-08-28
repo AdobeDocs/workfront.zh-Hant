@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 2be211a8-df84-49c3-827f-1215c77159e0
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: 909236983b7eefa25ea7961a2f760d87cae23132
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
@@ -66,19 +66,19 @@ ht-degree: 0%
 
 1. 執行下列任一項作業：
 
-   * 若要建立群組的新範本，請按一下[新增配置範本]。**&#x200B;**
+   * 若要建立群組的新範本，請按一下[新增配置範本]。****
 
      或
 
-     若要建立以現有範本為基礎的群組新範本，請選取現有範本，然後按一下[複製]。**&#x200B;**
+     若要建立以現有範本為基礎的群組新範本，請選取現有範本，然後按一下&#x200B;**複製**&#x200B;圖示![復製圖示](assets/copy-icon.png)。
 
      如需有關建立版面配置範本的資訊，請參閱[建立和管理版面配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)。
 
      如需複製配置範本以建立新配置範本的相關資訊，請參閱[複製配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md)。
 
-   * 若要編輯現有的群組配置範本，請選取該範本，然後按一下[編輯]。**&#x200B;**
+   * 若要編輯現有的群組配置範本，請選取該範本，然後按一下&#x200B;**編輯**&#x200B;圖示![編輯](assets/edit-icon.png)。
 
      如需有關編輯版面配置範本的資訊，請參閱[建立和管理版面配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)。
 
-   * 若要刪除一或多個配置範本，請選取這些範本，然後按一下[刪除]。**&#x200B;**
-   * **匯出**&#x200B;配置範本清單。
+   * 若要刪除一或多個配置範本，請選取這些範本，然後按一下&#x200B;**刪除**&#x200B;圖示![刪除圖示](assets/delete.png)。
+   * 若要匯出配置範本清單，請按一下&#x200B;**匯出**&#x200B;圖示![匯出圖示](assets/export-icon.png)。
