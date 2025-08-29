@@ -5,10 +5,11 @@ title: 刪除畫布控制面板
 description: 您可以排列報告新增到畫布控制面板後，在畫布控制面板中的顯示方式。
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+exl-id: 075df18c-08b8-467d-a0e4-60cd3abd5807
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 0%
+source-wordcount: '282'
+ht-degree: 2%
 
 ---
 
@@ -16,12 +17,19 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->畫布儀表板功能目前僅適用於參與Beta階段的使用者。 如需詳細資訊，請參閱[畫布控制面板Beta版資訊](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)。
+>畫布儀表板功能目前僅適用於參與Beta階段的使用者。 在此階段中，部分功能可能無法完成或如預期般運作。 請依照「畫布控制面板」測試版概觀文章中[提供意見回饋](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)一節的指示，提交有關您體驗的任何意見回饋。<br>
+>>請注意，以下雲端服務供應商未提供此測試版：
+>
+>* 自備Amazon Web Services金鑰
+>* Azure
+>* Google Cloud Platform
+
 
 當您不再需要畫布控制面板時，可以將其從Adobe Workfront中移除。
 
+## 存取需求
 
-+++ 展開以檢視存取需求。
++++ 展開以檢視存取需求。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -70,7 +78,8 @@ ht-degree: 0%
 
 >[!WARNING]
 >
->儀表板一經刪除，便無法復原。
+> 儀表板一經刪除，就無法復原儀表板及其所有自訂報表和/或視覺效果。<br>
+> > 如果刪除包含傳統報表的控制面板，則不會刪除傳統報表。
 
 {{step1-to-dashboards}}
 

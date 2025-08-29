@@ -6,10 +6,10 @@ description: 透過Adobe Workfront報告工具建立的報告可以新增到畫�
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: f77990ab-da7a-4dcb-89fa-f65ed2b79522
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 0%
+source-wordcount: '349'
+ht-degree: 1%
 
 ---
 
@@ -17,11 +17,18 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->畫布儀表板功能目前僅適用於參與Beta階段的使用者。 如需詳細資訊，請參閱[畫布控制面板Beta版資訊](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)。
+>畫布儀表板功能目前僅適用於參與Beta階段的使用者。 在此階段中，部分功能可能無法完成或如預期般運作。 請依照「畫布控制面板」測試版概觀文章中[提供意見回饋](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)一節的指示，提交有關您體驗的任何意見回饋。<br>
+>>請注意，以下雲端服務供應商未提供此測試版：
+>
+>* 自備Amazon Web Services金鑰
+>* Azure
+>* Google Cloud Platform
 
 透過Adobe Workfront報告工具建立的報告可以新增到畫布控制面板。 如需建立報告的詳細資訊，請參閱[開始使用報告](/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)。
 
-+++ 展開以檢視存取需求。
+## 存取需求
+
++++ 展開以檢視存取需求。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -56,6 +63,7 @@ ht-degree: 0%
 
 ## 新增現有報表至畫布控制面板
 
+
 {{step1-to-dashboards}}
 
 1. 在左側面板中，按一下&#x200B;**畫布控制面板**。
@@ -76,9 +84,15 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     > 目前在Beta版階段，**所有核准**&#x200B;首頁Widget是唯一可用的介面工具集。 此清單將隨著Beta版階段的進行而擴展。
+     > 在此Beta階段中，**檔案核准量度**&#x200B;首頁Widget是唯一可用的Widget。 此清單將隨著Beta版階段的進行而擴展。
 
 1. （選擇性）若要在將報告新增到儀表板之前檢視報告的詳細資訊，請按一下與所需報告一致的&#x200B;**檢視**。
 
 1. 按一下與您要新增的報告一致的&#x200B;**新增**。
+
+   >[!NOTE]
+   >
+   > 如果您想要在儀表板建立之後新增其他現有報表，請按一下儀表板詳細資訊頁面右上角的「**新增報表**」按鈕，然後重複步驟6至9。
+
+
 

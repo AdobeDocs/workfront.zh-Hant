@@ -6,9 +6,9 @@ description: 您可以將表格報表新增至畫布控制面板，以使用表�
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
-source-git-commit: 72344e5c1607ba6b4dd2a1e71a462bba93369b27
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '1045'
 ht-degree: 1%
 
 ---
@@ -17,11 +17,18 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->畫布儀表板功能目前僅適用於參與Beta階段的使用者。 如需詳細資訊，請參閱[畫布控制面板Beta版資訊](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)。
+>畫布儀表板功能目前僅適用於參與Beta階段的使用者。 在此階段中，部分功能可能無法完成或如預期般運作。 請依照「畫布控制面板」測試版概觀文章中[提供意見回饋](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)一節的指示，提交有關您體驗的任何意見回饋。<br>
+>>請注意，以下雲端服務供應商未提供此測試版：
+>
+>* 自備Amazon Web Services金鑰
+>* Azure
+>* Google Cloud Platform
 
 您可以將表格報表新增至畫布控制面板，以使用表格格式視覺化您的資料。
 
 ![資料表報告範例](assets/table-example-main.png)
+
+## 存取需求
 
 +++ 展開以檢視存取需求。 
 
@@ -60,6 +67,7 @@ ht-degree: 1%
 
 在建置表格報表之前，您必須先建立儀表板。
 
+
 ## 在畫布儀表板中建立表格報告
 
 有許多組態選項可用來建置表格報告。 在本節中，我們將引導您進行建立資料庫的一般程式。
@@ -91,6 +99,8 @@ ht-degree: 1%
    1. 在左側面板中，按一下&#x200B;**表格欄** ![建置表格圖示](assets/drilldown-column.png)圖示。
 
    1. 按一下&#x200B;**新增欄**，然後選取您要在表格中顯示為欄的欄位。 欄會顯示在右側的預覽區段中。
+
+
 
    1. 對要新增的每個欄重複上述步驟。
 
@@ -190,3 +200,35 @@ ht-degree: 1%
       ![擱置核准資料表篩選範例](assets/pending-approval-table-filter.png)
    1. （選擇性）新增其他篩選器，如下方&#x200B;**選擇性篩選器**&#x200B;一節所述。
 1. 按一下熒幕右上角的&#x200B;**儲存**。
+
+## 建立表格報表時的注意事項
+
+### 利用欄位選擇器
+
+**建置資料表**&#x200B;區段中的&#x200B;**區段**&#x200B;下拉式清單設計用來縮小欄位選取器中的選擇範圍，以便在建置資料表報告時更容易找到物件。 若要開始，您可以選取基礎實體物件。
+
+* **所有區段**： Workfront Workflow和Workfront Planning中的所有物件型別。
+* **Workfront物件**：原生Workfront工作流程物件。
+* **Planning記錄型別**： Workfront Planning中定義的自訂記錄型別。
+
+![區段下拉式清單](assets/sections-dropdown.png)
+
+選取基底實體物件後，**區段**&#x200B;下拉式清單會以適用的欄位型別選項更新，以便從中進行選擇。
+
+* **所有區段**：原生欄位、自訂欄位和相關物件。
+* **所有欄位**：原生和自訂欄位（排除關係）。
+* **自訂欄位**：自訂表單或Planning記錄上的客戶定義欄位。
+* **Workfront欄位**：僅限原生欄位。
+* **關係**：連線的記錄。
+
+![可報告物件選擇](assets/reportable-objects-selection.png)
+
+### 參照子物件
+
+其他欄、篩選選項和群組屬性的可用關係通常僅限於Workfront物件階層中較高的物件，或在報表的基本實體物件上具有單一選取範圍。 但有一些例外，包括：
+
+* 專案>任務
+* 檔案核准>檔案核准階段
+* 檔案核准階段>檔案核准階段參與者
+
+使用上面列出的任何父項至子項關係時，您會在表格中看到連線到父物件的每個子記錄的一列。

@@ -6,9 +6,9 @@ description: 可將您的資料視覺化為橫條、欄、折線圖或圓餅圖�
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1352'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,20 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->畫布儀表板功能目前僅適用於參與Beta階段的使用者。 如需詳細資訊，請參閱[畫布控制面板Beta版資訊](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)。
+>畫布儀表板功能目前僅適用於參與Beta階段的使用者。 在此階段中，部分功能可能無法完成或如預期般運作。 請依照「畫布控制面板」測試版概觀文章中[提供意見回饋](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)一節的指示，提交有關您體驗的任何意見回饋。<br>
+>>請注意，以下雲端服務供應商未提供此測試版：
+>
+>* 自備Amazon Web Services金鑰
+>* Azure
+>* Google Cloud Platform
 
 您可以建立圖表報表並新增至畫布控制面板，將資料視覺化為長條圖、欄圖、折線圖或圓餅圖。
 
 ![圖表報告](assets/chart-report-main.png)
 
-+++ 展開以檢視存取需求。
+## 存取需求
+
++++ 展開以檢視存取需求。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -90,7 +97,7 @@ ht-degree: 0%
 
       >[!NOTE]
       >
-      >圖表中可顯示的序列數已達上限。 核取此方塊時，超過限制的任何數列都會合併成圖表中的&#x200B;**其他**&#x200B;群組。
+      >可在圖表中顯示的數目上限為60個序列。 核取此方塊時，超過限制的任何數列都會合併成圖表中的&#x200B;**其他**&#x200B;群組。
 
 1. 請依照下列步驟設定&#x200B;**建置圖表**&#x200B;區段：
 
@@ -100,7 +107,7 @@ ht-degree: 0%
 
       * **列**
       * **資料行**
-      * **行**
+      * **Line**
       * **圓形圖**
 
    1. 在&#x200B;**資料行型別**&#x200B;下拉式清單中，選取資料行型別：
@@ -204,6 +211,8 @@ ht-degree: 0%
 
    1. 在求值器欄位中輸入&#x200B;*$$TODAY*。
 
+      如需萬用字元的詳細資訊，請參閱[在畫布儀表板中編輯報告篩選器](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md)文章中的日期型萬用字元篩選器變數一節。
+
       ![評估器欄位](assets/add-condition.png)
 
 1. 請依照下列步驟設定&#x200B;**向下鑽研資料行設定**&#x200B;區段：
@@ -227,3 +236,35 @@ ht-degree: 0%
    1. 按一下&#x200B;**新增群組**&#x200B;按鈕，然後選取&#x200B;**專案** > **名稱**&#x200B;欄位。
 
 1. 按一下&#x200B;**儲存**&#x200B;以建立報告並將其新增到儀表板。
+
+## 建立圖表報表時的注意事項
+
+### 利用欄位選擇器
+
+**建置圖表**&#x200B;區段中的&#x200B;**區段**&#x200B;下拉式清單是用來縮小欄位選取器中的選擇範圍，以便在建置表格報告時更容易找到物件。 若要開始，您可以選取基礎實體物件。
+
+* **所有區段**： Workfront Workflow和Workfront Planning中的所有物件型別。
+* **Workfront物件**：原生Workfront工作流程物件。
+* **Planning記錄型別**： Workfront Planning中定義的自訂記錄型別。
+
+![區段下拉式清單](assets/sections-dropdown.png)
+
+選取基底實體物件後，**區段**&#x200B;下拉式清單會以適用的欄位型別選項更新，以便從中進行選擇。
+
+* **所有區段**：原生欄位、自訂欄位和相關物件。
+* **所有欄位**：原生和自訂欄位（排除關係）。
+* **自訂欄位**：自訂表單或Planning記錄上的客戶定義欄位。
+* **Workfront欄位**：僅限原生欄位。
+* **關係**：連線的記錄。
+
+![可報告物件選擇](assets/reportable-objects-selection.png)
+
+### 參照子物件
+
+其他欄、篩選選項和群組屬性的可用關係通常僅限於Workfront物件階層中較高的物件，或在報表的基本實體物件上具有單一選取範圍。 但有一些例外，包括：
+
+* 專案>任務
+* 檔案核准>檔案核准階段
+* 檔案核准階段>檔案核准階段參與者
+
+使用上面列出的任何父項至子項關係時，您會在表格中看到連線到父物件的每個子記錄的一列。

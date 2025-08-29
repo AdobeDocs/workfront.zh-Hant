@@ -5,10 +5,11 @@ title: 在畫布控制面板中編輯報告
 description: 您可以在畫布控制面板報表建立後加以編輯。
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+exl-id: fd659f56-d67f-4a0f-8735-b214934903ac
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 0%
+source-wordcount: '499'
+ht-degree: 2%
 
 ---
 
@@ -16,14 +17,19 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->畫布儀表板功能目前僅適用於參與Beta階段的使用者。 如需詳細資訊，請參閱[畫布控制面板Beta版資訊](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)。
+>畫布儀表板功能目前僅適用於參與Beta階段的使用者。 在此階段中，部分功能可能無法完成或如預期般運作。 請依照「畫布控制面板」測試版概觀文章中[提供意見回饋](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)一節的指示，提交有關您體驗的任何意見回饋。<br>
+>>請注意，以下雲端服務供應商未提供此測試版：
+>
+>* 自備Amazon Web Services金鑰
+>* Azure
+>* Google Cloud Platform
 
 將報表新增至畫布控制面板後，您可以編輯報表資訊以變更控制面板中顯示的資料。
 
 對報告所做的任何變更都將影響對包含該報告的儀表板具有存取權的所有使用者。
 
 
-+++ 展開以檢視存取需求。
++++ 展開以檢視存取需求。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -81,7 +87,7 @@ ht-degree: 0%
 
 1. （選用）如果編輯KPI報表，請視需要編輯下列區段中的資訊：
 
-   * **詳細資料**
+   * **詳細資訊**
    * **建置KPI**
    * **篩選器**
    * **向下鑽研資料行設定**
@@ -91,7 +97,7 @@ ht-degree: 0%
 
 1. （選擇性）如果編輯圖表報告，請視需要編輯下列區段中的資訊：
 
-   * **詳細資料**
+   * **詳細資訊**
    * **建置圖表**
    * **篩選器**
    * **向下鑽研資料行設定**
@@ -101,7 +107,7 @@ ht-degree: 0%
 
 1. （選擇性）如果編輯「表格」報表，請視需要編輯下列區段中的資訊：
 
-   * **詳細資料**
+   * **詳細資訊**
    * **建置資料表**
    * **篩選器**
    * **群組設定**

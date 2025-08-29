@@ -5,10 +5,11 @@ title: 將畫布儀表板新增到版面配置範本
 description: 您可以將「畫布控制面板」新增至版面配置範本，使其取代「首頁」登陸頁面、出現在物件的左側面板，或釘選至頂端列。
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: b5899500cad1ac32345d39f76eea7f643f1cd0ea
+exl-id: 91ebcec5-99a4-4096-8d4e-b4ea31755d75
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 1%
+source-wordcount: '547'
+ht-degree: 2%
 
 ---
 
@@ -16,11 +17,18 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->畫布儀表板功能目前僅適用於參與Beta階段的使用者。 如需詳細資訊，請參閱[畫布控制面板Beta版資訊](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)。
+>畫布儀表板功能目前僅適用於參與Beta階段的使用者。 在此階段中，部分功能可能無法完成或如預期般運作。 請依照「畫布控制面板」測試版概觀文章中[提供意見回饋](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)一節的指示，提交有關您體驗的任何意見回饋。<br>
+>>請注意，以下雲端服務供應商未提供此測試版：
+>
+>* 自備Amazon Web Services金鑰
+>* Azure
+>* Google Cloud Platform
 
 您可以將「畫布控制面板」新增至版面配置範本，使其取代首頁登陸頁面、出現在物件的左側面板，或固定在整個Adobe Workfront的頂端列。
 
 ![左側面板](assets/left-panel.png)
+
+## 存取需求
 
 +++ 展開以檢視存取需求。 
 

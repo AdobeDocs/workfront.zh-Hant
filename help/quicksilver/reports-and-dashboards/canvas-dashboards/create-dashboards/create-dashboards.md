@@ -5,10 +5,11 @@ title: 建立畫布控制面板
 description: 有了畫布控制面板，您可以建立報表並新增至可自訂的控制面板，以便快速將您的帳戶資料視覺化。
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+exl-id: bd31e426-7c4a-4ff8-9432-c95dc8ee3743
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 0%
+source-wordcount: '398'
+ht-degree: 1%
 
 ---
 
@@ -16,11 +17,18 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->畫布儀表板功能目前僅適用於參與Beta階段的使用者。 如需詳細資訊，請參閱[畫布控制面板Beta版資訊](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)。
+>畫布儀表板功能目前僅適用於參與Beta階段的使用者。 在此階段中，部分功能可能無法完成或如預期般運作。 請依照「畫布控制面板」測試版概觀文章中[提供意見回饋](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)一節的指示，提交有關您體驗的任何意見回饋。<br>
+>>請注意，以下雲端服務供應商未提供此測試版：
+>
+>* 自備Amazon Web Services金鑰
+>* Azure
+>* Google Cloud Platform
 
 有了畫布控制面板，您可以建立報表並新增至可自訂的控制面板，以便快速將您的帳戶資料視覺化。
 
-+++ 展開以檢視存取需求。
+## 存取需求
+
++++ 展開以檢視存取需求。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -52,6 +60,10 @@ ht-degree: 0%
 
 如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 +++
+
+## 先決條件
+
+必須在儀表板頁面左側導覽專案的版面配置範本設定中啟用畫布儀表板。
 
 ## 建立儀表板
 

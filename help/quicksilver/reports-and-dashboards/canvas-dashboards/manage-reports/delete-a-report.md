@@ -5,10 +5,11 @@ title: 刪除畫布控制面板中的報告
 description: 您可以從「畫布」控制面板刪除報表。
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+exl-id: 98d26160-a097-473d-8d66-e6d619cb2908
+source-git-commit: 68a4a9d1c3980fd947b5fefef19cdfa09591e849
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 0%
+source-wordcount: '292'
+ht-degree: 1%
 
 ---
 
@@ -16,14 +17,20 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->畫布儀表板功能目前僅適用於參與Beta階段的使用者。 如需詳細資訊，請參閱[畫布控制面板Beta版資訊](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)。
+>畫布儀表板功能目前僅適用於參與Beta階段的使用者。 在此階段中，部分功能可能無法完成或如預期般運作。 請依照「畫布控制面板」測試版概觀文章中[提供意見回饋](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)一節的指示，提交有關您體驗的任何意見回饋。<br>
+>>請注意，以下雲端服務供應商未提供此測試版：
+>
+>* 自備Amazon Web Services金鑰
+>* Azure
+>* Google Cloud Platform
 
 建立「畫布控制面板」且新增報表後，您可以刪除不再適用於該特定控制面板的舊版報表。
 
 刪除報告是永久性的。 如果在刪除報告後需要重新新增報告，則需要重新建立報告。
 
+## 存取需求
 
-+++ 展開以檢視存取需求。
++++ 展開以檢視存取需求。 
 
 <table style="table-layout:auto"> 
 <col> 

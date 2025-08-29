@@ -5,9 +5,10 @@ title: 篩選畫布控制面板
 description: 建立畫布控制面板後，您就可以將篩選器套用至控制面板。
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: fcce7c6b9a2d10069a4b6c50b7b7a244ac538a33
+exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '863'
 ht-degree: 0%
 
 ---
@@ -16,9 +17,17 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->畫布儀表板功能目前僅適用於參與Beta階段的使用者。 如需詳細資訊，請參閱[畫布控制面板Beta版資訊](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)。
+>畫布儀表板功能目前僅適用於參與Beta階段的使用者。 在此階段中，部分功能可能無法完成或如預期般運作。 請依照「畫布控制面板」測試版概觀文章中[提供意見回饋](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)一節的指示，提交有關您體驗的任何意見回饋。<br>
+>>請注意，以下雲端服務供應商未提供此測試版：
+>
+>* 自備Amazon Web Services金鑰
+>* Azure
+>* Google Cloud Platform
+
 
 您可以將篩選器套用至包含提示的畫布控制面板。 提示會當做篩選器修飾詞使用，套用其他篩選條件，以便您進一步縮小結果的範圍。 每次套用篩選器時都可以修改這些提示，讓您能夠調整顯示的結果，而無需編輯儀表板或每個個別報告的主要篩選條件。
+
+## 存取需求
 
 +++ 展開以檢視存取需求。 
 
@@ -163,7 +172,7 @@ ht-degree: 0%
 
 1. 在儀表板詳細資訊頁面的左上角，按一下&#x200B;**篩選器**。 篩選器側面板隨即開啟。
 
-1. 在&#x200B;**顯示記錄位置……**&#x200B;區段中，選擇一個或所有顯示的提示的條件。 已套用提示，且已套用&#x200B;**控制面板篩選器**&#x200B;標籤會顯示在報表Widget的角落。
+1. 在&#x200B;**顯示記錄位置……**&#x200B;區段中，選擇一個或所有顯示的提示的條件。 已套用提示，且已套用&#x200B;**控制面板篩選器**標籤會顯示在報表Widget的角落。
    ![選取條件](assets/prompts-list.png)
 
 1. 按一下右上角的&#x200B;**關閉**&#x200B;圖示![關閉圖示](assets/close-icon.png)以隱藏面板。
