@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 567fa8c960f7db47279d6cde1f5e90dc7f38ae79
+source-git-commit: b291525db0105081b5ff3dd65d9d2b3267a2f60c
 workflow-type: tm+mt
 source-wordcount: '2192'
 ht-degree: 0%
@@ -54,7 +54,7 @@ ht-degree: 0%
    <td role="rowheader"><p>Adobe Workfront計畫*</p></td> 
    <td> 
 <p>下列任一Workfront計畫：</p> 
-<ul><li>選取</li> 
+<ul><li>選擇</li> 
 <li>Prime</li> 
 <li>Ultimate</li></ul> 
 <p>舊版Workfront計畫不提供Workfront計畫</p> 
@@ -95,7 +95,7 @@ ht-degree: 0%
 
 *如需Workfront存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-+++
++++   
 
 
 ## 編輯記錄的相關考量事項
@@ -106,6 +106,10 @@ ht-degree: 0%
    * 記錄檢視中的記錄預覽
    * 記錄的詳細資訊頁面
    * 內嵌，在表格檢視中。
+<!--* You can edit a record's dates from the following areas:
+    * All areas listed above
+    * <span class="preview">In a timeline view, by resizing the record bars or dragging and dropping the record in the timeline</span>
+        For information, see [Create records](/help/quicksilver/planning/records/create-records.md). -->
 
 * 當使用者在檢視中編輯記錄時，變更會立即在所有檢視中可見，並且記錄頁面會向所有其他使用者顯示。
 

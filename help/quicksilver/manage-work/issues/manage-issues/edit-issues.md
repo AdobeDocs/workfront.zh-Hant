@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: b291525db0105081b5ff3dd65d9d2b3267a2f60c
 workflow-type: tm+mt
-source-wordcount: '2566'
+source-wordcount: '2618'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 2%
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視本文中功能的存取需求。 
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -163,11 +163,9 @@ ht-degree: 2%
      <tr> 
       <td role="rowheader">說明</td> 
       <td> <p>新增問題的相關額外資訊。</p> </td> 
-     </tr> 
-     <tr> 
-      <td colspan="2" role="rowheader">基本資訊區段</td> 
-     </tr> 
-     <tr> 
+     </tr>
+
+   <tr> 
       <td role="rowheader">狀態</td> 
       <td> <p>選取問題的狀態。 如需問題狀態的詳細資訊，請參閱<a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">存取系統問題狀態清單</a>。 </p> </td> 
      </tr> 
@@ -192,8 +190,24 @@ ht-degree: 2%
         <li> <p style="font-weight: bold;">無因應措施的錯誤</p> </li> 
         <li> <p style="font-weight: bold;">致命錯誤</p> </li> 
        </ul> <p>根據您的Workfront管理員所選取的專案偏好設定，嚴重程度的名稱可能會有所不同。 如需有關編輯嚴重程度的詳細資訊，請參閱<a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md" class="MCXref xref">建立或自訂問題嚴重程度</a>。</p> </td> 
-     </tr> 
-     <tr> 
+     </tr>
+
+   <tr> 
+   <td role="rowheader">問題條件</td> 
+   <td> <p>問題的狀態是放置於其上的旗標，以表示問題的進行。</p> 
+   <p>您可以自動或手動設定任務或問題的條件。</p>
+   <p>您必須被指派問題才能變更其條件。</p>
+   <p>從下列選項中選取：</p> 
+      <ul> 
+   <li> <p style="font-weight: bold;">進展順利</p> </li> 
+   <li> <p style="font-weight: bold;">部分關注事項</p> </li> 
+   <li> <p style="font-weight: bold;">主要障礙</p> </li> 
+   </ul> </td> 
+     </tr>
+
+
+
+   <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>鍵入與問題相關資訊相關的網頁連結。</p> </td> 
      </tr> 
