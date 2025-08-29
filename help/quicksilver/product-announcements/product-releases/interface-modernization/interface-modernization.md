@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: ae5cc55bcd1d9db4484b5c5447a483456015f9fe
+source-git-commit: 31cc110fb4fba38a530406acc1f42a89159e029b
 workflow-type: tm+mt
-source-wordcount: '7449'
+source-wordcount: '7469'
 ht-degree: 0%
 
 ---
@@ -180,6 +180,10 @@ ht-degree: 0%
 
 **預覽版本： 2025年8月21日；生產版本： 2025年8月28日**
 
+>[!NOTE]
+>
+>此功能已暫時從生產環境中移除。
+
 當您將新佇列主題新增至專案或範本時，我們已更新「新佇列主題」方塊的外觀和風格，以符合Workfront其他區域的設計。
 
 如需詳細資訊，請參閱[建立佇列主題](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)。
@@ -187,6 +191,10 @@ ht-degree: 0%
 ### 編輯專案或範本上的佇列主題時更新介面
 
 **預覽版本： 2025年8月21日；生產版本： 2025年8月28日**
+
+>[!NOTE]
+>
+>此功能已暫時從生產環境中移除。
 
 我們已更新編輯專案和範本的佇列主題時的體驗，以符合Workfront的其他區域。
 
@@ -1007,7 +1015,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 此更新包含區域的視覺化變更。 功能未變更。
 
-若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。**&#x200B;**
+若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。****
 
 +++
 
