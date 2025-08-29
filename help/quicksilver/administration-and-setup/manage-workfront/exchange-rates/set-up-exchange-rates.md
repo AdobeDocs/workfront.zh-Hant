@@ -8,9 +8,9 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 149c08de-fd3a-465a-afd1-0b53012d30d8
-source-git-commit: cb12c715d6b20dd4737e2d2e29d9849f08ce67e9
+source-git-commit: dc820b4012fec494ce5ebb1baefb4ee0df214916
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '650'
 ht-degree: 2%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td>
+   <td>[！UICONTROL系統管理員]</td>
   </tr> 
  </tbody> 
 </table>
@@ -89,6 +89,10 @@ ht-degree: 2%
    * 將滑鼠停留在貨幣名稱上，然後按一下出現的&#x200B;**更多**&#x200B;功能表。 然後，選取&#x200B;**設定預設值**。
 
      新的預設貨幣會以圖示更新。
+
+     >[!NOTE]
+     >
+     >預設貨幣一律顯示在清單的第一位，無論清單如何排序。
 
 1. （選擇性）若要刪除貨幣，請選取貨幣名稱旁的核取方塊，然後在畫面底部的動作列中選取&#x200B;**刪除**。 您無法刪除預設貨幣。
 
