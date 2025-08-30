@@ -7,7 +7,7 @@ author: Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
+source-git-commit: 8fdf48c5b17a17e4dd1ef2e441659155ae0b9905
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 1%
@@ -19,7 +19,7 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >畫布儀表板功能目前僅適用於參與Beta階段的使用者。 在此階段中，部分功能可能無法完成或如預期般運作。 請依照下方[提供回饋意見](#provide-feedback)一節中的指示，提交有關您體驗的任何回饋意見。<br>
->&#x200B;>請注意，以下雲端服務供應商未提供此測試版：
+>>請注意，以下雲端服務供應商未提供此測試版：
 >
 >* 自備Amazon Web Services金鑰
 >* Azure
@@ -89,7 +89,7 @@ ht-degree: 1%
 
 1. 在&#x200B;**Canvas Dashboards Beta Feedback**&#x200B;頁面上輸入&#x200B;**意見主題**&#x200B;和&#x200B;**意見說明**。
 
-1. （選擇性）在&#x200B;**其他詳細資料**&#x200B;區段中，於&#x200B;**報告活動**&#x200B;下拉式清單中選取與您的feebdack相關的活動型別。
+1. （選擇性）在&#x200B;**其他詳細資料**&#x200B;區段中，於&#x200B;**報告活動**&#x200B;下拉式清單中選取與您的意見回饋相關的活動型別。
 
 1. （選擇性）在&#x200B;**報表物件型別**&#x200B;下拉式清單中，選取您要提供意見回饋的物件型別。
 
