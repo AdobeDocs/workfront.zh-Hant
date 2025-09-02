@@ -6,7 +6,7 @@ description: 報告篩選器套用至畫布控制面板後，您就可以編輯�
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 5205c342-7f63-438e-97c8-e74f7dfecfd0
-source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
+source-git-commit: 64a71767c88362b55470e5eeffc2f41bb7482734
 workflow-type: tm+mt
 source-wordcount: '1023'
 ht-degree: 9%
@@ -18,7 +18,7 @@ ht-degree: 9%
 >[!IMPORTANT]
 >
 >畫布儀表板功能目前僅適用於參與Beta階段的使用者。 在此階段中，部分功能可能無法完成或如預期般運作。 請依照「畫布控制面板」測試版概觀文章中[提供意見回饋](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)一節的指示，提交有關您體驗的任何意見回饋。<br>
->&#x200B;>請注意，以下雲端服務供應商未提供此測試版：
+>>請注意，以下雲端服務供應商未提供此測試版：
 >
 >* 自備Amazon Web Services金鑰
 >* Azure

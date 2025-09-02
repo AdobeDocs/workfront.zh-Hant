@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: a4aa7a6f8909dc3f7212f78391f28068d50a2786
+source-git-commit: e835f3721f8d732780ab199fd6da47f563004077
 workflow-type: tm+mt
-source-wordcount: '1871'
+source-wordcount: '1905'
 ht-degree: 2%
 
 ---
@@ -42,8 +42,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
 * [檔案和校訂增強功能](#document-and-proofing-enhancements)
 * [首頁增強功能](#home-enhancements)
 * [專案增強功能](#project-enhancements)
-* [要求增強功能](#requests-enhancements)
 * [資源管理增強功能](#resource-management-enhancements)
+* [要求增強功能](#requests-enhancements)
 * [其他增強功能](#other-enhancements)
 
 ### 管理員增強功能
@@ -68,7 +68,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>     
      <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">更新Workfront使用者設定檔</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">更新Workfront使用者設定檔</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
             <p>我們已將Workfront使用者設定檔的外觀與操作方式，更新為與Workfront其他區域一致的現代化設計。 這些更新會套用至編輯單一設定檔或大量編輯多個設定檔的管理員，或編輯自己設定檔的使用者。</p>
             <p>與目前的使用者設定檔有一些小的功能差異，包括：</p>
             <ul>
@@ -107,7 +107,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-document-and-proof.md" class="MCXref xref" xrefformat="{para}">已分階段推出整合核准</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-document-and-proof.md" class="MCXref xref" xrefformat="{para}">已分階段推出整合核准</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
             <p>我們正在分階段啟用統一核准（先前稱為新檔案核准）。 在接下來的六個月中，此功能將會在您的Workfront執行個體中自動啟用。</p>
             <p>整合式核准會取代舊版檔案核准，並提供新功能。 
 </p>
@@ -175,36 +175,6 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table>
 
-### 要求增強功能
-
-<table style="table-layout:auto">
-  <tbody>
-   <tr>
-        <td><strong>功能</strong>
-        </td>
-        <td><strong>預覽</strong></td>
-        <td><strong>快速發行</strong></td>
-        <td><strong>每季</strong></td>
-    </tr>
-    <tr>
-        <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">要求體驗的更新</a><p></p>
-            <p>為了在Workfront和Workfront Planning中提出請求時建立更好的使用者體驗，我們已更新請求體驗。 現在您可以：
-            <ul>
-                <li>在單一清單中檢視Workfront和Workfront Planning請求。</li>
-                <li>根據您指定的條件篩選已提交的請求。</li>
-                <li>在整合的體驗中搜尋並選取Workfront請求佇列和Workfront Planning表單。</li>
-                <li>隱藏並重新排序已提交請求清單中的欄。</li>
-            </ul>
-            </p>
-        </td>
-        <td>2025年8月21日</td>
-        <td>2025年9月11日</td>
-        <td>2025年10月16日</td>
-    </tr>     
-  </tbody>
-</table>
-
 ### 專案增強功能
 
 <table style="table-layout:auto">
@@ -227,7 +197,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr> -->
   <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">新增運算式至Planning的公式欄位和Workfront的計算自訂欄位</a><p><p>[!BADGE Off Schedule]{type=Neutral}</p></p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">新增運算式至Planning的公式欄位和Workfront的計算自訂欄位</a><p><p>[！BADGE Off Schedule]{type=Neutral}</p></p>
             <p>我們已將具有以下用途的新運算式新增至Workfront Planning中的公式欄位及Workfront中的計算自訂欄位：</p>
             <ul>
             <li>REMOVEACCENTS(string)：移除輸入字串中所有重音字元的變音標籤。</li>
@@ -280,6 +250,45 @@ The <add release> release webinar will be held on <date>. You can [register for 
         </td>
         <td>2025年7月31日</td>
         <td>2025年8月14日</td>
+        <td>2025年10月16日</td>
+    </tr>     
+  </tbody>
+</table>
+
+### 要求增強功能
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>功能</strong>
+        </td>
+        <td><strong>預覽</strong></td>
+        <td><strong>快速發行</strong></td>
+        <td><strong>每季</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">整合式要求清單中新的合併狀態列</a><p></p>
+            <p>為簡化統一請求體驗，「狀態」欄現在會顯示「請求狀態」和「核准狀態」（視哪一個適用於指定請求而定）。</p>
+        </td>
+        <td>2025年8月28日</td>
+        <td>2025年9月11日</td>
+        <td>2025年10月16日</td>
+    </tr>     
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">要求體驗的更新</a><p></p>
+            <p>為了在Workfront和Workfront Planning中提出請求時建立更好的使用者體驗，我們已更新請求體驗。 現在您可以：
+            <ul>
+                <li>在單一清單中檢視Workfront和Workfront Planning請求。</li>
+                <li>根據您指定的條件篩選已提交的請求。</li>
+                <li>在整合的體驗中搜尋並選取Workfront請求佇列和Workfront Planning表單。</li>
+                <li>隱藏並重新排序已提交請求清單中的欄。</li>
+            </ul>
+            </p>
+        </td>
+        <td>2025年8月21日</td>
+        <td>2025年9月11日</td>
         <td>2025年10月16日</td>
     </tr>     
   </tbody>
@@ -389,7 +398,7 @@ Workfront Planning的新功能可在生產環境中使用。 如需最新功能�
 * 適用於Salesforce的Workfront。
 
 為了滿足貴組織與Google Workspace的整合需求，我們建議您使用Workfront自動化和整合。
-如需Workfront自動化與整合的概觀，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+如需Workfront自動化與整合的概觀，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 
 ### API 20版
 
@@ -401,8 +410,8 @@ Workfront API版本20已於2025年5月4日發行。 針對API 20版，我們已�
 
 ### Workfront 維護更新
 
-如需2025年第一季度期間所進行維護更新的相關資訊，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=zh-Hant)。
+如需2025年第一季度期間所進行維護更新的相關資訊，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)。
 
 ### 訓練更新
 
-探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[Workfront教學課程頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=zh-Hant)的「新增功能」一節。
+探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[Workfront教學課程頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的「新增功能」一節。

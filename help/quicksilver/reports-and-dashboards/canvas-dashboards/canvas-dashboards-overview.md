@@ -7,7 +7,7 @@ author: Courtney and Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: d82bb8a2-a2a6-43d6-a62e-e90f69229533
-source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
+source-git-commit: 5ce472f19cdf72d4aba07f34b11092fa16b7bd2f
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 2%
@@ -19,7 +19,7 @@ ht-degree: 2%
 >[!IMPORTANT]
 >
 >畫布儀表板功能目前僅適用於參與Beta階段的使用者。 在此階段中，部分功能可能無法完成或如預期般運作。 請依照「畫布控制面板」測試版概觀文章中[提供意見回饋](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)一節的指示，提交有關您體驗的任何意見回饋。<br>
->&#x200B;>請注意，以下雲端服務供應商未提供此測試版：
+>>請注意，以下雲端服務供應商未提供此測試版：
 >
 >* 自備Amazon Web Services金鑰
 >* Azure
