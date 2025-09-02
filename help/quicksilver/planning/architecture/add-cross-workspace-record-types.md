@@ -4,9 +4,9 @@ description: 記錄型別是Adobe Workfront Planning的物件型別。 在Workfr
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
+source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '584'
 ht-degree: 1%
 
 ---
@@ -44,48 +44,28 @@ recommendations: noDisplay, noCatalog
 </col> 
 <tbody> 
     <tr> 
+<tr>
+
+</tr>   
 <tr> 
-<td> 
-   <p> 產品</p> </td> 
+   <td role="rowheader"><p>Adobe Workfront套件*</p></td> 
    <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront規劃<p></li></ul></td> 
-  </tr>   
-<tr> 
-   <td role="rowheader"><p>Adobe Workfront計畫*</p></td> 
-   <td> 
-<p>下列任一Workfront計畫：</p> 
-<ul><li>選擇</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>舊版Workfront計畫不提供Workfront計畫</p> 
-   </td> 
-<tr> 
-   <td role="rowheader"><p>Adobe Workfront規劃套件*</p></td> 
-   <td> 
-<p>任何 </p> 
+<ul><li><p>任何Workfront套件</p></li>
+與
+<li><p>Planning Plus套件</p></li></ul>
+或：
+<ul><li><p>任何Workflow封裝</p> </li>
+與
+<li><p>規劃Prime或Ultimate套件</p></li></ul>
 <p>如需每個Workfront計畫包含內容的詳細資訊，請聯絡您的Workfront客戶經理。 </p> 
-   </td> 
- <tr> 
-   <td role="rowheader"><p>Adobe Workfront平台</p></td> 
-   <td> 
-<p>貴組織的Workfront例項必須上線至Adobe Unified Experience，才能存取Workfront Planning。</p> 
-<p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">適用於Workfront的Adobe Unified Experience</a>。 </p> 
-   </td> 
-   </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Adobe Workfront授權*</p></td> 
-   <td><p> 標準</p>
-   <p>Workfront計畫不適用於舊版Workfront授權</p> 
-  </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>存取層級設定</p></td> 
-   <td> <p>Adobe Workfront Planning沒有存取層級控制</p>   
-</td> 
-  </tr> 
+   </td>
+
 <tr> 
+   <td role="rowheader"><p>Adobe Workfront授權</p></td> 
+   <td><p>標準</p>
+   </td> 
+  </tr> 
+  <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
    <td>   <p>管理工作區</a>的許可權 </p>  
    <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p>  </td> 
@@ -105,8 +85,9 @@ recommendations: noDisplay, noCatalog
 * 從另一個工作區新增記錄型別之後，也會從現有記錄型別新增以下資訊：
 
    * 欄位
-   * 記錄
    * 記錄連線
+
+* 只有在您擁有其他工作區的許可權時，才能檢視從這些工作區新增的記錄。
 
 * 您只能在其原始工作區中編輯記錄型別，包括其欄位。 您無法從新增它的工作區中編輯它。
 * 從所有工作區新增的記錄將對從所有工作區存取它們的所有使用者可見，即使這些記錄是在沒有許可權的工作區中建立的。

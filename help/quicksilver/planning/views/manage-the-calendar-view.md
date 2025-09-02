@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
+source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
 workflow-type: tm+mt
-source-wordcount: '1624'
+source-wordcount: '1620'
 ht-degree: 5%
 
 ---
@@ -145,9 +145,11 @@ ht-degree: 5%
 
 1. 更新下列檢視元素，如下列子區段所述：
    * [篩選器](#add-filters)
+     <!--<span class="preview">[Row height](#modify-row-height)</span>-->
    * [設定](#edit-the-calendar-view-settings)
-     <!--* [Grouping](#add-grouping)-->
-     <!--* [Sort](#add-sort) not sure if this is present in calendar views?!; also check the anchor and make sure it's correct-->
+
+   <!--* [Grouping](#add-grouping)-->
+   <!--* [Sort](#add-sort) not sure if this is present in calendar views?!; also check the anchor and make sure it's correct-->
 
 ### 新增篩選器
 
@@ -174,7 +176,7 @@ ht-degree: 5%
 若要將篩選器新增至行事曆檢視：
 
 1. 建立記錄型別頁面的行事曆檢視，如文章[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)中所述。
-1. 選取行事曆檢視，然後按一下表格右上角的&#x200B;**篩選器**。
+1. 選取行事曆檢視，然後按一下行事曆工具列中的&#x200B;**篩選器**。
 1. 按一下&#x200B;**新增條件**&#x200B;並新增下列資訊：
 
    * **選取您要依**&#x200B;篩選的欄位<!-- the tip below might change-->
@@ -266,6 +268,76 @@ ht-degree: 5%
 
 1. （選擇性）按一下&#x200B;**x**&#x200B;圖示以移除篩選條件。
 1. （選擇性）按一下&#x200B;**篩選器**&#x200B;以關閉篩選器方塊。<!--right now you cannot "clear all" for filters, but this might come later-->
+
+<!--
+<span class="preview">
+
+### Modify row height
+
+You can modify the row height of a calendar cell to increase or decrease the number of record bars you display in each cell. 
+
+The number of records displayed in the calendar varies depending on how many fields you display on the records' bars. 
+
+1. Create a calendar view for a record type page, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
+1. Select a calendar view, then click **Row height** in the calendar's toolbar.    
+1. Choose from the following options: 
+
+<table>
+<thead>
+<tr>
+    <th><b>Row height option</b></th>
+    <th><b>Number of records</b></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+    <td>Short</td>
+    <td><p>Contains:</p>
+
+<ul><li>2 records displaying 1 field</li>
+<li>1 record displaying more than 1 field</li></ul>
+    </td>
+</tr>
+<tr><td>Standard</td>
+    <td><p>Contains:</p>
+
+<ul><li>4 records displaying 1 field</li>
+<li>2 record displaying more than 1 field</li></ul>
+    </td>
+</tr>
+<tr>
+    <td>Medium</td>
+    <td><p>Contains:</p>
+
+<ul><li>8 records displaying 1 field</li>
+<li>4 record displaying more than 1 field</li></ul>
+    </td>
+</tr>
+<tr>
+    <td>Tall</td>
+    <td><p>Contains:</p>
+
+<ul><li>12 records displaying 1 field</li>
+<li>6 record displaying more than 1 field</li></ul>
+    </td>
+</tr>
+<tr>
+    <td>Fit to content</td>
+    <td><p>All records are visible, up to 500 records</p></td>
+</tr>
+</tbody>
+</table> 
+
+1. (Optional) Click **Show more** if there are records that are not visible in the calendar. 
+
+    >[!TIP]
+    >
+    >The **Show more** option displays when you choose Fit to content and there are are more than 500 records in one time frame.
+
+
+</span>
+
+-->
 
 ### 編輯行事曆檢視設定
 

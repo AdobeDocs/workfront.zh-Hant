@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: fe51ded26c57e3b7137e42ad2218d79adf032b85
+source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
 workflow-type: tm+mt
 source-wordcount: '5244'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=zh-Hant ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -46,7 +46,7 @@ ht-degree: 1%
 
 ## 存取需求
 
-+++ 展開以檢視存取需求。
++++ 展開以檢視存取需求。 
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -68,7 +68,7 @@ ht-degree: 1%
    <td role="rowheader"><p>Adobe Workfront計畫*</p></td> 
    <td> 
 <p>下列任一Workfront計畫：</p> 
-<ul><li>選取</li> 
+<ul><li>選擇</li> 
 <li>Prime</li> 
 <li>Ultimate</li></ul> 
 <p>舊版Workfront計畫不提供Workfront計畫</p> 
@@ -108,7 +108,7 @@ ht-degree: 1%
 
 *如需Workfront存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-+++
++++   
 
 ## 透過連線記錄型別建立欄位
 
@@ -264,6 +264,14 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 
 您可以從下拉式選單中選取多個選項，使用多選欄位來擷取任何格式的其他資訊。
 
+<!--
+>[!NOTE]
+>
+><span class="preview">In addition to the functionality described in this section, you can add new choices when editing a record's multi-select field value inline, in the table view. For more information, see the "Add new choices to an existing select field when
+editing records in the table view" section in the article [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>
+>
+-->
+
 1. 依照本文中[從頭開始建立欄位](#create-fields-from-scratch)一節的說明開始建立欄位，然後選取&#x200B;**多重選取**&#x200B;欄位型別。
 
    ![多重選取欄位型別](assets/multi-select-field-type.png)
@@ -292,6 +300,14 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 ### 單選 {#single-select}
 
 從下拉式功能表中選取一個選項，單選欄位即可擷取任何格式的其他資訊。
+
+<!--
+>[!NOTE]
+>
+><span class="preview">In addition to the functionality described in this section, you can add new choices when editing a record's single-select field value inline, in the table view. For more information, see the "Add new choices to an existing select field when
+editing records in the table view" section in the article [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>
+>
+-->
 
 1. 依照本文中[從頭開始建立欄位](#create-fields-from-scratch)一節的說明開始建立欄位，然後選取&#x200B;**單選**&#x200B;欄位型別。
 
@@ -358,7 +374,7 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 >數字欄位會在請求表單產生器中顯示為「單行」文字欄位型別。
 >
 >但是，欄位格式會保留，並且這些欄位的值將在提交請求後、在記錄型別和請求詳細資訊頁面中顯示為數字。
->&#x200B;>如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
+>>如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
 
 
 1. 依照本文中[從頭開始建立欄位](#create-fields-from-scratch)一節的說明開始建立欄位，然後選取&#x200B;**數字**&#x200B;欄位型別。
@@ -388,7 +404,7 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 >百分比欄位在請求表單產生器中顯示為單行文字欄位型別。
 >
 >但是，欄位格式會保留，並且這些欄位的值將在提交請求後，在記錄型別和請求詳細資訊頁面中顯示為百分比。
->&#x200B;>如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
+>>如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
 
 
 1. 依照本文中[從頭開始建立欄位](#create-fields-from-scratch)一節的說明開始建立欄位，然後選取&#x200B;**百分比**&#x200B;欄位型別。
@@ -428,7 +444,7 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 >貨幣欄位在請求表單產生器中顯示為單行文字欄位型別。
 >
 >但是，欄位格式會保留，並且這些欄位的值將在提交請求後，在記錄型別和請求詳細資訊頁面中顯示為貨幣。
->&#x200B;>如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
+>>如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
 
 1. 依照本文中[從頭開始建立欄位](#create-fields-from-scratch)一節的說明開始建立欄位，然後選取&#x200B;**貨幣**&#x200B;欄位型別。
 

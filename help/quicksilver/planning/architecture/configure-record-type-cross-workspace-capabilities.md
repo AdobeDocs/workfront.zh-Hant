@@ -4,9 +4,9 @@ description: 您可以啟用記錄型別，以新增至另一個工作區，或�
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
+source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1052'
 ht-degree: 1%
 
 ---
@@ -65,7 +65,7 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 
 ## 存取需求
 
-+++ 展開以檢視存取需求。  
++++ 展開以檢視本文中功能的存取需求。
 
 <table style="table-layout:auto"> 
 <col> 
@@ -74,52 +74,32 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 </col> 
 <tbody> 
     <tr> 
+<tr>
+
+</tr>   
 <tr> 
-<td> 
-   <p> 產品</p> </td> 
+   <td role="rowheader"><p>Adobe Workfront套件*</p></td> 
    <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront規劃<p></li></ul></td> 
-  </tr>   
-<tr> 
-   <td role="rowheader"><p>Adobe Workfront計畫*</p></td> 
-   <td> 
-<p>下列任一Workfront計畫：</p> 
-<ul><li>選擇</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>舊版Workfront計畫不提供Workfront計畫</p> 
-   </td> 
-<tr> 
-   <td role="rowheader"><p>Adobe Workfront規劃套件*</p></td> 
-   <td> 
-<p>任何 </p> 
+<ul><li><p>任何Workfront套件</p></li>
+與
+<li><p>Planning Plus套件</p></li></ul>
+或：
+<ul><li><p>任何Workflow封裝</p> </li>
+與
+<li><p>規劃Prime或Ultimate套件</p></li></ul>
 <p>如需每個Workfront計畫包含內容的詳細資訊，請聯絡您的Workfront客戶經理。 </p> 
-   </td> 
- <tr> 
-   <td role="rowheader"><p>Adobe Workfront平台</p></td> 
-   <td> 
-<p>貴組織的Workfront例項必須上線至Adobe Unified Experience，才能存取Workfront Planning。</p> 
-<p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">適用於Workfront的Adobe Unified Experience</a>。 </p> 
-   </td> 
-   </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Adobe Workfront授權*</p></td> 
-   <td><p> 標準</p>
-   <p>Workfront計畫不適用於舊版Workfront授權</p> 
-  </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>存取層級設定</p></td> 
-   <td> <p>Adobe Workfront Planning沒有存取層級控制</p>   
-</td> 
-  </tr> 
+   </td>
+
 <tr> 
+   <td role="rowheader"><p>Adobe Workfront授權</p></td> 
+   <td><p>標準</p>
+   </td> 
+  </tr> 
+  <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
    <td>   <p>管理工作區</a>的許可權 </p>  
    <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p>  </td> 
-  </tr> 
+  </tr>  
 </tbody> 
 </table>
 
@@ -130,12 +110,15 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 ## 設定集中記錄型別
 
 <!--this is a UI term; don't change the title of this section-->
+<!--IMPORTANT: not sure if we can call these centralized yet - checking with Lilit as of Sept 2; you might need to revert this to what the screen shot shows below?????-->
 
-作為工作區管理員，您可以設定記錄型別，以便在建立或編輯記錄型別時將其新增到其他工作區。
+身為工作區管理員，您可以將記錄型別設定為集中式記錄型別。 集中記錄型別可以新增到其他工作區。
 
-當您設定將記錄型別新增至其他工作區時，工作區管理員可以將記錄型別及其所有資訊匯入至其管理的其中一個工作區。
+工作區管理員可以將集中式記錄型別新增到他們管理的工作區。 也會新增記錄型別的原始欄位。
 
-若要設定在編輯記錄型別時將記錄型別新增至另一個工作區：
+使用者可以從他們有權貢獻的任何工作區（包括其主要工作區），將記錄新增至集中記錄型別。 他們只能從他們有權檢視的工作區檢視記錄。
+
+若要將新增記錄型別設定為集中記錄型別：
 
 {{step1-to-planning}}
 
@@ -181,6 +164,9 @@ Then for the second setting for cross-workspace connections, we'll need a simila
      Workspace欄位會顯示建立每個記錄的工作區。
 
      此欄位是唯讀的，無法刪除。
+1. （選擇性）移至另一個工作區，並使用現有的記錄型別來建立記錄型別。 選取您在上述步驟中啟用的記錄型別。
+
+   如需詳細資訊，請參閱[新增現有記錄型別](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md)。
 
 ## 設定可連線的記錄型別
 
@@ -222,6 +208,9 @@ Then for the second setting for cross-workspace connections, we'll need a simila
    * 記錄型別卡片會顯示跨工作區連線圖示![跨工作區連線圖示](assets/connect-from-other-workspaces-icon.png)，表示您可以從您在組態中指定的任何工作區連線記錄型別。
 
    記錄型別變為可以從指定的工作區連線。
+1. （可選）前往另一個工作區，並將連線新增至您在上述步驟中啟用跨工作區連線的記錄型別。
+
+   如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
 
 
 
