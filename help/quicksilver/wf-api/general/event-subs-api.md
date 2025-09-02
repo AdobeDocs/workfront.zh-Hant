@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 1c6a1238e9ea1ca843dcb296db7a552ff354c50a
+source-git-commit: 699ce13472ee70149fba7c8c34dde83c7db5f5de
 workflow-type: tm+mt
-source-wordcount: '2666'
+source-wordcount: '2739'
 ht-degree: 3%
 
 ---
@@ -58,19 +58,19 @@ ht-degree: 3%
 * 核准階段參與者
 * 指派
 * 公司
-* 儀表板
+* 控制面板
 * 文件
 * 費用
 * 欄位
-* 時數
+* Hour
 * 問題
 * 備註
-* 專案組合
+* 產品組合
 * 方案
 * 專案
 * 記錄
 * 記錄類型
-* 報告
+* 報表
 * 任務
 * 範本
 * 時程表
@@ -89,6 +89,10 @@ ht-degree: 3%
 * 需要`sessionID`標頭才能使用事件訂閱API
 
   如需詳細資訊，請參閱[API基本知識](api-basics.md#authentication)中的[驗證](api-basics.md)。
+
+## 避免讓事件訂閱超載
+
+事件訂閱服務旨在為所有使用者提供可靠的事件傳送。 為確保此，已實施保護措施，以防止單一使用者產生過多事件，進而導致所有使用者出現潛在的服務品質問題。 因此，在短時間內以高頻率產生過多事件的使用者可能會遇到沙箱和事件傳送延遲。
 
 ## 形成訂閱資源
 
@@ -133,7 +137,7 @@ ht-degree: 3%
         <td scope="col"><p>CMPY</p></td> 
        </tr> 
        <tr> 
-        <td scope="col">儀表板</td> 
+        <td scope="col">控制面板</td> 
         <td scope="col">PTLTAB</td> 
        </tr> 
        <tr> 
@@ -149,7 +153,7 @@ ht-degree: 3%
         <td scope="col"><p>欄位</p></td> 
        </tr> 
       <tr> 
-        <td scope="col"><p>時數</p></td> 
+        <td scope="col"><p>Hour</p></td> 
         <td scope="col">HOUR</td> 
        </tr> 
        <tr> 
@@ -161,7 +165,7 @@ ht-degree: 3%
         <td scope="col">附註</td> 
        </tr> 
        <tr> 
-        <td scope="col"><p>專案組合</p></td> 
+        <td scope="col"><p>產品組合</p></td> 
         <td scope="col"><p>連線埠</p></td> 
        </tr> 
        <tr> 
@@ -181,7 +185,7 @@ ht-degree: 3%
         <td scope="col"><p>RECORD_TYPE</p></td> 
        </tr> 
        <tr> 
-        <td scope="col"><p>報告</p></td> 
+        <td scope="col"><p>報表</p></td> 
         <td scope="col"><p>PTLSEC</p></td> 
        </tr> 
        <tr> 
@@ -812,7 +816,7 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 >[!NOTE]
 >
 >底下具有指定篩選器的訂閱只會傳回工作名稱在`again`上包含`oldState`的訊息，這是更新工作之前的訊息。
->&#x200B;>此情況下的使用案例是尋找從一個事物變更為另一個事物的objCode訊息。 例如，找出從「Research Some name」變更為「Research TeamName Some name」的所有任務
+>>此情況下的使用案例是尋找從一個事物變更為另一個事物的objCode訊息。 例如，找出從「Research Some name」變更為「Research TeamName Some name」的所有任務
 
 ```
 {
@@ -979,7 +983,7 @@ DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRI
 
 例如，下列屬性在所有事件裝載中維持一致：
 
-* eventtype
+* eventType
 * subscriptionId
 * oldState
 * newState
