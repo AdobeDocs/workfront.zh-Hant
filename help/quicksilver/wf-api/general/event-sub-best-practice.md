@@ -50,7 +50,7 @@ ht-degree: 0%
 
 若要建立、查詢或刪除事件訂閱，您的Workfront使用者需要：
 
-* **系統管理員**的存取層級
+* **系統管理員**&#x200B;的存取層級
 若要瞭解更多資訊，請參閱[授予使用者完整管理存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)或[授予使用者對特定區域的管理存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)。
 
 * 需要`sessionID`標頭才能使用事件訂閱API
