@@ -374,7 +374,7 @@ editing records in the table view" section in the article [Edit records](/help/q
 >數字欄位會在請求表單產生器中顯示為「單行」文字欄位型別。
 >
 >但是，欄位格式會保留，並且這些欄位的值將在提交請求後、在記錄型別和請求詳細資訊頁面中顯示為數字。
->>如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
+>&#x200B;>如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
 
 
 1. 依照本文中[從頭開始建立欄位](#create-fields-from-scratch)一節的說明開始建立欄位，然後選取&#x200B;**數字**&#x200B;欄位型別。
@@ -404,7 +404,7 @@ editing records in the table view" section in the article [Edit records](/help/q
 >百分比欄位在請求表單產生器中顯示為單行文字欄位型別。
 >
 >但是，欄位格式會保留，並且這些欄位的值將在提交請求後，在記錄型別和請求詳細資訊頁面中顯示為百分比。
->>如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
+>&#x200B;>如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
 
 
 1. 依照本文中[從頭開始建立欄位](#create-fields-from-scratch)一節的說明開始建立欄位，然後選取&#x200B;**百分比**&#x200B;欄位型別。
@@ -444,7 +444,7 @@ editing records in the table view" section in the article [Edit records](/help/q
 >貨幣欄位在請求表單產生器中顯示為單行文字欄位型別。
 >
 >但是，欄位格式會保留，並且這些欄位的值將在提交請求後，在記錄型別和請求詳細資訊頁面中顯示為貨幣。
->>如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
+>&#x200B;>如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
 
 1. 依照本文中[從頭開始建立欄位](#create-fields-from-scratch)一節的說明開始建立欄位，然後選取&#x200B;**貨幣**&#x200B;欄位型別。
 
