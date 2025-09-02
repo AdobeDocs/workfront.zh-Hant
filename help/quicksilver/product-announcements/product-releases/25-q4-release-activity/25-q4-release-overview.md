@@ -68,7 +68,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>     
      <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">更新Workfront使用者設定檔</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">更新Workfront使用者設定檔</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
             <p>我們已將Workfront使用者設定檔的外觀與操作方式，更新為與Workfront其他區域一致的現代化設計。 這些更新會套用至編輯單一設定檔或大量編輯多個設定檔的管理員，或編輯自己設定檔的使用者。</p>
             <p>與目前的使用者設定檔有一些小的功能差異，包括：</p>
             <ul>
@@ -107,7 +107,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-document-and-proof.md" class="MCXref xref" xrefformat="{para}">已分階段推出整合核准</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-document-and-proof.md" class="MCXref xref" xrefformat="{para}">已分階段推出整合核准</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
             <p>我們正在分階段啟用統一核准（先前稱為新檔案核准）。 在接下來的六個月中，此功能將會在您的Workfront執行個體中自動啟用。</p>
             <p>整合式核准會取代舊版檔案核准，並提供新功能。 
 </p>
@@ -197,7 +197,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr> -->
   <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">新增運算式至Planning的公式欄位和Workfront的計算自訂欄位</a><p><p>[！BADGE Off Schedule]{type=Neutral}</p></p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">新增運算式至Planning的公式欄位和Workfront的計算自訂欄位</a><p><p>[!BADGE Off Schedule]{type=Neutral}</p></p>
             <p>我們已將具有以下用途的新運算式新增至Workfront Planning中的公式欄位及Workfront中的計算自訂欄位：</p>
             <ul>
             <li>REMOVEACCENTS(string)：移除輸入字串中所有重音字元的變音標籤。</li>
