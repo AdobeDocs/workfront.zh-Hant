@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 00ec13dfb082ecd9b087d79b385a4eea677cf55d
+source-git-commit: f9455b5aa57585a0e037f024807c19d48296d518
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '681'
 ht-degree: 3%
 
 ---
@@ -87,7 +87,7 @@ ht-degree: 3%
    * 儀表板
    * 行事曆
    * 資源分配
-   * 情境
+   * 方案
 
      >[!NOTE]
      >
@@ -104,7 +104,6 @@ ht-degree: 3%
    * 時程表
    * 文件
    * 範本
-   * 校訂
    * 目標
 
      >[!NOTE]
@@ -132,7 +131,7 @@ ht-degree: 3%
    * 顯示您想要顯示在主功能表上的![顯示圖示](assets/add-icon-plus-in-circle.png) **可用專案**。
    * 拖曳![拖曳圖示](assets/move-icon---dots.png) **作用中專案**&#x200B;以變更它們在主功能表上的顯示順序。
 
-1. 按一下&#x200B;**完成**。
+1. 按一下「**完成**」。
 
    如果您要捨棄變更，也可以隨時按一下&#x200B;**取消**。
 
@@ -144,6 +143,6 @@ ht-degree: 3%
 
    >[!TIP]
    >
-   >您可以隨時按一下[儲存]來儲存進度，然後再繼續修改範本。**&#x200B;**
+   >您可以隨時按一下[儲存]來儲存進度，然後再繼續修改範本。****
 
 如需配置範本的詳細資訊，請參閱[建立和管理配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)。
