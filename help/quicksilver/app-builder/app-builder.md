@@ -4,7 +4,7 @@ description: 客戶和合作夥伴可以利用由 Adobe App Builder 提供技術
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
-source-git-commit: a4e715d5212c3c166ce6ed995b327eb2b7198123
+source-git-commit: dcdae47ffd4a02ac9a0bbd3cd9bd1418f6c59e1a
 workflow-type: tm+mt
 source-wordcount: '1693'
 ht-degree: 1%
@@ -64,7 +64,7 @@ Workfront UI擴充功能提供幾個主要優點：
 
 1. 新增使用者的電子郵件。 它應該搜尋已從Admin Console中新增的現有使用者。
 
-1. 將必要的產品新增至開發人員設定檔，然後按一下[儲存]。**&#x200B;**\
+1. 將必要的產品新增至開發人員設定檔，然後按一下[儲存]。****\
    ![新增開發人員](assets/add-developer.png)
 
 ### 存取App Builder
@@ -83,7 +83,7 @@ Workfront UI擴充功能提供幾個主要優點：
 
 1. 選擇您的帳戶，以及您的設定檔或組織。
 
-1. 按一下[快速入門]區域中的[從範本建立專案]&#x200B;**&#x200B;**，或按一下[從範本建立新專案]&#x200B;**>[從範本建立專案]**。
+1. 按一下[快速入門]區域中的[從範本建立專案]****，或按一下[從範本建立新專案]**>[從範本建立專案]**。
 
    >[!IMPORTANT]
    >
@@ -133,7 +133,7 @@ GitHub和Adobe Developer網站上提供其他指示：
    ![產生於處理序](assets/6-generation-in-process.png)
 1. 等到您看到應用程式初始化完成的訊息為止。 然後，您可以在IDE中開啟專案（建議使用Visual Studio Code）並存取src資料夾。
 
-   如需專案中資料夾和檔案的詳細資訊，請參閱[Adobe開發人員網站](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#5-anatomy-of-an-appbuilder-application)。
+   如需專案中資料夾和檔案的詳細資訊，請參閱[Adobe開發人員網站](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#anatomy-of-an-app-builder-application)。
 
 ## 在VSCode中建置擴充功能
 
@@ -152,13 +152,13 @@ GitHub和Adobe Developer網站上提供其他指示：
 在ExtensionRegistration函式中，您應該會看到下列程式碼。 範本已為您建立此程式碼。 可以新增此程式碼以建立其他功能表專案。 請務必取代ID和URL。
 
     &quot;
-    mainMenu： &lbrace;
+    mainMenu： {
     
-    getItems() &lbrace;
+    getItems() {
     
-    return &lbrack;
+    return [
     
-    &lbrace;
+    {
     
     id： &#39;main-menu-label&#39;，
     
@@ -168,13 +168,13 @@ GitHub和Adobe Developer網站上提供其他指示：
     
     icon： icon1，
     
-    &rbrace;，
+    }，
     
-    &rbrack;；
+    ]；
     
-    &rbrace;，
+    }，
     
-    &rbrace;
+    }
     &quot;&#39;
 
 1. 新增下列程式碼片段：
@@ -237,7 +237,7 @@ GitHub和Adobe Developer網站上提供其他指示：
    ![程式碼範例](assets/9-app-file-step-1-from-sam.png)
 1. 儲存您的工作。
 
-如需開發及執行應用程式的詳細資訊，請參閱[Adobe開發人員網站](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#6developing-the-application)。
+如需開發及執行應用程式的詳細資訊，請參閱[Adobe開發人員網站](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#develop-the-application)。
 
 ## 共用內容
 

@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 74e0a85b-a8aa-4e39-9c2e-0f09957ebafa
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: dcdae47ffd4a02ac9a0bbd3cd9bd1418f6c59e1a
 workflow-type: tm+mt
 source-wordcount: '1357'
 ht-degree: 0%
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 1. 新增使用者的電子郵件。 它應該搜尋已從Admin Console中新增的現有使用者。
 
-1. 將必要的產品新增至開發人員設定檔，然後按一下[儲存]。**&#x200B;**
+1. 將必要的產品新增至開發人員設定檔，然後按一下[儲存]。****
 
 ![新增開發人員](assets/add-developer.png)
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 組織需要與其客戶經理合作，才能購買AppBuilder。 我們不需要針對POC執行此動作，因此無法瞭解此情形的確切程式。
 
 如果您想要測試AppBuilder整合，可以在這裡為您的IMS組織請求免費試用：
-[https://developer.adobe.com/app-builder/docs/overview/getting_access/#](https://developer.adobe.com/app-builder/docs/overview/getting_access/#)
+[https://developer.adobe.com/app-builder/docs/overview/getting_access/#](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/set-up#access-and-credentials)
 
 我的印象是，即使是30天的免費試用，在此時間之後他們實際上並不會停用此試用。
 
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 ## Adobe IO (aio) CLI
 
-Adobe提供開放原始碼CLI，可用來協助建立App Builder應用程式。 您可以在這裡找到檔案： [https://github.com/adobe/aio-cli](https://github.com/adobe/aio-cli)以及Adobe App Builder指示[https://developer.adobe.com/app-builder/docs/getting_started/first_app/](https://developer.adobe.com/app-builder/docs/getting_started/first_app/)。
+Adobe提供開放原始碼CLI，可用來協助建立App Builder應用程式。 您可以在這裡找到檔案： [https://github.com/adobe/aio-cli](https://github.com/adobe/aio-cli)以及Adobe App Builder指示[https://developer.adobe.com/app-builder/docs/getting_started/first_app/](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app)。
 
 1. 安裝
    1. 若要安裝工具，（請先確定您位於節點v18）執行： `npm install -g @adobe/aio-cli `。
@@ -106,8 +106,7 @@ Adobe提供開放原始碼CLI，可用來協助建立App Builder應用程式。 
       ![選取專案](assets/select-project.png)
 
 1. 範本選取和設定
-   1. 瀏覽所有可用的範本，並為您的專案選擇&#x200B;**@adobe/aem-cf-editor-ui-ext-tpl**&#x200B;範本。
-
+   1. 瀏覽所有可用的範本，並為您的專案選擇&#x200B;**@adobe/aem-cf-editor-ui-ext-tpl**範本。
       ![搜尋範本](assets/search-template.png)
       ![選取範本](assets/select-template.png)
 
@@ -115,8 +114,7 @@ Adobe提供開放原始碼CLI，可用來協助建立App Builder應用程式。 
    1. 為擴充功能命名。
    1. 提供擴充功能的描述性摘要。
    1. 選取要開始使用的初始版本編號。
-   1. 選取&#x200B;**我已完成**&#x200B;以確認完成。
-
+   1. 選取&#x200B;**我已完成**以確認完成。
       ![定義延伸模組](assets/define-extension.png)
 
 1. 導覽至您的專案資料夾
@@ -130,7 +128,7 @@ Adobe提供開放原始碼CLI，可用來協助建立App Builder應用程式。 
 
 1. 編輯擴充功能註冊元件
    1. 開啟`src/workfront-doc-details-1/web-src/src/components/ExtensionRegistration.js`。
-   1. 在方法區段中，新增包含非同步函式`getButtons`的函式`secondaryNav`。
+   1. 在方法區段中，新增包含非同步函式`secondaryNav`的函式`getButtons`。
    1. `getButtons`應該會收到具有以下結構的物件：
 
       ```
@@ -174,7 +172,7 @@ Adobe提供開放原始碼CLI，可用來協助建立App Builder應用程式。 
       ```
 
 1. 存取檔案詳細資訊
-   1. 在您的應用程式中實作提供的函式`document.getDocumentDetails`，以擷取必要的檔案細節。 此函式擷取包含`docId`和`docvId`的物件，以及具有`hostname`、`protocol`和驗證詳細資料的`sharedContext`物件。 請確定您的應用程式可正確處理這些資料。
+   1. 在您的應用程式中實作提供的函式`document.getDocumentDetails`，以擷取必要的檔案細節。 此函式擷取包含`docId`和`docvId`的物件，以及具有`sharedContext`、`hostname`和驗證詳細資料的`protocol`物件。 請確定您的應用程式可正確處理這些資料。
 
 1. 在您的元件中整合資料擷取
    1. 將新元件新增至應用程式的元件資料夾。 在此元件中，建立與Workfront的連線，以使用與主機應用程式建立的連線來擷取檔案資訊和驗證資料。 以下是如何建構元件以處理此問題的範例：
@@ -224,7 +222,7 @@ Adobe提供開放原始碼CLI，可用來協助建立App Builder應用程式。 
 
 1. 修訂擴充功能註冊元件
    1. 找到並開啟名為`ExtensionRegistration.js`的檔案。
-   1. 在方法區段中，新增包含非同步函式`getButtons`的函式`secondaryNav`。
+   1. 在方法區段中，新增包含非同步函式`secondaryNav`的函式`getButtons`。
    1. `getButtons`應該會收到具有以下結構的物件：
 
       ```
@@ -268,7 +266,7 @@ Adobe提供開放原始碼CLI，可用來協助建立App Builder應用程式。 
       ```
 
 1. 存取檔案詳細資訊
-   1. 在您的應用程式中實作提供的函式`document.getDocumentDetails`，以擷取必要的檔案細節。 此函式擷取包含`docId`和`docvId`的物件，以及具有`hostname`、`protocol`和驗證詳細資料的`sharedContext`物件。 請確定您的應用程式可正確處理這些資料。
+   1. 在您的應用程式中實作提供的函式`document.getDocumentDetails`，以擷取必要的檔案細節。 此函式擷取包含`docId`和`docvId`的物件，以及具有`sharedContext`、`hostname`和驗證詳細資料的`protocol`物件。 請確定您的應用程式可正確處理這些資料。
 
 1. 在您的元件中整合資料擷取
    1. 將新元件新增至應用程式的元件資料夾。 在此元件中，建立與Workfront的連線，以使用與主機應用程式建立的連線來擷取檔案資訊和驗證資料。 以下是如何建構元件以處理此問題的範例：
@@ -354,7 +352,7 @@ Adobe提供絕佳檔案，說明如何開始建立AppBuilder應用程式及進�
 
 以下是一些實用的連結：
 
-* [https://developer.adobe.com/app-builder/docs/getting_started/first_app/#4-bootstrapping-new-app-using-the-cli](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#4-bootstrapping-new-app-using-the-cli)
+* [https://developer.adobe.com/app-builder/docs/getting_started/first_app/#4-bootstrapping-new-app-using-the-cli](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#bootstrap-the-new-app-using-the-cli)
 
 * [https://developer.adobe.com/uix/docs/guides/publication/](https://developer.adobe.com/uix/docs/guides/publication/)
 
