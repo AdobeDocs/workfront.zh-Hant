@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
+source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
 workflow-type: tm+mt
-source-wordcount: '2192'
+source-wordcount: '2332'
 ht-degree: 0%
 
 ---
@@ -108,8 +108,16 @@ ht-degree: 0%
    * 內嵌，在表格檢視中。
 <!--* You can edit a record's dates from the following areas:
         * All areas listed above
-        * <span class="preview">In a timeline view, by resizing the record bars or dragging and dropping the record in the timeline</span>
+        * <span class="preview">In a timeline view, by resizing the record bars</span>
+         * <span class="preview">In a calendar monthly view, by resizing the record bars</span>
         For information, see [Create records](/help/quicksilver/planning/records/create-records.md). -->
+
+<!-- when drag and drop is available replace the last 2 points with this:
+
+* <span class="preview">In a timeline view, by resizing the record bars or dragging and dropping the record bars in a new position</span>
+* <span class="preview">In a calendar view, by resizing the record bars when viewing it by month, or by dragging and dropping the record bars in a new position</span>
+    For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
+-->
 
 * 當使用者在檢視中編輯記錄時，變更會立即在所有檢視中可見，並且記錄頁面會向所有其他使用者顯示。
 
@@ -127,10 +135,16 @@ ht-degree: 0%
 
 您可以從下列區域編輯記錄：
 
-* [記錄型別的表格檢視](#edit-a-record-inline-in-the-table-view-of-a-record-type)
+* [表格檢視](#edit-a-record-inline-in-the-table-view-of-a-record-type)
+* [時間軸檢視](#edit-a-record-in-the-timeline-view-of-a-record-type)
+* [行事曆檢視](#edit-a-record-in-the-calendar-view-of-a-record-type)
 * [記錄在檢視中的預覽](#edit-a-record-from-the-records-preview-in-a-view)
 * [紀錄的頁面](#edit-a-record-from-the-records-page)
 * [「規劃」區段中的Workfront物件](#edit-a-record-from-a-workfront-object-in-the-planning-section)
+
+若要編輯記錄的日期，請執行下列動作：
+
+* [調整時間軸和行事曆檢視中記錄列的大小]
 
 ### 在記錄型別的表格檢視中編輯內嵌記錄
 
@@ -221,6 +235,39 @@ ht-degree: 0%
    >    您可以在一列中多次使用鍵盤快速鍵來復原多項變更。
 
 1. （選用）新增縮圖至記錄。 如需詳細資訊，請參閱[新增縮圖至記錄](/help/quicksilver/planning/records/add-thumbnails-to-records.md)。
+
+
+### 在記錄型別的時間軸檢視中編輯記錄
+
+<!--add another step about drag and drop here when that is available-->
+
+1. 在時間軸檢視中開啟記錄型別頁面。 如需詳細資訊，請參閱[管理時間表檢視](/help/quicksilver/planning/views/manage-the-timeline-view.md)。
+<!--
+1. <span class="preview">Hover over the ends of a record's bar, click, drag and drop its margin to another date. This automatically updates either the start or end date of the record.</span>  
+
+    <span class="preview">![Left-end bar on timeline view to resize](assets/left-end-bar-handle-to-resize-timeline-view.png)</span>
+
+-->
+
+1. 按一下記錄列以開啟其詳細資訊區域並編輯所有欄位。
+
+   如需詳細資訊，請參閱本文中的[在檢視中編輯記錄預覽的記錄](#edit-a-record-from-the-records-preview-in-a-view)區段。
+
+### 在記錄型別的行事曆檢視中編輯記錄
+
+<!--add another step about drag and drop here when that is available-->
+
+1. 在行事曆檢視中開啟記錄型別頁面。 如需詳細資訊，請參閱[管理行事曆檢視](/help/quicksilver/planning/views/manage-the-calendar-view.md)。
+<!--
+1. (Conditional) Select **Month** in the upper-right dropdown menu.
+1. <span class="preview">Hover over the ends of a record's bar, click, drag and drop its margin to another date. This automatically updates either the start or end date of the record.</span>  
+
+    <span class="preview">![Left-end bar on calendar view to resize](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
+-->
+
+1. 按一下記錄列以開啟其詳細資訊區域並編輯所有欄位。
+
+   如需詳細資訊，請參閱本文中的[在檢視中編輯記錄預覽的記錄](#edit-a-record-from-the-records-preview-in-a-view)區段。
 
 ### 在檢視中從記錄預覽編輯記錄
 

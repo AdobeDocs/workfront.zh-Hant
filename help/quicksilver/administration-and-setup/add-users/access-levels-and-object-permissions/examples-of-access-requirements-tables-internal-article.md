@@ -4,9 +4,9 @@ description: 這是我們的團隊的內部文章，詳細記錄我們用於存�
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: faefa0fef0a0fd65f9eda91f52b8eea57353b5a7
+source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '827'
 ht-degree: 2%
 
 ---
@@ -249,9 +249,13 @@ ht-degree: 2%
    <td role="rowheader"><p>Adobe Workfront套件</p></td> 
    <td>
 
-<ul><li><p>任何Workfront或Workflow套件</p></li>
-與
-<li><p>Prime或Ultimate Planning套件</p></li></ul>
+<ul><li><p>任何Workfront套件</p></li>
+  與
+  <li><p>Planning Plus套件</p></li></ul>
+  或：
+  <ul><li><p>任何Workflow封裝</p> </li>
+  與
+  <li><p>規劃Prime或Ultimate套件</p></li></ul>
    </td> </tr>
 
 </tr> 
