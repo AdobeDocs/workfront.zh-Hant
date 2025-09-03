@@ -4,9 +4,9 @@ description: 這是我們的團隊的內部文章，詳細記錄我們用於存�
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: f56aa32e9fb40523be9caec3b01bedcae8f37dd0
+source-git-commit: faefa0fef0a0fd65f9eda91f52b8eea57353b5a7
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '822'
 ht-degree: 2%
 
 ---
@@ -344,4 +344,34 @@ ht-degree: 2%
 </table>
 
 如需詳細資訊，請參閱[Workfront檔案的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
+## 資源管理的存取需求範例
+
+展開以檢視本文中功能的存取需求。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>Adobe Workfront套件</td> 
+   <td><p>任何</p></td>
+  </tr> 
+  <tr> 
+   <td>Adobe Workfront授權</td> 
+   <td><p>一個專案為淺色或更高；多個專案為標準</p>
+       <p>檢閱或核准一個專案以上的專案；計畫多個專案</p></td>
+  </tr> 
+  <tr> 
+   <td>存取層級設定</td> 
+   <td> <p>檢視對資源管理的存取權或以上許可權</p> </td> 
+  </tr> 
+  <tr> 
+   <td>物件許可權</td> 
+   <td> <p>檢視專案和使用者的許可權 </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
