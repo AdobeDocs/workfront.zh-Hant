@@ -4,10 +4,10 @@ description: 這是我們的團隊的內部文章，詳細記錄我們用於存�
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
+source-git-commit: 7d9e5ac168d759e9b657beb6513c994d91ab0145
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 2%
+source-wordcount: '1028'
+ht-degree: 1%
 
 ---
 
@@ -349,7 +349,7 @@ ht-degree: 2%
 
 如需詳細資訊，請參閱[Workfront檔案的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-## 資源管理的存取需求範例
+## 資源管理的存取需求（多個可能的授權範例；所有RM套件現在為「任何」）
 
 展開以檢視本文中功能的存取需求。
 
@@ -378,4 +378,45 @@ ht-degree: 2%
 </table>
 
 如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
+<p>以聯結器為基礎（舊版）：用於工作自動化和整合的Workfront Fusion </p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">產品</td> 
+   <td>
+   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
+   </td> 
+  </tr>
+ </tbody> 
+</table>
+
+如需此表格中資訊的詳細資訊，請參閱檔案[中的](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation)存取需求。
+
+如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)。
+
+## 進階企業控制項
+
+一篇關於群組管理員的文章提到了客戶必須開啟的套件，群組管理員才能在Workfront中擁有某些權能。
+
+[目前文章的連結](/help/quicksilver/administration-and-setup/manage-groups/group-roles/group-actions-allowed-different-types-admins.md)
+
+### 更新表格下第三個註腳的文字
+
+&#42;&#42;&#42;這些套件包含下列的進階企業控制功能：
+
+* 工作流程Prime和更新版本
+* Workfront Prime和更新版本
+
+如需套件的詳細資訊，請參閱[Adobe Workfront定價與封裝頁面](https://business.adobe.com/products/workfront/pricing.html)。
+
+進階企業控制項：
+
+* 在群組層級設定專案、任務和問題偏好設定
+* 在群組層級設定時程表和小時偏好設定
+* 在群組層級設定事件通知電子郵件
+* 建立及管理群組特定的核准流程
+* 依主群組分配授許可權制並檢視其使用率
+* 指派子群組的群組管理員
+* 允許群組管理員建立子群組
 
