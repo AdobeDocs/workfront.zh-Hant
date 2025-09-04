@@ -43,7 +43,7 @@ ht-degree: 0%
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
    <td> <p>新增：投稿人或更高版本 </p>
         <p>或</p> 
-        <p>目前： [！UICONTROL Request]或以上 </p></td> 
+        <p>目前： [!UICONTROL Request]或以上 </p></td> 
   </tr> 
  </tbody> 
 </table>
