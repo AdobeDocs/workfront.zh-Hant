@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: bb2479b936a9064a4df34ac3e840dd78cae297b6
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1399'
 ht-degree: 2%
 
 ---
@@ -107,41 +107,41 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-*To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator.-->
 
-## Add users to a Project Team
+## 將使用者新增至專案團隊
 
-When you add users to the project team, they gain View permissions on the project and the tasks, issues, and documents of the project. For more information, see the article [Project Team overview](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+當您將使用者新增到專案團隊時，他們將獲得有關專案以及專案的任務、問題和檔案的檢視許可權。 如需詳細資訊，請參閱文章[專案團隊概述](../../../manage-work/projects/planning-a-project/project-team-overview.md)。
 
 >[!TIP]
 >
->Users on the Project Team are not automatically added to the resource management tools for the project.
+>專案團隊中的使用者不會自動新增至專案的資源管理工具。
 
-You can add users to the project team in the following ways:
+您可以透過下列方式將使用者新增至專案團隊：
 
-* [Automatically add users to a Project Team](#automatically-add-users-to-a-project-team) 
-* [Manually add users to a Project Team](#manually-add-users-to-a-project-team)
+* [自動新增使用者至專案團隊](#automatically-add-users-to-a-project-team)
+* [手動新增使用者至專案團隊](#manually-add-users-to-a-project-team)
 
-### Automatically add users to a Project Team {#automatically-add-users-to-a-project-team}
+### 自動將使用者新增至專案團隊 {#automatically-add-users-to-a-project-team}
 
-The users that fulfill the following roles on the project are automatically added to the project team and appear  in the People section when the project is created:
+在專案中履行下列角色的使用者會自動新增至專案團隊，並在建立專案時顯示在「人員」區段中：
 
-* The creator of the project
-* The project owner
-* The project sponsor
+* 專案的建立者
+* 專案所有者
+* 專案贊助者
 
-Users are also automatically added to the project team when they are assigned to the following:
+當使用者被指派到以下專案時，他們也會被自動新增到專案團隊：
 
-* Tasks
-* Issues
+* 任務
+* 問題
 
-### Manually add users to a Project Team {#manually-add-users-to-a-project-team}
+### 手動新增使用者至專案團隊 {#manually-add-users-to-a-project-team}
 
-If users that don't fulfill any role on the project want to be notified about certain updates or changes during the life of the project, you can manually add them to the project team. 
+如果專案上未履行任何角色的使用者希望在專案存留期間收到有關某些更新或變更的通知，您可以手動將其新增到專案團隊。
 
- For more information about what notifications can be enabled for users on the project team, see [Event notification types](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md). 
+如需專案團隊使用者可啟用哪些通知的詳細資訊，請參閱[事件通知型別](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)。
 
- <!--drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
+<!--drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
 
 >[!IMPORTANT]
 >
@@ -159,7 +159,7 @@ If users that don't fulfill any role on the project want to be notified about ce
 
 1. 按一下左側面板中的&#x200B;**人員**。
 
-1. Click **Add users**.
+1. 按一下&#x200B;**新增使用者**。
 
    顯示&#x200B;**新增使用者至專案團隊**&#x200B;方塊。
 
@@ -193,7 +193,7 @@ If users that don't fulfill any role on the project want to be notified about ce
    會從未完成的工作專案移除及取消指派使用者。
 
    如需詳細資訊，請參閱本文的[從專案團隊](#considerations-for-removing-users-from-a-project-team)移除使用者的考量事項。
-1. （選擇性）若要將此專案的更新傳送給使用者，請按一下[全部更新]，將更新傳送給團隊中的每個人&#x200B;**&#x200B;**
+1. （選擇性）若要將此專案的更新傳送給使用者，請按一下[全部更新]，將更新傳送給團隊中的每個人&#x200B;****
 
    或
 
@@ -235,7 +235,7 @@ If users that don't fulfill any role on the project want to be notified about ce
 
 1. 按一下左側面板中的&#x200B;**人員**。
 
-1. Select one or several users in the list, then click the **Remove** icon to remove them from the team.
+1. 在清單中選取一或多個使用者，然後按一下&#x200B;**移除**&#x200B;圖示，將他們從團隊中移除。
 
 1. 按一下&#x200B;**是，移除選取的使用者**&#x200B;以確認並移除使用者。
 
@@ -243,7 +243,7 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    如需詳細資訊，請參閱本文的[從專案團隊](#considerations-for-removing-users-from-a-project-team)移除使用者的考量事項。
 
-1. （選擇性）若要傳送更新給使用者，請按一下[全部更新]，將更新傳送給清單中的所有使用者&#x200B;**&#x200B;**
+1. （選擇性）若要傳送更新給使用者，請按一下[全部更新]，將更新傳送給清單中的所有使用者&#x200B;****
 
    或
 

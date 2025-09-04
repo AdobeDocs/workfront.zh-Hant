@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '2814'
+source-wordcount: '3278'
 ht-degree: 0%
 
 ---
@@ -32,16 +32,9 @@ ht-degree: 0%
 <div class="preview">
 
 * [在記錄型別時間軸檢視中新增它們](#create-records-by-adding-them-in-the-record-type-timeline-view)
+* [在記錄型別行事曆檢視中新增它們](#create-records-by-adding-them-in-the-record-type-calendar-view)
 
 </div>
-
-<!--
-<div class="preview">
-
-* [Add them in the record type calendar view](#create-records-by-adding-them-in-the-record-type-calendar-view)
-
-</div>
--->
 
 * [從外部清單複製並貼上記錄清單](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [從表格檢視複製記錄](#create-records-by-duplicating-them)
@@ -156,7 +149,7 @@ ht-degree: 0%
 
 1. （視條件而定）如果您按一下&#x200B;**新記錄**，請執行下列動作：
 
-   1. 按一下下列其中一個方式來建立記錄，然後按一下[繼續]&#x200B;**&#x200B;**：
+   1. 按一下下列其中一個方式來建立記錄，然後按一下[繼續]****：
 
       * **手動新增**。 記錄的預覽方塊開啟。\
         從步驟6開始，新增記錄的相關資訊，如[從本文中的記錄型別資料表檢視](#create-records-by-adding-them-inline-from-the-record-type-table-view)區段內嵌新增記錄，以建立記錄中所述。<!--insure this stays accurate-->
@@ -307,7 +300,7 @@ You can import records from other applications by linking them to existing recor
    >只有當至少有兩個日期欄位與記錄型別相關聯時，才能建立時間表檢視。
 1. 在時間軸中的任何位置按兩下。
 
-   新記錄方塊開啟。<!--might need a new screen shot for Production - might add a title etc-->
+   **新記錄**&#x200B;方塊開啟。<!--might need a new screen shot for Production - might add a title etc-->
 
    ![時間軸上的新記錄方塊（含未命名的記錄列）](assets/new-record-small-box-on-timeline.png)
 1. 更新下列資訊：
@@ -335,8 +328,10 @@ You can import records from other applications by linking them to existing recor
    * **關閉** ![關閉圖示](assets/close-icon.png)以關閉新記錄方塊。
 
    除非您按一下&#x200B;**刪除**&#x200B;圖示，否則記錄會立即新增至時間軸，以及表格和行事曆檢視。
-   <!--1. (Optional) Hover over one of the record bar's margins in the timeline, then drag and drop the ends of the bar to a different date. This automatically changes the start and end date of the record. 
-    For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).-->
+
+1. （可選）將滑鼠停留在時間軸中其中一個記錄列的邊界上，然後將記錄列的端點拖放至不同的日期。 這會自動變更記錄的開始和結束日期。
+
+   如需詳細資訊，請參閱[編輯記錄](/help/quicksilver/planning/records/edit-records.md)。
 
 1. （選擇性）按一下時間軸中的記錄列，以開啟記錄的詳細資訊視窗並更新其資訊、將其刪除或新增註解。
 
@@ -348,75 +343,73 @@ You can import records from other applications by linking them to existing recor
 
 </div>
 
-<!--
-
 <div class="preview">
 
-## Create records by adding them in the record type calendar view
+## 在記錄型別行事曆檢視中新增記錄，以建立記錄
 
-You can create records in the calendar view of a record type page, by double-clicking anywhere on the calendar. 
+您可以在行事曆上的任何位置按兩下，以在記錄型別頁面的行事曆檢視中建立記錄。
 
-For information about creating a calendar view, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+如需有關建立行事曆檢視的資訊，請參閱[管理行事曆檢視](/help/quicksilver/planning/views/manage-the-calendar-view.md)。
 
 {{step1-to-planning}}
-  
-1. Click the workspace where you want to add records.
 
-    The workspace opens and the record types display as cards.
+1. 按一下您要新增記錄的工作區。
 
-1. Click a record type card. 
+   工作區隨即開啟，且記錄型別會顯示為卡片。
 
-    The record type page opens in the view that you last accessed. 
+1. 按一下記錄型別卡。
 
-1. Click to open a calendar view, or create a calendar view.
+   記錄型別頁面會在您上次存取的檢視中開啟。
 
-    >[!NOTE]
-    >
-    >You can create a calendar view only if there are at least two date fields associated with the record type.
-1. Double-click anywhere on the calendar. 
+1. 按一下以開啟行事曆檢視，或建立行事曆檢視。
 
-    A new record box opens. (********might need a new screen shot for Production - might add a title etc*********ALSO CHECK IF THE SAME ONE NEEDS REPLACING FOR TIMELINE?????)
+   >[!NOTE]
+   >
+   >只有當至少有兩個日期欄位與記錄型別相關聯時，才能建立行事曆檢視。
+1. 在行事曆上的任何位置按兩下。
 
-    ![New record box on calendar with unnamed record bar](assets/new-record-small-box-on-calendar.png)
+   **新記錄**&#x200B;方塊開啟。<!--(********might need a new screen shot for Production - might add a title etc*********ALSO CHECK IF THE SAME ONE NEEDS REPLACING FOR TIMELINE?????)-->
 
-1. Update the following information:
+   ![行事曆上有未命名記錄列的新記錄方塊](assets/new-record-small-box-on-calendar.png)
 
-    * **Name**: Enter the name of the record. If you leave it empty, Workfront names it **Untitled** by default. 
-    
-        >[!TIP]
-        >
-        >If you display the Name of the record in the record bars according to the calendar settings, the name is not visible in the record bar if left empty. 
+1. 更新下列資訊：
 
-    * **Record date fields**: Update the dates of the record. 
-        
-        The names of the date fields are customized according to the fields selected for the Start and End dates when the calendar view was created.
+   * **名稱**：輸入記錄名稱。 如果您將其保留為空白，Workfront會依預設將其命名為&#x200B;**無標題**。
 
-        By default, date values are preselected depending on how you display the calendar view. The following scenarios exist:
+     >[!TIP]
+     >
+     >如果您根據行事曆設定在記錄列中顯示記錄的「名稱」，如果留空，該名稱將不會顯示在記錄列中。
 
-        * By **Month**: The record start and end dates span one day.
-        * By **Week**: The record start and end dates span two days.
+   * **記錄日期欄位**：更新記錄的日期。
 
-1. (Optional) Click one of the following icons: 
+     建立行事曆檢視時，會根據為「開始」和「結束」日期選取的欄位，自訂日期欄位的名稱。
 
-    * **Expand** ![Expand icon](assets/expand-icon.png) to open the record details in the preview window. 
-    * **Delete** ![Delete icon](assets/delete-icon.png) to delete the record.
-    * **Close**  ![Close icon](assets/close-icon.png) to close the new record box. 
+     依預設，日期值會根據您顯示行事曆檢視的方式預先選取。 存在下列情況：
 
-    The record is added to the calendar as well as to the table and timeline views immediately, unless you clicked the **Delete** icon. 
-1. (Optional and conditional) Choose **Month** from the upper-corner dropdown menu, hover over one of the record bar's margins in the calendar, then drag and drop the ends of the bar to a different date. This automatically changes the start and end date of the record. 
+      * 按&#x200B;**月**：記錄的開始和結束日期跨越一天。
+      * 按&#x200B;**周**：記錄的開始和結束日期跨越兩天。
 
-    For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
-1. (Optional) Click the record bar in the calendar to open the record's details window and update its information, delete it, or add comments. 
+1. （選擇性）按一下下列圖示之一：
 
-    >[!TIP]
-    >
-    >By default, Workfront associates the record with a thumbnail and a cover image.
-    >
-    >The thumbnail displays in the calendar view only when it is enabled in the Settings of the view. 
+   * **展開** ![展開圖示](assets/expand-icon.png)以在預覽視窗中開啟記錄詳細資料。
+   * **刪除** ![刪除圖示](assets/delete-icon.png)以刪除記錄。
+   * **關閉** ![關閉圖示](assets/close-icon.png)以關閉新記錄方塊。
 
-    (*********when this is available in both monthly and weekly, add more steps to show resizing the timeline and dragging and dropping the record in the calendar*******)
+   除非您按一下&#x200B;**刪除**&#x200B;圖示，否則記錄會立即新增至行事曆以及表格和時間表檢視。
+1. （選擇性和條件性）從上角的下拉式選單中選擇&#x200B;**月**，將滑鼠暫留在行事曆中其中一個記錄列的邊界上，然後將記錄列的端點拖放至不同的日期。 這會自動變更記錄的開始和結束日期。
 
-    </div> -->
+   如需詳細資訊，請參閱[編輯記錄](/help/quicksilver/planning/records/edit-records.md)。
+1. （選擇性）按一下行事曆中的記錄列，以開啟記錄的詳細資訊視窗並更新其資訊、將其刪除或新增註解。
+
+   >[!TIP]
+   >
+   >依預設，Workfront會將記錄與縮圖和封面影像建立關聯。
+   >
+   >只有在檢視的「設定」中啟用縮圖時，縮圖才會顯示在行事曆檢視中。
+
+   <!--(*********when this is available in both monthly and weekly, add more steps to show resizing the timeline and dragging and dropping the record in the calendar*******)-->
+
+   </div>
 
 
 ## 從外部清單複製並貼上記錄，以建立記錄
@@ -489,7 +482,7 @@ For information about creating a calendar view, see [Manage the calendar view](/
 1. （視條件而定）如果嘗試連線時找不到記錄，請按一下[新增] **+ [新增]**
 
    或
-開始輸入名稱，然後按一下&#x200B;**+新增**。 **+新增**&#x200B;按鈕後面接著您連線的記錄型別名稱。 例如，將品牌新增至現有行銷活動時，「新增品牌」。 您輸入的名稱也會跟著新增按鈕。
+開始輸入名稱，然後按一下**+新增**。 **+新增**&#x200B;按鈕後面接著您連線的記錄型別名稱。 例如，將品牌新增至現有行銷活動時，「新增品牌」。 您輸入的名稱也會跟著新增按鈕。
 
    ![新增按鈕以在醒目提示的內容中建立記錄](assets/add-button-to-create-records-in-context-highlighted.png)
 

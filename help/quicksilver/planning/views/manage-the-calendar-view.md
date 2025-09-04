@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '1620'
-ht-degree: 5%
+source-wordcount: '1860'
+ht-degree: 4%
 
 ---
 
@@ -111,19 +111,12 @@ ht-degree: 5%
    * 當「開始」或「結束」日期沒有值時，記錄會顯示為單日事件
    * 當開始日期晚於結束日期時，記錄不會顯示在行事曆上。
 
-<!--
 <div class="preview">
 
-* You can create and edit records in the calendar view. For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
+* 您可以在行事曆檢視中建立和編輯記錄。 如需詳細資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md)。
+* 您可以在日曆每月檢視中調整記錄列的大小，方法是按一下，然後將它們的邊界拖放到新位置。 調整記錄列的大小會立即更新其開始和結束日期。 如需詳細資訊，請參閱[編輯記錄](/help/quicksilver/planning/records/edit-records.md)。
 
 </div>
--->
-
-<!--move this bullet under the same div as above OR add a span or another div tag?? ??
-
-* You can resize the records' bars in the calendar monthly view by clicking, then dragging and dropping their margins in a new position. Resizing the records' bars updates their start and end dates immediately. For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
-
--->
 
 若要管理行事曆檢視：
 
@@ -151,7 +144,7 @@ ht-degree: 5%
 
 1. 更新下列檢視元素，如下列子區段所述：
    * [篩選器](#add-filters)
-     <!--<span class="preview">[Row height](#modify-row-height)</span>-->
+   * <span class="preview">[資料列高度](#modify-row-height)</span>
    * [設定](#edit-the-calendar-view-settings)
 
    <!--* [Grouping](#add-grouping)-->
@@ -275,80 +268,72 @@ ht-degree: 5%
 1. （選擇性）按一下&#x200B;**x**&#x200B;圖示以移除篩選條件。
 1. （選擇性）按一下&#x200B;**篩選器**&#x200B;以關閉篩選器方塊。<!--right now you cannot "clear all" for filters, but this might come later-->
 
-<!--
 <span class="preview">
 
-### Modify row height
+### 修改列高
 
-You can modify the row height of a calendar cell to increase or decrease the number of record bars you display in each cell. 
+您可以修改行事曆儲存格的列高，以增加或減少您在每個儲存格中顯示的記錄列數目。
 
-The number of records displayed in the calendar varies depending on how many fields you display on the records' bars. 
+行事曆中顯示的記錄數會依您在記錄列上顯示的欄位數目而有所不同。
 
 >[!TIP]
 >
->This setting is available only when viewing the calendar by month. 
+>此設定僅在依月份檢視行事曆時可用。
 
 
-1. Create a calendar view for a record type page, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
-1. (Conditional) Display the calendar view by month, then click **Row height** in the calendar's toolbar.    
-1. Choose from the following options: 
+1. 建立記錄型別頁面的行事曆檢視，如文章[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)中所述。
+1. （視條件而定）依月份顯示行事曆檢視，然後按一下行事曆工具列中的&#x200B;**列高**。
+1. 從下列選項中選擇：
 
-<table>
-<thead>
-<tr>
-    <th><b>Row height option</b></th>
-    <th><b>Number of records</b></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-    <td>Short</td>
-    <td><p>Contains:</p>
+   <table>
+    <thead>
+    <tr>
+        <th><b>列高選項</b></th>
+        <th><b>預設最大記錄數</b></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>短</td>
+        <td><p>包含：</p>
 
-<ul><li>2 records displaying 1 field</li>
-<li>1 record displaying more than 1 field</li></ul>
-    </td>
-</tr>
-<tr><td>Standard</td>
-    <td><p>Contains:</p>
+   <ul><li>2筆記錄顯示1個欄位</li>
+    <li>顯示超過1個欄位的1筆記錄</li></ul>
+        </td>
+    </tr>
+    <tr><td>標準</td>
+        <td><p>包含：</p>
 
-<ul><li>4 records displaying 1 field</li>
-<li>2 record displaying more than 1 field</li></ul>
-    </td>
-</tr>
-<tr>
-    <td>Medium</td>
-    <td><p>Contains:</p>
+   <ul><li>4個記錄顯示1個欄位</li>
+    <li>顯示超過1個欄位的2筆記錄</li></ul>
+        </td>
+    </tr>
+    <tr>
+        <td>媒體</td>
+        <td><p>包含：</p>
 
-<ul><li>8 records displaying 1 field</li>
-<li>4 record displaying more than 1 field</li></ul>
-    </td>
-</tr>
-<tr>
-    <td>Tall</td>
-    <td><p>Contains:</p>
+   <ul><li>8筆記錄顯示1個欄位</li>
+    <li>顯示超過1個欄位的4筆記錄</li></ul>
+        </td>
+    </tr>
+    <tr>
+        <td>高</td>
+        <td><p>包含：</p>
 
-<ul><li>12 records displaying 1 field</li>
-<li>6 record displaying more than 1 field</li></ul>
-    </td>
-</tr>
-<tr>
-    <td>Fit to content</td>
-    <td><p>All records are visible, up to 500 records</p></td>
-</tr>
-</tbody>
-</table> 
+   <ul><li>顯示1個欄位的12筆記錄</li>
+    <li>顯示超過1個欄位的6筆記錄</li></ul>
+        </td>
+    </tr>
+    <tr>
+        <td>符合內容</td>
+        <td><p>所有記錄皆可見，最多500筆記錄</p></td>
+    </tr>
+    </tbody>
+    </table>
 
-1. (Optional) Click **Show more** if there are records that are not visible in the calendar. 
-
-    >[!TIP]
-    >
-    >The **Show more** option displays when you choose Fit to content and there are are more than 500 records in one time frame.
-
+1. （選擇性）如果行事曆中有看不見的記錄，請按一下&#x200B;**更多**。
 
 </span>
-
--->
 
 ### 編輯行事曆檢視設定
 

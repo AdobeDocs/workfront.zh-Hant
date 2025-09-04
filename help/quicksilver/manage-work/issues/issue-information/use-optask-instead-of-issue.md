@@ -6,9 +6,9 @@ description: 問題的名稱會在Adobe Workfront資料庫中顯示為opTask 。
 author: Alina
 feature: Work Management
 exl-id: 91107c04-616c-49b2-aa78-10e373d11f6b
-source-git-commit: 813b97ee0979e29a90293d9ddaba12a33c99f64d
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 如需物件在Workfront資料庫中出現的詳細資訊，請參閱[API總管](https://developer.adobe.com/workfront/api-explorer/)。
 
-## `opTask`檔案名稱
+## `opTask`欄位名稱
 
 在參考下列內容中的問題時使用`opTask`欄位名稱：
 

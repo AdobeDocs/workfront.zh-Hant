@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '2332'
+source-wordcount: '2688'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # 編輯記錄
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -242,12 +242,10 @@ ht-degree: 0%
 <!--add another step about drag and drop here when that is available-->
 
 1. 在時間軸檢視中開啟記錄型別頁面。 如需詳細資訊，請參閱[管理時間表檢視](/help/quicksilver/planning/views/manage-the-timeline-view.md)。
-<!--
-1. <span class="preview">Hover over the ends of a record's bar, click, drag and drop its margin to another date. This automatically updates either the start or end date of the record.</span>  
 
-    <span class="preview">![Left-end bar on timeline view to resize](assets/left-end-bar-handle-to-resize-timeline-view.png)</span>
+1. <span class="preview">將滑鼠游標停留在記錄列的末端，按一下，將其邊界拖放到另一個日期。 這會自動更新記錄的開始或結束日期。</span>
 
--->
+   時間軸檢視上的<span class="preview">![左端列調整大小](assets/left-end-bar-handle-to-resize-timeline-view.png)</span>
 
 1. 按一下記錄列以開啟其詳細資訊區域並編輯所有欄位。
 
@@ -258,12 +256,10 @@ ht-degree: 0%
 <!--add another step about drag and drop here when that is available-->
 
 1. 在行事曆檢視中開啟記錄型別頁面。 如需詳細資訊，請參閱[管理行事曆檢視](/help/quicksilver/planning/views/manage-the-calendar-view.md)。
-<!--
-1. (Conditional) Select **Month** in the upper-right dropdown menu.
-1. <span class="preview">Hover over the ends of a record's bar, click, drag and drop its margin to another date. This automatically updates either the start or end date of the record.</span>  
+1. （視條件而定）在右上角下拉式選單中選取&#x200B;**月**。
+1. <span class="preview">將滑鼠懸停在記錄列的末端，按一下，拖放其邊界到另一個日期。 這會自動更新記錄的開始或結束日期。</span>
 
-    <span class="preview">![Left-end bar on calendar view to resize](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
--->
+   <span class="preview">![行事曆檢視上的左側列要調整大小](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
 
 1. 按一下記錄列以開啟其詳細資訊區域並編輯所有欄位。
 
@@ -389,39 +385,34 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[管理來自Workfront物件的記錄連線](/help/quicksilver/planning/records/manage-records-in-planning-section.md)。
 
-
-<!--
-
 <div class="preview">
 
-## Add new choices to an existing select field when editing records in the table view
+## 編輯單一或多重選取欄位的資訊
 
-You can add new choices to an existing single- or multi-select field when editing records in the table view. 
+<!--some of this information is also available in Edit fields article - update both when necessary-->
+
+在單選或多選欄位中編輯資訊時，您可以新增選項至欄位，而無需編輯欄位。
 
 >[!IMPORTANT]
 >
->The functionality described in this section is available only in the table view. It is not available in any other areas where single- or multi-select fields display.
+>本節中說明的功能只能在表格檢視中使用。 無法用於顯示單選或多選欄位的任何其他區域。
 
+**範例**
 
-**EXAMPLE**
+您可能會有一個名為「狀態」的單選欄位，其選項為「新增」和「已關閉」，而且您要為「進行中」狀態新增選項。 您可以執行下列其中一項作業來新增選擇：
 
-You might have a single-select field called Status that has the choices New and Closed, and you want to add a choice for an In progress status. You can add the choice by doing one of the following things:
+* 編輯欄位。 如需詳細資訊，請參閱[編輯欄位](/help/quicksilver/planning/fields/edit-fields.md)
+* 在表格檢視中編輯記錄時新增選項，如下所述。
 
-* Editing the field. For information, see [Edit fields](/help/quicksilver/planning/fields/edit-fields.md)
-* Adding a new option while editing the record in the table view, as described below. 
+若要在編輯記錄時新增選擇至現有的選取欄位：
 
+1. 移至記錄型別頁面並開啟表格檢視。
+1. 新增您要在表格檢視中新增選擇的單一或多重選取欄位作為新欄。 如需詳細資訊，請參閱[建立欄位](/help/quicksilver/planning/fields/create-fields.md)。
+1. 連按兩下欄位的儲存格，開始內嵌編輯欄位。
+1. 輸入您要新增的選擇名稱，然後按一下[新增選擇]。****
 
-To add a new choice to an existing select field when editing a record: 
+   ![在表格檢視中的單一選取欄位中新增選項](assets/add-choice-in-table-view-for-single-select-field.png)
 
-1. Go to a record type page and open the table view. 
-1. Add the single- or multi-select field that you would like to add a choice to in the table view as a new column. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md). 
-1. Start editing the field inline by double-clicking the cell for the field. 
-1. Type the name of the choice you want to add, then click **Add choice**.
-
-    ![Add choice in single-select field in table view](assets/add-choice-in-table-view-for-single-select-field.png)
-
-    The new choice is added immediately to the single-select field. 
+   新選項會立即新增至單選欄位。
 
 </div>
-
--->

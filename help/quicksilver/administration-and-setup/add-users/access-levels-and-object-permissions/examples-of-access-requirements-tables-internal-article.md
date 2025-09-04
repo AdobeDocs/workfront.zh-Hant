@@ -4,9 +4,9 @@ description: 這是我們的團隊的內部文章，詳細記錄我們用於存�
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: 7d9e5ac168d759e9b657beb6513c994d91ab0145
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '1063'
 ht-degree: 1%
 
 ---
@@ -195,6 +195,33 @@ ht-degree: 1%
 2025年規劃套件
 授權：投稿人、輕度、標準
 套件：planning select、planning prime、planning ultimate
+
+## Portfolio Optimizer的存取需求
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>Workfront Prime或更高版本</p> 
+   <p>工作流程Prime或更高版本</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
+   <td> <p>標準</p>
+   <p>規劃</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>編輯投資組合和專案的存取權</p>  </td>
+</tr> 
+  <tr> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>管理投資組合的許可權</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 
 ## 大部分Workfront Planning的存取需求
@@ -391,9 +418,9 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[中的](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation)存取需求。
+如需此表格中資訊的詳細資訊，請參閱檔案[中的](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation)存取需求。
 
-如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)。
+如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)。
 
 ## 進階企業控制項
 

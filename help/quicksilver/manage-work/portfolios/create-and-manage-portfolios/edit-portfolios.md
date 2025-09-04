@@ -6,22 +6,22 @@ description: 您可以編輯已建立的投資組合資訊，或其他使用者�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1047'
 ht-degree: 1%
 
 ---
 
 # 編輯投資組合
 
-<div class="preview">
+<!--<div class="preview"> 
 
-本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在預覽版發佈一週後，生產環境中也將提供相同功能給所有客戶。
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
 
-如需詳細資訊，請參閱[介面現代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div>-->
 
 您可以編輯已建立的投資組合資訊，或其他使用者已建立的資訊（若他們已共用給您）。
 
@@ -42,15 +42,15 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">Adobe [!DNL Workfront]授權*</td> 
    <td> <p>新增：標準</p>
-   <p>目前： [!UICONTROL 計畫] </p> </td> 
+   <p>目前： [！UICONTROL計畫] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級</td> 
-   <td> <p>[!UICONTROL Edit]對投資組合的存取權</p>  </td> 
+   <td> <p>[！UICONTROL Edit]對投資組合的存取權</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>投資組合的[!UICONTROL Manage]許可權</p>
+   <td> <p>投資組合的[！UICONTROL Manage]許可權</p>
    <p> 管理投資組合中專案的許可權，以將其從投資組合中新增或移除</p>  </td> 
   </tr> 
  </tbody> 
@@ -109,9 +109,9 @@ ht-degree: 1%
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this might have to be split in two sections if the single edit and the bulk edit won't come at the same time for portfolios)</p>
    -->
-   <span class="preview">顯示&#x200B;**[!UICONTROL 編輯Portfolio]**&#x200B;方塊。</span>
+   **[!UICONTROL 編輯Portfolio]**&#x200B;方塊隨即顯示。
 
-   <span class="preview">![編輯投資組合方塊](assets/edit-portfolio-box-classic-350x224.png)</span>
+   ![編輯投資組合方塊](assets/edit-portfolio-box-classic-350x224.png)
 
    所有投資組合欄位都可在[!UICONTROL 編輯Portfolio]方塊中使用，並按左側面板中列出的區域分組。
 
@@ -142,42 +142,39 @@ ht-degree: 1%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL **名稱**]</td> 
+      <td role="rowheader">[！UICONTROL **名稱**]</td> 
       <td> <p>更新投資組合的名稱。 </p> <p><b>秘訣</b></p> 
-      <p>當您選取多個投資組合時，無法使用&#x200B;**Name**&#x200B;欄位。 </p> </td> 
+      <p>當您選取多個投資組合時，無法使用**Name**欄位。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL **說明**]</td> 
+      <td role="rowheader">[！UICONTROL **說明**]</td> 
       <td> <p>輸入Portfolio的說明以指出其獨特性。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL **Portfolio Manager**]</td> 
-      <td> <p>開始輸入您要指定做為投資組合經理的使用者名稱，然後當它出現在清單中時選取它。 這與[!UICONTROL Portfolio Owner]相同。 此人員可監督投資組合中專案所定義的工作，並可核准業務案例。</p> <p>重要：當您指定某人為Portfolio管理員時，他會自動獲得投資組合中、計畫及專案的[!UICONTROL 管理]許可權。 </p> <p>提示：您可以在投資組合標題中快速更新投資組合經理。 </p> </td> 
+      <td role="rowheader">[！UICONTROL **Portfolio Manager**]</td> 
+      <td> <p>開始輸入您要指定做為投資組合經理的使用者名稱，然後當它出現在清單中時選取它。 這與[！UICONTROL Portfolio Owner]相同。 此人員可監督投資組合中專案所定義的工作，並可核准業務案例。</p> <p>重要：當您指定某人為Portfolio管理員時，他會自動獲得投資組合中、計畫及專案的[！UICONTROL管理]許可權。 </p> <p>提示：您可以在投資組合標題中快速更新投資組合經理。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL **群組**]</td> 
-      <td> <p>如果群組與投資組合相關聯或負責完成投資組合，請新增單一群組的名稱。 </p> <p>秘訣：  <p>從[!UICONTROL Portfolio Details]頁面存取[!UICONTROL Group]欄位時，請執行下列動作： </p> <p>您可以暫留在群組上，並按一下旁邊顯示的[!UICONTROL 資訊]圖示<img src="assets/info-icon.png">，確定您選取的群組正確。 這會顯示工具提示，列出群組的相關資訊，例如群組及其管理員上方的群組階層。</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> <p>此選項在[!UICONTROL 編輯Portfolio]方塊中無法使用。 </p> </p> </td> 
+      <td role="rowheader">[！UICONTROL **群組**]</td> 
+      <td> <p>如果群組與投資組合相關聯或負責完成投資組合，請新增單一群組的名稱。 </p> <p>秘訣：  <p>從[！UICONTROL Portfolio Details]頁面存取[！UICONTROL Group]欄位時，請執行下列動作： </p> <p>您可以暫留在群組上，並按一下旁邊顯示的[！UICONTROL資訊]圖示<img src="assets/info-icon.png">，確定您選取的群組正確。 這會顯示工具提示，列出群組的相關資訊，例如群組及其管理員上方的群組階層。</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> <p>此選項在[！UICONTROL編輯Portfolio]方塊中無法使用。 </p> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p role="rowheader">[!UICONTROL **Alignment Scorecard**]</p> </td> 
+      <td role="rowheader"> <p role="rowheader">[！UICONTROL **Alignment Scorecard**]</p> </td> 
       <td> <p>從下拉式清單中選取您要使用的對齊計分卡。 計分卡可用來測量專案與Portfolio既定標準的符合程度，這些標準通常可反映組織的使命、價值和策略目標。 如需詳細資訊，請參閱<a href="../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md" class="MCXref xref">將計分卡套用至專案並產生一致性分數</a>和<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md" class="MCXref xref">建立計分卡</a>。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL **作用中**]</td> 
+      <td role="rowheader">[！UICONTROL **作用中**]</td> 
       <td> <p> 如果您希望投資組合有效，請選取此核取方塊。 其他使用者可在建立或編輯專案時尋找使用中的專案組合併將其附加至專案。 非作用中的投資組合無法附加到專案。 這預設為啟用。</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 按一下「**[!UICONTROL 儲存變更]**」<span class="preview">或「[!UICONTROL **儲存**]</span>」，然後繼續編輯下列區段。
+1. 按一下「儲存」[!UICONTROL ****]&#x200B;並繼續編輯下列區段。
 
 ### 自訂表單
 
 1. 依照上述方式開始編輯投資組合。
-1. 按一下&#x200B;**[!UICONTROL 新增Forms]**&#x200B;下拉式功能表，選取自訂表單並將其新增至投資組合。
-
-   或
-   <span class="preview">開始在&#x200B;[!UICONTROL **新增自訂表單**]&#x200B;欄位中輸入表單名稱。</span>
+1. 開始在&#x200B;[!UICONTROL **新增自訂表單**]&#x200B;欄位中輸入表單名稱。
 
    您必須先建立產品組合自訂表單，然後才能新增。
 
@@ -185,16 +182,16 @@ ht-degree: 1%
    >
    >根據您的[!DNL Workfront]管理員在您自訂表單中設定區段許可權的方式，不是每個人都可以檢視或編輯指定自訂表單上的相同欄位。 編輯自訂表單區段內欄位的許可權取決於您在專案組合本身的許可權。 如需有關設定自訂表單區段許可權的資訊，請參閱[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
-1. 按一下「**[!UICONTROL 儲存變更]**」<span class="preview">或「[!UICONTROL **儲存**]</span>」，然後繼續編輯下列區段。
+1. 按一下「儲存」[!UICONTROL ****]&#x200B;並繼續編輯下列區段。
 
 ### 評論 {#comment}
 
 1. 依照上述方式開始編輯投資組合。
 1. 按一下&#x200B;**[!UICONTROL 註解]**。
 
-   <span class="preview">![編輯投資組合註解方塊](assets/comment-box-edit-portfolio-classic-350x227.png)</span>
+   ![編輯投資組合註解方塊](assets/comment-box-edit-portfolio-classic-350x227.png)
 
-1. <span class="preview">在&#x200B;**[!UICONTROL 新增更新至投資組合]**&#x200B;欄位中新增註解。</span>
+1. 在&#x200B;**[!UICONTROL 新增更新至投資組合]**&#x200B;欄位中新增註解。
 1. （選用）按一下&#x200B;**[!UICONTROL 人員]**&#x200B;圖示以新增使用者或團隊至註解。
 1. （選擇性）按一下&#x200B;**[!UICONTROL 鎖定]**&#x200B;圖示以鎖定註解，並設為只有貴公司使用者才能使用。
-1. 按一下&#x200B;**[!UICONTROL 儲存變更]** <span class="preview">或&#x200B;[!UICONTROL **儲存**]</span>。
+1. 按一下「[!UICONTROL **儲存**]」。

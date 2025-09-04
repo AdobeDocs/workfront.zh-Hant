@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 567fa8c960f7db47279d6cde1f5e90dc7f38ae79
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 1%
+source-wordcount: '960'
+ht-degree: 0%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 1%
 
 ## 存取需求
 
-+++ 展開以檢視存取需求。
++++ 展開以檢視存取需求。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -50,7 +50,7 @@ ht-degree: 1%
    <td role="rowheader"><p>Adobe Workfront計畫*</p></td> 
    <td> 
 <p>下列任一Workfront計畫：</p> 
-<ul><li>選取</li> 
+<ul><li>選擇</li> 
 <li>Prime</li> 
 <li>Ultimate</li></ul> 
 <p>舊版Workfront計畫不提供Workfront計畫</p> 
@@ -90,7 +90,7 @@ ht-degree: 1%
 
 *如需Workfront存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-+++
++++   
 
 
 ## 編輯欄位設定的相關考量事項
@@ -98,7 +98,7 @@ ht-degree: 1%
 在變更欄位的設定之前，您必須考慮以下事項：
 
 * 您只能從記錄型別表中編輯欄位設定。
-* 您無法在記錄頁面或表格檢視之外的任何其他檢視中編輯欄位。
+* 您無法在記錄頁面或表格檢視之外的任何其他檢視中編輯欄位設定。
 * 儲存欄位後，您無法編輯欄位型別。
 * 如果先前選取的「數字」、「百分比」或「幣別」欄位在其附加的記錄中已有負值，則無法取消選取該欄位的「允許負數」設定。
 * 儲存欄位後，您可以編輯以下欄位元素的設定：
@@ -116,6 +116,7 @@ ht-degree: 1%
   >不會通知其他使用者欄位設定已變更。
 
 * 您可以從連線的記錄中編輯現有的查閱欄位。
+* 除了依照本文中[編輯欄位設定](#edit-field-settings-1)一節所述編輯欄位外，<span class="preview">當您在表格檢視中編輯記錄時，在更新欄位值時，還可以編輯單一或多重選取欄位的選擇。 如需相關資訊，請參閱本文中在資料表檢視[區段編輯記錄時，將](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view)新選擇新增至現有的選取欄位。</span>
 
 <!--at production - April 10, 2025 - remove the last bullet altogether-->
 
@@ -163,3 +164,36 @@ ht-degree: 1%
 1. （視條件而定）對於連線的記錄欄位，按一下&#x200B;**編輯查閱欄位**，並從連線的記錄型別新增或移除任何查閱欄位。
 
    如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
+
+
+<div class="preview">
+
+## 在表格檢視中編輯記錄時，將新選擇新增至現有的選取欄位
+
+<!--some of this information is also available in Edit records article - update both when necessary-->
+
+在表格檢視中編輯記錄時，您可以將新選擇新增至現有的單一或多重選取欄位。
+
+>[!IMPORTANT]
+>
+>本節中說明的功能只能在表格檢視中使用。 無法用於顯示單選或多選欄位的任何其他區域。
+
+**範例**
+
+您可能會有一個名為「狀態」的單選欄位，其選項為「新增」和「已關閉」，而且您要為「進行中」狀態新增選項。 您可以執行下列其中一項作業來新增選擇：
+
+* 編輯欄位。 如需詳細資訊，請參閱本文中的[編輯欄位設定](#edit-field-settings-1)一節。
+* 在表格檢視中編輯記錄時新增選項，如下所述。
+
+若要在編輯記錄時新增選擇至現有的選取欄位：
+
+1. 移至記錄型別頁面並開啟表格檢視。
+1. 新增您要在表格檢視中新增選擇的單一或多重選取欄位作為新欄。 如需詳細資訊，請參閱[建立欄位](/help/quicksilver/planning/fields/create-fields.md)。
+1. 連按兩下欄位的儲存格，開始內嵌編輯欄位。
+1. 輸入您要新增的選擇名稱，然後按一下[新增選擇]。****
+
+   ![在表格檢視中的單一選取欄位中新增選項](assets/add-choice-in-table-view-for-single-select-field.png)
+
+   新選項會立即新增至單選欄位。
+
+</div>
