@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 31cc110fb4fba38a530406acc1f42a89159e029b
+source-git-commit: 09c41ed117660c67c3890ebbaabae73c60cd4a9a
 workflow-type: tm+mt
-source-wordcount: '7469'
+source-wordcount: '7542'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,13 @@ ht-degree: 0%
 如需Adobe Workfront的所有其他變更，請參閱[產品版本](/help/quicksilver/product-announcements/product-releases/product-releases.md)。
 
 ## 管理和設定
+
+### 新計分卡和複製計分卡方塊的介面更新
+
+**預覽版本： 2025年9月4日；生產版本： 2025年9月11日**
+
+我們已更新新計分卡和複製計分卡方塊的外觀和風格，以符合應用程式其他區域的設計。 在Workfront的「設定」區域中建立或複製計分卡時，您可以檢視更新的設計。\
+如需詳細資訊，請參閱[建立計分卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)。
 
 ### 群組中版面配置範本清單的介面更新
 
@@ -217,7 +224,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->暫時從預覽和生產中移除
+>可在「預覽」中使用，並將從2025年9月4日起分階段在「生產」中使用。
 
 我們已在時數區段中更新記錄專案、任務或問題的時間時，記錄時間方塊的外觀和風格，以符合Workfront其他區域的設計。
 
@@ -1015,7 +1022,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 此更新包含區域的視覺化變更。 功能未變更。
 
-若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。**&#x200B;**
+若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。****
 
 +++
 
