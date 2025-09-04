@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: c7b91828e5a4f961fc48e857eb63756b9b38f664
+source-git-commit: 50c3cddbd11f2fe9d9bb30f66d8e690f88390f33
 workflow-type: tm+mt
-source-wordcount: '3430'
+source-wordcount: '3425'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/tw/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 -->
@@ -75,7 +75,7 @@ ht-degree: 0%
 
    編輯使用者方塊隨即顯示。
 
-1. 在&#x200B;**編輯使用者**&#x200B;方塊中，變更任何區段中的資訊，然後隨時按一下&#x200B;**儲存變更** <span class="preview">或&#x200B;**儲存**</span>。
+1. 在&#x200B;**編輯使用者**&#x200B;方塊中，變更任何區段中的資訊，然後隨時按一下&#x200B;**儲存**。
 
 ### 個人資訊
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 
   如果您的組織已移轉至Adobe Admin Console，您便無法在Workfront中編輯使用者的電子郵件地址。 使用者的電子郵件地址是在Adobe Admin Console中設定。
 
-* **重設密碼** / <span class="preview">**變更密碼**</span>：按一下此連結以重設使用者的密碼。 您必須先輸入自己的密碼，才能重設其他使用者的密碼。
+* **變更密碼**：按一下此按鈕，重設使用者的密碼。 您必須先輸入自己的密碼，才能重設其他使用者的密碼。
 
   若要重設其他使用者的密碼，您必須是Workfront管理員或群組管理員。
 
@@ -121,7 +121,7 @@ ht-degree: 0%
   >
   >如果您是群組管理員，且您的存取層級中已啟用「使用者管理員（所有使用者）」許可權，您可以編輯所有使用者的&lt;SSO設定>欄位。
 
-* **設定檔像片**：按一下&#x200B;**上傳像片** / <span class="preview">**上傳新像片**</span>&#x200B;以載入使用者的設定檔像片。 您可以上傳JPG、GIF或PNG檔案。 檔案大小限製為4 MB。
+* **設定檔像片**：按一下&#x200B;**上傳新像片**&#x200B;以載入使用者的設定檔像片。 您可以上傳JPG、GIF或PNG檔案。 檔案大小限製為4 MB。
 
   個人資料圖片會成為使用者的頭像，且無論使用者名稱在何處顯示，都可在整個Workfront系統中看到。
 
@@ -148,7 +148,7 @@ ht-degree: 0%
   >
   >此選項僅在預覽和沙箱環境中可用。 生產環境中預設會啟用電子郵件通知。
 
-<!--* **Send work I assign to myself to my Working On tab**: This setting refers to a deprecated feature that has been removed from Workfront.-->
+* **將我指派給自己的工作傳送到[正在處理]索引標籤**：選取此選項時，使用者自行指派的工作會自動設定為[進行中]狀態，而非[新增]。<!--This setting refers to a deprecated feature that has been removed from Workfront.-->
 
 * **上傳檔案時自動產生校訂**：如果您希望使用者上傳的檔案立即產生校訂，請勾選此選項。
 
@@ -162,7 +162,7 @@ ht-degree: 0%
 
 ### 存取
 
-* **為作用中** / <span class="preview">**使用者為作用中**</span>：啟用此選項以指出使用者為作用中。 作用中使用者使用Workfront授權。 停用欄位會停用使用者並防止他們登入Workfront。
+* **使用者處於作用中狀態**：啟用此選項以表示使用者處於作用中狀態。 作用中使用者使用Workfront授權。 停用欄位會停用使用者並防止他們登入Workfront。
 
 * **存取層級**：選取要指派給此使用者的存取層級。
 
@@ -199,7 +199,7 @@ ht-degree: 0%
 * **直接下屬**：如果您為使用者指定公司，也可以指定使用者的直接下屬。 一個使用者可以有多個直接下屬。 如果使用者沒有先與公司建立關聯，則不會顯示此欄位。
 * **主團隊**：指定使用者的主團隊。 使用者只能有一個主團隊。 在指派版面配置範本，或為指派給使用者的任務和問題定義「處理它」按鈕時，主團隊很重要。
 * **其他團隊**：使用者可以屬於多個團隊。 使用者可以在他們的首頁區域檢視指派給他們的任何團隊的工作專案。
-* **主群組** / <span class="preview">**目前主群組**</span>：選取適當的群組以指派使用者。 這可讓使用者存取與群組共用的物件。 您也可以和使用者的主群組共用版面範本。
+* **目前主群組**：選取適當的群組以指派使用者。 這可讓使用者存取與群組共用的物件。 您也可以和使用者的主群組共用版面範本。
 
   這是必填欄位。 每個使用者都必須與主群組相關聯。 如果您未選取主群組，則會將您的主群組指派為新使用者的主群組。
 
@@ -237,8 +237,8 @@ ht-degree: 0%
   >
   >將「工作時間」值設為1，表示使用者可用於專案相關工作的整個全職同等工作。
 
-* **排程停用** / <span class="preview">**設定停用日期**</span>：核取此方塊/ <span class="preview">如果您要排程此使用者在特定日期及特定時間停用，請按一下此按鈕</span>。
-* **已排程的停用日期** / <span class="preview">**停用日期**</span>：停用使用者的日期和時間。 如需排程使用者停用的相關資訊，請參閱[停用或重新啟用使用者](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation)中的[排程使用者停用](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)。
+* **設定停用日期**：如果您要排程此使用者在特定日期與特定時間停用，請按一下此按鈕。
+* **停用日期**：停用使用者的日期和時間。 如需排程使用者停用的相關資訊，請參閱[停用或重新啟用使用者](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation)中的[排程使用者停用](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)。
 * **主要角色**：這是使用者可以在Workfront中完成的主要工作角色。 指派給使用者的每個任務和問題也會指派給此工作角色。 職務角色在資源管理中至關重要。 只有在您擁有具有管理使用者存取許可權的「標準」或「計畫」授權，或者您是Workfront管理員時，才能更新此欄位。 如需有關設定具有管理使用者存取許可權的使用者的詳細資訊，請參閱[授予使用者存取許可權](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)。
 
   清單中只會顯示作用中的職位角色。
@@ -256,11 +256,7 @@ ht-degree: 0%
 
   如果「其他角色」具有0%的FTE可用性，除非將使用者指派給這些角色中的任務，否則它們不會顯示在「資源規劃工具」中。
 
-  預覽中的<span class="preview">：</span>
   ![使用者角色和FTE](assets/user-roles-fte-2025.png)
-
-  生產中：
-  ![使用者角色和FTE](assets/user-settings-roles-and-dte-boxes-rp-story.png)
 
   所有角色的所有&#x200B;**FTE可用性**&#x200B;百分比的總和必須等於100%。 每個FTE可用性的百分比會計算「資源規劃工具」中每個使用者的「可用時數」。 每個使用者每個角色的可用時數取決於使用者的可用時數。
 
@@ -272,7 +268,7 @@ ht-degree: 0%
 
   <span class="preview"> （選擇性）如果使用者在專案期間的工作角色變更，則財務計算中會使用生效日期的工作角色指派。</span>
 
-  <span class="preview">按一下&#x200B;**依日期定義角色**，選取&#x200B;**主要角色**&#x200B;和&#x200B;**其他角色**，然後輸入每個角色的配置百分比。 這些角色可能與現有角色（使用不同的百分比）或新角色相同。 選取這些角色生效時的「開始」日期。 這可以是未來的日期。 當最新的角色作用中時，您可以按一下[顯示先前的角色]&#x200B;**&#x200B;**，檢視先前的非作用中角色。</span>
+  <span class="preview">按一下&#x200B;**依日期定義角色**，選取&#x200B;**主要角色**&#x200B;和&#x200B;**其他角色**，然後輸入每個角色的配置百分比。 這些角色可能與現有角色（使用不同的百分比）或新角色相同。 選取這些角色生效時的「開始」日期。 這可以是未來的日期。 當最新的角色作用中時，您可以按一下[顯示先前的角色]****，檢視先前的非作用中角色。</span>
 
 * **排程**：將排程與使用者建立關聯。 使用者的排程會計算指派給使用者的任務的時間表。
 
@@ -318,21 +314,17 @@ ht-degree: 0%
 * **資源集區**：將使用者與資源集區建立關聯。 如需詳細資訊，請參閱[將資源集區與使用者關聯](/help/quicksilver/resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)。
 * **成本費率**：使用者每小時的成本金額。
 
-  若要取得日期有效成本費率，請按一下[新增費率]。**&#x200B;** 輸入時間期間的成本費率值，並視需要指定「開始日期」與「結束日期」。 成本費率1不會有開始日期，而最後的成本費率不會有結束日期。
+  若要取得日期有效成本費率，請按一下[新增費率]。**** 輸入時間期間的成本費率值，並視需要指定「開始日期」與「結束日期」。 成本費率1不會有開始日期，而最後的成本費率不會有結束日期。
 
   部分日期會自動新增。 例如，如果「成本費率1」沒有結束日期，而您新增了開始日期為2023年5月1日的「成本費率2」，則會將結束日期為2023年4月30日的成本費率新增至「成本費率1」，因此不會出現間隙。
 
 * **收費率**：使用者每小時的收費金額。
 
-  若要取得日期有效收費率，請按一下[新增費率]。**&#x200B;** 輸入時間期間的帳單費率值，並視需要指定「開始日期」與「結束日期」。 帳單費率1不會有開始日期，而最後的帳單費率不會有結束日期。
+  若要取得日期有效收費率，請按一下[新增費率]。**** 輸入時間期間的帳單費率值，並視需要指定「開始日期」與「結束日期」。 帳單費率1不會有開始日期，而最後的帳單費率不會有結束日期。
 
   部分日期會自動新增。 例如，如果「收費率1」沒有結束日期，而您新增了開始日期為2023年5月1日的第二個日期，則結束日期為2023年4月30日的日期會新增至「收費率1」，因此不存在間隔。
 
-  預覽中的<span class="preview">：</span>
   ![使用者成本和收費率](assets/user-cost-billing-rates-2025.png)
-
-  生產中：
-  ![使用者成本和收費率](assets/edit-user-cost-billing-rate-2.png)
 
 ### 自訂表單
 

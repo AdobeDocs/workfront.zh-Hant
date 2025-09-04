@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: c7b91828e5a4f961fc48e857eb63756b9b38f664
+source-git-commit: 1a81c1becfc0866b92dbd1358af23671e5302266
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1104'
 ht-degree: 2%
 
 ---
@@ -22,8 +22,6 @@ ht-degree: 2%
 >title="停用使用者"
 >abstract="停用使用者，便會從 Workfront 和 Frame.io 中移除該使用者。已停用的使用者之後可以重新啟用。"
 
-{{highlighted-preview}}
-
 <!--Audited 5/2025-->
 
 <!--
@@ -32,7 +30,7 @@ ht-degree: 2%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/tw/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -129,9 +127,9 @@ Workfront管理員和計畫授權使用者可在他們的使用者設定檔中�
 
 1. 按一下&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)。
 1. 在&#x200B;**編輯使用者**&#x200B;方塊的左側面板中，按一下&#x200B;**資源規劃**。
-1. 選取&#x200B;**排程停用**&#x200B;核取方塊<span class="preview">或按一下&#x200B;**設定停用日期**</span>。
+1. 按一下&#x200B;**設定停用日期**。
 
-1. 選取&#x200B;**排定的停用日期** / <span class="preview">**停用日期**</span>&#x200B;的日期和時間。
+1. 選取&#x200B;**停用日期**&#x200B;的日期和時間。
 
    >[!NOTE]
    >
@@ -139,7 +137,7 @@ Workfront管理員和計畫授權使用者可在他們的使用者設定檔中�
    >* 如果您選取已通過當天的時間，Workfront會將停用排程定於隔天凌晨12:00。
    >* 選取的時間符合正在排程停用之使用者的電腦時區。
 
-1. 按一下&#x200B;**儲存變更** <span class="preview">或&#x200B;**儲存**</span>。
+1. 按一下「**儲存**」。
 
 在選取的時間過後就會在選取的日期停用使用者。 如果您選取了多個要大量停用的使用者，則所有選取的使用者在選取的日期晚於選取的時間點停用。
 
