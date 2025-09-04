@@ -6,9 +6,9 @@ description: 依預設，新展示板包含三欄。 您可以新增更多欄、
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 97b2118b1897f75dea0e45758e3d7f7c3409b234
 workflow-type: tm+mt
-source-wordcount: '1160'
+source-wordcount: '1094'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 0%
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
    <td> <p>新增：投稿人或更高版本 </p>
         <p>或</p> 
-        <p>目前： [!UICONTROL Request]或以上 </p></td> 
+        <p>目前： [！UICONTROL Request]或以上 </p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -121,12 +121,6 @@ ht-degree: 0%
 
 如果卡片狀態不符合任何現有欄原則中設定的任何狀態，則卡片將保留在放置它的欄中。
 
->[!NOTE]
->
->動態展示板總是將卡片放置在與其狀態相符的欄中，無論欄原則是啟用還是停用。 當您重新整理展示板時，卡片將返回其指派的欄。
-> 
->此外，對於所有展示板型別，如果您將卡片從一欄移動到另一欄具有相同狀態，當您重新整理展示板時，卡片將返回到原始欄。
-
 1. 存取展示板。
 1. 按一下欄上的&#x200B;**[!UICONTROL 更多]**&#x200B;功能表![更多功能表](assets/more-icon-spectrum.png)，然後選取&#x200B;**[!UICONTROL 編輯]**。
 
@@ -142,7 +136,7 @@ ht-degree: 0%
 
    1. 選取卡片移至此欄時要套用的狀態。
 
-      資料行![&#128279;](assets/boards-column-status.png)的狀態
+      資料行![的](assets/boards-column-status.png)狀態
 
       也會顯示已連線卡片的狀態轉譯選項。 （狀態轉譯不適用於臨時卡。） 這些選項決定在連線的卡片移至此欄時，套用到[!DNL Workfront]中任務或問題的自訂狀態。
 
@@ -174,7 +168,7 @@ ht-degree: 0%
 
    1. 從下拉式清單中選取標籤。 只有已在[!UICONTROL 標籤管理員]中建立的標籤才可供選擇。 如需新增標籤的相關資訊，請參閱[新增標籤](/help/quicksilver/agile/get-started-with-boards/add-tags.md)。
 
-      資料行![&#128279;](assets/boards-column-tags.png)的標籤
+      資料行![的](assets/boards-column-tags.png)標籤
 
 1. 啟用&#x200B;**[!UICONTROL 進行中工作限制]**&#x200B;原則以限制可新增到資料行的卡片數量。 然後，在&#x200B;**[!UICONTROL 設定限制]**&#x200B;欄位中輸入限制數字。
 

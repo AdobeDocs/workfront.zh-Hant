@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
 hide: true
 hidefromtoc: true
-source-git-commit: 420ddfa1f12f21332f460f9dc5fd1393cfc6e435
+source-git-commit: 97b2118b1897f75dea0e45758e3d7f7c3409b234
 workflow-type: tm+mt
-source-wordcount: '1822'
+source-wordcount: '1862'
 ht-degree: 0%
 
 ---
@@ -68,14 +68,18 @@ AI助理可以產生下列物件的專案健康情況評估：
 
 為了利用專案健康狀態，您的組織必須啟用AI助理。
 
-若要為您的組織啟用AI助理，必須套用下列所有專案：
+若要為貴組織啟用AI助理和專案健康狀態，必須套用下列所有專案：
 
 * 貴組織必須已移轉至Adobe IMS (Identity Management系統)。
+* 貴組織必須有Select、Prime或Ultimate Workfront計畫
 * 必須啟用Adobe Unified Experience。
 * Adobe必須有已簽署的Adobe Gen AI合約檔案。
 * Workfront管理員必須為貴組織中的使用者啟用AI助理。 AI助理是透過存取層級啟用。
+* 在「設定>偏好設定」的「AI偏好設定」區段中，必須同時選取「啟用AI」和「專案健康狀態」選項。
 
-如需詳細資訊，請參閱[AI助理概述](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)。
+  ![AI喜好設定區段](assets/ai-preferences.png)
+
+如需詳細資訊，請參閱[AI助理概述](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)和[設定系統偏好設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)。
 
 ## AI助理提示清單
 
