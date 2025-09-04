@@ -3,11 +3,9 @@ title: 2025年第四季專案增強功能
 description: 2025年第四季專案增強功能
 author: Courtney
 feature: Product Announcements
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 65012e89-3e3e-42b7-94af-8fa3687501ed
-source-git-commit: 4b708e10e54a0a7ef9d305bbcfd8cf80a82d0376
+source-git-commit: 0937f9b1246b92aa080349f0293674455d21ed70
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 0%
