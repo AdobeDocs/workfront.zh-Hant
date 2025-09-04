@@ -184,7 +184,7 @@ ht-degree: 1%
 
    ![新專案功能表](assets/new-project-dropdown-nwe-350x358.png)
 
-1. 按一下功能表中的[新增專案]****，從頭開始建立專案。
+1. 按一下功能表中的[新增專案]&#x200B;**&#x200B;**，從頭開始建立專案。
 1. 輸入專案名稱。 按下Enter以儲存名稱。
 
    ![輸入專案名稱](assets/rename-untitled-project.png)
