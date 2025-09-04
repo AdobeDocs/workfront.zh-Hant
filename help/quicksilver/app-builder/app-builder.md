@@ -4,10 +4,10 @@ description: 客戶和合作夥伴可以利用由 Adobe App Builder 提供技術
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
-source-git-commit: dcdae47ffd4a02ac9a0bbd3cd9bd1418f6c59e1a
+source-git-commit: 6355bbbabf233a6e3b577c45084236b4a46144e5
 workflow-type: tm+mt
-source-wordcount: '1693'
-ht-degree: 1%
+source-wordcount: '2178'
+ht-degree: 0%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 1%
 Workfront UI擴充功能提供幾個主要優點：
 
 * 精確自訂：標準軟體介面通常無法滿足所有業務需求。 UI擴充功能可讓開發人員修改及擴充預設使用者介面，以滿足特定業務需求。
-* 系統整合： UI擴充功能有助於整合其他系統，確保順暢的工作流程與資料一致性。
+* 系統整合： UI擴充功能可促進其他系統的整合，確保順暢的工作流程與資料一致性。
 * 擴充性：隨著企業成長，可以開發UI擴充功能來新增功能，而不需要徹底的系統檢修。
 * 縮短開發時間：預先建立的擴充功能點和工具，大幅減少實施自訂功能所需的時間和精力。
 * 增強使用者採用率：最佳化的使用者體驗可大幅提升軟體採用率。 為符合使用者偏好設定而設計的自訂UI元素可以提高採用率和整體滿意度。
 * 運用Workfront UI擴充功能，企業可建立量身打造的使用者體驗，藉以提高效率、整合和使用者滿意度。
 
-在Adobe App Builder中建立應用程式後，Workfront管理員可以使用版面配置範本將其新增到Workfront主功能表和左側導覽面板。 具有版面配置範本的使用者按一下應用程式後，就會看到應用程式內嵌在Workfront中，而不必另外開啟。
+在Adobe App Builder中建立應用程式後，Workfront管理員可以使用版面配置範本將其新增到Workfront主功能表和左側導覽面板。 具有版面配置範本的使用者按一下應用程式後，會看到內嵌在Workfront中的應用程式，而不必另外開啟。
 
 本文說明如何存取App Builder並使用範本建立應用程式。
 
@@ -62,9 +62,9 @@ Workfront UI擴充功能提供幾個主要優點：
    >
    >如果您看不到管理開發人員的選項，表示您沒有允許開發人員存取的產品。
 
-1. 新增使用者的電子郵件。 它應該搜尋已從Admin Console中新增的現有使用者。
+1. 新增使用者的電子郵件。 它應搜尋已從Admin Console中新增的現有使用者。
 
-1. 將必要的產品新增至開發人員設定檔，然後按一下[儲存]。**&#x200B;**\
+1. 將必要的產品新增至開發人員設定檔，然後按一下[儲存]。****\
    ![新增開發人員](assets/add-developer.png)
 
 ### 存取App Builder
@@ -83,11 +83,11 @@ Workfront UI擴充功能提供幾個主要優點：
 
 1. 選擇您的帳戶，以及您的設定檔或組織。
 
-1. 按一下[快速入門]區域中的[從範本建立專案]&#x200B;**&#x200B;**，或按一下[從範本建立新專案]&#x200B;**>[從範本建立專案]**。
+1. 按一下[快速入門]區域中的[從範本建立專案]****，或按一下[從範本建立新專案]**>[從範本建立專案]**。
 
    >[!IMPORTANT]
    >
-   >如果您沒有看見從範本建立專案的選項，表示您在Admin Console中的設定有誤，且無法存取App Builder目錄。 只有在您有權存取AppBuilder時，才會顯示此選項。
+   >如果您沒有看見從範本建立專案的選項，表示您在Admin Console中的設定錯誤，且無權存取App Builder目錄。 只有在您有權存取AppBuilder時，才會顯示此選項。
 
    ![從範本建立](assets/create-from-template.png)
 
@@ -99,7 +99,7 @@ Workfront UI擴充功能提供幾個主要優點：
 
 1. 按一下「**儲存**」。
 
-## 使用Adobe IO (aio) CLI
+## 使用Adobe Developer (aio) CLI
 
 Adobe提供開放原始碼CLI，可用來建立App Builder應用程式。
 
@@ -125,7 +125,7 @@ GitHub和Adobe Developer網站上提供其他指示：
    * 為擴充功能命名。
    * 提供擴充功能的描述性摘要。
    * 選取要開始使用的初始版本編號。
-   * 如果您在出現「您接下來想要做什麼？」的提示時選取「將自訂按鈕新增至主要功能表專案」，範本將會建立主要導覽按鈕的程式碼。
+   * 如果您在提示「您接下來想要做什麼？」時選取「將自訂按鈕新增至主要功能表專案」，範本會建立主要導覽按鈕的程式碼。
 
    ![選取完成](assets/5-select-done.png)
 
@@ -134,6 +134,8 @@ GitHub和Adobe Developer網站上提供其他指示：
 1. 等到您看到應用程式初始化完成的訊息為止。 然後，您可以在IDE中開啟專案（建議使用Visual Studio Code）並存取src資料夾。
 
    如需專案中資料夾和檔案的詳細資訊，請參閱[Adobe開發人員網站](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#anatomy-of-an-app-builder-application)。
+
+如需專案中資料夾和檔案的詳細資訊，請參閱[Adobe Developer網站](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#anatomy-of-an-app-builder-application)。
 
 ## 在VSCode中建置擴充功能
 
@@ -152,13 +154,13 @@ GitHub和Adobe Developer網站上提供其他指示：
 在ExtensionRegistration函式中，您應該會看到下列程式碼。 範本已為您建立此程式碼。 可以新增此程式碼以建立其他功能表專案。 請務必取代ID和URL。
 
     &quot;
-    mainMenu： &lbrace;
+    mainMenu： {
     
-    getItems() &lbrace;
+    getItems() {
     
-    return &lbrack;
+    return [
     
-    &lbrace;
+    {
     
     id： &#39;main-menu-label&#39;，
     
@@ -168,13 +170,13 @@ GitHub和Adobe Developer網站上提供其他指示：
     
     icon： icon1，
     
-    &rbrace;，
+    }，
     
-    &rbrack;；
+    ]；
     
-    &rbrace;，
+    }，
     
-    &rbrace;
+    }
     &quot;&#39;
 
 1. 新增下列程式碼片段：
@@ -218,11 +220,170 @@ GitHub和Adobe Developer網站上提供其他指示：
 
 1. 儲存您的工作。
 
+### 使用Workfront自訂表單內嵌應用程式
+
+表單Widget擴充功能是Adobe Workfront中的UI擴充功能，可讓您建立可內嵌於Workfront自訂表單中的自訂Widget。 不同於其他新增導覽專案或功能表選項的擴充點，Widget提供在自訂表單欄位的專用面板中顯示自訂內容的方式。
+
+Widget是模組化UI元件，可作為表單欄位新增到Workfront自訂表單中。 它們提供直接在自訂表單介面中顯示自訂功能、資料視覺效果或外部內容的方法，讓使用者在填寫表單時可與自訂邏輯互動。
+
+#### 設定Widget擴充功能
+
+如同主要功能表和次要導覽的UI擴充點一樣，「Widget」擴充點通常會在`ExtensionRegistration`欄位的`ExtensionRegistration.js`元件的methods物件中設定。 這表示使用表單Widget只需要在app.js中以有效路徑在`extesionregistration`中新增「Widget」專案：
+
+```
+javascript 
+
+
+Apply to ExtensionReg... 
+
+widgets: { 
+
+  getItems() { 
+
+    return [ 
+
+      { 
+
+        id: "test2", 
+
+        url: "/index.html#/widgets1", 
+
+        label: "Test Widget with dimensions", 
+
+        dimensions: { 
+
+          height: 450, 
+
+          width: 300, 
+
+          maxHeight: 600, 
+
+          maxWidth: 400, 
+
+        }, 
+
+      }, 
+
+      { 
+
+        id: "test", 
+
+        url: "/index.html#/widgets1", 
+
+        label: "Test Widget without dimensions", 
+
+      }, 
+
+    ]; 
+
+  }, 
+
+}, 
+```
+
+#### Widget設定屬性
+
+**必要的屬性**
+
+* id （字串）： Widget的唯一識別碼。 擴充功能中所有的Widget必須是唯一的。
+
+* url （字串）：指向Widget內容的URL路徑。 這應該指向延伸模組中的路由，該路由會轉譯Widget元件。
+
+* 標籤（字串）：顯示在自訂表單欄位選擇介面中的Widget顯示名稱。
+
+**選擇性屬性**
+
+* 維度（物件）：指定Widget的顯示維度。 所有屬性都是選用的，可能只有這些維度：
+
+* 高度（數字）：Widget的高度（畫素）
+
+* 寬度（數字）：Widget的寬度（畫素）
+
+* maxHeight (number)：以畫素為單位的Widget最大高度
+
+* maxWidth （數字）：Widget的最大寬度（畫素）
+
+**Dimension屬性**
+
+維度物件可讓您控制Widget的大小和版面配置限制：
+
+* 高度和寬度：設定Widget的初始/偏好大小
+
+* maxHeight和maxWidth：設定上限以防止Widget變得太大
+
+* 回應式行為：Widget可以在這些限制中回應
+
+* 表單整合：維度可協助確保Widget符合表單欄位佈局
+
+#### Dimension設定範例
+
+```
+// Fixed size widget 
+
+dimensions: { 
+
+  height: 300, 
+
+  width: 250, 
+
+} 
+
+// Flexible height with width constraint 
+
+dimensions: { 
+
+  width: 300, 
+
+  maxHeight: 500, 
+
+} 
+
+// Height constraint only 
+
+dimensions: { 
+
+  height: 400, 
+
+  maxWidth: 350, 
+
+} 
+
+// No dimensions - uses default sizing 
+
+{} 
+```
+
+#### 內容資料
+
+Widget可存取與其他擴充點相同的共用內容，包括：
+
+* 驗證：包含IMS權杖的驗證資訊
+
+* 物件代碼：物件型別代碼（任務、專案、問題等）
+
+* 物件ID：物件識別碼
+
+* 主機名稱： Workfront執行個體主機名稱
+
+* 通訊協定：連線通訊協定
+
+* 使用者：目前的使用者資訊
+
+* isLoginAs：使用者是否以其他使用者的身分登入
+
+* isInBulkEditing：如果表單目前處於大量編輯模式。 若是如此，則內容會包含「物件ID」的多個值。
+
+#### 將Widget新增至Workfront自訂表單
+
+使用「UI擴充功能」欄位型別，可將應用程式內嵌於Workfront自訂表單中。 新增欄位後，選取表單Widget，Widget清單會根據IMS組織中的作用中應用程式或本機作用中應用程式（當`extensionoverride=TRUE`時）。
+
+自訂表單中的![UI擴充功能欄位](assets/ui-extensions-field.png)
+
 ### 設定App.js
 
 1. 前往App.js。
 
-1. 此範本將是一個主要功能表選項的路由。 路由會定義URL路徑與針對這些路徑演算的元件之間的對應。 若要新增路由，請使用下列程式碼片段，請務必以您的程式碼片段取代確切的路徑和元素。
+1. 此範本將成為「主要功能表」選項的路由。 路由會定義URL路徑與針對這些路徑演算的元件之間的對應。 若要新增路由，請使用下列程式碼片段，請務必以您的程式碼片段取代確切的路徑和元素。
 
    ```
        <Route 
@@ -238,6 +399,7 @@ GitHub和Adobe Developer網站上提供其他指示：
 1. 儲存您的工作。
 
 如需開發及執行應用程式的詳細資訊，請參閱[Adobe開發人員網站](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#develop-the-application)。
+
 
 ## 共用內容
 
@@ -262,14 +424,14 @@ Workfront的UI擴充功能會共用使用者資料。 可透過共用內容使�
 
 針對Workfront開發App Builder應用程式時，您可能需要在Workfront中測試應用程式而不發佈。
 
-在您的App Builder應用程式中，您可以啟動`aio app run`以進行本機開發。 這將為您提供URL，通常類似於`https://localhost:9080`。 或者，您可以執行`aio app deploy`以取得靜態Adobe網域。 請務必記下這些URL以供日後使用。
+在您的App Builder應用程式中，您可以啟動`aio app run`以進行本機開發。 這可提供您一個URL，通常類似於`https://localhost:9080`。 或者，您可以執行`aio app deploy`以取得靜態Adobe網域。 請務必記下這些URL以供日後使用。
 
 接下來，導覽至您要在瀏覽器中針對其開發的特定頁面。 開啟開發人員工具，並存取workfront.com或workfront.adobe.com的本機儲存空間。 您必須在此新增專案。 使用`extensionOverride`作為索引鍵，使用先前註明的App Builder URL作為值。
 
 如果設定正確完成，當您在Workfront中重新載入版面配置範本頁面時，您將會看到App Builder應用程式的按鈕。 將應用程式按鈕新增至物件的主要功能表和左側面板，並確認它們是否正確顯示在這些區域中。
 
-Adobe開發人員網站上提供其他指示，使用AEM的範例： https://developer.adobe.com/uix/docs/guides/preview-extension-locally/
+Adobe Developer網站上提供其他指示，使用AEM的範例： https://developer.adobe.com/uix/docs/guides/preview-extension-locally/
 
 ## 發佈應用程式並核准提交
 
-若要發佈並核准應用程式，請依照[Adobe開發人員網站](https://developer.adobe.com/uix/docs/guides/publication/)上的指示操作。
+若要發佈並核准應用程式，請依照[Adobe Developer網站](https://developer.adobe.com/uix/docs/guides/publication/)上的指示操作。
