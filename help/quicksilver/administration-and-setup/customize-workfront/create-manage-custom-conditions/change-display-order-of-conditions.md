@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b9a489e8-0ffe-4f52-bbd9-172e7273048c
-source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
+source-git-commit: b7f59552e5b66a3b2db765a49abdb2f49b1a51ec
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,11 @@ ht-degree: 0%
 
 * 當使用者變更任務或問題的條件時
 
-  ![變更清單](assets/change-conditions-list-dropdown-only.png)中的狀況
+  ![變更清單](assets/change-conditions-list-dropdown-0925.png)中的狀況
+
+  >[!NOTE]
+  >
+  >在預設的「條件」檢視中，**條件**&#x200B;欄位是無法內嵌編輯的欄位型別。 當您單獨將&#x200B;**條件**&#x200B;欄位新增到檢視時，它是可編輯的。 如需內嵌編輯的詳細資訊，請參閱[在Adobe Workfront中內嵌編輯清單的專案](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md)。
 
 ## 存取需求
 
@@ -51,7 +55,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td>
+   <td>[！UICONTROL系統管理員]</td>
   </tr> 
  </tbody> 
 </table>

@@ -6,7 +6,7 @@ description: 專案的狀態是放在專案上的旗標，以指出與其相關�
 author: Alina
 feature: Work Management
 exl-id: 1f46386e-e1ae-4845-8cc4-09dd7d39076f
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: b7f59552e5b66a3b2db765a49abdb2f49b1a51ec
 workflow-type: tm+mt
 source-wordcount: '550'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Adobe Workfront管理員可以為您的環境建立自訂條件，如[建立或�
 <p>標準</p>
 
 對於目前的授權：
-<ul><li><p>計劃</p>
+<ul><li><p>規劃</p>
     </td> 
   </tr> 
   <tr> 
@@ -61,9 +61,9 @@ Adobe Workfront管理員可以為您的環境建立自訂條件，如[建立或�
 
 ## 自動設定條件
 
-自動設定專案條件由專案的條件型別決定。 條件型別必須設定為進度狀態，Workfront才能自動設定專案條件。
+自動設定專案條件由專案的條件型別決定。 條件型別必須設定為進度狀態，Workfront才能自動設定專案條件。
 
-在設定區域中設定專案偏好設定時，您的Workfront或群組管理員會針對系統中的新專案決定條件型別欄位的預設值。 如需詳細資訊，請參閱[設定全系統的專案偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
+在設定區域中設定專案偏好設定時，您的Workfront或群組管理員會針對系統中的新專案決定條件型別欄位的預設值。 如需詳細資訊，請參閱[設定全系統的專案偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
 
 建立專案時，系統會自動設定專案的「狀態」，以符合專案當時的進度狀態。 專案的進度狀態是根據專案上任務的進度。
 
@@ -78,7 +78,7 @@ Adobe Workfront管理員可以為您的環境建立自訂條件，如[建立或�
 
 1. 確定&#x200B;**條件型別**&#x200B;欄位已設定為&#x200B;**手動**。
 
-   ![](assets/project-details-overview-edit-enabled-with-condition-shot-nwe-350x251.png)
+   ![](assets/project-details-overview-select-condition.png)
 
 1. 在&#x200B;**條件**&#x200B;欄位中，從下列選項中選取符合您對相關工作是否順利進行或是否有任何延遲的理解的選項：
 

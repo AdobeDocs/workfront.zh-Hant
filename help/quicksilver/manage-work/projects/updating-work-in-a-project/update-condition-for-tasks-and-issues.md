@@ -6,9 +6,9 @@ description: 任務或問題的條件是在其上放置標誌以指示進展情�
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
+source-git-commit: b7f59552e5b66a3b2db765a49abdb2f49b1a51ec
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1060'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 ## 存取需求 {#access-requirements}
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,7 +44,7 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
    <td> 
-   新增：
+   新增:
    <ul><li><p>任務的標準</p></li>
    <li><p>問題的貢獻者或以上版本</p></li></ul>
    目前：
@@ -59,7 +59,7 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">物件許可權</td> 
    <td> <p>檢視任務或問題的許可權以檢視其狀態</p>
-   <p>任務和問題的Contribute許可權以更新條件</p>
+   <p>貢獻任務和問題的許可權以更新條件</p>
   </td> 
   </tr> 
  </tbody> 
@@ -134,8 +134,9 @@ Updating the Condition of a task or issue differs depending on whether you are a
    * 部分關注事項
    * 主要障礙
 
-   ![](assets/condition-in-task-header.png)
-1. 按一下Enter以儲存條件。
+   ![](assets/condition-in-task-header-0925.png)
+
+<!--1. Click Enter to save the Condition.-->
 
 ### 在任務或問題詳細資訊區段中更新任務或問題的條件
 
@@ -151,14 +152,17 @@ Updating the Condition of a task or issue differs depending on whether you are a
 
 1. 連按兩下現有條件並從下拉式選單中選取新值，更新問題或內嵌任務的&#x200B;**條件**。
 
-   ![](assets/condition-drop-down-values-in-task-list.png)
+   ![](assets/condition-values-in-task-list-0925.png)
 
    >[!NOTE]
    >
    >條件可以根據您的環境自訂，因此您可以在環境中找到三個以上的條件選項。 條件的名稱可能與上方列出的名稱不同。 如需在Workfront中自訂條件的詳細資訊，請參閱[建立或編輯自訂條件](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md)。
 
-
 1. 在鍵盤上按&#x200B;**Enter**，或按一下[條件]欄位外部以儲存新任務或問題條件。
+
+   >[!NOTE]
+   >
+   >在預設的「條件」檢視中，**條件**&#x200B;欄位是無法內嵌編輯的欄位型別。 當您單獨將&#x200B;**條件**&#x200B;欄位新增到檢視時，它是可編輯的。 如需內嵌編輯的詳細資訊，請參閱[在Adobe Workfront中內嵌編輯清單的專案](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md)。
 
 <!--   
 <li><p>(NOTE: drafted because I can't do this anymore)</p><p>If you have Manage permissions to the task or issue but are not assigned to it, perhaps as a project manager, add the <strong>Condition</strong> column to any view you use in a task or issue list, then set the <strong>Condition</strong> in inline edit and press Enter.</p><p><img src="assets/change-condition-in-list-view-350x142.png" style="width: 350;height: 142;"></p><p>For information about adding a column to a view, see <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md">Views overview in Adobe Workfront</a>.</p></li>   
