@@ -3,10 +3,10 @@ title: '[!DNL Adobe Workfront]檔案'
 description: ' [!DNL Adobe Workfront]的檔案。'
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: 4558180667d3812f3b4089b7d599158327a683bf
+source-git-commit: 0a90da6978fc9b380d237dab74af1f14eabb857a
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 1%
+source-wordcount: '426'
+ht-degree: 3%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 1%
 
 >[!TAB 已知問題]
 
-* [已知問題](https://experienceleague.adobe.com/zh-hant/docs/workfront-known-issues/issues/overview)
+* [已知問題](https://experienceleague.adobe.com/en/docs/workfront-known-issues/issues/overview)
 
 
 >[!ENDTABS]
@@ -70,7 +70,8 @@ ht-degree: 1%
     <td>
     <ul>
     <li><a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md">開始使用Workfront管理</a></li>
-    <li><a href="https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/get-started-with-fusion/get-started-fusion-toc">開始使用Workfront Fusion</li>
+    <li><a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/get-started-fusion-toc">開始使用Workfront Fusion</li>
+    <li><a href="/help/quicksilver/app-builder/install-apps-on-exchange.md">從Adobe Exchange取得並安裝應用程式</a></li>
     </ul>
  </td>
     <td>
@@ -88,9 +89,10 @@ ht-degree: 1%
         <li><a href="/help/quicksilver/resource-mgmt/workload-balancer/overview-workload-balancer.md">開始使用檢閱和核准</a></li>
         </ul></td>
     <td><ul>
-        <li><a href="/help/quicksilver/wf-api/general/api-basics.md">API基本需知</a></li>
+        <li><a href="/help/quicksilver/wf-api/general/api-basics.md">API 基本概念</a></li>
         <li><a href="https://developer.adobe.com/workfront/api-explorer/">API Explorer</a></li>
         <li><a href="/help/quicksilver/workfront-integrations-and-apps/workfront-integrations.md">Workfront整合</a></li>
+        <li><a href="/help/quicksilver/app-builder/app-builder.md">使用Adobe App Builder為Workfront建立自訂應用程式</a></li>
         </ul></td>
   </tr>
 </table>
@@ -108,8 +110,8 @@ ht-degree: 1%
 
 ### 探索學習與訓練區段
 
-* **訓練教材**：瀏覽至[Workfront訓練](https://experienceleague.adobe.com/zh-hant/browse/workfront)頁面，以取得訓練影片和文章庫，協助您更瞭解Workfront功能和設定。 您也可以在[learning.adobe.com](https://learning.adobe.com/)存取付費訓練教材。
-* **課程**：尋找[結構化學習課程](https://experienceleague.adobe.com/home?lang=zh-Hant&Solution=Workfront#courses)，以邏輯順序引導您使用各種Workfront功能。
+* **訓練教材**：瀏覽至[Workfront訓練](https://experienceleague.adobe.com/en/browse/workfront)頁面，以取得訓練影片和文章庫，協助您更瞭解Workfront功能和設定。 您也可以在[learning.adobe.com](https://learning.adobe.com/)存取付費訓練教材。
+* **課程**：尋找[結構化學習課程](https://experienceleague.adobe.com/home?Solution=Workfront#courses)，以邏輯順序引導您使用各種Workfront功能。
 
 ### 在社群論壇中尋找答案
 
