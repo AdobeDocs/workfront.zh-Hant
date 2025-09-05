@@ -6,9 +6,9 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 4745b93e02c9de087afbee752e0303280e52d688
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '692'
 ht-degree: 2%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 2%
 >
 >本文資訊說明Adobe Workfront的額外功能Adobe Workfront Planning。
 >
->貴公司必須購買Workfront Planning的額外授權，才能存取其功能。
+>貴公司必須購買其他套件，Workfront Planning才能存取其功能。
 >
 >如需詳細資訊，請聯絡您的客戶經理
 >
@@ -51,44 +51,27 @@ ht-degree: 2%
  </col>
  <tbody>
     <tr>
-<tr>
-<td>
-   <p> 產品</p> </td>
-   <td>
-   <ul><li><p> Adobe Workfront</p></li>
-   <li><p> Adobe Workfront規劃<p></li></ul></td>
-  </tr>  
  <tr>
-   <td role="rowheader"><p>Adobe Workfront計畫*</p></td>
+   <td role="rowheader"><p>Adobe Workfront套件</p></td>
    <td>
-<p>下列任一Workfront計畫：</p>
-<ul><li>選取</li>
+<p>下列任一Workfront套件：</p>
+<ul><li>選擇</li>
 <li>Prime</li>
 <li>Ultimate</li></ul>
-<p>舊版Workfront計畫不提供Workfront計畫</p>
-   </td>
-
-<tr>
-   <td role="rowheader"><p>Adobe Workfront規劃套件*</p></td>
-   <td>
-<p>下列任一Workfront Planning計畫：</p>
-<ul><li>計畫</li>
-<li>Planning Plus</li>
-</ul>
+<p>Workfront計畫不適用於舊版Workfront套件</p>
+<ul><li><p>任何Planning套件</p></li></ul>
 <p>如需每個Workfront計畫包含內容的詳細資訊，請聯絡您的Workfront客戶經理。 </p>
    </td>
-
 <tr>
    <td role="rowheader"><p>Adobe Workfront平台</p></td>
    <td>
 <p>貴組織的Workfront例項必須上線至Adobe Unified Experience，才能存取Workfront Planning。</p>
 <p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">適用於Workfront的Adobe Unified Experience</a>。 </p>
    </td>
-
-</tr>
+  </tr>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront授權*</p></td>
+   <td role="rowheader"><p>Adobe Workfront授權</p></td>
    <td>
    <ul><li><p>標準、光源或貢獻者，用於檢視Workfront Planning資訊</p></li>
    <li><p>標準，建立工作區和檢視</p></li></ul>
@@ -121,32 +104,32 @@ ht-degree: 2%
 <p> 必須為具有輕度或貢獻者授權的使用者指派包含下列區域中Planning選項的版面配置範本：</p>
    <ul><li>主要功能表</li>
    <li>專案、投資組合和方案的左側面板</li>
-   </ul>
-   <p>如需詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">建立及管理配置範本</a>。</p>
-
+   </ul>   
 </td>
   </tr>
  </tbody>
 </table>
 
-*如需Workfront存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 
 ## 使用版面配置範本共用Planning區域
 
 <!--First, contact your account manager to obtain access to the current Workfront Planning program.-->
 
-貴組織購買額外的Workfront Planning授權後，系統管理員可以將Planning選項新增至下列區域，方法是修改並指派給版面配置範本：
+標準使用者和系統管理員預設會在下列區域中啟用Planning區域：
+
+* 主要功能表
+* 專案、專案組合或方案的左側面板
+
+如果您擁有任何其他Workfront授權，而且您需要為Workfront規劃工作貢獻內容，您的系統管理員必須將Planning區域新增給您。
+
+管理員可以將Planning選項新增至下列區域，方法是修改並將您指定至配置圖範本：
 
 * 主功能表
 * 登陸頁面
 * 專案、投資組合和計畫的左側面板
 * 圖釘
-
-標準使用者和系統管理員預設會在下列區域中啟用Planning區域：
-
-* 主要功能表
-* 專案、專案組合或方案的左側面板
 
 若要從Workfront例項的使用者中新增或移除Workfront Planning區域：
 
@@ -174,7 +157,11 @@ Workfront Planning沒有Workfront存取控制。
 
 ## 授予許可權
 
-您必須授予使用者許可權，讓使用者存取您為其建立的Workfront Planning工作區和檢視。
+您可以在Workfront Planning中授與許可權給下列實體：
+
+* 工作區
+* 記錄類型
+* 檢視
 
 如需詳細資訊，請參閱[在Adobe Workfront Planning中共用許可權的總覽](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
 

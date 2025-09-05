@@ -4,9 +4,9 @@ description: 這是我們的團隊的內部文章，詳細記錄我們用於存�
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: 4745b93e02c9de087afbee752e0303280e52d688
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1071'
 ht-degree: 1%
 
 ---
@@ -406,6 +406,8 @@ ht-degree: 1%
 
 如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
+## Adobe Workfront自動化與整合的存取需求
+
 <p>以聯結器為基礎（舊版）：用於工作自動化和整合的Workfront Fusion </p>
    </td> 
   </tr> 
@@ -418,9 +420,10 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[中的](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation)存取需求。
+如需此表格中資訊的詳細資訊，請參閱檔案[中的](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation)存取需求。
 
-如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)。
+
+如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)。
 
 ## 進階企業控制項
 

@@ -4,10 +4,10 @@ description: 當貴公司同時購買產品，且您的GenStudio for Performance
 hide: true
 hidefromtoc: true
 exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
-source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
+source-git-commit: 4745b93e02c9de087afbee752e0303280e52d688
 workflow-type: tm+mt
-source-wordcount: '931'
-ht-degree: 1%
+source-wordcount: '1319'
+ht-degree: 0%
 
 ---
 
@@ -27,9 +27,9 @@ recommendations: noDisplay, noCatalog
 
 # 在Adobe Workfront Planning中管理GenStudio工作區
 
-<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 當貴公司同時購買產品，且您的Adobe GenStudio for Performance Marketing執行個體已整合至貴公司的GenStudio執行個體時，Adobe Workfront Planning中即可使用Workfront工作區。
 
@@ -38,6 +38,13 @@ recommendations: noDisplay, noCatalog
 如需從GenStudio效能行銷使用及管理GenStudio工作區的相關資訊，請參閱[Adobe GenStudio for Performance Marketing使用手冊](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/home)。
 
 如需GenStudio與Workfront Planning整合的一般資訊，請參閱[開始使用Adobe Workfront Planning與Adobe GenStudio for Performance Marketing整合](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)。
+
+>[!IMPORTANT]
+>
+>本文所述的步驟說明在擁有GenStudio工作區的「管理」許可權時，如何從Workfront Planning更新工作區。
+>> 當您擁有GenStudio工作區的貢獻許可權時，並非所有功能都可使用。
+>
+>如果您的公司有多個Workfront例項，則所有使用者都能在Workfront Planning中取得GenStudio工作區的貢獻許可權。
 
 ## 存取需求
 
@@ -52,54 +59,37 @@ recommendations: noDisplay, noCatalog
     <tr> 
     <td role="rowheader"><p>Adobe Workfront套件</p></td> 
    <td> 
-<p>任何Adobe Workfront Workflow套件</p>
-<p>任何Adobe Workfront Planning套件</p>
+<p>任何Workfront套件</p>
+<p>任何Planning套件</p>
 
 </td> </tr>
-<tr> 
-   <td role="rowheader"><p>Adobe GenStudio套件</p></td> 
-   <td> 
-<p>???GEN STUDIO是否有支援此功能的套件???</p>
-
-</td> </tr>
-
-<tr> 
-   <td role="rowheader"><p>Adobe Workfront平台</p></td> 
-   <td> 
-<p>貴組織的Workfront例項必須上線至Adobe Unified Experience，才能存取Workfront Planning。</p> 
-<p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">適用於Workfront的Adobe Unified Experience</a>。 </p> 
-   </td> 
-   </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Adobe Workfront授權</p></td> 
-   <td><p> 標準</p>
-  </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Adobe GenStudio授權</p></td> 
-   <td><p> ???GEN STUDIO是否需要支援此的特定授權???</p>
-  </td> 
-  </tr> 
-  <tr> 
+   <tr> 
 <td> 
    <p> 其他產品</p> </td> 
    <td> 
    <p> Adobe GenStudio for Performance Marketing</p></td> 
-  </tr>   
+  </tr>
   <tr> 
-   <td role="rowheader"><p>存取層級設定</p></td> 
-   <td> <p>Adobe Workfront Planning沒有存取層級控制</p>  
-   <p>GenStudio的設定：???GENS的存取層級需求為何???</p> 
-</td> 
-  </tr> 
+   <td role="rowheader"><p>Adobe Workfront授權</p></td> 
+   <td><p> 標準</p>
+  </td> 
+  </tr>
+
 <tr> 
-   <td role="rowheader"><p>物件許可權*</p></td> 
+   <td role="rowheader"><p>Adobe GenStudio for Performance Marketing使用者角色</p></td> 
+   <td><p><ul><li>存取行銷活動、產品和角色的任何GenStudio使用者角色</li>
+   <li>GenSudio System Manager存取啟用與事件</li></ul>
+   如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">使用者角色和許可權</a>。 
+   </p>
+  </td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>物件許可權</p></td> 
    <td>  
    <p>在Workfront規劃中： </p>
    <ul>
-   <li><p>貢獻或更高的許可權到工作區和記錄型別  </p> </li> 
-   <li><p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p></li>
+   <li><p>管理GenStudio工作區的許可權以變更工作區的架構、記錄型別和欄位</p></li>
+   <li><p>為GenStudio工作區貢獻許可權，以便新增、更新或刪除GenStudio記錄空間中的記錄</p> </li> 
    </ul>
    <p>在Adobe GenStudio for Performance Marketing中： <p>
    <ul>
@@ -110,10 +100,80 @@ recommendations: noDisplay, noCatalog
 </tbody> 
 </table>
 
-*如需Workfront存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
-*如需Adobe GenStudio for Performance Marketing的詳細資訊，請參閱[Adobe GenStudio for Performance Marketing使用手冊](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/home)。
+如需Adobe Workfront Planning存取權的相關資訊，請參閱[Adobe Workfront Planning存取權概觀](/help/quicksilver/planning/access/access-overview.md)。
+
+如需Adobe GenStudio for Performance Marketing的詳細資訊，請參閱[Adobe GenStudio for Performance Marketing使用手冊](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/home)。
 
 +++   
+
+<!--Old/ original table:
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+    <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> 
+<p>Any Adobe Workfront Workflow package</p>
+<p>Any Adobe Workfront Planning package</p>  
+
+   </td> </tr>
+<tr> 
+   <td role="rowheader"><p>Adobe GenStudio package</p></td> 
+   <td> 
+<p>??? DOES GEN STUDIO HAVE A PACKAGE THAT SUPPORTS THIS???</p>  
+
+   </td> </tr>
+ 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
+   <td> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td><p> Standard</p>
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe GenStudio license</p></td> 
+   <td><p> ??? DOES GEN STUDIO REQUIRE A SPECIFIC LICENSE THAT SUPPORTS THIS???</p>
+  </td> 
+  </tr> 
+  <tr> 
+<td> 
+   <p> Additional products</p> </td> 
+   <td> 
+   <p> Adobe GenStudio for Performance Marketing</p></td> 
+  </tr>   
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>  
+   <p>Configuration for GenStudio: ???WHAT IS THE ACCESS LEVEL NEED FOR GENS???</p> 
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Object permissions*</p></td> 
+   <td>  
+   <p>In Workfront Planning: </p>
+   <ul>
+   <li><p>Contribute or higher permissions to a workspace and record type  </p> </li> 
+   <li><p>System Administrators have permissions to all workspaces, including the ones they did not create</p></li>
+   </ul>
+   <p>In Adobe GenStudio for Performance Marketing: <p>
+   <ul>
+   <li><p> Any permissions in Adobe GenStudio for Performance Marketing</p></li>
+   <li><p> Create permissions in Adobe GenStudio for Performance Marketing to create items</p></li></ul>
+   </td> 
+  </tr> 
+</tbody> 
+</table> -->
 
 ## 在Workfront Planning中管理GenStudio工作區的考量事項
 
@@ -121,13 +181,32 @@ recommendations: noDisplay, noCatalog
 
 * Workfront使用者必須擁有GenStudio的存取權，才能在Workfront Planning中檢視GenStudio工作區。
 
-* 您可以從Workfront Planning更新GenStudio工作區的下列資訊：
+* 根據組織擁有的Workfront例項數目，您在Planning中自動擁有GenStudio工作區的下列許可權：
 
-   * 編輯工作區設定<!--check to see if this is correct? is this editable or read only from Planning??-->
-   * 編輯記錄型別及其欄位<!--check on this-->
-   * 共用、編輯和新增檢視
-   * 新增記錄型別
-   * 編輯、新增或刪除記錄
+  <!--this table is also in the Get started article-->
+
+  <table style="table-layout:auto"> 
+   <col> 
+   </col> 
+   <col> 
+   </col> 
+   <tbody> 
+      <tr> 
+      <td role="rowheader"><p>一個Workfront例項</p></td> 
+      <td> 
+   <p>Workfront Planning中有一個GenStudio工作區</p>
+   <p>所有有權存取GenStudio和Workfront Planning的使用者皆擁有GenStudio工作區的「管理」許可權</p> 
+   </td> </tr>
+      <tr> 
+   <td> 
+      <p> 多個Workfront例項</p> </td> 
+      <td> 
+      <p>每個Workfront Planning例項都有一個GenStudio工作區</p>
+   <p>所有有權存取GenStudio和Workfront Planning的使用者皆擁有每個例項的GenStudio工作區的Contribute許可權</p> </td> 
+   </tr>
+
+  </tbody> 
+   </table>
 
 * 更新GenStudio工作區的工作區設定、記錄型別、檢視和欄位，與更新Workfront Planning工作區及其元素的方式相同。
 
@@ -139,11 +218,12 @@ CAN YOU DO THIS??
 - OPTIONS FROM THE MORE MENU ON A WORKSPACE ??
 -->
 
-## 從Workfront Planning管理GenStudio記錄型別
+## 從Workfront Planning管理GenStudio工作區
 
 >[!NOTE]
 >
->在管理GenStudio工作區之前，請參閱文章[開始使用Workfront規劃和GenStudio for Performance Marketing整合](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)。
+>在管理GenStudio工作區之前，請參閱文章[開始使用Workfront Planning和GenStudio for Performance Marketing整合](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)以取得詳細資訊。
+>
 
 1. 以也可存取GenStudio的使用者身分登入Workfront。
 1. 按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 計畫]**。
@@ -159,6 +239,7 @@ CAN YOU DO THIS??
 
    * 行銷活動
    * 產品
+   * 人物誌
    * 啟用
    * 管道
    * 區域
@@ -169,14 +250,60 @@ CAN YOU DO THIS??
 
    ![含標籤的GenStudio記錄型別卡片](assets/genstudio-record-type-with-tag-and-tooltip-highlighted.png)
 
+1. 按一下工作區名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下下列其中一項：
+
+   * **編輯**
+
+     如需詳細資訊，請參閱[編輯工作區](/help/quicksilver/planning/architecture/edit-workspaces.md)。
+     <!--* **Delete** - this will generate an error message, per Iskuhi, so don't document as an option/ possibility-->
+
+     <!--For information, see [Delete workspaces](/help/quicksilver/planning/architecture/delete-workspaces.md). -->
+
+1. 按一下右上角的「共用&#x200B;**」**，與其他人共用工作區。
+
+   如需詳細資訊，請參閱[共用工作區](/help/quicksilver/planning/access/share-workspaces.md)
+
 1. 按一下任何記錄型別卡片以檢視該型別的記錄。
 
-1. 執行下列其中一項：
+   若要管理記錄型別、檢視和欄位，請參閱本文中的[從Workfront Planning管理GenStudio記錄型別](#manage-genstudio-record-types-from-workfront-planning)小節。
+
+
+## 在Workfront Planning中從GenStudio工作區管理記錄型別、檢視和記錄
+
+>[!NOTE]
+>
+>在管理GenStudio工作區之前，請參閱文章[開始使用Workfront Planning和GenStudio for Performance Marketing整合](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)以取得詳細資訊。
+>
+
+1. 前往Workfront Planning中的GenStudio工作區並開啟記錄型別頁面，如本文中[從Workfront Planning管理GenStudio工作區](#manage-the-genstudio-workspace-from-workfront-planning)小節所述。
+
+1. 按一下記錄型別名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下下列其中一項：
+
+   * **編輯**
+
+     如需詳細資訊，請參閱[編輯記錄型別](/help/quicksilver/planning/architecture/edit-record-types.md)。
+   * **管理自動化**
+
+     如需詳細資訊，請參閱[設定Adobe Workfront規劃自動化](/help/quicksilver/planning/records/configure-automations-to-create-records.md)。
+   * **管理請求表單**
+
+     您可以建立多個請求表單。 Workfront的請求區域會提供請求表單，您也可以公開或透過連結共用請求表單。
+
+     如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
+
+1. 若要管理檢視和記錄型別，請執行下列動作：
 
    * 按一下記錄型別頁面右上角的&#x200B;**共用**，然後按一下下列其中一項：
-      * **複製檢視連結**&#x200B;以共用記錄型別的連結
-      * **匯出目前的檢視**&#x200B;以將其匯出為CSV或Excel檔案。
-您只能匯出表格檢視。<!--check on this later; is this true or are there more options in the Share button-->
+      * **共用記錄型別**
+如需詳細資訊，請參閱[共用記錄型別](/help/quicksilver/planning/access/share-record-types.md)。
+      * **共用目前的檢視**
+如需詳細資訊，請參閱[共用檢視](/help/quicksilver/planning/access/share-views.md)。
+      * **複製檢視連結**
+檢視的連結已複製到您的剪貼簿。
+      * **匯出目前的檢視**
+如需詳細資訊，請參閱[從資料表檢視](/help/quicksilver/planning/records/export-records-from-the-table-view.md)匯出記錄。
+
+1. 若要管理記錄型別檢視，請執行下列動作：
 
    * 按一下&#x200B;**+檢視**&#x200B;以建立GenStudio記錄型別的檢視。
 
@@ -190,28 +317,70 @@ CAN YOU DO THIS??
 
      如需詳細資訊，請參閱[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)。
 
-   * 在表格或時間表檢視中新增記錄。
+1. 若要新增記錄，請執行下列任一項作業：
 
-     您只能從頭開始建立記錄，或是匯入CSV或Excel檔案。
+   * 從任何檢視按一下&#x200B;**新增記錄**&#x200B;以從頭開始建立記錄
+
+   * 在表格檢視中使用Excel或CSV檔案匯入記錄
+
+   * 按一下時間軸或行事曆檢視中的任何位置，即可新增記錄。
 
      如需詳細資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md)。
 
      Workfront和GenStudio皆可檢視記錄。
 
-   * 從表格檢視中編輯內嵌記錄，或按一下記錄以開啟其詳細資訊頁面。
+1. 若要編輯記錄，請執行下列任一項作業：
+
+   * 從表格檢視編輯內嵌記錄
+
+   * 從任何檢視中按一下記錄，即可開啟其詳細資訊頁面。
 
      如需詳細資訊，請參閱[編輯記錄](/help/quicksilver/planning/records/edit-records.md)。
 
-   * 刪除表格檢視中的記錄。
+     您在Planning中GenStudio工作區所做的變更會立即從GenStudio中顯示。
 
-     如需詳細資訊，請參閱[刪除記錄](/help/quicksilver/planning/records/delete-records.md)。
+1. 在表格檢視中選取記錄，然後按一下[刪除]。****
 
-     如果從Workfront中刪除已刪除的記錄，則可以從Workfront Planning的表格檢視資源回收筒復原這些記錄。
+   如需詳細資訊，請參閱[刪除記錄](/help/quicksilver/planning/records/delete-records.md)。
 
-     如需詳細資訊，請參閱[還原已刪除的記錄](/help/quicksilver/planning/records/restore-deleted-records.md)
+   刪除的記錄會立即從GenStudio中移除。
 
-   * 暫留在表格檢視中的欄位上可排序或隱藏欄位。
+   >[!TIP]
+   >
+   >已刪除的記錄可從Workfront Planning的表格檢視最近刪除的資料匣中復原。 從GenStudio中刪除的記錄也可以從Workfront Planning中最近刪除的資料匣復原。
+
+   如需詳細資訊，請參閱[還原已刪除的記錄](/help/quicksilver/planning/records/restore-deleted-records.md)
+
+1. 按一下表格檢視右上角的+圖示以建立下列專案：
+
+   * 記錄欄位
+
+     如需詳細資訊，請參閱[建立欄位](/help/quicksilver/planning/fields/create-fields.md)
+
+   * 記錄連線
+
+     如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)
+
+     從GenStudio工作區建立的欄位會顯示在下列區域中：
+
+      * Workfront Planning檢視
+      * Workfront Planning記錄詳細資料
+      * GenStudio記錄詳細資料
+
+     >[!TIP]
+     >
+     >在Workfront Planning中建立的欄位不會顯示在GenStudio的清單檢視中。
+
+1. 暫留在表格檢視中的欄位上，然後按一下下拉式功能表以執行下列任一項作業：
+
+   * 依其排序
+   * 隱藏它
+   * 編輯其設定
+     <!--* Delete it - not possible now, per Iskuhi; the link is there but it will generate an error-->
+
+     <!--GenStudio-native fields are note removed from GenStudio. -->
 
      >[!NOTE]
      >
-     >只有當您在GenStudio中擁有「管理」許可權時，才能編輯欄位設定並新增更多欄位。<!--check to see if this is true??-->
+     >只有當您在GenStudio中擁有「管理」許可權時，才能編輯欄位設定並新增更多欄位。
+
