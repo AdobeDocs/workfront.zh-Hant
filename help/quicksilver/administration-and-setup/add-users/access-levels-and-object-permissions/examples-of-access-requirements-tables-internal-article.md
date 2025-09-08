@@ -4,10 +4,10 @@ description: 這是我們的團隊的內部文章，詳細記錄我們用於存�
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: 4745b93e02c9de087afbee752e0303280e52d688
+source-git-commit: 12b7638472b2138896a283283d368b4092a1e67b
 workflow-type: tm+mt
-source-wordcount: '1071'
-ht-degree: 1%
+source-wordcount: '1138'
+ht-degree: 2%
 
 ---
 
@@ -420,10 +420,10 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[中的](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation)存取需求。
+如需此表格中資訊的詳細資訊，請參閱檔案[中的](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation)存取需求。
 
 
-如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)。
+如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)。
 
 ## 進階企業控制項
 
@@ -450,3 +450,37 @@ ht-degree: 1%
 * 指派子群組的群組管理員
 * 允許群組管理員建立子群組
 
+## 校訂的存取需求
+
+## 存取需求
+
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>任何</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td>  <p>標準</p>
+   <p>工作或計畫</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">校樣權限設定檔 </td> 
+   <td>經理或以上</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">校訂角色</td> 
+   <td>檢閱者、檢閱者和核准者、版主、作者</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">存取層級設定*</td> 
+   <td> <p>編輯檔案的存取權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;若要瞭解您擁有的計畫、角色或校訂許可權設定檔，請連絡您的Workfront或Workfront Proof管理員。
