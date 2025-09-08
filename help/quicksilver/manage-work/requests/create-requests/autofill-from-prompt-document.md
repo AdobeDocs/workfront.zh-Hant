@@ -5,9 +5,9 @@ description: 您可以使用AI輸入提示或提供檔案來自動填寫請求�
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: b8c29ecb30dda449bc604f585a06b5a6663994f9
+source-git-commit: 3351a928ba20d1509f99a63c98b3e106c58fb43f
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1336'
 ht-degree: 2%
 
 ---
@@ -121,41 +121,54 @@ AI可協助您根據輸入的提示自動填寫請求欄位。 它也可以根�
 
 這些範例顯示AI可參考其他專案的各種方式的提示。
 
-* 參考過去的客戶行銷活動
+#### 參考過去的客戶行銷活動
 
-  ```
-  Create a similar campaign request as we did for (Client Company)'s Q2 launch, but this time for their Automotive division. Keep the same deliverable set and audience profile.
-  ```
+>[!BEGINSHADEBOX]
 
-* 在現有專案上建置
+建立類似的行銷活動要求，就像我們（客戶公司）在第2季推出時所做的那樣，但這次是針對他們的汽車部門。 保留相同的傳遞集和受眾設定檔。
 
-  ```
-  Use the same setup we had in the (Client Company) project kickoff last spring. I want to run a digital ad campaign targeting the same executive audience, but with updated dates for this quarter.
-  ```
+>[!ENDSHADEBOX]
 
-* 重複使用過去交付專案的樣式
+#### 在現有專案上建置
 
-  ```
-  Prepare a request similar to the (Client Company) summer promotion campaign we ran last year. Focus on social media assets, keep Spanish as the primary language, and adjust the budget to $75,000.
-  ```
+>[!BEGINSHADEBOX]
 
-* 展開舊版行銷活動型別
+使用我們去年春天（客戶公司）專案啟動時的相同設定。 我想要進行以相同執行對象為目標的數位廣告行銷活動，但包含本季的更新日期。
 
-  ```
-  Take the (Client Company) webinar series campaign from Q1 as a reference. I want the same registration workflow and assets, but this time the topic is 'AI in Financial Planning' and the audience is young professionals.
-  ```
+>[!ENDSHADEBOX]
 
-* 重複不同產品的請求
+#### 重複使用過去交付專案的樣式
 
-  ```
-  Set up a campaign request just like the (Client Company) rebranding project we handled, but replace with (New Client Company) as the client. Keep all deliverables aligned to corporate branding.
-  ```
+>[!BEGINSHADEBOX]
 
-* 含隱含參照的敘述風格
+準備與我們去年執行的（客戶公司）夏季促銷活動類似的請求。 專注於社群媒體資產，保持西班牙語為主要語言，並將預算調整為75,000美元。
 
-  ```
-  We're planning a campaign similar to the holiday social ads we ran last year. Budget should be about 50k, goal is lead generation, and deliverables should include Instagram and TikTok assets.
-  ```
+>[!ENDSHADEBOX]
+
+#### 展開舊版行銷活動型別
+
+>[!BEGINSHADEBOX]
+
+請參考第1季的（客戶公司）網路研討會系列行銷活動。 我想要相同的註冊工作流程和資產，但這次主題是「財務規劃的人工智慧」，對象是年輕的專業人士。
+
+>[!ENDSHADEBOX]
+
+#### 重複不同產品的請求
+
+>[!BEGINSHADEBOX]
+
+設定行銷活動請求，就像我們處理的（客戶公司）品牌重塑專案一樣，但取代為（新客戶公司）作為客戶。 讓所有交付專案與企業品牌保持一致。
+
+>[!ENDSHADEBOX]
+
+#### 含隱含參照的敘述風格
+
+>[!BEGINSHADEBOX]
+
+我們正在策劃一場類似於去年所推出的假日社交廣告的促銷活動。 預算應約為5萬，目標是創造銷售機會，交付成果應包含Instagram和TikTok資產。
+
+>[!ENDSHADEBOX]
+
 
 ## 根據您上傳的檔案取得建議
 
