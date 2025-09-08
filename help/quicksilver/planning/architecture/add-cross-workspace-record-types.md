@@ -4,10 +4,10 @@ description: 記錄型別是Adobe Workfront Planning的物件型別。 在Workfr
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
+source-git-commit: 9b95b5a52576327a3df8d6955925b96c2e45848f
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 1%
+source-wordcount: '651'
+ht-degree: 0%
 
 ---
 
@@ -33,6 +33,8 @@ recommendations: noDisplay, noCatalog
 
 如需詳細資訊，請參閱[設定記錄型別的跨工作區功能](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)。
 
+從集中記錄型別新增記錄到工作區之前，請參閱文章[集中記錄型別概觀](/help/quicksilver/planning/architecture/centralized-record-types-overview.md)。
+
 ## 存取需求
 
 +++ 展開以檢視本文中功能的存取需求。
@@ -48,7 +50,7 @@ recommendations: noDisplay, noCatalog
 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront套件*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront套件</p></td> 
    <td> 
 <ul><li><p>任何Workfront套件</p></li>
 與
@@ -73,24 +75,9 @@ recommendations: noDisplay, noCatalog
 </tbody> 
 </table>
 
-*如需Workfront存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需Workfront存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++   
-
-## 集中記錄型別概觀
-
-從另一個工作區新增現有記錄型別時的注意事項
-
-* 當沒有記錄型別設定為要新增到另一個工作區時，建立記錄型別時不會顯示從另一個工作區匯入它們的選項。<!--add this a tip in the steps below, and/ or add a Conditional step that this is possible only when these record types are first enabled-->
-* 從另一個工作區新增記錄型別之後，也會從現有記錄型別新增以下資訊：
-
-   * 欄位
-   * 記錄連線
-
-* 只有在您擁有其他工作區的許可權時，才能檢視從這些工作區新增的記錄。
-
-* 您只能在其原始工作區中編輯記錄型別，包括其欄位。 您無法從新增它的工作區中編輯它。
-* 從所有工作區新增的記錄將對從所有工作區存取它們的所有使用者可見，即使這些記錄是在沒有許可權的工作區中建立的。
 
 ## 從現有記錄型別建立記錄型別
 
@@ -101,21 +88,41 @@ recommendations: noDisplay, noCatalog
 1. 按一下&#x200B;**繼續**。
 1. 在&#x200B;**選擇記錄型別**&#x200B;方塊中，按一下您要從現有工作區新增的記錄型別的卡片，然後按一下&#x200B;**新增**。
 
-   記錄型別會新增至您選取的工作區，且會發生下列情況：
+   記錄型別會新增至您選取的工作區。
 
-   * **跨工作區記錄型別**&#x200B;圖示![跨工作區連線圖示](assets/global-icon.png)已新增至匯入記錄型別的卡片。
-   * 唯讀&#x200B;**Workspace**&#x200B;欄位已新增至匯入的記錄型別。 欄位會顯示每個記錄建立時所在的工作區。
+   >[!TIP]
+   >
+   >當沒有記錄型別設定為要新增到另一個工作區時，建立記錄型別時不會顯示從另一個工作區匯入它們的選項。
+
+   會發生下列情況：
+
+   * 以下資訊也會從現有的集中式記錄型別中新增：
+
+      * 所有原始欄位
+      * 所有記錄連線
+   * 您至少擁有其他工作區的「檢視」許可權時，才能檢視這些工作區新增的記錄。
+   * 已將&#x200B;**集中式記錄型別**&#x200B;圖示![集中式記錄型別圖示](assets/global-icon.png)新增至匯入的記錄型別的卡片。
+   * 唯讀&#x200B;**Workspace**&#x200B;欄位已新增至匯入的記錄型別資料表檢視。 欄位會顯示每個記錄建立時所在的工作區。
 
      >[!NOTE]
      >
-     >* 您無法編輯匯入的記錄型別或其欄位。 您可以從原始工作區中編輯記錄型別及其欄位。
+     >* 您無法編輯匯入的記錄型別外觀、進階設定或原始欄位。 您只能從原始工作區編輯記錄型別及其所有原始欄位和設定。
+
+1. （可選）按一下，然後將新新增的記錄型別拖放至工作區內的任何區段。
+
+1. （選擇性）在匯入的記錄型別卡片中按一下&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，或在其頁面上的記錄型別名稱右側，然後按一下&#x200B;**共用**&#x200B;以與相同工作區中的其他使用者共用它。
 
 1. （選擇性）在匯入的記錄型別卡片中按一下&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，或在其頁面上的記錄型別名稱右側，然後按一下&#x200B;**刪除**。
 1. （視條件而定）在提供的欄位中輸入&#x200B;**刪除**，然後按一下&#x200B;**永久刪除**。
 
-   這會從選取的工作區移除匯入的記錄型別。 原始記錄型別及其欄位會保留在其原始工作區中。
+   會發生下列情況：
 
-   <!--**************************ASK LILIT ON THIS ONE, NOT SURE IF THIS IS TRUE: Any records added in the current workspace are saved in the original workspace.**********-->
+   * 從集中記錄型別建立的記錄型別會從選取的工作區中移除。
+   * 原始記錄型別及其欄位會保留在其原始工作區中。
+   * 從相同集中記錄匯入的所有其他記錄型別會保留在其工作區中。
+   * 從目前工作區新增到記錄型別的記錄將被刪除。 從已新增集中記錄型別的其他工作區新增的所有其他記錄都會保留。
+
+
 
 
 

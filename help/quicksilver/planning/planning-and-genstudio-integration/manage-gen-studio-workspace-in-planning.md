@@ -4,9 +4,9 @@ description: 當貴公司同時購買產品，且您的GenStudio for Performance
 hide: true
 hidefromtoc: true
 exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
-source-git-commit: 4745b93e02c9de087afbee752e0303280e52d688
+source-git-commit: 9b95b5a52576327a3df8d6955925b96c2e45848f
 workflow-type: tm+mt
-source-wordcount: '1319'
+source-wordcount: '1337'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ recommendations: noDisplay, noCatalog
 >[!IMPORTANT]
 >
 >本文所述的步驟說明在擁有GenStudio工作區的「管理」許可權時，如何從Workfront Planning更新工作區。
->&#x200B;> 當您擁有GenStudio工作區的貢獻許可權時，並非所有功能都可使用。
+>> 當您擁有GenStudio工作區的貢獻許可權時，並非所有功能都可使用。
 >
 >如果您的公司有多個Workfront例項，則所有使用者都能在Workfront Planning中取得GenStudio工作區的貢獻許可權。
 
@@ -79,7 +79,7 @@ recommendations: noDisplay, noCatalog
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing使用者角色</p></td> 
    <td><p><ul><li>存取行銷活動、產品和角色的任何GenStudio使用者角色</li>
    <li>GenSudio System Manager存取啟用與事件</li></ul>
-   如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">使用者角色和許可權</a>。 
+   如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">使用者角色和許可權</a>。 
    </p>
   </td> 
   </tr>   
@@ -88,9 +88,10 @@ recommendations: noDisplay, noCatalog
    <td>  
    <p>在Workfront規劃中： </p>
    <ul>
-   <li><p>管理GenStudio工作區的許可權以變更工作區的架構、記錄型別和欄位</p></li>
-   <li><p>為GenStudio工作區貢獻許可權，以便新增、更新或刪除GenStudio記錄空間中的記錄</p> </li> 
+   <li><p>管理GenStudio工作區的許可權，以新增欄位或記錄型別至GenStudio工作區</p></li>
+   <li><p>為GenStudio工作區貢獻許可權，以便在GenStudio工作區中新增、更新或刪除記錄</p> </li>  
    </ul>
+   <p>任何使用者都不能從Workfront Planning的GenStudio for Performance Marketing工作區中移除GenStudio記錄型別或欄位</p>
    <p>在Adobe GenStudio for Performance Marketing中： <p>
    <ul>
    <li><p> Adobe GenStudio for Performance Marketing中的任何許可權</p></li>
@@ -106,80 +107,9 @@ recommendations: noDisplay, noCatalog
 
 +++   
 
-<!--Old/ original table:
-
-<table style="table-layout:auto"> 
-<col> 
-</col> 
-<col> 
-</col> 
-<tbody> 
-    <tr> 
-    <td role="rowheader"><p>Adobe Workfront package</p></td> 
-   <td> 
-<p>Any Adobe Workfront Workflow package</p>
-<p>Any Adobe Workfront Planning package</p>  
-
-   </td> </tr>
-<tr> 
-   <td role="rowheader"><p>Adobe GenStudio package</p></td> 
-   <td> 
-<p>??? DOES GEN STUDIO HAVE A PACKAGE THAT SUPPORTS THIS???</p>  
-
-   </td> </tr>
- 
- <tr> 
-   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
-   <td> 
-<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
-<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
-   </td> 
-   </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Adobe Workfront license</p></td> 
-   <td><p> Standard</p>
-  </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Adobe GenStudio license</p></td> 
-   <td><p> ??? DOES GEN STUDIO REQUIRE A SPECIFIC LICENSE THAT SUPPORTS THIS???</p>
-  </td> 
-  </tr> 
-  <tr> 
-<td> 
-   <p> Additional products</p> </td> 
-   <td> 
-   <p> Adobe GenStudio for Performance Marketing</p></td> 
-  </tr>   
-  <tr> 
-   <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>  
-   <p>Configuration for GenStudio: ???WHAT IS THE ACCESS LEVEL NEED FOR GENS???</p> 
-</td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Object permissions*</p></td> 
-   <td>  
-   <p>In Workfront Planning: </p>
-   <ul>
-   <li><p>Contribute or higher permissions to a workspace and record type  </p> </li> 
-   <li><p>System Administrators have permissions to all workspaces, including the ones they did not create</p></li>
-   </ul>
-   <p>In Adobe GenStudio for Performance Marketing: <p>
-   <ul>
-   <li><p> Any permissions in Adobe GenStudio for Performance Marketing</p></li>
-   <li><p> Create permissions in Adobe GenStudio for Performance Marketing to create items</p></li></ul>
-   </td> 
-  </tr> 
-</tbody> 
-</table> -->
-
 ## 在Workfront Planning中管理GenStudio工作區的考量事項
 
 * 貴組織必須先購買Adobe GenStudio for Performance Marketing，才能在Workfront Planning中檢視GenStudio工作區。
-
-* Workfront使用者必須擁有GenStudio的存取權，才能在Workfront Planning中檢視GenStudio工作區。
 
 * 根據組織擁有的Workfront例項數目，您在Planning中自動擁有GenStudio工作區的下列許可權：
 
@@ -194,18 +124,18 @@ recommendations: noDisplay, noCatalog
       <tr> 
       <td role="rowheader"><p>一個Workfront例項</p></td> 
       <td> 
-   <p>Workfront Planning中有一個GenStudio工作區</p>
-   <p>所有有權存取GenStudio和Workfront Planning的使用者皆擁有GenStudio工作區的「管理」許可權</p> 
+   <p>可在您的Workfront Planning例項中看見GenStudio工作區</p>
+   <p>Workfront管理員擁有在Planning中GenStudio工作區的管理許可權</p>
+   <p>所有其他使用者皆擁有Planning中GenStudio工作區的「貢獻」存取權</p>
    </td> </tr>
       <tr> 
    <td> 
       <p> 多個Workfront例項</p> </td> 
       <td> 
-      <p>每個Workfront Planning例項都有一個GenStudio工作區</p>
-   <p>所有有權存取GenStudio和Workfront Planning的使用者皆擁有每個例項的GenStudio工作區的Contribute許可權</p> </td> 
+      <p>所有Workfront例項皆顯示GenStudio工作區</p>
+   <p>所有可存取GenStudio for Performance Marketing和Workfront Planning的使用者皆擁有Planning中GenStudio的「貢獻」許可權</p> </td> 
    </tr>
-
-  </tbody> 
+      </tbody> 
    </table>
 
 * 更新GenStudio工作區的工作區設定、記錄型別、檢視和欄位，與更新Workfront Planning工作區及其元素的方式相同。
@@ -291,7 +221,7 @@ CAN YOU DO THIS??
 
      如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
 
-1. 若要管理檢視和記錄型別，請執行下列動作：
+1. 若要共用檢視或記錄型別，請執行下列動作：
 
    * 按一下記錄型別頁面右上角的&#x200B;**共用**，然後按一下下列其中一項：
       * **共用記錄型別**
@@ -329,6 +259,10 @@ CAN YOU DO THIS??
 
      Workfront和GenStudio皆可檢視記錄。
 
+     >[!NOTE]
+     >
+     >您無法為Activations記錄型別新增記錄。
+
 1. 若要編輯記錄，請執行下列任一項作業：
 
    * 從表格檢視編輯內嵌記錄
@@ -339,7 +273,7 @@ CAN YOU DO THIS??
 
      您在Planning中GenStudio工作區所做的變更會立即從GenStudio中顯示。
 
-1. 在表格檢視中選取記錄，然後按一下[刪除]。**&#x200B;**
+1. 在表格檢視中選取記錄，然後按一下[刪除]。****
 
    如需詳細資訊，請參閱[刪除記錄](/help/quicksilver/planning/records/delete-records.md)。
 

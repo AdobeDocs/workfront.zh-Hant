@@ -4,9 +4,9 @@ description: 您可以啟用記錄型別，以新增至另一個工作區，或�
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
+source-git-commit: 9b95b5a52576327a3df8d6955925b96c2e45848f
 workflow-type: tm+mt
-source-wordcount: '1052'
+source-wordcount: '1131'
 ht-degree: 1%
 
 ---
@@ -78,7 +78,7 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront套件*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront套件</p></td> 
    <td> 
 <ul><li><p>任何Workfront套件</p></li>
 與
@@ -103,7 +103,7 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 </tbody> 
 </table>
 
-*如需Workfront存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需Workfront存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++   
 
@@ -116,7 +116,9 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 
 工作區管理員可以將集中式記錄型別新增到他們管理的工作區。 也會新增記錄型別的原始欄位。
 
-使用者可以從他們有權貢獻的任何工作區（包括其主要工作區），將記錄新增至集中記錄型別。 他們只能從他們有權檢視的工作區檢視記錄。
+使用者可以從他們擁有Contribute許可權的任何工作區中，以及在已新增集中式記錄型別的地方（包括其原始工作區），將記錄新增到集中式記錄型別。 他們可以從只有檢視許可權的工作區檢視記錄。
+
+如需詳細資訊，請參閱[集中記錄型別總覽](/help/quicksilver/planning/architecture/centralized-record-types-overview.md)
 
 若要將新增記錄型別設定為集中記錄型別：
 
@@ -134,18 +136,29 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 
    ![更多記錄型別卡片中的功能表選項](assets/more-menu-options-from-record-type-card.png)
 
+   >[!TIP]
+   >
+   >如果記錄型別已被指定為集中記錄型別，且已將其新增到其他工作區，則「編輯」選項會變暗。
+
 1. 在&#x200B;**編輯記錄型別**&#x200B;方塊中，選取&#x200B;**進階設定**&#x200B;索引標籤。
 1. 啟用&#x200B;**允許將此記錄型別新增到其他工作區**&#x200B;設定。
 
    ![編輯記錄型別使用[新增至其他工作區]的進階設定可啟用](assets/edit-record-type-advanced-settings-add-to-other-workspaces-enabled.png)
 
-1. 在&#x200B;**選取誰可以新增此記錄型別至他們管理的工作區**&#x200B;欄位中，新增您要允許新增此記錄型別的使用者至他們管理的工作區。
+   >[!TIP]
+   >
+   >將集中式記錄型別新增至另一個工作區後，此設定將無法再停用。
+
+1. 在&#x200B;**選取誰可以新增此記錄型別至他們管理的工作區**&#x200B;欄位中，新增您想要允許新增此記錄型別的實體至他們管理的工作區。
 
    您的名稱會自動新增到欄位中。
 
    您可以新增個別使用者，或群組、團隊、職務角色或您想允許其使用者將此記錄型別新增到他們管理的工作區的公司。
 
+   您必須至少指定一個實體（使用者、團隊、群組、角色或公司）才能啟用此設定。
+
    儲存記錄型別後，您可以編輯此欄位。
+
 1. （選擇性）從&#x200B;**選取誰可以新增此記錄型別到他們管理的工作區**&#x200B;欄位，移除您的名稱。
 
 1. 按一下「**儲存**」。
@@ -156,10 +169,10 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 
    >[!NOTE]
    >
-   >您只能從原始工作區編輯記錄型別及其欄位。
+   >您只能從其原始工作區編輯記錄型別的外觀和設定及其原始欄位。
 
-   * 記錄型別卡片會顯示全域圖示![全域記錄型別圖示](assets/global-icon.png)，以表示該記錄型別可新增至您在組態中指定的管理員所在的任何工作區。
-   * 系統產生的&#x200B;**Workspace**&#x200B;欄位已新增至記錄型別。
+   * 記錄型別卡片會顯示集中式圖示![集中式記錄型別圖示](assets/global-icon.png)，以表示該記錄型別可以新增到其他工作區。
+   * 系統產生的&#x200B;**Workspace**&#x200B;欄位已新增至記錄型別及其記錄詳細資料的資料表檢視。
 
      Workspace欄位會顯示建立每個記錄的工作區。
 
@@ -178,7 +191,7 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 
 {{step1-to-planning}}
 
-1. 按一下您要編輯其記錄型別的工作區，
+1. 按一下您要編輯其記錄型別的工作區。
 
    工作區頁面隨即開啟，且記錄型別隨即顯示。
 1. 執行下列其中一項：
@@ -194,20 +207,20 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 
    ![編輯記錄型別[進階設定]索引標籤並啟用從其他工作區的連線](assets/edit-record-type-advanced-settings-connect-from-other-workspaces-enabled.png)
 
-   啟用時，記錄型別可供存取，並可從其他工作區連線。
+   啟用時，記錄型別可供存取，且可從其他工作區連線到。
 
 1. 選擇可存取記錄型別的工作區。 從下列選項中選擇：
 
-   * **系統範圍**：使用者可以從他們擁有管理許可權的所有工作區連線到此記錄型別。
+   * **系統範圍**：使用者可以從其擁有管理許可權的所有工作區連線到此記錄型別。
    * **特定工作區**：新增工作區管理員可連線至此記錄型別的工作區名稱。
-1. 按一下&#x200B;**編輯**。
+1. 按一下「**儲存**」。
 
    會發生下列情況：
 
-   * 記錄型別及其欄位現在可以從您指定的工作區連線。
-   * 記錄型別卡片會顯示跨工作區連線圖示![跨工作區連線圖示](assets/connect-from-other-workspaces-icon.png)，表示您可以從您在組態中指定的任何工作區連線記錄型別。
+   * 記錄型別及其欄位現在可以從您指定的工作區連線到。
+   * 記錄型別卡片會顯示跨工作區連線圖示![跨工作區連線圖示](assets/connect-from-other-workspaces-icon.png)，表示您可以從您在組態中指定的任何工作區連線到記錄型別。
 
-   記錄型別變為可以從指定的工作區連線。
+   記錄型別將變為可以從指定的工作區連線。
 1. （可選）前往另一個工作區，並將連線新增至您在上述步驟中啟用跨工作區連線的記錄型別。
 
    如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
