@@ -4,9 +4,10 @@ description: 2025年第四季發行時間範圍內的其他增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f7dcae5e6bcc8674ef37ef94282c50dc9ffe951d
+exl-id: 357b5a80-424a-475c-9163-82cffbbd253e
+source-git-commit: e3c69f893785a1a09aaca3743f8538525e900d5d
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
@@ -27,7 +28,6 @@ ht-degree: 0%
 
 有了我們的進階清單版面配置，您可以使用篩選器和群組來顯示您的工作，並讓工作更井然有序。 現在，Widget上方會顯示一個藍點指標，讓您知道篩選或分組何時已套用至下列區域的清單：
 
-* 設定中的匯率
 * 我的請求Widget
 * 優先順序
 
