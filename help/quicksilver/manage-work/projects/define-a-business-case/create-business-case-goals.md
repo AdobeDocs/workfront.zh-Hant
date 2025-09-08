@@ -5,9 +5,9 @@ description: 建立業務案例時，您可以建立一組目標來定義專案�
 author: Alina
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '445'
 ht-degree: 1%
 
 ---
@@ -81,9 +81,10 @@ ht-degree: 1%
 {{step1-to-projects}}
 
 1. 在專案清單中，選取您要為其定義業務案例目標的專案。
+
 1. 在左側面板中，按一下&#x200B;**業務案例**。 **業務案例**&#x200B;區段隨即顯示。
 
-   <!--![Business case info](assets/business-case-page-info-goals-expenses-nwe-350x123.png)-->
+   ![業務案例資訊](assets/business-case-info.png)
 
 1. 在&#x200B;**目標**&#x200B;區段中，按一下&#x200B;**編輯目標**。
 
@@ -93,16 +94,16 @@ ht-degree: 1%
 
    * 最高
    * 高
-   * 中
+   * 媒體
    * 低
    * 最低
 
-     <!--![Importance](assets/g1-350x76.png)-->
+   ![重要性](assets/goals-section.png)
 
-     >[!NOTE]
-     >
-     >您無法自訂目標的重要性層級。
+   >[!NOTE]
+   >
+   >您無法自訂目標的重要性層級。
 
-1. （選擇性）若要新增其他目標，請按一下[新增其他目標] **&#x200B;**，並重複步驟5-6。
+1. （選擇性）若要新增其他目標，請按一下[新增其他目標] ****，並重複步驟5-6。
 
 1. 按一下「**儲存**」。

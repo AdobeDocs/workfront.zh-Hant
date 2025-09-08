@@ -6,16 +6,16 @@ description: 您可以將業務案例匯出至PDF檔案，以備您以更精簡�
 author: Alina
 feature: Work Management
 exl-id: 834c56c4-ca11-4aff-b67e-0eac9fa23403
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
 
 # 匯出專案的業務案例
 
-您可以將業務案例匯出至PDF檔案，以備您以更精簡的格式列印或附加至電子郵件。
+您可以將業務案例匯出至PDF檔案，以備您需要列印時使用，或以更精簡的格式附加至電子郵件。
 
 ## 存取需求
 
@@ -52,13 +52,12 @@ ht-degree: 0%
 
 ## 匯出業務案例
 
-1. 前往您要匯出業務案例的專案。
+{{step1-to-projects}}
+
+1. 在&#x200B;**專案**&#x200B;頁面上，選取您要匯出業務案例的專案。
 1. 按一下左側面板中的&#x200B;**業務案例**。
-1. 在右上角&#x200B;**業務案例摘要**&#x200B;區域中，按一下&#x200B;**匯出**。
+1. 在&#x200B;**業務案例摘要**&#x200B;區域的右上角，按一下&#x200B;**匯出**。 PDF檔案已下載至您的電腦。
 
-   &lt;！—![業務案例摘要](assets/bc-summary--350x587.png)—>\
-   PDF   檔案已下載到您的電腦。 檔案以易於閱讀的格式包含業務案例的所有區域。
+   ![業務案例摘要](assets/bc-summary.png)
 
-   <!--![BC_Summary_exported.png](assets/bc-summary-exported-350x160.png)-->
 
-1. （選用）將PDF檔案附加至電子郵件，或列印出來與其他人共用。

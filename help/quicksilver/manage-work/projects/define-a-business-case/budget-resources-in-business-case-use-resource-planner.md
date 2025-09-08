@@ -5,9 +5,9 @@ description: 作為資源計畫的一部份，當您建立業務案例時，可�
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1224'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -106,13 +106,13 @@ ht-degree: 0%
 
 1. （選擇性和條件性）如果專案資訊是從「情境規劃工具」上的方案發佈的，請執行下列任一項作業：
 
-   * 在&#x200B;**中選取資源規劃工具選擇要用於計算專案預算勞力成本的時數**&#x200B;欄位，然後按一下&#x200B;**選擇>編輯資源預算**。
+   * 在&#x200B;**中選取資源規劃工具選擇要用於計算專案預算勞力成本的時數**&#x200B;欄位，然後按一下&#x200B;**選擇** > **編輯資源預算**。
 
-     <!--![Business case in Resource Planner](assets/business-case-rp-selected-with-choose-button-350x120.png)-->
+   <!-- ![Business case in Resource Planner](assets/business-case-rp-selected-with-choose-button-350x120.png)-->
 
    * 如果已選取案例規劃工具來編列專案的資源，請按一下&#x200B;**變更** > **編輯資源預算**。
 
-     <!--![Business case in Scenario Planner](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)-->
+     <!-- ![Business case in Scenario Planner](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)-->
 
    這會使用專案的預算時數來計算專案的預算勞力成本。
 
@@ -156,8 +156,8 @@ ht-degree: 0%
 
     
 
-1. 按一下&#x200B;**今天**&#x200B;以返回今天的時間範圍。
-1. （選擇性）按一下&#x200B;**周**、**月**&#x200B;或&#x200B;**季**，以不同時間範圍顯示專案的資訊。
+1. 按一下&#x200B;**今天**&#x200B;返回今天的時間範圍。
+1. （選擇性）按一下&#x200B;**周**、**月**&#x200B;或&#x200B;**季**，以在不同時間範圍內顯示專案的資訊。
 1. （選擇性）按一下&#x200B;**小時**&#x200B;下拉式功能表，然後選取&#x200B;**小時**、**FTE**&#x200B;或&#x200B;**成本**，以變更資訊在資源規劃工具中的顯示方式。 小時依預設顯示。
 
 1. （選擇性）按一下&#x200B;**匯出**，將資源規劃工具匯出至Excel檔案。
@@ -180,7 +180,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >您可以針對「資源預算」區域中顯示的任何時間範圍預算資源的時數、FTE或成本，而不受專案時間表的影響。 例如，如果您想要指出您的資源在專案的時間表期間可能無法使用（這些資源與計畫時數相關聯），但它們可能在另一個時間可供使用，您可以透過為計畫時數為零的時間範圍編列預算來執行此操作，前提是這些資源可供使用。
+   >您可以針對「資源預算」區域中顯示的任何時間範圍預算資源的時數、FTE或成本，而不受專案時間表的影響。 例如，如果您想要指出您的資源在專案的時間表期間可能無法使用（這些資源與計畫時數相關聯），但它們可能在另一個時間可用，您可以透過為計畫時數為零的時間表編列預算來執行此操作，前提是這些資源可在計畫時數為零時工作。
 
 1. （選擇性）若要瞭解您是否可以將預算時數、FTE或成本移動到另一個時間範圍，請按一下&#x200B;**選項**&#x200B;圖示，然後&#x200B;**調整預算日期**。
 
