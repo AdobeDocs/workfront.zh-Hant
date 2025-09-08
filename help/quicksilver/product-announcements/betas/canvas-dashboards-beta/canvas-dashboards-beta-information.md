@@ -7,9 +7,9 @@ author: Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 8fdf48c5b17a17e4dd1ef2e441659155ae0b9905
+source-git-commit: db08403c62cc85d6ccb705bb84c9c277e94f8635
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '538'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >畫布儀表板功能目前僅適用於參與Beta階段的使用者。 在此階段中，部分功能可能無法完成或如預期般運作。 請依照下方[提供回饋意見](#provide-feedback)一節中的指示，提交有關您體驗的任何回饋意見。<br>
->&#x200B;>請注意，以下雲端服務供應商未提供此測試版：
+>>請注意，以下雲端服務供應商未提供此測試版：
 >
 >* 自備Amazon Web Services金鑰
 >* Azure
@@ -55,7 +55,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><p>存取層級設定</p></td> 
-   <td><p>編輯報告、儀表板和行事曆的存取權</p>
+   <td><p>系統管理員存取權以啟用畫布控制面板</p>
   </td> 
   </tr>  
 </tbody> 
@@ -73,9 +73,15 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   > **加入畫布控制面板Beta版**&#x200B;按鈕只有在貴組織受邀加入Beta版時才可用。
+   > 只有系統管理員可以存取&#x200B;**加入畫布控制面板Beta版**&#x200B;按鈕。 所有其他使用者都會在停用狀態中看到此按鈕。
 
 1. 檢閱&#x200B;**Beta合約**&#x200B;方塊中的條款，然後按一下&#x200B;**同意**。 您現已註冊Beta版。 請注意，您可能需要幾分鐘時間，您的Workfront資料才能在畫布儀表板中完全存取。
+
+   >[!NOTE]
+   >
+   >接受Beta版條款後，畫布控制面板功能就會在Workfront環境中為所有使用者啟用。 任何具有控制面板檢視和管理存取許可權的使用者都可以根據其存取層級檢視和編輯畫布控制面板。<br>
+   >請注意，「畫布控制面板」登陸頁面的可見度是透過使用者指派的版面配置範本控制。 如需詳細資訊，請參閱[建立及管理配置範本](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)。
+
 
 ## 提供意見反應
 
