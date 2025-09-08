@@ -6,7 +6,7 @@ description: 您可以透過拖放工作專案給正確的使用者，使用Adob
 author: Lisa
 feature: Resource Management
 exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
-source-git-commit: 69ac06c36440d9fbbf0c8c9f3e019374da2e2f91
+source-git-commit: bf1a8e4384360554c6245b455650f30976e82ce1
 workflow-type: tm+mt
 source-wordcount: '991'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視本文中功能的存取需求。 
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -95,7 +95,7 @@ ht-degree: 0%
    >* 顯示所有使用者選項僅在專案的工作負載平衡器中可用。
    >* 使用篩選器只顯示對您重要的使用者。 例如，使用篩選器以僅顯示您團隊或群組中的使用者。
 
-1. 按一下工作專案<span class="preview">或角色指派</span>的橫條（表示計畫或預計的時間表），並將其拖曳到&#x200B;**已指派**&#x200B;區域中的使用者名稱上。
+1. 按一下工作專案<span class="preview">或角色指派</span>的橫條，指出計畫或預計的時間表，然後將其拖曳到&#x200B;**已指派**&#x200B;區域中的使用者數小時。
 
    將滑鼠懸停在上方以將工作專案放置到的使用者會醒目提示。
 
