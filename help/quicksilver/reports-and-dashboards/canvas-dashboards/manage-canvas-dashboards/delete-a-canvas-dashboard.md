@@ -6,10 +6,10 @@ description: 您可以排列報告新增到畫布控制面板後，在畫布控�
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 075df18c-08b8-467d-a0e4-60cd3abd5807
-source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
+source-git-commit: 56d0b9281387cc7b35055461e7868c7e4a194f81
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 2%
+source-wordcount: '307'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,8 @@ ht-degree: 2%
 >[!IMPORTANT]
 >
 >畫布儀表板功能目前僅適用於參與Beta階段的使用者。 在此階段中，部分功能可能無法完成或如預期般運作。 請依照「畫布控制面板」測試版概觀文章中[提供意見回饋](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)一節的指示，提交有關您體驗的任何意見回饋。<br>
->&#x200B;>請注意，以下雲端服務供應商未提供此測試版：
+>>如果您對可能的錯誤或技術問題有回饋，請向Workfront支援提交票證。 如需詳細資訊，請參閱[聯絡客戶支援](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。<br>
+>>請注意，以下雲端服務供應商未提供此測試版：
 >
 >* 自備Amazon Web Services金鑰
 >* Azure
@@ -79,7 +80,7 @@ ht-degree: 2%
 >[!WARNING]
 >
 > 儀表板一經刪除，就無法復原儀表板及其所有自訂報表和/或視覺效果。<br>
-> &#x200B;> 如果刪除包含傳統報表的控制面板，則不會刪除傳統報表。
+> > 如果刪除包含傳統報表的控制面板，則不會刪除傳統報表。
 
 {{step1-to-dashboards}}
 
