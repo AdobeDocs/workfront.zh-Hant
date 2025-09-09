@@ -3,19 +3,21 @@ product-area: timesheets;system-administration
 navigation-topic: create-and-manage-timesheets
 title: 建立、編輯和指派時程表設定檔
 description: 您可以建立、編輯和指派為使用者產生週期性時程表的時程表設定檔，您無需採取任何進一步的干預。 這可為您節省時間，並確保使用者之間的一致性。
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
+source-git-commit: 5590477efa2beb6590581ce9e5e33e264fb95390
 workflow-type: tm+mt
-source-wordcount: '1604'
-ht-degree: 1%
+source-wordcount: '1610'
+ht-degree: 2%
 
 ---
 
 # 建立、編輯和指派時程表設定檔
 
 <!--Audited: 06/2025-->
+
+<!--at the Prod release, remove the Production and Preview references from this article-->
 
 <!--<div class="preview">
 
@@ -91,10 +93,10 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    若要編輯現有的時程表設定檔，請選取要編輯的時程表設定檔，然後按一下&#x200B;**編輯**。
 
-   此時會顯示新的或現有的時程表設定檔。
+   新的或現有的時程表設定檔頁面隨即顯示。
 
 
-1. 按一下「**設定詳細資料**」標籤，然後更新下列資訊：
+1. 按一下&#x200B;**設定詳細資料**&#x200B;標籤，然後更新下列資訊： <!-- at the Production release, change the order of some of these rows, as they changed in the unshimmed UI-->
 
    <table style="table-layout:auto"> 
     <col> 
@@ -102,7 +104,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>名稱</strong> </td> 
-      <td> <p> 為時程表設定檔新增名稱。 這可以是團隊名稱，或人員與其時程表共用相同時間範圍的群組名稱。 </p> </td> 
+      <td> <p> 為時程表設定檔新增名稱。 這可以是團隊名稱，或人員與其時程表共用相同時間範圍的群組名稱。 </p> <p>此為必填欄位。</p> </td> 
      </tr>
 
    <tr> 
@@ -111,10 +113,8 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
       </p> </td> 
      </tr>
 
-
-
    <tr> 
-      <td role="rowheader">具有管理存取許可權的<strong>群組</strong> </td> 
+   <td role="rowheader">具有管理存取許可權的<strong>群組</strong> </td> 
       <td> <p> 
       <ul> 
       <li> <p>如果您正在建立系統層級時間表設定檔，請將此欄位留空。</p> <p>任何可以編輯使用者帳戶的使用者都可以將系統層級時程表附加到其他使用者。</p> <p>只有Workfront管理員可以編輯系統層級時間表設定檔。</p> </li> 
@@ -132,7 +132,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 
    <p><b>注意</b>： Workfront一律同時建立兩個時程表：第一個時程表一律包含目前的日期，第二個時程表從第一時程表的時間範圍結束時開始。</p> </p> </td> 
-    </tr> 
+   </tr> 
      <tr> 
       <td role="rowheader"><p><strong>核准者</strong></p> </td> 
       <td> <p> <p>核准者指核准與時程表相關聯之使用者之時程表的使用者。 您最多可以在時程表上將7名使用者識別為核准者。 識別多個使用者對於確保在某人不在辦公室時核准者可供使用非常有用。 當使用者提交時程表以供核準時，所有核准者都會收到通知。 時程表只需一名使用者核准即可核准。</p> <p>只有具有時程表管理許可權的使用者才能設定為核准者。 如需時程表管理許可權的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予使用者對特定區域的管理存取權</a>。</p> <p>使用下拉式選單來選取時程表的核准者（如果需要核准者）。 您可選取下列選項：</p> 
@@ -146,9 +146,9 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
       <td role="rowheader"><strong>可以編輯時間</strong> </td> 
       <td> <p> <p>選取此選項可允許核准者在時程表上編輯小時。
 
-   此選項可與「設定>時程表和時數>偏好設定」區域中的&#x200B;**限制所有者和管理員編輯時程表**&#x200B;設定搭配使用。 如需詳細資訊，請參閱<a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">設定時程表和小時喜好設定</a>。
+   <p>此選項可與「設定&gt;時程表和時數&gt;偏好設定」區域中的**限制只有擁有者和管理員能編輯時程表**設定搭配使用。 如需詳細資訊，請參閱<a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">設定時程表和小時喜好設定</a>。</p>
 
-   存在下列情況：
+   <p>存在下列情況： </p>
 
    <ul>
       <li>啟用<b>限制所有者和管理員編輯時程表</b>選項時：</li>
@@ -182,7 +182,11 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
     </tbody> 
     </table>
 
-1. 按一下&#x200B;**指派人員**&#x200B;索引標籤，將時間表設定檔與特定使用者、群組或(如果您是Workfront管理員)團隊建立關聯。 開始輸入使用者、群組或團隊的名稱，然後當它出現在下拉式清單中時按一下它。
+1. <!--In the Production environment, or when creating group-level timesheet profiles,--> 按一下&#x200B;**指派人員**&#x200B;索引標籤，將時間表設定檔與特定使用者、群組或(如果您是Workfront管理員)團隊建立關聯。<!--Keep the reference to the group upon release to Prod-->
+
+   <!--<span class="preview">In the Preview environment when creating timesheet profiles for the system, scroll towards the bottom of the page to find the Assign People section.</span>--> <!--Keep the reference to the system when releasing to Prod-->
+
+   開始輸入使用者、群組或團隊的名稱，然後當它出現在下拉式清單中時按一下它。
 
    如果您是群組管理員，您可以將時程表設定檔指派給您管理的群組，但不能指派給團隊。 如需詳細資訊，請參閱本文中的[群組管理員指派時程表設定檔的限制](#limitations-for-a-group-administrator-assigning-a-timesheet-profile)。
 
@@ -229,4 +233,4 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 * 不同使用者集的不重複核准者
 * 不同使用者組的不重複一般時數需求
 
-一個使用者無法一次與多個時程表設定檔建立關聯。 
+一個使用者無法一次與多個時程表設定檔建立關聯。

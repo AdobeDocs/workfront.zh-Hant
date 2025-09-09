@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 3667359ba2c6ea0aab3ce6845f1a537183f304ec
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '481'
 ht-degree: 2%
 
 ---
@@ -94,3 +94,5 @@ ht-degree: 2%
 * 欄位名稱最多可包含250個字元。
 
 * 刪除記錄型別或工作區時，與其關聯的所有欄位和欄位的值也會被刪除並且無法復原。<!-- this might change with a possible recycle bin solution?!-->
+* 當您刪除屬於公式運算式一部分的欄位時，公式欄位會變更。
+* 當您變更公式運算式，且該公式欄位被其他公式欄位參考時，其他公式也會受到影響。

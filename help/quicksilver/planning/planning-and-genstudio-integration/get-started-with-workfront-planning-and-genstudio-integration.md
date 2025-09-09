@@ -4,9 +4,9 @@ description: 當貴公司同時購買這兩個產品時，即可在Adobe Workfro
 hide: true
 hidefromtoc: true
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-source-git-commit: 9b95b5a52576327a3df8d6955925b96c2e45848f
+source-git-commit: 3667359ba2c6ea0aab3ce6845f1a537183f304ec
 workflow-type: tm+mt
-source-wordcount: '1855'
+source-wordcount: '1899'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,7 @@ GenStudio for Performance Marketing與Workfront Planning之間有原生整合。
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing使用者角色</p></td> 
    <td><p><ul><li>存取行銷活動、產品和角色的任何GenStudio使用者角色</li>
    <li>GenSudio System Manager存取啟用與事件</li></ul>
-   如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">使用者角色和許可權</a>。 
+   如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">使用者角色和許可權</a>。 
    </p>
   </td> 
   </tr>   
@@ -146,15 +146,18 @@ GenStudio for Performance Marketing與Workfront Planning之間有原生整合。
     <td role="rowheader"><p>一個Workfront例項</p></td> 
    <td> 
 <p>可在您的Workfront Planning例項中看見GenStudio工作區</p>
-<p>Workfront管理員擁有在Planning中GenStudio工作區的管理許可權</p>
-<p>所有其他使用者皆擁有Planning中GenStudio工作區的「貢獻」存取權</p>
+<p>依預設，所有使用者(包括Workfront管理員)都擁有Planning中GenStudio工作區的「貢獻」存取權</p>
+<p>Workfront管理員可以修改並將GenStudio工作區的管理許可權授予任何人</p>
 </td> </tr>
    <tr> 
 <td> 
    <p> 多個Workfront例項</p> </td> 
    <td> 
    <p>所有Workfront例項皆顯示GenStudio工作區</p>
-<p>所有可存取GenStudio for Performance Marketing和Workfront Planning的使用者皆擁有Planning中GenStudio的「貢獻」許可權</p> </td> 
+<p>依預設，所有可存取GenStudio for Performance Marketing和Workfront Planning的使用者皆擁有Planning中GenStudio的「貢獻」許可權</p> 
+<p>Workfront管理員無法將管理GenStudio工作區的許可權授予任何人</p>
+
+</td> 
   </tr>
    </tbody> 
 </table>
@@ -199,6 +202,8 @@ GenStudio for Performance Marketing與Workfront Planning之間有原生整合。
    * 編輯GenStudio記錄型別資訊（其外觀、進階設定）。
    * 與其他人共用GenStudio記錄型別。
    * 建立記錄型別。 這些記錄型別僅保留在Workfront Planning中。 它們不會顯示在GenStudio中。
+   * 啟用GenStudio工作區的記錄，以從其他工作區連線。
+   * 啟用要新增至其他工作區的GenStudio工作區記錄。
 * 當您在Planning中擁有GenStudio工作區的「貢獻」許可權時，您無法從Planning中修改GenStudio記錄型別。
 
 ### GenStudio工作區中的記錄
