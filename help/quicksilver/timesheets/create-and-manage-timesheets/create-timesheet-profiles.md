@@ -146,7 +146,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
       <td role="rowheader"><strong>可以編輯時間</strong> </td> 
       <td> <p> <p>選取此選項可允許核准者在時程表上編輯小時。
 
-   <p>此選項可與「設定&gt;時程表和時數&gt;偏好設定」區域中的**限制只有擁有者和管理員能編輯時程表**設定搭配使用。 如需詳細資訊，請參閱<a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">設定時程表和小時喜好設定</a>。</p>
+   <p>此選項可與「設定&gt;時程表和時數&gt;偏好設定」區域中的&#x200B;**限制只有擁有者和管理員能編輯時程表**&#x200B;設定搭配使用。 如需詳細資訊，請參閱<a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">設定時程表和小時喜好設定</a>。</p>
 
    <p>存在下列情況： </p>
 
@@ -182,7 +182,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
     </tbody> 
     </table>
 
-1. <!--In the Production environment, or when creating group-level timesheet profiles,--> 按一下&#x200B;**指派人員**&#x200B;索引標籤，將時間表設定檔與特定使用者、群組或(如果您是Workfront管理員)團隊建立關聯。<!--Keep the reference to the group upon release to Prod-->
+1. &#x200B;<!--In the Production environment, or when creating group-level timesheet profiles,--> 按一下&#x200B;**指派人員**&#x200B;索引標籤，將時間表設定檔與特定使用者、群組或(如果您是Workfront管理員)團隊建立關聯。<!--Keep the reference to the group upon release to Prod-->
 
    <!--<span class="preview">In the Preview environment when creating timesheet profiles for the system, scroll towards the bottom of the page to find the Assign People section.</span>--> <!--Keep the reference to the system when releasing to Prod-->
 
