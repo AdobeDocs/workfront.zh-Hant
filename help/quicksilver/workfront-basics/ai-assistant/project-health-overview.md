@@ -7,10 +7,10 @@ feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
 hide: true
 hidefromtoc: true
-source-git-commit: 97b2118b1897f75dea0e45758e3d7f7c3409b234
+source-git-commit: 16e8213197e881d4d7b1a4b1bf8d3a43438ab938
 workflow-type: tm+mt
-source-wordcount: '1862'
-ht-degree: 0%
+source-wordcount: '1488'
+ht-degree: 2%
 
 ---
 
@@ -121,18 +121,47 @@ AI助理可以產生下列物件的專案健康情況評估：
     <tr>
         <td><b>專案狀況</b></td>
         <td><b>專案進度狀態</b></td>
+        <td><b>專案狀態因數</b></td>
     </tr>
     <tr>
         <td>達成目標</td>
-        <td>當專案的進度狀態為準時，專案狀態為準時。</td>
+        <td>當下列因素的平均風險等級在健康臨界值內時，就會指派此分析。
+        </td>
+        <td> 
+        <ul><li>範圍蔓延</li>
+        <li>缺少欄位</li>
+        <li>排程變更</li>
+        <li>低估的工作</li>
+        <li>專案進度</li>
+        <li>逾期任務</li>
+        <li>預算</li>
+        </ul></td>
     </tr>
     <tr>
         <td>有風險</td>
-        <td>當專案的進度狀態落後或處於風險中，專案狀態就會處於風險中。</td>
+        <td>當以下因素的平均風險等級剛好低於健康臨界值時，就會指派此分析。</td>
+        <td>
+        <ul><li>範圍蔓延</li>
+        <li>缺少欄位</li>
+        <li>排程變更</li>
+        <li>低估的工作</li>
+        <li>專案進度</li>
+        <li>逾期任務</li>
+        <li>預算</li>
+        </ul></td>
     </tr>
     <tr>
         <td>陷入困境</td>
-        <td>當專案的進度狀態為延遲時，專案狀態為有風險。</td>
+        <td>當下列因素的平均風險等級低於健康臨界值時，就會指派此分析。</td>
+        <td>
+        <ul><li>範圍蔓延</li>
+        <li>缺少欄位</li>
+        <li>排程變更</li>
+        <li>低估的工作</li>
+        <li>專案進度</li>
+        <li>逾期任務</li>
+        <li>預算</li>
+        </ul></td>
     </tr>
     </tr>
    </table>
@@ -264,57 +293,60 @@ AI助理可以產生下列物件的專案健康情況評估：
 
 1. 檢閱專案的健康情況詳細資訊後，按一下AI助理右上角的&#x200B;**關閉**&#x200B;圖示![關閉圖示](assets/close-icon.png)以關閉專案。
 
+<!--
 
-## 在畫布儀表板中建立專案健康情況表格報告
+## Build a Project Health table report in a Canvas Dashboard
 
 >[!IMPORTANT]
 >
->畫布儀表板功能目前僅適用於參與Beta階段的使用者。 如需詳細資訊，請參閱[畫布控制面板Beta版資訊](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)。
+>The Canvas Dashboards feature is currently only available for users participating in the beta stage. For more information, see [Canvas Dashboards beta information](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md). 
 
-您可以將表格報表新增至畫布控制面板，以輕鬆地以表格格式視覺化您的專案健康情況資料。
+You can add a table report to a Canvas Dashboard in order to easily visualize your Project Health data in a table format.  
 
-### 先決條件
+### Prerequisites 
 
-在建置表格報表之前，您必須先建立儀表板。
+You must create a dashboard before you can build a table report. 
 
-如需詳細資訊，請參閱[建立畫布控制面板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)。
+For more, see [Create a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md).
 
-### 建立專案健康情況表報告
+### Build a Project Health table report 
 
-有許多組態選項可用來建置專案健康情況表格報告。 在本節中，我們將引導您逐步建立可顯示下列欄位的範本：
+There are many configuration options available for building a Project Health table report. In this section, we'll walk you through the process of creating one that displays the following columns: 
 
-* **名稱**：包含專案名稱。
-* **專案狀況分析**：包含專案狀況評估的摘要。
-* **在**&#x200B;建立的專案健康情況：包含上次產生專案健康情況評估的日期/時間。
-* **專案健康情況標籤**：包含專案的標籤(例如準時、有風險或陷入困境)。
+* **Name**: Contains the project name. 
+* **Project Health Analysis**: Contains a summary of the Project Health assessment. 
+* **Project Health Created At**: Contains the date/time when the Project Health assessment was last generated. 
+* **Project Health Label**: Contains the project's label (e.g. On Target, At Risk, or In Trouble).
 
 {{step1-to-dashboards}}
 
-1. 在左側面板中，按一下&#x200B;**畫布控制面板**。
-1. 按一下右上角的&#x200B;**新增儀表板**。
-1. 在&#x200B;**建立儀表板**&#x200B;方塊中，輸入儀表板的&#x200B;**名稱**&#x200B;和&#x200B;**描述**。
-1. 按一下「**建立**」。
-1. 在&#x200B;**新增報告**&#x200B;方塊中，選取&#x200B;**建立報告**。
-1. 在左側，選取&#x200B;**表格**。
-1. 按一下右上角的&#x200B;**建立報告**。
-1. （選擇性）請依照下列步驟設定&#x200B;**詳細資料** ![詳細資料圖示](assets/details-icon.png)區段：
-   1. 輸入報告&#x200B;**名稱**。
-   1. 輸入報告&#x200B;**描述**。
-1. 請依照下列步驟設定&#x200B;**組建資料表** ![組建資料表圖示](assets/drilldown-column.png)區段：
-   1. 在左側面板中，按一下&#x200B;**表格欄**&#x200B;圖示。
-   1. 按一下&#x200B;**新增資料行**，然後選取&#x200B;**專案** > **名稱**。
-   1. 按一下&#x200B;**新增資料行**，然後選取&#x200B;**專案** > **專案健康情況** > **健康情況分析**。
-   1. 按一下&#x200B;**新增資料行**，然後選取&#x200B;**專案** > **專案狀況** > **建立時間**。
-   1. 按一下&#x200B;**新增資料行**，然後選取&#x200B;**專案** > **專案健康狀態** > **健康狀態標籤**。
+1. In the left panel, click **Canvas Dashboards**. 
+1. In the upper-right corner, click **New Dashboard**. 
+1. In the **Create dashboard** box, enter the dashboard's **Name** and **Description**. 
+1. Click **Create**. 
+1. In the **Add report** box, select **Create report**. 
+1. On the left side, select **Table**. 
+1. In the upper-right corner, click **Create report**. 
+1. (Optional) Follow the steps below to configure the **Details** ![Details icon](assets/details-icon.png) section: 
+    1. Enter a report **Name**. 
+    1. Enter a report **Description**. 
+1. Follow the steps below to configure the **Build table** ![Build table icon](assets/drilldown-column.png) section: 
+    1. In the left panel, click the **Table columns** icon. 
+    1. Click **Add column**, then select **Project** > **Name**. 
+    1. Click **Add column**, then select **Project** > **Project Health** > **Health Analysis**. 
+    1. Click **Add column**, then select **Project** > **Project Health** > **Created At**. 
+    1. Click **Add column**, then select **Project** > **Project Health** > **Health Label**. 
 
-1. 請依照下列步驟設定&#x200B;**篩選器** ![篩選器圖示](assets/filter-icon.png)區段：
-   1. 在左側面板中，按一下&#x200B;**篩選器**&#x200B;圖示。
-   1. 選取&#x200B;**編輯篩選器**。
-   1. 按一下&#x200B;**新增條件**，然後指定您要篩選的欄位，以及定義欄位必須符合何種條件的修飾元。 欄會顯示在右側的預覽區段中。
-   1. （選擇性）按一下&#x200B;**新增篩選器群組**&#x200B;以新增另一組篩選准則。 集合之間的預設運運算元為AND。 按一下運運算元以將其變更為OR。
+1. Follow the steps below to configure the **Filter** ![Filter icon](assets/filter-icon.png) section: 
+    1. In the left panel, click the **Filter** icon. 
+    1. Select **Edit filter**. 
+    1. Click **Add condition** and then specify the field you want to filter by and the modifier that defines what kind of condition the field must meet. The column appears in the preview section on the right.
+    1. (Optional) Click **Add filter group** to add another set of filtering criteria. The default operator between the sets is AND. Click the operator to change it to OR. 
 
-1. 請依照下列步驟設定&#x200B;**向下鑽研群組設定** ![群組設定](assets/drilldown-group-icon.png)區段：
-   1. 在左側面板中，按一下&#x200B;**群組設定**&#x200B;圖示。
-   1. 按一下「**新增群組**」按鈕，然後選取要建立為群組的欄位。 群組欄會顯示在右側的預覽區段中。
+1. Follow the steps below to configure the **Drilldown Group Settings** ![Group settings](assets/drilldown-group-icon.png) section: 
+    1. In the left panel, click the **Group Settings** icon. 
+    1. Click the **Add grouping** button and then select the field you want to create as a grouping. The grouping column appears in the preview section on the right. 
 
-1. 按一下&#x200B;**儲存**&#x200B;以建立報告。
+1. Click **Save** to create the report.
+
+-->
