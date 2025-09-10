@@ -3,7 +3,7 @@ title: 集中式記錄型別概觀
 description: 集中式記錄型別可以從Adobe Workfront Planning的中央或主要工作區新增到多個工作區。
 hidefromtoc: true
 hide: true
-source-git-commit: 9b95b5a52576327a3df8d6955925b96c2e45848f
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 0%
@@ -96,7 +96,7 @@ recommendations: noDisplay, noCatalog
 
    * 編輯它
 
-     您無法編輯其外觀、跨工作區功能或從原始工作區匯入的欄位。
+     您無法編輯其外觀、跨工作區功能或從原始工作區新增的欄位。
    * 建立請求表單
    * 管理請求表單
 

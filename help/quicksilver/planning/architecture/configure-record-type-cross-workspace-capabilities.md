@@ -4,7 +4,7 @@ description: 您可以啟用記錄型別，以新增至另一個工作區，或�
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 9b95b5a52576327a3df8d6955925b96c2e45848f
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
 source-wordcount: '1131'
 ht-degree: 1%
@@ -25,7 +25,7 @@ recommendations: noDisplay, noCatalog
 
 
 <!--this article is linked to the UI - do not delete or change the URL-->
-<!--add more info here about permissions, how users gain permissions from the original record type, per Lilit: users who add this to another space gain View permissions on that space when they add records to this imported record type - this info is in the UI - this is what she sent in figma:
+<!--add more info here about permissions, how users gain permissions from the original record type, per Lilit: users who add this to another space gain View permissions on that space when they add records to this added record type - this info is in the UI - this is what she sent in figma:
 
 Hey, Alina, Lusine. As this page contains not only the "global record types" but also cross-workspace connectivity setting, we shouldn't have this message that's highlighting only the global rt features. I think we should have explanation for each setting both in enabled and disabled states. 
 
@@ -54,7 +54,7 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 * 您可以將記錄型別指定為集中式。 使用者可以將集中式記錄型別新增到他們可以管理的其他工作區。
 * 您可以將記錄型別指定為可連線。 使用者可以從其他工作區連線到此記錄型別。
 
-您必須先定義記錄型別的跨工作區功能，然後工作區管理員才能從其他工作區連線記錄型別或將記錄型別匯入其他工作區。
+您必須先定義記錄型別的跨工作區功能，工作區管理員才能從記錄型別連線記錄型別或將記錄型別新增到其他工作區。
 
 當您建立或編輯記錄型別時，可以定義記錄型別的跨工作區功能。
 

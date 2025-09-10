@@ -4,9 +4,9 @@ description: 當貴公司同時購買這兩個產品時，即可在Adobe Workfro
 hide: true
 hidefromtoc: true
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-source-git-commit: 3667359ba2c6ea0aab3ce6845f1a537183f304ec
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
-source-wordcount: '1899'
+source-wordcount: '1906'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ recommendations: noDisplay, noCatalog
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
-同時使用Adobe Workfront Planning和Adobe GenStudio for Performance Marketing的組織通常會比GenStudio預設支援的更詳細地定義行銷概念，例如行銷活動、產品和角色。
+同時使用Adobe Workfront Planning和Adobe GenStudio for Performance Marketing的組織通常會比GenStudio預設支援的更詳細地定義行銷概念，例如行銷活動、產品、啟用和角色。
 
 GenStudio for Performance Marketing與Workfront Planning之間有原生整合。 此整合可讓Workfront Planning中的使用者管理GenStudio中使用的行銷活動、產品、角色、啟用、管道和區域。 它也能讓他們設定GenStudio，以參照Workfront Planning中的現有記錄型別，建立更連線且一致的行銷工作流程。
 
@@ -47,8 +47,8 @@ GenStudio for Performance Marketing與Workfront Planning之間有原生整合。
 <!--check this list and ensure it's accurate and add/ remove some of the benefits-->
 
 * 在Workfront Planning中檢視GenStudio工作區。
-* 在GenStudio for Performance Marketing中修改行銷活動，並在Workfront Planning中即時更新相同資訊。
-* 在Workfront Planning中修改行銷活動，並在GenStudio for Performance Marketing中即時更新相同資訊。
+* 在GenStudio for Performance Marketing中修改您的行銷活動、產品、角色和啟用，並在Workfront Planning中即時更新相同的資訊。
+* 在Workfront Planning中修改您的行銷活動、產品、角色和啟用，並在GenStudio for Performance Marketing中即時更新相同資訊。
 * 避免重複資料輸入。
 * 保持規劃和啟動工作的一致性。
 
@@ -102,8 +102,8 @@ GenStudio for Performance Marketing與Workfront Planning之間有原生整合。
 <tr> 
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing使用者角色</p></td> 
    <td><p><ul><li>存取行銷活動、產品和角色的任何GenStudio使用者角色</li>
-   <li>GenSudio System Manager存取啟用與事件</li></ul>
-   如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">使用者角色和許可權</a>。 
+   <li>GenSudio System Manager存取啟用 <!--and Events--></li></ul>
+   如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">使用者角色和許可權</a>。 
    </p>
   </td> 
   </tr>   

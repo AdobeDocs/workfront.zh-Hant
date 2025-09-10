@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
-source-wordcount: '3910'
+source-wordcount: '3920'
 ht-degree: 2%
 
 ---
@@ -114,13 +114,6 @@ ht-degree: 2%
    * 當「開始」或「結束」日期沒有值時
    * 當開始日期在結束日期之後時
 
-<div class="preview">
-
-* 您可以在時間表檢視中建立和編輯記錄。 如需詳細資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md)。
-* 您可以在時間軸檢視中調整記錄列的大小，方法是按一下，然後將它們的邊界拖放到新位置。 調整記錄列的大小會立即更新其開始和結束日期。 如需詳細資訊，請參閱[編輯記錄](/help/quicksilver/planning/records/edit-records.md)。
-
-</div>
-
 若要管理時間表檢視：
 
 1. 移至您要檢視其時間軸的記錄型別頁面。
@@ -158,7 +151,7 @@ ht-degree: 2%
    >在「設定」區域中設定自訂季度後，時間軸檢視會顯示自訂季度，而非傳統季度。
    >如需詳細資訊，請參閱[啟用自訂季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
 
-1. （視條件而定）如果您是Workfront管理員，請按一下&#x200B;**前往設定**&#x200B;設定您的季度。 如果沒有，請按一下[確定] **&#x200B;**，並要求Workfront管理員設定自訂季度。
+1. （視條件而定）如果您是Workfront管理員，請按一下&#x200B;**前往設定**&#x200B;設定您的季度。 如果沒有，請按一下[確定] ****，並要求Workfront管理員設定自訂季度。
 
    >[!TIP]
    >
@@ -203,6 +196,20 @@ ht-degree: 2%
 1. （選擇性）按一下&#x200B;**劃分**，在時間軸上顯示連線的記錄。
 
    如需相關資訊，請參閱本文章的[使用劃分功能在時間軸檢視](#break-down-connected-records-in-the-timeline-view)中顯示連線記錄。
+1. <span class="preview">若要在時間表檢視中建立記錄或編輯其日期，請執行下列其中一項操作：</span>
+
+   * <span class="preview">在時間軸上的任何位置連按兩下以建立記錄。</span>
+
+     <span class="preview">如需詳細資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md)。</span>
+
+   * <span class="preview">按一下記錄列的結尾，然後將其拖放到新位置。 調整記錄列的大小會立即更新其開始和結束日期。</span>
+
+     <span class="preview">如需詳細資訊，請參閱[編輯記錄](/help/quicksilver/planning/records/edit-records.md)。</span>
+
+   <!--* <span class="preview">Drag and drop records to update their position and dates in the timeline.</span>
+        <span class="preview">For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>-->
+
+
 
 ### 新增篩選器
 

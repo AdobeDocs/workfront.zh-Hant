@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
-source-wordcount: '1211'
-ht-degree: 1%
+source-wordcount: '1216'
+ht-degree: 2%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 1%
 
 ## 存取需求
 
-+++ 展開以檢視存取需求。
++++ 展開以檢視存取需求。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -72,7 +72,7 @@ ht-degree: 1%
    <td role="rowheader"><p>Adobe Workfront計畫*</p></td> 
    <td> 
 <p>下列任一Workfront計畫：</p> 
-<ul><li>選取</li> 
+<ul><li>選擇</li> 
 <li>Prime</li> 
 <li>Ultimate</li></ul> 
 <p>舊版Workfront計畫不提供Workfront計畫</p> 
@@ -119,7 +119,7 @@ ht-degree: 1%
 
 *如需Workfront存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-+++
++++   
 
 ## 使用記錄檢視時的注意事項
 
@@ -170,6 +170,7 @@ ht-degree: 1%
 | 按周顯示記錄 |           |               | ✓ |
 | 從檢視匯出資訊 | ✓ |               |    |
 | <span class="preview">以全熒幕顯示</span> | ✓ | ✓ | ✓ |
+| <span class="preview">在檢視中建立記錄</span> | ✓ | ✓ | ✓ |
 
 ## 建立或編輯檢視 {#create-or-edit-views}
 
@@ -187,6 +188,12 @@ ht-degree: 1%
    依預設，選取型別的所有記錄都會顯示在表格檢視中。
 
 1. 按一下「**+檢視**」以新增檢視。
+
+   <!--at preview release, replace the step above with this one: 
+    1. Depending on which environment you use, do the following: 
+    * In the Production environment, click the **+View** tab. 
+    * <span class="preview">In the Preview environment, click the drop-down icon ![Dropdown icon](assets/drop-down-icon.png) next to the current view name, then click **+New view**.</span>-->
+
 1. 從下列檢視型別中選取：
 
    * 表格
@@ -206,6 +213,8 @@ ht-degree: 1%
 >
 >否則，「時間軸」和「行事曆」選項會變暗。
 >
+
+<!-- replace screen shot at production??-->
 
 ![記錄型別清單中的檢視型別下拉式清單](assets/view-types-drop-down-from-record-type-list.png)
 
