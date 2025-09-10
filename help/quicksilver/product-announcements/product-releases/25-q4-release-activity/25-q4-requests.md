@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: f9e1bfc5670754a8fc4aafb360b41c2721de4154
+source-git-commit: a6aa03157d44da8267faaa77bed83f07a03a24b3
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
@@ -50,9 +50,9 @@ ht-degree: 0%
 
 此更新也包含頁面外觀和感覺的變更。
 
-使用新的「請求」體驗時，請注意下列事項：
+使用新的請求體驗時，請注意下列事項：
 
-* 現在可以在與已提交請求相同的清單中找到草稿
+* 您目前只能在舊版請求體驗中找到草稿。 在新體驗中，只有在工作流程佇列中相同路徑中有草稿時，您才能看到草稿。
 * 新體驗目前僅顯示過去1.5個月內建立的請求。 若要檢視舊請求，您可以暫時停用新體驗，並透過舊體驗存取舊請求。
 
 以往，Workfront和Workfront Planning請求位於不同的索引標籤上，且篩選器無法自訂。
