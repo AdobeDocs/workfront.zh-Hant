@@ -6,9 +6,9 @@ description: 計畫工作在Adobe Workfront中以專案和任務表示。 不過
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: b24b1e481bbe726aaf9810124fcf55bdac866cb0
+source-git-commit: 2c2ccbadd6470773808bbd5a205310fbb1e1944e
 workflow-type: tm+mt
-source-wordcount: '2841'
+source-wordcount: '2856'
 ht-degree: 1%
 
 ---
@@ -163,6 +163,7 @@ Workfront管理員必須建立「請求佇列」的下列元件：
    >* <span class="preview">此清單包含Workfront請求佇列和Workfront Planning請求表單。</span>
    >* <span class="preview">您可以依物件型別篩選清單。</span>
    >* <span class="preview">若要只顯示Workfront要求佇列，請篩選`Issue`物件型別。</span>
+   >* <span class="preview">在新的請求體驗中，在與已提交請求相同的清單中找到草稿。</span>
 
 1. （視條件而定）如果您切換至包含Workfront Planning的新體驗，請選取您的主題群組和佇列主題，並繼續更新表單。
 
