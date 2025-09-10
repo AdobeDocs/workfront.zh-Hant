@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2d8c5d2b-a026-4741-b907-aac4c0eac98f
-source-git-commit: 2fe55f61bd24ebb3ecfe09fff29c4aad2ca33608
+source-git-commit: f9e1bfc5670754a8fc4aafb360b41c2721de4154
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
@@ -34,4 +34,8 @@ ht-degree: 0%
 
 您必須啟用新的請求體驗才能檢視新的Widget。 您可以在請求區域中啟用新的請求體驗。
 
+新的「我的請求」Widget只會顯示在新請求體驗中建立的請求。
+
 如需新的我的請求Widget的詳細資訊，請參閱[使用我的請求Widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)。
+
+如需有關新請求體驗的發行說明，請參閱[請求體驗的更新](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md#updates-to-requesting-experience)。
