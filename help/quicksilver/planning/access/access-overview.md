@@ -6,9 +6,9 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 4745b93e02c9de087afbee752e0303280e52d688
+source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '700'
 ht-degree: 2%
 
 ---
@@ -59,7 +59,9 @@ ht-degree: 2%
 <li>Prime</li>
 <li>Ultimate</li></ul>
 <p>Workfront計畫不適用於舊版Workfront套件</p>
-<ul><li><p>任何Planning套件</p></li></ul>
+<p>下列任一Planning套件：</p>
+<ul><li><p>Workfront 規劃</p></li>
+<li><p>Workfront Planning Plus</p></li></ul>
 <p>如需每個Workfront計畫包含內容的詳細資訊，請聯絡您的Workfront客戶經理。 </p>
    </td>
 <tr>

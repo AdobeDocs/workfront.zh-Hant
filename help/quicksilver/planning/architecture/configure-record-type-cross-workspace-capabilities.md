@@ -4,9 +4,9 @@ description: 您可以啟用記錄型別，以新增至另一個工作區，或�
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 38c397594449856a0f1404848a527b86083654b8
+source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1134'
 ht-degree: 1%
 
 ---
@@ -118,7 +118,7 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 
 使用者可以從他們擁有Contribute許可權的任何工作區中，以及在已新增集中式記錄型別的地方（包括其原始工作區），將記錄新增到集中式記錄型別。 他們可以從只有檢視許可權的工作區檢視記錄。
 
-如需詳細資訊，請參閱[集中記錄型別總覽](/help/quicksilver/planning/architecture/centralized-record-types-overview.md)
+如需詳細資訊，請參閱[跨工作區記錄型別總覽](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
 
 若要將新增記錄型別設定為集中記錄型別：
 
@@ -179,7 +179,7 @@ Then for the second setting for cross-workspace connections, we'll need a simila
      此欄位是唯讀的，無法刪除。
 1. （選擇性）移至另一個工作區，並使用現有的記錄型別來建立記錄型別。 選取您在上述步驟中啟用的記錄型別。
 
-   如需詳細資訊，請參閱[新增現有記錄型別](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md)。
+   如需詳細資訊，請參閱[從其他工作區新增現有記錄型別](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)。
 
 ## 設定可連線的記錄型別
 
