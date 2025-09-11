@@ -7,9 +7,9 @@ description: 您可以與檢閱者共用及檢閱各種型別的檔案，即使�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: 1df1eff727ff2044eee0f5c0e79794c109d16c7a
+source-git-commit: 52b0389e9f5d8618106d9b511591afb0b6eb216f
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1101'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ Workfront有下列限制：
 * Mac - MacPaint
 * MIF - MapInfo交換
 * MNG — 多重網路圖形
-* MO：DCA — 混合物件：檔案內容架構
+* MO:DCA — 混合物件：檔案內容架構
 * MSP - Microsoft Paint
 * MRC - LEAD混合點陣內容
 * MRC - T.44混合點陣內容
@@ -133,6 +133,12 @@ Workfront有下列限制：
 * PNM — 可攜式點陣圖公用程式
 * PPM — 可攜式點陣圖公用程式
 * PPT - PowerPoint簡報
+
+  >[!NOTE]
+  >
+  >PowerPoint簡報檔案目前無法上傳的已知問題。 如果您遇到此問題，請將檔案轉換至PDF，並改為上傳PDF。 如需詳細資訊，請參閱[校訂：無法從PowerPoint檔案](https://experienceleague.adobe.com/en/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-proofs-cannot-generate-from-pptx)產生校訂。
+
+
 * PPTX - PowerPoint簡報2007 PS - PostScript檔案
 * PSD - PHOTOSHOP
 * PSP - Paint Shop Pro
