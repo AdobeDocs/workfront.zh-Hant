@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 3667359ba2c6ea0aab3ce6845f1a537183f304ec
+source-git-commit: d7af8c5888147e847b4e239b629373b4b72541f7
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 5%
+source-wordcount: '990'
+ht-degree: 4%
 
 ---
 
@@ -113,17 +113,16 @@ ht-degree: 5%
   如需詳細資訊，請參閱文章[建立欄位](/help/quicksilver/planning/fields/create-fields.md)中的「公式」一節。
 * 您可以在新的公式中參考公式欄位。 在公式欄位中參照的欄位中更新值後，參照該欄位的所有後續欄位或包含該欄位的公式欄位將自動更新。
 
-<!--
 <div class="preview">
 
-* When you update a formula field or a field that could impact it, an alert notifies you of the impact of your change. The alert displays in the following cases:   
+* 當您更新公式欄位或可能影響它的欄位時，警示會通知您變更的影響。 警示會顯示在下列情況中：
 
-   * When you update a formula field (excluding name and description changes) when that field has dependent formula or lookup fields. The alert lists those dependent fields and asks you whether you want to continue. 
+   * 當您更新公式欄位時（不包括名稱和說明變更），如果該欄位具有相依公式或查閱欄位。 警示會列出這些相依欄位，並詢問您是否要繼續。
 
-   * When you delete a field that is used in a formula expression or as a lookup field. The alert lists the dependent formula and lookup fields and asks you whether you want to continue with the deletion.
+   * 當您刪除用於公式運算式或作為查閱欄位的欄位時。 警示會列出相依公式和查閱欄位，並詢問您是否要繼續刪除。
 
 </div>
--->
+
 
 
 <div class="preview">
