@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: 2bcba734ebfa8efbef8f401394a576c59ae22d5d
+source-git-commit: dcdd74e8293a5e695600f08536c8fc2ad36c3a31
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,18 @@ ht-degree: 0%
 本頁說明2025年第四季版本管理員對預覽環境所做的增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2025年第四季版本週期目前可用的所有變更清單，請參閱[2025年第四季版本概觀](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)。
+
+## 新的面板管理員檢視
+
+>[!NOTE]
+>
+>* 預覽： 2025年9月11日
+>* 生產快速發行： 2025年10月15日
+>* 所有客戶的生產： 2025年10月16日
+
+「看板管理員檢視」包含您帳戶中每個看板的清單，系統管理員可使用此清單來快速取得整體看板詳細資訊的快照，包括上次更新時間、每個看板有多少卡片等等。
+
+如需詳細資訊，請參閱[管理面板管理檢視](/help/quicksilver/agile/get-started-with-boards/manage-boards-admin-view.md)。
 
 ## 為您的組織啟用AI Beta功能
 

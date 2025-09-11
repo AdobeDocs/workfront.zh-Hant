@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 09c41ed117660c67c3890ebbaabae73c60cd4a9a
+source-git-commit: abe76998e8d98bf47e45e01ff6b27610955177c5
 workflow-type: tm+mt
-source-wordcount: '7542'
+source-wordcount: '7673'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,16 @@ ht-degree: 0%
 如需Adobe Workfront的所有其他變更，請參閱[產品版本](/help/quicksilver/product-announcements/product-releases/product-releases.md)。
 
 ## 管理和設定
+
+### 在設定區域中新增或編輯時程表設定檔時，介面會更新
+
+**預覽版本： 2025年9月11日；生產版本： 2025年9月18日**
+
+我們已在編輯或新增全系統時程表設定檔時更新時程表設定檔頁面的外觀。
+
+若要檢視這些變更，請前往「設定>時程表和時數>時程表設定檔」，然後新增設定檔或編輯現有設定檔。
+
+如需詳細資訊，請參閱[建立、編輯和指派週期性時程表](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)。
 
 ### 新計分卡和複製計分卡方塊的介面更新
 
@@ -153,6 +163,14 @@ ht-degree: 0%
 如需詳細資訊，請參閱[編輯投資組合](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md)。
 
 ## 專案
+
+### 套用里程碑檢視時，專案清單或報告的介面更新
+
+**預覽版本： 2025年9月11日；生產版本： 2025年9月18日**
+
+當您套用「里程碑」檢視時，我們已更新專案清單或報表的外觀和風格。
+
+專案清單或報表現在與Workfront其他區域的設計相符。 如需詳細資訊，請參閱[使用里程碑檢視](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)。
 
 ### 將任務轉換為沒有範本的專案的介面變更
 
@@ -357,6 +375,18 @@ For information, see [Edit project templates](/help/quicksilver/manage-work/proj
 * [建立路由規則](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)。
 
 ## 使用者
+
+<!--
+### Interface updates for the New User dialog
+
+**Preview release: September 11, 2025; Production release: September 18, 2025**
+
+We have updated the look and feel of the New User dialog to match the design in other areas of the application.
+
+To view this change, go to Users > New User > New User.
+
+For information, see [Add users](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/add-users.md) and [Updates to the Workfront user profile](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md#updates-to-the-workfront-user-profile) on the [Fourth Quarter 2025 Administrator enhancements page](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md).
+-->
 
 ### 匯入使用者對話方塊的介面更新
 
@@ -1022,7 +1052,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 此更新包含區域的視覺化變更。 功能未變更。
 
-若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。**&#x200B;**
+若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。****
 
 +++
 

@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 65012e89-3e3e-42b7-94af-8fa3687501ed
-source-git-commit: 0937f9b1246b92aa080349f0293674455d21ed70
+source-git-commit: 1dc8591dd0da3c3b6030bd643bf80dbe1ee97ea9
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,21 @@ ht-degree: 0%
 本頁說明2025年第四季版本中針對預覽環境所進行的專案增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2025年第四季版本週期目前可用的所有變更清單，請參閱[2025年第四季版本概觀](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)。
+
+## 新的專案健康測試版
+
+>[!NOTE]
+>
+>* 預覽： 2025年9月11日
+>* 適用於所有客戶的生產： 2025年9月11日
+
+新的專案運作狀態功能利用AI Assistant的強大功能，立即為您提供專案執行方式以及需要您關注的領域的評估。
+
+AI助理可以為專案、方案和多個專案產生專案健康情況評估。
+
+如需詳細資訊，請參閱[專案狀況概觀](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md)。
+
+此功能目前處於Beta測試階段。
 
 <!--
 ## Create project intake forms in Workfront
