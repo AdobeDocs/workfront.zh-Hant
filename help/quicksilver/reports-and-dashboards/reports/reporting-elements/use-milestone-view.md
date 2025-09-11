@@ -240,7 +240,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. 按一下&#x200B;**檢視**&#x200B;下拉式功能表，然後按一下&#x200B;**里程碑**。
    <!--No longer available: If you are viewing a list of projects inside a Portfolio or a Program, select the **Milestone** subtab.  -->
 
-1. <!--In the Production environment,--> 按一下[里程碑]檢視右上角的&#x200B;**選項**。
+1. &#x200B;<!--In the Production environment,--> 按一下[里程碑]檢視右上角的&#x200B;**選項**。
 
    <!--<div class="preview">In the Preview environment, select from the options in the next step, from the upper-right corner of the Milestone view.</div>-->
 
@@ -277,6 +277,6 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 1. （視條件而定）如果完成百分比未顯示在里程碑檢視中，請啟用檢視任務和專案的完成百分比，如本文中[設定里程碑檢視](#configure-what-information-displays-in-the-milestone-view)中顯示的資訊一節所述。
 
-1. <!--In the Production environment,--> 按一下任務下方的完成百分比，指定新的百分比，然後按Enter鍵。
+1. &#x200B;<!--In the Production environment,--> 按一下任務下方的完成百分比，指定新的百分比，然後按Enter鍵。
 
    <!--<div class="preview">In the Preview environment, move the Percent Complete slide to the new percent complete to update it. </div>-->
