@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 5ecf925ce1fdf5da75b0736d226b11ce6cbaf3fd
+source-git-commit: de7432c66d9d71a4c1b0b4b6c43b306d0fae9fef
 workflow-type: tm+mt
-source-wordcount: '3185'
+source-wordcount: '3425'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/tw/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 -->
@@ -106,22 +106,20 @@ ht-degree: 0%
 
   您無法重設Workfront管理員的密碼。
 
-<!--
-* **&lt;SSO Configuration&gt; Username**: If your Workfront administrator enabled an SSO integration with Workfront, the SSO Username displays in this field. The type of SSO configuration enabled for your Workfront instance is visible in this field.
-* **OnlyAllow &lt;SSO Configuration&gt; Authentication**: If your Workfront administrator enabled an SSO integration with Workfront and has updated all users for SSO, this field is selected by default. The type of SSO configuration enabled for your Workfront instance is visible in this field.
-  
-  When this field is selected, the user is required to log into Workfront with their SSO credentials. Unchecking it will allow them to log in to Workfront with their Workfront credentials.
+* **&lt;SSO設定>使用者名稱**：如果您的Workfront管理員已啟用Workfront的SSO整合，則SSO使用者名稱會顯示在此欄位中。 此欄位會顯示為您的Workfront執行個體啟用的SSO設定型別。
+* **OnlyAllow &lt;SSO Configuration>驗證**：如果您的Workfront管理員已啟用Workfront的SSO整合，並已更新所有SSO使用者，則預設會選取此欄位。 此欄位會顯示為您的Workfront執行個體啟用的SSO設定型別。
 
-  For more information about configuring Workfront with an SSO solution, see [Overview of single sign-on in Adobe Workfront](/help/quicksilver/administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
+  選取此欄位時，使用者必須使用其SSO憑證登入Workfront。 取消核取此專案將允許他們使用其Workfront憑證登入Workfront。
 
-  For more information about updating users for SSO, see [Update users for single sign-on](/help/quicksilver/administration-and-setup/add-users/single-sign-on/update-users-sso.md).
+  如需使用SSO解決方案設定Workfront的詳細資訊，請參閱[Adobe Workfront單一登入概觀](/help/quicksilver/administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)。
+
+  如需更新SSO使用者的詳細資訊，請參閱[更新單一登入的使用者](/help/quicksilver/administration-and-setup/add-users/single-sign-on/update-users-sso.md)。
 
   >[!NOTE]
   >
-  >If you are a group administrator, you can edit the &lt;SSO Configuration&gt; fields only for users in the groups where you are designated as such. Also, the User Admin (Group Users) permission must be enabled in your access level.
+  >如果您是群組管理員，則只能為您指定為此類群組的使用者編輯&lt;SSO組態>欄位。 此外，您必須在存取層級中啟用「使用者管理員（群組使用者）」許可權。
   >
-  >If you are a group administrator and you have the User Admin (All Users) permission enabled in your access level, you can edit the &lt;SSO Configuration&gt; fields for all users.
--->
+  >如果您是群組管理員，且您的存取層級中已啟用「使用者管理員（所有使用者）」許可權，您可以編輯所有使用者的&lt;SSO設定>欄位。
 
 * **設定檔像片**：按一下&#x200B;**上傳新像片**&#x200B;以載入使用者的設定檔像片。 您可以上傳JPG、GIF或PNG檔案。 檔案大小限製為4 MB。
 
@@ -152,7 +150,7 @@ ht-degree: 0%
 
 <!--* **Automatically set the task status to In Progress when tasks are self-assigned**: When this option is selected, work that the user self-assigns is automatically set to In Progress status instead of New.-->
 
-<!--**Send work I assign to myself to my Working On tab**: This setting refers to a deprecated feature that has been removed from Workfront.-->
+* **將我指派給自己的工作傳送到[正在處理]索引標籤**：選取此選項時，使用者自行指派的工作會自動設定為[進行中]狀態，而非[新增]。<!--This setting refers to a deprecated feature that has been removed from Workfront.-->
 
 * **上傳檔案時自動產生校訂**：如果您希望使用者上傳的檔案立即產生校訂，請勾選此選項。
 
@@ -272,7 +270,7 @@ ht-degree: 0%
 
   <span class="preview"> （選擇性）如果使用者在專案期間的工作角色變更，則財務計算中會使用生效日期的工作角色指派。</span>
 
-  <span class="preview">按一下&#x200B;**依日期定義角色**，選取&#x200B;**主要角色**&#x200B;和&#x200B;**其他角色**，然後輸入每個角色的配置百分比。 這些角色可能與現有角色（使用不同的百分比）或新角色相同。 選取這些角色生效時的「開始」日期。 這可以是未來的日期。 當最新的角色作用中時，您可以按一下[顯示先前的角色]&#x200B;**&#x200B;**，檢視先前的非作用中角色。</span>
+  <span class="preview">按一下&#x200B;**依日期定義角色**，選取&#x200B;**主要角色**&#x200B;和&#x200B;**其他角色**，然後輸入每個角色的配置百分比。 這些角色可能與現有角色（使用不同的百分比）或新角色相同。 選取這些角色生效時的「開始」日期。 這可以是未來的日期。 當最新的角色作用中時，您可以按一下[顯示先前的角色]****，檢視先前的非作用中角色。</span>
 
 * **排程**：將排程與使用者建立關聯。 使用者的排程會計算指派給使用者的任務的時間表。
 
@@ -318,13 +316,13 @@ ht-degree: 0%
 * **資源集區**：將使用者與資源集區建立關聯。 如需詳細資訊，請參閱[將資源集區與使用者關聯](/help/quicksilver/resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)。
 * **成本費率**：使用者每小時的成本金額。
 
-  若要取得日期有效成本費率，請按一下[新增費率]。**&#x200B;** 輸入時間期間的成本費率值，並視需要指定「開始日期」與「結束日期」。 成本費率1不會有開始日期，而最後的成本費率不會有結束日期。
+  若要取得日期有效成本費率，請按一下[新增費率]。**** 輸入時間期間的成本費率值，並視需要指定「開始日期」與「結束日期」。 成本費率1不會有開始日期，而最後的成本費率不會有結束日期。
 
   部分日期會自動新增。 例如，如果「成本費率1」沒有結束日期，而您新增了開始日期為2023年5月1日的「成本費率2」，則會將結束日期為2023年4月30日的成本費率新增至「成本費率1」，因此不會出現間隙。
 
 * **收費率**：使用者每小時的收費金額。
 
-  若要取得日期有效收費率，請按一下[新增費率]。**&#x200B;** 輸入時間期間的帳單費率值，並視需要指定「開始日期」與「結束日期」。 帳單費率1不會有開始日期，而最後的帳單費率不會有結束日期。
+  若要取得日期有效收費率，請按一下[新增費率]。**** 輸入時間期間的帳單費率值，並視需要指定「開始日期」與「結束日期」。 帳單費率1不會有開始日期，而最後的帳單費率不會有結束日期。
 
   部分日期會自動新增。 例如，如果「收費率1」沒有結束日期，而您新增了開始日期為2023年5月1日的第二個日期，則結束日期為2023年4月30日的日期會新增至「收費率1」，因此不存在間隔。
 

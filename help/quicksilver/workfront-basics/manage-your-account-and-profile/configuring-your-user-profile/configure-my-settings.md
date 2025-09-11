@@ -6,9 +6,9 @@ description: 您的 [!DNL Adobe Workfront] 個人資料包含有關您的資訊�
 author: Lisa, Courtney
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 5ecf925ce1fdf5da75b0736d226b11ce6cbaf3fd
+source-git-commit: de7432c66d9d71a4c1b0b4b6c43b306d0fae9fef
 workflow-type: tm+mt
-source-wordcount: '3149'
+source-wordcount: '3317'
 ht-degree: 1%
 
 ---
@@ -47,18 +47,18 @@ ht-degree: 1%
  <col> 
  <thead> 
   <tr> 
-   <th><strong>[!UICONTROL 我的設定]區域</strong> </th> 
+   <th><strong>[！UICONTROL我的設定]區域</strong> </th> 
    <th><strong>可見或可編輯</strong> </th> 
-   <th><strong>[!UICONTROL 系統管理員]</strong> </th> 
-   <th><strong>[!UICONTROL Standard]或[!UICONTROL Planner]</strong> </th> 
-   <th><strong>[!UICONTROL Worker]</strong> </th> 
-   <th><strong>[!UICONTROL Light]或[!UICONTROL Reviewer]</strong> </th> 
-   <th><strong>[!UICONTROL Contributor]或[!UICONTROL Requestor]</strong> </th> 
+   <th><strong>[！UICONTROL系統管理員]</strong> </th> 
+   <th><strong>[！UICONTROL Standard]或[！UICONTROL Planner]</strong> </th> 
+   <th><strong>[！UICONTROL Worker]</strong> </th> 
+   <th><strong>[！UICONTROL Light]或[！UICONTROL Reviewer]</strong> </th> 
+   <th><strong>[！UICONTROL Contributor]或[！UICONTROL Requestor]</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td rowspan="2">[!UICONTROL 個人資訊]</td> 
+   <td rowspan="2">[！UICONTROL個人資訊]</td> 
    <td> <p>顯示設定</p> </td> 
    <td> <p>✔</p> </td> 
    <td> ✔</td> 
@@ -75,7 +75,7 @@ ht-degree: 1%
    <td>✔ </td> 
   </tr> 
   <tr> 
-   <td rowspan="2">[!UICONTROL 喜好設定]</td> 
+   <td rowspan="2">[！UICONTROL喜好設定]</td> 
    <td> <p>顯示設定</p> </td> 
    <td> <p>✔</p> </td> 
    <td> ✔</td> 
@@ -92,7 +92,7 @@ ht-degree: 1%
    <td>✔ </td> 
   </tr> 
   <tr> 
-   <td rowspan="2">[!UICONTROL 通知]</td> 
+   <td rowspan="2">[！UICONTROL通知]</td> 
    <td> <p>顯示設定</p> </td> 
    <td> <p>✔</p> </td> 
    <td>✔ </td> 
@@ -109,7 +109,7 @@ ht-degree: 1%
    <td> ✔</td> 
   </tr> 
   <tr> 
-   <td rowspan="2">[!UICONTROL 存取]</td> 
+   <td rowspan="2">[！UICONTROL存取]</td> 
    <td>顯示設定</td> 
    <td> ✔</td> 
    <td>✔ </td> 
@@ -126,7 +126,7 @@ ht-degree: 1%
    <td> </td> 
   </tr> 
   <tr> 
-   <td rowspan="2">[!UICONTROL 組織]</td> 
+   <td rowspan="2">[！UICONTROL組織]</td> 
    <td>顯示設定</td> 
    <td>✔</td> 
    <td>✔ </td> 
@@ -143,7 +143,7 @@ ht-degree: 1%
    <td> </td> 
   </tr> 
   <tr> 
-   <td rowspan="2">[!UICONTROL 資源規劃]</td> 
+   <td rowspan="2">[！UICONTROL資源規劃]</td> 
    <td>顯示設定</td> 
    <td>✔</td> 
    <td>✔ </td> 
@@ -160,7 +160,7 @@ ht-degree: 1%
    <td> </td> 
   </tr> 
   <tr> 
-   <td rowspan="2">[!UICONTROL 自訂Forms]</td> 
+   <td rowspan="2">[！UICONTROL自訂Forms]</td> 
    <td>顯示設定</td> 
    <td>✔</td> 
    <td>✔ </td> 
@@ -177,7 +177,7 @@ ht-degree: 1%
    <td> </td> 
   </tr> 
   <tr> 
-   <td rowspan="2">[!UICONTROL 註解]</td> 
+   <td rowspan="2">[！UICONTROL註解]</td> 
    <td>顯示設定</td> 
    <td>✔</td> 
    <td>✔ </td> 
@@ -234,34 +234,31 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL 名字]</strong></td> 
+   <td role="rowheader"><strong>[！UICONTROL名字]</strong></td> 
    <td>更新您的名字。 這是必填欄位。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL 姓氏]</strong></td> 
+   <td role="rowheader"><strong>[！UICONTROL姓氏]</strong></td> 
    <td>更新您的姓氏。 這是必填欄位。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL 電子郵件地址]</strong></td> 
+   <td role="rowheader"><strong>[！UICONTROL電子郵件地址]</strong></td> 
    <td> 更新您的電子郵件地址。 這是必填欄位。 請記住，您的電子郵件地址也是[!DNL Workfront]的使用者名稱。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL 變更密碼]</strong></td> 
+   <td role="rowheader"><strong>[！UICONTROL變更密碼]</strong></td> 
    <td>在此區段中重設您的密碼。 如需重設密碼的詳細資訊，請參閱<a href="../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md" class="MCXref xref">重設密碼</a>。</td> 
   </tr> 
- </tbody> 
-</table>
-
-<!--
   <tr> 
-   <td role="rowheader"><strong>(Conditional) &lt;SSO Configuration> [!UICONTROL Username]</strong></td> 
-   <td> If your [!DNL Workfront] administrator enabled an SSO integration with [!DNL Workfront], your SSO Username displays in this field. The type of SSO configuration enabled for your [!DNL Workfront] instance is visible in this field.</td> 
+   <td role="rowheader"><strong>（條件式） &lt;SSO組態&gt; [！UICONTROL使用者名稱]</strong></td> 
+   <td> 如果您的[!DNL Workfront]管理員已啟用SSO與[!DNL Workfront]的整合，則您的SSO使用者名稱會顯示在此欄位中。 此欄位會顯示您[!DNL Workfront]執行個體已啟用的SSO組態型別。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>(Conditional) [!UICONTROL Only Allow &lt;SSO Configuration> Authentication]</strong></td> 
-   <td> <p> If your [!DNL Workfront] administrator enabled an SSO integration with [!DNL Workfront] and has updated users for SSO, this field is selected by default. The type of SSO configuration enabled for your [!DNL Workfront] instance is visible in this field.</p> <p>When this field is selected, you are required you to log into [!DNL Workfront] with your SSO credentials. Unchecking it will allow you to log in to [!DNL Workfront] with your [!DNL Workfront] credentials.</p> <p>For more information about configuring [!DNL Workfront] with an SSO solution, see <a href="../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md" class="MCXref xref">Single sign-on in [!DNL Workfront]: article index</a>. For more information about updating users for SSO, see <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Update users for single sign-on</a>.</p> </td> 
+   <td role="rowheader"><strong>（條件式） [！UICONTROL僅允許&lt;SSO Configuration&gt;驗證]</strong></td> 
+   <td> <p> 如果您的[!DNL Workfront]管理員已啟用[!DNL Workfront]的SSO整合，並已更新SSO的使用者，則預設會選取此欄位。 此欄位會顯示您[!DNL Workfront]執行個體已啟用的SSO組態型別。</p> <p>選取此欄位時，您必須使用SSO認證登入[!DNL Workfront]。 取消核取此專案將可讓您使用[!DNL Workfront]認證登入[!DNL Workfront]。</p> <p>如需使用SSO解決方案設定[!DNL Workfront]的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md" class="MCXref xref">中的[!DNL Workfront]單一登入：文章索引</a>。 如需更新SSO使用者的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">更新單一登入的使用者</a>。</p> </td> 
   </tr>
--->
+ </tbody> 
+</table>
 
 #### [!UICONTROL 工作資訊]
 
@@ -269,11 +266,11 @@ ht-degree: 1%
 
 <table style="table-layout:auto">
     <tr>
-        <td><strong>[!UICONTROL 標題]</strong></td>
+        <td><strong>[！UICONTROL標題]</strong></td>
         <td>指定您的標題。 這與您的工作角色不同。 您的職稱不是資源排程的一部分，而您的工作角色是。 您的標題會顯示在[!DNL Workfront]介面中您名稱和顯示圖片的所有位置。 所有有權存取您使用者設定檔的人皆可檢視此設定檔。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 與我談關於]</strong></td>
+        <td><strong>[！UICONTROL與我談關於]</strong></td>
         <td>在此欄位中指定您的專業興趣。</td>
     </tr>
 </table>
@@ -284,39 +281,39 @@ ht-degree: 1%
 
 <table style="table-layout:auto">
     <tr>
-        <td><strong>[!UICONTROL 電話號碼]</strong></td>
+        <td><strong>[！UICONTROL電話號碼]</strong></td>
         <td> </td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 副檔名]</strong></td>
+        <td><strong>[！UICONTROL副檔名]</strong></td>
         <td> </td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 手機號碼]</strong></td>
+        <td><strong>[！UICONTROL手機號碼]</strong></td>
         <td> </td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 位址]</strong></td>
+        <td><strong>[！UICONTROL位址]</strong></td>
         <td> </td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL City]</strong></td>
+        <td><strong>[！UICONTROL City]</strong></td>
         <td> </td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 狀態]</strong></td>
+        <td><strong>[！UICONTROL狀態]</strong></td>
         <td> </td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 郵遞區號]</strong></td>
+        <td><strong>[！UICONTROL郵遞區號]</strong></td>
         <td> </td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL Country]</strong></td>
+        <td><strong>[！UICONTROL Country]</strong></td>
         <td> </td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 設定檔像片]</strong></td>
+        <td><strong>[！UICONTROL設定檔像片]</strong></td>
         <td>您的設定檔像片會變成您的頭像，而且無論您的名稱在何處顯示，都可在[!DNL Workfront]系統中看到。</td>
     </tr>
 </table>
@@ -336,14 +333,17 @@ ht-degree: 1%
  <col> 
  <tbody>
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL 時區]</strong> </td> 
+   <td role="rowheader"><strong>[！UICONTROL時區]</strong> </td> 
    <td><p>指定您的時區。 這會控制您外寄電子郵件訊息中所顯示的時間。</p>
        <p>時區也會影響PTO行事曆報表中所顯示的內容。</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL 電子郵件地區設定]</strong> </td> 
+   <td role="rowheader"><strong>[！UICONTROL電子郵件地區設定]</strong> </td> 
    <td><p>在這裡指定您偏好的語言。 這會控制外寄電子郵件中所使用的語言、日期和數字格式。</p>
    <p><strong>注意：</strong>當您的組織使用Adobe Unified Experience時，語言偏好設定會儲存在您的Adobe設定檔中，而且不會使用電子郵件地區設定。 如需詳細資訊，請參閱文章<a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language">Adobe Workfront支援的語言</a>中的<a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md">變更Adobe Experience Cloud語言</a>。</p></td> 
+  </tr>
+  <tr><td><strong>[！UICONTROL將我指派給我自己的工作傳送至我的「正在處理」索引標籤]</strong> </td>
+  <td>如果您要將指派給自己的工作狀態自動設定為「進行中」而非「新增」，請選取此選項。</td>
   </tr>
   <tr> 
    <td role="rowheader"><strong>（視條件而定）上傳檔案時自動產生校樣</strong></td> 
@@ -378,16 +378,16 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL 作用中]</strong> </td> 
+   <td role="rowheader"><strong>[！UICONTROL作用中]</strong> </td> 
    <td>此欄位僅對同時身為[!DNL Workfront]管理員的使用者可見，而且預設應該啟用。 這表示使用者處於作用中狀態並可以登入 [!DNL Workfront]</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL 存取層級]</strong> </td> 
-   <td>具有[!UICONTROL Standard]、[!UICONTROL Plan]或[!UICONTROL Workfront administrator]存取層級的使用者可看見此欄位，而且只有[!DNL Workfront]管理員可編輯此欄位。 如果您是[!DNL Workfront]管理員，請留意，修改此欄位時，不要將您的存取層級變更為較低的存取層級。 </td> 
+   <td role="rowheader"><strong>[！UICONTROL存取層級]</strong> </td> 
+   <td>具有[！UICONTROL Standard]、[！UICONTROL Plan]或[！UICONTROL Workfront administrator]存取層級的使用者可看見此欄位，而且只有[!DNL Workfront]管理員可編輯此欄位。 如果您是[!DNL Workfront]管理員，請留意，修改此欄位時，不要將您的存取層級變更為較低的存取層級。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL 配置範本]</strong> </td> 
-   <td>具有[!UICONTROL Standard]、[!UICONTROL Plan]或[!UICONTROL [!DNL Workfront] administrator]存取層級的使用者可看見此欄位，而且只有[!UICONTROL [!DNL Workfront] administrators]或具有[!UICONTROL Standard]或[!UICONTROL Plan]授權的使用者（也具有管理使用者存取權）才可編輯此欄位。 在此處選取版面範本，以更新Workfront介面的外觀和欄位。 如需有關設定具有管理使用者存取許可權的使用者的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#configure-users-access-to-edit-users-using-a-custom-access-level" class="MCXref xref">授予使用者存取許可權</a>中的<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">設定使用者的存取許可權，以使用自訂存取層級編輯使用者</a>。<br>如需有關版面配置範本及其如何影響介面的詳細資訊，請參閱<a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">建立和管理版面配置範本</a></td> 
+   <td role="rowheader"><strong>[！UICONTROL配置範本]</strong> </td> 
+   <td>具有[！UICONTROL Standard]、[！UICONTROL Plan]或[！UICONTROL [!DNL Workfront] administrator]存取層級的使用者可看見此欄位，而且只有[！UICONTROL [!DNL Workfront] administrators]或具有[！UICONTROL Standard]或[！UICONTROL Plan]授權的使用者（也具有管理使用者存取權）才可編輯此欄位。 在此處選取版面範本，以更新Workfront介面的外觀和欄位。 如需有關設定具有管理使用者存取許可權的使用者的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#configure-users-access-to-edit-users-using-a-custom-access-level" class="MCXref xref">授予使用者存取許可權</a>中的<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">設定使用者的存取許可權，以使用自訂存取層級編輯使用者</a>。<br>如需有關版面配置範本及其如何影響介面的詳細資訊，請參閱<a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">建立和管理版面配置範本</a></td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader"><strong>Log in as</strong> </td> 
@@ -399,14 +399,14 @@ ht-degree: 1%
    </tr>
   --> 
   <tr> 
-   <td role="rowheader"><strong>（視條件而定） [!UICONTROL 使用者可以產生校訂（剩下……個校訂授權中的……）]</strong></td> 
+   <td role="rowheader"><strong>（視條件而定） [！UICONTROL使用者可以產生校訂（剩下……個校訂授權中的……）]</strong></td> 
    <td>此欄位僅在貴公司使用舊版[!DNL Workfront]計畫且已購買[!DNL Workfront Proof]元件時可用。 選取後，您即成為校訂使用者。 它也會顯示系統中使用的校訂授權數量在購買的總校訂授權數量中。 只有身為[!DNL Workfront]管理員的使用者才能看見及編輯此欄位。 如需有關[!DNL Workfront]中校訂的計畫選項的詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md">在[!DNL Workfront]</a>中存取校訂功能。</td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>（視條件而定） [!UICONTROL 許可權設定檔]</strong></td> 
+   <td role="rowheader"><strong>（視條件而定） [！UICONTROL許可權設定檔]</strong></td> 
    <td> <p>此欄位顯示您在[!DNL Workfront Proof]中的存取層級。 它僅在以下情況下才可用：</p> 
     <ul> 
-     <li>您的公司使用舊版[!DNL Workfront]計畫且已購買[!DNL Workfront Proof]元件，或者您擁有較新[!DNL Workfront]計畫的[!UICONTROL Standard]、[!UICONTROL Work]或[!UICONTROL Plan]授權。</li> 
+     <li>您的公司使用舊版[!DNL Workfront]計畫且已購買[!DNL Workfront Proof]元件，或者您擁有較新[!DNL Workfront]計畫的[！UICONTROL Standard]、[！UICONTROL Work]或[！UICONTROL Plan]授權。</li> 
      <li>您已啟用為校訂使用者。</li> 
     </ul> <p>[!DNL Workfront] 管理員可以編輯除了他們自己以外的所有使用者的欄位，因此所有使用者在自己的設定檔上都會將該欄位視為僅限檢視。 如需許可權設定檔的詳細資訊，請參閱<a href="../../../review-and-approve-work/proofing/proofing-overview/permission-profiles.md" class="MCXref xref">校訂許可權設定檔概述</a>。</p> </td> 
   </tr> 
@@ -424,32 +424,32 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL 公司]</strong></td> 
+   <td role="rowheader"><strong>[！UICONTROL公司]</strong></td> 
    <td>從下拉式清單中選取您所屬的公司名稱。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>（視條件而定） [!UICONTROL 報表給]</strong></td> 
-   <td>在您為設定檔選取<strong>[!UICONTROL 公司]</strong>之後，您也可以在此欄位中指定您的經理名稱。 您只能在此指定一個名稱，建議您指定直屬經理的名稱。 開始輸入其名稱，然後按一下以在清單中顯示時將其選取。</td> 
+   <td role="rowheader"><strong>（視條件而定） [！UICONTROL報表給]</strong></td> 
+   <td>在您為設定檔選取<strong>[！UICONTROL公司]</strong>之後，您也可以在此欄位中指定您的經理名稱。 您只能在此指定一個名稱，建議您指定直屬經理的名稱。 開始輸入其名稱，然後按一下以在清單中顯示時將其選取。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>（視條件而定） [!UICONTROL 直接下屬]</strong></td> 
-   <td>為您的設定檔選取<strong>[!UICONTROL 公司]</strong>之後，您也可以在此欄位中指定直接下屬的名稱。 您可以視需要在此指定任意數量的直接下屬。 開始輸入其名稱，然後按一下以在清單中出現時選取它們。</td> 
+   <td role="rowheader"><strong>（視條件而定） [！UICONTROL直接下屬]</strong></td> 
+   <td>為您的設定檔選取<strong>[！UICONTROL公司]</strong>之後，您也可以在此欄位中指定直接下屬的名稱。 您可以視需要在此指定任意數量的直接下屬。 開始輸入其名稱，然後按一下以在清單中出現時選取它們。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL 主團隊]</strong> </td> 
-   <td> <p>從下拉式選單中選取<strong>[!UICONTROL 主團隊]</strong>。 具有[!UICONTROL Standard]、[!UICONTROL Plan]或[!UICONTROL System Administrator]存取層級的使用者可看見此欄位，而且只有[!DNL Workfront]個管理員或具有[!UICONTROL Standard]或[!UICONTROL Plan]授權的使用者（也具有管理使用者存取權）可編輯此欄位。 如需有關設定具有管理使用者存取許可權的使用者的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#configure-users-access-to-edit-users-using-a-custom-access-level" class="MCXref xref">授予使用者存取許可權</a>中的<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">設定使用者的存取許可權，以使用自訂存取層級編輯使用者</a>。<br></p> <p>如果配置範本與團隊關聯，您的<strong>主團隊</strong>可能會影響[!DNL Workfront]介面的外觀和風格。 </p> <p>如需有關團隊的詳細資訊，請參閱<a href="../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md" class="MCXref xref">團隊概觀</a>。</p> </td>
+   <td role="rowheader"><strong>[！UICONTROL主團隊]</strong> </td> 
+   <td> <p>從下拉式選單中選取<strong>[！UICONTROL主團隊]</strong>。 具有[！UICONTROL Standard]、[！UICONTROL Plan]或[！UICONTROL System Administrator]存取層級的使用者可看見此欄位，而且只有[!DNL Workfront]個管理員或具有[！UICONTROL Standard]或[！UICONTROL Plan]授權的使用者（也具有管理使用者存取權）可編輯此欄位。 如需有關設定具有管理使用者存取許可權的使用者的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#configure-users-access-to-edit-users-using-a-custom-access-level" class="MCXref xref">授予使用者存取許可權</a>中的<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">設定使用者的存取許可權，以使用自訂存取層級編輯使用者</a>。<br></p> <p>如果配置範本與團隊關聯，您的<strong>主團隊</strong>可能會影響[!DNL Workfront]介面的外觀和風格。 </p> <p>如需有關團隊的詳細資訊，請參閱<a href="../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md" class="MCXref xref">團隊概觀</a>。</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL 其他團隊]</strong> </td> 
-   <td> <p>您可以隸屬於多個團隊。 開始輸入團隊名稱，然後按一下以在清單中顯示時選取您屬於此欄位的其他團隊。 屬於太多團隊可能會造成指派給團隊的工作混淆。 如需有關團隊的詳細資訊，請參閱<a href="../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md" class="MCXref xref">團隊概觀</a>。</p> <p>具有[!UICONTROL Standard]、[!UICONTROL Plan]或[!UICONTROL System Administrator]授權的使用者可看見此欄位，而且只有[!DNL Workfront]個管理員或具有[!UICONTROL Standard]或[!UICONTROL Plan]授權的使用者（也具有管理使用者存取權）可編輯此欄位。 如需有關設定具有管理使用者存取許可權的使用者的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#configure-users-access-to-edit-users-using-a-custom-access-level" class="MCXref xref">授予使用者存取許可權</a>中的<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">設定使用者的存取許可權，以使用自訂存取層級編輯使用者</a>。</p> </td>
+   <td role="rowheader"><strong>[！UICONTROL其他團隊]</strong> </td> 
+   <td> <p>您可以隸屬於多個團隊。 開始輸入團隊名稱，然後按一下以在清單中顯示時選取您屬於此欄位的其他團隊。 屬於太多團隊可能會造成指派給團隊的工作混淆。 如需有關團隊的詳細資訊，請參閱<a href="../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md" class="MCXref xref">團隊概觀</a>。</p> <p>具有[！UICONTROL Standard]、[！UICONTROL Plan]或[！UICONTROL System Administrator]授權的使用者可看見此欄位，而且只有[!DNL Workfront]個管理員或具有[！UICONTROL Standard]或[！UICONTROL Plan]授權的使用者（也具有管理使用者存取權）可編輯此欄位。 如需有關設定具有管理使用者存取許可權的使用者的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#configure-users-access-to-edit-users-using-a-custom-access-level" class="MCXref xref">授予使用者存取許可權</a>中的<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">設定使用者的存取許可權，以使用自訂存取層級編輯使用者</a>。</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL 主群組]</strong> </td> 
-   <td> <p>從下拉式功能表中選取<strong>[!UICONTROL 主群組]</strong>。</p> <p>備註：此為必填欄位。 您不能有未與群組相關聯的使用者。<br></p> <p>具有[!UICONTROL Standard]、[!UICONTROL Plan]或[!UICONTROL 系統管理員]層級的使用者可看見此欄位。 如需誰可以編輯<strong>[!UICONTROL 主群組]</strong>欄位的詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md"class="MCXref xref">編輯使用者的設定檔</a>。 您的<strong>[!UICONTROL 主群組]</strong>是所有專案的預設群組，而您建立的所有新使用者的預設<strong>[!UICONTROL 主群組]</strong>。 依預設，您建立的任何自訂表單都會與您的<strong>[!UICONTROL 主群組]</strong>共用。</p> <p>如需群組的詳細資訊，請參閱<a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">群組概述</a>。</p> </td> 
+   <td role="rowheader"><strong>[！UICONTROL主群組]</strong> </td> 
+   <td> <p>從下拉式功能表中選取<strong>[！UICONTROL主群組]</strong>。</p> <p>備註：此為必填欄位。 您不能有未與群組相關聯的使用者。<br></p> <p>具有[！UICONTROL Standard]、[！UICONTROL Plan]或[！UICONTROL系統管理員]層級的使用者可看見此欄位。 如需誰可以編輯<strong>[！UICONTROL主群組]</strong>欄位的詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md"class="MCXref xref">編輯使用者的設定檔</a>。 您的<strong>[！UICONTROL主群組]</strong>是所有專案的預設群組，而您建立的所有新使用者的預設<strong>[！UICONTROL主群組]</strong>。 依預設，您建立的任何自訂表單都會與您的<strong>[！UICONTROL主群組]</strong>共用。</p> <p>如需群組的詳細資訊，請參閱<a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">群組概述</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL 其他群組]</strong> </td> 
-   <td> <p>您可以屬於多個群組。 開始輸入群組的名稱，即可在此欄位中指定您所屬的其他群組。 按一下以在清單中顯示時選取它。 具有[!UICONTROL Standard]、[!UICONTROL Plan]或[!UICONTROL 系統管理員]存取層級的使用者可看見此欄位。 如需誰可以編輯<strong>[!UICONTROL 其他群組]</strong>欄位的詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md"class="MCXref xref">編輯使用者的設定檔</a>。</p> <p>如需群組的詳細資訊，請參閱<a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">群組概述</a>。</p> </td> 
+   <td role="rowheader"><strong>[！UICONTROL其他群組]</strong> </td> 
+   <td> <p>您可以屬於多個群組。 開始輸入群組的名稱，即可在此欄位中指定您所屬的其他群組。 按一下以在清單中顯示時選取它。 具有[！UICONTROL Standard]、[！UICONTROL Plan]或[！UICONTROL系統管理員]存取層級的使用者可看見此欄位。 如需誰可以編輯<strong>[！UICONTROL其他群組]</strong>欄位的詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md"class="MCXref xref">編輯使用者的設定檔</a>。</p> <p>如需群組的詳細資訊，請參閱<a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">群組概述</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -465,55 +465,55 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL 設定停用日期]</strong></td>
-   <td><p>如果您想要排程在一段時間後停用您的帳戶，請按一下此按鈕。 在出現的<strong>[!UICONTROL 排程停用日期]</strong>中，指定帳戶停用的日期。 如需停用使用者的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation" class="MCXref xref">停用或重新啟用使用者</a>中的<a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">排程停用使用者</a>。 </p><p>如果您有[!UICONTROL Standard]或[!UICONTROL Plan]授權，或您是[!DNL Workfront]管理員，則可以編輯帳戶的停用欄位。 </p></td> 
+   <td role="rowheader"><strong>[！UICONTROL設定停用日期]</strong></td>
+   <td><p>如果您想要排程在一段時間後停用您的帳戶，請按一下此按鈕。 在出現的<strong>[！UICONTROL排程停用日期]</strong>中，指定帳戶停用的日期。 如需停用使用者的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation" class="MCXref xref">停用或重新啟用使用者</a>中的<a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">排程停用使用者</a>。 </p><p>如果您有[！UICONTROL Standard]或[！UICONTROL Plan]授權，或您是[!DNL Workfront]管理員，則可以編輯帳戶的停用欄位。 </p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL 主要角色]</strong></td> 
-   <td> <p>這是您可以在Workfront中履行的主要職務角色。 依預設，您指派到的每個任務和問題也會指派給此工作角色。 職務角色在資源管理中至關重要。 如需有關工作角色的詳細資訊，請參閱<a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">建立和管理工作角色</a>。</p> <p>只有當您擁有具有管理使用者存取權的[!UICONTROL Standard]或[!UICONTROL Plan]授權，或您是[!DNL Workfront]管理員時，才能更新此欄位。 如需有關設定具有管理使用者存取許可權的使用者的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#configure-users-access-to-edit-users-using-a-custom-access-level" class="MCXref xref">授予使用者存取許可權</a>中的<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">設定使用者的存取許可權，以使用自訂存取層級編輯使用者</a>。</p> </td> 
+   <td role="rowheader"><strong>[！UICONTROL主要角色]</strong></td> 
+   <td> <p>這是您可以在Workfront中履行的主要職務角色。 依預設，您指派到的每個任務和問題也會指派給此工作角色。 職務角色在資源管理中至關重要。 如需有關工作角色的詳細資訊，請參閱<a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">建立和管理工作角色</a>。</p> <p>只有當您擁有具有管理使用者存取權的[！UICONTROL Standard]或[！UICONTROL Plan]授權，或您是[!DNL Workfront]管理員時，才能更新此欄位。 如需有關設定具有管理使用者存取許可權的使用者的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#configure-users-access-to-edit-users-using-a-custom-access-level" class="MCXref xref">授予使用者存取許可權</a>中的<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">設定使用者的存取許可權，以使用自訂存取層級編輯使用者</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>（視條件而定）如果您選取[!UICONTROL 主要角色]，則會顯示[!UICONTROL FTE可用性百分比]欄位。</strong></td> 
-   <td>指定您的排程時間中分配給此工作角色的百分比。 主要角色的[!UICONTROL FTE可用性百分比]預設值為100%。</td> 
+   <td role="rowheader"><strong>（視條件而定）如果您選取[！UICONTROL主要角色]，則會顯示[！UICONTROL FTE可用性百分比]欄位。</strong></td> 
+   <td>指定您的排程時間中分配給此工作角色的百分比。 主要角色的[！UICONTROL FTE可用性百分比]預設值為100%。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL 其他角色]</strong> </td> 
-   <td> <p>您可以在[!DNL Workfront]中擁有多個職位角色。 職務角色在資源管理中至關重要。 如需有關工作角色的詳細資訊，請參閱<a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">建立和管理工作角色</a>。</p> <p>只有當您擁有具有管理使用者存取權的[!UICONTROL Standard]或[!UICONTROL Plan]授權，或您是[!DNL Workfront]管理員時，才能更新此欄位。 如需有關設定具有管理使用者存取許可權的使用者的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit" class="MCXref xref">授予使用者存取許可權</a>中的<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">設定使用者的存取許可權，以使用自訂存取層級編輯使用者</a>。</p> </td> 
+   <td role="rowheader"><strong>[！UICONTROL其他角色]</strong> </td> 
+   <td> <p>您可以在[!DNL Workfront]中擁有多個職位角色。 職務角色在資源管理中至關重要。 如需有關工作角色的詳細資訊，請參閱<a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">建立和管理工作角色</a>。</p> <p>只有當您擁有具有管理使用者存取權的[！UICONTROL Standard]或[！UICONTROL Plan]授權，或您是[!DNL Workfront]管理員時，才能更新此欄位。 如需有關設定具有管理使用者存取許可權的使用者的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit" class="MCXref xref">授予使用者存取許可權</a>中的<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">設定使用者的存取許可權，以使用自訂存取層級編輯使用者</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>（視條件而定）如果您選取一或多個其他角色，則會針對每個角色顯示[!UICONTROL FTE可用性百分比]欄位。</strong></td> 
-   <td> <p>指定將排程時間的百分比分配給每個工作角色。 [!UICONTROL 其他角色]的[!UICONTROL FTE可用性百分比]預設值為0%。</p> <p> <img src="assets/user-settings-roles-and-dte-boxes-rp-story--1--350x224.png" alt="user_settings_roles_and_dte_boxes_rp_story__1_.png" style="width: 350;height: 224;"> </p> <p>注意：  
+   <td role="rowheader"><strong>（視條件而定）如果您選取一或多個其他角色，則會針對每個角色顯示[！UICONTROL FTE可用性百分比]欄位。</strong></td> 
+   <td> <p>指定將排程時間的百分比分配給每個工作角色。 [！UICONTROL其他角色]的[！UICONTROL FTE可用性百分比]預設值為0%。</p> <p> <img src="assets/user-settings-roles-and-dte-boxes-rp-story--1--350x224.png" alt="user_settings_roles_and_dte_boxes_rp_story__1_.png" style="width: 350;height: 224;"> </p> <p>注意：  
      <ul> 
-      <li>如果[!UICONTROL 其他角色]具有0% FTE可用性，除非將使用者指派給這些角色中的任務，否則它們不會顯示在[!UICONTROL 資源規劃工具]中。</li> 
-      <li> <p>所有角色的所有<strong>[!UICONTROL 可用性]</strong>百分比的總和必須等於100%。 每個[!UICONTROL FTE可用性百分比]會計算[!UICONTROL 資源規劃工具]中每個使用者每個角色的[!UICONTROL 可用時數]。 </p> <p>每位使用者各角色的[!UICONTROL 可用時數]取決於使用者的可用時間。 [!DNL Workfront]會根據[!DNL Workfront]管理員選取用來計算[!UICONTROL 資源管理喜好設定]中FTE的方法，計算使用者的可用時間。 如需有關計算使用者可用性的詳細資訊，請參閱<a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">計算資源規劃工具中使用者和角色的時數和FTE的概觀</a>。 如需有關設定資源管理偏好設定的詳細資訊，請參閱<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">設定資源管理偏好設定</a>。</p> </li> 
+      <li>如果[！UICONTROL其他角色]具有0% FTE可用性，除非將使用者指派給這些角色中的任務，否則它們不會顯示在[！UICONTROL資源規劃工具]中。</li> 
+      <li> <p>所有角色的所有<strong>[！UICONTROL可用性]</strong>百分比的總和必須等於100%。 每個[！UICONTROL FTE可用性百分比]會計算[！UICONTROL資源規劃工具]中每個使用者每個角色的[！UICONTROL可用時數]。 </p> <p>每位使用者各角色的[！UICONTROL可用時數]取決於使用者的可用時間。 [!DNL Workfront]會根據[!DNL Workfront]管理員選取用來計算[！UICONTROL資源管理喜好設定]中FTE的方法，計算使用者的可用時間。 如需有關計算使用者可用性的詳細資訊，請參閱<a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">計算資源規劃工具中使用者和角色的時數和FTE的概觀</a>。 如需有關設定資源管理偏好設定的詳細資訊，請參閱<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">設定資源管理偏好設定</a>。</p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>排程</strong></td> 
-   <td> <p>只有[!DNL Workfront]個系統管理員或具有[!UICONTROL Standard]或[!UICONTROL Plan]授權的使用者，如果同時擁有時程表和時數的管理存取權，才能更新此欄位。 如需時程表和時數管理存取許可權的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予使用者對特定區域的管理存取許可權</a>中的「時程表和時數」一節。</p> <p>從下拉式選單中選取適合您的正確時程表。 這可確保根據[!DNL Workfront]管理員設定的規格自動產生您的時間表。 </p> </td> 
+   <td> <p>只有[!DNL Workfront]個系統管理員或具有[！UICONTROL Standard]或[！UICONTROL Plan]授權的使用者，如果同時擁有時程表和時數的管理存取權，才能更新此欄位。 如需時程表和時數管理存取許可權的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予使用者對特定區域的管理存取許可權</a>中的「時程表和時數」一節。</p> <p>從下拉式選單中選取適合您的正確時程表。 這可確保根據[!DNL Workfront]管理員設定的規格自動產生您的時間表。 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL 預設時數型別]</strong> </td> 
+   <td role="rowheader"><strong>[！UICONTROL預設時數型別]</strong> </td> 
    <td>選取您的預設時數型別。 這是您登入Workfront時系統預設使用的小時型別。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL 可用時數型別]</strong> </td> 
+   <td role="rowheader"><strong>[！UICONTROL可用時數型別]</strong> </td> 
    <td>選擇記錄時間時，您應該可以選擇的時數型別。 您的[!DNL Workfront]管理員可以使用這個下拉式選單中的小時型別。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL 資源集區]</strong> </td> 
+   <td role="rowheader"><strong>[！UICONTROL資源集區]</strong> </td> 
    <td>選取您所屬的資源集區。 此欄位僅供報表和參考之用。 這不會影響資源排程或計畫。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL FTE]</strong> </td> 
-   <td> <p>只有當系統層級的[!UICONTROL 資源管理偏好設定]設定為<strong>[!UICONTROL 預設排程]</strong>時，才會根據預設排程，計算您的可用性，並會考量您在此處指定的數字。</p> <p>例如，如果FTE值為0.5，而[!UICONTROL 預設排程]為40小時，則您每週可工作20小時。</p> <p>如果系統層級的[!UICONTROL 資源管理喜好設定]設定為<strong>[!UICONTROL 使用者排程]</strong>，您在此指定的值將被忽略，您可以根據排程中指定的內容工作。 在此情況下，您的[!UICONTROL 資源規劃工具]FTE計算公式如下： </p> <p><code style="font-style: normal;">[!UICONTROL User Available FTE] = [!UICONTROL Hours from the Schedule of the User/ Default Schedule Hours]</code> </p> <p>如需有關計算使用者FTE的詳細資訊，請參閱<a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">計算資源規劃工具中使用者和角色的時數和FTE的概觀</a>。</p> <p>如需有關在[!DNL Workfront]中建立排程的詳細資訊，請參閱<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">建立排程</a>。</p> <p>如需有關設定資源管理偏好設定的詳細資訊，請參閱<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">設定資源管理偏好設定</a>。</p> </td> 
+   <td role="rowheader"><strong>[！UICONTROL FTE]</strong> </td> 
+   <td> <p>只有當系統層級的[！UICONTROL資源管理偏好設定]設定為<strong>[！UICONTROL預設排程]</strong>時，才會根據預設排程，計算您的可用性，並會考量您在此處指定的數字。</p> <p>例如，如果FTE值為0.5，而[！UICONTROL預設排程]為40小時，則您每週可工作20小時。</p> <p>如果系統層級的[！UICONTROL資源管理喜好設定]設定為<strong>[！UICONTROL使用者排程]</strong>，您在此指定的值將被忽略，您可以根據排程中指定的內容工作。 在此情況下，您的[！UICONTROL資源規劃工具]FTE計算公式如下： </p> <p><code style="font-style: normal;">[!UICONTROL User Available FTE] = [!UICONTROL Hours from the Schedule of the User/ Default Schedule Hours]</code> </p> <p>如需有關計算使用者FTE的詳細資訊，請參閱<a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">計算資源規劃工具中使用者和角色的時數和FTE的概觀</a>。</p> <p>如需有關在[!DNL Workfront]中建立排程的詳細資訊，請參閱<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">建立排程</a>。</p> <p>如需有關設定資源管理偏好設定的詳細資訊，請參閱<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">設定資源管理偏好設定</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL 每小時成本]</strong> </td> 
+   <td role="rowheader"><strong>[！UICONTROL每小時成本]</strong> </td> 
    <td>指定使用者的每小時成本金額。 如需在[!DNL Workfront]中追蹤成本的詳細資訊，請參閱<a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">追蹤成本</a>。 除非您從存取層級存取財務資料，或您是[!DNL Workfront]管理員，否則無法更新此資訊。 如需財務存取許可權的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">授予財務資料的存取許可權</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL 每小時帳單]</strong> </td> 
+   <td role="rowheader"><strong>[！UICONTROL每小時帳單]</strong> </td> 
    <td>指定使用者的每小時帳單金額。 如需追蹤帳單與收入的詳細資訊，請參閱<a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">帳單與收入概觀</a>。 除非您從存取層級存取財務資料，或您是[!DNL Workfront]管理員，否則無法更新此資訊。 如需財務存取許可權的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">授予財務資料的存取許可權</a>。</td> 
   </tr> 
  </tbody> 
