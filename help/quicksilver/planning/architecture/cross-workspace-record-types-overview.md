@@ -3,9 +3,9 @@ title: 跨工作區記錄型別概觀
 description: 集中式記錄型別可以從Adobe Workfront Planning的中央或主要工作區新增到多個工作區。
 hidefromtoc: true
 hide: true
-source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
+source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
 workflow-type: tm+mt
-source-wordcount: '1320'
+source-wordcount: '1356'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,13 @@ recommendations: noDisplay, noCatalog
 以下是記錄型別的跨工作區功能：
 
 * 您可以將記錄型別指定為集中式。 使用者可以將集中式記錄型別新增到他們可以管理的其他工作區。
+
+  >[!IMPORTANT]
+  >
+  >除了Workfront套件之外，您必須擁有Workfront Planning Plus套件，才能使用集中式記錄型別。
+  >
+  >如需每個Workfront Planning套件所含專案的詳細資訊，請連絡您的Workfront客戶經理。
+
 * 您可以將記錄型別指定為可連線。 使用者可以從其他工作區連線到此記錄型別。
 
 本文提供跨工作區記錄型別的概觀。 如需有關定義記錄型別的跨工作區功能的資訊，請參閱[設定記錄型別的跨工作區功能](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)。

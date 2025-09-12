@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
 workflow-type: tm+mt
-source-wordcount: '1528'
+source-wordcount: '1553'
 ht-degree: 1%
 
 ---
@@ -29,8 +29,11 @@ ht-degree: 1%
 
 在Workfront Planning中連線有兩個步驟：
 
-1. 首先，您必須建立兩個記錄型別之間的連線，或記錄型別與來自另一個應用程式的物件型別。 如需如何連線記錄型別的詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
-1. 其次，您可以在連線兩種記錄型別之後，將一種型別的個別記錄與另一種型別的記錄連線。 如需有關連線記錄的資訊，請參閱[連線記錄](/help/quicksilver/planning/records/connect-records.md)。
+1. 在兩個記錄型別或記錄型別與來自另一個應用程式的物件型別之間建立連線。
+
+   如需如何連線記錄型別的詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
+
+1. 在連線兩種記錄型別之後，將一種型別的個別記錄與另一種型別的記錄連線。 如需有關連線記錄的資訊，請參閱[連線記錄](/help/quicksilver/planning/records/connect-records.md)。
 
 關於連線記錄型別，請考量下列事項：
 
@@ -62,13 +65,24 @@ ht-degree: 1%
      >
      >如果您對加入Adobe Admin Console有任何疑問，請參閱[Adobe統一體驗常見問題集](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)。
 
-* 為連線的記錄型別建立記錄後，您可以透過連線的記錄欄位將它們相互連結。  如需詳細資訊，請參閱[連線記錄](/help/quicksilver/planning/records/connect-records.md)。
+* 建立記錄型別的記錄後，您可以透過連線的記錄欄位將它們相互連結。
+
+  如需詳細資訊，請參閱[連線記錄](/help/quicksilver/planning/records/connect-records.md)。
 
 * 將記錄型別與另一個記錄型別或另一個應用程式的物件型別連線後，就會出現下列情況：
 
-   * **當您連線兩個Planning記錄型別時**：連結的記錄欄位會在您連線的記錄型別上建立。 類似的連結記錄欄位會在您連線的記錄型別上建立。
+   * **當您連線兩個Planning記錄型別時**：連結的記錄欄位會在您連線的記錄型別上建立。 在您連線至<!--<span class="preview">, only when you enable the Create corresponding field on linked record type setting on the New connection tab.</span>-->的記錄型別上建立了類似的連結記錄欄位。
 
      例如，如果您將「Campaign」記錄型別與「Product」記錄型別連結，您命名為「Linked Product」的連結記錄欄位（連線欄位）會在Campaign記錄型別上建立。 系統會在產品記錄型別上建立自動命名為「Campaign」的連結記錄型別。
+
+     <!--<div class="preview">
+        
+        For example, the following scenarios exist: 
+        * When you enable the Create corresponding field on linked record type setting and you connect the "Campaign" record type with the "Product" record type, a linked record field (connection field) that you name "Linked Product" is created on the Campaign record type. A linked record type automatically named "Campaign" is created on the Product record type.
+        * When you disable the Create corresponding field on linked record type setting and you connect the "Campaign" record type with the "Product" record type, a linked record field (connection field) that you name "Linked Product" is created on the Campaign record type. A linked record type automatically named "Campaign" is not created on the Product record type.
+        </div>-->
+
+     如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
 
    * **當您從另一個應用程式連線具有物件型別的記錄型別時**：
 
@@ -76,7 +90,7 @@ ht-degree: 1%
       * 無法從Workfront物件存取規劃記錄欄位。
       * Planning記錄會顯示於Workfront物件的Planning標籤中。 如需詳細資訊，請參閱[管理來自Workfront物件的記錄連線](/help/quicksilver/planning/records/manage-records-in-planning-section.md)。
       * 您可以建立Planning連線自訂欄位，並將其附加至Workfront物件的自訂表單。 如需詳細資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
-      * 當您的Experience Manager管理員透過Workfront與Adobe Experience Manager Assets之間的整合設定中繼資料對應時，可從Workfront資產存取規劃記錄欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
+      * 當您的Experience Manager管理員透過Workfront與Adobe Experience Manager Assets之間的整合設定中繼資料對應時，可從Workfront資產存取規劃記錄欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
 
 
    * **當您從您連線的記錄或物件加入查閱欄位時**：除了建立連結的記錄欄位之外，您還可以從連線的記錄或物件型別連線到稱為查閱欄位的欄位。 連結（或查詢欄位）的資訊，來自於您所連線的記錄，顯示在您所連線的記錄上。
@@ -108,13 +122,6 @@ ht-degree: 1%
 
 在兩個記錄型別之間或記錄與來自另一個應用程式的物件型別之間建立連線後，您可以在連線的記錄欄位中新增記錄。
 
-根據您可將多少筆記錄新增至已連線的記錄欄位，在連線記錄型別時，您可以選擇下列連線型別：
-
-* [多對多](#many-to-many-connection-type)
-* [一對多](#one-to-many-connection-type)
-* [多對一](#many-to-one-connection-type)
-* [一對一](#many-to-one-connection-type)
-
 >[!WARNING]
 >
 >連線下列專案時，無法使用這些選項：
@@ -122,6 +129,69 @@ ht-degree: 1%
 >* 來自不同工作區的兩個記錄
 >
 >* 記錄型別和Experience Manager資產
+
+您可以選擇是要一次將一個記錄連線到多個記錄，還是要一次將一個記錄連線到另一個記錄。
+
+根據您可將多少筆記錄新增至已連線的記錄欄位<!--and the environment you use to create the connected fields-->，下列是您在連線記錄型別時可選擇的連線型別：
+
+<!--replace the list of 4 connection types at the bottom of this commented-out section with this entire section, whenw e release to preview: 
+
+<div class="preview">
+
+* In the Preview environment: 
+
+    * When the Create corresponding field on linked record type setting is disabled, you can choose from: 
+
+        * [Multi-select](#multi-select-connection-type)
+        * [Single-select](#single-select-connection-type)
+
+</div>
+
+* <span class="preview">In the Preview environment, when the Create corresponding field on linked record type setting is enabled,</span> or in the Production environment, you can choose from:
+
+    * [Many to many](#many-to-many-connection-type)
+    * [One to many](#one-to-many-connection-type)
+    * [Many to one](#many-to-one-connection-type)
+    * [One to one](#many-to-one-connection-type) 
+
+<div class="preview">
+
+### Multi-select connection type
+
+![Multi-select connection type](assets/multi-select-connection-picker.png)
+
+When you create a multi-select connection between record types, you can then select multiple connected records in the connection field from the original record type. 
+
+For example, if you create a multi-select connection between campaigns and projects, you can select multiple projects for one campaign. A Campaign connected record type is not created for the Project object type.
+
+After you select this connection type, you cannot change the connection type after you save it to any of the following types:
+
+    * Single-select
+    * One to many
+    * Many to one
+    * One to one
+
+### Single-select connection type
+
+![Single select connection type](assets/single-select-connection-picker.png)
+
+When you create a single-select connection between record types, you can then select one record in the connection field from the original record type. 
+
+For example, if you create a single-select connection between campaigns and companies, you can select one company for one campaign. A Campaign connected record type is not created for the Company object type.
+
+After you select this connection type, you cannot change the connection type after you save it to any of the following:
+
+    * One to many
+    * One to one
+
+</div>
+
+-->
+
+* [多對多](#many-to-many-connection-type)
+* [一對多](#one-to-many-connection-type)
+* [多對一](#many-to-one-connection-type)
+* [一對一](#many-to-one-connection-type)
 
 ### 多對多連線型別
 

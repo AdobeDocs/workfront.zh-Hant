@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
 workflow-type: tm+mt
-source-wordcount: '2499'
+source-wordcount: '2512'
 ht-degree: 1%
 
 ---
@@ -44,7 +44,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
 ## 存取需求
 
-+++ 展開以檢視存取需求。
++++ 展開以檢視存取需求。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -69,7 +69,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    <td role="rowheader"><p>Adobe Workfront計畫*</p></td> 
    <td> 
 <p>下列任一Workfront計畫：</p> 
-<ul><li>選取</li> 
+<ul><li>選擇</li> 
 <li>Prime</li> 
 <li>Ultimate</li></ul> 
 <p>舊版Workfront計畫不提供Workfront計畫</p> 
@@ -144,7 +144,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
      >[!TIP]
      >
-     >必須針對&#x200B;**編輯記錄型別**&#x200B;方塊的&#x200B;**進階設定**&#x200B;索引標籤中的記錄型別，啟用&#x200B;**允許連線至其他工作區中的此記錄型別**&#x200B;設定，才能從其他工作區存取記錄型別。 如果沒有記錄型別被設定為從其他工作區連線，則工作區區段不會顯示。
+     >必須針對&#x200B;**編輯記錄型別**&#x200B;方塊的&#x200B;**進階設定**&#x200B;索引標籤中的記錄型別，啟用&#x200B;**允許連線至其他工作區中的此記錄型別**設定，才能從其他工作區存取記錄型別。 如果沒有記錄型別被設定為從其他工作區連線，則工作區區段不會顯示。
      > ![編輯記錄型別方塊進階設定索引標籤](assets/edit-record-type-box-advanced-settings-tab.png)
 
      如需詳細資訊，請參閱[編輯記錄型別](/help/quicksilver/planning/architecture/edit-record-types.md)。
@@ -159,61 +159,78 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
      ![AEM Assets連線選擇](assets/aem-assets-connection-selection.png)
 
-1. 更新下列資訊：
+     針對您選取的記錄或物件型別，會開啟「新連線」標籤。
 
-   * **名稱**：已連線欄位的名稱，它會顯示在原始記錄型別的資料表檢視或記錄頁面中。 這會在原始記錄型別的表格檢視或原始記錄的連結記錄欄位中建立連結記錄欄。 依預設，欄位名稱是您連線的記錄或物件的名稱。
+1. 以新的連線欄位名稱更新&#x200B;**Name**&#x200B;欄位，因為它會出現在原始記錄型別的資料表檢視或記錄頁面中。 這會在原始記錄型別的表格檢視中建立連線的記錄欄（或欄位）。 依預設，欄位名稱是您連線的記錄或物件的名稱。
 
    >[!TIP]
    >
    >您可以有多個連線連線到相同的記錄或物件型別。 如果您不編輯已連線的欄位名稱，Workfront會在已連線記錄的名稱后新增一個數字，以表示相同名稱的已連線記錄型別數目。
 
-   * **描述**：有關連線記錄欄位的額外資訊。 當您將滑鼠游標停留在表格中的欄位欄位上時，會顯示欄位說明。
-   * **允許多筆記錄**：選取此選項以表示當連結的記錄型別欄位顯示在原始記錄上時，允許使用者新增多筆記錄。 依預設會選取此選項。
+1. 新增連線記錄欄位的相關資訊，以更新&#x200B;**描述**&#x200B;欄位。 當您將滑鼠游標停留在表格中的欄位欄位上時，會顯示欄位說明。
+1. （視條件而定）當您從兩個不同的工作區或記錄和Adobe Experience Manager資產物件連線記錄型別時，請選取&#x200B;**允許多筆記錄**。 透過選取它，您表示當連線的記錄型別欄位顯示在原始記錄上時，您可以允許使用者新增多個記錄。 依預設會選取此選項。
 
-     只有在連線來自兩個不同工作區的記錄或記錄和Adobe Experience Manager資產物件時，才能使用此選項。
+   ![新連線以允許多個記錄方塊](assets/new-connection-allow-multiple-records-box.png)
 
-     ![新連線以允許多個記錄方塊](assets/new-connection-allow-multiple-records-box.png)
+1. （視條件而定）當您從相同工作區連線記錄型別，或具有Workfront物件型別的Planning記錄型別時，請選取下列&#x200B;**連線型別**&#x200B;選項之一，以指出使用者可連線多少筆記錄，以及可從多少筆記錄連線：
 
-   * **連線型別**：選取下列其中一個選項，以指出它們可以連線到多少筆記錄，以及可從多少筆記錄連線：
+   * 多對多
+   * 一對多
+   * 多對一
+   * 一對一
 
-      * 多對多
-      * 一對多
-      * 多對一
-      * 一對一
+   ![許多對許多的連線選擇器](assets/many-to-many-connection-picker.png)
 
-     此選項僅在連線來自相同工作區的記錄或記錄和Workfront物件型別時可用。
+   如需連線型別的詳細資訊，請參閱[連線記錄型別概觀](/help/quicksilver/planning/architecture/connect-record-types-overview.md)。
 
-     ![許多對許多的連線選擇器](assets/many-to-many-connection-picker.png)
-
-     如需連線型別的詳細資訊，請參閱[連線記錄型別概觀](/help/quicksilver/planning/architecture/connect-record-types-overview.md)。
-
-     >[!NOTE]
-     >
-     > 如果您為「連線」型別選取「一對多」或「一對一」，而您稍後想要連線記錄或已在其他地方連線的物件，您將會收到警告，指出再次連線會將它從原始連線中移除。 您可以允許移除或選取其他記錄。
-
-   * **選取查詢欄位**：選取此選項以從選取的記錄型別新增欄位。 查閱欄位是與您要連結的記錄或物件型別相關聯的欄位。 連結它們會顯示您連結的記錄或物件在您連結的記錄上的資訊。 依預設會選取此選項。
-
-   >[!TIP]
+   >[!NOTE]
    >
-   >* 您無法將Workfront預先輸入欄位（包括專案所有者或專案贊助者之類的欄位）新增為查詢欄位。
-   >
-   >* Workfront物件的日期欄位資訊在Workfront Planning中會以24小時格式顯示，無論其在Workfront中的顯示方式為何。
-   >
-   >   例如，如果專案的計劃開始日期在Workfront中顯示為3:00下午，則在匯入的查詢欄位中，它將在Workfront Planning中顯示為15:00。
+   > 如果您為「連線」型別選取「一對多」或「一對一」，而您稍後想要連線記錄或已在其他地方連線的物件，您將會收到警告，指出再次連線會將它從原始連線中移除。 您可以允許移除或選取其他記錄。
 
-1. （有條件且選擇性）如果您選取連線Workfront物件，請從&#x200B;**僅連結符合這些條件的物件**&#x200B;區段中選取&#x200B;**自訂表單**。 只有已附加所選自訂表單的物件才能連結至所選記錄型別。 您可以選取多個表單。
+
+   <!-- 
+        at the release to preview, replace the step above with this step; be careful with the numbering and ensure it keeps the correct step number in the preview window in MKD; there are spaces to be added between paragraphs too, when you make this live: 
+    1. (Conditional) When you connect record types from the same workspace, or a Planning record type with a Workfront object type, do one of the following, depending on which environment you are using: 
+        * In the Production environment, select one of the following **Connection type** options to indicate how many records users can connect to and from:
+            * Many to many
+            * One to many
+            * Many to one
+            * One to one      
+            ![Many to many connection picker](assets/many-to-many-connection-picker.png)
+        <div class="preview">
+        * In the Preview environment, do the following: 
+            1. Select one of the following:
+                * **Multi-select**: Select this to allow one record from the current record type to connect with multiple records from the connection record type.
+                * **Single-select**: Select this to allow one record from the current record type to connect with one record from the connection record type.
+            2. Enable the **Create corresponding field on linked record type**. When enabled, a connection field is created on the record type you are connected to, in addition to the connection field added to the current record type. This is disabled by default.
+                    >[!TIP]
+                    >
+                    >There is a limit of 500 connections for one record type. We recommend to keep this setting off, especially for taxonomical record types, to avoid reaching this limit. 
+            3. (Conditional) If you enabled **Create corresponding field on linked record type**, choose from the following options to indicate how many records users can connect to and from:
+                * Many to many
+                * One to many
+                * Many to one
+                * One to one  
+            </div>       
+             For more information about connection types, see [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+                >[!NOTE]
+                >
+                >If you select One to many or One to one for the Connection type and you later want to connect a record or an object that is already connected elsewhere, you will receive a warning that connecting it again will remove it from the original connection. You can allow the removal or select another record.-->
+
+1. （有條件且選擇性）當您選取連線Workfront物件時，請從&#x200B;**僅連結符合這些條件的物件**&#x200B;區段中選擇&#x200B;**自訂表單**。 只有已附加所選自訂表單的物件才能連結至所選記錄型別。 您可以選取多個表單。
 
    >[!NOTE]
    >
    > 您必須先在Workfront中為選取的物件建立自訂表單，這些表單才會顯示在此清單中。
 
-1. （視條件而定）如果您選取連線至Experience Manager Assets，請從&#x200B;**從下列存放庫連結資產**&#x200B;區段的&#x200B;**Experience Manager存放庫**&#x200B;下拉式功能表中選取存放庫。 這是必填欄位。 此欄位只會顯示您在Experience Manager Assets中有權存取的存放庫。
+1. （視條件而定）當您選取連線至Experience Manager Assets時，請從&#x200B;**從下列存放庫連結資產**&#x200B;區段的&#x200B;**Experience Manager存放庫**&#x200B;下拉式功能表中選擇存放庫。 這是必填欄位。 此欄位只會顯示您在Experience Manager Assets中有權存取的存放庫。
 
    >[!NOTE]
    >
-   >您的Workfront管理員可以透過Workfront中的中繼資料對應，將Workfront Planning欄位對應至Experience Manager Assets欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
+   >您的Workfront管理員可以透過Workfront中的中繼資料對應，將Workfront Planning欄位對應至Experience Manager Assets欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
 
-1. （視條件而定）如果您選取連線至Experience Manager Assets或Workfront Planning記錄型別，請在&#x200B;**記錄外觀**&#x200B;區域中選取下列其中一個選項：
+
+1. （視條件而定）當您選取連線至Experience Manager Assets或Workfront Planning記錄型別時，請在&#x200B;**記錄外觀**&#x200B;區域中選擇下列其中一個選項：
 
    * **名稱和影像**：連線記錄的名稱和縮圖或圖示都會顯示在連線記錄欄位中。 這是預設選項。
    * **名稱**：連線的記錄欄位中只會顯示連線記錄的名稱。
@@ -230,6 +247,16 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    >* 選取Workfront物件型別時，無法選取記錄外觀。
    >
    >* 您在「記錄」外觀區域中選取的內容會決定記錄在系統所有位置的連線中的顯示方式，包括所有檢視和詳細資訊頁面。
+
+1. 選取&#x200B;**選取查閱欄位**&#x200B;以從您連線的記錄型別新增欄位。 查閱欄位是與您要連結的記錄或物件型別相關聯的欄位。 連結它們會顯示您連結的記錄或物件在您連結的記錄上的資訊。 依預設會選取此選項。
+
+   >[!TIP]
+   >
+   >* 您無法將Workfront預先輸入欄位（包括專案所有者或專案贊助者之類的欄位）新增為查詢欄位。
+   >
+   >* Workfront物件的日期欄位資訊在Workfront Planning中會以24小時格式顯示，無論其在Workfront中的顯示方式為何。
+   >
+   >   例如，如果專案的計劃開始日期在Workfront中顯示為3:00下午，則在匯入的查詢欄位中，它將在Workfront Planning中顯示為15:00。
 
 1. 按一下「**建立**」。
 
@@ -318,13 +345,15 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
      例如，如果您連結的行銷活動記錄型別具有方案記錄型別，並將方案連結記錄欄位命名為「方案資訊」，然後選取此選項以在行銷活動表格檢視中同時顯示方案的預算欄位，則連結的欄位在行銷活動表格檢視中會自動命名為`Budget (from Program information)`。
 
-   * 當您將記錄型別連結到彼此時，連結的記錄欄位也會新增到您連結到的記錄型別上。 連結的記錄型別上連結的記錄欄位名稱是您連結的記錄型別名稱。
+   * 當您將記錄型別連結到彼此時，連結的記錄欄位也會新增到您連結到的記錄型別上，<!--<span class="preview">only when you enable the Create corresponding field on linked record type setting.</span>-->連結的記錄型別上連結的記錄欄位名稱是您連結的記錄型別名稱。
 
      例如，如果您從「促銷活動」記錄型別連結「產品」記錄型別，並命名促銷活動「連結的產品」的已連線欄位，則會為「產品」記錄型別建立「促銷活動」連結記錄欄位。
 
      >[!TIP]
      >
-     > 系統不會為其他應用程式的物件建立連結記錄欄位，以連結至您在Workfront Planning中連結的記錄型別。
+     > 系統不會為其他應用程式的物件建立連結記錄欄位，以連結至您在Workfront Planning中連結的記錄型別。<!--<span class="preview">We recommend not creating links on taxonomical record types, as there is a 500 connection field limit for every record type.</span>-->
+
+   <!--see the span preview text in the TIP above; it might not show up in green-->
 
 1. （選擇性和條件性）在原始記錄型別或連結記錄型別表格檢視中，按一下連結記錄欄位標題中的向下箭頭，然後按一下下列其中一項：
 
