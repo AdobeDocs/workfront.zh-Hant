@@ -4,7 +4,7 @@ description: 您可以使用範本檔案在Excel中建置您的比率卡，並�
 author: Lisa
 hide: true
 hidefromtoc: true
-source-git-commit: b989a542602d6b7fd95b34f8b53d3f317e3f7644
+source-git-commit: 1deb72953599c24fa40eb7a5d77214f6576fec1e
 workflow-type: tm+mt
 source-wordcount: '1153'
 ht-degree: 0%
@@ -39,13 +39,13 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td><p>[!UICONTROL 標準]</p>
-   <p>[!UICONTROL 計畫]</p>
+   <td><p>[！UICONTROL標準]</p>
+   <p>[！UICONTROL計畫]</p>
    </td> 
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
-   <td>編輯[!UICONTROL 費率卡]的存取權</td> 
+   <td>編輯[！UICONTROL費率卡]的存取權</td> 
   </tr> 
  </tbody> 
 </table>
@@ -98,7 +98,7 @@ ht-degree: 0%
    >[!NOTE]
    >
    >* 您至少必須輸入每張費率卡的「名稱」。
-   >* 每個費率卡都會根據其列位置自動指定序號。 例如，您定義的第一個費率卡（在列2中）是序列1，下一個是2，依此類推。 這些序號在RATE_RTCRD頁標中用於附加費率。
+   >* 系統會根據各費率卡的列位置，自動為每個費率卡指定序號。 例如，您定義的第一個費率卡（在列2中）是序列1，下一個是2，依此類推。 這些序號在RATE_RTCRD頁標中用於附加費率。
 
 ### 填寫RATE_RTCRD （匯率設定）頁標
 
