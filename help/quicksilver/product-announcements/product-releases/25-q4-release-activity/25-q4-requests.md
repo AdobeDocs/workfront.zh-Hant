@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: a6aa03157d44da8267faaa77bed83f07a03a24b3
+source-git-commit: 3c21d2ac594d4dfe309ed4227e46a9cb535f0501
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,11 @@ ht-degree: 0%
 >* 生產快速發行： 2025年9月11日
 >* 所有客戶的生產： 2025年10月16日
 
-為了在Workfront和Workfront Planning中提出請求時建立更好的使用者體驗，我們已更新請求體驗。 現在您可以：
+為了在Workfront和Workfront Planning中提出請求時建立更好的使用者體驗，我們已更新請求體驗。
+
+若要使用新的請求體驗，請在請求區域，啟用畫面右上角的使用新體驗切換按鈕。
+
+在新體驗中，您可以：
 
 * 在單一清單中檢視Workfront和Workfront Planning請求。
 * 根據您指定的條件篩選已提交的請求。

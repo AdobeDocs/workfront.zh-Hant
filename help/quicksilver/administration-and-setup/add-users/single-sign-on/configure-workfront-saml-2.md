@@ -2,20 +2,20 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: single-sign-on-in-workfront
-title: 使用SAML 2.0設定Adobe Workfront
+title: 使用 SAML 2.0 設定 Adobe Workfront
 description: 身為Adobe Workfront管理員，您可以設定Workfront網頁和行動應用程式，以整合單一登入(SSO)的安全宣告標籤語言(SAML) 2.0解決方案。
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: cf09859c-7d6f-4bf0-9b7f-c57096233c94
-source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
+source-git-commit: 93f4c1691210d88531fcc269bd40ee7ed8633309
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1061'
 ht-degree: 7%
 
 ---
 
-# 使用SAML 2.0設定Adobe Workfront
+# 使用 SAML 2.0 設定 Adobe Workfront
 
 <!--
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.** </p>
@@ -23,11 +23,17 @@ ht-degree: 7%
 
 <!-- Audited: 12/2023 -->
 
-{{important-admin-console-onboard}}
+
+
+>[!IMPORTANT]
+>
+>本頁所述的程式僅適用於尚未加入Adobe Admin Console的組織。
+>
+>若要對應已上線至Adobe Admin Console的組織中的使用者屬性，請參閱對應使用者屬性文章中的[在Adobe中對應統一體驗的使用者屬性](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience)。
 
 身為Adobe Workfront管理員，您可以設定Workfront網頁和行動應用程式，以整合單一登入(SSO)的安全宣告標籤語言(SAML) 2.0解決方案。
 
-在Workfront中設定SAML 2.0後，如下列各節所述，您可以維持設定，如身分提供者[&#128279;](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)中的更新SAML 2.0中繼資料所述。
+在Workfront中設定SAML 2.0後，如下列各節所述，您可以維持設定，如身分提供者[中的](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)更新SAML 2.0中繼資料所述。
 
 ## 存取需求
 
@@ -92,7 +98,7 @@ ht-degree: 7%
        </ul> </td>
      </tr>
      <tr>
-      <td role="rowheader">從身份提供者中繼資料填入欄位 </td> 
+      <td role="rowheader">從身分識別提供者中繼資料填入欄位 </td> 
       <td>在您的SAML 2.0 Identity Provider解決方案中，匯出Service Provider中繼資料XML檔案，並將其儲存到您電腦上的暫存位置。 選取「<strong>選擇檔案</strong>」，然後尋找並選取您儲存的檔案，以將其新增至您的Workfront設定。</td> 
      </tr> 
      <tr> 
@@ -140,7 +146,7 @@ ht-degree: 7%
       <li> <p>公司</p> </li> 
       <li> <p>每小時成本</p> </li> 
       <li> <p>電子郵件地址</p> </li> 
-      <li> <p>分機</p> </li> 
+      <li> <p>擴充功能</p> </li> 
       <li> <p>名字</p> </li> 
       <li> <p>主群組</p> </li> 
       <li> <p>主團隊</p> </li> 
@@ -152,7 +158,7 @@ ht-degree: 7%
       <li> <p>電話號碼</p> </li> 
       <li> <p>郵遞區號</p> </li> 
       <li> <p>排程</p> </li> 
-      <li> <p>州/省</p> </li> 
+      <li> <p>狀態</p> </li> 
       <li> <p>時程表設定檔</p> </li> 
       <li> <p>標題</p> </li> 
       </ul>

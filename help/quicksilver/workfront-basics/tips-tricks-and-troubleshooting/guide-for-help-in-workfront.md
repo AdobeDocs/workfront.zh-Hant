@@ -5,10 +5,10 @@ title: 在 [!DNL Adobe Workfront]中尋找說明的快速指南
 description: 在 [!DNL Adobe Workfront]中尋找說明的快速指南
 feature: Get Started with Workfront
 exl-id: 3cdbf342-4809-44e3-ad9b-b5841950a1e4
-source-git-commit: 8789f7ad50f9180edc7549a8a6802d5df6c5b006
+source-git-commit: 3c21d2ac594d4dfe309ed4227e46a9cb535f0501
 workflow-type: tm+mt
-source-wordcount: '812'
-ht-degree: 0%
+source-wordcount: '826'
+ht-degree: 1%
 
 ---
 
@@ -39,13 +39,13 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td><strong>在[!DNL Adobe Experience League]</strong>簽出[!DNL Workfront] </td> 
-   <td> <p>您可以使用<a href="https://experienceleague.adobe.com/zh-hant/docs/workfront">https://experienceleague.adobe.com/zh-hant/docs/workfront</a>頂端的搜尋列，協助您尋找特定文章、討論或訓練。 將其視為您所有專案[!DNL Workfront]的搜尋引擎。</p> <p>您也可以在這裡找到資源，例如</p> 
+   <td><strong>在[!DNL Workfront]簽出[!DNL Adobe Experience League]</strong> </td> 
+   <td> <p>您可以使用<a href="https://experienceleague.adobe.com/en/docs/workfront">https://experienceleague.adobe.com/en/docs/workfront</a>頂端的搜尋列，協助您尋找特定文章、討論或訓練。 將其視為您所有專案[!DNL Workfront]的搜尋引擎。</p> <p>您也可以在這裡找到資源，例如</p> 
     <ul> 
-     <li> <p><a href="https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home">檔案</a> </p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home">文件</a> </p> </li> 
      <li> <p><a href="https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/home">教學課程</a> </p> </li> 
      <li> <p><a href="https://experienceleague.adobe.com/zh-hant/docs/workfront/using/product-announcements/product-releases/product-releases">發行版本</a> </p></li> 
-     <li> <p><a href="https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-api/api-general-information/api-basics">API檔案</a> </p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/api-general-information/api-basics">API檔案</a> </p> </li> 
      <li> <p>及更多內容！</p> </li> 
     </ul> </td> 
   </tr> 
@@ -58,8 +58,8 @@ ht-degree: 0%
     </ul> <p>如需詳細資訊，請參閱<a href="../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md" class="MCXref xref" xrefformat="{para}">聯絡客戶支援</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>[!UICONTROL 與同儕節點連線]</strong> </td> 
-   <td>[!UICONTROL [!DNL Workfront]社群]提供精通現代工作的專業人員網路，這些專業人員會主動分享他們的見解和專業知識。 如需詳細資訊，請參閱<a href="../../workfront-basics/tips-tricks-and-troubleshooting/workfront-community.md" class="MCXref xref" xrefformat="{para}"> [!DNL Adobe Workfront]社群</a>。</td> 
+   <td><strong>[！UICONTROL與同儕節點連線]</strong> </td> 
+   <td>[！UICONTROL [!DNL Workfront]社群]提供精通現代工作的專業人員網路，這些專業人員會主動分享他們的見解和專業知識。 如需詳細資訊，請參閱<a href="../../workfront-basics/tips-tricks-and-troubleshooting/workfront-community.md" class="MCXref xref" xrefformat="{para}"> [!DNL Adobe Workfront]社群</a>。</td> 
   </tr> 
   <tr> 
    <td><strong>檢視任何</strong>[!DNL Workfront]<strong>產品的新增功能</strong></td> 
@@ -67,7 +67,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td><strong>透過[!DNL Workfront]訓練隨選學習並深入探討</strong> </td> 
-   <td><a href="https://experienceleague.adobe.com/zh-hant">Experience League</a>提供角色式學習路徑，讓規劃人員、工作者、共同作業人員和系統管理員能在[!DNL Workfront]中啟動並執行重要功能。<br>探索您感興趣主題的學習路徑、影片教學課程和可下載的指南，以擴展您的[!DNL Workfront]知識</a>。<br></td> 
+   <td><a href="https://experienceleague.adobe.com">Experience League</a>提供角色式學習路徑，讓規劃人員、工作者、共同作業人員和系統管理員能在[!DNL Workfront]中啟動並執行重要功能。<br>探索您感興趣主題的學習路徑、影片教學課程和可下載的指南，以擴展您的[!DNL Workfront]知識</a>。<br></td> 
   </tr> 
  </tbody> 
 </table>
@@ -108,14 +108,14 @@ ht-degree: 0%
    <td> <p>這些資源可讓您持續瞭解Workfront即將發佈哪些更新：</p> 
     <ul> 
      <li> <p><a href="https://experienceleague.adobe.com/zh-hant/docs/workfront/using/product-announcements/product-releases/product-releases">產品公告</a>：正在尋找Workfront產品藍圖的更新嗎？ 產品公告頁面提供了版本更新和藍圖簡報。</p> </li> 
-     <li> <p><strong>宣告中心</strong>：檢閱您的通知，並接收我們[!DNL Workfront]產品團隊關於所有客戶資訊的重要更新。 在頂端導覽中造訪[!DNL Workfront]中的<a href="https://experience.workfront.com/s/article/View-and-manage-in-app-notifications-323912892">[!UICONTROL 「通知」]</a>區段。</p> </li> 
+     <li> <p><strong>宣告中心</strong>：檢閱您的通知，並接收我們[!DNL Workfront]產品團隊關於所有客戶資訊的重要更新。 在頂端導覽中造訪<a href="https://experience.workfront.com/s/article/View-and-manage-in-app-notifications-323912892">中的</a>[！UICONTROL「通知」][!DNL Workfront]區段。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td><strong>步驟2：準備更新</strong> </td> 
    <td> 
     <ul> 
-     <li> <p>在您的[!DNL Workfront] <a href="https://experience.workfront.com/s/article/The-Workfront-Preview-Sandbox-Environment-519456234">沙箱</a>中測試最新的更新。</p> </li> 
+     <li> <p>在您的[!DNL Workfront]預覽Sandbox環境中測試最新更新。 如需有關預覽沙箱環境的資訊，請參閱<a href="https://experience.workfront.com/s/article/The-Workfront-Preview-Sandbox-Environment-519456234">預覽[!DNL Adobe Workfront]沙箱環境</a>。</p> </li> 
      <li> <p>決定這些更新如何影響您的人員工作方式。 我們的<a href="https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home">知識庫</a>和<a href="https://experienceleague.adobe.com/zh-hant/events">事件</a>可提供協助！ 我們的產品經理經常會提及功能所解決的直接使用者或業務問題，協助您快速取得變更影響。</p> </li> 
     </ul> </td> 
   </tr> 
@@ -143,7 +143,7 @@ ht-degree: 0%
 | [[!DNL Adobe Workfront] 整合](../../administration-and-setup/configure-integrations/workfront-integrations-1.md) | 您可以將[!DNL Workfront]與協力廠商應用程式整合。 整合可以擴充[!DNL Workfront]的公用程式，並根據您組織的需求量身打造。 這篇知識庫文章涵蓋您的整合選項，並引導您進入下一個方向。 |
 |---|---|
 | [[!DNL Workfront] 內建整合](https://business.adobe.com/products/workfront/integrations.html) | Workfront免費的內建整合功能可讓您和您的團隊順利轉換至Workfront平台，同時維持相同的工作流程與程式。 |
-| [[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/home) | 將[!DNL Workfront]連線至100個以上的應用程式，讓您無需程式碼即可輕鬆自動化您的關鍵業務程式。 |
+| [[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home) | 將[!DNL Workfront]連線至100個以上的應用程式，讓您無需程式碼即可輕鬆自動化您的關鍵業務程式。 |
 
 {style="table-layout:auto"}
 
@@ -153,7 +153,7 @@ ht-degree: 0%
 
 若要深入瞭解[!DNL Workfront]狀態網站，請參閱[狀態網站 [!DNL Adobe Workfront] ](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md)。
 
-若要瞭解每週維護更新中修正的內容，請參閱[維護更新](https://experienceleague.adobe.com/zh-hant/docs/workfront-known-issues/releases/current-updates)。
+若要瞭解每週維護更新中修正的內容，請參閱[維護更新](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)。
 
 <!-- the links in this section don't work anymore and I am not sure who would have the content?! Made a note to update this but will have to do some searching - October 26, 2023: 
 

@@ -8,16 +8,20 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 75cd0ab5-8d76-40a4-96a8-00e9f0f4fec6
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: 93f4c1691210d88531fcc269bd40ee7ed8633309
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '1050'
 ht-degree: 0%
 
 ---
 
 # 更新身分提供者中的SAML 2.0中繼資料
 
-{{important-admin-console-onboard}}
+>[!IMPORTANT]
+>
+>本頁所述的程式僅適用於尚未加入Adobe Admin Console的組織。
+>
+>若要對應已上線至Adobe Admin Console的組織中的使用者屬性，請參閱對應使用者屬性文章中的[在Adobe中對應統一體驗的使用者屬性](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience)。
 
 以下各節說明在使用Active Directory Federation Services (ADFS)做為身分提供者時，如何更新您的安全性宣告標籤語言(SAML) 2.0中繼資料。
 
@@ -87,7 +91,7 @@ ht-degree: 0%
    1. 按一下&#x200B;**確定。**
    1. 選取您先前設定要與Workfront搭配使用的信賴方信任；然後在右側面板中，按一下&#x200B;**從同盟中繼資料更新。**
 
-1. 按一下[確定]&#x200B;**&#x200B;**&#x200B;忽略有關ADFS 2.0不支援同盟中繼資料中某些內容的訊息。
+1. 按一下[確定]****&#x200B;忽略有關ADFS 2.0不支援同盟中繼資料中某些內容的訊息。
 1. 開啟&#x200B;**Windows Powershell模組。**
 1. 載入所有模組後，在powershell中執行以下命令：
 
@@ -145,7 +149,7 @@ ht-degree: 0%
    1. 按一下&#x200B;**「確定」**。
    1. 選取您先前設定要與Workfront搭配使用的信賴方信任，然後在右側面板中，按一下&#x200B;**從同盟中繼資料更新。**
 
-1. 按一下[確定]&#x200B;**&#x200B;**&#x200B;忽略有關ADFS 2.0不支援同盟中繼資料中某些內容的訊息。
+1. 按一下[確定]****&#x200B;忽略有關ADFS 2.0不支援同盟中繼資料中某些內容的訊息。
 1. 按一下&#x200B;**更新**&#x200B;以完成更新同盟中繼資料。
 
 允許透過Workfront登入憑證的原生登入畫面存取Workfront的使用者（這可從&#x200B;**存取**&#x200B;區段中的每個使用者的設定檔頁面進行設定），可透過瀏覽至下列URL，使用其Workfront使用者名稱和密碼登入： `https://<yourdomain>.my.workfront.com/Workfront/login.cmd`。
