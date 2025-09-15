@@ -136,7 +136,7 @@ Workfront有下列限制：
 
   >[!NOTE]
   >
-  >PowerPoint簡報檔案目前無法上傳的已知問題。 如果您遇到此問題，請將檔案轉換至PDF，並改為上傳PDF。 如需詳細資訊，請參閱[校訂：無法從PowerPoint檔案](https://experienceleague.adobe.com/en/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-proofs-cannot-generate-from-pptx)產生校訂。
+  >PowerPoint簡報檔案目前無法上傳的已知問題。 如果您遇到此問題，請將檔案轉換至PDF，並改為上傳PDF。 如需詳細資訊，請參閱[校訂：無法從PowerPoint檔案](https://experienceleague.adobe.com/zh-hant/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-proofs-cannot-generate-from-pptx)產生校訂。
 
 
 * PPTX - PowerPoint簡報2007 PS - PostScript檔案
