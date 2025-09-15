@@ -8,14 +8,14 @@ author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 34814016-e030-4e21-a597-686c4107eff4
-source-git-commit: ed708a98662c198e52b417ae53e165f3d5e9a524
+source-git-commit: b8b01b0431390d5a8a53dd3e3b56bae980501955
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
 
-# 校訂：文章索引
+# 校訂核准：文章索引
 
 <!-- Audited: 12/2023 -->
 

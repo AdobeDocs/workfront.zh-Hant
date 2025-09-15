@@ -1,15 +1,15 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: 統一檔案核准總覽
+title: 統一核准總覽
 description: 您可以將其他核准者或稽核者新增至已有待核准的檔案。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 6da80f55fd4314c661c52bb2327ae8fa6c7e55b6
+source-git-commit: c55af795069a05de3eb3d0d8599ab61f00168ddc
 workflow-type: tm+mt
-source-wordcount: '575'
-ht-degree: 1%
+source-wordcount: '324'
+ht-degree: 3%
 
 ---
 
@@ -49,30 +49,33 @@ ht-degree: 1%
 
 ## 使用統一核准
 
-若使用者希望建立或管理檔案核准，請參閱[設定及管理資產和檔案核准：文章索引](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)中列出的文章
+若是想要建立或管理檔案核准的使用者，請參閱[設定及管理統一核准：文章索引](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)中列出的文章
 
 若使用者希望檢閱或核准他們收到請求的檔案，請參閱[核准和檢閱檔案中列出的文章：文章索引](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)。
 
-## 新功能和設計目標
+<!--
 
->[!VIDEO](https://video.tv.adobe.com/v/3420544/)
+## New features and design goals
 
-* **包容性的利害關係人參與**\
-    統一核准允許在核准流程中包含個別貢獻者和整個團隊。 促進更廣泛的參與，可確保利害關係人的全面參與，並建立更明智、更合作的決策環境。
+>[!VIDEO](https://video.tv.adobe.com/v/3420544/)  
 
-* **已區分的檢閱和核准角色**\
-     「統一核准」的設計目的，是要識別並遵循核准流程中各種不同的角色。 藉由提供識別和指定稽核者（收到通知提供意見回饋但沒有決策許可權的使用者）的能力，意見回饋的品質得以提升，同時維持最終核准許可權的明確性。
+* **Inclusive stakeholder participation**\
+    Unified Approvals allow the inclusion of both individual contributors and entire teams in the approval process. Facilitating this broader participation ensures comprehensive stakeholder engagement and fosters a more informed and collaborative decision-making environment.
 
-* **版本特定核准**\
-    檔案開發的反複性質通常會導致同一份檔案出現多個版本。 統一核准藉由為檔案的每個版本提供唯一的核准鏈結來因應這種現實。 這可讓使用者上傳新版本，並視需要新增核准者或稽核者，確保意見回饋和核准專屬於檔案版本，並消除潛在的混淆。
+* **Differentiated review and approval roles**\
+     Unified Approvals is designed to recognize and respect the varying roles within the approval process. By providing the ability to identify and designate reviewers—users who are notified to provide feedback but do not have decision-making authority—the quality of feedback is enhanced while maintaining clarity of final approval authority.
 
-* **稽核軌跡**\
-    透過統一核准，所有核准活動的稽核追蹤都會保留在活動串流中，為未來的參考和合規性提供寶貴的資源。
+* **Version-specific approvals**\
+    The iterative nature of document development often leads to multiple versions of the same document. Unified Approvals accommodates this reality by providing unique approval chains for each version of a document. This allows users to upload a new version and add new approvers or reviewers as needed, ensuring that feedback and approval are specific to the document version and eliminating potential confusion.
 
-## 發行計畫
+* **Audit trails**\
+    With Unified Approvals, an audit trail of all approval activities is maintained in the activity stream, providing a valuable resource for future reference and compliance.
 
-我們正在多個版本中讓使用者可以使用統一核准。 除了新增功能外，我們也會增加每個版本中可取得整合核准的帳戶數量。
+## Release plan
 
-如果您想要在生產環境中啟用統一核准，請聯絡您的客戶成功案例或策略客戶經理。
+We are making Unified Approvals available to users over the course of several releases. In addition to adding new features, we will also expand the number of accounts for which Unified Approvals are available with each release.
+
+If you would like to have Unified Approvals enabled in your production environment, please reach out to your Customer Success or Strategic Account Manager.
 
 
+-->

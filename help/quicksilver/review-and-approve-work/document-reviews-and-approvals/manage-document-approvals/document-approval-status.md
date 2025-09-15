@@ -6,9 +6,9 @@ description: 列出並解釋檔案決策狀態
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 30a10ed9-ae11-4ff1-a66c-58ea94fe9959
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: fcdb935b148ed7f8b9c49476f099f8285e02b0b5
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '178'
 ht-degree: 5%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 5%
                 </tr>
                  <tr>
                     <td>
-                        審核中</p>
+                        審閱中</p>
                     </td>
                     <td>
                         <ul>
@@ -58,7 +58,7 @@ ht-degree: 5%
                 </tr>
                  <tr>
                     <td>
-                        已檢閱</p>
+                        已審閱</p>
                     </td>
                     <td>
                         <ul>
@@ -98,6 +98,7 @@ ht-degree: 5%
                                 <p>至少有一位核准者已決定「已核准變更」</p>
                                 <p>其他核准者可能已提供「已核准」的決定
                             </li>
+                            <p>注意：如果您使用Frame.io整合進行檢閱和核准，則此選項無法使用。</p>
                         </ul>
                     </td>
                 </tr>
@@ -106,9 +107,9 @@ ht-degree: 5%
                     </td>
                     <td>
                         <ul>
-                            <li>
-                                <p>所有核准和審查均已完成</p>
-                            </li>
+                           <!--<li>
+                                <p>All approvals and reviews are complete</p>
+                            </li>-->
                             <li>
                                 <p>所有核准者可能已提供「已核准」的決定
                             </li>

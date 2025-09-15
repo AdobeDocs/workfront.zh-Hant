@@ -2,20 +2,20 @@
 content-type: reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: 設定及管理資產和檔案核准：文章索引
-description: 本節包含有關在Workfront中管理資產和檔案核准的文章。
+title: 設定及管理統一核准：文章索引
+description: 本節包含有關在Workfront中管理統一核准的文章。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 242910b9-f251-49c3-a6ad-de3039bdd2f5
-source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
+source-git-commit: 9cdd3f9b46b36728a8825713fe50f3f2fe1ef90b
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---
 
-# 設定及管理資產和檔案核准：文章索引
+# 設定及管理統一核准：文章索引
 
 本節包含下列文章：
 

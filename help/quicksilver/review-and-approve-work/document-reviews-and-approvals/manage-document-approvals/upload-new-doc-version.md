@@ -6,9 +6,9 @@ description: 您可以上傳新檔案版本，並向Adobe Workfront中的其他�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
-source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
+source-git-commit: 42fbb40cb8a0f3c70e22fd04bd3d0ce625f58fec
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
@@ -23,12 +23,9 @@ ht-degree: 0%
 
 如果刪除了最新的檔案版本，先前的版本仍會保持鎖定。 如果您需要編輯先前的版本，則必須手動解除鎖定。
 
-
 ## 存取需求
 
 +++ 展開以檢視本文中功能的存取需求。
-
-您必須具備下列條件：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,17 +34,16 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p> 任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>目前：要求或以上</p>
-   或
-   <p>新增：投稿人或更高版本</p> </td> 
+   <td> <p>要求或更高版本</p>
+   <p>投稿人或以上</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">存取層級設定*</td> 
+   <td role="rowheader">存取層級設定</td> 
    <td> <p>編輯檔案的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -57,7 +53,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -67,26 +63,36 @@ ht-degree: 0%
 >
 >Internet Explorer無法使用拖放功能。
 
-1. 前往檔案上傳所在區域。
-1. 從您的案頭或單獨的瀏覽器索引標籤，將檔案的新版本拖曳到Workfront中現有版本的上方。
 
-   拖曳新版本時，您可以將游標停留在Workfront檔案資料夾上以開啟。 然後，您就可以將檔案拖曳至熒幕的頂端或底部，上下捲動。
+如果您需要對檔案執行另一輪稽核和核准，可以在Workfront中建立新的檔案版本。
 
-1. 將新版本拖放到&#x200B;**檔案**&#x200B;索引標籤上的現有檔案上。
+您可以新增先前的參與者、新參與者或兩者的組合。 您可以在「檔案詳細資訊」頁面上檢視先前版本和參與者的相關資訊。
 
-1. 上傳檔案後，按一下檔案並開啟檔案摘要面板。
+若要新增版本：
 
-1. 向下捲動至[檔案摘要]窗格中的&#x200B;**核准**&#x200B;區段，然後按一下[新增]。**&#x200B;**
+1. 導覽至Workfront中的檔案。
+1. 將新檔案拖放至上一個檔案的頂端。 這會自動建立新版本。
 
-![在檔案摘要中新增核准者](assets/doc-summary-add-approvers.png)
+1. 檔案上傳完成後，請選取檔案，然後按一下&#x200B;**檔案詳細資料**。
+   ![開啟檔案詳細資料頁](assets/open-doc-details.png)
+
+
+1. 在左側面板中，按一下&#x200B;**核准**，然後按一下&#x200B;**新增**。
+
+1. 若要新增所有先前的參與者，請按一下[全部新增]。**** 您也可以視需要新增參與者或移除先前的參與者。
+
+
+1. 若要新增現有的核准範本，請按一下「範本」按鈕並開始輸入範本名稱。
+
+   >[!TIP]
+   >
+   >   擁有Standard授權的使用者可以從「設定」區域建立可繼續使用的核准範本。 如需詳細資訊，請參閱[建立資產和檔案的核准範本](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)。
+
 
 1. （選用）設定核准的截止日期。 若在指定期限前72小時通知使用者和團隊。
 
-1. 若要快速新增先前版本的稽核者和核准者，請按一下下列其名稱旁的新增按鈕。
-   <!--need screenshot when working-->
+1. 新增所有檢閱者和核准者後，請按一下&#x200B;**提交請求**。 系統會透過電子郵件通知參與者。
 
-1. （選擇性）從核准者/稽核者變更角色。
+   ![提交新版本以供核准](assets/add-previous-participants.png)
 
-1. 若要新增核准者和稽核者，請按一下[稽核者] **&#x200B;**&#x200B;或[核准者] **&#x200B;**，然後開始輸入使用者或團隊。
 
-   ![新增核准者與截止日期](assets/add-approver-and-deadline.png)

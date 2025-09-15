@@ -1,21 +1,21 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: 資產和檔案檢閱及核准的可用功能
+title: 整合式檔案核准的可用功能
 description: Workfront中可供檢閱和核准的系統概觀。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+source-git-commit: c55af795069a05de3eb3d0d8599ab61f00168ddc
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
 
-# 資產和檔案檢閱及核准的可用功能
+# 整合式檔案核准的可用功能
 
-Workfront目前提供3種不同的系統，以供資產和檔案檢閱和核准：
+Workfront中目前有3種不同的系統可用於統一檔案核准：
 
 * [舊版檔案核准](#legacy-document-approvals)
 
@@ -61,6 +61,8 @@ Workfront目前提供3種不同的系統，以供資產和檔案檢閱和核准�
 * 建立多個階段核准[!BADGE 即將推出]{type=Informative}
 
 * 首頁區域中的我的核准Widget中的存取檢閱和核准請求
+
+* 使用AI檢閱者來自動進行品牌法規遵循檢閱。 如需詳細資訊，請參閱[開始使用Workfront AI檢閱者](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)。
 
 
 ## 校訂核准
