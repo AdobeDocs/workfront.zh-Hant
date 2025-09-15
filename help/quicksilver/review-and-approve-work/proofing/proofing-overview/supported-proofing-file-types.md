@@ -7,9 +7,9 @@ description: 您可以與檢閱者共用及檢閱各種型別的檔案，即使�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: 52b0389e9f5d8618106d9b511591afb0b6eb216f
+source-git-commit: e9fd96e32cabb1a99bb2170261577ec05c35ff6f
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1102'
 ht-degree: 0%
 
 ---
@@ -133,13 +133,13 @@ Workfront有下列限制：
 * PNM — 可攜式點陣圖公用程式
 * PPM — 可攜式點陣圖公用程式
 * PPT - PowerPoint簡報
+* PPTX - PowerPoint簡報2007
 
   >[!NOTE]
   >
-  >PowerPoint簡報檔案目前無法上傳的已知問題。 如果您遇到此問題，請將檔案轉換至PDF，並改為上傳PDF。 如需詳細資訊，請參閱[校訂：無法從PowerPoint檔案](https://experienceleague.adobe.com/zh-hant/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-proofs-cannot-generate-from-pptx)產生校訂。
+  >PowerPoint簡報檔案目前無法上傳的已知問題。 如果您遇到此問題，請將檔案轉換至PDF，並改為上傳PDF。 如需詳細資訊，請參閱[校訂：無法從PowerPoint檔案](https://experienceleague.adobe.com/en/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-proofs-cannot-generate-from-pptx)產生校訂。
 
-
-* PPTX - PowerPoint簡報2007 PS - PostScript檔案
+* PS - PostScript檔案
 * PSD - PHOTOSHOP
 * PSP - Paint Shop Pro
 * PTK - PTOCA
