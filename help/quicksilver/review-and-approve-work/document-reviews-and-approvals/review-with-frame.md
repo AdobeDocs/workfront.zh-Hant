@@ -8,9 +8,9 @@ feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 19003988a8e164db225f8511f567d38e6eeaf627
+source-git-commit: 601285fdbf26365dcaea14f990904d049816af21
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
@@ -62,9 +62,9 @@ ht-degree: 0%
 
 身為檢閱者，您可以對資產新增註解及標示。 完成後，您可以在Workfront中將您的評論標籤為完成。 資產不需要將稽核標籤為完成，才能在核准程式中前進。
 
-1. 前往檢閱電子郵件通知，然後按一下&#x200B;**前往檢閱**。
+1. 移至您的檢閱電子郵件通知，然後按一下&#x200B;**移至檢閱**。
 或
-前往Workfront首頁，尋找「我的核准」Widget，然後按一下&#x200B;**開啟稽核**。
+前往Workfront首頁，尋找「我的核准」Widget，然後按一下**開啟稽核**。
 
    >[!NOTE]
    > 
@@ -82,13 +82,11 @@ ht-degree: 0%
 
 在所有指派的核准者選擇「已核准」之前，檔案不會移動到「已核准」狀態。
 
-如果任何一位核准者選擇「需要工作」，檔案的狀態會立即變更為「需要工作」。 檔案需要修訂並上傳為新版本，具有新的核准工作流程。
-
 若要對檔案做出決定：
 
-1. 前往檢閱電子郵件通知，然後按一下&#x200B;**前往檢閱**。
+1. 移至您的檢閱電子郵件通知，然後按一下&#x200B;**移至檢閱**。
 或
-前往Workfront首頁，尋找「我的核准」Widget，然後按一下&#x200B;**開啟稽核**。
+前往Workfront首頁，尋找「我的核准」Widget，然後按一下**開啟稽核**。
 
    >[!NOTE]
    > 

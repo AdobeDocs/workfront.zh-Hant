@@ -6,9 +6,9 @@ description: 您可以搭配校訂使用統一核准。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: be484629-6e70-4809-ad4c-a489d5814da6
-source-git-commit: e20f1b70ffd6c94b302cea6e691337624db497ef
+source-git-commit: 601285fdbf26365dcaea14f990904d049816af21
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Workfront中的統一核准引進了一組新功能，可幫助您檢閱和核�
 ## 上傳檔案並建立校訂
 
 1. 前往您要新增檔案的專案、任務或問題。
-1. 按一下&#x200B;**檔案**&#x200B;標籤，然後按一下&#x200B;**新增**&#x200B;下拉式功能表。
+1. 按一下&#x200B;**檔案**&#x200B;標籤，然後按一下&#x200B;**新增**下拉式功能表。
 或
 將檔案拖放到檔案清單中。
 
@@ -50,7 +50,7 @@ Workfront中的統一核准引進了一組新功能，可幫助您檢閱和核�
 1. 選取您上傳的檔案，並開啟檔案「摘要」。
    ![開啟檔案摘要](assets/open-doc-summary.png)
 
-1. 向下捲動至[核准]區段，然後按一下[新增]。**&#x200B;**
+1. 向下捲動至[核准]區段，然後按一下[新增]。****
 
 1. （選擇性）選擇現有的核准範本。 擁有Standard授權的使用者可以從「設定」區域建立可繼續使用的核准範本。 如需詳細資訊，請參閱[建立資產和檔案的核准範本](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)。
 
@@ -77,7 +77,7 @@ Workfront中的統一核准引進了一組新功能，可幫助您檢閱和核�
 1. 再次選取檔案，然後開啟檔案「摘要」。
    ![開啟檔案摘要](assets/open-doc-summary.png)
 
-1. 向下捲動至[核准]區段，然後按一下[新增]。**&#x200B;**
+1. 向下捲動至[核准]區段，然後按一下[新增]。****
 
 1. （選擇性）選擇現有的核准範本。 擁有Standard授權的使用者可以從「設定」區域建立可繼續使用的核准範本。 如需詳細資訊，請參閱[建立資產和檔案的核准範本](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)。
 
@@ -97,8 +97,6 @@ Workfront中的統一核准引進了一組新功能，可幫助您檢閱和核�
 ## 檢閱證明並作出決定
 
 在所有指派的核准者選擇「已核准」之前，檔案不會移動到「已核准」狀態。
-
-如果任何一位核准者選擇「需要工作」，檔案的狀態會立即變更為「需要工作」。 檔案需要修訂並上傳為新版本，具有新的核准工作流程。
 
 若要檢閱及核准檔案，請執行下列動作：
 

@@ -8,9 +8,9 @@ feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 701f3fc2c885363b5f61fb9d77049c7d4c41963d
+source-git-commit: c4e1961092883f523d04adaacd58129a0379783d
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---
@@ -20,18 +20,18 @@ ht-degree: 0%
 
 Workfront和Frame.io整合可讓專案專員在Workfront中管理專案和計畫工作，而創意人員、行銷人員和利害關係人則可以在Frame.io中檢閱和核准資產。
 
-## 內建於Adobe企業儲存空間管理
+## 內建於Adobe企業儲存空間
 
-這項整合的核心是Adobe企業儲存管理(ESM)，這是雲端式的儲存解決方案，可作為Adobe企業產品(包括Workfront和Frame.io)資產的中央存放庫。
+這項整合的核心是Adobe企業儲存體：雲端型儲存體解決方案，可作為Adobe企業產品(包括Workfront、Frame.io和Creative Cloud)資產的中央存放庫。
 
-Adobe企業儲存管理的主要優點包括：
+Adobe企業儲存的主要優點包括：
 
 * 適用於創意與工作管理資產的統一儲存層
 * 透過Adobe IMS集中管理許可權，以進行安全存取控制
 * Workfront、Frame.io和Creative Cloud應用程式的端對端資產可見性<!--coming soon?-->
 * 可擴充的儲存與配額管理，因應企業需求
 
-如需詳細資訊，請參閱[Adobe企業儲存體管理總覽](help/quicksilver/review-and-approve-work/esm-overview.md)。
+如需詳細資訊，請參閱[Adobe企業儲存空間概觀](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
 ## 統一的稽核和核准
 
@@ -60,7 +60,11 @@ Workfront和Frame.io整合使用Workfront的統一核准功能來管理檢閱和
 
 #### 影片檢閱限制
 
-<!--need to confirm these-->
+視訊校訂要求的年度上限設定為組織總付費Workfront使用者授權（標準和輕度）的10%。 此上限適用於組織層級。
+
+當使用量達到上限的80%和100%時，Workfront管理員會收到通知。
+
+此限制不適用於Frame.io Enterprise客戶。
 
 #### Frame.io檢視器中支援的檔案型別
 
@@ -70,7 +74,7 @@ Frame.io檢視器支援所有常見的視訊、影像、音訊、PDF和MS® Offi
 
 擁有付費授權的所有Workfront使用者都可使用Frame.io檢視器。 不需額外的Frame.io授權，即可使用此整合的Frame.io檢視器來審查和核准。
 
-如果您的組織想要利用額外的Frame.io功能，例如直接將資產上傳到Frame.io中的專案，您可以購買Frame.io企業授權。<!--link to Frame.io enterprise license info or who to contacT?-->
+如果您的組織想要利用額外的Frame.io功能，例如直接將資產上傳到Frame.io中的專案，您可以購買Frame.io企業授權。 請聯絡您的Adobe客戶代表以排程示範，並探索完整Frame.io解決方案的優點。
 
 此整合不提供Workfront校訂功能。
 
@@ -78,7 +82,7 @@ Frame.io檢視器支援所有常見的視訊、影像、音訊、PDF和MS® Offi
 
 透過Workfront和Frame.io整合，專案專員可以利用Workfront強大的專案管理功能，來規劃、追蹤和管理工作。
 
-如需有關在Workfront中管理專案的詳細資訊，請參閱[專案：文章索引](/help/quicksilver/manage-work/projects/projects-toc.md)。
+如需有關在Workfront中管理專案的詳細資訊，請參閱[專案：文章索引](/help/quicksilver/manage-work/projects/create-projects/create-project.md)。
 
 ### 強制的結構與命名慣例
 
@@ -106,21 +110,21 @@ Frame.io檢視器支援所有常見的視訊、影像、音訊、PDF和MS® Offi
 
 下列功能不會納入這項整合：
 
-* 外部檔案提供者
+<!--* External document providers-->
 * 存取校訂
 * Workfront中的檔案檢視器
-
-
-#### 暫時限制
-
-下列功能暫時無法使用：
-
 * 我的最愛檔案
 * 要求檔案
-* 傳送檔案至Adobe Experience Manager Assets
-* 多階段核准
-* 在Workfront中上傳檔案以加入評論或更新
-* 將檔案上傳至Workfront中的任務或問題
+
+
+<!--#### Temporary limitations
+
+For now, the following capabilities are not available:
+
+* Send documents to Adobe Experience Manager Assets
+* Multi-stage approvals
+* Upload documents to comments or updates in Workfront
+* Upload documents to tasks or issues in Workfront-->
 
 
 
