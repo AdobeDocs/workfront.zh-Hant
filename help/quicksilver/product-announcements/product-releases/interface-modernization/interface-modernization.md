@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: abe76998e8d98bf47e45e01ff6b27610955177c5
+source-git-commit: c17723aed4057e744d3c3dc967990163316d82f5
 workflow-type: tm+mt
-source-wordcount: '7673'
+source-wordcount: '7834'
 ht-degree: 0%
 
 ---
@@ -162,7 +162,25 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[編輯投資組合](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md)。
 
+## 計劃
+
+### 「編輯程式」方塊的介面更新
+
+**預覽版本： 2025年9月18日；生產版本： 2025年9月25日**
+
+我們已更新「編輯程式」方塊的外觀與操作方式，以符合Workfront其他區域的設計方式。
+
+如需詳細資訊，請參閱[編輯程式](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/edit-programs.md)。
+
 ## 專案
+
+### 大量編輯範本時介面更新
+
+**預覽版本： 2025年9月18日；生產版本： 2025年9月25日**
+
+從範本清單大量編輯範本時，我們已更新「編輯範本」方塊的外觀和風格。 「編輯範本」方塊上的資訊組織現在與單一範本編輯方塊相符。
+
+如需詳細資訊，請參閱[編輯專案範本](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md)。
 
 ### 套用里程碑檢視時，專案清單或報告的介面更新
 
@@ -376,17 +394,16 @@ For information, see [Edit project templates](/help/quicksilver/manage-work/proj
 
 ## 使用者
 
-<!--
-### Interface updates for the New User dialog
+### 新使用者對話方塊的介面更新
 
-**Preview release: September 11, 2025; Production release: September 18, 2025**
+**預覽版本： 2025年9月18日；生產版本： 2025年9月18日**
 
-We have updated the look and feel of the New User dialog to match the design in other areas of the application.
+我們已更新「新使用者」對話方塊的外觀與風格，以符合應用程式其他區域的設計。
 
-To view this change, go to Users > New User > New User.
+若要檢視這項變更，請前往「使用者>新增使用者>新增使用者」。
 
-For information, see [Add users](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/add-users.md) and [Updates to the Workfront user profile](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md#updates-to-the-workfront-user-profile) on the [Fourth Quarter 2025 Administrator enhancements page](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md).
--->
+如需詳細資訊，請參閱[2025年第四季管理員增強功能頁面](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/add-users.md)上的[新增使用者](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md#updates-to-the-workfront-user-profile)和[更新至Workfront使用者設定檔](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md)。
+
 
 ### 匯入使用者對話方塊的介面更新
 
@@ -1052,7 +1069,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 此更新包含區域的視覺化變更。 功能未變更。
 
-若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。**&#x200B;**
+若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。****
 
 +++
 

@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: dcdd74e8293a5e695600f08536c8fc2ad36c3a31
+source-git-commit: 30e5358549291e5d04d42ab470dccd444521ecb8
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,22 @@ ht-degree: 0%
 本頁說明2025年第四季版本管理員對預覽環境所做的增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2025年第四季版本週期目前可用的所有變更清單，請參閱[2025年第四季版本概觀](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)。
+
+## Workfront使用者設定檔的更新
+
+>[!NOTE]
+>
+>* 預覽： 2025年8月28日
+>* 適用於所有客戶的生產：自2025年9月18日起分階段推出
+
+我們已將Workfront使用者設定檔的外觀與操作方式，更新為與Workfront其他區域一致的現代化設計。 這些更新會套用至編輯單一設定檔或大量編輯多個設定檔的管理員，或編輯自己設定檔的使用者。
+
+與目前的使用者設定檔有一些小的功能差異，包括：
+
+* 有些核取方塊（例如將使用者標示為使用中）已變更為切換或按鈕。
+* 「偏好設定」下的「將我指派給自己的工作傳送給我的工作索引標籤」選項已移除，因為它參考已棄用的功能。
+
+如需詳細資訊，請參閱[編輯使用者的設定檔](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
 
 ## 新的面板管理員檢視
 
@@ -46,26 +62,7 @@ ht-degree: 0%
 
 如需啟用AI功能的先決條件，請參閱[ AI助理的必要條件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
 
-## Workfront使用者設定檔的更新
 
->[!IMPORTANT]
->
->此更新已暫時從預覽和生產中移除。
-
-
->[!NOTE]
->
->* 預覽： 2025年8月28日
->* 適用於所有客戶的生產： 2025年9月4日
-
-我們已將Workfront使用者設定檔的外觀與操作方式，更新為與Workfront其他區域一致的現代化設計。 這些更新會套用至編輯單一設定檔或大量編輯多個設定檔的管理員，或編輯自己設定檔的使用者。
-
-與目前的使用者設定檔有一些小的功能差異，包括：
-
-* 有些核取方塊（例如將使用者標示為使用中）已變更為切換或按鈕。
-* 「偏好設定」下的「將我指派給自己的工作傳送給我的工作索引標籤」選項已移除，因為它參考已棄用的功能。
-
-如需詳細資訊，請參閱[編輯使用者的設定檔](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
 
 ## 從外部API新增多個值選項至自訂表單
 
