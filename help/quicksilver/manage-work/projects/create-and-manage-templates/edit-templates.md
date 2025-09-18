@@ -6,14 +6,16 @@ description: 您可以編輯專案範本，以反映未來專案的程式與設�
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: a25eb28800ca8bbeeffedb521b3d72c8df71c697
+source-git-commit: 5edda5b6d084c6c4df62f21e430ce9cd0c1cc8a4
 workflow-type: tm+mt
-source-wordcount: '5045'
+source-wordcount: '5161'
 ht-degree: 2%
 
 ---
 
 # 編輯專案範本
+
+{{highlighted-preview}}
 
 <!-- Audited: 7/2025 -->
 
@@ -112,7 +114,6 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    * [評論](#comment)
    <!--* [Linked folders](#linked-folders-conditional-availability) -->
 
-
 ### 範本名稱{#template-name}
 
 1. 如上所述開始編輯您的範本。
@@ -134,33 +135,33 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. 更新下列欄位：
 
    <table style="table-layout:auto"> 
-       <col> 
-       <col> 
-       <tbody> 
-         <tr> 
-         <td role="rowheader"><strong>說明</strong></td> 
-         <td>新增範本的其他相關資訊。</td> 
-       </tr> 
-         <tr> 
-         <td role="rowheader"><strong>優先順序</strong></td> 
-         <td><p>這只是一個視覺化的標幟，可讓您為未來的專案設定優先順序。 從下列選項中選取：</p> 
-         <ul> 
-         <li><p><strong>無</strong></p></li> 
-         <li><p><strong>低</strong></p></li> 
-         <li><p><strong>正常</strong></p></li> 
-         <li><p><strong>高</strong></p></li> 
-         <li><p><strong>緊急</strong></p></li> 
-         </ul><p><p>根據Workfront管理員選取的專案偏好設定，您的優先順序名稱可能會不同。 如需有關編輯優先順序的詳細資訊，請參閱<a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">建立及自訂優先順序</a>。</p></p></td> 
+    <col> 
+    <col> 
+    <tbody> 
+      <tr> 
+      <td role="rowheader"><strong>說明</strong></td> 
+      <td>新增範本的其他相關資訊。</td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>優先順序</strong></td> 
+      <td><p>這只是一個視覺化的標幟，可讓您為未來的專案設定優先順序。 從下列選項中選取：</p> 
+      <ul> 
+      <li><p><strong>無</strong></p></li> 
+      <li><p><strong>低</strong></p></li> 
+      <li><p><strong>正常</strong></p></li> 
+      <li><p><strong>高</strong></p></li> 
+      <li><p><strong>緊急</strong></p></li> 
+      </ul><p><p>根據Workfront管理員選取的專案偏好設定，您的優先順序名稱可能會不同。 如需有關編輯優先順序的詳細資訊，請參閱<a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">建立及自訂優先順序</a>。</p></p></td> 
        </tr> 
        <tr> 
        <td role="rowheader"><strong>URL</strong></td> 
          <td>指定與此範本相關資訊的網頁連結。</td> 
        </tr>
-<tr> 
+   <tr> 
       <td role="rowheader"><strong>為作用中</strong></td> 
       <td><p>如果您希望範本為作用中範本，請開啟此選項。 其他使用者可在建立專案時找到此範本並將其附加至專案。 如果您要停用不再使用的範本，請關閉選項。 無法將已停用的範本附加到專案。 這預設為啟用。 </p><p><b>秘訣</b></p>
 
-<p>您可以從範本標題停用範本，如本文的「啟動或停用範本」一節中所述。</p></td> 
+   <p>您可以從範本標題停用範本，如本文的「啟動或停用範本」一節中所述。</p></td> 
      </tr>
 
 <tr> 
@@ -251,33 +252,33 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
        <td><p>指定從此範本建立之專案的預算。</p></td> 
        </tr>  
        <tr> 
-         <td role="rowheader"><strong>績效指數方法</strong></td> 
-         <td><p>選擇Workfront計算未來專案盈餘量度的方式。 從下列選項中選擇：
-         <ul>
-         <li>基於小時</li>
-         <li>基於成本</li>
-         </ul>
+       <td role="rowheader"><strong>績效指數方法</strong></td> 
+       <td><p>選擇Workfront計算未來專案盈餘量度的方式。 從下列選項中選擇：
+       <ul>
+       <li>基於小時</li>
+       <li>基於成本</li>
+       </ul>
 
-   如需有關績效指數方法的詳細資訊，請參閱<a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">設定績效指數方法(PIM)</a>。 </p></td>
-   </tr> 
-         <tr> 
-         <td role="rowheader"><strong>規劃收益</strong></td> 
-         <td><p>指定從此範本建立之專案的計畫收益。 計畫收益用於專案和Portfolio Optimizer的業務案例。 </p><p>如需有關專案計畫權益的詳細資訊，請參閱<a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">專案計畫權益概觀</a>。 計算專案淨值時，會考慮專案的計畫收益。 </p><p>如需使用Portfolio Optimizer的詳細資訊，請參閱<a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">在Portfolio Optimizer中管理專案</a> </p></td> 
-       </tr> 
-       <tr> 
-         <td role="rowheader"><strong>固定成本</strong></td> 
-         <td><p>指定從此範本建立之專案的「固定成本」。 這與專案時數所產生的人工成本，以及專案費用金額所產生費用成本不同。 計算專案的淨值時會考慮專案的固定成本，而且該成本是預算成本的一部分。</p></td> 
-       </tr> 
-       <tr> 
-       <td role="rowheader"><strong>固定收入</strong></td> 
-       <td><p>指定從此範本建立之專案的「固定收入」 。</p></td> 
-       </tr> 
-       <tr> 
-       <td role="rowheader"><strong>此專案需要時間核准</strong></td> 
-       <td><p>選取此選項可要求從此範本建立的未來專案的專案所有者核准登入專案的時間。 如果您使用「計費記錄」並選取此選項，則只有專案中已核准的時數，才會顯示為「計費記錄」的可用計費時數。 核准專案的時間與核準時程表無關。 如需專案需要核准時間的詳細資訊，請參閱<a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">專案需要核准時間</a>。</p></td> 
-       </tr> 
-       </tbody> 
-      </table>
+       如需效能索引方法的詳細資訊，請參閱&lt;a href=&quot;../../../manage-work/projects/project-finances/set-pim.md&quot; class=&quot;MCXref xref&quot;>設定效能索引方法(PIM)&lt;/a>。 &lt;/p>&lt;/td>
+       &lt;/tr>
+       &lt;tr>
+       &lt;td role=&quot;rowheader&quot;>&lt;strong>計畫收益&lt;/strong>&lt;/td>
+       &lt;td>&lt;p>指定從此範本建立之專案的計畫收益。 計畫收益用於專案和Portfolio Optimizer的業務案例。 &lt;/p>&lt;p>如需專案計畫權益的詳細資訊，請參閱&lt;a href=&quot;../../../manage-work/projects/project-finances/project-planned-benefit.md&quot; class=&quot;MCXref xref&quot;>專案計畫權益概觀&lt;/a>。 計算專案淨值時，會考慮專案的計畫收益。 &lt;/p>&lt;p>如需使用Portfolio Optimizer的詳細資訊，請參閱&lt;a href=&quot;../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md&quot; class=&quot;MCXref xref&quot;>在Portfolio Optimizer中管理專案&lt;/a> &lt;/p>&lt;/td>
+       &lt;/tr>
+       &lt;tr>
+       &lt;td role=&quot;rowheader&quot;>&lt;strong>固定成本&lt;/strong>&lt;/td>
+       &lt;td>&lt;p>指定從此範本建立之專案的固定成本。 這與專案時數所產生的人工成本，以及專案費用金額所產生費用成本不同。 計算專案的淨值時會考慮專案的固定成本，而且該成本是預算成本的一部分。&lt;/p>&lt;/td>
+       &lt;/tr>
+       &lt;tr>
+       &lt;td role=&quot;rowheader&quot;>&lt;strong>固定收入&lt;/strong>&lt;/td>
+       &lt;td>&lt;p>指定從此範本建立之專案的固定收入。&lt;/p>&lt;/td>
+       &lt;/tr>
+       &lt;tr>
+       &lt;td role=&quot;rowheader&quot;>&lt;strong>需要時間才能核准此專案&lt;/strong>&lt;/td>
+       &lt;td>&lt;p>選取此選項以要求從此範本建立的未來專案之專案擁有者，核准登入專案的時間。 如果您使用「計費記錄」並選取此選項，則只有專案中已核准的時數，才會顯示為「計費記錄」的可用計費時數。 核准專案的時間與核準時程表無關。 如需專案所需核准時間的詳細資訊，請參閱&lt;a href=&quot;../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md&quot; class=&quot;MCXref xref&quot;>專案所需核准時間&lt;/a>。&lt;/p>&lt;/td>
+       &lt;/tr>
+       &lt;/tbody>
+   </table>
 
 1. （選擇性）根據您要修改的資訊，繼續編輯下列區段。
 
@@ -304,7 +305,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 1. （選用）更新自訂表單上任何欄位中的資訊。 此資訊將會傳輸至將使用範本建立的專案。
 
-1. （選擇性）按一下自訂表單名稱右邊的&#x200B;**x**&#x200B;圖示，然後按一下[移除]&#x200B;**&#x200B;**&#x200B;以從範本中移除它。
+1. （選擇性）按一下自訂表單名稱右邊的&#x200B;**x**&#x200B;圖示，然後按一下[移除]****&#x200B;以從範本中移除它。
 
 1. （選擇性）根據您要修改的資訊，繼續編輯下列區段。
 
@@ -330,12 +331,12 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
        <td> <p>選取範本的里程碑路徑。 只有作用中的里程碑路徑會顯示在清單中。<br>如需里程碑路徑的詳細資訊，請參閱<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref">建立里程碑路徑</a>。</p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>完成模式</strong> </td> 
-         <td> <p>控制如何將未來的專案標示為完成。 <br>從下列選項中選取：</p> 
-         <ul> 
-         <li> <p><strong>自動</strong>：當所有任務和問題都完成時，專案會標示為完成。</p> </li> 
-         <li> <p><strong>手動</strong>：您必須在所有任務和問題都完成時，手動選取專案的完成狀態。 </p> </li> 
-         </ul> </td> 
+       <td role="rowheader"><strong>完成模式</strong> </td> 
+       <td> <p>控制如何將未來的專案標示為完成。 <br>從下列選項中選取：</p> 
+       <ul> 
+       <li> <p><strong>自動</strong>：當所有任務和問題都完成時，專案會標示為完成。</p> </li> 
+       <li> <p><strong>手動</strong>：您必須在所有任務和問題都完成時，手動選取專案的完成狀態。 </p> </li> 
+       </ul> </td> 
        </tr> 
        <tr> 
        <td role="rowheader"><strong>摘要完成模式</strong> </td> 
@@ -346,72 +347,72 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
        </ul> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>更新型別</strong> </td> 
-         <td> <p>控制您對未來專案時間表所做的變更何時儲存在專案上。 </p> 
-         <b>範例</b> 
-         <p>專案的下列變更會觸發專案時間表更新：</p> 
-         <ul> 
-         <li> <p>更新任務日期</p> </li> 
-         <li> <p>變更前置任務關係<br></p> </li> 
-         <li> <p>變更父子關係</p> </li> 
-         <li> <p>除了變更任務限制或期間型別之外，還新增或移除指派。</p> </li> 
-         </ul> 
-         </div> <p>從下列選項中選取：<br></p> 
-         <ul> 
-         <li> <p><strong>自動與開啟變更</strong> （預設設定）：每當專案或時間表所依存之其他專案中發生變更（開啟變更）時，未來專案時間表就會更新。 專案時間表也會每晚更新（自動）。<br>這是此欄位的建議設定，因為它可確保專案時間表隨時保持最新。<br>當您對觸發時間表重新計算的任務或專案執行動作時，所有可用日期會立即顯示，讓您繼續工作。 在具有100個以上任務的專案中，需要更長重新計算的日期會短暫顯示為問號（1到5秒之間，大型專案最多會顯示一分鐘）。 這表示重新計算尚未完成，日期可能會變更。<br></p> </li> 
-         </ul> 
-         <ul> 
-         <li> <p><strong>僅變更</strong>：每次在專案或時間表所依存的其他專案中發生變更時，專案時間表都會更新。 如果變更很少發生在專案或時間表所依賴的其他專案中，您可能會想要選取此選項。<br></p> </li> 
-         </ul> 
-         <ul> 
-         <li> <p><strong>僅限自動</strong>：專案時間表每晚都會更新；變更後不會立即更新。<br>如果每天在專案或時間表所依賴的其他專案中發生許多變更，您可能會想要選取此選項。 但是，請注意，您選擇了此設定，因為專案不會在進行變更的同時更新。<br></p> </li> 
-         </ul> 
-         <ul> 
-         <li> <p><strong>僅手動</strong>：專案時間表只有在您選取重新計算時間表的選項時才會更新，如<a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">重新計算專案時間表</a>中所述。<br></p> </li> 
-         </ul> <p>如果您一次對專案進行許多變更，且希望在所有變更完成後（而不是在每次個別變更後）重新計算時間表，則可能需要選取此選項。</p> </td> 
+       <td role="rowheader"><strong>更新型別</strong> </td> 
+       <td> <p>控制您對未來專案時間表所做的變更何時儲存在專案上。 </p> 
+       <b>範例</b> 
+       <p>專案的下列變更會觸發專案時間表更新：</p> 
+       <ul> 
+       <li> <p>更新任務日期</p> </li> 
+       <li> <p>變更前置任務關係<br></p> </li> 
+       <li> <p>變更父子關係</p> </li> 
+       <li> <p>除了變更任務限制或期間型別之外，還新增或移除指派。</p> </li> 
+       </ul> 
+       </div> <p>從下列選項中選取：<br></p> 
+       <ul> 
+       <li> <p><strong>自動與開啟變更</strong> （預設設定）：每當專案或時間表所依存之其他專案中發生變更（開啟變更）時，未來專案時間表就會更新。 專案時間表也會每晚更新（自動）。<br>這是此欄位的建議設定，因為它可確保專案時間表隨時保持最新。<br>當您對觸發時間表重新計算的任務或專案執行動作時，所有可用日期會立即顯示，讓您繼續工作。 在具有100個以上任務的專案中，需要更長重新計算的日期會短暫顯示為問號（1到5秒之間，大型專案最多會顯示一分鐘）。 這表示重新計算尚未完成，日期可能會變更。<br></p> </li> 
+       </ul> 
+       <ul> 
+       <li> <p><strong>僅變更</strong>：每次在專案或時間表所依存的其他專案中發生變更時，專案時間表都會更新。 如果變更很少發生在專案或時間表所依賴的其他專案中，您可能會想要選取此選項。<br></p> </li> 
+       </ul> 
+       <ul> 
+       <li> <p><strong>僅限自動</strong>：專案時間表每晚都會更新；變更後不會立即更新。<br>如果每天在專案或時間表所依賴的其他專案中發生許多變更，您可能會想要選取此選項。 但是，請注意，您選擇了此設定，因為專案不會在進行變更的同時更新。<br></p> </li> 
+       </ul> 
+       <ul> 
+       <li> <p><strong>僅手動</strong>：專案時間表只有在您選取重新計算時間表的選項時才會更新，如<a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">重新計算專案時間表</a>中所述。<br></p> </li> 
+       </ul> <p>如果您一次對專案進行許多變更，且希望在所有變更完成後（而不是在每次個別變更後）重新計算時間表，則可能需要選取此選項。</p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>排程</strong> </td> 
-         <td> <p>選取範本的排程。 這會成為從此範本建立的專案排程。 這應該是指派給大多數處理專案的人的相同排程。 您必須先建立排程，才能將其指派給範本。<br>如需建立排程的詳細資訊，請參閱<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">建立排程</a>。 <br>如果您尚未在系統中建立自訂排程，則會選取[預設排程]。 </p> </td> 
+       <td role="rowheader"><strong>排程</strong> </td> 
+       <td> <p>選取範本的排程。 這會成為從此範本建立的專案排程。 這應該是指派給大多數處理專案的人的相同排程。 您必須先建立排程，才能將其指派給範本。<br>如需建立排程的詳細資訊，請參閱<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">建立排程</a>。 <br>如果您尚未在系統中建立自訂排程，則會選取[預設排程]。 </p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>使用者休假</strong> </td> 
-         <td> <p>決定任務之主要受指派人的休假是否調整任務計畫日期。 當您將範本附加到現有專案時，並且範本對此欄位的設定與專案不同，專案上的設定保持不變。 新範本此設定的預設選項與系統層級專案偏好設定相同。 </p> <p>如需系統層級專案偏好設定的相關資訊，請參閱<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">設定全系統的專案偏好設定</a>。 </p> <p>如需此設定如何影響專案上任務日期的詳細資訊，請參閱<a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">編輯專案</a>。<br>從下列選項中選取：<br></p> 
-         <ul> 
-         <li> <p><strong>考慮使用者在任務持續期間的休假</strong>：選取此選項時，如果休假發生在任務持續期間，則根據任務的主要受指派人的休假，調整從此範本建立的專案上任務的計畫日期。 </p> </li> 
-         <li> <p><strong>忽略使用者在任務持續期間的休假</strong>：選取此選項時，即使任務的主要受指派人在任務持續期間具有休假，根據此範本建立的專案上任務的計畫日期仍維持原始計畫。 </p> </li> 
-         </ul> </td> 
+       <td role="rowheader"><strong>使用者休假</strong> </td> 
+       <td> <p>決定任務之主要受指派人的休假是否調整任務計畫日期。 當您將範本附加到現有專案時，並且範本對此欄位的設定與專案不同，專案上的設定保持不變。 新範本此設定的預設選項與系統層級專案偏好設定相同。 </p> <p>如需系統層級專案偏好設定的相關資訊，請參閱<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">設定全系統的專案偏好設定</a>。 </p> <p>如需此設定如何影響專案上任務日期的詳細資訊，請參閱<a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">編輯專案</a>。<br>從下列選項中選取：<br></p> 
+       <ul> 
+       <li> <p><strong>考慮使用者在任務持續期間的休假</strong>：選取此選項時，如果休假發生在任務持續期間，則根據任務的主要受指派人的休假，調整從此範本建立的專案上任務的計畫日期。 </p> </li> 
+       <li> <p><strong>忽略使用者在任務持續期間的休假</strong>：選取此選項時，即使任務的主要受指派人在任務持續期間具有休假，根據此範本建立的專案上任務的計畫日期仍維持原始計畫。 </p> </li> 
+       </ul> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>資源平準模式</strong> </td> 
-         <td> <p>從下列選項中選取：<br></p> 
-         <ul> 
-         <li> <p><strong>手動</strong>：您必須在從這個範本建立的專案上手動平準資源（這是預設設定）</p> </li> 
-         <li> <p><strong>自動：</strong> Workfront會針對未來的專案提供資源層級。 <br>如需資源平準的詳細資訊，請參閱甘特圖<a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">中的</a>平準資源。 </p> </li> 
-         </ul> </td> 
+       <td role="rowheader"><strong>資源平準模式</strong> </td> 
+       <td> <p>從下列選項中選取：<br></p> 
+       <ul> 
+       <li> <p><strong>手動</strong>：您必須在從這個範本建立的專案上手動平準資源（這是預設設定）</p> </li> 
+       <li> <p><strong>自動：</strong> Workfront會針對未來的專案提供資源層級。 <br>如需資源平準的詳細資訊，請參閱甘特圖<a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">中的</a>平準資源。 </p> </li> 
+       </ul> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>風險</strong> </td> 
-         <td> <p>定義從此範本建立的專案之風險等級。 風險只是專案風險程度的指標。 您可以根據風險等級來排定執行專案的優先順序。<br>請考慮從下列風險等級中選取：<br></p> 
-         <ul> 
-         <li> <p><strong>極低</strong> </p> </li> 
-         <li> <p><strong>低</strong> </p> </li> 
-         <li> <p><strong>Medium</strong> </p> </li> 
-         <li> <p><strong>高</strong> </p> </li> 
-         <li> <p><strong>非常高</strong> </p> </li> 
-         </ul> </td> 
+       <td role="rowheader"><strong>風險</strong> </td> 
+       <td> <p>定義從此範本建立的專案之風險等級。 風險只是專案風險程度的指標。 您可以根據風險等級來排定執行專案的優先順序。<br>請考慮從下列風險等級中選取：<br></p> 
+       <ul> 
+       <li> <p><strong>極低</strong> </p> </li> 
+       <li> <p><strong>低</strong> </p> </li> 
+       <li> <p><strong>Medium</strong> </p> </li> 
+       <li> <p><strong>高</strong> </p> </li> 
+       <li> <p><strong>非常高</strong> </p> </li> 
+       </ul> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>資源集區</strong> </td> 
-         <td> <p>指定與範本關聯的資源集區。 資源集區是同時需要用來完成專案的使用者集合。 如需資源集區的詳細資訊，請參閱<a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref">資源集區概述</a>。</p> <p> <p><b>附註</b>
+       <td role="rowheader"><strong>資源集區</strong> </td> 
+       <td> <p>指定與範本關聯的資源集區。 資源集區是同時需要用來完成專案的使用者集合。 如需資源集區的詳細資訊，請參閱<a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref">資源集區概述</a>。</p> <p> <p><b>附註</b>
 
-   當您大量編輯範本時，此欄位只會顯示所有選定範本通用的資源集區。 如果選取的範本沒有共用資源集區，此欄位將為空白。 您在此處指定的資源集區將會覆寫範本的個別資源集區。</p> </p> </td>
-   </tr>
-
+       當您大量編輯範本時，此欄位只會顯示所有選取範本共用的資源集區。 如果選取的範本沒有共用資源集區，此欄位將為空白。 您在此處指定的資源集區將會覆寫範本的個別資源集區。&lt;/p> &lt;/p> &lt;/td>
+       &lt;/tr>
+   
    <tr> 
       <td role="rowheader"><strong>此專案需要時間核准</strong></td>
 
-<td><p>選取此選項可要求從此範本建立的專案之未來專案所有者核准登入專案的時間。</p> 
+   <td><p>選取此選項可要求從此範本建立的專案之未來專案所有者核准登入專案的時間。</p> 
    <p>如果您使用「計費記錄」並選取此選項，則只有專案中已核准的時數，才會顯示為「計費記錄」的可用計費時數。 </p>
    <p>核准專案的時間與核準時程表無關。 如需專案需要核准時間的詳細資訊，請參閱<a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">專案需要核准時間</a>。</p>
    </td> 
@@ -431,8 +432,8 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    <li>清單中只會顯示有效的核准流程。 </li> 
    <li> <p>系統範圍及群組特定的核准程式會顯示在清單中。 與範本以外的群組相關聯的核准程式不會顯示在清單中。</p> <p><b>重要</b>
 
-如果與範本關聯的群組變更，群組特定核准流程會變成單一使用核准流程。 如需關於專案群組的變更或核准程式變更如何影響核准設定的詳細資訊，請參閱<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md">群組和核准程式變更如何影響指派的核准程式</a>。 </p> </li>
-<li> <p>如果您新增單次使用的核准程式，在此欄位中顯示為「自訂」。 如需詳細資訊，請參閱<a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">將新的或現有的核准程式與工作建立關聯</a>。 </p> 
+   如果與範本關聯的群組變更，群組特定核准流程會變成單一使用核准流程。 如需關於專案群組的變更或核准程式變更如何影響核准設定的詳細資訊，請參閱<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md">群組和核准程式變更如何影響指派的核准程式</a>。 </p> </li>
+   <li> <p>如果您新增單次使用的核准程式，在此欄位中顯示為「自訂」。 如需詳細資訊，請參閱<a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">將新的或現有的核准程式與工作建立關聯</a>。 </p> 
       </li> 
       <li> <p>大量編輯範本時，會出現下列情況：</p> 
       <ul> 
@@ -591,7 +592,7 @@ For instructions on editing Linked folders, see [Edit workflow values in a proje
 1. 在&#x200B;**編輯範本**&#x200B;方塊中，按一下&#x200B;**註解**。
 
    ![編輯範本方塊註解區段](assets/edit-template-box-comment-section.png)
-1. 新增您正在進行之更新的相關註解、標籤其他使用者，或選取&#x200B;**我的公司私有**&#x200B;方塊，讓貴公司的使用者無法存取更新，然後按一下[儲存]。**&#x200B;**
+1. 新增您正在進行之更新的相關註解、標籤其他使用者，或選取&#x200B;**我的公司私有**&#x200B;方塊，讓貴公司的使用者無法存取更新，然後按一下[儲存]。****
 
 ## 大量編輯範本
 
@@ -613,6 +614,10 @@ Editing templates in bulk differs depending on which environment you are using.
 
    **編輯範本**&#x200B;對話方塊開啟。
 
+   <span class="preview">預覽環境中的範例影像：</span>
+   ![編輯範本](assets/bulk-edit-templates-0925.png)
+
+   生產環境中的影像範例：
    ![編輯範本](assets/edit-templates-in-bulk-box-nwe-350x327.png)
 
 1. 按一下左側的區段以編輯所有選取的範本。
@@ -631,7 +636,7 @@ Editing templates in bulk differs depending on which environment you are using.
    * 問題
    * 評論
 
-1. 按一下「**儲存變更**」。
+1. 按一下&#x200B;<span class="preview">**儲存**</span>&#x200B;或&#x200B;**儲存變更**。
 
    您所做的所有變更現在會顯示在所有選取的範本上。
 
