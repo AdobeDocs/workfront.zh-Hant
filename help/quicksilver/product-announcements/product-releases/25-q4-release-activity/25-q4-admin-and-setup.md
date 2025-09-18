@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: 30e5358549291e5d04d42ab470dccd444521ecb8
+source-git-commit: a7b220017e0dc42e91a0b518b4eadcae8bb9fb8a
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 預覽： 2025年8月28日
->* 適用於所有客戶的生產：自2025年9月18日起分階段推出
+>* 適用於所有客戶的生產：自2025年9月25日起分階段推出
 
 我們已將Workfront使用者設定檔的外觀與操作方式，更新為與Workfront其他區域一致的現代化設計。 這些更新會套用至編輯單一設定檔或大量編輯多個設定檔的管理員，或編輯自己設定檔的使用者。
 
