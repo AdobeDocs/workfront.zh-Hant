@@ -6,9 +6,9 @@ description: 您可以建立、編輯和指派為使用者產生週期性時程�
 author: Lisa
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: d7af8c5888147e847b4e239b629373b4b72541f7
+source-git-commit: 764200970aeb8d121cd99a8d4239e0b9853670a9
 workflow-type: tm+mt
-source-wordcount: '1695'
+source-wordcount: '1635'
 ht-degree: 2%
 
 ---
@@ -16,16 +16,6 @@ ht-degree: 2%
 # 建立、編輯和指派時程表設定檔
 
 <!--Audited: 06/2025-->
-
-<!--at the Prod release, remove the Production and Preview references from this article-->
-
-<div class="preview">
-
-本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在預覽版發佈一週後，生產環境中也將提供相同功能給所有客戶。
-
-如需詳細資訊，請參閱[介面現代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。
-
-</div>
 
 您可以建立、編輯和指派為使用者產生週期性時程表的時程表設定檔，您無需採取任何進一步的干預。 這可為您節省時間，並確保使用者之間遵循下列原則：
 
@@ -146,7 +136,7 @@ ht-degree: 2%
       <td role="rowheader"><strong>可以編輯時間</strong> </td> 
       <td> <p> <p>選取此選項可允許核准者在時程表上編輯小時。
 
-   <p>此選項可與「設定&gt;時程表和時數&gt;偏好設定」區域中的&#x200B;**限制只有擁有者和管理員能編輯時程表**&#x200B;設定搭配使用。 如需詳細資訊，請參閱<a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">設定時程表和小時喜好設定</a>。</p>
+   <p>此選項可與「設定&gt;時程表和時數&gt;偏好設定」區域中的**限制只有擁有者和管理員能編輯時程表**設定搭配使用。 如需詳細資訊，請參閱<a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">設定時程表和小時喜好設定</a>。</p>
 
    <p>存在下列情況： </p>
 
@@ -182,9 +172,9 @@ ht-degree: 2%
     </tbody> 
     </table>
 
-1. 在生產環境中，或建立群組層級時程表設定檔時，按一下&#x200B;**指派人員**&#x200B;索引標籤，將時程表設定檔與特定使用者、群組或(如果您是Workfront管理員)團隊建立關聯。<!--Keep the reference to the group upon release to Prod, for now, until they unshim the group Timesheet Profiles-->
+1. 建立群組層級的時程表設定檔時，請按一下&#x200B;**指派人員**&#x200B;索引標籤，將時程表設定檔與特定使用者、群組或(如果您是Workfront管理員)團隊建立關聯。<!--Keep the reference to the group upon release to Prod, for now, until they unshim the group Timesheet Profiles-->
 
-   <span class="preview">在預覽環境中，建立系統的時程表設定檔時，請捲動至頁面底部，並找到&#x200B;**指派人員**&#x200B;區段。</span> <!--Keep the reference to the system when releasing to Prod, until they unshim the group Timesheet Profile-->
+   為系統建立時間表設定檔時，請捲動至頁面底部，並找到&#x200B;**指派人員**&#x200B;區段。<!--Keep the reference to the system when releasing to Prod, until they unshim the group Timesheet Profile-->
 
    開始輸入使用者、群組或團隊的名稱，然後當它出現在下拉式清單中時按一下它。
 
