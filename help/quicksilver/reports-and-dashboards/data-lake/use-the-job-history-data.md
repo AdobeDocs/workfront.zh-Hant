@@ -6,7 +6,7 @@ description: 透過Data Connect，Workfront管理員可以存取「工作歷史�
 author: Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
-source-git-commit: 79e8b2b1dd3b7374173c2a930abdf8a0bca2cda6
+source-git-commit: 05cf34fe6659c50da76d2478c6e79352346dc9a5
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 在「工作歷史記錄」檢視中，Workfront管理員可存取每個資料重新整理工作的詳細記錄。 這些記錄為工作提供寶貴的insight，讓您的資料保持最新，並協助您建立理想的時間範圍，說明何時執行流程並重新整理業務視覺效果。
 
-![工作記錄檢視](assets/job-history-tab.png)
+![工作記錄檢視](assets/job-history-overview.png)
 
 「工作歷史記錄」檢視資料欄包含下列資訊：
 
