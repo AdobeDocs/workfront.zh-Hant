@@ -2,15 +2,15 @@
 product-area: documents
 navigation-topic: approvals
 title: 建立AI檢閱者
-description: 在GenStudio基礎中設定至少一個品牌後，您可以建立多個AI稽核者，然後將其指派給核准範本和個別稽核及核准請求。
+description: 在GenStudio Foundation中設定至少一個品牌後，您可以建立多個AI稽核者，然後將其指派給核准範本和個別稽核及核准請求。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 4673049e-119e-4315-95f0-f10d8b286856
-source-git-commit: 7d7291539d4436f0c4700363b7800a5cc6ac4096
+source-git-commit: d088b40cd8d46a986998fde2176646aa1660cb6b
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
 >
 >此功能目前處於Beta測試階段。
 
-在GenStudio基礎中設定至少一個品牌後，您可以建立多個AI稽核者，然後將其指派給核准範本和個別稽核及核准請求。
+在GenStudio Foundation中設定至少一個品牌後，您可以建立多個AI稽核者，然後將其指派給核准範本和個別稽核及核准請求。
 
 >[!NOTE]
 >
@@ -55,9 +55,9 @@ ht-degree: 1%
 
 ## 先決條件
 
-開始之前，您必須在GenStudio基礎中設定影像品牌指導方針。
+開始之前，您必須在GenStudio Foundation中設定影像品牌指導方針。
 
-若要深入瞭解影像品牌准則，請參閱[開始使用Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/get-started)。
+若要深入瞭解影像品牌准則，請參閱[開始使用Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started)。
 
 ## 新增AI檢閱者
 

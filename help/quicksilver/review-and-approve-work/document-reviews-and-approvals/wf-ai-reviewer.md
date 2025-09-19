@@ -7,7 +7,7 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: e20e26ef11046ed252725f8c5431469642845b52
+source-git-commit: d088b40cd8d46a986998fde2176646aa1660cb6b
 workflow-type: tm+mt
 source-wordcount: '638'
 ht-degree: 4%
@@ -55,12 +55,12 @@ AI檢閱者可檢閱下列檔案型別：
 
 ## 設定品牌指南
 
-Workfront AI檢閱者在檢閱內容時，會使用Genstudio Foundation中設定的品牌准則。 目前，您只能設定影像的品牌指南。 如需詳細資訊，請參閱[開始使用Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/get-started)。
+Workfront AI檢閱者在檢閱內容時，會使用Genstudio Foundation中設定的品牌准則。 目前，您只能設定影像的品牌指南。 如需詳細資訊，請參閱[開始使用Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started)。
 
 
 ## 建立AI檢閱者
 
-一旦GenStudio基礎中至少設定了一個品牌，Workfront管理員即可在設定區域中開始建立AI檢閱者。 然後可以將這些AI稽核者指派給核准範本和個別稽核與核准請求。 目前，AI檢閱者只能根據影像品牌准則進行檢閱。
+在GenStudio Foundation中設定至少一個品牌後，Workfront管理員就可以開始在「設定」區域中建立AI檢閱者。 然後可以將這些AI稽核者指派給核准範本和個別稽核與核准請求。 目前，AI檢閱者只能根據影像品牌准則進行檢閱。
 
 如需詳細資訊，請參閱[建立AI檢閱者](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)。
 
