@@ -6,9 +6,9 @@ description: 身為擁有Plan授權的使用者，您可以設定以小時或天
 author: Alina
 feature: Timesheets
 exl-id: 4f801a13-182d-4e06-98ea-f6863f6a8edf
-source-git-commit: b4ab350af22afa44774f06d82daf1c3fb266d2b9
+source-git-commit: 106ef838bfee5e496cae864eca5c19fd12fdd18e
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '455'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計劃 </p> </td> 
+   <td> <p>規劃 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">存取層級設定*</td> 
@@ -56,7 +56,7 @@ ht-degree: 1%
 
 1. 在產生的對話方塊中，在&#x200B;**資源規劃**&#x200B;區段中，找到&#x200B;**在**&#x200B;中記錄時間選項。
 
-   ![](assets/new-timesheet-log-hours-350x249.png)
+   ![以選項](assets/user-profile-log-time-options.png)記錄時間
 
 1. （視條件而定）如果您是同時編輯多個使用者的系統管理員，請選取&#x200B;**在**&#x200B;中記錄時間。
 1. 從下列選項中選取記錄時間：
