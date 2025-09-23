@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: 48de4553478fc42d88d81ea953440337f6684e50
+source-git-commit: bea983292d33a50bbe27bd116a74aba33e4c69dd
 workflow-type: tm+mt
-source-wordcount: '2057'
+source-wordcount: '2082'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 <!-- Audited: 5/2025 -->
 
 系統管理員可以安裝下列[!DNL Adobe Workfront]個Blueprint。 如需藍圖的詳細資訊，請參閱[藍圖概觀](/help/quicksilver/administration-and-setup/blueprints/blueprints-overview.md)。
+
+**使用中的使用者分析報告（新）**&#x200B;此藍圖包含儀表板，可協助管理員驗證使用者設定、識別對齊錯誤，並確保設定支援預期的應用程式用途&#x200B;。
 
 **[!UICONTROL 新增員工IT檢查清單]**
 此Blueprint包含[!DNL Workfront]專業服務組織在與企業IT團隊進行實作合約期間已使用多年的範本，用以組織新員工的入職活動。 使用此範本可讓IT團隊有效率地運作，提供積極的新員工體驗，並加快追蹤生產力。
