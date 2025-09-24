@@ -3,11 +3,11 @@ content-type: reference
 product-area: resource-management;user-management
 navigation-topic: resource-planning
 title: 使用使用者檢視時檢視資源規劃工具中的可用、計畫和實際時數或FTE
-description: 在RP中使用「使用者」檢視計畫時，在「資源規劃工具」中檢視可用、計畫及實際時數或FTE — 可能是「RP中的預算資源」或「RP中的管理資源」。 等等…… — 或可能需要從其他POV重新利用?!)」
+description: 在RP中使用「使用者」檢視表計畫時，在「資源供需規劃員」中檢視可用、計畫及實際時數或FTE — 可能是「RP中的預算資源」或「RP中的管理資源」。 等等…… — 或可能需要從其他POV重新利用?!)
 author: LIsa
 feature: Resource Management
 exl-id: 6b532aa2-435f-4fda-b7ce-abe0a785638f
-source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
+source-git-commit: 13621c29f32a514af46489fb58397f3e96f640ce
 workflow-type: tm+mt
 source-wordcount: '1739'
 ht-degree: 1%
@@ -107,7 +107,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>使用者</td> 
-   <td> 從所有專案中指派給使用者的所有任務或問題的總計畫時數或FTE。<br><p>這包括指派給使用者但與任何工作角色沒有關聯的任務和問題，以及您無權管理之專案上的任務或問題。</p><p>當使用工作負載平衡器修改使用者時數分配時，如果所選的日期僅包含任務或問題的一部分，則資源規劃工具中的資料可能會受到影響。 如需有關修改使用者的配置資訊，請參閱在工作負載平衡器</a>中管理使用者配置。<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref"> </p></td> 
+   <td> 從所有專案中指派給使用者的所有任務或問題的總計畫時數或FTE。<br><p>這包括指派給使用者但與任何工作角色沒有關聯的任務和問題，以及您無權管理之專案上的任務或問題。</p><p>當使用工作負載平衡器修改使用者時數分配時，如果所選的日期僅包含任務或問題的一部分，則資源規劃工具中的資料可能會受到影響。 如需有關修改使用者的配置資訊，請參閱在工作負載平衡器<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">中管理使用者配置。</a> </p></td> 
   </tr> 
   <tr> 
    <td>專案</td> 

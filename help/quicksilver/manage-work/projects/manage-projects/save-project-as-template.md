@@ -2,13 +2,13 @@
 product-area: projects;templates
 navigation-topic: manage-projects
 title: 將專案另存為範本
-description: 在專案層級將專案儲存為templateSave as template （範本），讓使用者在UI中看到；此連結的另一篇文章有更深入的連結（逐步進行）。 此功能需要同時保留在專案和範本區域。)」
+description: 在專案層級將專案儲存為範本，讓使用者在UI中看到該專案；此連結的另一篇文章更深入（逐步進行）。 此功能需要保持在專案和範本區域。)
 author: Alina
 feature: Work Management
 exl-id: 4b5dfe12-f984-47c6-8e19-78b549f19159
-source-git-commit: f7cb314067d105d5534f4be356024aea8e8f9a28
+source-git-commit: 13621c29f32a514af46489fb58397f3e96f640ce
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '487'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -162,10 +162,10 @@ Saving a project as a template differs in the Production and the Preview environ
     </tbody> 
    </table>
 
-1. 按一下左側面板中的「自訂Forms」**&#x200B;**，移除或重新排序表單。
+1. 按一下左側面板中的「自訂Forms」****，移除或重新排序表單。
 
    若要重新排序表單，請以正確順序拖放表單。
-若要移除表單，請選取該表單，然後按一下[移除]。**&#x200B;** 按一下&#x200B;**取消**&#x200B;以移除選取的表單。
+若要移除表單，請選取該表單，然後按一下[移除]。**** 按一下&#x200B;**取消**&#x200B;以移除選取的表單。
 
    ![儲存為範本方塊中的自訂表單區域](assets/custom-forms-ara-in-save-as-template-box.png)
 
@@ -175,7 +175,7 @@ Saving a project as a template differs in the Production and the Preview environ
 
    另存為範本方塊中的![選項區域](assets/options-area-in-save-as-template-box.png)
 
-1. 按一下左側面板中的「排除&#x200B;**&#x200B;**」，然後選取您要從專案排除的任何工作。 預設會取消選取所有工作。
+1. 按一下左側面板中的「排除&#x200B;****」，然後選取您要從專案排除的任何工作。 預設會取消選取所有工作。
 
    ![另存為範本方塊中的排除區域](assets/exclude-area-save-as-template-box.png)
 
