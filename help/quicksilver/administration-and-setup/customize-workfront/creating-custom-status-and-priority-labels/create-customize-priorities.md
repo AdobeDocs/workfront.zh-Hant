@@ -5,14 +5,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e7952cf-f07a-412b-9f9a-623cdba46849
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 7db80f5bacf52b7bbe540f4e38e88853af86a5e2
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 2%
+source-wordcount: '761'
+ht-degree: 1%
 
 ---
 
 # 建立和自訂優先順序
+
+{{highlighted-preview}}
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -44,7 +46,7 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td>
+   <td>[！UICONTROL系統管理員]</td>
   </tr> 
  </tbody> 
 </table>
@@ -60,11 +62,11 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 * 重新命名優先順序。
 * 重新排列優先順序。
 
-  如需有關如何重新排序優先順序的詳細資訊，請參閱[建立專案任務或問題的優先順序](#create-a-priority-for-a-project-task-or-issue)。
+  如需有關如何重新排序優先順序的詳細資訊，請參閱[建立專案、任務或問題的優先順序](#create-a-priority-for-a-project-task-or-issue)。
 
 * 變更預設優先順序。
 
-  如需有關變更預設優先順序功能的詳細資訊，請參閱[建立專案任務或問題的優先順序](#create-a-priority-for-a-project-task-or-issue)。
+  如需有關變更預設優先順序功能的詳細資訊，請參閱[為專案、任務或問題建立優先順序](#create-a-priority-for-a-project-task-or-issue)。
 
 * 編輯優先順序的說明。
 * 設定每個優先順序的顏色。
@@ -79,7 +81,7 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 
 * 隱藏優先順序。
 
-  如需隱藏優先順序功能的詳細資訊，請參閱[為專案任務或問題建立優先順序](#create-a-priority-for-a-project-task-or-issue)。
+  如需隱藏優先順序功能的詳細資訊，請參閱[為專案、任務或問題建立優先順序](#create-a-priority-for-a-project-task-or-issue)。
 
   >[!NOTE]
   >
@@ -89,11 +91,11 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 
 * 無
 * 低
-* 標準
+* 正常
 * 高
 * 緊急
 
-## 建立專案任務或問題的優先順序 {#create-a-priority-for-a-project-task-or-issue}
+## 建立專案、任務或問題的優先順序 {#create-a-priority-for-a-project-task-or-issue}
 
 除了Workfront提供的預設優先順序之外，您還可以新增自己的優先順序以反映組織的需求。
 
@@ -102,41 +104,49 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 1. 在左側面板中，按一下&#x200B;**專案偏好設定** > **優先順序**。
 
 1. 按一下您要為（**專案**、**任務**&#x200B;或&#x200B;**問題**）建立優先順序的物件型別標籤。
-1. 按一下&#x200B;**新增優先順序**。
-1. 指定新優先順序的下列資訊：
+1. 按一下資料表&#x200B;<span class="preview">**底部的**&#x200B;新增資料列</span>，或&#x200B;**新增優先順序**。
+1. 為優先順序設定下列選項：
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">優先順序名稱</td> 
-      <td>輸入優先順序的名稱。</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">重要</td> 
-      <td> <p>新增優先順序時，預設會指定一個數字。 如果不符合您的需求，請編輯此數字。</p> <p>每個優先順序的<strong>重要性</strong>數字對您選取的物件而言必須是唯一的。<br>優先順序的數目反映了專案、任務或問題的重要性：最高的數目會對應到最高的優先順序。</p> <p><b>注意</b>：儲存優先順序後，您無法編輯重要性號碼。 </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">顏色</td> 
-      <td> <p>選擇優先順序的顏色。</p> <p>優先順序的顏色用於圖表報告和敏捷團隊設定。 如需圖表報表的詳細資訊，請參閱<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md" class="MCXref xref">新增圖表至報表</a>。</p> <p>如需敏捷團隊設定的詳細資訊，請參閱中的。</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">預設優先順序</td> 
-      <td> <p>選取選項按鈕，決定這是否應為預設優先順序。</p> <p>如果優先順序指定為<strong>預設優先順序</strong>，則會自動為Workfront中的所有專案、任務或問題挑選它。 <strong>一般</strong>是Workfront中所有物件的預設優先順序。</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">說明</td> 
-      <td>新增優先順序的說明以說明其功能。</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">隱藏</td> 
-      <td> <p>如果要隱藏優先順序，請選取此方塊。</p><p>當您選取<b>隱藏</b>選項時，優先順序不會在Workfront中的任何地方顯示，使用者無法為其專案、任務和問題選擇它。</p> 
-      <p><b>重要</b>：建議您隱藏不想再使用的優先順序，不要刪除優先順序。 透過隱藏它們，您仍會保留所有已使用此優先順序完成的物件的歷史資料，同時防止人們日後選擇此優先順序。 </p>
-      <p>您可以視需要選擇拖放優先順序，以變更其清單順序。 這會變更專案、任務和問題的顯示順序。 這不會變更<b>重要性</b>數字。 </p></td> 
-     </tr> 
-    </tbody> 
-   </table>
+   * **優先順序名稱**：輸入優先順序的名稱。
+   * **重要性**：新增優先順序時，預設會指派一個數字。 如果不符合您的需求，請編輯此數字。
+
+     每個優先順序的重要性數字必須是唯一的。 優先順序的數目反映了專案、任務或問題的重要性：最高的數目對應到最高的優先順序。
+
+     儲存優先順序後就無法編輯此數字。
+
+   * **色彩**：選擇優先順序的色彩。
+
+     優先順序的顏色用於圖表報告和敏捷團隊設定。 如需圖表報表的資訊，請參閱[新增圖表至報表](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md)。 有關敏捷團隊設定的資訊，請參閱[建立敏捷團隊](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md)。
+
+   * **預設優先順序**：選取您希望Workfront自動套用至所有新建立專案、任務或問題的優先順序。
+
+     **一般**&#x200B;是Workfront中所有物件的預設優先順序。
+
+     您不能將隱藏的優先順序設為預設值。
+
+     <div class="preview">
+
+     預設優先順序以圖示![預設優先順序圖示](assets/default-icon.png)表示。 若要選擇新的預設值，請執行下列任一項作業：
+
+      * 選取優先順序名稱旁的核取方塊，並在熒幕底部的動作列中選取&#x200B;**設定為預設**。
+      * 將滑鼠停留在優先順序名稱上，然後按一下出現的&#x200B;**更多**&#x200B;功能表。 然後，選取&#x200B;**設定預設值**。
+
+        新的預設優先順序會以圖示標示。
+
+     </div>
+
+   * **描述**：輸入優先順序的描述，以說明其功能。
+   * <span class="preview">**隱藏選擇**</span>&#x200B;或&#x200B;**隱藏**： <span class="preview">選擇&#x200B;**是**</span>&#x200B;或選取核取方塊以隱藏不再需要的優先順序。
+
+     隱藏的優先順序在Workfront中的任何位置都不會顯示，因此使用者無法為其專案、任務或問題選擇它。
+
+     >[!IMPORTANT]
+     >
+     >建議您隱藏優先順序，不要刪除您不想再使用的優先順序。 如此一來，您就可以保留物件上所有已使用優先順序完成的歷史資料，同時防止人們日後使用優先順序。
+
+1. （選擇性）依您想要的順序拖放優先順序，以變更優先順序的清單順序。
+
+   這會變更專案、任務或問題的顯示順序。 它不會變更&#x200B;**重要性**&#x200B;數字。
 
 1. 按一下「**儲存**」。
 
