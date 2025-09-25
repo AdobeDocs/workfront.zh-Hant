@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 4e1761f9-bf73-4355-925a-9136f2787a3f
-source-git-commit: a7dc4a24163f6c161362744d2ecb302fb2506dc2
+source-git-commit: bfece1075b137f9fcbaf6046e626952b5f2bde2f
 workflow-type: tm+mt
-source-wordcount: '1797'
+source-wordcount: '2016'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,59 @@ Previously, request forms were located only on the object for which they were cr
 
 For more information on request forms, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md). -->
 
+## 重新設計Planning檢視工具列和存取點
+
+>[!NOTE]
+>
+>* 預覽： 2025年9月25日
+>* 生產快速發行： 2025年10月15日
+>* 全部生產： 2025年10月16日
+
+我們已重新設計您在記錄型別頁面上顯示、存取及管理檢視的方式。
+
+此更新包含下列改善專案：
+
+* 檢視標籤已由記錄型別頁面左上角的下拉式功能表取代。 功能表現在會顯示所有檢視的清單。
+* 您可以依照您的偏好順序拖放檢視，以重新排列檢視。
+* 除了全熒幕模式以外，大部分的工具列圖示已經從頁面的右側移至左側。
+* 「搜尋」方塊已移至工具列的右側。
+每個檢視的功能並未變更。
+
+如需詳細資訊，請參閱[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)。
+
+<!--## Enhancements to request forms in Workfront Planning
+
+>[!NOTE]
+>
+>* Preview: September 25, 2025
+>* Production fast release: October 15, 2025
+>* Production all: October 16, 2025
+
+To make the request process simpler, we've made some enhancements to request forms. Now, when configuring a request form, you can configure the following:
+
+* Configure when requests created from the form will be automatically marked complete. You can set the request to be marked complete when the requested object is created, or when the requested object is complete based on criteria you specify.
+* Set up an automation that is triggered when a request is submitted from the form. Currently, you can automatically create records when the request is submitted. 
+
+For more information on creating a request form and configuring these options, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md). -->
+
+## 在行事曆每週檢視中調整記錄大小
+
+>[!NOTE]
+>
+>* 預覽： 2025年9月25日
+>* 生產快速發行： 2025年10月15日
+>* 全部生產： 2025年10月16日
+
+在記錄型別頁面的每週行事曆檢視中，您現在可以按一下並保留記錄的左邊界或右邊界，以修改其持續時間。
+
+移動記錄的邊界也會立即修改其開始和結束日期。
+
+會顯示一個輪廓，引導您到達重新調整事件大小之前的新位置。
+
+日曆每月檢視中已存在此功能。
+
+如需詳細資訊，請參閱[編輯記錄](/help/quicksilver/planning/records/edit-records.md)。
+
 ## 變更或刪除欄位時顯示新資訊方塊
 
 >[!NOTE]
@@ -57,8 +110,8 @@ For more information on request forms, see [Create and manage a request form in 
 >[!NOTE]
 >
 >預覽： 2025年9月11日
->&#x200B;>適用於所有客戶的生產： 2025年9月11日
->&#x200B;>[!BADGE 不在排程]{type=Neutral}內
+>>適用於所有客戶的生產： 2025年9月11日
+>>[!BADGE 不在排程]{type=Neutral}內
 
 如果您的組織同時使用Adobe Workfront Planning和Adobe GenStudio for Performance Marketing，您可能會想要比GenStudio預設支援的更詳細地定義行銷概念，例如行銷活動、產品和角色。
 
@@ -223,8 +276,8 @@ For more information on request forms, see [Create and manage a request form in 
 >[!NOTE]
 >
 >預覽： 2025年8月7日
->&#x200B;>適用於所有客戶的生產： 2025年8月
->&#x200B;>[!BADGE 不在排程]{type=Neutral}內
+>>適用於所有客戶的生產： 2025年8月
+>>[!BADGE 不在排程]{type=Neutral}內
 
 我們已將具有以下用途的新運算式新增至Workfront Planning中的公式欄位及Workfront中的計算自訂欄位：
 
@@ -239,8 +292,8 @@ For more information on request forms, see [Create and manage a request form in 
 >[!NOTE]
 >
 >預覽： 2025年7月31日
->&#x200B;>適用於所有客戶的生產： 2025年7月31日
->&#x200B;>[!BADGE 不在排程]{type=Neutral}內
+>>適用於所有客戶的生產： 2025年7月31日
+>>[!BADGE 不在排程]{type=Neutral}內
 
 我們在記錄表格檢視中建立或編輯欄位時，新增了「最大化」按鈕來放大公式欄位。 此外，我們在新的放大視窗中新增了「最小化」按鈕，以恢復至欄位建立方塊。
 
@@ -289,8 +342,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >預覽： 2025年7月24日
->&#x200B;>生產快速發行： 2025年8月14日
->&#x200B;>所有客戶的生產： 2025年10月16日
+>>生產快速發行： 2025年8月14日
+>>所有客戶的生產： 2025年10月16日
 
 您現在可以在時間軸上的任何位置按兩下，在記錄型別的時間軸檢視中建立記錄。
 
@@ -305,8 +358,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >預覽： 2025年7月24日
->&#x200B;>生產快速發行： 2025年8月14日
->&#x200B;>所有客戶的生產： 2025年10月16日
+>>生產快速發行： 2025年8月14日
+>>所有客戶的生產： 2025年10月16日
 
 您現在可以從工作區頁面上記錄型別卡片的「更多」選單共用記錄型別。 在此增強功能之前，「共用」選項僅在記錄型別頁面內可用。
 
@@ -317,8 +370,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >預覽： 2025年7月24日
->&#x200B;>生產快速發行： 2025年8月14日
->&#x200B;>所有客戶的生產： 2025年10月16日
+>>生產快速發行： 2025年8月14日
+>>所有客戶的生產： 2025年10月16日
 
 您現在能以全熒幕模式顯示所有Workfront Planning檢視（表格、時間軸和行事曆）。 檢視功能會保留，您也可以在全熒幕中變更檢視。
 
@@ -331,8 +384,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >預覽： 2025年7月22日
->&#x200B;>快速發行生產： 2025年8月14日
->&#x200B;>所有客戶的生產： 2025年10月16日
+>>快速發行生產： 2025年8月14日
+>>所有客戶的生產： 2025年10月16日
 
 為了讓核准程式更靈活，我們新增了在Planning請求表單上新增團隊作為核准者的功能。 現在，您可以在設定核准者時輸入並選取專案團隊名稱。 任何團隊成員都可以做出決定，這會計為整個團隊的核准決定。
 
@@ -345,8 +398,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >預覽： 2025年7月17日
->&#x200B;>快速發行生產： 2025年8月14日
->&#x200B;>所有客戶的生產： 2025年10月16日
+>>快速發行生產： 2025年8月14日
+>>所有客戶的生產： 2025年10月16日
 
 我們引進了以下欄位，以擷取透過提交具有核准的請求所建立的記錄的核准資訊：
 
@@ -360,8 +413,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >預覽： 2025年7月10日
->&#x200B;>生產快速發行： 2025年8月14日
->&#x200B;>所有客戶的生產： 2025年10月16日
+>>生產快速發行： 2025年8月14日
+>>所有客戶的生產： 2025年10月16日
 
 
 現在，當您已將群組套用至表格檢視時，將記錄新增至表格將會自動填入與您將記錄新增至的群組相關聯的欄位。

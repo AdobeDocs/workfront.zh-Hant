@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: a7b220017e0dc42e91a0b518b4eadcae8bb9fb8a
+source-git-commit: aec301a72ce0864faaf61754552ab8b4ba9bfb49
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '591'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,20 @@ ht-degree: 0%
 本頁說明2025年第四季版本管理員對預覽環境所做的增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2025年第四季版本週期目前可用的所有變更清單，請參閱[2025年第四季版本概觀](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)。
+
+## 從物件移除自訂表單時確認
+
+>[!NOTE]
+>
+>* 預覽： 2025年9月25日
+>* 生產快速發行： 2025年10月15日
+>* 所有客戶的生產： 2025年10月16日
+
+為確保您能保留所需資料的存取權，我們已在從物件移除自訂表單時新增確認對話方塊。 從物件中移除自訂表單，會將該表單中的資料從物件中永久移除。 現在，對話方塊可讓您確認您瞭解此資料將會移除，確保您不會移除所需的資料。
+
+過去，資料移除的唯一警告是移除選項附近的文字。
+
+如需移除自訂表單的詳細資訊，請參閱「管理附加到物件的自訂表單」一文中的[從物件移除自訂表單](/help/quicksilver/workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md#remove-a-custom-form-from-an-object)。
 
 ## Workfront使用者設定檔的更新
 
