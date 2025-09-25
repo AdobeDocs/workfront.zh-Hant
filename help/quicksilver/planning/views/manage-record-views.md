@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
+source-git-commit: f32b2f9e5a511b83e5793299e47b9c1c12857bd8
 workflow-type: tm+mt
-source-wordcount: '1216'
-ht-degree: 2%
+source-wordcount: '1260'
+ht-degree: 1%
 
 ---
 
@@ -187,13 +187,12 @@ ht-degree: 2%
 
    依預設，選取型別的所有記錄都會顯示在表格檢視中。
 
-1. 按一下「**+檢視**」以新增檢視。
+1. 根據您使用的環境，執行下列動作：
 
-   <!--at preview release, replace the step above with this one: 
-    1. Depending on which environment you use, do the following: 
-    * In the Production environment, click the **+View** tab. 
-    * <span class="preview">In the Preview environment, click the drop-down icon ![Dropdown icon](assets/drop-down-icon.png) next to the current view name, then click **+New view**.</span>-->
-   <!--1. <span class="preview">From the view dropdown menu, drag and drop views in order of your preference.</span>-->
+   * 在生產環境中，按一下「**+檢視**」標籤。
+   * <span class="preview">在預覽環境中，按一下目前檢視名稱旁的下拉式圖示![下拉式圖示](assets/drop-down-icon.png)，然後按一下&#x200B;**+新增檢視**。</span>
+
+1. <span class="preview">從檢視下拉式功能表，依您的偏好順序拖放檢視。</span>
 1. 從下列檢視型別中選取：
 
    * 表格
