@@ -4,17 +4,19 @@ product-area: user-management
 navigation-topic: configure-your-user-profile
 title: 設定個人休假
 description: 請務必在Adobe Workfront中指明核准的休假何時發生，因為這會影響您的排程，並影響您指派至之任務的規劃完成日期。
-author: Courtney
+author: Becky
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: fa5a59c15395f825ad73d889d4d877224a676891
+source-git-commit: e0f6078cfab1b325302dbda8a656d2a65ee0b95c
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
 
 # 設定個人休假
+
+{{highlighted-preview}}
 
 <!-- Audited: 12/2023 -->
 
@@ -56,7 +58,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td>具有[!UICONTROL Edit User]存取權的[!UICONTROL Manager] （變更其他使用者的休假行事曆）<br>
+   <td>具有[！UICONTROL Edit User]存取權的[！UICONTROL Manager] （變更其他使用者的休假行事曆）<br>
    <strong>注意：</strong>如果管理員編輯其他使用者的個人休假行事曆，所有專案都會以使用者的時區顯示，而非管理員的時區顯示。</td> 
   </tr> 
  </tbody> 
@@ -70,14 +72,17 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果您在Adobe統一體驗，可以按一下頂端導覽區域中的Adobe帳戶選單（您的設定檔圖片），然後選擇Workfront設定檔來存取您的Workfront設定檔。
+>如果您在Adobe整合式體驗中，可以按一下頂端導覽區域中的Adobe帳戶選單（您的設定檔圖片），然後選擇Workfront設定檔來存取您的Workfront設定檔。
 >
 >![workfront設定檔](assets/aue-profile.png)
-
 
 1. 在左側面板中，按一下&#x200B;**[!UICONTROL 休假]**。
 1. 選取您個人休假的所需日期。
 
+   <span class="preview">預覽環境中的範例影像：</span>
+   ![個人休假行事曆](assets/personal-time-off-calendar-0925.png)
+
+   生產環境中的影像範例：
    ![個人休假行事曆](assets/personal-time-off-calendar.png)
 
 1. 如果您要休一整天的假，請選取&#x200B;**[!UICONTROL 全天]**。
