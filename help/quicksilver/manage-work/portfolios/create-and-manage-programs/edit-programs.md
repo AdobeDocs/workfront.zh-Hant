@@ -6,16 +6,14 @@ description: 您可以編輯已建立或其他使用者已建立之程式的資�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: 5edda5b6d084c6c4df62f21e430ce9cd0c1cc8a4
+source-git-commit: b47c87a1a3d7516f7b1fed6e1abf84a84c453609
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1033'
 ht-degree: 1%
 
 ---
 
 # 編輯計畫
-
-{{highlighted-preview}}
 
 您可以編輯已建立或其他使用者已建立之程式的資訊（如果它們與您共用）。
 
@@ -38,15 +36,15 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>新增：[!UICONTROL Standard] </p><p>或 </p><p>目前： [!UICONTROL 計畫] </p> </td> 
+   <td> <p>新增：[！UICONTROL Standard] </p><p>或 </p><p>目前： [！UICONTROL計畫] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級</td> 
-   <td> <p>[!UICONTROL Edit]程式存取權</p>  </td> 
+   <td> <p>[！UICONTROL Edit]程式存取權</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>[!UICONTROL Manage]方案許可權</p>  </td> 
+   <td> <p>[！UICONTROL Manage]方案許可權</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -106,11 +104,7 @@ ht-degree: 1%
 
    **[!UICONTROL 編輯程式]**&#x200B;對話方塊隨即顯示。
 
-   <span class="preview">預覽環境中的範例影像：</span>
    ![編輯程式方塊](assets/edit-program-0925.png)
-
-   生產環境中的影像範例：
-   ![編輯程式方塊](assets/edit-program-box-nwe-350x236.png)
 
    所有程式欄位都可在[!UICONTROL 編輯程式]方塊中使用，並按左側面板中列出的區域分組。
 
@@ -141,29 +135,29 @@ ht-degree: 1%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 名稱]</td> 
+      <td role="rowheader">[！UICONTROL名稱]</td> 
       <td> <p>更新方案的名稱。 </p> <p>提示：當您選取多個方案時，此選項不可用。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 說明]</td> 
+      <td role="rowheader">[！UICONTROL說明]</td> 
       <td> <p>輸入Portfolio的說明以指出其獨特性。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 計畫管理員]</td> 
-      <td> <p>開始輸入您想指定做為方案管理員的使用者名稱，然後當它出現在清單中時選取它。 此人員可監督計畫專案中定義的工作。 </p> <p>重要：當您指定某人擔任方案管理員時，他會自動取得該方案和方案內專案的[!UICONTROL 管理]許可權。 </p> <p>提示：您可以在方案標題中快速更新方案管理員。 </p> </td> 
+      <td role="rowheader">[！UICONTROL計畫管理員]</td> 
+      <td> <p>開始輸入您想指定做為方案管理員的使用者名稱，然後當它出現在清單中時選取它。 此人員可監督計畫專案中定義的工作。 </p> <p>重要：當您指定某人擔任方案管理員時，他會自動取得該方案和方案內專案的[！UICONTROL管理]許可權。 </p> <p>提示：您可以在方案標題中快速更新方案管理員。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 群組]</td> 
-      <td> <p>如果群組與方案相關聯或負責完成方案，請新增單一群組的名稱。 </p> <p>秘訣：  <p>從[!UICONTROL 計畫詳細資訊]頁面存取[!UICONTROL 群組]欄位時，請執行下列動作： </p> <p>您可以暫留在群組上，並按一下旁邊顯示的[!UICONTROL 資訊]圖示<img src="assets/info-icon.png">，確定您選取的群組正確。 這會顯示工具提示，列出群組的相關資訊，例如群組及其管理員上方的群組階層。</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>此選項在[!UICONTROL 編輯程式]方塊中無法使用。 </p> </p> </td> 
+      <td role="rowheader">[！UICONTROL群組]</td> 
+      <td> <p>如果群組與方案相關聯或負責完成方案，請新增單一群組的名稱。 </p> <p>秘訣：  <p>從[！UICONTROL計畫詳細資訊]頁面存取[！UICONTROL群組]欄位時，請執行下列動作： </p> <p>您可以暫留在群組上，並按一下旁邊顯示的[！UICONTROL資訊]圖示<img src="assets/info-icon.png">，確定您選取的群組正確。 這會顯示工具提示，列出群組的相關資訊，例如群組及其管理員上方的群組階層。</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>此選項在[！UICONTROL編輯程式]方塊中無法使用。 </p> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 作用中]</td> 
+      <td role="rowheader">[！UICONTROL作用中]</td> 
       <td> <p> 如果您希望程式處於作用中狀態，請選取此核取方塊。 其他使用者可以找到使用中的計畫，並將它們附加到專案或新增到投資組合。 非作用中的計畫不能附加到專案或投資組合。 這預設為啟用。</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 按一下「<span class="preview">**儲存**</span>」或「**[!UICONTROL 儲存變更]**」，或繼續編輯下列區段。
+1. 按一下&#x200B;**[!UICONTROL 儲存]**，或繼續編輯下列區段。
 
 ### [!UICONTROL 自訂表單]
 
@@ -176,17 +170,18 @@ ht-degree: 1%
    >
    >根據您的[!DNL Workfront]管理員在您自訂表單中設定區段許可權的方式，不是每個人都可以檢視或編輯指定自訂表單上的相同欄位。 編輯自訂表單區段中欄位的許可權取決於您對計畫本身的許可權。 如需有關設定自訂表單區段許可權的資訊，請參閱[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
-1. 更新自訂表單中的任何欄位，然後按一下&#x200B;<span class="preview">**儲存**</span>&#x200B;或&#x200B;**[!UICONTROL 儲存變更]**，或繼續下列區段。
+1. 更新自訂表單中的任何欄位，然後按一下[儲存]。****，或繼續下列區段。
 
 ### [!UICONTROL 註解] {#comment}
 
 1. 如上所述開始編輯方案。
 1. 按一下&#x200B;**[!UICONTROL 註解]**。
-1. 新增註解至&#x200B;**[!UICONTROL 將更新張貼至程式]** / <span class="preview">**將更新新增至每個程式欄位**</span>。
+
+   編輯程式方塊中的![註解方塊](assets/comment-box-on-edit-program.png)
+
+1. 在&#x200B;**[!UICONTROL 為每個程式]**&#x200B;欄位新增更新。
 1. （選用）按一下&#x200B;**[!UICONTROL 人員]**&#x200B;圖示以新增使用者或團隊至註解。
-1. （選擇性）按一下&#x200B;**[!UICONTROL 鎖定]**&#x200B;圖示<span class="preview">或選取&#x200B;[!UICONTROL **我的公司私有**]</span>&#x200B;以鎖定註解，使其僅對您公司的使用者私有。
+1. （選擇性）選取&#x200B;[!UICONTROL **我的公司私有**]&#x200B;以鎖定註解，並使其僅對您公司的使用者私有。
 
    儲存變更後，您新增的註解會顯示在程式的[!UICONTROL 更新]索引標籤中，並傳送電子郵件給包含在其中的使用者。
 
-
-   <!--THIS IMAGE GOES AFTER "CLICK COMMENT." I had to move it to get rid of blank lines. Lisa ![Comment box in edit program box](assets/comment-box-in-program-edit-box-classic-350x195.png)-->

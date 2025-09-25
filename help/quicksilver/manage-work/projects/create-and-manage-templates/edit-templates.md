@@ -6,16 +6,14 @@ description: 您可以編輯專案範本，以反映未來專案的程式與設�
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 5edda5b6d084c6c4df62f21e430ce9cd0c1cc8a4
+source-git-commit: 221113266624a94fbecd04af46a5c602a4d33334
 workflow-type: tm+mt
-source-wordcount: '5161'
+source-wordcount: '5658'
 ht-degree: 2%
 
 ---
 
 # 編輯專案範本
-
-{{highlighted-preview}}
 
 <!-- Audited: 7/2025 -->
 
@@ -135,23 +133,23 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. 更新下列欄位：
 
    <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-      <tr> 
-      <td role="rowheader"><strong>說明</strong></td> 
-      <td>新增範本的其他相關資訊。</td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader"><strong>優先順序</strong></td> 
-      <td><p>這只是一個視覺化的標幟，可讓您為未來的專案設定優先順序。 從下列選項中選取：</p> 
-      <ul> 
-      <li><p><strong>無</strong></p></li> 
-      <li><p><strong>低</strong></p></li> 
-      <li><p><strong>正常</strong></p></li> 
-      <li><p><strong>高</strong></p></li> 
-      <li><p><strong>緊急</strong></p></li> 
-      </ul><p><p>根據Workfront管理員選取的專案偏好設定，您的優先順序名稱可能會不同。 如需有關編輯優先順序的詳細資訊，請參閱<a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">建立及自訂優先順序</a>。</p></p></td> 
+       <col> 
+       <col> 
+       <tbody> 
+         <tr> 
+         <td role="rowheader"><strong>說明</strong></td> 
+         <td>新增範本的其他相關資訊。</td> 
+       </tr> 
+         <tr> 
+         <td role="rowheader"><strong>優先順序</strong></td> 
+         <td><p>這只是一個視覺化的標幟，可讓您為未來的專案設定優先順序。 從下列選項中選取：</p> 
+         <ul> 
+         <li><p><strong>無</strong></p></li> 
+         <li><p><strong>低</strong></p></li> 
+         <li><p><strong>正常</strong></p></li> 
+         <li><p><strong>高</strong></p></li> 
+         <li><p><strong>緊急</strong></p></li> 
+         </ul><p><p>根據Workfront管理員選取的專案偏好設定，您的優先順序名稱可能會不同。 如需有關編輯優先順序的詳細資訊，請參閱<a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">建立及自訂優先順序</a>。</p></p></td> 
        </tr> 
        <tr> 
        <td role="rowheader"><strong>URL</strong></td> 
@@ -242,43 +240,92 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    <table style="table-layout:auto"> 
        <col> 
        <col> 
-       <tbody>
+       <tbody> 
+         <tr> 
+         <td role="rowheader"><strong>說明</strong></td> 
+         <td>新增範本的其他相關資訊。</td> 
+       </tr> 
+         <tr> 
+         <td role="rowheader"><strong>優先順序</strong></td> 
+         <td><p>這只是一個視覺化的標幟，可讓您為未來的專案設定優先順序。 從下列選項中選取：</p> 
+         <ul> 
+         <li><p><strong>無</strong></p></li> 
+         <li><p><strong>低</strong></p></li> 
+         <li><p><strong>正常</strong></p></li> 
+         <li><p><strong>高</strong></p></li> 
+         <li><p><strong>緊急</strong></p></li> 
+         </ul><p><p>根據Workfront管理員選取的專案偏好設定，您的優先順序名稱可能會不同。 如需有關編輯優先順序的詳細資訊，請參閱<a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">建立及自訂優先順序</a>。</p></p></td> 
+       </tr> 
        <tr> 
-         <td role="rowheader"><strong> 貨幣</strong></td> 
-         <td><p>若與系統的預設貨幣不同，請指定未來專案的貨幣。 如果系統中只有預設貨幣，則不會顯示此欄位。<br>如需貨幣詳細資訊，請參閱<a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">設定匯率</a>。</p></td> 
+       <td role="rowheader"><strong>URL</strong></td> 
+         <td>指定與此範本相關資訊的網頁連結。</td> 
        </tr>
-       <tr> 
-       <td role="rowheader"><strong>預算</strong></td> 
-       <td><p>指定從此範本建立之專案的預算。</p></td> 
-       </tr>  
-       <tr> 
-       <td role="rowheader"><strong>績效指數方法</strong></td> 
-       <td><p>選擇Workfront計算未來專案盈餘量度的方式。 從下列選項中選擇：
-       <ul>
-       <li>基於小時</li>
-       <li>基於成本</li>
-       </ul>
+   <tr> 
+      <td role="rowheader"><strong>為作用中</strong></td> 
+      <td><p>如果您希望範本為作用中範本，請開啟此選項。 其他使用者可在建立專案時找到此範本並將其附加至專案。 如果您要停用不再使用的範本，請關閉選項。 無法將已停用的範本附加到專案。 這預設為啟用。 </p><p><b>秘訣</b></p>
 
-       如需效能索引方法的詳細資訊，請參閱&lt;a href=&quot;../../../manage-work/projects/project-finances/set-pim.md&quot; class=&quot;MCXref xref&quot;>設定效能索引方法(PIM)&lt;/a>。 &lt;/p>&lt;/td>
-       &lt;/tr>
-       &lt;tr>
-       &lt;td role=&quot;rowheader&quot;>&lt;strong>計畫收益&lt;/strong>&lt;/td>
-       &lt;td>&lt;p>指定從此範本建立之專案的計畫收益。 計畫收益用於專案和Portfolio Optimizer的業務案例。 &lt;/p>&lt;p>如需專案計畫權益的詳細資訊，請參閱&lt;a href=&quot;../../../manage-work/projects/project-finances/project-planned-benefit.md&quot; class=&quot;MCXref xref&quot;>專案計畫權益概觀&lt;/a>。 計算專案淨值時，會考慮專案的計畫收益。 &lt;/p>&lt;p>如需使用Portfolio Optimizer的詳細資訊，請參閱&lt;a href=&quot;../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md&quot; class=&quot;MCXref xref&quot;>在Portfolio Optimizer中管理專案&lt;/a> &lt;/p>&lt;/td>
-       &lt;/tr>
-       &lt;tr>
-       &lt;td role=&quot;rowheader&quot;>&lt;strong>固定成本&lt;/strong>&lt;/td>
-       &lt;td>&lt;p>指定從此範本建立之專案的固定成本。 這與專案時數所產生的人工成本，以及專案費用金額所產生費用成本不同。 計算專案的淨值時會考慮專案的固定成本，而且該成本是預算成本的一部分。&lt;/p>&lt;/td>
-       &lt;/tr>
-       &lt;tr>
-       &lt;td role=&quot;rowheader&quot;>&lt;strong>固定收入&lt;/strong>&lt;/td>
-       &lt;td>&lt;p>指定從此範本建立之專案的固定收入。&lt;/p>&lt;/td>
-       &lt;/tr>
-       &lt;tr>
-       &lt;td role=&quot;rowheader&quot;>&lt;strong>需要時間才能核准此專案&lt;/strong>&lt;/td>
-       &lt;td>&lt;p>選取此選項以要求從此範本建立的未來專案之專案擁有者，核准登入專案的時間。 如果您使用「計費記錄」並選取此選項，則只有專案中已核准的時數，才會顯示為「計費記錄」的可用計費時數。 核准專案的時間與核準時程表無關。 如需專案所需核准時間的詳細資訊，請參閱&lt;a href=&quot;../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md&quot; class=&quot;MCXref xref&quot;>專案所需核准時間&lt;/a>。&lt;/p>&lt;/td>
-       &lt;/tr>
-       &lt;/tbody>
-   </table>
+   <p>您可以從範本標題停用範本，如本文的「啟動或停用範本」一節中所述。</p></td> 
+     </tr>
+
+<tr> 
+<td role="rowheader"><strong>狀況類型</strong></td> 
+   <td><p>在下列條件型別之間選取：</p> 
+   <ul> 
+   <li><strong>手動：</strong>專案所有者手動設定專案上的專案狀態。 <strong></strong></li> 
+   <li><strong>進度狀態：</strong> Workfront會根據關鍵路徑上任務的進度狀態，自動設定未來專案的條件。 如需瞭解進度狀態的詳細資訊，請參閱<a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">任務進度狀態概觀</a>。</li> 
+   </ul>
+   </td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader"><strong>排程模式</strong></td> 
+   <td><p>指定使用此範本的專案是從<strong>開始日期</strong>排程，還是從<strong>完成日期</strong>排程。 此選取範圍會決定使用此範本之專案中未來任務的計畫日期。 </p><p>從下列選項中選取： </p> 
+   <ul> 
+   <li><p><strong>從開始日期排程</strong>：範本的開始日期實際上是開始日期。 當您從「開始日期」排程範本時，Adobe Workfront會根據所有範本工作的「持續時間」計算範本的「完成日期」。 範本的開始日期成為未來專案的規劃開始日期。</p></li> 
+   <li><p><strong>從完成日期排程</strong>：範本的完成日期實際上是完成日期。 當您從「完成日期」排程範本時，Workfront會根據所有範本任務的持續時間計算範本的「開始日期」。 範本的「完成日」成為未來專案的「計畫完成日」。 </p></li> 
+   </ul><p>如需範本任務開始與完成天數的詳細資訊，請參閱<a href="../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md" class="MCXref xref">範本中開始與完成天數的概述</a>。 </p><p>範本的「排程起始日期」設定與專案的設定類似。 您的Workfront管理員會為您的系統中的專案選取預設的「排程起始日期」設定。 如需有關設定專案預設值的資訊，請參閱<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">設定全系統的專案偏好設定</a>。</p></td> 
+   </tr>
+
+<tr> 
+   <td role="rowheader"><strong>產品組合</strong></td> 
+   <td><p>針對從此範本建立的專案指定Portfolio。 您必須先建立Portfolio，才能讓其出現在下拉式清單中。 </p><p>只有作用中的投資組合會顯示在清單中。 如需關於建立投資組合的詳細資訊，請參閱<a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">建立投資組合</a>。</p></td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader"><strong>方案</strong></td> 
+   <td><p>如果您為範本選取Portfolio，請為未來的專案指定<strong>方案</strong>。 部分投資組合可能沒有計畫。 您必須先建立程式，它才會顯示在此下拉式清單中。 清單中只會顯示使用中的程式。</p><p>如需建立程式的詳細資訊，請參閱<a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">建立程式</a>。</p></td> 
+   </tr>  
+   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+   <td role="rowheader"><strong>群組</strong></td> 
+   <td><p>在下拉式清單中，選取要與從範本建立的專案相關聯的群組。 可以是任何層級的群組。 </p><p>您可以暫留在正確的群組上，並按一下旁邊顯示的資訊圖示<img src="assets/info-icon.png">，確定您選取的群組正確。 這會顯示工具提示，列出群組的相關資訊，例如群組及其管理員上方的群組階層。</p> <p><b>附註</b>
+
+<ul> 
+   <li><p>在群組頁面的「專案」區域中，當有人使用未選取群組的範本建立專案時，系統會建立目前開啟的群組與專案之間的關聯。</p><p>這與當使用者使用未選取群組的範本建立專案時，系統將使用者的「主群組」與專案關聯的其他區域不同。</p></li> 
+   <li><p>如果使用者在建立專案時或在將任務或問題轉換為專案時選取已選取群組的範本，則使用者可以為專案選擇不同的群組。</p></li> 
+   <li>雖然此欄位僅在新的Adobe Workfront體驗中可在範本中使用，但您可在範本中的清單與報表以及Adobe Workfront Classic中檢視。 </li> 
+   </ul> </p></td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader"><strong>公司</strong></td> 
+   <td><p>指定您要與範本建立關聯的公司。 清單中只會顯示作用中的公司。</p></td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader"><strong>範本所有者</strong></td> 
+   <td><p>指定為範本擁有者的使用者必須是Workfront作用中使用者。 </p><p>請考量下列有關指定為「範本擁有者」的使用者： </p> 
+   <ul> 
+   <li>系統會自動授予使用者範本的管理許可權。 </li> 
+   <li>他們會被新增至專案團隊，並自動獲得從範本建立的專案的管理許可權。 </li> 
+   <li>從此範本建立專案時，他們就會成為專案所有者。 </li> 
+   <li> 如果指定為範本擁有者的使用者從存取層級對範本或專案具有有限的存取權，則其範本和專案的管理許可權將受到限制。 例如，如果他們只有其存取層級中的範本或專案的檢視存取權，當他們被指定為範本擁有者時，他們將會自動獲得範本和專案的檢視許可權。</li>
+   </ul></td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader"><strong>範本贊助者</strong></td> 
+   <td><p>將範本新增至專案時，此欄位中指定的使用者會成為專案贊助者。 此使用者會新增至專案團隊，並自動獲得專案的檢視許可權。 被指定為範本贊助者的使用者必須是Workfront作用中使用者。 </p></td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader"><strong>資源管理員</strong></td> 
+   <td><p>指定的使用者會自動獲得管理未來專案的許可權，並且可以指派資源給專案的任務和問題。 您可以指定一個以上的Resource Manager。 </p></td> 
+   </tr> 
+</table>
 
 1. （選擇性）根據您要修改的資訊，繼續編輯下列區段。
 
@@ -305,7 +352,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 1. （選用）更新自訂表單上任何欄位中的資訊。 此資訊將會傳輸至將使用範本建立的專案。
 
-1. （選擇性）按一下自訂表單名稱右邊的&#x200B;**x**&#x200B;圖示，然後按一下[移除]&#x200B;**&#x200B;**&#x200B;以從範本中移除它。
+1. （選擇性）按一下自訂表單名稱右邊的&#x200B;**x**&#x200B;圖示，然後按一下[移除]****&#x200B;以從範本中移除它。
 
 1. （選擇性）根據您要修改的資訊，繼續編輯下列區段。
 
@@ -592,7 +639,7 @@ For instructions on editing Linked folders, see [Edit workflow values in a proje
 1. 在&#x200B;**編輯範本**&#x200B;方塊中，按一下&#x200B;**註解**。
 
    ![編輯範本方塊註解區段](assets/edit-template-box-comment-section.png)
-1. 新增您正在進行之更新的相關註解、標籤其他使用者，或選取&#x200B;**我的公司私有**&#x200B;方塊，讓貴公司的使用者無法存取更新，然後按一下[儲存]。**&#x200B;**
+1. 新增您正在進行之更新的相關註解、標籤其他使用者，或選取&#x200B;**我的公司私有**&#x200B;方塊，讓貴公司的使用者無法存取更新，然後按一下[儲存]。****
 
 ## 大量編輯範本
 
@@ -614,11 +661,7 @@ Editing templates in bulk differs depending on which environment you are using.
 
    **編輯範本**&#x200B;對話方塊開啟。
 
-   <span class="preview">預覽環境中的範例影像：</span>
    ![編輯範本](assets/bulk-edit-templates-0925.png)
-
-   生產環境中的影像範例：
-   ![編輯範本](assets/edit-templates-in-bulk-box-nwe-350x327.png)
 
 1. 按一下左側的區段以編輯所有選取的範本。
 
@@ -636,7 +679,7 @@ Editing templates in bulk differs depending on which environment you are using.
    * 問題
    * 評論
 
-1. 按一下&#x200B;<span class="preview">**儲存**</span>&#x200B;或&#x200B;**儲存變更**。
+1. 按一下「**儲存**」。
 
    您所做的所有變更現在會顯示在所有選取的範本上。
 
