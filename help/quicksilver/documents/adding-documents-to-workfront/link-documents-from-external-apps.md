@@ -6,9 +6,9 @@ description: 您可以從外部來源將檔案和資料夾連結到Adobe Workfro
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: a005c7114388e1c20a4847b3da3229667be0ded7
 workflow-type: tm+mt
-source-wordcount: '2620'
+source-wordcount: '2568'
 ht-degree: 0%
 
 ---
@@ -39,19 +39,16 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Workfront Proof </td> 
-   <td>您可以在Workfront中提供原本在Workfront Proof中建立的校樣。 若為目前的授權，需要Pro Workfront Plan或更新版本才能使用此功能。 對於新授權，所有計畫都包含此功能。 如需各種可用計畫的詳細資訊，請參閱<a href="https://business.adobe.com/products/workfront/pricing.html">Workfront計畫</a>。</td> 
+   <td>您可以在Workfront中提供原本在Workfront Proof中建立的校樣。</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td role="rowheader">Experience Manager Assets Essentials </td> 
    <td>您可以從Experience Manager Assets Essentials將檔案連結到Workfront。 如需詳細資訊，請參閱<a href="../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md" class="MCXref xref">適用於Experience Manager Assets Essentials的Adobe Workfront</a>。</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Workfront DAM </td> 
-   <td>這需要進行額外購買。 </td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
    <td role="rowheader">其他檔案提供者（透過自訂檔案整合）</td> 
-   <td> <p class="workfront_plans">若為目前的授權，需要Pro Workfront Plan或更新版本才能使用此功能。 對於新授權，所有計畫都包含此功能。 如需各種可用計畫的詳細資訊，請參閱<a href="https://business.adobe.com/products/workfront/pricing.html">Workfront計畫</a>。</p> </td>
+   <td> <p class="workfront_plans">這些整合功能可在「設定」區域中設定。</p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -100,6 +97,13 @@ ht-degree: 0%
 * 若由檔案服務提供，縮圖和預覽影像可能會儲存在Workfront伺服器上。
 * 在Workfront中使用校訂時，檔案會複製並新增至校訂伺服器。
 
+## 檔案大小限制
+
+協力廠商雲端服務提供者：
+
+* 單一檔案：5 GB以下
+* 多個檔案：1 GB以下（所有檔案總數）
+
 ## 從外部應用程式將檔案連結至Workfront
 
 您可以將現有檔案與外部雲端服務供應商連結。 這包括任何共用檔案。
@@ -119,7 +123,7 @@ ht-degree: 0%
 1. 移至Workfront中您想要檔案的&#x200B;**檔案**&#x200B;區域。
 1. 按一下「新增&#x200B;**」**，然後按一下您要將檔案連結至Workfront的外部檔案提供者。
 
-   例如，若要從Dropbox連結檔案，請按一下[從Dropbox連結] **&#x200B;**。
+   例如，若要從Dropbox連結檔案，請按一下[從Dropbox連結] ****。
 
    您已經授權的外部提供者會出現在清單頂端。
 
@@ -163,7 +167,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**新增** > **版本**，然後按一下外部檔案提供者。
 
-   例如，若要從Dropbox連結檔案的新版本，請按一下[從Dropbox連結] **&#x200B;**。
+   例如，若要從Dropbox連結檔案的新版本，請按一下[從Dropbox連結] ****。
 
    您已經授權的外部提供者會出現在清單頂端。
 
@@ -194,7 +198,7 @@ ht-degree: 0%
    >
    >對於連結到Box的檔案，在您重新整理頁面之前，不會顯示Box中檔案的連結。
 
-如需有關從您的檔案系統新增檔案版本至Workfront的資訊，請參閱[從您的檔案系統新增檔案至Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)中的[新增檔案至Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md#add-documents-to-workfront)。
+如需有關從您的檔案系統新增檔案版本至Workfront的資訊，請參閱[從您的檔案系統新增檔案至Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md#add-documents-to-workfront)中的[新增檔案至Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)。
 
 ### 連結Workfront Proof檔案 {#link-workfront-proof-documents}
 
@@ -203,7 +207,7 @@ ht-degree: 0%
 您只能連結在Workfront Proof中您擁有檢視存取權的校訂。
 
 1. 移至Workfront中您想要檔案的&#x200B;**檔案**&#x200B;區域。
-1. 按一下[新增] **&#x200B;**，然後按一下&lbrack;來自Workfront Proof的&#x200B;**&#x200B;**。
+1. 按一下[新增] ****，然後按一下[來自Workfront Proof的&#x200B;****。
 
    >[!NOTE]
    >
@@ -280,7 +284,7 @@ ht-degree: 0%
 
 1. 移至Workfront中您要資料夾的區域，然後按一下左側面板中的&#x200B;**檔案** ![檔案圖示](assets/document-icon.png)。
 
-1. 按一下[新增]&#x200B;**&#x200B;**，然後按一下您要將資料夾連結至Workfront的外部檔案提供者。
+1. 按一下[新增]****，然後按一下您要將資料夾連結至Workfront的外部檔案提供者。
 1. （視條件而定）如果您尚未授權外部服務，請指定外部提供者的登入認證，然後按一下&#x200B;**登入**。
 
    您已經授權的外部提供者會出現在清單頂端。
@@ -301,7 +305,7 @@ ht-degree: 0%
 
    在Workfront中，雲端提供者的標誌會顯示在資料夾旁，表示已連結至外部雲端提供者。
 
-1. （選擇性）若要重新命名資料夾，讓Workfront中的資料夾名稱不同於外部檔案應用程式中的資料夾名稱，請在&#x200B;**資料夾**&#x200B;區段中選取資料夾，按一下資料夾名稱旁邊顯示的[更多]功能表![更多功能表](assets/more-icon.png)，然後按一下[重新命名]&#x200B;**&#x200B;**。
+1. （選擇性）若要重新命名資料夾，讓Workfront中的資料夾名稱不同於外部檔案應用程式中的資料夾名稱，請在&#x200B;**資料夾**&#x200B;區段中選取資料夾，按一下資料夾名稱旁邊顯示的[更多]功能表![更多功能表](assets/more-icon.png)，然後按一下[重新命名]****。
 
    ![重新命名資料夾](assets/documents-folderlink-rename-nwe-350x154.png)
 
