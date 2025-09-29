@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: bfece1075b137f9fcbaf6046e626952b5f2bde2f
+source-git-commit: 681d83661aff2c0484521ee11c8899dca14e65ed
 workflow-type: tm+mt
-source-wordcount: '8092'
+source-wordcount: '8031'
 ht-degree: 0%
 
 ---
@@ -216,13 +216,13 @@ For more information, see [Create, edit, and assign timesheet profiles](/help/qu
 
 如需詳細資訊，請參閱[編輯專案範本](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md)。
 
-### 套用里程碑檢視時，專案清單或報告的介面更新
+<!--### Interface updates for a project list or report when applying the Milestone view
 
-**預覽版本： 2025年9月11日；生產版本： 2025年9月18日**
+**Preview release: September 11, 2025; Production release: September 18, 2025**
 
-當您套用「里程碑」檢視時，我們已更新專案清單或報表的外觀和風格。
+We have updated the look and feel of a project list or report when you apply the Milestone view to them.
 
-專案清單或報表現在與Workfront其他區域的設計相符。 如需詳細資訊，請參閱[使用里程碑檢視](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)。
+The project list or report now matches the design of other areas of Workfront. For information, see [Use the Milestone view](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).-->
 
 ### 將任務轉換為沒有範本的專案的介面變更
 
@@ -1123,7 +1123,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 此更新包含區域的視覺化變更。 功能未變更。
 
-若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。**&#x200B;**
+若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。****
 
 +++
 
