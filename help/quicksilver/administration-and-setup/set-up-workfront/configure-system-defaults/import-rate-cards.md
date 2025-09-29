@@ -4,17 +4,19 @@ description: 您可以使用範本檔案在Excel中建置您的比率卡，並�
 author: Lisa
 hide: true
 hidefromtoc: true
-source-git-commit: 1deb72953599c24fa40eb7a5d77214f6576fec1e
+exl-id: debe90e7-08c2-4385-96fb-8d349dec6741
+source-git-commit: e94cbfd9c503936539dbe011e787533222896202
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1168'
 ht-degree: 0%
 
 ---
 
-
 # 從範本匯入費率卡
 
 您可以使用範本檔案在Excel中建立您的費率卡片，並將其匯入Adobe Workfront，而非手動新增所有工作角色和費率。
+
+若要檢視本文中描述的費率卡範例，請下載[範例檔案](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/import-rate-cards/assets/rate-cards-sample.zip)。
 
 ## 使用範本檔案的重要規則
 
@@ -39,13 +41,13 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td><p>[!UICONTROL 標準]</p>
-   <p>[!UICONTROL 計畫]</p>
+   <td><p>[！UICONTROL標準]</p>
+   <p>[！UICONTROL計畫]</p>
    </td> 
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
-   <td>編輯[!UICONTROL 費率卡]的存取權</td> 
+   <td>編輯[！UICONTROL費率卡]的存取權</td> 
   </tr> 
  </tbody> 
 </table>
@@ -179,6 +181,3 @@ ht-degree: 0%
 1. 如果檔案包含問題，則會顯示錯誤訊息。 按一下「**檢視問題**」，在個別的熒幕上檢視問題。
 
    您必須更正Excel檔案中的問題並再次匯入，費率卡才會存在於Workfront中。
-
-
-
