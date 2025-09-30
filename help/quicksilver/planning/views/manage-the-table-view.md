@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 10fec10e1bb885ac20e1ef9526cfa8a59086d874
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
 source-wordcount: '3494'
 ht-degree: 2%
@@ -34,7 +34,7 @@ ht-degree: 2%
 
 ## 存取需求
 
-+++ 展開以檢視存取需求。
++++ 展開以檢視存取需求。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -54,7 +54,7 @@ ht-degree: 2%
    <td role="rowheader"><p>Adobe Workfront計畫*</p></td> 
    <td> 
 <p>下列任一Workfront計畫：</p> 
-<ul><li>選取</li> 
+<ul><li>選擇</li> 
 <li>Prime</li> 
 <li>Ultimate</li></ul> 
 <p>舊版Workfront計畫不提供Workfront計畫</p> 
@@ -100,7 +100,7 @@ ht-degree: 2%
 
 *如需Workfront存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-+++
++++   
 
 ## 使用表格檢視編輯記錄
 
@@ -114,13 +114,13 @@ ht-degree: 2%
 
 若要管理表格檢視：
 
-1. 建立資料表檢視，如文章[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)中所述。
+1. <span class="preview">建立資料表檢視，如文章[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)中所述。</span>
 
-   ![資料表檢視範例](assets/table-view-example.png)
+   <span class="preview">![資料表檢視範例](assets/table-view-example.png)</span>
 
 1. （選擇性）按一下&#x200B;**列高度**，然後從下列選項中選取，以修改表格列的高度：
    * 短
-   * 中
+   * 媒體
    * 高
 
 1. <span class="preview">（選擇性）按一下&#x200B;**全熒幕**&#x200B;圖示![開啟全熒幕圖示](assets/open-full-screen-icon.png)以全熒幕開啟檢視，然後按一下&#x200B;**退出全熒幕**&#x200B;圖示![退出全熒幕圖示](assets/exit-full-screen-icon.png)或鍵盤上的Escape以退出全熒幕。 </span>
@@ -159,7 +159,11 @@ ht-degree: 2%
 
    * 按一下表格工具列中的&#x200B;**欄位**，然後依所需順序拖放欄位，再按一下&#x200B;**欄位可見度和順序**&#x200B;方塊外部以關閉它。
 
+     <div class="preview">
+
      ![欄位設定表格檢視工具列已展開](assets/fields-setting-table-view-toolbar-expanded.png)
+
+     </div>
 
 
      >[!TIP]
@@ -203,9 +207,9 @@ ht-degree: 2%
 
 1. 執行下列動作以快速尋找符合關鍵字的記錄：
 
-   1. 按一下&#x200B;**搜尋**&#x200B;圖示![搜尋圖示](assets/search-icon.png)，然後開始輸入與熒幕上顯示之記錄的任何欄位相關聯的關鍵字。 正確相符的數目會顯示在搜尋專案旁邊，而具有正確相符專案的欄位會反白顯示。
+   1. <span class="preview">在&#x200B;**搜尋**&#x200B;方塊![搜尋圖示](assets/search-icon.png)中，開始輸入與熒幕上顯示之記錄的任何欄位相關聯的關鍵字。</span>搜尋專案旁會顯示正確相符專案的數目，且反白顯示具有正確相符專案的欄位。
 
-      ![搜尋方塊在資料表檢視中具有結果藍色外框](assets/search-box-with-results-blue-outline-table-view.png)
+      <span class="preview">![搜尋方塊在資料表檢視中具有結果藍色外框](assets/search-box-with-results-blue-outline-table-view.png)</span>
 
       您可以使用熒幕上可見的任何文字或特殊字元。
 
@@ -434,7 +438,7 @@ ht-degree: 2%
 
 * 您可以在表格和時間軸檢視中套用群組。 表格檢視的分組與相同記錄型別之時間軸檢視中的群組是獨立的。
 * 您可以在檢視中套用3個群組層級。 記錄會依照您選取的群組順序進行分組。
-&lt;！—*使用API時，您最多可以套用4個層級的群組。  — 現在正在檢查此專案 — >
+&lt;!—*使用API時，您最多可以套用4個層級的群組。  — 現在正在檢查此專案 — >
 * 群組對於您選取的檢視而言是唯一的。 相同記錄型別的兩個表格檢視可以套用不同的群組。 檢視相同表格檢視的兩個使用者會看到目前套用的相同分組。
 * 您無法為表格檢視建立的分組命名。
 * 移除群組會將群組從存取與您相同記錄型別以及顯示與您相同檢視的任何人中移除。
@@ -459,9 +463,13 @@ ht-degree: 2%
 
 1. （選擇性）按一下&#x200B;**新增條件**&#x200B;並重複上述步驟以新增最多3個群組。
 
+   <div class="preview">
+
    為分組選取的欄位數會顯示在「分組」圖示旁。
 
    ![在資料表檢視中套用群組](assets/grouping-applied-in-table-view.png)
+
+   </div>
 
 1. （選擇性）在&#x200B;**群組記錄依據**&#x200B;方塊中，按一下選取要移除分組的欄位右邊的&#x200B;**x**&#x200B;圖示
 

@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
 source-wordcount: '5332'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=zh-Hant ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -36,7 +36,7 @@ ht-degree: 1%
 您可以在Workfront Planning中以下列方式建立欄位：
 
 * [從頭開始](#create-fields-from-scratch)
-* [透過連線記錄型別](#create-fields-from-scratch)
+* [透過連線記錄型別](#create-fields-by-connecting-record-types)
 * [藉由建立記錄型別](#create-fields-by-creating-a-record-type)
 * [從範本建立工作區](#create-fields-by-creating-a-workspace-from-a-template)
 * [使用Excel或CSV檔案匯入記錄型別](#create-fields-when-importing-record-types-from-a-csv-or-excel-file)
@@ -369,7 +369,7 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 >數字欄位會在請求表單產生器中顯示為「單行」文字欄位型別。
 >
 >但是，欄位格式會保留，並且這些欄位的值將在提交請求後、在記錄型別和請求詳細資訊頁面中顯示為數字。
->&#x200B;>如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
+>>如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
 
 
 1. 依照本文中[從頭開始建立欄位](#create-fields-from-scratch)一節的說明開始建立欄位，然後選取&#x200B;**數字**&#x200B;欄位型別。
@@ -399,7 +399,7 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 >百分比欄位在請求表單產生器中顯示為單行文字欄位型別。
 >
 >但是，欄位格式會保留，並且這些欄位的值將在提交請求後，在記錄型別和請求詳細資訊頁面中顯示為百分比。
->&#x200B;>如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
+>>如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
 
 
 1. 依照本文中[從頭開始建立欄位](#create-fields-from-scratch)一節的說明開始建立欄位，然後選取&#x200B;**百分比**&#x200B;欄位型別。
@@ -439,7 +439,7 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 >貨幣欄位在請求表單產生器中顯示為單行文字欄位型別。
 >
 >但是，欄位格式會保留，並且這些欄位的值將在提交請求後，在記錄型別和請求詳細資訊頁面中顯示為貨幣。
->&#x200B;>如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
+>>如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
 
 1. 依照本文中[從頭開始建立欄位](#create-fields-from-scratch)一節的說明開始建立欄位，然後選取&#x200B;**貨幣**&#x200B;欄位型別。
 

@@ -6,14 +6,16 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
-source-wordcount: '3920'
+source-wordcount: '3935'
 ht-degree: 2%
 
 ---
 
 # 管理時間表檢視
+
+<!--remove preview and production references at production-->
 
 <span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
@@ -117,9 +119,9 @@ ht-degree: 2%
 若要管理時間表檢視：
 
 1. 移至您要檢視其時間軸的記錄型別頁面。
-1. 建立時間表檢視，如文章[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)中所述。
+1. <span class="preview">建立時間表檢視，如文章[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)中所述。</span>
 
-   ![時間表檢視範例](assets/timeline-view-example.png)
+   <span class="preview">![時間表檢視範例](assets/timeline-view-example.png)</span>
 
    與您選取的記錄型別相關聯的記錄會在時間軸中顯示為長條，並依其開始日期的時間順序依預設排序。
 
@@ -151,7 +153,7 @@ ht-degree: 2%
    >在「設定」區域中設定自訂季度後，時間軸檢視會顯示自訂季度，而非傳統季度。
    >如需詳細資訊，請參閱[啟用自訂季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
 
-1. （視條件而定）如果您是Workfront管理員，請按一下&#x200B;**前往設定**&#x200B;設定您的季度。 如果沒有，請按一下[確定] **&#x200B;**，並要求Workfront管理員設定自訂季度。
+1. （視條件而定）如果您是Workfront管理員，請按一下&#x200B;**前往設定**&#x200B;設定您的季度。 如果沒有，請按一下[確定] ****，並要求Workfront管理員設定自訂季度。
 
    >[!TIP]
    >
@@ -173,9 +175,9 @@ ht-degree: 2%
 
 1. 執行下列動作以快速尋找符合關鍵字的記錄：
 
-   1. 按一下&#x200B;**搜尋**&#x200B;圖示![搜尋圖示](assets/search-icon.png)，然後開始輸入與熒幕上顯示之記錄的任何欄位相關聯的關鍵字。 正確相符的數目會顯示在搜尋專案旁邊，而具有正確相符專案的記錄會反白顯示。
+   1. <span class="preview">按一下&#x200B;**搜尋**&#x200B;圖示![搜尋圖示](assets/search-icon.png)，然後開始輸入與熒幕上顯示之記錄的任何欄位相關聯的關鍵字。 正確相符的數目會顯示在搜尋專案旁邊，而具有正確相符專案的記錄會反白顯示。</span>
 
-      ![搜尋方塊和結果時間表檢視](assets/search-box-and-results-timeline-view.png)
+      <span class="preview">![搜尋方塊和結果時間表檢視](assets/search-box-and-results-timeline-view.png)</span>
 
       您可以使用熒幕上可見的任何文字或特殊字元。
 
@@ -353,23 +355,21 @@ ht-degree: 2%
 若要在時間表檢視中新增群組：
 
 1. 如文章[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)中所述，建立記錄型別的時間表檢視。
-1. 按一下時間軸檢視右上角的&#x200B;**群組**。
+1. <span class="preview">按一下時間軸檢視右上角的&#x200B;**群組**。</span>
 
-   ![使用連結欄位將UI時間表檢視分組](assets/grouping-ui-timeline-view-with-linked-fields.png)
+   <span class="preview">![使用連結欄位將UI時間表檢視分組](assets/grouping-ui-timeline-view-with-linked-fields.png)</span>
 
 1. 按一下其中一個建議的欄位，或按一下&#x200B;**選擇其他欄位**，搜尋其他欄位，然後在欄位顯示在清單中時按一下它。
 
    分組會自動套用至時間軸，且記錄會顯示在分組方塊內。
 
-   <!-- add a step that you can rearrange the groupings here, when this will be possible-->
-
 1. （可選）重複上述步驟以新增最多3個群組。
 
-   為分組選取的欄位數會顯示在「分組」圖示旁。
+   <span class="preview">為群組選取的欄位數目會顯示在群組圖示旁。</span>
 
-   <!-- update screen shot with view redesign-->
+   <span class="preview">![在時間表檢視中套用的群組](assets/grouping-applied-in-timeline-view.png)</span>
 
-   ![分組套用至時間表檢視](assets/grouping-applied-in-timeline-view.png)
+1. 在&#x200B;**依**&#x200B;分組記錄方塊中，以正確的順序拖放分組。
 
 1. （選擇性）在&#x200B;**群組記錄依據**&#x200B;方塊中，按一下選取要移除分組的欄位右邊的&#x200B;**x**&#x200B;圖示
 
@@ -530,7 +530,11 @@ this is not possible right now; if this is the same functionality as the table v
 1. 從&#x200B;**標準**&#x200B;或&#x200B;**緊密**&#x200B;模式，按一下時間軸檢視右上角的&#x200B;**劃分**。
 1. 展開&#x200B;**選取連結的記錄型別**&#x200B;方塊並選取連線的記錄型別。<!--add a new screen shot - submitted a bug to remove the "the"-->
 
+   <div class="preview">
+
    時間軸檢視上的![劃分選擇器和按鈕](assets/breakdown-picker-and-button-on-timeline.png)
+
+   </div>
 
    >[!TIP]
    >
@@ -543,7 +547,7 @@ this is not possible right now; if this is the same functionality as the table v
    >    開始和結束日期必須是循序的。 如果「結束日期」早於「開始日期」，則時間軸中不會顯示任何記錄。
 
    如果選取的記錄與其他記錄連線，則時間軸中的列會顯示一個向右的箭頭。
-1. 按一下向右箭號以展開記錄型別並顯示其連線。
+1. 按一下向右箭號以展開記錄型別並顯示其連線。<!--update screen shot at production-->
 
    ![依時間表檢視中的方案劃分的行銷活動](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)
 

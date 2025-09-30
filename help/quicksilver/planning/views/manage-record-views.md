@@ -6,15 +6,17 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: f32b2f9e5a511b83e5793299e47b9c1c12857bd8
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: '1287'
 ht-degree: 1%
 
 ---
 
 
 # 管理記錄檢視
+
+<!-- take preview and production references out at production-->
 
 <span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
@@ -192,30 +194,32 @@ ht-degree: 1%
    * 在生產環境中，按一下「**+檢視**」標籤。
    * <span class="preview">在預覽環境中，按一下目前檢視名稱旁的下拉式圖示![下拉式圖示](assets/drop-down-icon.png)，然後按一下&#x200B;**+新增檢視**。</span>
 
-1. <span class="preview">從檢視下拉式功能表，依您的偏好順序拖放檢視。</span>
 1. 從下列檢視型別中選取：
 
    * 表格
    * 時間軸
    * 行事曆
 
-   會以選取的檢視建立新標籤。
+   在生產環境中，會以選取的檢視建立一個新標籤。
 
    視熒幕寬度而定，**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)中可能會顯示其他檢視。
 
+   >[!TIP]
+   >
+   >建立記錄型別時，預設也會建立表格檢視。
+   >
+   >若要建立時間表或行事曆檢視，您為其建立檢視的記錄型別必須至少有兩個日期欄位。
+   >
+   >否則，「時間軸」和「行事曆」選項會變暗。
+   >
 
->[!TIP]
->
->建立記錄型別時，預設也會建立表格檢視。
->
->若要建立時間表或行事曆檢視，您為其建立檢視的記錄型別必須至少有兩個日期欄位。
->
->否則，「時間軸」和「行事曆」選項會變暗。
->
+   <span class="preview">在預覽環境中，選擇檢視型別，然後按一下[建立]。**** 新檢視會新增至下拉式功能表。</span>
 
-<!-- replace screen shot at production??-->
+   <span class="preview">![建立檢視方塊](assets/create-view-box.png)</span>
 
-![記錄型別清單中的檢視型別下拉式清單](assets/view-types-drop-down-from-record-type-list.png)
+1. <span class="preview">從檢視下拉式功能表，依您的偏好順序拖放檢視。</span>
+
+   <span class="preview">![記錄型別清單中的檢視型別下拉式清單](assets/view-types-drop-down-from-record-type-list.png)</span>
 
 1. （視條件而定）建立時間表或行事曆檢視時，按一下&#x200B;**下一步**。
 

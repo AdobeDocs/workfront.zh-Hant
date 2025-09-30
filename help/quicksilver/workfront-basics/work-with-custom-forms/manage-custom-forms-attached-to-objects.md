@@ -6,9 +6,9 @@ description: 您可以更新附加至一個物件的自訂表單的顯示順序�
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: b3534cccd4a06b8c5b8b7e742f63eeb898bd5b99
+source-git-commit: 322257a21f5d415b0ac04e6944c4aaa53fc3ab3b
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1088'
 ht-degree: 0%
 
 ---
@@ -28,25 +28,25 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
    <td> <p>要求或更高版本</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯您管理自訂表單之物件的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>編輯您管理自訂表單之物件的存取權</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>為您管理自訂表單的物件貢獻許可權或以上</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>為您管理自訂表單的物件貢獻許可權或以上</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 先決條件
 
@@ -73,18 +73,13 @@ ht-degree: 0%
 >
 >當您從物件移除自訂表單時，在表單的自訂欄位中擷取的所有資訊都會遺失且無法復原。
 
-1. 移至您要移除自訂表單的物件，並開始編輯該物件。
+1. 移至您要移除自訂表單的物件，然後按一下物件左側面板中的&#x200B;**詳細資料**&#x200B;區段。
 
-   例如，前往專案，按一下&#x200B;**更多**&#x200B;功能表![](assets/more-icon.png)，然後按一下&#x200B;**編輯** 。
+   例如，前往專案，按一下&#x200B;**專案詳細資料**&#x200B;區段。
 
-1. 按一下&#x200B;**自訂Forms**。
-1. 若是專案、任務和問題自訂表單，請按一下表單右側的&#x200B;**X**&#x200B;圖示，將其從物件中移除。
-
-   針對所有其他物件，按一下[管理Forms] **&#x200B;**，然後按一下表單右側的&#x200B;**X**&#x200B;圖示，將其從物件中移除。
-
-1. <span class="preview">在開啟的對話方塊中，按一下&#x200B;**移除**。</span>
-
-1. 按一下「**儲存**」。
+1. 按一下物件頁面右上角的&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)，然後按一下&#x200B;**全部編輯**。
+1. 按一下自訂表單名稱右側的&#x200B;**刪除**&#x200B;圖示![](assets/delete-icon.png)，然後按一下&#x200B;**刪除**&#x200B;以確認並從物件移除表單，或按一下&#x200B;**取消**&#x200B;以防止移除。
+1. 按一下「**儲存變更**」。
 
 ## 管理包含相同自訂欄位的多個自訂表單
 

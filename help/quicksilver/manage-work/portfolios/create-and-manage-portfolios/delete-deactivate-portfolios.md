@@ -6,7 +6,7 @@ description: 投資組合是Adobe Workfront中的專案或方案集合。 如果
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-source-git-commit: 8a4668a568fde2ca7ee26714caae3cd33efe4eda
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 1%
@@ -35,16 +35,16 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>[!UICONTROL 標準]</p>
-   <p>[!UICONTROL 計畫]</p> </td> 
+   <td> <p>[！UICONTROL標準]</p>
+   <p>[！UICONTROL計畫]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[!UICONTROL Edit]專案與投資組合的存取權</p>  </td> 
+   <td> <p>[！UICONTROL Edit]專案與投資組合的存取權</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>投資組合的[!UICONTROL Manage]許可權 </p> </td> 
+   <td> <p>投資組合的[！UICONTROL Manage]許可權 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -68,6 +68,18 @@ ht-degree: 1%
 * 停用專案組合可確保建立專案時，專案組合及其方案的名稱不再指派給專案。
 * 停用已附加至專案的投資組合併不會將其從專案中移除。 如果您從專案中移除已停用的投資組合，則必須先將其重新啟用，才能將其重新附加至專案。
 
+## 刪除投資組合
+
+{{step1-to-portfolios}}
+
+1. 執行下列其中一項：
+
+   * 在清單中選取投資組合，然後按一下&#x200B;**[!UICONTROL 刪除]**&#x200B;圖示![刪除圖示](assets/delete.png)。
+   * 按一下投資組合以開啟，然後按一下投資組合名稱右側的&#x200B;**更多**&#x200B;功能表![更多](assets/more-icon.png)，然後&#x200B;**刪除Portfolio**。
+1. 按一下&#x200B;**[!UICONTROL 是，刪除]**&#x200B;以進行確認。
+
+   投資組合已刪除，且無法復原。
+
 ## 停用投資組合
 
 當您停用投資組合時，您仍然可以從[!UICONTROL 投資組合]區域存取它，但當使用者嘗試將其新增到專案時，它不再顯示在投資組合清單中。
@@ -84,14 +96,4 @@ ht-degree: 1%
 投資組合會立即停用。
 1. （選擇性）按一下投資組合名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-icon.png)，然後按一下&#x200B;**[!UICONTROL 啟用Portfolio]**&#x200B;以重新啟用。
 
-## 刪除投資組合
 
-{{step1-to-portfolios}}
-
-1. 執行下列其中一項：
-
-   * 在清單中選取投資組合，然後按一下&#x200B;**[!UICONTROL 刪除]**&#x200B;圖示![刪除圖示](assets/delete.png)。
-   * 按一下投資組合以開啟，然後按一下投資組合名稱右側的&#x200B;**更多**&#x200B;功能表![更多](assets/more-icon.png)，然後&#x200B;**刪除Portfolio**。
-1. 按一下&#x200B;**[!UICONTROL 是，刪除]**&#x200B;以進行確認。
-
-   投資組合已刪除，且無法復原。

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
-source-wordcount: '1734'
+source-wordcount: '1878'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 # 管理來自Workfront物件的記錄連線
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 ## 存取需求
 
-+++ 展開以檢視存取需求。
++++ 展開以檢視存取需求。 
 
 <table style="table-layout:auto">
  <col>
@@ -51,7 +51,7 @@ ht-degree: 1%
    <td role="rowheader"><p>Adobe Workfront計畫*</p></td>
    <td>
 <p>下列任一Workfront計畫：</p>
-<ul><li>選取</li>
+<ul><li>選擇</li>
 <li>Prime</li>
 <li>Ultimate</li></ul>
 <p>舊版Workfront計畫不提供Workfront計畫</p>
@@ -111,7 +111,7 @@ ht-degree: 1%
 「規劃」區段適用於下列Workfront物件：
 
 * 專案
-* 專案組合
+* 產品組合
 * 方案
 <!--* Group
 * Company-->
@@ -127,6 +127,9 @@ ht-degree: 1%
    * [連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)
    * [連接記錄](/help/quicksilver/planning/records/connect-records.md)
 * 您可以從Workfront物件檢視Planning區段，即使沒有與Workfront物件相關聯的記錄亦然。
+* <span class="preview">記錄型別只有在您建立兩個記錄型別之間的連線時，在連結的記錄型別設定上啟用建立對應欄位時，才會顯示在Workfront物件的Planning區域中。</span>
+
+  如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
 
 ### 從Planning區段管理記錄連線
 
@@ -161,7 +164,7 @@ ht-degree: 1%
 
    專案![上的](assets/planning-section-on-project.png)規劃區段
 
-1. （選擇性）按一下[顯示所有連線]&#x200B;**&#x200B;**&#x200B;以顯示所有連線的記錄型別，包括沒有連線記錄的記錄型別。 依預設，不顯示沒有連線記錄的記錄型別。
+1. （選擇性）按一下[顯示所有連線]****&#x200B;以顯示所有連線的記錄型別，包括沒有連線記錄的記錄型別。 依預設，不顯示沒有連線記錄的記錄型別。
 1. 按一下記錄卡以顯示有關記錄的更多資訊。 記錄預覽方塊隨即顯示。
 1. （選用）開始修改記錄預覽方塊中的欄位。 您的變更會自動儲存。
 1. （選擇性）按一下預覽方塊右上角的&#x200B;**在新索引標籤中開啟**&#x200B;圖示![在新索引標籤圖示中開啟詳細資料](assets/open-details-in-a-new-tab-icon.png)以開啟記錄的詳細資訊頁面。 記錄的詳細資訊頁面會在Workfront Planning中開啟。
@@ -190,7 +193,7 @@ ht-degree: 1%
 * Planning連線欄位會在建立連線之後，以及將該欄位附加到下列Workfront物件的表單時，顯示Planning記錄：
 
    * 專案
-   * 專案組合
+   * 產品組合
    * 方案
    * 群組
    * 公司
@@ -214,13 +217,16 @@ ht-degree: 1%
 
   例如，您也許可以將具有Planning連線欄位的自訂表單附加到任務，但無法將Workfront Planning物件連線到任務。
 * 大量編輯Workfront物件時，您無法編輯Planning連線欄位。
+* <span class="preview">只有在您建立兩個記錄型別之間的連線時，在連結的記錄型別設定上啟用建立對應欄位時，才會在Workfront物件的Planning連線自訂欄位中顯示記錄型別。</span>
+
+  如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
 
 ### 管理來自Planning連線欄位型別的記錄連線
 
 1. 移至下列其中一個已連線至Workfront Planning記錄型別的物件型別：
 
    * 專案
-   * 專案組合
+   * 產品組合
    * 方案
    * 公司
    * 群組

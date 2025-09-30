@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 9bdc36a76393acd2f0617cc5796cfd7279b2c97a
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
 source-wordcount: '2752'
 ht-degree: 1%
@@ -144,7 +144,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
      >[!TIP]
      >
-     >必須針對&#x200B;**編輯記錄型別**&#x200B;方塊的&#x200B;**進階設定**&#x200B;索引標籤中的記錄型別，啟用&#x200B;**允許連線至其他工作區中的此記錄型別**&#x200B;設定，才能從其他工作區存取記錄型別。 如果沒有記錄型別被設定為從其他工作區連線，則工作區區段不會顯示。
+     >必須針對&#x200B;**編輯記錄型別**&#x200B;方塊的&#x200B;**進階設定**&#x200B;索引標籤中的記錄型別，啟用&#x200B;**允許連線至其他工作區中的此記錄型別**設定，才能從其他工作區存取記錄型別。 如果沒有記錄型別被設定為從其他工作區連線，則工作區區段不會顯示。
      > ![編輯記錄型別方塊進階設定索引標籤](assets/edit-record-type-box-advanced-settings-tab.png)
 
      如需詳細資訊，請參閱[編輯記錄型別](/help/quicksilver/planning/architecture/edit-record-types.md)。
@@ -195,7 +195,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
          >[!TIP]
          >
-         >一個記錄型別有500個連線的限制。 建議將此設定設為關閉（尤其是分類記錄型別），以避免達到此限制。
+         >一個記錄型別有500個欄位的限制。 建議將此設定設為關閉（尤其是分類記錄型別），以避免達到此限制。
 
       3. （視條件而定）如果您已啟用&#x200B;**在連結的記錄型別**&#x200B;上建立對應的欄位，請從下列選項中選擇，以指出使用者可連線到多少筆記錄，以及可從多少筆記錄連線：
 
@@ -222,7 +222,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
    >[!NOTE]
    >
-   >您的Workfront管理員可以透過Workfront中的中繼資料對應，將Workfront Planning欄位對應至Experience Manager Assets欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
+   >您的Workfront管理員可以透過Workfront中的中繼資料對應，將Workfront Planning欄位對應至Experience Manager Assets欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
 
 
 1. （視條件而定）當您選取連線至Experience Manager Assets或Workfront Planning記錄型別時，請在&#x200B;**記錄外觀**&#x200B;區域中選擇下列其中一個選項：
@@ -346,7 +346,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
      >[!TIP]
      >
-     > 系統不會為其他應用程式的物件建立連結記錄欄位，以連結至您在Workfront Planning中連結的記錄型別。<!--<span class="preview">We recommend not creating links on taxonomical record types, as there is a 500 connection field limit for every record type.</span>-->
+     > 系統不會為其他應用程式的物件建立連結記錄欄位，以連結至您在Workfront Planning中連結的記錄型別。<!--<span class="preview">We recommend not creating links on taxonomical record types, as there is a limit of 500 fields for every record type.</span>-->
 
    <!--see the span preview text in the TIP above; it might not show up in green-->
 

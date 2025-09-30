@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management, Strategic Planning
 recommendations: noDisplay, noCatalog
 exl-id: 3c796bab-b468-451a-adf8-8180f67546ee
-source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---
@@ -29,3 +29,4 @@ ht-degree: 0%
 * [將現有方案新增至投資組合](../../../manage-work/portfolios/create-and-manage-programs/move-program.md)
 * [將專案新增至方案](../../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)
 * [從方案中移除專案](../../../manage-work/portfolios/create-and-manage-programs/remove-project-from-program.md)
+* [刪除和停用程式](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/delete-and-deactivate-programs.md)
