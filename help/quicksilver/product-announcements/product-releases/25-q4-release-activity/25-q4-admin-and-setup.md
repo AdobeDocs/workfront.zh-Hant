@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: aec301a72ce0864faaf61754552ab8b4ba9bfb49
+source-git-commit: 4ec069376c398aa67ecfd6fad6973ad364f6a6a2
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 0%
 與目前的使用者設定檔有一些小的功能差異，包括：
 
 * 有些核取方塊（例如將使用者標示為使用中）已變更為切換或按鈕。
-* 「偏好設定」下的「將我指派給自己的工作傳送給我的工作索引標籤」選項已移除，因為它參考已棄用的功能。
+* 「偏好設定」下的「將我指派給自己的工作傳送給我的工作正在進行索引標籤」選項已重新命名為「當工作已自我指派時，自動將工作狀態設定為進行中」以反映其目的。
 
 如需詳細資訊，請參閱[編輯使用者的設定檔](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
 
