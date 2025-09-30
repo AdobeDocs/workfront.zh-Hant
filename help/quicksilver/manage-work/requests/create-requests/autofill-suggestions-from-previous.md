@@ -5,21 +5,14 @@ description: 您可以使用AI來使用來自先前請求的資料自動完成�
 author: Becky
 feature: Get Started with Workfront
 exl-id: a0cd1fbf-d3c6-454c-a85a-ceca4b1e8a7b
-source-git-commit: 1c2e382908ed8fead7c2222e8d46988656df29c4
+source-git-commit: 21039f9ab14529b56935d65e0261dc1ce068918c
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
 
 # 使用先前請求的資料自動完成請求
-
->[!NOTE]
->
->* 此功能將作為開放式測試版在以下排程中提供：
->
->   * 每月發行： 2025年9月11日
->   * 每季發行： 2025年10月16日
 
 AI可協助您根據先前的請求自動完成請求欄位。 您可以在提交請求之前核准或拒絕這些建議。
 
