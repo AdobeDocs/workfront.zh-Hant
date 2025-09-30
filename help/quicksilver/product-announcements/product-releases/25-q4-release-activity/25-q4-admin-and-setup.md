@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: 4ec069376c398aa67ecfd6fad6973ad364f6a6a2
+source-git-commit: e32f759218a3addf63dad7aa207ccdde8acb1975
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 預覽： 2025年9月25日
->* 生產快速發行： 2025年10月15日
->* 所有客戶的生產： 2025年10月16日
+>* 預覽： 2025年9月24日
+>* 適用於所有客戶的生產： 2025年9月25日
 
 為確保您能保留所需資料的存取權，我們已在從物件移除自訂表單時新增確認對話方塊。 從物件中移除自訂表單，會將該表單中的資料從物件中永久移除。 現在，對話方塊可讓您確認您瞭解此資料將會移除，確保您不會移除所需的資料。
 
