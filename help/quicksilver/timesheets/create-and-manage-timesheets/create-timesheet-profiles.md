@@ -6,14 +6,16 @@ description: 您可以建立、編輯和指派為使用者產生週期性時程�
 author: Lisa
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 764200970aeb8d121cd99a8d4239e0b9853670a9
+source-git-commit: 939407f56b39617441f669d11b9439e445ceaf6e
 workflow-type: tm+mt
-source-wordcount: '1635'
+source-wordcount: '1641'
 ht-degree: 2%
 
 ---
 
 # 建立、編輯和指派時程表設定檔
+
+{{highlighted-preview}}
 
 <!--Audited: 06/2025-->
 
@@ -85,8 +87,7 @@ ht-degree: 2%
 
    新的或現有的時程表設定檔頁面隨即顯示。
 
-
-1. 按一下&#x200B;**設定詳細資料**&#x200B;標籤，然後更新下列資訊： <!-- at the Production release, change the order of some of these rows, as they changed in the unshimmed UI-->
+1. 更新下列資訊：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -136,7 +137,7 @@ ht-degree: 2%
       <td role="rowheader"><strong>可以編輯時間</strong> </td> 
       <td> <p> <p>選取此選項可允許核准者在時程表上編輯小時。
 
-   <p>此選項可與「設定&gt;時程表和時數&gt;偏好設定」區域中的&#x200B;**限制只有擁有者和管理員能編輯時程表**&#x200B;設定搭配使用。 如需詳細資訊，請參閱<a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">設定時程表和小時喜好設定</a>。</p>
+   <p>此選項可與「設定&gt;時程表和時數&gt;偏好設定」區域中的**限制只有擁有者和管理員能編輯時程表**設定搭配使用。 如需詳細資訊，請參閱<a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">設定時程表和小時喜好設定</a>。</p>
 
    <p>存在下列情況： </p>
 
@@ -155,6 +156,10 @@ ht-degree: 2%
    <b>附註</b>：一旦您提交時程表進行核准，就無法再編輯時數。 若要將已提交的時程表傳回至可編輯狀態，請撤回該時程表或讓核准者拒絕該時程表。 如需詳細資訊，請參閱<a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">提交時程表以供核准</a>和<a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">核準時程表</a>。</p> </p> </td>
    </tr> 
      <tr> 
+      <td role="rowheader"><strong>加班</strong> </td> 
+      <td>您可以選擇隱藏時程表中的「加班」方塊。 此選項預設為停用。</td> 
+     </tr> 
+     <tr> 
       <td role="rowheader"><strong>可用的小時型別</strong> </td> 
       <td><p>此設定僅參考一般小時型別，不適用於特定專案小時型別。 </p>
       <p>依預設，使用者會在時程表上檢視所有一般時數。 不過，如果您的組織只想為一組特定使用者顯示特定的一般小時，您可以透過在此欄位中選取他們在時程表設定檔中的方式，選取他們需要在時程表中檢視的一般小時。 如果您要停用所有一般時數，請取消選取所有時數型別，以產生不含一般時數區段的時程表。</p></td> 
@@ -165,14 +170,9 @@ ht-degree: 2%
       <td> <p> 新增提醒通知。 Workfront會傳送提醒給使用者，要求他們完成或核准其時程表。 您必須先建立提醒通知，然後才能將其與時程表設定檔建立關聯。  </p> </td> 
      </tr>
 
-   <tr data-mc-conditions=""> 
-      <td role="rowheader"><span style="font-weight: bold;">加班</span> </td> 
-      <td>您可以選擇隱藏時程表中的「加班」方塊。 此選項預設為停用。</td> 
-     </tr> 
-    </tbody> 
-    </table>
+1. 在生產環境中建立群組層級的時程表設定檔時，請按一下&#x200B;**指派人員**&#x200B;索引標籤，將時程表設定檔與特定使用者、群組或(如果您是Workfront管理員)團隊建立關聯。<!--Keep the reference to the group upon release to Prod, for now, until they unshim the group Timesheet Profiles-->
 
-1. 建立群組層級的時程表設定檔時，請按一下&#x200B;**指派人員**&#x200B;索引標籤，將時程表設定檔與特定使用者、群組或(如果您是Workfront管理員)團隊建立關聯。<!--Keep the reference to the group upon release to Prod, for now, until they unshim the group Timesheet Profiles-->
+   <span class="preview">在預覽中建立群組層級時程表設定檔時，請捲動至頁面底部，並找到&#x200B;**指派人員**&#x200B;區段。</span>
 
    為系統建立時間表設定檔時，請捲動至頁面底部，並找到&#x200B;**指派人員**&#x200B;區段。<!--Keep the reference to the system when releasing to Prod, until they unshim the group Timesheet Profile-->
 
@@ -188,13 +188,13 @@ ht-degree: 2%
 
 1. 按一下「**儲存**」。
 
-1. 在時程表設定檔清單頂端，按一下系統層級時程表設定檔的&#x200B;**更多**&#x200B;圖示![更多圖示](assets/more-icon.png)或群組時程表設定檔的&#x200B;**更多**，然後按一下&#x200B;**產生時程表**。
+1. 在時程表設定檔清單頂端，按一下&#x200B;**更多**&#x200B;圖示![更多](assets/more-icon.png)，然後按一下&#x200B;**產生時程表**。
 
    畫面底部會顯示已成功產生時程表的確認訊息。 系統會根據您建立的新設定檔產生新的時間表。
 
    如需詳細資訊，請參閱[手動產生時間表](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)。
 
-   週期性時程表首次產生時程表時，會為每個使用者建立2個時程表，針對包括目前時間及以下時間範圍的時程表都包含在內。
+   週期性時程表首次產生時程表時，系統會為每個使用者建立兩個時程表，針對包含目前時間的時間範圍以及下列時間範圍。
 
    之後，每次產生新時程表時，就會為每個使用者建立一個時程表。
 
