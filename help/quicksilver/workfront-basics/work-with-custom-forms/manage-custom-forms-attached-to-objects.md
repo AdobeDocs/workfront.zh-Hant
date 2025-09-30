@@ -6,16 +6,16 @@ description: 您可以更新附加至一個物件的自訂表單的顯示順序�
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: b3534cccd4a06b8c5b8b7e742f63eeb898bd5b99
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1147'
 ht-degree: 0%
 
 ---
 
 # 管理附加到物件的自訂表單
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 預覽環境中的所有客戶以及生產環境中的特定客戶群組都可以使用它。</span>
 
 您可以更新附加至一個物件的自訂表單的顯示順序、移除它們，或是大量編輯自訂表單在多個物件上的顯示方式。
 
@@ -41,7 +41,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>您管理自訂表單之物件的Contribute許可權或更高版本</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>為您管理自訂表單的物件貢獻許可權或以上</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -80,7 +80,9 @@ ht-degree: 0%
 1. 按一下&#x200B;**自訂Forms**。
 1. 若是專案、任務和問題自訂表單，請按一下表單右側的&#x200B;**X**&#x200B;圖示，將其從物件中移除。
 
-   針對所有其他物件，按一下[管理Forms] **&#x200B;**，然後按一下表單右側的&#x200B;**X**&#x200B;圖示，將其從物件中移除。
+   針對所有其他物件，按一下[管理Forms] ****，然後按一下表單右側的&#x200B;**X**&#x200B;圖示，將其從物件中移除。
+
+1. <span class="preview">在開啟的對話方塊中，按一下&#x200B;**移除**。</span>
 
 1. 按一下「**儲存**」。
 
