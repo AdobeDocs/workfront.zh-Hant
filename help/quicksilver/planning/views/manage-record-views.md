@@ -213,7 +213,7 @@ ht-degree: 1%
    >否則，「時間軸」和「行事曆」選項會變暗。
    >
 
-   <span class="preview">在預覽環境中，選擇檢視型別，然後按一下[建立]。**** 新檢視會新增至下拉式功能表。</span>
+   <span class="preview">在預覽環境中，選擇檢視型別，然後按一下[建立]。**&#x200B;** 新檢視會新增至下拉式功能表。</span>
 
    <span class="preview">![建立檢視方塊](assets/create-view-box.png)</span>
 
