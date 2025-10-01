@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: 8df1889997937b2a4238862eb2f86aeda84ed104
+source-git-commit: 6aa0aa5b8ffd088e3d79e7d1be66373a7f753f99
 workflow-type: tm+mt
 source-wordcount: '1310'
 ht-degree: 0%
@@ -39,8 +39,8 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th> <p> </p> </th> 
-   <th> <p><strong>[!UICONTROL Standard]支援套件</strong> </p> </th> 
-   <th> <p><strong>[!UICONTROL Plus]、[!UICONTROL Preferred]和[!UICONTROL Enterprise]支援套件</strong> </p> </th> 
+   <th> <p><strong>[！UICONTROL Standard]支援套件</strong> </p> </th> 
+   <th> <p><strong>[！UICONTROL Plus]、[！UICONTROL Preferred]和[！UICONTROL Enterprise]支援套件</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -192,4 +192,4 @@ Workfront會停用來自預覽Sandbox環境的所有電子郵件通訊。 如果
 
 * [!DNL Workfront]預覽環境在週末（星期六和星期日）發生的任何中斷都會得到解決，因此環境會在星期一的營業時間執行。
 
-* 校訂在預覽環境中無法使用。
+* 預覽環境中沒有校訂可用。
