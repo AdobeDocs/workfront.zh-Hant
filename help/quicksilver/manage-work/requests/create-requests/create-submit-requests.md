@@ -6,9 +6,9 @@ description: 計畫工作在Adobe Workfront中以專案和任務表示。 不過
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 2c2ccbadd6470773808bbd5a205310fbb1e1944e
+source-git-commit: 71149623643b1f08b88fdf8f5aaeb5d9b284d53f
 workflow-type: tm+mt
-source-wordcount: '2856'
+source-wordcount: '2840'
 ht-degree: 1%
 
 ---
@@ -147,13 +147,13 @@ Workfront管理員必須建立「請求佇列」的下列元件：
 
    **新要求**&#x200B;方塊開啟。
 
-1. （視條件而定）如果您切換到包含Workfront Planning的新體驗，而且是在生產環境中，則&#x200B;**新請求**&#x200B;方塊會顯示下列專案：</span>
+1. （視條件而定）如果您切換至新體驗，而且是在生產環境中，則&#x200B;**新請求**&#x200B;方塊會顯示下列專案：</span>
 
    <ul><li>最近存取的6個Workfront請求佇列及Planning請求表單會顯示在「最近」區段中。 </li>
     <li>所有其他Workfront和Planning要求表單<b>所有要求表單</b>區段。 您可以搜尋預設不會顯示的請求表單。 </li>
     <li>所有其他Workfront和Planning請求佇列路徑會顯示在<b>所有請求路徑</b>區段中。 您可以搜尋預設不會顯示的請求佇列。</li></ul>
    按一下其中一個Workfront請求佇列路徑或表單，或搜尋其中一個路徑或表單，然後在清單中顯示時按一下它。
-1. <span class="preview">（條件式）如果您切換至包含Workfront Planning的新體驗，請選取其中一個Workfront要求佇列路徑或表單，或按一下搜尋列。</span>
+1. <span class="preview">（條件式）如果您已切換至新體驗，請選取其中一個Workfront要求佇列路徑或表單，或按一下搜尋列。</span>
 
    <span class="preview">當您按一下搜尋列時，會出現一個下拉式清單，首先顯示最近使用的佇列和表單。 從清單中選取一個佇列，或開始輸入並選取佇列或出現時的清單。</span>
 
@@ -165,7 +165,7 @@ Workfront管理員必須建立「請求佇列」的下列元件：
    >* <span class="preview">若要只顯示Workfront要求佇列，請篩選`Issue`物件型別。</span>
    >* <span class="preview">在新的請求體驗中，在與已提交請求相同的清單中找到草稿。</span>
 
-1. （視條件而定）如果您切換至包含Workfront Planning的新體驗，請選取您的主題群組和佇列主題，並繼續更新表單。
+1. （視條件而定）如果您切換至新體驗，請選取主題群組和佇列主題，並繼續更新表單。
 
    否則，請在&#x200B;**要求型別**&#x200B;欄位內按一下，然後執行下列任一項作業：
 
@@ -348,7 +348,7 @@ Workfront管理員必須建立「請求佇列」的下列元件：
 
    當您提交請求時，草稿會自動刪除且無法還原。
 
-   已提交的請求列在請求區域的&#x200B;**已提交**&#x200B;區段中。 如果您使用包含Workfront Planning的新體驗，Workfront提交的請求會顯示在「請求」區域的&#x200B;**Workfront**&#x200B;索引標籤中。
+   已提交的請求列在請求區域的&#x200B;**已提交**&#x200B;區段中。 如果您使用新體驗，Workfront提交的請求會顯示在「請求」區域的&#x200B;**Workfront**&#x200B;標籤中。
 
    如需有關處理傳入請求的資訊，請參閱文章[管理工作和團隊請求](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md)。
 
