@@ -63,7 +63,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 1. 移至您的檢閱電子郵件通知，然後按一下&#x200B;**移至檢閱**。
 或
-前往Workfront首頁，尋找「我的核准」Widget，然後按一下**開啟稽核**。
+前往Workfront首頁，尋找「我的核准」Widget，然後按一下&#x200B;**開啟稽核**。
 
    >[!NOTE]
    > 
@@ -85,7 +85,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 1. 移至您的檢閱電子郵件通知，然後按一下&#x200B;**移至檢閱**。
 或
-前往Workfront首頁，尋找「我的核准」Widget，然後按一下**開啟稽核**。
+前往Workfront首頁，尋找「我的核准」Widget，然後按一下&#x200B;**開啟稽核**。
 
    >[!NOTE]
    > 
