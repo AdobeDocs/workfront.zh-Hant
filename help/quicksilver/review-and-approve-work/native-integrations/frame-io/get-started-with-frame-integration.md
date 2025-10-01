@@ -6,12 +6,10 @@ description: 開始使用Frame.io整合。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
 exl-id: b9a83bc2-4dd8-4c77-a2e7-385baa809b3b
-source-git-commit: 19003988a8e164db225f8511f567d38e6eeaf627
+source-git-commit: 9825f095a7be7debb5150ca4bd50f7cf6fd12295
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
@@ -42,7 +40,7 @@ Workfront與Frame.io整合可讓創意人員、行銷人員和利害關係人透
 如需關於設定專案的詳細資訊，請參閱
 
 * [建立專案](/help/quicksilver/manage-work/projects/create-projects/create-project.md)
-  <!--* [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)-->
+* [Frame.io整合概述](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)
 
 ### 在Workfront中啟動正式稽核和核准
 
@@ -72,7 +70,7 @@ Workfront與Frame.io整合可讓創意人員、行銷人員和利害關係人透
 
 在Workfront中啟動稽核和核准工作流程後，稽核者和核准者可以存取Frame.io檢視器以新增註釋、標籤資產並做出決定。
 
-<!--For more information, see [Review and approve with the Frame.io viewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md).-->
+如需詳細資訊，請參閱[使用Frame.io檢視器檢閱並核准](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md)。
 
 #### 存取Frame.io檢視器
 
@@ -83,7 +81,7 @@ Workfront與Frame.io整合可讓創意人員、行銷人員和利害關係人透
 
 >[!NOTE]
 >
->系統會透過電子郵件通知外部Workfront使用者，並要求他們建立Frame.io登入頁面，以檢閱和核准資產。<!--is this still accurate?-->
+>系統會透過電子郵件通知外部Workfront使用者，並要求他們建立Frame.io登入頁面，以檢閱和核准資產。
 
 ![從首頁](assets/open-fio-viewwer.png)開啟框架檢視器
 

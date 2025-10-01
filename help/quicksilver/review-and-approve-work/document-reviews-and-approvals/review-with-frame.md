@@ -5,16 +5,14 @@ title: 使用Frame.io檢視器檢閱並核准
 description: 瞭解如何使用Frame.io檢視器檢閱和核准檔案。
 author: Courtney
 feature: Work Management, Digital Content and Documents
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 601285fdbf26365dcaea14f990904d049816af21
+exl-id: 3190ad18-180e-42e5-aa10-bdad74303d3d
+source-git-commit: 9825f095a7be7debb5150ca4bd50f7cf6fd12295
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
-
 
 # 使用Frame.io檢視器檢閱並核准
 
@@ -22,11 +20,12 @@ ht-degree: 0%
 
 使用Frame.io檢視器檢閱Workfront檔案，可讓您留下註解或標示檔案、影像或視訊的特定區段，以便與團隊有效率地合作，並確保意見清晰且易於操作。
 
-<!--For more information on the Frame.io integration with Workfront, see [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md).-->
+如需有關Frame.io與Workfront整合的詳細資訊，請參閱[Frame.io整合總覽](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)。
 
-## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
+<!--## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,28 +34,28 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p> 任何</p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p> Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>要求或更高版本</p>
-   <p>投稿人或以上</p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Request or higher</p>
+   <p>Contributor or higher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">存取層級設定</td> 
-   <td> <p>編輯檔案的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Documents</p>  </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">物件許可權</td> 
-   <td> <p>編輯與檔案關聯之物件的存取權</p> <p>如需請求其他存取權的資訊，請參閱<a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md" class="MCXref xref">請求物件的存取權</a>。</p> </td> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Edit access to the object associated with the document</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++ -->
 
 ## 檢閱檔案
 
@@ -64,14 +63,14 @@ ht-degree: 0%
 
 1. 移至您的檢閱電子郵件通知，然後按一下&#x200B;**移至檢閱**。
 或
-前往Workfront首頁，尋找「我的核准」Widget，然後按一下&#x200B;**開啟稽核**。
+前往Workfront首頁，尋找「我的核准」Widget，然後按一下**開啟稽核**。
 
    >[!NOTE]
    > 
    >您可能需要將我的核准Widget新增到您的首頁。 如需詳細資訊，請參閱[新增、編輯或移除首頁中的Widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)。
 
 1. 在Frame.io中，使用註解工具提供意見或提出問題。
-註解與資產標籤只會顯示在Frame.io檢視器中。 如需使用Frame.io檢視器的詳細資訊，請參閱[在您的媒體上發表評論](https://help.frame.io/en/articles/9105251-commenting-on-your-media)。
+註解與資產標籤只會顯示在Frame.io檢視器中。 評論不會顯示在Workfront中。 如需使用Frame.io檢視器的詳細資訊，請參閱[在您的媒體上發表評論](https://help.frame.io/en/articles/9105251-commenting-on-your-media)。
 1. 在您滿意檔案後，請導覽回Workfront中的「檔案詳細資訊」頁面，並將您的檢閱標籤為完成。
 
    ![標示評論完成](assets/mark-review-complete.png)
@@ -86,15 +85,14 @@ ht-degree: 0%
 
 1. 移至您的檢閱電子郵件通知，然後按一下&#x200B;**移至檢閱**。
 或
-前往Workfront首頁，尋找「我的核准」Widget，然後按一下&#x200B;**開啟稽核**。
+前往Workfront首頁，尋找「我的核准」Widget，然後按一下**開啟稽核**。
 
    >[!NOTE]
    > 
    >您可能需要將我的核准Widget新增到您的首頁。 如需詳細資訊，請參閱[新增、編輯或移除首頁中的Widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)。
 
 
-1. 在Frame.io中，使用註解工具提供意見或提出問題。
-註解與資產標示只會顯示在Frame.io檢視器中。 如需使用Frame.io檢視器的詳細資訊，請參閱[在您的媒體上發表評論](https://help.frame.io/en/articles/9105251-commenting-on-your-media)。
+1. 在Frame.io中，使用註解工具提供意見或提出問題。 註解與資產標示只會顯示在Frame.io檢視器中。 如需使用Frame.io檢視器的詳細資訊，請參閱[在您的媒體上發表評論](https://help.frame.io/en/articles/9105251-commenting-on-your-media)。
 1. 一旦您對檔案滿意，就可以在Frame.io檢視器中選擇下列其中一項決定：
 
    * **核准**：資產不需要變更，而且已可供使用。
@@ -109,4 +107,3 @@ ht-degree: 0%
 
 
 <!--is document owner the correct term?-->
-

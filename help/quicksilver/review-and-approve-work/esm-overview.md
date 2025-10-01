@@ -5,16 +5,14 @@ title: Adobe企業儲存空間概覽
 description: Adobe企業儲存空間概覽
 author: Courtney
 feature: Work Management, Digital Content and Documents
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: d24773df7eede3140eeecdea7f1c33b8466e887a
+exl-id: 16c564a9-abd7-4b07-be3e-9c823f40177d
+source-git-commit: e908d0ffd1a3397dead5909942b2b0bedb91ae1c
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
-
 
 # Adobe企業儲存空間概覽
 
@@ -40,4 +38,4 @@ Adobe企業儲存是以雲端為主的儲存解決方案，可作為Adobe企業�
 
 Workfront和Frame.io整合採用Adobe企業儲存空間，可提供統一的稽核和核准體驗。 此整合可讓專案專員在Workfront中管理專案和計畫工作，而創意人員、行銷人員和利害關係人可以檢閱和核准Frame.io中的資產。 這可確保所有利害關係人都能存取最新版本的資產，並將意見回饋集中在一處。
 
-<!--For more information about the Workfront and Frame.io integration, see [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md).-->
+如需Workfront與Frame.io整合的詳細資訊，請參閱[Frame.io整合總覽](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)。
