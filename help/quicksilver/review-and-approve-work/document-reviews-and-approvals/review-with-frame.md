@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 3190ad18-180e-42e5-aa10-bdad74303d3d
-source-git-commit: 9825f095a7be7debb5150ca4bd50f7cf6fd12295
+source-git-commit: a3edfadc447a763c638cc926b386272890697f81
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -57,13 +57,17 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 +++ -->
 
+## 先決條件
+
+* 您必須在Workfront執行個體中設定Workfront和Frame.io整合。 如需詳細資訊，請參閱[Frame.io整合總覽](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md#integration-requirements)。
+
 ## 檢閱檔案
 
 身為檢閱者，您可以對資產新增註解及標示。 完成後，您可以在Workfront中將您的評論標籤為完成。 資產不需要將稽核標籤為完成，才能在核准程式中前進。
 
 1. 移至您的檢閱電子郵件通知，然後按一下&#x200B;**移至檢閱**。
 或
-前往Workfront首頁，尋找「我的核准」Widget，然後按一下&#x200B;**開啟稽核**。
+前往Workfront首頁，尋找「我的核准」Widget，然後按一下**開啟稽核**。
 
    >[!NOTE]
    > 
@@ -85,7 +89,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 1. 移至您的檢閱電子郵件通知，然後按一下&#x200B;**移至檢閱**。
 或
-前往Workfront首頁，尋找「我的核准」Widget，然後按一下&#x200B;**開啟稽核**。
+前往Workfront首頁，尋找「我的核准」Widget，然後按一下**開啟稽核**。
 
    >[!NOTE]
    > 

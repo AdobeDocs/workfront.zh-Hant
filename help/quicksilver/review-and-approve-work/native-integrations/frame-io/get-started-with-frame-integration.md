@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b9a83bc2-4dd8-4c77-a2e7-385baa809b3b
-source-git-commit: 9825f095a7be7debb5150ca4bd50f7cf6fd12295
+source-git-commit: a3edfadc447a763c638cc926b386272890697f81
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '805'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,18 @@ ht-degree: 0%
 Workfront與Frame.io整合可讓創意人員、行銷人員和利害關係人透過順暢的工作流程保持一致。 存取即時更新、避免重複工作，並確保資產在啟動前獲得核准。
 
 如需Frame.io的詳細資訊，請參閱[開始使用Frame.io](https://support.frame.io/en/collections/49298-getting-started)。
+
+您必須在Workfront執行個體中設定Workfront和Frame.io整合。 如需詳細資訊，請參閱[Frame.io整合總覽](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md#integration-requirements)。
+
+<!--## Integration requirements
+
+* Workfront and Frame.io must be deployed to the same Identity Management system (IMS) organization.
+
+* Users can belong to only one Workfront instance within the IMS organization.
+
+* The Workfront instance must be enabled on the Adobe Unified Experience.
+
+* The integration is configured by Adobe Professional Services. -->
 
 ## Workfront中的工作啟動和規劃
 
