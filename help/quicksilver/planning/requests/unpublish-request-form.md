@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 793a856a963060cbade33a1c29f002cecf7f7e47
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '864'
 ht-degree: 3%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 3%
 
 ## 存取需求
 
-+++ 展開以檢視存取需求。
++++ 展開以檢視存取需求。 
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -52,7 +52,7 @@ ht-degree: 3%
    <td role="rowheader"><p>Adobe Workfront計畫*</p></td>
    <td>
 <p>下列任一Workfront計畫：</p>
-<ul><li>選取</li>
+<ul><li>選擇</li>
 <li>Prime</li>
 <li>Ultimate</li></ul>
 <p>舊版Workfront計畫不提供Workfront計畫</p>
@@ -117,7 +117,7 @@ ht-degree: 3%
 
 {{step1-to-planning}}
 
-1. 按一下您要新增記錄的工作區。
+1. 按一下您要共用表單的工作區。
 
    工作區隨即開啟，且記錄型別會顯示為卡片。
 

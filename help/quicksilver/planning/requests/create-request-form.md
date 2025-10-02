@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 359131cef04fdb46def64428a7a693c3f00b2cd4
+source-git-commit: de42feb0d5a349e6b4b403b790b4759f693f7f4c
 workflow-type: tm+mt
-source-wordcount: '2568'
+source-wordcount: '3138'
 ht-degree: 1%
 
 ---
@@ -135,11 +135,15 @@ ht-degree: 1%
    * 參考「幣別」欄位的公式欄位會顯示不含匯率會計的值。
    * 段落欄位的值在請求表單上顯示「N/A」值，並在請求詳細資訊頁面中顯示html標籤而不是格式化文字。
 
-## 開始建立請求表單
+## 建立請求表單
+
+若要建立請求表單，您必須開始建立表單、設定表單詳細資料，然後發佈並共用表單以完成作業。
+
+### 開始建立請求表單
 
 您可以從與表單<span class="preview">關聯的記錄型別或Workfront的「請求」區域建立請求表單。</span>
 
-### 從記錄型別建立請求表單
+#### 從記錄型別建立請求表單
 
 {{step1-to-planning}}
 
@@ -168,7 +172,7 @@ ht-degree: 1%
 
 <div class="preview">
 
-### 從Workfront的「請求」區域建立請求表單
+#### 從Workfront的「請求」區域建立請求表單
 
 1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**要求**。
 1. 在熒幕的右上角，按一下&#x200B;**要求表單**。
@@ -186,16 +190,21 @@ ht-degree: 1%
 1. 按一下「**建立**」。
 
    所選記錄型別的請求表單會在「表單」標籤中開啟。
-1. 繼續[設定表單](#configure-the-form)。
+1. 繼續[設定要求表單](#set-up-details-for-the-request-form)的詳細資料。
 
 </div>
 
-## 設定表單
+### 設定請求表單的詳細資料
 
-1. 開始建立或編輯請求表單，如下列其中一個區段所述：
+表單詳細資料會分為幾個索引標籤。
 
-   * [從記錄型別建立請求表單](#create-a-request-form-from-a-record-type)
-   * <span class="preview">[從Workfront的要求區域建立要求表單](#create-a-request-form-from-the-requests-area-of-workfront)</span>
+* **表單**&#x200B;索引標籤可讓您新增欄位和內容元素至表單
+* **組態**&#x200B;索引標籤可讓您設定表單<span class="preview">的核准程式，以及設定要求完成選項</span>。
+* <span class="preview">**自動化**&#x200B;索引標籤可讓您根據使用表單發出的請求功能自動執行即將發生的事件。</span>
+
+#### 設定表單詳細資料
+
+1. 開始建立或編輯要求表單，如[開始建立要求表單](#begin-creating-a-request-form)一節中所述。
 
    所選記錄型別的請求表單會在「表單」標籤中開啟。
 
@@ -248,6 +257,16 @@ ht-degree: 1%
    如需建立自訂表單的詳細資訊，請參閱[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 1. （選擇性）按一下&#x200B;**預覽**&#x200B;以檢視其他使用者使用表單提交新記錄時表單的顯示方式。
+1. 如果您想要設定表單的詳細資訊，請繼續[設定詳細資訊](#set-up-configuration-details)，或前往[完成建立請求表單](#complete-request-form-creation)。
+
+#### 設定組態詳細資料
+
+在[組態]索引標籤上，您可以設定核准程式<span class="preview">並設定從此表單建立的要求何時將標示為[已完成]</span>。
+
+1. 開始建立或編輯要求表單，如[開始建立要求表單](#begin-creating-a-request-form)一節中所述。
+
+   所選記錄型別的請求表單會在「表單」標籤中開啟。
+1. （選擇性）設定任何表單詳細資料，如[設定表單詳細資料](#set-up-form-details)中所述。
 
 1. （選擇性）按一下&#x200B;**組態**&#x200B;標籤，然後新增至少一位使用者<span class="preview">或團隊</span>至&#x200B;**核准者**&#x200B;欄位，以核准此記錄表單的新要求。
 
@@ -263,6 +282,39 @@ ht-degree: 1%
 
      如需新增核准至請求表單的詳細資訊，請參閱[新增核准至請求表單](/help/quicksilver/planning/requests/add-approval-to-request-form.md)。
 
+1. <span class="preview">（條件式）如果您要在任何核准者核准記錄後建立記錄，請勾選&#x200B;**僅需要一個決定**&#x200B;核取方塊。</span>
+
+1. <span class="preview">選取您是否要在建立要求的物件時，或是當要求的物件完成時，將從這個表單建立的要求標示為完成。</span>
+1. <span class="preview">（條件式）如果您已選取在要求的物件完成時將要求標籤為完成，請選取表示物件完成的欄位和值。 例如，當建立的物件狀態設定為Complete時，您可以選取Status欄位和Complete值以完成要求。</span>
+1. 如果您想要設定表單的更多詳細資料，請繼續[設定自動詳細資料](#set-up-configuration-details)，或前往[完成建立請求表單](#complete-request-form-creation)。
+
+<div class="preview">
+
+#### 設定自動化
+
+您可以在Adobe Workfront Planning中設定自動化，以便在從Planning記錄觸發時，在Workfront中建立物件或Workfront Planning中的記錄。
+
+如需有關在Workfront Planning的其他區域建立自動化的資訊，請參閱[設定Adobe Workfront Planning自動化](/help/quicksilver/planning/records/configure-automations-to-create-records.md)。
+
+1. 在自動化的詳細資訊頁面上，更新&#x200B;**觸發器**&#x200B;區段中的下列欄位：
+
+   * **觸發器**：選取將觸發自動化的動作。 目前唯一可用的要求表單自動化觸發程式是`When request object status equals pending creation`。
+
+1. 更新&#x200B;**動作**&#x200B;區段中的下列欄位： <!--submitted bugs for these fields - see if they need changing here-->
+   * **動作**：選取您希望Workfront在觸發自動化時執行的動作。 這是必填欄位。
+目前，要求表單自動化的唯一可用動作是`Create record`。
+
+     >[!TIP]
+     >
+     >儲存自動化後，您將無法再變更在此欄位中選取的動作。
+1. 繼續[完成請求表單建立](#complete-request-form-creation)。
+
+
+</div>
+
+### 完成請求表單建立
+
+1. 依照[開始建立要求表單](#begin-creating-a-request-form)和[設定要求表單的詳細資料](#set-up-details-for-the-request-form)中的說明建立及設定表單。
 1. （選擇性）按一下標題中表單名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**編輯**&#x200B;以更新表單名稱。
 
 1. 按一下&#x200B;**發佈**&#x200B;以發佈表單並取得其唯一連結。
@@ -280,6 +332,21 @@ ht-degree: 1%
 1. 按一下頁首中表單名稱左側的向左箭頭以關閉表單。
 
    **請求表單**&#x200B;表格檢視會開啟，並將表單新增至其中。
+
+## 管理現有的請求表單
+
+
+1. 按一下您要管理請求表單的工作區。
+
+   工作區隨即開啟，且記錄型別會顯示為卡片。
+
+1. 按一下記錄型別卡。 如需有關建立記錄型別的資訊，請參閱[建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md)。
+
+   記錄型別頁面會在您上次存取的檢視中開啟。 依預設，會在表格檢視中開啟記錄型別頁面。
+
+1. 按一下頁面標頭中記錄型別名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**管理請求表單**。
+
+   與記錄型別相關的所有請求表單都會顯示在表格檢視中。
 
 1. （選擇性）暫留在表格檢視中的要求表單名稱上，然後按一下表單名稱右側的&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下下列其中一項：
 
