@@ -5,9 +5,9 @@ description: 專案運作狀態功能利用AI助理的強大功能，立即為�
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: 1b0d47178085b6d971342a6a77d3341776ef62e6
+source-git-commit: 81f2787a5a9dd4f3737f3494c824502fe4abe59d
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1487'
 ht-degree: 2%
 
 ---
@@ -178,7 +178,7 @@ AI助理可以產生下列物件的專案健康情況評估：
 
 1. 在頁面的右上角，選取&#x200B;**新組態**。
 
-1. （選擇性）在組態詳細資訊頁面上，將&#x200B;*未命名的組態*&#x200B;取代為新的組態&#x200B;**名稱**。
+1. （選擇性）在組態詳細資訊頁面上，將&#x200B;*未命名的組態*&#x200B;取代為新組態&#x200B;**名稱**。
 
 1. 在&#x200B;**您要在專案狀況中包含哪些因素**&#x200B;區段中，取消選取您在決定專案狀況條件時不想要包含的任何因素：
    * **範圍變化**：專案範圍自開始以來已擴展多少。
