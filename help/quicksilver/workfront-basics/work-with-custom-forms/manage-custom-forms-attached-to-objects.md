@@ -6,16 +6,16 @@ description: 您可以更新附加至一個物件的自訂表單的顯示順序�
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: 322257a21f5d415b0ac04e6944c4aaa53fc3ab3b
+source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1054'
 ht-degree: 0%
 
 ---
 
 # 管理附加到物件的自訂表單
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 預覽環境中的所有客戶以及生產環境中的特定客戶群組都可以使用它。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 您可以更新附加至一個物件的自訂表單的顯示順序、移除它們，或是大量編輯自訂表單在多個物件上的顯示方式。
 

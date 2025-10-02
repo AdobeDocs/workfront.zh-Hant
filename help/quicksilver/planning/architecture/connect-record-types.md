@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
 workflow-type: tm+mt
-source-wordcount: '2752'
+source-wordcount: '2764'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,12 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
 本文說明如何將兩個Workfront Planning記錄型別或Workfront Planning記錄型別與其他應用程式的物件連線。
 
-建立記錄或物件型別之間的連線後，您可以將個別記錄連線至彼此，並在Workfront Planning記錄上顯示連結記錄或物件型別的欄位。
+建立記錄或物件型別之間的連線後，連線欄位會新增至Planning記錄型別。 在連線欄位中，您可以將個別記錄連線至彼此，並在Workfront Planning記錄上顯示連結記錄或物件型別的欄位。
+
+<!--
+>[!CAUTION]
+>
+><span class="preview">One record type can have up to 30 connection fields.</span>-->
 
 如需連線型別的一般資訊，請參閱[連線記錄型別概觀](/help/quicksilver/planning/architecture/connect-record-types-overview.md)。
 
@@ -126,36 +131,35 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 1. 按一下記錄型別的卡片以開啟記錄型別頁面。
 1. 按一下表格檢視右上角的&#x200B;**+**&#x200B;圖示，然後按一下&#x200B;**新增連線**&#x200B;索引標籤。
 
-   ![使用Workfront AEM選項的新連線標籤](assets/new-connection-tab-with-workfront-aem-options.png)
+   ![使用Workfront AEM選項的新連線標籤](assets/new-connection-tab-with-workfront-aem-options-no-buttons.png)
 
-1. 在&#x200B;**記錄型別**&#x200B;欄位中，搜尋記錄型別，或選取下列其中一項：
+1. 搜尋記錄型別，或選取下列其中一項：
 
-   * 來自目前工作區的另一個記錄型別
+   * <span class="preview">來自目前工作區的記錄型別</span>
 
-     ![許多對許多的連線選擇器](assets/many-to-many-connection-picker.png)
+     <span class="preview">![相同工作區記錄型別的多重選取連線選擇器](assets/multi-select-connection-picker-record-type.png)</span>
 
      >[!TIP]
      >
      > 
      >如果您在選取的工作區中沒有其他記錄型別，工作區區段不會顯示。
 
-
    * 來自另一個工作區的記錄型別，該記錄型別被設定為從其他工作區連線。
 
      >[!TIP]
      >
-     >必須針對&#x200B;**編輯記錄型別**&#x200B;方塊的&#x200B;**進階設定**&#x200B;索引標籤中的記錄型別，啟用&#x200B;**允許連線至其他工作區中的此記錄型別**&#x200B;設定，才能從其他工作區存取記錄型別。 如果沒有記錄型別被設定為從其他工作區連線，則工作區區段不會顯示。
+     >必須針對&#x200B;**編輯記錄型別**&#x200B;方塊的&#x200B;**進階設定**&#x200B;索引標籤中的記錄型別，啟用&#x200B;**允許連線至其他工作區中的此記錄型別**設定，才能從其他工作區存取記錄型別。 如果沒有記錄型別被設定為從其他工作區連線，則工作區區段不會顯示。
      > ![編輯記錄型別方塊進階設定索引標籤](assets/edit-record-type-box-advanced-settings-tab.png)
 
      如需詳細資訊，請參閱[編輯記錄型別](/help/quicksilver/planning/architecture/edit-record-types.md)。
 
-     ![新連線以允許多個記錄方塊](assets/new-connection-allow-multiple-records-box.png)
+     ![新連線以允許多個記錄方塊](assets/new-connection-tab-with-workfront-aem-options-no-buttons.png)
 
-   * 來自&#x200B;**Workfront物件型別**&#x200B;區段的&#x200B;**專案、Portfolio、方案、公司**&#x200B;或&#x200B;**群組**。
+   * <span class="preview">來自&#x200B;**Workfront物件型別**&#x200B;區段的&#x200B;**專案、Portfolio、方案、公司**&#x200B;或&#x200B;**群組**。</span>
 
-     ![Workfront專案連線選擇](assets/workfront-project-connection-selection.png)
+     <span class="preview">![Workfront專案連線選擇](assets/multi-select-connection-picker-project.png)</span>
 
-   * 來自&#x200B;**Experience Manager Assets應用程式**&#x200B;區段的&#x200B;**Adobe**。
+   * 來自&#x200B;**Experience Manager Assets應用程式**&#x200B;區段的&#x200B;**Adobe**。<!--update screen shot??-->
 
      ![AEM Assets連線選擇](assets/aem-assets-connection-selection.png)
 
@@ -170,7 +174,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 1. 新增連線記錄欄位的相關資訊，以更新&#x200B;**描述**&#x200B;欄位。 當您將滑鼠游標停留在表格中的欄位欄位上時，會顯示欄位說明。
 1. （視條件而定）當您從兩個不同的工作區或記錄和Adobe Experience Manager資產物件連線記錄型別時，請選取&#x200B;**允許多筆記錄**。 透過選取它，您表示當連線的記錄型別欄位顯示在原始記錄上時，您可以允許使用者新增多個記錄。 依預設會選取此選項。
 
-   ![新連線以允許多個記錄方塊](assets/new-connection-allow-multiple-records-box.png)
+   ![從另一個工作區新增記錄型別的連線](assets/new-connection-allow-multiple-records-box.png)
 
 1. （視條件而定）當您從相同工作區連線記錄型別，或連線具有Workfront物件型別的Planning記錄型別時，請根據您使用的環境執行下列其中一項作業：
 
@@ -197,6 +201,8 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
          >
          >一個記錄型別有500個欄位的限制。 建議將此設定設為關閉（尤其是分類記錄型別），以避免達到此限制。
 
+         <!--<span class="preview">There is a limit of 30 connected fields for a record type.</span>-->
+
       3. （視條件而定）如果您已啟用&#x200B;**在連結的記錄型別**&#x200B;上建立對應的欄位，請從下列選項中選擇，以指出使用者可連線到多少筆記錄，以及可從多少筆記錄連線：
 
          * 多對多
@@ -222,7 +228,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
    >[!NOTE]
    >
-   >您的Workfront管理員可以透過Workfront中的中繼資料對應，將Workfront Planning欄位對應至Experience Manager Assets欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
+   >您的Workfront管理員可以透過Workfront中的中繼資料對應，將Workfront Planning欄位對應至Experience Manager Assets欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
 
 
 1. （視條件而定）當您選取連線至Experience Manager Assets或Workfront Planning記錄型別時，請在&#x200B;**記錄外觀**&#x200B;區域中選擇下列其中一個選項：

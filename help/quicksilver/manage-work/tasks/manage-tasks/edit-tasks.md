@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: f98dd9c4bbb342e20ef77690ef20b0b14f5e9b6b
+source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
 workflow-type: tm+mt
-source-wordcount: '3723'
+source-wordcount: '3810'
 ht-degree: 4%
 
 ---
@@ -26,12 +26,22 @@ ht-degree: 4%
 </div>
 -->
 
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+-->
+
 
 您可以編輯已建立或您擁有Contribute或「管理」許可權之工作的相關資訊。
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,8 +53,8 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>新增：標準</p>
-   <p>目前：工作或以上</p> </td> 
+   <td> <p>標準</p>
+   <p>工作或更高</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級</td> 
@@ -119,7 +129,7 @@ ht-degree: 4%
 
    請考慮編輯「工作詳細資訊」段落中下列區域的資訊：
 
-   * **總覽**
+   * **概觀**
 
      此區域預設為展開。
 
@@ -178,11 +188,12 @@ ht-degree: 4%
    請考慮在下列任何一節中指定資訊：
 
    * [任務名稱](#task-name)
-   * [總覽](#overview)
+   * [概觀](#overview)
    * [指派](#assignments)
    * [自訂表單](#Custom%C2%A0F)
    * [財務](#finance)
    * [設定](#settings)
+   * [評論](#comment)
 
    >[!NOTE]
    >
@@ -415,7 +426,7 @@ ht-degree: 4%
       <td>週</td> 
       </tr> 
       <tr> 
-      <td>個月</td> 
+      <td>月</td> 
       <td>T</td> 
       </tr> 
       <tr> 
@@ -605,9 +616,23 @@ ht-degree: 4%
    </table>
     </li>
 
-1. 按一下「**儲存**」。
+1. 按一下&#x200B;**儲存**&#x200B;或繼續下列區段。
 
 <!--notes from the table: <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this bullet stays here although the sections it might appear in are QS only, so we can use the snippet for both Qs and classic)</p>       -->
+
+### 評論
+
+1. 依照本文[編輯任務](#Edit2)一節中的說明開始編輯您的任務。
+1. 按一下左側面板中的&#x200B;**註解**。
+
+   編輯任務方塊上的![註解區段](assets/comment-section-on-edit-task-box.png)
+
+1. 在提供的空間新增更新。
+1. （選用）將下列其中一專案新增至您的更新：
+
+   * 在&#x200B;**標籤人員**&#x200B;區域中新增使用者或團隊至您的更新，或使用@將其納入您的更新。
+   * 選取&#x200B;**我的公司私有**&#x200B;核取方塊，將更新保留給公司人員私有。
+1. 按一下「**儲存**」。
 
 ## 在任務標題中編輯任務（受限）
 

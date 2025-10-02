@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
+source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '889'
 ht-degree: 3%
 
 ---
@@ -26,6 +26,14 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+
+<div class="preview">
+
+本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 從預覽版開始的一週起，生產環境中也將提供相同功能給所有客戶。
+
+如需詳細資訊，請參閱[介面現代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。
+
+</div>
 
 身為Adobe Workfront管理員，您可以建立里程碑路徑，然後將其套用至系統中的任何專案。 您在此區域中對里程碑路徑所做的變更會影響整個Workfront系統。
 
@@ -45,14 +53,18 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td>規劃</td> 
+   <td><p>標準</p>
+   <p>規劃</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>您必須是Workfront管理員。</p> <p><b>注意</b>：如果您還是沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td> <p>您必須是Workfront管理員。</p></td> 
   </tr> 
  </tbody> 
 </table>
+
+*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -72,7 +84,18 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
 
 1. 按一下&#x200B;**處理序** > **里程碑路徑**。
 1. 按一下&#x200B;**新增里程碑路徑。**
-1. 在&#x200B;**基本資訊**&#x200B;區域中指定下列資訊：
+
+   <div class="preview">
+
+   「新建里程碑路徑」方塊開啟。
+
+   ![新里程碑路徑方塊](assets/new-milestone-path-box.png)
+
+   </div>
+
+1. 按一下左側面板中的&#x200B;**基本資訊**。
+
+   更新下列資訊：
 
    <table style="table-layout:auto">
     <tr>
@@ -93,7 +116,10 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
     </tr>
    </table>
 
-1. 在&#x200B;**里程碑**&#x200B;區域中指定下列資訊：
+1. 按一下左側面板中的&#x200B;**里程碑**。
+1.在生產環境中，按一下**新增里程碑**以將里程碑新增至路徑。
+   <span class="preview">在預覽環境中，按一下&#x200B;**新增列**&#x200B;以新增里程碑至路徑。</span>
+1. 更新下列資訊：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -114,15 +140,14 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
     </tbody> 
    </table>
 
-1. 按一下&#x200B;**新增里程碑**，然後視需要繼續新增里程碑，直到路徑完成為止。
-
+1. （選用）拖放每個里程碑以重新排序。
 1. 按一下&#x200B;**建立里程碑路徑**&#x200B;以儲存變更。
 
    您的里程碑路徑已準備好與專案相關聯。
 
    如需有關如何將里程碑路徑與專案建立關聯以及將里程碑與任務建立關聯的詳細資訊，請參閱[將里程碑與任務建立關聯](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)。
 
-
+1. （選擇性）從「里程碑路徑」清單中選取一個里程碑，然後按一下&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)以開啟里程碑路徑並編輯其資訊。
 1. （選擇性）按一下&#x200B;**匯出**&#x200B;圖示![匯出圖示](assets/export-icon.png)，然後從下列格式中選取，以將里程碑路徑清單匯出至檔案：
 
    * PDF
@@ -130,10 +155,12 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
    * Excel (xlsx)
    * 頁籤分隔檔
 
-1. （選擇性）選取里程碑清單中的里程碑，然後按一下&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)以編輯里程碑資訊。
-1. （選擇性）選取里程碑清單中的里程碑，然後按一下&#x200B;**刪除**&#x200B;圖示![刪除圖示](assets/delete-icon.png)以刪除它。
+1. （選擇性）在里程碑清單中選取一或多個里程碑，然後按一下&#x200B;**刪除**&#x200B;圖示![刪除圖示](assets/delete-icon.png)加以刪除。
 1. 按一下&#x200B;**是，刪除**。
-里程碑已刪除且無法復原。 與里程碑關聯的任何專案資訊以及與里程碑路徑關聯的任何任務資訊也會被刪除。
+
+   里程碑已刪除且無法復原。 里程碑路徑會從先前與其關聯的任何專案中移除，而所有里程碑會從與其關聯的任務中移除。
+
+   已刪除的里程碑無法復原。
 
 
 ## 在專案報告中檢視里程碑路徑詳細資訊
@@ -154,7 +181,7 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
    此篩選器可確保您只顯示與報告中里程碑路徑相關聯的專案。
 
 1. 按一下「**儲存並關閉**」。
-1. 新增報表名稱，然後按一下[套用]。**&#x200B;**
+1. 新增報表名稱，然後按一下[套用]。****
 
    專案報告隨即顯示。 與每個專案相關聯的里程碑路徑會顯示在報表的最後一欄。
 1. 按一下報告最後一欄中的里程碑路徑名稱。

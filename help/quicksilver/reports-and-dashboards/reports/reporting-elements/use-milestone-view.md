@@ -6,9 +6,9 @@ description: 您可以將「里程碑」檢視套用至專案清單或報告。 
 author: Courtney, Alina
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: d7af8c5888147e847b4e239b629373b4b72541f7
+source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: '1638'
 ht-degree: 1%
 
 ---
@@ -19,15 +19,13 @@ ht-degree: 1%
 
 <!--remove Preview and Production mentions from the article when this comes out live-->
 
-<!--
-<div class="preview"> 
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
+本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 從預覽版開始的一週起，生產環境中也將提供相同功能給所有客戶。
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+如需詳細資訊，請參閱[介面現代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。
 
-</div> 
--->
+</div>
 
 您可以將「里程碑」檢視套用至專案清單或報告。 您可以使用「里程碑」檢視來檢視與您所檢視專案中任務相關聯的所有里程碑。
 
@@ -95,8 +93,13 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 ## 里程碑檢視總覽 {#milestone-view-overview}
 
+<div class="preview">
+
 里程碑檢視適用於專案清單和專案報告。 您可以快速檢視與您所檢視專案中任務相關聯的所有里程碑。
 
+![具有里程碑檢視的專案](assets/project-with-milestone-view-with-complete.png)
+
+</div>
 
 >[!NOTE]
 >
@@ -106,9 +109,6 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 如需有關如何切換到里程碑檢視的資訊，請參閱本文中的[切換到里程碑檢視](#switch-to-the-milestone-view)一節。
 
-<!--add new screen shot for preview or production release-->
-
-![具有里程碑檢視的專案](assets/project-with-milestone-view-with-complete.png)
 
 ### 里程碑檢視區段
 
@@ -145,26 +145,34 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
   您可以直接從「里程碑」檢視調整完成百分比，如本文中「里程碑」檢視[中之任務的調整完成百分比](#adjust-percent-complete-for-tasks-in-the-milestone-view)小節所述。
 
-* **任務進度狀態圖示：**&#x200B;在「里程碑」檢視中，每個專案和任務旁會顯示狀態圖示。<!--get new screen shots or hide them for preview or production - could not display all in devtest; idea: use color dots from Task Details tab - New status is blue; Some concerns condition is yellow etc-->
+* **任務進度狀態圖示：**&#x200B;根據您用來檢視里程碑檢視的環境而定，下列是表示任務進度狀態的圖示：
 
-  <!--A progress status icon in the shape of a colored circle displays next to each project and task in the Milestone view. The possible statuses and circle colors are: 
-   * On Time - green
-   * Behind - yellow
-   * At Risk - blue
-   * Late - red-->
+   * 在生產環境中，以下狀態圖示會顯示在「里程碑」檢視中的每個專案和任務旁：
 
+      * 準時\
+        ![準時圖示](assets/gantt-ontime.png)
 
-   * 準時\
-     ![準時圖示](assets/gantt-ontime.png)
+      * 滞後\
+        ![在圖示後面](assets/gantt-behind.png)
 
-   * 滞後\
-     ![在圖示後面](assets/gantt-behind.png)
+      * 有風險\
+        ![風險圖示](assets/gantt-atrisk.png)
 
-   * 有風險\
-     ![風險圖示](assets/gantt-atrisk.png)
+      * 遲到\
+        ![延遲圖示](assets/gantt-late.png)
 
-   * 遲到\
-     ![延遲圖示](assets/gantt-late.png)
+     <!--get new screen shots or hide them for preview or production - could not display all in devtest; idea: use color dots from Task Details tab - New status is blue; Some concerns condition is yellow etc-->
+
+  <div class="preview">
+
+   * 在「預覽」環境中，「里程碑」檢視的每個專案與任務旁會顯示下列彩色圓圈：
+
+      * 準時 — 綠色
+      * 滯後 — 黃色
+      * 有風險 — 藍色
+      * 延遲 — 紅色
+
+  </div>
 
   您可以停用這些狀態圖示的顯示，如本文中[設定里程碑檢視](#configure-what-information-displays-in-the-milestone-view)中顯示的資訊一節所述。
 
@@ -200,27 +208,29 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    * 當任務的進度狀態為「有風險」或「落後」時，不會為「開始」和「完成」欄指定顏色陰影。
 
-  <!--add new screen shot for preview or production release-->
+  <!--add new screen shot for preview or production release; logged a bug as this is not happening in the new view - if at prod this is still missing, hide this screen shot-->
 
   ![具陰影的里程碑檢視](assets/milestone-view-with-shading.png)
 
 * **專案名稱**：專案名稱會顯示專案的連結。
-* **專案狀態圖示**：專案名稱旁會顯示圖示，表示專案的狀態。
+* **專案狀態圖示**：根據您從下列指標存取「里程碑」檢視的環境而定，會顯示專案狀態：
 
-  <!--
-   <div class="preview">
-   A condition icon in the shape of a colored circle displays next to each project in the Milestone view. The possible project conditions and circle colors are: 
-   * On Target - green
-   * At Risk - yellow
-   * In Trouble - red
-   </div>
-   -->
+   * 在生產環境中，專案名稱旁會顯示圖示，指出專案的狀況。 專案的狀況可能是下列其中一項：
 
-  專案的狀況可能是下列其中一項：
+      * 達成目標
+      * 有風險
+      * 陷入困境
 
-   * 達成目標
-   * 有風險
-   * 陷入困境
+  <div class="preview">
+
+   * 在「預覽」環境中，每個專案旁邊會顯示一個彩色圓形條件圖示。 可能的專案條件和圓形顏色包括：
+
+      * 準時 — 綠色
+      * 有風險 — 黃色
+      * 存在問題 — 紅色
+
+     </div>
+
 
 ## 設定里程碑檢視中顯示的資訊 {#configure-what-information-displays-in-the-milestone-view}
 
@@ -238,15 +248,15 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 {{step1-to-projects}}
 
 1. 按一下&#x200B;**檢視**&#x200B;下拉式功能表，然後按一下&#x200B;**里程碑**。
-   <!--No longer available: If you are viewing a list of projects inside a Portfolio or a Program, select the **Milestone** subtab.  -->
 
-1. &#x200B;<!--In the Production environment,--> 按一下[里程碑]檢視右上角的&#x200B;**選項**。
+1. 在生產環境中，按一下「里程碑」檢視右上角的&#x200B;**選項**，然後從下一個步驟的選項中選取。
 
-   <!--<div class="preview">In the Preview environment, select from the options in the next step, from the upper-right corner of the Milestone view.</div>-->
+   ![milestone_view_options.png](assets/milestone-view-options-350x141.png)
+
+   <div class="preview">在「預覽」環境中，從「里程碑」檢視的右上角選取下一個步驟中的選項。</div>
 
    <!--at Production release, replace this screen shot and adjust the Production/ Preview text above-->
 
-   ![milestone_view_options.png](assets/milestone-view-options-350x141.png)
 
 1. 從下列選項中選取：
 
@@ -277,6 +287,6 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 1. （視條件而定）如果完成百分比未顯示在里程碑檢視中，請啟用檢視任務和專案的完成百分比，如本文中[設定里程碑檢視](#configure-what-information-displays-in-the-milestone-view)中顯示的資訊一節所述。
 
-1. &#x200B;<!--In the Production environment,--> 按一下任務下方的完成百分比，指定新的百分比，然後按Enter鍵。
+1. 在生產環境中，按一下任務下方的完成百分比，指定新百分比，然後按Enter鍵。
 
-   <!--<div class="preview">In the Preview environment, move the Percent Complete slide to the new percent complete to update it. </div>-->
+   <div class="preview">在「預覽」環境中，將「完成百分比」投影片移動至新完成百分比以進行更新。 </div>

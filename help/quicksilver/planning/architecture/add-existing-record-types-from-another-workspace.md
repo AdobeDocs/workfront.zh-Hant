@@ -4,9 +4,9 @@ description: 記錄型別是Adobe Workfront Planning的物件型別。 在Workfr
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
+source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '744'
 ht-degree: 0%
 
 ---
@@ -25,15 +25,18 @@ recommendations: noDisplay, noCatalog
 
 <span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
-身為工作區管理員，您可以將工作區中存在的記錄型別新增至您在Adobe Workfront Planning中管理的工作區。
+身為工作區管理員，您可以將存在於另一個工作區的記錄型別新增至您在Adobe Workfront Planning中管理的工作區。
 
-您必須先將記錄型別指定為集中記錄型別，然後工作區管理員才能將記錄型別新增至其他工作區，作為現有記錄型別。
+本文說明如何從現有記錄型別新增記錄型別，以及在不再需要記錄型別時如何將其刪除。
 
-當您在定義記錄型別的跨工作區設定時，可以在建立或編輯記錄型別時將其指定為集中型別。
+工作區管理員必須先將記錄型別指定為集中式，才能將其新增至您作為現有記錄型別管理的工作區。
+
+您可以在建立或編輯記錄型別時，將記錄型別指定為集中式，因為您正在定義其進階設定。
 
 如需詳細資訊，請參閱[設定記錄型別的跨工作區功能](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)。
 
-將記錄從集中記錄型別新增至工作區之前，請參閱文章[跨工作區記錄型別概觀](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)。
+從集中式記錄型別新增記錄到工作區之前，請參閱文章[跨工作區記錄型別概觀](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)。
+
 
 ## 存取需求
 
@@ -53,8 +56,10 @@ recommendations: noDisplay, noCatalog
    <td role="rowheader"><p>Adobe Workfront套件</p></td> 
    <td> 
 <ul><li><p>任何Workfront套件</p></li>
-與
-<li><p>Planning Plus套件</p></li></ul>
+<p>與</p>
+<li><p>建立可連線記錄型別的任何Planning套件</p></li>
+<li><p>建立集中記錄型別的Planning Plus套件</p></li>
+</ul>
 <!--Or:
 <ul><li><p>Any Workflow package</p> </li>
 And
@@ -92,7 +97,7 @@ And
 
    >[!TIP]
    >
-   >當未設定要將記錄型別新增到另一個工作區時，建立記錄型別時不會顯示從另一個工作區新增記錄型別的選項。
+   >當沒有記錄型別設定為要新增到另一個工作區時，不顯示從另一個工作區新增它們的選項。
 
    會發生下列情況：
 
@@ -100,19 +105,27 @@ And
 
       * 所有原始欄位
       * 所有記錄連線
-   * 您至少擁有其他工作區的「檢視」許可權時，才能檢視這些工作區新增的記錄。
+   * 只有在您至少擁有這些工作區的「檢視」許可權時，才能檢視使用相同集中記錄型別之其他工作區新增的記錄。
    * **集中式記錄型別**&#x200B;圖示![集中式記錄型別圖示](assets/global-icon.png)已新增到新記錄型別的卡片中。
    * 唯讀&#x200B;**Workspace**&#x200B;欄位已新增至新記錄型別資料表檢視。 欄位會顯示每個記錄建立時所在的工作區。
 
      >[!NOTE]
      >
-     >* 您無法編輯新記錄型別的外觀、進階設定或原始欄位。 您只能從原始工作區編輯記錄型別及其所有原始欄位和設定。
+     >您無法編輯新記錄型別的外觀、進階設定或原始欄位。 您只能從原始工作區編輯記錄型別及其所有原始欄位和設定。
 
 1. （可選）按一下，然後將新新增的記錄型別拖放至工作區內的任何區段。
 
 <!--This will be released later with another epic: 1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) in the new record type's card, or to the right of the record type's name on its page, then click **Share** to share it with other users in the same workspace, or adjust their permissions to the record type.-->
 
-1. （選擇性）在新記錄型別的卡片中按一下&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，或在其頁面上的記錄型別名稱右側，然後按一下&#x200B;**刪除**。
+## 從次要工作區刪除集中式記錄型別
+
+如果您不再需要記錄型別，可將其從另一個工作區刪除。 刪除只會將其從次要工作區中移除，並且會刪除該工作區中新增的記錄。 原始記錄型別會保留在其原始工作區中，也會保留在其已加入的其他工作區中。
+
+若要從次要工作區刪除集中式記錄型別：
+
+1. 移至次要工作區中的集中式記錄型別。
+
+1. （選擇性）按一下記錄型別卡片上的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，或在其頁面上的記錄型別名稱右側，然後按一下&#x200B;**刪除**。
 1. （視條件而定）在提供的欄位中輸入&#x200B;**刪除**，然後按一下&#x200B;**永久刪除**。
 
    會發生下列情況：

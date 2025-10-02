@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '1380'
 ht-degree: 2%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 2%
 <!-- update the title (and all the links to this article) at preview, to be this: Create Workfront objects from Workfront Planning as you connect them to records-->
 <!-- remove preview and production at release time-->
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">本頁標示的資訊是指尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -35,30 +35,44 @@ ht-degree: 2%
 
   如需有關使用自動化建立Workfront物件的資訊，請參閱[使用Adobe Workfront Planning記錄自動化建立物件](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)。
 
-當您連線Workfront記錄與下列Workfront物件型別時，可以從Workfront Planning建立下列Workfront物件型別：
-
-* 專案
-* 專案組合
-* 計劃
-
 >[!IMPORTANT]
 >
->* 從記錄連線專案、專案組合和方案時，您只能在Workfront中建立它們。
+>將下列Workfront物件與Planning記錄連線時，可以從Workfront Planning建立這些物件：
 >
->* 從Workfront Planning中的記錄連線群組或公司時，您無法建立群組或公司。
+>* 專案
+>* 專案組合
+>* 計劃
+>
+>您可以將下列Workfront物件與Planning記錄連線，但無法在連線程式中建立它們：
+>
+>* 群組
+>* 公司
 >
 
-您可以在Workfront Planning的下列區域中，從連線欄位連線專案、投資組合和方案：
+連線和建立Workfront物件至Workfront Planning記錄時，請考量下列事項：
 
-* 記錄型別的表格檢視
-* 記錄的詳細資訊頁面或預覽方塊
-* 記錄的「連線」標籤
+* 您可以從連線欄位從Workfront計畫的下列區域連線Workfront專案、投資組合、方案、群組和公司：
+
+   * 記錄型別的表格檢視
+   * 記錄的詳細資訊頁面或預覽方塊
+   * 記錄的「連線」標籤
+
+* 您可以從Workfront Planning的下列區域建立專案：
+
+   * 記錄型別的表格檢視
+   * 連線欄位中記錄的詳細資訊區域
+   * <span class="preview">記錄的已連線記錄頁面，在詳細資訊區域</span>
+
+* 您可以從Workfront Planning的下列區域建立產品組合和計畫：
+
+   * 記錄型別的表格檢視
+   * 連線欄位中記錄的詳細資訊區域
 
 如需有關連線Planning記錄與Workfront物件的資訊，請參閱[連線記錄](/help/quicksilver/planning/records/connect-records.md)。
 
 ## 存取需求
 
-+++ 展開以檢視存取需求。
++++ 展開以檢視存取需求。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -78,7 +92,7 @@ ht-degree: 2%
    <td role="rowheader"><p>Adobe Workfront計畫*</p></td> 
    <td> 
 <p>下列任一Workfront計畫：</p> 
-<ul><li>選取</li> 
+<ul><li>選擇</li> 
 <li>Prime</li> 
 <li>Ultimate</li></ul> 
 <p>舊版Workfront計畫不提供Workfront計畫</p> 
@@ -128,10 +142,17 @@ ht-degree: 2%
 您必須具備下列條件，才能透過從現有記錄連線來新增專案或投資組合：
 
 * 連結到Workfront專案、投資組合或計畫的記錄型別。 如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
-* 記錄。 如需詳細資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md)。
+* 連線至Workfront物件的記錄型別記錄。 如需詳細資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md)。
 * Workfront Planning和Workfront中的正確存取和許可權，如本文中[存取需求](#access-requirements)一節所述。
 
 ## 當您從Workfront Planning將專案與記錄連線時，建立專案
+
+您可以在Workfront Planning中建立專案，並透過Workfront Planning的下列區域將其與記錄連結：
+
+* 記錄型別的表格檢視或連線欄位中記錄的詳細資訊區域
+* <span class="preview">記錄的[已連線]記錄頁面，在記錄的[詳細資料]區域中</span>
+
+### 從記錄的詳細資訊區域或記錄型別的表格檢視建立專案
 
 若要在從其他記錄連線專案時建立專案：
 
@@ -139,7 +160,7 @@ ht-degree: 2%
 
 1. （視條件而定）按一下&#x200B;**新增專案**
 或
-開始輸入專案名稱，如果找不到，請按一下[新增專案]。 **&#x200B;**「新增」按鈕後面接著您輸入的專案名稱。
+開始輸入專案名稱，如果找不到，請按一下[新增專案]。 ****「新增」按鈕後面接著您輸入的專案名稱。
 
    ![從連線欄位連線時新增專案](assets/add-project-when-connecting-it-from-connection-field.png)
 
@@ -154,7 +175,34 @@ ht-degree: 2%
 
 1. （可選）從Workfront計畫按一下新專案的名稱，以在Workfront中開啟專案頁面，並對專案進行其他更新。
 
+<div class="preview">
+
+### 從記錄的「連線記錄」頁面建立專案
+
+1. 在表格檢視中，將Project物件型別與Workfront Planning記錄型別連線。
+
+   如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
+
+1. 按一下任何檢視中的記錄名稱。 「細節」預覽方塊開啟。
+
+1. 新增專案的&#x200B;**連線記錄頁面**。
+
+   如需詳細資訊，請參閱文章[管理記錄頁面配置](/help/quicksilver/planning/records/manage-the-record-page.md)中的「新增連線的記錄頁面至記錄」一節。
+
+   「連線的記錄」頁面會顯示在表格檢視中。 連線的專案會顯示在表格中。
+
+   ![連線記錄頁面中的專案資料表檢視](assets/projects-connected-records-page-table.png)
+
+1. 按一下專案表格中的&#x200B;**新增列**&#x200B;以新增專案。
+
+   您只能在此區域中新增空白專案。 您無法使用範本新增專案。
+1. （選用）按一下表格檢視中的專案名稱，在Workfront中開啟專案並新增詳細資訊。
+
+</div>
+
 ## 在連結投資組合與Workfront Planning的記錄時建立投資組合
+
+您可以從記錄型別的表格檢視或記錄的詳細資訊頁面建立投資組合。
 
 若要在從Planning記錄連線投資組合時建立投資組合：
 
@@ -164,7 +212,7 @@ ht-degree: 2%
 
    或
 
-   開始輸入投資組合的名稱，如果找不到，請按一下[新增投資組合] **&#x200B;**。 「新增」按鈕後面接著您輸入的投資組合名稱。
+   開始輸入投資組合的名稱，如果找不到，請按一下[新增投資組合] ****。 「新增」按鈕後面接著您輸入的投資組合名稱。
 
    ![從連線欄位連線時新增投資組合](assets/add-portfolio-when-connecting-it-from-connection-field.png)
 
@@ -174,6 +222,8 @@ ht-degree: 2%
 
 ## 在程式與Workfront Planning的記錄連線時建立程式
 
+您可以從記錄型別的表格檢視或記錄的詳細資訊頁面建立程式。
+
 若要在從Planning記錄連線程式時建立程式，請執行下列動作：
 
 1. 移至記錄的詳細資訊頁面或記錄型別的表格，然後開始將Workfront Planning記錄與Workfront投資組合連線，如文章[連線記錄](/help/quicksilver/planning/records/connect-records.md)中所述。
@@ -182,7 +232,7 @@ ht-degree: 2%
 
    或
 
-   開始輸入方案的名稱，如果找不到，請按一下[新增方案] **&#x200B;**。 新增按鈕後面接著您輸入的程式名稱。
+   開始輸入方案的名稱，如果找不到，請按一下[新增方案] ****。 新增按鈕後面接著您輸入的程式名稱。
 
    ![從連線欄位連線時新增Workfront程式](assets/add-wf-program-when-connecting-it-from-connection-field.png)
 
