@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
-source-wordcount: '2434'
+source-wordcount: '2458'
 ht-degree: 1%
 
 ---
@@ -182,7 +182,7 @@ ht-degree: 1%
 
      或
 
-     按一下&#x200B;**下移**&#x200B;將區段下移一個位置。
+     按一下&#x200B;**下移**將區段下移一個位置。
 區段中的所有欄位會隨著區段移動。
 
    * 按一下&#x200B;**刪除**&#x200B;以刪除區段。 該區段已刪除且無法復原。 所有存取此型別記錄的使用者將不再檢視已刪除的區段。
@@ -313,7 +313,7 @@ ht-degree: 1%
 
      這會開啟記錄的預覽頁面。 按一下右上角的&#x200B;**在新索引標籤中開啟**&#x200B;圖示![在新索引標籤中開啟](assets/open-details-in-a-new-tab-icon.png)以開啟連線記錄的頁面。
 
-   * 按一下[連線]&#x200B;**連線**&#x200B;以連線更多記錄，然後按一下連線方塊外部以關閉連線。 新記錄會自動新增到表格中。
+   * 按一下[連線]**連線**&#x200B;以連線更多記錄，然後按一下連線方塊外部以關閉連線。 新記錄會自動新增到表格中。
    * 編輯表格檢視內連線記錄的任何資訊。
 
    * 將游標停留在連線記錄的名稱上，然後按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下下列其中一個選項：
@@ -342,18 +342,18 @@ ht-degree: 1%
 
    * <span class="preview">按一下連線記錄頁面右上角的&#x200B;**連線記錄**，以連線現有的專案。</span>
    * <span class="preview">在資料表中內嵌編輯專案資訊。</span>
-   * <span class="preview">按一下&#x200B;**新增列**&#x200B;以建立沒有範本的專案。</span>
+   * <span class="preview">按一下&#x200B;**新增列**&#x200B;以建立沒有範本的專案。 新專案立即連線到目前的記錄。</span>
 
      如需詳細資訊，請參閱[當您將Workfront物件連線至記錄時，從Workfront Planning建立物件](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
    * <span class="preview">將滑鼠停留在專案上，然後按一下&#x200B;**更多**&#x200B;功能表[更多](assets/more-menu.png)，然後按一下下列其中一項：</span>
-      * <span class="preview">**刪除**&#x200B;以刪除專案。 刪除專案會中斷其與記錄的連線，並將其移至Workfront資源回收筒。</span>
-      * <span class="preview">**中斷連線**&#x200B;以中斷專案與記錄的連線。 正在中斷專案</span>的連線
+      * <span class="preview">**刪除**&#x200B;以刪除專案。 刪除專案會中斷專案與記錄的連線，並將其移至Workfront的「資源回收筒」。</span>
+      * <span class="preview">**中斷連線**&#x200B;以中斷專案與記錄的連線。 中斷專案的連線會從目前記錄中移除該專案及其查閱欄位的所有值。</span>
 
 1. （選擇性）連按兩下「連線記錄」頁面標籤的名稱
 
    或
 
-   將游標暫留在索引標簽名稱上，然後按一下[其他] **&#x200B;**&#x200B;![&#x200B; [其他]功能表](assets/more-menu.png)，然後按一下[重新命名] **以重新命名為新的[連線檢視]索引標籤。**
+   將游標暫留在索引標簽名稱上，然後按一下[其他] **** ![ [其他]功能表](assets/more-menu.png)，然後按一下[重新命名] **以重新命名為新的[連線檢視]索引標籤。**
 1. （可選）使用工具列中的下列任何檢視元素來管理表格檢視：
 
    * 篩選器
@@ -374,7 +374,7 @@ ht-degree: 1%
    * <span class="preview">在預覽環境中，按一下連線記錄頁面右上角的&#x200B;**連線記錄**&#x200B;以連線現有的專案，或按一下表格底部的&#x200B;**新增列**&#x200B;以建立專案，並自動將它們連線到目前的記錄。</span>
 
    如需詳細資訊，請參閱[連線記錄](/help/quicksilver/planning/records/connect-records.md)。
-1. （選擇性）將游標暫留在[連線的記錄]頁面索引標簽名稱上，按一下[其他] **&#x200B;**&#x200B;![&#x200B; [其他]功能表](assets/more-menu.png)，然後按一下[刪除] **&#x200B;**&#x200B;以移除索引標籤。
+1. （選擇性）將游標暫留在[連線的記錄]頁面索引標簽名稱上，按一下[其他] **** ![ [其他]功能表](assets/more-menu.png)，然後按一下[刪除] ****&#x200B;以移除索引標籤。
 
 
 

@@ -6,18 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: f86971bc-e807-459e-9fa8-dc34967bc069
-source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 2%
+source-wordcount: '422'
+ht-degree: 1%
 
 ---
 
 # 刪除記錄檢視
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 
 {{planning-important-intro}}
@@ -104,18 +104,20 @@ ht-degree: 2%
 
    依預設，選取型別的所有記錄都會顯示在表格檢視中。
 
-1. 將游標停留在檢視標籤中其中一個檢視名稱上，然後按一下檢視名稱左邊的&#x200B;**更多** ![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**刪除**。
 
-   ![在記錄檢視上檢視更多功能表](assets/view-more-menu-with-duplicate-option.png)
+1. 從檢視的標籤中，執行下列任一項作業：
 
-   >[!TIP]
-   >
-   >您可能需要按一下最後一個標籤右側的&#x200B;**更多**，以尋找您要刪除的檢視。
+   * 根據您從哪個環境存取檢視，請執行下列動作：
 
-   <!--at preview release, replace the step above with this one: 
-    1. Depending on which environment you use, do the following: 
-    * In the Production environment, hover over one the of the view's names in the view tab, then click **More** ![More menu](assets/more-menu.png) to the left of the view name, then click **Delete**. 
-    * <span class="preview">In the Preview environment, click the dropdown icon ![Dropdown icon](assets/drop-down-icon.png) next to the current view name, hover over the name of a view, click **More**, then **Delete**.</span>-->
+      * 在生產環境中，將滑鼠停留在您要共用之檢視的索引標簽名稱上，然後按一下檢視名稱右側的&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下&#x200B;**刪除**。
+
+     >[!TIP]
+     >
+     >您可能需要按一下最後一個標籤右側的&#x200B;**更多**，以尋找您要刪除的檢視。
+
+      * <span class="preview">在預覽環境中，按一下檢視的索引標籤，將滑鼠停留在下拉式功能表中的檢視上，按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下&#x200B;**刪除**。</span>
+
+     ![更多包含選項的功能表](assets/more-menu-for-views-expanded-with-delete-option.png)
 
 1. 按一下&#x200B;**刪除**&#x200B;確認。<!--ensure there is not another saving step here?!-->
 
