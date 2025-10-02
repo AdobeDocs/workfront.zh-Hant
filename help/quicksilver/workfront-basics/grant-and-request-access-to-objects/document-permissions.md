@@ -7,28 +7,32 @@ description: 當使用者指派存取層級時，您的Adobe Workfront管理員�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
-source-git-commit: eb4bf18407562b88bf0c946c905b202e5b62a5fe
+source-git-commit: 48c0f5c617f41a4ce51ea45c17817aa869ba5adb
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1392'
 ht-degree: 1%
 
 ---
 
 # 共用檔案
 
-當使用者指派存取層級時，您的Adobe Workfront管理員會授與使用者檢視或編輯檔案的存取權，如[授與檔案的存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md)中所述。
+Workfront管理員可控制誰可以在「設定」的「存取層級」區域中檢視或編輯檔案。 如需詳細資訊，請參閱[授與檔案的存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md)。
 
-Workfront管理員授予使用者的存取層級可讓他們檢視或編輯檔案。 除此之外，其他使用者還可以授予其他人許可權，讓他們檢視或管理自己上傳或有權共用的特定檔案。
+使用者也可以分享他們已上傳或有權存取的檔案，給予其他人檢視或管理檔案的許可權。
 
-許可權專屬於Workfront中的一個專案，可定義使用者可對該專案執行的動作。 如需物件許可權的相關資訊，請參閱[物件許可權共用簡介](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。
+* 許可權會套用至個別專案，並定義使用者可採取的動作。
+* 上傳檔案的人會自動取得完整控制權（管理許可權）。
+* 若要共用整個資料夾，請參閱[共用檔案資料夾](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md)。
 
-依預設，將檔案上傳至Workfront的使用者擁有檔案管理許可權。
+>[!NOTE]
+>
+>如果您的Workfront執行個體使用Adobe企業儲存空間，則無法共用個別檔案。 而是您要授予專案層級的存取權。 請記住，共用專案可授予對敏感專案資訊的存取權，例如財務資訊，這取決於選擇的許可權級別。
 
-如需共用整個檔案資料夾的資訊，請參閱[共用檔案資料夾](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md)。
+
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視本文中功能的存取需求。 
 
 您必須具備下列專案才能共用物件：
 
@@ -62,39 +66,11 @@ Workfront管理員授予使用者的存取層級可讓他們檢視或編輯檔�
 
 +++
 
-## 關於共用檔案的考量事項
 
-除了下列考量事項外，另請參閱[物件共用許可權概觀](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。
-
->[!NOTE]
->
->Workfront管理員可以新增或移除系統中所有使用者的任何專案許可權，而無需擁有這些專案。
-
-* 共用檔案類似於在Workfront中共用任何其他物件。 如需有關如何在Workfront中共用檔案的資訊，請參閱[共用物件](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)。
-* 您可以將下列許可權授與檔案：
-
-   * 檢視
-   * 管理
-
-* 您也可以公開或全系統共用檔案。
-
-  >[!CAUTION]
-  >
-  >建議您將包含機密資訊的物件與外部使用者共用時務必謹慎。 這可讓他們檢視資訊，而不需要身為Workfront使用者或屬於您的組織。
-
-* 如果某人沒有Workfront帳戶，您可以在「將檔案存取權授予」欄位中新增其電子郵件地址，以與他共用檔案。
-* 當您共用檔案時，使用者對所有檔案版本和所有檔案校訂都擁有相同的存取權。\
-  如需Workfront中校訂的詳細資訊，請參閱[校訂](../../review-and-approve-work/proofing/proofing.md)區段。
-
-* 您可以從檔案相關聯的物件繼承檔案的許可權。 您的Workfront管理員可以限制存取層級中檔案的許可權繼承。
-
-  如需有關限制檔案繼承許可權的詳細資訊，請參閱[建立或修改自訂存取層級](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
-
-  您可以手動移除檔案的繼承許可權。 如需詳細資訊，請參閱[從物件移除許可權](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
-
-* 附加的檔案只會從附加它的物件繼承許可權。 如果您在物件上建立資料夾並將檔案移至資料夾，則會繼承資料夾的許可權。 但是，如果您在父項或祖項物件上建立資料夾，並將檔案移至該資料夾，則不會繼承該資料夾的許可權。
 
 ## 共用檔案
+
+依預設，將檔案上傳至Workfront的使用者擁有檔案管理許可權。
 
 {{step1-to-documents}}
 
@@ -172,8 +148,21 @@ Workfront管理員授予使用者的存取層級可讓他們檢視或編輯檔�
 
 1. 按一下「**儲存**」。
 
+## 與Adobe企業儲存空間共用檔案
+
+Workfront正轉換至Adobe企業儲存解決方案，以提供與Adobe Creative Cloud產品的更佳連線能力。 現有客戶將分階段移至新模型。 如需有關Adobe企業儲存體優點詳細資訊，請造訪[Adobe企業儲存體概觀](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+
+如果您的Workfront執行個體使用Adobe企業儲存空間，您無法直接共用個別檔案。 而是必須授與專案層級的存取權。
+
+>[!IMPORTANT]
+>
+>共用專案也可能讓使用者存取敏感的專案資訊，例如財務資訊，視您選擇的許可權層級而定。
+>
+>共用前，請務必仔細檢閱許可權設定。
 
 ## 檔案許可權
+
+許可權專屬於Workfront中的一個專案，可定義使用者可對該專案執行的動作。 如需物件許可權的相關資訊，請參閱[物件許可權共用簡介](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。
 
 下表顯示當允許使用者檢視或管理檔案時，您可以授予他們哪些許可權：
 
@@ -330,3 +319,35 @@ Workfront管理員授予使用者的存取層級可讓他們檢視或編輯檔�
 &#42;動作由檔案和檔案資料夾共用。
 
 &#42;&#42;您必須擁有與您的Workfront帳戶相關聯的個別校訂授權，才能校訂檔案。 請聯絡您的客戶經理，瞭解如何取得校訂授權。 如需Workfront中校訂的詳細資訊，請參閱[校訂](../../review-and-approve-work/proofing/proofing.md)。
+
+## 關於共用檔案的考量事項
+
+除了下列考量事項外，另請參閱[物件共用許可權概觀](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。
+
+>[!NOTE]
+>
+>Workfront管理員可以新增或移除系統中所有使用者的任何專案許可權，而無需擁有這些專案。
+
+* 共用檔案類似於在Workfront中共用任何其他物件。 如需有關如何在Workfront中共用檔案的資訊，請參閱[共用物件](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)。
+* 您可以將下列許可權授與檔案：
+
+   * 檢視
+   * 管理
+
+* 您也可以公開或全系統共用檔案。
+
+  >[!CAUTION]
+  >
+  >建議您將包含機密資訊的物件與外部使用者共用時務必謹慎。 這可讓他們檢視資訊，而不需要身為Workfront使用者或屬於您的組織。
+
+* 如果某人沒有Workfront帳戶，您可以在「將檔案存取權授予」欄位中新增其電子郵件地址，以與他共用檔案。
+* 當您共用檔案時，使用者對所有檔案版本和所有檔案校訂都擁有相同的存取權。\
+  如需Workfront中校訂的詳細資訊，請參閱[校訂](../../review-and-approve-work/proofing/proofing.md)區段。
+
+* 您可以從檔案相關聯的物件繼承檔案的許可權。 您的Workfront管理員可以限制存取層級中檔案的許可權繼承。
+
+  如需有關限制檔案繼承許可權的詳細資訊，請參閱[建立或修改自訂存取層級](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
+
+  您可以手動移除檔案的繼承許可權。 如需詳細資訊，請參閱[從物件移除許可權](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
+
+* 附加的檔案只會從附加它的物件繼承許可權。 如果您在物件上建立資料夾並將檔案移至資料夾，則會繼承資料夾的許可權。 但是，如果您在父項或祖項物件上建立資料夾，並將檔案移至該資料夾，則不會繼承該資料夾的許可權。
