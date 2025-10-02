@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: de161674-5b61-4853-a16a-c70db10a1c95
-source-git-commit: 7eb5b40c92ed743a665f6c38ce6d09db7d9a2ddb
+source-git-commit: 8c5f98bc48b644d8d15c320b2a6ca709eda775b7
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
@@ -40,3 +40,4 @@ ht-degree: 0%
 * [刪除請求草稿](../../../manage-work/requests/create-requests/delete-request-draft.md)
 * [從先前的資料自動填入請求](/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md)
 * [使用提示或檔案自動填寫請求](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)
+* [在請求區域中建立檢視](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)

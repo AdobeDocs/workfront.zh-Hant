@@ -6,7 +6,7 @@ description: 計畫工作在Adobe Workfront中以專案和任務表示。 不過
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 71149623643b1f08b88fdf8f5aaeb5d9b284d53f
+source-git-commit: 70f6200fc94bc923c651d614dfd0aba68ceda334
 workflow-type: tm+mt
 source-wordcount: '2840'
 ht-degree: 1%
@@ -155,7 +155,7 @@ Workfront管理員必須建立「請求佇列」的下列元件：
    按一下其中一個Workfront請求佇列路徑或表單，或搜尋其中一個路徑或表單，然後在清單中顯示時按一下它。
 1. <span class="preview">（條件式）如果您已切換至新體驗，請選取其中一個Workfront要求佇列路徑或表單，或按一下搜尋列。</span>
 
-   <span class="preview">當您按一下搜尋列時，會出現一個下拉式清單，首先顯示最近使用的佇列和表單。 從清單中選取一個佇列，或開始輸入並選取佇列或出現時的清單。</span>
+   <span class="preview">當您按一下搜尋列時，會出現一個下拉式清單，首先顯示最近使用的佇列和表單。 從清單中選取一個佇列，或開始輸入佇列或表單，並在佇列或表單出現時加以選取。</span>
 
    >[!NOTE]
    >
