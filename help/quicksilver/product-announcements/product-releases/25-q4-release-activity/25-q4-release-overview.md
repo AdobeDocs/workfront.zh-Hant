@@ -60,7 +60,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
-            從物件移除自訂表單時<a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">確認</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
+            從物件移除自訂表單時<a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">確認</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
             <p>為確保您能保留所需資料的存取權，我們已在從物件移除自訂表單時新增確認對話方塊。 從物件中移除自訂表單，會將該表單中的資料從物件中永久移除。 現在，對話方塊可讓您確認您瞭解此資料將會移除，確保您不會移除所需的資料。 </p>
         </td>
         <td>2025年9月24日</td>
@@ -87,7 +87,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>     
      <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">更新Workfront使用者設定檔</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">更新Workfront使用者設定檔</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
             <p>我們已將Workfront使用者設定檔的外觀與操作方式，更新為與Workfront其他區域一致的現代化設計。 這些更新會套用至編輯單一設定檔或大量編輯多個設定檔的管理員，或編輯自己設定檔的使用者。</p>
             <p>與目前的使用者設定檔有一些小的功能差異，包括：</p>
             <ul>
@@ -147,7 +147,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-document-and-proof.md" class="MCXref xref" xrefformat="{para}">已分階段推出整合核准</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-document-and-proof.md" class="MCXref xref" xrefformat="{para}">已分階段推出整合核准</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
             <p>我們正在分階段啟用統一核准（先前稱為新檔案核准）。 在接下來的六個月中，此功能將會在您的Workfront執行個體中自動啟用。</p>
             <p>整合式核准會取代舊版檔案核准，並提供新功能。 
 </p>
@@ -248,7 +248,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr> 
   <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">新增運算式至Planning的公式欄位和Workfront的計算自訂欄位</a><p><p>[！BADGE Off Schedule]{type=Neutral}</p></p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">新增運算式至Planning的公式欄位和Workfront的計算自訂欄位</a><p><p>[!BADGE Off Schedule]{type=Neutral}</p></p>
             <p>我們已將具有以下用途的新運算式新增至Workfront Planning中的公式欄位及Workfront中的計算自訂欄位：</p>
             <ul>
             <li>REMOVEACCENTS(string)：移除輸入字串中所有重音字元的變音標籤。</li>
@@ -471,7 +471,7 @@ Workfront Planning的新功能可在生產環境中使用。 如需最新功能�
 
 Workfront API版本20已於2025年5月4日發行。 針對API 20版，我們已修改一些資源和端點。 有些變更支援新功能，有些則讓您更輕鬆地透過API使用可用資訊。
 
-如需新增和更新的詳細資訊，請參閱[ API 20](/help/quicksilver/wf-api/api/new-api-version-19.md)版的新增功能。
+如需新增和更新的詳細資訊，請參閱[&#x200B; API 20](/help/quicksilver/wf-api/api/new-api-version-19.md)版的新增功能。
 
 如需API版本的資訊，請參閱[API版本設定與支援排程](/help/quicksilver/wf-api/api/api-version-support-schedule.md)。
 
