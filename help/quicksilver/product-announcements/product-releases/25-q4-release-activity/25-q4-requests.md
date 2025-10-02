@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: 3c21d2ac594d4dfe309ed4227e46a9cb535f0501
+source-git-commit: f75f44c3c5ea4c281c0c9fe916ea8261d3500fb0
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -18,20 +18,34 @@ ht-degree: 0%
 
 如需2025年第四季版本週期目前可用的所有變更清單，請參閱[2025年第四季版本概觀](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)。
 
-## 整合請求清單中新的合併狀態列
+## 在請求區域中建立和儲存檢視
 
 >[!NOTE]
 >
->* 預覽： 2025年8月28日
->* 生產快速發行： 2025年9月11日
->* 所有客戶的生產： 2025年10月16日
+>預覽： 2025年10月2日
+>>生產快速發行： 2025年10月15日
+>>適用於所有人的生產： 2025年10月16日
 
-為簡化統一請求體驗，「狀態」欄現在會同時顯示「請求狀態」和「核准狀態」（視哪一個適用於指定請求而定）。
+為了更方便檢視您需要的資訊，我們新增了在請求區域中建立和儲存檢視的功能。 現在，您可以儲存檢視（包括篩選器和欄配置），並在檢視之間切換。 Workfront管理員可以將新檢視新增至版面配置範本。
 
-如需建立請求的詳細資訊，請參閱：
+以前無法儲存篩選器和欄設定。
 
-* 針對Workfront： [建立並提交請求](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)
-* 針對Workfront Planning： [提交Adobe Workfront Planning請求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)
+如需相關資訊與指示，請參閱[在要求區域](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)建立檢視。
+
+<!--## New combined Status column in unified Request list 
+
+>[!NOTE]
+>
+>* Preview: August 28, 2025
+>* Production fast release: September 11, 2025
+>* Production for all customers: October 16, 2025
+
+To simplify the unified request experience, the Status column now displays both Request Status and Approval Status, whichever applies to a given request.
+
+For more information on creating requests see:
+
+* For Workfront: [Create and submit requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)
+* For Workfront Planning: [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md)-->
 
 ## 請求體驗的更新
 

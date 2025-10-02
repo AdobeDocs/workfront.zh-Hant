@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 4e1761f9-bf73-4355-925a-9136f2787a3f
-source-git-commit: 4146dd1d11b54155ad5510625c761d66dd649245
+source-git-commit: f75f44c3c5ea4c281c0c9fe916ea8261d3500fb0
 workflow-type: tm+mt
-source-wordcount: '2235'
+source-wordcount: '2508'
 ht-degree: 0%
 
 ---
@@ -22,15 +22,110 @@ ht-degree: 0%
 
 如需針對Adobe Workfront Planning發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
 
-## 在記錄的「連線記錄」頁面中內嵌編輯Workfront連線
+<!--## Centralized record types
+
+>[!NOTE]
+>
+>Preview: October 2, 2025
+>Production fast release: October 15, 2025
+>Production for everyone:  October 16, 2025
+
+When implementing Workfront Planning for a multi-team organization with common workflows, you might need to define a cohesive structure and metadata for key record types (like Campaigns or Deliverables) that can be added to each team's workspaces to capture and manage their work.  
+
+ Also, you might need each team's work to roll up to a central level.  
+
+ In such a workflow, you can ensure that teams capture their work consistently while unlocking cross-team visibility, without the need to add everything to one workspace, or everyone in the organization to every workspace. You can use centralized record types to achieve this. 
+
+You can now enable record types to be centralized and use them across multiple workspaces. Users can use the same field structure and connections that are already configured in a central workspace.  
+
+For more information, see the following articles:  
+
+* [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md) 
+
+* [Configure record type cross-workspace capabilities](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) 
+
+* [Add existing record types from another workspace](help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)
+
+## New limit for connection fields for one record type
+
+>[!NOTE]
+>
+>Preview: October 2, 2025
+>Production fast release: October 15, 2025
+>Production for everyone:  October 16, 2025
+
+We have introduced a limit of 30 connection fields for each record type.  
+
+If your organization currently has more than 30 connection fields for one record type, the additional connections will be inherited going forward. However, you cannot add more connection fields. For new record types, the new limit of 30 connection fields will be enforced.  
+
+For more information, see [Connected Record Types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).-->
+
+## Workfront Planning中請求表單的增強功能
+
+>[!NOTE]
+>
+>預覽： 2025年10月2日
+>>生產快速發行： 2025年10月15日
+>>適用於所有人的生產： 2025年10月16日
+
+為了簡化請求流程，我們對請求表單做了一些增強功能。 現在，當您設定請求表單時，可以設定以下專案：
+
+* 啟用一個選項，當請求有多個核准者時僅允許一個決定。
+* 設定從表單建立的請求何時會自動標示為完成。 當要求的物件建立時，或當要求的物件根據您指定的條件完成時，您可以將要求設定為標籤為完成。
+* 設定從表單提交請求時觸發的自動化。 目前，您可以在提交請求時自動建立記錄。
+
+如需建立請求表單和設定這些選項的詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理請求表單](/help/quicksilver/planning/requests/create-request-form.md)。
+
+## 時間軸和日曆檢視中的拖放功能
+
+>[!NOTE]
+>
+>預覽： 2025年10月2日
+>>生產快速發行： 2025年10月15日
+>>適用於所有人的生產： 2025年10月16日
+
+
+您現在可以在時間軸和行事曆檢視中拖放記錄。 拖曳另一個時間範圍內的記錄會自動更新其開始和結束日期。
+
+如需詳細資訊，請參閱[編輯記錄](/help/quicksilver/planning/records/edit-records.md)。
+
+## 評論Workfront Planning中的請求
+
+>[!NOTE]
+>
+>預覽： 2025年10月2日
+>>生產快速發行： 2025年10月15日
+>>適用於所有人的生產： 2025年10月16日
+
+為了在Workfront Planning中提出請求時更輕鬆地進行通訊，我們在「請求詳細資料」頁面新增了「註解」區域。 例如，如果請求被指派到的人員對提出請求的人有疑問，這將很有用。
+
+之前，在Workfront Planning中無法對請求發表評論。
+
+如需提出請求（包括發表評論）的詳細資訊，請參閱[提交Adobe Workfront Planning請求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)。
+
+<!--## Approve a Workfront Planning request in the My Approvals widget
+
+>[!NOTE]
+>
+>Preview: October 2, 2025
+>Production fast release: October 15, 2025
+>Production for everyone:  October 16, 2025
+
+To make it easier to approve Workfront Planning requests, we've added them to the My Approvals widget in Home. Now, you can approve or reject these requests directly from the widget, allowing you to manage these approvals without leaving Home.
+
+Previously, Workfront approvals could be managed only within Workfront Planning.
+
+For more information on approving requests, see [Approve a request in Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md).-->
+
+## 在記錄的「連線記錄」頁面中內聯編輯Workfront專案
 
 >[!NOTE]
 >
 >預覽： 2025年9月25日
->&#x200B;>生產快速發行： 2025年10月15日
->&#x200B;>全部生產： 2025年10月16日
+>>生產快速發行： 2025年10月15日
+>>全部生產： 2025年10月16日
 
-您現在可以在「連線記錄」頁面中內聯編輯Workfront連線物件。 您也可以變更連線物件的順序、複製和貼上列以及表格檢視的其他功能。
+您現在可以在「連線記錄」頁面內聯編輯Workfront連線的專案。 您也可以從連線的記錄頁面建立沒有範本的專案。
 
 如需詳細資訊，請參閱[管理記錄頁面](/help/quicksilver/planning/records/manage-the-record-page.md)。
 
@@ -146,8 +241,8 @@ For more information on creating a request form and configuring these options, s
 >[!NOTE]
 >
 >預覽： 2025年9月11日
->&#x200B;>適用於所有客戶的生產： 2025年9月11日
->&#x200B;>[!BADGE 不在排程]{type=Neutral}內
+>>適用於所有客戶的生產： 2025年9月11日
+>>[!BADGE 不在排程]{type=Neutral}內
 
 如果您的組織同時使用Adobe Workfront Planning和Adobe GenStudio for Performance Marketing，您可能會想要比GenStudio預設支援的更詳細地定義行銷概念，例如行銷活動、產品和角色。
 
@@ -312,8 +407,8 @@ For more information on creating a request form and configuring these options, s
 >[!NOTE]
 >
 >預覽： 2025年8月7日
->&#x200B;>適用於所有客戶的生產： 2025年8月
->&#x200B;>[!BADGE 不在排程]{type=Neutral}內
+>>適用於所有客戶的生產： 2025年8月
+>>[!BADGE 不在排程]{type=Neutral}內
 
 我們已將具有以下用途的新運算式新增至Workfront Planning中的公式欄位及Workfront中的計算自訂欄位：
 
@@ -328,8 +423,8 @@ For more information on creating a request form and configuring these options, s
 >[!NOTE]
 >
 >預覽： 2025年7月31日
->&#x200B;>適用於所有客戶的生產： 2025年7月31日
->&#x200B;>[!BADGE 不在排程]{type=Neutral}內
+>>適用於所有客戶的生產： 2025年7月31日
+>>[!BADGE 不在排程]{type=Neutral}內
 
 我們在記錄表格檢視中建立或編輯欄位時，新增了「最大化」按鈕來放大公式欄位。 此外，我們在新的放大視窗中新增了「最小化」按鈕，以恢復至欄位建立方塊。
 
@@ -378,8 +473,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >預覽： 2025年7月24日
->&#x200B;>生產快速發行： 2025年8月14日
->&#x200B;>所有客戶的生產： 2025年10月16日
+>>生產快速發行： 2025年8月14日
+>>所有客戶的生產： 2025年10月16日
 
 您現在可以在時間軸上的任何位置按兩下，在記錄型別的時間軸檢視中建立記錄。
 
@@ -394,8 +489,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >預覽： 2025年7月24日
->&#x200B;>生產快速發行： 2025年8月14日
->&#x200B;>所有客戶的生產： 2025年10月16日
+>>生產快速發行： 2025年8月14日
+>>所有客戶的生產： 2025年10月16日
 
 您現在可以從工作區頁面上記錄型別卡片的「更多」選單共用記錄型別。 在此增強功能之前，「共用」選項僅在記錄型別頁面內可用。
 
@@ -406,8 +501,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >預覽： 2025年7月24日
->&#x200B;>生產快速發行： 2025年8月14日
->&#x200B;>所有客戶的生產： 2025年10月16日
+>>生產快速發行： 2025年8月14日
+>>所有客戶的生產： 2025年10月16日
 
 您現在能以全熒幕模式顯示所有Workfront Planning檢視（表格、時間軸和行事曆）。 檢視功能會保留，您也可以在全熒幕中變更檢視。
 
@@ -420,8 +515,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >預覽： 2025年7月22日
->&#x200B;>快速發行生產： 2025年8月14日
->&#x200B;>所有客戶的生產： 2025年10月16日
+>>快速發行生產： 2025年8月14日
+>>所有客戶的生產： 2025年10月16日
 
 為了讓核准程式更靈活，我們新增了在Planning請求表單上新增團隊作為核准者的功能。 現在，您可以在設定核准者時輸入並選取專案團隊名稱。 任何團隊成員都可以做出決定，這會計為整個團隊的核准決定。
 
@@ -434,8 +529,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >預覽： 2025年7月17日
->&#x200B;>快速發行生產： 2025年8月14日
->&#x200B;>所有客戶的生產： 2025年10月16日
+>>快速發行生產： 2025年8月14日
+>>所有客戶的生產： 2025年10月16日
 
 我們引進了以下欄位，以擷取透過提交具有核准的請求所建立的記錄的核准資訊：
 
@@ -449,8 +544,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >預覽： 2025年7月10日
->&#x200B;>生產快速發行： 2025年8月14日
->&#x200B;>所有客戶的生產： 2025年10月16日
+>>生產快速發行： 2025年8月14日
+>>所有客戶的生產： 2025年10月16日
 
 
 現在，當您已將群組套用至表格檢視時，將記錄新增至表格將會自動填入與您將記錄新增至的群組相關聯的欄位。
