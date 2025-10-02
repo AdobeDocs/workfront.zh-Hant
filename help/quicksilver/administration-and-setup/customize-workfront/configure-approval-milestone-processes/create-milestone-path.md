@@ -117,7 +117,7 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
    </table>
 
 1. 按一下左側面板中的&#x200B;**里程碑**。
-1.在生產環境中，按一下**新增里程碑**以將里程碑新增至路徑。
+1.在生產環境中，按一下&#x200B;**新增里程碑**&#x200B;以將里程碑新增至路徑。
    <span class="preview">在預覽環境中，按一下&#x200B;**新增列**&#x200B;以新增里程碑至路徑。</span>
 1. 更新下列資訊：
 
@@ -181,7 +181,7 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
    此篩選器可確保您只顯示與報告中里程碑路徑相關聯的專案。
 
 1. 按一下「**儲存並關閉**」。
-1. 新增報表名稱，然後按一下[套用]。****
+1. 新增報表名稱，然後按一下[套用]。**&#x200B;**
 
    專案報告隨即顯示。 與每個專案相關聯的里程碑路徑會顯示在報表的最後一欄。
 1. 按一下報告最後一欄中的里程碑路徑名稱。
