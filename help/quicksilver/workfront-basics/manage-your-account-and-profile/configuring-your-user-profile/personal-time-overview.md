@@ -7,18 +7,18 @@ description: 請務必在Adobe Workfront中指明核准的休假何時發生，�
 author: Becky
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: e0f6078cfab1b325302dbda8a656d2a65ee0b95c
+source-git-commit: ce2f1ebe7ea97f3c25ac6a7ef33fd3c066727220
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
 
 # 設定個人休假
 
-{{highlighted-preview}}
-
 <!-- Audited: 12/2023 -->
+
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽沙箱」環境中使用，並且正在分階段推出到生產環境。</span>
 
 [!DNL Adobe Workfront]的設計目的並非複製或取代您現有的系統，以管理、累積及追蹤個人休假。
 
@@ -58,7 +58,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td>具有[!UICONTROL Edit User]存取權的[!UICONTROL Manager] （變更其他使用者的休假行事曆）<br>
+   <td>具有[！UICONTROL Edit User]存取權的[！UICONTROL Manager] （變更其他使用者的休假行事曆）<br>
    <strong>注意：</strong>如果管理員編輯其他使用者的個人休假行事曆，所有專案都會以使用者的時區顯示，而非管理員的時區顯示。</td> 
   </tr> 
  </tbody> 

@@ -6,18 +6,18 @@ description: 您可以建立、編輯和指派為使用者產生週期性時程�
 author: Lisa
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 939407f56b39617441f669d11b9439e445ceaf6e
+source-git-commit: 611c3c947855610cf86cdcbf96d1e9d847e34f38
 workflow-type: tm+mt
-source-wordcount: '1641'
+source-wordcount: '1668'
 ht-degree: 2%
 
 ---
 
 # 建立、編輯和指派時程表設定檔
 
-{{highlighted-preview}}
-
 <!--Audited: 06/2025-->
+
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽沙箱」環境中使用，並且正在分階段推出到生產環境。</span>
 
 您可以建立、編輯和指派為使用者產生週期性時程表的時程表設定檔，您無需採取任何進一步的干預。 這可為您節省時間，並確保使用者之間遵循下列原則：
 
@@ -89,92 +89,73 @@ ht-degree: 2%
 
 1. 更新下列資訊：
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader"><strong>名稱</strong> </td> 
-      <td> <p> 為時程表設定檔新增名稱。 這可以是團隊名稱，或人員與其時程表共用相同時間範圍的群組名稱。 </p> <p>此為必填欄位。</p> </td> 
-     </tr>
+   * **名稱**：為時程表設定檔新增名稱。 這可以是團隊名稱，或人員與其時程表共用相同時間範圍的群組名稱。 這是必填欄位。
+   * **描述**：新增更多關於時程表設定檔的資訊。
+   * **具有管理存取權的群組**：如果您正在建立系統層級時程表設定檔，請將此欄位留空。
 
-   <tr> 
-      <td role="rowheader"><strong>說明</strong> </td> 
-      <td> <p> 新增更多關於週期性時程表的資訊。     
-      </p> </td> 
-     </tr>
+     任何可以編輯使用者帳戶的使用者都可以將系統層級時程表附加到其他使用者。
 
-   <tr> 
-   <td role="rowheader">具有管理存取許可權的<strong>群組</strong> </td> 
-      <td> <p> 
-      <ul> 
-      <li> <p>如果您正在建立系統層級時間表設定檔，請將此欄位留空。</p> <p>任何可以編輯使用者帳戶的使用者都可以將系統層級時程表附加到其他使用者。</p> <p>只有Workfront管理員可以編輯系統層級時間表設定檔。</p> </li> 
-      </ul> 
-     <ul> 
-      <li> <p>如果您要為管理的群組建立時間表設定檔，請在此處識別該群組。</p> <p>這不會將時程表設定檔指派給群組中的使用者；只允許群組的管理員修改時程表設定檔。 您將在步驟6中將設定檔指派給使用者。</p>
+     只有Workfront管理員可以編輯系統層級時間表設定檔。
 
-   <p><b>注意</b>：當群組外部的使用者將時程表設定檔附加到其他使用者時，他們將無法看到或附加此時程表設定檔。</p> </li> 
-      </ul> </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>建立時程表</strong> </td> 
-      <td> <p> <p>指定時間表設定檔應何時產生時間表。 時程表可設定為每週、每兩週、每半月或每月自動產生。 選取一週中要產生時程表的日期。</p>
-      <p>每週時程表從產生日期開始。 例如，如果您每星期四建立每週時程表，則時程表上一週的第一天是星期四。</p>
+     如果您要為管理的群組建立時間表設定檔，請在此處識別該群組。
 
+     這不會將時程表設定檔指派給群組中的使用者；只允許群組的管理員修改時程表設定檔。 您將在步驟6中將設定檔指派給使用者。
 
-   <p><b>注意</b>： Workfront一律同時建立兩個時程表：第一個時程表一律包含目前的日期，第二個時程表從第一時程表的時間範圍結束時開始。</p> </p> </td> 
-   </tr> 
-     <tr> 
-      <td role="rowheader"><p><strong>核准者</strong></p> </td> 
-      <td> <p> <p>核准者指核准與時程表相關聯之使用者之時程表的使用者。 您最多可以在時程表上將7名使用者識別為核准者。 識別多個使用者對於確保在某人不在辦公室時核准者可供使用非常有用。 當使用者提交時程表以供核準時，所有核准者都會收到通知。 時程表只需一名使用者核准即可核准。</p> <p>只有具有時程表管理許可權的使用者才能設定為核准者。 如需時程表管理許可權的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予使用者對特定區域的管理存取權</a>。</p> <p>使用下拉式選單來選取時程表的核准者（如果需要核准者）。 您可選取下列選項：</p> 
-      <ul> 
-      <li><strong>無</strong>：時程表不需要核准。</li> 
-      <li><strong>他們的管理員</strong>：這是系統設定的預設核准者。 在這種情況下，當時程表提交進行核準時，被指定為其管理員的使用者會核准該時程表。</li> 
-      <li><strong>特定人員：</strong>您可以依名稱將特定使用者指定為時程表核准者。 您可以在時程表上擁有多個核准者。 在這種情況下，在核准者核準時程表後，該時程表會被標籤為<strong>已關閉</strong>，並且會從所有剩餘核准者的時程表核准清單中消失。</li> 
-       </ul> </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>可以編輯時間</strong> </td> 
-      <td> <p> <p>選取此選項可允許核准者在時程表上編輯小時。
+     >[!NOTE]
+     >
+     >當群組外的使用者將時程表設定檔附加到其他使用者時，他們將無法檢視或附加此時程表設定檔。
 
-   <p>此選項可與「設定&gt;時程表和時數&gt;偏好設定」區域中的&#x200B;**限制只有擁有者和管理員能編輯時程表**&#x200B;設定搭配使用。 如需詳細資訊，請參閱<a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">設定時程表和小時喜好設定</a>。</p>
+   * **建立時程表**：指定時程表設定檔應何時產生時程表。 時程表可設定為每週、每兩週、每半月或每月自動產生。 選取一週中要產生時程表的日期。
 
-   <p>存在下列情況： </p>
+     每週時程表從產生日期開始。 例如，如果您每星期四建立每週時程表，則時程表上一週的第一天是星期四。
 
-   <ul>
-      <li>啟用<b>限制所有者和管理員編輯時程表</b>選項時：</li>
-      <ul><li>核准者只能核准和拒絕時程表，無論<b>可以編輯時間</b>是否已啟用。 </li>
-      <li>時程表所有者的管理員只能檢視其直接報告的時程表。</li></ul>
-      <li>當<b>限制所有者和管理員編輯時程表</b>選項停用時：</li>
-    <ul><li>當<b>可以編輯時間</b>啟用時，核准者可以提交、重新開啟或關閉時程表，並且可以編輯時間。</li>
-      <li>當<b>可以編輯時間</b>停用時，核准者無法提交、重新開啟或關閉時程表，也無法編輯時間。 核准者只能核准或拒絕時程表。 </li>
-      <li>時程表所有者的管理員可以提交、撤銷、重新開啟及編輯其直接下屬的時程表。</li></ul>
-      </ul>
+     >[!NOTE]
+     >
+     >Workfront一律會同時建立兩個時程表：第一個時程表一律包含目前的日期，第二個時程表從第一時程表的時間範圍結束時開始。
 
-   <p>
+   * **核准者**：核准者是核准與時程表相關聯之使用者之時程表的使用者。 您最多可以在時程表上將7名使用者識別為核准者。 識別多個使用者對於確保在某人不在辦公室時核准者可供使用非常有用。 當使用者提交時程表以供核準時，所有核准者都會收到通知。 時程表只需一名使用者核准即可核准。
 
-   <b>附註</b>：一旦您提交時程表進行核准，就無法再編輯時數。 若要將已提交的時程表傳回至可編輯狀態，請撤回該時程表或讓核准者拒絕該時程表。 如需詳細資訊，請參閱<a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">提交時程表以供核准</a>和<a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">核準時程表</a>。</p> </p> </td>
-   </tr> 
-     <tr> 
-      <td role="rowheader"><strong>加班</strong> </td> 
-      <td>您可以選擇隱藏時程表中的「加班」方塊。 此選項預設為停用。</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>可用的小時型別</strong> </td> 
-      <td><p>此設定僅參考一般小時型別，不適用於特定專案小時型別。 </p>
-      <p>依預設，使用者會在時程表上檢視所有一般時數。 不過，如果您的組織只想為一組特定使用者顯示特定的一般小時，您可以透過在此欄位中選取他們在時程表設定檔中的方式，選取他們需要在時程表中檢視的一般小時。 如果您要停用所有一般時數，請取消選取所有時數型別，以產生不含一般時數區段的時程表。</p></td> 
-     </tr>
+     只有具有時程表管理許可權的使用者才能設定為核准者。 如需時程表管理許可權的詳細資訊，請參閱[授予使用者對特定區域的管理存取權](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)。
 
-   <tr> 
-      <td role="rowheader"><strong>提醒通知</strong> </td> 
-      <td> <p> 新增提醒通知。 Workfront會傳送提醒給使用者，要求他們完成或核准其時程表。 您必須先建立提醒通知，然後才能將其與時程表設定檔建立關聯。  </p> </td> 
-     </tr>
+     使用下拉式選單來選取時程表的核准者（如果需要核准者）。 您可選取下列選項：
 
-1. 在生產環境中建立群組層級的時程表設定檔時，請按一下&#x200B;**指派人員**&#x200B;索引標籤，將時程表設定檔與特定使用者、群組或(如果您是Workfront管理員)團隊建立關聯。<!--Keep the reference to the group upon release to Prod, for now, until they unshim the group Timesheet Profiles-->
+      * **無**：時程表不需要核准。
+      * **他們的管理員**：這是系統設定的預設核准者。 在這種情況下，當時程表提交進行核準時，被指定為其管理員的使用者會核准該時程表。
+      * **特定人員**：您可以依名稱將特定使用者指定為時程表核准者。 您可以在時程表上擁有多個核准者。 在這種情況下，在核准者核準時程表後，該時程表會被標籤為&#x200B;**已關閉**，並且會從所有剩餘核准者的時程表核准清單中消失。
+
+   * **可以編輯時間**：選取此選項可允許核准者編輯時程表上的時數。
+
+     此選項可與「設定>時程表和時數>偏好設定」區域中的&#x200B;**限制所有者和管理員編輯時程表**&#x200B;設定搭配使用。 如需詳細資訊，請參閱[設定時程表和小時喜好設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)。
+
+     存在下列情況：
+
+     啟用&#x200B;**限制所有者和管理員編輯時程表**&#x200B;選項時：
+
+      * 核准者只能核准和拒絕時程表，無論是否啟用可編輯時間。
+      * 時程表所有者的管理員只能檢視其直接報告的時程表。
+
+     當&#x200B;**限制所有者和管理員編輯時程表**&#x200B;選項停用時：
+
+      * 當&#x200B;**可以編輯時間**&#x200B;啟用時，核准者可以提交、重新開啟或關閉時程表，並且可以編輯時間。
+      * 當&#x200B;**可以編輯時間**&#x200B;停用時，核准者無法提交、重新開啟或關閉時程表，也無法編輯時間。 核准者只能核准或拒絕時程表。
+      * 時程表所有者的管理員可以提交、撤銷、重新開啟及編輯其直接下屬的時程表。
+
+     >[!NOTE]
+     >
+     >一旦您提交時程表進行核准，您就無法再編輯小時。 若要將已提交的時程表傳回至可編輯狀態，請撤回該時程表或讓核准者拒絕該時程表。 如需詳細資訊，請參閱[提交時程表以供核准](/help/quicksilver/timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md)和[核準時程表](/help/quicksilver/timesheets/create-and-manage-timesheets/timesheet-approvals.md)。
+
+   * **加班**：您可以選擇隱藏時程表中的[加班]方塊。 此選項預設為停用。
+   * **可用時數型別**：此設定僅參考一般時數型別，不會參考專案特定的時數型別。
+
+     依預設，使用者會在時程表上檢視所有一般時數。 不過，如果您的組織只想為一組特定使用者顯示特定的一般小時，您可以透過在此欄位中選取他們在時程表設定檔中的方式，選取他們需要在時程表中檢視的一般小時。 如果您要停用所有一般時數，請取消選取所有時數型別，以產生不含一般時數區段的時程表。
+
+   * **提醒通知**：新增提醒通知。 Workfront會傳送提醒給使用者，要求他們完成或核准其時程表。 您必須先建立提醒通知，然後才能將其與時程表設定檔建立關聯。
+
+1. 在生產環境中建立群組層級的時程表設定檔時，請按一下&#x200B;**指派人員**&#x200B;索引標籤，將時程表設定檔與特定使用者、群組或(如果您是Workfront管理員)團隊建立關聯。<!--To associate the timesheet profile with specific users, groups, or (if you are a Workfront administrator) teams, scroll towards the bottom of the page and find the **Assign People** section.-->
 
    <span class="preview">在預覽中建立群組層級時程表設定檔時，請捲動至頁面底部，並找到&#x200B;**指派人員**&#x200B;區段。</span>
 
-   為系統建立時間表設定檔時，請捲動至頁面底部，並找到&#x200B;**指派人員**&#x200B;區段。<!--Keep the reference to the system when releasing to Prod, until they unshim the group Timesheet Profile-->
+   為系統建立時間表設定檔時，請捲動至頁面底部，並找到&#x200B;**指派人員**&#x200B;區段。
 
    開始輸入使用者、群組或團隊的名稱，然後當它出現在下拉式清單中時按一下它。
 
@@ -224,3 +205,88 @@ ht-degree: 2%
 * 不同使用者組的不重複一般時數需求
 
 一個使用者無法一次與多個時程表設定檔建立關聯。
+
+<!--
+<table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader"><strong>Name</strong> </td> 
+      <td> <p> Add a name for the timesheet profile. It could be the name of a team or a group whose people share the same timeframe for their timesheets. </p> <p>This ia a required field.</p> </td> 
+     </tr> 
+
+   <tr> 
+      <td role="rowheader"><strong>Description</strong> </td> 
+      <td> <p> Add more information about the timesheet profile.     
+      </p> </td> 
+     </tr>
+
+   <tr> 
+   <td role="rowheader"><strong>Group with Administration Access</strong> </td> 
+      <td> <p> 
+      <ul> 
+      <li> <p>If you are creating a system-level timesheet profile, leave this field blank.</p> <p>Any user who can edit user accounts can attach a system-level timesheet to other users.</p> <p>Only a Workfront administrator can edit a system-level timesheet profile.</p> </li> 
+      </ul> 
+     <ul> 
+      <li> <p>If you are creating a timesheet profile for a group you administer, identify the group here.</p> <p>This does not assign the timesheet profile to the users in the group; it only allows the group's administrators to modify the timesheet profile. You will assign the profile to users in Step 6.</p>
+
+   <p><b>NOTE</b>: When users outside the group are attaching timesheet profiles to other users, they won't be able to see or attach this timesheet profile.</p> </li> 
+      </ul> </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Create timesheets</strong> </td> 
+      <td> <p> <p>Specify when the timesheet profile should generate the timesheets. A timesheet can be set to automatically generate on a weekly, bi-weekly, semi-monthly, or monthly basis. Select the day of the week when you want the timesheet to be produced.</p>
+      <p>A weekly timesheet begins on the date it is generated. For example, if you create weekly timesheets every Thursday, the first day of the week on the timesheet is Thursday.</p>
+    
+      
+   <p><b>NOTE</b>: Workfront always creates two timesheets at a time: the first timesheet always includes the current date, and the second timesheet starts when the time frame of the first one ends.</p> </p> </td> 
+   </tr> 
+     <tr> 
+      <td role="rowheader"><p><strong>Approvers</strong></p> </td> 
+      <td> <p> <p>Approvers are users who approve the timesheet for the users associated with the timesheet. You can identify up to 7 users as approvers on a timesheet. Identifying multiple users is useful to ensure an approver is available when someone is out of the office. All approvers are notified when a user submits the timesheet for approval. Only one user is required to approve the timesheet in order for it to be approved.</p> <p>Only users with timesheet administrative rights can be set as approvers. For more information about timesheet administrative rights, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> <p>Use the drop-down menu&nbsp;to select&nbsp;the approver&nbsp;for the timesheet (if an approver is required). You can select from the following options:</p> 
+      <ul> 
+      <li><strong>None</strong>: The timesheet does not need to&nbsp;be approved.</li> 
+      <li><strong>Their Manager</strong>: This is the default approver, set by the system. In this case, the user designated as their manager approves the timesheet when it is submitted for approval.</li> 
+      <li><strong>Specific People:</strong>&nbsp;You can designate specific users, by name, as timesheet approvers. You can have multiple approvers on a timesheet. In this case, after&nbsp;one of the approvers approves the timesheet, the timesheet is marked as <strong>Closed</strong> and it disappears from the timesheet approvals list of all the remaining approvers.</li> 
+       </ul> </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Can edit time </strong> </td> 
+      <td> <p> <p>Select this option to allow the approvers to edit hours on the timesheet. 
+
+   <p>This option works together with the **Restrict timesheet editing to owners and admins** setting in the Setup > Timesheet & Hours > Preferences area. For more information, see <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">Configure timesheet and hour preferences</a>.</p>
+
+   <p>The following scenarios exist: </p>
+
+   <ul>
+      <li>When the <b>Restrict timesheet editing to owners and admins</b> option is enabled:</li>
+      <ul><li>Approvers can only approve and reject timesheet, regardless of whether the <b>Can edit time</b> is enabled or not. </li>
+      <li>Timesheet owners' managers can only view their direct reports' timesheets.</li></ul>
+      <li>When the <b>Restrict timesheet editing to owners and admins</b> option is disabled:</li>
+    <ul><li>When the <b>Can edit time</b> is enabled, approvers can submit, reopen, or close the timesheet and can edit the time.</li>
+      <li>When the <b>Can edit time</b> is disabled, approvers cannot submit, reopen, or close the timesheet and cannot edit the time. Approvers can only approve or reject the timesheet. </li>
+      <li>Timesheet owners' managers can submit, recall, reopen, and edit their direct reports' timesheets.</li></ul>
+      </ul>
+
+   <p>
+
+   <b>NOTE</b>: Once you submit a timesheet for approval, you can no longer edit the hours. To return a submitted timesheet to an editable state, recall the timesheet or have the approver reject the timesheet. For more information, see <a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">Submit a timesheet for approval</a> and <a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">Approve a timesheet</a>.</p> </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Overtime</strong> </td> 
+      <td>You can choose to hide the Overtime box in timesheets. This option is disabled by default.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Available Hour Types</strong> </td> 
+      <td><p>This setting refers only to General Hour Types, and not to project-specific hour types. </p>
+      <p>By default, users see all general hours on a timesheet. However, if your organization wants only specific general hours to be shown for a particular set of users, you can select the general hours that they need to see in their timesheets by selecting them in their timesheet profile in this field. If you want to disable all general hours, deselect all hour types to generate the timesheet without a section for general hours.</p></td> 
+     </tr> 
+
+   <tr> 
+      <td role="rowheader"><strong>Reminder notifications</strong> </td> 
+      <td> <p> Add a reminder notification. Workfront will send reminders to users to ask them to complete or approve their timesheets. You must create reminder notifications before you can associate them with a timesheet profile.  </p> </td> 
+     </tr>
+    </tbody> 
+   </table>
+-->

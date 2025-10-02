@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0331be3c-a2d8-4788-a41a-5e971fb4bbe1
-source-git-commit: 1fa62033f83a96ea5c1036598b832dd2ebfa19c4
+source-git-commit: 7cb1eed72b0f5ce4abd83013b7a2f224dbb2c229
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 3%
@@ -55,7 +55,7 @@ Linked to Understanding Issue Severity.
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td>
+   <td>[！UICONTROL系統管理員]</td>
   </tr> 
  </tbody> 
 </table>
@@ -134,7 +134,7 @@ Workfront有五個內建問題嚴重性：
      </div>
 
    * **描述**：輸入嚴重程度的描述，以說明其功能。
-   * <span class="preview">**隱藏選擇**</span>&#x200B;或&#x200B;**隱藏**： <span class="preview">選擇&#x200B;**是**</span>&#x200B;或選取核取方塊以隱藏不再需要的嚴重程度。
+   * <span class="preview">**隱藏選擇**</span>&#x200B;或&#x200B;**隱藏**： <span class="preview">選取&#x200B;**是**</span>&#x200B;或選取核取方塊以隱藏不再需要的嚴重程度。
 
      隱藏的嚴重程度不會在Workfront的任何位置顯示，因此使用者無法針對其問題選擇它。
 

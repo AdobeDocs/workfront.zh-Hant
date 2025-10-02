@@ -3,10 +3,10 @@ product-area: user-management
 navigation-topic: configure-your-user-profile
 title: 建立自訂部分
 description: 根據預設，您在 [!DNL Workfront] 網頁應用程式中看到的資訊通常顯示在左側面板的區段中。 每個區段都包含有關 [!DNL Workfront] 區域或物件的不同資訊。
-author: Courtney
+author: Becky
 feature: Get Started with Workfront
 exl-id: 68f4b83b-a8b4-4304-930f-62551cb06a92
-source-git-commit: ac34076ddc0b5815c262a61326534a1241c17a4c
+source-git-commit: ccaf637601c53e5d92dd3357fb07e84b5fd69166
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 1%
@@ -57,11 +57,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[!UICONTROL Review]或更高版本</p> </td> 
+   <td> <p>[！UICONTROL Review]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
-   <td>[!UICONTROL Reviewer]或更高版本</td> 
+   <td>[！UICONTROL Reviewer]或更高版本</td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 

@@ -5,7 +5,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e7952cf-f07a-412b-9f9a-623cdba46849
-source-git-commit: 7db80f5bacf52b7bbe540f4e38e88853af86a5e2
+source-git-commit: 7cb1eed72b0f5ce4abd83013b7a2f224dbb2c229
 workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 1%
@@ -46,7 +46,7 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td>
+   <td>[！UICONTROL系統管理員]</td>
   </tr> 
  </tbody> 
 </table>
@@ -136,7 +136,7 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
      </div>
 
    * **描述**：輸入優先順序的描述，以說明其功能。
-   * <span class="preview">**隱藏選擇**</span>&#x200B;或&#x200B;**隱藏**： <span class="preview">選擇&#x200B;**是**</span>&#x200B;或選取核取方塊以隱藏不再需要的優先順序。
+   * <span class="preview">**隱藏選擇**</span>&#x200B;或&#x200B;**隱藏**： <span class="preview">選取&#x200B;**是**</span>&#x200B;或選取核取方塊以隱藏不再需要的優先順序。
 
      隱藏的優先順序在Workfront中的任何位置都不會顯示，因此使用者無法為其專案、任務或問題選擇它。
 

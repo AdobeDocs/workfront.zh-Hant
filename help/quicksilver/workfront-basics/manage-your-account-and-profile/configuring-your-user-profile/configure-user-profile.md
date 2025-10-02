@@ -4,11 +4,11 @@ product-area: user-management;setup
 navigation-topic: manage-your-account-and-profile
 title: 設定您的使用者設定檔
 description: 請參閱本節中的文章以瞭解如何設定您的 [!DNL Workfront] 使用者設定檔。
-author: Courtney
+author: Becky
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 1a64a148-529c-4c66-9ee8-fbfa205b0a67
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: ccaf637601c53e5d92dd3357fb07e84b5fd69166
 workflow-type: tm+mt
 source-wordcount: '36'
 ht-degree: 0%
