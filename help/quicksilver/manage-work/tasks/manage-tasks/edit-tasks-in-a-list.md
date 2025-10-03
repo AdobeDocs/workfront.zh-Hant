@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: manage-tasks
 title: 編輯清單中的任務
-description: 您可以編輯工作清單中顯示的欄位，以編輯工作清單中的工作資訊。
+description: 您可以編輯工作清單中顯示的欄位，以編輯工作清單中的工作資訊。 您必須在工作清單中定義「計畫模式」，以指示您要將變更儲存至Workfront的方式。 您可以手動或自動儲存變更。
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: 42243c1f09b9d7eaa6705a0722fd3650bbc95266
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '2756'
+source-wordcount: '2822'
 ht-degree: 2%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 2%
 
 如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-+++
++++ 
 
 ## 編輯清單中任務的相關考量事項 {#considerations-about-editing-tasks-in-a-list}
 
@@ -84,15 +84,20 @@ ht-degree: 2%
      >
      >依預設，Workfront會自動將您對任務所做的變更儲存在「子任務」區段或任務報告中。
 
-* 您可以控制Workfront何時儲存您對清單中任務所做的變更。 您的變更可以自動儲存，也可以手動儲存。
+* 您可以透過在開始編輯任務之前定義「計畫模式」，來控制Workfront何時儲存您對清單中的任務所做的變更。
 
-  如需有關在Workfront儲存您對清單中工作所做的變更時進行設定的資訊，請參閱本文中在清單中編輯工作時的[選取儲存選項](#select-a-save-option-when-editing-tasks-in-a-list)一節。
+  您可以透過下列方式，在Workfront儲存您所做的變更之間做出決定：
+
+      *自動，每次變更後
+     *手動，只有在您按一下[儲存]後。
+  
+  如需有關在Workfront儲存您對清單中的工作所做的變更時進行設定的資訊，請參閱本文中[編輯清單中的工作之前](#modify-plan-mode-before-editing-tasks-in-a-list)一節的「修改計畫模式」。
 
 * 其他使用者必須先重新整理頁面，才能檢視您對任務所做的更新。
 
-## 在清單中編輯任務時選取儲存選項 {#select-a-save-option-when-editing-tasks-in-a-list}
+## 在編輯清單中的任務之前修改計畫模式
 
-您可以決定對清單中的工作所做的變更是否會在發生時自動儲存，或者是否要手動儲存每個變更。
+您可以決定對清單中的工作所做的變更是否會在發生時自動儲存，或者是否要手動儲存每個變更。 若要這麼做，您必須先修改工作清單中的「計畫模式」，才能編輯工作。
 
 >[!IMPORTANT]
 >
@@ -100,17 +105,17 @@ ht-degree: 2%
 
 針對已選取「自動」或「自動」及「變更時」作為「更新型別」的專案，當您在清單中儲存變更時，Workfront會更新專案時間表，以及所有專案內和跨專案相依性。 如果專案較大或有許多相依性，則時間表計算可能需要很長的時間。 根據您選取來儲存變更的方法，某些編輯任務清單的方法可能比其他方法更快。
 
-您可以控制Workfront何時儲存您對清單中任務所做的變更。 存在下列情況： 
+您可以控制Workfront何時儲存您對清單中任務所做的變更。 存在下列情況：
 
 * 您可以讓Workfront在每次更新後自動儲存變更。
 
-  如需詳細資訊，請參閱本文中的[編輯清單中的工作並自動儲存變更](#edit-tasks-in-a-list-and-automatically-save-changes)一節。
+  如需詳細資訊，請參閱本文中的[設定計畫模式以自動儲存變更](#set-the-plan-mode-to-automatically-save-changes)一節。
 
 * 您可使用「儲存」按鈕手動控制一次套用多個變更的時間。
 
-  如需詳細資訊，請參閱本文中的[編輯清單中的工作並手動儲存變更](#edit-tasks-in-a-list-and-manually-save-changes)一節。
+  如需詳細資訊，請參閱本文中的[設定計畫模式以手動儲存變更](#set-the-plan-mode-to-manually-save-changes)一節。
 
-### 編輯清單中的任務並自動儲存變更 {#edit-tasks-in-a-list-and-automatically-save-changes}
+### 設定計畫模式以自動儲存變更
 
 >[!TIP]
 >
@@ -192,7 +197,7 @@ ht-degree: 2%
     </tbody> 
    </table>
 
-### 編輯清單中的任務並手動儲存變更 {#edit-tasks-in-a-list-and-manually-save-changes}
+### 設定計畫模式以手動儲存變更 {#edit-tasks-in-a-list-and-manually-save-changes}
 
 您可以手動儲存對清單中的工作所做的變更。 以這種方式儲存變更時，您有彈性在儲存前將其還原。
 
@@ -301,7 +306,7 @@ ht-degree: 2%
    </table>
 
 1. 當您變更任務的時間表時，Workfront會更新所有專案內和跨專案相依性。
-1. 當您想要永久保留工作變更並儲存專案的時間表時，請按一下[儲存]。**&#x200B;**
+1. 當您想要永久保留工作變更並儲存專案的時間表時，請按一下[儲存]。****
 
 #### 當您選取「手動儲存時程表計畫」選項時，手動儲存工作清單中的變更 {#save-changes-in-a-task-list-manually-when-you-select-the-manual-save-timeline-planning-option}
 
@@ -409,7 +414,7 @@ ht-degree: 2%
    </table>
 
 1. 當您變更任務的時間表時，Workfront會更新所有專案內和跨專案相依性。
-1. 當您想要永久保留工作變更並儲存專案的時間表時，請按一下[儲存]。**&#x200B;**
+1. 當您想要永久保留工作變更並儲存專案的時間表時，請按一下[儲存]。****
 
 ## 使用「摘要」編輯清單中的任務
 

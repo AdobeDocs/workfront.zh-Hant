@@ -6,9 +6,9 @@ description: 在Adobe Workfront物件上提供更新註解時，專案上的所�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '996'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視本文中功能的存取需求。 
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -122,8 +122,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >* 只有在使用者與公司相關聯時，才會顯示此選項。
-   >* 公司外部的已標籤使用者仍可收到應用程式內通知或電子郵件，即使他們不會在更新索引標籤上看到私人評論。 如果您不想與外部使用者共用資訊，建議不要在更新時標籤這些使用者。
+   >公司外部的已標籤使用者仍可收到應用程式內通知或電子郵件，即使他們不會在更新索引標籤上看到私人評論。 如果您不想與外部使用者共用資訊，建議不要在更新時標籤這些使用者。
 
 1. （選用）若要新增多個使用者和團隊，請重複步驟2。<!--insure this stays accurate-->
 

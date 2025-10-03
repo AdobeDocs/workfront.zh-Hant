@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '1399'
-ht-degree: 2%
+source-wordcount: '1418'
+ht-degree: 1%
 
 ---
 
@@ -193,7 +193,7 @@ You must have the following access to perform the steps in this article:
    會從未完成的工作專案移除及取消指派使用者。
 
    如需詳細資訊，請參閱本文的[從專案團隊](#considerations-for-removing-users-from-a-project-team)移除使用者的考量事項。
-1. （選擇性）若要將此專案的更新傳送給使用者，請按一下[全部更新]，將更新傳送給團隊中的每個人&#x200B;**&#x200B;**
+1. （選擇性）若要將此專案的更新傳送給使用者，請按一下[全部更新]，將更新傳送給團隊中的每個人&#x200B;****
 
    或
 
@@ -243,7 +243,7 @@ You must have the following access to perform the steps in this article:
 
    如需詳細資訊，請參閱本文的[從專案團隊](#considerations-for-removing-users-from-a-project-team)移除使用者的考量事項。
 
-1. （選擇性）若要傳送更新給使用者，請按一下[全部更新]，將更新傳送給清單中的所有使用者&#x200B;**&#x200B;**
+1. （選擇性）若要傳送更新給使用者，請按一下[全部更新]，將更新傳送給清單中的所有使用者&#x200B;****
 
    或
 
@@ -261,6 +261,10 @@ You must have the following access to perform the steps in this article:
    * 按一下「**標籤人員**」以標籤接收相同更新的其他使用者。
    * 選取&#x200B;**我的公司私有**&#x200B;選項，將更新設為貴公司使用者的私有。
    * 按一下「**傳送**」。
+
+     >[!TIP]
+     >
+     >**我的公司專用**&#x200B;設定只有在您的Workfront設定檔與公司相關聯時才可用。
 
    更新已新增到每個已標籤使用者設定檔的&#x200B;**更新**&#x200B;區段。
 

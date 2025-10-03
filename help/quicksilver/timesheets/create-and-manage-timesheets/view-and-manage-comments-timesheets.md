@@ -6,9 +6,9 @@ description: 您可以對時程表、時程表中包含的工作專案以及您�
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '920'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視本文中功能的存取需求。 
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -96,6 +96,10 @@ ht-degree: 0%
 1. 開始新增註解或回覆現有註解，如[更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)中所述。
 1. （選用）在&#x200B;**標籤人員或團隊**&#x200B;欄位中新增人員或團隊，以將其他人加入您的更新。 如需詳細資訊，請參閱[標籤其他人的更新](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)。
 1. （選擇性）如果您只想讓公司的人員檢視更新，請選取&#x200B;**我的公司私有**&#x200B;選項。
+
+   >[!TIP]
+   >
+   >**我的公司專用**&#x200B;設定只有在您的Workfront設定檔與公司相關聯時才可用。
 1. 輸入您的註解，然後按一下&#x200B;**提交**。
 
    您的註解會顯示在時程表的[!UICONTROL 更新]區段的[註解]索引標籤中。
@@ -129,7 +133,7 @@ ht-degree: 0%
    執行下列其中一項：
 
    * 輸入新註解並按一下&#x200B;**完成**。
-   * 編輯現有的註解並按一下[完成]&#x200B;**&#x200B;**，或按一下[取消]&#x200B;**以捨棄變更。**
+   * 編輯現有的註解並按一下[完成]****，或按一下[取消]**以捨棄變更。**
    * 按一下&#x200B;**刪除**&#x200B;圖示![刪除圖示](assets/delete.png)以刪除已儲存的註解。
 
      小時輸入方塊的右上角會出現一個藍色標籤，表示有與時間輸入一起記錄的註解。

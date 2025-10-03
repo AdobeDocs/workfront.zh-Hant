@@ -7,9 +7,9 @@ description: Adobe Workfront可讓您快速輕鬆地將與任何工作專案無�
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: d16495a0686ae5e54d16b108c69645f8666b46bd
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '589'
 ht-degree: 0%
 
 ---
@@ -73,8 +73,12 @@ ht-degree: 0%
 
 1. （選擇性）選取&#x200B;**[!UICONTROL 我的公司私有]**，讓此訊息僅對您公司的其他使用者可見。
 
+   >[!TIP]
+   >
+   >[!UICONTROL **我的公司專用**]&#x200B;設定只有在您的Workfront設定檔與公司相關聯時才可用。
+
 1. 按一下&#x200B;**[!UICONTROL 更新]。**
-訊息會張貼在使用者設定檔頁面的&#x200B;**[!UICONTROL 更新]**&#x200B;索引標籤上的訊息清單頂端。
+訊息會張貼在使用者設定檔頁面的**[!UICONTROL 更新]**&#x200B;索引標籤上的訊息清單頂端。
 
 ## 從使用者清單傳送訊息給一或多位使用者
 
@@ -89,5 +93,9 @@ ht-degree: 0%
 
 1. （選擇性）按一下「**標籤人員**」以在訊息上標籤任何其他使用者。 如需詳細資訊，請參閱[標籤其他人的更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)。
 1. （選擇性）選取&#x200B;**[!UICONTROL 我的公司私有]**，讓此訊息僅對您公司的其他使用者可見。
+
+   >[!TIP]
+   >
+   >[!UICONTROL **我的公司專用**]&#x200B;設定只有在您的Workfront設定檔與公司相關聯時才可用。
 1. 按一下&#x200B;[!UICONTROL **傳送**]。
-此郵件張貼在每個已標籤使用者設定檔頁面的&#x200B;**[!UICONTROL 更新]**&#x200B;索引標籤上的郵件清單頂端。
+此郵件張貼在每個已標籤使用者設定檔頁面的**[!UICONTROL 更新]**&#x200B;索引標籤上的郵件清單頂端。
