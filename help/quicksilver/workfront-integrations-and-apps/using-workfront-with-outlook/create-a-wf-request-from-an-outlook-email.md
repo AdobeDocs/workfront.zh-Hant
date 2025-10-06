@@ -6,9 +6,9 @@ description: 您可以從Outlook中的電子郵件建立 [!DNL Adobe Workfront] 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4ecfe632-5f2e-4dc2-8c88-6a8229887f53
-source-git-commit: 793c8c940c8cb7ac53169edf21ddf28af2554120
+source-git-commit: 3f779985292a2f89eb3a0ffad9378bd55f31d130
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '73'
 ht-degree: 0%
 
 ---
@@ -23,63 +23,3 @@ ht-degree: 0%
 >
 >**由於Microsoft已停用這些權杖，適用於Microsoft Outlook整合的Workfront已停止運作。**
 
-您可以從Outlook中的電子郵件建立[!DNL Adobe Workfront]要求。
-
-當您根據電子郵件建立[!DNL Workfront]要求時，預設情況下要求中包含電子郵件內容（包括主旨與內文）。
-
->[!NOTE]
->
->您無法從共用的[!DNL Workfront]Outlook[!UICONTROL 信箱建立]要求。
-
-## 存取需求
-
-您必須具有下列存取權才能執行本文中的步驟：
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
-   <td> <p>任何</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[!UICONTROL Work]， [!UICONTROL 計畫]</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
-
-## 先決條件
-
-您的[!DNL Workfront]管理員必須以[!DNL Outlook for Office]啟用[!DNL Workfront]，您才能使用此整合。
-
-## 從[!DNL Outlook]電子郵件建立請求
-
-若要從[!DNL Workfront]建立[!DNL Outlook]要求：
-
-1. 選取包含您要包含在[!DNL Workfront]要求中的資訊的電子郵件。
-1. 按一下電子郵件訊息右上角的&#x200B;**[!DNL Workfront]**&#x200B;圖示，以顯示Workfront增益集。\
-   您可能需要按一下電子郵件右上角的向下箭頭，才能存取[!DNL Workfront]圖示。
-
-1. 按一下&#x200B;**[!UICONTROL 功能表]**&#x200B;圖示![o365_addin_menu2_icon.png](assets/o365-addin-menu2-icon.png)以顯示可用[!DNL Workfront]選項清單。
-
-1. 按一下&#x200B;**[!UICONTROL 送出要求]**。
-1. 在&#x200B;**[!UICONTROL 選取要求型別]**&#x200B;欄位中，選取您要提交要求的要求佇列。
-
-1. 指定下列資訊：\
-   可用欄位可能會因請求佇列的設定方式而異。 如需可能欄位的完整清單和說明，請參閱[建立和提交 [!DNL Adobe Workfront] 要求](../../manage-work/requests/create-requests/create-submit-requests.md)文章。
-
-   * **[!UICONTROL 主旨]：**&#x200B;指定要求的主旨。 預設會使用電子郵件主旨。
-   * **[!UICONTROL 描述]：**&#x200B;指定要求的描述。 預設會使用電子郵件內文。
-   * **[!UICONTROL 檔案]：**&#x200B;附加您要包含在要求中的任何檔案。 您可以透過拖放或按一下&#x200B;**[!UICONTROL 選取檔案]**&#x200B;並瀏覽及選取檔案來附加檔案。\
-
-     依預設，任何附加到電子郵件的檔案都會包含在請求中。
-
-1. 按一下&#x200B;**[!UICONTROL 送出要求]**。\
-   要求已提交至[!DNL Workfront]，位於指定的要求佇列中。
-
-1. （選用）導覽回[!DNL Outlook]，並選取原始電子郵件。\
-   在[!DNL Workfront]增益集面板頂端，請注意含有連結的確認，表示電子郵件已新增至Workfront作為請求。 連結包含轉換日期。\

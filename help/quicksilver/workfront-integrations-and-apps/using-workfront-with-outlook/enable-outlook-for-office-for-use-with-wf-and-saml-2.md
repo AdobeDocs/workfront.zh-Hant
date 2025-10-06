@@ -6,9 +6,9 @@ description: 如果您的 [!DNL Adobe Workfront] 系統已與SAML 2.0整合，�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 72ffceb3-50f0-486e-92b5-0bea4c9a99c8
-source-git-commit: 793c8c940c8cb7ac53169edf21ddf28af2554120
+source-git-commit: 3f779985292a2f89eb3a0ffad9378bd55f31d130
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,3 @@ ht-degree: 0%
 >
 >**由於Microsoft已停用這些權杖，適用於Microsoft Outlook整合的Workfront已停止運作。**
 
-如果您的[!DNL Adobe Workfront]系統與SAML 2.0整合，您必須為[!DNL Office]增益集啟用SAML 2.0驗證，使用者才能使用其SAML 2.0認證進行驗證。
-
-如果您在使用SAML登入[!DNL Workfront]時遇到問題，請聯絡您的[!DNL Workfront]管理員以確保SAML已正確設定。
-
-如需有關如何啟用Office增益集以使用SAML 2.0解決方案進行驗證的資訊，請參閱[使用SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)設定Adobe Workfront一節文章。
