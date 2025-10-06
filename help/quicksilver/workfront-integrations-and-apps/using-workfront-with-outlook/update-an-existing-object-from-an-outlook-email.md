@@ -6,9 +6,9 @@ description: 您可以從Outlook電子郵件更新現有的專案、任務或問
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 297eb1c4-ee9f-4bb3-a412-18f23c74b0eb
-source-git-commit: d9b0e6b1c2afd17cefe190f29a072634f0b0ce50
+source-git-commit: 793c8c940c8cb7ac53169edf21ddf28af2554120
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '493'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->[Microsoft正在停用對舊版Exchange Online權杖](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens)的支援，Workfront Outlook增益集目前使用這些權杖進行驗證。 Microsoft的這項變更已開始影響客戶，並將在2025年10月前持續分階段推出。
+>[Microsoft已停用對舊版Exchange Online權杖](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens)的支援，這些權杖是由Workfront Outlook增益集用於驗證。 Microsoft的這項變更會分階段推出，並於2025年10月1日完成。
 >
->* **在Microsoft完全停用這些Token後，適用於Microsoft Outlook整合的Workfront將無法繼續運作。**
->
->在這次變更中，Microsoft已決定變更代號重新啟用的方式。 在&#x200B;**2025年6月30日**&#x200B;之後，管理員將無法再自行重新啟用權杖 — 只有Microsoft支援可授予例外狀況。 **在2025年10月1日，所有租使用者的舊版代號將會關閉。 將不會授與例外。**
+>**由於Microsoft已停用這些權杖，適用於Microsoft Outlook整合的Workfront已停止運作。**
 
 您可以從[!DNL Outlook]電子郵件更新資訊的現有專案、任務或問題。
 
@@ -39,7 +37,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[!UICONTROL Work]， [!UICONTROL 計畫]</p> </td> 
+   <td> <p>[！UICONTROL Work]， [！UICONTROL計畫]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -48,7 +46,7 @@ ht-degree: 0%
 
 ## 先決條件
 
-您的[!DNL Workfront]管理員必須以[!DNL Workfront]啟用[!DNL Outlook for Office]，您才能使用此整合。
+您的[!DNL Workfront]管理員必須以[!DNL Outlook for Office]啟用[!DNL Workfront]，您才能使用此整合。
 
 ## 從[!DNL Outlook]電子郵件更新現有的物件
 
@@ -59,7 +57,7 @@ ht-degree: 0%
 1. 按一下&#x200B;**[!UICONTROL 功能表]**&#x200B;圖示![o365_addin_menu_icon.png](assets/o365-addin-menu2-icon.png)以顯示可用[!DNL Workfront]選項的清單。\
 
 
-1. 在Workfront **中按一下**&#x200B;[!UICONTROL &#x200B;更新]。\
+1. 在Workfront **[!UICONTROL 中按一下]更新**。\
    在儲存為任務之前，您可以從電子郵件更新以下資訊：
 
    * **[!UICONTROL 型別]**：選取您要更新的物件型別。 您可以選取&#x200B;**[!UICONTROL 專案]**、**[!UICONTROL 任務]**&#x200B;或&#x200B;**[!UICONTROL 問題]**。 您選取的物件會決定顯示在下方&#x200B;**[!UICONTROL 名稱]**&#x200B;欄位中的結果。 如果您不確定物件型別，請選取&#x200B;**[!UICONTROL 全部]**&#x200B;以同時搜尋專案、任務和問題。
@@ -87,4 +85,4 @@ ht-degree: 0%
      ![o365_addin_lock.png](assets/o365-addin-lock.png)
 
 1. 按一下&#x200B;**[!UICONTROL 更新]**。
-1. （選擇性）按一下[在Workfront中檢視&#x200B;**&#x200B;**]以檢視[!UICONTROL Outlook]中與[!DNL Workfront]整合的更新專案。
+1. （選擇性）按一下[在Workfront中檢視&#x200B;****]以檢視[!DNL Workfront]Outlook[!UICONTROL 中與]整合的更新專案。

@@ -6,9 +6,9 @@ description: ' [!DNL Workfront for Outlook] 增益集需要讀取/寫入信箱�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 704da044-21ed-4ca1-be6f-0e0aa832e069
-source-git-commit: d9b0e6b1c2afd17cefe190f29a072634f0b0ce50
+source-git-commit: 793c8c940c8cb7ac53169edf21ddf28af2554120
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -17,24 +17,22 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->[Microsoft正在停用對舊版Exchange Online權杖](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens)的支援，Workfront Outlook增益集目前使用這些權杖進行驗證。 Microsoft的這項變更已開始影響客戶，並將在2025年10月前持續分階段推出。
+>[Microsoft已停用對舊版Exchange Online權杖](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens)的支援，這些權杖是由Workfront Outlook增益集用於驗證。 Microsoft的這項變更會分階段推出，並於2025年10月1日完成。
 >
->* **在Microsoft完全停用這些Token後，適用於Microsoft Outlook整合的Workfront將無法繼續運作。**
->
->在這次變更中，Microsoft已決定變更代號重新啟用的方式。 在&#x200B;**2025年6月30日**&#x200B;之後，管理員將無法再自行重新啟用權杖 — 只有Microsoft支援可授予例外狀況。 **在2025年10月1日，所有租使用者的舊版代號將會關閉。 將不會授與例外。**
+>**由於Microsoft已停用這些權杖，適用於Microsoft Outlook整合的Workfront已停止運作。**
 
 [!DNL Workfront for Outlook]需要[!DNL Outlook]增益集所允許之四個許可權等級中的最高者。
 
-如需[!DNL Outlook]增益集許可權的相關詳細資訊，請參閱[!DNL Microsoft]檔案中的[ [!DNL Outlook] 增益集的隱私、許可權和安全性](https://docs.microsoft.com/en-us/office/dev/add-ins/outlook/privacy-and-security)。
+如需[!DNL Outlook]增益集許可權的相關詳細資訊，請參閱[檔案中的 [!DNL Outlook] ](https://docs.microsoft.com/en-us/office/dev/add-ins/outlook/privacy-and-security)增益集的隱私、許可權和安全性[!DNL Microsoft]。
 
 [!DNL Workfront for Outlook]增益集需要讀取/寫入信箱存取權(`ReadWriteMailbox`)，這是最高的許可權範圍。
-[!DNL Workfront for Outlook]整合需要最高層級的許可權，因為它具有從[!DNL Outlook] Exchange伺服器下載電子郵件附件，並在使用者從具有附件的電子郵件提交請求時將其上傳到[!DNL Workfront]的功能。 為了讓此功能運作，[!DNL Workfront for Outlook]會使用來自[!DNL Office]增益集JavaScript API的功能`mailbox.getCallbackTokenAsync()`來取得Token，並使用該功能從Exchange伺服器下載電子郵件附件。 唯一允許使用該函式的許可權是`ReadWriteMailbox`。 如需詳細資訊，請參閱Microsoft檔案中的[Outlook增益集的隱私、許可權和安全性](https://docs.microsoft.com/en-us/office/dev/add-ins/outlook/privacy-and-security)。
+[!DNL Workfront for Outlook]整合需要最高層級的許可權，因為它具有從[!DNL Outlook] Exchange伺服器下載電子郵件附件，並在使用者從具有附件的電子郵件提交請求時將其上傳到[!DNL Workfront]的功能。 為了讓此功能運作，[!DNL Workfront for Outlook]會使用來自`mailbox.getCallbackTokenAsync()`增益集JavaScript API的功能[!DNL Office]來取得Token，並使用該功能從Exchange伺服器下載電子郵件附件。 唯一允許使用該函式的許可權是`ReadWriteMailbox`。 如需詳細資訊，請參閱Microsoft檔案中的[Outlook增益集的隱私、許可權和安全性](https://docs.microsoft.com/en-us/office/dev/add-ins/outlook/privacy-and-security)。
 
 [!DNL Workfront for Outlook]增益集也需要`ReadWriteItem`許可權（包含在`ReadWriteMailbox`中），此許可權用於讀取電子郵件內文及讀取/更新電子郵件中繼資料：
 
 * 讀取電子郵件內文：
 
-  當使用者提交要求或傳送電子郵件內文作為[!DNL Adobe Workfront]物件的更新時，[!DNL Workfront for Outlook]會讀取電子郵件內文。
+  當使用者提交要求或傳送電子郵件內文作為[!DNL Workfront for Outlook]物件的更新時，[!DNL Adobe Workfront]會讀取電子郵件內文。
 * 讀取/更新電子郵件中繼資料：
 
   當使用者提交電子郵件中的請求時，[!DNL Workfront for Outlook]會更新電子郵件標題。 這麼做是為了儲存已提交[!DNL Adobe Workfront]物件的相關資訊，所以下次使用者為同一封電子郵件開啟增益集時，會顯示該電子郵件中先前動作的相關資訊。

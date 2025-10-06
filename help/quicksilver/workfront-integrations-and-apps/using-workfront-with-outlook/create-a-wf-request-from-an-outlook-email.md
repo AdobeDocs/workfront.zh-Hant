@@ -6,22 +6,22 @@ description: 您可以從Outlook中的電子郵件建立 [!DNL Adobe Workfront] 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4ecfe632-5f2e-4dc2-8c88-6a8229887f53
-source-git-commit: d9b0e6b1c2afd17cefe190f29a072634f0b0ce50
+source-git-commit: 793c8c940c8cb7ac53169edf21ddf28af2554120
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
 
-# 從[!UICONTROL Outlook]電子郵件建立[!DNL Adobe Workfront]要求
+# 從[!DNL Adobe Workfront]Outlook[!UICONTROL 電子郵件建立]要求
+
+
 
 >[!IMPORTANT]
 >
->[Microsoft正在停用對舊版Exchange Online權杖](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens)的支援，Workfront Outlook增益集目前使用這些權杖進行驗證。 Microsoft的這項變更已開始影響客戶，並將在2025年10月前持續分階段推出。
+>[Microsoft已停用對舊版Exchange Online權杖](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens)的支援，這些權杖是由Workfront Outlook增益集用於驗證。 Microsoft的這項變更會分階段推出，並於2025年10月1日完成。
 >
->* **在Microsoft完全停用這些Token後，適用於Microsoft Outlook整合的Workfront將無法繼續運作。**
->
->在這次變更中，Microsoft已決定變更代號重新啟用的方式。 在&#x200B;**2025年6月30日**&#x200B;之後，管理員將無法再自行重新啟用權杖 — 只有Microsoft支援可授予例外狀況。 **在2025年10月1日，所有租使用者的舊版代號將會關閉。 將不會授與例外。**
+>**由於Microsoft已停用這些權杖，適用於Microsoft Outlook整合的Workfront已停止運作。**
 
 您可以從Outlook中的電子郵件建立[!DNL Adobe Workfront]要求。
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您無法從共用的[!UICONTROL Outlook]信箱建立[!DNL Workfront]要求。
+>您無法從共用的[!DNL Workfront]Outlook[!UICONTROL 信箱建立]要求。
 
 ## 存取需求
 
@@ -45,7 +45,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[!UICONTROL Work]， [!UICONTROL 計畫]</p> </td> 
+   <td> <p>[！UICONTROL Work]， [！UICONTROL計畫]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -54,11 +54,11 @@ ht-degree: 0%
 
 ## 先決條件
 
-您的[!DNL Workfront]管理員必須以[!DNL Workfront]啟用[!DNL Outlook for Office]，您才能使用此整合。
+您的[!DNL Workfront]管理員必須以[!DNL Outlook for Office]啟用[!DNL Workfront]，您才能使用此整合。
 
 ## 從[!DNL Outlook]電子郵件建立請求
 
-若要從[!DNL Outlook]建立[!DNL Workfront]要求：
+若要從[!DNL Workfront]建立[!DNL Outlook]要求：
 
 1. 選取包含您要包含在[!DNL Workfront]要求中的資訊的電子郵件。
 1. 按一下電子郵件訊息右上角的&#x200B;**[!DNL Workfront]**&#x200B;圖示，以顯示Workfront增益集。\

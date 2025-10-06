@@ -1,14 +1,14 @@
 ---
 product-area: workfront-integrations
 navigation-topic: workfront-for-outlook
-title: '為 [!DNL Outlook]設定 [!DNL Adobe Workfront] '
+title: 為 [!DNL Adobe Workfront] 設定 [!DNL Outlook]
 description: ' [!DNL Adobe Workfront] [!DNL Outlook]增益集可讓您直接從Outlook執行索引鍵 [!DNL Workfront] 工作。'
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: d9b0e6b1c2afd17cefe190f29a072634f0b0ce50
+source-git-commit: 793c8c940c8cb7ac53169edf21ddf28af2554120
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
@@ -19,23 +19,21 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->[Microsoft正在停用對舊版Exchange Online權杖](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens)的支援，Workfront Outlook增益集目前使用這些權杖進行驗證。 Microsoft的這項變更已開始影響客戶，並將在2025年10月前持續分階段推出。
+>[Microsoft已停用對舊版Exchange Online權杖](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens)的支援，這些權杖是由Workfront Outlook增益集用於驗證。 Microsoft的這項變更會分階段推出，並於2025年10月1日完成。
 >
->* **在Microsoft完全停用這些Token後，適用於Microsoft Outlook整合的Workfront將無法繼續運作。**
->
->在這次變更中，Microsoft已決定變更代號重新啟用的方式。 在&#x200B;**2025年6月30日**&#x200B;之後，管理員將無法再自行重新啟用權杖 — 只有Microsoft支援可授予例外狀況。 **在2025年10月1日，所有租使用者的舊版代號將會關閉。 將不會授與例外。**
+>**由於Microsoft已停用這些權杖，適用於Microsoft Outlook整合的Workfront已停止運作。**
 
 [!DNL Adobe Workfront] [!DNL Outlook]增益集可讓您直接從Outlook執行下列主要的[!DNL Workfront]工作：
 
 * 使用電子郵件中的資訊更新現有的專案、任務或問題。 如需詳細資訊，請參閱[從 [!DNL Outlook] 電子郵件](../../workfront-integrations-and-apps/using-workfront-with-outlook/update-an-existing-object-from-an-outlook-email.md)更新現有的物件。
-* 根據[!DNL Outlook]內的電子郵件建立[!DNL Workfront]要求。 如需詳細資訊，請參閱[從 [!DNL Outlook] 電子郵件建立Adobe Workfront要求](../../workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md)。
+* 根據[!DNL Workfront]內的電子郵件建立[!DNL Outlook]要求。 如需詳細資訊，請參閱[從 [!DNL Outlook] 電子郵件建立Adobe Workfront要求](../../workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md)。
 * 新增電子郵件作為您[!UICONTROL 我的工作]區域中的工作。 如需詳細資訊，請參閱[將 [!DNL Outlook] 電子郵件新增為工作清單](../../workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-as-task-to-your-work-list.md)的工作。
-* 透過[!DNL Outlook]的[!DNL Workfront]增益集回覆註解。 如需有關回覆[!DNL Outlook]來自Workfront的註解的資訊，請參閱[回覆來自 [!DNL Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/reply-to-a-comment-from-outlook.md)的註解。
+* 透過[!DNL Workfront]的[!DNL Outlook]增益集回覆註解。 如需有關回覆[!DNL Outlook]來自Workfront的註解的資訊，請參閱[回覆來自 [!DNL Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/reply-to-a-comment-from-outlook.md)的註解。
 * 從頭開始建立任務和問題，或從現有電子郵件建立（使用拖放功能）。 如需詳細資訊，請參閱[將 [!DNL Outlook] 電子郵件作為任務或問題新增至專案](../../workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-to-project-as-task-or-issue.md)。
 
 您必須先將[!DNL Workfront]增益集新增至您的[!DNL Outlook]帳戶，才能使用[!DNL Workfront for Outlook]。
 
-如果您無法使用您的[!DNL Outlook]帳戶安裝[!DNL Workfront]增益集，請連絡您的[!DNL Workfront]系統管理員，以確保您的組織已啟用[!DNL Outlook]增益集。
+如果您無法使用您的[!DNL Workfront]帳戶安裝[!DNL Outlook]增益集，請連絡您的[!DNL Workfront]系統管理員，以確保您的組織已啟用[!DNL Outlook]增益集。
 
 如需有關如何為您的組織啟用[!DNL Outlook]整合的資訊，請參閱[啟用 [!DNL Adobe Workfront for Outlook]](../../administration-and-setup/configure-integrations/enable-workfront-for-outlook.md)。
 
@@ -56,8 +54,8 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
    <td> 
-   <p>新計畫： [!UICONTROL Standard]</p> 
-   <p>目前計畫：[!UICONTROL Work]， [!UICONTROL Plan]</p> </td> 
+   <p>新計畫： [！UICONTROL Standard]</p> 
+   <p>目前計畫：[！UICONTROL Work]， [！UICONTROL Plan]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -68,16 +66,16 @@ ht-degree: 0%
 
 ## 先決條件
 
-您的[!DNL Workfront]管理員必須以[!DNL Workfront]啟用[!DNL Outlook for Office]，您才能使用此整合。
+您的[!DNL Workfront]管理員必須以[!DNL Outlook for Office]啟用[!DNL Workfront]，您才能使用此整合。
 
 ## 系統需求
 
 下列應用程式可供使用：
 
-* 在網頁上&#x200B;**[!DNL Outlook]：**&#x200B;在案頭或行動裝置上使用網頁瀏覽器中的[!DNL Outlook]時，可以使用[!DNL Workfront]增益集。 使用[!DNL Outlook]網頁應用程式時也可以使用此功能。
-* **[!DNL Outlook]案頭應用程式：**&#x200B;使用[!DNL Office]套件所包含的[!DNL Outlook]的[!DNL Windows]和[!DNL Mac]案頭版本時，可以使用[!DNL Workfront]增益集。
+* 在網頁上&#x200B;**[!DNL Outlook]：**&#x200B;在案頭或行動裝置上使用網頁瀏覽器中的[!DNL Workfront]時，可以使用[!DNL Outlook]增益集。 使用[!DNL Outlook]網頁應用程式時也可以使用此功能。
+* **[!DNL Outlook]案頭應用程式：**&#x200B;使用[!DNL Workfront]套件所包含的[!DNL Windows]的[!DNL Mac]和[!DNL Outlook]案頭版本時，可以使用[!DNL Office]增益集。
 
-符合下列需求的環境支援[!DNL Outlook]的[!DNL Workfront]增益集：
+符合下列需求的環境支援[!DNL Workfront]的[!DNL Outlook]增益集：
 
 * [使用者端需求](#client-requirements-client-requirements)
 * [郵件伺服器需求](#mail-server-requirements-mail-server-requirements)
@@ -110,7 +108,7 @@ Workfront支援下列[!DNL Outlook]版本：
 
   <!--this used to be here but Dev asked for it to be taken out - logged issue for editing this article on 4-26-2023: For more information, see [Digital certificates and encryption in [!DNL Exchange 2016]](https://technet.microsoft.com/en-us/library/dd351044(v=exchg.160).aspx) and [Set-AuthConfig](https://technet.microsoft.com/en-us/library/jj215766(v=exchg.160).aspx).-->
 
-* 若要從[[!DNL Office] 存放區](https://store.office.com/)存取[!DNL Workfront]增益集，您的使用者端存取伺服器必須能夠與[https://store.office.com](https://store.office.com/)通訊。
+* 若要從[!DNL Workfront]存放區[[!DNL Office] 存取](https://store.office.com/)增益集，您的使用者端存取伺服器必須能夠與[https://store.office.com](https://store.office.com/)通訊。
 
 如需支援環境的詳細資訊，請參閱[[!DNL Microsoft Office 365] 首頁](https://products.office.com/en-us/office-365-home)。
 
@@ -118,7 +116,7 @@ Workfront支援下列[!DNL Outlook]版本：
 
 您可以從[Microsoft市集](https://appsource.microsoft.com/en-us/product/office/WA104380943?tab=Overview)取得適用於Outlook的Workfront增益集。
 
-### [!DNL Outlook 365]的[!DNL Workfront] {#workfront-for-outlook-365}
+### [!DNL Workfront]的[!DNL Outlook 365] {#workfront-for-outlook-365}
 
 1. 在[!DNL Outlook 365]中，按一下Office 365介面頂端的&#x200B;**[!UICONTROL 瀏覽增益集]**&#x200B;圖示![瀏覽增益集](assets/outlook-add-in-26x26.png)，然後按一下&#x200B;**[!UICONTROL 管理增益集]**。
 
@@ -126,26 +124,26 @@ Workfront支援下列[!DNL Outlook]版本：
 
 1. 按一下&#x200B;**[!UICONTROL 新增]**。
 
-### 網路上的[!DNL Outlook]的[!DNL Workfront] {#workfront-for-outlook-on-the-web}
+### 網路上的[!DNL Workfront]的[!DNL Outlook] {#workfront-for-outlook-on-the-web}
 
 1. 在網頁瀏覽器中開啟[!DNL Microsoft Outlook]。
 1. 按一下&#x200B;**[!UICONTROL 瀏覽]增益集**&#x200B;圖示![瀏覽增益集](assets/outlook-add-in-web-version-20x20.png)。
 
    若要尋找圖示，請參閱Microsoft檔案中的[在網頁上 [!DNL Outlook] 使用增益集](https://support.microsoft.com/en-us/office/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce#bkmk_addaddinsicon)。
 
-1. 在&#x200B;**[!UICONTROL 搜尋增益集]**&#x200B;欄位中搜尋&#x200B;**[!DNL Workfront]**，然後按&#x200B;**[!UICONTROL Enter]**。
+1. 在&#x200B;**[!DNL Workfront]**&#x200B;搜尋增益集&#x200B;**[!UICONTROL 欄位中搜尋]**，然後按&#x200B;**[!UICONTROL Enter]**。
 
 1. 當它出現在清單中時，按一下&#x200B;**新增**。
 
-### [!UICONTROL Windows]或[!DNL Mac]上的[!DNL Workfront for Outlook] {#workfront-for-outlook-on-windows-or-mac}
+### [!DNL Workfront for Outlook]Windows[!UICONTROL 或]上的[!DNL Mac] {#workfront-for-outlook-on-windows-or-mac}
 
 1. 按一下功能區上的&#x200B;**[!UICONTROL 首頁]** > **[!UICONTROL 商店]**。
 
-1. 在&#x200B;**[!UICONTROL 搜尋]**&#x200B;欄位中搜尋&#x200B;**[!DNL Workfront]**，然後按&#x200B;**[!UICONTROL Enter]**。
+1. 在&#x200B;**[!DNL Workfront]**&#x200B;搜尋&#x200B;**[!UICONTROL 欄位中搜尋]**，然後按&#x200B;**[!UICONTROL Enter]**。
 
 1. 按一下切換即可啟用&#x200B;**[!UICONTROL [!DNL Workfront]增益集]**。
 
-## 從[!DNL Outlook]登入[!DNL Workfront]
+## 從[!DNL Workfront]登入[!DNL Outlook]
 
 1. 在[!DNL Outlook]中，選取電子郵件訊息，然後按一下電子郵件標題中的&#x200B;**[!DNL Workfront]**&#x200B;圖示。
 1. 在登入頁面上，按一下&#x200B;**登入Workfront**。
