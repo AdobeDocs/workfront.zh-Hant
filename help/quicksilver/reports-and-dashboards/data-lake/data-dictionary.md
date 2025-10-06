@@ -7,10 +7,10 @@ description: 本頁包含有關Workfront Data Connect中資料結構和內容的
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 5a7f61b9b5237e282c1a61fb49b85533497836e3
+source-git-commit: 8df633f7f0946f81d6e81578a3d47719f6d8975e
 workflow-type: tm+mt
-source-wordcount: '8114'
-ht-degree: 7%
+source-wordcount: '8733'
+ht-degree: 9%
 
 ---
 
@@ -22,23 +22,23 @@ ht-degree: 7%
 >
 >Data Connect中的資料每四小時會重新整理一次，因此最近的變更可能不會立即顯示。
 
-## 表格型別
+## 檢視型別
 
-您可以在Data Connect中運用多種表格型別，以最能提供insight的方式檢視您的Workfront資料。
+在Data Connect中您可以運用許多檢視型別，以最能提供insight的方式檢視您的Workfront資料。
 
-* **目前的資料表**
+* **目前的檢視**
 
-  「目前」表格所反映的資料與Workfront中的資料、每個物件及其目前狀態類似。 不過，它比Workfront內的延遲要低很多。
+  「目前」檢視所反映的資料與Workfront中的資料存在方式、每個物件及其目前狀態類似。 不過，它比Workfront內的延遲要低很多。
 
-* **事件資料表**
+* **事件檢視**
 
-  「事件」表格會追蹤Workfront中的每筆變更記錄：亦即，每次物件變更狀態時，系統都會建立記錄以顯示變更發生時間、變更人員及變更內容。 因此，此表格對時間點比較很有用。 此表格僅包含過去三年的記錄。
+  「事件」檢視會追蹤Workfront中的每筆變更記錄：亦即，每次物件變更狀態時，系統都會建立記錄以顯示變更發生時間、變更人員及變更內容。 因此，此檢視對於時間點比較很有用。 此檢視僅包含過去三年的記錄。
 
-* **每日記錄表**
+* **每日記錄檢視**
 
-  「每日歷史記錄」表格提供「事件」表格的縮寫版本，顯示每個物件的每日狀態，而非每個個別事件發生時的狀態。 因此，此表可用於趨勢分析。
+  「每日歷史記錄」檢視提供「事件」檢視的縮寫版本，以每日顯示每個物件的狀態，而非每個個別事件發生時的狀態。 因此，此檢視對趨勢分析很有用。
 
-<!-- Custom table -->
+<!-- Custom view -->
 
 ## 實體關係圖
 
@@ -48,20 +48,25 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
 
 >[!IMPORTANT]
 >
->實體關係圖表是進行中的工作，因此僅供參考，且可能會變更。
+>實體關係圖表正在進行中。 因此，其僅供參考，且隨時可能變更。
 
 ## 日期型別
 
 有許多日期物件可提供特定事件發生時間的相關資訊。
 
 * `DL_LOAD_TIMESTAMP`：此日期會在成功的資料重新整理完成後更新，並包含提供最新記錄版本的重新整理工作開始時的時間戳記。
-* `CALENDAR_DATE`：此日期僅出現在「每日歷史記錄」表格中。 此表格記錄了:59中指定的每個日期在11`CALENDAR_DATE` UTC時的資料外觀。
-* `BEGIN_EFFECTIVE_TIMESTAMP`：此日期同時存在於「事件」和「每日歷史記錄」表格中，且記錄記錄將記錄目前資料列中的值&#x200B;_變更為_&#x200B;的確切時間。
-* `END_EFFECTIVE_TIMESTAMP`：此日期同時存在於「事件」和「每日歷史記錄」表格中，而且記錄記錄將目前資料列中的值&#x200B;_從_&#x200B;變更為其他資料列中的值的確切時間。 若要允許在`BEGIN_EFFECTIVE_TIMESTAMP`和`END_EFFECTIVE_TIMESTAMP`上的查詢之間進行，此值絕不為Null，即使沒有新值也是如此。 在記錄仍有效的情況下（亦即值未變更），`END_EFFECTIVE_TIMESTAMP`的值將為2300-01-01。
+* `CALENDAR_DATE`：此日期僅出現在「每日歷史記錄」檢視中。 「每日歷史記錄」檢視會提供:59中指定之每個日期在11`CALENDAR_DATE` UTC時資料外觀的記錄。
+* `BEGIN_EFFECTIVE_TIMESTAMP`：此日期同時存在於「事件」和「每日歷史記錄」檢視中，代表記錄成為應用程式中目前值的時間。
+* `END_EFFECTIVE_TIMESTAMP`：此日期同時出現在「事件」和「每日歷史記錄」檢視中，而且記錄記錄從目前資料列中的&#x200B;_從_&#x200B;值變更為其他資料列中的值的確切時間。 若要允許在`BEGIN_EFFECTIVE_TIMESTAMP`和`END_EFFECTIVE_TIMESTAMP`上的查詢之間進行，此值絕不為Null，即使沒有新值也是如此。 在記錄仍有效的情況下（亦即值未變更），`END_EFFECTIVE_TIMESTAMP`的值將為2300-01-01。
 
 ## 術語表
 
-下表將Workfront中的物件名稱（及其在介面和API中的名稱）與其在Data Connect中的對等名稱建立關聯。
+下表將Workfront中的物件名稱（以及其在介面和API中的名稱）與其在Data Connect中的對等名稱建立關聯，並包含每個物件與其他Workfront物件的參考欄位。
+
+>[!NOTE]
+>
+>新欄位可新增至物件檢視，恕不另行通知，以支援Workfront應用程式不斷變化的資料需求。 當下游資料收件者未準備好在新增資料行時處理其他資料行時，請謹慎使用「SELECT」查詢。<br>
+>>如果需要重新命名或移除欄，我們會提供這些變更的預先通知。
 
 ### 存取層級
 
@@ -70,7 +75,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -138,7 +143,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -208,7 +213,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -277,7 +282,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -335,7 +340,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -387,7 +392,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -499,7 +504,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -554,6 +559,12 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
              <td>CLASSIFIER_CURRENT</td>
              <td>CLASSIFIERID</td>
         </tr>
+      <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
         <tr>
              <td>OPTASKID</td>
              <td>FK</td>
@@ -600,7 +611,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -723,7 +734,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -781,7 +792,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -851,7 +862,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -969,7 +980,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -1044,7 +1055,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -1150,7 +1161,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -1220,7 +1231,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -1278,7 +1289,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -1342,7 +1353,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -1406,7 +1417,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -1470,7 +1481,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -1546,7 +1557,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -1592,7 +1603,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -1667,7 +1678,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -1831,7 +1842,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -1903,7 +1914,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -1974,7 +1985,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -2035,7 +2046,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -2130,7 +2141,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -2248,7 +2259,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -2294,7 +2305,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -2352,7 +2363,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -2398,7 +2409,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -2495,7 +2506,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -2553,7 +2564,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -2671,7 +2682,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -2728,7 +2739,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -2808,24 +2819,24 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
     </tbody>
 </table>
 
-### 時數
+### Hour
 
 <table>
     <thead>
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-            <td>時數</td>
-            <td>時數</td>
+            <td>Hour</td>
+            <td>Hour</td>
             <td>HOUR</td>
-            <td>時數</td>
+            <td>Hour</td>
             <td>HOURS_CURRENT<br>HOURS_DAILY_HISTORY<br>HOURS_EVENT</td>
         </tr>
       </tbody>
@@ -2955,7 +2966,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -3012,7 +3023,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -3088,7 +3099,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -3274,7 +3285,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -3343,7 +3354,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -3401,7 +3412,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -3459,7 +3470,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -3535,7 +3546,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -3611,7 +3622,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -3675,7 +3686,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -3882,7 +3893,6 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         </tr>
 
 
-    &lt;/tbody>
 </table>
 
 ### 物件整合
@@ -3892,7 +3902,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -3941,7 +3951,6 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
              <td colspan="2">不是關係；用於內部應用程式用途</td>
         </tr>
 
-    &lt;/tbody>
 </table>
 
 ### 物件類別
@@ -3951,7 +3960,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -4009,7 +4018,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -4196,7 +4205,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -4253,7 +4262,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -4305,7 +4314,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -4357,7 +4366,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -4365,9 +4374,9 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
       <tbody>
         <tr>
             <td>入口網站區段</td>
-            <td>報告</td>
+            <td>報表</td>
             <td>PTLSEC</td>
-            <td>報告</td>
+            <td>報表</td>
             <td>PORTALSECTIONS_CURRENT<br>PORTALSECTIONS_DAILY_HISTORY<br>PORTALSECTIONS_EVENT</td>
         </tr>
       </tbody>
@@ -4479,7 +4488,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -4487,9 +4496,9 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
       <tbody>
         <tr>
             <td>入口網站頁簽</td>
-            <td>儀表板</td>
+            <td>控制面板</td>
             <td>PTLTAB</td>
-            <td>儀表板</td>
+            <td>控制面板</td>
             <td>PORTALTABLES_CURRENT<br>PORTALTABLES_DAILY_HISTORY<br>PORTALTABLES_EVENT</td>
         </tr>
       </tbody>
@@ -4547,7 +4556,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -4621,7 +4630,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -4672,24 +4681,24 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
     </tbody>
 </table>
 
-### 專案組合
+### 產品組合
 
 <table>
     <thead>
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-            <td>專案組合</td>
-            <td>專案組合</td>
+            <td>產品組合</td>
+            <td>產品組合</td>
             <td>連線埠</td>
-            <td>專案組合</td>
+            <td>產品組合</td>
             <td>PORTFOLIOS_CURRENT<br>PORTFOLIOS_DAILY_HISTORY<br>PORTFOLIOS_EVENT</td>
         </tr>
       </tbody>
@@ -4760,7 +4769,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -4811,7 +4820,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -4893,7 +4902,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -5109,7 +5118,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -5172,7 +5181,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -5236,7 +5245,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -5303,7 +5312,6 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
              <td colspan="2">不是關係；用於內部應用程式用途</td>
         </tr>
 
-    &lt;/tbody>
 </table>
 
 ### 報告資料夾
@@ -5313,7 +5321,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -5359,7 +5367,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -5411,7 +5419,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -5475,7 +5483,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -5533,7 +5541,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -5597,7 +5605,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -5655,7 +5663,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -5701,7 +5709,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -5752,7 +5760,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -5834,7 +5842,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -5880,7 +5888,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -5949,7 +5957,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -6006,6 +6014,178 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
     </tbody>
 </table>
 
+### 人員配置計劃
+
+有限的客戶可用性
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API 參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>人員配置計劃</td>
+            <td>人員配置計劃</td>
+            <td>員工</td>
+            <td>人員配置計劃</td>
+            <td>EMPLOYEING_PLAN_CURRENT<br>EMPLOYEING_PLAN_DAILY_HISTORY<br>EMPLOYEING_PLAN_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ATTACHEDRATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID</td>
+        </tr>
+        <tr>
+             <td>類別ID</td>
+             <td>FK</td>
+             <td>CATEGORY_CURRENT </td>
+             <td>類別ID</td>
+        </tr>
+        <tr>
+             <td>COMPANYID</td>
+             <td>FK</td>
+             <td>公司_目前</td>
+             <td>COMPANYID</td>
+        </tr>        
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>群組_目前</td>
+             <td>GROUPID</td>
+        </tr>        
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>        
+        <tr>
+             <td>OWNERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>       
+         <tr>
+             <td>PRIVATERATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID
+</td>
+        </tr>        
+        <tr>
+             <td>SCHEDULEID</td>
+             <td>FK</td>
+             <td>SCHEDULES_CURRENT</td>
+             <td>SCHEDULEID
+</td>
+        </tr>        
+        <tr>
+             <td>STAFFINGPLANID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### 人員配置計劃資源
+
+有限的客戶可用性
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API 參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>人員配置計劃資源</td>
+            <td>人員配置計劃資源</td>
+            <td>員工</td>
+            <td>人員配置計劃資源</td>
+            <td>EMPLOYEING_PLAN_RESOURCE_CURRENT<br>EMPLOYEING_PLAN_RESOURCE_DAILY_HISTORY<br>EMPLOYEING_PLAN_RESOURCE_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ASSIGNEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>ASSIGNEDTOID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+        <tr>
+             <td>類別ID</td>
+             <td>FK</td>
+             <td>CATEGORY_CURRENT</td>
+             <td>類別ID</td>
+        </tr>        
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>        
+        <tr>
+             <td>角色ID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>角色ID</td>
+        </tr>        
+        <tr>
+             <td>STAFFINGPLANID</td>
+             <td>FK</td>
+             <td>CAPLOYING_PLAN_CURRENT</td>
+             <td>STAFFINGPLANID</td>
+        </tr>       
+         <tr>
+             <td>STAFFINGPLANRESOURCEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>        
+    </tbody>
+</table>
+
 ### 步驟核准者
 
 <table>
@@ -6013,7 +6193,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -6083,7 +6263,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -6277,7 +6457,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -6335,7 +6515,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -6428,7 +6608,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -6486,7 +6666,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -6550,7 +6730,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -6684,7 +6864,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -6777,7 +6957,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -6905,7 +7085,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -6956,6 +7136,146 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
     </tbody>
 </table>
 
+### 時間分段KPI合併
+
+有限的客戶可用性
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API 參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>時間分段KPI合併</td>
+            <td>時程化 KPI</td>
+            <td>TMPH</td>
+            <td>TimePhasedKPI</td>
+            <td>TIMEPHASED_COMBINED_CURRENT<br>TIMEPHASED_COMBINED_DAILY_HISTORY<br>TIMEPHASED_COMBINED_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ASSIGNMENTID</td>
+             <td>FK</td>
+             <td>指定任務_目前</td>
+             <td>ASSIGNMENTID</td>
+        </tr>
+                <tr>
+             <td>EVENT_ID    </td>
+             <td>PK</td>
+             <td>這是時間階段KPI專案的自然索引鍵</td>
+             <td>-</td>
+        </tr>
+                        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>群組_目前</td>
+             <td>GROUPID</td>
+        </tr>
+                        <tr>
+             <td>位置ID</td>
+             <td>FK</td>
+             <td>CLASSIFIER_CURRENT</td>
+             <td>CLASSIFIERID</td>
+        </tr>
+                        <tr>
+             <td>METADATAID</td>
+             <td>FK</td>
+             <td>未提供中繼資料表格</td>
+             <td>-</td>
+        </tr>
+                        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+                        <tr>
+             <td>PORTFOLIOID</td>
+             <td>FK</td>
+             <td>產品組合_目前</td>
+             <td>PORTFOLIOID</td>
+        </tr>
+                        <tr>
+             <td>PROGRAMID</td>
+             <td>FK</td>
+             <td>程式_目前</td>
+             <td>PROGRAMID</td>
+        </tr>
+                        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>專案目前</td>
+             <td>PROJECTID</td>
+        </tr>
+                        <tr>
+             <td>REFERENCEID</td>
+             <td>FK</td>
+             <td>變數，根據OBJCODE</td>
+             <td>物件（在OBJCODE欄位中識別）的主鍵/ID
+</td>
+        </tr>
+                        <tr>
+             <td>角色ID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>角色ID</td>
+        </tr>
+                        <tr>
+             <td>SCHEMAID</td>
+             <td>FK</td>
+             <td>未提供SCHEMA表格；此表格中的值提供在SCHEMANAME欄中。 SCHEMANAME會識別記錄所連線的KPI （例如plannedHours、estimatedHours和actualHours）。</td>
+             <td>-</td>
+        </tr>
+                                <tr>
+             <td>SOURCETASKID</td>
+             <td>FK</td>
+             <td>任務_目前</td>
+             <td>TASKID</td>
+        </tr>
+                                <tr>
+             <td>STAFFINGPLANID</td>
+             <td>FK</td>
+             <td>CAPLOYING_PLAN_CURRENT</td>
+             <td>STAFFINGPLANID</td>
+        </tr>
+                                <tr>
+             <td>STAFFINGPLANRESOURCEID</td>
+             <td>FK</td>
+             <td>EMPLOYEING_PLAN_RESOURCE_CURRENT</td>
+             <td>STAFFINGPLANRESOURCEID</td>
+        </tr>
+                                <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>任務_目前</td>
+             <td>TASKID</td>
+        </tr>
+                                <tr>
+             <td>使用者ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+    </tbody>
+</table>
+
 ### 時程式KPI貨幣
 
 有限的客戶可用性
@@ -6965,7 +7285,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -7008,6 +7328,12 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
              <td>CLASSIFIER_CURRENT</td>
              <td>CLASSIFIERID</td>
         </tr>
+                <tr>
+             <td>METADATAID</td>
+             <td>FK</td>
+             <td>未提供中繼資料表格</td>
+             <td>-</td>
+        </tr>
         <tr>
              <td>OPTASKID</td>
              <td>FK</td>
@@ -7047,7 +7373,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
              <td>SCHEMAID</td>
              <td>FK</td>
-             <td>即將新增</td>
+             <td>未提供SCHEMA表格；此表格中的值提供在SCHEMANAME欄中。 SCHEMANAME會識別記錄所連線的KPI （例如plannedRevenueRate、plannedCostRate、actualRevenue等）。</td>
              <td>SCHEMAID</td>
         </tr>
         <tr>
@@ -7055,6 +7381,18 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
              <td>FK</td>
              <td>任務_目前</td>
              <td>TASKID</td>
+        </tr>
+                <tr>
+             <td>STAFFINGPLANID</td>
+             <td>FK</td>
+             <td>CAPLOYING_PLAN_CURRENT</td>
+             <td>STAFFINGPLANID</td>
+        </tr>
+          <tr>
+             <td>STAFFINGPLANRESOURCEID</td>
+             <td>FK</td>
+             <td>EMPLOYEING_PLAN_RESOURCE_CURRENT</td>
+             <td>STAFFINGPLANRESOURCEID</td>
         </tr>
         <tr>
              <td>SYSID</td>
@@ -7091,7 +7429,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -7134,6 +7472,12 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
              <td>CLASSIFIER_CURRENT</td>
              <td>CLASSIFIERID</td>
         </tr>
+                <tr>
+             <td>METADATAID</td>
+             <td>FK</td>
+             <td>未提供中繼資料表格</td>
+             <td>-</td>
+        </tr>
         <tr>
              <td>OPTASKID</td>
              <td>FK</td>
@@ -7173,7 +7517,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
              <td>SCHEMAID</td>
              <td>FK</td>
-             <td>即將新增</td>
+             <td>未提供SCHEMA表格；此表格中的值提供在SCHEMANAME欄中。 SCHEMANAME會識別記錄所連線的KPI （例如plannedHours、estimatedHours和actualHours）。</td>
              <td>SCHEMAID</td>
         </tr>
         <tr>
@@ -7181,6 +7525,18 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
              <td>FK</td>
              <td>任務_目前</td>
              <td>TASKID</td>
+        </tr>
+                <tr>
+             <td>STAFFINGPLANID </td>
+             <td>FK</td>
+             <td>CAPLOYING_PLAN_CURRENT</td>
+             <td>STAFFINGPLANID</td>
+        </tr>
+           <tr>
+             <td>STAFFINGPLANRESOURCEID</td>
+             <td>FK</td>
+             <td>EMPLOYEING_PLAN_RESOURCE_CURRENT</td>
+             <td>STAFFINGPLANRESOURCEID</td>
         </tr>
         <tr>
              <td>SYSID</td>
@@ -7208,6 +7564,151 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
     </tbody>
 </table>
 
+### 時程式KPI數字
+
+有限的客戶可用性
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront實體名稱</th>
+            <th>介面參考</th>
+            <th>API 參考</th>
+            <th>API標籤</th>
+            <th>資料湖檢視</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>時程式KPI數字</td>
+            <td>時程化 KPI</td>
+            <td>TMPH</td>
+            <td>TimePhasedKPI</td>
+            <td>TIMEPHASED_NUMBERS_CURRENT<br>TIMEPHASED_NUMBERS_DAILY_HISTORY<br>TIMEPHASED_NUMBERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主要/外部索引鍵</th>
+            <th>類型</th>
+            <th>相關表格</th>
+            <th>相關欄位</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ASSIGNMENTID</td>
+             <td>FK</td>
+             <td>指定任務_目前</td>
+             <td>ASSIGNMENTID</td>
+        </tr>
+        <tr>
+             <td>EVENT_ID</td>
+             <td>PK</td>
+             <td>這是時間階段KPI專案的自然索引鍵</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>群組_目前</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>位置ID</td>
+             <td>FK</td>
+             <td>CLASSIFIER_CURRENT</td>
+             <td>CLASSIFIERID</td>
+        </tr>
+        <tr>
+             <td>METADATAID</td>
+             <td>FK</td>
+             <td>未提供中繼資料表格</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>PORTFOLIOID</td>
+             <td>FK</td>
+             <td>產品組合_目前</td>
+             <td>PORTFOLIOID</td>
+        </tr>
+                <tr>
+             <td>PROGRAMID</td>
+             <td>FK</td>
+             <td>程式_目前</td>
+             <td>PROGRAMID</td>
+        </tr>
+                <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>專案目前</td>
+             <td>PROJECTID</td>
+        </tr>
+                <tr>
+             <td>REFERENCEID</td>
+             <td>FK</td>
+             <td>變數，根據OBJCODE</td>
+             <td>物件（在OBJCODE欄位中識別）的主鍵/ID</td>
+        </tr>
+                <tr>
+             <td>角色ID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>角色ID</td>
+        </tr>
+                <tr>
+             <td>SCHEMAID</td>
+             <td>FK</td>
+             <td>未提供SCHEMA表格；此表格中的值提供在SCHEMANAME欄中。 SCHEMANAME會識別記錄所連線的KPI （例如plannedHours、estimatedHours和actualHours）。</td>
+             <td>-</td>
+        </tr>
+                <tr>
+             <td>SOURCETASKID</td>
+             <td>FK</td>
+             <td>任務_目前</td>
+             <td>TASKID</td>
+        </tr>
+                <tr>
+             <td>STAFFINGPLANID</td>
+             <td>FK</td>
+             <td>CAPLOYING_PLAN_CURRENT</td>
+             <td>STAFFINGPLANID</td>
+        </tr>
+                <tr>
+             <td>STAFFINGPLANRESOURCEID</td>
+             <td>FK</td>
+             <td>EMPLOYEING_PLAN_RESOURCE_CURRENT</td>
+             <td>STAFFINGPLANRESOURCEID</td>
+        </tr>
+                <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>任務_目前</td>
+             <td>TASKID</td>
+        </tr>
+                <tr>
+             <td>TIMEPHASEDNUMBERSID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+                <tr>
+             <td>使用者ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>使用者ID</td>
+        </tr>
+    </tbody>
+</table>
+
 ### 時程表
 
 <table>
@@ -7215,7 +7716,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -7291,7 +7792,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -7355,7 +7856,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -7430,7 +7931,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -7505,7 +8006,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -7569,7 +8070,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -7644,7 +8145,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -7823,7 +8324,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -7881,7 +8382,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -7939,7 +8440,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -7997,7 +8498,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -8061,7 +8562,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -8113,7 +8614,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -8171,7 +8672,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
@@ -8223,7 +8724,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         <tr>
             <th>Workfront實體名稱</th>
             <th>介面參考</th>
-            <th>API參考</th>
+            <th>API 參考</th>
             <th>API標籤</th>
             <th>資料湖檢視</th>
         </tr>
