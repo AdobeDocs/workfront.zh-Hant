@@ -6,7 +6,7 @@ description: 您可以編輯專案範本，以反映未來專案的程式與設�
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
+source-git-commit: ea0ae13abe9373bef7a1d146ca1951c8c383f994
 workflow-type: tm+mt
 source-wordcount: '5674'
 ht-degree: 2%
@@ -162,65 +162,65 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    <p>您可以從範本標題停用範本，如本文的「啟動或停用範本」一節中所述。</p></td> 
      </tr>
 
-<tr> 
-<td role="rowheader"><strong>狀況類型</strong></td> 
-   <td><p>在下列條件型別之間選取：</p> 
-   <ul> 
-   <li><strong>手動：</strong>專案所有者手動設定專案上的專案狀態。 <strong></strong></li> 
-   <li><strong>進度狀態：</strong> Workfront會根據關鍵路徑上任務的進度狀態，自動設定未來專案的條件。 如需瞭解進度狀態的詳細資訊，請參閱<a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">任務進度狀態概觀</a>。</li> 
-   </ul>
-   </td> 
-   </tr> 
    <tr> 
-   <td role="rowheader"><strong>排程模式</strong></td> 
-   <td><p>指定使用此範本的專案是從<strong>開始日期</strong>排程，還是從<strong>完成日期</strong>排程。 此選取範圍會決定使用此範本之專案中未來任務的計畫日期。 </p><p>從下列選項中選取： </p> 
-   <ul> 
-   <li><p><strong>從開始日期排程</strong>：範本的開始日期實際上是開始日期。 當您從「開始日期」排程範本時，Adobe Workfront會根據所有範本工作的「持續時間」計算範本的「完成日期」。 範本的開始日期成為未來專案的規劃開始日期。</p></li> 
-   <li><p><strong>從完成日期排程</strong>：範本的完成日期實際上是完成日期。 當您從「完成日期」排程範本時，Workfront會根據所有範本任務的持續時間計算範本的「開始日期」。 範本的「完成日」成為未來專案的「計畫完成日」。 </p></li> 
-   </ul><p>如需範本任務開始與完成天數的詳細資訊，請參閱<a href="../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md" class="MCXref xref">範本中開始與完成天數的概述</a>。 </p><p>範本的「排程起始日期」設定與專案的設定類似。 您的Workfront管理員會為您的系統中的專案選取預設的「排程起始日期」設定。 如需有關設定專案預設值的資訊，請參閱<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">設定全系統的專案偏好設定</a>。</p></td> 
-   </tr>
+   <td role="rowheader"><strong>狀況類型</strong></td> 
+      <td><p>在下列條件型別之間選取：</p> 
+      <ul> 
+      <li><strong>手動：</strong>專案所有者手動設定專案上的專案狀態。 <strong></strong></li> 
+      <li><strong>進度狀態：</strong> Workfront會根據關鍵路徑上任務的進度狀態，自動設定未來專案的條件。 如需瞭解進度狀態的詳細資訊，請參閱<a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">任務進度狀態概觀</a>。</li> 
+      </ul>
+      </td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>排程模式</strong></td> 
+      <td><p>指定使用此範本的專案是從<strong>開始日期</strong>排程，還是從<strong>完成日期</strong>排程。 此選取範圍會決定使用此範本之專案中未來任務的計畫日期。 </p><p>從下列選項中選取： </p> 
+      <ul> 
+      <li><p><strong>從開始日期排程</strong>：範本的開始日期實際上是開始日期。 當您從「開始日期」排程範本時，Adobe Workfront會根據所有範本工作的「持續時間」計算範本的「完成日期」。 範本的開始日期成為未來專案的規劃開始日期。</p></li> 
+      <li><p><strong>從完成日期排程</strong>：範本的完成日期實際上是完成日期。 當您從「完成日期」排程範本時，Workfront會根據所有範本任務的持續時間計算範本的「開始日期」。 範本的「完成日」成為未來專案的「計畫完成日」。 </p></li> 
+      </ul><p>如需範本任務開始與完成天數的詳細資訊，請參閱<a href="../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md" class="MCXref xref">範本中開始與完成天數的概述</a>。 </p><p>範本的「排程起始日期」設定與專案的設定類似。 您的Workfront管理員會為您的系統中的專案選取預設的「排程起始日期」設定。 如需有關設定專案預設值的資訊，請參閱<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">設定全系統的專案偏好設定</a>。</p></td> 
+      </tr>
 
-<tr> 
-   <td role="rowheader"><strong>產品組合</strong></td> 
-   <td><p>針對從此範本建立的專案指定Portfolio。 您必須先建立Portfolio，才能讓其出現在下拉式清單中。 </p><p>只有作用中的投資組合會顯示在清單中。 如需關於建立投資組合的詳細資訊，請參閱<a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">建立投資組合</a>。</p></td> 
-   </tr> 
    <tr> 
-   <td role="rowheader"><strong>方案</strong></td> 
-   <td><p>如果您為範本選取Portfolio，請為未來的專案指定<strong>方案</strong>。 部分投資組合可能沒有計畫。 您必須先建立程式，它才會顯示在此下拉式清單中。 清單中只會顯示使用中的程式。</p><p>如需建立程式的詳細資訊，請參閱<a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">建立程式</a>。</p></td> 
-   </tr>  
-   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-   <td role="rowheader"><strong>群組</strong></td> 
-   <td><p>在下拉式清單中，選取要與從範本建立的專案相關聯的群組。 可以是任何層級的群組。 </p><p>您可以暫留在正確的群組上，並按一下旁邊顯示的資訊圖示<img src="assets/info-icon.png">，確定您選取的群組正確。 這會顯示工具提示，列出群組的相關資訊，例如群組及其管理員上方的群組階層。</p> <p><b>附註</b>
+      <td role="rowheader"><strong>產品組合</strong></td> 
+      <td><p>針對從此範本建立的專案指定Portfolio。 您必須先建立Portfolio，才能讓其出現在下拉式清單中。 </p><p>只有作用中的投資組合會顯示在清單中。 如需關於建立投資組合的詳細資訊，請參閱<a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">建立投資組合</a>。</p></td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>方案</strong></td> 
+      <td><p>如果您為範本選取Portfolio，請為未來的專案指定<strong>方案</strong>。 部分投資組合可能沒有計畫。 您必須先建立程式，它才會顯示在此下拉式清單中。 清單中只會顯示使用中的程式。</p><p>如需建立程式的詳細資訊，請參閱<a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">建立程式</a>。</p></td> 
+      </tr>  
+      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+      <td role="rowheader"><strong>群組</strong></td> 
+      <td><p>在下拉式清單中，選取要與從範本建立的專案相關聯的群組。 可以是任何層級的群組。 </p><p>您可以暫留在正確的群組上，並按一下旁邊顯示的資訊圖示<img src="assets/info-icon.png">，確定您選取的群組正確。 這會顯示工具提示，列出群組的相關資訊，例如群組及其管理員上方的群組階層。</p> <p><b>附註</b>
 
-<ul> 
-   <li><p>在群組頁面的「專案」區域中，當有人使用未選取群組的範本建立專案時，系統會建立目前開啟的群組與專案之間的關聯。</p><p>這與當使用者使用未選取群組的範本建立專案時，系統將使用者的「主群組」與專案關聯的其他區域不同。</p></li> 
-   <li><p>如果使用者在建立專案時或在將任務或問題轉換為專案時選取已選取群組的範本，則使用者可以為專案選擇不同的群組。</p></li> 
-   <li>雖然此欄位僅在新的Adobe Workfront體驗中可在範本中使用，但您可在範本中的清單與報表以及Adobe Workfront Classic中檢視。 </li> 
-   </ul> </p></td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader"><strong>公司</strong></td> 
-   <td><p>指定您要與範本建立關聯的公司。 清單中只會顯示作用中的公司。</p></td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader"><strong>範本所有者</strong></td> 
-   <td><p>指定為範本擁有者的使用者必須是Workfront作用中使用者。 </p><p>請考量下列有關指定為「範本擁有者」的使用者： </p> 
    <ul> 
-   <li>系統會自動授予使用者範本的管理許可權。 </li> 
-   <li>他們會被新增至專案團隊，並自動獲得從範本建立的專案的管理許可權。 </li> 
-   <li>從此範本建立專案時，他們就會成為專案所有者。 </li> 
-   <li> 如果指定為範本擁有者的使用者從存取層級對範本或專案具有有限的存取權，則其範本和專案的管理許可權將受到限制。 例如，如果他們只有其存取層級中的範本或專案的檢視存取權，當他們被指定為範本擁有者時，他們將會自動獲得範本和專案的檢視許可權。</li>
-   </ul></td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader"><strong>範本贊助者</strong></td> 
-   <td><p>將範本新增至專案時，此欄位中指定的使用者會成為專案贊助者。 此使用者會新增至專案團隊，並自動獲得專案的檢視許可權。 被指定為範本贊助者的使用者必須是Workfront作用中使用者。 </p></td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader"><strong>資源管理員</strong></td> 
-   <td><p>指定的使用者會自動獲得管理未來專案的許可權，並且可以指派資源給專案的任務和問題。 您可以指定一個以上的Resource Manager。 </p></td> 
-   </tr> 
-</table>
+      <li><p>在群組頁面的「專案」區域中，當有人使用未選取群組的範本建立專案時，系統會建立目前開啟的群組與專案之間的關聯。</p><p>這與當使用者使用未選取群組的範本建立專案時，系統將使用者的「主群組」與專案關聯的其他區域不同。</p></li> 
+      <li><p>如果使用者在建立專案時或在將任務或問題轉換為專案時選取已選取群組的範本，則使用者可以為專案選擇不同的群組。</p></li> 
+      <li>雖然此欄位僅在新的Adobe Workfront體驗中可在範本中使用，但您可在範本中的清單與報表以及Adobe Workfront Classic中檢視。 </li> 
+      </ul> </p></td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>公司</strong></td> 
+      <td><p>指定您要與範本建立關聯的公司。 清單中只會顯示作用中的公司。</p></td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>範本所有者</strong></td> 
+      <td><p>指定為範本擁有者的使用者必須是Workfront作用中使用者。 </p><p>請考量下列有關指定為「範本擁有者」的使用者： </p> 
+      <ul> 
+      <li>系統會自動授予使用者範本的管理許可權。 </li> 
+      <li>他們會被新增至專案團隊，並自動獲得從範本建立的專案的管理許可權。 </li> 
+      <li>從此範本建立專案時，他們就會成為專案所有者。 </li> 
+      <li> 如果指定為範本擁有者的使用者從存取層級對範本或專案具有有限的存取權，則其範本和專案的管理許可權將受到限制。 例如，如果他們只有其存取層級中的範本或專案的檢視存取權，當他們被指定為範本擁有者時，他們將會自動獲得範本和專案的檢視許可權。</li>
+      </ul></td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>範本贊助者</strong></td> 
+      <td><p>將範本新增至專案時，此欄位中指定的使用者會成為專案贊助者。 此使用者會新增至專案團隊，並自動獲得專案的檢視許可權。 被指定為範本贊助者的使用者必須是Workfront作用中使用者。 </p></td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>資源管理員</strong></td> 
+      <td><p>指定的使用者會自動獲得管理未來專案的許可權，並且可以指派資源給專案的任務和問題。 您可以指定一個以上的Resource Manager。 </p></td> 
+      </tr> 
+      </table>
 
 1. （選擇性）根據您要修改的資訊，繼續編輯下列區段。
 
@@ -260,72 +260,72 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
        <td role="rowheader"><strong>URL</strong></td> 
          <td>指定與此範本相關資訊的網頁連結。</td> 
        </tr>
-   <tr> 
+      <tr> 
       <td role="rowheader"><strong>為作用中</strong></td> 
       <td><p>如果您希望範本為作用中範本，請開啟此選項。 其他使用者可在建立專案時找到此範本並將其附加至專案。 如果您要停用不再使用的範本，請關閉選項。 無法將已停用的範本附加到專案。 這預設為啟用。 </p><p><b>秘訣</b></p>
 
    <p>您可以從範本標題停用範本，如本文的「啟動或停用範本」一節中所述。</p></td> 
      </tr>
 
-<tr> 
-<td role="rowheader"><strong>狀況類型</strong></td> 
-   <td><p>在下列條件型別之間選取：</p> 
-   <ul> 
-   <li><strong>手動：</strong>專案所有者手動設定專案上的專案狀態。 <strong></strong></li> 
-   <li><strong>進度狀態：</strong> Workfront會根據關鍵路徑上任務的進度狀態，自動設定未來專案的條件。 如需瞭解進度狀態的詳細資訊，請參閱<a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">任務進度狀態概觀</a>。</li> 
-   </ul>
-   </td> 
-   </tr> 
    <tr> 
-   <td role="rowheader"><strong>排程模式</strong></td> 
-   <td><p>指定使用此範本的專案是從<strong>開始日期</strong>排程，還是從<strong>完成日期</strong>排程。 此選取範圍會決定使用此範本之專案中未來任務的計畫日期。 </p><p>從下列選項中選取： </p> 
-   <ul> 
-   <li><p><strong>從開始日期排程</strong>：範本的開始日期實際上是開始日期。 當您從「開始日期」排程範本時，Adobe Workfront會根據所有範本工作的「持續時間」計算範本的「完成日期」。 範本的開始日期成為未來專案的規劃開始日期。</p></li> 
-   <li><p><strong>從完成日期排程</strong>：範本的完成日期實際上是完成日期。 當您從「完成日期」排程範本時，Workfront會根據所有範本任務的持續時間計算範本的「開始日期」。 範本的「完成日」成為未來專案的「計畫完成日」。 </p></li> 
-   </ul><p>如需範本任務開始與完成天數的詳細資訊，請參閱<a href="../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md" class="MCXref xref">範本中開始與完成天數的概述</a>。 </p><p>範本的「排程起始日期」設定與專案的設定類似。 您的Workfront管理員會為您的系統中的專案選取預設的「排程起始日期」設定。 如需有關設定專案預設值的資訊，請參閱<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">設定全系統的專案偏好設定</a>。</p></td> 
-   </tr>
+      <td role="rowheader"><strong>狀況類型</strong></td> 
+      <td><p>在下列條件型別之間選取：</p> 
+      <ul> 
+      <li><strong>手動：</strong>專案所有者手動設定專案上的專案狀態。 <strong></strong></li> 
+      <li><strong>進度狀態：</strong> Workfront會根據關鍵路徑上任務的進度狀態，自動設定未來專案的條件。 如需瞭解進度狀態的詳細資訊，請參閱<a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">任務進度狀態概觀</a>。</li> 
+      </ul>
+      </td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>排程模式</strong></td> 
+      <td><p>指定使用此範本的專案是從<strong>開始日期</strong>排程，還是從<strong>完成日期</strong>排程。 此選取範圍會決定使用此範本之專案中未來任務的計畫日期。 </p><p>從下列選項中選取： </p> 
+      <ul> 
+      <li><p><strong>從開始日期排程</strong>：範本的開始日期實際上是開始日期。 當您從「開始日期」排程範本時，Adobe Workfront會根據所有範本工作的「持續時間」計算範本的「完成日期」。 範本的開始日期成為未來專案的規劃開始日期。</p></li> 
+      <li><p><strong>從完成日期排程</strong>：範本的完成日期實際上是完成日期。 當您從「完成日期」排程範本時，Workfront會根據所有範本任務的持續時間計算範本的「開始日期」。 範本的「完成日」成為未來專案的「計畫完成日」。 </p></li> 
+      </ul><p>如需範本任務開始與完成天數的詳細資訊，請參閱<a href="../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md" class="MCXref xref">範本中開始與完成天數的概述</a>。 </p><p>範本的「排程起始日期」設定與專案的設定類似。 您的Workfront管理員會為您的系統中的專案選取預設的「排程起始日期」設定。 如需有關設定專案預設值的資訊，請參閱<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">設定全系統的專案偏好設定</a>。</p></td> 
+      </tr>
 
-<tr> 
-   <td role="rowheader"><strong>產品組合</strong></td> 
-   <td><p>針對從此範本建立的專案指定Portfolio。 您必須先建立Portfolio，才能讓其出現在下拉式清單中。 </p><p>只有作用中的投資組合會顯示在清單中。 如需關於建立投資組合的詳細資訊，請參閱<a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">建立投資組合</a>。</p></td> 
-   </tr> 
    <tr> 
-   <td role="rowheader"><strong>方案</strong></td> 
-   <td><p>如果您為範本選取Portfolio，請為未來的專案指定<strong>方案</strong>。 部分投資組合可能沒有計畫。 您必須先建立程式，它才會顯示在此下拉式清單中。 清單中只會顯示使用中的程式。</p><p>如需建立程式的詳細資訊，請參閱<a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">建立程式</a>。</p></td> 
-   </tr>  
-   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-   <td role="rowheader"><strong>群組</strong></td> 
-   <td><p>在下拉式清單中，選取要與從範本建立的專案相關聯的群組。 可以是任何層級的群組。 </p><p>您可以暫留在正確的群組上，並按一下旁邊顯示的資訊圖示<img src="assets/info-icon.png">，確定您選取的群組正確。 這會顯示工具提示，列出群組的相關資訊，例如群組及其管理員上方的群組階層。</p> <p><b>附註</b>
+      <td role="rowheader"><strong>產品組合</strong></td> 
+      <td><p>針對從此範本建立的專案指定Portfolio。 您必須先建立Portfolio，才能讓其出現在下拉式清單中。 </p><p>只有作用中的投資組合會顯示在清單中。 如需關於建立投資組合的詳細資訊，請參閱<a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">建立投資組合</a>。</p></td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>方案</strong></td> 
+      <td><p>如果您為範本選取Portfolio，請為未來的專案指定<strong>方案</strong>。 部分投資組合可能沒有計畫。 您必須先建立程式，它才會顯示在此下拉式清單中。 清單中只會顯示使用中的程式。</p><p>如需建立程式的詳細資訊，請參閱<a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">建立程式</a>。</p></td> 
+      </tr>  
+      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+      <td role="rowheader"><strong>群組</strong></td> 
+      <td><p>在下拉式清單中，選取要與從範本建立的專案相關聯的群組。 可以是任何層級的群組。 </p><p>您可以暫留在正確的群組上，並按一下旁邊顯示的資訊圖示<img src="assets/info-icon.png">，確定您選取的群組正確。 這會顯示工具提示，列出群組的相關資訊，例如群組及其管理員上方的群組階層。</p> <p><b>附註</b>
 
-<ul> 
-   <li><p>在群組頁面的「專案」區域中，當有人使用未選取群組的範本建立專案時，系統會建立目前開啟的群組與專案之間的關聯。</p><p>這與當使用者使用未選取群組的範本建立專案時，系統將使用者的「主群組」與專案關聯的其他區域不同。</p></li> 
-   <li><p>如果使用者在建立專案時或在將任務或問題轉換為專案時選取已選取群組的範本，則使用者可以為專案選擇不同的群組。</p></li> 
-   <li>雖然此欄位僅在新的Adobe Workfront體驗中可在範本中使用，但您可在範本中的清單與報表以及Adobe Workfront Classic中檢視。 </li> 
-   </ul> </p></td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader"><strong>公司</strong></td> 
-   <td><p>指定您要與範本建立關聯的公司。 清單中只會顯示作用中的公司。</p></td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader"><strong>範本所有者</strong></td> 
-   <td><p>指定為範本擁有者的使用者必須是Workfront作用中使用者。 </p><p>請考量下列有關指定為「範本擁有者」的使用者： </p> 
    <ul> 
-   <li>系統會自動授予使用者範本的管理許可權。 </li> 
-   <li>他們會被新增至專案團隊，並自動獲得從範本建立的專案的管理許可權。 </li> 
-   <li>從此範本建立專案時，他們就會成為專案所有者。 </li> 
-   <li> 如果指定為範本擁有者的使用者從存取層級對範本或專案具有有限的存取權，則其範本和專案的管理許可權將受到限制。 例如，如果他們只有其存取層級中的範本或專案的檢視存取權，當他們被指定為範本擁有者時，他們將會自動獲得範本和專案的檢視許可權。</li>
-   </ul></td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader"><strong>範本贊助者</strong></td> 
-   <td><p>將範本新增至專案時，此欄位中指定的使用者會成為專案贊助者。 此使用者會新增至專案團隊，並自動獲得專案的檢視許可權。 被指定為範本贊助者的使用者必須是Workfront作用中使用者。 </p></td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader"><strong>資源管理員</strong></td> 
-   <td><p>指定的使用者會自動獲得管理未來專案的許可權，並且可以指派資源給專案的任務和問題。 您可以指定一個以上的Resource Manager。 </p></td> 
-   </tr> 
-</table>
+      <li><p>在群組頁面的「專案」區域中，當有人使用未選取群組的範本建立專案時，系統會建立目前開啟的群組與專案之間的關聯。</p><p>這與當使用者使用未選取群組的範本建立專案時，系統將使用者的「主群組」與專案關聯的其他區域不同。</p></li> 
+      <li><p>如果使用者在建立專案時或在將任務或問題轉換為專案時選取已選取群組的範本，則使用者可以為專案選擇不同的群組。</p></li> 
+      <li>雖然此欄位僅在新的Adobe Workfront體驗中可在範本中使用，但您可在範本中的清單與報表以及Adobe Workfront Classic中檢視。 </li> 
+      </ul> </p></td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>公司</strong></td> 
+      <td><p>指定您要與範本建立關聯的公司。 清單中只會顯示作用中的公司。</p></td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>範本所有者</strong></td> 
+      <td><p>指定為範本擁有者的使用者必須是Workfront作用中使用者。 </p><p>請考量下列有關指定為「範本擁有者」的使用者： </p> 
+      <ul> 
+      <li>系統會自動授予使用者範本的管理許可權。 </li> 
+      <li>他們會被新增至專案團隊，並自動獲得從範本建立的專案的管理許可權。 </li> 
+      <li>從此範本建立專案時，他們就會成為專案所有者。 </li> 
+      <li> 如果指定為範本擁有者的使用者從存取層級對範本或專案具有有限的存取權，則其範本和專案的管理許可權將受到限制。 例如，如果他們只有其存取層級中的範本或專案的檢視存取權，當他們被指定為範本擁有者時，他們將會自動獲得範本和專案的檢視許可權。</li>
+      </ul></td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>範本贊助者</strong></td> 
+      <td><p>將範本新增至專案時，此欄位中指定的使用者會成為專案贊助者。 此使用者會新增至專案團隊，並自動獲得專案的檢視許可權。 被指定為範本贊助者的使用者必須是Workfront作用中使用者。 </p></td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>資源管理員</strong></td> 
+      <td><p>指定的使用者會自動獲得管理未來專案的許可權，並且可以指派資源給專案的任務和問題。 您可以指定一個以上的Resource Manager。 </p></td> 
+      </tr> 
+      </table>
 
 1. （選擇性）根據您要修改的資訊，繼續編輯下列區段。
 
@@ -352,7 +352,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 1. （選用）更新自訂表單上任何欄位中的資訊。 此資訊將會傳輸至將使用範本建立的專案。
 
-1. （選擇性）按一下自訂表單名稱右邊的&#x200B;**x**&#x200B;圖示，然後按一下[移除]&#x200B;**&#x200B;**&#x200B;以從範本中移除它。
+1. （選擇性）按一下自訂表單名稱右邊的&#x200B;**x**&#x200B;圖示，然後按一下[移除]****&#x200B;以從範本中移除它。
 
 1. （選擇性）根據您要修改的資訊，繼續編輯下列區段。
 
@@ -460,24 +460,24 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
       <td role="rowheader"><strong>此專案需要時間核准</strong></td>
 
    <td><p>選取此選項可要求從此範本建立的專案之未來專案所有者核准登入專案的時間。</p> 
-   <p>如果您使用「計費記錄」並選取此選項，則只有專案中已核准的時數，才會顯示為「計費記錄」的可用計費時數。 </p>
-   <p>核准專案的時間與核準時程表無關。 如需專案需要核准時間的詳細資訊，請參閱<a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">專案需要核准時間</a>。</p>
-   </td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader"><strong>篩選時數型別</strong> </td> 
-   <td> <p>請考量下列事項：</p> <p>選取<strong>否</strong>，讓所有特定專案小時型別都可在未來的專案中使用。 （這是預設選取範圍）</p> <p>或</p> <p>選取<strong>是</strong>，讓未來的專案只能使用專案特定時數型別的子集，然後選取您想要使用的時數型別。 （按住Shift鍵以選取多個小時型別。）</p> <p>如果您選取此選項，則在記錄專案時數（或專案內任務和問題）時，只有您選取的時數型別可供選取。 您必須至少選取一個小時型別；如果您選取此選項而未選取任何小時型別，則專案上將會提供所有小時型別。</p> <p>必須在個別使用者層級做出相同的小時型別選擇，以便使用者在專案上檢視這些小時型別選項。 </p> <p>如需有關在使用者層級定義時數型別的詳細資訊，請參閱<a href="../../../timesheets/create-and-manage-timesheets/log-time.md#understa" class="MCXref xref">記錄時間</a>的<a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">記錄時間</a>小節。</p> </td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader"><strong>提醒通知</strong> </td> 
-   <td>選取應該與未來專案關聯的提醒通知。 您必須為專案設定提醒通知，此欄位才能在編輯範本時顯示。 <br>如需設定提醒通知的詳細資訊，請參閱<a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">設定提醒通知</a>。</td> 
-   </tr>
-   <tr> 
-   <td role="rowheader"><strong>核准流程</strong> </td> 
-   <td> <p>選取您要與範本產生關聯的核准程式。 您的Workfront管理員或具有核准流程管理存取權的使用者必須定義系統層級或群組層級的專案核准流程，您才能將其與範本建立關聯。 如需建立核准流程的詳細資訊，請參閱<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">建立工作專案的核准流程</a>。</p> <p>新增核准程式時，請考量下列事項： </p> 
-   <ul> 
-   <li>清單中只會顯示有效的核准流程。 </li> 
-   <li> <p>系統範圍及群組特定的核准程式會顯示在清單中。 與範本以外的群組相關聯的核准程式不會顯示在清單中。</p> <p><b>重要</b>
+      <p>如果您使用「計費記錄」並選取此選項，則只有專案中已核准的時數，才會顯示為「計費記錄」的可用計費時數。 </p>
+      <p>核准專案的時間與核準時程表無關。 如需專案需要核准時間的詳細資訊，請參閱<a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">專案需要核准時間</a>。</p>
+      </td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>篩選時數型別</strong> </td> 
+      <td> <p>請考量下列事項：</p> <p>選取<strong>否</strong>，讓所有特定專案小時型別都可在未來的專案中使用。 （這是預設選取範圍）</p> <p>或</p> <p>選取<strong>是</strong>，讓未來的專案只能使用專案特定時數型別的子集，然後選取您想要使用的時數型別。 （按住Shift鍵以選取多個小時型別。）</p> <p>如果您選取此選項，則在記錄專案時數（或專案內任務和問題）時，只有您選取的時數型別可供選取。 您必須至少選取一個小時型別；如果您選取此選項而未選取任何小時型別，則專案上將會提供所有小時型別。</p> <p>必須在個別使用者層級做出相同的小時型別選擇，以便使用者在專案上檢視這些小時型別選項。 </p> <p>如需有關在使用者層級定義時數型別的詳細資訊，請參閱<a href="../../../timesheets/create-and-manage-timesheets/log-time.md#understa" class="MCXref xref">記錄時間</a>的<a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">記錄時間</a>小節。</p> </td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>提醒通知</strong> </td> 
+      <td>選取應該與未來專案關聯的提醒通知。 您必須為專案設定提醒通知，此欄位才能在編輯範本時顯示。 <br>如需設定提醒通知的詳細資訊，請參閱<a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">設定提醒通知</a>。</td> 
+      </tr>
+      <tr> 
+      <td role="rowheader"><strong>核准流程</strong> </td> 
+      <td> <p>選取您要與範本產生關聯的核准程式。 您的Workfront管理員或具有核准流程管理存取權的使用者必須定義系統層級或群組層級的專案核准流程，您才能將其與範本建立關聯。 如需建立核准流程的詳細資訊，請參閱<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">建立工作專案的核准流程</a>。</p> <p>新增核准程式時，請考量下列事項： </p> 
+      <ul> 
+      <li>清單中只會顯示有效的核准流程。 </li> 
+      <li> <p>系統範圍及群組特定的核准程式會顯示在清單中。 與範本以外的群組相關聯的核准程式不會顯示在清單中。</p> <p><b>重要</b>
 
    如果與範本關聯的群組變更，群組特定核准流程會變成單一使用核准流程。 如需關於專案群組的變更或核准程式變更如何影響核准設定的詳細資訊，請參閱<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md">群組和核准程式變更如何影響指派的核准程式</a>。 </p> </li>
    <li> <p>如果您新增單次使用的核准程式，在此欄位中顯示為「自訂」。 如需詳細資訊，請參閱<a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">將新的或現有的核准程式與工作建立關聯</a>。 </p> 
@@ -639,7 +639,7 @@ For instructions on editing Linked folders, see [Edit workflow values in a proje
 1. 在&#x200B;**編輯範本**&#x200B;方塊中，按一下&#x200B;**註解**。
 
    ![編輯範本方塊註解區段](assets/edit-template-box-comment-section.png)
-1. 新增您正在進行之更新的相關註解、標籤其他使用者，或選取&#x200B;**我的公司私有**&#x200B;方塊，讓貴公司的使用者無法存取更新，然後按一下[儲存]。**&#x200B;**
+1. 新增您正在進行之更新的相關註解、標籤其他使用者，或選取&#x200B;**我的公司私有**&#x200B;方塊，讓貴公司的使用者無法存取更新，然後按一下[儲存]。****
 
    >[!TIP]
    >

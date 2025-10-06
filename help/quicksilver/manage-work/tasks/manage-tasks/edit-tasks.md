@@ -7,7 +7,7 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
+source-git-commit: ea0ae13abe9373bef7a1d146ca1951c8c383f994
 workflow-type: tm+mt
 source-wordcount: '3829'
 ht-degree: 4%
@@ -633,9 +633,10 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    * 在&#x200B;**標籤人員**&#x200B;區域中新增使用者或團隊至您的更新，或使用@將其納入您的更新。
    * 選取&#x200B;**我的公司私有**&#x200B;核取方塊，將更新保留給公司人員私有。
 
-     >[!TIP]
-     >
-     >**我的公司專用**&#x200B;設定只有在您的Workfront設定檔與公司相關聯時才可用。
+   >[!TIP]
+   >
+   >**我的公司專用**&#x200B;設定只有在您的Workfront設定檔與公司相關聯時才可用。
+
 1. 按一下「**儲存**」。
 
 ## 在任務標題中編輯任務（受限）

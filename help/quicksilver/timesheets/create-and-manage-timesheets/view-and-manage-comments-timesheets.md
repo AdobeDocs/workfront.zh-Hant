@@ -6,7 +6,7 @@ description: 您可以對時程表、時程表中包含的工作專案以及您�
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
+source-git-commit: ea0ae13abe9373bef7a1d146ca1951c8c383f994
 workflow-type: tm+mt
 source-wordcount: '920'
 ht-degree: 0%
@@ -100,6 +100,7 @@ ht-degree: 0%
    >[!TIP]
    >
    >**我的公司專用**&#x200B;設定只有在您的Workfront設定檔與公司相關聯時才可用。
+
 1. 輸入您的註解，然後按一下&#x200B;**提交**。
 
    您的註解會顯示在時程表的[!UICONTROL 更新]區段的[註解]索引標籤中。
@@ -133,7 +134,7 @@ ht-degree: 0%
    執行下列其中一項：
 
    * 輸入新註解並按一下&#x200B;**完成**。
-   * 編輯現有的註解並按一下[完成]&#x200B;**&#x200B;**，或按一下[取消]&#x200B;**以捨棄變更。**
+   * 編輯現有的註解並按一下[完成]****，或按一下[取消]**以捨棄變更。**
    * 按一下&#x200B;**刪除**&#x200B;圖示![刪除圖示](assets/delete.png)以刪除已儲存的註解。
 
      小時輸入方塊的右上角會出現一個藍色標籤，表示有與時間輸入一起記錄的註解。
