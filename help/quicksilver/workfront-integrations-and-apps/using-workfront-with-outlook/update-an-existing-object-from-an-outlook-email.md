@@ -37,7 +37,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[！UICONTROL Work]， [！UICONTROL計畫]</p> </td> 
+   <td> <p>[!UICONTROL Work]， [!UICONTROL 計畫]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -85,4 +85,4 @@ ht-degree: 0%
      ![o365_addin_lock.png](assets/o365-addin-lock.png)
 
 1. 按一下&#x200B;**[!UICONTROL 更新]**。
-1. （選擇性）按一下[在Workfront中檢視&#x200B;****]以檢視[!DNL Workfront]Outlook[!UICONTROL 中與]整合的更新專案。
+1. （選擇性）按一下[在Workfront中檢視&#x200B;**&#x200B;**]以檢視[!DNL Workfront]Outlook[!UICONTROL 中與]整合的更新專案。

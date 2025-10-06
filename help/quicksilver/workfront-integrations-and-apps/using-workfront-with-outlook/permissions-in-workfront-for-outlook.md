@@ -23,7 +23,7 @@ ht-degree: 0%
 
 [!DNL Workfront for Outlook]需要[!DNL Outlook]增益集所允許之四個許可權等級中的最高者。
 
-如需[!DNL Outlook]增益集許可權的相關詳細資訊，請參閱[檔案中的 [!DNL Outlook] ](https://docs.microsoft.com/en-us/office/dev/add-ins/outlook/privacy-and-security)增益集的隱私、許可權和安全性[!DNL Microsoft]。
+如需[!DNL Outlook]增益集許可權的相關詳細資訊，請參閱[檔案中的 [!DNL Outlook] &#x200B;](https://docs.microsoft.com/en-us/office/dev/add-ins/outlook/privacy-and-security)增益集的隱私、許可權和安全性[!DNL Microsoft]。
 
 [!DNL Workfront for Outlook]增益集需要讀取/寫入信箱存取權(`ReadWriteMailbox`)，這是最高的許可權範圍。
 [!DNL Workfront for Outlook]整合需要最高層級的許可權，因為它具有從[!DNL Outlook] Exchange伺服器下載電子郵件附件，並在使用者從具有附件的電子郵件提交請求時將其上傳到[!DNL Workfront]的功能。 為了讓此功能運作，[!DNL Workfront for Outlook]會使用來自`mailbox.getCallbackTokenAsync()`增益集JavaScript API的功能[!DNL Office]來取得Token，並使用該功能從Exchange伺服器下載電子郵件附件。 唯一允許使用該函式的許可權是`ReadWriteMailbox`。 如需詳細資訊，請參閱Microsoft檔案中的[Outlook增益集的隱私、許可權和安全性](https://docs.microsoft.com/en-us/office/dev/add-ins/outlook/privacy-and-security)。
