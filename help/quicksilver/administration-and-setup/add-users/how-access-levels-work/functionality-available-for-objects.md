@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: db9db8d03c8caeef95fb7cf873ee242f29b00efa
+source-git-commit: 82b184e18aa5520eb97aa9ac2f7ac84b251aca58
 workflow-type: tm+mt
 source-wordcount: '1313'
 ht-degree: 14%
@@ -81,7 +81,7 @@ ht-degree: 14%
 | 新增問題 | ✓ | ✓ |   |   |
 | 編輯任務（不包括狀態） | ✓ |   |   |   |
 | 變更任務狀態 | ✓ |   |   |   |
-| 新增文件 | ✓ | ✓ |   |   |
+| 新增文件 | ✓ | ✓ | ✓ |   |
 | 複製任務 | ✓ |   |   |   |
 | 移動任務 | ✓ |   |   |   |
 | 記錄時數 | ✓ | ✓ |   |   |
