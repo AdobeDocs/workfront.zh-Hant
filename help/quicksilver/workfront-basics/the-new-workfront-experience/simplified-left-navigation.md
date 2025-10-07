@@ -44,7 +44,7 @@ WF中的大部分割槽域和物件都使用熒幕左側的簡單導覽面板。
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>[！UICONTROL Request]或更高版本</p> </td> 
+   <td> <p>[!UICONTROL Request]或更高版本</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -75,7 +75,7 @@ WF中的大部分割槽域和物件都使用熒幕左側的簡單導覽面板。
 >[!IMPORTANT]
 >
 >如果左側面板預設只顯示一個區段（例如&#x200B;**[!UICONTROL 專案]**&#x200B;區域中的&#x200B;**[!UICONTROL 所有專案]**），則[!DNL Workfront]管理員在建置配置範本時，必須在此區域中至少新增一個儀表板並指派您給該範本，左側面板才會顯示在該區域中。
->>如需[!DNL Workfront]管理員如何在版面配置範本中自訂左側面板的相關資訊，請參閱[使用版面配置範本自訂左側面板](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)。
+>&#x200B;>如需[!DNL Workfront]管理員如何在版面配置範本中自訂左側面板的相關資訊，請參閱[使用版面配置範本自訂左側面板](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)。
 
 左側面板適用於下列區域：
 
@@ -84,7 +84,7 @@ WF中的大部分割槽域和物件都使用熒幕左側的簡單導覽面板。
 * [[!UICONTROL 資源]區域中的預設區段](#default-sections-in-the-resourcing-area)
 * [[!UICONTROL 專案]區域中的預設區段](#default-sections-in-the-projects-area)
 * [[!UICONTROL 時間表]區域中的預設區段](#default-sections-in-the-timesheets-area)
-* [ [!DNL Goals] 區域中的預設區段](#default-sections-in-the-goals-area)
+* [&#x200B; [!DNL Goals] 區域中的預設區段](#default-sections-in-the-goals-area)
 
 ### [!UICONTROL 儀表板]區域中的預設區段
 
@@ -92,15 +92,15 @@ WF中的大部分割槽域和物件都使用熒幕左側的簡單導覽面板。
 
 <table style="table-layout:auto">
     <tr>
-        <td><strong>[！UICONTROL我的儀表板]</strong></td>
+        <td><strong>[!UICONTROL 我的儀表板]</strong></td>
         <td>顯示您已建置的控制面板。</td>
     </tr>
     <tr>
-        <td><strong>[！UICONTROL共用儀表板]</strong></td>
+        <td><strong>[!UICONTROL 共用儀表板]</strong></td>
         <td>顯示已由其他使用者建立並與您共用的控制面板。</td>
     </tr>
     <tr>
-        <td><strong>[！UICONTROL所有儀表板]</strong></td>
+        <td><strong>[!UICONTROL 所有儀表板]</strong></td>
         <td>顯示您或其他使用者已建立且您至少擁有檢視許可權的控制面板。</td>
     </tr>
 </table>
@@ -111,11 +111,11 @@ WF中的大部分割槽域和物件都使用熒幕左側的簡單導覽面板。
 
 <table style="table-layout:auto">
     <tr>
-        <td><strong>[！UICONTROL已提交]</strong></td>
+        <td><strong>[!UICONTROL 已提交]</strong></td>
         <td>顯示您或其他使用者已提交的請求，以及您至少擁有檢視許可權的請求。 使用請求清單右上角的篩選器來檢視您的請求或其他人已提交的請求，並且您有權檢視。</td>
     </tr>
     <tr>
-        <td><strong>[！UICONTROL草稿]</strong></td>
+        <td><strong>[!UICONTROL 草稿]</strong></td>
         <td>顯示您已啟動但尚未提交的請求。 在您選取佇列主題後，[!DNL Workfront]會自動將任何新請求儲存在[草稿]資料夾中。</td>
     </tr>
 </table>
@@ -135,7 +135,7 @@ WF中的大部分割槽域和物件都使用熒幕左側的簡單導覽面板。
    <td>顯示資源規劃工具。 使用此區域在多個專案中計畫您的資源。 如需有關使用資源規劃工具的資訊，請參閱<a href="../../resource-mgmt/resource-planning/get-started-resource-planning.md" class="MCXref xref">開始使用資源規劃</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[！UICONTROL工作負載平衡器]</strong></td> 
+   <td role="rowheader"><strong>[!UICONTROL 工作負載平衡器]</strong></td> 
    <td>顯示工作負載平衡器。 使用此區域將實際工作指派給您的資源。 <br>
    如需有關使用排程資源的資訊，請參閱<a href="../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md" class="MCXref xref">在工作負載平衡器</a>中指派工作的總覽。</td> 
   </tr> 
@@ -159,12 +159,12 @@ WF中的大部分割槽域和物件都使用熒幕左側的簡單導覽面板。
 
 <table style="table-layout:auto">
     <tr>
-        <td><strong>[！UICONTROL所有專案]</strong></td>
-        <td>顯示您有權檢視的所有專案。 使用[！UICONTROL篩選器]下拉式功能表，變更您要檢視的專案</td>
+        <td><strong>[!UICONTROL 所有專案]</strong></td>
+        <td>顯示您有權檢視的所有專案。 使用[!UICONTROL 篩選器]下拉式功能表，變更您要檢視的專案</td>
     </tr>
     <tr>
-        <td><strong>[！UICONTROL儀表板]</strong></td>
-        <td>您可以檢視您的[!DNL Workfront]管理員新增到版面配置範本中[！UICONTROL專案]區域左側面板的所有儀表板。 這些儀表板的名稱已經為您的環境量身打造。</td>
+        <td><strong>[!UICONTROL 儀表板]</strong></td>
+        <td>您可以檢視您的[!DNL Workfront]管理員新增到版面配置範本中[!UICONTROL 專案]區域左側面板的所有儀表板。 這些儀表板的名稱已經為您的環境量身打造。</td>
     </tr>
 </table>
 
@@ -176,15 +176,15 @@ WF中的大部分割槽域和物件都使用熒幕左側的簡單導覽面板。
 
 <table style="table-layout:auto">
     <tr>
-        <td><strong>[！UICONTROL我的時程表]</strong></td>
-        <td>依預設顯示所有使用中的時間表。 若要顯示已提交或已關閉的時程表，請從[！UICONTROL篩選器]下拉式選單中選取[！UICONTROL已提交]或[！UICONTROL全部]。</td>
+        <td><strong>[!UICONTROL 我的時程表]</strong></td>
+        <td>依預設顯示所有使用中的時間表。 若要顯示已提交或已關閉的時程表，請從[!UICONTROL 篩選器]下拉式選單中選取[!UICONTROL 已提交]或[!UICONTROL 全部]。</td>
     </tr>
     <tr>
-        <td><strong>[！UICONTROL我核准的時程表]</strong></td>
-        <td>依預設顯示已提交供您核准的時程表。 若要顯示您是核准者的作用中或所有時程表，請從「篩選器」下拉式選單中選取[！UICONTROL作用中]或應用程式。</td>
+        <td><strong>[!UICONTROL 我核准的時程表]</strong></td>
+        <td>依預設顯示已提交供您核准的時程表。 若要顯示您是核准者的作用中或所有時程表，請從「篩選器」下拉式選單中選取[!UICONTROL 作用中]或應用程式。</td>
     </tr>
     <tr>
-        <td><strong>[！UICONTROL所有時間表]</strong></td>
+        <td><strong>[!UICONTROL 所有時間表]</strong></td>
         <td>根據在左側篩選區域中選擇的篩選器，顯示您有權檢視的所有時程表。</td>
     </tr>
 </table>
@@ -201,15 +201,15 @@ WF中的大部分割槽域和物件都使用熒幕左側的簡單導覽面板。
 
 <table style="table-layout:auto">
     <tr>
-        <td><strong>[！UICONTROL目標清單]</strong></td>
-        <td>顯示您有權檢視的所有目標。 如需詳細資訊，請參閱<a href="../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md">的[！UICONTROL目標清單]中的[!DNL Adobe Workfront Goals]</a>管理目標。</td>
+        <td><strong>[!UICONTROL 目標清單]</strong></td>
+        <td>顯示您有權檢視的所有目標。 如需詳細資訊，請參閱<a href="../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md">的[!UICONTROL 目標清單]中的[!DNL Adobe Workfront Goals]</a>管理目標。</td>
     </tr>
     <tr>
-        <td><strong>[！UICONTROL圖形]</strong></td>
+        <td><strong>[!UICONTROL 圖形]</strong></td>
         <td>在圖表中顯示目標的效能。 如需詳細資訊，請參閱<a href="../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md">檢閱圖表以瞭解[!DNL Adobe Workfront]目標</a>中的目標進度趨勢。</td>
     </tr>
     <tr>
-        <td><strong>[！UICONTROL目標校準]</strong></td>
+        <td><strong>[!UICONTROL 目標校準]</strong></td>
         <td>顯示階層中目標彼此的對齊方式。 如需詳細資訊，請參閱<a href="../../workfront-goals/goal-alignment/goal-alignment-overview.md">中的[!DNL Adobe Workfront Goals]</a>目標一致性概觀。</td>
     </tr>
     </table>
