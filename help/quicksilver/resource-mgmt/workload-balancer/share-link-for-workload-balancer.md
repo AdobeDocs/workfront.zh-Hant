@@ -6,7 +6,7 @@ description: 您可以與其他可能沒有資源區域可用的使用者共用�
 author: Lisa
 feature: Resource Management
 exl-id: e2d6b1f8-bdc9-4a34-bdc3-b56f7aa2e7a5
-source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 1%
@@ -121,7 +121,7 @@ ht-degree: 1%
 
    * 將篩選器套用至「未指派」和「已指派」工作區域。
 
-     如需有關在工作負載平衡器中篩選資訊的資訊，請參閱在工作負載平衡器[&#128279;](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)中的篩選資訊。
+     如需有關在工作負載平衡器中篩選資訊的資訊，請參閱在工作負載平衡器[中的篩選資訊](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)。
 
 1. 按一下&#x200B;**連結圖示** ![連結圖示](assets/wb-shearable-link-icon-small.png)。
 
@@ -130,10 +130,10 @@ ht-degree: 1%
 1. 執行下列任一項作業，與其他人共用連結：
 
    * 將其貼到電子郵件、聊天訊息或任何其他應用程式中，並與其他使用者共用。
-   * 將其新增到自訂區段作為外部頁面，將自訂區段新增到使用者的設定檔或版面配置範本，然後與使用者、團隊、工作角色或群組共用版面配置範本。
+   * 將其新增到儀表板作為外部頁面，將儀表板新增到使用者的設定檔或版面配置範本，然後與使用者、團隊、工作角色或群組共用版面配置範本。
 
-     如需建立外部頁面的相關資訊，請參閱[將外部網頁內嵌在儀表板中](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md)。 如需將自訂區段新增至版面配置範本的相關資訊，請參閱[使用版面配置範本自訂左側面板](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)。
+     如需有關建立外部頁面的資訊，請參閱[將外部網頁內嵌在儀表板中](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md)。 如需將儀表板新增至版面配置範本的相關資訊，請參閱[使用版面配置範本自訂左側面板](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)。
 
      >[!IMPORTANT]
      >
-     >當您將工作負載平衡器新增到物件的自訂區段時，工作負載平衡器中的資訊未由物件篩選。 工作負載平衡器顯示按最初套用的篩選器篩選的資訊。
+     >當您將工作負載平衡器作為儀表板新增到物件的左側面板時，工作負載平衡器中的資訊不由物件篩選。 工作負載平衡器顯示按最初套用的篩選器篩選的資訊。

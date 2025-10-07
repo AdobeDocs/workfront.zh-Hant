@@ -7,9 +7,9 @@ description: 控制面板的目的是提供資訊的快速存取。 您可以在
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 0%
   <tr> 
    <td> <p><strong>Adobe Workfront授權</strong></p> </td> 
       <td> 
-      <p>新增：</p>
+      <p>新增:</p>
          <ul>
          <li><p>投稿人或以上</p></li>
          </ul>
@@ -86,8 +86,8 @@ ht-degree: 0%
 * 以個人為基礎進行共用。\
   如需共用儀表板的詳細資訊，請參閱[共用報告、儀表板和行事曆](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)以及[共用儀表板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)。
 
-* 在Workfront中使用自訂區段將儀表板新增到任何區域或物件。\
-  如需建立自訂區段的詳細資訊，請參閱[在Adobe Workfront中向左導覽](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)。
+* 在左側面板中，將控制面板新增至Workfront中的任何區域或物件。\
+  如需將儀表板新增到左側面板的詳細資訊，請參閱[Adobe Workfront中的左側導覽](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)。
 
 * 將儀表板放在版面範本上，您可以與使用者共用。\
   如需透過版面配置範本共用控制面板的詳細資訊，請參閱[使用版面配置範本自訂左側面板](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)。
@@ -95,7 +95,7 @@ ht-degree: 0%
 * 列印硬複製以與使用者共用。\
   如需有關列印儀表板的詳細資訊，請參閱[列印儀表板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/print-dashboard.md)。
 
-* 將它們匯出為PDF檔案，以便您可以用電子郵件傳送給使用者。\
+* 將其匯出為PDF檔案，以便透過電子郵件傳送給使用者。\
   如需將儀表板匯出至PDF檔案的詳細資訊，請參閱[匯出儀表板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md)。
 
 當您與使用者共用控制面板時，預設情況下，控制面板上的所有報告、日曆和外部頁面也會與相同的使用者共用。
@@ -108,8 +108,8 @@ ht-degree: 0%
 
 您可以透過下列方式顯示圖示板：
 
-* 存取放置儀表板的自訂區段。\
-  如需將儀表板放在自訂區段上的詳細資訊，請參閱[Adobe Workfront的左側導覽](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)。
+* 透過物件的左側面板存取儀表板。
+如需將儀表板放在左側面板的詳細資訊，請參閱[Adobe Workfront的左側導覽](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)。
 
 * 搜尋並手動存取控制面板。
 

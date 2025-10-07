@@ -7,9 +7,9 @@ description: 報表常見問題集
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: 957c6e6955a828aa40ac996490d66e9c46f594bc
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
-source-wordcount: '1510'
+source-wordcount: '1509'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## 存取需求
 
-+++ 展開以檢視存取需求。
++++ 展開以檢視存取需求。 
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -180,7 +180,7 @@ ht-degree: 0%
 如需重新整理快取報表的詳細資訊，請參閱[執行報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-report.md)。
 
 可以在快取儀表板中手動重新整理資訊。\
-如需有關重新整理快取儀表板的詳細資訊，請參閱文章[開始使用儀表板](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md)中的[顯示儀表板](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md#running-dashboards)小節。
+如需有關重新整理快取儀表板的詳細資訊，請參閱文章[開始使用儀表板](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md#running-dashboards)中的[顯示儀表板](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md)小節。
 
 ## 我可以變更報表的擁有者嗎？
 
@@ -210,8 +210,7 @@ ht-degree: 0%
 
 當您刪除使用者時，您仍可存取使用者建立的任何報告，但是，包含該報告的任何儀表板也會一併刪除。 這表示您無法再存取下列專案：
 
-* 包含報表的控制面板
-* 包含報表儀表板的自訂區段
+* 包含報表的控制面板，包括物件左側面板的控制面板
 
 若要進一步瞭解刪除使用者的影響，請參閱[刪除使用者](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)。
 
