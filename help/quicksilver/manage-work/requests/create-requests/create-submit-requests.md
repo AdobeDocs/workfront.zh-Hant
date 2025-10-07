@@ -6,9 +6,9 @@ description: 計畫工作在Adobe Workfront中以專案和任務表示。 不過
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 70f6200fc94bc923c651d614dfd0aba68ceda334
+source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
 workflow-type: tm+mt
-source-wordcount: '2840'
+source-wordcount: '2790'
 ht-degree: 1%
 
 ---
@@ -369,12 +369,6 @@ Workfront管理員必須建立「請求佇列」的下列元件：
 >請求進入Workfront時，HTML格式會遭到移除，但簽名和現有的回覆對話串內容不會遭到移除，並會出現在請求說明中。
 
 如需有關如何啟用要求佇列以透過電子郵件接收要求的資訊，請參閱[讓使用者透過電子郵件將問題傳送到要求佇列專案](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md)。
-
-## 使用Outlook使用者端建立請求
-
-您可以使用Outlook使用者端來提交要求。 您可以建立新請求，也可以將電子郵件轉換為請求。
-
-如需使用Outlook使用者端提交要求的詳細資訊，請參閱文章[從Outlook電子郵件建立Adobe Workfront要求](../../../workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md)。
 
 ## 使用Workfront行動應用程式建立請求
 

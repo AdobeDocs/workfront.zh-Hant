@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 08e0bd72-5979-449e-9fb2-c4d45f51119e
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 若要設定Workfront在套用版面配置範本時在「我的工作」區域顯示新行事曆，請設定版面配置範本以顯示任務和問題的規劃完成日期，然後將該版面配置範本指派給適當的使用者。
 
-如需配置配置配置範本的詳細資訊，請參閱[建立和管理配置範本](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)中的[建立和管理配置範本](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md#customizing-my-work)。
+如需配置配置配置範本的詳細資訊，請參閱[建立和管理配置範本](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md#customizing-my-work)中的[建立和管理配置範本](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)。
 
 ## Outlook 365 Beta
 
@@ -67,7 +67,6 @@ ht-degree: 0%
 
 您可以使用適用於Office 365的Outlook中的Workfront，如下列各節所述：
 
-* [設定Outlook適用的Adobe Workfront](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
 * 使用Outlook 365從電子郵件更新現有專案
 
 ## 使用拖放功能重新排序任何清單中的欄
@@ -98,4 +97,4 @@ ht-degree: 0%
 
 **可下載的附加元件： 2016年4月**
 
-適用於Adobe Creative Cloud的Workfront擴充功能可讓您儲存並在Creative Cloud中建立的資產並匯出至Workfront，藉此加快核准和稽核程式。
+適用於Adobe Creative Cloud的Workfront擴充功能可讓您儲存您在Creative Cloud中建立的資產，並將其匯出至Workfront，藉此加快核准和稽核程式。

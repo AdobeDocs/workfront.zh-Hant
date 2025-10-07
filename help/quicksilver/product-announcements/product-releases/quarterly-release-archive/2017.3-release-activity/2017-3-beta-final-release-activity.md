@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 880828f4-3908-4ef0-ab1f-774f8dee72b6
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
 workflow-type: tm+mt
-source-wordcount: '3821'
+source-wordcount: '3791'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 2017.3 Beta最終版本包含適用於Workfront管理員和其他使用者的增強功能：
 
-管理員的&#x200B;**&#x200B;**
+管理員的&#x200B;****
 
 * [在核准設定區域中重新呼叫要求的新設定](#new-configuration-for-recalling-requests-in-the-approval-settings-area)
 * [設定預設校訂角色](#configure-default-proof-roles)
@@ -56,7 +56,7 @@ ht-degree: 0%
 * [資源預算時數報告的新群組：配置日期](#new-grouping-for-resource-budgeted-hour-reports-allocation-date)
 * [資源規劃工具改善](#resource-planner-improvements)
 * [行動裝置改良](#mobile-improvements)
-* [Workfront與Slack](#workfront-integration-with-slack)整合
+* [Workfront與Slack整合](#workfront-integration-with-slack)
 * [Outlook 365改良](#outlook-365-improvements)
 * [API變更](#api-changes)
 
@@ -106,11 +106,11 @@ Workfront中的Scrum和Kanban敏捷方法有以下差異：
 
 * 設定待處理專案上的專案，以便在其他專案移至等同於完成的狀態時，自動新增到看板敏捷故事板中。
 
-  如需詳細資訊，請參閱[設定Kanban](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md)中的[設定要自動從待處理專案新增的劇本](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5)。
+  如需詳細資訊，請參閱[設定Kanban](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5)中的[設定要自動從待處理專案新增的劇本](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md)。
 
 * 設定要在Kanban敏捷故事板上顯示的進行中工作(WIP)限制。
 
-  如需詳細資訊，請參閱[設定看板](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md)中的[設定進行中的工作(WIP)限制](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur4)。
+  如需詳細資訊，請參閱[設定看板](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur4)中的[設定進行中的工作(WIP)限制](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md)。
 
 **在Workfront中使用Scrum的好處**
 
@@ -118,14 +118,14 @@ Workfront中的Scrum和Kanban敏捷方法有以下差異：
 * 在Scrum故事板上加入問題。
 * 包括敏捷團隊待處理專案上的問題。
 
-  如需詳細資訊，請參閱[設定Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)中的[設定將工作專案新增至疊代](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5)時如何套用日期。
+  如需詳細資訊，請參閱[設定Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5)中的[設定將工作專案新增至疊代](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)時如何套用日期。
 
 * 子任務可以顯示在Scrum故事板上。
 * 檢視待執行工作圖表，以檢視反複專案期間內文的進度。
 
   如需詳細資訊，請參閱[敏捷待執行工作圖表總覽](../../../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md)。
 
-如需有關啟用和設定敏捷團隊看板的詳細資訊，請參閱[建立敏捷團隊](../../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)中的[決定敏捷方法](../../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#deciding)。
+如需有關啟用和設定敏捷團隊看板的詳細資訊，請參閱[建立敏捷團隊](../../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#deciding)中的[決定敏捷方法](../../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)。
 
 ## 包括敏捷團隊的Scrum待辦專案上的問題 {#include-issues-on-the-scrum-backlog-for-an-agile-team}
 
@@ -141,7 +141,7 @@ Workfront中的Scrum和Kanban敏捷方法有以下差異：
 
 如需有關使用待處理專案問題的資訊，請參閱  [管理敏捷待處理專案](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)。
 
-如需啟用問題以供敏捷Scrum團隊待處理專案使用的相關資訊，請參閱  [&#128279;](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5)設定在[設定Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)中將工作專案新增到疊代時如何套用日期。
+如需啟用問題以供敏捷Scrum團隊待處理專案使用的相關資訊，請參閱  [設定在](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5)設定Scrum[中將工作專案新增到疊代](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)時如何套用日期。
 
 ## 在Scrum敏捷故事板上包含問題 {#include-issues-on-the-scrum-agile-story-board}
 
@@ -151,7 +151,7 @@ Workfront中的Scrum和Kanban敏捷方法有以下差異：
 
 現在當您使用Scrum敏捷方法時，可以在故事板上加入問題。
 
-如需詳細資訊，請參閱[設定Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)中的[設定敏捷故事板上的狀態列](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur2)。
+如需詳細資訊，請參閱[設定Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur2)中的[設定敏捷故事板上的狀態列](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)。
 
 ## 將群組和篩選器套用至敏捷團隊的待處理專案 {#apply-groupings-and-filters-to-the-backlog-for-an-agile-team}
 
@@ -207,7 +207,7 @@ Workfront中的Scrum和Kanban敏捷方法有以下差異：
 
 ## 檔案增強功能：精簡的介面 {#document-enhancements-streamlined-interface}
 
-向Workfront新增檔案的使用者體驗現在更簡化且更直覺。 現在，您可以從檔案系統上傳檔案、要求檔案，或從協力廠商應用程式(例如Google或Dropbox)連結檔案，全都透過簡單的下拉式選單完成。 
+向Workfront新增檔案的使用者體驗現在更簡化且更直覺。 現在，您可以從檔案系統上傳檔案、請求檔案，或從協力廠商應用程式(例如Google或Dropbox)連結檔案，全都透過簡單的下拉式選單完成。 
 
 以前，您可以透過啟動「新增檔案」對話方塊使用這些選項。 
 
@@ -272,7 +272,7 @@ Workfront中的Scrum和Kanban敏捷方法有以下差異：
 
 ### 在HTML5視訊校訂檢視器中重新啟動並跳過（鍵盤快速鍵） {#restart-and-skip-in-html5-video-proofing-viewer-keyboard-shortcuts}
 
-現在，視訊的HTML5校訂檢視器內有鍵盤快速鍵，可讓您從視訊的開頭重新啟動視訊，並跳至視訊的結尾。
+現在，視訊的HTML5校訂檢視器有鍵盤快速鍵，可讓您從視訊開始並跳至視訊結尾。
 
 如需有關可用鍵盤快速鍵的詳細資訊，請參閱[Workfront Proof校訂檢視器中的鍵盤快速鍵](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md)。
 
@@ -433,7 +433,7 @@ HTML5檢視器尚未支援現有Flash檢視器目前提供的所有功能。 下
 >
 >Slack整合目前無法使用。 2017年11月，它將可用於您的生產環境。
 
-我們正在啟動Workfront與Slack之間的新整合。 如果貴組織已將Slack用於通訊，您現在可以將其與Workfront整合，並執行常見的Workfront動作，而不會將您的通訊管道留在Slack中。 您現在可以從Slack帳戶執行下列動作：
+我們正在啟動Workfront與Slack之間的新整合。 如果您的組織已使用Slack進行通訊，您現在可以將其與Workfront整合，並執行常見的Workfront動作，而不需在Slack中離開通訊管道。 您現在可以從Slack帳戶執行下列動作：
 
 * 在Workfront中搜尋專案
 * 存取您的工作和核准清單
@@ -452,8 +452,6 @@ HTML5檢視器尚未支援現有Flash檢視器目前提供的所有功能。 下
 
 * 在Workfront中新增任務或問題至專案：您現在可以使用Outlook 365增益集將電子郵件轉換成Workfront中的任務或問題。 在此程式中，您可以指定要新增任務或問題的專案，以及受指派人和到期日。 在此增強功能之前，您只能提交要求至要求佇列，或從Outlook 365將個人工作新增至您的[處理中]清單。 
 * 在轉換為任務、問題或請求的原始電子郵件中保留Workfront物件的連結：當您從Outlook 365轉換電子郵件至任務、問題或請求時，Outlook 365會保留從原始電子郵件中轉換至任務或問題的連結。 在此變更之前，Outlook中不會指出電子郵件是否已轉換為任務或提交為請求。 
-
-  如需有關將電子郵件從Outlook 365轉換為任務或問題的詳細資訊，請參閱[將Outlook電子郵件新增至專案做為任務或問題](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-to-project-as-task-or-issue.md)。
 
 ## API變更 {#api-changes}
 
