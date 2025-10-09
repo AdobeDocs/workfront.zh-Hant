@@ -6,16 +6,16 @@ description: 身為專案經理，您可以指定特定專案上工作角色的�
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
-source-git-commit: 5e2c2a29c822150377882006bd6bc15068ff8702
+source-git-commit: 4b2bf1205951de13cb09d31f54f890a74bdf7d98
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '898'
 ht-degree: 0%
 
 ---
 
 # 覆寫專案層級的工作角色收費率
 
-{{highlighted-preview}}
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽沙箱」環境中使用，並且正在分階段推出到生產環境。</span>
 
 身為專案經理，您可以指定特定專案上工作角色的收費率。 此專案層級的收費率會覆寫此工作角色之系統層級的收費率。 Workfront使用工作角色的專案層級收費率來計算收入，而不使用系統層級收費率。
 
