@@ -7,9 +7,9 @@ description: 您在Adobe Workfront中登入工作專案的時數會視為實際�
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: de42974a9a5c4c346ef3ae1cce09968befd1381c
+source-git-commit: d577fb1f84c2a91c7b4a37be271235ffa338c9fd
 workflow-type: tm+mt
-source-wordcount: '1178'
+source-wordcount: '1253'
 ht-degree: 0%
 
 ---
@@ -75,11 +75,14 @@ ht-degree: 0%
      >
      >專案的實際成本使用舊版實際時數進行計算。
 
+* 在專案、任務或問題詳細資訊區域，實際時數可顯示在以下欄位：
 
-* 在專案、任務或問題詳細資訊區域：
+   * **實際時數**：在「詳細資料」索引標籤中，這些是2021年5月之後為專案、任務或問題記錄的時數。 它們會以小時為單位儲存在Workfront資料庫中，其valuefield為`actualWorkRequiredDouble`。
+   * **實際時數**：在專案、任務或問題自訂表單中，當使用參考實際時數原生欄位的原生欄位參考自訂欄位存取它們時。 這些是2021年5月之後為專案、任務或問題記錄的小時。 它們會以小時為單位儲存在Workfront資料庫中，其valuefield為`actualWorkRequiredDouble`。
 
-   * **實際時數**： 2021年5月之後為專案、任務或問題記錄的時數。 它們會以小時為單位儲存在Workfront資料庫中，其valuefield為`actualWorkRequiredDouble`。
-   * **實際時數**：使用專案、任務或問題自訂表單中的原生欄位參考自訂欄位來存取這些時數。
+>[!NOTE]
+>
+>建議儘可能使用實際時數欄位，因為舊版實際時數欄位可能會因為遞增方式而顯示不正確時數。
 
 ## 任務和問題的實際小時與專案的實際小時比較
 
