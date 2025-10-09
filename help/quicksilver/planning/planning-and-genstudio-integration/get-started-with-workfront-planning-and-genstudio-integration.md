@@ -66,7 +66,7 @@ GenStudio for Performance Marketing與Workfront Planning之間有原生整合。
 
 * 您的Workfront執行個體是Adobe Unified Experience的一部分，包括使用Identity Management系統(IMS)。
 
-  如需詳細資訊，請參閱[Workfront的Adobe Unified Experience ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
+  如需詳細資訊，請參閱[Workfront的Adobe Unified Experience &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 
 * 同時使用Workfront Planning和GenStudio for Performance Marketing的使用者必須只屬於IMS組織中的一個Workfront例項。
 
