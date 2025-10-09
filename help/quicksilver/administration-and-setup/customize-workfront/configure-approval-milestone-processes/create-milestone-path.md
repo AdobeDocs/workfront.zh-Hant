@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
+source-git-commit: e717e095f1995dbed0232789616d42492156d843
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '820'
 ht-degree: 3%
 
 ---
@@ -27,13 +27,13 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 從預覽版開始的一週起，生產環境中也將提供相同功能給所有客戶。
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-如需詳細資訊，請參閱[介面現代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 身為Adobe Workfront管理員，您可以建立里程碑路徑，然後將其套用至系統中的任何專案。 您在此區域中對里程碑路徑所做的變更會影響整個Workfront系統。
 
@@ -85,13 +85,9 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
 1. 按一下&#x200B;**處理序** > **里程碑路徑**。
 1. 按一下&#x200B;**新增里程碑路徑。**
 
-   <div class="preview">
-
    「新建里程碑路徑」方塊開啟。
 
    ![新里程碑路徑方塊](assets/new-milestone-path-box.png)
-
-   </div>
 
 1. 按一下左側面板中的&#x200B;**基本資訊**。
 
@@ -118,8 +114,7 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
 
 1. 按一下左側面板中的&#x200B;**里程碑**。
 
-1. 在生產環境中，按一下&#x200B;**新增里程碑**&#x200B;以將里程碑新增至路徑。
-   <span class="preview">在預覽環境中，按一下&#x200B;**新增列**&#x200B;以新增里程碑至路徑。</span>
+1. 按一下&#x200B;**新列**&#x200B;將里程碑新增至路徑。
 1. 更新下列資訊：
 
    <table style="table-layout:auto"> 
@@ -182,7 +177,7 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
    此篩選器可確保您只顯示與報告中里程碑路徑相關聯的專案。
 
 1. 按一下「**儲存並關閉**」。
-1. 新增報表名稱，然後按一下[套用]。**&#x200B;**
+1. 新增報表名稱，然後按一下[套用]。****
 
    專案報告隨即顯示。 與每個專案相關聯的里程碑路徑會顯示在報表的最後一欄。
 1. 按一下報告最後一欄中的里程碑路徑名稱。

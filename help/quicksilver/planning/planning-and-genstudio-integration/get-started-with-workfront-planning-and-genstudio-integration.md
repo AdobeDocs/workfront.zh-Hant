@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-source-git-commit: d7af8c5888147e847b4e239b629373b4b72541f7
+source-git-commit: e717e095f1995dbed0232789616d42492156d843
 workflow-type: tm+mt
 source-wordcount: '1906'
 ht-degree: 0%
@@ -105,7 +105,7 @@ GenStudio for Performance Marketing與Workfront Planning之間有原生整合。
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing使用者角色</p></td> 
    <td><p><ul><li>存取行銷活動、產品和角色的任何GenStudio使用者角色</li>
    <li>GenSudio System Manager存取啟用 <!--and Events--></li></ul>
-   如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">使用者角色和許可權</a>。 
+   如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">使用者角色和許可權</a>。 
    </p>
   </td> 
   </tr>   
@@ -154,15 +154,22 @@ GenStudio for Performance Marketing與Workfront Planning之間有原生整合。
    <tr> 
 <td> 
    <p> 多個Workfront例項</p> </td> 
-   <td> 
-   <p>所有Workfront例項皆顯示GenStudio工作區</p>
+   <td>
+
+<p>所有Workfront例項皆顯示GenStudio工作區</p>
 <p>依預設，所有可存取GenStudio for Performance Marketing和Workfront Planning的使用者皆擁有Planning中GenStudio的「貢獻」許可權</p> 
 <p>Workfront管理員無法將管理GenStudio工作區的許可權授予任何人</p>
-
 </td> 
   </tr>
    </tbody> 
 </table>
+
+<!--If Iskuhi confirms, add this or a corrected version to the second row of the table above:
+<p>The following are the scenarios for when your organization has more than one instance of Workfront with Workfront Planning:</p>
+   <ul><li>If your company has multiple instances of Workfront at the moment when they purchase Adobe GenStudio for Performance Marketing, the GenStudio workspace is visible from all Workfront instances.</li>
+   <li>If your company adds more Workfront instances after their original instance has already been integrated with Adobe GenStudio for Performance Marketing, the GenStudio workspace is visible only from the original Workfront instance. For information about connecting additional instance of Workfront to Adobe GenStudio, contact your account representative. </li></ul>  
+   
+   -->
 
 如需Workfront Planning許可權的相關資訊，請參閱[在Adobe Workfront Planning中共用許可權概觀](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
 

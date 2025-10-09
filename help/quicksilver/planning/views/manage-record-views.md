@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: e717e095f1995dbed0232789616d42492156d843
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1308'
 ht-degree: 1%
 
 ---
@@ -213,10 +213,11 @@ ht-degree: 1%
    >否則，「時間軸」和「行事曆」選項會變暗。
    >
 
-   <span class="preview">在預覽環境中，選擇檢視型別，然後按一下[建立]。**&#x200B;** 新檢視會新增至下拉式功能表。</span>
+   <span class="preview">在預覽環境中，選擇檢視型別，然後按一下[建立]。**** 新檢視會新增至下拉式功能表。</span>
 
    <span class="preview">![建立檢視方塊](assets/create-view-box.png)</span>
 
+1. <span class="preview">若要編輯現有的檢視，請在&#x200B;**搜尋**&#x200B;欄位中輸入檢視的名稱，然後按鍵盤上的Enter鍵。</span>
 1. <span class="preview">從檢視下拉式功能表，依您的偏好順序拖放檢視。</span>
 
    <span class="preview">![記錄型別清單中的檢視型別下拉式清單](assets/view-types-drop-down-from-record-type-list.png)</span>
