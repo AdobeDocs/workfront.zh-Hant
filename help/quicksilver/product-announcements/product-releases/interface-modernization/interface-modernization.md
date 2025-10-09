@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 2d7022eae32d3266966ef6f424b1cff176622f86
+source-git-commit: d7f91e17294981c2c31681ca7f4732f9a79d4c61
 workflow-type: tm+mt
-source-wordcount: '8402'
+source-wordcount: '8483'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,14 @@ ht-degree: 0%
 如需Adobe Workfront的所有其他變更，請參閱[產品版本](/help/quicksilver/product-announcements/product-releases/product-releases.md)。
 
 ## 管理和設定
+
+### 更新公司匯入使用者對話方塊的介面
+
+**預覽版本： 2025年10月9日；適用於所有客戶的生產版本：自2025年10月16日起一週**
+
+我們已更新透過試算表檔案匯入公司新使用者的對話方塊，以符合應用程式的其他區域。
+
+若要檢視這項變更，請前往「設定>公司>選取公司>公司成員>新增成員>匯入使用者」。
 
 ### 「新增里程碑路徑」和「編輯里程碑路徑」方塊的新介面和功能
 
@@ -56,7 +64,7 @@ ht-degree: 0%
 
 ### 安裝程式中嚴重程度區域的介面更新
 
-**預覽版本： 2025年9月25日；生產版本： 2025年10月9日**
+**預覽版本： 2025年9月25日；生產版本：即將宣佈**
 
 我們以更現代的設計更新了「嚴重性」頁面，與Workfront的其他區域一致。
 
@@ -68,7 +76,7 @@ ht-degree: 0%
 
 ### 更新設定中優先順序區域的介面
 
-**預覽版本： 2025年9月25日；生產版本： 2025年10月9日**
+**預覽版本： 2025年9月25日；生產版本：即將宣佈**
 
 我們已更新「優先順序」頁面，採用與Workfront其他區域一致的更現代化設計。
 
@@ -484,6 +492,11 @@ For information, see [Edit project templates](/help/quicksilver/manage-work/proj
 ### 個人休假的介面更新
 
 **預覽版本： 2025年9月25日；生產版本： 2025年10月2日**
+
+>[!NOTE]
+>
+>此功能已於2025年10月9日從預覽和生產環境中暫時移除。
+
 
 我們已更新個人休假行事曆的外觀和風格，包括委派核准的能力，以符合應用程式的其他領域。
 
@@ -1166,7 +1179,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 此更新包含區域的視覺化變更。 功能未變更。
 
-若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。**&#x200B;**
+若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。****
 
 +++
 
