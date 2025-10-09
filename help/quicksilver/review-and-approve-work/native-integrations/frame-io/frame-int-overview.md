@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b5f0150b-40b5-4386-98bc-374e7ca65b74
-source-git-commit: f8d81996846f7b719bf3e5e8aaa2ad9ba1805cff
+source-git-commit: 07fa7207960f424cc8580eb46fe13bd5af4e56a8
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
@@ -20,17 +20,14 @@ Workfront和Frame.io整合可讓專案專員在Workfront中管理專案和計畫
 
 ## 整合需求
 
-您必須讓Adobe Professional Services啟用Workfront和Frame.io整合。
+* Workfront和Frame.io必須部署至相同的Identity Management系統(IMS)組織。
 
-<!--
-* Workfront and Frame.io must be deployed to the same Identity Management system (IMS) organization.
+* 使用者只能屬於IMS組織內的一個Workfront執行個體。
 
-* Users can belong to only one Workfront instance within the IMS organization.
+* 必須在Adobe Unified Experience和Adobe企業儲存空間上啟用Workfront執行個體。
 
-* The Workfront instance must be enabled on the Adobe Unified Experience.
+* 整合必須由Adobe Professional Services設定。
 
-* The integration is configured by Adobe Professional Services. 
--->
 
 ## 內建於Adobe企業儲存空間
 
@@ -39,7 +36,7 @@ Workfront和Frame.io整合可讓專案專員在Workfront中管理專案和計畫
 Adobe企業儲存的主要優點包括：
 
 * 適用於創意與工作管理資產的統一儲存層
-* 透過Adobe IMS集中管理許可權，以進行安全存取控制
+* 透過Adobe Identity Management系統(IMS)集中管理許可權，以進行安全存取控制
 * Workfront和Frame.io <!--, and Creative Cloud apps -->的端對端資產可見性
 * 可擴充的儲存與配額管理，因應企業需求
 
@@ -80,7 +77,7 @@ Workfront和Frame.io整合使用Workfront的統一核准功能來管理檢閱和
 
 #### Frame.io檢視器中支援的檔案型別
 
-Frame.io檢視器支援所有常見的視訊、影像、音訊、PDF和MS® Office型別。 如需支援檔案的詳細清單，請參閱Frame.io[上的](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io)型別。
+Frame.io檢視器支援所有常見的視訊、影像、音訊、PDF和MS® Office型別。 如需支援檔案的詳細清單，請參閱Frame.io[上的](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io)支援的檔案型別。
 
 #### Frame.io檢視器的存取與授權
 
@@ -98,11 +95,13 @@ Frame.io檢視器是所有Workfront檢閱和核准工作流程的預設檢視器
 
 ### 強制的結構與命名慣例
 
-由於此整合是使用ESM建立的，因此在管理專案和檔案時，應注意一些強制的結構與命名慣例。
+由於此整合是使用Adobe Enterprise Storage所建置，因此在管理專案和檔案時，應注意一些強制性的結構和命名慣例。
 
 * 物件名稱必須是唯一的，而且不能重複
-* ESM要求階層樹狀結構中具有相同父項的對等物件有唯一的名稱
+* 「Adobe企業儲存體」在階層樹狀結構中具有相同父項的對等物件需要唯一的名稱
 * 如果檔案屬於相同專案，則不能使用相同名稱
+* 檔名稱不能包含下列任何特殊字元： \ / ： * ？ &quot; | &lt; >
+* 檔名稱的上限為255個字元
 
 考慮到這些限制，Workfront會視需要自動重新命名物件或檔案，以避免衝突。
 
