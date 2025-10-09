@@ -6,9 +6,9 @@ description: 首頁可協助您管理工作。 您可以自訂此彈性空間，
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 884ade1102e685ec01af2790b17acb50c2114ca7
+source-git-commit: 1cb165e826ee57483989474c095553a08e33bc9a
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1106'
 ht-degree: 4%
 
 ---
@@ -57,7 +57,7 @@ Widget是新首頁的基礎。 將Widget新增至首頁後，您就可以選擇�
 * **我的要求**\
     顯示您已提交的所有請求、僅顯示已開啟請求的篩選條件，以及可開啟請求摘要面板的按鈕。
 
-  <span class="preview">在預覽環境中，此Widget會顯示您已提交的所有請求、僅顯示符合您指定之條件的請求的篩選器，以及允許您重新排列Widget中欄的按鈕。</span>
+  <span class="preview">在預覽環境中，此Widget會顯示您提交的所有請求、僅顯示符合您指定之條件的請求的篩選器，以及允許您重新排列Widget中欄的按鈕。 如果您有Workfront Planning的存取權，您的Planning請求也會顯示在這裡。</span>
 
 
 * **團隊要求**\
@@ -152,7 +152,7 @@ Widget是新首頁的基礎。 將Widget新增至首頁後，您就可以選擇�
 
    「自訂」面板隨即開啟。
 
-1. 在「**自訂**」面板的「**背景**」區段中，按一下您要為「首頁」背景選取的色彩。 您也可以按一下[無]來移除背景。**&#x200B;**
+1. 在「**自訂**」面板的「**背景**」區段中，按一下您要為「首頁」背景選取的色彩。 您也可以按一下[無]來移除背景。****
 
 
 
