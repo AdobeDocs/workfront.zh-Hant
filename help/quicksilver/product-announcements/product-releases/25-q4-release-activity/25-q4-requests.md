@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: f75f44c3c5ea4c281c0c9fe916ea8261d3500fb0
+source-git-commit: 94e81f50ca38ab8139684887c58e0f00353587d7
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >預覽： 2025年10月2日
->&#x200B;>生產快速發行： 2025年10月15日
->&#x200B;>適用於所有人的生產： 2025年10月16日
+>>生產快速發行： 2025年10月15日
+>>適用於所有人的生產： 2025年10月16日
 
 為了更方便檢視您需要的資訊，我們新增了在請求區域中建立和儲存檢視的功能。 現在，您可以儲存檢視（包括篩選器和欄配置），並在檢視之間切換。 Workfront管理員可以將新檢視新增至版面配置範本。
 
@@ -71,7 +71,7 @@ For more information on creating requests see:
 使用新的請求體驗時，請注意下列事項：
 
 * 您目前只能在舊版請求體驗中找到草稿。 在新體驗中，只有在工作流程佇列中相同路徑中有草稿時，您才能看到草稿。
-* 新體驗目前僅顯示過去1.5個月內建立的請求。 若要檢視舊請求，您可以暫時停用新體驗，並透過舊體驗存取舊請求。
+* 新體驗目前僅顯示2025年7月之後建立的請求。 若要檢視舊請求，您可以暫時停用新體驗，並透過舊體驗存取舊請求。
 
 以往，Workfront和Workfront Planning請求位於不同的索引標籤上，且篩選器無法自訂。
 
