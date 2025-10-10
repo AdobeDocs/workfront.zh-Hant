@@ -5,9 +5,9 @@ description: 專案運作狀態功能利用AI助理的強大功能，立即為�
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: 81f2787a5a9dd4f3737f3494c824502fe4abe59d
+source-git-commit: d1ded406b8c4da975e2ff4d6825954cabd483ed2
 workflow-type: tm+mt
-source-wordcount: '1487'
+source-wordcount: '1488'
 ht-degree: 2%
 
 ---
@@ -73,7 +73,7 @@ AI助理可以產生下列物件的專案健康情況評估：
 * 必須啟用Adobe Unified Experience。
 * Adobe必須有已簽署的Adobe Gen AI合約檔案。
 * Workfront管理員必須為貴組織中的使用者啟用AI助理。 AI助理是透過存取層級啟用。
-* 在「設定>偏好設定」的「AI偏好設定」區段中，必須同時選取「啟用AI」和「專案健康狀態」選項。
+* 在「設定>系統>偏好設定」的「AI偏好設定」區段中，必須同時選取「啟用AI」和「專案健康狀態」選項。
 
   ![AI喜好設定區段](assets/ai-preferences.png)
 
