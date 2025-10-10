@@ -6,9 +6,9 @@ description: 您可以從「畫布」控制面板刪除報表。
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 98d26160-a097-473d-8d66-e6d619cb2908
-source-git-commit: 46fdc768adade4872d636014c0e215c5f129d1de
+source-git-commit: fb8b9a10aac45868e085fb5154ef02ce989b599d
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '339'
 ht-degree: 1%
 
 ---
@@ -18,8 +18,8 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >畫布儀表板功能目前僅適用於參與Beta階段的使用者。 在此階段中，部分功能可能無法完成或如預期般運作。 請依照「畫布控制面板」測試版概觀文章中[提供意見回饋](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)一節的指示，提交有關您體驗的任何意見回饋。<br>
->&#x200B;>如果您對可能的錯誤或技術問題有回饋，請向Workfront支援提交票證。 如需詳細資訊，請參閱[聯絡客戶支援](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。<br>
->&#x200B;>請注意，以下雲端服務供應商未提供此測試版：
+>>如果您對可能的錯誤或技術問題有回饋，請向Workfront支援提交票證。 如需詳細資訊，請參閱[聯絡客戶支援](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。<br>
+>>請注意，以下雲端服務供應商未提供此測試版：
 >
 >* 自備Amazon Web Services金鑰
 >* Azure
@@ -80,7 +80,7 @@ ht-degree: 1%
 >[!WARNING]
 >
 >報表一經刪除便無法復原。<br>
->&#x200B;>如果您將現有報表新增至畫布控制面板，從控制面板中刪除該報表不會刪除原始報表。
+>>如果您將現有的傳統報表新增至畫布控制面板，從控制面板中刪除該報表不會刪除原始報表。
 
 {{step1-to-dashboards}}
 
