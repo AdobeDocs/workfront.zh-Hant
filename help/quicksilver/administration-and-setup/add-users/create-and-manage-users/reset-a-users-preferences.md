@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 4a7362ae663b73ce48f049556145b4de3e6a6ac9
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 2%
@@ -18,6 +18,8 @@ ht-degree: 2%
 # 重設使用者的偏好設定
 
 <!-- Audited: 12/2023 -->
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
 
 身為Adobe Workfront管理員，您可以重設或移除Workfront系統中任何使用者的使用者偏好設定。
 
@@ -45,7 +47,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td>
+   <td>[！UICONTROL系統管理員]</td>
   </tr> 
  </tbody> 
 </table>
@@ -90,7 +92,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>使用者偏好設定</td> 
-   <td> <p>已恢復為系統預設值</p> <p>電子郵件通知會恢復為系統預設值。 預設通知列在Adobe Workfront</a>中可用的<a href="/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md">事件通知中。</p> </td> 
+   <td> <p>已恢復為系統預設值</p> <p>電子郵件通知會恢復為系統預設值。 預設通知列在Adobe Workfront<a href="/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md">中可用的</a>事件通知中。</p> </td> 
   </tr> 
   <tr> 
    <td>使用者定義的自訂標籤</td> 
@@ -103,6 +105,17 @@ ht-degree: 2%
  </tbody> 
 </table>
 
+<!-- Display this table and hide the HTML table above, when the unshim is released.
+| Preference | Status after the reset |
+| --- | --- |
+| Views | Reverted to the system default <p>Existing views are not deleted. You can select them again.</p> |
+| Filters | Reverted to the system default <p>Existing filters are not deleted. You can select them again.</p> |
+| Groupings | Reverted to the system default <p>Existing groupings are not deleted. You can select them again.</p> |
+| Recent items list | Cleared |
+| Favorites list | Unaffected |
+| User Preferences | Reverted to the system default <p>Email notifications revert to the system defaults. The default notifications are listed in [Event notifications available in Adobe Workfront](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).</p> |
+-->
+
 ## 重設使用者偏好設定
 
 {{step-1-to-setup}}
@@ -110,9 +123,9 @@ ht-degree: 2%
 1. 選取&#x200B;**登入身份**。
 1. 開始輸入您要重設其偏好設定的使用者名稱，然後在名稱出現在下拉式清單中時按一下該名稱。
 1. 選取&#x200B;**登入**。
-1. 如果您的組織尚未上線到Adobe統一體驗，請按照以下步驟操作：
+1. 如果您的組織尚未上線至Adobe Unified Experience，請依照此步驟操作：
 
-   * 在網頁瀏覽器頂端的URL欄位中，在`workfront.com`之後新增`/resetUser`。
+   * 在網頁瀏覽器頂端的URL欄位中，在`/resetUser`之後新增`workfront.com`。
 
      >[!NOTE]
      >
@@ -120,9 +133,9 @@ ht-degree: 2%
      >
      >`https://company_domain.my.workfront.com/resetUser`
 
-1. 如果您的組織已上線到Adobe統一體驗，請按照以下步驟操作：
+1. 如果您的組織已上線到Adobe Unified Experience，請依照此步驟操作：
 
-   * 在網頁瀏覽器頂端的URL欄位中，在`workfront`之後新增`/resetUser`。
+   * 在網頁瀏覽器頂端的URL欄位中，在`/resetUser`之後新增`workfront`。
 
      >[!NOTE]
      >
@@ -133,6 +146,7 @@ ht-degree: 2%
 1. 按&#x200B;**Enter**。
 1. 若要重設所有使用者偏好設定，請選取&#x200B;**重設**。
 
-   或
+<!--When this is unshimmed, adjust the comment tags to hide these last two lines, because the Reset Tabs button is going away.-->
+或
 
-   若要僅重設自訂標籤，請選取&#x200B;**重設標籤**。
+若要僅重設自訂標籤，請選取&#x200B;**重設標籤**。
