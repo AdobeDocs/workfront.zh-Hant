@@ -6,9 +6,9 @@ description: 您可以建立、編輯和指派為使用者產生週期性時程�
 author: Lisa
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 611c3c947855610cf86cdcbf96d1e9d847e34f38
+source-git-commit: 395a7788ddfda71264b7b964953435affd7761e9
 workflow-type: tm+mt
-source-wordcount: '1668'
+source-wordcount: '1597'
 ht-degree: 2%
 
 ---
@@ -16,8 +16,6 @@ ht-degree: 2%
 # 建立、編輯和指派時程表設定檔
 
 <!--Audited: 06/2025-->
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽沙箱」環境中使用，並且正在分階段推出到生產環境。</span>
 
 您可以建立、編輯和指派為使用者產生週期性時程表的時程表設定檔，您無需採取任何進一步的干預。 這可為您節省時間，並確保使用者之間遵循下列原則：
 
@@ -151,13 +149,11 @@ ht-degree: 2%
 
    * **提醒通知**：新增提醒通知。 Workfront會傳送提醒給使用者，要求他們完成或核准其時程表。 您必須先建立提醒通知，然後才能將其與時程表設定檔建立關聯。
 
-1. 在生產環境中建立群組層級的時程表設定檔時，請按一下&#x200B;**指派人員**&#x200B;索引標籤，將時程表設定檔與特定使用者、群組或(如果您是Workfront管理員)團隊建立關聯。<!--To associate the timesheet profile with specific users, groups, or (if you are a Workfront administrator) teams, scroll towards the bottom of the page and find the **Assign People** section.-->
-
-   <span class="preview">在預覽中建立群組層級時程表設定檔時，請捲動至頁面底部，並找到&#x200B;**指派人員**&#x200B;區段。</span>
-
-   為系統建立時間表設定檔時，請捲動至頁面底部，並找到&#x200B;**指派人員**&#x200B;區段。
+1. 若要將時間表設定檔與特定使用者、群組或(如果您是Workfront管理員)團隊建立關聯，請捲動至頁面底部，並找到&#x200B;**指派人員**&#x200B;區段。
 
    開始輸入使用者、群組或團隊的名稱，然後當它出現在下拉式清單中時按一下它。
+
+   <!--To associate the timesheet profile with specific users, groups, or (if you are a Workfront administrator) teams, scroll towards the bottom of the page and find the **Assign People** section.-->
 
    如果您是群組管理員，您可以將時程表設定檔指派給您管理的群組，但不能指派給團隊。 如需詳細資訊，請參閱本文中的[群組管理員指派時程表設定檔的限制](#limitations-for-a-group-administrator-assigning-a-timesheet-profile)。
 
