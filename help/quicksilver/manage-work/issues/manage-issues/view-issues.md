@@ -6,14 +6,16 @@ description: 您可以檢視與專案、任務或反複專案關聯的問題。
 author: Alina
 feature: Work Management
 exl-id: b6791c8f-b356-4235-8b0e-952e29a88952
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 393f858ba3711b367cf06ad846ea60be0d6d9034
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: '1027'
 ht-degree: 0%
 
 ---
 
 # 檢視問題
+
+<!--Audited: 10/2025-->
 
 您可以檢視與專案、任務或反複專案關聯的問題。
 
@@ -134,15 +136,18 @@ ht-degree: 0%
 * **小時**：顯示問題的小時專案清單。
 * **核准：**&#x200B;顯示與問題相關的核准路徑。
 
-  如需將核准與問題相關聯的詳細資訊，請參閱[建立工作專案的核准流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)中的[將核准流程與工作專案相關聯](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md#associating-the-approval-process-with-an-object)區段。
+  如需將核准與問題相關聯的詳細資訊，請參閱[建立工作專案的核准流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md#associating-the-approval-process-with-an-object)中的[將核准流程與工作專案相關聯](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)區段。
 
 ## 檢視有問題的專案和任務
 
-您可以在專案或任務報告或清單的檢視中新增圖示，以顯示它們是否附加了問題。 在報表或清單的檢視中新增圖示對專案和任務而言是類似的。
+您可以在專案或任務報告或清單的檢視中新增圖示，以顯示它們是否附加了問題。
+
+在報表或清單的檢視中新增圖示對專案和任務而言是類似的。
 
 若要新增顯示專案在專案報告中是否有問題的圖示：
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)。
+{{step1-click-main-menu}}
+
 1. 按一下&#x200B;**報告** > **新報告** > **專案報告**。
 1. 在&#x200B;**顯示在此欄**&#x200B;欄位中，開始輸入&#x200B;**狀態圖示**，然後當它出現在清單中時選取它。
 
@@ -150,4 +155,4 @@ ht-degree: 0%
 
    問題圖示會顯示在&#x200B;**狀態圖示**&#x200B;欄中有問題的專案上。
 
-   ![project_list_with_issue_icon.png](assets/project-list-with-issue-icon-350x132.png)
+   ![含有問題圖示的專案清單](assets/project-list-with-issue-icon-350x132.png)

@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
+source-git-commit: 393f858ba3711b367cf06ad846ea60be0d6d9034
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 2%
@@ -26,7 +26,7 @@ ht-degree: 2%
 
 ## 存取需求
 
-+++ 展開以檢視存取需求。
++++ 展開以檢視存取需求。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -46,7 +46,7 @@ ht-degree: 2%
    <td role="rowheader"><p>Adobe Workfront計畫*</p></td> 
    <td> 
 <p>下列任一Workfront計畫：</p> 
-<ul><li>選取</li> 
+<ul><li>選擇</li> 
 <li>Prime</li> 
 <li>Ultimate</li></ul> 
 <p>舊版Workfront計畫不提供Workfront計畫</p> 
@@ -88,13 +88,13 @@ ht-degree: 2%
 
 *如需Workfront存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-+++
++++   
 
 ## 編輯記錄型別
 
 {{step1-to-planning}}
 
-1. 按一下您要編輯其記錄型別的工作區，
+1. 按一下您要編輯其記錄型別的工作區。
 
    工作區頁面隨即開啟，且記錄型別隨即顯示。
 1. 執行下列其中一項：
@@ -113,7 +113,7 @@ ht-degree: 2%
 
    * 視需要編輯記錄型別名稱。<!--did they add a field label for this?-->
    * **描述**：編輯或新增記錄型別的描述，其中包含更多相關資訊。
-   * 編輯與記錄型別關聯的圖示的顏色和形狀。 執行下列動作：
+   * 編輯與記錄型別關聯的圖示的顏色和形狀。 請執行下列動作：
       * 選取顏色以識別記錄型別。 這是記錄型別圖示的顏色。
       * 從清單中選取圖示，或開始輸入圖示名稱以說明其代表內容，然後在顯示時選取它。 這是記錄型別的圖示。 依預設，會選取檔案圖示。
 
@@ -127,7 +127,7 @@ ht-degree: 2%
          * **Specific workspaces**: Add the names of the workspaces where workspace managers can connect to this record type.-->
 
 
-1. （選擇性和條件性）如果您是系統管理員，請按一下&#x200B;**進階設定**，並更新&#x200B;**跨工作區功能**&#x200B;區段中的下列資訊： <!--the info here is duplicated in the Create record types article-->
+1. （選擇性和條件性）如果您是系統管理員，請按一下&#x200B;**進階設定**&#x200B;並更新&#x200B;**跨工作區功能**&#x200B;區段中的下列資訊： <!--take this info out and replace it with a link to this article: help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md-->
    * 啟用&#x200B;**允許連線到其他工作區中的這個記錄型別**&#x200B;設定：這可讓工作區管理員從其他工作區連線到這個記錄型別。\
      您可以指定此記錄型別可以連線哪些工作區。 您可以使其可用於所有工作區，或指定可匯入其的特定工作區。
 如需詳細資訊，請參閱[設定記錄型別的跨工作區功能](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)。
