@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: d088b40cd8d46a986998fde2176646aa1660cb6b
+source-git-commit: 0e6b43d0d9ca416fdd67907457e3b0afec66db63
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '657'
 ht-degree: 4%
 
 ---
@@ -36,6 +36,10 @@ ht-degree: 4%
 * Adobe必須有已簽署的Adobe Gen AI合約檔案。
 如需簽署合約的詳細資訊，請參閱[簽署Adobe Gen AI合約](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)。
 
+## 加入Beta
+
+若要加入Beta版，請前往&#x200B;**設定** > **檢閱和核准** > **AI檢閱者**，然後按一下&#x200B;**接受條款**。
+
 
 ## 支援的檔案類型 {#supported-file-types-ai-reviewer}
 
@@ -55,7 +59,7 @@ AI檢閱者可檢閱下列檔案型別：
 
 ## 設定品牌指南
 
-Workfront AI檢閱者在檢閱內容時，會使用Genstudio Foundation中設定的品牌准則。 目前，您只能設定影像的品牌指南。 如需詳細資訊，請參閱[開始使用Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/get-started)。
+Workfront AI檢閱者在檢閱內容時，會使用Genstudio Foundation中設定的品牌准則。 目前，您只能設定影像的品牌指南。 如需詳細資訊，請參閱[開始使用Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started)。
 
 
 ## 建立AI檢閱者
