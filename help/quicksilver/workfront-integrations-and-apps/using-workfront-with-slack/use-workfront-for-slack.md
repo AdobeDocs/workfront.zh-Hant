@@ -20,7 +20,7 @@ ht-degree: 0%
 本節包含下列文章：
 
 * [設定 [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)
-* [從 [!DNL Slack]存取 [!DNL Adobe Workfront] ](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)
+* [從 [!DNL Slack]存取 [!DNL Adobe Workfront] &#x200B;](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)
 * [從 [!DNL Slack]管理您的工作和核准](../../workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md)
 * [從 [!DNL Slack]建立任務和問題](../../workfront-integrations-and-apps/using-workfront-with-slack/create-tasks-and-issues-from-slack.md)
 * [搜尋來自 [!DNL Slack]的 [!DNL Adobe Workfront] 個專案](../../workfront-integrations-and-apps/using-workfront-with-slack/search-for-wf-items-from-slack.md)

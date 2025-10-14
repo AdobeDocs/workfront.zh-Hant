@@ -893,7 +893,7 @@ GET /customAction
 
 指示成功或失敗的JSON字串，如以下錯誤處理區段中所指定。 失敗時（即狀態= &quot;failure&quot;），Workfront會向使用者顯示提供的錯誤訊息。
 
-**範例：** https://sample.com/webhooks/customName?name=archive&amp;documentId=5502082c003a4f30 ddec2fb2b739cb7c&amp;documentVersionId=54b598a700e2342d6971597a5df1a8d3
+**範例：** https://sample.com/webhooks/customName?name=archive&documentId=5502082c003a4f30 ddec2fb2b739cb7c&amp;documentVersionId=54b598a700e2342d6971597a5df1a8d3
 
 回應
 

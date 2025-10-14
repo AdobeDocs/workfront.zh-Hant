@@ -130,5 +130,5 @@ ht-degree: 0%
 
 ## API增強功能 {#api-enhancements}
 
-* [ API版本9](../../../../wf-api/api/new-api-version-9.md)的新增功能 
+* [&#x200B; API版本9](../../../../wf-api/api/new-api-version-9.md)的新增功能 
 * [新增至事件訂閱的新資源](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-1-release-activity.md#new-resources-added-to-event-subscriptions)

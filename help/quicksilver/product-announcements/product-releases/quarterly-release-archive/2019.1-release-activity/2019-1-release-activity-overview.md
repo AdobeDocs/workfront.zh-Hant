@@ -220,7 +220,7 @@ ht-degree: 0%
 
 ### API版本10現在可在預覽中使用 {#api-version-10-now-available-in-preview}
 
-API版本10現在可在預覽環境中使用。 它將在18.3版本的生產環境中提供。 如需詳細資訊，請參閱[ API 10版的新功能。](https://support.workfront.com/hc/en-us/articles/360010455333) 
+API版本10現在可在預覽環境中使用。 它將在18.3版本的生產環境中提供。 如需詳細資訊，請參閱[&#x200B; API 10版的新功能。](https://support.workfront.com/hc/en-us/articles/360010455333) 
 
 ### 各種要移除的單一登入選項 {#various-single-sign-on-options-to-be-removed}
 

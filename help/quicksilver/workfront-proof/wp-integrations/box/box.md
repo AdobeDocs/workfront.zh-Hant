@@ -24,7 +24,7 @@ ht-degree: 4%
 
 本節包含下列文章：
 
-* [ [!DNL Workfront Proof] 與 [!DNL Box] 整合簡介](../../../workfront-proof/wp-integrations/box/introduction-to-box.md)
+* [&#x200B; [!DNL Workfront Proof] 與 [!DNL Box] 整合簡介](../../../workfront-proof/wp-integrations/box/introduction-to-box.md)
 * [透過您的 [!DNL Box] 帳戶建立證明](../../../workfront-proof/wp-integrations/box/create-proof-box-account.md)
 * [與 [!DNL Workfront Proof]同步 [!DNL Box] 資料夾](../../../workfront-proof/wp-integrations/box/sycn-box-folder.md)
 * [在 [!DNL Box]中檢視校訂的原始檔案](../../../workfront-proof/wp-integrations/box/view-proof-original-file-box.md)

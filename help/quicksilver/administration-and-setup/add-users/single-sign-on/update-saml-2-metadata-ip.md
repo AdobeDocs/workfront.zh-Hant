@@ -160,4 +160,4 @@ ht-degree: 0%
 
 如需有關如何取得新的Workfront中繼資料URL的詳細資訊，請參閱[更新您的ADFS中繼資料](#update-your-adfs-metadata)。
 
-如需在Workfront中使用Active Directory Federation Services (ADFS)搭配SAML 2.0的其他資訊，請參閱[使用ADFS設定Adobe Workfront搭配SAML 2.0 ](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)。
+如需在Workfront中使用Active Directory Federation Services (ADFS)搭配SAML 2.0的其他資訊，請參閱[使用ADFS設定Adobe Workfront搭配SAML 2.0 &#x200B;](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)。

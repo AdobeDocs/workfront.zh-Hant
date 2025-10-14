@@ -310,7 +310,7 @@ This section will be updated with more information prior to the 20.4 release bei
 </MadCap:conditionalText>
 -->
 
-如需有關新增功能和更新的資訊，請參閱[ API 12](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12)版的新功能。
+如需有關新增功能和更新的資訊，請參閱[&#x200B; API 12](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12)版的新功能。
 
 如需API版本的詳細資訊，請參閱[API版本設定與支援排程](../../../wf-api/api/api-version-support-schedule.md)
 

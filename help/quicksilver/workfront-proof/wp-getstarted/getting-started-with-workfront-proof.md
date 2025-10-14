@@ -27,6 +27,6 @@ ht-degree: 0%
 本節包含下列子章節：
 
 * [工作流程範例](../../workfront-proof/wp-getstarted/workflow-examples/workflow-examples.md)
-* [ [!DNL Workfront Proof]中的個人設定](../../workfront-proof/wp-getstarted/personal-settings/personal-settings.md)
-* [ [!DNL Workfront Proof]中的系統資訊](../../workfront-proof/wp-getstarted/system-information/system-information.md)
+* [&#x200B; [!DNL Workfront Proof]中的個人設定](../../workfront-proof/wp-getstarted/personal-settings/personal-settings.md)
+* [&#x200B; [!DNL Workfront Proof]中的系統資訊](../../workfront-proof/wp-getstarted/system-information/system-information.md)
 * [[!DNL Workfront Proof] — 常見問題](../../workfront-proof/wp-getstarted/faqs/faqs.md)

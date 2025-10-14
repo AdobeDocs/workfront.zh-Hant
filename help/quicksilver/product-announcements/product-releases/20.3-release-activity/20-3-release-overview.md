@@ -403,7 +403,7 @@ For specific release dates and times for each cluster, see the
 
 ## API增強功能
 
-API第11版於2020.1版時發行。 如需有關新增功能和更新的資訊，請參閱[ API 11](../../../wf-api/api/new-api-version-11.md)版的新功能
+API第11版於2020.1版時發行。 如需有關新增功能和更新的資訊，請參閱[&#x200B; API 11](../../../wf-api/api/new-api-version-11.md)版的新功能
 
 <!--
 <a href="https://experience.workfront.com/s/article/What-s-new-in-API-version-11-1760875145" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">What's new in API version 11</a>

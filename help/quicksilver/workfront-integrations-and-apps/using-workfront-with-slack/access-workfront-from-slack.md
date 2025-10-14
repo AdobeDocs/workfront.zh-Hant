@@ -74,7 +74,7 @@ ht-degree: 1%
 ## 從[!DNL Slack]存取[!DNL Workfront]
 
 * [關於斜線指令](#about-slash-commands-about-slash-commands)
-* [從 [!DNL Slack]中的共用連結存取 [!DNL Workfront] ](#access-workfront-from-a-shared-link-in-slack-access-workfront-from-a-shared-link-in-slack)
+* [從 [!DNL Slack]中的共用連結存取 [!DNL Workfront] &#x200B;](#access-workfront-from-a-shared-link-in-slack-access-workfront-from-a-shared-link-in-slack)
 
 ## 從[!DNL Slack]中的斜線命令存取[!DNL Workfront] {#access-workfront-from-a-slash-command-in-slack}
 

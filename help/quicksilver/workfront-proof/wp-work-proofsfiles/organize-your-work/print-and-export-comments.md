@@ -28,7 +28,7 @@ ht-degree: 0%
 
 * [校訂檢視器](#the-proof-viewer)
 * [校訂詳細資訊頁面](#the-proof-details-page)
-* [ [!DNL Proof] 動作功能表](#the-proof-actions-menu)
+* [&#x200B; [!DNL Proof] 動作功能表](#the-proof-actions-menu)
 
 ### 校訂檢視器 {#the-proof-viewer}
 

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!--Audited: 04/2024-->
 
-[!DNL Scenario Planner]有額外的授權需求。 如需[!DNL Workfront Scenario Planner]的相關資訊，請參閱[ [!DNL Scenario Planner] 概觀](../scenario-planner/scenario-planner-overview.md)。
+[!DNL Scenario Planner]有額外的授權需求。 如需[!DNL Workfront Scenario Planner]的相關資訊，請參閱[&#x200B; [!DNL Scenario Planner] 概觀](../scenario-planner/scenario-planner-overview.md)。
 
 <!--
 might need to add information about the permissions to plans/ initiatives if those will be coming later?

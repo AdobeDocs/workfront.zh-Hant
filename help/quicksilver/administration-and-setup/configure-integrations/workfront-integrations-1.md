@@ -127,7 +127,7 @@ ht-degree: 0%
      <li>Premiere Pro </li>
      <li>After Effects </li>
      </ul>
-     <li><p>從<a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>下載/安裝。</p></li></ul>
+     <li><p>從<a href="https://exchange.adobe.com/apps/browse/cc?page=1&product=All&q=workfront&sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>下載/安裝。</p></li></ul>
      <p>如需資訊與指示，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">為[!DNL Adobe Workfront]應用程式安裝[!DNL Creative Cloud]外掛程式</a></p> 
      </td>  <td> </td> 
    <td> </td> 

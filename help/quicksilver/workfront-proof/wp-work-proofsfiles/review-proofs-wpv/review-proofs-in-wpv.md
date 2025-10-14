@@ -32,5 +32,5 @@ ht-degree: 0%
 * [在校訂檢視器中比較校訂](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md)
 * [在網路校訂檢視器中檢視先前的校訂版本](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/view-previous-proof-versions.md)
 * [在校訂檢視器中下載校訂](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/download-proof.md)
-* [ [!DNL Workfront Proof] 校訂檢視器中的鍵盤快速鍵](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md)
+* [&#x200B; [!DNL Workfront Proof] 校訂檢視器中的鍵盤快速鍵](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md)
 * [舊版校訂檢視器已移除](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/lpv-removed.md)

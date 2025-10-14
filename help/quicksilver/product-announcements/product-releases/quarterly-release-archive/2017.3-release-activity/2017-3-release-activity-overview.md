@@ -145,7 +145,7 @@ Workfront Proof和Workfront中的&#x200B;**校訂增強功能**
 * [新通訊電子郵件外觀](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-2-release-activity.md#new-look-form-communication-emails)
 * 使用者設定的[工作角色區段包含FTE可用性的百分比](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md#new-job-roles-interface-for-user-settings)
 * 更新資料流中的[篩選器系統更新現在跨物件持續存在](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md#filter-system-updates-in-the-update-stream)
-* 更新及電子郵件的[ RTF格式](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#rich-text-formatting)
+* 更新及電子郵件的[&#x200B; RTF格式](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#rich-text-formatting)
 * [Workfront與Slack](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#workfront-integration-with-slack)整合
 * [Outlook 365改良](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#outlook-365-improvements)
 

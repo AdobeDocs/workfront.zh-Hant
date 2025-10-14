@@ -50,7 +50,7 @@ ht-degree: 0%
 
 您可以整合[!DNL Workfront]與[!DNL Basecamp]或[!DNL Basecamp Classic]。 每個版本的[!DNL Basecamp]使用不同的API，因此需要不同的設定程式。
 
-如需設定[!DNL Basecamp Classic]的相關資訊，請參閱[整合 [!DNL Workfront Proof] 與 [!DNL Basecamp Classic].](https://support.workfront.com/knowledge/articles/115004234707/en-us?brand_id=662728&amp;return_to=%2Fhc%2Fen-us%2Farticles%2F115004234707)
+如需設定[!DNL Basecamp Classic]的相關資訊，請參閱[整合 [!DNL Workfront Proof] 與 [!DNL Basecamp Classic].](https://support.workfront.com/knowledge/articles/115004234707/en-us?brand_id=662728&return_to=%2Fhc%2Fen-us%2Farticles%2F115004234707)
 
 ## 正在啟用[!DNL Basecamp]與[!DNL Workfront Proof]的整合
 

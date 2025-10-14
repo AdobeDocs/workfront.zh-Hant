@@ -21,4 +21,4 @@ ht-degree: 0%
 
 * [使用 [!DNL Adobe Workfront] 行動應用程式](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md)
 * [使用 [!DNL Adobe Workfront View]](../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md)
-* [ [!DNL Adobe Workfront] 行動應用程式的秘訣、技巧和疑難排解](../../workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-mobile.md)
+* [&#x200B; [!DNL Adobe Workfront] 行動應用程式的秘訣、技巧和疑難排解](../../workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-mobile.md)

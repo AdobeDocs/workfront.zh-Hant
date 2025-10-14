@@ -56,7 +56,7 @@ Workfront管理員現在可以還原過去30天內刪除的個別檔案。 
 
 API 7現已可用，並包含新的和更新的物件。
 
-如需詳細資訊，請參閱[ API版本7](../../../../wf-api/api/new-api-version-7.md)的新增功能。
+如需詳細資訊，請參閱[&#x200B; API版本7](../../../../wf-api/api/new-api-version-7.md)的新增功能。
 
 ## 訂閱任務和問題 {#subscribe-to-tasks-and-issues}
 

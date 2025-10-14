@@ -21,7 +21,7 @@ ht-degree: 0%
 * [此整合需要實作服務嗎？](#will-this-integration-require-implementation-services)
 * [我是否需要以特定方式設定 [!DNL Workfront] 才能讓此功能運作？](#is-there-a-specific-way-that-i-have-to-configure-workfront-for-this-to-work)
 * [我是否需要以特定方式設定 [!DNL Anaplan] 才能讓此功能運作？](#is-there-a-specific-way-that-i-have-to-configure-anaplan-for-this-to-work)
-* [ [!DNL Workfront professional services] 可以協助我設定我的 [!DNL Anaplan] 工作區嗎？](#will-workfront-professional-services-help-me-configure-my-anaplan-workspace)
+* [&#x200B; [!DNL Workfront professional services] 可以協助我設定我的 [!DNL Anaplan] 工作區嗎？](#will-workfront-professional-services-help-me-configure-my-anaplan-workspace)
 
 ## 我是否必須使用[!DNL Adobe Workfront Fusion?] {#do-i-have-to-use-adobe-workfront-fusion}
 

@@ -517,7 +517,7 @@ Workfront Fusion中的新功能可在2024年第三季度發行排程之外的步
 
 針對API版本18，我們已修改一些資源和端點。 有些變更支援新功能，有些則讓您更輕鬆地透過API使用可用資訊。
 
-如需新增和更新的詳細資訊，請參閱[ API 18](/help/quicksilver/wf-api/api/new-api-version-18.md)版的新增功能。
+如需新增和更新的詳細資訊，請參閱[&#x200B; API 18](/help/quicksilver/wf-api/api/new-api-version-18.md)版的新增功能。
 
 如需API版本的資訊，請參閱[API版本設定與支援排程](/help/quicksilver/wf-api/api/api-version-support-schedule.md)。
 

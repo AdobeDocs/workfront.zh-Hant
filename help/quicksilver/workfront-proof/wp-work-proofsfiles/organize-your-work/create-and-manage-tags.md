@@ -76,7 +76,7 @@ ht-degree: 0%
 1. 在清單檢視或「控制面板」上，選取要為其建立或管理標籤的一或多個專案。
 1. 按一下清單上方的&#x200B;**[!UICONTROL 標籤]** > **[!UICONTROL 管理標籤]**。
 
-1. 在出現的[!UICONTROL 標籤]標籤上，依照上文[建立、編輯或刪除標籤](https://support.workfront.com/knowledge/articles/115004379508/en-us?brand_id=662728&amp;return_to=%2Fhc%2Fen-us%2Farticles%2F115004379508#CreatingEditingDeletingTag)中的說明管理您的標籤。\
+1. 在出現的[!UICONTROL 標籤]標籤上，依照上文[建立、編輯或刪除標籤](https://support.workfront.com/knowledge/articles/115004379508/en-us?brand_id=662728&return_to=%2Fhc%2Fen-us%2Farticles%2F115004379508#CreatingEditingDeletingTag)中的說明管理您的標籤。\
    當標籤旁邊的核取方塊為深灰色時，標籤會套用至所有選取的專案。 如果是淺灰色，則只有選取批次中的部分專案會以它標籤。 如果要從所有選取的專案中移除標籤，請確定標籤旁邊的勾選方塊是空的。\
    ![Tags_menu_-_Dark_and_light_checks.png](assets/tags-menu---dark-and-light-checks-350x217.png)
 

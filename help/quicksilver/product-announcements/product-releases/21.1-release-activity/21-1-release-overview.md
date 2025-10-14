@@ -337,7 +337,7 @@ This section will be updated with more information prior to the 20.4 release bei
 </MadCap:conditionalText>
 -->
 
-如需有關新增功能和更新的資訊，請參閱[ API 12](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12)版的新功能。
+如需有關新增功能和更新的資訊，請參閱[&#x200B; API 12](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12)版的新功能。
 
 如需API版本的詳細資訊，請參閱[API版本設定與支援排程](../../../wf-api/api/api-version-support-schedule.md)
 
@@ -392,7 +392,7 @@ This section will be updated with more information prior to the 20.4 release bei
 
 ### 21.1版本網路研討會 {#21-1-release-webinar}
 
-Workfront 21.1版本網路研討會將於2月3日上午11:00 (東部夏令時間/下午4:00 （英國夏令時間）舉行。 在[這裡](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&amp;partnerref=ac&amp;eventid=2934272&amp;sessionid=1&amp;key=5C231B3385686D1E224A49EBE0BF0E37&amp;regTag=&amp;V2=false&amp;sourcepage=register)註冊網路研討會。
+Workfront 21.1版本網路研討會將於2月3日上午11:00 (東部夏令時間/下午4:00 （英國夏令時間）舉行。 在[這裡](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&partnerref=ac&eventid=2934272&sessionid=1&key=5C231B3385686D1E224A49EBE0BF0E37&regTag=&V2=false&sourcepage=register)註冊網路研討會。
 
 ### 預覽發行步調中的變更 {#change-in-preview-release-cadence}
 

@@ -24,4 +24,4 @@ ht-degree: 0%
 
 本節包含下列文章：
 
-* [ [!DNL Workfront Proof] API](../../../workfront-proof/wp-integrations/api/workfront-proof-api.md)
+* [&#x200B; [!DNL Workfront Proof] API](../../../workfront-proof/wp-integrations/api/workfront-proof-api.md)

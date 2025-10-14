@@ -467,4 +467,4 @@ Replacement of Flash-based tools in Workfront
 
 ### 第3季產品藍圖網路研討會 {#q3-product-roadmap-webinar}
 
-深入瞭解將於8月1日上午9:00舉行的[第3季藍圖網路研討會](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&amp;partnerref=Product&amp;eventid=2040896&amp;sessionid=1&amp;key=EFBB434E2FDF446E010DA62D1C27E9E5&amp;regTag=&amp;sourcepage=register)。 最小
+深入瞭解將於8月1日上午9:00舉行的[第3季藍圖網路研討會](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&partnerref=Product&eventid=2040896&sessionid=1&key=EFBB434E2FDF446E010DA62D1C27E9E5&regTag=&sourcepage=register)。 最小

@@ -27,6 +27,6 @@ AI可協助您自動填寫請求欄位。 它可以根據先前的請求來建�
 * [使用先前請求的資料自動完成請求](/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md)
 * [使用AI表單填寫以使用提示或檔案填寫請求](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)
 
-  若要使用提示或檔案的自動填寫，您的組織必須符合使用Workfront AI助理的要求。 如需詳細資訊，請參閱[ AI助理的必要條件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
+  若要使用提示或檔案的自動填寫，您的組織必須符合使用Workfront AI助理的要求。 如需詳細資訊，請參閱[&#x200B; AI助理的必要條件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
 
 

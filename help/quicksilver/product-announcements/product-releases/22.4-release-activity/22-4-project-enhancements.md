@@ -112,7 +112,7 @@ ht-degree: 2%
 
 ### 我們需要您的意見反應！
 
-有了此公共Beta，使用者可以按一下意見按鈕，直接將意見提交至處理篩選器體驗的團隊。 我們期待您和您的使用者能分享公開測試版中新的篩選器體驗。 如果您的團隊想要直接與產品會面以提供其他意見反應，歡迎在這裡排程會議： https://calendly.com/wf-product-and-design-research/filtersfeedbackpublicbeta?month=2022-08&amp;date=2022-08-25
+有了此公共Beta，使用者可以按一下意見按鈕，直接將意見提交至處理篩選器體驗的團隊。 我們期待您和您的使用者能分享公開測試版中新的篩選器體驗。 如果您的團隊想要直接與產品會面以提供其他意見反應，歡迎在這裡排程會議： https://calendly.com/wf-product-and-design-research/filtersfeedbackpublicbeta?month=2022-08&date=2022-08-25
 
 ### 接下來呢？
 

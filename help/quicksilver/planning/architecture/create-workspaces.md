@@ -163,6 +163,6 @@ ht-degree: 1%
    >
    >對於目前正在轉換至Adobe Identity Management System (IMS)的使用者，非IMS使用者的僅Workfront使用者所建立的工作區，會顯示為&#x200B;**系統**&#x200B;所建立。
    >
-   >如需IMS的相關資訊，請參閱[Workfront的Adobe Unified Experience ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
+   >如需IMS的相關資訊，請參閱[Workfront的Adobe Unified Experience &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 
 

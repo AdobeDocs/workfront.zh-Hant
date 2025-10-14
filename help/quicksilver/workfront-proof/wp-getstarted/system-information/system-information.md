@@ -25,5 +25,5 @@ ht-degree: 0%
 本節包含下列文章：
 
 * [預覽Sandbox測試環境 —  [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md)
-* [ [!DNL Workfront Proof]中的語言設定](../../../workfront-proof/wp-getstarted/system-information/language-settings.md)
-* [ [!DNL Workfront Proof]中的轉碼器](../../../workfront-proof/wp-getstarted/system-information/codecs.md)
+* [&#x200B; [!DNL Workfront Proof]中的語言設定](../../../workfront-proof/wp-getstarted/system-information/language-settings.md)
+* [&#x200B; [!DNL Workfront Proof]中的轉碼器](../../../workfront-proof/wp-getstarted/system-information/codecs.md)

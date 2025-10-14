@@ -33,7 +33,7 @@ ht-degree: 0%
 1. 從連線的帳戶清單(2)中選取目的地帳戶。
 1. 指派此使用者應擁有的新帳戶設定檔許可權(3)。
 1. 選取應擁有不會移動之專案的使用者(4)。
-這包括您決定留在舊帳戶上的專案以及無法移動的專案（請參閱下方的[無法移動的專案](https://support.workfront.com/knowledge/articles/115004087708/en-us?brand_id=662728&amp;return_to=%2Fhc%2Fen-us%2Farticles%2F115004087708#Items-that-can&#39;t-be-moved)）。
+這包括您決定留在舊帳戶上的專案以及無法移動的專案（請參閱下方的[無法移動的專案](https://support.workfront.com/knowledge/articles/115004087708/en-us?brand_id=662728&return_to=%2Fhc%2Fen-us%2Farticles%2F115004087708#Items-that-can&#39;t-be-moved)）。
 
 1. 如果您想要與使用者一起移動校樣(5)和檔案(6)，請核取核取方塊。
 1. 為資料夾(7)建立名稱，所有移動的專案都會置於該資料夾中的新帳戶中。

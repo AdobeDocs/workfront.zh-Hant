@@ -23,7 +23,7 @@ ht-degree: 0%
 
 本節包含下列文章：
 
-* [ [!DNL Workfront Proof]中的基本校訂程式](../../../workfront-proof/wp-getstarted/workflow-examples/basic-proof-process.md)
+* [&#x200B; [!DNL Workfront Proof]中的基本校訂程式](../../../workfront-proof/wp-getstarted/workflow-examples/basic-proof-process.md)
 * [在 [!DNL Workfront Proof]中進行內部檢閱，然後再進行外部檢閱](../../../workfront-proof/wp-getstarted/workflow-examples/internal-external-review.md)
 * [與 [!DNL Workfront Proof]中的設計人員和專案經理合作](../../../workfront-proof/wp-getstarted/workflow-examples/work-designers-project-managers.md)
 * [使用 [!DNL Workfront Proof]中的自由譯者](../../../workfront-proof/wp-getstarted/workflow-examples/work-freelancers.md)

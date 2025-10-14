@@ -22,7 +22,7 @@ ht-degree: 0%
 本節包含下列文章：
 
 * [Portfolio管理概觀](../../../manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md)
-* [ [!DNL Adobe Workfront]中的Portfolio概觀](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)
+* [&#x200B; [!DNL Adobe Workfront]中的Portfolio概觀](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)
 * [在投資組合中導覽](../../../manage-work/portfolios/portfolios-overview/navigate-within-portfolio.md)
 
 

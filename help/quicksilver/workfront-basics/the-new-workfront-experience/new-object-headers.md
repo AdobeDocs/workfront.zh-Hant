@@ -790,7 +790,7 @@ The following headers are available in Home:
 
 ![](assets/nwe-plan-header-350x34.png)
 
-計畫是[!DNL Workfront Scenario Planner]的物件。 如需[!DNL Scenario Planner]的相關資訊，請參閱[ [!DNL Scenario Planner] 概觀](../../scenario-planner/scenario-planner-overview.md)。
+計畫是[!DNL Workfront Scenario Planner]的物件。 如需[!DNL Scenario Planner]的相關資訊，請參閱[&#x200B; [!DNL Scenario Planner] 概觀](../../scenario-planner/scenario-planner-overview.md)。
 
 計畫表頭會顯示下列資訊：
 

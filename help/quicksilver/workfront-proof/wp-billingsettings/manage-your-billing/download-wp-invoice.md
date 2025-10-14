@@ -22,7 +22,7 @@ ht-degree: 0%
 
 在新帳單期間的第一天，您的訂閱發票會傳送到您帳戶上的主要帳單連絡人，並傳送到[!UICONTROL 帳單副本]電子郵件地址（如果您已定義電子郵件地址）。
 
-發票也會顯示在您[!DNL Workfront Proof]帳戶的[!UICONTROL 帳單]區段中，可供下載。 如需詳細資訊，請參閱[ [!DNL Workfront Proof] 帳單頁面](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)。
+發票也會顯示在您[!DNL Workfront Proof]帳戶的[!UICONTROL 帳單]區段中，可供下載。 如需詳細資訊，請參閱[&#x200B; [!DNL Workfront Proof] 帳單頁面](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)。
 
 您會在商業發票上找到下列資訊：
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 ## 有用的連結 {#useful-links}
 
-若要變更您帳戶的帳單資訊，請移至「帳單」頁面的「帳單連絡人和地址」區段。 檢視[校訂帳單頁面 [!DNL Workfront] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
+若要變更您帳戶的帳單資訊，請移至「帳單」頁面的「帳單連絡人和地址」區段。 檢視[校訂帳單頁面 [!DNL Workfront] &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
 
 如需有關如何變更您帳戶上信用卡詳細資料的資訊，請參閱[在Workfront Proof中選擇付款方式](../../../workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md)。
 

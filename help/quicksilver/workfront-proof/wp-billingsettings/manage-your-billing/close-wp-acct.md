@@ -28,7 +28,7 @@ ht-degree: 0%
 
 1. 開啟[!UICONTROL 設定]功能表並選擇&#x200B;**[!UICONTROL 帳單]** (1)，以開啟您帳戶中的[!UICONTROL 帳單]頁面。
 
-   如需帳單頁面的詳細資訊，請參閱[校訂帳單頁面 [!DNL Workfront] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)。
+   如需帳單頁面的詳細資訊，請參閱[校訂帳單頁面 [!DNL Workfront] &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)。
 
    ![帳單設定](assets/upgradesdowngrades-billing-settings-350x168.png)
 

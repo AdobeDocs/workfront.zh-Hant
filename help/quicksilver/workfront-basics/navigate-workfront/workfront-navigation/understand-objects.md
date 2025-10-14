@@ -269,7 +269,7 @@ ht-degree: 1%
 * [!UICONTROL 篩選器]
 * [!UICONTROL 目標]
    * 您可以為策略目標建立報告，或在專案與目標關聯作為目標活動時，可在專案報告中顯示目標相關的資訊。 您只能在組織已購買[!DNL Workfront Goals]授權的情況下建立策略目標並連線專案。 如需[!DNL Workfront Goals]的相關資訊，請參閱[[!DNL Workfront Goals] 概觀](../../../workfront-goals/goal-management/wf-goals-overview.md)。 如需有關將專案連線到策略目標的資訊，請參閱[將專案新增到Adobe Workfront目標中的目標](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)。
-*您無法報告與[!UICONTROL 業務案例]相關聯的專案目標。 如需有關專案目標與策略目標的資訊，請參閱[ [!DNL Adobe Workfront] 術語表](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)。
+*您無法報告與[!UICONTROL 業務案例]相關聯的專案目標。 如需有關專案目標與策略目標的資訊，請參閱[&#x200B; [!DNL Adobe Workfront] 術語表](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)。
 
 * [!UICONTROL 群組]
 * [!UICONTROL 群組]

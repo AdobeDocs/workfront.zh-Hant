@@ -23,7 +23,7 @@ ht-degree: 0%
 
 本節包含下列文章：
 
-* [ [!DNL Workfront Proof]中的儀表板](../../../workfront-proof/wp-work-proofsfiles/basic-features/dashboard.md)
+* [&#x200B; [!DNL Workfront Proof]中的儀表板](../../../workfront-proof/wp-work-proofsfiles/basic-features/dashboard.md)
 * [在 [!DNL Workfront Proof]中檢視表索引標籤上的頁面配置](../../../workfront-proof/wp-work-proofsfiles/basic-features/page-layout-view.md)
 * [正在搜尋 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/basic-features/search.md)
 * [瞭解 [!DNL Workfront Proof] 活動稽核軌跡](../../../workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md)

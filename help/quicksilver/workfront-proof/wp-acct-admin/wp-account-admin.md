@@ -24,9 +24,9 @@ ht-degree: 0%
 
 本節包含下列子章節：
 
-* [ [!DNL Workfront Proof]中的帳戶設定](../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)
+* [&#x200B; [!DNL Workfront Proof]中的帳戶設定](../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)
 * [品牌化 [!DNL Workfront Proof]](../../workfront-proof/wp-acct-admin/branding/branding.md)
 * [管理安全性](../../workfront-proof/wp-acct-admin/managing-security/manage-security.md)
-* [ [!DNL Workfront Proof]中的夥伴帳戶](../../workfront-proof/wp-acct-admin/partner-accounts/partner-accounts.md)
-* [ [!DNL Workfront Proof]中的附屬帳戶](../../workfront-proof/wp-acct-admin/satellite-accounts/satellite-accounts.md)
-* [ [!DNL Workfront Proof] 帳戶管理的秘訣、技巧和疑難排解](../../workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting.md)
+* [&#x200B; [!DNL Workfront Proof]中的夥伴帳戶](../../workfront-proof/wp-acct-admin/partner-accounts/partner-accounts.md)
+* [&#x200B; [!DNL Workfront Proof]中的附屬帳戶](../../workfront-proof/wp-acct-admin/satellite-accounts/satellite-accounts.md)
+* [&#x200B; [!DNL Workfront Proof] 帳戶管理的秘訣、技巧和疑難排解](../../workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting.md)

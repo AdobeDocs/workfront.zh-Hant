@@ -51,7 +51,7 @@ BreadCrumb物件代表Adobe Workfront工作專案之父/子階層中的元素。
 
 RTF文字欄位現在可用於更多物件。 已將RichTextParameterValue物件新增至Workfront，以支援此可用性。
 
-如需詳細資訊，請參閱Adobe Workfront API中的[ RTF欄位](../../wf-api/general/rich-text-field-api.md)。
+如需詳細資訊，請參閱Adobe Workfront API中的[&#x200B; RTF欄位](../../wf-api/general/rich-text-field-api.md)。
 
 <table style="table-layout:auto"> <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">

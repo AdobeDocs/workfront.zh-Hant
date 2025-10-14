@@ -24,6 +24,6 @@ ht-degree: 0%
 
 本節包含下列文章：
 
-* [ [!DNL Workfront Proof]中的校訂安全性](../../../workfront-proof/wp-acct-admin/managing-security/proof-security-in-workfront-proof.md)
-* [ [!DNL Workfront Proof]中的單一登入](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md)
+* [&#x200B; [!DNL Workfront Proof]中的校訂安全性](../../../workfront-proof/wp-acct-admin/managing-security/proof-security-in-workfront-proof.md)
+* [&#x200B; [!DNL Workfront Proof]中的單一登入](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md)
 * [瞭解 [!DNL Workfront Proof]中的電子簽章](../../../workfront-proof/wp-acct-admin/managing-security/electronic-sigs-in-wp.md)

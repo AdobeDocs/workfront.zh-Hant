@@ -24,6 +24,6 @@ ht-degree: 0%
 
 本節包含下列文章：
 
-* [ [!DNL Workfront Proof]中的附屬帳戶](../../../workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md)
+* [&#x200B; [!DNL Workfront Proof]中的附屬帳戶](../../../workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md)
 * [在 [!DNL Workfront Proof]中設定附屬帳戶](../../../workfront-proof/wp-acct-admin/satellite-accounts/configure-sat-acct-in-wp.md)
 * [在 [!DNL Workfront Proof]中管理附屬帳戶](../../../workfront-proof/wp-acct-admin/satellite-accounts/manage-sat-acct-in-wp.md)

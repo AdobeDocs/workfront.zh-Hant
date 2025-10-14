@@ -75,7 +75,7 @@ ht-degree: 1%
 
 您可以從[!DNL Adobe Exchange]自行安裝[!DNL Adobe Workfront for XD]外掛程式。
 
-1. 前往Adobe Exchange上的[Adobe Workfront for XD安裝頁面](https://exchange.adobe.com/apps/cc/4c3566f9?pluginId=4c3566f9&amp;workflow=share)。
+1. 前往Adobe Exchange上的[Adobe Workfront for XD安裝頁面](https://exchange.adobe.com/apps/cc/4c3566f9?pluginId=4c3566f9&workflow=share)。
 1. 在出現的對話方塊中，按一下&#x200B;**開啟[!DNL Adobe Creative Cloud]案頭應用程式**。
 1. 在[!DNL Adobe XD]外掛程式管理員開啟後，按一下&#x200B;**[!UICONTROL 安裝]**。
 1. 讀取對話方塊中的資訊，然後按一下[確定]。**&#x200B;**

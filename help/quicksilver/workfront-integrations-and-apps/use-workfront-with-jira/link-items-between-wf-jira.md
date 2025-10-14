@@ -178,7 +178,7 @@ ht-degree: 0%
 
    >[!IMPORTANT]
    >
-   >如果您的組織已加入Adobe統一體驗，您必須使用&#x200B;**參考編號**&#x200B;將Workfront專案連結至Jira。 （URL選項可供使用，但如果您使用它，則會傳回錯誤。） 如需Unified Experience的相關資訊，請參閱[Workfront的Adobe Unified Experience ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
+   >如果您的組織已加入Adobe統一體驗，您必須使用&#x200B;**參考編號**&#x200B;將Workfront專案連結至Jira。 （URL選項可供使用，但如果您使用它，則會傳回錯誤。） 如需Unified Experience的相關資訊，請參閱[Workfront的Adobe Unified Experience &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
    >
    >對於不在Adobe Unified Experience上的組織，不建議使用URL選項，因為URL可能會變更。
 

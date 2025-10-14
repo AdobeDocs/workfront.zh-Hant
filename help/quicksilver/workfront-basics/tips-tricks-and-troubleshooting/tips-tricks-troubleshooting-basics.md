@@ -20,8 +20,8 @@ ht-degree: 0%
 
 * [在 [!DNL Adobe Workfront]中尋找說明的快速指南](../../workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md)
 * [聯絡客戶支援](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)
-* [ [!DNL Adobe Workfront] 社群](../../workfront-basics/tips-tricks-and-troubleshooting/workfront-community.md)
-* [ [!DNL Adobe Workfront] 狀態網站](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md)
+* [&#x200B; [!DNL Adobe Workfront] 社群](../../workfront-basics/tips-tricks-and-troubleshooting/workfront-community.md)
+* [&#x200B; [!DNL Adobe Workfront] 狀態網站](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md)
 * [[!UICONTROL 創新實驗室]](../../workfront-basics/tips-tricks-and-troubleshooting/idea-exchange.md)
 * [跨時區工作](../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md)
 * [[!DNL Workfront] [!UICONTROL 校訂管理員]許可權疑難排解](../../workfront-basics/tips-tricks-and-troubleshooting/wp-manager-permissions-troubleshooting.md)

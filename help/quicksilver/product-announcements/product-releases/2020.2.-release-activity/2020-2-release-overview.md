@@ -246,9 +246,9 @@ To download this page in PDF&nbsp;format, go
 
 ## API增強功能
 
-API第11版於2020.1版時發行。 如需有關新增功能和更新的資訊，請參閱[ API版本11的新功能](../../../wf-api/api/new-api-version-11.md) [ API版本11](https://experience.workfront.com/s/article/What-s-new-in-API-version-11-1760875145)的新功能。
+API第11版於2020.1版時發行。 如需有關新增功能和更新的資訊，請參閱[&#x200B; API版本11的新功能](../../../wf-api/api/new-api-version-11.md) [&#x200B; API版本11](https://experience.workfront.com/s/article/What-s-new-in-API-version-11-1760875145)的新功能。
 
-如需API版本的詳細資訊，請參閱[API版本設定與支援排程](../../../wf-api/api/api-version-support-schedule.md) [API版本發行與支援排程](https://experience.workfront.com/s/article/API-Version-Release-and-Support-Schedule-272875487?language=en_US&amp;r=13&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1)。
+如需API版本的詳細資訊，請參閱[API版本設定與支援排程](../../../wf-api/api/api-version-support-schedule.md) [API版本發行與支援排程](https://experience.workfront.com/s/article/API-Version-Release-and-Support-Schedule-272875487?language=en_US&r=13&ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&ui-self-service-components-controller.ArticleTopicList.getTopics=1&ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1)。
 
 ## Workfront 維護更新
 

@@ -124,7 +124,7 @@ ht-degree: 0%
 
 ### API版本10現在可在預覽中使用 {#api-version-10-now-available-in-preview}
 
-API版本10現在可在預覽環境中使用。 它將在18.3版本的生產環境中提供。 如需詳細資訊，請參閱[ API 10](../../../../wf-api/api/new-api-version-10.md)版的新功能。 
+API版本10現在可在預覽環境中使用。 它將在18.3版本的生產環境中提供。 如需詳細資訊，請參閱[&#x200B; API 10](../../../../wf-api/api/new-api-version-10.md)版的新功能。 
 
 ### 不再支援API第3版 {#api-version-3-no-longer-supported}
 

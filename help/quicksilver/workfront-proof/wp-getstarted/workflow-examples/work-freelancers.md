@@ -37,7 +37,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->任何以使用者身分新增至您帳戶的自由職業者都可以檢視您的帳戶，並且可能還可以檢視使用者端詳細資訊（視其使用者設定檔而定）。 這可能不是您想要的，因此為自由譯者設定衛星帳戶可能是更合適的選項；請參閱下面的[為自由譯者設定衛星帳戶](https://support.workfront.com/knowledge/articles/115004259868/en-us?brand_id=662728&amp;return_to=%2Fhc%2Fen-us%2Farticles%2F115004259868#Option-B---set-up-a-satellite-account-for-your-freelancers)。
+>任何以使用者身分新增至您帳戶的自由職業者都可以檢視您的帳戶，並且可能還可以檢視使用者端詳細資訊（視其使用者設定檔而定）。 這可能不是您想要的，因此為自由譯者設定衛星帳戶可能是更合適的選項；請參閱下面的[為自由譯者設定衛星帳戶](https://support.workfront.com/knowledge/articles/115004259868/en-us?brand_id=662728&return_to=%2Fhc%2Fen-us%2Farticles%2F115004259868#Option-B---set-up-a-satellite-account-for-your-freelancers)。
 
 ## 設定您的自由職業者的衛星帳戶
 

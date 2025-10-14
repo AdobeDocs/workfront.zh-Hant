@@ -106,7 +106,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >當您在Workfront中建立或更新使用者，並且該使用者的Workfront電子郵件地址與授權的Workfront Proof使用者的電子郵件地址相符時，系統會在Workfront中啟用該使用者的校訂。 如需詳細資訊，請參閱[ Adobe Workfront與Workfront Proof之間的使用者同步](../../../administration-and-setup/manage-workfront/configure-proofing/user-sync-proofing.md)。
+   >當您在Workfront中建立或更新使用者，並且該使用者的Workfront電子郵件地址與授權的Workfront Proof使用者的電子郵件地址相符時，系統會在Workfront中啟用該使用者的校訂。 如需詳細資訊，請參閱[&#x200B; Adobe Workfront與Workfront Proof之間的使用者同步](../../../administration-and-setup/manage-workfront/configure-proofing/user-sync-proofing.md)。
 
 ### 考量事項
 

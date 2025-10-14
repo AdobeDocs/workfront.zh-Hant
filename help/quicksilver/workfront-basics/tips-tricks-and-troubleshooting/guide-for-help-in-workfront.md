@@ -151,7 +151,7 @@ ht-degree: 1%
 
 訂閱[status.adobe.com](https://status.adobe.com/)，以隨時掌握維護排程和中斷問題的相關資訊。
 
-若要深入瞭解[!DNL Workfront]狀態網站，請參閱[狀態網站 [!DNL Adobe Workfront] ](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md)。
+若要深入瞭解[!DNL Workfront]狀態網站，請參閱[狀態網站 [!DNL Adobe Workfront] &#x200B;](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md)。
 
 若要瞭解每週維護更新中修正的內容，請參閱[維護更新](https://experienceleague.adobe.com/zh-hant/docs/workfront-known-issues/releases/current-updates)。
 
