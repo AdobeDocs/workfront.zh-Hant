@@ -58,7 +58,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td>具有[！UICONTROL Edit User]存取權的[！UICONTROL Manager] （變更其他使用者的休假行事曆）<br>
+   <td>具有[!UICONTROL Edit User]存取權的[!UICONTROL Manager] （變更其他使用者的休假行事曆）<br>
    <strong>注意：</strong>如果管理員編輯其他使用者的個人休假行事曆，所有專案都會以使用者的時區顯示，而非管理員的時區顯示。</td> 
   </tr> 
  </tbody> 
