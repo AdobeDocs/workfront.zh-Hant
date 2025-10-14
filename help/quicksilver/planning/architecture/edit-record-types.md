@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: 393f858ba3711b367cf06ad846ea60be0d6d9034
+source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '686'
 ht-degree: 2%
 
 ---
@@ -100,12 +100,13 @@ ht-degree: 2%
 1. 執行下列其中一項：
 
    * 暫留在記錄型別的卡片上，然後按一下記錄型別卡片右上角的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**編輯**
+     <!--<span class="preview">or **Settings**</span>-->
 或
-   * <span class="preview">按一下記錄型別卡片以開啟記錄型別頁面，按一下記錄型別名稱右邊的&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下&#x200B;**編輯**。</span>
+   * <span class="preview">按一下記錄型別卡片以開啟記錄型別頁面，按一下記錄型別名稱右邊的&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下&#x200B;**編輯**<!--<span class="preview">or **Settings**</span>. </span>-->
 
-   <span class="preview">![更多記錄型別卡片中的功能表選項](assets/more-menu-options-from-record-type-card.png)</span>
+   <!--<span class="preview">![More menu options from record type card](assets/more-menu-options-from-record-type-card.png)</span>-->
 
-1. 在&#x200B;**編輯記錄型別**&#x200B;方塊中，**外觀**&#x200B;索引標籤預設為開啟。
+1. 在&#x200B;**編輯記錄型別**&#x200B;方塊中，**外觀**&#x200B;索引標籤預設為開啟。<!--update screen shot below at preview-->
 
    ![編輯記錄型別方塊外觀索引標籤](assets/edit-record-type-box-appearance-tab.png)
 
@@ -117,37 +118,26 @@ ht-degree: 2%
       * 選取顏色以識別記錄型別。 這是記錄型別圖示的顏色。
       * 從清單中選取圖示，或開始輸入圖示名稱以說明其代表內容，然後在顯示時選取它。 這是記錄型別的圖示。 依預設，會選取檔案圖示。
 
-   <!--old info: 
-   1. (Conditional) If you are a system administrator, click the **Advanced settings** tab in the **Edit record type** box. 
-      ![Edit record type box advanced settings tab](assets/edit-record-type-box-advanced-settings-tab.png)
-   1. (Conditional) Update the following information in the **Advanced settings** tab: 
-      * Enable the **Connect from other workspace** setting. When enabled, the record type is accessible and can be connected from other workspaces. 
-      * Choose from which workspaces the record type can be accessed. Choose from the following options:
-         * **System wide**: Users can connect to this record type from all workspaces where they have manage permissions. 
-         * **Specific workspaces**: Add the names of the workspaces where workspace managers can connect to this record type.-->
 
-
-1. （選擇性和條件性）如果您是系統管理員，請按一下&#x200B;**進階設定**&#x200B;並更新&#x200B;**跨工作區功能**&#x200B;區段中的下列資訊： <!--take this info out and replace it with a link to this article: help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md-->
+1. （選擇性和條件性）如果您是系統管理員，請按一下&#x200B;**進階設定**，並更新&#x200B;**跨工作區功能**&#x200B;區段中的下列資訊： <!--the info here is duplicated in the Create record types article-->
    * 啟用&#x200B;**允許連線到其他工作區中的這個記錄型別**&#x200B;設定：這可讓工作區管理員從其他工作區連線到這個記錄型別。\
      您可以指定此記錄型別可以連線哪些工作區。 您可以使其可用於所有工作區，或指定可匯入其的特定工作區。
 如需詳細資訊，請參閱[設定記錄型別的跨工作區功能](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)。
 
-   ![編輯記錄型別方塊進階設定索引標籤](assets/edit-record-type-box-advanced-settings-tab.png)
 
-   <!--replace last point with this when we release dynamic record types:
-      1. (Optional and conditional) If you are a system administrator, click **Advanced settings** and update the following information in the **Cross-workspace capability** section: **** the info here is duplicated in the Edit record types article ***
-         * Enable the **Allow adding this record type to other workspaces** setting: This allows workspace managers to add this record type to other workspaces. 
-               You can designate specific users who can add this record type to other workspaces. 
-         * Enable the **Allow connecting to this record type in other workspaces** setting: This allows workspace managers to connect to this record type from other workspaces.  
-               You can designate which workspaces this record type can be connected from. You can make it available for all workspaces or designate specific ones where you can import it.
-         For more information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).  
-         ******** replace screen shot below **********
-         ![Create record type box on advanced settings tab](assets/create-record-type-box-advanced-settings-tab.png) 
-      -->
+   ![在進階設定索引標籤上建立記錄型別方塊](assets/create-record-type-box-advanced-settings-tab.png)
+
+   <!--replace last point with this when we release global record types; the preview tags might need to be edited, too:
+    1. <span class="preview">(Optional and conditional) If you are a system administrator, update the information in the **Cross-workspace settings** tab.</span>
+    <span class="preview">For more information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).</span>
+    ***********Add screenshot***********
+    -->
 
 1. 按一下「**儲存**」。
 
    工作區上的記錄型別卡片會在右上角顯示連線圖示![從其他工作區連線圖示](assets/connect-from-other-workspaces-icon.png)，表示現在可以從其他工作區存取記錄。
+
+   <!--replace the blurb above after "Save" with this: <span class="preview">If you configured the cross-workspace capabilities for the record, the **connectable record type** icon ![Connectable record type icon](assets/connect-from-other-workspaces-icon.png) and the **global record type** icon ![Global record type icon](assets/global-icon.png) also display on the card. </span>-->
 
 1. （可選）從工作區區域按一下記錄型別卡以開啟記錄型別的頁面，然後重新命名標題中的記錄型別。
 

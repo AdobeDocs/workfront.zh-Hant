@@ -6,12 +6,15 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: 9bdc36a76393acd2f0617cc5796cfd7279b2c97a
+source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
 workflow-type: tm+mt
 source-wordcount: '1976'
 ht-degree: 1%
 
 ---
+
+
+<!--keep the 30 limit verbiage in yellow til Jan 2026-->
 
 # 連線記錄型別概觀
 
@@ -36,6 +39,8 @@ ht-degree: 1%
 1. 在連線兩種記錄型別之後，將一種型別的個別記錄與另一種型別的記錄連線。 如需有關連線記錄的資訊，請參閱[連線記錄](/help/quicksilver/planning/records/connect-records.md)。
 
 關於連線記錄型別，請考量下列事項：
+
+<!--* <span class="preview">You can have up to 30 connected fields for one record type in Workfront Planning.</span>-->
 
 * 您可以在Adobe Workfront Planning中連線下列實體：
 
@@ -90,7 +95,7 @@ ht-degree: 1%
       * 無法從Workfront物件存取規劃記錄欄位。
       * Planning記錄會顯示於Workfront物件的Planning標籤中。 如需詳細資訊，請參閱[管理來自Workfront物件的記錄連線](/help/quicksilver/planning/records/manage-records-in-planning-section.md)。
       * 您可以建立Planning連線自訂欄位，並將其附加至Workfront物件的自訂表單。 如需詳細資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
-      * 當您的Experience Manager管理員透過Workfront與Adobe Experience Manager Assets之間的整合設定中繼資料對應時，可從Workfront資產存取規劃記錄欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
+      * 當您的Experience Manager管理員透過Workfront與Adobe Experience Manager Assets之間的整合設定中繼資料對應時，可從Workfront資產存取規劃記錄欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
 
 
    * **當您從您連線的記錄或物件加入查閱欄位時**：除了建立連結的記錄欄位之外，您還可以從連線的記錄或物件型別連線到稱為查閱欄位的欄位。 連結（或查詢欄位）的資訊，來自於您所連線的記錄，顯示在您所連線的記錄上。

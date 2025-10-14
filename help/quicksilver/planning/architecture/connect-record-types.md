@@ -6,13 +6,15 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
+source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
 workflow-type: tm+mt
-source-wordcount: '2764'
+source-wordcount: '2817'
 ht-degree: 1%
 
 ---
 
+
+<!--keep the 30 fields limit in yellow till Jan 2026; also the global record type cross-workspace capability information-->
 
 # 連線記錄型別
 
@@ -28,16 +30,20 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
 您可以將記錄型別彼此連線，也可以將記錄型別與其他應用程式的物件型別連線。
 
-當有數種工作物件型別影響彼此時，連線記錄型別會很有幫助。 例如，您可以使用行銷活動，而每個行銷活動可能會迎合多個品牌。 若要指出此關係，您可以將行銷活動連結至品牌。 此外，每個行銷活動的工作可能會在Workfront的多個專案中進行規劃。 若要指出此問題，您可以將行銷活動連結至相關專案。 連線記錄型別，然後連線個別記錄，可在Workfront Planning中達成此關係。
+當有數種工作物件型別影響彼此時，連線記錄型別會很有幫助。 例如，您可以使用行銷活動，而每個行銷活動可能會迎合多個品牌。 若要指出此關係，您可以將行銷活動連結至品牌。 這會為Campaign記錄上的Brands建立連線欄位。
+
+此外，每個行銷活動的工作可能會在Workfront的多個專案中進行規劃。 若要指出此問題，您可以將行銷活動連結至相關專案。 這會為行銷活動記錄上的專案建立一個連線欄位。
+
+建立連線欄位後，您可以在兩個記錄或物件型別之間連線個別記錄。
+
+<!--
+>[!NOTE]
+>
+><span class="preview">You can have up to 30 connection fields for one record type.</span>-->
 
 本文說明如何將兩個Workfront Planning記錄型別或Workfront Planning記錄型別與其他應用程式的物件連線。
 
 建立記錄或物件型別之間的連線後，連線欄位會新增至Planning記錄型別。 在連線欄位中，您可以將個別記錄連線至彼此，並在Workfront Planning記錄上顯示連結記錄或物件型別的欄位。
-
-<!--
->[!CAUTION]
->
-><span class="preview">One record type can have up to 30 connection fields.</span>-->
 
 如需連線型別的一般資訊，請參閱[連線記錄型別概觀](/help/quicksilver/planning/architecture/connect-record-types-overview.md)。
 
@@ -46,6 +52,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 如需連線記錄型別和記錄的範例，請參閱[連線記錄型別和記錄的範例](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md)。
 
 <!--ensure this last linked article is right; the title and the link should have changed-->
+
 
 ## 存取需求
 
@@ -146,9 +153,16 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
    * 來自另一個工作區的記錄型別，該記錄型別被設定為從其他工作區連線。
 
+     <!--replace the tip below with this at the preview release for global RTs and replace screen shot in the tip:
+        >[!TIP]
+        >
+        >The **Allow connecting to this record type in other workspaces** setting must be enabled for a record type in the <span class="preview">**Cross-workspace settings**</span> tab of the **Edit record type** box, for a record type to be accessible from other workspaces. If there are no record types that are configured to connect from other workspaces, the workspace section does not display. 
+        >
+        >For information, see [Configure cross-workspace capabilities for record type](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).-->
+
      >[!TIP]
      >
-     >必須針對&#x200B;**編輯記錄型別**&#x200B;方塊的&#x200B;**進階設定**&#x200B;索引標籤中的記錄型別，啟用&#x200B;**允許連線至其他工作區中的此記錄型別**&#x200B;設定，才能從其他工作區存取記錄型別。 如果沒有記錄型別被設定為從其他工作區連線，則工作區區段不會顯示。
+     >必須針對&#x200B;**編輯記錄型別**&#x200B;方塊的&#x200B;**進階設定**&#x200B;索引標籤中的記錄型別，啟用&#x200B;**允許連線至其他工作區中的此記錄型別**設定，才能從其他工作區存取記錄型別。 如果沒有記錄型別被設定為從其他工作區連線，則工作區區段不會顯示。
      > ![編輯記錄型別方塊進階設定索引標籤](assets/edit-record-type-box-advanced-settings-tab.png)
 
      如需詳細資訊，請參閱[編輯記錄型別](/help/quicksilver/planning/architecture/edit-record-types.md)。
@@ -228,7 +242,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
    >[!NOTE]
    >
-   >您的Workfront管理員可以透過Workfront中的中繼資料對應，將Workfront Planning欄位對應至Experience Manager Assets欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
+   >您的Workfront管理員可以透過Workfront中的中繼資料對應，將Workfront Planning欄位對應至Experience Manager Assets欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
 
 
 1. （視條件而定）當您選取連線至Experience Manager Assets或Workfront Planning記錄型別時，請在&#x200B;**記錄外觀**&#x200B;區域中選擇下列其中一個選項：
@@ -346,13 +360,13 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
      例如，如果您連結的行銷活動記錄型別具有方案記錄型別，並將方案連結記錄欄位命名為「方案資訊」，然後選取此選項以在行銷活動表格檢視中同時顯示方案的預算欄位，則連結的欄位在行銷活動表格檢視中會自動命名為`Budget (from Program information)`。
 
-   * 當您將記錄型別連結到彼此時，連結的記錄欄位也會新增到您連結到的記錄型別上，<!--<span class="preview">only when you enable the Create corresponding field on linked record type setting.</span>-->連結的記錄型別上連結的記錄欄位名稱是您連結的記錄型別名稱。
+   * 當您將記錄型別連結到彼此時，連結的記錄欄位也會新增到您連結到的記錄型別上，<span class="preview">只有在您啟用連結的記錄型別設定上建立對應的欄位時才進行。</span>連結的記錄型別上連結的記錄欄位名稱是您連結的記錄型別名稱。
 
      例如，如果您從「促銷活動」記錄型別連結「產品」記錄型別，並命名促銷活動「連結的產品」的已連線欄位，則會為「產品」記錄型別建立「促銷活動」連結記錄欄位。
 
      >[!TIP]
      >
-     > 系統不會為其他應用程式的物件建立連結記錄欄位，以連結至您在Workfront Planning中連結的記錄型別。<!--<span class="preview">We recommend not creating links on taxonomical record types, as there is a limit of 500 fields for every record type.</span>-->
+     > 連結的記錄欄位不會為來自另一個應用程式的物件在其各自的應用程式中建立。 <span class="preview">我們建議不要在分類記錄型別上建立連結，因為每個記錄型別都有500個欄位<!--<span class="preview">and a limit of 30 connected fields</span>-->的限制。</span>
 
    <!--see the span preview text in the TIP above; it might not show up in green-->
 
