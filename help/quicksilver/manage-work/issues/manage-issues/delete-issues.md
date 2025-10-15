@@ -2,22 +2,24 @@
 product-area: projects
 navigation-topic: manage-issues
 title: 刪除問題
-description: 如果您有正確的存取權和許可權，可以刪除Adobe Workfront中的問題或請求。
+description: 如果您擁有正確的存取權和許可權，可以刪除Adobe Workfront中的問題或請求，但當您發現不再需要這些問題或請求時，可以再進行刪除。 建議您關閉這些專案，而非刪除它們，這樣您就可以保留專案的準確性。
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '757'
 ht-degree: 1%
 
 ---
 
 # 刪除問題
 
-<!--Audited: 05/2025-->
+<!--Audited: 08/2025-->
 
-如果您有正確的存取權和許可權，可以刪除Adobe Workfront中的問題或請求。
+如果您擁有正確的存取權和許可權，可以刪除Adobe Workfront中的問題或請求，但當您發現不再需要這些問題或請求時，可以再進行刪除。 建議您關閉這些專案，而非刪除它們，這樣您就可以保留專案的準確性。
+
+Workfront管理員可以還原已刪除的問題。
 
 >[!TIP]
 >
@@ -25,22 +27,20 @@ ht-degree: 1%
 
 ## 存取需求
 
-+++ 展開以檢視存取需求。
-
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>新增：投稿人或更高版本</p>
-   <p>目前：要求或以上</p>
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>投稿人或以上</p>
+   <p>要求或更高版本</p>
  </td> 
   </tr> 
   <tr> 

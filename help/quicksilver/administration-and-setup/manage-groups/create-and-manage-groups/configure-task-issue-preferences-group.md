@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
 workflow-type: tm+mt
-source-wordcount: '2189'
+source-wordcount: '2166'
 ht-degree: 2%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 2%
 >
 >* 通常，已解鎖的偏好設定會無限期地保持解鎖狀態。 如果Workfront管理員將其重新鎖定，系統設定將再次生效，並且群組管理員所做的偏好設定設定將遺失。
 >* 為與專案關聯的群組設定的偏好設定優先於為建立專案之使用者的「首頁」群組設定的偏好設定。
->* 有些群組層級偏好設定會影響您為群組建立的專案範本。 如需詳細資訊，請參閱文章[建立及修改群組的專案範本](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)中的「群組」區域[&#128279;](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#view)，一節「檢視、使用及建立群組的範本」。
+>* 有些群組層級偏好設定會影響您為群組建立的專案範本。 如需詳細資訊，請參閱文章[建立及修改群組的專案範本](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#view)中的「群組」區域[，一節](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)「檢視、使用及建立群組的範本」。
 >
 >* Workfront管理員在系統層級解除鎖定偏好設定後，您可以對其進行設定，然後將其鎖定，以確保您的群組及其子群組中的每個人都使用相同的設定。 此功能與Workfront管理員必須為系統中的每個人設定並鎖定偏好設定的功能平行。 如需詳細資訊，請參閱[鎖定或解除鎖定子群組的專案、任務或問題偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md)。
 >
@@ -45,32 +45,27 @@ ht-degree: 2%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td>任何</td> 
+   <td>Adobe Workfront套件</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
+   <td>Adobe Workfront授權</td> 
+   <td><p>標準</p>
+       <p>規劃</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td><p>新增：標準</p>
-       <p>或</p>
-       <p>目前：計畫</p></td>
-  </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">存取層級設定</td> 
+   <td>存取層級設定</td> 
    <td>您必須是群組的群組管理員或系統管理員。</td>
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -86,7 +81,7 @@ ht-degree: 2%
 
 1. 按一下您要為其設定解除鎖定任務和問題偏好設定的群組名稱。
 1. 在顯示的群組頁面上，在左側面板中按一下&#x200B;**任務和問題偏好設定**。
-1. 在出現的頁面上，繼續這些步驟下列出的5個區段之一，以設定[新增任務預設值]、[問題]、[刪除]、[實際日期]和[存取]區域的設定，然後按一下[儲存]。**&#x200B;**
+1. 在出現的頁面上，繼續這些步驟下列出的5個區段之一，以設定[新增任務預設值]、[問題]、[刪除]、[實際日期]和[存取]區域的設定，然後按一下[儲存]。****
 
    如果您將滑鼠游標停留在鎖定圖示![鎖定圖示](assets/lock-toggle-button-dimmed.png)上以取得需要設定的偏好設定，且顯示工具提示以告知您已鎖定，您可以要求Workfront管理員為組織中的所有群組解除鎖定。
 
@@ -257,7 +252,7 @@ ht-degree: 2%
 
 啟用此設定時，群組使用者可以看到下列內容：
 
-* 在[!UICONTROL 首頁]區域的[!UICONTROL 我的工作]、[!UICONTROL 我的任務]或[!UICONTROL 我的問題]介面工具中的&#x200B;[!UICONTROL **代理人**]&#x200B;連結。 他們可以從那裡委派任務和問題指派。
+* 在&#x200B;[!UICONTROL **首頁**]&#x200B;區域的[!UICONTROL 我的工作]、[!UICONTROL 我的任務]或[!UICONTROL 我的問題]介面工具中的[!UICONTROL 代理人]連結。 他們可以從那裡委派任務和問題指派。
 
   >[!NOTE]
   >

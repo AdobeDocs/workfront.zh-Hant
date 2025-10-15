@@ -7,9 +7,9 @@ description: 目標狀態會指出目標是否作用中且目前正在記錄進�
 author: Alina
 feature: Workfront Goals
 exl-id: dc70dfac-2bdd-41ab-b316-0cd20f749423
-source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '793'
 ht-degree: 4%
 
 ---
@@ -18,22 +18,32 @@ ht-degree: 4%
 
 <!--Audited: 4/2025-->
 
+>[!NOTE]
+>
+>如果貴公司過去曾購買此套件，他們可能會選擇繼續使用Adobe Workfront目標。 如需詳細資訊，請洽詢客戶代表。
+>
+>Adobe Workfront目標不再提供購買。
+>
+>如需存取Workfront目標的詳細資訊，請參閱[使用Workfront目標的需求](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)。
+
+<!--Old:
+
 >[!IMPORTANT]
 >
->您的組織必須具備下列專案，才能使用本文所述的功能：
+>Your organization must have the following to use the functionality described in this article:
 >
->* 對於新計畫和授權結構：
+>* For the new plan and license structure:
 >
->   * Ultimate Workfront計畫
+>   * The Ultimate Workfront plan 
 >    
->* 對於目前的計畫與授權結構：
+>* For the current plan and license structure: 
 >
->   * Pro或更高版本Workfront計畫
->   * 除了Adobe Workfront授權之外，還有Workfront目標授權。
+>   * A Pro or higher Workfront plan
+>   * An Adobe Workfront Goals license in addition to a Workfront license.
 >
->請連絡您的Workfront客戶經理，以瞭解Workfront Goals授權。
+>Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->如需存取Workfront目標的詳細資訊，請參閱[使用Workfront目標的需求](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)。
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).   -->
 
 ## 更新Workfront目標中的目標狀態時的考量
 
@@ -42,10 +52,10 @@ ht-degree: 4%
 
   | 從/到 | 草稿 | 作用中 | 非使用中 | 已關閉 |
   |---|---|---|---|---|
-  | 草稿 | - | 是 | 否 | 否 |
-  | 作用中 | 否 | - | 是 | 是 |
-  | 非使用中 | 否 | 是 | - | 否 |
-  | 已關閉 | 否 | 是 | 否 | - |
+  | 草稿 | - | 是 | 無 | 無 |
+  | 作用中 | 無 | - | 是 | 是 |
+  | 非使用中 | 無 | 是 | - | 無 |
+  | 已關閉 | 無 | 是 | 無 | - |
 
 * 開啟已關閉的目標也會更新目標的進度。
 * 您在目標上執行的特定動作也會更新其狀態。 如需有關如何更新目標狀態的資訊，請參閱下列文章：

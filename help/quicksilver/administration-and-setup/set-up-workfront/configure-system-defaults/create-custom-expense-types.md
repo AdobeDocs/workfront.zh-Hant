@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b76b9e8-fbb8-45a7-9e26-1ddc6d5176d8
-source-git-commit: 7f95df7acfb1afd0974c0138152a68326631d265
+source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '379'
 ht-degree: 4%
 
 ---
@@ -27,31 +27,27 @@ ht-degree: 4%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td> 
-   <td>任何</td> 
+   <td>[!DNL Adobe Workfront] 封裝</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td><p>新增：[!UICONTROL Standard]</p>
-   或
-   <p>目前： [!UICONTROL 計畫]</p>
-   </td> 
+   <td>[!DNL Adobe Workfront] 授權</td> 
+   <td><p>[！UICONTROL標準]</p>
+       <p>[！UICONTROL計畫]</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td>
-  </tr>
+   <td>存取層級設定</td> 
+   <td>[！UICONTROL系統管理員]</td> 
+  </tr> 
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -82,8 +78,8 @@ ht-degree: 4%
       * 公里
       * 公斤
       * 元
-      * 時數
-      * 日
+      * Hour
+      * Day
       * 其他 — 選取此選項會提示您為度量單位命名，並將度量單位定義為組織所熟悉的單位。
 
    * **匯率** — 單價。 這是貨幣格式欄位，它代表在&#x200B;**計算單位**&#x200B;欄位中建立的每個單位的成本。 速率可包含小數點後最多4個數字的數值。 例如1.0375。
@@ -101,7 +97,7 @@ ht-degree: 4%
 
    **[!UICONTROL 編輯費用型別]**&#x200B;對話方塊就會顯示。
 
-1. 進行您想要的變更，然後按一下[儲存]。**&#x200B;**
+1. 進行您想要的變更，然後按一下[儲存]。****
 
    使用者現在可以使用此費用型別，將其與其在專案和任務上的費用建立關聯。
 

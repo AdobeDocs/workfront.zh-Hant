@@ -3,12 +3,12 @@ product-area: requests
 navigation-topic: create-requests
 title: 建立並提交請求
 description: 計畫工作在Adobe Workfront中以專案和任務表示。 不過，您可能會在一個環境中工作，其中未計畫的工作（以隨機請求的形式）可以隨時進入。 Workfront透過使用請求佇列提供可容納這種環境型別的工作流程。
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
+source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
 workflow-type: tm+mt
-source-wordcount: '2790'
+source-wordcount: '2767'
 ht-degree: 1%
 
 ---
@@ -52,22 +52,19 @@ ht-degree: 1%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：投稿人或更高版本</p>
-   或
-   <p>目前：要求或以上</p>
+   <td> <p>投稿人或以上</p>
+   <p>要求或更高版本</p>
     </td> 
   </tr> 
   <tr> 
@@ -81,7 +78,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

@@ -7,9 +7,9 @@ description: 「已執行工作之預算成本(BCWP)」也稱為「盈餘值」�
 author: Lisa
 feature: Work Management
 exl-id: 203709a7-e522-4875-b3eb-40b967a938ec
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '571'
 ht-degree: 2%
 
 ---
@@ -38,35 +38,32 @@ Adobe Workfront會計算專案與任務的已執行工作預算成本(BCWP)。
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td>Adobe Workfront套件</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
+   <td>Adobe Workfront授權</td> 
    <td>
-   <p>新增：標準</p>
-   <p>或</p>
-   <p>目前：計畫</p></td> 
+   <p>標準</p>
+   <p>規劃</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
+   <td>存取層級設定</td> 
    <td>編輯專案的存取權</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件許可權</td> 
+   <td>物件許可權</td> 
    <td>管理專案的許可權</td> 
   </tr> 
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

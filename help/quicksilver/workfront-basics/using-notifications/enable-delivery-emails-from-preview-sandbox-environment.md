@@ -5,9 +5,9 @@ description: 如果您想從預覽Sandbox環境接收電子郵件通知，您必
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e5c7e387-d08d-42f6-a9e6-f44e514ef902
-source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
+source-git-commit: 770e20cf9e32ac9884f5eb320f7067fcf162c63d
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '463'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## 存取需求
 
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視本文中功能的存取需求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,25 +42,32 @@ ht-degree: 1%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront package]</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>[!UICONTROL Request]或更新版本以變更您自己的設定</p> <p>[!UICONTROL Plan]可編輯其他使用者的設定</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權</strong></td> 
+   <td> 
+   <p>投稿人或以上人員變更您自己的設定</p> <p>用於編輯其他使用者的設定的標準</p> 
+   或
+   <p> 要求或更高版本變更您自己的設定</p> <p>計畫編輯其他使用者的設定</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>存取層級設定*</strong></td> 
+   <td role="rowheader"><strong>存取層級設定</strong></td> 
    <td> <p>您必須具備下列其中一項：</p> 
     <ul> 
-     <li> <p>[!UICONTROL 系統管理員]存取層級。</p> <p> 如需有關這個存取層級的資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授與使用者完整的管理存取權</a>。 </p> </li> 
-     <li> <p>在您的存取層級中，必須為[!UICONTROL 使用者]設定選取[!UICONTROL 編輯] 。 此外，針對[!UICONTROL 使用者]設定，在[!UICONTROL 微調您的設定] <img src="assets/gear-icon-in-access-levels.png">下，必須啟用[!UICONTROL 建立]選項以及兩個[!UICONTROL 使用者管理]選項中的至少一個。 </p> <p>如果您使用[!UICONTROL 使用者管理員（群組使用者）]選項，您必須是使用者所屬群組的群組管理員。</p> <p> <img src="assets/access-req-users-350x101.png" style="width: 350;height: 101;"> </p> <p>如需存取層級中[!UICONTROL 使用者]設定的相關資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予使用者存取權</a>。</p> </li> 
-    </ul> <p>注意：如果您還是沒有存取權，請詢問您的[!DNL Workfront]管理員是否對您的存取層級設定了其他限制。 如需[!DNL Workfront]管理員如何修改存取層級的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+     <li> <p>[！UICONTROL系統管理員]存取層級。</p> </li> 
+     <li> <p>在您的存取層級中，必須為[！UICONTROL使用者]設定選取[！UICONTROL編輯] 。 此外，針對[！UICONTROL使用者]設定，在[！UICONTROL微調您的設定] <img src="assets/gear-icon-in-access-levels.png">下，必須啟用[！UICONTROL建立]選項以及兩個[！UICONTROL使用者管理]選項中的至少一個。 </li> 
+     <li>如果您使用[！UICONTROL使用者管理員（群組使用者）]選項，您必須是使用者所屬群組的群組管理員。</li> 
+    </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
+
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 啟用從預覽Sandbox環境的電子郵件傳送
 

@@ -6,9 +6,9 @@ description: 您只能在建立專案之後在專案中建立任務。
 author: Alina
 feature: Work Management
 exl-id: 7bd6578e-9288-4793-ba07-a0c126c479b9
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '885'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ ht-degree: 0%
 * 當您將任務從一個專案複製到另一個專案並且目標專案具有不同的任務預設設定時，複製的任務會保留原始專案的預設設定，除非在複製過程中清除這些設定。
 * 當您在相同專案上複製任務時，自訂表單和核准流程會轉移到複製任務。
 
-  如需有關複製和複製任務的資訊，請參閱[&#128279;](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) [複製和複製任務](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)。
+  如需有關複製和複製任務的資訊，請參閱[複製和複製任務](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)。
 
 * 當您將任務移動到另一個專案時，預設任務設定將儲存在原始專案的任務上，無論新專案上的任務預設設定如何。
 

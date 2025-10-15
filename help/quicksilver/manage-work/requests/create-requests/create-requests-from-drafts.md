@@ -3,12 +3,12 @@ product-area: requests
 navigation-topic: create-requests
 title: 從草稿建立請求
 description: 除了使用Workfront在您輸入新請求時向您建議的可用草稿之外，您還可以從「草稿」區段存取草稿請求並從那裡完成提交。
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 2c2ccbadd6470773808bbd5a205310fbb1e1944e
+source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '664'
 ht-degree: 1%
 
 ---
@@ -23,21 +23,18 @@ ht-degree: 1%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：投稿人或更高版本</p>
-   或
-   <p>目前：要求或以上</p>
+   <td> <p>投稿人或以上</p>
+   <p>要求或更高版本</p>
     </td> 
   </tr> 
   <tr> 
@@ -51,7 +48,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

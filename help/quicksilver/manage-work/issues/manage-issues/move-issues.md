@@ -6,9 +6,9 @@ description: 您可以在專案與任務之間移動問題。
 author: Alina
 feature: Work Management
 exl-id: 8ab9be3e-0412-43d9-ad1e-75c43613fa82
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '873'
 ht-degree: 1%
 
 ---
@@ -30,26 +30,23 @@ ht-degree: 1%
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
-
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>新增：</p> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> 
    <ul><li>投稿人或以上</li>
    <li>將專案問題區段中的問題移動為淺色或更高</li></ul>
-   <p>目前：</p>
-   <ul>
-   <li><p>要求或更高版本</p></li>
+   或：
+   <ul>   <li><p>要求或更高版本</p></li>
    <li><p>檢閱或更高授權以移動專案問題區段中的問題。</p></li></ul>   
      </td> 
   </tr> 
@@ -67,6 +64,38 @@ ht-degree: 1%
 *如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>New:</p> 
+   <ul><li>Contributor or higher</li>
+   <li>Light or higher to move issues in the Issues section of a project</li></ul>
+   <p>Current:</p>
+   <ul>
+   <li><p>Request or higher</p></li>
+   <li><p>Review or higher license to move issues in the Issues section of a project.</p></li></ul>   
+     </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Issues</p> <p>View or higher access to Projects and Tasks</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to the issue</p> <p>Contribute permissions to the item where you are moving the issue with the ability to Add Issues.</td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 移動問題的考量事項
 

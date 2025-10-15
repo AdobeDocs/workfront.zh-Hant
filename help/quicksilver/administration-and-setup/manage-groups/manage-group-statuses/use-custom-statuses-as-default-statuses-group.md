@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51018635-cd9a-402d-a136-c5bec4707cda
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: fb555df123701c62e9a0f2d451ad6dcd16586595
 workflow-type: tm+mt
-source-wordcount: '685'
-ht-degree: 0%
+source-wordcount: '662'
+ht-degree: 1%
 
 ---
 
@@ -33,32 +33,30 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td>Adobe Workfront套件</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td><p>新增：標準</p>
-       <p>或</p>
-       <p>目前：計畫</p></td>
+   <td>Adobe Workfront授權</td> 
+   <td>
+   <p>標準</p>
+   <p>規劃</p></td>
   </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
+   <td>存取層級設定</td> 
    <td>您必須是群組的群組管理員或系統管理員。</td>
   </tr> 
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -90,7 +88,7 @@ ht-degree: 0%
    >如果您將專案指派給不同的群組，專案狀態將會重新載入並可能變更。
 
    1. 前往您要使用自訂狀態的專案。
-   1. 按一下[更多]功能表![更多圖示](assets/more-icon.png)，然後按一下[編輯]&#x200B;**&#x200B;**。
+   1. 按一下[更多]功能表![更多圖示](assets/more-icon.png)，然後按一下[編輯]****。
    1. 在顯示的&#x200B;**編輯專案**&#x200B;方塊中，在&#x200B;**專案關聯**&#x200B;下的&#x200B;**群組**&#x200B;欄位中，選取自訂狀態關聯的群組。
 
    1. 按一下「**儲存變更**」。

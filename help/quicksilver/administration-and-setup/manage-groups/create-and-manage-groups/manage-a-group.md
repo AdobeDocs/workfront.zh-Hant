@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 86c120de-16b8-4ca8-a7a1-76ece70c0505
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
 workflow-type: tm+mt
-source-wordcount: '1315'
+source-wordcount: '1292'
 ht-degree: 0%
 
 ---
@@ -32,32 +32,27 @@ Though this might not seem that helpful because it is more of a catalog/TOC, it'
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td>任何</td> 
+   <td>Adobe Workfront套件</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
+   <td>Adobe Workfront授權</td> 
+   <td><p>標準</p>
+       <p>規劃</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td><p>新增：標準</p>
-       <p>或</p>
-       <p>目前：計畫</p></td>
-  </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">存取層級設定</td> 
+   <td>存取層級設定</td> 
    <td>您必須是群組的群組管理員或系統管理員。</td>
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -95,7 +90,7 @@ Add this at end of 2nd-to-last sentence in this^ paragraph when they add the **I
 
    * **編輯**： [檢視和管理群組的詳細資料](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md)
 
-   * **複製**： [&#128279;](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#copying-an-existing-group-and-sub-group)複製發行項[建立群組](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)中的現有群組或子群組，以建立最上層群組
+   * **複製**： [複製發行項](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#copying-an-existing-group-and-sub-group)建立群組[中的現有群組或子群組](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)，以建立最上層群組
 
    * **刪除**： [刪除群組](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md)
 

@@ -3,13 +3,13 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: 記錄時間
 description: 您可以在&amp；nbsp；Adobe Workfront中記錄工作專案的時間，以指出您花在專案上的小時數。 您也可以記錄與工作無關的時間，例如假期、病假或會議時間。 您的記錄時間會顯示在您的時程表中。
-author: Alina
+author: Lisa
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 8a4668a568fde2ca7ee26714caae3cd33efe4eda
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '4075'
+source-wordcount: '4080'
 ht-degree: 0%
 
 ---
@@ -35,39 +35,39 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 ## 存取需求
 
-+++ 展開以檢視存取需求。
++++ 展開以檢視本文中功能的存取需求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td>Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
    <td> 
-   <ul><li> 將工作、問題或一般時數的小時記錄到時程表上的輕度或更高</li>
-   <li>在專案上記錄時數的標準</li></ul>
+   <ul><li><p>將工作、問題或一般時數的小時記錄到時程表上的輕度或更高</p></li>
+   <li><p>在專案上記錄時數的標準</p></li></ul>
 
 <p>或： </p>
 
-<ul><li>檢閱或更高版本以在時程表中記錄一般時數</li>
-   <li>在專案、任務或問題上記錄小時數的工作或更高</li></ul> </td> 
+<ul><li><p>檢閱或更高版本以在時程表中記錄一般時數</p></li>
+   <li><p>在專案、任務或問題上記錄小時數的工作或更高</p></li></ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
-   <td> <p>編輯您記錄時間的工作專案型別的存取權 </p> <p>例如，您需要編輯問題的存取權，以記錄問題的時間</p> </td> 
+   <td>存取層級設定</td> 
+   <td> <p>編輯您記錄時間的工作專案型別的存取權 </p> <p>例如，您需要編輯問題的存取權，以記錄問題的時間</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">物件許可權</td> 
-   <td> <p>在您記錄時間的工作專案上貢獻或更高許可權，包括記錄時數的許可權</p> </td> 
+   <td>物件許可權</td>
+   <td> <p>在您記錄時間的工作專案上貢獻或更高許可權，包括記錄時數的許可權</p> </td>
   </tr> 
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -138,7 +138,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 1. （選擇性）展開篩選、檢視或群組下拉式功能表，以套用或自訂其中一個功能表，並檢視您想要的專案資訊。
 
-1. 在清單中選取一或多個專案，然後按一下[新增]。**&#x200B;**
+1. 在清單中選取一或多個專案，然後按一下[新增]。****
 
    如果您一次新增的專案少於50個，這些專案會新增到時程表中。 任務和問題會列在專案名稱下。
 
@@ -149,9 +149,9 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 1. （視條件而定）如果您一次新增50個或更多專案，會顯示一則確認訊息，顯示新增至時程表的專案數量。
 
-   按一下&#x200B;**全部新增**&#x200B;以新增所有專案
+   按一下&#x200B;**全部新增**以新增所有專案
 或
-按一下&#x200B;**取消**&#x200B;停止新增選取的專案，然後按一下&#x200B;**取消**&#x200B;關閉專案清單。
+按一下**取消**&#x200B;停止新增選取的專案，然後按一下&#x200B;**取消**&#x200B;關閉專案清單。
 
    任務和問題會列在專案名稱下。
 

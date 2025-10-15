@@ -6,9 +6,9 @@ description: 您可以存取首頁工作清單、檢閱並同意處理任務和�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 802a2f16-d827-455e-9e49-f58f4c5fc482
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '907'
 ht-degree: 1%
 
 ---
@@ -17,28 +17,34 @@ ht-degree: 1%
 
 安裝[!DNL Adobe Workfront for Slack]之後，您可以執行下列動作：
 
-* 從[!DNL Slack]存取您的[!UICONTROL 首頁]專案清單
+* 從[!UICONTROL 存取您的]首頁[!DNL Slack]專案清單
 * 檢閱並接受來自[!DNL Slack]的任務和問題工作
 * 檢閱並決定來自[!DNL Slack]的核准
 
-如需使用[!DNL Slack]設定[!DNL Workfront]的詳細資訊，請參閱[設定 [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)。
+如需使用[!DNL Workfront]設定[!DNL Slack]的詳細資訊，請參閱[設定 [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)。
 
 ## 存取需求
 
-您必須具備下列條件：
++++ 展開以檢視本文中功能的存取需求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://business.adobe.com/tw/products/workfront/pricing.html" target="_blank">[!DNL Adobe Workfront]計畫</a>*</td> 
-   <td> <p>[!UICONTROL Pro]或更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>任何</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>任何</p>
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先決條件
 
@@ -49,8 +55,8 @@ ht-degree: 1%
 
 ## 從[!DNL Slack]管理您的工作
 
-1. 登入您的[!DNL Slack]執行個體並從[!DNL Slack]登入[!DNL Workfront]。\
-   如需有關從[!DNL Slack]登入[!DNL Workfront]的詳細資訊，請參閱[Access [!DNL Adobe Workfront] from [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)中的「從[!DNL Slack]登入[!DNL Workfront]」區段。
+1. 登入您的[!DNL Slack]執行個體並從[!DNL Workfront]登入[!DNL Slack]。\
+   如需有關從[!DNL Workfront]登入[!DNL Slack]的詳細資訊，請參閱[!DNL Workfront]Access[!DNL Slack]from[中的「從 [!DNL Adobe Workfront] 登入 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)」區段。
 
 1. 從任何通道中，開始在訊息欄位中輸入以下命令：
 
@@ -76,8 +82,8 @@ ht-degree: 1%
 
 ## 從[!DNL Slack]管理您的工作 {#manage-your-tasks-from-slack}
 
-1. 登入您的[!DNL Slack]執行個體並從[!DNL Slack]登入[!DNL Workfront]。\
-   如需有關從[!DNL Slack]登入[!DNL Workfront]的資訊，請參閱[Access [!DNL Adobe Workfront] from [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)中的「從[!DNL Slack]登入[!DNL Workfront]」區段。
+1. 登入您的[!DNL Slack]執行個體並從[!DNL Workfront]登入[!DNL Slack]。\
+   如需有關從[!DNL Workfront]登入[!DNL Slack]的資訊，請參閱[!DNL Workfront]Access[!DNL Slack]from[中的「從 [!DNL Adobe Workfront] 登入 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)」區段。
 
 1. 從任何頻道，開始在訊息欄位中輸入以下任一命令：
 
@@ -119,8 +125,8 @@ ht-degree: 1%
 
 ## 從[!DNL Slack]管理您的問題 {#manage-your-issues-from-slack}
 
-1. 登入您的[!DNL Slack]執行個體並從[!DNL Slack]登入[!DNL Workfront]。\
-   如需有關從[!DNL Slack]登入[!DNL Workfront]的詳細資訊，請參閱[從 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md#logging-in-to-workfront) section in [Access [!DNL Adobe Workfront] 登入 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)。 [!DNL Workfront] 
+1. 登入您的[!DNL Slack]執行個體並從[!DNL Workfront]登入[!DNL Slack]。\
+   如需有關從[!DNL Workfront]登入[!DNL Slack]的詳細資訊，請參閱[從 [!DNL Workfront] 登入 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md#logging-in-to-workfront) section in [Access [!DNL Adobe Workfront] 。 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)
 
 1. 從任何頻道，開始在訊息欄位中輸入以下任一命令：
 
@@ -152,8 +158,8 @@ ht-degree: 1%
 
 ## 從[!DNL Slack]管理您的核准 {#manage-your-approvals-from-slack}
 
-1. 登入您的[!DNL Slack]執行個體並從[!DNL Slack]登入[!DNL Workfront]。\
-   如需有關從[!DNL Slack]登入[!DNL Workfront]的詳細資訊，請參閱[Access [!DNL Adobe Workfront] from [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)中的「從[!DNL Slack]登入[!DNL Workfront]」區段。
+1. 登入您的[!DNL Slack]執行個體並從[!DNL Workfront]登入[!DNL Slack]。\
+   如需有關從[!DNL Workfront]登入[!DNL Slack]的詳細資訊，請參閱[!DNL Workfront]Access[!DNL Slack]from[中的「從 [!DNL Adobe Workfront] 登入 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)」區段。
 
 1. 從任何頻道，開始在訊息欄位中輸入以下任一命令：
 
@@ -188,7 +194,7 @@ ht-degree: 1%
 
    * **文件**
 
-     按一下[核准]&#x200B;**核准檔案，**&#x200B;[!UICONTROL &#x200B;拒絕&#x200B;]&#x200B;**拒絕檔案，或**&#x200B;[!UICONTROL &#x200B;變更&#x200B;]&#x200B;**指示您核准檔案，但檔案需要其他變更。**\
+     按一下[核准]**[!UICONTROL 核准檔案，]**&#x200B;拒絕&#x200B;**[!UICONTROL 拒絕檔案，或]**&#x200B;變更&#x200B;**[!UICONTROL 指示您核准檔案，但檔案需要其他變更。]**\
      （選擇性）將滑鼠移到檔案縮圖上，按一下放大鏡並預覽檔案。
 
    * **校訂**&#x200B;按一下校訂名稱，在個別索引標籤的[!DNL Workfront]中開啟並管理核准。

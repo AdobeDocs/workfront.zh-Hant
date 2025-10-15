@@ -7,31 +7,43 @@ description: Adobe Workfront目標隨附一組預先定義的事件通知，您�
 author: Alina
 feature: Workfront Goals
 exl-id: 40f9b9a3-c829-480b-9897-099b68389cd4
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
 
 # 啟用Adobe Workfront目標通知
 
+<!--Audited for P&P only: 10/2025-->
+
+>[!NOTE]
+>
+>如果貴公司過去曾購買此套件，他們可能會選擇繼續使用Adobe Workfront目標。 如需詳細資訊，請洽詢客戶代表。
+>
+>Adobe Workfront目標不再提供購買。
+>
+>如需存取Workfront目標的詳細資訊，請參閱[使用Workfront目標的需求](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)。
+
+<!--Old:
+
 >[!IMPORTANT]
 >
->您的組織必須具備下列專案，才能使用本文所述的功能：
+>Your organization must have the following to use the functionality described in this article:
 >
->* 對於新計畫和授權結構：
+>* For the new plan and license structure:
 >
->   * Ultimate Workfront計畫
+>   * The Ultimate Workfront plan 
 >    
->* 對於目前的計畫與授權結構：
+>* For the current plan and license structure: 
 >
->   * Pro或更高版本Workfront計畫
->   * 除了Adobe Workfront授權之外，還有Workfront目標授權。
+>   * A Pro or higher Workfront plan
+>   * An Adobe Workfront Goals license in addition to a Workfront license.
 >
->請連絡您的Workfront客戶經理，以瞭解Workfront Goals授權。
+>Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->如需存取Workfront目標的詳細資訊，請參閱[使用Workfront目標的需求](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)。
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).   -->
 
 Adobe Workfront目標隨附一組事件通知，您可以為您的帳戶啟用這些通知。 每次符合事件定義的條件時，這些事件通知都會觸發電子郵件通訊。
 

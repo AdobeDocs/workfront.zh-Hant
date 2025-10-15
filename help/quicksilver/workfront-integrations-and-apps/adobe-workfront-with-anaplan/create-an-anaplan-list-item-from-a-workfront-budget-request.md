@@ -1,56 +1,61 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-with-anaplan
-title: 從 [!DNL Adobe Workfront] 預算請求建立 [!DNL Anaplan] 清單專案
+title: 從 [!DNL Anaplan] 預算請求建立 [!DNL Adobe Workfront] 清單專案
 description: 此整合情境會連結 [!DNL Adobe Workfront] 專案（行銷活動）與 [!DNL Anaplan] 預算清單專案。 若要完成此作業，請將預算要求新增至需要取得資金的 [!DNL Workfront] 專案。 此案例會監視未處理的預算請求，然後執行在 [!DNL Anaplan] 中建立空白預算清單專案的程式，以在Anaplan中啟動預算分配程式。
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: e6505ece-21aa-4397-8d68-543bf89d2f00
-source-git-commit: d6fd224fb8a7b8094946814ae905bc0ff6e8223c
+source-git-commit: d3f234313677d916318c181c91cb951948454006
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '854'
 ht-degree: 0%
 
 ---
 
-# 從[!DNL Adobe Workfront]預算請求建立[!DNL Anaplan]清單專案
+# 從[!DNL Anaplan]預算請求建立[!DNL Adobe Workfront]清單專案
 
 此整合情境連結[!DNL Adobe Workfront]專案（行銷活動）與[!DNL Anaplan]預算清單專案。 若要完成此作業，請將預算要求新增至需要取得資金的[!DNL Workfront]專案。 此案例會監視未處理的預算請求，然後執行在[!DNL Anaplan]中建立空白預算清單專案的程式，以在[!DNL Anaplan]中啟動預算分配程式。
 
 >[!IMPORTANT]
 >
->本文中的「行銷活動」是指此情境所代表的行銷活動使用案例，且絕對未連線至[!DNL Workfront Fusion] Adobe Campaign聯結器或[!DNL Workfront]中最近棄用的[!UICONTROL 行銷活動]物件。
+>本文中的「行銷活動」是指此情境所代表的行銷活動使用案例，且絕對未連線至[!DNL Workfront Fusion] Adobe Campaign聯結器或[!UICONTROL 中最近棄用的]行銷活動[!DNL Workfront]物件。
 
 ## 存取需求
 
-您必須具有下列存取權才能使用本文中的功能：
++++ 展開以檢視本文中功能的存取需求。
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
-   <td> <p>[!UICONTROL Pro]或更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[!UICONTROL 計畫]，[!UICONTROL 工作]</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>標準</p><p>工作或更高</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td> 
-   <td> <p>[!UICONTROL Workfront Fusion for Work Automation and Integration] </p> </td> 
+   <td role="rowheader">Adobe Workfront Fusion授權</td> 
+   <td>
+   <p>作業型：無Workfront Fusion授權需求</p>
+   <p>以聯結器為基礎（舊版）：用於工作自動化和整合的Workfront Fusion </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
-   <td>您的組織必須購買[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]，才能使用本文所述的功能。</td> 
+   <td>
+   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
+   </td> 
   </tr>
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
+如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)存取需求。
 
-&#42;&#42;如需[!DNL &#x200B; Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)
+如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)。
 
 ## 觸發中的事件
 
@@ -81,19 +86,19 @@ ht-degree: 0%
    </thead> 
    <tbody> 
     <tr> 
-     <td role="rowheader">[!UICONTROL 預算請求型別]</td> 
-     <td> <p>[!UICONTROL 下拉式清單]</p> <p>選項：</p> 
+     <td role="rowheader">[！UICONTROL預算請求型別]</td> 
+     <td> <p>[！UICONTROL下拉式清單]</p> <p>選項：</p> 
       <ul> 
-       <li> <p>[!UICONTROL 資金調整]</p> </li> 
-       <li> <p>[!UICONTROL 初始資金]</p> </li> 
+       <li> <p>[！UICONTROL資金調整]</p> </li> 
+       <li> <p>[！UICONTROL初始資金]</p> </li> 
       </ul> </td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[!UICONTROL 申請勞力資金]</td> 
+     <td role="rowheader">[！UICONTROL申請勞力資金]</td> 
      <td> </td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[!UICONTROL 請求的費用基金]</td> 
+     <td role="rowheader">[！UICONTROL請求的費用基金]</td> 
      <td> </td> 
     </tr> 
    </tbody> 
@@ -119,24 +124,24 @@ ht-degree: 0%
    </thead> 
    <tbody> 
     <tr> 
-     <td role="rowheader">[!UICONTROL 上市日期]</td> 
-     <td>[!UICONTROL 日期] </td> 
+     <td role="rowheader">[！UICONTROL上市日期]</td> 
+     <td>[！UICONTROL日期] </td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[!UICONTROL 市場結束日期]</td> 
-     <td>[!UICONTROL 日期]</td> 
+     <td role="rowheader">[！UICONTROL市場結束日期]</td> 
+     <td>[！UICONTROL日期]</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[!UICONTROL 行銷活動概覽]</td> 
-     <td>[!UICONTROL RTF欄位]</td> 
+     <td role="rowheader">[！UICONTROL行銷活動概覽]</td> 
+     <td>[！UICONTROL RTF欄位]</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[!UICONTROL 金鑰訊息]</td> 
-     <td>[!UICONTROL RTF欄位]</td> 
+     <td role="rowheader">[！UICONTROL金鑰訊息]</td> 
+     <td>[！UICONTROL RTF欄位]</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[!UICONTROL 目標對象]</td> 
-     <td> <p>[!UICONTROL 下拉式清單]</p> <p>包含適合您流程的選項。</p> </td> 
+     <td role="rowheader">[！UICONTROL目標對象]</td> 
+     <td> <p>[！UICONTROL下拉式清單]</p> <p>包含適合您流程的選項。</p> </td> 
     </tr> 
    </tbody> 
   </table>
@@ -168,7 +173,7 @@ ht-degree: 0%
 
 完成下列步驟，將此整合情境部署至您的[!DNL Fusion]帳戶。 這應該只有在完成必要的[!DNL Workfront]和[!DNL Anaplan]設定之後才完成。
 
-1. 導覽至[!DNL Workfront Fusion]中的[!UICONTROL 範本]功能表，然後按一下&#x200B;**[!UICONTROL 從Workfront預算請求]**&#x200B;情境範本建立[!DNL Anaplan]清單專案。
+1. 導覽至[!UICONTROL 中的]範本[!DNL Workfront Fusion]功能表，然後按一下&#x200B;**[!UICONTROL 從Workfront預算請求[!DNL Anaplan]情境範本建立]**&#x200B;清單專案。
 1. 取代下列[!DNL Anaplan]個變數的變數值：
 
    | 變數名稱 | 將值取代為 |

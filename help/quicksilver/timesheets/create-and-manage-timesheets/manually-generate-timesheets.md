@@ -3,12 +3,12 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: 手動產生時間表
 description: 若要啟用您對時程表設定檔所做的變更以反映在目前的時程表中，您必須先刪除現有的時程表，然後手動產生新時程表。 您可以從時程表區域或設定中的診斷區域手動產生時程表，如本文所述。
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 316c270a-c64e-4d83-a035-4128abe33f87
-source-git-commit: 311816df863d3c03a54d43c8fa3cac69d2d6d7d4
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -21,28 +21,30 @@ ht-degree: 0%
 
 ## 存取需求
 
-+++ 展開以檢視存取需求。
++++ 展開以檢視本文中功能的存取需求。
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- <col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td> <p>任何</p> </td> 
+   <td>Adobe Workfront套件</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>規劃 </p> </td> 
+   <td>Adobe Workfront授權</td> 
+   <td>
+   <p>標準</p>
+   <p>規劃</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>您必須是Workfront管理員，或者，如果您正在處理群組的時程表設定檔，您必須是群組管理員(或Workfront管理員)。 如需詳細資訊，請參閱<a href="../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">群組管理員</a>。</p> <p>如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td>存取層級設定</td> 
+   <td><p>您必須是Workfront管理員，或者，如果您正在處理群組的時程表設定檔，您必須是群組管理員(或Workfront管理員)。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

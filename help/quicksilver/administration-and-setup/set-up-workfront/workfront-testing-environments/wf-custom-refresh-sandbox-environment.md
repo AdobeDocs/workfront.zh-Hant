@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
+source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
 workflow-type: tm+mt
-source-wordcount: '1763'
+source-wordcount: '1719'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 >
 >  此外，取得預覽沙箱不需要的自訂重新整理沙箱會另外產生成本。
 >
->  如需有關預覽沙箱的詳細資訊，請參閱[預覽沙箱環境 [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)。
+>  如需有關預覽沙箱的詳細資訊，請參閱[預覽沙箱環境 [!DNL Adobe Workfront] ](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)。
 
 ## 存取需求
 
@@ -42,21 +42,24 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Workfront] 計劃</td> 
-   <td> <p>[!UICONTROL Business]或更高版本</p> </td> 
+   <td role="rowheader">Workfront套件</td> 
+   <td> <p>Prime或Ultimate</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p role="rowheader">[!DNL Workfront] 授權</p> </td> 
-   <td> <p>[!UICONTROL 計畫] </p> <p>您必須是[!DNL Workfront]管理員。 如需[!DNL Workfront]管理員的相關資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予使用者完整管理存取權</a>。</p> </td> 
+   <td role="rowheader"> Workfront授權</td> 
+   <td> <p>標準</p><p>規劃</p>  </td> 
   </tr> 
-  <tr> 
-   <td role="rowheader">支援套件</td> 
-   <td> <p>[!UICONTROL Plus]、[!UICONTROL Preferred]或[!UICONTROL Enterprise]</p> <p>標準支援套件無法存取「自訂重新整理沙箱」，但可存取「預覽沙箱」。</p> </td> 
-  </tr> 
+  </tr>
+   <tr>
+   <td>存取層級設定
+   </td>
+   <td><p>您必須是Workfront管理員。</p>
+   </td>
+  </tr>
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

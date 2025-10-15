@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51111523-8fb7-4379-995e-1834cac51872
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: 1554c067afcc548c7f7abd03dbc3a49404e3c89c
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 0%
+source-wordcount: '355'
+ht-degree: 1%
 
 ---
 
@@ -25,34 +25,31 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td>任何</td> 
+   <td>Adobe Workfront套件</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td>
-   <td><p>新增：標準</p>
-       <p>或</p>
-       <p>目前：計畫</p></td>
+   <td>Adobe Workfront授權</td> 
+   <td><p>標準</p>
+       <p>規劃</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
+   <td>存取層級設定</td> 
    <td>您必須是群組的群組管理員或系統管理員。</td>
   </tr>
   <tr> 
-   <td role="rowheader">物件許可權</td>
+   <td>物件許可權</td>
    <td> <p>方案必須與群組或其任何子群組相關聯。</p> <p>此外，您必須有許可權才能檢視計畫，可能是因為您已建立計畫，也可能是因為已與您共用。</p></td> 
-  </tr> 
   </tr> 
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

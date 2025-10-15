@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 0c2a54406ceb690e638cdc0376a3dc01a7c2df76
+source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
 workflow-type: tm+mt
-source-wordcount: '2434'
+source-wordcount: '2412'
 ht-degree: 0%
 
 ---
@@ -47,31 +47,27 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具備下列專案才能執行本文所述的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront計畫</p> </td> 
-   <td>任何</td> 
+  <tr> 
+   <td>Adobe Workfront套件</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td>
-   <p>新增：標準</p>
-   <p>或</p>
-   <p>目前：計畫</p></td>
+   <td>Adobe Workfront授權</td> 
+   <td><p>標準</p>
+       <p>規劃</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">存取層級設定</td> 
+  <tr> 
+   <td>存取層級設定</td> 
    <td> <p>管理自訂表單的存取權</p> </td> 
-  </tr> 
+  </tr>  
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -119,7 +115,7 @@ ht-degree: 0%
    >
    >複雜表單的範例包括含有階層式引數的表單、計算的自訂資料欄位，以及單一欄位中的多個值選項。
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -182,7 +178,7 @@ ht-degree: 0%
 
       每個欄位都必須以大括弧括住。 當您開始輸入欄位名稱時，系統會提供建議，您可以選取一個來將其插入計算。
 
-+++ **展開以檢視計算自訂欄位中所需的語法**
+      +++ **展開以檢視計算自訂欄位中所需的語法**
 
       每個欄位都必須使用以下說明的語法，並在每個欄位名稱兩側加上大括弧。 當您開始輸入欄位名稱時，系統會提供建議，您可以選取一個來將其插入計算。 如果您在計算中輸入的資料不正確，警告訊息會警告您。 除非編輯計算以包含有效欄位和有效的計算運算式，否則無法儲存表單。
 
@@ -194,7 +190,7 @@ ht-degree: 0%
 
       * 如果您希望計算參照內建欄位，欄位名稱必須用大括弧括住。
 
-        例如： `{actualRevenue}`
+        例如︰`{actualRevenue}`
 
         欄位名稱會區分大小寫，且在計算中必須如期顯示於Workfront系統中。
 
@@ -202,7 +198,7 @@ ht-degree: 0%
 
       * 如果您希望計算參照自訂欄位，欄位名稱必須用大括弧括住，並在括弧內以`DE:`括住。
 
-        例如： `{DE:Profit}`
+        例如︰`{DE:Profit}`
 
         系統列出您在輸入`DE:`時可以選擇的所有自訂欄位。
 
@@ -282,7 +278,7 @@ ht-degree: 0%
            >
            ><div>在附加到物件的自訂表單中，計算自訂欄位中的日期和時間陳述式會由世界協調時間(UTC)計算和儲存，而不是由針對您的組織執行個體和您的使用者設定檔設定的時區設定計算和儲存。 自訂表單中的計算是根據每位使用者的個別時區產生。</div>
 
-+++
+        +++
 
    1. 按一下大型文字方塊，然後按一下&#x200B;**運算式**&#x200B;和&#x200B;**欄位**，這些欄位可用來新增至您的計算。
 
@@ -292,13 +288,13 @@ ht-degree: 0%
 
       如果您鍵入左括弧，則會自動新增右括弧。
 
-+++ **展開以檢視有用的提示**
+      +++ **展開以檢視有用的提示**
 
       >[!TIP]
       >
       >您可以執行下列任一項作業，以取得計算的協助：
       > 
-      >* 將滑鼠停留在計算中的運算式上可檢視說明、如何使用的範例，以及文章[計算資料運算式概觀](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)中詳細資訊的&#x200B;**深入瞭解**&#x200B;連結。
+      >* 將滑鼠停留在計算中的運算式上可檢視說明、如何使用的範例，以及文章&#x200B;**計算資料運算式概觀**&#x200B;中詳細資訊的[深入瞭解](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)連結。
       >  ![運算式說明文字](assets/hover-expression-help-text.jpg)
       >* 使用顏色編碼來識別您新增的元件。 運算式會以藍色顯示，而欄位則會以綠色顯示。
       >  欄位運算式的![色彩](assets/colors-fields-expressions.jpg)
@@ -309,7 +305,7 @@ ht-degree: 0%
       >  ![預覽計算](assets/preview-calc.jpg)
       >* 使用左邊顯示的行號在長計算中參考運算式。
 
-+++
+      +++
    1. 當您完成計算自訂欄位的計算時，請按一下&#x200B;**最小化**。
 
    1. （可選）使用下列任一選項來進一步設定您的計算自訂欄位：
@@ -333,7 +329,7 @@ ht-degree: 0%
     </tbody> 
    </table>
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 

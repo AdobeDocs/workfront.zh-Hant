@@ -8,10 +8,10 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 7cf4787d-7cff-489e-bd5b-69db3ff09f6e
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 0%
+source-wordcount: '558'
+ht-degree: 1%
 
 ---
 
@@ -23,28 +23,30 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td> 
-   <td>任何</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td>[!UICONTROL 計畫]</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">存取層級設定</td> 
-   <td> <p>您必須是[!DNL Workfront]管理員。 如需詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予使用者完整管理存取權</a>。</p> <p><b>注意</b>：如果您仍然沒有存取權，請詢問您的[!DNL Workfront]管理員是否對您的存取層級設定了其他限制。 如需[!DNL Workfront]管理員如何修改存取層級的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
-  </tr> 
- </tbody> 
+<table>
+  <tr>
+   <td>Adobe Workfront套件
+   </td>
+   <td> <p>Prime或Ultimate</p>
+    <p>Workflow Ultimate</p>
+   </td>
+  </tr>
+  <tr>
+   <td>Adobe Workfront授權
+   </td>
+   <td><p>標準</p>
+   <p>規劃</p>
+   </td>
+  </tr>
+   <tr>
+   <td>存取層級設定
+   </td>
+   <td>您必須是[!DNL Workfront]管理員。
+   </td>
+  </tr>
 </table>
 
-+++
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 關於[!DNL Workfront]中繼資料
 
@@ -58,7 +60,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您只能在一個方向對應中繼資料：從[!DNL Workfront]到[!DNL Workfront DAM]。 從[!DNL Workfront DAM]連結至[!DNL Workfront]的檔案中繼資料無法傳輸至Workfront。
+>您只能在一個方向對應中繼資料：從[!DNL Workfront]到[!DNL Workfront DAM]。 從[!DNL Workfront]連結至[!DNL Workfront DAM]的檔案中繼資料無法傳輸至Workfront。
 
 您可以將相同的[!DNL Workfront]欄位對應到[!DNL Workfront DAM]中的各種中繼資料欄位，但您無法在其中任一應用程式中使用中繼資料欄位來對應多個[!DNL Workfront]中繼資料欄位。
 

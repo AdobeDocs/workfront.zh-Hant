@@ -6,9 +6,9 @@ description: 您可以直接從Kanban面板快速建立新劇本或問題。
 author: Lisa
 feature: Agile
 exl-id: 8f12b05c-d132-42ca-b617-bdd14e57acf2
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '221'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,6 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -30,18 +28,17 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>新增：[!UICONTROL Standard]</p> 
-   或
-   <p>目前： [!UICONTROL Work]或更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>標準</p> 
+   <p>工作或更高</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td>[!UICONTROL Manage]任務或問題的存取權 </td> 
+   <td>管理任務或問題的存取權 </td> 
   </tr> 
  </tbody> 
 </table>
@@ -60,19 +57,19 @@ ht-degree: 0%
 
    <table style="table-layout:auto">
     <tr>
-        <td><strong>[!UICONTROL 名稱]</strong></td>
+        <td><strong>[！UICONTROL名稱]</strong></td>
         <td>（必要）本文或問題的名稱。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 說明]</strong></td>
+        <td><strong>[！UICONTROL說明]</strong></td>
         <td>專案的說明。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 估計]</strong></td>
+        <td><strong>[！UICONTROL估計]</strong></td>
         <td>預估專案小時數或點數。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 父專案]</strong></td>
+        <td><strong>[！UICONTROL父專案]</strong></td>
         <td>（必要）儲存新內文或問題的專案。 開始輸入專案名稱，然後在其顯示在清單中時選取它。</td>
     </tr>
    </table>

@@ -7,7 +7,7 @@ description: 任務限制決定任務在專案上何時開始和結束。
 author: Alina
 feature: Work Management
 exl-id: 91b0844b-95a3-4d18-9fdb-a907dd42e1bf
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 6%
@@ -123,7 +123,7 @@ Workfront使用兩個變數來決定預設為新任務選取哪個任務限制�
 
 * 您的Workfront或群組管理員在&#x200B;**設定**&#x200B;的&#x200B;**任務和問題**&#x200B;區域中設定的&#x200B;**開始日期**&#x200B;偏好設定。
 
-  有關任務和問題偏好設定的資訊，請參閱[設定系統範圍的任務和問題偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)中的[新任務預設值](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#new-task-defaults)區段。
+  有關任務和問題偏好設定的資訊，請參閱[設定系統範圍的任務和問題偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#new-task-defaults)中的[新任務預設值](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)區段。
 
 下表顯示為您的專案和新任務選擇不同變數時的預設任務限制：
 

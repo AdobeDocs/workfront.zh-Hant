@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 76b6acc4-c432-47b4-90bf-6e37e970625f
-source-git-commit: 937965ad495453e185504d53f9d9c88c3cd7e201
+source-git-commit: 15ea03bf586054f7ef421f8cacede6f42835a6e4
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '399'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 >所有來自Workfront的電子郵件都會從該地址傳送，以增加成功的電子郵件傳遞，並消除偽造電子郵件的行為。 這包括自動警報和使用者之間的通訊。
 >
 >例如，您從名為Joan Harris的使用者收到的Workfront電子郵件中的「寄件者」行如下所示：
->`Joan Harris <notifications@my.workfront.com>`
+>>`Joan Harris <notifications@my.workfront.com>`
 
 如需有關設定組織防火牆以開啟環境與Adobe Workfront伺服器之間通訊的資訊，請參閱[設定防火牆允許清單](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)。
 
@@ -39,34 +39,32 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td>任何</td> 
+   <td role="rowheader">Workfront套件</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td>規劃</td> 
+   <td><p>標準</p> <p>規劃</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>您必須是Workfront管理員。 如需詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予使用者完整管理存取權</a>。</p> <p><b>注意</b>：如果您還是沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td>您必須是Workfront管理員。 </td> 
   </tr> 
  </tbody> 
 </table>
+
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
 ## 其他允許清單
 
-如果貴組織擁有企業計畫，您可以設定Adobe Workfront IP允許清單，限制存取您所指定的75個IP位址或IP位址範圍的Workfront。 這為Workfront應用程式提供額外的安全層。 如需詳細資訊，請參閱[依IP位址限制存取Adobe Workfront](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md)。
-
-此外，如果您的防火牆或郵件伺服器設定為僅允許存取特定廠商，則必須將特定IP位址新增至其允許清單。 這可在您的環境與Adobe Workfront伺服器之間開啟通訊。 如需相關資訊，請參閱[設定防火牆的允許清單](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)。
+如果您的防火牆或郵件伺服器設定為僅允許特定廠商存取，則必須將特定IP位址新增至其允許清單。 這可在您的環境與Adobe Workfront伺服器之間開啟通訊。 如需相關資訊，請參閱[設定防火牆的允許清單](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)。
 
 ## 設定您的電子郵件允許清單
 

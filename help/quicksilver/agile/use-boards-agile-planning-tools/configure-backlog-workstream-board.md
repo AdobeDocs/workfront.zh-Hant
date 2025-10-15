@@ -7,9 +7,9 @@ description: 您可以選擇在工作流程中的展示板上顯示待處理資�
 author: Lisa
 feature: Agile
 exl-id: fd2f6eeb-a565-4461-a153-0504ad3c07d7
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -32,22 +32,19 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
    <td> 
-   <p>新增：[!UICONTROL Contributor]或以上</p> 
-   <p>或</p>
-   <p>目前： [!UICONTROL Request]或以上</p>
+   <p>投稿人或以上</p> 
+   <p>要求或更高版本</p>
    </td> 
   </tr> 
  </tbody> 
@@ -61,7 +58,7 @@ ht-degree: 0%
 
 {{step1-to-boards}}
 
-1. 開啟您要使用的工作流。 若要開啟工作流程，請按一下[檢視工作流程]。[!UICONTROL **&#x200B;**]
+1. 開啟您要使用的工作流。 若要開啟工作流程，請按一下[檢視工作流程]。[!UICONTROL ****]
 1. 按一下工作流程中的任何展示板以開啟。
 1. 按一下主機板右側的&#x200B;[!UICONTROL **[設定]**]&#x200B;以開啟[設定]面板。
 1. 開啟&#x200B;[!UICONTROL **在此展示板上包含待處理專案欄**]。

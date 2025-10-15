@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: business-case-and-scorecards
 title: 建立及編輯專案的風險
 description: 風險是阻礙專案準時完成或在預算內完成的可能事件或因素。 您可以記錄專案風險，作為建立專案業務案例的一部分或使用「風險」頁標。 您可以將風險新增至專案和範本。 您無法將風險與任務或問題建立關聯。
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
+source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1059'
 ht-degree: 1%
 
 ---
@@ -35,8 +35,6 @@ ht-degree: 1%
 
 ## 存取需求
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 +++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
@@ -44,17 +42,15 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront計畫*</p></td> 
-   <td> <p>目前計畫：</p>
+   <td role="rowheader"><p>Adobe Workfront套件</p></td> 
    <ul><li>任何計畫，以在專案的風險區域中新增風險</p></li>
    <li><p>Prime （含）以上版本，在專案的業務案例中新增風險</p></li></ul>
-   <p>舊版計畫：任何計畫</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront授權*</p></td> 
-   <td> <p>目前：標準 </p>
-   <p>舊版：計畫 </p> </td> 
+   <td role="rowheader"><p>Adobe Workfront授權</p></td> 
+   <td> <p>標準 </p>
+   <p>規劃 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>存取層級設定</p></td> 
@@ -67,7 +63,8 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
 
 +++
 
@@ -155,7 +152,7 @@ ht-degree: 1%
 
    或
 
-   選取一或多個風險，然後按一下[編輯] **&#x200B;**&#x200B;以同時編輯多個風險。
+   選取一或多個風險，然後按一下[編輯] ****&#x200B;以同時編輯多個風險。
 
    >[!NOTE]
    >

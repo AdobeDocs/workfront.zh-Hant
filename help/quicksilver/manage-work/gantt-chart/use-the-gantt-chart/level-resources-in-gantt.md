@@ -2,18 +2,22 @@
 product-area: resource-management
 navigation-topic: use-the-gantt-chart
 title: 在[!UICONTROL 甘特圖]中平準資源
-description: 有關如何在甘特圖中層次資源的資訊。
+description: 如果將相同的資源指派給兩個不同的任務，則可以使用資源平準來調整任務的時間表，使它們不會同時發生。 本文提供如何在甘特圖中平準資源的相關資訊。
 author: Alina
 feature: Work Management
 exl-id: ba96c01d-03b8-4728-b5e3-b10d227f51b0
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
 
 # 在[!UICONTROL 甘特圖]中平準資源
+
+<!--Audited: 08/2025-->
+
+您可以使用資源平準來調整任務的時間表，以便在將相同的資源同時指派給多個任務時，任務不會同時發生。
 
 平準專案的資源有兩個用途：
 
@@ -22,34 +26,62 @@ ht-degree: 0%
 
 ## 存取需求
 
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
-   <td> <p>任何 </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 封裝</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Workfront] 授權*</td> 
-   <td> <p>[!UICONTROL 計畫] </p> </td> 
+   <td role="rowheader">[!DNL Workfront] 授權</td> 
+   <td> <p>[！UICONTROL標準]</p>
+   <p>[！UICONTROL計畫]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>[!UICONTROL Edit]專案的存取權</p> <p><b>附註</b>
-
-如果您仍然沒有存取權，請詢問您的[!DNL Workfront]管理員是否已在您的存取層級中設定其他限制。 如需[!DNL Workfront]管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td>
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>[！UICONTROL Edit]專案的存取權</p></td>
 </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>[!UICONTROL Manage]專案的存取權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>[！UICONTROL Manage]專案的存取權</p>
+</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Workfront] license*</td> 
+   <td> <p>[!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>[!UICONTROL Edit] access to Projects</p> <p><b>NOTE</b>
+
+If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td>
+</tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] access to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table> -->
 
 ## 資源平準概要
 
@@ -75,7 +107,7 @@ ht-degree: 0%
 1. 移至您要平準的專案。
 1. 在&#x200B;**[!UICONTROL 任務]**&#x200B;區域中，按一下&#x200B;**[!UICONTROL 甘特圖]**&#x200B;圖示。
 
-   啟用&#x200B;**[!UICONTROL 自動儲存]**&#x200B;選項時，所有變更都會自動儲存。 預設為啟用。
+   啟用&#x200B;**[!UICONTROL 自動儲存]**&#x200B;選項時，所有變更都會自動儲存。 這項設定預設為啟用。
 
 1. （選擇性）按一下&#x200B;**[!UICONTROL 計畫]模式**&#x200B;圖示，然後選取&#x200B;**[!UICONTROL 手動儲存標準]**&#x200B;或&#x200B;**[!UICONTROL 時間表計畫]**，以手動儲存您的變更。
 
@@ -108,7 +140,7 @@ ht-degree: 0%
    >* Windows：使用[!UICONTROL Ctrl + Z]來還原，使用[!UICONTROL Ctrl + Y]來重做。
 
 
-1. 按一下[!UICONTROL 甘特圖]右上角的&#x200B;**[!UICONTROL 儲存]**。
+1. 按一下&#x200B;**[!UICONTROL 甘特圖]**&#x200B;右上角的[!UICONTROL 儲存]。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

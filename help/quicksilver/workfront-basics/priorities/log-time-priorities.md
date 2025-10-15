@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 5457f516-c213-4b82-b033-bc8db943a217
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -30,13 +30,13 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：輕度或以上，可記錄任務或問題的時數</p>
-   <p>目前：在任務或問題上記錄時數的工作或更高</p> </td> 
+   <td> <p>在任務或問題上記錄小時數的輕度或更高</p>
+   <p>在任務或問題上記錄小時數的工作或更高</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 1. （視條件而定）如果您的Workfront或群組管理員已啟用手動將工作角色指派至時數專案設定，請從下拉式選單中選取工作角色。 依預設，系統會顯示指派給工作專案時所指定的角色。 如果您在物件上未被指派角色，您的「主要角色」會顯示為預設值。 如果您沒有指派主要角色，則不會顯示任何工作角色。
 
-1. 輸入您要記錄的時間，然後按一下[記錄時間]。**&#x200B;**
+1. 輸入您要記錄的時間，然後按一下[記錄時間]。****
 
    ![記錄時間](assets/log-time-dialog.png)
 
@@ -81,6 +81,6 @@ ht-degree: 0%
 1. 在&#x200B;**小時型別**&#x200B;下拉式功能表中，選取適當的小時型別。 如定義時數型別和可用性所述，可用時數型別取決於系統、專案和使用者層級中已定義的內容。
 1. （視條件而定）如果您的Workfront或群組管理員已啟用手動將工作角色指派至時數專案設定，請從下拉式選單中選取工作角色。 依預設，系統會顯示指派給工作專案時所指定的角色。 如果您在物件上未被指派角色，您的「主要角色」會顯示為預設值。 如果您沒有指派主要角色，則不會顯示任何工作角色。
 
-1. 輸入您要記錄的時間，然後按一下[記錄時間]。**&#x200B;**
+1. 輸入您要記錄的時間，然後按一下[記錄時間]。****
 
    ![記錄時間](assets/log-time-dialog.png)

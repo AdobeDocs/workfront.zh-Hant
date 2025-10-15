@@ -6,9 +6,9 @@ description: 您可以建立、編輯和指派為使用者產生週期性時程�
 author: Lisa
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 395a7788ddfda71264b7b964953435affd7761e9
+source-git-commit: b0b9b80b4eb718e3e131ee0cd022f54cb906f187
 workflow-type: tm+mt
-source-wordcount: '1597'
+source-wordcount: '1584'
 ht-degree: 2%
 
 ---
@@ -29,29 +29,28 @@ ht-degree: 2%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- <col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td> <p>任何</p> </td> 
-  </tr> 
-   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>新增：標準 </p>
- <p>或</p> 
-<p>目前：計畫 </p> 
-</td> 
+   <td>Adobe Workfront套件</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
-   <td> <p>您必須擁有時程表的管理存取權。 </p> </td> 
+   <td>Adobe Workfront授權</td> 
+   <td>
+   <p>標準</p>
+   <p>規劃</p></td>
+  </tr> 
+  <tr> 
+   <td>存取層級設定</td> 
+   <td><p>對時程表的管理存取權</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*如需此表格中資訊的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

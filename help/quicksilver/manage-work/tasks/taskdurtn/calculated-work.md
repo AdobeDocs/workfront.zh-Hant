@@ -7,7 +7,7 @@ description: 「計算的工作量」是一種期間型別，您可以在Adobe W
 author: Alina
 feature: Work Management
 exl-id: f521c2f5-8d58-44c0-af18-6940ad0950ea
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 計算的工作量會決定完成任務所需的工作量（計畫時數）。 當指派給任務的資源被配置用於任務的整個工期時，我們建議您使用計算的工作工期型別。
 
-您的Workfront或群組管理員可以將您系統或群組的預設「期間型別」設定為「已計算的工作」。 在此情況下，所有新任務都將以此期間型別建立。 如需有關將您的任務和問題偏好設定變更為系統層級或群組層級專案偏好設定一部分的資訊，請參閱[設定全系統的任務和問題偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)。
+您的Workfront或群組管理員可以將您系統或群組的預設「期間型別」設定為「已計算的工作」。 在此情況下，所有新任務都將以此期間型別建立。 如需有關將您的任務和問題偏好設定變更為系統層級或群組層級專案偏好設定一部分的資訊，請參閱[設定全系統的任務和問題偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)。
 
 當資源新增至任務時，專案經理可預期會看到計畫付出增加。 舉例來說，有三種資源的一小時計畫會議代表總共需要三小時的工作，而有十種資源的一小時計畫會議代表需要十小時的工作。 這假設每個資源都以100%的配置分配給任務。
 

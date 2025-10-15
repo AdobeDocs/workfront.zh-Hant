@@ -3,13 +3,13 @@ content-type: tips-tricks-troubleshooting
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-projects
 title: 專案狀態不會從完成變更為目前
-description: （雖然這可以新增為常見問答集，但由於可搜尋性的原因，我保留為自己的文章）
+description: 本文會說明一種狀況，其中您無法將「專案狀態」從「完成」更新為「目前」。
 author: Alina
 feature: Work Management
 exl-id: 774c103f-8785-4d8b-83e9-a074e6518293
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---

@@ -6,9 +6,9 @@ description: 矩陣報表會以彙總表格格式呈現摘要資訊，因此相�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 714f2802-089f-4a41-8205-f397cf474a24
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1083'
 ht-degree: 0%
 
 ---
@@ -34,43 +34,35 @@ ht-degree: 0%
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
-
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-      <td> 
-      <p>新增：</p>
-         <ul>
-         <li><p>標準</p></li>
-         </ul>
-      <p>目前：</p>
-         <ul>
-         <li><p>規劃</p></li>
-         </ul>
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> 
+      <p>標準</p>
+      <p>規劃</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td><p>編輯報告、儀表板、行事曆的存取權</p> <p>編輯對篩選器、檢視、群組的存取權</p></td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>編輯報告、儀表板、行事曆的存取權</p> <p>編輯對篩選器、檢視、群組的存取權</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>管理報表的許可權</p></td> 
+ <td> <p>管理報表的許可權</p></td>  
   </tr> 
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -93,7 +85,7 @@ ht-degree: 0%
 
       ![矩陣摘要](assets/qs-report-matrix-summarized-350x392.png)
 
-   1. 對[欄（檢視）]索引標籤中的每個欄重複此程式，然後按一下[完成]。**&#x200B;**
+   1. 對[欄（檢視）]索引標籤中的每個欄重複此程式，然後按一下[完成]。****
 
 1. 按一下&#x200B;**群組**&#x200B;標籤。
 1. （視條件而定）如果您已建立群組，且想要將其套用至此報表，請按一下&#x200B;**套用現有群組**，然後從下拉式清單中選取群組。
@@ -101,7 +93,7 @@ ht-degree: 0%
 
    1. 選取產生器介面右上角的&#x200B;**切換至矩陣群組**。
    1. 在&#x200B;**列群組**&#x200B;區段中，識別建立表格水準群組的列群組。
-   1. （選擇性）若要新增其他列群組，請按一下[新增次要列群組]。**&#x200B;**
+   1. （選擇性）若要新增其他列群組，請按一下[新增次要列群組]。****
    1. 在&#x200B;**欄群組**&#x200B;區段中，識別建立資料表垂直群組的欄群組。
    1. （選擇性）若要新增其他欄群組，請按一下&#x200B;**新增次要欄群組**。
    1. （視條件而定）如果您依日期新增分組，也請指定結果是否依日、周、月、季或年分組。\
@@ -134,8 +126,9 @@ ht-degree: 0%
      >   * 數字和貨幣值的自訂資料欄位會彙總所有工作：父項、子項、父項的父項以及獨立工作。 如果您建立了矩陣報表，以在&#x200B;**值**&#x200B;欄中顯示計畫時數或實際時數，請注意，任何父物件（例如父系工作）的時數或成本資訊都不會顯示在矩陣報表中。 若要檢視父物件的時數，您必須檢視&#x200B;**詳細資料**&#x200B;標籤。
      >   
      >   
-     >**條件規則：**&#x200B;請為彙總的值設定任何格式規則。\
+     >
 
+   **條件規則：**&#x200B;請為彙總的值設定任何格式規則。\
    新增規則後，您可以定義欄位和文字樣式，以顯示符合該規則的欄位。 完成規則定義後，按一下&#x200B;**[新增規則]**，然後按一下&#x200B;**[完成]**&#x200B;以儲存規則。
 
 1. 按一下&#x200B;**篩選器**&#x200B;索引標籤，以定義將在報告中顯示的資訊。

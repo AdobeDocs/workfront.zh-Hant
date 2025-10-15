@@ -5,9 +5,9 @@ description: 您可以使用「摘要」這項功能，快速摘要工作專案�
 author: Becky
 feature: Get Started with Workfront
 exl-id: b7d4d9a5-cdc5-43a6-a58f-57480f702034
-source-git-commit: 59c74b6530df09cb664e146b611d246465cf0116
+source-git-commit: e9a9e45720c8b9ad25e3fa9340c813a73989fb4a
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '396'
 ht-degree: 1%
 
 ---
@@ -31,36 +31,36 @@ AI助理可以總結下列物件：
 >
 >如需Workfront中摘要面板的資訊，請參閱[摘要概觀](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)。
 
+
+
 ## 存取需求
 
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視本文中功能的存取需求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td><p>新增：任何</p>
-       <p>或</p>
-       <p>目前：無法使用</p></td>
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td><p>新增：標準</p>
-       <p>或</p>
-       <p>目前：無法使用</p></td>
+   <td><p>標準</p>
   </tr> 
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先決條件
 
 * 您的Workfront管理員必須為貴組織啟用AI助理。
 
-  如需詳細資訊，請參閱AI助理總覽一文中的[&#x200B; AI助理的必要條件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
+  如需詳細資訊，請參閱AI助理總覽一文中的[ AI助理的必要條件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
 * 您的Workfront管理員必須為您的存取層級啟用AI助理。
 
   如需詳細資訊，請參閱[啟用或停用AI助理](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)。

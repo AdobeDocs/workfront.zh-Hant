@@ -3,12 +3,12 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: 匯出時程表清單
 description: 身為人員管理員或時程表核准者，您可能需要下載時程表清單以快速檢視您負責之人員的時程表相關資訊。 您可以匯出時程表清單來執行此操作。
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: cb5b1c6c-7800-48f4-ae2c-c4007a161a6c
-source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '466'
 ht-degree: 2%
 
 ---
@@ -23,33 +23,31 @@ ht-degree: 2%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td>Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：淺色或更高 </p>
-   <p>目前：檢閱或以上 </p>
+   <td>Adobe Workfront授權</td> 
+   <td> <p>淺色或更高 </p>
+   <p>評論或以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
-   <td> <p>檢視或更高的任務和問題存取權 </p> </td> 
+   <td>存取層級設定</td> 
+   <td> <p>檢視或更高的任務與問題存取權</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件許可權</td> 
-   <td> <p>檢視或更高的時程表許可權</p> </td> 
+   <td>物件許可權</td> 
+   <td> <p>檢視或更高的任務和問題許可權</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -129,7 +127,7 @@ ht-degree: 2%
 
 1. 從下列選項中選取您要匯出時程表清單的檔案型別：
 
-   * PDF領地
+   * PDF Ladscape
    * PDF縱向
    * PDF其他大小
    * Excel

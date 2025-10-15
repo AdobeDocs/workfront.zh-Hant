@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 3942ba8d626a854344624bc5b7ea3ad01e8ad7fb
+source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
 workflow-type: tm+mt
-source-wordcount: '2075'
+source-wordcount: '1996'
 ht-degree: 0%
 
 ---
@@ -41,70 +41,42 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
 
 ## 存取需求
 
-+++ 展開以檢視存取需求。 
++++ 展開以檢視本文中功能的存取需求。 
 
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> 產品</p> </td>
-   <td>
-   <ul><li><p> Adobe Workfront</p></li>
-   <li><p> Adobe Workfront規劃<p></li></ul></td>
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront套件</p></td> 
+   <td> 
+<ul><li><p>任何Workfront套件</p></li>
+與
+<li><p>任何Planning套件</p></li></ul>
+或
+<ul><li><p>任何Workflow封裝</p></li>
+與
+<li><p>任何Planning套件</p></li></ul>
+   </td> </tr>
+
+</tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront授權</p></td> 
+   <td><p>外部、貢獻者、輕度或標準授權</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>物件許可權</p></td> 
+   <td>   <p>如果您是Workfront使用者，可檢視或更高許可權的工作區和記錄型別</p>  </td> 
   </tr>  
- <tr>
-   <td role="rowheader"><p>Adobe Workfront計畫*</p></td>
-   <td>
-<p>下列任一Workfront計畫：</p>
-<ul><li>選擇</li>
-<li>Prime</li>
-<li>Ultimate</li></ul>
-<p>舊版Workfront計畫不提供Workfront計畫</p>
-   </td>
-<tr>
-   <td role="rowheader"><p>Adobe Workfront規劃套件*</p></td>
-   <td>
-<p>任何 </p>  
-<p>如需每個Workfront計畫包含內容的詳細資訊，請聯絡您的Workfront客戶經理。 </td>
-<tr>
-   <td role="rowheader"><p>Adobe Workfront平台</p></td>
-   <td>
-<p>貴組織的Workfront例項必須上線至Adobe Unified Experience，才能存取Workfront Planning。</p>
-<p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">適用於Workfront的Adobe Unified Experience</a>。 </p>
-   </td>
-
-</tr>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront授權*</p></td>
-   <td>
-   <p>外部、貢獻者、輕度或標準授權</p>
-   <p>Workfront計畫不適用於舊版Workfront授權</p>
-  </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>存取層級設定</p></td>
-   <td> <p>Adobe Workfront Planning沒有存取層級控制</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>物件許可權</p></td>
-   <td>
-   <p>如果您是Workfront使用者，可檢視或更高許可權的工作區和記錄型別</p> 
-  </td>
-  </tr>
- </tbody>
+</tbody> 
 </table>
 
-*如需Workfront存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需Workfront存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
-
 
 ## 先決條件
 
@@ -149,8 +121,8 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
 
 {{step1-to-requests}}
 
-1. 啟用熒幕右上角的&#x200B;**切換至新的體驗**&#x200B;設定。
-啟用此設定可讓Workfront Planning請求表單出現在Workfront的&#x200B;**請求**&#x200B;區域中。
+1. 啟用熒幕右上角的&#x200B;**切換至新的體驗**設定。
+啟用此設定可讓Workfront Planning請求表單出現在Workfront的**請求**&#x200B;區域中。
 
    >[!TIP]
    >
@@ -214,7 +186,7 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
 
 1. （選擇性）按一下確認訊息中的&#x200B;**檢視您的要求**&#x200B;以開啟要求，或按一下&#x200B;**X**&#x200B;圖示以關閉確認。
 
-1. （選擇性）按一下&#x200B;**要求**&#x200B;區域中的&#x200B;**規劃**&#x200B;索引標籤，以檢視您的要求。
+1. （選擇性）按一下&#x200B;**要求**&#x200B;區域中的&#x200B;**規劃**索引標籤，以檢視您的要求。
 提交至Planning請求表單的所有您有權檢視的請求都會顯示在清單中。
 1. （可選）執行下列任一項作業：
 
@@ -231,7 +203,7 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
       * **狀態**：要求的狀態。
       * **輸入者**：新增請求的使用者名稱。 如果要求是由Workfront外部的人員加入，則&#x200B;**輸入者**&#x200B;欄位會顯示`N/A`。
 
-        您可以有多個&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;加入的篩選器。
+        您可以有多個&#x200B;**And**&#x200B;或&#x200B;**Or**加入的篩選器。
 當您新增篩選條件時，要求清單會自動篩選。
 
    * 按一下&#x200B;**欄**&#x200B;並隱藏、顯示或重新排列請求清單中的欄。

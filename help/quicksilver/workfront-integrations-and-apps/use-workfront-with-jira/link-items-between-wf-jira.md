@@ -6,9 +6,9 @@ description: 您可以自動或手動將 [!DNL Jira] 問題連結至 [!DNL Adobe
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 1c37f361-e866-4ac6-b672-408848a80ed6
-source-git-commit: 064418302767ad20e176080ba9a12db548750f3c
+source-git-commit: b1b55b8046aa771abb2cceda333940ccf827356a
 workflow-type: tm+mt
-source-wordcount: '1324'
+source-wordcount: '1378'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 0%
 >
 >根據貴組織與Jira的整合需求，我們建議使用Workfront自動化和整合。
 >
->如需Workfront自動化與整合的概觀，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+>如需Workfront自動化與整合的概觀，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 >
->如需Jira的Workfront自動化與整合模組特定功能的相關資訊，請參閱[Jira軟體模組](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules)。
+>如需Jira的Workfront自動化與整合模組特定功能的相關資訊，請參閱[Jira軟體模組](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules)。
 
 <!--
 
@@ -37,9 +37,9 @@ ht-degree: 0%
 >
 >Eight ready-to-use Workfront Automation and Integration templates for Jira will be available by August to help replicate common workflows and accelerate implementation. Templates are fully customizable to meet specific business needs and can be extended as requirements evolve. 
 > 
->For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
+>For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
 >
->For information about the specific capabilities of the Workfront Automation and Integration modules for Jira, see [Jira Software modules](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules). 
+>For information about the specific capabilities of the Workfront Automation and Integration modules for Jira, see [Jira Software modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules). 
 
 -->
 
@@ -49,8 +49,6 @@ ht-degree: 0%
 
 ## 存取需求
 
-您必須具備下列條件：
-
 +++ 展開以檢視本文中功能的存取需求。
 
 <table style="table-layout:auto"> 
@@ -58,35 +56,51 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://business.adobe.com/tw/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront] 計畫]</a></td> 
-   <td> <p>[!UICONTROL Pro]或更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td><p>任何</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe [!DNL Workfront]授權總覽</a></td> 
-   <td> 
-   <p>新增：標準<p>
-   <p>或</p>
-   <p>目前：計畫 </p>
-    </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td><p>標準 </p>
+       <p>規劃 </p>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Jira存取</td> 
-   <td> <p>系統管理員存取權</p> <p><b>重要</b>
-
-建議您在[!DNL Jira]和[!DNL Workfront]中建立個別的系統管理員帳戶以專用於此整合，而不使用可能附加至使用者的現有帳戶。</p> </td>
-</tr> 
+   <td> <p>系統管理員存取權</p> <p>重要：建議您在Jira和Workfront中建立個別系統管理員帳戶，以專門用於此整合，而不使用可能附加至使用者的現有帳戶。</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>您必須是[!DNL Workfront]管理員。 如需[!DNL Workfront]管理員的相關資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予使用者完整管理存取權</a>。</p> <p><b>附註</b>
-
-如果您仍然沒有存取權，請詢問您的[!DNL Workfront]管理員是否已在您的存取層級中設定其他限制。 如需[!DNL Workfront]管理員如何修改存取層級的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td>
-</tr> 
+   <td> <p>您必須是Workfront管理員。</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+## 安裝[!DNL Workfront]的[!DNL Jira]
+
+為[!DNL Workfront] OnDemand安裝[!DNL Jira]與在[!DNL Jira]伺服器執行個體上安裝它相同。
+
+您必須是[!DNL Jira]管理員才能安裝[!DNL Workfront]附加元件。
+
+如果您不是[!DNL Jira]管理員，可以瀏覽[!DNL Workfront]附加元件並要求安裝。 您的要求已傳送給[!DNL Jira]管理員進行核准和安裝。
+
+如需有關要求在[!DNL Jira]應用程式上安裝附加元件的詳細資訊，請參閱[管理附加元件的使用者要求。](https://confluence.atlassian.com/upm/managing-user-requests-for-add-ons-781394968.html)
+
+若要安裝[!DNL Workfront for Jira]：
+
+1. 以[!DNL Jira]管理員身分登入[!DNL Jira]。
+1. 在&#x200B;**[!DNL Workfront for Jira]**[[!DNL Atlassian Marketplace]&#x200B;中尋找](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview)附加元件。
+
+1. 按一下&#x200B;**[!UICONTROL 立即取得]**&#x200B;以進行安裝。
+
+   安裝完成後，您可以從[!DNL Workfront]登入[!DNL Jira]並設定整合。
+
+   如需詳細資訊，請參閱[設定Jira的Adobe Workfront](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md)。
 
 ## 先決條件
 
@@ -178,7 +192,7 @@ ht-degree: 0%
 
    >[!IMPORTANT]
    >
-   >如果您的組織已加入Adobe統一體驗，您必須使用&#x200B;**參考編號**&#x200B;將Workfront專案連結至Jira。 （URL選項可供使用，但如果您使用它，則會傳回錯誤。） 如需Unified Experience的相關資訊，請參閱[Workfront的Adobe Unified Experience &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
+   >如果您的組織已加入Adobe統一體驗，您必須使用&#x200B;**參考編號**&#x200B;將Workfront專案連結至Jira。 （URL選項可供使用，但如果您使用它，則會傳回錯誤。） 如需Unified Experience的相關資訊，請參閱[Workfront的Adobe Unified Experience ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
    >
    >對於不在Adobe Unified Experience上的組織，不建議使用URL選項，因為URL可能會變更。
 

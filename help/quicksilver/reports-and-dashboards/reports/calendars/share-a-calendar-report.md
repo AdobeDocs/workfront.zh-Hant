@@ -6,10 +6,10 @@ description: 您可以與其他使用者共用行事曆，也可以公開行事�
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 77eed0fe-2d47-40c4-a03d-590f7fa17dbe
-source-git-commit: 0606dab832753543ceef4b5b505413967176aec4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 0%
+source-wordcount: '590'
+ht-degree: 1%
 
 ---
 
@@ -22,8 +22,6 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -31,22 +29,21 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront plan]</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td><p>新增：淺色</p>
-       <p>或</p>
-       <p>目前：檢閱</p></td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td><p>精簡</p>
+       <p>審閱</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[!UICONTROL 檢視]或更高許可權可存取[!UICONTROL 報表]、[!UICONTROL 儀表板]和[!UICONTROL 行事曆]</p></td> 
+   <td> <p> 檢視或更高的報告、儀表板和行事曆存取權</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td>[!UICONTROL 檢視]或行事曆報告的更高許可權（可存取共用）</td> 
+   <td>檢視行事曆報告或更高許可權，並具有共用存取權</td> 
   </tr> 
  </tbody> 
 </table>
@@ -99,9 +96,9 @@ ht-degree: 0%
 
 1. 移至您要共用的行事曆。
 1. 按一下&#x200B;**[!UICONTROL 行事曆動作]**，然後按一下&#x200B;**[!UICONTROL 共用]**。
-1. 按一下行事曆名稱旁的&#x200B;**更多**&#x200B;功能表。
+1. 按一下行事曆名稱旁的&#x200B;**更多**功能表。
    ![行事曆更多功能表](assets/more-menu-calendar.png)
-按一下&#x200B;**複製公開連結**。
+按一下**複製公開連結**。
 1. 按一下「**[!UICONTROL 儲存]**」。
 
 ## 與私人連結共用行事曆

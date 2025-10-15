@@ -6,10 +6,10 @@ description: 您可以從「範本」區域建立及刪除範本。 建立新範
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 2%
+source-wordcount: '566'
+ht-degree: 3%
 
 ---
 
@@ -41,22 +41,20 @@ ht-degree: 2%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具備下列條件：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：標準 </p><p>或 </p><p>目前：計畫 </p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">您必須是系統管理員才能從Blueprint匯入範本</p> </td> 
+   <td> <p>標準 </p><p>規劃</p> <p>您必須是系統管理員才能從Blueprint匯入範本</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
+   <td role="rowheader">存取層級設定</td> 
    <td> <p>編輯範本的存取權</p> </td> 
   </tr> 
   <tr> 
@@ -69,6 +67,30 @@ ht-degree: 2%
 如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>New: Standard </p><p>Or </p><p>Current: Plan </p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">You must be a system administrator to import templates from Blueprints</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Templates</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>You have Manage permissions to the templates you create, by default</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 建立範本
 
@@ -107,8 +129,8 @@ ht-degree: 2%
    如需有關編輯範本的資訊，請參閱[編輯專案範本](../../../manage-work/projects/create-and-manage-templates/edit-templates.md)。
 
 1. 按一下「**儲存變更**」。
-1. （選擇性）如果您想要新增其他專案至範本，請參閱文章[編輯專案範本](../../../manage-work/projects/create-and-manage-templates/edit-templates.md)中的[新增其他專案至範本](../../../manage-work/projects/create-and-manage-templates/edit-templates.md#add-additional-items-to-a-template)小節。
+1. （選擇性）如果您想要新增其他專案至範本，請參閱文章[編輯專案範本](../../../manage-work/projects/create-and-manage-templates/edit-templates.md#add-additional-items-to-a-template)中的[新增其他專案至範本](../../../manage-work/projects/create-and-manage-templates/edit-templates.md)小節。
 
 ## 由群組關聯決定的範本設定
 
-專案範本與群組（或缺少群組）的關聯會影響專案、任務和問題偏好設定如何決定範本中的某些設定。 如需詳細資訊，請參閱文章[建立及修改群組的專案範本](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)中的[建立及修改群組的專案範本](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#create-and-modify-a-groups-project-templates)小節。
+專案範本與群組（或缺少群組）的關聯會影響專案、任務和問題偏好設定如何決定範本中的某些設定。 如需詳細資訊，請參閱文章[建立及修改群組的專案範本](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#create-and-modify-a-groups-project-templates)中的[建立及修改群組的專案範本](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)小節。

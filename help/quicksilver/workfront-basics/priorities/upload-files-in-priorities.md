@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 985f1aa11ad1d5efc8d043907d60ad5f5c1bba13
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
@@ -23,21 +23,19 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具備下列條件：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
-   <td> <p> 任何</p> </td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
    <td> 
-   <p>新增：投稿人或更高版本</p> 
-   <p>目前：要求或以上</p> </td> 
+   <p>投稿人或以上</p> 
+   <p>要求或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
@@ -46,7 +44,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -60,7 +58,7 @@ ht-degree: 0%
 1. （選擇性）在&#x200B;**上傳檔案**&#x200B;方塊中，選取資料夾。
 1. 拖放檔案，或按Cmd/Ctrl + V從剪貼簿貼上
 或
-按一下&#x200B;**新增檔案**&#x200B;以瀏覽檔案或從Document Cloud提供者匯入檔案。
+按一下**新增檔案**以瀏覽檔案或從Document Cloud提供者匯入檔案。
    ![新增檔案](assets/add-files.png)
 1. （選用）新增註解。
 1. （選用）新增更多檔案。
@@ -79,7 +77,7 @@ ht-degree: 0%
 1. （選擇性）在&#x200B;**上傳檔案**&#x200B;方塊中，選取資料夾。
 1. 拖放檔案，或按Cmd/Ctrl + V從剪貼簿貼上
 或
-按一下&#x200B;**新增檔案**&#x200B;以瀏覽檔案或從Document Cloud提供者匯入檔案。
+按一下**新增檔案**以瀏覽檔案或從Document Cloud提供者匯入檔案。
    ![新增檔案](assets/add-files.png)
 1. （選用）新增註解。
 1. （選用）新增更多檔案。

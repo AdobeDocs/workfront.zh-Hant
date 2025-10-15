@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 94603393-bdea-4673-9256-08da14f6916e
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 17aaf70977aa6ce0276676c6a30fd6c951be956c
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 1%
+source-wordcount: '881'
+ht-degree: 2%
 
 ---
 
@@ -59,32 +59,27 @@ ht-degree: 1%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td>任何</td> 
+   <td>Adobe Workfront套件</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td><p>新增：標準</p>
-       <p>或</p>
-       <p>目前：計畫</p></td>
-  </tr> 
+   <td>Adobe Workfront授權</td> 
+   <td><p>標準</p>
+       <p>規劃</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td>
+   <td>存取層級設定</td> 
+   <td>系統管理員</td> 
   </tr> 
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -102,19 +97,19 @@ ht-degree: 1%
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>品牌首頁圖示<span style="font-weight: normal;"> （顯示在頂端導覽區域的最左側）</span></p> </td> 
-      <td> <p>在<strong>上層導覽區域</strong>區段的<strong>首頁圖示</strong>下，按一下方塊中的任何位置，然後尋找並選取您的標誌影像。 或將影像拖曳至方塊。</p> <p>若要裁切影像，請使用捲動控制項，並將影像拖曳至您想要在指定空間內的位置。</p> <p>建議使用120 x 120影像。 其格式可為下列任一格式：GIF、JPG、PNG、SVG。</p> <p>此圖示也會顯示在使用者匯出為PDF檔案的報告、清單、控制面板以及傳遞的報告中。</p> </td> 
+      <td> <p>在<strong>上層導覽區域</strong>區段的<strong>首頁圖示</strong>下，按一下方塊中的任何位置，然後尋找並選取您的標誌影像。 或將影像拖曳至方塊。</p> <p>若要裁切影像，請使用捲動控制項，並將影像拖曳至您想要在指定空間內的位置。</p> <p>建議使用120 x 120影像。 其格式可為下列任一：GIF、JPG、PNG、SVG。</p> <p>此圖示也會顯示在使用者匯出為PDF檔案的報告、清單、控制面板以及傳遞的報告中。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>標籤主要功能表<img src="assets/main-menu-icon.png">標誌<span style="font-weight: normal;"> （顯示在主要功能表的右上角）</span></p> </td> 
-      <td> <p>在<strong>頂端導覽區域</strong>區段的<strong>主功能表標誌</strong>下，按一下方塊中的任何位置，然後尋找並選取您的標誌影像。 或將影像拖曳至方塊。</p> <p>若要裁切影像，請使用捲動控制項，並將影像拖曳至您想要在指定空間內的位置。</p> <p>建議使用300 x 120畫素的影像。 其格式可為下列任一格式：GIF、JPG、PNG、SVG。</p> </td> 
+      <td> <p>在<strong>頂端導覽區域</strong>區段的<strong>主功能表標誌</strong>下，按一下方塊中的任何位置，然後尋找並選取您的標誌影像。 或將影像拖曳至方塊。</p> <p>若要裁切影像，請使用捲動控制項，並將影像拖曳至您想要在指定空間內的位置。</p> <p>建議使用300 x 120畫素的影像。 其格式可為下列任一：GIF、JPG、PNG、SVG。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">品牌登入畫面標誌<span style="font-weight: normal;"> （顯示在使用者輸入登入認證的方塊左上方）</span></td> 
-      <td> <p>在<strong>登入畫面</strong>下，按一下方塊中的任何位置，然後尋找並選取您的標誌影像。 若要裁切影像，請使用捲動控制項，並將影像拖曳至您想要在指定空間內的位置。</p> <p>建議使用300 x 120畫素的影像。 其格式可為下列任一格式：GIF、JPG、PNG、SVG。</p> </td> 
+      <td> <p>在<strong>登入畫面</strong>下，按一下方塊中的任何位置，然後尋找並選取您的標誌影像。 若要裁切影像，請使用捲動控制項，並將影像拖曳至您想要在指定空間內的位置。</p> <p>建議使用300 x 120畫素的影像。 其格式可為下列任一：GIF、JPG、PNG、SVG。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">標籤登入畫面背景色彩<span style="font-weight: normal;"> （顯示在使用者輸入登入認證的方塊後面）</span></td> 
-      <td> <p>在<strong>登入畫面</strong>下，設定<strong>背景色彩</strong>。 </p> <p>您可以使用RGB或十六進位色彩代碼。</p> <p>只有在登入熒幕背景大於登入熒幕背景影像時（請參閱此表格中的下一列），或是影像中有任何透明度時，才會顯示背景顏色。</p> </td> 
+      <td> <p>在<strong>登入畫面</strong>下，設定<strong>背景色彩</strong>。 </p> <p>您可以使用RGB或HEX色彩代碼。</p> <p>只有在登入熒幕背景大於登入熒幕背景影像時（請參閱此表格中的下一列），或是影像中有任何透明度時，才會顯示背景顏色。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">標籤登入畫面背景影像<span style="font-weight: normal;"> （顯示在使用者輸入其登入認證的方塊後面）</span></td> 

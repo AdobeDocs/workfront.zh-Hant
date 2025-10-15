@@ -6,10 +6,10 @@ description: 您可以使用校訂核准報告來檢視有關您環境中校訂�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f8c924e-7c33-43f3-a9d6-75c56af28527
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 1%
+source-wordcount: '249'
+ht-degree: 2%
 
 ---
 
@@ -21,32 +21,33 @@ ht-degree: 1%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具備下列條件：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>Workfront計畫*</p> </td> 
+   <td role="rowheader"> <p>Workfront套件</p> </td> 
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Adobe Workfront授權概觀*</p> </td> 
-   <td> <p>規劃</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront授權</p> </td> 
+   <td> 
+   <p>標準</p>
+   <p>規劃</p>
+   </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"><strong>存取層級*</strong> </td> 
+   <td role="rowheader"><strong>存取層級組態</strong> </td> 
    <td> <p>編輯下列專案的存取權：</p> 
     <ul> 
      <li> <p>建立報告、儀表板和行事曆</p> </li> 
      <li> <p>建立篩選器、檢視和群組</p> </li> 
-    </ul> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何變更存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+    </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

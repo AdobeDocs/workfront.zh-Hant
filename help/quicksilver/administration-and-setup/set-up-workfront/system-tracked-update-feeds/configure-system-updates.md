@@ -8,16 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-source-git-commit: 4fafdcea97874e791104260375617e3989af1870
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '930'
 ht-degree: 8%
 
 ---
 
 # 設定系統更新
 
-<!-- Audited: 6/2025 -->
+<!-- Audited: 08/2025 -->
 
 <!--
 
@@ -55,19 +55,18 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td> 
-   <td>任何</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 封裝</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td><p>新增：[!UICONTROL Standard]</p>
-   或
-   <p>目前： [!UICONTROL 計畫]</p>
+   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
+   <td><p>[！UICONTROL標準]</p>
+   <p>[！UICONTROL計畫]</p>
    </td> 
   </tr>  
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td>
+   <td><p>[！UICONTROL系統管理員]</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -75,6 +74,29 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 *如需此表格中資訊的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td>Any</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td><p>New: [!UICONTROL Standard]</p>
+   Or
+   <p>Current: [!UICONTROL Plan]</p>
+   </td> 
+  </tr>  
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td>[!UICONTROL System Administrator]</td>
+  </tr> 
+ </tbody> 
+</table> -->
 
 ## 決定物件型別要追蹤哪些欄位[!DNL Workfront]
 
@@ -113,7 +135,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    * 專案
    * 任務
    * 問題
-   * 專案組合
+   * 產品組合
    * 方案
    * 使用者
 
@@ -124,8 +146,8 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    >
    >如果[!DNL Workfront]已在追蹤欄位，您無法從清單中再次新增該欄位。
 
-1. 新增所有您要[!DNL Workfront]追蹤的欄位後，請按一下[新增]。**&#x200B;**
-您新增的內建欄位會顯示在&#x200B;**[!UICONTROL 內建欄位]**&#x200B;子標籤下，而自訂欄位會顯示在&#x200B;**[!UICONTROL 自訂欄位]**&#x200B;子標籤下。
+1. 新增所有您要[!DNL Workfront]追蹤的欄位後，請按一下[新增]。****
+您新增的內建欄位會顯示在**[!UICONTROL 內建欄位]**&#x200B;子標籤下，而自訂欄位會顯示在&#x200B;**[!UICONTROL 自訂欄位]**子標籤下。
 **[!UICONTROL 所有欄位]**&#x200B;子標籤會顯示[!DNL Workfront]追蹤的內建和自訂欄位。
 
 ### 移除您不想要追蹤的欄位 {#remove-fields-you-don-t-want-tracked}
@@ -169,52 +191,52 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
   <tr> 
    <td>指派已變更</td> 
    <td>任務、問題</td> 
-   <td> <p>已啟用</p> </td> 
+   <td> <p>啟用</p> </td> 
   </tr> 
   <tr> 
    <td>基準線已刪除</td> 
    <td>專案</td> 
-   <td> <p>已停用</p> </td> 
+   <td> <p>停用</p> </td> 
   </tr> 
   <tr> 
    <td>記賬記錄已建立或已刪除</td> 
    <td>專案</td> 
-   <td> <p>已啟用</p> </td> 
+   <td> <p>啟用</p> </td> 
   </tr> 
   <tr> 
    <td>文件已建立或已刪除</td> 
    <td>專案、任務、問題、投資組合、項目計劃等</td> 
-   <td> <p>已啟用</p> </td> 
+   <td> <p>啟用</p> </td> 
   </tr> 
   <tr> 
    <td>費用已建立或已刪除</td> 
    <td>專案、任務</td> 
-   <td> <p>已啟用</p> </td> 
+   <td> <p>啟用</p> </td> 
   </tr> 
   <tr> 
    <td>小時已記錄或已刪除</td> 
    <td>專案、任務、問題</td> 
-   <td> <p>已啟用</p> </td> 
+   <td> <p>啟用</p> </td> 
   </tr> 
   <tr> 
    <td>問題已刪除</td> 
    <td>專案</td> 
-   <td> <p>已啟用</p> </td> 
+   <td> <p>啟用</p> </td> 
   </tr> 
   <tr> 
    <td>任務已刪除</td> 
    <td>專案</td> 
-   <td> <p>已啟用</p> </td> 
+   <td> <p>啟用</p> </td> 
   </tr> 
   <tr> 
    <td>某人的存取權限已變更</td> 
    <td>專案、任務、問題、文件、投資組合、計劃</td> 
-   <td> <p>已啟用</p> </td> 
+   <td> <p>啟用</p> </td> 
   </tr> 
   <tr> 
    <td>訂閱註解物件</td> 
    <td>專案、任務、問題</td> 
-   <td> <p>已啟用</p> </td> 
+   <td> <p>啟用</p> </td> 
   </tr> 
  </tbody> 
 </table>

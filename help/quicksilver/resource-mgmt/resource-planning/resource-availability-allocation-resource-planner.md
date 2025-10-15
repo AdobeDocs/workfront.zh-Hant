@@ -6,9 +6,9 @@ description: 您可以在資源規劃工具中檢視資源的可用性，以及�
 author: Lisa
 feature: Resource Management
 exl-id: 5b3e52a6-af9b-4e68-8d6e-43a5151a2a2c
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1199'
 ht-degree: 4%
 
 ---
@@ -21,26 +21,21 @@ ht-degree: 4%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td><p>新增：任何</p>
-       <p>或</p>
-       <p>目前：Pro或更高</p> </td> 
+  <tr>
+   <td>Adobe Workfront套件</td> 
+   <td><p>任何</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td><p>新增：淺色或更高</p>
-       <p>或</p>
-       <p>目前：檢閱或以上</p></td>
+   <td>Adobe Workfront授權</td> 
+   <td><p>淺色或更高</p>
+       <p>評論或以上</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
+   <td>存取層級設定</td> 
    <td> <p>檢視以下專案或更高存取權：</p> 
     <ul> 
      <li> <p>資源管理</p> </li> 
@@ -50,13 +45,13 @@ ht-degree: 4%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件許可權</td> 
+   <td>物件許可權</td> 
    <td> <p>檢視或更高許可權給您要在資源規劃工具中檢視的專案</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -161,7 +156,7 @@ ht-degree: 4%
    | **選項** | 使用者檢視 | 專案檢視 | 角色檢視 |
    |---|---|---|---|
    | 可用 | ✔ | ✔ | ✔ |
-   | 計畫 | ✔ | ✔ | ✔ |
+   | 已規劃 | ✔ | ✔ | ✔ |
    | 已編列預算 |   | ✔ | ✔ |
    | 變異數 |   | ✔ | ✔ |
    | 淨額 |   | ✔ | ✔ |
@@ -199,7 +194,7 @@ ht-degree: 4%
 
 1. 前往資源規劃工具。
 
-   如需有關存取資源規劃工具的詳細資訊，請參閱文章[資源規劃工具概觀](../../resource-mgmt/resource-planning/get-started-resource-planner.md)中的[尋找資源規劃工具](../../resource-mgmt/resource-planning/get-started-resource-planner.md#accessing-the-resource-planner)區段。
+   如需有關存取資源規劃工具的詳細資訊，請參閱文章[資源規劃工具概觀](../../resource-mgmt/resource-planning/get-started-resource-planner.md#accessing-the-resource-planner)中的[尋找資源規劃工具](../../resource-mgmt/resource-planning/get-started-resource-planner.md)區段。
 
 1. 選取&#x200B;**依使用者檢視**。
 

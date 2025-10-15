@@ -5,9 +5,9 @@ description: 專案運作狀態功能利用AI助理的強大功能，立即為�
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: d1ded406b8c4da975e2ff4d6825954cabd483ed2
+source-git-commit: dce36c38a626b4d3799fb1d1f673bdc49d81e274
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1508'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,8 @@ AI助理可以產生下列物件的專案健康情況評估：
 
 如需AI助理的詳細資訊，請參閱[AI助理概述](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)。
 
-+++ 展開以檢視存取需求。 
++++ 展開以檢視本文中功能的存取需求。
+
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -36,9 +37,10 @@ AI助理可以產生下列物件的專案健康情況評估：
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront計畫</p></td> 
+   <td role="rowheader"><p>Adobe Workfront套件</p></td> 
    <td> 
-<p>選取、Prime或Ultimate </p> 
+<p>選取或更高 </p> 
+<p>工作流程選取或以上</p>
    </td> 
 <tr> 
  <tr> 
@@ -50,9 +52,9 @@ AI助理可以產生下列物件的專案健康情況評估：
   </tr> 
   <tr> 
    <td role="rowheader"><p>存取層級設定</p></td> 
-   <td><p>管理員以管理專案健康情況設定 </p>
-   <p>編輯以套用專案健康狀態設定 </p>
-     <p>檢視以檢視專案健康狀態設定 </p>
+   <td><p>您必須是系統管理員才能管理專案健康情況設定 </p>
+   <p>編輯專案的存取權以套用專案健康情況設定 </p>
+     <p>檢視專案的存取權以檢視專案健康情況設定 </p>
   </td> 
   </tr>  
     </tr>  

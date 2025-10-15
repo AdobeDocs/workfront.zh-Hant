@@ -6,9 +6,9 @@ description: 當校訂連續60天未開啟時，會自動封存。 封存的校�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ac4ce52a-ef63-43a8-9f2d-95f0cdb56f53
-source-git-commit: 1b85267e811f5832480316be5322ee819abaf190
+source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '164'
 ht-degree: 0%
 
 ---
@@ -21,25 +21,28 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
-   <td> <p>目前計畫：Pro或更高版本</p> <p>或</p> <p>舊版計畫：選擇或Premium</p> <p>如需有關不同方案的校訂存取許可權的詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">存取Workfront中的校訂功能</a>。</p> </td> 
-  </tr>
-
-<tr> 
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>任何</p> </td> 
+  </tr> 
+    <tr> 
+   <td role="rowheader"> <p>Adobe Workfront授權</p> </td> 
+   <td> 
+   <p>任何</p>
+   </td> 
+  </tr> 
+  <tr> 
    <td role="rowheader">校訂存取權 </td> 
    <td>賓客或以上</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有哪些計畫或校訂存取權，請聯絡您的Workfront或Workfront Proof管理員。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

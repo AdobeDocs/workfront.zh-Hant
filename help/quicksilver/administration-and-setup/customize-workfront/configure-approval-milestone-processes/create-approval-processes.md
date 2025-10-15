@@ -8,16 +8,16 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
-source-wordcount: '2193'
-ht-degree: 1%
+source-wordcount: '2213'
+ht-degree: 2%
 
 ---
 
 # 為工作項目建立核准流程
 
-<!-- Audited: 12/2023 -->
+<!-- Audited: 08/2025-->
 
 <!--see below the "hidden" content for the redesigned tabs - August 2023-->
 
@@ -44,35 +44,65 @@ ht-degree: 1%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront套件*</td> 
+   <td><p>對於系統層級或單一使用核准程式：</p><ul><li><p>任何封裝</p></li></ul>
+   <p>對於群組層級核准流程：</p>
+   <ul><li><p>工作流程Prime或Ultimate</p></li>
+   <li><p>Workfront Prime或Ultimate</p></li></ul>
+   </td>
+
+</tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>標準</p>
+ <p>規劃</p> 
+</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>如果您是系統管理員或您擁有「核准」流程的管理存取權，則可以為特定群組建立系統層級核准流程或群組層級核准流程。</p> 
+   <p>如果您是群組管理員，並且擁有「核准程式」的管理存取權，則可以為您管理的群組建立群組層次核准程式。</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*如需此表格中資訊的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td><p>系統層級或單一使用核准程式：任何</p>
-   <p>群組層級核准流程： Prime或Ultimate</p></td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td><p>System-level or single-use approval process: Any</p>
+   <p>Group-level approval process: Prime or Ultimate</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：標準 </p>
- <p>或</p> 
-<p>目前：計畫 </p> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>New: Standard </p>
+ <p>or</p> 
+<p>Current: Plan </p> 
 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
-   <td> <p>如果您是系統管理員或您擁有核准流程的管理存取權，則可以為特定群組建立系統層級核准流程，或群組層級核准流程。</p> 
-   <p>如果您是群組管理員，您可以為您管理的群組建立群組層級核准流程。</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>If you are a system administrator or you have administrative access to approval processes, you can create a system-level approval process, or a group-level approval process for a particular group.</p> 
+   <p>If you are a group administrator, you can create group-level approval processes for groups that you manage.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
-+++
 
 ## 建立工作專案的系統層次或群組層次全域核准程式
 
@@ -99,7 +129,7 @@ ht-degree: 1%
     <tbody> 
      <tr> 
       <td role="rowheader">核准流程名稱</td> 
-      <td><p>輸入核准流程的描述性名稱。 將核准程式套用至物件時，使用者可以看到此名稱，如<a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">將新的或現有的核准程式與工作建立關聯</a>中所述。</p></td> 
+      <td><p>輸入核准流程的描述性名稱。 將核准程式套用至物件時，使用者可以看到此名稱，如<a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">將新的或現有的核准程式與工作建立關聯</a>中所述。</p> <p> 這是必填欄位。 </p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">說明</td> 
@@ -116,8 +146,9 @@ ht-degree: 1%
        <li>如果您是系統管理員或您擁有核准流程的管理存取權，則當您鍵入群組名稱時，可以在系統中看到任何群組。 <b>預設會選取所有群組</b>。 </li> 
        <li>如果您是群組管理員，沒有核准程式的管理許可權，則可以在輸入核准程式名稱時，將核准程式指定給您管理的任何群組。 <b>所有群組</b>選項無法使用。</li> 
        </ul> 
+       <p>這是必填欄位。</p>
        <p>此選項不適用於單次使用的核准流程。</p> 
-       <p><b>警告</b>：當您變更群組特定核准程式時，已經與工作專案關聯的現有核准程式可能會變更。 如需這些變更的相關資訊，請參閱<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">群組和核准流程變更如何影響指派的核准流程</a>。</p> 
+       <p><b>警告</b></p> <p> 當您變更群組特定核准流程時，已經與工作專案關聯的現有核准流程可能會變更。 如需這些變更的相關資訊，請參閱<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">群組和核准流程變更如何影響指派的核准流程</a>。</p> 
        <p>如需從群組頁面列出和管理群組核准流程的資訊，請參閱<a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">群組層級核准流程</a>。 </p> 
        <p>如需有關核准程式之管理存取許可權的資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予使用者對特定區域的管理存取許可權</a>。</p> </td> 
      </tr> 
@@ -134,11 +165,13 @@ ht-degree: 1%
     <tbody> 
      <tr> 
       <td role="rowheader"> <p role="rowheader">開始核准流程 - 當狀態設定為</p> </td> 
-      <td> <p>選取將觸發工作專案核准流程的狀態。 當有人將工作專案更新為此狀態時，其核准流程就會開始。 </p> <p>無法為多個核准流程路徑選擇相同狀態。</p> <p>可用的狀態是根據選項<b>下選取的內容而定。此核准可由</b>使用（上表說明）：</p> 
+      <td> <p>選取將觸發工作專案核准流程的狀態。 當有人將工作專案更新為此狀態時，其核准流程就會開始。 </p> 
+      <p>這是必填欄位。 </p>
+      <p>無法為多個核准流程路徑選擇相同狀態。</p> <p>可用的狀態是根據選項<b>下選取的內容而定。此核准可由</b>使用（上表說明）：</p> 
        <ul> 
        <li> 如果選取<b>所有群組</b>，則只能使用系統範圍狀態
        <li> <p>如果選取了特定群組，則只能使用該群組的可用狀態</p> </li> 
-       </ul> <p>如需有關核准程式如何使用狀態的資訊，請參閱文章<a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">核准程式概觀</a>中的<a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md#how2" class="MCXref xref">核准程式如何依賴狀態</a>一節。</p> </td> 
+       </ul> <p>如需有關核准程式如何使用狀態的資訊，請參閱文章<a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md#how2" class="MCXref xref">核准程式概觀</a>中的<a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">核准程式如何依賴狀態</a>一節。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">階段名稱</td> 
@@ -146,18 +179,19 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader">核准者</td> 
-      <td> <p>開始輸入您想要指定為此階段核准者的使用者、專案團隊或工作角色名稱，然後按一下該名稱出現在下拉式清單中。 您只能新增作用中使用者、<span>工作角色</span>和團隊。 </p>
+      <td> <p>開始輸入您想要指定為此階段核准者的使用者、專案團隊或工作角色名稱，然後按一下該名稱出現在下拉式清單中。 您只能新增作用中使用者、<span>工作角色</span>和團隊。 </p> 
+      <p>這是必填欄位。</p>
 
-   <p><b>提示</b>：</p>
+   <p><b>秘訣</b></p>
 
    <p>將使用者新增為核准者時，請注意頭像、使用者的主要角色或其電子郵件地址，以區分具有相同名稱的使用者。 使用者必須至少與一個工作角色相關聯，才能在您新增時檢視該角色。</p>
       <p>您必須在存取層級中啟用檢視聯絡資訊設定，使用者才能檢視使用者的電子郵件。 如需詳細資訊，請參閱<a href="../../add-users/configure-and-grant-access/grant-access-other-users.md">授予使用者存取權</a>。 </p>
 
-   <p><b>附註</b>：
+   <p><b>附註</b>
 
    將使用者、團隊或角色新增為核准者，並不會自動授予他們與該核准相關聯的物件許可權。 他們會在觸發核准步驟時獲得物件的許可權。 否則，物件必須先與他們共用，他們才能做出核准決定。 </p> <p>您也可以指定個人的角色，將個人指定為核准者。 例如，您可以將專案所有者、專案贊助者、Portfolio所有者、方案所有者或經理指派為核准者。 當您開始輸入時，這些選項會自動顯示。</p>
 
-   <p><b>重要</b>：  
+   <p><b>重要</b>  
        <ul> 
        <li> <p>當您將核准指派給「專案贊助者」，且沒有指定任何人員作為專案的贊助者時，核准將重新指派給「專案所有者」。 如果未指定任何人為專案的所有者，則會將核准指派給Workfront管理員。 </p> </li> 
       </ul> 
@@ -166,7 +200,7 @@ ht-degree: 1%
        </ul> 
        <ul> 
        <li> <p>當您將核准指派給專案所有者，且沒有人被指定為專案的所有者時，核准將重新指派給主要Workfront管理員，如設定區域的客戶資訊區段中所述。 如需詳細資訊，請參閱<a href="../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md" class="MCXref xref">設定您系統的基本資訊</a>。  </p> </li> 
-       </ul> <p> <img src="assets/approval-create-add-users-nwe-350x304.png" style="width: 350;height: 304;"> </p> </p> <p>您可以重複此程式，將多個核准者新增至階段。 單一階段可包含使用者、團隊和職務角色作為核准者的組合。 您可以新增到階段的核准者數量沒有限制。</p> <p><b>重要</b>：  <p>當您指派工作角色作為核准者時，與該工作角色相關聯且同樣位於專案團隊中的所有使用者都可以對核准做出決定。 </p> <p>當您將團隊指派為核准者時，該團隊中的任何使用者都可以對核准做出決定。 </p> <p>如需有關專案團隊的詳細資訊，請參閱<a href="../../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">專案團隊概述</a>。 如需核准工作的詳細資訊，請參閱<a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">核准工作</a>。</p> </p> </td> 
+       </ul> <p> <img src="assets/approval-create-add-users-nwe-350x304.png" style="width: 350;height: 304;"> </p> </p> <p>您可以重複此程式，將多個核准者新增至階段。 單一階段可包含使用者、團隊和職務角色作為核准者的組合。 您可以新增到階段的核准者數量沒有限制。</p> <p><b>重要</b></p> <p>當您指派工作角色作為核准者時，與該工作角色相關聯且同樣位於專案團隊中的所有使用者都可以對核准做出決定。 </p> <p>當您將團隊指派為核准者時，該團隊中的任何使用者都可以對核准做出決定。 </p> <p>如需有關專案團隊的詳細資訊，請參閱<a href="../../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">專案團隊概述</a>。 如需核准工作的詳細資訊，請參閱<a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">核准工作</a>。</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">只需要一個決定<br> <br>（只有在您將多個核准者新增到階段時才會顯示） </td> 
@@ -221,6 +255,6 @@ ht-degree: 1%
 
 ## 允許使用者修改單一工作專案的全域核准流程
 
-根據預設，擁有專案、任務和問題管理許可權的使用者可以對其建立單一使用核准流程。 如需新增單一使用核准流程至專案、任務和問題的相關資訊，請參閱[將新的或現有的核准流程與工作建立關聯](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)一文中的[將單一使用核准流程與專案、任務、問題、範本或範本任務建立關聯](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md#creating-a-single-use-approval-process)小節。
+根據預設，擁有專案、任務和問題管理許可權的使用者可以對其建立單一使用核准流程。 如需新增單一使用核准流程至專案、任務和問題的相關資訊，請參閱[將新的或現有的核准流程與工作建立關聯](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md#creating-a-single-use-approval-process)一文中的[將單一使用核准流程與專案、任務、問題、範本或範本任務建立關聯](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)小節。
 
-使用者也可以變更與工作專案相關聯之全域核准流程的設定。 這些變更只會影響與系統層級核准流程關聯的專案、任務或問題。 如需詳細資訊，請參閱文章[將新的或現有的核准程式與工作建立關聯](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)中的[修改用於特定物件的全域核准程式](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md#modifying-a-global-approval-process)一節。
+使用者也可以變更與工作專案相關聯之全域核准流程的設定。 這些變更只會影響與系統層級核准流程關聯的專案、任務或問題。 如需詳細資訊，請參閱文章[將新的或現有的核准程式與工作建立關聯](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)中的「修改用於特定物件的全域核准程式」一節。

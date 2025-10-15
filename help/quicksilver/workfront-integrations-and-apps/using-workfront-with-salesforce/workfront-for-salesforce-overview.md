@@ -7,9 +7,9 @@ description: 您可以為Salesforce安裝 [!DNL Adobe Workfront] ，以允許Sal
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 65d4cdae-1d34-4a8a-a1c0-706cd41fc75e
-source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,9 @@ ht-degree: 0%
 >
 >為了滿足貴組織與Salesforce的整合需求，我們建議您使用Workfront自動化和整合。
 >
->如需Workfront自動化與整合的概觀，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+>如需Workfront自動化與整合的概觀，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 >
->如需Salesforce之Workfront自動化與整合模組的特定功能相關資訊，請參閱[Salesforce模組](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules)。
+>如需Salesforce之Workfront自動化與整合模組的特定功能相關資訊，請參閱[Salesforce模組](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules)。
 
 您可以安裝[!DNL Adobe Workfront for Salesforce]，讓您的[!DNL Salesforce]使用者提交[!DNL Workfront]要求並自動建立專案，而不需離開[!DNL Salesforce]。
 
@@ -36,13 +36,7 @@ ht-degree: 0%
 
 如需有關為所有使用者設定[!DNL Workfront]中的[!DNL Salesforce]區段的詳細資訊，請參閱[為 [!DNL Adobe Workfront] 使用者設定 [!DNL Salesforce] 區段](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md)。
 
->[!NOTE]
->
->需要[!UICONTROL Pro] [!DNL Workfront]計畫才能使用此功能。 如需各種可用計畫的詳細資訊，請參閱[[!DNL Workfront] 計畫。](https://business.adobe.com/tw/products/workfront/pricing.html)
-
 ## 存取需求
-
-您必須具有下列存取權才能使用本文所述的功能：
 
 +++ 展開以檢視本文中功能的存取需求。
 
@@ -51,22 +45,18 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td> 
-   <td> <p>[!UICONTROL Pro]或更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>新增：標準<p>
-   <p>或</p>
-   <p>目前：計畫</p>
-
-
-</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>標準</p>
+   <p>規劃</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

@@ -7,9 +7,9 @@ description: Scenario Planner需要Adobe Workfront的單獨授權和額外存取
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d7f3c7fa-81aa-40c9-b506-fe1fe346e9ea
-source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
+source-git-commit: 1b06589a705cf218239ff1273b865c05e4ceb96f
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
@@ -18,101 +18,107 @@ ht-degree: 0%
 
 <!--Audited: 04/2024-->
 
-[!DNL Scenario Planner]有額外的授權需求。 如需[!DNL Workfront Scenario Planner]的相關資訊，請參閱[&#x200B; [!DNL Scenario Planner] 概觀](../scenario-planner/scenario-planner-overview.md)。
+<!--The [!DNL Scenario Planner] has additional license requirements. For information about the [!DNL Workfront Scenario Planner], see [The [!DNL Scenario Planner] overview](../scenario-planner/scenario-planner-overview.md).-->
 
 <!--
 might need to add information about the permissions to plans/ initiatives if those will be coming later?
 -->
 
-若沒有正確的存取或許可權，您可能無法檢視[!DNL &#x200B; Adobe Workfront]的[!UICONTROL 案例]區域，也無法管理組織的計畫或方案。 管理計畫和方案包括建立、編輯和刪除它們。
+若沒有正確的存取或許可權，您可能無法檢視[!UICONTROL 的]案例[!DNL  Adobe Workfront]區域，也無法管理組織的計畫或方案。 管理計畫和方案包括建立、編輯和刪除它們。
 
 ## 需要存取權才能檢視及使用[!DNL Adobe Workfront Scenario Planner]
 
 您必須確定符合下列所有條件，才能存取[!DNL Workfront Scenario Planner]：
 
-1. 您的組織必須擁有下列其中一個Workfront計畫。
+1. 貴組織必須有Workfront Ultimate套件。
 
-   視您使用新計畫或目前Workfront計畫而定，您的組織必須具備下列其中一項：
+   Scenario Planner不適用於Workfront Workflow套件。
 
-   * 針對新計畫，您的組織必須有[!UICONTROL Ultimate] [!DNL Workfront]計畫。 此情境規劃工具僅包含在[!UICONTROL Ultimate]計畫中。
+   如果您目前正在更新Workfront，而且想要保留Scenario Planner，請洽詢Workfront客戶代表。
 
-   * 對於目前的Workfront計畫，您的組織必須同時具備下列兩個條件：
+   如果您是新客戶，Scenario Planner將無法再購買。
 
-      * 您的組織必須購買[!DNL Workfront] [!UICONTROL 企業]或更新版本的[!DNL Workfront]計畫。
+   <!--Old: 
+    Depending on whether you use the new or the current Workfront plan, your organization must have one of the following:
+    * For the new plans, your organization must have the  [!UICONTROL Ultimate] [!DNL Workfront] plan. The Scenario Planner is included only in the [!UICONTROL Ultimate] plan. 
+    * For the current Workfront plans, your organization must have both of the following: 
+      * Your organization must purchase a [!DNL Workfront] [!UICONTROL Business] or higher [!DNL Workfront] plan. 
+      
+      * Your organization must purchase a [!DNL Workfront Scenario Planner] license, in addition to a [!DNL Workfront] license. Contact your [!DNL Workfront] Account Representative to learn about [!DNL Workfront Scenario Planner] licenses. -->
 
-      * 您的組織除了[!DNL Workfront]授權外，還必須購買[!DNL Workfront Scenario Planner]授權。 請連絡您的[!DNL Workfront]客戶代表以瞭解[!DNL Workfront Scenario Planner]授權。
+1. 您必須具備下列其中一個Workfront授權：
 
-1. 您必須擁有下列其中一個Workfront授權。
+   * [!UICONTROL 輕]或更高
+   * [!UICONTROL 檢閱者]或更新版本
 
-   視您使用新授權或目前授權而定，您的[!DNL Workfront]管理員必須為您指派下列任何型別的授權：
+   <!--Old: 
+      * For the current licenses: 
+        * [!UICONTROL Plan]
+        * [!UICONTROL Work]
+        * [!UICONTROL Review]-->
+   <!--Old: 
+      >[!NOTE]
+      > 
+      >* When using the new licenses, users with a [!UICONTROL Contributor] or [!UICONTROL External] license type cannot access the [!DNL Scenario Planner].
+      >
+      >* When using the current licenses, users with a Request or External license type cannot access the Scenario Planner. -->
 
-   * 對於新授權：
-      * [!UICONTROL 標準]
-      * [!UICONTROL 亮]
-
-   * 對於目前的授權：
-
-      * [!UICONTROL 計畫]
-      * [!UICONTROL 工作]
-      * [!UICONTROL 檢閱]
-
-   >[!NOTE]
-   > 
-   >* 使用新授權時，具有[!UICONTROL 貢獻者]或[!UICONTROL 外部]授權型別的使用者無法存取[!DNL Scenario Planner]。
-   >
-   >* 使用目前的授權時，具有「請求」或「外部」授權型別的使用者無法存取Scenario Planner。
-
-1. 您的[!DNL Workfront]管理員必須授與您存取層級中[!DNL Scenario Planner]的[!UICONTROL 檢視]或[!UICONTROL 編輯]存取權。
+1. 您的[!DNL Workfront]管理員必須授與您存取層級中[!UICONTROL 的]檢視[!UICONTROL 或]編輯[!DNL Scenario Planner]存取權。
 
    如需授與[!DNL Workfront Scenario Planner]存取權的相關資訊，請參閱[授與 [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)存取權。
 
 1. （選用且建議使用）若要檢視或更新計畫和方案的財務資訊，您的[!DNL Workfront]管理員也必須授與您存取層級中[!UICONTROL 財務資料]的存取權。 如需在存取層級中授與財務資料的相關資訊，請參閱[授與財務資料的存取權](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)。
 
-1. （選擇性）如果您需要存取您未建立的計畫，計畫建立者必須授予您計畫正確的許可權，您才能存取計畫。 如需有關存取您未建立的計畫和方案所需的許可權資訊，請參閱本文章中的[存取計畫和方案所需的許可權](#permissions-needed-to-access-plans-and-initiatives)一節。
+
+<!--1. (Optional) If you need to access plans you didn't create, a plan creator must give you the correct permissions to their plan to access it. For information about the permissions needed to access plans and initiatives that you didn't create, see the [Permissions needed to access plans and initiatives](#permissions-needed-to-access-plans-and-initiatives) section in this article.-->
 
 <!--this used to be true but not anymore:
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>(NOTE: this is no longer needed) </p> <p>Your Workfront administrator must assign you a layout template that includes the Scenarios area in the Main Menu. </p> <p>For information about customizing the Main Menu in a layout template, see <a href="../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md" class="MCXref xref" xrefformat="{para}">Customize the Main Menu using a layout template</a>. </p> <p>For information about assigning users to a Layout Template, see <a href="../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md" class="MCXref xref" xrefformat="{para}">Assign users to a layout template</a>.</p> </li>
   -->
 
-## 檢視計畫和方案所需的存取權
+<!--Repetitive from above?? 
 
-除了您的公司取得[!DNL Workfront Scenario Planner]的正確授權外，[!DNL Workfront]管理員還必須指派下列存取權和設定給您，以便您檢視此區域中的[!DNL Workfront Scenario Planner]和資訊：
+## Access needed to view plans and initiatives
 
-* 存取層級至少具有[!UICONTROL 檢視]對[!DNL Scenario Planner]的存取權。
+In addition to your company acquiring the correct license for the [!DNL Workfront Scenario Planner], your [!DNL Workfront] administrator must also assign you the following access and setup so you can view the [!DNL Workfront Scenario Planner] and the information in this area:
 
-  如需[!DNL Scenario Planner]的存取層級相關資訊，請參閱[授與 [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)的存取權。
+* An access level with at least [!UICONTROL View] access to [!DNL Scenario Planner].
 
-* 存取層級，至少具有[!UICONTROL 檢視]對[!UICONTROL 財務資料]的存取權（若您也需要檢視計畫與方案的財務資訊）。 財務資訊的一些範例為預算、成本或職務角色費率。
+  For information about the access level to [!DNL Scenario Planner], see [Grant access to [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
 
-  如需[!UICONTROL 財務資料]存取層級的相關資訊，請參閱[授予財務資料的存取權](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)。
+* An access level with at least [!UICONTROL View] access to [!UICONTROL Financial Data] if you need to also view financial information about the plan and the initiatives. Some examples of financial information are budgets, costs, or job role rates.
 
-  >[!TIP]
-  >
-  >[!UICONTROL 要求者]與[!UICONTROL 外部]使用者沒有檢視[!DNL Scenario Planner]的存取權。
-
-* 檢視計畫的許可權。 如需有關存取您未建立的計畫和方案所需的許可權資訊，請參閱本文章中的[存取計畫和方案所需的許可權](#permissions-needed-to-access-plans-and-initiatives)一節。
-
-## 管理計畫和方案所需的存取權
-
-您的[!DNL Workfront]管理員必須指派下列存取權給您，您才能在[!DNL Scenario Planner]中管理計畫及其資訊：
-
-* [!UICONTROL 計畫]或[!UICONTROL 工作]授權型別，具有存取層級[!DNL Scenario Planner]的編輯存取權。
-
-  所有其他授權型別沒有管理計畫的存取權。
-
-  如需有關從存取層級授與[!DNL Scenario Planner]存取權的資訊，請參閱[授與 [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)的存取權。
-
-* 若您還需要更新計畫的財務資訊，則在存取層級中具有[!UICONTROL 編輯]存取[!UICONTROL 財務資料]的[!UICONTROL 計畫]授權型別。
-
-  您可以編輯的財務資訊範例包括[!UICONTROL 預算]、[!UICONTROL 計畫收益]和[!UICONTROL 固定成本]。
+  For information about the [!UICONTROL Financial Data] access level, see [Grant access to financial data](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
   >[!TIP]
   >
-  >只有[!UICONTROL 計畫]授權持有人有[!UICONTROL 編輯]存取[!UICONTROL 財務資料]的許可權。
+  >[!UICONTROL Requestors] and [!UICONTROL External] Users do not have access to view the [!DNL Scenario Planner].
 
-  如需[!UICONTROL 財務資料]存取層級的相關資訊，請參閱[授予財務資料的存取權](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)。
+* View permissions to the plan. For information about the permissions needed to access plans and initiatives that you didn't create, see the [Permissions needed to access plans and initiatives](#permissions-needed-to-access-plans-and-initiatives) section in this article.
 
-* 管理您未建立之計畫的許可權。 如需有關存取您未建立的計畫和方案所需的許可權資訊，請參閱本文章中的[存取計畫和方案所需的許可權](#permissions-needed-to-access-plans-and-initiatives)一節。
+## Access needed to manage plans and initiatives
+
+Your [!DNL Workfront] administrator must assign you the following access so you can manage plans and their information in the [!DNL Scenario Planner]:
+
+* A [!UICONTROL Plan] or [!UICONTROL Work] license type with Edit access to the [!DNL Scenario Planner] in your access level.
+
+  All other license types do not have access to manage plans.
+
+  For information about granting access to [!DNL Scenario Planner] from the Access Level, see [Grant access to [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
+
+* A [!UICONTROL Plan] license type with [!UICONTROL Edit] access to [!UICONTROL Financial Data] in your access level, if you need to also update financial information about the plan.
+
+  Some examples of financial information that you can edit are [!UICONTROL Budget], [!UICONTROL Planned Benefit], and [!UICONTROL Fixed Costs].
+
+  >[!TIP]
+  >
+  >Only [!UICONTROL Plan] license holders have [!UICONTROL Edit] access to [!UICONTROL Financial Data].
+
+  For information about the [!UICONTROL Financial Data] access level, see [Grant access to financial data](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+
+* Manage permissions to a plan that you didn't create. For information about the permissions needed to access plans and initiatives that you didn't create, see the [Permissions needed to access plans and initiatives](#permissions-needed-to-access-plans-and-initiatives) section in this article.
+
+-->
 
 ## 存取計畫和方案所需的許可權
 

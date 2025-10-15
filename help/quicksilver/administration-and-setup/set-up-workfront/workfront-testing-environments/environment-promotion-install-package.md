@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: 8fe93796b2bc89352ac2c924d6a5e3bf25551ff0
+source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '946'
 ht-degree: 0%
 
 ---
@@ -33,26 +33,26 @@ ht-degree: 0%
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront]計畫</strong>
+   <td>Adobe Workfront套件
    </td>
-   <td> Prime或Ultimate （僅限新計畫）
+   <td> <p>Prime或Ultimate</p>
    </td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront]個授權</strong>
+   <td><strong>Workfront授權</strong>
    </td>
-   <td> [!UICONTROL 標準]
+   <td> <p>標準</p>&gt;
    </td>
   </tr>
    <tr>
    <td>存取層級設定
    </td>
-   <td>您必須是[!DNL Workfront]管理員。
+   <td><p>您必須是Workfront管理員。</p>
    </td>
   </tr>
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 先決條件
 

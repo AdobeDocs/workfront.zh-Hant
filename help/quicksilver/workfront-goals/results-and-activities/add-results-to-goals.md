@@ -7,20 +7,72 @@ description: 結果會衡量目標的進度。 若未將結果、活動或校準
 author: Alina
 feature: Workfront Goals
 exl-id: 30e22482-22e2-432d-bb73-7f9a9160aba2
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '527'
 ht-degree: 3%
 
 ---
 
 # 在Adobe Workfront目標中新增結果
 
+<!--Audited for P&P only: 10/2025-->
+
 結果會衡量目標的進度。 若未將結果、活動或校準的目標與目標建立關聯，您就無法啟動目標，也無法記錄其進度。
 
 ## 存取需求
 
-您必須具備下列條件：
+>[!NOTE]
+>
+>如果貴公司過去曾購買此套件，他們可能會選擇繼續使用Adobe Workfront目標。 如需詳細資訊，請洽詢客戶代表。
+>
+>Adobe Workfront目標不再提供購買。
+
++++ 展開以檢視本文中功能的存取需求。 
+
+<table style="table-layout:auto">
+<col>
+</col>
+<col>
+</col>
+<tbody>
+ <tr>
+  <td> <p>Adobe Workfront套件</p> </td> 
+   <td> 
+   <p>Adobe Workfront Ultimate</p>
+   </td> 
+  </tr>
+ <tr>
+ <td role="rowheader">Adobe Workfront授權</td>
+ <td>
+ <p>投稿人或以上</p>
+<p>要求或更高版本</p></td>
+ </tr>
+  <tr>
+ <td role="rowheader">存取層級設定</td>
+ <td> <p>編輯目標的存取權</p> </td>
+ </tr>
+ <tr data-mc-conditions="">
+ <td role="rowheader">物件許可權</td>
+ <td>
+  <div>
+  <p>檢視目標或更高許可權以檢視它</p>
+  <p>管理目標的許可權以編輯它</p>
+  </div> </td>
+ </tr>
+<tr>
+   <td role="rowheader"><p>版面配置範本</p></td>
+   <td> <p>必須為所有使用者（包括系統管理員）指派一個版面配置範本，該範本包括主功能表中的「目標」區域。 </p>  
+</td>
+  </tr>
+</tbody>
+</table>
+
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto">
 <col>
@@ -29,55 +81,53 @@ ht-degree: 3%
 </col>
 <tbody>
  <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> 
-   <p>對於新計畫和授權結構：
-  <ul><li>Ultimate計畫 </li></ul>
+   <p>For the new plan and license structure:
+  <ul><li>An Ultimate plan </li></ul>
    </p>
-<p>對於目前的計畫與授權結構： 
-<ul><li> A Pro或更高版本 </li>
-  <li>除了Adobe Workfront授權之外，還有Workfront目標授權。</li></ul></p>
+<p>For the current plan and license structure: 
+<ul><li> A Pro or higher </li>
+  <li>An Adobe Workfront Goals license in addition to a Workfront license.</li></ul></p>
    </td> 
   </tr>
  <tr>
- <td role="rowheader">Adobe Workfront授權*</td>
+ <td role="rowheader">Adobe Workfront license*</td>
  <td>
- <p>新授權：投稿人或以上版本</p>
- 或
- <p>目前授權：要求或以上</p> <p>如需詳細資訊，請參閱<a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront授權總覽</a>。</p> </td>
+ <p>New license: Contributor or higher</p>
+ Or
+ <p>Current license: Request or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td>
  </tr>
  <tr>
- <td role="rowheader">產品*</td>
+ <td role="rowheader">Product*</td>
  <td>
- <p> 新產品需求，下列其中一項： </p>
+ <p> New product requirement, one of the following: </p>
 <ul>
-<li>Select或Prime Adobe Workfront計畫以及額外的Adobe Workfront目標授權。</li>
-<li>Ultimate Workfront計畫，預設包含Workfront目標。 </li></ul>
- <p>或</p>
- <p>目前產品需求： Adobe Workfront Goals的Workfront計畫和額外授權。 </p> <p>如需詳細資訊，請參閱<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目標的需求</a>。 </p> </td>
+<li>A Select or Prime Adobe Workfront plan and an additional Adobe Workfront Goals license.</li>
+<li>An Ultimate Workfront plan which includes Workfront Goals by default. </li></ul>
+ <p>Or</p>
+ <p>Current product requirement: A Workfront plan and an additional license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
  </tr>
  <tr>
- <td role="rowheader"><p>存取層級</p></td>
- <td> <p>編輯目標的存取權</p>  </td>
+ <td role="rowheader"><p>Access level</p></td>
+ <td> <p>Edit access to Goals</p>  </td>
  </tr>
  <tr data-mc-conditions="">
- <td role="rowheader">物件許可權</td>
+ <td role="rowheader">Object permissions</td>
  <td>
   <div>
-  <p>檢視目標或更高許可權以檢視它</p>
-  <p>管理目標的許可權以編輯它</p>
-  <p>如需共用目標的相關資訊，請參閱<a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目標中共用目標</a>。 </p>
+  <p>View or higher permissions to the goal to view it</p>
+  <p>Manage permissions to the goal to edit it</p>
+  <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
   </div> </td>
  </tr>
  <tr>
-   <td role="rowheader"><p>版面配置範本</p></td>
-   <td> <p>必須為所有使用者(包括Workfront管理員)指派一個版面配置範本，該範本包含主功能表中的「目標」區域。 </p>  
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Goals area in the Main Menu. </p>  
 </td>
   </tr>
 </tbody>
-</table>
-
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+</table>-->
 
 ## 先決條件
 

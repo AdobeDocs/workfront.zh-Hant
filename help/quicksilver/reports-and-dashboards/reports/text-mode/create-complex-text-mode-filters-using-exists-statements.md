@@ -6,7 +6,7 @@ description: 您可以使用EXISTS陳述式來建立複雜的文字模式篩選�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 106f7c9d-46cc-46c5-ae34-93fd13a36c14
-source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
 source-wordcount: '2668'
 ht-degree: 0%
@@ -40,9 +40,9 @@ ht-degree: 0%
 
 建立濾鏡時，您可以使用標準報表介面，在最多2層關係中參照連線到濾鏡物件的其他物件。
 
-例如，您可以在問題篩選器中參考PortfolioID，以使用標準介面僅顯示與特定投資組合相關聯之專案上的問題。 在此情況下，產品組合與問題相差2個層級。
+例如，您可以在問題篩選器中參考Portfolio ID，以使用標準介面僅顯示與特定投資組合相關聯之專案上的問題。 在此情況下，產品組合與問題相差2個層級。
 
-但是，您不能在使用標準介面的問題篩選器中參考Portfolio所有者，以僅顯示與所有者為特定使用者的專案組合相關聯的問題。 您必須使用文字模式來存取「Portfolio擁有者名稱」欄位，此欄位與問題相隔三個層級。
+不過，您無法使用標準介面，在問題篩選器中參考Portfolio所有者，以僅顯示與所有者為特定使用者的專案組合相關聯的問題。 您必須使用文字模式才能存取Portfolio擁有者名稱欄位，此欄位與問題相隔三個層級。
 
 ![專案組合擁有者圖示的問題](assets/issue-to-portfolio-owner-sraight-line-icons-350x83.png)
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 * 當連結物件因原始物件與目標物件直接連線而遺失時，您可以使用目標物件的物件程式碼，而非連結物件。
 * 您可以參照相同物件（目標物件）上的多個欄位（目標欄位），在這種情況下，您必須使用AND連線參照欄位的行。\
-  如需篩選屬於Target物件的多個欄位的範例，請參閱本文中的[範例4：依多個欄位篩選：依Portfolio擁有者名稱和Portfolio對齊計分卡ID](#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id)區段。
+  如需篩選屬於Target物件之多個欄位的範例，請參閱本文中的[範例4：依多個欄位篩選：依Portfolio擁有者名稱和Portfolio對齊計分卡ID](#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id)區分的任務。
 
 * EXISTS陳述式唯一支援的修飾詞是NOTEXISTS。
 
@@ -92,27 +92,19 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具備下列條件：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td> 
-      <p>新增：</p>
-         <ul>
-         <li><p>標準</p></li>
-         </ul>
-      <p>目前：</p>
-         <ul>
-         <li><p>規劃</p></li>
-         </ul>
+     <p>標準</p>
+     <p>規劃</p>
    </td> 
   </tr> 
   <tr> 
@@ -121,12 +113,12 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>管理報表的許可權，以編輯報表中的篩選器</p> <p>管理篩選器的許可權以編輯它</p></td> 
+   <td><p>管理報表的許可權，以編輯報表中的篩選器</p> <p>管理篩選器的許可權以編輯它</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -148,11 +140,11 @@ ht-degree: 0%
    例如，「問題」。
 
 1. 識別您要作為篩選依據的欄位。 我們將此物件稱為屬於目標物件的目標欄位。\
-   例如，所有者ID欄位（目標欄位），它屬於Portfolio（目標物件）。
+   例如，屬於Portfolio （目標物件）的ownerID欄位（目標欄位）。
 
 1. （視條件而定）如果原始物件（問題）與目標欄位（所有者ID）未直接連結，您必須找到第三個物件，即連結它們的連結物件（專案）。 連結物件必須至少有一個從原始物件的「欄位」或「參照」(References)標籤中參照的欄位（「連結欄位」顯示在原始物件上），而且它也必須有一個目標物件的連結欄位，顯示在「連結物件」的「欄位」或「參照」(References)標籤中。 連結物件上顯示的連結欄位（或連結物件上顯示的連結欄位）必須與目標欄位相符。
 
-   例如，（專案） ID （顯示在原始物件上的連結欄位）是從問題（原始物件）中參考的。 (Portfolio) ownerID （連結欄位至目標物件）會顯示在專案（連結物件）的「欄位」標籤中。 PortfolioownerID也是目標物件(Portfolio)上的欄位。 連結物件上的連結欄位符合目標欄位。\
+   例如，（專案） ID （顯示在原始物件上的連結欄位）是從問題（原始物件）中參考的。 (Portfolio) ownerID （連結欄位至目標物件）會顯示在專案（連結物件）的「欄位」索引標籤中。 Portfolio ownerID也是目標物件(Portfolio)上的欄位。 連結物件上的連結欄位符合目標欄位。\
    ![portfolio_id_in_the_project_api_object.PNG](assets/portfolio-id-in-the-project-api-object-350x88.png)
 
 1. 使用API總管，識別連結物件（專案）的&#x200B;**物件代碼**。\
@@ -257,7 +249,7 @@ ht-degree: 0%
    >[!NOTE]
    >
    >* 原始物件是報告的物件：問題
-   >* 目標物件Portfolio。
+   >* 目標物件是Portfolio。
    >* 連結物件為專案。
    >* 「目標欄位」和「連結欄位」參照自「連結物件」的目標物件為ownerID。
    >* 此處連結物件的物件程式碼為PROJ。
@@ -349,7 +341,7 @@ ht-degree: 0%
 
 1. 按一下「**儲存篩選器**」。
 
-### 範例4：依多個欄位篩選：依「Portfolio擁有者名稱」和「Portfolio對齊計分卡ID」的任務 {#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id}
+### 範例4：依多個欄位篩選：依Portfolio擁有者名稱和Portfolio一致性計分卡ID的工作 {#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id}
 
 使用文字模式介面，您可以建立參照目標物件上多個欄位的篩選器。 在此情況下，參考目標欄位的篩選陳述式必須使用AND連線。
 
@@ -358,7 +350,7 @@ ht-degree: 0%
 * 他們位在與擁有者是特定使用者的投資組合相關聯的專案上。
 * 他們位在與投資組合相關聯的專案中，其專案未與特定一致性計分卡相關聯。
 
-若要依Portfolio擁有者名稱與Portfolio一致性計分卡ID來篩選工作：
+若要依「Portfolio擁有者名稱」和「Portfolio一致性計分卡ID」篩選工作：
 
 1. 建立任務篩選器。\
    如需建立篩選的詳細資訊，請參閱[篩選總覽](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)。
@@ -379,12 +371,12 @@ ht-degree: 0%
    >[!NOTE]
    >
    >* 「原始物件」是濾鏡的物件：「任務」。
-   >* 目標物件Portfolio。
+   >* 目標物件是Portfolio。
    >* 第一個目標欄位是ownerID。
    >* 第二個目標欄位是一致性計分卡ID。
    >* 連結物件為專案。
    >* 連結物件的物件程式碼為PROJ。
-   >* 連結欄位至目標物件是Portfolio的ID。
+   >* 連結欄位至目標物件是(Portfolio)的ID。
    >* 原始物件上顯示的連結欄位是projectID。
    >* 以您環境中的使用者ID取代ownerID。
 

@@ -6,10 +6,10 @@ description: 如果您不再需要您的敏捷團隊的疊代，您可以將其�
 author: Lisa
 feature: Agile
 exl-id: db7fbafd-9d22-4035-a130-60ec2e4ad347
-source-git-commit: 95208e0f396d8eab9a71ca156c616891a7f56f7a
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 1%
+source-wordcount: '175'
+ht-degree: 0%
 
 ---
 
@@ -27,19 +27,16 @@ ht-degree: 1%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td> 
+   <tr> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>新增：[!UICONTROL Standard]</p> 
-   或
-   <p>目前： [!UICONTROL Work]或更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>標準</p> 
+   <p>工作或更高</p> </td> 
   </tr>
    <tr> 
    <td role="rowheader">物件許可權</td> 

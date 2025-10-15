@@ -2,20 +2,20 @@
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: 編輯時程表資訊
-description: 作為具有時程表管理存取許可權的使用者，您可以在Adobe Workfront中編輯現有時程表的相關資訊。 例如，您可以編輯時程表的「擁有者」、「核准者」或時間範圍。
-author: Alina
+description: 作為具有時程表管理存取許可權的使用者，您可以在Adobe Workfront中編輯現有時程表的資訊。 例如，您可以編輯時程表的「擁有者」、「核准者」或時間範圍。
+author: Lisa
 feature: Timesheets
 exl-id: e6cffe81-ab45-4c34-aafe-2f947f9a67fd
-source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '757'
 ht-degree: 1%
 
 ---
 
 # 編輯時程表資訊
 
-作為具有時程表管理存取許可權的使用者，您可以在Adobe Workfront中編輯現有時程表的相關資訊。 例如，您可以編輯時程表的「擁有者」、「核准者」或時間範圍。
+作為具有時程表管理存取許可權的使用者，您可以在Adobe Workfront中編輯現有時程表的資訊。 例如，您可以編輯時程表的「擁有者」、「核准者」或時間範圍。
 
 您可以編輯單一時程表上的資訊，也可以大量編輯多個時程表。
 
@@ -23,33 +23,34 @@ ht-degree: 1%
 >
 >如果使用者與週期性時程表相關聯，且時程表會自動產生，則您對現有時程表進行的變更不會反映在為未來日期產生的時程表中。 所有自動產生的時程表都會在時程表設定檔中建立設定。 如需詳細資訊，請參閱[建立週期性時程表](../create-and-manage-timesheets/create-timesheet-profiles.md)
 
-
 ## 存取需求
 
-您必須具備下列專案才能執行本文所述的步驟：
++++ 展開以檢視本文中功能的存取需求。
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- <col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td> <p>任何</p> </td> 
+   <td>Adobe Workfront套件</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>計劃 </p> </td> 
+   <td>Adobe Workfront授權</td> 
+   <td>
+   <p>標準</p>
+   <p>規劃</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>您必須擁有時程表的管理存取權。 </p> <p>如需詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予使用者對特定區域的管理存取權</a>。</p> <p><b>附註</b>
-
-如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td>
-</tr> 
+   <td>存取層級設定</td> 
+   <td><p>對時程表的管理存取權</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 編輯時間表
 

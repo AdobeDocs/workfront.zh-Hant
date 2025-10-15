@@ -6,10 +6,10 @@ description: 您可以從投資組合中移除專案，並將其與不同的投�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 8982097e-76ee-497a-aa7c-74c6fbd3002d
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
 workflow-type: tm+mt
 source-wordcount: '230'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -23,29 +23,29 @@ ht-degree: 1%
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>新增：標準</p>
-   <p>目前： [!UICONTROL 計畫] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
+   <td> <p>[！UICONTROL標準]</p>
+   <p>[！UICONTROL計畫] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級</td> 
-   <td> <p>[!UICONTROL Edit]專案的存取權</p> <p>[!UICONTROL Edit]對投資組合的存取權</p>  </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>[！UICONTROL Edit]專案的存取權</p> <p>[！UICONTROL Edit]對投資組合的存取權</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>投資組合和專案的[!UICONTROL Manage]許可權以移除專案</p>
-   <p>[!UICONTROL Manage]許可權搭配對專案的[!UICONTROL Delete]存取權，可將專案從投資組合中刪除</p> </td> 
+   <td> <p>投資組合和專案的[！UICONTROL Manage]許可權以移除專案</p>
+   <p>[！UICONTROL Manage]許可權搭配對專案的[！UICONTROL Delete]存取權，可將專案從投資組合中刪除</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,6 +53,35 @@ ht-degree: 1%
 *如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>New: Standard</p>
+   <p>Current: [!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>[!UICONTROL Edit] access to Projects</p> <p>[!UICONTROL Edit] access to Portfolios</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] permissions on the portfolio and the projects to remove projects</p>
+   <p>[!UICONTROL Manage] permissions with [!UICONTROL Delete] access to the projects to delete them from the portfolio</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
 
 ## 從投資組合中移除專案
 
@@ -62,6 +91,6 @@ ht-degree: 1%
    ![移除專案按鈕](assets/nwe-remove-projects-button-inside-portfolio-350x141.png)
 
 1. 按一下&#x200B;**[!UICONTROL 移除專案]**。
-1. 按一下&#x200B;**[!UICONTROL 刪除]**&#x200B;從[!DNL Workfront]中刪除專案，或按一下&#x200B;**[!UICONTROL 從Portfolio]**&#x200B;移除&#x200B;**&#x200B;**&#x200B;以從選取的Portfolio中移除專案。
+1. 按一下&#x200B;**[!UICONTROL 刪除]**&#x200B;從[!DNL Workfront]中刪除專案，或按一下&#x200B;**[!UICONTROL 從Portfolio]**&#x200B;移除&#x200B;****&#x200B;以從選取的Portfolio中移除專案。
 
 1. （選擇性和條件性）尋找您從投資組合中移除的專案，並將其與其他投資組合建立關聯。 如需將專案與投資組合建立關聯的資訊，請參閱[將專案新增至投資組合](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)。

@@ -6,9 +6,9 @@ description: 委派核准請求可讓您指派另一名使用者，在一段時�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: e0f6078cfab1b325302dbda8a656d2a65ee0b95c
+source-git-commit: 14360a82b0de65587a9413b58d9c69abb55fa29d
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1193'
 ht-degree: 0%
 
 ---
@@ -37,8 +37,6 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -46,17 +44,20 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront計畫*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront套件</p></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront授權*</p></td> 
-   <td> <p>評論或以上</p> </td> 
+   <td role="rowheader"><p>Adobe Workfront授權</p></td> 
+   <td>
+   <p>Contribute或更高版本</p>
+   <p>評論或以上</p> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-若要瞭解您擁有的計畫或授權型別，請連絡您的Workfront管理員。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -157,9 +158,9 @@ ht-degree: 0%
 
 1. （視條件而定）執行下列任一項作業：
 
-   * 若要更新現有的核准委派：變更顯示的資訊，然後按一下[儲存]。**&#x200B;**
+   * 若要更新現有的核准委派：變更顯示的資訊，然後按一下[儲存]。****
 
-   * 若要停止現有的委派：按一下[停止委派]&#x200B;**&#x200B;**，然後按一下[停止委派]&#x200B;**確認。**
+   * 若要停止現有的委派：按一下[停止委派]****，然後按一下[停止委派]**確認。**
 
 ## 檢視受委派的核准 {#view-delegated-approvals}
 

@@ -3,10 +3,10 @@ content-type: overview
 navigation-topic: business-case-and-scorecards
 title: 業務案例的領域概述
 description: 本文會說明專案的業務案例領域。
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 0646e4f0-e8fb-48f2-b533-358229543081
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
 workflow-type: tm+mt
 source-wordcount: '1553'
 ht-degree: 1%

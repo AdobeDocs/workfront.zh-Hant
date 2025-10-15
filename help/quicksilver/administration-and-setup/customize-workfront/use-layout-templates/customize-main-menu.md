@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: f9455b5aa57585a0e037f024807c19d48296d518
+source-git-commit: 39b3ecde744625c070a5c4378938e297f50feeaa
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 3%
+source-wordcount: '661'
+ht-degree: 4%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 3%
 >
 >使用者看到的主要功能表選項取決於其授權型別以及在其存取層級中設定的設定。 某些將使用此配置範本的使用者可能不會看見您在這裡選擇的所有選項。 如需詳細資訊，請參閱[存取層級和許可權如何搭配運作](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)以及[每個物件型別可設定的功能存取權](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)。
 >
->如果您的組織已上線Adobe Workfront Unified Experience，您可能會在主要功能表中看到不同的選項。 如需詳細資訊，請參閱[Workfront的Adobe Unified Experience &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
+>如果您的組織已上線Adobe Workfront Unified Experience，您可能會在主要功能表中看到不同的選項。 如需詳細資訊，請參閱[Workfront的Adobe Unified Experience ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 
 如需有關建立版面配置範本的資訊，請參閱[建立和管理版面配置範本](../use-layout-templates/create-and-manage-layout-templates.md)。
 
@@ -37,34 +37,30 @@ ht-degree: 3%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront計畫</strong></td> 
+   <td>Adobe Workfront套件</td> 
    <td><p>任何</p>
-
-<p>將自訂應用程式新增至主功能表僅適用於授權Adobe App Builder的組織。</p></td> 
+       <p>將自訂應用程式新增至主功能表僅適用於授權Adobe App Builder的組織。</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront授權*</strong></td> 
-   <td><p>目前：計畫</p>
-   或
-   <p>新增：標準</p></td> 
+   <td>Adobe Workfront授權</td> 
+   <td><p>標準</p>
+       <p>規劃</p></td>
+  </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>存取層級設定</strong></td> 
+   <td>存取層級設定</td> 
    <td> <p>若要在系統層級執行這些步驟，您需要系統管理員存取層級。</p>
-    <p>若要為群組執行這些動作，您必須是該群組的管理員。</p> 
-     </td> 
+        <p>若要為群組執行這些動作，您必須是該群組的管理員。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*如需存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -143,6 +139,6 @@ ht-degree: 3%
 
    >[!TIP]
    >
-   >您可以隨時按一下[儲存]來儲存進度，然後再繼續修改範本。**&#x200B;**
+   >您可以隨時按一下[儲存]來儲存進度，然後再繼續修改範本。****
 
 如需配置範本的詳細資訊，請參閱[建立和管理配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)。

@@ -8,10 +8,10 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 author: Nolan, Becky
 exl-id: 23edb48b-8cad-47be-8ace-5238a5869677
-source-git-commit: 01b7eb79028eb3fe47f988a31cb62ace31bba3f1
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 4%
+source-wordcount: '257'
+ht-degree: 6%
 
 ---
 
@@ -23,32 +23,37 @@ ht-degree: 4%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
-   <td> <p>[!UICONTROL Enterprise] </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td>[!UICONTROL 計畫]</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">產品</td> 
-   <td>您必須擁有使用中的[!DNL JumpSeat]計畫。</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p> 您必須是[!DNL Workfront]管理員。 如需[!DNL Workfront]管理員的相關資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予使用者完整管理存取權</a>。</p> </td> 
-  </tr> 
- </tbody> 
+<table>
+  <tr>
+   <td>Adobe Workfront套件
+   </td>
+    <p>Workflow Ultimate</p>
+   <td> <p>Prime或Ultimate</p>
+   </td>
+  </tr>
+    <tr>
+   <td>Adobe Workfront授權
+   </td>
+   <td>標準
+   <p>規劃</p>
+   </td>
+  </tr>
+  </tr>
+  <tr>
+   <td>產品
+   </td>
+   <td>您必須擁有使用中的[!DNL JumpSeat]計畫。
+   </td>
+  </tr>
+   <tr>
+   <td>存取層級設定
+   </td>
+   <td>您必須是[!DNL Workfront]管理員。
+   </td>
+  </tr>
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -56,11 +61,11 @@ ht-degree: 4%
 
 開始之前，您必須
 
-* 在[!DNL JumpSeat]中新增並啟動[!DNL Workfront]作為應用程式。 如需詳細資訊，請參閱[如何新增或刪除應用程式](https://support.jumpseat.io/article/how-to-add-an-application/)。
+* 在[!DNL Workfront]中新增並啟動[!DNL JumpSeat]作為應用程式。 如需詳細資訊，請參閱[如何新增或刪除應用程式](https://support.jumpseat.io/article/how-to-add-an-application/)。
 
 >[!IMPORTANT]
 >
->如果您在Adobe統一體驗，您必須使用以下應用程式URL： `.workfront.adobe.com`。
+>如果您在Adobe Unified Experience，則必須使用下列應用程式URL： `.workfront.adobe.com`。
 
 
 
@@ -70,7 +75,7 @@ ht-degree: 4%
 
 >[!TIP]
 >
->您需要在[!DNL JumpSeat]中新增並啟用兩個不同的[!DNL Workfront]應用程式 — 一個用於預覽，一個用於生產。 如需詳細資訊，請參閱[如何新增或刪除應用程式](https://support.jumpseat.io/article/how-to-add-an-application/)。
+>您需要在[!DNL Workfront]中新增並啟用兩個不同的[!DNL JumpSeat]應用程式 — 一個用於預覽，一個用於生產。 如需詳細資訊，請參閱[如何新增或刪除應用程式](https://support.jumpseat.io/article/how-to-add-an-application/)。
 
 若要設定[!DNL JumpSeat]整合：
 
@@ -85,11 +90,11 @@ ht-degree: 4%
 
 https://{mycompanyname}.jumpseat.io
 
-&#x200B;>>
+>>
 
 >[!ENDSHADEBOX]
 
-1. 輸入&#x200B;**[!UICONTROL [!DNL JumpSeat]整合權杖]**。 您可以在[!DNL JumpSeat]的&#x200B;**[!UICONTROL 組態]**&#x200B;頁面上找到此專案。
+1. 輸入&#x200B;**[!UICONTROL [!DNL JumpSeat]整合權杖]**。 您可以在&#x200B;**[!UICONTROL 的]**&#x200B;組態[!DNL JumpSeat]頁面上找到此專案。
 
    **範例：** $2y$10$BevsKeQ8....OYR.LurSg2U64O
 
@@ -106,4 +111,4 @@ https://{mycompanyname}.jumpseat.io
 
 >[!TIP]
 >
->如需設定[!DNL JumpSeat]整合的詳細資訊，請參閱[JumpSeat+Workfront](https://jumpseat.io/landing-page/jumpseat-workfront/)的[!DNL JumpSeat]檔案。
+>如需設定[!DNL JumpSeat]整合的詳細資訊，請參閱[!DNL JumpSeat]JumpSeat+Workfront[的](https://jumpseat.io/landing-page/jumpseat-workfront/)檔案。

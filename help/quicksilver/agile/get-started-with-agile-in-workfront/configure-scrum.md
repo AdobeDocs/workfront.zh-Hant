@@ -6,9 +6,9 @@ description: 您可以在團隊建立期間或之後，為Scrum敏捷團隊設�
 author: Lisa
 feature: Agile
 exl-id: 7509608e-96af-4601-80d4-791ee29046da
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '1739'
+source-wordcount: '1725'
 ht-degree: 0%
 
 ---
@@ -34,8 +34,6 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -43,15 +41,14 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr>
 
 <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>新增：[!UICONTROL Standard]</p> 
-   或
-   <p>目前： [!UICONTROL Work]或更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>標準</p> 
+   <p>工作或更高</p> </td> 
   </tr>
 
 <tr> 
@@ -138,7 +135,7 @@ ht-degree: 0%
 
 ### 設定專案的狀態列 {#configure-status-columns-for-projects}
 
-如需如何設定專案狀態列的詳細資訊，請參閱[在 [!DNL Adobe Workfront]](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)中建立或編輯檢視一節中的[建立或自訂[!UICONTROL 敏捷]檢視](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md#customizing-an-agile-view)。
+如需如何設定專案狀態列的詳細資訊，請參閱[在[!UICONTROL 中建立或編輯檢視一節中的]建立或自訂](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md#customizing-an-agile-view)敏捷[檢視 [!DNL Adobe Workfront]](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)。
 
 ## 設定要在敏捷故事板上顯示在故事卡上的其他欄位
 
@@ -226,7 +223,7 @@ ht-degree: 0%
 
    * **[!UICONTROL 修改規劃開始日期和規劃完成日期以符合反複專案的開始日期和結束日期]**：當工作專案新增到反複專案時，工作專案日期會變更為反複專案日期。
 
-     如需如何修改日期的詳細資訊，請參閱[將劇本新增至現有反複專案](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)一文中的[瞭解新增劇本如何影響任務日期](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md#understand-how-adding-stories-affects-task-dates)一節。
+     如需如何修改日期的詳細資訊，請參閱[將劇本新增至現有反複專案](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md#understand-how-adding-stories-affects-task-dates)一文中的[瞭解新增劇本如何影響任務日期](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)一節。
    * **[!UICONTROL 請勿修改規劃開始日期和規劃完成日期以符合反複專案的開始日期和結束日期]**：當工作專案新增到反複專案時，工作專案會保留其原始日期。
 
    如果您變更日期選項，則不會調整已在反複專案上的工作專案日期。

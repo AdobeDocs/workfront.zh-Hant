@@ -6,9 +6,9 @@ description: 您可以使用資源規劃工具來管理專案的資源配置。 
 author: Lisa
 feature: Resource Management
 exl-id: 0de749df-5af9-4124-8539-06b82dca2ec4
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
@@ -25,38 +25,31 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td><p>新增：任何</p>
-       <p>或</p>
-       <p>目前：Pro或更高</p> </td> 
+   <td>Adobe Workfront套件</td> 
+   <td><p>任何</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td><p>新增：淺色或更高；</br>
-          在主要功能表中尋找資源規劃工具的標準</p>
-       <p>或</p>
-       <p>目前：檢閱或更高；</br>
-       在主要功能表中尋找資源規劃工具的計畫</p></td>
+   <td>Adobe Workfront授權</td> 
+   <td><p>一個專案為淺色或更高；多個專案為標準</p>
+       <p>檢閱或核准一個專案以上的專案；計畫多個專案</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
+   <td>存取層級設定</td> 
    <td> <p>檢視對資源管理的存取權或以上許可權</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件許可權</td> 
+   <td>物件許可權</td> 
    <td> <p>檢視專案和使用者的許可權 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -67,10 +60,6 @@ ht-degree: 0%
 如需有關資源規劃工具先決條件的資訊，請參閱[開始使用資源規劃](../../resource-mgmt/resource-planning/get-started-resource-planning.md)。
 
 ## 找到資源規劃工具
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(this was moved from the get-started-resource-planner article)</p>
--->
 
 您可以在Workfront的兩個區域中找到資源規劃工具，這取決於您是要為多個專案還是僅一個專案預算資源。
 

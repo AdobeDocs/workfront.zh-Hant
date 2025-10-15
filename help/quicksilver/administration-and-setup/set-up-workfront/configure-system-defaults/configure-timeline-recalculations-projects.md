@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 67028988-6ac3-48d4-957e-1b5202d33c48
-source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
+source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -21,37 +21,33 @@ ht-degree: 0%
 
 作為[!DNL Adobe Workfront]管理員，您可以手動重新計算系統中所有專案的時間表。 專案所有者也可以手動重新計算個別專案的時間表。 如需詳細資訊，請參閱[重新計算專案時間表](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md)。
 
-本文說明您身為[!DNL Workfront]管理員，如何在[!UICONTROL 設定]區域中設定專案偏好設定，以決定[!DNL Workfront]自動計算專案時間表的方式和時間。
+本文說明您身為[!DNL Workfront]管理員，如何在[!DNL Workfront]設定[!UICONTROL 區域中設定專案偏好設定，以決定]自動計算專案時間表的方式和時間。
 
 ## 存取需求
 
 +++ 展開以檢視本文中功能的存取需求。
-
-您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td> 
-   <td>任何</td> 
+   <td>[!DNL Adobe Workfront] 封裝</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td><p>新增：[!UICONTROL Standard]</p>
-   或
-   <p>目前： [!UICONTROL 計畫]</p>
-   </td> 
+   <td>[!DNL Adobe Workfront] 授權</td> 
+   <td><p>[！UICONTROL標準]</p>
+       <p>[！UICONTROL計畫]</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td>
+   <td>存取層級設定</td> 
+   <td>[！UICONTROL系統管理員]</td> 
   </tr> 
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

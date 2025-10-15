@@ -6,10 +6,10 @@ description: Adobe Workfront可以為資源規劃工具的使用者檢視產生�
 author: Lisa
 feature: Resource Management
 exl-id: feb2ec26-f1a6-4581-9e1d-be948a2170c3
-source-git-commit: af0f1b9baef20c5910b13a52207531887a8524c5
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 0%
+source-wordcount: '637'
+ht-degree: 1%
 
 ---
 
@@ -23,36 +23,32 @@ Adobe Workfront可以為資源規劃工具的使用者檢視產生唯一的URL�
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-    <td><p>新增：任何</p>
-       <p>或</p>
-       <p>目前：Pro或更高</p> </td> 
+  <tr> 
+   <td>Adobe Workfront套件</td> 
+   <td><p>任何</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td><p>新增：標準</p>
-       <p>或</p>
-       <p>目前：計畫</p></td> 
+   <td>Adobe Workfront授權</td> 
+   <td><p>標準</p>
+       <p>規劃</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
+   <td>存取層級設定</td> 
    <td> <p>檢視或更高的資源管理、專案和使用者存取權</p> <p>檢視財務資料的存取權以檢視成本資訊</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件許可權</td> 
+   <td>物件許可權</td> 
    <td> <p>檢視或更高許可權給您要在資源規劃工具中顯示的專案</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -75,7 +71,7 @@ Adobe Workfront可以為資源規劃工具的使用者檢視產生唯一的URL�
 1. （選擇性）選取您要在資源規劃工具中檢視資訊的時間範圍。 從下列選項中選取：
 
    * 週
-   * 月
+   * Month
    * 季度
 
 1. （選擇性）選取您要依&#x200B;**FTE**&#x200B;或&#x200B;**小時**&#x200B;檢視資訊。\
@@ -95,7 +91,7 @@ Adobe Workfront可以為資源規劃工具的使用者檢視產生唯一的URL�
    * 將URL貼到另一個應用程式中，以傳送給另一個使用者。\
      使用者必須登入Workfront才能在使用者檢視中檢視資源規劃工具。
    * 開啟新的瀏覽器標籤或視窗，並貼上您複製的連結，然後在鍵盤上按一下Enter以在新標籤或視窗中開啟「資源規劃工具」。
-   * 執行下列動作：
+   * 請執行下列動作：
 
      <!--   
      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   

@@ -2,20 +2,24 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: issues
-title: 管理問題
-description: 下列文章包含管理問題的相關資訊。
+title: 管理問題：文章索引
+description: 處理專案時，您可能會發現發生未預期的事件。 您可以將這些非預期事件記錄為特定專案或任務的問題。 下列文章包含管理問題的相關資訊。
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 12fa2d34-a7b4-47ba-825c-a00fb5f71efd
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
 
-# 管理問題
+# 管理問題：文章索引
+
+<!--Audited: 08/2025-->
+
+處理專案時，您可能會發現發生未預期的事件。 您可以將這些非預期事件記錄為特定專案或任務的問題。
 
 本節包含下列文章：
 

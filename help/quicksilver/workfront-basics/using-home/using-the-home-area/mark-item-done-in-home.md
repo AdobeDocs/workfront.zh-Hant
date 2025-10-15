@@ -6,9 +6,9 @@ description: 如果您是任務或問題受指派人，可將任務或問題標�
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 4c3638aa-5ee3-422a-9fee-41c4749fe48b
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '807'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 ## 存取需求
 
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,25 +34,27 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>[!UICONTROL Work]或更高版本</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權</strong></td> 
+   <td> 
+   <p>標準</p>
+   <p>工作或更高</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>存取層級設定*</strong></td> 
-   <td> <p>[!UICONTROL 編輯]對任務和問題的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的[!DNL Workfront]管理員是否對您的存取層級設定了其他限制。 如需[!DNL Workfront]管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td role="rowheader"><strong>存取層級設定</strong></td> 
+   <td> <p>[！UICONTROL編輯]對任務和問題的存取權</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>貢獻您需要處理的任務和問題的許可權或更高</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>貢獻您需要處理的任務和問題的許可權或更高</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -71,7 +73,7 @@ ht-degree: 0%
 
 1. 按一下右上角的&#x200B;**[!UICONTROL 主功能表]** ![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
 1. （視條件而定）按一下&#x200B;**自訂**&#x200B;以新增&#x200B;**我的任務**&#x200B;或&#x200B;**我的問題** Widget。
-1. 將滑鼠停留在工作專案上，然後按一下&#x200B;**摘要**&#x200B;圖示。
+1. 將滑鼠停留在工作專案上，然後按一下&#x200B;**摘要**圖示。
    ![開啟摘要](assets/open-summary-new-home.png)
 1. 按一下摘要面板頂端的&#x200B;**標籤為完成**。
 
@@ -107,7 +109,7 @@ ht-degree: 0%
 ### 指派給多個資源的專案的[!UICONTROL 完成]按鈕
 
 將任務或問題指派給多個資源時，按鈕會顯示單字&#x200B;**[!UICONTROL 完成]**，後面接著下拉式功能表。 在下拉式功能表中，您可以選擇在&#x200B;**[!UICONTROL 完成我的部分]** （讓團隊成員知道您已完成您的一部份工作）或與[!UICONTROL 完成]按鈕（完成專案）相關的狀態之間選擇。 選取&#x200B;**[!UICONTROL 完成我的零件]**&#x200B;後，工作專案會從您的工作清單中移除，但會保留在那些仍指派給工作專案的工作清單中。\
-如果「完成」按鈕與多個狀態相關聯，它們會列在「完成我的零件」**&#x200B;**&#x200B;下。
+如果「完成」按鈕與多個狀態相關聯，它們會列在「完成我的零件」****&#x200B;下。
 
 >[!NOTE]
 >

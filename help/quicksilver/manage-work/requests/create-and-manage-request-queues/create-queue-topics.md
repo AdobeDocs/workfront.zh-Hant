@@ -3,13 +3,13 @@ product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: 建立佇列主題
 description: 「佇列主題」可與「路由規則」搭配使用，以自動將內送工作指派給使用者、工作角色、專案團隊，或將其置於專案上。 「佇列主題」定義要實作「路由規則」所需存在的條件。
-author: Alina
+author: Becky
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 613904bd75aabe3062c5ab50f28cf44eb62919e8
+source-git-commit: 4a0cb96f5888819747f63472712f91c685621cf1
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1013'
 ht-degree: 2%
 
 ---
@@ -60,22 +60,19 @@ ht-degree: 2%
 </table>
 -->
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td>
-    <p>新增：標準</p>
-    <p>或</p>
-    <p>目前：計畫</p></td>  
+    <p>標準</p>
+    <p>規劃</p></td>  
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -88,7 +85,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

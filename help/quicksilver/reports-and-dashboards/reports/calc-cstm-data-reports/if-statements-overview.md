@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: IF陳述式概述
 description: 您可以在一般程式語言中使用「IF」陳述式。 在Adobe Workfront中，「IF」陳述式可讓您比較資料的欄位、將其格式化，以及將其字串在一起，以用於報表和自訂資料用途。 此外，以數學方式思考「IF」陳述式可導致更佳的概念性理解，因為通常會使用運算式的變數。
-author: Nolan
+author: Jenny
 feature: Reports and Dashboards
 exl-id: 090a85fd-fdbe-4507-8bad-ce8c29bf8fc9
-source-git-commit: 23b5ba9564b514e11c1ca9d5cca276238ef11066
+source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 您可以在一般程式語言中使用「IF」陳述式。 在Adobe Workfront中，「IF」陳述式可讓您比較資料的欄位、將其格式化，以及將其字串在一起，以用於報表和自訂資料用途。 此外，以數學方式思考「IF」陳述式可導致更佳的概念性理解，因為通常會使用運算式的變數。
 
-## Recommendations的「IF」陳述式
+## 針對「IF」陳述式的建議
 
 建立「IF」陳述式之前，請先考慮下列事項：
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 * **條件運運算元** =這是協助您建置「IF」陳述式條件的運運算元。 例如，「等於」或「大於」是條件運運算元。 如需可在陳述式中使用的條件運運算元清單，請參閱計算自訂運算式中的[條件運運算元](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md)。
 
-* **True**&#x200B;**Expression** =這是「True」變數，它告訴方程式當滿足條件的條件時，要顯示哪個指標（true指標）。
+* **True****Expression** =這是「True」變數，它告訴方程式當滿足條件的條件時，要顯示哪個指標（true指標）。
 
 * **False運算式** =這是「False」變數，它告訴方程式當條件條件條件不符時要顯示哪個指標（false指標）。
 

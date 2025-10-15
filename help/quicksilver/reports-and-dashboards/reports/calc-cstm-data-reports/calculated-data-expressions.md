@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: 計算資料運算式的概觀
 description: 您可以使用資料運算式，在Adobe Workfront中定義計算的自訂資料欄位。 計算運算式會連線產生新欄位的陳述式中的現有Workfront欄位。
-author: Courtney, Lisa
+author: Jenny, Lisa
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 36cd1c23dfb6e01dc1016a6a12ae47e4f9172d20
+source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
 workflow-type: tm+mt
 source-wordcount: '2551'
 ht-degree: 2%

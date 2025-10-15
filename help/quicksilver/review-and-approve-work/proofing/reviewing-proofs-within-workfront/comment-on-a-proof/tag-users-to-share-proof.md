@@ -6,9 +6,9 @@ description: 當您在校訂檢視器中對校訂發表評論時，您可以標�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4efbfdeb-3834-48dd-aa5b-515891bac519
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: fe269b088c82e7045ffbb5155d54432e0b413cbe
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -26,42 +26,41 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
-   <td> <p>目前計畫：Pro或更高版本</p> <p>或</p> <p>舊版計畫：Premium</p> <p>如需有關不同方案的校訂存取許可權的詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">存取Workfront中的校訂功能</a>。</p> </td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td><p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>目前計畫：工作或計畫</p> <p>舊版計畫：任何（您必須為使用者啟用校訂）</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>任何</p>
+   </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">校訂角色</td> 
    <td>作者，版主</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">校樣權限設定檔 </td> 
+   <td role="rowheader">校樣權限設定檔</td> 
    <td>監督員或管理員</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯檔案的存取權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>編輯檔案的存取權</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、角色或校訂許可權設定檔，請連絡您的Workfront或Workfront Proof管理員。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
 ## 標籤要共用校訂的使用者
 
-擁有上述[存取需求](#access-requirements)區段中概述之校訂許可權設定檔或校訂角色的使用者，預設可標籤使用者以共用校訂。 如果您是校訂擁有者或建立者，則無論校訂許可權設定檔或校訂角色為何，您都可以標籤使用者以共用校訂。 您可以讓擁有較低校訂許可權設定檔或校訂角色的使用者在建立校訂時標籤使用者以共用校訂。 如需詳細資訊，請參閱[使用基本工作流程建立進階校訂](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)文章中的[設定工作流程並新增檢閱者](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md#configur)區段。
+擁有上述[存取需求](#access-requirements)區段中概述之校訂許可權設定檔或校訂角色的使用者，預設可標籤使用者以共用校訂。 如果您是校訂擁有者或建立者，則無論校訂許可權設定檔或校訂角色為何，您都可以標籤使用者以共用校訂。 您可以讓擁有較低校訂許可權設定檔或校訂角色的使用者在建立校訂時標籤使用者以共用校訂。 如需詳細資訊，請參閱[使用基本工作流程建立進階校訂](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md#configur)文章中的[設定工作流程並新增檢閱者](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)區段。
 
 >[!NOTE]
 >

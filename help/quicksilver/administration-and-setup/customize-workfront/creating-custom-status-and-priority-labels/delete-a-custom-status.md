@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 73c4eb87-94f6-47bf-b447-eb02a703f7ef
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 366043a786c94f1bc40ad3b20af175bb84c94742
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 1%
+source-wordcount: '435'
+ht-degree: 2%
 
 ---
 
@@ -43,32 +43,27 @@ ht-degree: 1%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td>任何</td> 
+   <td>Adobe Workfront套件</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td>
-     <p>新增：標準</p>
-     <p>或</p>
-     <p>目前：計畫</p>
-   </td> 
+   <td>Adobe Workfront授權</td> 
+   <td><p>標準</p>
+       <p>規劃</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td>
+   <td>存取層級設定</td> 
+   <td>系統管理員</td> 
   </tr> 
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -78,13 +73,13 @@ ht-degree: 1%
 
 1. 在左側面板中，按一下&#x200B;**專案偏好設定** > **狀態**。
 
-1. 若要刪除整個系統（包括個別群組）的狀態，請將滑鼠移到狀態上，按一下[編輯] **&#x200B;**，然後確定已選取[鎖定所有群組] **&#x200B;**。 按一下「**儲存**」。
+1. 若要刪除整個系統（包括個別群組）的狀態，請將滑鼠移到狀態上，按一下[編輯] ****，然後確定已選取[鎖定所有群組] ****。 按一下「**儲存**」。
 
    或
 
-   若要刪除系統狀態但保留個別群組的狀態，請將滑鼠移到狀態上，按一下[編輯] **&#x200B;**，然後確定已取消選取[鎖定所有群組] **&#x200B;**。 按一下「**儲存**」。
+   若要刪除系統狀態但保留個別群組的狀態，請將滑鼠移到狀態上，按一下[編輯] ****，然後確定已取消選取[鎖定所有群組] ****。 按一下「**儲存**」。
 
-1. 暫留在您要刪除的狀態上，然後按一下[刪除]。**&#x200B;**
+1. 暫留在您要刪除的狀態上，然後按一下[刪除]。****
 1. 在顯示的訊息中，按一下&#x200B;**刪除狀態**。
 1. 在顯示的&#x200B;**刪除狀態**&#x200B;方塊中，在標示為&#x200B;**的欄位中選取狀態。將目前使用此狀態的所有專案設定為**。
 

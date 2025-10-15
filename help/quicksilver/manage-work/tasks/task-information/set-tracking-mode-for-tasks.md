@@ -6,9 +6,9 @@ description: 任務的追蹤模式會決定如何在Adobe Workfront中更新任�
 author: Alina
 feature: Work Management
 exl-id: 751071b4-3716-4153-97fe-4fe0ebc7cbb0
-source-git-commit: 928ea5da9955b8c1c98782df81698c49987d4c18
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '199'
 ht-degree: 3%
 
 ---
@@ -23,23 +23,21 @@ ht-degree: 3%
 
 ## 存取需求
 
-您必須具有下列存取權才能執行本文中的步驟：
-
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>新增：標準</p> 
-   或
-   <p>目前：工作或以上</p> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>標準</p>
+
+<p>工作或更高</p> 
    </td> 
   </tr> 
   <tr> 
@@ -58,32 +56,31 @@ ht-degree: 3%
 +++
 
 <!--old: 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan/td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>*</td> 
-   <td> <p>Work or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>New: Standard</p> 
+   Or
+   <p>Current: Work or higher</p> 
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks </p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a></p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Tasks </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions on a task</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Manage permissions on a task</p> </td> 
   </tr> 
  </tbody> 
 </table>
-
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 -->
 

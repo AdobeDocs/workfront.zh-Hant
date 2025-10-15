@@ -7,7 +7,7 @@ description: Adobe Workfront中可用的期間型別與Microsoft專案中稱為�
 author: Alina
 feature: Work Management
 exl-id: 986ecf91-693d-4ee1-bc56-355a2819ae41
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 2%

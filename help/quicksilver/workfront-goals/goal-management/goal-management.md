@@ -8,36 +8,47 @@ author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: cba07613-9912-4929-bda4-50f503faa3e1
-source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '247'
 ht-degree: 0%
 
 ---
 
 # Adobe Workfront目標中的目標管理：文章索引
 
-<!--Audited: 4/2025-->
+<!--Audited: 10/2025-->
+
+>[!NOTE]
+>
+>如果貴公司過去曾購買此套件，他們可能會選擇繼續使用Adobe Workfront目標。 如需詳細資訊，請洽詢客戶代表。
+>
+>Adobe Workfront目標不再提供購買。
+>
+>如需存取Workfront目標的詳細資訊，請參閱[使用Workfront目標的需求](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)。
+
+<!--Old:
 
 >[!IMPORTANT]
 >
->您的組織必須具備下列專案，才能使用本文所述的功能：
+>Your organization must have the following to use the functionality described in this article:
 >
->* 對於新計畫與授權結構*：
+>* For the new plan and license structure*:
 >
->   * Ultimate計畫
+>   * An Ultimate plan 
 >    
->* 對於目前的計畫與授權結構：
+>* For the current plan and license structure: 
 >
->   * A Pro或更高版本
->   * 除了Adobe Workfront授權之外，還有Workfront目標授權。
+>   * A Pro or higher 
+>   * An Adobe Workfront Goals license in addition to a Workfront license.
 >
->*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+>*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 >
 >
->請連絡您的Workfront客戶經理，以瞭解Workfront Goals授權。
+>Contact your Workfront account manager to learn about a Workfront Goals license.
 >
->如需存取Workfront目標的詳細資訊，請參閱[使用Workfront目標的需求](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)。
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+-->
 
 請檢閱下列文章，瞭解從何處開始使用Workfront目標、使用目標的重要性、如何建立、編輯、加上註解及管理目標，以及如何篩選和列印目標資訊：
 

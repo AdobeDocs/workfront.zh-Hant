@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront物件（專案、任務或問題）上�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: c06f25de917474ffae9a7de3a00033fdf9c84b58
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '3234'
+source-wordcount: '3201'
 ht-degree: 0%
 
 ---
@@ -70,8 +70,6 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -79,15 +77,21 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront計畫</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront套件</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront授權*</strong></td> 
-   <td> 
-   <p>新增：問題和檔案的貢獻者或更高：所有其他物件的輕度或更高</p>
-   <p>目前：問題與檔案的要求或更高；所有其他物件的檢閱或更高</p>
-   </td> 
+   <td role="rowheader"><strong>Adobe Workfront授權</strong></td> 
+   <td> <p>對於問題和檔案：</p>
+
+<ul><li><p>投稿人或以上</p></li>
+   <li><p>要求或更高版本</p></li></ul>
+
+<p>對於所有其他物件：</p>
+   <ul><li><p>淺色或更高</p></li>
+   <li><p>評論或以上</p></li></ul>
+
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>存取層級設定</strong></td> 
@@ -100,9 +104,39 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ </col> 
+ <col> 
+ </col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront plan</strong></td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td> 
+   <p>New: Contributor or higher for issues and documents: Light or higher for all other objects</p>
+   <p>Current: Request or higher for issues and documents; Review or higher for all other objects</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Access level configurations</strong></td> 
+   <td> <p>View or Edit access for the object the update is on</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Object permissions</strong></td> 
+   <td> <p>View access to the object</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+-->
 
 ## 關於註解物件的考量事項
 
@@ -239,7 +273,7 @@ You can add updates to the following objects:
 
 1. 找到您要新增註解的物件，然後按一下其名稱以開啟物件的頁面。
 1. 按一下左側面板中的&#x200B;**更新**。
-預設會選取&#x200B;**註解**&#x200B;標籤。
+預設會選取**註解**&#x200B;標籤。
 
 1. <span class="preview">開始在&#x200B;**新註解**&#x200B;方塊中輸入註解。</span>
 
@@ -250,8 +284,8 @@ You can add updates to the following objects:
    >在您完成輸入並提交評論之前離開更新區段，即使您登出並重新登入，仍會將頁面上的評論保留在草稿模式中。 加入註解的任何影像也會儲存在草稿中。 草稿會儲存7天，之後便會捨棄且無法復原。 草擬的註解僅對輸入註解的使用者可見。
 
 1. （可選）若要復原或重做變更，請使用下列快速鍵：
-   * CTRL + Z (Mac為⌘ + z)可復原變更
-   * 按CTRL + Y (Mac則為⌘ + y)以重做變更
+   * CTRL + Z (Mac為⌘+z)可復原變更
+   * 按CTRL + Y (Mac為⌘+y)以重做變更
 
 1. <span class="preview"> （選擇性）在&#x200B;**標籤人員或團隊**&#x200B;區域，開始輸入您要加入此註解的使用者或團隊的名稱或電子郵件，或在其顯示在清單中時選取它。</span>
 1. （可選）使用RTF工具列中的選項來格式化文字、新增emoji、連結或影像至更新，以強化內容。 如需詳細資訊，請參閱本文中的[在Workfront更新中使用RTF文字](#use-rich-text-in-a-workfront-update)一節。
@@ -316,7 +350,7 @@ You can add updates to the following objects:
 
    >[!TIP]
    >
-   >您無法在[全部]索引標籤的現有註解中回覆註解或標籤其他使用者。 若要在[全部]索引標籤中回複評論，請按一下[在評論中回覆]&#x200B;**&#x200B;**，在[評論]索引標籤中開啟評論。
+   >您無法在[全部]索引標籤的現有註解中回覆註解或標籤其他使用者。 若要在[全部]索引標籤中回複評論，請按一下[在評論中回覆]****，在[評論]索引標籤中開啟評論。
 
 ## 在Workfront註解中使用RTF文字{#use-rich-text-in-a-workfront-comment}
 
@@ -425,7 +459,7 @@ You can add updates to the following objects:
 您可以在物件的「更新」區段中搜尋註解或回覆。
 
 1. 移至物件的&#x200B;**更新**&#x200B;區段。
-1. 開始在&#x200B;**註解**&#x200B;索引標籤右上角的&#x200B;**搜尋**&#x200B;方塊中輸入關鍵字<!--or a user's name -->。
+1. 開始在<!--or a user's name -->註解&#x200B;**索引標籤右上角的**&#x200B;搜尋&#x200B;**方塊中輸入關鍵字**。
 
    <!--Add this tip or note instead of the note below - when it'll be possible: You can search for users who have been tagged or for comment owners.-->
 
@@ -567,7 +601,7 @@ The Quote Reply option copies the original comment to a new reply as a block quo
 
 根據Workfront管理員賦予您的存取權，您或許可以刪除在物件的「更新」區段中新增的註解。
 
-如需詳細資訊，請參閱文章[建立或修改自訂存取層級](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)中的[建立或修改自訂存取層級](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch)。
+如需詳細資訊，請參閱文章[建立或修改自訂存取層級](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch)中的[建立或修改自訂存取層級](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
 Workfront使用者(包括Workfront管理員)無法刪除其他使用者所做的更新。 但是，如果使用者的存取層級允許他們刪除自己的更新，Workfront管理員可以以該使用者的身分登入，並刪除他們所做的更新。 如需詳細資訊，請參閱[建立或修改自訂存取層級](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch)和[以其他使用者身分登入](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md)。
 

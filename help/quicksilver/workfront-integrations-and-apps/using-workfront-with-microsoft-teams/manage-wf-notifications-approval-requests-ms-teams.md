@@ -1,25 +1,25 @@
 ---
 product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
-title: 管理 [!DNL Microsoft] 團隊中的 [!DNL Adobe Workfront] 通知
+title: 管理 [!DNL Adobe Workfront] 團隊中的 [!DNL Microsoft] 通知
 description: 您可以接收來自 [!DNL Adobe Workfront] 的通知，內容有關您需要核准的專案、已指派給您的工作分派，或您關聯專案的註解與變更。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-source-git-commit: 940cbfb34f12eacd5ba698f60fb7a3e67eb62b22
+source-git-commit: 4cf780aa1b1221cd6ff8e6ce58fbb7d3621f7fa9
 workflow-type: tm+mt
-source-wordcount: '1438'
+source-wordcount: '1434'
 ht-degree: 0%
 
 ---
 
-# 管理[!DNL Microsoft Teams]中的[!DNL Adobe Workfront]個通知
+# 管理[!DNL Adobe Workfront]中的[!DNL Microsoft Teams]個通知
 
 >[!IMPORTANT]
 >
 >隨著[Microsoft轉換至「新團隊」使用者端](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability)，傳統團隊使用者端在2025年7月1日之後將不再可用。 若要繼續使用Microsoft Teams和Workfront等整合式應用程式，客戶必須在此日期之前轉換至新Teams使用者端。
 >
->更新的Workfront整合現在可供使用，並且與新團隊體驗完全相容。 在大多數情況下，使用者轉換後，Workfront會自動顯示。 如果不適用，可從Microsoft Teams App Store手動安裝整合。 若要在New Teams使用者端中安裝或驗證Workfront整合，請參閱[為Microsoft Teams](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)安裝 [!DNL Adobe Workfront] 。
+>更新的Workfront整合現在可供使用，並且與新團隊體驗完全相容。 在大多數情況下，使用者轉換後，Workfront會自動顯示。 如果不適用，可從Microsoft Teams App Store手動安裝整合。 若要在New Teams使用者端中安裝或驗證Workfront整合，請參閱[為Microsoft Teams [!DNL Adobe Workfront] 安裝](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)。
 
 您可以從[!DNL Adobe Workfront]接收有關您需要核准的專案、已給予您的指派，或您關聯專案的評論和變更的通知。
 
@@ -30,54 +30,59 @@ ht-degree: 0%
 >[!DNL Microsoft Teams]不再支援[!DNL Internet Explorer]。 若要使用[!DNL Adobe Workfront for Microsoft Teams integration]，您必須使用[!DNL Internet Explorer]以外的網頁瀏覽器。
 
 
+
+
 ## 存取需求
 
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視本文中功能的存取需求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[!UICONTROL Work]， [!UICONTROL 計畫]</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>標準</p>
+   <p>工作或更高</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-## 在[!DNL Microsoft Teams]中接收[!DNL Workfront]通知的必要條件
++++
 
-如果符合下列條件，您可以在[!DNL Microsoft Teams]中接收[!DNL Workfront]通知：
+## 在[!DNL Workfront]中接收[!DNL Microsoft Teams]通知的必要條件
+
+如果符合下列條件，您可以在[!DNL Workfront]中接收[!DNL Microsoft Teams]通知：
 
 * 團隊擁有者已為您的團隊安裝和設定[!DNL Workfront for Microsoft Teams]。
-* 您已從[!DNL Microsoft Teams]登入[!DNL Workfront]。
+* 您已從[!DNL Workfront]登入[!DNL Microsoft Teams]。
 * 您已在[!DNL Workfront]中啟用立即通知。 如需啟用即時通知的詳細資訊，請參閱[修改您自己的電子郵件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)。
 
 如需有關安裝[!DNL Workfront for Microsoft Teams]和登入[!DNL Workfront from Microsoft Teams]的資訊，請參閱[安裝 [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)。
 
-## 管理[!DNL Microsoft Teams]中的[!DNL Workfront]個通知
+## 管理[!DNL Workfront]中的[!DNL Microsoft Teams]個通知
 
-安裝[!DNL Workfront for Microsoft Teams]應用程式後，會在[!DNL Microsoft Teams]中為該團隊的每個成員建立[!DNL Workfront]聊天頻道。 在[!DNL Workfront]中執行特定動作時，您可以設定[!DNL Workfront for Microsoft Teams]的設定，以在[!DNL Microsoft Teams]的[!DNL Workfront]聊天頻道中接收有關該動作的通知。
+安裝[!DNL Workfront for Microsoft Teams]應用程式後，會在[!DNL Workfront]中為該團隊的每個成員建立[!DNL Microsoft Teams]聊天頻道。 在[!DNL Workfront]中執行特定動作時，您可以設定[!DNL Workfront for Microsoft Teams]的設定，以在[!DNL Workfront]的[!DNL Microsoft Teams]聊天頻道中接收有關該動作的通知。
 
-處理來自[!DNL Microsoft Teams]的[!DNL Workfront]個通知時，請考慮下列事項：
+處理來自[!DNL Workfront]的[!DNL Microsoft Teams]個通知時，請考慮下列事項：
 
-* 您無法在[!DNL Microsoft Teams]中接收全部，但只能接收選取數量的[!DNL Workfront]則通知。
+* 您無法在[!DNL Workfront]中接收全部，但只能接收選取數量的[!DNL Microsoft Teams]則通知。
 * 您從[!DNL Workfront]收到的所有通知都會顯示在[!DNL Workfront]機器人聊天頻道中。
 
-  如需有關安裝[!DNL Workfront]機器人頻道的資訊，請參閱[安裝 [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)文章中的[登入 [!DNL Workfront] 來自 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md#logging-in-to-workfront)區段。
+  如需有關安裝[!DNL Workfront]機器人頻道的資訊，請參閱[安裝 [!DNL Workfront] 文章中的 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md#logging-in-to-workfront)登入[來自 [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)區段。
 
 * 從[!DNL Workfront]中完成更新到您在[!DNL Microsoft Teams]中收到有關該更新的通知之間最多可能有5分鐘的延遲。
 * 對於每個[!DNL Microsoft Teams]通知，您也會收到電子郵件通知。
 
-若要管理可在[!DNL Microsoft Teams]中收到的[!DNL Workfront]通知：
+若要管理可在[!DNL Workfront]中收到的[!DNL Microsoft Teams]通知：
 
-1. 按一下[!DNL Microsoft Teams]中左側導覽列上的&#x200B;**[!UICONTROL 更多新增]** （三點）應用程式圖示。
+1. 按一下&#x200B;**[!UICONTROL 中左側導覽列上的]**&#x200B;更多新增[!DNL Microsoft Teams] （三點）應用程式圖示。
 
 1. 在出現的清單中按一下[!DNL Workfront]。
 1. 選取「**[!UICONTROL 設定]**」標籤。
@@ -94,9 +99,9 @@ ht-degree: 0%
    >
    >您無法新增更多通知至預設可用的通知。
 
-## 在[!DNL Microsoft Teams]中回應[!DNL Workfront]個通知和核准要求
+## 在[!DNL Workfront]中回應[!DNL Microsoft Teams]個通知和核准要求
 
-1. 從[!DNL Microsoft Teams]登入[!DNL Workfront]。\
+1. 從[!DNL Workfront]登入[!DNL Microsoft Teams]。\
    如需有關登入[!DNL Workfront]的資訊，請參閱[安裝 [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)。
 
 1. 前往&#x200B;**[!UICONTROL 聊天]**&#x200B;區域並按一下&#x200B;**[!DNL Workfront]**&#x200B;機器人頻道。\
@@ -135,11 +140,11 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th>通知</th> 
-   <th>[!UICONTROL 核准]</th> 
-   <th>[!UICONTROL 拒絕]</th> 
-   <th> <p>[!UICONTROL 變更]</p> </th> 
-   <th> <p>[!UICONTROL 前往校訂] </p> </th> 
-   <th>[!UICONTROL 註解]</th> 
+   <th>[！UICONTROL核准]</th> 
+   <th>[！UICONTROL拒絕]</th> 
+   <th> <p>[！UICONTROL變更]</p> </th> 
+   <th> <p>[！UICONTROL前往校訂] </p> </th> 
+   <th>[！UICONTROL註解]</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -270,9 +275,9 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th>通知</th> 
-   <th>[!UICONTROL 開始]</th> 
-   <th>[!UICONTROL 註解]</th> 
-   <th> <p>[!UICONTROL 狀態]</p> </th> 
+   <th>[！UICONTROL開始]</th> 
+   <th>[！UICONTROL註解]</th> 
+   <th> <p>[！UICONTROL狀態]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -320,8 +325,8 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th>通知</th> 
-   <th>[!UICONTROL 回覆]</th> 
-   <th> <p>[!UICONTROL 狀態]</p> </th> 
+   <th>[！UICONTROL回覆]</th> 
+   <th> <p>[！UICONTROL狀態]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -385,8 +390,8 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th>通知</th> 
-   <th>[!UICONTROL 回覆]</th> 
-   <th> <p>[!UICONTROL 狀態]</p> </th> 
+   <th>[！UICONTROL回覆]</th> 
+   <th> <p>[！UICONTROL狀態]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -401,7 +406,7 @@ ht-degree: 0%
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">有人將您的團隊加入[!UICONTROL 導向更新]</td> 
+   <td role="rowheader">有人將您的團隊加入[！UICONTROL導向更新]</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -422,8 +427,8 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th>通知</th> 
-   <th> <p>[!UICONTROL 註解]</p> </th> 
-   <th> <p>[!UICONTROL 狀態]</p> </th> 
+   <th> <p>[！UICONTROL註解]</p> </th> 
+   <th> <p>[！UICONTROL狀態]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 

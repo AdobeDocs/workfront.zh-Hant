@@ -6,9 +6,9 @@ description: 身為專案經理，您可以設定專案以使用Adobe Workfront�
 author: Lisa
 feature: Work Management
 exl-id: c496fe92-5c17-41a5-972b-1c063643bde3
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -23,35 +23,32 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td>任何</td> 
+   <td>Adobe Workfront套件</td> 
+   <td>任何 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
+   <td>Adobe Workfront授權</td> 
    <td>
-   <p>新增：標準</p>
-   <p>或</p>
-   <p>目前：計畫</p></td> 
+   <p>標準</p>
+   <p>規劃</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
+   <td>存取層級設定</td> 
    <td>編輯專案的存取權</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件許可權</td> 
+   <td>物件許可權</td> 
    <td>管理專案的許可權</td> 
   </tr> 
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -75,7 +72,7 @@ ht-degree: 0%
 1. 按一下左側面板中的&#x200B;**專案詳細資料**，然後移至&#x200B;**財務**&#x200B;區域。
 1. 在&#x200B;**貨幣**&#x200B;欄位中按一下&#x200B;**新增**，然後選取您要做為專案預設貨幣的貨幣。 顯示您的Workfront管理員為您的Workfront執行個體設定的所有貨幣。
 
-   專案![&#128279;](assets/currency-on-project-expanded-nwe.png)上的貨幣
+   專案![上的](assets/currency-on-project-expanded-nwe.png)貨幣
 
 1. （視條件而定）如果您選取的貨幣不是為Workfront系統設定的預設貨幣，請指定所選貨幣的匯率，因為該匯率與系統中設定為基本貨幣的貨幣相關。
 1. 按一下「**儲存變更**」。

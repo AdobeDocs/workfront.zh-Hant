@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 75ac50d23c80aaf1b2100b02780adfe7fd7abb39
+source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
 workflow-type: tm+mt
-source-wordcount: '6606'
+source-wordcount: '6583'
 ht-degree: 5%
 
 ---
@@ -31,31 +31,27 @@ ht-degree: 5%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront計畫</p> </td> 
-   <td>任何</td> 
+  <tr> 
+   <td>Adobe Workfront套件</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td>
-   <p>新增：標準</p>
-   <p>或</p>
-   <p>目前：計畫</p></td> 
+   <td>Adobe Workfront授權</td> 
+   <td><p>標準</p>
+       <p>規劃</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">存取層級設定</td> 
+  <tr> 
+   <td>存取層級設定</td> 
    <td> <p>管理自訂表單的存取權</p> </td> 
   </tr>  
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -66,7 +62,7 @@ ht-degree: 5%
 1. 在左側面板中，按一下&#x200B;**自訂Forms**，然後選取&#x200B;**Forms**。
 
 1. 按一下&#x200B;**新增自訂表格。**
-1. 選取您要附加自訂表單的物件型別，然後按一下[繼續]。**&#x200B;**
+1. 選取您要附加自訂表單的物件型別，然後按一下[繼續]。****
 
    ![選擇物件型別](assets/choose-object-type.jpg)
 
@@ -114,7 +110,7 @@ ht-degree: 5%
    >
    >複雜表單的範例包括含有階層式引數的表單、計算的自訂資料欄位，以及單一欄位中的多個值選項。
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -135,7 +131,7 @@ ht-degree: 5%
 >[!NOTE]
 >
 >雖然可以這樣做，但建議您不要在您或其他使用者開始使用Workfront中的自訂表單後變更此名稱。 如果這樣做，系統將不再識別現在可能在Workfront其他區域參考該欄位的自訂欄位。
->&#x200B;>例如，如果您新增自訂欄位至報表，之後又變更其名稱，Workfront將無法辨識報表中的自訂欄位，且除非您使用新名稱將其重新新增至報表，否則將無法正常運作。
+>>例如，如果您新增自訂欄位至報表，之後又變更其名稱，Workfront將無法辨識報表中的自訂欄位，且除非您使用新名稱將其重新新增至報表，否則將無法正常運作。
 >
 >建議您不要輸入已用於內建Workfront欄位的名稱。
 >
@@ -167,7 +163,7 @@ ht-degree: 5%
 
   清單和報告上的篩選器不支援此自訂欄位型別。
 
-  如需有關透過API存取此欄位的資訊，請參閱[&#x200B; API中的RTF文字欄位儲存體](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md)。
+  如需有關透過API存取此欄位的資訊，請參閱[ API中的RTF文字欄位儲存體](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md)。
 
   >[!NOTE]
   >
@@ -285,7 +281,7 @@ ht-degree: 5%
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -437,7 +433,7 @@ ht-degree: 5%
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -453,7 +449,7 @@ ht-degree: 5%
    * 使用者
    * 群組
    * 職務角色
-   * 專案組合
+   * 產品組合
    * 方案
    * 專案
    * 團隊
@@ -566,7 +562,7 @@ ht-degree: 5%
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -634,12 +630,12 @@ ht-degree: 5%
       <td role="rowheader">JSON 路徑</td>
       <td><p>輸入或貼上API的JSON路徑。</p> <p>此選項允許從API URL傳回的JSON擷取資料。 這可當作選取要讓JSON內的哪些值會出現在下拉式選項中的方式。</p><p>例如，如果您的API URL以下列格式傳回JSON，則您可以使用「$.data[*].name」選取美國和加拿大作為下拉式選項：</br>
       <pre>
-      &lbrace;
-       資料： &lbrace;
+      {
+       資料： {
          { name： "USA"}，
          { name： "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>如需有關JSON路徑並確保您撰寫正確JSON路徑的詳細資訊，請參閱<a href="https://jsonpath.com/">https://jsonpath.com/</a>。</p></td>
@@ -660,7 +656,7 @@ ht-degree: 5%
     </tbody>
    </table>
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -757,7 +753,7 @@ The Workfront Mobile app -->
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -773,7 +769,7 @@ The Workfront Mobile app -->
 1. 開啟校訂。
 1. 以滑鼠右鍵按一下視訊上的任何位置，然後選取&#x200B;**複製視訊位址**。
 1. 在您新增視訊Widget的自訂表單中，將複製的地址貼到&#x200B;**URL**&#x200B;方塊中。
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -787,7 +783,7 @@ The Workfront Mobile app -->
 
 此表格列出自訂表單中特定Workfront物件的可用原生欄位。
 
-| 欄位名稱 | 專案 | 任務 | 問題 | 範本 | 範本任務 | 專案組合 | 方案 | 群組 |
+| 欄位名稱 | 專案 | 任務 | 問題 | 範本 | 範本任務 | 產品組合 | 方案 | 群組 |
 |--------------------------- |-------- |------- |------- |--------- |-------------- | --------- |-------- |------ |
 | 實際完成日期 | ✓ | ✓ | ✓ |   |   |   |   |   |
 | 實際期間 | ✓ |   |   |   |   |   |   |   |
@@ -811,7 +807,7 @@ The Workfront Mobile app -->
 | 計畫持續時間 | ✓ |   |   | ✓ |   |   |   |   |
 | 規劃時數 | ✓ | ✓ | ✓ |   | ✓ |   |   |   |
 | 規劃開始日期 | ✓ |   |   |   |   |   |   |   |
-| 專案組合 | ✓ |   |   | ✓ |   |   | ✓ |   |
+| 產品組合 | ✓ |   |   | ✓ |   |   | ✓ |   |
 | 優先順序 | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
 | 方案 | ✓ |   |   | ✓ |   |   |   |   |
 | 預計完成日期 | ✓ | ✓ |   |   |   |   |   |   |
@@ -882,7 +878,7 @@ The Workfront Mobile app -->
     </tbody> 
    </table>
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -939,7 +935,7 @@ The Workfront Mobile app -->
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -1002,7 +998,7 @@ The Workfront Mobile app -->
       <td><p>（必要）選取已連線至Workfront Planning中記錄型別的Workfront物件型別。</p>
       您可以從下列物件型別中選取：
       <ul><li> 專案</li>
-      <li> 專案組合</li><li> 方案</li><li> 公司</li><li> 群組</li></ul>
+      <li> 產品組合</li><li> 方案</li><li> 公司</li><li> 群組</li></ul>
        <p>只有表單物件型別的Workfront物件型別可用。</p> <p> 例如，如果表單設計器頂端的「物件型別」清單顯示「專案」，則您只能在此欄位中選取「專案」，而不能選取「產品組合」，儘管產品組合也可以連線到記錄型別。</p>
       </td>
      </tr>
@@ -1035,7 +1031,7 @@ The Workfront Mobile app -->
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 

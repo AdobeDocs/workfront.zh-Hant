@@ -3,11 +3,11 @@ content-type: reference
 navigation-topic: create-and-manage-projects
 title: 定義業務案例：文章索引
 description: 您可以透過建立業務案例來正式且有效地請求專案。 以下文章說明定義專案的業務案例所需的資訊。
-author: Alina
+author: Becky
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: ca5679ba-db5c-4430-9469-0eaaa94fb9ec
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: fa0b4322b9f7c1d506cf194645c7ae50ad8c0f0b
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 * [建立業務案例目標](../../../manage-work/projects/define-a-business-case/create-business-case-goals.md)
 * [業務案例中的預算資源](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)
 * 使用資源規劃工具[業務案例中的預算資源](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md)
-* 使用Scenario Planner[&#128279;](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)的業務案例中的預算資源
+* 使用Scenario Planner[的業務案例中的預算資源](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)
 * [套用計分卡至專案並產生一致性分數](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md)
 * [將自訂表格附加至業務案例](../../../manage-work/projects/define-a-business-case/attach-custom-form-to-business-case.md)
 * [建立並編輯專案的風險](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)

@@ -7,7 +7,7 @@ description: Adobe Workfront對可與專案相關聯的物件數量有限制。 
 author: Alina
 feature: Work Management
 exl-id: 60576107-89f1-4328-89e2-5b1e5e243fd9
-source-git-commit: 71ddeb83543c3c1491a412ac18deaa3ce1077c21
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 0%

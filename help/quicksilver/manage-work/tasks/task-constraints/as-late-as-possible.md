@@ -7,9 +7,9 @@ description: 儘可能延遲(ALAP)是Adobe Workfront任務限制，可將任務�
 author: Alina
 feature: Work Management
 exl-id: 475427d0-020b-4851-a614-c9931659e07d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 使用此限制可能會導致前置任務或相依任務被重新排程。
 
-如需前置任務關係的詳細資訊，請參閱[使用前置任務](../../../manage-work/tasks/use-prdcssrs/use-task-predecessors.md)。
+如需前置任務關係的詳細資訊，請參閱[使用前置任務：文章索引](../../../manage-work/tasks/use-prdcssrs/use-task-predecessors.md)。
 
 如果專案使用的排程模式是「從完成日期開始排程」，且作業「開始日期」的系統或群組預設值為「根據專案計畫日期」，則「儘可能延遲」為預設限制。
 
@@ -32,13 +32,13 @@ ht-degree: 0%
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Use the As Late As Possible Task Constraint</h2>
 <p>(NOTE: replaced with new article linked above) </p>
-<p>To update the Task Constraint to As Late As Possible:&nbsp;</p>
+<p>To update the Task Constraint to As Late As Possible: </p>
 <ol>
 <li value="1">Go to a task whose Task Constraint you want to update.</li>
-<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <strong>More</strong> icon <img src="assets/qs-more-icon-on-an-object.png"> next to the task name, then click&nbsp;<strong>Edit</strong>.</p> </li>
-<li value="3"> <p>In the&nbsp;<strong>Overview</strong>&nbsp;section, expand the&nbsp;<strong>Task Constraint</strong>&nbsp;drop-down menu.</p> </li>
-<li value="4"> <p>Select&nbsp;<strong>As Late As Possible</strong>.</p> </li>
-<li value="5">Click <strong>Save Changes</strong>.&nbsp;</li>
+<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <strong>More</strong> icon <img src="assets/qs-more-icon-on-an-object.png"> next to the task name, then click <strong>Edit</strong>.</p> </li>
+<li value="3"> <p>In the <strong>Overview</strong> section, expand the <strong>Task Constraint</strong> drop-down menu.</p> </li>
+<li value="4"> <p>Select <strong>As Late As Possible</strong>.</p> </li>
+<li value="5">Click <strong>Save Changes</strong>. </li>
 </ol>
 </div>
 -->
@@ -46,7 +46,7 @@ ht-degree: 0%
 ## 最新可用時間和儘可能晚可用時間之間的差異
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;[! This section is duplicated in "Latest Available Time"] - inserted a snippet for both articles (Alina)) </p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: [! This section is duplicated in "Latest Available Time"] - inserted a snippet for both articles (Alina)) </p>
 -->
 
 當存在下列條件時，「最新可用時間」限制與「儘可能晚到」限制不同：
@@ -69,12 +69,12 @@ ht-degree: 0%
 
   ![](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
 
- 
+
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>(NOTE: this content was here before but it was wrong - according to this issue in Hub, per Dev, the correct functionality is in the snippet above: https://hub.workfront.com/task/6193c6910004bce9de07cda7757f3ce8/updates?email-source=subscribedCommunication) </p>
-<p>The Latest&nbsp;Available Time constraint differs from the As Late&nbsp;As Possible constraint when the following criteria exist:</p>
+<p>The Latest Available Time constraint differs from the As Late As Possible constraint when the following criteria exist:</p>
 <ul>
 <li> The project is scheduled From Completion </li>
 <li> Tasks in the project have a predecessor relationship </li>
@@ -82,8 +82,8 @@ ht-degree: 0%
 </ul>
 <p> In this situation: </p>
 <ul>
-<li> <p><strong>Latest Available Time:</strong> Using the Latest&nbsp;Available Time constraint on the successor task gives priority to flexible constraint of the predecessor.</p> <p>For example, Task A is a predecessor to Task B. Task B has the Latest&nbsp;Available Time constraint and Task A has the As Soon&nbsp;As Possible constraint. In this situation, the task is scheduled as close&nbsp;to the start&nbsp;of the project as possible.</p> </li>
-<li> <p><strong>As Late As Possible:</strong> In this scenario, using the As Late&nbsp;As Possible constraint on the successor task gives the priority to the successor task.</p> <p>For example, Task A is a predecessor to Task B. Task B has the As Late&nbsp;As Possible&nbsp;constraint and Task A has the As Soon&nbsp;As Possible constraint. In this situation, the task is scheduled as close to the end&nbsp;of the project as possible.</p> </li>
+<li> <p><strong>Latest Available Time:</strong> Using the Latest Available Time constraint on the successor task gives priority to flexible constraint of the predecessor.</p> <p>For example, Task A is a predecessor to Task B. Task B has the Latest Available Time constraint and Task A has the As Soon As Possible constraint. In this situation, the task is scheduled as close to the start of the project as possible.</p> </li>
+<li> <p><strong>As Late As Possible:</strong> In this scenario, using the As Late As Possible constraint on the successor task gives the priority to the successor task.</p> <p>For example, Task A is a predecessor to Task B. Task B has the As Late As Possible constraint and Task A has the As Soon As Possible constraint. In this situation, the task is scheduled as close to the end of the project as possible.</p> </li>
 </ul>
 </div>
 -->

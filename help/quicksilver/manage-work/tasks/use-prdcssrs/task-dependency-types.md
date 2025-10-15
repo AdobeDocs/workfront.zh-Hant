@@ -2,12 +2,12 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: use-predecessors
-title: 作業相依性型別的概要
+title: 作業相依性型態概要
 description: 相依性型別是指任務之間的前置任務關係。 它們根據前置任務的開始或完成來定義相依任務何時可以開始或完成。
 author: Alina
 feature: Work Management
 exl-id: 30d1c60d-0632-4a32-b7e7-a9f8e81bf727
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 0%
@@ -38,5 +38,5 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->「相依性型別」的縮寫用於工作清單中，以定義前置任務關係。 如需詳細資訊，請參閱[前置任務概觀](/help/quicksilver/manage-work/tasks/use-prdcssrs/predecessors-overview.md)中[工作清單](/help/quicksilver/manage-work/tasks/use-prdcssrs/predecessors-overview.md#examples-of-predecessor-values-in-a-task-list)的前置任務值範例。
+>「相依性型別」的縮寫用於工作清單中，以定義前置任務關係。 如需詳細資訊，請參閱[前置任務概觀](/help/quicksilver/manage-work/tasks/use-prdcssrs/predecessors-overview.md#examples-of-predecessor-values-in-a-task-list)中[工作清單](/help/quicksilver/manage-work/tasks/use-prdcssrs/predecessors-overview.md)的前置任務值範例。
 

@@ -7,9 +7,9 @@ description: 請務必在Adobe Workfront中指明核准的休假何時發生，�
 author: Becky
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: f10b0a4897d6250f0c4decf1fad069c598536a38
+source-git-commit: 95cc394c3e1aa0ee5713e981030a96e27dd1f183
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
@@ -38,33 +38,33 @@ ht-degree: 0%
 
 ## 存取需求
 
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視本文中功能的存取需求。
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
- <col> 
- </col> 
+ </col>
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td> 
-   <td>任何</td> 
+   <td> Adobe Workfront套件</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>新增：標準（設定個人休假）</p>
-        <p>或</p>
-        <p>目前：工作或更高（以設定您的個人休假）</p> </td>
+   <td>Adobe Workfront授權</td> 
+   <td> <p>若要設定您的個人休假，您必須擁有：</p>
+        <p>標準（設定個人休假）</p>
+        <p>工作或更高（以設定您的個人休假）</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
-   <td>具有[!UICONTROL Edit User]存取權的[!UICONTROL Manager] （變更其他使用者的休假行事曆）<br>
-   <strong>注意：</strong>如果管理員編輯其他使用者的個人休假行事曆，所有專案都會以使用者的時區顯示，而非管理員的時區顯示。</td> 
+   <td>存取層級設定</td> 
+   <td><p>若要變更其他使用者的休假行事曆，您必須是該使用者的管理員並擁有「編輯使用者」存取權。</p>
+   <p><strong>注意：</strong>如果管理員編輯其他使用者的個人休假行事曆，所有專案都會以使用者的時區顯示，而非管理員的時區顯示。</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 在[!DNL Workfront]中設定個人休假
 

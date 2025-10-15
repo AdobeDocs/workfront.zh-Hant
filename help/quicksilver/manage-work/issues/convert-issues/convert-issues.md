@@ -1,27 +1,29 @@
 ---
 product-area: projects
 navigation-topic: convert-issues
-title: 在Adobe Workfront中轉換問題的概觀
+title: 在Adobe Workfront中轉換問題概觀
 description: 如果在提交問題後需要完成更多工作，您可以將問題轉換為專案或任務。
 author: Alina
 feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 55c714436fe59c84251c7f4e2a46614feae92cd6
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '1506'
+source-wordcount: '1497'
 ht-degree: 2%
 
 ---
 
 # 在Adobe Workfront中轉換問題的概觀
 
+<!--Audited: 08/2025-->
+
 如果在提交問題後需要完成更多工作，您可以將問題轉換為專案或任務。
 
-如需將問題轉換為任務的詳細資訊，請參閱[在Adobe Workfront中將問題轉換為任務](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)。
+如需將問題轉換為任務的詳細資訊，請參閱[將問題轉換為任務](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)。
 
-如需將問題轉換為專案的詳細資訊，請參閱[在Adobe Workfront中將問題轉換為專案](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)。
+如需將問題轉換為專案的資訊，請參閱[將問題轉換為專案](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)。
 
 ## 轉換問題時的注意事項
 
@@ -62,7 +64,7 @@ ht-degree: 2%
 
 將問題轉換為專案時，您可以將其轉換為空白專案或使用範本。
 
-如需詳細資訊，請參閱[在Adobe Workfront中將問題轉換為專案](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)。
+如需詳細資訊，請參閱[將問題轉換為專案](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)。
 
 使用範本時，範本上填入的某些欄位會傳輸到從轉換的問題建立的專案。 其他欄位會從轉換的問題轉移到專案。
 
@@ -111,7 +113,7 @@ ht-degree: 2%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>專案組合</td> 
+   <td>產品組合</td> 
    <td>從範本傳輸。 否則，此欄位為空白。</td> 
   </tr> 
   <tr> 

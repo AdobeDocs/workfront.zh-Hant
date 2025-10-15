@@ -6,9 +6,9 @@ description: 在Experience Manager Assets Essentials中將您的工作與您的�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '651'
 ht-degree: 1%
 
 ---
@@ -29,37 +29,37 @@ ht-degree: 1%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table>
   <tr>
-   <td>[!DNL Adobe Workfront] 計劃
+   <td><strong>Adobe Workfront封裝</strong>
    </td>
    <td>任何
    </td>
   </tr>
   <tr>
-   <td>[!DNL Adobe Workfront] 授權
+   <td><strong>Adobe Workfront授權</strong>
    </td>
-   <td><p>目前： [!UICONTROL 計畫]</p>
-   <p>新增：[!UICONTROL Standard]</p></td>
-  </tr>
-  <tr>
-   <td>[!DNL Experience Manager] 授權
-   </td>
-   <td>[!UICONTROL 標準]
+   <td>
+   <p>標準</p>
+   <p>規劃</p>
    </td>
   </tr>
   <tr>
-   <td>產品
+   <td><strong>其他產品</strong>
    </td>
-   <td>您必須擁有Experience Manager Assets Essentials，並且您必須在Admin Console中作為使用者新增到產品中。
+   <td>您必須擁有Experience Manager Assets as a Cloud Service或Assets Essentials，並且您必須以使用者身分新增到產品中。
    </td>
   </tr>
   <tr>
-   <td>存取層級設定
+   <td><strong>Experience Manager許可權</strong>
    </td>
-   <td>您必須是[!DNL Workfront]管理員。
+   <td>您必須擁有Experience Manger整合中目的地資料夾的寫入許可權。
+   </td>
+  </tr>
+  <tr>
+   <td><strong>存取層級設定</strong>
+   </td>
+   <td>您必須是Workfront管理員才能設定Experience Manager整合。 完成設定後，擁有計畫授權的使用者可以在個別專案上設定連結資料夾。
    </td>
   </tr>
 </table>
@@ -111,7 +111,7 @@ ht-degree: 1%
 
 開始之前，您必須
 
-* 在Experience Manager Assets Essentials中設定中繼資料結構，如[設定Adobe Workfront和Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)中所述。
+* 在Experience Manager Assets Essentials中設定中繼資料結構，如[設定Adobe Workfront和Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)中所述。
 * （選用）在Workfront中設定自訂表單欄位。 Workfront有許多內建的自訂欄位可供您使用。 不過，您也可以建立自己的自訂欄位。 如需詳細資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 ## 支援的Workfront和Experience Manager Assets欄位
@@ -126,7 +126,7 @@ ht-degree: 1%
 
 <!--
 Look for essentials article
-For more information on keywords in Experience Manager Assets, including how to create and manage keywords, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=zh-Hant).
+For more information on keywords in Experience Manager Assets, including how to create and manage keywords, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=en).
 -->
 
 

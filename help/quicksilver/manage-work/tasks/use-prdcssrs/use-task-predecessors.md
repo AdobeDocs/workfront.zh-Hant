@@ -2,20 +2,20 @@
 content-type: reference
 product-area: projects
 navigation-topic: tasks
-title: 使用前置任務
+title: 使用前置任務：文章索引
 description: 前置任務是指其他任務（稱為後續任務）在完成之前所依賴的任務。 透過下列文章瞭解Adobe Workfront中的前置任務。
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 56048927-39cd-49a0-b00a-bf145bca90a1
-source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---
 
-# 使用前置任務
+# 使用前置任務：文章索引
 
 本節包含下列文章：
 

@@ -5,9 +5,9 @@ description: 您可以使用「摘要」面板，直接從任務問題、檔案�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: d7b8d7285d23d14f5390c9de1001de553c2b796f
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '893'
 ht-degree: 2%
 
 ---
@@ -54,10 +54,10 @@ ht-degree: 2%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 工作負載平衡器]的[!UICONTROL 未指派]和[!UICONTROL 已指派]工作區域中的任務</td> 
+   <td>[！UICONTROL工作負載平衡器]的[！UICONTROL未指派]和[！UICONTROL已指派]工作區域中的任務</td> 
   </tr> 
    <tr> 
-   <td>[!UICONTROL 時程表]中的任務</td> 
+   <td>[！UICONTROL時程表]中的任務</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><b>問題</b></td> 
@@ -71,24 +71,24 @@ ht-degree: 2%
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 工作負載平衡器]的[!UICONTROL 指派的工作]區域發生問題</td> 
+   <td>[！UICONTROL工作負載平衡器]的[！UICONTROL指派的工作]區域發生問題</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 請求]區域的[!UICONTROL 已提交]區段中的問題</td> 
+   <td>[！UICONTROL請求]區域的[！UICONTROL已提交]區段中的問題</td> 
   </tr> 
 </tr> 
    <tr> 
-   <td>[!UICONTROL 時程表]中的問題</td> 
+   <td>[！UICONTROL時程表]中的問題</td> 
   </tr>
 
 <tr data-mc-conditions=""> 
    <td><b>文件</b></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 檔案]區域</td> 
+   <td>[！UICONTROL檔案]區域</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>任何物件（專案、任務、問題、方案、投資組合、範本、範本任務、使用者）的[!UICONTROL 檔案]區段</td> 
+   <td>任何物件（專案、任務、問題、方案、投資組合、範本、範本任務、使用者）的[！UICONTROL檔案]區段</td> 
   </tr> 
  </tbody> 
 </table>
@@ -99,40 +99,10 @@ ht-degree: 2%
 
 本文說明如何針對清單中的任務和問題存取及使用[!UICONTROL 摘要]面板。
 
-如需有關存取[!UICONTROL 工作負載平衡器]中[!UICONTROL 摘要]的資訊，請參閱[使用[!UICONTROL 摘要]](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)更新[!UICONTROL 工作負載平衡器]中的工作專案。
+如需有關存取[!UICONTROL 工作負載平衡器]中[!UICONTROL 摘要]的資訊，請參閱[使用[!UICONTROL 摘要]更新[!UICONTROL 工作負載平衡器]](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)中的工作專案。
 
-如需有關存取檔案[!UICONTROL 摘要]的資訊，請參閱檔案[&#128279;](../../documents/managing-documents/summary-for-documents.md)的[!UICONTROL 摘要]。
+如需有關存取檔案[!UICONTROL 摘要]的資訊，請參閱檔案[[!UICONTROL 的]摘要](../../documents/managing-documents/summary-for-documents.md)。
 
-## 存取需求
-
-您必須具有下列存取權才能執行本文中的步驟：
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計劃</strong></td> 
-   <td> <p>任何</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>新增：投稿人或更高版本</p>
-   或
-   <p>目前：[!UICONTROL 要求]或更高</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>存取層級設定</strong></td> 
-   <td> <p>[!UICONTROL 檢視]或更高的任務、問題、檔案存取權</p> <p>[!UICONTROL 檢視]或更高的存取權存取您要檢視其檔案[!UICONTROL 摘要]的任何物件</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>[!UICONTROL 檢視]或任務、問題或檔案的更高許可權</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-*若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。 如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 檢視任務或問題清單中的[!UICONTROL 摘要]面板
 
@@ -141,7 +111,7 @@ ht-degree: 2%
 
    或
 
-   在[!UICONTROL 要求]區域的[!UICONTROL 已提交]區段中，按一下&#x200B;**[!UICONTROL 開啟摘要]**&#x200B;圖示![](assets/open-summary-with-text-nwe.png)。
+   在&#x200B;**[!UICONTROL 要求]**&#x200B;區域的![](assets/open-summary-with-text-nwe.png)已提交[!UICONTROL 區段中，按一下]開啟摘要[!UICONTROL 圖示]。
 
    開啟「摘要」後，當您按一下或選取其他任務或問題時，摘要會保持開啟狀態，直到您手動關閉摘要為止。
 
@@ -157,7 +127,7 @@ ht-degree: 2%
 
      或
 
-     按一下[!UICONTROL 摘要]面板右上角的&#x200B;**X**&#x200B;圖示。
+     按一下&#x200B;**摘要**&#x200B;面板右上角的[!UICONTROL X]圖示。
 
    * 在[!UICONTROL 要求]區域的[!UICONTROL 已提交]區段中，按一下&#x200B;**[!UICONTROL 關閉摘要]**&#x200B;圖示![](assets/close-summary-with-text-nwe.png)
 
@@ -185,7 +155,7 @@ ht-degree: 2%
 
 摘要面板中的![檔案區段](assets/summary-documents-section.png)
 
-## [!UICONTROL 詳細資料]
+## [!UICONTROL 詳細資訊]
 
 使用[!UICONTROL 摘要]的[!UICONTROL 詳細資料]區段來檢視高階工作專案詳細資料、進行指派或新增開始日期。 按一下「**[!UICONTROL 檢視全部]**」直接前往任務或問題上的「[!UICONTROL 詳細資料]」標籤。
 

@@ -6,9 +6,9 @@ description: 當使用者指派存取層級時，您的Adobe Workfront管理員�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 21bd531f-8732-4d6c-b91f-990887285447
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
@@ -31,41 +31,33 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具備下列專案才能共用物件：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront計畫</strong></td> 
-   <td> <p>任何 </p> </td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront授權</strong></td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
     <td> 
-      <p>新增：</p>
-         <ul>
-         <li><p>淺色或更高</p></li>
-         </ul>
-      <p>目前：</p>
-         <ul>
-         <li><p>評論或以上</p></li>
-         </ul>
+   <p>淺色或更高</p>
+   <p>評論或以上</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>存取層級設定</strong></td> 
+   <td role="rowheader">存取層級設定</td> 
    <td> <p>檢視報表、儀表板、行事曆的存取權或以上專案</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>物件許可權</strong></td> 
+   <td role="rowheader">物件許可權</td> 
    <td> <p>檢視儀表板或更高的許可權</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -94,7 +86,7 @@ ht-degree: 0%
 
 從清單共用一個或數個控制面板的功能相同。
 
-1. 前往儀表板清單，選取一或多個儀表板，然後按一下[共用] **&#x200B;**&#x200B;![](assets/share-icon.png)。
+1. 前往儀表板清單，選取一或多個儀表板，然後按一下[共用] **** ![](assets/share-icon.png)。
 
    或
 

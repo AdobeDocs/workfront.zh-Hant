@@ -6,7 +6,7 @@ description: 問題的名稱會在Adobe Workfront資料庫中顯示為opTask 。
 author: Alina
 feature: Work Management
 exl-id: 91107c04-616c-49b2-aa78-10e373d11f6b
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # 參考問題時使用「opTask」和「issue」
+
+<!--Audited: 08/2025-->
 
 問題名稱在Adobe Workfront資料庫中顯示為`opTask`。 雖然有時您需要使用`issue`欄位名稱來參考問題，但大多數時候您在參考問題時必須使用`opTask`欄位名稱，而非`issue`。
 

@@ -5,7 +5,7 @@ title: 刪除和停用計畫
 description: 方案代表共用跨專案界限的共同策略、目標或目標的專案集合。 計畫是投資組合的細分，它們不能存在於投資組合之外。 計畫通常與同一投資組合中的其他計畫共用相同的資源。 您可以在程式變得無關時將其刪除或停用。
 author: Alina
 feature: Work Management, Strategic Planning
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 0%
@@ -32,21 +32,21 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td>
+   <td role="rowheader">[!DNL Adobe Workfront] 封裝</td>
 
 <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>[!UICONTROL 標準]</p><p>[!UICONTROL 計畫]</p> </td> 
+   <td> <p>[！UICONTROL標準]</p><p>[！UICONTROL計畫]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[!UICONTROL Edit]對投資組合和計畫的存取權 </p>  </td> 
+   <td> <p>[！UICONTROL Edit]對投資組合和計畫的存取權 </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>投資組合的[!UICONTROL Manage]許可權</p> <p>建立方案後，預設情況下您擁有[!UICONTROL 管理]許可權。</p>  </td> 
+   <td> <p>投資組合的[！UICONTROL Manage]許可權</p> <p>建立方案後，預設情況下您擁有[！UICONTROL管理]許可權。</p>  </td> 
   </tr> 
  </tbody> 
 </table>

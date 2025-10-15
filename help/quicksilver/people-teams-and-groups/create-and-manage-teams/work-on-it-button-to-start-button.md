@@ -6,9 +6,9 @@ description: Adobe Workfront的預設設定包含處理它的一個按鈕，用�
 author: Lisa
 feature: People Teams and Groups
 exl-id: 9387c5ae-2835-4d8f-80ec-22fcd16c5b6e
-source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
+source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
@@ -27,22 +27,19 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront計畫</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront套件</p> </td> 
    <td>任何</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td>
-   <p>新增：標準</p>
-   <p>或</p>
-   <p>目前：計畫</p></td>
+   <p>標準</p>
+   <p>規劃</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -79,7 +76,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL 更多]**&#x200B;圖示![](assets/more-icon.png)，然後按一下&#x200B;**[!UICONTROL 編輯]**。
 
-1. 在[!UICONTROL 編輯團隊]頁面底部附近找到&#x200B;**[!UICONTROL 處理它]**&#x200B;按鈕區段。
+1. 在&#x200B;**[!UICONTROL 編輯團隊]**&#x200B;頁面底部附近找到[!UICONTROL 處理它]按鈕區段。
 1. 選取&#x200B;**[!UICONTROL 將處理它按鈕變更為開始按鈕以自動更新專案]**&#x200B;的狀態核取方塊。
 1. 為每個工作專案型別選取一或多個狀態。 如果您選取多個狀態，當您按一下[!UICONTROL 開始]時，會出現一個下拉式功能表，您可在此選擇想要的狀態。
 1. 按一下&#x200B;**[!UICONTROL 儲存變更]**。 當使用者被指派工作專案時，他們現在會看到[!UICONTROL 開始任務]或[!UICONTROL 開始問題]按鈕，而不是[!UICONTROL 處理它]按鈕。

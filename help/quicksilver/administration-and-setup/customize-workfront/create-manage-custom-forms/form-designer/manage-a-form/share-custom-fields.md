@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 4f591fa3-2cb9-4a22-bfb1-1b50cedfcf3d
-source-git-commit: a7be72f0a594a21baed2592d8a2e467118ab1b7f
+source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
 workflow-type: tm+mt
-source-wordcount: '1096'
+source-wordcount: '1073'
 ht-degree: 1%
 
 ---
@@ -25,31 +25,27 @@ ht-degree: 1%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront計畫</p> </td> 
-   <td>任何</td> 
+  <tr> 
+   <td>Adobe Workfront套件</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td>
-   <p>新增：標準</p>
-   <p>或</p>
-   <p>目前：計畫</p></td>
+   <td>Adobe Workfront授權</td> 
+   <td><p>標準</p>
+       <p>規劃</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">存取層級設定</td> 
+  <tr> 
+   <td>存取層級設定</td> 
    <td> <p>管理自訂表單的存取權</p> </td> 
-  </tr> 
+  </tr>  
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -164,4 +160,4 @@ ht-degree: 1%
 
 ### 移除對自訂欄位或共用自訂表單中Widget的存取權 {#remove-access-to-a-custom-field-or-widget-in-a-custom-form-that-was-shared}
 
-如果您需要移除對自訂欄位或共用之自訂表單中Widget的存取權，則需要取消共用表單。 如需指示，請參閱文章[共用自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)中的[移除自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md#remove-access-to-a-custom-form-from-the-list-of-forms)存取權一節。
+如果您需要移除對自訂欄位或共用之自訂表單中Widget的存取權，則需要取消共用表單。 如需指示，請參閱文章[共用自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md#remove-access-to-a-custom-form-from-the-list-of-forms)中的[移除自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)存取權一節。

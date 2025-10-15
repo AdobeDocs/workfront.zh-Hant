@@ -6,9 +6,9 @@ description: 您可以建立核准範本以簡化核准流程。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
-source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
+source-git-commit: 7572dd64a7f23d6f8dcae374a327d67f2d6738c5
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '210'
 ht-degree: 2%
 
 ---
@@ -25,21 +25,18 @@ ht-degree: 2%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>新增：標準</p> 
-   <p>或</p>
-   <p>目前：計畫</p>
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>標準</p> 
+   <p>規劃</p>
    </td> 
   </tr> 
  </tbody> 

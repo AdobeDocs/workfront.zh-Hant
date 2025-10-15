@@ -6,9 +6,9 @@ description: 如果您已建立行事曆，可以複製行事曆並將其用作�
 author: Lisa
 feature: Reports and Dashboards
 exl-id: f72cf896-294f-4166-b731-eaec0c2156b1
-source-git-commit: 5c0278607faf65b58abeb9b813e403f97032a965
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
@@ -25,8 +25,6 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -34,22 +32,21 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront plan]</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td><p>新增：標準</p>
-       <p>或</p>
-       <p>目前：計畫</p></td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td><p>標準</p>
+       <p>規劃</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[!UICONTROL Edit]對[!UICONTROL 報告]、[!UICONTROL 儀表板]和&lbrack;！UICONTROL行事曆的存取權</p></td> 
+   <td> <p> 編輯報告、儀表板和行事曆的存取權</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td>[!UICONTROL Manage]對行事曆報表的存取權</td> 
+   <td>管理對行事曆報告的存取權</td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,7 +59,7 @@ ht-degree: 0%
 ## 複製行事曆報告
 
 1. 移至您要複製的行事曆。
-1. 按一下[行事曆]下拉式功能表旁的&#x200B;**更多**&#x200B;功能表。
+1. 按一下[行事曆]下拉式功能表旁的&#x200B;**更多**功能表。
    ![行事曆更多功能表](assets/more-menu-calendar.png)
 
 1. 從下拉式清單中選取&#x200B;**[!UICONTROL 複製]**。 行事曆會被複製，而您會被帶往新復本。

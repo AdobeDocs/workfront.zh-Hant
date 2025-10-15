@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: db90cf52-7c8f-4972-b67f-401657ba9b13
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: 7eaff1c74cd880bde062e6fdf169c73d6eeb7f75
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -29,39 +29,36 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td>任何</td> 
+   <td>Adobe Workfront套件</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td>
-   <td><p>新增：標準</p>
-       <p>或</p>
-       <p>目前：計畫</p></td>
-  <tr> 
-   <td role="rowheader">存取層級設定</td> 
+   <td>Adobe Workfront授權</td> 
+   <td><p>標準</p>
+       <p>規劃</p></td>
+  </tr>
+  <tr>
+   <td>存取層級設定</td> 
    <td>您必須是群組的群組管理員或系統管理員。</td>
   </tr>
   <tr> 
-   <td role="rowheader">物件許可權</td>
+   <td>物件許可權</td>
    <td> 
     <ul> 
      <li> <p>專案必須與群組或其任何子群組相關聯。 </p> <p>如需將群組指派給專案的資訊，請參閱<a href="../../../manage-work/projects/manage-projects/understand-project-overview-area.md" class="MCXref xref">專案概述區域中的管理資訊</a>。</p> </li> 
      <li> <p>此外，您必須擁有編輯專案的許可權，這可能是因為您已建立專案或專案已共用給您。</p></li> 
     </ul>
     <p><b>注意</b>：當您從群組的頁面建立專案時，系統會將該專案指派給該群組。 這與在其他Workfront區域中建立專案不同，在其中，系統將專案指派給建立該專案之使用者（專案所有者）的「主群組」 。</p> </td>
-  </tr> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -88,7 +85,7 @@ ht-degree: 0%
       <td role="rowheader"> <p>為群組建立新專案</p> </td> 
       <td> 
        <ol> 
-        <li value="1"> <p>按一下<strong>新增專案</strong>，然後在下拉式選單中選取選項以指示您要如何建立專案。 </p> <p>如需詳細資訊，請參閱文章<a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">建立專案</a>中的<a href="../../../manage-work/projects/create-projects/create-project.md#ways-to-create-projects" class="MCXref xref">建立專案的方式</a>一節。</p> </li> 
+        <li value="1"> <p>按一下<strong>新增專案</strong>，然後在下拉式選單中選取選項以指示您要如何建立專案。 </p> <p>如需詳細資訊，請參閱文章<a href="../../../manage-work/projects/create-projects/create-project.md#ways-to-create-projects" class="MCXref xref">建立專案</a>中的<a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">建立專案的方式</a>一節。</p> </li> 
         <li value="2">輸入專案名稱並加以設定，如<a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">編輯專案</a>中所述。</li> 
        </ol> <p> 為群組設定的專案偏好設定會影響您在「群組」區域中建立的所有專案。 如需詳細資訊，請參閱<a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md" class="MCXref xref">設定群組的專案偏好設定</a>。</p> </td> 
      </tr> 

@@ -6,9 +6,9 @@ description: 您可以使用[!UICONTROL Portfolio Optimizer]，根據專案分�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 25debc5b-5d7d-453f-ab0a-9bf3fba05693
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視本文中功能的存取需求。 
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -28,23 +28,23 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td> 
-   <td> 任何</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 封裝</td> 
+   <td> <p>Workfront Prime或更高版本</p>
+      <p>工作流程Prime或更高版本</p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>新增：[!UICONTROL Standard] </p>
-   <p>目前： [!UICONTROL 計畫] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
+   <td> <p>[！UICONTROL標準]</p>
+   <p>[！UICONTROL計畫]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>[!UICONTROL Edit]專案與投資組合的存取權</p> </td> 
-  </tr> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>[！UICONTROL Edit]對[！UICONTROL Portfolios]和[！UICONTROL Projects]的存取權</p>  </td>
+</tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>投資組合的[!UICONTROL Manage]許可權</p> <p>貢獻專案或更高的許可權</p> 
-   <p>您必須擁有清單中所有專案的管理許可權，才能使用<b>設定專案優先順序</b>。</p>
-    </td> 
+   <td> <p>投資組合的[！UICONTROL Manage]許可權</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,6 +52,33 @@ ht-degree: 0%
 *如需詳細資訊，請參閱[Workfront檔案的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+<!--Old
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> Any</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront licenses*</td> 
+   <td> <p>New: [!UICONTROL Standard] </p>
+   <p>Current: [!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>[!UICONTROL Edit] access to Projects and Portfolios</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] permissions to the portfolio</p> <p>Contribute or higher permissions to the projects</p> 
+   <p>You must have Manage permissions to all the projects in the list to be able to use <b>Set project priority</b>.</p>
+    </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 在Portfolio Optimizer中最佳化專案
 
@@ -75,9 +102,9 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**x圖示**&#x200B;以關閉最佳化類別。
 
-   這會更新&#x200B;**[!UICONTROL 分數]**&#x200B;欄中每個專案的[!UICONTROL 分數]值。
+   這會更新[!UICONTROL 分數]欄中每個專案的&#x200B;**[!UICONTROL 分數]**&#x200B;值。
 
-   如需[!UICONTROL Portfolio Optimizer]分數的相關資訊，請參閱[Portfolio Optimizer]分數的概述(../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md)。
+   如需[!UICONTROL Portfolio Optimizer]分數的相關資訊，請參閱[Portfolio Optimizer[!UICONTROL 分數的概述]。](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md)
 
 1. 在&#x200B;**[!UICONTROL Score]**&#x200B;欄設定正確的權重後，按一下&#x200B;**[!UICONTROL Score]**&#x200B;欄的標題以依此欄排序。 分數最高的專案會顯示在清單頂端。
 
@@ -91,4 +118,4 @@ ht-degree: 0%
 
    如需在[!UICONTROL Portfolio Optimizer]中排定專案優先順序的詳細資訊，請參閱文章[在[!UICONTROL Portfolio Optimizer]](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)中排定專案優先順序。
 
-1. 按一下「儲存」**&#x200B;**&#x200B;以儲存您的[!UICONTROL Portfolio Optimizer]。
+1. 按一下「儲存」****&#x200B;以儲存您的[!UICONTROL Portfolio Optimizer]。

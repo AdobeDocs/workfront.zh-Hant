@@ -6,7 +6,7 @@ description: 您可以使用文字模式在清單或報告中編輯篩選器，�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
 source-wordcount: '1044'
 ht-degree: 1%
@@ -19,34 +19,26 @@ ht-degree: 1%
 
 您可以使用文字模式在清單或報告中編輯篩選器，以存取標準介面中無法使用的欄位，並建立更複雜的篩選器。
 
-如需建立篩選時的更多文字模式範例，另請參閱文章[自訂檢視、篩選和群組範例：文章索引](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)中的[自訂篩選範例](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md#samples-of-custom-filters)一節。
+如需建立篩選時的更多文字模式範例，另請參閱文章[自訂檢視、篩選和群組範例：文章索引](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md#samples-of-custom-filters)中的[自訂篩選範例](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)一節。
 
 ## 存取需求
 
 +++ 展開以檢視本文中功能的存取需求。
-
-您必須具備下列條件：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td> 
-      <p>新增：</p>
-         <ul>
-         <li><p>標準</p></li>
-         </ul>
-      <p>目前：</p>
-         <ul>
-         <li><p>規劃</p></li>
-         </ul>
-   </td>
+     <p>標準</p>
+     <p>規劃</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -59,7 +51,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

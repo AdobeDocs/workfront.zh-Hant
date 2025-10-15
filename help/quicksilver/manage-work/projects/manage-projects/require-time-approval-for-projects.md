@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: manage-projects
 title: 專案需要時間核准
-description: 專案需要時間核准
+description: 您可以設定專案，要求專案擁有者核准針對專案記錄的時數。 若以此方式設定，時數必須先由專案所有者核准，然後才能有資格用於計費記錄。
 author: Alina
 feature: Work Management
 exl-id: e4a27640-9f5c-4a9f-82cc-3384694594af
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '785'
 ht-degree: 0%
 
 ---
@@ -26,30 +26,30 @@ ht-degree: 0%
 
 ## 存取需求
 
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
    <td> <p>若要在專案上要求核准時間：</p>
-   <ul><li>新增：標準</li>
-   <li>目前：計畫</li></ul>
+   <ul><li><p>標準</p></li>
+   <li><p>規劃</p></li></ul>
 
 <p>若要核准專案上記錄的時數：</p>
-   <ul><li>新增：淺色或更高</li>
-   <li>評論或以上</li>
+   <ul><li><p>淺色或更高</p></li>
+   <li><p>評論或以上</p></li>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯專案或更高版本的存取權</p>  </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>編輯專案的存取權</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
@@ -73,7 +73,56 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>To require time to be approved on the project:</p>
+   <ul><li>New: Standard</li>
+   <li>Current: Plan</li></ul>
+   
+   <p>To approve hours logged on a project:</p>
+   <ul><li>New: Light or higher</li>
+   <li>Review or higher</li>
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Projects or higher</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View permissions to the project or higher</p>
+  </tr> 
+  <tr> 
+   <td role="rowheader">Additional access</td> 
+   <td> <p>You must meet at least one of the following conditions to approve time on a project:</p> 
+    <ul> 
+     <li>You are the Project Owner with the access and permissions specified above. In this case, you can do the following if one of the conditions below exists: 
+      <ul>
+       <li>If you have Manage permissions on the project, you can approve or reject hours logged on the project by any other user.</li>
+       <li> If you have Contribute or View access to the project you will be able to approve or reject only the hours logged by you or any other user that reports you.<br></li>
+      </ul></li> 
+     <li>You have a Plan license with administrative access to Timesheets &amp; Hours. In this case:
+      <ul>
+       <li>You can approve or reject any hours on the projects you have at least permissions to View. </li>
+      </ul></li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 專案需要時間核准
 

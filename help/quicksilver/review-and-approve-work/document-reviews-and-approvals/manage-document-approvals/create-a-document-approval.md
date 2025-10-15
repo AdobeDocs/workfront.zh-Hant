@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront中請求其他使用者的檔案核准�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
-source-git-commit: 3fc3b1421882261a58a1984c9df410896d596062
+source-git-commit: b615236d2666ebcc6db0d1f796fb0baaf362e0f2
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
@@ -25,33 +25,34 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td>  
-   <td> <p>評論或以上</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td>  
+   <td>
+   <p>投稿人或以上</p>
+   <p>評論或以上</p>
+   <p>如果您使用Frame.io整合，您必須有Standard授權才能建立核准工作流程。</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>檢視專案、任務、問題、範本、投資組合、計畫、報告、儀表板和行事曆、檔案的或更高存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>檢視專案、任務、問題、範本、投資組合、計畫、報告、儀表板和行事曆、檔案的或更高存取權</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>管理與請求存取或核准相關聯的物件存取權 </p> <p>如需請求其他存取權的資訊，請參閱<a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>管理與請求存取或核准相關聯的物件存取權 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -82,7 +83,7 @@ ht-degree: 0%
 
 1. 在版本下拉式清單中選取您要建立核准的檔案版本。 預設會選取最新版本。
 
-1. 向下捲動至[檔案摘要]窗格中的&#x200B;**核准**&#x200B;區段，然後按一下[新增]。**&#x200B;**
+1. 向下捲動至[檔案摘要]窗格中的&#x200B;**核准**&#x200B;區段，然後按一下[新增]。****
 
 ![在檔案摘要中新增核准者](assets/doc-summary-add-approvers.png)
 

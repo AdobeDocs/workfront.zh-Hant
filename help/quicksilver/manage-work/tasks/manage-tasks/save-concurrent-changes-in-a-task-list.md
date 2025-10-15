@@ -1,12 +1,12 @@
 ---
 product-area: projects
 navigation-topic: manage-tasks
-title: 在作業清單中儲存並行變更的概要
+title: 在作業清單中儲存並行變更概要
 description: 當您編輯清單中的任務時，可以使用單獨的儲存設定來指示您是否希望在編輯清單中的任務時自動手動儲存變更。
 author: Alina
 feature: Work Management
 exl-id: dff52425-4711-40a8-8f40-205d75c506ef
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 0%

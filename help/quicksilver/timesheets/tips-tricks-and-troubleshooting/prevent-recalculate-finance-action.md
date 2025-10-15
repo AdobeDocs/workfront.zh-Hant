@@ -4,10 +4,10 @@ product-area: timesheets
 navigation-topic: tips-tricks-and-troubleshooting-timesheets
 title: 避免重新計算財務動作在費率變更時影響歷史時數
 description: 您需要更新使用者或工作角色的每小時成本（由於加薪或其他情況），但您不希望此變更影響先前登入專案的時數，或僅希望其影響一部分歷史時數。
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 29d3124b-cf7a-4a47-95c4-cd5379489810
-source-git-commit: 7786d899841cb82cc4d3832fb083c6e2bda2e197
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 0%

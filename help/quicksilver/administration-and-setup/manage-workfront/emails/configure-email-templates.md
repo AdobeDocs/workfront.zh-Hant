@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '808'
 ht-degree: 3%
 
 ---
@@ -32,21 +32,18 @@ ht-degree: 3%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td><p>新增：標準</p>
-   或
-   <p>目前：計畫</p>
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td><p>標準</p>
+   <p>規劃</p>
    </td> 
   </tr> 
   <tr> 
@@ -56,7 +53,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-*如需存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -102,22 +99,22 @@ ht-degree: 3%
      </tr> 
      <tr> 
       <td role="rowheader">內文 </td> 
-      <td> <p>新增電子郵件訊息內容的文字。</p> <p>您可以對電子郵件內容使用HTML格式，如本文中<a href="#add-html-formatting-to-an-email-template" class="MCXref xref">新增HTML格式至電子郵件範本</a>一節所述。</p> </td> 
+      <td> <p>新增電子郵件訊息內容的文字。</p> <p>您可以對電子郵件內容使用HTML格式，如本文中<a href="#add-html-formatting-to-an-email-template" class="MCXref xref">將HTML格式新增至電子郵件範本</a>一節所述。</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
 1. 按一下「**儲存**」。
 
-## 新增HTML格式至電子郵件範本 {#add-html-formatting-to-an-email-template}
+## 將HTML格式新增至電子郵件範本 {#add-html-formatting-to-an-email-template}
 
 您可以將HTML標籤新增至電子郵件範本，以產生自訂通知。\
 開始建立電子郵件範本，如[建立新的電子郵件範本](#create-a-new-email-template)中所述。
 
-HTML格式設定可豐富您的電子郵件範本，如下列章節所示。
+HTML格式化可豐富您的電子郵件範本，如下列小節所示。
 
 * [連結至Workfront物件](#link-to-workfront-objects)
-* [連結到具有HTML](#link-to-custom-fields-with-html)的自訂欄位
+* [使用HTML連結至自訂欄位](#link-to-custom-fields-with-html)
 * [HTML電子郵件範例](#html-email-examples)
 
 ### 連結至Workfront物件 {#link-to-workfront-objects}
@@ -154,7 +151,7 @@ HTML格式設定可豐富您的電子郵件範本，如下列章節所示。
 
 `heading`值可以是物件的名稱，如同您想要其顯示在電子郵件內文中的名稱。
 
-### 具有HTML的自訂欄位連結 {#link-to-custom-fields-with-html}
+### 使用HTML連結至自訂欄位 {#link-to-custom-fields-with-html}
 
 您可以使用`$$`萬用字元來指示電子郵件產生器從與物件關聯的資料庫中尋找值，以包含使用者連結和自訂欄位。 它們必須出現在資料庫屬性參考的兩側。
 

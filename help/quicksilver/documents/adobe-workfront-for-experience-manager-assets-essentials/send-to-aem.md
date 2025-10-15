@@ -6,9 +6,9 @@ description: 您可以從Workfront傳送檔案至Experience Manager Assets或Ass
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 7942e77b-9466-4dff-9737-97b17647ac48
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '868'
 ht-degree: 0%
 
 ---
@@ -31,37 +31,40 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具備下列存取權才能完成本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://business.adobe.com/tw/products/workfront/pricing.html" target="_blank">Adobe Workfront計畫</a>*</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p> 任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">舊版授權總覽</a>*</td> 
-   <td> <p>要求或更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> 
+   <p>投稿人或以上</p> 
+   <p>要求或更高版本</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">產品</td> 
-   <td>您必須擁有Experience Manager as a Cloud Service或Assets Essentials，並且您必須在Admin Console中作為使用者新增到產品中。
-</td> 
+   <td role="rowheader">其他產品</td> 
+   <td>您必須擁有Experience Manager as a Cloud Service或Assets Essentials，並且您必須在Admin Console中作為使用者新增到產品中。</td> 
   </tr> 
+   <tr> 
+    <td role="rowheader">Experience Manager許可權</td> 
+    <td>您必須擁有資料夾的寫入許可權。</td> 
+   </tr>
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯檔案的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>編輯檔案的存取權</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>檢視檔案的存取許可權或以上許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>檢視存取許可權或更高</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -88,7 +91,7 @@ ht-degree: 0%
    ![傳送至](assets/copy-of-send-to-in-toolbar-350x149.png)
 
 1. 選擇要將資產移至何處，然後按一下&#x200B;**選取資料夾**。
-1. 當您找到想要的目的地，請按一下[儲存]。**&#x200B;**
+1. 當您找到想要的目的地，請按一下[儲存]。****
 
 ## 傳送新版本
 

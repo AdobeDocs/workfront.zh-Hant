@@ -7,9 +7,9 @@ description: 預計完成日期是即時計算的指標，指出專案、任務�
 author: Alina
 feature: Work Management
 exl-id: dde400e6-189f-4431-8f2f-7142ce424826
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '860'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視本文中功能的存取需求。 
 
 
 <table style="table-layout:auto"> 
@@ -32,23 +32,21 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
    <td> 
-   <p>新增： 
    <ul><li><p>投稿人或以上人員可檢視報告中的預計完成日期</p></li> <li><p>建立報告的標準授權</p></li> </ul>
-
-<p>目前： 
+   或
    <ul><li><p>複查或更高以檢視報告中的預計完成日期</p></li> 
    <li><p>建立報告的計畫授權</p> </li></ul>
       </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級</td> 
-   <td> <p>檢視或更高專案存取權</p> <p>您必須擁有報告、儀表板、行事曆的編輯存取權，才能建立報告</p> <p>您必須擁有「篩選器」、「檢視」、「群組」的「編輯」存取權，才能建立報告或修改清單檢視</p>  </td> 
+   <td> <p>檢視或更高專案存取權</p> <p>編輯報告、儀表板、行事曆的存取權以建立報告</p> <p>編輯對篩選器、檢視、群組的存取權以建立報告或修改清單檢視</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
@@ -57,7 +55,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*如需此表格中資訊的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

@@ -7,9 +7,9 @@ author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 sexl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
 exl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
-source-git-commit: 06e42fa713bc9b0c1e308feb2b84ca62dafa416c
+source-git-commit: 3d12c144552474439b247739b47de9454a2233f2
 workflow-type: tm+mt
-source-wordcount: '1891'
+source-wordcount: '1822'
 ht-degree: 0%
 
 ---
@@ -40,32 +40,32 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>工作或更高</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> 
+   <p>標準</p>
+   <p>工作或更高</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級*</td> 
-   <td> <p>編輯專案、任務、問題或範本的存取權或以上許可權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何變更存取層級的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td role="rowheader">存取層級</td> 
+   <td> <p>編輯專案、任務、問題或範本的存取權或以上許可權</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>管理專案、任務、問題或範本的許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>管理專案、任務、問題或範本的許可權</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -123,7 +123,7 @@ ht-degree: 0%
 1. 移至您要關聯核准流程的工作專案。
 1. 按一下左側面板中的&#x200B;**核准**。
 
-   任務![&#128279;](assets/approvals-section-on-task-highlighted-nwe-350x246.png)上的核准區段
+   任務![上的](assets/approvals-section-on-task-highlighted-nwe-350x246.png)核准區段
 
 1. ![使用現有或建立單一使用核准](assets/use-existing-or-create-single-use-approvals-menus-on-pti-classic-350x50.png)
 
@@ -170,7 +170,7 @@ ht-degree: 0%
 
 1. 新增全域核准程式後，請按一下核准頁面右上角的&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)。 此動作會將全域或群組層級核准流程轉換為單次使用核准流程。
 1. 對現有核准流程進行任何變更。 如需詳細資訊，請參閱本文章的[將單一使用核准程式與專案、任務、問題、範本或範本任務建立關聯](#associate-a-single-use-approval-process-with-a-project-task-issue-template-or-template-task)。
-1. 按一下[儲存]&#x200B;**&#x200B;**，然後再次按一下[儲存]&#x200B;**&#x200B;**，確認您要將全域核准程式轉換為僅供此物件使用的一次性核准程式。
+1. 按一下[儲存]****，然後再次按一下[儲存]****，確認您要將全域核准程式轉換為僅供此物件使用的一次性核准程式。
 
 ## 將單一使用核准流程與專案、任務、問題、範本或範本任務建立關聯 {#associate-a-single-use-approval-process-with-a-project-task-issue-template-or-template-task}
 
@@ -191,7 +191,7 @@ ht-degree: 0%
 1. 前往您要與核准程式產生關聯的專案、任務、問題、範本或範本任務。
 1. 按一下左側面板中的&#x200B;**核准**。
 
-   任務![&#128279;](assets/approvals-section-on-task-highlighted-nwe-350x246.png)上的核准區段
+   任務![上的](assets/approvals-section-on-task-highlighted-nwe-350x246.png)核准區段
 
 1. 按一下&#x200B;**建立單一使用**。
 
@@ -228,7 +228,7 @@ ht-degree: 0%
 1. 前往您要移除先前新增之核准程式的專案、任務、問題、範本或範本任務。
 1. 按一下左側面板中的&#x200B;**核准**。
 
-   任務![&#128279;](assets/approvals-section-on-task-highlighted-nwe-350x246.png)上的核准區段
+   任務![上的](assets/approvals-section-on-task-highlighted-nwe-350x246.png)核准區段
 
 1. 根據與專案關聯的核准型別，按一下「核准」區段右上角的下列圖示之一：
 

@@ -1,12 +1,12 @@
 ---
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: 協調專案與方案之間資源配置的概要
+title: 協調專案與方案之間的資源配置概要
 description: 協調專案與方案之間資源配置的概要
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 82cd9641-1213-436c-935a-2f04a0425e9c
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 0%
@@ -44,7 +44,7 @@ ht-degree: 0%
 
   如需詳細資訊，請參閱[將專案匯入 [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md)中的計畫。
 
-* Publish方案至專案
+* 將方案發佈至專案
 
   如需詳細資訊，請參閱[在 [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)中發佈行動方案以更新或建立專案。
 
@@ -64,14 +64,14 @@ ht-degree: 0%
 
 * 您可以在專案的下列區域中，檢視連結專案上的方案工作角色分配：
 
-   * 專案上[!UICONTROL 專案詳細資料]區域的[!DNL Scenario Planner]區段。 如需詳細資訊，請參閱下列文章：
+   * 專案上[!DNL Scenario Planner]專案詳細資料[!UICONTROL 區域的]區段。 如需詳細資訊，請參閱下列文章：
 
       * [在 [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)中發佈行動方案以更新或建立專案
       * [管理專案[!UICONTROL 概觀]區域中的資訊](../manage-work/projects/manage-projects/understand-project-overview-area.md)
 
      >[!TIP]
      >
-     >您無法在[!UICONTROL 專案詳細資料]的[!DNL Scenario Planner]區段中，從專案與行動方案並排看到工作角色資訊。
+     >您無法在[!DNL Scenario Planner]專案詳細資料[!UICONTROL 的]區段中，從專案與行動方案並排看到工作角色資訊。
 
    * [!UICONTROL 角色配置]面板位於下列區域：
 

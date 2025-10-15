@@ -4,25 +4,25 @@ product-area: projects
 navigation-topic: use-workfront-view
 title: 篩選 [!DNL Adobe Workfront] 檢視中的專案清單
 feature: Get Started with Workfront
-description: 依預設， [!DNL Adobe Workfront] 檢視會顯示 [!DNL Workfront]中的[!UICONTROL 所有專案]清單，因此無論專案處於何種狀態，您有權檢視的所有專案都會列出來。
+description: 依預設， [!DNL Adobe Workfront] 檢視會顯示[!UICONTROL 中的]所有專案 [!DNL Workfront]清單，因此無論專案處於何種狀態，您有權檢視的所有專案都會列出來。
 author: Nolan
 exl-id: 78efce1a-f144-4e47-bd7e-c0347e016bea
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: f9b9381b4b38796dbf7dfd9eddffc50fb9e5c24c
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 0%
+source-wordcount: '324'
+ht-degree: 1%
 
 ---
 
 # 篩選[!DNL Adobe Workfront View]中的專案清單
 
-根據預設，[!DNL Adobe Workfront View]會在[!DNL Workfront]中顯示[!UICONTROL 所有專案]清單，因此無論專案處於何種狀態，系統都會列出您有權檢視的所有專案。
+根據預設，[!DNL Adobe Workfront View]會在[!UICONTROL 中顯示]所有專案[!DNL Workfront]清單，因此無論專案處於何種狀態，系統都會列出您有權檢視的所有專案。
 
 您可以篩選[!DNL Workfront View]中的專案清單，以僅顯示與您相關的專案。 套用篩選後，專案清單會維持篩選狀態，直到您下次登入或變更為止。
 
 ## 存取需求
 
-您必須在[!DNL Workfront]中擁有下列存取權才能執行本文中的步驟：
++++ 展開以檢視本文中功能的存取需求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,17 +31,21 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront]計畫*</strong>/td&gt; 
+   <td role="rowheader"><strong>Adobe Workfront套件</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>[!UICONTROL Review]或更高版本</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront授權</strong></td> 
+   <td> 
+   <p>投稿人或以上</p>
+   <p>評論或以上</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 篩選[!UICONTROL Workfront檢視]中的[!UICONTROL 專案]清單
 
@@ -52,14 +56,14 @@ ht-degree: 0%
 
 1. 從下列篩選條件中選取：
 
-   * [!UICONTROL Portfolio]：選取您要顯示其專案的特定投資組合。
+   * [!UICONTROL 投資組合]：選取您要顯示其專案的特定投資組合。
    * [!UICONTROL 條件]：選取此選項可僅顯示具有特定[!UICONTROL 條件]的專案。
    * [!UICONTROL 進度]：選取此選項可僅顯示特定[!UICONTROL 進度狀態]的專案。
    * 狀態：選取此選項可僅顯示特定[!UICONTROL 狀態]的專案。
    * [!UICONTROL 計劃開始]：選取此選項可只顯示下列時間範圍內[!UICONTROL 計劃開始日期]的專案：
 
-      * 過去3個月
-      * 過去2個月
+      * 過去 3 個月
+      * 過去 2 個月
       * 上個月
       * 過去兩週
    * [!UICONTROL 計畫完成]：選取此選項可在下列即將到來的時間範圍內，僅顯示具有[!UICONTROL 計畫完成日期]的專案：

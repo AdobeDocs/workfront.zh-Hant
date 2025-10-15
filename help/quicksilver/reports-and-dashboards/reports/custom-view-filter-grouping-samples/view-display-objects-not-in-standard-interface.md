@@ -7,9 +7,9 @@ description: 您可以在檢視中顯示未包含在標準模式介面中的物�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c0138730-494b-4443-865a-44f8f00d5342
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -26,32 +26,25 @@ ht-degree: 0%
 
   您可以使用文字模式將`fieldnameID`取代為`fieldname:name`，以在檢視中包含欄或欄位名稱而非ID。
 
-  例如，在標準模式介面中，**Portfolio擁有者識別碼**&#x200B;欄位可用於專案檢視，但&#x200B;**Portfolio擁有者名稱**&#x200B;欄位則無法使用。 您可以使用文字模式，在檢視的欄中顯示&#x200B;**Portfolio擁有者名稱**。
+  例如，在標準模式介面中，**Portfolio擁有者ID**&#x200B;欄位可用於專案檢視，但&#x200B;**Portfolio擁有者名稱**&#x200B;欄位則無法使用。 您可以使用文字模式，在檢視的欄中顯示&#x200B;**Portfolio擁有者名稱**。
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
-
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
    <td> 
-    <p>新增：</p>
-   <ul><li><p>修改篩選器的貢獻者 </p></li>
-   <li><p>用於修改報告的標準</p></li> </ul>
-
-<p>目前：</p>
-   <ul><li><p>請求修改篩選器 </p></li>
-   <li><p>計畫修改報表</p></li> </ul></td> 
+   <p>修改篩選器的貢獻者或請求 </p>
+   <p>要修改報告的標準或計畫</p>
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -64,7 +57,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -73,7 +66,7 @@ ht-degree: 0%
 1. 前往專案清單。
 1. 從&#x200B;**檢視**&#x200B;下拉式功能表，按一下&#x200B;**新增檢視**。
 
-1. 按一下&#x200B;**新增欄**，然後在&#x200B;**顯示在此欄**&#x200B;欄位中開始輸入「Portfolio擁有者ID」，然後當它顯示在清單中時選取它。
+1. 按一下&#x200B;**新增欄**，然後在&#x200B;**顯示在此欄**&#x200B;欄位中開始輸入「Portfolio擁有者ID」，然後在其顯示在清單中時選取它。
 
 1. 按一下&#x200B;**切換到文字模式**，然後按一下&#x200B;**編輯文字模式**。
 1. 將`valuefield`行(`valuefield=portfolio:ownerID`)取代為下列行：
@@ -96,6 +89,6 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >若要使用文字模式以欄位`name`取代任何欄位`ID`，請一律以`valuefield`行中的`:name`取代`ID`。
+   >若要使用文字模式以欄位`ID`取代任何欄位`name`，請一律以`ID`行中的`:name`取代`valuefield`。
 
 1. 按一下&#x200B;**完成**，然後按一下&#x200B;**儲存檢視**。

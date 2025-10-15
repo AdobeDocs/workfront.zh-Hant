@@ -6,9 +6,9 @@ description: 如果您透過Workfront Fusion建立專案，並想在專案中加
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
 exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: 6a21465ab8c92888c83344f33574302c5cc446e8
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '877'
 ht-degree: 0%
 
 ---
@@ -26,16 +26,14 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具備下列條件：
-
 <table>
   <tr>
-    <td><strong>Adobe Workfront計畫*</strong></td>
-    <td>任何</td>
+    <td><strong>Adobe Workfront套件</strong></td>
+   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
   </tr>
   <tr>
-   <td><strong>Adobe Workfront授權*</strong></td>
-   <td>要求或更高版本</td>
+   <td><strong>Adobe Workfront授權</strong></td>
+   <td><p>投稿人或以上</p><p>要求或更高版本</p></td>
   </tr>
   <tr>
    <td><strong>產品</strong></td>
@@ -43,33 +41,24 @@ ht-degree: 0%
      <p><b>Adobe Experience Manager：</b></p>
      <ul>
        <li>
-         <p>您必須擁有Experience Manager Assetsas a Cloud Service或Assets Essentials，並且您必須在Admin Console中作為使用者新增到產品中。</p>
+         <p>您必須擁有Experience Manager Assets as a Cloud Service或Assets Essentials，並且您必須在Admin Console中作為使用者新增到產品中。</p>
        </li>
        <li>
         <p>您必須擁有Adobe Experience Manager存放庫的寫入許可權。</p>
        </li>
      </ul>
      <p><b>Workfront Fusion：</b></p>
-     <p>新增：</p>
      <ul>
        <li>
-         <p>選取或Prime Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</p>
-       </li>
-       <li> 
-         <p>Ultimate Workfront計畫：包含Workfront Fusion。</p>
+        <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
        </li>
      </ul>
-     <p>或</p>
-     <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
    </td>
   </tr>
   <tr>
-   <td><strong>存取層級設定*</strong>
+   <td><strong>存取層級設定</strong>
    </td>
-   <td>編輯檔案的存取權
-     <p>
-       <strong>注意： </strong>如果您還是沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<strong>建立或修改自訂存取層級</strong>。
-     </p>
+   <td><p>編輯檔案的存取權</p>
    </td>
   </tr>
 </table>
@@ -80,7 +69,7 @@ ht-degree: 0%
 
 開始之前，
 
-* 您的Workfront管理員必須在Adobe Experience Manager整合中設定工作流程。 如需詳細資訊，請參閱[設定Experience Manager Assetsas a Cloud Service整合](../../administration-and-setup/configure-integrations/configure-aacs-integration.md#set-up-workflows-optional)。
+* 您的Workfront管理員必須在Adobe Experience Manager整合中設定工作流程。 如需詳細資訊，請參閱[設定Experience Manager Assets as a Cloud Service整合](../../administration-and-setup/configure-integrations/configure-aacs-integration.md#set-up-workflows-optional)。
 * 您必須使用Adobe Experience Manager整合連結資料夾工作流程來設定專案範本。
 * 您必須在Workfront中建立OAuth應用程式，才能設定此模組的連線。
 
@@ -93,7 +82,7 @@ ht-degree: 0%
 1. 將&#x200B;**Workfront** > **其他動作**&#x200B;模組新增至您的情境。
 1. 在&#x200B;**連線**&#x200B;欄位中，選取連線至此模組將使用之帳戶的Workfront連線。
 
-   如需建立連線的說明，請參閱Workfront模組一文中的[連線 [!DNL Workfront] 至 [!DNL Workfront Fusion]](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion)。
+   如需建立連線的說明，請參閱Workfront模組一文中的[連線 [!DNL Workfront] 至 [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion)。
 
    如需建立使用者端ID和使用者端密碼的指示，您必須建立連線，請參閱本文中的[建立OAuth應用程式](#create-an-oauth-application)。
 
@@ -157,7 +146,7 @@ ht-degree: 0%
 
    ![尋找資料夾識別碼2](assets/finding-folder-id-2.png)
 
-   您會在&#x200B;**Workfront** > **其他動作** Fusion模組的&#x200B;**專案（進階集合）**&#x200B;欄位中輸入這些`aemNativeFolderTreeIDs`值。
+   您會在`aemNativeFolderTreeIDs`Workfront **>**&#x200B;其他動作&#x200B;**Fusion模組的**&#x200B;專案（進階集合）**欄位中輸入這些**&#x200B;值。
 
 ## 建立Oauth應用程式
 
@@ -175,4 +164,4 @@ ht-degree: 0%
 
 在Fusion中設定模組的連線時，您將使用此使用者端ID和使用者端密碼。
 
-如需建立連線的說明，請參閱Workfront模組一文中的[連線 [!DNL Workfront] 至 [!DNL Workfront Fusion]](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion)。
+如需建立連線的說明，請參閱Workfront模組一文中的[連線 [!DNL Workfront] 至 [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion)。

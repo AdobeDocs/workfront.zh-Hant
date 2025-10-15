@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 711812d9fd4bf48bb7612c0339cee2cdbe08ef10
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '1711'
 ht-degree: 0%
 
 ---
@@ -47,28 +47,26 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具備下列專案才能執行本文所述的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td> 
-   <td>任何</td> 
+   <td role="rowheader">Workfront套件</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td>新增：標準 <p>或</p><p>目前：計畫</p></td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td><p>標準</p> <p>規劃</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td>您必須是[!DNL Workfront]管理員。 </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td>您必須是Workfront管理員。 </td> 
   </tr> 
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -123,7 +121,7 @@ ht-degree: 0%
 
 ### 存取權和許可權
 
-使用者第一次從[!DNL SharePoint]新增檔案至[!DNL Workfront]時，系統會將他們導向至許可權要求的頁面，他們可以在其中授與許可權給其SharePoint整合。
+使用者第一次從[!DNL Workfront]新增檔案至[!DNL SharePoint]時，系統會將他們導向至許可權要求的頁面，他們可以在其中授與許可權給其SharePoint整合。
 
 >[!NOTE]
 >
@@ -142,7 +140,7 @@ ht-degree: 0%
 * 使用者第一次使用整合時就會授予此存取權，且可隨時撤銷。
 * 此整合要求的許可權為&#x200B;**委派**&#x200B;許可權。
 * [!DNL Workfront]要求執行整合中作業所需的最低存取許可權。
-* 檢視、編輯或刪除連結至[!DNL SharePoint]的[!DNL Adobe Workfront]檔案的存取權是根據使用者在[!DNL Workfront]中的存取權。 但是，任何導覽、下載或編輯[!DNL SharePoint]檔案或資料夾都需要存取[!DNL SharePoint]，而且這些動作的存取權是由[!DNL SharePoint]所控制。
+* 檢視、編輯或刪除連結至[!DNL Adobe Workfront]的[!DNL SharePoint]檔案的存取權是根據使用者在[!DNL Workfront]中的存取權。 但是，任何導覽、下載或編輯[!DNL SharePoint]檔案或資料夾都需要存取[!DNL SharePoint]，而且這些動作的存取權是由[!DNL SharePoint]所控制。
 * 使用者可以檢視來源為[!DNL SharePoint]的縮圖及預覽影像，而且可以在[!DNL SharePoint]中檢視檔案和資料夾名稱，而不需要登入[!DNL SharePoint]。
 * 只有當使用者離線且另一個使用者檢視連結至[!DNL Workfront]的資料夾內容時，才會使用使用者的存取權杖。 存取權杖用於探索資料夾中是否有任何檔案已新增、移除或編輯。
 
@@ -172,7 +170,7 @@ ht-degree: 0%
 
 1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![設定圖示](/help/_includes/assets/gear-icon-setup.png)。
 1. 在左側導覽中選取&#x200B;**[!UICONTROL 檔案]**，然後選取&#x200B;**[!UICONTROL 雲端提供者]**。
-1. 請確定&#x200B;**[!DNL SharePoint]**&#x200B;選項和&#x200B;**[!UICONTROL [!DNL SharePoint] (Graph API)]**&#x200B;選項皆已啟用。
+1. 請確定&#x200B;**[!DNL SharePoint]**&#x200B;選項和&#x200B;**[!UICONTROL [!DNL SharePoint](Graph API)]**&#x200B;選項皆已啟用。
 1. 按一下「**[!UICONTROL 儲存]**」。
 1. 在左側導覽中選取&#x200B;**[!UICONTROL 檔案]**，然後選取&#x200B;**[!UICONTROL [!DNL SharePoint]整合]**。
 1. 選取清單左側的核取記號，以取得所有現有的整合，然後選取&#x200B;**[!UICONTROL 停用]**。
@@ -185,7 +183,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> 因為[!DNL SharePoint]使用者端密碼是由[!DNL Microsoft]處理，所以使用者端密碼功能和程式可能會根據[!DNL Microsoft]對[!DNL SharePoint]所做的更新而變更。 請一律檢視[!DNL Microsoft]檔案，以瞭解[!DNL SharePoint]中程式和功能的最新資訊。
+> 因為[!DNL SharePoint]使用者端密碼是由[!DNL Microsoft]處理，所以使用者端密碼功能和程式可能會根據[!DNL SharePoint]對[!DNL Microsoft]所做的更新而變更。 請一律檢視[!DNL Microsoft]檔案，以瞭解[!DNL SharePoint]中程式和功能的最新資訊。
 
 <!--1. Go to the site that your [!DNL SharePoint] integration uses. This may be a site that you created when setting up the integrations, or it may be your organization's root site.
 
@@ -414,7 +412,7 @@ For instructions, see [Link an external document to [!DNL Workfront]](../../docu
 ## 疑難排解
 
 * [問題：使用者在使用 [!DNL SharePoint] 整合時遇到驗證錯誤。](#problem-users-experience-authentication-based-errors-when-using-the-sharepoint-integration)
-* [問題：嘗試瀏覽 [!DNL Workfront]中的 [!DNL SharePoint] 個檔案時，我看不到任何或所有網站集合。](#problem-when-attempting-to-browse-sharepoint-files-in-workfront-i-do-not-see-any-or-all-of-my-site-collections)
+* [問題：嘗試瀏覽 [!DNL SharePoint] 中的 [!DNL Workfront]個檔案時，我看不到任何或所有網站集合。](#problem-when-attempting-to-browse-sharepoint-files-in-workfront-i-do-not-see-any-or-all-of-my-site-collections)
 * [問題：我無法存取 [!DNL SharePoint]中先前連結的資料夾和檔案。](#problem-i-cannot-access-previously-linked-folders-and-documents-in-sharepoint)
 
 ### 問題：使用者在使用[!DNL SharePoint]整合時遇到驗證錯誤。 {#problem-users-experience-authentication-based-errors-when-using-the-sharepoint-integration}
@@ -430,19 +428,19 @@ For instructions, see [Link an external document to [!DNL Workfront]](../../docu
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 設計]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL設計]</p> </td> 
    <td> <p>可以檢視、新增、更新、刪除、核准和自訂</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 編輯]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL編輯]</p> </td> 
    <td> <p>可以新增、編輯和刪除清單；可以檢視、新增、更新和刪除清單專案和檔案</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Contribute]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Contribute]</p> </td> 
    <td> <p>可以檢視、新增、更新及刪除清單專案和檔案</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 檢視]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL檢視]</p> </td> 
    <td> <p>可以檢視頁面、清單專案和檔案（具有伺服器端檔案處理常式的檔案型別可以在瀏覽器中檢視，但不能下載）</p> </td> 
   </tr> 
  </tbody> 
@@ -464,7 +462,7 @@ This can be caused by a number of things, originating in either [!DNL Workfront]
 
 -->
 
-### 問題：嘗試瀏覽[!DNL Workfront]中的[!DNL SharePoint]個檔案時，我看不到任何或所有網站集合。 {#problem-when-attempting-to-browse-sharepoint-files-in-workfront-i-do-not-see-any-or-all-of-my-site-collections}
+### 問題：嘗試瀏覽[!DNL SharePoint]中的[!DNL Workfront]個檔案時，我看不到任何或所有網站集合。 {#problem-when-attempting-to-browse-sharepoint-files-in-workfront-i-do-not-see-any-or-all-of-my-site-collections}
 
 解決方案：
 

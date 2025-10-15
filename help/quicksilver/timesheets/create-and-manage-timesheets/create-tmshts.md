@@ -3,12 +3,12 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: 建立單次使用時程表
 description: 如果您想要非週期性時程表，可以手動建立單次使用的時程表。 達到時程表的結束日期而您需要更多時程表時，您必須建立新時程表。
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: b293dd50-a9b8-448b-afc1-8c7c7c79183b
-source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1062'
 ht-degree: 0%
 
 ---
@@ -38,29 +38,28 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具備下列專案才能執行本文所述的步驟：
-
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- <col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td> <p>任何</p> </td> 
+   <td>Adobe Workfront套件</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>新增：標準 </p>
-   <p>目前：計畫 </p> </td> 
+   <td>Adobe Workfront授權</td> 
+   <td>
+   <p>標準</p>
+   <p>規劃</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級</td> 
-   <td> <p>您必須擁有時程表的管理存取權。 </p>  </td> 
+   <td>存取層級設定</td> 
+   <td><p>對時程表的管理存取權</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱[Workfront檔案的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

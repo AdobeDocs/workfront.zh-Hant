@@ -6,9 +6,9 @@ description: 配置百分比代表指定資源計畫在一天內處理一項任�
 author: Lisa
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
-source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
+source-git-commit: d0be569333b0454e26f4d0de1078b0425cf81707
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '429'
 ht-degree: 1%
 
 ---
@@ -25,33 +25,33 @@ ht-degree: 1%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td>Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：標準</p> 
-   <p>目前：工作或以上</p> </td> 
+   <td>Adobe Workfront授權</td> 
+   <td> <p>標準</p>
+   <p>工作或更高</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
-   <td> <p>編輯任務的存取權</p> </td> 
+   <td>存取層級設定</td> 
+   <td>編輯任務的存取權</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件許可權</td> 
-   <td> <p>貢獻或更高的任務許可權</p> <p>編輯許可權以更新在編輯任務方塊中的分配百分比</p>  </td> 
-  </tr> 
- </tbody> 
+   <td>物件許可權</td>
+   <td><p>貢獻或更高的任務許可權</p>
+   <p>編輯許可權以更新在編輯任務方塊中的分配百分比</p></td>
+  </tr>
+ </tbody>
 </table>
 
-如需有關此表格的詳細資訊，請參閱[Workfront檔案的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

@@ -6,14 +6,14 @@ description: 您可以在Adobe Creative Cloud中接收來自 [!DNL Adobe Workfro
 author: Courtney,Becky
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: b07474c0-ba41-4382-8374-040f633a47ed
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
 
-# 檢視及管理來自[!DNL Adobe Creative Cloud]的[!DNL Adobe Workfront]通知
+# 檢視及管理來自[!DNL Adobe Workfront]的[!DNL Adobe Creative Cloud]通知
 
 您可以在Adobe Creative Cloud中接收來自[!DNL Adobe Workfront]的通知，內容有關您需要核准的專案、已給予您的指派，或您關聯專案的評論和變更。
 
@@ -27,8 +27,6 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -37,20 +35,22 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <!--<td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Pro] or higher</p> </td> 
+   <td> Any</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>[!UICONTROL Work] or [!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td> 
+   <p>Standard</p>
+   <p>Work or higher</p> </td> 
   </tr> -->
   <tr> 
-   <td role="rowheader">產品</td> 
-   <td>除了[!DNL Workfront]授權之外，您還必須有[!DNL Adobe Creative Cloud]授權。</td> 
+   <td role="rowheader">其他產品</td> 
+   <td>除了[!DNL Adobe Creative Cloud]授權之外，您還必須有[!DNL Workfront]授權。</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

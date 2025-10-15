@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 exl-id: a0e80c4d-29a8-4bf8-aa19-0c2d493236c6
 recommendations: noDisplay, noCatalog
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '878'
 ht-degree: 1%
 
 ---
@@ -28,36 +28,59 @@ ht-degree: 1%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>Adobe Workfront套件</p> </td> 
+   <td>任何</td> 
+  </tr> 
+  <tr> 
+   <td> <p>Adobe Workfront授權</p> </td> 
+   <td> <p>標準</p>
+   <p>規劃</p> 
+   </td> 
+  </tr> 
+    <td>存取層級設定</td> 
+   <td> <p>編輯專案的存取權，並具備建立和刪除專案的能力</p> </td> 
+  </tr> 
+    <td> <p>物件許可權</p> </td> 
+   <td> <p>編輯對專案、任務、問題的存取權，並具備刪除專案、任務和問題的能力</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront計畫</p> </td> 
-   <td>任何</td> 
+   <td> <p>Adobe Workfront plan</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
-   <td> <p>Adobe Workfront授權*</p> </td> 
-   <td> <p>新授權： Standard </p>
-   <p>目前授權：計畫 </p> 
+   <td> <p>Adobe Workfront license*</p> </td> 
+   <td> <p>New license: Standard </p>
+   <p>Current license: Plan </p> 
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>存取層級設定</td> 
-   <td> <p>編輯專案的存取權，並具備建立和刪除專案的能力</p> </td> 
+   <td>Access level configuration</td> 
+   <td> <p>Edit access to Projects with ability to Create and Delete projects</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>物件許可權 </p> </td> 
-   <td> <p>編輯對專案、任務、問題的存取權，並具備刪除專案、任務和問題的能力</p> </td> 
+   <td> <p>Object permissions </p> </td> 
+   <td> <p>Edit access to Projects, Tasks, Issues with ability to Delete projects, tasks, and issues</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
-
-+++
+</table>-->
 
 ## 瞭解刪除專案的程式
 
@@ -98,7 +121,7 @@ ht-degree: 1%
    * 基準線
    * 業務案例資訊
    * 佇列詳細資訊
-   * 收費率
+   * 計費費率
    * 付費記錄
 
      您無法刪除記帳記錄狀態為「已記帳」的專案。 如需詳細資訊，請參閱[建立付費記錄](../../projects/project-finances/create-billing-records.md)。

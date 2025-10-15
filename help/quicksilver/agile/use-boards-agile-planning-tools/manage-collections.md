@@ -7,9 +7,9 @@ description: 工作流程是一組可設定的展示板和卡片，用於共同�
 author: Lisa
 feature: Agile
 exl-id: c46c42e8-e14d-414d-b883-c4d885338e42
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '934'
 ht-degree: 1%
 
 ---
@@ -30,22 +30,19 @@ ht-degree: 1%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
    <td> 
-   <p>新增：[!UICONTROL Contributor]或以上</p> 
-   <p>或</p>
-   <p>目前： [!UICONTROL Request]或以上</p>
+   <p>投稿人或以上</p> 
+   <p>要求或更高版本</p>
    </td> 
   </tr> 
  </tbody> 
@@ -59,15 +56,15 @@ ht-degree: 1%
 
 {{step1-to-boards}}
 
-1. 按一下儀表板的[!UICONTROL 工作資料流]區域中的&#x200B;**[!UICONTROL 新增工作資料流]**。
+1. 按一下儀表板的&#x200B;**[!UICONTROL 工作資料流]**&#x200B;區域中的[!UICONTROL 新增工作資料流]。
 1. 輸入名稱以取代&#x200B;**[!UICONTROL 未命名的工作流]**，然後按Enter鍵。
 
    您可以將面板新增至工作資料流，或按一下「[!UICONTROL **所有面板**]」以返回儀表板。
 
 ## 在工作串流中建立新展示板
 
-1. 如果您不在工作流程中，請按一下儀表板上的[檢視工作流程] [!UICONTROL **&#x200B;**]&#x200B;以開啟現有的工作流程。
-1. 在工作流的[!UICONTROL 面板]索引標籤上按一下&#x200B;**[!UICONTROL 新增面板]**。
+1. 如果您不在工作流程中，請按一下儀表板上的[檢視工作流程] [!UICONTROL ****]&#x200B;以開啟現有的工作流程。
+1. 在工作流的&#x200B;**[!UICONTROL 面板]**&#x200B;索引標籤上按一下[!UICONTROL 新增面板]。
 1. 選取展示板的範本。
 
 | 範本 | 說明 |
@@ -81,7 +78,7 @@ ht-degree: 1%
 
 ## 篩選工作流程上的展示板清單
 
-將預設值以外的篩選器套用至展示板清單時，篩選器圖示![已套用篩選器](assets/boards-filterapplied-30x30.png)上會顯示指示器。 按一下[全部清除][!UICONTROL **以移除所有篩選器，然後按一下[隱藏篩選器]**]&#x200B;以關閉篩選器面板。**&#x200B;**
+將預設值以外的篩選器套用至展示板清單時，篩選器圖示![已套用篩選器](assets/boards-filterapplied-30x30.png)上會顯示指示器。 按一下[全部清除][!UICONTROL **以移除所有篩選器，然後按一下[隱藏篩選器]**]&#x200B;以關閉篩選器面板。[!UICONTROL ****]
 
 {{step1-to-boards}}
 

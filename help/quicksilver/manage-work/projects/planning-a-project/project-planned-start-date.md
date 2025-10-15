@@ -3,14 +3,14 @@ content-type: overview
 product-area: projects
 navigation-topic: plan-a-project
 title: 專案計劃開始日期總覽
-description: 專案計劃開始日期總覽
+description: 專案的計劃開始日期和計畫完成日期取決於專案上任務的日期。 本文會說明專案的計劃開始日期。
 author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a1223d81-3fb8-42d1-9a7d-c58d1f0fcd36
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
@@ -97,7 +97,7 @@ ht-degree: 0%
 
 您可以指定任務的計劃開始日期，也可以讓Workfront根據特定條件決定是否要計算任務開始日期。
 
-如需任務計劃開始日期的相關資訊，請參閱任務計劃開始日期[&#128279;](../../../manage-work/tasks/task-information/task-planned-start-date.md)的總覽。
+如需任務計劃開始日期的相關資訊，請參閱任務計劃開始日期[的](../../../manage-work/tasks/task-information/task-planned-start-date.md)總覽。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

@@ -3,10 +3,10 @@ content-type: overview
 navigation-topic: business-case-and-scorecards
 title: 業務案例財務欄位概要
 description: 「業務案例」子頁標包含專案的財務欄位。 為了讓某些財務欄位有值，必須完成業務案例的對應區域。
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: d420fc3e-e98d-47a0-a456-b2df17d72f34
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: fa0b4322b9f7c1d506cf194645c7ae50ad8c0f0b
 workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 2%

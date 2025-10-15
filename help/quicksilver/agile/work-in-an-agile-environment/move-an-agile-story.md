@@ -6,9 +6,9 @@ description: 您可以將敏捷內文移至不同反複專案（適用於Scrum�
 author: Lisa
 feature: Agile
 exl-id: 0058792e-66b8-4e54-8ce3-50171adff875
-source-git-commit: 68aafe63ff8b60a542ed9dd0900b3742c26a1e4f
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,6 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -30,18 +28,17 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>新增：[!UICONTROL Standard]</p> 
-   或
-   <p>目前： [!UICONTROL Work]或更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>標準</p> 
+   <p>工作或更高</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td>[!UICONTROL Manage]內文存取權</td> 
+   <td>管理劇本的存取權</td> 
   </tr> 
  </tbody> 
 </table>
@@ -84,6 +81,6 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >工作專案[!UICONTROL 計劃開始日期]和[!UICONTROL 計畫完成日期]受[!UICONTROL 編輯團隊]頁面上的設定影響。 如需詳細資訊，請參閱[設定Scrum](../../agile/get-started-with-agile-in-workfront/configure-scrum.md)一文中的[[[!UICONTROL 設定將工作專案新增至疊代]](../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration)時如何套用日期]一節。
+   >工作專案[!UICONTROL 計劃開始日期]和[!UICONTROL 計畫完成日期]受[!UICONTROL 編輯團隊]頁面上的設定影響。 如需詳細資訊，請參閱[[!UICONTROL 設定Scrum]一文中的](../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration)設定將工作專案新增至疊代[時如何套用日期](../../agile/get-started-with-agile-in-workfront/configure-scrum.md)一節。
 
 1. 按一下&#x200B;**[!UICONTROL 移動]**。

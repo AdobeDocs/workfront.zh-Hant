@@ -7,10 +7,10 @@ description: 在Google Workspace中，當您開啟Adobe [!DNL Workfront] 已傳�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: d5ca31d8-3667-4405-a523-3dc248a94746
-source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
+source-git-commit: 1e5b3c7d087c34870ccb0f4e65021358f08b81bf
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 0%
+source-wordcount: '572'
+ht-degree: 1%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 0%
 >
 >為了滿足貴組織與Google Workspace的整合需求，我們建議您使用Workfront自動化和整合。
 >
->如需Workfront自動化與整合的概觀，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+>如需Workfront自動化與整合的概觀，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 >
->如需Google Workspace之Workfront自動化與整合模組的特定功能相關資訊，請參閱[Gmail模組](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)和[Google行事曆模組](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)。
+>如需Google Workspace之Workfront自動化與整合模組的特定功能相關資訊，請參閱[Gmail模組](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)和[Google行事曆模組](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)。
 
 在[!DNL Google Workspace]中，當您開啟已傳送的通知電子郵件[!DNL Adobe Workfront]時，您可以檢視相關工作專案詳細資料並回應，而不需離開[!UICONTROL 收件匣]。 如果有可用動作（例如核准請求），您可以直接從[!DNL Workfront for Google Workspace]執行這些動作。
 
@@ -38,24 +38,26 @@ ht-degree: 0%
 
 ## 存取需求
 
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視本文中功能的存取需求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[!UICONTROL Work]， [!UICONTROL 計畫]</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>標準</p><p>工作或更高</p>
   </tr> 
-  </tbody> 
+ </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先決條件
 
@@ -86,23 +88,23 @@ ht-degree: 0%
     <tbody> 
      <tr> 
       <td>任務或問題</td> 
-      <td><strong>[!UICONTROL 核准]</strong>它，<strong>[!UICONTROL 拒絕]</strong>它，<strong>[!UICONTROL 授予]</strong>存取它，<strong>[!UICONTROL 忽略]</strong>存取它的要求，<strong>[!UICONTROL 處理它]</strong>，或按一下選項以表示您有<strong>[!UICONTROL 完成]</strong></td> 
+      <td><strong>[！UICONTROL核准]</strong>它，<strong>[！UICONTROL拒絕]</strong>它，<strong>[！UICONTROL授予]</strong>存取它，<strong>[！UICONTROL忽略]</strong>存取它的要求，<strong>[！UICONTROL處理它]</strong>，或按一下選項以表示您有<strong>[！UICONTROL完成]</strong></td> 
      </tr> 
      <tr> 
       <td>專案</td> 
-      <td><strong>[!UICONTROL 核准]</strong>它，<strong>[!UICONTROL 拒絕]</strong>它，<strong>[!UICONTROL 授予]</strong>存取它或<strong>[!UICONTROL 忽略]</strong>存取它的要求</td> 
+      <td><strong>[！UICONTROL核准]</strong>它，<strong>[！UICONTROL拒絕]</strong>它，<strong>[！UICONTROL授予]</strong>存取它或<strong>[！UICONTROL忽略]</strong>存取它的要求</td> 
      </tr> 
      <tr> 
       <td>文件</td> 
-      <td><strong>[!UICONTROL 核准]</strong>它，<strong>[!UICONTROL 拒絕]</strong>它，<strong>[!UICONTROL 授予]</strong>存取它或<strong>[!UICONTROL 忽略]</strong>存取它的要求</td> 
+      <td><strong>[！UICONTROL核准]</strong>它，<strong>[！UICONTROL拒絕]</strong>它，<strong>[！UICONTROL授予]</strong>存取它或<strong>[！UICONTROL忽略]</strong>存取它的要求</td> 
      </tr> 
      <tr> 
       <td>更新 </td> 
-      <td> <p>檢視專案更新完整清單的任何部分，讓您的內容需要<strong>[!UICONTROL Post]</strong>新的更新或<strong>[!UICONTROL 回覆]</strong>。 您可以按一下<strong>[!UICONTROL Notify]</strong>，提醒特定使用者您的回覆。 </p> <p>如需詳細資訊，請參閱<a href="../../workfront-integrations-and-apps/workfront-for-g-suite/reply-to-wf-update-notification-from-gsuite.md" class="MCXref xref">回覆[!DNL Adobe Workfront]的[!DNL Google Workspace]</a>更新通知。</p> </td> 
+      <td> <p>檢視專案更新完整清單的任何部分，讓您的內容需要<strong>[！UICONTROL Post]</strong>新的更新或<strong>[！UICONTROL回覆]</strong>。 您可以按一下<strong>[！UICONTROL Notify]</strong>，提醒特定使用者您的回覆。 </p> <p>如需詳細資訊，請參閱<a href="../../workfront-integrations-and-apps/workfront-for-g-suite/reply-to-wf-update-notification-from-gsuite.md" class="MCXref xref">回覆[!DNL Adobe Workfront]的[!DNL Google Workspace]</a>更新通知。</p> </td> 
      </tr> 
      <tr> 
       <td>核准請求</td> 
-      <td><strong>[!UICONTROL 核准]</strong>或<strong>[!UICONTROL 拒絕]</strong>它（您可以按一下其他選項來改變您的想法）、下載、檢視其擁有者或檢視其參考號碼</td> 
+      <td><strong>[！UICONTROL核准]</strong>或<strong>[！UICONTROL拒絕]</strong>它（您可以按一下其他選項來改變您的想法）、下載、檢視其擁有者或檢視其參考號碼</td> 
      </tr> 
      <tr> 
       <td>專案狀態的變更</td> 

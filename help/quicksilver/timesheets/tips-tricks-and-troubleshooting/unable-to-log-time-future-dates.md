@@ -4,13 +4,13 @@ product-area: timesheets
 navigation-topic: tips-tricks-and-troubleshooting-timesheets
 title: 無法記錄未來日期的時間
 description: 您無法在專案、任務或問題中記錄未來日期的時數，因為這些欄位已停用。
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 6108fad2-f0a2-4989-8645-69a16820032b
-source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 1%
+source-wordcount: '135'
+ht-degree: 2%
 
 ---
 
@@ -30,11 +30,11 @@ ht-degree: 1%
 
 作為系統管理員，執行以下操作；
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 展開&#x200B;**時程表和時數**，然後按一下&#x200B;**偏好設定**。
 
-1. 在&#x200B;**一般偏好設定**&#x200B;區段中，選取未來日期的&#x200B;**記錄時數**。
+1. 在&#x200B;**一般偏好設定**&#x200B;區段中，選取&#x200B;**記錄未來日期的時數**。
 
 1. 按一下「**儲存**」。
 

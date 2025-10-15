@@ -6,35 +6,39 @@ description: 您可以在Adobe Workfront中新增Slack註解，以更新至特�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 18b22f2c-2490-41e2-afb9-0551f9579973
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 0%
+source-wordcount: '279'
+ht-degree: 1%
 
 ---
 
 # 將[!DNL Slack]註解張貼為更新
 
-您可以在[!DNL Adobe Workfront]中新增[!DNL Slack]註解以作為特定專案、任務或問題的更新。
+您可以在[!DNL Slack]中新增[!DNL Adobe Workfront]註解以作為特定專案、任務或問題的更新。
 
 ## 存取需求
 
-您必須具備下列條件：
++++ 展開以檢視本文中功能的存取需求。
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://business.adobe.com/tw/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront]計畫]</a>*</td> 
-   <td> <p>[!UICONTROL Pro]或更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>任何</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>任何</p>
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。\
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先決條件
 
@@ -43,7 +47,7 @@ ht-degree: 0%
 * 設定[!DNL Workfront for Slack]\
    如需設定[!DNL Workfront for Slack]的說明，請參閱[設定 [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)。
 
-## 在[!DNL Workfront]中將[!DNL Slack]註解張貼為更新
+## 在[!DNL Slack]中將[!DNL Workfront]註解張貼為更新
 
 1. 將滑鼠停留在您在[!DNL Slack]頻道中新增的註解上，然後按一下&#x200B;**[!UICONTROL 更多動作]** （三點）圖示。
 
@@ -62,6 +66,6 @@ ht-degree: 0%
 
 1. （選用）按一下您發佈更新的專案、任務或問題的名稱，以在[!DNL Workfront]中存取。
 
-   當評論產生於[!DNL Slack]時，評論會在[!DNL Workfront]中顯示訊息「[!UICONTROL 張貼自[!DNL Slack]]」。
+   當評論產生於[!DNL Slack]時，評論會在[!UICONTROL 中顯示訊息「[!DNL Slack]]張貼自[!DNL Workfront]」。
 
-   從Slack![&#128279;](assets/slack-update-posted-from-slack-350x112.png)張貼的更新
+   從Slack![張貼的](assets/slack-update-posted-from-slack-350x112.png)更新

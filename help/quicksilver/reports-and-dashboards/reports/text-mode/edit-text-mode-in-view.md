@@ -6,10 +6,10 @@ description: 您可以使用文字模式來編輯清單或報表中的檢視，�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
 source-wordcount: '461'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -23,28 +23,20 @@ ht-degree: 2%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具備下列條件：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td> 
-      <p>新增：</p>
-         <ul>
-         <li><p>標準</p></li>
-         </ul>
-      <p>目前：</p>
-         <ul>
-         <li><p>規劃</p></li>
-         </ul>
-   </td>
+     <p>標準</p>
+     <p>規劃</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -53,11 +45,11 @@ ht-degree: 2%
   <tr> 
    <td role="rowheader">物件許可權</td> 
    <td> <p>管理報表的許可權，以編輯報表中的檢視</p> <p>管理檢視的許可權以進行編輯</p> </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -123,7 +115,7 @@ ht-degree: 2%
     </thead> 
     <tbody> 
      <tr> 
-      <td> <p><ol><tr><tr><ol><tr><tr><tr><tr><tr><tr><tr><tr><tr><tr><div class="example" data-mc-autonum="<b>Example: </b>"><code><strong>valuefield</strong>=&lt;/cod></p> </td> 
+      <td> <p><ol><tr><tr><ol><tr><tr><tr><tr><tr><tr><tr><tr><tr><tr><div class="example" data-mc-autonum="<b>Example: </b>"><code><strong>valuefield</strong>=</cod></p> </td> 
       <td> <p>This is the name of the object or of the field as it appears in the database. For more information about how objects and fields appear in the database, see <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>.</p> <p>The following scenarios exist:</p> 
         
         <li value="1"> <p> If the name of the field you display is a phrase instead of a single noun, you must use camel case syntax for the <code>valuefield</code>. For example, for the Planned Start Date of a task the code is: </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><code>valuefield=plannedStartDate</code> </p> </li> 
@@ -208,7 +200,7 @@ ht-degree: 2%
     </tbody> 
    </table>
 
-1. 如果要儲存變更並繼續編輯檢視，請按一下[套用]。**&#x200B;**
+1. 如果要儲存變更並繼續編輯檢視，請按一下[套用]。****
 1. 按一下&#x200B;**儲存+關閉**&#x200B;以儲存您的報告。
 
    或

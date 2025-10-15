@@ -6,9 +6,9 @@ description: 當您在Adobe Workfront中與其他使用者共用報表時，請�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 0ea65b3f-fbcf-40f4-a4d1-4dd91619c349
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1162'
+source-wordcount: '1146'
 ht-degree: 3%
 
 ---
@@ -39,38 +39,35 @@ ht-degree: 3%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront計畫*</strong></td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront授權*</strong></td> 
-   <td> <p>新增：</p> 
-   <ul><li>報告檢視的標準</li>
-  <li> 清單檢視的投稿人或更新版本</li></ul>
-   <p>目前：</p>
-   <ul>
-    <li> 規劃報告檢視 </li>
-    <li> 要求或更高的清單檢視 </li> </ul></td> 
+   <td role="rowheader">Adobe Workfront授權</strong></td> 
+   <td> 
+    <p>報告檢視的標準或計畫</p>
+    <p>投稿人或請求清單檢視</p>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>存取層級設定*</strong></td> 
-   <td> <p>編輯對篩選器、檢視、群組的存取權</p> <p>編輯報告、儀表板、行事曆的存取權，以編輯報告中的檢視</p></td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>編輯對篩選器、檢視、群組的存取權</p> <p>編輯報告、儀表板、行事曆的存取權，以編輯報告中的檢視</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>管理報表的許可權，以建立或編輯報表中的檢視</p> <p>管理檢視的許可權</p></td> 
+   <td role="rowheader">物件許可權</td> 
+    <td> <p>管理報表的許可權，以建立或編輯報表中的檢視</p> <p>管理檢視的許可權</p></td> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -161,7 +158,7 @@ ht-degree: 3%
       <td> <p>選擇此選項以顯示此欄的自訂標籤，而不是其實際值。 指定要顯示的文字，而不是提供的欄位中的值。</p> <p><b>重要</b></p> <p>選取<strong>顯示文字</strong>會停用內嵌編輯此欄文字的功能。<br>此外，您無法變更「前置任務」欄的值，因為它包含內建邏輯。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>套用到整行</strong></td> 
+      <td role="rowheader"><strong>套用到整列</strong></td> 
       <td>選取此選項可將設定套用至整列，而非僅將設定套用至選取的欄。</td> 
      </tr> 
     </tbody> 

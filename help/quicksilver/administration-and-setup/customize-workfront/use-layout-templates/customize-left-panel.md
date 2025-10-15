@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
+source-git-commit: 18c39c5b1959c31b6fd0018476b48643b4b15021
 workflow-type: tm+mt
-source-wordcount: '1120'
+source-wordcount: '1104'
 ht-degree: 0%
 
 ---
@@ -39,32 +39,30 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td>Adobe Workfront套件</td> 
    <td><p>任何</p>
-   <p>將自訂應用程式新增至主功能表僅適用於授權Adobe App Builder的組織。</p></td> 
+       <p>將自訂應用程式新增至主功能表僅適用於授權Adobe App Builder的組織。</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td><p>新增：標準</p>
-  <p> 目前：計畫</p>
-   </td> 
+   <td>Adobe Workfront授權</td> 
+   <td><p>標準</p>
+       <p>規劃</p></td>
+  </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
-   <td> <p>若要在系統層級執行這些步驟，您需要系統管理員存取層級。
-若要為群組執行這些動作，您必須是該群組的管理員。</p> </td> 
+   <td>存取層級設定</td> 
+   <td> <p>若要在系統層級執行這些步驟，您需要系統管理員存取層級。</p>
+        <p>若要為群組執行這些動作，您必須是該群組的管理員。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -88,39 +86,39 @@ ht-degree: 0%
     </thead> 
     <tbody> 
      <tr> 
-      <td>[!UICONTROL 專案]</td> 
+      <td>[！UICONTROL專案]</td> 
       <td>專案名稱</td> 
-      <td>[!UICONTROL 任務]， [!UICONTROL 專案詳細資料]， [!UICONTROL 業務案例]， [!UICONTROL 更新]， [!UICONTROL 檔案]， [!UICONTROL 問題]， [!UICONTROL 風險]， [!UICONTROL 核准]， [!UICONTROL 基準]， [!UICONTROL 計費費率]，[!UICONTROL 計費記錄]， [!UICONTROL uicontrol支出]、[!UICONTROL 小時數]、[!UICONTROL 工作負載均衡器]、[!UICONTROL 人員]、[!UICONTROL 利用率]、[!UICONTROL 隊列詳細資訊]、[!UICONTROL 路由規則]、[!UICONTROL 隊列主題]、[!UICONTROL 主題組]、[!UICONTROL 量度]、[!UICONTROL 規劃]*、[!UICONTROL 自定義應用程式]**</td> 
+      <td>[！UICONTROL任務]， [！UICONTROL專案詳細資料]， [！UICONTROL業務案例]， [！UICONTROL更新]， [！UICONTROL檔案]， [！UICONTROL問題]， [！UICONTROL風險]， [！UICONTROL核准]， [！UICONTROL基準]， [！UICONTROL計費費率]，[！UICONTROL計費記錄]， [！UICONTROL uicontrol支出]、[！UICONTROL小時數]、[！UICONTROL工作負載均衡器]、[！UICONTROL人員]、[！UICONTROL利用率]、[！UICONTROL隊列詳細資訊]、[！UICONTROL路由規則]、[！UICONTROL隊列主題]、[！UICONTROL主題組]、[！UICONTROL量度]、[！UICONTROL規劃]*、[！UICONTROL自定義應用程式]**</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL 任務]</td> 
+      <td>[！UICONTROL任務]</td> 
       <td>任務的名稱</td> 
-      <td> [!UICONTROL 更新]， [!UICONTROL 檔案]， [!UICONTROL 任務詳細資訊]， [!UICONTROL 子任務]， [!UICONTROL 問題]， [!UICONTROL 小時]， [!UICONTROL 核准]， [!UICONTROL 費用]， [!UICONTROL 前置任務]， [!UICONTROL 自訂應用程式]**</td> 
+      <td> [！UICONTROL更新]， [！UICONTROL檔案]， [！UICONTROL任務詳細資訊]， [！UICONTROL子任務]， [！UICONTROL問題]， [！UICONTROL小時]， [！UICONTROL核准]， [！UICONTROL費用]， [！UICONTROL前置任務]， [！UICONTROL自訂應用程式]**</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL 問題]</td> 
+      <td>[！UICONTROL問題]</td> 
       <td>問題的名稱</td> 
-      <td> [!UICONTROL 更新]、[!UICONTROL 檔案]、[!UICONTROL 問題詳細資訊]、[!UICONTROL 小時]、[!UICONTROL 核准]、[!UICONTROL 自訂應用程式]**</td> 
+      <td> [！UICONTROL更新]、[！UICONTROL檔案]、[！UICONTROL問題詳細資訊]、[！UICONTROL小時]、[！UICONTROL核准]、[！UICONTROL自訂應用程式]**</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL Portfolio]</td> 
+      <td>[！UICONTROL Portfolio]</td> 
       <td>投資組合的名稱</td> 
-      <td>[!UICONTROL 專案]， [!UICONTROL 計畫]， [!UICONTROL Portfolio詳細資料]， [!UICONTROL Portfolio] [!UICONTROL 最佳化]， [!UICONTROL 檔案]， [!UICONTROL 更新]， [!UICONTROL 規劃]*， [!UICONTROL 自訂應用程式]**</td> 
+      <td>[！UICONTROL專案]， [！UICONTROL計畫]， [！UICONTROL Portfolio詳細資料]， [！UICONTROL Portfolio] [！UICONTROL最佳化]， [！UICONTROL檔案]， [！UICONTROL更新]， [！UICONTROL規劃]*， [！UICONTROL自訂應用程式]**</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL Program]</td> 
+      <td>[！UICONTROL Program]</td> 
       <td>方案的名稱</td> 
-      <td>[!UICONTROL 專案]、[!UICONTROL 計畫詳細資料]、[!UICONTROL 更新]、[!UICONTROL 檔案]、[!UICONTROL 計畫]*、[!UICONTROL 自訂應用程式]**</td> 
+      <td>[！UICONTROL專案]、[！UICONTROL計畫詳細資料]、[！UICONTROL更新]、[！UICONTROL檔案]、[！UICONTROL計畫]*、[！UICONTROL自訂應用程式]**</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL 範本]</td> 
+      <td>[！UICONTROL範本]</td> 
       <td>專案範本的名稱</td> 
-      <td>[!UICONTROL 範本任務]， [!UICONTROL 範本詳細資料]， [!UICONTROL 更新]， [!UICONTROL 檔案]， [!UICONTROL 風險]， [!UICONTROL 費用]， [!UICONTROL 人員]， [!UICONTROL 核准]， [!UICONTROL 計費率]， [!UICONTROL 佇列詳細資料]， [!UICONTROL 路由規則]， [!UICONTROL uicontrol隊列主題]，[!UICONTROL 主題組]</td> 
+      <td>[！UICONTROL範本任務]， [！UICONTROL範本詳細資料]， [！UICONTROL更新]， [！UICONTROL檔案]， [！UICONTROL風險]， [！UICONTROL費用]， [！UICONTROL人員]， [！UICONTROL核准]， [！UICONTROL計費率]， [！UICONTROL佇列詳細資料]， [！UICONTROL路由規則]， [！UICONTROL uicontrol隊列主題]，[！UICONTROL主題組]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL 範本任務]</td> 
+      <td>[！UICONTROL範本任務]</td> 
       <td>範本任務的名稱</td> 
-      <td>[!UICONTROL 更新]， [!UICONTROL 檔案]， [!UICONTROL 範本任務詳細資訊]， [!UICONTROL 子任務]， [!UICONTROL 費用]， [!UICONTROL 核准]， [!UICONTROL 前置任務]</td>
+      <td>[！UICONTROL更新]， [！UICONTROL檔案]， [！UICONTROL範本任務詳細資訊]， [！UICONTROL子任務]， [！UICONTROL費用]， [！UICONTROL核准]， [！UICONTROL前置任務]</td>
      </tr>
      <!--
       <tr> 
@@ -130,44 +128,44 @@ ht-degree: 0%
       </tr>
      --> 
      <tr> 
-      <td> [!UICONTROL 付費記錄]</td> 
+      <td> [！UICONTROL付費記錄]</td> 
       <td>專案的計費記錄名稱</td> 
-      <td>[!UICONTROL 計費記錄詳細資料]、[!UICONTROL 可計費時數]、[!UICONTROL 可計費費用]、[!UICONTROL 固定收入]</td> 
+      <td>[！UICONTROL計費記錄詳細資料]、[！UICONTROL可計費時數]、[！UICONTROL可計費費用]、[！UICONTROL固定收入]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL 專案]</td> 
-      <td>[!UICONTROL 主功能表]中的專案<img src="assets/projects-in-main-menu.png"> <img src="assets/main-menu-icon.png"></td> 
-      <td>[!UICONTROL 專案]</td> 
+      <td>[！UICONTROL專案]</td> 
+      <td>[！UICONTROL主功能表]中的專案<img src="assets/projects-in-main-menu.png"> <img src="assets/main-menu-icon.png"></td> 
+      <td>[！UICONTROL專案]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL 請求]</td> 
+      <td>[！UICONTROL請求]</td> 
       <td>請求的名稱</td> 
-      <td>[!UICONTROL 新請求]、[!UICONTROL 已提交請求]、[!UICONTROL 所有請求]、[!UICONTROL 草稿]</td> 
+      <td>[！UICONTROL新請求]、[！UICONTROL已提交請求]、[！UICONTROL所有請求]、[！UICONTROL草稿]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL 儀表板]</td> 
+      <td>[！UICONTROL儀表板]</td> 
       <td>控制面板的名稱</td> 
-      <td>[!UICONTROL 我的儀表板]、[!UICONTROL 共用儀表板]、[!UICONTROL 所有儀表板]</td> 
+      <td>[！UICONTROL我的儀表板]、[！UICONTROL共用儀表板]、[！UICONTROL所有儀表板]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL Scrum團隊]</td> 
+      <td>[！UICONTROL Scrum團隊]</td> 
       <td>Scrum團隊的名稱</td> 
-      <td><p>[!UICONTROL 反複專案]、[!UICONTROL 目前反複專案]、[!UICONTROL 待處理專案]、[!UICONTROL 工作負載平衡器]、[!UICONTROL 更新]、[!UICONTROL 團隊設定]</p> <p><strong>注意：</strong> <strong>[!UICONTROL 目前反複專案]</strong>專案只有在反複專案上至少有一個任務或問題時，才會顯示在左側面板中。</p></td> 
+      <td><p>[！UICONTROL反複專案]、[！UICONTROL目前反複專案]、[！UICONTROL待處理專案]、[！UICONTROL工作負載平衡器]、[！UICONTROL更新]、[！UICONTROL團隊設定]</p> <p><strong>注意：</strong> <strong>[！UICONTROL目前反複專案]</strong>專案只有在反複專案上至少有一個任務或問題時，才會顯示在左側面板中。</p></td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL Kanban團隊]</td> 
+      <td>[！UICONTROL Kanban團隊]</td> 
       <td>Kanban團隊的名稱</td> 
-      <td>[!UICONTROL 工作負載平衡器]、[!UICONTROL Kanban board]、[!UICONTROL 待處理專案]、[!UICONTROL 更新]、[!UICONTROL 團隊設定]</td> 
+      <td>[！UICONTROL工作負載平衡器]、[！UICONTROL Kanban board]、[！UICONTROL待處理專案]、[！UICONTROL更新]、[！UICONTROL團隊設定]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL Waterfall團隊]</td> 
+      <td>[！UICONTROL Waterfall團隊]</td> 
       <td>Waterfall團隊的名稱</td> 
-      <td>[!UICONTROL 工作負載平衡器]、[!UICONTROL 更新]、[!UICONTROL 團隊請求]、[!UICONTROL 團隊設定]</td> 
+      <td>[！UICONTROL工作負載平衡器]、[！UICONTROL更新]、[！UICONTROL團隊請求]、[！UICONTROL團隊設定]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL 反複專案]</td> 
+      <td>[！UICONTROL反複專案]</td> 
       <td>反複專案的名稱</td> 
-      <td>[!UICONTROL Stories]， [!UICONTROL Issues]， [!UICONTROL Story Board]， [!UICONTROL Overview]， [!UICONTROL Custom Forms]， [!UICONTROL Updates] </td> 
+      <td>[！UICONTROL Stories]， [！UICONTROL Issues]， [！UICONTROL Story Board]， [！UICONTROL Overview]， [！UICONTROL Custom Forms]， [！UICONTROL Updates] </td> 
      </tr> 
      <!--
       <tr> 
@@ -224,7 +222,7 @@ ht-degree: 0%
    >* [使用配置範本自訂篩選器、檢視和群組](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >* [使用配置範本自訂[!UICONTROL 摘要面板]](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
    >* [使用配置範本自訂首頁](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
-   >* 使用版面配置範本的[品牌Adobe [!DNL Workfront] &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
+   >* 使用版面配置範本的[品牌Adobe [!DNL Workfront] ](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 
 
 1. （選擇性）如果您想要新增連結至貴組織其中一個儀表板的左側面板專案，請按一下&#x200B;**[!UICONTROL 新增儀表板]**，輸入專案的&#x200B;**[!UICONTROL 快速連結名稱]**，然後選擇儀表板。

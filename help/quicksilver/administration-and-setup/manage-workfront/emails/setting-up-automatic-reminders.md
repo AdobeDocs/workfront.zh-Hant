@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 37ad04a1-d3c8-48b2-aed8-fe40456196ec
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '625'
 ht-degree: 3%
 
 ---
@@ -37,19 +37,19 @@ ht-degree: 3%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td>規劃</td> 
+   <td>
+   <p>標準</p>
+   <p>規劃</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -57,6 +57,8 @@ ht-degree: 3%
   </tr> 
  </tbody> 
 </table>
+
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -109,7 +111,7 @@ ht-degree: 3%
 
 具有特定相依性型別的任務可能會在指定的開始日期之後傳遞，即使這些任務已過期。 例如，如果任務的前置任務具有「完成 — 開始」(fs)相依性，即使任務已超過指定的開始日期，也不會包含在電子郵件中，因為您必須等到前置任務完成才能開始該任務。
 
-如需接收自動提醒電子郵件的詳細資訊，請參閱[Adobe Workfront通知](../../../workfront-basics/using-notifications/wf-notifications.md)中的[自動提醒](../../../workfront-basics/using-notifications/wf-notifications.md#automatic-reminders)區段。
+如需接收自動提醒電子郵件的詳細資訊，請參閱[Adobe Workfront通知](../../../workfront-basics/using-notifications/wf-notifications.md#automatic-reminders)中的[自動提醒](../../../workfront-basics/using-notifications/wf-notifications.md)區段。
 
 ## 傳送自動提醒
 

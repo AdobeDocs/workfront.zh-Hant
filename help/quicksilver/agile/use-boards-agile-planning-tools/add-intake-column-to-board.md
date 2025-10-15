@@ -7,7 +7,7 @@ description: 您可以選擇將輸入欄新增到您的展示板，在任務與�
 author: Courtney
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 0ff02569d3c7fb532a2faafc46fe4235ce77acd4
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
 source-wordcount: '1033'
 ht-degree: 3%
@@ -57,15 +57,14 @@ ht-degree: 3%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
    <td> 
-   <p>新增：[!UICONTROL Contributor]或以上</p> 
-   <p>或</p>
-   <p>目前： [!UICONTROL Request]或以上</p>
+   <p>投稿人或以上</p> 
+   <p>要求或更高版本</p>
    </td> 
   </tr> 
  </tbody> 
@@ -127,7 +126,7 @@ ht-degree: 3%
 
    如需建立篩選的詳細資訊，請參閱文章[在 [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md)中建立或編輯篩選中，標準產生器中的建立或編輯篩選區段。
 
-1. 為篩選器命名，然後按一下[儲存]。**&#x200B;** 該篩選器會出現在您儲存的篩選器清單中，並自動套用至輸入欄。
+1. 為篩選器命名，然後按一下[儲存]。**** 該篩選器會出現在您儲存的篩選器清單中，並自動套用至輸入欄。
 
    ![正在輸入新的篩選器名稱](assets/save-as-modal.png)
 

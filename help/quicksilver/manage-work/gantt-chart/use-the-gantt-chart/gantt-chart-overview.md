@@ -1,20 +1,24 @@
 ---
 content-type: overview
 navigation-topic: gantt-chart
-title: 甘特圖概觀
-description: 在下列文章中尋找有關[!UICONTROL 甘特圖]的資訊。
+title: 甘特圖：文章索引
+description: Adobe Workfront中的甘特圖提供任務或專案清單時間表的視覺化表示。 在下列文章中尋找有關[!UICONTROL 甘特圖]的資訊。
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: b4dc991e-d89c-4167-ac9c-54bda23d08d8
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL 甘特圖]概觀
+# [!UICONTROL 甘特圖]：文章索引
+
+<!--Audited: 08/2025-->
+
+Adobe Workfront中的甘特圖提供任務或專案清單時間表的視覺化表示。
 
 本節包含下列文章：
 

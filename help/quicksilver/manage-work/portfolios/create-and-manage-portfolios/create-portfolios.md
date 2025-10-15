@@ -1,21 +1,21 @@
 ---
 product-area: portfolios
 navigation-topic: create-and-manage-portfolios
-title: 建立專案組合
+title: 建立Portfolio
 description: Portfolio是競爭相同資源、預算和排程的專案集合。 Portfolio中的專案相當類似，因此會使用相同的資源集區，並針對相同的計分卡測量。
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '667'
 ht-degree: 1%
 
 ---
 
 # 建立專案組合
 
-<!--Audited: 7/2024-->
+<!--Audited: 08/2025-->
 
 Portfolio是競爭相同資源、預算和排程的專案集合。 Portfolio中的專案相當類似，因此會使用相同的資源集區，並針對相同的計分卡測量。
 
@@ -23,28 +23,28 @@ Portfolio是競爭相同資源、預算和排程的專案集合。 Portfolio中�
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 封裝</td> 
    <td> <p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>新增：[!UICONTROL Standard]</p>
-   <p>目前：[!UICONTROL 計畫] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
+   <td> <p>[！UICONTROL標準]</p>
+   <p>[！UICONTROL計畫] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[!UICONTROL Edit]對投資組合的存取權</p>  </td> 
+   <td> <p>[！UICONTROL Edit]對投資組合的存取權</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>建立專案組合後，您預設擁有專案組合的管理許可權</p>  </td> 
+   <td> <p>建立專案組合後，您即擁有專案組合的管理許可權</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,6 +52,34 @@ Portfolio是競爭相同資源、預算和排程的專案集合。 Portfolio中�
 *如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>Any</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>New: [!UICONTROL Standard]</p>
+   <p>Current:[!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL Edit] access to Portfolios</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>After you create a portfolio, you have Manage permissions to it, by default</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
 
 ## 建立產品組合的方式
 
@@ -98,21 +126,21 @@ Portfolio是競爭相同資源、預算和排程的專案集合。 Portfolio中�
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 說明]</td> 
+      <td role="rowheader">[！UICONTROL說明]</td> 
       <td> <p>輸入Portfolio的說明以指出其獨特性。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Portfolio Manager]</td> 
-      <td> <p>開始輸入您要指定做為投資組合經理的使用者名稱，然後當它出現在清單中時選取它。 這與[!UICONTROL Portfolio Owner]相同。 此人員可監督投資組合中專案所定義的工作，並可核准業務案例。</p> <p>重要：當您指定某人為[!UICONTROL Portfolio Manager]時，他們會自動取得專案組合、方案及專案組合中的[!UICONTROL 管理]許可權。 </p> <p>提示：您也可以更新頁面頂端標題中的[!UICONTROL Portfolio Manager]。</p> </td> 
+      <td role="rowheader">[！UICONTROL Portfolio Manager]</td> 
+      <td> <p>開始輸入您要指定做為投資組合經理的使用者名稱，然後當它出現在清單中時選取它。 這與[！UICONTROL Portfolio Owner]相同。 此人員可監督投資組合中專案所定義的工作，並可核准業務案例。</p> <p>重要：當您指定某人為[！UICONTROL Portfolio Manager]時，他們會自動取得專案組合、方案及專案組合中的[！UICONTROL管理]許可權。 </p> <p>提示：您也可以更新頁面頂端標題中的[！UICONTROL Portfolio Manager]。</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">群組 </td> 
-      <td> <p>如果群組擁有投資組合或負責完成投資組合，請新增單一群組的名稱。 </p> <p>您可以暫留在群組上，並按一下旁邊顯示的[!UICONTROL 資訊]圖示<img src="assets/info-icon.png">，確定您選取的群組正確。 這會顯示工具提示，列出群組的相關資訊，例如群組及其管理員上方的群組階層。</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> </td> 
+      <td> <p>如果群組擁有投資組合或負責完成投資組合，請新增單一群組的名稱。 </p> <p>您可以暫留在群組上，並按一下旁邊顯示的[！UICONTROL資訊]圖示<img src="assets/info-icon.png">，確定您選取的群組正確。 這會顯示工具提示，列出群組的相關資訊，例如群組及其管理員上方的群組階層。</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. （選擇性）在[!UICONTROL Portfolio詳細資料]頁面右上角的&#x200B;**[!UICONTROL 新增自訂表單]**&#x200B;方塊內按一下，以選取產品組合的自訂表單並更新自訂欄位。
+1. （選擇性）在&#x200B;**[!UICONTROL Portfolio詳細資料]**&#x200B;頁面右上角的[!UICONTROL 新增自訂表單]方塊內按一下，以選取產品組合的自訂表單並更新自訂欄位。
 
    >[!TIP]
    >

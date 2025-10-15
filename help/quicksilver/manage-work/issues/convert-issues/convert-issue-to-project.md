@@ -1,25 +1,25 @@
 ---
 product-area: projects
 navigation-topic: convert-issues
-title: 在Adobe Workfront中將問題轉換為專案
-description: 在Adobe Workfront中將問題轉換為專案
+title: 將問題轉換為專案
+description: 如果在提交問題後需要完成更多工作，您可以將問題轉換為Adobe Workfront中的專案。
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: 71ddeb83543c3c1491a412ac18deaa3ce1077c21
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '2017'
+source-wordcount: '2009'
 ht-degree: 1%
 
 ---
 
-# 在Adobe Workfront中將問題轉換為專案
+# 將問題轉換為專案
 
-<!--Audited: 01/2024-->
+<!--Audited: 08/2025-->
 
 如果在提交問題後需要完成更多工作，您可以將問題轉換為專案。
 
-您可以將問題轉換為新專案，也可以使用範本將其轉換為專案。 本文介紹將問題轉換為專案的兩種方式。
+您可以將問題轉換為我們的專案，而不需要使用專案範本。 本文介紹將問題轉換為專案的兩種方式。
 
 >[!IMPORTANT]
 >
@@ -31,29 +31,27 @@ ht-degree: 1%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td>
-   <p>新增：標準 </p> 
-    <p>目前：計畫 </p> </td> 
+   <p>標準</p> 
+    <p>規劃</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
+   <td role="rowheader">存取層級設定</td> 
    <td> <p>編輯問題、任務和專案的存取權</p> <p>編輯財務資料的存取權，以更新專案從問題轉換的財務資訊</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>檢視問題的許可權</p> <p>您可在問題轉換後取得專案的管理許可權</p> </td> 
+   <td> <p>檢視問題的許可權</p> <p>轉換問題後，您會取得專案的管理許可權</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,6 +59,34 @@ ht-degree: 1%
 如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td>
+   <p>New: Standard </p> 
+    <p>Current: Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Issues, Tasks, and Projects</p> <p>Edit access to Financial Data to update financial information for a projected converted from the issue</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View permissions to the issue</p> <p>You obtain Manage permissions to the project after the issue is converted</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+-->
 
 ## 考量事項
 

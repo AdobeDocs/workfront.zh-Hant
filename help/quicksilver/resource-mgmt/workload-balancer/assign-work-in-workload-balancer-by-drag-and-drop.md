@@ -6,9 +6,9 @@ description: 您可以透過拖放工作專案給正確的使用者，使用Adob
 author: Lisa
 feature: Resource Management
 exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
-source-git-commit: bf1a8e4384360554c6245b455650f30976e82ce1
+source-git-commit: 2a52b1e401eae79c55076afd352cc83e1829140a
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '964'
 ht-degree: 0%
 
 ---
@@ -23,27 +23,23 @@ ht-degree: 0%
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。 
-
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視本文中功能的存取需求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td> <p>任何 </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td><p>新增：標準</p>
-       <p>或</p>
-       <p>目前：計畫，以指派資源區域中的工作負載平衡器中的工作；</br>
-       工作，指派團隊或專案的工作負載平衡器工作</p></td>
+   <td>Adobe Workfront套件</td> 
+   <td><p>任何</p></td>
   </tr>
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
+   <td>Adobe Workfront授權</td> 
+   <td><p>標準</p>
+       <p>計畫：在資源區域使用工作負載平衡器；工作，使用團隊或專案的工作負載平衡器</p></td>
+  </tr>
+  <tr> 
+   <td>存取層級設定</td> 
    <td> <p>編輯下列專案的存取權：</p> 
     <ul> 
      <li>資源管理</li> 
@@ -54,13 +50,13 @@ ht-degree: 0%
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件許可權</td> 
+   <td>物件許可權</td> 
    <td>包含進行指派的專案、任務和問題的貢獻許可權或更高</td> 
   </tr> 
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

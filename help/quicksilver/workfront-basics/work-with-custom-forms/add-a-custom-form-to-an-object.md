@@ -7,9 +7,9 @@ description: 您可以將現有的自訂表單新增至下列任何物件。 自
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: 7b9989b73f7be46690073f323203ae2d9ca1a4b5
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '730'
 ht-degree: 2%
 
 ---
@@ -41,38 +41,64 @@ ht-degree: 2%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文所述的動作：
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>任何</p> </td> 
+  </tr> 
+<tr> 
+  <td role="rowheader">Adobe Workfront授權</td> 
+  <td> <p>投稿人或以上</p>
+ <p>要求或更高版本</p> 
+</td> 
+ </tr> 
+  <tr> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>編輯您管理自訂表單之物件的存取權</p>
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>管理您要附加自訂表單之物件的許可權。</p> <p>檢視自訂表單或更高許可權，具有<b>附加至自訂資料</b>物件（專案、任務和問題）的許可權。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td> <p>任何 </p> </td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any </p> </td> 
   </tr> 
 <tr> 
-  <td role="rowheader">Adobe Workfront授權</td> 
-  <td> <p>新增：投稿人或更高版本 </p>
- <p>或</p> 
-<p>目前：要求或以上 </p> 
+  <td role="rowheader">Adobe Workfront license</td> 
+  <td> <p>New: Contributor or higher </p>
+ <p>or</p> 
+<p>Current: Request or higher </p> 
 </td> 
  </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯您管理自訂表單之物件的存取權</p>
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to the objects for which you manage custom forms</p>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件許可權</td> 
-   <td> <p>管理您要附加自訂表單之物件的許可權。</p> <p>檢視自訂表單或更高許可權，具有<b>附加至自訂資料</b>物件（專案、任務和問題）的許可權。 如需詳細資訊，請參閱<a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">共用自訂表格</a>。</p> <p>重要：如果您沒有可管理存取自訂Forms的計畫授權，則您必須至少擁有檢視自訂表單的特定許可權，如<a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">共用自訂表單</a>中所述。 即使表單在整個系統內可見，也必須將這些許可權授予您。 </p> <p>如需請求其他存取權的資訊，請參閱<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件的存取權</a>。</p> </td> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to the object for which you want to attach a custom form.</p> <p>View or higher permissions to the custom form, with permission to <b>Attach to Custom Data</b> objects (projects, tasks, and issues). For more information, see <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Share a custom form</a>.</p> <p>Important: If you do not have a Plan license with administrative access to&nbsp;Custom&nbsp;Forms, you must have specific permissions to at least view the custom form, as described in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Share a custom form</a>. These permissions must be granted to you even if the form is visible system-wide. </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
-
-+++
+</table>-->
 
 ## 先決條件
 

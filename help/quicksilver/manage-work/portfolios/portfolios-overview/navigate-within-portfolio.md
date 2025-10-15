@@ -1,19 +1,21 @@
 ---
 product-area: portfolios
 navigation-topic: portfolios-overview
-title: 在投資組合中導覽
+title: 在Portfolio中導覽
 description: 在投資組合中導覽
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
 
 # 在投資組合中導覽
+
+<!--Audited: 08/2025-->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This article will need to be further revised and maybe merged into Understanding Portfolios?! (other?!).)</p>
@@ -21,35 +23,33 @@ ht-degree: 0%
 
 在[!DNL Adobe Workfront]中，投資組合代表競爭相同資源、預算、時程表和優先順序的專案集合。 投資組合的主要目的是協助主管和專案經理選擇處理對組織提供最大利益的專案。
 
-如需投資組合的詳細資訊，請參閱 [!DNL Adobe Workfront][&#128279;](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)中的Portfolio概觀。
+如需投資組合的詳細資訊，請參閱[瞭解投資組合方法](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)。
 
 ## 存取需求
 
 
-+++ 展開以檢視本文中功能的存取需求。
-
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td> 
-   <td> <p>任何 </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 封裝</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>新增：[!UICONTROL Standard] </p>
-   <p>目前： [!UICONTROL 計畫] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
+   <td> <p>[！UICONTROL標準] </p>
+   <p>[！UICONTROL計畫] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[!UICONTROL Edit]專案與投資組合的存取權</p>  </td> 
+   <td> <p>[！UICONTROL Edit]對[！UICONTROL Projects]和[！UICONTROL Portfolios]的存取權</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>投資組合的[!UICONTROL Manage]許可權</p> <p>檢視專案或更高許可權</p>  </td> 
+   <td> <p>投資組合的[！UICONTROL Manage]許可權</p> <p>檢視專案或更高許可權</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,9 +58,37 @@ ht-degree: 0%
 
 +++
 
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>New: [!UICONTROL Standard] </p>
+   <p>Current: [!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL Edit] access to Projects and Portfolios</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] permissions to the portfolio</p> <p>View or higher permissions to the projects</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
+
 ## 在投資組合中導覽
 
-1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](assets/main-menu-icon.png)。
+1. 按一下&#x200B;**[!UICONTROL 右上角的]**&#x200B;主功能表![圖示](assets/main-menu-icon.png)主功能表[!DNL Adobe Workfront]。
 
 1. 按一下[!UICONTROL 投資組合]。
 1. 從&#x200B;**[!UICONTROL 篩選器]**&#x200B;下拉式功能表中，選取下列專案：
@@ -113,9 +141,12 @@ ht-degree: 0%
 
    >[!IMPORTANT]
    >
-   >貴公司必須有[!UICONTROL 企業]或以上[!DNL Workfront]計畫，才能存取[!UICONTROL Portfolio Optimizer]。
+   >貴公司必須擁有下列封裝，才能存取[!UICONTROL Portfolio Optimizer]：
+   >
+   >[!UICONTROL Prime]或更新版本[!DNL Workfront]\
+   >[!UICONTROL 企業]或更新版本[!DNL Workfront]
 
-   如需使用Portfolio Optimizer的相關資訊，請參閱[在Portfolio Optimizer中管理專案](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)區段。
+   如需使用Portfolio Optimizer的相關資訊，請參閱[在Portfolio Optimizer中管理專案：文章索引](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)區段。
 
 1. （選擇性）按一下左側面板中的&#x200B;**檔案**，將檔案附加至投資組合。
 1. （選擇性）按一下左側面板中的&#x200B;**[!UICONTROL 更新]**，將註解新增至投資組合的更新資料流。 如需詳細資訊，請參閱[更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。

@@ -7,10 +7,10 @@ description: 除了Adobe Workfront授權外，Scenario Planner還需要單獨的
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: ba3b3525-cba8-44fe-856d-8ba50cd3b524
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 5%
+source-wordcount: '514'
+ht-degree: 6%
 
 ---
 
@@ -20,14 +20,7 @@ ht-degree: 5%
 
 使用 [!DNL Workfront Scenario Planner] 的目的在於促使組織層級計劃能夠加速執行，協助您做出重大決策，以利實現可預測、符合期望的業務成果。
 
-您必須有下列[!DNL Workfront]計畫才能存取[!DNL Workfront Scenario Planner]：
-
-* 對於新的Workfront計畫： [!UICONTROL Ultimate]計畫。
-* 對於目前的[!DNL Workfront]計畫：除了購買[!DNL Scenario Planner]授權外，您還必須擁有商務或更高的計畫。
-
-如需使用[!DNL Workfront Scenario Planner]所需存取權的詳細資訊，請參閱[使用 [!DNL Scenario Planner]](access-needed-to-use-sp.md)所需的存取權。
-
-## [!DNL Scenario Planner]總覽
+## [!DNL Scenario Planner] 概覽
 
 使用[!DNL Workfront Scenario Planner]，您可以建置概括貴公司整體策略成果的企業層級計畫。 您可以為計畫定義數個方案，並將其置於各種情境中，以找出執行計畫的最佳解決方案。
 
@@ -75,7 +68,7 @@ ht-degree: 5%
 
   如需有關將專案匯入計畫的資訊，請參閱[在 [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md)中將專案匯入計畫。
 
-* Publish情境以建立或更新連結至情境中方案的專案
+* 發佈情境以建立或更新連結至情境中方案的專案
 
   如需有關發佈情境的資訊，請參閱[在 [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)中發佈行動方案以更新或建立專案。
 

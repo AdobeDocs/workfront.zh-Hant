@@ -6,9 +6,9 @@ description: 您可以上傳新檔案版本，並向Adobe Workfront中的其他�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
-source-git-commit: 42fbb40cb8a0f3c70e22fd04bd3d0ce625f58fec
+source-git-commit: b615236d2666ebcc6db0d1f796fb0baaf362e0f2
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
@@ -38,17 +38,19 @@ ht-degree: 0%
    <td> <p> 任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
    <td> <p>要求或更高版本</p>
-   <p>投稿人或以上</p> </td> 
+   <p>投稿人或以上</p>
+   <p>如果您使用Frame.io整合，您必須有Standard授權才能建立核准工作流程。</p>
+    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>編輯檔案的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td> <p>編輯檔案的存取權</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>編輯與檔案關聯之物件的存取權</p> <p>如需請求其他存取權的資訊，請參閱<a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>編輯與檔案關聯之物件的存取權</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -79,7 +81,7 @@ ht-degree: 0%
 
 1. 在左側面板中，按一下&#x200B;**核准**，然後按一下&#x200B;**新增**。
 
-1. 若要新增所有先前的參與者，請按一下[全部新增]。**&#x200B;** 您也可以視需要新增參與者或移除先前的參與者。
+1. 若要新增所有先前的參與者，請按一下[全部新增]。**** 您也可以視需要新增參與者或移除先前的參與者。
 
 
 1. 若要新增現有的核准範本，請按一下「範本」按鈕並開始輸入範本名稱。

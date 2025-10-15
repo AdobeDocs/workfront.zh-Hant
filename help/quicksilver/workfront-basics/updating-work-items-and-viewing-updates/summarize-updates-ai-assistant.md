@@ -6,9 +6,9 @@ description: 「更新」是物件的內容，其中包含使用AI助理來摘�
 author: Becky
 feature: Get Started with Workfront
 exl-id: d0c26f90-a01b-4226-b6a0-647808f71e08
-source-git-commit: 440d9af6915184b7e91ca257e02be4a234fb91e0
+source-git-commit: cf3d5daa739fa6ab413ee82a9f465441ef61ae6d
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -27,42 +27,70 @@ Workfront的AI助理可以摘要更新資料流的內容，讓您快速了解圍
 
 ## 存取需求
 
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td><p>新增：任何</p>
-       <p>或</p>
-       <p>目前：無法使用</p></td>
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td><p>任何Workflow封裝</p>
+      </td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td><p>新增：標準</p>
-       <p>或</p>
-       <p>目前：無法使用</p></td>
-  </tr> 
- </tbody> 
+   <td><p>標準</p>
+   </td>
+  </tr>
+
+<tr> 
+   <td role="rowheader">物件許可權</td> 
+   <td><p>檢視您想要檢視其更新之物件的更高許可權</p>
+   </td>
+  </tr>
+
+</tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td><p>New: Any</p>
+       <p>or</p>
+       <p>Current: Not available</p></td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>New: Standard</p>
+       <p>or</p>
+       <p>Current: Not available</p></td>
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 先決條件
 
 * 您的Workfront管理員必須為貴組織啟用AI助理。
 
-  如需詳細資訊，請參閱AI助理總覽一文中的[&#x200B; AI助理的必要條件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
+  如需詳細資訊，請參閱AI助理總覽一文中的[ AI助理的必要條件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
 * 您的Workfront管理員必須為您的存取層級啟用AI助理。
 
   如需詳細資訊，請參閱[啟用或停用AI助理](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)。
 
-## 使用「摘要內容」按鈕摘要
+## 使用「摘要註釋」按鈕摘要
 
-1. 導覽至您要摘要的更新流。
-1. 按一下&#x200B;**摘要內容**&#x200B;按鈕。
+1. 移至要摘要其更新的物件。
+1. 按一下左側面板中的&#x200B;**更新**。
+1. 按一下&#x200B;**更新**&#x200B;區域頂端的&#x200B;**摘要註解**&#x200B;按鈕。
 
    AI助理隨即開啟，並出現提示，摘要更新資料流上過去7天的註解。
 

@@ -7,9 +7,9 @@ description: 當使用者指派存取層級時，您的Adobe Workfront管理員�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
-source-git-commit: 48c0f5c617f41a4ce51ea45c17817aa869ba5adb
+source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
 workflow-type: tm+mt
-source-wordcount: '1392'
+source-wordcount: '1387'
 ht-degree: 1%
 
 ---
@@ -34,21 +34,18 @@ Workfront管理員可控制誰可以在「設定」的「存取層級」區域�
 
 +++ 展開以檢視本文中功能的存取需求。 
 
-您必須具備下列專案才能共用物件：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：標準</p> 
-   或
-   <p>目前：工作或以上</p>
+   <td> <p>標準</p> 
+   <p>工作或更高</p>
    </td> 
   </tr> 
   <tr> 
@@ -62,7 +59,7 @@ Workfront管理員可控制誰可以在「設定」的「存取層級」區域�
  </tbody> 
 </table>
 
-如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

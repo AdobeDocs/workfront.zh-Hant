@@ -8,9 +8,9 @@ author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: d166674a-a158-4467-bedf-fa5c997c18ec
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
@@ -18,22 +18,32 @@ ht-degree: 0%
 
 # Adobe Workfront目標中的結果和活動
 
+>[!NOTE]
+>
+>如果貴公司過去曾購買此套件，他們可能會選擇繼續使用Adobe Workfront目標。 如需詳細資訊，請洽詢客戶代表。
+>
+>Adobe Workfront目標不再提供購買。
+>
+>如需存取Workfront目標的詳細資訊，請參閱[使用Workfront目標的需求](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)。
+
+<!--Old:
+
 >[!IMPORTANT]
 >
->您的組織必須具備下列專案，才能使用本文所述的功能：
+>Your organization must have the following to use the functionality described in this article:
 >
->* 對於新計畫和授權結構：
+>* For the new plan and license structure:
 >
->   * Ultimate Workfront計畫
+>   * The Ultimate Workfront plan 
 >    
->* 對於目前的計畫與授權結構：
+>* For the current plan and license structure: 
 >
->   * Pro或更高版本Workfront計畫
->   * 除了Adobe Workfront授權之外，還有Workfront目標授權。
+>   * A Pro or higher Workfront plan
+>   * An Adobe Workfront Goals license in addition to a Workfront license.
 >
->請連絡您的Workfront客戶經理，以瞭解Workfront Goals授權。
+>Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->如需存取Workfront目標的詳細資訊，請參閱[使用Workfront目標的需求](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)。
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).   -->
 
 若要記錄Workfront目標上的進度，您必須將進度指標與目標建立關聯。 除了結果和活動之外，您也可以將專案或子系目標與目標建立關聯，以記錄進度。
 

@@ -7,7 +7,7 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 4673049e-119e-4315-95f0-f10d8b286856
-source-git-commit: d088b40cd8d46a986998fde2176646aa1660cb6b
+source-git-commit: 7572dd64a7f23d6f8dcae374a327d67f2d6738c5
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 3%
@@ -35,11 +35,11 @@ ht-degree: 3%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
    <td> <p>標準</p> </td> 
   </tr> 
   <tr> 
@@ -57,7 +57,7 @@ ht-degree: 3%
 
 開始之前，您必須在GenStudio Foundation中設定影像品牌指導方針。
 
-若要深入瞭解影像品牌准則，請參閱[開始使用Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/get-started)。
+若要深入瞭解影像品牌准則，請參閱[開始使用Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started)。
 
 ## 新增AI檢閱者
 

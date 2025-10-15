@@ -5,9 +5,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: edd2c58a-f912-4638-b6a3-ff3b1b622f48
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '604'
 ht-degree: 1%
 
 ---
@@ -20,56 +20,35 @@ ht-degree: 1%
 * 業務主管和群組管理員的姓名
 * 可讓您將群組及其子群組設為公開或私用的選項
 
-  <!--
-  <li>An option that allows you to deactivate or reactivate a group and its subgroups.
-  DRAFTED IN FLARE:
-  Make this change when Callisto adds the
-  <b>Is active</b>
-   option to the Details pag
-  </li>
-  -->
-
 如需管理群組的其他方法相關資訊，請參閱[建立群組](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)。
 
 如需如何停用或重新啟用群組的詳細資訊，請參閱[停用或重新啟用群組](../../../administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md)。
 
-<!--
-DRAFTED IN FLARE:
-Delete this paragraph when Callisto adds the
-<b>Is active</b>
- option to the Details pag
--->
-
 ## 存取需求
 
 +++ 展開以檢視本文中功能的存取需求。
-
-您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td>任何</td> 
+   <td>Adobe Workfront套件</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
+   <td>Adobe Workfront授權</td> 
+   <td><p>標準</p>
+       <p>規劃</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td><p>新增：標準</p>
-       <p>或</p>
-       <p>目前：計畫</p></td>
-  </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">存取層級設定</td> 
+   <td>存取層級設定</td> 
    <td>您必須是群組的群組管理員或系統管理員。</td>
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -95,7 +74,7 @@ Delete this paragraph when Callisto adds the
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">為作用中</td> 
-      <td> <p>（預設為啟用）在您的Workfront執行個體中啟用群組。</p> <p>在類似下面所示的預先輸入欄位中，當一般使用者搜尋群組以將其附加至物件或與其共用物件時，清單中只會顯示作用中的群組。</p> <p> <img src="assets/group-type-aheads.jpg"> </p> <p>若要簡化使用者的這項作業，您可以停用目前未使用之群組的[作用中]選項。</p> <p>您可以使用此欄位，根據作用中或非作用中狀態輕鬆檢視、篩選及分組群組清單。 如需有關在清單中使用檢視、篩選和群組的資訊，請參閱<a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">報告元素：篩選器、檢視和群組</a>。</p> <p>如需非作用中群組的相關資訊，請參閱文章<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md" class="MCXref xref">刪除或停用自訂表單</a>中的<a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md#inactive" class="MCXref xref">非作用中群組的考量事項</a>一節。</p> </td> 
+      <td> <p>（預設為啟用）在您的Workfront執行個體中啟用群組。</p> <p>在類似下面所示的預先輸入欄位中，當一般使用者搜尋群組以將其附加至物件或與其共用物件時，清單中只會顯示作用中的群組。</p> <p> <img src="assets/group-type-aheads.jpg"> </p> <p>若要簡化使用者的這項作業，您可以停用目前未使用之群組的[作用中]選項。</p> <p>您可以使用此欄位，根據作用中或非作用中狀態輕鬆檢視、篩選及分組群組清單。 如需有關在清單中使用檢視、篩選和群組的資訊，請參閱<a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">報告元素：篩選器、檢視和群組</a>。</p> <p>如需非作用中群組的相關資訊，請參閱文章<a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md#inactive" class="MCXref xref">刪除或停用自訂表單</a>中的<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md" class="MCXref xref">非作用中群組的考量事項</a>一節。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">群組協助工具</td> 

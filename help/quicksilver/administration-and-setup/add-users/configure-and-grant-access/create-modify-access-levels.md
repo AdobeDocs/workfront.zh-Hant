@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 674c46b699ba445abba06bec3e4da4a710c60d63
+source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
 workflow-type: tm+mt
-source-wordcount: '1521'
+source-wordcount: '1505'
 ht-degree: 6%
 
 ---
@@ -34,21 +34,18 @@ ht-degree: 6%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td>新增：標準
-   <p>或</p>
-   <p>目前：計畫</p></td> 
+   <td><p>標準</p>
+   <p>規劃</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -66,9 +63,9 @@ ht-degree: 6%
 {{step-1-to-setup}}
 
 1. 按一下左側面板中的&#x200B;**存取層級**。
-1. &#x200B;
+1. 
    * 在生產環境中：
-選取您要複製及自訂的存取層級，然後按一下[複製]。**&#x200B;**
+選取您要複製及自訂的存取層級，然後按一下[複製]。****
 
      或
 
@@ -178,7 +175,7 @@ ht-degree: 6%
     <tbody> 
      <tr> 
       <td role="rowheader">當專案已指派至任務或問題時，不要將存取權授予整個專案</td> 
-      <td> 防止指派給任務或問題的使用者也獲得上層專案的許可權，即使專案許可權允許這樣做。<p>如需有關設定專案許可權的詳細資訊，請參閱文章<a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">編輯專案</a>中的<a href="../../../manage-work/projects/manage-projects/edit-projects.md#access" class="MCXref xref"></a>小節。</p></td> 
+      <td> 防止指派給任務或問題的使用者也獲得上層專案的許可權，即使專案許可權允許這樣做。<p>如需有關設定專案許可權的詳細資訊，請參閱文章<a href="../../../manage-work/projects/manage-projects/edit-projects.md#access" class="MCXref xref"></a>編輯專案<a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">中的</a>小節。</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">不要從專案、任務、問題等繼承文件存取權...</td> 

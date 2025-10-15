@@ -7,9 +7,9 @@ description: 排程績效指數(SPI)說明計畫排程與實際排程之間的�
 author: Lisa
 feature: Work Management
 exl-id: 38259774-f22b-4b69-9e22-5b541118a7de
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---
@@ -26,35 +26,32 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td>Adobe Workfront套件</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
+   <td>Adobe Workfront授權</td> 
    <td>
-   <p>新增：淺色或更高</p>
-   <p>或</p>
-   <p>目前：檢閱或以上</p></td>  
+   <p>淺色或更高</p>
+   <p>評論或以上</p></td>  
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
+   <td>存取層級設定</td> 
    <td>檢視專案與財務資料的存取權</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件許可權</td> 
+   <td>物件許可權</td> 
    <td>檢視專案或更高許可權，並具有檢視財務的許可權</td> 
   </tr> 
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -98,6 +95,6 @@ SPI = (Total Planned Hours x % Complete) / Planned Hours Scheduled to Date*
 
    1. 按一下左側面板中的&#x200B;**工作詳細資料**，然後檢視&#x200B;**財務**&#x200B;區域。
 
-      專案![&#128279;](assets/spi-on-project-nwe.png)上的SPI
+      專案![上的](assets/spi-on-project-nwe.png)SPI
 
 1. 尋找&#x200B;**CPI/ SPI/ CSI**&#x200B;欄位。

@@ -6,9 +6,9 @@ description: 您可以列印儀表板或將儀表板匯出到。PDF檔案。 若
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 30f3481b-23b6-4dc9-be0d-9cffd5d4dfed
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
@@ -25,43 +25,35 @@ ht-degree: 0%
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
-
-您必須具備下列條件：
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront計畫</strong></td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront授權</strong></td> 
-      <td> 
-      <p>新增：</p>
-         <ul>
-         <li><p>標準</p></li>
-         </ul>
-      <p>目前：</p>
-         <ul>
-         <li><p>工作或更高</p></li>
-         </ul>
-   </td>
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> 
+      <p>標準</p>
+      <p>工作或更高</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>存取層級設定</strong></td> 
-   <td> <p>檢視對報告、儀表板和行事曆的存取權</p> </td> 
-  </tr> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>編輯報告、儀表板和行事曆的存取權</p></td> 
+  </tr>  
   <tr> 
-   <td role="rowheader"><strong>物件許可權</strong>/td&gt; 
+   <td role="rowheader">物件許可權</td> 
    <td> <p>檢視儀表板的許可權</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -113,7 +105,7 @@ ht-degree: 0%
 1. 在&#x200B;**目的地**&#x200B;欄位中，從各種可用的列印選項中選取。\
    列印選項會依您使用的瀏覽器和瀏覽器版本而有所不同。
 
-1. （選擇性）將儀表板儲存為。PDF檔案，然後按一下[儲存] **以儲存。PDF。**\
+1. （選擇性）將儀表板儲存為。PDF檔案，然後按一下[儲存] ****&#x200B;以儲存。PDF。\
    若要瞭解如何將儀表板儲存為。PDF檔案，請參閱[匯出儀表板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md)。
 
 1. 按一下&#x200B;**列印**。

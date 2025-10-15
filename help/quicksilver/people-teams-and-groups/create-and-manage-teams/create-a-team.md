@@ -6,9 +6,9 @@ description: 建立團隊時，預設會成為團隊所有者。
 author: Lisa
 feature: People Teams and Groups
 exl-id: 4bef734c-de86-4c58-a0e8-fbb3c5785f4c
-source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
+source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
@@ -25,22 +25,19 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront計畫</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront套件</p> </td> 
    <td>任何</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td>
-   <p>新增：標準</p>
-   <p>或</p>
-   <p>目前：計畫</p></td>
+   <p>標準</p>
+   <p>規劃</p></td>
   </tr> 
  </tbody> 
 </table>

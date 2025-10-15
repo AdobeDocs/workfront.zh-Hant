@@ -7,7 +7,7 @@ description: 任務指專案內的工作專案。 它代表小於專案的有限
 author: Alina
 feature: Work Management
 exl-id: 060918b2-8c3f-4f85-a8ac-bcd36141d071
-source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 0%

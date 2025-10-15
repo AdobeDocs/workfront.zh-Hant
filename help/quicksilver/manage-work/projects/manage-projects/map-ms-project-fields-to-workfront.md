@@ -6,10 +6,10 @@ description: Adobe Workfront中的專案與Microsoft專案大多相容。 本文
 author: Alina
 feature: Work Management
 exl-id: 381eb6ad-8084-406b-90f9-44460b58a04c
-source-git-commit: c566eb094e96abca6073554433434822c567bc34
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
 source-wordcount: '396'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 

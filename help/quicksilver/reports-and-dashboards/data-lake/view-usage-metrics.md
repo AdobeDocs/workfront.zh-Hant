@@ -7,10 +7,10 @@ description: 使用Workfront Data Connect Metrics索引標籤，您可以根據�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 29185bd1-e058-4b42-a508-53406fb9ddd2
-source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
+source-git-commit: 7764e512a3fb30a89e6645a4d8544a5fcffee231
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 0%
+source-wordcount: '309'
+ht-degree: 1%
 
 ---
 
@@ -20,35 +20,27 @@ ht-degree: 0%
 
 ## 存取需求
 
-+++ 展開以檢視存取需求。
-
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td><p>包含在下列計畫中：</p>
-    <ul>
-        <li>Ultimate</li> 
-    </ul>    
-   <!--<p>Can be purchased as an add-on to the following plans:</p> 
-    <ul>
-        <li>Select</li> 
-        <li>Prime</li>
-    </ul>--> 
-    <p>Workfront Data Connect不適用於舊版Workfront計畫。</p> 
-   </td> </td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td><p>Ultimate</p>
+    <p>Workflow Ultimate</p>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td><p>規劃</p></td> 
+   <td>
+   <p>標準</p>
+   <p>規劃</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>您必須是Workfront管理員。</p></td> 
+   <td> <p>您必須是Workfront管理員</p></td> 
   </tr> 
  </tbody> 
 </table>

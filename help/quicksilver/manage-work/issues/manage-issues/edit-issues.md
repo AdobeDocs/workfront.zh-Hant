@@ -8,10 +8,10 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: b291525db0105081b5ff3dd65d9d2b3267a2f60c
+source-git-commit: 460090a1102465c34e92433e52c0beb240d8e9b9
 workflow-type: tm+mt
-source-wordcount: '2618'
-ht-degree: 2%
+source-wordcount: '2602'
+ht-degree: 3%
 
 ---
 
@@ -27,23 +27,20 @@ ht-degree: 2%
 
 +++ 展開以檢視本文中功能的存取需求。 
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td> <p>任何 </p> </td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>新授權：</p>
-   <ul><li>投稿人或以上</li>
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <ul><li>投稿人或以上</li>
    <li>輕度或以上以編輯任務或專案的問題區段中的問題</li></ul>
-   <p>目前的授權：</p>
-  <ul><li>要求或更高版本</li> <li>檢閱或更高版本以編輯任務或專案的問題區段中的問題</li></ul> </td> 
+   或：
+   <ul><li>要求或更高版本</li> <li>檢閱或更高版本以編輯任務或專案的問題區段中的問題</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級</td> 
@@ -65,6 +62,42 @@ ht-degree: 2%
 *如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>New license:</p>
+   <ul><li>Contributor or higher</li>
+   <li>Light or higher to edit issues in the Issues section of a task or project</li></ul>
+   <p>Current license:</p>
+  <ul><li>Request or higher</li> <li>Review or higher to edit issues in the Issues section of a task or a project</li></ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>Edit access to Issues</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Contribute permissions to an issue to edit the following fields in the Details area: </p>
+   <ul>
+   <li>Description</li>
+   <li>Status</li>
+   <li>Severity</li>
+   </ul>
+   <p>Manage permissions to an issue to edit all the fields in the Details area or in the Edit Issue box</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 編輯問題時的限制
 

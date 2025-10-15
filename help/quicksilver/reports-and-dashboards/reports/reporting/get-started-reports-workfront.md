@@ -7,10 +7,10 @@ description: 報表可讓您檢視使用者和工作的最新狀況。 使用報
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 478512af-a47c-4488-878a-581e238e0064
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '3293'
-ht-degree: 0%
+source-wordcount: '3292'
+ht-degree: 1%
 
 ---
 
@@ -88,7 +88,7 @@ Workfront提供數個系統報告，預設會載入您的系統。\
 
 ### 建立報告的先決條件 {#prerequisites-for-creating-reports}
 
-* 您必須擁有Plan授權（目前的授權）或Standard授權（新的授權），才能建立您自己的報告。
+* 您必須擁有Standard或Plan授權才能建立您自己的報告。
 
   如需Workfront授權型別的相關資訊，請參閱目前授權的[授權總覽](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)，以及新授權的[新授權總覽](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)。
 
@@ -118,7 +118,7 @@ Workfront提供數個系統報告，預設會載入您的系統。\
 建議您先使用報告建置介面來建置新報告。 此介面提供了一組簡化的工具，可引導您逐步將元素放在一起，以建立您想要的報告。 您有物件和欄位，您可以從清單中選取並新增至所有報表元素。\
 如需有關在報告建置介面中建立報告的詳細資訊，請參閱[建立自訂報告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
-如需您可以報告的物件清單，請參閱文章[Adobe Workfront物件概觀](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)中的[物件報告](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#report-on-objects)區段。
+如需您可以報告的物件清單，請參閱文章[Adobe Workfront物件概觀](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#report-on-objects)中的[物件報告](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)區段。
 
 如需您可以在報表中顯示的欄位詳細資訊，請參閱[Adobe Workfront術語辭彙表](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)。
 
@@ -177,7 +177,7 @@ Workfront提供數個系統報告，預設會載入您的系統。\
 >[!IMPORTANT]
 >
 >根據您的時區，「詳細資訊」標籤中的資訊可能會與「圖表」標籤顯示不同。\
->例如，加州的使用者於2月12日晚上9:30完成工作。 當紐約的使用者檢視包含此作業完成的報表時，「實際完成日期」在「明細」標籤與「圖表」明細中皆顯示為2月13日，因為完成日期為2月13日EST凌晨12:30。 不過，在圖表中，它包含在2月12日分組中，直到您展開圖表元素為止。
+>例如，加州的使用者於2月12日晚上9:30 PST完成工作。 當紐約的使用者檢視包含此任務完成的報告時，實際完成日期在2月13日詳細資訊標籤和圖表詳細資訊中都顯示為2月13日，因為它是在2月13日美國東部時間凌晨12:30完成的。 不過，在圖表中，它包含在2月12日分組中，直到您展開圖表元素為止。
 
 ### 摘要標籤 {#summary-tab}
 
@@ -206,7 +206,7 @@ Workfront提供數個系統報告，預設會載入您的系統。\
 >[!IMPORTANT]
 >
 >當您按一下圖表元素時，展開的資訊可能會根據您的時區，與圖表顯示不同的資訊。\
->例如，加州的使用者於2月12日晚上9:30完成工作。 當紐約的使用者檢視包含此作業完成的報表時，「實際完成日期」在「明細」標籤與「圖表」明細中皆顯示為2月13日，因為完成日期為2月13日EST凌晨12:30。 不過，在圖表中，它包含在2月12日分組中，直到您展開圖表元素為止。
+>例如，加州的使用者於2月12日晚上9:30 PST完成工作。 當紐約的使用者檢視包含此任務完成的報告時，實際完成日期在2月13日詳細資訊標籤和圖表詳細資訊中都顯示為2月13日，因為它是在2月13日美國東部時間凌晨12:30完成的。 不過，在圖表中，它包含在2月12日分組中，直到您展開圖表元素為止。
 
 如需有關使用圖表建置報表的資訊，請參閱文章[將圖表新增至報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md)。
 
@@ -307,7 +307,7 @@ Workfront提供數個系統報告，預設會載入您的系統。\
    <td>圖表</td> 
    <td> <p>Report Builder中的標籤，儲存報表後的報表標籤，以及報表的可選元素，可讓您將圖表新增至任何報表。 建立圖表之前，您必須在報告中定義分組。</p> <p>下列圖表型別可新增至任何報表：<br></p> 
     <ul> 
-     <li>直條</li> 
+     <li>欄</li> 
      <li>長條圖</li> 
      <li>圓形</li> 
      <li>折線</li> 
@@ -316,7 +316,7 @@ Workfront提供數個系統報告，預設會載入您的系統。\
     </ul> <p>如需有關將圖表新增至報表的詳細資訊，請參閱文章<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md" class="MCXref xref">將圖表新增至報表</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>詳细資料</td> 
+   <td>詳細資料</td> 
    <td>這是您儲存報告後報告的其中一個標籤。 它會顯示報告的結果，顯示在您選擇的檢視和分組中。</td> 
   </tr> 
   <tr> 
@@ -325,7 +325,7 @@ Workfront提供數個系統報告，預設會載入您的系統。\
   </tr> 
   <tr> 
    <td>欄位</td> 
-   <td> <p>是指物件的屬性。 例如，「狀態」是專案、任務或問題的欄位。 「Portfolio管理員」是Portfolio物件的欄位。</p> <p>您也可以建立自訂欄位，並將其新增至自訂表格。<br>如需建立自訂表單的相關資訊，請參閱文章<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">建立自訂表單</a>。</p> </td> 
+   <td> <p>是指物件的屬性。 例如，「狀態」是專案、任務或問題的欄位。 「Portfolio Manager」是Portfolio物件的欄位。</p> <p>您也可以建立自訂欄位，並將其新增至自訂表格。<br>如需建立自訂表單的相關資訊，請參閱文章<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">建立自訂表單</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>欄位名稱 </td> 
@@ -340,7 +340,7 @@ Workfront提供數個系統報告，預設會載入您的系統。\
    <td>決定要在報表中顯示哪些結果的主要報表元素。</td> 
   </tr> 
   <tr> 
-   <td>表格 </td> 
+   <td>表單 </td> 
    <td>可與「自訂表格」互換使用。 欄位和區段會新增至表單，然後附加至物件，以擴大您可與物件關聯的欄位數量。</td> 
   </tr> 
   <tr> 
@@ -365,7 +365,7 @@ Workfront提供數個系統報告，預設會載入您的系統。\
     </ul> <p>例如，當為「計畫完成日期」為「今天」的任務建立篩選器時，您可在「辨識符號」欄位中選取<strong>等於</strong>，並在「日期」欄位中選取今天的日期：</p> <p><em>任務&gt;計畫完成日期&gt;等於&gt; （今天的日期）</em> </p> <p>在此案例中，限定詞是<strong>等於</strong>。<br>如需限定詞的詳細資訊，請參閱文章<a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">篩選和條件修飾詞</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>報告 </td> 
+   <td>報表 </td> 
    <td>檢視、篩選和（有時）分組的組合。 報告的目的是跨介面一致地顯示資料、分發資訊，並免除定期執行相同搜尋或查詢的需求。</td> 
   </tr> 
   <tr> 

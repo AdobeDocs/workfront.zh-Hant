@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: aa2bef064df3ff7dd9e4fd896ac7482df3c55e32
+source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
 workflow-type: tm+mt
-source-wordcount: '2163'
+source-wordcount: '2139'
 ht-degree: 0%
 
 ---
@@ -42,31 +42,27 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td>任何</td> 
+   <td>Adobe Workfront套件</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td>
-   <p> 新增：標準</p>
-   或
-   <p>目前：計畫</p></td> 
+   <td>Adobe Workfront授權</td> 
+   <td><p>標準</p>
+       <p>規劃</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td> 
+   <td>存取層級設定</td> 
+   <td>系統管理員</td> 
   </tr> 
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -164,7 +160,7 @@ ht-degree: 0%
      >
      >有些欄雖然非粗體，但還是需要使用。 例如，`isNew`和`ID`欄不是粗體，但為必填欄位。
 
-1. 選取&#x200B;**0&rbrace;工作表，並在下列必要欄位中新增新自訂欄位的相關資訊：`**&#x200B;PARAM Parameter`
+1. 選取**0}工作表，並在下列必要欄位中新增新自訂欄位的相關資訊：`**PARAM Parameter`
 
    * **`isNew`** =在此欄中為每個代表新自訂欄位的行輸入&#x200B;**`TRUE`**。 這表示欄位是Workfront中的新欄位且不存在。
 
@@ -222,9 +218,9 @@ ht-degree: 0%
      >
      >每個欄位只能有一個預設選項。
 
-   * **`setParameterID`** =與&#x200B;_品牌_&#x200B;自訂欄位對應的選項為&#x200B;**`setParameterID`** （共1個），而與&#x200B;_媒體_&#x200B;對應的選項為&#x200B;**`setParameterID`** （共2個）。 `PARAM`與`POPT`工作表會相互交叉參照，指出哪些選項屬於哪個自訂欄位。
+   * **`setParameterID`** =與&#x200B;_品牌_&#x200B;自訂欄位對應的選項為&#x200B;**`setParameterID`** （共1個），而與&#x200B;_媒體_&#x200B;對應的選項為**`setParameterID`** （共2個）。 `PARAM`與`POPT`工作表會相互交叉參照，指出哪些選項屬於哪個自訂欄位。
    * **`setDisplayOrder`**=顯示順序欄表示選項在自訂欄位中的顯示順序。 您可以從1開始，然後依遞增順序繼續所有選項，無論它們屬於哪個欄位。 這裡重要的是每個選項都有唯一編號。
-   * **`setLabel`**&#x200B;和`**setValue`**&#x200B;欄通常包含相同的資訊，且應反映Workfront UI中所需的名稱。 選項的值是顯示在報表中的名稱，例如，而標籤在附加到物件時顯示在自訂表單中。 如需詳細資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+   * **`setLabel`**&#x200B;和`**setValue`**欄通常包含相同的資訊，且應反映Workfront UI中所需的名稱。 選項的值是顯示在報表中的名稱，例如，而標籤在附加到物件時顯示在自訂表單中。 如需詳細資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
    * **`setIsHidden`** =若要隱藏任何選項，請輸入`TRUE`。
 
    ![參數列已填寫](assets/parameter-option-sheet-filled-out-kick-starts.png)
@@ -289,4 +285,4 @@ ht-degree: 0%
 
    * 刪除成功從Workfront從「自訂Forms」區域匯入的資訊，然後進行錯誤訊息所指示的更正。
    * 指出系統中已有欄位或表單用於已匯入的欄位或表單，然後進行更正。
-若要指出欄位或自訂表單已在Workfront中，您必須確定在包含表單(`CTGY`)或欄位(`PARAM`)相關資訊的工作表中，`inNew`欄位已標示為`FALSE`。
+若要指出欄位或自訂表單已在Workfront中，您必須確定在包含表單(`inNew`)或欄位(`FALSE`)相關資訊的工作表中，`CTGY`欄位已標示為`PARAM`。

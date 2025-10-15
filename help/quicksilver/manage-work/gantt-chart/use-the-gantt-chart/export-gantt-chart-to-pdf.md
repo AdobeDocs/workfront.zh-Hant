@@ -5,43 +5,43 @@ description: 您可以將甘特圖匯出至PDF。 之後，您可以列印或附
 author: Alina
 feature: Work Management
 exl-id: 91aad9e0-25c9-4eae-aa66-8aab763d3b76
-source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
 source-wordcount: '979'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 # 將[!UICONTROL 甘特圖]匯出至PDF
 
-<!--Audited: 5/2025-->
+<!--Audited: 08/2025-->
 
 您可以將[!UICONTROL 甘特圖]匯出至PDF。 之後，您可以列印或附加至電子郵件，與其他使用者共用。
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront]計畫</td> 
-   <td> <p>任何 </p> </td> 
+   <td role="rowheader">[！UICONTROL Adobe Workfront]套件</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront]授權</td> 
-   <td> <p>新增：[!UICONTROL Light]或更高</p>
-   <p>目前：[!UICONTROL Review]或以上</p> </td> 
+   <td role="rowheader">[！UICONTROL Adobe Workfront]授權</td> 
+   <td> <p>[！UICONTROL Light]或更高</p>
+   <p>[！UICONTROL Review]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[!UICONTROL 檢視]或更高的專案和任務存取權</p> </td> 
+   <td> <p>[！UICONTROL檢視]或更高的專案和任務存取權</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>[!UICONTROL 檢視]或更高的專案存取權</p> </td> 
+   <td> <p>[！UICONTROL檢視]或更高的專案和任務存取權</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -49,6 +49,34 @@ ht-degree: 1%
 如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront] plan</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront] license</td> 
+   <td> <p>New:[!UICONTROL Light] or higher</p>
+   <p>Current:[!UICONTROL Review] or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL View] or higher access to Projects and Tasks</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL View] or higher access to the project</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+-->
 
 ## 匯出[!UICONTROL 甘特圖]
 
@@ -61,7 +89,7 @@ ht-degree: 1%
 
    設定下列任一資訊：
 
-   * 按一下[!UICONTROL 甘特圖]上方的&#x200B;**篩選器**、**檢視**&#x200B;和&#x200B;**群組**&#x200B;圖示，並新增或編輯套用至[!UICONTROL 甘特圖]中專案清單的現有篩選器、檢視或群組。
+   * 按一下&#x200B;**甘特圖**&#x200B;上方的&#x200B;**篩選器**、**檢視**&#x200B;和[!UICONTROL 群組]圖示，並新增或編輯套用至[!UICONTROL 甘特圖]中專案清單的現有篩選器、檢視或群組。
 
      檢視[!UICONTROL 甘特圖]時，會保留清單檢視中選取的任何篩選器和群組。 檢視只會在第一頁的[!UICONTROL 甘特圖]旁顯示的清單中，反映在匯出的[!UICONTROL 甘特圖]上。 檢視不會顯示在[!UICONTROL 甘特圖]本身。
 
@@ -105,7 +133,7 @@ ht-degree: 1%
    例如，如果您正在檢視包含50個任務的專案的[!UICONTROL 甘特圖]，但您只想在匯出的[!UICONTROL 甘特圖]上顯示10個任務，請選取您要顯示的10個任務。
 
 1. 按一下甘特圖右上角的印表機圖示![印表機圖示](assets/printer-icon.png)。
-顯示&#x200B;**[!UICONTROL 匯出至PDF]**&#x200B;對話方塊。
+顯示**[!UICONTROL 匯出至PDF]**&#x200B;對話方塊。
 
    ![匯出至PDF對話方塊](assets/exported-gantt-ui-350x225.png)
 
@@ -133,7 +161,7 @@ ht-degree: 1%
      >   * 當它包含超過500個專案。
 
 
-1. 如果PDF在匯出到PDF之後會列印，請在&#x200B;**[!UICONTROL 頁面大小]**&#x200B;下拉式選單中選取您要列印的紙張大小。
+1. 如果PDF在匯出到PDF之後會列印，請在&#x200B;**[!UICONTROL 頁面大小]**下拉式選單中選取您要列印的紙張大小。
 您可選取下列選項：
 
    * **[!UICONTROL 字母]**

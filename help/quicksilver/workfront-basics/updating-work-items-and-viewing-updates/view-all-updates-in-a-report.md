@@ -6,16 +6,16 @@ description: 若要檢視任何使用者為物件輸入的所有更新，您可�
 author: Alina
 feature: Get Started with Workfront
 exl-id: fa5b91e4-b88c-42f0-860c-6864105b4652
-source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
 
 # 在備註報告中檢視所有更新
 
-<!-- Audited: 6/2025 -->
+<!-- Audited: 10/2025 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: ***This is a report and it is in the Getting Started/ Updates section because I think it makes more sense to be in this area, where people want to view updates. - added this to this section from Reporting on 7/3/2018 ) </p>
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ## 存取需求
 
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視本文中功能的存取需求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,31 +38,65 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：標準 </p>
-   <p>目前：計畫</p> </td> 
+   <td> <p>標準</p>
+   <p>規劃</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>編輯下列專案的存取權：</p> 
+   <td> <p>編輯存取權，並建立下列專案：</p> 
     <ul> 
-     <li> <p>建立報告、儀表板和行事曆</p> </li> 
-     <li> <p>建立篩選器、檢視和群組</p> </li> 
+     <li> <p>報告、儀表板和行事曆</p> </li> 
+     <li> <p>篩選器、檢視和群組</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>檢視</p>
-    <p>注意：如果您沒有物件的「檢視」許可權或以上許可權，該物件的資訊不會顯示在報表中。</p>  </td> 
+   <td> <p>檢視報告中物件的許可權</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ </col> 
+ <col> 
+ </col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>New: Standard </p>
+   <p>Current: Plan</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to:</p> 
+    <ul> 
+     <li> <p>Create Reports, Dashboards, and Calendars</p> </li> 
+     <li> <p>Create Filters, Views, and Groupings</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View</p>
+    <p>Note: If you do not have View permission or higher to an object, information for that object doesn't display in the report.</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 建立附註報告
 

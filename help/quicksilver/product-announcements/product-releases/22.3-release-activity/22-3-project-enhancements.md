@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1235ad4a-72dd-45c5-8513-d073b3e9a2da
-source-git-commit: 0876d4d47aad701d5ffadc88868217ebae7e4790
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '1538'
+source-wordcount: '1535'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 0%
 * 新增至新任務的預設自訂表單定義於目標專案的任務設定區域。
 
 
-如需詳細資訊，請參閱[在Adobe Workfront中將問題轉換為任務](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-task.md)。
+如需詳細資訊，請參閱[將問題轉換為任務](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-task.md)。
 
 ## 將問題轉換為沒有範本的專案時的新體驗
 

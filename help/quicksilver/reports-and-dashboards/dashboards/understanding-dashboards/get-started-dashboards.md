@@ -7,9 +7,9 @@ description: 控制面板的目的是提供資訊的快速存取。 您可以在
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
+source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '693'
 ht-degree: 0%
 
 ---
@@ -24,43 +24,34 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具備下列條件：
 
-<table style="table-layout:auto">
+<table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Adobe Workfront計畫</strong></p> </td> 
-   <td>任何</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Adobe Workfront授權</strong></p> </td> 
-      <td> 
-      <p>新增:</p>
-         <ul>
-         <li><p>投稿人或以上</p></li>
-         </ul>
-      <p>目前：</p>
-         <ul>
-         <li><p>評論或以上</p></li>
-         </ul>
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> 
+      <p>投稿人或以上</p>
+      <p>評論或以上</p>
    </td> 
   </tr> 
   <tr> 
-   <td><strong>存取層級</strong> </td> 
-   <td> <p>檢視或更高的報告、儀表板和行事曆存取權</p> </td> 
-  </tr> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>檢視對報告、儀表板和行事曆的存取權</p></td> 
+  </tr>  
   <tr> 
-   <td> <p><strong>物件許可權</strong> </p> </td> 
-   <td> <p>檢視儀表板的許可權</p>  </td> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>檢視儀表板的許可權</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

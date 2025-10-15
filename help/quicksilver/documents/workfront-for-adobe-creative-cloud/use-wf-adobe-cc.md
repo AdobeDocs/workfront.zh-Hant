@@ -6,9 +6,9 @@ description: 您可以使用Workfront擴充功能，將您在Adobe Illustrator�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 40945eac-e8de-42af-b6ba-f3082c208e02
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: 3f9a824780f2ded914d461a473aef3b6ecfa8701
 workflow-type: tm+mt
-source-wordcount: '3107'
+source-wordcount: '3069'
 ht-degree: 0%
 
 ---
@@ -31,32 +31,30 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >我們建議使用適用於Photoshop[&#128279;](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)外掛程式的新Adobe Workfront。
+  >我們建議使用適用於Photoshop[外掛程式的新](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)Adobe Workfront。
 
 ## 存取需求
 
 +++ 展開以檢視本文中功能的存取需求。
-
-您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
-   <td> <p>目前：Pro或更高</p>
-   或
-   <p>新增：任何計畫</p> </td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>任何</p>
+ </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>目前：工作或以上</p>
-   或
-   <p>新增：標準</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> 
+      <p>標準</p> 
+   <p>工作或更高</p>
+</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">產品</td> 
+   <td role="rowheader">其他產品</td> 
    <td>除了Adobe Creative Cloud授權，您還必須擁有Workfront授權。</td> 
   </tr> 
   <tr> 
@@ -66,7 +64,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。 如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -202,7 +200,7 @@ ht-degree: 0%
 
    或
 
-   如果您想要從電腦檔案系統上傳檔案，做為您選取之Workfront檔案的新版本，請按一下[上傳本機檔案] **，在出現的方塊中尋找檔案，按一下[開啟]**&#x200B;**，然後按一下[上傳]**&#x200B;**。**
+   如果您想要從電腦檔案系統上傳檔案，做為您選取之Workfront檔案的新版本，請按一下[上傳本機檔案] **，在出現的方塊中尋找檔案，按一下[開啟]****，然後按一下[上傳]****。**
 
 1. （選用）按一下檔名稱，在Workfront中檢視其新版本。
 
@@ -289,7 +287,7 @@ ht-degree: 0%
 
 ## 從Illustrator或InDesign產生校訂 {#generate-a-proof-from-illustrator-or-indesign}
 
-如果您的組織使用自動化工作流程範本，您無需離開應用程式，即可為您在Adobe應用程式中建立的檔案產生校訂。 如需有關建立校訂的資訊，請參閱[建立校訂](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)。 如需自動化工作流程範本的相關資訊，請參閱[自動化工作流程總覽](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md)中的[自動化工作流程範本](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md#automate)。
+如果您的組織使用自動化工作流程範本，您無需離開應用程式，即可為您在Adobe應用程式中建立的檔案產生校訂。 如需有關建立校訂的資訊，請參閱[建立校訂](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)。 如需自動化工作流程範本的相關資訊，請參閱[自動化工作流程總覽](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md#automate)中的[自動化工作流程範本](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md)。
 
 1. 開啟其中一個支援的Adobe應用程式。
 1. 如果未顯示Workfront擴充功能，請按一下&#x200B;**視窗** > **擴充功能** > Workfront。

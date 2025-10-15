@@ -7,7 +7,7 @@ description: 投入比導向是持續時間型別，您可以在Adobe Workfront�
 author: Alina
 feature: Work Management
 exl-id: 3c8534f7-02d0-4404-a37b-0ef6360e8efc
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 1%

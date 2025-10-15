@@ -6,9 +6,9 @@ description: 當使用者指派存取層級時，您的Adobe Workfront管理員�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 91ee72e0-20a9-4b06-9f80-a343dd4fbe06
-source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
+source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
 workflow-type: tm+mt
-source-wordcount: '1242'
+source-wordcount: '1237'
 ht-degree: 2%
 
 ---
@@ -24,23 +24,20 @@ ht-degree: 2%
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
-
-您必須具備下列專案才能共用物件：
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td> <p>任何 </p> </td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：標準</p> 
-   或
-   <p>目前：工作或以上</p>
+   <td> <p>標準</p> 
+   <p>工作或更高</p> 
    </td> 
   </tr> 
   <tr> 
@@ -54,7 +51,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -88,7 +85,7 @@ ht-degree: 2%
    * 指定問題之任何父系物件的許可權：專案、方案或投資組合。 問題會繼承其父物件的許可權。 如需有關檢視物件繼承許可權的資訊，請參閱[檢視物件的繼承許可權](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)。
    * 在用來建立問題所在專案的範本上，將實體新增到專案共用。 如需從範本共用專案的詳細資訊，請參閱[共用範本](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)。
 
-   * 指定編輯專案時專案中所有問題的許可權。 如需有關根據使用者對專案的許可權來管理專案上問題或請求的存取許可權的資訊，請參閱文章[編輯專案](../../manage-work/projects/manage-projects/edit-projects.md)中的[&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access)區段。
+   * 指定編輯專案時專案中所有問題的許可權。 如需有關根據使用者對專案的許可權來管理專案上問題或請求的存取許可權的資訊，請參閱文章[](../../manage-work/projects/manage-projects/edit-projects.md#access)編輯專案[中的](../../manage-work/projects/manage-projects/edit-projects.md)區段。
 
      >[!TIP]
      >

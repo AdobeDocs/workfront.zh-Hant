@@ -6,10 +6,10 @@ description: 當使用者指派存取層級時，您的Adobe Workfront管理員�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 225e815a-0354-493d-bbcf-59304ef77570
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '823'
-ht-degree: 0%
+source-wordcount: '817'
+ht-degree: 1%
 
 ---
 
@@ -29,43 +29,35 @@ ht-degree: 0%
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
-
-您必須具備下列專案才能共用物件：
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
-   <td> <p>任何 </p> </td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-      <td> 
-      <p>新增：</p>
-         <ul>
-         <li><p>淺色或更高</p></li>
-         </ul>
-      <p>目前：</p>
-         <ul>
-         <li><p>評論或以上</p></li>
-         </ul>
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> 
+      <p>精簡</p>
+      <p>審閱</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
+   <td role="rowheader">存取層級設定</td> 
    <td> <p>檢視報表、儀表板、行事曆的存取權或以上專案</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>檢視許可權或更高的報告</p></td> 
+   <td> <p>檢視報表許可權或更高版本</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -88,11 +80,11 @@ ht-degree: 0%
 
 從清單共用一個報表或多個報表的方式相同。
 
-1. 移至報告清單，並選取一或多個報告，然後按一下[共用]。**&#x200B;**
+1. 移至報告清單，並選取一或多個報告，然後按一下[共用]。****
 
    或
 
-   按一下其中一個報表的名稱，然後按一下&#x200B;**「報表動作>**&#x200B;**共用**」。
+   按一下其中一個報表的名稱，然後按一下**「報表動作>****共用**」。
 
    ![](assets/unshimmed-report-actions-sharing.png)
 
@@ -132,6 +124,6 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >如果報表有提示且您將其公開共用，則透過公開共用連結執行報表的使用者將無法使用提示執行報表。 除非他們登入Workfront並存取報表，未使用公開共用連結，否則他們將會看見報表，但不套用提示。 如需有關共用具有提示之報表的限制的詳細資訊，請參閱文章[新增提示至報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)中的[共用提示之報表的限制](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports)小節。
+     >如果報表有提示且您將其公開共用，則透過公開共用連結執行報表的使用者將無法使用提示執行報表。 除非他們登入Workfront並存取報表，未使用公開共用連結，否則他們將會看見報表，但不套用提示。 如需有關共用具有提示之報表的限制的詳細資訊，請參閱文章[新增提示至報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports)中的[共用提示之報表的限制](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)小節。
 
 1. 按一下「**儲存**」。

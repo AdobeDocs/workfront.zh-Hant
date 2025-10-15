@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9bc5987b-6e32-47df-90c8-08ea4b1b7451
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: 75fea812b4574191522af4721a013b57aa5d609f
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '839'
 ht-degree: 0%
 
 ---
@@ -27,26 +27,26 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td>任何</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td>規劃</td> 
+   <td><p>標準</p><p>規劃</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>您必須是Workfront管理員。</p> <p><b>注意</b>：如果您還是沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td> <p>您必須是Workfront管理員。</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -129,7 +129,7 @@ ht-degree: 0%
    * 姓氏
    * 電子郵件地址
 
-1. 按一下[完成]&#x200B;**&#x200B;**，然後在下一個畫面中按一下[確定]&#x200B;**&#x200B;**。
+1. 按一下[完成]****，然後在下一個畫面中按一下[確定]****。
 1. 用滑鼠右鍵按一下新的&#x200B;**信賴方信任**，然後選取&#x200B;**內容**。
 1. 選取&#x200B;**進階索引標籤**。 在&#x200B;**安全雜湊演演算法**&#x200B;下，選取SHA-1或SHA-256。
 

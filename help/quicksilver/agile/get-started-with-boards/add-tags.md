@@ -6,10 +6,10 @@ description: 您可以將標籤新增至卡片，以視覺化方式顯示兩者�
 author: Lisa
 feature: Agile
 exl-id: 0071fa0d-8164-42d2-bbc6-bd60f8e0c052
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 1%
+source-wordcount: '543'
+ht-degree: 3%
 
 ---
 
@@ -25,22 +25,19 @@ ht-degree: 1%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
    <td> 
-   <p>新增：[!UICONTROL Contributor]或以上</p> 
-   <p>或</p>
-   <p>目前： [!UICONTROL Request]或以上</p>
+   <p>投稿人或以上</p> 
+   <p>要求或更高版本</p>
    </td> 
   </tr> 
  </tbody> 
@@ -59,7 +56,7 @@ ht-degree: 1%
 
    ![選取標籤管理員](assets/boards-tagmanager-350x189.png)
 
-1. 在[!UICONTROL 標籤管理員]對話方塊中，選取[!UICONTROL 面板標籤]區段中的&#x200B;[!UICONTROL **新增標籤**]。
+1. 在[!UICONTROL 標籤管理員]對話方塊中，選取&#x200B;[!UICONTROL **面板標籤**]&#x200B;區段中的[!UICONTROL 新增標籤]。
 1. 在反白顯示的方塊中輸入標簽名稱，然後從下拉式選單中選擇此標籤的顏色。 標籤會自動儲存。
 1. （視條件而定）重複步驟4至5以建立其他標籤。
 1. 按一下方塊右上角的&#x200B;**[!UICONTROL 完成]**。
@@ -104,7 +101,7 @@ ht-degree: 1%
    按一下「**[!UICONTROL 編輯]**」圖示&#x200B;![編輯標籤](assets/boards-edittag-30x29.png)，然後在標籤管理員中建立新標籤。 按一下&#x200B;**完成**&#x200B;以返回卡片，然後選取卡片上的標籤。
 1. 按一下 **關閉**。
 
-## 編輯標籤
+## 編輯標記
 
 1. 存取展示板。
 1. 按一下主機板名稱旁的&#x200B;**[!UICONTROL 更多]**&#x200B;功能表![更多](assets/more-icon-spectrum.png)，然後選擇&#x200B;**[!UICONTROL 標籤管理員]**。
@@ -113,7 +110,7 @@ ht-degree: 1%
 
 1. （視條件而定）按一下標簽名稱以編輯文字。
 1. （視條件而定）按一下[!UICONTROL 色彩]下拉式功能表以變更標籤色彩。
-1. 按一下&#x200B;**[!UICONTROL 完成]**。
+1. 按一下「**[!UICONTROL 完成]**」。
 
 ## 從卡片移除標籤
 
@@ -127,7 +124,7 @@ ht-degree: 1%
 1. 尋找您要從卡片移除的標籤，然後按一下&#x200B;**[!UICONTROL 移除]**&#x200B;圖示![移除標籤](assets/copy-of-boards-remove-30x23.png)。
 1. 按一下 **[!UICONTROL 關閉]**。
 
-## 刪除標籤
+## 刪除標記
 
 1. 存取展示板。
 1. 按一下主機板名稱旁的&#x200B;**[!UICONTROL 更多]**&#x200B;功能表![[!UICONTROL 更多]](assets/more-icon-spectrum.png)，然後選擇&#x200B;**[!UICONTROL 標籤管理員]**。
@@ -135,4 +132,4 @@ ht-degree: 1%
    ![選取標籤管理員](assets/boards-tagmanager-350x189.png)
 
 1. 尋找您要刪除的標籤，然後按一下&#x200B;**[!UICONTROL 刪除]**&#x200B;圖示![刪除標籤](assets/copy-of-boards-delete-30x27.png)。
-1. 按一下&#x200B;**[!UICONTROL 完成]**。
+1. 按一下「**[!UICONTROL 完成]**」。

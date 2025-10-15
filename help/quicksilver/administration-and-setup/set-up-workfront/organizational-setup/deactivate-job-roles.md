@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 934cef1a-8157-45db-b000-24a08a94dd18
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 15063d937a5ba9b5285c66a0987e8deea6cc6d74
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '643'
 ht-degree: 1%
 
 ---
@@ -23,33 +23,31 @@ ht-degree: 1%
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
+## 存取需求
 
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視本文中功能的存取需求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td> 
-   <td> <p>任何 </p> </td> 
+   <td>[!DNL Adobe Workfront] 封裝</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td>
-   <p>新增：[!UICONTROL Standard]</p>
-   <p>或</p>
-   <p>目前： [!UICONTROL 計畫]</p></td> 
+   <td>[!DNL Adobe Workfront] 授權</td> 
+   <td><p>[！UICONTROL標準]</p>
+       <p>[！UICONTROL計畫]</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
-   <td>工作角色的管理存取權</td> 
+   <td>存取層級設定</td> 
+   <td>工作角色的管理存取權</td>
   </tr> 
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -70,9 +68,9 @@ ht-degree: 1%
 * [!UICONTROL 資源集區]中的[!UICONTROL 集區成員]欄位
 * 當使用者覆寫專案的計費費率時，[!UICONTROL 計費費率]編輯畫面的[!UICONTROL 工作角色]欄位
 * 專案中的[!UICONTROL 新增指派至Kanban面板]對話方塊
-* 當有人使用[!DNL Adobe Workfront Scenario Planner]時，計畫或方案的[!UICONTROL 工作角色]欄位。
+* 當有人使用[!UICONTROL 時，計畫或方案的]工作角色[!DNL Adobe Workfront Scenario Planner]欄位。
 
-  [!DNL Scenario Planner]僅在新的[!DNL Adobe Workfront]體驗中可用，而且需要額外的授權。 如需[!DNL Workfront Scenario Planner]的相關資訊，請參閱[&#x200B; [!DNL Scenario Planner] 概觀](../../../scenario-planner/scenario-planner-overview.md)。
+  [!DNL Scenario Planner]僅在新的[!DNL Adobe Workfront]體驗中可用，而且需要額外的授權。 如需[!DNL Workfront Scenario Planner]的相關資訊，請參閱[ [!DNL Scenario Planner] 概觀](../../../scenario-planner/scenario-planner-overview.md)。
 
 >[!TIP]
 >

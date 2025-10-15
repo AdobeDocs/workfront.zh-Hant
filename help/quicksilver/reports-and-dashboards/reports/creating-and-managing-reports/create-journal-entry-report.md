@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '2771'
+source-wordcount: '2763'
 ht-degree: 4%
 
 ---
@@ -35,28 +35,20 @@ ht-degree: 4%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-      <td> 
-      <p>新增：</p>
-         <ul>
-         <li><p>標準</p></li>
-         </ul>
-      <p>目前：</p>
-         <ul>
-         <li><p>規劃</p></li>
-         </ul>
-   </td> 
+   <td> 
+      <p>標準</p>
+      <p>規劃</p>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -69,7 +61,7 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -183,7 +175,7 @@ ht-degree: 4%
     <col> 
     <thead> 
      <tr> 
-      <th>直條</th> 
+      <th>欄</th> 
       <th>解釋</th> 
      </tr> 
     </thead> 
@@ -297,7 +289,7 @@ ht-degree: 4%
     <col> 
     <thead> 
      <tr> 
-      <th>直條</th> 
+      <th>欄</th> 
       <th>解釋</th> 
      </tr> 
     </thead> 
@@ -381,7 +373,7 @@ ht-degree: 4%
     <col> 
     <thead> 
      <tr> 
-      <th>直條</th> 
+      <th>欄</th> 
       <th>解釋</th> 
      </tr> 
     </thead> 
@@ -483,7 +475,7 @@ ht-degree: 4%
     <col> 
     <thead> 
      <tr> 
-      <th>直條</th> 
+      <th>欄</th> 
       <th>解釋</th> 
      </tr> 
     </thead> 
@@ -521,15 +513,15 @@ ht-degree: 4%
       <td> <p>計畫完成日期的目前值。</p> </td> 
      </tr> 
      <tr> 
-      <td> <p style="font-weight: bold;">專案名稱</p> <p>（可選）</p> </td> 
+      <td> <p style="font-weight: bold;">專案名稱</p> <p>(選填)</p> </td> 
       <td> <p>計畫完成日期變更的專案名稱。</p> </td> 
      </tr> 
      <tr> 
-      <td> <p style="font-weight: bold;">任務名稱</p> <p>（可選）</p> </td> 
+      <td> <p style="font-weight: bold;">任務名稱</p> <p>(選填)</p> </td> 
       <td> <p>專案中計畫完成日期變更的任務名稱。</p> </td> 
      </tr> 
      <tr> 
-      <td> <p style="font-weight: bold;">問題名稱</p> <p>（可選）</p> </td> 
+      <td> <p style="font-weight: bold;">問題名稱</p> <p>(選填)</p> </td> 
       <td>專案中計畫完成日期變更的問題名稱。</td> 
      </tr> 
     </tbody> 
@@ -584,7 +576,7 @@ ht-degree: 4%
     <col> 
     <thead> 
      <tr> 
-      <th>直條</th> 
+      <th>欄</th> 
       <th>解釋</th> 
      </tr> 
     </thead> 

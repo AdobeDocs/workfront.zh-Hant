@@ -6,10 +6,10 @@ description: 您可以從Adobe Workfront Marketplace安裝適用於XD的Adobe外
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
-source-git-commit: a5c4479833243bb5817196a3af8acaa063a16747
+source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 1%
+source-wordcount: '521'
+ht-degree: 2%
 
 ---
 
@@ -32,8 +32,6 @@ ht-degree: 1%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -41,21 +39,23 @@ ht-degree: 1%
  </col> 
  <tbody> 
  <!-- <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Pro] or higher</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] package/td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>[!UICONTROL Work] or [!UICONTROL Plan]</p> </td> 
+   <td>
+   <p>Standard</p>
+    <p>Work or higher</p> </td> 
   </tr> -->
   <tr> 
-   <td role="rowheader">產品</td> 
-   <td><p>除了[!DNL Workfront]授權之外，您還必須有[!DNL Adobe Creative Cloud]授權。</p><p>如需詳細資訊，請參閱<a href="https://helpx.adobe.com/tw/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Creative Cloud支援政策</a>。</p></td> 
+   <td role="rowheader">其他產品</td> 
+   <td><p>除了[!DNL Adobe Creative Cloud]授權之外，您還必須有[!DNL Workfront]授權。</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -69,16 +69,16 @@ ht-degree: 1%
 
 [在此觀看教學課程影片](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}。
 
-[!DNL Adobe Admin Console]管理員也可以建立僅含外掛程式的套件，以分發給使用者。 如需詳細資訊，請參閱 [!DNL Adobe Admin Console][&#128279;](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)中的[為您的使用者建立 [!DNL Creative Cloud]] 套裝的！UICONTROL [!DNL Adobe Workfront] 
+[!DNL Adobe Admin Console]管理員也可以建立僅含外掛程式的套件，以分發給使用者。 如需詳細資訊，請參閱[中的 [!DNL Adobe Workfront] 為您的使用者建立 [!DNL Creative Cloud]] 套裝的[！UICONTROL [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
 
 ## 個別安裝[!DNL Adobe Workfront for XD]外掛程式
 
-您可以從[!DNL Adobe Exchange]自行安裝[!DNL Adobe Workfront for XD]外掛程式。
+您可以從[!DNL Adobe Workfront for XD]自行安裝[!DNL Adobe Exchange]外掛程式。
 
 1. 前往Adobe Exchange上的[Adobe Workfront for XD安裝頁面](https://exchange.adobe.com/apps/cc/4c3566f9?pluginId=4c3566f9&workflow=share)。
 1. 在出現的對話方塊中，按一下&#x200B;**開啟[!DNL Adobe Creative Cloud]案頭應用程式**。
 1. 在[!DNL Adobe XD]外掛程式管理員開啟後，按一下&#x200B;**[!UICONTROL 安裝]**。
-1. 讀取對話方塊中的資訊，然後按一下[確定]。**&#x200B;**
+1. 讀取對話方塊中的資訊，然後按一下[確定]。****
 1. 請繼續參閱下節，瞭解如何開啟外掛程式的詳細資訊。
 
 ## 開啟[!DNL Adobe Workfront for XD]外掛程式
@@ -118,7 +118,7 @@ ht-degree: 1%
    >[!NOTE]
    >
    >* [!DNL Workfront]使用OAuth 2.0連線至[!DNL Adobe Creative Cloud]，這是大部分網頁式整合所使用的安全標準，用於驗證及授權使用者。
-   >* 當系統提示您輸入[!DNL Workfront]帳戶的[網域或主機]時，請使用下列格式輸入它： *yourCompany&#39;sDomain.my.workfront.com*。 您公司的網域通常是您公司的名稱。
+   >* 當系統提示您輸入[帳戶的]網域或主機[!DNL Workfront]時，請使用下列格式輸入它： *yourCompany&#39;sDomain.my.workfront.com*。 您公司的網域通常是您公司的名稱。
 
 1. 按一下&#x200B;**[!UICONTROL 允許存取]**&#x200B;以完成登入，然後返回[!DNL Adobe XD]檢視您的工作。
 

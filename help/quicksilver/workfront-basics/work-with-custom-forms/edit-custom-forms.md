@@ -7,50 +7,84 @@ description: 將表單附加到物件後，您可以編輯自訂表單上的資�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '985'
 ht-degree: 0%
 
 ---
 
 # 編輯自訂表單欄位中的資訊
 
+<!--Audited: 10/2025-->
+
 將表單附加到物件後，您可以編輯自訂表單上的資訊。 如需將自訂表單新增至物件的相關資訊，請參閱[將自訂表單新增至物件](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)。
 
 ## 存取需求
 
-您必須具備下列條件：
++++ 展開以檢視本文中功能的存取需求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>Adobe Workfront計畫*</p> </td> 
-   <td>團隊或以上</td> 
+   <td role="rowheader"> <p>Adobe Workfront套件</p> </td> 
+   <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Adobe Workfront授權*</p> </td> 
-   <td> <p>要求或更高版本</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront授權</p> </td> 
+   <td> <p>投稿人或以上</p> 
+   <p>要求或更高版本</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">存取層級*</td> 
-   <td> <p>編輯您要編輯自訂表單之物件的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何變更存取層級的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>編輯您要編輯自訂表單之物件的存取權</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>物件許可權</p> </td> 
    <td> 
     <ul> 
-     <li> <p>針對您要編輯自訂表單的物件，使用Contribute或更高的許可權</p> </li> 
-     <li>檢視您要編輯之欄位的許可權。 如需自訂欄位許可權共用的相關資訊，請參閱<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md" class="MCXref xref">設定自訂欄位和Widget的共用</a>。</li> 
-     <li> <p>編輯表單上要編輯的欄位所在區段的許可權</p> </li> 
-    </ul> <p>如需請求物件的其他存取許可權的相關資訊，請參閱<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取許可權。</p> </td> 
+     <li> <p>針對您要編輯自訂表單的物件，提供Contribute或更高的許可權</p> </li> 
+     <li><p>檢視您要編輯之欄位的許可權。</p></li> 
+     <li><p>編輯表單上要編輯的欄位所在區段的許可權</p></li> 
+    </ul></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>Adobe Workfront plan*</p> </td> 
+   <td>Team or higher</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Adobe Workfront licenses*</p> </td> 
+   <td> <p>Request or higher</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Access level*</td> 
+   <td> <p>Edit access to the object for which you want to edit the custom form</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>Object permissions</p> </td> 
+   <td> 
+    <ul> 
+     <li> <p>Contribute or higher permissions on the object for which you want to edit the custom form</p> </li> 
+     <li>View permissions on the fields you want to edit. For information about sharing permissions for custom fields, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md" class="MCXref xref">Configure sharing for custom fields and widgets</a>.</li> 
+     <li> <p>Edit permissions for the sections on the form where the fields you want to edit are located</p> </li> 
+    </ul> <p>For information on requesting additional access for objects, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 先決條件
 
@@ -125,16 +159,14 @@ ht-degree: 0%
 1. 移至物件清單，其中包含具有計算欄位的自訂表單。
 1. 選取要更新其計算自訂欄位的物件。
 1. 按一下&#x200B;**編輯圖示**。
-1. 按一下左側功能表中的[自訂Forms]&#x200B;**&#x200B;**，然後選取[重新計算自訂運算式]&#x200B;**&#x200B;**。
+1. 按一下左側功能表中的[自訂Forms]****，然後選取[重新計算自訂運算式]****。
 1. 按一下&#x200B;**儲存** **變更**。
 
    Workfront會為所有選取的物件計算所有自訂欄位。
 
 >[!TIP]
 >
->根據您專案的複雜性，我們建議不要在大量重新計算已計算的自訂欄位時選取大量專案以確保最佳效能。 有些因素會導致專案過於複雜，包括多重相依性或指派，或大量自訂欄位。
->
->若要從專案清單大量重新計算自訂運算式：
+>您也可以從物件清單重新計算自訂運算式。 例如，若要從專案清單大量重新計算自訂運算式：
 >
 >1. 前往專案清單或報告，然後選取一或多個專案。
 >1. 按一下&#x200B;**更多**&#x200B;功能表![](assets/more-icon.png)，然後按一下&#x200B;**重新計算自訂運算式**。
@@ -142,3 +174,7 @@ ht-degree: 0%
 >![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 >
 >Workfront會為所有選取的專案計算所有自訂欄位。
+>>並非所有物件的清單都有此功能。
+>
+>根據您專案的複雜性，我們建議不要在大量重新計算已計算的自訂欄位時選取大量專案以確保最佳效能。 有些因素會導致專案過於複雜，包括多重相依性或指派，或大量自訂欄位。
+

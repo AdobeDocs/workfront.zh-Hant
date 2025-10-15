@@ -6,9 +6,9 @@ description: 您可以將外部網頁內嵌在控制面板中，藉此存取Adob
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1017'
 ht-degree: 1%
 
 ---
@@ -29,23 +29,23 @@ ht-degree: 1%
 >
 >
 >* 儀表板頁面不再支援作為儀表板中的內嵌外部頁面。 雖然現有儀表板不會自動修改以移除這些外部頁面，但對包含此類參考的儀表板所做的任何修改都無法儲存，直到移除或更改參考為止。
-> 具體來說，下列Workfront.com子網域不再受支援：
+>  > 具體來說，下列Workfront.com子網域不再受支援：
 >
 >     * /&#x200B;控制面板
->     * /dashboard/：ID&#x200B;
->     * /portfolio/：ID/content-dashboard__：dashboardID&#x200B;
->     * /program/：ID/content-dashboard__：dashboardID&#x200B;
->     * /project/：ID/content-dashboard__：dashboardID&#x200B;
->     * /task/：ID/content-dashboard__：dashboardID&#x200B;
->     * /template/：ID/content-dashboard__：dashboardID&#x200B;
->     * /templatetask/：ID/content-dashboard__：dashboardID&#x200B;
->     * /resourcemanagement/：ID/
->     * content-dashboard__：dashboardID&#x200B;
->     * /team/：ID/content-dashboard__：dashboardID&#x200B;
->     * /iteration/：ID/content-dashboard__：dashboardID&#x200B;
->     * /requests/：ID/content-dashboard__：dashboardID&#x200B;
->     * /group/：ID/content-dashboard__：dashboardID&#x200B;
->     * /billingrecord/：ID/content-dashboard__：dashboardID
+>     * /dashboard/:ID&#x200B;
+>     * /portfolio/:ID/content-dashboard__:dashboardID&#x200B;
+>     * /program/:ID/content-dashboard__:dashboardID&#x200B;
+>     * /project/:ID/content-dashboard__:dashboardID&#x200B;
+>     * /task/:ID/content-dashboard__:dashboardID&#x200B;
+>     * /template/:ID/content-dashboard__:dashboardID&#x200B;
+>     * /templatetask/:ID/content-dashboard__:dashboardID&#x200B;
+>     * /resourcemanagement/:ID/
+>     * content-dashboard__:dashboardID&#x200B;
+>     * /team/:ID/content-dashboard__:dashboardID&#x200B;
+>     * /iteration/:ID/content-dashboard__:dashboardID&#x200B;
+>     * /requests/:ID/content-dashboard__:dashboardID&#x200B;
+>     * /group/:ID/content-dashboard__:dashboardID&#x200B;
+>     * /billingrecord/:ID/content-dashboard__:dashboardID
 >
 >作為替代解決方案，請考慮在您的儀表板中包含清單報告，如[將報告新增到儀表板](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md)中所述
 
@@ -53,41 +53,34 @@ ht-degree: 1%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具備下列條件：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront計畫</strong></td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront授權</strong></td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
    <td> 
-      <p>新增：</p>
-         <ul>
-         <li><p>標準</p></li>
-         </ul>
-      <p>目前：</p>
-         <ul>
-         <li><p>規劃</p></li>
-         </ul>
-   </td>
+      <p>標準</p>
+      <p>規劃</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>存取層級設定</strong></td> 
-   <td> <p>編輯報告、儀表板和行事曆的存取權</p> </td> 
-  </tr> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>編輯報告、儀表板和行事曆的存取權</p></td> 
+  </tr>  
   <tr> 
-   <td role="rowheader"><strong>物件許可權</strong></td> 
+   <td role="rowheader">物件許可權</td> 
    <td> <p>編輯儀表板的存取權</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
 
 +++
 

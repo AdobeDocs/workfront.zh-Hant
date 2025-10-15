@@ -6,10 +6,11 @@ title: 刪除範本任務
 description: 如果不再需要範本任務，您可以將其刪除。 已刪除的範本任務無法復原。 不會刪除或修改從範本任務建立的專案任務。
 author: Alina
 feature: Work Management
-source-git-commit: bbf2d987bf3267117ab61b123141dd2cb2f82fc3
+exl-id: dd733e9f-8045-4b65-828b-fe6aa40d973f
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 3%
+source-wordcount: '275'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +25,7 @@ ht-degree: 3%
 
 ## 存取需求
 
-+++ 展開以檢視存取需求。 
++++ 展開以檢視本文中功能的存取需求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,12 +36,12 @@ ht-degree: 3%
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront授權*</p></td> 
-   <td> <p>標準 </p>
-   <p>規劃 </p> </td> 
+   <td role="rowheader"><p>Adobe Workfront授權</p></td> 
+   <td> <p>標準</p>
+   <p>規劃</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>存取層級</p></td> 
+   <td role="rowheader"><p>存取層級設定</p></td> 
    <td> <p>編輯範本的存取權</p>  </td> 
   </tr> 
   <tr> 
@@ -50,9 +51,35 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td> <p>Standard </p>
+   <p>Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level</p></td> 
+   <td> <p>Edit access to Templates</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Object permissions</p> </td> 
+   <td> <p>Manage permissions for a template.</p> <p>You cannot share a template task.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 刪除範本任務
 
@@ -76,7 +103,3 @@ ht-degree: 3%
 >您可以按一下範本任務左側面板中的前置任務或子任務區段，以刪除前置任務或子任務。
 >
 >重複上述步驟以刪除範本任務前置任務或子任務。
-
-
-
-

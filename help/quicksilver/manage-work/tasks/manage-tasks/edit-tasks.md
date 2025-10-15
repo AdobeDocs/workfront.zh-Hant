@@ -7,7 +7,7 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: ea0ae13abe9373bef7a1d146ca1951c8c383f994
+source-git-commit: 00e693fc8b35a59f6ed212bc30da7f85cc78c845
 workflow-type: tm+mt
 source-wordcount: '3829'
 ht-degree: 4%
@@ -48,11 +48,11 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td> <p>任何 </p> </td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
    <td> <p>標準</p>
    <p>工作或更高</p> </td> 
   </tr> 
@@ -82,6 +82,44 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 *如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Standard</p>
+   <p>Work or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>Edit access to Tasks and Projects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> 
+    <ul> 
+     <li> <p>Contribute permissions to a task to edit the following information in the Task Details area: </p>
+     <ul>
+     <li>Description</li>
+     <li>Status</li>
+     </ul>  
+      </li> 
+     <li> <p>Manage permissions to a task to edit all the information in the Details area and the Edit Task box</p> </li> 
+    </ul> 
+    <ul> 
+     <li> <p>Contribute or higher permissions to the project</p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 編輯任務的限制
 
@@ -471,7 +509,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    </td> 
    </tr> 
    <tr> 
-   <td role="rowheader">配置</td> 
+   <td role="rowheader">分配</td> 
    <td> <p>如果您的任務限制是計算的工作或投入比導向，請為每個受指派人指定<strong>配置%</strong> （配置百分比）。 這是受指派人排程中可在此任務上花費的時間。 變更受指派人的配置百分比將會變更任務的計畫時數。 </p> <p>當「任務限制」為「簡單」時，您可以指定下列專案：</p> 
       <ul> 
       <li> <p>每個受指派人的分配時數。</p> </li> 

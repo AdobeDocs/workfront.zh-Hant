@@ -2,10 +2,10 @@
 navigation-topic: business-case-and-scorecards
 title: 業務案例中的預算資源
 description: 作為資源計畫的一部分，當您建立業務案例時，可以編列完成專案中工作所需的職務角色預算。 如需建立業務案例的詳細資訊，請參閱為專案建立業務案例。
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 85aa13c7-e48d-4b8c-89f7-1ba7f66670b0
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: fa0b4322b9f7c1d506cf194645c7ae50ad8c0f0b
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%
@@ -24,9 +24,9 @@ ht-degree: 0%
 
 * 使用資源規劃工具將資源集區套用至專案和預算職位角色。
 
-  如需詳細資訊，請參閱使用資源規劃工具[&#128279;](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md)的業務案例中的預算資源。
+  如需詳細資訊，請參閱使用資源規劃工具[的業務案例中的](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md)預算資源。
 
-* 使用Scenario Planner建立具有所需職務角色的方案，並將它們連結至專案。 如需詳細資訊，請參閱使用案例規劃工具[&#128279;](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)的業務案例中的預算資源。
+* 使用Scenario Planner建立具有所需職務角色的方案，並將它們連結至專案。 如需詳細資訊，請參閱使用案例規劃工具[的業務案例中的](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)預算資源。
 
   >[!NOTE]
   >

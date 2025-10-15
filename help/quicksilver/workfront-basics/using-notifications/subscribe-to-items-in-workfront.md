@@ -5,9 +5,9 @@ description: Adobe Workfront會傳送有關您指派給或擁有之專案的通�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 5eee62b8-d72e-4263-a0c5-749047bc6812
-source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
+source-git-commit: 770e20cf9e32ac9884f5eb320f7067fcf162c63d
 workflow-type: tm+mt
-source-wordcount: '1603'
+source-wordcount: '1556'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 ## 存取需求
 
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,25 +43,29 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL Adobe Workfront]計畫*</strong></td> 
+   <td role="rowheader"><strong>[！UICONTROL Adobe Workfront]套件</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>[!UICONTROL Request]或更高版本</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權</strong></td> 
+   <td> 
+   <p>投稿人或以上</p>
+   <p>要求或更高版本</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>存取層級設定*</strong></td> 
-   <td> <p>若您的[!DNL Workfront]管理員已啟用<strong>[!UICONTROL 檢視，但檢視的更新已包含在您存取層級的交談]</strong>中，則您無法訂閱[!DNL Workfront]中的專案。</p> <p>注意：如果您還是沒有存取權，請詢問您的[!UICONTROL Workfront]管理員，他們是否對您的存取層級設定其他限制。 如需[!UICONTROL Workfront]管理員如何變更存取層級的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td role="rowheader"><strong>存取層級設定</strong></td> 
+   <td> <p>若您的[!DNL Workfront]管理員已啟用<strong>[！UICONTROL檢視，但檢視的更新已包含在您存取層級的交談]</strong>中，則您無法訂閱[!DNL Workfront]中的專案。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>[!UICONTROL 檢視]專案、任務或問題（要訂閱的）的存取權或以上許可權</p> <p>[!UICONTROL Manage]專案、任務或問題的[!UICONTROL Share]存取許可權和（訂閱其他）問題的許可權</p> </td> 
+   <td> <p>[！UICONTROL檢視]專案、任務或問題（要訂閱的）的存取權或以上許可權</p> <p>[！UICONTROL Manage]專案、任務或問題的[！UICONTROL Share]存取許可權和（訂閱其他）問題的許可權</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 訂閱專案
 
@@ -215,7 +219,7 @@ ht-degree: 0%
   如需當您的其中一個專案產生註解時觸發的電子郵件通知的詳細資訊，請參閱[Adobe Workfront通知](../../workfront-basics/using-notifications/wf-notifications.md)。
 
 * 如果您訂閱專案且發表了評論，則不會收到有關該評論的訂閱電子郵件，除非您在評論中包含您的姓名。
-* 如果對專案發表評論的使用者藉由鎖定評論而使評論變為私人，並且您不屬於與該使用者相同的公司，您將不會收到該評論的通知。 如需讓您的公司私密發表評論的詳細資訊，請參閱[更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)中的[新增更新至工作專案](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add)區段。
+* 如果對專案發表評論的使用者藉由鎖定評論而使評論變為私人，並且您不屬於與該使用者相同的公司，您將不會收到該評論的通知。 如需讓您的公司私密發表評論的詳細資訊，請參閱[更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add)中的[新增更新至工作專案](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)區段。
 
 * 您無法建立訂閱報表。 當有人訂閱或取消訂閱專案時，稽核會記錄在每個專案的更新狀態中。
-* 對子物件所做的註解不會觸發父物件的訂閱通知。 如果您訂閱專案，則只會收到對該專案所做評論的通知。 除非您訂閱每個子項，否則您將不會收到與專案相關聯的子項（即任務或問題）的註釋通知。 如需物件關係的詳細資訊，請參閱[瞭解 [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)中的物件中的[相互依存性和物件階層](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects)區段。
+* 對子物件所做的註解不會觸發父物件的訂閱通知。 如果您訂閱專案，則只會收到對該專案所做評論的通知。 除非您訂閱每個子項，否則您將不會收到與專案相關聯的子項（即任務或問題）的註釋通知。 如需物件關係的詳細資訊，請參閱[瞭解](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects)中的物件中的[相互依存性和物件階層 [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)區段。

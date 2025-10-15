@@ -6,9 +6,9 @@ description: 專案的狀態是放在專案上的旗標，以指出與其相關�
 author: Alina
 feature: Work Management
 exl-id: 1f46386e-e1ae-4845-8cc4-09dd7d39076f
-source-git-commit: b7f59552e5b66a3b2db765a49abdb2f49b1a51ec
+source-git-commit: 2d8ad8baa6c470fd82b61202cb42443f568b1968
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
@@ -23,25 +23,21 @@ Adobe Workfront管理員可以為您的環境建立自訂條件，如[建立或�
 
 ## 存取需求
 
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td><p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td>
-
-對於新授權：
-<p>標準</p>
-
-對於目前的授權：
-<ul><li><p>規劃</p>
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> 
+  <p>標準</p>
+   <p>規劃</p>
     </td> 
   </tr> 
   <tr> 
@@ -57,7 +53,43 @@ Adobe Workfront管理員可以為您的環境建立自訂條件，如[建立或�
  </tbody> 
 </table>
 
-*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。 如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td><p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> 
+   
+   For the new licenses:
+  <p>Standard</p>
+   
+   For current licenses:
+   <ul><li><p>Plan</p>
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>View or higher access to projects</p> <p>Edit access to tasks and issues </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View or higher permissions on tasks and issues to view their Condition</p>
+   <p>Manage permissions on tasks and issues to update the Condition</p>
+     </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 自動設定條件
 

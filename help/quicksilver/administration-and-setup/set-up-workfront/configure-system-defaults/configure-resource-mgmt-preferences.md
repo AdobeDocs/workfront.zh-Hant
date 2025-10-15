@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
-source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
+source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '628'
 ht-degree: 0%
 
 ---
@@ -29,31 +29,27 @@ Edit the first part, once they add more settings in the Res Management Preferenc
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td>任何</td> 
+   <td>[!DNL Adobe Workfront] 封裝</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td><p>新增：標準</p>
-   或
-   <p>目前：計畫</p>
-   </td> 
+   <td>[!DNL Adobe Workfront] 授權</td> 
+   <td><p>[！UICONTROL標準]</p>
+       <p>[！UICONTROL計畫]</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
-   <td>系統管理員</td>
+   <td>存取層級設定</td> 
+   <td>[！UICONTROL系統管理員]</td> 
   </tr> 
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -64,7 +60,7 @@ Edit the first part, once they add more settings in the Res Management Preferenc
 * 排程的時數，如使用者的排程或Workfront系統的預設排程中所定義。
 * 排程例外(視使用的排程而定，可能是使用者排程的例外，或是與Workfront預設排程相關的例外)。
 * 使用者的休假。
-* 使用者或[!DNL Workfront]系統之全時相當值([!UICONTROL FTE])的值。 如排程中所定義，使用者全職工作時，[!UICONTROL FTE]等於1。
+* 使用者或[!UICONTROL 系統之全時相當值(]FTE[!DNL Workfront])的值。 如排程中所定義，使用者全職工作時，[!UICONTROL FTE]等於1。
 * 使用者的[!UICONTROL 工作時間]值，代表使用者花費在專案相關工作的時間。 這不包括管理時間，例如會議和訓練。 當[!UICONTROL 工作時間]等於1，當使用者可以工作整個時間（如[!UICONTROL FTE]或排程所示）時，這表示他們不會花費任何時間在會議或訓練等與專案無關的工作上。
 
 

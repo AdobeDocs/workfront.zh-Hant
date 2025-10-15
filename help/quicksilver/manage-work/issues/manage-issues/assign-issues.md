@@ -3,13 +3,13 @@ product-area: projects
 navigation-topic: manage-issues
 title: 指派問題
 description: 您可以將問題指派給使用者、角色和團隊，以指出誰負責完成問題。 如需指派問題的一般資訊，請參閱修改問題指派概述。
-author: Alina
+author: Lisa
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: a0b635953245cf307b558d343ad234a27c96da94
+source-git-commit: 7aa420946115fc612ad1d9e310583e5453ae0678
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1432'
 ht-degree: 0%
 
 ---
@@ -47,35 +47,33 @@ ht-degree: 0%
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
- <col> 
- </col> 
+ </col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td>Adobe Workfront套件</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>新增：投稿人或更高版本</p>
-   <p>目前：檢閱或以上</p> </td> 
+   <td>Adobe Workfront授權</td> 
+   <td> <p>投稿人或以上</p>
+   <p>評論或以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級</td> 
+   <td>存取層級設定</td> 
    <td> <p>編輯問題的存取權</p> <p>檢視專案和任務的或更高存取權以指派一個問題</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件許可權</td> 
+   <td>物件許可權</td> 
    <td> <p>管理問題的許可權</p> <p> 指派一個問題時，檢視問題所在專案或任務的許可權或更高</p><p>指派多個問題時，為問題所在的專案或任務貢獻許可權或以上。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

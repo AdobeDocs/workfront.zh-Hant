@@ -6,7 +6,7 @@ description: Adobe Workfront中的甘特圖提供任務或專案清單時間表�
 author: Alina
 feature: Work Management
 exl-id: 96c4e254-ebbe-41d8-a178-7a79ac0abbbd
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # 開始使用[!UICONTROL 甘特圖]
 
-<!-- Audited: 01/2024 -->
+<!-- Audited: 08/2025 -->
 
 Adobe Workfront中的甘特圖提供任務或專案清單時間表的視覺化表示。
 
@@ -41,7 +41,7 @@ Adobe Workfront中的甘特圖提供任務或專案清單時間表的視覺化�
 
 ## 存取[!UICONTROL 甘特圖]
 
-[!DNL Workfront]中的[!UICONTROL 甘特圖]提供任務或專案清單的視覺化表示法。
+[!UICONTROL 中的]甘特圖[!DNL Workfront]提供任務或專案清單的視覺化表示法。
 
 您可以直接從專案上的工作清單或工作報告，檢視工作清單[!UICONTROL 甘特圖]。
 
@@ -108,8 +108,8 @@ Adobe Workfront中的甘特圖提供任務或專案清單時間表的視覺化�
 1. 移至下列任一區域：
 
    * [!UICONTROL **專案**]&#x200B;區域
-   * [!UICONTROL Portfolio]的&#x200B;[!UICONTROL **專案**]&#x200B;區段
-   * [!UICONTROL 方案]的&#x200B;[!UICONTROL **專案**]&#x200B;區段
+   * [!UICONTROL **Portfolio**]&#x200B;的[!UICONTROL 專案]區段
+   * [!UICONTROL **方案**]&#x200B;的[!UICONTROL 專案]區段
    * [!UICONTROL **專案**]&#x200B;報告
 
 1. 按一下專案清單頂端的&#x200B;[!UICONTROL **甘特圖**]&#x200B;圖示。

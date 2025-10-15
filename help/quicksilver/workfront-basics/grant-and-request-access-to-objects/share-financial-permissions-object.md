@@ -6,9 +6,9 @@ description: 指派存取層級時，您的Adobe Workfront管理員可授予您�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
-source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
+source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '504'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 除了授予使用者的存取層級之外，您還可以授予他們檢視或管理您有權共用之特定專案、任務或問題的財務的許可權。
 
-如需有關每個存取層級中的使用者可以對財務資料執行哪些操作的資訊，請參閱文章[每個物件型別可用的功能](../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)中的[財務資料](../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#financia)小節。
+如需有關每個存取層級中的使用者可以對財務資料執行哪些操作的資訊，請參閱文章[每個物件型別可用的功能](../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#financia)中的[財務資料](../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)小節。
 
 ## 存取需求
 
@@ -53,33 +53,34 @@ ht-degree: 1%
 </table>
 -->
 
-+++ 展開以檢視本文中功能的存取需求。
-您必須具備下列專案才能共用物件的財務資料資訊：
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
-   <td> <p>任何 </p> </td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>規劃 </p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>標準</p> 
+   <p>規劃</p> 
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>檢視專案、任務、問題和財務資料的或更高存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>檢視專案、任務、問題和財務資料的或更高存取權</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>檢視專案、任務和問題的許可權或以上包括至少檢視財務許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>檢視專案、任務和問題的許可權或以上包括至少檢視財務許可權</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -93,7 +94,7 @@ ht-degree: 1%
 若要授與物件的財務許可權：
 
 1. 前往您要與他人共用的任務、專案或問題。
-1. 在物件名稱附近，按一下[更多]功能表![](assets/more-icon.png)，然後按一下[共用]&#x200B;**&#x200B;**。
+1. 在物件名稱附近，按一下[更多]功能表![](assets/more-icon.png)，然後按一下[共用]****。
 
 1. 在&#x200B;**將`<Object name>`存取權授予**&#x200B;欄位中，開始輸入您要共用物件的使用者、團隊、角色、群組或公司的名稱。
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c22a7ced-da81-40b5-bb4d-69d59b855add
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '556'
 ht-degree: 0%
 
 ---
@@ -31,31 +31,27 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront計畫</p> </td> 
-   <td>任何</td> 
+  <tr> 
+   <td>Adobe Workfront套件</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td>
-   <p>新增：標準</p>
-   <p>或</p>
-   <p>目前：計畫</p></td>
+   <td>Adobe Workfront授權</td> 
+   <td><p>標準</p>
+       <p>規劃</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">存取層級設定</td> 
+  <tr> 
+   <td>存取層級設定</td> 
    <td> <p>管理自訂表單的存取權</p> </td> 
-  </tr> 
+  </tr>  
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -66,7 +62,7 @@ ht-degree: 0%
 1. 按一下&#x200B;**自訂Forms。**
 1. 按一下&#x200B;**欄位**&#x200B;以開啟[欄位]區域。
 1. 選取自訂欄位或Widget，然後按一下&#x200B;**刪除**。
-1. 如果您確定想要永久刪除專案，以及（如果是自訂欄位）附加物件上所有相關的資料，請按一下[是，刪除] **&#x200B;**。
+1. 如果您確定想要永久刪除專案，以及（如果是自訂欄位）附加物件上所有相關的資料，請按一下[是，刪除] ****。
 
 ## 移除自訂欄位而不會遺失使用者輸入的資料 {#remove-a-custom-field-without-losing-data-that-users-have-entered}
 
@@ -79,7 +75,7 @@ ht-degree: 0%
 
    1. 新增自訂欄位至您要從原始自訂表單中移除的新表單。
 
-      如需詳細資訊，請參閱[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)中的[新增新的或現有的欄位至自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-new-or-existing-fields-to-your-custom-form)小節。
+      如需詳細資訊，請參閱[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-new-or-existing-fields-to-your-custom-form)中的[新增新的或現有的欄位至自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)小節。
 
    1. 儲存新的自訂表格。
 

@@ -6,9 +6,9 @@ description: 跨專案前置任務是指另一個專案中另一個任務（稱�
 author: Alina
 feature: Work Management
 exl-id: 7e29e589-e0a5-437e-935d-d5bc1b268594
-source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '741'
 ht-degree: 0%
 
 ---
@@ -35,39 +35,63 @@ Adobe Workfront允許任務相依於其他專案中的任務，就像它允許�
 
 ## 存取需求
 
-+++ 展開以檢視存取需求。
-
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視本文中功能的存取需求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>標準 </p>
-
-<p>規劃 </p>
-   </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td><p>標準</p> 
+   <p>規劃</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級</td> 
+   <td role="rowheader">存取層級設定</td> 
    <td> <p>編輯任務與專案的存取權</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>管理任務和專案的許可權</p> </td> 
+   <td> <p>管理任務和專案的許可權</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*如需此表格中資訊的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Standard </p> 
+  
+   <p>Plan </p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>Edit access to Tasks and Projects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to the tasks and the projects</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 建立跨專案前置任務
 

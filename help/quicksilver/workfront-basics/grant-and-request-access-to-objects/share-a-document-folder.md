@@ -6,9 +6,9 @@ description: 您可以從「檔案」區域共用資料夾及其內容。
 author: Alina
 feature: Get Started with Workfront
 exl-id: c0d318a8-b1cf-4522-b478-acf092687658
-source-git-commit: 842c61cf6dfee0c79b1c95ff84888083c9f5b5a4
+source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '854'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 >
 >* 資料夾必須位於物件上資料夾階層的前五個層級。 第六層級或更低層級的每個資料夾都會從其正上方的資料夾繼承其共用設定。
 >
->  如需新增子資料夾以建立資料夾階層的相關資訊，請參閱文章[建立檔案資料夾](../../documents/organizing-documents/create-documents-folder.md)中的[建立資料夾和子資料夾](../../documents/organizing-documents/create-documents-folder.md#creating-folders)小節。
+>  如需新增子資料夾以建立資料夾階層的相關資訊，請參閱文章[建立檔案資料夾](../../documents/organizing-documents/create-documents-folder.md#creating-folders)中的[建立資料夾和子資料夾](../../documents/organizing-documents/create-documents-folder.md)小節。
 >
 >* 無法共用智慧資料夾。
 >* 如果您在範本中設定檔案資料夾的共用選項，然後有人從該範本建立專案，則您的共用設定不會轉移到新專案中的檔案資料夾。
@@ -61,34 +61,34 @@ ht-degree: 0%
  </tbody> 
 </table>
 -->
-+++ 展開以檢視本文中功能的存取需求。
-
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>評論或以上</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>淺色或更高</p> 
+   <p>評論或以上</p> 
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>檢視檔案的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>檢視檔案的存取權</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>檢視物件的存取權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>檢視物件的存取權</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -144,7 +144,7 @@ ht-degree: 0%
 
 目前，當您共用資料夾時，收件者在其「檔案」區域中看不到該資料夾。 但是，他們可以透過執行檔案報告來存取其檔案。
 
-如需有關執行報表的資訊，請參閱文章[瞭解Adobe Workfront中的物件](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)中的[物件報表](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects)一節。 另請參閱[建立自訂報表](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
+如需有關執行報表的資訊，請參閱文章[瞭解Adobe Workfront中的物件](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects)中的[物件報表](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)一節。 另請參閱[建立自訂報表](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
 <!--
 <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">

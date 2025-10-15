@@ -6,10 +6,10 @@ description: 您可以使用範本作為框架，在Adobe Workfront中建立專�
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '1180'
-ht-degree: 0%
+source-wordcount: '1159'
+ht-degree: 1%
 
 ---
 
@@ -45,29 +45,24 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td> <p>任何 </p> </td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Workfront授權*</td> 
-   <td> <p>新增：標準</p>
-        <p>或</p>
-        <p>目前：計畫 </p> </td> 
+   <td role="rowheader">Workfront授權</td> 
+   <td> <p>標準</p>
+        <p>規劃</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級</td> 
+   <td role="rowheader">存取層級設定</td> 
    <td> <p>編輯專案和範本的存取權</p>
-
-<p>如果您使用的範本包含Portfolio和計畫，請編輯投資組合和計畫的存取權</p>
-
-</td> 
+   <p>如果您使用的範本包含Portfolio和計畫，請編輯投資組合和計畫的存取權</p>  
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
@@ -78,9 +73,42 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*如需此表格中資訊的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Workfront license*</td> 
+   <td> <p>New: Standard</p>
+        <p>or</p>
+        <p>Current: Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>Edit access to Projects and to Templates</p>
+   
+   <p>edit access to Portfolios and Programs, if the template you use contains a Portfolio and a Program</p>
+   
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View permissions to a template</p> 
+  <p>If the template you use contains a Portfolio and a Program, you must have Manage permissions to the portfolio and program to create the project </p> 
+   <p>When you create a project, you automatically receive Manage permissions to the project.</p></td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 從專案區域中的範本建立專案
 
@@ -123,7 +151,7 @@ ht-degree: 0%
 
    或
 
-   執行下列動作：
+   請執行下列動作：
 
    1. 從範本&#x200B;**選取**&#x200B;新專案。
    1. 在&#x200B;**搜尋範本**&#x200B;欄位中，開始輸入範本的名稱，並在範本顯示在清單中時按一下它。

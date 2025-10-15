@@ -6,9 +6,9 @@ description: 您可以使用Adobe Workfront工作負載平衡器大量指派資�
 author: Lisa
 feature: Resource Management
 exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1528'
 ht-degree: 1%
 
 ---
@@ -19,31 +19,27 @@ ht-degree: 1%
 
 您可以使用Adobe Workfront工作負載平衡器大量指派資源給多個任務和問題。
 
-如需使用工作負載平衡器指派工作給使用者的一般資訊，請參閱在工作負載平衡器[&#128279;](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)中指派工作的總覽。
+如需使用工作負載平衡器指派工作給使用者的一般資訊，請參閱在工作負載平衡器[中指派工作的總覽。](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 
 ## 存取需求
 
 +++ 展開以檢視本文中功能的存取需求。
-
-您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td> <p>任何 </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td><p>新增：標準</p>
-       <p>或</p>
-       <p>目前：計畫，在資源區域使用工作負載平衡器時；</br>
-       工作，使用團隊或專案的工作負載平衡器時</p></td>
+   <td>Adobe Workfront套件</td> 
+   <td><p>任何</p></td>
   </tr>
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
+   <td>Adobe Workfront授權</td> 
+   <td><p>標準</p>
+       <p>計畫：在資源區域使用工作負載平衡器；工作，使用團隊或專案的工作負載平衡器</p></td>
+  </tr>
+  <tr> 
+   <td>存取層級設定</td> 
    <td> <p>編輯下列專案的存取權：</p> 
     <ul> 
      <li>資源管理</li> 
@@ -54,13 +50,13 @@ ht-degree: 1%
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件許可權</td> 
+   <td>物件許可權</td> 
    <td>包含進行指派的專案、任務和問題的貢獻許可權或更高</td> 
   </tr> 
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -119,7 +115,7 @@ ht-degree: 1%
 
    或
 
-   按一下「大量任務」面板右上角的「全部清除&#x200B;**&#x200B;**」以移除所有選取專案。
+   按一下「大量任務」面板右上角的「全部清除&#x200B;****」以移除所有選取專案。
 
 1. 選取下列其中一個選項，然後繼續下列步驟：
 

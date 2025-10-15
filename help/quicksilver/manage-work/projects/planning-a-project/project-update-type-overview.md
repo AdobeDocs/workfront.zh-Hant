@@ -2,12 +2,12 @@
 content-type: overview
 product-area: projects
 navigation-topic: plan-a-project
-title: 專案更新型別總覽
+title: 專案更新型別概觀
 description: 專案的更新型別會指示Adobe Workfront計算專案時間表的方式。 專案計畫的變更可能會觸發專案時間表變更。 專案的時間表必須自動或手動重新計算，以確保符合這些變更的最新狀態。
 author: Alina
 feature: Work Management
 exl-id: a6394961-2ac8-4b95-aa1b-dba8108c612f
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 0%

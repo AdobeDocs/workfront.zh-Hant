@@ -7,9 +7,9 @@ description: 當您規劃公司的長期策略時，一開始您可能沒有或�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 9a79ef81-6271-4cc9-b701-3ba0aeafb324
-source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
+source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '931'
 ht-degree: 1%
 
 ---
@@ -22,48 +22,79 @@ ht-degree: 1%
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] 計畫*</p> </td> 
-   <td> <ul></li>
-   <li><p>新增： Ultimate </p></li>
-   <p>新的Workfront Select或Workfront Prime計畫無法使用「情境規劃工具」。 </p>
-   <li><p>目前： [!UICONTROL Business]或更高版本</p></ul>
+   <td> <p>[!DNL Adobe Workfront] 封裝</p> </td> 
+   <td> 
+   <p>Workfront Ultimate</p>
+<p><b>附註</b></p>
+<p>如果您有不同的Workfront套件，請洽詢您的Workfront代表。</p>
    </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] 授權*</p> </td> 
-   <td> <p>新增：淺色或更高</p> 
-   <p>目前： [!UICONTROL Review]或以上</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] 授權</p> </td> 
+   <td> <p>[！UICONTROL Light]或更高</p> 
+   <p>[！UICONTROL Review]或更高版本</p> </td> 
+  </tr> 
+    <tr> 
+   <td>存取層級設定</td> 
+   <td> <p>[！UICONTROL Edit]對的存取權 [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr> 
-   <td>產品* </td> 
-   <td> <ul><li><p>針對新的Workfront計畫：</p><p> Adobe Workfront</li></p>
-   <li><p>針對目前的Workfront計畫： </p>
-   <p>Adobe Workfront</p> <p>Adobe Workfront情境規劃工具</p></li></ul>
-
-<p>如需詳細資訊，請參閱<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">使用[!DNL Scenario Planner]</a>所需的存取權。 </p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td>存取層級 </td> 
-   <td> <p>[!UICONTROL Edit]對的存取權 [!DNL Scenario Planner]</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
    <td> <p>物件許可權 </p> </td> 
-   <td> <p>[!UICONTROL Manage]計畫的許可權</p> <p>如需有關請求對計畫的額外存取權的資訊，請參閱<a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">在[!DNL Scenario Planner]</a>中請求對計畫的存取權。</p> </td> 
+   <td> <p>[！UICONTROL Manage]計畫的許可權</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
+如需有關存取Scenario Planner的詳細資訊，請參閱[使用 [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md)所需的存取。
 
-*如需詳細資訊，請參閱[Workfront檔案的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需Workfront存取需求的相關資訊，請參閱[Workfront檔案的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
+   <td> <ul></li>
+   <li><p>New: Ultimate </p></li>
+   <p>The Scenario Planner is not available for the new Workfront Select or Workfront Prime plans. </p>
+   <li><p>Current: [!UICONTROL Business] or higher</p></ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] license*</p> </td> 
+   <td> <p>New: Light or higher</p> 
+   <p>Current: [!UICONTROL Review] or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Product* </td> 
+   <td> <ul><li><p>For the new Workfront plans:</p><p> Adobe Workfront</li></p>
+   <li><p>For the current Workfront plans: </p>
+   <p>Adobe Workfront</p> <p>Adobe Workfront Scenario Planner</p></li></ul>
+   
+   <p>For more information, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the [!DNL Scenario Planner]</a>. </p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Access level </td> 
+   <td> <p>[!UICONTROL Edit] access to the [!DNL Scenario Planner]</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p>Object permissions </p> </td> 
+   <td> <p>[!UICONTROL Manage] permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 建立案例
 
@@ -128,7 +159,7 @@ ht-degree: 1%
     <tbody> 
      <tr> 
       <td>情境的名稱</td> 
-      <td> <p>Workfront自動產生的名稱，無法編輯。 例如，「[!UICONTROL 初始情境]」、「[!UICONTROL 情境2]」等。 </p> </td> 
+      <td> <p>Workfront自動產生的名稱，無法編輯。 例如，「[！UICONTROL初始情境]」、「[！UICONTROL情境2]」等。 </p> </td> 
      </tr> 
      <tr> 
       <td>案例說明</td> 
@@ -144,19 +175,19 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td>預算</td> 
-      <td>在此案例中為計畫定義的預算總計。 如需計畫的預算資訊，請參閱[!DNL Scenario Planner]</a>中的<a href="../scenario-planner/plans-overview.md" class="MCXref xref">計畫總覽。 </td> 
+      <td>在此案例中為計畫定義的預算總計。 如需計畫的預算資訊，請參閱<a href="../scenario-planner/plans-overview.md" class="MCXref xref">中的[!DNL Scenario Planner]</a>計畫總覽。 </td> 
      </tr> 
      <tr> 
       <td>成本</td> 
-      <td>與案例上的方案相關聯的成本。 如需有關成本的資訊，請參閱[!DNL Scenario Planner]</a>中的<a href="../scenario-planner/initiatives-overview.md" class="MCXref xref">方案概觀。 </td> 
+      <td>與案例上的方案相關聯的成本。 如需有關成本的資訊，請參閱<a href="../scenario-planner/initiatives-overview.md" class="MCXref xref">中的[!DNL Scenario Planner]</a>方案概觀。 </td> 
      </tr> 
      <tr> 
       <td>使用情況</td> 
-      <td>此情境中計畫的[!UICONTROL 預算使用率]百分比。 如需[!UICONTROL 預算使用率]百分比的相關資訊，請參閱[!DNL Scenario Planner]</a>中的<a href="../scenario-planner/plans-overview.md" class="MCXref xref">計畫總覽。 </td> 
+      <td>此情境中計畫的[！UICONTROL預算使用率]百分比。 如需[！UICONTROL預算使用率]百分比的相關資訊，請參閱<a href="../scenario-planner/plans-overview.md" class="MCXref xref">中的[!DNL Scenario Planner]</a>計畫總覽。 </td> 
      </tr> 
      <tr> 
       <td>淨值</td> 
-      <td>此情境中計畫的[!UICONTROL 淨值]。 如需有關計畫的[!UICONTROL 淨值]的資訊，請參閱[!DNL Scenario Planner]</a>中的<a href="../scenario-planner/plans-overview.md" class="MCXref xref">計畫總覽。 </td> 
+      <td>此情境中計畫的[！UICONTROL淨值]。 如需有關計畫的[！UICONTROL淨值]的資訊，請參閱<a href="../scenario-planner/plans-overview.md" class="MCXref xref">中的[!DNL Scenario Planner]</a>計畫總覽。 </td> 
      </tr> 
      <tr> 
       <td>方案</td> 

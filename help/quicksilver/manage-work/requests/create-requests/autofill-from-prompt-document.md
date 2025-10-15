@@ -5,9 +5,9 @@ description: 您可以使用AI輸入提示或提供檔案來自動填寫請求�
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: 2c46145ef24c6870239edc1e5fa96f88f4cb2fd7
+source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
 workflow-type: tm+mt
-source-wordcount: '1368'
+source-wordcount: '1345'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 2%
 >   * 每月發行： 2025年9月11日
 >   * 每季發行： 2025年10月16日
 >
->* 若要使用此功能，您的組織必須符合使用Workfront AI Assistant的需求。 如需詳細資訊，請參閱[&#x200B; AI助理的必要條件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
+>* 若要使用此功能，您的組織必須符合使用Workfront AI Assistant的需求。 如需詳細資訊，請參閱[ AI助理的必要條件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
 
 AI表單填寫可協助您根據輸入的提示自動填寫請求欄位。 它也可以根據文字（例如電子郵件和已上傳的檔案）填寫欄位。 您可以在提交請求之前核准或拒絕這些建議。
 
@@ -33,8 +33,6 @@ AI表單填寫不會覆寫您已填寫的任何欄位。
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -45,9 +43,8 @@ AI表單填寫不會覆寫您已填寫的任何欄位。
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：投稿人或更高版本</p>
-   或
-   <p>目前：要求或以上</p>
+   <td> <p>投稿人或以上</p>
+   <p>要求或更高版本</p>
     </td> 
   </tr> 
   <tr> 
@@ -61,7 +58,7 @@ AI表單填寫不會覆寫您已填寫的任何欄位。
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

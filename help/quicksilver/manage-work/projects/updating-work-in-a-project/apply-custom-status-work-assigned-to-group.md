@@ -1,14 +1,14 @@
 ---
 product-area: projects
 navigation-topic: update-work-in-a-project
-title: 將狀態套用至與群組相關聯的工作
+title: 套用狀態至與群組相關聯的工作
 description: 如果專案與群組相關聯，您可以將系統層級狀態以及與該群組相關聯的自訂狀態套用至該專案上的專案、任務或問題。
 author: Alina
 feature: Work Management
 exl-id: 7564ab6a-8ddf-4e76-8e45-d59f9cf8d38b
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,37 @@ Alina, I moved this out of an admin article about statuses (Create and customize
 
 ## 存取需求
 
-<!--drafted for P&P:
++++ 展開以檢視本文中功能的存取需求。 
 
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>任何</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>標準</p>
+   <p>規劃</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>編輯專案的存取權</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>管理專案的許可權</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
+
+<!--Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -39,10 +68,7 @@ Alina, I moved this out of an admin article about statuses (Create and customize
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p> 
-   </td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -55,37 +81,7 @@ Alina, I moved this out of an admin article about statuses (Create and customize
    <td> <p>Manage permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
--->
-
-您必須具有下列存取權才能執行本文中的步驟：
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
-   <td> <p>任何</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>規劃 </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯專案的存取權</p> <p><b>附註</b>
-
-如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td>
-</tr> 
-  <tr> 
-   <td role="rowheader">物件許可權</td> 
-   <td> <p>管理專案的許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+</table>-->
 
 ## 更新專案群組和狀態
 
@@ -103,7 +99,7 @@ Alina, I moved this out of an admin article about statuses (Create and customize
    >如果您在&#x200B;**群組**&#x200B;下拉式功能表中選取不同的群組，**狀態**&#x200B;功能表中的自訂狀態會自動變更，以便與新的群組建立關聯。
    >
    >
-   >以專案![&#128279;](assets/status-drop-down-expanded-with-custom-statuses-for-project-nwe.png)的自訂狀態展開的狀態下拉式清單   >
+   >以專案![的自訂狀態展開的](assets/status-drop-down-expanded-with-custom-statuses-for-project-nwe.png)狀態下拉式清單
    >
 
 1. 選取專案狀態。 您建立並套用至該群組的自訂狀態會顯示在清單中。

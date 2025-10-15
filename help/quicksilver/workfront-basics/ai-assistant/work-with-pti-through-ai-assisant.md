@@ -5,9 +5,9 @@ description: 您可以使用「摘要」這項功能，快速摘要工作專案�
 author: Becky
 feature: Get Started with Workfront
 exl-id: 5b0e1002-b6e9-4354-9ead-643de1de5bab
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+source-git-commit: e9a9e45720c8b9ad25e3fa9340c813a73989fb4a
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
@@ -27,13 +27,11 @@ AI助理可以協助您在Workfront中找到專案、任務和問題。
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront計畫</td> 
-   <td><p>新增：任何</p>
-       <p>目前：無法使用</p></td>
+   <td><p>任何</p>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td><p>新增：標準</p>
-       <p>目前：無法使用</p></td>
+   <td><p>標準</p>
   </tr> 
  </tbody> 
 </table>

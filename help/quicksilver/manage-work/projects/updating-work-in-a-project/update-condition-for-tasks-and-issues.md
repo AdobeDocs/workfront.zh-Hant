@@ -6,9 +6,9 @@ description: 任務或問題的條件是在其上放置標誌以指示進展情�
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: b7f59552e5b66a3b2db765a49abdb2f49b1a51ec
+source-git-commit: 2d8ad8baa6c470fd82b61202cb42443f568b1968
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1059'
 ht-degree: 1%
 
 ---
@@ -38,16 +38,15 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
    <td> 
-   新增:
    <ul><li><p>任務的標準</p></li>
    <li><p>問題的貢獻者或以上版本</p></li></ul>
-   目前：
+  <p>或</p>
    <ul><li><p>工作或更高的任務</p></li>
    <li><p>要求或更高版本的問題</p></li></ul>
     </td> 
@@ -65,9 +64,43 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> 
+   New:
+   <ul><li><p>Standard for tasks</p></li>
+   <li><p>Contributor or higher for issues</p></li></ul>
+   Current:
+   <ul><li><p>Work or higher for tasks</p></li>
+   <li><p>Request or higher for issues</p></li></ul>
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>View or higher access to projects</p> <p>Edit access to tasks and issues </p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View or higher permissions on tasks and issues to view their Condition</p>
+   <p>Contribute permissions on tasks and issues to update the Condition</p>
+  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 先決條件
 

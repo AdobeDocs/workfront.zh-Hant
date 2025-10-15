@@ -6,9 +6,9 @@ description: 為Salesforce安裝 [!DNL Adobe Workfront] 之後，您可以定義
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: b38c91ae-342b-4002-a947-7a0ab1aaca93
-source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
+source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
 workflow-type: tm+mt
-source-wordcount: '1581'
+source-wordcount: '1573'
 ht-degree: 3%
 
 ---
@@ -21,32 +21,35 @@ ht-degree: 3%
 >
 >為了滿足貴組織與Salesforce的整合需求，我們建議您使用Workfront自動化和整合。
 >
->如需Workfront自動化與整合的概觀，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+>如需Workfront自動化與整合的概觀，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 >
->如需Salesforce之Workfront自動化與整合模組的特定功能相關資訊，請參閱[Salesforce模組](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules)。
+>如需Salesforce之Workfront自動化與整合模組的特定功能相關資訊，請參閱[Salesforce模組](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules)。
 
 安裝Salesforce的[!DNL Adobe Workfront]之後，您可以定義在[!DNL Workfront] [!DNL Salesforce]機會[!UICONTROL 和]帳戶[!UICONTROL 上符合某些條件時，建立]專案的觸發器。
 
 ## 存取需求
 
-您必須具有下列存取權才能使用本文所述的功能：
++++ 展開以檢視本文中功能的存取需求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
-   <td> <p>[!UICONTROL Pro]或更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[!UICONTROL 計畫]</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>標準</p>
+   <p>規劃</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先決條件
 
@@ -159,7 +162,7 @@ ht-degree: 3%
       >專案只有在[!UICONTROL 機會]上更新階段時才會建立。 為更新「階段」欄位時指定的每個產品建立唯一的專案，而不是因為產品已新增到[!UICONTROL 機會]。
 
 1. （選擇性）按一下&#x200B;**[!UICONTROL 新增觸發器]**。
-1. （選擇性）從&#x200B;**[!UICONTROL [!DNL Salesforce]物件]**&#x200B;下拉式功能表中，選取**帳戶
+1. （選擇性）從&#x200B;**[!UICONTROL [!DNL Salesforce]物件]**下拉式功能表中，選取**帳戶
 **。
 
    這是必填欄位。
@@ -168,7 +171,7 @@ ht-degree: 3%
    1. 從&#x200B;**[!UICONTROL 型別]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 型別]**。
 
       任何**Account時
-**被指定為**&#x200B;[!UICONTROL 中在此指定的]&#x200B;**&#x200B;型別[!DNL Salesforce]，在&#x200B;**&#x200B;[!UICONTROL 中建立了一個]**&#x200B;專案[!DNL Workfront]。
+**被指定為**[!UICONTROL 中在此指定的]**&#x200B;型別[!DNL Salesforce]，在&#x200B;**[!UICONTROL 中建立了一個]**&#x200B;專案[!DNL Workfront]。
 
       這是必填欄位。
 

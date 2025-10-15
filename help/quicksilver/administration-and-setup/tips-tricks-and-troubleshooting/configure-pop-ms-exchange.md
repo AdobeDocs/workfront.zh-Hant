@@ -5,13 +5,13 @@ product-area: system-administration;setup
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: 在Microsoft Exchange中設定POP
 description: ' [!DNL Microsoft Exchange] 中的POP電子郵件帳戶已停用。'
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 4f7b6f40-cfbd-4f02-8c3e-de26b05db13b
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 929502c256011b464d938ad1095c127407e4a795
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -26,39 +26,31 @@ ht-degree: 0%
 
 在花費時間疑難排解問題之前，請先確定使用者的POP帳戶已正確設定。 如果您在確認POP帳戶已正確設定之後仍然遇到問題，請連絡[!DNL Microsoft]支援或其中一個合作夥伴以取得其他協助。
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">For instructions on integrating a POP account in Adobe Workfront, see .</p>
--->
-
 ## 存取需求
 
 +++ 展開以檢視本文中功能的存取需求。
-
-您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td> 
-   <td>任何</td> 
+   <td>[!DNL Adobe Workfront] 封裝</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td>
-   <p>新增：標準</p>
-   <p>或</p>
-   <p>目前：計畫</p></td> 
+   <td>[!DNL Adobe Workfront] 授權</td> 
+   <td><p>標準</p>
+       <p>規劃</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td> 
+   <td>存取層級設定</td> 
+   <td>[！UICONTROL系統管理員]</td> 
   </tr> 
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -66,7 +58,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->下列步驟可作為一般指南，用於為生產[!DNL Workfront]系統設定[!DNL Microsoft Exchange]中的POP。 根據Exchange的版本或Microsoft所做的程式碼變更，這些步驟可能會有顯著差異。
+>下列步驟可作為一般指南，用於為生產[!DNL Microsoft Exchange]系統設定[!DNL Workfront]中的POP。 根據Exchange的版本或Microsoft所做的程式碼變更，這些步驟可能會有顯著差異。
 
 1. 在Exchange 2010伺服器上啟動並啟用POP3服務。
 

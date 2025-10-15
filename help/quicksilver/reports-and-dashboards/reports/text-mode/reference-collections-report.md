@@ -6,7 +6,7 @@ description: 報表中的參考集合
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: 6bd9dc626befc4dfa4054760e7ec7d677f6da6e5
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
 source-wordcount: '2615'
 ht-degree: 0%
@@ -25,28 +25,20 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具備下列條件：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td> 
-      <p>新增：</p>
-         <ul>
-         <li><p>標準</p></li>
-         </ul>
-      <p>目前：</p>
-         <ul>
-         <li><p>規劃</p></li>
-         </ul>
-   </td>
+     <p>標準</p>
+     <p>規劃</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -59,7 +51,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -114,21 +106,21 @@ Workfront中的物件之間有下列兩種關係：
 
 ## 報表中的參考集合
 
-您可以在以下報告元素中從集合引用物件：
+您可以在下列報表元素中參照集合中的物件：
 
 * 檢視
 * 篩選器
 * 提示
 
-不能從以下報告元素中的集合引用物件：
+您無法在下列報表元素中參照集合中的物件：
 
 * 群組
 * 圖表
 
-例如，可以從專案報表引用任務或問題集合，以顯示專案級別的任務或問題資訊。
+例如，您可以從專案報告參考任務或問題集合，以在專案層級顯示任務或問題資訊。
 
-* [在報表的檢視中引用集合](#reference-a-collection-in-the-view-of-a-report)
-* [在報表篩選中參照集合](#reference-a-collection-in-the-filter-of-a-report)
+* [參考報表檢視中的集合](#reference-a-collection-in-the-view-of-a-report)
+* [參考報表篩選中的集合](#reference-a-collection-in-the-filter-of-a-report)
 * [在報表的自訂提示中參考集合](#reference-a-collection-in-the-custom-prompt-of-a-report)
 
 ### 在報表檢視中參考集合 {#reference-a-collection-in-the-view-of-a-report}
@@ -266,7 +258,7 @@ Workfront中的物件之間有下列兩種關係：
   </tr> 
   <tr> 
    <td><code>textmode=true</code> </td> 
-   <td> <p>此行指示列已使用文字模式進行配置。 如果刪除此行，Workfront 預設會將其重新添加。</p> </td> 
+   <td> <p>此行表示欄已使用文字模式設定。 如果您移除此行，Workfront會依預設將其新增回。</p> </td> 
   </tr> 
   <tr> 
    <td><code>type=iterate</code> </td> 
@@ -274,10 +266,10 @@ Workfront中的物件之間有下列兩種關係：
   </tr> 
   <tr> 
    <td><code>listdelimiter=&lt;p&gt;</code> </td> 
-   <td> <p>這是用來分隔清單中值的分隔字元。<br>我們建議使用<code>&lt;p&gt;</code>，在值之間新增分行符號。</p> <p>您也可以使用下列專案：</p> <p><code>&zwj;</code> （零寬度連接器）。 集合的值之間沒有分隔符號。<br><strong>，</strong> =逗號分隔符。集合的值之間以逗號分隔，後面沒有空格。<br><strong>/</strong> = 斜線分隔符。集合的值用斜杠分隔。<br><strong>-</strong> = 破折號分隔符。 集合的值之間用虛線隔開。<br>默認情況下，將此行留空會在集合值之間添加一個逗號，後跟一個空格。</p> </td> 
+   <td> <p>這是用來分隔清單中值的分隔字元。<br>我們建議使用<code>&lt;p&gt;</code>，在值之間新增分行符號。</p> <p>您也可以使用下列專案：</p> <p><code>&amp;zwj;</code> （零寬度聯結器）。 集合的值之間沒有分隔符號。<br><strong>，</strong> =逗號分隔符號。 集合的值以逗號分隔，後跟空格。<br><strong>/</strong> =斜線分隔符號。 集合的值以斜線分隔。<br><strong>-</strong> =破折號分隔符號。 集合的值以破折號分隔。<br>依照預設，將此行留空會在集合的值之間加上逗號，後面跟著空格。</p> </td> 
   </tr> 
   <tr> 
-   <td><code>displayname=</code><em>欄名稱</em> </td> 
+   <td><code>displayname=</code><em>資料行名稱</em> </td> 
    <td> <p>將<strong>資料行名稱</strong>取代為您新資料行的實際名稱。</p> </td> 
   </tr> 
   <tr> 
@@ -372,18 +364,18 @@ Workfront中的物件之間有下列兩種關係：
    >
    >請注意，您必須使用`issues`作為集合物件名稱，而不是使用`optask`，問題在API Explorer中的顯示方式。
 
-1. 按一下&#x200B;**完成**。
+1. 按一下「**完成**」。
 1. （選用）繼續編輯報表。
 
    或
 
    按一下&#x200B;**儲存+關閉**&#x200B;以儲存報告。
 
-### 在報表的自定義提示中引用集合 {#reference-a-collection-in-the-custom-prompt-of-a-report}
+### 在報表的自訂提示中參考集合 {#reference-a-collection-in-the-custom-prompt-of-a-report}
 
-可以在報表的自定義提示中引用物件的集合，以篩選報表結果中與報表對象關聯的物件的屬性。
+您可以在報表的自訂提示中參照物件集合，以篩選報表結果，找出與報表物件關聯的物件屬性。
 
-例如，通過在報表的自定義提示中使用對專案任務屬性的引用，可以在專案報表中提示輸入任務資訊。
+例如，您可以在專案報告中使用專案上任務屬性的參照，在報告的自訂提示中提示任務資訊。
 
 >[!NOTE]
 >
@@ -391,19 +383,19 @@ Workfront中的物件之間有下列兩種關係：
 
 自訂提示是一種自訂篩選器，其中陳述式由&amp;符號聯結。 建議您先在篩選器中建立陳述式，然後使用&amp;符號聯結陳述式的各行。
 
-有關使用集合引用生成篩選器語句的詳細資訊，請參閱本文報表篩選[&#128279;](#reference-a-collection-in-the-filter-of-a-report)中的引用集合部分。
+如需有關使用集合參考建立篩選陳述式的詳細資訊，請參閱本文中的[參考報表](#reference-a-collection-in-the-filter-of-a-report)篩選中的集合小節。
 
-要在報表的自訂提示中添加對集合的引用，請執行以下作：
+若要在報表的自訂提示中新增集合的參考：
 
-1. 按兩下主&#x200B;**&#x200B;**&#x200B;選單主選單![圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**報表**。
-1. 按一下新 **報表**。
-1. 選擇報表的物件。
+1. 按一下&#x200B;**主要**&#x200B;功能表![主要功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**報表**。
+1. 按一下&#x200B;**新報告**。
+1. 選取報表的物件。
 1. 使用集合參考建立篩選器，如本文中[參考報表](#reference-a-collection-in-the-filter-of-a-report)的篩選器中的集合一節所述。
 1. 按一下&#x200B;**報表設定**。
 1. 按一下&#x200B;**報告提示**。
 1. 按一下&#x200B;**新增提示**。
 1. 按一下&#x200B;**自訂提示**。
-1. 在&#x200B;**欄位**&#x200B;**名稱**&#x200B;欄位中指定提示的名稱。
+1. 在&#x200B;**欄位****名稱**&#x200B;欄位中指定提示的名稱。
 
 1. 指定&#x200B;**下拉式清單專案標籤**。
 1. 在&#x200B;**條件**&#x200B;欄位中指定下列專案：
@@ -447,7 +439,7 @@ Workfront中的物件之間有下列兩種關係：
    >
    >請注意，您必須使用&#x200B;**問題**&#x200B;作為集合物件名稱。 API總管目前未針對問題提供集合物件名稱。
 
-1. 按一下&#x200B;**完成**。
+1. 按一下「**完成**」。
 1. （選用）繼續編輯報表。
 
    或

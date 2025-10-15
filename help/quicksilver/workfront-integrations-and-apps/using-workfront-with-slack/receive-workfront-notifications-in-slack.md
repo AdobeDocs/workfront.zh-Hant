@@ -1,62 +1,66 @@
 ---
 product-area: workfront-integrations
 navigation-topic: workfront-for-slack
-title: 接收 [!DNL Slack]中的 [!DNL Adobe Workfront] 通知
-description: 接收 [!DNL Slack]中的 [!DNL Adobe Workfront] 通知
+title: 接收 [!DNL Adobe Workfront] 中的 [!DNL Slack]通知
+description: 接收 [!DNL Adobe Workfront] 中的 [!DNL Slack]通知
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: bc1ce4ea-58be-4cd7-ab59-7dddb82949b9
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '584'
 ht-degree: 1%
 
 ---
 
-# 在[!DNL Slack]中接收[!DNL Adobe Workfront]個通知
+# 在[!DNL Adobe Workfront]中接收[!DNL Slack]個通知
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: *** Linked to Accessing Workfront from Slack.***Some of this information is duplicating in Accessing Workfront from Slack (also screen shots))</p>
 -->
 
-安裝[!DNL Adobe Workfront for Slack]之後，您可以在[!DNL Slack]中接收[!DNL Workfront]個通知。\
+安裝[!DNL Adobe Workfront for Slack]之後，您可以在[!DNL Workfront]中接收[!DNL Slack]個通知。\
 如需有關安裝[!DNL Workfront for Slack]的資訊，請參閱[設定 [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)。
 
-您可以啟用顯示在[!DNL Workfront]介面的通知泡泡中的[!UICONTROL 通知]的選取數目，以便在[!DNL Slack]中傳送。
+您可以啟用顯示在[!UICONTROL 介面的通知泡泡中的]通知[!DNL Workfront]的選取數目，以便在[!DNL Slack]中傳送。
 
 電子郵件通知與[!DNL Workfront]介面通知獨立運作。 您或您的[!DNL Workfront]管理員可以停用電子郵件通知，而介面通知無法在[!DNL Workfront]中停用。\
 但是，如果您只想在[!DNL Workfront]介面中關注這些通知，您可以停用可能會在[!DNL Slack]中收到的[!DNL Workfront]通知。
 
 ## 存取需求
 
-您必須具備下列條件：
++++ 展開以檢視本文中功能的存取需求。
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://business.adobe.com/tw/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront]計畫]</a>*</td> 
-   <td> <p>[!UICONTROL Pro]或更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>任何</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>任何</p>
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。\
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先決條件
 
-您必須先在[!DNL Slack]中接收[!DNL Workfront]個通知
+您必須先在[!DNL Workfront]中接收[!DNL Slack]個通知
 
 * 設定[!DNL Workfront for Slack]\
    如需設定[!DNL Workfront for Slack]的說明，請參閱[設定 [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)。
 
-## 設定[!DNL Slack]的[!DNL Workfront]通知 {#configure-workfront-notifications-for-slack}
+## 設定[!DNL Workfront]的[!DNL Slack]通知 {#configure-workfront-notifications-for-slack}
 
-1. （視條件而定）將[!DNL Workfront]新增至您的[!DNL Slack]執行個體後，從[!DNL Slack]登入[!DNL Workfront]。\
-   如需有關從[!DNL Slack]登入[!DNL Workfront]的資訊，請參閱[存取 [!DNL Adobe Workfront] 從 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)。
+1. （視條件而定）將[!DNL Workfront]新增至您的[!DNL Slack]執行個體後，從[!DNL Workfront]登入[!DNL Slack]。\
+   如需有關從[!DNL Workfront]登入[!DNL Slack]的資訊，請參閱[存取 [!DNL Adobe Workfront] 從 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)。
 
 1. 從任何頻道，開始在訊息欄位中輸入以下命令之一：
 
@@ -81,24 +85,24 @@ ht-degree: 1%
    您對[!UICONTROL 通知]選項所做的變更會立即生效。\
    您啟用的通知已在[!DNL Workfront] [!DNL Slack]頻道中傳遞。 當您在此停用通知時，只會針對[!DNL Slack]停用通知，不會針對[!DNL Workfront]介面停用通知。 您會在介面右上角的[!DNL Workfront]通知泡泡中繼續收到這些通知。
 
-## 管理來自[!DNL Slack]的[!DNL Workfront]通知
+## 管理來自[!DNL Workfront]的[!DNL Slack]通知
 
-您可以從[!DNL Slack]接收及回應[!DNL Workfront]個通知。
+您可以從[!DNL Workfront]接收及回應[!DNL Slack]個通知。
 
 您可以停用您在[!DNL Slack]中啟用的通知的電子郵件通知，以確保您不會收到重複的通知。\
 如需設定電子郵件通知的詳細資訊，請參閱[修改您自己的電子郵件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)。
 
-在[!DNL Slack]中啟用或停用[!DNL Workfront]通知不會影響您在[!DNL Workfront]介面中收到的通知。\
+在[!DNL Workfront]中啟用或停用[!DNL Slack]通知不會影響您在[!DNL Workfront]介面中收到的通知。\
 無法停用[!DNL Workfront]介面中的通知。
 
-若要管理[!DNL Slack]的[!DNL Workfront]通知：
+若要管理[!DNL Workfront]的[!DNL Slack]通知：
 
 1. 登入[!UICONTROL Slack]。
-1. 從[!DNL Slack]登入[!DNL Workfront]。\
-   如需有關從[!DNL Slack]登入[!DNL Workfront]的資訊，請參閱[Access [!DNL Adobe Workfront] from [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)中的「從[!DNL Slack]登入[!DNL Workfront]」區段。
+1. 從[!DNL Workfront]登入[!DNL Slack]。\
+   如需有關從[!DNL Workfront]登入[!DNL Slack]的資訊，請參閱[!DNL Workfront]Access[!DNL Slack]from[中的「從 [!DNL Adobe Workfront] 登入 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)」區段。
 
-1. 確保已啟用您[!DNL Slack]的[!DNL Workfront]通知。\
-   如需有關哪些[!DNL Workfront]通知可設定為也傳送至[!DNL Slack]的詳細資訊，請參閱[設定 [!DNL Slack]](#configure-workfront-notifications-for-slack-configure-workfront-notifications-for-slack)的 [!DNL Workfront] 通知。
+1. 確保已啟用您[!DNL Workfront]的[!DNL Slack]通知。\
+   如需有關哪些[!DNL Workfront]通知可設定為也傳送至[!DNL Slack]的詳細資訊，請參閱[設定 [!DNL Workfront] 的 [!DNL Slack]](#configure-workfront-notifications-for-slack-configure-workfront-notifications-for-slack)通知。
 
 1. 前往&#x200B;**[!DNL Workfront]**&#x200B;頻道尋找您的[!DNL Workfront]通知。
 1. （條件式與選擇式）執行下列任一項作業：

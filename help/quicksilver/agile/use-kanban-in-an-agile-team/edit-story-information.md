@@ -6,9 +6,9 @@ description: 在Kanban板上檢視內文拼貼時，可以直接從內文拼貼�
 author: Lisa
 feature: Agile
 exl-id: a22a7b61-b331-4c98-9421-e7fccedcd096
-source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 0%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>每個內文和問題的[!UICONTROL 完成百分比]。<br>[!UICONTROL 反複運算的完成百分比]是根據每個內文的[!UICONTROL 完成百分比]計算的。<br></p> <p>更新內文或問題的[!UICONTROL 完成百分比]時，您可以選擇0到100之間的任何數字。</p> </td> 
+   <td> <p>每個內文和問題的[！UICONTROL完成百分比]。<br>[！UICONTROL反複運算的完成百分比]是根據每個內文的[！UICONTROL完成百分比]計算的。<br></p> <p>更新內文或問題的[！UICONTROL完成百分比]時，您可以選擇0到100之間的任何數字。</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -62,7 +62,7 @@ ht-degree: 0%
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>任何可能透過修改敏捷檢視新增到敏捷檢視的其他欄位（包括自訂欄位），如[!DNL Adobe Workfront]</a>中<a href="../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">檢視總覽的「建立和自訂敏捷檢視」中所述</p> </td> 
+   <td> <p>任何可能透過修改敏捷檢視新增到敏捷檢視的其他欄位（包括自訂欄位），如<a href="../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">中[!DNL Adobe Workfront]</a>檢視總覽的「建立和自訂敏捷檢視」中所述</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -73,8 +73,6 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -82,14 +80,13 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>新增：[!UICONTROL Standard]</p> 
-   或
-   <p>目前： [!UICONTROL Work]或更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>標準</p> 
+   <p>工作或更高</p> </td> 
   </tr>
  </tbody> 
 </table>

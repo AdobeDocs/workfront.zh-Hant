@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4b481215-36a1-4945-828a-1598502529d8
-source-git-commit: a25eb28800ca8bbeeffedb521b3d72c8df71c697
+source-git-commit: 6b2d93d2573d72e4390761038d8078f47d96d55e
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '631'
 ht-degree: 0%
 
 ---
@@ -40,31 +40,26 @@ You must take action to update the metadata in your identity provider with the i
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td>任何</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td><p>任何</p></td> 
   </tr> 
- <tr> 
-  <td role="rowheader">Adobe Workfront授權</td> 
-  <td> <p>新增：標準 </p>
- <p>或</p> 
-<p>目前：計畫 </p> 
-</td> 
- </tr>   
- <tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td><p>標準</p><p>規劃</p></td> 
+  </tr> 
+  <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>您必須是Workfront管理員。</p> </td> 
+   <td> <p>您必須是Workfront管理員。</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

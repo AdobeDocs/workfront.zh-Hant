@@ -6,14 +6,16 @@ description: 您可以編輯個別問題，也可以編輯問題清單或報告�
 author: Alina
 feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '882'
 ht-degree: 1%
 
 ---
 
 # 編輯清單中的問題
+
+<!--Audited: 08/2025-->
 
 您可以編輯個別問題，也可以編輯問題清單或報告中的問題。 本文說明如何編輯清單中的問題。
 
@@ -21,19 +23,26 @@ ht-degree: 1%
 
 ## 存取需求
 
-若要執行本文中的動作，您必須具備下列存取權：
++++ 展開以檢視本文中功能的存取需求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>要求或更高版本</p> <p>檢閱或更高授權以編輯專案問題區段中的問題。</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td>
+
+<ul><li><p>投稿人或以上</p> </li>
+   <li><p>輕度或以上授權，可編輯專案問題區段中的問題</p></li></ul> 
+    或
+   <ul><li><p>要求者或以上</p> </li>
+   <li><p>檢閱者或以上授權可編輯專案問題區段中的問題</p></li></ul> 
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
@@ -46,7 +55,34 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Request or higher</p> <p>Review or higher license to edit issues in the Issues section of a project.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Issues</p> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Contribute or higher permissions to the issue</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 內嵌編輯問題
 
@@ -71,22 +107,21 @@ ht-degree: 1%
 
    如需內嵌編輯物件的相關資訊，請參閱[在Adobe Workfront中內嵌編輯清單的專案](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md)。
 
-## 編輯清單中的問題
+## 從清單編輯問題
 
 1. 前往專案或任務中的問題清單。
 1. 執行下列任一項作業
 
-   * 在清單中選取問題，然後按一下工具列中的「編輯」圖示![「編輯」圖示](assets/qs-edit-icon.png)。
-   * 按一下問題名稱右側的&#x200B;**更多功能表** ![更多功能表](assets/more-icon-task-list.png)，然後按一下&#x200B;**在新索引標籤中開啟**。 這會在新標籤中開啟問題頁面。 從問題頁面按一下&#x200B;**更多** > **編輯**。
-   * 按一下問題名稱右側的&#x200B;**更多功能表** ![更多功能表](assets/more-icon-task-list.png)，然後按一下&#x200B;**編輯**。
+   * 在清單中選取問題，然後按一下工具列中的&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/qs-edit-icon.png)。
+   * 按一下問題名稱，然後按一下&#x200B;**編輯**。
 
-     其中任何動作會開啟「編輯問題」方塊。
+     這些動作中的任何一個都會開啟&#x200B;**編輯問題**&#x200B;方塊。
 
-     如需有關編輯[編輯問題]方塊中的問題的資訊，請參閱[編輯問題](../../../manage-work/issues/manage-issues/edit-issues.md)。
+     如需有關編輯&#x200B;**編輯問題**&#x200B;方塊中的問題的資訊，請參閱[編輯問題](../../../manage-work/issues/manage-issues/edit-issues.md)。
 
 ## 使用摘要編輯問題
 
-您可以使用「摘要」編輯清單中的問題。
+您可以使用「摘要」面板編輯清單中的問題。
 
 1. 前往您要編輯其問題的專案。
 1. 按一下左側面板中的&#x200B;**問題**。
@@ -100,11 +135,12 @@ ht-degree: 1%
 1. （選用）開始在&#x200B;**更新**&#x200B;區域輸入問題的更新。
 1. 按一下下列任一圖示或區域，移至問題並編輯問題層級的資訊：
 
-   | 文件 | 按一下&#x200B;**按一下這裡以新增**，將檔案新增至問題。 |
+   | 圖示 | 動作 |
    |---|---|
-   | 詳細資料 | 按一下以更新問題的相關資訊。 |
-   | 時數 | 按一下以記錄時數。 |
-   | 核准 | 按一下以新增問題核准。 |
+   | 檔案![檔案圖示](assets/documents-icon-in-summary.png) | 按一下&#x200B;**按一下這裡以新增**，將檔案新增至問題。 |
+   | 詳細資料![詳細資料圖示](assets/details-icon-in-summary.png) | 按一下以更新問題的相關資訊。 |
+   | 小時![記錄時間](assets/log-time-icon-in-summary.png) | 按一下以記錄時數。 |
+   | 核准![核准圖示](assets/approvals-icon-in-summary.png) | 按一下以新增問題核准。 |
 
 1. （選擇性）再次按一下&#x200B;**開啟摘要**&#x200B;圖示，或按一下摘要右上角的&#x200B;**X圖示**&#x200B;以關閉面板並編輯問題內嵌。
 

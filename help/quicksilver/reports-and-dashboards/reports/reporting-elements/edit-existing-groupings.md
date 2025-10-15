@@ -4,9 +4,9 @@ description: 編輯現有群組
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bd9e6794-3196-4a73-a86a-9ba6048e613b
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
@@ -21,44 +21,37 @@ ht-degree: 0%
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
-
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront計畫*</strong></td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront授權*</strong></td> 
+   <td role="rowheader">Adobe Workfront授權</strong></td> 
    <td> 
-      <p>新增：</p>
-         <ul>
-         <li><p>投稿人或以上</p></li>
-         </ul>
-      <p>目前：</p>
-         <ul>
-         <li><p>要求或更高版本</p></li>
-         </ul>
+    <p>投稿人或以上</p>
+    <p>要求或更高版本</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>存取層級設定*</strong></td> 
-   <td> <p>編輯對篩選器、檢視、群組的存取權</p> <p>編輯報告、儀表板、行事曆的存取權，以編輯報告中的分組</p></td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>編輯對篩選器、檢視、群組的存取權</p> <p>編輯報告、儀表板、行事曆的存取權，以編輯報告中的分組</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>管理報告的許可權以編輯報告中的分組</p> <p>管理群組的許可權</p></td> 
+   <td role="rowheader">物件許可權</td> 
+    <td> <p>管理報告的許可權以編輯報告中的分組</p> <p>管理群組的許可權</p></td> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
-
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 +++
 
 ## 先決條件
@@ -96,4 +89,4 @@ ht-degree: 0%
 1. 重複步驟4、5和6以定義其他群組。\
    您最多可以定義三個群組來組織資訊。 您可以建立矩陣報表，將資訊進一步組織為最多四個群組。 如需矩陣報表的詳細資訊，請參閱[建立矩陣報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)。
 
-1. 按一下「儲存群組」**&#x200B;**，以變更取代目前的群組。
+1. 按一下「儲存群組」****，以變更取代目前的群組。

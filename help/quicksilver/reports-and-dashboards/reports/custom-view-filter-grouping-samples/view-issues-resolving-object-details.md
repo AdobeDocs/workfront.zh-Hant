@@ -3,13 +3,13 @@ content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 檢視：解析物件詳細資料的問題
-description: 此問題檢視顯示問題的解決物件的名稱和完成百分比，即使沒有解決任務或專案的存取權，問題建立者也可以洞察問題的進度。
+description: 此問題檢視顯示問題的解決物件的名稱和完成百分比，允許問題建立者讓insight進入問題的進度，即使沒有解決任務或專案的存取權。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7f4c923a-01e4-4896-9f54-1f0c66d64bb5
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!--Audited: 11/2024-->
 
-此問題檢視顯示問題的解決物件的名稱和完成百分比，即使沒有解決任務或專案的存取權，問題建立者也可以洞察問題的進度。
+此問題檢視顯示問題的解決物件的名稱和完成百分比，允許問題建立者讓insight進入問題的進度，即使沒有解決任務或專案的存取權。
 
 此檢視使用`sharecol=true`標籤來合併相同欄標題下的多個欄位。 如需`sharecol`標籤的詳細資訊，請參閱[檢視：合併一個共用資料行中多個資料行的資訊](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md)。
 
@@ -28,32 +28,33 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：<ul><li>修改檢視的貢獻者</li><li>用於修改報告的標準</li></ul></p><p>或</p>目前：<ul><li>請求修改檢視</li><li>計畫修改報表</li></ul></p> </td> 
+   <td> 
+   <p>投稿人或請求修改檢視 </p>
+   <p>要修改報告的標準或計畫</p>
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
    <td> <p>編輯報告、儀表板、行事曆的存取權以修改報告</p> <p>編輯對篩選器、檢視、群組的存取權以修改檢視</p> </td> 
-  </tr>  
+  </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>管理報表的許可權</p> </td> 
+   <td> <p>管理報表的許可權</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
 如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
 
 +++
 

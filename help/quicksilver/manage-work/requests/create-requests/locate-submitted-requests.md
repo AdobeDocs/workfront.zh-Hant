@@ -3,14 +3,14 @@ product-area: requests
 navigation-topic: create-requests
 title: 找出已提交的請求
 description: 瞭解Adobe Workfront的區域，您可在此找到您或其他人提交的請求，或您從未提交且已儲存為草稿的請求。
-author: Alina
+author: Becky
 feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 0ffae8ed285f6e9164a239552feb90465bea3cca
+source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '955'
 ht-degree: 2%
 
 ---
@@ -41,21 +41,18 @@ ht-degree: 2%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：投稿人或更高版本</p>
-   或
-   <p>目前：要求或以上</p>
+   <td> <p>投稿人或以上</p>
+   <p>要求或更高版本</p>
     </td> 
   </tr> 
   <tr> 
@@ -73,7 +70,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

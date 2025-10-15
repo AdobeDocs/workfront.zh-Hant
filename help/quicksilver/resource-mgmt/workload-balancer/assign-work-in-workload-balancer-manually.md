@@ -7,9 +7,9 @@ author: Lisa
 feature: Resource Management
 role: User
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-source-git-commit: d93bdaec834f5a66e663c7edc7d9ffa42ffa5918
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '747'
 ht-degree: 1%
 
 ---
@@ -26,25 +26,21 @@ ht-degree: 1%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td> <p>任何 </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td><p>新增：標準</p>
-       <p>或</p>
-       <p>目前：計畫，在資源區域使用工作負載平衡器時；</br>
-       工作，使用團隊或專案的工作負載平衡器時</p></td>
+   <td>Adobe Workfront套件</td> 
+   <td><p>任何</p></td>
   </tr>
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
+   <td>Adobe Workfront授權</td> 
+   <td><p>標準</p>
+       <p>計畫：在資源區域使用工作負載平衡器；工作，使用團隊或專案的工作負載平衡器</p></td>
+  </tr>
+  <tr> 
+   <td>存取層級設定</td> 
    <td> <p>編輯下列專案的存取權：</p> 
     <ul> 
      <li>資源管理</li> 
@@ -55,13 +51,13 @@ ht-degree: 1%
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件許可權</td> 
+   <td>物件許可權</td> 
    <td>包含進行指派的專案、任務和問題的貢獻許可權或更高</td> 
   </tr> 
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

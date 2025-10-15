@@ -2,55 +2,60 @@
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-with-anaplan
 title: 將 [!DNL Adobe Workfront] 專案更新傳送至 [!DNL Anaplan] 清單專案
-description: 此整合情境會共用具有 [!DNL Anaplan] 預算清單專案之 [!DNL Adobe Workfront] 專案的進度、狀態和主要排程詳細資料。 共用此資訊可讓您更好地利用 [!DNL Anaplan] 提供的支出最佳化與財務分析。
+description: 此整合情境會共用具有 [!DNL Adobe Workfront] 預算清單專案之 [!DNL Anaplan] 專案的進度、狀態和主要排程詳細資料。 共用此資訊可讓您更好地利用 [!DNL Anaplan] 提供的支出最佳化與財務分析。
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: 97e9dac6-f5b5-4d6e-b58b-93acd19048ee
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: d3f234313677d916318c181c91cb951948454006
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '963'
 ht-degree: 1%
 
 ---
 
 # 傳送[!DNL Adobe Workfront]個專案更新至[!DNL Anaplan]清單專案
 
-此整合情境會共用來自具有[!DNL Anaplan]預算清單專案的[!DNL Adobe Workfront]專案的進度、狀態和主要排程詳細資料。 共用此資訊可讓您更好地利用[!DNL Anaplan]提供的支出最佳化和財務分析。
+此整合情境會共用來自具有[!DNL Adobe Workfront]預算清單專案的[!DNL Anaplan]專案的進度、狀態和主要排程詳細資料。 共用此資訊可讓您更好地利用[!DNL Anaplan]提供的支出最佳化和財務分析。
 
 >[!IMPORTANT]
 >
->本文中的「行銷活動」是指此情境所代表的行銷活動使用案例，且絕對未連線至[!DNL Workfront Fusion] Adobe Campaign聯結器或[!DNL Workfront]中最近棄用的[!UICONTROL 行銷活動]物件。
+>本文中的「行銷活動」是指此情境所代表的行銷活動使用案例，且絕對未連線至[!DNL Workfront Fusion] Adobe Campaign聯結器或[!UICONTROL 中最近棄用的]行銷活動[!DNL Workfront]物件。
 
 ## 存取需求
 
-您必須具有下列存取權才能使用本文中的功能：
++++ 展開以檢視本文中功能的存取需求。
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
-   <td> <p>[!UICONTROL Pro]或更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[!UICONTROL 計畫]，[!UICONTROL 工作]</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>標準</p><p>工作或更高</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td> 
-   <td> <p>適用於工作自動化和整合的Workfront Fusion </p> </td> 
+   <td role="rowheader">Adobe Workfront Fusion授權</td> 
+   <td>
+   <p>作業型：無Workfront Fusion授權需求</p>
+   <p>以聯結器為基礎（舊版）：用於工作自動化和整合的Workfront Fusion </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
-   <td>您的組織必須購買[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]，才能使用本文所述的功能。</td> 
-  </tr> 
+   <td>
+   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
+   </td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
+如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)存取需求。
 
-&#42;&#42;如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)。
+如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)。
 
 ## 觸發中的事件
 
@@ -79,24 +84,24 @@ ht-degree: 1%
    </thead> 
    <tbody> 
     <tr> 
-     <td role="rowheader">[!UICONTROL 上市日期]</td> 
-     <td>[!UICONTROL 日期] </td> 
+     <td role="rowheader">[！UICONTROL上市日期]</td> 
+     <td>[！UICONTROL日期] </td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[!UICONTROL 市場結束日期]</td> 
-     <td>[!UICONTROL 日期]</td> 
+     <td role="rowheader">[！UICONTROL市場結束日期]</td> 
+     <td>[！UICONTROL日期]</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[!UICONTROL 行銷活動概覽]</td> 
-     <td>[!UICONTROL 段落文字欄位]</td> 
+     <td role="rowheader">[！UICONTROL行銷活動概覽]</td> 
+     <td>[！UICONTROL段落文字欄位]</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[!UICONTROL 金鑰訊息]</td> 
-     <td>[!UICONTROL 段落文字欄位]</td> 
+     <td role="rowheader">[！UICONTROL金鑰訊息]</td> 
+     <td>[！UICONTROL段落文字欄位]</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[!UICONTROL 目標對象]</td> 
-     <td> <p>[!UICONTROL 下拉式清單]</p> <p>包含適合您流程的選項。</p> </td> 
+     <td role="rowheader">[！UICONTROL目標對象]</td> 
+     <td> <p>[！UICONTROL下拉式清單]</p> <p>包含適合您流程的選項。</p> </td> 
     </tr> 
    </tbody> 
   </table>
@@ -179,7 +184,7 @@ ht-degree: 1%
 
 完成下列步驟，將此整合案例部署至您的Fusion帳戶。 這應該只有在完成必要的[!DNL Workfront]和[!DNL Anaplan]設定之後才完成。
 
-1. 導覽至[!DNL Workfront Fusion]中的[!UICONTROL 範本]功能表，然後按一下&#x200B;**[!UICONTROL 將Workfront專案更新傳送至[!DNL Anaplan]清單專案]**&#x200B;情境範本。
+1. 導覽至[!UICONTROL 中的]範本[!DNL Workfront Fusion]功能表，然後按一下&#x200B;**[!UICONTROL 將Workfront專案更新傳送至[!DNL Anaplan]清單專案]**&#x200B;情境範本。
 1. 取代下列[!DNL Anaplan]個變數的變數值：
 
    <table style="table-layout:auto"> 
@@ -193,27 +198,27 @@ ht-degree: 1%
     </thead> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL [!DNL Anaplan] Workspace ID]</td> 
+      <td role="rowheader">[！UICONTROL [!DNL Anaplan] Workspace ID]</td> 
       <td>您[!DNL Anaplan]帳戶的工作區識別碼。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL [!DNL Anaplan]模型識別碼] </td> 
+      <td role="rowheader">[！UICONTROL [!DNL Anaplan]模型識別碼] </td> 
       <td>來自您[!DNL Anaplan]帳戶和所選工作區的模型ID。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 促銷活動清單名稱]</td> 
+      <td role="rowheader">[！UICONTROL促銷活動清單名稱]</td> 
       <td>來自您[!DNL Anaplan]帳戶及所選工作區與模型的清單名稱。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 檔案名稱：專案更新匯入]</td> 
+      <td role="rowheader">[！UICONTROL檔案名稱：專案更新匯入]</td> 
       <td>將接收專案更新資料的檔案名稱。<p>（範例：WorkfrontUpdateLinkedProject.csv）</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 流程名稱：專案更新匯入]</td> 
+      <td role="rowheader">[！UICONTROL流程名稱：專案更新匯入]</td> 
       <td> <p>將執行專案資料匯入的程式名稱。</p> <p>（範例： WF Int — 更新促銷活動詳細資料）</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL [!DNL Workfront]子網域]</td> 
+      <td role="rowheader">[！UICONTROL [!DNL Workfront]子網域]</td> 
       <td>您[!DNL Workfront]帳戶的子網域。 這可用來在可能產生的附註中建立回到[!DNL Workfront]專案的連結。</td> 
      </tr> 
     </tbody> 
@@ -243,10 +248,10 @@ ht-degree: 1%
 
 連結預算請求的其他案例：
 
-* [[!UICONTROL 從 [!DNL Adobe Workfront] 預算請求]建立 [!DNL Anaplan] 清單專案](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
+* [[!UICONTROL 從 [!DNL Anaplan] 預算請求 [!DNL Adobe Workfront] 建立]清單專案](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
 * [[!UICONTROL 套用 [!DNL Anaplan] 預算配置至 [!DNL Adobe Workfront] 專案]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
 
 連結行銷活動請求的其他情況：
 
-* [[!UICONTROL 從 [!DNL Adobe Workfront] 行銷活動要求]建立 [!DNL Anaplan] 清單專案](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
+* [[!UICONTROL 從 [!DNL Anaplan] 行銷活動要求 [!DNL Adobe Workfront] 建立]清單專案](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
 * [[!UICONTROL 將 [!DNL Anaplan] 預算配置套用至 [!DNL Adobe Workfront] 行銷活動請求或行銷活動專案]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)

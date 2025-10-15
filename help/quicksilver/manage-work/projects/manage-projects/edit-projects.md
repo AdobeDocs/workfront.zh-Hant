@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '7643'
+source-wordcount: '7642'
 ht-degree: 1%
 
 ---
@@ -47,14 +47,13 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td><p>新增：標準 </p> 
-   或
-   <p>目前：計畫 </p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td><p>標準</p> 
+   <p>規劃</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -63,7 +62,7 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">物件許可權</td> 
    <td> 
-     <p>管理專案的許可權 </p> 
+     <p>管理專案的許可權</p> 
      </td> 
   </tr> 
  </tbody> 
@@ -72,6 +71,37 @@ ht-degree: 1%
 *如需此表格中資訊的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td><p>New: Standard </p> 
+   Or
+   <p>Current: Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Projects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> 
+     <p>Manage permissions to a project </p> 
+     </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
 ## 編輯專案的限制
 
@@ -162,7 +192,7 @@ ht-degree: 1%
 1. （視條件而定）如果您按一下&#x200B;**更多**&#x200B;功能表，然後按一下&#x200B;**編輯**，請更新左側面板中列出的下列任一區域中的資訊：
 
    * [專案名稱](#project-name)
-   * [總覽](#overview)
+   * [概觀](#overview)
    * [自訂表單](#custom-forms)
    * [財務](#finance)
    * [專案設定](#project-settings)
@@ -225,7 +255,7 @@ ht-degree: 1%
          </ul><p>您的Workfront管理員<span>或群組管理員</span>會選取預設值，作為系統<span>或群組</span>計算專案條件的方式。 如需有關設定專案預設值的資訊，請參閱<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">設定全系統的專案偏好設定</a>。 </p></p> </td> 
       </tr> 
       <tr> 
-         <td role="rowheader"><strong>狀況</strong> </td> 
+         <td role="rowheader"><strong>條件</strong> </td> 
          <td> <p> <p>（只有在您為<strong>條件型別</strong>選取<strong>手動</strong>後才會顯示）：選取條件以指示專案進行方式。 </p> <p>如需如何自動或手動設定專案條件的詳細資訊，請參閱<a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">專案條件和條件型別概觀</a></p> </p> </td> 
       </tr> 
       <tr> 
@@ -245,7 +275,7 @@ ht-degree: 1%
          <td> <p>指定選取<strong>從完成日期</strong>排程的日期。 </p> <p>當您選取<strong>從開始日期</strong>排程，此為唯讀欄位。<br></p> </td> 
       </tr> 
       <tr> 
-         <td role="rowheader"><strong>專案組合</strong></td> 
+         <td role="rowheader"><strong>產品組合</strong></td> 
          <td>指出專案所屬的Portfolio。 您必須先建立Portfolio，才能讓其出現在下拉式清單中。 只有作用中的專案組合可以與專案相關聯。 如需關於建立投資組合的詳細資訊，請參閱<a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">建立投資組合</a>。
          <p><b>附註</b></p>
          <p>您必須擁有投資組合的管理許可權，才能在專案中新增或移除投資組合。</p>
@@ -403,7 +433,7 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>計畫收益</strong> </td> 
-      <td> <p>預估專案的計畫收益。 這用於專案和Portfolio Optimizer的業務案例。 如需有關專案計畫權益的詳細資訊，請參閱<a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">專案計畫權益概觀</a>。 計算專案淨值時，會考慮專案的計畫收益。 </p> <p>如需詳細資訊，請參閱<a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">在Portfolio Optimizer中管理專案</a> 。<br></p> </td> 
+      <td> <p>預估專案的計畫收益。 這用於專案和Portfolio Optimizer的業務案例。 如需有關專案計畫權益的詳細資訊，請參閱<a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">專案計畫權益概觀</a>。 計算專案淨值時，會考慮專案的計畫收益。 </p> <p>如需詳細資訊，請參閱<a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">在Portfolio Optimizer中管理專案：文章索引</a> 。<br></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>實際收益</strong> </td> 
@@ -550,7 +580,7 @@ ht-degree: 1%
 
 您可以定義預設值，在將新任務新增至專案時，這些預設值將與所有新任務相關聯。
 
-如需這些設定如何影響建立新任務的詳細資訊，請參閱[建立任務概觀](../../../manage-work/tasks/create-tasks/create-tasks-overview.md)一文中的[將任務新增至專案時的任務預設值](../../../manage-work/tasks/create-tasks/create-tasks-overview.md#understa)一節。
+如需這些設定如何影響建立新任務的詳細資訊，請參閱[建立任務概觀](../../../manage-work/tasks/create-tasks/create-tasks-overview.md#understa)一文中的[將任務新增至專案時的任務預設值](../../../manage-work/tasks/create-tasks/create-tasks-overview.md)一節。
 
 1. 如上所述開始編輯您的專案。
 1. 按一下左側面板中的&#x200B;**工作設定**。
@@ -576,7 +606,7 @@ ht-degree: 1%
    | 大小 | 百分比 |
    |---|---|
    | 小 | 25% |
-   | 中 | 50% |
+   | 媒體 | 50% |
    | 大 | 75% |
 
    >[!TIP]
@@ -784,7 +814,7 @@ ht-degree: 1%
 
    當自訂表單已附加到某些所選專案時，表單名稱旁邊會顯示新增表單時已附加表單的專案數量。
 
-1. （選擇性）按一下自訂表單名稱右邊的&#x200B;**x**&#x200B;圖示，然後按一下[移除]&#x200B;**&#x200B;**，將其從所有選取的專案中移除。
+1. （選擇性）按一下自訂表單名稱右邊的&#x200B;**x**&#x200B;圖示，然後按一下[移除]****，將其從所有選取的專案中移除。
 
    >[!CAUTION]
    >
@@ -794,13 +824,13 @@ ht-degree: 1%
 
 1. 按一下&#x200B;**財務**，編輯所有選取專案的財務資訊。
 如需有關編輯財務區域的詳細資訊，請參閱本文章的[財務](#finance)小節。
-1. 按一下&#x200B;**專案設定**&#x200B;以編輯所有選取專案的設定。
+1. 按一下&#x200B;**專案設定**以編輯所有選取專案的設定。
 如需有關編輯[專案設定]區域的詳細資訊，請參閱本文中的[專案設定](#project-settings)小節。
 1. 按一下「**任務設定**」以編輯所有選定專案的任務設定。
 如需有關編輯[工作設定]區域的詳細資訊，請參閱本文中的[工作設定](#task-settings)小節。
-1. 按一下&#x200B;**問題設定**&#x200B;以編輯所有選定專案的問題設定。
+1. 按一下&#x200B;**問題設定**以編輯所有選定專案的問題設定。
 如需有關編輯問題設定區域的詳細資訊，請參閱本文中的[問題設定](#issue-settings)小節。
-1. 按一下&#x200B;**存取**&#x200B;以編輯所有選取專案的存取設定。
+1. 按一下&#x200B;**存取**以編輯所有選取專案的存取設定。
 如需有關編輯[存取]區域的詳細資訊，請參閱本文中的[存取](#access)一節。
 1. 按一下&#x200B;**註解**，然後在提供的空間新增註解。 Workfront在每個專案的&#x200B;**更新**&#x200B;區域新增註解。 如需更新工作的相關資訊，請參閱[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 1. （選擇性）若要移除您在「編輯專案」方塊中新增的任何資訊，請將游標移至已編輯的欄位上，然後按一下欄位右上角的&#x200B;**x**&#x200B;捨棄圖示。

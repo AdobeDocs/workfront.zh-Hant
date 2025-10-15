@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Tasks, Resource Management
 role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
+source-git-commit: d0be569333b0454e26f4d0de1078b0425cf81707
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '945'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 本文旨在為工作清單中的多個工作修改多個使用者指派。 另請參閱下列文章，瞭解如何修改其他區域中多個任務的指派：
 
-* 如需有關使用工作負載平衡器指派工作的資訊，請參閱在工作負載平衡器[&#128279;](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)中指派工作的總覽。
+* 如需有關使用工作負載平衡器指派工作的資訊，請參閱在工作負載平衡器[中指派工作的總覽。](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 
 如需將任務指派給清單中一個資源的相關資訊，請參閱[指派任務](../../../manage-work/tasks/assign-tasks/assign-tasks.md)。
 
@@ -34,33 +34,32 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td>Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：標準</p>
-   <p>目前：工作或以上</p> </td> 
+   <td>Adobe Workfront授權</td> 
+   <td> <p>標準</p>
+   <p>工作或更高</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
-   <td> <p>編輯專案和任務的存取權</p> <p>檢視或更高的使用者存取權</p>  </td> 
+   <td>存取層級設定</td> 
+   <td> <p>編輯專案和任務的存取權</p> <p>檢視或更高的使用者存取權</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件許可權</td> 
-   <td> <p>貢獻或更高的任務許可權</p>  </td> 
-  </tr> 
- </tbody> 
+   <td>物件許可權</td>
+   <td>貢獻或更高的任務許可權</td>
+  </tr>
+ </tbody>
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

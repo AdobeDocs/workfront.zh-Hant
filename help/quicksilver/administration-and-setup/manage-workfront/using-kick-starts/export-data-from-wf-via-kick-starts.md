@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: 4c80802c8e0084aa9e7be350caefc8929c9c4e2b
+source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 7%
+source-wordcount: '1019'
+ht-degree: 8%
 
 ---
 
@@ -32,32 +32,27 @@ ht-degree: 7%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td>任何</td> 
+   <td>Adobe Workfront套件</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td>
-   <p>新增：標準</p>
-   或
-   <p>目前：計畫</p>
-   </td> 
+   <td>Adobe Workfront授權</td> 
+   <td><p>標準</p>
+       <p>規劃</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td>
+   <td>存取層級設定</td> 
+   <td>系統管理員</td> 
   </tr> 
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -88,7 +83,7 @@ ht-degree: 7%
   <tr> 
    <td> <p><strong>從清單檢視匯出資料</strong> </p> <p>如需從清單匯出資料的詳細資訊，請參閱<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">匯出資料</a></p> </td> 
    <td> <p>是</p> <p>會匯出與物件相關聯的Workfront原生欄位和自訂欄位。</p> </td> 
-   <td> <p>否</p> </td> 
+   <td> <p>無</p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>透過Kick-Starts匯出資料</strong> </p> </td> 
@@ -126,12 +121,12 @@ ht-degree: 7%
     </thead> 
     <tbody> 
      <tr> 
-      <td scope="col" valign="top"> <p>儀表板</p> <p> </p> <p> </p> </td> 
+      <td scope="col" valign="top"> <p>控制面板</p> <p> </p> <p> </p> </td> 
       <td scope="col" valign="top"> <p>引數<br>引數選項<br>引數群組<br>類別引數<br>類別<br>報表<br>入口網站頁簽區段<br>儀表板<br>偏好設定</p> </td> 
       <td scope="col" valign="top"> ZIP</td> 
      </tr> 
      <tr> 
-      <td scope="col" valign="top"> <p>報告</p> <p> </p> <p> </p> </td> 
+      <td scope="col" valign="top"> <p>報表</p> <p> </p> <p> </p> </td> 
       <td scope="col" valign="top">引數<br>引數選項<br>引數群組<br>類別引數<br>類別<br>報表<br>偏好設定</td> 
       <td scope="col" valign="top"> ZIP </td> 
      </tr> 
@@ -238,7 +233,7 @@ ht-degree: 7%
       <td valign="top">ZIP</td> 
      </tr> 
      <tr> 
-      <td valign="top">時數</td> 
+      <td valign="top">Hour</td> 
       <td valign="top"> 小時<br>喜好設定 </td> 
       <td valign="top">Excel</td> 
      </tr> 
@@ -263,7 +258,7 @@ ht-degree: 7%
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
-      <td valign="top">專案組合</td> 
+      <td valign="top">產品組合</td> 
       <td valign="top"> Portfolio<br>喜好設定  </td> 
       <td valign="top">Excel</td> 
      </tr> 

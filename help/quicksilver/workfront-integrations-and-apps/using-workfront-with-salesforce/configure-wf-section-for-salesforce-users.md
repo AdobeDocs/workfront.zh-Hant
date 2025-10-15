@@ -6,9 +6,9 @@ description: 當您以 [!DNL Adobe Workfront] 管理員身分安裝Salesforce的
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 81481813-74db-4408-8c85-c3b5b844f932
-source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '762'
 ht-degree: 1%
 
 ---
@@ -21,11 +21,9 @@ ht-degree: 1%
 >
 >為了滿足貴組織與Salesforce的整合需求，我們建議您使用Workfront自動化和整合。
 >
->如需Workfront自動化與整合的概觀，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+>如需Workfront自動化與整合的概觀，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 >
->如需Salesforce之Workfront自動化與整合模組的特定功能相關資訊，請參閱[Salesforce模組](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules)。
-
-需要[!UICONTROL Pro] [!DNL Workfront]計畫才能使用此功能。 如需各種可用計畫的詳細資訊，請參閱[[!DNL Workfront] 計畫。](https://business.adobe.com/tw/products/workfront/pricing.html)
+>如需Salesforce之Workfront自動化與整合模組的特定功能相關資訊，請參閱[Salesforce模組](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules)。
 
 當您以[!DNL Adobe Workfront]管理員身分安裝[!DNL Salesforce]的[!DNL Workfront]後，您可以將其新增至使用者的[!UICONTROL 機會]和[!UICONTROL 帳戶]的新區段，讓使用者可以使用它
 [!UICONTROL Salesforce]中的版面配置。
@@ -34,26 +32,31 @@ ht-degree: 1%
 
 若要讓使用者在[!DNL Workfront]和[!DNL Classic]架構中同時具有[!DNL Lightning Experience]可用，您必須分別將[!DNL WorkfrontOpportunities]和[!DNL WorkfrontAccounts] [!UICONTROL Visualforce]頁面新增至[!UICONTROL Opportunity]和[!UICONTROL Accounts]頁面配置。
 
+
+
 ## 存取需求
 
-您必須具有下列存取權才能使用本文所述的功能：
++++ 展開以檢視本文中功能的存取需求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
-   <td> <p>[!UICONTROL Pro]或更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[!UICONTROL 計畫]</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>標準</p>
+   <p>規劃</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先決條件
 
@@ -89,7 +92,7 @@ ht-degree: 1%
 
    建議您為&#x200B;**[!UICONTROL 區段選取]** 1欄[!DNL Workfront]配置。
 
-1. 按一下&#x200B;**[!UICONTROL 確定]**。
+1. 按一下&#x200B;**[!UICONTROL 「確定」]**。
 1. 在&#x200B;**[!UICONTROL 配置]**&#x200B;區域中，按一下&#x200B;**[!UICONTROL Visualforce頁面].**
 
 1. 將&#x200B;**[!UICONTROL WorkfrontOpportunities]**&#x200B;元件拖放至&#x200B;**[!UICONTROL 機會]**&#x200B;配置中的新區段。
@@ -106,7 +109,7 @@ ht-degree: 1%
    * **[!UICONTROL 高度（畫素）]**： 600
    * 選取&#x200B;**[!UICONTROL 顯示卷軸]**。
 
-1. 按一下&#x200B;**[!UICONTROL 確定]**。
+1. 按一下&#x200B;**[!UICONTROL 「確定」]**。
 1. 按一下&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存您的版面。
 
    所有已指派此配置的使用者現在都可以檢視其[!DNL Workfront]機會[!UICONTROL 或]帳戶[!UICONTROL 物件上的]區段。
@@ -140,7 +143,7 @@ ht-degree: 1%
 
    或
 
-   按一下[新增]&#x200B;**&#x200B;**&#x200B;以建立新的版面配置。
+   按一下[新增]****&#x200B;以建立新的版面配置。
 
 1. 繼續進行[在以下的機會或帳戶層級 [!DNL Workfront] 設定](#configure-the-workfront-section-at-the-opportunity-or-account-level-configure-the-workfront-section-at-the-opportunity-or-account-level)區段。
 
@@ -149,7 +152,7 @@ ht-degree: 1%
 1. 以系統管理員身分登入[!DNL Salesforce]。
 1. 移至&#x200B;**[!UICONTROL 商機]**&#x200B;或&#x200B;**[!UICONTROL 帳戶]**。
 
-1. 按一下&#x200B;**[!UICONTROL 設定]**&#x200B;圖示，然後按一下&#x200B;**[!UICONTROL 編輯頁面]**。\
+1. 按一下&#x200B;**[!UICONTROL 設定]**&#x200B;圖示，然後按一下&#x200B;**[!UICONTROL 編輯頁面]**。
 
 1. 展開&#x200B;**[!UICONTROL 自訂管理]**&#x200B;區段。
 1. 將&#x200B;**[!DNL Workfront]**&#x200B;元件拖放到您的[!UICONTROL 機會]或帳戶上

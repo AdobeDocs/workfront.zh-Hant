@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 7373ee9f31e4b7561735920f3ff02cbd4fdce44a
+source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
 workflow-type: tm+mt
-source-wordcount: '1705'
+source-wordcount: '1682'
 ht-degree: 0%
 
 ---
@@ -29,31 +29,27 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront計畫 </td> 
-   <td>任何</td> 
+  <tr> 
+   <td>Adobe Workfront套件</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td>
-   <p>新增：標準</p>
-   <p>或</p>
-   <p>目前：計畫</p></td> 
+   <td>Adobe Workfront授權</td> 
+   <td><p>標準</p>
+       <p>規劃</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">存取層級設定</td> 
-   <td>管理自訂表單的存取權 </td> 
+  <tr> 
+   <td>存取層級設定</td> 
+   <td> <p>管理自訂表單的存取權</p> </td> 
   </tr>  
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -65,7 +61,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | ![目標欄位的顯示邏輯](assets/display-logic-bottom-left.png) | 左下方 | 欄位是顯示邏輯的目標欄位。 如果在表單上做了特定選擇，則會顯示此欄位。 |
 | ![定義顯示邏輯圖示](assets/display-logic-bottom-right.png) | 右下方 | 欄位會定義顯示邏輯。 此欄位中的特定選取範圍或值會顯示目標欄位。 |
-| 目標欄位![&#128279;](assets/skip-logic-bottom-left.png)的略過邏輯 | 左下方 | 欄位是略過邏輯的目標欄位。 如果對表單進行了特定選擇，則表單會前進到此欄位，並且之間的欄位會隱藏。 |
+| 目標欄位![的](assets/skip-logic-bottom-left.png)略過邏輯 | 左下方 | 欄位是略過邏輯的目標欄位。 如果對表單進行了特定選擇，則表單會前進到此欄位，並且之間的欄位會隱藏。 |
 | ![定義略過邏輯圖示](assets/skip-logic-bottom-right.png) | 右下方 | 此欄位會定義略過邏輯。 此欄位上的特定選取範圍或值會略過其他欄位，並直接移至目標欄位。 |
 
 ![邏輯圖示](assets/logic-icons-3.png)
@@ -120,7 +116,7 @@ ht-degree: 0%
    1. 第一個選項是選擇定義欄位。 此欄位具有顯示目標的選取值。 它必須是多選欄位。
    1. 第二個選項是選擇選取值。 只有已為該欄位定義的值才可使用。
    1. 第三個選項是&#x200B;**已選取**&#x200B;或&#x200B;**未選取**。 選擇&#x200B;**已選取**&#x200B;表示選取值時，會顯示目標欄位。 選擇&#x200B;**未選取**&#x200B;表示在定義欄位中選取任何其他值時，會顯示目標欄位。
-   1. 若要將&#x200B;**And**&#x200B;規則新增至邏輯陳述式，請按一下您剛建立之規則下方的[新增規則]。 **&#x200B;**&#x200B;依照相同的提示來建置規則。 必須符合所有的And規則，目標欄位才會顯示。
+   1. 若要將&#x200B;**And**&#x200B;規則新增至邏輯陳述式，請按一下您剛建立之規則下方的[新增規則]。 ****&#x200B;依照相同的提示來建置規則。 必須符合所有的And規則，目標欄位才會顯示。
 
       ![顯示邏輯產生器](assets/simple-display-logic2.png)
 

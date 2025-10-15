@@ -3,13 +3,13 @@ content-type: tips-tricks-troubleshooting
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-tasks
 title: 預計期間與計畫期間不符
-description: 您會收到下列錯誤訊息：「任務/問題的預計期間已變為0，且不符合計畫期間」。
+description: 本文說明當您可能收到下列訊息時，Adobe Workfront中的疑難排解：「任務/問題的預計期間已變為0，且不符合計畫期間」。
 author: Alina
 feature: Work Management
 exl-id: ef135d44-3138-457d-b54a-3f1102ce3116
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---

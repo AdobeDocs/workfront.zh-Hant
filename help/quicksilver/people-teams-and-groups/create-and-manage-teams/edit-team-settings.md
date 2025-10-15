@@ -6,9 +6,9 @@ description: Workfront管理員和擁有計畫或工作授權的使用者可以�
 author: Lisa
 feature: People Teams and Groups
 exl-id: b6761188-8630-446e-bc70-70fe272881ce
-source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
+source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -23,22 +23,19 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront計畫</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront套件</p> </td> 
    <td>任何</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td>
-   <p>新增：標準</p>
-   <p>或</p>
-   <p>目前：工作或以上</p></td>
+   <p>標準</p>
+   <p>工作或更高</p></td>
   </tr> 
  </tbody> 
 </table>

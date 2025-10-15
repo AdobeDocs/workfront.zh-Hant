@@ -6,10 +6,10 @@ description: 您可以從資源規劃工具的任何檢視中，將資訊匯出�
 author: Lisa
 feature: Resource Management
 exl-id: 07acd28a-5dc0-45b4-bdf2-20abbd5e098c
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 4%
+source-wordcount: '599'
+ht-degree: 5%
 
 ---
 
@@ -25,36 +25,32 @@ ht-degree: 4%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td><p>新增：任何</p>
-       <p>或</p>
-       <p>目前：Pro或更高</p> </td> 
+  <tr> 
+   <td>Adobe Workfront套件</td> 
+   <td><p>任何</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td><p>新增：淺色或更高</p>
-       <p>或</p>
-       <p>目前：檢閱或以上</p></td>
+   <td>Adobe Workfront授權</td> 
+   <td><p>淺色或更高</p>
+       <p>評論或以上</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
-   <td> <p>檢視專案、使用者和資源管理的存取權或以上許可權</p> </td> 
+   <td>存取層級設定</td> 
+   <td> <p>檢視專案、使用者和資源管理的存取權或以上許可權</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件許可權</td> 
-   <td> <p>檢視專案的許可權或更高版本</p> </td> 
+   <td>物件許可權</td> 
+   <td> <p>檢視專案或更高的許可權</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -64,7 +60,7 @@ ht-degree: 4%
 
 依預設會顯示&#x200B;**規劃師**。
 
-1. 選取供需規劃員的檢視。 您可以選取下列其中一個選項：
+1. 選取供需規劃員的檢視。 您可以選取下列任一選項：
 
    * 依使用者檢視
    * 依專案檢視
@@ -123,7 +119,7 @@ Excel (.xlsx)檔案會下載至您的電腦。\
    （視條件而定）如果您匯出大量資料，您會收到一封電子郵件，其中包含您可下載檔案的連結。\
    ![RP_eamil_with_exported_planner_attached.png](assets/rp-eamil-with-exported-planner-attached-350x116.png)
 
-1. （視條件而定）當您收到含有匯出檔案的電子郵件時，請按一下[下載] **&#x200B;**&#x200B;下載檔案。\
+1. （視條件而定）當您收到含有匯出檔案的電子郵件時，請按一下[下載] ****&#x200B;下載檔案。\
    這會帶您返回Workfront以下載檔案。\
    您必須登入Workfront才能完成下載。\
    如果您在傳送檔案時未下載檔案，下載連結會在您啟動匯出後的7天內保持作用中。

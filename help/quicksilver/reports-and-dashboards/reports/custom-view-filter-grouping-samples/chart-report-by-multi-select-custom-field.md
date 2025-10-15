@@ -7,9 +7,9 @@ description: 只有在您建立其他計算欄位(擷取多選自訂欄位中所
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '1005'
 ht-degree: 0%
 
 ---
@@ -41,28 +41,21 @@ ht-degree: 0%
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
-
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
    <td> 
-    <p>新增：</p>
-   <ul><li><p>修改篩選器的貢獻者 </p></li>
-   <li><p>用於修改報告的標準</p></li> </ul>
-
-<p>目前：</p>
-   <ul><li><p>請求修改篩選器 </p></li>
-   <li><p>計畫修改報表</p></li> </ul></td> 
+   <p>修改篩選器的貢獻者或請求 </p>
+   <p>要修改報告的標準或計畫</p>
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -75,7 +68,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -153,8 +146,8 @@ ht-degree: 0%
 1. 新增您建立的<strong>計算多重選取欄位</strong>作為您的群組。
 1. 選取<strong>圖表</strong>索引標籤，然後將圖表新增至您的報表。
 
-   例如，選擇&#x200B;**資料行**&#x200B;圖表。
-   <br>如需有關將圖表新增至報表的資訊，請參閱文章<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">建立自訂報表</a>中的<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md#add-a-chart" class="MCXref xref">將圖表新增至報表</a>小節。
+   例如，選擇&#x200B;**資料行**圖表。
+   <br>如需有關將圖表新增至報表的資訊，請參閱文章<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md#add-a-chart" class="MCXref xref">建立自訂報表</a>中的<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">將圖表新增至報表</a>小節。
 1. 在&#x200B;**底部(X)軸**&#x200B;欄位中，選取要在圖表中顯示的<strong>計算多重選取欄位</strong>。
 1. 按一下「<strong>儲存並關閉</strong>」。
 

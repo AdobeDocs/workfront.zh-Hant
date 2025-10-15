@@ -6,9 +6,9 @@ description: 使用基本工作流程，您可以讓多個稽核者檢閱校樣�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f5d0c0e-e070-4f32-89c4-3b511a3b7fdc
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '1858'
+source-wordcount: '1793'
 ht-degree: 1%
 
 ---
@@ -23,24 +23,21 @@ ht-degree: 1%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td>
-   <p>新增：任何</p>
-    <p>目前計畫：Pro或更高版本</p>
-   <p>舊版計畫：選取或更高</p> <p>如需有關不同方案的校訂存取許可權的詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">存取Workfront中的校訂功能</a>。</p> </td> 
+   <p>任何</p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td>
-   <p>新增：標準</p>
-    <p>目前：工作或計畫</p> <p>舊版計畫：任何（您必須為使用者啟用校訂）</p> </td> 
+   <p>標準</p>
+    <p>工作或計畫</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">校樣權限設定檔 </td> 
@@ -53,7 +50,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、角色或校訂許可權設定檔，請連絡您的Workfront或Workfront Proof管理員。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -126,7 +123,7 @@ ht-degree: 1%
       <td> </td> 
      </tr> 
      <tr> 
-      <td> <p><strong>檢閱者</strong> </p> </td> 
+      <td> <p><strong>審閱者</strong> </p> </td> 
       <td> <p>✓</p> </td> 
       <td> <p>✓</p> </td> 
       <td> <p>✓</p> </td> 

@@ -3,12 +3,12 @@ product-area: projects;agile-and-teams
 navigation-topic: manage-projects
 title: 在敏捷檢視中管理專案
 description: 您可以針對專案利用敏捷功能，而不會遇到敏捷實務通常伴隨的管理挑戰（例如管理團隊待辦專案或建立反複專案）。
-author: Alina and Lisa
+author: Alina, Courtney
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 37c75806c268af034cf801ae62fcab546fdf5dc9
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
@@ -32,13 +32,14 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>目前：檢閱或以上</p> 
-   <p>新增：投稿人或更高版本</p> </td> 
+   <td> <p>淺色或更高</p>
+   <p>評論或以上</p> 
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -59,6 +60,37 @@ ht-degree: 0%
 如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+<!--old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Current: Review or higher</p> 
+   <p>New: Contributor or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configuration</td> 
+   <td> <p>Edit access to the following areas:</p> 
+    <ul> 
+     <li> <p>Projects</p> </li> 
+     <li> <p>Reports, Dashboards, Calendars</p> </li> 
+     <li> <p>Filters, Views,&nbsp;Groupings</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View permissions to the project</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 
 ## 在敏捷檢視中檢視專案

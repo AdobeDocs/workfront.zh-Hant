@@ -6,9 +6,9 @@ description: '[!UICONTROL 展示板]儀表板會顯示您可以存取的展示�
 author: Lisa
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
@@ -37,22 +37,19 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
    <td> 
-   <p>新增：[!UICONTROL Contributor]或以上</p> 
-   <p>或</p>
-   <p>目前： [!UICONTROL Request]或以上</p>
+   <p>投稿人或以上</p> 
+   <p>要求或更高版本</p>
    </td> 
   </tr> 
  </tbody> 
@@ -68,7 +65,7 @@ ht-degree: 0%
 您可以篩選展示板控制面板，以顯示使用中、已封存或所有展示板或工作流程。
 
 1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 面板]**。
-1. 按一下[面板]區域或[工作流程]區域中的[篩選器][!UICONTROL **&#x200B;**]，然後選取[全部]&#x200B;**、[活動]**&#x200B;**或[已封存]**&#x200B;**。**
+1. 按一下[面板]區域或[工作流程]區域中的[篩選器][!UICONTROL ****]，然後選取[全部]**[!UICONTROL 、[活動]]****[!UICONTROL 或[已封存]]****[!UICONTROL 。]**
 
    當在儀表板上套用預設以外的篩選器時，篩選器圖示![已套用至儀表板](assets/boards-filterapplied-30x30.png)的篩選器上會顯示指示器。
 

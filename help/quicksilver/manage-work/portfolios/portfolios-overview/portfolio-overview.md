@@ -2,29 +2,29 @@
 content-type: overview
 product-area: portfolios
 navigation-topic: portfolios-overview
-title: 在 [!DNL Adobe Workfront]中的Portfolio概觀
-description: Portfolio是具有統一特性的專案集合。 這些專案通常會爭奪相同的資源、預算或時段。 您可以將Portfolio分成方案，並在將專案新增到Portfolio之前將其與方案相關聯。
+title: 瞭解Portfolio方法
+description: Portfolio是具有統一特性的專案集合。 這些專案通常會爭奪相同的資源、預算或時段。 您可以將投資組合分割成計畫，並在將專案新增到Portfolio之前建立專案與計畫的關聯。
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: b340501e-1190-415e-aa96-5aad177c4b7b
-source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
 
-# 在[!DNL Adobe Workfront]中的Portfolio概觀
+# 瞭解產品組合方法
 
 <!-- Audited: 1/2024 -->
 
-Portfolio或專案Portfolio管理(PPM)是排定專案清單優先順序並加以管理的程式，以便達成特定的業務目標。
+Portfolio或專案Portfolio管理(PPM)是排定專案清單優先順序及加以管理的程式，以達成特定的業務目標。
 
 如需PPM的一般資訊，請參閱[Portfolio管理概觀](/help/quicksilver/manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md)。
 
-在Adobe Workfront中，專案組合是具有統一特性的專案集合。 這些專案通常會爭奪相同的資源、預算或時段。 您可以將Portfolio分成方案，並在將專案新增到Portfolio之前將其與方案相關聯。
+在Adobe Workfront中，專案組合是具有統一特性的專案集合。 這些專案通常會爭奪相同的資源、預算或時段。 您可以將投資組合分割成計畫，並在將專案新增到Portfolio之前建立專案與計畫的關聯。
 
-您可以使用Portfolio和方案來組織專案。 透過組織專案，您可以比較類似的專案，並決定資源的最佳使用時機。
+您可以使用「專案組合與計畫」來組織專案。 透過組織專案，您可以比較類似的專案，並決定資源的最佳使用時機。
 
 如需有關使用程式的資訊，請參閱[建立程式](../../../manage-work/portfolios/create-and-manage-programs/create-program.md)。
 
@@ -34,25 +34,26 @@ Portfolio或專案Portfolio管理(PPM)是排定專案清單優先順序並加以
 
 <!--leave the table uncollapsed as this article is about access-->
 
-若要建立和管理產品組合，您必須具備下列存取權：
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
-   <td> <p>新增：任何</p>
-   <p>目前：[!UICONTROL Business]或更高版本</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 套件</td> 
+   <td> <p>Workfront Prime或更高版本</p>
+   <p>工作流程Prime或更高版本</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>新增：[!UICONTROL Standard]</p>
-   <p>目前：[!UICONTROL 計畫] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
+   <td> <p>[！UICONTROL標準]</p>
+   <p>[！UICONTROL計畫]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[!UICONTROL Edit]對Portfolio的存取權</p>  </td> 
+   <td> <p>[！UICONTROL Edit]對投資組合的存取權</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
@@ -66,8 +67,39 @@ Portfolio或專案Portfolio管理(PPM)是排定專案清單優先順序並加以
 
 *如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
++++
 
-## [!DNL Adobe Workfront]投資組合方法
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>New: Any</p>
+   <p>Current:[!UICONTROL Business] or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>New: [!UICONTROL Standard]</p>
+   <p>Current:[!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL Edit] access to Portfolios</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>After you create a portfolio, you have Manage permissions to it, by default</p> 
+   <p>Manage permissions to edit a portfolio or add projects to it</p>
+   <p>View permissions to a portfolio to view it in Workfront</p>
+    </td> 
+  </tr> 
+ </tbody> 
+</table>-->
+
+## 瞭解[!DNL Adobe Workfront]投資組合方法
 
 在[!DNL Workfront]中，您可以將專案新增至投資組合以建立及組織您的投資組合。
 
@@ -79,7 +111,7 @@ Portfolio或專案Portfolio管理(PPM)是排定專案清單優先順序並加以
 
    [!UICONTROL 業務案例]包含下列資訊：
 
-   * 有關專案的一般資訊(說明、Portfolio和方案指派、專案所有者和贊助者)
+   * 專案的一般資訊(說明、Portfolio和方案指派、專案所有者和贊助者)
    * 專案目的或目的
    * 預估費用成本
    * 勞力成本的資源預算
@@ -93,15 +125,15 @@ Portfolio或專案Portfolio管理(PPM)是排定專案清單優先順序並加以
    您在建立業務案例期間收集的詳細資料會用於[!UICONTROL 投資組合最佳化工具]和[!UICONTROL 資源規劃工具]，以協助管理選取專案。
 1. 建立專案的業務案例時，建立資源集區與專案的關聯。
 
-   Portfolio通常會設定為與資源集區對應。 Portfolio中的程式也符合資源集區。 此相互關聯有助於確保所有資源規劃符合Portfolio的目的，因為同一Portfolio內的專案通常會爭奪相同的資源。
+   產品組合通常設定為與資源集區對應。 Portfolio中的程式也與資源集區一致。 此相互關聯有助於確保所有資源規劃符合Portfolio的用途，因為同一Portfolio中的專案通常會爭奪相同的資源。
 
    如需詳細資訊，請參閱[建立資源集區](/help/quicksilver/resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)。
 
 1. 取得您的Portfolio管理員核准的[!UICONTROL 業務案例]。
 
    如需詳細資訊，請參閱[核准業務案例](/help/quicksilver/manage-work/projects/define-a-business-case/approve-business-case.md)。
-1. 在[!UICONTROL Portfolio最佳化工具]中管理投資組合中專案的效能。
+1. 在[!UICONTROL Portfolio Optimizer]中管理投資組合中專案的效能。
 
-   Portfolio管理員可以使用Portfolio儀表板追蹤投資組合內的財務績效。 此儀表板會顯示在Portfolio的標題中。
+   Portfolio經理可以使用Portfolio儀表板追蹤投資組合內的財務績效。 此儀表板會顯示在Portfolio的標題中。
 
-   如需Portfolio的財務欄位相關資訊，請參閱[Portfolio最佳化工具概觀](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)中的[瞭解Portfolio最佳化工具中的財務欄位](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md#financial-fieds-subsection)區段。
+   如需Portfolio的財務欄位相關資訊，請參閱[Portfolio Optimizer概觀](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md#financial-fieds-subsection)中的[瞭解Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)區段。

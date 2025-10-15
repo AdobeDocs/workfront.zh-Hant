@@ -6,9 +6,9 @@ description: 您可以檢視指定專案團隊的所有版序，也可以檢視�
 author: Lisa
 feature: Agile
 exl-id: 1ee14c40-8047-4885-96f0-cddfc2617028
-source-git-commit: 556a2b89f2e380d3a0725f0d53251d3e1e3c7ca7
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,6 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -30,14 +28,13 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>新增：[!UICONTROL Light]或以上</p> 
-   或
-   <p>目前： [!UICONTROL Review]或以上</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>淺色或更高</p> 
+   <p>評論或以上</p> </td> 
   </tr>
  </tbody> 
 </table>

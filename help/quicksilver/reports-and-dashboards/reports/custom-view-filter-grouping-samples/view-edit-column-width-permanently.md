@@ -7,9 +7,9 @@ description: 您可以拖放欄的邊界以符合想要的寬度，暫時修改�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 42633036-8e42-4cec-876c-f20a5ece2478
-source-git-commit: 71c0bf664af66bec7122651c1b62dd1c28022565
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -26,27 +26,27 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：<ul><li>修改檢視的貢獻者</li><li>用於修改報告的標準</li></ul></p><p>或</p>目前：<ul><li>請求修改檢視</li><li>計畫修改報表</li></ul></p> </td> 
+   <td> 
+   <p>投稿人或請求修改檢視 </p>
+   <p>要修改報告的標準或計畫</p>
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
    <td> <p>編輯報告、儀表板、行事曆的存取權以修改報告</p> <p>編輯對篩選器、檢視、群組的存取權以修改檢視</p> </td> 
-  </tr>  
+  </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>管理報表的許可權</p> </td> 
+   <td> <p>管理報表的許可權</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->如果您手動修改欄的寬度，如[&#128279;](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md#modify-width-and-order-of-columns-temporarily)暫時修改欄的寬度和順序[修改欄的寬度和順序](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)一節中所述，在您永久修改欄的寬度之後，欄的寬度會根據手動調整大小保留。 在此情況下，會覆寫根據下列步驟更新的欄寬。 清除快取或從其他瀏覽器登入後，您可以根據下列步驟中定義的寬度來檢視欄。
+>如果您手動修改欄的寬度，如[暫時修改欄的寬度和順序](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md#modify-width-and-order-of-columns-temporarily)修改欄的寬度和順序[一節中所述，在您永久修改欄的寬度之後，欄的寬度會根據手動調整大小保留。 ](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)在此情況下，會覆寫根據下列步驟更新的欄寬。 清除快取或從其他瀏覽器登入後，您可以根據下列步驟中定義的寬度來檢視欄。
 >
 >如需在使用「文字模式」介面時自訂欄寬的其他資訊，請參閱Adobe Workfront術語[辭彙表](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)中的「寬度」和「延伸」定義。
 

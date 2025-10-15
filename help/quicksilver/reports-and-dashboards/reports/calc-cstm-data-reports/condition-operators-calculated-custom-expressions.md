@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: 計算自訂運算式中的條件運運算元
 description: 使用文字模式在Adobe Workfront中建立計算的自訂資料時，您可以使用條件運運算元或修飾元。
-author: Nolan
+author: Jenny
 feature: Reports and Dashboards
 exl-id: ce98ca39-cb86-4ef7-b75c-29ceb916e885
-source-git-commit: e10fd7a3237d38ece8a5213990306ce511bd2412
+source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
 workflow-type: tm+mt
 source-wordcount: '731'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 

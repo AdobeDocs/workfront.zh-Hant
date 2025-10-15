@@ -8,7 +8,7 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: aeb55124fa76192a5c39b504964fe9acc16c31d8
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
 source-wordcount: '1522'
 ht-degree: 3%
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # 稽核記錄概觀
 
-<!--Audited: 01/2024-->
+<!--Audited: 08/2025-->
 
 身為Adobe Workfront管理員，您可以使用下述稽核記錄追蹤過去90天內系統中觸發的使用者變更。
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 479dfb9d-0e47-4790-a33a-336b415fbf6e
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 15063d937a5ba9b5285c66a0987e8deea6cc6d74
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '333'
 ht-degree: 1%
 
 ---
@@ -23,45 +23,40 @@ ht-degree: 1%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto">
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!DNL Workfront] 計劃</p> </td> 
-   <td><p>目前： [!UICONTROL Team]或更高版本</p>
-   <p>或</p>
-   <p>新增：任何</p>
+   <td> <p>[!DNL Workfront] 封裝</p> </td> 
+   <td><p>任何</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!DNL Adobe Workfront] 授權</p> </td> 
-   <td><p>目前： [!UICONTROL 計畫]</p>
-   <p>或</p>
-   <p>新增：[!UICONTROL Standard]</p>
+   <td> <p>[!DNL Adobe Workfront] 授權</p> </td> 
+   <td><p>[！UICONTROL計畫]</p>
+   <p>[！UICONTROL標準]</p>
    </td> 
   </tr>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"><strong>存取層級設定</strong> </td> 
-   <td> <p>下列其中一項：</p> 
+  <tr> 
+   <td>存取層級設定</td> 
+  <td> <p>您必須具備下列其中一項：</p> 
     <ul> 
-     <li> <p>[!UICONTROL 系統管理員]存取層級，可讓您編輯系統中的任何公司。</p> </li> 
+     <li> <p>[！UICONTROL系統管理員]存取層級，可讓您編輯系統中的任何公司。</p> </li> 
      <li> <p>管理公司的管理存取權，可讓您編輯系統中的任何公司。</p> </li> 
     </ul> <p><b>附註</b>：  
      <ul> 
       <li> <p>您也可以管理與您被指派為群組管理員的任何群組相關聯的公司。</p> </li> 
-      <li> <p>若要在[!DNL Workfront]系統中新增和移除使用者，您必須具備下列其中一項：</p> 
+      <li> <p>若要從[!DNL Workfront]系統中新增和移除使用者，您必須具備下列其中一項：</p> 
        <ul> 
-        <li> <p>[!UICONTROL 系統管理員]存取層級。</p> </li> 
-        <li> <p>在您的存取層級中，必須為[!UICONTROL 使用者]設定選取[!UICONTROL 編輯] 。 此外，針對[!UICONTROL 使用者]設定，在[!UICONTROL 微調您的設定] <img src="assets/gear-icon-in-access-levels.png">下，必須啟用[!UICONTROL 建立]選項以及兩個[!UICONTROL 使用者管理]選項中的至少一個。 </p> <p> <img src="assets/access-req-users.png"> </p> <p>如果您使用[!UICONTROL 使用者管理員（群組使用者）]選項，您必須是使用者所屬群組的群組管理員。</p> </li> 
+        <li> <p>[！UICONTROL系統管理員]存取層級。 </p> </li> 
+        <li> <p>您的存取層級中的<b>[！UICONTROL Users]</b>設定已設定為<b>[！UICONTROL Edit]</b>存取，且<b>[！UICONTROL Create]</b>以及在<b>[！UICONTROL Fine-tune your settings]</b> <b>下啟用的兩個</b>[！UICONTROL User Admin]<img src="assets/gear-icon-in-access-levels.png">選項中的至少一個選項。 </p> <p> <img src="assets/access-req-users.png"> </p> <p>在這兩個選項中，如果已啟用<b>[！UICONTROL User Admin (Group Users)]</b>，您必須是使用者所屬群組的群組管理員。</p> </li> 
        </ul>
        </li> 
-     </ul> </p> </td> 
+     </ul> </p> </td>
   </tr> 
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

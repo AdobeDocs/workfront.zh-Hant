@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 7373ee9f31e4b7561735920f3ff02cbd4fdce44a
+source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1318'
 ht-degree: 0%
 
 ---
@@ -23,31 +23,27 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront計畫</p> </td> 
-   <td>任何</td> 
+  <tr> 
+   <td>Adobe Workfront套件</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td>
-   <p>新增：標準</p>
-   <p>或</p>
-   <p>目前：計畫</p></td>
+   <td>Adobe Workfront授權</td> 
+   <td><p>標準</p>
+       <p>規劃</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">存取層級設定</td> 
+  <tr> 
+   <td>存取層級設定</td> 
    <td> <p>管理自訂表單的存取權</p> </td> 
-  </tr> 
+  </tr>  
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -123,7 +119,7 @@ ht-degree: 0%
 
 1. 拖曳或新增至少一個自訂欄位或Widget至新區段。 儲存區段前必須先完成此作業。
 
-1. 按一下&#x200B;**完成**。
+1. 按一下「**完成**」。
 
    >[!TIP]
    >
@@ -162,7 +158,7 @@ ht-degree: 0%
 
    ![將欄位移至區段](assets/move-field-to-section.png)
 
-1. 若要儲存變更，請按一下[套用] **&#x200B;**
+1. 若要儲存變更，請按一下[套用] ****
 
    或
 

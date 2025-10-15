@@ -8,18 +8,14 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 99b81090-8d09-4130-a746-44ed1d76f971
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '747'
 ht-degree: 0%
 
 ---
 
 # 停用或重新啟用群組
-
-<!--
-If Callisto adds the <b>Is active</b> checkbox to the Details page for groups you view, add that info to Manage groups/Create and manage groups/manage-a-group and to Manage groups/Create and manage groups/view-and-manage-a-groups-details
--->
 
 您可以停用您不再使用的管理群組。
 
@@ -27,32 +23,27 @@ If Callisto adds the <b>Is active</b> checkbox to the Details page for groups yo
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td>任何</td> 
+   <td>Adobe Workfront套件</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
+   <td>Adobe Workfront授權</td> 
+   <td><p>標準</p>
+       <p>規劃</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td><p>新增：標準</p>
-       <p>或</p>
-       <p>目前：計畫</p></td>
-  </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">存取層級設定</td> 
+   <td>存取層級設定</td> 
    <td>您必須是群組的群組管理員或系統管理員。</td>
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -64,9 +55,9 @@ If Callisto adds the <b>Is active</b> checkbox to the Details page for groups yo
 >
 >如果您需要重新啟用其中一個，可以執行下列任一項作業之後再啟用：
 >
->* 將其從父群組中移除。 如需詳細資訊，請參閱[管理子群組](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)一文中的[從父群組中移除子群組，並將其設為最上層群組](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make)一節。
+>* 將其從父群組中移除。 如需詳細資訊，請參閱[管理子群組](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make)一文中的[從父群組中移除子群組，並將其設為最上層群組](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)一節。
 >
->* 將其移至使用中群組的下方。 如需詳細資訊，請參閱文章[管理子群組](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)中的[建立、移動、檢視、編輯、複製、重新命名、匯出或刪除子群組](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#create)一節。
+>* 將其移至使用中群組的下方。 如需詳細資訊，請參閱文章[管理子群組](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#create)中的[建立、移動、檢視、編輯、複製、重新命名、匯出或刪除子群組](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)一節。
 
 {{step-1-to-setup}}
 
@@ -76,7 +67,7 @@ If Callisto adds the <b>Is active</b> checkbox to the Details page for groups yo
 
 1. 按一下群組的名稱以開啟其頁面。
 
-1. 按一下群組名稱旁的[更多]功能表![更多圖示](assets/more-icon.png)，然後按一下[停用] **或[重新啟用]**&#x200B;**。**
+1. 按一下群組名稱旁的[更多]功能表![更多圖示](assets/more-icon.png)，然後按一下[停用] **或[重新啟用]****。**
 
    >[!NOTE]
    >
@@ -119,4 +110,4 @@ If Callisto adds the <b>Is active</b> checkbox to the Details page for groups yo
 
 * 從子群組的父群組中移除子群組（使子群組成為最上層群組）。 然後啟用已移動群組的[作用中]選項，如本文中[停用或重新啟用群組](#View)一節所述。
 
-  如需從父群組移除子群組的說明，請參閱[管理子群組](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)一文中的[從父群組移除子群組，並使其成為最上層群組](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make)一節。
+  如需從父群組移除子群組的說明，請參閱[管理子群組](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make)一文中的[從父群組移除子群組，並使其成為最上層群組](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)一節。

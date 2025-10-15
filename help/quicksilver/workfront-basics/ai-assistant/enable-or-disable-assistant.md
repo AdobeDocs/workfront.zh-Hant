@@ -5,9 +5,9 @@ description: 您可以控制組織中哪些存取層級有權存取AI助理。
 author: Becky
 feature: Get Started with Workfront
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: d929599ccdbfb90d731a3dfb9d83d3eb54d345ea
+source-git-commit: 8a0923bbdc8731652e59647409ef9b32e802e895
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '201'
 ht-degree: 1%
 
 ---
@@ -18,32 +18,31 @@ ht-degree: 1%
 
 ## 存取需求
 
-您必須具有下列存取權才能啟用或停用AI小幫手：
++++ 展開以檢視本文中功能的存取需求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td><p>新增：任何</p>
-       <p>或</p>
-       <p>目前：無法使用</p></td>
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td><p>新增：標準</p>
-       <p>或</p>
-       <p>目前：無法使用</p></td>
+   <td><p>標準</p>
+   <p>規劃</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>您必須是Workfront管理員。</p> </td> 
+   <td> <p>您必須是Workfront管理員</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 啟用或停用Workfront中的AI助理
 

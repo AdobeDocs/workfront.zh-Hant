@@ -7,35 +7,46 @@ description: 瞭解如何檢閱目標，並瞭解您可在下列文章中管理A
 author: Alina
 feature: Workfront Goals
 exl-id: 81f531f7-3390-4f85-9a96-480f4e84295e
-source-git-commit: a64f6e507d74201cba1455fbbc6af77c2b7ba058
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
 
 # 目標檢閱和Adobe Workfront目標區段：文章索引
 
-<!--Audited: 4/2025-->
+<!--Audited: 10/2025-->
+
+>[!NOTE]
+>
+>如果貴公司過去曾購買此套件，他們可能會選擇繼續使用Adobe Workfront目標。 如需詳細資訊，請洽詢客戶代表。
+>
+>Adobe Workfront目標不再提供購買。
+>
+>如需存取Workfront目標的詳細資訊，請參閱[使用Workfront目標的需求](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)。
+
+<!--Old:
 
 >[!IMPORTANT]
 >
->您的組織必須具備下列專案，才能使用本文所述的功能：
+>Your organization must have the following to use the functionality described in this article:
 >
->* 對於新計畫和授權結構：
+>* For the new plan and license structure:
 >
->   * Ultimate Workfront計畫
+>   * The Ultimate Workfront plan 
 >    
->* 對於目前的計畫與授權結構：
+>* For the current plan and license structure: 
 >
->   * Pro或更高版本Workfront計畫
->   * 除了Adobe Workfront授權之外，還有Workfront目標授權。
+>   * A Pro or higher Workfront plan
+>   * An Adobe Workfront Goals license in addition to a Workfront license.
 >
->請連絡您的Workfront客戶經理，以瞭解Workfront Goals授權。
+>Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->如需存取Workfront目標的詳細資訊，請參閱[使用Workfront目標的需求](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)。
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).   
+-->
 
-本節包含下列文章：
+在下列文章中瞭解如何檢閱目標，並瞭解您可以在Adobe Workfront中管理目標的區段：
 
 * [Adobe Workfront目標區段概觀](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md)
 * [管理Adobe Workfront目標之目標清單中的目標](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md)

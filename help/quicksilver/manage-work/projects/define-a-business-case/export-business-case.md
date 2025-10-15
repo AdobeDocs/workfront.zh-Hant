@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: business-case-and-scorecards
 title: 匯出專案的業務案例
 description: 您可以將業務案例匯出至PDF檔案，以備您以更精簡的格式列印或附加至電子郵件。
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 834c56c4-ca11-4aff-b67e-0eac9fa23403
-source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
+source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
@@ -26,14 +26,14 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront計畫*</p></td> 
-   <td> <p>目前：Prime或更新版本 </p> <p>舊版：Pro或更高版本 </p> </td> 
+   <td role="rowheader"><p>Adobe Workfront套件</p></td> 
+   <td> <p>Prime或更新版本 </p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront授權*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront授權</p></td> 
    <td> 
-   <p>目前：淺色或更高</p>
-   <p>舊版：檢閱或更高版本</p> </td> 
+   <p>淺色或更高</p>
+   <p>評論或以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -46,7 +46,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

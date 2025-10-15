@@ -5,7 +5,8 @@ title: 管理面板管理檢視
 description: 「主機板管理檢視」包含您帳戶中每個主機板的清單，系統管理員可使用此清單來快速取得整體主機板詳細資訊的快照。
 author: Jenny
 feature: Agile
-source-git-commit: 56263c3f868e7abdaf973c5c03411a2e63ba645d
+exl-id: 4a7f2f68-14d2-4532-8c76-2ba78b45deac
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 1%
@@ -33,7 +34,7 @@ ht-degree: 1%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -71,7 +72,7 @@ ht-degree: 1%
 
    1. （選擇性）按一下&#x200B;**行事曆**&#x200B;圖示![行事曆圖示](assets/calendar-icon.png)，然後選取日期範圍，以依據該時間範圍內最後修改的展示板進行篩選。
 
-   1. （選擇性）在&#x200B;**範本**&#x200B;區段中，選取清單篩選所依據的主機板範本型別。 您可以選取多個範本型別。
+   1. （選擇性）在&#x200B;**範本**區段中，選取清單篩選所依據的主機板範本型別。 您可以選取多個範本型別。
 如需面板範本型別的詳細資訊，請參閱[建立或編輯面板](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md)。
 
    1. （選擇性）在&#x200B;**已封存**&#x200B;區段中，選取要顯示已封存或未封存的展示板。 您可以選取多個選項。

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: b3a4945cf2db1ba11b42742f0da685b32a6d0dd9
+source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
 workflow-type: tm+mt
-source-wordcount: '1438'
+source-wordcount: '1414'
 ht-degree: 0%
 
 ---
@@ -27,31 +27,27 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront計畫 </td> 
-   <td>任何</td> 
+  <tr> 
+   <td>Adobe Workfront套件</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td>
-   <p>新增：標準</p>
-   <p>或</p>
-   <p>目前：計畫</p></td> 
+   <td>Adobe Workfront授權</td> 
+   <td><p>標準</p>
+       <p>規劃</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">存取層級設定</td> 
-   <td>管理自訂表單的存取權 </td> 
+  <tr> 
+   <td>存取層級設定</td> 
+   <td> <p>管理自訂表單的存取權</p> </td> 
   </tr>  
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -131,7 +127,7 @@ ht-degree: 0%
    `$.data[*].parameterValues.["DE:Combo Colors"]`
 
    * 「parameterValues」是指Workfront中您所在物件的任何自訂欄位。
-   * 在此範例中，「DE：組合顏色」是包含您要擷取之值的特定自訂欄位。
+   * 在此範例中，「DE:Combo色彩」是包含您要擷取之值的特定自訂欄位。
 
    >[!NOTE]
    >
@@ -210,24 +206,24 @@ Workfront Planning API中的端點可透過Get方法，依記錄型別ID搜尋�
 
    ![具有外部查閱欄位的自訂表單](assets/external-lookup-countries-example1.png)
 
-   根據地區![&#128279;](assets/external-lookup-countries-example2.png)國家/地區的外部查閱選項
+   根據地區![國家/地區的](assets/external-lookup-countries-example2.png)外部查閱選項
 
 ## 外部查詢欄位的其他使用案例
 
 建立外部查詢有許多其他使用案例。
 
-**使用案例：**&#x200B;取代自動提示欄位，因為這些欄位可能會導致報表發生問題。
+**使用案例：**取代自動提示欄位，因為這些欄位可能會導致報表發生問題。
 **解決方案：**&#x200B;使用系統現有物件的API呼叫。
 
 範本的基礎API URL範例，取代預先輸入欄位：
 `$$HOST/attask/api/v17.0/tmpl/search?isActive=true&name_Sort=asc`
 
-**使用案例：**&#x200B;建立包含更多功能的下拉式欄位（例如，外部eookup欄位中有換行字元）。
+**使用案例：**建立包含更多功能的下拉式欄位（例如，外部eookup欄位中有換行字元）。
 **解決方案：**&#x200B;使用系統中現有物件的API呼叫，或建立新物件並使用這個物件的API呼叫。
 
-**使用案例：**&#x200B;定義使用者在自訂表格區域外維護其欄位的方法。 設定「外部查詢」欄位，您可以將使用者指定給組成該欄位的物件。 此選項適合用於高維護欄位和團隊。
+**使用案例：**定義使用者在自訂表格區域外維護其欄位的方法。 設定「外部查詢」欄位，您可以將使用者指定給組成該欄位的物件。 此選項適合用於高維護欄位和團隊。
 **解決方案：**&#x200B;建立新物件並使用這個物件的API呼叫。
 
-**使用案例：**&#x200B;與Workfront外部的物件整合。 例如，存取另一個系統以取得每個使用者的名稱，而不是被限制在預先輸入欄位中。
+**使用案例：**與Workfront外部的物件整合。 例如，存取另一個系統以取得每個使用者的名稱，而不是被限制在預先輸入欄位中。
 **解決方案：** Webhook/Fusion Automation連線到其他系統。
 

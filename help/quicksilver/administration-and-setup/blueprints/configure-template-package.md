@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: df10bc8f-b980-4c61-ae6d-bcea03103738
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 5fd855bec596926a4361fd07a1a763c7956e5e61
 workflow-type: tm+mt
-source-wordcount: '1856'
+source-wordcount: '1841'
 ht-degree: 0%
 
 ---
@@ -23,26 +23,23 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
    <td>
-   <p>新增：標準</p>
-   <p>或</p>
-   <p>目前：計畫</p></td> 
+   <p>標準</p>
+   <p>規劃</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td>您必須是[!DNL Workfront]管理員。 </td> 
+   <td>Workfront管理員 </td> 
   </tr> 
  </tbody> 
 </table>
@@ -92,19 +89,19 @@ ht-degree: 0%
 
    <table style="table-layout:auto">
     <tr>
-        <td><strong>[!UICONTROL 範本所有者]<strong></td>
-        <td>此人會收到範本的[!UICONTROL Manage]許可權，並將在使用範本建立專案時成為專案所有者。</td>
+        <td><strong>[！UICONTROL範本所有者]<strong></td>
+        <td>此人會收到範本的[！UICONTROL Manage]許可權，並將在使用範本建立專案時成為專案所有者。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 範本贊助者]</strong></td>
+        <td><strong>[！UICONTROL範本贊助者]</strong></td>
         <td>此人通常是需要瞭解專案情況的經理、執行或利害關係人。 專案贊助者未取得專案的任何額外存取權，但會新增到專案的電子郵件通知中。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL Portfolio]</strong></td>
+        <td><strong>[！UICONTROL Portfolio]</strong></td>
         <td>這是專案建立時屬於的投資組合。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL Program]</strong></td>
+        <td><strong>[！UICONTROL Program]</strong></td>
         <td>這是專案建立時所屬的計畫。</td>
     </tr>
    </table>
@@ -135,7 +132,7 @@ ht-degree: 0%
 
    >[!INFO]
    >
-   >**範例：**&#x200B;此Blueprint中的新問題偏好設定提供四個佇列主題。 使用者在建立問題時選取以下主題之一。 （因為只有一個主題群組存在，所以會自動套用，使用者不必加以選取。） 當使用者完成並提交問題時，路由規則會決定將其指派給哪個職務角色或團隊。
+   >**範例：**此Blueprint中的新問題偏好設定提供四個佇列主題。 使用者在建立問題時選取以下主題之一。 （因為只有一個主題群組存在，所以會自動套用，使用者不必加以選取。） 當使用者完成並提交問題時，路由規則會決定將其指派給哪個職務角色或團隊。
    >![新問題偏好設定範例](assets/Blueprints_IssuePrefsDetails.png)
    >新問題的![佇列主題](assets/blueprints-newissueqtopicsexample-350x204.png)
    >![問題已路由至工作角色](assets/Blueprints_ProjectShowsIssueAssignment.png)
@@ -174,7 +171,7 @@ Blueprint會依角色名稱搜尋，以檢視是否有任何符合的現有角�
 
 >[!NOTE]
 >
->安裝程式不會將角色套用至特定人員。 您應在安裝Blueprint解決方案之後驗證這些角色中的人員，並視需要指派人員。 如需詳細資訊，請參閱安裝Blueprint[&#128279;](../../administration-and-setup/blueprints/best-next-actions-after-install.md)後要採取的動作。
+>安裝程式不會將角色套用至特定人員。 您應在安裝Blueprint解決方案之後驗證這些角色中的人員，並視需要指派人員。 如需詳細資訊，請參閱安裝Blueprint[後要採取的](../../administration-and-setup/blueprints/best-next-actions-after-install.md)動作。
 
 如需[!DNL Workfront]中工作角色的詳細資訊，請參閱[建立和管理工作角色](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)。
 
@@ -205,7 +202,7 @@ Blueprint會依團隊名稱搜尋，以檢視是否有任何符合的現有團�
 
 >[!NOTE]
 >
->安裝程式不會將人員加入團隊。 您應該在安裝Blueprint解決方案之後驗證團隊中的人員，並視需要指派人員。 如需詳細資訊，請參閱安裝Blueprint[&#128279;](../../administration-and-setup/blueprints/best-next-actions-after-install.md)後要採取的動作。
+>安裝程式不會將人員加入團隊。 您應該在安裝Blueprint解決方案之後驗證團隊中的人員，並視需要指派人員。 如需詳細資訊，請參閱安裝Blueprint[後要採取的](../../administration-and-setup/blueprints/best-next-actions-after-install.md)動作。
 
 如需[!DNL Workfront]中團隊運作方式的詳細資訊，請參閱[建立及管理團隊](../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md)。
 

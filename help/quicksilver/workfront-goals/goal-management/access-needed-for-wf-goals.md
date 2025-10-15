@@ -7,9 +7,9 @@ description: 在存取Adobe Workfront目標之前，您的Adobe Workfront管理�
 author: Alina
 feature: Workfront Goals
 exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
-source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
+source-git-commit: dacfd8ef7475b197ac6ce5dd598c99df97037479
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -20,21 +20,28 @@ ht-degree: 0%
 
 在存取Adobe Workfront目標之前，您的Adobe Workfront管理員必須確認下列所有條件皆已符合：
 
-* 您的組織必須購買正確的Workfront目標授權。 如需詳細資訊，請參閱本文章的[取得Workfront目標組織存取權](#obtain-workfront-goals-organization-access)一節。
+* 您的組織過去曾購買Adobe Workfront Goals套件。 Adobe Workfront目標不再提供購買。
+
+  如需詳細資訊，請參閱本文章的[取得Workfront目標組織存取權](#obtain-workfront-goals-organization-access)一節。
 
 * 指派正確的Workfront授權型別。 如需指派授權型別和存取層級的資訊，請參閱本文章的[更新授權型別和存取層級設定](#update-license-types-and-access-level-settings)小節。
 
->[!NOTE]
->
->具有外部授權型別的使用者無法存取Workfront目標。
+  >[!NOTE]
+  >
+  >具有外部授權型別的使用者無法存取Workfront目標。
 
 * 讓您存取存取存取層級中的目標。 如需詳細資訊，請參閱[授與Adobe Workfront目標的存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
+
+  >[!NOTE]
+  >
+  >依預設，使用者在其存取層級中取得目標的「無存取權」。
+
 
 * 指派包含主功能表中目標區域的版面配置範本。
 
   >[!NOTE]
   >
-  >必須為所有使用者(包括Workfront管理員)指派一個版面配置範本，該範本包含主功能表中的「目標」區域。
+  >必須為所有使用者（包括系統管理員）指派一個版面配置範本，該範本包括主功能表中的「目標」區域。
 
   如需詳細資訊，請參閱本文章的[將Workfront目標新增至配置範本](#add-workfront-goals-to-a-layout-template)一節。
 
@@ -44,35 +51,50 @@ ht-degree: 0%
 
 ## 取得Workfront目標組織存取權 {#obtain-workfront-goals-organization-access}
 
+最後納入Workfront目標的Adobe Workfront套件是Adobe Workfront Ultimate。
+Workfront目標無法再用於較新套件的購買。
+請洽詢您的客戶代表，以查詢Workfront目標。
 
-視貴公司目前的Workfront計畫而定，會有以下情況：
+<!--Old: >
+Depending on which Workfront plan your company is currently on, the following scenarios exist: 
 
-* **新的Workfront計畫**：您必須擁有Ultimate Workfront計畫。 Workfront目標僅包含在此計畫中。
+* **A new Workfront plan**: You must have an Ultimate Workfront plan. Workfront Goals are included only in this plan. 
 
-* **目前的Workfront計畫**：您的組織除了Workfront授權外，還必須購買額外的授權。
+* **A current Workfront plan**: Your organization must purchase an additional license, in addition to the Workfront license.
 
-  貴組織購買額外授權後，Workfront會為您的帳戶啟用Workfront目標。 如需購買Workfront目標授權的相關資訊，請聯絡您的Workfront客戶經理。
+  After your organization purchases the additional license, Workfront enables Workfront Goals for your account. For information about purchasing a license for Workfront Goals contact your Workfront account manager.
 
-如需Workfront存取需求的相關資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+For information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
 
 ## 更新授權型別和存取層級設定  {#update-license-types-and-access-level-settings}
 
-視貴公司目前的Workfront計畫而定，會有以下情況：
+如果您的公司擁有上次購買的Workfront目標存取權，您的Workfront管理員必須授予您下列專案以存取Workfront目標：
 
-* **新的存取層級模型**：您的Workfront管理員必須授予您下列其中一種Workfront授權型別，才能存取Workfront目標：
+1. 下列授權之一：
 
-   * 貢獻者
-   * 精簡
-   * 標準
+   * 投稿人或以上
+   * 要求或更高版本
 
-* **目前的存取層級模型**：您的Workfront管理員必須授與您下列其中一種Workfront授權型別，才能存取Workfront目標：
+<!--Old: 
+* **The new access level model**: Your Workfront administrator must grant you one of the following Workfront license types to access Workfront Goals: 
 
-   * 規劃
-   * 工作
-   * 檢閱
-   * 請求
+  * Contributor
+  * Light
+  * Standard
 
-在您的Workfront管理員授予您其中一種授權型別後，他們還必須授予您存取層級中目標的存取權。 如需有關存取目標的資訊，請參閱[授與Adobe Workfront目標的存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)。
+* **The current access level model**: Your Workfront administrator must grant you one of the following Workfront license types to access Workfront Goals:
+
+  * Plan
+  * Work 
+  * Review
+  * Request
+-->
+
+1. 下列存取層級：
+
+   * 在存取層級中檢視或更高的目標存取權。
+
+   如需有關存取目標的資訊，請參閱[授與Adobe Workfront目標的存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)。
 
 身為Workfront管理員，您可以檢視系統中的目標Workfront授權數量，並瞭解目前啟用的數量。 如需詳細資訊，請參閱[管理您系統中的可用授權](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)。
 

@@ -3,38 +3,38 @@ content-type: overview;how-to-procedural
 product-area: projects
 keywords: 分析，量度，專案，任務，受指派人，完成，狀態，過期，近期
 navigation-topic: manage-projects
-title: 專案量度概觀
+title: 瞭解專案量度
 description: 專案量度可讓您以視覺效果呈現專案中發生的事件，讓您快速評估專案的需求和狀態。 瞭解如何解讀專案左側面板中的量度區域。
 author: Alina
 feature: Work Management
 exl-id: 54c2a59d-9f6b-4126-9526-5169aeda8517
-source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '1163'
+source-wordcount: '1161'
 ht-degree: 0%
 
 ---
 
-# 專案量度概觀
+# 瞭解專案量度
 
 專案量度以圖表格式提供您專案執行方式的一般檢視。
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Workfront授權*</td> 
-   <td> <p>新增：淺色或更高 </p>
-   <p>目前：檢閱或以上 </p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>淺色或更高</p>
+   <p>評論或以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -50,6 +50,32 @@ ht-degree: 0%
 *如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Workfront license*</td> 
+   <td> <p>New: Light or higher </p>
+   <p>Current: Review or higher </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configuration</td> 
+   <td> <p>View access to Projects</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View permissions to a project</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 先決條件
 
@@ -92,7 +118,7 @@ ht-degree: 0%
 | 已完成的任務 | **已完成的工作**&#x200B;顯示處於完成狀態的任務數目。 此數字也包含具有自訂狀態（等同於完成）的任務。 |
 |---|---|
 | 未完成的任務 | **未完成任務**&#x200B;顯示未處於「完成」或「已關閉」狀態，或等同於「完成」狀態的任務數。 |
-| 超期任務 | **逾期任務**&#x200B;顯示超過計畫完成日期且未處於「完成」或「已關閉」狀態，或等同於「完成」或「已關閉」狀態的任務數。 |
+| 逾期任務 | **逾期任務**&#x200B;顯示超過計畫完成日期且未處於「完成」或「已關閉」狀態，或等同於「完成」或「已關閉」狀態的任務數。 |
 | 任務總數 | **任務總數**&#x200B;顯示專案中的任務總數。 |
 
 >[!TIP]

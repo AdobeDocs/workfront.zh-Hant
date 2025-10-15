@@ -6,9 +6,9 @@ description: 您可以使用[!UICONTROL 我的更新]區域來快速檢閱等待
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: 4448d2fc6d0230ef2f53ad0ea7ae0f10f52fcac4
+source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '779'
 ht-degree: 0%
 
 ---
@@ -33,21 +33,18 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>新增：投稿人或更高版本</p>
-   或   
-   <p>目前： [!UICONTROL Request]或以上</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權</strong></td> 
+   <td> <p>投稿人或以上</p>
+   <p>要求或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>存取層級設定</strong></td> 
@@ -55,12 +52,12 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>[!UICONTROL 檢視]對您在對話中被標籤或需要解決核准的專案、任務、問題和檔案的許可權或更高</p> </td> 
+   <td> <p>[！UICONTROL檢視]對您在對話中被標籤或需要解決核准的專案、任務、問題和檔案的許可權或更高</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。 如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -68,7 +65,7 @@ ht-degree: 0%
 
 開始之前，您必須具備下列條件：
 
-* 如果您有[!UICONTROL 檢閱]以外的[!DNL Workfront]授權，您的[!DNL Workfront]或群組管理員必須使用配置範本將[!UICONTROL 我的更新]區域新增到[!UICONTROL 主功能表]，並將您指派給該範本。
+* 如果您有[!DNL Workfront]檢閱[!UICONTROL 以外的]授權，您的[!DNL Workfront]或群組管理員必須使用配置範本將[!UICONTROL 我的更新]區域新增到[!UICONTROL 主功能表]，並將您指派給該範本。
 
 * 檢閱授權使用者預設可在[!UICONTROL 主功能表]中檢視[!UICONTROL 我的更新]區域。
 
@@ -90,7 +87,7 @@ ht-degree: 0%
 
    我的更新![分頁](assets/pagination-for-my-updates-page-highlighted-nwe-350x78.png)
 
-1. （選擇性）展開&#x200B;**[!UICONTROL 我的更新]**&#x200B;區段右上角的&#x200B;**[!UICONTROL 篩選器]**&#x200B;下拉式功能表![篩選器圖示](assets/filter-nwepng.png)，然後選取下列專案：
+1. （選擇性）展開&#x200B;**[!UICONTROL 我的更新]**&#x200B;區段右上角的![篩選器](assets/filter-nwepng.png)下拉式功能表&#x200B;**[!UICONTROL 篩選器圖示]**，然後選取下列專案：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -99,15 +96,15 @@ ht-degree: 0%
     </col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL All]</strong></td> 
+      <td role="rowheader"><strong>[！UICONTROL All]</strong></td> 
       <td>由其他使用者提交給您或委派給您的核准。 如需委託核准的詳細資訊，請參閱<a href="../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md" class="MCXref xref">委託核准要求</a>。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 委派核准]</strong></td> 
+      <td role="rowheader"><strong>[！UICONTROL委派核准]</strong></td> 
       <td>其他使用者委派給您的核准。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 我的核准]</strong></td> 
+      <td role="rowheader"><strong>[！UICONTROL我的核准]</strong></td> 
       <td> <p>核准已提交給您。 </p> <p>如需核准專案的詳細資訊，請參閱<a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">核准工作</a>。</p> </td> 
      </tr> 
     </tbody> 
@@ -115,7 +112,7 @@ ht-degree: 0%
 
 1. 若要核准或拒絕專案，或在核准前建議對檔案的變更，請執行下列步驟：
 
-   1. （選擇性）按一下核准決定（**[!UICONTROL 核准]**，**[!UICONTROL 變更]**，**[!UICONTROL 拒絕]**）旁的&#x200B;**下拉式清單**&#x200B;圖示![下拉式清單圖示](assets/down-arrow-blue.png)並新增註解，然後按一下&#x200B;**[!UICONTROL 新增]**。
+   1. （選擇性）按一下核准決定（**核准**，![變更](assets/down-arrow-blue.png)，**[!UICONTROL 拒絕]**）旁的&#x200B;**[!UICONTROL 下拉式清單]**&#x200B;圖示&#x200B;**[!UICONTROL 下拉式清單圖示]**&#x200B;並新增註解，然後按一下&#x200B;**[!UICONTROL 新增]**。
 
       或
 

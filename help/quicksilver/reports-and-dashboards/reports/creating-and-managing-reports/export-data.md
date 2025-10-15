@@ -6,9 +6,9 @@ description: 您可以從清單、報表、控制面板及搜尋匯出Adobe Work
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: ae3fc73e93474c75fd03144b66af23f7142867c0
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '2264'
+source-wordcount: '2252'
 ht-degree: 0%
 
 ---
@@ -46,29 +46,20 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td>
-    <p>新增：</p>
-      <ul>
-      <li>淺色或更高</li>
-      </ul>
-    <p>目前：</p>
-      <ul>
-      <li>評論或以上</li>
-    </td> 
+   <td> 
+      <p>精簡</p>
+      <p>審閱</p>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -81,7 +72,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

@@ -2,13 +2,13 @@
 navigation-topic: business-case-and-scorecards
 title: 使用案例規劃工具之業務案例中的預算資源
 description: 作為資源計畫的一部分，當您建立業務案例時，可以使用Adobe Workfront案例規劃工具來預算完成專案中工作所需的職務角色。
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: fa0b4322b9f7c1d506cf194645c7ae50ad8c0f0b
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 0%
+source-wordcount: '959'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 >
 >當您發佈方案時，專案業務案例的「資源預算」區域中會顯示連結至您於系統層次「案例規劃工具」中所輸入專案之方案的工作角色資訊。 Scenario Planner僅在新的Adobe Workfront體驗中可用，並且需要額外的授權。 如需Workfront Scenario Planner的相關資訊，請參閱[Scenario Planner概觀](../../../scenario-planner/scenario-planner-overview.md)。
 
-您也可以使用資源規劃工具，為業務案例中的資源編列預算。 如需詳細資訊，請參閱下列內容：
+您也可以使用資源規劃工具，為業務案例中的資源編列預算。 如需詳細資訊，請參閱以下頁面:
 
 * [業務案例中的預算資源](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)
   <!--* [Budget resources by project in the Resource Planner](../../../resource-mgmt/resource-planning/budget-by-project-resource-planner-d.md)-->
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,14 +44,13 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront計畫*</p></td> 
-   <td><p>目前： Ultimate</p> 
-   <p>舊版：商務或更新版本</p> </td> 
+   <td role="rowheader"><p>Adobe Workfront套件</p></td> 
+   <td><p>Prime或更新版本</p> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront授權*</p></td> 
-   <td><p>目前：淺色或更高 
-   <p>舊版：檢閱或更高版本</p> </td> 
+   <td><p>淺色或更高 
+   <p>評論或以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>產品</p></td> 

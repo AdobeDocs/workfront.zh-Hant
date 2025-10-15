@@ -3,13 +3,13 @@ product-area: requests;user-management
 navigation-topic: create-and-manage-request-queues
 title: 提供請求佇列的存取權
 description: 提供請求佇列的存取權時，您可決定組織中的哪個人員可以在Adobe Workfront的「請求」區域中檢視請求佇列。
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: eb88c32a-f8b8-42d3-9a3a-72c62fd1dc3a
-source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
+source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 0%
+source-wordcount: '474'
+ht-degree: 1%
 
 ---
 
@@ -32,14 +32,14 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td> 
-   <p>新增：標準 </p>
-   <p>目前：計畫 </p> </td> 
+   <p>標準 </p>
+   <p>規劃 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -52,7 +52,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

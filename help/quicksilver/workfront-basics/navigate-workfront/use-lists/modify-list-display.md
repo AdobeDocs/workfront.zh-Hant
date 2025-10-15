@@ -5,9 +5,9 @@ description: 在 [!DNL Adobe Workfront]中，您可以自訂清單的顯示方�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 3ef7ff03-7293-4b56-9481-e89e1a47a904
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '706'
 ht-degree: 0%
 
 ---
@@ -34,41 +34,35 @@ ht-degree: 0%
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
-
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
    <td> 
-    <p>新增：</p>
-   <ul><li><p>投稿人或以上 </p></li>
-   </ul>
-
-<p>目前：</p>
-   <ul><li><p>要求或更高版本</p></li>
-    </ul></td> 
+   <p>投稿人或以上 </p>
+   <p>要求或更高版本</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[!UICONTROL 檢視]清單所在區域的存取權</p> <p>例如，若要修改專案的檢視，您需要[!UICONTROL 檢視]專案的存取權。</p></td> 
+   <td> <p>[！UICONTROL檢視]清單所在區域的存取權</p> <p>例如，若要修改專案的檢視，您需要[！UICONTROL檢視]專案的存取權。</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>[!UICONTROL 檢視]或套用至清單之檢視的更高許可權</p>  </td> 
+   <td> <p>[！UICONTROL檢視]或套用至清單之檢視的更高許可權</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -94,7 +88,7 @@ ht-degree: 0%
 
 1. （選擇性和條件性）如果您想要在熒幕上顯示特定數量的專案，請按一下熒幕右下角的&#x200B;**[!UICONTROL Showing]**&#x200B;下拉式功能表，然後選取以顯示&#x200B;**100**、**250**、**500**、**[!UICONTROL All]**&#x200B;或&#x200B;**2000**&#x200B;專案。
 
-   第![&#128279;](assets/list-number-page-350x119.png)頁上的清單編號
+   第![頁上的](assets/list-number-page-350x119.png)清單編號
 
    >[!TIP]
    >
@@ -104,7 +98,7 @@ ht-degree: 0%
    >為了在物件包含格式化文字欄位的大型清單中取得最佳效能，建議將此數字限製為250。
    >
    >
-   >如需有關2種清單型別的詳細資訊，請參閱文章[開始使用 [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)中的清單[更新清單和舊版清單的差異](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated)一節。
+   >如需有關2種清單型別的詳細資訊，請參閱文章[開始使用](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated)中的清單[更新清單和舊版清單的差異 [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)一節。
 
    清單的結果會以分頁方式顯示，以顯示每頁選取的專案數。 您可以按一下向後和向前箭頭，或選取特定頁面，來存取其他頁面上的結果。
 

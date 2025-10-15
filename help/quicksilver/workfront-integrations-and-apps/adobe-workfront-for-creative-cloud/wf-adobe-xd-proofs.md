@@ -1,14 +1,14 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-xd
-title: 將XD工作面板作為校訂上傳至Workfront
+title: 將XD工作區域作為校訂上傳至Workfront
 description: 您可以將工作區域作為校訂直接上傳到Adobe Workfront以進行徹底的檢閱和核准。
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d6699fd7-f130-4231-8713-0cfa8dc3c910
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
@@ -21,36 +21,35 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
-   <td> <p>目前計畫： [!UICONTROL Pro]或更高版本</p> <p>或</p> <p>舊版計畫： [!UICONTROL Premium]</p> <p>如需有關校訂不同方案的存取許可權的詳細資訊，請參閱。</p> </td> 
+ <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] 封裝</td> 
+   <td>任何 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>目前計畫： [!UICONTROL Work]或[!UICONTROL Proof]</p> <p>舊版計畫：任何（您必須為使用者啟用校訂）</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
+   <td> <p>標準</p> <p>工作或更高</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">產品</td> 
-   <td>除了[!DNL Workfront]授權之外，您還必須有[!DNL Adobe Creative Cloud]授權。</td> 
+   <td role="rowheader">其他產品</td> 
+   <td>除了[!DNL Adobe Creative Cloud]授權之外，您還必須有[!DNL Workfront]授權。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">校樣權限設定檔 </td> 
-   <td>[!UICONTROL Manager]或更高版本</td> 
+   <td>[！UICONTROL Manager]或更高版本</td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>編輯[!UICONTROL 檔案]的存取權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>編輯[！UICONTROL檔案]的存取權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、角色或校訂許可權設定檔，請連絡您的[!DNL Workfront]或[!DNL Workfront Proof]管理員。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
 
 +++
 
@@ -88,17 +87,17 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Basic]： </td> 
+      <td role="rowheader">[！UICONTROL Basic]： </td> 
       <td> <p>基本核准流程是臨時性的，可以根據需要包含不同的稽核者： </p> 
        <ul> 
         <li> <p>（選擇性）在方塊中新增<strong>核准者</strong>。</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 自動化]</td> 
+      <td role="rowheader">[！UICONTROL自動化]</td> 
       <td> <p>自動核准流程由管理員預先建立，並包括特定稽核者和階段。 如需詳細資訊，請參閱<a href="../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">自動化工作流程總覽</a>。</p> 
        <ul> 
-        <li> <p>從下拉式選單中選擇[!UICONTROL 工作流程範本]。</p> </li> 
+        <li> <p>從下拉式選單中選擇[！UICONTROL工作流程範本]。</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -108,12 +107,12 @@ ht-degree: 0%
 
 1. （選擇性）在&#x200B;**[!UICONTROL 更新]**&#x200B;區域輸入註解。
 
-   在XD![&#128279;](assets/proof-approvals-xd-350x396.png)中校訂核准
+   在XD中![校訂核准](assets/proof-approvals-xd-350x396.png)
 
 1. 從&#x200B;**[!UICONTROL 資產型別]**&#x200B;下拉式功能表中選擇匯出格式。
 
 
-1. （選擇性）如果您選取PDF作為資產型別，且選取了多個工作區域，請選擇您要將工作區域匯出為&#x200B;**[!UICONTROL 單一PDF檔案]s**&#x200B;或&#x200B;**M[!UICONTROL 多個PDF檔案]**。
+1. （選擇性）如果您選取PDF作為資產型別，且已選取多個工作區域，請選擇您要將工作區域匯出為&#x200B;**[!UICONTROL 單一PDF檔案]s**&#x200B;或&#x200B;**M[!UICONTROL 多個PDF檔案]**。
 
 1. （選用）為PDF命名。
 
@@ -164,17 +163,17 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Basic]： </td> 
+      <td role="rowheader">[！UICONTROL Basic]： </td> 
       <td> <p>基本核准流程是臨時性的，可以根據需要包含不同的稽核者： </p> 
        <ul> 
         <li> <p>（選擇性）在方塊中新增<strong>核准者</strong>。</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 自動化]</td> 
+      <td role="rowheader">[！UICONTROL自動化]</td> 
       <td> <p>自動核准流程由管理員預先建立，並包括特定稽核者和階段。 如需詳細資訊，請參閱<a href="../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">自動化工作流程總覽</a>。</p> 
        <ul> 
-        <li> <p>從下拉式選單中選擇[!UICONTROL 工作流程範本]。</p> </li> 
+        <li> <p>從下拉式選單中選擇[！UICONTROL工作流程範本]。</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -184,10 +183,10 @@ ht-degree: 0%
 
 1. （選擇性）在&#x200B;**[!UICONTROL 更新]**&#x200B;區域輸入註解。
 
-   在XD![&#128279;](assets/proof-approvals-xd-350x396.png)中校訂核准
+   在XD中![校訂核准](assets/proof-approvals-xd-350x396.png)
 
 1. 在&#x200B;**[!UICONTROL 資產型別]**&#x200B;下拉式功能表中，選擇您剛才在&#x200B;**共用連結**&#x200B;標籤下建立的連結。 如需詳細資訊，請參閱[為您的工作區域建立互動式連結](#create-an-interactive-link-for-your-artboard)。\
-   ![在XD中共用的連結](assets/shared-links-xd-350x870.png)
+   在XDS![中](assets/shared-links-xd-350x870.png)個共用連結
 
 1. 按一下&#x200B;**[!UICONTROL 上傳]**。
 
@@ -223,17 +222,17 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Basic]： </td> 
+      <td role="rowheader">[！UICONTROL Basic]： </td> 
       <td> <p>基本核准流程是臨時性的，可以根據需要包含不同的稽核者： </p> 
        <ul> 
         <li> <p>（選擇性）在方塊中新增<strong>核准者</strong>。</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 自動化]</td> 
+      <td role="rowheader">[！UICONTROL自動化]</td> 
       <td> <p>自動核准流程由管理員預先建立，並包括特定稽核者和階段。 如需詳細資訊，請參閱<a href="../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">自動化工作流程總覽</a>。</p> 
        <ul> 
-        <li> <p>從下拉式選單中選擇[!UICONTROL 工作流程範本]。</p> </li> 
+        <li> <p>從下拉式選單中選擇[！UICONTROL工作流程範本]。</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -247,9 +246,9 @@ ht-degree: 0%
 
 1. （選擇性）在&#x200B;**[!UICONTROL 更新]**&#x200B;區域輸入註解。
 
-   在XD![&#128279;](assets/proof-approvals-xd-350x396.png)中校訂核准
+   在XD中![校訂核准](assets/proof-approvals-xd-350x396.png)
 
-1. （選擇性）如果您選取PDF作為資產型別，且選取了多個工作區域，請選擇您要將工作區域匯出為&#x200B;**[!UICONTROL 單一PDF檔案]s**&#x200B;或&#x200B;**M[!UICONTROL 多個PDF檔案]**。
+1. （選擇性）如果您選取PDF作為資產型別，且已選取多個工作區域，請選擇您要將工作區域匯出為&#x200B;**[!UICONTROL 單一PDF檔案]s**&#x200B;或&#x200B;**M[!UICONTROL 多個PDF檔案]**。
 
 1. （選用）為PDF命名。
 

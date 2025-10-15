@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: aa2bef064df3ff7dd9e4fd896ac7482df3c55e32
+source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
 workflow-type: tm+mt
-source-wordcount: '2851'
+source-wordcount: '2828'
 ht-degree: 6%
 
 ---
@@ -34,31 +34,27 @@ Kick-Start是特別格式化的Excel活頁簿，可填入您要匯入Workfront�
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td>任何</td> 
+   <td>Adobe Workfront套件</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td>
-   <p> 新增：標準</p>
-   或
-   <p>目前：計畫</p></td> 
+   <td>Adobe Workfront授權</td> 
+   <td><p>標準</p>
+       <p>規劃</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td> 
+   <td>存取層級設定</td> 
+   <td>系統管理員</td> 
   </tr> 
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -104,14 +100,14 @@ Kick-Start是特別格式化的Excel活頁簿，可填入您要匯入Workfront�
     </thead> 
     <tbody> 
      <tr> 
-      <td scope="col"> <p>儀表板</p> <p>系統中所有公開共用的儀表板都可供匯出。 無法匯出未在整個系統內共用的儀表板。 您在一次匯出中最多可以選取100個特定儀表板。</p> </td> 
+      <td scope="col"> <p>控制面板</p> <p>系統中所有公開共用的儀表板都可供匯出。 無法匯出未在整個系統內共用的儀表板。 您在一次匯出中最多可以選取100個特定儀表板。</p> </td> 
       <td scope="col">匯出為ZIP檔案</td> 
-      <td scope="col"> <p>參數</p> <p>描述文字</p><p>參數選項</p> <p>參數群組</p> <p>類別參數</p> <p>類別</p> <p>報告</p> <p>入口網站頁籤區段</p> <p>儀表板</p> <p>偏好設定</p> </td> 
+      <td scope="col"> <p>參數</p> <p>描述文字</p><p>參數選項</p> <p>參數群組</p> <p>類別參數</p> <p>類別</p> <p>報表</p> <p>入口網站頁籤區段</p> <p>控制面板</p> <p>偏好設定</p> </td> 
      </tr> 
      <tr> 
-      <td scope="col"> <p>報告</p> <p>系統中的所有報表都可以匯出。 您在一次匯出中最多可以選取100個特定報告。</p> <p>Kick-Starts不支援文字模式篩選器或群組。 若要成功匯出，報表篩選器和群組必須切換至「標準模式」。</p> </td> 
+      <td scope="col"> <p>報表</p> <p>系統中的所有報表都可以匯出。 您在一次匯出中最多可以選取100個特定報告。</p> <p>Kick-Starts不支援文字模式篩選器或群組。 若要成功匯出，報表篩選器和群組必須切換至「標準模式」。</p> </td> 
       <td scope="col">匯出為ZIP檔案 </td> 
-      <td scope="col"> <p scope="col">參數</p> <p scope="col">描述文字</p> <p scope="col">參數選項</p> <p scope="col">參數群組</p> <p scope="col">類別參數</p> <p scope="col">類別</p> <p scope="col">報告</p> <p scope="col">偏好設定</p> </td> 
+      <td scope="col"> <p scope="col">參數</p> <p scope="col">描述文字</p> <p scope="col">參數選項</p> <p scope="col">參數群組</p> <p scope="col">類別參數</p> <p scope="col">類別</p> <p scope="col">報表</p> <p scope="col">偏好設定</p> </td> 
      </tr> 
      <tr> 
       <td scope="col"> <p>核准</p> </td> 
@@ -189,9 +185,9 @@ Kick-Start是特別格式化的Excel活頁簿，可填入您要匯入Workfront�
       <td> <p> 分組</p> <p>偏好設定 </p> </td> 
      </tr> 
      <tr> 
-      <td>時數</td> 
+      <td>Hour</td> 
       <td>匯出為Excel檔案</td> 
-      <td> <p> 時數</p> <p>偏好設定 </p> </td> 
+      <td> <p> Hour</p> <p>偏好設定 </p> </td> 
      </tr> 
      <tr> 
       <td>問題</td> 
@@ -216,9 +212,9 @@ Kick-Start是特別格式化的Excel活頁簿，可填入您要匯入Workfront�
       <td> <p> 備註</p> <p>偏好設定 </p> </td> 
      </tr> 
      <tr> 
-      <td>專案組合</td> 
+      <td>產品組合</td> 
       <td>匯出為Excel檔案</td> 
-      <td> <p> 專案組合</p> <p>偏好設定 </p> </td> 
+      <td> <p> 產品組合</p> <p>偏好設定 </p> </td> 
      </tr> 
      <tr> 
       <td>專案</td> 
@@ -360,7 +356,7 @@ Kick-Start是特別格式化的Excel活頁簿，可填入您要匯入Workfront�
    * 在&#x200B;**setCategoryID**&#x200B;欄中，輸入此自訂欄位所在的現有自訂表單的GUID。 匯入自訂資料時，此欄位是必填欄位。
    * 如果您需要在自訂欄位中新增多個資料值（例如單選按鈕、核取方塊或清單），請使用「偏好設定」標籤中列出的垂直列自訂資料分隔符號「|」來分隔值。
 
-     **範例：**&#x200B;在DE：Departments欄下輸入A|D以填入自訂表單中的部門A和部門D。
+     **範例：**&#x200B;在DE:Departments欄下輸入A|D以填入自訂表單中的部門A和部門D。
 
      >[!NOTE]
      >
@@ -378,11 +374,11 @@ Workfront可以處理大部分的日期格式。 不過，您必須確保試算�
 
 Workfront也接受時間值做為日期的一部分。
 
-例如：07/10/2022 01:30或07/10/2022 1:00 PM。
+例如： 07/10/2022 01:30或07/10/2022 1:00 PM。
 
 如果您在日期中省略時間，Workfront會執行下列任一項作業：
 
-* 假設時間是凌晨12:00。 為了檢視您預期的日期結果，系統時區必須與您的時區相符。
+* 假設時間是上午12:00。 為了檢視您預期的日期結果，系統時區必須與您的時區相符。
 * 如果它位在與排程相關聯的物件上，則時間會遞延至排程允許的最早時間。
 
 >[!NOTE]

@@ -4,33 +4,44 @@ description: Workfront目標可協助您透過將策略與工作執行和交付�
 author: Alina
 feature: Workfront Goals
 exl-id: 9daa074e-94ce-4825-a058-722e53dbce51
-source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '1374'
+source-wordcount: '1349'
 ht-degree: 1%
 
 ---
 
 # 開始使用Adobe Workfront Goals
 
-<!--Audited for P&P only: 4/2025-->
+<!--Audited for P&P only: 10/2025-->
 
+
+>[!NOTE]
+>
+>如果貴公司過去曾購買此套件，他們可能會選擇繼續使用Adobe Workfront目標。 如需詳細資訊，請洽詢客戶代表。
+>
+>Adobe Workfront目標不再提供購買。
+>
+>如需存取Workfront目標的詳細資訊，請參閱[使用Workfront目標的需求](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)。
+
+<!--Old:
 >[!IMPORTANT]
 >
->您的組織必須具備下列專案，才能使用本文所述的功能：
+>Your organization must have the following to use the functionality described in this article:
 >
->* 對於新計畫和授權結構：
+>* For the new plan and license structure:
 >
->   * Ultimate Workfront計畫
+>   * The Ultimate Workfront plan 
 >    
->* 對於目前的計畫與授權結構：
+>* For the current plan and license structure: 
 >
->   * Pro或更高版本Workfront計畫
->   * 除了Adobe Workfront授權之外，還有Workfront目標授權。
+>   * A Pro or higher Workfront plan
+>   * An Adobe Workfront Goals license in addition to a Workfront license.
 >
->請連絡您的Workfront客戶經理，以瞭解Workfront Goals授權。
+>Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->如需存取Workfront目標的詳細資訊，請參閱[使用Workfront目標的需求](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)。
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).   
+-->
 
 每個組織都需要設定並傳達明確的目標，讓團隊保持生產力、專注和參與。 真正瞭解工作如何與策略保持一致是成功的關鍵。 然而，如果沒有將您的策略和目標與組織內的工作聯絡起來的記錄系統，要達成一致可能真的很困難。
 
@@ -95,7 +106,7 @@ Workfront目標是核心Workfront工作管理平台的附加模組。 它旨在�
 
 定義目標和相關結果後，請與主要受眾共用策略和目標。 一起縮小目標範圍，並設定可在指定時段內達成的較短期目標。
 
-執行下列動作：
+請執行下列動作：
 
 * 檢閱並啟用提議的目標。
 

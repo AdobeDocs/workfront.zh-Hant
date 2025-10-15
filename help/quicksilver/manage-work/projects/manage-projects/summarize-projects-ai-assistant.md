@@ -6,10 +6,10 @@ description: 專案標題包含使用AI助理來摘要專案的按鈕。
 author: Becky
 feature: Get Started with Workfront
 exl-id: e0ac2a50-a75b-4453-8edf-850b8de74327
-source-git-commit: 769cacc12f35b019f8c97c243681f4adb3a3c0c9
+source-git-commit: a24180f95c89c76605eaa735467a791102254645
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 1%
+source-wordcount: '356'
+ht-degree: 0%
 
 ---
 
@@ -27,29 +27,23 @@ Workfront的AI助理可以彙總專案，讓您快速瞭解專案用途和狀態
 
 ## 存取需求
 
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視本文中功能的存取需求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td><p>新增：任何</p>
-       <p>或</p>
-       <p>目前：無法使用</p></td>
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td><p>任何</p>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td><p>新增：標準</p>
-       <p>或</p>
-       <p>目前：無法使用</p></td>
+   <td><p>標準</p>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td><p>新增：標準</p>
-       <p>或</p>
-       <p>目前：無法使用</p></td>
+   <td role="rowheader">物件許可權</td> 
+   <td><p>您必須擁有專案的檢視存取權</p>
   </tr> 
  </tbody> 
  </tbody> 
@@ -57,11 +51,13 @@ Workfront的AI助理可以彙總專案，讓您快速瞭解專案用途和狀態
 
 如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
++++
+
 ## 先決條件
 
 * 您的Workfront管理員必須為貴組織啟用AI助理。
 
-  如需詳細資訊，請參閱AI助理總覽一文中的[&#x200B; AI助理的必要條件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
+  如需詳細資訊，請參閱AI助理總覽一文中的[ AI助理的必要條件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
 * 您的Workfront管理員必須為您的存取層級啟用AI助理。
 
   如需詳細資訊，請參閱[啟用或停用AI助理](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)。

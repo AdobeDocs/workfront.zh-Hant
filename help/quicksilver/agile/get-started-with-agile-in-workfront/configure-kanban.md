@@ -6,9 +6,9 @@ description: 您可以在團隊建立期間或之後，為Kanban敏捷團隊設�
 author: Lisa
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '1498'
+source-wordcount: '1484'
 ht-degree: 1%
 
 ---
@@ -37,8 +37,6 @@ ht-degree: 1%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -46,15 +44,14 @@ ht-degree: 1%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr>
 
 <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>新增：[!UICONTROL Standard]</p> 
-   或
-   <p>目前： [!UICONTROL Work]或更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>標準</p> 
+   <p>工作或更高</p> </td> 
   </tr>
 
 <tr> 
@@ -164,7 +161,7 @@ ht-degree: 1%
 
 當您定義Kanban團隊的WIP限制時，您可以透過限制可在[!UICONTROL Kanban]展示板上的[!UICONTROL New]或[!UICONTROL In Progress]欄中出現的任務數量，來控制團隊目前正在處理的專案數量。
 
-設定Kanban團隊的WIP限制後，您可以檢視WIP限制，並從[!UICONTROL Kanban]敏捷故事板進行更新，如[!UICONTROL Kanban]故事板[&#128279;](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md)上的管理進行中的工作(WIP)限制中所述。
+設定Kanban團隊的WIP限制後，您可以檢視WIP限制，並從[!UICONTROL Kanban]敏捷故事板進行更新，如[Kanban[!UICONTROL 故事板]上的](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md)管理進行中的工作(WIP)限制中所述。
 
 若要限制看板團隊的在製品，請執行下列步驟：
 
@@ -204,7 +201,7 @@ WIP限制只是視覺上的警告，不會限制您的團隊在單一欄中有�
 
 1. 選取「**[!UICONTROL 自動從待處理專案新增下一個劇本]**」，設定待處理專案中的下一個專案在專案移出「**[!UICONTROL 進行中]**」欄時，自動新增至「**[!UICONTROL 新增]**」欄。
 
-   使用者必須在[!UICONTROL Kanban]展示板上啟用&#x200B;**顯示待處理專案**&#x200B;設定，此功能才能生效。 當使用者啟用[!UICONTROL 看板]上的[!UICONTROL 顯示待處理專案]設定時，會發生下列功能：
+   使用者必須在&#x200B;**Kanban**&#x200B;展示板上啟用[!UICONTROL 顯示待處理專案]設定，此功能才能生效。 當使用者啟用[!UICONTROL 看板]上的[!UICONTROL 顯示待處理專案]設定時，會發生下列功能：
 
    每當劇本從[!UICONTROL 進行中]欄移至劇本展示板上代表[!UICONTROL 完成]狀態（或相等於[!UICONTROL 完成]的狀態）的欄時，待處理專案欄中的劇本就會自動移至[!UICONTROL Kanban展示板]的[!UICONTROL 新]欄。
 從待處理專案新增時，具有最高優先順序的內文會新增到內文板中。

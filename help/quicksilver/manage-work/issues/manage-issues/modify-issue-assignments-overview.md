@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: manage-issues
 title: 修改問題指派的概觀
 description: 您可以將問題指派給使用者、團隊或工作角色，或從中取消指派問題。 您可以同時指派多個資源，或僅指派一個資源。 您可以一次指派一個問題，或大量指派多個問題。
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: ff7a7bcc-553e-4425-b80d-741c9150aed0
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: 7aa420946115fc612ad1d9e310583e5453ae0678
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 * 如需指派問題的相關資訊，請參閱[指派問題](../../../manage-work/issues/manage-issues/assign-issues.md)和[修改清單中多個問題的使用者指派](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md)。
 
-* 如需有關使用工作負載平衡器指派問題的資訊，請參閱在工作負載平衡器[&#128279;](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)中指派工作的總覽。
+* 如需有關使用工作負載平衡器指派問題的資訊，請參閱在工作負載平衡器[中指派工作的總覽。](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 
 本文章中的部分資訊也適用於工作的指派。 如需指派任務及其他考量事項的詳細資訊，請參閱[修改任務指派的概觀](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)。
 

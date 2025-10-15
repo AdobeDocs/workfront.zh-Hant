@@ -1,51 +1,80 @@
 ---
 navigation-topic: use-the-gantt-chart
 title: 檢視[!UICONTROL 甘特圖]中的資訊
-description: 任務清單甘特圖和專案清單甘特圖會顯示有關專案和任務的資訊。
+description: Adobe Workfront任務和專案[!UICONTROL 甘特圖]顯示有關任務和專案的資訊。
 author: Alina
 feature: Work Management
 exl-id: e6b55699-0831-40d4-a997-6fe3f8828ee1
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
 
 # 檢視[!UICONTROL 甘特圖]中的資訊
 
-任務清單[!UICONTROL 甘特圖]和專案清單[!UICONTROL 甘特圖]顯示有關專案和任務的資訊。
+<!--Audited: 08/2025-->
+
+Adobe Workfront任務和專案[!UICONTROL 甘特圖]顯示有關任務和專案的資訊。
 
 ## 存取需求
 
-您必須具備下列專案才能依照本文所述步驟操作：
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
-   <td> <p>任何 </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 封裝</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權概述*</td> 
-   <td> <p>[!UICONTROL Review]或更高版本</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
+   <td><p>[！UICONTROL Light]或更高</p>
+    <p>[！UICONTROL Review]或更高版本</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>[!UICONTROL 檢視]或更高的專案和任務存取權</p> <p><b>附註</b>
-
-如果您仍然沒有存取權，請詢問您的[!DNL Workfront]管理員是否已在您的存取層級中設定其他限制。 如需[!DNL Workfront]管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td>
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>[！UICONTROL檢視]或更高的專案和任務存取權</p></td>
 </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>[!UICONTROL 檢視]或更高的專案存取權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>[！UICONTROL檢視]或更高的專案和任務存取權</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++ 
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licenses overview*</td> 
+   <td> <p>[!UICONTROL Review] or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>[!UICONTROL View] or higher access to Projects and Tasks</p> <p><b>NOTE</b>
+
+If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td>
+</tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL View] or higher access to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 找到[!UICONTROL 甘特圖]
 
@@ -75,17 +104,13 @@ ht-degree: 0%
 
 1. 前往上述其中一個區域。
 
-   例如，從[!UICONTROL 主功能表]，按一下&#x200B;**[!UICONTROL 專案]**。
+   例如，從Workfront中的&#x200B;[!UICONTROL **主功能表**] ![主功能表圖示](assets/lines-main-menu.png)，按一下&#x200B;**[!UICONTROL 專案]**。
 
    專案清單隨即顯示。
 
 1. 按一下畫面右上角的&#x200B;**[!UICONTROL 甘特圖]**&#x200B;圖示![甘特圖示](assets/gantt-icon-nwe.png)。
 
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: images conditioned for classic and nwe) <br></p>
-   -->
-
-1. 按一下&#x200B;**[!UICONTROL 顯示工作清單]**&#x200B;圖示。
+1. 按一下&#x200B;**[!UICONTROL 顯示工作清單]** ![顯示工作清單圖示](assets/show-task-list-icon.png)圖示。
 
 1. 在左側的專案清單中，按一下專案名稱旁邊的下拉箭頭，以顯示該專案下的任何任務。\
    這會在[!UICONTROL 甘特圖]上顯示任務資訊。\
@@ -132,7 +157,7 @@ ht-degree: 0%
    >
    >時間軸快照只有在您按一下水準卷軸之後才會顯示。
 
-   ![stretchy_gantt_minimap_with_outline__1_.png](assets/stretchy-gantt-minimap-with-outline--1--350x140.png)
+   ![時間表快照迷你地圖](assets/stretchy-gantt-minimap-with-outline--1--350x140.png)
 
 1. （可選）按一下時間線快照內的任何位置，以瀏覽至專案生命週期中的特定點。\
    或\

@@ -6,16 +6,16 @@ description: 基準線是專案快照，代表初始專案計畫或專案生命�
 author: Alina
 feature: Work Management
 exl-id: 422bd7a5-d7a0-4c24-8624-bd0fe6e79d7b
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '742'
 ht-degree: 0%
 
 ---
 
 # 建立專案基準線
 
-<!-- Audited: 12/2023 -->
+<!-- Audited: 08/2025 -->
 
 基準線是專案快照，代表初始專案計畫或專案生命週期中任何指定時間包含的關鍵資訊。
 
@@ -25,54 +25,21 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-<!--
-drafted for P&P:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p> 
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level*</td> 
-   <td> <p>Edit access to Projects</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to projects, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Grant access to projects</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions to the project or higher to view baselines</p> <p>Manage permissions to the project to create baselines</p> <p> For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-    <td><p>新增：標準</p>
-        <p>或</p>
-        <p>目前：計畫 </p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+    <td><p>標準</p>
+        <p>規劃</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級</td> 
+   <td role="rowheader">存取層級設定</td> 
    <td> <p>編輯專案的存取權</p> </td> 
   </tr> 
   <tr> 
@@ -82,9 +49,36 @@ drafted for P&P:
  </tbody> 
 </table>
 
-*如需此表格中資訊的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+    <td><p>New: Standard</p>
+        <p>or</p>
+        <p>Current: Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>Edit access to Projects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View permissions to the project or higher to view baselines</p> <p>Manage permissions to the project to create baselines</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 使用基準線的注意事項
 
@@ -116,7 +110,7 @@ drafted for P&P:
 1. 前往專案。
 1. 在左側面板中，按一下&#x200B;**基準線**。
 
-   專案![&#128279;](assets/baselines-section-on-project-with-header.png)上的基準線區段
+   專案![上的](assets/baselines-section-on-project-with-header.png)基準線區段
 
 1. 按一下&#x200B;**新增基準線。**
 1. 指定基準線的名稱。

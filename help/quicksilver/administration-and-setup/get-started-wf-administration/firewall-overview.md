@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
+source-git-commit: 46e072d40cc881c3a903c8fd51475dc185f1f849
 workflow-type: tm+mt
 source-wordcount: '717'
 ht-degree: 0%
@@ -53,11 +53,11 @@ Workfront使用特定的IP位址和網域進行網頁通訊。 必須先將這�
   </tr> 
   <tr> 
    <td role="rowheader">您的叢集</td> 
-   <td>若要尋找組織的叢集，請參閱<a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">檢視組織的叢集和Workfront計畫</a>。</td> 
+   <td>若要尋找您組織的叢集，請參閱<a href="#view-your-organization-s-cluster-and-workfront-package" class="MCXref xref">檢視您組織的叢集和Workfront套件</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">您的Workfront計畫</td> 
-   <td> <p>若要尋找您組織的計畫，請參閱<a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">檢視您組織的叢集和Workfront計畫。</a></p> </td> 
+   <td role="rowheader">您的Workfront套件</td> 
+   <td> <p>若要尋找您組織的封裝，請參閱<a href="#view-your-organization-s-cluster-and-workfront-package" class="MCXref xref">檢視您組織的叢集和Workfront封裝。</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">您的網域</td> 
@@ -93,7 +93,7 @@ Workfront使用特定的IP位址和網域進行網頁通訊。 必須先將這�
 >
 >如果您在稍後新增這些產品、整合或功能，您必須聯絡您的網路管理員，讓他們可以調整允許清單。
 
-### 檢視貴組織的叢集和Workfront計畫 {#view-your-organization-s-cluster-and-workfront-plan}
+### 檢視貴組織的叢集和Workfront套件 {#view-your-organization-s-cluster-and-workfront-package}
 
 {{step-1-to-setup}}
 
@@ -104,8 +104,8 @@ Workfront使用特定的IP位址和網域進行網頁通訊。 必須先將這�
 
    ![尋找叢集](assets/locate-cluster.png)
 
-1. 若要檢視您的Workfront計畫，請選取&#x200B;**授權**。
+1. 若要檢視您的Workfront套件，請選取&#x200B;**授權**。
 
-   您的計畫會顯示在頁面右上角附近。
+   您的套件會顯示在頁面的右上角附近。
 
    ![尋找計畫](assets/locate-plan.png)

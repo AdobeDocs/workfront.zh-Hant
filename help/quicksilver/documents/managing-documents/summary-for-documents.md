@@ -7,9 +7,9 @@ description: 「摘要」可讓您直接從檔案清單與重要資訊互動。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
+source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '441'
 ht-degree: 2%
 
 ---
@@ -35,13 +35,13 @@ ht-degree: 2%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p> 任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：投稿人或更高版本</p> 
-   <p>目前：要求或以上</p>
+   <td> <p>投稿人或以上</p> 
+   <p>要求或更高版本</p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -76,7 +76,7 @@ ht-degree: 2%
 
 使用詳細資訊區段檢視高階總覽資訊並與自訂表單互動。 按一下區段頂端的詳細資訊，即可移至完整的檔案詳細資訊頁面。
 
-* [總覽](#overview)
+* [概觀](#overview)
 * [自訂表單](#custom-forms)
 
 ### 概觀 {#overview}

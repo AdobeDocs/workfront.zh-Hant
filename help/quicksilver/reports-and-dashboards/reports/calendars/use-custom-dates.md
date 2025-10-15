@@ -6,9 +6,9 @@ description: 行事曆報告是一種動態報告，可提供工作的視覺化�
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 40cc8628-7641-41ce-b8e5-7f5ed5ad36c7
-source-git-commit: 5c0278607faf65b58abeb9b813e403f97032a965
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '630'
 ht-degree: 1%
 
 ---
@@ -25,8 +25,6 @@ ht-degree: 1%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -34,22 +32,21 @@ ht-degree: 1%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront plan]</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td><p>新增：標準</p>
-       <p>或</p>
-       <p>目前：計畫</p></td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td><p>標準</p>
+       <p>規劃</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[!UICONTROL Edit]對[!UICONTROL 報告]、[!UICONTROL 儀表板]和&lbrack;！UICONTROL行事曆的存取權</p></td> 
+   <td> <p>編輯報告、儀表板和行事曆的存取權</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td>[!UICONTROL Manage]對行事曆報表的存取權</td> 
+   <td>管理對行事曆報告的存取權</td> 
   </tr> 
  </tbody> 
 </table>
@@ -71,7 +68,7 @@ ht-degree: 1%
 
 1. 選取您要新增一組專案的行事曆，按一下[更多]功能表，然後按一下&#x200B;**編輯**。
 或
-按一下&#x200B;**[!UICONTROL +新行事曆]**，輸入專案名稱，然後按一下&#x200B;**[!UICONTROL 新增進階專案]**。
+按一下**[!UICONTROL +新行事曆]**，輸入專案名稱，然後按一下&#x200B;**[!UICONTROL 新增進階專案]**。
 
    >[!NOTE]
    >
@@ -84,27 +81,27 @@ ht-degree: 1%
     <col>
     <tbody>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 命名此專案群組]</strong></td>
+      <td role="rowheader"><strong>[！UICONTROL命名此專案群組]</strong></td>
       <td>輸入專案群組的名稱。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 色彩]</strong></td>
+      <td role="rowheader"><strong>[！UICONTROL色彩]</strong></td>
       <td>選取專案群組的顏色。 所有專案都會以選取的顏色顯示在行事曆報告中。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 日期欄位]</strong></td>
-      <td>選擇<strong>[!UICONTROL 自訂日期]</strong>。<br></td>
+      <td role="rowheader"><strong>[！UICONTROL日期欄位]</strong></td>
+      <td>選擇<strong>[！UICONTROL自訂日期]</strong>。<br></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 在行事曆上，顯示]</strong></td>
+      <td role="rowheader"><strong>[！UICONTROL在行事曆上，顯示]</strong></td>
       <td><p>選擇日期的顯示方式：</p>
        <ul>
-        <li><strong>[!UICONTROL 單一日期]</strong>：行事曆會在單一日期顯示物件。</li>
-        <li><strong>[!UICONTROL Duration] （開始至結束）</strong>：行事曆顯示物件超過天數。<br><p>注意：如果您選擇<strong>[!UICONTROL Duration]</strong>，則指定的結束日期必須晚於開始日期，否則行事曆上不會顯示該專案。</p></li>
+        <li><strong>[！UICONTROL單一日期]</strong>：行事曆會在單一日期顯示物件。</li>
+        <li><strong>[！UICONTROL Duration] （開始至結束）</strong>：行事曆顯示物件超過天數。<br><p>注意：如果您選擇<strong>[！UICONTROL Duration]</strong>，則指定的結束日期必須晚於開始日期，否則行事曆上不會顯示該專案。</p></li>
        </ul></td>
      </tr>
      <tr data-mc-conditions="">
-      <td role="rowheader"><strong>[!UICONTROL 自訂日期]</strong></td>
+      <td role="rowheader"><strong>[！UICONTROL自訂日期]</strong></td>
       <td><p>輸入附加到您要追蹤之物件的自訂日期名稱。</p><p><strong>注意：</strong>自訂日期名稱的搜尋限製為50個結果，以避免效能問題。</td>
      </tr>
     </tbody>

@@ -6,9 +6,9 @@ description: 您可以使用條件式格式來比較檢視中的2個不同欄位
 author: Nolan
 feature: Reports and Dashboards
 exl-id: da4447ba-6e76-4701-88ee-87a30393bed9
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '468'
 ht-degree: 1%
 
 ---
@@ -21,29 +21,21 @@ ht-degree: 1%
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
-
-您必須具備下列條件：
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td> 
-      <p>新增：</p>
-         <ul>
-         <li><p>標準</p></li>
-         </ul>
-      <p>目前：</p>
-         <ul>
-         <li><p>規劃</p></li>
-         </ul>
+     <p>標準</p>
+     <p>規劃</p>
    </td> 
   </tr> 
   <tr> 
@@ -57,7 +49,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -71,7 +63,7 @@ ht-degree: 1%
 1. （視條件而定）如果您正在使用報表，請從報表編輯器中的&#x200B;**欄（檢視）**&#x200B;索引標籤按一下要視條件格式化之欄的標題以選取它。\
    例如，如果您要透過比較「計劃開始日期」與「實際開始日期」欄位，將條件式格式新增至欄位，請選取&#x200B;**實際開始日期**&#x200B;欄。
 
-1. 按一下[進階選項]&#x200B;**&#x200B;**，然後按一下[新增此資料行的&#x200B;**規則]**。
+1. 按一下[進階選項]****，然後按一下[新增此資料行的&#x200B;**規則]**。
 
 1. 使用在產生器中找到的現有值輸入比較條件，並指定您的條件式格式。\
    例如，我們要反白顯示實際開始日期晚於（或大於）計劃開始日期的任務。 選取「大於」修正因子，然後在日期欄位中選取實際日期。
@@ -97,7 +89,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >如果您要比較Workfront原生欄位，請使用駝峰式大小寫語法來取得欄位名稱。 如果您要比較自訂欄位，請針對要與第一個欄位比較的名稱欄位，使用&#x200B;**DE：欄位**&#x200B;的實際名稱。\
+   >如果您要比較Workfront原生欄位，請使用駝峰式大小寫語法來取得欄位名稱。 如果您要比較自訂欄位，請針對要與第一個欄位比較的名稱欄位，使用欄位&#x200B;**的:ActualDE**&#x200B;名稱。\
    >例如，如果您要比較&#x200B;**實際開始日期**&#x200B;與標示為&#x200B;**傳送日期**&#x200B;的自訂欄位，請在文字模式程式碼中新增下列陳述式：
    >
    >`styledef.case.0.comparison.rightmethod=DE:Delivery Date`

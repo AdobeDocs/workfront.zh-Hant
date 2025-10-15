@@ -7,10 +7,10 @@ description: 計畫收益是預估的金額，當專案完成時，組織可從�
 author: Lisa
 feature: Work Management
 exl-id: 1ded9d16-57be-40e0-b083-ee5273fd9b56
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 0%
+source-wordcount: '315'
+ht-degree: 1%
 
 ---
 
@@ -27,35 +27,32 @@ Adobe Workfront不會計算計畫收益。 您身為專案所有者，可在業�
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td>任何</td> 
+   <td>Adobe Workfront套件</td> 
+   <td>任何 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
+   <td>Adobe Workfront授權</td> 
    <td>
-   <p>新增：標準</p>
-   <p>或</p>
-   <p>目前：計畫</p></td>  
+   <p>標準</p>
+   <p>規劃</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
+   <td>存取層級設定</td> 
    <td>編輯專案與財務資料的存取權</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件許可權</td> 
+   <td>物件許可權</td> 
    <td>管理具有管理財務之許可權的專案許可權</td> 
   </tr> 
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -69,8 +66,8 @@ Adobe Workfront不會計算計畫收益。 您身為專案所有者，可在業�
 * 在專案報告中，當您將計畫收益欄新增到報告的檢視時。\
   如需在Workfront中建立報表的詳細資訊，請參閱文章[建立自訂報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
-* 在Portfolio最佳化工具中。\
-  如需有關Portfolio最佳化程式的詳細資訊，請參閱文章[Portfolio最佳化程式概述](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)。
+* 在Portfolio Optimizer中。\
+  如需Portfolio Optimizer的詳細資訊，請參閱文章[Portfolio Optimizer概觀](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)。
 
 ## 更新專案的計畫收益
 

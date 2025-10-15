@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -34,14 +34,14 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront計畫</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront套件</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront授權*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront授權</strong></td> 
    <td> 
-   <p>目前：檢閱者或以上</p>
-   <p>新增：淺色或更高</p> 
+   <p>檢閱者或以上</p>
+   <p>淺色或更高</p> 
    </td> 
   </tr> 
   <tr> 
@@ -74,7 +74,7 @@ ht-degree: 0%
 {{step1-to-priorities}}
 
 1. 按一下畫面左側的&#x200B;**欄**。
-1. 按一下&#x200B;**拖曳**&#x200B;圖示，並將資料行移至您想要的位置。 自動移動工作清單中的欄更新。
+1. 按一下&#x200B;**拖曳**圖示，並將資料行移至您想要的位置。 自動移動工作清單中的欄更新。
    ![重新排序資料行](assets/reorder-columns-new.png)
 
 >[!NOTE]

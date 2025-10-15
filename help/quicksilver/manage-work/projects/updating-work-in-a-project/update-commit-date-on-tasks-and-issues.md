@@ -6,9 +6,9 @@ description: 您可以手動更新指派給您的任務或問題的認可日期�
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '565'
 ht-degree: 0%
 
 ---
@@ -30,25 +30,24 @@ ht-degree: 0%
 
 <!--Audited: 01/2024-->
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
    <td> 
-   新增：
    <ul>
    <li><p>任務的標準</p> </li>
    <li><p>問題的貢獻者或以上版本</p></li>
    </ul>
-   目前：
+   <p>或</p>
 <ul>
    <li><p>工作或更高的任務</p></li> 
    <li><p>要求或更高版本的問題</p></li>
@@ -69,9 +68,47 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-* 如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> 
+   New:
+   <ul>
+   <li><p>Standard for tasks</p> </li>
+   <li><p>Contributor or higher for issues</p></li>
+   </ul>
+   Current:
+<ul>
+   <li><p>Work or higher for tasks</p></li> 
+   <li><p>Request or higher for issues</p></li>
+</ul>
+
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Tasks and Issues</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions on the task or issue</p>
+   <p> You must be assigned to the task or issue to update the commit date </p>
+    </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 先決條件
 
@@ -102,7 +139,7 @@ ht-degree: 0%
 
 1. 前往指派您為&#x200B;**所有者**&#x200B;的任務或問題。
 
-   如需尋找問題或任務的任務擁有者的詳細資訊，請參閱文章[編輯任務](../../../manage-work/tasks/manage-tasks/edit-tasks.md)中的[編輯任務](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments)小節。
+   如需尋找問題或任務的任務擁有者的詳細資訊，請參閱文章[編輯任務](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments)中的[編輯任務](../../../manage-work/tasks/manage-tasks/edit-tasks.md)小節。
 
 1. （條件式與選擇性）如果您的Workfront或群組管理員將認可日期新增到您的任務或問題標題，請按一下標題中的&#x200B;**認可日期**&#x200B;欄位，然後從日曆中選取日期。 如果「認可日期」不在標題中，請繼續下列步驟。
 

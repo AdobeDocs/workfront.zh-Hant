@@ -7,9 +7,9 @@ description: 若要存取Data Connect資料，您必須先建立Snowflake讀取�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
-source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
+source-git-commit: 7764e512a3fb30a89e6645a4d8544a5fcffee231
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
@@ -18,41 +18,33 @@ ht-degree: 0%
 
 若要存取Data Connect資料，首先必須為貴組織建立Snowflake讀取器（或服務）帳戶，然後為您想要存取Data Connect的每個使用者或工具建立新連線。
 
-建立連線後，您可以在&#x200B;**現有連線**&#x200B;標籤下的&#x200B;**資料連線**&#x200B;頁面（**主功能表** > **設定** > **系統** > **資料連線**）上按一下連線，以找到其相關聯的URL和使用者名稱。
+建立連線後，您可以在「現有連線」標籤下的「資料連線」頁面（「主要功能表>設定>系統>資料連線」）上按一下連線，找到其相關聯的URL和使用者名稱。
 
 如需有關使用新建立的外部產品連線的資訊，請參閱[建立與Workfront Data Connect的連線](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)。
 
 ## 存取需求
 
-+++ 展開以檢視存取需求。
-
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td><p>包含在下列計畫中：</p>
-    <ul>
-        <li>Ultimate</li> 
-    </ul>    
-   <!--<p>Can be purchased as an add-on to the following plans:</p> 
-    <ul>
-        <li>Select</li> 
-        <li>Prime</li>
-    </ul>--> 
-    <p>Workfront Data Connect不適用於舊版Workfront計畫。</p> 
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td><p>Ultimate</p>
+    <p>Workflow Ultimate</p>
    </td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td><p>規劃</p></td> 
+   <td>
+   <p>標準</p>
+   <p>規劃</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>您必須是Workfront管理員。</p></td> 
+   <td> <p>您必須是Workfront管理員</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -113,4 +105,4 @@ ht-degree: 0%
 
 1. 按一下您要撤銷之帳戶右側的垃圾桶圖示![刪除圖示](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png)。
 
-1. 在出現的視窗中，核取方塊以確認，然後按一下[刪除]。**&#x200B;**
+1. 在出現的視窗中，核取方塊以確認，然後按一下[刪除]。****

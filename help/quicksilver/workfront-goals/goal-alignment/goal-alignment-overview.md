@@ -7,34 +7,41 @@ description: 目標校準可確保組織中的每個人透過將其目標彼此�
 author: Alina
 feature: Workfront Goals
 exl-id: e073cf10-2333-4095-b932-73d105f0c5a4
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '750'
 ht-degree: 1%
 
 ---
 
 # Adobe Workfront目標中的目標對齊方式概觀
 
-<!--Audited P&P only: 4/2025-->
+<!--Audited: 10/2025-->
 
 >[!IMPORTANT]
 >
->您的組織必須具備下列專案，才能使用本文所述的功能：
+>如果貴公司過去曾購買此套件，他們可能會選擇繼續使用Adobe Workfront目標。 如需詳細資訊，請洽詢客戶代表。
 >
->* 對於新計畫和授權結構：
->
->   * Ultimate Workfront計畫
->    
->* 對於目前的計畫與授權結構：
->
->   * Pro或更高版本Workfront計畫
->   * 除了Adobe Workfront授權之外，還有Workfront目標授權。
->
->請連絡您的Workfront客戶經理，以瞭解Workfront Goals授權。
+>Adobe Workfront目標不再提供購買。
 > 
 >如需存取Workfront目標的詳細資訊，請參閱[使用Workfront目標的需求](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)。
 
+
+<!--Old:
+>Your organization must have the following to use the functionality described in this article:
+>
+>* For the new plan and license structure:
+>
+>   * The Ultimate Workfront plan 
+>    
+>* For the current plan and license structure: 
+>
+>   * A Pro or higher Workfront plan
+>   * An Adobe Workfront Goals license in addition to a Workfront license.
+>
+>Contact your Workfront account manager to learn about a Workfront Goals license.    
+> 
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).-->
 
 目標一致性是目標管理的重要環節。您可以確保組織中的每個人對於推動策略前進必須達成什麼都有相同的看法，方法是將其目標彼此對齊並與團隊、群組和公司的組織目標對準。
 
@@ -95,7 +102,7 @@ ht-degree: 1%
 -->
 您可以在下列區域中檢視子系和父系目標：
 
-* 目標頁面上的「進度指標」區段，在「型別：目標」群組下。
+* 目標頁面上型別:Goal群組下的進度指標區段。
 * 目標頁面的「目標校準」區段。
 
 

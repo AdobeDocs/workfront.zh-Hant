@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management, Strategic Planning
 recommendations: noDisplay, noCatalog
 exl-id: 89f572a8-f585-4eee-a346-9e3188496c6d
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '50'
-ht-degree: 2%
+source-wordcount: '54'
+ht-degree: 1%
 
 ---
 
@@ -20,6 +20,6 @@ ht-degree: 2%
 本節包含下列子章節：
 
 * [專案組合](../../manage-work/portfolios/portfolios-overview/portfolio-overview-1.md)
-* [建立和管理產品組合](../../manage-work/portfolios/create-and-manage-portfolios/create-and-manage-portfolios.md)
+* [建立及管理投資組合：文章索引](../../manage-work/portfolios/create-and-manage-portfolios/create-and-manage-portfolios.md)
 * [建立和管理計畫](../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)
-* [管理[!UICONTROL Portfolio最佳化工具]中的專案](../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)
+* [在[!UICONTROL Portfolio Optimizer]中管理專案：文章索引](../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)

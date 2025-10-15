@@ -3,14 +3,14 @@ content-type: overview
 product-area: projects
 navigation-topic: manage-projects
 title: 管理專案概述區域中的資訊
-description: 管理專案概述區域中的資訊
+description: 您可以存取專案詳細資訊區段的概觀區域來檢視或編輯專案的資訊。 您可以在此區域中檢視或編輯的欄位數量有限。
 author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6113bc62-18f2-4558-bc2f-986b1e7d1a83
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '1453'
+source-wordcount: '1404'
 ht-degree: 3%
 
 ---
@@ -25,35 +25,64 @@ ht-degree: 3%
 
 ## 存取需求
 
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p role="rowheader">Adobe Workfront授權*</p> </td> 
-   <td> <p>評論或以上</p> </td> 
+   <td role="rowheader"> <p role="rowheader">Adobe Workfront授權</p> </td> 
+   <td><p>淺色或更高</p> 
+   <p>評論或以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>檢視專案的存取權或以上許可權 </p>
-
-<p>如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何變更存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>檢視專案的存取權或以上許可權</p>
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>檢視專案的存取權以檢視專案的有限資訊</p> 
-   <p>管理專案的存取權以編輯專案的相關資訊</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p role="rowheader">Adobe Workfront license*</p> </td> 
+   <td> <p>Review or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>View access or higher to Projects </p>
+   
+   <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View access to the project to view limited information about the project</p> 
+   <p>Manage access to the project to edit information about the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 存取「概覽」區段
 
@@ -121,7 +150,7 @@ ht-degree: 3%
       <td> 專案計畫完成的時間。 當專案從「完成日期」開始排程時，這由專案經理手動設定。 當專案從開始日期排程時，Workfront會根據專案中任務的持續時間自動設定此日期。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">專案組合</td> 
+      <td role="rowheader">產品組合</td> 
       <td>與專案相關聯的投資組合。 您必須先建立投資組合，才能將其新增至專案。 </td> 
      </tr> 
      <tr> 

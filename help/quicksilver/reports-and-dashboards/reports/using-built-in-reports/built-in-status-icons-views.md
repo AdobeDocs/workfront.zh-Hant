@@ -6,9 +6,9 @@ description: 您可以將內建的狀態圖示欄位新增為檢視中的欄，�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7831d5c1-e982-4780-a5a8-54dc6decb3a1
-source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1205'
 ht-degree: 3%
 
 ---
@@ -45,33 +45,25 @@ ht-degree: 3%
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
-
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
    <td> 
-      <p>新增：</p>
-         <ul>
-         <li><p>投稿人或以上</p></li>
-         </ul>
-      <p>目前：</p>
-         <ul>
-         <li><p>要求或更高版本</p></li>
-         </ul>
+      <p>投稿人或以上</p>
+      <p>要求或更高版本</p>
    </td>
   </tr>
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
+   <td role="rowheader">存取層級設定</td> 
    <td> <p>編輯對篩選器、檢視、群組的存取權</p> <p>編輯對報告、儀表板、行事曆的存取權以新增欄到報告</p></td> 
   </tr> 
   <tr> 
@@ -81,7 +73,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -120,7 +112,7 @@ ht-degree: 3%
    檔案檢視包含&#x200B;**檢檢視示**&#x200B;欄位。
 
 1. 按一下「**儲存視圖**」。
-1. （選擇性）指定檢視的新名稱，然後按一下[儲存檢視]。**&#x200B;**\
+1. （選擇性）指定檢視的新名稱，然後按一下[儲存檢視]。****\
    這會將&#x200B;**狀態圖示**&#x200B;欄新增至您的檢視。
 1. （選用）將滑鼠移至圖示上方，瞭解其代表的意義。
 1. （選擇性）按一下圖示，移至該圖示所代表的物件區域。\

@@ -6,9 +6,9 @@ description: 專案與任務相關費用的建立與管理費用流程相同。 
 author: Lisa
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: e1884aa7975018a737538d909954319e6feee318
+source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '495'
 ht-degree: 1%
 
 ---
@@ -30,27 +30,27 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td>Adobe Workfront套件</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
+   <td>Adobe Workfront授權</td> 
    <td>
-   <p>新增：標準</p>
-   <p>目前：工作或以上</p></td> 
+   <p>標準</p>
+   <p>工作或更高</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
+   <td>存取層級設定</td> 
    <td>編輯專案與財務資料的存取權</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件許可權</td> 
-   <td>專案貢獻或更高許可權，並具有檢視或管理財務的許可權</td> 
+   <td>物件許可權</td> 
+   <td>專案貢獻或更高許可權，具有檢視或管理財務的許可權</td> 
   </tr> 
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

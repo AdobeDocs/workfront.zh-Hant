@@ -7,7 +7,7 @@ description: 「移交日期」是任務可供工作的日期。 這通常表示
 author: Alina
 feature: Work Management
 exl-id: caf2dbba-5311-418d-8c82-ddcc256f9926
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 2%

@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: plan-a-project
 title: 在角色分配面板中檢視專案計畫時數
 description: 您可以在專案的「角色配置」面板中，檢視指派給專案中工作專案的所有職務角色的角色配置。
-author: Alina
+author: Alina, Lisa
 feature: Work Management
 exl-id: 76f70cb6-f707-4a73-bc81-e755e2d0a33d
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '476'
 ht-degree: 1%
 
 ---
@@ -24,14 +24,50 @@ ht-degree: 1%
 >* [顯示工作清單中專案和方案的角色分配](../../../scenario-planner/show-role-allocation-task-list-nwe.md)
 >* [在工作負載平衡器](../../../scenario-planner/show-role-allocation-workload-balancer.md)中顯示專案和方案的角色分配
 >
->  您必須有Scenario Planner授權，才能在「角色配置」面板中檢視方案時數。 如需Scenario Planner的相關資訊，請參閱[開始使用Scenario Planner](../../../scenario-planner/get-started-with-scenario-planning.md) 。
+>  您必須有Scenario Planner授權，才能在「角色配置」面板中檢視方案時數。 如需Scenario Planner的相關資訊，請參閱[開始使用Scenario Planner](../../../scenario-planner/get-started-with-scenario-planning.md)。
 >
+>如果您的公司過去曾購買Adobe Scenario Planner，則該公司已受保護。 Scenario Planner已無法購買。
 
 ## 存取需求
 
-<!--drafted for P&P:
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>Adobe Workfront Ultimate</p>
+   <p>Adobe工作流程Ultimate</p>
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> 
+   <p>淺色或更高</p>
+   <p>評論或以上</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>檢視或更高專案存取權</p>
+   <p>編輯Scenario Planner的存取權以更新方案上的時數</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>檢視專案或更高的許可權</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
+
+<!--Old:
+
+able style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -41,10 +77,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Light or higher</p> 
-   Or
-   <p>Legacy license: Review or higher</p> 
-   </td> 
+   <td> <p>Review or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -55,36 +88,7 @@ ht-degree: 1%
    <td> <p>View or higher permissions on the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
--->
-
-您必須具備下列條件：
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
-   <td> <p>任何 </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>評論或以上</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>檢視或更高專案存取權</p> <p>如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">物件許可權</td> 
-   <td> <p>檢視專案或更高的許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+</table>-->
 
 ## 先決條件
 

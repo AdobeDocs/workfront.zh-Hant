@@ -6,9 +6,9 @@ description: 如果您的程式複雜，或您定期傳送內容給相同的人�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 977fe1bc-458f-4301-8056-dc51c61edb6c
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '1838'
+source-wordcount: '1783'
 ht-degree: 0%
 
 ---
@@ -23,19 +23,18 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td> <p>新增：任何</p><p>目前計畫：Pro或更高版本</p><p>舊版計畫：選取或更高</p> <p>如需有關不同方案的校訂存取許可權的詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">存取Workfront中的校訂功能</a>。</p> </td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：標準</p><p>目前計畫：工作或計畫</p> <p>舊版計畫：任何（您必須為使用者啟用校訂）</p> </td> 
+   <td> 標準</p>
+   <p>工作或計畫</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">校樣權限設定檔 </td> 
@@ -63,7 +62,7 @@ ht-degree: 0%
 
 ## 設定校訂階段
 
-1. 在[工作流程型別]區段中，選擇[自動] **&#x200B;**。
+1. 在[工作流程型別]區段中，選擇[自動] ****。
 1. （選擇性）如果您想要使用Workfront管理員建立並共用給您的自動工作流程範本，請按一下&#x200B;**新增範本**，在出現的方塊中選取範本，然後按一下&#x200B;**新增範本**。
 
    >[!NOTE]

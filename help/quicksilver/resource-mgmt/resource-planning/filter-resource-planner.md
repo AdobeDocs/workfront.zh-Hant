@@ -6,9 +6,9 @@ description: 使用篩選條件，您可以從儲存在系統中的所有資訊�
 author: Lisa
 feature: Resource Management
 exl-id: 7186cae5-1e16-421e-b26d-afb50aa7f6eb
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '2390'
+source-wordcount: '2361'
 ht-degree: 0%
 
 ---
@@ -25,36 +25,32 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td><p>新增：任何</p>
-       <p>或</p>
-       <p>目前：Pro或更高</p> </td> 
+  <tr> 
+   <td>Adobe Workfront套件</td> 
+   <td><p>任何</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td><p>新增：淺色或更高</p>
-       <p>或</p>
-       <p>目前：檢閱或以上</p></td>
+   <td>Adobe Workfront授權</td> 
+   <td><p>淺色或更高</p>
+       <p>評論或以上</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
-   <td> <p>檢視專案、使用者和資源管理的存取權或以上許可權</p> </td> 
+   <td>存取層級設定</td> 
+   <td> <p>檢視專案、使用者和資源管理的存取權或以上許可權</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件許可權</td> 
-   <td> <p>檢視專案的許可權或更高版本</p> </td> 
+   <td>物件許可權</td> 
+   <td> <p>檢視專案或更高的許可權</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -125,10 +121,10 @@ ht-degree: 0%
 
 根據預設，第一次存取資源規劃工具時，會套用<strong>預設篩選器</strong>。<br>如需預設篩選的詳細資訊，請參閱本文的「資源規劃工具」中的<a href="#overview-of-the-default-filter-in-the-resource-planner" class="MCXref xref">預設篩選概述</a>一節。
 
-1. 在的左上角，按一下&#x200B;**篩選器**&#x200B;圖示。
+1. 在的左上角，按一下&#x200B;**篩選器**圖示。
    ![filter_icon.png](assets/filter-icon.png)
 或
-展開&#x200B;**篩選器**&#x200B;下拉式功能表，然後按一下&#x200B;**新增篩選器**。
+展開**篩選器**&#x200B;下拉式功能表，然後按一下&#x200B;**新增篩選器**。
    ![篩選器下拉式清單](assets/rp-filter-dropdown-expanded-with-default-filter-selected-350x283.png)
 
 1. 若要使用內建條件建立篩選器，請指定下列任一欄位：

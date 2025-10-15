@@ -6,9 +6,9 @@ description: 您可以停用不再使用的團隊，同時保留關聯的歷史�
 author: Lisa
 feature: People Teams and Groups
 exl-id: 634e4c0f-aa1d-4197-92e3-54f414344ac0
-source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
+source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
@@ -28,41 +28,38 @@ ht-degree: 0%
     </ul> 
     <ul> 
      <li> <p>物件的共用對話方塊</p> </li> 
-     <li> <p>[!UICONTROL 使用者設定檔]*</p> </li> 
+     <li> <p>[！UICONTROL使用者設定檔]*</p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL 團隊]區域中的主要選取下拉式功能表</p> </li> 
-     <li> <p>[!UICONTROL 指派]自動提示</p> </li> 
-     <li> <p>專案中的[!UICONTROL 新增到Kanban]展示板對話方塊</p> </li> 
+     <li> <p>[！UICONTROL團隊]區域中的主要選取下拉式功能表</p> </li> 
+     <li> <p>[！UICONTROL指派]自動提示</p> </li> 
+     <li> <p>專案中的[！UICONTROL新增到Kanban]展示板對話方塊</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-當您搜尋團隊時，已停用的團隊不會出現，但如果在停用之前已將使用者指派給團隊，則仍會顯示在[!UICONTROL 主團隊]和其他團隊中。
+當您搜尋團隊時，已停用的團隊不會出現，但如果使用者在停用前已指派給團隊，則仍會顯示在[!UICONTROL 主團隊]和其他團隊中。
 
 ## 存取需求
 
 +++ 展開以檢視本文中功能的存取需求。
-
-您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader"> <p>Adobe Workfront套件</p> </td> 
    <td>任何</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td>
-   <p>新增：標準</p>
-   <p>或</p>
-   <p>目前：計畫</p></td>
-  </tr>
+   <p>標準</p>
+   <p>規劃</p></td>
+  </tr> 
   <tr>
    <td>存取層級設定</td>
    <td><p>若要停用群組，不需要任何設定。</p>

@@ -6,9 +6,9 @@ description: 您可以從[!UICONTROL 首頁]區域建立工作專案和專案。
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: e3e297bc548338032bc8f321ad3e1214be9cdee4
+source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '816'
 ht-degree: 2%
 
 ---
@@ -27,39 +27,36 @@ ht-degree: 2%
 
 +++ 展開以檢視本文中功能的存取需求。 
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權</strong></td> 
    <td>
-    <p>新增：[!UICONTROL Standard]</p> 
-    <p>目前： [!UICONTROL Work]或更高版本</p> </td> 
+    <p>標準</p> 
+    <p>工作或更高</p> </td> 
   </tr> 
-  <tr> 
-   <td role="rowheader"><strong>存取層級設定*</strong></td> 
-   <td> <p>[!UICONTROL Worker]</p> <p><b>附註</b></p> 
-   <p>如果您仍然沒有存取權，請詢問您的[!DNL Workfront]管理員是否已在您的存取層級中設定其他限制。 如需[!DNL Workfront]管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+    <tr> 
+   <td role="rowheader"><strong>存取層級設定</strong></td> 
+   <td> <p>檢視或編輯更新所在物件的存取權</p> </td> 
+  </tr> 
+   <tr> 
+   <td role="rowheader"><strong>其他產品</strong></td> 
+   <td>您必須安裝Adobe Workfront Planning才能檢視Planning請求或請求表單</td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>[!UICONTROL Edit]或更新的任務存取權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Product]</strong></td> 
-   <td> <ul><li>Adobe Workfront</li><li>您必須安裝Adobe Workfront Planning才能檢視Planning請求或請求表單</td> 
+   <td> <p>[！UICONTROL Edit]或更新的任務存取權</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -77,7 +74,7 @@ ht-degree: 2%
 若要建立待辦事項，請執行下列步驟：
 
 1. 按一下右上角的&#x200B;**[!UICONTROL 主功能表]** ![主功能表圖示](assets/main-menu-icon.png)，或左上角的&#x200B;**主功能表** ![主功能表行圖示](assets/lines-main-menu.png) （如果可用），然後按一下&#x200B;**[!UICONTROL 首頁]**。
-1. （視條件而定）按一下「自訂」**&#x200B;**，然後按一下「待辦事項」**&#x200B;**，將待辦事項Widget新增至您的主畫面。
+1. （視條件而定）按一下「自訂」****，然後按一下「待辦事項」****，將待辦事項Widget新增至您的主畫面。
 1. 移至&#x200B;**待辦事項** Widget，然後按一下&#x200B;**新增待辦事項**。
 1. 輸入個人待辦事項的名稱，然後按一下「輸入」。
 1. （選擇性）按一下&#x200B;**日期**&#x200B;圖示![日期圖示](assets/date-icon.png)以新增專案的到期日。

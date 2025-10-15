@@ -6,10 +6,10 @@ description: 在連線專案和方案後，您可以並排管理其資源配置�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: cdc3a1b0-7021-4853-9b51-c3682fd55430
-source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
+source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 1%
+source-wordcount: '800'
+ht-degree: 0%
 
 ---
 
@@ -25,47 +25,79 @@ ht-degree: 1%
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] 計畫*</p> </td> 
-   <td> <ul></li>
-   <li><p>新增： Ultimate </p></li>
-   <p>新的Workfront Select或Workfront Prime計畫無法使用「情境規劃工具」。 </p>
-   <li><p>目前： [!UICONTROL Business]或更高版本</p></ul>
+   <td> <p>[!DNL Adobe Workfront] 封裝</p> </td> 
+   <td> 
+   <p>Workfront Ultimate</p>
+<p><b>附註</b></p>
+<p>如果您有不同的Workfront套件，請洽詢您的Workfront代表。</p>
    </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] 授權*</p> </td> 
-   <td> <p>新增：淺色或更高</p> 
-   <p>目前： [!UICONTROL Review]或以上</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] 授權</p> </td> 
+   <td> <p>[！UICONTROL Light]或更高</p> 
+   <p>[！UICONTROL Review]或更高版本</p> </td> 
+  </tr> 
+    <tr> 
+   <td>存取層級設定</td> 
+   <td> <p>檢視或更高的專案存取權。</p></td> 
   </tr> 
   <tr> 
-   <td>產品* </td> 
-   <td> <ul><li><p>針對新的Workfront計畫：</p><p> Adobe Workfront</li></p>
-   <li><p>針對目前的Workfront計畫： </p>
-   <p>Adobe Workfront</p> <p>Adobe Workfront情境規劃工具</p></li></ul>
-
-<p>如需詳細資訊，請參閱<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">使用[!DNL Scenario Planner]</a>所需的存取權。 </p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td>存取層級 </td> 
-   <td> <p>檢視或更高的專案存取權。</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
    <td> <p>物件許可權 </p> </td> 
-   <td> <p> 檢視專案或更高許可權。</p> </td> 
+   <td> <p> 檢視專案或更高許可權。</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱[Workfront檔案的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需有關存取Scenario Planner的詳細資訊，請參閱[使用 [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md)所需的存取。
+
+如需Workfront存取需求的相關資訊，請參閱[Workfront檔案的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
+   <td> <ul></li>
+   <li><p>New: Ultimate </p></li>
+   <p>The Scenario Planner is not available for the new Workfront Select or Workfront Prime plans. </p>
+   <li><p>Current: [!UICONTROL Business] or higher</p></ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] license*</p> </td> 
+   <td> <p>New: Light or higher</p> 
+   <p>Current: [!UICONTROL Review] or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Product* </td> 
+   <td> <ul><li><p>For the new Workfront plans:</p><p> Adobe Workfront</li></p>
+   <li><p>For the current Workfront plans: </p>
+   <p>Adobe Workfront</p> <p>Adobe Workfront Scenario Planner</p></li></ul>
+   
+   <p>For more information, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the [!DNL Scenario Planner]</a>. </p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Access level </td> 
+   <td> <p>View or higher access to Projects.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p>Object permissions </p> </td> 
+   <td> <p> View or higher permission to a project.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 顯示[!UICONTROL 工作負載平衡器]中專案和行動方案的角色分配
 
@@ -96,7 +128,7 @@ ht-degree: 1%
 
    >[!CAUTION]
    >
-   >雖然即使您的組織未購買[!DNL Workfront Scenario Planner]授權，您仍可檢視[!UICONTROL 角色配置]面板，但您無法檢視行動方案工作角色的資訊。
+   >雖然即使您的組織未購買[!UICONTROL 授權，您仍可檢視]角色配置[!DNL Workfront Scenario Planner]面板，但您無法檢視行動方案工作角色的資訊。
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ensure this step stays 5 to match the mention of it in the section below)</p>
@@ -109,7 +141,7 @@ ht-degree: 1%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 工作角色]</td> 
+      <td role="rowheader">[！UICONTROL工作角色]</td> 
       <td> <p>與下列任一專案關聯的工作角色名稱：</p> 
        <ul> 
         <li> <p>專案任務</p> </li> 
@@ -118,16 +150,16 @@ ht-degree: 1%
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 方案時數]</td> 
+      <td role="rowheader">[！UICONTROL方案時數]</td> 
       <td>在方案總期間內，與方案上每個工作角色相關聯的所需時數。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 計畫時數]</td> 
+      <td role="rowheader">[！UICONTROL計畫時數]</td> 
       <td>在專案總期間中，與專案上任務或問題中的每個工作角色關聯的計畫時數。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 變數]</td> 
-      <td> <p>方案所需時數與專案工作相關計畫時數之間的差異。 [!DNL Workfront]使用此公式計算[!UICONTROL 變異數]：</p> <p><code>Role Allocation Variance = Initiative Hours - Planned Hours</code> </p> <p>當計畫資源的時數超過方案所需的時，該[!UICONTROL 差異]為負數且以紅色顯示。 這表示您的資源配置過度。 </p> </td> 
+      <td role="rowheader">[！UICONTROL變數]</td> 
+      <td> <p>方案所需時數與專案工作相關計畫時數之間的差異。 [!DNL Workfront]使用此公式計算[！UICONTROL變異數]：</p> <p><code>Role Allocation Variance = Initiative Hours - Planned Hours</code> </p> <p>當計畫資源的時數超過方案所需的時，該[！UICONTROL差異]為負數且以紅色顯示。 這表示您的資源配置過度。 </p> </td> 
      </tr> 
     </tbody> 
    </table>

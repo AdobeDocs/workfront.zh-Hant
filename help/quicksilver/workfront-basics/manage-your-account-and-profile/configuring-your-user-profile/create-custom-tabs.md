@@ -6,9 +6,9 @@ description: 根據預設，您在 [!DNL Workfront] 網頁應用程式中看到�
 author: Becky and Lisa
 feature: Get Started with Workfront
 exl-id: 68f4b83b-a8b4-4304-930f-62551cb06a92
-source-git-commit: 0efbc6051443d8e0ed96512b72d0949b288f7c2d
+source-git-commit: fb555df123701c62e9a0f2d451ad6dcd16586595
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '638'
 ht-degree: 1%
 
 ---
@@ -44,34 +44,32 @@ ht-degree: 1%
 
 ## 存取需求
 
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視本文中功能的存取需求。
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- </col> 
- <col> 
- </col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
-   <td> <p>任何</p> </td> 
+   <td>Adobe Workfront套件</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[!UICONTROL Review]或更高版本</p> </td> 
+   <td>Adobe Workfront授權</td> 
+   <td>
+   <p>淺色或更高</p>
+   <p>評論或以上</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td>[!UICONTROL Reviewer]或更高版本</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">物件許可權</td> 
-   <td>檢視物件型別的存取權</td> 
+   <td>物件許可權</td> 
+   <td><p>檢視物件型別的存取權</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫或授權型別，請連絡您的[!DNL Workfront]系統管理員。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 在[!DNL Workfront]物件或區域的左側面板中新增儀表板
 

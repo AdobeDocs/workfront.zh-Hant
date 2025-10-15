@@ -6,9 +6,9 @@ description: 身為資源管理員，您可以指派工作給使用者，並從�
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: d588380201aa8bcc9e358d516b7e52ed5f60b78d
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '2886'
+source-wordcount: '2864'
 ht-degree: 0%
 
 ---
@@ -23,25 +23,21 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td> <p>任何 </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td><p>新增：標準</p>
-       <p>或</p>
-       <p>目前：計畫，在資源區域使用工作負載平衡器時；</br>
-       工作，使用團隊或專案的工作負載平衡器時</p></td>
+   <td>Adobe Workfront套件</td> 
+   <td><p>任何</p></td>
   </tr>
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
+   <td>Adobe Workfront授權</td> 
+   <td><p>標準</p>
+       <p>計畫：在資源區域使用工作負載平衡器；工作，使用團隊或專案的工作負載平衡器</p></td>
+  </tr>
+  <tr> 
+   <td>存取層級設定</td> 
    <td> <p>編輯下列專案的存取權：</p> 
     <ul> 
      <li>資源管理</li> 
@@ -52,13 +48,13 @@ ht-degree: 0%
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件許可權</td> 
+   <td>物件許可權</td> 
    <td> <p>貢獻許可權或更高，包括指派給您要管理配置的任務和問題。 </p> <p>或 </p> <p>管理您要更新計畫時數以及更新配置的任務的許可權。 如需有關更新工作負載平衡器中的規劃時數的資訊，請參閱本文中的<a href="#update-task-planned-hours-when-managing-user-allocations">管理使用者指派時更新任務規劃時數</a>區段。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -94,7 +90,7 @@ ht-degree: 0%
 
   >[!INFO]
   >
-  > 例如，任務的工期可能為2天且計畫時間為2小時，其計劃開始時間為工期第一天下午12:00，使用者與專案排程於下午5點結束。 使用者第一天的容量為5小時。 第二天的使用者容量為8小時（如果排程從上午9點開始）。
+  > 例如，任務的期間可能是2天和2個計畫小時，其計劃開始時間為期間第一天晚上12:00，而專案排程在下午5點結束。 使用者第一天的容量為5小時。 第二天的使用者容量為8小時（如果排程從上午9點開始）。
   >
   >Workfront會使用下列公式，計算工期2天內2小時的分配：
   >
@@ -175,7 +171,7 @@ ht-degree: 0%
 
 將工作指派給使用者時，您可以修改工作負載平衡器中的使用者指派，以確保不會過度指派，或確保資源之間準確平衡時數。 如需識別使用者是否過度配置的資訊，請參閱本文中的[使用者配置概觀](#user-allocation-overview)小節。
 
-1. 確保您有指派給使用者的任務和問題。 如需指派工作給工作負載平衡器中使用者的相關資訊，請參閱指派工作在工作負載平衡器[&#128279;](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)中的概述。
+1. 確保您有指派給使用者的任務和問題。 如需指派工作給工作負載平衡器中使用者的相關資訊，請參閱指派工作在工作負載平衡器[中的概述。](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 1. 前往工作負載平衡器。
 1. （選擇性）按一下&#x200B;**周**&#x200B;或&#x200B;**月**&#x200B;來管理使用者的每週或每月配置。
 

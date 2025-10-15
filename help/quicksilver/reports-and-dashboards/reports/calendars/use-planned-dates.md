@@ -6,9 +6,9 @@ description: 行事曆報告是一種動態報告，可提供工作的視覺化�
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 27bf6f03-2f6b-4556-a715-75c4a21bfbbb
-source-git-commit: 5c0278607faf65b58abeb9b813e403f97032a965
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '606'
 ht-degree: 2%
 
 ---
@@ -29,8 +29,6 @@ ht-degree: 2%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -38,22 +36,21 @@ ht-degree: 2%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront plan]</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td><p>新增：標準</p>
-       <p>或</p>
-       <p>目前：計畫</p></td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td><p>標準</p>
+       <p>規劃</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[!UICONTROL Edit]對[!UICONTROL 報告]、[!UICONTROL 儀表板]和&lbrack;！UICONTROL行事曆的存取權</p></td> 
+   <td> <p>編輯報告、儀表板和行事曆的存取權</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td>[!UICONTROL Manage]對行事曆報表的存取權</td> 
+   <td>管理對行事曆報告的存取權</td> 
   </tr> 
  </tbody> 
 </table>
@@ -85,16 +82,16 @@ ht-degree: 2%
     <col>
     <tbody>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 命名此專案群組]</strong></td>
+      <td role="rowheader"><strong>[！UICONTROL命名此專案群組]</strong></td>
       <td>輸入專案群組的名稱。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 色彩]</strong></td>
+      <td role="rowheader"><strong>[！UICONTROL色彩]</strong></td>
       <td>選取專案群組的顏色。 所有專案都會以選取的顏色顯示在行事曆報告中。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 日期欄位]</strong></td>
-      <td><p>選擇<strong>[!UICONTROL 計畫日期]</strong>。 如需計畫日期的詳細資訊，請參閱 </p>
+      <td role="rowheader"><strong>[！UICONTROL日期欄位]</strong></td>
+      <td><p>選擇<strong>[！UICONTROL計畫日期]</strong>。 如需計畫日期的詳細資訊，請參閱 </p>
        <ul>
         <li><a href="../../../manage-work/projects/planning-a-project/project-planned-start-date.md" class="MCXref xref">專案計劃開始日期總覽</a></li>
         <li><a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">任務計劃開始日期總覽</a></li>
@@ -106,14 +103,14 @@ ht-degree: 2%
       <td role="rowheader"><strong>在行事曆上，顯示</strong></td>
       <td><p>選擇日期的顯示方式：</p>
        <ul>
-        <li><strong>[!UICONTROL 僅開始日期]</strong>：行事曆在單一日期顯示物件。</li>
-        <li><strong>[!UICONTROL 結束日期僅限]</strong>：行事曆會在單一日期顯示物件。</li>
-        <li><strong>[!UICONTROL Duration] （開始至結束）</strong>：行事曆顯示物件超過天數。</li>
+        <li><strong>[！UICONTROL僅開始日期]</strong>：行事曆在單一日期顯示物件。</li>
+        <li><strong>[！UICONTROL結束日期僅限]</strong>：行事曆會在單一日期顯示物件。</li>
+        <li><strong>[！UICONTROL Duration] （開始至結束）</strong>：行事曆顯示物件超過天數。</li>
        </ul></td>
      </tr>
      <tr data-mc-conditions="">
-      <td role="rowheader"><strong>[!UICONTROL 在可用時切換到實際日期]</strong></td>
-      <td><p>行事曆會在實際日期可用時自動切換到實際日期。 <br>選擇<strong>[!UICONTROL 是]</strong>或<strong>[!UICONTROL 否]</strong>，在可用時切換到實際日期。 如需實際日期的詳細資訊，請參閱</p>
+      <td role="rowheader"><strong>[！UICONTROL在可用時切換到實際日期]</strong></td>
+      <td><p>行事曆會在實際日期可用時自動切換到實際日期。 <br>選擇<strong>[！UICONTROL是]</strong>或<strong>[！UICONTROL否]</strong>，在可用時切換到實際日期。 如需實際日期的詳細資訊，請參閱</p>
        <ul>
         <li><a href="../../../manage-work/projects/planning-a-project/project-actual-start-date.md" class="MCXref xref">專案實際開始日期概要 </a></li>
         <li><a href="../../../manage-work/projects/planning-a-project/project-actual-completion-date.md" class="MCXref xref">專案實際完成日期概要 </a></li>

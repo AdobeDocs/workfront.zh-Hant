@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4343f0ff-2f78-4556-801f-db9d94f80c95
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '609'
 ht-degree: 0%
 
 ---
@@ -22,36 +22,36 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具備下列條件：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>Adobe Workfront計畫*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront套件</p> </td> 
    <td>商務或以上版本</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>檢閱或更高版本。 如需詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref" data-mc-variable-override="">授權總覽</a>。</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> 
+   <p>淺色或更高</p>
+   <p>評論或以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
-   <td> <p>您必須為Adobe Workfront Scenario Planner購買額外的授權，才能存取本文所述的功能。</p> <p>如需有關取得Workfront Scenario Planner的資訊，請參閱<a href="../../../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref" data-mc-variable-override="">使用Scenario Planner所需的存取權</a>。 </p> </td> 
+   <td> <p>您必須為Adobe Workfront Scenario Planner購買額外的授權。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級*</td> 
-   <td> <p>檢視「情境規劃工具」的存取權或以上許可權</p> <p><b>注意</b>：如果您還是沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需Workfront管理員如何變更存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">建立或修改自訂存取層級</a>。</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>檢視「情境規劃工具」的存取權或以上許可權</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>物件許可權</p> </td> 
-   <td> <p>檢視計畫的許可權或更高版本</p> <p>如需請求對計畫的額外存取權的相關資訊，請參閱<a href="../../../scenario-planner/request-access-to-plan.md" class="MCXref xref" data-mc-variable-override="">在Scenario Planner</a>中請求對計畫的存取權。</p> </td> 
+   <td> <p>檢視計畫的許可權或更高版本</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 ## 依授權型別存取Scenario Planner
 
-如需有關每個存取層級中的使用者可以使用Scenario Planner做什麼，請參閱每個物件型別[&#128279;](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)可用的功能文章中的[Scenario Planner區域](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#scenario)一節。
+如需有關每個存取層級中的使用者可以使用Scenario Planner做什麼，請參閱每個物件型別[可用的](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#scenario)功能文章中的[Scenario Planner區域](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)一節。
 
 ## 依存取層級設定的「案例規劃工具」存取權
 

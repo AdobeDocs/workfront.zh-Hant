@@ -4,10 +4,10 @@ product-area: timesheets
 navigation-topic: timesheets-navigation-topic
 title: 時程表配置總覽
 description: 本文說明Adobe Workfront中時程表的配置，讓您更瞭解如何自訂及利用時程表來記錄時間。
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
 source-wordcount: '1049'
 ht-degree: 1%
@@ -39,7 +39,7 @@ ht-degree: 1%
 * [工作專案](#work-items)
 * [工具欄](#toolbar)
 * [時程表頁尾](#timesheet-footer)
-* [工作角色](#job-role)
+* [職務角色](#job-role)
 * [時數類型](#hour-type)
 * [更新左側面板中的區域](#updates-area-in-the-left-panel)
 * [摘要面板](#summary-panel)
@@ -75,7 +75,7 @@ ht-degree: 1%
 您可以存取左側面板中的下列區段：
 
 * **時程表**：顯示實際時程表。
-* **更新**：顯示時程表的評論和系統更新。 如需詳細資訊，請參閱本文左面板[&#128279;](#updates-area-in-the-left-panel)中的更新區域。
+* **更新**：顯示時程表的評論和系統更新。 如需詳細資訊，請參閱本文左面板[中的](#updates-area-in-the-left-panel)更新區域。
 
 ## 工作專案
 

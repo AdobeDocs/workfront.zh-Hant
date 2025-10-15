@@ -7,7 +7,7 @@ description: 簡易期間型別是一種期間型別，您可以在Adobe Workfro
 author: Alina
 feature: Work Management
 exl-id: 9bb472db-1448-467e-93ca-611453e1c00a
-source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 0%

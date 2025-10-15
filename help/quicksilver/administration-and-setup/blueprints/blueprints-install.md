@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 546e19ab-dc50-4d23-b5f6-31bde1c82b6a
-source-git-commit: 48de4553478fc42d88d81ea953440337f6684e50
+source-git-commit: 5fd855bec596926a4361fd07a1a763c7956e5e61
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '475'
 ht-degree: 1%
 
 ---
@@ -26,26 +26,23 @@ ht-degree: 1%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
    <td>
-   <p>新增：標準</p>
-   <p>或</p>
-   <p>目前：計畫</p></td> 
+   <p>標準</p>
+   <p>規劃</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td>您必須是[!DNL Workfront]管理員。 </td> 
+   <td>Workfront管理員</td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,11 +62,11 @@ ht-degree: 1%
     </tr>
     <tr>
         <td><strong>Sandbox 預覽</strong></td>
-        <td>沙箱預覽是測試環境，可作為即時環境的復本，並在每個週末由Adobe Workfront重新整理。 所有支援套件都可存取「沙箱預覽」。 如需詳細資訊，請參閱<a href="../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">預覽Sandbox環境</a>。[!DNL Adobe Workfront]</td>
+        <td>沙箱預覽是測試環境，可作為即時環境的復本，並在每個週末由Adobe Workfront重新整理。 所有支援套件都可存取「沙箱預覽」。 如需詳細資訊，請參閱<a href="../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">預覽Sandbox環境[!DNL Adobe Workfront]。</a></td>
     </tr>
     <tr>
         <td><strong>Sandbox 1和2</strong></td>
-        <td>自訂重新整理沙箱是獨立的測試環境，由您手動重新整理。 取得自訂重新整理沙箱需要額外付費。 如需詳細資訊，請參閱<a href="../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md">自訂重新整理沙箱環境</a>。[!DNL Adobe Workfront]</td>
+        <td>自訂重新整理沙箱是獨立的測試環境，由您手動重新整理。 取得自訂重新整理沙箱需要額外付費。 如需詳細資訊，請參閱<a href="../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md">自訂重新整理沙箱環境[!DNL Adobe Workfront]。</a></td>
     </tr>
 </table>
 
@@ -93,11 +90,11 @@ ht-degree: 1%
    如需詳細資訊，請參閱[我該在哪裡安裝Blueprint？本文中的](#where-should-i-install-a-blueprint)節。
 1. 在&#x200B;**設定**&#x200B;頁面上，您可以選擇執行下列任一項作業：
 
-   * 依原樣安裝Blueprint。 對於不需要任何設定的Blueprint型別，這是唯一的選項。 對於需要設定的Blueprint型別，您可以選擇現在安裝Blueprint並於稍後進行設定。 按一下[依原樣安裝] **&#x200B;**。
+   * 依原樣安裝Blueprint。 對於不需要任何設定的Blueprint型別，這是唯一的選項。 對於需要設定的Blueprint型別，您可以選擇現在安裝Blueprint並於稍後進行設定。 按一下[依原樣安裝] ****。
    * 在安裝之前設定藍圖，適用於需要設定的Blueprint。 選擇您的設定，然後按一下&#x200B;**[!UICONTROL 安裝Blueprint]**。
 
      如需詳細資訊，請參閱[設定藍圖](../../administration-and-setup/blueprints/configure-template-package.md)。
 
    安裝完成，並顯示已成功與Blueprint一起安裝的特定物件（例如角色、專案團隊或群組）清單，以及任何無法安裝的物件。
 
-安裝Blueprint後，可能需要一些其他動作才能完全部署。 如需詳細資訊，請參閱安裝Blueprint[&#128279;](../../administration-and-setup/blueprints/best-next-actions-after-install.md)後要採取的動作。
+安裝Blueprint後，可能需要一些其他動作才能完全部署。 如需詳細資訊，請參閱安裝Blueprint[後要採取的](../../administration-and-setup/blueprints/best-next-actions-after-install.md)動作。

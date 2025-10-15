@@ -2,12 +2,12 @@
 navigation-topic: business-case-and-scorecards
 title: 核准業務案例
 description: 在您完成並提交專案要求的業務案例後，業務案例必須獲得核准。 這取決於您組織中的工作流程。 專案可以不經業務案例核准而開始，但您的Adobe Workfront管理員和專案所有者可能認為不宜這樣做。
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
-source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
+source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -29,18 +29,16 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront計畫*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront套件</p></td> 
    <td> 
-   <p>目前：Prime或更新版本</p>
-   <p>或</p>
-   <p>舊版：商務或更新版本</p> 
+   <p>Prime或更新版本</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
    <td> 
-   <p>目前：標準 </p> 
-   <p>舊版：計畫 </p> </td> 
+   <p>標準 </p> 
+   <p>規劃 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -53,7 +51,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -66,7 +64,7 @@ ht-degree: 0%
 * 您必須手動前往需要業務案例核准的個別專案，以檢視他們處於未決核准。 沒有Workfront通知機制會提醒某人他們必須核准專案的業務案例。
 * 您可以透過建立專案報告或存取與其相關聯的投資組合，找到等待業務案例核准的專案。
 
-  如需關於產品組合的詳細資訊，請參閱文章[&#x200B; Adobe Workfront中的Portfolio概觀](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)。
+  如需關於產品組合的詳細資訊，請參閱文章[ Adobe Workfront中的Portfolio概觀](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)。
 
 ## 建立專案報告以核准業務案例
 

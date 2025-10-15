@@ -6,9 +6,9 @@ description: 案頭校訂檢視器是必須安裝在本機電腦上的應用程�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
-source-git-commit: 2d75f74c7281a3ea288c892db6895754a697e198
+source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -32,15 +32,14 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td> <p>新增：任何</p> <p>或</p> <p>目前：Pro或更高</p> </td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>任何</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
@@ -67,7 +66,7 @@ ht-degree: 0%
    * 如果您使用預覽環境，請按一下案頭校訂檢視器的[Mac預覽下載。](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.44.pkg)
 
 1. 開啟您剛下載的檔案，開始安裝。
-1. 在出現的安裝方塊上，按一下[繼續]&#x200B;**&#x200B;**，然後按一下[安裝]&#x200B;**&#x200B;**。
+1. 在出現的安裝方塊上，按一下[繼續]****，然後按一下[安裝]****。
 
    ![00000776.png](assets/00000776-350x244.png)
 

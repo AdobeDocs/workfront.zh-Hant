@@ -7,9 +7,9 @@ description: 檢視「工期」與「計畫工時」的比較基準差異。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2a1eef9c-016c-4a04-acda-6070fcb0e23d
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '243'
 ht-degree: 1%
 
 ---
@@ -32,28 +32,21 @@ ht-degree: 1%
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
-
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
    <td> 
-    <p>新增：</p>
-   <ul><li><p>修改篩選器的貢獻者 </p></li>
-   <li><p>用於修改報告的標準</p></li> </ul>
-
-<p>目前：</p>
-   <ul><li><p>請求修改篩選器 </p></li>
-   <li><p>計畫修改報表</p></li> </ul></td> 
+   <p>修改篩選器的貢獻者或請求 </p>
+   <p>要修改報告的標準或計畫</p>
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -66,7 +59,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

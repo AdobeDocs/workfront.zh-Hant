@@ -1,21 +1,21 @@
 ---
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-slack
-title: 從 [!DNL Slack]中的共用連結存取 [!DNL Adobe Workfront] 物件
-description: 當您在Slack頻道中與您共用 [!DNL Adobe Workfront] 物件的連結時，安裝並設定 [!DNL Workfront] 進行Slack後，您可以在Slack中檢視有關這些連結的其他資訊。
+title: 從 [!DNL Adobe Workfront] 中的共用連結存取 [!DNL Slack]物件
+description: 當您在Slack頻道中與您共用 [!DNL Adobe Workfront] 物件的連結時，當您已安裝並針對Slack設定 [!DNL Workfront] 後，即可在Slack中檢視關於這些連結的其他資訊。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 587c6ac7-cc56-480f-852d-f0bd36b3f3cf
-source-git-commit: eeb90d8f80b1680d880d07f41e9d80c0658495fa
+source-git-commit: dc4b6dc284c59281206a457395765e634067ba91
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1107'
 ht-degree: 0%
 
 ---
 
-# 從[!DNL Slack]中的共用連結存取[!DNL Adobe Workfront]物件
+# 從[!DNL Adobe Workfront]中的共用連結存取[!DNL Slack]物件
 
-當您在[!DNL Slack]頻道中與[!DNL Adobe Workfront]物件的連結共用時，當您安裝並設定[!DNL Workfront for Slack]後，即可在[!DNL Slack]中檢視關於它們的其他資訊。
+當您在[!DNL Adobe Workfront]頻道中與[!DNL Slack]物件的連結共用時，當您安裝並設定[!DNL Slack]後，即可在[!DNL Workfront for Slack]中檢視關於它們的其他資訊。
 
 如需有關設定[!DNL Workfront for Slack]的詳細資訊，請參閱[設定 [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)。
 
@@ -25,24 +25,26 @@ ht-degree: 0%
 
 ## 存取需求
 
-您必須具有下列存取權才能使用本文所述的功能：
++++ 展開以檢視本文中功能的存取需求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
-   <td> <p>[!UICONTROL Pro]或更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[!UICONTROL 計畫]</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>任何</p>
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先決條件
 
@@ -55,7 +57,7 @@ ht-degree: 0%
 
 1. 登入您的[!DNL Slack]執行個體並登入[!DNL Workfront from Slack.]
 
-   如需有關從[!DNL Slack]登入[!DNL Workfront]的詳細資訊，請參閱[存取 [!DNL Adobe Workfront from Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)中的「登入[!DNL Workfront from Slack]」區段。
+   如需有關從[!DNL Workfront]登入[!DNL Slack]的詳細資訊，請參閱[!DNL Workfront from Slack]存取[中的「登入 [!DNL Adobe Workfront from Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)」區段。
 
 1. 導覽至包含[!DNL Workfront]專案連結的訊息。
 
@@ -70,7 +72,7 @@ ht-degree: 0%
 
    * **[!UICONTROL 計畫完成日期]**：如需計畫完成日期的詳細資訊，請參閱[設定專案計畫完成日期](../../manage-work/projects/planning-a-project/project-planned-completion-date.md)。
 
-   * **[!UICONTROL Portfolio]**&#x200B;名稱：如需投資組合的詳細資訊，請參閱Adobe Workfront中的[Portfolio概觀](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)。
+   * **[!UICONTROL Portfolio]**&#x200B;名稱：如需投資組合的詳細資訊，請參閱[瞭解投資組合方法](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)。
 
    * **[!UICONTROL 條件]**：如需有關專案條件的詳細資訊，請參閱[專案條件和條件型別的總覽](../../manage-work/projects/manage-projects/project-condition-and-condition-type.md)。
 
@@ -86,7 +88,7 @@ ht-degree: 0%
 
 1. 登入您的[!DNL Slack]執行個體並登入[!DNL Workfront from Slack]。
 
-   如需有關從[!DNL Slack]登入[!DNL Workfront]的詳細資訊，請參閱[存取 [!DNL Adobe Workfront from Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)中的「從[!DNL Slack]登入[!DNL Workfront]」區段。
+   如需有關從[!DNL Workfront]登入[!DNL Slack]的詳細資訊，請參閱[!DNL Workfront]存取[!DNL Slack]中的「從[登入 [!DNL Adobe Workfront from Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)」區段。
 
 1. 導覽至包含[!DNL Workfront]任務連結的訊息。
 
@@ -120,9 +122,9 @@ ht-degree: 0%
 
 ## 來自[!DNL Slack]的存取問題
 
-1. 登入您的[!DNL Slack]執行個體並從[!DNL Slack]登入[!DNL Workfront]。
+1. 登入您的[!DNL Slack]執行個體並從[!DNL Workfront]登入[!DNL Slack]。
 
-   如需有關從[!DNL Slack]登入Workfront的詳細資訊，請參閱[存取 [!DNL Adobe Workfront] 從 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)中的「從[!DNL Slack]登入[!DNL Workfront]」區段。
+   如需有關從[!DNL Slack]登入Workfront的詳細資訊，請參閱[!DNL Workfront]存取[!DNL Slack]從[中的「從 [!DNL Adobe Workfront] 登入 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)」區段。
 
 1. 導覽至包含[!DNL Workfront]問題連結的訊息。
 
@@ -151,9 +153,9 @@ ht-degree: 0%
 
 ## 從[!DNL Slack]存取投資組合
 
-1. 登入您的[!DNL Slack]執行個體並從[!DNL Slack]登入[!DNL Workfront]。
+1. 登入您的[!DNL Slack]執行個體並從[!DNL Workfront]登入[!DNL Slack]。
 
-   如需有關從[!DNL Slack]登入[!DNL Workfront]的詳細資訊，請參閱[Access [!DNL Adobe Workfront] from [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)中的「從[!DNL Slack]登入[!DNL Workfront]」區段。
+   如需有關從[!DNL Workfront]登入[!DNL Slack]的詳細資訊，請參閱[!DNL Workfront]Access[!DNL Slack]from[中的「從 [!DNL Adobe Workfront] 登入 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)」區段。
 
 1. 導覽至包含[!DNL Workfront]投資組合連結的訊息。
 
@@ -176,9 +178,9 @@ ht-degree: 0%
 
 ## 從[!DNL Slack]存取程式
 
-1. 登入您的[!DNL Slack]執行個體並從[!DNL Slack]登入[!DNL Workfront]。
+1. 登入您的[!DNL Slack]執行個體並從[!DNL Workfront]登入[!DNL Slack]。
 
-   如需有關從[!DNL Slack]登入[!DNL Workfront]的詳細資訊，請參閱[Access [!DNL Adobe Workfront] from [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)中的「從[!DNL Slack]登入[!DNL Workfront]」區段。
+   如需有關從[!DNL Workfront]登入[!DNL Slack]的詳細資訊，請參閱[!DNL Workfront]Access[!DNL Slack]from[中的「從 [!DNL Adobe Workfront] 登入 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)」區段。
 
 1. 導覽至包含[!DNL Workfront]方案連結的訊息。
 
@@ -197,9 +199,9 @@ ht-degree: 0%
 
 ## 從[!DNL Slack]存取報告
 
-1. 登入您的[!DNL Slack]執行個體並從[!DNL Slack]登入[!DNL Workfront]。
+1. 登入您的[!DNL Slack]執行個體並從[!DNL Workfront]登入[!DNL Slack]。
 
-   如需有關從[!DNL Slack]登入[!DNL Workfront]的詳細資訊，請參閱[Access [!DNL Adobe Workfront] from [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)中的「從[!DNL Slack]登入[!DNL Workfront]」區段。
+   如需有關從[!DNL Workfront]登入[!DNL Slack]的詳細資訊，請參閱[!DNL Workfront]Access[!DNL Slack]from[中的「從 [!DNL Adobe Workfront] 登入 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)」區段。
 
 1. 導覽至包含[!DNL Workfront]報告連結的訊息。
 

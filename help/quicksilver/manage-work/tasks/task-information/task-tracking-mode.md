@@ -7,10 +7,10 @@ description: 建立或編輯任務時，您可以調整任務的「追蹤模式�
 author: Alina
 feature: Work Management
 exl-id: 397b5593-ac01-40cf-b683-fcf671a53d26
-source-git-commit: d2836549ee3c615201ce5f3454258e9af31efa42
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '646'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 

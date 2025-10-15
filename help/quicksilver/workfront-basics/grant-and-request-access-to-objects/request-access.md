@@ -6,9 +6,9 @@ description: 您對Adobe Workfront中物件的可見性取決於您對該物件�
 author: Becky
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-source-git-commit: 18b96a6d57dc358bfe52e813bc98d8eb19f37dba
+source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
 workflow-type: tm+mt
-source-wordcount: '1338'
+source-wordcount: '1327'
 ht-degree: 1%
 
 ---
@@ -32,27 +32,24 @@ ht-degree: 1%
 
 如果您需要Workfront中特定物件的許可權，可以請求存取許可權。 與其傳送電子郵件給Workfront管理員或物件擁有者來說明您的需求，您可以在Workfront中要求額外的存取權（或許可權）。
 
-如果有人與您共享物件的連結，則可以請求對物件的初始訪問許可權，或者您可以請求對已具有檢視許可權的物件的其他訪問許可權。 例如，您可能有專案的檢視許可權，但您需要將任務新增至專案。 在這種情況下，您可以請求專案的Contribute許可權。
+如果有人與您共用物件的連結，您可以要求物件的初始存取權，或者您可以要求您已擁有物件檢視許可權的其他物件存取權。 例如，您可能有專案的檢視許可權，但您需要將任務新增至專案。 在此情況下，您可以要求專案的貢獻許可權。
 
 ## 存取需求
 
-+++ 展開以視圖本文中功能的訪問要求。
-
-您必須具備下列專案才能共用物件：
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td> <p>任何 </p> </td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：標準</p> 
-   <p>或</p>
-   <p>目前：工作或以上</p> 
+   <td> <p>標準</p> 
+   <p>工作或更高</p> 
    </td> 
   </tr> 
   <tr> 
@@ -62,7 +59,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -145,12 +142,12 @@ For example, if you do not have portfolio access, but you were given a link to a
 * 清單中的第一個使用者是物件「擁有者」，如[瞭解物件的擁有者](#understand-the-owner-of-an-object)中所述。
 * 然後清單會填入個別共用物件的使用者。 它們會依字母順序列出。
 * 然後使用者會進一步填入清單，透過與其團隊、群組或公司共用而獲得所需存取權。 它們會依字母順序列出。
-* 如果清單為空，則會新增Workfront管理員，以便始終有人員可向其請求存取權。 它們按字母順序列出。
-* 清單中的每個用戶都必須具有請求的物件訪問許可權和共用物件的訪問許可權。
+* 如果清單為空，則會新增Workfront管理員，以便始終有人員可向其請求存取權。 它們會依字母順序列出。
+* 清單中的每個使用者都必須擁有物件的請求存取權，以及共用物件的存取權。
 
-### 了解物件的所有者 {#understand-the-owner-of-an-object}
+### 瞭解物件的擁有者 {#understand-the-owner-of-an-object}
 
-物件的所有者定義如下：
+物件的擁有者定義如下：
 
 <table style="table-layout:auto"> 
  <col> 

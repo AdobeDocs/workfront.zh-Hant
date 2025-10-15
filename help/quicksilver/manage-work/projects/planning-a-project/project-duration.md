@@ -7,7 +7,7 @@ description: Adobe Workfront會考量最早任務的「開始日期」與最近�
 author: Alina
 feature: Work Management
 exl-id: b558eaad-669b-4079-b61a-07df227edfa2
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 0%

@@ -6,10 +6,10 @@ description: 您對時程表設定檔進行的變更對目前現有時程表而�
 author: Alina
 feature: Timesheets
 exl-id: c6a86c1b-8580-4896-8933-d4e2818e98ed
-source-git-commit: 210ca2e82286ff904bc7defb7b8c9c2559489d66
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 0%
+source-wordcount: '751'
+ht-degree: 1%
 
 ---
 
@@ -35,28 +35,32 @@ Adobe Workfront管理員或群組管理員可以為系統中的每個人產生�
 
 ## 存取需求
 
-您必須具備下列專案才能執行本文所述的步驟：
++++ 展開以檢視本文中功能的存取需求。
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- <col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td> <p>任何</p> </td> 
+   <td>Adobe Workfront套件</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>計劃 </p> </td> 
+   <td>Adobe Workfront授權</td> 
+   <td>
+   <p>標準</p>
+   <p>規劃</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>您必須擁有時程表的管理存取權。 </p> <p>如需詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予使用者對特定區域的管理存取權</a>。</p> <p>如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td>存取層級設定</td> 
+   <td><p>對時程表的管理存取權</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 刪除清單中的時程表
 
@@ -106,7 +110,7 @@ Adobe Workfront管理員或群組管理員可以為系統中的每個人產生�
 
    若要產生新時程表，請確保使用者與時程表設定檔相關聯，並要求Workfront管理員或群組管理員產生新時程表。
 
-   如需詳細資訊，請參閱下列內容：
+   如需詳細資訊，請參閱以下頁面:
 
    * [建立、編輯和指派週期性時程表](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)
    * [手動產生時程表](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)

@@ -6,9 +6,9 @@ description: 如果您已建立篩選器、檢視或分組或與您共用，則�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 422d262e-e19d-4070-85f1-77ecb7430342
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '801'
 ht-degree: 1%
 
 ---
@@ -21,46 +21,37 @@ ht-degree: 1%
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
-
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront計畫*</strong></td> 
-   <td> <p>任何 </p> </td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront授權*</strong></td> 
+   <td role="rowheader">Adobe Workfront授權</strong></td> 
    <td> 
-      <p>新增：</p>
-         <ul>
-         <li><p>投稿人或以上</p></li>
-         </ul>
-      <p>目前：</p>
-         <ul>
-         <li><p>要求或更高版本</p></li>
-         </ul>
+    <p>投稿人或以上</p>
+    <p>要求或更高版本</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>存取層級設定*</strong></td> 
-   <td><p>檢視或更高許可權存取篩選器、檢視、群組</p></td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>編輯對篩選器、檢視、群組的存取權</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td><p>檢視具有存取權的許可權，可共用您要移除的篩選器、檢視或群組</p>
+   <td role="rowheader">物件許可權</td> 
+    <td> <p>檢視具有存取權的許可權，可共用您要移除的篩選器、檢視或群組</p></td> 
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -130,5 +121,5 @@ ht-degree: 1%
    >
    >移除您建立而未與其他人共用的篩選器、檢視或群組，會將其從系統中移除，而不要求確認。
 
-1. 按一下&#x200B;**完成**。
+1. 按一下「**完成**」。
 

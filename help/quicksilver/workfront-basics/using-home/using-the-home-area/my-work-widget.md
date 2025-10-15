@@ -6,9 +6,9 @@ description: 「我的工作」Widget會集中顯示您所有指派的任務、�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: e110f0f6-4ecb-419b-a368-c3f802de5920
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '722'
 ht-degree: 4%
 
 ---
@@ -25,8 +25,6 @@ ht-degree: 4%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -34,19 +32,19 @@ ht-degree: 4%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權</strong></td> 
-   <td> <p>目前：Contribute</p>
-   <p>或</p> 
-   <p>新增：[!UICONTROL Light]或更高<p> 
+   <td> 
+      <p>淺色或更高</p>
+   <p>Contribute或更高版本</p>
   </td> 
-  </tr> </ul>
+  </tr>
   <tr> 
    <td role="rowheader"><strong>存取層級設定</strong></td> 
-   <td> <p>[!UICONTROL 檢視]或更高的專案、任務、問題和檔案存取權</p> </td> 
+   <td> <p>[！UICONTROL檢視]或更高的專案、任務、問題和檔案存取權</p> </td> 
   </tr>  
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
@@ -55,7 +53,7 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

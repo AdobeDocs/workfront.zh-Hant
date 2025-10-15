@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f97a12eb-9002-4f11-908a-c68c1e6dc9c9
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: 10780ff51d5b1d9d73cb0a6fb0982abc320b0313
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1241'
 ht-degree: 1%
 
 ---
@@ -25,34 +25,31 @@ ht-degree: 1%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td>任何</td> 
+   <td>Adobe Workfront套件</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td>
-   <td><p>新增：標準</p>
-       <p>或</p>
-       <p>目前：計畫</p></td>
-  <tr> 
-   <td role="rowheader">存取層級設定</td> 
+   <td>Adobe Workfront授權</td> 
+   <td><p>標準</p>
+       <p>規劃</p></td>
+  </tr>
+  <tr>
+   <td>存取層級設定</td> 
    <td>您必須是群組的群組管理員或系統管理員。</td>
   </tr>
   <tr> 
-   <td role="rowheader">物件許可權</td>
+   <td>物件許可權</td>
    <td>檢視您要檢視及使用之範本的存取許可權或以上版本</td> 
-  </tr> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -89,7 +86,7 @@ ht-degree: 1%
       <td role="rowheader">共用一或多個範本</td> 
       <td> <p>請至少選取一個範本，按一下「共用」圖示<img src="assets/share-icon.png">，然後在下拉式功能表中按一下下列其中一個選項：</p> 
        <ul> 
-        <li> <p><strong>範本</strong>：在顯示的<strong>範本存取</strong>方塊中，新增名稱以指定您想要存取範本本身的人員。</p> <p>如需詳細資訊，請參閱文章<a href="../../../manage-work/projects/create-and-manage-templates/share-project-template.md" class="MCXref xref">共用專案範本</a>中的<a href="../../../manage-work/projects/create-and-manage-templates/share-project-template.md#share" class="MCXref xref">共用範本</a>一節。</p> </li> 
+        <li> <p><strong>範本</strong>：在顯示的<strong>範本存取</strong>方塊中，新增名稱以指定您想要存取範本本身的人員。</p> <p>如需詳細資訊，請參閱文章<a href="../../../manage-work/projects/create-and-manage-templates/share-project-template.md#share" class="MCXref xref">共用專案範本</a>中的<a href="../../../manage-work/projects/create-and-manage-templates/share-project-template.md" class="MCXref xref">共用範本</a>一節。</p> </li> 
         <li><strong>專案</strong>：在顯示的<strong>專案存取權</strong>方塊中，新增名稱以指定您希望誰能存取使用範本建立的專案</li> 
        </ul> <p>「共用」圖示僅在您擁有所有所選範本的「共用」存取權時可用。 如需關於此存取許可權的資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">授予範本存取許可權</a>。</p> </td> 
      </tr> 
@@ -169,7 +166,7 @@ ht-degree: 1%
 >   * 收入類型
 >   * 成本類型
 >
->  但是，新範本上的「將某人指派給任務時」設定會影響範本任務。 如需詳細資訊，請參閱文章[編輯專案範本](../../../manage-work/projects/create-and-manage-templates/edit-templates.md)中的[存取](../../../manage-work/projects/create-and-manage-templates/edit-templates.md#access)一節。
+>  但是，新範本上的「將某人指派給任務時」設定會影響範本任務。 如需詳細資訊，請參閱文章[編輯專案範本](../../../manage-work/projects/create-and-manage-templates/edit-templates.md#access)中的[存取](../../../manage-work/projects/create-and-manage-templates/edit-templates.md)一節。
 >
 >* 當管理員將專案另存為範本時，範本的所有設定都會繼承自專案，包括群組。
 >

@@ -7,7 +7,7 @@ description: 您可以為專案指定專案所有者和專案贊助者。
 author: Alina
 feature: Work Management
 exl-id: e3e8be3f-105f-4702-8c93-ae8092f5d5d3
-source-git-commit: 111c776af19fbc2982c14cc9d3b3778d37bc0be3
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
 source-wordcount: '562'
 ht-degree: 0%
@@ -46,13 +46,13 @@ ht-degree: 0%
 
 * 您可以啟用只傳送給專案所有者的某些通知。
 
-  如需電子郵件通知的詳細資訊，請參閱[設定系統中每個人的事件通知](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)一文中的[設定系統中每個人的事件通知](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md#modify)一節。
+  如需電子郵件通知的詳細資訊，請參閱[設定系統中每個人的事件通知](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md#modify)一文中的[設定系統中每個人的事件通知](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)一節。
 
 * 您可以在報告或清單中顯示「專案所有者」欄位。
 
   您也可以在檢視、分組或提示中顯示「專案所有者」欄位。
 
-  例如，您可以將下列文字模式運算式複製到篩選中，以顯示登入使用者擁有的專案： 
+  例如，您可以將下列文字模式運算式複製到篩選中，以顯示登入使用者擁有的專案：
 
   ```
   ownerID=$$USER.ID
@@ -63,13 +63,13 @@ ht-degree: 0%
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Update the Project Owner of a project</h2>
-<p>(NOTE:&nbsp;drafted and moved to its own article)</p>
+<p>(NOTE: drafted and moved to its own article)</p>
 <ol>
 <li value="1">Go to the project you want to update.</li>
 <li value="2"> Click <strong>Project Details</strong> in the left panel. </li>
-<li value="3"> Click&nbsp;the <strong>Edit</strong> icon <img src="assets/qs-edit-icon.png"> in the upper-right corner of the Project&nbsp;Details area, then click&nbsp;<strong>Overview</strong>.  </li>
+<li value="3"> Click the <strong>Edit</strong> icon <img src="assets/qs-edit-icon.png"> in the upper-right corner of the Project Details area, then click <strong>Overview</strong>.  </li>
 <li value="4"> <p>Specify the name of a user for the <strong>Project Owner</strong> field.</p> <p>Only active users can be specified as Project Owners.</p> </li>
-<li value="5"> Click&nbsp;<strong>Save Changes</strong>. </li>
+<li value="5"> Click <strong>Save Changes</strong>. </li>
 </ol>
 </div>
 -->
@@ -99,7 +99,7 @@ ht-degree: 0%
   sponsorID=$$USER.ID
   ```
 
-   
+
 
   如需有關建立報告的詳細資訊，請參閱文章[建立自訂報告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
@@ -110,9 +110,9 @@ ht-degree: 0%
 <ol>
 <li value="1">Go to the Project you want to update.</li>
 <li value="2"> Click <strong>Project Details</strong> in the left panel. </li>
-<li value="3"> Click&nbsp;the <strong>Edit</strong> icon <img src="assets/qs-edit-icon.png"> in the upper-right corner of the Project&nbsp;Details area, then click&nbsp;<strong>Overview</strong>.  </li>
+<li value="3"> Click the <strong>Edit</strong> icon <img src="assets/qs-edit-icon.png"> in the upper-right corner of the Project Details area, then click <strong>Overview</strong>.  </li>
 <li value="4"> <p>Specify the name of a user for the <strong>Project Sponsor</strong> field.</p> <p>Only active users can be specified as Project Sponsors.</p> </li>
-<li value="5"> Click&nbsp;<strong>Save Changes</strong>. </li>
+<li value="5"> Click <strong>Save Changes</strong>. </li>
 </ol>
 </div>
 -->

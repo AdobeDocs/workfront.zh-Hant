@@ -7,16 +7,16 @@ description: 可解析物件是其解析繫結至解析物件的問題。 解決
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '1761'
+source-wordcount: '1760'
 ht-degree: 1%
 
 ---
 
 # 解析與可解析物件的概觀
 
-<!-- Audited: 5/2025 -->
+<!-- Audited: 08/2025 -->
 
 可解析物件是其解析繫結至解析物件的問題。 解決物件是專案、任務或其他問題。
 

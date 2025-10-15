@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront中將檔案新增到多個區域中的�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: a69193eb7a98949222f71561b44d8fecea4dd496
+source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '715'
 ht-degree: 1%
 
 ---
@@ -31,28 +31,28 @@ ht-degree: 1%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具備下列條件：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p> 任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>要求或更高版本</p> </td> 
+   <td> 
+   <p>投稿人或以上</p> 
+   <p>要求或更高版本</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯檔案的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>編輯檔案的存取權</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -85,7 +85,7 @@ ht-degree: 1%
        <ol> 
         <li value="1">從<strong>新增</strong>下拉式功能表中，選取<strong>檔案。</strong></li> 
         <li value="2"> <p>瀏覽並選取您要從工作站上的檔案系統新增的檔案。<br></p> <p>當您選取其他檔案時，可以按住Shift鍵來選取多個檔案。</p> </li> 
-        <li value="3">按一下<strong>開啟</strong>。</li> 
+        <li value="3">按一下<strong>「開啟」</strong>。</li> 
        </ol> 
        <p><b>注意</b>：您也可以直接從檔案管理員將檔案拖放至檔案清單中。</td> 
      </tr> 

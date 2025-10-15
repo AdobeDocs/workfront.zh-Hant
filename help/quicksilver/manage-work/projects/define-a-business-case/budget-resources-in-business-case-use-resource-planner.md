@@ -2,12 +2,12 @@
 navigation-topic: business-case-and-scorecards
 title: 使用資源規劃工具在業務案例中預算資源
 description: 作為資源計畫的一部份，當您建立業務案例時，可以使用專案層次的資源規劃工具來編列完成專案中工作所需的職務角色預算。
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
+source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
 workflow-type: tm+mt
-source-wordcount: '1224'
+source-wordcount: '1206'
 ht-degree: 0%
 
 ---
@@ -35,19 +35,17 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront計畫*</p></td> 
-   <td> <p>目前：Prime或更新版本</p>
-   <p>舊版：Pro或更高版本</p> 
+   <td role="rowheader"><p>Adobe Workfront計畫</p></td> 
+   <td> <p>Prime或更新版本</p>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront授權*</p></td> 
-   <td> <p>目前：淺色或更高</p>
-   <p>舊版：檢閱或更高版本</p>
+   <td role="rowheader"><p>Adobe Workfront授權</p></td> 
+   <td> <p>淺色或更高</p>
+   <p>評論或以上</p>
 
 <p><b>重要：</b></p> 
-   <p>目前：您必須擁有標準授權，才能修改資源預算資訊。 </p> 
-   <p>舊版：您必須擁有計畫授權，才能修改資源預算資訊。 </p>
+   <p>您必須有「標準」或「計畫」授權，才能修改資源預算資訊。 </p> 
    </td> 
   </tr> 
   <tr> 
@@ -66,7 +64,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

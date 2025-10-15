@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: a0b635953245cf307b558d343ad234a27c96da94
+source-git-commit: d0be569333b0454e26f4d0de1078b0425cf81707
 workflow-type: tm+mt
-source-wordcount: '1836'
+source-wordcount: '1814'
 ht-degree: 1%
 
 ---
@@ -52,35 +52,33 @@ ht-degree: 1%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td>Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：標準</p>
-   <p>目前：工作或以上</p>
+   <td>Adobe Workfront授權</td> 
+   <td> <p>標準</p>
+   <p>工作或更高</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
+   <td>存取層級設定</td> 
    <td> <p>編輯專案和任務的存取權</p> <p>檢視或更高的使用者存取權</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件許可權</td> 
-   <td>貢獻或更高的任務許可權</td> 
-  </tr> 
- </tbody> 
+   <td>物件許可權</td>
+   <td>貢獻或更高的任務許可權</td>
+  </tr>
+ </tbody>
 </table>
 
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 +++
 
 ## 對工作角色、團隊和使用者的多個指派的考量事項
@@ -256,7 +254,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 1. （選擇性）如果要從所有工作移除現有的受指派人，請執行下列任一項作業：
 
    1. 開始輸入您要從任務中移除的使用者、角色或團隊名稱，然後當名稱出現在清單中時選取名稱，並按一下&#x200B;**移除受指派人**&#x200B;以移除更多受指派人。
-   1. 按一下「移除所有現有受指派人」**&#x200B;**，從所有選取的工作中移除所有受指派人。
+   1. 按一下「移除所有現有受指派人」****，從所有選取的工作中移除所有受指派人。
 
 1. 按一下「**儲存變更**」。
 1. （選擇性和條件性）當「指派至」或「工作總攬」欄位顯示在您的任務清單中時，按一下這些欄中的一個以取得任務，然後按一下受指派人名稱旁的&#x200B;**X圖示**，以將其從任務中移除。

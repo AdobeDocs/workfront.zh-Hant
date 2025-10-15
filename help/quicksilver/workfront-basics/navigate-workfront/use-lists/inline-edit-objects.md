@@ -6,9 +6,9 @@ description: 當物件顯示在清單或報表中時，您可以內嵌編輯物�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: a94b5aaf-71de-4fcd-946b-459ca3edf7e4
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '696'
 ht-degree: 0%
 
 ---
@@ -31,47 +31,41 @@ ht-degree: 0%
   例如，您可以在「任務」報告中編輯任務的狀態，但無法在同一報告中編輯與任務相關聯的專案名稱。 您只能在專案報告中編輯專案名稱。
 * 當清單的檢視未顯示預設貨幣時，您無法內聯編輯欄位。
 
-  如需有關顯示預設貨幣的資訊，請參閱[建立具有唯一匯率的財務資料報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md)一文中的[使用唯一貨幣編輯報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md#editing-reports-with-unique-currencies)一節。
+  如需有關顯示預設貨幣的資訊，請參閱[建立具有唯一匯率的財務資料報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md#editing-reports-with-unique-currencies)一文中的[使用唯一貨幣編輯報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md)一節。
 * 您無法編輯清單中顯示的旗標和圖示。
 * 您無法內聯編輯源自其他報表的報表欄位。
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
-
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
    <td> 
-    <p>新增：</p>
-   <ul><li><p>投稿人或以上 </p></li>
-   </ul>
-
-<p>目前：</p>
-   <ul><li><p>要求或更高版本</p></li>
-    </ul></td> 
+   <p>投稿人或以上 </p>
+   <p>要求或更高版本</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[!UICONTROL Edit]清單所在區域的存取權</p> <p>例如，若要內聯編輯專案中的任務，您需要[!UICONTROL Edit]專案存取權。</p></td> 
+   <td> <p>[！UICONTROL Edit]清單所在區域的存取權</p> <p>例如，若要內聯編輯專案中的任務，您需要[！UICONTROL Edit]專案存取權。</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>[!UICONTROL 管理]</p> <p>您也必須有權編輯特定欄位，例如自訂欄位、狀態等。</p>  </td> 
+   <td> <p>[！UICONTROL管理]</p> <p>您也必須有權編輯特定欄位，例如自訂欄位、狀態等。</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

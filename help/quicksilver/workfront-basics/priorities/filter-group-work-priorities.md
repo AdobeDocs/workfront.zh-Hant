@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '651'
 ht-degree: 4%
 
 ---
@@ -32,14 +32,14 @@ ht-degree: 4%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront計畫</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront套件</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront授權*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront授權</strong></td> 
    <td> 
-   <p>目前：要求或以上</p>
-   <p>新增：投稿人或更高版本</p> 
+   <p>要求或更高版本</p>
+   <p>投稿人或以上</p> 
    </td> 
   </tr> 
   <tr> 
@@ -64,8 +64,8 @@ ht-degree: 4%
 {{step1-to-priorities}}
 
 1. 按一下工作清單左上角的&#x200B;**篩選器**。
-1. 在&#x200B;**標準篩選器**&#x200B;區段中，選取一或多個篩選器以縮小您的工作專案範圍。
-   ![篩選器](assets/filter-new.png)
+1. 在&#x200B;**標準篩選器**區段中，選取一或多個篩選器以縮小您的工作專案範圍。
+   ![篩選](assets/filter-new.png)
 
 +++展開以檢視有關可用篩選器的詳細資訊
 <table>
@@ -173,7 +173,7 @@ ht-degree: 4%
 按「我的優先順序」或「狀態」分組時，您可以在類別之間拖放個別工作專案。
 
 1. 依&#x200B;**狀態**&#x200B;或&#x200B;**我的優先順序**&#x200B;將您的工作分組。
-2. 將滑鼠停留在工作專案上，按一下&#x200B;**拖曳**&#x200B;圖示並將其移至所需類別。
+2. 將滑鼠停留在工作專案上，按一下&#x200B;**拖曳**圖示並將其移至所需類別。
    ![拖曳圖示](assets/drag-and-drop.png)
 
 ## 排序您的工作

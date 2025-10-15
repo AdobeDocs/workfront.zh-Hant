@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: e153ccb40112688769a3c6b706a2b23f1f084021
+source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '828'
 ht-degree: 1%
 
 ---
@@ -43,31 +43,29 @@ ht-degree: 1%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td>任何</td> 
+   <td>Adobe Workfront套件</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td><p>新增：標準</p>
-  <p> 目前：計畫</p>
-   </td> 
+   <td>Adobe Workfront授權</td> 
+   <td><p>標準</p>
+       <p>規劃</p></td>
+  </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
-   <td> <p>若要在系統層級執行這些步驟，您需要系統管理員存取層級。
-若要為群組執行這些動作，您必須是該群組的管理員。</p> </td> 
+   <td>存取層級設定</td> 
+   <td> <p>若要在系統層級執行這些步驟，您需要系統管理員存取層級。</p>
+        <p>若要為群組執行這些動作，您必須是該群組的管理員。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -136,11 +134,11 @@ ht-degree: 1%
    >
    >* 「篩選」、「欄」和「群組」選項連結到「版面配置範本」中的清單自訂選項。 此處所做的變更也將套用至這些設定。
    >* 使用者必須至少具有對檢視的建立存取權，管理員資料行設定才能正確套用至其首頁。
-   ></p>
-   >   <li><p>將游標移至選項上，然後按一下<b>設定為預設</b>，以設定Widget的預設篩選或群組。 目前的預設在其右側顯示藍色<b>預設</b>徽章。</p></li>
-   >   <li><p>按一下每個清單底部的加號按鈕，將現有的篩選、欄或群組新增至可用選項清單，即可將選項新增至該清單。 請注意，只有現有的篩選器、欄位（用於欄）或群組可以這種方式新增。</p></li>
-   >   </ul>
-   >   <p>
+   </p>
+      <li><p>將游標移至選項上，然後按一下<b>設定為預設</b>，以設定Widget的預設篩選或群組。 目前的預設在其右側顯示藍色<b>預設</b>徽章。</p></li>
+      <li><p>按一下每個清單底部的加號按鈕，將現有的篩選、欄或群組新增至可用選項清單，即可將選項新增至該清單。 請注意，只有現有的篩選器、欄位（用於欄）或群組可以這種方式新增。</p></li>
+      </ul>
+      <p>
 
    >[!NOTE]
    >

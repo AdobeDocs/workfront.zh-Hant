@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 63aa5e45-e51d-4049-a5d9-18dfaaa79647
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 985f1aa11ad1d5efc8d043907d60ad5f5c1bba13
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '589'
 ht-degree: 2%
 
 ---
@@ -23,28 +23,21 @@ ht-degree: 2%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> 
-   <p>新增：任何 </p>
-   <p>目前：Pro或更高</p>
+   <p>任何</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td> 
-      <p><strong>上傳文件</strong></p>
-   <p>新增：投稿人</p>
-   <p>目前：要求</p>
-      <p><strong>建立校樣</strong></p>
-        <p>新增：標準</p>
-     <p>目前：工作或計畫</p>
+   <p>投稿人或以上版本可上傳檔案；以標準方式建立校樣</p>
+   <p>請求或更高版本上傳檔案；工作或更高版本建立校樣</p>
    </td> 
   </tr> 
   <tr> 
@@ -52,7 +45,7 @@ ht-degree: 2%
    <td>經理或以上</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
+   <td role="rowheader">存取層級設定</td> 
    <td> <p>編輯檔案的存取權</p> </td> 
   </tr> 
  </tbody> 
@@ -76,7 +69,7 @@ ht-degree: 2%
 1. 按一下&#x200B;**上傳檔案**&#x200B;圖示![上傳檔案圖示](assets/upload-file-icon.png)。
 1. 拖放檔案，或按Cmd/Ctrl + V從剪貼簿貼上
 或
-按一下&#x200B;**新增檔案**&#x200B;以瀏覽檔案或從Document Cloud提供者匯入檔案。
+按一下**新增檔案**以瀏覽檔案或從Document Cloud提供者匯入檔案。
    ![新增檔案](assets/add-files.png)
 1. （選用）新增註解。
 1. （選用）新增更多檔案。
@@ -95,7 +88,7 @@ ht-degree: 2%
 1. 按一下右上角的&#x200B;**上傳檔案**，然後選取&#x200B;**檔案**。
 1. 拖放檔案，或按Cmd/Ctrl + V從剪貼簿貼上
 或
-按一下&#x200B;**新增檔案**&#x200B;以瀏覽檔案或從Document Cloud提供者匯入檔案。
+按一下**新增檔案**以瀏覽檔案或從Document Cloud提供者匯入檔案。
    ![新增檔案](assets/add-files.png)
 1. （選用）新增註解。
 1. （選用）新增更多檔案。

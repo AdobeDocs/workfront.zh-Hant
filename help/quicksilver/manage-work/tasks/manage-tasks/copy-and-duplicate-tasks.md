@@ -6,9 +6,9 @@ description: 您可以將一個專案中的任務複製到另一個專案，也�
 author: Alina
 feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
-source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '1736'
+source-wordcount: '1679'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,38 @@ ht-degree: 1%
 
 ## 存取需求
 
-<!-- drafted for P&P:
++++ 展開以檢視本文中功能的存取需求。 
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>任何</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>標準</p> 
+   <p>工作或更高</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>編輯任務與專案的存取權</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>管理任務的許可權</p> <p>貢獻專案或更高的許可權</p> 
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -49,37 +80,7 @@ ht-degree: 1%
    <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
--->
-
-您必須具有下列存取權才能執行本文中的步驟：
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
-   <td> <p>任何</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>工作或更高 </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯任務與專案的存取權</p> <p><b>附註</b>
-
-如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td>
-</tr> 
-  <tr> 
-   <td role="rowheader">物件許可權</td> 
-   <td> <p>管理任務的許可權 </p> <p>Contribute或更高的專案許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+</table>-->
 
 ## 複製任務的考量事項
 
@@ -295,10 +296,10 @@ ht-degree: 1%
 
    * （視條件而定）按一下&#x200B;**計畫模式**&#x200B;圖示![](assets/qs-list-mode-or-save-mode-icon-small.png) > **手動儲存** > **標準**&#x200B;或&#x200B;**時間表計畫**，然後執行下列動作：
 
-      1. 選取要複製的一個或多個任務，然後按一下[複製]。**&#x200B;**
+      1. 選取要複製的一個或多個任務，然後按一下[複製]。****
       1. （選擇性）按一下&#x200B;**還原**&#x200B;以迴轉您的變更，並且不複製工作。
       1. （選擇性和條件性）如果您先前已按一下&#x200B;**復原**，請按一下&#x200B;**重做**&#x200B;以保留變更並複製工作。
 
-      1. 按一下[儲存]儲存變更。**&#x200B;**
+      1. 按一下[儲存]儲存變更。****
 
          任務會重複，並新增到與原始任務相同的專案。

@@ -6,9 +6,9 @@ description: 您可以編輯專案範本，以反映未來專案的程式與設�
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: ea0ae13abe9373bef7a1d146ca1951c8c383f994
+source-git-commit: 00e693fc8b35a59f6ed212bc30da7f85cc78c845
 workflow-type: tm+mt
-source-wordcount: '5674'
+source-wordcount: '5672'
 ht-degree: 2%
 
 ---
@@ -48,27 +48,25 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td> <p>任何 </p> </td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
    <td>
-      <p>新增：標準</p>
-      <p>或</p>
-      <p>目前：計畫</p>
+      <p>標準</p>
+      <p>規劃</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級</td> 
+   <td role="rowheader">存取層級設定</td> 
    <td> <p>編輯範本的存取權</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
    <td> 
-    <ul> 
-     <li> <p>貢獻範本的許可權以在「範本詳細資訊」索引標籤中進行編輯</p> </li> 
-     <li> <p>管理範本的許可權，以在「編輯範本」方塊中編輯範本</p> </li> 
+    <p>貢獻範本的許可權以在「範本詳細資訊」索引標籤中進行編輯</p> 
+     <p>管理範本的許可權，以在「編輯範本」方塊中編輯範本</p>
    </td> 
   </tr> 
  </tbody> 
@@ -77,6 +75,39 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 *如需此表格中資訊的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront licenses*</td> 
+   <td>
+      <p>New: Standard</p>
+      <p>Or</p>
+      <p>Current: Plan</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>Edit access to Templates</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> 
+    <ul> 
+     <li> <p>Contribute permissions to a template to edit it in the Template Details tab</p> </li> 
+     <li> <p>Manage permissions to a template to edit it in the Edit Template box</p> </li> 
+   </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 編輯範本 {#edit-a-template}
 
@@ -352,7 +383,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 1. （選用）更新自訂表單上任何欄位中的資訊。 此資訊將會傳輸至將使用範本建立的專案。
 
-1. （選擇性）按一下自訂表單名稱右邊的&#x200B;**x**&#x200B;圖示，然後按一下[移除]&#x200B;**&#x200B;**&#x200B;以從範本中移除它。
+1. （選擇性）按一下自訂表單名稱右邊的&#x200B;**x**&#x200B;圖示，然後按一下[移除]****&#x200B;以從範本中移除它。
 
 1. （選擇性）根據您要修改的資訊，繼續編輯下列區段。
 
@@ -639,7 +670,7 @@ For instructions on editing Linked folders, see [Edit workflow values in a proje
 1. 在&#x200B;**編輯範本**&#x200B;方塊中，按一下&#x200B;**註解**。
 
    ![編輯範本方塊註解區段](assets/edit-template-box-comment-section.png)
-1. 新增您正在進行之更新的相關註解、標籤其他使用者，或選取&#x200B;**我的公司私有**&#x200B;方塊，讓貴公司的使用者無法存取更新，然後按一下[儲存]。**&#x200B;**
+1. 新增您正在進行之更新的相關註解、標籤其他使用者，或選取&#x200B;**我的公司私有**&#x200B;方塊，讓貴公司的使用者無法存取更新，然後按一下[儲存]。****
 
    >[!TIP]
    >

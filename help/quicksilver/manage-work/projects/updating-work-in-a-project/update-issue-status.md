@@ -6,9 +6,9 @@ description: 您可以更新問題的狀態，以通知其他人該問題的位�
 author: Alina
 feature: Work Management
 exl-id: 6e09dfcf-dceb-4f33-9592-0769283369c7
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '629'
 ht-degree: 3%
 
 ---
@@ -21,23 +21,20 @@ ht-degree: 3%
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
-
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>新增：投稿人或更高版本</p>
-   或
-   <p>目前：要求或以上</p>
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>投稿人或以上</p>
+   <p>要求或更高版本</p>
    </td> 
   </tr> 
   <tr> 
@@ -54,6 +51,34 @@ ht-degree: 3%
 *如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>New: Contributor or higher</p>
+   Or
+   <p>Current: Request or higher</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Issues</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to the issue</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 問題狀態
 

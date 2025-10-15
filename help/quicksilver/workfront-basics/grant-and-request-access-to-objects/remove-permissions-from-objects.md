@@ -6,9 +6,9 @@ description: 您可以移除其他使用者對您有權共用之物件的許可�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 8e191b5e-31df-4291-8b9d-9ca69be27561
-source-git-commit: ce7b475dbd11f9cfd7fcf9879c0f34bf993f9113
+source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -19,35 +19,25 @@ ht-degree: 0%
 
 您可以移除其他使用者對您有權共用之物件的許可權。 從物件中移除許可權對於所有可共用的物件來說都是相同的。
 
-與共用物件類似的考量適用於從物件移除許可權。 如需詳細資訊，請參閱文章[共用物件許可權總覽](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)中的[共用物件的考量事項](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#consider)一節
+與共用物件類似的考量適用於從物件移除許可權。 如需詳細資訊，請參閱文章[共用物件許可權總覽](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#consider)中的[共用物件的考量事項](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)一節
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
-
-
-您必須具備下列專案才能共用物件：
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Workfront授權*</td> 
-   <td> <p>新授權：投稿人或以上版本</p>
-   或  
-   <p>目前授權：要求或以上</p>
-   <p><b>附註</b></p>
-
-<p>某些物件需要比請求更高的存取權。 </p>
-
-<p>例如，對於新授權，貢獻者可以共用問題，但只有Standard授權使用者可以共用專案。</p>
-
-<p>就目前的授權而言，請求者可以共用問題，但只有工作或計畫人員可以共用專案。</p> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>投稿人或以上</p> 
+   <p>要求或更高版本</p>
+   <p><strong>注意</strong>：某些物件需要比要求更高的存取許可權。</p>
    </td> 
   </tr> 
   <tr> 
@@ -57,11 +47,11 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">物件許可權</td> 
    <td> <p>檢視您要共用之物件的許可權或更高的許可權</p> <p>管理移除物件繼承許可權的許可權</p>  </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。 如需詳細資訊，請參閱[Workfront檔案的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -92,7 +82,7 @@ ht-degree: 0%
       ![共用](assets/new-share-button.png)
    1. 尋找要從物件中移除的使用者、角色、團隊、群組或公司。
    1. 按一下&#x200B;**移除**。
-在&#x200B;**「從**&#x200B;移除&lt;使用者名稱>」下拉式功能表中，選取是否要從選取的物件移除其存取權，或是從與其關聯的所有子物件移除其存取權。
+在**「從**&#x200B;移除&lt;使用者名稱>」下拉式功能表中，選取是否要從選取的物件移除其存取權，或是從與其關聯的所有子物件移除其存取權。
 
       ![移除](assets/remove-permissions-on-project-nwe-350x479.png)
 

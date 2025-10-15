@@ -6,9 +6,9 @@ description: 「我的最愛」功能表可讓您快速存取專案。 專案會
 feature: Get Started with Workfront
 author: Courtney
 exl-id: bf9dc447-751c-4802-9e6a-ecd31538dba4
-source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
+source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,6 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -32,15 +30,14 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
    <td> <p>
-      <p>新增：投稿人或更高版本<p>
-      <p>或</p>
-      <p>目前：要求或以上</p> </td> 
+      <p>投稿人或以上<p>
+      <p>要求或更高版本</td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,7 +50,7 @@ ht-degree: 0%
 
 若要檢視您先前新增為最愛的專案：
 
-1. 按一下任何[!DNL Adobe Workfront]頁面右上角的&#x200B;**[!UICONTROL 我的最愛]**&#x200B;圖示![我的最愛圖示](assets/favorites-icon.png)。
+1. 按一下任何&#x200B;**[!UICONTROL 頁面右上角的]**&#x200B;我的最愛![圖示](assets/favorites-icon.png)我的最愛圖示[!DNL Adobe Workfront]。
 
 1. 在&#x200B;**我的最愛**&#x200B;清單中，按一下您要檢視的專案。
 
@@ -66,7 +63,7 @@ ht-degree: 0%
 
 ### 將最近的專案新增為我的最愛
 
-1. 按一下新[!DNL Adobe Workfront]體驗中任何頁面右上角的&#x200B;**[!UICONTROL 最近]**&#x200B;圖示![最近](assets/recents-icon-40x43.png)。
+1. 按一下新&#x200B;**[!UICONTROL 體驗中任何頁面右上角的]**&#x200B;最近![圖示](assets/recents-icon-40x43.png)最近[!DNL Adobe Workfront]。
 1. 按一下要儲存為最愛之專案的內嵌星號。 最近的專案會顯示在&#x200B;**我的最愛**&#x200B;功能表中。
 
    ![最愛最近專案](assets/recents-section.png)
@@ -85,7 +82,7 @@ ht-degree: 0%
 
 ## 從[!UICONTROL 我的最愛]功能表中移除專案
 
-1. 按一下任何[!DNL Workfront]頁面右上角的&#x200B;**[!UICONTROL 我的最愛]**&#x200B;圖示![我的最愛圖示](assets/favorites-icon.png)。
+1. 按一下任何&#x200B;**[!UICONTROL 頁面右上角的]**&#x200B;我的最愛![圖示](assets/favorites-icon.png)我的最愛圖示[!DNL Workfront]。
 
 1. 暫留在您要移除作為我的最愛的專案上，然後按一下它旁邊的&#x200B;**X**。
 

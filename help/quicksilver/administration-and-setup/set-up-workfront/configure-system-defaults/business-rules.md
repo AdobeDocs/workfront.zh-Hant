@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 1cf16fd93de383aae66ba810ad85dd00806b8237
+source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1323'
 ht-degree: 2%
 
 ---
@@ -35,15 +35,16 @@ ht-degree: 2%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr> 
-   <td>Adobe Workfront計畫</td> 
-   <td>Ultimate</td> 
+  <tr>
+   <td>Adobe Workfront套件
+   </td>
+   <td> <p>Ultimate</p>
+    <p>Workflow Ultimate</p>
+   </td>
   </tr> 
   <tr> 
    <td>Adobe Workfront授權</td> 
@@ -56,7 +57,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -122,7 +123,7 @@ IF(
 
 1. 按一下左側面板中的&#x200B;**商業規則**。
 1. 按一下&#x200B;**新商業規則**。
-1. 選取要指派商業規則的物件型別，然後按一下[繼續]。**&#x200B;**
+1. 選取要指派商業規則的物件型別，然後按一下[繼續]。****
 
    ![選取物件](assets/object-for-business-rule3.png)
 
@@ -131,7 +132,7 @@ IF(
    * 專案
    * 任務
    * 問題/請求
-   * 專案組合
+   * 產品組合
    * 文件
    * 方案
    * 費用
@@ -145,7 +146,7 @@ IF(
    * 職務角色
    * 資源集區
    * 休假
-   * 時數
+   * Hour
    * 範本
 
 1. 在規則產生器對話方塊中輸入商業規則的&#x200B;**名稱**。
@@ -187,7 +188,7 @@ IF(
 
    可用欄位清單僅限於與商業規則物件型別相關的欄位。
 
-1. 當您完成建立商業規則時，請按一下[儲存]。**&#x200B;**
+1. 當您完成建立商業規則時，請按一下[儲存]。****
 
 >[!NOTE]
 >

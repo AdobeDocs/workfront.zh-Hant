@@ -6,9 +6,9 @@ description: 透過Adobe Experience Cloud存取 [!DNL Workfront] 可讓您以順
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: a25eb28800ca8bbeeffedb521b3d72c8df71c697
+source-git-commit: 29083931a4910c99027edb856ab200c8a4345679
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '683'
 ht-degree: 0%
 
 ---
@@ -30,25 +30,23 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。 
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計畫*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront套件</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>新增：[!UICONTROL Contributor]或以上</p> 
-   <p>目前： [!UICONTROL Request]或以上</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront授權</strong></td> 
+   <td> <p>投稿人或以上</p> 
+   <p>要求或更高版本</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

@@ -6,9 +6,9 @@ description: 在Adobe Workfront物件上提供更新註解時，專案上的所�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '955'
 ht-degree: 0%
 
 ---
@@ -57,35 +57,65 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。 
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront計畫</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront套件</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront授權*</strong></td> 
-   <td> <p>新增：問題和檔案的貢獻者或更高；所有其他物件的淺色或更高</p>
-   <p>目前：問題與檔案的要求或更高；所有其他物件的檢閱或更高</p> </td> 
-  </tr> 
-  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront授權</strong></td> 
+   <td> <p>對於問題和檔案：</p>
+
+<ul><li><p>投稿人或以上</p></li>
+   <li><p>要求或更高版本</p></li></ul>
+
+<p>對於所有其他物件：</p>
+   <ul><li><p>淺色或更高</p></li>
+   <li><p>評論或以上</p></li></ul>
+
+</td>  
+  </tr>
    <td role="rowheader"><strong>存取層級設定</strong></td> 
-   <td> <p>檢視您想要張貼回覆之物件的存取權或更高的存取權</p> </td> 
+   <td> <p>檢視您要標籤使用者的物件或對其更高的存取權</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>檢視您要張貼回覆之物件的或更高許可權</p> </td> 
+   <td> <p>檢視您想要標籤使用者的物件或為其賦予更高的許可權</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。 如需詳細資訊，請參閱[Workfront檔案的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱[Workfront檔案的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+<!--Old:
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront plan</strong></td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td> <p>New: Contributor or higher for issues and documents; Light or higher for all other objects</p>
+   <p>Current: Request or higher for issues and documents; Review or higher for all other objects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Access level configuration</strong></td> 
+   <td> <p>View or higher access to the objects where you want to post the reply</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Object permission</strong></td> 
+   <td> <p>View or higher permissions to the objects where you want to post the reply</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 標籤其他人的更新
 
@@ -118,7 +148,9 @@ ht-degree: 0%
 
    ![標籤使用者](assets/tag-others-unified-commenting-with-all-tab.png)
 
-1. （選擇性）若要將更新設為私人，請在更新方塊的右下角啟用&#x200B;**我的公司私有**。 這可讓貴公司的使用者看到更新。 **我的公司私有**&#x200B;選項只有在您的Workfront設定檔中指定了公司時才可用。
+1. （選擇性）若要將更新設為私人，請在更新方塊的右下角啟用&#x200B;**我的公司私有**。 這可讓貴公司的使用者看到更新。
+
+   **我的公司私有**&#x200B;選項只有在您的Workfront設定檔中指定了公司時才可用。
 
    >[!NOTE]
    >

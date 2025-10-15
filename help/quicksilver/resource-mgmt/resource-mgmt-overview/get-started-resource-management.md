@@ -7,9 +7,9 @@ description: 「資源管理」可讓您設定系統，以根據資源的可用�
 author: Lisa
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
-source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
+source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1171'
 ht-degree: 0%
 
 ---
@@ -119,7 +119,7 @@ Workfront有幾組用於管理資源的工具。 每個工具都有個別的範�
   如需資源規劃與指派工作的詳細資訊，請參閱下列章節：
 
    * [資源規劃：文章索引](../../resource-mgmt/resource-planning/resource-planning-overview.md)
-   * [Adobe Workfront情境規劃工具](../../scenario-planner/scenario-planning.md)
+   * [[!DNL Adobe Workfront Scenario Planner]：文章索引](../../scenario-planner/scenario-planning.md)
    * [工作負載平衡器：文章索引](../../resource-mgmt/workload-balancer/workload-balancer.md)
 
 <!--
@@ -147,7 +147,7 @@ Workfront有幾組用於管理資源的工具。 每個工具都有個別的範�
    * 編輯財務資料的存取權以在資源規劃工具中顯示成本資訊
    * 檢視財務資料的存取權，以檢視使用率報表中的成本與收入資訊（僅限擁有計畫授權的使用者）
 
-* Contribute或更高許可權，包括針對您想要管理資源的專案進行工作分派。
+* Contribute或更高的許可權，包括針對您想要管理資源的專案進行「工作分派」。
 
 <!--
 * Designated as a Resource Manager for projects to use the Scheduling tool (the Scheduling tool is deprecated).
@@ -167,8 +167,8 @@ Workfront有幾組用於管理資源的工具。 每個工具都有個別的範�
 
 如需Workfront中每個資源管理工具的需求相關資訊，請參閱下列內容：
 
-* 文章[資源規劃工具概觀](../../resource-mgmt/resource-planning/get-started-resource-planner.md)中的[在資源規劃工具](../../resource-mgmt/resource-planning/get-started-resource-planner.md#prerequisites-for-working-in-the-resource-planner)中工作的先決條件。
-* 在文章[工作負載平衡器總覽](../../resource-mgmt/workload-balancer/overview-workload-balancer.md)中的[使用工作負載平衡器](../../resource-mgmt/workload-balancer/overview-workload-balancer.md#best-practices-for-using-the-workload-balancer)的最佳實務區段。
+* 文章[資源規劃工具概觀](../../resource-mgmt/resource-planning/get-started-resource-planner.md#prerequisites-for-working-in-the-resource-planner)中的[在資源規劃工具](../../resource-mgmt/resource-planning/get-started-resource-planner.md)中工作的先決條件。
+* 在文章[工作負載平衡器總覽](../../resource-mgmt/workload-balancer/overview-workload-balancer.md#best-practices-for-using-the-workload-balancer)中的[使用工作負載平衡器](../../resource-mgmt/workload-balancer/overview-workload-balancer.md)的最佳實務區段。
 * [在Adobe Workfront中預算資源所需的存取權](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md)。
 * [在工作負載平衡器](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md)中管理資源所需的存取權。
 

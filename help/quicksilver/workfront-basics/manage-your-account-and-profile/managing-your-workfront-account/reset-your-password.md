@@ -6,10 +6,10 @@ description: 您可以重設您的 [!DNL Adobe Workfront] 密碼。 作為一項
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: 1a81c1becfc0866b92dbd1358af23671e5302266
+source-git-commit: 80897b9b7752283ec985611e349e4180e48b224a
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 2%
+source-wordcount: '232'
+ht-degree: 1%
 
 ---
 
@@ -27,32 +27,21 @@ ht-degree: 2%
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。 
-
-您必須具備下列條件：
++++ 展開以檢視本文中功能的存取需求。
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
- <col> 
- </col> 
+ </col>
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計劃</strong></td> 
+   <td>Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權</strong></td> 
+   <td>Adobe Workfront授權</td> 
    <td> 
-      <p>新增:</p>
-         <ul>
-         <li><p>投稿人或以上</p></li>
-         </ul>
-      <p>目前：</p>
-         <ul>
-         <li><p>要求或更高版本</p></li>
-         </ul>
-   </td>
+   <p>投稿人或以上</p>
+   <p>要求或更高版本</p> </td> 
   </tr> 
  </tbody> 
 </table>

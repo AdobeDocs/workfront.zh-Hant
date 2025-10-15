@@ -7,9 +7,9 @@ description: 您可以在 [!DNL Adobe Workfront] 檢視應用程式中，檢閱�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 5d0260ad-7049-42c6-a8a0-9b53fb115ec6
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: f9b9381b4b38796dbf7dfd9eddffc50fb9e5c24c
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 存取需求
 
-您必須在[!DNL Workfront]中擁有下列存取權才能執行本文中的步驟：
++++ 展開以檢視本文中功能的存取需求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,25 +31,29 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計畫*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront套件</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>[!UICONTROL Review]或更高版本</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront授權</strong></td> 
+   <td> 
+   <p>投稿人或以上</p>
+   <p>評論或以上</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 在[!DNL Workfront View]中將更新新增至專案
 
 1. 從[!UICONTROL Workfront檢視]的首頁，點選專案以存取。
 1. （選用）將&#x200B;**[!UICONTROL 更新]** Widget新增至您的檢視。\
-   如需有關將Widget新增至專案檢視的詳細資訊，請參閱[!UICONTROL 專案詳細資料]檢視中的[更新Widget](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)。
+   如需有關將Widget新增至專案檢視的詳細資訊，請參閱[專案詳細資料[!UICONTROL 檢視中的]更新Widget](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)。
 
-1. 點選&#x200B;**[!UICONTROL 更新]** Widget中更新的&#x200B;**[!UICONTROL 更新]**&#x200B;圖示（右下方）或（條件式） **[+]**&#x200B;圖示。\
+1. 點選&#x200B;**[!UICONTROL 更新]** Widget中更新的&#x200B;**[更新]**&#x200B;圖示（右下方）或（條件式） **[!UICONTROL +]**&#x200B;圖示。\
    ![[!DNL workfront_view_updates_icon].png](assets/workfront-view-updates-icon-315x196.png)
 
 1. 輸入更新。

@@ -7,9 +7,9 @@ description: 當您擁有工作專案、使用者、工作角色和團隊的特�
 author: Lisa
 feature: Resource Management
 exl-id: d2bfc411-188a-4f8b-8180-0e984f01b5ab
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
@@ -30,23 +30,20 @@ ht-degree: 0%
 
 如需有關在Workfront中使用預算工具之先決條件的詳細資訊，請參閱[開始使用資源規劃](../../resource-mgmt/resource-planning/get-started-resource-planning.md)。
 
-若要預算資源、管理「資源集區」，並在資源計畫工具中檢視「成本」資訊，您的公司與您必須具有下列存取權： 
+若要預算資源、管理「資源集區」，並在資源計畫工具中檢視「成本」資訊，您的公司與您必須具有下列存取權：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td><p>新增：任何</p>
-       <p>或</p>
-       <p>目前：Pro或更高</p> </td> 
+   <td>Adobe Workfront套件</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td><p>新增：標準</p>
-       <p>或</p>
-       <p>目前：計畫</p></td>
+   <td>Adobe Workfront授權</td> 
+   <td><p>標準</p>
+       <p>規劃</p></td>
   </tr>  
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -66,11 +63,9 @@ ht-degree: 0%
    <td role="rowheader">物件許可權</td> 
    <td> <p>管理專案的許可權，包括管理財務許可權。</p> <p>如需有關專案許可權的資訊，請參閱文章<a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">在Adobe Workfront中共用專案</a>。</p> <p>如需有關專案財務許可權的資訊，請參閱文章<a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md"><a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref">共用物件的財務許可權</a></a>。</p>
 
-<p><b>附註</b>
-
-在「角色」檢視中編列資源預算時，如果角色下列出的至少一個專案少於「管理」許可權，則無法為角色編列時數、FTE或成本的預算。 您只能為您擁有管理許可權的專案編列預算。</p> </td>
-</tr> 
+<p><b>注意：</b>在[角色]檢視中編列資源預算時，如果角色底下所列之至少一個專案的[管理]許可權不足，則無法為角色編列時數、FTE或成本的預算。 您只能為您擁有管理許可權的專案編列預算。</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。

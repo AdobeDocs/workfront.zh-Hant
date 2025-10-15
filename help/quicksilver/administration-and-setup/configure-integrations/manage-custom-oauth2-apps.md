@@ -8,9 +8,9 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 author: Becky
 exl-id: 158430e5-8857-4bd8-86a6-2ba106b1638c
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 711812d9fd4bf48bb7612c0339cee2cdbe08ef10
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '640'
 ht-degree: 0%
 
 ---
@@ -33,30 +33,26 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
-   <td> <p>[!DNL Pro] 或更高</p> </td> 
+   <td role="rowheader">Workfront套件</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[!UICONTROL Plan]或更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td><p>標準</p> <p>規劃</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> 您必須是[!DNL Workfront]管理員。 </p>
-    <p>如需[!DNL Workfront]管理員的相關資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予使用者完整管理存取權</a>。</p>
-     </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td>您必須是Workfront管理員。 </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -102,7 +98,7 @@ ht-degree: 0%
 >您無法檢視使用者端密碼本身。 如果您遺失使用者端密碼，您必須刪除密碼並建立新的密碼。
 >
 >* 若要刪除使用者端密碼，請參閱本文中的[刪除使用者端密碼](#delete-client-secret)。
->* 若要建立新的使用者端密碼，請參閱[&#128279;](../../administration-and-setup/configure-integrations/create-oauth-application.md#create)在[建立OAuth2應用程式](../../administration-and-setup/configure-integrations/create-oauth-application.md)整合的OAuth2應用程式。 [!DNL Workfront] 
+>* 若要建立新的使用者端密碼，請參閱[在](../../administration-and-setup/configure-integrations/create-oauth-application.md#create)建立OAuth2應用程式[整合的OAuth2應用程式 [!DNL Workfront] 。](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 >
 
 {{step-1-to-setup}}

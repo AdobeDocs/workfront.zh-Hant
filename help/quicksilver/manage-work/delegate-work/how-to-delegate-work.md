@@ -3,10 +3,10 @@ filename: how-to-delegate-work
 navigation-topic: delegate-work
 title: 委派任務和問題
 description: 您不在辦公室時，可以暫時委派指派給您的工作。 本文介紹如何委派任務和問題指派。
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
 workflow-type: tm+mt
 source-wordcount: '1547'
 ht-degree: 0%
@@ -55,12 +55,12 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>新增：投稿人或更高版本</p><p>或</p><p>目前：檢閱或以上</p>
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>投稿人或以上</p><p>評論或以上</p>
 
 >[!NOTE]
 >
@@ -80,7 +80,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -92,7 +92,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 
 您必須先確定下列事項，才能執行本文所述的活動：
 
-* 您的[!DNL Workfront]或群組管理員已啟用[!DNL Workfront]執行個體之[!UICONTROL 設定]區域的[!UICONTROL 任務和問題偏好設定]區段中的&#x200B;[!UICONTROL **允許使用者委派其任務和問題**]&#x200B;設定。
+* 您的[!DNL Workfront]或群組管理員已啟用&#x200B;[!UICONTROL **執行個體之**]&#x200B;設定[!UICONTROL 區域的]任務和問題偏好設定[!UICONTROL 區段中的]允許使用者委派其任務和問題[!DNL Workfront]設定。
 
   如需詳細資訊，請參閱[設定全系統的任務和問題偏好設定](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)。
 
@@ -172,7 +172,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 
 1. 移至&#x200B;[!UICONTROL **首頁**]&#x200B;區域，然後按一下下列任一Widget中的&#x200B;[!UICONTROL **編輯委派**]： **我的工作**、**我的任務**&#x200B;或&#x200B;**我的問題**。
 1. 在[!UICONTROL 停止委派任務和問題]方塊中，執行下列任一項作業：
-   * 修改開始日期&#x200B;[!UICONTROL **或[!UICONTROL **&#x200B;結束日期&#x200B;**]**]
+   * 修改開始日期&#x200B;[!UICONTROL **或**]&#x200B;結束日期&#x200B;[!UICONTROL ****]
    * 按一下&#x200B;[!UICONTROL **停止委派**]
 
    >[!TIP]

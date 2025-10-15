@@ -2,22 +2,24 @@
 product-area: projects
 navigation-topic: use-the-gantt-chart
 title: 更新工作清單甘特圖中的資訊
-description: 任務清單「甘特圖」會顯示專案或範本上任務的詳細資訊。
+description: Adobe Workfront任務清單的甘特圖顯示有關專案或範本上任務的詳細資訊。
 author: Alina
 feature: Work Management
 exl-id: 0a8e6fd5-985c-49e5-842d-67ade29ee1c9
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 0%
+source-wordcount: '1006'
+ht-degree: 1%
 
 ---
 
 # 更新工作清單[!UICONTROL 甘特圖]中的資訊
 
-任務清單[!UICONTROL 甘特圖]顯示專案或範本上任務的詳細資訊。
+<!--Audited: 08/2025-->
 
-在範本中，工作清單[!UICONTROL 甘特圖]會反映範本工作清單在工作層級所做的更新。 您無法編輯與範本關聯的[!UICONTROL 甘特圖]。
+Adobe Workfront任務清單的[!UICONTROL 甘特圖]顯示專案或範本上任務的詳細資訊。
+
+在範本中，工作清單[!UICONTROL 甘特圖]反映範本工作清單在範本工作層級所做的更新。 您無法編輯與範本關聯的[!UICONTROL 甘特圖]。
 
 在專案中，您可以直接在任務清單[!UICONTROL 甘特圖]中更新任務資訊。
 
@@ -31,32 +33,60 @@ ht-degree: 0%
 
 ## 存取需求
 
-您必須具備下列專案才能依照本文所述步驟操作：
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
-   <td> <p>任何 </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 封裝</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[!UICONTROL 計畫] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
+   <td> <p>[！UICONTROL標準]</p>
+   <p>[！UICONTROL計畫]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>[!UICONTROL Edit]對專案和任務的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的[!DNL Workfront]管理員是否對您的存取層級設定了其他限制。 如需[!DNL Workfront]管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>[！UICONTROL Edit]對專案和任務的存取權</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>[!UICONTROL Manage]專案和任務的存取權 </p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>[！UICONTROL Manage]專案和任務的存取權</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++ 
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>[!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>[!UICONTROL Edit] access to Projects and Tasks</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] access to the project and tasks </p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 修改任務工期
 
@@ -69,7 +99,7 @@ ht-degree: 0%
 
    ![按一下甘特圖圖示](assets/click-gantt-chart-icon.png)
 
-   啟用&#x200B;**[!UICONTROL 自動儲存]**&#x200B;選項時，所有變更都會自動儲存。 預設為啟用。
+   啟用&#x200B;**[!UICONTROL 自動儲存]**&#x200B;選項時，所有變更都會自動儲存。 這項設定預設為啟用。
 
 1. （選擇性）按一下&#x200B;**[!UICONTROL 計畫模式]**&#x200B;圖示並選取&#x200B;**[!UICONTROL 手動儲存標準]**&#x200B;或&#x200B;**[!UICONTROL 時間表計畫]**，以手動儲存您的變更。
 
@@ -90,7 +120,7 @@ ht-degree: 0%
    >   
    >
 
-1. 按一下[!UICONTROL 甘特圖]右上角的&#x200B;**[!UICONTROL 儲存]**。
+1. 按一下&#x200B;**[!UICONTROL 甘特圖]**&#x200B;右上角的[!UICONTROL 儲存]。
 
 ## 建立或移除前置任務關係
 
@@ -129,7 +159,7 @@ ht-degree: 0%
 1. 前往您要修改的專案。
 1. 在&#x200B;**[!UICONTROL 任務]**&#x200B;區域中，按一下&#x200B;**[!UICONTROL 甘特圖]**&#x200B;圖示。
 
-   啟用&#x200B;**[!UICONTROL 自動儲存]**&#x200B;選項時，所有變更都會自動儲存。 預設為啟用。
+   啟用&#x200B;**[!UICONTROL 自動儲存]**&#x200B;選項時，所有變更都會自動儲存。 這項設定預設為啟用。
 
    ![按一下甘特圖圖示](assets/click-gantt-chart-icon.png)
 
@@ -142,11 +172,11 @@ ht-degree: 0%
 
    ![Change_start_end_date.png](assets/change-start-end-date.png)
 
-1. 如果您以影響任務限制的方式變更任務日期，請按一下[接受] **&#x200B;**&#x200B;認可任務限制變更。
+1. 如果您以影響任務限制的方式變更任務日期，請按一下[接受] ****&#x200B;認可任務限制變更。
 
    >[!NOTE]
    >
-   >如果任務有下列其中一個限制，則系統會將任務限制[!UICONTROL 更新為[!UICONTROL 開始時間不早於] （如果專案是從[!UICONTROL 開始日期]排程）或是[!UICONTROL 完成時間不晚於] （如果專案是從[!UICONTROL 完成日期]排程）：]
+   >如果任務有下列其中一個限制，則系統會將任務限制[!UICONTROL 更新為]開始時間不早於[!UICONTROL  （如果專案是從]開始日期[!UICONTROL 排程）或是]完成時間不晚於[!UICONTROL  （如果專案是從]完成日期[!UICONTROL 排程）：]
    >
    >   
    >   
@@ -180,7 +210,7 @@ ht-degree: 0%
 
    ![按一下甘特圖圖示](assets/click-gantt-chart-icon.png)
 
-   啟用&#x200B;**[!UICONTROL 自動儲存]**&#x200B;選項時，所有變更都會自動儲存。 預設為啟用。
+   啟用&#x200B;**[!UICONTROL 自動儲存]**&#x200B;選項時，所有變更都會自動儲存。 這項設定預設為啟用。
 
 1. （選擇性）按一下&#x200B;**[!UICONTROL 計畫模式]**&#x200B;圖示並選取&#x200B;**[!UICONTROL 手動儲存標準]**&#x200B;或&#x200B;**[!UICONTROL 時間表計畫]**，以手動儲存您的變更。
 1. 連按兩下任務內部的百分比數字，然後輸入數字。
@@ -206,13 +236,13 @@ ht-degree: 0%
    >   
    >
 
-1. 按一下[!UICONTROL 甘特圖]右上角的&#x200B;**[!UICONTROL 儲存]**。
+1. 按一下&#x200B;**[!UICONTROL 甘特圖]**&#x200B;右上角的[!UICONTROL 儲存]。
 
 ## 平準專案資源
 
 您可以使用工作清單[!UICONTROL 甘特圖]來平準您的資源。
 
-如需[!UICONTROL 甘特圖]中資源平準的相關資訊，請參閱[!UICONTROL 甘特圖][&#128279;](../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md)中的平準資源。
+如需[!UICONTROL 甘特圖]中資源平準的相關資訊，請參閱[甘特圖[!UICONTROL 中的]](../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md)平準資源。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

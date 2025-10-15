@@ -2,13 +2,13 @@
 content-type: reference
 product-area: projects
 navigation-topic: tasks
-title: 工作期間與期間型別：文章索引
+title: 任務期間和期間型別：文章索引
 description: 任務的工期型別可識別指派給任務的資源數量、總工作量及任務工期總計之間的關係。 在下列文章中瞭解任務持續時間和持續時間型別。
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: df6cd9bc-e34f-4e84-8a1b-484a6bffe53c
-source-git-commit: 4a9936b6bc034f2176167fc3939d647ee679a888
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 0%

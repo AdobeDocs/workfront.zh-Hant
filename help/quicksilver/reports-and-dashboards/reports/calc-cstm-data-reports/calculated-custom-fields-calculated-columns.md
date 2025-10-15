@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: 計算自訂欄位與計算欄的比較
 description: 若要彙總Adobe Workfront中的多個欄位並在新欄位中顯示彙總值，您可以在自訂表單中建立計算自訂欄位，或在檢視中建立計算欄。
-author: Nolan
+author: Jenny
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
 workflow-type: tm+mt
 source-wordcount: '817'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
   如需新增計算自訂欄位至自訂表單的詳細資訊，請參閱[新增計算欄位至表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)。
 
 * 檢視中的計算欄\
-  如需有關在檢視中使用計算的詳細資訊，請參閱文章[文字模式常見用途概觀](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)中的[在檢視中使用文字模式](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md#use-text-mode-in-views)一節。
+  如需有關在檢視中使用計算的詳細資訊，請參閱文章[文字模式常見用途概觀](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md#use-text-mode-in-views)中的[在檢視中使用文字模式](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)一節。
 
 雖然您使用文字模式來建立計算欄位和計算欄，但建立它們的語法不同。 請參閱上方列出的文章，以瞭解如何建立計算欄位和計算欄。 如需有關計算資料運算式（例如計算自訂欄位和欄）中所使用的不同語法的資訊，請參閱本文中的[計算自訂欄位與計算自訂欄位的語法](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md#syntax-of-calculated-custom-fields-vs-calculated-custom-columns)小節。
 

@@ -5,9 +5,9 @@ description: 應用程式內通知可讓您隨時瞭解兩種資訊：宣告通�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c5da114-33cc-422b-84f4-67bc7fcd67c6
-source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
+source-git-commit: 770e20cf9e32ac9884f5eb320f7067fcf162c63d
 workflow-type: tm+mt
-source-wordcount: '971'
+source-wordcount: '966'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## 存取需求
 
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,17 +37,21 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計畫*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 封裝</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>[!UICONTROL Request]或更高版本</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權</strong></td> 
+   <td> 
+   <p>投稿人或以上</p>
+   <p>要求或更高版本</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-若要瞭解您擁有的計畫或授權型別，請連絡您的[!DNL Workfront]管理員。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 檢視通知
 
@@ -55,9 +59,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您可以從Web應用程式和行動應用程式檢視所有應用程式內通知。 在行動應用程式中，只有部分通知會以推播通知的形式傳送。 如需行動應用程式中通知的詳細資訊，請參閱iOS的[[!DNL Adobe Workfront] &#x200B;](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)或Android的[[!DNL Adobe Workfront] &#x200B;](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)。
+>您可以從Web應用程式和行動應用程式檢視所有應用程式內通知。 在行動應用程式中，只有部分通知會以推播通知的形式傳送。 如需行動應用程式中通知的詳細資訊，請參閱iOS的[[!DNL Adobe Workfront] ](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)或Android的[[!DNL Adobe Workfront] ](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)。
 
-1. 按一下[!DNL Workfront]右上角的編號圖示![通知圖示](assets/notifications-icon-jewel.jpg)以開啟您的通知清單。
+1. 按一下![右上角的編號圖示](assets/notifications-icon-jewel.jpg)通知圖示[!DNL Workfront]以開啟您的通知清單。
 
    您最近的未讀通知會顯示在編號圖示下方，最新的未讀通知會顯示在頂端。
 
@@ -111,7 +115,7 @@ ht-degree: 0%
 
 若要確認通知，並從「通知」清單中將其清除，請執行下列步驟：
 
-1. 按一下[!DNL Workfront]右上角的編號圖示![通知圖示](assets/notifications-icon-jewel.jpg)以開啟您的通知清單。
+1. 按一下![右上角的編號圖示](assets/notifications-icon-jewel.jpg)通知圖示[!DNL Workfront]以開啟您的通知清單。
 1. 執行下列其中一項：
 
    * 按一下通知左上角的藍色圓點。
@@ -123,7 +127,7 @@ ht-degree: 0%
 
 若要檢視您已確認的通知，請執行下列步驟：
 
-1. 按一下[!DNL Workfront]右上角的編號圖示![通知圖示](assets/notifications-icon-jewel.jpg)以開啟您的通知清單。
+1. 按一下![右上角的編號圖示](assets/notifications-icon-jewel.jpg)通知圖示[!DNL Workfront]以開啟您的通知清單。
 1. 按一下通知清單右下角的&#x200B;**[!UICONTROL 所有通知]**。
 1. 在出現的&#x200B;**[!UICONTROL 通知]**&#x200B;頁面上，向下捲動以檢視您過去的通知。
 1. （選擇性）若要將已確認的通知帶回您的通知清單，請按一下通知旁邊的藍色圓圈。
@@ -139,7 +143,7 @@ ht-degree: 0%
 
 ### 刪除佈告
 
-1. 按一下[!DNL Workfront]右上角的編號圖示![通知圖示](assets/notifications-icon-jewel.jpg)以開啟您的通知清單。
+1. 按一下![右上角的編號圖示](assets/notifications-icon-jewel.jpg)通知圖示[!DNL Workfront]以開啟您的通知清單。
 1. 按一下&#x200B;**[!UICONTROL 公告]**&#x200B;或&#x200B;**[!UICONTROL 檢視所有公告]**。
 
 1. 在出現的&#x200B;**[!DNL Announcements]**&#x200B;頁面上，按一下左側清單中您要刪除的宣告，然後按一下頁面右上角的&#x200B;**[!UICONTROL 刪除]**。
@@ -148,7 +152,7 @@ ht-degree: 0%
 
 您可以存取過去30天內已刪除的通知。
 
-1. 按一下[!DNL Workfront]右上角的編號圖示![通知圖示](assets/notifications-icon-jewel.jpg)以開啟您的通知清單。
+1. 按一下![右上角的編號圖示](assets/notifications-icon-jewel.jpg)通知圖示[!DNL Workfront]以開啟您的通知清單。
 1. 按一下&#x200B;**[!UICONTROL 公告]**&#x200B;或&#x200B;**[!UICONTROL 檢視所有公告]**。
 
 1. 在顯示的&#x200B;**[!UICONTROL 公告]**&#x200B;頁面中，按一下&#x200B;**[!UICONTROL 已刪除]**。

@@ -5,9 +5,9 @@ description: 除了設定收入和追蹤費用外，您還可以在專案上建�
 author: Lisa
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: 4805b93be7ce3dc098c7e160cdb872446f80ecbd
+source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
 workflow-type: tm+mt
-source-wordcount: '1645'
+source-wordcount: '1635'
 ht-degree: 1%
 
 ---
@@ -29,28 +29,27 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td>Adobe Workfront套件</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
+   <td>Adobe Workfront授權</td> 
    <td>
-   <p>新增：標準</p>
-   <p>或</p>
-   <p>目前：計畫</p></td> 
+   <p>標準</p>
+   <p>規劃</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
+   <td>存取層級設定</td> 
    <td>編輯專案與財務資料的存取權</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件許可權</td> 
+   <td>物件許可權</td> 
    <td>管理具有管理財務之許可權的專案許可權</td> 
   </tr> 
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -113,7 +112,7 @@ ht-degree: 1%
 
    您必須先建立付費記錄自訂表單，才能在這裡選取它。 清單中只會顯示作用中的自訂表單。 如需詳細資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
-1. 按一下[儲存]。**&#x200B;**&#x200B;已建立付費記錄。
+1. 按一下[儲存]。****&#x200B;已建立付費記錄。
 
 ## 在記帳記錄中包含可記帳小時、費用和固定收入
 
@@ -186,7 +185,7 @@ ht-degree: 1%
    >
    >如果您有費用但未標籤為可記帳，則不會顯示&#x200B;**新增費用**&#x200B;按鈕。 只有實際金額大於零的可開立帳單費用才有資格納入帳單記錄中。
 
-1. 選取可新增至記帳記錄的可記帳費用，然後按一下[新增費用]。**&#x200B;**  將費用的實際金額新增為&#x200B;**可記帳費用**&#x200B;金額至&#x200B;**記帳記錄總計**。
+1. 選取可新增至記帳記錄的可記帳費用，然後按一下[新增費用]。****  將費用的實際金額新增為&#x200B;**可記帳費用**&#x200B;金額至&#x200B;**記帳記錄總計**。
 
 1. （選擇性）按一下&#x200B;**記帳記錄詳細資料**&#x200B;以檢閱&#x200B;**可記帳費用**&#x200B;和&#x200B;**記帳記錄總計**&#x200B;金額，以及記帳記錄標題中的記帳記錄總計。
 
@@ -200,13 +199,13 @@ ht-degree: 1%
 1. 按一下左側面板中的&#x200B;**記帳記錄**。
 1. 按一下付費記錄的&#x200B;**描述**&#x200B;以開啟&#x200B;**付費記錄詳細資料**&#x200B;標籤。
 1. 選取「**固定收入**」標籤。
-1. 如果您已將固定收入新增至工作，請按一下[新增固定收入]。**&#x200B;**
+1. 如果您已將固定收入新增至工作，請按一下[新增固定收入]。****
 
    >[!NOTE]
    >
    >如果您在任務上有收入金額，但它們未標籤為固定，則不會顯示&#x200B;**新增固定收入**&#x200B;按鈕。
 
-1. 選取您要將其固定收入納入付費記錄中的任務，然後按一下[新增任務]。**&#x200B;**  任務的&#x200B;**固定收入**&#x200B;金額已新增為&#x200B;**可記帳收入**&#x200B;金額至&#x200B;**記帳記錄總計**。
+1. 選取您要將其固定收入納入付費記錄中的任務，然後按一下[新增任務]。****  任務的&#x200B;**固定收入**&#x200B;金額已新增為&#x200B;**可記帳收入**&#x200B;金額至&#x200B;**記帳記錄總計**。
 
 1. （選擇性）按一下&#x200B;**記帳記錄詳細資料**&#x200B;以檢閱&#x200B;**可記帳收入**&#x200B;和&#x200B;**記帳記錄總計**&#x200B;金額，以及記帳記錄標題中的記帳記錄總計。
 

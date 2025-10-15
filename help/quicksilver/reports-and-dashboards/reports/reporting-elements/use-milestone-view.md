@@ -6,9 +6,9 @@ description: 您可以將「里程碑」檢視套用至專案清單或報告。 
 author: Courtney, Alina
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1623'
 ht-degree: 1%
 
 ---
@@ -41,38 +41,30 @@ ht-degree: 1%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront計畫</strong></td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront授權</strong></td> 
+   <td role="rowheader">Adobe Workfront授權</strong></td> 
    <td> 
-      <p>新增:</p>
-         <ul>
-         <li><p>標準</p></li>
-         </ul>
-      <p>目前：</p>
-         <ul>
-         <li><p>工作或更高</p></li>
-         </ul>
+    <p>標準</p>
+    <p>工作或更高</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>存取層級設定*</strong></td> 
-   <td> <p>檢視或更高的報告、儀表板、行事曆存取權</p></td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>檢視或更高的報告、儀表板、行事曆存取權</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>檢視專案報告的許可權以套用里程碑檢視到報告</p> </td> 
+   <td role="rowheader">物件許可權</td> 
+    <td> <p>檢視專案報告的許可權以套用里程碑檢視到報告</p></td> 
+   </td> 
   </tr> 
  </tbody> 
 </table>

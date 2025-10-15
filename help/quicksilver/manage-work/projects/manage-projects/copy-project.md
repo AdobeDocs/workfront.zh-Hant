@@ -7,10 +7,10 @@ author: Alina
 feature: Projects, Work Management
 role: User
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
-source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 4%
+source-wordcount: '712'
+ht-degree: 5%
 
 ---
 
@@ -52,36 +52,6 @@ ht-degree: 4%
 
 ## 存取需求
 
-<!-- drafted for P&P:
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> <p>Adobe Workfront plan*</p> </td> 
-   <td>Any</td> 
-  </tr> 
-  <tr> 
-   <td> <p>Adobe Workfront license*</p> </td> 
-   <td> <p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p>
-   </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td><strong>Access level configurations*</strong> </td> 
-   <td> <p>Edit access to Projects with ability to Create <span>and Copy</span> projects</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td> <p><strong>Object permissions</strong> </p> </td> 
-   <td> <p>View permissions or higher to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
 +++ 展開以檢視本文中功能的存取需求。
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -90,23 +60,20 @@ ht-degree: 4%
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront計畫</p> </td> 
+   <td> <p>Adobe Workfront套件</p> </td>  
    <td>任何</td> 
   </tr> 
   <tr> 
    <td> <p>Adobe Workfront授權</p> </td> 
-   <td> <p>新增：標準 </p> 
-   <p>或</p>
-   <p>目前：計畫 </p>
+   <td> <p>標準</p> 
+   <p>規劃</p>
+      </td> 
+  </tr> 
+     <td>存取層級設定 </td> 
+   <td> <p>編輯對專案的存取權，且具有建立和複製專案的能力</p> </td> 
+  </tr>
 
-</td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td>存取層級設定 </td> 
-   <td> <p>編輯具有建立<span>和複製</span>專案功能的專案存取權</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td> <p>物件許可權 </p> </td> 
+<td> <p>物件許可權 </p> </td> 
    <td> <p>檢視專案或更高的許可權</p>  </td> 
   </tr> 
  </tbody> 
@@ -115,6 +82,35 @@ ht-degree: 4%
 如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+<!--Old:
+ 
+ <table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>Adobe Workfront plan</p> </td> 
+   <td>Any</td> 
+  </tr> 
+  <tr> 
+   <td> <p>Adobe Workfront license</p> </td> 
+   <td> <p>New: Standard </p> 
+   <p>Or</p>
+   <p>Current: Plan </p>
+   
+   </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Access level configurations </td> 
+   <td> <p>Edit access to Projects with ability to Create <span>and Copy</span> projects</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p>Object permissions </p> </td> 
+   <td> <p>View permissions or higher to the project</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 複製單一專案
 
@@ -130,7 +126,7 @@ ht-degree: 4%
 
    前往專案清單或報告並選取專案，然後按一下清單頂端的&#x200B;**更多**&#x200B;圖示![更多](assets/more-icon.png)。
 
-1. 在&#x200B;**更多**&#x200B;下拉式功能表中，按一下&#x200B;**複製**。 [專案名稱&#x200B;]&#x200B;**的**&#x200B;復本對話方塊就會顯示。
+1. 在&#x200B;**更多**&#x200B;下拉式功能表中，按一下&#x200B;**複製**。 **專案名稱[的]**&#x200B;復本對話方塊就會顯示。
 
 1. （選用）更新&#x200B;**專案名稱**。 依預設，新名稱是&#x200B;**[原始專案名稱]**&#x200B;的復本。
 
@@ -184,7 +180,7 @@ ht-degree: 4%
       <td role="rowheader">預算時數</td> 
       <td> <p>從複製的專案中移除專案之業務案例的資源規劃區域中預算的時數。</p> 
     <p>
-   使用「情境規劃工具」的預算時數永遠不會複製到新專案，因為新專案未連結到「情境規劃工具」中的方案。 如需詳細資訊，請參閱使用案例規劃工具</a>的業務案例中的<a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">預算資源</p>
+   使用「情境規劃工具」的預算時數永遠不會複製到新專案，因為新專案未連結到「情境規劃工具」中的方案。 如需詳細資訊，請參閱使用案例規劃工具<a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">的業務案例中的</a>預算資源</p>
    </tr></td>
     <tr> 
       <td role="rowheader">財務資訊</td> 

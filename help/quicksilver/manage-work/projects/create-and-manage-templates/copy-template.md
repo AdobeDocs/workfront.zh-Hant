@@ -6,10 +6,10 @@ description: 除了從頭開始建立專案範本外，您也可以複製現有�
 author: Alina
 feature: Work Management
 exl-id: b2e0878b-8245-4e01-819d-c3746f553d95
-source-git-commit: 1926500c76e4f9cfdac829f8d9f0cdfa6231e31d
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 2%
+source-wordcount: '327'
+ht-degree: 3%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視本文中功能的存取需求。 
 
 您必須具有下列存取權。
 
@@ -30,13 +30,13 @@ ht-degree: 2%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td><p>新增：標準</p> 
-   <p>目前：計畫 </p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td><p>標準</p> 
+   <p>規劃</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -52,6 +52,31 @@ ht-degree: 2%
 *如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+<!--Old:
+
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td><p>New: Standard</p> 
+   <p>Current: Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Templates</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View or higher permissions to a template</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 複製範本的考量事項
 
@@ -88,6 +113,6 @@ ht-degree: 2%
    依預設，Workfront會依照此格式設定新名稱： `Copy of Original template name`。
 
 1. 如果要將所有來自原始範本的任務和範本指派傳送到新範本，請選取&#x200B;**保留使用者在任務或範本上的指派**&#x200B;選項。 範本任務指派，以及範本擁有者和贊助者會轉移到複製的範本。
-1. 按一下[儲存]&#x200B;**以建立範本的復本。**
+1. 按一下[儲存]**以建立範本的復本。**
 
    新範本會顯示在Workfront的「範本」區域的範本清單中。

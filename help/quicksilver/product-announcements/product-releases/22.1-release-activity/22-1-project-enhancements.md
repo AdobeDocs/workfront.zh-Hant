@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d24f2aae-1c3d-41ed-ad17-6276bef2cf45
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1202'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,7 @@ in January 2022
 
 重新設計的介面與從範本建立專案時的體驗相符，我們最近也更新了範本。
 
-如需詳細資訊，請參閱[在Adobe Workfront中將問題轉換為專案](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)。
+如需詳細資訊，請參閱[將問題轉換為專案](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)。
 
 ## 使用清單、報告和儀表板的範本將問題轉換為專案
 

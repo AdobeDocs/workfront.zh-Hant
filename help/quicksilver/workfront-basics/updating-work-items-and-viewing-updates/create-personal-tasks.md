@@ -6,9 +6,9 @@ description: 個人任務是指您傳送給使用者、自己或您在「首頁�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: b40d6b10-19c7-4e11-a74f-a8af3ebafb65
-source-git-commit: a1081b7ce0877b08f9546ab57cfac3f2a580ea76
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Adobe Workfront會儲存臨時工作請求，以及將專案當做個人任務�
 * Workfront中的所有使用者都有名為「&lt;使用者全名>的任務」的個人專案。 例如，「John Smith的任務」。
 * 每個使用者的個人專案不會顯示在搜尋中，且會隱藏。
 * 無法刪除個人專案，即使使用者已停用。
-* The Status of a personal project is always Current. Personal projects cannot be completed or canceled.
+* 個人專案的狀態一律為最新。 無法完成或取消個人專案。
 * 所有個人任務都儲存在使用者的個人專案中。
 * 如有需要，您可以將個人任務移至另一個專案。
 
@@ -34,20 +34,18 @@ Adobe Workfront會儲存臨時工作請求，以及將專案當做個人任務�
 
 * 在您的首頁區域中建立待辦事項
 
-  For information, see [Create work items and projects from the Home area](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+  如需詳細資訊，請參閱[從首頁區域建立工作專案和專案](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)。
 
-* Create and send a personal work request to another user from the user profile page
-* Create and send a personal work request to yourself from your user profile page
+* 從使用者設定檔頁面建立個人工作請求並傳送給另一個使用者
+* 從您的使用者設定檔頁面建立並傳送個人工作請求給您自己
 
-This article describes how you can create a personal work request for a user or for yourself from the user profile page.
+本文說明如何從使用者設定檔頁面為使用者或您自己建立個人工作請求。
 
-Regardless how you add a personal task, you can find them in the same areas of Workfront. For more information, see the section [Locate personal task](#locate-personal-tasks) in this article.
+無論您如何新增個人任務，都可以在Workfront的相同區域中找到。 如需詳細資訊，請參閱本文中的[尋找個人工作](#locate-personal-tasks)一節。
 
 ## 存取需求
 
 +++ 展開以檢視本文中功能的存取需求。
-
-您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -56,14 +54,15 @@ Regardless how you add a personal task, you can find them in the same areas of W
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront計畫</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront套件</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront授權*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront授權</strong></td> 
    <td> 
-   <p>新增：標準傳送要求給其他使用者。 所有使用者都可以為自己建立工作請求。</p> 
-   <p>目前：計畫傳送要求給其他使用者。 所有使用者都可以為自己建立工作請求。</p>
+   <p>標準<p>
+   <p>規劃</p>
+   <p>這是傳送請求給其他使用者所需的授權。 所有使用者都可以為自己建立工作請求。</p> 
     </td> 
   </tr> 
   <tr> 
@@ -75,9 +74,36 @@ Regardless how you add a personal task, you can find them in the same areas of W
 </tbody> 
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ </col> 
+ <col> 
+ </col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront plan</strong></td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td> 
+   <p>New: Standard to send requests to other users. All users can create a work request for themselves.</p> 
+   <p>Current: Plan to send requests to other users. All users can create a work request for themselves.</p>
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Access level configurations</strong></td> 
+   <td> <p>Edit access to Users to create a work request for them. View access to create a personal work request for yourself. </p>
+   </td> 
+  </tr> 
+ 
+ </tbody> 
+</table>-->
 
 
 ## 建立個人工作請求
@@ -89,21 +115,21 @@ Regardless how you add a personal task, you can find them in the same areas of W
    >當某些使用者設定您的存取層級時，您的Workfront管理員可能會阻止您檢視這些使用者。
 
 1. 按一下標題中使用者名稱右側的&#x200B;**更多功能表** ![](assets/more-menu.png)。
-1. Click **Send work request**.
-The **Send user a work request** box displays.
+1. 按一下&#x200B;**傳送工作要求**。
+顯示**傳送工作要求**&#x200B;方塊。
 
    ![](assets/personal-task-box.png)
 1. 更新下列資訊：
 
-   * **Task Name**: This is the name of the ad hoc work request or the personal task.
-   * **Description**: Add a description for the task.
-   * **Assign to**: The name of the user that you selected displays by default. You can add more users or teams.
+   * **工作名稱**：這是臨時工作要求或個人工作的名稱。
+   * **描述**：新增任務的描述。
+   * **指派給**：預設會顯示您選取的使用者名稱。 您可以新增更多使用者或團隊。
    * **到期日**：這是您想要完成此工作的日期。 依預設，這是今天的日期。 您無法選取過去的日期
-   * **Time**: This is the time by which you&#39;d like this task to be completed. By default, this is the current time.
+   * **時間**：這是您想要完成此工作的時間。 依預設，這是目前的時間。
 
-1. Click **Send Request** to save the work request.
+1. 按一下&#x200B;**傳送要求**&#x200B;以儲存工作要求。
 
-   The work request is saved as a personal task in Workfront and it is added to the user&#39;s To-dos widget in their Home area. 如果您將工作請求傳送給自己，它會顯示在您首頁的待辦事項Widget中。
+   工作請求會儲存為Workfront中的個人任務，並會新增到使用者首頁區域的待辦事項Widget中。 如果您將工作請求傳送給自己，它會顯示在您首頁的待辦事項Widget中。
 
 
 ## 尋找個人工作
@@ -114,6 +140,6 @@ The **Send user a work request** box displays.
 
   如需詳細資訊，請參閱[從首頁區域建立工作專案和專案](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)。
 
-* 個人工作報告或清單。 You can build and apply a personal task filter to a task report or list to display only personal tasks and exclude project tasks.
+* 個人工作報告或清單。 您可以建立並套用個人任務篩選器至任務報告或清單，以僅顯示個人任務並排除專案任務。
 
-  For information, see [Filter: personal tasks](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md).
+  如需詳細資訊，請參閱[篩選：個人工作](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md)。

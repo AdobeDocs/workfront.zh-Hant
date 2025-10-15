@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 0e7000597e2347bff0bc626d21aa9a6c9a839c0b
+source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '538'
 ht-degree: 4%
 
 ---
@@ -33,33 +33,24 @@ ht-degree: 4%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具備下列條件：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td>任何</td> 
+   <td>Adobe Workfront套件</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td> 
-      <p>新增：</p>
-         <ul>
-         <li><p>標準</p></li>
-         </ul>
-      <p>目前：</p>
-         <ul>
-         <li><p>規劃</p></li>
-         </ul>
-   </td>
+   <td>Adobe Workfront授權</td> 
+   <td><p>標準</p>
+       <p>規劃</p></td>
+  </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
-   <td> <p>若要在系統層級執行這些步驟，您需要系統管理員存取層級。
-若要為群組執行這些動作，您必須是該群組的管理員。</p> </td> 
+   <td>存取層級設定</td> 
+   <td> <p>若要在系統層級執行這些步驟，您需要系統管理員存取層級。</p>
+        <p>若要為群組執行這些動作，您必須是該群組的管理員。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -89,7 +80,7 @@ ht-degree: 4%
       * 報告
       * 請求
       * 資源分配
-      * 情境
+      * 方案
       * 團隊
       * 範本
       * 時程表
@@ -114,9 +105,9 @@ ht-degree: 4%
 
 1. 重複上一步驟以釘選任何其他頁面。
 
-1. （選擇性）若要移動圖釘，請將滑鼠游標停留在圖釘上，並按一下圖釘名稱旁的[更多]功能表圖示![更多圖示](assets/more-icon.png)，然後按一下[左移] **或[4] [右移]**，將圖釘往選擇的方向移動，或按一下[6] [移動到前方] **，將圖釘移至最左邊的位置。**&#x200B;**&#x200B;**
+1. （選擇性）若要移動圖釘，請將滑鼠游標停留在圖釘上，並按一下圖釘名稱旁的[更多]功能表圖示![更多圖示](assets/more-icon.png)，然後按一下[左移] **或[4] [右移]**，將圖釘往選擇的方向移動，或按一下[6] [移動到前方] **，將圖釘移至最左邊的位置。******
 
-1. （選擇性）若要重新命名圖釘，請將游標停留在圖釘上，然後按一下圖釘名稱旁的[更多]功能表圖示![[更多]圖示](assets/more-icon.png)，然後按一下[重新命名圖釘]&#x200B;**。**&#x200B;輸入新名稱，然後按一下[儲存]。**&#x200B;**
+1. （選擇性）若要重新命名圖釘，請將游標停留在圖釘上，然後按一下圖釘名稱旁的[更多]功能表圖示![[更多]圖示](assets/more-icon.png)，然後按一下[重新命名圖釘]**。**&#x200B;輸入新名稱，然後按一下[儲存]。****
 
 1. （選擇性）若要刪除圖釘，請將滑鼠游標停留在圖釘上，然後按一下圖釘名稱旁的[更多]功能表圖示![[更多]圖示](assets/more-icon.png)，然後按一下[移除]圖釘&#x200B;**。**
 
@@ -128,4 +119,4 @@ ht-degree: 4%
 
    >[!TIP]
    >
-   >您可以隨時按一下[儲存]來儲存進度，然後再繼續修改範本。**&#x200B;**
+   >您可以隨時按一下[儲存]來儲存進度，然後再繼續修改範本。****

@@ -4,9 +4,9 @@ description: 這是我們的團隊的內部文章，詳細記錄我們用於存�
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: 12b7638472b2138896a283283d368b4092a1e67b
+source-git-commit: dc4b6dc284c59281206a457395765e634067ba91
 workflow-type: tm+mt
-source-wordcount: '1138'
+source-wordcount: '1245'
 ht-degree: 2%
 
 ---
@@ -330,7 +330,7 @@ ht-degree: 2%
 <td><p>存取層級設定</p> </td> 
    <td> <p>編輯Scenario Planner的存取權</p> </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td> <p>物件許可權 </p> </td> 
    <td> <p>管理計畫的許可權</p>  </td> 
   </tr> 
@@ -343,7 +343,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->如果您的公司過去曾購買Adobe Workfront Goals，則不受保護。 Adobe Workfront目標已無法購買。
+>如果您的公司過去曾購買此套件，您可以繼續使用Adobe Workfront目標。 Adobe Workfront目標已無法購買。
 
 展開以檢視本文中功能的存取需求。
 
@@ -420,10 +420,10 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[中的](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation)存取需求。
+如需此表格中資訊的詳細資訊，請參閱檔案[中的](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation)存取需求。
 
 
-如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)。
+如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)。
 
 ## 進階企業控制項
 
@@ -438,7 +438,7 @@ ht-degree: 2%
 * 工作流程Prime和更新版本
 * Workfront Prime和更新版本
 
-如需套件的詳細資訊，請參閱[Adobe Workfront定價與封裝頁面](https://business.adobe.com/tw/products/workfront/pricing.html)。
+如需套件的詳細資訊，請參閱[Adobe Workfront定價與封裝頁面](https://business.adobe.com/products/workfront/pricing.html)。
 
 進階企業控制項：
 
@@ -461,7 +461,32 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何</p> </td> 
+   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>標準</p><p>工作或更高</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront Fusion授權</td> 
+   <td>
+   <p>作業型：無Workfront Fusion授權需求</p>
+   <p>以聯結器為基礎（舊版）：用於工作自動化和整合的Workfront Fusion </p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">產品</td> 
+   <td>
+   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
+   </td> 
+  </tr>
+ </tbody> 
+</table>
+
+如需此表格中資訊的詳細資訊，請參閱檔案[中的](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation)存取需求。
+
+如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)。
+<td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 

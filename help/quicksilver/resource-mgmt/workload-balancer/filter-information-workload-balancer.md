@@ -6,9 +6,9 @@ description: 為了有效地找到工作專案並專注於您管理的使用者�
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: fc82ce4b5abb2cd7411d62ac8bb428bc5337386f
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '2458'
+source-wordcount: '2437'
 ht-degree: 0%
 
 ---
@@ -36,27 +36,21 @@ ht-degree: 0%
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
-
 <table style="table-layout:auto"> 
  <col> 
- </col> 
- <col> 
- </col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td> <p>任何</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td><p>新增：標準</p>
-       <p>目前：計畫（在資源區域使用工作負載平衡器時）</p>
-       <p>或</p>
-       <p>工作（使用團隊或專案的工作負載平衡器時）</p></td>
+   <td>Adobe Workfront套件</td> 
+   <td><p>任何</p></td>
   </tr>
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
+   <td>Adobe Workfront授權</td> 
+   <td><p>標準</p>
+       <p>計畫：在資源區域使用工作負載平衡器；工作，使用團隊或專案的工作負載平衡器</p></td>
+  </tr>
+  <tr> 
+   <td>存取層級設定</td> 
    <td> <p>檢視以下專案或更高存取權：</p> 
     <ul> 
      <li>資源管理</li> 
@@ -68,7 +62,7 @@ ht-degree: 0%
     <p>建立或編輯篩選器時，編輯對篩選器、檢視和群組的存取權 </p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">物件許可權</td> 
+   <td>物件許可權</td> 
    <td> <p>檢視專案、任務和問題的許可權或更高</p>
    <p>管理您要編輯或刪除之篩選器的許可權</p>
    </td> 
@@ -76,7 +70,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -239,7 +233,7 @@ ht-degree: 0%
 
    如需有關套用已儲存篩選的資訊，請參閱本文的[刪除工作負載平衡器](#delete-a-saved-filter-in-the-workload-balancer)中已儲存的篩選。
 
-1. （視條件而定）將滑鼠移至&#x200B;**未指派的工作**&#x200B;或&#x200B;**已指派的工作**&#x200B;區域的右上角&#x200B;**篩選器**&#x200B;圖示![篩選器圖示](assets/filter-icon.png)上方，以顯示目前套用之篩選器名稱或數量的工具提示。
+1. （視條件而定）將滑鼠移至&#x200B;**未指派的工作**&#x200B;或![已指派的工作](assets/filter-icon.png)區域的右上角&#x200B;**篩選器**&#x200B;圖示&#x200B;**篩選器圖示**&#x200B;上方，以顯示目前套用之篩選器名稱或數量的工具提示。
 
    ![篩選器圖示與篩選器名稱](assets/filter-icon-with-number-and-tooltip-with-name-of-filter-wb-nwe-350x98.png)
 
@@ -258,7 +252,7 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   > 編輯篩選器時，您可以按一下「**編輯篩選器**」方塊左下角的「**更多**」功能表「![更多」功能表「](assets/more-menu-edit-filter.png)」，然後按一下「**複製**」。
+   > 編輯篩選器時，您可以按一下「**編輯篩選器**」方塊左下角的「![更多](assets/more-menu-edit-filter.png)」功能表「**更多」功能表「**」，然後按一下「**複製**」。
 
 1. 針對複製的篩選條件編輯下列資訊：
 
@@ -268,7 +262,7 @@ ht-degree: 0%
    * 任何欄位、修飾元或值。
 
 1. （選擇性）按一下&#x200B;**新增篩選器**，將更多陳述式新增至重複的篩選器。
-1. 按一下「儲存」**&#x200B;**，將重複的篩選器儲存在&#x200B;**「我的篩選器」**&#x200B;區域中。 原始濾鏡保持不變，而複製的濾鏡會儲存為新濾鏡。
+1. 按一下「儲存」****，將重複的篩選器儲存在&#x200B;**「我的篩選器」**&#x200B;區域中。 原始濾鏡保持不變，而複製的濾鏡會儲存為新濾鏡。
 
 ## 在工作負載平衡器中編輯現有篩選器 {#edit-an-existing-filter-in-the-workload-balancer}
 
@@ -320,7 +314,7 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >編輯篩選器時，您可以按一下「**編輯篩選器**」方塊左下角的「**更多**」功能表「![更多」功能表「](assets/more-menu-edit-filter.png)」，然後按一下「**刪除**」。
+   >編輯篩選器時，您可以按一下「**編輯篩選器**」方塊左下角的「![更多](assets/more-menu-edit-filter.png)」功能表「**更多」功能表「**」，然後按一下「**刪除**」。
 
 1. （選擇性）按一下&#x200B;**取消**&#x200B;以取消刪除並返回篩選器清單。
 1. 按一下&#x200B;**刪除**&#x200B;以確認刪除。 篩選會為您及所有擁有其許可權的使用者刪除。
@@ -349,7 +343,7 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   > 編輯篩選器時，您可以按一下&#x200B;**編輯篩選器**&#x200B;方塊左下角的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu-edit-filter.png)，然後按一下&#x200B;**共用**。
+   > 編輯篩選器時，您可以按一下&#x200B;**編輯篩選器**&#x200B;方塊左下角的![更多](assets/more-menu-edit-filter.png)功能表&#x200B;**更多功能表**，然後按一下&#x200B;**共用**。
 
 1. 在&#x200B;**授與**&#x200B;存取權的欄位中，輸入您要共用篩選器的使用者、團隊、角色、群組或公司名稱，然後在它們出現時選取它們。
 

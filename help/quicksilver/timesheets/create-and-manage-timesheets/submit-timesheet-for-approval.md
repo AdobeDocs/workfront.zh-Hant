@@ -3,12 +3,12 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: 提交時程表以供核准
 description: 提交您的時程表以供核准，讓您的經理可以檢視您的工作時間。 核准者可以確認所有記錄時間均已分配至正確的區域，且已為該時段記錄足夠的時數。
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 253e20c8-58f8-4b23-a769-b0e36557066a
-source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '839'
 ht-degree: 0%
 
 ---
@@ -23,33 +23,31 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td>Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>新增：淺色或更高 </p>
-   <p>目前：檢閱或以上 </p>
+   <td>Adobe Workfront授權</td> 
+   <td> <p>淺色或更高 </p>
+   <p>評論或以上 </p>
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
+   <td>存取層級設定</td> 
    <td> <p>檢視或更高的任務和問題存取權 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件許可權</td> 
+   <td>物件許可權</td> 
    <td> <p>檢視或更高的時程表許可權</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -60,7 +58,7 @@ ht-degree: 0%
 
 ### 提交時程表以供核准
 
-在時程表核准者設定之後（如文章[核準時程表](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md)中的[指定時程表核准者](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver)一節中所述），時程表底部的&#x200B;**關閉**&#x200B;按鈕變更為&#x200B;**提交核准**&#x200B;按鈕。
+在時程表核准者設定之後（如文章[核準時程表](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver)中的[指定時程表核准者](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md)一節中所述），時程表底部的&#x200B;**關閉**&#x200B;按鈕變更為&#x200B;**提交核准**&#x200B;按鈕。
 
 若要提交時程表以供核准，請執行下列步驟：
 
@@ -158,7 +156,7 @@ ht-degree: 0%
 1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)。
 
 1. 按一下&#x200B;**時程表**。
-1. 按一下畫面右上角的&#x200B;**我的時程表**，或從&#x200B;**篩選器** ![](assets/filter-nwepng.png)下拉式選單中選取&#x200B;**我的時程表**。
+1. 按一下畫面右上角的&#x200B;**我的時程表**，或從&#x200B;**篩選器** **下拉式選單中選取**&#x200B;我的時程表![](assets/filter-nwepng.png)。
 1. 按一下狀態為&#x200B;**已提交**&#x200B;之時程表的時間範圍。
 1. 按一下&#x200B;**撤銷**。
 

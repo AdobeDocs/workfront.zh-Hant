@@ -3,12 +3,12 @@ product-area: timesheets;system-administration
 navigation-topic: create-and-manage-timesheets
 title: 定義小時型別和可用性
 description: 小時型別是一種標籤，可讓您將時間專案分類。 根據您組織的報告要求數小時，這可能是記錄時間的重要部分。
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 3c07a6b0-4751-4fce-ac28-6a83084025d4
-source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1479'
 ht-degree: 0%
 
 ---
@@ -36,32 +36,30 @@ Adobe Workfront中有2組小時型別：
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
- <col> 
- </col> 
+ </col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td>Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>新增：標準</p> 
-   <p>目前：計畫</p>
+   <td>Adobe Workfront授權</td> 
+   <td> <p>標準</p> 
+   <p>規劃</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
+   <td>存取層級設定</td> 
    <td> <p>系統管理員存取權以定義全系統的時數型別並編輯所有使用者</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件許可權</td> 
+   <td>物件許可權</td> 
    <td>管理專案的存取權以定義專案的小時型別</td> 
   </tr> 
  </tbody> 
 </table>
 
-*如需此表格中資訊的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

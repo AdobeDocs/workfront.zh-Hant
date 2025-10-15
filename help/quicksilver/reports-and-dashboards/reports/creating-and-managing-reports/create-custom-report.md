@@ -6,9 +6,9 @@ description: 您可以透過建立報告，提供貴組織在Adobe Workfront中�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1817'
+source-wordcount: '1816'
 ht-degree: 1%
 
 ---
@@ -30,34 +30,33 @@ ht-degree: 1%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具備下列條件：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：標準 </p>
-   或
-   <p>目前：計畫 </p> </td> 
+   <td> 
+      <p>標準</p>
+      <p>規劃</p>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>編輯報告、儀表板、行事曆的存取權</p> <p>編輯對篩選器、檢視、群組的存取權</p></td> 
+   <td> <p>編輯報告、儀表板、行事曆的存取權</p> <p>編輯對篩選器、檢視、群組的存取權</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>您可取得所建立報告的「管理」許可權。</p></td> 
+   <td> <p>您取得所建立報表的管理許可權</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -69,7 +68,7 @@ ht-degree: 1%
 
    Report Builder隨即載入。
 
-   如需有關可用物件報表的特定資訊，請參閱文章[瞭解Adobe Workfront中的物件](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)中的[物件報表](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects)一節。
+   如需有關可用物件報表的特定資訊，請參閱文章[瞭解Adobe Workfront中的物件](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects)中的[物件報表](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)一節。
 
    ![選取新報告](assets/nwe-select-new-report-350x666.png)
 
@@ -123,11 +122,11 @@ ht-degree: 1%
 
 1. （選擇性）若要移除現有的欄，請按一下您要移除的欄，然後按一下欄標題中目前名稱旁的&#x200B;**x**。
 
-1. 若要新增欄，請按一下[新增欄]。**&#x200B;**
+1. 若要新增欄，請按一下[新增欄]。****
 
    或
 
-   若要變更現有欄，請按一下該欄，在Report Builder左上角的&#x200B;**顯示在此欄位欄位**&#x200B;區域中，按一下目前欄位右側的&#x200B;**移除**&#x200B;圖示![移除欄點陣圖示](assets/remove-column-icon.png)，然後開始輸入新欄位，然後在欄位顯示在清單中時按一下它。
+   若要變更現有欄，請按一下該欄，在Report Builder左上角的&#x200B;**顯示在此欄位欄位**&#x200B;區域中，按一下目前欄位右側的![移除](assets/remove-column-icon.png)圖示&#x200B;**移除欄點陣圖示**，然後開始輸入新欄位，然後在欄位顯示在清單中時按一下它。
 
    如需有關您在欄中看到的欄位詳細資訊，請參閱[Adobe Workfront術語辭彙表](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)。
 
@@ -191,7 +190,7 @@ ht-degree: 1%
 
 1. 按一下&#x200B;**套用**&#x200B;以套用您目前的變更，並使用下列選項繼續編輯報告。
 
-   如果您已完成編輯報表中的欄，而且想要儲存報表，請按一下[儲存+關閉]。**&#x200B;**
+   如果您已完成編輯報表中的欄，而且想要儲存報表，請按一下[儲存+關閉]。****
 
 ### 新增群組至報表 {#add-groupings-to-a-report}
 
@@ -261,4 +260,4 @@ ht-degree: 1%
 
 1. 按一下&#x200B;**套用**&#x200B;以套用您目前的變更，並使用下列選項繼續編輯報告。
 
-   如果您已完成編輯報告並想要儲存報告，請按一下[儲存+關閉]。**&#x200B;**
+   如果您已完成編輯報告並想要儲存報告，請按一下[儲存+關閉]。****

@@ -6,7 +6,7 @@ description: 需要還原專案時，請聯絡Adobe Workfront管理員或群組�
 author: Alina
 feature: Work Management
 exl-id: 7b3315b0-7da7-4e5f-a8b5-9e0207f38de1
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 0%

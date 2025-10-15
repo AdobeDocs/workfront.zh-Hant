@@ -6,10 +6,10 @@ description: 從Experience Manager Assets Essentials連結資產後，您可以�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abd641a1-081b-4b86-95ee-f0ed030d704c
-source-git-commit: 5d818b2e3c3314c6af076df46f7f806214f97bab
+source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 1%
+source-wordcount: '441'
+ht-degree: 2%
 
 ---
 
@@ -23,36 +23,32 @@ ht-degree: 1%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具備下列條件：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p> 任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td> 
-   <p>新增：標準</p>
-   <p>或</p>
-   <p>目前：工作或以上</p>
-   <p>您必須為使用者啟用校樣。</p>
+   <p>標準</p>
+   <p>工作或更高</p>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">產品</td> 
+   <td role="rowheader">其他產品</td> 
    <td>您必須擁有Experience Manager as a Cloud Service或Assets Essentials，並且您必須在Admin Console中作為使用者新增到產品中。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>編輯檔案的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td> <p>編輯檔案的存取權</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>檢視存取許可權或更高</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>檢視存取許可權或更高</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -111,7 +107,7 @@ ht-degree: 1%
 
 如需有關如何管理現有校訂的詳細資訊，請參閱[在Adobe Workfront中管理校訂：文章索引](../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md)。
 
-## 檢閱校訂
+## 審閱校訂
 
 指派的稽核者可以執行下列動作：
 

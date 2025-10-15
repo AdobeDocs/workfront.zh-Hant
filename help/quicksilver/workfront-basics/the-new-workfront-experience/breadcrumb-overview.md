@@ -4,9 +4,9 @@ title: 階層連結概觀
 description: 階層連結會顯示所有物件型別的完整導覽階層。
 feature: Get Started with Workfront
 exl-id: c4103f8e-4c3f-4d4d-a0eb-628c60735ab7
-source-git-commit: 0fea13b0a1d8f14c2d601e0ed0a8d15684a3c4d7
+source-git-commit: d7b8d7285d23d14f5390c9de1001de553c2b796f
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
@@ -42,30 +42,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-+++存取需求
 
-您必須具有下列存取權才能執行本文中的步驟：
-
-<table style="table-layout:auto"> 
- <col> 
- </col> 
- <col> 
- </col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計畫*</strong></td> 
-   <td> <p>任何</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>[!UICONTROL Request]或更高版本</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-*若要瞭解您擁有的計畫或授權型別，請連絡您的[!DNL Workfront]管理員。
-
-+++
 
 <!--drafted: this is no longer possible, since we removed Campaigns, but it might come back as part of Maestro: 
 

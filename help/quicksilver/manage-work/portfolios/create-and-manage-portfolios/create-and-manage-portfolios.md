@@ -2,22 +2,24 @@
 content-type: reference
 product-area: portfolios
 navigation-topic: portfolios-navigation-topic
-title: 建立和管理產品組合
-description: Portfolio是競爭相同資源、預算和排程的專案集合。 Portfolio中的專案非常類似，以至於會使用相同的資源集區，並根據相同的計分卡測量。
+title: 建立及管理投資組合：文章索引
+description: Portfolio是競爭相同資源、預算和排程的專案集合。 Portfolio中的專案相當類似，因此會使用相同的資源集區，並針對相同的計分卡測量。
 author: Alina
 feature: Work Management, Strategic Planning
 recommendations: noDisplay, noCatalog
 exl-id: eea47cc9-becb-4617-b49c-265c20753908
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
 
-# 建立和管理產品組合
+# 建立及管理投資組合：文章索引
 
-Portfolio是競爭相同資源、預算和排程的專案集合。 Portfolio中的專案非常類似，以至於會使用相同的資源集區，並根據相同的計分卡測量。
+<!--Audited: 08/2025-->
+
+Portfolio是競爭相同資源、預算和排程的專案集合。 Portfolio中的專案相當類似，因此會使用相同的資源集區，並針對相同的計分卡測量。
 
 本節包含下列文章：
 

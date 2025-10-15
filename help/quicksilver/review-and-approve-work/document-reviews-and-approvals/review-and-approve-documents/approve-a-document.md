@@ -6,9 +6,9 @@ description: 如果您被指派為檔案的核准者，則您有多種方式可�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
-source-git-commit: 1f7a17206ca77442b501f121f3333d4b60aa85f1
+source-git-commit: 7572dd64a7f23d6f8dcae374a327d67f2d6738c5
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1180'
 ht-degree: 0%
 
 ---
@@ -27,32 +27,33 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>評論或以上</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> 
+   <p>投稿人或以上</p>
+   <p>評論或以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
-   <td> <p>檢視與核准關聯的物件或更高的存取許可權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td> <p>檢視與核准關聯的物件或更高的存取許可權</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>檢視與核准相關聯的物件或更高許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>檢視與核准相關聯的物件或更高許可權</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -85,7 +86,7 @@ ht-degree: 0%
 
       * **核准**&#x200B;表示此版本的檔案不需要變更，且已獲得核准。
 
-      * **核准變更**&#x200B;表示檔案上仍需要一些小變更，但核准條件為進行這些變更。 如果選取此選項，將會出現一個視窗，其中包含名為&#x200B;**後續步驟**&#x200B;的文字方塊，您可以在其中指定要核准檔案所需的變更。 您可以輸入該資訊並按一下[新增訊息]&#x200B;**&#x200B;**，或按一下[略過]&#x200B;**以傳送核准決定，而不需要其他資訊。**
+      * **核准變更**&#x200B;表示檔案上仍需要一些小變更，但核准條件為進行這些變更。 如果選取此選項，將會出現一個視窗，其中包含名為&#x200B;**後續步驟**&#x200B;的文字方塊，您可以在其中指定要核准檔案所需的變更。 您可以輸入該資訊並按一下[新增訊息]****，或按一下[略過]**以傳送核准決定，而不需要其他資訊。**
 
    * **需要工作**&#x200B;表示檔案版本未核准，需要重大變更。
 
@@ -113,7 +114,7 @@ ht-degree: 0%
 
       * **核准**&#x200B;表示此版本的檔案不需要變更，且已獲得核准。
 
-      * **核准變更**&#x200B;表示檔案上仍需要一些小變更，但核准條件為進行這些變更。 如果選取此選項，將會出現一個視窗，其中包含名為&#x200B;**後續步驟**&#x200B;的文字方塊，您可以在其中指定要核准檔案所需的變更。 您可以輸入該資訊並按一下[新增訊息]&#x200B;**&#x200B;**，或按一下[略過]&#x200B;**以傳送核准決定，而不需要其他資訊。**
+      * **核准變更**&#x200B;表示檔案上仍需要一些小變更，但核准條件為進行這些變更。 如果選取此選項，將會出現一個視窗，其中包含名為&#x200B;**後續步驟**&#x200B;的文字方塊，您可以在其中指定要核准檔案所需的變更。 您可以輸入該資訊並按一下[新增訊息]****，或按一下[略過]**以傳送核准決定，而不需要其他資訊。**
 
    * **需要工作**&#x200B;表示檔案版本未核准，需要重大變更。
 
@@ -135,7 +136,7 @@ ht-degree: 0%
 
       * **核准**&#x200B;表示此版本的檔案不需要變更，且已獲得核准。
 
-      * **核准變更**&#x200B;表示檔案上仍需要一些小變更，但核准條件為進行這些變更。 如果選取此選項，將會出現一個視窗，其中包含名為&#x200B;**後續步驟**&#x200B;的文字方塊，您可以在其中指定要核准檔案所需的變更。 您可以輸入該資訊並按一下[新增訊息]&#x200B;**&#x200B;**，或按一下[略過]&#x200B;**以傳送核准決定，而不需要其他資訊。**
+      * **核准變更**&#x200B;表示檔案上仍需要一些小變更，但核准條件為進行這些變更。 如果選取此選項，將會出現一個視窗，其中包含名為&#x200B;**後續步驟**&#x200B;的文字方塊，您可以在其中指定要核准檔案所需的變更。 您可以輸入該資訊並按一下[新增訊息]****，或按一下[略過]**以傳送核准決定，而不需要其他資訊。**
 
    * **需要工作**&#x200B;表示檔案版本未核准，需要重大變更。
 

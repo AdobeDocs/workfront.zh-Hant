@@ -6,9 +6,9 @@ description: 核准流程提供了為專案、任務和問題建立多步驟核�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
-source-git-commit: 06e42fa713bc9b0c1e308feb2b84ca62dafa416c
+source-git-commit: 2503b6e628e4860a5652c620d8e4d0eea2414443
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '727'
 ht-degree: 0%
 
 ---
@@ -25,32 +25,33 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>評論或以上</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td>
+   <p></p>貢獻或更高</p>
+   <p>評論或以上</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>檢視與核准關聯的物件或更高的存取許可權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td><p>檢視與核准關聯的物件或更高的存取許可權</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>檢視與核准相關聯的物件或更高許可權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>檢視與核准相關聯的物件或更高許可權</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -63,7 +64,7 @@ ht-degree: 0%
 * 在「首頁」區域中
 
    * 所有等待您核准的專案、任務、問題、時程表、檔案和存取權都會顯示在首頁區域的我的核准Widget中。
-   * 當您選擇我已提交的核准篩選選項時，您自己提交的核准也會顯示在首頁區域的我的核准Widget中。 如需詳細資訊，請參閱本文中[首頁]區域[&#128279;](#review-work-you-submit-for-approval-in-the-home-area)一節中的檢閱您提交核准的工作。
+   * 當您選擇我已提交的核准篩選選項時，您自己提交的核准也會顯示在首頁區域的我的核准Widget中。 如需詳細資訊，請參閱本文中[首頁]區域[一節中的](#review-work-you-submit-for-approval-in-the-home-area)檢閱您提交核准的工作。
    * 當關聯的專案、任務或問題標示為「已解決」、「保留」、「已關閉」或「已取消」時，核准會從「首頁」區域的「我的核准」小工具中移除。
 
   如需有關使用首頁的資訊，請參閱[開始使用首頁](../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md)。

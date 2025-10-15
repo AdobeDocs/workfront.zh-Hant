@@ -2,20 +2,22 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: issues
-title: 問題資訊
+title: 問題資訊：文章索引
 description: 問題指代表專案上未預期或計畫外工作的工作專案。 以下文章包含問題的相關資訊。
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 95ea93d7-6cc3-4aaa-a8f7-8a59dda6b5f1
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '125'
 ht-degree: 0%
 
 ---
 
-# 問題資訊
+# 問題資訊：文章索引
+
+<!--Audited: 08/2025-->
 
 處理專案時，您可能會發現發生未預期的事件。 您可以將這些非預期事件記錄為特定專案或任務的問題。
 

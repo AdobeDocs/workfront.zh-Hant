@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 3d523584-dcb8-4aa6-8217-611f22dc1450
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 9e7d20fe165e08997c14e207406fb8bed7597a56
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '956'
 ht-degree: 1%
 
 ---
@@ -26,28 +26,26 @@ ht-degree: 1%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td>任何</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td><p>新增：標準</p><p>或</p><p>目前：計畫</p></td> 
+   <td><p>標準</p><p>規劃</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td>
+   <td><p>您必須是Workfront管理員</p></td>
   </tr> 
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案[中的](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)存取需求。
 
 +++
 
@@ -65,7 +63,7 @@ ht-degree: 1%
 
 根據您的組織是否使用Adobe統一體驗，對應屬性的程式會有所不同。
 
-若要判斷您的組織是否在Adobe統一體驗中，請檢查您用來存取Workfront的URL。
+若要判斷您的組織是否位在Adobe統一體驗上，請檢查您用來存取Workfront的URL。
 
 | URL | Adobe體驗 |
 |---|---|
@@ -91,7 +89,7 @@ ht-degree: 1%
 
    您可以對應如地址、經理、工作角色、主群組等屬性。
 
-   屬性對應會以1:1的比例運作。 例如，您不能設定使用者屬於的每個群組；您只能為每個使用者設定一個。
+   屬性對應在1:1比例上運作。 例如，您不能設定使用者屬於的每個群組；您只能為每個使用者設定一個。
 
    >[!IMPORTANT]
    >
@@ -136,7 +134,7 @@ ht-degree: 1%
 
 1. 按一下&#x200B;**系統** > **單一登入(SSO)**。
 
-1. 選取&#x200B;**Adobe**&#x200B;標籤。
+1. 選取&#x200B;**Adobe**&#x200B;索引標籤。
 
 1. （選擇性和條件性）如果您的組織在傳統體驗中設定了屬性對應，而您想要將該屬性對應複製到Adobe統一體驗，請按一下&#x200B;**移轉對應**。 然後，您可以捨棄、刪除或編輯這些對應。
 
@@ -144,7 +142,7 @@ ht-degree: 1%
    >
    >建議您第一次在Adobe統一體驗中設定對應時移轉對應。 稍後再移轉這些檔案並沒有壞處，但不需要多次移轉。
 
-1. 若要建立新的屬性對應，請按一下[新增對應]。**&#x200B;**
+1. 若要建立新的屬性對應，請按一下[新增對應]。****
 
 1. 按一下Workfront欄位名稱旁的箭頭，然後選取您要對應到的[!DNL Workfront]欄位。
 
@@ -160,7 +158,7 @@ ht-degree: 1%
 
 1. 輸入要套用的Identity Manager欄位名稱，或輸入要套用的常數值文字。
 
-1. （選擇性）若要為相同的Workfront欄位新增更多規則，請按一下[新增規則] **&#x200B;**，然後依照步驟4-9執行。
+1. （選擇性）若要為相同的Workfront欄位新增更多規則，請按一下[新增規則] ****，然後依照步驟4-9執行。
 
    >[!IMPORTANT]
    >
@@ -170,6 +168,6 @@ ht-degree: 1%
 1. 若要刪除規則，請按一下要刪除的規則旁邊的三個點功能表，然後選取&#x200B;**刪除**。
 1. 若要刪除對應，請按一下對應卡片上的&#x200B;**刪除**&#x200B;圖示。
 
-1. 若要儲存，請捲動至頁面頂端，然後按一下[儲存]。**&#x200B;**
+1. 若要儲存，請捲動至頁面頂端，然後按一下[儲存]。****
 
 

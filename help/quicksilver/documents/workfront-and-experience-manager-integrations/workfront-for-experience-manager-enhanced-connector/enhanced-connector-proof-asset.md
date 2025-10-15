@@ -6,10 +6,10 @@ description: 從Experience Manager Assets連結資產後，您可以建立校樣
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: d72ac84f-1865-4122-bc77-d8200a4d0f69
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 3f9a824780f2ded914d461a473aef3b6ecfa8701
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 0%
+source-wordcount: '387'
+ht-degree: 3%
 
 ---
 
@@ -19,42 +19,48 @@ ht-degree: 0%
 
 ## 存取需求
 
-您必須具備下列條件：
++++ 展開以檢視本文中功能的存取需求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
-   <td> <p> 任何</p> </td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>工作或更高</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> 
+   <p>標準</p>
+   <p>工作或更高</p> 
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">產品</td> 
-   <td>您必須安裝Experience Manager Assets Essentials。</td> 
+   <td role="rowheader">其他產品</td> 
+   <td>Experience Manager Assets </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯檔案的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td> <p>編輯檔案的存取權</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>檢視存取許可權或更高</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>在檔案上檢視存取許可權或更高的許可權</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先決條件
 
 開始之前，您必須
 
-* 安裝Workfront for Experience Manager增強型聯結器
+* 安裝適用於Experience Manager增強型聯結器的Workfront
 
 ## 建立校訂
 
@@ -100,7 +106,7 @@ ht-degree: 0%
 
 如需有關如何管理現有校訂的詳細資訊，請參閱[在Adobe Workfront中管理校訂](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md)。
 
-## 檢閱校訂
+## 審閱校訂
 
 指派的稽核者可執行下列操作
 

@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: manage-issues
 title: 修改清單中多個問題的使用者指派
 description: 修改清單中多個問題的使用者指派
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: e1e75027-1847-44cf-afeb-b19394dc3ea5
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 7aa420946115fc612ad1d9e310583e5453ae0678
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '749'
 ht-degree: 1%
 
 ---
@@ -33,33 +33,33 @@ ht-degree: 1%
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td> <p>任何 </p> </td> 
+   <td>Adobe Workfront套件</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>新增：標準 </p>
-   <p>目前：要求或以上</p> </td> 
+   <td>Adobe Workfront授權</td> 
+   <td> <p>標準</p>
+   <p>要求或更高版本</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
+   <td>存取層級設定</td> 
    <td> <p>編輯問題的存取權</p> <p>檢視專案和任務的或更高存取權以指派一個問題</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件許可權</td> 
+   <td>物件許可權</td> 
    <td> <p>管理問題的許可權</p> <p>指派多個問題時，為問題所在的專案或任務貢獻許可權或以上。</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -81,7 +81,7 @@ ht-degree: 1%
 1. 前往問題清單，其中包含您要修改其指派的問題。
 1. （選用）建立篩選器，只顯示指派給您要修改之受指派人的問題。
 
-   例如，您可以建立篩選器，以僅顯示與作為受託人的特定角色有關的問題。 然後，您可以使用特定使用者來取代角色。 執行下列動作：
+   例如，您可以建立篩選器，以僅顯示與作為受託人的特定角色有關的問題。 然後，您可以使用特定使用者來取代角色。 請執行下列動作：
 
    1. 按一下&#x200B;**篩選器**&#x200B;下拉式清單，然後按一下&#x200B;**新增篩選器**。
 

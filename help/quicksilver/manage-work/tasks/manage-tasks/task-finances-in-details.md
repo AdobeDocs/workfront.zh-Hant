@@ -2,14 +2,14 @@
 product-area: projects
 navigation-topic: manage-tasks
 title: 在任務詳細資訊區段中管理任務財務
-description: 在任務詳細資訊區段中管理任務財務
+description: 您可以存取「任務詳細資訊」區段的「概觀」區域，來檢視或編輯任務的財務資訊。 您可以在「任務詳細資訊」區段中檢視或編輯的欄位數量有限。
 author: Alina
 feature: Work Management
 exl-id: 54ae48e5-bc8c-4e90-8fa1-0015523df4e6
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 4%
+source-wordcount: '830'
+ht-degree: 5%
 
 ---
 
@@ -19,36 +19,65 @@ ht-degree: 4%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: some of the information (fields) in this article is also in the Edit tasks article; if you need to update one field, to it in both articles)</p>
 -->
 
-您可以存取任務詳細資訊區段的概觀區域來檢視或編輯任務的財務資訊。 您可以在此區域中檢視或編輯的欄位數量有限。 如需有關編輯工作之所有財務資訊的資訊，請參閱[編輯工作](../../../manage-work/tasks/manage-tasks/edit-tasks.md)。
+您可以存取「任務詳細資訊」區段的「概觀」區域，來檢視或編輯任務的財務資訊。 您可以在此區域中檢視或編輯的欄位數量有限。
+
+如需有關編輯工作之所有財務資訊的資訊，請參閱[編輯工作](../../../manage-work/tasks/manage-tasks/edit-tasks.md)。
 
 ## 存取需求
 
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>工作或更高</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td><p>標準</p> 
+   <p>工作或更高</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯專案和任務的存取權</p> <p>檢視對財務資料或以上資料的存取權</p> <p>您必須具有編輯財務資料的存取權，才能編輯任務的財務資訊</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何變更存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>編輯專案和任務的存取權</p> <p>檢視對財務資料或以上資料的存取權</p> <p>您必須具有編輯財務資料的存取權，才能編輯任務的財務資訊</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>檢視包含「檢視財務」或更高版本之工作的許可權</p> <p>您必須對包含編輯財務的任務具有管理許可權，才能編輯任務的財務資訊</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>檢視包含「檢視財務」或更高版本之工作的許可權</p> <p>您必須對包含編輯財務的任務具有管理許可權，才能編輯任務的財務資訊</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Work or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Projects and Tasks</p> <p>View access to&nbsp;Financial&nbsp;Data or higher</p> <p>You must have Edit access to&nbsp;Financial Data to edit financial information on tasks</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View permissions to the task that include View Finance or higher</p> <p>You must have Manage permissions on the task that include Edit Finance to edit financial information on tasks</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 在任務詳細資訊區段中編輯任務財務
 
@@ -137,4 +166,4 @@ ht-degree: 4%
     </tbody> 
    </table>
 
-1. （視條件而定）如果您正在編輯財務區段中的欄位，請按一下&#x200B;**儲存**&#x200B;**變更**。
+1. （視條件而定）如果您正在編輯財務區段中的欄位，請按一下&#x200B;**儲存****變更**。

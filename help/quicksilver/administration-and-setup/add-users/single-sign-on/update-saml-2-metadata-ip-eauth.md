@@ -8,9 +8,9 @@ exl-id: 55d7d8a8-0dfe-45bc-a23a-47111347e9ca
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: 75fea812b4574191522af4721a013b57aa5d609f
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '895'
 ht-degree: 0%
 
 ---
@@ -32,26 +32,26 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td>任何</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td>規劃</td> 
+   <td><p>標準</p><p>規劃</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>您必須是Workfront管理員。</p> <p><b>注意</b>：如果您還是沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td> <p>您必須是Workfront管理員。</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -78,7 +78,7 @@ Okta是支援SAML 2.0的身分提供者範例。本節說明如何使用Okta作�
 
 1. 在&#x200B;**建立新應用程式整合對話方塊**&#x200B;中，選取&#x200B;**SAML 2.0**，然後按一下&#x200B;**建立**。
 
-1. 為您的Workfront應用程式指定名稱，然後按一下[下一步]。**&#x200B;**
+1. 為您的Workfront應用程式指定名稱，然後按一下[下一步]。****
 1. 在顯示的「SAML設定」頁面中，找到「SAML設定」頁面所需的資訊：
 
    1. 無需離開顯示Okta介面的瀏覽器標籤，即可開啟個別的瀏覽器標籤或視窗。

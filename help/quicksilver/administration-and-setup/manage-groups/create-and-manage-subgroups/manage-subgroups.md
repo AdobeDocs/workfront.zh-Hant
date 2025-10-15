@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5186d266-fa9f-445d-9dcc-bc07eb147b60
-source-git-commit: 6c3f5ee43040f81dac734c5e0b4def9021a0d737
+source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1386'
 ht-degree: 0%
 
 ---
@@ -42,32 +42,27 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td>任何</td> 
+   <td>Adobe Workfront套件</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
+   <td>Adobe Workfront授權</td> 
+   <td><p>標準</p>
+       <p>規劃</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td><p>新增：標準</p>
-       <p>或</p>
-       <p>目前：計畫</p></td>
-  </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">存取層級設定</td> 
+   <td>存取層級設定</td> 
    <td>您必須是群組的群組管理員或系統管理員。</td>
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -81,9 +76,9 @@ ht-degree: 0%
 
 1. 按一下要新增子群組的群組名稱。
 1. 在左側功能表中，按一下&#x200B;**子群組**。
-1. 若要從您檢視的群組建立新子群組，請按一下[新增子群組]。**&#x200B;**
+1. 若要從您檢視的群組建立新子群組，請按一下[新增子群組]。****
 
-   或者，如果您想要在清單中另一個子群組下方建立新的子群組，請選取該子群組，然後按一下[新增子群組]。**&#x200B;**
+   或者，如果您想要在清單中另一個子群組下方建立新的子群組，請選取該子群組，然後按一下[新增子群組]。****
 
    如需您可以用來設定子群組的選項相關資訊，請參閱[建立子群組](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md)。
 
@@ -185,7 +180,7 @@ ht-degree: 0%
 >[!TIP]
 >
 >當您停用下有子群組的群組時，這些子群組也會變成非使用中。 如果您希望其中一個處於作用中狀態，可以使用這些指示將其從父群組中移除，然後重新啟用它。
->&#x200B;>如需停用及重新啟動群組的說明，請參閱[停用或重新啟動群組](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md)。
+>>如需停用及重新啟動群組的說明，請參閱[停用或重新啟動群組](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md)。
 
 {{step-1-to-setup}}
 

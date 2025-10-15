@@ -6,9 +6,9 @@ description: Adobe Workfront有一個準備使用的內建報告詳細清單。 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 32a47c25-192a-4e97-9016-42e6b6e201b9
-source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '2986'
+source-wordcount: '2978'
 ht-degree: 10%
 
 ---
@@ -23,31 +23,23 @@ Workfront管理員可以隱藏內建報表，讓使用者無法存取。 如需�
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
-
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
    <td> 
-      <p>新增：</p>
-         <ul>
-         <li><p>投稿人或以上</p></li>
-         </ul>
-      <p>目前：</p>
-         <ul>
-         <li><p>要求或更高版本</p></li>
-         </ul>
+      <p>投稿人或以上</p>
+      <p>要求或更高版本</p>
    </td>
-  </tr> 
+  </tr>
   <tr> 
    <td role="rowheader">存取層級設定</td> 
    <td> <p>編輯對篩選器、檢視、群組的存取權</p> <p>檢視或更高的報告、儀表板、行事曆存取權</p> </td> 
@@ -59,13 +51,13 @@ Workfront管理員可以隱藏內建報表，讓使用者無法存取。 如需�
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
 ## 內建報表概觀 {#overview-of-built-in-reports}
 
-您可以建立內建報表的副本，並將其另存為新報表。 如需有關建立內建報表復本的詳細資訊，請參閱文章[建立報表復本](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md)中的[建立報表的新版本](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md#create-a-new-version-of-a-report)。
+您可以建立內建報表的副本，並將其另存為新報表。 如需有關建立內建報表復本的詳細資訊，請參閱文章[建立報表復本](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md#create-a-new-version-of-a-report)中的[建立報表的新版本](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md)。
 
 下列報表隨Workfront套件提供。 報表適用於存取層級中至少擁有內建報表檢視許可權的所有使用者。
 
@@ -348,7 +340,7 @@ Workfront管理員可以隱藏內建報表，讓使用者無法存取。 如需�
    <td>顯示所有任務之狀態的任務報告。 報告按狀態分組，並包括圖表。</td> 
   </tr> 
   <tr> 
-   <td>待檢閱時程表</td> 
+   <td>待審閱時程表</td> 
    <td>顯示其核准者為登入使用者之已提交與已拒絕時程表的時程表報告。 報表會顯示下列欄位：時程表的日期範圍、擁有者、總時數、加班、核准者名稱和狀態。</td> 
   </tr> 
   <tr> 

@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront工作負載平衡器，將使用者從�
 author: Lisa
 feature: Resource Management
 exl-id: e4293d4a-afb8-48ef-8a8e-6fad2ef82a25
-source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '382'
 ht-degree: 2%
 
 ---
@@ -27,25 +27,21 @@ ht-degree: 2%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td> <p>任何 </p> </td> 
+   <td>Adobe Workfront套件</td> 
+   <td><p>任何</p></td>
   </tr>
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td><p>新增：標準</p>
-       <p>或</p>
-       <p>目前：計畫，在資源區域使用工作負載平衡器時；</br>
-       工作，使用團隊或專案的工作負載平衡器時</p></td>
+   <td>Adobe Workfront授權</td> 
+   <td><p>標準</p>
+       <p>計畫：在資源區域使用工作負載平衡器；工作，使用團隊或專案的工作負載平衡器</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
+   <td>存取層級設定</td> 
    <td> <p>編輯下列專案的存取權：</p> 
     <ul> 
      <li>資源管理</li> 
@@ -55,13 +51,13 @@ ht-degree: 2%
     </ul></td>
   </tr> 
   <tr> 
-   <td role="rowheader">物件許可權</td> 
+   <td>物件許可權</td> 
    <td>包含進行指派的專案、任務和問題的貢獻許可權或更高</td> 
   </tr> 
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -81,4 +77,4 @@ ht-degree: 2%
 
    如果專案符合該區域的篩選條件，且未指派給任何其他使用者，則會顯示在「未指派的工作」區域中；如果專案指派給其他使用者，則會顯示在使用者區域中。
 
-   如需有關在工作負載平衡器中篩選資訊的資訊，請參閱在工作負載平衡器[&#128279;](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)中的篩選資訊。
+   如需有關在工作負載平衡器中篩選資訊的資訊，請參閱在工作負載平衡器[中的篩選資訊](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)。

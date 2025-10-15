@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: 839b53afb9233ef0e36e981b243c8b2593b45f0f
+source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '792'
 ht-degree: 0%
 
 ---
@@ -30,26 +30,26 @@ ht-degree: 0%
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront]計畫</strong>
+   <td>Adobe Workfront套件
    </td>
-   <td> Prime或Ultimate （僅限新計畫）
+   <td> <p>Prime或Ultimate</p>
    </td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront]個授權</strong>
+   <td><strong>Workfront授權</strong>
    </td>
-   <td> [!UICONTROL 標準]
+   <td> <p>標準</p>&gt;
    </td>
   </tr>
    <tr>
    <td>存取層級設定
    </td>
-   <td>您必須是[!DNL Workfront]管理員。
+   <td><p>您必須是Workfront管理員。</p>
    </td>
   </tr>
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 建立套件
 
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 1. 若要新增其他型別的物件，請重複步驟7-9。
 1. （選擇性）若要從封裝中移除物件，請將游標暫留在「封裝內容」區域中的物件上，然後按一下物件旁邊的X。
-1. 將所有想要的物件加入封裝之後，按一下[儲存並關閉] **&#x200B;**&#x200B;儲存封裝而不進行組裝。
+1. 將所有想要的物件加入封裝之後，按一下[儲存並關閉] ****&#x200B;儲存封裝而不進行組裝。
 
    或
 
@@ -114,6 +114,6 @@ ht-degree: 0%
 1. 在產生的比較中，選取要包含在封裝中的物件。
 1. 按一下熒幕右上角的&#x200B;**建立封裝**。
 1. 輸入封裝的名稱和描述。
-1. 在[建立封裝]視窗中，按一下[建立封裝]。**&#x200B;**
+1. 在[建立封裝]視窗中，按一下[建立封裝]。****
 
    套件隨即產生。

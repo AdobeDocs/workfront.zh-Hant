@@ -7,9 +7,9 @@ description: 您可以在檔案詳細資訊和摘要面板中檢視對應中繼�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: cfad5855-033c-4a15-b5a2-7ff32ed65fe9
-source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
+source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
@@ -22,47 +22,43 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具備下列條件：
-
 <table>
   <tr>
-   <td><strong>Adobe Workfront計畫*</strong>
+   <td><strong>Adobe Workfront封裝</strong>
    </td>
    <td>任何
    </td>
   </tr>
   <tr>
-   <td><strong>Adobe Workfront授權*</strong>
+   <td><strong>Adobe Workfront授權</strong>
    </td>
-   <td>要求或更高版本
-   </td>
-  </tr>
-  <tr>
-   <td><strong>產品</strong>
-   </td>
-   <td>您必須擁有Experience Manager Assetsas a Cloud Service或Assets Essentials，並且您必須在Admin Console中作為使用者新增到產品中。
+   <td>
+   <p>投稿人或以上</p>
+   <p>要求或更高版本</p>
    </td>
   </tr>
   <tr>
-   <td><strong>存取層級設定*</strong>
+   <td><strong>其他產品</strong>
    </td>
-   <td>編輯檔案的存取權
-<p>
-<strong>注意： </strong>如果您還是沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<strong>建立或修改自訂存取層級</strong>。
+   <td>您必須擁有Experience Manager Assets as a Cloud Service或Assets Essentials，並且您必須在Admin Console中作為使用者新增到產品中。
+   </td>
+  </tr>
+  <tr>
+   <td><strong>存取層級設定</strong>
+   </td>
+   <td><p>編輯檔案的存取權</p>
    </td>
   </tr>
   <tr>
    <td><strong>物件許可權</strong>
    </td>
    <td>檢視存取許可權或更高
-<p>
-如需請求其他存取權的資訊，請參閱<strong>請求物件</strong>的存取權。
    </td>
   </tr>
 </table>
 
 
-*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -70,7 +66,7 @@ ht-degree: 0%
 
 開始之前，
 
-* 您的Workfront管理員必須設定Experience Manager整合。 如需詳細資訊，請參閱[設定Experience Manager Assetsas a Cloud Service整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)或[設定Experience Manager Assets Essentials整合](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)。
+* 您的Workfront管理員必須設定Experience Manager整合。 如需詳細資訊，請參閱[設定Experience Manager Assets as a Cloud Service整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)或[設定Experience Manager Assets Essentials整合](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)。
 
 
 ## 文件詳細資訊

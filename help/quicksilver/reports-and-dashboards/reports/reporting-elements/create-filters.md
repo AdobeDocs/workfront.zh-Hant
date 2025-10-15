@@ -6,9 +6,9 @@ description: 您可以透過篩選條件限制在專案清單中熒幕顯示的�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '2419'
+source-wordcount: '2375'
 ht-degree: 1%
 
 ---
@@ -35,48 +35,35 @@ ht-degree: 1%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront計畫*</strong></td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront授權*</strong></td> 
+   <td role="rowheader">Adobe Workfront授權</strong></td> 
    <td> 
-      <p>新增：</p>
-         <ul>
-         <li><p>修改篩選器的貢獻者</p></li>
-         <li><p>在報告中修改篩選器的標準</p></li>
-         </ul>
-      <p>目前：</p>
-         <ul>
-         <li><p>請求修改篩選器</p></li>
-         <li><p>計畫修改報告中的篩選器</p></li>
-         </ul>
+    <p>修改篩選器的貢獻者或請求</p>
+    <p>在報告中修改篩選器的標準或計畫</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>存取層級設定*</strong></td> 
-   <td> <ul><li><p>編輯對篩選器、檢視和群組的存取權</p></li></ul>
-
-若要編輯報告中的篩選器，您除了要編輯篩選器、檢視和群組的存取許可權之外，還必須有下列存取層級設定：
-
-<ul><li><p>編輯報告、儀表板和行事曆的存取權</p></li></ul>   
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>編輯對篩選器、檢視、群組的存取權</p> <p>編輯報告、儀表板、行事曆的存取權</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>物件許可權*</strong></td> 
-   <td> <p>管理篩選器的許可權</p></td> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>管理篩選器的許可權</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -131,7 +118,7 @@ ht-degree: 1%
 使用不同介面建立篩選器時，請考量下列事項：
 
 * 您可在上表所列區域的舊版篩選器介面的相同位置找到標準產生器。
-* 標準產生器是所有可用區域的預設體驗。 若要切換到舊版篩選器產生器，請按一下&#x200B;[!UICONTROL **篩選器**]&#x200B;旁的&#x200B;**更多**&#x200B;功能表，然後選取&#x200B;[!UICONTROL **返回舊版篩選器**]。
+* 標準產生器是所有可用區域的預設體驗。 若要切換到舊版篩選器產生器，請按一下&#x200B;**篩選器**&#x200B;旁的&#x200B;[!UICONTROL **更多**]&#x200B;功能表，然後選取&#x200B;[!UICONTROL **返回舊版篩選器**]。
 
   ![返回舊版篩選器](assets/use-legacy-filters.png)
 
@@ -331,7 +318,7 @@ ht-degree: 1%
 
    或
 
-   將滑鼠懸停在篩選器抽屜中的任何篩選器上，按一下[更多]功能表![[更多]功能表](assets/more-icon-spectrum.png)，然後按一下[我的最愛]&#x200B;**&#x200B;**。
+   將滑鼠懸停在篩選器抽屜中的任何篩選器上，按一下[更多]功能表![[更多]功能表](assets/more-icon-spectrum.png)，然後按一下[我的最愛]****。
 
 1. （選擇性）按一下&#x200B;**棧疊篩選器**&#x200B;按鈕以啟用棧疊篩選器。 此選項可讓您套用多個已儲存的篩選器。 篩選規則會依照您選取它們的順序套用。
 

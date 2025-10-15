@@ -7,9 +7,9 @@ description: 工作投入概觀
 author: Alina
 feature: Work Management
 exl-id: 70f51e4b-43cc-427a-99e4-ebb056bb1070
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '1505'
+source-wordcount: '1474'
 ht-degree: 0%
 
 ---
@@ -61,22 +61,19 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>目前：計畫 </p>
-   或
-   <p>新增：標準 </p>
-    </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>標準</p>
+   <p>規劃</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -89,9 +86,37 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。 如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Current: Plan </p>
+   Or
+   <p>New: Standard </p>
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configuration</td> 
+   <td> <p>Edit access to Projects and Tasks</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to a project and its tasks</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 使用工作量時的注意事項
 
@@ -155,7 +180,7 @@ ht-degree: 0%
    <td>將完成一項任務所需的工作量設定為每日一般時數的25%。 這表示指派此層級工作投入的任務應在一天內最多需要2小時才能完成。 <code>(0.25*8=2)</code></td> 
   </tr> 
   <tr> 
-   <td>中</td> 
+   <td>媒體</td> 
    <td> <p>Medium完成任務的投入程度設定為每工作日一般時數的50%。 這表示指派此層級的工作量在一天內應該需要超過2小時且少於6小時來完成。<code>(0.50*80=4)</code> </p> <p>備註：當專案上啟用使用工作量自動計算任務計畫時數設定時，如果任務在啟用此設定之前有0個計畫時數，則此為任務的預設設定。 這會導致任務計畫時數更新為4小時。 </p> </td> 
   </tr> 
   <tr> 

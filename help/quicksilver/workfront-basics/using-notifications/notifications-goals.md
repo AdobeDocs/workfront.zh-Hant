@@ -6,9 +6,9 @@ description: 通知：目標
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 12e66711-4438-4fcf-af79-7fcc2c3b1522
-source-git-commit: 585a65c497211c84cffafeeaa5016218fd66acd2
+source-git-commit: 770e20cf9e32ac9884f5eb320f7067fcf162c63d
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '388'
 ht-degree: 2%
 
 ---
@@ -23,48 +23,43 @@ ht-degree: 2%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: because there are conditions for who sees this, I added this from the How To articles/ template although this is not a How To. But I like the format, so I thought keeping it consistent might help users. We may decide to update this when we have access and prereq for overview-type articles)</p>
 -->
 
-+++ 展開以檢視本文中功能的存取需求。
-
-您必須具備下列條件：
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
-   <td> <p>[!UICONTROL Pro]或更高版本</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>[!UICONTROL Request]或更高版本</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權</strong></td> 
+   <td>
+   <p>投稿人或以上</p>
+    <p>要求或更高版本</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>產品</strong></td> 
+   <td role="rowheader"><strong>其他產品</strong></td> 
    <td>[!DNL Workfront Goals] <p>如需[!DNL Workfront Goals]的相關資訊，請參閱<a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">[!DNL Adobe Workfront Goals]概述</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>存取層級設定*</strong></td> 
-   <td> <p>[!UICONTROL View]存取[!DNL Goals]或更新版本</p> <p>注意：如果您還是沒有存取權，請詢問您的[!DNL Workfront]管理員是否對您的存取層級設定了其他限制。 如需[!DNL Workfront]管理員如何變更您的存取層級的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Object permissions</td> 
-    <td> <p>[Insert permissions needed]</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-   </tr>
-  --> 
+   <td> <p>[！UICONTROL View]存取[!DNL Goals]或更新版本</p></td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
 ## 先決條件
 
-* 您要更新其[!DNL Goals]個通知的使用者必須有包括[!UICONTROL 主要功能表]中的[!DNL Goals]區域的配置範本。
+* 您要更新其[!DNL Goals]個通知的使用者必須有包括[!DNL Goals]主要功能表[!UICONTROL 中的]區域的配置範本。
 
 
-## [!UICONTROL 使用者設定檔]區域中的[!DNL Goals]個通知
+## [!DNL Goals]使用者設定檔[!UICONTROL 區域中的]個通知
 
 下表列出的通知會提醒您有關[!DNL Workfront Goals]中發生的事件，例如有人指派目標、結果或活動給您，或有人對您擁有的目標、結果或活動進行更新。 如需有關設定您收到哪些通知的資訊，請參閱[修改您自己的電子郵件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)。
 
@@ -86,15 +81,15 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td><strong>有人將結果/活動指派給我</strong></td> 
-   <td> <p>將結果或活動指派給您的人員姓名</p> <p>結果或活動的目標期間</p> <p>結果或活動的名稱</p> <p><strong>[!UICONTROL 在網頁應用程式中開啟]</strong>按鈕可開啟[!UICONTROL 目標詳細資料]面板</p> <p><strong>[!UICONTROL 變更通知設定]</strong>按鈕可讓您管理通知。</p> </td> 
+   <td> <p>將結果或活動指派給您的人員姓名</p> <p>結果或活動的目標期間</p> <p>結果或活動的名稱</p> <p><strong>[！UICONTROL在網頁應用程式中開啟]</strong>按鈕可開啟[！UICONTROL目標詳細資料]面板</p> <p><strong>[！UICONTROL變更通知設定]</strong>按鈕可讓您管理通知。</p> </td> 
   </tr> 
   <tr> 
    <td><strong>有人為我建立了新的個人目標</strong> </td> 
-   <td> <p>指派目標的人員名稱</p> <p>目標的期間</p> <p>目標的名稱</p> <p><strong>[!UICONTROL 在網頁應用程式中開啟]</strong>按鈕可開啟[!UICONTROL 目標詳細資料]面板</p> <p><strong>[!UICONTROL 變更通知設定]</strong>按鈕可讓您管理通知。</p> </td> 
+   <td> <p>指派目標的人員名稱</p> <p>目標的期間</p> <p>目標的名稱</p> <p><strong>[！UICONTROL在網頁應用程式中開啟]</strong>按鈕可開啟[！UICONTROL目標詳細資料]面板</p> <p><strong>[！UICONTROL變更通知設定]</strong>按鈕可讓您管理通知。</p> </td> 
   </tr> 
   <tr> 
    <td><strong>有人對我目標上的更新留言</strong></td> 
-   <td> <p>留下評論的人員的姓名</p> <p>目標的期間 </p> <p>目標的名稱</p> <p>註解的文字</p> <p><strong>[!UICONTROL 在網頁應用程式中開啟]</strong>按鈕可開啟[!UICONTROL 目標詳細資料]面板</p> <p><strong>[!UICONTROL 變更通知設定]</strong>按鈕可讓您管理通知。</p> </td> 
+   <td> <p>留下評論的人員的姓名</p> <p>目標的期間 </p> <p>目標的名稱</p> <p>註解的文字</p> <p><strong>[！UICONTROL在網頁應用程式中開啟]</strong>按鈕可開啟[！UICONTROL目標詳細資料]面板</p> <p><strong>[！UICONTROL變更通知設定]</strong>按鈕可讓您管理通知。</p> </td> 
   </tr> 
   <tr> 
   </tbody> 

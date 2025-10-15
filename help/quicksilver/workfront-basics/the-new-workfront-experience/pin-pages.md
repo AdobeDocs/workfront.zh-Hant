@@ -5,9 +5,9 @@ description: 您可以釘選最重要的工作 [!DNL Adobe Workfront] 以增加�
 feature: Get Started with Workfront
 author: Courtney
 exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
-source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
+source-git-commit: d7b8d7285d23d14f5390c9de1001de553c2b796f
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '400'
 ht-degree: 1%
 
 ---
@@ -24,8 +24,6 @@ ht-degree: 1%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -33,20 +31,19 @@ ht-degree: 1%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計劃</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 封裝</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權</strong></td> 
-   <td> <p>新增：投稿人</p> 
-   <p>或</p>
-     <p>目前：要求</p>
+   <td> <p>貢獻者</p> 
+     <p>請求</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -81,7 +78,7 @@ ht-degree: 1%
 
    ![重新命名圖釘](assets/pin-menu.png)
 
-1. 輸入新的PIN名稱，然後按一下[儲存]。**&#x200B;**
+1. 輸入新的PIN名稱，然後按一下[儲存]。****
 
    ![按一下核取記號以重新命名圖釘](assets/rename-pin-dialog-box.png)
 

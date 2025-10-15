@@ -6,10 +6,10 @@ description: 依預設，使用者只能在他們有權檢視的報告中檢視�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e5e2b683-876c-45b4-ab61-07b1ad0b5650
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1193'
-ht-degree: 0%
+source-wordcount: '1185'
+ht-degree: 1%
 
 ---
 
@@ -30,43 +30,36 @@ ht-degree: 0%
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
-
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-      <td> 
-      <p>新增：</p>
-         <ul>
-         <li><p>標準</p></li>
-         </ul>
-      <p>目前：</p>
-         <ul>
-         <li><p>規劃</p></li>
-         </ul>
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> 
+      <p>標準</p>
+      <p>規劃</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
+   <td role="rowheader">存取層級設定</td> 
    <td> <p>編輯報告、儀表板、行事曆的存取權</p> <p>編輯對篩選器、檢視、群組的存取權</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>檢視報表許可權（檢視傳遞的報表）</p><p>管理報告的許可權（執行報告）</p></td> 
+     <td> <p>檢視許可權報表以檢視傳遞的報表</p>
+     <p>管理執行報告的報告許可權</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -86,13 +79,13 @@ ht-degree: 0%
 1. 按一下&#x200B;**報表設定**。
 
 1. 在&#x200B;**使用：**&#x200B;的存取許可權執行此報告欄位中，開始輸入您希望報告顯示為的使用者名稱，然後在清單中看到報告時選取它。\
-   以![&#128279;](assets/unshimmed-access-rights-of.png)的存取許可權執行
+   以![的存取許可權執行](assets/unshimmed-access-rights-of.png)
 
    >[!NOTE]
    >
    >具有較低存取層級、可建置報表的使用者無法為&#x200B;**以**&#x200B;欄位的存取許可權執行此報表。
 
-1. 按一下&#x200B;**完成**。
+1. 按一下「**完成**」。
 1. 按一下「**儲存並關閉**」。\
    現在，與共用報告的所有使用者都會顯示該報告，就好像該報告是由&#x200B;**以**&#x200B;欄位的存取許可權執行此報告中指定的使用者檢視過一樣。
 

@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ba6a9e68-68a1-4152-b024-cd39e06d556f
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '634'
 ht-degree: 0%
 
 ---
@@ -29,25 +29,21 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td>任何</td> 
   </tr> 
     <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：標準 </p>
- <p>或</p> 
-<p>目前：計畫 </p> 
+   <td> <p>標準</p>
+   <p>規劃</p>
 </td> 
-  </tr>
-
-<tr> 
+  </tr> 
+  <tr> 
    <td role="rowheader">存取層級設定</td> 
    <td> <p>您必須是Workfront管理員。</p> </td> 
   </tr> 
@@ -61,7 +57,7 @@ ht-degree: 0%
 ## 使用自訂存取層級設定使用者對專案的存取權
 
 1. 開始建立或編輯存取層級，如[建立或修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)中所述。
-1. 按一下專案右側&#x200B;**檢視**&#x200B;或&#x200B;**編輯**&#x200B;按鈕上的齒輪圖示![齒輪設定圖示](assets/gear-icon-settings.png)，然後在&#x200B;**微調您的設定**&#x200B;下選取您要授與的功能。
+1. 按一下專案右側![檢視](assets/gear-icon-settings.png)或&#x200B;**編輯**&#x200B;按鈕上的齒輪圖示&#x200B;**齒輪設定圖示**，然後在&#x200B;**微調您的設定**&#x200B;下選取您要授與的功能。
 
    ![微調複製專案的設定](assets/planner-fine-tune-your-settings-with-copy-projects.png)
 
@@ -70,7 +66,7 @@ ht-degree: 0%
    >* 擁有工作授權的使用者擁有有限的專案權利。 他們可以貢獻專案，但無法管理專案。
    >* 擁有「檢閱」授權的使用者擁有轉換問題專案的檢視許可權，但他們的檢視許可權有限。
    >* 如需使用者與他人共用專案時可授與的許可權相關資訊，請參閱[在Adobe Workfront中共用專案](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)。
-   >* 當您為特定型別的物件設定存取層級設定時，該設定不會影響使用者存取排名較低的物件。 例如，您可以限制使用者刪除其存取層級的專案，但這不會限制他們刪除等級低於專案的工作。如需物件階層的詳細資訊，請參閱[瞭解Adobe Workfront中的物件](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)一文中的[相互依存性和物件階層](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects)一節。
+   >* 當您為特定型別的物件設定存取層級設定時，該設定不會影響使用者存取排名較低的物件。 例如，您可以限制使用者刪除其存取層級的專案，但這不會限制他們刪除等級低於專案的工作。如需物件階層的詳細資訊，請參閱[瞭解Adobe Workfront中的物件](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects)一文中的[相互依存性和物件階層](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)一節。
 
 1. （選擇性）按一下[建立]選項右側的&#x200B;**設定共用預設值**，然後&#x200B;**新增規則**&#x200B;以新增新專案的共用規則。
 
@@ -96,7 +92,7 @@ ht-degree: 0%
 
 ## 依授權型別存取報告、儀表板和行事曆
 
-如需有關每個存取層級中的使用者可以對問題執行的資訊，請參閱文章[每個物件型別可用的功能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)中的[專案](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#projects)小節。
+如需有關每個存取層級中的使用者可以對問題執行的資訊，請參閱文章[每個物件型別可用的功能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#projects)中的[專案](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)小節。
 
 ## 共用專案的存取權
 

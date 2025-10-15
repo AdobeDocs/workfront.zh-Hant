@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: e9df34c206dd65ccc2edec00087248eb4ed16f54
+source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
 workflow-type: tm+mt
-source-wordcount: '2095'
+source-wordcount: '2088'
 ht-degree: 2%
 
 ---
@@ -32,26 +32,26 @@ ht-degree: 2%
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront]計畫</strong>
+   <td>Adobe Workfront套件
    </td>
-   <td> Prime或Ultimate （僅限新計畫）
+   <td> <p>Prime或Ultimate</p>
    </td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront]個授權</strong>
+   <td><strong>Workfront授權</strong>
    </td>
-   <td> [!UICONTROL 標準]
+   <td> <p>標準</p>&gt;
    </td>
   </tr>
    <tr>
    <td>存取層級設定
    </td>
-   <td>您必須是[!DNL Workfront]管理員。
+   <td><p>您必須是Workfront管理員。</p>
    </td>
   </tr>
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 先決條件
 
@@ -61,9 +61,9 @@ ht-degree: 2%
 
 「環境升級」功能的目的是提供與組態相關的物件從一個環境移動到另一個環境的功能。 不支援移動異動物件的功能（只有少數例外）。
 
-如需可升級物件及其包含的可升級子物件的清單，請參閱[在Workfront環境之間移動物件的概觀](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)一文中的[環境升級的支援物件](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion)。
+如需可升級物件及其包含的可升級子物件的清單，請參閱[在Workfront環境之間移動物件的概觀](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion)一文中的[環境升級的支援物件](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)。
 
-## 驗證
+## Authentication
 
 API會驗證每個請求，以確保使用者端有權檢視或修改請求的物件。
 
@@ -372,7 +372,7 @@ _空白_
 1. 說明（字串）
 1. 狀態（含值驗證的字串）
 
-如需可用狀態的詳細說明，請參閱文章[在Workfront環境之間移動物件的概觀](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)中的[環境推進狀態](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses)。
+如需可用狀態的詳細說明，請參閱文章[在Workfront環境之間移動物件的概觀](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses)中的[環境推進狀態](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)。
 
 
 #### URL
@@ -523,11 +523,11 @@ Deleted
  <tbody> 
   <tr> 
    <td>建立</td> 
-   <td><p>在目標環境中找不到對應的記錄時，動作會設為CREATE。</p><p>當這個動作設定於提供給<code>/install</code>端點的<code>translationmap</code>中時，安裝服務將會建立記錄。</p></td> 
+   <td><p>在目標環境中找不到對應的記錄時，動作會設為CREATE。</p><p>當這個動作設定於提供給<code>translationmap</code>端點的<code>/install</code>中時，安裝服務將會建立記錄。</p></td> 
   </tr> 
   <tr> 
    <td>USEEXISTING</td> 
-   <td><p>在目標環境中找到對應的記錄時，動作會設為USEEXISTING，而且也會在<code>translationmap</code>中擷取<code>targetId</code>。</p><p>當這個動作設定於提供給<code>/install</code>端點的<code>translationmap</code>中時，安裝服務將不會建立記錄。 但是，它會使用對應專案中包含的<code>targetId</code>來尋找其他可能參考此記錄的物件。</p><p>例如，在部署套件的目標環境中可能會找到「預設群組」。 不可能有兩個「預設群組」記錄，所以安裝服務將在任何其他物件建立動作中使用現有群組的GUID，這些動作包括對「預設群組」的參照，例如專案、表單或與此群組相關的任何其他實體。</p><p><b>附註：</b> <ul><li><p>指派USEEXISTING動作時，不會修改目標環境中的現有記錄。 </p><p>例如，如果在建立套件的來源沙箱中「預設群組」的描述已變更，且描述值在目標環境中不同，則在使用此<code>translationmap</code>安裝後，值將維持不變。</li></ul></td> 
+   <td><p>在目標環境中找到對應的記錄時，動作會設為USEEXISTING，而且也會在<code>targetId</code>中擷取<code>translationmap</code>。</p><p>當這個動作設定於提供給<code>translationmap</code>端點的<code>/install</code>中時，安裝服務將不會建立記錄。 但是，它會使用對應專案中包含的<code>targetId</code>來尋找其他可能參考此記錄的物件。</p><p>例如，在部署套件的目標環境中可能會找到「預設群組」。 不可能有兩個「預設群組」記錄，所以安裝服務將在任何其他物件建立動作中使用現有群組的GUID，這些動作包括對「預設群組」的參照，例如專案、表單或與此群組相關的任何其他實體。</p><p><b>注意：</b> <ul><li><p>指派USEEXISTING動作時，不會修改目標環境中的現有記錄。 </p><p>例如，如果在建立套件的來源沙箱中「預設群組」的描述已變更，且描述值在目標環境中不同，則在使用此<code>translationmap</code>安裝後，值將維持不變。</li></ul></td> 
   </tr> 
   <tr> 
    <td>覆寫</td> 
@@ -535,7 +535,7 @@ Deleted
   </tr> 
   <tr> 
    <td>忽略</td> 
-   <td><p>系統不會自動設定此動作。</p><p>它提供在執行<code>/install</code>呼叫之前手動覆寫指派的CREATE或USEEXISTING動作的功能。</p><p><b>附註： </b><ul><li><p>如果原本設定為CREATE的記錄設定為IGNORE，則任何子記錄也應設定為IGNORE。</p><p>例如，如果範本記錄已使用CREATE動作對應，而安裝使用者希望將其從部署中排除，他們可以將範本的動作設定為IGNORE。</p><p>在此情況下，如果安裝使用者未將範本任務、範本任務指派、範本任務前置任務、佇列定義、佇列主題、路由規則等也設定為IGNORE，則部署會導致安裝嘗試失敗。</p></li><li><p>如果原本設定為USEEXISTING的記錄設定為IGNORE，安裝過程中可能會產生一些不良影響。</p><p>例如，如果「群組」記錄是以USEEXISTING動作對應，而安裝使用者將動作變更為IGNORE，則對於需要群組的物件（例如，如果沒有指派群組，Project就無法存在），系統預設群組將被指派給該專案。</p></li><li><p>如果原本設定為USEEXISTING的記錄設為CREATE，則在安裝過程中可能會產生一些不良影響，因為許多Workfront實體都有唯一名稱限制。</p><p>例如，如果以USEEXISTING動作對應「Default Group」記錄，而安裝使用者將動作變更為CREATE，因為已經有「Default Group」，所以安裝嘗試將無法完成所有步驟。 群組名稱必須是唯一的。</p><p>某些實體沒有唯一名稱限制。 對於這些物件，進行此變更將會產生兩個名稱相同的記錄。 例如，範本、專案、檢視、篩選器、群組、報告和儀表板不需要唯一名稱限制。 最佳做法是為這些記錄指定唯一的名稱，但不會強制執行。</p></li></ul></p></td> 
+   <td><p>系統不會自動設定此動作。</p><p>它提供在執行<code>/install</code>呼叫之前手動覆寫指派的CREATE或USEEXISTING動作的功能。</p><p><b>附註: </b><ul><li><p>如果原本設定為CREATE的記錄設定為IGNORE，則任何子記錄也應設定為IGNORE。</p><p>例如，如果範本記錄已使用CREATE動作對應，而安裝使用者希望將其從部署中排除，他們可以將範本的動作設定為IGNORE。</p><p>在此情況下，如果安裝使用者未將範本任務、範本任務指派、範本任務前置任務、佇列定義、佇列主題、路由規則等也設定為IGNORE，則部署會導致安裝嘗試失敗。</p></li><li><p>如果原本設定為USEEXISTING的記錄設定為IGNORE，安裝過程中可能會產生一些不良影響。</p><p>例如，如果「群組」記錄是以USEEXISTING動作對應，而安裝使用者將動作變更為IGNORE，則對於需要群組的物件（例如，如果沒有指派群組，Project就無法存在），系統預設群組將被指派給該專案。</p></li><li><p>如果原本設定為USEEXISTING的記錄設為CREATE，則在安裝過程中可能會產生一些不良影響，因為許多Workfront實體都有唯一名稱限制。</p><p>例如，如果以USEEXISTING動作對應「Default Group」記錄，而安裝使用者將動作變更為CREATE，因為已經有「Default Group」，所以安裝嘗試將無法完成所有步驟。 群組名稱必須是唯一的。</p><p>某些實體沒有唯一名稱限制。 對於這些物件，進行此變更將會產生兩個名稱相同的記錄。 例如，範本、專案、檢視、篩選器、群組、報告和儀表板不需要唯一名稱限制。 最佳做法是為這些記錄指定唯一的名稱，但不會強制執行。</p></li></ul></p></td> 
   </tr> 
   </tbody> 
 </table>
@@ -691,7 +691,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
   </tbody> 
 </table>
 
-此呼叫會起始促銷活動套件安裝到POSTURL中識別之目標環境的嘗試。
+此呼叫會起始促銷活動套件安裝到POST URL中識別之目標環境的嘗試。
 
 #### URL
 
@@ -1115,7 +1115,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 
 回應包含`{uuid of the created installation}`和`202 - ACCEPTED`狀態。
 
-範例： `b6aa0af8-3520-4b25-aca3-86793dff44a6`
+範例：`b6aa0af8-3520-4b25-aca3-86793dff44a6`
 
 <!--table templates
 

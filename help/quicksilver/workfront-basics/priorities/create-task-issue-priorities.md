@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 240cda0f-0acf-4b5c-872d-b7f5cee0b769
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '247'
 ht-degree: 4%
 
 ---
@@ -21,7 +21,6 @@ ht-degree: 4%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -30,14 +29,14 @@ ht-degree: 4%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront計畫</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront套件</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront授權*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront授權</strong></td> 
    <td> 
-   <p>目前：要求或更高的要求；檢閱或更高的問題或要求；工作或更高的任務要求</p>
-   <p>新增：要求的貢獻者或以上；問題和檔案的輕度或以上：標準或以上任務</p> 
+   <p>要求或更高的請求；審查或更高的問題；工作或更高的任務</p>
+   <p>要求的貢獻者或以上；問題和檔案的輕度或以上：標準或更高的任務</p> 
    </td> 
   </tr> 
   <tr> 

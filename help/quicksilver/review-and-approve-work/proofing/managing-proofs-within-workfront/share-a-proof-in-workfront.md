@@ -6,9 +6,9 @@ description: 您可以透過共用檔案或將使用者新增到校訂來在Adob
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a5438db3-6507-4ebc-a27c-65f02c45783e
-source-git-commit: aaf5beb8692b2fdbb797ba908796d78b4ee8866c
+source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '1231'
+source-wordcount: '1157'
 ht-degree: 0%
 
 ---
@@ -27,19 +27,19 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
-   <td> <p>目前計畫：Pro或更高版本</p> <p>或</p> <p>舊版計畫：選擇或Premium</p> <p>如需有關不同方案的校訂存取許可權的詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">存取Workfront中的校訂功能</a>。</p> </td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>目前計畫：工作或計畫</p> <p>舊版計畫：任何（您必須為使用者啟用校訂）</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> 
+   <p>標準</p>
+   <p>工作或計畫</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">校樣權限設定檔 </td> 
@@ -50,13 +50,13 @@ ht-degree: 0%
    <td>作者或版主</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯檔案的存取權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>編輯檔案的存取權</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、角色或校訂許可權設定檔，請連絡您的Workfront或Workfront Proof管理員。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 1. 按一下&#x200B;**共用** > **校訂連結**。
 1. 在出現的&#x200B;**校訂連結**&#x200B;方塊中，執行下列其中一項作業：
 
-   * 若要將連結複製到剪貼簿，請按一下[複製連結]。**&#x200B;**
+   * 若要將連結複製到剪貼簿，請按一下[複製連結]。****
 
      您現在可以透過第三方工具（例如聊天或電子郵件應用程式）發佈連結。
 
@@ -148,13 +148,13 @@ ht-degree: 0%
 1. （選用）設定稽核者的截止日期。
 1. （選擇性）如果您想要讓檢閱者知道您已將他們新增至校訂，請確定已選取&#x200B;**透過電子郵件通知人員**。
 1. （選擇性） **新增自訂訊息**&#x200B;至電子郵件。
-1. 新增所有檢閱者後，請按一下[共用]。**&#x200B;**
+1. 新增所有檢閱者後，請按一下[共用]。****
 
 ### 從校訂檢視器將使用者新增到現有校訂
 
 當您在網路校訂檢視器和案頭校訂檢視器中檢閱校訂時，可以將使用者新增到校訂中。
 
-如需詳細資訊，請參閱文章[從校訂檢視器共用校訂](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md)中的[新增使用者以共用校訂](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-with-individual-users)
+如需詳細資訊，請參閱文章[從校訂檢視器共用校訂](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-with-individual-users)中的[新增使用者以共用校訂](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md)
 
 ## 校訂核准報表
 
@@ -168,10 +168,10 @@ ht-degree: 0%
 
 您在根據物件建立報告時存取此核准，如[建立自訂報告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)中所述。
 
-如需校訂核准物件報告的詳細資訊，請參閱[瞭解Adobe Workfront中的物件](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)中的[物件報告](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects)區段
+如需校訂核准物件報告的詳細資訊，請參閱[瞭解Adobe Workfront中的物件](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects)中的[物件報告](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)區段
 
 ## 核准共用校訂
 
 當使用者將您新增到校訂並使用Automated Workflow授予核准者角色或檢閱者和核准者角色時，核准請求將顯示在首頁區域的我的核准Widget中。 然後您可以直接從Workfront檢視校樣並對校樣做出核准決定。
 
-如需如何從我的核准Widget做出核准決定的相關資訊，請參閱[從首頁區域核准工作](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-home-area)或[&#128279;](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-my-work-area)在[核准工作](../../../review-and-approve-work/manage-approvals/approving-work.md)中核准工作。
+如需如何從我的核准Widget做出核准決定的相關資訊，請參閱[從首頁區域核准工作](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-home-area)或[在](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-my-work-area)核准工作[中核准工作](../../../review-and-approve-work/manage-approvals/approving-work.md)。

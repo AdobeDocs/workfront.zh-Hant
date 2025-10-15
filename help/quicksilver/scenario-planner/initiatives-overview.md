@@ -7,7 +7,7 @@ description: Scenario Planner僅在新的Adobe Workfront體驗中可用，並且
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d67f51e5-7c5c-436b-b0c3-e5afbd7cebca
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
 workflow-type: tm+mt
 source-wordcount: '945'
 ht-degree: 0%
@@ -45,11 +45,6 @@ ht-degree: 0%
 * 您可以在計畫中建立多個方案。 對於每個方案，您都可以概述高階策略來完成部門中的工作。
 * 您可以排定計畫內方案的優先順序，以確保最重要的方案獲得最多的預算和最多的資源。
 * 當您在計畫內建立方案時，所有檢視該計畫的人員也可以檢視該計畫內的所有方案。
-
-  <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this might change when we add to the access levels granularity)</p>
-  -->
-
 * 您可以發佈方案以建立專案或更新連結至它們的專案。 如需有關發佈方案的資訊，請參閱[在 [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)中發佈方案以更新或建立專案。
 
 ## 方案的相關財務資訊
@@ -67,22 +62,22 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 成本總金額]</td> 
+   <td role="rowheader">[！UICONTROL成本總金額]</td> 
    <td> <p style="font-weight: normal;">這是行動方案總成本的計算。 </p> <p style="font-weight: normal;">[!DNL Workfront] 使用此公式計算方案的總成本值：</p> <p style="font-weight: normal;"><code>Initiative Costs = Fixed Costs + People Costs</code> </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 固定成本]</td> 
-   <td> <p><span style="font-weight: normal;">這是手動專案，您可以估計每個月方案的<span>固定成本金額。</span>這不包括與新增至方案的角色相關的成本，這些角色是擷取在[!UICONTROL 人員成本]欄位中。</span> </p> </td> 
+   <td role="rowheader">[！UICONTROL固定成本]</td> 
+   <td> <p><span style="font-weight: normal;">這是手動專案，您可以估計每個月方案的<span>固定成本金額。</span>這不包括與新增至方案的角色相關的成本，這些角色是擷取在[！UICONTROL人員成本]欄位中。</span> </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 人員成本]</td> 
+   <td role="rowheader">[！UICONTROL人員成本]</td> 
    <td> <p style="font-weight: normal;">這是方案期間與方案工作角色相關成本的總計。 此數字取決於您為方案每個月的工作角色預估的FTE或時數。 </p> 
      <p><b>提示</b>  
      <ul> 
       <li> <p>相同職務角色的每月FTE數量可能依月份而不同。</p> </li> 
       <li> <p>[!DNL Workfront] 認為一個月有160個工作小時。 </p> </li> 
      </ul> 
-     <p>[!DNL Workfront] 使用下列公式計算方案的[!UICONTROL 人員成本]：</p> <p><code>Initiative People Costs = SUM(Monthly people cost)</code> </p> 
+     <p>[!DNL Workfront] 使用下列公式計算方案的[！UICONTROL人員成本]：</p> <p><code>Initiative People Costs = SUM(Monthly people cost)</code> </p> 
     <p> [!DNL Workfront]使用下列公式計算方案期間每個月的每月人員成本：</p> 
      <p><code>Monthly People Costs = SUM(Job role hourly rate * 160 * Number of FTEs)</code> </p> 
       <p><b>範例</b></p>
@@ -91,11 +86,11 @@ ht-degree: 0%
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 計畫權益]</td> 
+   <td role="rowheader">[！UICONTROL計畫權益]</td> 
    <td>這是一個手動輸入專案，您可以在此專案中估計部門完成此方案將獲得的整體收益。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 淨值金額]</td> 
+   <td role="rowheader">[！UICONTROL淨值金額]</td> 
    <td> <p style="font-weight: normal;">這代表在考慮整體成本以及計畫上預估的計畫收益時，您計畫的價值。 [!DNL Workfront]使用下列公式計算方案的淨值：</p> <p style="font-weight: normal;"><code>Initiative Net Value = Initiative Planned Benefit - Initiative Costs</code> </p> </td> 
   </tr> 
  </tbody> 
@@ -123,15 +118,15 @@ ht-degree: 0%
    <td><b>方案資訊</b></td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 方案] </td> 
+   <td>[！UICONTROL方案] </td> 
    <td>名稱、持續時間、開始和結束日期、輸入者、ID、上次發佈日期*、所有專案欄位，包括自訂欄位*</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 方案工作角色]</td> 
+   <td>[！UICONTROL方案工作角色]</td> 
    <td>如上列出的所有方案資訊，（工作角色） ID，專案*，專案指派計畫時數*，方案工作角色時數，（工作角色）計數，所有專案欄位，包括自訂欄位*</td> 
   </tr> 
   <tr> 
-   <td><p>[!UICONTROL 專案]*</p></td> 
+   <td><p>[！UICONTROL專案]*</p></td> 
    <td> <p>以上列出的所有方案資訊*</p> </td> 
   </tr> 
  </tbody> 

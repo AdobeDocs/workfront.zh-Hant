@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: manage-tasks
 title: 在任務詳細資訊總覽區域中管理任務資訊
-description: 在任務詳細資訊總覽區域中管理任務資訊
+description: 您可以存取「任務詳細資訊」區段的「概觀」區域來檢視或編輯任務的資訊。 您可以在「任務詳細資訊」區段中檢視或編輯的欄位數量有限。
 author: Alina
 feature: Work Management
 exl-id: 4980b28f-914d-4cf9-813f-14983aac660b
-source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '2089'
+source-wordcount: '2102'
 ht-degree: 4%
 
 ---
@@ -19,7 +19,9 @@ ht-degree: 4%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: some of the information (fields) in this article is also in the Edit tasks article; if you need to update one field, do it in both articles)</p>
 -->
 
-您可以存取任務詳細資訊區段的概觀區域來檢視或編輯任務的資訊。 您可以在此區域中檢視或編輯的欄位數量有限。 如需有關編輯工作所有資訊的資訊，請參閱[編輯工作](../../../manage-work/tasks/manage-tasks/edit-tasks.md)。
+您可以存取「任務詳細資訊」區段的「概觀」區域來檢視或編輯任務的資訊。 您可以在「任務詳細資訊」區段中檢視或編輯的欄位數量有限。
+
+如需有關編輯工作所有資訊的資訊，請參閱[編輯工作](../../../manage-work/tasks/manage-tasks/edit-tasks.md)。
 
 本文說明如何在工作詳細資訊的概觀區域中檢視或編輯資訊。 如需有關更新其他區域任務詳細資訊的資訊，請參閱下列文章：
 
@@ -29,31 +31,29 @@ ht-degree: 4%
 
 ## 存取需求
 
-您必須具備下列條件：
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
- <caption style="text-align: left;">
-   *若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。 
- </caption> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront<b>計畫*</b> </p> </td> 
+   <td> <p>Adobe Workfront套件</p> </td> 
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td> <p>Adobe Workfront<b>授權*</b> </p> </td> 
-   <td> <p>工作或更高</p> </td> 
+   <td> <p>Adobe Workfront授權 </p> </td> 
+   <td><p>標準</p> 
+   <p>工作或更高</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>存取層級設定*</strong> </td> 
-   <td> <p>檢視專案和任務的或更高存取權</p> <p>如果您擁有正確的存取層級，但仍無法編輯任務的詳細資訊區段，請詢問您的Adobe Workfront是否對您的存取層級設定了其他限制。 如需Workfront管理員如何變更存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td>存取層級設定</td> 
+   <td> <p>檢視專案和任務的或更高存取權</p> <p>如果您擁有正確的存取層級，但仍無法編輯任務的詳細資訊區段，請詢問您的Adobe Workfront是否對您的存取層級設定了其他限制。 </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>物件許可權</strong> </p> </td> 
-   <td> <p>專案的Contribute或更高的許可權</p> <p>檢視工作的許可權，以檢視詳細資訊區段中的資訊。 </p> 
-   <p>任務的Contribute許可權，以更新詳細資訊區段中的下列資訊：</p>
+   <td> <p>物件許可權</p> </td> 
+   <td> <p>專案的貢獻或較高許可權</p> <p>檢視工作的許可權，以檢視詳細資訊區段中的資訊。 </p> 
+   <p>工作的Contribute許可權，以更新詳細資訊區段中的下列資訊：</p>
 
 <ul>
    <li>說明</li>
@@ -64,6 +64,42 @@ ht-degree: 4%
   </tr> 
  </tbody> 
 </table>
+
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>Adobe Workfront<b> plan*</b> </p> </td> 
+   <td>Any</td> 
+  </tr> 
+  <tr> 
+   <td> <p>Adobe Workfront<b> license*</b> </p> </td> 
+   <td> <p>Work or higher</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td><strong>Access level configurations*</strong> </td> 
+   <td> <p>View or higher access to Projects and Tasks</p> <p>If you have the correct access level but still can't edit the Details  section  of the task, ask your Adobe Workfront if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><strong>Object permissions</strong> </p> </td> 
+   <td> <p>Contribute or higher permissions for the project</p> <p>View permissions for the task to view information in the Details section. </p> 
+   <p>Contribute permissions for the task to update the following information  in the Details section:</p>
+
+   <ul>
+   <li>Description</li>
+   <li>Status</li>
+   </ul>
+   
+   <p>Manage permissions for the task to update all information in the Details section.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 在任務詳細資訊總覽區段中編輯任務資訊
 
@@ -114,7 +150,7 @@ ht-degree: 4%
        <ul> 
         <li> <p> 無</p> </li> 
         <li> <p> 低 </p> </li> 
-        <li> <p>標準 </p> </li> 
+        <li> <p>正常 </p> </li> 
         <li> <p>高 </p> </li> 
         <li> <p> 緊急 </p> </li> 
        </ul> <p>根據Workfront管理員選取的專案偏好設定，您的優先順序名稱可能會不同。 如需工作優先順序的相關資訊，請參閱<a href="../../../manage-work/tasks/task-information/task-priority.md" class="MCXref xref">更新工作優先順序</a>。 </p> </td> 
@@ -171,7 +207,7 @@ ht-degree: 4%
             <td>週</td> 
            </tr> 
            <tr> 
-            <td>個月</td> 
+            <td>月</td> 
             <td>T</td> 
            </tr> 
            <tr> 

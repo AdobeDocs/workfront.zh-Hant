@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: a0b635953245cf307b558d343ad234a27c96da94
+source-git-commit: d0be569333b0454e26f4d0de1078b0425cf81707
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1121'
 ht-degree: 0%
 
 ---
@@ -49,33 +49,32 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td>Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：標準</p>
-    <p>目前：工作或以上</p> </td> 
+   <td>Adobe Workfront授權</td> 
+   <td> <p>標準</p>
+   <p>工作或更高</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
+   <td role>存取層級設定</td> 
    <td> <p>編輯任務和問題的存取權</p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件許可權</td> 
-   <td> <p>貢獻或更高的任務或問題許可權</p>  </td> 
+   <td>物件許可權</td> 
+   <td> <p>貢獻或更高的任務或問題許可權</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -86,7 +85,7 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >您可以直接在任務或問題清單上進行進階指派。 按一下任務或問題所在行上的&#x200B;**工作總攬**&#x200B;欄位內，然後按一下&#x200B;<span class="preview">**進階**</span>&#x200B;或&#x200B;**人員圖示**&#x200B;以開啟「進階工作總攬」視窗。 跳到步驟5以繼續建立進階工作分派。
+   >您可以直接在任務或問題清單上進行進階指派。 按一下任務或問題所在行上的&#x200B;**工作總攬**&#x200B;欄位內，然後按一下&#x200B;<span class="preview">**進階**</span>&#x200B;或&#x200B;**人員圖示**以開啟「進階工作總攬」視窗。 跳到步驟5以繼續建立進階工作分派。
    ><span class="preview">預覽環境中的範例影像：</span>
    >![按一下[進階]或[人員]圖示](assets/access-aa-from-lists.png)
    >生產環境中的影像範例：

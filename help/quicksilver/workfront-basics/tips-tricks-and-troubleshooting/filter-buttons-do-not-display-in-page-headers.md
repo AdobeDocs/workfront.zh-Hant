@@ -6,10 +6,10 @@ description: 請參閱本文以疑難排解頁面標頭中未顯示的篩選器�
 feature: Get Started with Workfront
 author: Nolan and Alina
 exl-id: 327564ed-60df-441a-a38b-a17a8c57adb0
-source-git-commit: 114d306d99ae9ba0a18abd63a6137ad0568ab202
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 1%
+source-wordcount: '291'
+ht-degree: 3%
 
 ---
 
@@ -17,26 +17,32 @@ ht-degree: 1%
 
 ## 存取需求
 
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視本文中功能的存取需求。
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計劃</strong></td> 
-   <td> <p>任何</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Adobe[!DNL Workfront]授權</strong></td> 
-   <td> <p>[!UICONTROL 計畫] </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>存取層級設定</strong></td> 
-   <td> <p>[!UICONTROL 系統管理員]</p> </td> 
-  </tr> 
- </tbody> 
+<table>
+  <tr>
+   <td>Adobe Workfront套件
+   </td>
+   <td> <p>Prime或Ultimate</p>
+    <p>Workflow Ultimate</p>
+   </td>
+  </tr>
+  <tr>
+   <td>Adobe Workfront授權
+   </td>
+   <td><p>標準</p>
+   <p>規劃</p>
+   </td>
+  </tr>
+   <tr>
+   <td>存取層級設定
+   </td>
+   <td>您必須是[!DNL Workfront]管理員。
+   </td>
+  </tr>
 </table>
+
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 問題
 
@@ -51,19 +57,19 @@ ht-degree: 1%
    <td><strong>篩選按鈕</strong></td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL 專案] </p> </td> 
+   <td> <p>[！UICONTROL專案] </p> </td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL 我所在的專案]</p> </li> 
-     <li> <p>[!UICONTROL 我擁有的專案]</p> </li> 
+     <li> <p>[！UICONTROL我所在的專案]</p> </li> 
+     <li> <p>[！UICONTROL我擁有的專案]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td><span>[!UICONTROL 時程表]</span> </td> 
+   <td><span>[！UICONTROL時程表]</span> </td> 
    <td> 
     <ul> 
-     <li> <p><span>[!UICONTROL 我的時程表核准]</span> </p> </li> 
-     <li> <p><span>[!UICONTROL 我的時程表]</span> </p> </li> 
+     <li> <p><span>[！UICONTROL我的時程表核准]</span> </p> </li> 
+     <li> <p><span>[！UICONTROL我的時程表]</span> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -82,11 +88,11 @@ ht-degree: 1%
    * [!UICONTROL 我所在的專案]和我擁有的[!UICONTROL 專案] （在[!UICONTROL 專案]區域中）
    * [!UICONTROL 我的時程表核准]和[!UICONTROL 我的時程表] （在[!UICONTROL 時程表]區域中）
 
-   若要這麼做：
+   操作步驟：
 
    1. 存取配置範本。
    1. 選取&#x200B;**[!UICONTROL 自訂使用者看到的內容]**&#x200B;下的&#x200B;**[!UICONTROL 清單]**。
-   1. 選取&#x200B;**[!UICONTROL 下的**&#x200B;[!UICONTROL &#x200B;專案&#x200B;]&#x200B;**或**&#x200B;[!UICONTROL &#x200B;時程表&#x200B;]&#x200B;**選取要自訂的清單]**。
+   1. 選取&#x200B;**[!UICONTROL 下的]**&#x200B;專案&#x200B;**[!UICONTROL 或]**&#x200B;時程表&#x200B;**[!UICONTROL 選取要自訂的清單]**。
    1. 在&#x200B;**[!UICONTROL 篩選器]**&#x200B;區段中，確認已選取&#x200B;**[!UICONTROL 我所在的專案]**、**[!UICONTROL 我擁有的專案]** （針對專案）及&#x200B;**[!UICONTROL 我的時程表核准]**&#x200B;和&#x200B;**[!UICONTROL 我的時程表]** （針對時程表）。
    1. 按一下「**[!UICONTROL 儲存]**」。
 

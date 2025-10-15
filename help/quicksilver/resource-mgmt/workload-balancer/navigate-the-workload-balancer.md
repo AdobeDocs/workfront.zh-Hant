@@ -6,9 +6,9 @@ description: 使用工作負載平衡器瞭解資源的可用性，並將工作�
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: a63c53652491a25b909b7563990d4375d8f5885f
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '4371'
+source-wordcount: '4348'
 ht-degree: 0%
 
 ---
@@ -23,31 +23,27 @@ ht-degree: 0%
 
 工作負載平衡器可在Adobe Workfront的多個區域使用。 導覽它在所有區域都類似。
 
-如需工作負載平衡器所在位置的詳細資訊，請參閱[找到工作負載平衡器](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer)。
+如需工作負載平衡器所在位置的詳細資訊，請參閱[找到工作負載平衡器](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer)。
 
 ## 存取需求
 
 +++ 展開以檢視本文中功能的存取需求。
-
-您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td> <p>任何 </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td><p>新增：標準</p>
-       <p>或</p>
-       <p>目前：計畫，在資源區域使用工作負載平衡器時；</br>
-       工作，使用團隊或專案的工作負載平衡器時</p></td>
+   <td>Adobe Workfront套件</td> 
+   <td><p>任何</p></td>
   </tr>
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
+   <td>Adobe Workfront授權</td> 
+   <td><p>標準</p>
+       <p>計畫：在資源區域使用工作負載平衡器；工作，使用團隊或專案的工作負載平衡器</p></td>
+  </tr>
+  <tr> 
+   <td>存取層級設定</td> 
    <td> <p>檢視以下專案或更高存取權：</p> 
     <ul> 
      <li>資源管理</li> 
@@ -58,13 +54,13 @@ ht-degree: 0%
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件許可權</td> 
+   <td>物件許可權</td> 
    <td>檢視專案、任務和問題的許可權或更高</td> 
   </tr> 
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -109,8 +105,8 @@ ht-degree: 0%
 
 如需有關使用工作負載平衡器管理資源的資訊，另請參閱下列文章：
 
-* [在工作負載平衡器](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)中指派工作的總覽
-* [在工作負載平衡器](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)中管理使用者配置
+* [在工作負載平衡器](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)中指派工作的總覽
+* [在工作負載平衡器](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)中管理使用者配置
 
 
 ## 在資源區域瀏覽工作負載平衡器多個專案
@@ -333,7 +329,7 @@ ht-degree: 0%
       * 在Windows中：按住CTRL鍵並按一下任務列或問題列。
       * 在Mac中： CMD按一下任務或問題列。
 
-     如需有關在工作負載平衡器中指派工作專案給使用者的詳細資訊，請參閱在工作負載平衡器中指派工作的概述[&#128279;](../workload-balancer/assign-work-in-workload-balancer.md)。
+     如需有關在工作負載平衡器中指派工作專案給使用者的詳細資訊，請參閱在工作負載平衡器中指派工作的概述[](../workload-balancer/assign-work-in-workload-balancer.md)。
 
      >[!NOTE]
      >

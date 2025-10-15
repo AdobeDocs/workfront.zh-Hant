@@ -1,7 +1,7 @@
 ---
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: c879d06cfe7ba76df3e974c160a7349f1503f17f
 workflow-type: tm+mt
-source-wordcount: '2648'
+source-wordcount: '2607'
 ht-degree: 1%
 
 ---
@@ -289,15 +289,24 @@ ht-degree: 1%
 >
 >本文資訊說明Adobe Workfront的額外功能Adobe Workfront Planning。
 >
->您必須具備下列專案才能存取Workfront Planning：
->
->* 新的Workfront套件和授權。 Workfront計畫不適用於舊版Workfront套件或授權。
->* Workfront計畫套件。
->* 貴組織的Workfront執行個體必須上線至Adobe統一體驗。
->
-> 如需存取Workfront Planning的完整需求清單，請參閱[存取總覽](/help/quicksilver/planning/access/access-overview.md)。
+>如需存取Workfront Planning的需求清單，請參閱[Adobe Workfront Planning存取總覽](/help/quicksilver/planning/access/access-overview.md)。
 > 
 >如需Workfront Planning的詳細資訊，請參閱[Adobe Workfront Planning概觀](/help/quicksilver/planning/general/planning-overview.md)。
+
+<!--Old - before Oct. 15, 2025:
+>[!IMPORTANT]
+>
+>The information in this article refers to Adobe Workfront Planning, an additional capability from Adobe Workfront. 
+>
+>You must have the following to access Workfront Planning:
+>
+>* A new Workfront package and license. Workfront Planning is not available for legacy Workfront packages or licenses. 
+>* A Workfront Planning package. 
+>* Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience.
+>
+> For a complete list of requirements to access Workfront Planning, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
+> 
+>For more information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).-->
 
 <!--OLD: 
 >[!IMPORTANT]

@@ -6,9 +6,9 @@ description: 您可以將工作專案從敏捷團隊Kanban展示板移轉到新�
 author: Lisa
 feature: Agile
 exl-id: 72e3902b-af9a-497c-817f-63630c4fb73b
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 您可以將工作專案從敏捷團隊Kanban展示板移轉到新的或現有的Workfront展示板。 當您執行移轉時，Kanban展示板上的所有卡片都會複製到Workfront展示板。 您不得選擇特定卡片。
 
-卡片在Workfront展示板上的放置是根據欄原則。 (例如，原則可將所有狀態為「進行中」的卡片移至特定欄。 如需資料行原則的詳細資訊，請參閱[管理面板資料行](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)。 如果沒有原則或卡片不符合原則，卡片會放置在展示板最左側的欄。 目前，舊版展示板上「待處理專案」欄中的卡片未新增至Workfront展示板。
+卡片在Workfront展示板上的放置是根據欄原則。 (例如，原則可將所有狀態為「進行中」的卡片移至特定欄。 如需欄原則的詳細資訊，請參閱[管理展示板欄](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)。)如果沒有原則或卡片不符合原則，卡片會放在展示板最左邊的欄中。 目前，舊版展示板上「待處理專案」欄中的卡片未新增至Workfront展示板。
 
 卡片不會從敏捷團隊Kanban面板中移除，卡片狀態變更將同步到兩個面板。 在準備切換至Workfront主機板之前，您可以讓兩個主機板都保持作用中。
 
@@ -25,22 +25,19 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
    <td> 
-   <p>新增：[!UICONTROL Contributor]或以上</p> 
-   <p>或</p>
-   <p>目前： [!UICONTROL Request]或以上</p>
+   <p>投稿人或以上</p> 
+   <p>要求或更高版本</p>
    </td> 
   </tr> 
  </tbody> 

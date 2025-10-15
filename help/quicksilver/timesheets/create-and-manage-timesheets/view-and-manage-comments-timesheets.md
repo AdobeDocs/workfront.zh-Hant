@@ -3,12 +3,12 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: 檢視和管理時程表上的註解
 description: 您可以對時程表、時程表中包含的工作專案以及您記錄的每個小時專案進行註解。
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: ea0ae13abe9373bef7a1d146ca1951c8c383f994
+source-git-commit: 18c39c5b1959c31b6fd0018476b48643b4b15021
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '889'
 ht-degree: 0%
 
 ---
@@ -29,33 +29,31 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。 
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td>Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>新增：淺色或更高 </p>
-   <p>目前：檢閱或以上</p> </td> 
+   <td>Adobe Workfront授權</td> 
+   <td> <p>淺色或更高 </p>
+   <p>評論或以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
+   <td>存取層級設定</td> 
    <td> <p>檢視或更高的任務與問題存取權</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件許可權</td> 
+   <td>物件許可權</td> 
    <td> <p>檢視或更高的任務和問題許可權</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。 如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -134,7 +132,7 @@ ht-degree: 0%
    執行下列其中一項：
 
    * 輸入新註解並按一下&#x200B;**完成**。
-   * 編輯現有的註解並按一下[完成]&#x200B;**&#x200B;**，或按一下[取消]&#x200B;**以捨棄變更。**
+   * 編輯現有的註解並按一下[完成]****，或按一下[取消]**以捨棄變更。**
    * 按一下&#x200B;**刪除**&#x200B;圖示![刪除圖示](assets/delete.png)以刪除已儲存的註解。
 
      小時輸入方塊的右上角會出現一個藍色標籤，表示有與時間輸入一起記錄的註解。

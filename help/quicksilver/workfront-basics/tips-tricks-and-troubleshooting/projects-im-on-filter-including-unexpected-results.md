@@ -6,10 +6,10 @@ description: 請參閱本文以疑難排解我所在的專案篩選器，包括�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 4701464a-4cf5-4be1-bcc0-0892019986ec
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 1%
+source-wordcount: '184'
+ht-degree: 3%
 
 ---
 
@@ -17,26 +17,34 @@ ht-degree: 1%
 
 ## 存取需求
 
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視本文中功能的存取需求。
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計劃</strong></td> 
-   <td> <p>任何</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Adobe[!DNL Workfront]授權</strong></td> 
-   <td> <p>[!UICONTROL 計畫] </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>存取層級設定</strong></td> 
-   <td> <p>[!UICONTROL 系統管理員]</p> </td> 
-  </tr> 
- </tbody> 
+<table>
+  <tr>
+   <td>Adobe Workfront套件
+   </td>
+   <td> <p>Prime或Ultimate</p>
+    <p>Workflow Ultimate</p>
+   </td>
+  </tr>
+  <tr>
+   <td>Adobe Workfront授權
+   </td>
+   <td><p>標準</p>
+   <p>規劃</p>
+   </td>
+  </tr>
+   <tr>
+   <td>存取層級設定
+   </td>
+   <td>您必須是[!DNL Workfront]管理員。
+   </td>
+  </tr>
 </table>
+
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
+
 
 ## 問題
 

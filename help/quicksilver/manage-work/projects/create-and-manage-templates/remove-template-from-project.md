@@ -6,9 +6,9 @@ description: 您無法從專案移除範本。 您只能手動移除將範本附
 author: Alina
 feature: Work Management
 exl-id: a8b6055a-7fac-4f9b-a880-10b2b85299b7
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '395'
 ht-degree: 1%
 
 ---
@@ -19,22 +19,20 @@ ht-degree: 1%
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
-
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>新增：標準</p>
-   <p>目前：工作或以上</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>標準</p>
+   <p>工作或更高</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -42,14 +40,40 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>管理對任務的存取 </p> <p>Contribute或更高的專案存取權 </p>  </td> 
+   <td> <p>管理對任務的存取 </p> <p>貢獻專案或更高的專案存取權</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>New: Standard</p>
+   <p>Current: Work or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Tasks</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage access to tasks </p> <p>Contribute or higher access to the project </p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 從專案移除範本資訊的選項
 
@@ -88,4 +112,4 @@ ht-degree: 1%
 
      如需建立檢視的相關資訊，請參閱[在Adobe Workfront中的檢視總覽](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)。
 
-1. 選取步驟2中識別為使用範本建立的所有工作，然後按一下&#x200B;**刪除圖示**&#x200B;**>是，刪除**。 如需詳細資訊，請參閱[刪除工作](../../../manage-work/tasks/manage-tasks/delete-tasks.md)。
+1. 選取步驟2中識別為使用範本建立的所有工作，然後按一下&#x200B;**刪除圖示****>是，刪除**。 如需詳細資訊，請參閱[刪除工作](../../../manage-work/tasks/manage-tasks/delete-tasks.md)。

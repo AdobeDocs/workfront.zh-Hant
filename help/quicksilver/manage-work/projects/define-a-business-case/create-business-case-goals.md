@@ -2,13 +2,13 @@
 navigation-topic: business-case-and-scorecards
 title: 建立業務案例目標
 description: 建立業務案例時，您可以建立一組目標來定義專案的目標。 業務案例目標用於與Portfolio經理或專案贊助者溝通以完成專案的目的。
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
+source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 1%
+source-wordcount: '431'
+ht-degree: 2%
 
 ---
 
@@ -50,15 +50,14 @@ ht-degree: 1%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront計畫*</p></td> 
-   <td> <p>目前：Prime或更新版本</p>
-   <p>舊版：Pro或更高版本</p>  </td> 
+   <td role="rowheader"><p>Adobe Workfront套件</p></td> 
+   <td> <p>Prime或更新版本</p>
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront授權*</p></td>
+   <td role="rowheader"><p>Adobe Workfront授權</p></td>
    <td> 
-   <p>目前：標準</p> 
-   <p>舊版：計畫 </p> 
+   <p>標準</p> 
+   <p>規劃 </p> 
    </td> 
   </tr> 
   <tr> 
@@ -72,7 +71,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-*如需此表格中資訊的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -104,6 +103,6 @@ ht-degree: 1%
    >
    >您無法自訂目標的重要性層級。
 
-1. （選擇性）若要新增其他目標，請按一下[新增其他目標] **&#x200B;**，並重複步驟5-6。
+1. （選擇性）若要新增其他目標，請按一下[新增其他目標] ****，並重複步驟5-6。
 
 1. 按一下「**儲存**」。

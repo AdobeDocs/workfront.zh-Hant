@@ -6,9 +6,9 @@ description: 排程自動報告傳送
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-source-git-commit: 62f56486ccc590921b7dc8227d46cdede84df32d
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1293'
 ht-degree: 2%
 
 ---
@@ -27,35 +27,32 @@ ht-degree: 2%
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
-
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-      <td> 
-      <p>新增：標準</p>
-      <p>或</p>
-
-<p>目前：計畫</p>
-
-</td>
+   <td> 
+      <p>標準</p>
+      <p>規劃</p>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>編輯報告、儀表板、行事曆的存取權</p> <p>編輯對篩選器、檢視、群組的存取權</p> </td> 
+   <td> <p>編輯報告、儀表板、行事曆的存取權</p>
+   <p>編輯對篩選器、檢視、群組的存取權</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>管理報表的許可權</p></td> 
+     <td> <p>管理報表的許可權</p></td> 
   </tr> 
  </tbody> 
 </table>

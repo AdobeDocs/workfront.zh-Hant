@@ -6,9 +6,9 @@ description: 您可以將現有專案匯入計畫。 匯入的專案會轉換為
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 20429bb1-c158-433b-9790-325cd577248e
-source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
+source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
 workflow-type: tm+mt
-source-wordcount: '1710'
+source-wordcount: '1677'
 ht-degree: 0%
 
 ---
@@ -27,48 +27,81 @@ ht-degree: 0%
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
-
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] 計畫*</p> </td> 
-   <td> <ul></li>
-   <li><p>新增： Ultimate </p></li>
-   <p>新的Workfront Select或Workfront Prime計畫無法使用「情境規劃工具」。 </p>
-   <li><p>目前： [!UICONTROL Business]或更高版本</p></ul>
+   <td> <p>[!DNL Adobe Workfront] 封裝</p> </td> 
+   <td> 
+   <p>Workfront Ultimate</p>
+<p><b>附註</b></p>
+<p>如果您有不同的Workfront套件，請洽詢您的Workfront代表。</p>
    </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] 授權*</p> </td> 
-   <td> <p>新增：淺色或更高</p> 
-   <p>目前： [!UICONTROL Review]或以上</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] 授權</p> </td> 
+   <td> <p>[！UICONTROL Light]或更高</p> 
+   <p>[！UICONTROL Review]或更高版本</p> </td> 
+  </tr> 
+    <tr> 
+   <td>存取層級設定</td> 
+   <td> <p>[！UICONTROL Edit]對的存取權 [!DNL Scenario Planner]</p> <p>檢視或更高的專案存取權。</p></td> 
   </tr> 
   <tr> 
-   <td>產品* </td> 
-   <td> <ul><li><p>針對新的Workfront計畫：</p><p> Adobe Workfront</li></p>
-   <li><p>針對目前的Workfront計畫： </p>
-   <p>Adobe Workfront</p> <p>Adobe Workfront情境規劃工具</p></li></ul>
-
-<p>如需詳細資訊，請參閱<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">使用[!DNL Scenario Planner]</a>所需的存取權。 </p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td>存取層級 </td> 
-   <td> <p>[!UICONTROL Edit]對的存取權 [!DNL Scenario Planner]</p> <p>檢視或更高的專案存取權。</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
    <td> <p>物件許可權 </p> </td> 
-   <td> <p>[!UICONTROL Manage]計畫的許可權</p> <p>檢視專案或更高的許可權。</p><p>如需有關請求對計畫的額外存取權的資訊，請參閱<a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">在[!DNL Scenario Planner]</a>中請求對計畫的存取權。</p> </td> 
+   <td> <p>[！UICONTROL Manage]計畫的許可權</p> <p>檢視專案或更高的許可權。</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱[Workfront檔案的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需有關存取Scenario Planner的詳細資訊，請參閱[使用 [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md)所需的存取。
+
+如需Workfront存取需求的相關資訊，請參閱[Workfront檔案的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
+   <td> <ul></li>
+   <li><p>New: Ultimate </p></li>
+   <p>The Scenario Planner is not available for the new Workfront Select or Workfront Prime plans. </p>
+   <li><p>Current: [!UICONTROL Business] or higher</p></ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] license*</p> </td> 
+   <td> <p>New: Light or higher</p> 
+   <p>Current: [!UICONTROL Review] or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Product* </td> 
+   <td> <ul><li><p>For the new Workfront plans:</p><p> Adobe Workfront</li></p>
+   <li><p>For the current Workfront plans: </p>
+   <p>Adobe Workfront</p> <p>Adobe Workfront Scenario Planner</p></li></ul>
+   
+   <p>For more information, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the [!DNL Scenario Planner]</a>. </p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Access level </td> 
+   <td> <p>[!UICONTROL Edit] access to the [!DNL Scenario Planner]</p> <p>View or higher access to Projects.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p>Object permissions </p> </td> 
+   <td> <p>[!UICONTROL Manage] permissions to a plan</p> <p>View or higher permissions to projects.</p><p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For information, see [Access requirements to Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
 
 ## 將專案匯入計畫中作為新方案的考量事項
 
@@ -82,7 +115,7 @@ ht-degree: 0%
 * 您可以將相同專案匯入多個計畫。
 * 您要匯入的專案必須包含計畫時間範圍內的日期。 您無法匯入計劃開始日期為[!UICONTROL 計畫完成日期]或計畫結束日期為[!UICONTROL 計劃開始日期]的專案。
 * 您無法一次匯入超過100個專案。
-* 有些專案資訊也會匯入計畫，成為方案資訊。 如需有關哪些專案資訊已匯入計畫並成為方案資訊的資訊，請參閱本文章中匯入計畫[&#128279;](#project-information-imported-into-the-plan)的專案資訊。
+* 有些專案資訊也會匯入計畫，成為方案資訊。 如需有關哪些專案資訊已匯入計畫並成為方案資訊的資訊，請參閱本文章中匯入計畫[的](#project-information-imported-into-the-plan)專案資訊。
 * 連結專案上發生的變更不會影響計畫上的方案。
 * 發生在計畫上方案上的變更不會自動影響連結的專案。方案變更只有在您從計畫發佈方案時才會影響連結的專案。 如需有關發佈方案如何影響連結專案的資訊，請參閱[在 [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)中發佈方案以更新或建立專案。
 * 刪除透過匯入專案建立的方案不會刪除專案。
@@ -116,13 +149,13 @@ ht-degree: 0%
    <td>指派給任務和問題的職位角色</td> 
    <td> <p>方案工作角色。 </p> <p>注意：   <p>如果使用者在專案生命週期中變更角色，則匯入的角色取決於您匯入專案時指派的狀態。 存在下列情況：</p> 
      <ul> 
-      <li> <p>如果指派給任務或問題的使用者在將其指派標示為[!UICONTROL 完成]之後變更了角色，則[!DNL Workfront]會將該使用者在將其指派標示為[!UICONTROL 完成]之前所履行的角色匯入行動方案。</p> </li> 
-      <li> <p>如果指派給任務或問題的使用者在專案存留期間變更了角色，但他們在任務或問題上的指派未在匯入專案時標籤為[!UICONTROL 完成]，則[!DNL Workfront]僅匯入指派使用者的目前角色。 </p> </li> 
-     </ul> <p>如需指派狀態的相關資訊，請參閱Adobe [!DNL Workfront]術語的<a href="../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md" class="MCXref xref">字彙表</a>中的「指派狀態」。 </p> </p> </td> 
+      <li> <p>如果指派給任務或問題的使用者在將其指派標示為[！UICONTROL完成]之後變更了角色，則[!DNL Workfront]會將該使用者在將其指派標示為[！UICONTROL完成]之前所履行的角色匯入行動方案。</p> </li> 
+      <li> <p>如果指派給任務或問題的使用者在專案存留期間變更了角色，但他們在任務或問題上的指派未在匯入專案時標籤為[！UICONTROL完成]，則[!DNL Workfront]僅匯入指派使用者的目前角色。 </p> </li> 
+     </ul> <p>如需指派狀態的相關資訊，請參閱Adobe <a href="../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md" class="MCXref xref">術語的[!DNL Workfront]字彙表</a>中的「指派狀態」。 </p> </p> </td> 
   </tr> 
   <tr> 
-   <td>與指派給任務或問題的工作角色相關的專案[!UICONTROL 計畫時數]</td> 
-   <td> <p><span>根據計畫是設定為使用FTE或時數，專案上任務的[!UICONTROL 計畫時數]會在計畫</span>上變成</span> [!UICONTROL 必要的FTE] <span>或[!UICONTROL 需要時數]。 </p> <p>如需設定計畫以使用FTE或時數的詳細資訊，請參閱<a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">在[!DNL Scenario Planner]</a>中建立和編輯計畫。 </p> <p>請考量下列事項：</p> 
+   <td>與指派給任務或問題的工作角色相關的專案[！UICONTROL計畫時數]</td> 
+   <td> <p><span>根據計畫是設定為使用FTE或時數，專案上任務的[！UICONTROL計畫時數]會在計畫</span>上變成<span> [！UICONTROL必要的FTE] </span>或[！UICONTROL需要時數]。 </p> <p>如需設定計畫以使用FTE或時數的詳細資訊，請參閱<a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">在[!DNL Scenario Planner]</a>中建立和編輯計畫。 </p> <p>請考量下列事項：</p> 
     <ul> 
      <li> <p>[!DNL Workfront] 使用指派給任務和問題的工作角色，或指派給任務或問題的使用者在專案上相關聯的工作角色，並將它們作為所需工作角色轉移到新方案。 </p> </li> 
      <li> <p>當計畫設定為使用FTE時，與專案任務和問題上的工作角色關聯的計畫時數首先轉換為FTE。 然後會將此FTE指派給方案的工作角色。 <span>計畫時數在[!DNL Workfront]中平均分配。 如果任務或問題跨多個月，方案期間每個月的計畫時數金額會轉換為每月FTE，並傳輸到方案的每個月。</span></p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span><span>例如，如果在9月將任務指派給工作角色80個計畫時數，則匯入的工作角色在9月為方案顯示0.5 FTE。</span> </p> </li> 
@@ -132,7 +165,7 @@ ht-degree: 0%
          (NOTE: this used to be 1, not zero in Production) 
        </MadCap:conditionalText>
       --></li> 
-     <li>當工作角色指派給具有零[!UICONTROL 持續時間]專案上的任務時，行動方案工作角色的必要FTE <span>或時數</span>預設為零，即使任務具有計畫時數。 </li> 
+     <li>當工作角色指派給具有零[！UICONTROL持續時間]專案上的任務時，行動方案工作角色的必要FTE <span>或時數</span>預設為零，即使任務具有計畫時數。 </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -207,16 +240,16 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 方案期間]</td> 
+      <td role="rowheader">[！UICONTROL方案期間]</td> 
       <td>這是行動方案的持續時間（月數）。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 方案]</td> 
+      <td role="rowheader">[！UICONTROL方案]</td> 
       <td>方案的開始和結束日期。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 專案]</td> 
-      <td> <p>連結專案的[!UICONTROL 計劃開始]和[!UICONTROL 完成日期]。</p> <p>提示：如果[!UICONTROL 專案]資訊遺失，專案就會被刪除。</p> </td> 
+      <td role="rowheader">[！UICONTROL專案]</td> 
+      <td> <p>連結專案的[！UICONTROL計劃開始]和[！UICONTROL完成日期]。</p> <p>提示：如果[！UICONTROL專案]資訊遺失，專案就會被刪除。</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -234,4 +267,4 @@ ht-degree: 0%
 1. （可選）若要將您對方案所做的變更更新回其匯入來源專案，請從計畫發佈專案。 如需有關發佈計畫的資訊，請參閱[在 [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)中發佈方案以更新或建立專案。
 1. （選用）按一下專案圖示以存取連結的專案。
 
-   方案![&#128279;](assets/project-icon-on-initiative-highlighted-350x49.png)上的專案圖示
+   方案![上的](assets/project-icon-on-initiative-highlighted-350x49.png)專案圖示

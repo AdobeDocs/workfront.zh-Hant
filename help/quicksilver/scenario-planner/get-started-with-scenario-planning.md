@@ -5,20 +5,19 @@ author: Alina
 draft: Probably
 feature: Workfront Scenario Planner
 exl-id: a6afe39f-1663-493d-a582-0a396ce138c2
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '774'
 ht-degree: 0%
 
 ---
 
 # 開始使用[!DNL Scenario Planner]
 
-[!DNL Scenario Planner]需要[!DNL Adobe Workfront]授權的額外授權。 如需Workfront [!DNL Scenario Planner]的相關資訊，請參閱[總覽 [!DNL Scenario Planner] &#x200B;](../scenario-planner/scenario-planner-overview.md)。
-
 您可以使用[!DNL Adobe Workfront Scenario Planner]來建置概括貴公司整體策略成果的企業層級計畫。 您可以為計畫定義數個方案，並將其置於各種情境中，以找出執行計畫的最佳解決方案。
 
-如需[!DNL Workfront Scenario Planner]的高階概觀，請參閱[&#x200B; [!DNL Scenario Planner] 概觀](../scenario-planner/scenario-planner-overview.md)。
+如需[!DNL Workfront Scenario Planner]的高階概觀，請參閱[ [!DNL Scenario Planner] 概觀](../scenario-planner/scenario-planner-overview.md)。
+
 
 ## 使用[!DNL Workfront Scenario Planner]的方法
 

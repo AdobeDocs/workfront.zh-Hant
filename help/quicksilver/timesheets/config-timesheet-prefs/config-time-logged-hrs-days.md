@@ -3,19 +3,19 @@ product-area: timesheets;setup
 navigation-topic: configure-timesheet-preferences
 title: 設定以小時或天記錄時間
 description: 身為擁有Plan授權的使用者，您可以設定以小時或天為單位登入Adobe Workfront的時間。 系統管理員可以為個別使用者或其組織中的多個使用者設定此設定。 依預設，使用者會以小時記錄時間。
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 4f801a13-182d-4e06-98ea-f6863f6a8edf
-source-git-commit: 106ef838bfee5e496cae864eca5c19fd12fdd18e
+source-git-commit: b0a3a11a3c04a0969bee99f8e1cea231911f0e6a
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '457'
 ht-degree: 1%
 
 ---
 
 # 設定以小時或天記錄時間
 
-作為具有Planner授權的使用者，您可以設定您是否以小時或天為單位在Adobe Workfront中記錄時間。 系統管理員可以為個別使用者或其組織中的多個使用者設定此設定。 依預設，使用者會以小時記錄時間。 如需有關如何在Workfront中記錄時間的資訊，請參閱[記錄時間](../../timesheets/create-and-manage-timesheets/log-time.md)。
+身為具有Standard或Plan授權的使用者，您可以設定以小時或天為單位登入Adobe Workfront的時間。 系統管理員可以為個別使用者或其組織中的多個使用者設定此設定。 依預設，使用者會以小時記錄時間。 如需有關如何在Workfront中記錄時間的資訊，請參閱[記錄時間](../../timesheets/create-and-manage-timesheets/log-time.md)。
 
 >[!NOTE]
 >
@@ -23,34 +23,36 @@ ht-degree: 1%
 
 ## 存取需求
 
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視本文中功能的存取需求。
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- </col> 
- <col> 
- </col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
-   <td> <p>任何</p> </td> 
+   <td>Adobe Workfront套件</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>規劃 </p> </td> 
+   <td>Adobe Workfront授權</td> 
+   <td>
+   <p>標準</p>
+   <p>規劃</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>規劃人員可以自行設定時間。 只有Workfront管理員可以為其他使用者設定時間。</p> </td> 
+  <tr> 
+   <td>存取層級設定</td> 
+   <td><p>標準與計畫使用者可以設定自己的時間。 只有Workfront管理員可以為其他使用者設定時間。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 1. 請根據您的目標和系統中的存取層級，執行下列任一項作業：
 
-   * **為自己設定時間記錄的Planner使用者：**&#x200B;按一下Adobe Workfront右上角的&#x200B;**主功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下您的個人資料圖片旁的使用者名稱。 然後，按一下您名稱旁的&#x200B;**更多**&#x200B;圖示，並選取&#x200B;**編輯**。
+   * **自行設定時間記錄的Standard或Plan使用者：**&#x200B;按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](assets/main-menu-icon.png)，然後按一下個人資料圖片旁的使用者名稱。 或者（如果有的話），在頂端導覽區域中按一下您的個人資料圖片，然後按一下&#x200B;**[!UICONTROL Workfront個人資料]**。 然後，按一下您名稱旁的&#x200B;**更多**&#x200B;圖示，並選取&#x200B;**編輯**。
 
    * **系統管理員設定其他人的時間記錄：**&#x200B;開始編輯一或多個使用者帳戶，如[編輯使用者的設定檔](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)中所述。
 
@@ -58,7 +60,6 @@ ht-degree: 1%
 
    ![以選項](assets/user-profile-log-time-options.png)記錄時間
 
-1. （視條件而定）如果您是同時編輯多個使用者的系統管理員，請選取&#x200B;**在**&#x200B;中記錄時間。
 1. 從下列選項中選取記錄時間：
 
    | 選項 | 說明 |

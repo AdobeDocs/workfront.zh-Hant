@@ -4,10 +4,10 @@ product-area: timesheets
 navigation-topic: timesheets-navigation-topic
 title: 時程表：文章索引
 description: 在以下章節中進一步瞭解如何建立、編輯、核准和管理時程表、時程表設定檔和小時型別。
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: aff5e7a9-e1a0-460e-bb6b-be9c50db5755
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 0%

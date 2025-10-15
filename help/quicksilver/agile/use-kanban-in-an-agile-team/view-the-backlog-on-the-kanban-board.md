@@ -2,26 +2,24 @@
 product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: 將待處理專案新增至Kanban面板
-description: 您可以直接在看板顯示[!UICONTROL 待處理專案]欄。  [!DNL Kanban] 展示板上的[!UICONTROL 待處理專案]資料行包含 [!DNL Kanban] 展示板上待處理專案的前20個專案。 任務和問題必須屬於狀態等於目前之專案的專案，才能顯示在待處理專案中。
+description: 您可以直接在看板顯示[!UICONTROL 待處理專案]欄。 [!UICONTROL 展示板上的]待處理專案 [!DNL Kanban] 資料行包含 [!DNL Kanban] 展示板上待處理專案的前20個專案。 任務和問題必須屬於狀態等於目前之專案的專案，才能顯示在待處理專案中。
 author: Lisa
 feature: Agile
 exl-id: 77c7f7c7-66d9-4aec-9a0c-bfdc470a58d7
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
 
 # 將待處理專案新增至[!UICONTROL Kanban]面板
 
-您可以直接在看板顯示[!UICONTROL 待處理專案]欄。 [!DNL Kanban]展示板上的[!UICONTROL 待處理專案]欄包含您[!DNL Kanban]展示板上的待處理專案中的前20個專案。 任務和問題必須屬於狀態相當於[!UICONTROL 目前]的專案，才能顯示在待處理專案中。
+您可以直接在看板顯示[!UICONTROL 待處理專案]欄。 [!UICONTROL 展示板上的]待處理專案[!DNL Kanban]欄包含您[!DNL Kanban]展示板上的待處理專案中的前20個專案。 任務和問題必須屬於狀態相當於[!UICONTROL 目前]的專案，才能顯示在待處理專案中。
 
 ## 存取需求
 
 +++ 展開以檢視本文中功能的存取需求。
-
-您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -30,14 +28,13 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>新增：[!UICONTROL Standard]</p> 
-   或
-   <p>目前： [!UICONTROL Work]或更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>標準</p> 
+   <p>工作或更高</p> </td> 
   </tr>
  </tbody> 
 </table>

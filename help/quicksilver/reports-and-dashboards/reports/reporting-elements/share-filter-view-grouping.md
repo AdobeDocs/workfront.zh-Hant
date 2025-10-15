@@ -6,10 +6,10 @@ description: 您可以與其他使用者共用您有權檢視的篩選器、檢�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1178'
-ht-degree: 1%
+source-wordcount: '1170'
+ht-degree: 2%
 
 ---
 
@@ -30,49 +30,43 @@ ht-degree: 1%
 
 如需如何建立篩選、檢視或群組的相關資訊，請參閱下列文章：
 
-* [篩選器總覽](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* [篩選器概觀](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
 * 在Adobe Workfront中[檢視總覽](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
 * [Adobe Workfront中的群組概觀](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
-
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront計畫*</strong></td> 
-   <td> <p>任何 </p> </td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront授權*</strong></td> 
+   <td role="rowheader">Adobe Workfront授權</strong></td> 
    <td> 
-      <p>新增：</p>
-         <ul>
-         <li><p>投稿人或以上</p></li>
-         </ul>
-      <p>目前：</p>
-         <ul>
-         <li><p>要求或更高版本</p></li>
-         </ul>
+    <p>投稿人或以上</p>
+    <p>要求或更高版本</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>存取層級設定*</strong></td> 
-   <td> <p>檢視或更高許可權存取篩選器、檢視、群組</p></td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>檢視或更高許可權存取篩選器、檢視、群組</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td><p>檢視或具有存取許可權更高的許可權可共用檢視、篩選器或群組</p></td> 
+   <td role="rowheader">物件許可權</td> 
+    <td> <p>檢視或具有存取許可權更高的許可權可共用檢視、篩選器或群組</p></td> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -136,7 +130,7 @@ ht-degree: 1%
 
 1. （選用）執行下列任一項作業，來啟用或停用實體的其他許可權：
 
-   1. 按一下&#x200B;**檢視**&#x200B;並停用&#x200B;**共用**&#x200B;選項。 預設為啟用。
+   1. 按一下&#x200B;**檢視**&#x200B;並停用&#x200B;**共用**&#x200B;選項。 這項設定預設為啟用。
    1. 按一下&#x200B;**管理**&#x200B;並停用&#x200B;**共用**&#x200B;或&#x200B;**刪除**&#x200B;選項。 預設為啟用。
 
       >[!NOTE]

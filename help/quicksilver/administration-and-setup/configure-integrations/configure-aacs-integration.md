@@ -6,9 +6,9 @@ description: 您可以在 [!DNL Experience Manager Assets]中將您的工作與�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
-source-wordcount: '1708'
+source-wordcount: '1702'
 ht-degree: 0%
 
 ---
@@ -39,34 +39,35 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table>
   <tr>
-   <td>[!DNL Adobe Workfront] 計劃
+   <td>Adobe Workfront套件
    </td>
-   <td>任何
+   <td> <p>Prime或Ultimate</p>
+    <p>Workflow Ultimate</p>
+   </td>
+  </tr>
+    <tr>
+   <td>Adobe Workfront授權
+   </td>
+   <td>標準
+   <p>規劃</p>
+   </td>
+  </tr>
+  </tr>
+    <tr>
+   <td>Adobe Experience Manager授權
+   </td>
+   <td>標準
    </td>
   </tr>
   <tr>
-   <td>[!DNL Adobe Workfront] 授權
-   </td>
-   <td><p>目前： [!UICONTROL 計畫]</p>
-   <p>新增：[!UICONTROL Standard]</p></td>
-  </tr>
-  <tr>
-   <td>[!DNL Experience Manager] 授權
-   </td>
-   <td>[!UICONTROL 標準]
-   </td>
-  </tr>
-  <tr>
-   <td>產品
+   <td>其他產品
    </td>
    <td>您必須有[!DNL Experience Manager Assets as a Cloud Service]，而且您必須以使用者的身分新增到產品中。
    </td>
   </tr>
-  <tr>
+   <tr>
    <td>存取層級設定
    </td>
    <td>您必須是[!DNL Workfront]管理員。
@@ -121,7 +122,7 @@ ht-degree: 0%
 
 若要設定中繼資料欄位：
 
-1. 依照[!DNL Experience Manager Assets]設定Adobe[與 [!DNL Workfront]  [!DNL Experience Manager Assets]之間的資產中繼資料對應，在](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)中設定中繼資料結構描述。
+1. 依照[!DNL Experience Manager Assets]設定Adobe[與 [!DNL Workfront]  [!DNL Experience Manager Assets]之間的資產中繼資料對應，在](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)中設定中繼資料結構描述。
 
 
 1. 在Workfront中設定自訂表單欄位。 [!DNL Workfront]有許多您可以使用的內建自訂欄位。 不過，您也可以建立自己的自訂欄位，如[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)中所述。
@@ -151,7 +152,7 @@ ht-degree: 0%
 
 在Experience Manager Assets中建立標籤後，標籤會顯示在中繼資料區段的「標籤」下拉式清單下。 若要將欄位連結至標籤，請在中繼資料對應區域的Experience Manager Assets欄位下拉式清單中選取`xcm:keywords`。
 
-如需Experience Manager Assets中標籤的詳細資訊，包括如何建立和管理標籤，請參閱[管理標籤](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-64/administering/contentmanagement/tags)。
+如需Experience Manager Assets中標籤的詳細資訊，包括如何建立和管理標籤，請參閱[管理標籤](https://experienceleague.adobe.com/en/docs/experience-manager-64/administering/contentmanagement/tags)。
 
 **Experience Manager Assets自訂中繼資料結構描述欄位**
 

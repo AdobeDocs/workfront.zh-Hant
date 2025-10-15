@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 43ea91db-d6f2-4218-9261-580a7e5b31d0
-source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1090'
 ht-degree: 1%
 
 ---
@@ -124,7 +124,7 @@ Workfront主機板現在提供下列其他改良功能：
 
 將問題轉換為專案後，使用者留在清單、報告或儀表板上，而不是被重新導向到專案的頁面。 轉換完成後，系統會顯示成功通知，內含專案的連結，可讓您視需要輕鬆導覽至專案。
 
-如需詳細資訊，請參閱[在Adobe Workfront中將問題轉換為專案](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)。
+如需詳細資訊，請參閱[將問題轉換為專案](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)。
 
 ## 變更指派時，分配時數將不再移除
 

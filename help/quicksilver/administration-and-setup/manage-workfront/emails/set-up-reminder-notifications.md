@@ -5,9 +5,9 @@ author: Alina, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
 workflow-type: tm+mt
-source-wordcount: '1232'
+source-wordcount: '1209'
 ht-degree: 2%
 
 ---
@@ -35,21 +35,18 @@ An example of how this can be used would be helpful here and/or in the section <
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：標準 </p>
- <p>或</p> 
-<p>目前：計畫</p> 
+   <td> <p>標準 </p>
+<p>規劃</p> 
 </td> 
   </tr> 
   <tr> 
@@ -59,13 +56,13 @@ An example of how this can be used would be helpful here and/or in the section <
  </tbody> 
 </table>
 
-*如需此表格中資訊的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
 ## 自訂提醒電子郵件
 
-您可以自訂提醒通知電子郵件中的主旨、內文和HTML。
+您可以自訂提醒通知電子郵件中的主旨、本文和HTML。
 
 或者，您可以使用提醒通知隨附的預設電子郵件。 預設電子郵件使用提醒通知名稱作為電子郵件主旨，並在電子郵件內文中使用物件名稱，包括觸發通知的事件。
 
@@ -119,7 +116,7 @@ An example of how this can be used would be helpful here and/or in the section <
    </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">條件</td> 
+      <td role="rowheader">標準</td> 
       <td> <p>選取條件以符合要排程的提醒通知資格。 除非符合條件選擇，否則不會排程提醒通知。</p> <p>根據您在步驟4中選取的物件型別，可使用下列條件選項：</p> 
        <ul> 
         <li><strong>目前專案中未完成：</strong> <i>（可用於任務和問題提醒）</i>提醒通知已排定為僅當與提醒通知關聯的物件狀態未完成且專案狀態為目前時才傳送。</li> 
@@ -157,7 +154,7 @@ An example of how this can be used would be helpful here and/or in the section <
 
 當附加了提醒通知的專案符合條件時，會觸發電子郵件通知給在提醒通知中定義的使用者。
 
-如需接收提醒通知的詳細資訊，請參閱[Adobe Workfront通知](../../../workfront-basics/using-notifications/wf-notifications.md)中的[提醒通知](../../../workfront-basics/using-notifications/wf-notifications.md#reminder-notifications)區段。
+如需接收提醒通知的詳細資訊，請參閱[Adobe Workfront通知](../../../workfront-basics/using-notifications/wf-notifications.md#reminder-notifications)中的[提醒通知](../../../workfront-basics/using-notifications/wf-notifications.md)區段。
 
 ## 測試提醒通知傳遞
 

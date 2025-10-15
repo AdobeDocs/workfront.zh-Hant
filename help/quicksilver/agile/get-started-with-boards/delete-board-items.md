@@ -6,10 +6,10 @@ description: 當您從展示板中刪除卡片時，該卡片將會永久刪除�
 author: Lisa
 feature: Agile
 exl-id: 68b7d2e5-92f0-462d-8122-eaecb1e6b87c
-source-git-commit: 81e87793905fd925db00c7a0ac107150263a1365
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 0%
+source-wordcount: '516'
+ht-degree: 1%
 
 ---
 
@@ -23,28 +23,25 @@ ht-degree: 0%
 
 封存卡片會將卡片傳送至封存，您稍後可以將其還原至展示板。
 
-封存的卡片不會同步至Workfront任務和問題。 如果您還原卡片，卡片會再次同步。
+封存的卡片不會同步至Workfront任務和問題。 如果您還原卡片，它將再次同步。
 
 ## 存取需求
 
 +++ 展開以檢視本文中功能的存取需求。
-
-您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
    <td> 
-   <p>新增：[!UICONTROL Contributor]或以上</p> 
-   <p>或</p>
-   <p>目前： [!UICONTROL Request]或以上</p>
+   <p>投稿人或以上</p> 
+   <p>要求或更高版本</p>
    </td> 
   </tr> 
  </tbody> 

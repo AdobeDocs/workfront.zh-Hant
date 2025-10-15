@@ -6,9 +6,9 @@ description: 您可以先請求核准專案，然後再開始處理。 我們建
 author: Alina
 feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '570'
 ht-degree: 2%
 
 ---
@@ -34,37 +34,68 @@ ht-degree: 2%
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p role="rowheader">Adobe Workfront授權*</p> </td> 
-   <td> <p>新增：標準 </p>
-   或
-   <p>目前：計畫 </p>
+   <td role="rowheader"> <p role="rowheader">Adobe Workfront授權</p> </td> 
+   <td> <p>標準</p>
+   <p>規劃</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級</td> 
-   <td> <p>編輯專案的存取權</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>編輯專案的存取權</p>
+   <p>如果您向投資組合或計畫請求專案，您必須擁有投資組合和計畫的編輯存取權</p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>建立專案請求時，您會自動收到專案的管理許可權 </p> </td> 
+   <td> <p>建立專案請求時，您會自動收到專案的管理許可權 </p> 
+   <p>如果您向投資組合或計畫請求專案，您必須擁有投資組合和計畫的管理許可權。</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p role="rowheader">Adobe Workfront license*</p> </td> 
+   <td> <p>New: Standard </p>
+   Or
+   <p>Current: Plan </p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>Edit access to Projects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>When you create a project request you automatically receive Manage permissions to the project </p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 請求專案
 
@@ -81,7 +112,7 @@ ht-degree: 2%
 
 1. 執行下列其中一項：
 
-   * 遵循與定義業務案例時建立專案相同的步驟。 （建議）
+   * 遵循與定義業務案例時建立專案相同的步驟。 (建議)
 
      如需定義業務案例和請求專案的資訊，請參閱[為專案建立業務案例](../../../manage-work/projects/define-a-business-case/create-business-case.md)。
 

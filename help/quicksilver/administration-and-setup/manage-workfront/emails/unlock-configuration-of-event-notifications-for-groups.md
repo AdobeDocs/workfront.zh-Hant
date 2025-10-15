@@ -8,9 +8,9 @@ author: Lisa, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 056d76c1-7e9b-49b9-974a-75765e53b7fd
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
@@ -33,19 +33,19 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td>計劃</td> 
+   <td>
+   <p>標準</p>
+   <p>規劃</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -53,6 +53,8 @@ ht-degree: 0%
   </tr> 
  </tbody> 
 </table>
+
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -71,7 +73,7 @@ ht-degree: 0%
 
    或
 
-   若要一次解除鎖定或鎖定多個通知，請選取通知，然後按一下清單上方工具列中顯示的![解除鎖定[解除鎖定]圖示](assets/unlock-icon-toolbar.png)或![鎖定[鎖定]圖示](assets/lock-icon-locked-qs.png)按鈕。
+   若要一次解除鎖定或鎖定多個通知，請選取通知，然後按一下清單上方工具列中顯示的[解除鎖定![解除鎖定]圖示](assets/unlock-icon-toolbar.png)或[鎖定![鎖定]圖示](assets/lock-icon-locked-qs.png)按鈕。
 
 1. 按一下「**儲存**」。
 1. （選擇性）如果要為最上層群組設定事件通知，而不是將此工作留給群組管理員，您可以執行下列任一項作業：

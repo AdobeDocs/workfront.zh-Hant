@@ -6,9 +6,9 @@ description: 任務和問題可以指派給敏捷團隊，並根據團隊使用�
 author: Lisa
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-source-git-commit: 6ae8e48361114e897d0be83ae81f8344074a5ec2
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '1349'
+source-wordcount: '1334'
 ht-degree: 0%
 
 ---
@@ -30,8 +30,6 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -39,18 +37,17 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>新增：[!UICONTROL Standard]</p> 
-   或
-   <p>目前： [!UICONTROL Work]或更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>標準</p> 
+   <p>工作或更高</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td>[!UICONTROL Manage]內文所在專案的存取權 </td> 
+   <td>管理內文所在專案的存取權 </td> 
   </tr> 
  </tbody> 
 </table>
@@ -104,7 +101,7 @@ ht-degree: 0%
 
 ### 編輯劇本 {#edit-stories}
 
-您可以直接從「待處理專案」上的[!UICONTROL 內文]或[!UICONTROL 問題]標籤編輯內文，就像大量編輯專案中的任何任務或問題一樣，如[編輯任務](../../manage-work/tasks/manage-tasks/edit-tasks.md)中的[大量編輯任務](../../manage-work/tasks/manage-tasks/edit-tasks.md#edit-tasks-in-bulk)和[編輯問題](../../manage-work/issues/manage-issues/edit-issues.md)中所述。
+您可以直接從「待處理專案」上的[!UICONTROL 內文]或[!UICONTROL 問題]標籤編輯內文，就像大量編輯專案中的任何任務或問題一樣，如[編輯任務](../../manage-work/tasks/manage-tasks/edit-tasks.md#edit-tasks-in-bulk)中的[大量編輯任務](../../manage-work/tasks/manage-tasks/edit-tasks.md)和[編輯問題](../../manage-work/issues/manage-issues/edit-issues.md)中所述。
 
 ## 在待處理專案上建立新劇本 {#create-new-stories-on-the-backlog}
 
@@ -139,31 +136,31 @@ ht-degree: 0%
     <col>
     <tbody>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 劇本名稱]</strong></td>
+      <td role="rowheader"><strong>[！UICONTROL劇本名稱]</strong></td>
       <td> 輸入劇本的名稱。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 說明]</strong></td>
+      <td role="rowheader"><strong>[！UICONTROL說明]</strong></td>
       <td>（選擇性）輸入劇本的說明。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 就緒]</strong></td>
+      <td role="rowheader"><strong>[！UICONTROL就緒]</strong></td>
       <td> 選取內文是否準備好新增至反複專案。 此設定僅供參考。 無論此設定的狀態為何，內文都可以新增至反複專案。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 估計]</strong></td>
+      <td role="rowheader"><strong>[！UICONTROL估計]</strong></td>
       <td>指定劇本的點數或每小時預估。 預估會影響待執行工作圖表。 只有當每個內文都包含正確的估計時，疊代的待執行工作圖表才會準確。 （如果您提供點數預估，則必須在專案團隊設定中指定每個點代表的時數。）</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 父專案]</strong></td>
-      <td>開始輸入將建立此劇本的專案名稱，然後在名稱出現在下拉式清單中時按一下該名稱。<br>專案狀態必須設定為[!UICONTROL 目前]。 如果專案狀態不是[!UICONTROL 目前]，則不會顯示在下拉式功能表中。</td>
+      <td role="rowheader"><strong>[！UICONTROL父專案]</strong></td>
+      <td>開始輸入將建立此劇本的專案名稱，然後在名稱出現在下拉式清單中時按一下該名稱。<br>專案狀態必須設定為[！UICONTROL目前]。 如果專案狀態不是[！UICONTROL目前]，則不會顯示在下拉式功能表中。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 父系任務]</strong></td>
+      <td role="rowheader"><strong>[！UICONTROL父系任務]</strong></td>
       <td>（選擇性）開始輸入此內文所屬之父系工作的名稱，然後在名稱出現在下拉式清單中時按一下該名稱。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 自訂Forms]</strong></td>
+      <td role="rowheader"><strong>[！UICONTROL自訂Forms]</strong></td>
       <td> （選擇性）選取您要新增至本文的任何自訂表格。</td>
      </tr>
     </tbody>

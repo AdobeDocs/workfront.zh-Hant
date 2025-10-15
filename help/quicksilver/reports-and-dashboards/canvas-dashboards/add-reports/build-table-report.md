@@ -6,9 +6,9 @@ description: 您可以將表格報表新增至畫布控制面板，以使用表�
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
-source-git-commit: 56d0b9281387cc7b35055461e7868c7e4a194f81
+source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: '1074'
 ht-degree: 1%
 
 ---
@@ -18,8 +18,8 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >畫布儀表板功能目前僅適用於參與Beta階段的使用者。 在此階段中，部分功能可能無法完成或如預期般運作。 請依照「畫布控制面板」測試版概觀文章中[提供意見回饋](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)一節的指示，提交有關您體驗的任何意見回饋。<br>
->&#x200B;>如果您對可能的錯誤或技術問題有回饋，請向Workfront支援提交票證。 如需詳細資訊，請參閱[聯絡客戶支援](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。<br>
->&#x200B;>請注意，以下雲端服務供應商未提供此測試版：
+>>如果您對可能的錯誤或技術問題有回饋，請向Workfront支援提交票證。 如需詳細資訊，請參閱[聯絡客戶支援](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。<br>
+>>請注意，以下雲端服務供應商未提供此測試版：
 >
 >* 自備Amazon Web Services金鑰
 >* Azure
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 ## 存取需求
 
-+++ 展開以檢視存取需求。 
++++ 展開以檢視本文中功能的存取需求。
 
 <table style="table-layout:auto"> 
 <col> 
@@ -40,7 +40,7 @@ ht-degree: 1%
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront計畫</p></td> 
+   <td role="rowheader"><p>Adobe Workfront套件</p></td> 
    <td> 
 <p>任何 </p> 
    </td> 
@@ -48,8 +48,8 @@ ht-degree: 1%
  <tr> 
    <td role="rowheader"><p>Adobe Workfront授權</p></td> 
    <td> 
-<p>目前：計畫 </p> 
-<p>新增：標準</p> 
+<p>標準 </p> 
+<p>規劃</p> 
    </td> 
    </tr> 
   </tr> 

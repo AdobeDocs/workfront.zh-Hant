@@ -7,9 +7,9 @@ description: 請求代表擱置任務或問題指派。 工作請求會向個人
 author: Lisa
 feature: People Teams and Groups, Work Management
 exl-id: ef96e520-0d5f-4180-a27a-1fbbffff8f2b
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -26,27 +26,23 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td>
    <p>若要指派或處理請求，請執行下列步驟：
-   <p>新增：淺色或更高</br>
-    或</br>
-   目前：檢閱或以上</p>
+   <p>淺色或更高</p>
+  <p>評論或以上</p>
    <p>若要重新指派請求，請執行下列步驟：
-   <p>新增： Standard</br>
-    或</br>
-   目前：工作或以上</p></td>
+   <p>標準</p>
+   <p>工作或更高</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -96,5 +92,5 @@ ht-degree: 0%
 1. 在左側導覽面板中，選取&#x200B;**[!UICONTROL 團隊要求]**。
 1. 按一下&#x200B;**[!UICONTROL 重新指派]**&#x200B;圖示。
 
-1. 開始輸入您要重新指派請求的使用者、群組或團隊名稱，然後按一下[指派]。**&#x200B;**\
+1. 開始輸入您要重新指派請求的使用者、群組或團隊名稱，然後按一下[指派]。****\
    請求已重新指派。

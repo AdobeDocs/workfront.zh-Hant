@@ -9,22 +9,22 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: 76797ce2afb6a6a929531f02ed3a3b3f75240602
+source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 9%
+ht-degree: 25%
 
 ---
 
 # 關於預設Adobe Workfront配置
 
-預設版面配置是主功能表![主功能表圖示](assets/main-menu-icon.png)或主功能表![主功能表圖示](assets/main-menu-icon.png) （如果可用）的排列，在Adobe Workfront管理員使用版面配置範本進行任何變更之前，左側面板以及檢視、群組和篩選器。
+預設版面配置是主功能表![主功能表圖示](assets/main-menu-icon.png)或主功能表![主功能表圖示](assets/main-menu-icon-left-nav.png) （如果可用）的排列，在Adobe Workfront管理員使用版面配置範本進行任何變更之前，左側面板以及檢視、群組和篩選器。
 
 如需有關Workfront管理員如何藉由指派配置範本來修改使用者的預設配置的資訊，請參閱[將使用者指派給配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)。
 
 >[!NOTE]
 >
->使用者可以編輯其使用者設定檔偏好設定，以變更自己的版面。 如需詳細資訊，請參閱[設定我的設定](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)中的[偏好設定](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md#preferences)區段。
+>使用者可以編輯其使用者設定檔偏好設定，以變更自己的版面。 如需詳細資訊，請參閱[設定我的設定](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md#preferences)中的[偏好設定](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)區段。
 
 ## 每種授權型別的預設主功能表專案
 
@@ -50,7 +50,7 @@ ht-degree: 9%
     <th class="tg-0lax"><span style="font-weight:bold">系統管理員</span></th>
     <th class="tg-0lax"><span style="font-weight:bold">規劃者</span></th>
     <th class="tg-0lax"><span style="font-weight:bold">工作者</span></th>
-    <th class="tg-1wig">檢閱者</th>
+    <th class="tg-1wig">審閱者</th>
     <th class="tg-1wig">請求者</th>
     <th class="tg-1wig">外部使用者</th>
   </tr></thead>
@@ -196,7 +196,7 @@ ht-degree: 9%
     <td class="tg-0lax"></td>
   </tr>
   <tr>
-    <td class="tg-0lax">情境</td>
+    <td class="tg-0lax">方案</td>
     <td class="tg-0lax"></td>
     <td class="tg-0lax">✔</td>
     <td class="tg-0lax"></td>
@@ -402,7 +402,7 @@ ht-degree: 9%
     <td class="tg-0pky"></td>
   </tr>
   <tr>
-    <td class="tg-0pky">情境</td>
+    <td class="tg-0pky">方案</td>
     <td class="tg-0pky"></td>
     <td class="tg-0pky">✔</td>
     <td class="tg-0pky"></td>

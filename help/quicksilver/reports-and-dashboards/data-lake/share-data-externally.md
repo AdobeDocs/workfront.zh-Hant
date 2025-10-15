@@ -7,10 +7,10 @@ description: Workfront Data Connect可讓您將組織的Workfront資料與商業
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
+source-git-commit: 7764e512a3fb30a89e6645a4d8544a5fcffee231
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 1%
+source-wordcount: '570'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ Workfront Data Connect可讓您將組織的Workfront資料與商業智慧工具�
 
 大部分產品在建立連線時，都需要下列資料湖相關資訊：
 
-| 欄位名稱 | 值 |
+| 欄位名稱 | 價值 |
 |---------------|-------------|
 | 伺服器 | 連線的URL，不含`https://`部分(可在Workfront的&#x200B;**資料連線**&#x200B;頁面上找到*) |
 | 連接埠 | `443` |
@@ -43,35 +43,27 @@ Workfront Data Connect可讓您將組織的Workfront資料與商業智慧工具�
 
 ## 存取需求
 
-+++ 展開以檢視存取需求。
-
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td><p>包含在下列計畫中：</p>
-    <ul>
-        <li><p>Ultimate</p></li> 
-    </ul>    
-   <!--<p>Can be purchased as an add-on to the following plans:</p> 
-    <ul>
-        <li>Select</li> 
-        <li>Prime</li>
-    </ul>--> 
-    <p>Workfront Data Connect不適用於舊版Workfront計畫。</p> 
-   </td> </td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td><p>Ultimate</p>
+    <p>Workflow Ultimate</p>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td><p>規劃</p></td> 
+   <td>
+   <p>標準</p>
+   <p>規劃</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>您必須是Workfront管理員。</p></td> 
+   <td> <p>您必須是Workfront管理員</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -100,7 +92,7 @@ Workfront Data Connect可讓您將組織的Workfront資料與商業智慧工具�
 
 1. 按一下&#x200B;**允許的IP**&#x200B;標籤，然後按一下您要移除的IP位址右側的垃圾桶圖示![刪除圖示](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png)。
 
-1. 在出現的視窗中，核取方塊以確認，然後按一下[刪除]。**&#x200B;**
+1. 在出現的視窗中，核取方塊以確認，然後按一下[刪除]。****
 
 ## 與商業智慧工具共用資料
 
@@ -115,5 +107,5 @@ Workfront Data Connect可讓您將組織的Workfront資料與商業智慧工具�
 
 以下列出許多常見的資料倉儲；請造訪其檔案網站，以進一步瞭解如何連線至您的資料湖。
 
-* 資料庫資料
+* Databricks
 * AWS Redshift

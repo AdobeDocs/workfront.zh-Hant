@@ -7,7 +7,7 @@ description: Adobe Workfront會透過檢視任務在時間表中的進度來確�
 author: Alina
 feature: Work Management
 exl-id: 38e5f89e-bdfa-433c-9371-3c3003ada3a3
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%

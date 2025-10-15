@@ -6,9 +6,9 @@ description: 您可以回應根據對專案、任務、問題和其他物件的�
 author: Nolan and Alina
 feature: Get Started with Workfront
 exl-id: fea88410-8f37-49d0-9f5d-9fbac4ab5de6
-source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '555'
 ht-degree: 1%
 
 ---
@@ -37,27 +37,35 @@ ht-degree: 1%
 * 問題
 * 文件
 * 範本和範本任務
-* 專案組合
+* 產品組合
 * 方案
-* 反覆項目
+* 疊代
 * 時程表
 
 ## 存取需求
 
-您必須具有下列存取權才能執行本文中的步驟：
++++ 展開以檢視本文中功能的存取需求。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront計畫</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront套件</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront授權*</strong></td> 
-   <td> <p>新增：問題和檔案的貢獻者或更高；所有其他物件的淺色或更高</p>
-   <p>目前：問題與檔案的要求或更高；所有其他物件的檢閱或更高</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront授權</strong></td> 
+   <td> <p>對於問題和檔案：</p>
+
+<ul><li><p>投稿人或以上</p></li>
+   <li><p>要求或更高版本</p></li></ul>
+
+<p>對於所有其他物件：</p>
+   <ul><li><p>淺色或更高</p></li>
+   <li><p>評論或以上</p></li></ul>
+
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>存取層級設定</strong></td> 
@@ -70,7 +78,34 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。 如需詳細資訊，請參閱[Workfront檔案的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱[Workfront檔案的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
+
+<!--Old:
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront plan</strong></td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td> <p>New: Contributor or higher for issues and documents; Light or higher for all other objects</p>
+   <p>Current: Request or higher for issues and documents; Review or higher for all other objects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Access level configuration</strong></td> 
+   <td> <p>View or higher access to the objects where you want to post the reply</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Object permission</strong></td> 
+   <td> <p>View or higher permissions to the objects where you want to post the reply</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 回覆電子郵件通知的更新
 

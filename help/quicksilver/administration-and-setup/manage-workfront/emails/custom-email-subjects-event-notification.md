@@ -6,10 +6,10 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f39a091-aec2-4013-a835-0ab1c8789dc3
-source-git-commit: 3c8438fef3333c5f7ceab7b19b6755d4e4246cb9
+source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 4%
+source-wordcount: '575'
+ht-degree: 5%
 
 ---
 
@@ -35,8 +35,6 @@ ht-degree: 4%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -44,21 +42,24 @@ ht-degree: 4%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td>規劃</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td>
+   <p>標準</p>
+   <p>規劃</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>計畫者或以上，具有提醒通知的管理存取權</p> <p>如需有關授與計畫使用者管理存取權的資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授與使用者對特定區域的管理存取權</a>。</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>計畫者或以上，具有提醒通知的管理存取權</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -84,9 +85,9 @@ ht-degree: 4%
 
 ![事件不是多個主旨列](assets/ev-multiple-subject.png)
 
-如果使用者包含在工作、問題、範本工作或檔案的對話中，將產生包含第一個主旨行的電子郵件。 主旨列包含「referenceObject：name」，系統會定義物件並在主旨欄位中顯示適當的名稱。 電子郵件主旨列看起來類似這樣：「對專案ABC上的任務123發表評論」。
+如果使用者包含在工作、問題、範本工作或檔案的對話中，將產生包含第一個主旨行的電子郵件。 主旨列包含&quot;referenceObject:name&quot;，系統會定義物件並在主旨欄位中顯示適當的名稱。 電子郵件主旨列看起來類似這樣：「對專案ABC上的任務123發表評論」。
 
-如果新增至專案交談，將會產生具有第二個主旨的電子郵件。 在此處，主旨列包含「topReferenceObject：name」，Workfront會再次識別參考的物件，並傳回該物件名稱，而非主旨中的「topReferenceObject：name」。 電子郵件主旨列看起來類似這樣：「對專案ABC發表評論」。
+如果新增至專案交談，將會產生具有第二個主旨的電子郵件。 在此處，主旨列包含「topReferenceObject:name」，再次Workfront會識別參考的物件，並在主旨中傳回該物件名稱而非「topReferenceObject:name」。 電子郵件主旨列看起來類似這樣：「對專案ABC發表評論」。
 
 若要編輯電子郵件主旨行並將其他欄位新增至主旨行，請參閱本文中的[自訂事件通知的電子郵件主旨行](#customize-email-subject-lines-for-event-notifications)。
 

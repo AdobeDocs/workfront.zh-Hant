@@ -6,9 +6,9 @@ description: 智慧型資料夾是用來管理專案、任務或問題之外的�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 62dfc6b9-72a4-4dd5-acd7-42269cd99b1b
-source-git-commit: 3695c5bb566434d70907bfecf775ccd12b9208f4
+source-git-commit: 3f9a824780f2ded914d461a473aef3b6ecfa8701
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '512'
 ht-degree: 0%
 
 ---
@@ -23,28 +23,28 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>評論或以上</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> 
+   <p>投稿人或以上</p>
+   <p>評論或以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯檔案的存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td> <p>編輯檔案的存取權</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -71,7 +71,7 @@ ht-degree: 0%
 1. 在&#x200B;**資料夾**&#x200B;欄中，按一下您要編輯的智慧資料夾旁的&#x200B;**更多**&#x200B;圖示![更多功能表](assets/more-icon.png)。
 1. 按一下&#x200B;**編輯**。
 
-1. 進行變更，然後按一下[儲存資料夾]。**&#x200B;**
+1. 進行變更，然後按一下[儲存資料夾]。****
 
 ## 重新命名智慧資料夾 
 
@@ -87,7 +87,7 @@ ht-degree: 0%
 
    顯示&#x200B;**編輯智慧資料夾**&#x200B;對話方塊。 **資料夾名稱**&#x200B;欄位包含資料夾的原始名稱，並在括弧中加上「複製」一詞。
 
-1. 進行變更，然後按一下[儲存資料夾]。**&#x200B;**
+1. 進行變更，然後按一下[儲存資料夾]。****
 
 ## 刪除智慧資料夾
 

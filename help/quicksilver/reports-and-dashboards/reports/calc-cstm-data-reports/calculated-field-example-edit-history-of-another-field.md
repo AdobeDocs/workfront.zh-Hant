@@ -5,12 +5,12 @@ keywords: 稽核，追蹤，自訂，欄位
 navigation-topic: calculate-custom-data-reports
 title: 計算自訂欄位範例：顯示欄位的編輯歷史記錄
 description: 如果使用者定期更新自訂欄位，而您想要擷取對欄位進行的所有變更的記錄以及變更發生的日期，則可以在計算的自訂欄位中擷取此資訊。
-author: Nolan
+author: Jenny
 feature: Reports and Dashboards
 exl-id: e233ef28-c95a-42a1-b2eb-448dad5feddb
-source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
+source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '612'
 ht-degree: 0%
 
 ---
@@ -35,35 +35,38 @@ ht-degree: 0%
 
 ## 存取需求
 
-您必須具備下列條件：
+## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 <table style="table-layout:auto"> 
- <caption style="text-align: left;"> 
-  <p>*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。</p> 
- </caption> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront計畫*</p> </td> 
-   <td>任何</td> 
+   <td> <p>Adobe Workfront套件</p> </td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td> <p>Workfront授權*</p> </td> 
-   <td> <p>規劃 </p> </td> 
+   <td> <p>Adobe Workfront授權</p> </td> 
+   <td>
+      <p>標準</p>
+      <p>規劃</p></td>
   </tr> 
   <tr> 
-   <td><strong>存取層級設定*</strong> </td> 
-   <td> <p>自訂Forms的管理存取權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何變更存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td><p>存取層級設定</p></td> 
+   <td> <p>自訂Forms的管理存取權</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>物件許可權</strong> </p> </td> 
-   <td> <p>管理自訂表單的許可權 </p> <p>如需詳細資訊，請參閱<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">共用自訂表格</a>。<br></p> </td> 
+   <td> <p>物件許可權</p> </td> 
+   <td> <p>管理自訂表單的許可權</p></td> 
   </tr> 
  </tbody> 
 </table>
+
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先決條件
 

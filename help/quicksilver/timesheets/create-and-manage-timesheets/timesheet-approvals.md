@@ -3,12 +3,12 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: 核准時間表
 description: 核準時程表的程式可讓經理檢視其直接下屬的工作時間。 核准者可確認所有記錄時間均已分配至正確的區域，且期間已記錄足夠的時數。
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: b27b3307-f61b-456d-8076-590d1c391b4b
-source-git-commit: 9d0caff0381ee50bf8dd7060bebafb5354c0f0d8
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '672'
 ht-degree: 0%
 
 ---
@@ -27,33 +27,28 @@ Adobe Workfront提供設定時程表核准的功能，以支援此區域。
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- </col> 
- <col> 
- </col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront計畫</p></td> 
-   <td> <p>任何</p> </td> 
+   <td>Adobe Workfront套件</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront授權*</p></td> 
-   <td> <p>新增：標準</p>
-   <p>目前：計畫 </p> 
-   <tr> 
-   <td role="rowheader">存取層級設定</td> 
-   <td> <p>對時程表和時數的管理存取 </p> </td> 
-  </tr>
-
-</td> 
+   <td>Adobe Workfront授權</td> 
+   <td>
+   <p>標準</p>
+   <p>規劃</p></td>
+  </tr> 
+  <tr> 
+   <td>存取層級設定</td> 
+   <td><p>對時程表和時數的管理存取</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -63,7 +58,7 @@ Adobe Workfront提供設定時程表核准的功能，以支援此區域。
 
 時程表核准者會在建立時程表設定檔時定義。 您必須擁有計畫授權才能被指定為核准者。
 
-如需指定時程表核准者的詳細資訊，請參閱文章[建立、編輯和指派時程表設定檔](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)中的[建立或編輯時程表設定檔](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md#create)小節。
+如需指定時程表核准者的詳細資訊，請參閱文章[建立、編輯和指派時程表設定檔](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md#create)中的[建立或編輯時程表設定檔](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)小節。
 
 ## 核准時間表
 
@@ -122,9 +117,9 @@ Adobe Workfront提供設定時程表核准的功能，以支援此區域。
 
 「首頁」區域隨即開啟。
 
-1. 確保您已將&#x200B;**我的核准** Widget新增到您的首頁區域。 如需詳細資訊，請參閱新首頁[&#128279;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)中的新增、編輯或移除Widget。
+1. 確保您已將&#x200B;**我的核准** Widget新增到您的首頁區域。 如需詳細資訊，請參閱新首頁[中的](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)新增、編輯或移除Widget。
 1. 在我的核准Widget中尋找時程表核准。
-1. （選擇性）展開[核准]或[拒絕]按鈕右側的下拉式功能表，新增有關您決定的註解，然後按一下[新增]。**&#x200B;**
+1. （選擇性）展開[核准]或[拒絕]按鈕右側的下拉式功能表，新增有關您決定的註解，然後按一下[新增]。****
 1. 按一下下列其中一個按鈕，即可做出核准決定：
 
    * 核准

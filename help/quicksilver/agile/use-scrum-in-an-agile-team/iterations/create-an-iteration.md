@@ -6,9 +6,9 @@ description: 反複專案是Scrum敏捷團隊規劃工作容量的關鍵元件�
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: e24c97e78b210fc385052b573fe69d092b521a90
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1022'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,6 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -30,14 +28,13 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>新增：[!UICONTROL Light]或以上</p> 
-   或
-   <p>目前： [!UICONTROL Review]或以上</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>淺色或更高</p> 
+   <p>評論或以上</p> </td> 
   </tr>
  </tbody> 
 </table>
@@ -65,27 +62,27 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 反複專案名稱]</strong></td> 
+      <td role="rowheader"><strong>[！UICONTROL反複專案名稱]</strong></td> 
       <td>輸入反複專案的名稱。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 目標]</strong></td> 
+      <td role="rowheader"><strong>[！UICONTROL目標]</strong></td> 
       <td>新增您對此反複專案擁有的任何目標。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 開始日期]</strong></td> 
+      <td role="rowheader"><strong>[！UICONTROL開始日期]</strong></td> 
       <td>輸入反複專案應該開始的日期。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 結束日期]</strong></td> 
+      <td role="rowheader"><strong>[！UICONTROL結束日期]</strong></td> 
       <td><p>輸入反複專案應該結束的日期。 [!DNL Workfront]建議將結束日期設定為從開始日期起的4週內。</p><p>提示：請務必選擇工作日作為結束日期。 待執行工作圖表在計算中僅使用工作日。<br>根據預設，待執行工作圖表會使用預設排程來定義工作日（如<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">建立排程</a>中所述）。 或者，為了合併團隊特定的非工作日，敏捷團隊可以選擇使用替代排程（如<a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">建立敏捷團隊</a>中「為待執行工作圖表定義替代團隊排程」中所述）。</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 容量]</strong></td> 
+      <td role="rowheader"><strong>[！UICONTROL容量]</strong></td> 
       <td> 指定反複專案的容量。 這是您的團隊在反複專案中能夠完成的點數或時數。 您輸入的數字必須等於或大於反複專案中所有劇本的總和中的點數或小時數。<br>[!DNL Workfront]預設會以50個容量預先填入此欄位。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 焦點]</strong></td> 
+      <td role="rowheader"><strong>[！UICONTROL焦點]</strong></td> 
       <td>指定團隊的焦點百分比。 如果團隊的所有成員將完全專注於此反複專案，則焦點將是100%。<br>[!DNL Workfront]預設會以100%預先填入此欄位。 </td> 
      </tr> 
     </tbody> 
@@ -107,7 +104,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 在「待處理專案」標籤上規劃反複專案時，您無法在「內文」或「問題」標籤之間切換，或新增其他任務。 反複專案建立後，您就可以新增現有內文或問題。 如需詳細資訊，請參閱下方的[待處理專案]索引標籤[&#128279;](#add-tasks-or-issues-to-an-existing-iteration-on-the-backlog-tab)上的將任務或問題新增到現有反複專案。
+> 在「待處理專案」標籤上規劃反複專案時，您無法在「內文」或「問題」標籤之間切換，或新增其他任務。 反複專案建立後，您就可以新增現有內文或問題。 如需詳細資訊，請參閱下方的[待處理專案]索引標籤[上的](#add-tasks-or-issues-to-an-existing-iteration-on-the-backlog-tab)將任務或問題新增到現有反複專案。
 
 
 1. 指定下列資訊：
@@ -117,27 +114,27 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 反複專案名稱]</strong></td> 
+      <td role="rowheader"><strong>[！UICONTROL反複專案名稱]</strong></td> 
       <td>指定反複專案的名稱。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 開始日期]</strong></td> 
+      <td role="rowheader"><strong>[！UICONTROL開始日期]</strong></td> 
       <td> 指定反複專案應該開始的日期。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 結束日期]</strong> </td> 
+      <td role="rowheader"><strong>[！UICONTROL結束日期]</strong> </td> 
       <td><p>指定反複專案應該結束的日期。 [!DNL Workfront]建議將結束日期設定為從開始日期起的4週內。</p><p>提示：請務必選擇工作日作為結束日期。 待執行工作圖表在計算中僅使用工作日。<br>根據預設，待執行工作圖表會使用預設排程來定義工作日（如<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">建立排程</a>中所述）。 或者，若要合併特定團隊的非工作日，敏捷團隊可以選擇使用替代排程（如<a href="../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md" class="MCXref xref">使用待執行工作表的替代團隊排程</a>中所述）。</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 焦點]</strong></td> 
+      <td role="rowheader"><strong>[！UICONTROL焦點]</strong></td> 
       <td>指定團隊的焦點百分比。 如果團隊的所有成員將完全專注於此反複專案，則焦點將是100%。<br>[!DNL Workfront]會使用您團隊過去反複專案的平均值預先填入此欄位。 如果這是您團隊的第一個反複專案，預設情況下此欄位值為0。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><br><strong>[!UICONTROL 容量]</strong></td> 
+      <td role="rowheader"><br><strong>[！UICONTROL容量]</strong></td> 
       <td> 指定反複專案的容量。 這是您的團隊在反複專案中能夠完成的點數或時數。 您輸入的數字必須等於或大於反複專案中所有劇本的總和中的點數或小時數。<br>[!DNL Workfront]會使用您團隊過去反複專案的平均值預先填入此欄位。 如果這是您團隊的第一個反複專案，預設情況下此欄位值為0。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><br><strong>[!UICONTROL 目標]</strong></td> 
+      <td role="rowheader"><br><strong>[！UICONTROL目標]</strong></td> 
       <td> 指定反複專案的目標。 此欄位不是必填欄位。</td> 
      </tr> 
     </tbody> 
@@ -166,4 +163,4 @@ ht-degree: 0%
 
 如果專案開始日期在反複專案開始日期之後，而專案結束日期在反複專案結束日期之後，則使用[!UICONTROL 專案結束日期]取代反複專案結束日期。
 
-您可以設定個別Scrum團隊以預設使用專案日期，而不是反複專案日期。 如需詳細資訊，請參閱[設定Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)一文中的[設定將工作專案新增至疊代](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration)時如何套用日期一節。
+您可以設定個別Scrum團隊以預設使用專案日期，而不是反複專案日期。 如需詳細資訊，請參閱[設定Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration)一文中的[設定將工作專案新增至疊代](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)時如何套用日期一節。

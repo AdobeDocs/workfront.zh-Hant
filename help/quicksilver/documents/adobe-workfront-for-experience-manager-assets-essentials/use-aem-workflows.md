@@ -6,9 +6,9 @@ description: 在Experience Manager Assets Essentials整合中使用工作流程
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: 99924f690c53584c090d19fff90d23d84ec306d4
+source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1012'
 ht-degree: 0%
 
 ---
@@ -28,44 +28,40 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具備下列條件：
-
-<table>
-  <tr>
-   <td><strong>Adobe Workfront計畫*</strong>
-   </td>
-   <td>任何
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Adobe Workfront授權*</strong>
-   </td>
-   <td>要求或更高版本
-   </td>
-  </tr>
-  <tr>
-   <td><strong>產品</strong>
-   </td>
-   <td><p>您必須擁有Experience Manager Assetsas a Cloud Service或Assets Essentials，並且您必須在Admin Console中作為使用者新增到產品中。</p><p>您必須擁有Adobe Experience Manager存放庫的寫入許可權。</p>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>存取層級設定*</strong>
-   </td>
-   <td>編輯檔案的存取權
-<p>
-<strong>注意： </strong>如果您還是沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<strong>建立或修改自訂存取層級</strong>。
-   </td>
-  </tr>
-  <tr>
-   <td><strong>物件許可權</strong>
-   </td>
-   <td>管理專案存取許可權或以上許可權 
-<p>
-如需請求其他存取權的資訊，請參閱<strong>請求物件</strong>的存取權。
-   </td>
-  </tr>
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p> 任何</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> 
+   <p>投稿人或以上</p> 
+   <p>要求或更高版本</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">其他產品</td> 
+   <td>您必須擁有Experience Manager as a Cloud Service或Assets Essentials，並且您必須在Admin Console中作為使用者新增到產品中。</td> 
+  </tr> 
+   <tr> 
+    <td role="rowheader">Experience Manager許可權</td> 
+    <td>您必須擁有資料夾的寫入許可權。</td> 
+   </tr>
+  <tr> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>編輯檔案的存取權</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>檢視存取許可權或更高</p> </td> 
+  </tr> 
+ </tbody> 
 </table>
+
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -73,7 +69,7 @@ ht-degree: 0%
 
 開始之前，
 
-* 您的Workfront管理員必須在Adobe Experience Manager整合中設定工作流程。 如需詳細資訊，請參閱[設定Experience Manager Assetsas a Cloud Service整合](../../administration-and-setup/configure-integrations/configure-aacs-integration.md#set-up-workflows-optional)。
+* 您的Workfront管理員必須在Adobe Experience Manager整合中設定工作流程。 如需詳細資訊，請參閱[設定Experience Manager Assets as a Cloud Service整合](../../administration-and-setup/configure-integrations/configure-aacs-integration.md#set-up-workflows-optional)。
 
 ## 將工作流程新增至範本
 
@@ -91,7 +87,7 @@ ht-degree: 0%
 
    如需特定工作流程的指示，請參閱本文中的[在專案中編輯工作流程值](#edit-workflow-values-in-a-project)。
 
-   只有已在「設定」的Experience Manager區域中啟動的工作流程，才能用於範本或專案。
+   範本或專案中僅限在「設定」的「Experience Manager」區域中啟用的工作流程。
 
 1. 您的變更會自動儲存。<!-- do they though??-->
 
@@ -108,7 +104,7 @@ ht-degree: 0%
 1. 為專案選取範本時，請選取包含您要用於此專案的工作流程的範本。
 1. （選擇性）編輯專案的任何工作流程值，如[編輯專案的工作流程值](#edit-workflow-values-in-a-project)中所述。
 
-   只有已在「設定」的Experience Manager區域中啟動的工作流程，才能用於範本或專案。
+   範本或專案中僅限在「設定」的「Experience Manager」區域中啟用的工作流程。
 
 
 ### 將工作流程新增至現有專案
@@ -124,7 +120,7 @@ ht-degree: 0%
 1. 為專案選取範本時，請選取包含您要用於此專案的工作流程的範本。
 1. （選擇性）編輯專案的任何工作流程值，如[編輯專案的工作流程值](#edit-workflow-values-in-a-project)中所述。
 
-   只有已在「設定」的Experience Manager區域中啟動的工作流程，才能用於範本或專案。
+   範本或專案中僅限在「設定」的「Experience Manager」區域中啟用的工作流程。
 
 
 
@@ -154,7 +150,7 @@ ht-degree: 0%
 
 1. 視需要開啟或關閉&#x200B;**[!UICONTROL 建立連結資料夾]**。 如果您將其開啟，則可以編輯連結的資料夾組態。
 
-   如需連結資料夾組態的詳細資訊，請參閱文章[設定[!UICONTROL Adobe Experience Manageras a Cloud Service]整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)中的[建立Experience Manager Assets連結資料夾](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md#create-adobe-experience-manager-linked-folders)。
+   如需連結資料夾組態的詳細資訊，請參閱文章[設定](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md#create-adobe-experience-manager-linked-folders)Adobe Experience Manager as a Cloud Service[整合[!UICONTROL 中的]建立Experience Manager Assets連結資料夾](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)。
 
 1. （選擇性）如果您希望只有在附加到專案的自訂表單上有某些值時才建置資料夾樹狀結構，請按一下該資料夾樹狀結構的&#x200B;**套用篩選器**，然後選取包含欄位、欄位和欄位值的自訂表單。 如果附加到新專案的自訂表單上的欄位包含所選值，則會建立資料夾樹狀結構。
 1. （選擇性）設定資料夾名稱時，您可以從下列選項中選取：
@@ -176,6 +172,6 @@ ht-degree: 0%
 
 若要編輯資產發佈的工作流程：
 
-1. 視需要自動開啟或關閉&#x200B;**Publish資產**。
+1. 視需要將&#x200B;**自動發佈資產**&#x200B;切換為開啟或關閉。
 1. （視條件而定）如果您正在啟用發佈，請選取您要發佈至發佈服務、Brand Portal或兩者。
 1. 按一下「**[!UICONTROL 儲存]**」。

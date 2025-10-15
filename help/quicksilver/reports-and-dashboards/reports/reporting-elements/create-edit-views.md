@@ -6,9 +6,9 @@ description: 您可以使用檢視來自訂顯示在熒幕上的資訊型別。 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: d98998627ac5161fd12bb2d86f65555550c82a48
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1721'
+source-wordcount: '1713'
 ht-degree: 1%
 
 ---
@@ -25,44 +25,35 @@ ht-degree: 1%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront計畫</strong></td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront授權*</strong></td> 
+   <td role="rowheader">Adobe Workfront授權</strong></td> 
    <td> 
-      <p>新增：</p>
-         <ul>
-         <li><p>投稿人或以上</p></li>
-         </ul>
-      <p>目前：</p>
-         <ul>
-         <li><p>要求或更高版本</p></li>
-         </ul>
+    <p>投稿人或以上</p>
+    <p>要求或更高版本</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>存取層級設定*</strong></td> 
+   <td role="rowheader">存取層級設定</td> 
    <td> <p>編輯對篩選器、檢視、群組的存取權</p> <p>編輯對報告、儀表板、行事曆的存取權，以在報告中建立檢視</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>物件許可權*</strong></td> 
+   <td role="rowheader">物件許可權</td> 
    <td> <p>管理報表的許可權，以建立或編輯報表中的檢視</p> <p>管理檢視的許可權以進行編輯</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
-
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 +++
 
 ## 建立或自訂檢視
@@ -80,8 +71,8 @@ ht-degree: 1%
 
 1. 按一下「**+新增檢視**」按鈕以建立新檢視。
 或
-按一下滑鼠右邊要編輯的現有檢視右邊出現的&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)。
-顯示&#x200B;**自訂檢視**&#x200B;對話方塊。
+按一下滑鼠右邊要編輯的現有檢視右邊出現的**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)。
+顯示**自訂檢視**&#x200B;對話方塊。
 
 1. 在&#x200B;**資料行預覽**&#x200B;區段中，執行下列任一項作業：
 
@@ -90,7 +81,6 @@ ht-degree: 1%
    * 將欄標題拖曳至新位置，調整欄的顯示順序。
 
    * 在&#x200B;**資料行設定**&#x200B;區域中，按一下&#x200B;**依**&#x200B;摘要此資料行，然後選擇資料在資料行中的顯示方式。 此選項適用於下列欄型別：
-
      <table style="table-layout:auto"> 
          <col> 
          <col> 
@@ -106,7 +96,7 @@ ht-degree: 1%
            <td role="rowheader"><strong>貨幣欄位</strong></td> 
            <td><ul>
            <li>計數</li>
-         <li>總和</li>
+         <li>Sum</li>
            <li>平均</li>
          <li>最大值</li>
            <li>最小值</li>
@@ -128,7 +118,7 @@ ht-degree: 1%
      > * 實際小時會摘要主要父系和獨立任務的值；它們不會摘要父系任務的父系或子系任務的數字。
      > * 數字和貨幣值的自訂資料欄位會摘要所有工作：父項、子項、父項的父項，以及獨立工作。
      >
-     >如需在報告中使用群組的詳細資訊，請參閱文章[&#x200B; Adobe Workfront中的群組概觀](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)。
+     >如需在報告中使用群組的詳細資訊，請參閱文章[ Adobe Workfront中的群組概觀](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)。
 
       * （選擇性）按一下&#x200B;**進階選項**，為資料行指定下列資訊：
 

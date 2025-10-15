@@ -3,13 +3,13 @@ content-type: faq
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-tasks
 title: 任務常見問答
-description: 依預設，任務請求者/指派者不會收到他們指派給其他使用者的任務變更的電子郵件通知。 對於定期指派大量任務的人來說，這些任務的通知量會非常大。
+description: 本文提供有關Adobe Workfront中工作最常見問題的清單。
 author: Alina
 feature: Work Management
 exl-id: 6463efdd-02e0-42e1-8fe6-18a88f74db7b
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '176'
 ht-degree: 1%
 
 ---

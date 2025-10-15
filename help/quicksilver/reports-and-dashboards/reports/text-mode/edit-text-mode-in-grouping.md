@@ -6,10 +6,10 @@ description: 您可以使用文字模式編輯清單或報表中的分組，以�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2eeecc16-ea6d-4a56-8ea3-e213706e89bf
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
 source-wordcount: '1539'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -25,30 +25,22 @@ ht-degree: 0%
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
-
-您必須具備下列條件：
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td> 
-      <p>新增：</p>
-         <ul>
-         <li><p>標準</p></li>
-         </ul>
-      <p>目前：</p>
-         <ul>
-         <li><p>規劃</p></li>
-         </ul>
-   </td>
+     <p>標準</p>
+     <p>規劃</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -57,11 +49,11 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">物件許可權</td> 
    <td> <p>管理報告的許可權，以編輯報告中的分組</p> <p>管理群組的許可權以編輯它</p></td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -195,15 +187,15 @@ ht-degree: 0%
         <li value="1"> <p> 如果您顯示的欄位名稱是短語而非單一名詞，則必須使用<code>valuefield</code>的駝峰式大小寫語法。 例如，對於任務的計劃開始日期，程式碼為：</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span><code>group.0.valuefield=plannedStartDate</code> </p> </li> 
         <li value="2"> <p>如果您想要顯示自訂欄位，<code>valuefield</code>值是欄位的實際名稱，如您在介面中所見。 例如，對於名為「更多資訊」的自訂欄位，程式碼為：</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span><code>group.0.valuefield=More information</code> </p> </li> 
         <li value="3"> <p>如果您想使用程式碼<code>valuefield</code>行將物件群組為與其他物件相關的物件，則物件名稱和屬性會以冒號分隔。</p> <p>例如，依「Portfolio名稱」對任務清單進行分組，其值欄位行如下：</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span><code>group.0.valuefield=project:portfolio:name</code> </p> <p>這表示您可以從報表（工作）的物件存取下一個相關物件（專案）；從那裡，您可以從專案（專案組合）存取下列相關物件；然後存取專案組合名稱（名稱）。</p> </li> 
-       </ol> <p>如需物件如何彼此連結的詳細資訊，請參閱<a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">瞭解Adobe Workfront中的物件</a>中的<a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects" class="MCXref xref">物件相互相依性和階層</a>一節。</p> <p>備註：如果您在文字模式中選擇在標準介面中無效的欄位，並切換至標準介面，則會刪除分組。</p> </td> 
+       </ol> <p>如需物件如何彼此連結的詳細資訊，請參閱<a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects" class="MCXref xref">瞭解Adobe Workfront中的物件</a>中的<a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">物件相互相依性和階層</a>一節。</p> <p>備註：如果您在文字模式中選擇在標準介面中無效的欄位，並切換至標準介面，則會刪除分組。</p> </td> 
      </tr> 
      <tr> 
       <td><strong>valueformat=</strong> </td> 
-      <td> <p>此線條代表用來顯示<code>valuefield</code>的格式。 <code>valueformat</code>會識別物件或欄位是否顯示為文字、數字、百分比或日期。</p> <p>我們建議對您的<code>valueformat</code>使用<code>HTML</code>，尤其是在使用<code>valueexpression</code>時，以確保最準確地顯示您的資訊。</p> <p>如需此行的其他值相關資訊，請參閱<a href="../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md" class="MCXref xref">在文字模式中使用條件式格式</a>。</p> </td> 
+      <td> <p>此線條代表用來顯示<code>valuefield</code>的格式。 <code>valueformat</code>會識別物件或欄位是否顯示為文字、數字、百分比或日期。</p> <p>我們建議對您的<code>HTML</code>使用<code>valueformat</code>，尤其是在使用<code>valueexpression</code>時，以確保最準確地顯示您的資訊。</p> <p>如需此行的其他值相關資訊，請參閱<a href="../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md" class="MCXref xref">在文字模式中使用條件式格式</a>。</p> </td> 
      </tr> 
      <tr> 
       <td> <p><strong>valueexpression=</strong> </p> </td> 
-      <td> <p>如果您要依數個欄位之間的計算來群組清單，可以新增此行來取代<code>valuefield</code>。</p> <p>每次在<code>valueexpression</code>中使用物件時，都必須用大括弧括住物件的<code>valuefield</code>。</p> <p>存在下列情況：</p> 
+      <td> <p>如果您要依數個欄位之間的計算來群組清單，可以新增此行來取代<code>valuefield</code>。</p> <p>每次在<code>valuefield</code>中使用物件時，都必須用大括弧括住物件的<code>valueexpression</code>。</p> <p>存在下列情況：</p> 
        <ol> 
         <li value="1"> <p>如果要以大寫顯示群組的名稱，請使用：</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span><code>group.0.valueexpression=UPPER({valuefield})</code> </p> <p>物件的<code>valuefield</code>在API Explorer中的顯示方式是拼字的。</p> </li> 
         <li value="2">如果您想要將多個<code>valuefields</code>串連在<code>valueexpression </code>行中，以將其加入，則必須以句點分隔它們。<p>例如，如果您要在工作清單中以大寫顯示投資組合名稱，可在<code>valueexpression</code>行中使用下列程式碼：</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span><code>group.0.valueexpression=UPPER({project}.{portfolio}.{name})</code></p><p>如果您要在<code>valueexpression</code>行中使用自訂欄位，則必須在欄位名稱前面加上<code>DE:</code>，以表示它是自訂欄位。 欄位名稱在介面中顯示時拼寫。</p><p>重要： <span>當您使用自訂欄位時，若該欄位放置在自訂表格區段中，而該區段對某些使用者具有限制的許可權，則當這些使用者在報表中檢視此計算時，<code>valueexpression </code>的計算為空白。 如需有關調整自訂表格區段許可權的資訊，請參閱</span> <span href="help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md"><a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">建立自訂表格</a></span>。</p><p>例如，如果您有標示為「開發人員名稱」的自訂欄位，而且您想依此欄位分組並以大寫顯示，您可以使用下列<code>valueexpression</code>來表示這點：</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span><code>group.0.valueexpression=UPPER({DE:Developer Name}</code>)</p><p>參照「預先輸入」型別自訂欄位時，請使用下列運算式來參照在標示為「開發人員名稱」的欄位中選取的物件名稱：</p><p><code>valueexpression=UPPER({DE:Developer Name:name})</code></p></li> 

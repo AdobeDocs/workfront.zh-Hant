@@ -6,9 +6,9 @@ description: 使用卡片上的子任務可讓您在任務之間建立父子關�
 author: Lisa
 feature: Agile
 exl-id: 166a84d3-18ea-4a58-b0e8-f09df2a63caa
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
@@ -23,24 +23,21 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
    <td> 
-   <p>新增：[!UICONTROL Contributor]或以上</p> 
-   <p>或</p>
-   <p>目前： [!UICONTROL Request]或以上</p>
+   <p>投稿人或以上</p> 
+   <p>要求或更高版本</p>
    </td> 
-  </tr> 
+  </tr>  
  </tbody> 
 </table>
 
@@ -61,7 +58,7 @@ ht-degree: 0%
 
    此任務的任何現有子任務都會出現在子任務區段中，檢查清單專案上方的卡片上。 按一下&#x200B;[!UICONTROL **搜尋**]&#x200B;圖示以搜尋子任務。
 
-1. 若要新增子工作，請按一下[新增子工作]。[!UICONTROL **&#x200B;**] 然後，鍵入子任務的標題並按Enter鍵。
+1. 若要新增子工作，請按一下[新增子工作]。[!UICONTROL ****] 然後，鍵入子任務的標題並按Enter鍵。
 
    清單頂端的計數器顯示已完成子工作的數目以及子工作的總數。
 

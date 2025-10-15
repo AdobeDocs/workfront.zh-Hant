@@ -6,7 +6,7 @@ description: 定義專案的工作劃分結構(WBS)是一組最終概述專案�
 author: Alina
 feature: Work Management
 exl-id: a76c468d-6373-4dab-93ff-a0b3734f368c
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
 source-wordcount: '1750'
 ht-degree: 1%
@@ -184,7 +184,7 @@ Workfront將計算每個任務的計畫成本以及專案的整體成本。 任�
 * 請求佇列結構
 * 提醒通知
 * 風險
-* 收費率
+* 計費費率
 * 共用資訊
 * 自訂表單
 

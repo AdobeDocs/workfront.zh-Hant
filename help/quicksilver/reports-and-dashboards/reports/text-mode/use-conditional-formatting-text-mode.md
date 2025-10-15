@@ -6,7 +6,7 @@ description: 在文字模式中使用條件式格式
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
 source-wordcount: '1734'
 ht-degree: 1%
@@ -26,28 +26,20 @@ ht-degree: 1%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具備下列條件：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td> 
-      <p>新增：</p>
-         <ul>
-         <li><p>標準</p></li>
-         </ul>
-      <p>目前：</p>
-         <ul>
-         <li><p>規劃</p></li>
-         </ul>
-   </td>
+     <p>標準</p>
+     <p>規劃</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -56,11 +48,11 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">物件許可權</td> 
    <td> <p>管理報表的許可權，以編輯報表中的檢視</p> <p>管理檢視的許可權以進行編輯</p> </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -90,7 +82,7 @@ ht-degree: 1%
 1. 在檢視中按一下要套用條件式格式的欄。
 1. 按一下&#x200B;**切換到文字模式**。
 1. 在&#x200B;**顯示在此欄：**&#x200B;區域中，按一下&#x200B;**按一下以編輯文字**。
-1. 使用文字模式[&#128279;](#format-views-using-text-mode)，在您選取的資料行文字的底部，加入格式檢視中提供的程式碼範例。
+1. 使用文字模式[，在您選取的資料行文字的底部，加入](#format-views-using-text-mode)格式檢視中提供的程式碼範例。
 1. 按一下&#x200B;**儲存**，然後按一下&#x200B;**儲存檢視**。
 
 ## 使用文字模式格式化檢視 {#format-views-using-text-mode}

@@ -6,9 +6,9 @@ description: Adobe Workfront可讓敏捷團隊以漸進式、有條理的方式�
 author: Lisa
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
-source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '990'
 ht-degree: 1%
 
 ---
@@ -31,8 +31,6 @@ ht-degree: 1%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -40,15 +38,14 @@ ht-degree: 1%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>新增：標準</p>
-   目前： 
-   <ul><li><p>[!UICONTROL 計畫]以建立新的敏捷團隊</p></li> 
-   <li><p>[!UICONTROL Work]或更高版本，可將團隊轉換為敏捷團隊</p></li></ul> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>標準</p>
+   <p>計畫建立新的敏捷團隊</p>
+  <p>工作或更高以將團隊轉換為敏捷團隊</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -67,7 +64,7 @@ ht-degree: 1%
 
 ### 在[!DNL Workfront]中使用看板的好處
 
-[!DNL Workfront]中的[!DNL Kanban]敏捷方法可讓您更輕鬆地在敏捷故事板上移動故事，同時限制進行中的工作量。 使用[!DNL Kanban]敏捷方法時沒有開始和結束日期。
+[!DNL Kanban]中的[!DNL Workfront]敏捷方法可讓您更輕鬆地在敏捷故事板上移動故事，同時限制進行中的工作量。 使用[!DNL Kanban]敏捷方法時沒有開始和結束日期。
 
 下列功能支援此方法：
 
@@ -75,7 +72,7 @@ ht-degree: 1%
 如需詳細資訊，請參閱[將待處理專案新增至[!UICONTROL Kanban]展示板](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md)。
 
 * 設定待處理專案上的專案，以便在其他專案移至等同於完成的狀態時，自動新增至[!UICONTROL Kanban]敏捷故事板。
-如需詳細資訊，請參閱文章[設定Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)中的[設定要自動從待處理專案新增的劇本](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5)一節。
+如需詳細資訊，請參閱文章[設定Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5)中的[設定要自動從待處理專案新增的劇本](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)一節。
 
 * 設定要在[!UICONTROL Kanban]敏捷故事板上顯示的進行中工作(WIP)限制。
 如需詳細資訊，請參閱[在Kanban展示板上管理進行中的工作(WIP)限制](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md)。
@@ -109,32 +106,32 @@ ht-degree: 1%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 團隊名稱]</strong> </td> 
+      <td role="rowheader"><strong>[！UICONTROL團隊名稱]</strong> </td> 
       <td>輸入新敏捷團隊的名稱。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 這是敏捷團隊]</strong> </td> 
+      <td role="rowheader"><strong>[！UICONTROL這是敏捷團隊]</strong> </td> 
       <td>選取此選項可將此新團隊設定為敏捷團隊。</td> 
      </tr>
 
    <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 作用中]</strong> </td> 
+      <td role="rowheader"><strong>[！UICONTROL作用中]</strong> </td> 
       <td>選取此選項以啟動此團隊。 其他使用者看不到非作用中的團隊以指派給工作。 </td> 
      </tr>
 
 
    <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-      <td role="rowheader"><strong>[!UICONTROL 群組]</strong> </td> 
-      <td> <p>開始鍵入要加入團隊的群組名稱，然後在名稱出現在下拉式清單中時選取名稱。</p> <p><b>附註</b></p> <p> 將專案團隊指派給群組或子群組時，該群組或子群組的任何群組管理員都可以管理專案團隊，而無需成為專案團隊的成員。 群組管理員可以從[!UICONTROL 主功能表]前往[!UICONTROL 團隊]區域，然後按一下[!UICONTROL 切換團隊]箭頭<img src="assets/switch-team-icon.png" alt="切換群組圖示">，列出指派給其管理群組的所有團隊。</p> </td> 
+      <td role="rowheader"><strong>[！UICONTROL群組]</strong> </td> 
+      <td> <p>開始鍵入要加入團隊的群組名稱，然後在名稱出現在下拉式清單中時選取名稱。</p> <p><b>附註</b></p> <p> 將專案團隊指派給群組或子群組時，該群組或子群組的任何群組管理員都可以管理專案團隊，而無需成為專案團隊的成員。 群組管理員可以從[！UICONTROL主功能表]前往[！UICONTROL團隊]區域，然後按一下[！UICONTROL切換團隊]箭頭<img src="assets/switch-team-icon.png" alt="切換群組圖示">，列出指派給其管理群組的所有團隊。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 團隊成員]</strong> </td> 
+      <td role="rowheader"><strong>[！UICONTROL團隊成員]</strong> </td> 
       <td>開始輸入加入團隊的使用者名稱，然後在名稱出現在下拉式清單中時選取名稱。<br>重複此程式，將多位使用者新增至團隊。<br>由於使用者可以位於多個團隊中，因此他們可以同時位於敏捷和非敏捷團隊中。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 描述]</strong> </td> 
-      <td><p>輸入團隊的說明。</p> <p>選擇團隊時，說明會顯示在[!UICONTROL 團隊]區域的右上方。</p>
-      <p>如果說明很長，您可以按一下該說明，在快顯視窗中顯示完整說明。 如果您有權編輯[!UICONTROL 團隊設定]，也可以直接在快顯視窗中編輯說明。</p></td>
+      <td role="rowheader"><strong>[！UICONTROL描述]</strong> </td> 
+      <td><p>輸入團隊的說明。</p> <p>選擇團隊時，說明會顯示在[！UICONTROL團隊]區域的右上方。</p>
+      <p>如果說明很長，您可以按一下該說明，在快顯視窗中顯示完整說明。 如果您有權編輯[！UICONTROL團隊設定]，也可以直接在快顯視窗中編輯說明。</p></td>
      </tr> 
     </tbody> 
    </table>

@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 75cd0ab5-8d76-40a4-96a8-00e9f0f4fec6
-source-git-commit: 93f4c1691210d88531fcc269bd40ee7ed8633309
+source-git-commit: 22ae8b489c63ba6eea1472cf415f95e375a94773
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1007'
 ht-degree: 0%
 
 ---
@@ -29,26 +29,26 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能執行本文中的步驟：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td> 
-   <td>任何</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td>規劃</td> 
+   <td><p>標準</p><p>規劃</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>您必須是Workfront管理員。</p> <p><b>注意</b>：如果您還是沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td> <p>您必須是Workfront管理員。</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -91,7 +91,7 @@ ht-degree: 0%
    1. 按一下&#x200B;**確定。**
    1. 選取您先前設定要與Workfront搭配使用的信賴方信任；然後在右側面板中，按一下&#x200B;**從同盟中繼資料更新。**
 
-1. 按一下[確定]&#x200B;**&#x200B;**&#x200B;忽略有關ADFS 2.0不支援同盟中繼資料中某些內容的訊息。
+1. 按一下[確定]****&#x200B;忽略有關ADFS 2.0不支援同盟中繼資料中某些內容的訊息。
 1. 開啟&#x200B;**Windows Powershell模組。**
 1. 載入所有模組後，在powershell中執行以下命令：
 
@@ -149,7 +149,7 @@ ht-degree: 0%
    1. 按一下&#x200B;**「確定」**。
    1. 選取您先前設定要與Workfront搭配使用的信賴方信任，然後在右側面板中，按一下&#x200B;**從同盟中繼資料更新。**
 
-1. 按一下[確定]&#x200B;**&#x200B;**&#x200B;忽略有關ADFS 2.0不支援同盟中繼資料中某些內容的訊息。
+1. 按一下[確定]****&#x200B;忽略有關ADFS 2.0不支援同盟中繼資料中某些內容的訊息。
 1. 按一下&#x200B;**更新**&#x200B;以完成更新同盟中繼資料。
 
 允許透過Workfront登入憑證的原生登入畫面存取Workfront的使用者（這可從&#x200B;**存取**&#x200B;區段中的每個使用者的設定檔頁面進行設定），可透過瀏覽至下列URL，使用其Workfront使用者名稱和密碼登入： `https://<yourdomain>.my.workfront.com/Workfront/login.cmd`。
@@ -160,4 +160,4 @@ ht-degree: 0%
 
 如需有關如何取得新的Workfront中繼資料URL的詳細資訊，請參閱[更新您的ADFS中繼資料](#update-your-adfs-metadata)。
 
-如需在Workfront中使用Active Directory Federation Services (ADFS)搭配SAML 2.0的其他資訊，請參閱[使用ADFS設定Adobe Workfront搭配SAML 2.0 &#x200B;](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)。
+如需在Workfront中使用Active Directory Federation Services (ADFS)搭配SAML 2.0的其他資訊，請參閱[使用ADFS設定Adobe Workfront搭配SAML 2.0 ](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)。
