@@ -215,7 +215,7 @@ ht-degree: 0%
 
 使用下列資源深入瞭解適用於Outlook的Workfront並開始使用：
 
-* [網站與影片](https://business.adobe.com/products/workfront/integrations.html) 
+* [網站與影片](https://business.adobe.com/tw/products/workfront/integrations.html) 
 * [搭配Outlook使用Workfront](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md) （說明文章）
 
 ### 移除舊版API {#removing-old-api-versions}

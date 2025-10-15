@@ -94,7 +94,7 @@ ht-degree: 0%
 以下是兩種設定方法(5)：
 
 1. **已繼承：**&#x200B;個SSO，組態取自您的中心帳戶。
-如果使用者透過&#x200B;**預設登入頁面** ([https://business.adobe.com/products/workfront/proofing-approvals.html](https://business.adobe.com/products/workfront/proofing-approvals.html))存取[!DNL Workfront Proof]，將會有&#x200B;**兩個授權等級**：首先，系統會要求使用者使用[!DNL Workfront Proof]存取資料（電子郵件和密碼）登入；然後會透過SSO視窗將使用者傳送到SSO登入頁面。
+如果使用者透過&#x200B;**預設登入頁面** ([https://business.adobe.com/tw/products/workfront/proofing-approvals.html](https://business.adobe.com/tw/products/workfront/proofing-approvals.html))存取[!DNL Workfront Proof]，將會有&#x200B;**兩個授權等級**：首先，系統會要求使用者使用[!DNL Workfront Proof]存取資料（電子郵件和密碼）登入；然後會透過SSO視窗將使用者傳送到SSO登入頁面。
 因此，啟用SSO服務後，建議您透過自己的[!DNL Workfront Proof]子網域/網域登入。
 
    >[!NOTE]
@@ -143,7 +143,7 @@ ht-degree: 0%
 啟用「單一登入」後，子網域登入URL (例如yourcompany.proofhq.com/login)會顯示傳輸畫面(2)，可讓您直接前往SSO登入頁面。
    ![SSO_login_page.png](assets/sso-login-page-350x164.png)
 
-1. 如果使用者透過頁面&#x200B;**([https://business.adobe.com/products/workfront/proofing-approvals.html](https://business.adobe.com/products/workfront/proofing-approvals.html))中的**&#x200B;預設記錄檔存取[!DNL Workfront Proof]，將有&#x200B;**兩個授權等級**。 首先要求使用者使用[!DNL Workfront Proof]存取資料（電子郵件和密碼）登入。 然後，使用者會透過SSO視窗(2)傳送到SSO登入頁面。\
+1. 如果使用者透過頁面&#x200B;**([https://business.adobe.com/tw/products/workfront/proofing-approvals.html](https://business.adobe.com/tw/products/workfront/proofing-approvals.html))中的**&#x200B;預設記錄檔存取[!DNL Workfront Proof]，將有&#x200B;**兩個授權等級**。 首先要求使用者使用[!DNL Workfront Proof]存取資料（電子郵件和密碼）登入。 然後，使用者會透過SSO視窗(2)傳送到SSO登入頁面。\
    因此，啟用SSO服務後，建議您透過自己的[!DNL Workfront Proof]子網域/網域登入。
 
 1. 目前，在您的Workfront Proof帳戶上啟用單一登入後，您將無法使用這些憑證登入iPhone應用程式。

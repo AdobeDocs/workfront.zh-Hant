@@ -52,7 +52,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-如需Workfront計畫的相關資訊，請參閱[我們的計畫](https://business.adobe.com/products/workfront/pricing.html)。
+如需Workfront計畫的相關資訊，請參閱[我們的計畫](https://business.adobe.com/tw/products/workfront/pricing.html)。
 
 如需您可以在Workfront中尋找工作負載平衡器的相關資訊，請參閱[尋找工作負載平衡器](../../resource-mgmt/workload-balancer/locate-workload-balancer.md)。
 

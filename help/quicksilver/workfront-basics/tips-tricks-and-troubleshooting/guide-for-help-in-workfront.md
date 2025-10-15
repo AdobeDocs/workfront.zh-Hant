@@ -81,11 +81,11 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td>強調客戶的<a href="https://business.adobe.com/resources/main.html?Products=Workfront">[!DNL Workfront]資源</a> </td> 
+   <td>強調客戶的<a href="https://business.adobe.com/tw/resources/main.html?Products=Workfront">[!DNL Workfront]資源</a> </td> 
    <td>這是您網路研討會、電子書、白皮書、影片和報告的開始來源。</td> 
   </tr> 
   <tr> 
-   <td><a href="https://business.adobe.com/customer-success-stories.html?Products=Adobe%2520Workfront%22%3E">個案研究 </a></td> 
+   <td><a href="https://business.adobe.com/tw/customer-success-stories.html?Products=Adobe%2520Workfront%22%3E">個案研究 </a></td> 
    <td>閱讀不斷增加的60多個個案研究，其中著重說明客戶面臨的挑戰，以及[!DNL Workfront]個解決方案和優點。</td> 
   </tr> 
   <tr> 
@@ -142,7 +142,7 @@ ht-degree: 1%
 
 | [[!DNL Adobe Workfront] 整合](../../administration-and-setup/configure-integrations/workfront-integrations-1.md) | 您可以將[!DNL Workfront]與協力廠商應用程式整合。 整合可以擴充[!DNL Workfront]的公用程式，並根據您組織的需求量身打造。 這篇知識庫文章涵蓋您的整合選項，並引導您進入下一個方向。 |
 |---|---|
-| [[!DNL Workfront] 內建整合](https://business.adobe.com/products/workfront/integrations.html) | Workfront免費的內建整合功能可讓您和您的團隊順利轉換至Workfront平台，同時維持相同的工作流程與程式。 |
+| [[!DNL Workfront] 內建整合](https://business.adobe.com/tw/products/workfront/integrations.html) | Workfront免費的內建整合功能可讓您和您的團隊順利轉換至Workfront平台，同時維持相同的工作流程與程式。 |
 | [[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/home) | 將[!DNL Workfront]連線至100個以上的應用程式，讓您無需程式碼即可輕鬆自動化您的關鍵業務程式。 |
 
 {style="table-layout:auto"}

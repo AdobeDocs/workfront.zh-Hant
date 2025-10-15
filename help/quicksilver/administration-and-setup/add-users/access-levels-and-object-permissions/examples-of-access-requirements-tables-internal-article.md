@@ -438,7 +438,7 @@ ht-degree: 2%
 * 工作流程Prime和更新版本
 * Workfront Prime和更新版本
 
-如需套件的詳細資訊，請參閱[Adobe Workfront定價與封裝頁面](https://business.adobe.com/products/workfront/pricing.html)。
+如需套件的詳細資訊，請參閱[Adobe Workfront定價與封裝頁面](https://business.adobe.com/tw/products/workfront/pricing.html)。
 
 進階企業控制項：
 

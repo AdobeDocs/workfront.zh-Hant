@@ -74,7 +74,7 @@ ht-degree: 1%
 
 * [!DNL Workfront Proof]
 
-  從[!DNL Workfront Proof]連結校訂可讓您讓原本在[!DNL Workfront Proof]內建立的校訂可在[!DNL Workfront]內使用。 對於目前的計畫，需要[!UICONTROL Pro] [!DNL Workfront]計畫或更新的計畫才能使用此功能。 對於新計畫，此功能可用於所有計畫。 如需各種可用計畫的詳細資訊，請參閱[Workfront計畫](https://business.adobe.com/products/workfront/pricing.html)。
+  從[!DNL Workfront Proof]連結校訂可讓您讓原本在[!DNL Workfront Proof]內建立的校訂可在[!DNL Workfront]內使用。 對於目前的計畫，需要[!UICONTROL Pro] [!DNL Workfront]計畫或更新的計畫才能使用此功能。 對於新計畫，此功能可用於所有計畫。 如需各種可用計畫的詳細資訊，請參閱[Workfront計畫](https://business.adobe.com/tw/products/workfront/pricing.html)。
 
 * [!DNL Microsoft SharePoint]
 
@@ -97,7 +97,7 @@ ht-degree: 1%
 
 * 其他檔案提供者（透過自訂檔案整合）。
 
-  對於目前的計畫，需要[!UICONTROL Pro] [!DNL Workfront]計畫或更新的計畫才能使用此功能。 對於新計畫，此功能可用於所有計畫。 如需各種可用計畫的詳細資訊，請參閱[Workfront計畫](https://business.adobe.com/products/workfront/pricing.html)。
+  對於目前的計畫，需要[!UICONTROL Pro] [!DNL Workfront]計畫或更新的計畫才能使用此功能。 對於新計畫，此功能可用於所有計畫。 如需各種可用計畫的詳細資訊，請參閱[Workfront計畫](https://business.adobe.com/tw/products/workfront/pricing.html)。
 
 此外，您還可以使用協力廠商DAM整合來增強您的[!DNL Workfront]檔案體驗。 管理員必須啟用這些功能，使用者才能將服務連結至其[!DNL Workfront]帳戶。
 

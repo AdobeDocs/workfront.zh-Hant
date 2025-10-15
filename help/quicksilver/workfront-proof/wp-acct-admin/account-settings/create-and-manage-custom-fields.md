@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >本文提及獨立產品[!DNL Workfront Proof]中的功能。 有關[!DNL Adobe Workfront]內部校訂的資訊，請參閱[校訂](../../../review-and-approve-work/proofing/proofing.md)。
 
-需要Select或Premium [!DNL Workfront]計畫才能使用此功能。 如需各種可用計畫的詳細資訊，請參閱[Workfront計畫](https://business.adobe.com/products/workfront/pricing.html)。
+需要Select或Premium [!DNL Workfront]計畫才能使用此功能。 如需各種可用計畫的詳細資訊，請參閱[Workfront計畫](https://business.adobe.com/tw/products/workfront/pricing.html)。
 
 自訂欄位可讓您在建立新校訂、使用者或訪客時擷取其他資料。 例如，建立新校樣的使用者可能想要包含額外的區段，以允許他們擷取工作編號、部門代碼或供應商參考。
 

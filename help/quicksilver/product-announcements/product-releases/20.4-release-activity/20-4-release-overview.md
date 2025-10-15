@@ -363,4 +363,4 @@ Workfront 20.4版本網路研討會將於東部夏令時間2020年10月28日星�
 
 有了Workfront One，您將能從Workfront探索最重要的內容、資源和新聞 — 全部整合在單一位置，只需登入一次。 我們已整合體驗、社群和訓練網站，讓您更容易找到想要的東西。
 
-[進一步瞭解Workfront One](https://business.adobe.com/products/workfront.html)。
+[進一步瞭解Workfront One](https://business.adobe.com/tw/products/workfront.html)。

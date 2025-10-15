@@ -230,7 +230,7 @@ ht-degree: 3%
 
 &#42;&#42;在群組管理員的存取層級中，必須啟用此動作的存取權。 如需詳細資訊，請參閱[授予使用者對特定區域的管理存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)。
 
-&#42;&#42;&#42;下列活動是「進階企業控制項」的一部份，不適用於「選取」計畫。 只有已購買Prime或Ultimate計畫的組織才能存取這些功能。  如需計畫的詳細資訊，請參閱[Adobe Workfront定價與封裝頁面](https://business.adobe.com/products/workfront/pricing.html)。 （針對使用舊版計畫的組織，上表顯示群組和子群組管理員的活動。）
+&#42;&#42;&#42;下列活動是「進階企業控制項」的一部份，不適用於「選取」計畫。 只有已購買Prime或Ultimate計畫的組織才能存取這些功能。  如需計畫的詳細資訊，請參閱[Adobe Workfront定價與封裝頁面](https://business.adobe.com/tw/products/workfront/pricing.html)。 （針對使用舊版計畫的組織，上表顯示群組和子群組管理員的活動。）
 
 * 在群組層級設定專案、任務和問題偏好設定
 * 在群組層級設定時程表和小時偏好設定

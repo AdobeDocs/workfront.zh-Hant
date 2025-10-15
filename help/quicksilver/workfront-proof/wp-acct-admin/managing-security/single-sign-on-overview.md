@@ -21,7 +21,7 @@ ht-degree: 0%
 >
 >本文提及獨立產品[!DNL Workfront Proof]中的功能。 有關[!DNL Adobe Workfront]內部校訂的資訊，請參閱[校訂](../../../review-and-approve-work/proofing/proofing.md)。
 
-需要[!UICONTROL Enterprise] [!DNL Workfront]計畫才能使用此功能。 如需各種可用計畫的詳細資訊，請參閱[Workfront計畫](https://business.adobe.com/products/workfront/pricing.html)。
+需要[!UICONTROL Enterprise] [!DNL Workfront]計畫才能使用此功能。 如需各種可用計畫的詳細資訊，請參閱[Workfront計畫](https://business.adobe.com/tw/products/workfront/pricing.html)。
 
 單一登入(SSO)可讓您的使用者使用您組織現有的使用者名稱和密碼登入[!DNL Workfront Proof]。
 

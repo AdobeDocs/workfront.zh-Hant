@@ -118,7 +118,7 @@ For specific release dates and times for each cluster, see the
 >
 >您的組織必須具備下列專案，才能使用本文所述的功能：
 >
->* Pro或更高[Adobe Workfront方案](https://business.adobe.com/products/workfront/pricing.html)。
+>* Pro或更高[Adobe Workfront方案](https://business.adobe.com/tw/products/workfront/pricing.html)。
 >* 除了Adobe Workfront授權之外，還有Workfront目標授權。
 >
 >  請連絡您的Workfront客戶經理，以瞭解Workfront Goals授權。
@@ -154,7 +154,7 @@ For specific release dates and times for each cluster, see the
 >&gt; <col> 
 >&gt; <tbody> 
 >&gt;  <tr> 
->&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Workfront計畫</a>*</p> </td> 
+>&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/tw/products/workfront/pricing.html" target="_blank">Workfront計畫</a>*</p> </td> 
 >&gt;   <td>商務或以上版本</td> 
 >&gt;  </tr> 
 >&gt;  <tr> 
@@ -450,7 +450,7 @@ API第11版於2020.1版時發行。 如需有關新增功能和更新的資訊�
 
 有了Workfront One，您將能從Workfront探索最重要的內容、資源和新聞 — 全部整合在單一位置，只需登入一次。 我們已整合體驗、社群和訓練網站，讓您更容易找到想要的東西。
 
-[進一步瞭解Workfront One](https://business.adobe.com/products/workfront.html)。
+[進一步瞭解Workfront One](https://business.adobe.com/tw/products/workfront.html)。
 
 ### 20.3版本網路研討會 {#20-3-release-webinar}
 

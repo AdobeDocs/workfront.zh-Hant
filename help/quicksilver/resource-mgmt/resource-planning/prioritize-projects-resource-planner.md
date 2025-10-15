@@ -112,7 +112,7 @@ ht-degree: 1%
 >
 >貴公司必須有業務或以上的Workfront計畫，才能在Portfolio Optimizer中排定專案的優先順序。
 >
->如需Workfront計畫的詳細資訊，請參閱[我們的計畫](https://business.adobe.com/products/workfront/pricing.html)。
+>如需Workfront計畫的詳細資訊，請參閱[我們的計畫](https://business.adobe.com/tw/products/workfront/pricing.html)。
 >
 >如需有關在Portfolio Optimizer中排定專案優先順序的資訊，請參閱[在Portfolio Optimizer中排定專案優先順序](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)。
 

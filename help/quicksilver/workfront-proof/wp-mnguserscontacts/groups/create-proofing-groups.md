@@ -20,7 +20,7 @@ ht-degree: 1%
 >
 >本文提及獨立產品[!DNL Workfront Proof]中的功能。 有關[!DNL Adobe Workfront]內部校訂的資訊，請參閱[校訂](../../../review-and-approve-work/proofing/proofing.md)。
 
-必須有Select或Premium計畫才能使用此功能。 如需各種可用計畫的詳細資訊，請參閱[[!DNL Workfront] 計畫](https://business.adobe.com/products/workfront/pricing.html)。
+必須有Select或Premium計畫才能使用此功能。 如需各種可用計畫的詳細資訊，請參閱[[!DNL Workfront] 計畫](https://business.adobe.com/tw/products/workfront/pricing.html)。
 
 您可以建立使用者群組，以將其新增為多個校訂的檢閱者。 如果您定期傳送內容給相同的使用者，這將很有用。
 
