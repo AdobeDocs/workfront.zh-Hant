@@ -143,7 +143,7 @@ ht-degree: 1%
 
    或
 
-   按一下[新增]****&#x200B;以建立新的版面配置。
+   按一下[新增]&#x200B;**&#x200B;**&#x200B;以建立新的版面配置。
 
 1. 繼續進行[在以下的機會或帳戶層級 [!DNL Workfront] 設定](#configure-the-workfront-section-at-the-opportunity-or-account-level-configure-the-workfront-section-at-the-opportunity-or-account-level)區段。
 

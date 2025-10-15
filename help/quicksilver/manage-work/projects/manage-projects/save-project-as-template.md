@@ -189,10 +189,10 @@ Saving a project as a template differs in the Production and the Preview environ
     </tbody> 
    </table>
 
-1. 按一下左側面板中的「自訂Forms」****，移除或重新排序表單。
+1. 按一下左側面板中的「自訂Forms」**&#x200B;**，移除或重新排序表單。
 
    若要重新排序表單，請以正確順序拖放表單。
-若要移除表單，請選取該表單，然後按一下[移除]。**** 按一下&#x200B;**取消**&#x200B;以移除選取的表單。
+若要移除表單，請選取該表單，然後按一下[移除]。**&#x200B;** 按一下&#x200B;**取消**&#x200B;以移除選取的表單。
 
    ![儲存為範本方塊中的自訂表單區域](assets/custom-forms-ara-in-save-as-template-box.png)
 
@@ -202,7 +202,7 @@ Saving a project as a template differs in the Production and the Preview environ
 
    另存為範本方塊中的![選項區域](assets/options-area-in-save-as-template-box.png)
 
-1. 按一下左側面板中的「排除&#x200B;****」，然後選取您要從專案排除的任何工作。 預設會取消選取所有工作。
+1. 按一下左側面板中的「排除&#x200B;**&#x200B;**」，然後選取您要從專案排除的任何工作。 預設會取消選取所有工作。
 
    ![另存為範本方塊中的排除區域](assets/exclude-area-save-as-template-box.png)
 

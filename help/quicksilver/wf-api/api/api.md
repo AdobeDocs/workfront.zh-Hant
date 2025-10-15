@@ -34,18 +34,18 @@ ht-degree: 1%
 * [使用授權程式碼流程設定及使用您組織的自訂OAuth 2應用程式](../../wf-api/api/oauth-app-code-token-flow.md)
 * [使用JWT流程設定並使用您組織的自訂OAuth 2應用程式](../../wf-api/api/oauth-app-jwt-flow.md)
 * [使用PKCE流程設定並使用您組織的自訂OAuth 2應用程式](../../wf-api/api/oauth-app-pkce-flow.md)
-* [ API 20](../../wf-api/api/new-api-version-20.md)版的新增功能
-* [ API 19](../../wf-api/api/new-api-version-19.md)版的新增功能
-* [ API 18](../../wf-api/api/new-api-version-18.md)版的新增功能
-* [ API 17](../../wf-api/api/new-api-version-17.md)版的新增功能
-* [ API 16](../../wf-api/api/new-api-version-16.md)版的新增功能
-* [ API 15](../../wf-api/api/new-api-version-15.md)版的新增功能
-* [ API 14](../../wf-api/api/new-api-version-14.md)版的新增功能
-* [ API 13](../../wf-api/api/new-api-version-13.md)版的新增功能
-* [ API 12](../../wf-api/api/new-api-version-12.md)版的新增功能
-* [ API 11](../../wf-api/api/new-api-version-11.md)版的新增功能
-* [ API 10](../../wf-api/api/new-api-version-10.md)版的新增功能
-* [ API版本9](../../wf-api/api/new-api-version-9.md)的新增功能
+* [&#x200B; API 20](../../wf-api/api/new-api-version-20.md)版的新增功能
+* [&#x200B; API 19](../../wf-api/api/new-api-version-19.md)版的新增功能
+* [&#x200B; API 18](../../wf-api/api/new-api-version-18.md)版的新增功能
+* [&#x200B; API 17](../../wf-api/api/new-api-version-17.md)版的新增功能
+* [&#x200B; API 16](../../wf-api/api/new-api-version-16.md)版的新增功能
+* [&#x200B; API 15](../../wf-api/api/new-api-version-15.md)版的新增功能
+* [&#x200B; API 14](../../wf-api/api/new-api-version-14.md)版的新增功能
+* [&#x200B; API 13](../../wf-api/api/new-api-version-13.md)版的新增功能
+* [&#x200B; API 12](../../wf-api/api/new-api-version-12.md)版的新增功能
+* [&#x200B; API 11](../../wf-api/api/new-api-version-11.md)版的新增功能
+* [&#x200B; API 10](../../wf-api/api/new-api-version-10.md)版的新增功能
+* [&#x200B; API版本9](../../wf-api/api/new-api-version-9.md)的新增功能
 * [API 8](../../wf-api/api/new-api-version-8-updates.md)版的更新
-* [ API版本7](../../wf-api/api/new-api-version-7.md)的新增功能
+* [&#x200B; API版本7](../../wf-api/api/new-api-version-7.md)的新增功能
 * [API 6版的新增功能](../../wf-api/api/new-api-version-6.md)

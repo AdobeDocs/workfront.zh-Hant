@@ -46,12 +46,12 @@ Linked to Converting Issues.-->
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td><p>[！UICONTROL標準]</p>
-       <p>[！UICONTROL計畫]</p></td>
+   <td><p>[!UICONTROL 標準]</p>
+       <p>[!UICONTROL 計畫]</p></td>
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
-   <td>[！UICONTROL系統管理員]</td> 
+   <td>[!UICONTROL 系統管理員]</td> 
   </tr> 
  </tbody> 
 </table>
@@ -84,21 +84,21 @@ Linked to Converting Issues.-->
   <col> 
   <tbody> 
     <tr> 
-    <td role="rowheader">[！UICONTROL開始日期]</td> 
+    <td role="rowheader">[!UICONTROL 開始日期]</td> 
     <td> <p>決定專案經理新任務的預設開始日期。 新任務的開始日期可以是專案的計劃開始日期，也可以是建立任務的日期。</p> </td> 
     </tr> 
     <tr> 
-    <td role="rowheader"> <p>[！UICONTROL期間型別] </p> </td> 
+    <td role="rowheader"> <p>[!UICONTROL 期間型別] </p> </td> 
     <td> <p>決定資源數（及其配置百分比）與工期或任務總付出之間的關係。 如需詳細資訊，請參閱<a href="../../../manage-work/tasks/taskdurtn/task-duration-duration-type.md" class="MCXref xref">任務期間與期間型別</a></p> </td> 
     </tr> 
     <tr> 
-    <td role="rowheader">[！UICONTROL收入型別]</td> 
-    <td> <p>計算任務的計畫和實際收入預估。 當<strong>[！UICONTROL收入型別]</strong>設為<strong>[！UICONTROL不可記帳]</strong>時，計畫時數和實際記錄時數不會產生任務的收入預估，且任務上的工作不會貢獻專案層級的收入。</p>
+    <td role="rowheader">[!UICONTROL 收入型別]</td> 
+    <td> <p>計算任務的計畫和實際收入預估。 當<strong>[!UICONTROL 收入型別]</strong>設為<strong>[!UICONTROL 不可記帳]</strong>時，計畫時數和實際記錄時數不會產生任務的收入預估，且任務上的工作不會貢獻專案層級的收入。</p>
          <p>如需不同收入型別的詳細資訊，請參閱<a href="/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md">帳單與收入概觀</a>。</p></td> 
     </tr> 
     <tr> 
-    <td role="rowheader">[！UICONTROL成本型別]</td> 
-    <td> <p>計算任務的計畫和實際成本預估。 設定為<strong>[！UICONTROL無成本]</strong>時，計畫時數與實際記錄時數不會產生任務的計畫或實際成本預估，且任務上的工作不會貢獻專案層級的成本。</p> </td> 
+    <td role="rowheader">[!UICONTROL 成本型別]</td> 
+    <td> <p>計算任務的計畫和實際成本預估。 設定為<strong>[!UICONTROL 無成本]</strong>時，計畫時數與實際記錄時數不會產生任務的計畫或實際成本預估，且任務上的工作不會貢獻專案層級的成本。</p> </td> 
     </tr> 
   </tbody> 
 </table>
@@ -110,37 +110,37 @@ Linked to Converting Issues.-->
   <col> 
   <tbody> 
     <tr> 
-    <td role="rowheader">[！UICONTROL當解析物件的狀態變更時，自動更新可解析問題狀態]</td> 
-    <td> <p>當有人將問題轉換為專案或任務時，原始問題和轉換的專案或任務都會成為解決物件。 此設定可讓您將原始問題的解決方案與其可解析物件的解決方案相關聯。 如需解析物件的詳細資訊，請參閱<a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">解析和可解析物件概述</a>。</p> <p>為了讓此設定生效，必須選取<strong>[！UICONTROL保留原始問題並將其解決方案連結至任務]</strong>的選項。</p> 
+    <td role="rowheader">[!UICONTROL 當解析物件的狀態變更時，自動更新可解析問題狀態]</td> 
+    <td> <p>當有人將問題轉換為專案或任務時，原始問題和轉換的專案或任務都會成為解決物件。 此設定可讓您將原始問題的解決方案與其可解析物件的解決方案相關聯。 如需解析物件的詳細資訊，請參閱<a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">解析和可解析物件概述</a>。</p> <p>為了讓此設定生效，必須選取<strong>[!UICONTROL 保留原始問題並將其解決方案連結至任務]</strong>的選項。</p> 
       <ul> 
       <li>啟用此設定後，您可以針對問題和專案或任務使用相同的鍵值建立自訂狀態。 當專案或任務（作為可解析物件）變成自訂狀態時，變更也會反映在問題的狀態上。 問題和專案或任務狀態的狀態索引鍵必須相同。</li> 
       <li>停用此設定時，解析物件狀態會自動設定為預設狀態，而非自訂狀態。 如需預設狀態的詳細資訊，請參閱<a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">存取系統問題狀態清單</a>。</li> 
       </ul> </td> 
     </tr> 
     <tr> 
-    <td role="rowheader">[！UICONTROL將問題轉換為任務時]</td> 
+    <td role="rowheader">[!UICONTROL 將問題轉換為任務時]</td> 
     <td> <p>本節中的設定會決定從問題轉換為任務期間會發生什麼情況：</p> 
       <ul> 
-      <li> <p><strong>[！UICONTROL保留原始問題並將其解決方案連結至任務]</strong>：當您轉換問題時，在任務完成之前，它仍會被視為問題。 任務完成後，問題的狀態會自動變更為[！UICONTROL已關閉]。 取消選取時，問題即被刪除。</p> <p><b>附註</b>：  <p>無論此設定的狀態為何，沒有存取許可權或刪除問題的使用者在轉換問題時都將無法刪除問題。 如需問題的存取和許可權資訊，請參閱：</p> 
+      <li> <p><strong>[!UICONTROL 保留原始問題並將其解決方案連結至任務]</strong>：當您轉換問題時，在任務完成之前，它仍會被視為問題。 任務完成後，問題的狀態會自動變更為[!UICONTROL 已關閉]。 取消選取時，問題即被刪除。</p> <p><b>附註</b>：  <p>無論此設定的狀態為何，沒有存取許可權或刪除問題的使用者在轉換問題時都將無法刪除問題。 如需問題的存取和許可權資訊，請參閱：</p> 
         <ul> 
           <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">授與問題的存取權</a> </p> </li> 
           <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">共用問題</a> </p> </li> 
         </ul> </p> </li> 
-      <li><strong>[！UICONTROL允許主要連絡人存取任務]</strong>：給予主要連絡人（問題建立者）檢視任務的存取權以檢閱任務、隨時瞭解其進度，以及在任務的[更新]區段上發表評論。</li> 
-      <li> <p><strong>[！UICONTROL允許在轉換期間變更這些設定]</strong>：允許轉換問題的使用者在轉換問題至任務期間變更這些選項。</p></li> 
+      <li><strong>[!UICONTROL 允許主要連絡人存取任務]</strong>：給予主要連絡人（問題建立者）檢視任務的存取權以檢閱任務、隨時瞭解其進度，以及在任務的[更新]區段上發表評論。</li> 
+      <li> <p><strong>[!UICONTROL 允許在轉換期間變更這些設定]</strong>：允許轉換問題的使用者在轉換問題至任務期間變更這些選項。</p></li> 
       </ul> </td> 
     </tr> 
     <tr> 
-    <td role="rowheader">[！UICONTROL將問題轉換為專案時]</td> 
+    <td role="rowheader">[!UICONTROL 將問題轉換為專案時]</td> 
     <td> <p>本節中的設定會決定從問題轉換至專案的流程中會發生什麼情況：</p> 
       <ul> 
-      <li> <p><strong>[！UICONTROL保留原始問題並將其解決方案連結至專案]</strong>：當您轉換問題時，在專案完成之前，它仍會被視為問題。 專案完成時，問題的狀態會自動變更為[！UICONTROL已關閉]。 取消選取時，問題即被刪除。 </p> <p><b>附註</b>：  <p>無論此設定的狀態為何，沒有存取許可權或刪除問題的使用者在轉換問題時都將無法刪除問題。 如需問題的存取和許可權資訊，請參閱：</p> 
+      <li> <p><strong>[!UICONTROL 保留原始問題並將其解決方案連結至專案]</strong>：當您轉換問題時，在專案完成之前，它仍會被視為問題。 專案完成時，問題的狀態會自動變更為[!UICONTROL 已關閉]。 取消選取時，問題即被刪除。 </p> <p><b>附註</b>：  <p>無論此設定的狀態為何，沒有存取許可權或刪除問題的使用者在轉換問題時都將無法刪除問題。 如需問題的存取和許可權資訊，請參閱：</p> 
         <ul> 
           <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">授與問題的存取權</a> </p> </li> 
           <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">共用問題</a> </p> </li> 
         </ul> </p> </li> 
-      <li><strong>[！UICONTROL允許主要連絡人存取專案]</strong>：授予主要連絡人（問題建立者）檢視專案的存取權，以檢閱專案、隨時瞭解其進度，並在專案的更新區段上發表評論。</li> 
-      <li><strong>[！UICONTROL允許在轉換期間變更這些設定]</strong>：允許轉換問題的使用者在問題轉換為專案期間變更列出的選項。</li> 
+      <li><strong>[!UICONTROL 允許主要連絡人存取專案]</strong>：授予主要連絡人（問題建立者）檢視專案的存取權，以檢閱專案、隨時瞭解其進度，並在專案的更新區段上發表評論。</li> 
+      <li><strong>[!UICONTROL 允許在轉換期間變更這些設定]</strong>：允許轉換問題的使用者在問題轉換為專案期間變更列出的選項。</li> 
       </ul> </td>
     </tr> 
   </tbody> 
@@ -177,19 +177,19 @@ Linked to Converting Issues.-->
   <col> 
   <tbody> 
     <tr> 
-    <td role="rowheader">[！UICONTROL當任務或問題從「新增」移至「進行中」時，將實際開始日期設定為]</td> 
-    <td> <p>當任務或問題從[!DNL Workfront][！UICONTROL新增]<strong>移至</strong>[！UICONTROL進行中]<strong>時，為</strong>中記錄實際開始日期選取下列其中一個選項：</p> 
+    <td role="rowheader">[!UICONTROL 當任務或問題從「新增」移至「進行中」時，將實際開始日期設定為]</td> 
+    <td> <p>當任務或問題從[!DNL Workfront][!UICONTROL 新增]<strong>移至</strong>[!UICONTROL 進行中]<strong>時，為</strong>中記錄實際開始日期選取下列其中一個選項：</p> 
       <ul> 
-      <li><strong>[！UICONTROL現在]：</strong>實際開始日期已設定為目前日期。</li> 
-      <li><strong>[！UICONTROL計劃開始日期]：</strong>實際開始日期已設為任務或問題的計劃開始日期。</li> 
+      <li><strong>[!UICONTROL 現在]：</strong>實際開始日期已設定為目前日期。</li> 
+      <li><strong>[!UICONTROL 計劃開始日期]：</strong>實際開始日期已設為任務或問題的計劃開始日期。</li> 
       </ul> </td> 
     </tr> 
     <tr> 
-    <td role="rowheader">[！UICONTROL任務或問題完成時，將實際完成日期設定為]</td> 
+    <td role="rowheader">[!UICONTROL 任務或問題完成時，將實際完成日期設定為]</td> 
     <td> <p>當任務或問題完成時，選擇實際完成日期記錄在[!DNL Workfront]中的以下選項之一：</p> 
       <ul> 
-      <li><strong>[！UICONTROL現在]：</strong>實際完成日期已設定為目前日期。</li> 
-      <li> <p><strong>[！UICONTROL計畫完成日期]：</strong>實際完成日期已設為任務或問題的計畫完成日期。</p> </li> 
+      <li><strong>[!UICONTROL 現在]：</strong>實際完成日期已設定為目前日期。</li> 
+      <li> <p><strong>[!UICONTROL 計畫完成日期]：</strong>實際完成日期已設為任務或問題的計畫完成日期。</p> </li> 
       </ul> </td> 
     </tr> 
   </tbody> 
@@ -252,27 +252,27 @@ I have not had a chance to follow up with customers to verify if this is still a
   <col> 
   <tbody> 
     <tr> 
-    <td role="rowheader">[！UICONTROL將某人指派給任務時]</td> 
+    <td role="rowheader">[!UICONTROL 將某人指派給任務時]</td> 
     <td> 
       <ul> 
-      <li><strong>[！UICONTROL授予他們……任務的存取權]</strong>：定義使用者對其所指派任務的預設許可權。 如需有關工作許可權的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予使用者存取權</a>。</li> 
-      <li> <p><strong>[！UICONTROL也授與他們……專案的存取權]</strong>：定義使用者對其任務指派給他們的專案具有的預設許可權。 如需有關專案許可權的詳細資訊，請參閱<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">設定全系統的專案偏好設定</a>。</p> </li> 
+      <li><strong>[!UICONTROL 授予他們……任務的存取權]</strong>：定義使用者對其所指派任務的預設許可權。 如需有關工作許可權的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予使用者存取權</a>。</li> 
+      <li> <p><strong>[!UICONTROL 也授與他們……專案的存取權]</strong>：定義使用者對其任務指派給他們的專案具有的預設許可權。 如需有關專案許可權的詳細資訊，請參閱<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">設定全系統的專案偏好設定</a>。</p> </li> 
       </ul> </td> 
     </tr> 
     <tr> 
-    <td role="rowheader">[！UICONTROL將某人指派給問題時]</td> 
+    <td role="rowheader">[!UICONTROL 將某人指派給問題時]</td> 
     <td> 
       <ul> 
-      <li><strong>[！UICONTROL授予他們……任務的存取權]</strong>：定義使用者對其所指派任務的預設許可權。 如需有關工作許可權的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予使用者存取權</a>。</li> 
-      <li> <p><strong>[！UICONTROL也授與他們……專案的存取權]</strong>：定義使用者對其任務指派給他們的專案具有的預設許可權。 如需有關專案許可權的詳細資訊，請參閱<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">設定全系統的專案偏好設定</a>。</p> </li> 
+      <li><strong>[!UICONTROL 授予他們……任務的存取權]</strong>：定義使用者對其所指派任務的預設許可權。 如需有關工作許可權的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予使用者存取權</a>。</li> 
+      <li> <p><strong>[!UICONTROL 也授與他們……專案的存取權]</strong>：定義使用者對其任務指派給他們的專案具有的預設許可權。 如需有關專案許可權的詳細資訊，請參閱<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">設定全系統的專案偏好設定</a>。</p> </li> 
       </ul> </td> 
     </tr> 
     <tr> 
-    <td role="rowheader">[！UICONTROL某人提交請求時]</td> 
+    <td role="rowheader">[!UICONTROL 某人提交請求時]</td> 
     <td> 
       <ul> 
-      <li><strong>[！UICONTROL授予他們……問題的存取權]</strong>：定義使用者對其所提交之要求的預設許可權。 如需詳細資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">共用問題</a>。</li> 
-      <li> <p><strong>[！UICONTROL來自相同公司的人員將會為所有要求繼承相同的許可權]</strong>：允許使用者檢視由他們來自相同公司的其他使用者提交的要求。 他們對於這些請求具有的許可權，與他們本身提交的請求相同。</p> </li> 
+      <li><strong>[!UICONTROL 授予他們……問題的存取權]</strong>：定義使用者對其所提交之要求的預設許可權。 如需詳細資訊，請參閱<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">共用問題</a>。</li> 
+      <li> <p><strong>[!UICONTROL 來自相同公司的人員將會為所有要求繼承相同的許可權]</strong>：允許使用者檢視由他們來自相同公司的其他使用者提交的要求。 他們對於這些請求具有的許可權，與他們本身提交的請求相同。</p> </li> 
       </ul> </td> 
     </tr> 
   </tbody> 

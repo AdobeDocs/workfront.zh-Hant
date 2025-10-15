@@ -84,24 +84,24 @@ ht-degree: 1%
    </thead> 
    <tbody> 
     <tr> 
-     <td role="rowheader">[！UICONTROL上市日期]</td> 
-     <td>[！UICONTROL日期] </td> 
+     <td role="rowheader">[!UICONTROL 上市日期]</td> 
+     <td>[!UICONTROL 日期] </td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[！UICONTROL市場結束日期]</td> 
-     <td>[！UICONTROL日期]</td> 
+     <td role="rowheader">[!UICONTROL 市場結束日期]</td> 
+     <td>[!UICONTROL 日期]</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[！UICONTROL行銷活動概覽]</td> 
-     <td>[！UICONTROL段落文字欄位]</td> 
+     <td role="rowheader">[!UICONTROL 行銷活動概覽]</td> 
+     <td>[!UICONTROL 段落文字欄位]</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[！UICONTROL金鑰訊息]</td> 
-     <td>[！UICONTROL段落文字欄位]</td> 
+     <td role="rowheader">[!UICONTROL 金鑰訊息]</td> 
+     <td>[!UICONTROL 段落文字欄位]</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[！UICONTROL目標對象]</td> 
-     <td> <p>[！UICONTROL下拉式清單]</p> <p>包含適合您流程的選項。</p> </td> 
+     <td role="rowheader">[!UICONTROL 目標對象]</td> 
+     <td> <p>[!UICONTROL 下拉式清單]</p> <p>包含適合您流程的選項。</p> </td> 
     </tr> 
    </tbody> 
   </table>
@@ -198,27 +198,27 @@ ht-degree: 1%
     </thead> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL [!DNL Anaplan] Workspace ID]</td> 
+      <td role="rowheader">[!UICONTROL [!DNL Anaplan] Workspace ID]</td> 
       <td>您[!DNL Anaplan]帳戶的工作區識別碼。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL [!DNL Anaplan]模型識別碼] </td> 
+      <td role="rowheader">[!UICONTROL [!DNL Anaplan]模型識別碼] </td> 
       <td>來自您[!DNL Anaplan]帳戶和所選工作區的模型ID。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL促銷活動清單名稱]</td> 
+      <td role="rowheader">[!UICONTROL 促銷活動清單名稱]</td> 
       <td>來自您[!DNL Anaplan]帳戶及所選工作區與模型的清單名稱。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL檔案名稱：專案更新匯入]</td> 
+      <td role="rowheader">[!UICONTROL 檔案名稱：專案更新匯入]</td> 
       <td>將接收專案更新資料的檔案名稱。<p>（範例：WorkfrontUpdateLinkedProject.csv）</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL流程名稱：專案更新匯入]</td> 
+      <td role="rowheader">[!UICONTROL 流程名稱：專案更新匯入]</td> 
       <td> <p>將執行專案資料匯入的程式名稱。</p> <p>（範例： WF Int — 更新促銷活動詳細資料）</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL [!DNL Workfront]子網域]</td> 
+      <td role="rowheader">[!UICONTROL [!DNL Workfront]子網域]</td> 
       <td>您[!DNL Workfront]帳戶的子網域。 這可用來在可能產生的附註中建立回到[!DNL Workfront]專案的連結。</td> 
      </tr> 
     </tbody> 

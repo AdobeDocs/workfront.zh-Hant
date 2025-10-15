@@ -43,7 +43,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>編輯[！UICONTROL檔案]的存取權</p> </td> 
+   <td> <p>編輯[!UICONTROL 檔案]的存取權</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 

@@ -35,16 +35,16 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>[！UICONTROL標準]</p>
-   <p>[！UICONTROL計畫]</p> </td> 
+   <td> <p>[!UICONTROL 標準]</p>
+   <p>[!UICONTROL 計畫]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[！UICONTROL Edit]對[！UICONTROL Portfolios]和[！UICONTROL Projects]的存取權</p>  </td>
+   <td> <p>[!UICONTROL Edit]對[!UICONTROL Portfolios]和[!UICONTROL Projects]的存取權</p>  </td>
 </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>投資組合的[！UICONTROL Manage]許可權</p>  </td> 
+   <td> <p>投資組合的[!UICONTROL Manage]許可權</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -118,4 +118,4 @@ ht-degree: 0%
 
    如需在[!UICONTROL Portfolio Optimizer]中排定專案優先順序的詳細資訊，請參閱文章[在[!UICONTROL Portfolio Optimizer]](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)中排定專案優先順序。
 
-1. 按一下「儲存」****&#x200B;以儲存您的[!UICONTROL Portfolio Optimizer]。
+1. 按一下「儲存」**&#x200B;**&#x200B;以儲存您的[!UICONTROL Portfolio Optimizer]。

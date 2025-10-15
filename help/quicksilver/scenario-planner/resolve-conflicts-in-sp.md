@@ -40,16 +40,16 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 授權</p> </td> 
-   <td> <p>[！UICONTROL Light]或更高</p> 
-   <p>[！UICONTROL Review]或更高版本</p> </td> 
+   <td> <p>[!UICONTROL Light]或更高</p> 
+   <p>[!UICONTROL Review]或更高版本</p> </td> 
   </tr> 
     <tr> 
    <td>存取層級設定</td> 
-   <td> <p>[！UICONTROL Edit]對的存取權 [!DNL Scenario Planner]</p> </td> 
+   <td> <p>[!UICONTROL Edit]對的存取權 [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr> 
    <td> <p>物件許可權 </p> </td> 
-   <td> <p>[！UICONTROL Manage]計畫的許可權</p> </td> 
+   <td> <p>[!UICONTROL Manage]計畫的許可權</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -189,22 +189,22 @@ ht-degree: 0%
         <td>顯示在其他資訊方塊的標題中。</td> 
        </tr> 
        <tr> 
-        <td role="rowheader">[！UICONTROL職位角色]</td> 
+        <td role="rowheader">[!UICONTROL 職位角色]</td> 
         <td> <p>與所選月份過度配置的此方案相關聯的工作角色。 下列欄顯示所選月份所需的每個職務角色資訊，這些資訊與該月份可用的職務角色數量衝突：</p> 
          <ul> 
-          <li> <p><strong>[！UICONTROL可用]</strong>：從案例中選取的月份可用的每個職務角色數目。</p> </li> 
-          <li> <p><strong>[！UICONTROL必要]</strong>：方案在所選月份所需的每個職務角色數目。</p> </li> 
-          <li> <p style="font-weight: normal;"><strong>[！UICONTROL過度配置]：</strong>方案所需的數目與情境中可用的數目之間的差異。 </p> </li> 
-         </ul> <p>提示：有時[！UICONTROL Available]角色的數目會符合或高於[！UICONTROL Required]角色的數目，但[!DNL Scenario Planner]仍會顯示過度配置。 這表示有較高等級的行動方案已使用同一月計畫上可用的職務角色。 </p> </td> 
+          <li> <p><strong>[!UICONTROL 可用]</strong>：從案例中選取的月份可用的每個職務角色數目。</p> </li> 
+          <li> <p><strong>[!UICONTROL 必要]</strong>：方案在所選月份所需的每個職務角色數目。</p> </li> 
+          <li> <p style="font-weight: normal;"><strong>[!UICONTROL 過度配置]：</strong>方案所需的數目與情境中可用的數目之間的差異。 </p> </li> 
+         </ul> <p>提示：有時[!UICONTROL Available]角色的數目會符合或高於[!UICONTROL Required]角色的數目，但[!DNL Scenario Planner]仍會顯示過度配置。 這表示有較高等級的行動方案已使用同一月計畫上可用的職務角色。 </p> </td> 
        </tr> 
        <tr> 
         <td role="rowheader">成本</td> 
         <td> <p>所選月份的方案成本。 下列欄位會顯示所選月份所需成本與可用預算的資訊：</p> 
          <ul> 
-          <li> <p><strong>[！UICONTROL可用]</strong>：可從計畫取得所選月份的預算。</p> </li> 
-          <li> <p><strong>[！UICONTROL必要]</strong>：與所選月份此方案相關的成本。</p> </li> 
-          <li> <p style="font-weight: normal;"><strong>[！UICONTROL超額分配]：</strong>方案成本與計畫可用預算之間的差異。 </p> </li> 
-         </ul> <p>秘訣：有時[！UICONTROL Available]成本與所選月份的主動方案[！UICONTROL Required]成本相符或更高，[!DNL Scenario Planner]仍顯示成本過度分配。 這表示有較高等級的行動方案已使用同一月計畫上的可用預算。 </p> </td> 
+          <li> <p><strong>[!UICONTROL 可用]</strong>：可從計畫取得所選月份的預算。</p> </li> 
+          <li> <p><strong>[!UICONTROL 必要]</strong>：與所選月份此方案相關的成本。</p> </li> 
+          <li> <p style="font-weight: normal;"><strong>[!UICONTROL 超額分配]：</strong>方案成本與計畫可用預算之間的差異。 </p> </li> 
+         </ul> <p>秘訣：有時[!UICONTROL Available]成本與所選月份的主動方案[!UICONTROL Required]成本相符或更高，[!DNL Scenario Planner]仍顯示成本過度分配。 這表示有較高等級的行動方案已使用同一月計畫上的可用預算。 </p> </td> 
        </tr> 
       </tbody> 
      </table>
@@ -239,16 +239,16 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL可用]</td> 
+      <td role="rowheader">[!UICONTROL 可用]</td> 
       <td> <p>計畫內每個月可用的職務角色數量。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL先前已配置]</td> 
+      <td role="rowheader">[!UICONTROL 先前已配置]</td> 
       <td>已從計畫預算配置給特定月份中較高等級方案的工作角色數量。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL過度配置]</td> 
-      <td> <p>方案上所需職務角色的數量與較高等級方案後計畫中可用數量之間的差異也使用了一些角色。 Workfront會使用下列公式計算[！UICONTROL過度配置]職務角色的數目：</p> <p><code>Overallocated roles = (Roles Previously Allocated to higher initiatives + Required roles for current initiative) - Monthly available roles from the plan</code> </p> </td> 
+      <td role="rowheader">[!UICONTROL 過度配置]</td> 
+      <td> <p>方案上所需職務角色的數量與較高等級方案後計畫中可用數量之間的差異也使用了一些角色。 Workfront會使用下列公式計算[!UICONTROL 過度配置]職務角色的數目：</p> <p><code>Overallocated roles = (Roles Previously Allocated to higher initiatives + Required roles for current initiative) - Monthly available roles from the plan</code> </p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -289,15 +289,15 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL可用]</td> 
+      <td role="rowheader">[!UICONTROL 可用]</td> 
       <td> <p>計畫預算中每個月的可用成本。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL先前已配置]</td> 
+      <td role="rowheader">[!UICONTROL 先前已配置]</td> 
       <td>已從計畫預算中分配給較高等級方案的金額。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL過度配置]</td> 
+      <td role="rowheader">[!UICONTROL 過度配置]</td> 
       <td> <p>方案所需成本與較高等級方案後計畫預算中可用資金量之間的每月差額也使用一些可用預算。 [!DNL Workfront]使用下列公式計算「超額分配」成本的數目：</p> <p><code>Overallocated costs = (Costs Previously Allocated to higher initiatives + Required costs for the current initiative) - Monthly available budget from the plan</code> </p> <p>[!DNL Workfront] 使用下列公式計算目前方案每個月的所需成本：</p> <p><code>Required initiative costs = Initiative Fixed Costs + Initiative People Costs</code> </p> </td> 
      </tr> 
     </tbody> 
@@ -332,7 +332,7 @@ ht-degree: 0%
 
    * （依條件）關閉詳細資料面板，並儘可能優先讓方案從計畫接收預算資源。 如需有關更新方案優先順序的資訊，請參閱[中的 [!DNL Scenario Planner]](../scenario-planner/prioritize-initiatives.md)更新方案優先順序。
 
-1. 當您變更[成本]區段時，按一下[套用]****。
+1. 當您變更[成本]區段時，按一下[套用]&#x200B;**&#x200B;**。
 1. 按一下&#x200B;**[!UICONTROL 儲存計畫]**&#x200B;以儲存變更。
 
 

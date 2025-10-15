@@ -71,8 +71,8 @@ ht-degree: 1%
 
 1. 按一下「**+新增檢視**」按鈕以建立新檢視。
 或
-按一下滑鼠右邊要編輯的現有檢視右邊出現的**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)。
-顯示**自訂檢視**&#x200B;對話方塊。
+按一下滑鼠右邊要編輯的現有檢視右邊出現的&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)。
+顯示&#x200B;**自訂檢視**&#x200B;對話方塊。
 
 1. 在&#x200B;**資料行預覽**&#x200B;區段中，執行下列任一項作業：
 
@@ -118,7 +118,7 @@ ht-degree: 1%
      > * 實際小時會摘要主要父系和獨立任務的值；它們不會摘要父系任務的父系或子系任務的數字。
      > * 數字和貨幣值的自訂資料欄位會摘要所有工作：父項、子項、父項的父項，以及獨立工作。
      >
-     >如需在報告中使用群組的詳細資訊，請參閱文章[ Adobe Workfront中的群組概觀](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)。
+     >如需在報告中使用群組的詳細資訊，請參閱文章[&#x200B; Adobe Workfront中的群組概觀](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)。
 
       * （選擇性）按一下&#x200B;**進階選項**，為資料行指定下列資訊：
 

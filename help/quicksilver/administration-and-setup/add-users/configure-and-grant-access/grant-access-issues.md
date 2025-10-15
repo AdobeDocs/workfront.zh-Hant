@@ -56,7 +56,7 @@ ht-degree: 0%
 
    ![微調問題設定](assets/fine-tune-issues.png)
 
-1. （選擇性）若要限制從較高等級物件繼承問題的許可權，請按一下[設定其他限制] **，然後選取[從專案、任務、問題等繼承檔案存取權]**。****
+1. （選擇性）若要限制從較高等級物件繼承問題的許可權，請按一下[設定其他限制] **，然後選取[從專案、任務、問題等繼承檔案存取權]**。**&#x200B;**
 
 1. （選擇性）若要針對您正在處理的存取層級中的其他物件與區域設定存取設定，請繼續使用[設定對Adobe Workfront的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)中所列的文章之一，例如[授與對工作的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)和[授與對財務資料的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)。
 1. 完成時，按一下&#x200B;**儲存**。

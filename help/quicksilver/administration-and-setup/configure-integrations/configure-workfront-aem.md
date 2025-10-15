@@ -241,7 +241,7 @@ ht-degree: 0%
 
 ## 設定[!DNL Workfront]以與[!DNL AEM assets]整合 {#configure-workfront-to-integrate-with-aem-assets}
 
-安裝[!UICONTROL Workfront for AEM Assets]聯結器後(如[安裝[!UICONTROL Workfront for AEM Assets]聯結器套件](#install-the-workfront-for-aem-assets-connector-package)中所述)，並設定[!UICONTROL AEM Assets] (如[設定[!UICONTROL  AEM Assets]以與 [!DNL Workfront]](#configure-aem-assets-to-integrate-with-workfront)整合)後，您需要設定[!DNL Workfront]以連結介於[!DNL Workfront]和[!DNL AEM Assets]之間的檔案。
+安裝[!UICONTROL Workfront for AEM Assets]聯結器後(如[安裝[!UICONTROL Workfront for AEM Assets]聯結器套件](#install-the-workfront-for-aem-assets-connector-package)中所述)，並設定[!UICONTROL AEM Assets] (如[設定[!UICONTROL &#x200B; AEM Assets]以與 [!DNL Workfront]](#configure-aem-assets-to-integrate-with-workfront)整合)後，您需要設定[!DNL Workfront]以連結介於[!DNL Workfront]和[!DNL AEM Assets]之間的檔案。
 
 1. 以管理員身分登入Workfront。
 
@@ -286,7 +286,7 @@ ht-degree: 0%
 ### 在[!DNL AEM assets]中設定使用者 {#set-up-users-in-aem-assets}
 
 1. 以Workfront管理員身分登入[!DNL AEM Assets]。
-1. 按一下「**[!UICONTROL 工具]**」>「{2&#x200B;}**{&#x200B;4}安全性**」>「**[!UICONTROL 使用者]**」。****
+1. 按一下「**[!UICONTROL 工具]**」>「{2&#x200B;}**{&#x200B;4}安全性**」>「**[!UICONTROL 使用者]**」。**&#x200B;**
 
 1. （視條件而定）如果使用者在AEM中沒有使用者設定檔，請建立AEM使用者設定檔。
 

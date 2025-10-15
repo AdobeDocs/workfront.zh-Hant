@@ -50,9 +50,9 @@ ht-degree: 0%
 
 [!DNL Workfront]和[!DNL Jira]中的所有使用者都可以受益於這項整合。 他們只需要最常使用的系統授權，而不需要兩個系統的授權。
 
-此附加元件適用於[!UICONTROL 軟體的]伺服器[!UICONTROL 和]OnDemand[!UICONTROL  （或]雲端[!DNL Jira]）版本。
+此附加元件適用於[!UICONTROL 軟體的]伺服器[!UICONTROL 和]OnDemand[!UICONTROL &#x200B; （或]雲端[!DNL Jira]）版本。
 
-如需[!DNL Jira]目前支援的[!DNL Workfront for Jira]版本清單，請參閱[[!DNL Workfront for Jira]的](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview)[!DNL Atlassian Marketplace]。
+如需[!DNL Jira]目前支援的[!DNL Workfront for Jira]版本清單，請參閱[[!DNL Workfront for Jira]的](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview) [!DNL Atlassian Marketplace]。
 
 ## 存取需求
 
@@ -179,7 +179,7 @@ ht-degree: 0%
    >
    >同一個團隊、使用者或角色不能有多個觸發程式。
 
-   當有人建立任務或問題並將其指派給其中一個實體時，問題會自動在[！DNL [!DNL Jira]]中建立。
+   當有人建立任務或問題並將其指派給其中一個實體時，問題會自動在[!DNL [!DNL Jira]]中建立。
 
 1. 在&#x200B;**[!UICONTROL [!DNL Jira]專案]**&#x200B;欄位中，開始輸入[!DNL Jira]專案的名稱，然後按一下以在清單中顯示時選取它。
 
@@ -212,15 +212,15 @@ ht-degree: 0%
 
       <table style="table-layout:auto">
          <tr>
-              <td>[！UICONTROL建立時]</td>
+              <td>[!UICONTROL 建立時]</td>
               <td>在Workfront中建立專案時，您指定的欄位會在連結的Workfront和[!DNL Jira]專案之間同步。</td>
           </tr>
           <tr>
-              <td>[！UICONTROL Always]</td>
+              <td>[!UICONTROL Always]</td>
               <td>在Workfront中更新欄位時，您指定的欄位會在連結的Workfront和[!DNL Jira]專案之間同步。 </td>
           </tr>
           <tr>
-              <td>[！UICONTROL從不]</td>
+              <td>[!UICONTROL 從不]</td>
               <td>您指定的欄位永遠不會在連結的[!DNL Workfront]和[!DNL Jira]專案之間同步。 [!DNL Jira]中沒有表示欄位已在[!DNL Workfront]中更新。 </td>
           </tr>
       </table>
@@ -232,11 +232,11 @@ ht-degree: 0%
        <col>
        <tbody>
         <tr>
-         <td role="rowheader">[！UICONTROL名稱]</td>
+         <td role="rowheader">[!UICONTROL 名稱]</td>
          <td><p>[!DNL Workfront]中任務或問題的名稱會變成[!DNL Jira]中連結問題的名稱。</p><p>注意：在[!DNL Jira]中自動建立新專案時，[!DNL Workfront]名稱一律會在[!DNL Jira]專案上更新，無論此處是否啟用此欄位。 當[!DNL Jira]專案手動連結至[!DNL Workfront]專案時，當您選取[!DNL Workfront]一律同步[!DNL Jira]此欄位時，<strong>專案的名稱只會在</strong>中更新。 如需手動或自動連結專案的詳細資訊，請參閱<a href="../../workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md" class="MCXref xref">在[!DNL Adobe Workfront]和[!DNL Jira]</a>之間連結專案。</p></td>
         </tr>
         <tr>
-         <td role="rowheader">[！UICONTROL說明]</td>
+         <td role="rowheader">[!UICONTROL 說明]</td>
          <td>[!DNL Workfront]中任務或問題的描述會變成它在[!DNL Jira]中連結到的問題的描述。</td>
         </tr>
         <tr>
@@ -249,8 +249,8 @@ ht-degree: 0%
            </ul></p></td>
         </tr>
         <tr>
-         <td role="rowheader">[！UICONTROL計畫完成日期]</td>
-         <td><p>[!DNL Workfront]中任務或問題的[！UICONTROL規劃完成日期]成為[!DNL Jira]中連結之問題的[！UICONTROL到期日]。</p><p>注意：請確定您在<strong>個問題上顯示</strong>[！UICONTROL到期日][!DNL Jira]，以便同步處理此值。</p></td>
+         <td role="rowheader">[!UICONTROL 計畫完成日期]</td>
+         <td><p>[!DNL Workfront]中任務或問題的[!UICONTROL 規劃完成日期]成為[!DNL Jira]中連結之問題的[!UICONTROL 到期日]。</p><p>注意：請確定您在<strong>個問題上顯示</strong>[!UICONTROL 到期日][!DNL Jira]，以便同步處理此值。</p></td>
         </tr>
        </tbody>
       </table>
@@ -264,11 +264,11 @@ ht-degree: 0%
        <col>
        <tbody>
         <tr>
-         <td role="rowheader">[！UICONTROL Always]</td>
+         <td role="rowheader">[!UICONTROL Always]</td>
          <td>在[!DNL Workfront]中更新欄位時，您指定的欄位一律會在連結的[!DNL Jira]和[!DNL Jira]專案之間同步。 </td>
         </tr>
         <tr>
-         <td role="rowheader">[！UICONTROL從不]</td>
+         <td role="rowheader">[!UICONTROL 從不]</td>
          <td><p>您指定的欄位永遠不會在連結的[!DNL Workfront]和[!DNL Jira]專案之間同步。 [!DNL Workfront]中沒有表示欄位已在[!DNL Jira]中更新。 </p><p>注意：當您選取[永不]時，仍可以從[!DNL Workfront]問題左側[!DNL Jira]面板的[!DNL Workfront]手動更新[!DNL Jira]欄位。 這些更新只會顯示在[!DNL Workfront]和[!DNL Jira]中的[!DNL Workfront]個專案上，不會顯示在[!DNL Jira]個專案上。</p></td>
         </tr>
        </tbody>
@@ -281,20 +281,20 @@ ht-degree: 0%
        <col>
        <tbody>
         <tr>
-         <td role="rowheader">[！UICONTROL狀態]</td>
-         <td>[!DNL Jira]中問題的[！UICONTROL狀態]會變成[!DNL Workfront]中連結至的任務或問題的[！UICONTROL狀態]。<br>如需[!DNL Workfront]狀態的詳細資訊，請參閱<a href="../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">建立或編輯狀態</a>。</td>
+         <td role="rowheader">[!UICONTROL 狀態]</td>
+         <td>[!DNL Jira]中問題的[!UICONTROL 狀態]會變成[!DNL Workfront]中連結至的任務或問題的[!UICONTROL 狀態]。<br>如需[!DNL Workfront]狀態的詳細資訊，請參閱<a href="../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">建立或編輯狀態</a>。</td>
         </tr>
         <tr>
-         <td role="rowheader">[！UICONTROL受託人]</td>
-         <td><p>[!DNL Jira]中問題的[！UICONTROL受指派人]會成為[!DNL Workfront]中連結至該問題或任務的[！UICONTROL受指派人]。</p><p>重要：當您將[!DNL Jira]中的專案指派給沒有[!DNL Workfront]帳戶的使用者時，整合僅當[!DNL Workfront]使用者沒有<strong>帳戶[!DNL Workfront]設定為[!DNL Jira][！UICONTROL Always][!DNL Workfront]時，</strong>在<strong>中自動建立使用者時，才會在</strong>中建立新的作用中使用者。 此使用者未佔用[!DNL Workfront]授權。 可將作用中的使用者指派給[!DNL Workfront]中的工作專案，但不能包含在更新中。 </p></td>
+         <td role="rowheader">[!UICONTROL 受託人]</td>
+         <td><p>[!DNL Jira]中問題的[!UICONTROL 受指派人]會成為[!DNL Workfront]中連結至該問題或任務的[!UICONTROL 受指派人]。</p><p>重要：當您將[!DNL Jira]中的專案指派給沒有[!DNL Workfront]帳戶的使用者時，整合僅當[!DNL Workfront]使用者沒有<strong>帳戶[!DNL Workfront]設定為[!DNL Jira][!UICONTROL Always][!DNL Workfront]時，</strong>在<strong>中自動建立使用者時，才會在</strong>中建立新的作用中使用者。 此使用者未佔用[!DNL Workfront]授權。 可將作用中的使用者指派給[!DNL Workfront]中的工作專案，但不能包含在更新中。 </p></td>
         </tr>
         <tr>
-         <td role="rowheader">[！UICONTROL附件]</td>
+         <td role="rowheader">[!UICONTROL 附件]</td>
          <td>[!DNL Jira]中問題的附件也附加至它在[!DNL Workfront]中連結的任務或問題。 </td>
         </tr>
         <tr>
-         <td role="rowheader">[！UICONTROL註解]</td>
-         <td><p>[!DNL Jira]問題的註解也會張貼在[！UICONTROL更新]區域中連結的[!DNL Workfront]專案上。 相反地，針對[!DNL Workfront]任務或問題在[！UICONTROL更新]區域張貼的註解，會同步至[!DNL Jira]的連結問題原生註解流。 </p><p>預設會設為<strong>[！UICONTROL一直]</strong>。 如果您在這裡選取<strong>[！UICONTROL Never]</strong>，您仍可在[!DNL Workfront]或[!DNL Jira]中手動在連結專案上張貼註解。</p></td>
+         <td role="rowheader">[!UICONTROL 註解]</td>
+         <td><p>[!DNL Jira]問題的註解也會張貼在[!UICONTROL 更新]區域中連結的[!DNL Workfront]專案上。 相反地，針對[!DNL Workfront]任務或問題在[!UICONTROL 更新]區域張貼的註解，會同步至[!DNL Jira]的連結問題原生註解流。 </p><p>預設會設為<strong>[!UICONTROL 一直]</strong>。 如果您在這裡選取<strong>[!UICONTROL Never]</strong>，您仍可在[!DNL Workfront]或[!DNL Jira]中手動在連結專案上張貼註解。</p></td>
         </tr>
        </tbody>
       </table>
@@ -310,27 +310,27 @@ ht-degree: 0%
        <col>
        <tbody>
         <tr>
-         <td role="rowheader">[！UICONTROL複製[!DNL Workfront]中右側面板中的[!DNL Jira]自訂資料</td>
+         <td role="rowheader">&lbrack;！UICONTROL複製[!DNL Workfront]中右側面板中的[!DNL Jira]自訂資料</td>
          <td><p>顯示[!DNL Workfront]右側面板中專案的[!DNL Workfront]自訂資料。</p><p>注意：自訂表單區段會顯示在具有[!DNL Workfront]系統管理員存取層級的[!DNL Workfront]右側面板中。</p></td>
         </tr>
         <tr>
-         <td role="rowheader">[！UICONTROL複製[!DNL Workfront]中右側面板的[!DNL Jira]優先順序</td>
+         <td role="rowheader">&lbrack;！UICONTROL複製[!DNL Workfront]中右側面板的[!DNL Jira]優先順序</td>
          <td>顯示[!DNL Workfront]右側面板中專案的[!DNL Workfront]優先順序。</td>
         </tr>
         <tr>
-         <td role="rowheader">[！UICONTROL在「[!DNL Workfront] Updates」索引標籤中新增有關「[!DNL Jira]」中到期日變更的更新</td>
-         <td>當連結的[!DNL Workfront]專案中的[！UICONTROL到期日]變更時，在[!DNL Jira]專案的[！UICONTROL Update]索引標籤中新增註解。</td>
+         <td role="rowheader">&lbrack;！UICONTROL在「[!DNL Workfront] Updates」索引標籤中新增有關「[!DNL Jira]」中到期日變更的更新</td>
+         <td>當連結的[!DNL Workfront]專案中的[!UICONTROL 到期日]變更時，在[!DNL Jira]專案的[!UICONTROL Update]索引標籤中新增註解。</td>
         </tr>
         <tr>
-         <td role="rowheader">[！UICONTROL如果[!DNL Workfront]使用者沒有[!DNL Jira]帳戶，則在[!DNL Workfront]中自動建立使用者]</td>
+         <td role="rowheader">[!UICONTROL 如果[!DNL Workfront]使用者沒有[!DNL Jira]帳戶，則在[!DNL Workfront]中自動建立使用者]</td>
          <td><p>存在下列情況：</p>
           <ul>
-           <li>當您選取<strong>[！UICONTROL Always]</strong>時，您啟用整合，以便在每次沒有[!DNL Jira]帳戶的[!DNL Workfront]使用者對連結的[!DNL Jira]問題執行下列動作時，建立新的Workfront使用者：
+           <li>當您選取<strong>[!UICONTROL Always]</strong>時，您啟用整合，以便在每次沒有[!DNL Jira]帳戶的[!DNL Workfront]使用者對連結的[!DNL Jira]問題執行下列動作時，建立新的Workfront使用者：
             <ul>
              <li>已指派給[!DNL Jira]問題</li>
-             <li><p>將時間記錄到[!DNL Jira]問題</p><p>此新使用者未佔用[!DNL Workfront]授權。 預設設定為「一律」。 在[!DNL Workfront]中以此方式建立的使用者已將「[！UICONTROL Jira]」新增至其名稱。</p></li>
+             <li><p>將時間記錄到[!DNL Jira]問題</p><p>此新使用者未佔用[!DNL Workfront]授權。 預設設定為「一律」。 在[!DNL Workfront]中以此方式建立的使用者已將「[!UICONTROL Jira]」新增至其名稱。</p></li>
             </ul></li>
-           <li>當您選取<strong>[！UICONTROL Never]</strong>時，會發生下列情況：
+           <li>當您選取<strong>[!UICONTROL Never]</strong>時，會發生下列情況：
             <ul>
              <li>您無法在[!DNL Jira]個專案上看到任何[!DNL Workfront]指派。 在此情況下，只有在[!DNL Workfront]中完成的指派會顯示在[!DNL Workfront]個專案上。</li>
              <li>沒有[!DNL Jira]帳戶的使用者登入已連結[!DNL Workfront]問題的時間不會自動傳輸至已連結的[!DNL Workfront]專案。 您仍然可以在[!DNL Workfront]問題的右側面板中的[!DNL Jira]專案上記錄時間。</li>

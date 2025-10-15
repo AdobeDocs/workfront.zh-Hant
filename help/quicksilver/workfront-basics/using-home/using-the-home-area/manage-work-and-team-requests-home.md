@@ -42,7 +42,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>存取層級設定</strong></td> 
-   <td> <p>[！UICONTROL編輯]對任務和問題的存取權</p> </td> 
+   <td> <p>[!UICONTROL 編輯]對任務和問題的存取權</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
@@ -122,9 +122,9 @@ ht-degree: 0%
 1. 按一下右上角的&#x200B;**[!UICONTROL 主功能表]** ![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
 1. （視條件而定）按一下&#x200B;**自訂**&#x200B;以新增&#x200B;**我的工作** Widget。
 
-1. 在Widget工作清單中，暫留在工作專案上，然後按一下&#x200B;**摘要**圖示以檢視工作專案的相關資訊。
+1. 在Widget工作清單中，暫留在工作專案上，然後按一下&#x200B;**摘要**&#x200B;圖示以檢視工作專案的相關資訊。
    ![開啟摘要](assets/open-summary-new-home.png)
-1. 在&#x200B;**工作總攬**區段中，移除您的名稱。
+1. 在&#x200B;**工作總攬**&#x200B;區段中，移除您的名稱。
    ![移除指定任務](assets/remove-assignment.png)
 
 

@@ -429,64 +429,64 @@ EAC方法=從任務/子任務彙總
 </table>
 
 1. 從專案動作，執行重新計算財務
-1. 工作1 **的** CPI**** = .14計算方式如下：\
-   工作1 ******** CPI  = *IF*&#x200B;實際勞力成本+ GeneratedActualExpenseCost  &lt;> 0 *然後*
+1. 工作1 **的** CPI&#x200B;**&#x200B;** = .14計算方式如下：\
+   工作1 **&#x200B;**&#x200B;**&#x200B;** CPI  = *IF*&#x200B;實際勞力成本+ GeneratedActualExpenseCost  &lt;> 0 *然後*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost) / (ActualLaborCost + IncurredActualExpenseCost)
    ```
 
    *   ELSE* CPI = CPI_Labor\
-   工作1 ******** CPI  = (100+300) / (2500+400)\
-   工作1 ******** CPI  = 400 / 2900\
-   工作1 ******** CPI  = .14
+   工作1 **&#x200B;**&#x200B;**&#x200B;** CPI  = (100+300) / (2500+400)\
+   工作1 **&#x200B;**&#x200B;**&#x200B;** CPI  = 400 / 2900\
+   工作1 **&#x200B;**&#x200B;**&#x200B;** CPI  = .14
 
-1. 任務1 **的** EAC**** = $13,400.00\
-   任務1 **的** CPI勞力**** =如果實際勞力成本&lt;> 0，則
+1. 任務1 **的** EAC&#x200B;**&#x200B;** = $13,400.00\
+   任務1 **的** CPI勞力&#x200B;**&#x200B;** =如果實際勞力成本&lt;> 0，則
 
    ```
    CPI_Labor = TotalBudgetedCostWorkPerformed / Actual Labor Cost
    ```
 
       否則CPI_Labor = 1\
-   **工作1****1}的CPI人工= 100/2500**\
-   **工作1****1}的CPI人力= .04**
+   **工作1**&#x200B;**1&rbrace;的CPI人工= 100/2500**\
+   **工作1**&#x200B;**1&rbrace;的CPI人力= .04**
 
-   **工作1**&#x200B;的EAC人力**** = *IF* CPI_Labor &lt;> 0 *THEN*
+   **工作1**&#x200B;的EAC人力&#x200B;**&#x200B;** = *IF* CPI_Labor &lt;> 0 *THEN*
 
    ```
    EAC Labor = Planned Labor Cost / CPI_Labor
    ```
 
    *   ELSE* EAC  勞力=計畫勞力成本+實際勞力成本\
-   **工作1**&#x200B;的EAC工****= 500.00/.04\
-   **工作1**&#x200B;的EAC工****= $12,500.00
+   **工作1**&#x200B;的EAC工&#x200B;**&#x200B;**= 500.00/.04\
+   **工作1**&#x200B;的EAC工&#x200B;**&#x200B;**= $12,500.00
 
-   **任務1**&#x200B;的EAC費用**** = GeneratedActualExpenseCost + NotGeneratedPlannedExpense\
-   **任務1**&#x200B;的EAC費用**** = $400.00 + $500.00\
-   **任務1**&#x200B;的EAC費用**** = $900.00
+   **任務1**&#x200B;的EAC費用&#x200B;**&#x200B;** = GeneratedActualExpenseCost + NotGeneratedPlannedExpense\
+   **任務1**&#x200B;的EAC費用&#x200B;**&#x200B;** = $400.00 + $500.00\
+   **任務1**&#x200B;的EAC費用&#x200B;**&#x200B;** = $900.00
 
-   **任務1**&#x200B;的EAC**** = EAC人力+ EAC費用\
-   任務1 **的** EAC****  = $12,500.00 + $900.00\
-   任務1 **的** EAC****  = $13,400.00
+   **任務1**&#x200B;的EAC&#x200B;**&#x200B;** = EAC人力+ EAC費用\
+   任務1 **的** EAC&#x200B;**&#x200B;**  = $12,500.00 + $900.00\
+   任務1 **的** EAC&#x200B;**&#x200B;**  = $13,400.00
 
 1. 以下是任務2和任務3的CPI / EAC值：\
    任務2 = .19 / $8,433.33\
-   作業3 = .44 / $6,950.00****
+   作業3 = .44 / $6,950.00&#x200B;**&#x200B;**
 
 1. 專案的CPI = .32\
-   專案的&#x200B;**CPI****1} =** IF *實際勞力成本+ GeneratedActualExpenseCost  &lt;> 0*&#x200B;然後&#x200B;**
+   專案的&#x200B;**CPI**&#x200B;**1&rbrace; =** IF *實際勞力成本+ GeneratedActualExpenseCost  &lt;> 0*&#x200B;然後&#x200B;**
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost)/(ActualLaborCost + IncurredActualExpenseCost)
    ```
 
    *   ELSE* CPI = CPI_Labor\
-   專案的&#x200B;**CPI****** = (1000 + 2300) / (7500 + 2700)\
-   專案的&#x200B;**CPI****** = 3300 / 10200\
-   專案的&#x200B;**CPI****1} = .32**
+   專案的&#x200B;**CPI**&#x200B;**&#x200B;** = (1000 + 2300) / (7500 + 2700)\
+   專案的&#x200B;**CPI**&#x200B;**&#x200B;** = 3300 / 10200\
+   專案的&#x200B;**CPI**&#x200B;**1&rbrace; = .32**
 
 1. 專案的EAC為$28,783.33美元\
-   專案的&#x200B;**EAC****** = EAC任務1 + EAC任務2 + EAC任務3\
-   專案的&#x200B;**EAC****** = $13,400.00 + $8,433.33 + $6,950.00\
-   專案的&#x200B;**EAC****** = $28,783.33
+   專案的&#x200B;**EAC**&#x200B;**&#x200B;** = EAC任務1 + EAC任務2 + EAC任務3\
+   專案的&#x200B;**EAC**&#x200B;**&#x200B;** = $13,400.00 + $8,433.33 + $6,950.00\
+   專案的&#x200B;**EAC**&#x200B;**&#x200B;** = $28,783.33

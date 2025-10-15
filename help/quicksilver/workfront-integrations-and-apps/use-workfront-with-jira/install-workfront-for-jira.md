@@ -47,7 +47,7 @@ ht-degree: 0%
 
 [!DNL Workfront]和[!DNL Jira]中的所有使用者都可以受益於這項整合。 他們只需要最常使用的系統授權，而不需要兩個系統的授權。
 
-此附加元件適用於[!UICONTROL 軟體的]伺服器[!UICONTROL 和]OnDemand[!UICONTROL  （或]雲端[!DNL Jira]）版本。 此附加元件不適用於[!DNL Data Center]軟體的[!DNL Jira]版本。
+此附加元件適用於[!UICONTROL 軟體的]伺服器[!UICONTROL 和]OnDemand[!UICONTROL &#x200B; （或]雲端[!DNL Jira]）版本。 此附加元件不適用於[!DNL Data Center]軟體的[!DNL Jira]版本。
 
 如需[!DNL Jira]目前支援的[!DNL Workfront for Jira]版本清單，請參閱Atlassian Marketplace上的[[!DNL [!DNL Workfront for Jira]]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview)。
 
@@ -96,7 +96,7 @@ ht-degree: 0%
 若要安裝[!DNL Workfront for Jira]：
 
 1. 以[!DNL Jira]管理員身分登入[!DNL Jira]。
-1. 在&#x200B;**[!DNL Workfront for Jira]**[[!DNL Atlassian Marketplace]&#x200B;中尋找](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview)附加元件。
+1. 在&#x200B;**[!DNL Workfront for Jira]**&#x200B;[[!DNL Atlassian Marketplace]&#x200B;中尋找](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview)附加元件。
 
 1. 按一下&#x200B;**[!UICONTROL 立即取得]**&#x200B;以進行安裝。
 
@@ -108,7 +108,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->這些需求不適用於[!UICONTROL 軟體的]OnDemand[!UICONTROL  （]雲端[!DNL Jira]）版本。
+>這些需求不適用於[!UICONTROL 軟體的]OnDemand[!UICONTROL &#x200B; （]雲端[!DNL Jira]）版本。
 
 雖然在兩個[!DNL Workfront]環境中安裝[!DNL Jira]附加元件類似，但使用[!DNL Jira Server]安裝時必須考慮下列事項：
 

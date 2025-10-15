@@ -66,7 +66,7 @@ ht-degree: 0%
    * 如果您使用預覽環境，請按一下案頭校訂檢視器的[Mac預覽下載。](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.44.pkg)
 
 1. 開啟您剛下載的檔案，開始安裝。
-1. 在出現的安裝方塊上，按一下[繼續]****，然後按一下[安裝]****。
+1. 在出現的安裝方塊上，按一下[繼續]&#x200B;**&#x200B;**，然後按一下[安裝]&#x200B;**&#x200B;**。
 
    ![00000776.png](assets/00000776-350x244.png)
 

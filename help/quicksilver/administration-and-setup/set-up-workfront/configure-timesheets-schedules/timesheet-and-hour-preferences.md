@@ -49,12 +49,12 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td><p>[！UICONTROL標準]</p>
-       <p>[！UICONTROL計畫]</p></td>
+   <td><p>[!UICONTROL 標準]</p>
+       <p>[!UICONTROL 計畫]</p></td>
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
-   <td>[！UICONTROL系統管理員]</td> 
+   <td>[!UICONTROL 系統管理員]</td> 
   </tr> 
  </tbody> 
 </table>
@@ -84,7 +84,7 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL記錄未來日期的時間]</td> 
+      <td role="rowheader">[!UICONTROL 記錄未來日期的時間]</td> 
       <td> <p>可讓使用者在整個系統記錄未來日期的時間，位置如下：</p> 
        <ul> 
         <li>他們有權記錄時間的任何專案、任務和問題</li> 
@@ -94,15 +94,15 @@ ht-degree: 0%
      </tr>
 
    <tr> 
-      <td role="rowheader">[！UICONTROL手動將工作角色指派給時數專案]</td> 
+      <td role="rowheader">[!UICONTROL 手動將工作角色指派給時數專案]</td> 
       <td> <p>允許使用者手動選取在其使用者設定檔中指派或指派給物件的任何工作角色。</p> <p><b>重要</b>：  
         <ul> 
-         <li>如果您在將工作角色指派給時數專案後停用此設定，使用者必須調整在專案、任務或問題的[！UICONTROL時數]索引標籤上各種角色底下記錄的時數。</li> 
-         <li>如果使用者未在其設定檔中指派工作角色，且在[！UICONTROL進階指派]對話方塊中有指派為[！UICONTROL任務擁有者]的任務，則當使用者將時間記錄在任務時，會顯示該工作角色。</li> 
+         <li>如果您在將工作角色指派給時數專案後停用此設定，使用者必須調整在專案、任務或問題的[!UICONTROL 時數]索引標籤上各種角色底下記錄的時數。</li> 
+         <li>如果使用者未在其設定檔中指派工作角色，且在[!UICONTROL 進階指派]對話方塊中有指派為[!UICONTROL 任務擁有者]的任務，則當使用者將時間記錄在任務時，會顯示該工作角色。</li> 
         </ul> </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[！UICONTROL限制所有者和管理員只能編輯時程表]</td> 
+      <td role="rowheader">[!UICONTROL 限制所有者和管理員只能編輯時程表]</td> 
       <td> <p>限制僅編輯時程表所有者和[!DNL Workfront]管理員。 停用此選項時，也可以由以下人員編輯時程表：</p> 
        <ul> 
         <li> <p>具有時程表管理存取許可權的使用者及其存取層級的時數</p> </li> 
@@ -111,8 +111,8 @@ ht-degree: 0%
        </ul> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[！UICONTROL限制所有者和管理員只能編輯小時]</td> 
-      <td>限制僅編輯輸入時數的使用者和[!DNL Workfront]管理員。 此設定適用於專案或時數報表中的[！UICONTROL時數]索引標籤。</td> 
+      <td role="rowheader">[!UICONTROL 限制所有者和管理員只能編輯小時]</td> 
+      <td>限制僅編輯輸入時數的使用者和[!DNL Workfront]管理員。 此設定適用於專案或時數報表中的[!UICONTROL 時數]索引標籤。</td> 
      </tr> 
     </tbody> 
    </table>
@@ -121,16 +121,16 @@ ht-degree: 0%
 
    <table style="table-layout:auto">
     <tr>
-        <td>[！UICONTROL直接在專案上]</td>
-        <td>允許使用者在專案上記錄時間（同時在[！UICONTROL更新]索引標籤和時程表上）。 如果使用者未在專案層級記錄時間，此選項應保持未勾選狀態。</td>
+        <td>[!UICONTROL 直接在專案上]</td>
+        <td>允許使用者在專案上記錄時間（同時在[!UICONTROL 更新]索引標籤和時程表上）。 如果使用者未在專案層級記錄時間，此選項應保持未勾選狀態。</td>
     </tr>
     <tr>
-        <td>[！UICONTROL在完成的專案上]</td>
-        <td>允許使用者記錄已標示為完成的專案時間。 如果停用此選項，使用者將無法在[！UICONTROL完成]狀態的專案上記錄已完成工作的時間。</td>
+        <td>[!UICONTROL 在完成的專案上]</td>
+        <td>允許使用者記錄已標示為完成的專案時間。 如果停用此選項，使用者將無法在[!UICONTROL 完成]狀態的專案上記錄已完成工作的時間。</td>
     </tr>
     <tr>
-        <td>[！UICONTROL在廢棄的專案上]</td>
-        <td>當啟用此選項時，使用者可以在具有[！UICONTROL無法使用]狀態的專案上記錄時數。</td>
+        <td>[!UICONTROL 在廢棄的專案上]</td>
+        <td>當啟用此選項時，使用者可以在具有[!UICONTROL 無法使用]狀態的專案上記錄時數。</td>
     </tr>
    </table>
 
@@ -141,21 +141,21 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL在時程表工作範圍之內] &lt;周數&gt; [！UICONTROL]的工作</td> 
+      <td role="rowheader">[!UICONTROL 在時程表工作範圍之內] &lt;周數&gt; 的工作</td> 
       <td> <p>定義包含指派給使用者的任務和問題日期的時程表日期範圍之前和之後的周數。</p> 
       <p>預設值為1週，您可以將此範圍延長至4週。</p> 
       <p>也就是說，如果您為範圍選取4週，則時程表已預先填入日期在時程表日期範圍前4週至時程表日期範圍後4週之間的任何時間任務和問題。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL已完成的任務和問題]</td> 
+      <td role="rowheader">[!UICONTROL 已完成的任務和問題]</td> 
       <td>如果通常將多個資源指派給單一任務，建議您進行此設定。 這表示當一個資源針對任務記錄時間並標籤為完成時，指派給任務的其他資源仍然可以在其時程表中找到任務或問題以記錄其時數。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL計畫日期在時間表日期範圍內的任務和問題]</td> 
+      <td role="rowheader">[!UICONTROL 計畫日期在時間表日期範圍內的任務和問題]</td> 
       <td> <p>選取時，時程表包含其計劃開始日期或完成日期介於時程表日期範圍內的任務和問題。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> [！UICONTROL計畫日期在時程表日期範圍內的任務]</td> 
+      <td role="rowheader"> [!UICONTROL 計畫日期在時程表日期範圍內的任務]</td> 
       <td> <p>選取時，時程表包含具有專案時間範圍內的預計開始日期或完成日期的任務，即使問題或任務的計畫日期不在時程表日期範圍內。</p> </td> 
      </tr> 
     </tbody> 
@@ -171,16 +171,16 @@ ht-degree: 0%
       <td role="rowheader"> 刪除專案時</td> 
       <td> 
        <ul> 
-        <li><strong>[！UICONTROL保留記錄時間已新增至時程表作為一般時間]</strong>：如果稍後還原此專案，時間仍會保留在時程表中。</li> 
-        <li><strong>[！UICONTROL刪除任何記錄時間]</strong>：如果稍後還原此專案，則已記錄的時間會還原至專案。</li> 
+        <li><strong>[!UICONTROL 保留記錄時間已新增至時程表作為一般時間]</strong>：如果稍後還原此專案，時間仍會保留在時程表中。</li> 
+        <li><strong>[!UICONTROL 刪除任何記錄時間]</strong>：如果稍後還原此專案，則已記錄的時間會還原至專案。</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">刪除任務或問題時</td> 
       <td> 
        <ul> 
-        <li><strong>[！UICONTROL將任何記錄時間移至任務或問題所在的專案]</strong>：若日後還原此任務或問題，則時間仍會保留在專案上。<br></li> 
-        <li> <p><strong>[！UICONTROL刪除任何記錄時間]</strong>：如果稍後還原此任務或問題，則記錄時間會還原至任務或問題。</p> <p>如需這些選項的詳細資訊，請參閱刪除和還原物件時數的<a href="../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md" class="MCXref xref">[！UICONTROL設定影響]</a>。</p> </li> 
+        <li><strong>[!UICONTROL 將任何記錄時間移至任務或問題所在的專案]</strong>：若日後還原此任務或問題，則時間仍會保留在專案上。<br></li> 
+        <li> <p><strong>[!UICONTROL 刪除任何記錄時間]</strong>：如果稍後還原此任務或問題，則記錄時間會還原至任務或問題。</p> <p>如需這些選項的詳細資訊，請參閱刪除和還原物件時數的<a href="../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md" class="MCXref xref">[!UICONTROL 設定影響]</a>。</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 

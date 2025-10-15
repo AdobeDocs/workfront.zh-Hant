@@ -62,7 +62,7 @@ ht-degree: 0%
 
 1. 前往您想要變更劇本旗標的[!UICONTROL Kanban]面板。
 1. 展開內文拼貼以檢視旗標。
-每個內文的旗標預設為**[!UICONTROL 曲目]**。
+每個內文的旗標預設為&#x200B;**[!UICONTROL 曲目]**。
    ![看板卡](assets/agile-storycard-kanban-2021-350x308.png)
 
 1. 按一下目前的旗標，然後從下列旗標選項中選取：

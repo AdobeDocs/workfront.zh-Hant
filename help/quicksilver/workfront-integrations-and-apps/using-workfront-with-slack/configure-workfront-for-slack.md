@@ -82,7 +82,7 @@ ht-degree: 0%
 
 1. 指定您的[!DNL Slack] URL並按一下&#x200B;**[!UICONTROL 繼續]**&#x200B;以登入您的工作區。\
 
-1. 檢查[!DNL Slack]要求的存取權。 如果您同意此存取權，請按一下[允許存取] ****&#x200B;來授權[!DNL Workfront]應用程式。
+1. 檢查[!DNL Slack]要求的存取權。 如果您同意此存取權，請按一下[允許存取] **&#x200B;**&#x200B;來授權[!DNL Workfront]應用程式。
 
 您現在可以從[!DNL Workfront]存取[!DNL Slack]，如[從 [!DNL Workfront] 存取 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md#viewing-all-available-commands) section in [Access [!DNL Adobe Workfront] 從 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)中所述。
 
@@ -108,4 +108,4 @@ ht-degree: 0%
 1. 按一下&#x200B;**[!UICONTROL 造訪應用程式網站]**。
 1. 按一下「**[!UICONTROL 新增至[!DNL Slack]]**」。
 1. 請依照步驟完成安裝。
-1. 安裝完成時，您可以從[!DNL Workfront]存取[!DNL Slack]，如[[！UICONTROL Access [!DNL Workfront]  from [!DNL Slack]]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md#viewing-all-available-commands) section in [Access [!DNL Adobe Workfront]  from [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)中所述。
+1. 安裝完成時，您可以從[!DNL Workfront]存取[!DNL Slack]，如[[!UICONTROL Access [!DNL Workfront]  from [!DNL Slack]]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md#viewing-all-available-commands) section in [Access [!DNL Adobe Workfront]  from [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)中所述。

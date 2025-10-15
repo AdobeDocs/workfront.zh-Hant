@@ -57,19 +57,19 @@ ht-degree: 0%
 
    <table style="table-layout:auto">
     <tr>
-        <td><strong>[！UICONTROL名稱]</strong></td>
+        <td><strong>[!UICONTROL 名稱]</strong></td>
         <td>（必要）本文或問題的名稱。</td>
     </tr>
     <tr>
-        <td><strong>[！UICONTROL說明]</strong></td>
+        <td><strong>[!UICONTROL 說明]</strong></td>
         <td>專案的說明。</td>
     </tr>
     <tr>
-        <td><strong>[！UICONTROL估計]</strong></td>
+        <td><strong>[!UICONTROL 估計]</strong></td>
         <td>預估專案小時數或點數。</td>
     </tr>
     <tr>
-        <td><strong>[！UICONTROL父專案]</strong></td>
+        <td><strong>[!UICONTROL 父專案]</strong></td>
         <td>（必要）儲存新內文或問題的專案。 開始輸入專案名稱，然後在其顯示在清單中時選取它。</td>
     </tr>
    </table>

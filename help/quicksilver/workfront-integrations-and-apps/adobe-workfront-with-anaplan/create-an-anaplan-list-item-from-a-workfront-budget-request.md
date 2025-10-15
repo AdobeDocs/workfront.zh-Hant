@@ -86,19 +86,19 @@ ht-degree: 0%
    </thead> 
    <tbody> 
     <tr> 
-     <td role="rowheader">[！UICONTROL預算請求型別]</td> 
-     <td> <p>[！UICONTROL下拉式清單]</p> <p>選項：</p> 
+     <td role="rowheader">[!UICONTROL 預算請求型別]</td> 
+     <td> <p>[!UICONTROL 下拉式清單]</p> <p>選項：</p> 
       <ul> 
-       <li> <p>[！UICONTROL資金調整]</p> </li> 
-       <li> <p>[！UICONTROL初始資金]</p> </li> 
+       <li> <p>[!UICONTROL 資金調整]</p> </li> 
+       <li> <p>[!UICONTROL 初始資金]</p> </li> 
       </ul> </td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[！UICONTROL申請勞力資金]</td> 
+     <td role="rowheader">[!UICONTROL 申請勞力資金]</td> 
      <td> </td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[！UICONTROL請求的費用基金]</td> 
+     <td role="rowheader">[!UICONTROL 請求的費用基金]</td> 
      <td> </td> 
     </tr> 
    </tbody> 
@@ -124,24 +124,24 @@ ht-degree: 0%
    </thead> 
    <tbody> 
     <tr> 
-     <td role="rowheader">[！UICONTROL上市日期]</td> 
-     <td>[！UICONTROL日期] </td> 
+     <td role="rowheader">[!UICONTROL 上市日期]</td> 
+     <td>[!UICONTROL 日期] </td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[！UICONTROL市場結束日期]</td> 
-     <td>[！UICONTROL日期]</td> 
+     <td role="rowheader">[!UICONTROL 市場結束日期]</td> 
+     <td>[!UICONTROL 日期]</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[！UICONTROL行銷活動概覽]</td> 
-     <td>[！UICONTROL RTF欄位]</td> 
+     <td role="rowheader">[!UICONTROL 行銷活動概覽]</td> 
+     <td>[!UICONTROL RTF欄位]</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[！UICONTROL金鑰訊息]</td> 
-     <td>[！UICONTROL RTF欄位]</td> 
+     <td role="rowheader">[!UICONTROL 金鑰訊息]</td> 
+     <td>[!UICONTROL RTF欄位]</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[！UICONTROL目標對象]</td> 
-     <td> <p>[！UICONTROL下拉式清單]</p> <p>包含適合您流程的選項。</p> </td> 
+     <td role="rowheader">[!UICONTROL 目標對象]</td> 
+     <td> <p>[!UICONTROL 下拉式清單]</p> <p>包含適合您流程的選項。</p> </td> 
     </tr> 
    </tbody> 
   </table>

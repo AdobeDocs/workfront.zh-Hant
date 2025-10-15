@@ -170,7 +170,7 @@ ht-degree: 0%
 
 1. 新增全域核准程式後，請按一下核准頁面右上角的&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)。 此動作會將全域或群組層級核准流程轉換為單次使用核准流程。
 1. 對現有核准流程進行任何變更。 如需詳細資訊，請參閱本文章的[將單一使用核准程式與專案、任務、問題、範本或範本任務建立關聯](#associate-a-single-use-approval-process-with-a-project-task-issue-template-or-template-task)。
-1. 按一下[儲存]****，然後再次按一下[儲存]****，確認您要將全域核准程式轉換為僅供此物件使用的一次性核准程式。
+1. 按一下[儲存]&#x200B;**&#x200B;**，然後再次按一下[儲存]&#x200B;**&#x200B;**，確認您要將全域核准程式轉換為僅供此物件使用的一次性核准程式。
 
 ## 將單一使用核准流程與專案、任務、問題、範本或範本任務建立關聯 {#associate-a-single-use-approval-process-with-a-project-task-issue-template-or-template-task}
 

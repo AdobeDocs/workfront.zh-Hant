@@ -105,7 +105,7 @@ ht-degree: 0%
 1. 在&#x200B;**目的地**&#x200B;欄位中，從各種可用的列印選項中選取。\
    列印選項會依您使用的瀏覽器和瀏覽器版本而有所不同。
 
-1. （選擇性）將儀表板儲存為。PDF檔案，然後按一下[儲存] ****&#x200B;以儲存。PDF。\
+1. （選擇性）將儀表板儲存為。PDF檔案，然後按一下[儲存] **&#x200B;**&#x200B;以儲存。PDF。\
    若要瞭解如何將儀表板儲存為。PDF檔案，請參閱[匯出儀表板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md)。
 
 1. 按一下&#x200B;**列印**。

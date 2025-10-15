@@ -135,7 +135,7 @@ ht-degree: 2%
 
 每個區段都會以稍微不同的格式顯示目標。 您使用哪個區段取決於您在使用目標時想要達到的目的。
 
-如需詳細資訊，請參閱[ Adobe Workfront目標區段概觀](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md)。
+如需詳細資訊，請參閱[&#x200B; Adobe Workfront目標區段概觀](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md)。
 
 本文說明如何檢閱目標清單中的目標。
 

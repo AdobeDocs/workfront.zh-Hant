@@ -117,170 +117,170 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
    <td>投資組合清單</td> 
    <td> 
     <ul> 
-     <li> <p>[！UICONTROL產品組合]</p> </li> 
+     <li> <p>[!UICONTROL 產品組合]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>計劃清單</td> 
    <td> 
     <ul> 
-     <li> <p>[！UICONTROL產品組合] &gt;[！UICONTROL選取產品組合] &gt;[！UICONTROL計畫]</p> </li> 
-     <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>[！UICONTROL程式]</p> </li> 
+     <li> <p>[!UICONTROL 產品組合] &gt;[!UICONTROL 選取產品組合] &gt;[!UICONTROL 計畫]</p> </li> 
+     <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>[!UICONTROL 程式]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>專案清單</td> 
    <td> 
     <ul> 
-     <li> <p>[！UICONTROL專案]</p> </li> 
-     <li> <p>[！UICONTROL專案組合] &gt;[！UICONTROL選取專案組合] &gt;[！UICONTROL專案]</p> </li> 
-     <li> <p>[！UICONTROL產品組合] &gt;[！UICONTROL選取產品組合] &gt;[！UICONTROL計畫] &gt;[！UICONTROL選取計畫] &gt;[！UICONTROL專案]</p> </li> 
+     <li> <p>[!UICONTROL 專案]</p> </li> 
+     <li> <p>[!UICONTROL 專案組合] &gt;[!UICONTROL 選取專案組合] &gt;[!UICONTROL 專案]</p> </li> 
+     <li> <p>[!UICONTROL 產品組合] &gt;[!UICONTROL 選取產品組合] &gt;[!UICONTROL 計畫] &gt;[!UICONTROL 選取計畫] &gt;[!UICONTROL 專案]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>任務清單</td> 
    <td> 
     <ul> 
-     <li> <p>[！UICONTROL專案] &gt;[！UICONTROL選取專案] &gt; [！UICONTROL任務]</p> </li> 
-     <li> <p>[！UICONTROL專案] &gt;[！UICONTROL選取專案] &gt;[！UICONTROL任務] &gt;[！UICONTROL選取任務] &gt;[！UICONTROL子任務]</p> </li> 
-     <li> <p>[！UICONTROL專案] &gt;[！UICONTROL選取專案] &gt;[！UICONTROL任務] &gt;[！UICONTROL選取任務] &gt; [！UICONTROL前置任務*]</p> </li> 
+     <li> <p>[!UICONTROL 專案] &gt;[!UICONTROL 選取專案] &gt; [!UICONTROL 任務]</p> </li> 
+     <li> <p>[!UICONTROL 專案] &gt;[!UICONTROL 選取專案] &gt;[!UICONTROL 任務] &gt;[!UICONTROL 選取任務] &gt;[!UICONTROL 子任務]</p> </li> 
+     <li> <p>[!UICONTROL 專案] &gt;[!UICONTROL 選取專案] &gt;[!UICONTROL 任務] &gt;[!UICONTROL 選取任務] &gt; [!UICONTROL 前置任務*]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>問題清單</td> 
    <td> 
     <ul> 
-     <li> <p>[！UICONTROL專案] &gt; [！UICONTROL Select]專案&gt;[！UICONTROL問題]</p> </li> 
-     <li> <p>[！UICONTROL專案] &gt;[！UICONTROL選取專案] &gt;[！UICONTROL任務] &gt;[！UICONTROL選取任務] &gt; [！UICONTROL問題]</p> </li> 
-     <li> <p>[！UICONTROL專案] &gt;[！UICONTROL選取專案] &gt;[！UICONTROL任務] &gt;[！UICONTROL選取任務] &gt;[！UICONTROL子任務] &gt;[！UICONTROL選取任務] &gt; [！UICONTROL問題]</p> </li> 
+     <li> <p>[!UICONTROL 專案] &gt; [!UICONTROL Select]專案&gt;[!UICONTROL 問題]</p> </li> 
+     <li> <p>[!UICONTROL 專案] &gt;[!UICONTROL 選取專案] &gt;[!UICONTROL 任務] &gt;[!UICONTROL 選取任務] &gt; [!UICONTROL 問題]</p> </li> 
+     <li> <p>[!UICONTROL 專案] &gt;[!UICONTROL 選取專案] &gt;[!UICONTROL 任務] &gt;[!UICONTROL 選取任務] &gt;[!UICONTROL 子任務] &gt;[!UICONTROL 選取任務] &gt; [!UICONTROL 問題]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>報告清單</td> 
    <td> 
     <ul> 
-     <li> <p>  [！UICONTROL報表]  </p> </li> 
+     <li> <p>  [!UICONTROL 報表]  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>控制面板清單</td> 
    <td> 
     <ul> 
-     <li> <p>[！UICONTROL儀表板]</p> </li> 
+     <li> <p>[!UICONTROL 儀表板]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>反複專案清單</td> 
    <td> 
     <ul> 
-     <li> <p>[！UICONTROL團隊] &gt; [！UICONTROL反複專案]</p> </li> 
+     <li> <p>[!UICONTROL 團隊] &gt; [!UICONTROL 反複專案]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>使用者清單</td> 
    <td> 
     <ul> 
-     <li> <p>[！UICONTROL使用者]</p> </li> 
+     <li> <p>[!UICONTROL 使用者]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>檔案清單</td> 
    <td> 
     <ul> 
-     <li> <p>[！UICONTROL檔案]</p> </li> 
-     <li> <p>[！UICONTROL產品組合] &gt;[！UICONTROL選取產品組合] &gt; [！UICONTROL檔案]</p> </li> 
-     <li> <p>[！UICONTROL產品組合] &gt; [！UICONTROL選擇產品組合] &gt;[！UICONTROL計畫] &gt;[！UICONTROL選擇計畫] &gt;[！UICONTROL檔案]</p> </li> 
-     <li> <p>[！UICONTROL專案] &gt;[！UICONTROL選取專案] &gt;[！UICONTROL檔案]</p> </li> 
-     <li> <p>[！UICONTROL專案] &gt;[！UICONTROL選取專案] &gt;[！UICONTROL任務] &gt;[！UICONTROL選取任務] &gt; [！UICONTROL檔案]</p> </li> 
-     <li> <p>[！UICONTROL專案] &gt; [！UICONTROL選取專案&gt; [！UICONTROL問題] &gt;[！UICONTROL選取問題] &gt; [！UICONTROL檔案]</p> </li> 
+     <li> <p>[!UICONTROL 檔案]</p> </li> 
+     <li> <p>[!UICONTROL 產品組合] &gt;[!UICONTROL 選取產品組合] &gt; [!UICONTROL 檔案]</p> </li> 
+     <li> <p>[!UICONTROL 產品組合] &gt; [!UICONTROL 選擇產品組合] &gt;[!UICONTROL 計畫] &gt;[!UICONTROL 選擇計畫] &gt;[!UICONTROL 檔案]</p> </li> 
+     <li> <p>[!UICONTROL 專案] &gt;[!UICONTROL 選取專案] &gt;[!UICONTROL 檔案]</p> </li> 
+     <li> <p>[!UICONTROL 專案] &gt;[!UICONTROL 選取專案] &gt;[!UICONTROL 任務] &gt;[!UICONTROL 選取任務] &gt; [!UICONTROL 檔案]</p> </li> 
+     <li> <p>[!UICONTROL 專案] &gt; &lbrack;！UICONTROL選取專案&gt; [!UICONTROL 問題] &gt;[!UICONTROL 選取問題] &gt; [!UICONTROL 檔案]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>時程表清單</td> 
    <td> 
     <ul> 
-     <li> <p>[！UICONTROL時間表] &gt; [！UICONTROL所有時間表]*</p> </li> 
+     <li> <p>[!UICONTROL 時間表] &gt; [!UICONTROL 所有時間表]*</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>收費率清單</td> 
    <td> 
     <ul> 
-     <li> <p>[！UICONTROL專案] &gt;[！UICONTROL選取專案] &gt;[！UICONTROL收費率*]</p> </li> 
+     <li> <p>[!UICONTROL 專案] &gt;[!UICONTROL 選取專案] &gt;[!UICONTROL 收費率*]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>付費記錄清單</td> 
    <td> 
     <ul> 
-     <li> <p>[！UICONTROL專案] &gt; [！UICONTROL選取專案] &gt; [！UICONTROL付費記錄]</p> </li> 
+     <li> <p>[!UICONTROL 專案] &gt; [!UICONTROL 選取專案] &gt; [!UICONTROL 付費記錄]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>風險清單</td> 
    <td> 
     <ul> 
-     <li> <p>[！UICONTROL專案] &gt;[！UICONTROL選取專案] &gt;[！UICONTROL風險]</p> </li> 
+     <li> <p>[!UICONTROL 專案] &gt;[!UICONTROL 選取專案] &gt;[!UICONTROL 風險]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>費用清單</td> 
    <td> 
     <ul> 
-     <li> <p>[！UICONTROL專案] &gt;[！UICONTROL Select]專案&gt;[！UICONTROL費用]</p> </li> 
-     <li> <p>[！UICONTROL專案] &gt; [！UICONTROL選取專案] &gt;[！UICONTROL任務] &gt;[！UICONTROL選取任務] &gt;[！UICONTROL費用]</p> </li> 
+     <li> <p>[!UICONTROL 專案] &gt;[!UICONTROL Select]專案&gt;[!UICONTROL 費用]</p> </li> 
+     <li> <p>[!UICONTROL 專案] &gt; [!UICONTROL 選取專案] &gt;[!UICONTROL 任務] &gt;[!UICONTROL 選取任務] &gt;[!UICONTROL 費用]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>小時專案清單</td> 
    <td> 
     <ul> 
-     <li> <p>[！UICONTROL專案] &gt;[！UICONTROL選取專案</p> </li> 
-     <li> <p>[！UICONTROL專案] &gt;[！UICONTROL選取專案] &gt;[！UICONTROL任務] &gt;[！UICONTROL選取任務] &gt;[！UICONTROL小時]</p> </li> 
-     <li> <p>[！UICONTROL專案] &gt;[！UICONTROL select]專案&gt;[！UICONTROL問題] &gt;[！UICONTROL select]問題&gt;[！UICONTROL小時]</p> </li>
+     <li> <p>[!UICONTROL 專案] &gt;&lbrack;！UICONTROL選取專案</p> </li> 
+     <li> <p>[!UICONTROL 專案] &gt;[!UICONTROL 選取專案] &gt;[!UICONTROL 任務] &gt;[!UICONTROL 選取任務] &gt;[!UICONTROL 小時]</p> </li> 
+     <li> <p>[!UICONTROL 專案] &gt;[!UICONTROL select]專案&gt;[!UICONTROL 問題] &gt;[!UICONTROL select]問題&gt;[!UICONTROL 小時]</p> </li>
     </ul> </td> 
   </tr>
   <tr> 
    <td>自訂表單清單</td> 
    <td> 
     <ul> 
-     <li>[！UICONTROL安裝程式] &gt;[！UICONTROL自訂Forms] </li> 
+     <li>[!UICONTROL 安裝程式] &gt;[!UICONTROL 自訂Forms] </li> 
     </ul> </td> 
   </tr> 
   <tr> 
     <td>群組或子群組清單</td> 
    <td> 
     <ul> 
-     <li> <p>[！UICONTROL設定] &gt;[！UICONTROL群組]</p> </li>
-     <li> <p>[！UICONTROL設定] &gt;[！UICONTROL群組] &gt;[！UICONTROL選取父群組] &gt;[！UICONTROL子群組] </li> 
+     <li> <p>[!UICONTROL 設定] &gt;[!UICONTROL 群組]</p> </li>
+     <li> <p>[!UICONTROL 設定] &gt;[!UICONTROL 群組] &gt;[!UICONTROL 選取父群組] &gt;[!UICONTROL 子群組] </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>團隊清單</td> 
    <td> 
     <ul> 
-     <li> <p>[！UICONTROL設定] &gt;[！UICONTROL團隊]</p> </li> 
+     <li> <p>[!UICONTROL 設定] &gt;[!UICONTROL 團隊]</p> </li> 
     </ul> </td> 
   </tr>
   <tr> 
    <td>公司清單</td> 
    <td> 
     <ul> 
-     <li> <p>[！UICONTROL設定] &gt;[！UICONTROL公司]</p> </li> 
+     <li> <p>[!UICONTROL 設定] &gt;[!UICONTROL 公司]</p> </li> 
     </ul> </td> 
   </tr>
   <tr> 
    <td>排程清單</td> 
    <td> 
     <ul> 
-     <li> <p>[！UICONTROL設定] &gt;[！UICONTROL排程]</p> </li> 
+     <li> <p>[!UICONTROL 設定] &gt;[!UICONTROL 排程]</p> </li> 
     </ul> </td> 
   </tr>
   <tr> 
    <td>版面配置範本清單</td> 
    <td> 
     <ul> 
-     <li> <p>[！UICONTROL安裝程式] &gt;[！UICONTROL配置範本]</p> </li> 
+     <li> <p>[!UICONTROL 安裝程式] &gt;[!UICONTROL 配置範本]</p> </li> 
     </ul> </td> 
   </tr>
  </tbody> 
@@ -309,15 +309,15 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
  </thead> 
  <tbody> 
   <tr> 
-   <td><strong>[！UICONTROL篩選器]</strong></td> 
+   <td><strong>[!UICONTROL 篩選器]</strong></td> 
    <td> <p>篩選器會根據您指定的條件，將不必要的資訊排除在清單之外。 </p> <p>如需詳細資訊，請參閱<a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">篩選器總覽</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>[！UICONTROL檢視]</strong></td> 
+   <td><strong>[!UICONTROL 檢視]</strong></td> 
    <td> <p>檢視會定義要在熒幕上顯示的欄位（欄）。</p> <p>如需詳細資訊，請參閱<a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">中的[!DNL Adobe Workfront]</a>檢視總覽。</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>[！UICONTROL群組]</strong></td> 
+   <td><strong>[!UICONTROL 群組]</strong></td> 
    <td> <p>群組會根據您指定的條件，將清單中的物件區分為不同的區域。</p> <p>例如，清單中的問題可依狀態或優先順序顯示在區段中。</p> <p>在標準群組中最多可以有三層群組，如果您在文字模式中配置群組，則可以新增第四層。</p> <p>如需群組的詳細資訊，請參閱<a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">中的[!DNL Adobe Workfront]</a>群組概觀。</p> <p>如需文字模式的詳細資訊，請參閱<a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">文字模式概觀</a>。</p> </td> 
   </tr> 
  </tbody> 
@@ -359,8 +359,8 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
 </td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-   <td><strong>更新為[！UICONTROL摘要]</strong> </td> 
-   <td> <p>使用[！UICONTROL摘要]面板更新專案層級的任務和問題。</p> <p><b>秘訣：</b></p> <p>摘要並非適用於所有物件，也不適用於「任務」或「問題」報告。</p> <p>如需詳細資訊，請參閱<a href="../../../workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">摘要概觀</a>。</p> </td> 
+   <td><strong>更新為[!UICONTROL 摘要]</strong> </td> 
+   <td> <p>使用[!UICONTROL 摘要]面板更新專案層級的任務和問題。</p> <p><b>秘訣：</b></p> <p>摘要並非適用於所有物件，也不適用於「任務」或「問題」報告。</p> <p>如需詳細資訊，請參閱<a href="../../../workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">摘要概觀</a>。</p> </td> 
   </tr> 
   <tr> 
    <td><strong>自訂清單顯示</strong> </td> 
@@ -393,107 +393,107 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
   </tr> 
   <tr> 
    <td> <img src="assets/add-icon-plus-in-circle.png"> </td> 
-   <td>[！UICONTROL新增專案或使用者]</td> 
+   <td>[!UICONTROL 新增專案或使用者]</td> 
    <td>開啟更多選項，包括新增專案或使用者。</td> 
   </tr> 
   <tr> 
    <td> <img src="assets/qs-insert-task-above-icon-in-new-toolbar.png"> </td> 
-   <td>[！UICONTROL在上方插入任務]</td> 
+   <td>[!UICONTROL 在上方插入任務]</td> 
    <td> <p>在選取的工作上方插入工作。</p> <p>這僅適用於任務。 </p> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/qs-insert-task-below-icon-in-new-toolbar.png"> </td> 
-   <td>[！UICONTROL在下方插入任務]</td> 
+   <td>[!UICONTROL 在下方插入任務]</td> 
    <td> <p>在選取的工作下方插入工作。</p> <p>這僅適用於任務。 </p> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/edit-icon.png"> </td> 
-   <td>[！UICONTROL編輯]</td> 
+   <td>[!UICONTROL 編輯]</td> 
    <td>編輯選取的專案。</td> 
   </tr> 
   <tr> 
    <td> <img src="assets/copy-icon.png"> </td> 
-   <td>[！UICONTROL副本]</td> 
+   <td>[!UICONTROL 副本]</td> 
    <td>複製選取的專案。</td> 
   </tr> 
   <tr> 
    <td> <img src="assets/delete.png"> </td> 
-   <td>[！UICONTROL Delete]</td> 
+   <td>[!UICONTROL Delete]</td> 
    <td>刪除選取的專案。</td> 
   </tr> 
   <tr> 
    <td> <img src="assets/qs-add-to-iteration-icon-in-new-toolbar-for-issues.png"> </td> 
-   <td>[！UICONTROL新增至]</td> 
+   <td>[!UICONTROL 新增至]</td> 
    <td> <p>開啟對話方塊，將選取的問題新增至反複專案。</p> <p>這僅適用於問題。</p> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/share-icon.png"> </td> 
-   <td>[！UICONTROL Share]</td> 
+   <td>[!UICONTROL Share]</td> 
    <td>共用選取的專案。</td> 
   </tr> 
   <tr> 
    <td> <img src="assets/qs-indent-outdent-tasks-icon-in-new-toolbar.png"> </td> 
-   <td>[！UICONTROL縮排和凸排任務] </td> 
+   <td>[!UICONTROL 縮排和凸排任務] </td> 
    <td> <p>縮排或縮排選取的工作。 </p> <p>這僅適用於任務。 </p> </td> 
   </tr> 
   <tr> 
    <td><img src="assets/more-icon.png"></a> </td> 
-   <td>[！UICONTROL更多]</td> 
+   <td>[!UICONTROL 更多]</td> 
    <td>開啟所選專案的其他選項。</td> 
   </tr> 
   <tr> 
    <td> <p> <img src="assets/search-icon.png"> </p> </td> 
-   <td> <p>[！UICONTROL快速篩選] </p> </td> 
+   <td> <p>[!UICONTROL 快速篩選] </p> </td> 
    <td> <p>開啟快速篩選搜尋方塊，以尋找顯示的清單中的專案。</p> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/export.png"> </td> 
-   <td>[！UICONTROL Export]</td> 
+   <td>[!UICONTROL Export]</td> 
    <td>將清單匯出至PDF、Excel或定位字元分隔的檔案。</td> 
   </tr> 
   <tr> 
    <td> <img src="assets/qs-agile-icon-in-new-toolbar-task-list.png"> </td> 
-   <td>[！UICONTROL敏捷檢視]</td> 
+   <td>[!UICONTROL 敏捷檢視]</td> 
    <td>在敏捷檢視中顯示清單。<br>這僅適用於工作。</td> 
   </tr> 
   <tr> 
    <td> <img src="assets/qs-gantt-chart-icon-in-new-toolbar.png"> </td> 
-   <td>[！UICONTROL甘特圖]</td> 
-   <td> <p>在[！UICONTROL甘特圖]檢視中顯示清單。</p> <p>這僅適用於專案和任務。</p> </td> 
+   <td>[!UICONTROL 甘特圖]</td> 
+   <td> <p>在[!UICONTROL 甘特圖]檢視中顯示清單。</p> <p>這僅適用於專案和任務。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <img src="assets/qs-filter-in-new-toolbar-with-name.png"> <p> <img src="assets/qs-filter-in-new-toolbar-with-blue-dot---small.png"> </p> </td> 
-   <td>[！UICONTROL篩選器]下拉式功能表</td> 
-   <td> <p>顯示篩選器清單以及管理篩選器的其他選項，包括建立篩選器。 </p> <p>在小熒幕上，篩選器名稱會由篩選器圖示取代。 當您套用「[！UICONTROL All]」以外的任何篩選器時，「篩選器」圖示上會顯示一個藍點。</p> </td> 
+   <td>[!UICONTROL 篩選器]下拉式功能表</td> 
+   <td> <p>顯示篩選器清單以及管理篩選器的其他選項，包括建立篩選器。 </p> <p>在小熒幕上，篩選器名稱會由篩選器圖示取代。 當您套用「[!UICONTROL All]」以外的任何篩選器時，「篩選器」圖示上會顯示一個藍點。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <img src="assets/qs-view-in-new-toolbar-with-name.png"> <p> <img src="assets/qs-view-in-new-toolbar-with-blue-dot.png"> </p> </td> 
-   <td>[！UICONTROL檢視]下拉式功能表</td> 
-   <td> <p>顯示檢視清單以及管理檢視的其他選項，包括建立檢視。 </p> <p>在小熒幕上，檢視名稱會由[！UICONTROL檢視]圖示取代。 當您套用「[！UICONTROL標準]」以外的任何檢視時，「[！UICONTROL檢視]」圖示上會顯示一個藍點。</p> </td> 
+   <td>[!UICONTROL 檢視]下拉式功能表</td> 
+   <td> <p>顯示檢視清單以及管理檢視的其他選項，包括建立檢視。 </p> <p>在小熒幕上，檢視名稱會由[!UICONTROL 檢視]圖示取代。 當您套用「[!UICONTROL 標準]」以外的任何檢視時，「[!UICONTROL 檢視]」圖示上會顯示一個藍點。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <img src="assets/qs-grouping-in-new-toolbar-with-name.png"> <p> <img src="assets/qs-grouping-in-new-toolbar-with-blue-dot.png"> </p> </td> 
-   <td>[！UICONTROL Grouping]下拉式功能表</td> 
-   <td> <p>顯示群組清單以及管理群組的其他選項，包括建立群組。 </p> <p>在小熒幕上，群組名稱會被[！UICONTROL群組]圖示取代。 當您套用「[！UICONTROL Nothing]」以外的任何分組時，[！UICONTROL Grouping]圖示上會顯示一個藍點。</p> </td> 
+   <td>[!UICONTROL Grouping]下拉式功能表</td> 
+   <td> <p>顯示群組清單以及管理群組的其他選項，包括建立群組。 </p> <p>在小熒幕上，群組名稱會被[!UICONTROL 群組]圖示取代。 當您套用「[!UICONTROL Nothing]」以外的任何分組時，[!UICONTROL Grouping]圖示上會顯示一個藍點。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <img src="assets/qs-autosave-icon-in-new-toolbar-for-tasks.png"> </td> 
-   <td> <p>[！UICONTROL計畫模式]</p> </td> 
+   <td> <p>[!UICONTROL 計畫模式]</p> </td> 
    <td> <p>選擇您要自動或手動儲存您在工作清單中所做的變更。 </p> <p>如需有關編輯清單中工作的資訊，請參閱<a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md" class="MCXref xref">編輯清單中的工作</a>。 </p> <p>這僅適用於任務。</p> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/summary-panel-icon.png"> </td> 
-   <td>[！UICONTROL摘要]</td> 
-   <td> <p>顯示或隱藏所選專案的[！UICONTROL摘要]方塊。</p> <p>這僅適用於任務和問題。</p> <p>如需[！UICONTROL摘要]面板的相關資訊，請參閱<a href="/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">摘要概觀</a>。</p> </td> 
+   <td>[!UICONTROL 摘要]</td> 
+   <td> <p>顯示或隱藏所選專案的[!UICONTROL 摘要]方塊。</p> <p>這僅適用於任務和問題。</p> <p>如需[!UICONTROL 摘要]面板的相關資訊，請參閱<a href="/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">摘要概觀</a>。</p> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/remove-icon---x-in-circle.png"> </td> 
-   <td>[！UICONTROL移除]</td> 
+   <td>[!UICONTROL 移除]</td> 
    <td>從清單中移除某些專案。 例如，作為管理群組或子群組成員資格的群組管理員，請依照<a href="/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md" class="MCXref xref">檢視和管理群組成員資格</a>中的說明移除群組成員。</td> 
   </tr> 
   <tr> 
    <td> <img src="assets/comment-icon.png"> </td> 
-   <td>[！UICONTROL Comment] /[！UICONTROL Update]</td> 
+   <td>[!UICONTROL Comment] /[!UICONTROL Update]</td> 
    <td> <p>輸入註解或更新。</p> </td> 
   </tr> 
  </tbody> 
@@ -523,7 +523,7 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>只有[!DNL Workfront]管理員和具有[！UICONTROL Plan]授權的使用者可以建立他們</p> </td> 
+   <td> <p>只有[!DNL Workfront]管理員和具有[!UICONTROL Plan]授權的使用者可以建立他們</p> </td> 
    <td> </td> 
    <td>✓**</td> 
   </tr> 

@@ -127,24 +127,24 @@ ht-degree: 0%
     </thead> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL [!DNL Anaplan] Workspace ID]</td> 
+      <td role="rowheader">[!UICONTROL [!DNL Anaplan] Workspace ID]</td> 
       <td>您[!DNL Anaplan]帳戶的工作區識別碼。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL [!DNL Anaplan]模型識別碼] </td> 
+      <td role="rowheader">[!UICONTROL [!DNL Anaplan]模型識別碼] </td> 
       <td>來自您[!DNL Anaplan]帳戶和所選工作區的模型ID。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL [!DNL Anaplan]模組名稱]</td> 
+      <td role="rowheader">[!UICONTROL [!DNL Anaplan]模組名稱]</td> 
       <td>描述所選[!DNL Anaplan]清單中促銷活動屬性的模組名稱。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL促銷活動清單名稱]</td> 
+      <td role="rowheader">[!UICONTROL 促銷活動清單名稱]</td> 
       <td>來自您[!DNL Anaplan]帳戶及所選工作區與模型的清單名稱。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!DNL Anaplan]檢視名稱</td> 
-      <td> <p>檢視的名稱，其中包含可傳送給[!DNL Workfront]的行銷活動預算。</p> <p>（範例： [！UICONTROL Campaigns.Load Campaigns.To [!DNL Adobe Workfront]]） </p> </td> 
+      <td> <p>檢視的名稱，其中包含可傳送給[!DNL Workfront]的行銷活動預算。</p> <p>（範例： [!UICONTROL Campaigns.Load Campaigns.To [!DNL Adobe Workfront]]） </p> </td> 
      </tr> 
     </tbody> 
    </table>

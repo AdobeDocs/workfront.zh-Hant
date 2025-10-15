@@ -77,5 +77,5 @@ ht-degree: 1%
 
    如需詳細資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
-1. 完成時，按一下[編輯]。****
+1. 完成時，按一下[編輯]。**&#x200B;**
 

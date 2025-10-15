@@ -94,4 +94,4 @@ ht-degree: 0%
 1. （選擇性）按一下&#x200B;**[!UICONTROL 在[!DNL Workfront]]**&#x200B;中檢視以移至[!DNL Workfront]中的目前工作專案。
 
 * 如需有關在[!UICONTROL 中使用]更新[!DNL Workfront for Google Workspace]索引標籤的資訊，請參閱[從 [!DNL Adobe Workfront] 更新 [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md)物件。
-* 如需有關在[!UICONTROL 中使用]檔案[!DNL Workfront for Google Workspace]索引標籤的資訊，請參閱[從[！DNL G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-and-manage-documents-in-gsuite.md)檢視及管理檔案。
+* 如需有關在[!UICONTROL 中使用]檔案[!DNL Workfront for Google Workspace]索引標籤的資訊，請參閱[從[!DNL G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-and-manage-documents-in-gsuite.md)檢視及管理檔案。

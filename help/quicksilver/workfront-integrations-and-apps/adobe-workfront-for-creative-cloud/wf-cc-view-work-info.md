@@ -45,7 +45,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[！UICONTROL View]專案、任務或問題的存取權</p>  </td> 
+   <td> <p>[!UICONTROL View]專案、任務或問題的存取權</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 

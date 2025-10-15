@@ -35,17 +35,17 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>[！UICONTROL標準]</p>
-   <p>[！UICONTROL計畫] </p> </td> 
+   <td> <p>[!UICONTROL 標準]</p>
+   <p>[!UICONTROL 計畫] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[！UICONTROL Edit]專案的存取權</p> <p>[！UICONTROL Edit]對投資組合的存取權</p>  </td> 
+   <td> <p>[!UICONTROL Edit]專案的存取權</p> <p>[!UICONTROL Edit]對投資組合的存取權</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>投資組合和專案的[！UICONTROL Manage]許可權以移除專案</p>
-   <p>[！UICONTROL Manage]許可權搭配對專案的[！UICONTROL Delete]存取權，可將專案從投資組合中刪除</p> </td> 
+   <td> <p>投資組合和專案的[!UICONTROL Manage]許可權以移除專案</p>
+   <p>[!UICONTROL Manage]許可權搭配對專案的[!UICONTROL Delete]存取權，可將專案從投資組合中刪除</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -91,6 +91,6 @@ ht-degree: 0%
    ![移除專案按鈕](assets/nwe-remove-projects-button-inside-portfolio-350x141.png)
 
 1. 按一下&#x200B;**[!UICONTROL 移除專案]**。
-1. 按一下&#x200B;**[!UICONTROL 刪除]**&#x200B;從[!DNL Workfront]中刪除專案，或按一下&#x200B;**[!UICONTROL 從Portfolio]**&#x200B;移除&#x200B;****&#x200B;以從選取的Portfolio中移除專案。
+1. 按一下&#x200B;**[!UICONTROL 刪除]**&#x200B;從[!DNL Workfront]中刪除專案，或按一下&#x200B;**[!UICONTROL 從Portfolio]**&#x200B;移除&#x200B;**&#x200B;**&#x200B;以從選取的Portfolio中移除專案。
 
 1. （選擇性和條件性）尋找您從投資組合中移除的專案，並將其與其他投資組合建立關聯。 如需將專案與投資組合建立關聯的資訊，請參閱[將專案新增至投資組合](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)。

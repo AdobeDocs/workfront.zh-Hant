@@ -37,23 +37,23 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 授權</p> </td> 
-   <td><p>[！UICONTROL計畫]</p>
-   <p>[！UICONTROL標準]</p>
+   <td><p>[!UICONTROL 計畫]</p>
+   <p>[!UICONTROL 標準]</p>
    </td> 
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
    <td> <p>您必須具備下列其中一項：</p> 
     <ul> 
-     <li> <p>[！UICONTROL系統管理員]存取層級，可讓您編輯系統中的任何公司。</p> </li> 
+     <li> <p>[!UICONTROL 系統管理員]存取層級，可讓您編輯系統中的任何公司。</p> </li> 
      <li> <p>管理公司的管理存取權，可讓您編輯系統中的任何公司。</p> </li> 
     </ul> <p><b>附註</b>：  
      <ul> 
       <li> <p>您也可以管理與您被指派為群組管理員的任何群組相關聯的公司。</p> </li> 
       <li> <p>若要從[!DNL Workfront]系統中新增和移除使用者，您必須具備下列其中一項：</p> 
        <ul> 
-        <li> <p>[！UICONTROL系統管理員]存取層級。 </p> </li> 
-        <li> <p>您的存取層級中的<b>[！UICONTROL Users]</b>設定已設定為<b>[！UICONTROL Edit]</b>存取，且<b>[！UICONTROL Create]</b>以及在<b>[！UICONTROL Fine-tune your settings]</b> <b>下啟用的兩個</b>[！UICONTROL User Admin]<img src="assets/gear-icon-in-access-levels.png">選項中的至少一個選項。 </p> <p> <img src="assets/access-req-users.png"> </p> <p>在這兩個選項中，如果已啟用<b>[！UICONTROL User Admin (Group Users)]</b>，您必須是使用者所屬群組的群組管理員。</p> </li> 
+        <li> <p>[!UICONTROL 系統管理員]存取層級。 </p> </li> 
+        <li> <p>您的存取層級中的<b>[!UICONTROL Users]</b>設定已設定為<b>[!UICONTROL Edit]</b>存取，且<b>[!UICONTROL Create]</b>以及在<b>[!UICONTROL Fine-tune your settings]</b> <b>下啟用的兩個</b>[!UICONTROL User Admin]<img src="assets/gear-icon-in-access-levels.png">選項中的至少一個選項。 </p> <p> <img src="assets/access-req-users.png"> </p> <p>在這兩個選項中，如果已啟用<b>[!UICONTROL User Admin (Group Users)]</b>，您必須是使用者所屬群組的群組管理員。</p> </li> 
        </ul>
        </li> 
      </ul> </p> </td> 
@@ -95,7 +95,7 @@ ht-degree: 0%
 
    公司清單隨即顯示。
 
-1. 如果您正在新增公司，請按一下[新增公司]。****
+1. 如果您正在新增公司，請按一下[新增公司]。**&#x200B;**
 
    或
 
@@ -108,18 +108,18 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL基本資訊]區段</td> 
+      <td role="rowheader">[!UICONTROL 基本資訊]區段</td> 
       <td> 
        <ul> 
-        <li> <p><b>[！UICONTROL公司名稱]</b>：輸入公司的名稱。</p> </li> 
-        <li> <p><b>[！UICONTROL作用中]</b>：啟用此選項時，使用者可以找到公司並將其附加至建立和編輯的專案。 非作用中的公司無法附加到專案。 此選項預設為啟用。</p> </li> 
-        <li> <p><b>[！UICONTROL這是主要公司]</b>：將公司指派為您組織的主要公司。 主要公司通常代表您的[!DNL Workfront]帳戶，您大部分的使用者都在此工作。</p> <p>您可以將一家公司或沒有公司指定為主要公司，但不得將多家公司指定為主要公司。 如需詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> <p><b>注意</b>：透過修改其存取層級，您可以限制使用者檢視其他使用者：僅在其主要公司中，或在其關聯的公司和主要公司中。 如需主要公司如何處理使用者存取層級的資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </li> 
-        <li> <p><b>[！UICONTROL群組]</b>：如果有一個群組與公司有業務往來，您可以在此處新增該群組的名稱。 這對於需要報告和管理其群組業務所在的所有公司的群組管理員非常有用。</p> <p><b>重要</b>：如果您未與將與此公司合作的群組建立關聯，群組的系統管理員無法存取公司，除非他們擁有其存取層級中公司的管理存取權。 如需如何授與此存取權的資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授與使用者對特定區域的管理存取權</a>。</p> <p data-mc-conditions="SnippetConditions-wf-groups.system-level">開始輸入群組名稱，然後按下<strong>[！UICONTROL Enter]</strong>鍵。</p> <p data-mc-conditions="SnippetConditions-wf-groups.system-level">將群組指派給公司時，該群組的群組管理員會獲得[！UICONTROL管理]公司存取權。 如需詳細資訊，請參閱本文中的<a href="#group-administrators-and-companies" class="MCXref xref">群組管理員和公司</a>。</p> </li> 
-        <li> <p><b>[！UICONTROL公司成員]</b>：新增現有使用者到公司。 透過這樣做，您可將這些使用者與此公司建立關聯。</p> <p>您與一個公司建立關聯的使用者數量沒有限制，但一個使用者不能與多個公司建立關聯。</p> </li> 
+        <li> <p><b>[!UICONTROL 公司名稱]</b>：輸入公司的名稱。</p> </li> 
+        <li> <p><b>[!UICONTROL 作用中]</b>：啟用此選項時，使用者可以找到公司並將其附加至建立和編輯的專案。 非作用中的公司無法附加到專案。 此選項預設為啟用。</p> </li> 
+        <li> <p><b>[!UICONTROL 這是主要公司]</b>：將公司指派為您組織的主要公司。 主要公司通常代表您的[!DNL Workfront]帳戶，您大部分的使用者都在此工作。</p> <p>您可以將一家公司或沒有公司指定為主要公司，但不得將多家公司指定為主要公司。 如需詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> <p><b>注意</b>：透過修改其存取層級，您可以限制使用者檢視其他使用者：僅在其主要公司中，或在其關聯的公司和主要公司中。 如需主要公司如何處理使用者存取層級的資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </li> 
+        <li> <p><b>[!UICONTROL 群組]</b>：如果有一個群組與公司有業務往來，您可以在此處新增該群組的名稱。 這對於需要報告和管理其群組業務所在的所有公司的群組管理員非常有用。</p> <p><b>重要</b>：如果您未與將與此公司合作的群組建立關聯，群組的系統管理員無法存取公司，除非他們擁有其存取層級中公司的管理存取權。 如需如何授與此存取權的資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授與使用者對特定區域的管理存取權</a>。</p> <p data-mc-conditions="SnippetConditions-wf-groups.system-level">開始輸入群組名稱，然後按下<strong>[!UICONTROL Enter]</strong>鍵。</p> <p data-mc-conditions="SnippetConditions-wf-groups.system-level">將群組指派給公司時，該群組的群組管理員會獲得[!UICONTROL 管理]公司存取權。 如需詳細資訊，請參閱本文中的<a href="#group-administrators-and-companies" class="MCXref xref">群組管理員和公司</a>。</p> </li> 
+        <li> <p><b>[!UICONTROL 公司成員]</b>：新增現有使用者到公司。 透過這樣做，您可將這些使用者與此公司建立關聯。</p> <p>您與一個公司建立關聯的使用者數量沒有限制，但一個使用者不能與多個公司建立關聯。</p> </li> 
        </ul> </td> 
      </tr>
      <tr> 
-      <td role="rowheader">[！UICONTROL自訂Forms]區段</td> 
+      <td role="rowheader">[!UICONTROL 自訂Forms]區段</td> 
       <td> <p>如果有些欄位未在[!DNL Workfront]中提供，而您想要新增到貴公司，您可以建立自訂表格，並將其與貴公司建立關聯。 </p> <p>您可以從下拉式選單中選取此表單，以將其附加至您的公司。 只有作用中的自訂表單會列在功能表中。</p> <p><strong>注意：</strong>進階自訂表單功能，例如外部查詢欄位和Workfront原生欄位，只有在您於詳細資訊頁面開啟公司記錄時，才可使用，而不是在[編輯公司]對話方塊中。 （從公司清單中，按一下公司名稱以開啟詳細資訊。）</p> <p> 如需建立自訂表單的相關資訊，請參閱<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">建立自訂表單</a>。 </p> </td>
      </tr> 
     </tbody> 
@@ -129,7 +129,7 @@ ht-degree: 0%
 
    或
 
-   如果您正在編輯現有的公司，請按一下[儲存變更]。****
+   如果您正在編輯現有的公司，請按一下[儲存變更]。**&#x200B;**
 
 ## 管理公司成員資格
 

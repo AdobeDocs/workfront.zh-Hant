@@ -64,7 +64,7 @@ ht-degree: 0%
 * 您必須手動前往需要業務案例核准的個別專案，以檢視他們處於未決核准。 沒有Workfront通知機制會提醒某人他們必須核准專案的業務案例。
 * 您可以透過建立專案報告或存取與其相關聯的投資組合，找到等待業務案例核准的專案。
 
-  如需關於產品組合的詳細資訊，請參閱文章[ Adobe Workfront中的Portfolio概觀](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)。
+  如需關於產品組合的詳細資訊，請參閱文章[&#x200B; Adobe Workfront中的Portfolio概觀](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)。
 
 ## 建立專案報告以核准業務案例
 

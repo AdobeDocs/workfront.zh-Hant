@@ -53,11 +53,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[！UICONTROL檢視]清單所在區域的存取權</p> <p>例如，若要修改專案的檢視，您需要[！UICONTROL檢視]專案的存取權。</p></td> 
+   <td> <p>[!UICONTROL 檢視]清單所在區域的存取權</p> <p>例如，若要修改專案的檢視，您需要[!UICONTROL 檢視]專案的存取權。</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>[！UICONTROL檢視]或套用至清單之檢視的更高許可權</p>  </td> 
+   <td> <p>[!UICONTROL 檢視]或套用至清單之檢視的更高許可權</p>  </td> 
   </tr> 
  </tbody> 
 </table>

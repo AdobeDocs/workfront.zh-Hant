@@ -74,8 +74,8 @@ ht-degree: 2%
 下列子節說明如何為您的[!DNL Workfront]生產環境安裝[!DNL Salesforce]。 您可以依照相同的步驟為[!DNL Workfront]沙箱環境安裝[!DNL Salesforce]。
 
 * [正在安裝 [!DNL Workfront for Salesforce] ，使其可於 [!DNL AppExchange] 市集使用](#installing-workfront-for-salesforce-before-it-becomes-available-in-the-appexchange-marketplace)
-* [正在安裝 [!DNL Workfront for Salesforce] 架構中的 [!DNL Salesforce Classic] ](#installing-workfront-for-salesforce-in-the-salesforce-classic-framework)
-* [正在安裝 [!DNL Workfront for Salesforce] 架構中的 [!DNL Salesforce Lightning Experience] ](#installing-workfront-for-salesforce-in-the-salesforce-lightning-experience-framework)
+* [正在安裝 [!DNL Workfront for Salesforce] 架構中的 [!DNL Salesforce Classic] &#x200B;](#installing-workfront-for-salesforce-in-the-salesforce-classic-framework)
+* [正在安裝 [!DNL Workfront for Salesforce] 架構中的 [!DNL Salesforce Lightning Experience] &#x200B;](#installing-workfront-for-salesforce-in-the-salesforce-lightning-experience-framework)
 
 ### 正在安裝[!DNL Workfront for Salesforce]，它才能在[!DNL AppExchange]市集中使用 {#installing-workfront-for-salesforce-before-it-becomes-available-in-the-appexchange-marketplace}
 
@@ -131,13 +131,13 @@ ht-degree: 2%
 
 1. 在&#x200B;**搜尋AppExchange應用程式**&#x200B;方塊中，輸入&#x200B;**Workfront**。
 
-1. 找到時，請按一下Workfront應用程式，然後按一下[立即取得]**。**
-1. 按一下[在生產環境中安裝] ****，在您的[!DNL Workfront]生產環境中安裝[!DNL Salesforce]應用程式。 (建議)
+1. 找到時，請按一下Workfront應用程式，然後按一下[立即取得]&#x200B;**。**
+1. 按一下[在生產環境中安裝] **&#x200B;**，在您的[!DNL Workfront]生產環境中安裝[!DNL Salesforce]應用程式。 (建議)
 1. 在您閱讀並同意條款與條件後，請啟用&#x200B;**[!UICONTROL 我已閱讀並同意條款與條件]**&#x200B;欄位。
 1. 按一下&#x200B;**[!UICONTROL 確認並安裝]**。
-1. 選取[為所有使用者安裝]**** （建議使用），然後按一下[安裝]****。
+1. 選取[為所有使用者安裝]&#x200B;**&#x200B;** （建議使用），然後按一下[安裝]&#x200B;**&#x200B;**。
 
-1. （視條件而定）若詢問您是否要核准第三方存取權，您必須選取[是]，授與這些第三方網站的存取權&#x200B;**[!UICONTROL ，然後按一下[繼續]]****[!UICONTROL 。]**
+1. （視條件而定）若詢問您是否要核准第三方存取權，您必須選取[是]，授與這些第三方網站的存取權&#x200B;**[!UICONTROL ，然後按一下[繼續]]**&#x200B;**[!UICONTROL 。]**
 
 1. 安裝完成時，按一下&#x200B;**[!UICONTROL 完成]**。
 
@@ -168,7 +168,7 @@ ht-degree: 2%
 1. 按一下「**[!DNL AppExchange Marketplace]**」。
 1. 在&#x200B;**[!UICONTROL 搜尋[!DNL AppExchange]應用程式]**&#x200B;方塊中，輸入&#x200B;**[!DNL Workfront]**。
 
-1. 找到時，請按一下Workfront應用程式，然後按一下[立即取得]**。**
+1. 找到時，請按一下Workfront應用程式，然後按一下[立即取得]&#x200B;**。**
 1. 按一下&#x200B;**[!UICONTROL 開啟登入畫面]**。\
    您必須使用[!DNL Workfront]的[!DNL Salesforce]系統管理員帳戶登入。
 
@@ -177,9 +177,9 @@ ht-degree: 2%
 
 1. 在您閱讀並同意條款與條件後，請啟用&#x200B;**[!UICONTROL 我已閱讀並同意條款與條件]**&#x200B;欄位。
 1. 按一下&#x200B;**[!UICONTROL 確認並安裝]**。
-1. 選取[為所有使用者安裝]**** （建議使用），然後按一下[安裝]****。
+1. 選取[為所有使用者安裝]&#x200B;**&#x200B;** （建議使用），然後按一下[安裝]&#x200B;**&#x200B;**。
 
-1. （視條件而定）若詢問您是否要核准第三方存取權，您必須選取[是]，授與這些第三方網站的存取權&#x200B;**[!UICONTROL ，然後按一下[繼續]]****[!UICONTROL 。]**
+1. （視條件而定）若詢問您是否要核准第三方存取權，您必須選取[是]，授與這些第三方網站的存取權&#x200B;**[!UICONTROL ，然後按一下[繼續]]**&#x200B;**[!UICONTROL 。]**
 
 1. 安裝完成時，按一下&#x200B;**[!UICONTROL 完成]**。
 

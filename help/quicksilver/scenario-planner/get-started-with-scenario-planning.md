@@ -16,7 +16,7 @@ ht-degree: 0%
 
 您可以使用[!DNL Adobe Workfront Scenario Planner]來建置概括貴公司整體策略成果的企業層級計畫。 您可以為計畫定義數個方案，並將其置於各種情境中，以找出執行計畫的最佳解決方案。
 
-如需[!DNL Workfront Scenario Planner]的高階概觀，請參閱[ [!DNL Scenario Planner] 概觀](../scenario-planner/scenario-planner-overview.md)。
+如需[!DNL Workfront Scenario Planner]的高階概觀，請參閱[&#x200B; [!DNL Scenario Planner] 概觀](../scenario-planner/scenario-planner-overview.md)。
 
 
 ## 使用[!DNL Workfront Scenario Planner]的方法

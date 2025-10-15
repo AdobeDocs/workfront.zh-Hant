@@ -57,19 +57,19 @@ ht-degree: 3%
    <td><strong>篩選按鈕</strong></td> 
   </tr> 
   <tr> 
-   <td> <p>[！UICONTROL專案] </p> </td> 
+   <td> <p>[!UICONTROL 專案] </p> </td> 
    <td> 
     <ul> 
-     <li> <p>[！UICONTROL我所在的專案]</p> </li> 
-     <li> <p>[！UICONTROL我擁有的專案]</p> </li> 
+     <li> <p>[!UICONTROL 我所在的專案]</p> </li> 
+     <li> <p>[!UICONTROL 我擁有的專案]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td><span>[！UICONTROL時程表]</span> </td> 
+   <td><span>[!UICONTROL 時程表]</span> </td> 
    <td> 
     <ul> 
-     <li> <p><span>[！UICONTROL我的時程表核准]</span> </p> </li> 
-     <li> <p><span>[！UICONTROL我的時程表]</span> </p> </li> 
+     <li> <p><span>[!UICONTROL 我的時程表核准]</span> </p> </li> 
+     <li> <p><span>[!UICONTROL 我的時程表]</span> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

@@ -38,16 +38,16 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 授權</p> </td> 
-   <td> <p>[！UICONTROL Light]或更高</p> 
-   <p>[！UICONTROL Review]或更高版本</p> </td> 
+   <td> <p>[!UICONTROL Light]或更高</p> 
+   <p>[!UICONTROL Review]或更高版本</p> </td> 
   </tr> 
     <tr> 
    <td>存取層級設定</td> 
-   <td> <p>[！UICONTROL Edit]對的存取權 [!DNL Scenario Planner]</p> </td> 
+   <td> <p>[!UICONTROL Edit]對的存取權 [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr> 
    <td> <p>物件許可權 </p> </td> 
-   <td> <p>[！UICONTROL Manage]計畫的許可權</p> </td> 
+   <td> <p>[!UICONTROL Manage]計畫的許可權</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -159,7 +159,7 @@ ht-degree: 1%
     <tbody> 
      <tr> 
       <td>情境的名稱</td> 
-      <td> <p>Workfront自動產生的名稱，無法編輯。 例如，「[！UICONTROL初始情境]」、「[！UICONTROL情境2]」等。 </p> </td> 
+      <td> <p>Workfront自動產生的名稱，無法編輯。 例如，「[!UICONTROL 初始情境]」、「[!UICONTROL 情境2]」等。 </p> </td> 
      </tr> 
      <tr> 
       <td>案例說明</td> 
@@ -183,11 +183,11 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td>使用情況</td> 
-      <td>此情境中計畫的[！UICONTROL預算使用率]百分比。 如需[！UICONTROL預算使用率]百分比的相關資訊，請參閱<a href="../scenario-planner/plans-overview.md" class="MCXref xref">中的[!DNL Scenario Planner]</a>計畫總覽。 </td> 
+      <td>此情境中計畫的[!UICONTROL 預算使用率]百分比。 如需[!UICONTROL 預算使用率]百分比的相關資訊，請參閱<a href="../scenario-planner/plans-overview.md" class="MCXref xref">中的[!DNL Scenario Planner]</a>計畫總覽。 </td> 
      </tr> 
      <tr> 
       <td>淨值</td> 
-      <td>此情境中計畫的[！UICONTROL淨值]。 如需有關計畫的[！UICONTROL淨值]的資訊，請參閱<a href="../scenario-planner/plans-overview.md" class="MCXref xref">中的[!DNL Scenario Planner]</a>計畫總覽。 </td> 
+      <td>此情境中計畫的[!UICONTROL 淨值]。 如需有關計畫的[!UICONTROL 淨值]的資訊，請參閱<a href="../scenario-planner/plans-overview.md" class="MCXref xref">中的[!DNL Scenario Planner]</a>計畫總覽。 </td> 
      </tr> 
      <tr> 
       <td>方案</td> 

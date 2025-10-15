@@ -37,12 +37,12 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td><p>[！UICONTROL標準]</p>
-       <p>[！UICONTROL計畫]</p></td>
+   <td><p>[!UICONTROL 標準]</p>
+       <p>[!UICONTROL 計畫]</p></td>
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
-   <td>[！UICONTROL系統管理員]</td> 
+   <td>[!UICONTROL 系統管理員]</td> 
   </tr> 
  </tbody> 
 </table>
@@ -97,7 +97,7 @@ ht-degree: 4%
 
    **[!UICONTROL 編輯費用型別]**&#x200B;對話方塊就會顯示。
 
-1. 進行您想要的變更，然後按一下[儲存]。****
+1. 進行您想要的變更，然後按一下[儲存]。**&#x200B;**
 
    使用者現在可以使用此費用型別，將其與其在專案和任務上的費用建立關聯。
 

@@ -44,7 +44,7 @@ ht-degree: 7%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>存取層級設定</strong></td> 
-   <td> <p>[！UICONTROL編輯]對任務和問題的存取權</p> </td> 
+   <td> <p>[!UICONTROL 編輯]對任務和問題的存取權</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
@@ -148,7 +148,7 @@ You can view updates on any work item in the [!UICONTROL Work List]:
 1. 按一下右上角的&#x200B;**[!UICONTROL 主功能表]** ![主功能表圖示](assets/main-menu-icon.png)，或左上角的&#x200B;**主功能表** ![主功能表行圖示](assets/lines-main-menu.png) （如果有的話），然後按一下&#x200B;**[!UICONTROL 首頁]**。
 1. （視條件而定）按一下&#x200B;**自訂**&#x200B;以新增&#x200B;**我的工作** Widget。
 
-1. 將滑鼠停留在工作專案上，然後按一下&#x200B;**摘要**圖示。
+1. 將滑鼠停留在工作專案上，然後按一下&#x200B;**摘要**&#x200B;圖示。
    ![開啟摘要](assets/open-summary-new-home.png)
 
 1. 在「摘要」面板中，暫留在您要編輯的欄位上。

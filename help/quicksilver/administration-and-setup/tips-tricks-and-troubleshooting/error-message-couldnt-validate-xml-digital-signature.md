@@ -47,7 +47,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
-   <td>[！UICONTROL系統管理員]</td> 
+   <td>[!UICONTROL 系統管理員]</td> 
   </tr> 
  </tbody> 
 </table>
@@ -70,7 +70,7 @@ ht-degree: 2%
 1. 用滑鼠右鍵按一下&#x200B;**[!UICONTROL 信賴方信任]**，然後選取&#x200B;**[!UICONTROL 內容]**。
 
 1. 按一下&#x200B;**[!UICONTROL 簽章]**&#x200B;標籤。
-1. 按一下簽署憑證的名稱，然後按一下[檢視]。****
+1. 按一下簽署憑證的名稱，然後按一下[檢視]。**&#x200B;**
 1. 按一下[複製到&#x200B;**[!UICONTROL 檔案]**...]，然後選取&#x200B;**[!UICONTROL 下一步]**。
 
 1. 選取&#x200B;**[!UICONTROL Base-64編碼的x.509 (CER)]**，然後按一下&#x200B;**[!UICONTROL 下一步]**。

@@ -88,23 +88,23 @@ ht-degree: 1%
     <tbody> 
      <tr> 
       <td>任務或問題</td> 
-      <td><strong>[！UICONTROL核准]</strong>它，<strong>[！UICONTROL拒絕]</strong>它，<strong>[！UICONTROL授予]</strong>存取它，<strong>[！UICONTROL忽略]</strong>存取它的要求，<strong>[！UICONTROL處理它]</strong>，或按一下選項以表示您有<strong>[！UICONTROL完成]</strong></td> 
+      <td><strong>[!UICONTROL 核准]</strong>它，<strong>[!UICONTROL 拒絕]</strong>它，<strong>[!UICONTROL 授予]</strong>存取它，<strong>[!UICONTROL 忽略]</strong>存取它的要求，<strong>[!UICONTROL 處理它]</strong>，或按一下選項以表示您有<strong>[!UICONTROL 完成]</strong></td> 
      </tr> 
      <tr> 
       <td>專案</td> 
-      <td><strong>[！UICONTROL核准]</strong>它，<strong>[！UICONTROL拒絕]</strong>它，<strong>[！UICONTROL授予]</strong>存取它或<strong>[！UICONTROL忽略]</strong>存取它的要求</td> 
+      <td><strong>[!UICONTROL 核准]</strong>它，<strong>[!UICONTROL 拒絕]</strong>它，<strong>[!UICONTROL 授予]</strong>存取它或<strong>[!UICONTROL 忽略]</strong>存取它的要求</td> 
      </tr> 
      <tr> 
       <td>文件</td> 
-      <td><strong>[！UICONTROL核准]</strong>它，<strong>[！UICONTROL拒絕]</strong>它，<strong>[！UICONTROL授予]</strong>存取它或<strong>[！UICONTROL忽略]</strong>存取它的要求</td> 
+      <td><strong>[!UICONTROL 核准]</strong>它，<strong>[!UICONTROL 拒絕]</strong>它，<strong>[!UICONTROL 授予]</strong>存取它或<strong>[!UICONTROL 忽略]</strong>存取它的要求</td> 
      </tr> 
      <tr> 
       <td>更新 </td> 
-      <td> <p>檢視專案更新完整清單的任何部分，讓您的內容需要<strong>[！UICONTROL Post]</strong>新的更新或<strong>[！UICONTROL回覆]</strong>。 您可以按一下<strong>[！UICONTROL Notify]</strong>，提醒特定使用者您的回覆。 </p> <p>如需詳細資訊，請參閱<a href="../../workfront-integrations-and-apps/workfront-for-g-suite/reply-to-wf-update-notification-from-gsuite.md" class="MCXref xref">回覆[!DNL Adobe Workfront]的[!DNL Google Workspace]</a>更新通知。</p> </td> 
+      <td> <p>檢視專案更新完整清單的任何部分，讓您的內容需要<strong>[!UICONTROL Post]</strong>新的更新或<strong>[!UICONTROL 回覆]</strong>。 您可以按一下<strong>[!UICONTROL Notify]</strong>，提醒特定使用者您的回覆。 </p> <p>如需詳細資訊，請參閱<a href="../../workfront-integrations-and-apps/workfront-for-g-suite/reply-to-wf-update-notification-from-gsuite.md" class="MCXref xref">回覆[!DNL Adobe Workfront]的[!DNL Google Workspace]</a>更新通知。</p> </td> 
      </tr> 
      <tr> 
       <td>核准請求</td> 
-      <td><strong>[！UICONTROL核准]</strong>或<strong>[！UICONTROL拒絕]</strong>它（您可以按一下其他選項來改變您的想法）、下載、檢視其擁有者或檢視其參考號碼</td> 
+      <td><strong>[!UICONTROL 核准]</strong>或<strong>[!UICONTROL 拒絕]</strong>它（您可以按一下其他選項來改變您的想法）、下載、檢視其擁有者或檢視其參考號碼</td> 
      </tr> 
      <tr> 
       <td>專案狀態的變更</td> 

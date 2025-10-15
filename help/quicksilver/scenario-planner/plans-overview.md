@@ -55,7 +55,7 @@ ht-degree: 0%
 * 最短計畫可持續1年。 最長計畫的期限可以為5年。
 * 您不能對計畫進行實際工作。 您可以粗略估計您是否有開始計畫工作所需的資源和預算。 例如，如果貴公司想要擴張並在新地點收購新辦公室，首先需要在上層管理層的計畫中概述完成該工作的步驟。
 * 您可以為同一個計畫建立多個情境。 當原始計畫含有太多衝突方案時，您會想要建立數個案例，讓您編輯方案或預算與成本，以瞭解達成計畫的理想狀況。 行動方案在相同的時間範圍內嘗試使用相同的資源時，可能會相互衝突。 接著，您可以比較情境，瞭解最合理的情境，以及貴公司應採用哪一種情境，之後再開始新增實際工作以達成目標。 如需有關建立情境的資訊，請參閱文章[在 [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md)中建立和比較計畫情境。
-* 您可以將多個方案新增至計畫，以指示較小的規劃單位將如何對計畫的完成作出貢獻。 例如，當您計畫擴展至特定市場時，您可以在部門層級擁有多個方案，這些方案最終有助於在組織的各個層級完成擴展。 如需有關建立方案的資訊，請參閱文章[  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md)中的建立和編輯方案。
+* 您可以將多個方案新增至計畫，以指示較小的規劃單位將如何對計畫的完成作出貢獻。 例如，當您計畫擴展至特定市場時，您可以在部門層級擁有多個方案，這些方案最終有助於在組織的各個層級完成擴展。 如需有關建立方案的資訊，請參閱文章[&#x200B;  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md)中的建立和編輯方案。
 * 當您建立計畫時，您是唯一可檢視該計畫的人。 您必須與其他使用者一起計畫，而且如果他們在其存取層級中至少具有[!DNL Scenario Planner]的檢視存取權，則他們可以存取該計畫。
 
 ## 計畫的職務角色資訊
@@ -87,11 +87,11 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p role="rowheader">[！UICONTROL預算] </p> <p role="rowheader"> </p> </td> 
+   <td role="rowheader"> <p role="rowheader">[!UICONTROL 預算] </p> <p role="rowheader"> </p> </td> 
    <td>這是貴公司決定可用於執行計畫的貨幣金額。 Workfront會在計畫期間為每個月平均分配預算。 預算通常設定為一年，但也可能會設定為3或5年的期間。 「財務」方塊標題左方括弧內的貨幣表示系統的貨幣。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL成本]</td> 
+   <td role="rowheader">[!UICONTROL 成本]</td> 
    <td> <p>這是來自計畫上所有方案的成本總額。 Workfront會使用下列公式計算計畫的「成本」：</p> <p><code>Plan Costs = SUM(Initiative Costs)</code> </p> <p>如需如何計算方案成本的詳細資訊，請參閱<a href="../scenario-planner/create-and-edit-initiatives.md" class="MCXref xref">在[!DNL Scenario Planner]</a>中建立和編輯方案。 </p> </td> 
   </tr> 
   <tr> 
@@ -99,7 +99,7 @@ ht-degree: 0%
    <td> <p>這是與方案相關的成本與為計畫定義的預算之間的計算百分比。 </p> <p>[!DNL Workfront] 使用下列公式計算計畫的預算使用率百分比： </p> <p><code>Utilization percentage = (Plan Costs* 100))/ Plan Budget</code> </p> <p>成本的計算公式如下：</p> <p><code>Plan Costs = SUM(Initiatives People Costs, Initiatives Fixed Costs)</code> </p> <p>提示：「使用率」百分比會四捨五入並有一個小數。 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p role="rowheader">[！UICONTROL摘要]方塊中的[！UICONTROL淨值]區域<span></span></p> <p role="rowheader"> </p> </td> 
+   <td role="rowheader"> <p role="rowheader">[!UICONTROL 摘要]方塊中的[!UICONTROL 淨值]區域<span></span></p> <p role="rowheader"> </p> </td> 
    <td> <p>這是計畫中所有方案的所有「淨值」的計算。 </p> <p>Workfront會使用下列公式計算計畫的「淨值」： </p> <p><code>Plan Net Value = SUM(Initiative Planned Benefit - People Costs)</code> </p> <p>或</p> <p><code>Plan Net Value = SUM(Initiative Net Value)</code> </p> <p>如需方案淨值的相關資訊，請參閱<a href="../scenario-planner/initiatives-overview.md" class="MCXref xref">中的[!DNL Scenario Planner]</a>方案概觀一文。</p> </td> 
   </tr> 
  </tbody> 

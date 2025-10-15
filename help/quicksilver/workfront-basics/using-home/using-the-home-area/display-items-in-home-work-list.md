@@ -40,12 +40,12 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權</strong></td> 
-   <td><ul><li>[！UICONTROL參與者]僅供核准</li> <li>適用於所有其他物件的[！UICONTROL Standard]或更新版本</li> <p>或</p> 
-  </ul><ul><li>[！UICONTROL Review]僅供核准</li> <li>適用於所有其他物件的[！UICONTROL Work]或更新版本</li> </td> 
+   <td><ul><li>[!UICONTROL 參與者]僅供核准</li> <li>適用於所有其他物件的[!UICONTROL Standard]或更新版本</li> <p>或</p> 
+  </ul><ul><li>[!UICONTROL Review]僅供核准</li> <li>適用於所有其他物件的[!UICONTROL Work]或更新版本</li> </td> 
   </tr> </ul>
   <tr> 
    <td role="rowheader"><strong>存取層級設定</strong></td> 
-   <td> <p>[！UICONTROL檢視]或更高的專案、任務、問題和檔案存取權</p> </td> 
+   <td> <p>[!UICONTROL 檢視]或更高的專案、任務、問題和檔案存取權</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
@@ -116,7 +116,7 @@ ht-degree: 4%
    | 我的核准 | 顯示所有擱置、已指派、已委派及已提交的核准 |
 
 1. 按一下Widget工作清單右上角的&#x200B;**篩選器**&#x200B;圖示![篩選器圖示](assets/filter-nwepng.png)。
-1. 選擇&#x200B;**建議的**篩選器或您已建立的篩選器。
+1. 選擇&#x200B;**建議的**&#x200B;篩選器或您已建立的篩選器。
 如需建議篩選的詳細資訊，請參閱[首頁Widget篩選總覽](/help/quicksilver/workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md)。
 1. （選擇性）開啟&#x200B;**棧疊篩選器**&#x200B;以選取多個篩選器選項。
 
@@ -143,7 +143,7 @@ ht-degree: 4%
    | 我的核准 | 顯示所有擱置、已指派、已委派及已提交的核准 |
 
 1. 按一下Widget工作清單右上角的&#x200B;**群組**&#x200B;圖示![群組圖示](assets/group-icon.png)。
-1. 選擇一個&#x200B;**建議的**群組或您已建立的群組。
+1. 選擇一個&#x200B;**建議的**&#x200B;群組或您已建立的群組。
    ![群組已展開](assets/grouping-expanded.png)
 
 

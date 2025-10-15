@@ -39,11 +39,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">校樣權限設定檔 </td> 
-   <td>[！UICONTROL Manager]或更高版本</td> 
+   <td>[!UICONTROL Manager]或更高版本</td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>編輯[！UICONTROL檔案]的存取權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>編輯[!UICONTROL 檔案]的存取權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -87,17 +87,17 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL Basic]： </td> 
+      <td role="rowheader">[!UICONTROL Basic]： </td> 
       <td> <p>基本核准流程是臨時性的，可以根據需要包含不同的稽核者： </p> 
        <ul> 
         <li> <p>（選擇性）在方塊中新增<strong>核准者</strong>。</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL自動化]</td> 
+      <td role="rowheader">[!UICONTROL 自動化]</td> 
       <td> <p>自動核准流程由管理員預先建立，並包括特定稽核者和階段。 如需詳細資訊，請參閱<a href="../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">自動化工作流程總覽</a>。</p> 
        <ul> 
-        <li> <p>從下拉式選單中選擇[！UICONTROL工作流程範本]。</p> </li> 
+        <li> <p>從下拉式選單中選擇[!UICONTROL 工作流程範本]。</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -163,17 +163,17 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL Basic]： </td> 
+      <td role="rowheader">[!UICONTROL Basic]： </td> 
       <td> <p>基本核准流程是臨時性的，可以根據需要包含不同的稽核者： </p> 
        <ul> 
         <li> <p>（選擇性）在方塊中新增<strong>核准者</strong>。</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL自動化]</td> 
+      <td role="rowheader">[!UICONTROL 自動化]</td> 
       <td> <p>自動核准流程由管理員預先建立，並包括特定稽核者和階段。 如需詳細資訊，請參閱<a href="../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">自動化工作流程總覽</a>。</p> 
        <ul> 
-        <li> <p>從下拉式選單中選擇[！UICONTROL工作流程範本]。</p> </li> 
+        <li> <p>從下拉式選單中選擇[!UICONTROL 工作流程範本]。</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -222,17 +222,17 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL Basic]： </td> 
+      <td role="rowheader">[!UICONTROL Basic]： </td> 
       <td> <p>基本核准流程是臨時性的，可以根據需要包含不同的稽核者： </p> 
        <ul> 
         <li> <p>（選擇性）在方塊中新增<strong>核准者</strong>。</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL自動化]</td> 
+      <td role="rowheader">[!UICONTROL 自動化]</td> 
       <td> <p>自動核准流程由管理員預先建立，並包括特定稽核者和階段。 如需詳細資訊，請參閱<a href="../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">自動化工作流程總覽</a>。</p> 
        <ul> 
-        <li> <p>從下拉式選單中選擇[！UICONTROL工作流程範本]。</p> </li> 
+        <li> <p>從下拉式選單中選擇[!UICONTROL 工作流程範本]。</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 

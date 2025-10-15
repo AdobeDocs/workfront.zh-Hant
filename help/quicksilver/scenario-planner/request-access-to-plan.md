@@ -36,12 +36,12 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 授權</p> </td> 
-   <td> <p>[！UICONTROL Light]或更高</p> 
-   <p>[！UICONTROL Review]或更高版本</p> </td> 
+   <td> <p>[!UICONTROL Light]或更高</p> 
+   <p>[!UICONTROL Review]或更高版本</p> </td> 
   </tr> 
     <tr> 
    <td>存取層級設定</td> 
-   <td> <p>[！UICONTROL檢視]或更高存取權以存取 [!DNL Scenario Planner]</p> </td> 
+   <td> <p>[!UICONTROL 檢視]或更高存取權以存取 [!DNL Scenario Planner]</p> </td> 
   </tr> 
  </tbody> 
 </table>

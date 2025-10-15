@@ -78,7 +78,7 @@ ht-degree: 1%
 
    ![重新命名圖釘](assets/pin-menu.png)
 
-1. 輸入新的PIN名稱，然後按一下[儲存]。****
+1. 輸入新的PIN名稱，然後按一下[儲存]。**&#x200B;**
 
    ![按一下核取記號以重新命名圖釘](assets/rename-pin-dialog-box.png)
 

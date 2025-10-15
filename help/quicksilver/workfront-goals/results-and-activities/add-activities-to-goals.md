@@ -196,7 +196,7 @@ Adding activities to goals differs depending on which environment you use.
 1. 按一下&#x200B;**主功能表** ![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**目標**。
 1. 從目標清單中，按一下目標的名稱以開啟目標的頁面。
 1. 按一下左側面板中的&#x200B;**進度指示器**。
-1. 從[新增進度指示器]下拉式功能表，按一下[建立活動] ****。
+1. 從[新增進度指示器]下拉式功能表，按一下[建立活動] **&#x200B;**。
 
    「新增活動」方塊開啟。
 

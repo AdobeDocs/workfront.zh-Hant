@@ -43,16 +43,16 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 授權</p> </td> 
-   <td> <p>[！UICONTROL Light]或更高</p> 
-   <p>[！UICONTROL Review]或更高版本</p> </td> 
+   <td> <p>[!UICONTROL Light]或更高</p> 
+   <p>[!UICONTROL Review]或更高版本</p> </td> 
   </tr> 
     <tr> 
    <td>存取層級設定</td> 
-   <td> <p>[！UICONTROL Edit]對的存取權 [!DNL Scenario Planner]</p> </td> 
+   <td> <p>[!UICONTROL Edit]對的存取權 [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr> 
    <td> <p>物件許可權 </p> </td> 
-   <td> <p>[！UICONTROL Manage]計畫的許可權</p> </td> 
+   <td> <p>[!UICONTROL Manage]計畫的許可權</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -159,30 +159,30 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL名稱]</td> 
+      <td role="rowheader">[!UICONTROL 名稱]</td> 
       <td>輸入計畫的名稱。 這是必填欄位。</td> 
      </tr> 
      <tr> 
       <td role="rowheader" colspan="2"> <p>重要： <span style="font-weight: normal;">建立並儲存計畫後，您無法修改下列選取專案。</span> </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><span>FTE （[！UICONTROL全時相當的]）或[！UICONTROL小時]</span> </td> 
+      <td role="rowheader"><span>FTE （[!UICONTROL 全時相當的]）或[!UICONTROL 小時]</span> </td> 
       <td> <p><span>選取下列其中一個選項，以指示您要如何估計此計畫的工作角色資訊：</span> </p> 
        <ul> 
       <li> <p><span><strong>FTE</strong>。 這是預設</span> </p> 
       <p><b>重要</b></p>  
       <p>對於[!DNL Scenario Planner]中的所有計算，[!DNL Workfront]會使用以下值： 1 FTE = 8小時。 </p> </li> 
-      <li> <p><strong>[！UICONTROL小時]</strong> </p> </li> 
+      <li> <p><strong>[!UICONTROL 小時]</strong> </p> </li> 
        </ul> <p><b>重要</b></p>
 
    您在此選取的選項決定計畫、計畫的案例與方案的工作角色資訊顯示方式</p> </td>
    </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL開始日期]</td> 
+      <td role="rowheader">[!UICONTROL 開始日期]</td> 
       <td> <p>選取您要計劃開始的月份和年份。 您只能在此欄位中選取月份。 [!DNL Workfront]假設計畫的開始日期是所選月份的第一天，而結束日期是月份結束期間的最後一天。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL持續時間]</td> 
+      <td role="rowheader">[!UICONTROL 持續時間]</td> 
       <td> <p>從下拉式功能表中選取下列期間：</p> 
        <ul> 
         <li>1年。 這是預設持續時間。 </li> 
@@ -239,19 +239,19 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p role="rowheader">[！UICONTROL可用上限] （適用於FTE） </p> <p role="rowheader">或 </p> <p role="rowheader"><span>[！UICONTROL總計可用] （小時）</span> </p> </td> 
+      <td role="rowheader"> <p role="rowheader">[!UICONTROL 可用上限] （適用於FTE） </p> <p role="rowheader">或 </p> <p role="rowheader"><span>[!UICONTROL 總計可用] （小時）</span> </p> </td> 
       <td> <p><span>根據您選取使用計畫的時數或FTE，在下列欄位中輸入</span>可用於執行計畫的工作角色FTE數量<span>或時數</span>： </p> 
        <ul> 
-        <li> <p style="font-weight: normal;"><strong>[！UICONTROL總計可用]</strong> （小時）：表示案例期間所有月份的總小時數。 根據預設，[!DNL Workfront]會將可用的總數平均分配到情境期間的所有月份。 </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span>如果您為Designer輸入1200小時，這表示在計畫期間每個月100小時都可使用Designer，而計畫[！UICONTROL Duration]為1年。 </p> </li> 
-        <li> <p><b>[！UICONTROL可用上限]</b> （適用於FTE）：表示在計畫期間每個月可使用該工作角色的FTE數量。 根據預設，<strong>Workfront</strong>會將[！UICONTROL Max available]數字指派給案例期間內的每個月。</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span>如果您為顧問輸入1 FTE，這表示顧問在計畫期間每個月都有1 FTE可用。 </p> <p>您可以輸入小於1 FTE的數字。 </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span>0.5顧問工作角色表示顧問將花費一半的FTE （通常是4小時，其中8小時是1 FTE）來處理此計畫。 對於「情境規劃工具」中的所有計算，Workfront會使用以下值： 1 FTE = 8小時。 </p> </li> 
+        <li> <p style="font-weight: normal;"><strong>[!UICONTROL 總計可用]</strong> （小時）：表示案例期間所有月份的總小時數。 根據預設，[!DNL Workfront]會將可用的總數平均分配到情境期間的所有月份。 </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span>如果您為Designer輸入1200小時，這表示在計畫期間每個月100小時都可使用Designer，而計畫[!UICONTROL Duration]為1年。 </p> </li> 
+        <li> <p><b>[!UICONTROL 可用上限]</b> （適用於FTE）：表示在計畫期間每個月可使用該工作角色的FTE數量。 根據預設，<strong>Workfront</strong>會將[!UICONTROL Max available]數字指派給案例期間內的每個月。</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span>如果您為顧問輸入1 FTE，這表示顧問在計畫期間每個月都有1 FTE可用。 </p> <p>您可以輸入小於1 FTE的數字。 </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span>0.5顧問工作角色表示顧問將花費一半的FTE （通常是4小時，其中8小時是1 FTE）來處理此計畫。 對於「情境規劃工具」中的所有計算，Workfront會使用以下值： 1 FTE = 8小時。 </p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p role="rowheader">[！UICONTROL Max required] （適用於FTE）</p> <p role="rowheader">或 </p> <p role="rowheader"><span>[！UICONTROL總共需要] （適用於小時）</span> </p> </td> 
+      <td role="rowheader"> <p role="rowheader">[!UICONTROL Max required] （適用於FTE）</p> <p role="rowheader">或 </p> <p role="rowheader"><span>[!UICONTROL 總共需要] （適用於小時）</span> </p> </td> 
       <td> <p><span>根據您選擇使用計畫的時數或FTE，檢閱</span>完成情境中方案所需的工作角色FTE數量<span>或時數</span>。 檢閱下列欄位：</p> 
        <ul> 
-        <li> <p><strong>[！UICONTROL總共需要]</strong> （針對小時）：計畫期間所有月份所需的總小時數。</p> </li> 
-        <li> <p><strong>[！UICONTROL Max required]</strong> （適用於FTE）：計畫期間任何月份所需的FTE數目上限。 </p> </li> 
+        <li> <p><strong>[!UICONTROL 總共需要]</strong> （針對小時）：計畫期間所有月份所需的總小時數。</p> </li> 
+        <li> <p><strong>[!UICONTROL Max required]</strong> （適用於FTE）：計畫期間任何月份所需的FTE數目上限。 </p> </li> 
        </ul> <p>秘訣：在您開始新增方案後，會顯示該工作角色所需的<span>最大</span>個FTE數量<span>或總時數</span>。 如需將方案新增至計畫的詳細資訊，請參閱<a href="../scenario-planner/create-and-edit-initiatives.md" class="MCXref xref">在[!DNL Scenario Planner]</a>中建立和編輯方案。</p> </td> 
      </tr> <!--
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
@@ -264,8 +264,8 @@ ht-degree: 0%
       </tr>
      --> 
      <tr> 
-      <td role="rowheader">[！UICONTROL小時費率]</td> 
-      <td> <p>這是工作角色的[！UICONTROL成本小時]費率。 小時費率會以您系統的貨幣顯示。 如需有關設定系統匯率的資訊，請參閱<a href="../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">設定匯率</a>。</p> </td> 
+      <td role="rowheader">[!UICONTROL 小時費率]</td> 
+      <td> <p>這是工作角色的[!UICONTROL 成本小時]費率。 小時費率會以您系統的貨幣顯示。 如需有關設定系統匯率的資訊，請參閱<a href="../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">設定匯率</a>。</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -285,35 +285,35 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL工作角色] （FTE或小時）</td> 
+      <td role="rowheader">[!UICONTROL 工作角色] （FTE或小時）</td> 
       <td>可用於情境的工作角色和情境上的方案所需的工作角色都會顯示在工作角色分佈面板中。 有指示工作角色估計是以FTE還是以欄標題中的小時表示。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>[！UICONTROL可用] （最大&lt;FTE數&gt;） </p> 
+      <td role="rowheader"> <p>[!UICONTROL 可用] （最大&lt;FTE數&gt;） </p> 
        <div> 
         <p>或</p> 
-        <p>[！UICONTROL可用] （總計&lt;小時數&gt;） </p> 
+        <p>[!UICONTROL 可用] （總計&lt;小時數&gt;） </p> 
        </div> </td> 
       <td> <p><span>根據您選擇使用計畫的時數或FTE，檢閱或更新</span>下列欄位中適用於情境的每月工作角色FTE數量<span>或時數</span>：</p> 
        <ul> 
-        <li> <p><strong>[！UICONTROL可用] （最大&lt;FTE數&gt;）</strong>：括弧中的數字顯示情境中任一月份可用的角色數上限。 檢閱或更新情境每個月的FTE數量。 變更每月配置可能會更新括弧中的FTE數量。 </p> </li> 
-        <li> <p><span><strong>[！UICONTROL Available] （總計&lt;number of hours&gt;）</strong>：括弧中的數字顯示情境中所有月份可用的總時數。 檢閱或更新情境每個月的小時數。 變更每月配置會更新括弧中的小時數。</span> </p> </li> 
-       </ul> <p>手動更新每月工作角色分配是解決情境上方案之間工作角色衝突的另一種方式。 </p> <p>秘訣：   <p><span>若要將每月角色可用性更新幾個月，請在任何月份的[！UICONTROL Available]欄位中輸入小時數或FTE，然後拖曳欄位角落至相鄰月份，以複製每個月的相同值。 拖放以更新所有月份。</span> </p> <p> <img src="assets/job-role-distribution-draggable-corner-highlighted-350x83.png" style="width: 350;height: 83;"> </p> </p> </td> 
+        <li> <p><strong>[!UICONTROL 可用] （最大&lt;FTE數&gt;）</strong>：括弧中的數字顯示情境中任一月份可用的角色數上限。 檢閱或更新情境每個月的FTE數量。 變更每月配置可能會更新括弧中的FTE數量。 </p> </li> 
+        <li> <p><span><strong>[!UICONTROL Available] （總計&lt;number of hours&gt;）</strong>：括弧中的數字顯示情境中所有月份可用的總時數。 檢閱或更新情境每個月的小時數。 變更每月配置會更新括弧中的小時數。</span> </p> </li> 
+       </ul> <p>手動更新每月工作角色分配是解決情境上方案之間工作角色衝突的另一種方式。 </p> <p>秘訣：   <p><span>若要將每月角色可用性更新幾個月，請在任何月份的[!UICONTROL Available]欄位中輸入小時數或FTE，然後拖曳欄位角落至相鄰月份，以複製每個月的相同值。 拖放以更新所有月份。</span> </p> <p> <img src="assets/job-role-distribution-draggable-corner-highlighted-350x83.png" style="width: 350;height: 83;"> </p> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p role="rowheader">[！UICONTROL必填] （最大&lt;number&gt;）</p> 
+      <td role="rowheader"> <p role="rowheader">[!UICONTROL 必填] （最大&lt;number&gt;）</p> 
        <div> 
         <p role="rowheader">或</p> 
-        <p role="rowheader">[！UICONTROL Required] （總計&lt;number&gt;）</p> 
+        <p role="rowheader">[!UICONTROL Required] （總計&lt;number&gt;）</p> 
        </div> </td> 
       <td> <p><span>根據您選擇使用計畫的時數或FTE，檢閱</span>下列欄位中案例所需的每月工作角色FTE或時數： </p> 
        <ul> 
-        <li> <p><strong>[！UICONTROL Required] （最大&lt;FTE數&gt;）</strong>：括弧中的數字顯示情境中任一月份所需的角色數上限。 </p> </li> 
-        <li> <p><span><strong>[！UICONTROL Required] （總計&lt;number of hours&gt;）</strong>：括弧中的數字顯示案例中所有月份所需的總時數。</span> </p> </li> 
+        <li> <p><strong>[!UICONTROL Required] （最大&lt;FTE數&gt;）</strong>：括弧中的數字顯示情境中任一月份所需的角色數上限。 </p> </li> 
+        <li> <p><span><strong>[!UICONTROL Required] （總計&lt;number of hours&gt;）</strong>：括弧中的數字顯示案例中所有月份所需的總時數。</span> </p> </li> 
        </ul> <p>秘訣：您無法修改工作角色所需的FTE數量<span>或時數</span>。 此數字會在您開始新增行動方案及其工作角色需求後填入情境。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL差異]</td> 
+      <td role="rowheader">[!UICONTROL 差異]</td> 
       <td> 
        <div> 
         <p>案例所需與可用職務角色數量之間的每月差異。 [!DNL Workfront]使用下列公式計算每個月每個職務角色的差異：</p> 
@@ -322,7 +322,7 @@ ht-degree: 0%
        </div> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL使用率] %</td> 
+      <td role="rowheader">[!UICONTROL 使用率] %</td> 
       <td> 
        <div> 
         <p>使用率百分比會顯示有多少可用的職務角色已實際使用（或需要）在情境中的方案。 </p> 

@@ -119,7 +119,7 @@ Adobe Workfront提供設定時程表核准的功能，以支援此區域。
 
 1. 確保您已將&#x200B;**我的核准** Widget新增到您的首頁區域。 如需詳細資訊，請參閱新首頁[中的](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)新增、編輯或移除Widget。
 1. 在我的核准Widget中尋找時程表核准。
-1. （選擇性）展開[核准]或[拒絕]按鈕右側的下拉式功能表，新增有關您決定的註解，然後按一下[新增]。****
+1. （選擇性）展開[核准]或[拒絕]按鈕右側的下拉式功能表，新增有關您決定的註解，然後按一下[新增]。**&#x200B;**
 1. 按一下下列其中一個按鈕，即可做出核准決定：
 
    * 核准

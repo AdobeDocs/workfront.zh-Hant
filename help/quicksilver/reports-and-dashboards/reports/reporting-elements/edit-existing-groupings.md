@@ -89,4 +89,4 @@ ht-degree: 0%
 1. 重複步驟4、5和6以定義其他群組。\
    您最多可以定義三個群組來組織資訊。 您可以建立矩陣報表，將資訊進一步組織為最多四個群組。 如需矩陣報表的詳細資訊，請參閱[建立矩陣報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)。
 
-1. 按一下「儲存群組」****，以變更取代目前的群組。
+1. 按一下「儲存群組」**&#x200B;**，以變更取代目前的群組。

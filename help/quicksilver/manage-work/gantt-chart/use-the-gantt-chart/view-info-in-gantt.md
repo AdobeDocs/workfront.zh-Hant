@@ -32,16 +32,16 @@ Adobe Workfront任務和專案[!UICONTROL 甘特圖]顯示有關任務和專案�
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td><p>[！UICONTROL Light]或更高</p>
-    <p>[！UICONTROL Review]或更高版本</p> </td> 
+   <td><p>[!UICONTROL Light]或更高</p>
+    <p>[!UICONTROL Review]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[！UICONTROL檢視]或更高的專案和任務存取權</p></td>
+   <td> <p>[!UICONTROL 檢視]或更高的專案和任務存取權</p></td>
 </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>[！UICONTROL檢視]或更高的專案和任務存取權</p></td> 
+   <td> <p>[!UICONTROL 檢視]或更高的專案和任務存取權</p></td> 
   </tr> 
  </tbody> 
 </table>
