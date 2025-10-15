@@ -82,7 +82,7 @@ ht-degree: 0%
 1. 將&#x200B;**Workfront** > **其他動作**&#x200B;模組新增至您的情境。
 1. 在&#x200B;**連線**&#x200B;欄位中，選取連線至此模組將使用之帳戶的Workfront連線。
 
-   如需建立連線的說明，請參閱Workfront模組一文中的[連線 [!DNL Workfront] 至 [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion)。
+   如需建立連線的說明，請參閱Workfront模組一文中的[連線 [!DNL Workfront] 至 [!DNL Workfront Fusion]](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion)。
 
    如需建立使用者端ID和使用者端密碼的指示，您必須建立連線，請參閱本文中的[建立OAuth應用程式](#create-an-oauth-application)。
 
@@ -164,4 +164,4 @@ ht-degree: 0%
 
 在Fusion中設定模組的連線時，您將使用此使用者端ID和使用者端密碼。
 
-如需建立連線的說明，請參閱Workfront模組一文中的[連線 [!DNL Workfront] 至 [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion)。
+如需建立連線的說明，請參閱Workfront模組一文中的[連線 [!DNL Workfront] 至 [!DNL Workfront Fusion]](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion)。

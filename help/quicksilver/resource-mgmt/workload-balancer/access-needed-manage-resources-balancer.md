@@ -52,7 +52,7 @@ The following table illustrates the connection between the Workfront plan your c
  </tbody> 
 </table>
 
-For information about the Workfront plans, see [Our Plans](https://business.adobe.com/products/workfront/pricing.html).
+For information about the Workfront plans, see [Our Plans](https://business.adobe.com/tw/products/workfront/pricing.html).
 
 For information about where you can locate the Workload Balancer in Workfront, see [Locate the Workload Balancer](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).-->
 
