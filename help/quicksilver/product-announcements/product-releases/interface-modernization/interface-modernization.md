@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: d7f91e17294981c2c31681ca7f4732f9a79d4c61
+source-git-commit: 21293cdd7a1c8f76149ee2e224fa8701e25e970e
 workflow-type: tm+mt
-source-wordcount: '8483'
+source-wordcount: '8497'
 ht-degree: 0%
 
 ---
@@ -334,6 +334,10 @@ For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tas
 ### 專案的「編輯費用」方塊的介面更新
 
 **預覽版本： 2025年8月28日；生產版本： 2025年9月4日**
+
+>[!NOTE]
+>
+>此功能已於2025年10月15日暫時從預覽和生產環境中移除。
 
 我們已更新用於編輯專案費用的對話方塊，以符合應用程式的其他區域。 編輯專案或範本中的費用時，可使用更新的對話方塊。
 
@@ -1179,7 +1183,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 此更新包含區域的視覺化變更。 功能未變更。
 
-若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。**&#x200B;**
+若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。****
 
 +++
 
