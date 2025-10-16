@@ -322,7 +322,7 @@ ht-degree: 0%
       * 在Windows中：按住CTRL鍵並按一下任務列或問題列。
       * 在Mac中： CMD按一下任務或問題列。
 
-     如需有關在工作負載平衡器中指派工作專案給使用者的詳細資訊，請參閱在工作負載平衡器中指派工作的概述[](../workload-balancer/assign-work-in-workload-balancer.md)。
+     如需有關在工作負載平衡器中指派工作專案給使用者的詳細資訊，請參閱在工作負載平衡器中指派工作的概述[&#128279;](../workload-balancer/assign-work-in-workload-balancer.md)。
 
      >[!NOTE]
      >
