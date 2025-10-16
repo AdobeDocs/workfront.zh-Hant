@@ -169,7 +169,7 @@ ht-degree: 1%
 表單詳細資料會分為幾個索引標籤。
 
 * **表單**&#x200B;索引標籤可讓您新增欄位和內容元素至表單
-* **組態**索引標籤可讓您設定表單的核准程式，以及設定要求完成選項&lt;。
+* **組態**&#x200B;索引標籤可讓您設定表單的核准程式，以及設定要求完成選項&lt;。
   <!--* <span class="preview">The **Automations** tab allows you to automate what will occur based on features of the request made with the form.</span>-->
 
 #### 設定表單詳細資料
