@@ -77,7 +77,7 @@ ht-degree: 0%
       <td role="rowheader"><span>[!UICONTROL 作用中]</span> </td> 
       <td> 
        <ul> 
-        <li> <p>如果您想要角色作用中並且在<b>中的所有位置都可供使用，以便與使用者、工作專案等建立關聯，請選取</b>[!UICONTROL 是][!DNL Workfront]。 </p> </li> 
+        <li> <p>如果您想要角色作用中並且在<b>中的所有位置都可供使用，以便與使用者、工作專案等建立關聯，請選取</b>[!UICONTROL 是]&#x200B;[!DNL Workfront]。 </p> </li> 
         <li> <p>如果您想要停用角色且無法指派給使用者、工作專案等，請選取<b>[!UICONTROL 否]</b>。 </p> </li> 
        </ul> <p><span>如需停用工作角色的資訊，請參閱</span> <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md" class="MCXref xref">停用工作角色</a>。 </p> </td> 
      </tr>

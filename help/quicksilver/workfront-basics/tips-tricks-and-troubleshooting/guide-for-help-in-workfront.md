@@ -108,7 +108,7 @@ ht-degree: 1%
    <td> <p>這些資源可讓您持續瞭解Workfront即將發佈哪些更新：</p> 
     <ul> 
      <li> <p><a href="https://experienceleague.adobe.com/zh-hant/docs/workfront/using/product-announcements/product-releases/product-releases">產品公告</a>：正在尋找Workfront產品藍圖的更新嗎？ 產品公告頁面提供了版本更新和藍圖簡報。</p> </li> 
-     <li> <p><strong>宣告中心</strong>：檢閱您的通知，並接收我們[!DNL Workfront]產品團隊關於所有客戶資訊的重要更新。 在頂端導覽中造訪<a href="https://experience.workfront.com/s/article/View-and-manage-in-app-notifications-323912892">中的</a>[!UICONTROL 「通知」][!DNL Workfront]區段。</p> </li> 
+     <li> <p><strong>宣告中心</strong>：檢閱您的通知，並接收我們[!DNL Workfront]產品團隊關於所有客戶資訊的重要更新。 在頂端導覽中造訪<a href="https://experience.workfront.com/s/article/View-and-manage-in-app-notifications-323912892">中的</a>[!UICONTROL 「通知」]&#x200B;[!DNL Workfront]區段。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 

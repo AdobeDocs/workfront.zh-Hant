@@ -250,7 +250,7 @@ ht-degree: 0%
         </tr>
         <tr>
          <td role="rowheader">[!UICONTROL 計畫完成日期]</td>
-         <td><p>[!DNL Workfront]中任務或問題的[!UICONTROL 規劃完成日期]成為[!DNL Jira]中連結之問題的[!UICONTROL 到期日]。</p><p>注意：請確定您在<strong>個問題上顯示</strong>[!UICONTROL 到期日][!DNL Jira]，以便同步處理此值。</p></td>
+         <td><p>[!DNL Workfront]中任務或問題的[!UICONTROL 規劃完成日期]成為[!DNL Jira]中連結之問題的[!UICONTROL 到期日]。</p><p>注意：請確定您在<strong>個問題上顯示</strong>[!UICONTROL 到期日]&#x200B;[!DNL Jira]，以便同步處理此值。</p></td>
         </tr>
        </tbody>
       </table>
@@ -286,7 +286,7 @@ ht-degree: 0%
         </tr>
         <tr>
          <td role="rowheader">[!UICONTROL 受託人]</td>
-         <td><p>[!DNL Jira]中問題的[!UICONTROL 受指派人]會成為[!DNL Workfront]中連結至該問題或任務的[!UICONTROL 受指派人]。</p><p>重要：當您將[!DNL Jira]中的專案指派給沒有[!DNL Workfront]帳戶的使用者時，整合僅當[!DNL Workfront]使用者沒有<strong>帳戶[!DNL Workfront]設定為[!DNL Jira][!UICONTROL Always][!DNL Workfront]時，</strong>在<strong>中自動建立使用者時，才會在</strong>中建立新的作用中使用者。 此使用者未佔用[!DNL Workfront]授權。 可將作用中的使用者指派給[!DNL Workfront]中的工作專案，但不能包含在更新中。 </p></td>
+         <td><p>[!DNL Jira]中問題的[!UICONTROL 受指派人]會成為[!DNL Workfront]中連結至該問題或任務的[!UICONTROL 受指派人]。</p><p>重要：當您將[!DNL Jira]中的專案指派給沒有[!DNL Workfront]帳戶的使用者時，整合僅當[!DNL Workfront]使用者沒有<strong>帳戶[!DNL Workfront]設定為[!DNL Jira]&#x200B;[!UICONTROL Always]&#x200B;[!DNL Workfront]時，</strong>在<strong>中自動建立使用者時，才會在</strong>中建立新的作用中使用者。 此使用者未佔用[!DNL Workfront]授權。 可將作用中的使用者指派給[!DNL Workfront]中的工作專案，但不能包含在更新中。 </p></td>
         </tr>
         <tr>
          <td role="rowheader">[!UICONTROL 附件]</td>

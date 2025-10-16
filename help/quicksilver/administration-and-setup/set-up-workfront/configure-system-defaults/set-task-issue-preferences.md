@@ -178,7 +178,7 @@ Linked to Converting Issues.-->
   <tbody> 
     <tr> 
     <td role="rowheader">[!UICONTROL 當任務或問題從「新增」移至「進行中」時，將實際開始日期設定為]</td> 
-    <td> <p>當任務或問題從[!DNL Workfront][!UICONTROL 新增]<strong>移至</strong>[!UICONTROL 進行中]<strong>時，為</strong>中記錄實際開始日期選取下列其中一個選項：</p> 
+    <td> <p>當任務或問題從[!DNL Workfront]&#x200B;[!UICONTROL 新增]<strong>移至</strong>[!UICONTROL 進行中]<strong>時，為</strong>中記錄實際開始日期選取下列其中一個選項：</p> 
       <ul> 
       <li><strong>[!UICONTROL 現在]：</strong>實際開始日期已設定為目前日期。</li> 
       <li><strong>[!UICONTROL 計劃開始日期]：</strong>實際開始日期已設為任務或問題的計劃開始日期。</li> 

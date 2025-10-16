@@ -131,7 +131,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[!UICONTROL 計畫完成日期]</td> 
-   <td> <p>[!UICONTROL 到期日期]</p> <p>有關[!UICONTROL 到期日]已變更的註解已新增至[!DNL Workfront]問題的[!DNL Jira]索引標籤。 </p> <p>注意：您必須針對您的<strong>問題啟用</strong>[!UICONTROL 到期日][!DNL Jira]，才能在[!UICONTROL Jira]中看到此欄位已更新。 </p> </td> 
+   <td> <p>[!UICONTROL 到期日期]</p> <p>有關[!UICONTROL 到期日]已變更的註解已新增至[!DNL Workfront]問題的[!DNL Jira]索引標籤。 </p> <p>注意：您必須針對您的<strong>問題啟用</strong>[!UICONTROL 到期日]&#x200B;[!DNL Jira]，才能在[!UICONTROL Jira]中看到此欄位已更新。 </p> </td> 
   </tr> 
   <tr> 
    <td>自訂Forms和自訂欄位</td> 
@@ -139,15 +139,15 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[!UICONTROL 問題或任務優先順序]</td> 
-   <td>顯示在[!DNL Workfront]問題的[!DNL Jira]右側面板中。 <br>它不會更新<strong>中的問題</strong>[!UICONTROL 優先順序][!DNL Jira]欄位。 </td> 
+   <td>顯示在[!DNL Workfront]問題的[!DNL Jira]右側面板中。 <br>它不會更新<strong>中的問題</strong>[!UICONTROL 優先順序]&#x200B;[!DNL Jira]欄位。 </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 記錄時間] </td> 
-   <td> <p>有關記錄時間的註解已新增到<strong>[!DNL Workfront]</strong>問題的[!DNL Jira]索引標籤中。 這包括記錄時間的使用者名稱，以及記錄時間的使用者名稱（如果不同）。 <strong>中的</strong>[!UICONTROL 工作記錄檔][!DNL Jira]索引標籤未記錄任何時間。<br></p> </td> 
+   <td> <p>有關記錄時間的註解已新增到<strong>[!DNL Workfront]</strong>問題的[!DNL Jira]索引標籤中。 這包括記錄時間的使用者名稱，以及記錄時間的使用者名稱（如果不同）。 <strong>中的</strong>[!UICONTROL 工作記錄檔]&#x200B;[!DNL Jira]索引標籤未記錄任何時間。<br></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 註解]</td> 
-   <td> <p>註解已新增至<strong>[!DNL Workfront]</strong>問題的[!DNL Jira]索引標籤。 未新增至<strong>問題的</strong>[!UICONTROL 註解][!DNL Jira]索引標籤</p> <p>注意：當您手動連結兩個現有專案時，在連結至[!DNL Workfront]之前新增至[!DNL Jira]專案的評論不會同步至[!DNL Jira]問題。 </p> <p>Jira註解會同步至Workfront。</td> 
+   <td> <p>註解已新增至<strong>[!DNL Workfront]</strong>問題的[!DNL Jira]索引標籤。 未新增至<strong>問題的</strong>[!UICONTROL 註解]&#x200B;[!DNL Jira]索引標籤</p> <p>注意：當您手動連結兩個現有專案時，在連結至[!DNL Workfront]之前新增至[!DNL Jira]專案的評論不會同步至[!DNL Jira]問題。 </p> <p>Jira註解會同步至Workfront。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -193,7 +193,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> 註解 <br><br></td> 
-   <td> <p>如果在[!UICONTROL Setup]索引標籤的[!UICONTROL SYNCHRONIZE FROM JIRA TO WORKFRONT]區段中的[!DNL Workfront][!UICONTROL Comments]<strong>設定為</strong>[!UICONTROL Always]<strong>，則會將評論新增至</strong>問題或任務的[!UICONTROL Updates]索引標籤。</p> <p>如需有關在[!DNL Jira]中設定Workfront設定的資訊，請參閱<a href="../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md">設定[!DNL Workfront for Jira]</a>。</p> <p>如需有關對連結[!DNL Jira]問題的專案發表意見的資訊，請參閱連結<a href="#comment-from-a-linked-jira-issue" class="MCXref xref">問題[!DNL Jira]的</a>發表意見。</p> </td> 
+   <td> <p>如果在[!UICONTROL Setup]索引標籤的[!UICONTROL SYNCHRONIZE FROM JIRA TO WORKFRONT]區段中的[!DNL Workfront]&#x200B;[!UICONTROL Comments]<strong>設定為</strong>[!UICONTROL Always]<strong>，則會將評論新增至</strong>問題或任務的[!UICONTROL Updates]索引標籤。</p> <p>如需有關在[!DNL Jira]中設定Workfront設定的資訊，請參閱<a href="../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md">設定[!DNL Workfront for Jira]</a>。</p> <p>如需有關對連結[!DNL Jira]問題的專案發表意見的資訊，請參閱連結<a href="#comment-from-a-linked-jira-issue" class="MCXref xref">問題[!DNL Jira]的</a>發表意見。</p> </td> 
   </tr> 
  </tbody> 
 </table>

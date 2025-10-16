@@ -78,7 +78,7 @@ ht-degree: 1%
 
 ## 篩選工作流程上的展示板清單
 
-將預設值以外的篩選器套用至展示板清單時，篩選器圖示![已套用篩選器](assets/boards-filterapplied-30x30.png)上會顯示指示器。 按一下[全部清除][!UICONTROL **以移除所有篩選器，然後按一下[隱藏篩選器]**]&#x200B;以關閉篩選器面板。[!UICONTROL **&#x200B;**]
+將預設值以外的篩選器套用至展示板清單時，篩選器圖示![已套用篩選器](assets/boards-filterapplied-30x30.png)上會顯示指示器。 按一下[全部清除]&#x200B;[!UICONTROL **以移除所有篩選器，然後按一下[隱藏篩選器]**]&#x200B;以關閉篩選器面板。[!UICONTROL **&#x200B;**]
 
 {{step1-to-boards}}
 
