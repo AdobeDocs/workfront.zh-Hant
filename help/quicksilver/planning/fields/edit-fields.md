@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '979'
 ht-degree: 0%
 
 ---
@@ -46,10 +46,7 @@ ht-degree: 0%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront套件</p></td> 
    <td> 
-<ul> 
-<li><p>任何Workfront和任何Planning套件</p></li>
-或
-<li><p>任何工作流程與任何Planning套件</p></li></ul>
+<p>任何Workfront和任何Planning套件</p> <p>任何工作流程與任何Planning套件</p>
 <p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
    </td> 
   <tr> 
@@ -150,7 +147,7 @@ ht-degree: 0%
   >不會通知其他使用者欄位設定已變更。
 
 * 您可以從連線的記錄中編輯現有的查閱欄位。
-* 除了依照本文中[編輯欄位設定](#edit-field-settings-1)一節所述編輯欄位外，<span class="preview">當您在表格檢視中編輯記錄時，在更新欄位值時，還可以編輯單一或多重選取欄位的選擇。 如需相關資訊，請參閱本文中在資料表檢視[區段編輯記錄時，將](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view)新選擇新增至現有的選取欄位。</span>
+* 除了依照本文中[編輯欄位設定](#edit-field-settings-1)一節所述編輯欄位外，當您在表格檢視中編輯記錄時，在更新欄位值時，還可以編輯單一或多重選取欄位的選擇。 如需詳細資訊，請參閱本文中在資料表檢視[區段中編輯記錄時，將](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view)新選擇新增至現有的選取欄位。
 
 <!--at production - April 10, 2025 - remove the last bullet altogether-->
 
@@ -222,7 +219,7 @@ ht-degree: 0%
 1. 移至記錄型別頁面並開啟表格檢視。
 1. 新增您要在表格檢視中新增選擇的單一或多重選取欄位作為新欄。 如需詳細資訊，請參閱[建立欄位](/help/quicksilver/planning/fields/create-fields.md)。
 1. 連按兩下欄位的儲存格，開始內嵌編輯欄位。
-1. 輸入您要新增的選擇名稱，然後按一下[新增選擇]。**&#x200B;**
+1. 輸入您要新增的選擇名稱，然後按一下[新增選擇]。****
 
    ![在表格檢視中的單一選取欄位中新增選項](assets/add-choice-in-table-view-for-single-select-field.png)
 

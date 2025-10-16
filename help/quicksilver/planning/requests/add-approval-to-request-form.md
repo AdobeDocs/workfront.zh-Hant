@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: c06baa45e52d77463f9f886b6f6eae4ff68e4ccd
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 0%
@@ -76,7 +76,7 @@ ht-degree: 0%
 ## 將核准新增至請求表單的考量事項
 
 * 您可以將一個或多個核准者新增至請求表單。 您只能將使用者新增為核准者。
-* <span class="preview">您可以在[核准者]與[核准日期]欄位中提交請求表單，顯示所建立記錄的核准資訊。 如需詳細資訊，請參閱[建立欄位](/help/quicksilver/planning/fields/create-fields.md).</span>
+* 您可以在「核准者」與「已核准日期」欄位中提交請求表單，顯示所建立記錄的核准資訊。 如需詳細資訊，請參閱[建立欄位](/help/quicksilver/planning/fields/create-fields.md)。
 * 將多位核准者新增至請求表單時，所有核准者都必須先接受請求，才能在Workfront Planning中建立記錄。
 * 如果所有核准者都核准請求，系統將會針對與請求表單相關聯的記錄型別建立記錄。
 * 如果至少有一位核准者拒絕請求，而所有其他核准者皆已核准請求，則會在Workfront的「請求」區域中建立請求，但不會針對與請求表單相關聯的記錄型別建立記錄。
@@ -116,7 +116,7 @@ ht-degree: 0%
 
    或
 
-   按一下[共用]以共用表單，然後按[複製]連結&#x200B;**。**&#x200B;**&#x200B;**
+   按一下[共用]以共用表單，然後按[複製]連結&#x200B;**。******
 1. （選用）使用者使用您共用的連結並提交請求後，Workfront Planning會傳送核准應用程式內通知及電子郵件給核准者。
 
    >[!NOTE]

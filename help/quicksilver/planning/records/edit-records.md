@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '2732'
+source-wordcount: '2731'
 ht-degree: 0%
 
 ---
@@ -51,10 +51,7 @@ ht-degree: 0%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront套件</p></td> 
    <td> 
-<ul> 
-<li><p>任何Workfront和任何Planning套件</p></li>
-或
-<li><p>任何工作流程與任何Planning套件</p></li></ul>
+<p>任何Workfront和任何Planning套件</p> <p>任何工作流程與任何Planning套件</p>
 <p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
    </td> 
   <tr> 
@@ -430,7 +427,7 @@ ht-degree: 0%
 1. 移至記錄型別頁面並開啟表格檢視。
 1. 新增您要在表格檢視中新增選擇的單一或多重選取欄位作為新欄。 如需詳細資訊，請參閱[建立欄位](/help/quicksilver/planning/fields/create-fields.md)。
 1. 連按兩下欄位的儲存格，開始內嵌編輯欄位。
-1. 輸入您要新增的選擇名稱，然後按一下[新增選擇]。**&#x200B;**
+1. 輸入您要新增的選擇名稱，然後按一下[新增選擇]。****
 
    ![在表格檢視中的單一選取欄位中新增選項](assets/add-choice-in-table-view-for-single-select-field.png)
 

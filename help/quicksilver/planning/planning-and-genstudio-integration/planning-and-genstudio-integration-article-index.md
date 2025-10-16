@@ -6,24 +6,13 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2fb8fcb4-eb82-4ac5-8b09-8577fecb9bc4
-source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 0%
 
 ---
 
-<!--
-Better metadata when published:
----
-title: "Adobe Workfront Planning and Adobe GenStudio for Performance Marketing Integration: Article Index"
-description: The GenStudio for Performance Marketing workspace is available in Adobe Workfront Planning when your company has purchased both products. The articles in this list describe the functionality available for this integration. 
-feature: Workfront Planning
-role: User, Admin
-author: Alina
-recommendations: noDisplay, noCatalog
----
--->
 
 # Adobe Workfront Planning與Adobe GenStudio for Performance Marketing整合：文章索引
 

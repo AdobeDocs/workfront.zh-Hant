@@ -6,18 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: f86971bc-e807-459e-9fa8-dc34967bc069
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
 
 # 刪除記錄檢視
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -42,11 +42,10 @@ ht-degree: 0%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront套件</p></td> 
    <td> 
-<ul> 
-<li><p>任何Workfront和任何Planning套件</p></li>
-或
-<li><p>任何工作流程與任何Planning套件</p></li></ul>
-<p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
+   <p>任何Workfront和任何Planning套件</p>
+
+<p>任何工作流程與任何Planning套件</p>
+   <p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront授權</p></td> 
@@ -139,20 +138,10 @@ ht-degree: 0%
    依預設，選取型別的所有記錄都會顯示在表格檢視中。
 
 
-1. 從檢視的標籤中，執行下列任一項作業：
+1. 在檢視的索引標籤中，按一下檢視的索引標籤，將滑鼠停留在下拉式功能表中的檢視上，按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下&#x200B;**刪除**。</span>
 
-   * 根據您從哪個環境存取檢視，請執行下列動作：
+   ![更多包含選項的功能表](assets/more-menu-for-views-expanded-with-delete-option.png)
 
-      * 在生產環境中，將滑鼠停留在您要共用之檢視的索引標簽名稱上，然後按一下檢視名稱右側的&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下&#x200B;**刪除**。
-
-     >[!TIP]
-     >
-     >您可能需要按一下最後一個標籤右側的&#x200B;**更多**，以尋找您要刪除的檢視。
-
-      * <span class="preview">在預覽環境中，按一下檢視的索引標籤，將滑鼠停留在下拉式功能表中的檢視上，按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下&#x200B;**刪除**。</span>
-
-     ![更多包含選項的功能表](assets/more-menu-for-views-expanded-with-delete-option.png)
-
-1. 按一下&#x200B;**刪除**&#x200B;確認。<!--ensure there is not another saving step here?!-->
+1. 按一下&#x200B;**刪除**&#x200B;確認。
 
    所有可存取記錄區域的使用者檢視都會刪除。

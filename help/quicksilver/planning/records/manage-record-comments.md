@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '874'
 ht-degree: 0%
 
 ---
@@ -44,10 +44,7 @@ ht-degree: 0%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront套件</p></td> 
    <td> 
-<ul> 
-<li><p>任何Workfront和任何Planning套件</p></li>
-或
-<li><p>任何工作流程與任何Planning套件</p></li></ul>
+<p>任何Workfront和任何Planning套件</p> <p>任何工作流程與任何Planning套件</p>
 <p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
    </td> 
   <tr> 
@@ -158,7 +155,7 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >   只有已加入Adobe Unified Experience的客戶之使用者，才會同時收到應用程式內通知和電子郵件通知。 若要判斷您的公司是否使用Adobe Unified Experience，請參閱[Workfront的Adobe Unified Experience &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
+  >   只有已加入Adobe Unified Experience的客戶之使用者，才會同時收到應用程式內通知和電子郵件通知。 若要判斷您的公司是否使用Adobe Unified Experience，請參閱[Workfront的Adobe Unified Experience ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 
 * 您可以新增更新至記錄，並從Workfront Planning的下列區域複查變更歷史記錄：
 

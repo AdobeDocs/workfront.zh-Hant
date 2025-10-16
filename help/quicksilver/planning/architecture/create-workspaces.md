@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 1%
+source-wordcount: '627'
+ht-degree: 0%
 
 ---
 
@@ -45,10 +45,7 @@ ht-degree: 1%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront套件</p></td> 
    <td> 
-<ul> 
-<li><p>任何Workfront和任何Planning套件</p></li>
-或
-<li><p>任何工作流程與任何Planning套件</p></li></ul>
+<p>任何Workfront和任何Planning套件</p> <p>任何工作流程與任何Planning套件</p>
 <p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
    </td> 
   <tr> 
@@ -155,7 +152,7 @@ ht-degree: 1%
 
    或
 
-   按一下[上一步]&#x200B;**&#x200B;**，然後按一下[新工作區]&#x200B;**&#x200B;**&#x200B;從頭開始建立工作區。
+   按一下[上一步]****，然後按一下[新工作區]****&#x200B;從頭開始建立工作區。
 
    會建立下列其中一種工作區型別：
 
@@ -194,6 +191,6 @@ ht-degree: 1%
    >
    >對於目前正在轉換至Adobe Identity Management System (IMS)的使用者，非IMS使用者的僅Workfront使用者所建立的工作區，會顯示為&#x200B;**系統**&#x200B;所建立。
    >
-   >如需IMS的相關資訊，請參閱[Workfront的Adobe Unified Experience &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
+   >如需IMS的相關資訊，請參閱[Workfront的Adobe Unified Experience ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 
 

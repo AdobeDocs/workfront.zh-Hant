@@ -6,18 +6,20 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '924'
-ht-degree: 4%
+source-wordcount: '779'
+ht-degree: 5%
 
 ---
 
 # 公式欄位概觀
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -27,9 +29,11 @@ ht-degree: 4%
 
 如需詳細資訊，請參閱文章[建立欄位](/help/quicksilver/planning/fields/create-fields.md)中的「公式」一節。
 
-## 存取需求
+<!--do we need these for an overview article?
 
-+++ 展開以檢視本文中功能的存取需求。 
+## Access requirements
+
++++ Expand to view the access requirements for the functionality in this article. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -41,30 +45,30 @@ ht-degree: 4%
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront套件</p></td> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<ul> 
-<li><p>任何Workfront和任何Planning套件</p></li>
-或
-<li><p>任何工作流程與任何Planning套件</p></li></ul>
-<p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
+<p>Any Workfront and any Planning package</p>
+<p>Any Workflow and any Planning package</p>
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
    </td> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront授權</p></td> 
-   <td><p>標準</p>
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td><p>Standard</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>物件許可權</p></td> 
-   <td>   <p>管理工作區的許可權</p>  
-   <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p>  </td> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a workspace</p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
   </tr>  
 </tbody> 
-</table>
+</table> 
 
-如需Workfront存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
+
+-->
 
 <!--Old:
 
@@ -146,19 +150,11 @@ ht-degree: 4%
   如需詳細資訊，請參閱文章[建立欄位](/help/quicksilver/planning/fields/create-fields.md)中的「公式」一節。
 * 您可以在新的公式中參考公式欄位。 在公式欄位中參照的欄位中更新值後，參照該欄位的所有後續欄位或包含該欄位的公式欄位將自動更新。
 
-<div class="preview">
-
 * 當您更新公式欄位或可能影響它的欄位時，警示會通知您變更的影響。 警示會顯示在下列情況中：
 
    * 當您更新公式欄位時（不包括名稱和說明變更），如果該欄位具有相依公式或查閱欄位。 警示會列出這些相依欄位，並詢問您是否要繼續。
 
    * 當您刪除用於公式運算式或作為查閱欄位的欄位時。 警示會列出相依公式和查閱欄位，並詢問您是否要繼續刪除。
-
-</div>
-
-
-
-<div class="preview">
 
 ## 公式欄位的限制
 
@@ -177,7 +173,6 @@ ht-degree: 4%
 
      例如，如果我為公式欄位的「格式」選取「數字」，而公式中使用的欄位是隻顯示非數字文字值的文字欄位，則公式結果將顯示為`#ERROR!`，因為它無法將文字解析為數字。
 
-</div>
 
 ## 支援的公式
 

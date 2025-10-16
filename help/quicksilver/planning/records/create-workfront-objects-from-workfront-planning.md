@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1316'
 ht-degree: 1%
 
 ---
@@ -17,12 +17,11 @@ ht-degree: 1%
 
 # 當您將Workfront物件連線至記錄時，從Workfront Planning建立它們
 
-<!-- update the title (and all the links to this article) at preview, to be this: Create Workfront objects from Workfront Planning as you connect them to records-->
 <!-- remove preview and production at release time-->
 
-<span class="preview">本頁標示的資訊是指尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -61,7 +60,7 @@ ht-degree: 1%
 
    * 記錄型別的表格檢視
    * 連線欄位中記錄的詳細資訊區域
-   * <span class="preview">記錄的已連線記錄頁面，在詳細資訊區域</span>
+   * 記錄的「已連線」記錄頁面，在「詳細資料」區域中
 
 * 您可以從Workfront Planning的下列區域建立產品組合和計畫：
 
@@ -86,10 +85,7 @@ ht-degree: 1%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront套件</p></td> 
    <td> 
-<ul> 
-<li><p>任何Workfront和任何Planning套件</p></li>
-或
-<li><p>任何工作流程與任何Planning套件</p></li></ul>
+<p>任何Workfront和任何Planning套件</p> <p>任何工作流程與任何Planning套件</p>
 <p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
    </td> 
 <tr> 
@@ -203,7 +199,7 @@ ht-degree: 1%
 您可以在Workfront Planning中建立專案，並透過Workfront Planning的下列區域將其與記錄連結：
 
 * 記錄型別的表格檢視或連線欄位中記錄的詳細資訊區域
-* <span class="preview">記錄的[已連線]記錄頁面，在記錄的[詳細資料]區域中</span>
+* 記錄的已連線記錄頁面，在記錄的詳細資訊區域
 
 ### 從記錄的詳細資訊區域或記錄型別的表格檢視建立專案
 
@@ -213,7 +209,7 @@ ht-degree: 1%
 
 1. （視條件而定）按一下&#x200B;**新增專案**
 或
-開始輸入專案名稱，如果找不到，請按一下[新增專案]。 **&#x200B;**「新增」按鈕後面接著您輸入的專案名稱。
+開始輸入專案名稱，如果找不到，請按一下[新增專案]。 ****「新增」按鈕後面接著您輸入的專案名稱。
 
    ![從連線欄位連線時新增專案](assets/add-project-when-connecting-it-from-connection-field.png)
 
@@ -227,8 +223,6 @@ ht-degree: 1%
    新專案已建立並新增至所選記錄的已連線欄位。
 
 1. （可選）從Workfront計畫按一下新專案的名稱，以在Workfront中開啟專案頁面，並對專案進行其他更新。
-
-<div class="preview">
 
 ### 從記錄的「連線記錄」頁面建立專案
 
@@ -251,8 +245,6 @@ ht-degree: 1%
    您只能在此區域中新增空白專案。 您無法使用範本新增專案。
 1. （選用）按一下表格檢視中的專案名稱，在Workfront中開啟專案並新增詳細資訊。
 
-</div>
-
 ## 在連結投資組合與Workfront Planning的記錄時建立投資組合
 
 您可以從記錄型別的表格檢視或記錄的詳細資訊頁面建立投資組合。
@@ -265,7 +257,7 @@ ht-degree: 1%
 
    或
 
-   開始輸入投資組合的名稱，如果找不到，請按一下[新增投資組合] **&#x200B;**。 「新增」按鈕後面接著您輸入的投資組合名稱。
+   開始輸入投資組合的名稱，如果找不到，請按一下[新增投資組合] ****。 「新增」按鈕後面接著您輸入的投資組合名稱。
 
    ![從連線欄位連線時新增投資組合](assets/add-portfolio-when-connecting-it-from-connection-field.png)
 
@@ -285,7 +277,7 @@ ht-degree: 1%
 
    或
 
-   開始輸入方案的名稱，如果找不到，請按一下[新增方案] **&#x200B;**。 新增按鈕後面接著您輸入的程式名稱。
+   開始輸入方案的名稱，如果找不到，請按一下[新增方案] ****。 新增按鈕後面接著您輸入的程式名稱。
 
    ![從連線欄位連線時新增Workfront程式](assets/add-wf-program-when-connecting-it-from-connection-field.png)
 

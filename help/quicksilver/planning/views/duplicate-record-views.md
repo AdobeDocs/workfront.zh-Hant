@@ -6,20 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 441a53d1-ad39-41b7-93fe-2ae1836476c9
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
 
 # 複製記錄檢視
 
-<!--remove preview and production references-->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
-
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -48,10 +46,9 @@ ht-degree: 0%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront套件</p></td> 
    <td> 
-<ul> 
-<li><p>任何Workfront和任何Planning套件</p></li>
-或
-<li><p>任何工作流程與任何Planning套件</p></li></ul>
+<p>任何Workfront和任何Planning套件</p>
+
+<p>任何工作流程與任何Planning套件</p>
 <p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
    </td> 
   <tr> 
@@ -141,11 +138,8 @@ ht-degree: 0%
    記錄型別頁面隨即開啟。
 依預設，所選型別的所有記錄都會顯示在表格檢視中。
 
-1. 根據您使用的環境，執行下列動作：
+1. 按一下目前檢視名稱旁邊的下拉式清單圖示![下拉式清單圖示](assets/drop-down-icon.png)，將滑鼠移至檢視名稱上，按一下&#x200B;**更多**，然後按一下&#x200B;**複製**。
 
-   * 在生產環境中，將滑鼠停留在檢視標籤中其中一個檢視名稱上，然後按一下檢視名稱左側的&#x200B;**更多** ![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**複製**。
-   * <span class="preview">在預覽環境中，按一下目前檢視名稱旁邊的下拉式清單圖示![下拉式清單圖示](assets/drop-down-icon.png)，將滑鼠移至檢視名稱上，按一下&#x200B;**更多**，然後按一下&#x200B;**複製**。</span>
+   ![檢視的其他功能表（含選項）](assets/more-menu-for-views-expanded-with-delete-option.png)
 
-     ![檢視的其他功能表（含選項）](assets/more-menu-for-views-expanded-with-delete-option.png)
-
-     檢視重複，新檢視的名稱遵循下列模式： `Original view's name (Copy)`。 新的檢視標籤會顯示在所有檢視標籤的末尾。
+   檢視重複，新檢視的名稱遵循下列模式： `Original view's name (Copy)`。 新的檢視標籤會顯示在所有檢視標籤的末尾。

@@ -6,18 +6,20 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '3431'
+source-wordcount: '3370'
 ht-degree: 2%
 
 ---
 
 # 管理表格檢視
 
-<span class="preview">本頁標示的資訊是指尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->
 
 {{planning-important-intro}}
 
@@ -48,10 +50,8 @@ ht-degree: 2%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront套件</p></td> 
    <td> 
-<ul> 
-<li><p>任何Workfront和任何Planning套件</p></li>
-或
-<li><p>任何工作流程與任何Planning套件</p></li></ul>
+<p>任何Workfront和任何Planning套件</p>
+<p>任何工作流程與任何Planning套件</p>
 <p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
    </td> 
   <tr> 
@@ -153,16 +153,16 @@ ht-degree: 2%
 
 若要管理表格檢視：
 
-1. <span class="preview">建立資料表檢視，如文章[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)中所述。</span>
+1. 建立資料表檢視，如文章[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)中所述。
 
-   <span class="preview">![資料表檢視範例](assets/table-view-example.png)</span>
+   ![資料表檢視範例](assets/table-view-example.png)
 
 1. （選擇性）按一下&#x200B;**列高度**，然後從下列選項中選取，以修改表格列的高度：
    * 短
    * 媒體
    * 高
 
-1. <span class="preview">（選擇性）按一下&#x200B;**全熒幕**&#x200B;圖示![開啟全熒幕圖示](assets/open-full-screen-icon.png)以全熒幕開啟檢視，然後按一下&#x200B;**退出全熒幕**&#x200B;圖示![退出全熒幕圖示](assets/exit-full-screen-icon.png)或鍵盤上的Escape以退出全熒幕。 </span>
+1. （選擇性）按一下&#x200B;**全熒幕**&#x200B;圖示![開啟全熒幕圖示](assets/open-full-screen-icon.png)以全熒幕開啟檢視，然後按一下&#x200B;**退出全熒幕**&#x200B;圖示![退出全熒幕圖示](assets/exit-full-screen-icon.png)或鍵盤上的Escape以退出全熒幕。
 
 1. 更新下列檢視元素，如下列子區段所述：
    * [欄（或欄位）](#add-columns-or-fields)
@@ -198,12 +198,7 @@ ht-degree: 2%
 
    * 按一下表格工具列中的&#x200B;**欄位**，然後依所需順序拖放欄位，再按一下&#x200B;**欄位可見度和順序**&#x200B;方塊外部以關閉它。
 
-     <div class="preview">
-
      ![欄位設定表格檢視工具列已展開](assets/fields-setting-table-view-toolbar-expanded.png)
-
-     </div>
-
 
      >[!TIP]
      >
@@ -246,9 +241,9 @@ ht-degree: 2%
 
 1. 執行下列動作以快速尋找符合關鍵字的記錄：
 
-   1. <span class="preview">在&#x200B;**搜尋**&#x200B;方塊![搜尋圖示](assets/search-icon.png)中，開始輸入與熒幕上顯示之記錄的任何欄位相關聯的關鍵字。</span>搜尋專案旁會顯示正確相符專案的數目，且反白顯示具有正確相符專案的欄位。
+   1. 在&#x200B;**搜尋**&#x200B;方塊![搜尋圖示](assets/search-icon.png)中，開始輸入與熒幕上顯示之記錄的任何欄位相關聯的關鍵字。 正確相符的數目會顯示在搜尋專案旁邊，而具有正確相符專案的欄位會反白顯示。
 
-      <span class="preview">![搜尋方塊在資料表檢視中具有結果藍色外框](assets/search-box-with-results-blue-outline-table-view.png)</span>
+      ![搜尋方塊在資料表檢視中具有結果藍色外框](assets/search-box-with-results-blue-outline-table-view.png)
 
       您可以使用熒幕上可見的任何文字或特殊字元。
 
@@ -502,13 +497,11 @@ ht-degree: 2%
 
 1. （選擇性）按一下&#x200B;**新增條件**&#x200B;並重複上述步驟以新增最多3個群組。
 
-   <div class="preview">
-
    為分組選取的欄位數會顯示在「分組」圖示旁。
 
    ![在資料表檢視中套用群組](assets/grouping-applied-in-table-view.png)
 
-   </div>
+
 
 1. （選擇性）在&#x200B;**群組記錄依據**&#x200B;方塊中，按一下選取要移除分組的欄位右邊的&#x200B;**x**&#x200B;圖示
 

@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: c06baa45e52d77463f9f886b6f6eae4ff68e4ccd
 workflow-type: tm+mt
 source-wordcount: '2686'
 ht-degree: 1%
@@ -82,8 +82,8 @@ ht-degree: 1%
 
    * 您無法將下列型別的欄位新增至請求表單：
 
-      * 建立者，上次修改者，<span class="preview">核准者</span>
-      * 建立日期，上次修改日期，<span class="preview">核准日期</span>
+      * 建立者、上次修改者、核准者
+      * 建立日期、上次修改日期、核准日期
       * Workfront物件的查閱欄位
       * Workfront Planning連線記錄的查詢欄位
 
@@ -169,7 +169,7 @@ ht-degree: 1%
 表單詳細資料會分為幾個索引標籤。
 
 * **表單**&#x200B;索引標籤可讓您新增欄位和內容元素至表單
-* **組態**&#x200B;索引標籤可讓您設定表單的核准程式，以及設定要求完成選項&lt;。
+* **組態**索引標籤可讓您設定表單的核准程式，以及設定要求完成選項&lt;。
   <!--* <span class="preview">The **Automations** tab allows you to automate what will occur based on features of the request made with the form.</span>-->
 
 #### 設定表單詳細資料

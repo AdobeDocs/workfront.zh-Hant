@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '3352'
+source-wordcount: '3319'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,13 @@ ht-degree: 1%
 
 # 連接記錄
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 {{planning-important-intro}}
 
@@ -72,10 +76,8 @@ ht-degree: 1%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront套件</p></td> 
    <td> 
-<ul> 
-<li><p>任何Workfront和任何Planning套件</p></li>
-或
-<li><p>任何工作流程與任何Planning套件</p></li></ul>
+<p>任何Workfront和任何Planning套件</p>
+<p>任何工作流程與任何Planning套件</p>
 <p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
    </td> 
 <tr> 
@@ -256,7 +258,7 @@ ht-degree: 1%
 
    或
 
-   在方塊中選取一或多個記錄的名稱，然後按一下[連線物件]。**&#x200B;**
+   在方塊中選取一或多個記錄的名稱，然後按一下[連線物件]。****
 
    新增下列專案：
 
@@ -337,7 +339,7 @@ ht-degree: 1%
 
    或
 
-   在方塊中選取一或多個物件的名稱，然後按一下[連線物件]。**&#x200B;**
+   在方塊中選取一或多個物件的名稱，然後按一下[連線物件]。****
 
    >[!IMPORTANT]
    >
@@ -387,7 +389,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->當您的Experience Manager Assets管理員透過Workfront與Workfront之間的整合設定中繼資料對應時，可從Adobe Experience Manager Assets存取Planning記錄及其欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
+>當您的Experience Manager Assets管理員透過Workfront與Workfront之間的整合設定中繼資料對應時，可從Adobe Experience Manager Assets存取Planning記錄及其欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
 
 若要將記錄與Experience Manager資產連線：
 
@@ -484,7 +486,7 @@ ht-degree: 1%
    >
    >    依預設，只會顯示已連線個別記錄的已連線記錄。
 
-1. （選擇性）按一下[顯示所有連線]&#x200B;**&#x200B;**&#x200B;以顯示所有連線的記錄型別，包括沒有連線記錄的記錄型別。
+1. （選擇性）按一下[顯示所有連線]****&#x200B;以顯示所有連線的記錄型別，包括沒有連線記錄的記錄型別。
 
 1. （選擇性）按一下區段左側的向下箭頭以收合區段。
 
@@ -511,18 +513,23 @@ ht-degree: 1%
 1. 按一下記錄名稱。
 
    預覽頁面隨即開啟。
-1. 按一下&#x200B;**在新標籤中開啟**&#x200B;圖示![在新標籤中開啟詳細資料](assets/open-details-in-a-new-tab-icon.png)以開啟紀錄的頁面。
-1. 按一下記錄頁面中現有的連線記錄頁面索引標籤。 您必須先建立「連線的記錄」頁面。
+1. （選擇性）按一下&#x200B;**在新標籤中開啟**&#x200B;圖示![在新標籤中開啟詳細資料](assets/open-details-in-a-new-tab-icon.png)以開啟紀錄的頁面。
+1. 按一下記錄頁面中現有的&#x200B;**連線記錄頁面**&#x200B;索引標籤。 您必須先建立&#x200B;**連線的記錄頁面**。
 
    表格檢視中會顯示已連線的記錄型別頁面。
 
    表格中會顯示一種型別的所有連線記錄。
-1. 按一下專案清單中的&#x200B;**連線**&#x200B;或&#x200B;<span class="preview">**連線記錄**</span>以新增或移除現有的記錄。
+
+   >[!TIP]
+   >
+   >您必須將連線的記錄新增至目前記錄，才能在連線的記錄頁面中檢視這些記錄。
+
+1. 按一下記錄清單中的&#x200B;**連線**&#x200B;或專案清單中的&#x200B;**連線記錄**，以新增或移除現有的記錄或專案。
 
    連線記錄詳細資訊索引標籤中反白的![連線按鈕](assets/connect-button-highlighted-in-connected-record-details-tab.png)
 
    如需詳細資訊，請參閱[管理記錄頁面配置](/help/quicksilver/planning/records/manage-the-record-page.md)。
-1. <span class="preview">按一下專案清單中的&#x200B;**新增列**&#x200B;以建立專案。 新專案會自動連線到目前的記錄。</span>
+1. 按一下專案清單中的&#x200B;**新增列**&#x200B;以建立沒有範本的專案。 新專案會自動連線到目前的記錄。
 1. （選擇性）如果找不到已連線的記錄，請按一下[新增] **+ [新增]**&#x200B;來建立並連線它們。
 
 ## 從Workfront物件連線記錄

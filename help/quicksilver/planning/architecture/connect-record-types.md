@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '2766'
+source-wordcount: '2764'
 ht-degree: 0%
 
 ---
@@ -72,14 +72,12 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 <p>若要從相同工作區連線記錄型別： </p>
 <ul> 
 <li><p>任何Workfront和任何Planning套件</p></li>
-<p>或</p>
 <li><p>任何工作流程與任何Planning套件</li></ul>
 
 <p>若要從不同的工作區連線記錄型別：</p>
 
 <ul> 
 <li><p>任何Workfront和任何Planning套件</p></li>
-<p>或</p>
 <li><p>任何工作流程和Planning Prime或Ultimate套件</p></li></ul>
 <p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
    </td> 
@@ -273,7 +271,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
    >[!NOTE]
    >
-   >您的Workfront管理員可以透過Workfront中的中繼資料對應，將Workfront Planning欄位對應至Experience Manager Assets欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
+   >您的Workfront管理員可以透過Workfront中的中繼資料對應，將Workfront Planning欄位對應至Experience Manager Assets欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
 
 
 1. （視條件而定）當您選取連線至Experience Manager Assets或Workfront Planning記錄型別時，請在&#x200B;**記錄外觀**&#x200B;區域中選擇下列其中一個選項：
