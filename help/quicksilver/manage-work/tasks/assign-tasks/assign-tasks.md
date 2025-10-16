@@ -7,16 +7,14 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: d0be569333b0454e26f4d0de1078b0425cf81707
+source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
 workflow-type: tm+mt
-source-wordcount: '1814'
+source-wordcount: '1820'
 ht-degree: 1%
 
 ---
 
 # 指派任務
-
-{{preview-fast-release-general}}
 
 <!--Audited: 07/2024-->
 
@@ -206,7 +204,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      <!--<span class="preview">When adding a job role assignment, you can search for the job role or location. Select a Job role to use the default billing rate for the assignment, or select a Rate Card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>-->
 
 
-1. （條件式）在[工作總攬]欄位中，按一下[工作總攬]方塊右上角的&#x200B;<span class="preview">**進階**</span>&#x200B;或&#x200B;**人員圖示** ![人員圖示](assets/teams.png)以開啟&#x200B;**進階工作總攬**&#x200B;方塊，並建立進階工作總攬。
+1. （條件式）在[工作總攬]欄位中，按一下清單底部的&#x200B;**進階**，或工作總攬方塊右上角的&#x200B;**人員圖示** ![人員圖示](assets/teams.png)，以開啟&#x200B;**進階工作總攬**&#x200B;方塊並建立進階工作總攬。
 
    如需詳細資訊，請參閱[建立進階工作分派](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)。
 
@@ -254,7 +252,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 1. （選擇性）如果要從所有工作移除現有的受指派人，請執行下列任一項作業：
 
    1. 開始輸入您要從任務中移除的使用者、角色或團隊名稱，然後當名稱出現在清單中時選取名稱，並按一下&#x200B;**移除受指派人**&#x200B;以移除更多受指派人。
-   1. 按一下「移除所有現有受指派人」**&#x200B;**，從所有選取的工作中移除所有受指派人。
+   1. 按一下「移除所有現有受指派人」****，從所有選取的工作中移除所有受指派人。
 
 1. 按一下「**儲存變更**」。
 1. （選擇性和條件性）當「指派至」或「工作總攬」欄位顯示在您的任務清單中時，按一下這些欄中的一個以取得任務，然後按一下受指派人名稱旁的&#x200B;**X圖示**，以將其從任務中移除。

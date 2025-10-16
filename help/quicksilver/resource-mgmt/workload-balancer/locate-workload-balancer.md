@@ -7,7 +7,7 @@ description: 工作負載平衡器可用於資源區域中的多個專案、團�
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 18c39c5b1959c31b6fd0018476b48643b4b15021
+source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 0%
@@ -15,8 +15,6 @@ ht-degree: 0%
 ---
 
 # 找到工作負載平衡器
-
-{{preview-fast-release-general}}
 
 您可以使用工作負載平衡器來排程工作資源，或檢閱其使用狀態和目前配置。
 
@@ -136,8 +134,6 @@ ht-degree: 0%
      >
      >您可以透過啟用「顯示所有使用者」選項來顯示系統中的所有使用者，而不是僅顯示專案上的使用者（在指派的工作區域中）。 如需詳細資訊，請參閱[瀏覽工作負載平衡器](../workload-balancer/navigate-the-workload-balancer.md)。
 
-<div class="preview">
-
 ### 存取使用者的工作負載平衡器
 
 所有使用者都有權在其個人設定檔上檢視工作負載平衡器。 使用者的工作負載平衡器資料是唯讀的。 您不能在使用者層級指派工作、取消指派工作或調整配置。
@@ -155,8 +151,6 @@ ht-degree: 0%
    依預設，使用者的工作負載平衡器會依資訊顯示以下內容：
 
    * **指派的工作**：指派給特定使用者的任務和問題。
-
-</div>
 
 ## 將工作負載平衡器新增到左側面板作為儀表板
 

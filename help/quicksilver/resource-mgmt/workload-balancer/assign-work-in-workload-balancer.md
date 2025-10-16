@@ -6,7 +6,7 @@ description: 身為資源管理員，您可以使用Adobe Workfront工作負載�
 author: Lisa
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: 6db33763294bc9fa343bb010b318fbcceccfff4c
+source-git-commit: ad9739ac670f723203f1e5e9148c446b6356c126
 workflow-type: tm+mt
 source-wordcount: '1058'
 ht-degree: 1%
@@ -14,8 +14,6 @@ ht-degree: 1%
 ---
 
 # 在工作負載平衡器中指派工作的總覽
-
-{{preview-fast-release-general}}
 
 <!-- Audited: 5/2025 -->
 
@@ -146,7 +144,7 @@ Workfront使用下列資訊在工作負載平衡器中計算使用者的容量�
  </tbody> 
 </table>
 
-&#42;將工作專案指派給使用者和角色時，只有當角色是主要受指派人時，它才會顯示在「未指派的工作」區域中。 啟用<span class="preview">顯示角色指派&#x200B;**設定時，**&#x200B;角色指派會顯示在未指派的工作區域的工作專案下。</span>
+&#42;將工作專案指派給使用者和角色時，只有當角色是主要受指派人時，它才會顯示在「未指派的工作」區域中。 啟用&#x200B;**顯示角色指派**&#x200B;設定時，角色指派會顯示在未指派的工作區域的工作專案下。
 
 &#42;&#42;將工作專案指派給使用者和另一個實體時，只有當使用者是主要受指派人時，它才會顯示在「已指派的工作」區域中。
 

@@ -6,16 +6,14 @@ description: 使用工作負載平衡器瞭解資源的可用性，並將工作�
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
 workflow-type: tm+mt
-source-wordcount: '4348'
+source-wordcount: '4334'
 ht-degree: 0%
 
 ---
 
 # 瀏覽工作負載平衡器
-
-{{preview-fast-release-general}}
 
 <!--Audited: 12/2024-->
 
@@ -23,7 +21,7 @@ ht-degree: 0%
 
 工作負載平衡器可在Adobe Workfront的多個區域使用。 導覽它在所有區域都類似。
 
-如需工作負載平衡器所在位置的詳細資訊，請參閱[找到工作負載平衡器](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer)。
+如需工作負載平衡器所在位置的詳細資訊，請參閱[找到工作負載平衡器](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer)。
 
 ## 存取需求
 
@@ -78,7 +76,7 @@ ht-degree: 0%
   >* 指派給工作角色或團隊的工作專案，以及指派給使用者的工作專案，會顯示在「未指派的工作」區域中，並在「已指派的工作」區域中的已指派使用者名稱下方。
   >* 指派給使用者和工作角色的工作專案（工作角色被選取為專案的主要受指派者）會顯示在「未指派的工作」區域中。
   >* 指派給多個使用者的工作專案會顯示在「已指派的工作」區域中所有已指派使用者的名稱下。
-  >* 啟用[顯示角色指派]設定時，<span class="preview">角色指派會顯示在[未指派的工作]區域的工作專案下。 如需詳細資訊，請參閱本文章的[自訂檢視](#customize-the-view)一節。</span>
+  >* 啟用「顯示角色指派」設定時，角色指派會顯示在「未指派工作」區域的工作專案下。 如需詳細資訊，請參閱本文中的[自訂檢視](#customize-the-view)一節。
 
   如需詳細資訊，請參閱[工作負載平衡器](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md#assignment-areas-in-the-workload-balancer)中指派工作的總覽[工作負載平衡器](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)中的指派區域。
 
@@ -105,9 +103,8 @@ ht-degree: 0%
 
 如需有關使用工作負載平衡器管理資源的資訊，另請參閱下列文章：
 
-* [在工作負載平衡器](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)中指派工作的總覽
-* [在工作負載平衡器](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)中管理使用者配置
-
+* [在工作負載平衡器](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)中指派工作的總覽
+* [在工作負載平衡器](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)中管理使用者配置
 
 ## 在資源區域瀏覽工作負載平衡器多個專案
 
@@ -138,7 +135,7 @@ ht-degree: 0%
 
         如需有關使用篩選的資訊，請參閱工作負載平衡器[中的](../workload-balancer/filter-information-workload-balancer.md)篩選資訊。
 
-      * <span class="preview">工作專案下的角色指派只有在您啟用[顯示角色指派]設定時才會顯示。 如需詳細資訊，請參閱本文章的[自訂檢視](#customize-the-view)一節。</span>
+      * 工作專案下的角色指派僅在您啟用「顯示角色指派」設定時顯示。 如需詳細資訊，請參閱本文中的[自訂檢視](#customize-the-view)一節。
 
       * 專案僅在您啟用依專案分組設定時顯示。 如需詳細資訊，請參閱本文中的[自訂檢視](#customize-the-view)一節。
 
@@ -240,11 +237,7 @@ ht-degree: 0%
 
    「設定」面板會顯示在右側。
 
-   <span class="preview">預覽環境中的範例影像：</span>
    ![工作負載平衡器設定面板](assets/workload-balancer-settings.png)
-
-   生產環境中的影像範例：
-   ![設定面板](assets/settings-box-options-global-with-color-theme-and-percentage-wb-nwe.png)
 
    從下列選項中選取以更新您在工作負載平衡器中檢視的資訊，然後按一下「設定」方塊右上角的&#x200B;**X圖示**&#x200B;以關閉它。
 
@@ -265,7 +258,7 @@ ht-degree: 0%
 
      任務或問題列完成時，其右上角會顯示綠色核取記號圖示。 當專案所選時間範圍內的任務或問題完成時，專案會顯示相同的圖示。
    * **顯示剩餘時間**：啟用此功能後，Workfront會根據使用者的排程，顯示使用者每天可工作的時間，與使用者在指派的工作區域中所分配的時間之間的差異。 依預設會停用此專案，並依預設顯示配置時間。
-   * <span class="preview">**顯示角色指派**：啟用時，角色指派會顯示在未指派的工作區域中，在其指派的工作專案下。 預設為啟用。</span>
+   * **顯示角色指派**：啟用時，角色指派會顯示在未指派的工作區域中，在其指派的工作專案下。 這預設為啟用。
 
    * 在&#x200B;**選取顏色佈景主題**&#x200B;區段中，選取專案與工作列的所要顏色。
 
@@ -316,7 +309,7 @@ ht-degree: 0%
    ![配置的時間詳細資料](assets/overallocation-vs-capacity-tooltip-wb-nwe.png)
 
 1. （選擇性）按一下&#x200B;**隱藏配置圖示** ![顯示配置圖示](assets/show-allocations-icon-small.png)，在工作專案的長條中顯示任務和問題的名稱。
-1. 按一下任務、問題、**或角色**&#x200B;名稱右側的![更多功能表](assets/more-icon.png)圖示<span class="preview">更多圖示</span>，然後按一下下列其中一個選項。
+1. 按一下任務、問題或角色名稱右側的&#x200B;**更多功能表**&#x200B;圖示![更多圖示](assets/more-icon.png)，然後按一下下列其中一個選項。
 
    ![更多功能表](assets/more-menu-right-of-task-350x104.png)
 
@@ -329,11 +322,11 @@ ht-degree: 0%
       * 在Windows中：按住CTRL鍵並按一下任務列或問題列。
       * 在Mac中： CMD按一下任務或問題列。
 
-     如需有關在工作負載平衡器中指派工作專案給使用者的詳細資訊，請參閱在工作負載平衡器中指派工作的概述[&#128279;](../workload-balancer/assign-work-in-workload-balancer.md)。
+     如需有關在工作負載平衡器中指派工作專案給使用者的詳細資訊，請參閱在工作負載平衡器中指派工作的概述[](../workload-balancer/assign-work-in-workload-balancer.md)。
 
      >[!NOTE]
      >
-     ><span class="preview">啟用[顯示角色指派]設定時，角色指派只會顯示在[未指派的工作]區域的工作專案下。 如需詳細資訊，請參閱本文中的[自訂檢視](#customize-the-view)一節。 角色指派在&#x200B;**更多功能表**.**中只有**&#x200B;將此指派給</span>選項
+     >啟用「顯示角色指派」設定時，角色指派僅顯示在「未指派工作」區域的工作專案下。 如需詳細資訊，請參閱本文中的[自訂檢視](#customize-the-view)一節。 角色指派在&#x200B;**更多功能表**&#x200B;中只有&#x200B;**將此指派給**&#x200B;選項。
 
      >[!TIP]
      >
@@ -423,7 +416,7 @@ ht-degree: 0%
 
    依預設，團隊的工作負載平衡器顯示以下資訊：
 
-   * 在&#x200B;**未指派的工作**&#x200B;區域中：指派給團隊或團隊和工作角色的工作專案，以及未指派給使用者的工作專案。 啟用[顯示角色指派]設定時，<span class="preview">角色指派會顯示在[未指派的工作]區域的工作專案下。</span>
+   * 在&#x200B;**未指派的工作**&#x200B;區域中：指派給團隊或團隊和工作角色的工作專案，以及未指派給使用者的工作專案。 啟用「顯示角色指派」設定時，角色指派會顯示在「未指派工作」區域的工作專案下。
    * 在&#x200B;**指派的工作**&#x200B;區域中：指派給使用者的工作專案會顯示在使用者的名稱下。
 
 1. 繼續瀏覽團隊的工作負載平衡器，如本文的[瀏覽資源區域](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area)區段中多個專案的工作負載平衡器。
@@ -439,7 +432,7 @@ ht-degree: 0%
 
    預設情況下，專案的工作負載平衡器顯示以下資訊：
 
-   * 在&#x200B;**未指派的工作**&#x200B;區域中：專案上已指派給角色或團隊且未指派給使用者的工作專案。 啟用[顯示角色指派]設定時，<span class="preview">角色指派會顯示在[未指派的工作]區域的工作專案下。</span>
+   * 在&#x200B;**未指派的工作**&#x200B;區域中：專案上已指派給角色或團隊且未指派給使用者的工作專案。 啟用「顯示角色指派」設定時，角色指派會顯示在「未指派工作」區域的工作專案下。
    * 在&#x200B;**已指派的工作**&#x200B;區域中：專案上已指派給至少一個使用者的工作專案。
 
    我們建議使用篩選器來只顯示對您重要的使用者。
@@ -480,8 +473,6 @@ ht-degree: 0%
 
 1. 繼續瀏覽專案的工作負載平衡器，如本文的[瀏覽多個專案的工作負載平衡器](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area)區段中所述。
 
-<div class="preview">
-
 ### 瀏覽使用者的工作負載平衡器
 
 您可以在自己的使用者設定檔上存取工作負載平衡器。
@@ -504,7 +495,6 @@ ht-degree: 0%
 
 1. 繼續瀏覽使用者的工作負載平衡器，如本文的[瀏覽多個專案的工作負載平衡器](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area)區段中所述。
 
-</div>
 
 <!--old content below - this used to be a one-large-procedure article - outdated, and rewrote it above with several smaller procedures: 
 

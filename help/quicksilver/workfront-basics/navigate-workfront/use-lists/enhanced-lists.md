@@ -5,7 +5,7 @@ description: 增強型清單會使用表格格式來顯示清單專案，而且�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-source-git-commit: dc820b4012fec494ce5ebb1baefb4ee0df214916
+source-git-commit: ad9739ac670f723203f1e5e9148c446b6356c126
 workflow-type: tm+mt
 source-wordcount: '1124'
 ht-degree: 1%
@@ -13,8 +13,6 @@ ht-degree: 1%
 ---
 
 # 使用增強型清單
-
-{{preview-fast-release-general}}
 
 Adobe Workfront的部分割槽域提供增強型清單。 這些清單使用表格格式來顯示清單專案，並且它們具有與標準清單不同的外觀和感覺。 也增強了檢視管理，包括篩選、分組、管理欄和搜尋。
 
@@ -126,7 +124,7 @@ Adobe Workfront的部分割槽域提供增強型清單。 這些清單使用表�
    >
    >欄位名稱旁的圖示會顯示欄位型別，例如文字或日期欄位。
 
-   <span class="preview">當欄隱藏時，**欄**&#x200B;按鈕上會出現指示器。 當您重新排序欄時，指示器未出現。</span>
+   當欄隱藏時，**欄**&#x200B;按鈕上會出現指示器。 當您重新排序欄時，指示器未出現。
 
    隱藏資料行的![指標](assets/glist-columns-hidden-indicator.png)
 
@@ -149,7 +147,7 @@ Adobe Workfront的部分割槽域提供增強型清單。 這些清單使用表�
 1. 按一下&#x200B;**新增條件**，將另一個條件以OR陳述式形式新增至篩選器。
 1. 套用篩選器時，您可以再次開啟&#x200B;**篩選器**&#x200B;選項來變更篩選器選項或清除所有篩選器。
 
-   將篩選器套用至清單時，<span class="preview">指標會出現在&#x200B;**篩選器**&#x200B;按鈕上。</span>
+   將篩選器套用至清單時，**篩選器**&#x200B;按鈕上會出現指示器。
 
    ![已套用篩選指示器](assets/glist-filter-applied-indicator.png)
 
@@ -164,7 +162,7 @@ Adobe Workfront的部分割槽域提供增強型清單。 這些清單使用表�
 
    ![在增強型清單中分組](assets/glist-group-by-due-date-priorities.png)
 
-   將群組套用至清單時，<span class="preview">指標會出現在&#x200B;**群組**&#x200B;按鈕上。</span>
+   將分組套用至清單時，**群組**&#x200B;按鈕上會出現指示器。
 
    ![群組已套用指標](assets/glist-grouping-applied-indicator.png)
 

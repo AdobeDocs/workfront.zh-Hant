@@ -7,16 +7,14 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: 7aa420946115fc612ad1d9e310583e5453ae0678
+source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1424'
 ht-degree: 0%
 
 ---
 
 # 指派問題
-
-{{preview-fast-release-general}}
 
 <!--Audited: 07/2024-->
 
@@ -170,11 +168,7 @@ ht-degree: 0%
 
    * 按一下&#x200B;**指派**&#x200B;欄位並開始輸入您想要指派給問題的作用中使用者、工作角色或作用中團隊的名稱，然後當它顯示在清單中時按一下它。
 
-     <span class="preview">預覽環境中的範例影像：</span>
      ![指派欄位](assets/assignments-field-0825.png)
-
-     生產環境中的影像範例：
-     ![指派欄位](assets/assignments-field-task-list-0424.png)
 
    >[!TIP]
    >
@@ -184,7 +178,7 @@ ht-degree: 0%
    >
    >您必須在存取層級中啟用檢視聯絡資訊設定，使用者才能檢視使用者的電子郵件。 如需詳細資訊，請參閱[授予使用者存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)。
 
-1. （條件式）在[工作總攬]欄位中，按一下[工作總攬]方塊右上角的&#x200B;<span class="preview">**進階**</span>&#x200B;或&#x200B;**人員圖示** ![人員圖示](assets/teams.png)以開啟[進階工作總攬]方塊並建立進階工作總攬。 如需詳細資訊，請參閱[建立進階工作分派](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)。
+1. （條件式）在[工作總攬]欄位中，按一下清單底部的&#x200B;**進階**，或工作總攬方塊右上角的&#x200B;**人員圖示** ![人員圖示](assets/teams.png)，以開啟[進階工作總攬]方塊並建立進階工作總攬。 如需詳細資訊，請參閱[建立進階工作分派](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)。
 
    >[!TIP]
    >

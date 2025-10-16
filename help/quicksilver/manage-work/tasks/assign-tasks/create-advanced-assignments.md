@@ -7,16 +7,14 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: d0be569333b0454e26f4d0de1078b0425cf81707
+source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1118'
 ht-degree: 0%
 
 ---
 
 # 建立進階任務指派
-
-{{preview-fast-release-general}}
 
 <!-- Audited: 07/2024-->
 
@@ -85,11 +83,8 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >您可以直接在任務或問題清單上進行進階指派。 按一下任務或問題所在行上的&#x200B;**工作總攬**&#x200B;欄位內，然後按一下&#x200B;<span class="preview">**進階**</span>&#x200B;或&#x200B;**人員圖示**&#x200B;以開啟「進階工作總攬」視窗。 跳到步驟5以繼續建立進階工作分派。
-   ><span class="preview">預覽環境中的範例影像：</span>
+   >您可以直接在任務或問題清單上進行進階指派。 按一下與任務或問題同列的&#x200B;**工作總攬**&#x200B;欄位，然後按一下清單底部的&#x200B;**進階**，或工作總攬方塊右上角的&#x200B;**人員圖示**，以開啟「進階工作總攬」視窗。 跳到步驟5以繼續建立進階工作分派。
    >![按一下[進階]或[人員]圖示](assets/access-aa-from-lists.png)
-   >生產環境中的影像範例：
-   >![按一下「連絡人」圖示](assets/nwe-advanced-assignments-350x55.png)
 
 1. 按一下任務或問題標題中&#x200B;**工作總攬**&#x200B;欄位中的&#x200B;**指派給**
 

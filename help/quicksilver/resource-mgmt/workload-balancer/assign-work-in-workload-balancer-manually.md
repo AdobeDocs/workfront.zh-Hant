@@ -7,7 +7,7 @@ author: Lisa
 feature: Resource Management
 role: User
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
 workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 1%
@@ -15,8 +15,6 @@ ht-degree: 1%
 ---
 
 # 使用工作負載平衡器手動指派工作
-
-{{preview-fast-release-general}}
 
 您可以使用Adobe Workfront工作負載平衡器手動指派工作專案給使用者。
 
@@ -69,7 +67,7 @@ ht-degree: 1%
 
    您可以使用資源區域、專案或團隊層級的工作負載平衡器將工作指派給使用者。 如需有關工作負載平衡器在Workfront中的位置的詳細資訊，請參閱[找到工作負載平衡器](../../resource-mgmt/workload-balancer/locate-workload-balancer.md)。
 
-1. （選擇性）移至&#x200B;**未指派的工作**&#x200B;區域並套用篩選器以檢視任務、問題、<span class="preview">或角色指派</span>。
+1. （選擇性）移至&#x200B;**未指派的工作**&#x200B;區域並套用篩選器以檢視任務、問題或角色指派。
 
    或
 
@@ -77,9 +75,9 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >啟用[顯示角色指派]設定時，<span class="preview">角色指派會顯示在[未指派的工作]區域的工作專案下。 如需詳細資訊，請參閱[在](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md#customize-the-view)瀏覽工作負載平衡器[中自訂檢視](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。</span>
+   >啟用「顯示角色指派」設定時，角色指派會顯示在「未指派工作」區域的工作專案下。 如需詳細資訊，請參閱[瀏覽工作負載平衡器](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md#customize-the-view)中的[自訂檢視](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。
 
-1. 按一下工作專案名稱&#x200B;**或角色指派**&#x200B;左側的![更多功能表](assets/qs-more-menu.png) <span class="preview">更多功能表</span>，然後按一下&#x200B;**將此指派給**。
+1. 按一下工作專案名稱或角色指派左側的&#x200B;**更多功能表** ![更多功能表](assets/qs-more-menu.png)，然後按一下&#x200B;**將此指派給**。
 
    ![將此指派給](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
 

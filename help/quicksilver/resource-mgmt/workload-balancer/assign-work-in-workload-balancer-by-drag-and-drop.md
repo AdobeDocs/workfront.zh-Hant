@@ -6,16 +6,14 @@ description: 您可以透過拖放工作專案給正確的使用者，使用Adob
 author: Lisa
 feature: Resource Management
 exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
-source-git-commit: 2a52b1e401eae79c55076afd352cc83e1829140a
+source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '945'
 ht-degree: 0%
 
 ---
 
 # 透過拖放在工作負載平衡器中指派工作
-
-{{preview-fast-release-general}}
 
 您可以透過拖放工作專案給正確的使用者，使用Adobe Workfront工作負載平衡器指派工作專案。
 
@@ -68,7 +66,7 @@ ht-degree: 0%
 
    您可以使用資源區域、專案或團隊層級的工作負載平衡器將工作指派給使用者。 如需有關工作負載平衡器在Workfront中的位置的詳細資訊，請參閱[找到工作負載平衡器](../../resource-mgmt/workload-balancer/locate-workload-balancer.md)。
 
-1. （選擇性）移至&#x200B;**未指派的工作**&#x200B;區域並套用篩選器以檢視未指派給使用者的任務、問題、<span class="preview">和角色指派</span>
+1. （選擇性）移至&#x200B;**未指派的工作**&#x200B;區域並套用篩選器以檢視未指派給使用者的任務、問題和角色指派
 
    或
 
@@ -76,7 +74,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >啟用[顯示角色指派]設定時，<span class="preview">角色指派會顯示在[未指派的工作]區域的工作專案下。 如需詳細資訊，請參閱[在](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md#customize-the-view)瀏覽工作負載平衡器[中自訂檢視](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。</span>
+   >啟用「顯示角色指派」設定時，角色指派會顯示在「未指派工作」區域的工作專案下。 如需詳細資訊，請參閱[瀏覽工作負載平衡器](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md#customize-the-view)中的[自訂檢視](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。
 
 1. （視條件而定）在專案的工作負載平衡器中，按一下&#x200B;**顯示所有使用者**&#x200B;圖示![顯示所有使用者](assets/show-all-users-icon-project-workload-balancer.png)以顯示所有Workfront使用者。
 
@@ -91,25 +89,21 @@ ht-degree: 0%
    >* 顯示所有使用者選項僅在專案的工作負載平衡器中可用。
    >* 使用篩選器只顯示對您重要的使用者。 例如，使用篩選器以僅顯示您團隊或群組中的使用者。
 
-1. 按一下工作專案<span class="preview">或角色指派</span>的橫條，指出計畫或預計的時間表，然後將其拖曳到&#x200B;**已指派**&#x200B;區域中的使用者數小時。
+1. 按一下工作專案或角色指派列（表示計畫或預計時間表），然後將其拖曳至&#x200B;**已指派**&#x200B;區域中使用者的時數。
 
    將滑鼠懸停在上方以將工作專案放置到的使用者會醒目提示。
 
-   <span class="preview">拖放角色指派時，如果使用者目前的角色與角色指派不符，則會以橘色醒目提示。 當角色不符時，您仍然可以將工作指派給使用者。</span>
+   拖放角色指派時，如果使用者目前的角色與角色指派不符，則會以橘色醒目提示。 當角色不符時，您仍然可以將工作指派給使用者。
 
    >[!TIP]
    >
    >您暫留在工作專案上之使用者的計畫時數會即時更新其每日計畫時數，以指出新增專案對其整體配置可能產生的影響。
 
-   <span class="preview">預覽環境中的範例影像：</span>
    ![放置要指派給使用者的專案](assets/wb-drag-drop-role-or-task-to-user.png)
 
-   生產環境中的影像範例：
-   ![放置要指派給使用者的專案](assets/drag-drop-item-from-unassigned-to-assigned-wb-nwe-350x152.png)
+1. 準備就緒後，將所選工作專案或角色指派拖放到與指派區域中的使用者名稱相同的行中。 專案已指派，而已分配的「計畫時數」已針對具有工作專案新時數的使用者更新。
 
-1. 準備就緒後，將所選的工作專案<span class="preview">或角色指派</span>拖放到與指派區域中的使用者名稱相同的行中。 專案已指派，而已分配的「計畫時數」已針對具有工作專案新時數的使用者更新。
-
-   <span class="preview">如果[顯示角色指派]設定未啟用</span>，且工作專案指派給使用者無法完成的工作角色，則專案會顯示在[指派的工作]區域中使用者名稱下。 它也會保留在未指派的工作區域中，以表示與其關聯的工作角色尚未被使用者取代。
+   如果未啟用「顯示角色指派」設定，且工作專案被指派給使用者無法完成的工作角色，則該專案會顯示在「已指派的工作」區域中使用者名稱下。 它也會保留在未指派的工作區域中，以表示與其關聯的工作角色尚未被使用者取代。
 
    >[!TIP]
    >
