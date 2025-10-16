@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '1073'
+source-wordcount: '1140'
 ht-degree: 1%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 1%
 
 # 建立記錄型別
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -46,20 +46,26 @@ ht-degree: 1%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront套件</p></td> 
    <td> 
-<p>若要啟用可連線的記錄型別，請執行下列動作： </p>
+<p>任何Workfront和Planning套件</p>
+<p>任何工作流程和Planning套件</p>
+<p><b>附註</b></p>
+<p>若要設定可連線的記錄型別： </p>
 <ul> 
 <li><p>任何Workfront套件和任何Planning套件</p></li>
 <p>或</p>
-<li><p>工作流程與規劃Prime和Ultimate套件</p></li></ul>
+<li><p>任何工作流程和Planning Prime或Ultimate套件</p></li></ul>
 
-<p>若要啟用全域記錄型別，請執行下列動作：</p>
+<div class="preview">
+<p>若要設定全域記錄型別，請執行下列動作：</p>
 
 <ul> 
 <li><p>任何Workfront套件和Planning Plus套件</p></li>
 <p>或</p>
-<li><p>工作流程與規劃Prime和Ultimate套件</p></li></ul>
-<p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
-   </td> 
+<li><p>任何工作流程和Planning Prime或Ultimate套件</p></li></ul>
+<p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p>
+
+</div>
+   </td> </tr>
   <tr> 
    <td role="rowheader"><p>Adobe Workfront授權</p></td> 
    <td><p>標準</p>
@@ -203,19 +209,13 @@ ht-degree: 1%
       * 選取顏色以識別您的新記錄型別。 這是記錄型別圖示的顏色。 預設會選取「灰色」。
       * 從清單中選取圖示，或開始輸入圖示名稱以說明其代表內容，然後在顯示時選取它。 這是記錄型別的圖示。 依預設，會選取檔案圖示。
 
-1. （選擇性和條件性）如果您是系統管理員，請按一下&#x200B;**進階設定**，並更新&#x200B;**跨工作區功能**&#x200B;區段中的下列資訊： <!--the info here is duplicated in the Edit record types article-->
-   * 啟用&#x200B;**允許連線到其他工作區中的這個記錄型別**&#x200B;設定：這可讓工作區管理員從其他工作區連線到這個記錄型別。\
-     您可以指定此記錄型別可以連線哪些工作區。 您可以使其可用於所有工作區，或指定可匯入其的特定工作區。
-如需詳細資訊，請參閱[設定記錄型別的跨工作區功能](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)。
+1. （選擇性和條件性）如果您是系統管理員，請按一下&#x200B;**進階設定** <span class="preview">或&#x200B;**跨工作區設定**</span>&#x200B;索引標籤，並更新記錄型別的跨工作區功能相關資訊。
 
+   如需詳細資訊，請參閱[設定記錄型別的跨工作區功能](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)。<!--update screen shot at production - Jan 2026-->
 
-   ![在進階設定索引標籤上建立記錄型別方塊](assets/create-record-type-box-advanced-settings-tab.png)
+   ![使用進階設定索引標籤編輯記錄型別方塊](assets/edit-record-type-box-advanced-settings-tab.png)
 
-   <!--replace last point with this when we release global record types; the preview tags might need to be edited, too:
-    1. <span class="preview">(Optional and conditional) If you are a system administrator, update the information in the **Cross-workspace settings** tab.</span>
-    <span class="preview">For more information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).</span>
-    ***********Add screenshot***********
-    -->
+   如需詳細資訊，請參閱[設定記錄型別的跨工作區功能](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)。
 
 1. 按一下「**儲存**」。
 
@@ -224,18 +224,13 @@ ht-degree: 1%
 
    ![含有說明的記錄型別卡片](assets/record-type-card-with-description.png)
 
-   如果您選擇從其他工作區連線此記錄，記錄卡上會顯示&#x200B;**從其他工作區連線**&#x200B;圖示![從其他工作區連線圖示](assets/connect-from-other-workspaces-icon.png)。
+   如果您選擇從其他工作區連線此記錄，記錄卡上會顯示&#x200B;**可連線的記錄**&#x200B;圖示![從其他工作區連線圖示](assets/connect-from-other-workspaces-icon.png)。
 
-   <!--<span class="preview">If you configured the cross-workspace capabilities for the record, the **connectable record type** icon ![Connectable record type icon](assets/connect-from-other-workspaces-icon.png) and the **global record type** icon ![Global record type icon](assets/global-icon.png) also display on the card. </span>-->
+   <span class="preview">如果您選取允許將此記錄新增至其他工作區，記錄卡上會顯示&#x200B;**全域記錄**&#x200B;圖示![全域記錄型別圖示](assets/global-icon.png)。</span>
 
-1. （選擇性）將滑鼠停留在記錄型別卡片上，按一下右上角的&#x200B;**更多**&#x200B;圖示![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**編輯**&#x200B;以修改有關記錄型別的資訊。
+1. （選擇性）將滑鼠停留在記錄型別卡片上，按一下右上角的&#x200B;**更多**&#x200B;圖示![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**編輯**&#x200B;或&#x200B;<span class="preview">**設定**</span>&#x200B;以修改記錄型別的相關資訊。
 
-   <!--replace the last point with this at the preview release of global record types:
-    <span class="preview">(Optional) Hover over the record type card, click the **More** icon ![More menu](assets/more-menu.png) in the upper-right corner, then click **Edit** or **Settings** to modify information about the record type. </span>
-    >[!TIP]
-    >
-    ><span class="preview">You can access the **Edit** and **Settings** options from the **More** menu of a record type in the record type page.</span>
-    -->
+   如需詳細資訊，請參閱[編輯記錄型別](/help/quicksilver/planning/architecture/edit-record-types.md)。
 
 1. （選擇性）按一下記錄型別卡片以開啟記錄型別頁面。
 

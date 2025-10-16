@@ -1,25 +1,24 @@
 ---
 title: 跨工作區記錄型別概觀
-description: 全域記錄型別可以從Adobe Workfront Planning的中央或主要工作區新增到多個工作區。
-hidefromtoc: true
-hide: true
-exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 95474ea813f4ea575942eea733caf2952b2daa75
-workflow-type: tm+mt
-source-wordcount: '1453'
-ht-degree: 0%
-
----
-
-<!-- add these to the metadata, when making this public: 
-
+description: 您可以將記錄型別啟用為全域或可連線。 全域記錄型別可以從Adobe Workfront Planning的中央或主要工作區新增至多個工作區，而可連線的記錄型別則可從其本身以外的工作區連線至。
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
--->
+exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+workflow-type: tm+mt
+source-wordcount: '1534'
+ht-degree: 0%
+
+---
+
 
 # 跨工作區記錄型別總覽
+
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -32,11 +31,13 @@ recommendations: noDisplay, noCatalog
 
 以下是記錄型別的跨工作區功能：
 
-* **全域記錄型別**：使用者可以將全域記錄型別新增到他們管理的其他工作區。
+* <span class="preview">**全域記錄型別**：使用者可以將全域記錄型別新增至他們管理的其他工作區。</span>
 
 * **可連線的記錄型別**：使用者可以從其他工作區連線到此記錄型別。
 
 本文提供跨工作區記錄型別的概觀。 如需有關定義記錄型別的跨工作區功能的資訊，請參閱[設定記錄型別的跨工作區功能](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)。
+
+<div class="preview">
 
 ## 全域記錄型別概觀
 
@@ -118,11 +119,12 @@ recommendations: noDisplay, noCatalog
     * Add request forms to it
     * Add automations to it-->
 
-* 任何使用者都不能對從次要工作區中的全域記錄型別新增的記錄型別執行下列動作：
+* 任何使用者都無法在次要工作區中對全域記錄型別執行下列動作：
 
    * 編輯它
 
      您無法編輯其外觀、跨工作區功能或從原始工作區新增的欄位。
+   * 共用
    * 建立及管理申請表單
    * 建立及管理自動化
 
@@ -151,6 +153,8 @@ recommendations: noDisplay, noCatalog
 * 如果使用者具有存取權，則會在全域記錄型別的原始工作區中建立記錄。
 
 * 如果使用者沒有存取權，使用者會收到錯誤，表明他們無權存取全域記錄型別的原始工作區，他們需要提供他們有權建立記錄的工作區ID。
+
+</div>
 
 ## 可連線記錄型別的概觀
 

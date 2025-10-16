@@ -6,9 +6,9 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '809'
 ht-degree: 1%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 1%
 
 <!--do not use the snippet for IMPORTANT , as it links to this article-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 >[!IMPORTANT]
 >
@@ -57,14 +57,20 @@ ht-degree: 1%
    <td role="rowheader"><p>Adobe Workfront套件</p></td>
    <td>
    <p>任何Workfront和Planning套件</p>
-   <p>或</p>
    <p>任何工作流程和Planning套件</p>
-   <!--<p><b>NOTE</b></p>
-<p><span class="preview">For access to global record types:</span></p>
-<ul><li><p><span class="preview">Any Workfront package and a Planning Plus package</span></p></li>
-<p>Or</p>
-<li><p><span class="preview">Workflow and Planning Prime and Ultimate packages</span></p></li></ul>--> </td>
-<tr>
+
+<p><b>附註</b></p>
+
+<p>若要存取可連線的記錄型別：</p>
+   <ul><li><p>任何Workfront套件和Planning套件</p></li>
+   <li><p>任何工作流程及Planning Prime和Ultimate套件</p></li></ul>
+
+<div class="preview">
+   <p>若要存取全域記錄型別：</p>
+   <ul><li><p>任何Workfront套件和Planning Plus套件</p></li>
+   <li><p>任何Workflow套件和Planning Prime與Ultimate套件</p></li></ul> </td></tr>
+   </div>
+   <tr>
    <td role="rowheader"><p>Adobe Workfront平台</p></td>
    <td>
    <p>貴組織的Workfront例項必須上線至Adobe Unified Experience，才能存取Workfront Planning。</p>

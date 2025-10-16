@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 1%
+source-wordcount: '1062'
+ht-degree: 0%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 # 刪除記錄型別
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -52,10 +52,12 @@ ht-degree: 1%
 <li><p>任何Workfront和任何Planning套件</p></li>
 <p>或</p>
 <li><p>任何工作流程與任何Planning套件</p></li></ul>
-<!--<p>To delete global record types:</p>
-<ul><li><p>Any Workfront package and a Planning Plus package</p></li>
-<p>Or</p>
-<li><p>Workflow and Planning Prime and Ultimate packages</p></li></ul>-->
+<div class="preview">
+<p>若要刪除全域記錄型別，請執行下列動作：</p>
+<ul><li><p>任何Workfront套件和Planning Plus套件</p></li>
+<p>或</p>
+<li><p>任何工作流程和Planning Prime或Ultimate套件</p></li></ul>
+</div>
 <p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
    </td> 
   <tr> 
@@ -71,7 +73,7 @@ ht-degree: 1%
 </tbody> 
 </table>
 
-*如需Workfront存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需Workfront存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++   
 
@@ -148,14 +150,13 @@ ht-degree: 1%
 * 您無法復原已刪除的記錄型別或其資訊。
 * 建議您先在其他記錄型別上重新建立與您要刪除之記錄型別相關的欄位和記錄，然後再刪除它們。
 
-<!--
 <div class="preview">
 
-* You cannot delete a global record type that has been added to other workspaces. 
+* 您無法刪除已新增至其他工作區的全域記錄型別。
 
-   For more information, see the section [Delete global record types](#delete-global-record-types) in this article. 
+  如需詳細資訊，請參閱本文中的[刪除全域記錄型別](#delete-global-record-types)一節。
 
-</div>-->
+</div>
 
 ## 刪除記錄型別
 
@@ -180,71 +181,68 @@ ht-degree: 1%
 
    所選的記錄型別及其欄位、關聯的記錄和檢視都會被刪除並且無法復原。
 
-<!--
-
 <div class="preview">
 
-## Delete global record types
+## 刪除全域記錄型別
 
-The following scenarios exist when deleting global record types:
+刪除全域記錄型別時有下列情況：
 
-* If a record type configured as global has not yet been added to another workspace, you can delete it from its original workspace. 
+* 如果設定為全域的記錄型別尚未新增到另一個工作區，您可以從它的原始工作區中刪除它。
 
-* If a record type configured as a global record type has been added to at least one other workspace, you cannot delete it from its original workspace. You must first remove (by deleting) global record types from the secondary workspaces where they were added and then you can permanently delete the global record type from its original workspace. 
+* 如果設定為全域記錄型別的記錄型別已新增到至少一個其他工作區，則您無法從它的原始工作區中刪除它。 您必須先從新增的全域記錄型別所在的次要工作區中移除（透過刪除）全域記錄型別，然後再從原始工作區中永久刪除全域記錄型別。
 
-### Delete a global record type from the original workspace
+### 從原始工作區中刪除全域記錄型別
 
-You can delete a record type from its original workspace if it's no longer relevant. 
+如果記錄型別不再相關，您可以將其從原始工作區中刪除。
 
-1. Go to the global record type in its original workspace. 
+1. 移至原始工作區中的全域記錄型別。
 
-1. (Conditional) Do one of the following, depending on whether the global record type has been added to secondary workspaces: 
+1. （視條件而定）根據全域記錄型別是否已新增至次要工作區，執行下列其中一項作業：
 
-   * If the record type was not added to a secondary workspace, click on the **More** menu ![More menu](assets/more-menu.png) on the record type's card, or to the right of the record type's name on its page, then click **Delete**. 
-   * If the record type was added to at least one other secondary workspace, first, go to the secondary workspace and delete the global record from that space. 
+   * 如果記錄型別未新增到次要工作區，請按一下記錄型別卡片上的&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，或在其頁面上的記錄型別名稱右側，然後按一下&#x200B;**刪除**。
+   * 如果記錄型別已新增到至少一個其他次要工作區，請先移至次要工作區，然後從該工作區中刪除全域記錄。
 
-      For information, see the section [Delete a global record type from a secondary workspace](#delete-a-global-record-type-from-a-secondary-workspace) in this article. 
-   
-1. (Conditional) Continue deleting the record type, as described in the section [Delete record types](#delete-record-types-1) in this article.
+     如需詳細資訊，請參閱本文中的[從次要工作區刪除全域記錄型別](#delete-a-global-record-type-from-a-secondary-workspace)一節。
 
-   The following things occur: 
+1. （視條件而定）繼續刪除記錄型別，如本文中[刪除記錄型別](#delete-record-types-1)一節所述。
 
-   * The global record type is removed from the original workspace and the record type, its records and fields cannot be recovered.
-   * All global record types from the secondary workspaces and their records are also removed.
+   會發生下列情況：
 
-### Delete a global record type from a secondary workspace
+   * 全域記錄型別會從原始工作區中移除，且無法復原記錄型別、其記錄和欄位。
+   * 次要工作區中的所有全域記錄型別及其記錄也會被移除。
 
-You can delete a record type you added from another workspace if no longer needed. 
+### 從次要工作區刪除全域記錄型別
 
-Consider the following:
+如果您不再需要記錄型別，可將其從另一個工作區刪除。
 
-* Deleting a global record type from a secondary workspace will only remove it from the secondary workspace. The record type remains in the original workspace. 
+請考量下列事項：
 
-* When you delete a global record type from a secondary workspace, the following are also deleted:
+* 從次要工作區刪除全域記錄型別只會將其從次要工作區中移除， 記錄型別會保留在原始工作區中。
 
-   * The records added from the secondary workspace.
+* 當您從次要工作區中刪除全域記錄型別時，也會刪除下列專案：
 
-   ***************Not yet there, coming soon:* The fields added from the secondary workspace.*********
+   * 從次要工作區新增的記錄。
 
-* Global record types deleted from their secondary workspaces cannot be recovered. 
+  <!--Coming later: * The fields added from the secondary workspace.-->
 
-* The original record type remains in its original workspace as well as in other workspaces where it's been added. 
+* 從次要工作區中刪除的全域記錄型別無法復原。
 
-To delete a global record type from a secondary workspace: 
+* 原始記錄型別會保留在其原始工作區中，也會保留在其已加入的其他工作區中。
 
-1. Go to the global record type in its secondary workspace. 
+若要從次要工作區刪除全域記錄型別，請執行下列動作：
 
-1. (Optional) Click on the **More** menu ![More menu](assets/more-menu.png) on the record type's card, or to the right of the record type's name on its page, then click **Delete**.
-1. (Conditional) Type **delete** in the field provided, then click **Permanently delete**.
+1. 移至其次要工作區中的全域記錄型別。
 
-   ![Delete secondary global record type confirmation box](assets/delete-secondary-global-record-type.png)
+1. （選擇性）按一下記錄型別卡片上的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，或在其頁面上的記錄型別名稱右側，然後按一下&#x200B;**刪除**。
+1. （視條件而定）在提供的欄位中輸入&#x200B;**刪除**，然後按一下&#x200B;**永久刪除**。
 
-   The following things occur: 
+   ![刪除次要全域記錄型別確認方塊](assets/delete-secondary-global-record-type.png)
 
-   * The record type created from a global record type is removed from the selected workspace. 
-   * The original record type with its fields remain in their original workspace. 
-   * The record type remains in all other workspaces where it's been added.
-   * The records *******and fields****** added to the record type from the current workspace are deleted. All other records added from additional workspaces where the global record type was added are preserved in their respective workspaces and in the original workspace. <!--Fields are preserved in the workspaces where they were added.
-   
-</div>   
-   -->
+   會發生下列情況：
+
+   * 從全域記錄型別建立的記錄型別會從選取的工作區中移除。
+   * 原始記錄型別及其欄位會保留在其原始工作區中。
+   * 記錄型別會保留在已新增它的所有其他工作區中。
+   * 刪除從目前工作區新增到記錄型別的記錄<!--and fields-->。 從已新增全域記錄型別的其他工作區新增的所有其他記錄都會保留在各自的工作區和原始工作區中。 &lt;！ — 欄位會保留在加入它們的工作區中。
+
+</div>

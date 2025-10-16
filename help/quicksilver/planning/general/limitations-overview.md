@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '450'
 ht-degree: 2%
 
 ---
@@ -48,13 +48,9 @@ Adobe Workfront Planning限制您可在執行個體中建立的物件數目。 �
 | CSV的Excel檔案大小，您可以匯入以建立記錄型別 | 5MB |
 | 您可以匯入CSV或Excel檔案以建立記錄型別的列數 | 25,000 |
 | 您可以匯入CSV或Excel檔案以建立記錄型別的欄數 | 500 |
-| <span class="preview">單一記錄型別的公式欄位數目</span> | <span class="preview">20</span> |
-| <span class="preview">公式欄位運算式中的字元數</span> | <span class="preview">50,000</span> |
-
-
-<!-- Add this after the formula fields limit above:
-
-| <span class="preview">Number of connection fields for one record type</span> | <span class="preview">30</span> |-->
+| 一種記錄型別的公式欄位數 | 20 |
+| <span class="preview">單一記錄型別的連線欄位數目</span> | <span class="preview">30</span> |
+| 公式欄位運算式中的字元數 | 50,000 |
 
 *我們建議您不要有太多工作區，因為這些工作區可能會變得難以管理，而且您的工作流程可能太分散。
 

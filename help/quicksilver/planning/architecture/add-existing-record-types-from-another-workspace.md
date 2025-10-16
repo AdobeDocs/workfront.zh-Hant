@@ -1,23 +1,18 @@
 ---
 title: 從其他Workspace新增現有記錄型別
 description: 記錄型別是Adobe Workfront Planning的物件型別。 在Workfront Planning中，您可以新增在其他工作區中建立的現有記錄型別。
-hidefromtoc: true
-hide: true
-exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
-workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 0%
-
----
-
-<!-- add these to the metadata, when making this public: 
-
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
--->
+exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+workflow-type: tm+mt
+source-wordcount: '630'
+ht-degree: 0%
+
+---
+
 
 # 從另一個工作區新增現有記錄型別
 
@@ -56,7 +51,7 @@ recommendations: noDisplay, noCatalog
    <td> 
 <ul><li><p>任何Workfront套件和Planning Plus套件</p></li>
 <p>或</p>
-<li><p>工作流程與規劃Prime和Ultimate套件</p></p></li></ul>
+<li><p>任何工作流程和Planning Prime或Ultimate套件</p></p></li></ul>
 <p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
    </td> 
   <tr> 
@@ -120,6 +115,8 @@ And
 >[!NOTE]
 >
 >請確定至少有一個記錄型別被指定為在至少一個其他工作區中的全域。
+>
+>如需詳細資訊，請參閱[設定記錄型別的跨工作區功能](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)。
 
 1. 開始建立記錄型別，如文章[建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md)中所述，然後按一下&#x200B;**新增現有的**。<!--check this - the option might have been renamed in the UI-->
 

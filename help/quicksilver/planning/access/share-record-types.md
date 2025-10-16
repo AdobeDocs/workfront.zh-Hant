@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: c879d06cfe7ba76df3e974c160a7349f1503f17f
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '1473'
+source-wordcount: '1513'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >有權存取工作區的使用者至少會自動取得工作區中所有記錄型別的檢視許可權。
->&#x200B;>共用檢視未授予使用者記錄型別的許可權。 只有共用工作區才能授予使用者記錄型別的許可權。
+>>共用檢視未授予使用者記錄型別的許可權。 只有共用工作區才能授予使用者記錄型別的許可權。
 >
 >* 如需在Workfront Planning中共用物件的一般資訊，另請參閱[在Adobe Workfront Planning中共用許可權概觀](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
 >* 如需詳細資訊，請參閱本文中的[共用記錄型別](#considerations-when-sharing-record-types)時的考量事項。
@@ -181,6 +181,17 @@ ht-degree: 0%
 * 您無法從外部與Workfront外部的使用者共用記錄型別。
 * 若要將工作區許可權不高於記錄型別檢視許可權的使用者授予記錄型別，您必須先以高於檢視的許可權與他們共用工作區。 工作區的較高許可權將套用至記錄型別。
 
+<div class="preview">
+
+* 共用全域記錄型別時，會出現下列情況：
+
+   * 您可以從原始工作區共用全域記錄型別。
+   * 將全域記錄型別新增至次要工作區後，您就無法共用這些型別。
+
+  如需詳細資訊，請參閱[跨工作區記錄型別概觀](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)。
+
+</div>
+
 ## 共用記錄型別的許可權
 
 如果您有工作區的管理許可權，您可以調整工作區的個別記錄型別的許可權。
@@ -191,7 +202,7 @@ ht-degree: 0%
 
 1. 執行下列其中一項：
 
-   * <span class="preview">從記錄型別卡片，按一下&#x200B;**更多**&#x200B;功能表> **共用**。</span>
+   * 從記錄型別卡片，按一下&#x200B;**更多**&#x200B;功能表> **共用**。
    * 按一下記錄型別卡片以開啟記錄型別的頁面，然後按一下&#x200B;**共用** > **從任何記錄型別檢視中共用記錄型別**。
 
    **共用**&#x200B;方塊開啟。

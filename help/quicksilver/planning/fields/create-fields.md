@@ -6,15 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '5253'
+source-wordcount: '5463'
 ht-degree: 1%
 
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=zh-Hant ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -238,8 +238,8 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
    * [建立日期](#created-date)
    * [上次修改者](#last-modified-by)
    * [上次修改日期](#last-modified-date)
-   * <span class="preview">[核准日期](#approved-date)</span>
-   * <span class="preview">[核准者](#approved-by)</span>
+   * [核准日期](#approved-date)
+   * [核准者](#approved-by)
      <!--* [Object](#object-field-type)-->
 
    >[!IMPORTANT]
@@ -299,7 +299,7 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 
 >[!NOTE]
 >
-><span class="preview">除了本節中說明的功能外，您也可以在表格檢視中編輯記錄的多重選取欄位值時，新增選項。 如需詳細資訊，請參閱文章[編輯記錄](/help/quicksilver/planning/records/edit-records.md).</span>中的「編輯單一或多重選取欄位的資訊」一節
+>除了本節中說明的功能外，您還可以在表格檢視中編輯記錄的多重選取欄位值時新增選項。 如需詳細資訊，請參閱文章[編輯記錄](/help/quicksilver/planning/records/edit-records.md)中的「編輯單一或多重選取欄位的資訊」一節。
 >
 
 1. 依照本文中[從頭開始建立欄位](#create-fields-from-scratch)一節的說明開始建立欄位，然後選取&#x200B;**多重選取**&#x200B;欄位型別。
@@ -327,23 +327,20 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 
    新的多重選取欄位會新增為記錄型別的欄，其值可與記錄相關聯。
 
-<!--
-1. <span class="preview">(Optional) Hover over the field name in the table view, click the drop-down menu to the right of the field name, then click **Edit field**.</span>
-1. <span class="preview">Turn on the **Show values** setting to display the values for each choice. The values are the names of each choice, as they appear in the Workfront database. </span>
+1. <span class="preview"> （選擇性）將滑鼠停留在表格檢視中的欄位名稱上，按一下欄位名稱右側的下拉式功能表，然後按一下&#x200B;**編輯欄位**。</span>
+1. <span class="preview">開啟&#x200B;**顯示值**&#x200B;設定以顯示每個選擇的值。 值是每個選擇的名稱，如它們在Workfront資料庫中所示。</span>
 
-    >[!NOTE]
-    >
-    >* <span class="preview">Workfront assigns unique values for each choice. </span>
-    >
-    >* <span class="preview">Values match the choice name in lowercase format. Multiple words are separated by an underscore. </span>
-    >
-    >* <span class="preview">Values can be repeated between multiple fields, but they must be unique for one field.</span>
-    >
-    ><span class="preview"> ![Show value toggle](assets/show-values-toggle-and-choices-with-values.png)</span>
+   >[!NOTE]
+   >
+   >* <span class="preview">Workfront會為每個選擇指派唯一值。</span>
+   >
+   >* <span class="preview">值符合小寫格式的選擇名稱。 多個字詞會以底線分隔。</span>
+   >
+   >* <span class="preview">值可以在多個欄位之間重複，但是這些值對於一個欄位必須是唯一的。</span>
+   >
+   ><span class="preview"> ![顯示值切換](assets/show-values-toggle-and-choices-with-values.png)</span>
 
-1. <span class="preview">(Optional) Use the choice values in your API calls and other integrations. </span> 
-
--->
+1. <span class="preview">（選用）在您的API呼叫和其他整合中使用選擇值。</span>
 
 ### 單選 {#single-select}
 
@@ -351,13 +348,12 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 
 >[!NOTE]
 >
-><span class="preview">除了本節中說明的功能外，您也可以在表格檢視中編輯記錄的單一選取欄位值時新增選項。 如需詳細資訊，請參閱文章[編輯記錄](/help/quicksilver/planning/records/edit-records.md).</span>中的「編輯單一或多重選取欄位的資訊」一節
+>除了本節中說明的功能外，您還可以在表格檢視中編輯記錄的單一選取欄位值時新增選項。 如需詳細資訊，請參閱文章[編輯記錄](/help/quicksilver/planning/records/edit-records.md)中的「編輯單一或多重選取欄位的資訊」一節。
 >
 
 1. 依照本文中[從頭開始建立欄位](#create-fields-from-scratch)一節的說明開始建立欄位，然後選取&#x200B;**單選**&#x200B;欄位型別。
 
    ![單一選取欄位型別](assets/single-select-field-type.png)
-
 
 1. 在&#x200B;**新欄位**&#x200B;索引標籤中新增下列資訊：
    * **名稱**：欄位名稱，它將顯示在資料表或記錄的詳細資訊頁面中。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
@@ -379,24 +375,20 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 
    新的單選欄位會新增為記錄型別的欄，其值可與記錄相關聯。
 
-<!--
+1. <span class="preview"> （選擇性）將滑鼠停留在表格檢視中的欄位名稱上，按一下欄位名稱右側的下拉式功能表，然後按一下&#x200B;**編輯欄位**。</span>
+1. <span class="preview">開啟&#x200B;**顯示值**&#x200B;設定以顯示每個選擇的值。 值是每個選擇的名稱，如它們在Workfront資料庫中所示。</span>
 
-1. <span class="preview">(Optional) Hover over the field name in the table view, click the drop-down menu to the right of the field name, then click **Edit field**.</span>
-1. <span class="preview">Turn on the **Show values** setting to display the values for each choice. The values are the names of each choice, as they appear in the Workfront database. </span>
+   >[!NOTE]
+   >
+   >* <span class="preview">Workfront會為每個選擇指派唯一值。</span>
+   >
+   >* <span class="preview">值符合小寫格式的選擇名稱。 多個字詞會以底線分隔。</span>
+   >
+   >* <span class="preview">值可以在多個欄位之間重複，但是這些值對於一個欄位必須是唯一的。</span>
+   >
+   ><span class="preview"> ![顯示值切換](assets/show-values-toggle-and-choices-with-values.png)</span>
 
-    >[!NOTE]
-    >
-    >* <span class="preview">Workfront assigns unique values for each choice. </span>
-    >
-    >* <span class="preview">Values match the choice name in lowercase format. Multiple words are separated by an underscore. </span>
-    >
-    >* <span class="preview">Values can be repeated between multiple fields, but they must be unique for one field.</span>
-    >
-    ><span class="preview"> ![Show value toggle](assets/show-values-toggle-and-choices-with-values.png)</span>
-
-1. <span class="preview">(Optional) Use the choice values in your API calls and other integrations. </span>
-
--->
+1. <span class="preview">（選用）在您的API呼叫和其他整合中使用選擇值。</span>
 
 ### 日期 {#date}
 
@@ -438,7 +430,7 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 >數字欄位會在請求表單產生器中顯示為「單行」文字欄位型別。
 >
 >但是，欄位格式會保留，並且這些欄位的值將在提交請求後、在記錄型別和請求詳細資訊頁面中顯示為數字。
->&#x200B;>如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
+>>如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
 
 
 1. 依照本文中[從頭開始建立欄位](#create-fields-from-scratch)一節的說明開始建立欄位，然後選取&#x200B;**數字**&#x200B;欄位型別。
@@ -468,7 +460,7 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 >百分比欄位在請求表單產生器中顯示為單行文字欄位型別。
 >
 >但是，欄位格式會保留，並且這些欄位的值將在提交請求後，在記錄型別和請求詳細資訊頁面中顯示為百分比。
->&#x200B;>如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
+>>如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
 
 
 1. 依照本文中[從頭開始建立欄位](#create-fields-from-scratch)一節的說明開始建立欄位，然後選取&#x200B;**百分比**&#x200B;欄位型別。
@@ -508,7 +500,7 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 >貨幣欄位在請求表單產生器中顯示為單行文字欄位型別。
 >
 >但是，欄位格式會保留，並且這些欄位的值將在提交請求後，在記錄型別和請求詳細資訊頁面中顯示為貨幣。
->&#x200B;>如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
+>>如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
 
 1. 依照本文中[從頭開始建立欄位](#create-fields-from-scratch)一節的說明開始建立欄位，然後選取&#x200B;**貨幣**&#x200B;欄位型別。
 
@@ -696,7 +688,6 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 
    新的「建立日期 — 型別」欄位會新增為記錄型別的欄，其值會預先填入建立記錄的日期（或日期和時間）。
 
-
 ### 上次修改者
 
 您可以使用「上次修改者」欄位型別，將上次修改紀錄的使用者新增至記錄。 這是唯讀欄位，會自動填入上次更新記錄時登入的使用者名稱。
@@ -713,7 +704,6 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 1. 按一下「**建立**」。
 
    新的「上次修改者」型別欄位會新增為記錄型別的欄，其值會預先填入上次修改每筆記錄的使用者名稱。
-
 
 ### 上次修改日期
 
@@ -748,8 +738,6 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 
    新的上次修改日期型別欄位會新增為記錄型別的欄，其值會預先填入上次修改記錄的日期（或日期和時間）。
 
-<div class="preview">
-
 ### 核准日期
 
 您可以使用核准日期欄位型別來新增核准請求並導致建立記錄的日期。 此為唯讀欄位，當最後核准者的請求獲得核準時，會自動填入日期（以及可選的時間）。 在此情況下，核准日期應該與記錄的建立日期一致。
@@ -759,7 +747,6 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 >「核准日期」欄位只會針對提交與核准者關聯的請求表單所建立的記錄，填入資訊。
 >
 >如果表單與多個核准者相關聯，則在「核准日期」欄位中僅記錄最後核准決定的日期。
-
 
 1. 依照本文中[從頭開始建立欄位](#create-fields-from-scratch)一節的說明開始建立欄位，然後選取&#x200B;**建立日期**&#x200B;欄位型別。
 
@@ -810,8 +797,6 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 1. 按一下「**建立**」。
 
    新的「已核准的副檔型別」欄位會新增為記錄型別的欄，其值會預先填入上次修改每筆記錄的使用者名稱。
-
-</div>
 
 <!--
 

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '1976'
+source-wordcount: '1973'
 ht-degree: 1%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 1%
 
 關於連線記錄型別，請考量下列事項：
 
-<!--* <span class="preview">You can have up to 30 connected fields for one record type in Workfront Planning.</span>-->
+* <span class="preview">在Workfront Planning中，一個記錄型別最多可以有30個連線的欄位。</span>
 
 * 您可以在Adobe Workfront Planning中連線下列實體：
 
@@ -76,16 +76,14 @@ ht-degree: 1%
 
 * 將記錄型別與另一個記錄型別或另一個應用程式的物件型別連線後，就會出現下列情況：
 
-   * **當您連線兩個Planning記錄型別時**：連結的記錄欄位會在您連線的記錄型別上建立。 在您連線至<!--<span class="preview">, only when you enable the Create corresponding field on linked record type setting on the New connection tab.</span>-->的記錄型別上建立了類似的連結記錄欄位。
+   * **當您連線兩個Planning記錄型別時**：連結的記錄欄位會在您連線的記錄型別上建立。 類似的連結記錄欄位會在您連線的記錄型別上建立，但前提是在您啟用[新增連線]索引標籤上的[在連結的記錄型別上建立對應欄位]設定時。
 
      例如，如果您將「Campaign」記錄型別與「Product」記錄型別連結，您命名為「Linked Product」的連結記錄欄位（連線欄位）會在Campaign記錄型別上建立。 系統會在產品記錄型別上建立自動命名為「Campaign」的連結記錄型別。
 
-     <div class="preview">
-
      例如，存在以下情況：
+
       * 當您啟用「在連結的記錄型別上建立對應的欄位」設定，並且將「行銷活動」記錄型別與「產品」記錄型別連結時，您命名為「連結的產品」的連結記錄欄位（連線欄位）將會在「行銷活動」記錄型別上建立。 系統會在產品記錄型別上建立自動命名為「Campaign」的連結記錄型別。
       * 當您停用在連結記錄型別上建立對應欄位設定，並連線「行銷活動」記錄型別與「產品」記錄型別時，您命名為「連結產品」的連結記錄欄位（連線欄位）會在「行銷活動」記錄型別上建立。 產品記錄型別上不會建立自動命名為「Campaign」的連結記錄型別。
-     </div>
 
      如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
 
@@ -95,7 +93,7 @@ ht-degree: 1%
       * 無法從Workfront物件存取規劃記錄欄位。
       * Planning記錄會顯示於Workfront物件的Planning標籤中。 如需詳細資訊，請參閱[管理來自Workfront物件的記錄連線](/help/quicksilver/planning/records/manage-records-in-planning-section.md)。
       * 您可以建立Planning連線自訂欄位，並將其附加至Workfront物件的自訂表單。 如需詳細資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
-      * 當您的Experience Manager管理員透過Workfront與Adobe Experience Manager Assets之間的整合設定中繼資料對應時，可從Workfront資產存取規劃記錄欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
+      * 當您的Experience Manager管理員透過Workfront與Adobe Experience Manager Assets之間的整合設定中繼資料對應時，可從Workfront資產存取規劃記錄欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
 
 
    * **當您從您連線的記錄或物件加入查閱欄位時**：除了建立連結的記錄欄位之外，您還可以從連線的記錄或物件型別連線到稱為查閱欄位的欄位。 連結（或查詢欄位）的資訊，來自於您所連線的記錄，顯示在您所連線的記錄上。
@@ -137,27 +135,19 @@ ht-degree: 1%
 
 您可以選擇是要一次將一個記錄連線到多個記錄，還是要一次將一個記錄連線到另一個記錄。
 
-根據可新增多少記錄至已連線的記錄欄位，以及您用來建立已連線欄位的環境，在連線記錄型別時，您可以選擇下列連線型別：
+連線記錄型別時，您可以選擇下列連線型別：
 
-<div class="preview">
+* 當連結記錄型別&#x200B;**的**&#x200B;建立對應欄位設定停用時，您可以選擇下列選項：
 
-* 在預覽環境中：
+   * [多選](#multi-select-connection-type)
+   * [單選](#single-select-connection-type)
 
-   * 當在連結的記錄型別上建立對應的欄位設定停用時，您可以選擇以下選項：
-
-      * [多選](#multi-select-connection-type)
-      * [單選](#single-select-connection-type)
-
-</div>
-
-* <span class="preview">在「預覽」環境中，當連結記錄型別上的「建立對應的欄位」設定已啟用時，</span>或在生產環境中，您可以選擇以下選項：
+* 啟用&#x200B;**在連結的記錄型別**&#x200B;上建立對應欄位設定時，您可以選擇下列選項：
 
    * [多對多](#many-to-many-connection-type)
    * [一對多](#one-to-many-connection-type)
    * [多對一](#many-to-one-connection-type)
    * [一對一](#many-to-one-connection-type)
-
-<div class="preview">
 
 ### 多選連線型別
 
