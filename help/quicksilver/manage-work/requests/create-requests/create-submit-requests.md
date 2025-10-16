@@ -6,9 +6,9 @@ description: 計畫工作在Adobe Workfront中以專案和任務表示。 不過
 author: Becky
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '2767'
+source-wordcount: '2580'
 ht-degree: 1%
 
 ---
@@ -25,9 +25,6 @@ ht-degree: 1%
 </div>
 -->
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
-
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 計畫工作在Adobe Workfront中以專案和任務表示。 不過，您可能會在一個環境中工作，在這種環境中，非計畫工作（以請求的形式）可以隨時進入。 Workfront透過使用請求佇列提供可容納這種環境型別的工作流程。
 
@@ -144,23 +141,16 @@ Workfront管理員必須建立「請求佇列」的下列元件：
 
    **新要求**&#x200B;方塊開啟。
 
-1. （視條件而定）如果您切換至新體驗，而且是在生產環境中，則&#x200B;**新請求**&#x200B;方塊會顯示下列專案：</span>
+1. （視條件而定）如果您切換至新體驗，請選取其中一個Workfront要求佇列路徑或表單，或按一下搜尋列。
 
-   <ul><li>最近存取的6個Workfront請求佇列及Planning請求表單會顯示在「最近」區段中。 </li>
-    <li>所有其他Workfront和Planning要求表單<b>所有要求表單</b>區段。 您可以搜尋預設不會顯示的請求表單。 </li>
-    <li>所有其他Workfront和Planning請求佇列路徑會顯示在<b>所有請求路徑</b>區段中。 您可以搜尋預設不會顯示的請求佇列。</li></ul>
-   按一下其中一個Workfront請求佇列路徑或表單，或搜尋其中一個路徑或表單，然後在清單中顯示時按一下它。
-1. <span class="preview">（條件式）如果您已切換至新體驗，請選取其中一個Workfront要求佇列路徑或表單，或按一下搜尋列。</span>
-
-   <span class="preview">當您按一下搜尋列時，會出現一個下拉式清單，首先顯示最近使用的佇列和表單。 從清單中選取一個佇列，或開始輸入佇列或表單，並在佇列或表單出現時加以選取。</span>
+   當您按一下搜尋列時，會出現一個下拉式清單，首先顯示最近使用的佇列和表單。 從清單中選取一個佇列，或開始輸入佇列或表單，並在佇列或表單出現時選取它。
 
    >[!NOTE]
    >
-   ><span class="preview">考慮下列有關預覽中目前可用的新請求體驗：</span>
-   >* <span class="preview">此清單包含Workfront請求佇列和Workfront Planning請求表單。</span>
-   >* <span class="preview">您可以依物件型別篩選清單。</span>
-   >* <span class="preview">若要只顯示Workfront要求佇列，請篩選`Issue`物件型別。</span>
-   >* <span class="preview">在新的請求體驗中，在與已提交請求相同的清單中找到草稿。</span>
+   >有關新的請求體驗，請考慮以下事項：
+   >* 此清單包含Workfront請求佇列和Workfront Planning請求表單。
+   >* 您可以依物件型別篩選清單。
+   >* 在新的請求體驗中，可在與已提交請求相同的清單中找到草稿。
 
 1. （視條件而定）如果您切換至新體驗，請選取主題群組和佇列主題，並繼續更新表單。
 

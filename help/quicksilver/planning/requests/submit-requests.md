@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '1996'
+source-wordcount: '1933'
 ht-degree: 0%
 
 ---
@@ -121,8 +121,8 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
 
 {{step1-to-requests}}
 
-1. 啟用熒幕右上角的&#x200B;**切換至新的體驗**&#x200B;設定。
-啟用此設定可讓Workfront Planning請求表單出現在Workfront的&#x200B;**請求**&#x200B;區域中。
+1. 啟用熒幕右上角的&#x200B;**切換至新的體驗**設定。
+啟用此設定可讓Workfront Planning請求表單出現在Workfront的**請求**&#x200B;區域中。
 
    >[!TIP]
    >
@@ -144,15 +144,7 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
    * 最近存取的6個Workfront請求佇列及Planning請求表單會顯示在「最近」區段中。
    * 在&#x200B;**所有請求表單**&#x200B;區段中，以字母順序顯示50個額外的Workfront請求佇列和Planning請求表單。 您可以搜尋預設不會顯示的請求佇列。
 
-1. 在生產環境中，執行下列任一項作業：
-
-   * 選取「最近」或「全部」請求表單區段中的Planning請求表單
-   * 開始在搜尋方塊中輸入Planning請求表單的名稱，然後按一下卡片（當卡片顯示在清單中時）。
-
-   請求表單隨即開啟。
-
-<!-- Put preview section here-->
-1. <span class="preview">在[預覽]環境中，從[最近存取的請求表單]區域選取請求表單或佇列，或在清單中開始輸入表單或佇列名稱，然後在其出現時選取它。
+1. 從「最近存取的請求表單」區域選取請求表單或佇列，或在清單中開始輸入表單或佇列名稱，然後在其出現時選取它。
 
 1. 更新請求表單中可用的欄位。 需要紅色星號的欄位。
 1. 按一下&#x200B;**提交**。
@@ -186,7 +178,7 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
 
 1. （選擇性）按一下確認訊息中的&#x200B;**檢視您的要求**&#x200B;以開啟要求，或按一下&#x200B;**X**&#x200B;圖示以關閉確認。
 
-1. （選擇性）按一下&#x200B;**要求**&#x200B;區域中的&#x200B;**規劃**&#x200B;索引標籤，以檢視您的要求。
+1. （選擇性）按一下&#x200B;**要求**&#x200B;區域中的&#x200B;**規劃**索引標籤，以檢視您的要求。
 提交至Planning請求表單的所有您有權檢視的請求都會顯示在清單中。
 1. （可選）執行下列任一項作業：
 
@@ -203,7 +195,7 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
       * **狀態**：要求的狀態。
       * **輸入者**：新增請求的使用者名稱。 如果要求是由Workfront外部的人員加入，則&#x200B;**輸入者**&#x200B;欄位會顯示`N/A`。
 
-        您可以有多個&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;加入的篩選器。
+        您可以有多個&#x200B;**And**&#x200B;或&#x200B;**Or**加入的篩選器。
 當您新增篩選條件時，要求清單會自動篩選。
 
    * 按一下&#x200B;**欄**&#x200B;並隱藏、顯示或重新排列請求清單中的欄。
@@ -221,16 +213,9 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
 
    請求詳細資訊頁面隨即開啟。
 
-   ![要求詳細資料頁面](assets/request-details-page.png)
-
-   <div class="preview">
-      在預覽中：
-
    ![含有註解的請求頁面](assets/new-request-page-with-comment.png)
 
-   </div>
-
-1. <span class="preview"> （選擇性）在[註解]區域輸入註解。
+1. （選擇性）在「註解」(Comments)區域中輸入註解。
 1. （視條件而定）如果要求表單未與核准相關聯，或如果要求已核准，請按一下要求名稱，然後按一下&#x200B;**記錄**&#x200B;欄位中的記錄名稱。
 
    記錄的頁面會在Workfront Planning中開啟。
@@ -292,16 +277,11 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
 
    請求詳細資訊頁面隨即開啟。
 
-   ![要求詳細資料頁面](assets/request-details-page.png)
-
-   <div class="preview">
-   在預覽中：
-
    ![含有註解的請求頁面](assets/new-request-page-with-comment.png)
 
-   </div>
 
-1. <span class="preview"> （選擇性）在[註解]區域輸入註解。
+
+1. （選擇性）在「註解」(Comments)區域中輸入註解。
 1. （視條件而定）如果要求表單未與核准相關聯，或如果要求已核准，請按一下要求名稱，然後按一下&#x200B;**記錄**&#x200B;欄位中的記錄名稱。
 
    記錄的頁面會在Workfront Planning中開啟。

@@ -8,18 +8,15 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: '968'
 ht-degree: 2%
 
 ---
 
 # 找出已提交的請求
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 您可以找到以下您或其他人提交的請求型別，或您已開始但您從未完成提交的請求。 您可以在Adobe Workfront的下列區域中找到這些請求：
 
@@ -177,6 +174,9 @@ ht-degree: 2%
    </table>
 
 1. （選擇性）按一下清單頂端的&#x200B;**篩選頁面**&#x200B;圖示![](assets/search-icon.png)，依名稱搜尋請求。 清單會以符合搜尋條件的結果更新。
+
+1. （條件式）若要只顯示Workfront要求佇列，請搜尋或篩選`Issue`物件型別。</span>
+
 
    <!--
    <li value="9" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Click the <strong>Complete</strong> subtab to view requests that have been completed.</p> <p>(NOTE: this step will stay drafted even after release. We can't see Completed at this time!) <br>Requests with an Actual Completion Date or whose resolving object has an Actual Completion Date are listed in the Complete subtab.<br>Once a request receives an Actual Completion Date, it stays in the Recently Completed area for 10 business days. After that, it is moved to the Completed area. <br>For information about resolving and resolvable objects, see the article <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>.</p> </li>

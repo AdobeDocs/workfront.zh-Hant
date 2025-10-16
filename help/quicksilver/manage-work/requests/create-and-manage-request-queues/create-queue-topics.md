@@ -7,9 +7,9 @@ author: Becky
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 4a0cb96f5888819747f63472712f91c685621cf1
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '964'
 ht-degree: 2%
 
 ---
@@ -17,8 +17,6 @@ ht-degree: 2%
 # 建立佇列主題
 
 <!-- Audited: 12/2023 -->
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽Sandbox」環境中使用。</span>
 
 「佇列主題」可與「路由規則」搭配使用，以自動將內送工作指派給使用者、工作角色、專案團隊，或將其置於專案上。 「佇列主題」定義要實作「路由規則」所需存在的條件。
 
@@ -179,8 +177,7 @@ ht-degree: 2%
 
 1. 移至包含您要編輯之佇列主題的專案或範本。
 1. 按一下左側面板中的&#x200B;**佇列主題**。
-1. 在生產環境中，選取您要編輯的佇列主題。 在開啟的詳細資訊頁面上，按一下&#x200B;**編輯佇列主題**。
-1. <span class="preview">在預覽環境中，按一下您要編輯的佇列主題。
+1. 按一下您要編輯的佇列主題。
 
 如需有關可用編輯選項的資訊，請參閱本文中的[建立佇列主題](#create-a-queue-topic)。
 

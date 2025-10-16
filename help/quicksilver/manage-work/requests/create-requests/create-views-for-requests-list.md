@@ -5,16 +5,15 @@ title: 在請求區域中建立檢視
 description: 如果您使用新的請求體驗，您可以建立和儲存請求區域的檢視。
 author: Becky
 feature: Work Management
-source-git-commit: 1c7e2fb7de500083f0f7e42f1016323305054d88
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
 
 # 在請求區域中建立或編輯檢視
 
-<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它只能在「預覽Sandbox」環境中使用。</span>
 
 如果您使用新的請求體驗，您可以建立和儲存請求區域的檢視。 這些檢視包括篩選器和欄排列。
 
@@ -70,7 +69,7 @@ ht-degree: 0%
 
    ![新檢視](assets/create-new-view.png)
 
-1. 輸入新檢視的名稱，然後按一下[建立]。**&#x200B;**
+1. 輸入新檢視的名稱，然後按一下[建立]。****
 1. 繼續[在要求區域](#edit-a-view-in-the-requests-area)編輯檢視。
 
 ## 在請求區域中編輯檢視
@@ -103,7 +102,7 @@ ht-degree: 0%
    * **狀態**：要求的狀態。
    * **輸入者**：新增請求的使用者名稱。 如果要求是由Workfront外部的人員加入，則&#x200B;**輸入者**&#x200B;欄位會顯示`N/A`。
 
-   您可以有多個&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;加入的篩選器。
+   您可以有多個&#x200B;**And**&#x200B;或&#x200B;**Or**加入的篩選器。
 當您新增篩選條件時，要求清單會自動篩選。
 
 1. （選擇性）按一下&#x200B;**欄**，然後隱藏、顯示或重新排列要求清單中的欄。
