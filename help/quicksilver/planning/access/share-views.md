@@ -324,7 +324,7 @@ This article describes how you can share a view with others. For information abo
      ![檢視](assets/in-app-notification-for-access-request-for-view.png)存取要求的應用程式內通知
 1. （視條件而定）從Workfront的通知區域，按一下應用程式內通知
 或
-在電子郵件通知中，按一下**檢視所有通知**，然後按一下清單中的通知。
+在電子郵件通知中，按一下&#x200B;**檢視所有通知**，然後按一下清單中的通知。
 
    顯示&#x200B;**擱置中的存取要求**&#x200B;方塊。
 
