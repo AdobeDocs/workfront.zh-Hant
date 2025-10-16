@@ -6,15 +6,17 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 2%
+source-wordcount: '703'
+ht-degree: 1%
 
 ---
 
 
 # Adobe Workfront Planning存取權概觀
+
+<!--leave the global record type reference in yellow till Jan 2026-->
 
 <!--do not use the snippet for IMPORTANT , as it links to this article-->
 
@@ -42,7 +44,7 @@ ht-degree: 2%
 
 <!--*********ensure that the link ^^^^^^^^below^^^^^^^^ to Workfront Pricing and Packaging now also includes information about Workfront Planning. If not, talk with Lauren S.***************-->
 
-您必須具有下列存取權才能存取Workfront Planning：
+您必須具有下列存取權才能使用Workfront Planning：
 
 <table style="table-layout:auto">
  <col>
@@ -54,31 +56,30 @@ ht-degree: 2%
  <tr>
    <td role="rowheader"><p>Adobe Workfront套件</p></td>
    <td>
-<p>下列任一Workfront套件：</p>
-<ul><li>選擇</li>
-<li>Prime</li>
-<li>Ultimate</li></ul>
-<p>Workfront計畫不適用於舊版Workfront套件</p>
-<p>下列任一Planning套件：</p>
-<ul><li><p>Workfront 規劃</p></li>
-<li><p>Workfront Planning Plus</p></li></ul>
-<p>如需每個Workfront計畫包含內容的詳細資訊，請聯絡您的Workfront客戶經理。 </p>
-   </td>
+   <p>任何Workfront和Planning套件</p>
+   <p>或</p>
+   <p>任何工作流程和Planning套件</p>
+   <!--<p><b>NOTE</b></p>
+<p><span class="preview">For access to global record types:</span></p>
+<ul><li><p><span class="preview">Any Workfront package and a Planning Plus package</span></p></li>
+<p>Or</p>
+<li><p><span class="preview">Workflow and Planning Prime and Ultimate packages</span></p></li></ul>--> </td>
 <tr>
    <td role="rowheader"><p>Adobe Workfront平台</p></td>
    <td>
-<p>貴組織的Workfront例項必須上線至Adobe Unified Experience，才能存取Workfront Planning。</p>
-<p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">適用於Workfront的Adobe Unified Experience</a>。 </p>
+   <p>貴組織的Workfront例項必須上線至Adobe Unified Experience，才能存取Workfront Planning。</p>
+   <p><b>重要</b></p>
+   <p>只有新增至Adobe Identity Management系統(IMS)的使用者才能獲得許可權並新增至Planning欄位。</p>
+   <p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">適用於Workfront的Adobe Unified Experience</a>。 </p>
    </td>
   </tr>
   </tr>
   <tr>
    <td role="rowheader"><p>Adobe Workfront授權</p></td>
    <td>
-   <ul><li><p>標準、光源或貢獻者，用於檢視Workfront Planning資訊</p></li>
+   <ul><li><p>任一，若要檢視Workfront Planning資訊</p></li>
    <li><p>標準，建立工作區和檢視</p></li></ul>
-   <p>Workfront計畫不適用於舊版Workfront授權</p>
-  </td>
+    </td>
   </tr>
   <tr>
    <td role="rowheader"><p>存取層級設定</p></td>
@@ -112,7 +113,7 @@ ht-degree: 2%
  </tbody>
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 
 ## 使用版面配置範本共用Planning區域
@@ -149,9 +150,15 @@ ht-degree: 2%
 
    使用者可以開始建立工作區、記錄型別、記錄和欄位。
 
-## 授予存取權
+## 指派授權給使用者
 
-Workfront Planning沒有Workfront存取控制。
+您可以在編輯或建立使用者時設定其存取層級時，為其指派授權。
+
+如需詳細資訊，請參閱[編輯使用者的設定檔](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
+
+## 設定存取層級
+
+Workfront計畫沒有Workfront存取層級控制項。
 
 擁有任何型別Workfront授權的使用者皆可存取Workfront Planning。
 

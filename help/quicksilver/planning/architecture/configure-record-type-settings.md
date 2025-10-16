@@ -1,11 +1,11 @@
 ---
-title: 設定記錄型別設定
+title: 設定記錄型別的設定區域
 description: 記錄型別在「設定」頁面中儲存後，您就可以編輯記錄型別。
 hide: true
 hidefromtoc: true
-source-git-commit: 393f858ba3711b367cf06ad846ea60be0d6d9034
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '443'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ recommendations: noDisplay, noCatalog
 
 -->
 
-# 設定記錄型別設定
+# 設定記錄型別的設定區域
 
 <span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
@@ -66,10 +66,8 @@ recommendations: noDisplay, noCatalog
 <li><p>建立可連線記錄型別的任何Planning套件</p></li>
 <li><p>建立集中記錄型別的Planning Plus套件</p></li>
 </ul>
-或：
-<ul><li><p>任何Workflow封裝</p> </li>
-與
-<li><p>規劃Prime或Ultimate套件</p></li></ul>
+<p>或：</p>
+<ul><li><p>工作流程與規劃Prime或Ultimate套件</p> </li></ul>
 <p>如需每個Workfront Planning套件所含專案的詳細資訊，請連絡您的Workfront客戶經理。 </p> 
    </td>
 

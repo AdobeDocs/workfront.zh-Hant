@@ -4,9 +4,9 @@ description: 您可以在Adobe Workfront Planning中啟用記錄型別，以新�
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1337'
 ht-degree: 0%
 
 ---
@@ -66,22 +66,24 @@ recommendations: noDisplay, noCatalog
 </col> 
 <tbody> 
     <tr> 
-<tr>
-
+<tr> 
 </tr>   
 <tr> 
    <td role="rowheader"><p>Adobe Workfront套件</p></td> 
    <td> 
-<ul><li><p>任何Workfront套件</p></li>
-<p>與</p>
-<li><p>建立可連線記錄型別的任何Planning套件</p></li>
-<li><p>建立全域記錄型別的Planning Plus套件</p></li>
-</ul>
-或：
-<ul><li><p>工作流程Prime或Ultimate套件</p> </li>
-與
-<li><p>Planning Prime或Ultimate套件</p></li></ul>
-<p>如需每個Workfront Planning套件所含專案的詳細資訊，請連絡您的Workfront客戶經理。 </p> 
+<p>若要設定可連線的記錄型別： </p>
+<ul> 
+<li><p>任何Workfront套件和任何Planning套件</p></li>
+<p>或</p>
+<li><p>工作流程與規劃Prime和Ultimate套件</p></li></ul>
+
+<p>若要設定全域記錄型別，請執行下列動作：</p>
+
+<ul> 
+<li><p>任何Workfront套件和Planning Plus套件</p></li>
+<p>或</p>
+<li><p>工作流程與規劃Prime和Ultimate套件</p></li></ul>
+<p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront授權</p></td> 
@@ -90,7 +92,7 @@ recommendations: noDisplay, noCatalog
   </tr> 
   <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
-   <td>   <p>管理工作區和記錄型別</a>的許可權 </p>  
+   <td>   <p>管理工作區的許可權</p>  
    <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p>  </td> 
   </tr>  
 </tbody> 
@@ -100,7 +102,46 @@ recommendations: noDisplay, noCatalog
 
 +++   
 
-## 設定全域記錄型別
+<!--Old:
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> 
+<ul><li><p>Any Workfront package</p></li>
+<p>And</p>
+<li><p>Any Planning package to create connectable record types</p></li>
+<li><p>A Planning Plus package to create global record types</p></li>
+</ul>
+Or:
+<ul><li><p>A Workflow Prime or Ultimate package</p> </li>
+And
+<li><p>A Planning Prime or Ultimate package</p></li></ul>
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account manager. </p> 
+   </td> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a workspace and to the record type</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
+  </tr>  
+</tbody> 
+</table> -- >
+
+## Configure global record types
 
 <!--this is a UI term; don't change the title of this section-->
 
@@ -121,7 +162,7 @@ recommendations: noDisplay, noCatalog
    工作區頁面隨即開啟，且記錄型別隨即顯示。
 1. 執行下列其中一項：
 
-   * 暫留在記錄型別的卡片上，然後按一下記錄型別卡片右上角的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)
+   * 將滑鼠停留在記錄型別的卡片上，然後按一下記錄型別卡片右上角的&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)。<!--add new screen shot without Share for now-->
 
      ![更多記錄型別卡片中的功能表選項](assets/more-menu-options-from-record-type-card.png)
 
@@ -179,7 +220,7 @@ recommendations: noDisplay, noCatalog
 
    從次要工作區中的全域記錄型別新增的記錄型別也顯示&#x200B;**全域記錄型別**&#x200B;圖示![全域記錄型別圖示](assets/global-icon.png)。
 1. （選擇性）返回您建立全域記錄型別的原始工作區，並按照<!--ensure this stays accurate-->上方的步驟1-4編輯記錄型別
-1. （選擇性）檢閱已在使用此記錄型別的&#x200B;**工作區區段**&#x200B;中新增全域記錄的工作區清單。
+1. （選擇性）檢閱已在使用此記錄型別的&#x200B;**工作區區段**&#x200B;中新增全域記錄的工作區清單。 工作區擁有者也會列在工作區名稱旁。
 
    ![使用此記錄型別的工作區](assets/workspaces-where-this-record-type-is-used.png)
 
@@ -201,7 +242,7 @@ recommendations: noDisplay, noCatalog
 
    * 暫留在記錄型別的卡片上，然後按一下記錄型別卡片右上角的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)
 
-     ![更多記錄型別卡片中的功能表選項](assets/more-menu-options-from-record-type-card.png)
+     ![記錄型別卡片中的更多功能表選項](assets/more-menu-options-from-record-type-card.png) <!--add new screen shot without Share for now-->
 
    * 按一下記錄型別卡片以開啟記錄型別頁面，然後按一下記錄型別名稱右側的&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)。
 1. 按一下&#x200B;**編輯**&#x200B;或&#x200B;**設定**。

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: e717e095f1995dbed0232789616d42492156d843
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '3985'
+source-wordcount: '3876'
 ht-degree: 2%
 
 ---
@@ -17,9 +17,12 @@ ht-degree: 2%
 
 <!--remove preview and production references at production-->
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 {{planning-important-intro}}
 
@@ -29,7 +32,7 @@ ht-degree: 2%
 
 ## 存取需求
 
-+++ 展開以檢視存取需求。 
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -39,47 +42,23 @@ ht-degree: 2%
 <tbody> 
     <tr> 
 <tr> 
-<td> 
-   <p> 產品</p> </td> 
-   <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront規劃<p></li></ul></td> 
-  </tr>   
+</tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront計畫*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront套件</p></td> 
    <td> 
-<p>下列任一Workfront計畫：</p> 
-<ul><li>選擇</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>舊版Workfront計畫不提供Workfront計畫</p> 
+<ul> 
+<li><p>任何Workfront和任何Planning套件</p></li>
+或
+<li><p>任何工作流程與任何Planning套件</p></li></ul>
+<p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
    </td> 
-<tr> 
-   <td role="rowheader"><p>Adobe Workfront規劃套件*</p></td> 
-   <td> 
-<p>任何 </p> 
-<p>如需每個Workfront計畫包含內容的詳細資訊，請聯絡您的Workfront客戶經理。 </p> 
-   </td> 
- <tr> 
-   <td role="rowheader"><p>Adobe Workfront平台</p></td> 
-   <td> 
-<p>貴組織的Workfront例項必須上線至Adobe Unified Experience，才能存取Workfront Planning。</p> 
-<p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">適用於Workfront的Adobe Unified Experience</a>。 </p> 
-   </td> 
-   </tr> 
-  </tr> 
-    <td role="rowheader"><p>Adobe Workfront授權*</p></td> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront授權</p></td> 
    <td><p> 建立和刪除檢視的標準</p>
    <p>更新檢視元素的投稿人或更新者</p>
-   <p>Workfront計畫不適用於舊版Workfront授權</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>存取層級設定</p></td> 
-   <td> <p>Adobe Workfront Planning沒有存取層級控制</p>   
-</td> 
-  </tr> 
-<tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
    <td>   <p>管理檢視的許可權</p>  
    <p>檢視許可權以暫時變更檢視設定或複製檢視</p> </td> 
@@ -89,13 +68,76 @@ ht-degree: 2%
    <td> 必須為具有輕度或貢獻者授權的使用者指派包含Planning的版面配置範本。
    <p>標準使用者和系統管理員預設會啟用Planning區域。</p></div></li></ul>
 </td>
-  </tr>
+  </tr> 
 </tbody> 
 </table>
 
-*如需Workfront存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需Workfront存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-+++     
++++ 
+
+<!--Old:
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Products</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
+   <td> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
+   <td> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
+   <td> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+    <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td><p> Standard to create and delete views</p>
+   <p>Contributor or higher to update view elements</p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a view</p>  
+   <p>View permissions to a view to temporarily change the view settings or to duplicate it</p> </td> 
+  </tr> 
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
+   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
+</td>
+  </tr>
+</tbody> 
+</table> -->
 
 ## 管理時間表檢視 {#manage-a-timeline-view}
 
@@ -119,9 +161,9 @@ ht-degree: 2%
 若要管理時間表檢視：
 
 1. 移至您要檢視其時間軸的記錄型別頁面。
-1. <span class="preview">建立時間表檢視，如文章[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)中所述。</span>
+1. 建立時間表檢視，如文章[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)中所述。
 
-   <span class="preview">![時間表檢視範例](assets/timeline-view-example.png)</span>
+   ![時間表檢視範例](assets/timeline-view-example.png)
 
    與您選取的記錄型別相關聯的記錄會在時間軸中顯示為長條，並依其開始日期的時間順序依預設排序。
 
@@ -153,7 +195,7 @@ ht-degree: 2%
    >在「設定」區域中設定自訂季度後，時間軸檢視會顯示自訂季度，而非傳統季度。
    >如需詳細資訊，請參閱[啟用自訂季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
 
-1. （視條件而定）如果您是Workfront管理員，請按一下&#x200B;**前往設定**&#x200B;設定您的季度。 如果沒有，請按一下[確定] **&#x200B;**，並要求Workfront管理員設定自訂季度。
+1. （視條件而定）如果您是Workfront管理員，請按一下&#x200B;**前往設定**&#x200B;設定您的季度。 如果沒有，請按一下[確定] ****，並要求Workfront管理員設定自訂季度。
 
    >[!TIP]
    >
@@ -175,9 +217,9 @@ ht-degree: 2%
 
 1. 執行下列動作以快速尋找符合關鍵字的記錄：
 
-   1. <span class="preview">按一下&#x200B;**搜尋**&#x200B;圖示![搜尋圖示](assets/search-icon.png)，然後開始輸入與熒幕上顯示之記錄的任何欄位相關聯的關鍵字。 正確相符的數目會顯示在搜尋專案旁邊，而具有正確相符專案的記錄會反白顯示。</span>
+   1. 按一下&#x200B;**搜尋**&#x200B;圖示![搜尋圖示](assets/search-icon.png)，然後開始輸入與熒幕上顯示之記錄的任何欄位相關聯的關鍵字。 正確相符的數目會顯示在搜尋專案旁邊，而具有正確相符專案的記錄會反白顯示。
 
-      <span class="preview">![搜尋方塊和結果時間表檢視](assets/search-box-and-results-timeline-view.png)</span>
+      ![搜尋方塊和結果時間表檢視](assets/search-box-and-results-timeline-view.png)
 
       您可以使用熒幕上可見的任何文字或特殊字元。
 
@@ -187,30 +229,30 @@ ht-degree: 2%
    1. （選擇性）如果有多個相符專案，請按一下搜尋關鍵字右邊的向上和向下箭頭，以尋找表格中的所有相符專案。
    1. 按一下搜尋方塊中的&#x200B;**x**&#x200B;圖示以清除搜尋關鍵字。
 
-   1. <span class="preview">（選擇性）按一下&#x200B;**全熒幕**&#x200B;圖示![開啟全熒幕圖示](assets/open-full-screen-icon.png)以全熒幕開啟檢視，然後按一下&#x200B;**退出全熒幕**&#x200B;圖示![退出全熒幕圖示](assets/exit-full-screen-icon.png)或鍵盤上的Escape以退出全熒幕。 </span>
+   1. （選擇性）按一下&#x200B;**全熒幕**&#x200B;圖示![開啟全熒幕圖示](assets/open-full-screen-icon.png)以全熒幕開啟檢視，然後按一下&#x200B;**退出全熒幕**&#x200B;圖示![退出全熒幕圖示](assets/exit-full-screen-icon.png)或鍵盤上的Escape以退出全熒幕。
 
 1. （選擇性）按一下&#x200B;**劃分**，在時間軸上顯示連線的記錄。
 
    如需相關資訊，請參閱本文章的[使用劃分功能在時間軸檢視](#break-down-connected-records-in-the-timeline-view)中顯示連線記錄。
-1. <span class="preview">若要在時間表檢視中建立記錄或編輯其日期，請執行下列其中一項操作：</span>
+1. 若要在時間軸檢視中建立記錄或編輯其日期，請執行下列任一項作業：
 
-   * <span class="preview">在時間軸上的任何位置連按兩下以建立記錄。</span>
+   * 在時間軸上的任何位置連按兩下以建立記錄。
 
-     <span class="preview">如需詳細資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md)。</span>
-
-   <!--Andrea verifying>[!TIP]
-    >
-    ><span class="preview">Double-clicking to create records in the timeline is not possible inside of a grouping.</span>-->
-
-   * <span class="preview">按一下記錄列的左邊界或右邊界，然後將其拖放到新位置。 調整記錄列的大小會立即更新其開始或結束日期。</span>
-
-   * <span class="preview">拖放記錄以更新其在時間軸中的位置和日期。 移動記錄列會立即更新其開始和結束日期。</span>
-     <span class="preview">如需詳細資訊，請參閱[編輯記錄](/help/quicksilver/planning/records/edit-records.md)。</span>
+     如需詳細資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md)。
 
    >[!TIP]
    >
-   ><span class="preview">在劃分中顯示的Workfront和AEM Assets物件型別之時間軸中，無法重新調整記錄大小並拖放記錄。</span>
+   >在群組內按兩下以在時間軸中建立記錄是不可能的。
 
+   * 按一下記錄列的左邊界或右邊界，然後將其拖放到新位置。 調整記錄列的大小會立即更新其開始或結束日期。
+
+   * 拖放記錄以更新其在時間軸中的位置和日期。 移動記錄列會立即更新其開始和結束日期。
+
+     如需詳細資訊，請參閱[編輯記錄](/help/quicksilver/planning/records/edit-records.md)。
+
+   >[!TIP]
+   >
+   >對於劃分中顯示的Workfront和AEM Assets物件型別，無法在時間軸中調整記錄大小並進行拖放。
 
 1. 更新下列檢視元素，如下列子區段所述：
    * [篩選器](#add-filters)
@@ -362,9 +404,9 @@ ht-degree: 2%
 若要在時間表檢視中新增群組：
 
 1. 如文章[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)中所述，建立記錄型別的時間表檢視。
-1. <span class="preview">按一下時間軸檢視右上角的&#x200B;**群組**。</span>
+1. 按一下時間軸檢視右上角的&#x200B;**群組**。
 
-   <span class="preview">![使用連結欄位將UI時間表檢視分組](assets/grouping-ui-timeline-view-with-linked-fields.png)</span>
+   ![使用連結欄位將UI時間表檢視分組](assets/grouping-ui-timeline-view-with-linked-fields.png)
 
 1. 按一下其中一個建議的欄位，或按一下&#x200B;**選擇其他欄位**，搜尋其他欄位，然後在欄位顯示在清單中時按一下它。
 
@@ -372,9 +414,9 @@ ht-degree: 2%
 
 1. （可選）重複上述步驟以新增最多3個群組。
 
-   <span class="preview">為群組選取的欄位數目會顯示在群組圖示旁。</span>
+   為分組選取的欄位數會顯示在「分組」圖示旁。
 
-   <span class="preview">![在時間表檢視中套用的群組](assets/grouping-applied-in-timeline-view.png)</span>
+   ![在時間表檢視中套用的群組](assets/grouping-applied-in-timeline-view.png)
 
 1. 在&#x200B;**依**&#x200B;分組記錄方塊中，以正確的順序拖放分組。
 
@@ -537,11 +579,7 @@ this is not possible right now; if this is the same functionality as the table v
 1. 從&#x200B;**標準**&#x200B;或&#x200B;**緊密**&#x200B;模式，按一下時間軸檢視右上角的&#x200B;**劃分**。
 1. 展開&#x200B;**選取連結的記錄型別**&#x200B;方塊並選取連線的記錄型別。<!--add a new screen shot - submitted a bug to remove the "the"-->
 
-   <div class="preview">
-
    時間軸檢視上的![劃分選擇器和按鈕](assets/breakdown-picker-and-button-on-timeline.png)
-
-   </div>
 
    >[!TIP]
    >

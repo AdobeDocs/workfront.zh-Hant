@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 0%
@@ -39,6 +39,8 @@ ht-degree: 0%
 * [刪除工作區](/help/quicksilver/planning/architecture/delete-workspaces.md)
 * [編輯工作區](/help/quicksilver/planning/architecture/edit-workspaces.md)
 * [刪除記錄型別](/help/quicksilver/planning/architecture/delete-record-types.md)
+
+<!--*[Configure the Settings area of a record type](/help/quicksilver/planning/architecture/configure-record-type-settings.md)-->
 
 <!--* <span class="preview">[Configure cross-workspace capabilities for record types](help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)</span>
 

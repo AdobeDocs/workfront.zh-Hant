@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: a36968bdae5756f0f8283da04a2afca83b4dd94a
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,41 @@ ht-degree: 0%
 您可以使用「AI輔助程式」，根據目前頁面內容和記錄結構來產生、更新或移除記錄。
 
 使用者的命令和AI對這些命令的執行會共同運作，以確保AI所做的變更正確地反映在您的環境中。
+
+## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。 
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront套件</p></td> 
+   <td> 
+<p>任何Workfront和Planning套件</p>
+<p>任何工作流程和Planning套件</p>
+   </td> </tr>
+
+</tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront授權</p></td> 
+   <td><p>標準</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>物件許可權</p></td> 
+   <td>   <p>管理工作區</a>的許可權 </p>  
+   <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p>  </td> 
+  </tr>  
+</tbody> 
+</table>
+
+如需Workfront存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## AI助理的考量事項
 

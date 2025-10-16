@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '2458'
-ht-degree: 1%
+source-wordcount: '2395'
+ht-degree: 0%
 
 ---
 
@@ -40,8 +40,47 @@ ht-degree: 1%
 
 ## 存取需求
 
-+++ 展開以檢視存取需求。 
++++ 展開以檢視本文中功能的存取需求。 
 
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront套件</p></td> 
+   <td> 
+<ul> 
+<li><p>任何Workfront和任何Planning套件</p></li>
+或
+<li><p>任何工作流程與任何Planning套件</p></li></ul>
+<p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
+   </td> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront授權</p></td> 
+   <td><p>標準</p>
+   </td> 
+  </tr> 
+  <tr>
+   <td role="rowheader"><p>物件許可權</p></td>
+   <td>
+   <p>貢獻或更高的許可權到工作區和記錄型別 </p>  
+   <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p> 
+  </td>
+  </tr>   
+</tbody> 
+</table>
+
+如需Workfront存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++   
+
+
+<!--Old:
 <table style="table-layout:auto">
  <col>
  </col>
@@ -51,63 +90,58 @@ ht-degree: 1%
     <tr>
 <tr>
 <td>
-   <p> 產品</p> </td>
+   <p> Products</p> </td>
    <td>
    <ul><li><p> Adobe Workfront</p></li>
-   <li><p> Adobe Workfront規劃<p></li></ul></td>
+   <li><p> Adobe Workfront Planning<p></li></ul></td>
   </tr>  
  <tr>
-   <td role="rowheader"><p>Adobe Workfront計畫*</p></td>
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td>
    <td>
-<p>下列任一Workfront計畫：</p>
-<ul><li>選擇</li>
+<p>Any of the following Workfront plans:</p>
+<ul><li>Select</li>
 <li>Prime</li>
 <li>Ultimate</li></ul>
-<p>舊版Workfront計畫不提供Workfront計畫</p>
+<p>Workfront Planning is not available for legacy Workfront plans</p>
    </td>
 
 <tr>
-   <td role="rowheader"><p>Adobe Workfront規劃套件*</p></td>
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td>
    <td>
-<p>任何</p>
-<p>如需每個Workfront計畫包含內容的詳細資訊，請聯絡您的Workfront客戶經理。 </p>
+<p>Any</p>
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p>
    </td>
 
 <tr>
-   <td role="rowheader"><p>Adobe Workfront平台</p></td>
+   <td role="rowheader"><p>Adobe Workfront platform</p></td>
    <td>
-<p>貴組織的Workfront例項必須上線至Adobe Unified Experience，才能存取Workfront Planning。</p>
-<p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">適用於Workfront的Adobe Unified Experience</a>。 </p>
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p>
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p>
    </td>
 
-</tr>
+  </tr>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront授權*</p></td>
+   <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
-   <p>標準</p>
-   <p>Workfront計畫不適用於舊版Workfront授權</p>
+   <p>Standard</p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p>
   </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>存取層級設定</p></td>
-   <td> <p>Adobe Workfront Planning沒有存取層級控制</p>  
+   <td role="rowheader"><p>Access level configuration</p></td>
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>  
 </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>物件許可權</p></td>
+   <td role="rowheader"><p>Object permissions</p></td>
    <td>
-   <p>貢獻或更高的許可權至工作區和記錄型別</a> </p>  
-   <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p> 
+   <p>Contribute or higher permissions to a workspace and record type </a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> 
   </td>
   </tr>
  </tbody>
-</table>
-
-*如需Workfront存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
-
-+++
-
+</table>-->
 
 ## 編輯記錄頁面的考量事項
 
@@ -182,7 +216,7 @@ ht-degree: 1%
 
      或
 
-     按一下&#x200B;**下移**&#x200B;將區段下移一個位置。
+     按一下&#x200B;**下移**將區段下移一個位置。
 區段中的所有欄位會隨著區段移動。
 
    * 按一下&#x200B;**刪除**&#x200B;以刪除區段。 該區段已刪除且無法復原。 所有存取此型別記錄的使用者將不再檢視已刪除的區段。
@@ -313,7 +347,7 @@ ht-degree: 1%
 
      這會開啟記錄的預覽頁面。 按一下右上角的&#x200B;**在新索引標籤中開啟**&#x200B;圖示![在新索引標籤中開啟](assets/open-details-in-a-new-tab-icon.png)以開啟連線記錄的頁面。
 
-   * 按一下[連線]&#x200B;**連線**&#x200B;以連線更多記錄，然後按一下連線方塊外部以關閉連線。 新記錄會自動新增到表格中。
+   * 按一下[連線]**連線**&#x200B;以連線更多記錄，然後按一下連線方塊外部以關閉連線。 新記錄會自動新增到表格中。
    * 編輯表格檢視內連線記錄的任何資訊。
 
    * 將游標停留在連線記錄的名稱上，然後按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下下列其中一個選項：
@@ -353,7 +387,7 @@ ht-degree: 1%
 
    或
 
-   將游標暫留在索引標簽名稱上，然後按一下[其他] **&#x200B;**&#x200B;![&#x200B; [其他]功能表](assets/more-menu.png)，然後按一下[重新命名] **以重新命名為新的[連線檢視]索引標籤。**
+   將游標暫留在索引標簽名稱上，然後按一下[其他] **** ![ [其他]功能表](assets/more-menu.png)，然後按一下[重新命名] **以重新命名為新的[連線檢視]索引標籤。**
 1. （可選）使用工具列中的下列任何檢視元素來管理表格檢視：
 
    * 篩選器
@@ -374,7 +408,7 @@ ht-degree: 1%
    * <span class="preview">在預覽環境中，按一下連線記錄頁面右上角的&#x200B;**連線記錄**&#x200B;以連線現有的專案，或按一下表格底部的&#x200B;**新增列**&#x200B;以建立專案，並自動將它們連線到目前的記錄。</span>
 
    如需詳細資訊，請參閱[連線記錄](/help/quicksilver/planning/records/connect-records.md)。
-1. （選擇性）將游標暫留在[連線的記錄]頁面索引標簽名稱上，按一下[其他] **&#x200B;**&#x200B;![&#x200B; [其他]功能表](assets/more-menu.png)，然後按一下[刪除] **&#x200B;**&#x200B;以移除索引標籤。
+1. （選擇性）將游標暫留在[連線的記錄]頁面索引標簽名稱上，按一下[其他] **** ![ [其他]功能表](assets/more-menu.png)，然後按一下[刪除] ****&#x200B;以移除索引標籤。
 
 
 

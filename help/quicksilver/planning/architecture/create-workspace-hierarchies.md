@@ -3,13 +3,13 @@ title: 建立Workspace階層
 description: 您可以在工作區中的記錄型別之間建立多個工作區階層。
 hide: true
 hidefromtoc: true
-source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
+exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '117'
 ht-degree: 1%
 
 ---
-
 
 <!--update the metadata with real information when making this available in TOC and in the left nav:
 
@@ -34,6 +34,8 @@ hidefromtoc: yes
 
 <!--check the access to see if you oversimplified???-->
 
+<!--Update the TOC for this to publish-->
+
 +++ 展開以檢視存取需求，以執行本文中的步驟：  
 
 <table style="table-layout:auto"> 
@@ -41,27 +43,32 @@ hidefromtoc: yes
 </col> 
 <col> 
 </col> 
-<tbody>
-
+<tbody> 
+    <tr> 
+<tr> 
+</tr>   
 <tr> 
    <td role="rowheader"><p>Adobe Workfront套件</p></td> 
    <td> 
-<p>任何Workfront Workflow套件</p> 
-<p>任何Workfront Planning套件</p> 
+<ul> 
+<li><p>任何Workfront和任何Planning套件</p></li>
+<p>或</p>
+<li><p>任何工作流程與任何Planning套件</p></li></ul>
+<p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
    </td> 
-  </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront授權</p></td> 
    <td><p>標準</p>
-  </td> 
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
-   <td><p>您會收到您所建立之工作區的「管理」許可權。 </p> </td> 
-  </tr> 
+   <td>   <p>管理工作區的許可權</p>  
+   <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p>  </td> 
+  </tr>  
 </tbody> 
 </table>
 
 如需Workfront存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-+++   
++++

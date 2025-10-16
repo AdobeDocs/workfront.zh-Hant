@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: e717e095f1995dbed0232789616d42492156d843
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1145'
 ht-degree: 1%
 
 ---
@@ -16,12 +16,14 @@ ht-degree: 1%
 
 # 管理記錄檢視
 
-<!-- take preview and production references out at production-->
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 {{planning-important-intro}}
 
@@ -54,7 +56,7 @@ ht-degree: 1%
 
 ## 存取需求
 
-+++ 展開以檢視存取需求。 
++++ 展開以檢視本文中功能的存取需求。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -64,48 +66,23 @@ ht-degree: 1%
 <tbody> 
     <tr> 
 <tr> 
-<td> 
-   <p> 產品</p> </td> 
-   <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront規劃<p></li></ul></td> 
-  </tr>   
+</tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront計畫*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront套件</p></td> 
    <td> 
-<p>下列任一Workfront計畫：</p> 
-<ul><li>選擇</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>舊版Workfront計畫不提供Workfront計畫</p> 
+<ul> 
+<li><p>任何Workfront和任何Planning套件</p></li>
+或
+<li><p>任何工作流程與任何Planning套件</p></li></ul>
+<p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
    </td> 
-<tr> 
-   <td role="rowheader"><p>Adobe Workfront規劃套件*</p></td> 
-   <td> 
-<p>任何 </p> 
-<p>如需每個Workfront計畫包含內容的詳細資訊，請聯絡您的Workfront客戶經理。 </p> 
-   </td> 
- <tr> 
-   <td role="rowheader"><p>Adobe Workfront平台</p></td> 
-   <td> 
-<p>貴組織的Workfront例項必須上線至Adobe Unified Experience，才能存取Workfront Planning。</p> 
-<p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">適用於Workfront的Adobe Unified Experience</a>。 </p> 
-   </td> 
-   </tr> 
-  </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront授權*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront授權</p></td> 
    <td><p> 建立和刪除檢視的標準</p>
    <p>更新檢視元素的投稿人或更新者</p>
-   <p>Workfront計畫不適用於舊版Workfront授權</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>存取層級設定</p></td> 
-   <td> <p>Adobe Workfront Planning沒有存取層級控制</p>   
-</td> 
-  </tr> 
-<tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
    <td>   <p>管理檢視的許可權</p>  
    <p>檢視許可權以暫時變更檢視設定或複製檢視</p> </td> 
@@ -115,13 +92,78 @@ ht-degree: 1%
    <td> 必須為具有輕度或貢獻者授權的使用者指派包含Planning的版面配置範本。
    <p>標準使用者和系統管理員預設會啟用Planning區域。</p></div></li></ul>
 </td>
-  </tr>
+  </tr> 
 </tbody> 
 </table>
 
-*如需Workfront存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需Workfront存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-+++   
++++
+
+
+<!--Old:
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Products</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
+   <td> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
+   <td> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
+   <td> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td><p> Standard to create and delete views</p>
+   <p>Contributor or higher to update view elements</p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a view</p>  
+   <p>View permissions to a view to temporarily change the view settings or to duplicate it</p> </td> 
+  </tr> 
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
+   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
+</td>
+  </tr>
+</tbody> 
+</table>-->
 
 ## 使用記錄檢視時的注意事項
 
@@ -171,8 +213,8 @@ ht-degree: 1%
 | 依月份顯示記錄 |           | ✓ | ✓ |
 | 按周顯示記錄 |           |               | ✓ |
 | 從檢視匯出資訊 | ✓ |               |    |
-| <span class="preview">以全熒幕顯示</span> | ✓ | ✓ | ✓ |
-| <span class="preview">在檢視中建立記錄</span> | ✓ | ✓ | ✓ |
+| 以全熒幕顯示 | ✓ | ✓ | ✓ |
+| 在檢視中建立記錄 | ✓ | ✓ | ✓ |
 
 ## 建立或編輯檢視 {#create-or-edit-views}
 
@@ -189,10 +231,7 @@ ht-degree: 1%
 
    依預設，選取型別的所有記錄都會顯示在表格檢視中。
 
-1. 根據您使用的環境，執行下列動作：
-
-   * 在生產環境中，按一下「**+檢視**」標籤。
-   * <span class="preview">在預覽環境中，按一下目前檢視名稱旁的下拉式圖示![下拉式圖示](assets/drop-down-icon.png)，然後按一下&#x200B;**+新增檢視**。</span>
+1. 按一下目前檢視名稱旁邊的下拉式清單圖示![下拉式清單圖示](assets/drop-down-icon.png)，然後按一下&#x200B;**+新增檢視**。
 
 1. 從下列檢視型別中選取：
 
@@ -200,9 +239,7 @@ ht-degree: 1%
    * 時間軸
    * 行事曆
 
-   在生產環境中，會以選取的檢視建立一個新標籤。
-
-   視熒幕寬度而定，**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)中可能會顯示其他檢視。
+1. 選擇檢視型別，然後按一下[建立]。**** 新檢視會新增至下拉式功能表。
 
    >[!TIP]
    >
@@ -211,16 +248,14 @@ ht-degree: 1%
    >若要建立時間表或行事曆檢視，您為其建立檢視的記錄型別必須至少有兩個日期欄位。
    >
    >否則，「時間軸」和「行事曆」選項會變暗。
-   >
+   >  
 
-   <span class="preview">在預覽環境中，選擇檢視型別，然後按一下[建立]。**&#x200B;** 新檢視會新增至下拉式功能表。</span>
+   ![建立檢視方塊](assets/create-view-box.png)
 
-   <span class="preview">![建立檢視方塊](assets/create-view-box.png)</span>
+1. （選擇性）若要編輯現有檢視，請按一下目前檢視名稱右側的下拉式功能表，然後在&#x200B;**搜尋**&#x200B;欄位中輸入檢視名稱，然後在鍵盤上按Enter鍵。
+1. （可選）從檢視下拉式功能表中，依您的偏好順序拖放檢視。
 
-1. <span class="preview">若要編輯現有的檢視，請在&#x200B;**搜尋**&#x200B;欄位中輸入檢視的名稱，然後按鍵盤上的Enter鍵。</span>
-1. <span class="preview">從檢視下拉式功能表，依您的偏好順序拖放檢視。</span>
-
-   <span class="preview">![記錄型別清單中的檢視型別下拉式清單](assets/view-types-drop-down-from-record-type-list.png)</span>
+   ![記錄型別清單中的檢視型別下拉式清單](assets/view-types-drop-down-from-record-type-list.png)
 
 1. （視條件而定）建立時間表或行事曆檢視時，按一下&#x200B;**下一步**。
 
@@ -254,7 +289,7 @@ ht-degree: 1%
 
    連按兩下檢視名稱，然後開始輸入新名稱。 <!--ensure there is not another saving step here?!-->
 
-1. <span class="preview">（選擇性）按一下&#x200B;**全熒幕**&#x200B;圖示![開啟全熒幕圖示](assets/open-full-screen-icon.png)以全熒幕開啟任何檢視，然後按一下&#x200B;**退出全熒幕**&#x200B;圖示![退出全熒幕圖示](assets/exit-full-screen-icon.png)或鍵盤上的Escape以退出全熒幕。 </span>
+1. （選擇性）按一下&#x200B;**全熒幕**&#x200B;圖示![開啟全熒幕圖示](assets/open-full-screen-icon.png)以全熒幕開啟任何檢視，然後按一下&#x200B;**退出全熒幕**&#x200B;圖示![退出全熒幕圖示](assets/exit-full-screen-icon.png)或鍵盤上的Escape以退出全熒幕。
 
 1. （可選）若要管理特定型別的檢視，請參閱下列文章：
 

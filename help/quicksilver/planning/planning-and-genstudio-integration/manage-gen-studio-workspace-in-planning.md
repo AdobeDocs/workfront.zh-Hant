@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
-source-git-commit: d7af8c5888147e847b4e239b629373b4b72541f7
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1359'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ recommendations: noDisplay, noCatalog
 >[!IMPORTANT]
 >
 >本文所述的步驟說明在擁有GenStudio工作區的「管理」許可權時，如何從Workfront Planning更新工作區。
->&#x200B;> 當您擁有GenStudio工作區的貢獻許可權時，並非所有功能都可使用。
+>> 當您擁有GenStudio工作區的貢獻許可權時，並非所有功能都可使用。
 >
 >如果您的公司有多個Workfront例項，則所有使用者都能在Workfront Planning中取得GenStudio工作區的貢獻許可權。
 
@@ -59,12 +59,17 @@ recommendations: noDisplay, noCatalog
 </col> 
 <tbody> 
     <tr> 
-    <td role="rowheader"><p>Adobe Workfront套件</p></td> 
+<tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront套件</p></td> 
    <td> 
-<p>任何Workfront套件</p>
-<p>任何Planning套件</p>
-
-</td> </tr>
+<ul> 
+<li><p>任何Workfront和任何Planning套件</p></li>
+或
+<li><p>任何工作流程與任何Planning套件</p></li></ul>
+<p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
+   </td> 
    <tr> 
 <td> 
    <p> 其他產品</p> </td> 
@@ -73,15 +78,14 @@ recommendations: noDisplay, noCatalog
   </tr>
   <tr> 
    <td role="rowheader"><p>Adobe Workfront授權</p></td> 
-   <td><p> 標準</p>
-  </td> 
-  </tr>
-
-<tr> 
+   <td><p>標準</p>
+   </td> 
+  </tr> 
+  <tr> 
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing使用者角色</p></td> 
    <td><p><ul><li>存取行銷活動、產品和角色的任何GenStudio使用者角色</li>
    <li>GenSudio System Manager存取啟用 <!--and Events--></li></ul>
-   如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">使用者角色和許可權</a>。 
+   如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">使用者角色和許可權</a>。 
    </p>
   </td> 
   </tr>   
@@ -98,8 +102,7 @@ recommendations: noDisplay, noCatalog
    <ul>
    <li><p> Adobe GenStudio for Performance Marketing中的任何許可權</p></li>
    <li><p> 在Adobe GenStudio for Performance Marketing中建立許可權以建立專案</p></li></ul>
-   </td> 
-  </tr> 
+   </td>  
 </tbody> 
 </table>
 
@@ -108,6 +111,59 @@ recommendations: noDisplay, noCatalog
 如需Adobe GenStudio for Performance Marketing的詳細資訊，請參閱[Adobe GenStudio for Performance Marketing使用手冊](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/home)。
 
 +++   
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+    <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> 
+<p>Any Workfront package</p>
+<p>Any Planning package</p>  
+
+   </td> </tr>
+   <tr> 
+<td> 
+   <p> Additional products</p> </td> 
+   <td> 
+   <p> Adobe GenStudio for Performance Marketing</p></td> 
+  </tr>
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td><p> Standard</p>
+  </td> 
+  </tr> 
+   
+  <tr> 
+   <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
+   <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
+   <li>GenSudio System Manager to access Activations ****** and Events*********</li></ul>
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   </p>
+  </td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>  
+   <p>In Workfront Planning: </p>
+   <ul>
+   <li><p>Manage permissions to the GenStudio workspace to add new fields or record types to the GenStudio workspace</p></li>
+   <li><p>Contribute permissions to the GenStudio workspace to add, update, or delete records in the GenStudio workspace</p> </li>  
+   </ul>
+   <p>No users can remove GenStudio for Performance Marketing record types or fields from the GenStudio workspace in Workfront Planning</p>
+   <p>In Adobe GenStudio for Performance Marketing: <p>
+   <ul>
+   <li><p> Any permissions in Adobe GenStudio for Performance Marketing</p></li>
+   <li><p> Create permissions in Adobe GenStudio for Performance Marketing to create items</p></li></ul>
+   </td> 
+  </tr> 
+</tbody> 
+</table> -->
 
 ## 在Workfront Planning中管理GenStudio工作區的考量事項
 
@@ -275,7 +331,7 @@ CAN YOU DO THIS??
 
      您在Planning中GenStudio工作區所做的變更會立即從GenStudio中顯示。
 
-1. 在表格檢視中選取記錄，然後按一下[刪除]。**&#x200B;**
+1. 在表格檢視中選取記錄，然後按一下[刪除]。****
 
    如需詳細資訊，請參閱[刪除記錄](/help/quicksilver/planning/records/delete-records.md)。
 
