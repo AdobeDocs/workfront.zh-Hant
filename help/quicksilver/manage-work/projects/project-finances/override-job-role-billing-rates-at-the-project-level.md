@@ -6,16 +6,16 @@ description: 身為專案經理，您可以指定特定專案上工作角色的�
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
-source-git-commit: 18c39c5b1959c31b6fd0018476b48643b4b15021
+source-git-commit: 1992e1c07e5e530a2e627ef5d2059b2384b31000
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '826'
 ht-degree: 0%
 
 ---
 
 # 覆寫專案層級的工作角色收費率
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽沙箱」環境中使用，並且正在分階段推出到生產環境。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
 
 身為專案經理，您可以指定特定專案上工作角色的收費率。 此專案層級的收費率會覆寫此工作角色之系統層級的收費率。 Workfront使用工作角色的專案層級收費率來計算收入，而不使用系統層級收費率。
 
@@ -102,11 +102,11 @@ ht-degree: 0%
    * **開始日期**：這是預設匯率結束的日期。
    * **結束日期**：新收費率覆寫結束的日期。
 
-   <span class="preview">預覽環境中的範例影像：</span>
+   <!--<span class="preview">Sample image in the Preview environment:</span>-->
    ![覆寫日期的收費率](assets/billing-rates-093025.png)
 
-   生產環境中的影像範例：
-   ![覆寫日期的收費率](assets/new-billing-rate-with-adjustment-dates-350x266.png)
+   <!--Sample image in the Production environment:
+   ![Billing rates with override dates](assets/new-billing-rate-with-adjustment-dates-350x266.png)-->
 
 1. 您選取之日期的時區會顯示在「新增收費率」方塊的底部。 這是與您的Workfront執行個體相關聯的時區，如設定的客戶資訊區域所示。 如需詳細資訊，請參閱[設定您系統的基本資訊](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md)。
 1. Workfront會將覆寫工作角色費率套用至計算專案收入時指定的時間範圍內發生的小時。
