@@ -28,13 +28,13 @@ ht-degree: 0%
     </ul> 
     <ul> 
      <li> <p>物件的共用對話方塊</p> </li> 
-     <li> <p>[！UICONTROL使用者設定檔]*</p> </li> 
+     <li> <p>[!UICONTROL 使用者設定檔]*</p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>[！UICONTROL團隊]區域中的主要選取下拉式功能表</p> </li> 
-     <li> <p>[！UICONTROL指派]自動提示</p> </li> 
-     <li> <p>專案中的[！UICONTROL新增到Kanban]展示板對話方塊</p> </li> 
+     <li> <p>[!UICONTROL 團隊]區域中的主要選取下拉式功能表</p> </li> 
+     <li> <p>[!UICONTROL 指派]自動提示</p> </li> 
+     <li> <p>專案中的[!UICONTROL 新增到Kanban]展示板對話方塊</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

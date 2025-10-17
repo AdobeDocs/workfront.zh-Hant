@@ -104,73 +104,73 @@ ht-degree: 1%
    <table style="table-layout:auto"> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>[！UICONTROL名稱]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL 名稱]</strong></td> 
       <td>變更名稱也會變更連線[!DNL Workfront]物件的名稱。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[！UICONTROL說明]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL 說明]</strong></td> 
       <td>變更描述也會變更連線[!DNL Workfront]物件的描述。 您可以在說明中新增URL，這些URL在儲存卡片時就會變成可點按的連結。</td> 
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL欄]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 欄]</strong></td>
       <td>選取卡片的欄。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL狀態]</strong></td>
-      <td><p>選取卡片的狀態。 預設值為[！UICONTROL New]、[！UICONTROL In Progress]和[！UICONTROL Complete]，但也可使用為[!DNL Workfront]中的專案定義的任何自訂狀態。</p>
+      <td role="rowheader"><strong>[!UICONTROL 狀態]</strong></td>
+      <td><p>選取卡片的狀態。 預設值為[!UICONTROL New]、[!UICONTROL In Progress]和[!UICONTROL Complete]，但也可使用為[!DNL Workfront]中的專案定義的任何自訂狀態。</p>
       <p>如果您已啟用欄原則來更新欄位值，則變更卡片上的狀態會自動將卡片移動到對應的欄。 如需詳細資訊，請參閱文章<a href="/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md" class="MCXref xref">管理展示板欄</a>中的「定義欄設定和原則」。</p>
-      <p>如果您按一下卡片頂端的<strong>[！UICONTROL標籤完成]</strong>，狀態會自動變更為「完成」。</p></td>
+      <p>如果您按一下卡片頂端的<strong>[!UICONTROL 標籤完成]</strong>，狀態會自動變更為「完成」。</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL計畫完成]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 計畫完成]</strong></td>
       <td>變更此日期也會變更連線[!DNL Workfront]物件上的規劃完成日期。</td>
      </tr>
       <tr>
-      <td role="rowheader"><strong>[！UICONTROL估算]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 估算]</strong></td>
       <td><p>要完成的卡片小時數。</p><p>變更預估也會變更連線[!DNL Workfront]物件上的劇本點值。</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL指定任務]</strong></td>
-      <td><p>若要指派更多人員或團隊給卡片，請按一下<strong>[！UICONTROL新增指派]</strong>，然後在搜尋欄位中輸入名稱。 然後，當它顯示在結果清單中時選取它。 您可以新增個人和團隊。 已連線的卡片只允許一個群組指派。</p>
+      <td role="rowheader"><strong>[!UICONTROL 指定任務]</strong></td>
+      <td><p>若要指派更多人員或團隊給卡片，請按一下<strong>[!UICONTROL 新增指派]</strong>，然後在搜尋欄位中輸入名稱。 然後，當它顯示在結果清單中時選取它。 您可以新增個人和團隊。 已連線的卡片只允許一個群組指派。</p>
       <p>您選取的任何受指派人也會指派給[!DNL Workfront]中的任務或問題。</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL標籤]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 標籤]</strong></td>
       <td><p>搜尋並選取卡片的標籤。</p>
       <p>如需有關建立新標籤的資訊，請參閱<a href="../../agile/get-started-with-boards/add-tags.md" class="MCXref xref">新增標籤</a>。</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL自訂欄位]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 自訂欄位]</strong></td>
       <td><p>您新增的任何自訂欄位都會顯示在此區域中。</p>
       <p>如需詳細資訊，請參閱<a href="/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md">自訂卡片上顯示的欄位</a>。</p></td>
      </tr>
      <tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL Subtask]</strong></td>
-      <td><p>任務的任何現有子任務都會出現在此區段中。 按一下<strong>[！UICONTROL新增子任務]</strong>以新增子任務。</p>
+      <td role="rowheader"><strong>[!UICONTROL Subtask]</strong></td>
+      <td><p>任務的任何現有子任務都會出現在此區段中。 按一下<strong>[!UICONTROL 新增子任務]</strong>以新增子任務。</p>
       <p>區段頂端的計數器顯示已完成子工作的數目以及子工作的總數。</p>
       <p>如需子工作的詳細資訊，請參閱<a href="/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md">管理面板上的子工作</a>。</p></td>
      </tr>
      <tr> 
-      <td role="rowheader"><strong>[！UICONTROL檢查清單]</strong></td>
-      <td><p>按一下<strong>[！UICONTROL新增檢查清單專案]</strong>。 然後，輸入專案的標題並按Enter鍵。 系統會自動新增另一個專案。 繼續輸入標題以新增更多專案。</p>
+      <td role="rowheader"><strong>[!UICONTROL 檢查清單]</strong></td>
+      <td><p>按一下<strong>[!UICONTROL 新增檢查清單專案]</strong>。 然後，輸入專案的標題並按Enter鍵。 系統會自動新增另一個專案。 繼續輸入標題以新增更多專案。</p>
       <p>檢查清單頂端的計數器顯示已完成的專案數和專案總數。</p> <p>如需清單專案的詳細資訊，請參閱<a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">管理卡片上的清單專案</a>。</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL檔案]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 檔案]</strong></td>
       <td>針對現有檔案，將滑鼠停留在檔案縮圖上，然後按一下<strong>預覽</strong>在瀏覽器中檢視檔案，或按一下<strong>下載</strong>將檔案下載到您的電腦。 如需新檔案，請參閱<a href="/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md">新增卡片上的檔案</a>。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL小時]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 小時]</strong></td>
       <td>請參閱下方的「在連線的卡片上記錄時數」。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL註解]</strong></td>
-      <td><p>按一下<strong>[！UICONTROL新註解]</strong>欄位，然後輸入您的註解。 使用格式化工具來格式化文字。 若要標籤人員或團隊，請使用註釋區域底部的搜尋方塊。 使用者不必是展示板的成員。 已連線卡片上的標籤使用者將收到電子郵件通知。</p><p>按一下<strong>[！UICONTROL Submit]</strong>，將註解新增至卡片。</p>
+      <td role="rowheader"><strong>[!UICONTROL 註解]</strong></td>
+      <td><p>按一下<strong>[!UICONTROL 新註解]</strong>欄位，然後輸入您的註解。 使用格式化工具來格式化文字。 若要標籤人員或團隊，請使用註釋區域底部的搜尋方塊。 使用者不必是展示板的成員。 已連線卡片上的標籤使用者將收到電子郵件通知。</p><p>按一下<strong>[!UICONTROL Submit]</strong>，將註解新增至卡片。</p>
       <p>如需有關註解的詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">更新工作</a>。</p></td>
      </tr>
      <tr> 
-      <td role="rowheader"><strong>[！UICONTROL系統活動]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL 系統活動]</strong></td> 
       <td><p>如果您已將<strong>系統活動</strong>啟用為卡片區段，則活動會顯示在此區域中。</p> <p>如需詳細資訊，請參閱<a href="/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md">自訂卡片上顯示的欄位</a>和<a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md">系統追蹤的更新</a>。</p></td>
      </tr>     
     </tbody> 
@@ -178,7 +178,7 @@ ht-degree: 1%
 
    使用左側導覽面板在卡片詳細資訊的欄位區段之間移動。
 
-1. 按一下&#x200B;**[!UICONTROL 關閉]**以返回展示板。
+1. 按一下&#x200B;**[!UICONTROL 關閉]**&#x200B;以返回展示板。
 連線物件、受託人、標籤、到期日、檢查清單計數器、預估時數和狀態都會顯示在卡片上。
 
    ![卡片已新增到展示板](assets/boards-connected-card-details-110922.png)

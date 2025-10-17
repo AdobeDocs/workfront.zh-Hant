@@ -33,13 +33,13 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>新增：[！UICONTROL Standard]</p> 
+   <td> <p>新增：[!UICONTROL Standard]</p> 
    或
-   <p>目前： [！UICONTROL Work]或更高版本</p> </td> 
+   <p>目前： [!UICONTROL Work]或更高版本</p> </td> 
   </tr>
    <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td>[！UICONTROL Manage]任務或問題的存取權 </td> 
+   <td>[!UICONTROL Manage]任務或問題的存取權 </td> 
   </tr>
  </tbody> 
 </table>
@@ -62,11 +62,11 @@ ht-degree: 0%
 
    <table style="table-layout:auto">
     <tr>
-        <td><strong>[！UICONTROL其他反複專案]</strong></td>
+        <td><strong>[!UICONTROL 其他反複專案]</strong></td>
         <td>選取將專案移至另一個反複專案，然後選擇內文或問題將移至哪個反複專案。 如果未定義未來的版序，則無法移動專案。</td>
     </tr>
     <tr>
-        <td><strong>[！UICONTROL待處理專案]</strong></td>
+        <td><strong>[!UICONTROL 待處理專案]</strong></td>
         <td>選取將劇本或問題移至團隊的待辦專案。</td>
     </tr>
    </table>

@@ -59,7 +59,7 @@ ht-degree: 0%
 * [註解 [!DNL iOS]中的校訂](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-ios.md)
 * [註解 [!DNL Android]中的校訂](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-android.md)
 * [在 [!DNL Adobe Workfront] 行動應用程式中共用和下載校樣](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/share-proofs-mobile.md)
-* [ [!DNL Adobe Workfront] 行動應用程式中的核准](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)
-* [[!DNL Adobe Workfront] (MDM)的 [!DNL Mobile Device Management] ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mdm.md)
+* [&#x200B; [!DNL Adobe Workfront] 行動應用程式中的核准](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)
+* [[!DNL Adobe Workfront] (MDM)的 [!DNL Mobile Device Management] &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mdm.md)
 * [設定 [!DNL Adobe Workfront] 的 [!DNL MobileIron]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)
 

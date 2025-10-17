@@ -66,7 +66,7 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >群組管理員的存取權必須高於其管理者，否則將無法檢視或修改較低的存取層級。
->>如需授與此存取權的指示，請參閱[建立或修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
+>&#x200B;>如需授與此存取權的指示，請參閱[建立或修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
 對於需要為其群組和子群組中的使用者指派時程表設定檔的群組管理員，我們也建議對時程表和時數進行管理存取。 如需授與此存取權的指示，請參閱[授與使用者對特定區域的管理存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)。
 

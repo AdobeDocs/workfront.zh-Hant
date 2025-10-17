@@ -56,9 +56,9 @@ ht-degree: 1%
    <td role="rowheader"><strong>存取層級設定</strong></td> 
    <td> <p>您必須具備下列其中一項：</p> 
     <ul> 
-     <li> <p>[！UICONTROL系統管理員]存取層級。</p> </li> 
-     <li> <p>在您的存取層級中，必須為[！UICONTROL使用者]設定選取[！UICONTROL編輯] 。 此外，針對[！UICONTROL使用者]設定，在[！UICONTROL微調您的設定] <img src="assets/gear-icon-in-access-levels.png">下，必須啟用[！UICONTROL建立]選項以及兩個[！UICONTROL使用者管理]選項中的至少一個。 </li> 
-     <li>如果您使用[！UICONTROL使用者管理員（群組使用者）]選項，您必須是使用者所屬群組的群組管理員。</li> 
+     <li> <p>[!UICONTROL 系統管理員]存取層級。</p> </li> 
+     <li> <p>在您的存取層級中，必須為[!UICONTROL 使用者]設定選取[!UICONTROL 編輯] 。 此外，針對[!UICONTROL 使用者]設定，在[!UICONTROL 微調您的設定] <img src="assets/gear-icon-in-access-levels.png">下，必須啟用[!UICONTROL 建立]選項以及兩個[!UICONTROL 使用者管理]選項中的至少一個。 </li> 
+     <li>如果您使用[!UICONTROL 使用者管理員（群組使用者）]選項，您必須是使用者所屬群組的群組管理員。</li> 
     </ul> </td> 
   </tr> 
  </tbody> 

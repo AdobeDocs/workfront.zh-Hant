@@ -89,15 +89,15 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>[！UICONTROL已核准]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL 已核准]</strong></td> 
       <td>校訂已準備好移動到工作流程的下一個階段。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[！UICONTROL已核准變更]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL 已核准變更]</strong></td> 
       <td> <p>校訂需要一些變更，但在修訂移至工作流程的下一個階段之前，您不需要檢視修訂專案。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[！UICONTROL已拒絕]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL 已拒絕]</strong></td> 
       <td>校訂被拒絕，不會在工作流程中前進。</td> 
      </tr> 
     </tbody> 

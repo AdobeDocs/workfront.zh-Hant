@@ -32,9 +32,9 @@ ht-degree: 2%
    <td> 
     <ul> 
      <li>開始處理任務和問題</li> 
-     <li>將任務和問題標示為[！UICONTROL完成]</li> 
+     <li>將任務和問題標示為[!UICONTROL 完成]</li> 
      <li>重新指派任務和問題</li> 
-     <li>變更[！UICONTROL認可日期]</li> 
+     <li>變更[!UICONTROL 認可日期]</li> 
     </ul> </td> 
    <td> 
     <ul> 
@@ -73,7 +73,7 @@ ht-degree: 2%
     <ul> 
      <li>更新專案狀態</li> 
      <li>檢視重要專案詳細資訊</li> 
-     <li>在[！UICONTROL更新]區域張貼</li> 
+     <li>在[!UICONTROL 更新]區域張貼</li> 
      <li>將任務、問題和請求轉換為專案</li> 
     </ul> </td> 
    <td> 
@@ -145,7 +145,7 @@ ht-degree: 2%
     </ul> </td>
    <td>
     <ul>
-     <li>在[！UICONTROL更新]區域張貼</li>
+     <li>在[!UICONTROL 更新]區域張貼</li>
      <li>檢視檔案</li>
      <li>附加像片</li>
      <li>將請求儲存為草稿</li>

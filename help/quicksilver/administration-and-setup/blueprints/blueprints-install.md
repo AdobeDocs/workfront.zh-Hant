@@ -90,7 +90,7 @@ ht-degree: 1%
    如需詳細資訊，請參閱[我該在哪裡安裝Blueprint？本文中的](#where-should-i-install-a-blueprint)節。
 1. 在&#x200B;**設定**&#x200B;頁面上，您可以選擇執行下列任一項作業：
 
-   * 依原樣安裝Blueprint。 對於不需要任何設定的Blueprint型別，這是唯一的選項。 對於需要設定的Blueprint型別，您可以選擇現在安裝Blueprint並於稍後進行設定。 按一下[依原樣安裝] ****。
+   * 依原樣安裝Blueprint。 對於不需要任何設定的Blueprint型別，這是唯一的選項。 對於需要設定的Blueprint型別，您可以選擇現在安裝Blueprint並於稍後進行設定。 按一下[依原樣安裝] **&#x200B;**。
    * 在安裝之前設定藍圖，適用於需要設定的Blueprint。 選擇您的設定，然後按一下&#x200B;**[!UICONTROL 安裝Blueprint]**。
 
      如需詳細資訊，請參閱[設定藍圖](../../administration-and-setup/blueprints/configure-template-package.md)。
