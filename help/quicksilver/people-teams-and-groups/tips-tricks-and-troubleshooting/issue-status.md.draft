@@ -5,7 +5,7 @@ product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-groups
 title: Configure the Done button for issues if no team is assigned
 description: Clicking the Done button on an issue updates the status for the issue. By default, the Done button marks an issue as Resolved. Users with certain permissions can configure the Done button to reflect certain statuses in the system. The primary way to configure statuses for the Done button is through the Home Team. For more information, see Configure the Done button for issues.
-author: Lisa
+author: Jenny
 hidefromtoc: true
 ---
 
