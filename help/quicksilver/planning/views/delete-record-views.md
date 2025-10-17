@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: f86971bc-e807-459e-9fa8-dc34967bc069
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,8 @@ ht-degree: 0%
 您可以刪除在Adobe Workfront Planning中不再使用的記錄檢視。
 
 有權存取檢視的所有使用者皆會刪除該檢視。 已刪除的檢視無法復原。
+
+您無法刪除記錄型別的原始表格檢視。
 
 ## 存取需求
 

@@ -7,9 +7,9 @@ description: 您在Adobe Workfront中登入工作專案的時數會視為實際�
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: 055228fd15d670a214039575dc076ab36f6e99eb
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1231'
 ht-degree: 0%
 
 ---
@@ -202,11 +202,13 @@ Project Actual Hours = All Tasks Actual Hours + All Issues Actual Hours + All Pr
 * **實際時數**： 2021年5月之後為專案、任務或問題記錄的時數。 它們會以小時為單位儲存在Workfront資料庫中，其valuefield為`actualWorkRequiredDouble`。
 * **舊版實際時數**：隨時為專案、任務或問題記錄的時數，包括2021年5月前的時間。 它們以分鐘數儲存在Workfront資料庫中，其valuefield為`actualWorkRequired`。
 
-  >[!IMPORTANT]
-  >
-  >專案的實際成本使用舊版實際時數進行計算。
+如需API版本的詳細資訊，請參閱[API版本設定與支援排程](/help/quicksilver/wf-api/api/api-version-support-schedule.md)。
 
-  如需有關在計算欄或欄位中使用實際時數的資訊，請參閱[報告常見問題集](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)。
+>[!IMPORTANT]
+>
+>專案的實際成本使用舊版實際時數進行計算。
+
+如需有關在計算欄或欄位中使用實際時數的資訊，請參閱[報告常見問題集](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)。
 
 ## 記錄時間
 

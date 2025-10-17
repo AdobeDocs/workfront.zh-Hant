@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
-source-wordcount: '1933'
+source-wordcount: '1950'
 ht-degree: 0%
 
 ---
@@ -52,13 +52,10 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
 <tr> 
    <td role="rowheader"><p>Adobe Workfront套件</p></td> 
    <td> 
-<ul><li><p>任何Workfront套件</p></li>
-與
-<li><p>任何Planning套件</p></li></ul>
+<p>任何Workfront套件和任何Planning套件</p>
 或
-<ul><li><p>任何Workflow封裝</p></li>
-與
-<li><p>任何Planning套件</p></li></ul>
+<p>任何Workflow套件和任何Planning套件</p>
+<p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。</p>
    </td> </tr>
 
 </tr> 
@@ -121,8 +118,8 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
 
 {{step1-to-requests}}
 
-1. 啟用熒幕右上角的&#x200B;**切換至新的體驗**&#x200B;設定。
-啟用此設定可讓Workfront Planning請求表單出現在Workfront的&#x200B;**請求**&#x200B;區域中。
+1. 啟用熒幕右上角的&#x200B;**切換至新的體驗**設定。
+啟用此設定可讓Workfront Planning請求表單出現在Workfront的**請求**&#x200B;區域中。
 
    >[!TIP]
    >
@@ -178,7 +175,7 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
 
 1. （選擇性）按一下確認訊息中的&#x200B;**檢視您的要求**&#x200B;以開啟要求，或按一下&#x200B;**X**&#x200B;圖示以關閉確認。
 
-1. （選擇性）按一下&#x200B;**要求**&#x200B;區域中的&#x200B;**規劃**&#x200B;索引標籤，以檢視您的要求。
+1. （選擇性）按一下&#x200B;**要求**&#x200B;區域中的&#x200B;**規劃**索引標籤，以檢視您的要求。
 提交至Planning請求表單的所有您有權檢視的請求都會顯示在清單中。
 1. （可選）執行下列任一項作業：
 
@@ -195,7 +192,7 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
       * **狀態**：要求的狀態。
       * **輸入者**：新增請求的使用者名稱。 如果要求是由Workfront外部的人員加入，則&#x200B;**輸入者**&#x200B;欄位會顯示`N/A`。
 
-        您可以有多個&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;加入的篩選器。
+        您可以有多個&#x200B;**And**&#x200B;或&#x200B;**Or**加入的篩選器。
 當您新增篩選條件時，要求清單會自動篩選。
 
    * 按一下&#x200B;**欄**&#x200B;並隱藏、顯示或重新排列請求清單中的欄。

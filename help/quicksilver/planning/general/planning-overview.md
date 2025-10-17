@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: d7af8c5888147e847b4e239b629373b4b72541f7
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
-source-wordcount: '2003'
+source-wordcount: '2004'
 ht-degree: 1%
 
 ---
@@ -174,7 +174,7 @@ The following features are currently available in Workfront Planning:
 
   如需詳細資訊，請參閱[使用配置範本自訂主功能表](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)和[將使用者指派給配置範本](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)。
 
-* 為使用者指派Workfront授權和Workfront Planning許可權，讓他們能夠在Workfront Planning中檢視或建立物件。 如需授與存取權給其他人以及允許其他人使用Workfront Planning的詳細資訊，請參閱[Adobe Planning存取權概觀](/help/quicksilver/planning/access/access-overview.md)。
+* 為使用者指派Workfront授權和Workfront Planning許可權，讓他們能夠在Workfront Planning中檢視或建立物件。 如需授與存取權給其他人以及允許其他人使用Workfront Planning的詳細資訊，請參閱[Adobe Workfront Planning存取權概觀](/help/quicksilver/planning/access/access-overview.md)。
 
 ## Workfront規劃術語
 
@@ -395,7 +395,7 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
     >
     >    The Workfront AI Assistant has been temporarily removed and it will be available at a later date.-->
 
-* [適用於Workfront Fusion的Adobe Workfront規劃模組](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)：透過Adobe Workfront規劃模組，您可以在Workfront規劃中發生事件時觸發情境。 您也可以建立、讀取、更新及刪除記錄，或對Adobe Workfront Planning帳戶執行自訂API呼叫。
+* [適用於Workfront Fusion的Adobe Workfront規劃模組](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)：透過Adobe Workfront規劃模組，您可以在Workfront規劃中發生事件時觸發情境。 您也可以建立、讀取、更新及刪除記錄，或對Adobe Workfront Planning帳戶執行自訂API呼叫。
 
 * [Adobe Workfront Planning API基本知識](/help/quicksilver/planning/general/planning-api-basics.md)： Adobe Workfront Planning API的目標是透過引入透過HTTP運作的REST-ful架構，簡化與Planning的整合建置。
 

@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
-source-wordcount: '796'
-ht-degree: 1%
+source-wordcount: '813'
+ht-degree: 0%
 
 ---
 
@@ -60,13 +60,10 @@ ht-degree: 1%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront套件</p></td> 
    <td> 
-<ul><li><p>任何Workfront套件</p></li>
-與
-<li><p>任何Planning套件</p></li></ul>
+<p>任何Workfront套件和任何Planning套件</p>
 或
-<ul><li><p>任何Workflow封裝</p></li>
-與
-<li><p>任何Planning套件</p></li></ul>
+<p>任何Workflow套件和任何Planning套件</p>
+<p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。</p>
    </td> </tr>
 
 </tr> 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: c06baa45e52d77463f9f886b6f6eae4ff68e4ccd
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,11 @@ ht-degree: 0%
 
 <!--take Preview and Production references at Production time-->
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -46,13 +48,11 @@ ht-degree: 0%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront套件</p></td> 
    <td> 
-<ul><li><p>任何Workfront套件</p></li>
-與
-<li><p>任何Planning套件</p></li></ul>
+<p>任何Workfront套件和任何Planning套件</p>
 或
-<ul><li><p>任何Workflow封裝</p></li>
-與
-<li><p>任何Planning套件</p></li></ul>
+<p>任何Workflow套件和任何Planning套件</p>
+
+<p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。</p>
    </td> </tr>
 
 </tr> 
@@ -116,7 +116,7 @@ ht-degree: 0%
 
    或
 
-   按一下[共用]以共用表單，然後按[複製]連結&#x200B;**。**&#x200B;**&#x200B;**
+   按一下[共用]以共用表單，然後按[複製]連結&#x200B;**。******
 1. （選用）使用者使用您共用的連結並提交請求後，Workfront Planning會傳送核准應用程式內通知及電子郵件給核准者。
 
    >[!NOTE]

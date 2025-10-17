@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 0%
@@ -39,10 +39,9 @@ ht-degree: 0%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront套件</p></td> 
    <td> 
-<ul> 
-<li><p>任何Workfront和任何Planning套件</p></li>
+<p>任何Workfront和任何Planning套件</p>
 <p>或</p>
-<li><p>任何工作流程與任何Planning套件</p></li></ul>
+<p>任何工作流程與任何Planning套件</p>
 <p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
    </td> 
   <tr> 
@@ -195,7 +194,7 @@ ht-degree: 0%
 
 1. （視條件而定）更新欄位相關資訊後，按一下&#x200B;**儲存**。
 
-1. 當您準備好匯入您的檔案時，請按一下[匯入]。**&#x200B;**
+1. 當您準備好匯入您的檔案時，請按一下[匯入]。****
 
    下列資訊會匯入Workfront Planning中：
 
