@@ -4,11 +4,11 @@ product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 title: 鎖定或解除鎖定群組時程表和小時喜好設定
 description: 如果您是群組管理員，可以在Workfront管理員在系統層級解除鎖定您的群組後，設定並鎖定該群組的時程表和小時偏好設定。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5b36106f-d521-4cc1-9f1f-647415c282b4
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 0%

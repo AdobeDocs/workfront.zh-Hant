@@ -1,11 +1,11 @@
 ---
 title: 檢視群組中配置及使用的授權數目
 description: 身為Adobe Workfront管理員，您可以檢視目前用於群組及其子群組的個別授權型別計數。 當您需要評估是否重新分配授權時，這個選項非常有用。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8d1870ea-3f9e-4358-8e14-3dcfc3805637
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 0%

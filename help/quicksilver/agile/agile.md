@@ -4,11 +4,11 @@ product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: 敏捷
 description: 請檢閱這些區域的文章，瞭解如何在Adobe Workfront中使用敏捷開發。
-author: Lisa
+author: Jenny
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: c9bce921-0aee-42ba-9d6d-dd855762dc76
-source-git-commit: e2db904bc5b4e3682421677b30b0187a6fff46d9
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 2%

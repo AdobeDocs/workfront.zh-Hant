@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: burndown
 title: 反複專案完成狀態概觀
 description: 本文所述的完成資訊會顯示在待執行工作圖表上方。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: cc6bebdb-f2aa-4e85-9f9f-15e7753d84cb
-source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 0%

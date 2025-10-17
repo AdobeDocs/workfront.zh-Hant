@@ -3,10 +3,10 @@ product-area: agile-and-teams;setup
 navigation-topic: create-and-manage-teams
 title: 設定任務的「完成」按鈕
 description: 完成按鈕可以自動設定任務或問題的狀態。 依預設，當受指派人按一下其工作專案上的「完成」時，Adobe Workfront會將任務標示為「已完成」。
-author: Lisa
+author: Jenny
 feature: People Teams and Groups
 exl-id: 55cc5562-13d5-4089-8937-f33d0cde3cac
-source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '759'
 ht-degree: 2%

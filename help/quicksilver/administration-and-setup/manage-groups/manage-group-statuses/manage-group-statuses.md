@@ -5,12 +5,12 @@ product-area: system-administration;user-management
 navigation-topic: manage-groups
 title: 管理群組狀態
 description: 身為群組管理員，您可以為管理的群組建立自訂狀態。 如此一來，您就不需要數十種全公司的自訂狀態，且群組階層擁有更多自主權。 如果Workfront管理員已解除鎖定狀態，您也可以編輯所管理群組的系統層級狀態。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 98512e42-5199-4bfc-9252-7ae0d7f7d614
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 0%

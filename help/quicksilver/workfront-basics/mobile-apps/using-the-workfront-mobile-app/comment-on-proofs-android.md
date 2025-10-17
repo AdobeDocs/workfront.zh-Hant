@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: 評論Android中的校樣
 description: 您可以檢閱和解決校訂上的現有評論，並將新評論和註解新增到校訂檔案中。
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 5124144e-b613-46c4-8697-b40caf22af04
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 0%
@@ -17,11 +17,11 @@ ht-degree: 0%
 
 您可以檢閱和解決校訂上的現有評論，並將新評論和註解新增到校訂檔案中。
 
-您對校訂的評論存取權與[!DNL Adobe Workfront]中的相同。 如需校訂功能的相關資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校訂許可權設定檔。
+您對校訂的評論存取權與[!DNL Adobe Workfront]中的相同。 如需校訂功能的相關資訊，請參閱[中的 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)校訂許可權設定檔。
 
 >[!NOTE]
 >
->如果校訂所有者已鎖定校訂，則您無法評論它。 如需詳細資訊，請參閱文章[檢閱及決定 [!DNL Adobe Workfront] 行動應用程式](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)中的校訂時[鎖定並解除鎖定校訂](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md#lock)。
+>如果校訂所有者已鎖定校訂，則您無法評論它。 如需詳細資訊，請參閱文章[檢閱及決定](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md#lock)行動應用程式[中的校訂時 [!DNL Adobe Workfront] 鎖定並解除鎖定校訂](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)。
 
 ## 檢閱校訂中的現有評論
 
@@ -92,7 +92,7 @@ ht-degree: 0%
 
    ![繪圖工具設定](assets/android-drawingtoolsettings-350x328.png)
 
-1. 在校樣檔案上Draw圖形。 選取&#x200B;**[!UICONTROL 還原]**&#x200B;圖示![還原](assets/android-undo-icon-30x31.png)以還原繪圖。
+1. 在校樣檔案上繪製形狀。 選取&#x200B;**[!UICONTROL 還原]**&#x200B;圖示![還原](assets/android-undo-icon-30x31.png)以還原繪圖。
 1. （條件式）選取圖案並選擇&#x200B;**[!UICONTROL 設定]**&#x200B;以編輯圖案設定，或選擇&#x200B;**[!UICONTROL 移除]**&#x200B;以刪除圖案。
 
    ![繪圖功能表](assets/android-drawing-settingsremove-350x166.png)

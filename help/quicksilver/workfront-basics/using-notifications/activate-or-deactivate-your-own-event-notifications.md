@@ -4,10 +4,10 @@ navigation-topic: notifications
 keywords: 修改，電子郵件，通知，設定
 title: 修改您自己的電子郵件通知
 description: 本文說明如何在使用者設定檔中管理電子郵件通知。
-author: Lisa
+author: Courtney, Becky
 feature: Get Started with Workfront
 exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
-source-git-commit: 770e20cf9e32ac9884f5eb320f7067fcf162c63d
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 0%

@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-agile-in-workfront
 title: 建立敏捷團隊
 description: Adobe Workfront可讓敏捷團隊以漸進式、有條理的方式完成工作。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 1%
@@ -106,32 +106,32 @@ ht-degree: 1%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 團隊名稱]</strong> </td> 
+      <td role="rowheader"><strong>[！UICONTROL團隊名稱]</strong> </td> 
       <td>輸入新敏捷團隊的名稱。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 這是敏捷團隊]</strong> </td> 
+      <td role="rowheader"><strong>[！UICONTROL這是敏捷團隊]</strong> </td> 
       <td>選取此選項可將此新團隊設定為敏捷團隊。</td> 
      </tr>
 
    <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 作用中]</strong> </td> 
+      <td role="rowheader"><strong>[！UICONTROL作用中]</strong> </td> 
       <td>選取此選項以啟動此團隊。 其他使用者看不到非作用中的團隊以指派給工作。 </td> 
      </tr>
 
 
    <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-      <td role="rowheader"><strong>[!UICONTROL 群組]</strong> </td> 
-      <td> <p>開始鍵入要加入團隊的群組名稱，然後在名稱出現在下拉式清單中時選取名稱。</p> <p><b>附註</b></p> <p> 將專案團隊指派給群組或子群組時，該群組或子群組的任何群組管理員都可以管理專案團隊，而無需成為專案團隊的成員。 群組管理員可以從[!UICONTROL 主功能表]前往[!UICONTROL 團隊]區域，然後按一下[!UICONTROL 切換團隊]箭頭<img src="assets/switch-team-icon.png" alt="切換群組圖示">，列出指派給其管理群組的所有團隊。</p> </td> 
+      <td role="rowheader"><strong>[！UICONTROL群組]</strong> </td> 
+      <td> <p>開始鍵入要加入團隊的群組名稱，然後在名稱出現在下拉式清單中時選取名稱。</p> <p><b>附註</b></p> <p> 將專案團隊指派給群組或子群組時，該群組或子群組的任何群組管理員都可以管理專案團隊，而無需成為專案團隊的成員。 群組管理員可以從[！UICONTROL主功能表]前往[！UICONTROL團隊]區域，然後按一下[！UICONTROL切換團隊]箭頭<img src="assets/switch-team-icon.png" alt="切換群組圖示">，列出指派給其管理群組的所有團隊。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 團隊成員]</strong> </td> 
+      <td role="rowheader"><strong>[！UICONTROL團隊成員]</strong> </td> 
       <td>開始輸入加入團隊的使用者名稱，然後在名稱出現在下拉式清單中時選取名稱。<br>重複此程式，將多位使用者新增至團隊。<br>由於使用者可以位於多個團隊中，因此他們可以同時位於敏捷和非敏捷團隊中。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 描述]</strong> </td> 
-      <td><p>輸入團隊的說明。</p> <p>選擇團隊時，說明會顯示在[!UICONTROL 團隊]區域的右上方。</p>
-      <p>如果說明很長，您可以按一下該說明，在快顯視窗中顯示完整說明。 如果您有權編輯[!UICONTROL 團隊設定]，也可以直接在快顯視窗中編輯說明。</p></td>
+      <td role="rowheader"><strong>[！UICONTROL描述]</strong> </td> 
+      <td><p>輸入團隊的說明。</p> <p>選擇團隊時，說明會顯示在[！UICONTROL團隊]區域的右上方。</p>
+      <p>如果說明很長，您可以按一下該說明，在快顯視窗中顯示完整說明。 如果您有權編輯[！UICONTROL團隊設定]，也可以直接在快顯視窗中編輯說明。</p></td>
      </tr> 
     </tbody> 
    </table>

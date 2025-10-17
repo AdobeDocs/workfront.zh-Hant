@@ -5,12 +5,12 @@ content-type: reference
 product-area: system-administration;user-management
 navigation-topic: add-users-to-workfront
 description: 您可以從頭開始建立個別使用者，或複製現有使用者，以便在Adobe Workfront中新增使用者。
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 014cb6de-fb96-44df-a29c-b210afe9c55c
-source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 0%

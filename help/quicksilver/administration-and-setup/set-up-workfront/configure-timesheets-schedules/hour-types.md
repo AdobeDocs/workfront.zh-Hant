@@ -5,11 +5,11 @@ product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: 管理小時型別
 description: 您可以將時數型別與時數專案建立關聯。 小時型別是您用來定義小時專案的標籤。 小時型別可以是一般時間或專案特定時間。
-author: Alina, Lisa
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: e8c89b68a022ae1c0cf5da20257cd8bc36e94d4c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1127'
 ht-degree: 1%
@@ -69,12 +69,12 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td><p>[!UICONTROL 標準]</p>
-       <p>[!UICONTROL 計畫]</p></td>
+   <td><p>[！UICONTROL標準]</p>
+       <p>[！UICONTROL計畫]</p></td>
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td> 
+   <td>[！UICONTROL系統管理員]</td> 
   </tr> 
  </tbody> 
 </table>
@@ -118,19 +118,19 @@ Workfront隨附一組內建時數型別。 這些小時型別無法編輯或隱�
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 名稱]</td> 
+      <td role="rowheader">[！UICONTROL名稱]</td> 
       <td>輸入在系統中可輕鬆識別的小時型別名稱。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 說明]</td> 
+      <td role="rowheader">[！UICONTROL說明]</td> 
       <td>新增小時型別的說明。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 範圍]</td> 
-      <td> <p>在<strong>範圍</strong>下拉式功能表中，選取時數型別是一般或專案特定的時數型別。</p> <p>一般小時型別僅在時程表中可見，並且不能與專案、任務或問題相關聯。</p> <p><b>重要</b></p><p> 如果您有特定於&lbrack;！UICONTROL專案的自訂時數型別，並且您將其變更為[!UICONTROL 一般]，則所有現有的任務、問題和專案時數都會設定為其系統預設型別。</p> </td> 
+      <td role="rowheader">[！UICONTROL範圍]</td> 
+      <td> <p>在<strong>範圍</strong>下拉式功能表中，選取時數型別是一般或專案特定的時數型別。</p> <p>一般小時型別僅在時程表中可見，並且不能與專案、任務或問題相關聯。</p> <p><b>重要</b></p><p> 如果您有特定於[！UICONTROL專案的自訂時數型別，並且您將其變更為[！UICONTROL一般]，則所有現有的任務、問題和專案時數都會設定為其系統預設型別。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 計入收入]</td> 
+      <td role="rowheader">[！UICONTROL計入收入]</td> 
       <td><p>如果您希望與此時數型別相關的時數條目影響您的收入計算，請選取此選項。</p>
       <p>病假和休假時間不計算為收入。</p>
       <p><b>附註</b></p>
@@ -165,19 +165,19 @@ Workfront隨附一組內建時數型別。 這些小時型別無法編輯或隱�
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 名稱]</td> 
+      <td role="rowheader">[！UICONTROL名稱]</td> 
       <td>輸入在系統中可輕鬆識別的小時型別名稱。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 說明]</td> 
+      <td role="rowheader">[！UICONTROL說明]</td> 
       <td>新增小時型別的說明。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 範圍]</td> 
-      <td> <p>在<strong>範圍</strong>下拉式功能表中，選取時數型別是一般或專案特定的時數型別。</p> <p>一般小時型別僅在時程表中可見，並且不能與專案、任務或問題相關聯。</p> <p><b>重要</b></p> <p>如果您有特定於&lbrack;！UICONTROL專案的自訂時數型別，並且您將其變更為[!UICONTROL 一般]，則所有現有的任務、問題和專案時數都會設定為其系統預設型別。</p> </td> 
+      <td role="rowheader">[！UICONTROL範圍]</td> 
+      <td> <p>在<strong>範圍</strong>下拉式功能表中，選取時數型別是一般或專案特定的時數型別。</p> <p>一般小時型別僅在時程表中可見，並且不能與專案、任務或問題相關聯。</p> <p><b>重要</b></p> <p>如果您有特定於[！UICONTROL專案的自訂時數型別，並且您將其變更為[！UICONTROL一般]，則所有現有的任務、問題和專案時數都會設定為其系統預設型別。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 計入收入]</td> 
+      <td role="rowheader">[！UICONTROL計入收入]</td> 
       <td><p>如果您希望與此時數型別相關的時數條目影響您的收入計算，請選取此選項。</p>
       <p>病假和休假時間不計算為收入。</p>
       <p><b>附註</b></p>

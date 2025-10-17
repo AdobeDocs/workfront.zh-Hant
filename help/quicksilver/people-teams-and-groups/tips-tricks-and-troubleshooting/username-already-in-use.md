@@ -4,10 +4,10 @@ product-area: user-management
 navigation-topic: tips-tricks-and-troubleshooting-groups
 title: 使用者名稱已經有人使用
 description: 當您收到使用者名稱已被使用的錯誤時，請閱讀這些提示。
-author: Lisa
+author: Becky
 feature: People Teams and Groups
 exl-id: dc9accf0-7ef4-4555-9b1c-d69b2110f3da
-source-git-commit: 722295463c1338a70ff42c26acf69b09cf33f725
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 2%

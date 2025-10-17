@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: iterations
 title: 新增劇本至現有反複專案
 description: 您可以透過多種方式將劇本新增至反複專案。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: b016fda1-789a-42b3-9f97-2c61c4ec0917
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 0%

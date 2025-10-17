@@ -5,11 +5,11 @@ product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: 狀態概觀
 description: 若要瞭解專案、任務或問題的目前開發狀態，使用者可以檢視其狀態。
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0fa2f445-be8e-405f-864a-dbc4726d096b
-source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 您必須擁有專案、任務或問題的下列存取權和許可權，才能手動變更其狀態：
 
 * 編輯專案、任務和問題存取層級的存取權
-* Contribute或任務或問題的更高許可權
+* 貢獻或更高的任務或問題許可權
 * 管理專案的許可權。
 
 變更專案、任務或問題的狀態通常是手動過程。 不過，有時候問題的狀態會根據系統中發生的其他因素自動變更。

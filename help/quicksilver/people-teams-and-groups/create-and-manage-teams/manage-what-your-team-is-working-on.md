@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
 title: 管理您的團隊正在處理的工作
 description: 您可以檢視您的團隊目前正在處理之任務和問題的行事曆檢視。 您可以指派未指派的專案、調整目前的指派、調整目前的配置等等。
-author: Lisa
+author: Jenny
 feature: People Teams and Groups
 exl-id: 4bdec4b9-18b0-4981-a067-f47e259bc708
-source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 0%

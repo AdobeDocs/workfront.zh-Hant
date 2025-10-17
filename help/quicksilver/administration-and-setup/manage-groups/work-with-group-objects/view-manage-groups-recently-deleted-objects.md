@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: 檢視和管理群組最近刪除的專案
 description: 當您檢視在「群組」區域中管理的群組時，可以檢視、篩選、還原和匯出其最近刪除的工作專案、檔案和範本。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: d5fbc71b-3b22-48d1-a056-f2c4b32c220c
-source-git-commit: 7eaff1c74cd880bde062e6fdf169c73d6eeb7f75
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 1%

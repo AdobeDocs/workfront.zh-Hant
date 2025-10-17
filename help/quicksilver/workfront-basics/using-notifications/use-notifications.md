@@ -3,11 +3,11 @@ content-type: reference
 navigation-topic: get-started-with-workfront
 title: 使用通知：文章索引
 description: 請檢閱這些文章以瞭解如何在Adobe Workfront中使用通知。
-author: Nolan
+author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c609c51d-df67-49bb-8fe3-8962a5270cc9
-source-git-commit: 2768cb277a45493dc8eb9ffeca2c05b14d772382
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 本節包含下列文章：
 
-* [[!DNL Adobe Workfront]個通知](../../workfront-basics/using-notifications/wf-notifications.md)
+* [[!DNL Adobe Workfront] 通知](../../workfront-basics/using-notifications/wf-notifications.md)
 * [修改您自己的電子郵件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
 * [訂閱 [!DNL Adobe Workfront]中的專案](../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
 * [應用程式內通知概觀](../../workfront-basics/using-notifications/in-app-notifications-overview.md)

@@ -5,11 +5,11 @@ keywords: 新增，使用者，群組，新增，其他，指派，管理員，�
 navigation-topic: create-and-manage-groups
 title: 檢視和管理群組的成員資格
 description: 身為Adobe Workfront管理員，您可以檢視、新增、移除、匯出、啟用和停用您管理之任何群組的成員。 您也可以編輯其設定檔、將更新新增至其設定檔，並將他們指派為群組的其他群組管理員。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 219e5fa3-cf25-477d-82f6-046e3ff30989
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 0%

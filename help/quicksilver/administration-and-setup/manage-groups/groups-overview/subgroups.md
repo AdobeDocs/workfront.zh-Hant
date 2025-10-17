@@ -5,11 +5,11 @@ product-area: system-administration;user-management
 navigation-topic: groups-overview
 title: 子群組概述
 description: 您最多可以在一個群組下建立14層子群組。 在這些層級的任一層級上，您可以建立不限數量的平行子群組。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a4280498-6719-4911-a69a-b715a5438eed
-source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 0%
@@ -54,7 +54,7 @@ ht-degree: 0%
 Group Admins of a subgroup can't manage statuses or project preferences of the subgroup YET (Sprint 22/Oct 28, 2020)</p>
 -->
 
-建立或編輯子群組時，您可以將子群組成員指派為子群組的群組管理員。 如需指示，請參閱文章[建立群組](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)中的[&#128279;](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#create)。
+建立或編輯子群組時，您可以將子群組成員指派為子群組的群組管理員。 如需指示，請參閱文章[](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#create)建立群組[中的](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)。
 
 或者，您也可以將子群組的管理權交給群組管理員，由他們指定給該子群組之上的群組。 建立子群組時，上方群組的群組管理員擁有管理子群組的自動存取權。
 

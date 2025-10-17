@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects;user-management
 navigation-topic: use-kanban-in-an-agile-team
 title: 從Kanban面板新增劇本和問題
 description: 您可以直接從Kanban面板快速建立新劇本或問題。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 8f12b05c-d132-42ca-b617-bdd14e57acf2
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 0%
@@ -57,19 +57,19 @@ ht-degree: 0%
 
    <table style="table-layout:auto">
     <tr>
-        <td><strong>[!UICONTROL 名稱]</strong></td>
+        <td><strong>[！UICONTROL名稱]</strong></td>
         <td>（必要）本文或問題的名稱。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 說明]</strong></td>
+        <td><strong>[！UICONTROL說明]</strong></td>
         <td>專案的說明。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 估計]</strong></td>
+        <td><strong>[！UICONTROL估計]</strong></td>
         <td>預估專案小時數或點數。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 父專案]</strong></td>
+        <td><strong>[！UICONTROL父專案]</strong></td>
         <td>（必要）儲存新內文或問題的專案。 開始輸入專案名稱，然後在其顯示在清單中時選取它。</td>
     </tr>
    </table>

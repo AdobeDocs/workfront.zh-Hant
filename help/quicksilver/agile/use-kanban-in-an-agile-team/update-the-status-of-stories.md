@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: 更新Kanban面板上內文的狀態
 description: 您可以直接從Kanban面板變更內文的狀態，以反映內文的進度。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: fd75ab8e-08c4-4643-bc67-aada5b5c005e
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 0%

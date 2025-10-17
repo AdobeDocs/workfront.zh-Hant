@@ -5,12 +5,12 @@ content-type: reference
 product-area: system-administration
 navigation-topic: customize-workfront
 description: 作為Adobe Workfront管理員，您可以建立專案、任務和問題的自訂狀態。 這些選項適用於整個Workfront系統或特定群組或子群組的使用者。 工作專案的狀態代表其目前的開發狀態。
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 94248a76-6531-4196-964d-6fd51ed02f6a
-source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 3%

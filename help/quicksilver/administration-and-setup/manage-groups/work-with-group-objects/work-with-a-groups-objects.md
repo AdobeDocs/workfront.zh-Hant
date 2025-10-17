@@ -5,12 +5,12 @@ product-area: system-administration;user-management
 navigation-topic: manage-groups
 title: 使用群組的物件
 description: 將新物件新增至「群組」頁面時，別忘了更新文章「管理群組/群組」 overview/groups.html
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: d2f9494a-170d-4600-a282-69ad14a0cf6f
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 0%

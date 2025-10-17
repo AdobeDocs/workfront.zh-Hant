@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 篩選：顯示父系任務
 description: 您可以套用以下任務篩選器以顯示工作任務。 工作任務是可以獨立工作的任務，不是其他任務的父級任務。 在一個範例中，篩選器會識別可能是父系本身的子系任務。 在這種情況下，他們無法執行任務。
-author: Lisa and Nolan
+author: Lisa and Jenny
 feature: Reports and Dashboards
 exl-id: 4c3956e1-59e0-4bf2-8739-8064271d6281
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 1%
@@ -23,7 +23,7 @@ ht-degree: 1%
 >[!TIP]
 >
 >* 如果您考慮在報表中新增多個篩選器，建議使用Report Builder介面新增所有篩選器，並在新增所有其他篩選器規則後按一下「切換至文字模式」 。 然後，您可以新增父系任務篩選器的程式碼，如上所述。 
->* 我們也建議您為專案名稱新增分組，讓報告更易於閱讀。 如需有關將群組新增至報表的詳細資訊，請參閱文章[&#x200B; Adobe Workfront中的群組概觀](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)。
+>* 我們也建議您為專案名稱新增分組，讓報告更易於閱讀。 如需有關將群組新增至報表的詳細資訊，請參閱文章[ Adobe Workfront中的群組概觀](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)。
 >
 
 ## 存取需求

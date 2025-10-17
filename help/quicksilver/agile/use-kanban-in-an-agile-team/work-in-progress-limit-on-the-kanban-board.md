@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: use-kanban-in-an-agile-team
 title: 管理Kanban面板上的在製品(WIP)限制
 description: 您可以為Kanban面板上的每個欄設定進行中工作(WIP)限制。 在製品限制只是視覺上的警告，不會限制您的團隊在每個狀態列中有超過您設定的限制的專案。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 540880ad-46af-416b-8e0b-5df869555424
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 0%

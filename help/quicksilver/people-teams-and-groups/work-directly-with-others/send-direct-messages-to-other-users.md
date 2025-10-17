@@ -4,10 +4,10 @@ product-area: user-management
 navigation-topic: people-teams-and-groups
 title: 傳送直接訊息給其他使用者
 description: Adobe Workfront可讓您快速輕鬆地將與任何工作專案無關的訊息直接傳送給其他Workfront使用者。
-author: Lisa
+author: Becky
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: 18c39c5b1959c31b6fd0018476b48643b4b15021
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 0%
@@ -74,7 +74,7 @@ ht-degree: 0%
    >[!UICONTROL **我的公司專用**]&#x200B;設定只有在您的Workfront設定檔與公司相關聯時才可用。
 
 1. 按一下&#x200B;**[!UICONTROL 更新]。**
-訊息會張貼在使用者設定檔頁面的&#x200B;**[!UICONTROL 更新]**&#x200B;索引標籤上的訊息清單頂端。
+訊息會張貼在使用者設定檔頁面的**[!UICONTROL 更新]**&#x200B;索引標籤上的訊息清單頂端。
 
 ## 從使用者清單傳送訊息給一或多位使用者
 
@@ -94,4 +94,4 @@ ht-degree: 0%
    >
    >[!UICONTROL **我的公司專用**]&#x200B;設定只有在您的Workfront設定檔與公司相關聯時才可用。
 1. 按一下&#x200B;[!UICONTROL **傳送**]。
-此郵件張貼在每個已標籤使用者設定檔頁面的&#x200B;**[!UICONTROL 更新]**&#x200B;索引標籤上的郵件清單頂端。
+此郵件張貼在每個已標籤使用者設定檔頁面的**[!UICONTROL 更新]**&#x200B;索引標籤上的郵件清單頂端。

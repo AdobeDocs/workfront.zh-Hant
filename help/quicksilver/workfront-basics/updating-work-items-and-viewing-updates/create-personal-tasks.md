@@ -3,10 +3,10 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: 建立個人任務
 description: 個人任務是指您傳送給使用者、自己或您在「首頁」區域中為自己建立的待辦事項的臨時工作請求。 Workfront會儲存隨選工作請求以及將專案作為個人任務來執行。
-author: Lisa
+author: Becky
 feature: Get Started with Workfront
 exl-id: b40d6b10-19c7-4e11-a74f-a8af3ebafb65
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 0%
@@ -116,7 +116,7 @@ Adobe Workfront會儲存臨時工作請求，以及將專案當做個人任務�
 
 1. 按一下標題中使用者名稱右側的&#x200B;**更多功能表** ![](assets/more-menu.png)。
 1. 按一下&#x200B;**傳送工作要求**。
-顯示&#x200B;**傳送工作要求**&#x200B;方塊。
+顯示**傳送工作要求**&#x200B;方塊。
 
    ![](assets/personal-task-box.png)
 1. 更新下列資訊：

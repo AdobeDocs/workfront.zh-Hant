@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: work-in-an-agile-environment
 title: 移動敏捷劇本
 description: 您可以將敏捷內文移至不同反複專案（適用於Scrum團隊）或待處理專案（適用於Kanban和Scrum團隊）。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 0058792e-66b8-4e54-8ce3-50171adff875
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 0%

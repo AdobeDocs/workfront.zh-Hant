@@ -4,11 +4,11 @@ product-area: system-administration
 navigation-topic: create-custom-status-and-priority-labels
 title: 鎖定和未鎖定的系統層級狀態
 description: 鎖定自訂狀態是確保整個組織的人在其工作流程中使用相同流程的一種方法。 當狀態鎖定時，系統中的所有使用者都可以使用該狀態。 雖然您可以編輯或刪除它，但群組管理員無法為其群組執行此操作。 相反地，解鎖自訂狀態可讓群組管理員更靈活地管理其群組中所使用的獨特工作流程。 他們可以變更解除鎖定狀態的屬性，或刪除其群組的屬性。
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0e58a1d6-5e0c-4445-a5ac-400dfd4c4948
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 0%

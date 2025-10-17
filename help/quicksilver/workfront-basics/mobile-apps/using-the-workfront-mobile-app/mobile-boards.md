@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: mobile-apps
 title: 適用於行動裝置的Adobe Workfront展示板
 description: 在 [!DNL Workfront] 行動應用程式中，您可以看到您已建立或已加入案頭版 [!DNL Workfront]的所有主機板。
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 34a009f6-6b4f-43ee-9689-2b9d1876db07
-source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1073'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->目前，行動應用程式支援所有型別的面板&#x200B;**&#x200B;**&#x200B;版序處理程式面板除外。
+>目前，行動應用程式支援所有型別的面板&#x200B;****&#x200B;版序處理程式面板除外。
 
 ## 檢視和篩選看板清單
 

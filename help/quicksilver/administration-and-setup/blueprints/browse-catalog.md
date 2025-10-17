@@ -4,10 +4,10 @@ product-area: system-administration;workfront-integrations
 navigation-topic: templates-navigation-topic
 title: 瀏覽Blueprint目錄並請求安裝Blueprint
 description: 藍圖提供基本的建置組塊，協助您建立隨成長的工作管理系統。 所有 [!DNL Adobe Workfront] 使用者都可以瀏覽藍圖目錄。 如果管理員已啟用Blueprint請求，您還可請求讓 [!DNL Workfront] 管理員為您安裝特定Blueprint。
-author: Becky, Lisa
+author: Jenny
 feature: System Setup and Administration, Work Management
 exl-id: 932072e4-4d52-4b4b-a045-0cd38cb882d3
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 0%

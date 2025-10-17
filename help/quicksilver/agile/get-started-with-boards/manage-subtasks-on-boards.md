@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: 管理面板上的子任務
 description: 使用卡片上的子任務可讓您在任務之間建立父子關係，並建立工作的階層。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 166a84d3-18ea-4a58-b0e8-f09df2a63caa
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 0%
@@ -58,7 +58,7 @@ ht-degree: 0%
 
    此任務的任何現有子任務都會出現在子任務區段中，檢查清單專案上方的卡片上。 按一下&#x200B;[!UICONTROL **搜尋**]&#x200B;圖示以搜尋子任務。
 
-1. 若要新增子工作，請按一下[新增子工作]。[!UICONTROL **&#x200B;**] 然後，鍵入子任務的標題並按Enter鍵。
+1. 若要新增子工作，請按一下[新增子工作]。[!UICONTROL ****] 然後，鍵入子任務的標題並按Enter鍵。
 
    清單頂端的計數器顯示已完成子工作的數目以及子工作的總數。
 

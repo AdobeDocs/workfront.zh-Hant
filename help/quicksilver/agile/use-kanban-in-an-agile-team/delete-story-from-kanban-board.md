@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: 從Kanban面板刪除劇本
 description: 您可以從Kanban面板刪除劇本或問題。 當您刪除內文或問題時，內文或問題會移至資源回收筒並保留30天，且只有系統管理員才能復原。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 5e838f0a-b26d-4bbe-b9e9-3161e3958b58
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 0%

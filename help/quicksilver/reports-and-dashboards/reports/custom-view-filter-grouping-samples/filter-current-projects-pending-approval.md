@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 篩選：顯示您目前的擱置核准專案
 description: 下列專案篩選器會顯示處於目前 — 未決核准狀態的專案，其中登入的使用者是專案贊助者或Portfolio經理。
-author: Lisa and Nolan
+author: Lisa and Jenny
 feature: Reports and Dashboards
 exl-id: 32045aec-acc5-44d2-bad5-7759dc797414
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 0%

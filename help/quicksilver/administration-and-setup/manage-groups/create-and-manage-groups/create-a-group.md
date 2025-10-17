@@ -5,11 +5,11 @@ keywords: 建立，群組，子群組，新增
 navigation-topic: create-and-manage-groups
 title: 建立群組
 description: 身為Adobe Workfront管理員，您可以建立群組來組織使用者和專案，以及在Workfront中指派存取許可權。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 4a039619-0943-4b5b-ba7a-1ad9b5c11df0
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1633'
 ht-degree: 3%
@@ -70,7 +70,7 @@ DON'T DELETE, DRAFT, OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH C
 
    >[!TIP]
    >
-   >在群組清單底部，您也可以按一下[新增更多群組]&#x200B;**以內嵌新增群組，然後在完成新增群組資訊時按一下[輸入]**&#x200B;**。**
+   >在群組清單底部，您也可以按一下[新增更多群組]**以內嵌新增群組，然後在完成新增群組資訊時按一下[輸入]****。**
 
 1. 在顯示的&#x200B;**新群組**&#x200B;方塊中，輸入群組的名稱。
 1. 指定下列資訊：

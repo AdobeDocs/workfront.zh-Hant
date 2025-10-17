@@ -5,11 +5,11 @@ keywords: 檢視，群組，事件，通知，設定，啟用，停用
 navigation-topic: create-and-manage-groups
 title: 檢視和設定群組的事件通知
 description: 作為群組管理員，您可以檢視針對您管理的群組啟用的事件通知。 此外，如果Adobe Workfront管理員解除鎖定事件通知，您可以為您管理的最上層群組設定該通知。 事件通知的設定包含啟用或停用。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a815aeb1-3403-4491-a8ad-7e47c519905c
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 0%

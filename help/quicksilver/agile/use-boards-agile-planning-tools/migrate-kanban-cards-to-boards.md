@@ -3,10 +3,10 @@ content-type: reference
 navigation-topic: boards
 title: 將敏捷團隊Kanban卡片移轉至Workfront面板
 description: 您可以將工作專案從敏捷團隊Kanban展示板移轉到新的或現有的Workfront展示板。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 72e3902b-af9a-497c-817f-63630c4fb73b
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 0%

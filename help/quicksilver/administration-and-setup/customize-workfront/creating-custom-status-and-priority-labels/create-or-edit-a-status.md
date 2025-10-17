@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-custom-status-and-priority-labels
 description: 作為Adobe Workfront管理員，您可以建立專案、任務和問題的自訂狀態。
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 35c804b5-569d-4ba8-84b8-6129f0ffbc7f
-source-git-commit: 366043a786c94f1bc40ad3b20af175bb84c94742
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '937'
 ht-degree: 3%

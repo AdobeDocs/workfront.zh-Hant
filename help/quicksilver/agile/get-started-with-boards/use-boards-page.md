@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: 使用面板控制面板
 description: '[!UICONTROL 展示板]儀表板會顯示您可以存取的展示板清單，包括您已建立的展示板和您已加入的展示板。'
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '815'
 ht-degree: 0%
@@ -65,7 +65,7 @@ ht-degree: 0%
 您可以篩選展示板控制面板，以顯示使用中、已封存或所有展示板或工作流程。
 
 1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 面板]**。
-1. 按一下[面板]區域或[工作流程]區域中的[篩選器]&#x200B;[!UICONTROL **&#x200B;**]，然後選取[全部]&#x200B;**[!UICONTROL 、[活動]]**&#x200B;**[!UICONTROL 或[已封存]]**&#x200B;**[!UICONTROL 。]**
+1. 按一下[面板]區域或[工作流程]區域中的[篩選器][!UICONTROL ****]，然後選取[全部]**[!UICONTROL 、[活動]]****[!UICONTROL 或[已封存]]****[!UICONTROL 。]**
 
    當在儀表板上套用預設以外的篩選器時，篩選器圖示![已套用至儀表板](assets/boards-filterapplied-30x30.png)的篩選器上會顯示指示器。
 

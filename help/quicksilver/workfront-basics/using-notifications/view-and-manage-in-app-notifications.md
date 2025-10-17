@@ -2,10 +2,10 @@
 navigation-topic: notifications
 title: 檢視及管理應用程式內通知
 description: 應用程式內通知可讓您隨時瞭解兩種資訊：宣告通知和工作專案通知。 網頁應用程式和行動應用程式皆可提供。
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 4c5da114-33cc-422b-84f4-67bc7fcd67c6
-source-git-commit: 770e20cf9e32ac9884f5eb320f7067fcf162c63d
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '966'
 ht-degree: 0%
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您可以從Web應用程式和行動應用程式檢視所有應用程式內通知。 在行動應用程式中，只有部分通知會以推播通知的形式傳送。 如需行動應用程式中通知的詳細資訊，請參閱iOS的[[!DNL Adobe Workfront] &#x200B;](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)或Android的[[!DNL Adobe Workfront] &#x200B;](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)。
+>您可以從Web應用程式和行動應用程式檢視所有應用程式內通知。 在行動應用程式中，只有部分通知會以推播通知的形式傳送。 如需行動應用程式中通知的詳細資訊，請參閱iOS的[[!DNL Adobe Workfront] ](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)或Android的[[!DNL Adobe Workfront] ](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)。
 
 1. 按一下![右上角的編號圖示](assets/notifications-icon-jewel.jpg)通知圖示[!DNL Workfront]以開啟您的通知清單。
 

@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: use-workfront-view
 title: 更新專案詳細資料檢視中的Widget
 description: 從專案清單存取[!UICONTROL 專案]後，您可以透過將Widget新增至您的[!UICONTROL 專案詳細資料]畫面來檢視該專案的其他資訊。 每個使用者都可以自訂自己的Widget。
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 593dc4a2-20aa-44d3-b819-1d4b160095ed
-source-git-commit: f9b9381b4b38796dbf7dfd9eddffc50fb9e5c24c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 1%

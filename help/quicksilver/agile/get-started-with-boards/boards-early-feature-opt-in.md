@@ -4,10 +4,10 @@ content-type: reference
 navigation-topic: boards
 title: ' [!DNL Workfront] 面板的早期功能選擇加入'
 description: 閱讀本文章以瞭解 [!DNL Workfront Boards] 早期功能選擇加入。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
    <th><strong>狀態</strong></th> 
   </tr>
   <tr>
-   <td>[!UICONTROL 主功能表]中的[!UICONTROL 面板]區域</td>
+   <td>[！UICONTROL主功能表]中的[！UICONTROL面板]區域</td>
    <td>已發行</td>
   </tr>
     <tr>
@@ -61,7 +61,7 @@ ht-degree: 0%
    <td>已發行</td>
   </tr>
   <tr>
-   <td>將[!UICONTROL 進行中的工作]限制新增至欄</td>
+   <td>將[！UICONTROL進行中的工作]限制新增至欄</td>
    <td>已發行</td>
   </tr>
   <tr>
@@ -218,7 +218,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->這不會阻止使用者使用URL存取面板。 它只會防止他們在[!UICONTROL 主功能表]中看到[!DNL Boards]選項。
+>這不會阻止使用者使用URL存取面板。 它只會防止他們在[!DNL Boards]主功能表[!UICONTROL 中看到]選項。
 
 ### 我加入後可以退出早期功能嗎？
 

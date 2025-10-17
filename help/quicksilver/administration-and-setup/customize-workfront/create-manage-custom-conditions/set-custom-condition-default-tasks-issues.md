@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
 description: 當使用者按一下處理它或將更新評論新增到他們被指派的新任務（不手動設定任務的條件），Adobe Workfront顯示任務的預設條件，這在「設定」中設定。 同樣的情況也適用於問題。
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 40b426f4-0a9c-49a6-91c7-b5f8aa48bd37
-source-git-commit: 366043a786c94f1bc40ad3b20af175bb84c94742
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 1%

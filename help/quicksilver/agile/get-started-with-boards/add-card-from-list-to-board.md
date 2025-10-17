@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: 將現有任務或問題新增到Workfront展示板
 description: 您可以從清單或報告檢視將任何任務或問題新增到Adobe Workfront中的展示板。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 5e6fd681-8068-4091-9f42-0364b17e0465
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 0%
@@ -99,7 +99,7 @@ ht-degree: 0%
 1. 移至專案、報告或儀表板，其中包含您要檢視其面板資訊的任務或問題。
 1. 選取包含「面板」欄的檢視，或使用「面板」欄建立新檢視。
 如需檢視的資訊，請參閱[在Adobe Workfront中建立或編輯檢視](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md)。
-1. 按一下欄中的[顯示&#x200B;[!UICONTROL **&#x200B;**]]以顯示任務或問題所在面板的清單。
+1. 按一下欄中的[顯示&#x200B;[!UICONTROL ****]]以顯示任務或問題所在面板的清單。
 
    ![顯示欄](assets/show-boards-in-column.png)中的面板
 

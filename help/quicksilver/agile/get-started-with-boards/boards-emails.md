@@ -4,10 +4,10 @@ content-type: reference
 navigation-topic: boards
 title: 面板電子郵件通知和偏好設定
 description: Adobe Workfront展示板會在您將您新增至展示板以及將卡片指派給您時傳送電子郵件給您。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 0%

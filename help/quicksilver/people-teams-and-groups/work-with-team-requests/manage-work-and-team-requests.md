@@ -4,10 +4,10 @@ product-area: user-management;agile-and-teams
 navigation-topic: people-teams-and-groups
 title: 管理工作和團隊請求
 description: 請求代表擱置任務或問題指派。 工作請求會向個人發出，而團隊請求則會向團隊發出。
-author: Lisa
+author: Jenny
 feature: People Teams and Groups, Work Management
 exl-id: ef96e520-0d5f-4180-a27a-1fbbffff8f2b
-source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 0%
@@ -92,5 +92,5 @@ ht-degree: 0%
 1. 在左側導覽面板中，選取&#x200B;**[!UICONTROL 團隊要求]**。
 1. 按一下&#x200B;**[!UICONTROL 重新指派]**&#x200B;圖示。
 
-1. 開始輸入您要重新指派請求的使用者、群組或團隊名稱，然後按一下[指派]。**&#x200B;**\
+1. 開始輸入您要重新指派請求的使用者、群組或團隊名稱，然後按一下[指派]。****\
    請求已重新指派。

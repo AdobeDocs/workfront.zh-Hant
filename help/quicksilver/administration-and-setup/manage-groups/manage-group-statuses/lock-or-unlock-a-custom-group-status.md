@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: 鎖定和未鎖定的群組狀態
 description: 鎖定群組的自訂狀態是確保群組及其子群組中的人員在其工作流程中使用相同處理序的方法。 鎖定群組狀態時，該群組和較低群組中的所有使用者都可使用該群組。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 3463e4cb-7336-49b7-b81a-c2acef72f61d
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 0%

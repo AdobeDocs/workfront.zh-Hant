@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: customize-fields-on-card
 title: 自訂要在卡片上顯示的欄位
 description: 您可以停用欄位來自訂卡片上顯示的欄位，使其不會顯示在完整卡片或壓縮卡片檢視中，或隱藏壓縮卡片檢視中的欄位。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '654'
 ht-degree: 0%
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 1. 關閉欄位或區段以在兩個卡片檢視中將其停用。
 1. 按一下欄位或區段旁的隱藏圖示![隱藏圖示](assets/eye-hide-icon.png)，在壓縮檢視中隱藏它。
-1. 若要在兩個檢視中顯示所有欄位和區段，請按一下[將所有欄位還原為預設值]。[!UICONTROL **&#x200B;**]
+1. 若要在兩個檢視中顯示所有欄位和區段，請按一下[將所有欄位還原為預設值]。[!UICONTROL ****]
 1. 按一下&#x200B;[!UICONTROL **隱藏設定**]&#x200B;以關閉「設定」面板。
 
 ## 新增自訂欄位到卡片

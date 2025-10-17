@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: work-in-an-agile-environment
 title: 管理敏捷待處理專案
 description: 任務和問題可以指派給敏捷團隊，並根據團隊使用的敏捷方法以該團隊的待辦專案為單位新增。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 0%
@@ -136,31 +136,31 @@ ht-degree: 0%
     <col>
     <tbody>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 劇本名稱]</strong></td>
+      <td role="rowheader"><strong>[！UICONTROL劇本名稱]</strong></td>
       <td> 輸入劇本的名稱。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 說明]</strong></td>
+      <td role="rowheader"><strong>[！UICONTROL說明]</strong></td>
       <td>（選擇性）輸入劇本的說明。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 就緒]</strong></td>
+      <td role="rowheader"><strong>[！UICONTROL就緒]</strong></td>
       <td> 選取內文是否準備好新增至反複專案。 此設定僅供參考。 無論此設定的狀態為何，內文都可以新增至反複專案。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 估計]</strong></td>
+      <td role="rowheader"><strong>[！UICONTROL估計]</strong></td>
       <td>指定劇本的點數或每小時預估。 預估會影響待執行工作圖表。 只有當每個內文都包含正確的估計時，疊代的待執行工作圖表才會準確。 （如果您提供點數預估，則必須在專案團隊設定中指定每個點代表的時數。）</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 父專案]</strong></td>
-      <td>開始輸入將建立此劇本的專案名稱，然後在名稱出現在下拉式清單中時按一下該名稱。<br>專案狀態必須設定為[!UICONTROL 目前]。 如果專案狀態不是[!UICONTROL 目前]，則不會顯示在下拉式功能表中。</td>
+      <td role="rowheader"><strong>[！UICONTROL父專案]</strong></td>
+      <td>開始輸入將建立此劇本的專案名稱，然後在名稱出現在下拉式清單中時按一下該名稱。<br>專案狀態必須設定為[！UICONTROL目前]。 如果專案狀態不是[！UICONTROL目前]，則不會顯示在下拉式功能表中。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 父系任務]</strong></td>
+      <td role="rowheader"><strong>[！UICONTROL父系任務]</strong></td>
       <td>（選擇性）開始輸入此內文所屬之父系工作的名稱，然後在名稱出現在下拉式清單中時按一下該名稱。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 自訂Forms]</strong></td>
+      <td role="rowheader"><strong>[！UICONTROL自訂Forms]</strong></td>
       <td> （選擇性）選取您要新增至本文的任何自訂表格。</td>
      </tr>
     </tbody>

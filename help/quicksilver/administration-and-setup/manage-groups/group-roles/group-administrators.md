@@ -5,14 +5,14 @@ content-type: reference;overview
 product-area: system-administration;user-management
 navigation-topic: group-roles
 description: 在擁有許多部門的大型組織中，Adobe Workfront管理員可能不想管理這些部門中的所有組織部門和群組。 相反地，他們可以為該群組中的每個部門及子群組建立一個群組，每個群組都由群組管理員管理。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 589cf9fb-f195-4b69-a240-3f73e6ca623e
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1047'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >群組管理員的存取權必須高於其管理者，否則將無法檢視或修改較低的存取層級。
->如需授與此存取權的指示，請參閱[建立或修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
+>>如需授與此存取權的指示，請參閱[建立或修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
 對於需要為其群組和子群組中的使用者指派時程表設定檔的群組管理員，我們也建議對時程表和時數進行管理存取。 如需授與此存取權的指示，請參閱[授與使用者對特定區域的管理存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)。
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->在新的定價與封裝模式中，您必須擁有主要計畫或以上版本，才能執行下列作業：
+>在新的定價與封裝模式中，您必須有Prime計畫或以上版本，才能執行下列作業：
 >
 > * 建立群組事件通知
 > * 設定群組專案偏好設定
@@ -116,7 +116,7 @@ ht-degree: 0%
 
 ### 管理群組偏好設定和工具 {#manage-group-preferences-and-tools}
 
-* 當系統各群組的專案偏好設定、任務或問題偏好設定、或時程表和時數偏好設定已解鎖時，請編輯您管理之群組的該偏好設定。 這些偏好設定會影響專案、任務和問題行為。 如需詳細資訊，請參閱下列內容：
+* 當系統各群組的專案偏好設定、任務或問題偏好設定、或時程表和時數偏好設定已解鎖時，請編輯您管理之群組的該偏好設定。 這些偏好設定會影響專案、任務和問題行為。 如需詳細資訊，請參閱以下頁面:
 
    * [設定群組的專案偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)
    * [設定群組的任務和問題偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)

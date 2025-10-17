@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: 建立和修改群組的團隊
 description: 當您在「群組」區域中檢視您管理的群組時，您可以檢視與群組及其任何子群組相關聯的專案團隊並與其合作。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51967cd7-962e-4354-a04b-6df4e31e70c6
-source-git-commit: 1554c067afcc548c7f7abd03dbc3a49404e3c89c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '989'
 ht-degree: 4%
@@ -103,7 +103,7 @@ ht-degree: 4%
       </tbody> 
      </table>
 
-   * **編輯團隊**：請至少選取一個團隊，按一下&#x200B;**&#x200B;**「編輯」圖示![「編輯」圖示](assets/edit-icon.png)，然後使用下列選項進行設定：
+   * **編輯團隊**：請至少選取一個團隊，按一下&#x200B;****「編輯」圖示![「編輯」圖示](assets/edit-icon.png)，然後使用下列選項進行設定：
 
      <table style="table-layout:auto"> 
       <col> 

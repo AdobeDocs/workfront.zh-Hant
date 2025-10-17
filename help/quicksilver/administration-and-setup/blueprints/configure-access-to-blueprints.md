@@ -4,11 +4,11 @@ product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: 設定對藍圖的存取權
 description: 作為系統管理員，您可以透過設定請求佇列來儲存請求，從而為使用者啟用請求安裝藍圖的存取權。 在那裡，您只有一個位置可追蹤和更新請求。
-author: Becky
+author: Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: d85f363f-2ab4-45cb-b851-a7f33e1ca905
-source-git-commit: 5fd855bec596926a4361fd07a1a763c7956e5e61
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 0%

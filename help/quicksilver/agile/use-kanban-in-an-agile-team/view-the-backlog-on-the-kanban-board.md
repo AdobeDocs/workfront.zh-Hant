@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: 將待處理專案新增至Kanban面板
 description: 您可以直接在看板顯示[!UICONTROL 待處理專案]欄。 [!UICONTROL 展示板上的]待處理專案 [!DNL Kanban] 資料行包含 [!DNL Kanban] 展示板上待處理專案的前20個專案。 任務和問題必須屬於狀態等於目前之專案的專案，才能顯示在待處理專案中。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 77c7f7c7-66d9-4aec-9a0c-bfdc470a58d7
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 0%

@@ -4,9 +4,9 @@ navigation-topic: search
 title: 使用物件的參考編號
 description: 在 [!DNL Adobe Workfront]中，專案被識別為物件。 物件與資料庫相對應，並用來將資料與專案建立關聯。 在區分兩個在其他方面相似的物件（例如具有相同名稱的工作）時，參考編號非常有用。 您可以搜尋參考編號，並將其納入報表中。
 feature: Get Started with Workfront
-author: Lisa
+author: Courtney
 exl-id: 94f5a174-21cc-4c10-88ed-89a8014d28f4
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 0%
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 若要檢視物件的參考編號，您可以建立自訂檢視或修改現有檢視，並將[!UICONTROL 參考編號]欄位新增至檢視中的欄。 例如，您可以修改[!UICONTROL 專案]檢視，以顯示您所有專案的參考編號。
 
-如需有關如何建立或修改檢視的資訊，請參閱 [!DNL Adobe Workfront][&#128279;](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)中的檢視總覽。
+如需有關如何建立或修改檢視的資訊，請參閱[中的 [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)檢視總覽。
 
 ### 在報表中檢視參考編號
 

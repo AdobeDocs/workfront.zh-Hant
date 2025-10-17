@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: 將輸入欄新增到展示板
 description: 您可以選擇將輸入欄新增到您的展示板，在任務與問題新增到Workfront時，根據您定義的篩選器自動提取作為連線卡片。
-author: Courtney
+author: Jenny
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1033'
 ht-degree: 3%
@@ -126,7 +126,7 @@ ht-degree: 3%
 
    如需建立篩選的詳細資訊，請參閱文章[在 [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md)中建立或編輯篩選中，標準產生器中的建立或編輯篩選區段。
 
-1. 為篩選器命名，然後按一下[儲存]。**&#x200B;** 該篩選器會出現在您儲存的篩選器清單中，並自動套用至輸入欄。
+1. 為篩選器命名，然後按一下[儲存]。**** 該篩選器會出現在您儲存的篩選器清單中，並自動套用至輸入欄。
 
    ![正在輸入新的篩選器名稱](assets/save-as-modal.png)
 

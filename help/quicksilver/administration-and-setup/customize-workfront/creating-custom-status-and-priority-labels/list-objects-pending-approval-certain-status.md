@@ -4,11 +4,11 @@ product-area: system-administration
 navigation-topic: create-custom-status-and-priority-labels
 title: 使用特定狀態列出具有未決核准流程的物件
 description: 如果您嘗試刪除狀態，則錯誤訊息可能會告訴您無法刪除該狀態，因為該狀態正用於系統中物件的未決核准流程。 如果您想要尋找並檢閱這些物件以決定您需要做什麼，您可以執行列出這些物件的報告。
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 52dd8750-9a6f-4ac6-9779-ba4ea9b6f4e0
-source-git-commit: 366043a786c94f1bc40ad3b20af175bb84c94742
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 0%

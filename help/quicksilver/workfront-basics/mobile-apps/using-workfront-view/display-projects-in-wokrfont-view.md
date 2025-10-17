@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: use-workfront-view
 title: 在Adobe Workfront檢視中顯示專案
 description: 依預設， [!DNL Adobe Workfront] 檢視中顯示的專案清單會顯示最近100個使用中的專案。 專案清單未依任何條件分組。
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 76db4ed0-a411-49aa-8acd-f149df1f38a4
-source-git-commit: f9b9381b4b38796dbf7dfd9eddffc50fb9e5c24c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 1%

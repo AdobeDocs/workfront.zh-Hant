@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: 在 [!DNL Adobe Workfront] 行動應用程式中共用和下載校樣
 description: 您可以直接從行動應用程式與內部和外部收件者共用校訂檔案。 您也可以將校訂檔案下載到行動裝置。
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: a97ddd1e-1cae-49a8-b3a4-7c9850169179
-source-git-commit: 4bd88c0e4a3d27e30580fefea993224fe5446e32
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 0%
@@ -19,14 +19,14 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->所有收件者必須在[!DNL Workfront]中擁有存取權才能檢閱校樣。 如需有關授權和存取層級的資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校訂許可權設定檔。
+>所有收件者必須在[!DNL Workfront]中擁有存取權才能檢閱校樣。 如需有關授權和存取層級的資訊，請參閱[中的 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)校訂許可權設定檔。
 
 ## 共用校訂
 
 此選項會傳送一封包含唯一校訂連結的電子郵件給來自[!DNL Workfront Proof]的連絡人。 您也可以新增連絡人，並儲存至您的校訂連絡人。
 
 1. 開啟檔案校訂，然後選取檔案右上角的&#x200B;**[!UICONTROL 更多]**&#x200B;功能表![更多功能表](assets/mobile-verticalmoremenu-20x33.png)。 然後，選取&#x200B;**[!UICONTROL 更多]**。
-1. 選取&#x200B;**[!UICONTROL 共用]**。
+1. 選取「**[!UICONTROL 分享]**」。
 1. 開始在&#x200B;**[!UICONTROL 與]**&#x200B;共用方塊中輸入連絡人名稱，然後從清單中選取連絡人。
 
    或

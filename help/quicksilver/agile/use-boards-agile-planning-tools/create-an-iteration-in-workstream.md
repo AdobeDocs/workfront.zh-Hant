@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: boards
 title: 在工作串流中建立反複專案
 description: 反複專案是完成工作所保留的時間設定。 某些敏捷團隊可能會將反複專案稱為衝刺。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 0%
@@ -52,27 +52,27 @@ ht-degree: 0%
 
 {{step1-to-boards}}
 
-1. 開啟您要新增反複專案的工作流。 若要開啟工作流程，請按一下[檢視工作流程]。[!UICONTROL **&#x200B;**]
+1. 開啟您要新增反複專案的工作流。 若要開啟工作流程，請按一下[檢視工作流程]。[!UICONTROL ****]
 1. 使用下列其中一種方法建立反複專案：
 
-   * 在[卡片清單]索引標籤上的反複專案檢視中，按一下[建立反複專案]。[!UICONTROL **&#x200B;**]
-   * 在[卡片清單]索引標籤上，按一下[清單檢視]中的[建立反複專案]。[!UICONTROL **&#x200B;**]
-   * 在[展示板]索引標籤上，按一下[新增展示板&#x200B;[!UICONTROL **]並選取[反複專案程式]**]&#x200B;做為展示板範本。 [!UICONTROL **&#x200B;**]&#x200B;然後，開啟反複專案板並按一下&#x200B;[!UICONTROL **設定反複專案**]。
+   * 在[卡片清單]索引標籤上的反複專案檢視中，按一下[建立反複專案]。[!UICONTROL ****]
+   * 在[卡片清單]索引標籤上，按一下[清單檢視]中的[建立反複專案]。[!UICONTROL ****]
+   * 在[展示板]索引標籤上，按一下[新增展示板&#x200B;[!UICONTROL **]並選取[反複專案程式]**]&#x200B;做為展示板範本。 [!UICONTROL ****]&#x200B;然後，開啟反複專案板並按一下&#x200B;[!UICONTROL **設定反複專案**]。
 
 1. 在「版序詳細資訊」對話方塊中，新增下列資訊：
 
    <table style="table-layout:auto"> 
     <tbody> 
      <tr> 
-      <td><strong>[!UICONTROL 反複專案名稱]</strong></td> 
+      <td><strong>[！UICONTROL反複專案名稱]</strong></td> 
       <td>反複運算的名稱，例如「Sprint 1」。</td> 
      </tr> 
      <tr> 
-      <td><strong>[!UICONTROL 反複專案長度]</strong></td> 
+      <td><strong>[！UICONTROL反複專案長度]</strong></td> 
       <td>反複專案長度，以天、周或月為單位。</td> 
      </tr>
      <tr> 
-      <td><strong>[!UICONTROL 開始日期]</strong></td> 
+      <td><strong>[！UICONTROL開始日期]</strong></td> 
       <td>反複專案開始的日期。 系統會根據反複專案長度自動輸入結束日期。</td> 
      </tr> 
     </tbody> 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 ## 編輯現有反複專案
 
-1. 若要開啟工作流程，請按一下[檢視工作流程]。[!UICONTROL **&#x200B;**]
+1. 若要開啟工作流程，請按一下[檢視工作流程]。[!UICONTROL ****]
 1. 使用下列其中一種方法開啟反複專案：
 
    * 在[卡片清單]索引標籤上的反複專案檢視中，按一下&#x200B;[!UICONTROL **反複專案詳細資料**]&#x200B;圖示![反複專案詳細資料](assets/iteration-details-button.png)。

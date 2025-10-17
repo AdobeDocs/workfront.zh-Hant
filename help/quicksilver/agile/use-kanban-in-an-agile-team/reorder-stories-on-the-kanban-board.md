@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: use-kanban-in-an-agile-team
 title: 在Kanban面板上重新排序劇本
 description: 您可能想要變更內文在Kanban面板的狀態列中的顯示順序。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 7d6142d2-4e6e-4f9f-81a8-bcc666757bad
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 0%

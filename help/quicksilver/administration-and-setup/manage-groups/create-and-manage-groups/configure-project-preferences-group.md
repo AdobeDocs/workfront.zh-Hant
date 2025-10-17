@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 description: 如果您是群組管理員且Adobe Workfront管理員為系統中的所有群組解除鎖定專案偏好設定，您可以為群組設定該偏好設定，以影響您的群組建立的所有後續專案。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: c69097fb-99e4-441b-9599-fd8af2dd7116
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '2742'
 ht-degree: 2%
@@ -215,10 +215,10 @@ ht-degree: 2%
    <td role="rowheader"> <p><strong>將一位使用者指派給任務時，請使用……</strong>的排程 </p> </td> 
    <td> <p>如果專案未指派排程，或指派給其任務的使用者未指派排程，[!DNL Workfront]會使用系統預設排程來計算任務的時間表。</p>
 
-<p>如果您將一位使用者指派至專案中的任務，且專案與使用者都有相關的排程，則[!UICONTROL Workfront]會使用下列排程：</p> 
+<p>如果您將一位使用者指派至專案中的任務，且專案與使用者都有相關的排程，則[！UICONTROL Workfront]會使用下列排程：</p> 
     <ul> 
-     <li><strong>[!UICONTROL User]</strong>：指派的使用者計算時間表的工作排程。</li> 
-     <li><strong>[!UICONTROL 專案]</strong>：計算任務時間表之專案的排程。</li> 
+     <li><strong>[！UICONTROL User]</strong>：指派的使用者計算時間表的工作排程。</li> 
+     <li><strong>[！UICONTROL專案]</strong>：計算任務時間表之專案的排程。</li> 
     </ul> <p>如需排程的詳細資訊，請參閱<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">建立排程</a>。</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 

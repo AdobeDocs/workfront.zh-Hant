@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: 建立或編輯展示板
 description: 您可以從[!UICONTROL 展示板]儀表板建立新展示板或編輯現有展示板。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 1%

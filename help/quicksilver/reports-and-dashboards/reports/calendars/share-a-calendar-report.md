@@ -3,10 +3,10 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: 共用行事曆報告
 description: 您可以與其他使用者共用行事曆，也可以公開行事曆，讓沒有 [!DNL Adobe Workfront] 授權的人檢視行事曆。
-author: Lisa
+author: Jenny
 feature: Reports and Dashboards
 exl-id: 77eed0fe-2d47-40c4-a03d-590f7fa17dbe
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 1%
@@ -96,9 +96,9 @@ ht-degree: 1%
 
 1. 移至您要共用的行事曆。
 1. 按一下&#x200B;**[!UICONTROL 行事曆動作]**，然後按一下&#x200B;**[!UICONTROL 共用]**。
-1. 按一下行事曆名稱旁的&#x200B;**更多**&#x200B;功能表。
+1. 按一下行事曆名稱旁的&#x200B;**更多**功能表。
    ![行事曆更多功能表](assets/more-menu-calendar.png)
-按一下&#x200B;**複製公開連結**。
+按一下**複製公開連結**。
 1. 按一下「**[!UICONTROL 儲存]**」。
 
 ## 與私人連結共用行事曆

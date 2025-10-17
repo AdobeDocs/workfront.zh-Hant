@@ -3,10 +3,10 @@ product-area: user-management
 navigation-topic: workfront-navigation
 title: 瞭解檢閱授權使用者的導覽
 description: 主功能表會隨著您的 [!DNL Adobe Workfront] 管理員指派的存取層級而變更。 依預設，您只能存取包含您存取層級所允許之功能的區域。
-author: Lisa
+author: Lisa and Courtney
 feature: Get Started with Workfront
 exl-id: c646b3d2-2eca-47ef-b181-9358cef03ed7
-source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 0%

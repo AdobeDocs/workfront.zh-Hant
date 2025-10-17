@@ -3,10 +3,10 @@ content-type: reference
 navigation-topic: notifications
 title: 通知：目標
 description: 通知：目標
-author: Lisa
+author: Courtney, Alina
 feature: Get Started with Workfront
 exl-id: 12e66711-4438-4fcf-af79-7fcc2c3b1522
-source-git-commit: 770e20cf9e32ac9884f5eb320f7067fcf162c63d
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 2%
@@ -45,7 +45,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>存取層級設定*</strong></td> 
-   <td> <p>[!UICONTROL View]存取[!DNL Goals]或更新版本</p></td> 
+   <td> <p>[！UICONTROL View]存取[!DNL Goals]或更新版本</p></td> 
   </tr>
  </tbody> 
 </table>
@@ -81,15 +81,15 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td><strong>有人將結果/活動指派給我</strong></td> 
-   <td> <p>將結果或活動指派給您的人員姓名</p> <p>結果或活動的目標期間</p> <p>結果或活動的名稱</p> <p><strong>[!UICONTROL 在網頁應用程式中開啟]</strong>按鈕可開啟[!UICONTROL 目標詳細資料]面板</p> <p><strong>[!UICONTROL 變更通知設定]</strong>按鈕可讓您管理通知。</p> </td> 
+   <td> <p>將結果或活動指派給您的人員姓名</p> <p>結果或活動的目標期間</p> <p>結果或活動的名稱</p> <p><strong>[！UICONTROL在網頁應用程式中開啟]</strong>按鈕可開啟[！UICONTROL目標詳細資料]面板</p> <p><strong>[！UICONTROL變更通知設定]</strong>按鈕可讓您管理通知。</p> </td> 
   </tr> 
   <tr> 
    <td><strong>有人為我建立了新的個人目標</strong> </td> 
-   <td> <p>指派目標的人員名稱</p> <p>目標的期間</p> <p>目標的名稱</p> <p><strong>[!UICONTROL 在網頁應用程式中開啟]</strong>按鈕可開啟[!UICONTROL 目標詳細資料]面板</p> <p><strong>[!UICONTROL 變更通知設定]</strong>按鈕可讓您管理通知。</p> </td> 
+   <td> <p>指派目標的人員名稱</p> <p>目標的期間</p> <p>目標的名稱</p> <p><strong>[！UICONTROL在網頁應用程式中開啟]</strong>按鈕可開啟[！UICONTROL目標詳細資料]面板</p> <p><strong>[！UICONTROL變更通知設定]</strong>按鈕可讓您管理通知。</p> </td> 
   </tr> 
   <tr> 
    <td><strong>有人對我目標上的更新留言</strong></td> 
-   <td> <p>留下評論的人員的姓名</p> <p>目標的期間 </p> <p>目標的名稱</p> <p>註解的文字</p> <p><strong>[!UICONTROL 在網頁應用程式中開啟]</strong>按鈕可開啟[!UICONTROL 目標詳細資料]面板</p> <p><strong>[!UICONTROL 變更通知設定]</strong>按鈕可讓您管理通知。</p> </td> 
+   <td> <p>留下評論的人員的姓名</p> <p>目標的期間 </p> <p>目標的名稱</p> <p>註解的文字</p> <p><strong>[！UICONTROL在網頁應用程式中開啟]</strong>按鈕可開啟[！UICONTROL目標詳細資料]面板</p> <p><strong>[！UICONTROL變更通知設定]</strong>按鈕可讓您管理通知。</p> </td> 
   </tr> 
   <tr> 
   </tbody> 

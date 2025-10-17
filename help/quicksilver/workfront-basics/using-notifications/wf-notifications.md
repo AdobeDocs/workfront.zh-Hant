@@ -3,10 +3,10 @@ content-type: overview;reference
 navigation-topic: notifications
 title: 通知總覽
 description: Adobe Workfront會在您的行動裝置上傳送電子郵件通知、應用程式內通知和通知。
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
-source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '1395'
 ht-degree: 1%
@@ -69,7 +69,7 @@ ht-degree: 1%
 
 接收每日摘要通知時，請注意幾件事：
 
-* 您的&#x200B;**[!UICONTROL 我的設定]**&#x200B;面板中的每個[!UICONTROL 通知]區段都會產生自己的每日摘要電子郵件。 您可以設定每天的每日摘要電子郵件，數量與每天摘要電子郵件啟用的通知設定數量相同。\
+* 您的[!UICONTROL 我的設定]面板中的每個&#x200B;**[!UICONTROL 通知]**&#x200B;區段都會產生自己的每日摘要電子郵件。 您可以設定每天的每日摘要電子郵件，數量與每天摘要電子郵件啟用的通知設定數量相同。\
    例如，如果您選擇接收&#x200B;**[!UICONTROL 我擁有的專案資訊]下數個動作的每日摘要電子郵件，**，您會收到一封電子郵件通知，列出此區域符合的所有事件。
 
 * 每日摘要電子郵件中的通知會依各種條件分組。 例如，在&#x200B;**[!UICONTROL 我擁有的專案相關資訊]**&#x200B;的情況下，事件會依專案名稱分組。
@@ -101,7 +101,7 @@ ht-degree: 1%
 
    回複方塊已開啟，您可用來回覆註解。
 
-如需有關設定電子郵件通知的詳細資訊，包括啟用每日摘要通知，請參閱[修改您自己的電子郵件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)中的[檢視並修改您的電子郵件通知設定](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view-and-modify-your-email-notification-settings)。
+如需有關設定電子郵件通知的詳細資訊，包括啟用每日摘要通知，請參閱[修改您自己的電子郵件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view-and-modify-your-email-notification-settings)中的[檢視並修改您的電子郵件通知設定](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)。
 
 ### 自動提醒
 

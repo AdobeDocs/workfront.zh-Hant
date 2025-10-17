@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: burndown
 title: 調整待執行工作圖表的大小並收合
 description: 您可以調整或收合待執行工作圖表，以調整它在故事板上所佔用的空間。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: ad7ea883-987a-4278-8d24-7c1dd4e542a3
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 0%

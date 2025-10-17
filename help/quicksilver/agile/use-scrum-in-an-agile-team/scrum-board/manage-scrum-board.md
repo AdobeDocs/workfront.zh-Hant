@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects;user-management
 navigation-topic: scrum-board
 title: 管理Scrum展示板上的劇本和問題
 description: 您可以將劇本或問題從Scrum展示板移動至另一個反複專案或待處理專案，或從Scrum展示板將其刪除。 當您刪除內文或問題時，內文或問題會移至資源回收筒並保留30天，且只有系統管理員才能復原。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 72990251-0264-4e68-83ef-1a9cde5b685c
-source-git-commit: 95208e0f396d8eab9a71ca156c616891a7f56f7a
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 0%
@@ -33,13 +33,13 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>新增：[!UICONTROL Standard]</p> 
+   <td> <p>新增：[！UICONTROL Standard]</p> 
    或
-   <p>目前： [!UICONTROL Work]或更高版本</p> </td> 
+   <p>目前： [！UICONTROL Work]或更高版本</p> </td> 
   </tr>
    <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td>[!UICONTROL Manage]任務或問題的存取權 </td> 
+   <td>[！UICONTROL Manage]任務或問題的存取權 </td> 
   </tr>
  </tbody> 
 </table>
@@ -62,18 +62,18 @@ ht-degree: 0%
 
    <table style="table-layout:auto">
     <tr>
-        <td><strong>[!UICONTROL 其他反複專案]</strong></td>
+        <td><strong>[！UICONTROL其他反複專案]</strong></td>
         <td>選取將專案移至另一個反複專案，然後選擇內文或問題將移至哪個反複專案。 如果未定義未來的版序，則無法移動專案。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 待處理專案]</strong></td>
+        <td><strong>[！UICONTROL待處理專案]</strong></td>
         <td>選取將劇本或問題移至團隊的待辦專案。</td>
     </tr>
    </table>
 
    >[!NOTE]
    >
-   >工作專案[!UICONTROL 計劃開始日期]和[!UICONTROL 計畫完成日期]受[!UICONTROL 編輯團隊]頁面上的設定影響。 如需詳細資訊，請參閱[設定Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)一文中的[[[!UICONTROL 設定將工作專案新增至疊代]](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5)時如何套用日期]一節。
+   >工作專案[!UICONTROL 計劃開始日期]和[!UICONTROL 計畫完成日期]受[!UICONTROL 編輯團隊]頁面上的設定影響。 如需詳細資訊，請參閱[[!UICONTROL 設定Scrum]一文中的](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5)設定將工作專案新增至疊代[時如何套用日期](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)一節。
 
 1. 按一下&#x200B;**[!UICONTROL 移動]**。
 

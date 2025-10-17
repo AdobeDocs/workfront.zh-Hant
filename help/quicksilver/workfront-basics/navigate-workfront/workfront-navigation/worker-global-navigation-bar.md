@@ -4,10 +4,10 @@ product-area: user-management
 navigation-topic: workfront-navigation
 title: 瞭解工作授權使用者的導覽
 description: 主功能表會隨著您的 [!DNL Adobe Workfront] 管理員指派的存取層級而變更。 依預設，您只能存取包含您存取層級所允許之功能的區域。
-author: Lisa
+author: Lisa and Courtney
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 * **[!UICONTROL 行事曆]**：與您共用的行事曆會顯示在這裡。 如需詳細資訊，請參閱[行事曆：文章索引](../../../reports-and-dashboards/reports/calendars/calendars.md)。
 
-* **[!UICONTROL 團隊]**：指派給您團隊的任務和問題會顯示在此區域中。 身為背景工作，您是依預設唯一會看到[!UICONTROL 團隊]區域的[!DNL Workfront]使用者。
+* **[!UICONTROL 團隊]**：指派給您團隊的任務和問題會顯示在此區域中。 身為背景工作，您是依預設唯一會看到[!DNL Workfront]團隊[!UICONTROL 區域的]使用者。
 
   如需詳細資訊，請參閱[建立和管理團隊](../../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md)。
 

@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: 使用自訂狀態作為群組的預設狀態
 description: 作為群組管理員，您可以將自訂狀態設定為您管理的群組或子群組的預設狀態。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51018635-cd9a-402d-a136-c5bec4707cda
-source-git-commit: fb555df123701c62e9a0f2d451ad6dcd16586595
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 1%
@@ -88,7 +88,7 @@ ht-degree: 1%
    >如果您將專案指派給不同的群組，專案狀態將會重新載入並可能變更。
 
    1. 前往您要使用自訂狀態的專案。
-   1. 按一下[更多]功能表![更多圖示](assets/more-icon.png)，然後按一下[編輯]&#x200B;**&#x200B;**。
+   1. 按一下[更多]功能表![更多圖示](assets/more-icon.png)，然後按一下[編輯]****。
    1. 在顯示的&#x200B;**編輯專案**&#x200B;方塊中，在&#x200B;**專案關聯**&#x200B;下的&#x200B;**群組**&#x200B;欄位中，選取自訂狀態關聯的群組。
 
    1. 按一下「**儲存變更**」。

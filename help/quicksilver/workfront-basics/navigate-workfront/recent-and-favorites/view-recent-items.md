@@ -4,9 +4,9 @@ navigation-topic: recent-and-favorites
 title: 檢視最近專案
 description: '[!UICONTROL Recents]功能表位於上方導覽列。 此功能表會顯示最近檢視的專案、報告、控制面板、任務、問題等。'
 feature: Get Started with Workfront
-author: Lisa
+author: Courtney
 exl-id: 531b6b77-bf54-4ab3-a757-5c59fc0586a6
-source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 0%

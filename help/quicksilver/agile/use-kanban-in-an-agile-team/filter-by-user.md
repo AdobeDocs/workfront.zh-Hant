@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects;user-management
 navigation-topic: use-kanban-in-an-agile-team
 title: 在Kanban板上依使用者篩選
 description: 您可以使用Kanban展示板上的篩選來檢視哪些工作專案與其他使用者相關聯，以及哪些工作專案未指派。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: e6f6beda-aaf9-4053-97ed-3a48e617d8e9
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 0%

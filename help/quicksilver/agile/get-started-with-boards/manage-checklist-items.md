@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: 管理卡片上的檢查清單專案
 description: 在卡片上使用檢查清單可讓您將工作細分成較小的增量，或在卡片上新增附註。 檢查清單專案在隨選卡和已連線卡上都可用。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 60e47a0a-36fb-4a86-8ec7-b135f9725b79
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 0%

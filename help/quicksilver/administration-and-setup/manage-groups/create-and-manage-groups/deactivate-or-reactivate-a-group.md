@@ -4,11 +4,11 @@ product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 title: 停用或重新啟用群組
 description: 您可以停用您不再使用的管理群組。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 99b81090-8d09-4130-a746-44ed1d76f971
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 0%
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 1. 按一下群組的名稱以開啟其頁面。
 
-1. 按一下群組名稱旁的[更多]功能表![更多圖示](assets/more-icon.png)，然後按一下[停用] **或[重新啟用]**&#x200B;**。**
+1. 按一下群組名稱旁的[更多]功能表![更多圖示](assets/more-icon.png)，然後按一下[停用] **或[重新啟用]****。**
 
    >[!NOTE]
    >

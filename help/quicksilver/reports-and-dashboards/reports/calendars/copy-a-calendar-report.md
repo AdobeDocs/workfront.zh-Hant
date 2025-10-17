@@ -3,10 +3,10 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: 複製行事曆報告
 description: 如果您已建立行事曆，可以複製行事曆並將其用作新行事曆的起點。
-author: Lisa
+author: Jenny
 feature: Reports and Dashboards
 exl-id: f72cf896-294f-4166-b731-eaec0c2156b1
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 0%
@@ -59,7 +59,7 @@ ht-degree: 0%
 ## 複製行事曆報告
 
 1. 移至您要複製的行事曆。
-1. 按一下[行事曆]下拉式功能表旁的&#x200B;**更多**&#x200B;功能表。
+1. 按一下[行事曆]下拉式功能表旁的&#x200B;**更多**功能表。
    ![行事曆更多功能表](assets/more-menu-calendar.png)
 
 1. 從下拉式清單中選取&#x200B;**[!UICONTROL 複製]**。 行事曆會被複製，而您會被帶往新復本。

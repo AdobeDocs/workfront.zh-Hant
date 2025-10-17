@@ -4,11 +4,11 @@ product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: 建立排程
 description: 您可以使用排程定義使用者的工作週。 您可以將排程與使用者或專案建立關聯。 這可讓 [!DNL Workfront] 計算時間表和使用者可用性。
-author: Lisa, Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f7347ba6-68bf-45d8-b5d2-6136f3e696c9
-source-git-commit: e8c89b68a022ae1c0cf5da20257cd8bc36e94d4c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '794'
 ht-degree: 0%
@@ -49,12 +49,12 @@ Linked to Editing Users, Editing Projects, Creating and managing groups
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td><p>[!UICONTROL 標準]</p>
-       <p>[!UICONTROL 計畫]</p></td>
+   <td><p>[！UICONTROL標準]</p>
+       <p>[！UICONTROL計畫]</p></td>
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td> 
+   <td>[！UICONTROL系統管理員]</td> 
   </tr> 
  </tbody> 
 </table>
@@ -92,7 +92,7 @@ Linked to Editing Users, Editing Projects, Creating and managing groups
 
    <table style="table-layout:auto">
     <tr>
-     <td>具有管理存取權的[!UICONTROL 群組]</td>
+     <td>具有管理存取權的[！UICONTROL群組]</td>
      <td><p>選取其管理員有權編輯此排程的群組。</p>
      <p><b>重要</b>：</p>
       <ul>
@@ -109,11 +109,11 @@ Linked to Editing Users, Editing Projects, Creating and managing groups
      </td>
     </tr>
     <tr>
-     <td>[!UICONTROL 群組具有檢視存取權]</td>
-     <td><p>選取具有[!UICONTROL 檢視]存取權的群組，讓他們看到此排程。</p>
+     <td>[！UICONTROL群組具有檢視存取權]</td>
+     <td><p>選取具有[！UICONTROL檢視]存取權的群組，讓他們看到此排程。</p>
      <p>只有此處指定之群組中的使用者在將排程指派給使用者或專案時，才可在下拉式選單中找到排程。</p></tr>
     <tr>
-     <td>[!UICONTROL 時區]</td>
+     <td>[！UICONTROL時區]</td>
      <td><p>選取排程的時區。</p>
      <p>如果您將排程與使用者建立關聯，我們建議排程的時區與使用者的時區相符。 如需使用者時區的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">編輯使用者設定檔。
      </td>

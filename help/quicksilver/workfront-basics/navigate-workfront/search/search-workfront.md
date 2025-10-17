@@ -3,9 +3,9 @@ navigation-topic: search
 title: 搜尋 [!DNL Adobe Workfront]
 description: 當您不記得專案的確切位置時，可以搜尋專案，在 [!DNL Adobe Workfront] 中輕鬆找到專案。
 feature: Get Started with Workfront
-author: Lisa
+author: Courtney
 exl-id: 7c856349-c79f-40d8-9c96-b32bfb6d5417
-source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1570'
 ht-degree: 1%
@@ -44,7 +44,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[!UICONTROL View]物件型別的存取權 </p> <p>注意：如果您還是沒有存取權，請詢問您的[!DNL Workfront]管理員是否對您的存取層級設定了其他限制。 如需[!DNL Workfront]管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p></td> 
+   <td> <p>[！UICONTROL View]物件型別的存取權 </p> <p>注意：如果您還是沒有存取權，請詢問您的[!DNL Workfront]管理員是否對您的存取層級設定了其他限制。 如需[!DNL Workfront]管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
@@ -137,7 +137,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>包含OR</td> 
-   <td> <p>使用「OR」連線單字（不含引號）可讓您僅尋找至少符合[!UICONTROL 搜尋]方塊中一個單字的物件。 這些字詞可依任何順序輸入。<br>例如，搜尋「Marketing OR Demo」（不含引號）會尋找具有以下名稱的物件：</p> 
+   <td> <p>使用「OR」連線單字（不含引號）可讓您僅尋找至少符合[！UICONTROL搜尋]方塊中一個單字的物件。 這些字詞可依任何順序輸入。<br>例如，搜尋「Marketing OR Demo」（不含引號）會尋找具有以下名稱的物件：</p> 
     <ul> 
      <li> 市場分析示範</li> 
      <li>1月市場分析示範</li> 
@@ -147,7 +147,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>包含和</td> 
-   <td> <p>使用「AND」連線單字（不含引號）可讓您僅尋找符合[!UICONTROL 搜尋]方塊中所有單字的物件。 這些字詞可依任何順序輸入。<br>例如，搜尋「Marketing AND Demo」（不含引號）會尋找具有以下名稱的物件：</p> 
+   <td> <p>使用「AND」連線單字（不含引號）可讓您僅尋找符合[！UICONTROL搜尋]方塊中所有單字的物件。 這些字詞可依任何順序輸入。<br>例如，搜尋「Marketing AND Demo」（不含引號）會尋找具有以下名稱的物件：</p> 
     <ul> 
      <li>行銷示範</li> 
      <li>示範行銷</li> 
@@ -192,7 +192,7 @@ ht-degree: 1%
 
    ![依物件型別搜尋](assets/search-objecttype.png)
 
-1. 在&#x200B;**[!UICONTROL 搜尋]**&#x200B;方塊中，開始輸入您要搜尋的資訊。
+1. 在&#x200B;**[!UICONTROL 搜尋]**方塊中，開始輸入您要搜尋的資訊。
 如需[!DNL Workfront]中搜尋哪些欄位的詳細資訊，請參閱本文中的下列章節： [瞭解搜尋](#understand-search)。
    ![搜尋下拉式清單](assets/qs-search-drop-down-highlighted-350x234.png)
 
@@ -249,7 +249,7 @@ ht-degree: 1%
 
 1. 在[!DNL Workfront]中任何頁面的右上角，按一下&#x200B;**[!UICONTROL 搜尋]**&#x200B;圖示![搜尋圖示](assets/search-icon.png)。 顯示&#x200B;**搜尋**&#x200B;功能表。
 
-1. 在&#x200B;**搜尋**&#x200B;功能表底部，按一下&#x200B;**[!UICONTROL 進階搜尋]**。 **搜尋**&#x200B;頁面開啟，預設選取&#x200B;**進階搜尋**&#x200B;索引標籤。
+1. 在&#x200B;**搜尋**&#x200B;功能表底部，按一下&#x200B;**[!UICONTROL 進階搜尋]**。 **搜尋**&#x200B;頁面開啟，預設選取&#x200B;**進階搜尋**索引標籤。
    ![進階搜尋](assets/qs-advanced-search-350x224.png)
 
 

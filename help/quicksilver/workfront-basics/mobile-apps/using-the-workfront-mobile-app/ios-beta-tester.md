@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: 成為iOS Beta測試者
 description: 請參閱本文章，成為 [!DNL Adobe Workfront] 行動應用程式的iOS Beta測試者。
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: b02119ab-f4ea-4249-8d2c-b26df47e770d
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->安裝[!DNL TestFlight]應用程式並在您的[!DNL iOS]裝置上成為Beta測試者後，您必須使用[!DNL TestFlight]應用程式而非[!DNL Apple Store]下載更新版本的[!DNL Workfront]。 如果您不是[!DNL iOS]的Beta版測試者，則可繼續從[!DNL Apple Store]更新您的行動應用程式。
+>安裝[!DNL TestFlight]應用程式並在您的[!DNL iOS]裝置上成為Beta測試者後，您必須使用[!DNL Workfront]應用程式而非[!DNL TestFlight]下載更新版本的[!DNL Apple Store]。 如果您不是[!DNL iOS]的Beta版測試者，則可繼續從[!DNL Apple Store]更新您的行動應用程式。
 
 #### 1.安裝[!DNL TestFlight]應用程式
 
@@ -37,11 +37,11 @@ ht-degree: 0%
 1. 點選您的名稱，然後點選&#x200B;**[!UICONTROL 成為Beta測試者]**。
 1. 點選&#x200B;**[!UICONTROL 在[!DNL App Store]]**&#x200B;中檢視以檢視[!DNL TestFlight]應用程式。
 1. 點選&#x200B;**[!UICONTROL 取得]**&#x200B;以在您的裝置上安裝[!DNL TestFlight]，然後點選&#x200B;**[!UICONTROL 安裝]**。
-1. 在[!DNL TestFlight]應用程式中點選&#x200B;**[!UICONTROL 開啟]**，然後點選&#x200B;**[!UICONTROL 繼續]**。
+1. 在&#x200B;**[!UICONTROL 應用程式中點選]**&#x200B;開啟&#x200B;**[!UICONTROL ，然後點選]**&#x200B;繼續[!DNL TestFlight]。
 1. 點選&#x200B;**[!UICONTROL 接受]**&#x200B;以接受[!DNL TestFlight]應用程式的條款與條件。\
    [!DNL TestFlight]應用程式已安裝在您的裝置上。 繼續下一節。
 
-#### 2.在[!DNL TestFlight]中安裝[!DNL Workfront] Beta App
+#### 2.在[!DNL Workfront]中安裝[!DNL TestFlight] Beta App
 
 您必須先在iOS裝置上安裝[!DNL Workfront]應用程式和[!DNL TestFlight]應用程式，才能在iOS裝置上成為Beta測試者。
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 ## 更新[!DNL Workfront] Beta應用程式
 
-如果您註冊為Beta版測試者，則必須在[!DNL TestFlight]中更新[!DNL Workfront]應用程式以存取Beta版提供的新功能。
+如果您註冊為Beta版測試者，則必須在[!DNL Workfront]中更新[!DNL TestFlight]應用程式以存取Beta版提供的新功能。
 
 1. 開啟[!DNL TestFlight]應用程式。
 1. 點選&#x200B;**[!UICONTROL 更新]**。

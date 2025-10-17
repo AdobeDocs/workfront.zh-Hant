@@ -5,11 +5,11 @@ product-area: system-administration;user-management;setup
 keywords: 群組，偏好設定，任務，問題，解除鎖定
 navigation-topic: create-and-manage-groups
 description: 如果貴組織中的群組需要以獨立於系統層級設定方式設定任務或問題偏好設定，Adobe Workfront管理員可以解鎖偏好設定。 然後，作為群組管理員，您可以設定群組的偏好設定，這將會影響與群組相關的所有任務或問題。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '2166'
 ht-degree: 2%
@@ -81,7 +81,7 @@ ht-degree: 2%
 
 1. 按一下您要為其設定解除鎖定任務和問題偏好設定的群組名稱。
 1. 在顯示的群組頁面上，在左側面板中按一下&#x200B;**任務和問題偏好設定**。
-1. 在出現的頁面上，繼續這些步驟下列出的5個區段之一，以設定[新增任務預設值]、[問題]、[刪除]、[實際日期]和[存取]區域的設定，然後按一下[儲存]。**&#x200B;**
+1. 在出現的頁面上，繼續這些步驟下列出的5個區段之一，以設定[新增任務預設值]、[問題]、[刪除]、[實際日期]和[存取]區域的設定，然後按一下[儲存]。****
 
    如果您將滑鼠游標停留在鎖定圖示![鎖定圖示](assets/lock-toggle-button-dimmed.png)上以取得需要設定的偏好設定，且顯示工具提示以告知您已鎖定，您可以要求Workfront管理員為組織中的所有群組解除鎖定。
 

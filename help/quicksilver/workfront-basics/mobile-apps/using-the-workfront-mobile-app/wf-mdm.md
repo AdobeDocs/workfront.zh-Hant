@@ -4,10 +4,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: 適用於行動裝置管理(MDM)的Adobe Workfront
 description: Adobe [!DNL Workfront] 已與一些行動裝置管理(MDM)平台合作，為組織提供更安全和受控制的行動體驗。
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 6f989fb8-5e33-4626-92cf-1d3a629698b0
-source-git-commit: 0b76f99627b154b216fc4ed6fb36e6a07805126e
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 3%

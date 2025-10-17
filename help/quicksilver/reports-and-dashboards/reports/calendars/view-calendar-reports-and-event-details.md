@@ -3,10 +3,10 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: 檢視行事曆報告和事件詳細資訊
 description: 您可以在Adobe Workfront中檢視您建立或與您共用的行事曆報告和事件詳細資訊。
-author: Lisa
+author: Jenny
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 0%
@@ -71,7 +71,7 @@ ht-degree: 0%
 
      若要瞭解共用行事曆，請參閱[[!UICONTROL 共用行事曆]報告](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)。
 
-1. （視條件而定）按一下&#x200B;**[!UICONTROL 檢視]**&#x200B;下拉式清單，然後選取您要檢視的行事曆持續時間。
+1. （視條件而定）按一下&#x200B;**[!UICONTROL 檢視]**下拉式清單，然後選取您要檢視的行事曆持續時間。
    ![行事曆持續時間](assets/view-menu-calendar-report-350x189.png)
 您可以從下列行事曆報表檢視中進行選擇：
 

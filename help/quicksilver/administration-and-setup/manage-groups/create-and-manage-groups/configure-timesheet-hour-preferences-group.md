@@ -5,11 +5,11 @@ keywords: 群組，偏好設定，任務，群組，問題，解鎖
 navigation-topic: create-and-manage-groups
 title: 設定群組的時程表和小時偏好設定
 description: 在系統層級，Adobe Workfront管理員可以解鎖時程表和小時偏好設定區段一般偏好設定和預先填入時程表。 這可讓群組管理員為自己的群組獨立設定這些區段中的選項。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1ee9343e-9452-4e41-a9ff-a6c865d4813b
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1336'
 ht-degree: 1%

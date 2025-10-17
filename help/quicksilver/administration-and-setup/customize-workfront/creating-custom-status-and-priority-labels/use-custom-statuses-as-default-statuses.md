@@ -4,11 +4,11 @@ product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: 使用自訂狀態作為預設狀態
 description: 當自訂狀態設定為預設狀態時，新的預設狀態會以各種方式在整個系統中使用。 其使用方式取決於其設定為預設系統層級狀態，還是預設群組層級狀態。
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5b137cee-e03a-4176-a683-b77f2b27f5ce
-source-git-commit: 366043a786c94f1bc40ad3b20af175bb84c94742
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 1%
@@ -96,6 +96,6 @@ ht-degree: 1%
    >如果您設定群組的自訂狀態，且稍後將專案指派給其他群組，則專案狀態將會重新載入並可能變更。
 
    1. 前往您要使用自訂狀態的專案。
-   1. 按一下[更多]功能表![更多圖示](assets/more-icon.png)，然後按一下[編輯]&#x200B;**&#x200B;**。
+   1. 按一下[更多]功能表![更多圖示](assets/more-icon.png)，然後按一下[編輯]****。
    1. 在顯示的&#x200B;**編輯專案**&#x200B;方塊中，在&#x200B;**專案關聯**&#x200B;下的&#x200B;**群組**&#x200B;欄位中，選取狀態所在的群組。
    1. 按一下「**儲存變更**」。

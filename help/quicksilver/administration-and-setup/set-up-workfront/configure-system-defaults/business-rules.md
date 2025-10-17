@@ -4,11 +4,11 @@ product-area: system-administration
 navigation-topic: business rules
 title: 建立和編輯商業規則
 description: 商業規則可讓您套用驗證至Workfront物件，並防止使用者在滿足某些條件時建立、編輯或刪除物件。 商業規則可防止可能影響資料完整性的動作，有助於改善資料品質和營運效率。
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1323'
 ht-degree: 2%
@@ -123,7 +123,7 @@ IF(
 
 1. 按一下左側面板中的&#x200B;**商業規則**。
 1. 按一下&#x200B;**新商業規則**。
-1. 選取要指派商業規則的物件型別，然後按一下[繼續]。**&#x200B;**
+1. 選取要指派商業規則的物件型別，然後按一下[繼續]。****
 
    ![選取物件](assets/object-for-business-rule3.png)
 
@@ -188,7 +188,7 @@ IF(
 
    可用欄位清單僅限於與商業規則物件型別相關的欄位。
 
-1. 當您完成建立商業規則時，請按一下[儲存]。**&#x200B;**
+1. 當您完成建立商業規則時，請按一下[儲存]。****
 
 >[!NOTE]
 >

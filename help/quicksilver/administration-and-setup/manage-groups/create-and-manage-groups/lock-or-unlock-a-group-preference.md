@@ -4,11 +4,11 @@ product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 title: 鎖定或解除鎖定子群組的專案、任務或問題偏好設定
 description: 身為群組管理員，您可以設定專案、任務或問題偏好設定，然後加以鎖定(如果Workfront管理員在系統層級將其解除鎖定)。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 05c32b6f-52e1-46a7-9011-633713422f3d
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 0%

@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: 成為Android Beta測試者
 description: 請參閱本文章，成為 [!DNL Adobe Workfront] 行動應用程式的Android Beta測試者。
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 84188dec-301b-40f6-a2a3-5e7befae1dc9
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
    需要幾分鐘才會被承認為測試版使用者。 您可能必須重新開啟[!DNL Play Store]才能看到變更。
 
 1. 進度完成後，您會收到一則確認訊息，確認您目前為測試版使用者。\
-   在[!DNL Play Store]中，「[!UICONTROL Beta]」一詞會出現在應用程式名稱后面，表示您正在使用測試版的應用程式。\
+   在[!UICONTROL 中，「]Beta[!DNL Play Store]」一詞會出現在應用程式名稱后面，表示您正在使用測試版的應用程式。\
    ![Android beta測試者](assets/android-beta-tester-adobe-350x468.png)
 
 ### QR碼

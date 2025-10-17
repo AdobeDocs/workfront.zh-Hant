@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: use-workfront-view
 title: 在Adobe Workfront檢視中新增更新
 description: 您可以在 [!DNL Adobe Workfront] 檢視應用程式中，檢閱並新增更新至正在檢閱的專案。
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 5d0260ad-7049-42c6-a8a0-9b53fb115ec6
-source-git-commit: f9b9381b4b38796dbf7dfd9eddffc50fb9e5c24c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 0%

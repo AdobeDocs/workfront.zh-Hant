@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: 建立和修改群組的專案範本
 description: 當您檢視您在「群組」區域中管理的群組時，您可以檢視和使用與群組及其任何子群組相關聯的專案範本。
-author: Caroline
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f97a12eb-9002-4f11-908a-c68c1e6dc9c9
-source-git-commit: 10780ff51d5b1d9d73cb0a6fb0982abc320b0313
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1241'
 ht-degree: 1%

@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: group-roles
 title: 業務主管概觀
 description: 在群組中，業務主管是負責決定群組的目標、策略、預算和招募等的人員。 例如，在設有行銷總監的組織中，該人員可能是行銷業務領導者。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 4081587f-1ace-4f40-a3a1-57231d5a5d43
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%

@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: 將子任務新增至Kanban面板上的現有劇本
 description: 請檢閱本文，瞭解如何為Kanban面板上的現有內文建立子任務。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: c6610616-80e5-4ded-9d23-63f15536e45c
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 0%

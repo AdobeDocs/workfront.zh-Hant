@@ -4,13 +4,13 @@ product-area: reporting;calendars
 navigation-topic: tips-tricks-and-troubleshooting-reports
 title: 內嵌編輯日期班次行事曆顯示在方塊外
 description: 在物件清單中內聯編輯日期時，行事曆顯示的日期多於應有數量。 這會導致日期顯示在行事曆方塊之外。
-author: Lisa
+author: Jenny
 feature: Reports and Dashboards
 exl-id: 6d053968-1578-4c20-b2a7-43634481696f
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '159'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 

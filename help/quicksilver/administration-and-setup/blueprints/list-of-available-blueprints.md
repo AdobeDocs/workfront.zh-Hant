@@ -4,11 +4,11 @@ product-area: system-administration;workfront-integrations
 navigation-topic: administration-and-setup
 title: 可用藍圖清單
 description: 列出的 [!DNL Adobe Workfront] 藍圖可供系統管理員安裝。
-author: Becky
+author: Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: 2e6efb8fd15113eba6a20514791a8e9a57742e58
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '2082'
 ht-degree: 0%

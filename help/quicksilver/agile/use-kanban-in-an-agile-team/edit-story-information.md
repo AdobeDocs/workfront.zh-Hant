@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: 編輯劇本資訊
 description: 在Kanban板上檢視內文拼貼時，可以直接從內文拼貼編輯某些資訊。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: a22a7b61-b331-4c98-9421-e7fccedcd096
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 0%
@@ -47,7 +47,7 @@ ht-degree: 0%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>每個內文和問題的[!UICONTROL 完成百分比]。<br>[!UICONTROL 反複運算的完成百分比]是根據每個內文的[!UICONTROL 完成百分比]計算的。<br></p> <p>更新內文或問題的[!UICONTROL 完成百分比]時，您可以選擇0到100之間的任何數字。</p> </td> 
+   <td> <p>每個內文和問題的[！UICONTROL完成百分比]。<br>[！UICONTROL反複運算的完成百分比]是根據每個內文的[！UICONTROL完成百分比]計算的。<br></p> <p>更新內文或問題的[！UICONTROL完成百分比]時，您可以選擇0到100之間的任何數字。</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 

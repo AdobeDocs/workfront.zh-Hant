@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: 移動或刪除的群組中的自訂狀態
 description: 本文說明當您移動或刪除群組時，群組自訂狀態會發生什麼情況。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 83885d86-eb00-46cc-93e9-e3364b6125e8
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 0%

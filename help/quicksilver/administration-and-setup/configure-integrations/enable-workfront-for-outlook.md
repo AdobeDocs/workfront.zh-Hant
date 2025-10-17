@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 description: 在使用者開始使用Outlook的 [!DNL Adobe Workfront] 之前，您必須先為您的系統啟用它。
-author: Lisa, Becky
+author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: be523b27-191f-46ca-9a87-d512f9a15a1e
-source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '70'
 ht-degree: 1%

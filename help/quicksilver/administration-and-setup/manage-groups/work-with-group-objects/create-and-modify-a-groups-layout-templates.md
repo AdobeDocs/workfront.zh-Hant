@@ -5,11 +5,11 @@ keywords: 群組，配置，範本
 navigation-topic: work-with-a-groups-objects
 title: 建立和修改群組的版面配置範本
 description: 當您檢視您在「群組」區域中管理的群組時，您可以檢視和使用配置範本，該群組或其子群組的管理員可對其擁有管理存取權。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 2be211a8-df84-49c3-827f-1215c77159e0
-source-git-commit: 1554c067afcc548c7f7abd03dbc3a49404e3c89c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 0%
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 1. 執行下列任一項作業：
 
-   * 若要建立群組的新範本，請按一下[新增配置範本]。**&#x200B;**
+   * 若要建立群組的新範本，請按一下[新增配置範本]。****
 
      或
 

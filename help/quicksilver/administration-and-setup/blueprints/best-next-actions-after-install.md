@@ -5,11 +5,11 @@ product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: 安裝Blueprint後要採取的動作
 description: 本文概述您在 [!DNL Adobe Workfront] 中安裝Blueprint後，應該做什麼，才能將該Blueprint完全部署給您的系統使用者。
-author: Becky
+author: Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e5da58f-105a-4edf-8fc1-65e8762d43c6
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1135'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ### 更新範本任務持續時間和工作量估計 {#update-template-task-duration-and-effort-estimates}
 
-範本中的每個任務都包含計畫持續時間和計畫投入估計值。 這些估計值會作為這些活動的持續時間和逗留時間的起點。 不過，貴組織的能力、技能和步調是獨特的。 您應該檢閱每個任務的估計持續時間和工作量，以調整它以反映您組織的需求。 如需相關資訊，請參閱[!UICONTROL 任務詳細資訊總覽]區域[&#128279;](../../manage-work/tasks/manage-tasks/task-information-in-overview.md)中的管理任務資訊。
+範本中的每個任務都包含計畫持續時間和計畫投入估計值。 這些估計值會作為這些活動的持續時間和逗留時間的起點。 不過，貴組織的能力、技能和步調是獨特的。 您應該檢閱每個任務的估計持續時間和工作量，以調整它以反映您組織的需求。 如需相關資訊，請參閱[任務詳細資訊總覽[!UICONTROL 區域]中的](../../manage-work/tasks/manage-tasks/task-information-in-overview.md)管理任務資訊。
 
 ### 關聯里程碑路徑和里程碑 {#associate-a-milestone-path-and-milestones}
 

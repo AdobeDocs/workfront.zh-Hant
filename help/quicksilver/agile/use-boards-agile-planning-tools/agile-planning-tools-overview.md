@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: 敏捷規劃工具總覽：文章索引
 description: 當您使用臨機操作卡和連線的卡片來建立展示板時，您可以利用展示板上的其他敏捷計畫工具。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 0%

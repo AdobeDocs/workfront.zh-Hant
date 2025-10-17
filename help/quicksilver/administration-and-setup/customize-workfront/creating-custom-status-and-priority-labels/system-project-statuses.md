@@ -5,11 +5,11 @@ product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: 系統專案狀態概觀
 description: Workfront有9個內建的系統專案狀態。 下表中的前3項為必要項，表示您可以解除鎖定、重新命名及重新排序，但無法隱藏或刪除它們。 變更專案狀態通常是手動過程。 不過，有時專案狀態會根據系統中發生的其他活動自動變更。
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 6b8dd52b-1696-4e5d-bcbb-5b6d3b736df0
-source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1607'
 ht-degree: 0%

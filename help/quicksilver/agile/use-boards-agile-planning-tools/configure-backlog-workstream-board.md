@@ -4,10 +4,10 @@ content-type: reference
 navigation-topic: boards
 title: 設定工作流程展示板上的待處理專案
 description: 您可以選擇在工作流程中的展示板上顯示待處理資料欄，並為從工作流程卡片清單提取到展示板待處理資料中的卡片定義查詢。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: fd2f6eeb-a565-4461-a153-0504ad3c07d7
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 {{step1-to-boards}}
 
-1. 開啟您要使用的工作流。 若要開啟工作流程，請按一下[檢視工作流程]。[!UICONTROL **&#x200B;**]
+1. 開啟您要使用的工作流。 若要開啟工作流程，請按一下[檢視工作流程]。[!UICONTROL ****]
 1. 按一下工作流程中的任何展示板以開啟。
 1. 按一下主機板右側的&#x200B;[!UICONTROL **[設定]**]&#x200B;以開啟[設定]面板。
 1. 開啟&#x200B;[!UICONTROL **在此展示板上包含待處理專案欄**]。

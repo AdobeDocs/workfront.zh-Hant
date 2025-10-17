@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: burndown
 title: 敏捷待執行工作圖總覽
 description: 待執行工作圖表提供內文在反複專案或專案中進度方式的視覺化表示。 實際待執行工作速率是根據反複專案或專案時間表理想的待執行工作速率來測量。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 414e3315-35ed-4aa4-a2d8-be42ec585f29
-source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '970'
 ht-degree: 0%
@@ -58,12 +58,12 @@ ht-degree: 0%
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt="為燒毀的工作製作綠點"> </td> 
    <td> <p>每次工作燒毀時，實際燒毀率都會顯示綠色或紅點。 （當當天的實際待執行工作速率是紅色時，點代表紅色；噹噹噹天的實際待執行工作速率是綠色時，點代表綠色。）</p> <p>發生下列任一情況時，工作就會被燒毀：</p> 
     <ul> 
-     <li> [!UICONTROL 完成百分比]會增加到劇本上。<br>[!UICONTROL 完成百分比]在下列情況下會增加： 
+     <li> [！UICONTROL完成百分比]會增加到劇本上。<br>[！UICONTROL完成百分比]在下列情況下會增加： 
       <ul> 
        <li> <p>手動變更</p> </li> 
        <li> <p>內文上的點數或小時數已更新</p> </li> 
       </ul></li>  
-     <li>內文的狀態已變更為[!UICONTROL 完成]</li> 
+     <li>內文的狀態已變更為[！UICONTROL完成]</li> 
     </ul> </td> 
   </tr> 
  </tbody> 

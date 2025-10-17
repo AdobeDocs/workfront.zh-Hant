@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
 description: 如果專案的條件型別設定為進度狀態而非手動，Adobe Workfront會在專案進行時自動顯示專案上三個內建預設條件之一（達成目標、有風險或陷入困境），如專案條件和條件型別概觀中所述。
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: dba052ed-83a2-44d2-b025-d970783c4151
-source-git-commit: 366043a786c94f1bc40ad3b20af175bb84c94742
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 2%
