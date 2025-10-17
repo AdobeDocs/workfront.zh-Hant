@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
+source-git-commit: 559044c44ca8d32d010188445403b4fc1e524002
 workflow-type: tm+mt
-source-wordcount: '6583'
+source-wordcount: '6642'
 ht-degree: 5%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 5%
 1. 在左側面板中，按一下&#x200B;**自訂Forms**，然後選取&#x200B;**Forms**。
 
 1. 按一下&#x200B;**新增自訂表格。**
-1. 選取您要附加自訂表單的物件型別，然後按一下[繼續]。**&#x200B;**
+1. 選取您要附加自訂表單的物件型別，然後按一下[繼續]。****
 
    ![選擇物件型別](assets/choose-object-type.jpg)
 
@@ -108,7 +108,7 @@ ht-degree: 5%
    >
    >複雜表單的範例包括含有階層式引數的表單、計算的自訂資料欄位，以及單一欄位中的多個值選項。
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -129,7 +129,7 @@ ht-degree: 5%
 >[!NOTE]
 >
 >雖然可以這樣做，但建議您不要在您或其他使用者開始使用Workfront中的自訂表單後變更此名稱。 如果這樣做，系統將不再識別現在可能在Workfront其他區域參考該欄位的自訂欄位。
->&#x200B;>例如，如果您新增自訂欄位至報表，之後又變更其名稱，Workfront將無法辨識報表中的自訂欄位，且除非您使用新名稱將其重新新增至報表，否則將無法正常運作。
+>>例如，如果您新增自訂欄位至報表，之後又變更其名稱，Workfront將無法辨識報表中的自訂欄位，且除非您使用新名稱將其重新新增至報表，否則將無法正常運作。
 >
 >建議您不要輸入已用於內建Workfront欄位的名稱。
 >
@@ -161,7 +161,7 @@ ht-degree: 5%
 
   清單和報告上的篩選器不支援此自訂欄位型別。
 
-  如需有關透過API存取此欄位的資訊，請參閱[&#x200B; API中的RTF文字欄位儲存體](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md)。
+  如需有關透過API存取此欄位的資訊，請參閱[ API中的RTF文字欄位儲存體](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md)。
 
   >[!NOTE]
   >
@@ -279,7 +279,7 @@ ht-degree: 5%
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -431,7 +431,7 @@ ht-degree: 5%
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -560,7 +560,7 @@ ht-degree: 5%
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -628,12 +628,12 @@ ht-degree: 5%
       <td role="rowheader">JSON 路徑</td>
       <td><p>輸入或貼上API的JSON路徑。</p> <p>此選項允許從API URL傳回的JSON擷取資料。 這可當作選取要讓JSON內的哪些值會出現在下拉式選項中的方式。</p><p>例如，如果您的API URL以下列格式傳回JSON，則您可以使用「$.data[*].name」選取美國和加拿大作為下拉式選項：</br>
       <pre>
-      &lbrace;
-       資料： &lbrace;
+      {
+       資料： {
          { name： "USA"}，
          { name： "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>如需有關JSON路徑並確保您撰寫正確JSON路徑的詳細資訊，請參閱<a href="https://jsonpath.com/">https://jsonpath.com/</a>。</p></td>
@@ -654,7 +654,7 @@ ht-degree: 5%
     </tbody>
    </table>
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -751,7 +751,7 @@ The Workfront Mobile app -->
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -767,7 +767,7 @@ The Workfront Mobile app -->
 1. 開啟校訂。
 1. 以滑鼠右鍵按一下視訊上的任何位置，然後選取&#x200B;**複製視訊位址**。
 1. 在您新增視訊Widget的自訂表單中，將複製的地址貼到&#x200B;**URL**&#x200B;方塊中。
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -876,7 +876,7 @@ The Workfront Mobile app -->
     </tbody> 
    </table>
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -933,7 +933,7 @@ The Workfront Mobile app -->
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -1029,7 +1029,7 @@ The Workfront Mobile app -->
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -1041,6 +1041,10 @@ The Workfront Mobile app -->
    * 從Workfront物件連線或中斷連線記錄。
 
    如需詳細資訊，請參閱[管理來自Workfront物件的記錄連線](/help/quicksilver/planning/records/manage-records-in-planning-section.md)
+
+### 新增UI擴充功能
+
+使用UI擴充功能欄位型別，可將應用程式內嵌於Workfront自訂表單中。 若要建立UI擴充功能，您必須能在Adobe Developer Console中存取Adobe App Builder 。 如需詳細資訊，請參閱文章[使用Workfront App Builder為Workfront建立自訂應用程式](/help/quicksilver/app-builder/app-builder.md#embed-an-app-using-a-workfront-custom-form)中的[使用Adobe自訂表單內嵌應用程式](/help/quicksilver/app-builder/app-builder.md)。
 
 ## 使用表單設計工具來組織和預覽表單
 
