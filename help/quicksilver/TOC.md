@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 2c9bf2eabfeaf3b67daca8b7f1bab8f867baec62
+source-git-commit: e05b15bbb9e9148cc6f2940ae33f7ea9f98b7444
 workflow-type: tm+mt
-source-wordcount: '13463'
+source-wordcount: '13471'
 ht-degree: 2%
 
 ---
@@ -873,6 +873,7 @@ ht-degree: 2%
          * [新增、編輯或移除新首頁中的Widget](workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)
          * [在首頁區域的工作清單中顯示專案](workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
          * [首頁Widget篩選器概觀](workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md)
+         * [使用我的核准Widget管理您的核准](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-approvals-widget.md)
          * [使用「我的工作」Widget管理您的工作](workfront-basics/using-home/using-the-home-area/my-work-widget.md)
          * [管理首頁區域的工作和團隊請求](workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)
          * [更新或編輯首頁區域的工作專案](workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)
@@ -2506,8 +2507,8 @@ ht-degree: 2%
       * [使用JWT流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-jwt-flow.md)
       * [使用PKCE流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-pkce-flow.md)
       * [棄用API — 內部](wf-api/api/deprecation-api-internal.md)
-      * [&#x200B; API 20版的新增功能](wf-api/api/new-api-version-20.md)
-      * [&#x200B; API 19版的新增功能](wf-api/api/new-api-version-19.md)
+      * [ API 20](wf-api/api/new-api-version-20.md)版的新增功能
+      * [ API 19](wf-api/api/new-api-version-19.md)版的新增功能
       * [API 18版的新增功能](wf-api/api/new-api-version-18.md)
       * [API 17版的新增功能](wf-api/api/new-api-version-17.md)
       * [API 16版的新增功能](wf-api/api/new-api-version-16.md)
