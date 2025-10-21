@@ -7,7 +7,7 @@ description: 您可以建立您有權存取的任何報表的復本。 您可以
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 84737f48-efc5-45f1-acd1-b9f5d353f80f
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 0841594c855c39fedf4eab5492994ff4f7acfbdf
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 0%
@@ -71,7 +71,7 @@ ht-degree: 0%
 
    ![複製報告](assets/unshimmed-report-actions-copy.png)
 
-   原始報告的復本是以原始報告&#x200B;_[（復本）]的預設名稱_&#x200B;建立的。 例如，報告「第4季度完成任務」的副本將命名為「第4季度完成任務（副本）」。
+   原始報告的復本是以原始報告的預設名稱&#x200B;_[名稱]_ _（復本）_&#x200B;建立的。 例如，報告「第4季度完成任務」的副本將命名為「第4季度完成任務（副本）」。
 
 1. （選擇性）若要重新命名報表，請按一下&#x200B;**報表動作**&#x200B;然後&#x200B;**編輯**。 在左上角的文字方塊中輸入新名稱，然後在完成時按一下&#x200B;**儲存+關閉**。
 
