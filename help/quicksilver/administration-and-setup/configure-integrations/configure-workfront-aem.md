@@ -71,7 +71,7 @@ ht-degree: 0%
 
 在安裝[!DNL Workfront]AEM Assets[!UICONTROL 的]聯結器之前，請確定符合下列必要條件：
 
-* [!UICONTROL AEM Assets]已安裝並設定，版本6.5或更新版本。 如需有關安裝[!UICONTROL AEM Assets]的資訊，請參閱[[!DNL Adobe Experience Manager] 檔案](https://experienceleague.adobe.com/en/docs/experience-manager)。
+* [!UICONTROL AEM Assets]已安裝並設定，版本6.5或更新版本。 如需有關安裝[!UICONTROL AEM Assets]的資訊，請參閱[[!DNL Adobe Experience Manager] 檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager)。
 * （視條件而定）如果防火牆規則未如預期允許流量，請將叢集的IP位址和/或網域新增至允許清單。 如需詳細資訊，請參閱[設定防火牆的允許清單](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)。
 
 ## 安裝[!DNL Workfront for AEM Assets]聯結器封裝 {#install-the-workfront-for-aem-assets-connector-package}
