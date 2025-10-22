@@ -6,7 +6,7 @@ description: ' [!DNL Workfront] 和Adobe Experience Cloud的一些功能不同�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: a25eb28800ca8bbeeffedb521b3d72c8df71c697
+source-git-commit: b9547764abd4f1f61d93da6bc66d9e6776954f4d
 workflow-type: tm+mt
 source-wordcount: '1397'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 | 導覽除了包含[!DNL Adobe]導覽列之外，還包含[!DNL Adobe]產品、[!DNL Workfront]通知、說明和您的使用者設定檔的頂層導覽區域 | 導覽僅包含[!DNL Workfront]導覽列 |
 | 可透過[!UICONTROL 主功能表]和頂端導覽區域存取說明 | 可透過[!UICONTROL 主功能表]與[!DNL Workfront]導覽列存取說明 |
 | 校訂檢視器會在新標籤中開啟 | 校訂檢視器會在Workfront中開啟 |
-| 用來存取Workfront的URL為`experience.adobe.com` | 用來存取Workfront的URL為`(CompanyName).my.workfront.com` |
+| 用來存取Workfront的URL為`experience.adobe.com` | 用來存取Workfront的URL為`(CompanyName).my.workfront.adobe.com` |
 | 日期格式（例如YYYY/MM/DD）是以Unified Experience語言設定為基礎。 如果使用者尚未更新其語言設定，則會使用`en-US`設定。 | 日期格式（例如YYYY/MM/DD）是根據瀏覽器偏好設定 |
 
 {style="table-layout:auto"}
@@ -61,9 +61,9 @@ ht-degree: 0%
 
 將會聯絡現有客戶以排程移轉。 移轉團隊支援同事將引導客戶完成程式、建議[!DNL Admin Console]設定，並提供必要的檔案連結，讓移轉過程儘可能簡單且輕鬆自在。
 
-* [[!DNL Adobe Workfront] 支援概述](https://experienceleague.adobe.com/zh-hant/docs/customer-one/using/workfront/overview)
-* [[!DNL Workfront Admin Console] 資訊](https://experienceleague.adobe.com/zh-hant/docs/customer-one/using/workfront/landing)
-* [[!DNL Adobe Business Platform] 和 [!DNL Admin Console] 常見問題集](https://experienceleague.adobe.com/zh-hant/docs/customer-one/using/workfront/faq)
+* [[!DNL Adobe Workfront] 支援概述](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/overview)
+* [[!DNL Workfront Admin Console] 資訊](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/landing)
+* [[!DNL Adobe Business Platform] 和 [!DNL Admin Console] 常見問題集](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/faq)
 
 ### 對於已為Federated ID啟用此功能與已設定[!DNL Adobe Admin Console] SSO不同功能的公司，您如何處理[!DNL Workfront]？
 
