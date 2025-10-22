@@ -6,10 +6,10 @@ description: 當使用者指派存取層級時，您的Adobe Workfront管理員�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 225e815a-0354-493d-bbcf-59304ef77570
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: c8a25bcc8c9b56a649ca7764918c86f9cdd5b3e2
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 1%
+source-wordcount: '826'
+ht-degree: 0%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 1%
 除了下列考量事項外，另請參閱[共用報告、儀表板和行事曆](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)。
 
 * 您可以與其他個人、團隊、群組、職位角色或公司共用您建立的報表。 您也可以共用他人建立並與您共用的報表。
-* 您也可以將它們與整個組織共用或公開。 將報表設為公開會產生可與其他人共用的URL。
+* 您可以將報表與整個組織共用或公開。 將報表設為公開會產生可與其他人共用的URL。
 * 您可以共用個別報表，也可以從報表清單共用多個報表。
 
 ## 共用報表的方式
@@ -80,15 +80,15 @@ ht-degree: 1%
 
 從清單共用一個報表或多個報表的方式相同。
 
-1. 移至報告清單，並選取一或多個報告，然後按一下[共用]。**&#x200B;**
+1. 前往報告清單並選取一或多個報告，然後按一下&#x200B;**共用**&#x200B;圖示![共用圖示](assets/share-icon.png)。
 
    或
 
-   按一下其中一個報表的名稱，然後按一下&#x200B;**「報表動作>**&#x200B;**共用**」。
+   按一下其中一個報表的名稱，然後按一下&#x200B;**報表動作** > **共用**。 **共用[報告名稱]**&#x200B;方塊開啟。
 
-   ![](assets/unshimmed-report-actions-sharing.png)
+   ![共用選項](assets/unshimmed-report-actions-sharing.png)
 
-1. 在顯示的方塊中，在&#x200B;**新增人員、團隊、角色、群組或公司……**&#x200B;欄位中，開始輸入您要與其共用報表的使用者、團隊、工作角色、群組或公司的名稱，然後在名稱顯示時按&#x200B;**Enter**。
+1. 在&#x200B;**授與報表存取權**&#x200B;欄位中，開始輸入您要共用報表的使用者、團隊、工作角色、群組或公司名稱，然後在顯示時選取它。
 
 1. 若要調整所新增名稱的存取層級，請按一下名稱右側的下拉式功能表，然後選擇下列其中一個選項。
 
@@ -97,12 +97,12 @@ ht-degree: 1%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">檢視它</td> 
-      <td> <p>允許您的收件者存取，以便在<strong>報告</strong>區域檢視並執行報告。</p> <p>您可以按一下<strong>進階設定</strong>，指定您是否要讓使用者能夠與系統中的任何人共用<strong>共用</strong>。</p> </td> 
+      <td role="rowheader">檢視</td> 
+      <td> <p>允許您的收件者存取，以便在<strong>報告</strong>區域檢視並執行報告。</p> <p>您可以按一下右側的<strong>進階設定</strong>圖示，以指定您是否希望使用者能夠與系統中的任何人<strong>共用</strong>。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">管理它</td> 
-      <td> <p>允許收件者完整編輯報告存取權。</p> <p>您可以按一下<strong>進階設定</strong>，指定您是否要讓使用者從系統<strong>刪除</strong>報告，並與系統中的任何人共用<strong>共用</strong>。</p> </td> 
+      <td role="rowheader">管理</td> 
+      <td> <p>允許收件者完整編輯報告存取權。</p> <p>您可以按一下右側的<strong>進階設定</strong>圖示，以指定您是否要讓使用者從系統<strong>刪除</strong>報告，並與系統中的任何人共用<strong>該報告</strong>。</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -110,13 +110,13 @@ ht-degree: 1%
 1. （可選）重複上述兩個步驟，將其他名稱新增至清單並設定其選項。
 1. （選擇性）按一下共用方塊中的&#x200B;**只有受邀者才能存取**&#x200B;下拉式功能表，然後選擇下列選項：
 
-   * **只有受邀者才能存取**&#x200B;選取此選項，以便只有已獲得報告存取許可權的使用者才能檢視它。
+   * **只有受邀者才能存取**：選取此選項，只有已獲得報告存取許可權的使用者才能檢視它。
 
-   * **系統中的每個人都可以檢視**&#x200B;選取此選項，讓Workfront中有權存取報告的所有人都可以檢視報告。
+   * **系統中的每個人都可以檢視**：選取此選項，讓Workfront中有權存取報告的所有人都可以檢視報告。
 
 1. （選擇性）按一下共用方塊右上角的&#x200B;**齒輪**&#x200B;圖示![齒輪圖示設定](assets/gear-icon-settings-with-dn-arrow.jpg)，然後選擇性選取下列選項：
 
-   * **將此設為公開給外部使用者**&#x200B;選取此選項以產生可與其他人共用的URL。 擁有URL的任何人都可以存取報表，無需擁有Adobe Workfront授權。
+   * **將此設為公開給外部使用者**：選取此選項可產生可與其他人共用的URL。 擁有URL的任何人都可以存取報表，無需擁有Adobe Workfront授權。
 
      >[!CAUTION]
      >
