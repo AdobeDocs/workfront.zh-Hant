@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 0%
@@ -157,12 +157,15 @@ ht-degree: 0%
 {{step1-to-planning}}
 
 您上次存取的工作區會開啟。
+
 1. 按一下記錄型別卡。
 
    記錄型別頁面隨即開啟。
+
 1. （視條件而定）從表格右上角的&#x200B;**檢視**&#x200B;下拉式功能表中，選取表格檢視。 這應為預設檢視，除非您上次存取時間軸檢視時已檢視該記錄型別。
 
    與所選記錄型別相關聯的記錄會顯示在表格檢視中。
+
 1. 以滑鼠右鍵按一下記錄列
 
    或

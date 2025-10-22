@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: afb58d04-fa75-4eb7-9c19-2a8c1748fbc2
-source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1009'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -94,7 +94,7 @@ Workfront Planning支援下列搜尋修飾元：
         <td>$isEmpty </td>
         <td><ul><li><code>"fieldId": "$isEmpty" </code></li><li><code>"fieldId": { "$isEmpty": null } </code></li><ul> </td>
         <td>傳回欄位值非空白的記錄  </td>
-        <td><ul><li>"" </li><li>null </li><ul>  </td>
+        <td><ul><li>"" </li><li>Null </li><ul>  </td>
     </tr>
     <tr>
         <td>$isNotEmpty </td>
@@ -318,7 +318,7 @@ Workfront Planning支援下列搜尋修飾元：
 
 `/v1/records/search`
 
-要求內文：
+請求內文：
 
 ```
 {
@@ -349,11 +349,11 @@ Workfront Planning支援下列搜尋修飾元：
 
 例如，如果要傳回結果2001-4000，您可以使用以下請求。 此範例會從2001年的結果開始，傳回處於作用中狀態的2000筆記錄：
 
-`POST /v1/records/search `
+`POST /v1/records/search`
 
 
 
-要求內文：
+請求內文：
 
 ```
 { 

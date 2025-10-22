@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: e86524d3-5f57-45b6-8582-102d2de92be4
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '2462'
 ht-degree: 0%
@@ -26,11 +26,8 @@ ht-degree: 0%
 ## Adobe Workfront增強功能
 
 * [專案與資源管理增強功能](#project-and-resource-management-enhancements)
-
 * [敏捷增強功能](#agile-enhancements)
-
 * [行動裝置增強功能](#mobile-enhancements)
-
 * [其他增強功能](#other-enhancements)
 
 ### 專案與資源管理增強功能
@@ -51,7 +48,7 @@ ht-degree: 0%
                 </tr>
                  <tr>
                     <td>
-                        在工作負載平衡器</a>中大量指派專案時，<a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">次要工作角色已新增到其他指派清單</p>
+                        在工作負載平衡器<a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">中大量指派專案時，</a>次要工作角色已新增到其他指派清單</p>
                         <p>在「角色指派」欄位中選擇工作角色後，在工作負載平衡器中批次指派使用者時，填入「要指派的使用者」欄位的「其他指派」清單中的使用者清單，現在將顯示與每個使用者相關聯的所有工作角色名稱。 在此增強功能之前，只會顯示使用者的主要角色。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -518,13 +515,13 @@ Workfront Goals第23.1發行版本包含的新功能。 如需這些現在可在
 
 針對API版本15，我們已修改一些資源和端點。 有些變更支援新功能，有些則讓您更輕鬆地透過API使用可用資訊。
 
-如需新增和更新的詳細資訊，請參閱[&#x200B; API 15](/help/quicksilver/wf-api/api/new-api-version-15.md)版的新增功能。
+如需新增和更新的詳細資訊，請參閱[ API 15](/help/quicksilver/wf-api/api/new-api-version-15.md)版的新增功能。
 
 如需API版本的資訊，請參閱[API版本設定與支援排程](/help/quicksilver/wf-api/api/api-version-support-schedule.md)。
 
 ### Workfront 維護更新
 
-如需22.3版期間維護更新的相關資訊，請參閱[Workfront維護更新](https://experienceleague.adobe.com/zh-hant/docs/workfront-known-issues/releases/current-updates)。
+如需22.3版期間維護更新的相關資訊，請參閱[Workfront維護更新](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)。
 
 ### 訓練更新
 
@@ -556,6 +553,7 @@ Workfront Goals第23.1發行版本包含的新功能。 如需這些現在可在
 我們正在以更新的Workfront外掛程式取代Illustrator和InDesign的[Creative Cloud擴充功能](/help/quicksilver/documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md)。 自2022年底開始，將無法再在Adobe Exchange中安裝此擴充功能。
 
 此擴充功能中的功能以及數項增強功能，可在更新的Adobe Workfront for Creative Cloud外掛程式中取得：
+
 * [適用於Photoshop的Adobe Workfront](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
 * [適用於XD的Adobe Workfront](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
 * [適用於設計與影片的Adobe Workfront](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)

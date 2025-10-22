@@ -5,7 +5,7 @@ description: 作為資源計畫的一部分，當您建立業務案例時，可�
 author: Becky
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: fa0b4322b9f7c1d506cf194645c7ae50ad8c0f0b
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '959'
 ht-degree: 1%
@@ -109,11 +109,12 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >您可以為資源編列為期15年的預算。 如果您為持續期間超過15年的專案編列資源預算，預算資訊可能不準確。
-><!--
+
+<!--
 ><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">>
 >(is this still accurate for the Scenario Planner?)>
 ></MadCap:conditionalText>>
->-->
+-->
 
 1. 移至您要編列資源預算的專案。
 

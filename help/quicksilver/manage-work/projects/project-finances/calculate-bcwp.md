@@ -7,7 +7,7 @@ description: 「已執行工作之預算成本(BCWP)」也稱為「盈餘值」�
 author: Lisa
 feature: Work Management
 exl-id: 203709a7-e522-4875-b3eb-40b967a938ec
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 2%
@@ -85,7 +85,7 @@ Adobe Workfront會計算專案與任務的已執行工作預算成本(BCWP)。
 
 1. 按一下「**儲存變更**」。
 
-專案上任務的BCWP使用時數或成本計算。
+   專案上任務的BCWP使用時數或成本計算。
 
 ## 計算BCWP
 

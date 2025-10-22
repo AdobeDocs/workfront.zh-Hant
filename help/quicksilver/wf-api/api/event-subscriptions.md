@@ -1,13 +1,15 @@
 ---
+title: 活動訂閱
 content-type: api
 navigation-topic: Event Subscriptions resources
 description: 事件訂閱資源
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 1b09f1d69561bd192c4e26bf48da558ed2e8b626
+exl-id: b604d8fe-3a5b-4217-9a08-df269826f112
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '51'
 ht-degree: 0%
 
 ---
@@ -25,4 +27,3 @@ ht-degree: 0%
 * [篩選事件訂閱訊息](../../wf-api/api/filter-event-sub-messages.md)
 * [事件訂閱的傳出訊息格式](../../wf-api/api/message-format-event-subs.md)
 * [常見問題集 — 事件訂閱](../../wf-api/general/event-subs-faq.md)
-

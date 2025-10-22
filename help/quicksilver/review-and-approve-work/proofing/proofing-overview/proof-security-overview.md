@@ -7,7 +7,7 @@ description: 您可以在校樣中新增額外的安全措施。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2f6737d5-627d-463f-8127-504755bd0380
-source-git-commit: 157ab840d63388b342db624824db9538d43b70b1
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 0%
@@ -32,10 +32,10 @@ ht-degree: 0%
 
 >[!TIP]
 >
->若要簡化登入程式，我們建議在Workfront和Workfront Proof中設定SSO。 如需啟用SSO的詳細資訊，請參閱>
+>若要簡化登入程式，我們建議在Workfront和Workfront Proof中設定SSO。 如需有關啟用SSO的詳細資訊，請參閱
+>
 >* [Workfront中的單一登入：文章索引](../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md)
 >* [為Workfront Proof使用者設定單一登入](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
->
 
 ## 電子簽章
 
@@ -47,6 +47,6 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->若要使用SSO憑證以電子方式簽署校樣，您必須在Workfront Proof中設定SSO。 如需啟用SSO的詳細資訊，請參閱>
->* [為Workfront Proof使用者設定單一登入](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
+>若要使用SSO憑證以電子方式簽署校樣，您必須在Workfront Proof中設定SSO。 如需有關啟用SSO的詳細資訊，請參閱
 >
+>* [為Workfront Proof使用者設定單一登入](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)

@@ -5,7 +5,7 @@ description: 瞭解Adobe Workfront中的AI助理
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 657c2aa75d088f87f8e05b5089fccae2577842ee
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '831'
 ht-degree: 1%
@@ -149,7 +149,7 @@ AI助理目前提供下列功能：
 | 關鍵字 | 效果 |
 |---|---|
 | `workfront` | 與Workfront互動。 |
-| `planning ` | 與Workfront Planning互動。 |
+| `planning` | 與Workfront Planning互動。 |
 | `help` | 傳回Experience League檔案中的資訊。 |
 | `formula` | 檢查並傳回用於Planning、設定或自訂表單的公式。 |
 | `health` | 使用專案健康情況建議程式檢查專案健康情況。 |

@@ -7,7 +7,7 @@ description: Adobe Workfront管理員授與您對Adobe Workfront目標的正確�
 author: Alina
 feature: Workfront Goals
 exl-id: 922a05f9-2995-4401-a6d2-e5a331270fd3
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 1%
@@ -241,9 +241,10 @@ Editing activities differs depending on which environment you use.
    ![編輯活動方塊](assets/edit-activity-box-unshimmed.png)
 
 1. 編輯下列資訊：
+
    * **活動名稱**：活動的名稱。 使用說明性名稱，說明您應該執行哪些活動，以指出目標已完成。
-   * **活動擁有者：**&#x200B;活動擁有者。 擁有者必須是使用中的Workfront使用者。\
-     如需活動欄位的詳細資訊，請參閱[將活動新增至目標](../results-and-activities/add-activities-to-goals.md)。
+   * **活動擁有者：**&#x200B;活動擁有者。 擁有者必須是使用中的Workfront使用者。
+
+   如需活動欄位的詳細資訊，請參閱[將活動新增至目標](../results-and-activities/add-activities-to-goals.md)。
+
 1. 按一下「**儲存**」。
-
-

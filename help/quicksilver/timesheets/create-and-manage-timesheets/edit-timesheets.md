@@ -6,7 +6,7 @@ description: 作為具有時程表管理存取許可權的使用者，您可以�
 author: Lisa
 feature: Timesheets
 exl-id: e6cffe81-ab45-4c34-aafe-2f947f9a67fd
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 1%
@@ -112,8 +112,8 @@ ht-degree: 1%
      <tr> 
       <td role="rowheader"><strong>結束日期</strong> </td> 
       <td> 這是時程表的結束日期。</td> 
-     </tr>
-<tr> 
+     </tr> 
+     <tr> 
       <td role="rowheader"><strong>狀態</strong> </td> 
       <td> 這是時程表的狀態。
       以下為可能的時程表狀態選項： 
@@ -121,7 +121,7 @@ ht-degree: 1%
       <li><b>已提交</b>：已提交時程表以供指定核准者核准。</li>
       <li><b>已拒絕</b>：核准者未核準時程表，現在使用者可再次編輯時間專案。</li>
       <li><b>已關閉</b>：時程表已由使用者關閉或由核准者核准，因此現在已關閉。 您無法將時間新增至已關閉的時程表。</li>
-   </td> 
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>核准者</strong> </td> 

@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
-source-wordcount: '1649'
+source-wordcount: '1653'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 1%
 >[!BEGINSHADEBOX]
 
 **範例**
-如果您的排程從上午9:00開始，到中午12:00結束，而任務的排程從下午2:00開始，到下午4:00結束，則任務的「工期」為零。
+如果您的排程從上午9:00開始，到中午12:00結束，而工作排程從下午2:00開始，到下午4:00結束，則工作的期間為零。
 
 
 >[!ENDSHADEBOX]
@@ -77,7 +77,7 @@ ht-degree: 1%
 | 時數 | H |
 | 天。 這是預設值。 | D |
 | 週 | 週 |
-| 個月 | T， MO |
+| 月 | T， MO |
 | 經過的分鐘數 | EM |
 | 經過的時數 | EH |
 | 經過的天數 | ED |

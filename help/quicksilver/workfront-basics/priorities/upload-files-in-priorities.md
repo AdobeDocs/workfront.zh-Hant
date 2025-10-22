@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
-source-git-commit: 985f1aa11ad1d5efc8d043907d60ad5f5c1bba13
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '324'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 1. （選擇性）在&#x200B;**上傳檔案**&#x200B;方塊中，選取資料夾。
 1. 拖放檔案，或按Cmd/Ctrl + V從剪貼簿貼上
 或
-按一下&#x200B;**新增檔案**&#x200B;以瀏覽檔案或從Document Cloud提供者匯入檔案。
+按一下**新增檔案**以瀏覽檔案或從Document Cloud提供者匯入檔案。
    ![新增檔案](assets/add-files.png)
 1. （選用）新增註解。
 1. （選用）新增更多檔案。
@@ -75,14 +75,19 @@ ht-degree: 0%
 1. 按一下工作專案名稱以開啟&#x200B;**概觀**&#x200B;頁面。
 1. 在&#x200B;**快速動作**&#x200B;區段中，按一下&#x200B;**上傳**，然後選取&#x200B;**檔案**。
 1. （選擇性）在&#x200B;**上傳檔案**&#x200B;方塊中，選取資料夾。
-1. 拖放檔案，或按Cmd/Ctrl + V從剪貼簿貼上
-或
-按一下&#x200B;**新增檔案**&#x200B;以瀏覽檔案或從Document Cloud提供者匯入檔案。
+1. 拖放檔案，或按 Cmd/Ctrl+V 從剪貼簿中貼上
+
+   或
+
+   按一下&#x200B;**新增檔案**&#x200B;以瀏覽檔案或從Document Cloud提供者匯入檔案。
+
    ![新增檔案](assets/add-files.png)
+
 1. （選用）新增註解。
 1. （選用）新增更多檔案。
 
    >[!NOTE]
    >
    >其他檔案會以個別檔案的形式上傳。
+
 1. 按一下&#x200B;**上傳**。

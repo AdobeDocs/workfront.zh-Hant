@@ -6,7 +6,7 @@ description: 您可以將內建的狀態圖示欄位新增為檢視中的欄，�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7831d5c1-e982-4780-a5a8-54dc6decb3a1
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1205'
 ht-degree: 3%
@@ -112,7 +112,7 @@ ht-degree: 3%
    檔案檢視包含&#x200B;**檢檢視示**&#x200B;欄位。
 
 1. 按一下「**儲存視圖**」。
-1. （選擇性）指定檢視的新名稱，然後按一下[儲存檢視]。**&#x200B;**\
+1. （選擇性）指定檢視的新名稱，然後按一下[儲存檢視]。****\
    這會將&#x200B;**狀態圖示**&#x200B;欄新增至您的檢視。
 1. （選用）將滑鼠移至圖示上方，瞭解其代表的意義。
 1. （選擇性）按一下圖示，移至該圖示所代表的物件區域。\

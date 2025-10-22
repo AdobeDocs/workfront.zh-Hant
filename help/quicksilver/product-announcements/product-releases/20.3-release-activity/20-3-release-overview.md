@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9d25fda7-8116-42ba-961b-12aed4678614
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '3829'
 ht-degree: 0%
@@ -118,7 +118,7 @@ For specific release dates and times for each cluster, see the
 >
 >您的組織必須具備下列專案，才能使用本文所述的功能：
 >
->* Pro或更高[Adobe Workfront方案](https://business.adobe.com/tw/products/workfront/pricing.html)。
+>* Pro或更高[Adobe Workfront方案](https://business.adobe.com/products/workfront/pricing.html)。
 >* 除了Adobe Workfront授權之外，還有Workfront目標授權。
 >
 >  請連絡您的Workfront客戶經理，以瞭解Workfront Goals授權。
@@ -146,36 +146,37 @@ For specific release dates and times for each cluster, see the
 
 >[!NOTE]
 >
->## 存取需求>
+>**存取需求**
+>
 >您必須具備下列條件：
 >
 ><table style="table-layout:auto"> 
->&gt; <col> 
->&gt; <col> 
->&gt; <tbody> 
->&gt;  <tr> 
->&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/tw/products/workfront/pricing.html" target="_blank">Workfront計畫</a>*</p> </td> 
->&gt;   <td>商務或以上版本</td> 
->&gt;  </tr> 
->&gt;  <tr> 
->&gt;   <td role="rowheader"> <p>授權型別*</p> </td> 
->&gt;   <td> <p>檢閱或更高版本。 如需詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront授權總覽</a>。</p> </td> 
->&gt;  </tr> 
->&gt;  <tr> 
->&gt;   <td role="rowheader">產品</td> 
->&gt;   <td>Workfront 情境規劃工具 <p>如需Workfront Scenario Planner的相關資訊，請參閱<a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Scenario Planner概觀</a>。</p> </td> 
->&gt;  </tr> 
->&gt;  <tr data-mc-conditions=""> 
->&gt;   <td role="rowheader"><strong>存取層級*</strong> </td> 
->&gt;   <td> <p>檢視「情境規劃工具」的存取權或以上許可權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何變更存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
->&gt;  </tr> 
->&gt;  <tr data-mc-conditions=""> 
->&gt;   <td role="rowheader"> <p><strong>物件許可權</strong> </p> </td> 
->&gt;   <td> <p>檢視計畫的許可權或更高版本</p> <p>如需請求對計畫的額外存取權的相關資訊，請參閱<a href="../../../scenario-planner/request-access-to-plan.md" class="MCXref xref">在Scenario Planner</a>中請求對計畫的存取權。</p> </td> 
->&gt;  </tr> 
->&gt; </tbody> 
->&gt;</table>
->&gt;*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+&gt; <col> 
+&gt; <col> 
+&gt; <tbody> 
+&gt;  <tr> 
+&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Workfront計畫</a>*</p> </td> 
+&gt;   <td>商務或以上版本</td> 
+&gt;  </tr> 
+&gt;  <tr> 
+&gt;   <td role="rowheader"> <p>授權型別*</p> </td> 
+&gt;   <td> <p>檢閱或更高版本。 如需詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront授權總覽</a>。</p> </td> 
+&gt;  </tr> 
+&gt;  <tr> 
+&gt;   <td role="rowheader">產品</td> 
+&gt;   <td>Workfront 情境規劃工具 <p>如需Workfront Scenario Planner的相關資訊，請參閱<a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Scenario Planner概觀</a>。</p> </td> 
+&gt;  </tr> 
+&gt;  <tr data-mc-conditions=""> 
+&gt;   <td role="rowheader"><strong>存取層級*</strong> </td> 
+&gt;   <td> <p>檢視「情境規劃工具」的存取權或以上許可權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何變更存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+&gt;  </tr> 
+&gt;  <tr data-mc-conditions=""> 
+&gt;   <td role="rowheader"> <p><strong>物件許可權</strong> </p> </td> 
+&gt;   <td> <p>檢視計畫的許可權或更高版本</p> <p>如需請求對計畫的額外存取權的相關資訊，請參閱<a href="../../../scenario-planner/request-access-to-plan.md" class="MCXref xref">在Scenario Planner</a>中請求對計畫的存取權。</p> </td> 
+&gt;  </tr> 
+&gt; </tbody> 
+&gt;</table>
+&gt;*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
 
  
 
@@ -251,7 +252,7 @@ For specific release dates and times for each cluster, see the
    <td><strong>在以下日期可用：</strong> <p>Beta預覽版本： 7月2日至9月22日（分階段推出）</p> <p>生產版本：2020年7月2日至21日（分階段推出）</p> <p><strong>在以下環境中可用：</strong> </p> <p>全新Adobe Workfront體驗 </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>工作負載平衡器</a>中可用的<a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-resource-management-enhancements.md#variable" class="MCXref xref">變數篩選器 </p> <p>為了改善您的體驗以及讓您在共用資訊時擁有更多彈性，我們現在為工作負載平衡器實作變數篩選器。</p> </td> 
+   <td> <p>工作負載平衡器<a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-resource-management-enhancements.md#variable" class="MCXref xref">中可用的</a>變數篩選器 </p> <p>為了改善您的體驗以及讓您在共用資訊時擁有更多彈性，我們現在為工作負載平衡器實作變數篩選器。</p> </td> 
    <td><strong>在以下日期可用：</strong> <p>Beta預覽版本： 2020年6月5日</p> <p>生產版本：第20.3發行版本</p> <p><strong>在以下環境中可用：</strong> </p> <p>全新Adobe Workfront體驗 </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -403,7 +404,7 @@ For specific release dates and times for each cluster, see the
 
 ## API增強功能
 
-API第11版於2020.1版時發行。 如需有關新增功能和更新的資訊，請參閱[&#x200B; API 11](../../../wf-api/api/new-api-version-11.md)版的新功能
+API第11版於2020.1版時發行。 如需有關新增功能和更新的資訊，請參閱[ API 11](../../../wf-api/api/new-api-version-11.md)版的新功能
 
 <!--
 <a href="https://experience.workfront.com/s/article/What-s-new-in-API-version-11-1760875145" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">What's new in API version 11</a>
@@ -450,7 +451,7 @@ API第11版於2020.1版時發行。 如需有關新增功能和更新的資訊�
 
 有了Workfront One，您將能從Workfront探索最重要的內容、資源和新聞 — 全部整合在單一位置，只需登入一次。 我們已整合體驗、社群和訓練網站，讓您更容易找到想要的東西。
 
-[進一步瞭解Workfront One](https://business.adobe.com/tw/products/workfront.html)。
+[進一步瞭解Workfront One](https://business.adobe.com/products/workfront.html)。
 
 ### 20.3版本網路研討會 {#20-3-release-webinar}
 

@@ -8,7 +8,7 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1461'
 ht-degree: 0%
@@ -173,8 +173,9 @@ ht-degree: 0%
    >[!TIP]
    >
    >請求型別必須在佇列詳細資訊中啟用，並在建立佇列主題時啟用，以便在「新問題」表單中顯示為選項。 如需詳細資訊，請參閱下列文章：
+   >
    >* [建立請求佇列](../../requests/create-and-manage-request-queues/create-request-queue.md)
-   >  * [建立佇列主題](../../requests/create-and-manage-request-queues/create-queue-topics.md)
+   >* [建立佇列主題](../../requests/create-and-manage-request-queues/create-queue-topics.md)
 
 1. 繼續指定&#x200B;**新問題**&#x200B;表單中可用的欄位。 如需輸入新問題時可用欄位的詳細資訊，請參閱[編輯問題](../../../manage-work/issues/manage-issues/edit-issues.md)。
 

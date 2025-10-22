@@ -6,9 +6,9 @@ description: 此整合情境會共用具有 [!DNL Adobe Workfront] 預算清單�
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: f9198017-9bbb-4776-86aa-3f78705dbb22
-source-git-commit: d3f234313677d916318c181c91cb951948454006
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '974'
 ht-degree: 1%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 1%
 
 如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)存取需求。
 
-如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)。
+如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)。
 
 ## 觸發中的事件
 
@@ -65,7 +65,7 @@ ht-degree: 1%
 
 若要使用此情境，您在[!DNL Workfront]中必須擁有下列專案：
 
-* [!DNL Workfront]中名為&#x200B;*[!UICONTROL *[!DNL Anaplan]整合]**的使用者設定檔，具有系統管理員許可權。
+* [!DNL Workfront]中名為&#x200B;*Anaplan整合*&#x200B;且擁有系統管理員許可權的使用者設定檔。
 
   如需在[!DNL Workfront]中建立使用者的詳細資訊，請參閱[新增使用者](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)。
 
@@ -182,27 +182,27 @@ ht-degree: 1%
     </thead> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL [!DNL Anaplan] Workspace ID]</td> 
+      <td role="rowheader">[！UICONTROL [!DNL Anaplan] Workspace ID]</td> 
       <td>您要用於此情境的[!DNL Anaplan]帳戶中的工作區ID。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL [!DNL Anaplan]模型識別碼] </td> 
+      <td role="rowheader">[！UICONTROL [!DNL Anaplan]模型識別碼] </td> 
       <td>您[!DNL Anaplan]帳戶中的模型識別碼，以及您想要用於此情境的選取工作區。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 促銷活動清單名稱]</td> 
+      <td role="rowheader">[！UICONTROL促銷活動清單名稱]</td> 
       <td>來自您[!DNL Anaplan]帳戶的清單名稱，以及您想要用於此情境的選定工作區和模型。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 檔案名稱：實際費用匯入]</td> 
+      <td role="rowheader">[！UICONTROL檔案名稱：實際費用匯入]</td> 
       <td> <p>將接收專案實際費用資料的檔案名稱。</p> <p> （範例：WorkfrontUpdateLinkedProjects_ActExpenses.csv） </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 檔案名稱：計畫費用匯入]</td> 
+      <td role="rowheader">[！UICONTROL檔案名稱：計畫費用匯入]</td> 
       <td> <p>將接收專案計畫費用資料的檔案名稱。</p> <p> （範例：WorkfrontUpdateLinkedProjects_PlannedExpenses.csv） </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 流程名稱：專案更新匯入]</td> 
+      <td role="rowheader">[！UICONTROL流程名稱：專案更新匯入]</td> 
       <td> <p>將執行專案費用資料匯入的流程名稱。</p> <p>（範例： WF Int — 載入專案費用）</p> </td> 
      </tr> 
     </tbody> 

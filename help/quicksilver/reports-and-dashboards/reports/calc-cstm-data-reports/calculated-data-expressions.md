@@ -7,7 +7,7 @@ description: 您可以使用資料運算式，在Adobe Workfront中定義計算�
 author: Jenny, Lisa
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '2551'
 ht-degree: 2%
@@ -59,7 +59,7 @@ ht-degree: 2%
 * 在自訂欄位中，在任務的自訂表單上，您可以使用以下專案產生附加自訂表單之任務的父專案名稱：
 
 
-  ` {project}.{name}`
+  `{project}.{name}`
 
 
 * 在報表的自訂欄中，您會使用下列專案，在任務報表中新增「專案名稱」自訂欄：

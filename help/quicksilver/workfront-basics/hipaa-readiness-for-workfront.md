@@ -6,7 +6,7 @@ description: Workfront如HIPAA所定義，若客戶為Business Associate及/或C
 feature: Get Started with Workfront
 author: Courtney
 exl-id: e3cdaa03-d523-46a4-954b-8456d5f190e4
-source-git-commit: 15a703e2292883427e371603f77a99765ed9d00a
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Workfront如HIPAA所定義，若客戶為Business Associate及/或Covered Entity
 | **安全性設定** | **這是什麼？** | **需求** |
 |----------------------|------------------|------------------|
 | 協定的最小密碼強度 | 合約密碼的最低強度為何？ | 不少於8個字元 |
-| 使用者密碼的最小密碼強度 | 使用者密碼的最低強度為何？ | 來自下列三個類別的字元：<br>*大寫字母（拉丁字母）<br>*小寫字母（拉丁字母）<br>*以10位數字為底<br>*非字母數字字元 |
+| 使用者密碼的最小密碼強度 | 使用者密碼的最低強度為何？ | 來自下列三個類別的字元：<br>大寫字母（拉丁字母）<br>小寫字母（拉丁字母）<br>以10位數字為底<br>非字母數字字元 |
 | 密碼持續時間 | 密碼應該保留多久不變？ | 密碼應至少每90天變更一次 |
 | 密碼歷程記錄 | 應該記住和禁止使用多少個過去的密碼？ | 不少於5個 |
 

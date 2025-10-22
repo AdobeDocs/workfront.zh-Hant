@@ -6,7 +6,7 @@ description: 文字
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4b3834bf-2e6d-4588-8d77-671e14390115
-source-git-commit: 3a1bc4a56cba2fe224a1f0a21c8882c2d9d030de
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%
@@ -15,14 +15,16 @@ ht-degree: 0%
 
 # 解除安裝具有Adobe Experience Manager舊版聯結器的Workfront
 
-您必須解除安裝具有Adobe Experience Manager舊版聯結器的Workfront，才能使用連線Workfront和Adobe Experience Manager Assetsas a Cloud Service的最新原生整合。
+您必須解除安裝具有Adobe Experience Manager舊版聯結器的Workfront，才能使用連線Workfront和Adobe Experience Manager Assets as a Cloud Service的最新原生整合。
 
 ## 取消訂閱Workfront
 
-1. 開啟AdobeExperience Manger。
-1. 在Experience Manager中，移至&#x200B;**工具** > **Cloud Service** > **Workfront整合組態**。
+1. 開啟Adobe Experience Manger。
+1. 在Experience Manager中，移至&#x200B;**工具** > **雲端服務** > **Workfront整合設定**。
 1. 選取您的設定（預設為global-workfront），然後按一下&#x200B;**屬性**。
+
    ![取消訂閱workfront](assets/unsubscribe-from-workfront.png)
+
 1. 停用檔案、註解和中繼資料同步。 標籤應為停用日。
 這將移除Workfront中的訂閱，並允許使用者使用Day CQ Link Externalizer中定義的相同URL來建立新訂閱。
 
@@ -31,6 +33,7 @@ ht-degree: 0%
 移除訂閱後，現在可以安全刪除Workfront整合設定。
 
 1. 開啟設定，然後選取&#x200B;**刪除**。
+
    ![刪除組態](assets/delete-wf-configuration.png)
 
 ## 移除對應
@@ -41,7 +44,7 @@ ht-degree: 0%
 
 1. 選取所有對應，然後按一下&#x200B;**刪除**。
 
-## 使用者許可權
+## 使用者權限
 
 所有從Workfront存取AEM Dam的使用者皆獲得`/content/dam`的讀取許可權。 如果使用者不再需要該許可權，您可以移除授予該使用者的許可權。
 
@@ -53,7 +56,7 @@ ht-degree: 0%
 
 ## Day CQ連結外部化器
 
-如果您不需要Day CQ Link Externalizer，您可以前往`/system/console/configMgr`尋找「Day CQ Link Externalizer」，將此專案還原為`localhost:4502`。
+如果您不需要Day CQ Link Externalizer，您可以前往`localhost:4502`尋找「Day CQ Link Externalizer」，將此專案還原為`/system/console/configMgr`。
 
 >[!NOTE]
 >

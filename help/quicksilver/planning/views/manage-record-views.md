@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1144'
 ht-degree: 1%
@@ -199,11 +199,11 @@ ht-degree: 1%
 | 在時間軸中顯示記錄 |            | ✓ |             |
 | 篩選記錄 | ✓ | ✓ | ✓ |
 | 顯示行事曆上的記錄 |           |              | ✓ |
-| 群組記錄 | ✓ | ✓ |
-| 排序記錄 | ✓ |              |
+| 群組記錄 | ✓ | ✓ |  |
+| 排序記錄 | ✓ |              |  |
 | 色彩代碼記錄 | ✓ | ✓ | ✓ |
-| Color-code分組 |           | ✓ |
-| 搜尋特定記錄 | ✓ | ✓ |
+| Color-code分組 |           | ✓ |  |
+| 搜尋特定記錄 | ✓ | ✓ |  |
 | 與其他人共用檢視 | ✓ | ✓ | ✓ |
 | 從檢視開啟記錄頁面 | ✓ | ✓ |    |
 | 依年份和季度顯示記錄 |           | ✓ |    |
@@ -236,7 +236,7 @@ ht-degree: 1%
    * 時間軸
    * 行事曆
 
-1. 選擇檢視型別，然後按一下[建立]。**&#x200B;** 新檢視會新增至下拉式功能表。
+1. 選擇檢視型別，然後按一下[建立]。**** 新檢視會新增至下拉式功能表。
 
    >[!TIP]
    >

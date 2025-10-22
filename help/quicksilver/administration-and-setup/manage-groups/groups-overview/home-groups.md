@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 89adb9ea-bfde-4c0d-9fec-b1f97e925340
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 0%
@@ -30,10 +30,10 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果您需要重新組織主群組為組織單位，您需要>
+>如果您需要重新組織主群組為組織單位，您需要
+>
 >1. 建立新群組，如[建立群組](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)中所述。
 >1. 如[編輯使用者設定檔](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)中所述，將新群組重新指派為使用者的主群組。
->
 
 ## 配置範本管理
 

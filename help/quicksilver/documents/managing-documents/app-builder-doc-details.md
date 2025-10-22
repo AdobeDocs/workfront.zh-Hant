@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 74e0a85b-a8aa-4e39-9c2e-0f09957ebafa
-source-git-commit: dcdae47ffd4a02ac9a0bbd3cd9bd1418f6c59e1a
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1357'
 ht-degree: 0%
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 1. 新增使用者的電子郵件。 它應該搜尋已從Admin Console中新增的現有使用者。
 
-1. 將必要的產品新增至開發人員設定檔，然後按一下[儲存]。**&#x200B;**
+1. 將必要的產品新增至開發人員設定檔，然後按一下[儲存]。****
 
 ![新增開發人員](assets/add-developer.png)
 
@@ -92,41 +92,56 @@ ht-degree: 0%
 Adobe提供開放原始碼CLI，可用來協助建立App Builder應用程式。 您可以在這裡找到檔案： [https://github.com/adobe/aio-cli](https://github.com/adobe/aio-cli)以及Adobe App Builder指示[https://developer.adobe.com/app-builder/docs/getting_started/first_app/](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app)。
 
 1. 安裝
-   1. 若要安裝工具，（請先確定您位於節點v18）執行： `npm install -g @adobe/aio-cli `。
+
+   1. 若要安裝工具，（請先確定您位於節點v18）執行： `npm install -g @adobe/aio-cli`。
 
 1. 在終端機中驗證
+
    1. 啟動您的終端機，並使用下列命令登入AIO： `aio login`。
 
 1. 初始化您的應用程式
+
    1. 執行`aio app init example-app`以開始設定您的應用程式。
 
 1. 設定選擇
-   1. 繼續從提供的選項中選取您的組織和專案。\
+
+   1. 繼續從提供的選項中選取您的組織和專案。
+
       ![選取組織](assets/select-org.png)
+
       ![選取專案](assets/select-project.png)
 
 1. 範本選取和設定
+
    1. 瀏覽所有可用的範本，並為您的專案選擇&#x200B;**@adobe/aem-cf-editor-ui-ext-tpl**&#x200B;範本。
+
       ![搜尋範本](assets/search-template.png)
+
       ![選取範本](assets/select-template.png)
 
 1. 定義您的擴充功能
+
    1. 為擴充功能命名。
    1. 提供擴充功能的描述性摘要。
    1. 選取要開始使用的初始版本編號。
    1. 選取&#x200B;**我已完成**&#x200B;以確認完成。
-      ![定義延伸模組](assets/define-extension.png)
+
+   ![定義延伸模組](assets/define-extension.png)
 
 1. 導覽至您的專案資料夾
+
    1. 存取src資料夾
+
    1. 將資料夾`aem-cf-editor-1`重新命名為`workfront-doc-details-1`。
 
 1. 修改組態檔
+
    1. 開啟app.config.yaml
    1. 將行從`aem/cf-editor/1`更新為`workfront/doc-details/1`。
    1. 將包含路徑從`src/aem-cf-editor-1/ext.config.yaml`調整為`src/workfront-doc-details-1/ext.config.yaml`。
 
 1. 編輯擴充功能註冊元件
+
    1. 開啟`src/workfront-doc-details-1/web-src/src/components/ExtensionRegistration.js`。
    1. 在方法區段中，新增包含非同步函式`secondaryNav`的函式`getButtons`。
    1. `getButtons`應該會收到具有以下結構的物件：
@@ -317,20 +332,22 @@ Adobe提供開放原始碼CLI，可用來協助建立App Builder應用程式。 
 若要在Workfront中載入訪客應用程式，應用程式必須推送至生產工作區並提交核准。
 
 1. 將應用程式部署到生產工作區
-   1. `aio app use -w Production `
-   1. `aio app deploy `
+
+   1. `aio app use -w Production`
+   1. `aio app deploy`
 
 1. 導覽至[https://developer-stage.adobe.com/](https://developer-stage.adobe.com/)或[https://developer.adobe.com/](https://developer.adobe.com/)。
+
    1. 按一下右上角的&#x200B;**主控台**。
 
 1. 尋找您用來建立AppBuilder應用程式的專案。
-
 1. 選取生產Workspace。
+
    ![選取生產工作區](assets/find-application.png)
 
 1. 提交申請以進行私人檢閱（您會收到我們未發佈至應用程式交易市集的警告，這沒問題）。
-
 1. 填寫表單（標題、說明、圖示和稽核者備註）。
+
    ![填寫私人檢閱的表單](assets/submission-details.png)
 
 >[!IMPORTANT]

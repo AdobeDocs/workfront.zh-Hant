@@ -8,7 +8,7 @@ description: 您可以在Workfront Proof網站中搜尋內容。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1596b3d2-d513-4e36-98b7-92e349aca5bc
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 1%
@@ -46,11 +46,14 @@ ht-degree: 1%
 
 1. （選擇性）在顯示的搜尋結果中，按一下欄頂端的標題依欄排序。 （選擇性）按一下標頭列結尾的[!UICONTROL 搜尋]圖示，將篩選新增至結果。 ![Search_filter_in_Search_results.png](assets/search-filter-in-search-results-350x90.png)
 
-這會新增下拉式功能表，讓您在其中選取篩選器以縮小搜尋範圍。
-1. ![Search_filter_boxes_appear_in_Search_results.png](assets/search-filter-boxes-appear-in-search-results-350x154.png)
+   這會新增下拉式功能表，讓您在其中選取篩選器以縮小搜尋範圍。
 
-1. （選擇性）開啟[!UICONTROL 標籤]標籤，然後按一下左側導覽側邊欄中的標籤，以縮小搜尋範圍。 與該標籤相關聯的專案會出現在搜尋結果中。\
-   ![Searching_by_tag.png](assets/searching-by-tag-350x209.png)\
+   ![Search_filter_boxes_appear_in_Search_results.png](assets/search-filter-boxes-appear-in-search-results-350x154.png)
+
+1. （選擇性）開啟[!UICONTROL 標籤]標籤，然後按一下左側導覽側邊欄中的標籤，以縮小搜尋範圍。 與該標籤相關聯的專案會出現在搜尋結果中。
+
+   ![Searching_by_tag.png](assets/searching-by-tag-350x209.png)
+
    標籤名稱會顯示在Workfront Proof右上角的搜尋欄位中。 您可以選取其他標籤或在搜尋欄位中輸入其他關鍵字來縮小搜尋範圍。 您可以按一下標籤名稱旁的x圖示，從搜尋欄位中移除標籤。
 
 如需有關在校訂內容中搜尋文字的資訊，請參閱[在校訂中搜尋內容](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/search-in-a-proof.md)。

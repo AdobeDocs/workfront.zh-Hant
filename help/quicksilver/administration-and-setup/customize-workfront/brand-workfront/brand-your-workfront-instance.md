@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 94603393-bdea-4673-9256-08da14f6916e
-source-git-commit: 17aaf70977aa6ce0276676c6a30fd6c951be956c
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 2%
@@ -48,10 +48,8 @@ ht-degree: 2%
 >[!NOTE]
 >
 >* 如果您組織的Workfront執行個體使用自訂SSO入口網站，則無法變更登入背景影像和顏色。 如需詳細資訊，請洽詢您的網路或IT管理員。
-><!--
->or is enabled with Adobe IMS  >
->  >
->-->
+>
+><!-- or is enabled with Adobe IMS -->
 >
 >* Workfront管理員或群組管理員也可以使用版面配置範本，為特定群組和使用者包裝Workfront。 版面配置範本中的品牌化會覆寫本文中說明的系統層級品牌化。 如需版面配置範本中的品牌化指示，請參閱[使用版面配置範本的品牌Adobe Workfront](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)。
 
@@ -134,10 +132,8 @@ ht-degree: 2%
    >[!NOTE]
    >
    >如果您組織的Workfront執行個體使用自訂SSO入口網站，則無法使用此選項。
-   ><!--   >
-   >or is enabled with Adobe IMS   >
-   >   >
-   >-->
+   >
+   ><!--  or is enabled with Adobe IMS -->
    >
    >如需詳細資訊，請洽詢您的網路或IT管理員。
 

@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 55787c1e-45af-4b9f-bdbc-10cfacb326e6
-source-git-commit: 3ac15b6527a727cfe95075405fa19164c06b102f
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1126'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 > 2018.3版在以下日期可在生產環境中取得(如需詳細日期和時間，請參閱trust.workfront.com)：
 
 * *Workfront Proof生產環境 — 11月6日*
-* *適用於叢集2和4的Workfront生產環境*
+* 叢集2和4 *的* Workfront生產環境
 * 叢集1、3和5 *的* Workfront生產環境
 
 2018.3版包含適用於Workfront管理員和其他使用者的增強功能：
@@ -124,7 +124,7 @@ ht-degree: 0%
 
 ### API版本10現在可在預覽中使用 {#api-version-10-now-available-in-preview}
 
-API版本10現在可在預覽環境中使用。 它將在18.3版本的生產環境中提供。 如需詳細資訊，請參閱[&#x200B; API 10](../../../../wf-api/api/new-api-version-10.md)版的新功能。 
+API版本10現在可在預覽環境中使用。 它將在18.3版本的生產環境中提供。 如需詳細資訊，請參閱[ API 10](../../../../wf-api/api/new-api-version-10.md)版的新功能。 
 
 ### 不再支援API第3版 {#api-version-3-no-longer-supported}
 

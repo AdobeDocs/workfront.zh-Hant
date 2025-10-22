@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b225ae19-eee7-4329-a42d-2a2bf9adad01
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 0%
@@ -36,9 +36,9 @@ ht-degree: 0%
 更新後，Workfront會根據您在「資源管理」偏好設定區域中的選取，使用下列公式計算使用者的可用性：
 
 * 預設排程：
-* 使用者容量= [（排程時數 — 排程例外狀況） * FTE — 休假] *工作時間
+* 使用者容量= [（排程時數 — 排程例外狀況） `*` FTE — 休假] `*`工作時間
 * 使用者排程：
-* 使用者產能= （排程時數 — 排程例外 — 休假） *工作時間。
+* 使用者容量= （排程時數 — 排程例外 — 休假） `*`工作時間。
 
 如需詳細資訊，請參閱[設定[!UICONTROL 資源管理]偏好設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)。
 

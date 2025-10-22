@@ -6,7 +6,7 @@ description: 當您在校訂檢視器中對校訂發表評論時，您可以標�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4efbfdeb-3834-48dd-aa5b-515891bac519
-source-git-commit: fe269b088c82e7045ffbb5155d54432e0b413cbe
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 0%
@@ -64,10 +64,10 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->只有符合下列其中一項條件時，您才能使用外部共同作業人員的電子郵件地址來標籤該人員：>
+>只有符合下列其中一項條件時，您才能使用外部共同作業人員的電子郵件地址來標籤該人員：
+>
 >* 貴組織Workfront帳戶中的使用者先前已將共同作業人員的電子郵件地址新增至校訂。
 >* 共同作業人員先前曾使用電子郵件地址在您組織的Workfront帳戶中訂閱校訂。
->
 
 若要在評論中標籤某人並共用校訂：
 
