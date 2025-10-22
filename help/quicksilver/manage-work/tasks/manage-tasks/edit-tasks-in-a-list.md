@@ -6,7 +6,7 @@ description: 您可以編輯工作清單中顯示的欄位，以編輯工作清�
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: 00e693fc8b35a59f6ed212bc30da7f85cc78c845
+source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
 workflow-type: tm+mt
 source-wordcount: '2764'
 ht-degree: 2%
@@ -16,6 +16,16 @@ ht-degree: 2%
 # 編輯清單中的任務 {#edit-tasks-in-a-list}
 
 <!-- Audited: 5/2025 -->
+
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+-->
 
 您可以編輯工作清單中顯示的欄位，以編輯工作清單中的工作資訊。 如需有關編輯工作的其他方式的資訊，請參閱[編輯工作](../../../manage-work/tasks/manage-tasks/edit-tasks.md)。
 
@@ -332,7 +342,7 @@ ht-degree: 2%
    </table>
 
 1. 當您變更任務的時間表時，Workfront會更新所有專案內和跨專案相依性。
-1. 當您想要永久保留工作變更並儲存專案的時間表時，請按一下[儲存]。**&#x200B;**
+1. 當您想要永久保留工作變更並儲存專案的時間表時，請按一下[儲存]。****
 
 #### 當您選取「手動儲存時程表計畫」選項時，手動儲存工作清單中的變更 {#save-changes-in-a-task-list-manually-when-you-select-the-manual-save-timeline-planning-option}
 
@@ -440,7 +450,7 @@ ht-degree: 2%
    </table>
 
 1. 當您變更任務的時間表時，Workfront會更新所有專案內和跨專案相依性。
-1. 當您想要永久保留工作變更並儲存專案的時間表時，請按一下[儲存]。**&#x200B;**
+1. 當您想要永久保留工作變更並儲存專案的時間表時，請按一下[儲存]。****
 
 ## 使用「摘要」編輯清單中的任務
 
@@ -517,7 +527,17 @@ ht-degree: 2%
 
    您只能在表單上編輯附加到所有選定任務且您有權編輯的欄位。
 
+   <!--1. (Optional and conditional) Depending what environment you use to edit the tasks, do one of the following to recalculate custom expressions for all tasks:
+   1. In the Production environment, ADD THE SENTENCE FROM THE NEXT STEP HERE:-->
+
 1. （選擇性）在自訂Forms區段中，選取&#x200B;**重新計算自訂運算式**&#x200B;選項，以確保附加到所選任務的自訂表單上的所有計算自訂欄位都是最新狀態。
+
+   <!--
+   <div class="preview">
+
+   1. In the Preview environment, with all the tasks selected in the list, click the **More** menu ![More menu](assets/more-icon.png) at the top of the task list, then click **Recalculate Expressions**. This is only available when you automatically save your changes. 
+
+   -->
 1. 按一下&#x200B;**儲存變更**。 您所做的所有變更現在會顯示在所有選取的任務中。
 
 如需大量編輯自訂表單的相關資訊，請參閱[管理附加到物件的自訂表單](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)。

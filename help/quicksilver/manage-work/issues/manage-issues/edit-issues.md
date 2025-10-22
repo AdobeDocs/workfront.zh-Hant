@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 460090a1102465c34e92433e52c0beb240d8e9b9
+source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
 workflow-type: tm+mt
-source-wordcount: '2602'
+source-wordcount: '2578'
 ht-degree: 3%
 
 ---
@@ -18,6 +18,16 @@ ht-degree: 3%
 # 編輯問題
 
 <!--Audited: 03/2025-->
+
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+-->
 
 您可以編輯您已建立的問題資訊，或其他使用者已建立的問題（如果他們與您共用問題）的相關資訊。
 
@@ -238,8 +248,6 @@ ht-degree: 3%
    </ul> </td> 
      </tr>
 
-
-
    <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>鍵入與問題相關資訊相關的網頁連結。</p> </td> 
@@ -262,7 +270,6 @@ ht-degree: 3%
 
    <p>新增主要聯絡人使用者時，請注意頭像、使用者的主要角色及其電子郵件地址，以區分具有相同名稱的使用者。 使用者必須至少與一個工作角色相關聯，才能在您新增時檢視該角色。</p>
       <p> 您必須在存取層級中啟用檢視聯絡資訊設定，使用者才能檢視使用者的電子郵件。 如需詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md">授予使用者存取權</a>。</p>
-
 
    </td> 
      </tr> 
@@ -323,7 +330,7 @@ ht-degree: 3%
 
    ![問題指派區段](assets/assignments-section-edit-issue-box-nwe-350x230.png)
 
-1. 按一下&#x200B;**搜尋人員、角色和團隊**，然後開始輸入您要指派給工作的使用者、角色或團隊的名稱，然後按一下它，或當它顯示在清單上時按下Enter鍵。
+1. 按一下&#x200B;**搜尋人員、角色和團隊**，然後開始輸入您要指派給問題的使用者、角色或團隊的名稱，然後按一下該名稱，或當它顯示在清單上時按下Enter鍵。
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ensure this is still called this; asked Anna to change it to "roles" and add a comma)</p>
@@ -333,9 +340,9 @@ ht-degree: 3%
    >
    >如果使用者名稱包含特殊字元，您必須在搜尋欄位中包含特殊字元。
 
+   您可以指派多個使用者、工作角色或團隊。 您只能指派作用中的使用者、工作角色和團隊。
+
    >[!TIP]
-   >
-   >您可以指派多個使用者、工作角色或團隊。 您只能指派作用中的使用者、工作角色和團隊。
    >
    >
    >如果使用者、工作角色或團隊在停用之前已被指派，則他們仍被指派給工作專案。 在此情況下，我們建議採取下列步驟：
@@ -343,7 +350,10 @@ ht-degree: 3%
    >* 將工作專案重新指派給作用中的資源。
    >* 將已停用團隊中的使用者與作用中團隊建立關聯，並將工作專案重新指派給作用中團隊。
 
-1. （選擇性）藉由將游標移至受指派人名稱上並按一下&#x200B;**設為主要受指派人**，指出受指派人是否為問題的主要受指派人。 團隊不能是問題的主要受指派人。
+   <!--1. (Conditional) Depending on what environment you are editing issues in, do one of the following:
+
+   1. In the Production environment, INDENT THE FOLLOWING STEPS FURTHER AT RELEASE: (Optional) Indicate whether an assignee is the primary assignee on the issue, by hovering over the name of the assignee and clicking **Make Primary**. A team cannot be the primary assignee of an issue. -->
+
 1. 更新下列欄位：
 
    <table style="table-layout:auto"> 
@@ -354,7 +364,7 @@ ht-degree: 3%
     <tbody> 
      <tr> 
       <td role="rowheader">規劃時數</td> 
-      <td> <p>這是問題的受指派人完成問題所需的實際時間。 輸入問題的計畫時數數目。<br></p> <p>附註：變更問題的計畫時數不會變更問題的計畫完成日期。 </p> </td> 
+      <td> <p>這是問題的受指派人完成問題所需的實際時間。 輸入問題的計畫時數數目。<br></p> <p><b>附註</b></p>  <p>變更問題的計畫時數不會變更問題的計畫完成日期。 </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">受指派人角色</td> 
@@ -364,6 +374,15 @@ ht-degree: 3%
    </tr> 
     </tbody> 
    </table>
+
+   <!--
+   <div class="preview">
+   1. (Conditional) In the Preview environment, update the **Planned Hours** field
+      Or 
+      Click **Assign to me** to assign the issue to yourself. (********ADD DEFINITION OF PLANNED HOURS FROM THE TABLE AT PROD RELEASE*********)
+   </div> -->
+
+1. 若要從所有問題中移除指派，請參閱[指派問題](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md)。
 
 1. 按一下&#x200B;**儲存**&#x200B;或繼續編輯下列區段。
 

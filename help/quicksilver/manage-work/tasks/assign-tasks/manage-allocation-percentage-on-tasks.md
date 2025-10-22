@@ -6,7 +6,7 @@ description: 配置百分比代表指定資源計畫在一天內處理一項任�
 author: Lisa
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
-source-git-commit: d0be569333b0454e26f4d0de1078b0425cf81707
+source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 1%
@@ -14,6 +14,16 @@ ht-degree: 1%
 ---
 
 # 管理任務的使用者或角色配置百分比
+
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+-->
 
 配置百分比代表指定資源計畫在一天內處理一項任務的時間量。 這是在任務持續期間中配置資源的當日百分比（根據使用者或專案排程）。
 
@@ -54,6 +64,13 @@ ht-degree: 1%
 如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+<!--
+Change this sentence in the table:
+<p>Edit permissions to update allocation hours in the Edit Task box</p>
+To this:
+<p>Edit permissions to update allocation hours in the Edit Task box in the Production environment. <span class="preview">You can no longer manage allocation percentage in the Edit task box in the Preview environment.</span></p>
+-->
 
 ## 修改任務百分比分配的考量事項
 

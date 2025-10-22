@@ -7,9 +7,9 @@ description: 將表單附加到物件後，您可以編輯自訂表單上的資�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '1039'
 ht-degree: 0%
 
 ---
@@ -143,6 +143,11 @@ ht-degree: 0%
 
 ## 重新計算物件的所有已計算自訂欄位  {#recalculate-all-calculated-custom-fields-for-an-object}
 
+>[!IMPORTANT]
+>
+>您必須有包含附加到物件之計算欄位的自訂表單，然後才能遵循本節中的步驟。
+
+
 1. 移至要重新計算其自訂欄位的物件首頁面。
 1. 按一下物件名稱右邊的&#x200B;**更多**&#x200B;功能表![](assets/more-icon.png)，然後按一下&#x200B;**重新計算運算式**。
 
@@ -154,27 +159,32 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will need to be edited when the bulk edit for objects update in NW)</p>
 -->
 
-您可以從清單或報表大量編輯數個物件的自訂欄位，以手動方式重新計算它們。
+根據您要重新計算自訂運算式的物件，您可以在下列區域這樣做：
+
+* 在物件清單中，從清單頂端的「更多」選單。
+* 在「編輯」方塊中，大量選取和編輯多個物件時。
+
+若要從清單或報表大量編輯數個物件的自訂欄位，以手動方式重新計算這些物件：
 
 1. 移至物件清單，其中包含具有計算欄位的自訂表單。
 1. 選取要更新其計算自訂欄位的物件。
 1. 按一下&#x200B;**編輯圖示**。
-1. 按一下左側功能表中的[自訂Forms]&#x200B;**&#x200B;**，然後選取[重新計算自訂運算式]&#x200B;**&#x200B;**。
+1. 按一下左側功能表中的[自訂Forms]****，然後選取[重新計算自訂運算式]****。
 1. 按一下&#x200B;**儲存** **變更**。
 
    Workfront會為所有選取的物件計算所有自訂欄位。
 
->[!TIP]
->
->您也可以從物件清單重新計算自訂運算式。 例如，若要從專案清單大量重新計算自訂運算式：
->
->1. 前往專案清單或報告，然後選取一或多個專案。
->1. 按一下&#x200B;**更多**&#x200B;功能表![](assets/more-icon.png)，然後按一下&#x200B;**重新計算自訂運算式**。
->
->![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
->
->Workfront會為所有選取的專案計算所有自訂欄位。
->&#x200B;>並非所有物件的清單都有此功能。
+若要從物件清單重新計算自訂運算式：
+
+1. 前往專案清單或報告，然後選取一或多個專案。
+1. 按一下&#x200B;**更多**&#x200B;功能表![](assets/more-icon.png)，然後按一下&#x200B;**重新計算自訂運算式**。
+
+![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+
+Workfront會立即計算所有選定專案的所有自訂欄位。
+並非所有物件的清單都有此功能。
+
+>[!NOTE]
 >
 >根據您專案的複雜性，我們建議不要在大量重新計算已計算的自訂欄位時選取大量專案以確保最佳效能。 有些因素會導致專案過於複雜，包括多重相依性或指派，或大量自訂欄位。
 

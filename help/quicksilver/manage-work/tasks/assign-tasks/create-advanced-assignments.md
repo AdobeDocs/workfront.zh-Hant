@@ -7,7 +7,7 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
+source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
 workflow-type: tm+mt
 source-wordcount: '1118'
 ht-degree: 0%
@@ -17,6 +17,16 @@ ht-degree: 0%
 # 建立進階任務指派
 
 <!-- Audited: 07/2024-->
+
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+-->
 
 您可以使用「進階指派」來管理任務或問題指派。
 
@@ -40,6 +50,7 @@ ht-degree: 0%
 
 * 在清單與報表中，當「工作總攬」欄位顯示在檢視中時。
 * 編輯任務時顯示在「工作總攬」區段中。 如需詳細資訊，請參閱[編輯工作](../../../manage-work/tasks/manage-tasks/edit-tasks.md)。
+  <!--* In the Production environment, in the Assignments section when editing a task. <span class="preview">This has been removed from the Preview environment.</span> For more information, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).-->
 * 在任務或問題標題中，在指派區域中。
 * 在工作負載平衡器中。 如需詳細資訊，請參閱[使用工作負載平衡器](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md)手動指派工作。
 

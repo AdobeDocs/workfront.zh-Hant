@@ -6,7 +6,7 @@ description: 將使用者或角色指派給任務時，會為其分配特定時�
 author: Lisa
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: d0be569333b0454e26f4d0de1078b0425cf81707
+source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
@@ -14,6 +14,16 @@ ht-degree: 0%
 ---
 
 # 管理任務的使用者和角色分配時數
+
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+-->
 
 分配時數代表已指派資源計畫處理一項任務的總時間量。 小時代表使用者在任務持續期間的指定日、工作日、周或月所分配的時間。
 
@@ -54,6 +64,13 @@ ht-degree: 0%
 如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+<!--
+Change this sentence in the table:
+<p>Edit permissions to update allocation hours in the Edit Task box</p>
+To this:
+<p>Edit permissions to update allocation hours in the Edit Task box in the Production environment. <span class="preview">You can no longer manage allocation hours in the Edit task box in the Preview environment.</span></p>
+-->
 
 ## 修改任務分配時數的考量事項
 
