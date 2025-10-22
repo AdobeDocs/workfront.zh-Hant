@@ -182,10 +182,10 @@ FROM
 >[!NOTE]
 >
 >建議您在PowerBI或Tableau中使用此查詢作為自己的「檢視」。  如果您要從`<object>_event view`引進其他欄位，請將此查詢的輸出連線回`<object>_event view`。  加入欄位會如下所示： <br>
->>若為projects_event： 
->>`From projects_event p`
->>`Join <above query> c on c.projectid = p.projectid  `
->>`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
+>&#x200B;>若為projects_event： 
+>&#x200B;>`From projects_event p`
+>&#x200B;>`Join <above query> c on c.projectid = p.projectid  `
+>&#x200B;>`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
 
 
 
