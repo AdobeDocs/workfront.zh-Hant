@@ -74,7 +74,7 @@ These enhancements will be included in the following releases:
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">舊版授權模型客戶可用的校訂和檔案決策</a></p><p>[！BADGE In Production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">舊版授權模型客戶可用的校訂和檔案決策</a></p><p>[!BADGE In Production &#x200B;]{type=Informative}</p>
                         <p>尚未轉換至新Adobe Workfront授權模式的舊版客戶，現在可以在單一報表中檢視每個使用者每月校訂/檔案決策數量的資料。 當您執行使用者決定報表時，即可使用此資料。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -90,7 +90,7 @@ These enhancements will be included in the following releases:
                 </tr>            
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">自訂表單的計算欄位現在可以使用$$USER萬用字元</a></p><p>[！BADGE In Production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">自訂表單的計算欄位現在可以使用$$USER萬用字元</a></p><p>[!BADGE In Production &#x200B;]{type=Informative}</p>
                         <p>$$USER萬用字元現在可用於新表單設計工具的計算自訂欄位和外部查閱欄位中。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -110,7 +110,7 @@ These enhancements will be included in the following releases:
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">從外部API新增值選項至自訂表單</a></p>
-                        <p>[！BADGE In Production ]{type=Informative}</p>
+                        <p>[!BADGE In Production &#x200B;]{type=Informative}</p>
                         <p>自訂表單設計工具現在提供新的欄位型別<strong>外部查詢</strong>。 當資料儲存在外部系統時，此欄位型別可讓您從外部API載入選項，並根據自訂表單中的其他欄位值進行篩選。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -148,7 +148,7 @@ These enhancements will be included in the following releases:
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront展示板上現在提供子任務</a></p><p>[！BADGE In Production ]{type=Informative}</p><p>當您將已連線的卡片新增到Workfront任務的展示板時，任何現有的子任務都會匯入到卡片上。 此外，當您在已連線的卡片上建立子任務時，子任務會新增到Workfront任務中。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront展示板上現在提供子任務</a></p><p>[!BADGE In Production &#x200B;]{type=Informative}</p><p>當您將已連線的卡片新增到Workfront任務的展示板時，任何現有的子任務都會匯入到卡片上。 此外，當您在已連線的卡片上建立子任務時，子任務會新增到Workfront任務中。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
@@ -169,7 +169,7 @@ These enhancements will be included in the following releases:
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">增強在展示板和卡片上的使用者指派</a></p><p>[！BADGE In Production ]{type=Informative}</p><p>現在提供增強功能，可新增彈性將使用者新增到Adobe Workfront面板中的面板和卡片。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">增強在展示板和卡片上的使用者指派</a></p><p>[!BADGE In Production &#x200B;]{type=Informative}</p><p>現在提供增強功能，可新增彈性將使用者新增到Adobe Workfront面板中的面板和卡片。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
@@ -184,7 +184,7 @@ These enhancements will be included in the following releases:
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">在已連線的卡片上新增檔案</a></p><p>[！BADGE In Production ]{type=Informative}</p><p>您現在可以在Adobe Workfront展示板上所連線的卡片上附加檔案。 您新增到卡片上的任何檔案都可在已連線任務或問題的檔案索引標籤上使用，且兩個區域都支援相同的檔案型別。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">在已連線的卡片上新增檔案</a></p><p>[!BADGE In Production &#x200B;]{type=Informative}</p><p>您現在可以在Adobe Workfront展示板上所連線的卡片上附加檔案。 您新增到卡片上的任何檔案都可在已連線任務或問題的檔案索引標籤上使用，且兩個區域都支援相同的檔案型別。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
@@ -205,7 +205,7 @@ These enhancements will be included in the following releases:
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">連線卡片上的可用檔案僅供檢視</a></p><p>[！BADGE In Production ]{type=Informative}</p><p>針對Adobe Workfront展示板上已連線的卡片，您現在可以檢視檔案，例如影像和PDF。 您可以在瀏覽器中預覽檔案或下載到您的電腦。 </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">連線卡片上的可用檔案僅供檢視</a></p><p>[!BADGE In Production &#x200B;]{type=Informative}</p><p>針對Adobe Workfront展示板上已連線的卡片，您現在可以檢視檔案，例如影像和PDF。 您可以在瀏覽器中預覽檔案或下載到您的電腦。 </p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
@@ -226,7 +226,7 @@ These enhancements will be included in the following releases:
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">專案的面板檢視現在可用於問題</a></p><p>[！BADGE In Production ]{type=Informative}</p><p>您現在可以存取專案問題清單的展示板檢視。 Kanban展示板可協助您以比在清單中檢視更直觀的方式追蹤問題進度。 </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">專案的面板檢視現在可用於問題</a></p><p>[!BADGE In Production &#x200B;]{type=Informative}</p><p>您現在可以存取專案問題清單的展示板檢視。 Kanban展示板可協助您以比在清單中檢視更直觀的方式追蹤問題進度。 </p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
@@ -266,7 +266,7 @@ These enhancements will be included in the following releases:
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-financial-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">日期有效成本與收費率</a></p><p>[！BADGE In Production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-financial-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">日期有效成本與收費率</a></p><p>[!BADGE In Production &#x200B;]{type=Informative}</p>
                         <p>現在可針對Workfront中的公司、使用者和工作角色物件使用日期有效成本和計費率。 將日期有效費率套用至專案且將時數記錄至專案任務時，成本與收入會使用每個時段的指定費率計算。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -304,7 +304,7 @@ These enhancements will be included in the following releases:
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">專案、任務和問題Widget的委派工作按鈕</a> </p><p>[！BADGE In Production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">專案、任務和問題Widget的委派工作按鈕</a> </p><p>[!BADGE In Production &#x200B;]{type=Informative}</p>
                         <p>作為舊首頁的常見功能，我們現在已將委派按鈕新增到「我的工作」、「我的任務」和「我的問題」Widget，以便您在外出時可以輕鬆委派工作。 請注意，必須在您的Workfront環境中啟用工作委派，按鈕才會出現。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -323,7 +323,7 @@ These enhancements will be included in the following releases:
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">新首頁的新面板Widget</a> </p><p>[！BADGE In Production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">新首頁的新面板Widget</a> </p><p>[!BADGE In Production &#x200B;]{type=Informative}</p>
                         <p>除了新首頁提供的工作管理選項，您現在可以在首頁上顯示展示展示板！</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -342,7 +342,7 @@ These enhancements will be included in the following releases:
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">新貢獻者預設登陸頁面：新首頁</a>  </p><p>[！BADGE In Production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">新貢獻者預設登陸頁面：新首頁</a>  </p><p>[!BADGE In Production &#x200B;]{type=Informative}</p>
                         <p>新首頁現在是貢獻者/請求者帳戶的預設登陸頁面。 這個新的預設首頁包含許多特別選取的Widget，以便最佳地讓貢獻者立即管理其工作。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -362,7 +362,7 @@ These enhancements will be included in the following releases:
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">新首頁</a>中的工作追蹤變更 </p>
-                        <p>[！BADGE In Production ]{type=Informative}</p>
+                        <p>[!BADGE In Production &#x200B;]{type=Informative}</p>
                         <p>根據使用者回饋，我們已移除頁面範圍時間範圍篩選器和摘要列，用於統計到期和完成的工作。 專案、任務和問題Widget各有內建的篩選功能，可讓您依個人情況自訂其範圍。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -382,7 +382,7 @@ These enhancements will be included in the following releases:
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">我的工作Widget的新快速動作按鈕</a> </p>
-                        <p>[！BADGE In Production ]{type=Informative}</p>
+                        <p>[!BADGE In Production &#x200B;]{type=Informative}</p>
                         <p>「我的工作」小工具中已新增新的快速動作按鈕，進一步擴充了您直接從「新首頁」管理工作的能力。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -402,7 +402,7 @@ These enhancements will be included in the following releases:
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">新首頁的新篩選器選項</a> </p>
-                        <p>[！BADGE In Production ]{type=Informative}</p>
+                        <p>[!BADGE In Production &#x200B;]{type=Informative}</p>
                         <p>「新首頁」中的「我的工作」Widget現在提供新篩選器選項。 選項包括物件型別（任務、問題和請求）和狀態（未就緒、準備開始、處理和完成）的篩選器。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -421,7 +421,7 @@ These enhancements will be included in the following releases:
                 </tr>
                 <tr>
                     <td>
-                        新首頁的<a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">自訂術語支援</a> </p><p>[！BADGE In Production ]{type=Informative}</p>
+                        新首頁的<a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">自訂術語支援</a> </p><p>[!BADGE In Production &#x200B;]{type=Informative}</p>
                         <p>為了更妥善地滿足組織的獨特需求，「新首頁」現在會針對執行個體版面配置範本中定義的物件，使用自訂術語。 例如，如果您的Workfront執行個體中的「專案」物件已重新標籤為「促銷活動」，則我的專案Widget將會在「新首頁」中顯示為「我的促銷活動」。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -438,7 +438,7 @@ These enhancements will be included in the following releases:
                 <tr>
                     <td>
                         已針對已停用[新首頁]的帳戶<a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">移除[嘗試新首頁]按鈕</a> </p>
-                        <p>[！BADGE In Production ]{type=Informative}</p>
+                        <p>[!BADGE In Production &#x200B;]{type=Informative}</p>
                         <p>已停用「新首頁」的帳戶不再顯示「嘗試新首頁」按鈕。 系統管理員必須重新啟用新首頁，個別使用者才能使用按鈕嘗試新首頁。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -458,7 +458,7 @@ These enhancements will be included in the following releases:
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">變更為新首頁預設Widget集</a> </p>
-                        <p>[！BADGE In Production ]{type=Informative}</p>
+                        <p>[!BADGE In Production &#x200B;]{type=Informative}</p>
                         <p>待辦事項Widget需要建立任務的許可權，現在僅會出現在為具有標準、計畫或工作授權型別的使用者設定的預設Widget中。 此外，Widget已從所有其他授權型別使用者的首頁自動移除。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -496,7 +496,7 @@ These enhancements will be included in the following releases:
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">傳送檔案至SharePoint (GraphAPI)時體驗的增強功能</a></p><p>[！BADGE In Production ]{type=Informative}</p><p>我們已進行一些變更，以便在傳送檔案至您的SharePoint (GraphAPI)資料夾時更容易找到資料夾</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">傳送檔案至SharePoint (GraphAPI)時體驗的增強功能</a></p><p>[!BADGE In Production &#x200B;]{type=Informative}</p><p>我們已進行一些變更，以便在傳送檔案至您的SharePoint (GraphAPI)資料夾時更容易找到資料夾</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
@@ -511,7 +511,7 @@ These enhancements will be included in the following releases:
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">升級為拖放檔案整合</a></p><p>[！BADGE In Production ]{type=Informative}</p><p>我們做了一些增強功能，讓檔案拖放至連結資料夾時，能更清晰易懂且移除使用者錯誤。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">升級為拖放檔案整合</a></p><p>[!BADGE In Production &#x200B;]{type=Informative}</p><p>我們做了一些增強功能，讓檔案拖放至連結資料夾時，能更清晰易懂且移除使用者錯誤。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
@@ -545,7 +545,7 @@ These enhancements will be included in the following releases:
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">新檔案核准</a> </p><p>[！BADGE In Production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">新檔案核准</a> </p><p>[!BADGE In Production &#x200B;]{type=Informative}</p>
                         <p>在這個版本中，除了新功能外，核准流程已經針對建立核准和核准/稽核檔案進行了簡化。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -566,7 +566,7 @@ These enhancements will be included in the following releases:
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">工作清單即時更新</a> </p>
-                        <p>[！BADGE In Production]{type=Informative}</p>
+                        <p>[!BADGE In Production]{type=Informative}</p>
                         <p>工作清單現在會即時更新。 對任務所做的變更會在任務清單中更新，因此檢視任務清單的使用者可以在不重新整理頁面的情況下看到變更。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -583,7 +583,7 @@ These enhancements will be included in the following releases:
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">將新問題新增至專案時更新設計</a> </p>
-                        <p>[！BADGE In Production ]{type=Informative}</p>
+                        <p>[!BADGE In Production &#x200B;]{type=Informative}</p>
                         <p>此更新已在23.3版本中公告。</p>
                         <p>我們已更新「新問題」方塊，在向專案提交新問題時會顯示此方塊。 現在，介面符合新請求方塊，在將新請求提交到請求佇列時顯示。</p>
                     </td>
@@ -604,7 +604,7 @@ These enhancements will be included in the following releases:
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">表單</a>上計算欄位的動態重新計算</p>
-                        <p>[！BADGE In Production ]{type=Informative}</p>
+                        <p>[!BADGE In Production &#x200B;]{type=Informative}</p>
                         <p>現在當頁面上任何表單的相依值被修改時，附加到物件的表單上的計算欄位會動態地即時重新計算。 這可讓您在不儲存表單的情況下檢視更新後的結果。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -624,7 +624,7 @@ These enhancements will be included in the following releases:
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">在子週期性任務上設定沒有指派的簡單期間型別的計畫時數</a></p>
-                        <p>[！BADGE In Production ]{type=Informative}</p>
+                        <p>[!BADGE In Production &#x200B;]{type=Informative}</p>
                         <p>我們對計畫時數分配至無指派和簡單期間型別的週期性任務的方式進行了更改。 現在，當您在具有「簡單期間型別」且沒有指派的新遞回任務上設定計畫時數時，時數也會分配給個別遞回。 在此變更之前，當父任務被取消指派時，不會為個別循環儲存時數。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -662,7 +662,7 @@ These enhancements will be included in the following releases:
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">貢獻者主功能表變更</a> </p><p>[！BADGE In Production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">貢獻者主功能表變更</a> </p><p>[!BADGE In Production &#x200B;]{type=Informative}</p>
                         <p>為了更妥善地通知參與者/請求者有關付費Workfront授權型別的可用功能，他們現在可以看到主選單中的所有可用選項。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -682,7 +682,7 @@ These enhancements will be included in the following releases:
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md" class="MCXref xref" xrefformat="{para}">新的評論體驗測試版增強功能</a> </p>
-                        <p>[！BADGE In Production ]{type=Informative}</p>
+                        <p>[!BADGE In Production &#x200B;]{type=Informative}</p>
                         <p>「更新」區段的增強功能將在2023年第四季發行時間範圍內提供評論體驗Beta版。 這些增強功能將在2023年第四季度版本（2023年10月）的生產環境中提供給所有客戶。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -702,7 +702,7 @@ These enhancements will be included in the following releases:
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md" class="MCXref xref" xrefformat="{para}">新畫布控制面板Beta版增強功能</a> </p>
-                        <p>[！BADGE In Production ]{type=Informative}</p>
+                        <p>[!BADGE In Production &#x200B;]{type=Informative}</p>
                         <p>畫布控制面板的增強功能將在2023年第四季度發行時間範圍內提供，作為進行中Beta版的一部分。 這些增強功能將在2023年第四季度版本（2023年10月）的生產環境中提供給所有客戶。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -721,7 +721,7 @@ These enhancements will be included in the following releases:
                 </tr>
                 <tr>
                     <td>
-                        在2023年第四季時間範圍內<a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">外觀和感覺更新</a></p><p>[！BADGE In Production ]{type=Informative}</p><p>在2023年第四季時間範圍內，對Adobe Workfront應用程式的各個區域外觀和感覺進行了小幅更新。 檢閱特定發行日期的個別發行說明。</p>
+                        在2023年第四季時間範圍內<a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">外觀和感覺更新</a></p><p>[!BADGE In Production &#x200B;]{type=Informative}</p><p>在2023年第四季時間範圍內，對Adobe Workfront應用程式的各個區域外觀和感覺進行了小幅更新。 檢閱特定發行日期的個別發行說明。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
@@ -759,7 +759,7 @@ Workfront Fusion中的新功能可在2023年第四季發行排程之外的步調
 
 API第17版已於2023年10月12日發行。 針對API版本17，我們已修改一些資源和端點。 有些變更支援新功能，有些則讓您更輕鬆地透過API使用可用資訊。
 
-如需新增和更新的詳細資訊，請參閱[ API 17](/help/quicksilver/wf-api/api/new-api-version-17.md)版的新增功能。
+如需新增和更新的詳細資訊，請參閱[&#x200B; API 17](/help/quicksilver/wf-api/api/new-api-version-17.md)版的新增功能。
 
 如需API版本的資訊，請參閱[API版本設定與支援排程](/help/quicksilver/wf-api/api/api-version-support-schedule.md)。
 

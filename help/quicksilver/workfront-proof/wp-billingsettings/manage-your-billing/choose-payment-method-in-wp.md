@@ -65,7 +65,7 @@ ht-degree: 0%
 如果您有Satellite帳戶，則需要分別更新每個帳戶的信用卡詳細資料和付款方法。 如需有關Satellite帳戶的詳細資訊，請參閱[Satellite帳戶。](https://support.workfront.com/hc/en-us/sections/115000921108-Satellite-accounts)
 
 1. 前往您中心帳戶中的[!UICONTROL 帳單]頁面。\
-   如需帳單頁面的詳細資訊，請參閱[校訂帳單頁面 [!DNL Workfront] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)。
+   如需帳單頁面的詳細資訊，請參閱[校訂帳單頁面 [!DNL Workfront] &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)。
 
 1. 開啟[!UICONTROL 帳戶清單]下拉式功能表。 (1)
 1. 選擇與您要更新之信用卡相關聯的附屬帳戶(2)。

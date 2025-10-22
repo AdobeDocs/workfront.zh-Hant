@@ -58,8 +58,8 @@ ht-degree: 1%
     </ul> <p>如需詳細資訊，請參閱<a href="../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md" class="MCXref xref" xrefformat="{para}">聯絡客戶支援</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>[！UICONTROL與同儕節點連線]</strong> </td> 
-   <td>[！UICONTROL [!DNL Workfront]社群]提供精通現代工作的專業人員網路，這些專業人員會主動分享他們的見解和專業知識。 如需詳細資訊，請參閱<a href="../../workfront-basics/tips-tricks-and-troubleshooting/workfront-community.md" class="MCXref xref" xrefformat="{para}"> [!DNL Adobe Workfront]社群</a>。</td> 
+   <td><strong>[!UICONTROL 與同儕節點連線]</strong> </td> 
+   <td>[!UICONTROL [!DNL Workfront]社群]提供精通現代工作的專業人員網路，這些專業人員會主動分享他們的見解和專業知識。 如需詳細資訊，請參閱<a href="../../workfront-basics/tips-tricks-and-troubleshooting/workfront-community.md" class="MCXref xref" xrefformat="{para}"> [!DNL Adobe Workfront]社群</a>。</td> 
   </tr> 
   <tr> 
    <td><strong>檢視任何</strong>[!DNL Workfront]<strong>產品的新增功能</strong></td> 
@@ -108,7 +108,7 @@ ht-degree: 1%
    <td> <p>這些資源可讓您持續瞭解Workfront即將發佈哪些更新：</p> 
     <ul> 
      <li> <p><a href="https://experienceleague.adobe.com/zh-hant/docs/workfront/using/product-announcements/product-releases/product-releases">產品公告</a>：正在尋找Workfront產品藍圖的更新嗎？ 產品公告頁面提供了版本更新和藍圖簡報。</p> </li> 
-     <li> <p><strong>宣告中心</strong>：檢閱您的通知，並接收我們[!DNL Workfront]產品團隊關於所有客戶資訊的重要更新。 在頂端導覽中造訪<a href="https://experience.workfront.com/s/article/View-and-manage-in-app-notifications-323912892">中的</a>[！UICONTROL「通知」][!DNL Workfront]區段。</p> </li> 
+     <li> <p><strong>宣告中心</strong>：檢閱您的通知，並接收我們[!DNL Workfront]產品團隊關於所有客戶資訊的重要更新。 在頂端導覽中造訪<a href="https://experience.workfront.com/s/article/View-and-manage-in-app-notifications-323912892">中的</a>[!UICONTROL 「通知」]&#x200B;[!DNL Workfront]區段。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -151,7 +151,7 @@ ht-degree: 1%
 
 訂閱[status.adobe.com](https://status.adobe.com/)，以隨時掌握維護排程和中斷問題的相關資訊。
 
-若要深入瞭解[!DNL Workfront]狀態網站，請參閱[狀態網站 [!DNL Adobe Workfront] ](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md)。
+若要深入瞭解[!DNL Workfront]狀態網站，請參閱[狀態網站 [!DNL Adobe Workfront] &#x200B;](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md)。
 
 若要瞭解每週維護更新中修正的內容，請參閱[維護更新](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)。
 

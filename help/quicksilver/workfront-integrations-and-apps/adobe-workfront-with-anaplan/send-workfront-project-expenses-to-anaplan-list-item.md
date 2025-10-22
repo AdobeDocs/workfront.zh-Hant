@@ -182,27 +182,27 @@ ht-degree: 1%
     </thead> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL [!DNL Anaplan] Workspace ID]</td> 
+      <td role="rowheader">[!UICONTROL [!DNL Anaplan] Workspace ID]</td> 
       <td>您要用於此情境的[!DNL Anaplan]帳戶中的工作區ID。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL [!DNL Anaplan]模型識別碼] </td> 
+      <td role="rowheader">[!UICONTROL [!DNL Anaplan]模型識別碼] </td> 
       <td>您[!DNL Anaplan]帳戶中的模型識別碼，以及您想要用於此情境的選取工作區。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL促銷活動清單名稱]</td> 
+      <td role="rowheader">[!UICONTROL 促銷活動清單名稱]</td> 
       <td>來自您[!DNL Anaplan]帳戶的清單名稱，以及您想要用於此情境的選定工作區和模型。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL檔案名稱：實際費用匯入]</td> 
+      <td role="rowheader">[!UICONTROL 檔案名稱：實際費用匯入]</td> 
       <td> <p>將接收專案實際費用資料的檔案名稱。</p> <p> （範例：WorkfrontUpdateLinkedProjects_ActExpenses.csv） </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL檔案名稱：計畫費用匯入]</td> 
+      <td role="rowheader">[!UICONTROL 檔案名稱：計畫費用匯入]</td> 
       <td> <p>將接收專案計畫費用資料的檔案名稱。</p> <p> （範例：WorkfrontUpdateLinkedProjects_PlannedExpenses.csv） </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL流程名稱：專案更新匯入]</td> 
+      <td role="rowheader">[!UICONTROL 流程名稱：專案更新匯入]</td> 
       <td> <p>將執行專案費用資料匯入的流程名稱。</p> <p>（範例： WF Int — 載入專案費用）</p> </td> 
      </tr> 
     </tbody> 
