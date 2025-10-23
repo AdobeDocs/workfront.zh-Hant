@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 21293cdd7a1c8f76149ee2e224fa8701e25e970e
+source-git-commit: bf4764cc1e20bf87fb1069ca432ee6303096313c
 workflow-type: tm+mt
-source-wordcount: '8497'
+source-wordcount: '8788'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,44 @@ ht-degree: 0%
 如需Adobe Workfront的所有其他變更，請參閱[產品版本](/help/quicksilver/product-announcements/product-releases/product-releases.md)。
 
 ## 管理和設定
+
+### 新增和編輯公司對話方塊的介面更新
+
+**預覽版本： 2025年10月23日；生產版本：從2025年10月30日開始**
+
+我們已更新對話方塊，以便使用與Workfront其他區域一致的更現代化設計來新增及編輯公司。
+
+如需詳細資訊，請參閱[建立和編輯公司](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)。
+
+## 專案
+
+### 專案自訂控制面板中新風險方塊和編輯風險方塊的介面更新
+
+**預覽版本： 2025年10月16日；適用於所有客戶的生產版本：自2025年10月23日起一週**
+
+當您建立或更新現有風險時，我們已更新「新風險」和「編輯風險」方塊的外觀和風格。 新設計現在與Workfront的其他區域相符。  若要存取新設計，請建立風險報告並將其放在控制面板上，然後將控制面板新增到專案並從控制面板管理風險。
+
+如需詳細資訊，請參閱[建立與編輯專案風險](/help/quicksilver/manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)。
+
+## 使用者
+
+### 個人休假的介面更新
+
+**預覽版本： 2025年10月23日；適用於所有客戶的生產版本：自2025年10月30日起一週**
+
+<!--This feature was in Preview and Prod starting on Sept 25 and it was removed on Oct 9. -->
+
+我們已更新個人休假行事曆的外觀和風格，包括委派核准的能力，以符合應用程式的其他領域。
+
+若要檢視這些變更，請移至您的使用者設定檔，然後按一下左側面板中的&#x200B;**休假**。
+
+如需詳細資訊，請參閱[設定個人休假](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)和[委派核准要求](/help/quicksilver/review-and-approve-work/manage-approvals/delegate-approval-requests.md)。
+
+## 第4季的介面更新
+
+## 管理和設定
+
++++展開以檢視第4季所做的管理和設定介面更新
 
 ### 更新公司匯入使用者對話方塊的介面
 
@@ -64,7 +102,7 @@ ht-degree: 0%
 
 ### 安裝程式中嚴重程度區域的介面更新
 
-**預覽版本： 2025年9月25日；生產版本：即將宣佈**
+**預覽版本： 2025年9月25日；生產版本：自2025年10月23日起一週**
 
 我們以更現代的設計更新了「嚴重性」頁面，與Workfront的其他區域一致。
 
@@ -76,7 +114,7 @@ ht-degree: 0%
 
 ### 更新設定中優先順序區域的介面
 
-**預覽版本： 2025年9月25日；生產版本：即將宣佈**
+**預覽版本： 2025年9月25日；生產版本：自2025年10月23日起一週**
 
 我們已更新「優先順序」頁面，採用與Workfront其他區域一致的更現代化設計。
 
@@ -209,7 +247,11 @@ ht-degree: 0%
 
 若要檢視這項變更，請前往「設定>系統>更新SSO的使用者」
 
++++
+
 ## 專案組合
+
++++展開以檢視第4季進行的Portfolio介面更新
 
 ### 編輯投資組合的介面更新
 
@@ -224,7 +266,11 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[編輯投資組合](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md)。
 
++++
+
 ## 計劃
+
++++展開以檢視第四季的方案介面更新
 
 ### 「編輯程式」方塊的介面更新
 
@@ -234,7 +280,11 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[編輯程式](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/edit-programs.md)。
 
++++
+
 ## 專案
+
++++展開以檢視第4季所做的專案介面更新
 
 ### 記帳費率的介面更新
 
@@ -436,7 +486,11 @@ For information, see [Edit project templates](/help/quicksilver/manage-work/proj
 
 如需詳細資訊，請參閱[管理專案費用](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md)。
 
++++
+
 ## 範本
+
++++展開以檢視第4季進行的範本介面更新
 
 ### 範本上「人物」清單的介面更新
 
@@ -482,8 +536,12 @@ For information, see [Edit project templates](/help/quicksilver/manage-work/proj
 * [建立主題群組](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)。
 * [建立路由規則](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)。
 
++++
+
 
 ## 使用者
+
++++展開以檢視第4季進行的使用者介面更新
 
 ### 「使用者詳細資訊」頁面的介面更新
 
@@ -528,6 +586,8 @@ For information, see [Edit project templates](/help/quicksilver/manage-work/proj
 若要檢視這項變更，請前往「使用者>新使用者>匯入使用者」。
 
 如需詳細資訊，請參閱[匯入使用者](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/import-users.md)。
+
++++
 
 ## 第3季的介面更新
 
@@ -1183,7 +1243,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 此更新包含區域的視覺化變更。 功能未變更。
 
-若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。**&#x200B;**
+若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。****
 
 +++
 

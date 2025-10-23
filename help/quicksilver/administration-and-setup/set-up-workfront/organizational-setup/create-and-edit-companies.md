@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: e25ea757129e9645f7b5f0729cd498d5947f49f2
+source-git-commit: 5e81e18ef667af3e4d08f4fc8987f7a3b6617971
 workflow-type: tm+mt
 source-wordcount: '1440'
 ht-degree: 0%
@@ -39,23 +39,23 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 授權</p> </td> 
-   <td><p>[!UICONTROL 計畫]</p>
-   <p>[!UICONTROL 標準]</p>
+   <td><p>[！UICONTROL計畫]</p>
+   <p>[！UICONTROL標準]</p>
    </td> 
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
    <td> <p>您必須具備下列其中一項：</p> 
     <ul> 
-     <li> <p>[!UICONTROL 系統管理員]存取層級，可讓您編輯系統中的任何公司。</p> </li> 
+     <li> <p>[！UICONTROL系統管理員]存取層級，可讓您編輯系統中的任何公司。</p> </li> 
      <li> <p>管理公司的管理存取權，可讓您編輯系統中的任何公司。</p> </li> 
     </ul> <p><b>附註</b>：  
      <ul> 
       <li> <p>您也可以管理與您被指派為群組管理員的任何群組相關聯的公司。</p> </li> 
       <li> <p>若要從[!DNL Workfront]系統中新增和移除使用者，您必須具備下列其中一項：</p> 
        <ul> 
-        <li> <p>[!UICONTROL 系統管理員]存取層級。 </p> </li> 
-        <li> <p>您的存取層級中的<b>[!UICONTROL Users]</b>設定已設定為<b>[!UICONTROL Edit]</b>存取，且<b>[!UICONTROL Create]</b>以及在<b>[!UICONTROL Fine-tune your settings]</b> <b>下啟用的兩個</b>[!UICONTROL User Admin]<img src="assets/gear-icon-in-access-levels.png">選項中的至少一個選項。 </p> <p> <img src="assets/access-req-users.png"> </p> <p>在這兩個選項中，如果已啟用<b>[!UICONTROL User Admin (Group Users)]</b>，您必須是使用者所屬群組的群組管理員。</p> </li> 
+        <li> <p>[！UICONTROL系統管理員]存取層級。 </p> </li> 
+        <li> <p>您的存取層級中的<b>[！UICONTROL Users]</b>設定已設定為<b>[！UICONTROL Edit]</b>存取，且<b>[！UICONTROL Create]</b>以及在<b>[！UICONTROL Fine-tune your settings]</b> <b>下啟用的兩個</b>[！UICONTROL User Admin]<img src="assets/gear-icon-in-access-levels.png">選項中的至少一個選項。 </p> <p> <img src="assets/access-req-users.png"> </p> <p>在這兩個選項中，如果已啟用<b>[！UICONTROL User Admin (Group Users)]</b>，您必須是使用者所屬群組的群組管理員。</p> </li> 
        </ul>
        </li> 
      </ul> </p> </td> 
@@ -97,7 +97,7 @@ ht-degree: 0%
 
    公司清單隨即顯示。
 
-1. 如果您正在新增公司，請按一下[新增公司]。**&#x200B;**
+1. 如果您正在新增公司，請按一下[新增公司]。****
 
    或
 
@@ -105,9 +105,9 @@ ht-degree: 0%
 
 1. 更新&#x200B;**基本資訊**&#x200B;區段中的下列資訊：
 
-   * **公司名稱**<span class="preview">&#x200B;或&#x200B;**名稱**</span>：輸入公司的名稱。
+   * **公司名稱** <span class="preview">或&#x200B;**名稱**</span>：輸入公司的名稱。
    * **為使用中**：啟用此選項後，使用者可以找到公司並將其附加至他們建立和編輯的專案。 非作用中的公司無法附加到專案。 此選項預設為啟用。
-   * **這是主要公司**<span class="preview">&#x200B;或&#x200B;**是主要公司**</span>：將公司指派為您組織的主要公司。 主要公司通常代表您大部分使用者工作所在的Workfront帳戶。
+   * **這是主要公司** <span class="preview">或&#x200B;**是主要公司**</span>：將公司指派為您組織的主要公司。 主要公司通常代表您大部分使用者工作所在的Workfront帳戶。
 
      您可以將一家公司或沒有公司指定為主要公司，但不得將多家公司指定為主要公司。 如需詳細資訊，請參閱[建立和修改自訂存取層級](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
@@ -141,11 +141,11 @@ ht-degree: 0%
 
    如需建立自訂表單的相關資訊，請參閱[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
-1. （視條件而定）如果您正在建立公司，請按一下&#x200B;**[!UICONTROL 建立公司]**<span class="preview">或&#x200B;**&#x200B;儲存&#x200B;**。</span>
+1. （視條件而定）如果您正在建立公司，請按一下&#x200B;**[!UICONTROL 建立公司]**<span class="preview">或**&#x200B;儲存&#x200B;**。</span>
 
    或
 
-   如果您正在編輯現有的公司，請按一下&#x200B;**[!UICONTROL 儲存變更]**<span class="preview">或&#x200B;**&#x200B;儲存&#x200B;**。</span>
+   如果您正在編輯現有的公司，請按一下&#x200B;**[!UICONTROL 儲存變更]**<span class="preview">或**&#x200B;儲存&#x200B;**。</span>
 
 ## 管理公司成員資格
 
