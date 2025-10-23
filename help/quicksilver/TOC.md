@@ -2509,9 +2509,9 @@ ht-degree: 2%
       * [使用JWT流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-jwt-flow.md)
       * [使用PKCE流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-pkce-flow.md)
       * [棄用API — 內部](wf-api/api/deprecation-api-internal.md)
-      * [ API 21](/help/quicksilver/wf-api/api/new-api-version-21.md)版的新增功能
-      * [ API 20](/help/quicksilver/wf-api/api/new-api-version-20.md)版的新增功能
-      * [ API 19](wf-api/api/new-api-version-19.md)版的新增功能
+      * [&#x200B; API 21版的新增功能](/help/quicksilver/wf-api/api/new-api-version-21.md)
+      * [&#x200B; API 20版的新增功能](/help/quicksilver/wf-api/api/new-api-version-20.md)
+      * [&#x200B; API 19版的新增功能](wf-api/api/new-api-version-19.md)
       * [API 18版的新增功能](wf-api/api/new-api-version-18.md)
       * [API 17版的新增功能](wf-api/api/new-api-version-17.md)
       * [API 16版的新增功能](wf-api/api/new-api-version-16.md)
