@@ -7,9 +7,9 @@ description: 請務必在Adobe Workfront中指明核准的休假何時發生，�
 author: Becky
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 95cc394c3e1aa0ee5713e981030a96e27dd1f183
+source-git-commit: e25ea757129e9645f7b5f0729cd498d5947f49f2
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!-- Audited: 12/2023 -->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽沙箱」環境中使用，並且正在分階段推出到生產環境。</span>
 
 [!DNL Adobe Workfront]的設計目的並非複製或取代您現有的系統，以管理、累積及追蹤個人休假。
 
@@ -79,10 +79,10 @@ ht-degree: 0%
 1. 在左側面板中，按一下&#x200B;**[!UICONTROL 休假]**。
 1. 選取您個人休假的所需日期。
 
-   <!--<span class="preview">Sample image in the Preview environment:</span>
-   ![Personal time off calendar](assets/personal-time-off-calendar-0925.png)-->
+   <span class="preview">預覽環境中的範例影像：</span>
+   ![個人休假行事曆](assets/personal-time-off-calendar-0925.png)
 
-   <!--Sample image in the Production environment:-->
+   生產環境中的影像範例：
    ![個人休假行事曆](assets/personal-time-off-calendar.png)
 
 1. 如果您要休一整天的假，請選取&#x200B;**[!UICONTROL 全天]**。
