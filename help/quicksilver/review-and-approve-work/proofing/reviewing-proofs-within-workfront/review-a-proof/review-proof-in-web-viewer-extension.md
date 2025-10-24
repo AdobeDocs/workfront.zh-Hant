@@ -6,9 +6,9 @@ description: Adobe Workfront檢閱工具是瀏覽器擴充功能，可讓您校�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4fea13cc-2d56-466e-8851-6134782e7e80
-source-git-commit: 7bff0a8c43355472453403fcd404388a3d95d471
+source-git-commit: 78d9e8e47f8f6777f9211d8f85a3dfbc9405d798
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '607'
 ht-degree: 1%
 
 ---
@@ -42,6 +42,9 @@ Adobe Workfront檢閱工具是網頁型瀏覽器擴充功能，可讓您在ZIP�
 * [Chrome擴充功能](https://chromewebstore.google.com/detail/adobe-workfront-review-to/lhdepbgeilldghlfnankdnponhljpgml)
 
 * [Edge](https://microsoftedge.microsoft.com/addons/detail/adobe-workfront-review-to/llhapmaiiddmcamgeapaipjpagnoijen)
+
+* [Safari延伸模組](https://apps.apple.com/us/app/adobe-workfront-review-tool/id6741517062?mt=12)
+
 
 
 為了讓互動式校訂在Adobe Workfront檢閱工具中自動開啟，Workfront管理員必須更新workfront中的校訂設定，如下節所述。
