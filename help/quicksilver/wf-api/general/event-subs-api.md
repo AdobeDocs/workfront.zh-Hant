@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: f6f3df61286a360324963c872718be224a7ab413
+source-git-commit: 35fbf2f5792edb844264b15e298411819c0f5081
 workflow-type: tm+mt
 source-wordcount: '3054'
 ht-degree: 3%
@@ -816,7 +816,7 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 >[!NOTE]
 >
 >底下具有指定篩選器的訂閱只會傳回工作名稱在`again`上包含`oldState`的訊息，這是更新工作之前的訊息。
->&#x200B;>此情況下的使用案例是尋找從一個事物變更為另一個事物的objCode訊息。 例如，找出從「Research Some name」變更為「Research TeamName Some name」的所有任務
+>>此情況下的使用案例是尋找從一個事物變更為另一個事物的objCode訊息。 例如，找出從「Research Some name」變更為「Research TeamName Some name」的所有任務
 
 ```
 {
@@ -961,6 +961,7 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 上述範例包含下列元件：
 
 1. 最上層篩選（群組之外）：
+
    * { &quot;fieldName&quot;： &quot;percentComplete&quot;， &quot;fieldValue&quot;： &quot;100&quot;， &quot;comparison&quot;： &quot;lt&quot; }
    * 此篩選器會檢查更新任務的percentComplete欄位是否小於100。
 
