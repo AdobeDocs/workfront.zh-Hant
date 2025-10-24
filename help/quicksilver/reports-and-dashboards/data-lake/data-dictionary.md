@@ -7,9 +7,9 @@ description: 本頁包含有關Workfront Data Connect中資料結構和內容的
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 8df633f7f0946f81d6e81578a3d47719f6d8975e
+source-git-commit: e06db80d752d79157c758b3ecf3a8d4e7040e96d
 workflow-type: tm+mt
-source-wordcount: '8733'
+source-wordcount: '8788'
 ht-degree: 9%
 
 ---
@@ -48,7 +48,8 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
 
 >[!IMPORTANT]
 >
->實體關係圖表正在進行中。 因此，其僅供參考，且隨時可能變更。
+>提供的實體關聯圖(ERD)故意不完整，因為應用程式內的關聯性數目很高，導致完整的ERD無法讀取。<br>
+>>此圖表提供範例，說明如何使用下方[術語表格](#terminology-table)區段中Project表格中記錄的關聯性，將Project資料檢視的資料聯結至相鄰物件。 當專案物件關係瞭解此模式後，預計不需要完整ERD
 
 ## 日期型別
 
@@ -66,7 +67,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
 >[!NOTE]
 >
 >新欄位可新增至物件檢視，恕不另行通知，以支援Workfront應用程式不斷變化的資料需求。 當下游資料收件者未準備好在新增資料行時處理其他資料行時，請謹慎使用「SELECT」查詢。<br>
->&#x200B;>如果需要重新命名或移除欄，我們會提供這些變更的預先通知。
+>>如果需要重新命名或移除欄，我們會提供這些變更的預先通知。
 
 ### 存取層級
 
