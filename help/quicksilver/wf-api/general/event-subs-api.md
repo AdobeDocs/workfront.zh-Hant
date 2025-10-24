@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 699ce13472ee70149fba7c8c34dde83c7db5f5de
+source-git-commit: f6f3df61286a360324963c872718be224a7ab413
 workflow-type: tm+mt
-source-wordcount: '2739'
+source-wordcount: '3054'
 ht-degree: 3%
 
 ---
@@ -816,7 +816,7 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 >[!NOTE]
 >
 >底下具有指定篩選器的訂閱只會傳回工作名稱在`again`上包含`oldState`的訊息，這是更新工作之前的訊息。
->&#x200B;>此情況下的使用案例是尋找從一個事物變更為另一個事物的objCode訊息。 例如，找出從「Research Some name」變更為「Research TeamName Some name」的所有任務
+>>此情況下的使用案例是尋找從一個事物變更為另一個事物的objCode訊息。 例如，找出從「Research Some name」變更為「Research TeamName Some name」的所有任務
 
 ```
 {
@@ -904,6 +904,86 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
     "filterConnector": "AND"
 }
 ```
+
+### 使用篩選群組
+
+篩選群組可讓您在事件訂閱篩選器中建立巢狀邏輯(AND/OR)條件。
+
+每個篩選器群組可以有以下專案：
+
+* 它自己的聯結器（AND或OR）。
+* 多個篩選器，每個篩選器遵循與獨立篩選器相同的語法和行為。
+
+>[!IMPORTANT]
+>
+>群組至少必須有2個篩選器。
+
+
+群組內的所有篩選器都支援下列專案：
+
+* 比較運運算元：eq、ne、gt、gte、lt、lte、contains、notContains、containsOnly、changed。
+* 狀態選項： newState、oldState。
+* 欄位目標定位：任何有效的物件欄位名稱。
+
+```
+{
+  "objCode": "TASK",
+  "eventType": "UPDATE",
+  "authToken": "token",
+  "url": "https://domain-for-subscription.com/API/endpoint/UpdatedTasks",
+  "filters": [
+    {
+      "fieldName": "percentComplete",
+      "fieldValue": "100",
+      "comparison": "lt"
+    },
+    {
+      "type": "group",
+      "connector": "OR",
+      "filters": [
+        {
+          "fieldName": "status",
+          "fieldValue": "CUR",
+          "comparison": "eq"
+        },
+        {
+          "fieldName": "priority",
+          "fieldValue": "1",
+          "comparison": "eq"
+        }
+      ]
+    }
+  ],
+  "filterConnector": "AND"
+}
+```
+
+上述範例包含下列元件：
+
+1. 最上層篩選（群組之外）：
+   * { &quot;fieldName&quot;： &quot;percentComplete&quot;， &quot;fieldValue&quot;： &quot;100&quot;， &quot;comparison&quot;： &quot;lt&quot; }
+   * 此篩選器會檢查更新任務的percentComplete欄位是否小於100。
+
+1. 篩選器群組（使用OR的巢狀篩選器）：
+   * { &quot;type&quot;： &quot;group&quot;， &quot;connector&quot;： &quot;OR&quot;， &quot;filters&quot;： [{ &quot;fieldName&quot;： &quot;status&quot;， &quot;fieldValue&quot;： &quot;CUR&quot;， &quot;comparison&quot;： &quot;eq&quot; }， { &quot;fieldName&quot;： &quot;priority&quot;， &quot;fieldValue&quot;： &quot;1&quot;， &quot;comparison&quot;： &quot;eq&quot; }] }
+   * 此群組會評估兩個內部篩選器：
+      * 第一個檢查任務狀態是否等於「CUR」（目前）。
+      * 第二個會檢查優先順序是否等於「1」（高優先順序）。
+   * 由於聯結器為「OR」，因此如果任一條件為true，則此群組會通過。
+
+1. 頂層聯結器(filterConnector： AND)：
+   * 頂層篩選器之間最外層的聯結器為「AND」。 這表示最上層篩選器和群組都必須通過，事件才能相符。
+
+1. 當滿足以下條件時，就會觸發訂閱：
+   * percentComplete小於100。
+   * 狀態是&quot;CUR&quot;或優先順序等於&quot;1&quot;。
+
+>[!NOTE]
+>
+>在使用篩選器群組時，有確保系統效能一致的限制，包括下列專案：<br>
+>* 每個訂閱最多可支援10個篩選器群組（每個群組包含多個篩選器）。
+>* 每個篩選器群組最多可包含5個篩選器，以防止在事件處理期間發生潛在效能降低情形。
+>* 雖然支援最多10個篩選器群組（每個都有5個篩選器），但使用複雜篩選器邏輯的大量作用中訂閱可能會導致事件評估期間的延遲。
 
 ## 刪除事件訂閱
 
