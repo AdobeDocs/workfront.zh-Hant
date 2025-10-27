@@ -5,18 +5,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e7952cf-f07a-412b-9f9a-623cdba46849
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 5706ebd11985b9e67c93686918f8f0327adabdf1
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 2%
+source-wordcount: '769'
+ht-degree: 1%
 
 ---
 
 # 建立和自訂優先順序
 
-{{highlighted-preview}}
-
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽沙箱」環境中使用，並且正在分階段推出到生產環境。</span>
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.

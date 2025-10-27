@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: e25ea757129e9645f7b5f0729cd498d5947f49f2
+source-git-commit: 5706ebd11985b9e67c93686918f8f0327adabdf1
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '397'
 ht-degree: 3%
 
 ---
@@ -148,12 +148,8 @@ ht-degree: 3%
 
 1. 按&#x200B;**Enter**。
 
-<div class="preview">
+1. <span class="preview">若要重設所有使用者偏好設定，請按一下&#x200B;**重設**。</span>
 
-1. 若要重設所有使用者偏好設定，請按一下[重設]。**&#x200B;**
+   <span class="preview">或</span>
 
-   或
-
-   若只要重設自訂標籤，請按一下&#x200B;**重設左側導覽**。
-
-</div>
+   <span class="preview">若要將使用者的左側導覽重設為原始配置範本設定，請按一下&#x200B;**重設左側導覽**。</span>
