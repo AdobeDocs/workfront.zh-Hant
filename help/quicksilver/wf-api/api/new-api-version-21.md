@@ -6,14 +6,14 @@ description: Adobe Workfront於2025年10月23日發行API版本21。 API版本21
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: d72c5b4337ea04dbfef4622908824a0bd138b551
+source-git-commit: 50edbfa342ed7f51d1fe2b9654b55b579bb3f5af
 workflow-type: tm+mt
 source-wordcount: '858'
 ht-degree: 4%
 
 ---
 
-# API 20版的新增功能
+# API 21版的新增功能
 
 Adobe Workfront於2025年10月23日發行API版本21。 API版本21具有下列版本20的變更。
 
