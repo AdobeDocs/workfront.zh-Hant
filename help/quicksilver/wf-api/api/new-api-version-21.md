@@ -6,10 +6,10 @@ description: Adobe Workfront於2025年10月23日發行API版本21。 API版本21
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 50edbfa342ed7f51d1fe2b9654b55b579bb3f5af
+source-git-commit: f47e0bce61322c971f3a815ec01e7c243b090910
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 4%
+source-wordcount: '833'
+ht-degree: 3%
 
 ---
 
@@ -19,7 +19,7 @@ Adobe Workfront於2025年10月23日發行API版本21。 API版本21具有下列�
 
 ## 新增的資源
 
-### PoweringPlanTemplate (SPTMPL)
+### OriginalRequest (ORGREQ)
 
 <table>
   <col/>
@@ -29,8 +29,10 @@ Adobe Workfront於2025年10月23日發行API版本21。 API版本21具有下列�
       <td role="rowheader">直接欄位</td>
       <td>
         <ul>
+          <li>entryDate</li>
           <li>ID</li>
-          <li>名稱</li>
+          <li>requestId</li>
+          <li>requestname</li>
         </ul>
       </td>
     </tr>
@@ -39,20 +41,48 @@ Adobe Workfront於2025年10月23日發行API版本21。 API版本21具有下列�
       <td>
         <ul>
           <li>ID</li>
-          <li>名稱</li>
           <li>物件代碼</li>
         </ul>
       </td>
-   <tr>
-      <td role="rowheader">營運</td>
+ </tbody>
+</table>
+
+<!--
+
+### StaffingPlanTemplate (SPTMPL)
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
       <td>
         <ul>
-          <li>新增</li>
-          <li>計數</li>
+          <li>ID</li>
+          <li>name</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Core fields</td>
+      <td>
+        <ul>
+          <li>ID</li>
+          <li>name</li>
+          <li>objCode</li>
+        </ul>
+      </td>
+   <tr>
+      <td role="rowheader">Operations</td>
+      <td>
+        <ul>
+          <li>ADD</li>
+          <li>COUNT</li>
           <li>DELETE</li>
-          <li>編輯</li>
+          <li>EDIT</li>
           <li>GET</li>
-          <li>報告</li>
+          <li>REPORT</li>
           <li>SEARCH</li>
         </ul>
       </td>
@@ -60,6 +90,8 @@ Adobe Workfront於2025年10月23日發行API版本21。 API版本21具有下列�
     </tr>
  </tbody>
 </table>
+
+-->
 
 ## 已移除的資源
 
@@ -710,30 +742,32 @@ ScoreCardQuestion物件代表已新增至計分卡的問題。 這些問題通�
  </tbody>
 </table>
 
-### 人員配置計畫
+<!--
+
+### StaffingPlan
 
 <table>
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">直接欄位</td>
+      <td role="rowheader">Direct fields</td>
       <td>
         <ul>
           <li>
             <p><b>totalEstimatedCost</b>
             </p>
-            <p>已新增</p>
+            <p>Added</p>
               </li>
          <li>
             <p><b>totalEstimatedHours</b>
             </p>
-            <p>已新增</p>
+            <p>Added</p>
               </li>
          <li>
             <p><b>totalEstimatedRevenue</b>
             </p>
-            <p>已新增</p>
+            <p>Added</p>
               </li>
             </ul>
          </li>
@@ -742,30 +776,34 @@ ScoreCardQuestion物件代表已新增至計分卡的問題。 這些問題通�
   </tbody>
 </table>
 
-### 人員配置計畫資源
+-->
+
+<!--
+
+### StaffingPlanResource
 
 <table>
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">直接欄位</td>
+      <td role="rowheader">Direct fields</td>
       <td>
         <ul>
           <li>
             <p><b>totalEstimatedCost</b>
             </p>
-            <p>已新增</p>
+            <p>Added</p>
               </li>
          <li>
             <p><b>totalEstimatedHours</b>
             </p>
-            <p>已新增</p>
+            <p>Added</p>
               </li>
          <li>
             <p><b>totalEstimatedRevenue</b>
             </p>
-            <p>已新增</p>
+            <p>Added</p>
               </li>
             </ul>
          </li>
@@ -773,6 +811,8 @@ ScoreCardQuestion物件代表已新增至計分卡的問題。 這些問題通�
     </tr>
   </tbody>
 </table>
+
+-->
 
 ### 任務（任務）
 
