@@ -8,7 +8,7 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
+source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
 workflow-type: tm+mt
 source-wordcount: '2578'
 ht-degree: 3%
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # 編輯問題
 
-<!--Audited: 03/2025-->
+<!--Audited: 10/2025-->
 
 <!--
 <div class="preview"> 
@@ -333,7 +333,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. 按一下&#x200B;**搜尋人員、角色和團隊**，然後開始輸入您要指派給問題的使用者、角色或團隊的名稱，然後按一下該名稱，或當它顯示在清單上時按下Enter鍵。
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ensure this is still called this; asked Anna to change it to "roles" and add a comma)</p>
+   (NOTE: ensure this is still called this; asked Anna to change it to "roles" and add a comma)
    -->
 
    >[!NOTE]
@@ -351,7 +351,6 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    >* 將已停用團隊中的使用者與作用中團隊建立關聯，並將工作專案重新指派給作用中團隊。
 
    <!--1. (Conditional) Depending on what environment you are editing issues in, do one of the following:
-
    1. In the Production environment, INDENT THE FOLLOWING STEPS FURTHER AT RELEASE: (Optional) Indicate whether an assignee is the primary assignee on the issue, by hovering over the name of the assignee and clicking **Make Primary**. A team cannot be the primary assignee of an issue. -->
 
 1. 更新下列欄位：
@@ -377,16 +376,21 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    <!--
    <div class="preview">
-   1. (Conditional) In the Preview environment, update the **Planned Hours** field
-      Or 
-      Click **Assign to me** to assign the issue to yourself. (********ADD DEFINITION OF PLANNED HOURS FROM THE TABLE AT PROD RELEASE*********)
+   1. (Conditional) In the Preview environment, do one of the following:
+         * Click **Assign to me** to assign the issue to yourself
+      * Update the **Planned Hours** field.
+         The **Planned Hours** is the amount of hours it would take the assignees of the issue to complete it. 
+         >[!NOTE]
+         >
+         >Changing the Planned Hours of the issue will not change the issue Planned Completion Date. 
    </div> -->
+
 
 1. 若要從所有問題中移除指派，請參閱[指派問題](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md)。
 
 1. 按一下&#x200B;**儲存**&#x200B;或繼續編輯下列區段。
 
-### 自訂Forms
+### 自訂表單
 
 1. 如上所述開始編輯問題。
 1. 按一下&#x200B;**自訂Forms**。

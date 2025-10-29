@@ -7,16 +7,16 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
+source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1465'
 ht-degree: 0%
 
 ---
 
 # 指派問題
 
-<!--Audited: 07/2024-->
+<!--Audited: 10/2024-->
 
 <!--
 <div class="preview"> 
@@ -116,7 +116,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 </div>
 -->
 
-## 指派單一問題
+## 在問題標題中指派單一問題
 
 1. 移至您要指派的問題。
 1. 按一下問題標題右上角的&#x200B;**指派給** （在&#x200B;**指派**&#x200B;區域中）
@@ -155,7 +155,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. 按一下&#x200B;**儲存**&#x200B;以完成指派問題。
 1. （選擇性）按一下問題標題上工作分派區域名稱旁的&#x200B;**X圖示**&#x200B;以移除工作分派。
 
-## 指派清單中的問題
+## 透過在清單中內聯編輯來指派問題
 
 當清單的檢視中顯示任何指派欄位時，您可以在清單或報告中指派問題。 這是指派問題的更快方式。
 
@@ -195,6 +195,12 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    >您無法從「指派至」或「已指派」欄位進行進階指派。
 
 1. 將您的受指派人新增至問題後，按下Enter或按一下頁面上的任何位置以儲存變更。
+
+## 在編輯問題方塊中指派問題
+
+您可以在「編輯問題」方塊中編輯問題時指派問題。
+
+如需相關資訊，請參閱文章[編輯問題](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md)中的「工作總攬」一節。
 
 ## 大量指派問題
 

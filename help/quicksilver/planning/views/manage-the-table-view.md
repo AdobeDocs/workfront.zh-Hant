@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
 workflow-type: tm+mt
-source-wordcount: '3370'
+source-wordcount: '3401'
 ht-degree: 2%
 
 ---
@@ -192,6 +192,8 @@ ht-degree: 2%
 
    您新增的欄對存取記錄型別的所有使用者可見，並作為記錄頁面的新欄位新增。
 
+1. （選擇性）按一下工具列中的&#x200B;**欄位**&#x200B;圖示![欄點陣圖示](assets/fields-icon.png)，在清單<!--or <span class="preview"> search for a field</span>,-->中尋找欄位，然後取消選取欄位名稱右側的切換以隱藏欄位。
+
 1. 執行下列任一項作業，重新排序表格中的欄：
 
    * 抓取欄標題，並將其拖放到所需位置。 您移動的欄會短暫地以藍色背景顯示，直到您對表格進行其他調整為止。
@@ -311,6 +313,8 @@ ht-degree: 2%
 1. 按一下&#x200B;**新增條件**&#x200B;並新增下列資訊：
 
    * **選取您要依**&#x200B;篩選的欄位<!-- the tip below might change-->
+
+     <!--replace the bullet above with this at preview release: <span class="preview">Search for a field or </span> click the drop-down menu to display a list of fields and select it from the list-->
 
    * **選取選項** （或篩選修飾元）以定義欄位必須符合何種條件
 
@@ -542,6 +546,8 @@ To sort grouped records:
 1. （選擇性）按一下&#x200B;**列色彩**&#x200B;以定義條件並選擇為表格列設定不同的色彩。
 
 1. 按一下&#x200B;**新增顏色**，然後&#x200B;**選取要決定列顏色的欄位**。
+
+   <!--replace the text for this step above with this at preview release: Click **Add color**, then <span class="preview">search for a field or </span> click the drop-down menu to display a list of fields and select it from the list. This is the field whose value you want to determine the color of a row.-->
 
    例如，若要以綠色顯示狀態為「作用中」的行銷活動，請選取「**狀態**」，然後為該欄位選擇修飾元和值。
 

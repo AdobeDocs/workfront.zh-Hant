@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
 workflow-type: tm+mt
 source-wordcount: '3874'
 ht-degree: 2%
@@ -193,7 +193,7 @@ ht-degree: 2%
    >在「設定」區域中設定自訂季度後，時間軸檢視會顯示自訂季度，而非傳統季度。
    >如需詳細資訊，請參閱[啟用自訂季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
 
-1. （視條件而定）如果您是Workfront管理員，請按一下&#x200B;**前往設定**&#x200B;設定您的季度。 如果沒有，請按一下[確定] **&#x200B;**，並要求Workfront管理員設定自訂季度。
+1. （視條件而定）如果您是Workfront管理員，請按一下&#x200B;**前往設定**&#x200B;設定您的季度。 如果沒有，請按一下[確定] ****，並要求Workfront管理員設定自訂季度。
 
    >[!TIP]
    >
@@ -286,6 +286,8 @@ ht-degree: 2%
 1. 按一下&#x200B;**新增條件**&#x200B;並新增下列資訊：
 
    * **選取您要依**&#x200B;篩選的欄位<!-- the tip below might change-->
+
+     <!--replace the bullet above with this at preview release: <span class="preview">Search for a field or </span> click the drop-down menu to display a list of fields and select it from the list-->
 
    * **選取選項** （或篩選修飾元）以定義欄位必須符合何種條件
 
