@@ -288,7 +288,7 @@ ht-degree: 0%
 ### 在[!DNL AEM assets]中設定使用者 {#set-up-users-in-aem-assets}
 
 1. 以Workfront管理員身分登入[!DNL AEM Assets]。
-1. 按一下「**[!UICONTROL 工具]**」>「{2&#x200B;}**{&#x200B;4}安全性**」>「**[!UICONTROL 使用者]**」。****
+1. 按一下「**[!UICONTROL 工具]**」>「{2&#x200B;}**{&#x200B;4}安全性**」>「**[!UICONTROL 使用者]**」。**&#x200B;**
 
 1. （視條件而定）如果使用者在AEM中沒有使用者設定檔，請建立AEM使用者設定檔。
 
