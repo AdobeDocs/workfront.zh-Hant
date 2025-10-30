@@ -102,6 +102,6 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >您可以隨時按一下[儲存]來儲存進度，然後再繼續修改範本。****
+   >您可以隨時按一下[儲存]來儲存進度，然後再繼續修改範本。**&#x200B;**
 
 如需配置範本的詳細資訊，請參閱[建立和管理配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)。
