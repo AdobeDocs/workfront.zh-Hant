@@ -23,7 +23,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >預覽： 2025年10月30日
->>生產快速發行： 2025年10月30日\
+>&#x200B;>生產快速發行： 2025年10月30日\
 >適用於所有人的生產： 2025年10月30日
 
 現在，您可以使用Experience Manager Assets&#x200B;來管理和儲存已通過檢閱和核准週期的數位資產。 此整合可讓您運用Adobe Experience Manager、Frame.io和Workfront的功能，簡化您的內容管理和共同作業程式。
