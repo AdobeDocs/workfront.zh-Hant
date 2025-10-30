@@ -6,7 +6,7 @@ description: 配置百分比代表指定資源計畫在一天內處理一項任�
 author: Lisa
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
-source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
+source-git-commit: ac5552f1c235f595b1c0d2558fcf88b1e03f5a8e
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 1%
@@ -66,7 +66,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 +++
 
 <!--
-Change this sentence in the table:
+Change this sentence in the table when unshimmming assignments on Edit task:
 <p>Edit permissions to update allocation hours in the Edit Task box</p>
 To this:
 <p>Edit permissions to update allocation hours in the Edit Task box in the Production environment. <span class="preview">You can no longer manage allocation percentage in the Edit task box in the Preview environment.</span></p>

@@ -6,9 +6,9 @@ description: 修改清單中多個問題的使用者指派
 author: Lisa
 feature: Work Management
 exl-id: e1e75027-1847-44cf-afeb-b19394dc3ea5
-source-git-commit: 7aa420946115fc612ad1d9e310583e5453ae0678
+source-git-commit: ac5552f1c235f595b1c0d2558fcf88b1e03f5a8e
 workflow-type: tm+mt
-source-wordcount: '749'
+source-wordcount: '916'
 ht-degree: 1%
 
 ---
@@ -66,11 +66,11 @@ ht-degree: 1%
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>When to modify user assignments on issues</h2>
-<p>(NOTE:&nbsp;drafted and moved to the overview article: Modify issue assignments overview)</p>
-<p>You might want to modify the user assignments for multiple issues for a variety of&nbsp;reasons, including the following:</p>
+<p>(NOTE:  drafted and moved to the overview article: Modify issue assignments overview)</p>
+<p>You might want to modify the user assignments for multiple issues for a variety of  reasons, including the following:</p>
 <ul>
-<li>Users join or leave&nbsp;your team</li>
-<li>A user takes a vacation that extends beyond the issue&nbsp;due dates</li>
+<li>Users join or leave  your team</li>
+<li>A user takes a vacation that extends beyond the issue  due dates</li>
 <li>A specific role or user is set as the assignee for multiple issues and you want to quickly modify all items to be assigned to a different user or role</li>
 </ul>
 </div>
@@ -81,40 +81,35 @@ ht-degree: 1%
 1. 前往問題清單，其中包含您要修改其指派的問題。
 1. （選用）建立篩選器，只顯示指派給您要修改之受指派人的問題。
 
-   例如，您可以建立篩選器，以僅顯示與作為受託人的特定角色有關的問題。 然後，您可以使用特定使用者來取代角色。 請執行下列動作：
+   例如，您可以建立篩選器，以僅顯示與作為受託人的特定角色有關的問題。  然後，您可以使用特定使用者來取代角色。 請執行下列動作：
 
    1. 按一下&#x200B;**篩選器**&#x200B;下拉式清單，然後按一下&#x200B;**新增篩選器**。
 
-      「新增篩選器」對話方塊隨即顯示。
-
-   1. 按一下&#x200B;**新增篩選規則。**
-   1. 若要篩選特定角色，請展開&#x200B;**指派角色，**，然後按一下&#x200B;**識別碼。**
-
-      或
-
-      若要篩選特定使用者，請展開&#x200B;**指派使用者，**，然後按一下&#x200B;**識別碼。**
+   1. 在第一個欄位中，開始輸入&#x200B;**指派角色**，然後從清單中選擇&#x200B;**指派角色：名稱**。
+   1. 從修飾元下拉式功能表中選取&#x200B;**是**&#x200B;的任一項，然後開始輸入角色的名稱，並在角色顯示在清單中時選取角色。 您可以輸入多個角色。
 
       >[!TIP]
       >
       >請勿使用&#x200B;**指派給**，因為此欄位僅參考問題擁有者，而非所有受指派人。
 
-   1. 在下拉式清單中，選取&#x200B;**等於**&#x200B;作為篩選限定詞。
-   1. 開始輸入您要篩選的使用者或角色名稱，然後按一下該名稱（當它出現在下拉式清單中時）。
-   1. 按一下&#x200B;**儲存篩選器。**
+      問題清單會自動根據您的篩選條件進行篩選。
+   1. （選擇性）按一下&#x200B;**另存新檔**，然後按&#x200B;**儲存**。
 
 1. 選取您要修改指派的問題，然後按一下&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/qs-edit-icon.png)。
 
-   **編輯問題**&#x200B;隨即顯示。 已編輯的專案會顯示在頁面的左上角。
+   **編輯問題**&#x200B;隨即顯示。 所選的專案數會顯示在頁面的左上角。
 
-1. 移至&#x200B;**工作分派**&#x200B;區段，然後選取&#x200B;**受指派人**。
+1. （視條件而定）在生產環境中，執行下列作業：
 
-   ![工作分派區域](assets/classic-assignmens-area-on-edit-box-350x119.png)
+   1. 移至&#x200B;**工作分派**&#x200B;區段，然後選取&#x200B;**受指派人**。
 
-1. 執行下列其中一項：
+      ![工作分派區域](assets/classic-assignmens-area-on-edit-box-350x119.png)
 
-   1. 若要新增受指派人：
+   1. 執行下列其中一項：
 
-      1. 開始輸入使用者、角色或團隊的名稱，然後在其顯示在清單中時選取它。 指派已新增，不會取代所選問題上的目前指派。
+      1. 若要新增受指派人：
+
+         1. 開始輸入使用者、角色或團隊的名稱，然後在其顯示在清單中時選取它。 指派已新增，不會取代所選問題上的目前指派。
 
          >[!TIP]
          >
@@ -127,25 +122,54 @@ ht-degree: 1%
 
          所有選定問題的共同資訊隨即顯示。 例如，如果將同一個使用者指派給所有問題，則該使用者會顯示在&#x200B;**受託人**&#x200B;欄中。 如果所選問題的資訊不常見，則不會顯示任何資訊。
 
-   1. 若要移除個別受指派人，請執行下列動作：
+      1. 若要移除個別受指派人，請執行下列動作：
 
-      1. 如果受指派人顯示在「工作總攬」清單中，則按一下您要移除之受指派人名稱旁的&#x200B;**X圖示**。
+         1. 如果受指派人顯示在「工作總攬」清單中，則按一下您要移除之受指派人名稱旁的&#x200B;**X圖示**。
 
-         或
+            或
 
-         （視條件而定）如果您要移除的受指派人未顯示在「工作分派」區段中，因為受指派人僅被指派給您選取的某些問題，請按一下&#x200B;**移除受指派人**&#x200B;並開始輸入您要移除的受指派人名稱，然後在其出現在下拉式清單中時按一下該名稱。
+            如果您要移除的被指定者未顯示在「工作總攬」區段中，因為被指定者僅被指定給您選取的某些問題，請按一下&#x200B;**移除被指定者**&#x200B;並開始輸入您要移除的被指定者名稱，然後在其出現在下拉式清單中時按一下該名稱。
 
-      1. 再按一下&#x200B;**移除被指定者**&#x200B;以新增另一個要移除的被指定者。
+         1. 再按一下&#x200B;**移除被指定者**&#x200B;以新增另一個要移除的被指定者。
 
-   1. 若要移除所有現有的被指定者：
+      1. 若要移除所有現有的被指定者：
 
-      1. 按一下&#x200B;**移除所有現有的受指派人**，然後按一下&#x200B;**是，刪除所有受指派人**。
+         1. 按一下&#x200B;**移除所有現有的受指派人**，然後按一下&#x200B;**是，刪除所有受指派人**。
 
-         這不僅會移除常見的受指派人（顯示在「編輯」對話方塊中的受指派人），也會移除所有選定問題中的所有受指派人。
+            這不僅會移除常見的受指派人（顯示在「編輯」對話方塊中的受指派人），也會移除所有選定問題中的所有受指派人。
 
-1. （選擇性）針對您選取要與問題關聯的受指派人，修改下列任一選項：
+         1. （選擇性）針對您選取要與問題關聯的受指派人，修改下列任一選項：
 
-   * **問題擁有者：**&#x200B;選取選項按鈕，以指出已將哪個受指派人指定為問題擁有者。 如果保持未選取，Adobe Workfront會將第一個受指派人指定為問題所有者。 這不適用於團隊指派。
-   * **受指派人的角色**：從下拉式清單中選取一個角色。 如果保持未選取，Workfront會自動選取使用者的主要角色。
+            * **問題擁有者：**&#x200B;選取選項按鈕，以指出已將哪個受指派人指定為問題擁有者。 如果保持未選取，Adobe Workfront會將第一個受指派人指定為問題所有者。 這不適用於團隊指派。
+            * **受指派人的角色**：從下拉式清單中選取一個角色。 如果保持未選取，Workfront會自動選取使用者的主要角色。
 
-1. 按一下「**儲存變更**」。
+      1. 按一下「**儲存變更**」。
+
+1. <span class="preview">在預覽環境中，執行下列動作：</span>
+
+   1. <span class="preview">按一下左側面板中的&#x200B;**工作**，然後按一下您要移除的工作負責人旁的&#x200B;**x**&#x200B;圖示。</span>
+
+      >[!TIP]
+      >
+      ><span class="preview">只有指派給所有選定問題的受指派人才會顯示在&#x200B;**指派**&#x200B;區域中。</span>
+
+      ![大量編輯問題中的指派區域](assets/assignments-area-on-bulk-edit-issues.png)
+
+   1. <span class="preview">開始輸入使用者、角色或團隊的名稱，以將受指派人新增至所有選取的問題。</span>
+
+      >[!TIP]
+      >
+      >您可以指派多個使用者、工作角色或團隊。 您只能指派作用中的使用者、工作角色和團隊。
+      >
+      >如果使用者、工作角色或團隊在停用之前已被指派，則他們仍被指派給工作專案。 在此情況下，我們建議採取下列步驟：
+      >
+      >* 將工作專案重新指派給作用中的資源。
+      >* 將已停用團隊中的使用者與作用中團隊建立關聯，並將工作專案重新指派給作用中團隊。
+
+      <span class="preview">新增的受指派人已新增至現有受指派人。 它們不會取代每個所選問題的現有問題。</span>
+   1. <span class="preview">（選擇性）按一下&#x200B;**指派給我**&#x200B;以指派所有問題給您自己。</span>
+   1. <span class="preview">按一下&#x200B;**儲存**。</span>
+
+
+
+

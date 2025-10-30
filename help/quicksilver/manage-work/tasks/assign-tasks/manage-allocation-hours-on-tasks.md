@@ -6,7 +6,7 @@ description: 將使用者或角色指派給任務時，會為其分配特定時�
 author: Lisa
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
+source-git-commit: ac5552f1c235f595b1c0d2558fcf88b1e03f5a8e
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # 管理任務的使用者和角色分配時數
+
+<!--Audited: 10/2025-->
 
 <!--
 <div class="preview"> 
@@ -66,7 +68,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 +++
 
 <!--
-Change this sentence in the table:
+Change this sentence in the table when unshimmming assignments on Edit task:
 <p>Edit permissions to update allocation hours in the Edit Task box</p>
 To this:
 <p>Edit permissions to update allocation hours in the Edit Task box in the Production environment. <span class="preview">You can no longer manage allocation hours in the Edit task box in the Preview environment.</span></p>

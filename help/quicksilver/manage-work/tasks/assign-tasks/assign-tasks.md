@@ -7,16 +7,16 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
+source-git-commit: ac5552f1c235f595b1c0d2558fcf88b1e03f5a8e
 workflow-type: tm+mt
-source-wordcount: '1820'
+source-wordcount: '1829'
 ht-degree: 1%
 
 ---
 
 # 指派任務
 
-<!--Audited: 07/2024-->
+<!--Audited: 10/2025-->
 
 <!--
 <div class="preview"> 
@@ -175,7 +175,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 1. 按一下「**儲存**」。
 1. （選擇性和條件性）按一下工作右側面板中工作分派名稱旁的&#x200B;**X圖示**，移除工作分派（如果您按一下&#x200B;**進階**）。
 
-## 指派清單中的任務
+## 內聯編輯時指派清單中的任務
 
 當清單的檢視中顯示任何指派欄位時，您可以在清單或報告中指派任務。 這是指派任務的更快方式。 本文說明如何修改清單中一個任務的指派。 如需有關修改清單中多個任務的多個指派的資訊，請參閱[修改任務清單中的多個使用者指派](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)。
 
@@ -224,7 +224,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 
 1. 將您的受指派人新增至工作之後，按下Enter或按一下頁面上的任何位置，以儲存變更（如果您已選取「自動儲存」）。 否則，請按一下&#x200B;**儲存**。
 
-## 指派多個任務給使用者
+## 從清單中大量指派多個任務給使用者
 
 <!--Assigning multiple tasks to a user is different, depending on what environment you use to assign the tasks. 
 
@@ -266,7 +266,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 1. （選擇性）如果要從所有工作移除現有的受指派人，請執行下列任一項作業：
 
    1. 開始輸入您要從任務中移除的使用者、角色或團隊名稱，然後當名稱出現在清單中時選取名稱，並按一下&#x200B;**移除受指派人**&#x200B;以移除更多受指派人。
-   1. 按一下「移除所有現有受指派人」**&#x200B;**，從所有選取的工作中移除所有受指派人。
+   1. 按一下「移除所有現有受指派人」****，從所有選取的工作中移除所有受指派人。
 
 1. 按一下「**儲存變更**」。
 1. （選擇性和條件性）當「指派至」或「工作總攬」欄位顯示在您的任務清單中時，按一下這些欄中的一個以取得任務，然後按一下受指派人名稱旁的&#x200B;**X圖示**，以將其從任務中移除。

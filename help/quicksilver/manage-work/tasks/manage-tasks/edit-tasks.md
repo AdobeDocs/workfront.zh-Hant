@@ -7,7 +7,7 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
+source-git-commit: ac5552f1c235f595b1c0d2558fcf88b1e03f5a8e
 workflow-type: tm+mt
 source-wordcount: '3829'
 ht-degree: 4%
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 # 編輯任務
 
-<!--Audited: 07/2024-->
+<!--Audited: 10/2025-->
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -530,7 +530,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    </tbody>
    </table>
 
-   <!--
+   <!-- Indent this according to what you did above: 
       <div class="preview">
 
       1. In the Preview environment, start typing the name of a user, job role, or team in the **Search people, role or team** field, then select them when they display in the list
