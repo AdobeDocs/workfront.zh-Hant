@@ -8,20 +8,18 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 559044c44ca8d32d010188445403b4fc1e524002
+source-git-commit: f6e0329ec63038b33006325701007c564c4126cc
 workflow-type: tm+mt
-source-wordcount: '6642'
+source-wordcount: '6933'
 ht-degree: 5%
 
 ---
 
 # 建立自訂表格
 
+{{preview-fast-release-general}}
+
 <!-- Audited: 6/2025 -->
-
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
 
 您可以使用Adobe Workfront中的表單設計工具來設計自訂表單。 您可以將自訂表單附加至不同的Workfront物件，以擷取這些物件的相關資料。
 
@@ -60,7 +58,7 @@ ht-degree: 5%
 1. 在左側面板中，按一下&#x200B;**自訂Forms**，然後選取&#x200B;**Forms**。
 
 1. 按一下&#x200B;**新增自訂表格。**
-1. 選取您要附加自訂表單的物件型別，然後按一下[繼續]。**&#x200B;**
+1. 選取您要附加自訂表單的物件型別，然後按一下[繼續]。****
 
    ![選擇物件型別](assets/choose-object-type.jpg)
 
@@ -108,7 +106,7 @@ ht-degree: 5%
    >
    >複雜表單的範例包括含有階層式引數的表單、計算的自訂資料欄位，以及單一欄位中的多個值選項。
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -129,7 +127,7 @@ ht-degree: 5%
 >[!NOTE]
 >
 >雖然可以這樣做，但建議您不要在您或其他使用者開始使用Workfront中的自訂表單後變更此名稱。 如果這樣做，系統將不再識別現在可能在Workfront其他區域參考該欄位的自訂欄位。
->&#x200B;>例如，如果您新增自訂欄位至報表，之後又變更其名稱，Workfront將無法辨識報表中的自訂欄位，且除非您使用新名稱將其重新新增至報表，否則將無法正常運作。
+>>例如，如果您新增自訂欄位至報表，之後又變更其名稱，Workfront將無法辨識報表中的自訂欄位，且除非您使用新名稱將其重新新增至報表，否則將無法正常運作。
 >
 >建議您不要輸入已用於內建Workfront欄位的名稱。
 >
@@ -161,7 +159,7 @@ ht-degree: 5%
 
   清單和報告上的篩選器不支援此自訂欄位型別。
 
-  如需有關透過API存取此欄位的資訊，請參閱[&#x200B; API中的RTF文字欄位儲存體](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md)。
+  如需有關透過API存取此欄位的資訊，請參閱[ API中的RTF文字欄位儲存體](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md)。
 
   >[!NOTE]
   >
@@ -260,6 +258,15 @@ ht-degree: 5%
     <td> 如果要將超連結套用至您輸入的描述文字，請在此處新增。 描述性文字在附加表單的物件上顯示為連結。</td>
     <td><ul><li>描述文字</li></ul></td>
     </tr>
+    <tr>
+     <td><span class="preview">作用中</span></td>
+     <td><span class="preview"><p>此選項預設為開啟。<p><p>將欄位設為「非使用中」時，該欄位會從報表、篩選器和檢視中排除，並且無法再用於自訂表單欄位程式庫。</p></span></td>
+     <td><ul><span class="preview">
+     <li>單行文字</li>
+     <li>段落</li>
+     <li>含格式的文字</li>
+     <li>描述文字</li></span></ul></td>
+    </tr>
     <tr> 
       <td role="rowheader">設為必要欄位</td>
       <td><p>如果您希望欄位是使用者完成自訂表單的必要欄位，請選取此選項。</p></td>
@@ -279,7 +286,7 @@ ht-degree: 5%
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -408,8 +415,17 @@ ht-degree: 5%
     <li>多選下拉式清單</li>
     </ul>
     </td>
-     </tr> 
-          <tr> 
+     </tr>
+    <tr>
+     <td><span class="preview">作用中</span></td>
+     <td><span class="preview"><p>此選項預設為開啟。<p><p>將欄位設為「非使用中」時，該欄位會從報表、篩選器和檢視中排除，並且無法再用於自訂表單欄位程式庫。</p></span></td>
+     <td><ul><span class="preview">
+     <li>選項按鈕</li>
+     <li>核取方塊群組</li>
+     <li>單選下拉式清單</li>
+     <li>多選下拉式清單</li></span></ul></td>
+    </tr>
+    <tr> 
     <td role="rowheader">設為必要欄位</td> 
     <td>如果您希望欄位是使用者完成自訂表單的必要欄位，請選取此選項。 </td> 
     <td><ul>
@@ -431,7 +447,7 @@ ht-degree: 5%
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -541,6 +557,13 @@ ht-degree: 5%
        </ul>
       </td>
      </tr>
+     <tr>
+      <td><span class="preview">作用中</span></td>
+      <td><span class="preview"><p>此選項預設為開啟。<p><p>將欄位設為「非使用中」時，該欄位會從報表、篩選器和檢視中排除，並且無法再用於自訂表單欄位程式庫。</p></span></td>
+      <td><ul><span class="preview">
+      <li>自動提示</li>
+      <li>日期</li></span></ul></td>
+     </tr>
      <tr> 
       <td role="rowheader">設為必要欄位</td> 
       <td>如果您希望欄位是使用者完成自訂表單的必要欄位，請選取此選項。 </td> 
@@ -560,7 +583,7 @@ ht-degree: 5%
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -628,12 +651,12 @@ ht-degree: 5%
       <td role="rowheader">JSON 路徑</td>
       <td><p>輸入或貼上API的JSON路徑。</p> <p>此選項允許從API URL傳回的JSON擷取資料。 這可當作選取要讓JSON內的哪些值會出現在下拉式選項中的方式。</p><p>例如，如果您的API URL以下列格式傳回JSON，則您可以使用「$.data[*].name」選取美國和加拿大作為下拉式選項：</br>
       <pre>
-      &lbrace;
-       資料： &lbrace;
+      {
+       資料： {
          { name： "USA"}，
          { name： "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>如需有關JSON路徑並確保您撰寫正確JSON路徑的詳細資訊，請參閱<a href="https://jsonpath.com/">https://jsonpath.com/</a>。</p></td>
@@ -646,6 +669,9 @@ ht-degree: 5%
       <td role="rowheader">多選下拉式清單</td>
       <td><p>選取此選項可允許使用者在下拉式清單中選取多個值。</p></td>
      </tr>
+     <tr>
+      <td><span class="preview">作用中</span></td>
+      <td><span class="preview"><p>此選項預設為開啟。<p><p>將欄位設為「非使用中」時，該欄位會從報表、篩選器和檢視中排除，並且無法再用於自訂表單欄位程式庫。</p></span></td>
      </tr>
      <tr> 
       <td role="rowheader">設為必要欄位</td>
@@ -654,7 +680,7 @@ ht-degree: 5%
     </tbody>
    </table>
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -736,6 +762,10 @@ The Workfront Mobile app -->
       <td role="rowheader">指示</td> 
       <td> <p>輸入有關Widget的任何其他資訊。 當使用者填寫自訂表單時，可以將滑鼠指標暫留在問號圖示上，以檢視包含您在此處輸入資訊的工具提示。</p> </td> 
      </tr> 
+     <tr>
+      <td><span class="preview">作用中</span></td>
+      <td><span class="preview"><p>此選項預設為開啟。<p><p>將欄位設為「非使用中」時，該欄位會從報表、篩選器和檢視中排除，並且無法再用於自訂表單欄位程式庫。</p></span></td>
+     </tr>
     </tbody> 
    </table>
 
@@ -751,7 +781,7 @@ The Workfront Mobile app -->
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -767,7 +797,7 @@ The Workfront Mobile app -->
 1. 開啟校訂。
 1. 以滑鼠右鍵按一下視訊上的任何位置，然後選取&#x200B;**複製視訊位址**。
 1. 在您新增視訊Widget的自訂表單中，將複製的地址貼到&#x200B;**URL**&#x200B;方塊中。
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -869,6 +899,10 @@ The Workfront Mobile app -->
         </ul></p></td> 
       <td>
      </tr>
+     <tr>
+      <td><span class="preview">作用中</span></td>
+      <td><span class="preview"><p>此選項預設為開啟。<p><p>將欄位設為「非使用中」時，該欄位會從報表、篩選器和檢視中排除，並且無法再用於自訂表單欄位程式庫。</p></span></td>
+     </tr>
      <tr> 
       <td role="rowheader">設為必要欄位</td>
       <td><p>如果您希望欄位是使用者完成自訂表單的必要欄位，請選取此選項。</p></td>
@@ -876,7 +910,7 @@ The Workfront Mobile app -->
     </tbody> 
    </table>
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -921,7 +955,11 @@ The Workfront Mobile app -->
       <td role="rowheader">指示</td> 
       <td> <p>輸入有關Widget的任何其他資訊。 當使用者填寫自訂表單時，可以將滑鼠指標暫留在問號圖示上，以檢視包含您在此處輸入資訊的工具提示。
     <img src="assets/instructions-form-designer.png"></p> </td> 
-     </tr> 
+     </tr>
+     <tr>
+      <td><span class="preview">作用中</span></td>
+      <td><span class="preview"><p>此選項預設為開啟。<p><p>將欄位設為「非使用中」時，該欄位會從報表、篩選器和檢視中排除，並且無法再用於自訂表單欄位程式庫。</p></span></td>
+     </tr>
     </tbody> 
    </table>
 
@@ -933,7 +971,7 @@ The Workfront Mobile app -->
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -1018,6 +1056,10 @@ The Workfront Mobile app -->
       <td><p>（可選）從連線的記錄型別中選取最多7個查詢欄位，以在自訂表單中顯示。 預設會選取主要欄位，且無法編輯。 </p> <p> 您選取的已連線記錄欄位會顯示在自訂表單的表格檢視中。 當表單附加至Workfront物件時，表格檢視是唯讀的。 </p>  
     <img src="assets/planning-connections-field-with-table-on-form-preview.png"></td> 
      </tr>
+     <tr>
+      <td><span class="preview">作用中</span></td>
+      <td><span class="preview"><p>此選項預設為開啟。<p><p>將欄位設為「非使用中」時，該欄位會從報表、篩選器和檢視中排除，並且無法再用於自訂表單欄位程式庫。</p></span></td>
+     </tr>
       </tbody> 
    </table>
 
@@ -1029,7 +1071,7 @@ The Workfront Mobile app -->
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
