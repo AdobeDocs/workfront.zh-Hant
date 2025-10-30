@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 7fb12a3fbdad661baf2d0ad472ce8017e178ddef
+source-git-commit: c17a50542553db5b836ff82f3d0c6ed93ae3c3ad
 workflow-type: tm+mt
-source-wordcount: '8978'
+source-wordcount: '8980'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ### 新增和編輯公司對話方塊的介面更新
 
-**預覽版本： 2025年10月23日；生產版本：從2025年10月30日開始**
+**預覽版本： 2025年10月23日；生產版本：自2025年11月6日起一週**
 
 我們已更新對話方塊，以便使用與Workfront其他區域一致的更現代化設計來新增及編輯公司。
 
@@ -1291,7 +1291,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 此更新包含區域的視覺化變更。 功能未變更。
 
-若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。**&#x200B;**
+若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。****
 
 +++
 

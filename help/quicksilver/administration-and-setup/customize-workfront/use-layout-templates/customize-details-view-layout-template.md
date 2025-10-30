@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
+source-git-commit: e5416fab4f4ad1f2c31edf962554ddd6a4c2f1e5
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '631'
 ht-degree: 0%
 
 ---
@@ -98,11 +98,7 @@ or billing record
 ## 自訂使用者在詳細資料檢視中看到的內容
 
 1. 開始使用版面配置範本，如[建立和管理版面配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)中所述。
-1. 按一下![自訂使用者看到的內容](assets/dropdown-arrow-12x12.png)下的向下箭頭&#x200B;**向下箭頭**，然後按一下&#x200B;**專案**、**任務**、**問題**、**方案**&#x200B;或&#x200B;**Portfolio。**
-<!--
-, or billing record
--->
-
+1. 按一下![自訂使用者看到的內容](assets/dropdown-arrow-12x12.png)下的向下箭頭&#x200B;**向下箭頭**，然後按一下&#x200B;**專案**、**任務**、**問題**、**方案**&#x200B;或&#x200B;**Portfolio。**<!--, or billing record-->
 1. 在&#x200B;**詳細資料**&#x200B;區段中，執行下列任一項作業以自訂使用者在「詳細資料」檢視中看到的內容：
 
    * 拖曳任何區段標題![移動圖示](assets/move-icon---dots.png)以變更其順序。
@@ -112,6 +108,10 @@ or billing record
 
      預設會啟用所有欄位。 您可以選取或清除區域中的&#x200B;**全選**&#x200B;核取方塊，以顯示或隱藏該區域中的所有欄位。
 
+   <span class="preview">預覽環境中的範例影像：</span>
+   ![配置範本中的詳細資料檢視](assets/layout-template-details-view-updated-save-buttons.png)
+
+   生產環境中的影像範例：
    ![配置範本中的詳細資料檢視](assets/layout-template-details-view.png)
 
 1. <span class="preview">在預覽環境中：繼續自訂版面範本。 您可以隨時按一下&#x200B;**套用**&#x200B;以儲存進度。</span>
@@ -128,4 +128,4 @@ or billing record
 
    >[!TIP]
    >
-   >您可以隨時按一下[儲存]來儲存進度，然後再繼續修改範本。**&#x200B;**
+   >您可以隨時按一下[儲存]來儲存進度，然後再繼續修改範本。****
