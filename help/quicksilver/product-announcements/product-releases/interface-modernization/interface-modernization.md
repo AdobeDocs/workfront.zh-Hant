@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: bf4764cc1e20bf87fb1069ca432ee6303096313c
+source-git-commit: 7fb12a3fbdad661baf2d0ad472ce8017e178ddef
 workflow-type: tm+mt
-source-wordcount: '8788'
+source-wordcount: '8978'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,54 @@ ht-degree: 0%
 如需詳細資訊，請參閱[建立和編輯公司](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)。
 
 ## 專案
+
+### 使用範本將任務轉換為專案時介面更新
+
+**預覽版本： 2025年10月30日；生產版本：從2025年11月6日開始**
+
+使用範本將任務轉換為專案時，我們已更新「轉換為專案」方塊。 方塊的設計現在與「編輯專案」方塊相符。
+
+如需詳細資訊，請參閱[將任務轉換為專案](/help/quicksilver/manage-work/tasks/manage-tasks/convert-task-to-project.md)。
+
+<!--### New experience when bulk editing and single- or bulk-assigning tasks
+
+**Preview release: October 30, 2025; Production release: Starting on November 6, 2025**
+
+We have updated the Edit Tasks box when editing single tasks or editing them in bulk. The following changes are included in this update:
+
+* The Recalculate Custom Expressions option has been removed when updating tasks in bulk and has been added to the More menu in a task list, after selecting multiple tasks.
+
+* There is a new experience for assigning resources to tasks. This is now available both when editing one task or editing several tasks in bulk. The following fields have been removed from the Edit tasks box:
+
+* Allocations
+* Owner or Task Owner
+* Assignee's Role
+
+You can still find the removed fields when making advanced assignments on tasks.
+
+You will have a chance to switch between the old and the new experience for editing tasks for a limited time.
+
+For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).-->
+
+### 大量編輯和單一或大量指派問題時的新體驗
+
+**預覽版本： 2025年10月30日；生產版本：從2025年11月6日開始**
+
+編輯單一問題或大量編輯問題時，我們已更新編輯問題方塊。
+
+此更新包含下列變更：
+
+* 大量更新問題時，已移除重新計算自訂運算式選項。 在選取多個問題後，該選項已新增到問題清單中的更多選單。
+
+* 指派資源給問題的新體驗。 現在編輯一個問題或大量編輯多個問題時均可使用此功能。 下列欄位已從編輯問題方塊中移除：
+
+* 配置
+* 所有者或問題所有者
+* 受指派人角色
+
+在問題上進行進階指派時，您可以更新已移除的欄位。
+
+如需詳細資訊，請參閱[編輯問題](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md)。
 
 ### 專案自訂控制面板中新風險方塊和編輯風險方塊的介面更新
 
@@ -1243,7 +1291,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 此更新包含區域的視覺化變更。 功能未變更。
 
-若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。**&#x200B;**
+若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。****
 
 +++
 

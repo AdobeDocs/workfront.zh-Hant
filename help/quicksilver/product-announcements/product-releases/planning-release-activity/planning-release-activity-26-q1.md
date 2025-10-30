@@ -6,7 +6,7 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: ac079ad7cb4b696cb54ff5ad8ff34940d0d62913
+source-git-commit: 7fb12a3fbdad661baf2d0ad472ce8017e178ddef
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 0%
@@ -22,13 +22,28 @@ ht-degree: 0%
 如需針對Adobe Workfront Planning發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
 
 
+<!--## New field search box in the Filters, Fields, and Row colors icons in Planning views
+
+>[!NOTE]
+>
+>Preview: October 30, 2025 
+>Production fast release: November 13, 2025 
+>Production for everyone:  January 15, 2026 
+
+
+You can now search for a specific field when building a view element in record type view. The new search boxes have been added when you build a filter, sort, grouping, or when you configure your fields or row colors. Prior to this enhancement, you could simply scroll through the list of available fields.
+This improvement is available in all views.
+
+For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).-->
+
+
 ## 全域記錄型別，以及將全域記錄型別新增為其他工作區現有記錄型別的能力
 
 >[!NOTE]
 >
 >預覽： 2025年10月16日
->&#x200B;>生產快速發行： 2025年11月13日
->&#x200B;>適用於所有人的生產： 2026年1月15日
+>>生產快速發行： 2025年11月13日
+>>適用於所有人的生產： 2026年1月15日
 
 針對具有通用工作流程的多團隊組織實作Workfront Planning時，您可能需要為關鍵記錄型別（例如行銷活動或交付專案）定義一致結構和中繼資料，這些記錄型別可以新增到每個團隊的工作區，以擷取和管理其工作。
 
@@ -51,8 +66,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >預覽： 2025年10月16日
->&#x200B;>生產快速發行： 2025年11月13日
->&#x200B;>適用於所有人的生產： 2026年1月15日
+>>生產快速發行： 2025年11月13日
+>>適用於所有人的生產： 2026年1月15日
 
 我們引進了每個記錄型別30個連線欄位的限制。
 
@@ -65,8 +80,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >預覽： 2025年10月16日
->&#x200B;>生產快速發行： 2025年11月13日
->&#x200B;>適用於所有人的生產： 2026年1月15日
+>>生產快速發行： 2025年11月13日
+>>適用於所有人的生產： 2026年1月15日
 
 將欄位選擇新增至單選或多選欄位時，Workfront現在會為每個選擇指派不重複的使用者友善值。 在此改善之前，Workfront產生的英數字元ID難以瞭解及用於API呼叫和其他整合。
 
