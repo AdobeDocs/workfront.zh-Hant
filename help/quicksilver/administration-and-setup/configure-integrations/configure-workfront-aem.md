@@ -8,7 +8,7 @@ author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 024b8606-a9b7-413a-b393-8e5cdff37dd4
-source-git-commit: 0841594c855c39fedf4eab5492994ff4f7acfbdf
+source-git-commit: 8233bcad8409b6f293d365fe871338e643a410dc
 workflow-type: tm+mt
 source-wordcount: '1855'
 ht-degree: 0%
@@ -50,6 +50,8 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
++++
+
 ## [!DNL Workfront for AEM Assets]
 
 [!DNL Workfront for AEM Assets connector]可讓您的組織執行下列動作：
@@ -71,7 +73,7 @@ ht-degree: 0%
 
 在安裝[!DNL Workfront]AEM Assets[!UICONTROL 的]聯結器之前，請確定符合下列必要條件：
 
-* [!UICONTROL AEM Assets]已安裝並設定，版本6.5或更新版本。 如需有關安裝[!UICONTROL AEM Assets]的資訊，請參閱[[!DNL Adobe Experience Manager] 檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager)。
+* [!UICONTROL AEM Assets]已安裝並設定，版本6.5或更新版本。 如需有關安裝[!UICONTROL AEM Assets]的資訊，請參閱[[!DNL Adobe Experience Manager] 檔案](https://experienceleague.adobe.com/en/docs/experience-manager)。
 * （視條件而定）如果防火牆規則未如預期允許流量，請將叢集的IP位址和/或網域新增至允許清單。 如需詳細資訊，請參閱[設定防火牆的允許清單](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)。
 
 ## 安裝[!DNL Workfront for AEM Assets]聯結器封裝 {#install-the-workfront-for-aem-assets-connector-package}
@@ -286,7 +288,7 @@ ht-degree: 0%
 ### 在[!DNL AEM assets]中設定使用者 {#set-up-users-in-aem-assets}
 
 1. 以Workfront管理員身分登入[!DNL AEM Assets]。
-1. 按一下「**[!UICONTROL 工具]**」>「{2&#x200B;}**{&#x200B;4}安全性**」>「**[!UICONTROL 使用者]**」。**&#x200B;**
+1. 按一下「**[!UICONTROL 工具]**」>「{2&#x200B;}**{&#x200B;4}安全性**」>「**[!UICONTROL 使用者]**」。****
 
 1. （視條件而定）如果使用者在AEM中沒有使用者設定檔，請建立AEM使用者設定檔。
 
