@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '802'
 ht-degree: 0%
 
 ---
 
 # 使用版面配置範本自訂篩選器、檢視和群組
+
+{{preview-fast-release-general}}
 
 作為Adobe Workfront管理員，您可以使用版面配置範本來指定哪些清單控制項會出現在篩選、檢視和分組下拉式功能表中。 這些功能表會出現在整個Workfront的上方清單中，例如專案的任務清單：
 
@@ -116,7 +118,13 @@ ht-degree: 0%
     </tbody> 
    </table>
 
-1. 繼續自訂版面範本。
+1. <span class="preview">在預覽環境中：繼續自訂版面範本。 您可以隨時按一下&#x200B;**套用**&#x200B;以儲存進度。</span>
+
+   <span class="preview">或</span>
+
+   <span class="preview">如果您已完成自訂，請按一下&#x200B;**儲存並關閉**。</span>
+
+1. 在生產環境中：繼續自訂版面範本。
 
    或
 
@@ -124,4 +132,4 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >您可以隨時按一下「儲存」以儲存進度，然後繼續修改範本。
+   >您可以隨時按一下[儲存]來儲存進度，然後再繼續修改範本。****

@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '861'
 ht-degree: 0%
 
 ---
 
 # 將使用者指派至版面配置範本
+
+{{preview-fast-release-general}}
 
 您可以將已建立的版面配置範本指派給任何需要使用的使用者、工作角色、團隊或群組。
 
@@ -78,7 +80,7 @@ ht-degree: 0%
 
    您一次最多可以指派100個使用者。
 
-1. 按一下&#x200B;**完成**，然後按一下左下角的&#x200B;**儲存**。
+1. 按一下&#x200B;**完成**，然後按一下左下角的&#x200B;**儲存**&#x200B;或&#x200B;<span class="preview">**儲存並關閉**</span>。
 
    此步驟會完成建立及指派配置圖範本的程式。
 

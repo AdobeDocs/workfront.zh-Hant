@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 3%
+source-wordcount: '659'
+ht-degree: 2%
 
 ---
 
 # 使用版面配置範本自訂使用者介面術語
+
+{{preview-fast-release-general}}
 
 身為Adobe Workfront管理員，您可以使用版面配置範本來變更某些物件的標籤，這些標籤會顯示在Workfront中，以符合組織中使用的辭彙。
 
@@ -137,7 +139,13 @@ ht-degree: 3%
    >
    >在您按一下「完成」（甚至在儲存版面配置範本後）後，您隨時可以返回「設定術語」設定，然後按一下任何自訂術語旁的「重設」(Reset)，以將其恢復為預設狀態。
 
-1. 繼續自訂版面範本。
+1. <span class="preview">在預覽環境中：繼續自訂版面範本。 您可以隨時按一下&#x200B;**套用**&#x200B;以儲存進度。</span>
+
+   <span class="preview">或</span>
+
+   <span class="preview">如果您已完成自訂，請按一下&#x200B;**儲存並關閉**。</span>
+
+1. 在生產環境中：繼續自訂版面範本。
 
    或
 

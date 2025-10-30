@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 066a55ef-1904-4678-8866-c59428f78bc1
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
 
 # 授予配置範本的管理存取權
+
+{{preview-fast-release-general}}
 
 作為Adobe Workfront管理員，您可以將版面配置範本的管理存取權授與特定群組的群組管理員，以便他們編輯範本。 這不會將範本指派給群組中的使用者。
 
@@ -69,4 +71,4 @@ ht-degree: 0%
    >   
    >* 如果您未將管理存取權授與特定群組的群組管理員，則所有可編輯使用者帳戶的使用者都會擁有版面配置範本的管理存取權。 有些Workfront管理員故意選擇不授予版面配置範本的管理存取權，以便使其成為系統層級的版面配置範本。
 
-1. 您可以隨時按一下[儲存]來儲存進度，然後再繼續修改範本。**&#x200B;**
+1. 您可以隨時按一下[套用]<span class="preview">****</span>&#x200B;或[儲存]****&#x200B;來儲存進度，然後稍後繼續修改範本。

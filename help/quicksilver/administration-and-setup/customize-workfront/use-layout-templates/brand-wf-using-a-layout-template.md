@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 # 使用版面配置範本的品牌Adobe Workfront
 
 <!--Audited: 09/2024-->
+
+{{preview-fast-release-general}}
 
 >[!IMPORTANT]
 >
@@ -86,7 +88,13 @@ ht-degree: 0%
     </tbody> 
    </table>
 
-1. 繼續自訂版面範本。
+1. <span class="preview">在預覽環境中：繼續自訂版面範本。 您可以隨時按一下&#x200B;**套用**&#x200B;以儲存進度。</span>
+
+   <span class="preview">或</span>
+
+   <span class="preview">如果您已完成自訂，請按一下&#x200B;**儲存並關閉**。</span>
+
+1. 在生產環境中：繼續自訂版面範本。
 
    或
 
@@ -94,8 +102,6 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >您可以隨時按一下「儲存」以儲存進度，然後繼續修改範本。
-
-1. 按一下「**儲存**」。
+   >您可以隨時按一下[儲存]來儲存進度，然後再繼續修改範本。****
 
 如需配置範本的詳細資訊，請參閱[建立和管理配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)。

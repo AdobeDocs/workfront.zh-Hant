@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
 
 # 使用版面配置範本自訂物件標頭
+
+{{preview-fast-release-general}}
 
 身為Adobe Workfront管理員或群組管理員，您可以使用版面配置範本來設定使用者在開啟物件頁面時，在物件標題中看到的欄位。
 
@@ -95,9 +97,15 @@ ht-degree: 0%
    ![新增欄位至標頭](assets/add-field-to-header-in-lt-list.png)
 
 
-1. （選用）拖放以不同順序新增的欄位。
+1. （選用）以不同順序拖放欄位。
 
-1. 繼續自訂版面範本。
+1. <span class="preview">在預覽環境中：繼續自訂版面範本。 您可以隨時按一下&#x200B;**套用**&#x200B;以儲存進度。</span>
+
+   <span class="preview">或</span>
+
+   <span class="preview">如果您已完成自訂，請按一下&#x200B;**儲存並關閉**。</span>
+
+1. 在生產環境中：繼續自訂版面範本。
 
    或
 
@@ -105,4 +113,4 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >您可以隨時按一下「儲存」以儲存進度，然後繼續修改範本。
+   >您可以隨時按一下[儲存]來儲存進度，然後再繼續修改範本。****

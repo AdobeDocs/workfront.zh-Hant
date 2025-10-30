@@ -8,16 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '614'
 ht-degree: 0%
 
 ---
 
 # 使用版面配置範本自訂詳細資料檢視
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
+{{preview-fast-release-general}}
 
 作為Adobe Workfront管理員，您可以使用版面配置範本來決定當使用者在檢視任務、問題、檔案、方案或投資組合時，按一下左側面板中的詳細資訊圖示![詳細資訊圖示](assets/project-details-icon.png)時會出現哪些資訊。
 
@@ -114,7 +114,13 @@ or billing record
 
    ![配置範本中的詳細資料檢視](assets/layout-template-details-view.png)
 
-1. 繼續自訂版面範本。
+1. <span class="preview">在預覽環境中：繼續自訂版面範本。 您可以隨時按一下&#x200B;**套用**&#x200B;以儲存進度。</span>
+
+   <span class="preview">或</span>
+
+   <span class="preview">如果您已完成自訂，請按一下&#x200B;**儲存並關閉**。</span>
+
+1. 在生產環境中：繼續自訂版面範本。
 
    或
 
@@ -122,4 +128,4 @@ or billing record
 
    >[!TIP]
    >
-   >您可以隨時按一下「儲存」以儲存進度，然後繼續修改範本。
+   >您可以隨時按一下[儲存]來儲存進度，然後再繼續修改範本。****
