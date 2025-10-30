@@ -5,16 +5,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e7952cf-f07a-412b-9f9a-623cdba46849
-source-git-commit: 5706ebd11985b9e67c93686918f8f0327adabdf1
+source-git-commit: 5c80dca8a9f7dd5a693db9bf22738602da8b521b
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 1%
+source-wordcount: '725'
+ht-degree: 2%
 
 ---
 
 # 建立和自訂優先順序
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽沙箱」環境中使用，並且正在分階段推出到生產環境。</span>
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -99,7 +97,7 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 1. 在左側面板中，按一下&#x200B;**專案偏好設定** > **優先順序**。
 
 1. 按一下您要為（**專案**、**任務**&#x200B;或&#x200B;**問題**）建立優先順序的物件型別標籤。
-1. 按一下資料表&#x200B;<span class="preview">**底部的**&#x200B;新增資料列</span>，或&#x200B;**新增優先順序**。
+1. 按一下表格底部的&#x200B;**新列**。
 1. 為優先順序設定下列選項：
 
    * **優先順序名稱**：輸入優先順序的名稱。
@@ -119,8 +117,6 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 
      您不能將隱藏的優先順序設為預設值。
 
-     <div class="preview">
-
      預設優先順序以圖示![預設優先順序圖示](assets/default-icon.png)表示。 若要選擇新的預設值，請執行下列任一項作業：
 
       * 選取優先順序名稱旁的核取方塊，並在熒幕底部的動作列中選取&#x200B;**設定為預設**。
@@ -128,10 +124,8 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 
         新的預設優先順序會以圖示標示。
 
-     </div>
-
    * **描述**：輸入優先順序的描述，以說明其功能。
-   * <span class="preview">**隱藏選擇**</span>&#x200B;或&#x200B;**隱藏**： <span class="preview">選取&#x200B;**是**</span>&#x200B;或選取核取方塊以隱藏不再需要的優先順序。
+   * **隱藏選擇**：選取&#x200B;**是**&#x200B;以隱藏不再需要的優先順序。
 
      隱藏的優先順序在Workfront中的任何位置都不會顯示，因此使用者無法為其專案、任務或問題選擇它。
 

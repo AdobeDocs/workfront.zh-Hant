@@ -8,16 +8,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0331be3c-a2d8-4788-a41a-5e971fb4bbe1
-source-git-commit: 5706ebd11985b9e67c93686918f8f0327adabdf1
+source-git-commit: 5c80dca8a9f7dd5a693db9bf22738602da8b521b
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 3%
+source-wordcount: '629'
+ht-degree: 4%
 
 ---
 
 # 建立或自訂問題嚴重程度
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽沙箱環境中可用，並以分階段推出到生產環境的方式發行。
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -97,7 +95,7 @@ Workfront有五個內建問題嚴重性：
 
 1. 在左側面板中，按一下&#x200B;**專案偏好設定** > **嚴重程度**。
 
-1. 如果您正在建立新的嚴重程度，請按一下資料表&#x200B;<span class="preview">**底部的**&#x200B;新列</span>，或&#x200B;**新增嚴重程度**。
+1. 如果您正在建立新的嚴重程度，請按一下表格底部的&#x200B;**新增列**。
 1. 針對新嚴重性設定下列選項，或編輯現有嚴重性的選項：
 
    * **嚴重程度名稱**：輸入嚴重程度的名稱。
@@ -117,8 +115,6 @@ Workfront有五個內建問題嚴重性：
 
      您無法設定隱藏嚴重程度的預設值。
 
-     <div class="preview">
-
      預設嚴重程度以圖示![預設嚴重程度圖示](assets/default-icon.png)表示。 若要選擇新的預設值，請執行下列任一項作業：
 
       * 選取嚴重度名稱旁的核取方塊，並在熒幕底部的動作列中選取&#x200B;**設定預設值**。
@@ -126,10 +122,8 @@ Workfront有五個內建問題嚴重性：
 
         新的預設嚴重程度會以圖示標示。
 
-     </div>
-
    * **描述**：輸入嚴重程度的描述，以說明其功能。
-   * <span class="preview">**隱藏選擇**</span>&#x200B;或&#x200B;**隱藏**： <span class="preview">選取&#x200B;**是**</span>&#x200B;或選取核取方塊以隱藏不再需要的嚴重程度。
+   * **隱藏選擇**：選取&#x200B;**是**&#x200B;以隱藏不再需要的嚴重程度。
 
      隱藏的嚴重程度不會在Workfront的任何位置顯示，因此使用者無法針對其問題選擇它。
 
