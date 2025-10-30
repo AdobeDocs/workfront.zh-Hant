@@ -6,7 +6,7 @@ description: 您可以將現有方案新增至投資組合。 由於計畫不能
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 73dbe277-12d2-4041-8a02-91ccf5f8b465
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 將現有方案新增至投資組合
 
-<!--Audited: 5/2025-->
+<!--Audited: 10/2025-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
@@ -37,15 +37,15 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>[!UICONTROL 標準]</p><p>[!UICONTROL 計畫]</p> </td> 
+   <td> <p>[！UICONTROL標準]</p><p>[！UICONTROL計畫]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[!UICONTROL Edit]對[!UICONTROL Portfolios]和[!UICONTROL Programs]的存取權 </p> </td> 
+   <td> <p>[！UICONTROL Edit]對[！UICONTROL Portfolios]和[！UICONTROL Programs]的存取權 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>投資組合和計畫的[!UICONTROL 管理]許可權</p> </td> 
+   <td> <p>投資組合和計畫的[！UICONTROL管理]許可權</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -93,12 +93,12 @@ ht-degree: 0%
    >
    >新增現有方案會將與該方案相關聯的所有專案帶入投資組合。 請留意勿以這種方式無意中移動專案。
 
-1. 在&#x200B;**[!UICONTROL 將程式新增至此Portfolio]**&#x200B;欄位中，輸入程式名稱，然後在其顯示在清單中時選取它。<!--see the name of this field, I suggested changes here-->
+1. 在&#x200B;**[!UICONTROL 將程式新增至此投資組合]**&#x200B;欄位中，輸入程式的名稱，然後當它顯示在清單中時選取它。<!--see the name of this field, I suggested changes here-->
 
    您可以新增多個計畫。
 
 1. （選擇性）如果您決定不將方案新增至投資組合，請按一下方案名稱旁的&#x200B;**刪除**&#x200B;圖示![刪除圖示](assets/delete-icon.png)。
 
-1. 按一下&#x200B;**[!UICONTROL 新增程式]**。<!--check this button in the UI after they implemented the changes??-->
+1. 按一下&#x200B;**[!UICONTROL 新增程式]**。
 
    程式會顯示在您選取的投資組合上的&#x200B;**[!UICONTROL 程式]**&#x200B;索引標籤中。

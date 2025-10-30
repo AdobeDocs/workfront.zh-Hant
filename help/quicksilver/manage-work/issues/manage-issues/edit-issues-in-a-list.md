@@ -6,28 +6,25 @@ description: 您可以編輯個別問題，也可以編輯問題清單或報告�
 author: Alina
 feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
-source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
+source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '992'
 ht-degree: 1%
 
 ---
 
 # 編輯清單中的問題
 
-<!--Audited: 08/2025-->
+<!--Audited: 10/2025-->
 
-<!--Audited: 03/2025-->
 
-<!--
-<div class="preview"> 
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 從預覽版開始的一週起，生產環境中也將提供相同功能給所有客戶。
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+如需詳細資訊，請參閱[介面現代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。
 
-</div> 
--->
+</div>
 
 您可以編輯個別問題，也可以編輯問題清單或報告中的問題。 本文說明如何編輯清單中的問題。
 
@@ -175,24 +172,15 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    編輯所有問題的資訊與編輯以下區域時編輯一個問題的資訊相同：
 
-   * 概觀
-   * 設定
-   * 自訂表單
-   * 指派
-   * 評論
-
-   <!--at release for unshim, replace the list above with this:
-
    <div class="preview">
 
-   * Overview
-   * Assignments
-   * Custom Forms 
-   * Settings
-   * Comment
+   * 概觀
+   * 指派
+   * 自訂表單
+   * 設定
+   * 評論
 
    </div>
-   -->
 
    如需有關編輯問題的詳細資訊，請參閱[編輯問題](../../../manage-work/issues/manage-issues/edit-issues.md)。
 
@@ -206,16 +194,11 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    您只能在表單上編輯附加到所有選定問題並且您有權編輯的欄位。
 
-   <!--1. (Optional and conditional) Depending what environment you use to edit the issues, do one of the following to recalculate custom expressions for all issues:
-   1. In the Production environment, ADD THE SENTENCE FROM THE NEXT STEP HERE:-->
+1. （選擇性和條件性）根據您用於編輯問題的環境，執行下列任一項作業以重新計算所有問題的自訂運算式：
 
-1. （選擇性）在&#x200B;**自訂Forms**&#x200B;區域中，選取&#x200B;**重新計算自訂運算式**&#x200B;選項，以確保附加到所選問題的自訂Forms上的所有計算自訂欄位都是最新狀態。
+   1. 在生產環境中，在&#x200B;**自訂Forms**&#x200B;區域中，選取&#x200B;**重新計算自訂運算式**&#x200B;選項，以確保附加到所選問題的自訂Forms上的所有計算自訂欄位都是最新狀態。
 
-   <!--  
-   <div class="preview">
-
-   1. In the Preview environment, with all the issues selected in the list, click the **More** menu ![More menu](assets/more-icon.png) at the top of the issue list, then click **Recalculate Expressions**.
-   -->
+   1. <span class="preview">在預覽環境中，在清單中選取所有問題，按一下問題清單頂端的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-icon.png)，然後按一下&#x200B;**重新計算運算式**。</span>
 
    >[!IMPORTANT]
    >

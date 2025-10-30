@@ -6,7 +6,7 @@ description: 專案請求在Adobe Workfront中顯示為[!UICONTROL 已請求]狀
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1acfb885-0da3-495d-ba66-e80e339e90de
-source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
+source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # 檢閱請求的專案
+
+<!--Audited: 10/2025-->
 
 當提交多個專案請求以供稽核時，專案管理辦公室或專案組合委員會可以開會以稽核提交的請求，並決定專案請求核准。 專案請求在[!UICONTROL 中顯示為狀態為]已請求[!DNL Adobe Workfront]的專案。
 
@@ -42,16 +44,16 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>[!UICONTROL 標準] </p> 
-   <p>[!UICONTROL 計畫]</p> </td> 
+   <td> <p>[！UICONTROL標準] </p> 
+   <p>[！UICONTROL計畫]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[!UICONTROL 檢視]對產品組合的存取權或以上版本</p> <p>[!UICONTROL Edit]專案的存取權</p>  </td> 
+   <td> <p>[！UICONTROL檢視]對產品組合的存取權或以上版本</p> <p>[！UICONTROL Edit]專案的存取權</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>投資組合上的[!UICONTROL View]許可權或更高</p> <p>[!UICONTROL Manage]專案許可權可更新其狀態</p>  </td> 
+   <td> <p>投資組合上的[！UICONTROL View]許可權或更高</p> <p>[！UICONTROL Manage]專案許可權可更新其狀態</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -89,7 +91,7 @@ ht-degree: 0%
 
 您可以建立專案報告，以檢視哪些專案具有[!UICONTROL 已要求]的狀態。
 
-如需有關建立專案報告以核准專案請求的詳細資訊，請參閱[[!UICONTROL 核准業務案例]](../../../manage-work/projects/define-a-business-case/approve-business-case.md#build-a-report)中的[建立專案報告以核准業務案例](../../../manage-work/projects/define-a-business-case/approve-business-case.md)區段。 
+如需有關建立專案報告以核准專案請求的詳細資訊，請參閱[[!UICONTROL 核准業務案例]](../../../manage-work/projects/define-a-business-case/approve-business-case.md#build-a-report)中的[建立專案報告以核准業務案例](../../../manage-work/projects/define-a-business-case/approve-business-case.md)區段。
 
 ## 檢閱投資組合中請求的專案
 
@@ -101,7 +103,7 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   > 除了具有&#x200B;**[!UICONTROL 已要求]**&#x200B;的狀態外，專案還必須與選取的Portfolio建立關聯，才能顯示在此清單中。
+   > 除了具有&#x200B;**[!UICONTROL 已要求]**&#x200B;的狀態外，專案還必須與選取的Portfolio建立關聯，才能顯示在此清單中。
 
 1. 按一下清單中專案的名稱以開啟。
 1. 按一下左側面板中的&#x200B;**[!UICONTROL 專案詳細資料]**。
@@ -117,13 +119,13 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >沒有通知可提醒提交業務案例核准的使用者其專案請求是否核准或拒絕。 
+     >沒有通知可提醒提交業務案例核准的使用者其專案請求是否核准或拒絕。
 
      或
 
    * 在&#x200B;**[!UICONTROL 狀態]**&#x200B;下拉式功能表中，將專案狀態變更為任何其他狀態。
 
      ![從下拉式清單變更專案狀態](assets/project-status-change-from-drop-down-in-header-nwe-350x294.png)
- 
 
- 
+
+

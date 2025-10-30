@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
+source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1731'
 ht-degree: 0%
 
 ---
@@ -18,15 +18,13 @@ ht-degree: 0%
 
 <!--Audited: 10/2024-->
 
-<!--
-<div class="preview"> 
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 從預覽版開始的一週起，生產環境中也將提供相同功能給所有客戶。
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+如需詳細資訊，請參閱[介面現代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。
 
-</div> 
--->
+</div>
 
 您可以將問題指派給使用者、角色和團隊，以指出誰負責完成問題。 如需指派問題的一般資訊，請參閱[修改問題指派的概觀](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)。
 
@@ -204,10 +202,9 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 ## 大量指派問題
 
-<!--
-Assigning issues in bulk is different depending on what environment you choose to do this. 
+根據您選擇執行的環境，大量指派問題會有所不同。
 
-### Assign issues in bulk in the Production environment -->
+### 在生產環境中大量指派問題
 
 1. 前往您要大量指派的問題清單。
 1. 在清單中選取數個問題。
@@ -232,33 +229,32 @@ Assigning issues in bulk is different depending on what environment you choose t
 1. 按一下「**儲存變更**」。
 1. （選擇性和條件性）當指派至或指派欄位顯示在您的問題清單中時，按一下這些欄中的一個以尋找問題，然後按一下受指派人名稱旁的&#x200B;**X圖示**，以將其從問題中移除。
 
-<!--
 <div class="preview">
 
-### Assign issues in bulk in the Preview environment
+### 在預覽環境中大量指派問題
 
-1. Go to a list of issues that you want to assign in bulk. 
-1. Select several issues in the list. 
-1. Click the **Edit icon** ![Edit icon](assets/qs-edit-icon.png).
+1. 前往您要大量指派的問題清單。
+1. 在清單中選取數個問題。
+1. 按一下&#x200B;**編輯圖示** ![編輯圖示](assets/qs-edit-icon.png)。
 
-   The **Edit Issues** dialog box opens.
+   **編輯問題**&#x200B;對話方塊開啟。
 
-1. Click **Assignments** in the left panel, and in the **Assignments** area, start typing the name of a user, role, or team in the **Search people, roles, or teams** field, then click it when it displays in the list
+1. 按一下左側面板中的&#x200B;**工作總攬**，然後在&#x200B;**工作總攬**&#x200B;區域中，開始在&#x200B;**搜尋人員、角色或團隊**&#x200B;欄位中輸入使用者、角色或團隊的名稱，然後當它顯示在清單中時按一下它
 
-   Or
+   或
 
-   Click **Assign to me** to assign the issues to yourself.
+   按一下「**指派給我**」以指派問題給您自己。
 
    >[!IMPORTANT]
    >
-   >If any of the issues is already assigned, the resources you indicate here are added to the issues instead of replacing the existing resources on the issues. 
-   
-1. (Optional) If you want to remove existing assignees from all issues, click the **x** next to their name.
+   >如果已經指派任何問題，您在此處指示的資源會新增到問題中，而不是取代問題上的現有資源。
 
-1. (Optional) Update the Planned Hours field. For more information, see [Edit issues](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md). 
+1. （選擇性）如果您想要從所有問題中移除現有的受指派人，請按一下其名稱旁的&#x200B;**x**。
 
-1. Click **Save**.
-1. (Optional and conditional) When the Assigned to or the Assignments fields display in your list of issues, click inside one of these columns for an issue, then click the **X icon** next to the name of an assignee to remove it from the issue.
+1. （選用）更新「計畫時數」欄位。 如需詳細資訊，請參閱[編輯問題](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md)。
+
+1. 按一下「**儲存**」。
+1. （選擇性和條件性）當指派至或指派欄位顯示在您的問題清單中時，按一下這些欄中的一個以尋找問題，然後按一下受指派人名稱旁的&#x200B;**X圖示**，以將其從問題中移除。
 
 </div>
--->
+
