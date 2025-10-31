@@ -6,7 +6,7 @@ description: 您可以編輯專案範本，以反映未來專案的程式與設�
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 00e693fc8b35a59f6ed212bc30da7f85cc78c845
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
 source-wordcount: '5672'
 ht-degree: 2%
@@ -126,7 +126,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    >
    >如需詳細資訊區域中顯示的所有欄位相關資訊，請使用下方的「編輯範本」方塊繼續編輯所有欄位。
 
-1. （視條件而定）若要編輯範本的所有相關資訊，請按一下範本名稱旁的&#x200B;**更多**&#x200B;功能表![更多圖示](assets/qs-more-icon-on-an-object.png)，然後按一下&#x200B;**編輯**。
+1. （視條件而定）若要編輯範本的所有相關資訊，請按一下範本名稱旁的&#x200B;**更多**&#x200B;功能表![更多圖示](assets/more-icon.png)，然後按一下&#x200B;**編輯**。
 
    **編輯範本**&#x200B;方塊開啟。 此方塊中的區段包含「範本詳細資訊」區段中的可用欄位以及其他欄位。
 
@@ -383,7 +383,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 1. （選用）更新自訂表單上任何欄位中的資訊。 此資訊將會傳輸至將使用範本建立的專案。
 
-1. （選擇性）按一下自訂表單名稱右邊的&#x200B;**x**&#x200B;圖示，然後按一下[移除]&#x200B;**&#x200B;**&#x200B;以從範本中移除它。
+1. （選擇性）按一下自訂表單名稱右邊的&#x200B;**x**&#x200B;圖示，然後按一下[移除]****&#x200B;以從範本中移除它。
 
 1. （選擇性）根據您要修改的資訊，繼續編輯下列區段。
 
@@ -670,7 +670,7 @@ For instructions on editing Linked folders, see [Edit workflow values in a proje
 1. 在&#x200B;**編輯範本**&#x200B;方塊中，按一下&#x200B;**註解**。
 
    ![編輯範本方塊註解區段](assets/edit-template-box-comment-section.png)
-1. 新增您正在進行之更新的相關註解、標籤其他使用者，或選取&#x200B;**我的公司私有**&#x200B;方塊，讓貴公司的使用者無法存取更新，然後按一下[儲存]。**&#x200B;**
+1. 新增您正在進行之更新的相關註解、標籤其他使用者，或選取&#x200B;**我的公司私有**&#x200B;方塊，讓貴公司的使用者無法存取更新，然後按一下[儲存]。****
 
    >[!TIP]
    >
@@ -820,12 +820,12 @@ To edit templates in bulk:
 
 若要停用範本：
 
-1. 移至使用中的範本，然後按一下範本名稱旁的&#x200B;**更多** ![更多圖示](assets/qs-more-icon-on-an-object.png)功能表，然後按一下&#x200B;**停用**。
+1. 移至使用中的範本，然後按一下範本名稱旁的&#x200B;**更多** ![更多圖示](assets/more-icon.png)功能表，然後按一下&#x200B;**停用**。
 
    ![停用範本](assets/deactivate-template-link-in-more-menu.png)
 
    範本已不在使用中，使用者無法找到範本以從中建立專案。
-1. （選擇性）若要啟用範本，請按一下範本名稱旁的&#x200B;**更多** ![更多圖示](assets/qs-more-icon-on-an-object.png)功能表，然後按一下&#x200B;**啟用**。
+1. （選擇性）若要啟用範本，請按一下範本名稱旁的&#x200B;**更多** ![更多圖示](assets/more-icon.png)功能表，然後按一下&#x200B;**啟用**。
 
    此範本現在已啟用，可附加至專案或用來建立專案。
 
@@ -850,7 +850,7 @@ Editing a template differs depending on what environment you choose.
    >
    >For information about all fields that display in the Details area, continue with editing all fields using the Edit Template box below.
 
-1. (Conditional) To edit all information about the template, click the **More** menu ![More icon](assets/qs-more-icon-on-an-object.png) next to the name of the template, then click **Edit**.
+1. (Conditional) To edit all information about the template, click the **More** menu ![More icon](assets/more-icon.png) next to the name of the template, then click **Edit**.
 
    The **Edit Template** box opens. The sections in this box contain the same fields available in  the Template Details section .
 

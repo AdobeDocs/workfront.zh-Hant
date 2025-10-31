@@ -6,7 +6,7 @@ description: 我們建議您停用不再使用的範本，而不是刪除它們�
 author: Alina
 feature: Work Management
 exl-id: 41e0979c-f8ef-4a07-8848-e4ee8cc212c5
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 0%
@@ -95,6 +95,6 @@ ht-degree: 0%
 
    或
 
-   按一下範本名稱以存取它，然後按一下&#x200B;**更多**&#x200B;功能表![更多圖示](assets/qs-more-icon-on-an-object.png)，然後&#x200B;**刪除範本>是，刪除它**。
+   按一下範本名稱以存取它，然後按一下&#x200B;**更多**&#x200B;功能表![更多圖示](assets/more-icon.png)，然後&#x200B;**刪除範本>是，刪除它**。
 
    範本無法再與專案建立關聯。

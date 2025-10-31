@@ -6,16 +6,16 @@ description: 您可以從「範本」區域建立及刪除範本。 建立新範
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 3%
+source-wordcount: '648'
+ht-degree: 5%
 
 ---
 
 # 建立專案範本
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 10/2025 -->
 
 您可以從「範本」區域建立及刪除範本。 建立新範本時，您可以為所有任務和未來專案設定輸入資訊。 然後，此資訊將傳輸至您從範本建立的任何專案。
 
@@ -94,7 +94,7 @@ ht-degree: 3%
 
 ## 建立範本
 
-1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**範本**。
+{{step1-to-templates}}
 
 1. 按一下&#x200B;**新增範本**。
 
@@ -104,33 +104,69 @@ ht-degree: 3%
 
 1. 在範本標題中指定新範本的名稱，然後按&#x200B;**Enter。**
 1. 按一下左側面板中的&#x200B;**範本任務**&#x200B;區段。
-1. 按一下&#x200B;**開始新增範本工作**。
+1. 按一下&#x200B;**開始新增範本任務**&#x200B;以新增內嵌任務
 
    或
 
-   按一下&#x200B;**新增範本任務**&#x200B;以開始新增任務至您的範本。
+   按一下&#x200B;**新增範本任務**，開始在&#x200B;**新增範本任務**&#x200B;方塊中將任務新增至範本。
 
-   將範本任務新增至範本與將任務新增至專案相同。
+   ![新範本任務方塊](assets/new-template-task-box.png)
 
-   如需將任務新增至專案的詳細資訊，請參閱[在專案中建立任務](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)。
+1. 更新下列區域的資訊：
+
+   * 概觀
+   * 財務
+   * 設定
+   * 指派
+   * 自訂表單
+   * 附加文件
+
+     更新範本任務的資訊類似於編輯專案上的任務。 如需詳細資訊，請參閱[編輯工作](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md)。
 
    >[!NOTE]
    >
    >您無法將週期性任務新增到範本。
 
-1. （選擇性）按一下工作清單右上角的&#x200B;**甘特圖**&#x200B;圖示，檢視範本工作清單的視覺化表示法。
+1. 按一下下列其中一項：
+
+   * **儲存範本任務**&#x200B;以儲存目前的範本任務並關閉[新增範本任務]方塊。
+   * **儲存範本任務並啟動另一個範本任務**&#x200B;以儲存目前的範本任務，並開啟另一個新範本任務方塊以新增另一個任務。
+   * **取消**&#x200B;以關閉此方塊而不儲存範本工作。
+1. （選擇性）新增範本任務後，在範本任務區段中，按一下任務清單右上角的&#x200B;**甘特圖**&#x200B;圖示，以檢視範本任務清單的視覺化表示法。
 
    >[!TIP]
    >
    >您無法直接從此甘特圖編輯任務。
 
-1. 若要新增資訊到您的新範本，請按一下&#x200B;**更多**&#x200B;功能表![更多圖示](assets/more-icon.png)，然後按一下&#x200B;**編輯**。
+1. 若要新增資訊到您的新範本，請按一下標題中範本名稱左側的&#x200B;**更多**&#x200B;功能表![更多圖示](assets/more-icon.png)，然後按一下&#x200B;**編輯**。
 
    如需有關編輯範本的資訊，請參閱[編輯專案範本](../../../manage-work/projects/create-and-manage-templates/edit-templates.md)。
 
-1. 按一下「**儲存變更**」。
-1. （選擇性）如果您想要新增其他專案至範本，請參閱文章[編輯專案範本](../../../manage-work/projects/create-and-manage-templates/edit-templates.md#add-additional-items-to-a-template)中的[新增其他專案至範本](../../../manage-work/projects/create-and-manage-templates/edit-templates.md)小節。
+   >[!NOTE]
+   >
+   >   專案範本與群組（或缺少群組）的關聯會影響專案、任務和問題偏好設定如何決定範本中的某些設定。
+   >
+   >如需詳細資訊，請參閱文章[建立和修改群組的專案範本](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)中的「偏好設定如何套用至範本和範本任務」一節。
 
-## 由群組關聯決定的範本設定
+1. 按一下「**儲存**」。
+1. （可選）將下列專案新增至範本
 
-專案範本與群組（或缺少群組）的關聯會影響專案、任務和問題偏好設定如何決定範本中的某些設定。 如需詳細資訊，請參閱文章[建立及修改群組的專案範本](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#create-and-modify-a-groups-project-templates)中的[建立及修改群組的專案範本](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)小節。
+   * 文件
+   * 風險
+   * 核准流程
+   * 計費費率
+   * 費用
+   * 佇列詳細資訊
+   * 主題群組與佇列主題
+
+1. （可選）將下列專案新增至範本中的工作：
+
+   * 文件
+   * 費用
+   * 核准
+
+   如需詳細資訊，請參閱文章[編輯專案範本](../../../manage-work/projects/create-and-manage-templates/edit-templates.md)中的「新增更多專案至範本」一節。
+
+
+
+

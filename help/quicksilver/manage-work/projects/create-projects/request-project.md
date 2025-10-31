@@ -6,16 +6,16 @@ description: 您可以先請求核准專案，然後再開始處理。 我們建
 author: Alina
 feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '557'
 ht-degree: 2%
 
 ---
 
 # 請求專案
 
-<!--Audited: April 2024-->
+<!--Audited: 10/2025-->
 
 您可以先請求核准專案，然後再開始處理。
 
@@ -114,10 +114,12 @@ ht-degree: 2%
 
    * 遵循與定義業務案例時建立專案相同的步驟。 (建議)
 
-     如需定義業務案例和請求專案的資訊，請參閱[為專案建立業務案例](../../../manage-work/projects/define-a-business-case/create-business-case.md)。
+     如需詳細資訊，請參閱[為專案建立業務案例](../../../manage-work/projects/define-a-business-case/create-business-case.md)。
 
    * 從頭開始或使用範本建立專案，並將狀態變更為&#x200B;**已要求**。
 
-     如需建立專案的詳細資訊，請參閱[建立專案](../../../manage-work/projects/create-projects/create-project.md)或[使用範本建立專案](../../../manage-work/projects/create-projects/create-project-from-template.md)。
+     如需詳細資訊，請參閱[建立專案](../../../manage-work/projects/create-projects/create-project.md)或[使用範本建立專案](../../../manage-work/projects/create-projects/create-project-from-template.md)。
 
-   您請求的專案具有&#x200B;**已請求**&#x200B;狀態，且若您將其與Portfolio建立關聯，該專案會顯示在Portfolio的&#x200B;**已請求專案**&#x200B;標籤上。 投資組合經理現在可以稽核它，並核准或拒絕它，在這種情況下，專案狀態將變更為&#x200B;**已核准**&#x200B;或&#x200B;**已拒絕**。
+   您請求的專案具有&#x200B;**已請求**&#x200B;狀態，且若您將其與Portfolio建立關聯，該專案會顯示在Portfolio的&#x200B;**已請求專案**&#x200B;標籤上。
+
+   投資組合經理現在可以稽核它，並核准或拒絕它，在這種情況下，專案狀態將變更為&#x200B;**已核准**&#x200B;或&#x200B;**已拒絕**。

@@ -6,16 +6,16 @@ description: 您可以使用範本作為框架，在Adobe Workfront中建立專�
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
-source-wordcount: '1159'
+source-wordcount: '1150'
 ht-degree: 1%
 
 ---
 
 # 使用範本建立專案
 
-<!-- Audited: 01/2024 -->
+<!-- Audited: 10/2025 -->
 
 您可以使用範本作為框架，在Adobe Workfront中建立專案。 如果您的專案經常重複，則使用範本作為新專案的一般時間表，可讓您無須重複建立相同的專案。
 
@@ -120,7 +120,7 @@ ht-degree: 1%
 
 1. 執行下列其中一項：
 
-   * 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果可用）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)。 按一下&#x200B;**專案**，然後展開&#x200B;**新增專案**。
+   * 按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，或Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png) （如果可用），然後按一下&#x200B;**專案**&#x200B;並展開&#x200B;**新專案**。
    * 移至投資組合，然後展開&#x200B;**新專案**。
 
      >[!TIP]
@@ -153,7 +153,7 @@ ht-degree: 1%
 
    請執行下列動作：
 
-   1. 從範本&#x200B;**選取**&#x200B;新專案。
+   1. 按一下&#x200B;**從範本新增專案**。
    1. 在&#x200B;**搜尋範本**&#x200B;欄位中，開始輸入範本的名稱，並在範本顯示在清單中時按一下它。
    1. 檢閱右側的範本詳細資訊。
 
@@ -179,19 +179,25 @@ ht-degree: 1%
 
       ![範本詳細資料](assets/new-project-from-template-small-box-with-template-details-panel.png)
 
+      <!--no longer available, after unshimming - Oct 2025:
       >[!NOTE]
       >
-      >如果您已將里程碑檢視套用至專案清單，請在&#x200B;**從範本新增區段**&#x200B;中按一下範本的名稱。
+      >If you have the Milestone View applied to the list of projects, click the name of a template in the **New from Template section**.
       >
       >
-      >從範本建立專案的![里程碑檢視](assets/create-project-from-template-box-from-milestone-view-nwe-350x275.png)
+      >![Milestone view of creating a project from a template](assets/create-project-from-template-box-from-milestone-view-nwe-350x275.png)
       >
+      -->
 
    **新專案**&#x200B;方塊開啟。
 
    ![新專案方塊](assets/new-project-from-template-box.png)
 
-1. 如果欄位已填入範本中，則該欄位會預先填入&#x200B;**新增專案**&#x200B;方塊。 您可以編輯預先填入的值，以更符合您的專案。 如需詳細資訊，請參閱[編輯專案](../../../manage-work/projects/manage-projects/edit-projects.md)。
+1. （視條件而定）如果欄位已填入範本中，則欄位會預先填入&#x200B;**新增專案**&#x200B;方塊。
+
+   編輯預先填入的值，以更符合您的專案。
+
+   如需詳細資訊，請參閱[編輯專案](../../../manage-work/projects/manage-projects/edit-projects.md)。
 1. 按一下&#x200B;**建立專案**。
 
    如果您在上一步沒有變更範本中定義的所有詳細資訊，這些詳細資訊會自動與新建立的專案建立關聯。
@@ -203,17 +209,21 @@ ht-degree: 1%
 {{step1-to-templates}}
 
 1. 按一下您要使用的範本名稱。
-1. 按一下&#x200B;**更多**&#x200B;功能表![更多圖示](assets/more-icon.png)，然後按一下&#x200B;**建立專案**。
+1. 按一下標題中範本名稱右側的&#x200B;**更多**&#x200B;功能表![更多圖示](assets/more-icon.png)，然後按一下&#x200B;**建立專案**。
 
    ![從範本建立專案](assets/project-sharing-on-template.png)
 
    **新專案**&#x200B;方塊開啟。
 
-1. 輸入專案名稱，然後檢閱每個區段並進行任何必要的變更。
+1. 輸入專案名稱。 Workfront使用範本名稱來命名新專案。
+
+1. 檢閱&#x200B;**新專案**&#x200B;方塊中的每個區段，並進行任何必要的變更。
 
    ![新專案方塊](assets/new-project-from-template-box.png)
 
-   如果欄位已填入範本中，則該欄位會預先填入&#x200B;**新增專案**&#x200B;方塊。 您可以編輯預先填入的值，以更符合您的專案。 如需詳細資訊，請參閱[編輯專案](../../../manage-work/projects/manage-projects/edit-projects.md)。
+   如果欄位已填入範本中，則該欄位會預先填入&#x200B;**新增專案**&#x200B;方塊。 您可以編輯預先填入的值，以更符合您的專案。
+
+   如需詳細資訊，請參閱[編輯專案](../../../manage-work/projects/manage-projects/edit-projects.md)。
 
 1. 按一下&#x200B;**建立專案**。
 

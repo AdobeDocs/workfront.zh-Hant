@@ -6,9 +6,9 @@ description: 專案是Adobe Workfront中的大型工作單位。 您可以從頭
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
-source-wordcount: '1241'
+source-wordcount: '1295'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--remove Preview and Production references-->
 
-<!-- Audited: 12/2023 -->
+<!-- Audited: 110/2025 -->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
@@ -169,14 +169,14 @@ ht-degree: 1%
 
 1. 執行下列其中一項：
 
-   * 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果可用）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)。 按一下&#x200B;**專案**，然後展開&#x200B;**新增專案**。
+   * 按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，或Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png) （如果可用），然後按一下&#x200B;**專案**&#x200B;並展開&#x200B;**新專案**。
    * 移至投資組合，然後展開&#x200B;**新專案**。
    * 前往方案，然後展開&#x200B;**新專案**。
    * 如果您是群組管理員，您也可以在您管理之群組的專案區段中建立專案。 如需詳細資訊，請參閱[建立和修改群組的專案](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md)。
 
    ![新專案功能表](assets/new-project-dropdown-nwe-350x358.png)
 
-1. 按一下功能表中的[新增專案]&#x200B;**&#x200B;**，從頭開始建立專案。
+1. 按一下功能表中的[新增專案]****，從頭開始建立專案。
 1. 輸入專案名稱。 按下Enter以儲存名稱。
 
    ![輸入專案名稱](assets/rename-untitled-project.png)
@@ -191,13 +191,21 @@ ht-degree: 1%
 
    如需將任務新增至專案的詳細資訊，請參閱[在專案中建立任務](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)。
 
-1. 按一下專案名稱旁的&#x200B;**更多**&#x200B;功能表，然後&#x200B;**編輯** ![編輯圖示](assets/qs-edit-icon.png)，即可編輯專案詳細資料。
+1. 按一下專案名稱右側的&#x200B;**更多**&#x200B;功能表，在標題中，然後按一下專案名稱旁的&#x200B;**編輯** ![編輯圖示](assets/qs-edit-icon.png)，即可編輯專案詳細資料。
 
-   **編輯專案**&#x200B;對話方塊開啟。
+   **編輯專案**&#x200B;方塊開啟。
+
+1. 新增專案的相關資訊。
 
    如需有關編輯專案的詳細資訊，請參閱[編輯專案](../../../manage-work/projects/manage-projects/edit-projects.md)。
 
-1. （選擇性）在設定專案設定並新增任務後，您可以將專案狀態變更為&#x200B;**目前**。
+   >[!TIP]
+   >
+   >專案的狀態應為Planning，或其他非「目前」的狀態。 這可讓您變更專案，而不需產生通知給專案參與者。
+
+1. 按一下[儲存]儲存變更。****
+
+1. （選擇性）設定專案設定並新增任務後，您可將專案標題中的專案狀態變更為&#x200B;**目前**。
 
    這表示專案現在已準備好開始，並且指派給任務的使用者現在可以開始處理它們。
 

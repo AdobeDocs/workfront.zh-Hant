@@ -7,14 +7,16 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 923deab4-205b-4312-9ec4-4471fd6cea26
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '470'
 ht-degree: 1%
 
 ---
 
 # 從專案建立範本
+
+<!--Audited: 10/2025-->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Note: Keep this article in the Creating and Managing Templates area with the detailed information that this contains. Since this is an article about creating TEMPLATES, this needs to be detailed under Templates; there is a similar article with almost the same title in Managing projects that points to this one - since this functionality is in the UI under Projects, this article must have a presence in that areas as well. Keep both, but make this one the only editable one (iterative))</p>
@@ -89,7 +91,7 @@ ht-degree: 1%
 ## 從專案建立範本
 
 1. 前往您要另存為範本的專案。
-1. 按一下&#x200B;**更多**&#x200B;功能表![更多圖示](assets/qs-more-icon-on-an-object.png)，然後&#x200B;**另存為範本**。
+1. 按一下&#x200B;**更多**&#x200B;功能表![更多圖示](assets/more-icon.png)，然後&#x200B;**另存為範本**。
 1. 指定範本的下列資訊：
 
    <table style="table-layout:auto"> 
@@ -97,7 +99,7 @@ ht-degree: 1%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">姓名</td> 
+      <td role="rowheader">範本名稱</td> 
       <td>指定範本的名稱。</td> 
      </tr> 
      <tr> 
@@ -112,29 +114,32 @@ ht-degree: 1%
         <li><strong>否</strong>：其他使用者找不到範本，也無法將其附加至專案。</li> 
        </ul> </td> 
      </tr> 
-     <tr> 
-      <td role="rowheader">自訂表單</td> 
-      <td>使用下拉式清單來選取要附加至範本的任何自訂表單。 如果有任何自訂表單已與專案相關聯，則會顯示這些自訂表單中的所有資料欄位。<br>您最多可以在單一範本上包含10個自訂表格。</td> 
-     </tr> 
     </tbody> 
    </table>
 
-1. 按一下&#x200B;**管理Forms**&#x200B;以移除或重新排序表格。 如需如何在範本上移除和重新排序自訂表單的相關資訊，請參閱[自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)。
+1. 按一下左側面板中的&#x200B;**自訂Forms**。
+1. 按一下&#x200B;**新增自訂表單**&#x200B;欄位，然後開始輸入自訂專案的名稱，或從清單中選取名稱。
 
-   ![第一步另存為範本](assets/save-as-template-first-step-350x159.png)
+   如果有任何自訂表單已經與專案相關聯，則這些自訂表單中現有欄位中的所有資訊都會顯示在表單上。
 
-1. 按一下&#x200B;**下一步。**
-1. 在&#x200B;**選項**&#x200B;區段中，選取您要從範本中清除之任何資訊旁的核取方塊。
+   您可以在單一範本中包含最多10個自訂表單。
 
-   ![另存為範本選項](assets/save-as-template-options-step-350x109.png)
+1. 暫留在表單名稱上，然後按一下以將其拖放到新位置。
 
-1. 按一下&#x200B;**下一步。**
-1. 在&#x200B;**排除**&#x200B;區段中，選取您要從專案排除的任何工作。
+   ![將專案另存為範本方塊頂端](assets/save-project-as-template-top-of-the-form.png)
 
-   ![另存為範本排除](assets/save-as-template-exclude-350x205.png)
+1. 按一下左側面板中的&#x200B;**選項**，然後選取您要傳送至範本的欄位或專案。
+
+   預設會勾選所有專案。 取消選取的專案不會轉移到範本。
+
+   ![另存為範本選項](assets/save-project-as-template-options-area.png)
+
+1. 按一下左側面板中的「排除&#x200B;****」，然後選取您要從專案排除的任何工作。
+
+   ![另存為範本排除](assets/save-project-as-template-exclude-area.png)
 
 1. 按一下&#x200B;**完成並儲存範本。**
 
-   您的範本現在會顯示在可用範本清單中，並可附加至現有專案或用來建立新專案。
+   您的範本現在會出現在可用範本清單中。 使用者可以將新範本附加至現有專案，或使用它來建立專案。
 
- 
+
