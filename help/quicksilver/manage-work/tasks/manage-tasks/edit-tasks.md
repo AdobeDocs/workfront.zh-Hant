@@ -384,7 +384,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    &lt;！ — 在發行時再次將專案符號縮排至下方以顯示Prod，然後為「預覽」顯示另一個全新專案符號：
    1. （視條件而定）根據您存取任務的環境，執行下列動作：
-   1. <!--In the Production environment,AND ADD THIS TO THE STEP BELOW-->
+   1. &#x200B;<!--In the Production environment,AND ADD THIS TO THE STEP BELOW-->
 
 1. 按一下&#x200B;**搜尋人員、角色和團隊**，然後開始輸入您要指派給工作的使用者、角色或團隊的名稱，然後按一下它，或當它顯示在清單上時按下Enter鍵。
 

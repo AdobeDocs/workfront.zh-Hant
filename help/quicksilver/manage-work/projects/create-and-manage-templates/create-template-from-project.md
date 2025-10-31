@@ -134,7 +134,7 @@ ht-degree: 1%
 
    ![另存為範本選項](assets/save-project-as-template-options-area.png)
 
-1. 按一下左側面板中的「排除&#x200B;****」，然後選取您要從專案排除的任何工作。
+1. 按一下左側面板中的「排除&#x200B;**&#x200B;**」，然後選取您要從專案排除的任何工作。
 
    ![另存為範本排除](assets/save-project-as-template-exclude-area.png)
 
