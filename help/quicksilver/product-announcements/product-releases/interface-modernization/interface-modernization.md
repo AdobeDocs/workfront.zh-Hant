@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: c17a50542553db5b836ff82f3d0c6ed93ae3c3ad
+source-git-commit: e9b96508d27da15472506aa36bdaa507ca9831ba
 workflow-type: tm+mt
-source-wordcount: '8980'
+source-wordcount: '8992'
 ht-degree: 0%
 
 ---
@@ -96,7 +96,11 @@ For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tas
 
 **預覽版本： 2025年10月23日；適用於所有客戶的生產版本：自2025年10月30日起一週**
 
-<!--This feature was in Preview and Prod starting on Sept 25 and it was removed on Oct 9. -->
+<!--This feature was in Preview and Prod starting on Sept 25 and it was removed on Oct 9. It was released to Preview again on Oct 23 and Prod rollout started Oct 30. Then it was removed from Prod again on Nov 4. -->
+
+>[!NOTE]
+>
+>此功能已於2025年11月4日暫時從生產環境中移除。
 
 我們已更新個人休假行事曆的外觀和風格，包括委派核准的能力，以符合應用程式的其他領域。
 
@@ -1291,7 +1295,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 此更新包含區域的視覺化變更。 功能未變更。
 
-若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。**&#x200B;**
+若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。****
 
 +++
 
@@ -1409,7 +1413,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 * 費用類型
 * 群組
 * 時數類型
-* 日誌輸入項目
+* 日誌項目
 * 非人工資源（僅供特定客戶使用）
 * 非人工資源分類（僅供特定客戶使用）
 * 佇列主題
