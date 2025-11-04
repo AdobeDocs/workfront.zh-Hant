@@ -5,9 +5,9 @@ description: 專案運作狀態功能利用AI助理的強大功能，立即為�
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: 8ece3c614febb6f480b352323721bcc9dcc940b6
+source-git-commit: ed5a8725442a0b3de993a4e8f47280bfc7d88160
 workflow-type: tm+mt
-source-wordcount: '1969'
+source-wordcount: '1965'
 ht-degree: 1%
 
 ---
@@ -89,7 +89,7 @@ AI Assistant可指派一個可用的專案健康狀態，讓您快速評估專�
 * 有風險
 * 陷入困境
 
-此狀態是使用專案和方案元件計算的，例如專案進度、低估的工作等等。 如需用來測量專案健全狀態的元件完整清單，請參閱[專案和方案狀態清單](#project-and-program-states-list)區段。
+此狀態是使用專案元件計算的，例如專案進度、低估的工作等等。 如需用來測量專案健全狀態的元件完整清單，請參閱[專案和方案狀態清單](#project-and-program-states-list)區段。
 
 系統會為每個專案元件指派介於(0-100)的數字風險分數，然後取平均值以建立整體專案健康狀態：
 
@@ -110,7 +110,7 @@ AI Assistant可指派一個可用的專案健康狀態，讓您快速評估專�
 * 1有風險（45個風險分數）
 * 1個陷入困境（20個風險分數）
 
-當您平均這些分數時，結果是61。 使用上面列出的專案健康狀態條件，這會將此專案置於風險狀態。
+當您平均這些分數時，結果是61。 使用上面列出的專案健康情況條件，這會將此專案置於風險狀態。
 
 在下一個範例中，1天的排程變更已在專案時間表的前段發生。 在此案例中，AI Assistant會評估變更的時間以及相對於專案整體期間的影響：
 
