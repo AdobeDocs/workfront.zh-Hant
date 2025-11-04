@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 357b5a80-424a-475c-9163-82cffbbd253e
-source-git-commit: 0c8d84cfcc87728e809061c01c56322f3fd1f2f6
+source-git-commit: b78f794ece181da3f4db3a1b9b78e794b16a09ed
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,34 @@ ht-degree: 0%
 本頁說明2025年第四季版本對預覽環境所做的增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2025年第四季版本週期目前可用的所有變更清單，請參閱[2025年第四季版本概觀](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)。
+
+## 報告摘要標籤更新
+
+>[!NOTE]
+>
+>* 預覽： 2025年10月13日
+>* 生產快速發行： 2025年10月13日
+>* 所有客戶的生產： 2025年10月13日
+>[!BADGE 不在排程]{type=Neutral}內
+
+報告的「摘要」標籤已更新，並包含下列增強功能：
+
+* 每一列前置字元的分組欄位名稱已移至第一欄標題。
+
+* 現在，將多個群組層級套用至報表時，名稱欄會以斜線分隔（以正斜線分隔）。
+
+* 彙總型別首碼(「Sum： 」、「Max： 」、「Min： 」、「Avg： 」)已從每個彙總中移除。
+
+* 現在，每個欄的彙總型別會顯示為欄標題值的附錄。
+
+* 子群組（2或3個群組）在第一欄中顯示為縮排層級。 頂層群組仍以粗體顯示。
+
+* 您現在可以調整欄寬。 重新整理頁面時，欄將恢復為預設的寬度分佈。
+
+>[!NOTE]
+>
+>前四個變更也會套用至摘要標籤匯出（如適用）。 層級縮排和粗體字型不會轉移到匯出的Tab分隔文字檔。
+
 
 ## Adobe Unified Experience現在可供更多Workfront組織使用
 
