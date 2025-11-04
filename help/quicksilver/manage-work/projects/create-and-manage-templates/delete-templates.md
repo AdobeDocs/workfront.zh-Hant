@@ -6,7 +6,7 @@ description: 我們建議您停用不再使用的範本，而不是刪除它們�
 author: Alina
 feature: Work Management
 exl-id: 41e0979c-f8ef-4a07-8848-e4ee8cc212c5
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+source-git-commit: 87bf2a4485d3b0c29fcfe8e00dcca57874cdec04
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 0%

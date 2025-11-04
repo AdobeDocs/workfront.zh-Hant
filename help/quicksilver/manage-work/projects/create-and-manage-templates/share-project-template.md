@@ -6,9 +6,9 @@ description: 您可以在範本層級使用下列共用選項，與使用者共�
 author: Alina
 feature: Work Management
 exl-id: 99c6b241-a2c9-4b6c-b605-177bbbc3f21a
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+source-git-commit: 87bf2a4485d3b0c29fcfe8e00dcca57874cdec04
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '720'
 ht-degree: 3%
 
 ---
@@ -90,7 +90,7 @@ ht-degree: 3%
 
 共用範本：
 
-1. 從&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，按一下&#x200B;**範本**。
+{{step1-to-templates}}
 
 1. 執行下列其中一項：\
    按一下範本名稱以開啟，然後按一下&#x200B;**更多**&#x200B;功能表![更多圖示](assets/more-icon.png)，然後按一下&#x200B;**範本共用**。

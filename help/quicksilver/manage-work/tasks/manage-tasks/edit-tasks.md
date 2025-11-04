@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+source-git-commit: 46133f435c665dd82d134f18d0b5de4e70bab7d7
 workflow-type: tm+mt
-source-wordcount: '3862'
-ht-degree: 3%
+source-wordcount: '3828'
+ht-degree: 4%
 
 ---
 
@@ -380,161 +380,14 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. 如上所述開始編輯您的工作。
 1. 按一下左側面板中的&#x200B;**工作**。
 
-   ![](assets/nwe-assignments-section-edit-task-box-350x217.png)
+   <!--<span class="preview">The Assignments area opens in the new experience.</span>-->
 
-   &lt;！ — 在發行時再次將專案符號縮排至下方以顯示Prod，然後為「預覽」顯示另一個全新專案符號：
-   1. （視條件而定）根據您存取任務的環境，執行下列動作：
-   1. &#x200B;<!--In the Production environment,AND ADD THIS TO THE STEP BELOW-->
-
-1. 按一下&#x200B;**搜尋人員、角色和團隊**，然後開始輸入您要指派給工作的使用者、角色或團隊的名稱，然後按一下它，或當它顯示在清單上時按下Enter鍵。
-
-   >[!NOTE]
-   >
-   >如果使用者名稱包含特殊字元，您必須在搜尋欄位中包含特殊字元。
-
-   >[!TIP]
-   >
-   >您可以指派多個使用者、工作角色或團隊。 您只能指派作用中的使用者、工作角色和團隊。
-   >
-   >如果使用者、工作角色或團隊在停用之前已被指派，則他們仍被指派給工作專案。 在此情況下，我們建議採取下列步驟：
-   >
-   >* 將工作專案重新指派給作用中的資源。
-   >* 將已停用團隊中的使用者與作用中團隊建立關聯，並將工作專案重新指派給作用中團隊。
-
-1. （選擇性）藉由選取受指派人名稱旁的&#x200B;**擁有者**&#x200B;選項按鈕，指出受指派人是否為工作的主要受指派人。 團隊不能是任務的主要受指派人。
-1. （條件式與選用式）更新下列欄位：
-
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">期間類型</td> 
-      <td> <p>這會識別下列專案之間的關係： </p> 
-       <ul> 
-      <li> <p>指派給任務的資源數 </p> </li> 
-      <li> <p>完成任務所需的總工作量 </p> </li> 
-      <li> <p> 任務的總持續時間。 </p> </li> 
-       </ul> <p>您的Workfront管理員或群組管理員會為您的系統或群組中的任務選擇預設期間型別設定。 如需有關設定專案預設值的資訊，請參閱<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">設定全系統的任務和問題偏好設定</a>。 </p> <p>期間型別可讓您根據作業的需求設定一致的資源指定。 如需有關任務期間型別的詳細資訊，請參閱<a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">任務期間與期間型別概觀</a>。 </p> <p>從下列選項中選取： </p> 
-       <ul> 
-      <li> <p>已計算的任務指派 </p> </li> 
-      <li> <p> 已計算的工作 </p> </li> 
-      <li> <p>投入比導向 </p> </li> 
-      <li> <p>簡單</p> </li> 
-       </ul> </td> 
-     </tr> 
-     <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-      <td role="rowheader">各事件的持續時間</td> 
-      <td> <p>這僅顯示在遞回任務的父繫上。 它會顯示每個週期性任務的持續時間，如建立任務時定義。 如需有關建立週期性工作的資訊，請參閱<a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">建立週期性工作</a>。 </p> <p> <b>附註</b>
-
-   在個別週期性任務中修改的持續時間不顯示此欄位中指示的值。 </p> </td>
-   </tr> 
-     <tr> 
-      <td role="rowheader">期間</td> 
-      <td> 
-      <div> 
-      <div> 
-      <p>這是您允許任務在完成前保持開啟的時間長度。 </p> 
-      <p><b>重要</b>
-
-   由於任務期間通常是計劃開始與計畫完成日期之間的時間量，因此會影響專案的時間表。</p>
-
-   <p>若要指出工作的持續時間與時間單位，請執行下列動作：</p> 
-      <ul> 
-      <li> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">輸入時間長度，然後從下拉式選單中的可用時間單位中選取。</p> <p><b>秘訣</b></p>
-      當您更新任務清單中的任務期間時，可以使用時間單位的縮寫。 </p> </li> 
-      </ul> 
-      <p> 您可以從下表中的一般時間或經歷時間選項中選擇： </p> 
-      <table style="table-layout:auto"> 
-      <col> 
-      <col data-mc-conditions=""> 
-      <tbody> 
-      <tr> 
-      <td>時間單位</td> 
-      <td>縮寫</td> 
-      </tr> 
-      <tr> 
-      <td>分鐘</td> 
-      <td>一</td> 
-      </tr> 
-      <tr> 
-      <td>時數</td> 
-      <td>H</td> 
-      </tr> 
-      <tr> 
-      <td>天。 這是預設值。 </td> 
-      <td>D</td> 
-      </tr> 
-      <tr> 
-      <td>週</td> 
-      <td>週</td> 
-      </tr> 
-      <tr> 
-      <td>月</td> 
-      <td>T</td> 
-      </tr> 
-      <tr> 
-      <td>經過的分鐘數</td> 
-      <td>EM</td> 
-      </tr> 
-      <tr> 
-      <td>經過的時數</td> 
-      <td>EH</td> 
-      </tr> 
-      <tr> 
-      <td>經過的天數</td> 
-      <td>ED</td> 
-      </tr> 
-      <tr> 
-      <td>經過的週數</td> 
-      <td>EW</td> 
-      </tr> 
-      <tr> 
-      <td>經過的月數</td> 
-      <td>ET</td> 
-      </tr> 
-      </tbody> 
-   </table>
-
-   <p><b>附註</b>
-
-   <p>經過的時間是任務期間的時間單位。 這是任務的計劃開始日期與計畫完成日期之間的時間，包括假日、週末和休假。 換句話說，經過的時間就是行事曆的天數。
-
-   正常時間會將假日、週末和休假列入考量，並將他們排除在任務的持續時間之外。 如需有關工作持續時間的詳細資訊，請參閱<a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">工作持續時間和持續時間型別概觀</a>。 </p>
-   </div> 
-      </div> </td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader">規劃時數</td> 
-      <td> <p>指定任務的計畫時數（以小時為單位）。 這是任務受指派人完成任務所需的實際時間。 當「期間型別」設定為「計算的任務指派」時，您只能指定任務的計畫時數。 如需有關期間型別的詳細資訊，請參閱<a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">工作期間與期間型別概觀</a>。</p> 
-      <b>附註</b>
-      <p>
-      建立週期性任務時，計畫時數是每個事件的計畫時數。 父系任務的計畫時數是所有發生次數的所有計畫時數總計。 如需有關建立週期性工作的資訊，請參閱<a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">建立週期性工作</a>。
-      </p>
-
-   </td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader">分配</td> 
-      <td> <p>如果您的任務限制是計算的工作或投入比導向，請為每個受指派人指定<strong>配置%</strong> （配置百分比）。 這是受指派人排程中可在此任務上花費的時間。 變更受指派人的配置百分比將會變更任務的計畫時數。 </p> <p>當「任務限制」為「簡單」時，您可以指定下列專案：</p> 
-         <ul> 
-         <li> <p>每個受指派人的分配時數。</p> </li> 
-         <li> <p>任務的計畫時數</p> </li> 
-         <li> <p>任務期間</p> </li> 
-         </ul> </td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader">受指派人角色</td> 
-      <td> <p>當您選取某人作為受指派人時，請從<strong>受指派人的角色</strong>下拉式功能表中選取角色。 這是受指派人可以在此任務上履行的角色。 </p> <p><b>秘訣</b>
-
-   下拉式功能表中只會顯示與其設定檔中每個受指派人相關聯的工作角色。</p> </td>
-   </tr>
-   </tbody>
-   </table>
+   <!--indent the bullets below to show new experience functionality:
+      1. (Conditional) Using the new experience, do the following:-->
 
    <!--Indent this according to what you did above: 
 
-      1. <span class="preview">In the Preview environment, start typing the name of a user, job role, or team in the **Search people, role or team** field, then select them when they display in the list</span>
+      1. <span class="preview">Start typing the name of a user, job role, or team in the **Search people, role or team** field, then select them when they display in the list</span>
 
       Or
 
@@ -667,10 +520,159 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
       <tr> 
       <td role="rowheader">Assignee's Role</td> 
       <td> <p>Select a role from the <strong>Assignee's Role</strong> drop-down menu when you selected a person as an assignee. This is the role that the assignee can fulfill on this task. </p> <p><b>TIP</b>
-            Only the job roles associated with each assignee in their profile appear in the drop-down menu.</p> </td> 
+         Only the job roles associated with each assignee in their profile appear in the drop-down menu.</p> </td> 
          </tr>
          </tbody> 
          </table>************)-->
+   <!--1. <span class="preview">(Optional) Click Switch to old experience at the bottom of the **Edit Task** box. </span>
+      <span class="preview">The Assignments area opens in the old experience. </span>
+      ![](assets/nwe-assignments-section-edit-task-box-350x217.png)-->
+
+1. 按一下&#x200B;**搜尋人員、角色或團隊**，然後開始輸入您要指派給工作的使用者、角色或團隊的名稱，然後按一下它，或當它顯示在清單上時按下Enter。
+
+   >[!NOTE]
+   >
+   >如果使用者名稱包含特殊字元，您必須在搜尋欄位中包含特殊字元。
+
+   >[!TIP]
+   >
+   >您可以指派多個使用者、工作角色或團隊。 您只能指派作用中的使用者、工作角色和團隊。
+   >
+   >如果使用者、工作角色或團隊在停用之前已被指派，則他們仍被指派給工作專案。 在此情況下，我們建議採取下列步驟：
+   >
+   >* 將工作專案重新指派給作用中的資源。
+   >* 將已停用團隊中的使用者與作用中團隊建立關聯，並將工作專案重新指派給作用中團隊。
+
+1. （選擇性）藉由選取受指派人名稱旁的&#x200B;**擁有者**&#x200B;選項按鈕，指出受指派人是否為工作的主要受指派人。 團隊不能是任務的主要受指派人。
+1. （選用）更新下列欄位：
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">期間類型</td> 
+      <td> <p>這會識別下列專案之間的關係： </p> 
+       <ul> 
+      <li> <p>指派給任務的資源數 </p> </li> 
+      <li> <p>完成任務所需的總工作量 </p> </li> 
+      <li> <p> 任務的總持續時間。 </p> </li> 
+       </ul> <p>您的Workfront管理員或群組管理員會為您的系統或群組中的任務選擇預設期間型別設定。 如需有關設定專案預設值的資訊，請參閱<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">設定全系統的任務和問題偏好設定</a>。 </p> <p>期間型別可讓您根據作業的需求設定一致的資源指定。 如需有關任務期間型別的詳細資訊，請參閱<a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">任務期間與期間型別概觀</a>。 </p> <p>從下列選項中選取： </p> 
+       <ul> 
+      <li> <p>已計算的任務指派 </p> </li> 
+      <li> <p> 已計算的工作 </p> </li> 
+      <li> <p>投入比導向 </p> </li> 
+      <li> <p>簡單</p> </li> 
+       </ul> </td> 
+     </tr> 
+     <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+      <td role="rowheader">各事件的持續時間</td> 
+      <td> <p>這僅顯示在遞回任務的父繫上。 它會顯示每個週期性任務的持續時間，如建立任務時定義。 如需有關建立週期性工作的資訊，請參閱<a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">建立週期性工作</a>。 </p> <p> <b>附註</b>
+
+   在個別週期性任務中修改的持續時間不顯示此欄位中指示的值。 </p> </td>
+   </tr> 
+     <tr> 
+      <td role="rowheader">期間</td> 
+      <td> 
+      <div> 
+      <div> 
+      <p>這是您允許任務在完成前保持開啟的時間長度。 </p> 
+      <p><b>重要</b>
+
+   由於任務期間通常是計劃開始與計畫完成日期之間的時間量，因此會影響專案的時間表。</p>
+
+   <p>若要指出工作的持續時間與時間單位，請執行下列動作：</p> 
+      <ul> 
+      <li> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">輸入時間長度，然後從下拉式選單中的可用時間單位中選取。</p> <p><b>秘訣</b></p>
+      當您更新任務清單中的任務期間時，可以使用時間單位的縮寫。 </p> </li> 
+      </ul> 
+      <p> 您可以從下表中的一般時間或經歷時間選項中選擇： </p> 
+      <table style="table-layout:auto"> 
+      <col> 
+      <col data-mc-conditions=""> 
+      <tbody> 
+      <tr> 
+      <td>時間單位</td> 
+      <td>縮寫</td> 
+      </tr> 
+      <tr> 
+      <td>分鐘</td> 
+      <td>一</td> 
+      </tr> 
+      <tr> 
+      <td>時數</td> 
+      <td>H</td> 
+      </tr> 
+      <tr> 
+      <td>天。 這是預設值。 </td> 
+      <td>D</td> 
+      </tr> 
+      <tr> 
+      <td>週</td> 
+      <td>週</td> 
+      </tr> 
+      <tr> 
+      <td>月</td> 
+      <td>T</td> 
+      </tr> 
+      <tr> 
+      <td>經過的分鐘數</td> 
+      <td>EM</td> 
+      </tr> 
+      <tr> 
+      <td>經過的時數</td> 
+      <td>EH</td> 
+      </tr> 
+      <tr> 
+      <td>經過的天數</td> 
+      <td>ED</td> 
+      </tr> 
+      <tr> 
+      <td>經過的週數</td> 
+      <td>EW</td> 
+      </tr> 
+      <tr> 
+      <td>經過的月數</td> 
+      <td>ET</td> 
+      </tr> 
+      </tbody> 
+   </table>
+
+   <p><b>附註</b>
+
+   <p>經過的時間是任務期間的時間單位。 這是任務的計劃開始日期與計畫完成日期之間的時間，包括假日、週末和休假。 換句話說，經過的時間就是行事曆的天數。
+
+   正常時間會將假日、週末和休假列入考量，並將他們排除在任務的持續時間之外。 如需有關工作持續時間的詳細資訊，請參閱<a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">工作持續時間和持續時間型別概觀</a>。 </p>
+   </div> 
+      </div> </td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader">規劃時數</td> 
+      <td> <p>指定任務的計畫時數（以小時為單位）。 這是任務受指派人完成任務所需的實際時間。 當「期間型別」設定為「計算的任務指派」時，您只能指定任務的計畫時數。 如需有關期間型別的詳細資訊，請參閱<a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">工作期間與期間型別概觀</a>。</p> 
+      <b>附註</b>
+      <p>
+      建立週期性任務時，計畫時數是每個事件的計畫時數。 父系任務的計畫時數是所有發生次數的所有計畫時數總計。 如需有關建立週期性工作的資訊，請參閱<a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">建立週期性工作</a>。
+      </p>
+
+   </td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader">分配</td> 
+      <td> <p>如果您的任務限制是計算的工作或投入比導向，請為每個受指派人指定<strong>配置%</strong> （配置百分比）。 這是受指派人排程中可在此任務上花費的時間。 變更受指派人的配置百分比將會變更任務的計畫時數。 </p> <p>當「任務限制」為「簡單」時，您可以指定下列專案：</p> 
+         <ul> 
+         <li> <p>每個受指派人的分配時數。</p> </li> 
+         <li> <p>任務的計畫時數</p> </li> 
+         <li> <p>任務期間</p> </li> 
+         </ul> </td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader">受指派人角色</td> 
+      <td> <p>當您選取某人作為受指派人時，請從<strong>受指派人的角色</strong>下拉式功能表中選取角色。 這是受指派人可以在此任務上履行的角色。 </p> <p><b>秘訣</b>
+
+   下拉式功能表中只會顯示與其設定檔中每個受指派人相關聯的工作角色。</p> </td>
+   </tr>
+   </tbody>
+   </table>
 
 1. 按一下&#x200B;**儲存變更** <!--<span class="preview"> or **Save** </span> -->或繼續下列章節。
 

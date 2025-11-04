@@ -6,9 +6,9 @@ description: 任務的追蹤模式會決定如何在Adobe Workfront中更新任�
 author: Alina
 feature: Work Management
 exl-id: 751071b4-3716-4153-97fe-4fe0ebc7cbb0
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+source-git-commit: 87bf2a4485d3b0c29fcfe8e00dcca57874cdec04
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '194'
 ht-degree: 6%
 
 ---
@@ -85,8 +85,6 @@ ht-degree: 6%
 -->
 
 ## 設定任務的追蹤模式
-
-若要設定追蹤模式：
 
 1. 前往您要設定追蹤模式的工作。
 1. 按一下工作名稱旁的&#x200B;**更多**&#x200B;圖示![](assets/qs-more-icon-on-an-object.png)，然後按一下&#x200B;**編輯**。
