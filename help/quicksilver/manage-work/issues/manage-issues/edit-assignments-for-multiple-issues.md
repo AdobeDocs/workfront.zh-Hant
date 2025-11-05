@@ -6,9 +6,9 @@ description: 修改清單中多個問題的使用者指派
 author: Lisa
 feature: Work Management
 exl-id: e1e75027-1847-44cf-afeb-b19394dc3ea5
-source-git-commit: ac5552f1c235f595b1c0d2558fcf88b1e03f5a8e
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '968'
 ht-degree: 1%
 
 ---
@@ -19,6 +19,14 @@ ht-degree: 1%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: similar article exists for tasks)</p>
 -->
+
+<div class="preview">
+
+本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 從預覽版開始的一週起，生產環境中也將提供相同功能給所有客戶。
+
+如需詳細資訊，請參閱[介面現代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。
+
+</div>
 
 您可以同時修改多個問題的使用者指派。 如需有關編輯問題或一次指派一個問題的資訊，另請參閱下列文章：
 

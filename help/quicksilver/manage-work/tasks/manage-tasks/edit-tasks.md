@@ -7,7 +7,7 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 46133f435c665dd82d134f18d0b5de4e70bab7d7
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
 source-wordcount: '3828'
 ht-degree: 4%
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 <!--Audited: 10/2025-->
 
-<!--take out prod and preview references at release-->
+<!--take out prod and preview references at release, or new and old experience-->
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

@@ -6,10 +6,10 @@ description: 您可以編輯工作清單中顯示的欄位，以編輯工作清�
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: ac5552f1c235f595b1c0d2558fcf88b1e03f5a8e
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
-source-wordcount: '2764'
-ht-degree: 2%
+source-wordcount: '2762'
+ht-degree: 3%
 
 ---
 
@@ -342,7 +342,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    </table>
 
 1. 當您變更任務的時間表時，Workfront會更新所有專案內和跨專案相依性。
-1. 當您想要永久保留工作變更並儲存專案的時間表時，請按一下[儲存]。**&#x200B;**
+1. 當您想要永久保留工作變更並儲存專案的時間表時，請按一下[儲存]。****
 
 #### 當您選取「手動儲存時程表計畫」選項時，手動儲存工作清單中的變更 {#save-changes-in-a-task-list-manually-when-you-select-the-manual-save-timeline-planning-option}
 
@@ -450,7 +450,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    </table>
 
 1. 當您變更任務的時間表時，Workfront會更新所有專案內和跨專案相依性。
-1. 當您想要永久保留工作變更並儲存專案的時間表時，請按一下[儲存]。**&#x200B;**
+1. 當您想要永久保留工作變更並儲存專案的時間表時，請按一下[儲存]。****
 
 ## 使用「摘要」編輯清單中的任務
 
@@ -509,33 +509,44 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    >手動儲存任務時，您無法大量編輯任務。
 
 1. 在工作清單中選取多個工作。
-1. 按一下&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/qs-edit-icon.png)。 **編輯工作**&#x200B;對話方塊開啟。
+   <!--1. <span class="preview">(Optional) Click the **More** menu ![More menu](assets/more-icon.png) at the top of the task list, then **Recalculate Expressions** to update all information in calculated custom fields.</span> -->
+1. 按一下&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/qs-edit-icon.png)。 **編輯工作**&#x200B;對話方塊開啟<!--<span class="preview">in the new experience</span>-->。
 
-1. 指定您要變更所有所選工作的資訊。
+   編輯所有任務的資訊與編輯一個任務的資訊相同。
+如需編輯工作的詳細資訊，請參閱[編輯工作](../../../manage-work/tasks/manage-tasks/edit-tasks.md)。
 
-   編輯所有任務的資訊與編輯一個任務的資訊相同。 如果您想要編輯任務「工期」，選取的任務必須具有相同的任務限制；否則，**工期**&#x200B;欄位不會填入。
+   <!--<span class="preview">1. In the new experience, do the following:</span> (******keep the below indented******)
+      1. Specify the information you want to change for all the tasks you selected in any of the following areas: 
+      <div class="preview">
+      * Overview
+      * Assignments
+      * Custom Forms
+      * Finance
+      * Settings
+      * Settings
+      * Comment
+      </div>-->
+   <!--<span class="preview">1. Click **Save**.</span>
+   <!--1. <span class="preview">(Optional) Click **Switch back to old experience** at the bottom of the Edit Tasks box.</span>-->
+1. <!--<span class="preview">In the old experience,, do the following:</span> (**********indent the steps below*********)--> 指定您要在下列任一區域變更所有所選工作的資訊：
 
-   如需編輯工作的詳細資訊，請參閱[編輯工作](../../../manage-work/tasks/manage-tasks/edit-tasks.md)。
+   * 概觀
+   * 設定
+   * 指派
+   * 自訂表單
+   * 評論
 
-   >[!NOTE]
-   >
-   >您正在所有選取的任務上變更的資訊將會覆寫個別任務（**工作總攬**&#x200B;欄位除外）的現有資訊。 在大量編輯中新增受指派人，會將該受指派人新增至所有選取的任務。 如果將其他受指派人指派給所選任務，則除了透過大量編輯新增的受指派人外，受指派人將維持受指派狀態。
+     <!-- at release, move the below tip under the first set of bullet points, for the new experience-->
 
-1. 按一下&#x200B;**自訂Forms**，編輯附加到所有選定任務的自訂表單。 清單中只會顯示作用中的自訂表單。
+     >[!NOTE]
+     >
+     >* 您正在所有選取的任務上變更的資訊將會覆寫個別任務（**工作總攬**&#x200B;欄位除外）的現有資訊。 在大量編輯中新增受指派人，會將該受指派人新增至所有選取的任務。 如果將其他受指派人指派給所選任務，則除了透過大量編輯新增的受指派人外，受指派人將維持受指派狀態。
+     >* 如果您想要編輯任務「工期」，則選取的任務必須具有相同的任務限制。 否則，**持續時間**&#x200B;欄位不會填入。
+     >
+     >* 清單中只會顯示作用中的自訂表單。 如果所選的任務沒有任何常見的自訂表格，則本節不會列出任何表格。
+     >* 您只能在表單上編輯附加到所有選定任務且您有權編輯的欄位。  如需大量編輯自訂表單的相關資訊，請參閱[管理附加到物件的自訂表單](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)。
 
-   如果所選的任務沒有任何常見的自訂表格，則本節不會列出任何表格。
 
-   您只能在表單上編輯附加到所有選定任務且您有權編輯的欄位。
-
-   <!--1. (Optional and conditional) Depending what environment you use to edit the tasks, do one of the following to recalculate custom expressions for all tasks:
-   1. In the Production environment, ADD THE SENTENCE FROM THE NEXT STEP HERE:-->
-
-1. （選擇性）在自訂Forms區段中，選取&#x200B;**重新計算自訂運算式**&#x200B;選項，以確保附加到所選任務的自訂表單上的所有計算自訂欄位都是最新狀態。
-
-   <!--
-   1. <span class="preview">In the Preview environment, with all the tasks selected in the list, click the **More** menu ![More menu](assets/more-icon.png) at the top of the task list, then click **Recalculate Expressions**. This is only available when you automatically save your changes. </span>
-
-   -->
+1. （選擇性）在&#x200B;**自訂Forms**&#x200B;區段中，選取&#x200B;**重新計算自訂運算式**&#x200B;選項，以確保附加到所選工作的自訂表單上的所有計算自訂欄位都是最新的。
 1. 按一下&#x200B;**儲存變更**。 您所做的所有變更現在會顯示在所有選取的任務中。
 
-如需大量編輯自訂表單的相關資訊，請參閱[管理附加到物件的自訂表單](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)。

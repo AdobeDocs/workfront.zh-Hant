@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: ac5552f1c235f595b1c0d2558fcf88b1e03f5a8e
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
-source-wordcount: '1829'
+source-wordcount: '1826'
 ht-degree: 1%
 
 ---
@@ -224,11 +224,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 
 1. 將您的受指派人新增至工作之後，按下Enter或按一下頁面上的任何位置，以儲存變更（如果您已選取「自動儲存」）。 否則，請按一下&#x200B;**儲存**。
 
-## 從清單中大量指派多個任務給使用者
-
-<!--Assigning multiple tasks to a user is different, depending on what environment you use to assign the tasks. 
-
-### Assign multiple tasks to a user in the Production environment-->
+## 從清單大量指派多個任務
 
 1. 移至您要大量指派的工作清單。
 1. （視條件而定）如果您在專案下的任務清單中，請確定已選取&#x200B;**自動儲存**&#x200B;選項。
@@ -240,7 +236,11 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 1. 在任務清單中選取數個任務。
 1. 按一下&#x200B;**編輯**。
 
-   **編輯工作**&#x200B;對話方塊開啟。
+   **編輯工作**&#x200B;對話方塊開啟<!--<span class="preview">in the new experience</span>-->。
+
+   <!--1. Continue assigning the tasks <span class="preview">using the new experience</span>. <span class="preview">For more information, see the section Assign multiple tasks in bulk from a list in the new experience in this article.</span> (^^^^^^^^^^^^add anchor here at release^^^^^^^^^^^^) -->
+
+   <!--1. <span class="preview">(Optional) Click **Switch back to old experience** at the bottom of the Edit Tasks box.</span> -->
 
 1. 在「**工作總攬**」區域中，選取「**受指派人**」方塊，然後開始輸入您要指派給所有工作的使用者、工作角色或團隊的名稱。
 
@@ -266,7 +266,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 1. （選擇性）如果要從所有工作移除現有的受指派人，請執行下列任一項作業：
 
    1. 開始輸入您要從任務中移除的使用者、角色或團隊名稱，然後當名稱出現在清單中時選取名稱，並按一下&#x200B;**移除受指派人**&#x200B;以移除更多受指派人。
-   1. 按一下「移除所有現有受指派人」**&#x200B;**，從所有選取的工作中移除所有受指派人。
+   1. 按一下「移除所有現有受指派人」****，從所有選取的工作中移除所有受指派人。
 
 1. 按一下「**儲存變更**」。
 1. （選擇性和條件性）當「指派至」或「工作總攬」欄位顯示在您的任務清單中時，按一下這些欄中的一個以取得任務，然後按一下受指派人名稱旁的&#x200B;**X圖示**，以將其從任務中移除。
@@ -274,7 +274,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 <!--
 <div class="preview">
 
-### Assign multiple tasks to a user in the Preview environment
+### Assign multiple tasks in bulk from a list in the new experience
 
 1. Go to a list of tasks that you want to assign in bulk in the Preview environment. 
 1. (Conditional) Ensure that the **Autosave** option is selected if you are on a list of tasks under a project.

@@ -7,20 +7,28 @@ author: Lisa
 feature: Work Management, Tasks, Resource Management
 role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: d0be569333b0454e26f4d0de1078b0425cf81707
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '932'
 ht-degree: 0%
 
 ---
 
 # 修改任務清單中的多個使用者指派
 
-<!--Audited: 07/2024-->
+<!--Audited: 11/2025-->
 
 <!--
-<p>There is a similar article in Resource Scheduling and a similar one for Issues; when things change, you might need to update all 3</p>
+this article is similar and updates on this one might need to be repeated here: help/quicksilver/manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md</p>
 -->
+
+<!--<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> -->
 
 管理任務指派時，您可以使用任務清單中的大量編輯功能，一次為多個任務同時修改它們。
 
@@ -117,14 +125,17 @@ When assigning users to work, their availability according to their schedules af
 
 1. 選取您要修改指派的任務，然後按一下&#x200B;**編輯**&#x200B;圖示![](assets/edit-icon.png)。
 
-   便會顯示「編輯工作」頁面。 您編輯的專案會顯示在頁面的左上角。
+   **編輯任務**&#x200B;方塊開啟<!--<span class="preview">in the new experience</span>-->。
+
+   <!--1. <span class="preview">(Optional) Click **Switch to old experience** at the bottom of the **Edit Tasks** box.</span> 
+   <span class="preview">The **Edit Tasks** box opens in the old experience.</span>-->
 
 1. 移至&#x200B;**指派**&#x200B;區段。
-1. 執行下列任一項作業，以新增或移除受指派人：
 
    >[!IMPORTANT]
    >
    >移除被指定者可能會影響任務時數和分配百分比。 如需詳細資訊，請參閱本文章的[移除受指派人如何影響任務時數及配置百分比](#how-removing-assignees-affects-task-hours-and-allocation-percentages)一節。
+1. 執行下列任一項作業，以新增或移除受指派人：
 
    * 若要新增受指派人：
 
@@ -180,3 +191,17 @@ When assigning users to work, their availability according to their schedules af
    * **受指派人的角色**：從下拉式清單中選取一個角色。 如果保持未選取，Adobe Workfront會自動選取使用者的主要角色。
 
 1. 按一下&#x200B;**儲存變更。**
+
+<!--
+1. <span class="preview"> (Optional) Click **Try new experience** in the upper-right corner of the **Edit Tasks** box. The Edit Tasks box opens in the new experience. Do one of the following:</span>
+
+   <div class="preview">
+
+   * To add assignees, start typing the name of an assignee in the **Search people, roles, or teams** field, then select them when they display in the list. 
+   * To remove assignees, click the **x** icon to the right of their name. Only assignees that are common to all tasks display in the list. 
+   * Click Assign to me to assign the selected tasks to yourself.
+
+   </div>
+1. <span class="preview">(Conditional) When using the new experience, click **Save**.</span>
+
+-->

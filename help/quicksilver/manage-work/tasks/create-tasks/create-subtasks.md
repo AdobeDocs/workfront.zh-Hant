@@ -6,9 +6,9 @@ description: 在Adobe Workfront中，任務可以有父子關係。 子任務稱
 author: Alina
 feature: Work Management
 exl-id: 3d970794-b5ea-422f-bc92-51846cb7db35
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '572'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!-- Audited: 01/2025 -->
 
-在Adobe Workfront中，任務可以有父子關係。 子任務稱為子任務。 您可以將主要任務設為子任務，以在任務清單中建立子任務。 您也可以將子任務設為主要任務。
+在Adobe Workfront中，任務可以有父子關係。 子任務稱為子任務。 您可以將主要任務設為其他任務的子任務，以在任務清單中建立子任務。 您也可以將子任務設為主要任務。
 
 ## 存取需求
 
@@ -84,6 +84,11 @@ ht-degree: 0%
 
 您可以從任務清單或任務子任務區段建立子任務。
 
+>[!TIP]
+>
+>為專案建立子任務類似於在範本上建立範本子任務以範本任務。
+
+
 ### 從任務清單建立子任務 {#create-subtasks-from-the-task-list}
 
 1. 前往您要建立子任務的專案。
@@ -116,9 +121,11 @@ ht-degree: 0%
 1. 按一下左側面板中的&#x200B;**子任務**&#x200B;區段（如果有的話）。
 1. 按一下&#x200B;**新增工作。**
 
-   請依照下列文章中的步驟繼續建立子任務： [在專案中建立任務](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)。
+   如需有關建立任務的資訊，請參閱[在專案中建立任務](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)。
 
 1. 按一下&#x200B;**建立任務。**
+
+   新任務會建立為您在步驟3中所選任務的子任務。<!--ensure this is accurate-->
 
 ## 將子任務設為主要任務
 

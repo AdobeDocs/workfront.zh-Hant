@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1ffba3b5-ab24-4ca2-a1ef-f7e5b77e776c
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
-source-wordcount: '2422'
+source-wordcount: '2421'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ Workfront於2020年11月12日發行API第12版。 API第12版具有第11版的�
 
 ### BreadCrumb {#breadcrumb}
 
-BreadCrumb物件代表Adobe Workfront工作專案之父/子階層中的元素。 階層連結可指出工作專案如何融入Portfolio、專案、專案和任務的較大結構。
+BreadCrumb物件代表Adobe Workfront工作專案之父/子階層中的元素。 階層連結可指出工作專案如何適應專案組合、專案、專案和任務的較大結構。
 
 如需Workfront階層連結的詳細資訊，請參閱新Adobe Workfront體驗中的[階層連結概觀](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
 
@@ -51,7 +51,7 @@ BreadCrumb物件代表Adobe Workfront工作專案之父/子階層中的元素。
 
 RTF文字欄位現在可用於更多物件。 已將RichTextParameterValue物件新增至Workfront，以支援此可用性。
 
-如需詳細資訊，請參閱Adobe Workfront API中的[&#x200B; RTF欄位](../../wf-api/general/rich-text-field-api.md)。
+如需詳細資訊，請參閱Adobe Workfront API中的[ RTF欄位](../../wf-api/general/rich-text-field-api.md)。
 
 <table style="table-layout:auto"> <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -112,7 +112,7 @@ RTF文字欄位現在可用於更多物件。 已將RichTextParameterValue物件
      <li> <p><a href="#group" class="MCXref xref">群組</a> </p> </li> 
      <li> <p><a href="#linkedfolder" class="MCXref xref">LinkedFolder</a> </p> </li> 
      <li> <p><a href="#optask" class="MCXref xref">OpTask</a> </p> </li> 
-     <li> <p><a href="#parameter" class="MCXref xref">引數</a> </p> </li> 
+     <li> <p><a href="#parameter" class="MCXref xref">參數</a> </p> </li> 
      <li> <p><a href="#portfolio" class="MCXref xref">Portfolio</a> </p> </li> 
      <li> <p><a href="#program" class="MCXref xref">程式</a> </p> </li> 
     </ul> </td> 
@@ -175,7 +175,7 @@ AccessLevelPermissions物件代表存取、建立或修改Workfront物件的特�
     <ul> 
      <li> <p><strong>coreAction</strong> </p> <p>已新增下列可能值：</p> 
       <ul> 
-       <li> <p>PLANNED_HOURS_CONTOURING </p> <p>具有包含此許可權的存取層級的使用者可以在工作負載平衡器中更新規劃時數。</p> <p>如需詳細資訊，請參閱<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">在工作負載平衡器</a>中管理使用者指派時<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">更新任務計畫時數</a>。</p> </li> 
+       <li> <p>PLANNED_HOURS_CONTOURING </p> <p>具有包含此許可權的存取層級的使用者可以在工作負載平衡器中更新規劃時數。</p> <p>如需詳細資訊，請參閱<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">在工作負載平衡器</a>中管理使用者指派時<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">更新任務計畫時數</a>。</p> </li> 
        <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>具有包含此許可權的存取層級的使用者可以將欄位新增到自訂表單。</p> <p>如需詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref">建立或編輯自訂表格</a>。</p> </li> 
        <li> <p>EDIT_SYSTEM範圍 </p> <p>具有包含此許可權的存取層級的使用者可以在系統範圍內以刪除存取權共用自訂欄位。</p> </li> 
       </ul> </li> 
@@ -246,7 +246,7 @@ AccessLevelPermissions物件代表存取、建立或修改Workfront物件的特�
     <ul> 
      <li> <p style="font-weight: bold;">動作</p> <p>已新增下列可能值：</p> 
       <ul> 
-       <li> <p>PLANNED_HOURS_CONTOURING </p> <p>具有包含此許可權的存取層級的使用者可以在工作負載平衡器中更新規劃時數。</p> <p>如需詳細資訊，請參閱<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">在工作負載平衡器</a>中管理使用者指派時<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">更新任務計畫時數</a>。</p> </li> 
+       <li> <p>PLANNED_HOURS_CONTOURING </p> <p>具有包含此許可權的存取層級的使用者可以在工作負載平衡器中更新規劃時數。</p> <p>如需詳細資訊，請參閱<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">在工作負載平衡器</a>中管理使用者指派時<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">更新任務計畫時數</a>。</p> </li> 
        <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>具有包含此許可權的存取層級的使用者可以將欄位新增到自訂表單。</p> <p>如需詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref">建立或編輯自訂表格</a>。</p> </li> 
        <li> <p>EDIT_SYSTEM範圍 </p> <p>具有包含此許可權的存取層級的使用者可以在系統範圍內以刪除存取權共用自訂欄位。</p> </li> 
       </ul> </li> 
@@ -269,7 +269,7 @@ AccessRule物件代表自訂存取層級中的規則集，可決定使用者如�
     <ul> 
      <li><strong>coreAction</strong> <p>已新增下列可能值：</p> 
       <ul> 
-       <li> <p>PLANNED_HOURS_CONTOURING </p> <p>具有包含此許可權的存取層級的使用者可以在工作負載平衡器中更新規劃時數。</p> <p>如需詳細資訊，請參閱<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">在工作負載平衡器</a>中管理使用者指派時<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">更新任務計畫時數</a>。</p> </li> 
+       <li> <p>PLANNED_HOURS_CONTOURING </p> <p>具有包含此許可權的存取層級的使用者可以在工作負載平衡器中更新規劃時數。</p> <p>如需詳細資訊，請參閱<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">在工作負載平衡器</a>中管理使用者指派時<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">更新任務計畫時數</a>。</p> </li> 
        <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>具有包含此許可權的存取層級的使用者可以將欄位新增到自訂表單。</p> <p>如需詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref">建立或編輯自訂表格</a>。</p> </li> 
        <li> <p>EDIT_SYSTEM範圍 </p> <p>具有包含此許可權的存取層級的使用者可以在系統範圍內以刪除存取權共用自訂欄位。</p> </li> 
       </ul> </li> 
@@ -560,7 +560,7 @@ DocumentVersion物件代表檔案的特定版本（例如書面材料、影像�
 
 ### LinkedFolder {#linkedfolder}
 
-LinkedFolder物件代表連結自外部檔案提供者(例如Google Drive或Dropbox)的資料夾。
+LinkedFolder物件代表從外部檔案提供者(例如Google Drive或Dropbox)連結的資料夾。
 
 如需連結資料夾的詳細資訊，請參閱[從外部應用程式連結檔案](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)。
 
@@ -656,7 +656,7 @@ Parameter資源已新增可共用的標幟。
  </tbody> 
 </table>
 
-### 專案組合 {#portfolio}
+### 產品組合 {#portfolio}
 
 Portfolio物件是競爭相同資源（通常是金錢或人力）的專案集合。
 
@@ -724,7 +724,7 @@ QueueDef物件代表佇列，這是已發佈至服務檯區域的專案，可讓
     <ul> 
      <li><strong>requestorCoreAction</strong> <p>已新增下列可能值：</p> 
       <ul> 
-       <li> <p>PLANNED_HOURS_CONTOURING </p> <p>具有包含此許可權的存取層級的使用者可以在工作負載平衡器中更新規劃時數。</p> <p>如需詳細資訊，請參閱<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">在工作負載平衡器</a>中管理使用者指派時<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">更新任務計畫時數</a>。</p> </li> 
+       <li> <p>PLANNED_HOURS_CONTOURING </p> <p>具有包含此許可權的存取層級的使用者可以在工作負載平衡器中更新規劃時數。</p> <p>如需詳細資訊，請參閱<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">在工作負載平衡器</a>中管理使用者指派時<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">更新任務計畫時數</a>。</p> </li> 
        <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>具有包含此許可權的存取層級的使用者可以將欄位新增到自訂表單。</p> <p>如需詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref">建立或編輯自訂表格</a>。</p> </li> 
        <li> <p>EDIT_SYSTEM範圍 </p> <p>具有包含此許可權的存取層級的使用者可以在系統範圍內以刪除存取權共用自訂欄位。</p> </li>
        <ul> 
@@ -762,7 +762,7 @@ ScheduledReport物件代表已設定為排程傳送的報表。
 
 ### ScorecardQuestion {#scorecardquestion}
 
-ScoreCardQuestion物件代表已新增至計分卡的問題。 這些問題通常由Portfolio經理決定，而他們的答案可讓經理瞭解專案與產品組合目標的對齊程度。
+ScoreCardQuestion物件代表已新增至計分卡的問題。 這些問題通常由Portfolio經理決定，而這些問題的答案可讓經理瞭解專案與產品組合目標的對齊程度。
 
 如需計分卡問題的詳細資訊，請參閱[建立計分卡](../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)。
 
@@ -906,7 +906,7 @@ TemplateTask物件代表屬於Template一部分的Task。 範本任務會成為�
       <ul> 
        <li> <p>initiativeAdd (enum.updatetypeenum.initiativeadd)</p> </li> 
        <li> <p>initiativeEdit (enum.updatetypeenum.initiativeedit)</p> </li> 
-      </ul> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">如需方案的詳細資訊，請參閱情境規劃工具</a>中的<a href="../../scenario-planner/initiatives-overview.md" class="MCXref xref">方案概觀。</p> </li> 
+      </ul> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">如需方案的詳細資訊，請參閱情境規劃工具<a href="../../scenario-planner/initiatives-overview.md" class="MCXref xref">中的</a>方案概觀。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
