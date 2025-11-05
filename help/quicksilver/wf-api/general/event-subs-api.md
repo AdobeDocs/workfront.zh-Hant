@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 3a538a15daad5fa0dced8d45bb260d6087be81ff
+source-git-commit: 0fd415767680d877c9dd1de448f7903e6616d155
 workflow-type: tm+mt
-source-wordcount: '3060'
+source-wordcount: '3097'
 ht-degree: 3%
 
 ---
@@ -153,6 +153,10 @@ ht-degree: 3%
         <td scope="col">檔案 </td> 
        </tr> 
        <tr> 
+        <td scope="col"><p>文件版本</p></td> 
+        <td scope="col">DOCV </td> 
+       </tr> 
+       <tr> 
         <td scope="col"><p>費用</p></td> 
         <td scope="col">費用</td> 
        </tr> 
@@ -185,6 +189,10 @@ ht-degree: 3%
         <td scope="col"><p>專案</p></td> 
        </tr> 
        <tr> 
+        <td scope="col"><p>校樣核准</p></td> 
+        <td scope="col"><p>預設</p></td> 
+       </tr> 
+       <tr> 
         <td scope="col"><p>記錄</p></td> 
         <td scope="col"><p>記錄</p></td> 
        </tr> 
@@ -195,6 +203,30 @@ ht-degree: 3%
        <tr> 
         <td scope="col"><p>報表</p></td> 
         <td scope="col"><p>PTLSEC</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>人員配置計劃</p></td> 
+        <td scope="col"><p>員工</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>人員配置計畫引數值</p></td> 
+        <td scope="col"><p>SPVAL</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>人員配置計劃資源</p></td> 
+        <td scope="col"><p>員工</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>人員配置計畫資源屬性值</p></td> 
+        <td scope="col"><p>SPAVAL</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>人員配置計畫資源屬性值集</p></td> 
+        <td scope="col"><p>儲存集</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>人員配置計畫資源引數值</p></td> 
+        <td scope="col"><p>SRPVAL</p></td> 
        </tr> 
        <tr> 
         <td scope="col"><p>任務</p></td> 
