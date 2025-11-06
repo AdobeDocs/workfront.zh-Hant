@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: e9b96508d27da15472506aa36bdaa507ca9831ba
+source-git-commit: 829b3d343286b63922614b3855f9227667ad57a4
 workflow-type: tm+mt
-source-wordcount: '8992'
+source-wordcount: '9336'
 ht-degree: 0%
 
 ---
@@ -34,33 +34,68 @@ ht-degree: 0%
 
 ## 專案
 
+### 使用範本任務時的新體驗
+
+**預覽版本： 2025年11月6日；生產版本：自2025年11月13日起一週**
+
+我們更新了使用範本任務時的體驗。
+
+>[!NOTE]
+>
+>在有限的時間內，您將有機會在新增或編輯範本任務的舊體驗與新體驗之間切換。
+
+此更新包含下列變更：
+
+* 範本任務的「子任務」區段中的範本任務清單現在與Workfront中的大部分清單相符
+
+* 「新增」和「編輯範本任務」方塊具有新外觀
+
+* 您現在可以在編輯範本任務時更新外部查詢自訂欄位
+
+* 提供指派資源給範本任務的新體驗。 現在，當您大量編輯一項任務或編輯多項任務時，都可以使用新體驗。 下列欄位已從「編輯任務」方塊中移除：
+
+* 配置
+   * 所有者或任務所有者
+   * 受指派人角色
+
+在範本任務中進行進階指派時，您仍然可以找到已移除的欄位。
+
+如需詳細資訊，請參閱[編輯範本任務](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-template-task.md)。
+
+
+### 大量編輯和單一或大量指派任務的新體驗
+
+**預覽版本： 2025年11月6日；生產版本：自2025年11月13日起一週**
+
+編輯單一任務或大量編輯任務時，我們已更新「編輯任務」方塊。
+
+>[!NOTE]
+>
+>您將有機會在舊體驗與新體驗之間切換，以在有限的時間內編輯任務。
+
+此更新包含下列變更：
+
+* 大量更新任務時，「重新計算自訂運算式」選項已移除，並在選取多個任務後，已新增至任務清單中的「更多」功能表。
+
+* 您現在可以更新外部查詢自訂欄位
+
+* 指派資源給任務有全新的體驗。 現在，在編輯一個任務或編輯多個任務時均可使用此功能。 下列欄位已從「編輯任務」方塊中移除：
+
+   * 配置
+   * 所有者或任務所有者
+   * 受指派人角色
+
+在任務中進行進階指派時，您仍然可以找到已移除的欄位。
+
+如需詳細資訊，請參閱[編輯工作](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md)。
+
 ### 使用範本將任務轉換為專案時介面更新
 
-**預覽版本： 2025年10月30日；生產版本：從2025年11月6日開始**
+**預覽版本： 2025年10月30日；生產版本：自2025年11月6日當週開始**
 
 使用範本將任務轉換為專案時，我們已更新「轉換為專案」方塊。 方塊的設計現在與「編輯專案」方塊相符。
 
 如需詳細資訊，請參閱[將任務轉換為專案](/help/quicksilver/manage-work/tasks/manage-tasks/convert-task-to-project.md)。
-
-<!--### New experience when bulk editing and single- or bulk-assigning tasks
-
-**Preview release: October 30, 2025; Production release: Starting on November 6, 2025**
-
-We have updated the Edit Tasks box when editing single tasks or editing them in bulk. The following changes are included in this update:
-
-* The Recalculate Custom Expressions option has been removed when updating tasks in bulk and has been added to the More menu in a task list, after selecting multiple tasks.
-
-* There is a new experience for assigning resources to tasks. This is now available both when editing one task or editing several tasks in bulk. The following fields have been removed from the Edit tasks box:
-
-* Allocations
-* Owner or Task Owner
-* Assignee's Role
-
-You can still find the removed fields when making advanced assignments on tasks.
-
-You will have a chance to switch between the old and the new experience for editing tasks for a limited time.
-
-For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).-->
 
 ### 大量編輯和單一或大量指派問題時的新體驗
 
@@ -72,11 +107,13 @@ For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tas
 
 * 大量更新問題時，已移除重新計算自訂運算式選項。 在選取多個問題後，該選項已新增到問題清單中的更多選單。
 
+* 您現在可以在編輯問題時更新外部查詢自訂欄位。
+
 * 指派資源給問題的新體驗。 現在編輯一個問題或大量編輯多個問題時均可使用此功能。 下列欄位已從編輯問題方塊中移除：
 
-* 配置
-* 所有者或問題所有者
-* 受指派人角色
+   * 配置
+   * 所有者或問題所有者
+   * 受指派人角色
 
 在問題上進行進階指派時，您可以更新已移除的欄位。
 
@@ -1295,7 +1332,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 此更新包含區域的視覺化變更。 功能未變更。
 
-若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。**&#x200B;**
+若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。****
 
 +++
 
