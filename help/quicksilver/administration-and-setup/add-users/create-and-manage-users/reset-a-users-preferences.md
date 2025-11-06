@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: 5706ebd11985b9e67c93686918f8f0327adabdf1
+source-git-commit: f1fe1a2fe6e123d8a039e8d7e3547c0b0a8141df
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '365'
 ht-degree: 3%
 
 ---
@@ -18,8 +18,6 @@ ht-degree: 3%
 # 重設使用者的偏好設定
 
 <!-- Audited: 12/2023 -->
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽沙箱」環境中使用，並且正在分階段推出到生產環境。</span>
 
 身為Adobe Workfront管理員，您可以重設或移除Workfront系統中任何使用者的使用者偏好設定。
 
@@ -106,8 +104,6 @@ ht-degree: 3%
 
 <!--Display this table and hide the HTML table above, when the unshim is released.-->
 
-<div class="preview">
-
 | 喜好設定 | 重設後的狀態 |
 | --- | --- |
 | 檢視 | 已恢復為系統預設值 <p>不會刪除現有檢視。 您可以再次選取它們。</p> |
@@ -116,8 +112,6 @@ ht-degree: 3%
 | 最近專案清單 | 已清除 |
 | 我的最愛清單 | 未受影響 |
 | 使用者偏好設定 | 已恢復為系統預設值 <p>電子郵件通知會恢復為系統預設值。 預設通知列在Adobe Workfront[中可用的](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)事件通知中。</p> |
-
-</div>
 
 ## 重設使用者偏好設定
 
@@ -148,8 +142,8 @@ ht-degree: 3%
 
 1. 按&#x200B;**Enter**。
 
-1. <span class="preview">若要重設所有使用者偏好設定，請按一下&#x200B;**重設**。</span>
+1. 若要重設所有使用者偏好設定，請按一下[重設]。****
 
-   <span class="preview">或</span>
+   或
 
-   <span class="preview">若要將使用者的左側導覽重設為原始配置範本設定，請按一下&#x200B;**重設左側導覽**。</span>
+   若要將使用者的左側導覽重設為原始配置範本設定，請按一下&#x200B;**重設左側導覽**。
