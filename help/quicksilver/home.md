@@ -49,8 +49,8 @@ ht-degree: 3%
 
 >[!TAB 已知問題]
 
-* [已知問題](https://experienceleague.adobe.com/en/docs/workfront-known-issues/issues/overview)
-* [維護更新](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)
+* [已知問題](https://experienceleague.adobe.com/zh-hant/docs/workfront-known-issues/issues/overview)
+* [維護更新](https://experienceleague.adobe.com/zh-hant/docs/workfront-known-issues/releases/current-updates)
 
 
 >[!ENDTABS]
@@ -69,7 +69,7 @@ ht-degree: 3%
     <td>
     <ul>
     <li><a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md">開始使用Workfront管理</a></li>
-    <li><a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/get-started-fusion-toc">開始使用Workfront Fusion</li>
+    <li><a href="https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/get-started-with-fusion/get-started-fusion-toc">開始使用Workfront Fusion</li>
     <li><a href="/help/quicksilver/app-builder/install-apps-on-exchange.md">從Adobe Exchange取得並安裝應用程式</a></li>
     </ul>
  </td>
@@ -109,8 +109,8 @@ ht-degree: 3%
 
 ### 探索學習與訓練區段
 
-* **訓練教材**：瀏覽至[Workfront訓練](https://experienceleague.adobe.com/en/browse/workfront)頁面，以取得訓練影片和文章庫，協助您更瞭解Workfront功能和設定。 您也可以在[learning.adobe.com](https://learning.adobe.com/)存取付費訓練教材。
-* **課程**：尋找[結構化學習課程](https://experienceleague.adobe.com/home?Solution=Workfront#courses)，以邏輯順序引導您使用各種Workfront功能。
+* **訓練教材**：瀏覽至[Workfront訓練](https://experienceleague.adobe.com/zh-hant/browse/workfront)頁面，以取得訓練影片和文章庫，協助您更瞭解Workfront功能和設定。 您也可以在[learning.adobe.com](https://learning.adobe.com/)存取付費訓練教材。
+* **課程**：尋找[結構化學習課程](https://experienceleague.adobe.com/home?lang=zh-Hant&Solution=Workfront#courses)，以邏輯順序引導您使用各種Workfront功能。
 
 ### 在社群論壇中尋找答案
 
