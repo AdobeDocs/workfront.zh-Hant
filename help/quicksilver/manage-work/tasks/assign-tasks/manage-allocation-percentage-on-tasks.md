@@ -6,26 +6,29 @@ description: 配置百分比代表指定資源計畫在一天內處理一項任�
 author: Lisa
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '509'
 ht-degree: 1%
 
 ---
 
 # 管理任務的使用者或角色配置百分比
 
-<!--
-<div class="preview"> 
+<!--remove new/old experience references when they remove the New/ Old experience toggle from the Edit Tasks box-->
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+<div class="preview">
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 從預覽版開始的一週起，生產環境中也將提供相同功能給所有客戶。
 
-</div> 
--->
+如需詳細資訊，請參閱[介面現代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。
+
+</div>
+
 
 配置百分比代表指定資源計畫在一天內處理一項任務的時間量。 這是在任務持續期間中配置資源的當日百分比（根據使用者或專案排程）。
+
+當您對任務進行進階指派時，可以修改配置百分比。
 
 >[!NOTE]
 >
@@ -56,7 +59,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
   <tr> 
    <td>物件許可權</td>
    <td><p>貢獻或更高的任務許可權</p>
-   <p>編輯許可權以更新在編輯任務方塊中的分配百分比</p></td>
+   <p>編輯許可權以在<span class="preview">使用舊體驗編輯任務時，在「編輯任務」方塊中更新配置百分比。 在新體驗中編輯任務時，您無法再在「編輯任務」方塊中管理配置百分比。</span></p> <p>如需詳細資訊，請參閱<a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">編輯工作</a></p>。</td>
   </tr>
  </tbody>
 </table>
@@ -66,9 +69,8 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 +++
 
 <!--
-Change this sentence in the table when unshimmming assignments on Edit task:
-<p>Edit permissions to update allocation percentage in the Edit Task box</p>
-To this:
+Take this piece out of the table above when we remove the new experience/ after production release in the task box: 
+
 <p>Edit permissions to update allocation percentage in the Edit Task box when editing tasks using the old experience. <span class="preview">You can no longer manage allocation percentage in the Edit task box when editing tasks in the new experience.</span></p> <p>For information, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Edit tasks</a></p>.
 -->
 
@@ -85,11 +87,7 @@ To this:
 ## 修改任務的使用者或角色百分比分配
 
 1. 移至您要變更其資源配置百分比的任務。
-1. 按一下工作名稱旁的&#x200B;**更多**&#x200B;功能表![](assets/qs-more-icon-on-an-object.png)，然後按一下&#x200B;**編輯**。
-
-   或
-
-   按一下工作標題中的&#x200B;**工作總攬**&#x200B;區域，然後按一下&#x200B;**進階**。
+1. 按一下工作標題中的&#x200B;**工作總攬**&#x200B;區域，然後按一下&#x200B;**進階**。
 
 1. 確定任務的&#x200B;**期間型別**&#x200B;是下列其中一項：
 
@@ -101,7 +99,7 @@ To this:
    >* 對於計算的指派期間型別，Workfront會使用以下公式來計算每個受指派人的配置百分比： `Allocation Percentage = (Work Required / Number of days in the Duration) / Number of hours per work day / Number of assignees`。
    >* 對於「簡單期間型態」，您可以估計指派給每項資源的時數，而非配置百分比。
 
-1. 按一下&#x200B;**工作分派**，然後修改每個工作受指派人的&#x200B;**分派**。
+1. 修改每個任務受指派人的&#x200B;**配置**&#x200B;欄位。
 
    您只能修改使用者與職務角色指派的配置百分比。
 

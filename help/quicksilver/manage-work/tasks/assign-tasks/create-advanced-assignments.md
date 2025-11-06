@@ -7,7 +7,7 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
 workflow-type: tm+mt
 source-wordcount: '1118'
 ht-degree: 0%
@@ -20,15 +20,14 @@ ht-degree: 0%
 
 <!--remove the bullet indicated when we get rid of the new/old experience of editing tasks-->
 
-<!--
-<div class="preview"> 
+
+<!--<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div> 
--->
+</div> -->
 
 您可以使用「進階指派」來管理任務或問題指派。
 
@@ -136,7 +135,6 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
     -->
 
 1. 請為&#x200B;**受指派人**&#x200B;欄中的每個使用者指定下列資訊：
-
 
    * **所有者**：將游標停留在受指派人名稱上，如果要將受指派人標示為任務或問題所有者，請在「所有者」欄位中按一下&#x200B;**設為主要所有者**。 綠色核取方塊表示指定的使用者是任務或問題的主要聯絡人。 Adobe Workfront將您指派給任務或問題的第一個使用者或工作角色標籤為擁有者或主要指派。 團隊不能被指定為任務或問題的主要擁有者。
 

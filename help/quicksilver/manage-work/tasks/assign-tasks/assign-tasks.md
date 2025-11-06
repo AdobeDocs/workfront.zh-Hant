@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
 workflow-type: tm+mt
-source-wordcount: '1826'
+source-wordcount: '2212'
 ht-degree: 1%
 
 ---
@@ -18,15 +18,15 @@ ht-degree: 1%
 
 <!--Audited: 10/2025-->
 
-<!--
-<div class="preview"> 
+<!--remove production/ preview and old/ new experience references at prod-->
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+<div class="preview">
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 從預覽版開始的一週起，生產環境中也將提供相同功能給所有客戶。
 
-</div> 
--->
+如需詳細資訊，請參閱[介面現代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。
+
+</div>
 
 您可以將任務指派給使用者、工作角色或專案團隊，以指出負責完成任務的人員。 您可以一次將任務指派給多個資源。
 
@@ -236,13 +236,20 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 1. 在任務清單中選取數個任務。
 1. 按一下&#x200B;**編輯**。
 
-   **編輯工作**&#x200B;對話方塊開啟<!--<span class="preview">in the new experience</span>-->。
+   **編輯任務**&#x200B;對話方塊會在新體驗中開啟<span class="preview">。</span>
 
-   <!--1. Continue assigning the tasks <span class="preview">using the new experience</span>. <span class="preview">For more information, see the section Assign multiple tasks in bulk from a list in the new experience in this article.</span> (^^^^^^^^^^^^add anchor here at release^^^^^^^^^^^^) -->
+1. 使用新體驗繼續指派工作<span class="preview">。</span>
 
-   <!--1. <span class="preview">(Optional) Click **Switch back to old experience** at the bottom of the Edit Tasks box.</span> -->
+   <span class="preview">如需詳細資訊，請參閱本文章的[從新體驗中的清單大量指派多個工作](#assign-multiple-tasks-in-bulk-from-a-list-in-the-new-experience)一節。</span>
 
-1. 在「**工作總攬**」區域中，選取「**受指派人**」方塊，然後開始輸入您要指派給所有工作的使用者、工作角色或團隊的名稱。
+1. <span class="preview"> （選擇性）按一下&#x200B;**編輯工作**&#x200B;方塊底部的&#x200B;**切換回舊體驗**，以開啟舊體驗。</span>
+
+   >[!TIP]
+   >
+   >在生產環境中指派任務僅適用於舊體驗。
+
+
+1. （視條件而定）使用舊體驗，在&#x200B;**指派**&#x200B;區域中，選取&#x200B;**受指派人**&#x200B;方塊，然後開始輸入您要指派給所有工作的使用者、工作角色或團隊名稱。
 
    >[!IMPORTANT]
    >
@@ -266,58 +273,56 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 1. （選擇性）如果要從所有工作移除現有的受指派人，請執行下列任一項作業：
 
    1. 開始輸入您要從任務中移除的使用者、角色或團隊名稱，然後當名稱出現在清單中時選取名稱，並按一下&#x200B;**移除受指派人**&#x200B;以移除更多受指派人。
-   1. 按一下「移除所有現有受指派人」**&#x200B;**，從所有選取的工作中移除所有受指派人。
+   1. 按一下「移除所有現有受指派人」****，從所有選取的工作中移除所有受指派人。
 
 1. 按一下「**儲存變更**」。
 1. （選擇性和條件性）當「指派至」或「工作總攬」欄位顯示在您的任務清單中時，按一下這些欄中的一個以取得任務，然後按一下受指派人名稱旁的&#x200B;**X圖示**，以將其從任務中移除。
 
-<!--
+
 <div class="preview">
 
-### Assign multiple tasks in bulk from a list in the new experience
+### 從新體驗中的清單大量指派多個任務
 
-1. Go to a list of tasks that you want to assign in bulk in the Preview environment. 
-1. (Conditional) Ensure that the **Autosave** option is selected if you are on a list of tasks under a project.
-
-   >[!IMPORTANT]
-   >
-   >You cannot edit tasks in bulk when saving tasks manually on a project.
-
-1. Select several tasks in the tasks list. 
-1. Click **Edit**.
-
-   The **Edit Tasks** dialog box opens.
-
-1. In the **Assignments** area, start typing the name of users, teams, or roles in the **Search people, roles, or teams** field provided, then click them when they display in the list
-
-   Or 
-
-   Click **Assign to me** to assign it to yourself.
+1. 前往您要在「預覽」環境中大量指派的工作清單。
+1. （視條件而定）如果您在專案下的任務清單中，請確定已選取&#x200B;**自動儲存**&#x200B;選項。
 
    >[!IMPORTANT]
    >
-   >If any of the tasks is already assigned, the resources you indicate here are added to the tasks instead of replacing the existing resources on the tasks.
+   >在專案上手動儲存任務時，您無法大量編輯任務。
 
-1. Click inside the **Duration Type** field and choose a Duration Type. 
+1. 在任務清單中選取數個任務。
+1. 按一下&#x200B;**編輯**。
 
-   For information about Duration Type on tasks, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+   **編輯工作**&#x200B;對話方塊開啟。
 
-1. (Conditional) Depending on what **Duration Type** you selected, update the following fields: 
+1. 在&#x200B;**工作總攬**&#x200B;區域中，開始在提供的&#x200B;**搜尋人員、角色或團隊**&#x200B;欄位中輸入使用者、團隊或角色的名稱，然後當他們顯示在清單中時按一下他們
 
-   * Duration
-   * Planned Hours
+   或
 
-      For more information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md). 
+   按一下&#x200B;**指派給我**&#x200B;以指派給您自己。
 
-1. (Optional) If you want to remove existing assignees from all tasks, click the **x** next to their name in the **Search people, roles, or teams** field.
+   >[!IMPORTANT]
+   >
+   >如果有任何任務已指派，您在此處指定的資源會新增到任務中，而不是取代任務上的現有資源。
 
-1. Click **Save**.
-1. (Optional and conditional) When the Assigned to or the Assignments fields display in your list of tasks, click inside one of these columns for a task, then click the **X icon** next to the name of an assignee to remove it from the task.
+1. 在&#x200B;**期間型別**&#x200B;欄位內按一下，然後選擇期間型別。
+
+   如需有關工作的期間型別資訊，請參閱[工作期間與期間型別概觀](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)。
+
+1. （視條件而定）根據您選取的&#x200B;**期間型別**，更新下列欄位：
+
+   * 期間
+   * 規劃時數
+
+     如需詳細資訊，請參閱[編輯工作](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md)。
+
+1. （選擇性）如果您想要從所有任務中移除現有的受指派人，請在&#x200B;**搜尋人員、角色或團隊**&#x200B;欄位中按一下其名稱旁的&#x200B;**x**。
+
+1. 按一下「**儲存**」。
+1. （選擇性和條件性）當工作清單中顯示&#x200B;**指派給**&#x200B;或&#x200B;**工作總攬**&#x200B;欄位時，按一下這些欄位之一內的工作總攬，然後按一下受指派人名稱旁的&#x200B;**X圖示**，即可將其從工作移除。
 
 
 </div>
--->
-
 
 
 <!--

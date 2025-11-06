@@ -7,7 +7,7 @@ description: 建立範本後，您可以編輯有關範本任務的資訊。 使
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
 workflow-type: tm+mt
 source-wordcount: '4716'
 ht-degree: 4%
@@ -461,7 +461,7 @@ ht-degree: 4%
 
 
 1. 如上所述，開始編輯範本任務。
-1. 在[編輯範本任務]方塊中，按一下[範本任務名稱] **&#x200B;**&#x200B;並新增範本任務的名稱。
+1. 在[編輯範本任務]方塊中，按一下[範本任務名稱] ****&#x200B;並新增範本任務的名稱。
 
    大量編輯範本任務時，此檢視不可用。
 
@@ -576,35 +576,35 @@ ht-degree: 4%
    按一下&#x200B;**指派給我**，將範本工作指派給您自己。
 1. 請考慮更新下列資訊：
 
-<table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody>
+   <table style="table-layout:auto"> 
+      <col> 
+      <col> 
+      <tbody>
 
-<tr> 
-      <td role="rowheader"><strong>期間類型</strong> </td> 
-      <td> <p>從此範本建立的未來任務將具有此期間型別。 <br>持續時間型別識別下列專案之間的關係：</p> 
-      <ul>
-      <li><p>指派給任務的資源數</p> </li>
-      <li><p>完成任務所需的總工作量</p></li> 
-      <li><p>任務的總持續時間 </p></li></ul> <p>您可以使用期間型態，根據作業需求設定一致的資源指定。 如需有關任務期間型別的詳細資訊，請參閱<a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">任務期間與期間型別概觀</a>。</p> <p>從下列選項中選取：</p> 
-       <ul> 
-        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">計算的工作分派</span> </p> </li> 
-        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">已計算的工作</span> </p> </li> 
-        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">投入比導向</span> </p> </li> 
-        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">簡單</span> <br> </p> </li> 
-       </ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>期間</strong> </td> 
-      <td> <p>指定未來工作的持續時間，單位為分鐘、小時、天、周或月。 從此範本建立的未來任務將在此指定持續時間。</p> <p>依預設，Workfront會測量持續時間（以天為單位）。 這是您允許任務在必須完成之前保持未完成的時間。 當任務的<strong>期間型別</strong>為<strong>簡單</strong>，或<strong>任務限制</strong>為<strong>固定日期</strong>時，您無法指定任務的期間。</p> <p><b>重要</b></p> <p>期間通常是範本任務的計劃開始與計畫完成日期之間的時間量，因此，會影響範本的時間表。 這會決定從範本建立的未來專案的時間表。 </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>規劃時數</strong> </td> 
-      <td> <p>指定使用此範本建立的專案上未來任務的計畫時數。 這是工作的受指派人完成工作所需的實際時間。 當<strong>工期型別</strong>設定為<strong>已計算的工作分派</strong>時，您只能指定任務的計畫時數。 </p> </td> 
-     </tr> 
-  </tbody> 
-   </table>
+   <tr> 
+         <td role="rowheader"><strong>期間類型</strong> </td> 
+         <td> <p>從此範本建立的未來任務將具有此期間型別。 <br>持續時間型別識別下列專案之間的關係：</p> 
+         <ul>
+         <li><p>指派給任務的資源數</p> </li>
+         <li><p>完成任務所需的總工作量</p></li> 
+         <li><p>任務的總持續時間 </p></li></ul> <p>您可以使用期間型態，根據作業需求設定一致的資源指定。 如需有關任務期間型別的詳細資訊，請參閱<a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">任務期間與期間型別概觀</a>。</p> <p>從下列選項中選取：</p> 
+         <ul> 
+         <li> <p style="font-weight: bold;"><span style="font-weight: normal;">計算的工作分派</span> </p> </li> 
+         <li> <p style="font-weight: bold;"><span style="font-weight: normal;">已計算的工作</span> </p> </li> 
+         <li> <p style="font-weight: bold;"><span style="font-weight: normal;">投入比導向</span> </p> </li> 
+         <li> <p style="font-weight: bold;"><span style="font-weight: normal;">簡單</span> <br> </p> </li> 
+         </ul> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>期間</strong> </td> 
+         <td> <p>指定未來工作的持續時間，單位為分鐘、小時、天、周或月。 從此範本建立的未來任務將在此指定持續時間。</p> <p>依預設，Workfront會測量持續時間（以天為單位）。 這是您允許任務在必須完成之前保持未完成的時間。 當任務的<strong>期間型別</strong>為<strong>簡單</strong>，或<strong>任務限制</strong>為<strong>固定日期</strong>時，您無法指定任務的期間。</p> <p><b>重要</b></p> <p>期間通常是範本任務的計劃開始與計畫完成日期之間的時間量，因此，會影響範本的時間表。 這會決定從範本建立的未來專案的時間表。 </p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>規劃時數</strong> </td> 
+         <td> <p>指定使用此範本建立的專案上未來任務的計畫時數。 這是工作的受指派人完成工作所需的實際時間。 當<strong>工期型別</strong>設定為<strong>已計算的工作分派</strong>時，您只能指定任務的計畫時數。 </p> </td> 
+      </tr> 
+   </tbody> 
+      </table>
 
 1. （選擇性）根據您要修改的資訊，繼續編輯下列區段。
 
