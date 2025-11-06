@@ -8,10 +8,10 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
+source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
 workflow-type: tm+mt
-source-wordcount: '2741'
-ht-degree: 2%
+source-wordcount: '2532'
+ht-degree: 3%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 2%
 
 <!--Audited: 10/2025-->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 從預覽版開始的一週起，生產環境中也將提供相同功能給所有客戶。
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-如需詳細資訊，請參閱[介面現代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div>-->
 
 您可以編輯您已建立的問題資訊，或其他使用者已建立的問題（如果他們與您共用問題）的相關資訊。
 
@@ -276,7 +276,7 @@ ht-degree: 2%
       <td> <p>這是問題的受分派者估計問題將完成的日期。 僅受指派人可以編輯此欄位。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">計劃開始日期</td> 
+      <td role="rowheader">規劃開始日期</td> 
       <td>依預設，計劃開始日期是建立問題的日期和時間。 您可以更新問題的<strong>規劃開始日期</strong>。 </td> 
      </tr> 
      <tr> 
@@ -348,14 +348,9 @@ ht-degree: 2%
    >* 將工作專案重新指派給作用中的資源。
    >* 將已停用團隊中的使用者與作用中團隊建立關聯，並將工作專案重新指派給作用中團隊。
 
-1. （視條件而定）根據您在中編輯問題的環境，執行下列任一項作業：
-
-   1. 在生產環境中：
-
-      1. 將游標移至受指派人名稱上，並按一下&#x200B;**設為主要受指派人**，以指出受指派人是否為問題的主要受指派人。 團隊不能是問題的主要受指派人。
-
-      1. 更新下列欄位：
-
+   <!--1. In the Production environment:
+         1. Indicate whether an assignee is the primary assignee on the issue, by hovering over the name of the assignee and clicking **Make Primary**. A team cannot be the primary assignee of an issue.
+         1. Update the following fields: 
          <table style="table-layout:auto"> 
          <col> 
          </col> 
@@ -363,30 +358,27 @@ ht-degree: 2%
          </col> 
          <tbody> 
          <tr> 
-            <td role="rowheader">規劃時數</td> 
-            <td> <p>這是問題的受指派人完成問題所需的實際時間。 輸入問題的計畫時數數目。<br></p> <p><b>附註</b></p>  <p>變更問題的計畫時數不會變更問題的計畫完成日期。 </p> </td> 
+            <td role="rowheader">Planned Hours</td> 
+            <td> <p>This is the amount of actual time it would take the assignees of the issue to complete it. Type the number of Planned Hours for the issue.<br></p> <p><b>NOTE</b></p>  <p>Changing the Planned Hours of the issue will not change the issue Planned Completion Date. </p> </td> 
          </tr> 
          <tr data-mc-conditions=""> 
-            <td role="rowheader">受指派人角色</td> 
-            <td> <p>當您選取某人作為受指派人時，請從<strong>受指派人的角色</strong>下拉式功能表中選取角色。 這是受指派人可以在此問題上履行的角色。 </p> <p><b>秘訣</b>
-
-         下拉式功能表中只會顯示與其設定檔中每個受指派人相關聯的工作角色。</p> </td>
+            <td role="rowheader">Assignee's Role</td> 
+            <td> <p>Select a role from the <strong>Assignee's Role</strong> drop-down menu when you selected a person as an assignee. This is the role that the assignee can fulfill on this issue. </p> <p><b>TIP</b>
+            
+            Only the job roles associated with each assignee in their profile appear in the drop-down menu.</p> </td> 
          </tr> 
          </tbody> 
-         </table>
+         </table>-->
 
 
+1. （選擇性）按一下&#x200B;**指派給我**&#x200B;以指派問題給您自己。
+1. （選用）更新&#x200B;**計畫時數**&#x200B;欄位。
 
-   1. <span class="preview">（條件式）在預覽環境中，執行下列任一項作業：</span>
+   **計畫時數**&#x200B;是問題的受指派人完成該問題所需的時數。
 
-      * <span class="preview">按一下&#x200B;**指派給我**&#x200B;以指派問題給您自己</span>
-      * <span class="preview">更新&#x200B;**計畫時數**&#x200B;欄位。</span>
-
-        **計畫時數**&#x200B;是問題的受指派人完成該問題所需的時數。
-
-        >[!NOTE]
-        >
-        >變更問題的計畫時數不會變更問題的計畫完成日期。
+   >[!NOTE]
+   >
+   >變更問題的計畫時數不會變更問題的計畫完成日期。
 
 1. 若要從所有問題中移除指派，請參閱[指派問題](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md)。
 

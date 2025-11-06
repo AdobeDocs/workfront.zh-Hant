@@ -6,16 +6,24 @@ description: 您可以從「範本」區域建立及刪除範本。 建立新範
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: 46133f435c665dd82d134f18d0b5de4e70bab7d7
+source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 5%
+source-wordcount: '779'
+ht-degree: 6%
 
 ---
 
 # 建立專案範本
 
 <!-- Audited: 10/2025 -->
+
+<div class="preview">
+
+本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 從預覽版開始的一週起，生產環境中也將提供相同功能給所有客戶。
+
+如需詳細資訊，請參閱[介面現代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。
+
+</div>
 
 您可以從「範本」區域建立及刪除範本。 建立新範本時，您可以為所有任務和未來專案設定輸入資訊。 然後，此資訊將傳輸至您從範本建立的任何專案。
 
@@ -112,23 +120,32 @@ ht-degree: 5%
 
    ![新範本任務方塊](assets/new-template-task-box.png)
 
-   <!--<span class="preview">The Create Template Task opens in the new experience.</span>-->
+   <span class="preview">在新體驗中開啟&#x200B;**建立範本任務**&#x200B;方塊。</span>
 
-   <!--
-   1. <span class="preview">(Conditional) Using the new experience, update information in the following areas in the **Create Template Task** box:</span>
+1. <span class="preview">（條件式）使用新體驗，更新&#x200B;**建立範本任務**&#x200B;方塊中下列區域的資訊：</span>
+
    <div class="preview">
-   * Template Task Name
-   * Overview
-   * Assignments
-   * Finance
-   * Custom Forms
-   * Documents
-   * Settings 
+
+   * 範本任務名稱
+   * 概觀
+   * 指派
+   * 財務
+   * 自訂表單
+   * 文件
+   * 設定
+
    </div>
-   1. Click **Save**
-   Or (*******remove the 1. from the step below and continue with those steps here*********)
-   1. (Optional) Click **Switch back to old experience** at the bottom of the **Create Template Task** box.
-   The **New Template Task** opens. (************add screen shot***********)-->
+
+1. 按一下&#x200B;**建立範本任務**
+
+   或
+
+   <span class="preview">按一下&#x200B;**建立範本工作**&#x200B;方塊底部的&#x200B;**切換回舊體驗**。</span>
+   <span class="preview">在舊體驗中開啟&#x200B;**新範本任務**。</span>
+
+   >[!TIP]
+   >
+   >在生產環境中，預設會開啟舊體驗。
 
 1. 更新&#x200B;**新增範本任務**&#x200B;方塊中下列區域的資訊：
 
@@ -148,7 +165,7 @@ ht-degree: 5%
 1. 按一下下列其中一項：
 
    * **儲存範本任務**&#x200B;以儲存目前的範本任務並關閉[新增範本任務]方塊。
-   * **儲存範本任務並啟動另一個範本任務**&#x200B;以儲存目前的範本任務，並開啟另一個新範本任務方塊以新增另一個任務。
+   * **儲存範本任務並啟動另一個範本任務**&#x200B;以儲存目前的範本任務，並開啟另一個&#x200B;**新增範本任務**&#x200B;方塊以新增另一個任務。
    * **取消**&#x200B;以關閉此方塊而不儲存範本工作。
 1. （選擇性）新增範本任務後，在範本任務區段中，按一下任務清單右上角的&#x200B;**甘特圖**&#x200B;圖示，以檢視範本任務清單的視覺化表示法。
 

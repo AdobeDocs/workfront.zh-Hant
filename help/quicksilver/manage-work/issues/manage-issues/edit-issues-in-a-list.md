@@ -6,9 +6,9 @@ description: 您可以編輯個別問題，也可以編輯問題清單或報告�
 author: Alina
 feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
-source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
+source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '875'
 ht-degree: 1%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 1%
 <!--Audited: 10/2025-->
 
 
-<div class="preview">
+<!--<div class="preview"> 
 
-本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 從預覽版開始的一週起，生產環境中也將提供相同功能給所有客戶。
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-如需詳細資訊，請參閱[介面現代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 您可以編輯個別問題，也可以編輯問題清單或報告中的問題。 本文說明如何編輯清單中的問題。
 
@@ -172,15 +172,11 @@ ht-degree: 1%
 
    編輯所有問題的資訊與編輯以下區域時編輯一個問題的資訊相同：
 
-   <div class="preview">
-
    * 概觀
    * 指派
    * 自訂表單
    * 設定
    * 評論
-
-   </div>
 
    如需有關編輯問題的詳細資訊，請參閱[編輯問題](../../../manage-work/issues/manage-issues/edit-issues.md)。
 
@@ -194,16 +190,16 @@ ht-degree: 1%
 
    您只能在表單上編輯附加到所有選定問題並且您有權編輯的欄位。
 
-1. （選擇性和條件性）根據您用於編輯問題的環境，執行下列任一項作業以重新計算所有問題的自訂運算式：
+   <!--1. In the Production environment, in the **Custom Forms** area, select the **Recalculate Custom Expressions** option to ensure that all Calculated Custom Fields that are on the Custom Forms attached to the issues selected are up to date.-->
 
-   1. 在生產環境中，在&#x200B;**自訂Forms**&#x200B;區域中，選取&#x200B;**重新計算自訂運算式**&#x200B;選項，以確保附加到所選問題的自訂Forms上的所有計算自訂欄位都是最新狀態。
+1. 按一下「**儲存**」。
 
-   1. <span class="preview">在預覽環境中，在清單中選取所有問題，按一下問題清單頂端的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-icon.png)，然後按一下&#x200B;**重新計算運算式**。</span>
+   您所做的所有變更現在會顯示在所有選取的問題上。
+
+1. （選擇性）在清單中選取所有問題時，按一下問題清單頂端的&#x200B;**更多**&#x200B;功能表![更多](assets/more-icon.png)，然後按一下&#x200B;**重新計算運算式**。
 
    >[!IMPORTANT]
    >
    >建議您在重新計算自訂運算式時，不要選取超過500個問題。
 
-1. 按一下「**儲存變更**」。
 
-   您所做的所有變更現在會顯示在所有選取的問題上。
