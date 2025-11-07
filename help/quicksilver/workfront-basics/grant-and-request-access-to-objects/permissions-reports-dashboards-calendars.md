@@ -4,10 +4,10 @@ content-type: reference
 product-area: user-management;reports;dashboards;calendars
 navigation-topic: grant-and-request-access-to-objects
 description: 當使用者指派存取層級時，您的Adobe Workfront管理員會授予他們檢視或編輯報告、儀表板和行事曆的存取權。 如需授與報表、控制面板和行事曆存取權的詳細資訊，請參閱授與報表、控制面板和行事曆的存取權。
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: c2dac54b-6506-41b0-a7f2-6fafab12c2d1
-source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 許可權專屬於Workfront中的一個專案，可定義使用者可對該專案執行的動作。
 
-如需有關每個存取層級中的使用者可以對問題執行的資訊，請參閱文章[每個物件型別可用的功能](../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)中的[報告](../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#reports)小節。
+如需有關每個存取層級中的使用者可以對問題執行的資訊，請參閱文章[每個物件型別可用的功能](../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#reports)中的[報告](../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)小節。
 
 ## 關於共用報表、儀表板或行事曆的考量事項
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 * 當您共用控制面板時，使用者預設擁有控制面板上所有報告、行事曆和外部頁面的檢視許可權。
 * 擁有請求授權的使用者無法檢視系統範圍的報告。 請求者需要檢視報表時，必須個別與請求者共用報表。
 * 如果報表有提示且您公開共用，則存取該報表的使用者必須登入Workfront，才能使用提示執行報表。 如果他們無法登入Workfront，將會看到未套用提示的報告。\
-  如需有關共用具有提示之報表的限制的詳細資訊，請參閱文章[新增提示至報表](../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)中的[共用提示之報表的限制](../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports)小節。
+  如需有關共用具有提示之報表的限制的詳細資訊，請參閱文章[新增提示至報表](../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports)中的[共用提示之報表的限制](../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)小節。
 
 * 您可以從報告或行事曆移除繼承的許可權。
 

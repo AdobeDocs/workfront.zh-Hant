@@ -5,8 +5,9 @@ navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: 變更 [!DNL Adobe Workfront]中日期的格式
 description: 若要變更 [!DNL Adobe Workfront] 中日期的日期格式，您必須變更瀏覽器中的語言設定。
 feature: Get Started with Workfront
+author: Becky
 exl-id: 9fac92fb-e3d1-4537-b324-4b35447cef28
-source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
@@ -21,7 +22,7 @@ ht-degree: 0%
 >
 > 本文資訊僅適用於尚未上線Adobe Unified Experience的組織。
 > 如果您的組織已加入Adobe Unified Experience，您的日期偏好設定是由Adobe Unified Shell中設定的語言偏好設定所控制。 預設語言設定（因此也是預設日期設定）是`en-US`。
-> 如需詳細資訊，請參閱 [!DNL Workfront][&#128279;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md/#access-your-profile-and-preferences)的[!DNL Adobe Unified Experience] 。
+> 如需詳細資訊，請參閱[[!DNL Adobe Unified Experience] 的 [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md/#access-your-profile-and-preferences)。
 
 您可以在[!DNL Adobe Workfront]中變更日期的日期格式，例如[!UICONTROL 計畫完成日期]、[!UICONTROL 實際完成日期]或[!UICONTROL 預計完成日期]。
 

@@ -3,10 +3,10 @@ content-type: overview
 navigation-topic: grant-and-request-access-to-objects
 title: 物件許可權共用概觀
 description: 您可以共用或移除您所建立之物件或與您共用之物件的許可權。
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: 8df1c288eed04c7330d124e0c32c869a3e5a525b
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 1%
@@ -38,7 +38,7 @@ ht-degree: 1%
 
 * **範本**：如需詳細資訊，請參閱[共用專案範本](../../manage-work/projects/create-and-manage-templates/share-project-template.md)。
 
-* **Portfolio**：如需詳細資訊，請參閱[共用投資組合](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md)。
+* **投資組合**：如需詳細資訊，請參閱[共用投資組合](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md)。
 
 * **程式**：如需詳細資訊，請參閱[共用程式](../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md)。
 
@@ -103,7 +103,7 @@ ht-degree: 1%
 
 ## 共用物件的許可權
 
-下表說明您可在共用物件時選取的許可權等級。 並非所有物件都有這些設定可供使用。 您可以將其他實體許可權授予「檢視」或「管理物件」。 如果您要共用專案、任務或問題，也可以授與Contribute的許可權給它。
+下表說明您可在共用物件時選取的許可權等級。 並非所有物件都有這些設定可供使用。 您可以將其他實體許可權授予「檢視」或「管理物件」。 如果您要共用專案、任務或問題，也可以授予「貢獻內容」的許可權。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -117,7 +117,7 @@ ht-degree: 1%
      <li><p>將檔案新增至物件</p></li> 
      <li><p>將問題新增至物件（如果它是任務或專案）</p></li> 
      <li><p>檢視物件的財務資訊</p></li> 
-     <li> <p>共用物件<br></p> <p>當您共用物件時，您可以授予其他使用者與您僅擁有物件之許可權層級的相同許可權，而不是更高的層級。</p> </li> 
+     <li> <p>共用此物件<br></p> <p>當您共用物件時，您可以授予其他使用者與您僅擁有物件之許可權層級的相同許可權，而不是更高的層級。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -136,7 +136,7 @@ ht-degree: 1%
    <td role="rowheader"><strong>管理</strong></td> 
    <td> <p>您可以對物件執行下列動作：</p> 
     <ul> 
-     <li>檢視和Contribute許可權所包含的所有動作</li> 
+     <li>檢視和貢獻許可權中包含的所有動作</li> 
      <li>刪除它</li> 
      <li>管理其中的財務資訊</li> 
     </ul> </td> 
@@ -158,11 +158,11 @@ ht-degree: 1%
 
 Workfront中的許可權是階層式繼承的。 這表示如果您授予使用者對父物件的許可權，預設情況下，這些使用者會獲得與其相關聯之子物件的相同許可權。
 
-例如，如果您將專案的Contribute許可權授予使用者，則該使用者擁有與該專案相關聯的所有任務和問題（子物件）的Contribute許可權。
+例如，如果您授予使用者「貢獻專案」的許可權，則使用者對於與該專案相關聯的所有任務和問題（子物件）都具有「貢獻專案」許可權。
 
-繼續上述範例，您無法將許可權限制在子物件。 如果您不希望使用者擁有與專案相關聯之子物件的Contribute許可權，您必須手動從物件中移除繼承許可權，然後調整個別使用者的許可權，包括任何進階設定。 
+繼續上述範例，您無法將許可權限制在子物件。 如果您不希望使用者擁有與專案相關聯之子物件的「貢獻」許可權，您必須手動從物件移除「繼承的許可權」，然後調整個別使用者的許可權，包括任何「進階設定」。 
 
-如需Workfront中物件的階層與相依性的詳細資訊，請參閱[Adobe Workfront物件概觀](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)一文中的[物件相依性和階層](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#interdependency-and-hierarchy-of-objects)一節。
+如需Workfront中物件的階層與相依性的詳細資訊，請參閱[Adobe Workfront物件概觀](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#interdependency-and-hierarchy-of-objects)一文中的[物件相依性和階層](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)一節。
 
 >[!NOTE]
 >

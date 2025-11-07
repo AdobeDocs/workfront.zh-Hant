@@ -3,10 +3,10 @@ product-area: user-management
 navigation-topic: grant-and-request-access-to-objects
 title: 授予「首頁」區域中物件的存取權
 description: 使用者可以要求存取Adobe Workfront中的物件。 如需請求存取許可權的詳細資訊，請參閱請求物件的存取許可權。
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: e0a69ed5-57c3-47ac-bb7a-65495f93b3e3
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 1%
@@ -60,7 +60,7 @@ ht-degree: 1%
 
 1. 按一下熒幕右上角的&#x200B;**主功能表** ![](assets/dots-main-menu.png)，或按一下左上角的&#x200B;**主功能表** ![](assets/lines-main-menu.png) （如果可用），然後按一下&#x200B;**首頁**
 或
-按一下Adobe Workfront左上角的&#x200B;**首頁**&#x200B;圖示![](assets/home-icon-30x29.png)。
+按一下Adobe Workfront左上角的**首頁**&#x200B;圖示![](assets/home-icon-30x29.png)。
 
    >[!NOTE]
    >
@@ -75,7 +75,7 @@ ht-degree: 1%
 
       ![核准請求](assets/request-for-access-to-project-in-new-home-approvals-widget.png)
 
-   1. （選擇性）若要授與不同層級的存取權，請按一下[授與存取權]按鈕左側的下拉式功能表，並選取新的存取權，然後按一下[授與存取權]。**&#x200B;**
+   1. （選擇性）若要授與不同層級的存取權，請按一下[授與存取權]按鈕左側的下拉式功能表，並選取新的存取權，然後按一下[授與存取權]。****
 
       存取請求被授予，並從核准請求清單中消失。
 

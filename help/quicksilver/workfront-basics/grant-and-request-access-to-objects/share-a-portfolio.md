@@ -2,10 +2,9 @@
 title: 共用投資組合
 description: 如果您有存取投資組合的許可權，可以與其他使用者共用投資組合。
 author: Courtney
-draft: Probably
 feature: Get Started with Workfront
 exl-id: 79643202-2d91-4028-b673-c3443b50d898
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%

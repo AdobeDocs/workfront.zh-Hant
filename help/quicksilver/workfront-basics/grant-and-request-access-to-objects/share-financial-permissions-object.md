@@ -3,10 +3,10 @@ title: 共用物件的財務許可權
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 description: 指派存取層級時，您的Adobe Workfront管理員可授予您檢視或編輯財務資料的存取權。 如需詳細資訊，請參閱授予財務資料的存取權。
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 1%
@@ -94,7 +94,7 @@ ht-degree: 1%
 若要授與物件的財務許可權：
 
 1. 前往您要與他人共用的任務、專案或問題。
-1. 在物件名稱附近，按一下[更多]功能表![](assets/more-icon.png)，然後按一下[共用]&#x200B;**&#x200B;**。
+1. 在物件名稱附近，按一下[更多]功能表![](assets/more-icon.png)，然後按一下[共用]****。
 
 1. 在&#x200B;**將`<Object name>`存取權授予**&#x200B;欄位中，開始輸入您要共用物件的使用者、團隊、角色、群組或公司的名稱。
 

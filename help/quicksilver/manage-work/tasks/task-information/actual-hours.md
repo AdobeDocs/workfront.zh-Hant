@@ -7,9 +7,9 @@ description: 您在Adobe Workfront中登入工作專案的時數會視為實際�
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
-source-wordcount: '1231'
+source-wordcount: '1276'
 ht-degree: 0%
 
 ---
@@ -93,8 +93,10 @@ ht-degree: 0%
 
 * 在專案、任務和問題報告及清單中：
 
-   * **實際時數**： 2021年5月之後為專案、任務或問題記錄的時數。 它們會以小時為單位儲存在Workfront資料庫中，其valuefield為`actualWorkRequiredDouble`。
-   * **舊版實際時數**：隨時為專案、任務或問題記錄的時數，包括2021年5月前的時間。 它們以分鐘數儲存在Workfront資料庫中，其valuefield為`actualWorkRequired`。
+   * **實際時數**： 2021年5月至今天期間專案、任務或問題所記錄的時數。 它們會以小時為單位儲存在Workfront資料庫中，其valuefield為`actualWorkRequiredDouble`。
+   * **舊版實際時數**：在2021年5月之前的任何日期與今天之間的任何時間，為專案、任務或問題記錄的時數。 它們以分鐘數儲存在Workfront資料庫中，其valuefield為`actualWorkRequired`。
+
+     目前記錄的時數將會更新實際和舊版實際時數。
 
      >[!IMPORTANT]
      >
@@ -102,12 +104,14 @@ ht-degree: 0%
 
 * 在專案、任務或問題詳細資訊區域，實際時數可顯示在以下欄位：
 
-   * **實際時數**：在「詳細資料」索引標籤中，這些是2021年5月之後為專案、任務或問題記錄的時數。 它們會以小時為單位儲存在Workfront資料庫中，其valuefield為`actualWorkRequiredDouble`。
-   * **實際時數**：在專案、任務或問題自訂表單中，當使用參考實際時數原生欄位的原生欄位參考自訂欄位存取它們時。 這些是2021年5月之後為專案、任務或問題記錄的小時。 它們會以小時為單位儲存在Workfront資料庫中，其valuefield為`actualWorkRequiredDouble`。
+   * **實際時數**：在「詳細資料」索引標籤中，這些是2021年5月與今天之間專案、任務或問題的記錄時數。 它們會以小時為單位儲存在Workfront資料庫中，其valuefield為`actualWorkRequiredDouble`。
+   * **實際時數**：在專案、任務或問題自訂表單中，當使用參考實際時數原生欄位的原生欄位參考自訂欄位存取它們時。 這些是2021年5月之前和今天之間任何日期的專案、任務或問題所記錄的小時。 它們會以小時為單位儲存在Workfront資料庫中，其valuefield為`actualWorkRequiredDouble`。
+
+     目前記錄的時數將會更新實際和舊版實際時數。
 
 >[!NOTE]
 >
->建議儘可能使用實際時數欄位，因為舊版實際時數欄位可能會因為遞增方式而顯示不正確時數。
+>建議儘可能使用實際時數欄位，因為舊版實際時數欄位可能會顯示不正確時數，因為以分鐘為單位儲存時數時，增量的方式會舍入至四捨五入。
 
 ## 任務和問題的實際小時與專案的實際小時比較
 

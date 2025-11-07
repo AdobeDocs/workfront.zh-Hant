@@ -4,8 +4,9 @@ navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: 多個瀏覽器分頁導致Workfront登出
 description: 當使用者開啟多個瀏覽器標籤時，Workfront 可能會自動登出。
 feature: Get Started with Workfront
+author: Becky
 exl-id: 1cc8bf6c-0eda-41ef-8efd-bba3a5f33b08
-source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 29%

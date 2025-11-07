@@ -2,20 +2,20 @@
 title: 共用範本
 product-area: templates
 navigation-topic: grant-and-request-access-to-objects
-description: 身為Adobe Workfront管理員，您可以在指派使用者的存取層級時，授予使用者檢視或編輯範本的存取權。 使用者必須擁有「計畫」授權才能存取「編輯範本」。
-author: Alina
+description: 作為 Adobe Workfront 管理員，您可以在指派使用者的存取層級時，授予他們檢視或編輯範本的權限。使用者必須擁有計劃授權才能擁有編輯範本的存取權。
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '584'
-ht-degree: 2%
+ht-degree: 14%
 
 ---
 
 # 共用範本
 
-身為Adobe Workfront管理員，您可以在指派使用者的存取層級時，授予使用者檢視或編輯範本的存取權。 使用者必須擁有「計畫」授權才能存取「編輯範本」。
+作為 Adobe Workfront 管理員，您可以在指派使用者的存取層級時，授予他們檢視或編輯範本的權限。使用者必須擁有計劃授權才能擁有編輯範本的存取權。
 
 如需授與範本存取權的詳細資訊，請參閱[授與範本存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md)。
 
@@ -52,7 +52,7 @@ ht-degree: 2%
 
 * 當您共用範本時，除非另有指定，所有範本任務和檔案，以及使用該範本建立的未來專案上的問題都將繼承相同的許可權。
 
-  如需有關根據使用者對專案的許可權來管理專案上範本任務和問題的存取許可權的資訊，請參閱文章[編輯專案範本](../../manage-work/projects/create-and-manage-templates/edit-templates.md)中的[存取](../../manage-work/projects/create-and-manage-templates/edit-templates.md#access)區段。
+  如需有關根據使用者對專案的許可權來管理專案上範本任務和問題的存取許可權的資訊，請參閱文章[編輯專案範本](../../manage-work/projects/create-and-manage-templates/edit-templates.md#access)中的[存取](../../manage-work/projects/create-and-manage-templates/edit-templates.md)區段。
 
 * Workfront管理員可以指定檔案是否應該繼承使用者存取層級中較高物件的許可權。 如需有關限制檔案繼承許可權的詳細資訊，請參閱[建立或修改自訂存取層級](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
@@ -103,7 +103,7 @@ You can share an object only with active users, teams,
 
 ## 範本共用的進階設定
 
-下表顯示當允許使用者檢視或管理範本時，您可以授予他們哪些許可權。 如需共用範本的指示，請參閱文章[共用專案範本](../../manage-work/projects/create-and-manage-templates/share-project-template.md)中的[共用範本](../../manage-work/projects/create-and-manage-templates/share-project-template.md#share)一節。
+下表顯示當允許使用者檢視或管理範本時，您可以授予他們哪些許可權。 如需共用範本的指示，請參閱文章[共用專案範本](../../manage-work/projects/create-and-manage-templates/share-project-template.md#share)中的[共用範本](../../manage-work/projects/create-and-manage-templates/share-project-template.md)一節。
 
 <table style="table-layout:auto"> 
  <col> 

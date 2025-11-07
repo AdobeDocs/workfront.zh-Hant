@@ -6,8 +6,9 @@ navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Workfront Proof Manager許可權疑難排解
 description: 在 [!DNL Adobe] Workfront中可用於校訂使用者的許可權設定檔為「管理員」、「監督員」和「管理員」。
 feature: Get Started with Workfront
+auhor: Courtney
 exl-id: 913241d0-f5b0-4674-b078-9a1ad3682aff
-source-git-commit: 114d306d99ae9ba0a18abd63a6137ad0568ab202
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%

@@ -3,10 +3,10 @@ product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 title: 檢視物件的繼承許可權
 description: 指派存取層級時，您的Adobe Workfront管理員可授予您檢視或編輯物件的存取權。 如需詳細資訊，請參閱授予專案存取權。
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 7025f097-ea99-41bf-965e-617b0f532ff7
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 0%

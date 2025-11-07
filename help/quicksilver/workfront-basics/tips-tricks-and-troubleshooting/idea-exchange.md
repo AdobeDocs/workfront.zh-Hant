@@ -4,8 +4,9 @@ navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: 創新實驗室
 description: '[!UICONTROL 創新實驗室]可讓已驗證身分的使用者提交、投票及與其他客戶討論想法。'
 feature: Get Started with Workfront
+author: Becky
 exl-id: 4775ece1-2841-4acc-b3f0-66cd2783669f
-source-git-commit: 3583368918cf9eb4c64faeda4730e2be08375aed
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 0%
@@ -24,7 +25,7 @@ ht-degree: 0%
 
 投票支援一個想法：
 
-1. 登入下列URL之[!DNL Adobe Experience League]網站上的[!DNL Adobe Workfront]社群： [[!DNL Adobe Workfront] 社群](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)。
+1. 登入下列URL之[!DNL Adobe Workfront]網站上的[!DNL Adobe Experience League]社群： [[!DNL Adobe Workfront] 社群](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)。
 
 1. 按一下「**[!UICONTROL 想法]**」標籤。
 

@@ -4,9 +4,9 @@ navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: 篩選器按鈕未顯示在頁首中
 description: 請參閱本文以疑難排解頁面標頭中未顯示的篩選器按鈕。
 feature: Get Started with Workfront
-author: Nolan and Alina
+author: Courtney
 exl-id: 327564ed-60df-441a-a38b-a17a8c57adb0
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 3%
@@ -44,6 +44,8 @@ ht-degree: 3%
 
 如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
++++
+
 ## 問題
 
 下列篩選按鈕不會顯示在其各自的區域中：
@@ -57,19 +59,19 @@ ht-degree: 3%
    <td><strong>篩選按鈕</strong></td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL 專案] </p> </td> 
+   <td> <p>[！UICONTROL專案] </p> </td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL 我所在的專案]</p> </li> 
-     <li> <p>[!UICONTROL 我擁有的專案]</p> </li> 
+     <li> <p>[！UICONTROL我所在的專案]</p> </li> 
+     <li> <p>[！UICONTROL我擁有的專案]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td><span>[!UICONTROL 時程表]</span> </td> 
+   <td><span>[！UICONTROL時程表]</span> </td> 
    <td> 
     <ul> 
-     <li> <p><span>[!UICONTROL 我的時程表核准]</span> </p> </li> 
-     <li> <p><span>[!UICONTROL 我的時程表]</span> </p> </li> 
+     <li> <p><span>[！UICONTROL我的時程表核准]</span> </p> </li> 
+     <li> <p><span>[！UICONTROL我的時程表]</span> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
