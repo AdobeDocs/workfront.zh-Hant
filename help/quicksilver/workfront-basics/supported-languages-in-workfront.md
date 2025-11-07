@@ -92,7 +92,7 @@ Workfront中的Web Proof Viewer支援Workfront支援的大部分語言。
 * Workfront Fusion不支援在使用者輸入的欄位中使用非英文文字字元。
 
 貴公司必須購買Workfront Fusion授權才能存取Workfront Fusion。\
-如需Workfront Fusion的詳細資訊，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+如需Workfront Fusion的詳細資訊，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 
 ## 變更語言
 
