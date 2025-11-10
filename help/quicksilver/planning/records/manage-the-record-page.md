@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 1ed84baeacda2717c4f58058fb754e7a79b48baf
 workflow-type: tm+mt
-source-wordcount: '2262'
+source-wordcount: '2261'
 ht-degree: 0%
 
 ---
@@ -215,7 +215,7 @@ ht-degree: 0%
 
      或
 
-     按一下&#x200B;**下移**&#x200B;將區段下移一個位置。
+     按一下&#x200B;**下移**將區段下移一個位置。
 區段中的所有欄位會隨著區段移動。
 
    * 按一下&#x200B;**刪除**&#x200B;以刪除區段。 該區段已刪除且無法復原。 所有存取此型別記錄的使用者將不再檢視已刪除的區段。
@@ -362,10 +362,10 @@ ht-degree: 0%
 
      如需有關編輯表格檢視中記錄的資訊，請參閱[編輯記錄](/help/quicksilver/planning/records/edit-records.md)。
 
-         >[！TIP]
-         >
-         >您可以選取一個以上的記錄或物件來刪除它們。
-     
+     >[!TIP]
+     >
+     >您可以選取多個記錄或物件來刪除它們。
+
    * 在「連線的記錄」頁面上的表格中，內聯編輯任何Planning記錄。
 
      所有其他Workfront物件都會以唯讀表格檢視顯示，且您無法加以編輯。
@@ -392,7 +392,7 @@ ht-degree: 0%
 
    或
 
-   將游標暫留在索引標簽名稱上，然後按一下[其他] **&#x200B;**&#x200B;![&#x200B; [其他]功能表](assets/more-menu.png)，然後按一下[重新命名] **以重新命名為新的[連線檢視]索引標籤。**
+   將游標暫留在索引標簽名稱上，然後按一下[其他] **** ![ [其他]功能表](assets/more-menu.png)，然後按一下[重新命名] **以重新命名為新的[連線檢視]索引標籤。**
 1. （選擇性）在連線的記錄頁面的工具列中使用下列任何檢視元素來管理表格檢視：
 
    * 篩選器
@@ -408,7 +408,7 @@ ht-degree: 0%
    >
    >您無法在已連線記錄之索引標籤的表格檢視中建立、編輯或刪除欄位。
 
-1. （選擇性）將游標暫留在[連線的記錄]頁面索引標簽名稱上，按一下[其他] **&#x200B;**&#x200B;![&#x200B; [其他]功能表](assets/more-menu.png)，然後按一下[刪除] **&#x200B;**&#x200B;以移除索引標籤。
+1. （選擇性）將游標暫留在[連線的記錄]頁面索引標簽名稱上，按一下[其他] **** ![ [其他]功能表](assets/more-menu.png)，然後按一下[刪除] ****&#x200B;以移除索引標籤。
 
 <!--
 ## Add a Brief page to a record's page

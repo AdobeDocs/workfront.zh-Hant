@@ -6,10 +6,10 @@ description: 您可以將「里程碑」檢視套用至專案清單或報告。 
 author: Courtney, Alina
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 1ed84baeacda2717c4f58058fb754e7a79b48baf
 workflow-type: tm+mt
-source-wordcount: '1623'
-ht-degree: 1%
+source-wordcount: '1370'
+ht-degree: 0%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 1%
 
 <!--remove Preview and Production mentions from the article when this comes out live-->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 從預覽版開始的一週起，生產環境中也將提供相同功能給所有客戶。
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-如需詳細資訊，請參閱[介面現代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 您可以將「里程碑」檢視套用至專案清單或報告。 您可以使用「里程碑」檢視來檢視與您所檢視專案中任務相關聯的所有里程碑。
 
@@ -85,13 +85,9 @@ ht-degree: 1%
 
 ## 里程碑檢視總覽 {#milestone-view-overview}
 
-<div class="preview">
-
 里程碑檢視適用於專案清單和專案報告。 您可以快速檢視與您所檢視專案中任務相關聯的所有里程碑。
 
 ![具有里程碑檢視的專案](assets/project-with-milestone-view-with-complete.png)
-
-</div>
 
 >[!NOTE]
 >
@@ -137,34 +133,23 @@ ht-degree: 1%
 
   您可以直接從「里程碑」檢視調整完成百分比，如本文中「里程碑」檢視[中之任務的調整完成百分比](#adjust-percent-complete-for-tasks-in-the-milestone-view)小節所述。
 
-* **任務進度狀態圖示：**&#x200B;根據您用來檢視里程碑檢視的環境而定，下列是表示任務進度狀態的圖示：
+* **任務進度狀態圖示：**&#x200B;下列是指示任務進度狀態的圖示：
 
-   * 在生產環境中，以下狀態圖示會顯示在「里程碑」檢視中的每個專案和任務旁：
+   * 準時 — 綠色
+   * 滯後 — 黃色
+   * 有風險 — 藍色
+   * 延遲 — 紅色
 
-      * 準時\
-        ![準時圖示](assets/gantt-ontime.png)
-
-      * 滞後\
-        ![在圖示後面](assets/gantt-behind.png)
-
-      * 有風險\
-        ![風險圖示](assets/gantt-atrisk.png)
-
-      * 遲到\
-        ![延遲圖示](assets/gantt-late.png)
-
-     <!--get new screen shots or hide them for preview or production - could not display all in devtest; idea: use color dots from Task Details tab - New status is blue; Some concerns condition is yellow etc-->
-
-  <div class="preview">
-
-   * 在「預覽」環境中，「里程碑」檢視的每個專案與任務旁會顯示下列彩色圓圈：
-
-      * 準時 — 綠色
-      * 滯後 — 黃色
-      * 有風險 — 藍色
-      * 延遲 — 紅色
-
-  </div>
+  <!--* In the Production environment, the following status icons display next to each project and task in the Milestone view: 
+      * On Time  
+      ![On time icon](assets/gantt-ontime.png)
+      * Behind  
+      ![Behind icon](assets/gantt-behind.png)
+      * At Risk  
+      ![At risk icon](assets/gantt-atrisk.png)
+      * Late  
+      ![Late icon](assets/gantt-late.png)
+      <!--get new screen shots or hide them for preview or production - could not display all in devtest; idea: use color dots from Task Details tab - New status is blue; Some concerns condition is yellow etc-->
 
   您可以停用這些狀態圖示的顯示，如本文中[設定里程碑檢視](#configure-what-information-displays-in-the-milestone-view)中顯示的資訊一節所述。
 
@@ -205,23 +190,16 @@ ht-degree: 1%
   ![具陰影的里程碑檢視](assets/milestone-view-with-shading.png)
 
 * **專案名稱**：專案名稱會顯示專案的連結。
-* **專案狀態圖示**：根據您從下列指標存取「里程碑」檢視的環境而定，會顯示專案狀態：
+* **專案狀態圖示**：下列指標顯示專案狀態：
 
-   * 在生產環境中，專案名稱旁會顯示圖示，指出專案的狀況。 專案的狀況可能是下列其中一項：
+   * 準時 — 綠色
+   * 有風險 — 黃色
+   * 存在問題 — 紅色
 
-      * 達成目標
-      * 有風險
-      * 陷入困境
-
-  <div class="preview">
-
-   * 在「預覽」環境中，每個專案旁邊會顯示一個彩色圓形條件圖示。 可能的專案條件和圓形顏色包括：
-
-      * 準時 — 綠色
-      * 有風險 — 黃色
-      * 存在問題 — 紅色
-
-     </div>
+  <!--* In the Production environment, an icon displays next to the project name, indicating the condition of the project. The Condition of the project might be one of the following:
+      * On Target
+      * At Risk
+      * In Trouble -->
 
 
 ## 設定里程碑檢視中顯示的資訊 {#configure-what-information-displays-in-the-milestone-view}
@@ -241,15 +219,6 @@ ht-degree: 1%
 
 1. 按一下&#x200B;**檢視**&#x200B;下拉式功能表，然後按一下&#x200B;**里程碑**。
 
-1. 在生產環境中，按一下「里程碑」檢視右上角的&#x200B;**選項**，然後從下一個步驟的選項中選取。
-
-   ![milestone_view_options.png](assets/milestone-view-options-350x141.png)
-
-   <div class="preview">在「預覽」環境中，從「里程碑」檢視的右上角選取下一個步驟中的選項。</div>
-
-   <!--at Production release, replace this screen shot and adjust the Production/ Preview text above-->
-
-
 1. 從下列選項中選取：
 
    <table style="table-layout:auto"> 
@@ -267,6 +236,8 @@ ht-degree: 1%
     </tbody> 
    </table>
 
+   ![里程碑檢視選項](assets/milestone-view-options-350x141.png)
+
 ## 調整「里程碑」檢視中任務的完成百分比 {#adjust-percent-complete-for-tasks-in-the-milestone-view}
 
 您可以在「里程碑」檢視中調整任務的完成百分比。 您無法調整父系任務（包含子任務的任務）或專案的完成百分比。
@@ -279,6 +250,6 @@ ht-degree: 1%
 
 1. （視條件而定）如果完成百分比未顯示在里程碑檢視中，請啟用檢視任務和專案的完成百分比，如本文中[設定里程碑檢視](#configure-what-information-displays-in-the-milestone-view)中顯示的資訊一節所述。
 
-1. 在生產環境中，按一下任務下方的完成百分比，指定新百分比，然後按Enter鍵。
+1. 將&#x200B;**完成百分比**&#x200B;投影片移至新的完成百分比以進行更新。
 
-   <div class="preview">在「預覽」環境中，將「完成百分比」投影片移動至新完成百分比以進行更新。 </div>
+   <!--In the Production environment, click the completion percentage below a task, specify a new percentage, then press Enter.-->
