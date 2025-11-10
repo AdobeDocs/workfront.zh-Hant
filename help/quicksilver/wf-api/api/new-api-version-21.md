@@ -6,9 +6,9 @@ description: Adobe Workfront於2025年10月23日發行API版本21。 API版本21
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 155323314712e020a638619d9bf10d678078645e
+source-git-commit: 040e714c2f81ba764c7895be430446add1250a83
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '954'
 ht-degree: 3%
 
 ---
@@ -16,6 +16,12 @@ ht-degree: 3%
 # API 21版的新增功能
 
 <span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽Sandbox」環境中使用。</span>
+
+>[!IMPORTANT]
+>
+>此API版本變更包含重大變更，可能會影響您現有的API呼叫。 這是因為API版本21使用事件訂閱版本2。
+>
+> 對於多選欄位，事件訂閱版本2一律會以陣列形式傳送。 如果選取多個值，第1版會傳送陣列。 如果只選取一個值，則會傳送字串。
 
 Adobe Workfront於2025年10月23日發行API版本21。 API版本21具有下列版本20的變更。
 
