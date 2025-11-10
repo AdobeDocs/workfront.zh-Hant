@@ -6,9 +6,9 @@ description: 您可以從Adobe Workfront Marketplace安裝適用於Photoshop的A
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 61e5b763ec527aeb846e975e06842dc2c4c69918
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '581'
 ht-degree: 2%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 2%
 
 [在此觀看教學課程影片](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}。
 
-[!DNL Adobe Admin Console]管理員也可以建立僅含外掛程式的套件，以分發給使用者。 如需詳細資訊，請參閱[中的 [!DNL Adobe Workfront] 為您的使用者建立 [!DNL Creative Cloud]] 套裝的[[!UICONTROL [!DNL Adobe Admin Console]]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
+[!DNL Adobe Admin Console]管理員也可以建立僅含外掛程式的套件，以分發給使用者。 如需詳細資訊，請參閱[中的 [!DNL Adobe Workfront] 為您的使用者建立 [!DNL Creative Cloud]] 套裝的[！UICONTROL [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
 
 ## 個別安裝[!DNL Adobe Workfront for Photoshop]外掛程式
 
@@ -66,7 +66,7 @@ ht-degree: 2%
 1. 前往Adobe Exchange上的[Adobe Workfront for Photoshop安裝頁面](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=37722a55&workflow=share)。
 1. 在出現的對話方塊中，按一下&#x200B;**開啟[!DNL Adobe Creative Cloud]案頭應用程式**。
 1. 在[!DNL Adobe Photoshop]外掛程式管理員開啟後，按一下&#x200B;**[!UICONTROL 安裝]**。
-1. 讀取對話方塊中的資訊，然後按一下[確定]。**&#x200B;**
+1. 請閱讀對話方塊中的資訊，然後按一下[確定] ****，然後依照熒幕上的指示完成安裝。
 
 1. 請繼續參閱下節，瞭解如何開啟外掛程式的詳細資訊。
 
@@ -99,20 +99,43 @@ ht-degree: 2%
    >* 若要尋找您的網域，請開啟瀏覽器、導覽至您的[!DNL Workfront]執行個體，並複製URL的第一個部分：\
    >![尋找網域](assets/domain-350x50.png)
    >
-   >* 如果您的Workfront執行個體已與Experience Cloud整合，請要求您的管理員為您提供Admin Console中「產品> Workfront」底下的Workfront網域。
+   >* 如果您的Workfront執行個體已與Experience Cloud整合，且網域開頭為`experience.adobe.com`，請要求您的管理員提供您在Admin Console中「產品> Workfront」底下的Workfront網域。
 
-1. 在瀏覽器中，輸入您的[!DNL Workfront]認證，然後按一下&#x200B;**[!UICONTROL 登入]**。 如果貴公司使用單一登入(SSO)，系統會將您導向至SSO提供者的頁面以登入。
+1. 在瀏覽器中，輸入您的[!DNL Adobe]認證，然後按一下&#x200B;**[!UICONTROL 登入]**。 如果貴公司使用單一登入(SSO)，系統會將您導向至SSO提供者的頁面以登入。
 
    >[!NOTE]
    >
    >如果您最近登入，系統可能不會提示您輸入您的[!DNL Workfront]認證。
 
-   依照提示登入[!DNL Workfront]。
+1. 依照提示登入[!DNL Workfront]。
 
    >[!NOTE]
    >
    >* [!DNL Workfront]使用OAuth 2.0連線至[!DNL Adobe Creative Cloud]，這是大部分網頁式整合所使用的安全標準，用於驗證及授權使用者。
-   >* 當系統提示您輸入[帳戶的]網域或主機[!DNL Workfront]時，請使用下列格式輸入它： *yourCompany&#39;sDomain.my.workfront.com*。 您公司的網域通常是您公司的名稱。
+
 
 1. 按一下&#x200B;**[!UICONTROL 允許存取]**&#x200B;以完成登入。
 1. 返回[!UICONTROL Adobe Photoshop]檢視您的工作。
+
+### 疑難排解記錄錯誤
+
+**嘗試登入**&#x200B;時顯示「發生錯誤」錯誤
+
+
+您無法使用以`experience.adobe.com`開頭的URL登入外掛程式。
+
+![登入錯誤](assets/plugin-log-in-error.png) ![網域](assets/incorrect-domain.png)
+
+
+若要修正此問題，
+
+1. 刪除儲存外掛程式網域的資料夾。
+
+   >[!TIP]
+   >
+   >在Mac上，移至Finder，按&#x200B;**Command+Shift+。**&#x200B;若要顯示隱藏的資料夾，請瀏覽至&#x200B;**/Users//Library/Application Support**，然後刪除&#x200B;**Workfront**&#x200B;資料夾。
+
+
+1. 導覽回外掛程式，然後輸入您的Workfront網域。 網域必須是`company-name.my.workfront.com`而非`experience.adobe.com`。
+
+   若您使用Workfront統一體驗，若要[尋找您的Adobe網域](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md)，請前往[設定]， [客戶資訊]。

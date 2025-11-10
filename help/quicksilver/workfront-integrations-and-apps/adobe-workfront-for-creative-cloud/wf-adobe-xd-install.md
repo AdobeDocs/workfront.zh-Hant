@@ -6,9 +6,9 @@ description: 您可以從Adobe Workfront Marketplace安裝適用於XD的Adobe外
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: c21e1c1d8e45b7c6407e8741b31055bfed9f4717
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '497'
 ht-degree: 2%
 
 ---
@@ -69,7 +69,7 @@ ht-degree: 2%
 
 [在此觀看教學課程影片](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}。
 
-[!DNL Adobe Admin Console]管理員也可以建立僅含外掛程式的套件，以分發給使用者。 如需詳細資訊，請參閱[中的 [!DNL Adobe Workfront] 為您的使用者建立 [!DNL Creative Cloud]] 套裝的[[!UICONTROL [!DNL Adobe Admin Console]]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
+[!DNL Adobe Admin Console]管理員也可以建立僅含外掛程式的套件，以分發給使用者。 如需詳細資訊，請參閱[中的 [!DNL Adobe Workfront] 為您的使用者建立 [!DNL Creative Cloud]] 套裝的[！UICONTROL [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
 
 ## 個別安裝[!DNL Adobe Workfront for XD]外掛程式
 
@@ -78,7 +78,7 @@ ht-degree: 2%
 1. 前往Adobe Exchange上的[Adobe Workfront for XD安裝頁面](https://exchange.adobe.com/apps/cc/4c3566f9?pluginId=4c3566f9&workflow=share)。
 1. 在出現的對話方塊中，按一下&#x200B;**開啟[!DNL Adobe Creative Cloud]案頭應用程式**。
 1. 在[!DNL Adobe XD]外掛程式管理員開啟後，按一下&#x200B;**[!UICONTROL 安裝]**。
-1. 讀取對話方塊中的資訊，然後按一下[確定]。**&#x200B;**
+1. 讀取對話方塊中的資訊，然後按一下[確定]。****
 1. 請繼續參閱下節，瞭解如何開啟外掛程式的詳細資訊。
 
 ## 開啟[!DNL Adobe Workfront for XD]外掛程式
@@ -105,20 +105,19 @@ ht-degree: 2%
    >* 若要尋找您的網域，請開啟瀏覽器、導覽至您的[!DNL Workfront]執行個體，並複製URL的第一個部分：\
    >![尋找網域](assets/domain-350x50.png)
    >
-   >* 如果您的Workfront執行個體已與Experience Cloud整合，請要求您的管理員為您提供Admin Console中「產品> Workfront」底下的Workfront網域。
+   >* 如果您的Workfront執行個體已與Experience Cloud整合，且網域開頭為`experience.adobe.com`，請要求您的管理員提供您在Admin Console中「產品> Workfront」底下的Workfront網域。
 
-1. 在瀏覽器中輸入您的[!DNL Workfront]認證，然後按一下&#x200B;**[!DNL Log in]**。 如果貴公司使用單一登入(SSO)，系統會將您導向至SSO提供者的頁面以登入。
+1. 在瀏覽器中輸入您的[!DNL Adobe]認證，然後按一下&#x200B;**[!DNL Log in]**。 如果貴公司使用單一登入(SSO)，系統會將您導向至SSO提供者的頁面以登入。
 
    >[!NOTE]
    >
    >如果您最近登入，系統可能不會提示您輸入您的[!DNL Workfront]認證。
 
-   依照提示登入[!DNL Workfront]。
+1. 依照提示登入[!DNL Workfront]。
 
    >[!NOTE]
    >
    >* [!DNL Workfront]使用OAuth 2.0連線至[!DNL Adobe Creative Cloud]，這是大部分網頁式整合所使用的安全標準，用於驗證及授權使用者。
-   >* 當系統提示您輸入[帳戶的]網域或主機[!DNL Workfront]時，請使用下列格式輸入它： *yourCompany&#39;sDomain.my.workfront.com*。 您公司的網域通常是您公司的名稱。
 
 1. 按一下&#x200B;**[!UICONTROL 允許存取]**&#x200B;以完成登入，然後返回[!DNL Adobe XD]檢視您的工作。
 
