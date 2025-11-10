@@ -57,7 +57,7 @@ ht-degree: 2%
 
 [在此觀看教學課程影片](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}。
 
-[!DNL Adobe Admin Console]管理員也可以建立僅含外掛程式的套件，以分發給使用者。 如需詳細資訊，請參閱[中的 [!DNL Adobe Workfront] 為您的使用者建立 [!DNL Creative Cloud]] 套裝的[！UICONTROL [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
+[!DNL Adobe Admin Console]管理員也可以建立僅含外掛程式的套件，以分發給使用者。 如需詳細資訊，請參閱[中的 [!DNL Adobe Workfront] 為您的使用者建立 [!DNL Creative Cloud]] 套裝的[[!UICONTROL [!DNL Adobe Admin Console]]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
 
 ## 個別安裝[!DNL Adobe Workfront for Photoshop]外掛程式
 
@@ -66,7 +66,7 @@ ht-degree: 2%
 1. 前往Adobe Exchange上的[Adobe Workfront for Photoshop安裝頁面](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=37722a55&workflow=share)。
 1. 在出現的對話方塊中，按一下&#x200B;**開啟[!DNL Adobe Creative Cloud]案頭應用程式**。
 1. 在[!DNL Adobe Photoshop]外掛程式管理員開啟後，按一下&#x200B;**[!UICONTROL 安裝]**。
-1. 請閱讀對話方塊中的資訊，然後按一下[確定] ****，然後依照熒幕上的指示完成安裝。
+1. 請閱讀對話方塊中的資訊，然後按一下[確定] **&#x200B;**，然後依照熒幕上的指示完成安裝。
 
 1. 請繼續參閱下節，瞭解如何開啟外掛程式的詳細資訊。
 
