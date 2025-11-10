@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 3838e355c16275b9e10fb92497f1698ac99c4fa4
+source-git-commit: c6adce09acf993ae00b080ac5177dabd953d69a1
 workflow-type: tm+mt
-source-wordcount: '1414'
+source-wordcount: '1461'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 您可以使用外部查詢功能，將Workfront例項的資料匯入自訂表單中。
 
-<!--When someone accesses the field in the custom form, they will only see in the list of options what they have permissions to see in Workfront. For example, if you are showing a list of projects, the user would only see projects that are shared with them.-->
+當有人存取自訂表單中的欄位時，他們只能在選項清單中看到他們有權在Workfront中看到的內容。 例如，如果您顯示專案清單，使用者只會看到與他們共用的專案。
 
 ### 在外部查詢中使用原生Workfront欄位值
 
@@ -214,18 +214,18 @@ Workfront Planning API中的端點可透過Get方法，依記錄型別ID搜尋�
 
 建立外部查詢有許多其他使用案例。
 
-**使用案例：**&#x200B;取代自動提示欄位，因為這些欄位可能會導致報表發生問題。
+**使用案例：**取代自動提示欄位，因為這些欄位可能會導致報表發生問題。
 **解決方案：**&#x200B;使用系統現有物件的API呼叫。
 
 範本的基礎API URL範例，取代預先輸入欄位：
 `$$HOST/attask/api/v17.0/tmpl/search?isActive=true&name_Sort=asc`
 
-**使用案例：**&#x200B;建立包含更多功能的下拉式欄位（例如，外部eookup欄位中有換行字元）。
+**使用案例：**建立包含更多功能的下拉式欄位（例如，外部eookup欄位中有換行字元）。
 **解決方案：**&#x200B;使用系統中現有物件的API呼叫，或建立新物件並使用這個物件的API呼叫。
 
-**使用案例：**&#x200B;定義使用者在自訂表格區域外維護其欄位的方法。 設定「外部查詢」欄位，您可以將使用者指定給組成該欄位的物件。 此選項適合用於高維護欄位和團隊。
+**使用案例：**定義使用者在自訂表格區域外維護其欄位的方法。 設定「外部查詢」欄位，您可以將使用者指定給組成該欄位的物件。 此選項適合用於高維護欄位和團隊。
 **解決方案：**&#x200B;建立新物件並使用這個物件的API呼叫。
 
-**使用案例：**&#x200B;與Workfront外部的物件整合。 例如，存取另一個系統以取得每個使用者的名稱，而不是被限制在預先輸入欄位中。
+**使用案例：**與Workfront外部的物件整合。 例如，存取另一個系統以取得每個使用者的名稱，而不是被限制在預先輸入欄位中。
 **解決方案：** Webhook/Fusion Automation連線到其他系統。
 
