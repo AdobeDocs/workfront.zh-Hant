@@ -3,7 +3,7 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: ddbee8110fbfb76a3a6bfe8bca66e1ba1cc40fb4
+source-git-commit: 52c907abde5c96ad50e4ccb031414baf6475186c
 workflow-type: tm+mt
 source-wordcount: '13522'
 ht-degree: 2%
@@ -2025,7 +2025,7 @@ ht-degree: 2%
    * [更新「情境規劃工具」中的方案優先順序](scenario-planner/prioritize-initiatives.md)
    * [透過在情境規劃工具中發佈行動方案來更新或建立專案](scenario-planner/publish-scenarios-update-projects.md)
    * [協調專案與方案之間資源配置的概要](scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md)
-   * [在「情境規劃工具」中請求計畫的存取權](scenario-planner/request-access-to-plan.md)
+   * [在Scenario Planner中請求計畫的許可權](scenario-planner/request-access-to-plan.md)
    * [解決「情境規劃工具」中的方案衝突](scenario-planner/resolve-conflicts-in-sp.md)
    * [在「情境規劃工具」中共用計畫](scenario-planner/share-a-plan.md)
    * [顯示任務清單中專案和方案的角色分配](scenario-planner/show-role-allocation-task-list-nwe.md)
@@ -2515,9 +2515,9 @@ ht-degree: 2%
       * [使用JWT流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-jwt-flow.md)
       * [使用PKCE流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-pkce-flow.md)
       * [棄用API — 內部](wf-api/api/deprecation-api-internal.md)
-      * [&#x200B; API 21版的新增功能](/help/quicksilver/wf-api/api/new-api-version-21.md)
-      * [&#x200B; API 20版的新增功能](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [&#x200B; API 19版的新增功能](wf-api/api/new-api-version-19.md)
+      * [ API 21](/help/quicksilver/wf-api/api/new-api-version-21.md)版的新增功能
+      * [ API 20](/help/quicksilver/wf-api/api/new-api-version-20.md)版的新增功能
+      * [ API 19](wf-api/api/new-api-version-19.md)版的新增功能
       * [API 18版的新增功能](wf-api/api/new-api-version-18.md)
       * [API 17版的新增功能](wf-api/api/new-api-version-17.md)
       * [API 16版的新增功能](wf-api/api/new-api-version-16.md)

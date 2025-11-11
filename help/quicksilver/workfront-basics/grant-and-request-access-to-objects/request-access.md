@@ -6,7 +6,7 @@ description: 您對Adobe Workfront中物件的可見性取決於您對該物件�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
 source-wordcount: '1327'
 ht-degree: 1%
@@ -23,7 +23,7 @@ ht-degree: 1%
 >
 >本文說明如何請求所有物件的許可權，以下物件除外：
 >
->* 「Adobe Workfront情境規劃工具」中的「情境規劃工具」計畫。 如需詳細資訊，請參閱[在Scenario Planner](../../scenario-planner/request-access-to-plan.md)中要求計畫的存取權。 這需要額外的授權。
+>* 「Adobe Workfront情境規劃工具」中的「情境規劃工具」計畫。 如需詳細資訊，請參閱[在Scenario Planner](../../scenario-planner/request-access-to-plan.md)中要求計畫的許可權。 這需要額外的授權。
 >
 >* Workfront Planning中的檢視和工作區。 如需詳細資訊，請參閱[在Adobe Workfront Planning中共用許可權的總覽](/help/quicksilver/planning/access/sharing-permissions-overview.md)。 這需要額外的授權。
 

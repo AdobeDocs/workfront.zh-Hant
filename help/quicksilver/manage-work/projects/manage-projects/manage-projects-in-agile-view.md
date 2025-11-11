@@ -6,20 +6,22 @@ description: 您可以針對專案利用敏捷功能，而不會遇到敏捷實�
 author: Alina, Courtney
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
 
 # 在敏捷檢視中管理專案
 
-<!-- Audited: 2/2024 -->
+<!-- Audited: 11/2025 -->
 
 您可以針對專案利用敏捷功能，而不會遇到敏捷實務通常伴隨的管理挑戰（例如管理團隊待辦專案或建立反複專案）。
 
-如果您想在使用團隊待辦專案並允許您從待辦專案上的任務建立疊代的敏捷環境中工作，請依照[在敏捷環境中工作](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md)中的指示操作。
+您可在使用團隊待辦專案的敏捷環境中工作，並可讓您從待辦專案上的任務建立反複專案。
+
+如需詳細資訊，請參閱[在敏捷環境中工作](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md)。
 
 ## 存取需求
 
@@ -95,7 +97,9 @@ ht-degree: 0%
 
 ## 在敏捷檢視中檢視專案
 
-1. 前往您要在敏捷檢視中檢視的專案（在任務清單或問題清單上）。
+您可以在敏捷檢視而不是清單中檢視專案上的任務或問題，以利用敏捷功能進行專案開發。
+
+1. 前往您要以敏捷檢視檢視的專案，然後按一下左側面板中的&#x200B;**任務**&#x200B;或&#x200B;**問題**。
 1. 按一下&#x200B;**面板檢視**&#x200B;圖示![面板圖示](assets/board-icon-for-agile-view.png)。
 
    預設會顯示專案的展示板檢視。
@@ -107,4 +111,6 @@ ht-degree: 0%
 
    如需詳細資訊，請參閱[管理面板欄](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)和[自訂卡片上顯示的欄位](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)。 請注意，您無法在專案的展示板檢視上定義欄原則。
 
-1. （選擇性）若要返回清單檢視，請按一下&#x200B;**清單**&#x200B;圖示。
+1. （選擇性）若要返回清單檢視，請按一下&#x200B;**清單**&#x200B;圖示![清單圖示](assets/list-icon.png)。
+
+   任務或問題清單隨即顯示。

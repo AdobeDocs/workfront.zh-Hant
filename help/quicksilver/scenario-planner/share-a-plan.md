@@ -7,7 +7,7 @@ description: 您可以將您在Adobe Workfront情境規劃工具中建立的計�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: b8bbb533-4384-414c-8574-4e137962b8ca
-source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
 source-wordcount: '880'
 ht-degree: 0%
@@ -42,16 +42,16 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 授權</p> </td> 
-   <td> <p>[!UICONTROL Light]或更高</p> 
-   <p>[!UICONTROL Review]或更高版本</p> </td> 
+   <td> <p>[！UICONTROL Light]或更高</p> 
+   <p>[！UICONTROL Review]或更高版本</p> </td> 
   </tr> 
     <tr> 
    <td>存取層級設定</td> 
-   <td> <p>[!UICONTROL Edit]對的存取權 [!DNL Scenario Planner]</p> </td> 
+   <td> <p>[！UICONTROL Edit]對的存取權 [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr> 
    <td> <p>物件許可權 </p> </td> 
-   <td> <p>[!UICONTROL Manage]計畫的許可權</p> </td> 
+   <td> <p>[！UICONTROL Manage]計畫的許可權</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -118,7 +118,7 @@ ht-degree: 0%
 * 您無法檢視未建立或未與您共用的計畫。
 * 您只能與其他使用者共用計畫。 您無法與群組、團隊或公司共用計畫。
 * 您必須先儲存計畫，然後才能進行共用。
-* 您可以與其他使用者共用計畫的URL。 如果使用者沒有許可權至少檢視計畫，當他們收到URL時，可以向另一個使用者請求計畫的存取權。 如需有關請求計畫存取權的資訊，請參閱[在 [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md)中請求計畫存取權。
+* 您可以與其他使用者共用計畫的URL。 如果使用者沒有許可權至少檢視計畫，當他們收到URL時，可以向另一個使用者請求計畫的存取權。 如需有關要求存取計畫的資訊，請參閱[在 [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md)中要求計畫的許可權。
 * 共用已與其他人共用的多個計畫時，您共用的使用者不會取代，但會新增至您選取之每個計畫的現有使用者。
 
 ## 計畫許可權選項
@@ -132,8 +132,8 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th> <p><strong>動作</strong> </p> </th> 
-   <th> <p><strong>[!UICONTROL 管理]</strong> </p> </th> 
-   <th> <p><strong>[!UICONTROL 檢視]</strong> </p> </th> 
+   <th> <p><strong>[！UICONTROL管理]</strong> </p> </th> 
+   <th> <p><strong>[！UICONTROL檢視]</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -237,11 +237,11 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 檢視]</td> 
+      <td role="rowheader">[！UICONTROL檢視]</td> 
       <td>您共用計畫的使用者將擁有檢視計畫的許可權。 他們無法編輯計畫、新增方案、案例或發佈案例的相關資訊。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 管理]</td> 
+      <td role="rowheader">[！UICONTROL管理]</td> 
       <td> <p>您共用計畫的使用者具有管理計畫的許可權，包括編輯資訊、新增方案、情境和發佈計畫。 </p> </td> 
      </tr> 
     </tbody> 

@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 依據多選自訂欄位繪製報表圖表
 description: 只有在您建立其他計算欄位(擷取多選自訂欄位中所選的選項後，才能根據多選自訂欄位繪製報表的圖表。
-author: Nolan
+author: Jenny
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
 source-wordcount: '1005'
 ht-degree: 0%
@@ -146,7 +146,7 @@ ht-degree: 0%
 1. 新增您建立的<strong>計算多重選取欄位</strong>作為您的群組。
 1. 選取<strong>圖表</strong>索引標籤，然後將圖表新增至您的報表。
 
-   例如，選擇&#x200B;**資料行**&#x200B;圖表。
+   例如，選擇&#x200B;**資料行**圖表。
    <br>如需有關將圖表新增至報表的資訊，請參閱文章<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md#add-a-chart" class="MCXref xref">建立自訂報表</a>中的<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">將圖表新增至報表</a>小節。
 1. 在&#x200B;**底部(X)軸**&#x200B;欄位中，選取要在圖表中顯示的<strong>計算多重選取欄位</strong>。
 1. 按一下「<strong>儲存並關閉</strong>」。

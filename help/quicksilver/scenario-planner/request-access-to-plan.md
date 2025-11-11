@@ -2,21 +2,23 @@
 product-area: enterprise-scenario-planner-product-area
 keywords: 計畫、許可權、共用、方案、案例、案例
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: 在「情境規劃工具」中請求計畫的存取權
+title: 在Scenario Planner中請求計畫的許可權
 description: 當計畫的連結與您共用時，您可以在「Adobe Workfront情境規劃工具」中請求計畫的存取權。
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: fa47cb8c-a3ca-4748-b67d-2d8ed34b9b4a
-source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
 source-wordcount: '495'
 ht-degree: 0%
 
 ---
 
-# 要求[!DNL Scenario Planner]中計畫的存取權
+# 在[!DNL Scenario Planner]中要求計畫的許可權
 
-當計畫的連結共用給您時，您可以在[!DNL Adobe Workfront Scenario Planner]中要求計畫的存取權。
+<!--Audited: 11/2025-->
+
+當計畫的連結與您共用時，您可以在[!DNL Adobe Workfront Scenario Planner]中要求計畫的許可權。
 
 ## 存取需求
 
@@ -36,12 +38,12 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 授權</p> </td> 
-   <td> <p>[!UICONTROL Light]或更高</p> 
-   <p>[!UICONTROL Review]或更高版本</p> </td> 
+   <td> <p>[！UICONTROL Light]或更高</p> 
+   <p>[！UICONTROL Review]或更高版本</p> </td> 
   </tr> 
     <tr> 
    <td>存取層級設定</td> 
-   <td> <p>[!UICONTROL 檢視]或更高存取權以存取 [!DNL Scenario Planner]</p> </td> 
+   <td> <p>[！UICONTROL檢視]或更高存取權以存取 [!DNL Scenario Planner]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -95,7 +97,7 @@ ht-degree: 0%
 >
 >如果您沒有[!DNL Scenario Planner]的存取層級許可權，而您嘗試從連結存取計畫，則無法要求此計畫的存取權。 相反地，畫面會顯示通知您聯絡[!DNL Workfront]管理員。
 
-## 要求[!DNL Workfront Scenario Planner]中計畫的存取權
+## 要求[!DNL Workfront Scenario Planner]中計畫的許可權
 
 如果您尚沒有計畫的許可權，而您從與您共用的連結瀏覽至該計畫，畫面會顯示並通知您沒有許可權檢視計畫。 系統會提示您向計畫建立者請求許可權。
 
@@ -107,7 +109,7 @@ ht-degree: 0%
 
 1. 按一下計畫的連結。
 
-   ![要求計畫](assets/request-access-to-plan-350x277.png)的存取權
+   ![要求計畫](assets/request-access-to-plan-350x277.png)的許可權
 
 1. 在「**[!UICONTROL 要求存取]**」下拉式功能表中，指出您要授與的許可權等級。 從下列選項中選取：
 

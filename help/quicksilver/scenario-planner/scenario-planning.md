@@ -8,7 +8,7 @@ author: Alina
 feature: Workfront Scenario Planner
 recommendations: noDisplay, noCatalog
 exl-id: 3d942ea6-6860-4463-b610-8c120a109071
-source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 * [刪除 [!DNL Scenario Planner]](../scenario-planner/delete-initiatives.md)中的方案
 * [解決 [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md)中的方案衝突
 * [將專案匯入 [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md)中的計畫
-* [在 [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md)中要求計畫的存取權
+* [在 [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md)中要求計畫的許可權
 * 在[中 [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md)共用計畫
 * [在 [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)中發佈行動方案以更新或建立專案
 * [協調專案與行動方案之間的資源配置的概觀](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md)

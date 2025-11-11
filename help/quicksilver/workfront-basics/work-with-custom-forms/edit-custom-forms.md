@@ -7,10 +7,10 @@ description: 將表單附加到物件後，您可以編輯自訂表單上的資�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 53269f4932a752a833df8e41891706934214e062
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 0%
+source-wordcount: '1207'
+ht-degree: 1%
 
 ---
 
@@ -97,27 +97,20 @@ ht-degree: 0%
 
 ## 編輯自訂表單上的資訊
 
-針對所有物件，編輯附加到物件的自訂表單上的資訊都是相同的。 如需哪些物件可以有自訂表單的詳細資訊，請參閱[自訂表單概觀](../../administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)。
+對於大多數物件而言，編輯附加到物件的自訂表單上的資訊是類似的。
 
-1. 移至您想要編輯自訂表單資訊的物件。
-1. 按一下左側面板中的&#x200B;**`<Object type>`詳細資料**。
+如需哪些物件可以有自訂表單的詳細資訊，請參閱[自訂表單概觀](../../administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)。
 
-   例如，編輯專案自訂表單的資訊時，請按一下&#x200B;**專案詳細資料**。
+1. 移至任何您想要編輯自訂表單資訊的物件清單，版序清單除外。
+1. 在清單中選取一或多個物件，然後按一下位於清單頂端的&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)。
+1. 按一下左側面板中&#x200B;**編輯&lt;物件>**&#x200B;方塊內的&#x200B;**自訂Forms**。
 
-1. 捲動至自訂表單。 當有自訂表單附加至物件時，表單的名稱會顯示為詳細資訊區段中的區域。
-1. 如有必要，請按一下自訂表單名稱左側的箭頭![](assets/expand-arrow-right.png)以展開它。
-1. 在頁面的右上角附近，按一下「編輯」圖示![](assets/edit-icon.png)。
+   當有自訂表單附加至物件時，表單的名稱會顯示為&#x200B;**自訂Forms**&#x200B;區段中的區域。
 1. 開始在您有權存取的任何欄位中輸入資訊。
 
-   ![](assets/click-in-field-to-edit-info-350x132.png)
+   ![編輯帳單記錄上具有自訂表單的方塊](assets/edit-box-with-custom-forms-on-billing-record.png)
 
-   或
-
-   如果表單上尚未輸入任何資訊，請按一下任何您有權存取的欄位的[新增+**]，開始輸入資訊。**
-
-   ![](assets/plus-add-to-edit-info-350x180.png)
-
-   如果將多個自訂表單附加到物件，您可以對每個表單執行此操作。
+   如果有多個自訂表單附加到物件，請對每個表單執行此動作。
 
    根據您使用的欄位型別，請考慮下列事項：
 
@@ -133,7 +126,7 @@ ht-degree: 0%
 
    如需有關所有欄位型別的資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
-1. 按一下「**儲存變更**」。
+1. 按一下「**儲存**」。
 
    >[!IMPORTANT]
    >
@@ -147,19 +140,50 @@ ht-degree: 0%
 
    當您與清單中的其他物件一起大量編輯物件時，也可以手動更新物件的所有計算自訂欄位。 如需指示，請參閱編輯本文中的物件時[重新計算清單中多個物件的所有已計算自訂欄位](#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects)。
 
-## 重新計算物件的所有已計算自訂欄位  {#recalculate-all-calculated-custom-fields-for-an-object}
+1. （視條件而定）若要更新反複專案自訂表單的自訂欄位，請執行下列動作：
+
+   1. 移至反複專案。
+   1. 按一下左側面板中的&#x200B;**自訂Forms**。
+   1. 若要新增自訂表單，請在頁面右上角的&#x200B;**新增自訂表單**&#x200B;欄位中開始輸入表單的名稱
+
+      或
+
+      按一下相同區域中的&#x200B;**編輯**&#x200B;圖示，開始編輯附加表單上的欄位。
+
+      ![編輯反複專案自訂表單](assets/edit-iteration-custom-form.png)
+
+   1. 按一下「**儲存變更**」。
+
+## 重新計算物件的自訂欄位
+
+根據自訂表單可能發生的變更或自訂欄位中參考的欄位發生的變更，計算自訂欄位的值可能會定期過期。 在這種情況下，您可能需要重新計算自訂欄位，或重新計算物件的自訂運算式。
+
+以下各節說明如何使用自訂表單重新計算物件的自訂運算式。
+
+>[!NOTE]
+>
+>您無法重新計算群組的自訂運算式。
+
+### 從物件的頁面重新計算所有已計算的自訂欄位
 
 >[!IMPORTANT]
 >
 >您必須有包含附加到物件之計算欄位的自訂表單，然後才能遵循本節中的步驟。
 
+1. 移至下列其中一個物件的首頁面，您想要重新計算其自訂欄位：
 
-1. 移至要重新計算其自訂欄位的物件首頁面。
+   * 專案
+   * 任務
+   * 問題
+   * 產品組合
+   * 方案
+   * 文件
+
 1. 按一下物件名稱右邊的&#x200B;**更多**&#x200B;功能表![](assets/more-icon.png)，然後按一下&#x200B;**重新計算運算式**。
 
    這會重新計算物件表單上的所有自訂欄位。
 
-## 編輯物件時，重新計算清單中多個物件的所有計算自訂欄位 {#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects}
+### 編輯物件時，重新計算清單中多個物件的所有計算自訂欄位 {#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will need to be edited when the bulk edit for objects update in NW)</p>
@@ -172,17 +196,29 @@ ht-degree: 0%
 
 若要從清單或報表大量編輯數個物件的自訂欄位，以手動方式重新計算這些物件：
 
-1. 移至物件清單，其中包含具有計算欄位的自訂表單。
+1. 移至下列物件型別的清單，這些物件型別的物件包含具有計算欄位的自訂表單：
+
+   * 使用者
+   * 公司
+   * 付費記錄
+
 1. 選取要更新其計算自訂欄位的物件。
 1. 按一下&#x200B;**編輯圖示**。
-1. 按一下左側功能表中的[自訂Forms]&#x200B;**&#x200B;**，然後選取[重新計算自訂運算式]&#x200B;**&#x200B;**。
-1. 按一下&#x200B;**儲存** **變更**。
+1. 按一下左側功能表中的[自訂Forms]****，然後選取[重新計算自訂運算式]****。
+1. 按一下&#x200B;**儲存**&#x200B;或&#x200B;**儲存變更**。
 
    Workfront會為所有選取的物件計算所有自訂欄位。
 
 若要從物件清單重新計算自訂運算式：
 
-1. 前往專案清單或報告，然後選取一或多個專案。
+1. 移至專案清單或報表，然後選取下列一或數種物件型別：
+
+   * 專案
+   * 任務
+   * 問題
+   * 專案組合
+   * 計劃
+   * 費用
 1. 按一下&#x200B;**更多**&#x200B;功能表![](assets/more-icon.png)，然後按一下&#x200B;**重新計算自訂運算式**。
 
 ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
@@ -192,5 +228,7 @@ Workfront會立即計算所有選定專案的所有自訂欄位。
 
 >[!NOTE]
 >
->根據您專案的複雜性，我們建議不要在大量重新計算已計算的自訂欄位時選取大量專案以確保最佳效能。 有些因素會導致專案過於複雜，包括多重相依性或指派，或大量自訂欄位。
+>根據多個專案的複雜性，重新計算多個專案的運算式時，建議不要選取太多專案以確保最佳效能。
+>
+>有些因素會導致專案過於複雜，包括多重相依性或指派，或大量自訂欄位。
 

@@ -6,16 +6,16 @@ description: 前置任務是指其他任務需依賴完成的任務。 前置任
 author: Alina
 feature: Work Management
 exl-id: c3242b92-9036-4770-a073-2a9c393b97fd
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '475'
 ht-degree: 1%
 
 ---
 
 # 強制執行前置任務
 
-<!-- Audited: 2/2024 -->
+<!-- Audited: 11/2025 -->
 
 前置任務是指其他任務需依賴完成的任務。 前置任務關係會影響任務的開始和完成日期，並最終影響專案的時間表。
 
@@ -119,4 +119,6 @@ ht-degree: 1%
 1. 在&#x200B;**前置任務**&#x200B;欄中，開始輸入前置任務編號，然後輸入&quot;e&quot;。 例如，輸入「1e」將任務編號1新增為所選任務的前置任務。
 1. 按一下Enter以儲存任務的前置任務資訊。
 
-   ![前置任務_強制_in_list.png](assets/predecessor-enforced-in-list-350x308.png)
+   ![前置任務強制清單](assets/predecessor-enforced-in-list-350x308.png)
+
+   隨即會立即儲存前置任務的相關資訊。
