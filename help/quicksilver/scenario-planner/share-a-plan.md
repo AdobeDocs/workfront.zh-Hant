@@ -42,16 +42,16 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 授權</p> </td> 
-   <td> <p>[！UICONTROL Light]或更高</p> 
-   <p>[！UICONTROL Review]或更高版本</p> </td> 
+   <td> <p>[!UICONTROL Light]或更高</p> 
+   <p>[!UICONTROL Review]或更高版本</p> </td> 
   </tr> 
     <tr> 
    <td>存取層級設定</td> 
-   <td> <p>[！UICONTROL Edit]對的存取權 [!DNL Scenario Planner]</p> </td> 
+   <td> <p>[!UICONTROL Edit]對的存取權 [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr> 
    <td> <p>物件許可權 </p> </td> 
-   <td> <p>[！UICONTROL Manage]計畫的許可權</p> </td> 
+   <td> <p>[!UICONTROL Manage]計畫的許可權</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -132,8 +132,8 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th> <p><strong>動作</strong> </p> </th> 
-   <th> <p><strong>[！UICONTROL管理]</strong> </p> </th> 
-   <th> <p><strong>[！UICONTROL檢視]</strong> </p> </th> 
+   <th> <p><strong>[!UICONTROL 管理]</strong> </p> </th> 
+   <th> <p><strong>[!UICONTROL 檢視]</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -237,11 +237,11 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL檢視]</td> 
+      <td role="rowheader">[!UICONTROL 檢視]</td> 
       <td>您共用計畫的使用者將擁有檢視計畫的許可權。 他們無法編輯計畫、新增方案、案例或發佈案例的相關資訊。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL管理]</td> 
+      <td role="rowheader">[!UICONTROL 管理]</td> 
       <td> <p>您共用計畫的使用者具有管理計畫的許可權，包括編輯資訊、新增方案、情境和發佈計畫。 </p> </td> 
      </tr> 
     </tbody> 
