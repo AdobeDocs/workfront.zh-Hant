@@ -4,9 +4,9 @@ description: 2026年第一季檔案和核准增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 7fb12a3fbdad661baf2d0ad472ce8017e178ddef
+source-git-commit: 5f05c1a13c6c0d0ed1d69b850a0cb07ce53fc271
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,25 @@ ht-degree: 0%
 
 如需2026年第一季發行週期目前可用的所有變更清單，請參閱[2026年第一季發行概觀](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
 
+## Adobe Express的跨組織支援與Workfront校訂
+
+>[!NOTE]
+>
+>預覽： 2025年11月13日
+>生產快速發行： 2025年11月13日\
+>適用於所有人的生產： 2025年11月13日
+
+我們將推出具有Workfront校訂的Adobe Express跨組織支援。 此增強功能可讓跨多個IMS組織運作的客戶順暢地使用和管理校訂工作流程。
+
+如需詳細資訊，請參閱[開始使用Adobe Express與Workfront Proof整合](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)。
+
 
 ## Adobe Experience Manager現在可與Frame.io整合搭配使用
 
 >[!NOTE]
 >
 >預覽： 2025年10月30日
->&#x200B;>生產快速發行： 2025年10月30日\
+>生產快速發行： 2025年10月30日\
 >適用於所有人的生產： 2025年10月30日
 
 現在，您可以使用Experience Manager Assets&#x200B;來管理和儲存已通過檢閱和核准週期的數位資產。 此整合可讓您運用Adobe Experience Manager、Frame.io和Workfront的功能，簡化您的內容管理和共同作業程式。
