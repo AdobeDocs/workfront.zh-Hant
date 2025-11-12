@@ -7,9 +7,9 @@ description: 若要彙總Adobe Workfront中的多個欄位並在新欄位中顯�
 author: Jenny
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+source-git-commit: ce986a912c2ee231b9dc2e1c7a3e9587b20aa0ba
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '844'
 ht-degree: 0%
 
 ---
@@ -90,6 +90,8 @@ ht-degree: 0%
 * 啟用&#x200B;**重新計算自訂運算式**&#x200B;時，大量編輯多個物件。
 * 從物件清單的[更多]功能表按一下[重新計算運算式&#x200B;**]時，大量編輯多個物件。**
 * 在已計算自訂欄位啟用&#x200B;**更新先前的計算**&#x200B;時編輯自訂表單。
+
+如需詳細資訊，請參閱[編輯自訂表單欄位中的資訊](/help/quicksilver/workfront-basics/work-with-custom-forms/edit-custom-forms.md)。
 
 ## 何時在檢視中使用計算欄
 
