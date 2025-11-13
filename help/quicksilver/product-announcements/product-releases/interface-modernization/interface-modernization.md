@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 829b3d343286b63922614b3855f9227667ad57a4
+source-git-commit: f22f00417cd0bfbe53cfee513e8be95a8719f785
 workflow-type: tm+mt
-source-wordcount: '9336'
+source-wordcount: '9416'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,23 @@ ht-degree: 0%
 如需Adobe Workfront的所有其他變更，請參閱[產品版本](/help/quicksilver/product-announcements/product-releases/product-releases.md)。
 
 ## 管理和設定
+
+### 刪除使用中的專案時對話方塊的更新
+
+**預覽版本： 2025年11月13日；生產版本： 2025年11月20日**
+
+刪除使用中的專案時，下列物件現在有更新的對話方塊：
+
+* 存取層級
+* 公司
+* 費用類型
+* 群組/週期性時程表
+* 時數類型
+* 風險類型
+* 排程
+* 時程表設定檔
+
+新的對話方塊現在與Workfront的其他區域一致。 功能沒有變更。
 
 ### 新增和編輯公司對話方塊的介面更新
 
@@ -131,9 +148,8 @@ ht-degree: 0%
 
 ### 個人休假的介面更新
 
-**預覽版本： 2025年10月23日；適用於所有客戶的生產版本：自2025年10月30日起一週**
+**預覽版本： 2025年10月23日；適用於所有客戶的生產版本：自2025年11月13日起一週**
 
-<!--This feature was in Preview and Prod starting on Sept 25 and it was removed on Oct 9. It was released to Preview again on Oct 23 and Prod rollout started Oct 30. Then it was removed from Prod again on Nov 4. -->
 
 >[!NOTE]
 >
@@ -476,7 +492,7 @@ For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tas
 
 >[!NOTE]
 >
->此功能已於2025年10月15日暫時從預覽和生產環境中移除。
+>此功能已於10月15日從「預覽」和「生產」中暫時移除。 它在「預覽」中提供，並從2025年11月13日起分階段在「生產」中提供。
 
 我們已更新用於編輯專案費用的對話方塊，以符合應用程式的其他區域。 編輯專案或範本中的費用時，可使用更新的對話方塊。
 
@@ -1332,7 +1348,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 此更新包含區域的視覺化變更。 功能未變更。
 
-若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。**&#x200B;**
+若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。****
 
 +++
 
