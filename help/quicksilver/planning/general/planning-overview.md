@@ -402,7 +402,7 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
     >
     >    The Workfront AI Assistant has been temporarily removed and it will be available at a later date.-->
 
-* [適用於Workfront Fusion的Adobe Workfront規劃模組](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)：透過Adobe Workfront規劃模組，您可以在Workfront規劃中發生事件時觸發情境。 您也可以建立、讀取、更新及刪除記錄，或對Adobe Workfront Planning帳戶執行自訂API呼叫。
+* [適用於Workfront Fusion的Adobe Workfront規劃模組](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)：透過Adobe Workfront規劃模組，您可以在Workfront規劃中發生事件時觸發情境。 您也可以建立、讀取、更新及刪除記錄，或對Adobe Workfront Planning帳戶執行自訂API呼叫。
 
 * [Adobe Workfront Planning API基本知識](/help/quicksilver/planning/general/planning-api-basics.md)： Adobe Workfront Planning API的目標是透過引入透過HTTP運作的REST-ful架構，簡化與Planning的整合建置。
 
