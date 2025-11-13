@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: e5416fab4f4ad1f2c31edf962554ddd6a4c2f1e5
+source-git-commit: a30e505aa2061240f92642fda274be66e4947bce
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '864'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,13 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->在25.11版中，工作角色的覆寫貨幣將在生產環境中被取代。 （10月30日在預覽環境中將停止使用。） 工作角色將可以使用一種貨幣，而不使用基本貨幣和覆寫貨幣，並將使用該貨幣定義成本和計費率。
+>在25.11版本中，工作角色的覆寫貨幣在生產環境中已過時。 （10月30日在預覽環境中棄用。） 工作角色現在可以使用一種貨幣，而不是使用基本貨幣和覆寫貨幣，而且成本和計費率會使用該貨幣來定義。
 
 作為[!DNL Adobe Workfront]管理員或具有工作角色管理存取權的使用者，您可以建立可指派給使用者的工作角色，並刪除與您的組織無關的預設工作角色。 如需[!DNL Workfront]中管理存取權的相關資訊，請參閱[授予使用者對特定區域的管理存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)。
+
+>[!TIP]
+>
+>工作角色是管理資源的必要部分。 若要使用資源計畫工具，職務角色需要與其相關的成本與帳單費率。 如需詳細資訊，請參閱[開始使用資源管理](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)。
 
 ## 存取需求
 
@@ -41,8 +45,8 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td><p>[!UICONTROL 標準]</p>
-       <p>[!UICONTROL 計畫]</p></td>
+   <td><p>[！UICONTROL標準]</p>
+       <p>[！UICONTROL計畫]</p></td>
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
@@ -76,65 +80,64 @@ ht-degree: 0%
 
      如需有關停用工作角色的資訊，請參閱[停用工作角色](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md)。
 
-   * **基本貨幣**：這是基本貨幣，如您的Workfront管理員在設定區域中設定。 如需詳細資訊，請參閱[設定匯率](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)。
+   * **Currency**：預設會顯示基本貨幣。 Workfront管理員會在「設定」區域中新增基本貨幣。 您可以將選取專案變更為其他可用貨幣，也可以變更有效日期時間範圍內的貨幣。
 
      >[!TIP]
      >
-     >您無法在工作角色層級編輯基本貨幣。 此欄位會變暗，以提醒您系統的基本貨幣為何。
-
-   * **成本費率**：這是工作角色的每小時成本費率。 此值會計算與角色相關之任務與問題的計畫成本與實際成本，以及最終的專案計畫成本與實際成本。 使用「基本貨幣」輸入匯率。
-
-     若要取得日期有效成本費率，請按一下[新增費率]。**&#x200B;** 輸入時間期間的成本/小時值，並視需要指定「開始日期」與「結束日期」。 第一個成本費率不會有開始日期，而最後一個成本費率不會有結束日期。
-
-     部分日期會自動新增。 例如，如果第一個成本費率沒有結束日期，而您新增了開始日期為2025年5月1日的第二個成本費率，則結束日期為2025年4月30日的成本費率會新增至第一個成本費率，這樣就不會有差距。
-
-     >[!TIP]
-     >
-     >編輯現有工作角色時，您可以選取&#x200B;**依開始日期排序**，在費率清單頂端檢視最近的開始日期。
-
-   * **收費率**：這是工作角色的每小時收費率。 此值會計算與角色相關之任務和問題的計畫和實際收入，最終是專案的計畫和實際收入。 使用「基本貨幣」輸入匯率。
-
-     若要取得日期有效收費率，請按一下[新增費率]。**&#x200B;** 輸入時間期間的帳單/小時值，並視需要指定「開始日期」與「結束日期」。 第一個收費率不會有開始日期，而最後一個收費率則不會有結束日期。
-
-     部分日期會自動新增。 例如，如果第一個收費率沒有結束日期，而您新增了開始日期為2025年5月1日的第二個收費率，則第一個收費率會新增2025年4月30日的結束日期，因此不會有間隙。
-
-     >[!TIP]
-     >
-     >編輯現有工作角色時，您可以選取&#x200B;**依開始日期排序**，在費率清單頂端檢視最近的開始日期。
-
-   * **覆寫貨幣**：選取與此工作角色關聯的貨幣。 這是Workfront用於計算與此職務角色相關之成本和收入的貨幣。
-
-     這與Workfront管理員在設定區域中設定的基本貨幣不同，也可能會與專案相關的貨幣不同。
-
-     >[!TIP]
-     >
-     >此欄位僅提供您系統中「匯率」區域中可用的貨幣。 如果您只設定一種貨幣，則此欄位不會出現。
+     >此欄位僅提供您系統中「匯率」區域中可用的貨幣。 如果您只設定一種貨幣，則只能使用該貨幣。
 
      如需有關在Workfront中設定基本貨幣的資訊，請參閱[設定匯率](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)。
 
      如需有關變更專案貨幣的資訊，請參閱[變更專案貨幣](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md)。
 
-   * **覆寫貨幣成本費率**：這是使用所選覆寫貨幣的工作角色的每小時成本費率。 Workfront使用此值來計算與工作角色相關之任務和問題的計畫成本與實際成本。
+   * **成本費率**：這是工作角色的每小時成本費率。 此值會計算與角色相關之任務與問題的計畫成本與實際成本，以及最終的專案計畫成本與實際成本。 使用選取的幣別輸入匯率。
 
-     以上述指定的「修訂幣別」輸入匯率。 當使用基本貨幣時，這也會更新此職務角色的成本率。
+     若要取得日期有效成本費率，請按一下[新增費率]。**** 輸入時間期間的成本/小時值，並視需要指定「開始日期」與「結束日期」。 第一個成本費率不會有開始日期，而最後一個成本費率不會有結束日期。
+
+     部分日期會自動新增。 例如，如果第一個成本費率沒有結束日期，而您新增了開始日期為2025年5月1日的第二個成本費率，則結束日期為2025年4月30日的成本費率會新增至第一個成本費率，這樣就不會有差距。
 
      如需Workfront如何計算成本的詳細資訊，請參閱[追蹤成本](/help/quicksilver/manage-work/projects/project-finances/track-costs.md)。
 
      >[!TIP]
      >
-     >在更新已具有相關成本費率的現有職務角色時，Workfront會根據您系統中的兌換率計算「修訂幣別」費率。 如果您更新「修訂幣別成本費率」，職務角色的成本費率也會自動更新。
+     >編輯現有工作角色時，您可以排序清單，以在費率清單頂端檢視最近的開始日期。
 
-   * **覆寫貨幣收費率**：這是使用所選覆寫貨幣的工作角色的每小時收費率。 Workfront使用此值來計算與工作角色相關之任務和問題的計畫和實際收入。
+   * **收費率**：這是工作角色的每小時收費率。 此值會計算與角色相關之任務和問題的計畫和實際收入，最終是專案的計畫和實際收入。 使用選取的幣別輸入匯率。
 
-     以上述指定的「修訂幣別」輸入匯率。 使用基本貨幣時，這也會更新此職務角色的計費率。
+     若要取得日期有效收費率，請按一下[新增費率]。**** 輸入時間期間的帳單/小時值，並視需要指定「開始日期」與「結束日期」。 第一個收費率不會有開始日期，而最後一個收費率則不會有結束日期。
+
+     部分日期會自動新增。 例如，如果第一個收費率沒有結束日期，而您新增了開始日期為2025年5月1日的第二個收費率，則第一個收費率會新增2025年4月30日的結束日期，因此不會有間隙。
 
      如需Workfront如何計算收入的詳細資訊，請參閱[帳單與收入概觀](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md)。
 
      >[!TIP]
      >
-     >在更新已有關聯收費率的現有職務角色時，Workfront會根據您系統中的轉換率計算「覆寫貨幣」費率。 如果您更新「覆寫幣別帳單費率」，職務角色的帳單費率也會自動更新。
+     >編輯現有工作角色時，您可以排序清單，以在費率清單頂端檢視最近的開始日期。
+
+1. 按一下&#x200B;**[!UICONTROL 建立工作角色]**。 工作角色現在可指派給任務、問題、核准，或者您可以與其共用版面範本或其他物件。 如需[!DNL Workfront]中所有工作角色使用的相關資訊，請參閱[工作角色總覽](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md)。 如需有關刪除工作角色的資訊，請參閱[刪除工作角色](../../../administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md)。
 
 <!--
+   * **Override Currency Cost Rate**: This is the cost per hour rate of the job role using the selected Override Currency. Workfront uses this value to calculate the planned and the actual costs of tasks and issues associated with the job role.
+
+     Enter the rate in the Override Currency specified above. This also updates the Cost Rate for this job role when using the Base Currency.
+
+     For information about how Workfront calculates cost, see [Track costs](/help/quicksilver/manage-work/projects/project-finances/track-costs.md).
+
+     >[!TIP]
+     >
+     >When updating an existing job role that already has a cost rate associated with it, Workfront calculates the Override Currency rate based on the conversion rate in your system. If you update the Override Currency Cost Rate, the cost rate of the job role also updates automatically.
+
+   * **Override Currency Billing Rate**: This is the billing per hour rate of the job role using the selected Override Currency. Workfront uses this value to calculate the planned and the actual revenue of tasks and issues associated with the job role.
+
+      Enter the rate in the Override Currency specified above. This also updates the Billing Rate for this job role when using the Base Currency.
+
+      For information about how Workfront calculates revenue, see [Overview of Billing and Revenue](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
+
+     >[!TIP]
+     >
+     >When updating an existing job role that already has a billing rate associated with it, Workfront calculates the Override Currency rate based on the conversion rate in your system. If you update the Override Currency Billing Rate, the billing rate of the job role also updates automatically.
+
+
    <table style="table-layout:auto"> 
     <col> 
     <col> 
@@ -197,27 +200,5 @@ ht-degree: 0%
    </table>
 -->
 
->[!TIP]
->
->工作角色是管理資源的必要部分。 若要使用資源計畫工具，職務角色需要與其相關的成本與帳單費率。 如需詳細資訊，請參閱[開始使用資源管理](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)。
 
-1. 按一下&#x200B;**[!UICONTROL 建立工作角色]**。 工作角色現在可指派給任務、問題、核准，或者您可以與其共用版面範本或其他物件。 如需[!DNL Workfront]中所有工作角色使用的相關資訊，請參閱[工作角色總覽](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md)。 如需有關刪除工作角色的資訊，請參閱[刪除工作角色](../../../administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md)。
 
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2>Delete a job role</h2>
-<ol data-mc-continue="false">
-<li value="1">Click the <strong>Main Menu</strong> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <strong>Setup</strong> <img src="assets/gear-icon-settings.png">.</li>
-<li value="2">Click<strong>Job Roles.</strong></li>
-<li value="3">Select the job role that you want to delete, then click <strong>Delete.</strong></li>
-<li value="4">If there are any objects (users, tasks, issues) that are assigned to the job role, do one of the following:<br>
-<ul>
-<li><p><strong>Replace the job role with a different job role:</strong> Select the new job role from the drop-down list.</p><p>Any current and past resource allocations that are associated with the deleted job role are transferred to the job role that you select.</p><p>Users who have only one job role assigned to them are reassigned to the job role that you select; users who have a secondary job role assigned to them are not reassigned to the job role that you select.</p></li>
-<li><p><strong>Delete the job role and its resource allocation:</strong> Select<strong>None</strong> from the drop-down list.</p><note type="important">
-Deleting a job role deletes all current and past resource allocation related to that job role for all projects.
-</note><p>​For example, if a task or issue is assigned to only that job role, the task or issue is unassigned after the job role is deleted.</p></li>
-</ul></li>
-<li value="5">Click  <strong>Yes, Delete It</strong>. </li>
-</ol>
-</div>
--->
