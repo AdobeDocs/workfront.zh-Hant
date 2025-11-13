@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '2047'
-ht-degree: 0%
+source-wordcount: '2050'
+ht-degree: 1%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 您想要在「促銷活動」的記錄型別上建立欄位，以顯示「產品」記錄型別「預算」欄位的值。
 
-若要這麼做：
+操作步驟：
 
 1. 在工作區中開啟行銷活動記錄型別的表格檢視。
 1. 按一下表格檢視右上角的&#x200B;**+**&#x200B;圖示以新增欄位，然後按一下&#x200B;**新增連線**，然後按一下所選工作區區段中的&#x200B;**產品**。
@@ -53,7 +53,7 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >從不同工作區連線記錄或連線Experience Manager資產時，**連線型別**&#x200B;選項無法使用。 如需詳細資訊，請參閱[連線記錄型別概觀](/help/quicksilver/planning/architecture/connect-record-types-overview.md)。
+     >從不同工作區連線記錄，或連線Experience Manager資產或GenStudio品牌時，**連線型別**&#x200B;選項無法使用。 如需詳細資訊，請參閱[連線記錄型別概觀](/help/quicksilver/planning/architecture/connect-record-types-overview.md)。
 
    * **錄製外觀**：從下列選項中選擇：
       * **名稱和影像**：顯示連線記錄的名稱和縮圖或圖示。 依預設會選取此選項。
@@ -141,7 +141,7 @@ ht-degree: 0%
 
 您想要在「行銷活動」的記錄型別上建立連線欄位，您可以在其中顯示Workfront中連線至Workfront Planning中行銷活動的專案之「計畫收入」欄位的值。
 
-若要這麼做：
+操作步驟：
 
 1. 前往Workspace，您想在其中將Campaign記錄型別與Workfront專案連線。
 1. 在選取的工作區中，開啟Campaign記錄型別的表格檢視。

@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '2212'
+source-wordcount: '2156'
 ht-degree: 1%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 1%
 
 <!--remove production/ preview and old/ new experience references at prod-->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 從預覽版開始的一週起，生產環境中也將提供相同功能給所有客戶。
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-如需詳細資訊，請參閱[介面現代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 您可以將任務指派給使用者、工作角色或專案團隊，以指出負責完成任務的人員。 您可以一次將任務指派給多個資源。
 
@@ -236,13 +236,13 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 1. 在任務清單中選取數個任務。
 1. 按一下&#x200B;**編輯**。
 
-   **編輯任務**&#x200B;對話方塊會在新體驗中開啟<span class="preview">。</span>
+   **編輯任務**&#x200B;對話方塊會在新體驗中開啟。
 
-1. 使用新體驗繼續指派工作<span class="preview">。</span>
+1. 繼續使用新體驗指派任務。
 
-   <span class="preview">如需詳細資訊，請參閱本文章的[從新體驗中的清單大量指派多個工作](#assign-multiple-tasks-in-bulk-from-a-list-in-the-new-experience)一節。</span>
+   如需詳細資訊，請參閱本文章節[從新體驗的清單中大量指派多個任務](#assign-multiple-tasks-in-bulk-from-a-list-in-the-new-experience)。
 
-1. <span class="preview"> （選擇性）按一下&#x200B;**編輯工作**&#x200B;方塊底部的&#x200B;**切換回舊體驗**，以開啟舊體驗。</span>
+1. （選擇性）按一下&#x200B;**編輯工作**&#x200B;方塊底部的&#x200B;**切換回舊體驗**&#x200B;以開啟舊體驗。
 
    >[!TIP]
    >
@@ -273,17 +273,15 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 1. （選擇性）如果要從所有工作移除現有的受指派人，請執行下列任一項作業：
 
    1. 開始輸入您要從任務中移除的使用者、角色或團隊名稱，然後當名稱出現在清單中時選取名稱，並按一下&#x200B;**移除受指派人**&#x200B;以移除更多受指派人。
-   1. 按一下「移除所有現有受指派人」**&#x200B;**，從所有選取的工作中移除所有受指派人。
+   1. 按一下「移除所有現有受指派人」****，從所有選取的工作中移除所有受指派人。
 
 1. 按一下「**儲存變更**」。
 1. （選擇性和條件性）當「指派至」或「工作總攬」欄位顯示在您的任務清單中時，按一下這些欄中的一個以取得任務，然後按一下受指派人名稱旁的&#x200B;**X圖示**，以將其從任務中移除。
 
 
-<div class="preview">
-
 ### 從新體驗中的清單大量指派多個任務
 
-1. 前往您要在「預覽」環境中大量指派的工作清單。
+1. 移至您要大量指派的工作清單。
 1. （視條件而定）如果您在專案下的任務清單中，請確定已選取&#x200B;**自動儲存**&#x200B;選項。
 
    >[!IMPORTANT]
@@ -319,10 +317,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 1. （選擇性）如果您想要從所有任務中移除現有的受指派人，請在&#x200B;**搜尋人員、角色或團隊**&#x200B;欄位中按一下其名稱旁的&#x200B;**x**。
 
 1. 按一下「**儲存**」。
-1. （選擇性和條件性）當工作清單中顯示&#x200B;**指派給**&#x200B;或&#x200B;**工作總攬**&#x200B;欄位時，按一下這些欄位之一內的工作總攬，然後按一下受指派人名稱旁的&#x200B;**X圖示**，即可將其從工作移除。
-
-
-</div>
+1. （選擇性和條件性）當工作清單中顯示&#x200B;**指派給**&#x200B;或&#x200B;**工作總攬**&#x200B;欄位時，按一下這些欄位之一內的工作以進行工作，然後按一下受指派人名稱旁的&#x200B;**X圖示**，以將其從工作移除
 
 
 <!--

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '3951'
+source-wordcount: '3968'
 ht-degree: 2%
 
 ---
@@ -190,7 +190,7 @@ ht-degree: 2%
    >在「設定」區域中設定自訂季度後，時間軸檢視會顯示自訂季度，而非傳統季度。
    >如需詳細資訊，請參閱[啟用自訂季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
 
-1. （視條件而定）如果您是Workfront管理員，請按一下&#x200B;**前往設定**&#x200B;設定您的季度。 如果沒有，請按一下[確定] **&#x200B;**，並要求Workfront管理員設定自訂季度。
+1. （視條件而定）如果您是Workfront管理員，請按一下&#x200B;**前往設定**&#x200B;設定您的季度。 如果沒有，請按一下[確定] ****，並要求Workfront管理員設定自訂季度。
 
    >[!TIP]
    >
@@ -563,6 +563,8 @@ this is not possible right now; if this is the same functionality as the table v
   例如，任務會連線至Workfront中的專案。 使用劃分功能，您可以在Planning中顯示連結至行銷活動的專案，但不能顯示連結至Workfront中專案的任務。
 
   如果您想要在Workfront Planning記錄型別的時程檢視中同時顯示產品組合和專案，產品組合和專案都必須連線至Planning記錄，或連線至您正在管理其時程檢視之Planning記錄的記錄。
+* 您無法顯示連線至Planning記錄型別的Adobe GenStudio Brands。
+如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
 * 您只能顯示與至少兩個日期欄位關聯的記錄型別。
 * 您要在時間軸檢視中顯示的記錄型別日期欄位，必須在所選記錄型別的表格檢視中顯示，以作為查詢欄位。
 * 您要在時間軸檢視中顯示的記錄型別的「開始」和「結束」日期必須依時間順序排列。 例如，如果記錄的開始日期為1月31日，結束日期為1月1日，則它不會顯示在時間軸檢視中。 如需詳細資訊，請參閱本文中的[管理時間表檢視](#manage-a-timeline-view)一節。

@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Tasks, Resource Management
 role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1047'
 ht-degree: 0%
 
 ---
@@ -18,17 +18,19 @@ ht-degree: 0%
 
 <!--Audited: 11/2025-->
 
+<!--remove the old/new experience references when the toggles are removed-->
+
 <!--
 this article is similar and updates on this one might need to be repeated here: help/quicksilver/manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md</p>
 -->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 從預覽版開始的一週起，生產環境中也將提供相同功能給所有客戶。
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
-如需詳細資訊，請參閱[介面現代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div>-->
 
 管理任務指派時，您可以使用任務清單中的大量編輯功能，一次為多個任務同時修改它們。
 
@@ -125,25 +127,22 @@ When assigning users to work, their availability according to their schedules af
 
 1. 選取您要修改指派的任務，然後按一下&#x200B;**編輯**&#x200B;圖示![](assets/edit-icon.png)。
 
-   **編輯任務**&#x200B;方塊會在新體驗中開啟<span class="preview">。 執行下列任一項作業：</span>
-
-   <div class="preview">
+   **編輯任務**&#x200B;方塊會在新體驗中開啟。 執行下列其中一項：
 
    * 若要新增受指派人，請在&#x200B;**搜尋人員、角色或團隊**&#x200B;欄位中開始輸入受指派人名稱，然後在他們顯示在清單中時選取他們。
    * 若要移除受指派人，請按一下其名稱右側的&#x200B;**x**&#x200B;圖示。 只有所有工作通用的受指派者才會顯示在清單中。
    * 按一下「指派給我」 ，將選取的任務指派給您自己。
 
-   </div>
+1. （視條件而定）使用新體驗時，請按一下&#x200B;**儲存**。
 
-1. <span class="preview">（條件式）使用新體驗時，請按一下&#x200B;**儲存**。</span>
+1. （選擇性）按一下&#x200B;**編輯工作**&#x200B;方塊底部的&#x200B;**切換到舊體驗**。
 
-1. <span class="preview"> （選擇性）按一下&#x200B;**編輯工作**&#x200B;方塊底部的&#x200B;**切換到舊體驗**。</span>
+   **編輯任務**&#x200B;方塊會在舊體驗中開啟。
 
-   <span class="preview">在舊體驗中開啟&#x200B;**編輯任務**&#x200B;方塊。</span>
-
+   <!--
    >[!TIP]
    >
-   >生產環境中預設會提供舊體驗。
+   >The old experience is available by default in the Production environment.-->
 
 1. （視條件而定）在舊體驗中，執行下列操作以修改受指派人：
 

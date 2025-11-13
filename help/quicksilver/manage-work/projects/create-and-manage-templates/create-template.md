@@ -6,9 +6,9 @@ description: 您可以從「範本」區域建立及刪除範本。 建立新範
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '734'
 ht-degree: 6%
 
 ---
@@ -17,13 +17,15 @@ ht-degree: 6%
 
 <!-- Audited: 10/2025 -->
 
-<div class="preview">
+<!--remove all instances of new/ old experience and redo the steps when the toggle is removed-->
 
-本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 從預覽版開始的一週起，生產環境中也將提供相同功能給所有客戶。
+<!--<div class="preview"> 
 
-如需詳細資訊，請參閱[介面現代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
-</div>
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> -->
 
 您可以從「範本」區域建立及刪除範本。 建立新範本時，您可以為所有任務和未來專案設定輸入資訊。 然後，此資訊將傳輸至您從範本建立的任何專案。
 
@@ -118,13 +120,11 @@ ht-degree: 6%
 
    按一下&#x200B;**新增範本任務**，開始在&#x200B;**新增範本任務**&#x200B;方塊中將任務新增至範本。
 
-   ![新範本任務方塊](assets/new-template-task-box.png)
+   **建立範本任務**&#x200B;方塊會在新體驗中開啟。
 
-   <span class="preview">在新體驗中開啟&#x200B;**建立範本任務**&#x200B;方塊。</span>
+   ![新範本任務的新體驗](assets/new-template-task-box-unshimmed.png)
 
-1. <span class="preview">（條件式）使用新體驗，更新&#x200B;**建立範本任務**&#x200B;方塊中下列區域的資訊：</span>
-
-   <div class="preview">
+1. （視條件而定）使用新體驗，更新&#x200B;**建立範本任務**&#x200B;方塊中下列區域的資訊：
 
    * 範本任務名稱
    * 概觀
@@ -134,14 +134,15 @@ ht-degree: 6%
    * 文件
    * 設定
 
-   </div>
-
 1. 按一下&#x200B;**建立範本任務**
 
    或
 
-   <span class="preview">按一下&#x200B;**建立範本工作**&#x200B;方塊底部的&#x200B;**切換回舊體驗**。</span>
-   <span class="preview">在舊體驗中開啟&#x200B;**新範本任務**。</span>
+   按一下&#x200B;**建立範本工作**&#x200B;方塊底部的&#x200B;**切換回舊體驗**。
+
+   **新範本任務**&#x200B;會在舊體驗中開啟。
+
+   ![新範本任務方塊](assets/new-template-task-box.png)
 
    >[!TIP]
    >

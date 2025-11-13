@@ -6,9 +6,9 @@ description: 將使用者或角色指派給任務時，會為其分配特定時�
 author: Lisa
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '573'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 0%
 <!--remove new/old experience references when they remove the New/ Old experience toggle from the Edit Tasks box-->
 
 
-<div class="preview">
+<!--<div class="preview"> 
 
-本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 從預覽版開始的一週起，生產環境中也將提供相同功能給所有客戶。
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-如需詳細資訊，請參閱[介面現代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 分配時數代表已指派資源計畫處理一項任務的總時間量。 小時代表使用者在任務持續期間的指定日、工作日、周或月所分配的時間。
 
@@ -61,7 +61,7 @@ ht-degree: 0%
   <tr> 
    <td>物件許可權</td>
    <td><p>貢獻或更高的任務許可權</p>
-   <p>編輯使用舊體驗編輯任務<span class="preview">時，在[編輯任務]方塊中更新配置時數的許可權。 在新體驗中編輯任務時，您無法再在「編輯任務」方塊中管理配置時數。</span></p> <p>如需詳細資訊，請參閱<a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">編輯工作</a>。</p></td>
+   <p>編輯使用舊體驗編輯任務時，在「編輯任務」方塊中更新分配時數的許可權。 在新體驗中編輯任務時，您無法再在「編輯任務」方塊中管理配置小時。</p> <p>如需詳細資訊，請參閱<a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">編輯工作</a>。</p></td>
   </tr>
  </tbody>
 </table>

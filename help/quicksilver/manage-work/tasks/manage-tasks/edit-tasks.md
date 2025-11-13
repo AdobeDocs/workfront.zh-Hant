@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '4464'
+source-wordcount: '4416'
 ht-degree: 4%
 
 ---
@@ -28,13 +28,13 @@ ht-degree: 4%
 </div>
 -->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 從預覽版開始的一週起，生產環境中也將提供相同功能給所有客戶。
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-如需詳細資訊，請參閱[介面現代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 您可以編輯已建立或您擁有Contribute或「管理」許可權之工作的相關資訊。
 
@@ -377,19 +377,17 @@ ht-degree: 4%
 1. 如上所述開始編輯您的工作。
 1. 按一下左側面板中的&#x200B;**工作**。
 
-   <span class="preview">指派區域會在新體驗中開啟。</span>
+   指派區域會在新體驗中開啟。
 
 1. （視條件而定）使用新體驗，執行下列動作：
 
-   1. <span class="preview">在&#x200B;**搜尋人員、角色或團隊**&#x200B;欄位中開始輸入使用者、工作角色或團隊的名稱，然後在他們顯示在清單中時選取他們</span>
+   1. 在&#x200B;**搜尋人員、角色或團隊**&#x200B;欄位中開始輸入使用者、工作角色或團隊的名稱，然後在他們顯示在清單中時選取他們
 
       或
 
-      <span class="preview">按一下&#x200B;**指派給我**&#x200B;以指派工作給您自己。</span>
+      按一下&#x200B;**指派給我**，將工作指派給您自己。
 
-   1. <span class="preview">更新下列資訊：</span>
-
-      <div class="preview">
+   1. 更新下列資訊：
 
       <table style="table-layout:auto"> 
          <col> 
@@ -501,7 +499,6 @@ ht-degree: 4%
          </tbody> 
          </table>
 
-      </div>
 
       <!--<tr> 
       <td role="rowheader">Allocation</td> 
@@ -520,9 +517,9 @@ ht-degree: 4%
          </tbody> 
          </table>-->
 
-   1. <span class="preview"> （選擇性）按一下&#x200B;**編輯工作**&#x200B;方塊底部的&#x200B;**切換到舊體驗**。</span>
-      <span class="preview">指派區域會在舊體驗中開啟。</span>
-      ![](assets/nwe-assignments-section-edit-task-box-350x217.png)
+   1. （選擇性）按一下&#x200B;**編輯工作**&#x200B;方塊底部的&#x200B;**切換到舊體驗**。
+指派區域會在舊體驗中開啟。
+      編輯任務方塊中的![工作分派區段](assets/nwe-assignments-section-edit-task-box-350x217.png)
 
 1. 按一下&#x200B;**搜尋人員、角色或團隊**，然後開始輸入您要指派給工作的使用者、角色或團隊的名稱，然後按一下它，或當它顯示在清單上時按下Enter。
 
@@ -670,7 +667,7 @@ ht-degree: 4%
    </tbody>
    </table>
 
-1. 按一下「**儲存變更**」<span class="preview">或「**儲存**」</span>，或繼續下列章節。
+1. 按一下&#x200B;**儲存**&#x200B;或繼續下列章節。
 
 ### 自訂表單
 

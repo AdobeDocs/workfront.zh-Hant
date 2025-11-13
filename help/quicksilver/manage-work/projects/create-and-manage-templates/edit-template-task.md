@@ -7,9 +7,9 @@ description: 建立範本後，您可以編輯有關範本任務的資訊。 使
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '4716'
+source-wordcount: '4633'
 ht-degree: 4%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 4%
 
 <!--take out production and preview references and new/ old experiences at release-->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 從預覽版開始的一週起，生產環境中也將提供相同功能給所有客戶。
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
-如需詳細資訊，請參閱[介面現代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 建立範本後，您可以編輯範本任務的資訊。 使用範本建立專案或將範本附加到專案後，您在範本任務上更新的資訊會與專案任務相關聯。
 
@@ -138,15 +138,21 @@ ht-degree: 4%
 1. （選擇性）若要大量編輯數個範本工作，請選取多個範本工作，然後按一下範本清單頂端的&#x200B;**編輯**。
 1. （視條件而定）若要同時編輯範本任務或數個任務的所有相關資訊，請按一下以從清單中選取它們，然後按一下清單頂端的&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)。
 
-   **編輯範本任務**&#x200B;方塊隨即顯示。
+   **編輯範本任務**&#x200B;方塊會顯示在新體驗中。
+
+   ![編輯範本任務的新體驗](assets/edit-template-task-box-unshimmed.png)
 
    >[!TIP]
    >
    >您也可以在清單中選取範本任務，然後按一下標題中範本任務名稱右側的&#x200B;**編輯**，以開啟&#x200B;**編輯範本任務**&#x200B;方塊。
 
+   繼續編輯範本任務，如本文的[使用新體驗](#edit-a-template-task-using-the-new-experience)編輯範本任務一節中所述。
+
+1. （選擇性）按一下&#x200B;**編輯範本任務**&#x200B;方塊底部的&#x200B;**切換回舊體驗**，以開啟舊體驗中的&#x200B;**編輯範本任務**&#x200B;方塊。
+
    ![編輯範本任務](assets/edit-template-tasks-box-classic-350x356.png)
 
-1. （視條件而定）在生產環境中，請考慮在下列任何區段中指定資訊：
+1. 請考慮在下列任何一節中指定資訊：
 
    * [概觀](#overview)
    * [財務](#finance)
@@ -156,9 +162,6 @@ ht-degree: 4%
    * [評論](#comment)
 
 1. 繼續編輯範本任務，如本文的[使用舊版體驗](#edit-a-template-task-using-the-old-experience)編輯範本任務一節中所述。
-
-1. <span class="preview">（條件式）在預覽環境中，編輯範本任務方塊會在新體驗中開啟。 繼續編輯範本任務，如本文中[使用新體驗](#edit-a-template-task-using-the-new-experience)編輯範本任務一節中所述。</span>
-1. <span class="preview"> （選擇性）按一下&#x200B;**編輯範本工作**&#x200B;方塊底部的&#x200B;**切換回舊體驗**，以開啟舊體驗中的&#x200B;**編輯範本工作**&#x200B;方塊。 繼續編輯範本任務，如本文中[使用舊版體驗](#edit-a-template-task-using-the-old-experience)編輯範本任務一節中所述。</span>
 
 ### 使用舊體驗編輯範本任務
 
@@ -439,8 +442,6 @@ ht-degree: 4%
 
    當您或其他使用者從此範本建立專案時，您套用至範本任務的所有設定都會成為專案任務的設定。
 
-<div class="preview">
-
 ### 使用新體驗編輯範本任務
 
 在新體驗中開啟&#x200B;**編輯範本任務**&#x200B;方塊後，請考慮在下列任何區段中指定資訊：
@@ -461,7 +462,7 @@ ht-degree: 4%
 
 
 1. 如上所述，開始編輯範本任務。
-1. 在[編輯範本任務]方塊中，按一下[範本任務名稱] **&#x200B;**&#x200B;並新增範本任務的名稱。
+1. 在[編輯範本任務]方塊中，按一下[範本任務名稱] ****&#x200B;並新增範本任務的名稱。
 
    大量編輯範本任務時，此檢視不可用。
 
@@ -767,4 +768,3 @@ ht-degree: 4%
 
    當您或其他使用者從此範本建立專案時，您套用至範本任務的所有設定都會成為專案任務的設定。
 
-</div>

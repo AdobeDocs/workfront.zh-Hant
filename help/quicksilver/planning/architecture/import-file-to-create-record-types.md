@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '801'
 ht-degree: 0%
 
 ---
@@ -134,8 +134,8 @@ ht-degree: 0%
 * 不支援空白工作表。
 * 不支援下列型別的欄位，且無法對應至匯入工作表上的欄位：
 
-   * Workfront和AEM Assets物件型別的連線欄位。
-   * 從連線的Planning記錄或Workfront與AEM Assets物件查詢欄位
+   * Workfront、AEM Assets物件型別或GenStudio品牌的連線欄位。
+   * 從連線的Planning記錄、Workfront、AEM Assets物件或GenStudio品牌中查詢欄位。
    * 公式欄位
    * 建立日期，建立者
    * 上次修改日期，上次修改者：
@@ -190,11 +190,11 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >您只能對應至Workfront Planning連線記錄中的欄位。 您無法從Workfront或AEM Assets連線對應到欄位。 如需詳細資訊，請參閱本文中[關於使用Excel或CSV檔案匯入記錄型別的考量事項](#considerations-about-importing-record-types-using-an-excel-or-csv-file)一節。
+   >您只能對應至Workfront Planning連線記錄中的欄位。 您無法對應至Workfront、AEM Assets或GenStudio Brands連線的欄位。 如需詳細資訊，請參閱本文中[關於使用Excel或CSV檔案匯入記錄型別的考量事項](#considerations-about-importing-record-types-using-an-excel-or-csv-file)一節。
 
 1. （視條件而定）更新欄位相關資訊後，按一下&#x200B;**儲存**。
 
-1. 當您準備好匯入您的檔案時，請按一下[匯入]。**&#x200B;**
+1. 當您準備好匯入您的檔案時，請按一下[匯入]。****
 
    下列資訊會匯入Workfront Planning中：
 

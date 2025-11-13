@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -49,11 +49,11 @@ ht-degree: 0%
 
 您可以在下列區域將記錄連線到其他記錄，或從其他應用程式連線到物件：
 
-* 您可以在Workfront Planning記錄的下列區域中，將記錄連線至Workfront物件或Experience Manager Assets物件：
+* 您可以在Workfront Planning記錄的下列區域中，將記錄連結至Workfront物件、Experience Manager Assets物件或GenStudio Brands：
 
    * Planning中記錄型別的表格檢視中的已連線記錄欄位。
-   * 記錄的預覽或頁面在詳細資訊索引標籤的已連線記錄欄位中。
-   * 記錄在「連線」標籤上的預覽或頁面。
+   * 記錄的預覽或詳細資訊頁面在詳細資訊索引標籤的已連線記錄欄位中。
+   * 記錄的預覽或詳細資訊頁面（在連線索引標籤上）。
    * 已連線記錄之「已連線記錄」頁面索引標籤中的記錄頁面。
 
 * 您可以在Workfront的下列區域中，將Workfront物件連結至Workfront Planning記錄：
