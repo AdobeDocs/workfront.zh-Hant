@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 6fb64986260842c419c61fe386e9ccf1a0da8f14
+source-git-commit: 5d7cc28ebb1c7d7401a60ef4fc383fc90ed20631
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1549'
 ht-degree: 0%
 
 ---
@@ -39,23 +39,23 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 授權</p> </td> 
-   <td><p>[!UICONTROL 計畫]</p>
-   <p>[!UICONTROL 標準]</p>
+   <td><p>[！UICONTROL計畫]</p>
+   <p>[！UICONTROL標準]</p>
    </td> 
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
    <td> <p>您必須具備下列其中一項：</p> 
     <ul> 
-     <li> <p>[!UICONTROL 系統管理員]存取層級，可讓您編輯系統中的任何公司。</p> </li> 
+     <li> <p>[！UICONTROL系統管理員]存取層級，可讓您編輯系統中的任何公司。</p> </li> 
      <li> <p>管理公司的管理存取權，可讓您編輯系統中的任何公司。</p> </li> 
     </ul> <p><b>附註</b>：  
      <ul> 
       <li> <p>您也可以管理與您被指派為群組管理員的任何群組相關聯的公司。</p> </li> 
       <li> <p>若要從[!DNL Workfront]系統中新增和移除使用者，您必須具備下列其中一項：</p> 
        <ul> 
-        <li> <p>[!UICONTROL 系統管理員]存取層級。 </p> </li> 
-        <li> <p>您的存取層級中的<b>[!UICONTROL Users]</b>設定已設定為<b>[!UICONTROL Edit]</b>存取，且<b>[!UICONTROL Create]</b>以及在<b>[!UICONTROL Fine-tune your settings]</b> <b>下啟用的兩個</b>[!UICONTROL User Admin]<img src="assets/gear-icon-in-access-levels.png">選項中的至少一個選項。 </p> <p> <img src="assets/access-req-users.png"> </p> <p>在這兩個選項中，如果已啟用<b>[!UICONTROL User Admin (Group Users)]</b>，您必須是使用者所屬群組的群組管理員。</p> </li> 
+        <li> <p>[！UICONTROL系統管理員]存取層級。 </p> </li> 
+        <li> <p>您的存取層級中的<b>[！UICONTROL Users]</b>設定已設定為<b>[！UICONTROL Edit]</b>存取，且<b>[！UICONTROL Create]</b>以及在<b>[！UICONTROL Fine-tune your settings]</b> <b>下啟用的兩個</b>[！UICONTROL User Admin]<img src="assets/gear-icon-in-access-levels.png">選項中的至少一個選項。 </p> <p> <img src="assets/access-req-users.png"> </p> <p>在這兩個選項中，如果已啟用<b>[！UICONTROL User Admin (Group Users)]</b>，您必須是使用者所屬群組的群組管理員。</p> </li> 
        </ul>
        </li> 
      </ul> </p> </td> 
@@ -97,7 +97,7 @@ ht-degree: 0%
 
    公司清單隨即顯示。
 
-1. 如果您正在新增公司，請按一下[新增公司]。**&#x200B;**
+1. 如果您正在新增公司，請按一下[新增公司]。****
 
    或
 
@@ -146,6 +146,18 @@ ht-degree: 0%
    或
 
    如果您正在編輯現有的公司，請按一下&#x200B;**[!UICONTROL 儲存變更]** <span class="preview">或&#x200B;**儲存**。</span>
+
+## 刪除公司
+
+{{step-1-to-setup}}
+
+1. 按一下&#x200B;**[!UICONTROL 公司]**。
+
+   公司清單隨即顯示。
+
+1. 按一下您要刪除的公司旁的核取方塊，然後按一下頁面頂端附近的刪除圖示![刪除圖示](assets/delete-icon.png)。
+1. 如果您要刪除設為「主要」公司或在另一個物件中使用的公司，請選取要取代要刪除之公司的公司。 您選取的公司會成為「主要公司」，或取代指定給該公司的物件上已刪除的公司。
+1. 按一下&#x200B;**刪除**。
 
 ## 管理公司成員資格
 
