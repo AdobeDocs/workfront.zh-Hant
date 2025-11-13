@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 90d472307ffb6b524154696b4c14d725db44b079
 workflow-type: tm+mt
-source-wordcount: '2764'
+source-wordcount: '2838'
 ht-degree: 0%
 
 ---
@@ -85,8 +85,11 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 <td> 
    <p> 其他產品</p> </td> 
    <td> 
-   <p> 除了Adobe Workfront，您必須擁有Adobe Experience Manager Assets授權以及AEM Assets與Workfront之間的整合，才能將AEM資產與Planning記錄型別連線。<p>
-    如需詳細資訊，請參閱<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">適用於Experience Manager Assets和Assets Essentials的Adobe Workfront：文章索引</a>。 </p>
+   <p> 除了Adobe Workfront之外，如果您想要將記錄型別與下列應用程式的物件連線，也必須具備下列專案：</p>
+   <ul><li><p>Adobe Experience Manager Assets授權及AEM Assets與Workfront之間的整合，用於連結AEM資產與Planning記錄型別。</p>
+   <p>如需詳細資訊，請參閱<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">適用於Experience Manager Assets和Assets Essentials的Adobe Workfront：文章索引</a>。 </p></li>
+   <li><p> 連線記錄型別與GenStudio Brands的Adobe GenStudio for Performance Marketing授權</p>
+   <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">開始使用Adobe GenStudio for Performance Marketing</a>。</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -225,6 +228,10 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
      針對您選取的記錄或物件型別，會開啟「新連線」標籤。
 
+   * 來自&#x200B;**Adobe GenStudio**&#x200B;區段Adobe GenStudio for Performance Marketing的&#x200B;**品牌**
+
+     ![GenStudio品牌連線選擇](assets/brand-genstudio-connection-selection.png)
+
 1. 以新的連線欄位名稱更新&#x200B;**Name**&#x200B;欄位，因為它會出現在原始記錄型別的資料表檢視或記錄頁面中。 這會在原始記錄型別的表格檢視中建立連線的記錄欄（或欄位）。 依預設，欄位名稱是您連線的記錄或物件的名稱。
 
    >[!TIP]
@@ -232,7 +239,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    >您可以有多個連線連線到相同的記錄或物件型別。 如果您不編輯已連線的欄位名稱，Workfront會在已連線記錄的名稱后新增一個數字，以表示相同名稱的已連線記錄型別數目。
 
 1. 新增連線記錄欄位的相關資訊，以更新&#x200B;**描述**&#x200B;欄位。 當您將滑鼠游標停留在表格中的欄位欄位上時，會顯示欄位說明。
-1. （視條件而定）當您從兩個不同的工作區或記錄和Adobe Experience Manager資產物件連線記錄型別時，請選取&#x200B;**允許多筆記錄**。 透過選取它，您表示當連線的記錄型別欄位顯示在原始記錄上時，您可以允許使用者新增多個記錄。 依預設會選取此選項。
+1. （視條件而定）當您從兩個不同的工作區連線記錄型別時，即記錄型別和Adobe Experience Manager資產物件，或記錄型別和GenStudio品牌，請選取&#x200B;**允許多筆記錄**。 透過選取它，您表示當連線的記錄型別欄位顯示在原始記錄上時，您可以允許使用者新增多個記錄。 依預設會選取此選項。
 
    ![從另一個工作區新增記錄型別的連線](assets/new-connection-allow-multiple-records-box.png)
 
@@ -271,10 +278,10 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
    >[!NOTE]
    >
-   >您的Workfront管理員可以透過Workfront中的中繼資料對應，將Workfront Planning欄位對應至Experience Manager Assets欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
+   >您的Workfront管理員可以透過Workfront中的中繼資料對應，將Workfront Planning欄位對應至Experience Manager Assets欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
 
 
-1. （視條件而定）當您選取連線至Experience Manager Assets或Workfront Planning記錄型別時，請在&#x200B;**記錄外觀**&#x200B;區域中選擇下列其中一個選項：
+1. （視條件而定）當您選取連線至Experience Manager Assets、Workfront Planning記錄型別或GenStudio Brand時，請在&#x200B;**記錄外觀**&#x200B;區域中選擇下列其中一個選項：
 
    * **名稱和影像**：連線記錄的名稱和縮圖或圖示都會顯示在連線記錄欄位中。 這是預設選項。
    * **名稱**：連線的記錄欄位中只會顯示連線記錄的名稱。
@@ -349,7 +356,10 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
    >[!NOTE]
    >
-   > 將記錄型別連線至Experience Manager Assets時，無法使用彙總器。
+   > 將記錄型別連線到以下內容時，無法使用彙總：
+   >* Experience Manager Assets
+   >* GenStudio品牌。
+   >
 
    從下列選項中選取：
 

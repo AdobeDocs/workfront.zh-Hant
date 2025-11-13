@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 90d472307ffb6b524154696b4c14d725db44b079
 workflow-type: tm+mt
-source-wordcount: '1973'
+source-wordcount: '2020'
 ht-degree: 1%
 
 ---
@@ -64,11 +64,17 @@ ht-degree: 1%
       * 影像
       * 資料夾
 
+   * Adobe GenStudio for Performance Marketing
+
+      * 品牌
+
      >[!IMPORTANT]
      >
-     >您必須擁有Adobe Experience Manager Assets授權，且貴組織的Workfront執行個體必須上線至Adobe商業平台或Adobe Admin Console，才能將Workfront Planning記錄連線至Adobe Experience Manager Assets。
-     >
-     >如果您對加入Adobe Admin Console有任何疑問，請參閱[Adobe統一體驗常見問題集](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)。
+     >您必須具備下列專案才能與Adobe Experience Manager Assets和GenStudio Brands連線：
+     >* Adobe Experience Manager Assets授權
+     >* Adobe GenStudio for Performance Marketing授權
+     >* 貴組織的Workfront執行個體必須上線至Adobe商業平台或Adobe Admin Console，才能將Workfront Planning記錄連線至Adobe Experience Manager Assets。
+     >如需Adobe Admin Console的相關資訊，請參閱[Adobe Unified Experience常見問題集](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)。
 
 * 建立記錄型別的記錄後，您可以透過連線的記錄欄位將它們相互連結。
 
@@ -93,7 +99,8 @@ ht-degree: 1%
       * 無法從Workfront物件存取規劃記錄欄位。
       * Planning記錄會顯示於Workfront物件的Planning標籤中。 如需詳細資訊，請參閱[管理來自Workfront物件的記錄連線](/help/quicksilver/planning/records/manage-records-in-planning-section.md)。
       * 您可以建立Planning連線自訂欄位，並將其附加至Workfront物件的自訂表單。 如需詳細資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
-      * 當您的Experience Manager管理員透過Workfront與Adobe Experience Manager Assets之間的整合設定中繼資料對應時，可從Workfront資產存取規劃記錄欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
+      * 當您的Experience Manager管理員透過Workfront與Adobe Experience Manager Assets之間的整合設定中繼資料對應時，可從Workfront資產存取規劃記錄欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
+      * 無法從GenStudio for Performance Marketing中的「品牌」存取計畫記錄欄位。
 
 
    * **當您從您連線的記錄或物件加入查閱欄位時**：除了建立連結的記錄欄位之外，您還可以從連線的記錄或物件型別連線到稱為查閱欄位的欄位。 連結（或查詢欄位）的資訊，來自於您所連線的記錄，顯示在您所連線的記錄上。
@@ -127,11 +134,13 @@ ht-degree: 1%
 
 >[!WARNING]
 >
->連線下列專案時，無法使用這些選項：
+>連線下列專案時，無法使用本節中說明的選項：
 >
 >* 來自不同工作區的兩個記錄
 >
 >* 記錄型別和Experience Manager資產
+>
+>* 記錄型別和Adobe GenStudio品牌
 
 您可以選擇是要一次將一個記錄連線到多個記錄，還是要一次將一個記錄連線到另一個記錄。
 
