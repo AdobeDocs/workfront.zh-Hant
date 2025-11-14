@@ -44,7 +44,7 @@ Workfront檔案how-to文章包含一個表格，說明該程式所需的存取�
   <p>您的組織可能在一個或多個上述區域購買了Workfront套件。</p>
   <p>之前，Workfront提供Workfront Select、Workfront Prime和Workfront Ultimate套件，而不區分工作流程、計畫和自動化與整合。 您的組織可能位於這些舊版套件之一。 
    <ul><li>若要瞭解貴組織使用哪個Adobe Workfront套件，包括貴組織使用目前的封裝模式或舊版封裝模式，請聯絡Workfront管理員。</li>
-   <li>如需Workfront管理員如何找到您組織的Workfront封裝的說明，請參閱<a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">檢視您組織的叢集和Workfront封裝</a>。</li><li>如需Workfront套件的詳細資訊，請參閱<a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront定價與封裝</a>。</li></ul> </td> 
+   <li>如需Workfront管理員如何找到您組織的Workfront封裝的說明，請參閱<a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">檢視您組織的叢集和Workfront封裝</a>。</li><li>如需Workfront套件的詳細資訊，請參閱<a href="https://business.adobe.com/tw/products/workfront/pricing.html">Adobe Workfront定價與封裝</a>。</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
@@ -95,7 +95,7 @@ Workfront檔案how-to文章包含一個表格，說明該程式所需的存取�
    <ul><li>目前的授權模型是以執行的作業數為基礎，對組織可執行的動作沒有限制。 </li>
    <li>舊版授權取決於案例能否連線至協力廠商應用程式，或案例是否僅用於Workfront自動化。 </li>
    </ul>
-   如需Fusion授權的詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref">Workfront Fusion授權</a>。
+   如需Fusion授權的詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref">Workfront Fusion授權</a>。
    </td> 
   </tr> 
  </tbody> 
