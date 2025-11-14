@@ -6,9 +6,9 @@ description: 將使用者或角色指派給任務時，會為其分配特定時�
 author: Lisa
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '574'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,10 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
   <tr> 
    <td>物件許可權</td>
    <td><p>貢獻或更高的任務許可權</p>
-   <p>編輯使用舊體驗編輯任務時，在「編輯任務」方塊中更新分配時數的許可權。 在新體驗中編輯任務時，您無法再在「編輯任務」方塊中管理配置小時。</p> <p>如需詳細資訊，請參閱<a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">編輯工作</a>。</p></td>
+   <p>編輯使用舊體驗編輯任務時，在「編輯任務」方塊中更新分配時數的許可權。</p> 
+   <p><b>附註</b></p>
+   <p>
+   在新體驗中編輯任務時，您無法再在「編輯任務」方塊中管理配置小時。</p> <p>如需詳細資訊，請參閱<a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">編輯工作</a>。</p></td>
   </tr>
  </tbody>
 </table>

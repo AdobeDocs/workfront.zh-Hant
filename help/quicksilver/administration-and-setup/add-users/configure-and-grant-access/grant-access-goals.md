@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8639da14-d545-4f9a-894b-12c29699b0db
-source-git-commit: 09bb41e16da89edd2c2cbfb5a85213045e52394d
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 1%
+source-wordcount: '269'
+ht-degree: 0%
 
 ---
 
@@ -30,29 +30,49 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Workfront計畫</td> 
-   <td> <p>Pro或更高</p> </td> 
+   <td role="rowheader">Workfront套件</td> 
+   <td> <p>Workfront或工作流程Ultimate</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td>規劃</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td><p>標準</p>
+   <p>規劃</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">產品</td> 
-   <td>Workfront Goals <p>請連絡您的Workfront客戶經理，以瞭解Workfront Goals授權。 </p> <p>Workfront目標僅在新的Adobe Workfront體驗中可用。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>您必須擁有系統管理員存取層級。</p> <p><b>注意</b>：如果您還是沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">建立或修改自訂存取層級</a>。</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>您必須擁有系統管理員存取層級。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取層級，請連絡您的Workfront管理員。
-
-如需存取Workfront目標的詳細資訊，請參閱[使用Workfront目標的需求](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Workfront plan</td> 
+   <td> <p>Pro or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td>Plan</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Product</td> 
+   <td>Workfront Goals <p>Contact your Workfront account manager to learn about a Workfront Goals license. </p> <p>Workfront Goals is available only in the new Adobe Workfront experience.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configuration*</td> 
+   <td> <p>You must have the System Administrator access level.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 使用自訂存取層級授與使用者對Workfront目標的存取權
 
@@ -69,4 +89,9 @@ ht-degree: 1%
 
 ## 依授權型別存取Workfront目標
 
-Workfront管理員可使用存取層級，將對Workfront目標的存取權授予具有計畫、工作、請求或檢閱授權的使用者。
+Workfront管理員可使用存取層級，將對Workfront目標的存取權授與具有下列授權的使用者：
+
+* 標準、輕度、投稿人
+* 計畫、工作、請求或稽核授權。
+
+如需存取Workfront目標的詳細資訊，請參閱[使用Workfront目標的需求](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md)。

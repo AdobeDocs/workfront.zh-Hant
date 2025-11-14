@@ -6,9 +6,9 @@ description: 在投資組合中導覽
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
@@ -40,16 +40,16 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>[!UICONTROL 標準] </p>
-   <p>[!UICONTROL 計畫] </p> </td> 
+   <td> <p>[！UICONTROL標準] </p>
+   <p>[！UICONTROL計畫] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[!UICONTROL Edit]對[!UICONTROL Projects]和[!UICONTROL Portfolios]的存取權</p>  </td> 
+   <td> <p>[！UICONTROL Edit]對[！UICONTROL Projects]和[！UICONTROL Portfolios]的存取權</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>投資組合的[!UICONTROL Manage]許可權</p> <p>檢視專案或更高許可權</p>  </td> 
+   <td> <p>投資組合的[！UICONTROL Manage]許可權</p> <p>檢視專案或更高許可權</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -141,10 +141,8 @@ ht-degree: 0%
 
    >[!IMPORTANT]
    >
-   >貴公司必須擁有下列封裝，才能存取[!UICONTROL Portfolio Optimizer]：
+   >貴公司必須有[!UICONTROL Prime]或更新版本的[!DNL Workfront]套件，才能存取[!UICONTROL Portfolio Optimizer]。
    >
-   >[!UICONTROL Prime]或更新版本[!DNL Workfront]\
-   >[!UICONTROL 企業]或更新版本[!DNL Workfront]
 
    如需使用Portfolio Optimizer的相關資訊，請參閱[在Portfolio Optimizer中管理專案：文章索引](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)區段。
 

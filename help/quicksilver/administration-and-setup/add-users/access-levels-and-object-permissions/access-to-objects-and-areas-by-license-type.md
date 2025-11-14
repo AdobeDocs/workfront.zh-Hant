@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d8f2a295-c053-4763-bf6e-6e836087a839
-source-git-commit: 97d755c71eb1bdfa8a031fa387741318f9a7f261
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '457'
 ht-degree: 24%
 
 ---
@@ -33,10 +33,10 @@ ht-degree: 24%
   >
   >本文包含舊版授權型別物件存取的相關資訊。 如需新授權型別的詳細資訊，請參閱[新存取層級總覽](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)和[新授權總覽](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)。
 
-|   | 規劃 | 工作 | 檢閱 | 請求 | 外部 |
+|   | 規劃 | 工作 | 審閱 | 請求 | 外部 |
 |---|---|---|---|---|---|
 | 專案 | 編輯 | 編輯（沒有「建立」許可權） | 檢視 | 檢視（僅限「詳細資訊」頁面） | 無存取權 |
-| 任務 | 編輯 | 編輯 | 檢視 | 檢視 | 檢視 |
+| 任務 | 編輯 | 編輯 | 檢視 | 檢視 | 無存取權 |
 | 問題 | 編輯 | 編輯 | 編輯 | 編輯 | 無存取權 |
 | 專案組合 | 編輯 | 檢視 | 檢視 | 無存取權 | 無存取權 |
 | 計劃 | 編輯 | 檢視 | 檢視 | 無存取權 | 無存取權 |

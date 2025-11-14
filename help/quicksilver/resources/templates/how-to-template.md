@@ -2,10 +2,10 @@
 title: [工作標題]
 description: [工作標題]
 draft: Probably
-source-git-commit: 32bf4cccee672b84e7c3e5b188a71979c0ac241e
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
-source-wordcount: 149
-ht-degree: 0%
+source-wordcount: 144
+ht-degree: 2%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront計畫*</td> 
-   <td> <p>[任何， Pro， Business， Enterprise]或以上版本</p> </td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 

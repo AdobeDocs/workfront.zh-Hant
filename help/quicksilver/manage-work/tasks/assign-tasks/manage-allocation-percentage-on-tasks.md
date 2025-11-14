@@ -6,9 +6,9 @@ description: 配置百分比代表指定資源計畫在一天內處理一項任�
 author: Lisa
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '458'
 ht-degree: 1%
 
 ---
@@ -59,7 +59,9 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
   <tr> 
    <td>物件許可權</td>
    <td><p>貢獻或更高的任務許可權</p>
-   <p>編輯許可權以在使用舊體驗編輯任務時，在「編輯任務」方塊中更新分配百分比。 在新體驗中編輯任務時，您無法再在「編輯任務」方塊中管理配置百分比。</p> <p>如需詳細資訊，請參閱<a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">編輯工作</a>。</p></td>
+   <p>編輯許可權以在使用舊體驗編輯任務時，在「編輯任務」方塊中更新分配百分比。</p>
+   <p><b>附註</b></p>
+   <p> 在新體驗中編輯任務時，您無法再在「編輯任務」方塊中管理配置百分比。</p> <p>如需詳細資訊，請參閱<a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">編輯工作</a>。</p></td>
   </tr>
  </tbody>
 </table>
