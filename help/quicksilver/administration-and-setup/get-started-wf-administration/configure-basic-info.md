@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
-source-git-commit: 15ea03bf586054f7ef421f8cacede6f42835a6e4
+source-git-commit: 01a80f6140650ca12aaee14115f79449dcfa2a18
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 2%
@@ -60,7 +60,7 @@ ht-degree: 2%
 
 1. 在左側面板中，按一下&#x200B;**系統** > **客戶資訊**。
 
-   根據您購買的Workfront計畫，客戶資訊頁面中可能會遺漏某些區段。 如果您需要瞭解您的組織使用哪個Workfront計畫，請聯絡客戶代表。
+   根據您購買的Workfront套件，客戶資訊頁面中可能遺漏某些區段。 如果您需要瞭解您的組織使用哪個Workfront套件，請聯絡客戶代表。
 
    「客戶資訊」區域中提供的區段包括：
 

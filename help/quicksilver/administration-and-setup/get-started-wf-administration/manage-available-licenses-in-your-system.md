@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: start-with-workfront-administration
 title: 管理系統中的可用授權
 description: 身為Adobe Workfront管理員，您可以存取有關Workfront帳戶的資訊，包括已為您的組織購買的授權數量，以及目前使用的授權數量。
-author: Lisa, Becky
+author: Lisa, Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: 15ea03bf586054f7ef421f8cacede6f42835a6e4
+source-git-commit: 01a80f6140650ca12aaee14115f79449dcfa2a18
 workflow-type: tm+mt
-source-wordcount: '1178'
+source-wordcount: '1180'
 ht-degree: 0%
 
 ---
@@ -49,15 +49,15 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->下列陳述式僅適用於新計畫。
+>下列陳述式適用於Select、Prime和Ultimate套件。
 >
->對於Select計畫：
+>對於Select封裝：
 >
 >1. 系統管理員無法設定主群組的限制。
 >2. 系統管理員只能看到所有主群組使用的授權總數。
 >3. 群組管理員完全無法存取授權頁面。
 >
->對於Prime和Ultimate計畫：
+>對於Prime和Ultimate套件：
 >
 >1. 系統管理員可以將[主群組]新增到[授權]頁面，以檢視這些群組中的授權使用情況，也可以設定授許可權制。
 >2. 群組管理員可以存取「授權」頁面，並檢視系統管理員已新增至「授權」頁面之他們管理的群組中的授權使用情況。
@@ -133,8 +133,6 @@ If an organization has other paid add-on products, their license information als
 ![每月決策分配](assets/monthly-decision-allotment.png)
 
 ## 在[授權]頁面新增或移除主群組 {#add-or-remove-a-home-group-to-the-licenses-page}
-
-<!--A Business or Enterprise Workfront Plan is required to use this feature. For more information about the various plans available, see [Workfront Plans.](https://www.workfront.com/plans)-->
 
 每個使用者只能指派給一個主群組。 Workfront會計算每個主群組中已分配且目前使用的授權數量，以提供群組導向的授權計數。
 
