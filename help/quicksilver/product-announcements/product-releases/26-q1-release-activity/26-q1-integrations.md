@@ -4,9 +4,9 @@ description: 2026年第一季度整合增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 7fb12a3fbdad661baf2d0ad472ce8017e178ddef
+source-git-commit: 81e95c6ebab98ad67d0364d0f3b7a63ce4568498
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
@@ -20,10 +20,14 @@ ht-degree: 0%
 
 ## 新版Salesforce整合現已推出
 
+>[!IMPORTANT]
+>
+>為了提供更穩定且更可擴充的整合，我們改用現代、彈性的整合方法，即使用Workfront自動化與整合(Fusion)。 在此轉換過程中，適用於Salesforce整合的Workfront （包括新版本）將於&#x200B;**2026年2月28日**&#x200B;後無法使用。
+
 >[!NOTE]
 >
 >預覽： 2025年10月30日
->&#x200B;>生產快速發行： 2025年10月30日\
+>生產快速發行： 2025年10月30日\
 >適用於所有人的生產： 2025年10月30日
 
 為了掌握Workfront API的最新變更，我們已建立新的Salesforce整合。 新的整合與舊版具有相同的功能，並更新以避免失去API中已棄用的功能。
