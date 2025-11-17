@@ -6,9 +6,9 @@ description: 在投資組合中導覽
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
-source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
+source-git-commit: 6948f9462c59bad9e6db67d6169e5f9dec4157fe
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '583'
 ht-degree: 0%
 
 ---
@@ -40,16 +40,16 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>[!UICONTROL 標準] </p>
-   <p>[!UICONTROL 計畫] </p> </td> 
+   <td> <p>[！UICONTROL標準] </p>
+   <p>[！UICONTROL計畫] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[!UICONTROL Edit]對[!UICONTROL Projects]和[!UICONTROL Portfolios]的存取權</p>  </td> 
+   <td> <p>[！UICONTROL Edit]對[！UICONTROL Projects]和[！UICONTROL Portfolios]的存取權</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>投資組合的[!UICONTROL Manage]許可權</p> <p>檢視專案或更高許可權</p>  </td> 
+   <td> <p>投資組合的[！UICONTROL Manage]許可權</p> <p>檢視專案或更高許可權</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -88,9 +88,8 @@ ht-degree: 0%
 
 ## 在投資組合中導覽
 
-1. 按一下&#x200B;**[!UICONTROL 右上角的]**&#x200B;主功能表![圖示](assets/main-menu-icon.png)主功能表[!DNL Adobe Workfront]。
+{{step1-to-portfolios}}
 
-1. 按一下[!UICONTROL 投資組合]。
 1. 從&#x200B;**[!UICONTROL 篩選器]**&#x200B;下拉式功能表中，選取下列專案：
 
    * **[!UICONTROL 我擁有的投資組合]**：包含您指定為[!UICONTROL Portfolio經理]的投資組合清單。
