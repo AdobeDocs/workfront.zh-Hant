@@ -16,7 +16,7 @@ recommendations: noDisplay, noCatalog
 
 This article contains a list of the most commonly asked questions about Adobe Workfront Planning. 
 
-For more information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md). 
+For more information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md). 
 
 ## What is Workfront Planning? 
 
@@ -64,7 +64,7 @@ As of June 2024, workspaces cannot connect to each other. This functionality, ho
 
 ## Are there any soft or hard limits on the number of workspaces allowed in one organization? 
 
-You can have up to 1,000 workspaces in your organization's Workfront instance. For more information about limits, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).
+You can have up to 1,000 workspaces in your organization's Workfront instance. For more information about limits, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 ## Can current objects in the Workfront system be available in Planning, or does this have to be manually built? 
 
@@ -121,7 +121,7 @@ Not during the early access stage.
 
 ## Do you have an ERD documented and available to share for the Planning model and record types? 
 
-We don't have an ERD at this point, but we do have in-depth documentation that guides you through all the details related to Workfront Planning. For information, see [Adobe Workfront Planning: article index](/help/quicksilver/planning/planning-information.md). 
+We don't have an ERD at this point, but we do have in-depth documentation that guides you through all the details related to Workfront Planning. For information, see [General information about Adobe Workfront Planning](/help/quicksilver/planning/planning-information.md). 
 
 ## How is the pricing for Workfront Planning structured: is it a one-time annual fee? Or do we get charged per user? 
 
