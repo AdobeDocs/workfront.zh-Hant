@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: d6a54f22cfae73403278868b9c22727d1cb58e39
+source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
 workflow-type: tm+mt
-source-wordcount: '6897'
+source-wordcount: '6899'
 ht-degree: 5%
 
 ---
@@ -25,14 +25,14 @@ ht-degree: 5%
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以查看此文章中功能的存取需求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
+   <td>Adobe Workfront 套件</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -58,7 +58,7 @@ ht-degree: 5%
 1. 在左側面板中，按一下&#x200B;**自訂Forms**，然後選取&#x200B;**Forms**。
 
 1. 按一下&#x200B;**新增自訂表格。**
-1. 選取您要附加自訂表單的物件型別，然後按一下[繼續]。**&#x200B;**
+1. 選取您要附加自訂表單的物件型別，然後按一下[繼續]。****
 
    ![選擇物件型別](assets/new-custom-form-select-objects.png)
 
@@ -106,7 +106,7 @@ ht-degree: 5%
    >
    >複雜表單的範例包括含有階層式引數的表單、計算的自訂資料欄位，以及單一欄位中的多個值選項。
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -159,7 +159,7 @@ ht-degree: 5%
 
   清單和報告上的篩選器不支援此自訂欄位型別。
 
-  如需有關透過API存取此欄位的資訊，請參閱[&#x200B; API中的RTF文字欄位儲存體](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md)。
+  如需有關透過API存取此欄位的資訊，請參閱[ API中的RTF文字欄位儲存體](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md)。
 
   >[!NOTE]
   >
@@ -210,7 +210,7 @@ ht-degree: 5%
     </ul></td>
     </tr>
     <tr>
-     <td>姓名</td>
+     <td>名稱</td>
     <td><p>（必要）此名稱是系統識別欄位的方式。 當您第一次設定Widget且輸入標籤時，「名稱」欄位會自動填入以和相符。 「標籤」和「名稱」欄位未同步。 這可讓您選擇變更使用者看到的標籤，而不必變更系統看到的名稱。</p>
     <p>如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p>
     </td>
@@ -286,7 +286,7 @@ ht-degree: 5%
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -346,7 +346,7 @@ ht-degree: 5%
     </ul></td>
      </tr> 
      <tr> 
-    <td role="rowheader">姓名</td> 
+    <td role="rowheader">名稱</td> 
      <td> <p>（必要）此名稱是系統識別欄位的方式。 當您第一次設定Widget且輸入標籤時，「名稱」欄位會自動填入以和相符。 「標籤」和「名稱」欄位未同步。 這可讓您選擇變更使用者看到的標籤，而不必變更系統看到的名稱。</p> 
     <p>如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p> </td>
      <td><ul>
@@ -447,7 +447,7 @@ ht-degree: 5%
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -500,7 +500,7 @@ ht-degree: 5%
     </ul></td>
      </tr> 
      <tr> 
-      <td role="rowheader">姓名</td> 
+      <td role="rowheader">名稱</td> 
       <td> <p>（必要）此名稱是系統識別欄位的方式。 當您第一次設定Widget且輸入標籤時，「名稱」欄位會自動填入以和相符。 「標籤」和「名稱」欄位未同步。 這可讓您選擇變更使用者看到的標籤，而不必變更系統看到的名稱。</p> 
       <p>如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p> </td>
     <td><ul>
@@ -583,7 +583,7 @@ ht-degree: 5%
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -614,7 +614,7 @@ ht-degree: 5%
       <td> <p>（必要）輸入描述性標籤，以在自訂欄位上方顯示。 您可以隨時變更標籤。</p> <p><b>重要</b>：請避免在此標籤中使用特殊字元，因為這些字元在報表中無法正確顯示。 如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">姓名</td> 
+      <td role="rowheader">名稱</td> 
       <td> <p>（必要）此名稱是系統識別欄位的方式。 當您第一次設定Widget且輸入標籤時，「名稱」欄位會自動填入以和相符。 但是「標籤」和「名稱」欄位不同步，因此您可以選擇變更使用者看到的標籤，而不必變更系統看到的名稱。</p>
       <p>如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p> </td>
      </tr> 
@@ -651,12 +651,12 @@ ht-degree: 5%
       <td role="rowheader">JSON 路徑</td>
       <td><p>輸入或貼上API的JSON路徑。</p> <p>此選項允許從API URL傳回的JSON擷取資料。 這可當作選取要讓JSON內的哪些值會出現在下拉式選項中的方式。</p><p>例如，如果您的API URL以下列格式傳回JSON，則您可以使用「$.data[*].name」選取美國和加拿大作為下拉式選項：</br>
       <pre>
-      &lbrace;
-       資料： &lbrace;
+      {
+       資料： {
          { name： "USA"}，
          { name： "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>如需有關JSON路徑並確保您撰寫正確JSON路徑的詳細資訊，請參閱<a href="https://jsonpath.com/">https://jsonpath.com/</a>。</p></td>
@@ -680,7 +680,7 @@ ht-degree: 5%
     </tbody>
    </table>
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -743,7 +743,7 @@ The Workfront Mobile app -->
       <td> <p>（必要）輸入要顯示在Widget上方的描述性標籤。 您可以隨時變更標籤。</p> <p><b>重要</b>：請避免在此標籤中使用特殊字元，因為這些字元在報表中無法正確顯示。 如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">姓名</td> 
+      <td role="rowheader">名稱</td> 
       <td> <p>（必要）此名稱是系統識別Widget的方式。 當您第一次設定Widget且輸入標籤時，「名稱」欄位會自動填入以和相符。 「標籤」和「名稱」欄位未同步。 這可讓您選擇變更使用者看到的標籤，而不必變更系統看到的名稱。</p> <p>如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p> </td> 
      </tr> 
      <tr> 
@@ -781,7 +781,7 @@ The Workfront Mobile app -->
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -797,7 +797,7 @@ The Workfront Mobile app -->
 1. 開啟校訂。
 1. 以滑鼠右鍵按一下視訊上的任何位置，然後選取&#x200B;**複製視訊位址**。
 1. 在您新增視訊Widget的自訂表單中，將複製的地址貼到&#x200B;**URL**&#x200B;方塊中。
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -829,7 +829,7 @@ The Workfront Mobile app -->
 | 群組 | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
 | 上次更新者 | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
 | 上次更新日期 | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
-| 姓名 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 名稱 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | 所有者 | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
 | 規劃完成日期 | ✓ | ✓ | ✓ |   |   |   |   |   |
 | 計畫持續時間 | ✓ |   |   | ✓ |   |   |   |   |
@@ -870,7 +870,7 @@ The Workfront Mobile app -->
       <td> <p>（必要）輸入描述性標籤以顯示於欄位上方。 您可以隨時變更標籤。</p> <p><b>重要</b>：請避免在此標籤中使用特殊字元，因為這些字元在報表中無法正確顯示。 如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">姓名</td>
+      <td role="rowheader">名稱</td>
       <td> <p>（必要）此名稱是系統識別欄位的方式。 當您第一次設定欄位並輸入標籤時，「名稱」欄位會自動填入以和欄位相符。 「標籤」和「名稱」欄位未同步。 這可讓您選擇變更使用者看到的標籤，而不必變更系統看到的名稱。</p>
       <p>如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p></td> 
      </tr> 
@@ -910,7 +910,7 @@ The Workfront Mobile app -->
     </tbody> 
    </table>
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -941,7 +941,7 @@ The Workfront Mobile app -->
       <td> <p>（必要）輸入要顯示在Widget上方的描述性標籤。 您可以隨時變更標籤。</p> <p><b>重要</b>：請避免在此標籤中使用特殊字元，因為這些字元在報表中無法正確顯示。 如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">姓名</td> 
+      <td role="rowheader">名稱</td> 
       <td> <p>（必要）此名稱是系統識別Widget的方式。 當您第一次設定Widget且輸入標籤時，「名稱」欄位會自動填入以和相符。 「標籤」和「名稱」欄位未同步。 這可讓您選擇變更使用者看到的標籤，而不必變更系統看到的名稱。</p>
     <p>如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p></td> 
      </tr> 
@@ -971,7 +971,7 @@ The Workfront Mobile app -->
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -987,7 +987,7 @@ The Workfront Mobile app -->
 >
 >如需存取Workfront Planning的完整需求清單，請參閱[Adobe Workfront Planning存取總覽](/help/quicksilver/planning/access/access-overview.md)。
 > 
->如需Workfront Planning的詳細資訊，請參閱[Adobe Workfront Planning概觀](/help/quicksilver/planning/general/planning-overview.md)。
+>如需Workfront Planning的詳細資訊，請參閱[開始使用Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)。
 
 您可以將Workfront連線自訂欄位新增至物件的自訂表單，在Workfront物件的自訂欄位中檢視從Planning連線的記錄。
 
@@ -1016,7 +1016,7 @@ The Workfront Mobile app -->
       <p>建議您選擇一個有助於您輕鬆識別Planning記錄來源的標籤。 新增工作區名稱或記錄型別名稱之類的資訊。 </p>   </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">姓名</td>
+      <td role="rowheader">名稱</td>
       <td> <p>（必要）名稱是系統識別欄位的方式。 當您第一次設定欄位並輸入標籤時，「名稱」欄位會自動填入以和欄位相符。 「標籤」和「名稱」欄位未同步。 這可讓您選擇變更使用者看到的標籤，而不必變更系統看到的名稱。</p></td> 
      </tr> 
      <tr> 
@@ -1067,7 +1067,7 @@ The Workfront Mobile app -->
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 

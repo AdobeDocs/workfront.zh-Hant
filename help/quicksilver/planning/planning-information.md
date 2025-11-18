@@ -1,19 +1,22 @@
 ---
-title: Adobe Workfront規劃資訊：文章索引
+title: Adobe Workfront Planning的一般資訊
 description: 身為行銷營運領導者，您可以使用Adobe Workfront Planning來組織所有團隊在行銷生命週期中的工作。 本節中的文章說明如何設定規劃功能，以及如何開始將它們用於行銷活動管理操作。
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
 recommendations: noDisplay, noCatalog
-source-git-commit: d7af8c5888147e847b4e239b629373b4b72541f7
+source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
 
-# Adobe Workfront規劃：文章索引
+# Adobe Workfront Planning的一般資訊
+
+<!--DO NOT CHANGE LINK OR CONTENT:  this is linked to an Experience League article that is hard coded by Adobe: https://experienceleague.adobe.com/en/docs/workfront-->
+<!--this articles used to be called "Adobe Workfront Planning: article index"-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
@@ -26,20 +29,7 @@ ht-degree: 0%
 
 以下各節中的文章說明如何設定Workfront Planning並開始使用。
 
-<!--consider removing the IMPORTANT below after GA-->
-
->[!IMPORTANT]
->
->在功能發行至生產環境後的某個時間，將可使用以下各節中參考的檔案。
-
-## Adobe Workfront Planning的一般資訊
-
-存取下列文章以取得新Workfront Planning的一般資訊：
-
-* [Adobe Workfront計畫總覽](/help/quicksilver/planning/general/planning-overview.md)： Adobe Workfront計畫的高層級總覽，包括此解決方案特有的術語和概念。 建議您在這裡透過Workfront規劃開始您的歷程。
-* [Adobe Workfront Planning物件限制總覽](/help/quicksilver/planning/general/limitations-overview.md)：您可以在Workfront Planning中建立的物件數目限制清單。
-* [Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)：從2024年第四季發行開始，Workfront Planning的所有發行說明清單。
-* [Adobe Workfront Planning最佳作法](/help/quicksilver/planning/general/planning-best-practices.md)：使用Workfront Planning的常見問題和最佳作法集合。
+如需一般資訊及瞭解Adobe Workfront Planning的術語，請參閱[開始使用Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
 
 ## Workfront規劃架構和功能
 
@@ -57,6 +47,7 @@ ht-degree: 0%
 
    * 建立、編輯、刪除工作區
    * 建立、編輯、刪除記錄型別
+   * 建立全域記錄型別
    * 連線記錄型別和連線記錄型別的範例
    * Workspace範本
 
@@ -96,7 +87,7 @@ ht-degree: 0%
 
 * [Adobe Workfront Planning API基本知識](/help/quicksilver/planning/general/planning-api-basics.md)： Adobe Workfront Planning API的目標是透過引入透過HTTP運作的REST-ful架構，簡化與Planning的整合建置。
 
-* [適用於Workfront Fusion的Adobe Workfront規劃模組](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)：透過Adobe Workfront規劃模組，您可以在Workfront規劃中發生事件時觸發情境。 您也可以建立、讀取、更新及刪除記錄，或對Adobe Workfront Planning帳戶執行自訂API呼叫。
+* [適用於Workfront Fusion的Adobe Workfront規劃模組](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)：透過Adobe Workfront規劃模組，您可以在Workfront規劃中發生事件時觸發情境。 您也可以建立、讀取、更新及刪除記錄，或對Adobe Workfront Planning帳戶執行自訂API呼叫。
 
 * [Adobe Workfront Planning AI Assistant總覽](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)：使用Workfront AI Assistant for Planning，您可以使用命令來搜尋記錄，或建立、更新和刪除記錄，並讓助理為您工作。
 

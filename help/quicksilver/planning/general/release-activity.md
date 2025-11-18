@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 718ed3efd56c532693d26cc067041bedbc71cca0
+source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
 workflow-type: tm+mt
-source-wordcount: '7386'
+source-wordcount: '7392'
 ht-degree: 0%
 
 ---
@@ -615,7 +615,7 @@ AI助理目前處於測試階段，可供特定客戶使用。 請聯絡您的�
 
 * Workfront Planning快速入門教學課程
 
-如需詳細資訊，請參閱[Adobe Workfront規劃總覽](/help/quicksilver/planning/general/planning-overview.md)。
+如需詳細資訊，請參閱[開始使用Adobe Workfront計畫](/help/quicksilver/planning/general/planning-overview.md)。
 
 ### Workfront Planning的新上線體驗
 
@@ -663,7 +663,7 @@ UNIQUE運運算元適用於下列欄位型別以外的所有欄位型別：
 
 預覽：待定
 
-我們已更新主要功能表中Planning區域圖示的外觀。 如需詳細資訊，請參閱[Adobe Workfront規劃總覽](/help/quicksilver/planning/general/planning-overview.md)。
+我們已更新主要功能表中Planning區域圖示的外觀。 如需詳細資訊，請參閱[開始使用Adobe Workfront計畫](/help/quicksilver/planning/general/planning-overview.md)。
 
 ### 重新命名Workfront規劃程式
 
@@ -918,7 +918,7 @@ UNIQUE運運算元適用於下列欄位型別以外的所有欄位型別：
 
 我們已將主要功能表中的Maestro區域重新命名為Planning。
 
-如需Adobe Workfront Planning的概觀，請參閱[Adobe Workfront Planning概觀](/help/quicksilver/planning/general/planning-overview.md)。
+如需Adobe Workfront Planning的概觀，請參閱[開始使用Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)。
 
 ### 刪除記錄型別時的新體驗
 
@@ -1058,7 +1058,7 @@ UNIQUE運運算元適用於下列欄位型別以外的所有欄位型別：
 您可以將列高度更新為下列其中一種大小：
 
 * 短
-* 中
+* 媒體
 * 高。
 
 如需詳細資訊，請參閱[管理資料表檢視](/help/quicksilver/planning/views/manage-the-table-view.md)。

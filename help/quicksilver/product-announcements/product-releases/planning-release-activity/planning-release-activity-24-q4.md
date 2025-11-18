@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: d27f937b-e179-4f67-aebd-ed351440cb0f
-source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
+source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '382'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 我們重新設計了連線記錄型別時的記錄外觀區域。 現在，當決定連線記錄在連線欄位中的顯示方式時，您可以從下列選項中選擇：
 
-* 姓名
+* 名稱
 * 名稱和影像
 * 影像
 
@@ -46,7 +46,7 @@ ht-degree: 1%
 >
 >預覽版本： 2024年9月3日；快速發行生產：24.9版（2024年9月12日）；每季生產：24.10版（2024年10月）
 
-您現在可以將記錄的詳細資訊頁面或預覽匯出到PDF檔案。
+您現在可以將記錄的詳細資訊頁面或預覽匯出至PDF檔案。
 
 在此增強功能之前，您只能將記錄的詳細資訊標籤匯出到Word (.docx)檔案。
 
@@ -68,4 +68,4 @@ Adobe Workfront規劃是Adobe Workfront的新產品。 Workfront Planning的目�
 
 * 從其他系統連線到物件型別，為所有處理程式建立一致的架構。
 
-如需Workfront Planning的詳細資訊，請參閱[Adobe Workfront Planning概觀](/help/quicksilver/planning/general/planning-overview.md)。
+如需Workfront Planning的詳細資訊，請參閱[開始使用Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)。

@@ -6,10 +6,10 @@ description: 您可以在Adobe Workfront物件（專案、任務或問題）上�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
 workflow-type: tm+mt
-source-wordcount: '3201'
-ht-degree: 0%
+source-wordcount: '3203'
+ht-degree: 1%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以查看此文章中功能的存取需求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -77,7 +77,7 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront套件</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront 套件</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -273,7 +273,7 @@ You can add updates to the following objects:
 
 1. 找到您要新增註解的物件，然後按一下其名稱以開啟物件的頁面。
 1. 按一下左側面板中的&#x200B;**更新**。
-預設會選取&#x200B;**註解**&#x200B;標籤。
+預設會選取**註解**&#x200B;標籤。
 
 1. <span class="preview">開始在&#x200B;**新註解**&#x200B;方塊中輸入註解。</span>
 
@@ -350,7 +350,7 @@ You can add updates to the following objects:
 
    >[!TIP]
    >
-   >您無法在[全部]索引標籤的現有註解中回覆註解或標籤其他使用者。 若要在[全部]索引標籤中回複評論，請按一下[在評論中回覆]&#x200B;**&#x200B;**，在[評論]索引標籤中開啟評論。
+   >您無法在[全部]索引標籤的現有註解中回覆註解或標籤其他使用者。 若要在[全部]索引標籤中回複評論，請按一下[在評論中回覆]****，在[評論]索引標籤中開啟評論。
 
 ## 在Workfront註解中使用RTF文字{#use-rich-text-in-a-workfront-comment}
 
@@ -421,7 +421,7 @@ You can add updates to the following objects:
    >
    >* 目標
    >* 展示板上的臨時卡片
-   >* Workfront Planning中的記錄。 如需詳細資訊，請參閱[Adobe Workfront規劃總覽](/help/quicksilver/planning/general/planning-overview.md)
+   >* Workfront Planning中的記錄。 如需詳細資訊，請參閱[開始使用Adobe Workfront計畫](/help/quicksilver/planning/general/planning-overview.md)
    >
 
    若要將影像附加到更新中，請執行下列任一項作業：
