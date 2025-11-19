@@ -7,10 +7,10 @@ description: 成本績效指數(CPI)說明專案或作業層次的計畫成本�
 author: Lisa
 feature: Work Management
 exl-id: 7f2efe26-7292-482d-986c-2d2077a7ca52
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: f88b6ec019963ff6256e35b9c94eb4d1b7e99730
 workflow-type: tm+mt
 source-wordcount: '583'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -22,20 +22,20 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Linked to the product. Do not change link.)</p>
 -->
 
-成本績效指數(CPI)說明專案或作業層次的計畫成本與實際成本之間的關係。 專案經理會檢閱此量度，以識別目前於指定時間點追蹤成本過低或過高的任務或專案。 視您的績效指數方法(PIM)而定，成本可以用小時或美元來衡量。 如需有關設定績效指數方法的詳細資訊，請參閱[設定績效指數方法(PIM)](../../../manage-work/projects/project-finances/set-pim.md)。
+成本績效指數(CPI)說明專案或作業層次的計畫成本與實際成本之間的關係。 專案經理會檢閱此量度，以識別目前於指定時間點追蹤成本過低或過高的任務或專案。 視您的績效指數方法(PIM)而定，成本可以用小時或貨幣來衡量。 如需有關設定績效指數方法的詳細資訊，請參閱[設定績效指數方法(PIM)](../../../manage-work/projects/project-finances/set-pim.md)。
 
 只有需要輸入時間的組織才能使用CPI。 此外，以成本為基礎的PIM值只有在已定義作業受指派人（職務角色或使用者）的成本比率的組織中才正確。
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以查看此文章中功能的存取需求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
+   <td>Adobe Workfront 套件</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
