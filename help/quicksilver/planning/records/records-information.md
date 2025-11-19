@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
 recommendations: noDisplay, noCatalog
-source-git-commit: 48bfeb3b950ca1149a919aa204d77db6aa501e01
+source-git-commit: 15ffe027c281782bcaa4df229badc134d91195a0
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '175'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 1%
 * [編輯記錄](/help/quicksilver/planning/records/edit-records.md)
 * [刪除記錄](/help/quicksilver/planning/records/delete-records.md)
 * [還原已刪除的記錄](/help/quicksilver/planning/records/restore-deleted-records.md)
-* [共用記錄](/help/quicksilver/planning/records/share-records.md)
+* [使用連結共用記錄](/help/quicksilver/planning/records/share-records.md)
 * [連線記錄概觀](/help/quicksilver/planning/records/connected-records-overview.md)
 * [連接記錄](/help/quicksilver/planning/records/connect-records.md)
 * [複製記錄](/help/quicksilver/planning/records/copy-or-duplicate-records.md)
