@@ -4,9 +4,9 @@ description: 客戶和合作夥伴可以利用由 Adobe App Builder 提供技術
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 1c2422f61e3db6fbe05cd03b9fbc1f17e906ebad
 workflow-type: tm+mt
-source-wordcount: '2178'
+source-wordcount: '2285'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Workfront UI擴充功能提供幾個主要優點：
 
 1. 新增使用者的電子郵件。 它應搜尋已從Admin Console中新增的現有使用者。
 
-1. 將必要的產品新增至開發人員設定檔，然後按一下[儲存]。**&#x200B;**\
+1. 將必要的產品新增至開發人員設定檔，然後按一下[儲存]。****\
    ![新增開發人員](assets/add-developer.png)
 
 ### 存取App Builder
@@ -83,7 +83,7 @@ Workfront UI擴充功能提供幾個主要優點：
 
 1. 選擇您的帳戶，以及您的設定檔或組織。
 
-1. 按一下[快速入門]區域中的[從範本建立專案]&#x200B;**&#x200B;**，或按一下[從範本建立新專案]&#x200B;**>[從範本建立專案]**。
+1. 按一下[快速入門]區域中的[從範本建立專案]****，或按一下[從範本建立新專案]**>[從範本建立專案]**。
 
    >[!IMPORTANT]
    >
@@ -160,13 +160,13 @@ GitHub和Adobe Developer網站上提供其他指示：
 在ExtensionRegistration函式中，您應該會看到下列程式碼。 範本已為您建立此程式碼。 可以新增此程式碼以建立其他功能表專案。 請務必取代ID和URL。
 
     &quot;
-    mainMenu： &lbrace;
+    mainMenu： {
     
-    getItems() &lbrace;
+    getItems() {
     
-    return &lbrack;
+    return [
     
-    &lbrace;
+    {
     
     id： &#39;main-menu-label&#39;，
     
@@ -176,13 +176,13 @@ GitHub和Adobe Developer網站上提供其他指示：
     
     icon： icon1，
     
-    &rbrace;，
+    }，
     
-    &rbrack;；
+    ]；
     
-    &rbrace;，
+    }，
     
-    &rbrace;
+    }
     &quot;&#39;
 
 1. 新增下列程式碼片段：
@@ -438,6 +438,19 @@ Workfront的UI擴充功能會共用使用者資料。 可透過共用內容使�
 如果設定正確完成，當您在Workfront中重新載入版面配置範本頁面時，您將會看到App Builder應用程式的按鈕。 將應用程式按鈕新增至物件的主要功能表和左側面板，並確認它們是否正確顯示在這些區域中。
 
 Adobe Developer網站上提供其他指示，使用AEM的範例： https://developer.adobe.com/uix/docs/guides/preview-extension-locally/
+
+### 停用標幟以允許在Chrome 142版和更新版本上進行本機測試
+
+Chrome 142版引入本機網路存取限制。 這些限制可能會干擾本機測試環境。
+
+若要解決此問題，您必須關閉Chrome設定中的對應旗標，以停用[本機網路存取檢查]： `chrome://flags/#local-network-access-check`。
+
+若要停用標幟
+
+1. 開啟Chrome並在位址列中輸入`chrome://flags`，然後按&#x200B;**Enter**。
+1. 在頂端的搜尋列中，輸入&#x200B;**本機網路存取檢查**。
+1. 按一下&#x200B;**本機網路存取檢查**&#x200B;旗標旁的下拉式功能表，然後選取[停用]。
+1. 按一下熒幕底部出現的&#x200B;**重新啟動**&#x200B;按鈕以套用變更。
 
 ## 發佈應用程式並核准提交
 
