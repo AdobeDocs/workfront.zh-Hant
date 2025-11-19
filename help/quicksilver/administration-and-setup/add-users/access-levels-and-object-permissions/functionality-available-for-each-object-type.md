@@ -2,7 +2,7 @@
 user-type: administrator
 content-type: reference
 product-area: system-administration
-keywords: 存取，模型，漏斗，圖表，層級，許可權
+keywords: 存取，模型，funnel，圖表，層級，許可權
 navigation-topic: access-levels
 title: 各種存取層級中每種物件型別的可用功能
 description: 下表列出各種存取層級中每種物件型別的可用功能。
@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+source-git-commit: e894c1e2134d025420205c6575329a2a9079fadf
 workflow-type: tm+mt
 source-wordcount: '1563'
 ht-degree: 13%
@@ -27,13 +27,13 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->本文會說明在目前Workfront計畫模型中可用於存取層級的功能。 若要檢視新計畫模型中可用的功能，請參閱[新存取層級中每個物件型別可用的功能](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)。
+>本文說明在目前的Workfront套件模型中可用於存取層級的功能。 若要檢視新封裝模型中可用的功能，請參閱[新存取層級中每個物件型別可用的功能](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)。
 
 ## 專案
 
 只有擁有計畫授權的使用者才能被授予專案的完整存取權。
 
-| 動作 | 規劃者 | 工作者 | 檢閱者 | 請求者 | 外部使用者 |
+| 動作 | 規劃者 | 工作者 | 審閱者 | 請求者 | 外部使用者 |
 |---|---|---|---|---|---|
 | 建立 | ✓&#42; |  |  |  |  |
 | 複製 | ✓&#42; |  |  |  |  |
@@ -71,7 +71,7 @@ ht-degree: 13%
 
 ## 任務
 
-| 動作 | 規劃者 | 工作者 | 檢閱者 | 請求者 | 外部使用者 |
+| 動作 | 規劃者 | 工作者 | 審閱者 | 請求者 | 外部使用者 |
 |---|---|---|---|---|---|
 | 建立 | ✓&#42; | ✓&#42; |  |  |  |
 | 刪除 | ✓&#42; | ✓&#42; |  |  |  |
@@ -103,7 +103,7 @@ ht-degree: 13%
 
 ## 問題
 
-| 動作 | 規劃者 | 工作者 | 檢閱者 | 請求者 | 外部使用者 |
+| 動作 | 規劃者 | 工作者 | 審閱者 | 請求者 | 外部使用者 |
 |---|---|---|---|---|---|
 | 建立 | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
 | 編輯 | ✓ | ✓ | ✓ | ✓ |  |
@@ -133,7 +133,7 @@ ht-degree: 13%
 
 只有擁有計畫授權的使用者才能完整存取產品組合。
 
-| 動作 | 規劃者 | 工作者 | 檢閱者 | 請求者 | 外部使用者 |
+| 動作 | 規劃者 | 工作者 | 審閱者 | 請求者 | 外部使用者 |
 |---|---|---|---|---|---|
 | 建立 | ✓&#42; |  |  |  |  |
 | 刪除 | ✓&#42; |  |  |  |  |
@@ -157,7 +157,7 @@ ht-degree: 13%
 
 只有擁有計畫授權的使用者才能完整存取計畫。
 
-| 動作 | 規劃者 | 工作者 | 檢閱者 | 請求者 | 外部使用者 |
+| 動作 | 規劃者 | 工作者 | 審閱者 | 請求者 | 外部使用者 |
 |---|---|---|---|---|---|
 | 建立 | ✓&#42; |  |  |  |  |
 | 刪除 | ✓&#42; |  |  |  |  |
@@ -181,7 +181,7 @@ ht-degree: 13%
 
 擁有Plan授權的使用者可以完全存取報告。 所有其他存取層級都擁有報表的檢視存取權。
 
-| 動作 | 規劃者 | 工作者 | 檢閱者 | 請求 | 外部使用者 |
+| 動作 | 規劃者 | 工作者 | 審閱者 | 請求 | 外部使用者 |
 |---|---|---|---|---|---|
 | 建立 | ✓&#42; |  |  |  |  |
 | 刪除 | ✓&#42; |  |  |  |  |
@@ -221,7 +221,7 @@ ht-degree: 13%
    <th> <p>動作</p> </th> 
    <th> <p>規劃者</p> </th> 
    <th> <p>工作者</p> </th> 
-   <th> <p>檢閱者</p> </th> 
+   <th> <p>審閱者</p> </th> 
    <th> <p>請求者</p> </th> 
    <th>外部使用者<br></th> 
   </tr> 
@@ -282,7 +282,7 @@ ht-degree: 13%
 
 ## 文件
 
-| 動作 | 規劃者 | 工作者 | 檢閱者 | 請求者 | 外部使用者 |
+| 動作 | 規劃者 | 工作者 | 審閱者 | 請求者 | 外部使用者 |
 |---|---|---|---|---|---|
 | 建立 | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
 | 刪除（檔案和資料夾） | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
@@ -337,7 +337,7 @@ ht-degree: 13%
    <th> <p>動作</p> </th> 
    <th> <p>規劃者</p> </th> 
    <th>工作者</th> 
-   <th> <p>檢閱者</p> </th> 
+   <th> <p>審閱者</p> </th> 
    <th> <p>請求者</p> </th> 
    <th> <p>外部使用者**</p> </th> 
   </tr> 
@@ -412,7 +412,7 @@ ht-degree: 13%
    <th> <p>動作</p> </th> 
    <th> <p>規劃者</p> </th> 
    <th>工作者</th> 
-   <th> <p>檢閱者</p> </th> 
+   <th> <p>審閱者</p> </th> 
    <th> <p>請求者</p> </th> 
    <th> <p>外部使用者*</p> </th> 
   </tr> 
@@ -473,7 +473,7 @@ ht-degree: 13%
 
 ## 範本
 
-| 動作 | 規劃者 | 工作者 | 檢閱者 | 請求者 | 外部使用者 |
+| 動作 | 規劃者 | 工作者 | 審閱者 | 請求者 | 外部使用者 |
 |---|---|---|---|---|---|
 | 建立 | ✓&#42; |  |  |  |  |
 | 刪除 | ✓&#42; |  |  |  |  |
@@ -493,7 +493,7 @@ ht-degree: 13%
 
 此處不包含請求和外部使用者授權型別，因為它們無權存取這些物件和區域。
 
-| 動作 | 規劃者 | 工作者 | 檢閱者 |
+| 動作 | 規劃者 | 工作者 | 審閱者 |
 |---|---|---|---|
 | 編輯角色帳單和成本費率 | ✓&#42; |  |  |
 | 編輯使用者帳單和成本費率 | ✓&#42; |  |  |
@@ -519,7 +519,7 @@ ht-degree: 13%
 
 只有擁有計畫授權的使用者才能擁有[選取物件或區域]的完整存取權。 其他授權型別對Workfront中的資源管理可能有限制或沒有存取權。
 
-| 動作 | 規劃者 | 工作者 | 檢閱者 | 請求者 | 外部使用者 |
+| 動作 | 規劃者 | 工作者 | 審閱者 | 請求者 | 外部使用者 |
 |---|---|---|---|---|---|
 | 在規劃工具中編輯優先順序和預算 | ✓&#42; |  |  |  |  |
 | 建立、編輯、刪除資源集區&#42;&#42; | ✓&#42; |  |  |  |  |
@@ -536,11 +536,11 @@ ht-degree: 13%
 
 &#42;&#42;需要其他財務資料存取權以及專案財務的許可權。 如果您將「資源管理」存取權授與沒有「財務資料」存取權的「供需規劃員」使用者，該使用者仍可在「資源供需規劃員」中看到每小時配置，但無法切換至「成本」檢視或檢視「業務案例」。 如需詳細資訊，請參閱[授予財務資料的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)以及[共用物件的財務許可權](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md)。
 
-&#42;&#42;&#42;需要許可權才能貢獻至物件，且在[進階設定]下啟用[指派工作]。 如需相關資訊，請參閱文章[物件許可權共用概觀](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)中的[瞭解繼承許可權和物件階層](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object)一節。
+&#42;&#42;&#42;需要許可權才能貢獻至物件，且在[進階設定]下啟用[指派工作]。 如需相關資訊，請參閱文章[物件許可權共用概觀](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object)中的[瞭解繼承許可權和物件階層](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)一節。
 
 ## 情境規劃工具區域
 
-| 動作 | 規劃者 | 工作者 | 檢閱者 | 請求者 | 外部使用者 |
+| 動作 | 規劃者 | 工作者 | 審閱者 | 請求者 | 外部使用者 |
 |---|---|---|---|---|---|
 | 建立/編輯現有計畫和方案 | ✓ | ✓ | ✓ |  |  |
 | 新增或編輯計畫和方案的工作角色資訊&#42; | ✓ | ✓ | ✓ |  |  |
