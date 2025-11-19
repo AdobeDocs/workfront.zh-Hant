@@ -4,9 +4,9 @@ description: 2026年第一季度管理員增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f6b46a3c9d3ad792fd55309a5aaf5e23a83e233d
+source-git-commit: eead7c3c22dff242cd2a875381f5a2ac901cc2bd
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,9 @@ ht-degree: 0%
 
 輸入日期和由ID輸入的內容現在儲存在自訂表格、欄位和區段中。 您可以在報表中將這些資料選項作為篩選器、檢視或分組使用。 若要在「設定」中的自訂表單、欄位或區段清單中顯示它們，請新增「輸入日期」和「輸入者：名稱」作為新檢視或現有檢視中的欄。
 
+>[!NOTE]
+>
+>輸入日期和依ID輸入的資料僅適用於在2025年11月13日或之後建立的自訂表單、欄位和區段。
 
 ## 編輯版面配置範本時按鈕名稱的更新
 
