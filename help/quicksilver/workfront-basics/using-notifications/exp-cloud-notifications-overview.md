@@ -1,14 +1,14 @@
 ---
 navigation-topic: notifications
-title: 訂閱Adobe Workfront中的專案
+title: Experience Cloud通知總覽
 description: Adobe Workfront將所有數位體驗(DX)產品整合在稱為Experience Cloud Notifications的單一一致通知系統下。
 author: Courtney
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: 49e1bb56c30ec54290a95f0c5eb224d86b9afafc
+source-git-commit: 56f63dad88c9ea7d51297bcad181983dc88acf50
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '630'
 ht-degree: 0%
 
 ---
