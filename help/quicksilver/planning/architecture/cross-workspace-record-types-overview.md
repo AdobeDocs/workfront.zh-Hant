@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: f88b6ec019963ff6256e35b9c94eb4d1b7e99730
 workflow-type: tm+mt
-source-wordcount: '1534'
+source-wordcount: '1539'
 ht-degree: 0%
 
 ---
@@ -111,6 +111,10 @@ ht-degree: 0%
      從次要工作區中刪除記錄型別只會將其從次要工作區中移除， 也會刪除從次要工作區新增至此的記錄和欄位。 這不會從其原始工作區或已新增記錄型別的任何其他次要工作區中刪除記錄型別。
 
      如需詳細資訊，請參閱[刪除記錄型別](/help/quicksilver/planning/architecture/delete-record-types.md)。
+   * 共用記錄型別的檢視。
+
+     <!-- when they will be able to add fields to the secondary space, this bullet will need this extra information: 
+         After adding fields to the global record type in the secondary workspace, shared views might not open for other users in workspaces. The fields exist only in the secondary workspace and they would not be visible in any other workspace. Only fields created in the primary workspace are visible in all secondary workspaces where there the record type is added. -->
 
   <!--These two capabilities will come later - and edit some of the bullets below after these capabilities are released:
     * Add new fields
