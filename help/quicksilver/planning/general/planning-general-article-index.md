@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8c4e4fbb-2f21-43a1-bfb0-d23ac1a33705
-source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
+source-git-commit: 15ffe027c281782bcaa4df229badc134d91195a0
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
@@ -14,8 +14,9 @@ ht-degree: 0%
 ---
 
 
-
 # Adobe Workfront Planning一般資訊：文章索引
+
+{{planning-important-intro}}
 
 身為行銷營運領導者，您可以使用Adobe Workfront Planning來組織所有團隊在行銷生命週期中的工作。 本節中的文章會說明Workfront Planning的一般概念、實施最佳作法，並提供目前可用功能的概觀。
 
@@ -28,7 +29,7 @@ ht-degree: 0%
 * [2024年Adobe Workfront計畫發行活動](/help/quicksilver/planning/general/release-activity.md)
 * [2023年Adobe Workfront計畫發行活動](/help/quicksilver/planning/general/release-activity-archives-2023.md)
 * [Adobe Workfront Planning物件限制總覽](/help/quicksilver/planning/general/limitations-overview.md)
-* [Adobe Workfront規劃最佳作法](/help/quicksilver/planning/general/planning-best-practices.md)
-
+* [Adobe Workfront規劃最佳實務](/help/quicksilver/planning/general/planning-best-practices.md)
+  <!--* [Get started with the Adobe Workfront Planning free trial](/help/quicksilver/planning/general/trial-workfront-planning.md)-->
 
 
