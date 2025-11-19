@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
+source-git-commit: 9507e04be7cdd33658b4958f3030b0d3359a9ef1
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 0%
+source-wordcount: '537'
+ht-degree: 3%
 
 ---
 
@@ -35,14 +35,14 @@ ht-degree: 0%
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以查看此文章中功能的存取需求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
+   <td>Adobe Workfront 套件</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
    <!--when this will be possible for more than 3 objects, at production, make this more general: update the sentence above to say "select an object you want to customize in the Customize what users see drop-down menu). -->
 
-1. 在[!UICONTROL 標題欄位]區段中，將滑鼠移至顯示的欄位上，然後執行下列任一項作業：
+1. 在[!UICONTROL 標頭欄位]區段中，將滑鼠移至目前欄位上，然後執行下列任一項作業：
    * 按一下&#x200B;**x**&#x200B;圖示以移除欄位
 
      或
@@ -83,19 +83,15 @@ ht-degree: 0%
 
 1. 一個物件的標頭中最多可以有五個欄位。
 如果您已選取五個欄位，則必須先移除欄位，才能新增欄位。
-1. 在&#x200B;**新增欄位**&#x200B;方塊中，開始輸入您要新增的不可編輯的Workfront欄位名稱，然後在其顯示在清單中時選取它。 該欄位會新增到「新增欄位」方塊的緊鄰右側，並將顯示為物件標題左上角的第一個欄位。
+1. 在&#x200B;**新增欄位**&#x200B;方塊中，開始輸入您要新增的自訂欄位或原生Workfront欄位的名稱，然後在其顯示在清單中時選取它。 欄位會新增至「新增欄位」方塊的右上角，並顯示為物件標頭右上角的第一個欄位。
 
    >[!TIP]
    >
-   >* 您只能新增顯示在物件「詳細資訊」區段的「概觀」區域中且不可編輯的欄位。 不可編輯的欄位是使用者無法手動編輯的欄位。 它們會由Workfront自動計算。
-   >
-   >* 您可以新增已經是預設標題一部分的可編輯欄位（例如，專案所有者、狀態、完成百分比、指派）。
+   >* 您可以新增任何自訂欄位，或物件「詳細資訊」區段「概觀」區域中可用的任何原生欄位。 例如，只有問題具有嚴重程度欄位，並且該欄位無法新增到專案或任務。
    >
    >* 當您將「解決者」欄位新增到問題的標題時，當存在與問題關聯的解決物件時，欄位會變更為「解決問題、任務或專案」。
 
-
    ![新增欄位至標頭](assets/add-field-to-header-in-lt-list.png)
-
 
 1. （選用）以不同順序拖放欄位。
 
@@ -113,4 +109,4 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >您可以隨時按一下[儲存]來儲存進度，然後再繼續修改範本。**&#x200B;**
+   >您可以隨時按一下[儲存]來儲存進度，然後再繼續修改範本。****
