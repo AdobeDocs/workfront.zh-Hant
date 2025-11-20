@@ -6,7 +6,7 @@ author: Courtney
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: 56f63dad88c9ea7d51297bcad181983dc88acf50
+source-git-commit: 4f0ab97409ea959d195dd0bf856d53982402e7fc
 workflow-type: tm+mt
 source-wordcount: '630'
 ht-degree: 0%
