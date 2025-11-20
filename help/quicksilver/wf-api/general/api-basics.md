@@ -82,7 +82,7 @@ GET /attask/api/v15.0/proj/4c7c08b20000002de5ca1ebc19edf2d5
 會傳回類似下列的JSON回應：
 
 
-<pre>&lbrace;<br>    "data"： [<br>        {<br>            "percentComplete"： 0，<br>            "status"： "CUR"，<br>            "priority"： 2，<br>            "name"： "Brand New Project"，<br>            "ID"： "4c7c08b20000002de5ca1ebc19edf2d5" <br>        } <br>    ] <br></pre>
+<pre>{<br>    "data"： [<br>        {<br>            "percentComplete"： 0，<br>            "status"： "CUR"，<br>            "priority"： 2，<br>            "name"： "Brand New Project"，<br>            "ID"： "4c7c08b20000002de5ca1ebc19edf2d5" <br>        } <br>    ] <br></pre>
 
 >[!NOTE]
 >
@@ -310,7 +310,7 @@ OR陳述式只會傳回API呼叫中符合OR陳述式篩選條件的記錄。 OR�
 
 依預設，從搜尋傳回的資料為JSON陣列。 根據您的使用案例，以JSON物件格式依ID編制索引可能更有效率。 使用對應要求引數即可完成這項操作。 例如，請求 
 <pre>/attask/api/v15.0/task/search？map=true</pre>傳回依ID編制索引的回應，如下所示：
-<pre>&lbrace;<br>    "data"： {<br>        「4c9a97db0000000f13ee4446b9aead9b」： {<br>            "percentComplete"： 0，<br>            "status"： "NEW"，<br>            "name"： "first task"，<br>            "ID"： "4c9a97db0000000f13ee4446b9aead9b"，<br>            "taskNumber"： 1 <br>        }，<br>        "4ca28ba600002024cd49e75bd43cf601"： {<br>            "percentComplete"： 0，<br>            "status"： "INP：A"，<br>            "name"： "second task"，<br>            "ID"： "4ca28ba600002024cd49e75bd43cf601"，<br>            "taskNumber"： 2 <br>        } <br>    } <br></pre>
+<pre>{<br>    "data"： {<br>        「4c9a97db0000000f13ee4446b9aead9b」： {<br>            "percentComplete"： 0，<br>            "status"： "NEW"，<br>            "name"： "first task"，<br>            "ID"： "4c9a97db0000000f13ee4446b9aead9b"，<br>            "taskNumber"： 1 <br>        }，<br>        "4ca28ba600002024cd49e75bd43cf601"： {<br>            "percentComplete"： 0，<br>            "status"： "INP：A"，<br>            "name"： "second task"，<br>            "ID"： "4ca28ba600002024cd49e75bd43cf601"，<br>            "taskNumber"： 2 <br>        } <br>    } <br></pre>
 
 #### 使用欄位請求引數
 
@@ -331,7 +331,7 @@ OR陳述式只會傳回API呼叫中符合OR陳述式篩選條件的記錄。 OR�
 您可以搜尋巢狀物件。 依預設，巢狀物件只傳回名稱和ID。 例如，若要與擁有者取得所有問題，請使用以下請求：
 <pre>/attask/api/v15.0/issue/search？fields=owner</pre>如需詳細資訊，您可以使用冒號語法來要求巢狀欄位。 例如，以下請求會搜尋所有問題以及擁有者的名稱、ID、職稱和電話號碼
 <pre>/attask/api/v15.0/issue/search？fields=owner：title，owner：phoneNumber</pre>並傳回下列專案： 
-<pre>&lbrace;<br>    "name"： "an important issue"，<br>    "ID"： "4c78285f00000908ea8cfd66e084939f"，<br>    "owner"： {<br>        "title"： "Operations Specialist"，<br>        "phoneNumber"： "555-1234"，<br>        "name"： "Admin User"，<br>        "ID"： "4c76ed7a0000054c172b2c2d9f7f81c3" <br>    } <br></pre>
+<pre>{<br>    "name"： "an important issue"，<br>    "ID"： "4c78285f00000908ea8cfd66e084939f"，<br>    "owner"： {<br>        "title"： "Operations Specialist"，<br>        "phoneNumber"： "555-1234"，<br>        "name"： "Admin User"，<br>        "ID"： "4c76ed7a0000054c172b2c2d9f7f81c3" <br>    } <br></pre>
 
 #### 正在擷取巢狀集合
 
@@ -350,7 +350,7 @@ OR陳述式只會傳回API呼叫中符合OR陳述式篩選條件的記錄。 OR�
 <pre>/attask/api/v15.0/project/search？fields=DE：CustomText</pre>會傳回
 <pre>{<br>    "name"： "custom data project"，<br>    "ID"： "4c9a954f0000001afad0687d7b1b4e43"，<br>    "DE：CustomText"： "任務b" <br>}</pre>您也可以請求parameterValues欄位，擷取物件的所有自訂資料。 例如， 
 <pre>/attask/api/v15.0/project/search？fields=parameterValues</pre>傳回類似資料如下：
-<pre>&lbrace;<br>    "name"： "custom data project"，<br>    "ID"： "4c9a954f0000001afad0687d7b1b4e43"，<br>    引數值： { <br>        "DE：CustomText"： "任務b"， <br>        "DE：CustomNumber"： 1.4， <br>        "DE：CustomCheckBoxes"： ["first"， "second"， "third"] <br>    } <br></pre>
+<pre>{<br>    "name"： "custom data project"，<br>    "ID"： "4c9a954f0000001afad0687d7b1b4e43"，<br>    引數值： { <br>        "DE：CustomText"： "任務b"， <br>        "DE：CustomNumber"： 1.4， <br>        "DE：CustomCheckBoxes"： ["first"， "second"， "third"] <br>    } <br></pre>
 
 #### 使用具名查詢
 
@@ -367,7 +367,7 @@ OR陳述式只會傳回API呼叫中符合OR陳述式篩選條件的記錄。 OR�
 
 您可以執行報表請求，其中一個或多個分組只需要某些欄位的彙總。 如下列範例所示，報表語法與SOAP API的語法相同：
 <pre>GET /attask/api/v15.0/hour/report？project：name_1_GroupBy=true&amp;hours_AggFunc=sum</pre>會傳回下列結果
-<pre>&lbrace;<br>    「第一個專案」： { <br>        "sum_hours"： 15 <br>    }， <br>     「第二個專案」： { <br>        "sum_hours"： 30 <br>    } <br></pre>新增$$ROLLUP=true引數會在每個群組層級包含總計：
+<pre>{<br>    「第一個專案」： { <br>        "sum_hours"： 15 <br>    }， <br>     「第二個專案」： { <br>        "sum_hours"： 30 <br>    } <br></pre>新增$$ROLLUP=true引數會在每個群組層級包含總計：
 <pre>{<br>    「第一個專案」： { <br>        "sum_hours"： 15 <br>    }， <br>    「第二個專案」： { <br>        "sum_hours"： 30 <br>    }， <br>    "$$ROLLUP"： { <br>        "sum_hours"： 45 <br>    } <br>}</pre>
 
 ### 排序API中的查詢結果
@@ -497,7 +497,7 @@ PUT的回應與GET相同。 在這兩種情況下，伺服器都會在更新後�
 ### 進行巢狀更新
 
 有些物件擁有可以更新的私人擁有集合。 例如，下列範例示範如何覆寫指定任務的現有指派：
-<pre>PUT /attask/api/v15.0/task/4c7...？更新= <br>&lbrace;<br>    指派： [ <br>        { <br>            assignedToID： "2222...54d0， <br>            assignmentPercent： 50.0 <br>        }，{ <br>            roleID： "1111...54d0"<br>        } <br>    ] <br></pre>
+<pre>PUT /attask/api/v15.0/task/4c7...？更新= <br>{<br>    指派： [ <br>        { <br>            assignedToID： "2222...54d0， <br>            assignmentPercent： 50.0 <br>        }，{ <br>            roleID： "1111...54d0"<br>        } <br>    ] <br></pre>
 
 >[!NOTE]
 >
@@ -536,9 +536,9 @@ DELETE會移除物件。 在任何情況下，URI都可以包含引數force=true
 
 大量更新陳述式會在單一API呼叫中同時更新多個物件。 大量建立API呼叫的建置方式與一般更新呼叫類似，如下列範例所示：
 <pre>PUT /attask/api/v15.0/proj？updates=[{"name"："Test_Project_1"}，{"name"："Test_Project_2"}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>或 <pre>推播/attask/api/v15.0/proj？updates=[{"name"："Test_Project_1"}，{"name"："Test_Project_2"}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>會傳回類似下列的內容：
-<pre>資料： [{<br>}    ID： "53ff8d3d003b438b57a8a784df38f6b3"，<br>    名稱： "Test_Project_1"，<br>    物件代碼： "PROJ"，<br>    percentComplete： 0，<br>    plannedCompletionDate： "2014-08-28T11:00:00:000-0400"，<br>    plannedStartDate： "2014-08-28T11:00:00:000-0400"，<br>    優先順序： 0，<br>    projectedCompletionDate： "2014-08-28T16:12:00:000-0400"，<br>    狀態： "CUR"<br>&rbrace;，<br>{<br>    ID： "53ff8d49003b43a2562aa34eea3b6b10"，<br>    名稱： "Test_Project_2"，<br>    物件代碼： "PROJ"，<br>    percentComplete： 0usi，<br>    plannedCompletionDate： "2014-08-28T11:00:00:000-0400"，<br>    plannedStartDate： "2014-08-28T11:00:00:000-0400"，<br>    優先順序： 0，<br>    projectedCompletionDate： "2014-08-28T16:12:00:000-0400"，<br>    狀態： "CUR"<br>}]</pre>您也可以進行類似下列的大量更新：
+<pre>資料： [{<br>}    ID： "53ff8d3d003b438b57a8a784df38f6b3"，<br>    名稱： "Test_Project_1"，<br>    物件代碼： "PROJ"，<br>    percentComplete： 0，<br>    plannedCompletionDate： "2014-08-28T11:00:00:000-0400"，<br>    plannedStartDate： "2014-08-28T11:00:00:000-0400"，<br>    優先順序： 0，<br>    projectedCompletionDate： "2014-08-28T16:12:00:000-0400"，<br>    狀態： "CUR"<br>}，<br>{<br>    ID： "53ff8d49003b43a2562aa34eea3b6b10"，<br>    名稱： "Test_Project_2"，<br>    物件代碼： "PROJ"，<br>    percentComplete： 0usi，<br>    plannedCompletionDate： "2014-08-28T11:00:00:000-0400"，<br>    plannedStartDate： "2014-08-28T11:00:00:000-0400"，<br>    優先順序： 0，<br>    projectedCompletionDate： "2014-08-28T16:12:00:000-0400"，<br>    狀態： "CUR"<br>}]</pre>您也可以進行類似下列的大量更新：
 <pre>PUT /attask/api/v15.0/proj？Umethod=PUT&amp;updates=[{"ID"："123abcxxxxxxxxxxxxxxxxxxxxxxxx"，"name"："Test_Project_1_ Edit"}，{"ID"："123abcxxxxxxxxxxxxxxxxxxxxxxxx"，"name"："Test_Project_2_Edit"}]&amp;apiKey=123abcxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>會傳回類似下列的內容：
-<pre>資料： [ {<br>}     識別碼： 「53ff8e15003b461d4560f7f65a440078」，<br>     名稱： "Test_Project_1_Edit"，<br>     物件代碼： "PROJ"，<br>     percentComplete： 0，<br>     plannedCompletionDate： "2014-08-28T11:00:00:000-0400"，<br>     plannedStartDate： "2014-08-28T11:00:00:000-0400"，<br>     優先順序： 0，<br>     projectedCompletionDate： "2014-08-28T16:16:00:000-0400"，<br>     狀態： "CUR"<br>&rbrace;，<br>{<br>    ID： "53ff8e19003b46238a58d303608de502"，<br>    名稱： "Test_Project_2_Edit"，<br>    物件代碼： "PROJ"，<br>    percentComplete： 0，<br>    plannedCompletionDate： "2014-08-28T11:00:00:000-0400"，<br>    plannedStartDate： "2014-08-28T11:00:00:000-0400"，<br>    優先順序： 0，<br>    projectedCompletionDate： "2014-08-28T16:16:00:000-0400"，<br>    狀態： "CUR"<br>}]</pre>如果您希望所有作業都發生在相同交易中，請將"atomic=true"新增至批次API呼叫，作為請求引數。 如此一來，如果有任何作業失敗，所有作業都會回覆。
+<pre>資料： [ {<br>}     識別碼： 「53ff8e15003b461d4560f7f65a440078」，<br>     名稱： "Test_Project_1_Edit"，<br>     物件代碼： "PROJ"，<br>     percentComplete： 0，<br>     plannedCompletionDate： "2014-08-28T11:00:00:000-0400"，<br>     plannedStartDate： "2014-08-28T11:00:00:000-0400"，<br>     優先順序： 0，<br>     projectedCompletionDate： "2014-08-28T16:16:00:000-0400"，<br>     狀態： "CUR"<br>}，<br>{<br>    ID： "53ff8e19003b46238a58d303608de502"，<br>    名稱： "Test_Project_2_Edit"，<br>    物件代碼： "PROJ"，<br>    percentComplete： 0，<br>    plannedCompletionDate： "2014-08-28T11:00:00:000-0400"，<br>    plannedStartDate： "2014-08-28T11:00:00:000-0400"，<br>    優先順序： 0，<br>    projectedCompletionDate： "2014-08-28T16:16:00:000-0400"，<br>    狀態： "CUR"<br>}]</pre>如果您希望所有作業都發生在相同交易中，請將"atomic=true"新增至批次API呼叫，作為請求引數。 如此一來，如果有任何作業失敗，所有作業都會回覆。
 
 >[!NOTE]
 >
