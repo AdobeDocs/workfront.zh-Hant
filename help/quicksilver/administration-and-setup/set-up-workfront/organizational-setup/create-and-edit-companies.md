@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 5d7cc28ebb1c7d7401a60ef4fc383fc90ed20631
+source-git-commit: 0d79b04c58d6a0a1c8de7f83d7b941e75b1a88f5
 workflow-type: tm+mt
-source-wordcount: '1549'
-ht-degree: 0%
+source-wordcount: '1465'
+ht-degree: 1%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 0%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽沙箱」環境中使用，並且正在分階段推出到生產環境。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
 
 公司是[!DNL Adobe Workfront]中的組織單位，可以代表您的組織、組織內的部門或您工作的客戶。 您可以將公司新增至[!DNL Workfront]，並將它們用於財務規劃、報告、定義物件相關許可權以及保密資訊。
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以查看此文章中功能的存取需求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,23 +39,23 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 授權</p> </td> 
-   <td><p>[!UICONTROL 計畫]</p>
-   <p>[!UICONTROL 標準]</p>
+   <td><p>[！UICONTROL計畫]</p>
+   <p>[！UICONTROL標準]</p>
    </td> 
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
    <td> <p>您必須具備下列其中一項：</p> 
     <ul> 
-     <li> <p>[!UICONTROL 系統管理員]存取層級，可讓您編輯系統中的任何公司。</p> </li> 
+     <li> <p>[！UICONTROL系統管理員]存取層級，可讓您編輯系統中的任何公司。</p> </li> 
      <li> <p>管理公司的管理存取權，可讓您編輯系統中的任何公司。</p> </li> 
     </ul> <p><b>附註</b>：  
      <ul> 
       <li> <p>您也可以管理與您被指派為群組管理員的任何群組相關聯的公司。</p> </li> 
       <li> <p>若要從[!DNL Workfront]系統中新增和移除使用者，您必須具備下列其中一項：</p> 
        <ul> 
-        <li> <p>[!UICONTROL 系統管理員]存取層級。 </p> </li> 
-        <li> <p>您的存取層級中的<b>[!UICONTROL Users]</b>設定已設定為<b>[!UICONTROL Edit]</b>存取，且<b>[!UICONTROL Create]</b>以及在<b>[!UICONTROL Fine-tune your settings]</b> <b>下啟用的兩個</b>[!UICONTROL User Admin]<img src="assets/gear-icon-in-access-levels.png">選項中的至少一個選項。 </p> <p> <img src="assets/access-req-users.png"> </p> <p>在這兩個選項中，如果已啟用<b>[!UICONTROL User Admin (Group Users)]</b>，您必須是使用者所屬群組的群組管理員。</p> </li> 
+        <li> <p>[！UICONTROL系統管理員]存取層級。 </p> </li> 
+        <li> <p>您的存取層級中的<b>[！UICONTROL Users]</b>設定已設定為<b>[！UICONTROL Edit]</b>存取，且<b>[！UICONTROL Create]</b>以及在<b>[！UICONTROL Fine-tune your settings]</b> <b>下啟用的兩個</b>[！UICONTROL User Admin]<img src="assets/gear-icon-in-access-levels.png">選項中的至少一個選項。 </p> <p> <img src="assets/access-req-users.png"> </p> <p>在這兩個選項中，如果已啟用<b>[！UICONTROL User Admin (Group Users)]</b>，您必須是使用者所屬群組的群組管理員。</p> </li> 
        </ul>
        </li> 
      </ul> </p> </td> 
@@ -97,7 +97,7 @@ ht-degree: 0%
 
    公司清單隨即顯示。
 
-1. 如果您正在新增公司，請按一下[新增公司]。**&#x200B;**
+1. 如果您正在新增公司，請按一下[新增公司]。****
 
    或
 
@@ -105,9 +105,9 @@ ht-degree: 0%
 
 1. 更新&#x200B;**基本資訊**&#x200B;區段中的下列資訊：
 
-   * **公司名稱** <span class="preview">或&#x200B;**名稱**</span>：輸入公司的名稱。
+   * **名稱**：輸入公司的名稱。
    * **為使用中**：啟用此選項後，使用者可以找到公司並將其附加至他們建立和編輯的專案。 非作用中的公司無法附加到專案。 此選項預設為啟用。
-   * **這是主要公司** <span class="preview">或&#x200B;**是主要公司**</span>：將公司指派為您組織的主要公司。 主要公司通常代表您大部分使用者工作所在的Workfront帳戶。
+   * **是主要的**：將公司指派為您組織的主要公司。 主要公司通常代表您大部分使用者工作所在的Workfront帳戶。
 
      您可以將一家公司或沒有公司指定為主要公司，但不得將多家公司指定為主要公司。 如需詳細資訊，請參閱[建立和修改自訂存取層級](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
@@ -141,11 +141,7 @@ ht-degree: 0%
 
    如需建立自訂表單的相關資訊，請參閱[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
-1. （視條件而定）如果您正在建立公司，請按一下&#x200B;**[!UICONTROL 建立公司]** <span class="preview">或&#x200B;**儲存**。</span>
-
-   或
-
-   如果您正在編輯現有的公司，請按一下&#x200B;**[!UICONTROL 儲存變更]** <span class="preview">或&#x200B;**儲存**。</span>
+1. 按一下「**儲存**」。
 
 ## 刪除公司
 
@@ -179,13 +175,9 @@ ht-degree: 0%
 
 當[!DNL Workfront]管理員將群組指派給公司時，該群組的群組管理員會在[!UICONTROL 設定]中取得公司的[!UICONTROL 管理]存取權。 這包括存取[!UICONTROL 設定]中的[!UICONTROL 公司]頁面，他們可以在此頁面檢視和管理與其群組關聯的公司。
 
-有了此[!UICONTROL 公司]頁面的存取權，群組管理員可以將群組指派給公司，但是它必須是群組管理員建立的公司。 如果群組管理員的存取層級未設定公司的管理存取權，則當群組管理員建立公司時，需要[!UICONTROL 群組]欄位，其<span class="preview">星號</span>或粗體標題表示如下：
+有了此[!UICONTROL 公司]頁面的存取權，群組管理員可以將群組指派給公司，但是它必須是群組管理員建立的公司。 如果群組管理員的存取層級未設定公司的管理存取權，則當群組管理員建立公司時，需要[!UICONTROL 群組]欄位，星號表示如下：
 
-<span class="preview">預覽環境中的範例影像：</span>
 ![需要群組的新的公司對話方塊](assets/group-admin-add-company-group-required.png)
-
-生產環境中的影像範例：
-公司![需要](assets/group-admin-add-company.png)群組
 
 若要瞭解使用者如何取得其存取層級中公司的管理存取權，請參閱[授與使用者對特定區域的管理存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)。
 
