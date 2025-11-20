@@ -4,9 +4,9 @@ description: 2026年第一季度整合增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 81e95c6ebab98ad67d0364d0f3b7a63ce4568498
+source-git-commit: 192df9ef08f75b3a6a6e9a50908b6da6e861bdd6
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,16 @@ ht-degree: 0%
 
 如需2026年第一季發行週期目前可用的所有變更清單，請參閱[2026年第一季發行概觀](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
 
+## 更新Adobe Workfront的資產選擇器，以進行Experience Manager Assets原生整合
+
+
+>[!NOTE]
+>
+>預覽： 2025年11月20日
+>生產快速發行： 2025年12月11日\
+>適用於所有人的生產： 2026年1月16日
+
+我們已升級Adobe Workfront中用於Experience Manager Assets整合的資產選擇器。 透過此升級，您現在可以選取AEM集合，並將其直接提取至Workfront。
 
 ## 新版Salesforce整合現已推出
 
