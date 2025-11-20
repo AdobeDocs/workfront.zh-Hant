@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 40722f2b-f8b2-4dc5-805e-2b434a0d46c3
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+source-git-commit: f4043daeb7a7dad84b6232b5ac133fd59ca64292
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 0%
+source-wordcount: '360'
+ht-degree: 5%
 
 ---
 
@@ -23,14 +23,14 @@ ht-degree: 0%
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以查看此文章中功能的存取需求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
+   <td>Adobe Workfront 套件</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -51,8 +51,25 @@ ht-degree: 0%
 
 ## 瞭解哪些自訂表單使用特定自訂欄位或Widget
 
+若要檢視某個欄位在所有自訂欄位清單中的使用情形：
+
 {{step-1-to-setup}}
 
 1. 在左側面板中，按一下&#x200B;**自訂Forms**。
 1. 按一下&#x200B;**欄位**，在&#x200B;**名稱**&#x200B;欄中尋找欄位或Widget，然後檢視&#x200B;**Forms**&#x200B;欄，以檢視哪些自訂表單正在使用欄位或Widget。
 1. （可選）按一下任何這些自訂表單的名稱以移至表單，並考慮在修改欄位或Widget時可能需要在那裡進行的變更。
+
+若要檢視自訂表單中欄位的使用情形：
+
+{{step-1-to-setup}}
+
+1. 在左側面板中，按一下&#x200B;**自訂Forms**。
+1. 開啟自訂表單並從資料庫新增欄位，或選取表單上的現有欄位。
+
+   表單設計器右側的使用情況指示器會顯示有多少其他自訂表單使用此欄位。
+
+1. 按一下&#x200B;**檢視相關的Forms**。
+
+   在表單清單上，您可以按一下任何表單名稱以開啟表單並檢視欄位的使用方式。 指示器會顯示每個表單是作用中或非作用中。
+
+
