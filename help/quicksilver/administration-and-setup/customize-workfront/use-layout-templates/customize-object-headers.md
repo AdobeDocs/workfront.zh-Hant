@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: 9507e04be7cdd33658b4958f3030b0d3359a9ef1
+source-git-commit: edc83693ef068e50aed06324f006cd8aa70ac019
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '571'
 ht-degree: 3%
 
 ---
@@ -89,6 +89,8 @@ ht-degree: 3%
    >
    >* 您可以新增任何自訂欄位，或物件「詳細資訊」區段「概觀」區域中可用的任何原生欄位。 例如，只有問題具有嚴重程度欄位，並且該欄位無法新增到專案或任務。
    >
+   >* 當使用者編輯標題中的自訂欄位並且該欄位包含在未附加到物件的自訂表單中時，自訂表單會自動新增到物件。
+   >
    >* 當您將「解決者」欄位新增到問題的標題時，當存在與問題關聯的解決物件時，欄位會變更為「解決問題、任務或專案」。
 
    ![新增欄位至標頭](assets/add-field-to-header-in-lt-list.png)
@@ -109,4 +111,4 @@ ht-degree: 3%
 
    >[!TIP]
    >
-   >您可以隨時按一下[儲存]來儲存進度，然後再繼續修改範本。**&#x200B;**
+   >您可以隨時按一下[儲存]來儲存進度，然後再繼續修改範本。****
