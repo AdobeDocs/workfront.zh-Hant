@@ -6,27 +6,29 @@ description: 除了使用Workfront在您輸入新請求時向您建議的可用�
 author: Becky
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: 38843e2c093d5af9d74d8b4442fd28e194996e8d
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 1%
+source-wordcount: '840'
+ht-degree: 3%
 
 ---
 
 # 從草稿建立請求
 
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽Sandbox」環境中使用。</span>
+
 除了使用Workfront在您輸入新請求時向您建議的可用草稿之外，您還可以從「草稿」區段存取草稿請求並從那裡完成提交。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
@@ -52,13 +54,55 @@ ht-degree: 1%
 
 ## 從草稿建立請求的先決條件
 
-您必須先執行下列動作，才能從草稿建立請求： 
+您必須先執行下列動作，才能從草稿建立請求：
 
 * 開始建立請求。 這會自動將請求儲存為「草稿」區段中的草稿。
 
   如需建立請求的相關資訊，請參閱[建立並提交Adobe Workfront請求](../../../manage-work/requests/create-requests/create-submit-requests.md)。
 
 ## 從草稿建立請求
+
+從草稿建立請求的程式在新的請求體驗和舊版體驗之間有所不同。
+
+* <span class="preview">[從新請求體驗中的草稿建立請求](#create-requests-from-drafts-in-the-new-requesting-experience)</span>
+* [從舊版請求體驗中的草稿建立請求](#create-requests-from-drafts-in-the-legacy-requesting-experience)
+
+<div class="preview">
+
+### 從新請求體驗中的草稿建立請求
+
+
+
+<!--
+   
+1. Open the draft.
+
+   Drafts can be found in the following locations:
+
+   * In the requests list in the Requests area
+   * In the requests list in the My Requests widget in Home
+   * In the New request dialog (includes only drafts of requests created with the selected form)
+   
+-->
+1. 開啟草稿。
+
+   草稿可在新請求對話方塊中找到（僅包含以所選表單建立的請求草稿）。
+1. 依照[建立和提交Adobe Workfront要求](../../../manage-work/requests/create-requests/create-submit-requests.md)中的說明更新要求的資訊。
+1. （選擇性和條件性）在輸入請求期間，如果想要刪除草稿，請按一下&#x200B;**捨棄**&#x200B;草稿。 這將刪除草稿。
+
+   如果您誤棄草稿，可以立即在熒幕底部的訊息中按一下&#x200B;**還原**。 此選項僅供幾秒鐘使用。
+
+   如需有關刪除草稿的詳細資訊，請參閱[刪除提交的請求或請求草稿](../../../manage-work/requests/create-requests/delete-request-draft.md)。
+
+1. （選用）若要儲存草稿的變更而不提交，請離開新請求頁面。 變更會自動儲存。
+
+1. 完成要求的資訊後，請按一下&#x200B;**提交**。
+
+   當您提交請求時，草稿會被刪除且無法還原。
+
+</div>
+
+### 從舊版請求體驗中的草稿建立請求
 
 {{step1-to-requests}}
 
