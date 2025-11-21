@@ -6,20 +6,21 @@ description: 您可以在「我的請求」Widget中提交請求。 您也可以
 author: Becky
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: 59a53f7355032810a05fce2d3f0dfe30d64bbd40
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 3%
+source-wordcount: '798'
+ht-degree: 5%
 
 ---
 
 # 使用我的請求Widget
 
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽Sandbox」環境中使用。</span>
 
 >[!IMPORTANT]
 >
 >本文會說明新的「我的請求」Widget。 您必須啟用新的請求體驗才能檢視新的Widget。
->&#x200B;>您可以在請求區域中啟用新的請求體驗。
+>您可以在請求區域中啟用新的請求體驗。
 
 「我的請求」Widget會顯示已提交至您組織的請求。 您可以篩選請求、搜尋特定請求，或調整欄順序和可見度。 您也可以從「我的請求」Widget建立新請求。
 
@@ -27,9 +28,9 @@ ht-degree: 3%
 >
 >* 當「我的請求」Widget載入時，最多會顯示50個請求。 若要顯示更多請求，請向下捲動清單。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -54,7 +55,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>[!UICONTROL 檢視]對您在對話中被標籤或需要解決核准的專案、任務、問題和檔案的許可權或更高</p> </td> 
+   <td> <p>[！UICONTROL檢視]對您在對話中被標籤或需要解決核准的專案、任務、問題和檔案的許可權或更高</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,11 +64,21 @@ ht-degree: 3%
 
 +++
 
-## 建立請求
+## 建立新請求
 
 您可以直接從「我的請求」Widget建立請求。
 
 如需指示，請參閱從首頁區域建立工作專案和專案一文中的[建立請求](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-request)。
+
+<div class="preview">
+
+## 複製請求
+
+您可以複製我的請求Widget中的請求、編輯請求，然後將其作為新請求提交。
+
+如需相關指示，請參閱文章複製和提交請求中的[在新的請求體驗](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md#copy-and-submit-requests-in-the-new-requesting-experience)中複製和提交請求。
+
+</div>
 
 ## 篩選要求
 
@@ -89,7 +100,7 @@ ht-degree: 3%
 
 1. 在下一個欄位中，選取您要用於此篩選條件的運運算元。 可用的運運算元取決於所選的欄位。
 1. （視條件而定）如果運運算元右側出現欄位，請選取您要作為篩選依據的值。
-1. （選擇性）若要新增其他篩選條件，請按一下[新增條件] **&#x200B;**&#x200B;並重複步驟4-6。
+1. （選擇性）若要新增其他篩選條件，請按一下[新增條件] ****&#x200B;並重複步驟4-6。
 1. （選擇性和條件式）如果您有多個條件，請按一下條件左邊的&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;來切換And或Or值。
 
 篩選器會自動儲存。

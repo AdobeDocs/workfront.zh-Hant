@@ -6,27 +6,30 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: 59a53f7355032810a05fce2d3f0dfe30d64bbd40
 workflow-type: tm+mt
-source-wordcount: '1338'
-ht-degree: 2%
+source-wordcount: '1588'
+ht-degree: 3%
 
 ---
 
 # 複製並提交請求
 
+
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽Sandbox」環境中使用。</span>
+
 當您經常提交類似的請求時，可以複製現有的已提交請求。 在這種情況下，您可以複製現有請求、對請求進行最低限度的變更，然後將其作為新請求重新提交。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
@@ -91,7 +94,7 @@ ht-degree: 2%
   >
   >複製的請求未連結到解析物件。
 
-## 複製並提交請求
+## 在舊版請求體驗中複製並提交請求
 
 {{step1-to-requests}}
 
@@ -220,3 +223,44 @@ ht-degree: 2%
 1. 按一下&#x200B;**提交**。
 
    複製的請求會在您指定的請求佇列中作為新請求提交。
+
+<div class="preview">
+
+## 在新的請求體驗中複製並提交請求
+
+您可以在Workfront的「請求」區域中，或從「首頁」的「我的請求」小工具中複製並提交請求。
+
+1. 若要存取「要求」清單，請按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 要求]**。
+
+1. 若要存取「首頁」中的「我的請求」Widget：
+
+   1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
+   1. 找出「我的請求」Widget。
+
+      如需有關「我的請求」Widget的詳細資訊，請參閱[使用「我的請求」Widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)。
+
+1. 在「請求」清單或「我的請求」Widget中，暫留在您要複製的請求上。
+
+   出現「更多」三點選單。
+   ![](assets/more-menu.png)
+
+1. 按一下要求名稱右側的&#x200B;**更多**&#x200B;功能表，然後按一下&#x200B;**複製**。
+
+   或
+
+   以滑鼠右鍵按一下選取的請求，然後按一下&#x200B;**複製**。
+
+   >[!TIP]
+   >
+   >當您無權建立問題時，您會收到一則警告，指出管理員限制您建立請求。
+
+1. （選用）更新所複製請求的任何資訊。 可用欄位取決於用於請求的「請求佇列」或「請求表單」。
+
+   <!--When you enter or change any field values in the copied request, it is saved as a draft.-->
+
+1. 按一下&#x200B;**提交**。
+
+   複製的請求會以新請求的形式提交。
+
+</div>
+
