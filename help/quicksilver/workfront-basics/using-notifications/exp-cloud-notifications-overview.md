@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: 4f0ab97409ea959d195dd0bf856d53982402e7fc
+source-git-commit: 5068386e314e9c4c75ec5f9142c9f101b2c1e43f
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '664'
 ht-degree: 0%
 
 ---
@@ -16,12 +16,11 @@ ht-degree: 0%
 
 # Experience Cloud通知總覽
 
-Adobe Workfront正在將所有數位體驗(DX)產品整合在稱為Experience Cloud通知的單一一致通知系統下。 從2026年2月開始，您的舊版Workfront Notification Services會自動開始移轉至Adobe的集中式通知系統。
+Adobe Workfront正在將所有數位體驗(DX)產品整合在稱為Experience Cloud通知的單一一致通知系統下。 從2026年2月或前後開始，您的舊版Workfront Notification Services會自動開始移轉至Adobe的集中式通知系統。
 
-移轉後，您可以在一個位置存取跨Adobe Workfront和其他Adobe DX應用程式的所有通知，簡化您掌握資訊和管理偏好設定的方式。
+完成此轉換後，您可以在一個位置存取跨Adobe Workfront和其他Adobe DX應用程式的所有通知，簡化您掌握資訊和管理偏好設定的方式。
 
 ![公告](assets/announcements-center.png)
-
 
 ## 我們為什麼要進行此變更
 
@@ -35,8 +34,9 @@ Workfront是Adobe數位體驗產品套件的一部分。 移至Experience Cloud�
 ## 變更內容
 
 * 單一「通知」圖示已取代上方標題中的「Workfront通知」圖示。
-* 您的通知設定現在可透過新的Experience Cloud 「通知」面板和「所有通知」頁面存取。
+* 現在，您可以透過新的「Experience Cloud通知」面板和「所有通知」頁面，存取您的個人通知設定。 之前，您可在使用者設定檔中存取這些專案。
 * 提供新的篩選和傳送選項。
+* 自訂電子郵件通知主旨行將無法再使用。
 
 ## 維持原狀的原因
 
@@ -47,7 +47,6 @@ Workfront是Adobe數位體驗產品套件的一部分。 移至Experience Cloud�
 * Workfront將繼續根據您的工作專案觸發通知。
 
 * Workfront資料和許可權將維持不變。
-
 
 ## 在Experience Cloud中檢視新通知
 
@@ -69,7 +68,6 @@ Workfront是Adobe數位體驗產品套件的一部分。 移至Experience Cloud�
 >
 >如果您無法存取您的個人通知設定，請聯絡管理員。
 
-
 1. 在Workfront的右上角，按一下&#x200B;**通知**&#x200B;圖示![通知圖示](assets/bell-icon.png)。
 
 1. 在&#x200B;**Experience Cloud**&#x200B;面板的右上角，按一下&#x200B;**設定**&#x200B;圖示![設定圖示](assets/settings-icon.png)。
@@ -82,8 +80,6 @@ Workfront是Adobe數位體驗產品套件的一部分。 移至Experience Cloud�
 
 1. （選擇性）若要停止接收特定型別的通知，請取消選取目前選取之每個型別的方塊。 您的變更會自動儲存。
 
-   ![通知型別選擇](assets/select-notification-types.png)
-
 ## 常見問題集
 
 +++我現有的通知會遺失嗎？
@@ -93,15 +89,16 @@ Workfront是Adobe數位體驗產品套件的一部分。 移至Experience Cloud�
 
 +++ 我的使用者需要執行任何操作嗎？
 
-通常不會。 Workfront管理員將先驗證設定，然後在轉移至Experience Cloud後，使用者會注意到新的「通知」圖示。
+一開始不會。 Workfront管理員將先驗證設定，然後在轉移至Experience Cloud後，使用者會注意到新的「通知」圖示。 在那裡，他們將需要學習如何存取其個人通知。
 +++
 
 +++如果我的組織尚未準備好轉換到Experience Cloud，該怎麼辦？
 
-如果您需要重新排程轉換，請洽詢Adobe服務團隊。 不過，所有客戶都必須改用新的通知體驗，因此建議提早採用。
+如果您需要重新排程轉換，請與您的帳戶團隊或客戶支援協調。 不過，所有客戶都必須改用新的通知體驗，因此建議提早採用。
 +++
 
 +++這會影響Workfront整合或自動化嗎？
 
 否。所有現有的整合和自動化功能都將照常運作。
 +++
+
