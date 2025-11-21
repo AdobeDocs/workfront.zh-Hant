@@ -6,9 +6,9 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: 203ff7855649c968c52d74ef0ee7581a1439aa47
+source-git-commit: f38c10a187367570739f65961f945450b7b9b5de
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '346'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,11 @@ ht-degree: 0%
 >生產快速發行： 2025年12月11日\
 >適用於所有人的生產： 2026年1月16日
 
-為了更方便建立及提交請求，我們已新增將草稿儲存至新請求體驗的功能。 現在，當您開始填寫並關閉請求時，請求會儲存為草稿狀態，並可在請求清單中找到。 之後，您可隨時重新開啟、更新及提交草稿。
+為了更方便建立及提交請求，我們已新增將草稿儲存至新請求體驗的功能。 現在，當您開始填寫並關閉請求時，請求會以草稿狀態儲存，並可在用於建立草稿的請求表單中找到。 之後，您可隨時重新開啟、更新及提交草稿。
 
 以前，此功能在新的請求體驗中無法使用。
 
-舊版請求體驗中建立的草稿可在新請求體驗中取得。 您可以在請求清單中找到它們。
+舊版請求體驗中建立的草稿可在新請求體驗中取得。
 
 如需請求草稿的詳細資訊，請參閱[從草稿建立請求](/help/quicksilver/manage-work/requests/create-requests/create-requests-from-drafts.md)。
 
@@ -49,19 +49,23 @@ ht-degree: 0%
 
 如需資訊與指示，請參閱[刪除提交的請求或請求草稿](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md)。
 
-## 在請求區域與我的請求Widget中共用檢視
+<!--
+
+## Share views in the Requests area and the My Requests widget
 
 >[!NOTE]
 >
->預覽： 2025年11月20日
->生產快速發行： 2025年12月11日\
->適用於所有人的生產： 2026年1月16日
+>Preview: November 20, 2025 
+>Production fast release: December 11, 2025  
+>Production for everyone: January 16, 2026  
 
-為了更方便確保可檢視您所需的資訊，我們已新增將檢視共用至新報告體驗的功能。 現在，您可以與其他使用者、團隊或群組共用檢視。
+To make it easier to ensure to see the information you need, we've added the ability to share views to the new reporting experience. Now, you can share views with other users, teams, or groups.
 
-您可以從Workfront的要求區域和首頁的我的要求Widget共用要求清單檢視。 兩個位置的共用功能相同，且在我的請求Widget和請求區域之間移動時會保留檢視設定（包括共用）。
+You can share request list views from both the Requests area in Workfront and the My Requests widget in Home. Sharing functionality is identical in both places, and view settings, including sharing, are preserved when moving between the My Requests widget and the Requests area.
 
-如需請求檢視的詳細資訊，包括共用，請參閱[在請求區域](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)建立和管理檢視。
+For information on request views, including sharing, see [Create and manage views in the Requests area](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+
+-->
 
 ## 複製新請求體驗中先前提交的請求，以建立新請求
 
