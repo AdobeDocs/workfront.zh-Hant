@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: 5068386e314e9c4c75ec5f9142c9f101b2c1e43f
+source-git-commit: 0c83d47e21148d2c6234e0c157da3381146a7128
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Workfront是Adobe數位體驗產品套件的一部分。 移至Experience Cloud�
 
 ## 維持原狀的原因
 
-* 您仍會收到應用程式內通知和電子郵件通知。
+* 在轉換的第一個階段期間，您會收到應用程式內通知，並在稍後同時收到應用程式內通知和電子郵件通知。
 
 * 現有的通知偏好設定會自動延續。
 
