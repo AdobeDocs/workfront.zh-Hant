@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: bd0c365fcf5431a6b540d302385315d28688e558
+source-git-commit: 0c13d3da9e42085bfa1db5a0fb2227c23b8b40be
 workflow-type: tm+mt
-source-wordcount: '13594'
+source-wordcount: '13597'
 ht-degree: 2%
 
 ---
@@ -1493,7 +1493,7 @@ ht-degree: 2%
          * [讓使用者透過電子郵件將問題傳送到請求佇列專案](manage-work/requests/create-requests/enable-email-issues-into-projects.md)
          * [找出已提交的請求](manage-work/requests/create-requests/locate-submitted-requests.md)
          * [分享請求佇列的連結](manage-work/requests/create-requests/share-link-to-request-queue.md)
-         * [刪除請求草稿](manage-work/requests/create-requests/delete-request-draft.md)
+         * [刪除提交的請求或請求草稿](manage-work/requests/create-requests/delete-request-draft.md)
          * [複製並提交請求](manage-work/requests/create-requests/copy-and-submit-requests.md)
          * [從先前的資料自動填入請求](/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md)
          * [使用提示或檔案自動填寫請求](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)
@@ -2525,9 +2525,9 @@ ht-degree: 2%
       * [使用JWT流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-jwt-flow.md)
       * [使用PKCE流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-pkce-flow.md)
       * [棄用API — 內部](wf-api/api/deprecation-api-internal.md)
-      * [&#x200B; API 21版的新增功能](/help/quicksilver/wf-api/api/new-api-version-21.md)
-      * [&#x200B; API 20版的新增功能](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [&#x200B; API 19版的新增功能](wf-api/api/new-api-version-19.md)
+      * [ API 21](/help/quicksilver/wf-api/api/new-api-version-21.md)版的新增功能
+      * [ API 20](/help/quicksilver/wf-api/api/new-api-version-20.md)版的新增功能
+      * [ API 19](wf-api/api/new-api-version-19.md)版的新增功能
       * [API 18版的新增功能](wf-api/api/new-api-version-18.md)
       * [API 17版的新增功能](wf-api/api/new-api-version-17.md)
       * [API 16版的新增功能](wf-api/api/new-api-version-16.md)

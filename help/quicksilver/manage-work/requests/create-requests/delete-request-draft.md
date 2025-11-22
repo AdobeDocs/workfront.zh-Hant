@@ -1,39 +1,41 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: 刪除請求草稿
-description: 您可以在建立請求草稿時將其刪除，方法是捨棄這些請求草稿。
+title: 刪除已提交的請求重新請求草稿
+description: 您可以刪除已提交的請求或請求草稿。
 author: Becky
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: 8b08336431d2e4ebfcb078d8329f8748fac66eda
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 1%
+source-wordcount: '619'
+ht-degree: 3%
 
 ---
 
-# 刪除請求草稿
+# 刪除提交的請求或請求草稿
 
-您可以在建立請求草稿時將其刪除，方法是捨棄這些請求草稿。
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽」環境中供所有客戶使用，或在「生產」環境中供啟用快速發行的客戶使用。</span>
+
+您可以刪除已提交的請求，或是您在新的請求體驗中建立的請求草稿。 Workfront管理員和Planning工作區管理員也可以刪除請求。
+
+在舊版請求體驗中，您可以刪除請求草稿。 您無法刪除已提交的請求。
 
 如需詳細資訊，請參閱：
 
 * [建立並提交Adobe Workfront請求](../../../manage-work/requests/create-requests/create-submit-requests.md)
 * [從草稿建立請求](../../../manage-work/requests/create-requests/create-requests-from-drafts.md)
 
-如果您認為草擬請求不再相關，可在草擬請求儲存為草稿後將其刪除。 您無法復原已刪除的草稿請求。
+## 存取權要求
 
-## 存取需求
-
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
@@ -44,7 +46,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>編輯問題的存取權</p>  </td> 
+   <td> <p>您必須是Workfront管理員或Planning工作區管理員，才能刪除未建立的請求。</p><p>您必須擁有問題的編輯存取權，才能刪除舊版請求體驗中的草稿。</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>您必須先建立請求或草稿，才能在新的請求體驗中刪除它。</p><p>您必須擁有問題的編輯存取權，才能刪除舊版請求體驗中的草稿。</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> 產品</td> 
@@ -57,7 +63,54 @@ ht-degree: 1%
 
 +++
 
-## 刪除請求草稿的先決條件
+
+<div class="preview">
+
+## 刪除新請求體驗中的請求<!--or request drafts -->
+
+您可以在Workfront的「請求」區域或「首頁」的「我的請求」Widget中刪除請求。
+
+* Workfront管理員可以刪除其組織中的請求<!-- and drafts-->。
+* Workfront Planning工作區管理員可以刪除他們所管理的Planning工作區中的請求<!--and drafts-->。
+* 使用者可以刪除他們提交的要求<!--and drafts-->。
+
+若要刪除新請求體驗中的請求或草稿：
+
+1. 若要存取「要求」清單，請按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 要求]**。
+
+1. 若要存取「首頁」中的「我的請求」Widget：
+
+   1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
+   1. 找出「我的請求」Widget。
+
+      如需有關「我的請求」Widget的詳細資訊，請參閱[使用「我的請求」Widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)。
+
+1. 在「請求」清單或「我的請求」Widget中，暫留在您要刪除的請求<!--or draft -->上。
+
+   出現「更多」三點選單。
+   ![](assets/more-menu.png)
+
+1. 按一下要求&#x200B;**名稱右側的**&#x200B;更多<!--or draft-->功能表，然後按一下&#x200B;**刪除**。
+
+   或
+
+   以滑鼠右鍵按一下選取的請求，然後按一下&#x200B;**刪除**。
+
+   >[!TIP]
+   >
+   >當您無權建立問題時，您會收到一則警告，指出管理員限制您建立請求。
+
+1. 在開啟的對話方塊中，按一下&#x200B;**刪除**。
+
+   已刪除要求<!--or draft-->。
+
+</div>
+
+## 刪除舊版請求體驗中的請求草稿
+
+如果您認為草擬請求不再相關，可在草擬請求儲存為草稿後將其刪除。 您無法復原已刪除的草稿請求。
+
+### 刪除請求草稿的先決條件
 
 您必須先執行下列動作，才能刪除請求草稿：
 
@@ -65,7 +118,7 @@ ht-degree: 1%
 
   如需建立請求的相關資訊，請參閱[建立並提交Adobe Workfront請求](../../../manage-work/requests/create-requests/create-submit-requests.md)。
 
-## 刪除請求草稿
+### 刪除請求草稿
 
 {{step1-to-requests}}
 

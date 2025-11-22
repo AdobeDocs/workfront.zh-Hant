@@ -8,9 +8,9 @@ author: Becky
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: de161674-5b61-4853-a16a-c70db10a1c95
-source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
+source-git-commit: d4f261c41f99ef53b258987994b389045c692bd3
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '179'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
 * [讓使用者透過電子郵件將問題傳送到請求佇列專案](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md)
 * [尋找已提交的請求](../../../manage-work/requests/create-requests/locate-submitted-requests.md)
 * [分享要求佇列的連結](../../../manage-work/requests/create-requests/share-link-to-request-queue.md)
-* [刪除請求草稿](../../../manage-work/requests/create-requests/delete-request-draft.md)
+* [刪除提交的請求或請求草稿](../../../manage-work/requests/create-requests/delete-request-draft.md)
 * [從先前的資料自動填入請求](/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md)
 * [使用提示或檔案自動填寫請求](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)
 * [在請求區域中建立檢視](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)
