@@ -8,9 +8,9 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: bd0c365fcf5431a6b540d302385315d28688e558
+source-git-commit: a335b035e82ebe3daa6a9687b362a9117f348e0e
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->生產發行日期： 2025年11月xx日
+>生產發行日期： 2025年11月20日
 
 您現在可以將以百分比為基礎的變更，套用至費率卡中一或多個工作角色收費率。 您不必逐一手動更新每個費率，而是可以在單一作業中將變更套用至所有選取的費率。
 
