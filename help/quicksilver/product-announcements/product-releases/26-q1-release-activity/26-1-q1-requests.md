@@ -4,9 +4,7 @@ description: 2026年第一季要求增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
-source-git-commit: f38c10a187367570739f65961f945450b7b9b5de
+source-git-commit: 93f01b5eed702565f31086a8e66777200f8204a2
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 0%
