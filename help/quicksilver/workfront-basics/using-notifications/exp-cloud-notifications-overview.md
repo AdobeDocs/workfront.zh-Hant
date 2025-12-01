@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: 49706e7fd44571742ccf602b7418bb429fddc7f8
+source-git-commit: 32fc05b24c762fafcb50875fa014c5fe76d584d1
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '674'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Experience Cloud通知總覽
 
-Adobe Workfront正在將所有數位體驗(DX)產品整合在稱為Experience Cloud通知的單一一致通知系統下。 從2026年2月或前後開始，您的舊版Workfront Notification Services會自動開始移轉至Adobe的集中式通知系統。
+Adobe Workfront正在將所有數位體驗(DX)產品整合在稱為Experience Cloud通知的單一一致通知系統下。 自2026年2月或前後開始，您的舊版Workfront Notification Services將移轉至Adobe的集中式通知系統，我們的團隊會在系統啟動前通知您。
 
 完成此轉換後，您可以在一個位置存取跨Adobe Workfront和其他Adobe DX應用程式的所有通知，簡化您掌握資訊和管理偏好設定的方式。
 
