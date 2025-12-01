@@ -7,18 +7,18 @@ description: 請務必在Adobe Workfront中指明核准的休假何時發生，�
 author: Becky
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: e25ea757129e9645f7b5f0729cd498d5947f49f2
+source-git-commit: 0e37a5a519770d3d48192f1799491aa53a871508
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 0%
+source-wordcount: '431'
+ht-degree: 4%
 
 ---
 
 # 設定個人休假
 
-<!-- Audited: 12/2023 -->
+<!-- Audited: 12/2025 -->
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽沙箱」環境中使用，並且正在分階段推出到生產環境。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
 
 [!DNL Adobe Workfront]的設計目的並非複製或取代您現有的系統，以管理、累積及追蹤個人休假。
 
@@ -36,16 +36,16 @@ ht-degree: 0%
 >* [編輯使用者的設定檔](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
 >
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  </col>
  <tbody> 
   <tr> 
-   <td> Adobe Workfront套件</td> 
+   <td> Adobe Workfront 封裝</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -72,18 +72,17 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果您在Adobe整合式體驗中，可以按一下頂端導覽區域中的Adobe帳戶選單（您的設定檔圖片），然後選擇Workfront設定檔來存取您的Workfront設定檔。
+>如果您的組織在Adobe Unified Experience，請按一下上方導覽區域右上角的&#x200B;**Adobe**&#x200B;帳戶選單（您的設定檔圖片），然後按一下&#x200B;**Workfront設定檔**。
 >
 >![workfront設定檔](assets/aue-profile.png)
 
 1. 在左側面板中，按一下&#x200B;**[!UICONTROL 休假]**。
 1. 選取您個人休假的所需日期。
 
-   <span class="preview">預覽環境中的範例影像：</span>
    ![個人休假行事曆](assets/personal-time-off-calendar-0925.png)
 
-   生產環境中的影像範例：
-   ![個人休假行事曆](assets/personal-time-off-calendar.png)
+   <!--Sample image in the Production environment:
+   ![Personal time off calendar](assets/personal-time-off-calendar.png)-->
 
 1. 如果您要休一整天的假，請選取&#x200B;**[!UICONTROL 全天]**。
 

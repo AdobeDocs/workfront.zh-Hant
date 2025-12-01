@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6e039b80-e3bf-412c-8c86-8f801f5861e3
-source-git-commit: 1926500c76e4f9cfdac829f8d9f0cdfa6231e31d
+source-git-commit: 0e37a5a519770d3d48192f1799491aa53a871508
 workflow-type: tm+mt
-source-wordcount: '3304'
+source-wordcount: '3344'
 ht-degree: 0%
 
 ---
@@ -43,17 +43,16 @@ ht-degree: 0%
    * 他們要將哪些專案放在行事曆中？
 行銷活動？ 戰術？ 方案？ 活動？ 活動？
    * 他們想要透過此行事曆回答哪些型別的問題？
-   * 我們對於相同對象有任何重疊的行銷活動嗎？
-   * 我們對於該行銷活動、策略、活動或事件的預算是多少？
+   * 他們對於相同對象是否有任何重疊的行銷活動？
+   * 該行銷活動、策略、活動或事件的預算為何？
 
   這些問題的答案將決定您需要在Workfront Planning中建置什麼。
 
-  此外，考慮可能有其他規劃人員目前不是Workfront使用者。 這些規劃人員可能會使用Excel試算表、Word檔案、PowerPoints等來執行作業。 考慮他們如何在Workfront Planning中存取您的資訊。
+  此外，考慮可能有其他規劃人員目前不是Workfront使用者。 這些規劃人員可能會使用Excel試算表、Word檔案、PowerPoint簡報等來執行作業。 考慮他們如何在Workfront Planning中存取您的資訊。
 
-* ✅若要充分利用Workfront Planning，請考慮將Workfront Workflow中的投資組合和程式使用，取代為Workfront Planning中的其他上層結構。
+* ✅若要充分利用Workfront Planning，請考慮將Workfront中的產品組合和方案取代為Workfront Planning中的其他上層結構。
 
   現在，Workfront客戶透過產品組合和計畫來代表其策略性工作，在某些情況下，是不同型別的專案。 隨著Planning的推出，所有這類策略性工作應透過Workfront Planning中的自訂記錄型別來處理，而Workfront將集中於以專案和任務表示的工作執行階段。
-
 
 #### 何時應建立新工作區而不要修改現有工作區？
 
@@ -86,15 +85,13 @@ ht-degree: 0%
 
 記錄型別是Workfront Planning Workspace的建置組塊。 您可以定義記錄型別的互連方式。
 
-
 #### 如何在我的工作區中定義記錄型別？
 
 * ✅請花一些時間找出您需要追蹤的資訊（我需要哪些記錄型別），以及需要如何連線這些資訊。 與使用工作區的利害關係人溝通，以考慮他們所有的需求。 您也可以建立具有不同記錄型別的自訂區段，以非常方便使用的方式呈現資訊。
 
-
 * ⛔請勿在不同期間重複記錄型別（例如，請勿為&#x200B;**2024年行銷活動**&#x200B;和&#x200B;**2025年行銷活動**&#x200B;建立個別的記錄型別）。
 
-  每當您想要比較多個年度的資料時，建立不同的記錄型別會中斷資料流程。 今天的檢視是按記錄型別劃分的，因此當一年結束時，該記錄型別的檢視將不再顯示未來的專案。 最佳實務是讓工作型別有一個記錄型別，並視需要使用篩選器或封存資料來劃分資料。
+  每當您想要比較多個年度的資料時，建立不同的記錄型別會中斷資料流程。 今天的檢視是按記錄型別劃分的，因此當一年結束時，該記錄型別的檢視將不再顯示未來的專案。 最佳實務是讓工作型別有一個記錄型別，並根據不同欄位使用篩選器來區段資料，或視需要封存資料。
 
 #### 何時應使用單一或多重選取欄位，而不是連結的記錄型別？
 
@@ -107,7 +104,7 @@ ht-degree: 0%
   例如，頻道記錄型別（例如&#x200B;**電子郵件**）可能會以原生中繼資料或獨立&#x200B;**傳遞專案**&#x200B;記錄型別的連線，來儲存支援傳遞專案的清單。
 * ⛔如果您儲存的資料只與單一記錄型別相關，請勿新增記錄型別。
 
-  例如，**行銷活動**&#x200B;記錄型別可能有一個名為&#x200B;**行銷活動大小**&#x200B;的單選欄位，只有在直接與特定行銷活動關聯時才相關。
+  例如，**行銷活動**&#x200B;記錄型別可能有一個名為&#x200B;**行銷活動大小**&#x200B;的單選欄位，只有在直接與特定行銷活動關聯時才相關。 請建立欄位來擷取此資訊。
 
 #### 如何為我的記錄型別加上標籤？
 
@@ -120,9 +117,7 @@ ht-degree: 0%
 
 欄位是記錄型別的屬性，在表格檢視中顯示為欄。 您可以建立記錄型別的自訂欄位，然後將欄位與Workfront Planning記錄建立關聯，以增強記錄資訊。
 
-
 #### 建議將哪個欄位定義為主要欄位？
-
 
 * ✅請使用唯一的主要欄位值，以便在建立連線時更容易找到並「挑選」這些記錄。 
 
@@ -135,7 +130,7 @@ ht-degree: 0%
 
 #### 如何開始連線工作區中的資料？
 
-* ✅建立連線是Workfront規劃最強大的功能之一。 您可以將記錄型別連結至其他應用程式，例如Adobe Workfront （連線至專案、投資組合、方案、公司和群組）和Adobe Experience Manager Assets （連線至資產和資料夾）。
+* ✅建立連線是Workfront規劃最強大的功能之一。 您可以將記錄型別連結至其他應用程式，例如Adobe Workfront （連線至專案、投資組合、方案、公司和群組）、Adobe Experience Manager Assets （連線至資產和資料夾）和Adobe GenStudio for Performance Marketing的物件型別。
 
   連線物件與記錄型別可讓您完整概略瞭解公司中所有物件的連線方式。
 
@@ -147,11 +142,11 @@ ht-degree: 0%
 
 * ✅在您建立記錄或物件型別之間的連線後，可以將個別記錄彼此連線，並在Workfront Planning記錄上顯示連結記錄或物件型別的欄位。 您將減少必須更新相同資訊的地點數量，並確保其完全相符。
 
-  例如，一旦您在&#x200B;**促銷活動**&#x200B;記錄型別和&#x200B;**戰術**&#x200B;記錄型別之間建立連線，您將會看到主要欄位資訊，但當您新增查閱欄位時，您將能夠從該記錄型別帶入其他資訊，例如該&#x200B;**戰術**&#x200B;的&#x200B;**上市日期**。 新增記錄後，系統會自動填入這些查詢欄位的資料。
+  例如，一旦您在&#x200B;**促銷活動**&#x200B;記錄型別和&#x200B;**戰術**&#x200B;記錄型別之間建立連線，您將會看到主要欄位資訊，但當您新增查閱欄位時，您將能夠從該記錄型別帶入其他資訊，例如&#x200B;**戰術**&#x200B;的&#x200B;**上市日期**。 新增記錄後，系統會自動填入這些查詢欄位的資料。
 
 #### URL建議使用什麼欄位型別？ 
 
-* ✅請使用單行文字欄位，將URL資料新增至記錄。
+* ✅使用單行文字欄位，將URL資料新增至記錄。
 
 ### 檢視
 
@@ -175,9 +170,9 @@ ht-degree: 0%
 
 #### 為什麼我在時間軸檢視中看不到所有記錄？
 
-* ✅請記得為您的記錄定義2個日期欄位。 您至少有兩個日期欄位與記錄型別相關聯時，才能建立時間表檢視。 當「開始」或「結束」日期或兩者都沒有值，且「開始」日期在「結束」日期之後時，某些記錄可能不會顯示在時間軸檢視中。
+* ✅請記得為您的記錄定義2個日期欄位。 您至少有兩個日期欄位與記錄型別相關聯時，才能建立時間表檢視。 當「開始」或「結束」日期（或兩者皆無值）或「開始」日期在「結束」日期之後時，某些記錄可能不會顯示在時間軸檢視中。
 
-#### 如何使用時間軸檢視設定
+#### 如何使用時間軸檢視設定？
 
 * ✅定義您的時間表檢視的設定，例如&#x200B;**橫條樣式**&#x200B;和&#x200B;**色彩**，以取得更豐富的視覺效果。 您可以藉由定義您是否想要看到具有有意義的影像的縮圖，並新增更多欄位以顯示於長條圖（例如，**所有者**&#x200B;或&#x200B;**狀態**），自訂&#x200B;**長條圖樣式**。
 
@@ -187,15 +182,15 @@ ht-degree: 0%
 
 ### 許可權和共用
 
-使用共用功能，為員工提供檢視和工作區的適當許可權。
+使用共用功能，將檢視和工作區的適當許可權授予其他人。
 
 #### 我該如何管理工作區的許可權？
 
-* ✅當您建立&#x200B;**工作區**&#x200B;時，只有您才能使用。 系統管理員以外的任何人將無法找到它。 定義工作區且準備好將您的團隊帶入共同作業後，您需要與他們共用該工作區並定義其許可權層級。
+* ✅當您建立&#x200B;**工作區**&#x200B;時，只有您才能使用。 不是系統管理員的任何其他人將無法找到它。 定義工作區且準備好將您的團隊帶入共同作業後，您需要與他們共用該工作區並定義其許可權層級。
 
   您可以從下列許可權層級中選擇：
 
-   * **管理**：人員可以編輯、刪除及共用工作區。
+   * **管理**：人員可以編輯、刪除和共用工作區、記錄型別，以及編輯、刪除和建立記錄。
    * **Contribute**：人員可以建立、編輯和刪除記錄。
    * **檢視**：人員可以檢視記錄。
 
@@ -203,16 +198,11 @@ ht-degree: 0%
 
   某人若要擁有工作區的管理許可權，必須具備Standard使用者授權。
 
-* ✅如果您希望使用者&#x200B;**Contribute**&#x200B;僅能建立、編輯和刪除記錄，但不希望他們變更工作區的結構和結構描述，請授予這些使用者許可權。 他們具有&#x200B;**Contribute**&#x200B;許可權，無法建立記錄型別或變更現有記錄型別上的欄位。
+* 如果您希望使用者✅Contribute **僅能建立、編輯和刪除記錄，但不希望他們變更工作區的結構，請**&#x200B;授予使用者Contribute許可權。 他們具有&#x200B;**Contribute**&#x200B;許可權，無法建立記錄型別或變更現有記錄型別上的欄位。
 
   某人必須具備Standard使用者授權，才能擁有工作區的&#x200B;**Contribute**&#x200B;許可權。
 
 * 如果您只想讓使用者✅檢視&#x200B;**記錄，請**&#x200B;授予使用者檢視許可權。
-
-  >[!NOTE]
-  >
-  >目前，我們對於記錄型別或記錄沒有特定的許可權，因此這表示如果您授予某人&#x200B;**檢視**&#x200B;工作區存取權，則任何記錄型別中的所有記錄都會顯示。
-
 
 #### 我該如何管理記錄型別的許可權？
 
@@ -222,18 +212,17 @@ ht-degree: 0%
 
 #### 我該如何管理檢視的許可權？
 
-* ✅請將&#x200B;**管理**&#x200B;許可權限制在您想要編輯、刪除和共用檢視的許可權範圍內。 這表示他們可以變更檢視的篩選器、分組欄位或某些設定。 這些變更將會影響同時使用該檢視的其他人的檢視主要設定。
+* ✅請保留您想要編輯、刪除和共用檢視之人員的&#x200B;**管理**&#x200B;許可權。 這表示他們可以變更檢視的篩選器、分組欄位或某些設定。 這些變更將會影響同時使用該檢視的其他人的檢視主要設定。
 
   某人若要取得檢視的管理許可權，必須具備Standard使用者授權。
 
-* ✅授予使用者&#x200B;**檢視**&#x200B;存取權以套用檢視。 他們將能夠變更某些篩選器或分組和排序，但這些變更將是暫時的；變更沒有為存取檢視的所有其他使用者儲存。 這些變更不會影響同時使用該檢視的其他人的檢視主要設定。  他們的變更只會顯示給套用已修改設定的使用者。 重新整理畫面後，變更會重設為預設值。
+* ✅授予使用者&#x200B;**檢視**&#x200B;許可權以套用檢視。 他們將能夠變更某些篩選器或分組和排序，但這些變更將是暫時的；變更沒有為存取檢視的所有其他使用者儲存。 這些變更不會影響同時使用該檢視的其他人的檢視主要設定。  他們的變更只會顯示給套用已修改設定的使用者。 重新整理畫面後，變更會重設為預設值。
 
 * ✅授予&#x200B;**當您希望所有可以檢視工作區的人檢視該特定檢視中的記錄及其欄位時，工作區中的每個人都可以檢視**&#x200B;許可權。 如此一來，您就不需要手動將任何人新增至檢視的共用許可權方塊。
 
   >[!NOTE]
   >
   >如果檢視尚未共用，而您與其他人共用該檢視的連結，則他們將能夠在&#x200B;**預設表格檢視**&#x200B;中檢視記錄。 如果他們擁有標準Workfront授權，便能建立自己的檢視。
-
 
 #### **Workspace共用**&#x200B;與&#x200B;**檢視共用**&#x200B;有何不同？
 
@@ -245,8 +234,7 @@ ht-degree: 0%
 
 * 針對&#x200B;**Workspace共用**：輕度和Contribute授權使用者只能取得工作區的檢視存取權。 若要授與某人「貢獻」或「管理」工作區許可權，該人員必須擁有「標準」授權。
 
-* **檢視共用**：擁有工作區管理許可權的標準授權使用者將能夠建立檢視。 Light和Contribute授權使用者只能使用Standard使用者已建立並與他們共用的檢視。 否則，如果未共用任何專案，使用者將能夠看到&#x200B;**預設資料表檢視**。
-
+* **檢視共用**：擁有工作區管理許可權的標準授權使用者可以建立檢視。 Light和Contribute授權使用者只能使用Standard使用者已建立並與他們共用的檢視。 否則，如果未共用任何專案，使用者將能夠看到&#x200B;**預設資料表檢視**。
 
 #### 當Workspace擁有者變更時，怎麼辦？
 
@@ -266,7 +254,7 @@ ht-degree: 0%
 
 #### 誰可以建立申請表單？
 
-* ✅任何擁有工作區管理存取許可權的使用者都可以建立或編輯請求表單。 請確定已正確指派使用者的許可權，以允許此功能。
+* ✅任何擁有工作區管理存取許可權的使用者都可以建立或編輯記錄型別的要求表單。 請確定已正確指派使用者的許可權，以允許此功能。
 
 #### 如何建立或編輯記錄型別的要求表單？
 
@@ -279,12 +267,16 @@ ht-degree: 0%
 
   在表單產生器中，發佈表單後，您可以管理許可權以控制誰可以提交請求。
 
-  您可以從下列三個共用選項中選擇：
+  您可以從下列共用選項中選擇：
 
-   * **擁有工作區檢視許可權或更高存取許可權的任何人：**&#x200B;允許所有擁有工作區檢視許可權或更高許可權的使用者提交建立記錄的請求。
-   * **任何擁有貢獻者或以上工作區存取權的使用者**：限制向擁有貢獻者或以上工作區許可權的使用者提交內容。
-   * **擁有連結的任何人：**&#x200B;讓擁有表單連結的任何人能夠提交要求。
-   * **到期日：**&#x200B;請確定您設定公用連結的到期日，以增強安全性。
+   * 若要與Workfront中的人員內部共用：
+
+      * **擁有工作區檢視許可權或更高存取許可權的任何人：**&#x200B;允許所有擁有工作區檢視許可權或更高許可權的使用者提交建立記錄的請求。
+      * **任何擁有貢獻者或以上工作區存取權的使用者**：限制向擁有貢獻者或以上工作區許可權的使用者提交內容。
+      * **只有受邀者才能存取**：新增可以提交表單要求的人員、團隊、角色、群組或公司。
+   * 若要與沒有Workfront帳戶的人進行外部共用：
+      * **建立公開連結**，然後複製並和任何人共用，甚至是沒有Workfront帳戶的人：讓擁有表單連結的任何人能夠提交請求。
+      * **連結到期日：**&#x200B;請確定您設定公用連結的到期日，以增強安全性。
 
 ### 管理請求表單的最佳作法
 
@@ -294,6 +286,8 @@ ht-degree: 0%
 * 使用清楚的標籤：確保欄位標籤和說明清晰易懂，可供所有使用者使用。
 * 測試表單：在將新表單轉出給更廣大的受眾之前，請使用表單連結和表單預覽選項來測試表單，以確保所有欄位和邏輯都如預期般運作。
 * 保持表單更新：定期稽核並更新表單，以符合記錄型別結構或操作流程中的任何變更。
+
+<!--do we need to add anything for the Configuration tab of a request form?? -->
 
 <!-- this is hidden, per Andrea:  
 
@@ -349,10 +343,10 @@ Here is a summary of how you can define the data flow within Workfront Planning 
 
 * **Planning (or Connections) tab** **in Workfront _-[ [E] Global Connect capability in Planning connections area](https://experience.adobe.com/@adobeinternalworkfront/so:hub-Hub/workfront/project/6617d7760001e250f5ffb9ebf04baacc/overview?source-id=unifiedShareMFE)_** 
 
-    When you go to the Planning section of Adobe Workfront objects, you can display both connections with linked records or any available connections with Planning record types. With that, you can view and edit any connection field without having to navigate away from the current section in Workfront to other areas. The Planning section is available for the following Workfront objects: Project, Portfolio and Program. For more information, see [Manage records in the Planning section of Adobe Workfront objects](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/manage-records-in-planning-section).   
+    When you go to the Planning section of Adobe Workfront objects, you can display both connections with linked records or any available connections with Planning record types. With that, you can view and edit any connection field without having to navigate away from the current section in Workfront to other areas. The Planning section is available for the following Workfront objects: Project, Portfolio and Program. For more information, see [Manage records in the Planning section of Adobe Workfront objects](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/manage-records-in-planning-section).   
 
 
-* Create new records within the connection fields - In-context creation of connected records https://experience.adobe.com/@adobeinternalworkfront/so:hub-Hub/workfront/project/6656c1a30026b903c6edf0210b8cbb23/overview?source-id=unifiedShareMFE  When you need to link records through a connection field but cannot find the required records in the connected record type, you can also create new records in the connected record type directly within the connection fields, with that you can efficiently establish necessary links without having to leave the current record type context. For more information, see Create records https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/create-records.   
+* Create new records within the connection fields - In-context creation of connected records https://experience.adobe.com/@adobeinternalworkfront/so:hub-Hub/workfront/project/6656c1a30026b903c6edf0210b8cbb23/overview?source-id=unifiedShareMFE  When you need to link records through a connection field but cannot find the required records in the connected record type, you can also create new records in the connected record type directly within the connection fields, with that you can efficiently establish necessary links without having to leave the current record type context. For more information, see Create records https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/create-records.   
 
      
 
@@ -360,7 +354,7 @@ Here is a summary of how you can define the data flow within Workfront Planning 
 
      
 
-* **Connection between Workspaces with Record types accessible from multiple workspaces** – ~~Epic – "[Connect to record types across workspaces](https://experience.adobe.com/@adobeinternalworkfront/so:hub-Hub/workfront/project/64dfad3100027190324dcc35b2176e76/overview?source-id=unifiedShareMFE)"~~ When you are creating a workspace in Planning, you can define certain record types once and then configure them to be accessible from multiple workspaces so you can create connections with them from anywhere. This way, you can streamline the data management process, eliminate duplicative work, and ensure data consistency across teams. As a result, your teams can tag their records with common taxonomies and unlock better visualization, filtering, grouping, and reporting of cross-team work.  For more information, see [Edit record types](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-architecture/edit-record-types). 
+* **Connection between Workspaces with Record types accessible from multiple workspaces** – ~~Epic – "[Connect to record types across workspaces](https://experience.adobe.com/@adobeinternalworkfront/so:hub-Hub/workfront/project/64dfad3100027190324dcc35b2176e76/overview?source-id=unifiedShareMFE)"~~ When you are creating a workspace in Planning, you can define certain record types once and then configure them to be accessible from multiple workspaces so you can create connections with them from anywhere. This way, you can streamline the data management process, eliminate duplicative work, and ensure data consistency across teams. As a result, your teams can tag their records with common taxonomies and unlock better visualization, filtering, grouping, and reporting of cross-team work.  For more information, see [Edit record types](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-architecture/edit-record-types). 
 
      
 
