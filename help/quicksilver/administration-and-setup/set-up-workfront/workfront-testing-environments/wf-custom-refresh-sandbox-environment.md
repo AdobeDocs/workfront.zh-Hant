@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
+source-git-commit: 5b5f9083ed4b60fa6642100cfb9b0da46799dffa
 workflow-type: tm+mt
-source-wordcount: '1719'
-ht-degree: 0%
+source-wordcount: '1741'
+ht-degree: 1%
 
 ---
 
@@ -29,11 +29,11 @@ ht-degree: 0%
 >
 >  此外，取得預覽沙箱不需要的自訂重新整理沙箱會另外產生成本。
 >
->  如需有關預覽沙箱的詳細資訊，請參閱[預覽沙箱環境 [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)。
+>  如需有關預覽沙箱的詳細資訊，請參閱[預覽沙箱環境 [!DNL Adobe Workfront] ](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -223,3 +223,8 @@ If you are a Workfront Goals customer, Workfront Goals data does not transfer to
 * [!DNL Workfront]自訂重新整理沙箱環境旨在永遠可用。 Workfront自訂重新整理沙箱環境在正常工作時間內發生的任何中斷，都是解決任何生產問題（如果存在）後立即優先考慮的事項。 Workfront自訂重新整理沙箱環境在週末（星期六和星期日）發生的任何中斷都會得到解決，因此環境會在星期一的營業時間執行。
 
 * 校訂在自訂重新整理沙箱環境中不可用。
+
+* 以下通知不適用於自訂重新整理沙箱環境：
+
+   * 提醒通知
+   * 自動延遲或提早提醒通知
