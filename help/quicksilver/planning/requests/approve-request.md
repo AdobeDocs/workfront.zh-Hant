@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: de568156315ff9094d938600c91b55e185d53765
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 0%
+source-wordcount: '885'
+ht-degree: 1%
 
 ---
 
@@ -47,9 +47,9 @@ ht-degree: 0%
 
 * 您可以在「核准者」與「已核准日期」欄位中提交請求表單，顯示所建立記錄的核准資訊。 如需詳細資訊，請參閱[建立欄位](/help/quicksilver/planning/fields/create-fields.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -99,7 +99,7 @@ ht-degree: 0%
 
 若要核准請求，請執行下列步驟：
 
-1. 執行下列其中一項：
+1. （視條件而定）如果您在Workfront中使用舊版請求體驗，請執行以下任一操作來開啟請求：
 
    * 若您擁有Workfront Planning的存取權，且至少可以檢視一個工作區，請按一下畫面右上角的&#x200B;**主功能表** ![點主功能表](assets/dots-menu.png)，或左上角的&#x200B;**主功能表** ![行主功能表](assets/lines-menu.png) （若有），然後按一下&#x200B;**要求** > **已提交** > **Planning**，再按一下狀態為&#x200B;**擱置檢閱**&#x200B;或&#x200B;**檢閱中**&#x200B;的要求。
 
@@ -113,7 +113,7 @@ ht-degree: 0%
    請求頁面會以唯讀模式開啟。
 
    ![稽核狀態的唯讀要求頁面](assets/read-only-reqeust-page-in-review-status.png)
-
+1. 如果您在Workfront中使用新的請求體驗，請按一下畫面右上角的&#x200B;**主功能表** ![點主功能表](assets/dots-menu.png)，或左上角的&#x200B;**主功能表** ![行主功能表](assets/lines-menu.png) （若有），然後按一下&#x200B;**請求**，然後按一下您想要核准且狀態為&#x200B;**擱置檢閱**&#x200B;或&#x200B;**檢閱中**&#x200B;的請求。
 1. （選擇性）按一下請求右上角的&#x200B;**核准**&#x200B;圖示![核准圖示](assets/approvals-icon.png)以檢視核准者。
 1. 按一下&#x200B;**檢閱並核准**，然後選擇下列其中一項：
 

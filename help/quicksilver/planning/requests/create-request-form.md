@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: de568156315ff9094d938600c91b55e185d53765
 workflow-type: tm+mt
-source-wordcount: '2643'
+source-wordcount: '2684'
 ht-degree: 1%
 
 ---
@@ -32,9 +32,9 @@ ht-degree: 1%
 
 如需有關將請求提交至記錄型別以建立記錄的資訊，請參閱[提交Adobe Workfront Planning請求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -166,7 +166,7 @@ ht-degree: 1%
 表單詳細資料會分為幾個索引標籤。
 
 * **表單**&#x200B;索引標籤可讓您新增欄位和內容元素至表單
-* **組態**&#x200B;索引標籤可讓您設定表單的核准程式，以及設定要求完成選項&lt;。
+* **組態**索引標籤可讓您設定表單的核准程式，以及設定要求完成選項&lt;。
   <!--* <span class="preview">The **Automations** tab allows you to automate what will occur based on features of the request made with the form.</span>-->
 
 #### 設定表單詳細資料
@@ -241,13 +241,13 @@ ht-degree: 1%
 
    <!--below bullet list is duplicated in the Add approval to a request form article-->
 
-   * 將請求表單與核准者建立關聯時，任何新請求都必須先由所有核准者核准，才能產生新記錄。
    * 您可以將一個或多個核准者新增至請求表單。
-   * 如果至少有一位核准者拒絕請求，則請求會遭到拒絕，且不會建立記錄。
-   * 在核准或拒絕請求之前，所有核准者都必須做出決定。
+   * 如果您新增多個核准者，但未啟用「僅需一個決定」選項，則所有核准者必須在Workfront Planning建立記錄前核准請求。
+   * 如果至少有一位核准者拒絕請求，則請求會遭到拒絕，且不會建立記錄。 請求會保留在Workfront請求區域的已提交區段的Planning索引標籤中。
+   * 如果您新增多個核准者，但未啟用「只有一個決定是必要的」選項，則所有核准者必須在核准或拒絕請求之前做出決定。
    * 如果團隊被設定為核准者，則只需從團隊中做出一個決定。
 
-     如需新增核准至請求表單的詳細資訊，請參閱[新增核准至請求表單](/help/quicksilver/planning/requests/add-approval-to-request-form.md)。
+   如需新增核准至請求表單的詳細資訊，請參閱[新增核准至請求表單](/help/quicksilver/planning/requests/add-approval-to-request-form.md)。
 
 1. （視條件而定）如果要在任何核准者核准記錄後建立記錄，請核取&#x200B;**僅需要一個決定**&#x200B;核取方塊。
 

@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: de568156315ff9094d938600c91b55e185d53765
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 0%
+source-wordcount: '688'
+ht-degree: 2%
 
 ---
 
@@ -35,9 +35,9 @@ ht-degree: 0%
 
 如需有關將請求提交至記錄型別以建立記錄的資訊，請參閱[提交Adobe Workfront Planning請求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -90,11 +90,8 @@ ht-degree: 0%
    顯示&#x200B;**組態**&#x200B;區域。
 
    ![設定索引標籤](assets/configuration-tab.png)
-1. 在&#x200B;**核准者**&#x200B;欄位中，按一下下拉式圖示，然後在清單中選取一或多個使用者或團隊
-
-   或
-
-   開始輸入您想要設定為核准者的使用者或團隊名稱，然後在其顯示在清單中時選取它。
+1. 在&#x200B;**核准者**&#x200B;欄位中，開始輸入您要設定為核准者的使用者或團隊名稱，然後在其顯示在清單中時選取它。
+1. （選擇性和條件性）如果您已設定多個核准者，且僅需要一個核准者才能做出決定，請啟用&#x200B;**僅需要一個決定**&#x200B;選項。
 
    <!--most of the Note below is duplicated in the Create a request form article-->
 
@@ -103,11 +100,11 @@ ht-degree: 0%
    >
    >* 您可以將一個或多個核准者新增至請求表單。
    >
-   >* 如果您新增多個核准者，則在Workfront Planning建立記錄之前，所有核准者都必須核准請求。
+   >* 如果您新增多個核准者，但未啟用「僅需一個決定」選項，則所有核准者必須在Workfront Planning建立記錄前核准請求。
    >
    >* 如果至少有一位核准者拒絕請求，則請求會遭到拒絕，且不會建立記錄。 請求會保留在Workfront請求區域的已提交區段的Planning索引標籤中。
    >
-   >* 在核准或拒絕請求之前，所有核准者都必須做出決定。
+   >* 如果您新增多個核准者，但未啟用「只有一個決定是必要的」選項，則所有核准者必須在核准或拒絕請求之前做出決定。
    >
    >* 如果團隊被設定為核准者，則只需從團隊中做出一個決定。
 
@@ -116,7 +113,7 @@ ht-degree: 0%
 
    或
 
-   按一下[共用]以共用表單，然後按[複製]連結&#x200B;**。**&#x200B;**&#x200B;**
+   按一下[共用]以共用表單，然後按[複製]連結&#x200B;**。******
 1. （選用）使用者使用您共用的連結並提交請求後，Workfront Planning會傳送核准應用程式內通知及電子郵件給核准者。
 
    >[!NOTE]
