@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1165'
 ht-degree: 5%
 
 ---
@@ -66,21 +66,6 @@ ht-degree: 5%
 
   如需詳細資訊，請參閱[共用檢視](/help/quicksilver/planning/access/share-views.md)。
 
-在內部，您可以與下列Workfront實體共用工作區、檢視或記錄型別：
-
-* 使用者
-* 群組
-* 團隊
-* 公司
-* 職務角色
-
-當您與他人共用工作區和記錄型別時，記錄型別的許可權層級會自動繼承到與其關聯的記錄和欄位。
-
->[!IMPORTANT]
->
->如果您組織的Workfront例項已上線至Adobe統一體驗，則您想要與其共用Planning物件的使用者必須新增至Adobe Admin Console。 您無法與尚未新增至Adobe Admin Console的Workfront使用者共用Planning物件。
-
-
 ## 在Adobe Workfront Planning中共用物件的相關考量事項
 
 * 您的Adobe Workfront授權型別與Workfront Planning許可權搭配使用，可讓您檢視、貢獻或管理工作區及其物件。
@@ -88,14 +73,30 @@ ht-degree: 5%
   如需授權型別如何影響Workfront Planning許可權等級的資訊，請參閱[使用Adobe Workfront Planning時的授權型別概觀](/help/quicksilver/planning/access/license-type-overview.md)。
 * 系統管理員可以管理系統中的所有工作區，包括他們未建立的工作區。
 * 其他使用者（包括系統管理員）只能存取他們已建立或已與他們共用的檢視。 系統管理員只能獲得管理檢視的許可權。
-* 您可以與他人共用工作區的連結或檢視。
 
-  存在下列情況：
-   * 收到工作區連結的使用者必須是作用中使用者，並登入Workfront才能存取工作區。
-   * 使用者收到檢視的連結後，可透過下列方式存取檢視：
+* 當您與他人共用工作區和記錄型別時，記錄型別的許可權層級會自動繼承到與其關聯的記錄和欄位。
 
-      * 如果檢視的連結為內部共用，則必須是作用中使用者並登入Workfront。
-      * 可以是Workfront的外部使用者，不需登入Workfront，即可從公開共用的連結存取檢視。
+  >[!IMPORTANT]
+  >
+  >如果您組織的Workfront例項已上線至Adobe統一體驗，則您想要與其共用Planning物件的使用者必須新增至Adobe Admin Console。 您無法與尚未新增至Adobe Admin Console的Workfront使用者共用Planning物件。
+
+* 您可以透過下列方式共用Planning物件：
+
+   * 在內部，您可以與下列Workfront實體共用工作區、檢視或記錄型別：
+
+      * 使用者
+      * 群組
+      * 團隊
+      * 公司
+      * 職務角色
+
+     您可以與每個物件最多100個實體共用Planning物件。
+
+   * 在內部，透過與其他Planning使用者共用工作區或檢視的連結。 存在下列情況：
+
+      * 收到工作區連結的使用者必須是作用中使用者，並登入Workfront才能存取工作區。
+      * 收到檢視的內部共用連結的使用者必須是作用中使用者，並且登入Workfront才能存取檢視。
+   * 從外部來說，透過與沒有Workfront帳戶的外部使用者共用檢視的公開共用連結。
 
 ## 共用Adobe Workfront Planning物件的許可權
 
@@ -169,7 +170,7 @@ The following are the levels of permissions for record types:
 
 >[!NOTE]
 >
->*當您從記錄型別中移除許可權時，使用者仍然保留對工作區和所有記錄型別的檢視許可權，除非您從工作區中移除其許可權。
+>當您從記錄型別中移除許可權時，使用者仍然保留對工作區和所有記錄型別的檢視許可權，除非您從工作區中移除其許可權。
 
 ### 記錄的許可權
 

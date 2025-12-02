@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 0%
+source-wordcount: '647'
+ht-degree: 1%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 從全域記錄型別新增記錄至工作區之前，請先參閱文章[跨工作區記錄型別概觀](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)。
 
 
-## 存取需求
+## 存取權要求
 
 +++ 展開以檢視本文中功能的存取需求。
 
@@ -47,10 +47,10 @@ ht-degree: 0%
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront套件</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
 <ul><li><p>任何Workfront套件和Planning Plus套件</p></li>
-<p>或</p>
+或
 <li><p>任何工作流程和Planning Prime或Ultimate套件</p></p></li></ul>
 <p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
    </td> 
@@ -114,10 +114,11 @@ And
 
 >[!NOTE]
 >
->請確定至少有一個記錄型別被指定為在至少一個其他工作區中的全域。
+>請確定至少有一個記錄型別被指定為在至少一個其他主要工作區中的全域。
 >
 >如需詳細資訊，請參閱[設定記錄型別的跨工作區功能](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)。
 
+1. 移至您要建立記錄型別的工作區（次要工作區）。
 1. 開始建立記錄型別，如文章[建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md)中所述，然後按一下&#x200B;**新增現有的**。<!--check this - the option might have been renamed in the UI-->
 
    ![從另一個工作區新增選項以新增記錄型別的模型](assets/add-record-type-from-existing-workspace-option-when-creating-records.png)
@@ -126,10 +127,10 @@ And
    >
    >當沒有記錄型別設定為要新增至系統中的其他工作區時，不會顯示&#x200B;**新增現有**&#x200B;選項。
 
-1. 按一下&#x200B;**繼續**。
+1. 按一下「**繼續**」。
 1. 在「**選擇記錄型別**」方塊中，按一下您要從現有工作區新增之記錄型別的卡片，然後按一下「**新增**」。
 
-   記錄型別已新增至您選取的工作區，**全域記錄型別**&#x200B;圖示![](assets/global-icon.png)會顯示在記錄型別的卡片上。
+   記錄型別已新增至您選取的次要工作區，且&#x200B;**全域記錄型別**&#x200B;圖示![](assets/global-icon.png)會顯示在記錄型別的卡片上。
 
    會發生下列情況：
 

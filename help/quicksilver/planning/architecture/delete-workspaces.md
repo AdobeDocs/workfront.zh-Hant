@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
 source-wordcount: '347'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 1%
 
 建議您先在其他工作區中重新建立與您要刪除的工作區相關聯的部分或全部記錄型別、記錄、欄位和檢視，然後再刪除工作區。
 
-## 存取需求
+## 存取權要求
 
 +++ 展開以檢視本文中功能的存取需求。 
 
@@ -42,11 +42,11 @@ ht-degree: 1%
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront套件</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
 <ul> 
 <li><p>任何Workfront和任何Planning套件</p></li>
-<p>或</p>
+或
 <li><p>任何工作流程與任何Planning套件</p></li></ul>
 <p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
    </td> 
@@ -141,7 +141,7 @@ ht-degree: 1%
 1. 若要刪除工作區，請執行下列任一項作業：
 
    * 將滑鼠停留在工作區卡片上，然後按一下卡片右上角的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)
-或
+或<!--Add this to the bullet below: <span class="preview">Search for a workspace by name and </span>-->
    * 按一下工作區卡以開啟工作區，然後按一下工作區名稱右側的&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)。
 1. 按一下&#x200B;**刪除**。
 

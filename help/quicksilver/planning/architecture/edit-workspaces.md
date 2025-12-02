@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
 source-wordcount: '645'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 您對工作區所做的所有變更，對至少擁有工作區檢視許可權的所有使用者都是可見的。
 
-## 存取需求
+## 存取權要求
 
 +++ 展開以檢視本文中功能的存取需求。 
 
@@ -44,11 +44,11 @@ ht-degree: 0%
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront套件</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
 <ul> 
 <li><p>任何Workfront和任何Planning套件</p></li>
-<p>或</p>
+或
 <li><p>任何工作流程與任何Planning套件</p></li></ul>
 <p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
    </td> 
@@ -139,7 +139,7 @@ ht-degree: 0%
 1. 若要編輯工作區，請執行下列任一項作業：
 
    * 將滑鼠停留在工作區卡片上，然後按一下卡片右上角的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)
-或
+或<!--Add this to the next bullet: <span class="preview"> Search for a workspace by name and</span>-->
    * 按一下工作區卡以開啟工作區，然後按一下工作區名稱右側的&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)。
 1. 按一下&#x200B;**編輯**。
 

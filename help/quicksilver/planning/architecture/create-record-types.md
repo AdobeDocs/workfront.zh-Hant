@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
-source-wordcount: '1140'
-ht-degree: 1%
+source-wordcount: '1199'
+ht-degree: 2%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 1%
 
 如需有關記錄型別的詳細資訊，請參閱[記錄型別概觀](/help/quicksilver/planning/architecture/overview-of-record-types.md)。
 
-## 存取需求
+## 存取權要求
 
 +++ 展開以檢視本文中功能的存取需求。 
 
@@ -44,7 +44,7 @@ ht-degree: 1%
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront套件</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
 <p>任何Workfront和Planning套件</p>
 <p>任何工作流程和Planning套件</p>
@@ -52,7 +52,7 @@ ht-degree: 1%
 <p>若要設定可連線的記錄型別： </p>
 <ul> 
 <li><p>任何Workfront套件和任何Planning套件</p></li>
-<p>或</p>
+或
 <li><p>任何工作流程和Planning Prime或Ultimate套件</p></li></ul>
 
 <div class="preview">
@@ -60,7 +60,7 @@ ht-degree: 1%
 
 <ul> 
 <li><p>任何Workfront套件和Planning Plus套件</p></li>
-<p>或</p>
+或
 <li><p>任何工作流程和Planning Prime或Ultimate套件</p></li></ul>
 <p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p>
 
@@ -163,9 +163,8 @@ ht-degree: 1%
 
         本文說明如何從頭開始建立記錄型別。
 
-     <!--
-        * <span class="preview">By adding them from another workspace</span>
-            <span class="preview">For information, see [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md). </span>-->
+      * <span class="preview">透過從另一個工作區新增它們</span>
+        <span class="preview">如需詳細資訊，請參閱[從另一個工作區新增現有記錄型別](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)。</span>
 
 
 * 您可以在區段內以及工作區一個區段之間移動記錄型別。 您無法將記錄型別從一個工作區移動到另一個工作區。
@@ -197,7 +196,7 @@ ht-degree: 1%
 1. （選擇性）按一下&#x200B;**新增區段**&#x200B;以新增區段至工作區。
 1. 按一下&#x200B;**新增記錄型別**，然後按&#x200B;**手動新增**。
 
-   「新增記錄型別」方塊開啟。<!--update screen shot for preview-->
+   「新增記錄型別」方塊開啟。
 
    ![新增具有外觀選項的記錄型別方塊](assets/add-record-type-box-with-appearance-options.png)
 
@@ -207,13 +206,11 @@ ht-degree: 1%
    * **描述**：新增記錄型別的詳細資訊。
    * 為與記錄型別關聯的圖示選取顏色和形狀。 請執行下列動作：
       * 選取顏色以識別您的新記錄型別。 這是記錄型別圖示的顏色。 預設會選取「灰色」。
-      * 從清單中選取圖示，或開始輸入圖示名稱以說明其代表內容，然後在顯示時選取它。 這是記錄型別的圖示。 依預設，會選取檔案圖示。
+      * 從清單中選取圖示，或在搜尋欄位中開始輸入圖示名稱以說明其代表內容，然後在顯示時選取它。 這是記錄型別的圖示。 依預設，會選取檔案圖示。
 
-1. （選擇性和條件性）如果您是系統管理員，請按一下&#x200B;**進階設定** <span class="preview">或&#x200B;**跨工作區設定**</span>&#x200B;索引標籤，並更新記錄型別的跨工作區功能相關資訊。
+1. （選擇性和條件性）如果您是系統管理員，請按一下&#x200B;**進階設定** <span class="preview">或&#x200B;**跨工作區設定**</span>&#x200B;索引標籤和<span class="preview">更新有關記錄型別的跨工作區功能的資訊。
 
-   如需詳細資訊，請參閱[設定記錄型別的跨工作區功能](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)。<!--update screen shot at production - Jan 2026-->
-
-   ![使用進階設定索引標籤編輯記錄型別方塊](assets/edit-record-type-box-advanced-settings-tab.png)
+   ![使用進階設定索引標籤編輯記錄型別方塊](assets/edit-record-type-box-advanced-settings-tab.png) </span>
 
    如需詳細資訊，請參閱[設定記錄型別的跨工作區功能](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)。
 
@@ -240,7 +237,7 @@ ht-degree: 1%
 
    依預設，下列欄位會顯示在作業記錄型別的表格檢視欄中：
 
-   * 姓名
+   * 名稱
    * 說明
    * 開始日期
    * 結束日期
@@ -280,16 +277,12 @@ ht-degree: 1%
 
 如需詳細資訊，請參閱[從CSV或Excel檔案匯入資訊，以建立記錄型別](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md)。
 
-<!--
-
 <div class="preview">
 
-## Create record types by adding existing ones from another workspace 
+## 從另一個工作區新增現有記錄型別，以建立記錄型別
 
-You can add record types to a workspace by adding existing ones from another workspace. You can only add record types that have been configured as global record types. 
+您可以透過從另一個工作區新增現有記錄型別來將記錄型別新增到工作區。 您只能新增已設定為全域記錄型別的記錄型別。
 
-For information, see [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
+如需詳細資訊，請參閱[從其他工作區新增現有記錄型別](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)。
 
 </div>
-
--->

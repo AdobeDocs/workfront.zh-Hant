@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
 source-wordcount: '1062'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 <!-- last sentence might need to be deleted when we can recover or replace deleted record types-->
 
-## 存取需求
+## 存取權要求
 
 +++ 展開以檢視本文中功能的存取需求。 
 
@@ -46,16 +46,16 @@ ht-degree: 0%
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront套件</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
 <ul> 
 <li><p>任何Workfront和任何Planning套件</p></li>
-<p>或</p>
+或
 <li><p>任何工作流程與任何Planning套件</p></li></ul>
 <div class="preview">
 <p>若要刪除全域記錄型別，請執行下列動作：</p>
 <ul><li><p>任何Workfront套件和Planning Plus套件</p></li>
-<p>或</p>
+或
 <li><p>任何工作流程和Planning Prime或Ultimate套件</p></li></ul>
 </div>
 <p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 

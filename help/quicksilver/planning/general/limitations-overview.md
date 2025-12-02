@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 2%
+source-wordcount: '461'
+ht-degree: 3%
 
 ---
 
@@ -35,8 +35,8 @@ Adobe Workfront Planning限制您可在執行個體中建立的物件數目。 �
 | 一個工作區的區段數 | 50 |
 | 一個工作區的記錄型別數 | 100 （這包括來自所有區段的記錄型別，以及在使用工作區範本時建立的記錄型別） |
 | 一種記錄型別的記錄數 | 25,000 |
-| 一個工作區的記錄數 | 25,000適用於計畫為<br>的客戶500,000適用於計畫為Planning Plus的客戶 |
-| Workfront Planning單一例項的總記錄數 | 500,000 （計畫客戶） <br>200,000 （計畫客戶） （計畫外加客戶） |
+| 一個工作區的記錄數 | 計畫選取： 25,000 <br>計畫Prime： 500,000 <br>計畫Ultimate： 1,000,000 |
+| Workfront Planning單一例項的總記錄數 | 計畫選取： 500,000 <br>計畫Prime： 2,000,000 <br>計畫Ultimate：無限制 |
 | 一種記錄型別或分類法的欄位數 | 500 |
 | 單行文字欄位的字元數 | 1,000 個字元 |
 | 段落欄位的字元數 | 10,000 個字元 |
@@ -51,6 +51,7 @@ Adobe Workfront Planning限制您可在執行個體中建立的物件數目。 �
 | 一種記錄型別的公式欄位數 | 20 |
 | <span class="preview">單一記錄型別的連線欄位數目</span> | <span class="preview">30</span> |
 | 公式欄位運算式中的字元數 | 50,000 |
+| 可與Planning物件共用的實體（使用者、角色、團隊、公司、群組）數目 | 100 |
 
 *我們建議您不要有太多工作區，因為這些工作區可能會變得難以管理，而且您的工作流程可能太分散。
 

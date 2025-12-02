@@ -5,10 +5,10 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 2%
+source-wordcount: '462'
+ht-degree: 3%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 2%
 
   本文說明如何透過設定記錄的「設定」頁面來編輯記錄型別。
 
-## 存取需求
+## 存取權要求
 
 +++ 展開以檢視本文中功能的存取需求。 
 
@@ -49,24 +49,20 @@ ht-degree: 2%
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront套件</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
 <p>任何Workfront和Planning套件</p>
-<p>任何Workfront和Planning套件</p>
+<p>任何工作流程和Planning套件</p>
+<div class="preview">
 <p><b>附註</b></p>
-<p>若要設定可連線的記錄型別： </p>
-<ul> 
-<li><p>任何Workfront套件和任何Planning套件</p></li>
-<p>或</p>
-<li><p>任何工作流程和Planning Prime或Ultimate套件</p></li></ul>
-
 <p>若要設定全域記錄型別，請執行下列動作：</p>
 
 <ul> 
 <li><p>任何Workfront套件和Planning Plus套件</p></li>
-<p>或</p>
-<li><p>任何工作流程和Planning Prime或Ultimate套件</p></li></ul>
-<p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p>
+或
+<li><p>任何Workflow套件和Planning Prime或Ultimate套件</p></li></ul>
+<p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
+</div>
    </td> </tr>
   <tr> 
    <td role="rowheader"><p>Adobe Workfront授權</p></td> 

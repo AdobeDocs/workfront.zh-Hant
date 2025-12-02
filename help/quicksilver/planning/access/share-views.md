@@ -6,23 +6,22 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
-source-wordcount: '1785'
-ht-degree: 0%
+source-wordcount: '1902'
+ht-degree: 1%
 
 ---
 
 
 # 共用檢視
 
-<!--
+<!--there are several mentions on how to share public links for global record types in secondary workspaces in this articel; you have to update all of these mentions when something changes-->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
--->
 
 {{planning-important-intro}}
 
@@ -40,9 +39,9 @@ ht-degree: 0%
 <!--
 This article describes how you can share a view with others. For information about requesting, granting, or denying permissions to a view, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md). -->
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <!--at GA, check that the Workfront plans article linked below has Planning info-->
 
@@ -54,7 +53,7 @@ This article describes how you can share a view with others. For information abo
 <tbody> 
     <tr> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront套件</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
 <p>任何Workfront和Planning套件</p> 
 或
@@ -170,6 +169,11 @@ This article describes how you can share a view with others. For information abo
 
 * 當您公開共用檢視時，公司以外的任何人只要在到期日所指示的限定時間內都可以存取連結。 不需要登入即可檢視共用檢視。
 
+  >[!NOTE]
+  >
+  ><span class="preview">您無法在次要工作區中，從全域記錄型別公開共用檢視。 如需詳細資訊，請參閱[從另一個工作區新增現有記錄型別](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)。</span>
+
+
 * 您組織外有權存取檢視的人員無法在檢視中建立其他檢視、編輯共用檢視，或新增、刪除或編輯記錄資訊。
 
 ## 與內部檢視共用許可權
@@ -239,6 +243,8 @@ This article describes how you can share a view with others. For information abo
 
 您可以將建立的檢視或您擁有管理許可權的檢視共用給沒有Workfront授權以及可能屬於您組織外部的人員。
 
+<span class="preview">您無法在其次要工作區中，從全域記錄型別公開共用檢視。</span>
+
 >[!IMPORTANT]
 >
 >只有具有工作區管理許可權的使用者才能公開共用工作區的檢視。
@@ -268,6 +274,11 @@ This article describes how you can share a view with others. For information abo
 1. 啟用&#x200B;**建立公用連結**&#x200B;設定。
 
    連結隨即變為可用。 此為公開連結。 共用時，擁有連結的任何人，包括組織外部的人員，都可以存取記錄型別頁面，並檢視頁面上的記錄和欄位。
+
+   >[!TIP]
+   >
+   ><span class="preview">在其次要工作區中，全域記錄型別的&#x200B;**建立公用連結**&#x200B;設定為暗灰色。</span>
+
 
 1. 按一下&#x200B;**複製連結**&#x200B;圖示![複製連結檢視](assets/copy-link-view.png)，將連結複製到剪貼簿。
 
@@ -324,7 +335,7 @@ This article describes how you can share a view with others. For information abo
      ![檢視](assets/in-app-notification-for-access-request-for-view.png)存取要求的應用程式內通知
 1. （視條件而定）從Workfront的通知區域，按一下應用程式內通知
 或
-在電子郵件通知中，按一下&#x200B;**檢視所有通知**，然後按一下清單中的通知。
+在電子郵件通知中，按一下**檢視所有通知**，然後按一下清單中的通知。
 
    顯示&#x200B;**擱置中的存取要求**&#x200B;方塊。
 

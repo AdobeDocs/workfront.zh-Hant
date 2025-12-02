@@ -6,10 +6,10 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 author: Alina
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 <!-- this is not possible yet, since fields cannot be shared yet; maybe move this up a bit, in this bullet list: * When you delete a field, it is deleted from all records associated with the field.-->
 
-## 存取需求
+## 存取權要求
 
 +++ 展開以檢視本文中功能的存取需求。 
 
@@ -60,17 +60,17 @@ ht-degree: 0%
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront套件</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
 <ul> 
 <li><p>任何Workfront和任何Planning套件</p></li>
-<p>或</p>
+或
 <li><p>任何工作流程與任何Planning套件</p></li></ul>
 
 <!--
 <p><span class="preview">To delete global record types:</span</p>
 <ul><li><p><span class="preview">Any Workfront package and a Planning Plus package</span></p></li>
-<p>Or</p>
+Or
 <li><p><span class="preview">Workflow and Planning Prime and Ultimate packages</span></p></li></ul>
 -->
 
