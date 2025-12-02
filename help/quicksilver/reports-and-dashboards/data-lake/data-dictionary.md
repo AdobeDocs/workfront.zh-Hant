@@ -7,9 +7,9 @@ description: 本頁包含有關Workfront Data Connect中資料結構和內容的
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: e06db80d752d79157c758b3ecf3a8d4e7040e96d
+source-git-commit: 815bee06ce413005e362d2e38068d591696cad5b
 workflow-type: tm+mt
-source-wordcount: '8788'
+source-wordcount: '8878'
 ht-degree: 9%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->Data Connect中的資料每四小時會重新整理一次，因此最近的變更可能不會立即顯示。
+>Data Connect中的資料每4小時會重新整理一次，因此最近的變更可能不會立即顯示。
 
 ## 檢視型別
 
@@ -49,7 +49,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
 >[!IMPORTANT]
 >
 >提供的實體關聯圖(ERD)故意不完整，因為應用程式內的關聯性數目很高，導致完整的ERD無法讀取。<br>
->&#x200B;>此圖表提供範例，說明如何使用下方[術語表格](#terminology-table)區段中Project表格中記錄的關聯性，將Project資料檢視的資料聯結至相鄰物件。 當專案物件關係瞭解此模式後，預計不需要完整ERD
+>此圖表提供範例，說明如何使用下方[術語表格](#terminology-table)區段中Project表格中記錄的關聯性，將Project資料檢視的資料聯結至相鄰物件。 當專案物件關係瞭解此模式後，預計不需要完整ERD
 
 ## 日期型別
 
@@ -67,7 +67,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
 >[!NOTE]
 >
 >新欄位可新增至物件檢視，恕不另行通知，以支援Workfront應用程式不斷變化的資料需求。 當下游資料收件者未準備好在新增資料行時處理其他資料行時，請謹慎使用「SELECT」查詢。<br>
->&#x200B;>如果需要重新命名或移除欄，我們會提供這些變更的預先通知。
+>如果需要重新命名或移除欄，我們會提供這些變更的預先通知。
 
 ### 存取層級
 
@@ -1660,17 +1660,21 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         </tr>
     </tbody>
 </table>
-<div>*透過'enumClass'屬性識別記錄的型別。 下列是預期的型別： <br>
-<ul><li>CONDITION_OPTASK</li>
-<li>CONDITION_PROJ</li>
-<li>CONDITION_TASK</li>
-<li>PRIORITY_OPTASK</li>
-<li>優先順序_專案</li>
-<li>PRIORITY_TASK</li>
-<li>SEVERITY_OPTASK</li>
-<li>STATUS_OPTASK</li>
-<li>STATUS_PROJ</li>
-<li>狀態任務</li></ul></div>
+
+>[!NOTE]
+>
+>透過`enumClass`屬性識別記錄的型別。 下列是預期的型別： <br>
+><ul><li>CONDITION_OPTASK</li>
+&gt;<li>CONDITION_PROJ</li>
+&gt;<li>CONDITION_TASK</li>
+&gt;<li>PRIORITY_OPTASK</li>
+&gt;<li>優先順序_專案</li>
+&gt;<li>PRIORITY_TASK</li>
+&gt;<li>SEVERITY_OPTASK</li>
+&gt;<li>STATUS_OPTASK</li>
+&gt;<li>STATUS_PROJ</li>
+&gt;<li>狀態任務</li></ul>
+
 
 ### 文件
 
@@ -2820,7 +2824,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
     </tbody>
 </table>
 
-### Hour
+### 時數
 
 <table>
     <thead>
@@ -2834,10 +2838,10 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
       </thead>
       <tbody>
         <tr>
-            <td>Hour</td>
-            <td>Hour</td>
+            <td>時數</td>
+            <td>時數</td>
             <td>HOUR</td>
-            <td>Hour</td>
+            <td>時數</td>
             <td>HOURS_CURRENT<br>HOURS_DAILY_HISTORY<br>HOURS_EVENT</td>
         </tr>
       </tbody>
@@ -3093,7 +3097,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
     </tbody>
 </table>
 
-### 日誌輸入項目
+### 日誌項目
 
 <table>
     <thead>
@@ -3107,10 +3111,10 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
       </thead>
       <tbody>
         <tr>
-            <td>日誌輸入項目</td>
-            <td>日誌輸入項目</td>
+            <td>日誌項目</td>
+            <td>日誌項目</td>
             <td>JRNLE</td>
-            <td>日誌輸入項目</td>
+            <td>日誌項目</td>
             <td>JOURNALENTRIES_CURRENT<br>JOURNALENTRIES_DAILY_HISTORY<br>JOURNALENTRIES_EVENT</td>
         </tr>
       </tbody>
@@ -4375,9 +4379,9 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
       <tbody>
         <tr>
             <td>入口網站區段</td>
-            <td>報表</td>
+            <td>報告</td>
             <td>PTLSEC</td>
-            <td>報表</td>
+            <td>報告</td>
             <td>PORTALSECTIONS_CURRENT<br>PORTALSECTIONS_DAILY_HISTORY<br>PORTALSECTIONS_EVENT</td>
         </tr>
       </tbody>
@@ -4497,9 +4501,9 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
       <tbody>
         <tr>
             <td>入口網站頁簽</td>
-            <td>控制面板</td>
+            <td>儀表板</td>
             <td>PTLTAB</td>
-            <td>控制面板</td>
+            <td>儀表板</td>
             <td>PORTALTABLES_CURRENT<br>PORTALTABLES_DAILY_HISTORY<br>PORTALTABLES_EVENT</td>
         </tr>
       </tbody>
@@ -4682,7 +4686,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
     </tbody>
 </table>
 
-### 產品組合
+### 專案組合
 
 <table>
     <thead>
@@ -4696,10 +4700,10 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
       </thead>
       <tbody>
         <tr>
-            <td>產品組合</td>
-            <td>產品組合</td>
+            <td>專案組合</td>
+            <td>專案組合</td>
             <td>連線埠</td>
-            <td>產品組合</td>
+            <td>專案組合</td>
             <td>PORTFOLIOS_CURRENT<br>PORTFOLIOS_DAILY_HISTORY<br>PORTFOLIOS_EVENT</td>
         </tr>
       </tbody>
@@ -6601,6 +6605,11 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
         </tr>
     </tbody>
 </table>
+
+>[!NOTE]
+>
+>Team物件表格中儲存了3種專案團隊型別： PROJECT、TEMPLATE和ADHOC。<br>
+>這些群組型別都會一起顯示在Data Connect資料湖檢視中。 若要隔離您想要傳回的特定團隊型別，您需要在`teamtype`欄上篩選。 例如，如果您只想讓傳統團隊成為您組織結構的一部分，並在應用程式的Teams區域中設定，則您的查詢可能會如下所示： <code>select * from teams_current where teamtype = &#39;ADHOC&#39;；</code>
 
 ### 小組成員
 
