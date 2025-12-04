@@ -1,13 +1,13 @@
 ---
 title: 建立Workspace階層
-description: 您可以在工作區中的記錄型別之間建立多個工作區階層。
+description: 身為工作區管理員，您可以在Adobe Workfront Planning的記錄型別之間建立多個工作區階層。 在工作區中連線記錄型別並建立階層後，記錄型別會彼此連線，其中一個記錄型別指定為父項，而最多其他6個記錄型別設定為子項。
 hide: true
 hidefromtoc: true
 exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: ff9371b639e7684a94c08b8cd6293b632fac9edf
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 5%
+source-wordcount: '248'
+ht-degree: 2%
 
 ---
 
@@ -28,7 +28,14 @@ hidefromtoc: yes
 
 # 建立工作區階層
 
-您可以在工作區中的記錄型別之間建立多個工作區階層。
+身為工作區管理員，您可以在Adobe Workfront Planning的記錄型別之間建立多個工作區階層。
+
+在工作區中連線記錄型別並建立階層後，記錄型別會彼此連線，其中一個記錄型別指定為父項，而最多其他6個記錄型別設定為子項。<!--asking Robert how many we can have in one hierarchy; I think 7 total but not sure-->
+
+階層會針對記錄型別產生階層連結，且記錄<!--ensure this is the case: does the breadcrumb show for both the RT and the record??-->會顯示在它們的標題中。 如此一來，使用者就能在工作流程的任何階段知道自己在階層中的位置。
+
+如需階層與階層連結的一般資訊，請參閱[階層與階層連結概觀](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)。
+
 
 ## 存取權要求
 
@@ -72,3 +79,5 @@ hidefromtoc: yes
 如需Workfront存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+## 建立工作區階層

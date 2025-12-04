@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 0c890cc535c61c5402a334e43ed45b3ec3f9f748
 workflow-type: tm+mt
-source-wordcount: '1902'
+source-wordcount: '1901'
 ht-degree: 1%
 
 ---
@@ -277,7 +277,7 @@ This article describes how you can share a view with others. For information abo
 
    >[!TIP]
    >
-   ><span class="preview">在其次要工作區中，全域記錄型別的&#x200B;**建立公用連結**&#x200B;設定為暗灰色。</span>
+   ><span class="preview">已在其次要工作區中移除全域記錄型別的&#x200B;**公用共用**&#x200B;索引標籤。</span>
 
 
 1. 按一下&#x200B;**複製連結**&#x200B;圖示![複製連結檢視](assets/copy-link-view.png)，將連結複製到剪貼簿。
@@ -335,7 +335,7 @@ This article describes how you can share a view with others. For information abo
      ![檢視](assets/in-app-notification-for-access-request-for-view.png)存取要求的應用程式內通知
 1. （視條件而定）從Workfront的通知區域，按一下應用程式內通知
 或
-在電子郵件通知中，按一下&#x200B;**檢視所有通知**，然後按一下清單中的通知。
+在電子郵件通知中，按一下**檢視所有通知**，然後按一下清單中的通知。
 
    顯示&#x200B;**擱置中的存取要求**&#x200B;方塊。
 

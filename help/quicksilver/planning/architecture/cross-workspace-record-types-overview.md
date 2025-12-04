@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 0c890cc535c61c5402a334e43ed45b3ec3f9f748
 workflow-type: tm+mt
-source-wordcount: '1569'
+source-wordcount: '1586'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ ht-degree: 0%
      如需詳細資訊，請參閱[刪除記錄型別](/help/quicksilver/planning/architecture/delete-record-types.md)。
    * 共用記錄型別的檢視。
 
-     您無法在次要工作區中，透過全域記錄型別公開共用檢視。 您只能從次要工作區內部共用檢視。
+     您無法在次要工作區中，透過全域記錄型別公開共用檢視。 您只能從次要工作區內部共用檢視。 您可以在原始工作區中，針對全域記錄型別在內部和公開共用檢視。
 
      如需詳細資訊，請參閱[共用檢視](/help/quicksilver/planning/access/share-views.md)。
 

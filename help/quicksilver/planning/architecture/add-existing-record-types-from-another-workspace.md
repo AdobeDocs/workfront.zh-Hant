@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 0c890cc535c61c5402a334e43ed45b3ec3f9f748
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 1%
@@ -144,6 +144,7 @@ And
      >[!NOTE]
      >
      >您無法編輯新記錄型別的外觀、其他設定或原始欄位。 您只能從原始工作區編輯記錄型別及其所有原始欄位和設定。
+     >
 
 1. （可選）按一下，然後將新新增的記錄型別拖放至工作區內的任何區段。
 1. （選擇性）按一下新記錄型別卡片上的&#x200B;**更多**&#x200B;功能表，或其頁面上的記錄型別名稱右側，然後按一下&#x200B;**刪除**。
