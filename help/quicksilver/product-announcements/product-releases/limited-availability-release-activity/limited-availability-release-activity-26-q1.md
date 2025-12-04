@@ -8,9 +8,9 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: bc222ec76ac94a44c33ee166036d84c164b1da01
+source-git-commit: fb1b5bb34810652e5098f0dcad70062670d7c137
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
@@ -50,13 +50,19 @@ ht-degree: 0%
 
 當任務持續時間為0時，進階工作分派畫面上的計畫時數KPI不再可編輯。 以前您可以編輯計畫時數，但變更不會儲存。
 
-<!--### Maintenance Updates week of November 30-December 6, 2025
+### 2025年11月30日至12月6日當週維護更新
+
+未使用日期有效匯率時，**已隱藏的「匯率日期」欄位**
+
+未選取&#x200B;**使用來自系統**&#x200B;的日期有效匯率核取方塊時，專案詳細資料>財務區域中的&#x200B;**匯率日期**&#x200B;欄位現在已隱藏。 先前，編輯專案時，即使未啟用日期有效匯率，專案詳細資料上也會顯示日期欄位。
+
+<!--### Maintenance Updates week of December 7-13, 2025
 
 **Title**
 
 text
 
-### Maintenance Updates week of December 7-13, 2025
+### Maintenance Updates week of January 4-10, 2026
 
 **Title**
 
