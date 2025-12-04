@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 0964ad24535bf43a23c740cd63abcf8fea705b8d
+source-git-commit: 34e6f4386c768b94c3835d4a4d7e7deadc3fecda
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '724'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,21 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 如需針對Adobe Workfront Planning發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## 已移除次要工作區中全域記錄型別的公開檢視共用
+
+
+>[!NOTE]
+>
+>預覽： 2025年12月3日
+>生產快速發行： 2025年12月4日
+>適用於所有人的生產： 2026年1月15日
+
+
+在次要工作區中共用全域記錄的檢視時，我們已移除「公用共用」索引標籤。 您無法從現有全域記錄型別新增到另一個工作區的全域記錄型別公開共用檢視。 您可以從原始工作區公開共用全域記錄型別檢視。
+
+如需詳細資訊，請參閱[共用檢視](/help/quicksilver/planning/access/share-views.md)。
+
 
 ## 連結GenStudio for Performance Marketing Brands與Workfront Planning記錄型別
 

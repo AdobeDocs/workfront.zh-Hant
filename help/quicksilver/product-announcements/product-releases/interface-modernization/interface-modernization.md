@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: f22f00417cd0bfbe53cfee513e8be95a8719f785
+source-git-commit: 1ef57b73a77d0c622b3dbd57057c51d0ccbad7db
 workflow-type: tm+mt
-source-wordcount: '9416'
+source-wordcount: '9457'
 ht-degree: 0%
 
 ---
@@ -1348,7 +1348,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 此更新包含區域的視覺化變更。 功能未變更。
 
-若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。**&#x200B;**
+若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。****
 
 +++
 
@@ -1415,6 +1415,13 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 在這次更新中，我們還新增了關於每個里程碑的顏色和顏色代碼的資訊。
 
 如需詳細資訊，請參閱[建立里程碑路徑](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)。
+
+
+#### 投資組合中專案區段的新外觀
+
+**預覽和生產： 2025年3月18日**
+
+我們改進了投資組合中專案區段的專案清單。 清單現在符合Workfront中的大多數清單。
 
 +++
 
