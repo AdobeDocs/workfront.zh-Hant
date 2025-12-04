@@ -1,18 +1,18 @@
 ---
-title: 使用AI表單填寫以使用提示或檔案填寫請求
+title: 使用由AI支援的表單填寫功能，使用提示或檔案填寫請求
 content-type: reference
 description: 您可以使用AI輸入提示或提供檔案來自動填寫請求欄位。
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
+source-git-commit: 3c319ff406ca7705e618f3159edcf87d27d8229e
 workflow-type: tm+mt
-source-wordcount: '1345'
-ht-degree: 2%
+source-wordcount: '1370'
+ht-degree: 3%
 
 ---
 
-# 使用AI表單填寫以使用提示或檔案填寫請求
+# 使用由AI支援的表單填寫功能，使用提示或檔案填寫請求
 
 >[!NOTE]
 >
@@ -21,7 +21,7 @@ ht-degree: 2%
 >   * 每月發行： 2025年9月11日
 >   * 每季發行： 2025年10月16日
 >
->* 若要使用此功能，您的組織必須符合使用Workfront AI Assistant的需求。 如需詳細資訊，請參閱[&#x200B; AI助理的必要條件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
+>* 若要使用此功能，您的組織必須符合使用Workfront AI Assistant的需求。 如需詳細資訊，請參閱[ AI助理的必要條件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
 
 AI表單填寫可協助您根據輸入的提示自動填寫請求欄位。 它也可以根據文字（例如電子郵件和已上傳的檔案）填寫欄位。 您可以在提交請求之前核准或拒絕這些建議。
 
@@ -29,9 +29,9 @@ AI表單填寫不會覆寫您已填寫的任何欄位。
 
 使用者不會收到他們無法存取的資料建議。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -169,7 +169,7 @@ AI表單填寫可根據文字（例如電子郵件）建議欄位值。 您貼�
 
 ## 根據您上傳的檔案取得建議
 
-自動填寫可根據您上傳的檔案建議欄位值。
+由AI支援的表單填寫可使用提示填寫請求，或檔案可以根據您上傳的檔案建議欄位值。
 
 此型別的建議也會檢查先前是否有類似內容的請求。 例如，如果提示指出請求是針對特定使用者端，Workfront可以根據先前的請求，自動尋找並輸入該使用者端的帳單地址。
 
@@ -234,8 +234,8 @@ Workfront欄位型別會影響指定欄位是否可自動填入。
 
 <table>
 <tr>
-<td><b>支援的</b><br>自動填寫可以填寫</td>
-<td><b>不支援</b> <br>自動填入未填入</td>
+<td><b>支援的</b><br>由AI支援的表單填寫可以填寫</td>
+<td><b>不支援</b> <br>由AI支援的表單填寫未填寫</td>
 </tr>
 <tr>
 <td>
