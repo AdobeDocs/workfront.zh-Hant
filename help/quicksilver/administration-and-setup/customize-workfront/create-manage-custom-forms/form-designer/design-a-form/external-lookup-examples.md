@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: c6adce09acf993ae00b080ac5177dabd953d69a1
+source-git-commit: f01ce9bcbb795097d39e276a734300f5059e35c4
 workflow-type: tm+mt
-source-wordcount: '1461'
-ht-degree: 0%
+source-wordcount: '1462'
+ht-degree: 1%
 
 ---
 
@@ -23,16 +23,16 @@ ht-degree: 0%
 
 如需將外部查詢欄位新增至自訂表單的詳細資訊，以及外部查詢元件的其他定義，請參閱[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
+   <td>Adobe Workfront 封裝</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -104,7 +104,7 @@ ht-degree: 0%
 
 ### 在外部查詢中使用自訂欄位值
 
-此範例顯示如何呼叫Workfront API，並將自訂欄位的資料匯入外部查詢欄位。 範例自訂欄位稱為「自訂顏色」。
+此範例說明如何呼叫Workfront API，並將自訂欄位的資料匯入外部查詢欄位。 範例自訂欄位稱為「自訂顏色」。
 
 1. 開啟自訂表單。
 1. 在熒幕左側，尋找&#x200B;**外部查詢**&#x200B;並將其拖曳至畫布上的區段。
@@ -214,18 +214,18 @@ Workfront Planning API中的端點可透過Get方法，依記錄型別ID搜尋�
 
 建立外部查詢有許多其他使用案例。
 
-**使用案例：**&#x200B;取代自動提示欄位，因為這些欄位可能會導致報表發生問題。
+**使用案例：**取代自動提示欄位，因為這些欄位可能會導致報表發生問題。
 **解決方案：**&#x200B;使用系統現有物件的API呼叫。
 
 範本的基礎API URL範例，取代預先輸入欄位：
 `$$HOST/attask/api/v17.0/tmpl/search?isActive=true&name_Sort=asc`
 
-**使用案例：**&#x200B;建立包含更多功能的下拉式欄位（例如，外部eookup欄位中有換行字元）。
+**使用案例：**建立包含更多功能的下拉式欄位（例如，外部eookup欄位中有換行字元）。
 **解決方案：**&#x200B;使用系統中現有物件的API呼叫，或建立新物件並使用這個物件的API呼叫。
 
-**使用案例：**&#x200B;定義使用者在自訂表格區域外維護其欄位的方法。 設定「外部查詢」欄位，您可以將使用者指定給組成該欄位的物件。 此選項適合用於高維護欄位和團隊。
+**使用案例：**定義使用者在自訂表格區域外維護其欄位的方法。 設定「外部查詢」欄位，您可以將使用者指定給組成該欄位的物件。 此選項適合用於高維護欄位和團隊。
 **解決方案：**&#x200B;建立新物件並使用這個物件的API呼叫。
 
-**使用案例：**&#x200B;與Workfront外部的物件整合。 例如，存取另一個系統以取得每個使用者的名稱，而不是被限制在預先輸入欄位中。
+**使用案例：**與Workfront外部的物件整合。 例如，存取另一個系統以取得每個使用者的名稱，而不是被限制在預先輸入欄位中。
 **解決方案：** Webhook/Fusion Automation連線到其他系統。
 
