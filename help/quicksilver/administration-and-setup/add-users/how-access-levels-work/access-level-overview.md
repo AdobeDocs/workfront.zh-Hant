@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: dcc4657d4af4edbbe7971acd385a67b2ad50a058
+source-git-commit: 364d1263070c0249d13290700d705e29eb646012
 workflow-type: tm+mt
-source-wordcount: '1724'
-ht-degree: 5%
+source-wordcount: '1691'
+ht-degree: 7%
 
 ---
 
@@ -101,7 +101,7 @@ Workfront有5個新的內建存取層級：
 | 範本 |   |   | ✓ |
 | 財務資料 |   |   | ✓ |
 | 資源管理 |   |   | ✓ |
-| 情境規劃工具 |   |   | ✓ （預設設定為No Access。） |
+| 情境規劃工具 |   |   | ✓ （預設設定為「無存取權」。） |
 | 展示板 |   |   | ✓ |
 | 首頁 |   |   | ✓ |
 | 目標 |   |   | ✓ |
@@ -263,6 +263,11 @@ Workfront有5個新的內建存取層級：
 * 可以提出要求並更新這些要求
 * 可以上傳和核准檔案
 * 可以核准專案、任務和問題
+
+  >[!NOTE]
+  >
+  >貢獻者可以參與核准，但無法存取核准索引標籤以檢視或管理核准流程。
+
 * 可以檢閱他們已提交問題的狀態
 * 可指派給工作專案，但無法完成它們
 * 只能從主功能表存取請求。 如需請求佇列的詳細資訊，請參閱[建立請求佇列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
@@ -282,7 +287,7 @@ Workfront有5個新的內建存取層級：
 | 問題 |   |   | ✓ |
 | 專案組合 |   | ✓ |   |
 | 計劃 |   | ✓ |   |
-| 報告（包括儀表板和行事曆報告） |   | ✓ （僅限詳細資訊標籤） |   |
+| 報告（包括儀表板和行事曆報告） |   | ✓ （僅[詳細資料]索引標籤） |   |
 | 篩選器、視圖和分組 |   |   | ✓ |
 | 文件 |   |   | ✓ |
 | 使用者 |   | ✓ |   |
