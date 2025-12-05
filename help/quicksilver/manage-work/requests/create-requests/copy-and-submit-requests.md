@@ -6,9 +6,9 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: 59a53f7355032810a05fce2d3f0dfe30d64bbd40
+source-git-commit: bc7312a10f1851b9f85b2c1ceac5b01dba078f32
 workflow-type: tm+mt
-source-wordcount: '1588'
+source-wordcount: '1606'
 ht-degree: 3%
 
 ---
@@ -256,7 +256,7 @@ ht-degree: 3%
 
 1. （選用）更新所複製請求的任何資訊。 可用欄位取決於用於請求的「請求佇列」或「請求表單」。
 
-   <!--When you enter or change any field values in the copied request, it is saved as a draft.-->
+   當您在複製的請求中輸入或變更任何欄位值時，它會儲存為草稿。
 
 1. 按一下&#x200B;**提交**。
 
