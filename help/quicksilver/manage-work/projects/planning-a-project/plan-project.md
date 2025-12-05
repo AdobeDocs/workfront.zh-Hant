@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: fb57f04a4031eaf38f88c3a1b2542d64ee230a8c
 workflow-type: tm+mt
-source-wordcount: '1606'
+source-wordcount: '1673'
 ht-degree: 0%
 
 ---
@@ -85,27 +85,6 @@ ht-degree: 0%
 
 如需有關排程的詳細資訊，請參閱文章[建立排程](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)。
 
-### 管理規劃專案所需的其他資訊 {#manage-additional-information-needed-for-planning-the-project}
-
-規劃專案時，必須先設定其他資訊，才能開始處理專案。
-
-請考慮提出下列問題：
-
-* 是否有法規要求您保留事件與程式的記錄？ 如果是，您需要追蹤哪些專案？
-
-  Workfront可讓您記錄編輯、範圍變更、狀態變更和動作，以便遵守特定於您行業的法規。\
-  如需定義要在Workfront中追蹤哪些更新的詳細資訊，請參閱文章[系統追蹤的更新](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)。
-
-* 是否有任何您需要追蹤的資訊在Workfront中沒有儲存該資訊的欄位？
-
-  如果有的話，請為可儲存此資訊的專案或任務建立自訂Forms 。
-
-  如需有關建立自訂表單的詳細資訊，請參閱文章[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
-
-* 專案工作能夠繼續之前，是否有任何必須授與的核准檢查點？ 如果是，請針對您建置專案時可以使用的專案或作業建立「核准流程」。
-
-  如需核准流程的詳細資訊，請參閱文章[建立工作專案的核准流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)。
-
 ## 建立專案時間表
 
 在您決定專案的主要目標，並決定專案值得追求之後，您應該計算每個目標的時間表。 每個目標都可以成為您專案中的一項任務。
@@ -172,3 +151,32 @@ ht-degree: 0%
    * 將任務重新指派給沒有其他限制的使用者。\
      如需計畫專案資源的詳細資訊，請參閱文章[資源計畫：文章索引](../../../resource-mgmt/resource-planning/resource-planning-overview.md)。\
      如需排程資源以完成專案工作的詳細資訊，請參閱[工作負載平衡器總覽](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md)。
+
+## 管理規劃專案所需的其他資訊 {#manage-additional-information-needed-for-planning-the-project}
+
+規劃專案時，必須先設定其他資訊，才能開始處理專案。
+
+請考慮提出下列問題：
+
+* 是否有法規要求您保留事件與程式的記錄？ 如果是，您需要追蹤哪些專案？
+
+  Workfront可讓您記錄編輯、範圍變更、狀態變更和動作，以便遵守特定於您行業的法規。\
+  如需定義要在Workfront中追蹤哪些更新的詳細資訊，請參閱文章[系統追蹤的更新](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)。
+
+* 是否有任何您需要追蹤的資訊在Workfront中沒有儲存該資訊的欄位？
+
+  如果有的話，請為可儲存此資訊的專案或任務建立自訂Forms 。
+
+  如需有關建立自訂表單的詳細資訊，請參閱文章[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+
+* 您是否需要記錄流程，並使用屬於日常工作或決定專案解決方案的資產？ 如果是，請建立儲存檔案的系統。
+
+  如需詳細資訊，請參閱[檔案：文章索引](/help/quicksilver/documents/documents-overview.md)。
+
+* 專案工作能夠繼續之前，是否有任何必須授與的核准檢查點？ 如果是，請針對您建置專案時可以使用的專案或任務建立核准流程，並清查哪些檔案或校訂必須核准，才能繼續工作。
+
+  如需核准的詳細資訊，請參閱下列文章：
+
+   * [建立工作專案的核准程式](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
+   * [檢閱和核准工作](/help/quicksilver/review-and-approve-work/review-and-approve-work.md)
+   * [整合檔案核准的可用功能](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)

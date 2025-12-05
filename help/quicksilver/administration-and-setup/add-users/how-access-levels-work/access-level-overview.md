@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 364d1263070c0249d13290700d705e29eb646012
+source-git-commit: 5cea1b349867dbb408af97e6c2402a0d799af87b
 workflow-type: tm+mt
-source-wordcount: '1691'
-ht-degree: 7%
+source-wordcount: '1698'
+ht-degree: 6%
 
 ---
 
@@ -102,8 +102,6 @@ Workfront有5個新的內建存取層級：
 | 財務資料 |   |   | ✓ |
 | 資源管理 |   |   | ✓ |
 | 情境規劃工具 |   |   | ✓ （預設設定為「無存取權」。） |
-| 展示板 |   |   | ✓ |
-| 首頁 |   |   | ✓ |
 | 目標 |   |   | ✓ |
 
 {style="table-layout:auto"}
@@ -155,8 +153,8 @@ Workfront有5個新的內建存取層級：
   <tr> 
    <td>任務</td> 
    <td> </td> 
-   <td>✓</td> 
-   <td> </td> 
+   <td></td> 
+   <td>✓ （受限）</td> 
   </tr> 
   <tr> 
    <td>問題</td> 
@@ -215,7 +213,7 @@ Workfront有5個新的內建存取層級：
   <tr> 
    <td>財務資料</td> 
    <td></td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>✓（預設設定為「無存取權」）</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -229,23 +227,13 @@ Workfront有5個新的內建存取層級：
    <td> </td> 
    <td> </td> 
    <td>✓ （預設設定為No Access。）</td> 
-  </tr> 
-  <tr> 
-   <td>展示板 </td> 
-   <td> </td> 
-   <td> </td> 
-   <td>✓</td> 
-     <tr> 
-   <td>首頁 </td> 
-   <td> </td> 
-   <td> </td> 
-   <td>✓</td> 
-  </tr> 
-  <tr>   
+  </tr>
+
+<tr>   
    <td>目標 </td> 
    <td> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ （預設設定為「無存取權」）</td> 
  </tbody> 
 </table>
 
@@ -282,8 +270,8 @@ Workfront有5個新的內建存取層級：
 
 | Workfront物件型別 | 無存取權 | 檢視存取權 | 編輯存取權 |
 |---|---|---|---|
-| 專案 |   | ✓ |   |
-| 任務 |   | ✓ |   |
+| 專案 |   | ✓ （受限） |   |
+| 任務 |   | ✓（受限） |   |
 | 問題 |   |   | ✓ |
 | 專案組合 |   | ✓ |   |
 | 計劃 |   | ✓ |   |
@@ -296,9 +284,7 @@ Workfront有5個新的內建存取層級：
 | 財務資料 | ✓ |   |   |
 | 資源管理 | ✓ |   |   |
 | 情境規劃工具 | ✓ |   |   |
-| 展示板 |   |   | ✓ （簡單卡片） |
-| 首頁 |   | ✓ （我的更新） |   |
-| 目標 |   |   | ✓ |
+| 目標 |   |   | ✓ （預設設定為「無存取權」） |
 
 {style="table-layout:auto"}
 
@@ -347,8 +333,6 @@ Workfront有5個新的內建存取層級：
 | 財務資料 | ✓ |   |   |
 | 資源管理 | ✓ |   |   |
 | 情境規劃工具 | ✓ |   |   |
-| 展示板 | ✓ |   |   |
-| 首頁 | ✓ |   |   |
 | 目標 | ✓ |   |   |
 
 
