@@ -3,21 +3,25 @@ title: 存取層級和許可權如何搭配運作
 user-type: administrator
 content-type: reference
 product-area: system-administration
-keywords: 存取，模型，漏斗，圖表，層級，許可權
+keywords: 存取，模型，funnel，圖表，層級，許可權
 navigation-topic: access-levels
 description: Adobe Workfront管理員會決定每個使用者應該具有的存取層級。 該存取層級會定義使用者能夠檢視的物件型別以及系統中區域的動作。
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '899'
 ht-degree: 2%
 
 ---
 
 # 存取層級和許可權如何搭配運作
+
+>[!NOTE]
+>
+>本文資訊參考舊版存取層級。 如需新存取層級的資訊，請參閱[新存取層級概觀](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)。
 
 Adobe Workfront管理員會決定每個使用者應該具有的存取層級。 該存取層級會定義使用者能夠檢視的物件型別以及系統中區域的動作。
 
@@ -106,19 +110,19 @@ Adobe Workfront管理員會決定每個使用者應該具有的存取層級。 �
  <tbody> 
   <tr> 
    <td>由Workfront管理員授與使用者存取層級</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>由共用物件層級物件的使用者授予</td> 
    <td> </td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>繼承自較高等級的共用物件 
    </td> 
    <td> </td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
   </tr> 
  </tbody> 
 </table>

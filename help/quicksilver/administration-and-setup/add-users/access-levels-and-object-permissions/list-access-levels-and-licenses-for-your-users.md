@@ -10,20 +10,24 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5d85509d-276a-411e-813c-8b1fa2f512db
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 1%
+source-wordcount: '334'
+ht-degree: 5%
 
 ---
 
 # 列出使用者的存取層級和授權
 
+>[!NOTE]
+>
+>本文資訊參考舊版存取層級。 如需新存取層級的資訊，請參閱[新存取層級概觀](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)。
+
 您可以在使用者清單或報告中檢視指派給每個使用者的存取層級和授權。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 您必須具備下列條件：
 
@@ -37,7 +41,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td>計劃</td> 
+   <td>規劃</td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 

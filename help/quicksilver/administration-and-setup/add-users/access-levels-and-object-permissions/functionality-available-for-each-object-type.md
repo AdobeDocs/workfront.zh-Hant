@@ -10,16 +10,20 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: e894c1e2134d025420205c6575329a2a9079fadf
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '1563'
-ht-degree: 13%
+source-wordcount: '1586'
+ht-degree: 14%
 
 ---
 
 # 適用於各種存取層級之每種物件型別的功能
 
 {{highlighted-preview}}
+
+>[!NOTE]
+>
+>本文資訊參考舊版存取層級。 如需新存取層級的資訊，請參閱[新存取層級概觀](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)。
 
 下表列出各種存取層級中每種物件型別的可用功能。
 

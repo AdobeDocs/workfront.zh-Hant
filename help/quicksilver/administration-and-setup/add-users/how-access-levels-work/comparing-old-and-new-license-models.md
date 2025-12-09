@@ -5,21 +5,26 @@ content-type: reference
 product-area: system-administration
 keywords: 存取，層級，系統，管理員，標準，輕量，參與者
 navigation-topic: access-levels
-description: 請參閱舊授權模式與新授權模式中不同授權可用功能的比較。
+description: 請參閱舊版與新授權模式中不同授權可用功能的比較。
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 101a0ce2-dfa6-44ea-a197-22bc85ef50f5
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 0%
+source-wordcount: '349'
+ht-degree: 37%
 
 ---
 
 # 比較不同授權模式的功能
 
-此表格顯示舊版與新授權模式中授權可用的功能。
+Adobe Workfront中有兩種型別的存取層級：
+
+* 新的存取層級。 如需詳細資訊，請參閱[新存取層級總覽](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)。
+* 舊版存取層級。 如需詳細資訊，請參閱[存取層級概觀](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)。
+
+下表顯示舊版與新授權模式中授權可用的功能。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,23 +38,23 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th> </th> 
-   <th colspan="5">[!UICONTROL Legacy]</th> 
+   <th colspan="5">[！UICONTROL Legacy]</th> 
    <!--<th>[!UICONTROL Requestor]</th> 
    <th>[!UICONTROL External]</th> -->
-   <th colspan="3">[!UICONTROL 新]</th> 
+   <th colspan="3">[！UICONTROL新]</th> 
    </tr> 
  </thead> 
  <thead> 
   <tr> 
    <th> </th> 
-   <th>[!UICONTROL Planner]</th> 
-   <th>[!UICONTROL Worker]</th> 
-   <th>[!UICONTROL Reviewer]</th> 
-  <th>[!UICONTROL 請求者]</th> 
-   <th>[!UICONTROL External]</th>
-   <th>[!UICONTROL 標準]</th> 
-   <th>[!UICONTROL Light]</th> 
-   <th>[!UICONTROL 參與者]</th> 
+   <th>[！UICONTROL Planner]</th> 
+   <th>[！UICONTROL Worker]</th> 
+   <th>[！UICONTROL Reviewer]</th> 
+  <th>[！UICONTROL請求者]</th> 
+   <th>[！UICONTROL External]</th>
+   <th>[！UICONTROL標準]</th> 
+   <th>[！UICONTROL Light]</th> 
+   <th>[！UICONTROL參與者]</th> 
   </tr> 
  </thead> 
  <tbody> 

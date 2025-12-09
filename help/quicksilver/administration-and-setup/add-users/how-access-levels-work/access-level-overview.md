@@ -10,14 +10,18 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 5cea1b349867dbb408af97e6c2402a0d799af87b
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '1698'
+source-wordcount: '1720'
 ht-degree: 6%
 
 ---
 
 # 新存取層級概觀
+
+>[!NOTE]
+>
+>本文資訊指的是新的存取層級。 如需舊版存取層級的資訊，請參閱[存取層級概觀](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)。
 
 身為Adobe Workfront管理員，您可以為使用者指派存取層級，目的有二：
 

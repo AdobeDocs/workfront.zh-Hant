@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 10a5c04d-adbf-4985-a81c-1b33868ce260
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '370'
 ht-degree: 2%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 2%
 # 新授權總覽
 
 <!-- Audited: 12/2023 -->
+
+>[!NOTE]
+>
+>本文資訊指的是新的存取層級。 如需舊版存取層級的資訊，請參閱[存取層級概觀](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)。
 
 您的組織在購買Adobe Workfront時已購買特定數量的授權。 身為Workfront管理員，當您指派存取層級給每位使用者時，您提供了2種型別的Workfront授權之一。
 

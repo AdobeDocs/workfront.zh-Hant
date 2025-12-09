@@ -10,16 +10,21 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 0%
+source-wordcount: '328'
+ht-degree: 3%
 
 ---
 
 # 存取層級概觀
 
 <!-- Audited: 12/2023 -->
+
+>[!NOTE]
+>
+>本文資訊參考舊版存取層級。 如需新存取層級的資訊，請參閱[新存取層級概觀](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)。
+
 
 身為Adobe Workfront管理員，您可以為使用者指派存取層級，目的有二：
 
@@ -57,8 +62,18 @@ ht-degree: 0%
    <td> <p>如需如何指派存取層級給使用者的指示，請參閱<a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">編輯使用者的設定檔</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>存取層級標準、輕度、貢獻者</td> 
-   <td> <p>如果您在環境中看到這些存取層級，而不是「計畫」、「工作」、「檢閱」或「請求」，則您的組織會使用新的存取層級模型。 如需新模型的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">新存取層級概觀</a>。</p> </td> 
+   <td><b>存取層級的型別</b></td> 
+   <td><p>Workfront中有兩種型別的存取層級：</p>
+   <ul><li>舊版存取層級</li>
+   <ul><li>規劃</li>
+   <li>工作</li>
+   <li>審閱</li>
+   <li>請求</li></ul>
+   <li>新存取層級：</li>
+   <ul><li>標準</li>
+   <li>精簡</li>
+   <li>貢獻者</li></ul></ul> 
+   <p>如需新存取層級的資訊，請參閱<a href="../../../administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">新存取層級概觀</a>。</p> </td> 
   </tr> 
   <!--
   <tr> 

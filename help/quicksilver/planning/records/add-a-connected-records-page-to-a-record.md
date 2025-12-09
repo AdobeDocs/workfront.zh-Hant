@@ -5,15 +5,19 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 48bfeb3b950ca1149a919aa204d77db6aa501e01
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
 source-wordcount: '1139'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
 # 將「連線的記錄」頁面新增至記錄
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 您可以將「連線記錄」頁面的索引標籤新增至記錄，以檢視連線記錄或物件的資訊。 這會將表格檢視中的連線記錄新增至索引標籤。
 
@@ -30,7 +34,7 @@ ht-degree: 0%
    * Workfront Planning記錄型別
    * Workfront專案、方案、投資組合、群組或公司。 即使您沒有在Workfront中存取Workfront物件的許可權，仍可檢視連線物件。
 
-## 存取需求
+## 存取權要求
 
 +++ 展開以檢視本文中功能的存取需求。 
 
@@ -44,7 +48,7 @@ ht-degree: 0%
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront套件</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
 <p>任何Workfront和任何Planning套件</p>
 <p>任何工作流程與任何Planning套件</p>
@@ -58,7 +62,7 @@ ht-degree: 0%
    <ul><li><p>Adobe Experience Manager Assets授權及AEM Assets與Workfront之間的整合，用於連結AEM資產與Planning記錄型別。</p>
    <p>如需詳細資訊，請參閱<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">適用於Experience Manager Assets和Assets Essentials的Adobe Workfront：文章索引</a>。 </p></li>
    <li><p> 連線記錄型別與GenStudio Brands的Adobe GenStudio for Performance Marketing授權</p>
-   <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/get-started">開始使用Adobe GenStudio for Performance Marketing</a>。</p></li></ul>
+   <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">開始使用Adobe GenStudio for Performance Marketing</a>。</p></li></ul>
    </td> 
   </tr>
 
@@ -166,7 +170,7 @@ ht-degree: 0%
 
    或
 
-   將游標暫留在索引標簽名稱上，然後按一下[其他] **&#x200B;**&#x200B;![&#x200B; [其他]功能表](assets/more-menu.png)，然後按一下[重新命名] **以重新命名為新的[連線檢視]索引標籤。**
+   將游標暫留在索引標簽名稱上，然後按一下[其他] **** ![ [其他]功能表](assets/more-menu.png)，然後按一下[重新命名] **以重新命名為新的[連線檢視]索引標籤。**
 1. （選擇性）在連線的記錄頁面的工具列中使用下列任何檢視元素來管理表格檢視：
 
    * 篩選器
@@ -182,4 +186,38 @@ ht-degree: 0%
    >
    >您無法在已連線記錄之索引標籤的表格檢視中建立、編輯或刪除欄位。
 
-1. （選擇性）將游標暫留在[連線的記錄]頁面索引標簽名稱上，按一下[其他] **&#x200B;**&#x200B;![&#x200B; [其他]功能表](assets/more-menu.png)，然後按一下[刪除] **&#x200B;**&#x200B;以移除索引標籤。
+   <!--1. <span class="preview">(Optional) Click the dropdown menu to the right of the view name, then click **New view** to add a view. For more information, see the section [Manage multiple views from the connected records page](#manage-multiple-views-from-the-connected-records-page) in this article. </span>-->
+
+1. （選擇性）將游標暫留在[連線的記錄]頁面索引標簽名稱上，按一下[其他] **** ![ [其他]功能表](assets/more-menu.png)，然後按一下[刪除] ****&#x200B;以移除索引標籤。
+
+<!--
+<div class="preview">
+
+## Manage multiple views from the connected records page
+
+You can add and manage views from the connected records page of a record. 
+
+1. From the connected records page of a record, click the dropdown menu to the right of the view name, then click **New view** to add a view, then select from the following options: 
+
+   * **Table**. For more information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
+   * **Timeline**. For more information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+   * **Calendar**. For more information, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md). 
+
+1. (Optional) Hover over the name of a view in the Connected records page, then click the **More** menu ![More menu](assets/more-menu.png), then click one of the following: *************check to make sure these are all possible*********
+
+   * **Rename**
+   * **Share**. For more information, see [Share views](/help/quicksilver/planning/access/share-views.md).
+
+   >[!TIP]
+   >
+   >Sharing views from Connected records pages makes them accessible to users in all areas of Workfront Planning where the view displays. 
+   >Also, if a view is shared from any other area of Workfront Planning, it is also available to the same users in Connected records pages. 
+
+   * **Export** 
+   * **Duplicate**. For more information, see [Duplicate record views](/help/quicksilver/planning/views/duplicate-record-views.md).
+
+      >[!TIP]
+      >
+      >Duplicating a view from Connected records pages makes it available in all other areas of Workfornt planning, when viewing the same record types. 
+
+</div> -->

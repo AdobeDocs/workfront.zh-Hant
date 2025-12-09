@@ -9,14 +9,18 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 05f575d0-bf42-430b-8648-dbdd9297ca08
-source-git-commit: 88ddadb8ea00d5c45ec414837bf10aa63d11200e
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 0%
+source-wordcount: '173'
+ht-degree: 1%
 
 ---
 
 # 新存取層級的運作方式
+
+>[!NOTE]
+>
+>本文資訊指的是新的存取層級。 如需舊版存取層級的資訊，請參閱[存取層級概觀](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)。
 
 身為Adobe Workfront管理員，您可以授予使用者存取權，以指派存取層級給使用者檢視或編輯物件。 以下文章將說明新存取層級的運作方式。
 
