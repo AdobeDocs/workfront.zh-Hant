@@ -5,10 +5,10 @@ description: 您可以控制組織中哪些存取層級有權存取AI助理。
 author: Becky
 feature: Get Started with Workfront
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: 8a0923bbdc8731652e59647409ef9b32e802e895
+source-git-commit: 184636b0d8df85e75502fc3650900244cfbd0e80
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 1%
+source-wordcount: '245'
+ht-degree: 8%
 
 ---
 
@@ -16,16 +16,16 @@ ht-degree: 1%
 
 身為Workfront管理員，您可以控制組織中哪些使用者已啟用AI助理。 這項作業可透過存取層級來管理。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
@@ -46,10 +46,6 @@ ht-degree: 1%
 
 ## 啟用或停用Workfront中的AI助理
 
->[!NOTE]
->
->預設情況下，非管理員會停用AI助理。
-
 若要為指定的存取層級啟用AI助理：
 
 1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![設定圖示](/help/_includes/assets/gear-icon-setup.png)。
@@ -58,4 +54,11 @@ ht-degree: 1%
 1. 在&#x200B;**編輯存取層級**&#x200B;方塊的&#x200B;**設定其他限制……**&#x200B;區域中，取消勾選&#x200B;**停用Workfront AI小幫手**&#x200B;核取方塊。
 1. 按一下「**儲存**」。
 1. 針對您想要為其啟用AI助理的每個存取層級，重複步驟3至5。
+
+
+
+>[!NOTE]
+>
+>* 預設情況下，非管理員會停用AI助理。
+>* 如果非管理員與Workfront中的AI助理圖示互動，則AI助理協定會出現，要求非管理員接受條款與條件。 如果他們接受協定，則可以使用AI Assistant，即使在其版面配置範本中停用它亦然。
 
