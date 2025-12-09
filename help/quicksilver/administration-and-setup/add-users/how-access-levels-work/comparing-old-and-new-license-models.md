@@ -38,23 +38,23 @@ Adobe Workfront中有兩種型別的存取層級：
  <thead> 
   <tr> 
    <th> </th> 
-   <th colspan="5">[！UICONTROL Legacy]</th> 
+   <th colspan="5">[!UICONTROL Legacy]</th> 
    <!--<th>[!UICONTROL Requestor]</th> 
    <th>[!UICONTROL External]</th> -->
-   <th colspan="3">[！UICONTROL新]</th> 
+   <th colspan="3">[!UICONTROL 新]</th> 
    </tr> 
  </thead> 
  <thead> 
   <tr> 
    <th> </th> 
-   <th>[！UICONTROL Planner]</th> 
-   <th>[！UICONTROL Worker]</th> 
-   <th>[！UICONTROL Reviewer]</th> 
-  <th>[！UICONTROL請求者]</th> 
-   <th>[！UICONTROL External]</th>
-   <th>[！UICONTROL標準]</th> 
-   <th>[！UICONTROL Light]</th> 
-   <th>[！UICONTROL參與者]</th> 
+   <th>[!UICONTROL Planner]</th> 
+   <th>[!UICONTROL Worker]</th> 
+   <th>[!UICONTROL Reviewer]</th> 
+  <th>[!UICONTROL 請求者]</th> 
+   <th>[!UICONTROL External]</th>
+   <th>[!UICONTROL 標準]</th> 
+   <th>[!UICONTROL Light]</th> 
+   <th>[!UICONTROL 參與者]</th> 
   </tr> 
  </thead> 
  <tbody> 
