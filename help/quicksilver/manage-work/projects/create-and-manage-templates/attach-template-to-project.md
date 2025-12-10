@@ -6,10 +6,10 @@ description: 您可以在專案的初始建立階段或建立專案後，將範�
 author: Alina
 feature: Work Management
 exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
-source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
+source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
 workflow-type: tm+mt
-source-wordcount: '1057'
-ht-degree: 0%
+source-wordcount: '1126'
+ht-degree: 2%
 
 ---
 
@@ -21,16 +21,16 @@ ht-degree: 0%
 
 如需使用範本建立專案的詳細資訊，請參閱[使用範本建立專案](../../../manage-work/projects/create-projects/create-project-from-template.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -159,15 +159,23 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader">以下選取的範本任務已匯入至專案。 取消選取您要排除的專案。 </td> 
-      <td>在將範本附加到專案之前，取消選取您要從範本排除的任何任務。</td> 
+      <td><p>在將範本附加到專案之前，取消選取您要從範本排除的任何任務。</p>
+      <p><b>秘訣</b></p>
+      <p>您只能選擇一個任務。</p>
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">選取您想要作為此範本中任務的前置任務的專案任務。</td> 
-      <td> <p>按一下該欄位以顯示專案任務清單，然後選取在範本任務可以開始之前必須完成的任務。 或者，您可以略過此步驟，並在附加範本後在專案中設定關係。 </p> <p> 選取<strong>相依性型別</strong>、<strong>延遲時間</strong>資訊，如果您要透過勾選<strong>強制執行前置任務</strong>核取方塊來強制執行前置任務，請選取。 </p> </td> 
+      <td> <p>按一下欄位方塊以顯示專案任務清單，然後選取在範本任務可以開始之前必須完成的任務。 或者，您可以略過此步驟，並在附加範本後在專案中設定關係。 </p> <p> 選取<strong>相依性型別</strong>、<strong>延遲時間</strong>資訊，如果您要透過勾選<strong>強制執行前置任務</strong>核取方塊來強制執行前置任務，請選取。 </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">選取您想要當作此範本中任務之父系的專案任務。</td> 
-      <td> 選取您想要指定為所有範本任務之父系任務的專案任務。 如果您未進行選取，所有範本任務都會顯示在目前專案任務的結尾。 您可以略過此步驟，並在附加範本後移動專案中的任務。</td> 
+      <td> <p>選取您想要指定為所有範本任務之父系任務的專案任務。 如果您未進行選取，所有範本任務都會顯示在目前專案任務的結尾。 您可以略過此步驟，並在附加範本後移動專案中的任務。</p>
+      <p><b>附註</b></p>
+      <p>如果您選取了具有其他子系的父項範本任務，則只有父項會在將專案任務新增至專案後，顯示為其前置任務。 子範本任務不會顯示前置任務。</p>
+      <p>如果您只選取了子範本任務，則專案任務新增至專案後，將顯示為其前置任務。 </p>
+
+   </td> 
      </tr> 
      <tr> 
       <td role="rowheader" colspan="2"> <p role="rowheader" colspan="2">選項區段</p> <p role="rowheader" colspan="2"> <img src="assets/attach-template-large-box-options-section-nwe-350x78.png" style="width: 350;height: 78;"> </p> </td> 
