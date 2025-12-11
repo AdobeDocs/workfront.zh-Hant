@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 34e6f4386c768b94c3835d4a4d7e7deadc3fecda
+source-git-commit: 1e830ccb4e87c231f57ae39e59988bb261737188
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '979'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,37 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 如需針對Adobe Workfront Planning發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## 在GenStudio工作區中依預設將Brand Connection欄位新增至「產品」和「角色」
+
+>[!NOTE]
+>
+>預覽： 2025年12月11日
+>生產快速發行： 2025年12月11日
+>每個人都要生產： 2025年12月11日
+
+具有GenStudio for Performance Marketing品牌的連線欄位現在預設會新增到Workfront Planning的GenStudio工作區中的「產品」和「角色」記錄型別。
+
+貴組織必須同時具備Workfront Planning和Adobe GenStudio for Performance Marketing。
+
+在此增強功能之前，您只能手動將Brand Connection欄位新增到任何記錄型別，包括Products和Personas。 您仍然可以在Workfront Planning中手動將Brand GenStudio記錄型別連結至其他記錄型別。
+
+如需詳細資訊，請參閱[開始使用Adobe Workfront Planning與Adobe GenStudio for Performance Marketing整合](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)。
+
+## 限制從Planning移除GenStudio for Performance Marketing使用者的許可權
+
+>[!NOTE]
+>
+>預覽： 2025年12月11日
+>生產快速發行： 2025年12月11日
+>每個人都要生產： 2025年12月11日
+
+我們新增了護欄，可防止您從Workfront Planning物件中移除GenStudio for Performance Marketing使用者的許可權。 經過這項改善後，您將無法再從Planning的GenStudio工作區中移除GenStudio使用者，也無法對GenStudio工作區中的記錄型別停用繼承許可權(如果這些許可權包含GenStudio使用者)。 在此改善之前，當您從Planning中的GenStudio工作區移除這些使用者時，他們也會失去在GenStudio中記錄型別的許可權。
+
+貴組織必須同時具備Workfront Planning和Adobe GenStudio for Performance Marketing。
+
+如需詳細資訊，請參閱[開始使用Adobe Workfront Planning與Adobe GenStudio for Performance Marketing整合](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)。
+
 
 ## 已移除次要工作區中全域記錄型別的公開檢視共用
 

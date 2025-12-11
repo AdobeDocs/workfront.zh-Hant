@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 357b5a80-424a-475c-9163-82cffbbd253e
-source-git-commit: b78f794ece181da3f4db3a1b9b78e794b16a09ed
+source-git-commit: e08ac842214a9bcff0acba3f34316bb5cfa4c4aa
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 0%
@@ -69,7 +69,9 @@ Adobe Unified Experience包括：
 
 如需詳細資訊，請參閱[適用於Workfront的Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 
-[觀看此功能的影片示範。增強型清單的](https://video.tv.adobe.com/v/3412388/){target=_blank}##更新
+[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3412388/){target=_blank}
+
+## 更新增強型清單
 
 >[!NOTE]
 >

@@ -4,9 +4,9 @@ description: 2026年第一季要求增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 34e6f4386c768b94c3835d4a4d7e7deadc3fecda
+source-git-commit: 59aa98645583fb79a5d61a248dca535a3460956f
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,20 @@ ht-degree: 0%
 本頁說明2026年第一季度版本對預覽環境提出的請求增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2026年第一季發行週期目前可用的所有變更清單，請參閱[2026年第一季發行概觀](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
+
+## 由AI支援的表單填寫現在可用於請求
+
+>[!NOTE]
+>
+>預覽： 2025年12月11日
+>生產快速發行： 2025年12月11日\
+>每個人都要生產： 2025年12月11日
+
+為了更方便建立請求，我們已建立由AI提供支援的表單填寫。 現在，您可以貼上提示或上傳檔案到請求表單，AI將提取相關資訊並填寫表單。
+
+您的組織必須啟用AI才能存取此功能。
+
+如需有關由AI支援的表單填寫的詳細資訊，包括啟用組織AI所需的資訊，請參閱[使用AI支援的表單填寫使用提示或檔案填寫請求](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)。
 
 <!--## Share views in the Requests area and the My Requests widget
 
@@ -37,8 +51,8 @@ For information on request views, including sharing, see [Create and manage view
 >[!NOTE]
 >
 >預覽： 2025年11月20日
->生產快速發行： 2025年12月11日\
->適用於所有人的生產： 2026年1月16日
+>生產環境快速發行： 2026年1月14日\
+>適用於所有人的生產： 2026年1月15日
 
 為了更方便建立及提交請求，我們已新增將草稿儲存至新請求體驗的功能。 現在，當您開始填寫並關閉請求時，請求會以草稿狀態儲存，並可在用於建立草稿的請求表單中找到。 之後，您可隨時重新開啟、更新及提交草稿。
 
@@ -53,8 +67,8 @@ For information on request views, including sharing, see [Create and manage view
 >[!NOTE]
 >
 >預覽： 2025年11月20日
->生產快速發行： 2025年12月11日\
->適用於所有人的生產： 2026年1月16日
+>生產環境快速發行： 2026年1月14日\
+>適用於所有人的生產： 2026年1月15日
 
 為了更方便讓您的請求保持井然有序，我們已新增將請求刪除的功能至新的請求體驗。 現在，您可以刪除已提交的請求。 Workfront管理員和Workfront Planning Workspace管理員也可以刪除請求。
 
@@ -69,10 +83,17 @@ For information on request views, including sharing, see [Create and manage view
 >
 >預覽： 2025年11月20日
 >生產快速發行： 2025年12月11日\
->適用於所有人的生產： 2026年1月16日
+>適用於所有人的生產： 2026年1月15日
 
 為了更方便提交請求，我們已新增將請求複製到新請求體驗的功能。 現在，您可以複製請求、編輯任何欄位，並將其提交為新請求。
 
 以前，新的請求體驗不提供此功能。
 
 如需複製及提交要求的資訊，請參閱[複製及提交要求](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md)。
+
+
+
+
+
+
+
