@@ -6,10 +6,10 @@ description: 您可以使用檢視來自訂顯示在熒幕上的資訊型別。 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
 workflow-type: tm+mt
-source-wordcount: '1713'
-ht-degree: 1%
+source-wordcount: '898'
+ht-degree: 4%
 
 ---
 
@@ -19,18 +19,20 @@ ht-degree: 1%
 
 您可以使用檢視來自訂顯示在熒幕上的資訊型別。 您可以在Adobe Workfront中使用數種檢視。
 
-本文說明如何建立及編輯清單與報告的標準檢視，以及如何建立敏捷檢視。 如需詳細資訊，請參閱[Adobe Workfront中的檢視總覽](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)。
+本文說明如何建立及編輯清單與報告的標準檢視。
 
-## 存取需求
+如需詳細資訊，請參閱[Adobe Workfront中的檢視總覽](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)。
 
-+++ 展開以檢視本文中功能的存取需求。
+## 存取權要求
+
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -58,7 +60,7 @@ ht-degree: 1%
 
 ## 建立或自訂檢視
 
-建立或自訂檢視的流程會有所不同，這取決於您是要建立或自訂標準檢視還是敏捷檢視。
+建立或自訂檢視的流程會因您建立或自訂標準檢視、敏捷檢視或展示板檢視而有所不同。
 
 * [建立或自訂標準檢視](#create-or-customize-a-standard-view)
 * [建立或自訂敏捷檢視](#create-or-customize-an-agile-view)
@@ -71,8 +73,8 @@ ht-degree: 1%
 
 1. 按一下「**+新增檢視**」按鈕以建立新檢視。
 或
-按一下滑鼠右邊要編輯的現有檢視右邊出現的&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)。
-顯示&#x200B;**自訂檢視**&#x200B;對話方塊。
+按一下滑鼠右邊要編輯的現有檢視右邊出現的**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)。
+顯示**自訂檢視**&#x200B;對話方塊。
 
 1. 在&#x200B;**資料行預覽**&#x200B;區段中，執行下列任一項作業：
 
@@ -118,7 +120,7 @@ ht-degree: 1%
      > * 實際小時會摘要主要父系和獨立任務的值；它們不會摘要父系任務的父系或子系任務的數字。
      > * 數字和貨幣值的自訂資料欄位會摘要所有工作：父項、子項、父項的父項，以及獨立工作。
      >
-     >如需在報告中使用群組的詳細資訊，請參閱文章[&#x200B; Adobe Workfront中的群組概觀](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)。
+     >如需在報告中使用群組的詳細資訊，請參閱文章[ Adobe Workfront中的群組概觀](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)。
 
       * （選擇性）按一下&#x200B;**進階選項**，為資料行指定下列資訊：
 
@@ -161,115 +163,116 @@ ht-degree: 1%
 
 ### 建立或自訂敏捷檢視 {#create-or-customize-an-agile-view}
 
-您可以建立敏捷檢視或自訂您先前建立的現有敏捷檢視。
+敏捷檢視（也稱為面板檢視）只會顯示專案中的任務和問題清單。
 
->[!IMPORTANT]
->
->敏捷檢視僅在檢視專案時可用。
+它們已預先設定，但您可以修改其特定設定。
 
-如需敏捷檢視的詳細資訊，請參閱文章[在敏捷檢視中管理專案](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)。
+如需有關敏捷或展示板檢視的詳細資訊，請參閱文章[在敏捷檢視中管理專案](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)。
+
+<!-- Legacy Agile views were deprecated with 25.3. This is old: 
 
 >[!NOTE]
 >
->此程式僅適用於舊版敏捷檢視，不適用於專案的展示板檢視。
+>This procedure only applies to the legacy Agile view, not to the board view of a project.
 
-若要建立或自訂敏捷檢視：
+To create or customize an Agile view:
 
-1. 前往專案上的任務清單。
-1. 按一下&#x200B;**展示板**&#x200B;圖示![展示板圖示](assets/board-icon-for-agile-view.png)，然後按一下展示板檢視上的&#x200B;**使用舊版敏捷**。
+1. Go to the list of tasks on a project.
+1. Click the **Board** icon ![Board icon](assets/board-icon-for-agile-view.png), and then click **Use legacy agile** on the board view.
 
-1. （視條件而定）若要自訂現有的敏捷檢視：
+1. (Conditional) To customize an existing Agile view:
 
-   1. 按一下&#x200B;**檢視**&#x200B;下拉式功能表，然後選取您要自訂的敏捷檢視。\
-      您無法自訂預設的敏捷檢視。
+   1. Click the **View** drop-down menu, then select the Agile view you want to customize.  
+      You cannot customize the default Agile view.
+   
+   1. Click the **View** drop-down menu again, then click **Customize View**.  
+      ![Customize view](assets/view-agile-customize.png)
 
-   1. 再次按一下&#x200B;**檢視**&#x200B;下拉式功能表，然後按一下&#x200B;**自訂檢視**。\
-      ![自訂檢視](assets/view-agile-customize.png)
+1. (Conditional) To create a new Agile view, click **New View**.  
+   The **Customize Agile View** dialog box displays.  
 
-1. （視條件而定）若要建立新的敏捷檢視，請按一下&#x200B;**新檢視**。\
-   顯示&#x200B;**自訂敏捷檢視**&#x200B;對話方塊。
+1. In the **Customize Agile View** dialog box, specify a name for the Agile view.  
+   We recommend that you include the word "Agile" in your view name, so users know this is an Agile view.  
+   This name is displayed in the **View** drop-down menu when selecting a view.
 
-1. 在&#x200B;**自訂敏捷檢視**&#x200B;對話方塊中，指定敏捷檢視的名稱。\
-   我們建議您在檢視名稱中加入「敏捷」一詞，讓使用者知道這是敏捷檢視。\
-   選取檢視時，此名稱會顯示在&#x200B;**檢視**&#x200B;下拉式功能表中。
+1. Define the status columns to display on the story board in the agile view. These are the task statuses that are defined by the Workfront administrator, as described in [Create or edit a status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
-1. 定義要在敏捷檢視的內文板上顯示的狀態列。 這些是Workfront管理員定義的工作狀態，如[建立或編輯狀態](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)中所述。
+   Only system statuses are available to use on the Agile story board. If a status is available only for an individual group you are a member of, the status is not available on the agile story board. Furthermore, tasks that are in a status that is available only to a custom group are not visible when viewing the project in an Agile view.
 
-   敏捷故事板上只能使用系統狀態。 如果狀態僅適用於您為成員的個別群組，則敏捷故事板上不會提供狀態。 此外，在敏捷檢視中檢視專案時，看不到狀態為僅供自訂群組使用的任務。
-
-   使用者可以在敏捷故事板上的這些狀態列之間移動故事。\
-   定義狀態列時，您可以執行下列動作：
+   Users can move stories among these status columns on the Agile story board.  
+   When defining status columns, you can do the following:
 
    <table style="table-layout:auto"> 
     <col> 
     <col>
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>重新排序狀態列：</strong> </td> 
-      <td> 將狀態列拖曳至您要其顯示的順序。<br><img src="assets/agile-project-reorderstatuses-350x141.png" alt="" style="width: 350;height: 141;"></td> 
+      <td role="rowheader"><strong>Reorder status columns:</strong> </td> 
+      <td> Drag a status column to the order where you want it to appear.<br><img src="assets/agile-project-reorderstatuses-350x141.png" alt="" style="width: 350;height: 141;"></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>移除狀態資料行：</strong> </td> 
-      <td>按一下您要移除之欄上的(x)圖示。<br>除非已新增自訂狀態至檢視，且該自訂狀態等於「新增」，否則您無法移除「新增」狀態。<br>如需建立自訂狀態的詳細資訊，請參閱<a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">建立或編輯狀態</a>。</td> 
+      <td role="rowheader"><strong>Remove status columns:</strong> </td> 
+      <td>Click the (x) icon on the column that you want to remove.<br>You cannot remove the "New" status unless a custom status has been added to the view and that custom status equates with "New."<br>For information about creating a custom status, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">Create or edit a status</a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>新增狀態資料行：</strong> </td> 
-      <td> <p>按一下<strong>加號</strong>圖示，然後選取您要新增的狀態。<br>會顯示所有預設的系統狀態，以及與您共用的任何自訂狀態。<br>您可以設定顯示最多10個狀態。</p></td> 
+      <td role="rowheader"><strong>Add status columns:</strong> </td> 
+      <td> <p>Click the <strong>Plus</strong> icon, then select the status you want to add.<br>All default system statuses are displayed, as well as any custom statuses that have been shared with you.<br>You can configure up to 10 statuses to display.</p></td> 
      </tr> 
     </tbody> 
    </table>
 
-   <!--
-        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE FOR ADD STATUS COLUMNS: research this and add: [! What if the status has been shared with me or a group I'm in (so I can see it here), but the status hasn't been shared with another user who also has access to a project where I later apply this view? Can that user still see this status on the project?]) </p>
-       -->
+   *********   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE FOR ADD STATUS COLUMNS: research this and add: [! What if the status has been shared with me or a group I'm in (so I can see it here), but the status hasn't been shared with another user who also has access to a project where I later apply this view? Can that user still see this status on the project?]) </p>
+       *************
 
-1. 在&#x200B;**將卡片顏色與**&#x200B;區域關聯中，從下列選項中選取：
+1. In the **Associate Card Color to** area, select from the following options:
 
    <table style="table-layout:auto"> 
     <col> 
     <col>
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>劇本：</strong> </td> 
-      <td>任何子任務都符合父任務的顏色，因此任何指定泳道中所有劇本的顏色都相同。<br>如果任務沒有任何子任務或沒有父任務，則會在建立顏色時隨機指派給任務。</td> 
+      <td role="rowheader"><strong>Story:</strong> </td> 
+      <td>Any subtasks match the color of the parent task, so that the colors of all stories in any given swimlane are the same.<br>Colors are randomly assigned to tasks when they are created if the task does not have any subtasks or does not have a parent task.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>自由格式：</strong> </td> 
-      <td> 所有卡片預設都會顯示為藍色，直到使用者手動變更顏色為止，如文章<a href="../../../agile/use-scrum-in-an-agile-team/scrum-board/categorize-stories-by-color.md" class="MCXref xref">在Scrum展示板上依顏色分類劇本</a>中所述。 </td> 
+      <td role="rowheader"><strong>Free Form:</strong> </td> 
+      <td> All cards are displayed as blue by default until a user changes the color manually, as described in the article <a href="../../../agile/use-scrum-in-an-agile-team/scrum-board/categorize-stories-by-color.md" class="MCXref xref">Categorize stories by color on the Scrum board</a>. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>優先順序：</strong> </td> 
-      <td> <p> 顏色與內文優先順序相關聯，如下所示：</p> 
+      <td role="rowheader"><strong>Priority:</strong> </td> 
+      <td> <p> Colors are associated with the story priority, as follows:</p> 
        <ul> 
-        <li>高=紅色</li> 
-        <li>Medium =黃色</li> 
-        <li>低=綠色<br>如果您的Workfront管理員已設定Workfront系統的自訂優先順序，最高優先順序為紅色，次高為黃色，其餘為綠色。</li> 
+        <li>High = Red</li> 
+        <li>Medium = Yellow</li> 
+        <li>Low = Green<br>If your Workfront administrator has configured custom priorities for your Workfront system, the highest priority is red, the second-highest is yellow, and the remaining are green.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>工作擁有者：</strong> </td> 
-      <td> 所有主要受指派人相同的劇本都是相同的色彩。<br>主要受指派人是第一個受指派工作的使用者。 </td> 
+      <td role="rowheader"><strong>Task Owner:</strong> </td> 
+      <td> All stories with the same primary assignee are the same color.<br>The primary assignee is the user who was first assigned to the task. </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 在&#x200B;**其他欄位**&#x200B;區域中，按一下&#x200B;**新增欄位**，然後選取您要新增到故事卡的欄位。 （這些欄位與建立自訂檢視或建立報表欄位時可新增的欄位相同。）\
-   重複此程式，向劇本卡片新增最多三個額外的欄位。\
-   當您新增欄位到內文卡時，欄位是僅供檢視的，並且只有在填入欄位時才顯示。
+1. In the **Additional Fields** area, click **Add Field**, then select the field you want to add to story cards. (These are the same fields you can add when creating customizing a view or creating columns for a report.)  
+   Repeat this process to add up to three additional fields to the story cards.  
+   When you add fields to story cards, fields are view-only and display only when the field is populated.
 
-   預設情況下，內文卡會顯示下列型別的資料：
+   By default, the following types of data is displayed on the story card:
 
-   * 內文名稱，內含直接連結至工作的連結
-   * 含有直接連結至專案的專案名稱\
-     此連結只有在疊代上使用敏捷檢視時才會顯示；在專案上使用敏捷檢視時則不會顯示。
-   * 任務說明
-   * 目前承諾
-   * 檢視並編輯完成百分比，方法是調整完成百分比本身，或調整完成點數或時數
-   * 已指派的使用者
+   * Story name with a link directly to the task
+   * The project name with a link directly to the project  
+     This link is displayed only when using the agile view on an iteration; it is not displayed when using an Agile view on a project.
+   * The task description
+   * Current commitment
+   * View and edit the percent complete either by adjusting the percent complete itself or by adjusting the number of points or hours that are complete
+   * Assigned Users
 
-   您可以在故事卡上顯示其他資料（包括自訂資料）。 基於各種原因，您可能會想要在內文卡上顯示額外的欄位。 例如，如果您正在專案中處理多個客戶的劇本，或想要顯示「作業開始日期」，您可能會想要顯示「客戶ID」。
+   You can display additional data (including custom data) on story cards. You might want to display additional fields on story cards for any number of reasons. For example, you might want to display the Customer ID if you are working on stories for multiple customers within the project, or you might want to display the Task Start Date.
 
-1. 按一下「**儲存**」。\
-   您的存取權會指定檢視的儲存方式。 如果最初建立的是檢視，您可以儲存變更；否則，系統會提示您儲存版本。 請記住，您對檢視所做的變更會影響已共用檢視的使用者。
+1. Click **Save**.  
+   Your access dictates how the view is saved. If you created the view originally, you can save the changes; otherwise, you are prompted to save a version. Keep in mind that changes you make to the view impact users with whom the view has been shared.
 
-1. （選擇性）按一下&#x200B;**清單**&#x200B;圖示以返回工作清單。
+1. (Optional) Click the **List** icon to return to the list of tasks.
+
+-->

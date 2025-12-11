@@ -6,10 +6,10 @@ description: 您可以刪除重複或建立有誤的任務。
 author: Alina
 feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
 workflow-type: tm+mt
-source-wordcount: '774'
-ht-degree: 2%
+source-wordcount: '810'
+ht-degree: 5%
 
 ---
 
@@ -19,22 +19,22 @@ ht-degree: 2%
 
 對於具有歷史資訊（更新、排程變更、狀態或其他欄位）的任務，我們建議您關閉或將它們標籤為無效，而不是刪除它們。 這可協助您保留專案的歷史資訊。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td><p>標準</p> 
-   <p>工作或更高</p> </td> 
+   <p>工作或更高層級</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -98,37 +98,40 @@ ht-degree: 2%
 
 當您刪除任務時，會影響連結到該任務的其他物件。
 
-當您刪除任務時，也會刪除附加至任務的下列物件：
+請考量下列事項：
 
-* 文件
+* 當您刪除任務時，也會刪除附加至任務的下列物件：
+
+   * 文件
 
   您不能刪除附加了已出庫檔案的任務。 如需簽出檔案的詳細資訊，請參閱[簽出檔案](../../../documents/managing-documents/check-out-documents.md)。
 
-* 問題
-* 子任務
-* 附註
-* 核准
+   * 問題
+   * 子任務
+   * 附註
+   * 核准
 
-根據您的Workfront管理員如何在Workfront執行個體的時程表和小時偏好設定中設定專案、任務或問題刪除偏好設定，任務記錄的小時在刪除任務時以下列方式之一處理：
+* 根據您的Workfront管理員如何在Workfront執行個體的時程表和小時偏好設定中設定專案、任務或問題刪除偏好設定，任務記錄的小時在刪除任務時以下列方式之一處理：
 
-* 移至專案，如果稍後還原任務，則不會在任務上還原。
-* 會被刪除，並將在任務上還原（如果稍後還原任務）。
+   * 移至專案，如果稍後還原任務，則不會在任務上還原。
+   * 會被刪除，並將在任務上還原（如果稍後還原任務）。
 
   當您嘗試刪除擁有已記錄時數任務的專案時，這也適用。
 
-  <!--
+  如需有關為登入問題時數設定刪除偏好設定的詳細資訊，請參閱[設定時程表和時數偏好設定](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)。
+   * 任務的費用將移至專案。
+
+   * 指派給任務或任務核准的使用者仍保留在專案團隊中。
+
+  如需專案團隊的詳細資訊，請參閱[專案團隊概述](../../../manage-work/projects/planning-a-project/project-team-overview.md)。
+
+* 當您刪除子項任務並將其父項移動到另一個專案中，然後恢復已刪除的子項任務時，該任務會新增回原始專案作為主要任務。
+
+<!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
   (NOTE: this stays NWE; not possible in classic;)
   </MadCap:conditionalText>
   -->
-
-  如需有關為登入問題時數設定刪除偏好設定的詳細資訊，請參閱[設定時程表和時數偏好設定](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)。
-
-* 任務的費用將移至專案。
-
-* 指派給任務或任務核准的使用者仍保留在專案團隊中。
-
-  如需專案團隊的詳細資訊，請參閱[專案團隊概述](../../../manage-work/projects/planning-a-project/project-team-overview.md)。
 
 ## 刪除任務
 
@@ -159,9 +162,9 @@ ht-degree: 2%
 
       1. 選取您要刪除的任務。
       1. 按一下&#x200B;**刪除**。
-      1. （選擇性）按一下[復原] **&#x200B;**&#x200B;以復原您的變更，並且不刪除工作。
-      1. 如果要保留變更並刪除工作，請按一下[重做] **&#x200B;**。
-      1. 按一下[儲存]刪除工作。**&#x200B;**
+      1. （選擇性）按一下[復原] ****&#x200B;以復原您的變更，並且不刪除工作。
+      1. 如果要保留變更並刪除工作，請按一下[重做] ****。
+      1. 按一下[儲存]刪除工作。****
 
          只有在您儲存變更後，才會刪除任務。
 
