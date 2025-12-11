@@ -6,7 +6,7 @@ description: 您可以將其他核准者或稽核者新增至已有待核准的�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: c55af795069a05de3eb3d0d8599ab61f00168ddc
+source-git-commit: 72915fc9f3c262d9c90fd205c6be3776ac20e303
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 3%
@@ -19,7 +19,7 @@ ht-degree: 3%
 >
 >本文內容指的更新檔案核准功能僅適用於特定帳戶。 如需有關標準核准程式的資訊，請參閱[工作核准](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md)中列出的文章。
 
-統一核准（先前稱為新檔案核准）是目前正在為Adobe Workfront開發的現有核准流程的整體重新設計。 目前限量發行，旨在為需要全面利害關係人參與和特定版本檔案核准的企業提供實用而有效的解決方案。 其深思熟慮的設計和有目的的新功能有助於協同合作、角色清晰度以及核准流程中的版本控制，從而提高效率和加強問責制。
+整合式核准（先前稱為新檔案核准）是目前正在為Adobe Workfront開發的現有核准流程的整體重新設計。 目前限量發行，旨在為需要全面利害關係人參與和特定版本檔案核准的企業提供實用而有效的解決方案。 其深思熟慮的設計和有目的的新功能有助於協同合作、角色清晰度以及核准流程中的版本控制，從而提高效率和加強問責制。
 
 ## 與校訂和舊版檔案核准的主要差異
 
