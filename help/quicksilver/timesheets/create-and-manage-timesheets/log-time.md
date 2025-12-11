@@ -7,48 +7,42 @@ author: Lisa
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+source-git-commit: 3ebff5f28d4142203c6ce5486ce40484d88f0a5d
 workflow-type: tm+mt
-source-wordcount: '4080'
-ht-degree: 0%
+source-wordcount: '4145'
+ht-degree: 1%
 
 ---
 
 # 記錄時間
+
+{{highlighted-preview}}
 
 <!--Audited: 5/2025-->
 
 <!--remove all preview and production references if any-->
 <!--update screen shots for the general hour entries and the mixed selection of hours at production, if they fixed the bugs -->
 
-<!--<div class="preview">
-
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
-
-</div>-->
-
 您可以在Adobe Workfront中記錄工作專案的時間，以指出您花在工作專案上的小時數。 您也可以記錄與工作無關的時間，例如假期、病假或會議時間。 您的記錄時間會顯示在您的時程表中。
 
 如需您可以登入Workfront時數型別的詳細資訊，請參閱[管理時數型別](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
+   <td>Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td> 
-   <ul><li><p>將工作、問題或一般時數的小時記錄到時程表上的輕度或更高</p></li>
+   <ul><li><p>在任務、問題、<span class="preview">專案</span>或時程表的一般時數上記錄小時數的輕度或更高</p></li>
    <li><p>在專案上記錄時數的標準</p></li></ul>
 
 <p>或： </p>
@@ -138,7 +132,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 1. （選擇性）展開篩選、檢視或群組下拉式功能表，以套用或自訂其中一個功能表，並檢視您想要的專案資訊。
 
-1. 在清單中選取一或多個專案，然後按一下[新增]。**&#x200B;**
+1. 在清單中選取一或多個專案，然後按一下[新增]。****
 
    如果您一次新增的專案少於50個，這些專案會新增到時程表中。 任務和問題會列在專案名稱下。
 
@@ -149,9 +143,9 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 1. （視條件而定）如果您一次新增50個或更多專案，會顯示一則確認訊息，顯示新增至時程表的專案數量。
 
-   按一下&#x200B;**全部新增**&#x200B;以新增所有專案
+   按一下&#x200B;**全部新增**以新增所有專案
 或
-按一下&#x200B;**取消**&#x200B;停止新增選取的專案，然後按一下&#x200B;**取消**&#x200B;關閉專案清單。
+按一下**取消**&#x200B;停止新增選取的專案，然後按一下&#x200B;**取消**&#x200B;關閉專案清單。
 
    任務和問題會列在專案名稱下。
 
@@ -396,7 +390,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 若要在專案、任務或問題的更新區段中記錄時間，您必須具備下列條件：
 
-* 正確的存取和許可權，如本文的[存取需求](#access-requirements)一節中所述。
+* 正確的存取和許可權，如本文的[存取需求](#access-requirements)一節中所述。 <span class="preview">如果您的存取層級為輕量級，而且您正在記錄專案的時間，您也必須擁有專案的「貢獻」或更高許可權才能存取「記錄時數」。 如需有關授與專案許可權的詳細資訊，請參閱[共用專案](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-project.md)。</span>
 
 * 如果您想要直接將時間記錄到專案，您的Workfront管理員必須在系統區域的&#x200B;[!UICONTROL **時程表和時數**]> [!UICONTROL **偏好設定**]&#x200B;下直接啟用專案上的記錄時間。
 
@@ -416,7 +410,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    >   
    >   在「輸入天數」方塊的右上角，會顯示一天包含多少小時。
 
-   ![在[更新]區域中記錄任務的時間ox](assets/log-time-box-in-updates-stream.png)
+   ![記錄更新區域中任務的時間方塊](assets/log-time-box-in-updates-stream.png)
 
 1. 指定下列資訊：
 
@@ -442,7 +436,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 您必須具備下列所有條件：
 
-* 具有時程表和時數之管理存取權的計畫授權。 如需授與時程表和時數之管理存取權的詳細資訊，請參閱[授與使用者對特定區域的管理存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)。
+* 具有時程表和時數之系統管理存取權的標準或計畫授權，<span class="preview">或具有專案編輯存取權</span>的輕度授權。 如需授與時程表和時數之管理存取權的詳細資訊，請參閱[授與使用者對特定區域的管理存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)。 <span class="preview">對時程表和時數的系統管理存取權不適用於輕度授權。</span>
 * 貢獻或更高的許可權給存取記錄時數的專案。 如需有關授與專案許可權的詳細資訊，請參閱[在Adobe Workfront中共用專案](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)。
 * 如果您想要直接將時間記錄到專案，您的Workfront管理員必須在設定區域的&#x200B;**時程表和時數>偏好設定**&#x200B;區段中，直接啟用專案上的記錄時間設定。 如需允許使用者直接將時數記錄到專案的詳細資訊，請參閱[設定時程表和時數偏好設定](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)。
 

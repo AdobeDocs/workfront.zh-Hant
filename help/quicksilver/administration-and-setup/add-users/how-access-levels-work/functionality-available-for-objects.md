@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 527a5de08a89bdd4d27d508113b8b0f4b2d73089
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1334'
 ht-degree: 14%
 
 ---
@@ -31,8 +31,8 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->* 本文會說明新Workfront計畫模型中可用於存取層級的功能。 若要檢視目前計畫模型中可用的功能，請參閱[各種存取層級中每種物件型別的可用功能](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)。
->* 如需新計畫模型中不同計畫可用的功能清單，請參閱[Adobe Workfront定價與封裝](https://business.adobe.com/tw/products/workfront/pricing.html)。
+>* 本文說明新Workfront套件模型中可用於存取層級的功能。 若要檢視目前封裝模型中可用的功能，請參閱[各種存取層級中每種物件型別的可用功能](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)。
+>* 如需最新模式中不同套件可用的功能清單，請參閱[Adobe Workfront定價與封裝](https://business.adobe.com/products/workfront/pricing.html)。
 
 ## 專案
 
@@ -53,7 +53,7 @@ ht-degree: 14%
 | 新增任務 | ✓ |   |   |   |
 | 提供更新/評論 | ✓ | ✓ | ✓ |   |
 | 變更狀態 | ✓ |   |   |   |
-| 記錄時數 | ✓ |   |   |   |
+| 記錄時數 | ✓ | <span class="preview">✓</span> |   |   |
 | 編輯指派 | ✓ |   |   |   |
 | 管理基準線 | ✓ |   |   |   |
 | 管理風險 | ✓ |   |   |   |
