@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
-source-git-commit: e6fc6def1553df3faa8e1200f7ec2ca2bb97eb04
+source-git-commit: ca16652aa06b4652d0d1b41156ed1ef96225c49a
 workflow-type: tm+mt
-source-wordcount: '1358'
+source-wordcount: '1384'
 ht-degree: 1%
 
 ---
@@ -83,7 +83,7 @@ recommendations: noDisplay, noCatalog
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing使用者角色</p></td> 
    <td><p><ul><li>存取行銷活動、產品和角色的任何GenStudio使用者角色</li>
    <li>GenSudio System Manager存取啟用 <!--and Events--></li></ul>
-   如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">使用者角色和許可權</a>。 
+   如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">使用者角色和許可權</a>。 
    </p>
   </td> 
   </tr>   
@@ -141,7 +141,7 @@ recommendations: noDisplay, noCatalog
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****** and Events*********</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -208,7 +208,7 @@ CAN YOU DO THIS??
 
 >[!NOTE]
 >
->在管理GenStudio工作區之前，請參閱文章[開始使用Workfront Planning和GenStudio for Performance Marketing整合](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)以取得詳細資訊。
+>在管理GenStudio工作區之前，請參閱文章[開始使用Adobe Workfront Planning和Adobe GenStudio for Performance Marketing整合](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)以取得詳細資訊。
 >
 
 1. 以也可存取GenStudio的使用者身分登入Workfront。
@@ -263,7 +263,7 @@ CAN YOU DO THIS??
 
 >[!NOTE]
 >
->在管理GenStudio工作區之前，請參閱文章[開始使用Workfront Planning和GenStudio for Performance Marketing整合](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)以取得詳細資訊。
+>在管理GenStudio工作區之前，請參閱文章[開始使用Adobe Workfront Planning和Adobe GenStudio for Performance Marketing整合](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)以取得詳細資訊。
 >
 
 1. 前往Workfront Planning中的GenStudio工作區並開啟記錄型別頁面，如本文中[從Workfront Planning管理GenStudio工作區](#manage-the-genstudio-workspace-from-workfront-planning)小節所述。
@@ -339,7 +339,7 @@ CAN YOU DO THIS??
 
      您在Planning中GenStudio工作區所做的變更會立即從GenStudio中顯示。
 
-1. 在表格檢視中選取記錄，然後按一下[刪除]。**&#x200B;**
+1. 在表格檢視中選取記錄，然後按一下[刪除]。****
 
    如需詳細資訊，請參閱[刪除記錄](/help/quicksilver/planning/records/delete-records.md)。
 
@@ -367,29 +367,24 @@ CAN YOU DO THIS??
       * Workfront Planning記錄詳細資料
       * GenStudio記錄詳細資料
 
-     >[!TIP]
+     >[!NOTE]
      >
-     >在Workfront Planning中建立的欄位不會顯示在GenStudio的清單檢視中。
-
-     <!--when this releases, replace the tip above with this: 
-      
-      >[!NOTE]
-      >
-      >* Fields created in Workfront Planning are not visible in the list view in GenStudio.
-      >
-      >* You can connect any GenStudio record type to the Brands GenStudio record type. 
-      >  Products and Personas are connected to Brands by default. -->
+     >* 在Workfront Planning中建立的欄位不會顯示在GenStudio的清單檢視中。
+     >
+     >* 您可以將任何GenStudio記錄型別連線至GenStudio記錄型別。
+     >  根據預設，產品和角色會連線至品牌。
 
 1. 暫留在表格檢視中的欄位上，然後按一下下拉式功能表以執行下列任一項作業：
 
    * 依其排序
    * 隱藏它
    * 編輯其設定
-     <!--* Delete it - not possible now, per Iskuhi; the link is there but it will generate an error-->
 
-     <!--GenStudio-native fields are note removed from GenStudio. -->
+   <!--* Delete it - not possible now, per Iskuhi; the link is there but it will generate an error-->
 
-     >[!NOTE]
-     >
-     >只有當您在GenStudio中擁有「管理」許可權時，才能編輯欄位設定並新增更多欄位。
+   <!--GenStudio-native fields are note removed from GenStudio. -->
+
+   >[!NOTE]
+   >
+   >只有當您在GenStudio中擁有「管理」許可權時，才能編輯欄位設定並新增更多欄位。
 

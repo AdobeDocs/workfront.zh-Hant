@@ -5,10 +5,10 @@ description: 您可以檢視 [!DNL Adobe Workfront] 中的物件清單，以取�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
+source-git-commit: ca16652aa06b4652d0d1b41156ed1ef96225c49a
 workflow-type: tm+mt
-source-wordcount: '2275'
-ht-degree: 0%
+source-wordcount: '2405'
+ht-degree: 2%
 
 ---
 
@@ -29,16 +29,23 @@ ht-degree: 0%
 
   如需有關建立系統層級清單的詳細資訊，請參閱文章[建立、編輯和共用預設篩選器、檢視和群組](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md)。
 
-## 存取需求
+* 以下是Workfront中的清單型別：
 
-+++ 展開以檢視本文中功能的存取需求。 
+   * 標準清單
+   * 增強型清單
+
+  如需詳細資訊，請參閱本文中的[標準與增強型清單的差異](#the-difference-between-the-standard-and-the-enhanced-lists)一節。
+
+## 存取權要求
+
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -99,8 +106,8 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
 
 >[!NOTE]
 >
->* 此清單並不完整。 這些物件清單中的每一份也都會出現在報表或儀表板上。 例如，包含專案報告的專案報告或控制面板也會顯示專案清單。
->* 在此清單中，「選取」表示您需要按一下專案名稱，而不是按一下名稱左邊的核取方塊。
+>此清單並不完整。 這些物件清單中的每一份也都會出現在報表或儀表板上。 例如，包含專案報告的專案報告或控制面板也會顯示專案清單。
+
 
 
 <table style="table-layout:auto"> 
@@ -117,15 +124,15 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
    <td>投資組合清單</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL 產品組合]</p> </li> 
+     <li> <p>[！UICONTROL產品組合]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>計劃清單</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL 產品組合] &gt;[!UICONTROL 選取產品組合] &gt;[!UICONTROL 計畫]</p> </li> 
-     <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>[!UICONTROL 程式]</p> </li> 
+     <li> <p>[！UICONTROL產品組合] &gt;[！UICONTROL按一下產品組合] &gt;[！UICONTROL計畫]</p> </li> 
+     <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>[!UICONTROL 方案]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -133,47 +140,47 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
    <td> 
     <ul> 
      <li> <p>[!UICONTROL 專案]</p> </li> 
-     <li> <p>[!UICONTROL 專案組合] &gt;[!UICONTROL 選取專案組合] &gt;[!UICONTROL 專案]</p> </li> 
-     <li> <p>[!UICONTROL 產品組合] &gt;[!UICONTROL 選取產品組合] &gt;[!UICONTROL 計畫] &gt;[!UICONTROL 選取計畫] &gt;[!UICONTROL 專案]</p> </li> 
+     <li> <p>[！UICONTROL專案組合] &gt;[！UICONTROL按一下專案組合] &gt;[！UICONTROL專案]</p> </li> 
+     <li> <p>[！UICONTROL產品組合] &gt;[！UICONTROL按一下產品組合] &gt;[！UICONTROL計畫] &gt;[！UICONTROL按一下計畫] &gt;[！UICONTROL專案]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>任務清單</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL 專案] &gt;[!UICONTROL 選取專案] &gt; [!UICONTROL 任務]</p> </li> 
-     <li> <p>[!UICONTROL 專案] &gt;[!UICONTROL 選取專案] &gt;[!UICONTROL 任務] &gt;[!UICONTROL 選取任務] &gt;[!UICONTROL 子任務]</p> </li> 
-     <li> <p>[!UICONTROL 專案] &gt;[!UICONTROL 選取專案] &gt;[!UICONTROL 任務] &gt;[!UICONTROL 選取任務] &gt; [!UICONTROL 前置任務*]</p> </li> 
+     <li> <p>[！UICONTROL專案] &gt;[！UICONTROL按一下專案] &gt; [！UICONTROL任務]</p> </li> 
+     <li> <p>[！UICONTROL專案] &gt;[！UICONTROL按一下專案] &gt;[！UICONTROL任務] &gt;[！UICONTROL按一下任務] &gt;[！UICONTROL子任務]</p> </li> 
+     <li> <p>[！UICONTROL專案] &gt;[！UICONTROL按一下專案] &gt;[！UICONTROL任務] &gt;[！UICONTROL按一下任務] &gt; [！UICONTROL前置任務*]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>問題清單</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL 專案] &gt; [!UICONTROL Select]專案&gt;[!UICONTROL 問題]</p> </li> 
-     <li> <p>[!UICONTROL 專案] &gt;[!UICONTROL 選取專案] &gt;[!UICONTROL 任務] &gt;[!UICONTROL 選取任務] &gt; [!UICONTROL 問題]</p> </li> 
-     <li> <p>[!UICONTROL 專案] &gt;[!UICONTROL 選取專案] &gt;[!UICONTROL 任務] &gt;[!UICONTROL 選取任務] &gt;[!UICONTROL 子任務] &gt;[!UICONTROL 選取任務] &gt; [!UICONTROL 問題]</p> </li> 
+     <li> <p>[！UICONTROL專案] &gt; [！UICONTROL點選]專案&gt;[！UICONTROL問題]</p> </li> 
+     <li> <p>[！UICONTROL專案] &gt;[！UICONTROL按一下專案] &gt;[！UICONTROL任務] &gt;[！UICONTROL按一下任務] &gt; [！UICONTROL問題]</p> </li> 
+     <li> <p>[！UICONTROL專案] &gt;[！UICONTROL按一下專案] &gt;[！UICONTROL任務] &gt;[！UICONTROL按一下任務] &gt;[！UICONTROL子任務] &gt;[！UICONTROL按一下任務] &gt; [！UICONTROL問題]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>報告清單</td> 
    <td> 
     <ul> 
-     <li> <p>  [!UICONTROL 報表]  </p> </li> 
+     <li> <p>  [！UICONTROL報表]  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>控制面板清單</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL 儀表板]</p> </li> 
+     <li> <p>[！UICONTROL儀表板]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>反複專案清單</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL 團隊] &gt; [!UICONTROL 反複專案]</p> </li> 
+     <li> <p>[！UICONTROL團隊] &gt; [！UICONTROL反複專案]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -187,100 +194,100 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
    <td>檔案清單</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL 檔案]</p> </li> 
-     <li> <p>[!UICONTROL 產品組合] &gt;[!UICONTROL 選取產品組合] &gt; [!UICONTROL 檔案]</p> </li> 
-     <li> <p>[!UICONTROL 產品組合] &gt; [!UICONTROL 選擇產品組合] &gt;[!UICONTROL 計畫] &gt;[!UICONTROL 選擇計畫] &gt;[!UICONTROL 檔案]</p> </li> 
-     <li> <p>[!UICONTROL 專案] &gt;[!UICONTROL 選取專案] &gt;[!UICONTROL 檔案]</p> </li> 
-     <li> <p>[!UICONTROL 專案] &gt;[!UICONTROL 選取專案] &gt;[!UICONTROL 任務] &gt;[!UICONTROL 選取任務] &gt; [!UICONTROL 檔案]</p> </li> 
-     <li> <p>[!UICONTROL 專案] &gt; &lbrack;！UICONTROL選取專案&gt; [!UICONTROL 問題] &gt;[!UICONTROL 選取問題] &gt; [!UICONTROL 檔案]</p> </li> 
+     <li> <p>[!UICONTROL 文件]</p> </li> 
+     <li> <p>[！UICONTROL產品組合] &gt;[！UICONTROL按一下產品組合] &gt; [！UICONTROL檔案]</p> </li> 
+     <li> <p>[！UICONTROL產品組合] &gt; [！UICONTROL點選產品組合] &gt;[！UICONTROL計畫] &gt;[！UICONTROL點選計畫] &gt;[！UICONTROL檔案]</p> </li> 
+     <li> <p>[！UICONTROL專案] &gt;[！UICONTROL按一下專案] &gt;[！UICONTROL檔案]</p> </li> 
+     <li> <p>[！UICONTROL專案] &gt;[！UICONTROL按一下專案] &gt;[！UICONTROL任務] &gt;[！UICONTROL按一下任務] &gt; [！UICONTROL檔案]</p> </li> 
+     <li> <p>[！UICONTROL專案] &gt; [！UICONTROL按一下]專案&gt; [！UICONTROL問題] &gt;[！UICONTROL按一下問題] &gt; [！UICONTROL檔案]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>時程表清單</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL 時間表] &gt; [!UICONTROL 所有時間表]*</p> </li> 
+     <li> <p>[！UICONTROL時間表] &gt; [！UICONTROL所有時間表]*</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>收費率清單</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL 專案] &gt;[!UICONTROL 選取專案] &gt;[!UICONTROL 收費率*]</p> </li> 
+     <li> <p>[！UICONTROL專案] &gt;[！UICONTROL按一下專案] &gt;[！UICONTROL收費率*]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>付費記錄清單</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL 專案] &gt; [!UICONTROL 選取專案] &gt; [!UICONTROL 付費記錄]</p> </li> 
+     <li> <p>[！UICONTROL專案] &gt; [！UICONTROL按一下專案] &gt; [！UICONTROL計費記錄]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>風險清單</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL 專案] &gt;[!UICONTROL 選取專案] &gt;[!UICONTROL 風險]</p> </li> 
+     <li> <p>[！UICONTROL專案] &gt;[！UICONTROL按一下專案] &gt;[！UICONTROL風險]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>費用清單</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL 專案] &gt;[!UICONTROL Select]專案&gt;[!UICONTROL 費用]</p> </li> 
-     <li> <p>[!UICONTROL 專案] &gt; [!UICONTROL 選取專案] &gt;[!UICONTROL 任務] &gt;[!UICONTROL 選取任務] &gt;[!UICONTROL 費用]</p> </li> 
+     <li> <p>[！UICONTROL專案] &gt;[！UICONTROL點選]專案&gt;[！UICONTROL費用]</p> </li> 
+     <li> <p>[！UICONTROL專案] &gt; [！UICONTROL按一下專案] &gt;[！UICONTROL任務] &gt;[！UICONTROL按一下任務] &gt;[！UICONTROL費用]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>小時專案清單</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL 專案] &gt;&lbrack;！UICONTROL選取專案</p> </li> 
-     <li> <p>[!UICONTROL 專案] &gt;[!UICONTROL 選取專案] &gt;[!UICONTROL 任務] &gt;[!UICONTROL 選取任務] &gt;[!UICONTROL 小時]</p> </li> 
-     <li> <p>[!UICONTROL 專案] &gt;[!UICONTROL select]專案&gt;[!UICONTROL 問題] &gt;[!UICONTROL select]問題&gt;[!UICONTROL 小時]</p> </li>
+     <li> <p>[！UICONTROL專案] &gt;[！UICONTROL按一下]專案</p> </li> 
+     <li> <p>[！UICONTROL專案] &gt;[！UICONTROL按一下專案] &gt;[！UICONTROL任務] &gt;[！UICONTROL按一下任務] &gt;[！UICONTROL小時]</p> </li> 
+     <li> <p>[！UICONTROL專案] &gt;[！UICONTROL點選]專案&gt;[！UICONTROL問題] &gt;[！UICONTROL點選]問題&gt;[！UICONTROL小時]</p> </li>
     </ul> </td> 
   </tr>
   <tr> 
    <td>自訂表單清單</td> 
    <td> 
     <ul> 
-     <li>[!UICONTROL 安裝程式] &gt;[!UICONTROL 自訂Forms] </li> 
+     <li>[！UICONTROL安裝程式] &gt;[！UICONTROL自訂Forms] </li> 
     </ul> </td> 
   </tr> 
   <tr> 
     <td>群組或子群組清單</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL 設定] &gt;[!UICONTROL 群組]</p> </li>
-     <li> <p>[!UICONTROL 設定] &gt;[!UICONTROL 群組] &gt;[!UICONTROL 選取父群組] &gt;[!UICONTROL 子群組] </li> 
+     <li> <p>[！UICONTROL設定] &gt;[！UICONTROL群組]</p> </li>
+     <li> <p>[！UICONTROL設定] &gt;[！UICONTROL群組] &gt;[！UICONTROL按一下父群組] &gt;[！UICONTROL子群組] </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>團隊清單</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL 設定] &gt;[!UICONTROL 團隊]</p> </li> 
+     <li> <p>[！UICONTROL設定] &gt;[！UICONTROL團隊]</p> </li> 
     </ul> </td> 
   </tr>
   <tr> 
    <td>公司清單</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL 設定] &gt;[!UICONTROL 公司]</p> </li> 
+     <li> <p>[！UICONTROL設定] &gt;[！UICONTROL公司]</p> </li> 
     </ul> </td> 
   </tr>
   <tr> 
    <td>排程清單</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL 設定] &gt;[!UICONTROL 排程]</p> </li> 
+     <li> <p>[！UICONTROL設定] &gt;[！UICONTROL排程]</p> </li> 
     </ul> </td> 
   </tr>
   <tr> 
    <td>版面配置範本清單</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL 安裝程式] &gt;[!UICONTROL 配置範本]</p> </li> 
+     <li> <p>[！UICONTROL安裝程式] &gt;[！UICONTROL配置範本]</p> </li> 
     </ul> </td> 
   </tr>
  </tbody> 
@@ -313,11 +320,11 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
    <td> <p>篩選器會根據您指定的條件，將不必要的資訊排除在清單之外。 </p> <p>如需詳細資訊，請參閱<a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">篩選器總覽</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>[!UICONTROL 檢視]</strong></td> 
+   <td><strong>[！UICONTROL檢視]</strong></td> 
    <td> <p>檢視會定義要在熒幕上顯示的欄位（欄）。</p> <p>如需詳細資訊，請參閱<a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">中的[!DNL Adobe Workfront]</a>檢視總覽。</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>[!UICONTROL 群組]</strong></td> 
+   <td><strong>[！UICONTROL群組]</strong></td> 
    <td> <p>群組會根據您指定的條件，將清單中的物件區分為不同的區域。</p> <p>例如，清單中的問題可依狀態或優先順序顯示在區段中。</p> <p>在標準群組中最多可以有三層群組，如果您在文字模式中配置群組，則可以新增第四層。</p> <p>如需群組的詳細資訊，請參閱<a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">中的[!DNL Adobe Workfront]</a>群組概觀。</p> <p>如需文字模式的詳細資訊，請參閱<a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">文字模式概觀</a>。</p> </td> 
   </tr> 
  </tbody> 
@@ -359,8 +366,8 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
 </td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-   <td><strong>更新為[!UICONTROL 摘要]</strong> </td> 
-   <td> <p>使用[!UICONTROL 摘要]面板更新專案層級的任務和問題。</p> <p><b>秘訣：</b></p> <p>摘要並非適用於所有物件，也不適用於「任務」或「問題」報告。</p> <p>如需詳細資訊，請參閱<a href="../../../workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">摘要概觀</a>。</p> </td> 
+   <td><strong>更新為[！UICONTROL摘要]</strong> </td> 
+   <td> <p>使用[！UICONTROL摘要]面板更新專案層級的任務和問題。</p> <p><b>秘訣：</b></p> <p>摘要並非適用於所有物件，也不適用於「任務」或「問題」報告。</p> <p>如需詳細資訊，請參閱<a href="../../../workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">摘要概觀</a>。</p> </td> 
   </tr> 
   <tr> 
    <td><strong>自訂清單顯示</strong> </td> 
@@ -371,7 +378,7 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
    <td> <p>套用快速篩選以僅尋找對您重要的專案，以便您快速檢閱、更新或與他人共用這些專案。</p> <p><b>重要：</b></p> <p> 您可以使用快速篩選來尋找包含搜尋字詞的專案，無論該專案是否顯示在您的熒幕上，或是在您捲動至頁面底部之後顯示。 使用瀏覽器的搜尋功能時，您只能找到畫面上已顯示的專案。 如果您的清單有多個頁面，快速篩選器只會尋找目前頁面上的專案。</p> <p>如需詳細資訊，請參閱<a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">將快速篩選套用至清單</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>轉存</strong> </td> 
+   <td><strong>匯出</strong> </td> 
    <td> <p>從[!DNL Workfront]匯出物件清單。 當清單包含超過2000個專案時，匯出清單是檢閱一個頁面上所有專案的唯一方法。</p> <p>如需匯出清單的詳細資訊，請參閱<a href="../../../workfront-basics/navigate-workfront/use-lists/export-lists.md" class="MCXref xref">匯出清單</a>。 如需匯出格式和限制的詳細資訊，請參閱<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">匯出資料</a>。</p> </td> 
   </tr> 
  </tbody> 
@@ -393,107 +400,107 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
   </tr> 
   <tr> 
    <td> <img src="assets/add-icon-plus-in-circle.png"> </td> 
-   <td>[!UICONTROL 新增專案或使用者]</td> 
+   <td>[！UICONTROL新增專案或使用者]</td> 
    <td>開啟更多選項，包括新增專案或使用者。</td> 
   </tr> 
   <tr> 
    <td> <img src="assets/qs-insert-task-above-icon-in-new-toolbar.png"> </td> 
-   <td>[!UICONTROL 在上方插入任務]</td> 
+   <td>[！UICONTROL在上方插入任務]</td> 
    <td> <p>在選取的工作上方插入工作。</p> <p>這僅適用於任務。 </p> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/qs-insert-task-below-icon-in-new-toolbar.png"> </td> 
-   <td>[!UICONTROL 在下方插入任務]</td> 
+   <td>[！UICONTROL在下方插入任務]</td> 
    <td> <p>在選取的工作下方插入工作。</p> <p>這僅適用於任務。 </p> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/edit-icon.png"> </td> 
-   <td>[!UICONTROL 編輯]</td> 
+   <td>[！UICONTROL編輯]</td> 
    <td>編輯選取的專案。</td> 
   </tr> 
   <tr> 
    <td> <img src="assets/copy-icon.png"> </td> 
-   <td>[!UICONTROL 副本]</td> 
+   <td>[！UICONTROL副本]</td> 
    <td>複製選取的專案。</td> 
   </tr> 
   <tr> 
    <td> <img src="assets/delete.png"> </td> 
-   <td>[!UICONTROL Delete]</td> 
+   <td>[！UICONTROL Delete]</td> 
    <td>刪除選取的專案。</td> 
   </tr> 
   <tr> 
    <td> <img src="assets/qs-add-to-iteration-icon-in-new-toolbar-for-issues.png"> </td> 
-   <td>[!UICONTROL 新增至]</td> 
+   <td>[！UICONTROL新增至]</td> 
    <td> <p>開啟對話方塊，將選取的問題新增至反複專案。</p> <p>這僅適用於問題。</p> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/share-icon.png"> </td> 
-   <td>[!UICONTROL Share]</td> 
+   <td>[！UICONTROL Share]</td> 
    <td>共用選取的專案。</td> 
   </tr> 
   <tr> 
    <td> <img src="assets/qs-indent-outdent-tasks-icon-in-new-toolbar.png"> </td> 
-   <td>[!UICONTROL 縮排和凸排任務] </td> 
+   <td>[！UICONTROL縮排和凸排任務] </td> 
    <td> <p>縮排或縮排選取的工作。 </p> <p>這僅適用於任務。 </p> </td> 
   </tr> 
   <tr> 
    <td><img src="assets/more-icon.png"></a> </td> 
-   <td>[!UICONTROL 更多]</td> 
+   <td>[！UICONTROL更多]</td> 
    <td>開啟所選專案的其他選項。</td> 
   </tr> 
   <tr> 
    <td> <p> <img src="assets/search-icon.png"> </p> </td> 
-   <td> <p>[!UICONTROL 快速篩選] </p> </td> 
+   <td> <p>[！UICONTROL快速篩選] </p> </td> 
    <td> <p>開啟快速篩選搜尋方塊，以尋找顯示的清單中的專案。</p> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/export.png"> </td> 
-   <td>[!UICONTROL Export]</td> 
+   <td>[！UICONTROL Export]</td> 
    <td>將清單匯出至PDF、Excel或定位字元分隔的檔案。</td> 
   </tr> 
   <tr> 
    <td> <img src="assets/qs-agile-icon-in-new-toolbar-task-list.png"> </td> 
-   <td>[!UICONTROL 敏捷檢視]</td> 
+   <td>[！UICONTROL敏捷檢視]</td> 
    <td>在敏捷檢視中顯示清單。<br>這僅適用於工作。</td> 
   </tr> 
   <tr> 
    <td> <img src="assets/qs-gantt-chart-icon-in-new-toolbar.png"> </td> 
-   <td>[!UICONTROL 甘特圖]</td> 
-   <td> <p>在[!UICONTROL 甘特圖]檢視中顯示清單。</p> <p>這僅適用於專案和任務。</p> </td> 
+   <td>[！UICONTROL甘特圖]</td> 
+   <td> <p>在[！UICONTROL甘特圖]檢視中顯示清單。</p> <p>這僅適用於專案和任務。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <img src="assets/qs-filter-in-new-toolbar-with-name.png"> <p> <img src="assets/qs-filter-in-new-toolbar-with-blue-dot---small.png"> </p> </td> 
-   <td>[!UICONTROL 篩選器]下拉式功能表</td> 
-   <td> <p>顯示篩選器清單以及管理篩選器的其他選項，包括建立篩選器。 </p> <p>在小熒幕上，篩選器名稱會由篩選器圖示取代。 當您套用「[!UICONTROL All]」以外的任何篩選器時，「篩選器」圖示上會顯示一個藍點。</p> </td> 
+   <td>[！UICONTROL篩選器]下拉式功能表</td> 
+   <td> <p>顯示篩選器清單以及管理篩選器的其他選項，包括建立篩選器。 </p> <p>在小熒幕上，篩選器名稱會由篩選器圖示取代。 當您套用「[！UICONTROL All]」以外的任何篩選器時，「篩選器」圖示上會顯示一個藍點。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <img src="assets/qs-view-in-new-toolbar-with-name.png"> <p> <img src="assets/qs-view-in-new-toolbar-with-blue-dot.png"> </p> </td> 
-   <td>[!UICONTROL 檢視]下拉式功能表</td> 
-   <td> <p>顯示檢視清單以及管理檢視的其他選項，包括建立檢視。 </p> <p>在小熒幕上，檢視名稱會由[!UICONTROL 檢視]圖示取代。 當您套用「[!UICONTROL 標準]」以外的任何檢視時，「[!UICONTROL 檢視]」圖示上會顯示一個藍點。</p> </td> 
+   <td>[！UICONTROL檢視]下拉式功能表</td> 
+   <td> <p>顯示檢視清單以及管理檢視的其他選項，包括建立檢視。 </p> <p>在小熒幕上，檢視名稱會由[！UICONTROL檢視]圖示取代。 當您套用「[！UICONTROL標準]」以外的任何檢視時，「[！UICONTROL檢視]」圖示上會顯示一個藍點。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <img src="assets/qs-grouping-in-new-toolbar-with-name.png"> <p> <img src="assets/qs-grouping-in-new-toolbar-with-blue-dot.png"> </p> </td> 
-   <td>[!UICONTROL Grouping]下拉式功能表</td> 
-   <td> <p>顯示群組清單以及管理群組的其他選項，包括建立群組。 </p> <p>在小熒幕上，群組名稱會被[!UICONTROL 群組]圖示取代。 當您套用「[!UICONTROL Nothing]」以外的任何分組時，[!UICONTROL Grouping]圖示上會顯示一個藍點。</p> </td> 
+   <td>[！UICONTROL Grouping]下拉式功能表</td> 
+   <td> <p>顯示群組清單以及管理群組的其他選項，包括建立群組。 </p> <p>在小熒幕上，群組名稱會被[！UICONTROL群組]圖示取代。 當您套用「[！UICONTROL Nothing]」以外的任何分組時，[！UICONTROL Grouping]圖示上會顯示一個藍點。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <img src="assets/qs-autosave-icon-in-new-toolbar-for-tasks.png"> </td> 
-   <td> <p>[!UICONTROL 計畫模式]</p> </td> 
+   <td> <p>[！UICONTROL計畫模式]</p> </td> 
    <td> <p>選擇您要自動或手動儲存您在工作清單中所做的變更。 </p> <p>如需有關編輯清單中工作的資訊，請參閱<a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md" class="MCXref xref">編輯清單中的工作</a>。 </p> <p>這僅適用於任務。</p> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/summary-panel-icon.png"> </td> 
-   <td>[!UICONTROL 摘要]</td> 
-   <td> <p>顯示或隱藏所選專案的[!UICONTROL 摘要]方塊。</p> <p>這僅適用於任務和問題。</p> <p>如需[!UICONTROL 摘要]面板的相關資訊，請參閱<a href="/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">摘要概觀</a>。</p> </td> 
+   <td>[！UICONTROL摘要]</td> 
+   <td> <p>顯示或隱藏所選專案的[！UICONTROL摘要]方塊。</p> <p>這僅適用於任務和問題。</p> <p>如需[！UICONTROL摘要]面板的相關資訊，請參閱<a href="/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">摘要概觀</a>。</p> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/remove-icon---x-in-circle.png"> </td> 
-   <td>[!UICONTROL 移除]</td> 
+   <td>[！UICONTROL移除]</td> 
    <td>從清單中移除某些專案。 例如，作為管理群組或子群組成員資格的群組管理員，請依照<a href="/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md" class="MCXref xref">檢視和管理群組成員資格</a>中的說明移除群組成員。</td> 
   </tr> 
   <tr> 
    <td> <img src="assets/comment-icon.png"> </td> 
-   <td>[!UICONTROL Comment] /[!UICONTROL Update]</td> 
+   <td>[！UICONTROL Comment] /[！UICONTROL Update]</td> 
    <td> <p>輸入註解或更新。</p> </td> 
   </tr> 
  </tbody> 
@@ -523,7 +530,7 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>只有[!DNL Workfront]管理員和具有[!UICONTROL Plan]授權的使用者可以建立他們</p> </td> 
+   <td> <p>只有[!DNL Workfront]管理員和具有[！UICONTROL Plan]授權的使用者可以建立他們</p> </td> 
    <td> </td> 
    <td>✓**</td> 
   </tr> 
@@ -600,11 +607,11 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
  </tbody> 
 </table>
 
-您必須有權存取篩選器、檢視和群組，才能建立它們。 如需詳細資訊，請參閱[授予篩選器、檢視和群組的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md)。
+*您必須有權存取篩選器、檢視和群組，才能建立它們。 如需詳細資訊，請參閱[授予篩選器、檢視和群組的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md)。
 
-您必須有權存取篩選器、檢視和群組以及報告、儀表板和行事曆，才能建立它們。 如需詳細資訊，請參閱[授予報告、儀表板和行事曆的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)。
+**您必須有權存取篩選器、檢視和群組以及報告、儀表板和行事曆，才能建立它們。 如需詳細資訊，請參閱[授予報告、儀表板和行事曆的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)。
 
-只有在報表建立者將清單元素設定為在控制面板上顯示時，您才能自訂置於控制面板上的報表清單。
+***只有在報表建立者將清單元素設定為顯示在控制面板上時，您才能自訂放在控制面板上的報表清單。
 
 >[!NOTE]
 >
@@ -612,46 +619,88 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
 
 如需建立報告的詳細資訊，請參閱[建立自訂報告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。 如需有關建立自訂區段的資訊，請參閱[建立自訂標籤或區段](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)。
 
-## 更新清單和舊版清單之間的差異
+## 標準和增強型清單之間的差異
 
 [!DNL Workfront]中有兩種型別的清單：
 
-* 舊版清單
+* 標準清單
 
-  ![藍色群組](assets/legacy-list-screen-shot-blue-groupings-350x101.png)
+  ![標準專案清單](assets/standard-list-screen-shot-gray-groupings.png)
 
-* 更新的清單
+* 增強型清單
 
-  ![灰色群組](assets/updated-list-screen-shot-gray-groupings-350x71.png)
+  ![增強型清單](assets/enhanced-status-list.png)
 
-下表顯示[!DNL Workfront]中舊版與更新清單之間的部分差異：
+每個增強型清單的功能會因您從哪個頁面存取而有所不同。
 
-<!--
-<span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> [Legacy does not equal Classic. Legacy lists appear in NWE and Classic. Updated lists appear in NWE and Classic.]</span>
--->
+如需有關增強型清單的資訊，請參閱[使用增強型清單](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
+
+
+
+下表顯示[!DNL Workfront]中標準與增強型清單之間的部分差異：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td><b>舊版清單</b></td> 
-   <td><b>更新的清單</b></td> 
+   <td><b>標準清單</b></td> 
+   <td><b>增強型清單</b></td> 
   </tr> 
-  <td> <p>依預設顯示<strong>100</strong>個專案</p> </td> 
-   <td> <p>依預設顯示<strong>所有</strong>或最多<strong>2000</strong>個專案</p> </td> 
+  <tr>
+  <td> <p>依預設顯示<strong>所有</strong>或最多<strong>2000</strong>個專案</p> </td> 
+   <td> 預設會顯示最多100個專案，捲動後則顯示最多2000個 </td> 
+  </tr>
+
+<tr> 
+   <td>清單頂端的圖示在所有清單中都有些許一致，無論您從何處存取這些圖示。 有些清單、任務、問題或檔案具有與這些物件型別功能相關的獨特圖示。 </td> 
+   <td>清單頂端的圖示會依您從何處存取清單而有所不同。 此外，當您在清單中選取專案時，會在清單底部顯示一個藍色列。</td> 
+  </tr>
+
+<tr> 
+   <td> <p>使用清單頂端工具列中的圖示來與清單中的專案互動</p> </td> 
+   <td> <p>根據您要更新的專案，執行下列任一項作業來與清單中的專案互動：</p>
+   <ul><li>使用頂端工具列中的圖示執行一些動作，例如搜尋、新增專案、排序或篩選</li>
+   <li>在清單中選取專案，並使用專案清單底部藍色工具列中的圖示來執行某些動作，例如刪除或檢視專案</li></ul> 
+   </tr>   
+   </td> 
   </tr> 
   <tr> 
-   <td> <p>使用CTRL+F尋找清單中的專案</p> </td> 
-   <td> <p>使用快速篩選器快速尋找大型清單中的資訊</p> <p>如需有關在清單中使用快速篩選的資訊，請參閱<a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">將快速篩選套用至清單</a>。</p> </td> 
-  </tr> 
-  <tr> 
-   <td>您無法內嵌編輯具有RTF格式的自訂欄位。</td> 
-   <td> <p>自訂欄位中含格式的文字可設定為允許粗體、斜體、底線、專案符號、編號、超連結和區塊引號。</p> <p>如需詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">建立自訂表格</a>。</p> </td> 
-  </tr> 
-  <tr> 
-   <td>條件式格式可以變更清單中連結的文字顏色</td> 
-   <td>無法套用文字顏色變更至清單中的連結</td> 
+   <td><p>您可以將儲存格顏色變更套用至清單中的專案</p></td>
+   <td><p>您只能在Workfront Planning中，將儲存格色彩變更套用至清單中的專案。 </p></td>
+   </td> 
+   <td></td> 
   </tr> 
  </tbody> 
 </table>
+
+<!--
+consider adding things like adding fields on the fly in an enhanced list when we will be able to do this-->
+
+<!--old table: 
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td><b>Legacy lists</b></td> 
+   <td><b>Updated lists</b></td> 
+  </tr> 
+  <td> <p>Display <strong>100</strong> items by default</p> </td> 
+   <td> <p>Display <strong>All</strong> or up to <strong>2000</strong> items by default</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Use CTRL+F to find items in a list</p> </td> 
+   <td> <p>Use quick filters to quickly find information in a large list</p> <p>For information about using quick filters in lists, see <a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">Apply the quick filter to a list</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>You can't inline edit custom fields with rich text formatting.</td> 
+   <td> <p>Text in custom fields with formatting can be configured to allow bold, italics, underline, bullets, numbering, hyperlinks, and block quotes.</p> <p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Create a custom form</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Conditional formatting can change the text color of links in a list</td> 
+   <td>Cannot apply text color changes to links in a list</td> 
+  </tr> 
+ </tbody> 
+</table>
+-->
