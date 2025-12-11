@@ -8,9 +8,9 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: ebdb1803fe57386a84d3d882b02a53ec4344b225
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '1249'
 ht-degree: 2%
 
 ---
@@ -34,16 +34,16 @@ ht-degree: 2%
    * [提交Adobe Workfront Planning請求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)
 
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
@@ -73,7 +73,44 @@ ht-degree: 2%
 
 ## 找出已提交的請求
 
-若要尋找您或其他使用者已提交的請求：
+根據您使用新請求體驗還是舊請求體驗，找到已提交的請求會有所不同。
+
+### 在新請求體驗中找到已提交的請求
+
+若要找出您或其他使用者已在新請求體驗中提交的請求：
+
+{{step1-to-requests}}
+
+1. 確定熒幕右上角的&#x200B;**使用新體驗**&#x200B;切換功能已啟用。
+
+   此時會出現「要求」清單。
+
+1. （選用）若要搜尋請求，請開始在清單右上角的搜尋列中輸入。 搜尋結果會在您輸入時顯示。
+1. （選擇性）按一下&#x200B;**篩選器**，然後開始為您要尋找的請求新增條件。
+
+   您可以依下列欄位進行篩選：
+
+   * **Workspace**：與請求表單相關聯的工作區。
+   * **記錄型別**：與要求表單關聯的記錄型別。
+   * **輸入日期**：提交要求的日期。
+   * **要求表單**：用來提交要求的要求表單名稱。
+   * **狀態**：要求的狀態。
+   * **輸入者**：新增請求的使用者名稱。 如果要求是由Workfront外部的人員加入，則&#x200B;**輸入者**&#x200B;欄位會顯示`N/A`。
+
+   您可以有多個&#x200B;**And**&#x200B;或&#x200B;**Or**加入的篩選器。
+當您新增篩選條件時，要求清單會自動篩選。
+1. （選用）使用檢視來著重處理您要尋找的請求。
+
+   如需指示，請參閱[在要求區域](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)中建立或編輯檢視。
+
+>[!NOTE]
+>
+>* 如果您有Workfront Planning，您的Workfront和Planning請求會出現在相同的清單中。 Workfront要求會在「物件型別」欄中顯示值`Issue`。
+>* 此時會顯示「請求」清單，其中顯示50個請求。 若要檢視更多請求，請捲動至清單底部。
+
+### 在舊版請求體驗中找出已提交的請求
+
+若要在舊版請求體驗中找出您或其他使用者已提交的請求：
 
 {{step1-to-requests}}
 
@@ -96,7 +133,7 @@ ht-degree: 2%
       <col> 
       <tbody> 
       <tr> 
-         <td role="rowheader">姓名</td> 
+         <td role="rowheader">名稱</td> 
          <td> <p>要求的名稱。</p> <p>按一下請求的名稱以開啟。 </p> <p><b>秘訣</b>
 
    如果問題在轉換為任務或專案時未保留，則問題的名稱會變暗且無法再按一下。 如需轉換問題的相關資訊，請參閱<a href="../../../manage-work/issues/convert-issues/convert-issues.md" class="MCXref xref">在Adobe Workfront中轉換問題的概述</a>。 </p> </td>
