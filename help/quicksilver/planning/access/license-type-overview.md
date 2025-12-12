@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: c879d06cfe7ba76df3e974c160a7349f1503f17f
+source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 您的Adobe Workfront授權型別與您的Adobe Workfront Planning許可權搭配使用，以提供下列存取權：
 
 * 檢視、貢獻或管理工作區或記錄型別
-* 檢視或管理檢視。
+* 檢視或管理檢視。<!--<span class="preview">and records</span>-->
 
 如需Workfront Planning中物件的許可權相關資訊，請參閱[在Adobe Workfront Planning中共用許可權概觀](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 | Adobe Workfront授權型別 | Adobe Workfront Planning允許的最高許可權 |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 標準 | <p>使用者可以管理工作區、記錄型別和檢視。 他們可以建立、編輯或刪除工作區、記錄型別、記錄、欄位和檢視。</p> <br> <p>系統管理員擁有所有工作區的管理許可權，包括他們未建立的工作區。</p> |
+| 標準 | <p>使用者可以管理工作區、記錄型別、<!--<span class="preview">records</span>-->和檢視。 他們可以建立、編輯或刪除工作區、記錄型別、記錄、欄位和檢視。</p><br><p>系統管理員擁有所有工作區的管理許可權，包括他們未建立的工作區。</p> |
 | 輕度或貢獻者 | <p>使用者可以檢視與他們共用的工作區，以及這些工作區的記錄型別、記錄和欄位。</p> <br> <p>使用者可以檢視與他們共用的檢視，但無法建立自己的檢視。 </p><br> <p>使用者無法建立、編輯或刪除工作區、記錄型別、記錄或欄位。</p> |
 
 <!--Old: 

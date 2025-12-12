@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
 workflow-type: tm+mt
 source-wordcount: '435'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 1%
 Workfront Planning中發生下列動作時，您可能會收到應用程式內或電子郵件通知：
 
 * 有人將您或您的團隊新增到記錄頁面上的註解
-* 某人要求存取檢視或工作區的許可權
-* 有人授予您存取檢視或工作區<!--I could not test this but Isk confirmed-->的許可權
+* 有人要求存取檢視或工作區<!--or <span class="preview">or a record</span>-->的許可權
+* 有人授予您存取檢視或工作區<!--or <span class="preview">or a record</span>-->的許可權 <!--I could not test this but Isk confirmed-->
 * 您提交Workfront Planning請求。
 * 某人核准或拒絕您提交的Workfront Planning請求。
 * 狀態會變更為您提交的Workfront Planning請求。
 
-## 存取需求
+## 存取權要求
 
 
 +++ 展開以檢視本文中功能的存取需求。 
@@ -46,7 +46,7 @@ Workfront Planning中發生下列動作時，您可能會收到應用程式內�
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront套件</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
 <p>任何Workfront和任何Planning套件</p> <p>任何工作流程與任何Planning套件</p>
 <p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
@@ -177,7 +177,7 @@ The following scenarios exist:
 
 * Adobe Unified Experience customers receive both an in-app notification and an email notification. They can manage their in-app and email notification preferences in the Preferences area of their Adobe Experience Cloud profile for the Workfront product. 
 
-    For more information, see [Account preferences and notifications](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/features/account-preferences).
+    For more information, see [Account preferences and notifications](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 
 * Customers who are not on the Adobe Unified Experience receive only an email notification. They cannot manage their email notifications preferences and will always receive an email when someone adds them to a comment on a record in Workfront Planning.   
 

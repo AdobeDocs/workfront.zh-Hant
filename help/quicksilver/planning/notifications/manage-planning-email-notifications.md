@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 0%
+source-wordcount: '586'
+ht-degree: 1%
 
 ---
 
@@ -27,13 +27,13 @@ ht-degree: 0%
 * 有人在記錄評論中為您或您的團隊加上標籤
 
   如需有關在記錄註解中標籤其他人的資訊，請參閱[管理記錄註解](/help/quicksilver/planning/records/manage-record-comments.md)。
-* 有人向您要求存取檢視或工作區的許可權
-* 有人確認已授予您檢視或工作區的存取權<!--Isk confirmed that there is nno email for denying access but did not test-->
+* 有人要求您存取檢視、工作區或記錄型別<!--or <span class="preview">or a record</span>-->的許可權
+* 有人確認已授予您檢視、工作區或記錄型別<!--<span class="preview">or record</span>-->的存取權 <!--Isk confirmed that there is nno email for denying access but did not test-->
 * 您提交Workfront Planning請求。 如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)
 * 某人核准或拒絕您提交的Workfront Planning請求。 如需詳細資訊，請參閱[在Adobe Workfront Planning中核准請求](/help/quicksilver/planning/requests/approve-request.md)
 * 狀態會變更為您提交的Workfront Planning請求。
 
-## 存取需求
+## 存取權要求
 
 +++ 展開以檢視本文中功能的存取需求。 
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront套件</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
 <p>任何Workfront和任何Planning套件</p> <p>任何工作流程與任何Planning套件</p>
 <p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
@@ -160,17 +160,17 @@ OLD:
 
 ## 請求和授與許可權時管理電子郵件通知
 
-1. （有條件且選用）某人要求或授予您存取檢視或工作區的許可權後，請前往通知您許可權要求的電子郵件。 電子郵件的寄件者為Adobe Experience Cloud。
+1. （有條件且選擇性）在有人要求或授予您存取Planning物件型別的許可權後，請移至通知您許可權要求的電子郵件。 電子郵件的寄件者為Adobe Experience Cloud。
 
 1. （選擇性）按一下電子郵件內&#x200B;**Workfront**&#x200B;方塊中的訊息。
 
-   記錄詳細資訊頁面會在Workfront中開啟。 您可以更新記錄或回覆註解。
+   您要求的許可權物件會在Workfront中開啟。
 
 1. （視條件而定）如果可用，請按一下&#x200B;**檢視所有通知**。
 **通知**&#x200B;頁面會在Adobe Experience Cloud中開啟。 會顯示所有Adobe Experience Cloud應用程式的所有通知。
 
 
-如需有關要求、授與或拒絕檢視或工作區許可權的資訊，請參閱[要求檢視或工作區的許可權](/help/quicksilver/planning/access/request-permissions.md)。
+如需關於要求、授與或拒絕許可權的資訊，請參閱[要求檢視或工作區的許可權](/help/quicksilver/planning/access/request-permissions.md)。
 
 如需有關管理Workfront Planning通知的資訊，請參閱[管理Adobe Workfront Planning通知偏好設定](/help/quicksilver/planning/notifications/manage-notification-preferences.md)。
 

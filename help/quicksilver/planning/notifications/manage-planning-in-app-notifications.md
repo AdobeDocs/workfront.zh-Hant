@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 0%
+source-wordcount: '359'
+ht-degree: 1%
 
 ---
 
@@ -23,10 +23,10 @@ ht-degree: 0%
 * 有人在記錄評論中為您或您的團隊加上標籤
 
   如需有關在記錄註解中標籤其他人的資訊，請參閱[管理記錄註解](/help/quicksilver/planning/records/manage-record-comments.md)。
-* 有人向您要求存取檢視或工作區的許可權
-* 有人確認已授予您檢視或工作區的存取權<!--Isk confirmed there is no notification for denying permissions - did not test-->
+* 有人要求您存取檢視或工作區<!--<span class="preview">or record</span>-->的許可權
+* 有人確認已授予您檢視或工作區的存取權<!--<span class="preview">or record</span>--> <!--Isk confirmed there is no notification for denying permissions - did not test-->
 
-## 存取需求
+## 存取權要求
 
 +++ 展開以檢視本文中功能的存取需求。 
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront套件</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
 <p>任何Workfront和任何Planning套件</p> <p>任何工作流程與任何Planning套件</p>
 <p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
@@ -155,8 +155,8 @@ OLD:
 
 ## 請求和授與許可權時管理應用程式內通知
 
-有人要求或授予您檢視或工作區的許可權時，您會收到應用程式內通知。
+有人要求或授予您檢視或工作區的許可權時，您會收到應用程式內通知。<!--<span class="preview">or record</span>-->
 
-如需有關要求、授與或拒絕檢視或工作區許可權的資訊，請參閱[要求檢視或工作區的許可權](/help/quicksilver/planning/access/request-permissions.md)。
+如需關於要求、授與或拒絕許可權的資訊，請參閱[要求檢視或工作區的許可權](/help/quicksilver/planning/access/request-permissions.md)。
 
 如需有關管理Workfront Planning通知的資訊，請參閱[管理Adobe Workfront Planning通知偏好設定](/help/quicksilver/planning/notifications/manage-notification-preferences.md)。
