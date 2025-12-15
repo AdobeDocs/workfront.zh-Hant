@@ -5,9 +5,9 @@ description: 瞭解Adobe Workfront中的AI助理
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 44db621643c76ab1f2c1b51d5e81cb0d1f827a58
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '851'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ Workfront的AI助理可在自然語言對話中提供應用程式內資訊和建
 * 搜尋工作處理的指示或參考原物料
 * 產生或檢查計算欄位的公式
 
-## 存取需求
+## 存取權要求
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -139,6 +139,10 @@ AI助理目前提供下列功能：
 1. 輸入貴組織將簽署Adobe Gen AI合約之個人的名稱和電子郵件地址。
 
    合約將傳送給此人簽署。 簽署並傳回協定後，Adobe會稽核協定，然後為您的組織啟用AI助理。
+
+   >[!NOTE]
+   >
+   >請在簽署及傳回合約後1-3個工作天，讓Adobe檢閱及啟用AI助理。
 
 ## 在AI助理中建立提示的提示
 
