@@ -4,9 +4,9 @@ description: 2026年第一季檔案和核准增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 5f05c1a13c6c0d0ed1d69b850a0cb07ce53fc271
+source-git-commit: 0197be82879cbd2abfd053e4a93002884db252b4
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,20 @@ ht-degree: 0%
 本頁說明2026年第一季度版本中針對預覽環境進行的檔案和核准增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2026年第一季發行週期目前可用的所有變更清單，請參閱[2026年第一季發行概觀](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
+
+## 在Creative Cloud Express中傳送稽核時選擇Workfront專案
+
+>[!NOTE]
+>
+>預覽： 2025年12月15日
+>生產快速發行： 2025年12月15日\
+>每個人都要生產： 2025年12月15日
+
+您可以選擇要將校樣傳送至的Workfront專案。 這有助於將所有相關的資產和校樣整理在同一個專案中。
+
+以前，校訂會自動新增到快速特定專案。
+
+如需詳細資訊，請參閱[Adobe Express與Workfront Proof整合](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)。
 
 ## Adobe Express的跨組織支援與Workfront校訂
 

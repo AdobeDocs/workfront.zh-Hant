@@ -8,10 +8,10 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 2eef36a6-8c61-4e7e-9760-23114f942250
-source-git-commit: 752c39b90e9206a335435350f8844c746a7127e0
+source-git-commit: 53aca72d33236e8680a8fd1c538f86ce14ac05a8
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 0%
+source-wordcount: '494'
+ht-degree: 2%
 
 ---
 
@@ -30,9 +30,9 @@ ht-degree: 0%
 
 * 使用進階校樣範本，將快速範本對應至多階段檢閱和核准工作流程
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 使用者必須擁有Standard Workfront授權，才能向Adobe Express請求核准。
 
-瞭解如何[取得設計的核准](https://helpx.adobe.com/tw/express/web/share-and-publish/share-and-collaborate/request-approval.html)。
+瞭解如何[取得設計的核准](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html)。
 
 
 ## 重新混合快速範本，並傳送以供檢閱和核准
@@ -97,8 +97,13 @@ Adobe Express使用者可以根據自己的需求混合使用快速範本。 發
 * 讀取註解
 * 及更多內容
 
-<!--Learn how to get approval on designs.   
-need link to help article-->
+### 請求核準時選擇Workfront專案
+
+請求核准重新混合的快速範本時，使用者可以選擇要將校訂傳送至的Workfront專案。 這有助於將所有相關的資產和校樣整理在同一個專案中。
+
+如果未選取任何專案，則校訂將預設為快速特定專案。
+
+如需詳細資訊，請參閱[傳送範本以供檢閱和核准](https://helpx.adobe.com/express/web/invite-collaborate/request-approval.html)。
 
 ## 檢閱並核准重新混合的快速檔案
 
