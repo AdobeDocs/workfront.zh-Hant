@@ -4,9 +4,9 @@ description: 身為工作區管理員，您可以在Adobe Workfront Planning的�
 hide: true
 hidefromtoc: true
 exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 6aba4316228a320cf33e419249a64b3cf56e8f39
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '662'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,10 @@ hidefromtoc: yes
 
 身為工作區管理員，您可以在Adobe Workfront Planning的記錄型別之間建立多個工作區階層。
 
-在工作區中連線記錄型別並建立階層後，記錄型別會彼此連線，其中一個記錄型別指定為父項，而最多其他6個記錄型別設定為子項。<!--asking Robert how many we can have in one hierarchy; I think 7 total but not sure-->
+
+在工作區中連線記錄型別後，您可以建立組織這些連線的階層。 階層將記錄型別組織成父子關係，最多可包含四個層級的物件型別。
+
+如果兩個記錄型別之間的連線尚未存在，則可在您設定階層時建立該連線。 定義之後，階層會跨工作區內的相關記錄型別建立結構化路徑。
 
 階層會針對記錄型別產生階層連結，且記錄<!--ensure this is the case: does the breadcrumb show for both the RT and the record??-->會顯示在它們的標題中。 如此一來，使用者就能在工作流程的任何階段知道自己在階層中的位置。
 
@@ -87,12 +90,12 @@ hidefromtoc: yes
 1. 按一下工作區名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**設定**。
 **階層**&#x200B;區段預設會開啟。
 1. 按一下&#x200B;**階層**&#x200B;頁面右上角的&#x200B;**新階層**。
-1. 按一下&#x200B;**新增物件**，然後從下拉式功能表中選取物件。 這會是階層中的父物件。
-您可以從目前的工作區選取記錄型別，或從Workfront選取專案。
-1. 按一下&#x200B;**新增物件**&#x200B;以新增第二個物件，這是階層中的第一個子系，然後在下拉式選單中選取另一個物件。
+1. 按一下&#x200B;**新增物件**，然後從下拉式功能表中選取物件。 這會是階層中的第一個父級物件。
+第一個父項只能是Planning記錄型別。 Workfront專案不能選取為階層中其他物件型別的父項。
+1. 按一下&#x200B;**新增物件**以新增第二個物件，這是階層中的第一個子系，然後在下拉式選單中選取另一個物件。
    ![未選取欄位的新階層方塊](assets/new-hierarchy-modal-without-connecte-fielf-selected.png)
 1. 按一下&#x200B;**選取連線的欄位**，以指出連線兩個物件的欄位。
-1. （條件式）如果兩個物件型別之間有連線的欄位，請從清單中選取它。 否則，請按一下[新增連線]。**&#x200B;**
+1. （條件式）如果兩個物件型別之間有連線的欄位，請從清單中選取它。 否則，請按一下[新增連線]。****
 
    >[!WARNING]
    >

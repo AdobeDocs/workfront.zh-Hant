@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
+source-git-commit: 6aba4316228a320cf33e419249a64b3cf56e8f39
 workflow-type: tm+mt
-source-wordcount: '1139'
+source-wordcount: '1513'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,18 @@ ht-degree: 1%
 
 * 您可以從記錄的預覽區域或記錄的頁面新增「連線記錄」頁面。
 
-* 「連線的記錄」頁面在表格檢視中只會顯示連線的物件或來自一個物件或記錄型別的記錄。 頁面不會顯示該型別的所有記錄。
+* 「連線的記錄」頁面只會顯示連線的物件或來自一個物件或記錄型別的記錄。 頁面不會顯示該型別的所有記錄。
+
+* 您可以在表格檢視的連線記錄頁面中顯示物件。
+
+<!--replace the above bullet with this: 
+
+* You can display the objects in a connected records page in the following types of views:
+
+   * Table
+   * <span class="preview">Timeline</span>
+   * <span class="preview">Calendar</span>
+-->
 
 * 您可以為下列連線記錄或物件型別新增「連線記錄」頁面：
 
@@ -62,7 +73,7 @@ ht-degree: 1%
    <ul><li><p>Adobe Experience Manager Assets授權及AEM Assets與Workfront之間的整合，用於連結AEM資產與Planning記錄型別。</p>
    <p>如需詳細資訊，請參閱<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">適用於Experience Manager Assets和Assets Essentials的Adobe Workfront：文章索引</a>。 </p></li>
    <li><p> 連線記錄型別與GenStudio Brands的Adobe GenStudio for Performance Marketing授權</p>
-   <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/get-started">開始使用Adobe GenStudio for Performance Marketing</a>。</p></li></ul>
+   <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">開始使用Adobe GenStudio for Performance Marketing</a>。</p></li></ul>
    </td> 
   </tr>
 
@@ -85,8 +96,9 @@ ht-degree: 1%
 
 +++   
 
-
 ## 將「連線的記錄」頁面新增至記錄
+
+您必須先將記錄型別與其他記錄或物件型別連線，才能將連線的記錄頁面新增至記錄。
 
 1. 按一下記錄名稱，從記錄型別頁面的任何檢視中開啟記錄。
 1. 從下列其中一個區域按一下&#x200B;**新增頁面**：
@@ -114,15 +126,18 @@ ht-degree: 1%
 
    ![行銷活動詳細資料下的對象已連線資料表檢視](assets/audience-connected-table-view-under-campaign-details-page.png)
 
-1. （選擇性）搜尋或按一下清單中連線記錄或物件型別的名稱。
+1. （選擇性）按一下清單中連線記錄或物件型別的名稱，或搜尋它，然後在清單中顯示時按一下它。
 
-1. （選擇性和條件性）在連線記錄頁面的表格檢視中，檢視連線的Planning記錄或任何Workfront物件（專案除外）時，請執行下列任一動作： <!--or AEM Assets--> <!--AEM is not available yet?? see note below-->
+1. （選擇性和條件性）如果表格檢視或記錄的詳細資訊頁面中顯示一個以上的已連線欄位，請按一下要在已連線記錄頁面中顯示其記錄的欄位。
+
+   所選連線記錄型別的表格檢視會新增至連線記錄頁面。
+
+1. （選擇性和條件性）當您為連線的Planning記錄建立連線記錄頁面時，請執行下列任一項作業： <!--or AEM Assets--> <!--AEM is not available yet?? see note below-->
 
    * 按一下記錄名稱。 這會在新索引標籤中開啟記錄頁面。
+   * 按一下表格檢視底部的&#x200B;**連線**&#x200B;以連線現有記錄，從連線方塊中選取記錄，然後按一下方塊外部以關閉記錄。 這些記錄會自動新增到表格中。 在新增記錄之前，記錄必須存在。
 
-   * 按一下表格檢視底部的&#x200B;**連線**&#x200B;以連線更多記錄，然後按一下連線方塊外部以關閉它。 新記錄會自動新增到表格中。
-
-     如需詳細資訊，請參閱[連線記錄](/help/quicksilver/planning/records/connect-records.md)。
+   如需詳細資訊，請參閱[連線記錄](/help/quicksilver/planning/records/connect-records.md)。
    * 編輯內嵌在表格檢視中之連線記錄的任何資訊。
 
    * 將游標暫留在已連線的記錄名稱上，然後按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)
@@ -138,17 +153,39 @@ ht-degree: 1%
       * **在上方或下方插入記錄**&#x200B;以將新記錄新增至連線的記錄型別。 新增至此的新記錄也會連線至目前的記錄。 在表格中選取記錄時，此選項在藍色列中無法使用。
       * **刪除**&#x200B;以刪除記錄。 刪除連線的記錄會將其從記錄型別以及記錄連線的位置刪除。
 
-     如需有關編輯表格檢視中記錄的資訊，請參閱[編輯記錄](/help/quicksilver/planning/records/edit-records.md)。
+        如需有關編輯表格檢視中記錄的資訊，請參閱[編輯記錄](/help/quicksilver/planning/records/edit-records.md)。
 
-     >[!TIP]
-     >
-     >您可以選取多個記錄或物件來刪除它們。
+        >[!TIP]
+        >
+        >您可以選取多個記錄或物件來刪除它們。
 
    * 在「連線的記錄」頁面上的表格中，內聯編輯任何Planning記錄。
 
-     所有其他Workfront物件都會以唯讀表格檢視顯示，且您無法加以編輯。
+1. （選擇性和條件性）當您為下列Workfront物件型別建立連線記錄頁面時：
 
-1. （選擇性和條件性）檢視連線的Workfront專案時，請在「連線記錄」頁面的表格檢視中執行下列任一項作業：
+   * 專案組合
+   * 計劃
+   * 群組
+   * 公司
+
+   在「連線記錄」頁面的表格檢視中，執行下列任一動作：
+
+   * 按一下物件的名稱。 這會在新標籤中開啟物件的頁面。
+   * 按一下表格檢視底部的&#x200B;**連線**&#x200B;以連線現有物件，從連線方塊中選取物件，然後按一下方塊外部以關閉它。 物件會自動加入表格中。 在新增物件之前，它們必須存在。
+
+   如需詳細資訊，請參閱[連線記錄](/help/quicksilver/planning/records/connect-records.md)。
+
+   * 在表格檢視中選取其中一個物件，然後按一下清單底部藍色列中的下列選項之一：
+
+   * **檢視**&#x200B;以在新索引標籤中開啟記錄頁面
+   * **複製連結**&#x200B;以複製記錄頁面的連結
+   * **中斷連線**&#x200B;以中斷物件與您檢視的記錄的連線。
+
+   >[!TIP]
+   >
+   >您可以選取多個記錄或物件來中斷它們的連線。
+
+1. （選擇性和條件性）當您為連線的Workfront專案建立連線記錄頁面時：
 
    * 按一下連線記錄頁面右上角的&#x200B;**連線記錄**&#x200B;以連線現有的專案。
 
@@ -166,18 +203,31 @@ ht-degree: 1%
       * **刪除**&#x200B;以刪除專案。 刪除專案會中斷專案與記錄的連線，並將其移至Workfront的「資源回收筒」。
       * **中斷連線**&#x200B;以中斷專案與記錄的連線。 中斷專案的連線會從目前記錄中移除該專案及其查閱欄位的所有值。
 
+     >[!TIP]
+     >
+     >您可以選取多個專案來中斷連線或予以刪除。
+   * 按一下表格檢視右上角的&#x200B;**+**&#x200B;圖示，將現有欄位新增至表格。 欄位必須先存在，您才能新增它們。
+
+     **資料行管理員**&#x200B;方塊開啟。 請執行下列動作：
+
+      1. 搜尋&#x200B;**可用**&#x200B;欄位中的現有物件欄位，然後按一下欄位名稱右側的&#x200B;**+**，將其新增至&#x200B;**已選取**&#x200B;欄。
+
+         您選取的欄位會新增至連線記錄頁面的表格檢視中。
+      1. 按一下&#x200B;**已選取**&#x200B;資料行中欄位右側的&#x200B;**-**，將其從資料表檢視中移除。
+      1. 按一下&#x200B;**儲存**&#x200B;以儲存連線的記錄頁面資料表檢視。
+
 1. （選擇性）連按兩下&#x200B;**連線記錄頁面**&#x200B;索引標籤的名稱
 
    或
 
-   將游標暫留在索引標簽名稱上，然後按一下[其他] **&#x200B;**&#x200B;![&#x200B; [其他]功能表](assets/more-menu.png)，然後按一下[重新命名] **以重新命名為新的[連線檢視]索引標籤。**
+   將游標暫留在索引標簽名稱上，然後按一下[其他] **** ![ [其他]功能表](assets/more-menu.png)，然後按一下[重新命名] **以重新命名為新的[連線檢視]索引標籤。**
 1. （選擇性）在連線的記錄頁面的工具列中使用下列任何檢視元素來管理表格檢視：
 
    * 篩選器
-   * 排序
-   * 分組
-   * 欄位，以顯示、隱藏或重新排列欄位
-   * 列高
+   * 排序。 不適用於專案。
+   * 分組。 不適用於專案。
+   * 欄，以顯示、隱藏或重新排列欄位
+   * 列高。 不適用於專案。
    * 搜尋
 
    如需詳細資訊，請參閱[管理資料表檢視](/help/quicksilver/planning/views/manage-the-table-view.md)。
@@ -188,14 +238,18 @@ ht-degree: 1%
 
    <!--1. <span class="preview">(Optional) Click the dropdown menu to the right of the view name, then click **New view** to add a view. For more information, see the section [Manage multiple views from the connected records page](#manage-multiple-views-from-the-connected-records-page) in this article. </span>-->
 
-1. （選擇性）將游標暫留在[連線的記錄]頁面索引標簽名稱上，按一下[其他] **&#x200B;**&#x200B;![&#x200B; [其他]功能表](assets/more-menu.png)，然後按一下[刪除] **&#x200B;**&#x200B;以移除索引標籤。
+1. （選擇性）將游標暫留在[連線的記錄]頁面索引標簽名稱上，按一下[其他] **** ![ [其他]功能表](assets/more-menu.png)，然後按一下[刪除] ****&#x200B;以移除索引標籤。
 
 <!--
 <div class="preview">
 
 ## Manage multiple views from the connected records page
 
-You can add and manage views from the connected records page of a record. 
+You can add and manage multiple view types from the connected records page of a record. 
+
+The views you create in the Connected records page of a record type are available everywhere in Workfront Planning where that record type page displays. Views created for the same record type anywhere else in Workfront Planning are also accessible in all connected records pages of that record type. 
+
+To manage multiple views from the connected records page: 
 
 1. From the connected records page of a record, click the dropdown menu to the right of the view name, then click **New view** to add a view, then select from the following options: 
 
