@@ -4,7 +4,7 @@ description: 2026年第一季要求增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: cf4c5888f58cb51c26176eae4aa1c8e011bbecf8
+source-git-commit: d77568db7ad1af56302c8460db603d242274a8cf
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 0%
@@ -51,7 +51,7 @@ For information on request views, including sharing, see [Create and manage view
 >[!NOTE]
 >
 >預覽： 2025年11月20日
->生產快速發行： 2026年12月11日\
+>生產環境快速發行： 2026年1月14日\
 >適用於所有人的生產： 2026年1月15日
 
 為了更方便建立及提交請求，我們已新增將草稿儲存至新請求體驗的功能。 現在，當您開始填寫並關閉請求時，請求會以草稿狀態儲存，並可在用於建立草稿的請求表單中找到。 之後，您可隨時重新開啟、更新及提交草稿。
