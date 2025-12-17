@@ -5,9 +5,9 @@ description: 您可以使用AI輸入提示或提供檔案來自動填寫請求�
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: 59aa98645583fb79a5d61a248dca535a3460956f
+source-git-commit: b34d7f48a51acf4bd6ddfa203c9e0024b2e8c280
 workflow-type: tm+mt
-source-wordcount: '1351'
+source-wordcount: '1352'
 ht-degree: 3%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->若要使用此功能，您的組織必須符合使用Workfront AI Assistant的需求。 如需詳細資訊，請參閱[&#x200B; AI助理的必要條件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
+>若要使用此功能，您的組織必須符合使用Workfront AI Assistant的需求。 如需詳細資訊，請參閱[ AI助理的必要條件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
 
 AI表單填寫可協助您根據輸入的提示自動填寫請求欄位。 它也可以根據文字（例如電子郵件和已上傳的檔案）填寫欄位。 您可以在提交請求之前核准或拒絕這些建議。
 
@@ -184,24 +184,25 @@ AI表單填寫可根據文字（例如電子郵件）建議欄位值。 您貼�
 <li>DOCX</li>
 <li>GIF</li>
 <li>JPEG</li>
+<li>ODP</li>
 </ul>
 </td>
 <td>
 <ul>
-<li>ODP</li>
 <li>ODS</li>
 <li>ODT</li>
 <li>PDF</li>
 <li>PNG</li>
 <li>PPT</li>
+<li>PPTX</li>
 </ul>
 </td>
 <td>
 <ul>
-<li>PPTX</li>
 <li>RTF</li>
 <li>TIFF</li>
 <li>TXT</li>
+<li>WEBP</li>
 <li>XLS</li>
 <li>XLSX</li>
 </ul>
