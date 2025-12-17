@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: de568156315ff9094d938600c91b55e185d53765
+source-git-commit: 5b1993d49ff675b3bab1d470bc756b987fe19d1c
 workflow-type: tm+mt
 source-wordcount: '885'
 ht-degree: 1%
@@ -69,7 +69,7 @@ ht-degree: 1%
 </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront授權</p></td> 
-   <td><p>標準</p> 
+   <td><p>任何</p> 
   </td> 
   </tr> 
   <tr> 

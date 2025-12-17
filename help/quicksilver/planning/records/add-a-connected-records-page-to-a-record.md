@@ -5,7 +5,7 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 6aba4316228a320cf33e419249a64b3cf56e8f39
+source-git-commit: 5b1993d49ff675b3bab1d470bc756b987fe19d1c
 workflow-type: tm+mt
 source-wordcount: '1513'
 ht-degree: 1%
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
-您可以將「連線記錄」頁面的索引標籤新增至記錄，以檢視連線記錄或物件的資訊。 這會將表格檢視中的連線記錄新增至索引標籤。
+您可以在Adobe Workfront Planning中將連線記錄頁面的頁簽新增至記錄，以檢視連線記錄或物件的資訊。 這會將表格檢視中的連線記錄新增至索引標籤。
 
 將「連線的記錄」頁面新增至記錄時，請考量下列事項：
 
@@ -38,12 +38,17 @@ ht-degree: 1%
    * Table
    * <span class="preview">Timeline</span>
    * <span class="preview">Calendar</span>
+
+* <span class="preview">You can create one page per one object or record type. For example, you cannot create two connected record pages for connected projects or tactics.</span>
+
 -->
 
 * 您可以為下列連線記錄或物件型別新增「連線記錄」頁面：
 
    * Workfront Planning記錄型別
-   * Workfront專案、方案、投資組合、群組或公司。 即使您沒有在Workfront中存取Workfront物件的許可權，仍可檢視連線物件。
+   * Workfront專案
+
+     即使您無權在Workfront中存取Workfront專案，仍可檢視這些連線的專案。
 
 ## 存取權要求
 
@@ -73,7 +78,7 @@ ht-degree: 1%
    <ul><li><p>Adobe Experience Manager Assets授權及AEM Assets與Workfront之間的整合，用於連結AEM資產與Planning記錄型別。</p>
    <p>如需詳細資訊，請參閱<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">適用於Experience Manager Assets和Assets Essentials的Adobe Workfront：文章索引</a>。 </p></li>
    <li><p> 連線記錄型別與GenStudio Brands的Adobe GenStudio for Performance Marketing授權</p>
-   <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/get-started">開始使用Adobe GenStudio for Performance Marketing</a>。</p></li></ul>
+   <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">開始使用Adobe GenStudio for Performance Marketing</a>。</p></li></ul>
    </td> 
   </tr>
 
@@ -98,7 +103,7 @@ ht-degree: 1%
 
 ## 將「連線的記錄」頁面新增至記錄
 
-您必須先將記錄型別與其他記錄或物件型別連線，才能將連線的記錄頁面新增至記錄。
+在將連線的記錄頁面新增到記錄之前，您必須先將記錄型別與其他記錄型別或Workfront專案連線。
 
 1. 按一下記錄名稱，從記錄型別頁面的任何檢視中開啟記錄。
 1. 從下列其中一個區域按一下&#x200B;**新增頁面**：
@@ -220,7 +225,7 @@ ht-degree: 1%
 
    或
 
-   將游標暫留在索引標簽名稱上，然後按一下[其他] **&#x200B;**&#x200B;![&#x200B; [其他]功能表](assets/more-menu.png)，然後按一下[重新命名] **以重新命名為新的[連線檢視]索引標籤。**
+   將游標暫留在索引標簽名稱上，然後按一下[其他] **** ![ [其他]功能表](assets/more-menu.png)，然後按一下[重新命名] **以重新命名為新的[連線檢視]索引標籤。**
 1. （選擇性）在連線的記錄頁面的工具列中使用下列任何檢視元素來管理表格檢視：
 
    * 篩選器
@@ -238,7 +243,7 @@ ht-degree: 1%
 
    <!--1. <span class="preview">(Optional) Click the dropdown menu to the right of the view name, then click **New view** to add a view. For more information, see the section [Manage multiple views from the connected records page](#manage-multiple-views-from-the-connected-records-page) in this article. </span>-->
 
-1. （選擇性）將游標暫留在[連線的記錄]頁面索引標簽名稱上，按一下[其他] **&#x200B;**&#x200B;![&#x200B; [其他]功能表](assets/more-menu.png)，然後按一下[刪除] **&#x200B;**&#x200B;以移除索引標籤。
+1. （選擇性）將游標暫留在[連線的記錄]頁面索引標簽名稱上，按一下[其他] **** ![ [其他]功能表](assets/more-menu.png)，然後按一下[刪除] ****&#x200B;以移除索引標籤。
 
 <!--
 <div class="preview">

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 48bfeb3b950ca1149a919aa204d77db6aa501e01
+source-git-commit: 5b1993d49ff675b3bab1d470bc756b987fe19d1c
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1417'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 * [建立記錄](/help/quicksilver/planning/records/create-records.md)
 
-## 存取需求
+## 存取權要求
 
 +++ 展開以檢視本文中功能的存取需求。 
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront套件</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
 <p>任何Workfront和任何Planning套件</p>
 <p>任何工作流程與任何Planning套件</p>
@@ -142,9 +142,9 @@ ht-degree: 0%
  </tbody>
 </table>-->
 
-## 編輯記錄頁面的考量事項
+## 使用記錄頁面時的注意事項
 
-* 依預設，記錄的詳細資訊和預覽頁面會顯示與記錄關聯的所有欄位。
+* 依預設，記錄的詳細資訊頁面會顯示與該記錄關聯的所有欄位。
 
 * 您無法在預覽或詳細資訊頁面中為記錄新增欄位。 您必須在表格檢視中新增欄位，才能在預覽和詳細資訊頁面中顯示它們。
 
@@ -154,10 +154,17 @@ ht-degree: 0%
 
    * 重新排列欄位
    * 新增或移除截面
+   * 新增或移除連線記錄頁面
 
 * 顯示在記錄預覽中所做的變更會立即顯示在記錄詳細資訊頁面中。 在記錄頁面中所做的變更也會顯示在記錄預覽方塊中。
 
 * 將封面影像或縮圖新增至記錄，不屬於記錄預覽或頁面的整體配置。 您可以新增唯一的封面影像或縮圖到每筆記錄。 如需詳細資訊，請參閱[新增封面影像至記錄](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)和[新增縮圖至記錄](/help/quicksilver/planning/records/add-thumbnails-to-records.md)。
+
+* 您可以將下列型別的其他頁面新增到記錄頁面：
+
+   * 已連接的記錄頁面
+
+     如需詳細資訊，請參閱[新增連線的記錄頁面至記錄](#add-a-connected-records-page-to-a-record)一節。
 
 ## 新增區段到記錄預覽或頁面
 
@@ -215,7 +222,7 @@ ht-degree: 0%
 
      或
 
-     按一下&#x200B;**下移**&#x200B;將區段下移一個位置。
+     按一下&#x200B;**下移**將區段下移一個位置。
 區段中的所有欄位會隨著區段移動。
 
    * 按一下&#x200B;**刪除**&#x200B;以刪除區段。 該區段已刪除且無法復原。 所有存取此型別記錄的使用者將不再檢視已刪除的區段。
