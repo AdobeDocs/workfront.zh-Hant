@@ -4,9 +4,9 @@ description: 2026年第一季度管理員增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: eead7c3c22dff242cd2a875381f5a2ac901cc2bd
+source-git-commit: e9e7b76dc8e4b9d1cc91987d0ea63b5e2ee58224
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '643'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,36 @@ ht-degree: 0%
 本頁說明管理員在2026年第一季度版本中對「預覽」環境所做的增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2026年第一季發行週期目前可用的所有變更清單，請參閱[2026年第一季發行概觀](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
+
+## 管理版面配置範本中的優先順序
+
+>[!NOTE]
+>
+>預覽： 2025年12月2日
+>生產環境快速發行： 2026年1月14日
+>適用於所有人的生產： 2026年1月15日
+
+您現在可以在版面配置範本中啟用或停用特定使用者的優先順序。 如果您先前已針對組織停用「優先順序」，則進行此變更後，其配置範本仍會停用。
+
+優先順序將自動包含在具有預設請求存取權的授權型別中。 例如，貢獻者授權將依預設在主要功能表中看到請求、展示板和優先順序，而外部授權將僅看到檔案和展示板，因為它沒有檢視或提交請求的存取權。
+
+
+如需詳細資訊，請參閱[使用配置範本自訂主功能表](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)。
+
+## 檢查已計算自訂欄位的多重表單衝突
+
+>[!NOTE]
+>
+>預覽： 2025年12月18日
+>生產環境快速發行： 2026年1月14日
+>適用於所有人的生產： 2026年1月15日
+
+相同的計算欄位在附加到不同的自訂表單時可以有不同的公式。 如果將包含相同計算欄位的兩個或更多表單附加至物件，則所有表單上的公式必須相同。 如果變更可能導致衝突，則不允許編輯公式。
+
+為了提供在自訂欄位上編輯運算式時可能影響哪些物件的可見度，我們新增了一個選項來檢查衝突。 此對話方塊會顯示所有可能因變更公式而受影響的物件（依物件型別分組）。 您可以導覽至每個物件的詳細資訊，並檢閱欄位以決定欄位應該從任何表單中移除還是運算式應該保持不變。
+
+如需詳細資訊，請參閱[將計算欄位新增至表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)。
+
 
 ## 輸入日期及自訂物件上儲存的ID輸入
 
@@ -61,3 +91,7 @@ ht-degree: 0%
 * 欄位資料庫中無法將其新增到其他自訂表單
 
 如需詳細資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+
+
+
+

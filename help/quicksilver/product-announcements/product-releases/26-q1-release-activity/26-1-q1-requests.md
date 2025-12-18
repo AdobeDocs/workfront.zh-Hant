@@ -4,9 +4,9 @@ description: 2026年第一季要求增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d77568db7ad1af56302c8460db603d242274a8cf
+source-git-commit: ac1857f4cf4c6b3823773902ae8be439e2dcd55a
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '913'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,88 @@ ht-degree: 0%
 本頁說明2026年第一季度版本對預覽環境提出的請求增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2026年第一季發行週期目前可用的所有變更清單，請參閱[2026年第一季發行概觀](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
+
+## 建立物件連結現在可在請求區域與我的請求Widget中使用
+
+>[!NOTE]
+>
+>預覽： 2025年12月18日
+>生產環境快速發行： 2026年1月14日\
+>適用於所有人的生產： 2026年1月15日
+
+為了讓您更輕鬆地前往由特定請求建立的物件，我們已新增連結至「已建立的物件」欄。 現在，您可以按一下此欄中的連結，直接前往已建立物件的頁面。
+
+以前，此欄只包含物件的名稱，不包含其連結。
+
+如需有關尋找這些連結的資訊，請參閱有關新增欄的說明，請參閱：
+
+* [找出已提交的請求](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md)
+* [使用我的請求Widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)
+
+<!--
+
+## Create groupings in the Requests list and My Requests widget
+
+>[!NOTE]
+>
+>Preview: December 18, 2025 
+>Production fast release: January 14, 2026  
+>Production for everyone: January 15, 2026  
+
+To make it easier for you to find the requests you need, we've added groupings to the Requests list and the My Requests widget. Now, you can group requests by any column on the list. These groupings become part of the view that you are using when you create the grouping.
+
+For more information on creating views for the Request list and My Requests widget, including adding groupings, see [Create or edit views in the Requests area and My Requests widget](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+
+-->
+
+## 在請求區域與我的請求Widget中共用檢視
+
+>[!NOTE]
+>
+>預覽： 2025年12月18日
+>生產環境快速發行： 2026年1月14日\
+>適用於所有人的生產： 2026年1月15日
+
+為了更方便確保可檢視您所需的資訊，我們已新增將檢視分享至新請求體驗的功能。 現在，您可以與其他使用者、團隊或群組共用檢視。
+
+您可以從Workfront的要求區域和首頁的我的要求Widget共用要求清單檢視。 兩個位置的共用功能相同，且在我的請求Widget和請求區域之間移動時會保留檢視設定（包括共用）。
+
+如需請求檢視的詳細資訊，包括共用，請參閱[在請求區域](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)建立和管理檢視。
+
+## 新增自訂欄位到請求清單和我的請求Widget
+
+>[!NOTE]
+>
+>預覽： 2025年12月18日
+>生產環境快速發行： 2026年1月14日\
+>適用於所有人的生產： 2026年1月15日
+
+為了讓您更輕鬆地檢視您需要的資訊，我們新增了將自訂欄位新增為「請求」清單上的欄以及「首頁」中的「我的請求」Widget的功能。 現在，您可以從自訂表單新增欄位作為欄，並且該欄位中包含資訊的請求將在清單或Widget中顯示該資訊。
+
+此功能僅在新的請求體驗中可用。
+
+以前，自訂欄位在請求清單或我的請求Widget中無法使用。
+
+如需新增欄的說明，請參閱：
+
+* [在請求區域中建立或編輯檢視](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)
+* [使用我的請求Widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)
+
+## 請求篩選器中現在提供目前的使用者萬用字元
+
+>[!NOTE]
+>
+>預覽： 2025年12月18日
+>生產環境快速發行： 2026年1月14日\
+>適用於所有人的生產： 2026年1月15日
+
+為了更方便篩選適用於您的請求，我們已建立目前的使用者萬用字元。 現在，篩選時，您可以選取「我（已登入使用者）」。 該篩選器將套用至正在檢視請求清單的使用者。
+
+將篩選器新增至多個使用者將使用的檢視時，這會很方便。 每位使用者都會看到套用至他們的篩選結果。
+
+值為使用者的欄位可使用萬用字元。
+
+如需有關在請求清單中設定檢視的詳細資訊，包括篩選器，請參閱[在請求區域中建立或編輯檢視](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)。
 
 ## 由AI支援的表單填寫現在可用於請求
 
@@ -30,20 +112,6 @@ ht-degree: 0%
 您的組織必須啟用AI才能存取此功能。
 
 如需有關由AI支援的表單填寫的詳細資訊，包括啟用組織AI所需的資訊，請參閱[使用AI支援的表單填寫使用提示或檔案填寫請求](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)。
-
-<!--## Share views in the Requests area and the My Requests widget
-
->[!NOTE]
->
->Preview: December 4, 2025 
->Production fast release: December 11, 2025  
->Production for everyone: January 16, 2026  
-
-To make it easier to ensure to see the information you need, we've added the ability to share views to the new reporting experience. Now, you can share views with other users, teams, or groups.
-
-You can share request list views from both the Requests area in Workfront and the My Requests widget in Home. Sharing functionality is identical in both places, and view settings, including sharing, are preserved when moving between the My Requests widget and the Requests area.
-
-For information on request views, including sharing, see [Create and manage views in the Requests area](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).-->
 
 
 ## 將請求草稿儲存在新的請求體驗中
