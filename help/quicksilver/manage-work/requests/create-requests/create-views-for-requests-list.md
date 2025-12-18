@@ -5,21 +5,22 @@ title: 在請求區域中建立檢視
 description: 如果您使用新的請求體驗，您可以建立和儲存請求區域的檢視。
 author: Becky
 feature: Work Management
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: d2e938cabc5123a89335a42ed06bccaa77fcad83
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 0%
+source-wordcount: '702'
+ht-degree: 2%
 
 ---
 
 # 在請求區域中建立或編輯檢視
 
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽Sandbox」環境中使用。</span>
 
 如果您使用新的請求體驗，您可以建立和儲存請求區域的檢視。 這些檢視包括篩選器和欄排列。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 
 <table style="table-layout:auto"> 
@@ -28,7 +29,7 @@ ht-degree: 0%
  <tbody> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
@@ -69,7 +70,7 @@ ht-degree: 0%
 
    ![新檢視](assets/create-new-view.png)
 
-1. 輸入新檢視的名稱，然後按一下[建立]。**&#x200B;**
+1. 輸入新檢視的名稱，然後按一下[建立]。****
 1. 繼續[在要求區域](#edit-a-view-in-the-requests-area)編輯檢視。
 
 ## 在請求區域中編輯檢視
@@ -89,6 +90,21 @@ ht-degree: 0%
 
 1. （選擇性）若要重新命名檢視，請按一下&#x200B;**檢視**&#x200B;下拉式清單![檢視下拉式清單](assets/view-icon-requests.png)，然後按一下檢視旁邊的三個點功能表，選取&#x200B;**重新命名**，然後輸入檢視的新名稱。
 1. 按一下&#x200B;**檢視**&#x200B;下拉式清單![檢視下拉式清單](assets/view-icon-requests.png)，然後選取您要編輯的檢視。
+1. <span class="preview">若要將自訂欄位新增為欄，請按一下熒幕右側附近的&#x200B;**新增欄**&#x200B;圖示![新增欄](assets/add-column.png)，然後按一下您想要新增為欄位至檢視的自訂表單欄位旁的加號圖示。</span>
+
+   <span class="preview">附加至清單中物件的表單上的自訂欄位可以新增為欄。</span>
+
+   >[!TIP]
+   >
+   >您目前無法在生產環境中新增欄。
+1. （選擇性）按一下&#x200B;**欄**，然後隱藏、顯示或重新排列要求清單中的欄。
+
+   ![資料行方塊](assets/columns-editing-box-in-requests-planning-tab.png)
+
+   >[!TIP]
+   >
+   >您目前無法在生產環境中新增更多欄。
+
 1. （選擇性）按一下&#x200B;**篩選器**，開始新增條件以決定您要在Planning標籤中檢視哪些請求。
 
    ![在Planning要求索引標籤中編輯篩選器](assets/filters-editing-box-in-requests-planning-tab.png)
@@ -102,16 +118,12 @@ ht-degree: 0%
    * **狀態**：要求的狀態。
    * **輸入者**：新增請求的使用者名稱。 如果要求是由Workfront外部的人員加入，則&#x200B;**輸入者**&#x200B;欄位會顯示`N/A`。
 
-   您可以有多個&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;加入的篩選器。
+   <span class="preview">在預覽環境中，您也可以依已新增至檢視的任何自訂欄位進行篩選。</span>
+
+   您可以有多個&#x200B;**And**&#x200B;或&#x200B;**Or**加入的篩選器。
 當您新增篩選條件時，要求清單會自動篩選。
 
-1. （選擇性）按一下&#x200B;**欄**，然後隱藏、顯示或重新排列要求清單中的欄。
 
-   ![資料行方塊](assets/columns-editing-box-in-requests-planning-tab.png)
-
-   >[!TIP]
-   >
-   >您無法再新增任何欄。
 
 >[!IMPORTANT]
 >

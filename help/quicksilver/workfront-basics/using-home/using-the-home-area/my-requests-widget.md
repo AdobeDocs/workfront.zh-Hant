@@ -6,10 +6,10 @@ description: 您可以在「我的請求」Widget中提交請求。 您也可以
 author: Becky
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-source-git-commit: 59a53f7355032810a05fce2d3f0dfe30d64bbd40
+source-git-commit: 1acffcc2d3511d70fc7d0b263102335d7234e797
 workflow-type: tm+mt
-source-wordcount: '798'
-ht-degree: 5%
+source-wordcount: '882'
+ht-degree: 4%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>[!UICONTROL 檢視]對您在對話中被標籤或需要解決核准的專案、任務、問題和檔案的許可權或更高</p> </td> 
+   <td> <p>[！UICONTROL檢視]對您在對話中被標籤或需要解決核准的專案、任務、問題和檔案的許可權或更高</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -98,9 +98,11 @@ ht-degree: 5%
    * 狀態
    * 輸入者
 
+   <span class="preview">在「預覽」環境中，您也可以依據任何已新增為欄的自訂欄位進行篩選      至檢視。</span>
+
 1. 在下一個欄位中，選取您要用於此篩選條件的運運算元。 可用的運運算元取決於所選的欄位。
 1. （視條件而定）如果運運算元右側出現欄位，請選取您要作為篩選依據的值。
-1. （選擇性）若要新增其他篩選條件，請按一下[新增條件] **&#x200B;**&#x200B;並重複步驟4-6。
+1. （選擇性）若要新增其他篩選條件，請按一下[新增條件] ****&#x200B;並重複步驟4-6。
 1. （選擇性和條件式）如果您有多個條件，請按一下條件左邊的&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;來切換And或Or值。
 
 篩選器會自動儲存。
@@ -112,7 +114,7 @@ ht-degree: 5%
 >* 若要僅篩選Workfront請求，請將篩選設定為&#x200B;**物件型別** > **具有任何** > **問題**。
 >* 若要僅篩選Workfront Planning請求，請將篩選設定為&#x200B;**物件型別** > **沒有** > **問題**。
 
-## 調整欄
+## 調整或新增欄
 
 您可以選擇哪些可用欄出現在「我的請求」Widget上，並設定其順序。
 
@@ -133,6 +135,9 @@ ht-degree: 5%
 1. 在「我的請求」Widget中，按一下&#x200B;**欄**。
 1. （選擇性）若要重新排序欄，請按一下您要移動之欄的拖曳控點![拖曳控點](assets/drag-handle.png)，然後將其拖曳到所要的位置。 清單頂端的欄會在「我的請求」Widget中顯示為最左側的欄。
 1. （可選）使用切換可控制欄是否顯示在我的請求Widget中。
+1. <span class="preview">若要將自訂欄位新增為欄，請按一下熒幕右側附近的&#x200B;**新增欄**&#x200B;圖示![新增欄](assets/add-column.png)，然後按一下您想要新增為欄位至Widget的自訂表單欄位旁的加號圖示。</span>
+
+   <span class="preview">附加至清單中物件的表單上的自訂欄位可以新增為欄。</span>
 
 欄偏好設定會自動儲存。
 
