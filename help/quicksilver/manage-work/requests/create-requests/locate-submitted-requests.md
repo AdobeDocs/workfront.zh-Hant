@@ -8,15 +8,16 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: ebdb1803fe57386a84d3d882b02a53ec4344b225
+source-git-commit: 9ea9f5741794641409d47ada006e3b9b78025cbd
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1309'
 ht-degree: 2%
 
 ---
 
 # 找出已提交的請求
 
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽Sandbox」環境中使用。</span>
 
 您可以找到以下您或其他人提交的請求型別，或您已開始但您從未完成提交的請求。 您可以在Adobe Workfront的下列區域中找到這些請求：
 
@@ -71,11 +72,16 @@ ht-degree: 2%
 
 +++
 
-## 找出已提交的請求
+## 在請求區域中找出已提交的請求
 
 根據您使用新請求體驗還是舊請求體驗，找到已提交的請求會有所不同。
 
+* [在新請求體驗中找到已提交的請求](#locate-submitted-requests-in-the-new-requesting-experience)
+* [在舊版請求體驗中找出已提交的請求](#locate-submitted-requests-in-the-legacy-requesting-experience)
+
 ### 在新請求體驗中找到已提交的請求
+
+您可以在[要求]區域中找到已提交的要求，<span class="preview">其中包含這些要求所建立之物件的連結。</span>
 
 若要找出您或其他使用者已在新請求體驗中提交的請求：
 
@@ -97,7 +103,7 @@ ht-degree: 2%
    * **狀態**：要求的狀態。
    * **輸入者**：新增請求的使用者名稱。 如果要求是由Workfront外部的人員加入，則&#x200B;**輸入者**&#x200B;欄位會顯示`N/A`。
 
-   您可以有多個&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;加入的篩選器。
+   您可以有多個&#x200B;**And**&#x200B;或&#x200B;**Or**加入的篩選器。
 當您新增篩選條件時，要求清單會自動篩選。
 1. （選用）使用檢視來著重處理您要尋找的請求。
 
