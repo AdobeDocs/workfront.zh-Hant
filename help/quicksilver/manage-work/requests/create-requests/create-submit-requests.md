@@ -6,9 +6,9 @@ description: 計畫工作在Adobe Workfront中以專案和任務表示。 不過
 author: Becky
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 8851a67e992152b05c44063e67070c0942a463bc
+source-git-commit: 684f7fc62fe341a59b1b7f7ae6c7118a5e511513
 workflow-type: tm+mt
-source-wordcount: '2607'
+source-wordcount: '2546'
 ht-degree: 2%
 
 ---
@@ -125,14 +125,7 @@ Workfront管理員必須建立「請求佇列」的下列元件：
 
 {{step1-to-requests}}
 
-1. （選擇性和條件性）如果下列專案適用於您的組織和Workfront執行個體，請選取畫面右上角的&#x200B;**切換至新體驗**&#x200B;設定：
-
-   * 您的組織已購買Workfront套件
-   * 您的組織已加入Adobe Unified Experience。
-   * 您的管理員已授與您存取Workfront Planning的許可權
-   * 您至少擁有Workfront Planning工作區的檢視許可權
-
-   如需詳細資訊，請參閱[提交Adobe Workfront Planning要求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)
+1. （選擇性和條件性）選取畫面右上角的&#x200B;**切換至新體驗**&#x200B;設定。
 
 1. 按一下頁面右上角的&#x200B;**新要求**。
 

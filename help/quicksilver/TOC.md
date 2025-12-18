@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 95ddfe6139d225527ba5539903ba8ef100589a75
+source-git-commit: 684f7fc62fe341a59b1b7f7ae6c7118a5e511513
 workflow-type: tm+mt
-source-wordcount: '13623'
+source-wordcount: '13625'
 ht-degree: 2%
 
 ---
@@ -1497,8 +1497,8 @@ ht-degree: 2%
          * [刪除提交的請求或請求草稿](manage-work/requests/create-requests/delete-request-draft.md)
          * [複製並提交請求](manage-work/requests/create-requests/copy-and-submit-requests.md)
          * [從先前的資料自動填入請求](/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md)
+         * [在請求區域中建立和管理檢視](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)
          * [使用由AI支援的表單填寫功能，使用提示或檔案填寫請求](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)
-         * [在請求區域中建立檢視](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)
    * 委派工作 {#delegate-work}
       * [委派工作](manage-work/delegate-work/delegate-work.md)
       * [委派任務和問題總覽](manage-work/delegate-work/delegate-work-overview.md)
@@ -2528,9 +2528,9 @@ ht-degree: 2%
       * [使用JWT流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-jwt-flow.md)
       * [使用PKCE流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-pkce-flow.md)
       * [棄用API — 內部](wf-api/api/deprecation-api-internal.md)
-      * [&#x200B; API 21版的新增功能](/help/quicksilver/wf-api/api/new-api-version-21.md)
-      * [&#x200B; API 20版的新增功能](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [&#x200B; API 19版的新增功能](wf-api/api/new-api-version-19.md)
+      * [ API 21](/help/quicksilver/wf-api/api/new-api-version-21.md)版的新增功能
+      * [ API 20](/help/quicksilver/wf-api/api/new-api-version-20.md)版的新增功能
+      * [ API 19](wf-api/api/new-api-version-19.md)版的新增功能
       * [API 18版的新增功能](wf-api/api/new-api-version-18.md)
       * [API 17版的新增功能](wf-api/api/new-api-version-17.md)
       * [API 16版的新增功能](wf-api/api/new-api-version-16.md)
