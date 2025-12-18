@@ -6,14 +6,16 @@ description: 核准流程提供了為專案、任務和問題建立多步驟核�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
-source-git-commit: 2503b6e628e4860a5652c620d8e4d0eea2414443
+source-git-commit: a3ce37193025ff8bb2e0be88ef5556fcadbb542c
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 0%
+source-wordcount: '752'
+ht-degree: 2%
 
 ---
 
 # 檢視核准
+
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽Sandbox」環境中使用。</span>
 
 核准流程提供了為專案、任務和問題建立多步驟核准的靈活性。 Adobe Workfront管理員會定義核准程式，以提供整個系統的一致性。
 
@@ -21,16 +23,16 @@ ht-degree: 0%
 
 如需將核准與Workfront中的工作建立關聯的資訊，請參閱[將新的或現有的核准程式與工作建立關聯](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -63,7 +65,7 @@ ht-degree: 0%
 
 * 在「首頁」區域中
 
-   * 所有等待您核准的專案、任務、問題、時程表、檔案和存取權都會顯示在首頁區域的我的核准Widget中。
+   * 所有等待您核准的專案、任務、問題、時程表、檔案、存取權和<span class="preview">Workfront計畫請求</span>都會顯示在首頁區域的我的核准Widget中。
    * 當您選擇我已提交的核准篩選選項時，您自己提交的核准也會顯示在首頁區域的我的核准Widget中。 如需詳細資訊，請參閱本文中[首頁]區域[一節中的](#review-work-you-submit-for-approval-in-the-home-area)檢閱您提交核准的工作。
    * 當關聯的專案、任務或問題標示為「已解決」、「保留」、「已關閉」或「已取消」時，核准會從「首頁」區域的「我的核准」小工具中移除。
 

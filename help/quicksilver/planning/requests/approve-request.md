@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: 5b1993d49ff675b3bab1d470bc756b987fe19d1c
+source-git-commit: a3ce37193025ff8bb2e0be88ef5556fcadbb542c
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '1116'
 ht-degree: 1%
 
 ---
@@ -97,7 +97,12 @@ ht-degree: 1%
 >
 >您組織的Workfront執行個體必須上線至Adobe統一體驗，使用者才能接收電子郵件和應用程式內通知。
 
-若要核准請求，請執行下列步驟：
+您可以從要求本身、<span class="preview">或首頁的[我的核准]介面工具集核准建立記錄的要求。</span>
+
+* [在Workfront Planning中核准來自請求的要求](#approve-a-request-from-the-request-in-workfront-planning)
+* [核准來自首頁我的核准Widget的請求](#approve-a-request-from-the-my-approvals-widget-in-home)
+
+### 在Workfront Planning中核准來自請求的要求
 
 1. （視條件而定）如果您在Workfront中使用舊版請求體驗，請執行以下任一操作來開啟請求：
 
@@ -128,3 +133,31 @@ ht-degree: 1%
    * **已拒絕**：要求已拒絕。
 
    請求會保留在Workfront請求區域的已提交區段的Planning索引標籤中。
+
+<div class="preview">
+
+### 核准來自首頁我的核准Widget的請求
+
+1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
+
+   或
+
+   按一下Adobe Workfront左上角的[!UICONTROL 首頁]圖示![首頁圖示](/help/_includes/assets/home-icon-30x29.png)。
+
+1. 找到您要核准或拒絕的物件。
+
+1. （選擇性）按一下「核准」或「拒絕」旁的下拉箭頭，輸入註記並按一下「新增」，以新增註解。
+
+1. 選擇下列其中一項：
+
+   * **核准**：這會核准要求。 在所有核准者核准請求後，系統會立即建立與請求表單相關之記錄型別的記錄。
+   * **拒絕**：這會拒絕要求，即使您是唯一拒絕要求的核准者亦然。 不會針對與請求表單關聯的記錄型別建立記錄。
+
+   提交請求的使用者在請求被批准或拒絕時，會收到電子郵件和應用程式內通知。
+
+   視核准決定而定，請求的狀態會變更為下列專案：
+
+   * **已完成**：要求已核准。
+   * **已拒絕**：要求已拒絕。
+
+</div>
