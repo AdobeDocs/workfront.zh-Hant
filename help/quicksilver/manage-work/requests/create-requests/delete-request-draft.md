@@ -6,10 +6,10 @@ description: 您可以刪除已提交的請求或請求草稿。
 author: Becky
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
-source-git-commit: 8b08336431d2e4ebfcb078d8329f8748fac66eda
+source-git-commit: d87df92f548b19901374e982d1759efade644e17
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 3%
+source-wordcount: '772'
+ht-degree: 2%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 3%
 * Workfront Planning工作區管理員可以刪除他們所管理的Planning工作區中的請求<!--and drafts-->。
 * 使用者可以刪除他們提交的要求<!--and drafts-->。
 
-若要刪除新請求體驗中的請求或草稿：
+### 從三點選單刪除請求
 
 1. 若要存取「要求」清單，請按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 要求]**。
 
@@ -103,6 +103,24 @@ ht-degree: 3%
 1. 在開啟的對話方塊中，按一下&#x200B;**刪除**。
 
    已刪除要求<!--or draft-->。
+
+### 大量刪除請求
+
+1. 若要存取「要求」清單，請按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 要求]**。
+
+1. 若要存取「首頁」中的「我的請求」Widget：
+
+   1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
+   1. 找出「我的請求」Widget。
+
+      如需有關「我的請求」Widget的詳細資訊，請參閱[使用「我的請求」Widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)。
+
+1. 在「請求」清單或「我的請求」Widget中，按一下要刪除之每個請求左側的方塊。
+1. 在頁面底部的藍色列中，按一下&#x200B;**刪除**。
+
+   >[!NOTE]
+   >
+   >如果藍色列中看不到「刪除」選項，表示您無權刪除一或多個選取的請求。
 
 </div>
 
