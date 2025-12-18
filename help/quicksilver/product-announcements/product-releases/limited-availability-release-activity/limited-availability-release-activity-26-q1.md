@@ -8,9 +8,9 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: fb1b5bb34810652e5098f0dcad70062670d7c137
+source-git-commit: 2e75f6aaba089a91a2306ad06a0f0d79a7524f75
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,17 @@ ht-degree: 0%
 
 您現在可以將以百分比為基礎的變更，套用至費率卡中一或多個工作角色收費率。 您不必逐一手動更新每個費率，而是可以在單一作業中將變更套用至所有選取的費率。
 
+### 進階搜尋中的KPI限制
+
+>[!NOTE]
+>
+>生產發行日期： 2025年12月18日
+
+為了改善「進階指定」與人員配置計畫中進階搜尋的可用性，您可在表格欄位中顯示的重要績效指標清單現在有限。 只顯示關鍵量度有助於您更快找到資訊。
+
+* 在進階指派進階搜尋中，**可用容量** KPI可供使用。 此量度代表使用者的基本總容量。
+* 在人員配置計畫進階搜尋中，**剩餘人員配置產能** KPI可供使用。 此量度反映分配後還有多少容量可用。
+
 ## 針對有限可用性功能的維護更新
 
 本節說明每週Workfront更新中針對有限可用性功能所修正的問題。
@@ -56,13 +67,13 @@ ht-degree: 0%
 
 未選取&#x200B;**使用來自系統**&#x200B;的日期有效匯率核取方塊時，專案詳細資料>財務區域中的&#x200B;**匯率日期**&#x200B;欄位現在已隱藏。 先前，編輯專案時，即使未啟用日期有效匯率，專案詳細資料上也會顯示日期欄位。
 
-<!--### Maintenance Updates week of December 7-13, 2025
+<!--### Maintenance Updates week of January 4-10, 2026
 
 **Title**
 
 text
 
-### Maintenance Updates week of January 4-10, 2026
+### Maintenance Updates week of January 11-17, 2026
 
 **Title**
 
