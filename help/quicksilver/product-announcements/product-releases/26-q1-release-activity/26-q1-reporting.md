@@ -4,9 +4,9 @@ description: 2026年第一季度報告增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: bed931281d7d0b3184914ed7649d9cb889bcf39a
+source-git-commit: bb07096ce69e7d52c9332b6f9d230440a03c5f59
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '1009'
 ht-degree: 0%
 
 ---
@@ -17,39 +17,35 @@ ht-degree: 0%
 
 如需2026年第一季發行週期目前可用的所有變更清單，請參閱[2026年第一季發行概觀](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
 
-<!--
 
-## Currency updates in Canvas Dashboards
 
->[!NOTE]
->
->Preview: December 18, 2025 
->Production fast release: January 14, 2026 
->Production for everyone: January 15, 2026 
-
-We have made the following updates for currency fields:
-
-* When multiple currencies are defined in Workfront, you can now choose a default currency for the dashboard during creation. 
-
-* When creating a report, you can lock a currency field. This ensures that the dashboard-level currency preference does not affect the display of these values.
-
-* When viewing a dashboard, users can toggle between any defined currencies in Workfront. These changes apply to the entire dashboard with the exception of locked currency fields.
-
--->
-
-<!--
-
-## Quick search table results in Canvas Dashboards
+## Canvas儀表板中的貨幣更新
 
 >[!NOTE]
 >
->Preview: December 18, 2025 
->Production fast release: January 14, 2026 
->Production for everyone: January 15, 2026 
+>預覽： 2025年12月18日
+>生產環境快速發行： 2026年1月14日
+>適用於所有人的生產： 2026年1月15日
 
-We have added a quick search to Table reports. This search works across all pages, so you can find data even if it's not currently visible.
+我們已進行下列貨幣欄位更新：
 
--->
+* 在Workfront中定義多種貨幣時，您現在可以在建立期間為儀表板選擇預設貨幣。
+
+* 建立報表時，您可以鎖定貨幣欄位。 這可確保儀表板層級的貨幣偏好設定不會影響這些值的顯示。
+
+* 檢視控制面板時，使用者可以在Workfront中定義的任何貨幣之間切換。 這些變更會套用至整個儀表板，但鎖定的貨幣欄位除外。
+
+
+## 畫布儀表板中的快速搜尋表格結果
+
+>[!NOTE]
+>
+>預覽： 2025年12月18日
+>生產環境快速發行： 2026年1月14日
+>適用於所有人的生產： 2026年1月15日
+
+我們在表格報表中新增了快速搜尋。 此搜尋可在所有頁面上運作，因此即使資料目前不可見，您也可以尋找資料。
+
 
 ## 新的圓形圖顯示總計選項
 

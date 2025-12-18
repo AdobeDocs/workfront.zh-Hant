@@ -6,10 +6,10 @@ description: 您可以建立控制面板，以快速存取Adobe Workfront中的�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 39a8d670baa19aa37e29b0312e6c9a296569f44c
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 1%
+source-wordcount: '549'
+ht-degree: 4%
 
 ---
 
@@ -17,20 +17,23 @@ ht-degree: 1%
 
 <!--Audited: 01/2025-->
 
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅適用於所有客戶的預覽環境。</span>
+
+
 您可以建立控制面板，以快速存取Adobe Workfront中的資訊。 儀表板最多可以新增25個報告、行事曆和外部頁面，您可與其他人共用這些儀表板以獲得最佳共同作業。
 
 若要深入瞭解儀表板，請參閱[開始使用儀表板](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -79,12 +82,17 @@ ht-degree: 1%
     <col>
     <tbody>
      <tr>
-      <td role="rowheader"><strong>姓名</strong></td>
+      <td role="rowheader"><strong>名稱</strong></td>
       <td><p>這是您控制面板的名稱。 我們建議僅使用UTF-8字元以避免相容性問題。</p><p>如果您未指定名稱，則預設情況下，圖示板上第一個報表的名稱會變成圖示板的名稱。</p></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>說明 (選擇性)</strong></td>
       <td>這是您控制面板的說明。</td>
+     </tr>
+      <tr>
+      <td role="rowheader"><strong>貨幣</strong></td>
+      <td><span class="preview">這是儀表板的預設貨幣型別。 <br>
+      <br>使用者可在篩選儀表板時切換不同的貨幣型別。 如需詳細資訊，請參閱<a href="/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md">依貨幣型別</a>篩選儀表板。</span></td>
      </tr>
     </tbody>
    </table>
