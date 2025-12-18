@@ -5,19 +5,19 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 5b1993d49ff675b3bab1d470bc756b987fe19d1c
+source-git-commit: 54ba4509269784ebe25fb5283b539c440454362a
 workflow-type: tm+mt
-source-wordcount: '1513'
-ht-degree: 1%
+source-wordcount: '1577'
+ht-degree: 0%
 
 ---
 
 
 # 將「連線的記錄」頁面新增至記錄
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 您可以在Adobe Workfront Planning中將連線記錄頁面的頁簽新增至記錄，以檢視連線記錄或物件的資訊。 這會將表格檢視中的連線記錄新增至索引標籤。
 
@@ -78,7 +78,7 @@ ht-degree: 1%
    <ul><li><p>Adobe Experience Manager Assets授權及AEM Assets與Workfront之間的整合，用於連結AEM資產與Planning記錄型別。</p>
    <p>如需詳細資訊，請參閱<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">適用於Experience Manager Assets和Assets Essentials的Adobe Workfront：文章索引</a>。 </p></li>
    <li><p> 連線記錄型別與GenStudio Brands的Adobe GenStudio for Performance Marketing授權</p>
-   <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/get-started">開始使用Adobe GenStudio for Performance Marketing</a>。</p></li></ul>
+   <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">開始使用Adobe GenStudio for Performance Marketing</a>。</p></li></ul>
    </td> 
   </tr>
 
@@ -131,18 +131,21 @@ ht-degree: 1%
 
    ![行銷活動詳細資料下的對象已連線資料表檢視](assets/audience-connected-table-view-under-campaign-details-page.png)
 
-1. （選擇性）按一下清單中連線記錄或物件型別的名稱，或搜尋它，然後在清單中顯示時按一下它。
+1. （選擇性）按一下清單中連線記錄或物件型別的名稱，或搜尋它，然後在清單中顯示時按一下它，以建立該記錄或物件型別的頁面。
 
-1. （選擇性和條件性）如果表格檢視或記錄的詳細資訊頁面中顯示一個以上的已連線欄位，請按一下要在已連線記錄頁面中顯示其記錄的欄位。
+1. （選擇性和條件性）如果您建立頁面的記錄型別有多個已連線的欄位，請按一下要在已連線的記錄頁面中顯示其記錄的欄位。
 
-   所選連線記錄型別的表格檢視會新增至連線記錄頁面。
+   下列其中一個頁面已新增至「連線記錄」頁面：
+
+   * 記錄型別的表格檢視
+   * 專案物件型別的清單檢視
 
 1. （選擇性和條件性）當您為連線的Planning記錄建立連線記錄頁面時，請執行下列任一項作業： <!--or AEM Assets--> <!--AEM is not available yet?? see note below-->
 
    * 按一下記錄名稱。 這會在新索引標籤中開啟記錄頁面。
    * 按一下表格檢視底部的&#x200B;**連線**&#x200B;以連線現有記錄，從連線方塊中選取記錄，然後按一下方塊外部以關閉記錄。 這些記錄會自動新增到表格中。 在新增記錄之前，記錄必須存在。
 
-   如需詳細資訊，請參閱[連線記錄](/help/quicksilver/planning/records/connect-records.md)。
+     如需詳細資訊，請參閱[連線記錄](/help/quicksilver/planning/records/connect-records.md)。
    * 編輯內嵌在表格檢視中之連線記錄的任何資訊。
 
    * 將游標暫留在已連線的記錄名稱上，然後按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)
@@ -164,37 +167,44 @@ ht-degree: 1%
         >
         >您可以選取多個記錄或物件來刪除它們。
 
-   * 在「連線的記錄」頁面上的表格中，內聯編輯任何Planning記錄。
+   * 內聯編輯連線記錄頁面上的表格中的任何Planning記錄。
+   * 在連線的記錄頁面的工具列中使用下列任何檢視元素來管理表格檢視：
 
-1. （選擇性和條件性）當您為下列Workfront物件型別建立連線記錄頁面時：
+   * **篩選器**
+   * **排序**。 不適用於專案。
+   * **群組**。 不適用於專案。
+   * **欄位**，以顯示、隱藏或重新排列欄位
+   * **資料列高度**。 不適用於專案。
+   * **搜尋**
 
-   * 專案組合
-   * 計劃
-   * 群組
-   * 公司
+     如需詳細資訊，請參閱[管理資料表檢視](/help/quicksilver/planning/views/manage-the-table-view.md)。
 
-   在「連線記錄」頁面的表格檢視中，執行下列任一動作：
+     >[!NOTE]
+     >
+     >您無法在已連線記錄之索引標籤的表格檢視中建立、編輯或刪除欄位。
 
-   * 按一下物件的名稱。 這會在新標籤中開啟物件的頁面。
-   * 按一下表格檢視底部的&#x200B;**連線**&#x200B;以連線現有物件，從連線方塊中選取物件，然後按一下方塊外部以關閉它。 物件會自動加入表格中。 在新增物件之前，它們必須存在。
-
-   如需詳細資訊，請參閱[連線記錄](/help/quicksilver/planning/records/connect-records.md)。
-
-   * 在表格檢視中選取其中一個物件，然後按一下清單底部藍色列中的下列選項之一：
-
-   * **檢視**&#x200B;以在新索引標籤中開啟記錄頁面
-   * **複製連結**&#x200B;以複製記錄頁面的連結
-   * **中斷連線**&#x200B;以中斷物件與您檢視的記錄的連線。
-
-   >[!TIP]
-   >
-   >您可以選取多個記錄或物件來中斷它們的連線。
-
-1. （選擇性和條件性）當您為連線的Workfront專案建立連線記錄頁面時：
+   <!--No longer possible: 1. (Optional and conditional) When you create a connected records page for the following Workfront object types:
+         * Portfolios
+         * Programs
+         * Groups
+         * Companies
+      Do any of the following in the table view of the connected records page: 
+      * Click the name of a object. This opens the object's page in a new tab. 
+      * Click **Connect** at the bottom of the table view to connect existing objects, select them from the connection box, then click outside the box to close it. The objects are automatically added to the table. The objects must exist before you can add them.
+      For more information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
+      * Select one of the objects in the table view, then click one of the following options in the blue bar at the bottom of the list: 
+      * **View** to open the record page in a new tab
+      * **Copy link** to copy a link to the record page
+      * **Disconnect** to disconnect the object from the record you are viewing. 
+      >[!TIP]
+      >
+      >You can select more than one record or object to disconnect them.
+      -->
+1. （選擇性和條件性）當您為連線的Workfront專案建立連線記錄頁面時，請執行下列任一項作業：
 
    * 按一下連線記錄頁面右上角的&#x200B;**連線記錄**&#x200B;以連線現有的專案。
 
-   如需詳細資訊，請參閱[連線記錄](/help/quicksilver/planning/records/connect-records.md)。
+     如需詳細資訊，請參閱[連線記錄](/help/quicksilver/planning/records/connect-records.md)。
    * 在表格中內聯編輯專案資訊。
    * 按一下&#x200B;**新增列**&#x200B;以建立沒有範本的專案。 新專案會立即連線到目前的記錄。
 
@@ -211,6 +221,29 @@ ht-degree: 1%
      >[!TIP]
      >
      >您可以選取多個專案來中斷連線或予以刪除。
+   * 按一下[檢視]下拉式功能表，然後按一下[新檢視] **，為頁面新增檢視，然後執行下列動作：**
+      1. 新增&#x200B;**檢視名稱**。
+      1. 從&#x200B;**檢視型別**&#x200B;區域選取&#x200B;**清單**。
+      1. 按一下&#x200B;**建立**。
+新的清單檢視會新增至「檢視」下拉式功能表。
+      1. （選擇性）將游標停留在您建立的檢視名稱上，按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下下列其中一個選項：
+
+         * **重新命名**，以新增檢視的名稱。
+         * <span class="preview">**共用**</span>
+如需詳細資訊，請參閱[共用檢視](/help/quicksilver/planning/access/share-views.md)。
+         * **刪除**
+如需詳細資訊，請參閱[刪除記錄檢視](/help/quicksilver/planning/views/delete-record-views.md)。
+
+           ![](assets/view-more-menu-projects-connected-records-page.png)
+   * 按一下&#x200B;**篩選器**&#x200B;圖示![篩選器圖示](assets/filter-icon.png)，然後使用該篩選器來顯示特定專案。
+
+     >[!TIP]
+     >
+     ><span class="preview">針對人員型別欄位，例如&#x200B;**所有者**&#x200B;或&#x200B;**贊助者**，您可以使用萬用字元來顯示將登入使用者指派給這些角色的專案。</span>
+     >
+     >![使用使用者萬用字元篩選專案連線記錄頁面](assets/filter-with-user-wildcard-project-connected-records-page.png)
+     >
+   * 按一下&#x200B;**欄**&#x200B;圖示![欄圖示](assets/columns-icon.png)以隱藏或顯示清單中的欄。
    * 按一下表格檢視右上角的&#x200B;**+**&#x200B;圖示，將現有欄位新增至表格。 欄位必須先存在，您才能新增它們。
 
      **資料行管理員**&#x200B;方塊開啟。 請執行下列動作：
@@ -220,30 +253,16 @@ ht-degree: 1%
          您選取的欄位會新增至連線記錄頁面的表格檢視中。
       1. 按一下&#x200B;**已選取**&#x200B;資料行中欄位右側的&#x200B;**-**，將其從資料表檢視中移除。
       1. 按一下&#x200B;**儲存**&#x200B;以儲存連線的記錄頁面資料表檢視。
-
 1. （選擇性）連按兩下&#x200B;**連線記錄頁面**&#x200B;索引標籤的名稱
 
    或
 
-   將游標暫留在索引標簽名稱上，然後按一下[其他] **&#x200B;**&#x200B;![&#x200B; [其他]功能表](assets/more-menu.png)，然後按一下[重新命名] **以重新命名為新的[連線檢視]索引標籤。**
-1. （選擇性）在連線的記錄頁面的工具列中使用下列任何檢視元素來管理表格檢視：
+   將游標暫留在索引標簽名稱上，然後按一下[其他] **** ![ [其他]功能表](assets/more-menu.png)，然後按一下[重新命名] **以重新命名為新的[連線檢視]索引標籤。**
 
-   * 篩選器
-   * 排序。 不適用於專案。
-   * 分組。 不適用於專案。
-   * 欄，以顯示、隱藏或重新排列欄位
-   * 列高。 不適用於專案。
-   * 搜尋
-
-   如需詳細資訊，請參閱[管理資料表檢視](/help/quicksilver/planning/views/manage-the-table-view.md)。
-
-   >[!NOTE]
-   >
-   >您無法在已連線記錄之索引標籤的表格檢視中建立、編輯或刪除欄位。
 
    <!--1. <span class="preview">(Optional) Click the dropdown menu to the right of the view name, then click **New view** to add a view. For more information, see the section [Manage multiple views from the connected records page](#manage-multiple-views-from-the-connected-records-page) in this article. </span>-->
 
-1. （選擇性）將游標暫留在[連線的記錄]頁面索引標簽名稱上，按一下[其他] **&#x200B;**&#x200B;![&#x200B; [其他]功能表](assets/more-menu.png)，然後按一下[刪除] **&#x200B;**&#x200B;以移除索引標籤。
+1. （選擇性）將游標暫留在[連線的記錄]頁面索引標簽名稱上，按一下[其他] **** ![ [其他]功能表](assets/more-menu.png)，然後按一下[刪除] ****&#x200B;以移除索引標籤。
 
 <!--
 <div class="preview">

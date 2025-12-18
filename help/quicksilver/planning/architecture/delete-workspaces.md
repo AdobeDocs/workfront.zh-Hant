@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 57592455c61f0ddd14f6d2bcc033b58a8cdc7028
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '428'
 ht-degree: 2%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 2%
 
 # 刪除工作區
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -141,8 +141,8 @@ ht-degree: 2%
 1. 若要刪除工作區，請執行下列任一項作業：
 
    * 將滑鼠停留在工作區卡片上，然後按一下卡片右上角的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)
-或<!--Add this to the bullet below: <span class="preview">Search for a workspace by name and </span>-->
-   * 按一下工作區卡以開啟工作區，然後按一下工作區名稱右側的&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)。
+或
+   * <span class="preview">按一下[工作區]頁面右上角的&#x200B;**搜尋**&#x200B;圖示![搜尋圖示](assets/search-icon.png)，依名稱搜尋工作區</span>，然後按一下工作區卡片以開啟工作區，再按一下工作區名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)。
 1. 按一下&#x200B;**刪除**。
 
    ![永久刪除工作區確認](assets/permanently-delete-workspace-confirmation.png)
@@ -150,3 +150,5 @@ ht-degree: 2%
 1. 在提供的空白處輸入&#39;&#39;**&#39;delete**&#39;&#39;，然後按一下&#x200B;**&#39;永久刪除**。 不區分大小寫。
 
    工作區已刪除且無法復原。 任何與其關聯的記錄型別、記錄、欄位和檢視也會被刪除。<!--ensure this is right at or before GA-->
+
+
