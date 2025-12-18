@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
+source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
 workflow-type: tm+mt
-source-wordcount: '1514'
+source-wordcount: '1538'
 ht-degree: 1%
 
 ---
@@ -212,6 +212,11 @@ ht-degree: 1%
    ![具有繼承許可權的記錄型別的許可權：](assets/permissions-for-record-types-with-inherited-permissions-on.png)
 
 1. （選擇性）在&#x200B;**擁有存取權**&#x200B;區域中，預設會選取&#x200B;**工作區中的每個人都可以檢視**&#x200B;選項。  對工作區具有「檢視」或更高許可權的所有使用者都可以檢視記錄型別。
+
+   >[!WARNING]
+   >
+   >您無法與個別使用者共用記錄型別。 如果您將個別使用者新增至記錄型別，他們也會新增至工作區。
+
 
 1. （選擇性）按一下&#x200B;**繼承的許可權**&#x200B;選項下的使用者人數，以檢視從工作區繼承許可權的使用者、團隊、群組、公司或工作角色。
 

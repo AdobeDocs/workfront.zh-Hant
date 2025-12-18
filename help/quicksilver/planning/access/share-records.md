@@ -7,9 +7,9 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
+source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
 workflow-type: tm+mt
-source-wordcount: '1831'
+source-wordcount: '1772'
 ht-degree: 2%
 
 ---
@@ -19,9 +19,11 @@ ht-degree: 2%
 
 # 共用記錄
 
-<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--this will NOT be available in Preview ever - find a way to add this in this article that is prominent-->
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}

@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management
 exl-id: a0e80c4d-29a8-4bf8-aa19-0c2d493236c6
 recommendations: noDisplay, noCatalog
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 1%
+source-wordcount: '1067'
+ht-degree: 3%
 
 ---
 
@@ -24,16 +24,16 @@ ht-degree: 1%
 
 您可以刪除專案清單中的專案或專案層級的專案。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront套件</p> </td> 
+   <td> <p>Adobe Workfront 封裝</p> </td> 
    <td>任何</td> 
   </tr> 
   <tr> 
@@ -174,6 +174,34 @@ ht-degree: 1%
 1. 按一下&#x200B;**是，刪除**。
 
    專案會刪除並儲存在資源回收筒中30天。 在這段期間，您的Workfront管理員可以從資源回收筒將其還原。
+
+## 從Workfront Planning記錄的連線記錄頁面刪除專案
+
+>[!NOTE]
+>
+>本節中的資訊說明Adobe Workfront的額外功能Adobe Workfront Planning。
+>
+>如需存取Workfront Planning的需求清單，請參閱[Adobe Workfront Planning存取總覽](/help/quicksilver/planning/access/access-overview.md)。
+> 
+>如需Workfront Planning的一般資訊，請參閱[開始使用Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)。
+
+您必須具備下列專案，才能從Workfront Planning連線記錄頁面存取及刪除專案：
+
+* 連線到Workfront專案的Planning記錄型別。 如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
+* 計畫記錄。 如需詳細資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md)。
+* 顯示連線至Planning記錄的專案的連線記錄頁面。 如需詳細資訊，請參閱[新增連線記錄頁面至記錄](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)。
+
+若要從連線記錄頁面刪除記錄：
+
+1. 在顯示連線至記錄的專案的連線記錄頁面上，將滑鼠移至專案名稱上，然後按一下&#x200B;**更多**&#x200B;圖示![更多](assets/more-icon.png)
+
+   或
+
+   在清單中選取一或多個專案。 請注意專案清單底部的藍色列。
+
+1. 按一下&#x200B;**刪除**，然後按一下&#x200B;**刪除**&#x200B;以確認。
+
+   專案會被刪除並放入Workfront資源回收筒。
 
 ## 還原已刪除的專案
 

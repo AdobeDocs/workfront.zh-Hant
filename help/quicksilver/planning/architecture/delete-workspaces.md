@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 57592455c61f0ddd14f6d2bcc033b58a8cdc7028
+source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '444'
 ht-degree: 2%
 
 ---
@@ -134,7 +134,12 @@ ht-degree: 2%
 
 {{step1-to-planning}}
 
-1. （視條件而定）如果您是Workfront管理員，請按一下「**我所在的工作區**」以存取您建立的工作區，或按一下「**其他工作區**」以存取其他人與您共用的工作區。
+1. （視條件而定）如果您是Workfront管理員，請按一下下列其中一項：
+
+   * **我所在的工作區**&#x200B;存取您建立的工作區
+   * **其他工作區**，以存取其他共用給您的工作區
+或
+     <span class="preview">**所有工作區**&#x200B;存取與您共用的工作區或您建立的工作區</span>
 
 1. （選擇性）按一下「**全部顯示**」以顯示其他工作區。 **顯示全部**&#x200B;連結只有在您有兩列以上的工作區卡片時才會顯示。
 1. （選用） ClicK **顯示較少**&#x200B;以限制熒幕上顯示的工作區數目。

@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 3%
+source-wordcount: '467'
+ht-degree: 2%
 
 ---
 
@@ -41,8 +41,8 @@ Adobe Workfront Planning限制您可在執行個體中建立的物件數目。 �
 | 單行文字欄位的字元數 | 1,000 個字元 |
 | 段落欄位的字元數 | 10,000 個字元 |
 | 一種記錄型別的段落欄位數 | 20個段落欄位 |
-| 您可以在記錄型別表格中貼上的檔案大小 | 1MB |
-| 您可以透過記錄型別表格的API匯入的檔案大小 | 1.5毫巴 |
+| 可用來匯入記錄型別表格中資訊的檔案大小 | 1MB |
+| 可用於透過API匯入記錄型別表格中資訊的檔案大小 | 1.5毫巴 |
 | 提出API要求的速率 | 每分鐘200個請求 |
 | 單一使用者可為一個記錄型別建立的檢視次數 | 100 |
 | CSV的Excel檔案大小，您可以匯入以建立記錄型別 | 5MB |

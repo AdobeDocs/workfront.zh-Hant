@@ -6,10 +6,10 @@ description: 首頁可協助您管理工作。 您可以自訂此彈性空間，
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 5b1993d49ff675b3bab1d470bc756b987fe19d1c
+source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
 workflow-type: tm+mt
-source-wordcount: '1030'
-ht-degree: 4%
+source-wordcount: '1135'
+ht-degree: 3%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 4%
 
 <!--Audited: 12/2023-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 >[!IMPORTANT]
 >
@@ -70,13 +70,13 @@ Widget是新首頁的基礎。 將Widget新增至首頁後，您就可以選擇�
         顯示2個圖表，內含平均檔案核准時間和決定的相關資訊，以及擱置和逾期核准的清單檢視。 您必須啟用[整合式核准](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)，才能使用此Widget。
 
 * **提及次數**\
-    <!--In the Production environment, it--> 顯示來自Workfront的最近評論對話串，類似於「我的更新」頁面。 您可以使用回覆按鈕在Widget中撰寫回覆。 只要任務或問題在過去30天內已更新，此Widget也會顯示針對您指派給、您指派給其他使用者、您擁有、您是主要連絡人或您建立之任務或問題所做的評論。
+    在生產環境中，它會顯示來自Workfront的最近評論對話串，類似於我的更新頁面。 您可以使用回覆按鈕在Widget中撰寫回覆。 只要任務或問題在過去30天內已更新，此Widget也會顯示針對您指派給、您指派給其他使用者、您擁有、您是主要連絡人或您建立之任務或問題所做的評論。
 
-  <!--<div class="preview">
+  <div class="preview">
 
-    In the Preview environment, it displays recent comments that you made or comments where other users tagged you that have been added in the past 2 weeks. You can use the reply button to compose a reply within the widget. 
+  在「預覽」環境中，會顯示您最近所做的註解，或其他使用者在過去2週內將您新增至標籤處的註解。 您可以使用回覆按鈕在Widget中撰寫回覆。
 
-    </div>-->
+  </div>
 
 * **待辦事項**\
     這個獨特的Widget可讓您將專案新增至您可自由編輯的個人檢查清單。 會將待辦事項作為個人專案中的任務進行追蹤，並在完成後保留最多兩週。
@@ -158,7 +158,7 @@ Widget是新首頁的基礎。 將Widget新增至首頁後，您就可以選擇�
 
    「自訂」面板隨即開啟。
 
-1. 在「**自訂**」面板的「**背景**」區段中，按一下您要為「首頁」背景選取的色彩。 您也可以按一下[無]來移除背景。**&#x200B;**
+1. 在「**自訂**」面板的「**背景**」區段中，按一下您要為「首頁」背景選取的色彩。 您也可以按一下[無]來移除背景。****
 
 
 
