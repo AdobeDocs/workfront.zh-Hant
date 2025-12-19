@@ -6,10 +6,10 @@ description: 主要顯示單一彙總KPI的KPI報告可新增至畫布控制面�
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
-source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
+source-git-commit: d7caaa0871263fb8ef4224a9c298778f3ee2454a
 workflow-type: tm+mt
-source-wordcount: '1135'
-ht-degree: 0%
+source-wordcount: '1260'
+ht-degree: 1%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >畫布儀表板功能目前僅適用於參與Beta階段的使用者。 在此階段中，部分功能可能無法完成或如預期般運作。 請依照「畫布控制面板」測試版概觀文章中[提供意見回饋](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)一節的指示，提交有關您體驗的任何意見回饋。<br>
->&#x200B;>如果您對可能的錯誤或技術問題有回饋，請向Workfront支援提交票證。 如需詳細資訊，請參閱[聯絡客戶支援](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。<br>
->&#x200B;>請注意，以下雲端服務供應商未提供此測試版：
+>如果您對可能的錯誤或技術問題有回饋，請向Workfront支援提交票證。 如需詳細資訊，請參閱[聯絡客戶支援](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。<br>
+>請注意，以下雲端服務供應商未提供此測試版：
 >
 >* 自備Amazon Web Services金鑰
 >* Azure
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
 <col> 
@@ -40,7 +40,7 @@ ht-degree: 0%
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront套件</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
 <p>任何 </p> 
    </td> 
@@ -186,6 +186,16 @@ ht-degree: 0%
 1. 按一下熒幕右上角的&#x200B;**儲存**。
 
 ## 建立KPI報表時的考量事項
+
+### 含有財務資料的報表
+
+在存取層級中具有「檢視」或「編輯」財務資料存取許可權的使用者，仍可在「畫布控制面板」視覺效果中看到財務資料 — 即使已在任務或專案層級移除「檢視財務」許可權。
+
+* 在存取層級沒有財務資料許可權的使用者將不會在報表中看到財務資料。
+* 確實看到財務資料的使用者僅限於他們已有許可權檢視的記錄（專案、任務、問題等）。 他們看不到無法存取之記錄的財務值。
+* 報表建立者在將財務資料納入儀表板時務必謹慎，並注意他們與誰共用儀表板，以防止無意中存取。
+
+這是已知的限制，我們計畫儘快解決它。
 
 ### 利用欄位選擇器
 

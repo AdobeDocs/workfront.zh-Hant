@@ -6,10 +6,10 @@ description: 您可以從Adobe Marketplace安裝 [!DNL Adobe Workfront for desig
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: c21e1c1d8e45b7c6407e8741b31055bfed9f4717
+source-git-commit: 58ee0356a68dae35a1c77847f92e9e6a3d706ce6
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 2%
+source-wordcount: '601'
+ht-degree: 4%
 
 ---
 
@@ -37,9 +37,9 @@ ht-degree: 2%
 >[!DNL Photoshop]和[!DNL XD]有不同的安裝指示。 如需詳細資訊，請參閱[安裝 [!DNL Adobe Workfront for Photoshop]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)和[安裝 [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)。
 
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -78,7 +78,7 @@ ht-degree: 2%
 
 [在此觀看教學課程影片](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}。
 
-[!DNL Adobe Admin Console]管理員也可以建立僅含外掛程式的套件，以分發給使用者。 如需詳細資訊，請參閱[中的 [!DNL Adobe Workfront] 為您的使用者建立 [!DNL Creative Cloud]] 套裝的[[!UICONTROL [!DNL Adobe Admin Console]]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
+[!DNL Adobe Admin Console]管理員也可以建立僅含外掛程式的套件，以分發給使用者。 如需詳細資訊，請參閱[中的 [!DNL Adobe Workfront] 為您的使用者建立 [!DNL Creative Cloud]] 套裝的[！UICONTROL [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
 
 ## 個別安裝[!DNL Workfront for design and video]
 
@@ -87,7 +87,7 @@ ht-degree: 2%
 1. 前往Adobe Exchange上的[Adobe Workfront for Design and Video安裝頁面](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=108938&workflow=share)。
 1. 在出現的對話方塊中，按一下&#x200B;**開啟[!DNL Adobe Creative Cloud]案頭應用程式**。
 1. 在[!DNL Adobe Creative Cloud]外掛程式管理員開啟後，按一下&#x200B;**[!UICONTROL 安裝]**。
-1. 讀取對話方塊中的資訊，然後按一下[確定]。**&#x200B;**
+1. 讀取對話方塊中的資訊，然後按一下[確定]。****
 1. 安裝[!DNL Workfront for design and video]後，請開啟您所需的[!DNL Creative Cloud]應用程式，並在外掛程式面板中找到[!DNL Workfront]外掛程式。
 
 1. 繼續下一節以取得如何開啟[!DNL Workfront for design and video]的資訊。
@@ -159,7 +159,7 @@ ht-degree: 2%
 
    >[!TIP]
    >
-   >在Mac上，移至Finder，按&#x200B;**Command+Shift+。**&#x200B;若要顯示隱藏的資料夾，請瀏覽至&#x200B;**/Users//Library/Application Support**，然後刪除&#x200B;**Workfront**&#x200B;資料夾。
+   >在Mac上，移至Finder，按&#x200B;**Command+Shift+。**&#x200B;若要顯示隱藏的資料夾，請瀏覽至&#x200B;**/使用者/使用者名稱/資料庫/應用程式支援**，然後刪除&#x200B;**Workfront**&#x200B;資料夾。 您必須將`username`取代為您的Mac使用者名稱。
 
 
 1. 導覽回外掛程式，然後輸入您的Workfront網域。 網域必須是`company-name.my.workfront.com`而非`experience.adobe.com`。
