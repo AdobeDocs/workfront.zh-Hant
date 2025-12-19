@@ -8,10 +8,10 @@ author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 81e74a70-ea7e-4ed8-8b30-f01df0e73645
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 31e5f5e039e25fa25f3038c23ee579ba1f830bb7
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 0%
+source-wordcount: '445'
+ht-degree: 2%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 0%
 
 如需在[!DNL Workfront]中建立問題的相關資訊，請參閱[建立問題](../../../manage-work/issues/manage-issues/create-issues.md)。 如需有關在[!DNL Workfront]中建立要求的資訊，請參閱[建立和提交 [!DNL Adobe Workfront] 要求](../../../manage-work/requests/create-requests/create-submit-requests.md)。 如需將請求型別與專案建立關聯的資訊，請參閱[定義專案的請求型別](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,12 +35,12 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td><p>[!UICONTROL 標準]</p>
-       <p>[!UICONTROL 計畫]</p></td>
+   <td><p>[！UICONTROL標準]</p>
+       <p>[！UICONTROL計畫]</p></td>
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td> 
+   <td>[！UICONTROL系統管理員]</td> 
   </tr> 
  </tbody> 
 </table>
@@ -87,7 +87,7 @@ You must have at least one request type selected. You can select multiple reques
 1. 按一下&#x200B;**[!UICONTROL 專案偏好設定]** > **[!UICONTROL 狀態]**。
 
 1. 按一下&#x200B;**[!UICONTROL 問題]**&#x200B;標籤。
-1. 在&#x200B;**[!UICONTROL 問題]**&#x200B;索引標籤頂端，暫留在要求型別的名稱上，然後按一下出現的&#x200B;**[!UICONTROL 編輯]**&#x200B;圖示。
+1. 在&#x200B;**[!UICONTROL 問題]**&#x200B;索引標籤頂端，按一下下拉式清單，選取要求型別，然後按一下出現的&#x200B;**[!UICONTROL 編輯]**&#x200B;圖示。
 
    ![編輯要求型別名稱](assets/edit-request-type-name-nwe.png)
 

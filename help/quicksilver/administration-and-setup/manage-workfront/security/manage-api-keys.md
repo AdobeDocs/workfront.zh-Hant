@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
-source-git-commit: 6b2d93d2573d72e4390761038d8078f47d96d55e
+source-git-commit: 87d3443c7b08c59d435e852c6a17df297e7023d6
 workflow-type: tm+mt
-source-wordcount: '1293'
-ht-degree: 2%
+source-wordcount: '1356'
+ht-degree: 3%
 
 ---
 
@@ -19,6 +19,21 @@ ht-degree: 2%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
 -->
+
+
+
+>[!IMPORTANT]
+>
+>Workfront不再建議使用`/login`端點或API金鑰。 請改用下列其中一種驗證方法：
+>
+>* 使用JWT進行伺服器驗證
+>* 使用OAuth2進行使用者驗證
+>
+>如需設定這些驗證方法的說明，請參閱[為Workfront整合建立OAuth2應用程式](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md)
+>
+>如需在Workfront中使用伺服器驗證的指示，請參閱[使用JWT流程設定和使用您組織的自訂OAuth 2應用程式](/help/quicksilver/wf-api/api/oauth-app-jwt-flow.md)
+>
+>如需在Workfront中使用使用者驗證的指示，請參閱[使用授權碼流程設定並使用您組織的自訂OAuth 2應用程式](/help/quicksilver/wf-api/api/oauth-app-code-token-flow.md)
 
 為了將API安全性弱點降至最低，Adobe Workfront管理員可以管理API金鑰，讓應用程式能夠代表使用者存取Workfront。
 
@@ -33,16 +48,16 @@ ht-degree: 2%
 >
 >重設或移除API金鑰時，任何運用Workfront API並透過此API金鑰向Workfront驗證的應用程式都必須重新設定，才能重新取得Workfront的存取許可權。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -74,10 +89,6 @@ Workfront管理員也有唯一的API金鑰。 當應用程式使用管理員API�
 
 您可以為管理員使用者帳戶產生、重設或移除API金鑰。
 
->[!NOTE]
->
->您也可以透過API產生API金鑰。 如需詳細資訊，請參閱[事件訂閱API](../../../wf-api/general/event-subs-api.md)中的[事件訂閱API](../../../wf-api/general/event-subs-api.md)區段。
-
 {{step-1-to-setup}}
 
 1. 按一下&#x200B;**系統>** **客戶資訊。**
@@ -106,7 +117,7 @@ Workfront管理員也有唯一的API金鑰。 當應用程式使用管理員API�
 
    1. 展開&#x200B;**系統**，然後按一下&#x200B;**單一登入(SSO)**。
    1. 在&#x200B;**型別**&#x200B;欄位中，選取貴組織使用的SSO型別。
-   1. 選取型別後，向下捲動並清除&#x200B;**啟用**&#x200B;核取方塊。
+   1. 選取型別後，向下捲動並清除&#x200B;**啟用**核取方塊。
       ![啟用SSO](assets/sysadmin-security-sso-disable-31620-350x320.png)
    1. 按一下「**儲存**」。
 
