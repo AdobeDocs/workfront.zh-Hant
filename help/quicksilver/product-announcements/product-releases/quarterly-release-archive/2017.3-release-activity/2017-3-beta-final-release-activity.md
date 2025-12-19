@@ -26,7 +26,7 @@ ht-degree: 0%
 
 2017.3 Beta最終版本包含適用於Workfront管理員和其他使用者的增強功能：
 
-管理員的&#x200B;****
+管理員的&#x200B;**&#x200B;**
 
 * [在核准設定區域中重新呼叫要求的新設定](#new-configuration-for-recalling-requests-in-the-approval-settings-area)
 * [設定預設校訂角色](#configure-default-proof-roles)
@@ -48,7 +48,7 @@ ht-degree: 0%
 * [檔案增強功能：精簡的介面](#document-enhancements-streamlined-interface)
 * Workfront中的[校訂增強功能](#proofing-enhancements-within-workfront)
 * Workfront Proof和Workfront中的[校訂增強功能](#proofing-enhancements-within-both-workfront-proof-and-workfront)
-* 更新及電子郵件的[ RTF格式](#rich-text-formatting-for-updates-and-emails)
+* 更新及電子郵件的[&#x200B; RTF格式](#rich-text-formatting-for-updates-and-emails)
 * [新甘特圖重新設計](#new-gantt-chart-redesign)
 * [內建報告包含更新的說明](#built-in-reports-contain-updated-descriptions)
 * [在匯出的報告、清單和儀表板中標示品牌](#branding-in-exported-reports-lists-and-dashboards)
