@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 880828f4-3908-4ef0-ab1f-774f8dee72b6
-source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '3791'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 2017.3 Beta最終版本包含適用於Workfront管理員和其他使用者的增強功能：
 
-管理員的&#x200B;**&#x200B;**
+管理員的&#x200B;****
 
 * [在核准設定區域中重新呼叫要求的新設定](#new-configuration-for-recalling-requests-in-the-approval-settings-area)
 * [設定預設校訂角色](#configure-default-proof-roles)
@@ -48,7 +48,7 @@ ht-degree: 0%
 * [檔案增強功能：精簡的介面](#document-enhancements-streamlined-interface)
 * Workfront中的[校訂增強功能](#proofing-enhancements-within-workfront)
 * Workfront Proof和Workfront中的[校訂增強功能](#proofing-enhancements-within-both-workfront-proof-and-workfront)
-* 更新及電子郵件的[&#x200B; RTF格式](#rich-text-formatting-for-updates-and-emails)
+* 更新及電子郵件的[ RTF格式](#rich-text-formatting-for-updates-and-emails)
 * [新甘特圖重新設計](#new-gantt-chart-redesign)
 * [內建報告包含更新的說明](#built-in-reports-contain-updated-descriptions)
 * [在匯出的報告、清單和儀表板中標示品牌](#branding-in-exported-reports-lists-and-dashboards)
@@ -133,7 +133,7 @@ Workfront中的Scrum和Kanban敏捷方法有以下差異：
 >
 >此功能已於2017年11月14日從生產環境中移除。 我們計畫於2018年初將其重新引入預覽環境，其中包含增強型設計和提升穩定性。 它將在2018.1版本的生產環境中可用。
 
-您現在可以在使用Scrum敏捷方法時將問題包含在敏捷團隊的待辦專案中（使用Kanban方法時，問題未顯示在敏捷團隊的待辦專案中）。 現有的Scrum敏捷團隊必須啟用此功能才能納入問題。 在2017.3版之後建立的Scrum敏捷團隊的待辦專案中會自動包含問題。
+您現在可以在使用Scrum敏捷方法時將問題包含在敏捷團隊的待辦專案中（使用Kanban方法時，問題未顯示在敏捷團隊的待辦專案中）。 現有的Scrum敏捷團隊必須啟用此功能才能納入問題。 在2017.3版之後建立的Scrum敏捷團隊的待辦專案會自動包含問題。
 
 在此變更之前，只能將任務新增到待處理專案。 如果您想要新增問題，必須先將問題轉換為任務，然後才能新增。
 
@@ -141,7 +141,7 @@ Workfront中的Scrum和Kanban敏捷方法有以下差異：
 
 如需有關使用待處理專案問題的資訊，請參閱  [管理敏捷待處理專案](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)。
 
-如需啟用問題以供敏捷Scrum團隊待處理專案使用的相關資訊，請參閱  [設定在](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5)設定Scrum[中將工作專案新增到疊代](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)時如何套用日期。
+如需有關啟用問題以在Agile Scrum團隊的待處理專案上可用的資訊，請參閱  [設定在](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5)設定Scrum[中將工作專案新增到疊代](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)時如何套用日期。
 
 ## 在Scrum敏捷故事板上包含問題 {#include-issues-on-the-scrum-agile-story-board}
 
@@ -159,11 +159,11 @@ Workfront中的Scrum和Kanban敏捷方法有以下差異：
 >
 >此功能已於2017年11月14日從生產環境中移除。 我們計畫於2018年初將其重新引入預覽環境，其中包含增強型設計和提升穩定性。 它將在2018.1版本的生產環境中可用。
 
-敏捷待處理專案現在提供分組和篩選選項，可讓您依分組組織待處理專案，以及篩選特定任務和問題。
+「群組」和「篩選」選項現在適用於「敏捷」待辦專案，可讓您按群組來組織待辦專案，以及篩選特定任務和問題。
 
 在此變更之前，您可以將檢視套用至敏捷待辦專案。
 
-如需詳細資訊，請參閱  [管理敏捷待處理專案](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)，在  [管理敏捷待處理專案](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)。
+如需詳細資訊，請參閱  [管理Agile待處理專案](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)於  [管理敏捷待處理專案](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)。
 
 ## 更新和電子郵件的RTF格式 {#rich-text-formatting-for-updates-and-emails}
 

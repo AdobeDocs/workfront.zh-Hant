@@ -7,7 +7,7 @@ description: 您可以藉由管理清單或報表的檢視，自訂顯示在清�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18016417-e24d-4797-9422-00915db47bb9
-source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '591'
 ht-degree: 0%
@@ -39,7 +39,7 @@ ht-degree: 0%
 <table style="table-layout:auto">
     <tr>
         <td><strong>標準檢視</strong></td>
-        <td>您可以將它們套用至任何物件清單或報表。 標準檢視可高度自訂。 您可以自訂標準檢視並與他人共用。 如需詳細資訊，請參閱<a href="/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md">在Adobe Workfront中建立或編輯檢視</a>。</td>
+        <td>您可以將其套用至任何物件清單或報表。 標準檢視可高度自訂。 您可以自訂標準檢視並與他人共用。 如需詳細資訊，請參閱<a href="/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md">在Adobe Workfront中建立或編輯檢視</a>。</td>
     </tr>
     <tr>
         <td><strong>展示板檢視</strong></td>

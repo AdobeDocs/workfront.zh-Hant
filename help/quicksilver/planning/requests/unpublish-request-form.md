@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 3%
+source-wordcount: '676'
+ht-degree: 5%
 
 ---
 
@@ -32,9 +32,9 @@ ht-degree: 3%
 
 如果您希望讓一小群人可以使用請求表單，也可以變更與您共用請求表單的實體。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -133,4 +133,4 @@ ht-degree: 3%
 
    先前使用請求表單新增的任何記錄都會保留在記錄型別頁面上。
 
-   先前新增的任何請求都會保留在Workfront的「請求」區域的「計畫」標籤上。
+   先前新增的任何請求都會保留在Workfront的請求區域中。

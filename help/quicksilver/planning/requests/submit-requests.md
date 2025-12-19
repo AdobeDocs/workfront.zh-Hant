@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
-source-wordcount: '1869'
+source-wordcount: '1875'
 ht-degree: 1%
 
 ---
@@ -119,8 +119,8 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
 
 {{step1-to-requests}}
 
-1. 啟用熒幕右上角的&#x200B;**切換至新的體驗**&#x200B;設定。
-啟用此設定可讓Workfront Planning請求表單出現在Workfront的&#x200B;**請求**&#x200B;區域中。
+1. 啟用熒幕右上角的&#x200B;**切換至新的體驗**設定。
+啟用此設定可讓Workfront Planning請求表單出現在Workfront的**請求**&#x200B;區域中。
 
    >[!TIP]
    >
@@ -175,7 +175,7 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
       * **狀態**：要求的狀態。
       * **輸入者**：新增請求的使用者名稱。 如果要求是由Workfront外部的人員加入，則&#x200B;**輸入者**&#x200B;欄位會顯示`N/A`。
 
-        您可以有多個&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;加入的篩選器。
+        您可以有多個&#x200B;**And**&#x200B;或&#x200B;**Or**加入的篩選器。
 當您新增篩選條件時，要求清單會自動篩選。
 
    * 按一下&#x200B;**欄**&#x200B;並隱藏、顯示或重新排列請求清單中的欄。
@@ -186,7 +186,7 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
      >
      >您無法顯示&#x200B;**主旨**&#x200B;欄位。
 
-     ![](assets/columns-editing-box-in-requests-planning-tab.png)
+     ![資料行編輯方塊在要求區域](assets/columns-editing-box-in-requests-planning-tab.png)
 
 
 1. 按一下清單中要求的名稱。

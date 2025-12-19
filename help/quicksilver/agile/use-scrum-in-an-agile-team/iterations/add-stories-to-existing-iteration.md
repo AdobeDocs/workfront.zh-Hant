@@ -6,10 +6,10 @@ description: 您可以透過多種方式將劇本新增至反複專案。
 author: Jenny
 feature: Agile
 exl-id: b016fda1-789a-42b3-9f97-2c61c4ec0917
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -17,27 +17,27 @@ ht-degree: 0%
 
 您可以透過下列任何方式將劇本新增至反複專案：
 
-* 在建立疊代後，從待處理專案，如[管理敏捷待處理專案[!UICONTROL 中的]將劇本從待處理專案移至疊代，或](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or--board)看板[面板](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)區段所述
+* 在建立反複專案後，從待處理專案，如[管理敏捷待處理專案[!UICONTROL 中的]將劇本從待處理專案移至反複專案，或](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or--board)看板[面板](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)區段所述
 
 * 從個別任務或問題的[!UICONTROL 詳細資料]頁面
 * 從任務或問題清單
 * 從報表
 * 從控制面板
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td> <p>標準</p> 
-   <p>工作或更高</p> </td> 
+   <p>工作或更高層級</p> </td> 
   </tr>
    <tr> 
    <td role="rowheader">物件許可權</td> 

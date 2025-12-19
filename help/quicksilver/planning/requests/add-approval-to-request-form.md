@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: de568156315ff9094d938600c91b55e185d53765
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '680'
 ht-degree: 2%
 
 ---
@@ -102,7 +102,7 @@ ht-degree: 2%
    >
    >* 如果您新增多個核准者，但未啟用「僅需一個決定」選項，則所有核准者必須在Workfront Planning建立記錄前核准請求。
    >
-   >* 如果至少有一位核准者拒絕請求，則請求會遭到拒絕，且不會建立記錄。 請求會保留在Workfront請求區域的已提交區段的Planning索引標籤中。
+   >* 如果至少有一位核准者拒絕請求，則請求會遭到拒絕，且不會建立記錄。 此請求會保留在Workfront的請求區域中。
    >
    >* 如果您新增多個核准者，但未啟用「只有一個決定是必要的」選項，則所有核准者必須在核准或拒絕請求之前做出決定。
    >
@@ -113,7 +113,7 @@ ht-degree: 2%
 
    或
 
-   按一下[共用]以共用表單，然後按[複製]連結&#x200B;**。**&#x200B;**&#x200B;**
+   按一下[共用]以共用表單，然後按[複製]連結&#x200B;**。******
 1. （選用）使用者使用您共用的連結並提交請求後，Workfront Planning會傳送核准應用程式內通知及電子郵件給核准者。
 
    >[!NOTE]

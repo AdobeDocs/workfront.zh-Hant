@@ -7,7 +7,7 @@ description: 請檢閱本文，以更加瞭解Kanban展示板的運作方式。
 author: Jenny
 feature: Agile
 exl-id: d7daa6c1-dae2-4e5c-a765-6a6ebdfaa331
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 如需K[!UICONTROL anban]方法的說明，請參閱[建立敏捷團隊](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md)。
 
-如果您有興趣從敏捷團隊[!UICONTROL Kanban]展示板移轉至[!DNL Workfront] [!UICONTROL 展示板]，請參閱[將敏捷團隊[!UICONTROL Kanban]展示板移轉至 [!DNL Workfront] 展示板](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)。
+如果您有興趣從敏捷團隊[!UICONTROL Kanban]看板移轉至[!DNL Workfront] [!UICONTROL 看板]，請參閱[將敏捷團隊[!UICONTROL Kanban]看板移轉至 [!DNL Workfront] 看板](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)。
 
 ## [!UICONTROL Kanban]展示板配置與功能
 

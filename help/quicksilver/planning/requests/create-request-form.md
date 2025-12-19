@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 99e26d4249162e46da1a73301e68bdf30436a81d
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
-source-wordcount: '2678'
+source-wordcount: '2670'
 ht-degree: 1%
 
 ---
@@ -166,7 +166,7 @@ ht-degree: 1%
 表單詳細資料會分為幾個索引標籤。
 
 * **表單**&#x200B;索引標籤可讓您新增欄位和內容元素至表單
-* **組態**&#x200B;索引標籤可讓您設定表單的核准程式，以及設定要求完成選項&lt;。
+* **組態**索引標籤可讓您設定表單的核准程式，以及設定要求完成選項&lt;。
   <!--* <span class="preview">The **Automations** tab allows you to automate what will occur based on features of the request made with the form.</span>-->
 
 #### 設定表單詳細資料
@@ -175,7 +175,7 @@ ht-degree: 1%
 
    或
 
-   在[要求表單]清單上找出要求表單，按一下表單名稱旁的方塊，然後按一下畫面底部藍色列中的[編輯表單]。**&#x200B;**
+   在[要求表單]清單上找出要求表單，按一下表單名稱旁的方塊，然後按一下畫面底部藍色列中的[編輯表單]。****
 
    所選記錄型別的請求表單會在「表單」標籤中開啟。
 
@@ -244,7 +244,7 @@ ht-degree: 1%
    <!--below bullet list is duplicated in the Add approval to a request form article-->
 
    * 您可以將一個或多個核准者新增至請求表單。
-   * 如果至少有一位核准者拒絕請求，則請求會遭到拒絕，且不會建立記錄。 請求會保留在Workfront請求區域的已提交區段的Planning索引標籤中。
+   * 如果至少有一位核准者拒絕請求，則請求會遭到拒絕，且不會建立記錄。 此請求會保留在Workfront的請求區域中。
    * 如果您新增多個核准者，但未啟用「只有一個決定是必要的」選項，則所有核准者必須在核准或拒絕請求之前做出決定。
    * 如果團隊被設定為核准者，則只需從團隊中做出一個決定。
 

@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
-source-wordcount: '2745'
+source-wordcount: '2743'
 ht-degree: 0%
 
 ---
@@ -40,19 +40,6 @@ ht-degree: 0%
       * <span class="preview">時間表</span>
       * <span class="preview">行事曆</span>
    * 您可以在清單檢視中顯示連線的Workfront專案。
-
-
-<!--replace the above bullet with this: 
-
-* You can display the objects in a connected records page in the following types of views:
-
-   * Table
-   * <span class="preview">Timeline</span>
-   * <span class="preview">Calendar</span>
-
-* <span class="preview">You can create one page per one object or record type. For example, you cannot create two connected record pages for connected projects or tactics.</span>
-
--->
 
 * 您可以為下列連線記錄或物件型別新增「連線記錄」頁面：
 
@@ -89,7 +76,7 @@ ht-degree: 0%
    <ul><li><p>Adobe Experience Manager Assets授權及AEM Assets與Workfront之間的整合，用於連結AEM資產與Planning記錄型別。</p>
    <p>如需詳細資訊，請參閱<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">適用於Experience Manager Assets和Assets Essentials的Adobe Workfront：文章索引</a>。 </p></li>
    <li><p> 連線記錄型別與GenStudio Brands的Adobe GenStudio for Performance Marketing授權</p>
-   <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/get-started">開始使用Adobe GenStudio for Performance Marketing</a>。</p></li></ul>
+   <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">開始使用Adobe GenStudio for Performance Marketing</a>。</p></li></ul>
    </td> 
   </tr>
 
@@ -132,7 +119,7 @@ ht-degree: 0%
    >[!TIP]
    >
    ><span class="preview">您可以為每個記錄型別建立一個連線記錄頁面。 如果連線的記錄型別已經有頁面，則不再顯示為選項。</span>
-
+   >
 
 1. （選擇性和條件性）如果您要建置頁面的記錄或物件型別有多個連線的欄位，請從&#x200B;**選取參考欄位**&#x200B;清單中，按一下要在連線的記錄頁面中顯示其記錄或物件的欄位。
 
@@ -149,7 +136,7 @@ ht-degree: 0%
    >
    >您必須先在記錄的表格或「詳細資訊」區域中新增連線的記錄，才能在連線的記錄頁面中顯示它們。 否則，表格或清單為空白。
 
-   依預設，會顯示連線記錄的前五個欄位。<!--No lookup fields display by default.-->
+   依預設，會顯示連線記錄的前五個欄位。 依預設，不會顯示任何查閱欄位。
 
    ![行銷活動詳細資料下的對象已連線資料表檢視](assets/audience-connected-table-view-under-campaign-details-page.png)
 
@@ -164,10 +151,7 @@ ht-degree: 0%
 
    或
 
-   暫留在索引標簽名稱上，然後按一下[其他] **&#x200B;**&#x200B;![&#x200B; [其他]功能表](assets/more-menu.png)，然後按一下[重新命名] **以重新命名為新的連線記錄頁面索引標籤。**
-
-
-   <!--1. <span class="preview">(Optional) Click the dropdown menu to the right of the view name, then click **New view** to add a view. For more information, see the section [Manage multiple views from the connected records page](#manage-multiple-views-from-the-connected-records-page) in this article. </span>-->
+   暫留在索引標簽名稱上，然後按一下[其他] **** ![ [其他]功能表](assets/more-menu.png)，然後按一下[重新命名] **以重新命名為新的連線記錄頁面索引標籤。**
 
 1. （選擇性）將游標暫留在連線記錄頁面索引標簽名稱上，按一下&#x200B;**更多** ![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**刪除**&#x200B;以移除至索引標籤。
 
@@ -185,6 +169,7 @@ ht-degree: 0%
 1. 按一下表格檢視底部的&#x200B;**連線**&#x200B;以連線現有記錄，從連線方塊中選取記錄，然後按一下方塊外部以關閉記錄。 這些記錄會自動新增到表格中，並連線到您選取的記錄。 在新增記錄之前，記錄必須存在。
 
    如需詳細資訊，請參閱[連線記錄](/help/quicksilver/planning/records/connect-records.md)。
+
 1. 編輯內嵌在表格檢視中之連線記錄的任何資訊。
 1. 將游標暫留在已連線的記錄名稱上，然後按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)
 
@@ -204,6 +189,7 @@ ht-degree: 0%
      >[!TIP]
      >
      >您可以選取多個記錄或物件來刪除它們。
+     >
 
 1. 在「連線記錄」頁面上的表格中，內聯編輯任何記錄。
 1. 在連線的記錄頁面的工具列中使用下列任何檢視元素來管理表格檢視：
@@ -220,6 +206,7 @@ ht-degree: 0%
    >[!NOTE]
    >
    >您無法在已連線記錄之索引標籤的表格檢視中建立、編輯或刪除欄位。
+   >
 
 <div class="preview">
 
@@ -233,6 +220,7 @@ ht-degree: 0%
 1. 按一下連線記錄頁面右上角的&#x200B;**連線記錄**。若要連線現有記錄，請從連線方塊中選取記錄，然後按一下方塊外部以關閉記錄。 這些記錄會自動新增到表格中，並連線到您選取的記錄。 在新增記錄之前，記錄必須存在。
 
    如需詳細資訊，請參閱[連線記錄](/help/quicksilver/planning/records/connect-records.md)。
+
 1. 按一下表格底部的&#x200B;**新列**&#x200B;以新增記錄。 新記錄會自動連線到您選取的記錄。
 1. 編輯內嵌在表格檢視中之連線記錄的任何資訊。
 1. 將游標暫留在已連線的記錄名稱上，然後按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)
@@ -269,7 +257,10 @@ ht-degree: 0%
    >[!NOTE]
    >
    >您無法在已連線記錄之索引標籤的表格檢視中建立、編輯或刪除欄位。
+   >
+
 1. 按一下[檢視]下拉式功能表，然後按一下[新檢視] **，為頁面新增檢視，然後執行下列動作：**
+
    1. 新增&#x200B;**檢視名稱**。
    1. 從&#x200B;**檢視型別**&#x200B;區域，選取下列檢視型別之一：
 
@@ -284,10 +275,11 @@ ht-degree: 0%
 
    1. 按一下&#x200B;**建立**。
 新檢視會新增至「檢視」下拉式功能表。
+
    1. （選擇性）將游標停留在您建立的檢視名稱上，按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下下列其中一個選項：
+
       * **重新命名**，以新增檢視的名稱。
       * **共用**
-
 
         如需詳細資訊，請參閱[共用檢視](/help/quicksilver/planning/access/share-views.md)。
 
@@ -302,24 +294,6 @@ ht-degree: 0%
 
 </div>
 
-
-<!--No longer possible: 1. (Optional and conditional) When you create a connected records page for the following Workfront object types:
-         * Portfolios
-         * Programs
-         * Groups
-         * Companies
-      Do any of the following in the table view of the connected records page: 
-      * Click the name of a object. This opens the object's page in a new tab. 
-      * Click **Connect** at the bottom of the table view to connect existing objects, select them from the connection box, then click outside the box to close it. The objects are automatically added to the table. The objects must exist before you can add them.
-      For more information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
-      * Select one of the objects in the table view, then click one of the following options in the blue bar at the bottom of the list: 
-      * **View** to open the record page in a new tab
-      * **Copy link** to copy a link to the record page
-      * **Disconnect** to disconnect the object from the record you are viewing. 
-      TIP      
-      You can select more than one record or object to disconnect them.
-      -->
-
 ### 管理Workfront專案的連線記錄頁面
 
 當您為連線的Workfront專案建立連線記錄頁面時，請執行下列動作：
@@ -333,7 +307,8 @@ ht-degree: 0%
 1. 在表格中內聯編輯專案資訊。
 1. 按一下&#x200B;**新增列**&#x200B;以建立沒有範本的專案。 新專案會自動連線到目前的記錄。
 
-   如需詳細資訊，請參閱[當您將Workfront物件連線至記錄時，從Workfront Planning建立物件](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
+   如需詳細資訊，請參閱[當您將Workfront物件連線至記錄時，從Workfront Planning建立物件](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)。
+
 1. 將滑鼠停留在清單中的專案名稱上，然後按一下&#x200B;**更多**&#x200B;功能表[更多](assets/more-menu.png)
 
    或
@@ -346,7 +321,10 @@ ht-degree: 0%
      >[!TIP]
      >
      >您可以選取多個專案來中斷連線或予以刪除。
+     >
+
 1. 按一下[檢視]下拉式功能表，然後按一下[新檢視] **，為頁面新增檢視，然後執行下列動作：**
+
    1. 新增&#x200B;**檢視名稱**。
    1. 從&#x200B;**檢視型別**&#x200B;區域選取&#x200B;**清單**。
    1. 按一下&#x200B;**建立**。
@@ -406,7 +384,7 @@ ht-degree: 0%
    * **時間表**。 如需詳細資訊，請參閱[管理時間表檢視](/help/quicksilver/planning/views/manage-the-timeline-view.md)。
    * **行事曆**。 如需詳細資訊，請參閱[管理行事曆檢視](/help/quicksilver/planning/views/manage-the-calendar-view.md)。
 
-1. （選擇性）將游標暫留在「連線的記錄」頁面中的檢視名稱上，然後按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下下列其中一項： **&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;***&#x200B;檢查以確定這些皆有可能&#x200B;**&#x200B;**&#x200B;**&#x200B;***
+1. （選擇性）將游標暫留在「連線的記錄」頁面中的檢視名稱上，然後按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下下列其中一項：
 
    * **重新命名**
    * **共用**。 如需詳細資訊，請參閱[共用檢視](/help/quicksilver/planning/access/share-views.md)。
@@ -424,3 +402,20 @@ ht-degree: 0%
      >從「連線的記錄」頁面複製檢視，可在檢視相同記錄型別時，於Workforce計畫的所有其他區域使用。
 
 </div>
+
+<!--No longer possible: 1. (Optional and conditional) When you create a connected records page for the following Workfront object types:
+         * Portfolios
+         * Programs
+         * Groups
+         * Companies
+      Do any of the following in the table view of the connected records page: 
+      * Click the name of a object. This opens the object's page in a new tab. 
+      * Click **Connect** at the bottom of the table view to connect existing objects, select them from the connection box, then click outside the box to close it. The objects are automatically added to the table. The objects must exist before you can add them.
+      For more information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
+      * Select one of the objects in the table view, then click one of the following options in the blue bar at the bottom of the list: 
+      * **View** to open the record page in a new tab
+      * **Copy link** to copy a link to the record page
+      * **Disconnect** to disconnect the object from the record you are viewing. 
+      TIP      
+      You can select more than one record or object to disconnect them.
+      -->

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: 99e26d4249162e46da1a73301e68bdf30436a81d
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
-source-wordcount: '1122'
+source-wordcount: '1103'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 1%
 
 ## 核准請求的相關考量事項
 
-* 已提交的請求會顯示在Workfront請求區域中「已提交」區段的「計畫」標籤中，且具有以下請求狀態之一：
+* 已提交的請求會顯示在Workfront的請求區域中，且具有下列其中一個請求狀態：
 
    * **擱置檢閱**：當沒有核准者開啟要求物件時，會顯示此狀態。
    * **稽核中**：當至少一位核准者開啟要求物件時，**擱置稽核**&#x200B;狀態變更為&#x200B;**稽核中**。 在所有核准者核准要求之前，要求的狀態仍為&#x200B;**稽核中**。
@@ -118,7 +118,7 @@ ht-degree: 1%
    請求頁面會以唯讀模式開啟。
 
    ![稽核狀態的唯讀要求頁面](assets/read-only-reqeust-page-in-review-status.png)
-1. 如果您在Workfront中使用新的請求體驗，請按一下畫面右上角的&#x200B;**主功能表** ![點主功能表](assets/dots-menu.png)，或左上角的&#x200B;**主功能表** ![行主功能表](assets/lines-menu.png) （若有），然後按一下&#x200B;**請求**，然後按一下您想要核准且狀態為&#x200B;**擱置檢閱**&#x200B;或&#x200B;**檢閱中**&#x200B;的請求。
+1. 如果您在Workfront中使用新的請求體驗，請按一下畫面右上角的&#x200B;**主功能表** ![點主功能表](assets/dots-menu.png)，或左上角的&#x200B;**主功能表** ![行主功能表](assets/lines-menu.png) （若有），然後按一下&#x200B;**請求**，然後按一下您想要核准且狀態為&#x200B;**擱置檢閱**&#x200B;的請求。
 1. （選擇性）按一下請求右上角的&#x200B;**核准**&#x200B;圖示![核准圖示](assets/approvals-icon.png)以檢視核准者。
 1. 按一下&#x200B;**檢閱並核准**，然後選擇下列其中一項：
 
@@ -132,7 +132,7 @@ ht-degree: 1%
    * **已完成**：要求已核准。
    * **已拒絕**：要求已拒絕。
 
-   請求會保留在Workfront請求區域的已提交區段的Planning索引標籤中。
+   此請求會保留在Workfront的請求區域中。
 
 <div class="preview">
 

@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 26bbc4a0-e5ed-4b5f-bfc2-f888362c1d22
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '1850'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 2018.1 Beta 3版本包含適用於Workfront管理員和其他使用者的增強功能：
 
-管理員的&#x200B;**&#x200B;**
+管理員的&#x200B;****
 
 * [群組管理員改善](#group-administrator-improvements)
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 
 如需群組管理員的權能詳細資訊，請參閱[建立群組](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)中的「群組管理員的權能」一節。 
 
-## HTML5校訂檢視器改進  {#html5-proofing-viewer-improvements}
+## HTML5校訂檢視器改良  {#html5-proofing-viewer-improvements}
 
 * [比較模式](#compare-mode)
 * [篩選評論清單](#filter-the-comment-list)
@@ -192,11 +192,11 @@ HTML5校訂檢視器中的比較模式與舊版校訂檢視器有下列差異：
 
 ### 將群組和篩選器套用至敏捷團隊的待處理專案 {#apply-groupings-and-filters-to-the-backlog-for-an-agile-team}
 
-敏捷待處理專案現在提供分組和篩選選項，可讓您依分組組織待處理專案，以及篩選特定任務和問題。
+「群組」和「篩選」選項現在適用於「敏捷」待辦專案，可讓您按群組來組織待辦專案，以及篩選特定任務和問題。
 
 在此變更之前，您可以將檢視套用至敏捷待辦專案。
 
-如需詳細資訊，請參閱  [管理敏捷待處理專案](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)，在  [管理敏捷待處理專案](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)。
+如需詳細資訊，請參閱  [管理Agile待處理專案](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)於  [管理敏捷待處理專案](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)。
 
 ### 建立空白反複專案並於稍後更新 {#create-a-blank-iteration-and-update-it-later}
 
@@ -221,13 +221,13 @@ HTML5校訂檢視器中的比較模式與舊版校訂檢視器有下列差異：
 
 當您啟用甘特圖中的編輯模式時，您可以變更圖表內的資訊。 在此變更之前，您無法編輯甘特圖中的資訊。 您只能編輯工作清單上的工作資訊。
 
-如需有關編輯甘特圖的詳細資訊，請參閱工作清單甘特圖[&#128279;](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)中的更新資訊。
+如需有關編輯甘特圖的詳細資訊，請參閱工作清單甘特圖[中的](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)更新資訊。
 
 ### 編輯甘特圖時移除前置任務 {#remove-predecessors-when-editing-the-gantt-chart}
 
 使用甘特圖的編輯模式，您現在可以移除專案甘特圖中任務之間的前置任務關係。 在此增強功能之前，您只能在任務清單或任務層級移除前置任務關係。
 
-如需有關編輯甘特圖的詳細資訊，請參閱工作清單甘特圖[&#128279;](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)中的更新資訊。
+如需有關編輯甘特圖的詳細資訊，請參閱工作清單甘特圖[中的](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)更新資訊。
 
 ## 資源規劃工具改善 {#resource-planner-improvements}
 

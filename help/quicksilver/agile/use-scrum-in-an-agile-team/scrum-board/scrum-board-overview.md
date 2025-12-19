@@ -7,7 +7,7 @@ description: Scrum敏捷故事板會與完成狀態和待執行工作圖表一�
 author: Jenny
 feature: Agile
 exl-id: 584288bb-2d98-4b69-8deb-d3b8e54d328c
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 0%

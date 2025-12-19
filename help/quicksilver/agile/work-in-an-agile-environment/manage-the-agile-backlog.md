@@ -2,23 +2,23 @@
 product-area: agile-and-teams
 navigation-topic: work-in-an-agile-environment
 title: 管理敏捷待處理專案
-description: 任務和問題可以指派給敏捷團隊，並根據團隊使用的敏捷方法以該團隊的待辦專案為單位新增。
+description: 任務和問題可以指派給敏捷團隊，並根據團隊使用的敏捷方法以劇本形式新增到該團隊的待辦專案中。
 author: Jenny
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '1334'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # 管理敏捷待處理專案
 
-以下工作專案可指派給敏捷團隊，並根據團隊使用的敏捷方法，以劇本形式新增到該團隊的待辦專案中：
+以下工作專案可指派給敏捷團隊，並根據團隊使用的敏捷方法以該團隊的待辦專案新增到該團隊的待辦專案中：
 
 * **[!UICONTROL Scrum敏捷團隊]：**&#x200B;任務和問題可以指派給敏捷團隊並新增到待處理專案。
-* **[!UICONTROL Kanban敏捷團隊]：**&#x200B;任務可以指派給敏捷團隊並新增到待處理專案。 使用者可以直接從敏捷故事板檢視待處理專案，如[[!UICONTROL 將待處理專案]新增到看板](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md)中所述。 團隊使用此待處理專案來排定優先順序並管理其工作佇列。
+* **[!UICONTROL 看板敏捷團隊]：**&#x200B;任務可以指派給敏捷團隊並新增到待處理專案。 使用者可以直接從敏捷故事板檢視待處理專案，如[[!UICONTROL 將待處理專案]新增到看板](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md)中所述。 團隊使用此待處理專案來排定優先順序並管理其工作佇列。
 
 任務或問題可以從[!DNL Adobe Workfront]中的任何位置指派給團隊（並隨後新增到團隊待辦專案中）。 例如，一個團隊可能被指派來自多個專案的工作指派。
 
@@ -26,9 +26,9 @@ ht-degree: 0%
 >
 >如果您將多個團隊新增至待處理專案，則任務或問題僅會顯示在主要團隊的待處理專案中。 主要團隊是先指派的團隊。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,13 +37,13 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td> <p>標準</p> 
-   <p>工作或更高</p> </td> 
+   <p>工作或更高層級</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">物件許可權</td> 
@@ -71,14 +71,14 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >如果任務或問題指派給敏捷團隊，且專案未處於等於目前狀態，則它們不會顯示在待辦專案中。 不過，它們仍會影響「訂單」欄中的待處理專案計數。
+   >如果任務或問題具有指派的敏捷團隊，並且專案不處於相當於目前的狀態，它們不顯示在待辦專案中。 不過，它們仍會影響「訂單」欄中的待處理專案計數。
 
 1. 選取一或多個劇本，然後將這些劇本拖曳到您要它們顯示在待處理專案中的順序。
    ![拖放待處理專案](assets/agile-backlog-drag-and-drop.png)
 
 ### 劃分劇本 {#break-down-stories}
 
-由於待處理專案中的內文大小不一，因此使用者可以將內文細分為可供反複專案使用的大小。 分解內文會在內文所代表的任務上建立子任務，並取代待處理專案中的原始任務。 您可以將父項任務或其子任務指派給敏捷專案團隊，但您不能將兩者同時指派給專案團隊。
+由於待處理專案中的內文大小不一，因此使用者可以將內文細分為可供反複專案使用的大小。 分解內文會在內文所代表的任務上建立子任務，並取代待處理專案中的原始任務。 您可以將父系任務或其子任務指派給敏捷專案團隊，但不能將兩者同時指派給專案團隊。
 
 >[!NOTE]
 >
@@ -136,7 +136,7 @@ ht-degree: 0%
     <col>
     <tbody>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 劇本名稱]</strong></td>
+      <td role="rowheader"><strong>[！UICONTROL劇本名稱]</strong></td>
       <td> 輸入劇本的名稱。</td>
      </tr>
      <tr>
@@ -144,23 +144,23 @@ ht-degree: 0%
       <td>（選擇性）輸入劇本的說明。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 就緒]</strong></td>
+      <td role="rowheader"><strong>[！UICONTROL就緒]</strong></td>
       <td> 選取內文是否準備好新增至反複專案。 此設定僅供參考。 無論此設定的狀態為何，內文都可以新增至反複專案。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 估計]</strong></td>
+      <td role="rowheader"><strong>[！UICONTROL估計]</strong></td>
       <td>指定劇本的點數或每小時預估。 預估會影響待執行工作圖表。 只有當每個內文都包含正確的估計時，疊代的待執行工作圖表才會準確。 （如果您提供點數預估，則必須在專案團隊設定中指定每個點代表的時數。）</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 父專案]</strong></td>
-      <td>開始輸入將建立此劇本的專案名稱，然後在名稱出現在下拉式清單中時按一下該名稱。<br>專案狀態必須設定為[!UICONTROL 目前]。 如果專案狀態不是[!UICONTROL 目前]，則不會顯示在下拉式功能表中。</td>
+      <td role="rowheader"><strong>[！UICONTROL父專案]</strong></td>
+      <td>開始輸入將建立此劇本的專案名稱，然後在名稱出現在下拉式清單中時按一下該名稱。<br>專案狀態必須設定為[！UICONTROL目前]。 如果專案狀態不是[！UICONTROL目前]，則不會顯示在下拉式功能表中。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 父系任務]</strong></td>
+      <td role="rowheader"><strong>[！UICONTROL父系任務]</strong></td>
       <td>（選擇性）開始輸入此內文所屬之父系工作的名稱，然後在名稱出現在下拉式清單中時按一下該名稱。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 自訂Forms]</strong></td>
+      <td role="rowheader"><strong>[！UICONTROL自訂Forms]</strong></td>
       <td> （選擇性）選取您要新增至本文的任何自訂表格。</td>
      </tr>
     </tbody>
@@ -180,7 +180,7 @@ ht-degree: 0%
 1. 按一下&#x200B;**[!UICONTROL 指派]**。
 1. （選用）刪除任何現有的受指派人。
 1. 按一下&#x200B;**[!UICONTROL 新增被指定者]**。
-1. 開始輸入您要指派給任務或問題的敏捷團隊名稱，然後按一下出現在下拉清單中的團隊名稱。
+1. 開始輸入您要指派給任務或問題的敏捷團隊名稱，然後按一下出現在下拉式清單中的團隊名稱。
 1. 按一下&#x200B;**[!UICONTROL 儲存變更]**。
 團隊待處理專案現在提供任務或問題。
 

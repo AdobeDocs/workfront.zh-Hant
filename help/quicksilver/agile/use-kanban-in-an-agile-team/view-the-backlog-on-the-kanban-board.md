@@ -6,10 +6,10 @@ description: 您可以直接在看板顯示[!UICONTROL 待處理專案]欄。 [!
 author: Jenny
 feature: Agile
 exl-id: 77c7f7c7-66d9-4aec-9a0c-bfdc470a58d7
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 您可以直接在看板顯示[!UICONTROL 待處理專案]欄。 [!UICONTROL 展示板上的]待處理專案[!DNL Kanban]欄包含您[!DNL Kanban]展示板上的待處理專案中的前20個專案。 任務和問題必須屬於狀態相當於[!UICONTROL 目前]的專案，才能顯示在待處理專案中。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -28,13 +28,13 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td> <p>標準</p> 
-   <p>工作或更高</p> </td> 
+   <p>工作或更高層級</p> </td> 
   </tr>
  </tbody> 
 </table>
