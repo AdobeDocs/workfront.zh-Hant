@@ -164,7 +164,7 @@ ht-degree: 0%
 
    或
 
-   暫留在索引標簽名稱上，然後按一下[其他] **** ![ [其他]功能表](assets/more-menu.png)，然後按一下[重新命名] **以重新命名為新的連線記錄頁面索引標籤。**
+   暫留在索引標簽名稱上，然後按一下[其他] **&#x200B;**&#x200B;![&#x200B; [其他]功能表](assets/more-menu.png)，然後按一下[重新命名] **以重新命名為新的連線記錄頁面索引標籤。**
 
 
    <!--1. <span class="preview">(Optional) Click the dropdown menu to the right of the view name, then click **New view** to add a view. For more information, see the section [Manage multiple views from the connected records page](#manage-multiple-views-from-the-connected-records-page) in this article. </span>-->
@@ -406,7 +406,7 @@ ht-degree: 0%
    * **時間表**。 如需詳細資訊，請參閱[管理時間表檢視](/help/quicksilver/planning/views/manage-the-timeline-view.md)。
    * **行事曆**。 如需詳細資訊，請參閱[管理行事曆檢視](/help/quicksilver/planning/views/manage-the-calendar-view.md)。
 
-1. （選擇性）將游標暫留在「連線的記錄」頁面中的檢視名稱上，然後按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下下列其中一項： *************&#x200B;檢查以確定這些皆有可能&#x200B;*********
+1. （選擇性）將游標暫留在「連線的記錄」頁面中的檢視名稱上，然後按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下下列其中一項： **&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;***&#x200B;檢查以確定這些皆有可能&#x200B;**&#x200B;**&#x200B;**&#x200B;***
 
    * **重新命名**
    * **共用**。 如需詳細資訊，請參閱[共用檢視](/help/quicksilver/planning/access/share-views.md)。
