@@ -4,9 +4,9 @@ description: 2026年第一季要求增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ac1857f4cf4c6b3823773902ae8be439e2dcd55a
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '918'
 ht-degree: 0%
 
 ---
@@ -140,7 +140,7 @@ For more information on creating views for the Request list and My Requests widg
 
 為了更方便讓您的請求保持井然有序，我們已新增將請求刪除的功能至新的請求體驗。 現在，您可以刪除已提交的請求。 Workfront管理員和Workfront Planning Workspace管理員也可以刪除請求。
 
-以前刪除請求不可用。
+以前，此功能在新的請求體驗中無法使用。
 
 如需資訊與指示，請參閱[刪除提交的請求或請求草稿](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md)。
 

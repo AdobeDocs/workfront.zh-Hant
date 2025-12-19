@@ -7,9 +7,9 @@ description: 您可以藉由管理清單或報表的檢視，自訂顯示在清�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18016417-e24d-4797-9422-00915db47bb9
-source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '591'
 ht-degree: 0%
 
 ---
@@ -42,8 +42,8 @@ ht-degree: 0%
         <td>您可以將它們套用至任何物件清單或報表。 標準檢視可高度自訂。 您可以自訂標準檢視並與他人共用。 如需詳細資訊，請參閱<a href="/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md">在Adobe Workfront中建立或編輯檢視</a>。</td>
     </tr>
     <tr>
-        <td><strong>敏捷檢視</strong></td>
-        <td>您可以將面板或敏捷檢視套用至專案任務區段中的任務清單，或專案問題區段中的問題清單。 如需詳細資訊，請參閱<a href="/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md">在敏捷檢視中管理專案</a>。</td>
+        <td><strong>展示板檢視</strong></td>
+        <td>您可以將面板檢視套用至專案任務區段中的任務清單，或專案問題區段中的問題清單，以使用敏捷方法管理您的專案。 如需詳細資訊，請參閱<a href="/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md">在面板檢視中管理敏捷專案</a>。</td>
     </tr>
     <tr>
         <td><strong>甘特檢視</strong></td>
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 如需如何共用標準檢視的詳細資訊，請參閱[共用篩選器、檢視或群組](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)。
 
-您無法共用甘特圖和敏捷檢視。 有權存取這些檢視顯示區域的所有人都可以檢視相同資訊。
+您無法共用甘特圖和展示板檢視。 有權存取這些檢視顯示區域的所有人都可以檢視相同資訊。
 
 <!-- add something about the enhanced views here, when we have a link-->
 
@@ -74,7 +74,7 @@ ht-degree: 0%
 
 移除檢視的功能會因您最初建立檢視，或是檢視已與您共用而有所不同。 您無法移除預設檢視。
 
-您無法移除甘特圖或敏捷檢視。
+您無法移除「甘特圖」或「展示板」檢視。
 
 如需有關移除標準檢視的詳細資訊，請參閱[移除篩選器、檢視和群組](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)。
 

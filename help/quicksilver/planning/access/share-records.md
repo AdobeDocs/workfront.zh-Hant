@@ -7,9 +7,9 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '1772'
+source-wordcount: '1838'
 ht-degree: 2%
 
 ---
@@ -117,6 +117,9 @@ ht-degree: 2%
 <!--checking on the below with Lilit-->
 
 * 您可以與下列實體共用記錄：人員、群組、團隊、公司或職務角色。
+* 當您共用記錄時，使用者無論在系統中出現該記錄的任何位置，都可擁有相同的存取權。
+* 如果您限制記錄的許可權，則使用者不會再在系統中任何新增該記錄的地方檢視該記錄及其查閱欄位的值。
+* Workfront會檢查最多5筆記錄深層連線的記錄許可權，確保使用者只會看到與他們共用的記錄。
 * 您可以授予記錄的下列許可權層級：
 
    * 檢視

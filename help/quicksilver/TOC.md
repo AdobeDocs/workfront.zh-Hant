@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 8e5a35f20675e911a5ba7251b39ead7c1770b666
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '13630'
+source-wordcount: '13631'
 ht-degree: 2%
 
 ---
@@ -1241,7 +1241,7 @@ ht-degree: 2%
          * [從專案移除使用者](manage-work/projects/manage-projects/remove-users-from-projects.md)
          * [為專案排程資源](manage-work/projects/manage-projects/schedule-resources-for-projects.md)
          * [與專案團隊成員溝通](manage-work/projects/manage-projects/communicate-with-project-team-members.md)
-         * [在敏捷檢視中管理專案](manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
+         * [在展示板檢視中管理敏捷專案](manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
          * [瞭解專案量度](manage-work/projects/manage-projects/project-metrics.md)
          * [專案限制總覽](manage-work/projects/manage-projects/project-maximums.md)
          * [使用AI助理概述更新](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)
@@ -2529,9 +2529,9 @@ ht-degree: 2%
       * [使用JWT流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-jwt-flow.md)
       * [使用PKCE流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-pkce-flow.md)
       * [棄用API — 內部](wf-api/api/deprecation-api-internal.md)
-      * [&#x200B; API 21版的新增功能](/help/quicksilver/wf-api/api/new-api-version-21.md)
-      * [&#x200B; API 20版的新增功能](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [&#x200B; API 19版的新增功能](wf-api/api/new-api-version-19.md)
+      * [ API 21](/help/quicksilver/wf-api/api/new-api-version-21.md)版的新增功能
+      * [ API 20](/help/quicksilver/wf-api/api/new-api-version-20.md)版的新增功能
+      * [ API 19](wf-api/api/new-api-version-19.md)版的新增功能
       * [API 18版的新增功能](wf-api/api/new-api-version-18.md)
       * [API 17版的新增功能](wf-api/api/new-api-version-17.md)
       * [API 16版的新增功能](wf-api/api/new-api-version-16.md)
