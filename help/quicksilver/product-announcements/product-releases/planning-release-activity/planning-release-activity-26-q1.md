@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 066f678d4b13371eeca6aced586e1853a973cc03
+source-git-commit: 46f3be50925d2e830c572ce9bbad0d3b320f6a95
 workflow-type: tm+mt
-source-wordcount: '1497'
+source-wordcount: '1501'
 ht-degree: 0%
 
 ---
@@ -142,6 +142,7 @@ For information, see [Hierarchy and breadcrumb overview](/help/quicksilver/plann
 >預覽： 2025年12月11日
 >生產快速發行： 2025年12月11日
 >每個人都要生產： 2025年12月11日
+>[!BADGE 不在排程]{type=Neutral}內
 
 具有GenStudio for Performance Marketing品牌的連線欄位現在預設會新增到Workfront Planning的GenStudio工作區中的「產品」和「角色」記錄型別。
 
@@ -158,6 +159,7 @@ For information, see [Hierarchy and breadcrumb overview](/help/quicksilver/plann
 >預覽： 2025年12月11日
 >生產快速發行： 2025年12月11日
 >每個人都要生產： 2025年12月11日
+>[!BADGE 不在排程]{type=Neutral}內
 
 我們新增了護欄，可防止您從Workfront Planning物件中移除GenStudio for Performance Marketing使用者的許可權。 經過這項改善後，您將無法再從Planning的GenStudio工作區中移除GenStudio使用者，也無法對GenStudio工作區中的記錄型別停用繼承許可權(如果這些許可權包含GenStudio使用者)。 在此改善之前，當您從Planning中的GenStudio工作區移除這些使用者時，他們也會失去在GenStudio中記錄型別的許可權。
 
