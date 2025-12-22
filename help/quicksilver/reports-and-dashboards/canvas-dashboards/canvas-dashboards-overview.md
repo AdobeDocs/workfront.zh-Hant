@@ -7,9 +7,9 @@ author: Courtney and Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: d82bb8a2-a2a6-43d6-a62e-e90f69229533
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 96be3dbf57e87da19cef79426b1c8cd2290f60df
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '528'
 ht-degree: 2%
 
 ---
@@ -40,6 +40,10 @@ ht-degree: 2%
 * 您的Workfront管理員必須提供存取層級中控制面板的編輯存取權，才能建立或編輯畫布控制面板。 如需授與「編輯」存取權的相關資訊，請參閱[授與報告、儀表板和行事曆的存取權](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)。
 
 ## 畫布控制面板文章
+
+* 使用畫布控制面板
+
+   * [使用畫布控制面板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md)
 
 * Canvas控制面板Beta版
 
