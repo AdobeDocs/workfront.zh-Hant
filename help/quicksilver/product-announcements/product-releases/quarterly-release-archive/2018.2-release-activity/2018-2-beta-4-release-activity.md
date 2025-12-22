@@ -26,7 +26,7 @@ ht-degree: 0%
 
 2018.2 Beta 4版本包含Workfront管理員和其他使用者的增強功能：
 
-管理員的&#x200B;****
+管理員的&#x200B;**&#x200B;**
 
 * [系統設定：外部頁面中的工作階段資訊](#system-setting-session-information-in-external-pages)
 

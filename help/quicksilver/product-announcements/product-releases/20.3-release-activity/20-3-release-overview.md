@@ -151,32 +151,32 @@ For specific release dates and times for each cluster, see the
 >您必須具備下列條件：
 >
 ><table style="table-layout:auto"> 
-&gt; <col> 
-&gt; <col> 
-&gt; <tbody> 
-&gt;  <tr> 
-&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Workfront計畫</a>*</p> </td> 
-&gt;   <td>商務或以上版本</td> 
-&gt;  </tr> 
-&gt;  <tr> 
-&gt;   <td role="rowheader"> <p>授權型別*</p> </td> 
-&gt;   <td> <p>檢閱或更高版本。 如需詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront授權總覽</a>。</p> </td> 
-&gt;  </tr> 
-&gt;  <tr> 
-&gt;   <td role="rowheader">產品</td> 
-&gt;   <td>Workfront 情境規劃工具 <p>如需Workfront Scenario Planner的相關資訊，請參閱<a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Scenario Planner概觀</a>。</p> </td> 
-&gt;  </tr> 
-&gt;  <tr data-mc-conditions=""> 
-&gt;   <td role="rowheader"><strong>存取層級*</strong> </td> 
-&gt;   <td> <p>檢視「情境規劃工具」的存取權或以上許可權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何變更存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
-&gt;  </tr> 
-&gt;  <tr data-mc-conditions=""> 
-&gt;   <td role="rowheader"> <p><strong>物件許可權</strong> </p> </td> 
-&gt;   <td> <p>檢視計畫的許可權或更高版本</p> <p>如需請求對計畫的額外存取權的相關資訊，請參閱<a href="../../../scenario-planner/request-access-to-plan.md" class="MCXref xref">在Scenario Planner</a>中請求對計畫的存取權。</p> </td> 
-&gt;  </tr> 
-&gt; </tbody> 
-&gt;</table>
-&gt;*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+>&gt; <col> 
+>&gt; <col> 
+>&gt; <tbody> 
+>&gt;  <tr> 
+>&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Workfront計畫</a>*</p> </td> 
+>&gt;   <td>商務或以上版本</td> 
+>&gt;  </tr> 
+>&gt;  <tr> 
+>&gt;   <td role="rowheader"> <p>授權型別*</p> </td> 
+>&gt;   <td> <p>檢閱或更高版本。 如需詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront授權總覽</a>。</p> </td> 
+>&gt;  </tr> 
+>&gt;  <tr> 
+>&gt;   <td role="rowheader">產品</td> 
+>&gt;   <td>Workfront 情境規劃工具 <p>如需Workfront Scenario Planner的相關資訊，請參閱<a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Scenario Planner概觀</a>。</p> </td> 
+>&gt;  </tr> 
+>&gt;  <tr data-mc-conditions=""> 
+>&gt;   <td role="rowheader"><strong>存取層級*</strong> </td> 
+>&gt;   <td> <p>檢視「情境規劃工具」的存取權或以上許可權</p> <p>注意：如果您還是沒有存取權，請詢問您的Workfront管理員，他們是否在您的存取層級中設定其他限制。 如需Workfront管理員如何變更存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+>&gt;  </tr> 
+>&gt;  <tr data-mc-conditions=""> 
+>&gt;   <td role="rowheader"> <p><strong>物件許可權</strong> </p> </td> 
+>&gt;   <td> <p>檢視計畫的許可權或更高版本</p> <p>如需請求對計畫的額外存取權的相關資訊，請參閱<a href="../../../scenario-planner/request-access-to-plan.md" class="MCXref xref">在Scenario Planner</a>中請求對計畫的存取權。</p> </td> 
+>&gt;  </tr> 
+>&gt; </tbody> 
+>&gt;</table>
+>&gt;*若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
 
  
 
@@ -404,7 +404,7 @@ For specific release dates and times for each cluster, see the
 
 ## API增強功能
 
-API第11版於2020.1版時發行。 如需有關新增功能和更新的資訊，請參閱[ API 11](../../../wf-api/api/new-api-version-11.md)版的新功能
+API第11版於2020.1版時發行。 如需有關新增功能和更新的資訊，請參閱[&#x200B; API 11](../../../wf-api/api/new-api-version-11.md)版的新功能
 
 <!--
 <a href="https://experience.workfront.com/s/article/What-s-new-in-API-version-11-1760875145" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">What's new in API version 11</a>
