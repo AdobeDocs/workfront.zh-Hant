@@ -5,7 +5,7 @@ author: Luke
 draft: Probably
 feature: Product Announcements, Agile
 exl-id: 2c59b8b2-7239-4d20-a8c6-5938c2c4db93
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 0%
@@ -41,11 +41,11 @@ ht-degree: 0%
 >
 >此功能已於2021年9月16日發佈到預覽環境。
 
-在21.3版中，我們改良了敏捷卡片和故事板（請參閱[敏捷卡片和故事板更新](../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile)）。 這些更新套用至疊代以及專案的敏捷檢視。
+在21.3版中，我們改進敏捷卡片和故事板（請參閱[敏捷卡片和故事板更新](../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile)）。 這些更新套用至疊代以及專案的敏捷檢視。
 
 在21.4版中，我們正在針對專案的敏捷檢視恢復這些增強功能。 未對敏捷反複專案進行任何變更。
 
-以下是關於專案的敏捷檢視正在還原的變更：
+以下是關於專案上敏捷檢視的正在還原的變更：
 
 * 故事卡和板欄的寬度可調整。
 * 欄沒有背景陰影。

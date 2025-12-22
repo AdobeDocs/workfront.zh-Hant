@@ -6,10 +6,10 @@ description: 您可以在團隊建立期間或之後，為Scrum敏捷團隊設�
 author: Jenny
 feature: Agile
 exl-id: 7509608e-96af-4601-80d4-791ee29046da
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1725'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -18,21 +18,21 @@ ht-degree: 0%
 您可以在[!DNL Adobe Workfront]中建立敏捷團隊，如[建立敏捷團隊](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md)中所述。 建立敏捷團隊時，您可以選擇團隊用來完成其工作的方法。 您可以從下列選項中選擇：
 
 * Scrum
-* Kanban
+* 看板
 
 本文會說明如何設定Scrum群組的設定。 建立敏捷團隊並選擇Scrum方法之後，您可以參閱本文章以更新以下設定：
 
 * 劇本是以點還是小時為單位進行預估
 * 敏捷故事板上的狀態列，用於疊代和專案
 * 要在敏捷故事板上顯示在故事卡上的其他欄位
-* 如何在敏捷故事板上為故事使用顏色指示器
+* 如何在敏捷故事板上將顏色指示器用於故事
 * 將工作專案新增至疊代時如何套用日期
 
 如需有關設定Kanban團隊的資訊，請參閱[設定Kanban](/help/quicksilver/agile/get-started-with-agile-in-workfront/configure-kanban.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,14 +41,14 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr>
 
 <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td> <p>標準</p> 
-   <p>工作或更高</p> </td> 
+   <p>工作或更高層級</p> </td> 
   </tr>
 
 <tr> 
@@ -99,7 +99,7 @@ ht-degree: 0%
 
 您可以為敏捷團隊定義故事板上的狀態。 這是唯一會顯示在故事板上的狀態。
 
-若要定義與敏捷團隊相關劇本面板可用的狀態：
+若要定義與敏捷團隊相關聯劇本面板可用的狀態：
 
 {{step1-to-team}}
 
@@ -137,7 +137,7 @@ ht-degree: 0%
 
 如需如何設定專案狀態列的詳細資訊，請參閱[在[!UICONTROL 中建立或編輯檢視一節中的]建立或自訂](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md#customizing-an-agile-view)敏捷[檢視 [!DNL Adobe Workfront]](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)。
 
-## 設定要在敏捷故事板上顯示在故事卡上的其他欄位
+## 設定要在敏捷故事板上的故事卡上顯示的其他欄位
 
 當您新增欄位到內文卡時，欄位在填入欄位時為僅限檢視和僅限顯示。
 
@@ -177,7 +177,7 @@ ht-degree: 0%
 1. 輸入要在本文或問題卡上顯示的欄位&#x200B;**[!UICONTROL 顯示名稱]**。
 1. 按一下&#x200B;**[!UICONTROL 儲存變更]**。
 
-## 設定如何使用顏色指標用於敏捷故事板上的故事
+## 設定色彩指標在敏捷故事板上用於故事的方式
 
 依預設，敏捷疊代中的內文板圖磚會根據內文關聯的專案進行色彩編碼。 每個專案都會任意指定故事板上的顏色。 您可以為每個敏捷團隊變更此預設行為。 敏捷內文的顏色可以與內文優先順序、所有者等繫結。
 

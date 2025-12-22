@@ -7,7 +7,7 @@ description: 本文所述的完成資訊會顯示在待執行工作圖表上方�
 author: Jenny
 feature: Agile
 exl-id: cc6bebdb-f2aa-4e85-9f9f-15e7753d84cb
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 0%

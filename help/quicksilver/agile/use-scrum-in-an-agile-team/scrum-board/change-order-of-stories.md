@@ -6,10 +6,10 @@ description: 故事出現在故事板上的順序不表示優先順序。 不過
 author: Jenny
 feature: Agile
 exl-id: 326d78e0-06de-4b98-8fa6-102e0fd89d76
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 0%
 
 當您重新排序內文面板上的欄時，您所做的任何變更都會儲存在版序或專案中，因此下次您或其他使用者檢視內文面板時將會保留變更。 （清除瀏覽器快取時，您所做的變更不會還原。）
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -35,9 +35,9 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>新增：[!UICONTROL Standard]</p> 
+   <td> <p>新增：[！UICONTROL Standard]</p> 
    或
-   <p>目前： [!UICONTROL Work]或更高版本</p> </td> 
+   <p>目前： [！UICONTROL Work]或更高版本</p> </td> 
   </tr>
  </tbody> 
 </table>
@@ -59,4 +59,4 @@ ht-degree: 0%
 
 和敏捷反複專案不同，在敏捷檢視中檢視專案時，您無法變更本文順序。 若要修改專案的內文順序，您必須在標準檢視中檢視專案。
 
-如需有關如何變更專案檢視的資訊，請參閱[[!UICONTROL 敏捷]檢視[!UICONTROL 中的]管理專案](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)。 請選取標準檢視，而不是選取敏捷檢視。
+如需有關如何變更專案檢視的資訊，請參閱[[!UICONTROL 敏捷]檢視[!UICONTROL 中的]管理專案](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)。 請選取標準檢視，而不要選取敏捷檢視。

@@ -6,7 +6,7 @@ description: 您可以使用檢視來自訂顯示在熒幕上的資訊型別。 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '893'
 ht-degree: 4%
@@ -70,8 +70,8 @@ ht-degree: 4%
 
 1. 按一下「**+新增檢視**」按鈕以建立新檢視。
 或
-按一下滑鼠右邊要編輯的現有檢視右邊出現的&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)。
-顯示&#x200B;**自訂檢視**&#x200B;對話方塊。
+按一下滑鼠右邊要編輯的現有檢視右邊出現的**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)。
+顯示**自訂檢視**&#x200B;對話方塊。
 
 1. 在&#x200B;**資料行預覽**&#x200B;區段中，執行下列任一項作業：
 
@@ -117,7 +117,7 @@ ht-degree: 4%
      > * 實際小時會摘要主要父系和獨立任務的值；它們不會摘要父系任務的父系或子系任務的數字。
      > * 數字和貨幣值的自訂資料欄位會摘要所有工作：父項、子項、父項的父項，以及獨立工作。
      >
-     >如需在報告中使用群組的詳細資訊，請參閱文章[&#x200B; Adobe Workfront中的群組概觀](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)。
+     >如需在報告中使用群組的詳細資訊，請參閱文章[ Adobe Workfront中的群組概觀](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)。
 
       * （選擇性）按一下&#x200B;**進階選項**，為資料行指定下列資訊：
 
@@ -194,9 +194,9 @@ To create or customize an Agile view:
    We recommend that you include the word "Agile" in your view name, so users know this is an Agile view.  
    This name is displayed in the **View** drop-down menu when selecting a view.
 
-1. Define the status columns to display on the story board in the agile view. These are the task statuses that are defined by the Workfront administrator, as described in [Create or edit a status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+1. Define the status columns to display on the story board in the Agile view. These are the task statuses that are defined by the Workfront administrator, as described in [Create or edit a status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
-   Only system statuses are available to use on the Agile story board. If a status is available only for an individual group you are a member of, the status is not available on the agile story board. Furthermore, tasks that are in a status that is available only to a custom group are not visible when viewing the project in an Agile view.
+   Only system statuses are available to use on the Agile story board. If a status is available only for an individual group you are a member of, the status is not available on the Agile story board. Furthermore, tasks that are in a status that is available only to a custom group are not visible when viewing the project in an Agile view.
 
    Users can move stories among these status columns on the Agile story board.  
    When defining status columns, you can do the following:
@@ -261,7 +261,7 @@ To create or customize an Agile view:
 
    * Story name with a link directly to the task
    * The project name with a link directly to the project  
-     This link is displayed only when using the agile view on an iteration; it is not displayed when using an Agile view on a project.
+     This link is displayed only when using the Agile view on an iteration; it is not displayed when using an Agile view on a project.
    * The task description
    * Current commitment
    * View and edit the percent complete either by adjusting the percent complete itself or by adjusting the number of points or hours that are complete

@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d24f2aae-1c3d-41ed-ad17-6276bef2cf45
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1202'
 ht-degree: 0%
@@ -117,7 +117,7 @@ in January 2022
 
 如需詳細資訊，請參閱[在Adobe Workfront中將問題轉換為專案](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)。
 
-## 在敏捷板上依使用者清單篩選，顯示具有最多指派的使用者先前
+## 在敏捷板上依使用者清單篩選，顯示具有最多指派的使用者最先
 
 >[!NOTE]
 >

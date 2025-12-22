@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
-source-wordcount: '2731'
+source-wordcount: '2940'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 &lt;！ — 在此提及，詳細資訊檢視中的欄位與表格檢視中的欄位相同 — 本文從「管理記錄」檢視連結，其中一個參考此資訊 — >
 
-## 存取需求
+## 存取權要求
 
 +++ 展開以檢視本文中功能的存取需求。 
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront套件</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
 <p>任何Workfront和任何Planning套件</p> <p>任何工作流程與任何Planning套件</p>
 <p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
@@ -142,11 +142,14 @@ ht-degree: 0%
    * 從其他記錄連結的欄位
    * 公式型別欄位
    * 系統欄位（「建立者」、「建立日期」、「上次修改者」、「上次修改日期」）
-* 如果顯示的記錄連結到其他記錄，則您正在編輯的記錄的新資訊會反映在連結的記錄上。
+* 如果顯示的記錄連結到其他記錄，則您正在編輯的記錄的新資訊會反映在連結該記錄的所有工作區中的連結記錄上。
 * 您無法大量編輯記錄。<!--this will probably change-->
 * URL只有以下列專案開頭時，才會被識別為單行文字欄位型別中的連結： http://、https://、ftp://或www。.
 * 您可以將封面影像新增到每張記錄中。 每個記錄的影像都是唯一的，不會套用至同一時間的所有記錄。
 * 您可以編輯記錄頁面中的欄位順序，並為記錄新增封面影像。 如需詳細資訊，請參閱[管理記錄頁面配置](/help/quicksilver/planning/records/manage-the-record-page.md)。
+* 您可以在時間軸和行事曆檢視中調整記錄大小或重新定位記錄，以編輯記錄的「開始」和「結束」日期。
+
+  當您為記錄選擇的開始和結束日期為唯讀時，無法調整記錄大小或重新定位記錄。 例如，使用記錄開始和結束日期的查閱或公式欄位，將不允許您在時間軸和行事曆檢視中調整記錄大小或重新定位記錄。<!--this also repeats below, for the timeline and the calendar views; also update there, if this changes-->
 
 ## 編輯記錄
 
@@ -266,6 +269,10 @@ ht-degree: 0%
 
 1. 按一下並保留記錄列，然後將其拖放到另一個位置以更新其時間軸和日期。 記錄的開始和結束日期會自動更新。
 
+   >[!IMPORTANT]
+   >
+   >當您為記錄選擇的開始和結束日期為唯讀時，您無法拖放記錄列的結尾，也無法拖放記錄至另一個日期。 例如，針對記錄的「開始」和「結束」日期使用查詢或公式欄位，將不允許您在時間軸檢視中調整記錄大小或重新定位記錄。<!--this also repeats in Considerations and in editing in the calendar view; also update there, if this changes-->
+
 1. 按一下記錄列以開啟其詳細資訊區域並編輯所有欄位。
 
    如需詳細資訊，請參閱本文中的[在檢視中編輯記錄預覽的記錄](#edit-a-record-from-the-records-preview-in-a-view)區段。
@@ -280,6 +287,10 @@ ht-degree: 0%
    ![行事曆檢視上的左側列要調整大小](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)
 
 1. 按一下並保留記錄列，然後將其拖放到另一個位置以更新其時間軸和日期。 記錄的開始和結束日期會自動更新。
+
+   >[!IMPORTANT]
+   >
+   >當您為記錄選擇的開始和結束日期為唯讀時，您無法拖放記錄列的結尾，也無法拖放記錄至另一個日期。 例如，使用記錄開始和結束日期的查閱或公式欄位，不允許您在行事曆檢視中調整記錄大小或重新定位記錄。<!--this also repeats in Considerations and in editing in the timeline view; also update there, if this changes-->
 
 1. 按一下記錄列以開啟其詳細資訊區域並編輯所有欄位。
 
@@ -427,7 +438,7 @@ ht-degree: 0%
 1. 移至記錄型別頁面並開啟表格檢視。
 1. 新增您要在表格檢視中新增選擇的單一或多重選取欄位作為新欄。 如需詳細資訊，請參閱[建立欄位](/help/quicksilver/planning/fields/create-fields.md)。
 1. 連按兩下欄位的儲存格，開始內嵌編輯欄位。
-1. 輸入您要新增的選擇名稱，然後按一下[新增選擇]。**&#x200B;**
+1. 輸入您要新增的選擇名稱，然後按一下[新增選擇]。****
 
    ![在表格檢視中的單一選取欄位中新增選項](assets/add-choice-in-table-view-for-single-select-field.png)
 

@@ -5,7 +5,7 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a47d2592-0f00-4bcd-bc8e-75f8e707a573
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1315'
 ht-degree: 0%
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果您組織的Workfront執行個體已上線到Adobe統一體驗，您可以透過您的偏好設定選單（您的設定檔圖片）為所有Adobe Experience Cloud啟用深色佈景主題格式，而且您將不會看到Workfront面板的個別深色模式選項。
+>如果您組織的Workfront執行個體已上線到Adobe統一體驗，您可以透過您的偏好設定選單（您的個人資料圖片）為所有Adobe Experience Cloud啟用深色主題格式，並且您將不會看到Workfront面板的個別深色模式選項。
 
 如需詳細資訊，請參閱[面板電子郵件通知和偏好設定](/help/quicksilver/agile/get-started-with-boards/boards-emails.md)。
 
@@ -118,13 +118,13 @@ ht-degree: 0%
 
 [觀看此功能的影片示範](https://video.tv.adobe.com/v/3418600/){target=_blank}
 
-## 將敏捷團隊Kanban卡片遷移至面板
+## 將敏捷團隊Kanban卡片移轉至面板
 
 敏捷團隊看板上的新&#x200B;**新增到看板**&#x200B;按鈕可讓您將所有看板中的卡片新增到Workfront看板。 您可以選擇建立新的Workfront展示板，或將卡片新增至現有展示板。
 
 卡片在Workfront展示板上的放置是根據欄原則。 （例如，原則可將所有狀態為「進行中」的卡片移至特定欄。） 如果沒有原則或卡片不符合原則，卡片會放置在最左側的欄。 目前，舊版展示板上「待處理專案」欄中的卡片未新增至Workfront展示板。
 
-卡片不會從敏捷團隊Kanban面板中移除，卡片狀態變更將同步到兩個面板。 在準備切換至Workfront主機板之前，您可以讓兩個主機板都保持作用中。
+卡片未從敏捷團隊看板中移除，卡片狀態變更將同步到兩個看板。 在準備切換至Workfront主機板之前，您可以讓兩個主機板都保持作用中。
 
 如需詳細資訊，請參閱[將敏捷團隊Kanban卡片移轉至Workfront展示板](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)。
 

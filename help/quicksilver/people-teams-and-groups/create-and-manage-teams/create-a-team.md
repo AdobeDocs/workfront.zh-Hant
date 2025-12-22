@@ -6,10 +6,10 @@ description: 建立團隊時，預設會成為團隊所有者。
 author: Jenny
 feature: People Teams and Groups
 exl-id: 4bef734c-de86-4c58-a0e8-fbb3c5785f4c
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '471'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -21,16 +21,16 @@ ht-degree: 0%
 
 如需[!DNL Adobe Workfront]系統管理員如何從[!UICONTROL 設定]區域建立團隊的詳細資訊，請參閱[從[!UICONTROL 設定]區域](../../administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md)建立團隊。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront套件</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront 封裝</p> </td> 
    <td>任何</td> 
   </tr> 
   <tr> 
@@ -67,7 +67,7 @@ ht-degree: 0%
 
    * **[!UICONTROL 這是敏捷團隊]：**&#x200B;如果您想要將此新團隊設定為敏捷團隊，請選取此選項。
 
-     如需敏捷團隊的詳細資訊，請參閱[建立敏捷團隊](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)。
+     如需有關敏捷團隊的詳細資訊，請參閱[建立敏捷團隊](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)。
 
    * **[!UICONTROL 團隊成員]：**&#x200B;開始輸入要加入團隊的使用者名稱，然後選取出現在下拉式清單中的名稱。
 

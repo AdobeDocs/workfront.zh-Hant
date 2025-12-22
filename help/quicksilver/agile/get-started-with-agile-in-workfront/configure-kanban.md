@@ -6,10 +6,10 @@ description: 您可以在團隊建立期間或之後，為Kanban敏捷團隊設�
 author: Jenny
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1484'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
 您可以在[!DNL Adobe Workfront]中建立敏捷團隊，如[建立敏捷團隊](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)中所述。 建立敏捷團隊時，您可以選擇團隊用來完成其工作的方法。 您可以從下列選項中選擇：
 
 * Scrum
-* Kanban
+* 看板
 
 本文會說明如何設定Kanban團隊的設定。 建立敏捷團隊並選擇Kanban方法之後，您可以參閱本文章以更新以下設定：
 
@@ -33,9 +33,9 @@ ht-degree: 1%
 
 如需有關設定Scrum群組的資訊，請參閱[設定Scrum](../get-started-with-agile-in-workfront/configure-scrum.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,14 +44,14 @@ ht-degree: 1%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr>
 
 <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td> <p>標準</p> 
-   <p>工作或更高</p> </td> 
+   <p>工作或更高層級</p> </td> 
   </tr>
 
 <tr> 
@@ -90,7 +90,7 @@ ht-degree: 1%
 
 您可以為敏捷團隊定義故事板上的狀態。 這是唯一會顯示在故事板上的狀態。
 
-若要定義與敏捷團隊相關劇本面板可用的狀態：
+若要定義與敏捷團隊相關聯劇本面板可用的狀態：
 
 {{step1-to-team}}
 
@@ -118,7 +118,7 @@ ht-degree: 1%
 
 1. 按一下「**[!UICONTROL 儲存變更]**」。
 
-## 設定要在敏捷故事板上顯示在故事卡上的其他欄位
+## 設定要在敏捷故事板上的故事卡上顯示的其他欄位
 
 當您新增欄位到內文卡時，欄位是僅供檢視的，並且只有在填入欄位時才顯示。
 
@@ -161,7 +161,7 @@ ht-degree: 1%
 
 當您定義Kanban團隊的WIP限制時，您可以透過限制可在[!UICONTROL Kanban]展示板上的[!UICONTROL New]或[!UICONTROL In Progress]欄中出現的任務數量，來控制團隊目前正在處理的專案數量。
 
-設定Kanban團隊的WIP限制後，您可以檢視WIP限制，並從[!UICONTROL Kanban]敏捷故事板進行更新，如[Kanban[!UICONTROL 故事板]上的](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md)管理進行中的工作(WIP)限制中所述。
+設定Kanban團隊的WIP限制後，您可以檢視WIP限制，並從[!UICONTROL Kanban]敏捷故事板更新該限制，如[Kanban[!UICONTROL 故事板]上的](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md)管理進行中的工作(WIP)限制中所述。
 
 若要限制看板團隊的在製品，請執行下列步驟：
 

@@ -7,7 +7,7 @@ description: 敏捷是一種工作方法，可讓團隊以一致的步調完成�
 author: Jenny
 feature: Agile
 exl-id: 35b329e5-f360-416c-adbb-ec39ab7a50cc
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. 建立敏捷團隊。
 
-   如需詳細資訊，請參閱文章[建立敏捷團隊](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md/#create-an-agile-team-1)中的[建立敏捷團隊](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#converting-an-existing-team-into-an-agaile-team)或[將現有團隊轉換為敏捷團隊](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)一節。
+   如需詳細資訊，請參閱[建立敏捷團隊](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md/#create-an-agile-team-1)一文中的[建立敏捷團隊](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#converting-an-existing-team-into-an-agaile-team)或[將現有團隊轉換為敏捷團隊](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)一節。
 
 1. 設定敏捷團隊以使用Kanban或Scrum。
 
@@ -44,6 +44,6 @@ ht-degree: 0%
 
    如需詳細資訊，請參閱[管理敏捷待處理專案](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)、[新增現有任務或問題到[!UICONTROL Kanban]展示板](../agile/use-kanban-in-an-agile-team/add-existing-tasks-or-issues-to-the-kanban-board.md)，以及[新增劇本到現有反複專案](../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)。
 
-## 在專案上使用敏捷
+## 在專案上使用Agile
 
-您可以針對專案利用敏捷功能，而不會遇到敏捷實務通常伴隨的管理挑戰（例如管理團隊待處理專案、建立反複專案等）。 如需詳細資訊，請參閱[在敏捷檢視中管理專案](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md)。
+您可以針對您的專案利用敏捷功能，而不會遇到敏捷實務通常伴隨的管理挑戰（例如管理團隊待辦專案、建立反複專案等）。 如需詳細資訊，請參閱[在敏捷檢視中管理專案](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md)。

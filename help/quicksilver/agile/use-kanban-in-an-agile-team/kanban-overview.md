@@ -7,7 +7,7 @@ description: 請檢閱本文，以更加瞭解Kanban展示板的運作方式。
 author: Jenny
 feature: Agile
 exl-id: d7daa6c1-dae2-4e5c-a765-6a6ebdfaa331
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 如需K[!UICONTROL anban]方法的說明，請參閱[建立敏捷團隊](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md)。
 
-如果您有興趣從敏捷團隊[!UICONTROL Kanban]看板移轉至[!DNL Workfront] [!UICONTROL 看板]，請參閱[將敏捷團隊[!UICONTROL Kanban]看板移轉至 [!DNL Workfront] 看板](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)。
+如果您有興趣從敏捷團隊[!UICONTROL Kanban]展示板移轉至[!DNL Workfront] [!UICONTROL 展示板]，請參閱[將敏捷團隊[!UICONTROL Kanban]展示板移轉至 [!DNL Workfront] 展示板](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)。
 
 ## [!UICONTROL Kanban]展示板配置與功能
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[在[!UICONTROL Kanban]面板](../../agile/use-kanban-in-an-agile-team/update-the-status-of-stories.md)上更新內文的狀態。
 
-您可以修改敏捷檢視，以自訂專案的內文狀態，如[[!UICONTROL 在]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view)中建立或編輯檢視中的[建立或自訂敏捷檢視 [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md)一節所述。
+可以透過修改敏捷檢視為專案自訂劇本狀態，如在[[!UICONTROL 在]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view)中建立或編輯檢視中的[建立或自訂敏捷檢視 [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md)一節中所述。
 
 >[!NOTE]
 >

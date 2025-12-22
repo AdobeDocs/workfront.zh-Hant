@@ -8,10 +8,10 @@ author: Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: 29a84e52-0bd3-45c2-a8b8-80bfec894196
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '542'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 4%
 >* 群組管理員可以從「設定」區域為所管理的群組建立群組。 如需詳細資訊，請參閱[建立和修改群組的團隊](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md)。
 >* 擁有「標準」或「計畫」授權的使用者也可以從「專案團隊」區域建立專案團隊。 如需詳細資訊，請參閱[建立團隊](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -48,7 +48,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td>
+   <td>[！UICONTROL系統管理員]</td>
   </tr> 
  </tbody> 
 </table>
@@ -91,7 +91,7 @@ ht-degree: 4%
      </tr> 
      <tr data-mc-conditions="SnippetConditions-wf-groups.system-level"> 
       <td role="rowheader">這是一個敏捷團隊</td> 
-      <td>如果您想要將此新團隊設定為敏捷團隊，請選取此專案。 如需敏捷團隊的詳細資訊，請參閱<a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">建立敏捷團隊</a>。</td> 
+      <td>如果您想要將此新團隊設定為敏捷團隊，請選取此專案。 如需有關敏捷團隊的詳細資訊，請參閱<a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">建立敏捷團隊</a>。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">處理它</td> 

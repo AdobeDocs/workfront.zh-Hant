@@ -6,10 +6,10 @@ description: 您可以將工作專案從敏捷團隊Kanban展示板移轉到新�
 author: Jenny
 feature: Agile
 exl-id: 72e3902b-af9a-497c-817f-63630c4fb73b
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '367'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -19,18 +19,18 @@ ht-degree: 0%
 
 卡片在Workfront展示板上的放置是根據欄原則。 (例如，原則可將所有狀態為「進行中」的卡片移至特定欄。 如需欄原則的詳細資訊，請參閱[管理展示板欄](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)。)如果沒有原則或卡片不符合原則，卡片會放在展示板最左邊的欄中。 目前，舊版展示板上「待處理專案」欄中的卡片未新增至Workfront展示板。
 
-卡片不會從敏捷團隊Kanban面板中移除，卡片狀態變更將同步到兩個面板。 在準備切換至Workfront主機板之前，您可以讓兩個主機板都保持作用中。
+卡片未從敏捷團隊看板中移除，卡片狀態變更將同步到兩個看板。 在準備切換至Workfront主機板之前，您可以讓兩個主機板都保持作用中。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 

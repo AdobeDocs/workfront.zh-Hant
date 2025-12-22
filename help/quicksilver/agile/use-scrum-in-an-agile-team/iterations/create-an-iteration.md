@@ -2,24 +2,24 @@
 product-area: agile-and-teams
 navigation-topic: iterations
 title: 建立反複專案
-description: 反複專案是Scrum敏捷團隊規劃工作容量的關鍵元件。 [!DNL Adobe Workfront] 可讓Scrum敏捷團隊透過建立多個反複專案來因應團隊需求管理其工作。
+description: 反複專案是Scrum敏捷團隊規劃工作容量的關鍵元件。 [!DNL Adobe Workfront] 可讓Scrum Agile團隊透過建立多個反複專案來因應團隊需求管理他們的工作。
 author: Jenny
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1022'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 # 建立反複專案
 
-反複專案是Scrum敏捷團隊規劃工作容量的關鍵元件。 [!DNL Adobe Workfront]可讓Scrum敏捷團隊透過建立多個反複專案來適應團隊需求來管理其工作。
+反複專案是Scrum敏捷團隊規劃工作容量的關鍵元件。 [!DNL Adobe Workfront]可讓Scrum Agile團隊透過建立多個反複專案來管理其工作，以符合團隊需求。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -28,7 +28,7 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -62,11 +62,11 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 反複專案名稱]</strong></td> 
+      <td role="rowheader"><strong>[！UICONTROL反複專案名稱]</strong></td> 
       <td>輸入反複專案的名稱。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 目標]</strong></td> 
+      <td role="rowheader"><strong>[！UICONTROL目標]</strong></td> 
       <td>新增您對此反複專案擁有的任何目標。</td> 
      </tr> 
      <tr> 
@@ -78,11 +78,11 @@ ht-degree: 0%
       <td><p>輸入反複專案應該結束的日期。 [!DNL Workfront]建議將結束日期設定為從開始日期起的4週內。</p><p>提示：請務必選擇工作日作為結束日期。 待執行工作圖表在計算中僅使用工作日。<br>根據預設，待執行工作圖表會使用預設排程來定義工作日（如<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">建立排程</a>中所述）。 或者，為了合併團隊特定的非工作日，敏捷團隊可以選擇使用替代排程（如<a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">建立敏捷團隊</a>中「為待執行工作圖表定義替代團隊排程」中所述）。</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 容量]</strong></td> 
+      <td role="rowheader"><strong>[！UICONTROL容量]</strong></td> 
       <td> 指定反複專案的容量。 這是您的團隊在反複專案中能夠完成的點數或時數。 您輸入的數字必須等於或大於反複專案中所有劇本的總和中的點數或小時數。<br>[!DNL Workfront]預設會以50個容量預先填入此欄位。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 焦點]</strong></td> 
+      <td role="rowheader"><strong>[！UICONTROL焦點]</strong></td> 
       <td>指定團隊的焦點百分比。 如果團隊的所有成員將完全專注於此反複專案，則焦點將是100%。<br>[!DNL Workfront]預設會以100%預先填入此欄位。 </td> 
      </tr> 
     </tbody> 
@@ -114,7 +114,7 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 反複專案名稱]</strong></td> 
+      <td role="rowheader"><strong>[！UICONTROL反複專案名稱]</strong></td> 
       <td>指定反複專案的名稱。</td> 
      </tr> 
      <tr> 
@@ -122,19 +122,19 @@ ht-degree: 0%
       <td> 指定反複專案應該開始的日期。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 結束日期]</strong> </td> 
-      <td><p>指定反複專案應該結束的日期。 [!DNL Workfront]建議將結束日期設定為從開始日期起的4週內。</p><p>提示：請務必選擇工作日作為結束日期。 待執行工作圖表在計算中僅使用工作日。<br>根據預設，待執行工作圖表會使用預設排程來定義工作日（如<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">建立排程</a>中所述）。 或者，若要合併特定團隊的非工作日，敏捷團隊可以選擇使用替代排程（如<a href="../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md" class="MCXref xref">使用待執行工作表的替代團隊排程</a>中所述）。</p></td> 
+      <td role="rowheader"><strong>[！UICONTROL結束日期]</strong> </td> 
+      <td><p>指定反複專案應該結束的日期。 [!DNL Workfront]建議將結束日期設定為從開始日期起的4週內。</p><p>提示：請務必選擇工作日作為結束日期。 待執行工作圖表在計算中僅使用工作日。<br>根據預設，待執行工作圖表會使用預設排程來定義工作日（如<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">建立排程</a>中所述）。 或者，若要合併特定團隊的非工作日，敏捷團隊可以選擇使用替代排程（如<a href="../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md" class="MCXref xref">對待執行工作圖表使用替代團隊排程</a>中所述）。</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 焦點]</strong></td> 
+      <td role="rowheader"><strong>[！UICONTROL焦點]</strong></td> 
       <td>指定團隊的焦點百分比。 如果團隊的所有成員將完全專注於此反複專案，則焦點將是100%。<br>[!DNL Workfront]會使用您團隊過去反複專案的平均值預先填入此欄位。 如果這是您團隊的第一個反複專案，預設情況下此欄位值為0。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><br><strong>[!UICONTROL 容量]</strong></td> 
+      <td role="rowheader"><br><strong>[！UICONTROL容量]</strong></td> 
       <td> 指定反複專案的容量。 這是您的團隊在反複專案中能夠完成的點數或時數。 您輸入的數字必須等於或大於反複專案中所有劇本的總和中的點數或小時數。<br>[!DNL Workfront]會使用您團隊過去反複專案的平均值預先填入此欄位。 如果這是您團隊的第一個反複專案，預設情況下此欄位值為0。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><br><strong>[!UICONTROL 目標]</strong></td> 
+      <td role="rowheader"><br><strong>[！UICONTROL目標]</strong></td> 
       <td> 指定反複專案的目標。 此欄位不是必填欄位。</td> 
      </tr> 
     </tbody> 

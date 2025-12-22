@@ -6,10 +6,10 @@ description: Workfront管理員和擁有計畫或工作授權的使用者可以�
 author: Jenny
 feature: People Teams and Groups
 exl-id: b6761188-8630-446e-bc70-70fe272881ce
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '479'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -19,23 +19,23 @@ ht-degree: 0%
 
 您可以將使用者新增至專案團隊、設定專案團隊版面配置範本，以及設定當專案團隊完成工作專案時記錄狀態的方式。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront套件</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront 封裝</p> </td> 
    <td>任何</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td>
    <p>標準</p>
-   <p>工作或更高</p></td>
+   <p>工作或更高層級</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -77,7 +77,7 @@ ht-degree: 0%
 
      如需將自訂配置範本套用至團隊的詳細資訊，請參閱使用配置範本變更[!UICONTROL 我的工作]和[!UICONTROL 工作請求]區域中的「套用自訂範本至團隊」一節。
 
-   * 藉由選取&#x200B;**[!UICONTROL 這是敏捷團隊]**&#x200B;選項，決定此團隊是否為敏捷團隊。
+   * 決定此團隊是否為敏捷團隊，方法是選取&#x200B;**[!UICONTROL 這是敏捷團隊]**&#x200B;選項。
 
      如需有關敏捷團隊以及如何管理敏捷團隊內部工作的詳細資訊，請參閱[建立敏捷團隊](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)。
 

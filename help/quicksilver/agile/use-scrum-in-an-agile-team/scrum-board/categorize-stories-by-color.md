@@ -6,10 +6,10 @@ description: Scrum展示板內文的預設色彩關聯會依據內文展示板�
 author: Jenny
 feature: Agile
 exl-id: 8e351505-73d1-4c8f-b369-53c965b88c95
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '427'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 0%
 
 * **[!UICONTROL 專案]**：在專案上，任何子任務都與父任務的顏色相符，因此任何指定泳道中的所有劇本顏色都相同。 如果任務沒有任何子任務或沒有父任務，則在建立顏色時，顏色會隨機指派給任務。 您可以修改敏捷檢視來變更此預設行為。 專案中敏捷內文的顏色可以與父內文（預設）、內文優先順序、所有者或自由形式繫結。 如需詳細資訊，請參閱[中[!UICONTROL 檢視總覽中的]建立或自訂](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view)敏捷[檢視 [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -37,9 +37,9 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>新增：[!UICONTROL Standard]</p> 
+   <td> <p>新增：[！UICONTROL Standard]</p> 
    或
-   <p>目前： [!UICONTROL Work]或更高版本</p> </td> 
+   <p>目前： [！UICONTROL Work]或更高版本</p> </td> 
   </tr>
  </tbody> 
 </table>
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 ## 使用自由格式時變更內文的色彩
 
-如果敏捷團隊設定已設定為[!UICONTROL 將卡片顏色關聯至]選項設為[!UICONTROL 自由表單]，使用者可以手動變更個別本文圖磚的顏色。 這對於傳達對團隊或組織來說很重要的其他型別的資訊很有用：
+如果已設定Agile團隊設定，且[!UICONTROL 將卡片顏色關聯至]選項設定為[!UICONTROL 自由格式]，則使用者可以手動變更個別內文圖磚的顏色。 這對於傳達對團隊或組織來說很重要的其他型別的資訊很有用：
 
 {{step1-to-team}}
 

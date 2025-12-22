@@ -7,7 +7,7 @@ description: 如果您想要在敏捷故事板上使用自訂狀態，您的 [!D
 author: Jenny
 feature: Agile
 exl-id: dcf71cd0-da56-48e7-85bf-393f5cec3ae3
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '82'
 ht-degree: 0%

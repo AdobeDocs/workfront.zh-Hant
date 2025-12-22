@@ -6,10 +6,10 @@ description: 在Kanban板上檢視內文拼貼時，可以直接從內文拼貼�
 author: Jenny
 feature: Agile
 exl-id: 88d156ea-0913-425e-b3eb-6ae81d2d2336
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '466'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -37,17 +37,17 @@ ht-degree: 0%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>含有直接連結至專案的專案名稱<br>當在反複專案上使用敏捷檢視時，此連結只會顯示在內文上（父系任務，而非子任務）；當在專案上使用敏捷檢視時，不會顯示此連結。</p> </td> 
+   <td> <p>含有直接連結至專案的專案名稱<br>在反複專案上使用敏捷檢視時，此連結只會顯示在內文上（父系任務，而非子任務）；在專案上使用敏捷檢視時則不會顯示。</p> </td> 
    <td>✓ </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>內文的完成點數或小時數，以及指派給內文的點數或小時數<br>這些數字用於計算並顯示每個內文的[!UICONTROL 完成百分比]。</p> </td> 
+   <td> <p>內文的完成點數或小時數，以及指派給內文的點數或小時數<br>這些數字用於計算並顯示每個內文的[！UICONTROL完成百分比]。</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>每個內文和問題的[!UICONTROL 完成百分比]。<br>反複專案的[!UICONTROL 完成百分比]是根據每個內文的[!UICONTROL 完成百分比]計算的。</p> <p>更新內文或問題的[!UICONTROL 完成百分比]時，您可以選擇0到100之間的任何數字。</p> </td> 
+   <td> <p>每個內文和問題的[！UICONTROL完成百分比]。<br>反複專案的[！UICONTROL完成百分比]是根據每個內文的[！UICONTROL完成百分比]計算的。</p> <p>更新內文或問題的[！UICONTROL完成百分比]時，您可以選擇0到100之間的任何數字。</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -62,16 +62,16 @@ ht-degree: 0%
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>任何可能透過修改敏捷檢視而新增至敏捷檢視的其他欄位（包括自訂欄位），如[!UICONTROL Adobe Workfront]<a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">中</a>檢視總覽的「建立和自訂[!UICONTROL Agile]檢視」中所述。</p> </td> 
+   <td> <p>任何可能透過修改敏捷檢視而新增至敏捷檢視的其他欄位（包括自訂欄位），如[！UICONTROL Adobe Workfront]<a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">中</a>檢視總覽的「建立和自訂[！UICONTROL Agile]檢視」中所述。</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
  </tbody> 
 </table>
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -83,13 +83,13 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>新增：[!UICONTROL Standard]</p> 
+   <td> <p>新增：[！UICONTROL Standard]</p> 
    或
-   <p>目前： [!UICONTROL Work]或更高版本</p> </td> 
+   <p>目前： [！UICONTROL Work]或更高版本</p> </td> 
   </tr>
    <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td>[!UICONTROL Contribute]或[!UICONTROL Manage]任務或問題的存取權</td> 
+   <td>[！UICONTROL Contribute]或[！UICONTROL Manage]任務或問題的存取權</td> 
   </tr>
  </tbody> 
 </table>

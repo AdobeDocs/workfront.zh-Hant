@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-source-git-commit: f4c1f2170d826b4b6f1e8189e1fecc1edb6e0d97
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
-source-wordcount: '3231'
+source-wordcount: '3232'
 ht-degree: 0%
 
 ---
@@ -338,7 +338,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        看板</a>上可用的<a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">輸入資料行</p>
+                        看板<a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">上可用的</a>輸入資料行</p>
                         <p>您現在可以將輸入欄新增到展示板。 此欄會根據您定義的篩選器，自動將新增至Workfront中的任務和問題提取至展示板。</p>
                         <p>輸入欄可做為Kanban團隊的待處理欄、支援團隊檢視新增至請求佇列之問題的輸入位置，或您所需的任何其他目的。</p>
                         <p>展示板上只允許一個輸入欄。</p>
@@ -727,17 +727,17 @@ Workfront Fusion中的新功能可在22.4版發行排程之外的步調內用於
 
 針對API版本14，我們已修改一些資源和端點。 有些變更支援新功能，有些則讓您更輕鬆地透過API使用可用資訊。
 
-如需新增和更新的詳細資訊，請參閱[&#x200B; API 14](/help/quicksilver/wf-api/api/new-api-version-14.md)版的新增功能。
+如需新增和更新的詳細資訊，請參閱[ API 14](/help/quicksilver/wf-api/api/new-api-version-14.md)版的新增功能。
 
 如需API版本的資訊，請參閱[API版本設定與支援排程](/help/quicksilver/wf-api/api/api-version-support-schedule.md)。
 
 ### Workfront 維護更新
 
-如需22.3版期間維護更新的相關資訊，請參閱[Workfront維護更新](https://experienceleague.adobe.com/zh-hant/docs/workfront-known-issues/releases/current-updates)。
+如需22.3版期間維護更新的相關資訊，請參閱[Workfront維護更新](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)。
 
 ### 22.4版本網路研討會
 
-22.4版本網路研討會將於2022年9月22日星期四上午9:00 （太平洋夏令時間）舉行。 您可以[在此報名網路研討會](https://event.on24.com/wcc/r/3915365/9E496D02A98ECB8C86B1D2D09DDAA443?partnerref=prodmgt)。
+22.4版本網路研討會將於2022年9月22日星期四上午9:00 PDT舉行。 您可以[在此報名網路研討會](https://event.on24.com/wcc/r/3915365/9E496D02A98ECB8C86B1D2D09DDAA443?partnerref=prodmgt)。
 
 ### 訓練更新
 

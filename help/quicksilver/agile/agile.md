@@ -2,22 +2,22 @@
 content-type: reference
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
-title: 敏捷
+title: 敏捷：文章索引
 description: 請檢閱這些區域的文章，瞭解如何在Adobe Workfront中使用敏捷開發。
 author: Jenny
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: c9bce921-0aee-42ba-9d6d-dd855762dc76
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 2%
+source-wordcount: '104'
+ht-degree: 0%
 
 ---
 
-# 敏捷
+# 敏捷：文章索引
 
-[!DNL Adobe Workfront]提供數個工具，可協助您定義敏捷工作流程。 主機板是簡單但靈活的團隊合作工具。 舊版敏捷規劃工具包括待處理專案和Kanban或Scrum團隊的故事板。
+[!DNL Adobe Workfront]提供數個工具，協助您定義敏捷工作流程。 主機板是簡單但靈活的團隊合作工具。 舊版敏捷規劃工具包括待處理專案和Kanban或Scrum團隊的故事板。
 
 本節包含下列子章節：
 

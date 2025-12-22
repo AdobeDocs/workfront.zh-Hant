@@ -3,7 +3,7 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 7a29fcef1ee9a3010b7efc0713b5bbe9ca48b5cc
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '13634'
 ht-degree: 2%
@@ -1060,8 +1060,8 @@ ht-degree: 2%
       * [在工作流程展示板上設定待處理專案](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-backlog-workstream-board.md)
       * [檢閱反複專案量度](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)
    * [敏捷概覽](agile/agile-overview.md)
-   * 開始使用Adobe Workfront中的敏捷 {#agile-in-workfront}
-      * [開始使用Adobe Workfront中的敏捷](agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
+   * 開始使用Adobe Workfront中的Agile {#agile-in-workfront}
+      * [開始使用Adobe Workfront中的Agile](agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
       * [建立敏捷團隊](agile/get-started-with-agile-in-workfront/create-an-agile-team.md)
       * [設定Kanban](agile/get-started-with-agile-in-workfront/configure-kanban.md)
       * [設定Scrum](agile/get-started-with-agile-in-workfront/configure-scrum.md)
@@ -2530,9 +2530,9 @@ ht-degree: 2%
       * [使用JWT流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-jwt-flow.md)
       * [使用PKCE流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-pkce-flow.md)
       * [棄用API — 內部](wf-api/api/deprecation-api-internal.md)
-      * [&#x200B; API 21版的新增功能](/help/quicksilver/wf-api/api/new-api-version-21.md)
-      * [&#x200B; API 20版的新增功能](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [&#x200B; API 19版的新增功能](wf-api/api/new-api-version-19.md)
+      * [ API 21](/help/quicksilver/wf-api/api/new-api-version-21.md)版的新增功能
+      * [ API 20](/help/quicksilver/wf-api/api/new-api-version-20.md)版的新增功能
+      * [ API 19](wf-api/api/new-api-version-19.md)版的新增功能
       * [API 18版的新增功能](wf-api/api/new-api-version-18.md)
       * [API 17版的新增功能](wf-api/api/new-api-version-17.md)
       * [API 16版的新增功能](wf-api/api/new-api-version-16.md)

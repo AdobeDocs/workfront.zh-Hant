@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0897b269-c6f3-4b63-8956-b7f9fbe0a553
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '4718'
 ht-degree: 0%
@@ -252,7 +252,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
    <td><strong>在以下日期可用：</strong> <p>預覽版本： 2021年9月9日<br></p> <p>生產版本：第21.4發行版本</p> <p><strong>在以下環境中可用：</strong> </p> <p>全新Adobe Workfront體驗 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-agile-enhancements.md#changes" class="MCXref xref" xrefformat="{para}">專案上敏捷檢視的變更</a> </p> <p>在21.3版中，我們改良了敏捷卡片和故事板（請參閱<a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile" class="MCXref xref" xrefformat="{para}">敏捷卡片和故事板更新</a>）。 這些更新套用至疊代以及專案的敏捷檢視。</p> <p>在21.4版中，我們正在針對專案的敏捷檢視恢復這些增強功能。 未對敏捷反複專案進行任何變更。</p> <p>以下是關於專案的敏捷檢視正在還原的變更：</p> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-agile-enhancements.md#changes" class="MCXref xref" xrefformat="{para}">專案上敏捷檢視的變更</a> </p> <p>在21.3版中，我們改進敏捷卡片和故事板（請參閱<a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile" class="MCXref xref" xrefformat="{para}">敏捷卡片和故事板更新</a>）。 這些更新套用至疊代以及專案的敏捷檢視。</p> <p>在21.4版中，我們正在針對專案的敏捷檢視恢復這些增強功能。 未對敏捷反複專案進行任何變更。</p> <p>以下是關於專案上敏捷檢視的正在還原的變更：</p> 
     <ul> 
      <li> <p>故事卡和板欄的寬度可調整。</p> </li> 
      <li> <p>欄沒有背景陰影。</p> </li> 
@@ -443,13 +443,13 @@ Workfront Scenario Planner第21.4發行版本將推出新功能。 如需這些�
 
 針對API版本14，我們已修改一些資源和端點。 有些變更支援新功能，有些則讓您更輕鬆地透過API使用可用資訊。
 
-如需新增和更新的詳細資訊，請參閱[&#x200B; API 14](../../../wf-api/api/new-api-version-14.md)版的新增功能。
+如需新增和更新的詳細資訊，請參閱[ API 14](../../../wf-api/api/new-api-version-14.md)版的新增功能。
 
 如需API版本的資訊，請參閱[API版本設定與支援排程](../../../wf-api/api/api-version-support-schedule.md)。
 
 ## 21.4版本網路研討會
 
-Workfront 21.4版本網路研討會已於2021年9月23日推出。 您可以從Workfront One[&#128279;](https://one.workfront.com/s/event)上的活動頁面檢視網路研討會影片。
+Workfront 21.4版本網路研討會已於2021年9月23日推出。 您可以從Workfront One[上的](https://one.workfront.com/s/event)活動頁面檢視網路研討會影片。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

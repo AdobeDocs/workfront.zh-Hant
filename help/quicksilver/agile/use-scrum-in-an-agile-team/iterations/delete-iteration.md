@@ -2,20 +2,20 @@
 product-area: agile-and-teams
 navigation-topic: iterations
 title: 刪除反複專案
-description: 如果您不再需要您的敏捷團隊的疊代，您可以將其刪除。
+description: 如果您不再需要敏捷團隊的疊代，您可以將其刪除。
 author: Jenny
 feature: Agile
 exl-id: db7fbafd-9d22-4035-a130-60ec2e4ad347
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '175'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
 # 刪除反複專案
 
-如果您不再需要您的敏捷團隊的疊代，您可以將其刪除。
+如果您不再需要敏捷團隊的疊代，您可以將其刪除。
 
 當您刪除反複專案時，反複專案上的任何內文都會移至待處理專案。 這些任務和問題也保留在其專案中。
 
@@ -23,20 +23,20 @@ ht-degree: 0%
 >
 >您刪除的任何版序都無法復原。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <tbody> 
    <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td> <p>標準</p> 
-   <p>工作或更高</p> </td> 
+   <p>工作或更高層級</p> </td> 
   </tr>
    <tr> 
    <td role="rowheader">物件許可權</td> 

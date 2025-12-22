@@ -6,10 +6,10 @@ description: Adobe Workfront可讓敏捷團隊以漸進式、有條理的方式�
 author: Jenny
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '990'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -21,15 +21,15 @@ ht-degree: 1%
 
 組織中的任何使用者都可以檢視敏捷團隊並檢視團隊的所有敏捷元件，包括待處理專案、反複專案、劇本面板和個別劇本。 但是，只有具有[!UICONTROL 編輯]工作存取權的團隊成員才能變更指派給團隊的工作。
 
-[!DNL Workfront]支援下列敏捷方法：
+[!DNL Workfront]支援下列Agile方法：
 
 * **[!UICONTROL Scrum]**：團隊有需要完成的待處理工作。 當團隊準備好處理特定區塊的工作時，該工作會從待處理專案移至疊代。 如需有關管理Scrum團隊的詳細資訊，請參閱[敏捷團隊中的Scrum](../../agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md)。
 
 * **[!UICONTROL 看板]：**&#x200B;團隊在看板檢視中跨預先決定的狀態移動工作。 預設狀態為：待處理專案、處理中及完成。 如需有關管理Kanban團隊的詳細資訊，請參閱[敏捷團隊中的Kanban](../../agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,13 +38,13 @@ ht-degree: 1%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td> <p>標準</p>
-   <p>計畫建立新的敏捷團隊</p>
+   <p>規劃以建立新的敏捷團隊</p>
   <p>工作或更高以將團隊轉換為敏捷團隊</p> </td> 
   </tr> 
  </tbody> 
@@ -58,9 +58,9 @@ ht-degree: 1%
 
 您可以為敏捷團隊使用Scrum或Kanban敏捷方法。 每種方法都有各種優點。 敏捷團隊的工作方式決定了您選擇使用的敏捷方法。
 
-[!DNL Workfront]中的Scrum和Kanban敏捷方法都可讓您跨故事板移動故事，以指示故事的狀態變更和進度。
+[!DNL Workfront]中的Scrum和Kanban Agile方法都可讓您跨故事板移動故事，以指示故事的狀態變更和進度。
 
-[!DNL Workfront]中的Scrum和Kanban敏捷方法有下列差異：
+[!DNL Workfront]中的Scrum和Kanban Agile方法有下列差異：
 
 ### 在[!DNL Workfront]中使用看板的好處
 
@@ -68,13 +68,13 @@ ht-degree: 1%
 
 下列功能支援此方法：
 
-* 在[!DNL Kanban]敏捷劇本板上顯示待處理專案。
+* 在[!DNL Kanban]敏捷故事板上顯示待處理專案。
 如需詳細資訊，請參閱[將待處理專案新增至[!UICONTROL Kanban]展示板](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md)。
 
 * 設定待處理專案上的專案，以便在其他專案移至等同於完成的狀態時，自動新增至[!UICONTROL Kanban]敏捷故事板。
 如需詳細資訊，請參閱文章[設定Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5)中的[設定要自動從待處理專案新增的劇本](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)一節。
 
-* 設定要在[!UICONTROL Kanban]敏捷故事板上顯示的進行中工作(WIP)限制。
+* 設定要在[!UICONTROL Kanban]敏捷故事板上顯示的工作進行中(WIP)限制。
 如需詳細資訊，請參閱[在Kanban展示板上管理進行中的工作(WIP)限制](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md)。
 
 ### 在[!DNL Workfront]中使用Scrum的好處
@@ -106,32 +106,32 @@ ht-degree: 1%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 團隊名稱]</strong> </td> 
+      <td role="rowheader"><strong>[！UICONTROL團隊名稱]</strong> </td> 
       <td>輸入新敏捷團隊的名稱。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 這是敏捷團隊]</strong> </td> 
+      <td role="rowheader"><strong>[！UICONTROL這是敏捷團隊]</strong> </td> 
       <td>選取此選項可將此新團隊設定為敏捷團隊。</td> 
      </tr>
 
    <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 作用中]</strong> </td> 
+      <td role="rowheader"><strong>[！UICONTROL作用中]</strong> </td> 
       <td>選取此選項以啟動此團隊。 其他使用者看不到非作用中的團隊以指派給工作。 </td> 
      </tr>
 
 
    <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-      <td role="rowheader"><strong>[!UICONTROL 群組]</strong> </td> 
-      <td> <p>開始鍵入要加入團隊的群組名稱，然後在名稱出現在下拉式清單中時選取名稱。</p> <p><b>附註</b></p> <p> 將專案團隊指派給群組或子群組時，該群組或子群組的任何群組管理員都可以管理專案團隊，而無需成為專案團隊的成員。 群組管理員可以從[!UICONTROL 主功能表]前往[!UICONTROL 團隊]區域，然後按一下[!UICONTROL 切換團隊]箭頭<img src="assets/switch-team-icon.png" alt="切換群組圖示">，列出指派給其管理群組的所有團隊。</p> </td> 
+      <td role="rowheader"><strong>[！UICONTROL群組]</strong> </td> 
+      <td> <p>開始鍵入要加入團隊的群組名稱，然後在名稱出現在下拉式清單中時選取名稱。</p> <p><b>附註</b></p> <p> 將專案團隊指派給群組或子群組時，該群組或子群組的任何群組管理員都可以管理專案團隊，而無需成為專案團隊的成員。 群組管理員可以從[！UICONTROL主功能表]前往[！UICONTROL團隊]區域，然後按一下[！UICONTROL切換團隊]箭頭<img src="assets/switch-team-icon.png" alt="切換群組圖示">，列出指派給其管理群組的所有團隊。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 團隊成員]</strong> </td> 
+      <td role="rowheader"><strong>[！UICONTROL團隊成員]</strong> </td> 
       <td>開始輸入加入團隊的使用者名稱，然後在名稱出現在下拉式清單中時選取名稱。<br>重複此程式，將多位使用者新增至團隊。<br>由於使用者可以位於多個團隊中，因此他們可以同時位於敏捷和非敏捷團隊中。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 描述]</strong> </td> 
-      <td><p>輸入團隊的說明。</p> <p>選擇團隊時，說明會顯示在[!UICONTROL 團隊]區域的右上方。</p>
-      <p>如果說明很長，您可以按一下該說明，在快顯視窗中顯示完整說明。 如果您有權編輯[!UICONTROL 團隊設定]，也可以直接在快顯視窗中編輯說明。</p></td>
+      <td role="rowheader"><strong>[！UICONTROL描述]</strong> </td> 
+      <td><p>輸入團隊的說明。</p> <p>選擇團隊時，說明會顯示在[！UICONTROL團隊]區域的右上方。</p>
+      <p>如果說明很長，您可以按一下該說明，在快顯視窗中顯示完整說明。 如果您有權編輯[！UICONTROL團隊設定]，也可以直接在快顯視窗中編輯說明。</p></td>
      </tr> 
     </tbody> 
    </table>

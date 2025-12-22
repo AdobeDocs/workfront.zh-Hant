@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1021'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -46,22 +46,22 @@ ht-degree: 0%
 * 透過複製或複製現有任務。 如需詳細資訊，請參閱[複製和複製工作](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)。
 * 將任務從一個專案移動到另一個專案。 如需詳細資訊，請參閱[移動任務](../../../manage-work/tasks/manage-tasks/move-tasks.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td> <p>標準</p> 
-   <p>工作或更高</p> </td> 
+   <p>工作或更高層級</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -138,7 +138,7 @@ ht-degree: 0%
 
       或
 
-      若要更新工作的所有欄位，請按一下[其他選項] **&#x200B;**&#x200B;以開啟[建立工作] **方塊**。
+      若要更新工作的所有欄位，請按一下[其他選項] ****&#x200B;以開啟[建立工作] **方塊**。
 
       ![](assets/nwe-create-task-small-screen-350x272.png)
 

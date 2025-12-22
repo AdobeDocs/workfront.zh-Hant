@@ -5,10 +5,10 @@ author: Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: 648a36ce-5793-472f-9fee-9dedf71991ef
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '598'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 4%
 >* 群組管理員可以編輯團隊對其所管理之群組的設定。 如需詳細資訊，請參閱[建立和修改群組的團隊](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md)。
 >* 擁有Standard或Plan授權的使用者可以從團隊區域編輯團隊的設定。 如需詳細資訊，請參閱[編輯團隊設定](../../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -47,7 +47,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td>
+   <td>[！UICONTROL系統管理員]</td>
   </tr> 
  </tbody> 
 </table>

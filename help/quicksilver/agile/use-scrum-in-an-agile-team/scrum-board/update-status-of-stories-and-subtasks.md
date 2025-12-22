@@ -2,28 +2,28 @@
 product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: 在Scrum板上更新劇本和子任務的狀態
-description: 您可以直接從敏捷內文面板變更內文的狀態，以反映內文在疊代或專案中的進度。
+description: 您可以直接從「敏捷內文」面板變更內文的狀態，以反映內文在疊代或專案中的進度。
 author: Jenny
 feature: Agile
 exl-id: 3f414901-883c-45ac-b30a-60841e883e35
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '219'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
 # 更新[!UICONTROL Scrum]展示板上內文和子任務的狀態
 
-您可以直接從敏捷內文面板變更內文的狀態，以反映內文在疊代或專案中的進度。
+您可以直接從「敏捷內文」面板變更內文的狀態，以反映內文在疊代或專案中的進度。
 
 >[!NOTE]
 >
 >只有在[!UICONTROL Scrum]展示板和狀態下拉式功能表中團隊設定區域的[!UICONTROL 故事板]區段中選取的狀態，才可在Scrum展示板上使用。 如需詳細資訊，請參閱[設定Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -35,9 +35,9 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>新增：[!UICONTROL Standard]</p> 
+   <td> <p>新增：[！UICONTROL Standard]</p> 
    或
-   <p>目前： [!UICONTROL Work]或更高版本</p> </td> 
+   <p>目前： [！UICONTROL Work]或更高版本</p> </td> 
   </tr>
  </tbody> 
 </table>

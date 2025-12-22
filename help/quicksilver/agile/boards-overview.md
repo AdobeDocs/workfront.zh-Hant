@@ -7,7 +7,7 @@ description: Adobe Workfront展示板是彈性的工具，可讓團隊透過提�
 author: Jenny
 feature: Agile
 exl-id: 7382e338-3e4c-4a93-a0d4-87ef52f69f36
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 0%
@@ -36,4 +36,4 @@ ht-degree: 0%
 
 如需展示板功能的視訊逐步說明，請參閱[[!DNL Adobe Workfront] [!UICONTROL 展示板]視訊示範](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)。
 
-如需[!DNL Workfront]中其他敏捷工具的相關資訊，請參閱[敏捷總覽](../agile/agile-overview.md)。
+如需[!DNL Workfront]中其他Agile工具的相關資訊，請參閱[Agile總覽](../agile/agile-overview.md)。
