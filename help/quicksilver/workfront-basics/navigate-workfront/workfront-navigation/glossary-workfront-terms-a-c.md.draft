@@ -192,12 +192,12 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
   --> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td>Backlog</td> 
-    <td>The area in an agile environment where new issues are kept until they are ready to be worked on.</td> 
+    <td>The area in an Agile environment where new issues are kept until they are ready to be worked on.</td> 
    </tr>
   --> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td>Baseline</td> 
-    <td>A source of data to measure iterations against in an agile environment.</td> 
+    <td>A source of data to measure iterations against in an Agile environment.</td> 
    </tr>
   --> 
   <tr> 
