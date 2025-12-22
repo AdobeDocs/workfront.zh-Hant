@@ -318,7 +318,7 @@ Workfront版本編號代表每月和每季的版本追蹤。 第一個數字代�
 
 >[!IMPORTANT]
 >
->Workfront Fusion檔案已移至新位置。 如需Fusion的資訊、指示和發行版本，請造訪[Workfront Fusion檔案](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home)。
+>Workfront Fusion檔案已移至新位置。 如需Fusion的資訊、指示和發行版本，請造訪[Workfront Fusion檔案](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/home)。
 >
 >每篇目前的Fusion檔案文章都包含一個連結，指向新位置中對應的文章。 請更新您的書籤。
 >
@@ -352,7 +352,7 @@ Workfront Planning的新功能可在生產環境中使用。 如需最新功能�
 
 ### Workfront 維護更新
 
-如需2025年第二季期間所進行維護更新的相關資訊，請參閱[Workfront維護更新](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)。
+如需2025年第二季期間所進行維護更新的相關資訊，請參閱[Workfront維護更新](https://experienceleague.adobe.com/zh-hant/docs/workfront-known-issues/releases/current-updates)。
 
 ### 訓練更新
 

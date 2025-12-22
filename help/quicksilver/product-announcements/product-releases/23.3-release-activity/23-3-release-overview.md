@@ -768,7 +768,7 @@ Workfront Goals將在23.3發行時間範圍內發行的新功能。 如需這些
 
 ### Workfront 維護更新
 
-如需22.3版期間維護更新的相關資訊，請參閱[Workfront維護更新](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)。
+如需22.3版期間維護更新的相關資訊，請參閱[Workfront維護更新](https://experienceleague.adobe.com/zh-hant/docs/workfront-known-issues/releases/current-updates)。
 
 ### 訓練更新
 
