@@ -1,28 +1,18 @@
 ---
 title: 階層與階層連結概觀
-description: 您可以在工作區中的記錄型別之間建立多個工作區階層。
-hide: true
-hidefromtoc: true
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
-workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 0%
-
----
-
-<!--update the metadata with real information when making this available in TOC and in the left nav:
-
----
-title: Hierarchy and Breadcrumb Overview
-description: You can create multiple workspace hierarchies between the record types in a workspace. 
+description: 在連線記錄型別之後，您可以在工作區中的記錄型別之間建立多個工作區階層。
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-hide: yes 
-hidefromtoc: yes 
+source-git-commit: 34921b12ad902ba7390e4ea34825331280e7a8d6
+workflow-type: tm+mt
+source-wordcount: '1042'
+ht-degree: 0%
+
 ---
--->
+
+
 
 # 階層與階層連結概觀
 
@@ -30,7 +20,7 @@ hidefromtoc: yes
 
 <span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
-身為工作區管理員，您可以在Adobe Workfront Planning的記錄型別與其他物件型別之間，定義彈性但結構化的階層。
+身為工作區管理員，您可以在Adobe Workfront Planning中的連線記錄型別與其他物件型別之間，定義彈性但結構化的階層。
 
 階層是記錄型別之間的連線，或記錄型別與Workfront專案之間的連線。
 
@@ -45,7 +35,7 @@ hidefromtoc: yes
 
 ## 使用階層時的注意事項
 
-* 您可以為一個工作區建立多個階層。
+* 您最多可以為一個工作區建立5個階層。
 * 您最多可以在一個階層中連線4個記錄和物件型別。
 * 您只能在工作區階層中連線下列物件型別：
    * 記錄屬於您建立階層之工作區的型別。
@@ -60,6 +50,9 @@ hidefromtoc: yes
   * 如果選取的記錄型別之間已經存在連線，系統會重複使用現有的連線。
 * 如果沒有任何連線，Workfront會在階層設定中建立一個連線。
 * 對於要包含在階層中的記錄和物件型別，必須為連線的欄位開啟&#x200B;**在連結的記錄型別上建立對應的欄位**&#x200B;設定。
+* 如果記錄型別是階層的一部分，則無法刪除該記錄型別。
+* 如果欄位中參照的記錄型別是階層的一部分，則無法刪除連線欄位。 您必須先從階層中移除記錄型別或刪除階層，才能刪除記錄型別。
+* 您可以從連線的記錄型別中刪除查詢欄位。 無法復原欄位中的資訊。
 * 以下是階層設定的規則：
    * 在指定的工作區中，記錄型別只能有一個父記錄型別。
 
@@ -77,18 +70,22 @@ hidefromtoc: yes
    * 將全域記錄型別新增至多個工作區後，它們可能會出現在多個階層內的多個工作區中。
 
      例如，如果促銷活動是全域記錄型別，且屬於Workspace 1的階層，則可將其新增為Workspace 2的現有記錄型別，並成為該階層的一部分。 但是只有當在Workspace 1中指定為全域記錄型別，但未新增到Workspace 2時，它才能成為Workspace 2中階層的一部分。
+   * 當連線的記錄型別是階層的一部分時，您可以從子記錄型別連線一個記錄，到從父記錄型別連線最多10個記錄。
+
+     例如，如果您在作為父項的「行銷活動」與作為子項記錄的「角色」之間建立階層，則可以將相同的角色連線到最多10個行銷活動。
 
 ## 檢視階層連結時的注意事項
-
-<!-- this might be incomplete, because I have no UI for this yet-->
 
 當您在記錄型別之間建立階層時，它們會對屬於這些記錄型別的記錄產生階層連結。
 
 例如，如果您建立階層並連結「行銷活動」與「戰術」、「活動」，然後連結「專案」，當您導覽至階層中連線之任何型別的記錄時，您可以檢視記錄在該階層中的放置位置。
 
+![階層連結](assets/breadcrumbs-on-project.png)
+
 請考量下列事項：
 
 * 如果記錄型別是多個階層的一部分，您可以從記錄頁面上的記錄階層連結切換階層。
+* 如果階層中的記錄型別有多個記錄，您可以從階層連結中選取記錄。
 * 階層連結可跨Workfront和Planning運作。
 
   例如，檢視連結至Planning行銷活動和戰術以及Workfront產品組合和方案的專案時，您可以從階層連結在Planning和Workfront物件型別之間切換。

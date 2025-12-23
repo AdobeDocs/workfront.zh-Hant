@@ -1,30 +1,18 @@
 ---
 title: 建立Workspace階層
-description: 身為工作區管理員，您可以在Adobe Workfront Planning的記錄型別之間建立多個工作區階層。 在工作區中連線記錄型別並建立階層後，記錄型別會彼此連線，其中一個記錄型別指定為父項，而最多其他6個記錄型別設定為子項。
-hide: true
-hidefromtoc: true
-exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
-workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 1%
-
----
-
-<!--update the metadata with real information when making this available in TOC and in the left nav:
-
----
-title: Create Workspace Hierarchies
-description: You can create multiple workspace hierarchies between the record types in a workspace. 
+description: 身為工作區管理員，您可以在Adobe Workfront Planning的記錄型別之間建立多個工作區階層。 在工作區中連線記錄型別並建立階層後，記錄型別會彼此連線，其中一個記錄型別被指定為父項，而最多3個其他記錄型別被設定為子項。
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-hide: yes 
-hidefromtoc: yes 
+exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
+source-git-commit: 34921b12ad902ba7390e4ea34825331280e7a8d6
+workflow-type: tm+mt
+source-wordcount: '953'
+ht-degree: 1%
+
 ---
 
--->
 
 # 建立工作區階層
 
@@ -38,13 +26,11 @@ hidefromtoc: yes
 
 如果兩個記錄型別之間的連線尚未存在，則可在您設定階層時建立該連線。 定義之後，階層會跨工作區內的相關記錄型別建立結構化路徑。
 
-階層會針對記錄型別及其各自的記錄<!--ensure this is the case: does the breadcrumb show for both the RT and the record??-->產生階層連結，並顯示在它們的標題中。 如此一來，使用者就能在工作流程的任何階段知道自己在階層中的位置。
+階層會為其各自的記錄產生階層連結，並顯示在它們的標題中。 如此一來，使用者就能在工作流程的任何階段知道自己在階層中的位置。
 
 如需階層與階層連結的一般資訊，請參閱[階層與階層連結概觀](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)。
 
 ## 存取權要求
-
-<!--check the access to see if you oversimplified???-->
 
 +++ 展開以檢視存取需求，以執行本文中的步驟：  
 
@@ -85,6 +71,8 @@ hidefromtoc: yes
 
 ## 建立工作區階層
 
+您最多可以在一個工作區中建立5個階層。
+
 {#step1-to-planning}
 
 1. 按一下工作區卡片。
@@ -97,7 +85,7 @@ hidefromtoc: yes
 
    Workfront專案不能選取為階層中其他物件型別的父項。
 
-1. 按一下&#x200B;**新增物件**&#x200B;以新增第二個物件型別，這是階層中的第一個子系，然後在下拉式選單中選取另一個物件型別。
+1. 按一下&#x200B;**新增物件**以新增第二個物件型別，這是階層中的第一個子系，然後在下拉式選單中選取另一個物件型別。
 每個額外的物件型別都會成為先前物件型別的子系。
 
    ![未選取欄位的新階層方塊](assets/new-hierarchy-modal-without-connecte-fielf-selected.png)
@@ -107,13 +95,13 @@ hidefromtoc: yes
 
    或
 
-   按一下[新增連線]&#x200B;**&#x200B;**&#x200B;以新增連線欄位。
+   按一下[新增連線]****&#x200B;以新增連線欄位。
 
    這會根據您當作父項的記錄型別建立一個連線欄位，並根據您當作子項的記錄型別建立一個對應的連線欄位。
 
    如果您要建立與Workfront專案的連線，專案上不會建立任何欄位。
 
-1. （視條件而定）如果沒有可用的連線欄位，請按一下[建立連線] **並新增連線，然後按一下[儲存]**&#x200B;**。**
+1. （視條件而定）如果沒有可用的連線欄位，請按一下[建立連線] **並新增連線，然後按一下[儲存]****。**
 
 1. （視條件而定）如果您要新增連線，請執行下列動作：
 
@@ -135,7 +123,7 @@ hidefromtoc: yes
 
    1. 按一下「**儲存**」。
 
-1. （視條件而定）如果在建立連線的欄位時，未選取連結的記錄型別&#x200B;**上的**&#x200B;建立對應欄位，您將會收到錯誤訊息，必須先執行下列動作： <!--check back on these steps; this is supposed to be seamless, but now you have to abandon creating a hierarchy to do this-->
+1. （視條件而定）如果在建立連線的欄位時，未選取連結的記錄型別&#x200B;**上的**&#x200B;建立對應欄位，您會收到錯誤訊息，必須先執行下列動作： <!--check back on these steps; this is supposed to be seamless, but now you have to abandon creating a hierarchy to do this-->
 
    1. 在&#x200B;**新階層**&#x200B;方塊中按一下&#x200B;**取消**。
    1. 按一下工作區名稱左側的返回箭頭，然後按一下您要選擇作為父項的記錄型別的卡片。
@@ -155,6 +143,13 @@ hidefromtoc: yes
 
    * 階層已新增至工作區的&#x200B;**階層**&#x200B;區段。
    * 當您前往記錄的頁面時，填入連線欄位的記錄會顯示其階層連結中的所有連線。
+
+   >[!NOTE]
+   >
+   >您可以將子記錄型別的一個記錄連線到父記錄型別的最多10個記錄。
+   >
+   >如需詳細資訊，請參閱[階層與階層連結概觀](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)。
+
 1. （選用）暫留在階層上，然後按一下&#x200B;**更多**&#x200B;功能表。
 
    ![階層更多功能表已展開](assets/hierarchy-more-menu-expanded.png)
