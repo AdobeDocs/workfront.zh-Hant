@@ -5,7 +5,7 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 34921b12ad902ba7390e4ea34825331280e7a8d6
+source-git-commit: 98ef4a4f0a30dc90956132cb715393a29170d715
 workflow-type: tm+mt
 source-wordcount: '1042'
 ht-degree: 0%
@@ -46,8 +46,9 @@ ht-degree: 0%
    * AEM Assets。
 * 階層可同時包含Planning記錄型別和Workfront專案。
 
-      例如，您可以將具有規劃策略和Workfront專案的行銷活動記錄型別當做相同工作區階層中的子項。
-  * 如果選取的記錄型別之間已經存在連線，系統會重複使用現有的連線。
+  例如，您可以將具有規劃策略和Workfront專案的Campaign記錄型別當做相同工作區階層中的子項。
+
+* 如果選取的記錄型別之間已經存在連線，系統會重複使用現有的連線。
 * 如果沒有任何連線，Workfront會在階層設定中建立一個連線。
 * 對於要包含在階層中的記錄和物件型別，必須為連線的欄位開啟&#x200B;**在連結的記錄型別上建立對應的欄位**&#x200B;設定。
 * 如果記錄型別是階層的一部分，則無法刪除該記錄型別。

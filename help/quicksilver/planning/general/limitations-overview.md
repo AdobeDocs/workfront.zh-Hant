@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 34921b12ad902ba7390e4ea34825331280e7a8d6
+source-git-commit: 98ef4a4f0a30dc90956132cb715393a29170d715
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '523'
 ht-degree: 3%
 
 ---
@@ -54,7 +54,7 @@ Adobe Workfront Planning限制您可在執行個體中建立的物件數目。 �
 | 可與Planning物件共用的實體（使用者、角色、團隊、公司、群組）數目 | 100 |
 | <span class="preview">階層中的記錄型別數目</span> | 4 |
 | <span class="preview">工作區中的階層數目</span> | 5 |
-| <span class="preview">階層中一個子系的上層連線記錄數目</span> | 10 |
+| <span class="preview">階層內父記錄型別的記錄數（從子記錄型別連線至一個記錄）</span> | 10 |
 | 連線到多重選取連線型別中一個記錄的記錄數，<span class="preview">沒有在記錄之間設定階層</span> | 500 |
 
 *我們建議您不要有太多工作區，因為這些工作區可能會變得難以管理，而且您的工作流程可能太分散。
