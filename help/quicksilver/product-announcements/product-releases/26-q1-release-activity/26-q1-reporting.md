@@ -4,9 +4,9 @@ description: 2026年第一季度報告增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: bb07096ce69e7d52c9332b6f9d230440a03c5f59
+source-git-commit: ad16dfe737f33a7d1025d8cef00605595d0476c2
 workflow-type: tm+mt
-source-wordcount: '1009'
+source-wordcount: '933'
 ht-degree: 0%
 
 ---
@@ -151,16 +151,6 @@ KPI、表格或圖表報表建立後，您現在可以在畫布控制面板中�
 * 其他群組： ID
 * 其他角色： ID
 * 其他團隊： ID
-
-## 改善畫布儀表板中群組計數的顯示
-
->[!NOTE]
->
->預覽： 2025年11月6日
->生產快速發行： 2025年11月13日
->適用於所有人的生產： 2026年1月15日
-
-當表格報告有多個結果頁面且表格設定了分組時，表格現在會顯示目前頁面的記錄金額以及所有頁面的整體記錄計數。 例如，如果您的表格報表有7個群組，且第一頁顯示為3，則表格將顯示第3頁（共7頁）。
 
 
 ## 新護欄可縮短畫布儀表板中的載入時間
