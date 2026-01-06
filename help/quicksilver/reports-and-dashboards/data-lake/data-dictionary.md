@@ -7,9 +7,9 @@ description: 本頁包含有關Workfront Data Connect中資料結構和內容的
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 815bee06ce413005e362d2e38068d591696cad5b
+source-git-commit: c669086f5954f9e2cf850887f4100e53c0c3e716
 workflow-type: tm+mt
-source-wordcount: '8878'
+source-wordcount: '8904'
 ht-degree: 9%
 
 ---
@@ -42,14 +42,57 @@ ht-degree: 9%
 
 ## 實體關係圖
 
-Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅是由其個別值所定義，也是由其與其他物件的關係所定義。 下面的實體關係圖提供資料連線中物件關係的高階對應。 您可以使用下列連結來檢視和下載圖表：
+Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅是由其個別值所定義，也是由其與其他物件的關係所定義。
 
-[資料連線實體關係圖](/help/quicksilver/reports-and-dashboards/data-lake/assets/Workfront-data-lake_entity-relationship-diagram.pdf)
+下列實體關係圖(ERD)提供核心Workfront物件之資料連線中物件關係的高層級對應。
 
 >[!IMPORTANT]
 >
->提供的實體關聯圖(ERD)故意不完整，因為應用程式內的關聯性數目很高，導致完整的ERD無法讀取。<br>
->此圖表提供範例，說明如何使用下方[術語表格](#terminology-table)區段中Project表格中記錄的關聯性，將Project資料檢視的資料聯結至相鄰物件。 當專案物件關係瞭解此模式後，預計不需要完整ERD
+>圖表以單一物件為中心，不代表整個Workfront應用程式的完整實體關係圖表。<br>
+>這些圖表旨在提供如何使用關係將資料聯結到相鄰物件的範例。
+
+### 實體關係圖範例
+
++++ 展開以檢視範例圖表
+
+>[!TIP]
+>
+>若要檢視更詳細的圖表，請在影像上按一下滑鼠右鍵，然後選取&#x200B;**在新索引標籤中開啟影像**。
+
+
+### 指派
+
+![指派實體關係圖](assets/Assignment-centered-ERD.png)
+
+
+### 檔案和檔案核准
+
+![檔案和檔案核准實體關係圖](assets/Document-and-Document-Approvals-centered-ERD.png)
+
+### 小時與時程表
+
+![小時與時程表實體關係圖](assets/Hours-and-Timesheet-centered-ERD.png)
+
+
+### 問題
+
+![問題實體關係圖](assets/Issue-centered-ERD.png)
+
+### 專案
+
+![專案實體關係圖](assets/Project-centered-ERD.png)
+
+
+### 任務
+
+![任務實體關係圖](assets/Task-centered-ERD.png)
+
+
+### 使用者
+
+![使用者實體關係圖](assets/User-centered-ERD.png)
+
++++
 
 ## 日期型別
 
@@ -1665,15 +1708,15 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
 >
 >透過`enumClass`屬性識別記錄的型別。 下列是預期的型別： <br>
 ><ul><li>CONDITION_OPTASK</li>
->&gt;<li>CONDITION_PROJ</li>
->&gt;<li>CONDITION_TASK</li>
->&gt;<li>PRIORITY_OPTASK</li>
->&gt;<li>優先順序_專案</li>
->&gt;<li>PRIORITY_TASK</li>
->&gt;<li>SEVERITY_OPTASK</li>
->&gt;<li>STATUS_OPTASK</li>
->&gt;<li>STATUS_PROJ</li>
->&gt;<li>狀態任務</li></ul>
+&gt;<li>CONDITION_PROJ</li>
+&gt;<li>CONDITION_TASK</li>
+&gt;<li>PRIORITY_OPTASK</li>
+&gt;<li>優先順序_專案</li>
+&gt;<li>PRIORITY_TASK</li>
+&gt;<li>SEVERITY_OPTASK</li>
+&gt;<li>STATUS_OPTASK</li>
+&gt;<li>STATUS_PROJ</li>
+&gt;<li>狀態任務</li></ul>
 
 
 ### 文件
