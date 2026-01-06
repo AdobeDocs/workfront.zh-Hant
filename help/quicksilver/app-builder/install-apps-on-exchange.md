@@ -3,13 +3,13 @@ title: 從Adobe Exchange取得並安裝應用程式
 description: 客戶和合作夥伴可以利用由 Adobe App Builder 提供技術支援的 Workfront UI 擴充功能，建立自訂使用者體驗。
 author: Courtney
 feature: Digital Content and Documents
-source-git-commit: 0a90da6978fc9b380d237dab74af1f14eabb857a
+exl-id: acbbd926-ca8f-4374-b1b3-297292b173bc
+source-git-commit: 92d4cd209a4e40f80420a3aebb116077cd2141a8
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1277'
 ht-degree: 1%
 
 ---
-
 
 # 從Adobe Exchange取得並安裝應用程式
 
@@ -27,7 +27,7 @@ Workfront合作夥伴可運用Workfront UI擴充功能，這是一個功能強�
 
 #### 即時結果，直接在Adobe Workfront中
 
-我們與Adobe Workfront客戶合作，將日常瓶頸轉化為可重複的解決方案，並提供可預見的成果。 我們不斷擴充的解決方案庫，能協助您運用人們工作地點的即時資料，提高準確性、速度及責任感。 您可以協助主管瞭解目前的情況，並規劃接下來該發生的情況。 探索目前可用且可立即安裝的AtAppStore Adobe Exchange應用程式，然後選擇符合您目前優先順序的應用程式，然後隨著您的需求成長進行擴充。
+AtApp與Adobe Workfront客戶合作，將日常瓶頸轉化為可重複的解決方案，並提供可預見的成果。 其不斷成長的解決方案資料庫可運用人們工作地點的即時資料，協助提高準確性、速度及問責性。 AtApp可讓領導檢視目前的情況，並規劃後續的情況。 使用者可以探索目前可用且可立即安裝的AtAppStore Adobe Exchange應用程式、選取符合其目前優先順序的應用程式，並隨著需求成長進行擴充。
 
 * [Excel Updater](https://exchange.adobe.com/apps/ec/abtt1rq7o9/atapp-excel-updater)： Excel Updater解決方案可讓您以符合成本效益的方式將資料整合至Workfront，而不需要學習API、撰寫程式碼或設定伺服器，非常適合用於單次和重複性的資料載入。
 
@@ -37,15 +37,31 @@ Workfront合作夥伴可運用Workfront UI擴充功能，這是一個功能強�
 
 ### 工作焦點
 
-Workfocus為Workfront提供進階自動化和整合解決方案。 他們的應用程式著重於：
+WorkFocus是Adobe金牌解決方案合作夥伴，專門負責Adobe Workfront、Workfront Fusion、Workfront Planning、Firefly、AEM Assets和企業自動化。 我們建立由我們的專屬FCoE應用程式支援的Fusion Center of Excellence (FCoE)，協助組織以負責任的方式擴充自動化作業。
 
-* 簡化時間表
+#### Fusion Center of Excellence (FCoE)應用程式
 
-* 自動化融合工作流程
+WorkFocus Fusion Center of Excellence應用程式可讓組織在整個企業內控管、擴展Adobe Workfront Fusion並最大化其價值。
 
-* 啟用跨執行個體共同作業
+許多團隊都在努力應對零散的Fusion案例、對自動化所有權和價值的瞭解有限、不一致的標準以及自動化蔓延等問題。 FCoE應用程式為Fusion自動化提供了中央記錄系統，解決了這些難題。
 
-Workfocus應用程式是專為在Workfront中以原生方式運作而設計，可運用UI擴充功能為使用者提供強大的工具，以提高生產力並減少手動工作。
+主要功能包括：
+
+* Fusion案例的集中控管與所有權
+* 從接收到支援的案例生命週期管理
+* ROI和價值實現追蹤
+* 企業級標準、檔案和錯誤處理
+* 適合企業採用的可擴充作業模式
+
+如此一來，Fusion可加快實現價值的時間、降低風險，並帶來可衡量的業務影響。
+
+#### 開始使用WorkFocus
+
+WorkFocus團隊邀請組織排程自訂的Fusion Center of Excellence展示，並設定應用程式的免費試用。
+
+展望未來，藍圖包括於2026年推出Workfront卓越核心中心及Workfront卓越規劃中心。 透過成為Fusion Center of Excellence的客戶，組織便有機會影響這些即將推出的解決方案的藍圖，並協助塑造企業Workfront治理的未來。
+
+WorkFocus渴望討論如何成為Workfront、Workfront Fusion、Workfront Planning、Firefly、AEM Assets和端對端內容Supply chain的戰略合作夥伴。
 
 ## 必要條件和許可權
 
