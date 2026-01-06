@@ -3,7 +3,7 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 644b27b1cab7b7a4e94a28c82387de056dfe34a0
 workflow-type: tm+mt
 source-wordcount: '13634'
 ht-degree: 2%
@@ -1493,7 +1493,7 @@ ht-degree: 2%
          * [建立及提交請求](manage-work/requests/create-requests/create-submit-requests.md)
          * [從草稿建立請求](manage-work/requests/create-requests/create-requests-from-drafts.md)
          * [讓使用者透過電子郵件將問題傳送到請求佇列專案](manage-work/requests/create-requests/enable-email-issues-into-projects.md)
-         * [找出已提交的請求](manage-work/requests/create-requests/locate-submitted-requests.md)
+         * [檢視已提交的請求](manage-work/requests/create-requests/locate-submitted-requests.md)
          * [分享請求佇列的連結](manage-work/requests/create-requests/share-link-to-request-queue.md)
          * [刪除提交的請求或請求草稿](manage-work/requests/create-requests/delete-request-draft.md)
          * [複製並提交請求](manage-work/requests/create-requests/copy-and-submit-requests.md)
@@ -2087,7 +2087,7 @@ ht-degree: 2%
       * [自訂Adobe Workfront目標術語](workfront-goals/workfront-goals-settings/customize-wf-goals-terminology.md)
       * [在Workfront目標中共用目標](workfront-goals/workfront-goals-settings/share-a-goal.md)
       * [啟用Adobe Workfront目標通知](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
-* Adobe Workfront規劃 {#adobe-workfront-planning}
+* Adobe Workfront 規劃 {#adobe-workfront-planning}
    * [Adobe Workfront Planning的一般資訊](planning/planning-information.md)
    * Adobe Workfront規劃一般資訊 {#adobe-workfront-planning-general-information}
       * [Adobe Workfront Planning一般資訊：文章索引](planning/general/planning-general-article-index.md)
@@ -2530,9 +2530,9 @@ ht-degree: 2%
       * [使用JWT流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-jwt-flow.md)
       * [使用PKCE流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-pkce-flow.md)
       * [棄用API — 內部](wf-api/api/deprecation-api-internal.md)
-      * [&#x200B; API 21版的新增功能](/help/quicksilver/wf-api/api/new-api-version-21.md)
-      * [&#x200B; API 20版的新增功能](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [&#x200B; API 19版的新增功能](wf-api/api/new-api-version-19.md)
+      * [ API 21](/help/quicksilver/wf-api/api/new-api-version-21.md)版的新增功能
+      * [ API 20](/help/quicksilver/wf-api/api/new-api-version-20.md)版的新增功能
+      * [ API 19](wf-api/api/new-api-version-19.md)版的新增功能
       * [API 18版的新增功能](wf-api/api/new-api-version-18.md)
       * [API 17版的新增功能](wf-api/api/new-api-version-17.md)
       * [API 16版的新增功能](wf-api/api/new-api-version-16.md)
