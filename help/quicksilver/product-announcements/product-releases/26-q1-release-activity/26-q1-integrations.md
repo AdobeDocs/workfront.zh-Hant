@@ -4,9 +4,9 @@ description: 2026年第一季度整合增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d0434e500daa257ec9070c5bb0279eb30545f64d
+source-git-commit: 353b71e59fc2dc2e1f806a560f04076586a32424
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
@@ -42,19 +42,23 @@ ht-degree: 0%
 
 我們已升級Adobe Workfront中用於Experience Manager Assets整合的資產選擇器。 透過此升級，您現在可以選取AEM集合，並將其直接提取至Workfront。
 
-## 新版Salesforce整合現已推出
+<!--
+
+## New version of Salesforce integration now available
 
 >[!IMPORTANT]
 >
->為了提供更穩定且更可擴充的整合，我們改用現代、彈性的整合方法，即使用Workfront自動化與整合(Fusion)。 在此轉換過程中，適用於Salesforce整合的Workfront （包括新版本）將於&#x200B;**2026年2月28日**&#x200B;後無法使用。
+>To deliver more stable and scalable integrations, we're shifting to a modern, flexible integration approach using Workfront Automation and Integration (Fusion). As part of this transition process, the Workfront for Salesforce integration, including the new version, will not be available after **February 28, 2026**. 
 
 >[!NOTE]
 >
->預覽： 2025年10月30日
->生產快速發行： 2025年10月30日\
->適用於所有人的生產： 2025年10月30日
+>Preview: October 30, 2025 
+>Production fast release: October 30, 2025  
+>Production for everyone: October 30, 2025  
 
-為了掌握Workfront API的最新變更，我們已建立新的Salesforce整合。 新的整合與舊版具有相同的功能，並更新以避免失去API中已棄用的功能。
+To stay up-to-date with recent changes to the Workfront API, we've created a new Salesforce integration. The new integration features the same functionality as the previous version, and was updated to avoid losing functionality deprecated in the API.
 
-如需下載和安裝新整合的指示和連結，請參閱[安裝Salesforce適用的Adobe Workfront](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md)。
+For instructions and links for downloading and installing the new integration, see [Install Adobe Workfront for Salesforce](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md).
+
+-->
 
