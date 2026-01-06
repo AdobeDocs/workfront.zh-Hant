@@ -1,35 +1,37 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: 找出已提交的請求
-description: 瞭解Adobe Workfront的區域，您可在此找到您或其他人提交的請求，或您從未提交且已儲存為草稿的請求。
+title: 檢視已提交的請求
+description: 瞭解Adobe Workfront的區域，您可在此檢視您或其他人提交的請求，或您從未提交且已儲存為草稿的請求。
 author: Becky
 feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 9ea9f5741794641409d47ada006e3b9b78025cbd
+source-git-commit: b0060470156728a7ad98838378a7d963e2b5fd01
 workflow-type: tm+mt
-source-wordcount: '1309'
-ht-degree: 2%
+source-wordcount: '1406'
+ht-degree: 3%
 
 ---
 
-# 找出已提交的請求
+# 檢視已提交的請求
 
 <span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽Sandbox」環境中使用。</span>
 
-您可以找到以下您或其他人提交的請求型別，或您已開始但您從未完成提交的請求。 您可以在Adobe Workfront的下列區域中找到這些請求：
+您可以檢視您或其他人提交的請求，或檢視您已開始但從未完成提交的請求。 您可以在Adobe Workfront的下列區域中找到這些請求：
 
-* Workfront中「請求」區域的&#x200B;**Workfront**&#x200B;索引標籤：在下列區段中找出提交至Workfront請求佇列的請求：
+* Workfront中「請求」區域的&#x200B;**Workfront**&#x200B;標籤：檢視提交至Workfront請求佇列的請求，其位於下列區段中：
    * **已提交區段**：您或其他人已提交且您至少有權存取檢視的所有要求。
    * **草稿區段** ：所有您已開始但您未完成且您未提交的請求。 如需草稿要求的詳細資訊，請參閱[建立並提交Adobe Workfront要求](../../../manage-work/requests/create-requests/create-submit-requests.md)。
 
-  >[!TIP]
+  >[!NOTE]
   >
-  >您只能檢視自己的草稿要求。
+  >* 您只能檢視自己的草稿要求。
+  >* <span class="preview">在新請求體驗中，提交的請求和草稿可在相同清單中找到。</span>
+  >* <span class="preview">在舊版體驗中建立的草稿未出現在新的請求體驗中。</span>
 
-* Workfront中請求區域的&#x200B;**規劃**&#x200B;標籤：找出提交至Workfront規劃請求表單的請求。 貴組織必須購買Workfront Planning套件。 如需詳細資訊，請參閱下列文章：
+* Workfront中請求區域的&#x200B;**規劃**&#x200B;標籤：檢視提交至Workfront規劃請求表單的請求。 貴組織必須購買Workfront Planning套件。 如需詳細資訊，請參閱下列文章：
 
    * [在Adobe Workfront Planning中建立和管理請求表單](/help/quicksilver/planning/requests/create-request-form.md)
    * [提交Adobe Workfront Planning請求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)
@@ -72,18 +74,18 @@ ht-degree: 2%
 
 +++
 
-## 在請求區域中找出已提交的請求
+## 在請求區域中檢視已提交的請求
 
-根據您使用新請求體驗還是舊請求體驗，找到已提交的請求會有所不同。
+檢視已提交的請求會因您使用新請求體驗或舊請求體驗而有所不同。
 
-* [在新請求體驗中找到已提交的請求](#locate-submitted-requests-in-the-new-requesting-experience)
-* [在舊版請求體驗中找出已提交的請求](#locate-submitted-requests-in-the-legacy-requesting-experience)
+* [在新的請求體驗中檢視已提交的請求](#view-submitted-requests-in-the-new-requesting-experience)
+* [在舊版請求體驗中檢視已提交的請求](#view-submitted-requests-in-the-legacy-requesting-experience)
 
-### 在新請求體驗中找到已提交的請求
+### 在新的請求體驗中檢視已提交的請求
 
-您可以在[要求]區域中找到已提交的要求，<span class="preview">其中包含這些要求所建立之物件的連結。</span>
+您可以在[要求]區域中檢視已提交的要求，<span class="preview">其中包含這些要求所建立之物件的連結。</span>
 
-若要找出您或其他使用者已在新請求體驗中提交的請求：
+若要檢視您或其他使用者在新請求體驗中提交的請求：
 
 {{step1-to-requests}}
 
@@ -92,7 +94,7 @@ ht-degree: 2%
    此時會出現「要求」清單。
 
 1. （選用）若要搜尋請求，請開始在清單右上角的搜尋列中輸入。 搜尋結果會在您輸入時顯示。
-1. （選擇性）按一下&#x200B;**篩選器**，然後開始為您要尋找的請求新增條件。
+1. （選擇性）按一下&#x200B;**篩選器**，然後開始為您要顯示的要求新增條件。
 
    您可以依下列欄位進行篩選：
 
@@ -103,20 +105,28 @@ ht-degree: 2%
    * **狀態**：要求的狀態。
    * **輸入者**：新增請求的使用者名稱。 如果要求是由Workfront外部的人員加入，則&#x200B;**輸入者**&#x200B;欄位會顯示`N/A`。
 
-   您可以有多個&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;加入的篩選器。
+   您可以有多個&#x200B;**And**&#x200B;或&#x200B;**Or**加入的篩選器。
 當您新增篩選條件時，要求清單會自動篩選。
-1. （選用）使用檢視來著重處理您要尋找的請求。
+1. （選用）使用檢視來著重於您要顯示的請求。
 
    如需指示，請參閱[在要求區域](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)中建立或編輯檢視。
+1. （選擇性）核取狀態列以檢查要求的狀態。 新的請求體驗中有以下狀態：
+
+   * 草稿：此請求尚未提交。
+   * 待處理的評論
+   * 稽核中
+   * 已拒絕
+   * 進行中
+   * 完成
 
 >[!NOTE]
 >
 >* 如果您有Workfront Planning，您的Workfront和Planning請求會出現在相同的清單中。 Workfront要求會在「物件型別」欄中顯示值`Issue`。
 >* 此時會顯示「請求」清單，其中顯示50個請求。 若要檢視更多請求，請捲動至清單底部。
 
-### 在舊版請求體驗中找出已提交的請求
+### 在舊版請求體驗中檢視已提交的請求
 
-若要在舊版請求體驗中找出您或其他使用者已提交的請求：
+若要檢視您或其他使用者在舊版請求體驗中提交的請求：
 
 {{step1-to-requests}}
 
@@ -253,5 +263,12 @@ ht-degree: 2%
    ![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
 
    如需詳細資訊，請參閱[提交Adobe Workfront Planning要求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)。
+
+
+1. （選擇性）核取狀態列以檢查要求的狀態。 新的請求體驗中有以下狀態：
+
+   * 草稿：此請求尚未提交。
+   * 進行中
+   * 完成
 
 
