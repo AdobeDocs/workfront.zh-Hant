@@ -4,9 +4,9 @@ description: 2026年第一季要求增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
+source-git-commit: 319c45bc6617269f358af1e7b5f6132a8694710b
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '904'
 ht-degree: 0%
 
 ---
@@ -125,8 +125,6 @@ For more information on creating views for the Request list and My Requests widg
 為了更方便建立及提交請求，我們已新增將草稿儲存至新請求體驗的功能。 現在，當您開始填寫並關閉請求時，請求會以草稿狀態儲存，並可在用於建立草稿的請求表單中找到。 之後，您可隨時重新開啟、更新及提交草稿。
 
 以前，此功能在新的請求體驗中無法使用。
-
-舊版請求體驗中建立的草稿可在新請求體驗中取得。
 
 如需請求草稿的詳細資訊，請參閱[從草稿建立請求](/help/quicksilver/manage-work/requests/create-requests/create-requests-from-drafts.md)。
 
