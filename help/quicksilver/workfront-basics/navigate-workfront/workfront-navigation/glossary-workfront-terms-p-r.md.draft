@@ -11,11 +11,11 @@ hidefromtoc: true
 
 >[!IMPORTANT]
 >
->This article should be used as a reference to understand the terms that you may encounter in the Adobe Workfront application or in the Workfront documentation. We are currently&nbsp;updating this information and as a result this table might not be complete. We will remove this disclaimer when we consider this information exhaustive.&nbsp;
+>This article should be used as a reference to understand the terms that you may encounter in the Adobe Workfront application or in the Workfront documentation. We are currently  updating this information and as a result this table might not be complete. We will remove this disclaimer when we consider this information exhaustive.  
 
 For the full glossary, see [Glossary of Workfront terms](../../../workfront-basics/navigate-workfront/workfront-navigation/glossary-of-workfront-terms.md).
 
-The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&nbsp;
+The following table is a list of commonly used terms in Adobe Workfront:    
 
 [P](#p)
 
@@ -37,7 +37,7 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
  <tbody> 
   <tr> 
    <td> <p>Parameter</p> </td> 
-   <td> <p>A parameter is a custom field. You can build a report for all parameters, or custom fields in your system.&nbsp;</p> </td> 
+   <td> <p>A parameter is a custom field. You can build a report for all parameters, or custom fields in your system.  </p> </td> 
   </tr> 
   <tr> 
    <td>Parent Lag</td> 
@@ -80,8 +80,8 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
   </tr> 
   <tr> 
    <td>Planned</td> 
-   <td> <p>The time frame within which something is scheduled to occur. When you create projects, tasks, or issues in&nbsp;Workfront, you establish the planned start and end dates, as well as the planned timeframe during which they occur. These values represent your original intention or estimate of how long a work time should take to complete. </p> <!--
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The timestamp used to baseline task KPIs (NOTE: from&nbsp;Luke: From Taxonomy)</p>
+   <td> <p>The time frame within which something is scheduled to occur. When you create projects, tasks, or issues in  Workfront, you establish the planned start and end dates, as well as the planned timeframe during which they occur. These values represent your original intention or estimate of how long a work time should take to complete. </p> <!--
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The timestamp used to baseline task KPIs (NOTE: from  Luke: From Taxonomy)</p>
     --> </td> 
   </tr> 
   <tr> 
@@ -94,37 +94,37 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
   </tr> 
   <tr> 
    <td> <p>Planned Completion Date</p> </td> 
-   <td> <p>You can manually set the Planned Completion Date to a date of your choosing. If you do not set the Planned Completion Date, Workfront&nbsp;sets it automatically. When set automatically, the Planned Completion Date is:&nbsp;Planned Start Date + Duration</p> <p>For more information, see <a href="../../../manage-work/projects/planning-a-project/project-planned-completion-date.md" class="MCXref xref">Set the project Planned Completion Date</a>.</p> </td> 
+   <td> <p>You can manually set the Planned Completion Date to a date of your choosing. If you do not set the Planned Completion Date, Workfront  sets it automatically. When set automatically, the Planned Completion Date is:  Planned Start Date + Duration</p> <p>For more information, see <a href="../../../manage-work/projects/planning-a-project/project-planned-completion-date.md" class="MCXref xref">Set the project Planned Completion Date</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Planned Cost</p> </td> 
-   <td> <p>A total of the Planned Labor Cost&nbsp;and the Planned Expense Cost of the project. This does not include the Planned Risk Cost on the project.&nbsp;&nbsp;</p> </td> 
+   <td> <p>A total of the Planned Labor Cost  and the Planned Expense Cost of the project. This does not include the Planned Risk Cost on the project.    </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Planned Duration</p> </td> 
-   <td> <p>A task's Planned Duration is usually the same as the task's Duration. It represents the difference in days between the Planned Start and the Planned Completion Dates of the task.&nbsp;</p> <p>When the task has a Duration Type of Effort Driven, the Planned Duration can differ from the Duration of the task, based on how many resources you assign to the task.&nbsp;</p> <p>For example, if a task with a Duration Type of Effort Driven has a Duration of 3 days and you assign one resource with a full time schedule to the task, the Planned Duration is 3 days, as well. If you assign three resources with a full time schedule to the same task, the Duration stays 3 days, but the Planned Duration becomes 1 day. The Planned Duration also changes the Planned Start and Planned Completion dates of the task, to reflect the new Planned Duration. As a result, the timeline of the project is affected as well.&nbsp;</p> <p>For more information about the difference between Duration and Planned Duration for tasks, see the article <a href="../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md" class="MCXref xref">Difference between Planned Duration and Duration for tasks</a>.</p> <p>Projects and issues don't have a Planned Duration.&nbsp;</p> </td> 
+   <td> <p>A task's Planned Duration is usually the same as the task's Duration. It represents the difference in days between the Planned Start and the Planned Completion Dates of the task.  </p> <p>When the task has a Duration Type of Effort Driven, the Planned Duration can differ from the Duration of the task, based on how many resources you assign to the task.  </p> <p>For example, if a task with a Duration Type of Effort Driven has a Duration of 3 days and you assign one resource with a full time schedule to the task, the Planned Duration is 3 days, as well. If you assign three resources with a full time schedule to the same task, the Duration stays 3 days, but the Planned Duration becomes 1 day. The Planned Duration also changes the Planned Start and Planned Completion dates of the task, to reflect the new Planned Duration. As a result, the timeline of the project is affected as well.  </p> <p>For more information about the difference between Duration and Planned Duration for tasks, see the article <a href="../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md" class="MCXref xref">Difference between Planned Duration and Duration for tasks</a>.</p> <p>Projects and issues don't have a Planned Duration.  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Planned Duration Minutes</p> </td> 
-   <td> <p>The Planned Duration Minutes of a project or an issue is the Duration of the project or issue in minutes.&nbsp;</p> <p>Tasks don't have a Planned Duration Minutes field.&nbsp;</p> <p>Template Tasks have a Planned Duration Minutes field which displays the Planned Duration of the task in minutes.&nbsp;</p> </td> 
+   <td> <p>The Planned Duration Minutes of a project or an issue is the Duration of the project or issue in minutes.  </p> <p>Tasks don't have a Planned Duration Minutes field.  </p> <p>Template Tasks have a Planned Duration Minutes field which displays the Planned Duration of the task in minutes.  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Planned Expense Cost</p> </td> 
-   <td> <p>Total&nbsp;of the Planned Amounts&nbsp;of all the expenses on a project or a task.</p> </td> 
+   <td> <p>Total  of the Planned Amounts  of all the expenses on a project or a task.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Planned Hours</p> </td> 
-   <td> <p>This field appears on projects, tasks, and issues.&nbsp;</p> <p>It shows the amount of hours that the Project Owner estimates that each task or issue should take to complete. </p> <p>For tasks, you can manually update this field when the Duration Type of the task is Calculated Assignment. This field is calculated by Workfront when the Duration Type of the task is Calculated Work, Effort Driven, or Simple.<br>For information about Task Duration, see the article <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>.<br>Planned Hours are distributed equally to all the days within the duration of each task. They are stored in minutes in the Workfront database.<br></p> <p>Workfront calculates the Planned Hours of a Project by adding all Planned Hours from all the tasks on the project. </p> <p>You can manually update this field for Issues.&nbsp;Issue Planned Hours are not added to the Project Planned Hours.&nbsp;</p> <p>For information about Planned Hours, see <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Planned Hours overview</a>.</p> <!--
+   <td> <p>This field appears on projects, tasks, and issues.  </p> <p>It shows the amount of hours that the Project Owner estimates that each task or issue should take to complete. </p> <p>For tasks, you can manually update this field when the Duration Type of the task is Calculated Assignment. This field is calculated by Workfront when the Duration Type of the task is Calculated Work, Effort Driven, or Simple.<br>For information about Task Duration, see the article <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>.<br>Planned Hours are distributed equally to all the days within the duration of each task. They are stored in minutes in the Workfront database.<br></p> <p>Workfront calculates the Planned Hours of a Project by adding all Planned Hours from all the tasks on the project. </p> <p>You can manually update this field for Issues.  Issue Planned Hours are not added to the Project Planned Hours.  </p> <p>For information about Planned Hours, see <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Planned Hours overview</a>.</p> <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">A baseline measurement for task KPI and a communication tool for the resource managers (NOTE: From Taxonomy) </p>
     --> </td> 
   </tr> 
   <tr> 
    <td> <p>Planned Labor Cost</p> </td> 
-   <td> <p>For a task, the hourly rate of the user or role multiplied by the number of hours assigned to the user or role.&nbsp;</p> <p>For a project, it is a total of all Planned Labor Costs of all the tasks.&nbsp;&nbsp;</p> <p>Whether the rate of the user or role is used depends on the Cost Type that is selected for the given task. </p> <p>For more information, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>.</p> </td> 
+   <td> <p>For a task, the hourly rate of the user or role multiplied by the number of hours assigned to the user or role.  </p> <p>For a project, it is a total of all Planned Labor Costs of all the tasks.    </p> <p>Whether the rate of the user or role is used depends on the Cost Type that is selected for the given task. </p> <p>For more information, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Planned Revenue</td> 
-   <td> <p>The Planned Revenue of a project or a task is the amount of money associated with the Planned Hours of the project or the task. </p> <p>For information about tracking revenue in&nbsp;Workfront see <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overview of Billing and Revenue</a>. </p> </td> 
+   <td> <p>The Planned Revenue of a project or a task is the amount of money associated with the Planned Hours of the project or the task. </p> <p>For information about tracking revenue in  Workfront see <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overview of Billing and Revenue</a>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Planned Risk Cost</p> </td> 
@@ -209,7 +209,7 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
   </tr> 
   <tr> 
    <td>Project Budgeted Cost</td> 
-   <td>See <i>Budgeted&nbsp;Cost</i></td> 
+   <td>See <i>Budgeted  Cost</i></td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td>Project Management</td> 
@@ -254,7 +254,7 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
   </tr> 
   <tr> 
    <td> <p>Proof Decision</p> </td> 
-   <td> <p>In reports that contain the Document Version object (such as a Document Version report&nbsp;and Proof Approval report), this field displays the decision status of the proof (pending, changes required, or approved)</p> </td> 
+   <td> <p>In reports that contain the Document Version object (such as a Document Version report  and Proof Approval report), this field displays the decision status of the proof (pending, changes required, or approved)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Proof Name</p> </td> 
@@ -330,14 +330,14 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
  <tbody> 
   <tr> 
    <td> <p>Rank</p> </td> 
-   <td> <p>In an Access Level report, you can manually indicate a Rank of the Access Level. This helps you, as the Workfront administrator, to visually identify the level of complexity associated with each Access Level. For example, you can give lower numbers for more complex (Plan-level) Access Levels, and higher numbers for less complex (Requester-level) Access Levels. You cannot rank the standard Access Levels.&nbsp;</p> </td> 
+   <td> <p>In an Access Level report, you can manually indicate a Rank of the Access Level. This helps you, as the Workfront administrator, to visually identify the level of complexity associated with each Access Level. For example, you can give lower numbers for more complex (Plan-level) Access Levels, and higher numbers for less complex (Requester-level) Access Levels. You cannot rank the standard Access Levels.  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Ready</p> </td> 
-   <td> <p>This field on a task report indicates whether&nbsp;an Agile task has been marked as Ready on the backlog. This flag only applies to Agile tasks, which are tasks assigned to an Agile team.&nbsp;</p> </td> 
+   <td> <p>This field on a task report indicates whether  an Agile task has been marked as Ready on the backlog. This flag only applies to Agile tasks, which are tasks assigned to an Agile team.  </p> </td> 
   </tr> 
   <tr> 
-   <td>Rejection&nbsp;Issue</td> 
+   <td>Rejection  Issue</td> 
    <td>In a project or a task report, this is the issue that is created when the approval for the project or the task is rejected. For information about rejection issues, see the article <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Create an approval process for work items</a>. </td> 
   </tr> 
   <tr> 
@@ -386,11 +386,11 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
    <td> <p>Resource Manager IDs</p> <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: Same as "Resource Managers" (above), but this is for the filter.) </p>
     --> </td> 
-   <td> <p>Use this option&nbsp;when creating a filter to find a specific resource manager. Begin typing the name of the resource manager that you want to use in the filter, then click the name when it appears in the drop-down list.</p> <p>Resource Managers can perform resource scheduling actions on a project.</p> <p>For more information, see <a href="../../../manage-work/projects/planning-a-project/designate-resource-managers-for-projects-and-templates.md" class="MCXref xref">Designate Resource Managers for a project or template </a>.</p> </td> 
+   <td> <p>Use this option  when creating a filter to find a specific resource manager. Begin typing the name of the resource manager that you want to use in the filter, then click the name when it appears in the drop-down list.</p> <p>Resource Managers can perform resource scheduling actions on a project.</p> <p>For more information, see <a href="../../../manage-work/projects/planning-a-project/designate-resource-managers-for-projects-and-templates.md" class="MCXref xref">Designate Resource Managers for a project or template </a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Resource Managers</p> </td> 
-   <td> <p>Resource Managers perform resource scheduling actions on a project.&nbsp;They utilize the enterprise resource management tools in Workfront to review capacity, monitor utilization, and assign project tasks.</p> <p>When you use "Resource&nbsp;Managers"&nbsp;in a report, a list of resource managers is displayed, with each resource manager on the project separated by a comma (there can be up to 10 resource managers on a given project).</p> <p>For more information, see the article <a href="../../../manage-work/projects/planning-a-project/designate-resource-managers-for-projects-and-templates.md" class="MCXref xref">Designate Resource Managers for a project or template </a>.</p> </td> 
+   <td> <p>Resource Managers perform resource scheduling actions on a project.  They utilize the enterprise resource management tools in Workfront to review capacity, monitor utilization, and assign project tasks.</p> <p>When you use "Resource  Managers"  in a report, a list of resource managers is displayed, with each resource manager on the project separated by a comma (there can be up to 10 resource managers on a given project).</p> <p>For more information, see the article <a href="../../../manage-work/projects/planning-a-project/designate-resource-managers-for-projects-and-templates.md" class="MCXref xref">Designate Resource Managers for a project or template </a>.</p> </td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td>Resource Planner</td> 
@@ -398,16 +398,16 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
    </tr>
   --> 
   <tr> 
-   <td>Resource Planner Budgeted Labor&nbsp;Cost</td> 
-   <td>See <i>Budgeted Labor&nbsp;Cost</i>. </td> 
+   <td>Resource Planner Budgeted Labor  Cost</td> 
+   <td>See <i>Budgeted Labor  Cost</i>. </td> 
   </tr> 
   <tr> 
    <td> <p>Resource Pool</p> </td> 
-   <td> <p>A collection&nbsp;of job roles associated with a project or a user. The functionality of the Resource Pools is displayed in the tools available in the Resource Planning tab of the People area in the Production environment.&nbsp;</p> </td> 
+   <td> <p>A collection  of job roles associated with a project or a user. The functionality of the Resource Pools is displayed in the tools available in the Resource Planning tab of the People area in the Production environment.  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Resource Pools</p> </td> 
-   <td> <p>Resource Pools are collections of users that can be associated with a project.&nbsp;The users in the same Resource Pool usually belong to the same department, have similar or complementary skills, or are funded by the same budget. You can associate multiple Resource Pools to a project or to a user.</p> <p>For more information about the functionality of Resource Pools see <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Resource pools overview </a>.&nbsp; </p> <p>In project reports, Resource Pools show all the pools associated with a project.&nbsp;This object cannot be used in a grouping. <br></p> <!--
+   <td> <p>Resource Pools are collections of users that can be associated with a project.  The users in the same Resource Pool usually belong to the same department, have similar or complementary skills, or are funded by the same budget. You can associate multiple Resource Pools to a project or to a user.</p> <p>For more information about the functionality of Resource Pools see <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Resource pools overview </a>.   </p> <p>In project reports, Resource Pools show all the pools associated with a project.  This object cannot be used in a grouping. <br></p> <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">A collection of resources available for assignment to project tasks. A resource pool can be assigned exclusively to a project or shared by several projects.</p>
     --> </td> 
   </tr> 
@@ -417,7 +417,7 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td>Resource Management</td> 
-    <td> <p>Resource Management is an enterprise set of tool that allows you to accurately forecast the use of your resources based on their availability so that the work that must be done is completed on time and on budget.&nbsp;</p> <p>With Resource Management tools you can plan long term capacity and short term scheduling needs for your resources. </p> <p>For information about Resource Management in&nbsp;Workfront, see <a href="../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md" class="MCXref xref">Get started with Resource Management</a>.</p> </td> 
+    <td> <p>Resource Management is an enterprise set of tool that allows you to accurately forecast the use of your resources based on their availability so that the work that must be done is completed on time and on budget.  </p> <p>With Resource Management tools you can plan long term capacity and short term scheduling needs for your resources. </p> <p>For information about Resource Management in  Workfront, see <a href="../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md" class="MCXref xref">Get started with Resource Management</a>.</p> </td> 
    </tr>
   --> 
   <tr> 
@@ -431,7 +431,7 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
   --> 
   <tr> 
    <td>Revenue Type</td> 
-   <td>Revenue type determines how the task will accrue revenue. Some examples include Fixed Hourly, Role Hourly, and Role Hourly w/Cap. For information about tracking revenue in&nbsp;Workfront see <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overview of Billing and Revenue</a>.</td> 
+   <td>Revenue type determines how the task will accrue revenue. Some examples include Fixed Hourly, Role Hourly, and Role Hourly w/Cap. For information about tracking revenue in  Workfront see <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overview of Billing and Revenue</a>.</td> 
   </tr> 
   <tr> 
    <td>Reviewer</td> 

@@ -11,11 +11,11 @@ hidefromtoc: true
 
 >[!IMPORTANT]
 >
->This article should be used as a reference to understand the terms that you may encounter in the Adobe Workfront application or in the Workfront documentation. We are currently&nbsp;updating this information and as a result this table might not be complete. We will remove this disclaimer when we consider this information exhaustive.&nbsp;
+>This article should be used as a reference to understand the terms that you may encounter in the Adobe Workfront application or in the Workfront documentation. We are currently  updating this information and as a result this table might not be complete. We will remove this disclaimer when we consider this information exhaustive.  
 
 For the full glossary, see [Glossary of Workfront terms](../../../workfront-basics/navigate-workfront/workfront-navigation/glossary-of-workfront-terms.md).
 
-The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&nbsp;
+The following table is a list of commonly used terms in Adobe Workfront:    
 
 [A](#a)
 
@@ -45,20 +45,20 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
    <td>An incomplete task in a current project that is not prevented from being worked on by a predecessor task and does not have a task constraint with a future planned start date. In other words, it can be worked on today.</td> 
   </tr> 
   <tr> 
-   <td>Actual&nbsp;Expense Cost</td> 
-   <td>Total&nbsp;of the Actual Amounts&nbsp;of all the expenses on a project or a task.</td> 
+   <td>Actual  Expense Cost</td> 
+   <td>Total  of the Actual Amounts  of all the expenses on a project or a task.</td> 
   </tr> 
   <tr> 
    <td> <p>Actual Hours</p> </td> 
-   <td> <p>In a project, task, or issue report, Actual Hours are the sum of all hours logged on the project, task, or issue.&nbsp;</p> </td> 
+   <td> <p>In a project, task, or issue report, Actual Hours are the sum of all hours logged on the project, task, or issue.  </p> </td> 
   </tr> 
   <tr> 
    <td>Actual Labor Cost</td> 
-   <td> <p>For a task, the number of hours logged by a user multiplied by their hourly rate or the rate of their Primary Job&nbsp;Role.&nbsp;</p> <p>For a project, it is a total of all Actual Labor Costs of all the tasks.&nbsp;&nbsp;</p> <p>For more information, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>.</p> </td> 
+   <td> <p>For a task, the number of hours logged by a user multiplied by their hourly rate or the rate of their Primary Job  Role.  </p> <p>For a project, it is a total of all Actual Labor Costs of all the tasks.    </p> <p>For more information, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>Actual&nbsp;Revenue </td> 
-   <td> <p>The Actual Revenue of a project or a task is the amount of money associated with the Actual Hours of the project or the task. </p> <p>For information about tracking revenue in&nbsp;Workfront see <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overview of Billing and Revenue</a>. </p> </td> 
+   <td>Actual  Revenue </td> 
+   <td> <p>The Actual Revenue of a project or a task is the amount of money associated with the Actual Hours of the project or the task. </p> <p>For information about tracking revenue in  Workfront see <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overview of Billing and Revenue</a>. </p> </td> 
   </tr> 
   <tr> 
    <td>Ad hoc</td> 
@@ -89,7 +89,7 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
     </ul> <p>For a Resource Estimates or Project (Financial Data) report: </p> 
     <ul> 
      <li>Build these reports when trying to understand how resources are budgeted for work, or the amount of Planned Hours that is assigned to your resources.</li> 
-     <li> <p>The Allocation Date is the first day (Sunday) of a week in which the allocation of a Job Role to a task starts. A resource (Job Role) can have as many Allocation Dates as it has weeks during the Duration of the tasks that it is assigned to. If tasks span over multiple months, then the first day of a month can also become an Allocation Date, if it falls within the Duration of the task.&nbsp;</p> <p>For example, you can have a Job Role assigned to a task that spans over 3 weeks and has 90 Planned Hours. These hours are spread evenly during the duration of the task, which makes every day assign 6 Planned Hours to your job role:</p> <p><em> Daily Planned Hours = Total Planned Hours/ Number of Work Days during the Duration of the task </em> </p> <p>As a result, there are three Allocation Dates, one for every Sunday of every week during the Duration of the task, each with a certain number of Planned Hours associated with them.<br>If the task starts in the middle of the last week of a month and ends two weeks after the beginning of a new month, the task will have four Allocation Dates: one for every Sunday of every week during the Duration of the task, and one for the first day of the new month.</p> <p>To make the most use of this information, we recommend that you build a Resource Estimates or a Project (Financial Data) report and add a matrix grouping for Allocation Date, and group the results weekly, monthly, quarterly, or yearly for the most accurate data.<br>For information about building a matrix grouping, see the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref">Create a matrix report</a>.</p> </li> 
+     <li> <p>The Allocation Date is the first day (Sunday) of a week in which the allocation of a Job Role to a task starts. A resource (Job Role) can have as many Allocation Dates as it has weeks during the Duration of the tasks that it is assigned to. If tasks span over multiple months, then the first day of a month can also become an Allocation Date, if it falls within the Duration of the task.  </p> <p>For example, you can have a Job Role assigned to a task that spans over 3 weeks and has 90 Planned Hours. These hours are spread evenly during the duration of the task, which makes every day assign 6 Planned Hours to your job role:</p> <p><em> Daily Planned Hours = Total Planned Hours/ Number of Work Days during the Duration of the task </em> </p> <p>As a result, there are three Allocation Dates, one for every Sunday of every week during the Duration of the task, each with a certain number of Planned Hours associated with them.<br>If the task starts in the middle of the last week of a month and ends two weeks after the beginning of a new month, the task will have four Allocation Dates: one for every Sunday of every week during the Duration of the task, and one for the first day of the new month.</p> <p>To make the most use of this information, we recommend that you build a Resource Estimates or a Project (Financial Data) report and add a matrix grouping for Allocation Date, and group the results weekly, monthly, quarterly, or yearly for the most accurate data.<br>For information about building a matrix grouping, see the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref">Create a matrix report</a>.</p> </li> 
     </ul> 
     <div> 
      <p>For a Budgeted Hour report:</p> 
@@ -109,7 +109,7 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
   </tr> 
   <tr> 
    <td> <p>Approver Decision</p> </td> 
-   <td> <p>In the Proof Approval report, this field displays&nbsp;proof approval decisions for proofs that are no longer active.</p> </td> 
+   <td> <p>In the Proof Approval report, this field displays  proof approval decisions for proofs that are no longer active.</p> </td> 
   </tr> 
   <tr> 
    <td>Approval</td> 
@@ -121,7 +121,7 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
   </tr> 
   <tr> 
    <td> <p>Assigned To</p> </td> 
-   <td> <p>In a Task or Issue report, this field displays the Owner of the task or the issue, or the Primary Assignee. You can filter or group by this field, as well.&nbsp;</p> </td> 
+   <td> <p>In a Task or Issue report, this field displays the Owner of the task or the issue, or the Primary Assignee. You can filter or group by this field, as well.  </p> </td> 
   </tr> 
   <tr> 
    <td>Assignment</td> 
@@ -129,15 +129,15 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
   </tr> 
   <tr> 
    <td> <p>Assignments (field)</p> </td> 
-   <td> <p>In a Task or Issue report, this field displays a list of all entities (users, job roles, teams) that are assigned to the task or issue. You can filter by this field only in a text mode filter. You cannot group the&nbsp;report by this field.&nbsp;</p> </td> 
+   <td> <p>In a Task or Issue report, this field displays a list of all entities (users, job roles, teams) that are assigned to the task or issue. You can filter by this field only in a text mode filter. You cannot group the  report by this field.  </p> </td> 
   </tr> 
   <tr> 
    <td>Assignment Users</td> 
-   <td>In a Task or Issue report, this field displays information about the users assigned to the tasks or issues.&nbsp;This field displays Primary&nbsp;Owners, as well as other users assigned to tasks or issues. </td> 
+   <td>In a Task or Issue report, this field displays information about the users assigned to the tasks or issues.  This field displays Primary  Owners, as well as other users assigned to tasks or issues. </td> 
   </tr> 
   <tr> 
    <td>Assignment Roles</td> 
-   <td>In a Task or Issue report, this field displays information about the job roles assigned to the tasks or issues.&nbsp;This field displays Primary&nbsp;Owners, as well as other job roles assigned to tasks or issues. </td> 
+   <td>In a Task or Issue report, this field displays information about the job roles assigned to the tasks or issues.  This field displays Primary  Owners, as well as other job roles assigned to tasks or issues. </td> 
   </tr> 
   <tr> 
    <td>Attribute</td> 
@@ -214,20 +214,20 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
   </tr> 
   <tr> 
    <td> <p>Budget Status</p> </td> 
-   <td> <p>This field shows&nbsp;whether the project is currently added to the capacity planner and if the budget calculation has been completed&nbsp;for it.</p> 
+   <td> <p>This field shows  whether the project is currently added to the capacity planner and if the budget calculation has been completed  for it.</p> 
     <ul> 
-     <li>If the project is&nbsp;not added to the capacity planner, its value is <i>Not Included</i>.&nbsp;</li> 
-     <li>If the project is&nbsp;added to the Capacity Planner but is excluded from the budget calculation,&nbsp;the value is <i>Included but not Calculated</i>.&nbsp;</li> 
-     <li> If the project is&nbsp;added to the Capacity Planner and included in the budget calculation, the value is <i>Included and Calculated</i>. </li> 
+     <li>If the project is  not added to the capacity planner, its value is <i>Not Included</i>.  </li> 
+     <li>If the project is  added to the Capacity Planner but is excluded from the budget calculation,  the value is <i>Included but not Calculated</i>.  </li> 
+     <li> If the project is  added to the Capacity Planner and included in the budget calculation, the value is <i>Included and Calculated</i>. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td> <p>Budgeted Completion Date</p> </td> 
-   <td> <p>This is a deprecated field that shows the date when the budgeting of resources ends, as defined in the Legacy Resource Estimates area of the Business Case of a project, or the Capacity Planner. The field is available in project and task reports.&nbsp;</p> </td> 
+   <td> <p>This is a deprecated field that shows the date when the budgeting of resources ends, as defined in the Legacy Resource Estimates area of the Business Case of a project, or the Capacity Planner. The field is available in project and task reports.  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Budgeted Cost</p> </td> 
-   <td> <p>The Budgeted Cost for the project is calculated using the following formula:<br></p> <p><code>Budgeted Cost =&nbsp;Budgeted Expense Cost + Budgeted Labor Cost + Fixed Cost of the project</code> </p> <p>The Budgeted Labor Cost in the calculation above refers to both labor costs for hours budgeted in the Legacy Resource Estimates area of a project (or in the Capacity Planner), and hours budgeted in the Resource Budgeting area of the Business Case (or in the Resource Planner). </p> <p>Important: The Capacity Planner and Legacy&nbsp;Resource Estimates areas are currently deprecated and will be removed from&nbsp;Workfront.</p> <p>You can locate the Budgeted Cost field based on the hours budgeted in the Resource Planner in the following areas and reports in&nbsp;Workfront: </p> 
+   <td> <p>The Budgeted Cost for the project is calculated using the following formula:<br></p> <p><code>Budgeted Cost =  Budgeted Expense Cost + Budgeted Labor Cost + Fixed Cost of the project</code> </p> <p>The Budgeted Labor Cost in the calculation above refers to both labor costs for hours budgeted in the Legacy Resource Estimates area of a project (or in the Capacity Planner), and hours budgeted in the Resource Budgeting area of the Business Case (or in the Resource Planner). </p> <p>Important: The Capacity Planner and Legacy  Resource Estimates areas are currently deprecated and will be removed from  Workfront.</p> <p>You can locate the Budgeted Cost field based on the hours budgeted in the Resource Planner in the following areas and reports in  Workfront: </p> 
     <ul> 
      <li>Business Case Summary</li> 
      <li>Portfolio Optimizer (in the Cost field)</li> 
@@ -236,43 +236,43 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
        <li>Resource Estimates report</li> 
        <li>Budgeted Hour report </li> 
        <li>Project report</li> 
-       <li>Project (Financial&nbsp;Data)</li> 
-       <li>Task&nbsp;report</li> 
+       <li>Project (Financial  Data)</li> 
+       <li>Task  report</li> 
        <li>Issue report</li> 
       </ul> </li> 
-    </ul> <p>You can locate the Budgeted Cost field based on the hours budgeted in the Capacity Planner in the following areas and reports in&nbsp;Workfront: </p> 
+    </ul> <p>You can locate the Budgeted Cost field based on the hours budgeted in the Capacity Planner in the following areas and reports in  Workfront: </p> 
     <ul> 
      <li>Resource Estimates report</li> 
      <li>Budgeted Hour report </li> 
      <li>Project report</li> 
      <li>Project (Financial Data)</li> 
-     <li>Task&nbsp;report</li> 
+     <li>Task  report</li> 
      <li>Issue report</li> 
     </ul> <p>For more information about calculating Budgeted Cost, see the article <a href="../../../manage-work/projects/project-finances/budgeted-cost.md" class="MCXref xref">Calculate Budgeted Cost</a>. </p> </td> 
   </tr> 
   <tr> 
    <td>Budgeted Hours</td> 
-   <td> <p>These are the hours that you, as the Resource Manager, budget for your resources for the work they need to complete on projects. This field refers to both hours budgeted in the Legacy Resource Estimates area of a project (or in the Capacity Planner), and hours budgeted in the Resource Budgeting area of the Business Case (or in the Resource Planner). </p> <p>You can locate the Budgeted Hours from the Resource Planner in the following areas and reports in&nbsp;Workfront: </p> 
+   <td> <p>These are the hours that you, as the Resource Manager, budget for your resources for the work they need to complete on projects. This field refers to both hours budgeted in the Legacy Resource Estimates area of a project (or in the Capacity Planner), and hours budgeted in the Resource Budgeting area of the Business Case (or in the Resource Planner). </p> <p>You can locate the Budgeted Hours from the Resource Planner in the following areas and reports in  Workfront: </p> 
     <ul> 
      <li>Resource Planner Hours view (in the BDG column)</li> 
      <li>Utilization report Hours view</li> 
      <li>Resource Budgeting area of the Business Case (in the Hours field)</li> 
      <li>Budgeted Hour report (the Bud. Hours field refers to hours budgeted for users; the Pln. Bud. Hours field refers to hours budgeted for roles or projects)</li> 
-    </ul> <p>You can locate the Budgeted Hours from the&nbsp;Capacity Planner in the following areas and reports in&nbsp;Workfront: </p> 
+    </ul> <p>You can locate the Budgeted Hours from the  Capacity Planner in the following areas and reports in  Workfront: </p> 
     <ul> 
      <li>Capacity Planner</li> 
-     <li>Legacy&nbsp;Resource Estimates area of the Business Case (in the Hours field)</li> 
+     <li>Legacy  Resource Estimates area of the Business Case (in the Hours field)</li> 
      <li>Resource Estimates report (in the Bud. Hours field)</li> 
      <li>Budgeted Hour report (in the Budgeted Hours field)</li> 
      <li>Project report</li> 
-     <li>Project (Financial&nbsp;Data)</li> 
-     <li>Task&nbsp;report</li> 
+     <li>Project (Financial  Data)</li> 
+     <li>Task  report</li> 
      <li>Issue report</li> 
-    </ul> <p>The Capacity Planner and Legacy&nbsp;Resource Estimates areas are currently deprecated and will be removed from Workfront. For information about budgeting Users in the Resource Planner, see the article <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budget resources in the Resource Planner using the Project and Role views</a>.</p> </td> 
+    </ul> <p>The Capacity Planner and Legacy  Resource Estimates areas are currently deprecated and will be removed from Workfront. For information about budgeting Users in the Resource Planner, see the article <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budget resources in the Resource Planner using the Project and Role views</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Budgeted Labor Cost</p> </td> 
-   <td> <p>This is the cost associated with the hours that you, as the Resource Manager, budget for your resources for the work they need to complete on projects. </p> <p>The Budgeted Labor Cost in a project report is calculated using the following formula:</p> <p><code style="font-style: normal;">Budgeted Labor Cost = SUM(Job Role Cost per Hour * Budgeted Hours per Job Role)</code> </p> <p>This field refers to both labor costs for hours budgeted in the Legacy Resource Estimates area of a project (or in the Capacity Planner), and hours budgeted in the Resource Budgeting area of the Business Case (or in the Resource Planner). </p> <p>Important: The Capacity Planner and Legacy&nbsp;Resource Estimates areas are currently deprecated and will be removed from&nbsp;Workfront.</p> <p>You can locate the Budgeted Labor Cost field based on the hours budgeted in the Resource Planner in the following areas and reports in&nbsp;Workfront: </p> 
+   <td> <p>This is the cost associated with the hours that you, as the Resource Manager, budget for your resources for the work they need to complete on projects. </p> <p>The Budgeted Labor Cost in a project report is calculated using the following formula:</p> <p><code style="font-style: normal;">Budgeted Labor Cost = SUM(Job Role Cost per Hour * Budgeted Hours per Job Role)</code> </p> <p>This field refers to both labor costs for hours budgeted in the Legacy Resource Estimates area of a project (or in the Capacity Planner), and hours budgeted in the Resource Budgeting area of the Business Case (or in the Resource Planner). </p> <p>Important: The Capacity Planner and Legacy  Resource Estimates areas are currently deprecated and will be removed from  Workfront.</p> <p>You can locate the Budgeted Labor Cost field based on the hours budgeted in the Resource Planner in the following areas and reports in  Workfront: </p> 
     <ul> 
      <li>Resource Planner Cost view (in the BDG column)</li> 
      <li>Utilization report Cost view (in the Budgeted Cost column)</li> 
@@ -282,25 +282,25 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
        <li>Resource Estimates report</li> 
        <li>Budgeted Hour report </li> 
        <li>Project report</li> 
-       <li>Project (Financial&nbsp;Data)</li> 
-       <li>Task&nbsp;report</li> 
+       <li>Project (Financial  Data)</li> 
+       <li>Task  report</li> 
        <li>Issue report</li> 
       </ul> </li> 
-    </ul> <p>You can locate the Budgeted Labor Cost based on the hours budgeted in the Capacity Planner in the following areas and reports in&nbsp;Workfront: </p> 
+    </ul> <p>You can locate the Budgeted Labor Cost based on the hours budgeted in the Capacity Planner in the following areas and reports in  Workfront: </p> 
     <ul> 
      <li>Capacity Planner</li> 
-     <li>Legacy&nbsp;Resource Estimates area of the Business Case (in the Legacy Budgeted Labor Cost field)</li> 
+     <li>Legacy  Resource Estimates area of the Business Case (in the Legacy Budgeted Labor Cost field)</li> 
      <li>Resource Estimates report</li> 
      <li>Budgeted Hour report </li> 
      <li>Project report</li> 
      <li>Project (Financial Data)</li> 
-     <li>Task&nbsp;report</li> 
+     <li>Task  report</li> 
      <li>Issue report</li> 
-    </ul> <p>For more information about calculating the Budgeted Labor Cost, see the article <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Understand Budgeted Labor Cost and Budgeted Hours for projects</a>&nbsp;&nbsp;</p> </td> 
+    </ul> <p>For more information about calculating the Budgeted Labor Cost, see the article <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Understand Budgeted Labor Cost and Budgeted Hours for projects</a>    </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Budgeted Start Date</p> </td> 
-   <td> <p>This is a deprecated field that shows the date when the budgeting of resources starts, as defined in the Legacy Resource Estimates area of the Business Case of a project, or the Capacity Planner.&nbsp;The field is available in project and task reports.&nbsp;</p> </td> 
+   <td> <p>This is a deprecated field that shows the date when the budgeting of resources starts, as defined in the Legacy Resource Estimates area of the Business Case of a project, or the Capacity Planner.  The field is available in project and task reports.  </p> </td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td>Burndown Chart</td> 
@@ -340,10 +340,10 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
   </tr> 
   <tr> 
    <td> <p>Can Start</p> </td> 
-   <td> <p>This field shows if a task is ready to start to be worked on. &nbsp;The system checks for the following things before it marks a task as <i>True</i> for the <i>Can Start</i> field:<br></p> 
+   <td> <p>This field shows if a task is ready to start to be worked on.   The system checks for the following things before it marks a task as <i>True</i> for the <i>Can Start</i> field:<br></p> 
     <ul> 
-     <li> If the task has a parent, it checks to see if the value of <i>Can Start</i> for the parent it set to <i>True</i>. If the value for the parent is <i>False</i>, then all the subtasks have the value of <i>Can Start</i> set to <i>False</i>, as well.&nbsp;</li> 
-     <li> It also checks to see if the predecessors of the task are complete. If they are complete, the <i>Can Start</i> value for the task is set to <i>True</i>. If any of the predecessors is not complete, or has a status of <i>Complete - Pending Approval</i>, then the <i>Can Start</i> value for the task is set to <i>False</i>.&nbsp;</li> 
+     <li> If the task has a parent, it checks to see if the value of <i>Can Start</i> for the parent it set to <i>True</i>. If the value for the parent is <i>False</i>, then all the subtasks have the value of <i>Can Start</i> set to <i>False</i>, as well.  </li> 
+     <li> It also checks to see if the predecessors of the task are complete. If they are complete, the <i>Can Start</i> value for the task is set to <i>True</i>. If any of the predecessors is not complete, or has a status of <i>Complete - Pending Approval</i>, then the <i>Can Start</i> value for the task is set to <i>False</i>.  </li> 
     </ul> </td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
@@ -353,7 +353,7 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
   --> 
   <tr> 
    <td> <p>Category</p> </td> 
-   <td> <p>A category is a custom form. You can build reports for this object and you can show it in other object reports, as well. Not all objects can have a custom form, or category. The following objects can have a custom form:&nbsp;<br></p> 
+   <td> <p>A category is a custom form. You can build reports for this object and you can show it in other object reports, as well. Not all objects can have a custom form, or category. The following objects can have a custom form:  <br></p> 
     <ul> 
      <li>Project</li> 
      <li>Task</li> 
@@ -367,7 +367,7 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
     </ul> <p>Iteration</p> </td> 
   </tr> 
   <tr> 
-   <td>Category&nbsp;Name</td> 
+   <td>Category  Name</td> 
    <td> <p>When added as a column to the view of any of the following objects it displays a list of all custom forms associated with these objects:</p> 
     <ul> 
      <li>Project</li> 
@@ -452,17 +452,17 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
   </tr> 
   <tr> 
    <td> <p>Condition</p> </td> 
-   <td> <p>This is a visual representation of the progress of a task, issue or project.&nbsp;</p> <p>For projects, the condition can be manually set by the project owner or it can be automatically set by Workfront, based on the progress status of the project. </p> <p>The possible values for the project condition are:</p> 
+   <td> <p>This is a visual representation of the progress of a task, issue or project.  </p> <p>For projects, the condition can be manually set by the project owner or it can be automatically set by Workfront, based on the progress status of the project. </p> <p>The possible values for the project condition are:</p> 
     <ul> 
      <li>On Target</li> 
      <li>At Risk</li> 
      <li>In Trouble</li> 
-    </ul> <p>For more information about project condition, see the article <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Overview of Project Condition and Condition Type</a>.&nbsp;</p> <p>For tasks, the condition is set manually by the task&nbsp;owner. The possible values for the task condition are:</p> 
+    </ul> <p>For more information about project condition, see the article <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Overview of Project Condition and Condition Type</a>.  </p> <p>For tasks, the condition is set manually by the task  owner. The possible values for the task condition are:</p> 
     <ul> 
      <li>Going Smoothly<br></li> 
      <li> Some Concerns<br></li> 
      <li>Major Roadblocks</li> 
-    </ul> <p>For more information about task condition, see the article <a href="../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md" class="MCXref xref">Update Condition for tasks and issues</a>.</p> <p>For issues, the condition is set manually by the issue&nbsp;owner. The possible values for the task condition are:<br></p> 
+    </ul> <p>For more information about task condition, see the article <a href="../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md" class="MCXref xref">Update Condition for tasks and issues</a>.</p> <p>For issues, the condition is set manually by the issue  owner. The possible values for the task condition are:<br></p> 
     <ul> 
      <li>Going Smoothly<br></li> 
      <li>Some Concerns<br></li> 
@@ -471,7 +471,7 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
   </tr> 
   <tr> 
    <td> <p>Condition Update</p> </td> 
-   <td> <p>This field shows the current condition of tasks, projects or issues. This option&nbsp;shows the most recent&nbsp;updates&nbsp;that the owners of tasks, projects or issues&nbsp;have provided in the Update Status field, along with the new condition.&nbsp;</p> <p>Comments made on condition updates are not displayed in the Condition Update column; only the main update is displayed.</p> </td> 
+   <td> <p>This field shows the current condition of tasks, projects or issues. This option  shows the most recent  updates  that the owners of tasks, projects or issues  have provided in the Update Status field, along with the new condition.  </p> <p>Comments made on condition updates are not displayed in the Condition Update column; only the main update is displayed.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Constraint Date</p> </td> 
@@ -485,7 +485,7 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
   </tr> 
   <tr> 
    <td>Constraint Day</td> 
-   <td> <p>If you are using a Task Constraint in a template task that is tied to a specific day, such as Must Start On, then that specific day becomes the Constraint Day of the template task.&nbsp;</p> <p>The following task constraints update the Constraint Day field:</p> 
+   <td> <p>If you are using a Task Constraint in a template task that is tied to a specific day, such as Must Start On, then that specific day becomes the Constraint Day of the template task.  </p> <p>The following task constraints update the Constraint Day field:</p> 
     <ul> 
      <li>Must Start On</li> 
      <li>Must Finish On</li> 
@@ -503,7 +503,7 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
   </tr> 
   <tr> 
    <td>Cost</td> 
-   <td> <p>The monetary amount that you must spend when completing a project, task, or issue. </p> <p>You can track various types of costs for labor, expenses, risks that relate to the project.&nbsp;For information about tracking costs in&nbsp;Workfront see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>.</p> <!--
+   <td> <p>The monetary amount that you must spend when completing a project, task, or issue. </p> <p>You can track various types of costs for labor, expenses, risks that relate to the project.  For information about tracking costs in  Workfront see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>.</p> <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">A measurement of the amount of time and effort for work</p>
     --> </td> 
   </tr> 

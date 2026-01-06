@@ -12,7 +12,7 @@ hidefromtoc: true
 # Project Owner cannot share a project or any of its tasks with a team
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Drafted article because I added it in a Project&nbsp;FAQ note)</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Drafted article because I added it in a Project FAQ note)</p>
 -->
 
 ## Problem
@@ -28,19 +28,19 @@ The Adobe Workfront administrator restricted the user to viewing only Companies,
 As a Workfront administrator, do the following:
 
 1. Find the user and click to access it.
-1. Click the **More menu** ![More icon](assets/more-icon.png) next to the name of the user, then click&nbsp;**Edit**. 
+1. Click the **More menu** ![More icon](assets/more-icon.png) next to the name of the user, then click **Edit**. 
 1. Click **Access** and make note of the name of the **Access Level** assigned to this user.
 
 1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
 1. Go to **Setup > Access Levels.**
-1. Click the name of the **Access Level** to edit it.&nbsp;
+1. Click the name of the **Access Level** to edit it. 
 1. Deselect the following field: **View only companies, groups & teams they belong to.**
 
    ![View-only team, groups, companies they belong to](assets/view-only-team-groups-companies-they-belong-to-350x141.png)
 
 1. Click **Save** **.**
 
-1. Ask the user to share the project or the tasks with the team, again.&nbsp;
+1. Ask the user to share the project or the tasks with the team, again. 
 
 >[!NOTE]
 >

@@ -11,11 +11,11 @@ hidefromtoc: true
 
 >[!IMPORTANT]
 >
->This article should be used as a reference to understand the terms that you may encounter in the Adobe Workfront application or in the Workfront documentation. We are currently&nbsp;updating this information and as a result this table might not be complete. We will remove this disclaimer when we consider this information exhaustive.&nbsp;
+>This article should be used as a reference to understand the terms that you may encounter in the Adobe Workfront application or in the Workfront documentation. We are currently  updating this information and as a result this table might not be complete. We will remove this disclaimer when we consider this information exhaustive.  
 
 For the full glossary, see [Glossary of Workfront terms](../../../workfront-basics/navigate-workfront/workfront-navigation/glossary-of-workfront-terms.md).
 
-The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&nbsp;
+The following table is a list of commonly used terms in Adobe Workfront:    
 
 ## G-I
 
@@ -68,7 +68,7 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
   </tr> 
   <tr> 
    <td> <p>(Hour) Owner</p> </td> 
-   <td> <p>In an Hour report, the&nbsp;Hour Owner is the user to whom the hours are attributed. This is different than the user who is actually logging the time. These two entities can sometimes be two different users. <br>For more information about logging time for another user, see the article <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">Log time</a>.</p> </td> 
+   <td> <p>In an Hour report, the  Hour Owner is the user to whom the hours are attributed. This is different than the user who is actually logging the time. These two entities can sometimes be two different users. <br>For more information about logging time for another user, see the article <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">Log time</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Hour Type</td> 
@@ -92,11 +92,11 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
   </tr> 
   <tr> 
    <td>Is Active</td> 
-   <td>&nbsp;</td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Issue</td> 
-   <td> <p>An unplanned work item that usually indicates that there is a problem preventing the completion of a task or project. It is triaged and evaluated for further work effort consideration</p> <p>An Issue can also be a Help&nbsp;Desk request. Change Orders, Requests, and Bugs are also Issues.</p> </td> 
+   <td> <p>An unplanned work item that usually indicates that there is a problem preventing the completion of a task or project. It is triaged and evaluated for further work effort consideration</p> <p>An Issue can also be a Help  Desk request. Change Orders, Requests, and Bugs are also Issues.</p> </td> 
   </tr> 
   <tr> 
    <td>Issue Management</td> 

@@ -11,11 +11,11 @@ hidefromtoc: true
 
 >[!IMPORTANT]
 >
->This article should be used as a reference to understand the terms that you may encounter in the Adobe Workfront application or in the Workfront documentation. We are currently&nbsp;updating this information and as a result this table might not be complete. We will remove this disclaimer when we consider this information exhaustive.&nbsp;
+>This article should be used as a reference to understand the terms that you may encounter in the Adobe Workfront application or in the Workfront documentation. We are currently  updating this information and as a result this table might not be complete. We will remove this disclaimer when we consider this information exhaustive.  
 
 For the full glossary, see [Glossary of Workfront terms](../../../workfront-basics/navigate-workfront/workfront-navigation/glossary-of-workfront-terms.md).
 
-The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&nbsp;
+The following table is a list of commonly used terms in Adobe Workfront:    
 
 ## S-U
 
@@ -47,7 +47,7 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
   </tr> 
   <tr> 
    <td> <p>Scheduled Report</p> </td> 
-   <td> <p>When you build a report of reports, you can display&nbsp;information about the schedules of the report, if the report is scheduled for delivery using the Scheduled Report field. This field shows multiple values, one for each schedule of each report, in a bulleted list. For more information about scheduling reports, see the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md" class="MCXref xref">Report delivery overview</a>.</p> <p>Because this field shows multiple values, it cannot be used in a grouping. You can access it only in a filter or a view.&nbsp;</p> </td> 
+   <td> <p>When you build a report of reports, you can display  information about the schedules of the report, if the report is scheduled for delivery using the Scheduled Report field. This field shows multiple values, one for each schedule of each report, in a bulleted list. For more information about scheduling reports, see the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md" class="MCXref xref">Report delivery overview</a>.</p> <p>Because this field shows multiple values, it cannot be used in a grouping. You can access it only in a filter or a view.  </p> </td> 
   </tr> 
   <tr> 
    <td>Scope Change</td> 
@@ -82,7 +82,7 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
    <td>The action of allowing other Users to view or edit a specific item in Workfront.</td> 
   </tr> 
   <tr> 
-   <td>Slack&nbsp;Date</td> 
+   <td>Slack  Date</td> 
    <td>In a task view or report, the Slack Date displays the exact date when a task could definitely impact the Completion Date of the project. For information about the Slack Date of a task, see <a href="../../../manage-work/tasks/task-information/task-slack-date.md" class="MCXref xref">Task Slack Date overview</a>.</td> 
   </tr> 
   <tr> 
@@ -91,7 +91,7 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
   </tr> 
   <tr> 
    <td> <p>Source</p> </td> 
-   <td> <p>Indicates the parent object of another object. For example, a document attached to a task has the name of the task in the Source field of a Document report or view; an issue logged under a project has the name of the project in the Source field of an Issue report or view.&nbsp;</p> </td> 
+   <td> <p>Indicates the parent object of another object. For example, a document attached to a task has the name of the task in the Source field of a Document report or view; an issue logged under a project has the name of the project in the Source field of an Issue report or view.  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Start Date</p> </td> 
@@ -139,10 +139,10 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
      <li>An object has documents attached</li> 
      <li>An object is associated with an approval process</li> 
      <li>An object has additional notes associated with it</li> 
-     <li>An expense is billable or reimbursable&nbsp;</li> 
+     <li>An expense is billable or reimbursable  </li> 
      <li>A task is on a critical path</li> 
-     <li>A user belongs to a company, a team, or is located in a different time zone&nbsp;</li> 
-    </ul> <p>You can add the Status Icons field in the views of the following objects:&nbsp;</p> 
+     <li>A user belongs to a company, a team, or is located in a different time zone  </li> 
+    </ul> <p>You can add the Status Icons field in the views of the following objects:  </p> 
     <ul> 
      <li>Tasks</li> 
      <li>Issues</li> 
@@ -156,7 +156,7 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
   </tr> 
   <tr> 
    <td> <p>Status Update</p> </td> 
-   <td> <p>This field shows the most recent status update&nbsp;that users have provided in the 'Update Status' field.&nbsp;Comments made on&nbsp;status&nbsp;updates are not displayed in the Status Update column.</p> <p>To show the 'New,' 'In Process,' and 'Complete' statuses, use the Status column.</p> <p>Comments made on&nbsp;status&nbsp;updates are not displayed in the Status Update column.</p> <p>For more information on statuses, see the article <a href="../../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">Update task status</a>.</p> </td> 
+   <td> <p>This field shows the most recent status update  that users have provided in the 'Update Status' field.  Comments made on  status  updates are not displayed in the Status Update column.</p> <p>To show the 'New,' 'In Process,' and 'Complete' statuses, use the Status column.</p> <p>Comments made on  status  updates are not displayed in the Status Update column.</p> <p>For more information on statuses, see the article <a href="../../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">Update task status</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Statuses</td> 
@@ -255,10 +255,10 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
    <td>A Note and its collection of replies that relate to a particular topic.</td> 
   </tr> 
   <tr> 
-   <td> <p>Thumbnail / Large Thumbnail&nbsp;</p> </td> 
+   <td> <p>Thumbnail / Large Thumbnail  </p> </td> 
    <td> <p> In a Document list or report, it displays a preview of the document in a thumbnail. </p> <p> Do one of the following: </p> 
     <ul> 
-     <li> Select <strong>Thumbnail</strong> &nbsp;to view a 33-66 pixel-wide thumbnail in the report. </li> 
+     <li> Select <strong>Thumbnail</strong>   to view a 33-66 pixel-wide thumbnail in the report. </li> 
      <li>Select <strong>Large Thumbnail</strong> to view a 400 pixel-wide thumbnail in the report.</li> 
     </ul> <p>The size of the thumbnail adjusts when you modify the width of the column in a list or report.</p> </td> 
   </tr> 

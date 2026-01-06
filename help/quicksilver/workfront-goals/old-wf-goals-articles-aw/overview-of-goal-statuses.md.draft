@@ -11,11 +11,11 @@ hidefromtoc: true
 
 # Overview of goal statuses in the new Adobe Workfront experience
 
-From&nbsp;Alla's document:
+From Alla's document:
 
 Any user can change status to any goal according to the rules below:
 
-| From/&nbsp;To |Draft |Active |Inactive |Closed |
+| From/ To |Draft |Active |Inactive |Closed |
 |---|---|---|---|---|
 | Draft |-  |Yes |No |No |
 | Active |No |-  |Yes |Yes |

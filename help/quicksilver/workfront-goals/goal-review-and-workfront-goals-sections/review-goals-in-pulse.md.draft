@@ -41,7 +41,7 @@ You must have the following access to perform the actions described in this arti
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
-   <td> <p>View or higher access to&nbsp;Goals</p> <p>Note:  <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p> 
+   <td> <p>View or higher access to Goals</p> <p>Note:  <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p> 
      <ul> 
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li> 
@@ -64,9 +64,9 @@ You must have the following access to perform the actions described in this arti
 
 You must have the following before you can start:
 
-* A Layout Template that includes the Goals area in the Main&nbsp;Menu.
+* A Layout Template that includes the Goals area in the Main Menu.
 
-## Manage goal updates and comments in the Pulse section&nbsp;
+## Manage goal updates and comments in the Pulse section 
 
 >[!TIP]
 >
@@ -142,13 +142,13 @@ You must have the following before you can start:
 
 1. Click **Add a comment** to add a comment for the goal, then click **Post**. The comment is visible in the Check-in area, as well as the Updates tab of the Goal Details panel. We recommend that you use the Pulse section to comment on goals that have not been updated in a while and ask the goal owner for an update. 
 
-1. (Optional) Click **Show all updates** to display all goal updates. This opens the Updates tab in the Goal&nbsp;Details panel on the right. 
+1. (Optional) Click **Show all updates** to display all goal updates. This opens the Updates tab in the Goal Details panel on the right. 
 1. Click the name of a goal to open the **Goal Details** panel on the right and review more information about the goal as well as manage it and its results and activities. For information about reviewing individual goals, see [Update goals in the Goal details section in Adobe Workfront Goals](../../workfront-goals/goal-management/update-goals-in-goal-details-panel.md).
 1. (Optional and conditional) Click **the alignment icon** ![Alignment icon](assets/align-icon.png) to open the goal in the Goal Alignment section, if the goal is aligned to other goals. 
 
 1. (Optional) Expand the **Goals per page** drop-down menu and select from the following options to display additional goals:
 
-   * 20.&nbsp;This is the default selection. 
+   * 20. This is the default selection. 
    * 50
    * 100
 

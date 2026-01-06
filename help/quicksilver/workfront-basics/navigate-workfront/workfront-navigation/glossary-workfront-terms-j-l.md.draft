@@ -11,11 +11,11 @@ hidefromtoc: true
 
 >[!IMPORTANT]
 >
->This article should be used as a reference to understand the terms that you may encounter in the Adobe Workfront application or in the Workfront documentation. We are currently&nbsp;updating this information and as a result this table might not be complete. We will remove this disclaimer when we consider this information exhaustive.&nbsp;
+>This article should be used as a reference to understand the terms that you may encounter in the Adobe Workfront application or in the Workfront documentation. We are currently  updating this information and as a result this table might not be complete. We will remove this disclaimer when we consider this information exhaustive.  
 
 For the full glossary, see [Glossary of Workfront terms](../../../workfront-basics/navigate-workfront/workfront-navigation/glossary-of-workfront-terms.md).
 
-The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&nbsp;
+The following table is a list of commonly used terms in Adobe Workfront:    
 
 ## J-L
 
@@ -35,7 +35,7 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
   </tr> 
   <tr> 
    <td> <p>Kanban Flag</p> </td> 
-   <td> <p>In a Task Report or Issue Report,&nbsp;the Kanban Flag field displays the flag status that is set on the story on the Kanban board. Possible values are On Track, Ready to Pull, and Is Blocked.</p> <p>For more information about setting flag status on stories on the Kanban story board, see&nbsp; the article <a href="../../../agile/use-kanban-in-an-agile-team/use-flags-on-stories.md" class="MCXref xref">Use flags on stories on the Kanban board</a>.</p> </td> 
+   <td> <p>In a Task Report or Issue Report,  the Kanban Flag field displays the flag status that is set on the story on the Kanban board. Possible values are On Track, Ready to Pull, and Is Blocked.</p> <p>For more information about setting flag status on stories on the Kanban story board, see   the article <a href="../../../agile/use-kanban-in-an-agile-team/use-flags-on-stories.md" class="MCXref xref">Use flags on stories on the Kanban board</a>.</p> </td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td>KPIs</td> 
@@ -62,7 +62,7 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
   </tr> 
   <tr> 
    <td> <p>Last Condition Note</p> </td> 
-   <td> <p>This field displays the update last entered on an object by the&nbsp;owner of the object, This is the owner's most recent activity or interaction on an object.</p> <p>The Last Condition Note column is&nbsp;empty if the note text of the last note of an object has been deleted. When a new note is entered on the object, it becomes the last note and it displays again in the column.&nbsp;</p> </td> 
+   <td> <p>This field displays the update last entered on an object by the  owner of the object, This is the owner's most recent activity or interaction on an object.</p> <p>The Last Condition Note column is  empty if the note text of the last note of an object has been deleted. When a new note is entered on the object, it becomes the last note and it displays again in the column.  </p> </td> 
   </tr> 
   <tr> 
    <td>Last Finance Update Date</td> 
@@ -70,7 +70,7 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
   </tr> 
   <tr> 
    <td> <p>Last Note</p> </td> 
-   <td> <p>This field displays the update last entered on an object by any user. This is the most recent activity or interaction on an object.</p> <p>The Last Note column is empty if the text of the last note of an object has been deleted. When a new note is entered on the object, it becomes the last note and it displays again in the column.&nbsp;</p> </td> 
+   <td> <p>This field displays the update last entered on an object by any user. This is the most recent activity or interaction on an object.</p> <p>The Last Note column is empty if the text of the last note of an object has been deleted. When a new note is entered on the object, it becomes the last note and it displays again in the column.  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Last Viewed By</p> </td> 
@@ -93,7 +93,7 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
    <td> <p>Legacy Resource Pool</p> <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Leave this field in both classic and Qs because it exists in both)</p>
     --> </td> 
-   <td> <p>The Legacy Resource Pool is a collection&nbsp;of job roles associated with a project or a user. The functionality of the Legacy Resource Pools is displayed in the tools available in the Legacy Resource Planning tab of the People area. This is a deprecated field.</p> </td> 
+   <td> <p>The Legacy Resource Pool is a collection  of job roles associated with a project or a user. The functionality of the Legacy Resource Pools is displayed in the tools available in the Legacy Resource Planning tab of the People area. This is a deprecated field.</p> </td> 
   </tr> 
   <tr> 
    <td>Library Task</td> 

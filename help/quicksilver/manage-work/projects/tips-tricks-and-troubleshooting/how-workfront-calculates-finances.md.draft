@@ -16,10 +16,10 @@ hidefromtoc: true
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(drafted articles because info moved to the glossary and to the Project&nbsp;Finances Overview article)</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(drafted articles because info moved to the glossary and to the Project Finances Overview article)</p>
 -->
 
-You can track your finances with a number of fields that capture budget, cost, and revenue in&nbsp;Adobe Workfront.
+You can track your finances with a number of fields that capture budget, cost, and revenue in Adobe Workfront.
 
 The following table contains some of the most common financial fields or references you might encounter when reviewing Workfront documentation or speaking with other customers.
 
@@ -52,7 +52,7 @@ For more information, also see the following articles:
    </tr>
   --> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td> <p>(Incurred)&nbsp;Actual Expense Cost</p> </td> 
+    <td> <p>(Incurred) Actual Expense Cost</p> </td> 
     <td> <p>The sum of the Actual Amount field for all expenses where the Actual Amount field &gt; 0.</p> <br> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span> If you create an expense for Task 1 and enter $600.00 in the Actual Amount field, the Incurred Actual Expense Cost for this task is $600.00. </p> <br> <p>Important: If the value in the Actual Amount field for an expense is negative, the system will ignore that expense record. For example, if the value in the Planned Amount field is $200.00 but the value in the Actual Amount field is -$300.00, the system will ignore this entire expense record which means you would not include the $200.00 planned value or the -$300.00 actual value in any calculations. </p> </td> 
    </tr>
   --> <!--
@@ -105,7 +105,7 @@ For more information, also see the following articles:
  </tbody> 
 </table>
 
-&nbsp;
+ 
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

@@ -13,7 +13,7 @@ hidefromtoc: true
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>(NOTE:&nbsp;Alina: Keep this draft for a revamp of all definitions for financial fields in Workfront</p>
+<p>(NOTE: Alina: Keep this draft for a revamp of all definitions for financial fields in Workfront</p>
 <p>-- <span class="wysiwyg-font-size-medium wysiwyg-color-pink">This article will replace the Support article here: https://support.workfront.com/hc/en-us/articles/217612358-How-Workfront-Calculates-Finances</span></p>
 <p><span class="wysiwyg-font-size-medium wysiwyg-color-pink">-- This should be placed at the top of the Project Finances section.)</span> </p>
 </div>
@@ -150,7 +150,7 @@ EAC = EAC(labor) + Total Actual Expenses to Date + Remaining Planned Expenses + 
 >
 >&#42; Project Fixed Costs are ignored for task level EAC.
 
-&nbsp;
+ 
 
 ### Calculating CPI Using Hour-Based PIM
 
@@ -160,7 +160,7 @@ Otherwise, CPI = 1
 
 TotalBudgetedCostWorkPerformed = Planned Hours &#42; (Percent Complete/100)
 
-&nbsp;
+ 
 
 # Formulas
 
@@ -172,13 +172,13 @@ TotalBudgetedCostWorkPerformed = Planned Hours &#42; (Percent Complete/100)
 
 TotalBudgetedCostWorkPerformed = Planned Hours &#42; (Percent Complete/100)
 
-&nbsp;
+ 
 
 **For a parent task:**
 
 TotalBudgetedCostWorkPerformed = the sum of the TotalBudgetedCostWorkPerformed field for all direct child tasks.
 
-&nbsp;
+ 
 
 ### CPI
 
@@ -200,13 +200,13 @@ TotalBudgetedCostWorkPerformed = the sum of the TotalBudgetedCostWorkPerformed f
 
 TotalBudgetedCostWorkPerformed = Planned Labor Cost &#42; (Percent Complete/100)
 
-&nbsp;
+ 
 
 **For a parent task:**
 
 TotalBudgetedCostWorkPerformed = the sum of the TotalBudgetedCostWorkPerformed field for all direct child tasks.
 
-&nbsp;
+ 
 
 ### CPI
 
@@ -214,23 +214,23 @@ TotalBudgetedCostWorkPerformed = the sum of the TotalBudgetedCostWorkPerformed f
 
 * ELSE * CPI = CPI_Labor
 
-&nbsp;
+ 
 
 ### EAC
 
 **EAC** = **EAC Labor** + **EAC Expense**
 
-&nbsp;
+ 
 
 For EAC Labor, we first need to determine CPI_Labor.
 
-&nbsp;
+ 
 
 **CPI_Labor** = IF Actual Labor Cost <> 0 THEN CPI_Labor = TotalBudgetedCostWorkPerformed / Actual Labor Cost
 
 ELSE CPI_Labor = 1
 
-&nbsp;
+ 
 
 **EAC Labor** = * IF * CPI_Labor <> 0 * THEN * EAC Labor = Planned Labor Cost / CPI_Labor
 
@@ -238,7 +238,7 @@ ELSE CPI_Labor = 1
 
 **EAC Expense** = IncurredActualExpenseCost + NotIncurredPlannedExpense
 
-&nbsp;
+ 
 
 # EAC Method: Calculate at Project Level
 
@@ -250,12 +250,12 @@ PIM = Hour-Based
 
 EAC Method = Calculate at project level
 
-&nbsp;
+ 
 
 1. Create Project A with three tasks (no child tasks) all assigned to User 1 whose cost/hr is $100.00. 
 1. Add planned/actual hours to each task and % Complete according to the table below:
 
-&nbsp;
+ 
 
 <table style="table-layout:auto"> 
  <tbody> 
@@ -286,7 +286,7 @@ EAC Method = Calculate at project level
  </tbody> 
 </table>
 
-&nbsp;
+ 
 
 1. Recalculate Finance 
 1. **CPI for Task 1** = .04 calculated as follows:
@@ -299,7 +299,7 @@ EAC Method = Calculate at project level
 
 **CPI for Task 1** = .04
 
-&nbsp;
+ 
 
 1. **EAC for Task 1** = 125 hrs calculated as follows:
 
@@ -311,7 +311,7 @@ EAC Method = Calculate at project level
 
 **EAC for Task 1** = 125 hrs
 
-&nbsp;
+ 
 
 1. CPI / EAC for Tasks 2 and 3 are:
 
@@ -319,7 +319,7 @@ Task 2 = .12 / 83.33 hrs
 
 Task 3 = .24 / 62.5 hrs
 
-&nbsp;
+ 
 
 1. **CPI for Project** = .13 calculated as follows:
 
@@ -331,7 +331,7 @@ Task 3 = .24 / 62.5 hrs
 
 **CPI for Project** = .13
 
-&nbsp;
+ 
 
 1. **EAC for Project** = 225 hrs calculated as follows:
 
@@ -349,11 +349,11 @@ PIM = Hour-Based
 
 EAC Method = Calculate at project level
 
-&nbsp;
+ 
 
 1. Create Project A with six tasks where Task 3 is the parent of Tasks 4 and 5 and Task 1 is the parent of Tasks 2 and 3 as shown below:
 
-&nbsp;
+ 
 
 Task 1
 
@@ -367,15 +367,15 @@ Task 5
 
 Task 6
 
-&nbsp;
+ 
 
 1. Assign Tasks 2, 4, 5, and 6 to User 1 whose cost/hr rate is $100.00.
 
-&nbsp;
+ 
 
 1. Add planned/actual hours each task and % Complete according to the table below (Note: For Tasks 1 and 3, you are only adding actual hours):
 
-&nbsp;
+ 
 
 <table style="table-layout:auto"> 
  <tbody> 
@@ -387,9 +387,9 @@ Task 6
   </tr> 
   <tr> 
    <td> <p> Task 1 </p> </td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
    <td> <p> 10 hrs </p> </td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p> Task 2 </p> </td> 
@@ -399,9 +399,9 @@ Task 6
   </tr> 
   <tr> 
    <td> <p> Task 3 </p> </td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
    <td> <p> 10 Hrs </p> </td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p> Task 4 </p> </td> 
@@ -424,7 +424,7 @@ Task 6
  </tbody> 
 </table>
 
-&nbsp;
+ 
 
 1. Add 50 hours directly to the project (More>Hours>Log Hours). 
 1. **CPI for Task 2** = .1 calculated as follows:
@@ -437,7 +437,7 @@ Task 6
 
 **CPI for Task 2** = .1
 
-&nbsp;
+ 
 
 1. **EAC for Task 2** = 50 hrs calculated as follows:
 
@@ -449,7 +449,7 @@ Task 6
 
 **EAC for Task 2** = 50 hrs
 
-&nbsp;
+ 
 
 1. The CPI / EAC for Tasks 4, 5, and 6 are as follows:
 
@@ -459,7 +459,7 @@ Task 5: .75 / 20 hrs
 
 Task 6: 1.2 / 16.67 hrs
 
-&nbsp;
+ 
 
 1. **CPI for Task 3** = .38 calculated as follows:
 
@@ -471,7 +471,7 @@ Task 6: 1.2 / 16.67 hrs
 
 **CPI for Task 3** = .38
 
-&nbsp;
+ 
 
 1. **EAC for Task 3** = 65.22 hrs calculated as follows:
 
@@ -483,7 +483,7 @@ Task 6: 1.2 / 16.67 hrs
 
 **EAC for Task 3** = 65.22 hrs
 
-&nbsp;
+ 
 
 1. **CPI for Task 1** = .25 calculated as follows:
 
@@ -495,7 +495,7 @@ Task 6: 1.2 / 16.67 hrs
 
 **CPI for Task 1** = .25
 
-&nbsp;
+ 
 
 1. **EAC for Task 1** = 120 hrs calculated as follows:
 
@@ -507,7 +507,7 @@ Task 6: 1.2 / 16.67 hrs
 
 **EAC for Task 1** = 120 hrs
 
-&nbsp;
+ 
 
 1. **CPI for Project** = .22 calculated as follows:
 
@@ -539,12 +539,12 @@ PIM = Cost-Based
 
 EAC Method = Calculate at project level
 
-&nbsp;
+ 
 
 1. Create Project A with three tasks (no child tasks) all assigned to User 1 whose cost/hr is $100.00. 
 1. Add planned/actual hours to each task and % Complete according to the table below:
 
-&nbsp;
+ 
 
 <table style="table-layout:auto"> 
  <tbody> 
@@ -583,11 +583,11 @@ EAC Method = Calculate at project level
  </tbody> 
 </table>
 
-&nbsp;
+ 
 
 1. Add expenses to each task according to the table below:
 
-&nbsp;
+ 
 
 <table style="table-layout:auto"> 
  <tbody> 
@@ -624,11 +624,11 @@ EAC Method = Calculate at project level
  </tbody> 
 </table>
 
-&nbsp;
+ 
 
 1. Add two expenses to the project (i.e. not tied to a task) as follows:
 
-&nbsp;
+ 
 
 <table style="table-layout:auto"> 
  <tbody> 
@@ -650,11 +650,11 @@ EAC Method = Calculate at project level
  </tbody> 
 </table>
 
-&nbsp;
+ 
 
 1. Based on the above values, the Incurred/Not Incurred Costs are determined as follows:
 
-&nbsp;
+ 
 
 <table style="table-layout:auto"> 
  <tbody> 
@@ -691,7 +691,7 @@ EAC Method = Calculate at project level
  </tbody> 
 </table>
 
-&nbsp;
+ 
 
 1. From Project Actions, run Recalculate Finance 
 1. **CPI for Task 1** = .14 
@@ -701,7 +701,7 @@ EAC Method = Calculate at project level
 
 * ELSE * CPI = CPI_Labor
 
-&nbsp;
+ 
 
 **CPI****for Task 1** = (100+300) / (2500+400)
 
@@ -709,7 +709,7 @@ EAC Method = Calculate at project level
 
 **CPI****for Task 1** = .14
 
-&nbsp;
+ 
 
 1. **EAC****for Task 1** = $13,400.00
 
@@ -721,7 +721,7 @@ ELSE CPI_Labor = 1
 
 **CPI Labor****for Task 1** = .04
 
-&nbsp;
+ 
 
 **EAC Labor****for Task 1** = * IF * CPI_Labor <> 0 * THEN * EAC Labor = Planned Labor Cost / CPI_Labor
 
@@ -731,7 +731,7 @@ ELSE CPI_Labor = 1
 
 **EAC Labor****for Task 1** = $12,500.00
 
-&nbsp;
+ 
 
 **EAC Expense****for Task 1** = IncurredActualExpenseCost + NotIncurredPlannedExpense
 
@@ -739,7 +739,7 @@ ELSE CPI_Labor = 1
 
 **EAC Expense****for Task 1** = $900.00
 
-&nbsp;
+ 
 
 **EAC****for Task 1** = EAC Labor + EAC Expense
 
@@ -747,7 +747,7 @@ ELSE CPI_Labor = 1
 
 **EAC****for Task 1** = $13,400.00
 
-&nbsp;
+ 
 
 1. Here are the CPI / EAC values for Task 2 and Task 3:
 
@@ -755,7 +755,7 @@ Task 2 = .19 / $8,433.33
 
 Task 3 = .44 / $6,950.00
 
-&nbsp;
+ 
 
 1. **CPI for Project** = .32 calculated as follows:
 
@@ -769,7 +769,7 @@ Task 3 = .44 / $6,950.00
 
 **CPI****for Project** = .32
 
-&nbsp;
+ 
 
 1. **EAC for Project** = $28,200.00 calculated as follows:
 
@@ -783,7 +783,7 @@ ELSE CPI_Labor = 1
 
 **CPI Labor****for Project** = .13
 
-&nbsp;
+ 
 
 **EAC Labor****for Project** = * IF * CPI_Labor <> 0 * THEN * EAC Labor = Planned Labor Cost / CPI_Labor
 
@@ -793,7 +793,7 @@ ELSE CPI_Labor = 1
 
 **EAC Labor****for Project** = $22,500.00
 
-&nbsp;
+ 
 
 **EAC Expense****Project** = IncurredActualExpenseCost + NotIncurredPlannedExpense
 
@@ -801,7 +801,7 @@ ELSE CPI_Labor = 1
 
 **EAC Expense****Project** = $5,700.00
 
-&nbsp;
+ 
 
 **EAC****Project** = EAC Labor + EAC Expense
 
@@ -815,11 +815,11 @@ PIM = Cost-Based
 
 EAC Method = Calculate at project level
 
-&nbsp;
+ 
 
 1. Create Project A with six tasks where Task 3 is the parent of Tasks 4 and 5 and Task 1 is the parent of Tasks 2 and 3 as shown below:
 
-&nbsp;
+ 
 
 Task 1
 
@@ -833,15 +833,15 @@ Task 5
 
 Task 6
 
-&nbsp;
+ 
 
 1. Assign Tasks 2, 4, 5, and 6 to User 1 whose cost/hr rate is $100.00.
 
-&nbsp;
+ 
 
 1. Add planned/actual hours each task and % Complete according to the table below (Note: For Tasks 1 and 3, you are only adding actual hours):
 
-&nbsp;
+ 
 
 <table style="table-layout:auto"> 
  <tbody> 
@@ -855,11 +855,11 @@ Task 6
   </tr> 
   <tr> 
    <td> <p> Task 1 </p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
+   <td> </td> 
    <td> <p> 10 hrs </p> </td> 
    <td> <p> $1,000.00 </p> </td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p> Task 2 </p> </td> 
@@ -871,11 +871,11 @@ Task 6
   </tr> 
   <tr> 
    <td> <p> Task 3 </p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
+   <td> </td> 
    <td> <p> 10 Hrs </p> </td> 
    <td> <p> $1,000.00 </p> </td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p> Task 4 </p> </td> 
@@ -904,15 +904,15 @@ Task 6
  </tbody> 
 </table>
 
-&nbsp;
+ 
 
 1. Add 50 hours directly to the project (More>Hours>Log Hours) so that there is $5,000.00 of actual labor cost recorded directly to the project.
 
-&nbsp;
+ 
 
 1. Add expenses to each task according to the table below (I've added a blank row in between each task to make it easier to read):
 
-&nbsp;
+ 
 
 <table style="table-layout:auto"> 
  <tbody> 
@@ -941,10 +941,10 @@ Task 6
    <td> <p> $0.00 </p> </td> 
   </tr> 
   <tr> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p> Task 2 </p> </td> 
@@ -971,10 +971,10 @@ Task 6
    <td> <p> -$200.00 </p> </td> 
   </tr> 
   <tr> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p> Task 3 </p> </td> 
@@ -983,10 +983,10 @@ Task 6
    <td> <p> $1,000.00 </p> </td> 
   </tr> 
   <tr> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p> Task 4 </p> </td> 
@@ -1007,10 +1007,10 @@ Task 6
    <td> <p> $0.00 </p> </td> 
   </tr> 
   <tr> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p> Task 5 </p> </td> 
@@ -1031,10 +1031,10 @@ Task 6
    <td> <p> -$200.00 </p> </td> 
   </tr> 
   <tr> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p> Task 6 </p> </td> 
@@ -1053,7 +1053,7 @@ Task 6
 
 1. Add two expenses to the project (i.e. not tied to a task) as follows:
 
-&nbsp;
+ 
 
 <table style="table-layout:auto"> 
  <tbody> 
@@ -1075,11 +1075,11 @@ Task 6
  </tbody> 
 </table>
 
-&nbsp;
+ 
 
 1. Based on the above values, the Incurred/Not Incurred Costs are determined as follows:
 
-&nbsp;
+ 
 
 <table style="table-layout:auto"> 
  <tbody> 
@@ -1134,9 +1134,9 @@ Task 6
  </tbody> 
 </table>
 
-&nbsp;
+ 
 
-&nbsp;
+ 
 
 1. From Project Actions, run Recalculate Finance 
 1. **CPI** for Task 2 = .17 calculated as follows:
@@ -1145,7 +1145,7 @@ Task 6
 
 * ELSE * CPI = CPI_Labor
 
-&nbsp;
+ 
 
 **CPI****Task 2** = (100+300) / (1000+1300)
 
@@ -1153,7 +1153,7 @@ Task 6
 
 **CPI****Task 2** = .17
 
-&nbsp;
+ 
 
 1. **EAC** for Task 2 = $5,900.00
 
@@ -1165,7 +1165,7 @@ ELSE CPI_Labor = 1
 
 **CPI Labor****Task 2** = .1
 
-&nbsp;
+ 
 
 **EAC Labor****Task 2** = * IF * CPI_Labor <> 0 * THEN * EAC Labor = Planned Labor Cost / CPI_Labor
 
@@ -1175,7 +1175,7 @@ ELSE CPI_Labor = 1
 
 **EAC Labor****Task 2** = $5,000.00
 
-&nbsp;
+ 
 
 **EAC Expense****Task 2** = IncurredActualExpenseCost + NotIncurredPlannedExpense
 
@@ -1183,7 +1183,7 @@ ELSE CPI_Labor = 1
 
 **EAC Expense****Task 2** = $900.00
 
-&nbsp;
+ 
 
 **EAC****Task 2** = EAC Labor + EAC Expense
 
@@ -1191,7 +1191,7 @@ ELSE CPI_Labor = 1
 
 **EAC****Task 2** = $5,900.00
 
-&nbsp;
+ 
 
 1. The CPI/EAC for Tasks 4, 5, and 6 are determined the same way so I'll just provide those values below:
 
@@ -1201,7 +1201,7 @@ Task 5: .64 / $3,100.00
 
 Task 6: 1.06 / $2,366.67
 
-&nbsp;
+ 
 
 1. CPI for Task 3 = .31 calculated as follows:
 
@@ -1209,7 +1209,7 @@ Task 6: 1.06 / $2,366.67
 
 * ELSE * CPI = CPI_Labor
 
-&nbsp;
+ 
 
 **CPI****Task 3** = (1,150 + 500) / (3000 + 2400)
 
@@ -1217,7 +1217,7 @@ Task 6: 1.06 / $2,366.67
 
 **CPI****Task 3** = .31
 
-&nbsp;
+ 
 
 **EAC for Task 3** = $9,521.74 calculated as follows:
 
@@ -1239,7 +1239,7 @@ ELSE CPI_Labor = 1
 
 **EAC Labor****Task 3** = $6,521.74
 
-&nbsp;
+ 
 
 **EAC Expense****Task 3** = IncurredActualExpenseCost + NotIncurredPlannedExpense
 
@@ -1247,7 +1247,7 @@ ELSE CPI_Labor = 1
 
 **EAC Expense****Task 3** = $3,000.00
 
-&nbsp;
+ 
 
 **EAC****Task 3** = EAC Labor + EAC Expense
 
@@ -1255,7 +1255,7 @@ ELSE CPI_Labor = 1
 
 **EAC****Task 3** = $9,521.74
 
-&nbsp;
+ 
 
 1. CPI for Task 1 = .16 calculated as follows:
 
@@ -1263,7 +1263,7 @@ ELSE CPI_Labor = 1
 
 * ELSE * CPI = CPI_Labor
 
-&nbsp;
+ 
 
 **CPI****Task 1** = (1250 + 300) / (5000 + 4500)
 
@@ -1271,7 +1271,7 @@ ELSE CPI_Labor = 1
 
 **CPI****Task 1** = .16
 
-&nbsp;
+ 
 
 1. EAC for Task 1 is $17,100.00 calculated as follows:
 
@@ -1283,7 +1283,7 @@ ELSE CPI_Labor = 1
 
 **CPI Labor****Task 1** = .25
 
-&nbsp;
+ 
 
 **EAC Labor****Task 1** = * IF * CPI_Labor <> 0 * THEN * EAC Labor = Planned Labor Cost / CPI_Labor
 
@@ -1293,7 +1293,7 @@ ELSE CPI_Labor = 1
 
 **EAC Labor****Task 1** = $12,000.00
 
-&nbsp;
+ 
 
 **EAC Expense****Task 1** = IncurredActualExpenseCost + NotIncurredPlannedExpense
 
@@ -1301,7 +1301,7 @@ ELSE CPI_Labor = 1
 
 **EAC Expense****Task 1** = $5,100.00
 
-&nbsp;
+ 
 
 **EAC****Task 1** = EAC Labor + EAC Expense
 
@@ -1309,7 +1309,7 @@ ELSE CPI_Labor = 1
 
 **EAC****Task 1** = $17,100.00
 
-&nbsp;
+ 
 
 1. CPI for Project is .25
 
@@ -1317,7 +1317,7 @@ ELSE CPI_Labor = 1
 
 * ELSE * CPI = CPI_Labor
 
-&nbsp;
+ 
 
 **CPI****for Project** = (2450 + 1900) / (11000 + 6700)
 
@@ -1325,7 +1325,7 @@ ELSE CPI_Labor = 1
 
 **CPI****for Project** = .25
 
-&nbsp;
+ 
 
 1. **EAC for Project** = $32,248.98 calculated as follows:
 
@@ -1339,7 +1339,7 @@ ELSE CPI_Labor = 1
 
 **CPI Labor****for Project** = .22
 
-&nbsp;
+ 
 
 **EAC Labor****for Project** = * IF * CPI_Labor <> 0 * THEN * EAC Labor = Planned Labor Cost / CPI_Labor
 
@@ -1351,7 +1351,7 @@ ELSE CPI_Labor = 1
 
 **EAC Labor****for Project** = $22,448.98
 
-&nbsp;
+ 
 
 **EAC Expense****Project** = IncurredActualExpenseCost + NotIncurredPlannedExpense
 
@@ -1359,7 +1359,7 @@ ELSE CPI_Labor = 1
 
 **EAC Expense****Project** = $9,800.00
 
-&nbsp;
+ 
 
 **EAC****Project** = EAC Labor + EAC Expense
 
@@ -1367,7 +1367,7 @@ ELSE CPI_Labor = 1
 
 **EAC****Project** = $32,248.98
 
-&nbsp;
+ 
 
 # EAC Method: Roll up from tasks/subtasks
 
@@ -1379,12 +1379,12 @@ PIM = Hour-Based
 
 EAC Method = Roll up from tasks/subtasks
 
-&nbsp;
+ 
 
 1. Create Project A with three tasks (no child tasks) all assigned to User 1 whose cost/hr is $100.00. 
 1. Add planned/actual hours to each task and % Complete according to the table below:
 
-&nbsp;
+ 
 
 <table style="table-layout:auto"> 
  <tbody> 
@@ -1415,7 +1415,7 @@ EAC Method = Roll up from tasks/subtasks
  </tbody> 
 </table>
 
-&nbsp;
+ 
 
 1. Recalculate Finance 
 1. **CPI for Task 1** = .04 calculated as follows:
@@ -1428,7 +1428,7 @@ EAC Method = Roll up from tasks/subtasks
 
 **CPI for Task 1** = .04
 
-&nbsp;
+ 
 
 1. **EAC for Task 1** = 125 hrs calculated as follows:
 
@@ -1440,7 +1440,7 @@ EAC Method = Roll up from tasks/subtasks
 
 **EAC for Task 1** = 125 hrs
 
-&nbsp;
+ 
 
 1. CPI / EAC for Tasks 2 and 3 are:
 
@@ -1448,7 +1448,7 @@ Task 2 = .12 / 83.33 hrs
 
 Task 3 = .24 / 62.5 hrs
 
-&nbsp;
+ 
 
 1. **CPI for Project** = .13 calculated as follows:
 
@@ -1460,7 +1460,7 @@ Task 3 = .24 / 62.5 hrs
 
 **CPI for Project** = .13
 
-&nbsp;
+ 
 
 1. **EAC for Project** = 270.83 hrs calculated as follows
 
@@ -1476,11 +1476,11 @@ PIM = Hour-Based
 
 EAC Method = Roll up from tasks/subtasks
 
-&nbsp;
+ 
 
 1. Create Project A with six tasks where Task 3 is the parent of Tasks 4 and 5 and Task 1 is the parent of Tasks 2 and 3 as shown below:
 
-&nbsp;
+ 
 
 Task 1
 
@@ -1494,15 +1494,15 @@ Task 5
 
 Task 6
 
-&nbsp;
+ 
 
 1. Assign Tasks 2, 4, 5, and 6 to User 1 whose cost/hr rate is $100.00.
 
-&nbsp;
+ 
 
 1. Add planned/actual hours each task and % Complete according to the table below (Note: For Tasks 1 and 3, you are only adding actual hours):
 
-&nbsp;
+ 
 
 <table style="table-layout:auto"> 
  <tbody> 
@@ -1514,9 +1514,9 @@ Task 6
   </tr> 
   <tr> 
    <td> <p> Task 1 </p> </td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
    <td> <p> 10 hrs </p> </td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p> Task 2 </p> </td> 
@@ -1526,9 +1526,9 @@ Task 6
   </tr> 
   <tr> 
    <td> <p> Task 3 </p> </td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
    <td> <p> 10 Hrs </p> </td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p> Task 4 </p> </td> 
@@ -1551,11 +1551,11 @@ Task 6
  </tbody> 
 </table>
 
-&nbsp;
+ 
 
 1. Add 50 hours directly to the project (More>Hours>Log Hours) so that there is $5,000.00 of actual labor cost recorded directly to the project.
 
-&nbsp;
+ 
 
 1. Run Recalculate Finance 
 1. **CPI for Task 2** = .1 calculated as follows:
@@ -1568,7 +1568,7 @@ Task 6
 
 **CPI for Task 2** = .1
 
-&nbsp;
+ 
 
 1. **EAC for Task 2** = 50 hrs calculated as follows:
 
@@ -1580,7 +1580,7 @@ Task 6
 
 **EAC for Task 2** = 50 hrs
 
-&nbsp;
+ 
 
 1. CPI / EAC for Task 4, Task 5, and Task 6:
 
@@ -1590,7 +1590,7 @@ Task 5 = .75 / 20 hrs
 
 Task 6 = 1.2 / 16.67 hrs
 
-&nbsp;
+ 
 
 1. **CPI for Task 3** = .38
 
@@ -1602,7 +1602,7 @@ Task 6 = 1.2 / 16.67 hrs
 
 **CPI for Task 3** = .38
 
-&nbsp;
+ 
 
 1. **EAC for Task 3** = EAC Task 4 + EAC Task 5
 
@@ -1610,7 +1610,7 @@ Task 6 = 1.2 / 16.67 hrs
 
 **EAC for Task 3** = 45 hrs
 
-&nbsp;
+ 
 
 1. **CPI for Task 1** = .25 calculated as follows:
 
@@ -1622,7 +1622,7 @@ Task 6 = 1.2 / 16.67 hrs
 
 **CPI for Task 1** = .25
 
-&nbsp;
+ 
 
 1. **EAC for Task 1** = EAC Task 2 + EAC Task 3
 
@@ -1630,7 +1630,7 @@ Task 6 = 1.2 / 16.67 hrs
 
 **EAC for Task 1** = 95 hrs
 
-&nbsp;
+ 
 
 1. CPI for Project = .22 calculated as follows:
 
@@ -1644,7 +1644,7 @@ Task 6 = 1.2 / 16.67 hrs
 
 **CPI for Project** = .22
 
-&nbsp;
+ 
 
 1. **EAC for project** = EAC Task 1 + EAC Task 6
 
@@ -1652,7 +1652,7 @@ Task 6 = 1.2 / 16.67 hrs
 
 **EAC for project** = 111.67 hrs
 
-&nbsp;
+ 
 
 ## PIM = Cost-Based
 
@@ -1662,12 +1662,12 @@ PIM = Cost-Based
 
 EAC Method = Roll up from tasks/subtasks
 
-&nbsp;
+ 
 
 1. Create Project A with three tasks (no child tasks) all assigned to User 1 whose cost/hr is $100.00. 
 1. Add planned/actual hours to each task and % Complete according to the table below:
 
-&nbsp;
+ 
 
 <table style="table-layout:auto"> 
  <tbody> 
@@ -1706,11 +1706,11 @@ EAC Method = Roll up from tasks/subtasks
  </tbody> 
 </table>
 
-&nbsp;
+ 
 
 1. Add expenses to each task according to the table below:
 
-&nbsp;
+ 
 
 <table style="table-layout:auto"> 
  <tbody> 
@@ -1747,11 +1747,11 @@ EAC Method = Roll up from tasks/subtasks
  </tbody> 
 </table>
 
-&nbsp;
+ 
 
 1. Add two expenses to the project (i.e. not tied to a task) as follows:
 
-&nbsp;
+ 
 
 <table style="table-layout:auto"> 
  <tbody> 
@@ -1773,11 +1773,11 @@ EAC Method = Roll up from tasks/subtasks
  </tbody> 
 </table>
 
-&nbsp;
+ 
 
 1. Based on the above values, the Incurred/Not Incurred Costs are determined as follows:
 
-&nbsp;
+ 
 
 <table style="table-layout:auto"> 
  <tbody> 
@@ -1814,7 +1814,7 @@ EAC Method = Roll up from tasks/subtasks
  </tbody> 
 </table>
 
-&nbsp;
+ 
 
 1. From Project Actions, run Recalculate Finance 
 1. **CPI****for Task 1** = .14 calculated as follows:
@@ -1823,7 +1823,7 @@ EAC Method = Roll up from tasks/subtasks
 
 * ELSE * CPI = CPI_Labor
 
-&nbsp;
+ 
 
 **CPI****for Task 1** = (100+300) / (2500+400)
 
@@ -1831,7 +1831,7 @@ EAC Method = Roll up from tasks/subtasks
 
 **CPI****for Task 1** = .14
 
-&nbsp;
+ 
 
 1. **EAC****for Task 1** = $13,400.00
 
@@ -1843,7 +1843,7 @@ ELSE CPI_Labor = 1
 
 **CPI Labor****for Task 1** = .04
 
-&nbsp;
+ 
 
 **EAC Labor****for Task 1** = * IF * CPI_Labor <> 0 * THEN * EAC Labor = Planned Labor Cost / CPI_Labor
 
@@ -1853,7 +1853,7 @@ ELSE CPI_Labor = 1
 
 **EAC Labor****for Task 1** = $12,500.00
 
-&nbsp;
+ 
 
 **EAC Expense****for Task 1** = IncurredActualExpenseCost + NotIncurredPlannedExpense
 
@@ -1861,7 +1861,7 @@ ELSE CPI_Labor = 1
 
 **EAC Expense****for Task 1** = $900.00
 
-&nbsp;
+ 
 
 **EAC****for Task 1** = EAC Labor + EAC Expense
 
@@ -1875,7 +1875,7 @@ Task 2 = .19 / $8,433.33
 
 Task 3 = .44 / $6,950.00
 
-&nbsp;
+ 
 
 1. The CPI for the project = .32
 
@@ -1889,7 +1889,7 @@ Task 3 = .44 / $6,950.00
 
 **CPI****for Project** = .32
 
-&nbsp;
+ 
 
 1. EAC for the project is $28,783.33
 
@@ -1899,9 +1899,9 @@ Task 3 = .44 / $6,950.00
 
 **EAC****for Project** = $28,783.33
 
-&nbsp;
+ 
 
-&nbsp;
+ 
 
 ### Complicated Example: Project has child tasks
 
@@ -1909,11 +1909,11 @@ PIM = Cost-Based
 
 EAC Method = Roll up from tasks/subtasks
 
-&nbsp;
+ 
 
 1. Create Project A with six tasks where Task 3 is the parent of Tasks 4 and 5 and Task 1 is the parent of Tasks 2 and 3 as shown below:
 
-&nbsp;
+ 
 
 Task 1
 
@@ -1927,15 +1927,15 @@ Task 5
 
 Task 6
 
-&nbsp;
+ 
 
 1. Assign Tasks 2, 4, 5, and 6 to User 1 whose cost/hr rate is $100.00.
 
-&nbsp;
+ 
 
 1. Add planned/actual hours each task and % Complete according to the table below (Note: For Tasks 1 and 3, you are only adding actual hours):
 
-&nbsp;
+ 
 
 <table style="table-layout:auto"> 
  <tbody> 
@@ -1949,11 +1949,11 @@ Task 6
   </tr> 
   <tr> 
    <td> <p> Task 1 </p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
+   <td> </td> 
    <td> <p> 10 hrs </p> </td> 
    <td> <p> $1,000.00 </p> </td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p> Task 2 </p> </td> 
@@ -1965,11 +1965,11 @@ Task 6
   </tr> 
   <tr> 
    <td> <p> Task 3 </p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
+   <td> </td> 
    <td> <p> 10 Hrs </p> </td> 
    <td> <p> $1,000.00 </p> </td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p> Task 4 </p> </td> 
@@ -1998,15 +1998,15 @@ Task 6
  </tbody> 
 </table>
 
-&nbsp;
+ 
 
 1. Add 50 hours directly to the project (More>Hours>Log Hours) so that there is $5,000.00 of actual labor cost recorded directly to the project.
 
-&nbsp;
+ 
 
 1. Add expenses to each task according to the table below (I've added a blank row in between each task to make it easier to read):
 
-&nbsp;
+ 
 
 <table style="table-layout:auto"> 
  <tbody> 
@@ -2035,10 +2035,10 @@ Task 6
    <td> <p> $0.00 </p> </td> 
   </tr> 
   <tr> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p> Task 2 </p> </td> 
@@ -2065,10 +2065,10 @@ Task 6
    <td> <p> -$200.00 </p> </td> 
   </tr> 
   <tr> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p> Task 3 </p> </td> 
@@ -2077,10 +2077,10 @@ Task 6
    <td> <p> $1,000.00 </p> </td> 
   </tr> 
   <tr> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p> Task 4 </p> </td> 
@@ -2101,10 +2101,10 @@ Task 6
    <td> <p> $0.00 </p> </td> 
   </tr> 
   <tr> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p> Task 5 </p> </td> 
@@ -2125,10 +2125,10 @@ Task 6
    <td> <p> -$200.00 </p> </td> 
   </tr> 
   <tr> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p> Task 6 </p> </td> 
@@ -2147,7 +2147,7 @@ Task 6
 
 1. Add two expenses to the project (i.e. not tied to a task) as follows:
 
-&nbsp;
+ 
 
 <table style="table-layout:auto"> 
  <tbody> 
@@ -2169,11 +2169,11 @@ Task 6
  </tbody> 
 </table>
 
-&nbsp;
+ 
 
 1. Based on the above values, the Incurred/Not Incurred Costs are determined as follows:
 
-&nbsp;
+ 
 
 <table style="table-layout:auto"> 
  <tbody> 
@@ -2228,7 +2228,7 @@ Task 6
  </tbody> 
 </table>
 
-&nbsp;
+ 
 
 1. From Project Actions, run Recalculate Finance 
 1. **CPI****for Task 2** = .17 calculated as follows:
@@ -2237,7 +2237,7 @@ Task 6
 
 * ELSE * CPI = CPI_Labor
 
-&nbsp;
+ 
 
 **CPI****Task 2** = (100+300) / (1000+1300)
 
@@ -2245,7 +2245,7 @@ Task 6
 
 **CPI****Task 2** = .17
 
-&nbsp;
+ 
 
 1. **EAC****for Task 2** = $5,900.00
 
@@ -2257,7 +2257,7 @@ ELSE CPI_Labor = 1
 
 **CPI Labor****Task 2** = .1
 
-&nbsp;
+ 
 
 **EAC Labor****Task 2** = * IF * CPI_Labor <> 0 * THEN * EAC Labor = Planned Labor Cost / CPI_Labor
 
@@ -2267,7 +2267,7 @@ ELSE CPI_Labor = 1
 
 **EAC Labor****Task 2** = $5,000.00
 
-&nbsp;
+ 
 
 **EAC Expense****Task 2** = IncurredActualExpenseCost + NotIncurredPlannedExpense
 
@@ -2275,7 +2275,7 @@ ELSE CPI_Labor = 1
 
 **EAC Expense****Task 2** = $900.00
 
-&nbsp;
+ 
 
 **EAC****Task 2** = EAC Labor + EAC Expense
 
@@ -2283,7 +2283,7 @@ ELSE CPI_Labor = 1
 
 **EAC****Task 2** = $5,900.00
 
-&nbsp;
+ 
 
 1. The CPI/EAC for Tasks 4, 5, and 6 are determined the same way so I'll just provide those values below:
 
@@ -2293,7 +2293,7 @@ Task 5: .64 / $3,100.00
 
 Task 6: 1.06 / $2,366.67
 
-&nbsp;
+ 
 
 1. **CPI for Task 3** = .31 calculated as follows:
 
@@ -2301,7 +2301,7 @@ Task 6: 1.06 / $2,366.67
 
 * ELSE * CPI = CPI_Labor
 
-&nbsp;
+ 
 
 **CPI****Task 3** = (1,150 + 500) / (3000 + 2400)
 
@@ -2309,7 +2309,7 @@ Task 6: 1.06 / $2,366.67
 
 **CPI****Task 3** = .31
 
-&nbsp;
+ 
 
 1. **EAC for Task 3** = EAC Task 4 + EAC Task 5
 
@@ -2317,7 +2317,7 @@ Task 6: 1.06 / $2,366.67
 
 **EAC for Task 3** = $6,500.00
 
-&nbsp;
+ 
 
 1. **CPI for Task 1** = .16 calculated as follows:
 
@@ -2325,7 +2325,7 @@ Task 6: 1.06 / $2,366.67
 
 * ELSE * CPI = CPI_Labor
 
-&nbsp;
+ 
 
 **CPI****Task 1** = (1250 + 300) / (5000 + 4500)
 
@@ -2333,7 +2333,7 @@ Task 6: 1.06 / $2,366.67
 
 **CPI****Task 1** = .16
 
-&nbsp;
+ 
 
 1. **EAC for Task 1** = EAC Task 2 + EAC Task 3
 
@@ -2341,7 +2341,7 @@ Task 6: 1.06 / $2,366.67
 
 **EAC for Task 1** = $12,400.00
 
-&nbsp;
+ 
 
 1. Project CPI = .25 calculated as follows:
 
@@ -2349,7 +2349,7 @@ Task 6: 1.06 / $2,366.67
 
 * ELSE * CPI = CPI_Labor
 
-&nbsp;
+ 
 
 **CPI****for Project** = (2450 + 1900) / (11000 + 6700)
 
@@ -2357,7 +2357,7 @@ Task 6: 1.06 / $2,366.67
 
 **CPI****for Project** = .25
 
-&nbsp;
+ 
 
 1. **EAC for Project** = EAC Task 1 + EAC Task 6
 

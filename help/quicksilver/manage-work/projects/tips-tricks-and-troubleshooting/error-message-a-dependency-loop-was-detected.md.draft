@@ -23,7 +23,7 @@ You cannot create a predecessor relationship between two tasks because you get a
 
 ## Cause
 
-Dependency loops happen when you have two or more tasks that depend on each other to be completed.&nbsp;A dependency loop can also happen if you try to make a parent the predecessor of a child.
+Dependency loops happen when you have two or more tasks that depend on each other to be completed. A dependency loop can also happen if you try to make a parent the predecessor of a child.
 
 For example, Task 2 is a predecessor to Task 1, which means you must complete Task 2 before you can start working on Task 1.
 
@@ -33,10 +33,10 @@ If you try to make Task 1 a predecessor to Task 2, you get a dependency loop err
 >
 >Dependency loops can involve more than two tasks. Sometimes any number of parents of the tasks you are connecting with a predecessor relationship are the ones creating the dependency loop.
 
-&nbsp;&nbsp;
+  
 
 ## Solution
 
-Adobe Workfront does not allow you to create a predecessor relationship between tasks if it creates a dependency loop. In order to fix the dependency loop, you must reevaluate&nbsp;the predecessor relationship between the tasks listed in the error message.
+Adobe Workfront does not allow you to create a predecessor relationship between tasks if it creates a dependency loop. In order to fix the dependency loop, you must reevaluate the predecessor relationship between the tasks listed in the error message.
 
-&nbsp;
+ 
