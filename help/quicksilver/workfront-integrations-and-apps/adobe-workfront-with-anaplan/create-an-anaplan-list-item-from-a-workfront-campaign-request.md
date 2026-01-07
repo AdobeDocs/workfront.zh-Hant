@@ -55,7 +55,7 @@ ht-degree: 17%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)。
 
@@ -97,23 +97,23 @@ ht-degree: 17%
    </thead> 
    <tbody> 
     <tr> 
-     <td role="rowheader">[！UICONTROL上市日期]</td> 
+     <td role="rowheader">[!UICONTROL 上市日期]</td> 
      <td>日期 </td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[！UICONTROL市場結束日期]</td> 
+     <td role="rowheader">[!UICONTROL 市場結束日期]</td> 
      <td>日期</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[！UICONTROL行銷活動概覽]</td> 
+     <td role="rowheader">[!UICONTROL 行銷活動概覽]</td> 
      <td>段落文字欄位</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[！UICONTROL金鑰訊息]</td> 
+     <td role="rowheader">[!UICONTROL 金鑰訊息]</td> 
      <td>段落文字欄位</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[！UICONTROL目標對象]</td> 
+     <td role="rowheader">[!UICONTROL 目標對象]</td> 
      <td> <p>下拉</p> <p>包含適合您流程的選項。</p> </td> 
     </tr> 
    </tbody> 

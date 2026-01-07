@@ -54,7 +54,7 @@ ht-degree: 16%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)。
 
@@ -133,20 +133,20 @@ ht-degree: 16%
     </thead> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL [!DNL Anaplan] Workspace ID]</td> 
+      <td role="rowheader">[!UICONTROL [!DNL Anaplan] Workspace ID]</td> 
       <td>您[!DNL Anaplan]帳戶的工作區識別碼。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL [!DNL Anaplan]模型識別碼] </td> 
+      <td role="rowheader">[!UICONTROL [!DNL Anaplan]模型識別碼] </td> 
       <td>來自您[!DNL Anaplan]帳戶和所選工作區的模型ID。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL促銷活動清單名稱]</td> 
+      <td role="rowheader">[!UICONTROL 促銷活動清單名稱]</td> 
       <td>來自您[!DNL Anaplan]帳戶及所選工作區與模型的清單名稱。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!DNL Anaplan]檢視名稱</td> 
-      <td> <p>檢視的名稱，其中包含可傳送給[!DNL Workfront]的行銷活動預算。</p> <p>（範例： [！UICONTROL Campaigns.Load Campaigns.To [!DNL Adobe Workfront]]） </p> </td> 
+      <td> <p>檢視的名稱，其中包含可傳送給[!DNL Workfront]的行銷活動預算。</p> <p>（範例： [!UICONTROL Campaigns.Load Campaigns.To [!DNL Adobe Workfront]]） </p> </td> 
      </tr> 
     </tbody> 
    </table>
