@@ -4,9 +4,9 @@ description: 2026年第一季度管理員增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: e9e7b76dc8e4b9d1cc91987d0ea63b5e2ee58224
+source-git-commit: a49c8f2ad345f0ea8cdfd38ad79c6c0a5f636e95
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
@@ -73,8 +73,6 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[建立及管理配置範本](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)。
 
-
-
 ## 使用自訂欄位上的作用中旗標改善欄位管理
 
 >[!NOTE]
@@ -89,6 +87,10 @@ ht-degree: 0%
 
 * 它會排除在報表、篩選器、檢視或Workfront中可新增自訂欄位的其他位置之外
 * 欄位資料庫中無法將其新增到其他自訂表單
+
+>[!NOTE]
+>
+>從報表、篩選器、檢視和分組中排除的動作會在欄位停用後發生。 當欄位標示為非使用中時，使用欄位的現有報表元素不會變更或移除。
 
 如需詳細資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
