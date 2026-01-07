@@ -8,9 +8,9 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: 2e75f6aaba089a91a2306ad06a0f0d79a7524f75
+source-git-commit: 387a84c4bf511424a0c15bd65748987c1611cee5
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -67,13 +67,13 @@ ht-degree: 0%
 
 未選取&#x200B;**使用來自系統**&#x200B;的日期有效匯率核取方塊時，專案詳細資料>財務區域中的&#x200B;**匯率日期**&#x200B;欄位現在已隱藏。 先前，編輯專案時，即使未啟用日期有效匯率，專案詳細資料上也會顯示日期欄位。
 
-<!--### Maintenance Updates week of January 4-10, 2026
+### 2026年1月4-10日當週維護更新
 
-**Title**
+**工作角色費率現在允許有效日期出現差距**
 
-text
+職務角色費率的有效日期現在允許出現間隙，但不允許日期重疊。 在間隔期間，帳單費率階層的其他區域會根據任務的收入型別來決定帳單費率。
 
-### Maintenance Updates week of January 11-17, 2026
+<!--### Maintenance Updates week of January 11-17, 2026
 
 **Title**
 
