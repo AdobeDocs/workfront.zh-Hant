@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '1711'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -43,9 +43,9 @@ ht-degree: 0%
 
 此整合僅與[!DNL SharePoint Online]相容。 不支援[!DNL SharePoint]的內部部署執行個體。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -129,7 +129,7 @@ ht-degree: 0%
 
 需要下列許可權：
 
-| 存取 | 原因 |
+| 存取權 | 原因 |
 |---|---|
 | 擁有檔案的完整存取權 | 允許[!DNL Workfront]存取使用者的檔案以連結資產。 當檔案從[!DNL Workfront]傳送到[!DNL SharePoint]時，[!DNL Workfront]需要存取權才能建立資產。 |
 | 讀取所有網站集合中的專案 | 允許[!DNL Workfront]讀取資產以啟用使用者導覽。 |
@@ -170,7 +170,7 @@ ht-degree: 0%
 
 1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![設定圖示](/help/_includes/assets/gear-icon-setup.png)。
 1. 在左側導覽中選取&#x200B;**[!UICONTROL 檔案]**，然後選取&#x200B;**[!UICONTROL 雲端提供者]**。
-1. 請確定&#x200B;**[!DNL SharePoint]**&#x200B;選項和&#x200B;**[!UICONTROL [!DNL SharePoint] (Graph API)]**&#x200B;選項皆已啟用。
+1. 請確定&#x200B;**[!DNL SharePoint]**&#x200B;選項和&#x200B;**[!UICONTROL [!DNL SharePoint](Graph API)]**&#x200B;選項皆已啟用。
 1. 按一下「**[!UICONTROL 儲存]**」。
 1. 在左側導覽中選取&#x200B;**[!UICONTROL 檔案]**，然後選取&#x200B;**[!UICONTROL [!DNL SharePoint]整合]**。
 1. 選取清單左側的核取記號，以取得所有現有的整合，然後選取&#x200B;**[!UICONTROL 停用]**。
@@ -428,19 +428,19 @@ For instructions, see [Link an external document to [!DNL Workfront]](../../docu
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 設計]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL設計]</p> </td> 
    <td> <p>可以檢視、新增、更新、刪除、核准和自訂</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 編輯]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL編輯]</p> </td> 
    <td> <p>可以新增、編輯和刪除清單；可以檢視、新增、更新和刪除清單專案和檔案</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Contribute]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Contribute]</p> </td> 
    <td> <p>可以檢視、新增、更新及刪除清單專案和檔案</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 檢視]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL檢視]</p> </td> 
    <td> <p>可以檢視頁面、清單專案和檔案（具有伺服器端檔案處理常式的檔案型別可以在瀏覽器中檢視，但不能下載）</p> </td> 
   </tr> 
  </tbody> 

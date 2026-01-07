@@ -8,10 +8,10 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 7cf4787d-7cff-489e-bd5b-69db3ff09f6e
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '558'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -19,20 +19,20 @@ ht-degree: 1%
 
 中繼資料是與檔案相關聯的描述性資訊。 您可以設定[!DNL Adobe Workfront]以包含中繼資料以及傳送至[!DNL Workfront]應用程式的檔案。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table>
   <tr>
-   <td>Adobe Workfront套件
+   <td>Adobe Workfront 封裝
    </td>
    <td> <p>Prime或Ultimate</p>
     <p>Workflow Ultimate</p>
    </td>
   </tr>
   <tr>
-   <td>Adobe Workfront授權
+   <td>Adobe Workfront 授權
    </td>
    <td><p>標準</p>
    <p>規劃</p>
@@ -47,6 +47,8 @@ ht-degree: 1%
 </table>
 
 如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 關於[!DNL Workfront]中繼資料
 

@@ -6,10 +6,10 @@ description: 為了有效地找到工作專案並專注於您管理的使用者�
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '2437'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -34,14 +34,14 @@ ht-degree: 0%
 
 本文包含有關工作負載平衡器中的篩選器的資訊。 如需Workfront中篩選器的相關資訊，請參閱[篩選器概觀](../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)。
 
-## 存取需求
+## 存取權要求
 
 <table style="table-layout:auto"> 
  <col> 
  <col>
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
+   <td>Adobe Workfront 封裝</td> 
    <td><p>任何</p></td>
   </tr>
   <tr> 
@@ -71,8 +71,6 @@ ht-degree: 0%
 </table>
 
 如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
-
-+++
 
 ## 工作負載平衡器中的篩選器概觀
 
@@ -256,13 +254,13 @@ ht-degree: 0%
 
 1. 針對複製的篩選條件編輯下列資訊：
 
-   * 姓名
+   * 名稱
    * 圖示
    * 說明
    * 任何欄位、修飾元或值。
 
 1. （選擇性）按一下&#x200B;**新增篩選器**，將更多陳述式新增至重複的篩選器。
-1. 按一下「儲存」**&#x200B;**，將重複的篩選器儲存在&#x200B;**「我的篩選器」**&#x200B;區域中。 原始濾鏡保持不變，而複製的濾鏡會儲存為新濾鏡。
+1. 按一下「儲存」****，將重複的篩選器儲存在&#x200B;**「我的篩選器」**&#x200B;區域中。 原始濾鏡保持不變，而複製的濾鏡會儲存為新濾鏡。
 
 ## 在工作負載平衡器中編輯現有篩選器 {#edit-an-existing-filter-in-the-workload-balancer}
 

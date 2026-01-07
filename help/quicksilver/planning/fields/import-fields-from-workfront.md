@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 994594f2-a888-423a-bf66-0d14baf57c55
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '606'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 7%
 您可以匯入現有Workfront欄位的復本。 從Workfront匯入欄位會為Workfront Planning記錄型別建立每個欄位的副本。
 
 
-## 存取需求
+## 存取權要求
 
 +++ 展開以檢視本文中功能的存取需求。 
 
@@ -41,7 +41,7 @@ ht-degree: 7%
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront套件</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
 <p>任何Workfront和任何Planning套件</p> <p>任何工作流程與任何Planning套件</p>
 <p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
@@ -128,7 +128,7 @@ ht-degree: 7%
 * 匯入Workfront欄位會建立相同欄位的復本，並在Workfront Planning中保留欄位名稱。 複製到Workfront Planning後，這些欄位獨立於原始Workfront欄位，不會共用資訊。
 <!--check this: * You do not need permissions or access to Workfront objects to be able to add their fields to Workfront Planning. -->
 * 您可以從下列Workfront物件新增原生或自訂欄位：
-   * 產品組合
+   * 專案組合
    * 方案
    * 專案
    * 任務
@@ -139,7 +139,7 @@ ht-degree: 7%
    * 使用者
    * 職務角色
    * 指派
-   * Hour
+   * 時數
    * 計費記錄
      <!--Available only to Preview, but might not come to Prod:* Rate card - visible in Production but asking PM if it should be hidden-->
    * 費用

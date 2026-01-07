@@ -6,10 +6,10 @@ description: 此整合案例連結具有 [!DNL Adobe Workfront] 預算清單專�
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: daf6a18d-a3df-497d-a612-8a4645b1a8c9
-source-git-commit: d3f234313677d916318c181c91cb951948454006
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '781'
-ht-degree: 2%
+ht-degree: 17%
 
 ---
 
@@ -23,41 +23,43 @@ ht-degree: 2%
 >
 >本文中的「行銷活動」是指此情境所代表的行銷活動使用案例，且絕對未連線至[!DNL Workfront Fusion] Adobe Campaign聯結器或[!UICONTROL 中最近棄用的]行銷活動[!DNL Workfront]物件。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
+   <td> <p>任何 Adobe Workfront Workflow 封裝及任何 Adobe Workfront Automation and Integration 封裝</p><p>Workfront Ultimate</p><p>Workfront Prime 和 Select 封裝，以及額外購買的 Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>標準</p><p>工作或更高</p> </td> 
+   <td role="rowheader">Adobe Workfront 授權</td> 
+   <td> <p>標準</p><p>工作或更高層級</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion授權</td> 
+   <td role="rowheader">Adobe Workfront Fusion 授權</td> 
    <td>
-   <p>作業型：無Workfront Fusion授權需求</p>
-   <p>以聯結器為基礎（舊版）：用於工作自動化和整合的Workfront Fusion </p>
+   <p>作業型：無 Workfront Fusion 授權要求</p>
+   <p>連接器型 (舊版)：Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
+   <p>如果您的組織擁有 Select 或 Prime Workfront 封裝，但不包括 Workfront Automation and Integration，則您的組織必須購買 Adobe Workfront Fusion。</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)存取需求。
+若要詳細了解此表格中的資訊，請參閱](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
-如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)。
+關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)。
+
++++
 
 ## 觸發中的事件
 
@@ -95,23 +97,23 @@ ht-degree: 2%
    </thead> 
    <tbody> 
     <tr> 
-     <td role="rowheader">[!UICONTROL 上市日期]</td> 
+     <td role="rowheader">[！UICONTROL上市日期]</td> 
      <td>日期 </td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[!UICONTROL 市場結束日期]</td> 
+     <td role="rowheader">[！UICONTROL市場結束日期]</td> 
      <td>日期</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[!UICONTROL 行銷活動概覽]</td> 
+     <td role="rowheader">[！UICONTROL行銷活動概覽]</td> 
      <td>段落文字欄位</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[!UICONTROL 金鑰訊息]</td> 
+     <td role="rowheader">[！UICONTROL金鑰訊息]</td> 
      <td>段落文字欄位</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[!UICONTROL 目標對象]</td> 
+     <td role="rowheader">[！UICONTROL目標對象]</td> 
      <td> <p>下拉</p> <p>包含適合您流程的選項。</p> </td> 
     </tr> 
    </tbody> 

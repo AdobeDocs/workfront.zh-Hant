@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 1ef57b73a77d0c622b3dbd57057c51d0ccbad7db
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
-source-wordcount: '9457'
+source-wordcount: '9443'
 ht-degree: 0%
 
 ---
@@ -1348,7 +1348,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 此更新包含區域的視覺化變更。 功能未變更。
 
-若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。**&#x200B;**
+若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。****
 
 +++
 
@@ -1563,9 +1563,13 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 +++
 
-### 更新與註解
+<!--
+### Updates and Comments
 
-+++展開以檢視第2季所做的更新和評論介面更新
++++Expand to view Updates and Comments interface updates made in Q2
+
++++
+-->
 
 ### 註釋的「更多」功能表選項的介面更新
 

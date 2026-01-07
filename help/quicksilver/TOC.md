@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 8cbaa087be44ffd8142bd864e3fb47ffef992372
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
-source-wordcount: '13645'
+source-wordcount: '13638'
 ht-degree: 2%
 
 ---
@@ -1437,7 +1437,6 @@ ht-degree: 2%
          * [修改清單中多個問題的使用者指派](manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md)
          * [自動將問題狀態從等待回饋更新為進行中](manage-work/issues/manage-issues/turn-issue-status-from-awf-to-inp-automatically.md)
    * 甘特圖 {#the-gantt-chart}
-      * 甘特圖 {#the-gantt-chart}
       * [甘特圖](manage-work/gantt-chart/the-gantt-chart.md)
       * 甘特圖概觀 {#gantt-chart-overview}
          * [甘特圖概觀](manage-work/gantt-chart/use-the-gantt-chart/gantt-chart-overview.md)
@@ -2192,7 +2191,6 @@ ht-degree: 2%
    * [Adobe Workfront整合](workfront-integrations-and-apps/workfront-integrations.md)
    * [Adobe Workfront內建整合概述](workfront-integrations-and-apps/built-in-integrations-non-admin.md)
    * [Adobe Workfront整合方法](workfront-integrations-and-apps/built-in-vs-api-vs-fusion.md)
-   * 檢閱和核准整合 {#review-approval-integrations}
    * 適用於Creative Cloud的Adobe Workfront {#workfront-for-creative-cloud}
       * [適用於Creative Cloud的Adobe Workfront](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)
       * 安裝適用於Creative Cloud應用程式的Adobe Workfront外掛程式 {#install-wf-cc}
@@ -2531,9 +2529,9 @@ ht-degree: 2%
       * [使用JWT流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-jwt-flow.md)
       * [使用PKCE流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-pkce-flow.md)
       * [棄用API — 內部](wf-api/api/deprecation-api-internal.md)
-      * [&#x200B; API 21版的新增功能](/help/quicksilver/wf-api/api/new-api-version-21.md)
-      * [&#x200B; API 20版的新增功能](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [&#x200B; API 19版的新增功能](wf-api/api/new-api-version-19.md)
+      * [ API 21](/help/quicksilver/wf-api/api/new-api-version-21.md)版的新增功能
+      * [ API 20](/help/quicksilver/wf-api/api/new-api-version-20.md)版的新增功能
+      * [ API 19](wf-api/api/new-api-version-19.md)版的新增功能
       * [API 18版的新增功能](wf-api/api/new-api-version-18.md)
       * [API 17版的新增功能](wf-api/api/new-api-version-17.md)
       * [API 16版的新增功能](wf-api/api/new-api-version-16.md)

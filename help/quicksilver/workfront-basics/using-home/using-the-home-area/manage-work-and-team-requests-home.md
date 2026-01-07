@@ -6,10 +6,10 @@ description: 當工作任務和問題指派給您時，它們會列在我的工�
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 79826743-eeb9-4849-b46f-cc3f086e3194
-source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 0%
+source-wordcount: '790'
+ht-degree: 2%
 
 ---
 
@@ -18,11 +18,9 @@ ht-degree: 0%
 
 當工作任務和問題指派給您時，它們會列在我的工作Widget、我的任務Widget和我的問題Widget中。  您可以檢視、處理或移除工作專案和請求。
 
-+++ 展開以檢視本文中功能的存取需求。
+## 存取權要求
 
-## 存取需求
-
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,11 +36,11 @@ ht-degree: 0%
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權</strong></td> 
    <td>
    <p>標準</p>
-    <p>工作或更高</p> </td> 
+    <p>工作或更高層級</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>存取層級設定</strong></td> 
-   <td> <p>[!UICONTROL 編輯]對任務和問題的存取權</p> </td> 
+   <td> <p>[！UICONTROL編輯]對任務和問題的存取權</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
@@ -122,9 +120,9 @@ ht-degree: 0%
 1. 按一下右上角的&#x200B;**[!UICONTROL 主功能表]** ![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
 1. （視條件而定）按一下&#x200B;**自訂**&#x200B;以新增&#x200B;**我的工作** Widget。
 
-1. 在Widget工作清單中，暫留在工作專案上，然後按一下&#x200B;**摘要**&#x200B;圖示以檢視工作專案的相關資訊。
+1. 在Widget工作清單中，暫留在工作專案上，然後按一下&#x200B;**摘要**圖示以檢視工作專案的相關資訊。
    ![開啟摘要](assets/open-summary-new-home.png)
-1. 在&#x200B;**工作總攬**&#x200B;區段中，移除您的名稱。
+1. 在&#x200B;**工作總攬**區段中，移除您的名稱。
    ![移除指定任務](assets/remove-assignment.png)
 
 

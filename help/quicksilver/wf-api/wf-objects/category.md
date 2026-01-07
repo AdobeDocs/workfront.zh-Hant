@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 24c900ee-a8f1-458e-a18b-c098c6314e0c
-source-git-commit: 8c72a44c49d137c6c73f7c213cb411e45f5a6e24
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 28%
@@ -31,7 +31,7 @@ message: "APIModel INTERNAL does not support field projectid (OpTask)"-->
  <col width="100"> 
  <thead> 
   <tr> 
-   <th>姓名</th> 
+   <th>名稱</th> 
    <th>標籤</th> 
    <th>類型</th> 
    <th>說明</th> 
@@ -130,7 +130,7 @@ message: "APIModel INTERNAL does not support field projectid (OpTask)"-->
   </tr> 
   <tr> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;name&quot;}"><strong>名稱</strong> </td> 
-   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Name&quot;}">姓名</td> 
+   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Name&quot;}">名稱</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String&quot;}">字串</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Name of the Object&quot;}">物件的名稱</td> 
    <td> </td> 
@@ -139,9 +139,9 @@ message: "APIModel INTERNAL does not support field projectid (OpTask)"-->
  </tbody> 
 </table>
 
-## 參考
+## 參考資料
 
-| 姓名 | 標籤 | 類型 | 輸入物件程式碼 |
+| 名稱 | 標籤 | 類型 | 輸入物件程式碼 |
 |---|---|---|---|
 | 客戶 | 客戶 | 客戶 | 客戶 |
 | 輸入者 | 輸入者 | 使用者 | 使用者 |
@@ -151,7 +151,7 @@ message: "APIModel INTERNAL does not support field projectid (OpTask)"-->
 
 ## 集合
 
-| 姓名 | 標籤 | 類型 | 輸入物件程式碼 |
+| 名稱 | 標籤 | 類型 | 輸入物件程式碼 |
 |---|---|---|---|
 | 存取權限規則 | accessRules | 存取規則 | ACSURL |
 | 類別存取規則 | categoryAccessRules | 類別存取規則 | 字幕 |
@@ -162,7 +162,7 @@ message: "APIModel INTERNAL does not support field projectid (OpTask)"-->
 
 ## 動作
 
-| 標籤 | 姓名 | 引數 |
+| 標籤 | 名稱 | 引數 |
 |---|---|---|
 | 指派類別 | assignCategories | `[{name: "objID",type: "string"},{name: "objCode",type: "string"},{name: "categoryIDs",type: "string[]"}]` |
 | 指派類別 | assignCategory | `[{name: "objID",type: "string"},name: "objCode",type: "string"},{name: "categoryID",type: "string"}]` |

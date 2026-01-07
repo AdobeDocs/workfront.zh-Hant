@@ -5,7 +5,7 @@ description: 瞭解Adobe Workfront中的AI助理
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 44db621643c76ab1f2c1b51d5e81cb0d1f827a58
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '851'
 ht-degree: 1%

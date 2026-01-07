@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 0cc1ab3a7412b7200ddab1a789ef5e9d86c3949f
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '1046'
 ht-degree: 2%
@@ -29,7 +29,7 @@ ht-degree: 2%
    * [建立或編輯環境升級套件](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
    * [安裝環境升級套件](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
-* 如需透過Workfront API執行此程式的指示，請參閱[使用 [!DNL Workfront] API](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)在 [!DNL Workfront] 環境之間移動物件。
+* 如需透過Workfront API執行此程式的指示，請參閱[使用 [!DNL Workfront] API [!DNL Workfront] 在](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)環境之間移動物件。
 
 [觀看此功能的影片示範](https://video.tv.adobe.com/v/3429735/){target=_blank}
 
@@ -153,7 +153,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>ASSEMBLY_FAILED</td> 
-   <td><p>如果ASSEMBLY階段失敗，則推進封裝會自動處於此狀態。</p><p>若要將封裝返回ASSEMBLING階段，您必須再次觸發組裝過程。</p><p>如需組裝套件的詳細資訊，請參閱文章建立或編輯環境升級套件中的<a href="https://experienceleague.adobe.com/zh-hant/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">編輯或組裝現有套件</a>小節。</td> 
+   <td><p>如果ASSEMBLY階段失敗，則推進封裝會自動處於此狀態。</p><p>若要將封裝返回ASSEMBLING階段，您必須再次觸發組裝過程。</p><p>如需組裝套件的詳細資訊，請參閱文章建立或編輯環境升級套件中的<a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">編輯或組裝現有套件</a>小節。</td> 
   </tr> 
   </tbody> 
 </table>

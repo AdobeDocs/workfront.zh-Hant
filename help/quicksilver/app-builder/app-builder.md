@@ -4,9 +4,9 @@ description: 客戶和合作夥伴可以利用由 Adobe App Builder 提供技術
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
-source-git-commit: 1c2422f61e3db6fbe05cd03b9fbc1f17e906ebad
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
-source-wordcount: '2285'
+source-wordcount: '2269'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,6 @@ Workfront UI擴充功能提供幾個主要優點：
 >請確定您已針對下列所有步驟選取正確的IMS組織。 如果您屬於多個組織，則可能會選取錯誤的組織。 請確定您是在正確的組織底下操作，組織通常列於右上角。
 
 1. 導覽至生產環境： https://adminconsole.adobe.com/
-
 1. 在&#x200B;**使用者**&#x200B;區段中，按一下&#x200B;**開發人員** > **新增開發人員**。
 
    ![在Admin Console中新增使用者](assets/manage-users-admin-console.png)
@@ -63,8 +62,8 @@ Workfront UI擴充功能提供幾個主要優點：
    >如果您看不到管理開發人員的選項，表示您沒有允許開發人員存取的產品。
 
 1. 新增使用者的電子郵件。 它應搜尋已從Admin Console中新增的現有使用者。
+1. 將必要的產品新增至開發人員設定檔，然後按一下[儲存]。****
 
-1. 將必要的產品新增至開發人員設定檔，然後按一下[儲存]。**&#x200B;**\
    ![新增開發人員](assets/add-developer.png)
 
 ### 存取App Builder
@@ -80,10 +79,8 @@ Workfront UI擴充功能提供幾個主要優點：
 [Adobe Developer網站](https://developer.adobe.com/uix/docs/guides/creating-project-in-dev-console/)提供其他指示。
 
 1. 使用您的Adobe ID登入Adobe Developer Console 。
-
 1. 選擇您的帳戶，以及您的設定檔或組織。
-
-1. 按一下[快速入門]區域中的[從範本建立專案]&#x200B;**&#x200B;**，或按一下[從範本建立新專案]&#x200B;**>[從範本建立專案]**。
+1. 按一下[快速入門]區域中的[從範本建立專案]****，或按一下[從範本建立新專案]**>[從範本建立專案]**。
 
    >[!IMPORTANT]
    >
@@ -92,11 +89,8 @@ Workfront UI擴充功能提供幾個主要優點：
    ![從範本建立](assets/create-from-template.png)
 
 1. 選取&#x200B;**App Builder**。
-
 1. 輸入&#x200B;**專案標題**&#x200B;和&#x200B;**應用程式名稱**。 兩者都有預設值，但如果您自訂值，稍後更容易識別您想要的專案。
-
 1. 保留&#x200B;**包含執行階段**&#x200B;已選取。
-
 1. 按一下「**儲存**」。
 
 ## 使用Adobe Developer (aio) CLI
@@ -157,33 +151,33 @@ GitHub和Adobe Developer網站上提供其他指示：
 
 1. 前往ExtensionRegistration.js。
 
-在ExtensionRegistration函式中，您應該會看到下列程式碼。 範本已為您建立此程式碼。 可以新增此程式碼以建立其他功能表專案。 請務必取代ID和URL。
+   在ExtensionRegistration函式中，您應該會看到下列程式碼。 範本已為您建立此程式碼。 可以新增此程式碼以建立其他功能表專案。 請務必取代ID和URL。
 
-    &quot;
-    mainMenu： &lbrace;
-    
-    getItems() &lbrace;
-    
-    return &lbrack;
-    
-    &lbrace;
-    
-    id： &#39;main-menu-label&#39;，
-    
-    url： &#39;/index.html#/main-menu-label&#39;，
-    
-    label： &#39;Main menu label&#39;，
-    
-    icon： icon1，
-    
-    &rbrace;，
-    
-    &rbrack;；
-    
-    &rbrace;，
-    
-    &rbrace;
-    &quot;&#39;
+   ```
+   mainMenu: { 
+   
+           getItems() { 
+   
+               return [ 
+   
+               { 
+   
+                   id: 'main-menu-label', 
+   
+                   url: '/index.html#/main-menu-label', 
+   
+                   label: 'Main menu label', 
+   
+                   icon: icon1, 
+   
+               }, 
+   
+               ]; 
+   
+           }, 
+   
+           } 
+   ```
 
 1. 新增下列程式碼片段：
 

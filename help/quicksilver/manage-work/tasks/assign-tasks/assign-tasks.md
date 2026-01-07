@@ -7,10 +7,10 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 01a80f6140650ca12aaee14115f79449dcfa2a18
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '2156'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -56,22 +56,22 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 * [設定全系統的專案偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)
 * [在工作負載平衡器中指派工作的總覽](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
+   <td>Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront授權</td> 
    <td> <p>標準</p>
-   <p>工作或更高</p>
+   <p>工作或更高層級</p>
    </td> 
   </tr> 
   <tr> 
@@ -191,7 +191,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 1. （選擇性）按一下&#x200B;**自動儲存**&#x200B;下拉式功能表，然後從下列選項中選取：
 
    | 選項 | 選項說明 |
-   |---|---| 
+   |---|---|
    | 自動儲存 | 您對任務進行的變更會自動儲存，且您無法還原 |
    | 手動儲存 | 您必須手動儲存變更。 您可以在儲存變更之前先還原變更。 |
    | 時間表計畫 | 您必須手動儲存變更。 您可以在儲存變更之前先還原變更。 儲存您的變更和所有專案相依性比選取「手動儲存」更快。 |
@@ -271,7 +271,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 1. （選擇性）如果要從所有工作移除現有的受指派人，請執行下列任一項作業：
 
    1. 開始輸入您要從任務中移除的使用者、角色或團隊名稱，然後當名稱出現在清單中時選取名稱，並按一下&#x200B;**移除受指派人**&#x200B;以移除更多受指派人。
-   1. 按一下「移除所有現有受指派人」**&#x200B;**，從所有選取的工作中移除所有受指派人。
+   1. 按一下「移除所有現有受指派人」****，從所有選取的工作中移除所有受指派人。
 
 1. 按一下「**儲存變更**」。
 1. （選擇性和條件性）當「指派至」或「工作總攬」欄位顯示在您的任務清單中時，按一下這些欄中的一個以取得任務，然後按一下受指派人名稱旁的&#x200B;**X圖示**，以將其從任務中移除。

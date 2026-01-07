@@ -8,10 +8,10 @@ feature: System Setup and Administration, Workfront Integrations and Apps, Digit
 role: Admin
 author: Courtney, Becky
 exl-id: 78281bca-1fa1-4e78-96e5-70be12142bbd
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 2%
+ht-degree: 9%
 
 ---
 
@@ -21,20 +21,20 @@ ht-degree: 2%
 
 當您停用[!DNL Workfront]與檔案提供者之間的連線時，檔案的連結會從[!DNL Workfront]中消失。 使用者無法再看到連結的檔案，也無法透過[!DNL Workfront]連結對檔案進行任何變更，也無法向該提供者新增更多檔案。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++展開以檢視這篇文章中所述功能的存取權要求。
 
 <table>
   <tr>
-   <td>Adobe Workfront套件
+   <td>Adobe Workfront 封裝
    </td>
    <td> <p>Prime或Ultimate</p>
     <p>Workflow Ultimate</p>
    </td>
   </tr>
   <tr>
-   <td>Adobe Workfront授權
+   <td>Adobe Workfront 授權
    </td>
    <td><p>標準</p>
    <p>規劃</p>
@@ -49,6 +49,8 @@ ht-degree: 2%
 </table>
 
 如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 停用雲端提供者整合
 

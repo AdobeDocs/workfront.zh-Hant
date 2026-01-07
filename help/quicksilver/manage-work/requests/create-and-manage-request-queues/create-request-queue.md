@@ -8,7 +8,7 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '2843'
 ht-degree: 2%
@@ -50,16 +50,16 @@ ht-degree: 2%
 
 有關如何在Workfront Planning中設定請求表單的資訊，請參閱[在Adobe Workfront Planning中建立和管理請求表單](/help/quicksilver/planning/requests/create-request-form.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
@@ -294,8 +294,8 @@ To create a Request Queue:
 
    * **Show all selected and unselected fields to:** Select which users you want to see all the fields on the new request form. The following options control the access to the fields on the form.
     
-      |Which users can see all fields on the request form | Description|  
-      |---|---| 
+      |Which users can see all fields on the request form | Description|
+      |---|---|
       | All Users (Plan Licenses) |All users who have a Plan license can see the selected as well as the unselected fields. |
       | People with view access to this project (Plan License) |Those users with a Plan license that also have View rights to this project can see the selected as well as the unselected fields. The rest of the users who can submit requests to this project can see just the selected fields. |
       | No Users |No users can see the unselected fields. All users who can submit requests to this project can only see the fields selected.  |
@@ -512,7 +512,7 @@ To create a Request Queue:
    * **將所有選取和未選取的欄位顯示給：**&#x200B;選取哪些使用者應該看到新要求表單上的所有欄位。 以下選項可控制對表單上欄位的存取。
 
      | 哪些使用者可以檢視請求表單上的所有欄位 | 說明 |
-     |---|---| 
+     |---|---|
      | 所有使用者（計畫授權） | 所有擁有Plan授權的使用者都可以看到所選以及未選取的欄位。 |
      | 擁有此專案檢視存取權限的人員（計劃授權） | 擁有計畫授權且擁有此專案檢視許可權的使用者可以檢視所選及未所選欄位。 其他可以提交請求至此專案的使用者只能看到選取的欄位。 |
      | 無使用者 | 沒有使用者可以看到未選取的欄位。 所有可以提交請求至此專案的使用者只能看到選取的欄位。 這是預設選取範圍。 |

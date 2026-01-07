@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 15ffe027c281782bcaa4df229badc134d91195a0
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '1998'
 ht-degree: 2%
@@ -129,7 +129,7 @@ The following features are currently available in Workfront Planning:
 |   Search for records in the timeline view    | ✓    |   |
 |     Connect Workfront Planning records to Workfront projects, programs, portfolios, companies, groups  |   ✓                            |                                 |                  |
 |     Connect Workfront Planning records to Adobe Experience Manager assets                                  |      ✓                         |                                  |                 |
-|     Connect Planning records from different workspaces                                  |      ✓                         |                                  |                 | 
+|     Connect Planning records from different workspaces                                  |      ✓                         |                                  |                 |
 |     Record page with detailed information                            |   ✓                           |                                  |                  |
 |     Update the layout of the record's page              |    ✓                           |                                 |                  |
 |  Share workspaces | ✓| |  |
@@ -145,9 +145,9 @@ The following features are currently available in Workfront Planning:
 |     Receive email notifications                                 | ✓                              |                                  |                 |
 |     Add thumbnails to records                                 | ✓                              |                                  |                 |
 |     View history of changes on a record                                 | ✓                              |                                  |                 |
-|     Rich Text formatting for Paragraph fields                                 |      ✓                         |                                  |                 | 
-|     Adobe Workfront Planning modules for Adobe Workfront Fusion                                 |      ✓                         |                                  |                 | 
-|     Copy and paste information from one field to another                                  |      ✓                         |                                  |                 | 
+|     Rich Text formatting for Paragraph fields                                 |      ✓                         |                                  |                 |
+|     Adobe Workfront Planning modules for Adobe Workfront Fusion                                 |      ✓                         |                                  |                 |
+|     Copy and paste information from one field to another                                  |      ✓                         |                                  |                 |
 |     Access Planning records from Workfront objects                                  |      ✓                         |                                  |                 |
 |     Connect Planning records from Workfront objects                                  |      ✓                         |                                  |                 |
 |     Workfront Planning public API                                 |      ✓                         |                                  |                 |
@@ -395,7 +395,7 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
     >
     >    The Workfront AI Assistant has been temporarily removed and it will be available at a later date.-->
 
-* [適用於Workfront Fusion的Adobe Workfront規劃模組](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)：透過Adobe Workfront規劃模組，您可以在Workfront規劃中發生事件時觸發情境。 您也可以建立、讀取、更新及刪除記錄，或對Adobe Workfront Planning帳戶執行自訂API呼叫。
+* [適用於Workfront Fusion的Adobe Workfront規劃模組](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)：透過Adobe Workfront規劃模組，您可以在Workfront規劃中發生事件時觸發情境。 您也可以建立、讀取、更新及刪除記錄，或對Adobe Workfront Planning帳戶執行自訂API呼叫。
 
 * [Adobe Workfront Planning API基本知識](/help/quicksilver/planning/general/planning-api-basics.md)： Adobe Workfront Planning API的目標是透過引入透過HTTP運作的REST-ful架構，簡化與Planning的整合建置。
 

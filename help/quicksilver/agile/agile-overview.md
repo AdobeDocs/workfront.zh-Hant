@@ -7,7 +7,7 @@ description: 敏捷是一種工作方法，可讓團隊以一致的步調完成�
 author: Jenny
 feature: Agile
 exl-id: 35b329e5-f360-416c-adbb-ec39ab7a50cc
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. 建立敏捷團隊。
 
-   如需詳細資訊，請參閱[建立敏捷團隊](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md/#create-an-agile-team-1)一文中的[建立敏捷團隊](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#converting-an-existing-team-into-an-agaile-team)或[將現有團隊轉換為敏捷團隊](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)一節。
+   如需詳細資訊，請參閱[建立敏捷團隊](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#create-an-agile-team-1)一文中的[建立敏捷團隊](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#converting-an-existing-team-into-an-agaile-team)或[將現有團隊轉換為敏捷團隊](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)一節。
 
 1. 設定敏捷團隊以使用Kanban或Scrum。
 
