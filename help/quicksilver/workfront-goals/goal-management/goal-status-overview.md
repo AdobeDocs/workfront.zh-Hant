@@ -7,7 +7,7 @@ description: 目標狀態會指出目標是否作用中且目前正在記錄進�
 author: Alina
 feature: Workfront Goals
 exl-id: dc70dfac-2bdd-41ab-b316-0cd20f749423
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '793'
 ht-degree: 4%
@@ -58,7 +58,7 @@ ht-degree: 4%
   | 已關閉 | 無 | 是 | 無 | - |
 
 * 開啟已關閉的目標也會更新目標的進度。
-* 您在目標上執行的特定動作也會更新其狀態。 如需有關如何更新目標狀態的資訊，請參閱下列文章：
+* 您在目標上執行的特定動作也會更新其狀態。 如需有關如何更新目標狀態的資訊，請參閱下列文章：
 
    * [在Adobe Workfront目標中建立目標](../../workfront-goals/goal-management/create-goals.md)
    * [在Adobe Workfront目標中啟用目標](../../workfront-goals/goal-management/activate-goals.md)

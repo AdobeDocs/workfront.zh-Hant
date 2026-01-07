@@ -5,9 +5,9 @@ title: 在請求區域中建立和管理檢視
 description: 如果您使用新的請求體驗，您可以建立和儲存請求區域的檢視。
 author: Becky
 feature: Work Management
-source-git-commit: 684f7fc62fe341a59b1b7f7ae6c7118a5e511513
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '1004'
+source-wordcount: '818'
 ht-degree: 2%
 
 ---
@@ -63,11 +63,14 @@ ht-degree: 2%
 
 您可以在Workfront的「請求」區域或「首頁」的「我的請求」小工具中建立檢視。
 
-1. 若要存取「要求」清單，請按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 要求]**。
+1. 若要存取「請求」清單：
+
+   {{step1-to-requests}}
 
 1. 若要存取「首頁」中的「我的請求」Widget：
 
-   1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
+   {{step1-to-home}}
+
    1. 找出「我的請求」Widget。
 
       如需有關「我的請求」Widget的詳細資訊，請參閱[使用「我的請求」Widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)。
@@ -76,18 +79,21 @@ ht-degree: 2%
 
    ![新檢視](assets/create-new-view.png)
 
-1. 輸入新檢視的名稱，然後按一下[建立]。**&#x200B;**
+1. 輸入新檢視的名稱，然後按一下[建立]。****
 1. 繼續[在要求區域](#edit-a-view-in-the-requests-area)編輯檢視。
 
 ## 在請求區域中編輯檢視
 
 您可以編輯現有檢視，包括您剛建立的檢視。
 
-1. 若要存取「要求」清單，請按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 要求]**。
+1. 若要存取「請求」清單：
+
+   {{step1-to-requests}}
 
 1. 若要存取「首頁」中的「我的請求」Widget：
 
-   1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
+   {{step1-to-home}}
+
    1. 找出「我的請求」Widget。
 
       如需有關「我的請求」Widget的詳細資訊，請參閱[使用「我的請求」Widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)。
@@ -126,7 +132,7 @@ ht-degree: 2%
 
    <span class="preview">在預覽環境中，您也可以依已新增至檢視的任何自訂欄位進行篩選。</span>
 
-   您可以有多個&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;加入的篩選器。
+   您可以有多個&#x200B;**And**&#x200B;或&#x200B;**Or**加入的篩選器。
 當您新增篩選條件時，要求清單會自動篩選。
 
 
@@ -146,11 +152,14 @@ Workfront管理員可以將新檢視新增至版面配置範本。
 
 您可以與其他使用者、團隊或群組共用您建立的檢視。
 
-1. 若要存取「要求」清單，請按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 要求]**。
+1. 若要存取「請求」清單：
+
+   {{step1-to-requests}}
 
 1. 若要存取「首頁」中的「我的請求」Widget：
 
-   1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
+   {{step1-to-home}}
+
    1. 找出「我的請求」Widget。
 
       如需有關「我的請求」Widget的詳細資訊，請參閱[使用「我的請求」Widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)。

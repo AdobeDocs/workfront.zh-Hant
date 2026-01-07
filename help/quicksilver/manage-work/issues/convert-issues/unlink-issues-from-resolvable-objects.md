@@ -6,10 +6,10 @@ description: 當您透過將問題轉換為專案或任務來建立專案或任�
 author: Alina
 feature: Work Management
 exl-id: c18160e5-9f95-4575-a1b3-b4f7e5334844
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '429'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -31,16 +31,16 @@ ht-degree: 0%
 
 您可以從問題中移除專案、任務或問題，藉此取消問題解決方案與專案、任務或問題解決方案的連結。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -78,7 +78,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
-   <td> <p>Edit access to Issues</p> <p>View access to Tasks and&nbsp;Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Issues</p> <p>View access to Tasks and Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 

@@ -6,7 +6,7 @@ description: Adobe Workfront中的專案與Microsoft專案大多相容。 本文
 author: Alina
 feature: Work Management
 exl-id: 381eb6ad-8084-406b-90f9-44460b58a04c
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 4%
@@ -18,13 +18,13 @@ ht-degree: 4%
 Adobe Workfront中的專案與Microsoft專案大多相容。 使用這兩個應用程式，您可以執行下列動作：
 
 * 從Microsoft專案匯出專案，並將其匯入Workfront
-* 從Workfront匯出專案，並將其匯入Microsoft專案。 
+* 從Workfront匯出專案，並將其匯入Microsoft專案。
 
 如需有關將專案從Microsoft專案匯入到Workfront的詳細資訊，請參閱[從Microsoft專案匯入專案](../../../manage-work/projects/create-projects/import-project-from-ms-project.md)。
 
 如需從Workfront匯出專案以匯入Microsoft專案的詳細資訊，請參閱[將專案匯出至Microsoft專案](../../../manage-work/projects/manage-projects/export-project-to-ms-project.md)。
 
-執行這類資料匯入時，請務必瞭解資訊如何從一個應用程式轉譯為另一個應用程式。 大多數時候，您必須在完成匯入後，對專案進行一些手動修改。 
+執行這類資料匯入時，請務必瞭解資訊如何從一個應用程式轉譯為另一個應用程式。 大多數時候，您必須在完成匯入後，對專案進行一些手動修改。
 
 ## 欄位對應概觀
 
@@ -64,4 +64,4 @@ Adobe Workfront中的專案與Microsoft專案大多相容。 使用這兩個應�
 
   >[!NOTE]
   >
-  >由於限制無法在Microsoft專案和Workfront之間對應，請確定任務之間有前置任務關係。 否則，任務的計劃開始和計畫完成日期在匯入的專案中可能不準確。 
+  >由於限制無法在Microsoft專案和Workfront之間對應，請確定任務之間有前置任務關係。 否則，任務的計劃開始和計畫完成日期在匯入的專案中可能不準確。

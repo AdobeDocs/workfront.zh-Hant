@@ -7,10 +7,10 @@ description: 指派存取層級時，您的Adobe Workfront管理員可授予您�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: bfa6ce97-24ad-44b3-9c2f-7fac6b748f94
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '892'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -24,22 +24,22 @@ ht-degree: 0%
 許可權是Workfront中每個專案專屬的許可權，可定義使用者可對該專案執行的動作。
 
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td> <p>標準</p> 
-   <p>工作或更高</p> 
+   <p>工作或更高層級</p> 
    </td> 
   </tr> 
   <tr> 
@@ -77,7 +77,7 @@ ht-degree: 0%
 
   如需Workfront中物件階層的詳細資訊，請參閱[瞭解Adobe Workfront中的物件](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)。
 
-* 您可以從程式中移除繼承的許可權。 如需有關從物件移除許可權的詳細資訊，請參閱  [從物件移除許可權](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)。
+* 您可以從程式中移除繼承的許可權。 如需有關從物件移除許可權的詳細資訊，請參閱   [從物件移除許可權](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)。
 
 ## 共用方案
 
@@ -155,18 +155,18 @@ ht-degree: 0%
 
 | **動作** | **管理** | **檢視** |
 |---|---|---|
-| 編輯計畫詳細資料 | ✓ |   |
+| 編輯計畫詳細資料 | ✓ |   |
 | 檢視計畫 | ✓ | ✓ |
-| 刪除計畫 | ✓ |   |
-| 附加自訂表格 | ✓ |   |
-| 編輯自訂欄位 | ✓ |   |
-| 新增或移除專案&#42; | ✓ |   |
-| 核准專案 | ✓ |   |
+| 刪除計畫 | ✓ |   |
+| 附加自訂表格 | ✓ |   |
+| 編輯自訂欄位 | ✓ |   |
+| 新增或移除專案&#42; | ✓ |   |
+| 核准專案 | ✓ |   |
 | 新增檔案資料夾&#42; | ✓ | ✓ |
 | 新增檔案 | ✓ | ✓ |
 | 新增更新/評論 | ✓ | ✓ |
 | 共用 | ✓ | ✓ |
-| 共用系統範圍 |   | ✓ |
+| 共用系統範圍 |   | ✓ |
 
 *這些許可權是由存取層級和其他物件（例如專案）的許可權所控制。
 

@@ -6,10 +6,10 @@ description: 任務限制決定任務在專案上何時開始和結束。 如需
 author: Alina
 feature: Work Management
 exl-id: 54b54892-f8b3-4704-8221-03bbb9f07917
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '298'
-ht-degree: 10%
+ht-degree: 19%
 
 ---
 
@@ -17,22 +17,22 @@ ht-degree: 10%
 
 任務限制決定任務在專案上何時開始和結束。 如需詳細資訊，請參閱[任務限制總覽](../../../manage-work/tasks/task-constraints/task-constraint-overview.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td><p>標準</p> 
-   <p>工作或更高</p> </td> 
+   <p>工作或更高層級</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -91,7 +91,7 @@ ht-degree: 10%
    | 盡可能早 | 如需相關資訊，請參閱[任務限制總覽：儘快](../../../manage-work/tasks/task-constraints/as-soon-as-possible.md)。 |
    | 盡可能遲 | 如需相關資訊，請參閱[任務限制總覽：儘可能遲](../../../manage-work/tasks/task-constraints/as-late-as-possible.md)。 |
    | 最早可用時間 | 如需相關資訊，請參閱[任務限制總覽：最早可用時間](../../../manage-work/tasks/task-constraints/earliest-available-time.md)。 |
-   | 最新可用時間 | 如需相關資訊，請參閱[任務限制總覽：最新可用時間](../../../manage-work/tasks/task-constraints/latest-available-time.md)。 |
+   | 最晚可用時間 | 如需相關資訊，請參閱[任務限制總覽：最新可用時間](../../../manage-work/tasks/task-constraints/latest-available-time.md)。 |
    | 開始時間不晚於 | 如需相關資訊，請參閱[任務限制總覽：開始時間不晚於](../../../manage-work/tasks/task-constraints/start-no-later-than.md)。 |
    | 開始時間不早於 | 如需相關資訊，請參閱[任務限制總覽：開始時間不得早於](../../../manage-work/tasks/task-constraints/start-no-earlier-than.md)。 |
    | 完成時間不晚於 | 如需相關資訊，請參閱[任務限制總覽：完成時間不晚於](../../../manage-work/tasks/task-constraints/finish-no-later-than.md)。 |
@@ -101,4 +101,4 @@ ht-degree: 10%
 
 1. 按一下&#x200B;**儲存** **變更**。
 
- 
+

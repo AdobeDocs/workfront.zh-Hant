@@ -7,10 +7,10 @@ description: 建立範本後，您可以編輯有關範本任務的資訊。 使
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '4633'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -38,16 +38,16 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 >
 >您無法大量編輯屬於不同範本的範本任務。 您只能編輯屬於相同範本的範本任務。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -159,7 +159,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    * [設定](#settings)
    * [指派](#assignments)
    * [自訂表單](#custom-forms)
-   * [評論](#comment)
+   * [註解](#comment)
 
 1. 繼續編輯範本任務，如本文的[使用舊版體驗](#edit-a-template-task-using-the-old-experience)編輯範本任務一節中所述。
 
@@ -430,7 +430,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    按一下「**儲存變更**」。
 
-#### 評論 {#comment}
+#### 註解 {#comment}
 
 1. 如上所述，開始編輯範本任務。
 1. 按一下&#x200B;**註解**。
@@ -452,7 +452,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 * [財務](#finance-1)
 * [自訂表單](#custom-forms-1)
 * [設定](#settings-1)
-* [評論](#comment-1)
+* [註解](#comment-1)
 
 #### 範本任務名稱
 
@@ -462,7 +462,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 
 1. 如上所述，開始編輯範本任務。
-1. 在[編輯範本任務]方塊中，按一下[範本任務名稱] **&#x200B;**&#x200B;並新增範本任務的名稱。
+1. 在[編輯範本任務]方塊中，按一下[範本任務名稱] ****&#x200B;並新增範本任務的名稱。
 
    大量編輯範本任務時，此檢視不可用。
 
@@ -756,7 +756,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    按一下「**儲存**」。
 
-#### 評論 {#comment-1}
+#### 註解 {#comment-1}
 
 1. 如上所述，開始編輯範本任務。
 1. 在&#x200B;**編輯範本任務**&#x200B;方塊中，按一下左側面板中的&#x200B;**註解**。

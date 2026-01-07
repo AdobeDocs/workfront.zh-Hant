@@ -6,10 +6,10 @@ description: 如有需要，您可以手動將專案的「狀態」更新為任�
 author: Alina
 feature: Work Management
 exl-id: 80098514-fd44-436d-836b-bd9c1b52b3a9
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '357'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -25,16 +25,16 @@ ht-degree: 0%
 
 如需有關專案完成模式的詳細資訊，請參閱[編輯專案](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 

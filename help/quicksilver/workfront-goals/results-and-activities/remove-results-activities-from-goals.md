@@ -7,10 +7,10 @@ description: 當結果、活動和專案不再相關時，您可以從Adobe Work
 author: Alina
 feature: Workfront Goals
 exl-id: 0e064dbd-6168-47b4-98ab-b5c0481e839e
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 0%
+source-wordcount: '646'
+ht-degree: 2%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 您可以透過移除目標之間的連線來移除目標之間的對齊方式。 如需詳細資訊，請參閱[移除Adobe Workfront目標中的目標校準](../goal-alignment/remove-goal-alignment.md)。
 
-## 存取需求
+## 存取權要求
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ ht-degree: 0%
 >
 >Adobe Workfront目標不再提供購買。
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto">
 <col>
@@ -49,7 +49,7 @@ ht-degree: 0%
 </col>
 <tbody>
  <tr>
-  <td> <p>Adobe Workfront套件</p> </td> 
+  <td> <p>Adobe Workfront 封裝</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
    </td> 
@@ -187,11 +187,9 @@ How you delete results and activities differs depending on the environment you u
 
 -->
 
-1. 按一下右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**目標**。
+{{step1-to-goals}}
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
-   如此將可開啟Workfront目標區域，且預設會顯示目標清單。
+如此將可開啟Workfront目標區域，且預設會顯示目標清單。
 
 1. 按一下您要從中移除結果和活動的目標名稱。
 
@@ -232,12 +230,9 @@ Dsconnecting projects from goals differs depending on the environment you use.
 -->
 
 
-1. 按一下右上角的&#x200B;**主要功能表**&#x200B;圖示，然後按一下&#x200B;**目標**。
+{{step1-to-goals}}
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
-
-   如此將可開啟Workfront目標區域，且預設會顯示目標清單。
+如此將可開啟Workfront目標區域，且預設會顯示目標清單。
 
 1. 按一下您要從中移除結果和活動的目標名稱。
 

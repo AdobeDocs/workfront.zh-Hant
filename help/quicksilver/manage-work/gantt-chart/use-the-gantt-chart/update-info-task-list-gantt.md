@@ -6,10 +6,10 @@ description: Adobe Workfront任務清單的甘特圖顯示有關專案或範本�
 author: Alina
 feature: Work Management
 exl-id: 0a8e6fd5-985c-49e5-842d-67ade29ee1c9
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1006'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -31,9 +31,9 @@ Adobe Workfront任務清單的[!UICONTROL 甘特圖]顯示專案或範本上任�
 * 更新完成百分比
 * 平準專案資源
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,16 +45,16 @@ Adobe Workfront任務清單的[!UICONTROL 甘特圖]顯示專案或範本上任�
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>[!UICONTROL 標準]</p>
-   <p>[!UICONTROL 計畫]</p> </td> 
+   <td> <p>[！UICONTROL標準]</p>
+   <p>[！UICONTROL計畫]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[!UICONTROL Edit]對專案和任務的存取權</p> </td> 
+   <td> <p>[！UICONTROL Edit]對專案和任務的存取權</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>[!UICONTROL Manage]專案和任務的存取權</p> </td> 
+   <td> <p>[！UICONTROL Manage]專案和任務的存取權</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -172,11 +172,11 @@ Adobe Workfront任務清單的[!UICONTROL 甘特圖]顯示專案或範本上任�
 
    ![Change_start_end_date.png](assets/change-start-end-date.png)
 
-1. 如果您以影響任務限制的方式變更任務日期，請按一下[接受] **&#x200B;**&#x200B;認可任務限制變更。
+1. 如果您以影響任務限制的方式變更任務日期，請按一下[接受] ****&#x200B;認可任務限制變更。
 
    >[!NOTE]
    >
-   >如果任務有下列其中一個限制，則系統會將任務限制[!UICONTROL 更新為]開始時間不早於[!UICONTROL &#x200B; （如果專案是從]開始日期[!UICONTROL 排程）或是]完成時間不晚於[!UICONTROL &#x200B; （如果專案是從]完成日期[!UICONTROL 排程）：]
+   >如果任務有下列其中一個限制，則系統會將任務限制[!UICONTROL 更新為]開始時間不早於[!UICONTROL  （如果專案是從]開始日期[!UICONTROL 排程）或是]完成時間不晚於[!UICONTROL  （如果專案是從]完成日期[!UICONTROL 排程）：]
    >
    >   
    >   
@@ -246,7 +246,7 @@ Adobe Workfront任務清單的[!UICONTROL 甘特圖]顯示專案或範本上任�
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>(NOTE:&nbsp;this is drafted because I moved the whole content to the article linked above)</p>
+<p>(NOTE: this is drafted because I moved the whole content to the article linked above)</p>
 <ol>
 <li value="1">Go to the project you want to level.</li>
 <li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> In the <strong>Tasks</strong> area, click the <strong>Gantt chart</strong> icon.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">All changes are saved automatically when the <strong>Autosave</strong> option is enabled. It is enabled by default. </p> </li>

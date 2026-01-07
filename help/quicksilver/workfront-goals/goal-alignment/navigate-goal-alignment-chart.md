@@ -6,10 +6,10 @@ description: 使用「目標校準」區段，在流程圖中顯示整個組織�
 author: Alina
 feature: Workfront Goals
 exl-id: e79ced31-4680-4af7-b083-3d615c747af8
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 1%
+source-wordcount: '883'
+ht-degree: 3%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 * [Adobe Workfront目標中的目標一致性概觀](../../workfront-goals/goal-alignment/goal-alignment-overview.md)
 * [透過在Adobe Workfront目標中連線目標來對齊目標](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
 
-## 存取需求
+## 存取權要求
 
 >[!NOTE]
 >
@@ -32,14 +32,14 @@ ht-degree: 1%
 >
 >Adobe Workfront目標不再提供購買。
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr>
-  <td> <p>Adobe Workfront套件</p> </td> 
+  <td> <p>Adobe Workfront 封裝</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
    </td> 
@@ -125,9 +125,8 @@ Or
 
 ## 導覽「目標校準」區段
 
-1. 按一下熒幕右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](../goal-alignment/assets/dots-main-menu-icon.png)，然後按一下&#x200B;**目標**。
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-alignment/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
+{{step1-to-goals}}
+
 1. 按一下左側面板中的&#x200B;**目標校準**。
 1. 使用對齊圖表右上角的篩選器，僅選取對您而言重要的目標。 如需在Workfront目標中使用篩選器的相關資訊，請參閱[Adobe Workfront目標中的篩選資訊](../../workfront-goals/goal-management/filter-information-wf-goals.md)。
 
@@ -159,7 +158,7 @@ Or
       <td role="rowheader">目標進度列<span>和進度</span></td> 
       <td> <p>目標進度指出目前已達成的目標程度。 這是根據自目標時段開始以來經過的時間，自動計算目標的所有已校準目標、結果和活動的平均進度。 如需有關計算目標進度的資訊，請參閱<a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref">Adobe Workfront目標中的目標進度和條件總覽</a>。 </p> 
        <div> 
-        <p>到目前日期的目標實際進度。 下列進度值和顏色表示目標準時達成的可能性： </p> 
+        <p>到目前日期的目標實際進度。 下列進度值和顏色表示目標準時達成的可能性： </p> 
         <ul> 
          <li><span>達成目標</span> （綠色指標）：目標準時，將準時達成。</li> 
          <li> <span>有風險</span> （黃色指標）：目標落後，可能無法按時達成。</li> 

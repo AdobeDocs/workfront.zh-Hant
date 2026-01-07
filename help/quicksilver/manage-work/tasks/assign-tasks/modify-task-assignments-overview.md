@@ -7,7 +7,7 @@ description: 您可以將任務指派給使用者、團隊或工作角色，或�
 author: Lisa
 feature: Work Management
 exl-id: e774f2db-494d-4f93-8727-3c073e5f930b
-source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '875'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 * 如需指派工作的相關資訊，請參閱[指派工作](../../../manage-work/tasks/assign-tasks/assign-tasks.md)和[修改工作清單中的多個使用者指派](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)。
 
 * 如需有關在「排程」區域中修改多個任務指派的資訊，請參閱「在排程區域中修改多個使用者指派給任務」。
-* 如需有關使用工作負載平衡器指派工作的資訊，請參閱在工作負載平衡器[&#128279;](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)中指派工作的總覽。
+* 如需有關使用工作負載平衡器指派工作的資訊，請參閱在工作負載平衡器[中指派工作的總覽。](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 
 本文中的部分資訊也適用於問題的指派。 如需指派問題及其他考量事項的詳細資訊，請參閱[修改問題指派的概觀](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)。
 

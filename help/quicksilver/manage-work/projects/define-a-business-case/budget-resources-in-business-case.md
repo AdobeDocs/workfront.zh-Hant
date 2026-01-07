@@ -5,7 +5,7 @@ description: 作為資源計畫的一部分，當您建立業務案例時，可�
 author: Becky
 feature: Work Management
 exl-id: 85aa13c7-e48d-4b8c-89f7-1ba7f66670b0
-source-git-commit: fa0b4322b9f7c1d506cf194645c7ae50ad8c0f0b
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%
@@ -65,7 +65,7 @@ ht-degree: 0%
   -->
 
 <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about the access needed to budget resources, see <a href="../../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md" class="MCXref xref">Access needed to budget resources in&nbsp;Adobe Workfront</a>.</p>
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about the access needed to budget resources, see <a href="../../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md" class="MCXref xref">Access needed to budget resources in Adobe Workfront</a>.</p>
   -->
 
 <!--

@@ -6,10 +6,10 @@ description: 當您共用目標時，您會將目標的管理許可權授予未�
 author: Alina
 feature: Workfront Goals
 exl-id: 747449cf-9092-4b9f-9add-db2e7d3fab48
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 5%
+source-wordcount: '724'
+ht-degree: 9%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 5%
 
 當您共用目標時，您會將目標的管理許可權授予未建立該目標的人。
 
-## 存取需求
+## 存取權要求
 
 >[!NOTE]
 >
@@ -25,7 +25,7 @@ ht-degree: 5%
 >
 >Adobe Workfront目標不再提供購買。
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto">
 <col>
@@ -34,7 +34,7 @@ ht-degree: 5%
 </col>
 <tbody>
  <tr>
-  <td> <p>Adobe Workfront套件</p> </td> 
+  <td> <p>Adobe Workfront 封裝</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
    </td> 
@@ -166,12 +166,9 @@ ht-degree: 5%
 
 ## 共用目標
 
-1. 按一下右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png) > **目標**。
+{{step1-to-goals}}
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../workfront-goals-settings/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
-
-   目標清單隨即顯示。
+目標清單隨即顯示。
 
 1. 按一下清單中目標的名稱。 目標頁面隨即開啟。
 
@@ -248,32 +245,32 @@ ht-degree: 5%
   <tr> 
    <td>編輯結果或活動</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>新增目標的結果或活動</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>將專案作為活動與目標建立關聯**</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p>刪除目標</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>刪除結果或活動</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td>中斷專案與目標的連線</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -286,4 +283,4 @@ ht-degree: 5%
 
 如需有關專案許可權的資訊，請參閱[在Adobe Workfront中共用專案](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)。
 
- 
+

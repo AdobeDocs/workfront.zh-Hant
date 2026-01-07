@@ -6,10 +6,10 @@ description: 若要檢視任何使用者為物件輸入的所有更新，您可�
 author: Alina
 feature: Get Started with Workfront
 exl-id: fa5b91e4-b88c-42f0-860c-6864105b4652
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '373'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -27,9 +27,9 @@ ht-degree: 0%
 >
 >您可以使用日誌專案報告建置報告以檢視物件在預覽中的更新。 如需詳細資訊，請參閱[日誌專案報告的更新區域](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,7 +38,7 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -108,9 +108,9 @@ ht-degree: 0%
 
 1. 在頁面的左上角，按一下&#x200B;**新增報告**，然後選取&#x200B;**附註**。
 
-1. （選擇性）按一下&#x200B;**（欄）檢視**，然後按一下&#x200B;**新增欄**，將&#x200B;**專案**&#x200B;的&#x200B;**名稱**&#x200B;新增至報表的檢視中。 
+1. （選擇性）按一下&#x200B;**（欄）檢視**，然後按一下&#x200B;**新增欄**，將&#x200B;**專案**&#x200B;的&#x200B;**名稱**&#x200B;新增至報表的檢視中。
 
-1. （選擇性）如果您同時針對多個專案製作報表，請按一下&#x200B;**群組**，然後按一下&#x200B;**新增群組**，依&#x200B;**專案**&#x200B;的&#x200B;**名稱**&#x200B;分組。 這可確保附註按其各自專案分組，使報告更易於閱讀。 
+1. （選擇性）如果您同時針對多個專案製作報表，請按一下&#x200B;**群組**，然後按一下&#x200B;**新增群組**，依&#x200B;**專案**&#x200B;的&#x200B;**名稱**&#x200B;分組。 這可確保附註按其各自專案分組，使報告更易於閱讀。
 
 1. （選擇性）按一下&#x200B;**篩選器**，然後&#x200B;**新增篩選器規則**。
 1. 為&#x200B;**記事** > **記事文字** > **不是空白的**。

@@ -9,7 +9,7 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 9ddb75bf-1c7b-4f4b-b80b-a9512192920d
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 3%
@@ -77,7 +77,7 @@ ht-degree: 3%
 |---|---|
 | 週期頻率* | ✔ |
 | 指派 | ✔ |
-| 姓名 | ✔ |
+| 名稱 | ✔ |
 | 說明 | ✔ |
 | 優先順序 | ✔ |
 | 期間 | ✔ |
@@ -100,4 +100,4 @@ ht-degree: 3%
 
 對父系任務進行的&#42;&#42;指派已套用至遞回中的所有子任務。 對父系任務上的指派所做的任何變更會覆寫子任務上的任何個別指派。 如果任務顯示進度，指派不會變更。
 
- 
+

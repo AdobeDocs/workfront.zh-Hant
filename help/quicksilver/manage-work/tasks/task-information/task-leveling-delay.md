@@ -6,10 +6,10 @@ description: 有時候，專案上的任務排程之間可能會發生衝突。 
 author: Alina
 feature: Work Management
 exl-id: 6695448c-76ce-460c-aa59-63a3d5e2e18d
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '386'
-ht-degree: 3%
+ht-degree: 9%
 
 ---
 
@@ -21,22 +21,22 @@ ht-degree: 3%
 
 將平準延遲新增至任務會調整任務的「預計完成日期」。 如需有關預計完成日期的資訊，請參閱[專案、任務和問題的預計完成日期總覽](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td> <p>標準</p>
-   <p>工作或更高</p> </td> 
+   <p>工作或更高層級</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -93,7 +93,7 @@ ht-degree: 3%
    從下列時間單位選項中選取：
 
    * 分鐘
-   * 小時。 這是預設值。
+   * 小時。 這是預設值。
    * 日
    * 週
    * 月
@@ -107,6 +107,6 @@ ht-degree: 3%
    >
    >經過的時間是任務期間的時間單位。 這是任務的計劃開始日期與計畫完成日期之間的時間，包括假日、週末和休假。 換句話說，經過的時間就是行事曆的天數。
 
-1. 按一下&#x200B;**儲存**。 
+1. 按一下「**儲存**」。
 
- 
+

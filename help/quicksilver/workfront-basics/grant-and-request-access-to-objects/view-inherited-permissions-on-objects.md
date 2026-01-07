@@ -6,10 +6,10 @@ description: 指派存取層級時，您的Adobe Workfront管理員可授予您�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 7025f097-ea99-41bf-965e-617b0f532ff7
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '295'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 如需Workfront中物件階層的相關資訊，請參閱[瞭解Adobe Workfront中的物件](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)。
 
-## 存取需求
+## 存取權要求
 
 <!--drafted for P&P:
 
@@ -55,20 +55,20 @@ ht-degree: 0%
 </table>
 -->
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td> <p>標準</p> 
-   <p>工作或更高</p> 
+   <p>工作或更高層級</p> 
    </td> 
   </tr> 
   <tr> 
@@ -107,6 +107,6 @@ ht-degree: 0%
    >
    >您必須擁有物件的管理許可權，才能移除繼承的許可權。
 
- 
 
- 
+
+

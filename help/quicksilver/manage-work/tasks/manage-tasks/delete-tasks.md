@@ -6,9 +6,9 @@ description: 您可以刪除重複或建立有誤的任務。
 author: Alina
 feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
-source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '782'
 ht-degree: 5%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 5%
 
 您可以刪除重複或建立有誤的任務。
 
-對於具有歷史資訊（更新、排程變更、狀態或其他欄位）的任務，我們建議您關閉或將它們標籤為無效，而不是刪除它們。 這可協助您保留專案的歷史資訊。
+對於具有歷史資訊（更新、排程變更、狀態或其他欄位）的任務，我們建議您關閉或將它們標籤為無效，而不是刪除它們。 這可協助您保留專案的歷史資訊。
 
 ## 存取權要求
 
@@ -68,7 +68,7 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks and Projects with access to&nbsp;Delete</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to tasks, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref">Grant access to tasks</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
+   <td> <p>Edit access to Tasks and Projects with access to Delete</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to tasks, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref">Grant access to tasks</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -89,7 +89,7 @@ ht-degree: 5%
 * 如果任務已記錄時數，Workfront或群組管理員必須透過在您的Workfront執行個體中設定任務和問題偏好設定，以允許刪除這些任務。 當您嘗試刪除擁有已記錄時數任務的專案時，這也適用。
 
   <!--
-  (NOTE: the last statement is NWE&nbsp;only; not possible in classic)
+  (NOTE: the last statement is NWE only; not possible in classic)
   -->
 
   如需有關啟用刪除記錄時數之任務的詳細資訊，請參閱[設定系統範圍的任務和問題偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)中的「刪除」一節。
@@ -140,9 +140,8 @@ ht-degree: 5%
 
 ### 同時刪除專案中的多個任務  {#delete-multiple-tasks-in-a-project-simultaneously}
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)。
+{{step1-to-projects}}
 
-1. 按一下&#x200B;**專案**。
 1. 按一下包含您要刪除之任務的專案名稱。
 1. 按一下左側面板中的&#x200B;**工作**。
 1. 執行下列其中一項：
@@ -162,17 +161,16 @@ ht-degree: 5%
 
       1. 選取您要刪除的任務。
       1. 按一下&#x200B;**刪除**。
-      1. （選擇性）按一下[復原] **&#x200B;**&#x200B;以復原您的變更，並且不刪除工作。
-      1. 如果要保留變更並刪除工作，請按一下[重做] **&#x200B;**。
-      1. 按一下[儲存]刪除工作。**&#x200B;**
+      1. （選擇性）按一下[復原] ****&#x200B;以復原您的變更，並且不刪除工作。
+      1. 如果要保留變更並刪除工作，請按一下[重做] ****。
+      1. 按一下[儲存]刪除工作。****
 
          只有在您儲存變更後，才會刪除任務。
 
 ### 刪除單一任務 {#delete-a-single-task}
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)。
+{{step1-to-projects}}
 
-1. 按一下&#x200B;**專案**。
 1. 按一下包含您要刪除之任務的專案名稱。
 1. 按一下左側面板中的&#x200B;**工作**。
 1. 按一下要刪除的工作名稱。

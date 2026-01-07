@@ -7,7 +7,7 @@ description: 「計算的任務指派」是一種期間型別，您可以在Adob
 author: Alina
 feature: Work Management
 exl-id: 5f1f6109-5d54-4c3f-9aa5-dc6ce165a1cd
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 -->
 
 * 當您使用計算的指派工期型別時，必須指定任務的工期與計畫時數。 Workfront接著將「計畫時數」的量除以「工期」中的時數，再除以指派給任務的資源數，以計算每個資源的配置百分比（計算工作分派）。 每個資源的配置百分比會平均有相同的值。 在此情況下，您無法修改每個資源的配置值。
-* 您的Workfront或群組管理員可以將您系統或群組的預設「期間型別」設定為「計算指派」。 在此情況下，所有新任務都將以此期間型別建立。 如需有關將您的任務和問題偏好設定變更為系統層級或群組層級專案偏好設定一部分的資訊，請參閱[設定全系統的任務和問題偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)。
+* 您的Workfront或群組管理員可以將您系統或群組的預設「期間型別」設定為「計算指派」。 在此情況下，所有新任務都將以此期間型別建立。 如需有關將您的任務和問題偏好設定變更為系統層級或群組層級專案偏好設定一部分的資訊，請參閱[設定全系統的任務和問題偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)。
 
   在此情況下，任務的預設值為1天期間，預設值為0小時計畫時數。 除非專案經理設定更精確的期間並以實際的估計填入計畫時數欄位，否則資源似乎配置不足。
 

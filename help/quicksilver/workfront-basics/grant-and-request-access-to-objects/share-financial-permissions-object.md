@@ -6,10 +6,10 @@ description: 指派存取層級時，您的Adobe Workfront管理員可授予您�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '504'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 如需有關每個存取層級中的使用者可以對財務資料執行哪些操作的資訊，請參閱文章[每個物件型別可用的功能](../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#financia)中的[財務資料](../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)小節。
 
-## 存取需求
+## 存取權要求
 
 <!--drafted for P&P:
 
@@ -41,7 +41,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to Projects, Tasks, Issues, and Financial&nbsp;Data</p> <p><b>NOTE</b>
+   <td> <p>View or higher access to Projects, Tasks, Issues, and Financial  Data</p> <p><b>NOTE</b>
    
    If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
@@ -53,14 +53,14 @@ ht-degree: 1%
 </table>
 -->
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -94,7 +94,7 @@ ht-degree: 1%
 若要授與物件的財務許可權：
 
 1. 前往您要與他人共用的任務、專案或問題。
-1. 在物件名稱附近，按一下[更多]功能表![](assets/more-icon.png)，然後按一下[共用]&#x200B;**&#x200B;**。
+1. 在物件名稱附近，按一下[更多]功能表![](assets/more-icon.png)，然後按一下[共用]****。
 
 1. 在&#x200B;**將`<Object name>`存取權授予**&#x200B;欄位中，開始輸入您要共用物件的使用者、團隊、角色、群組或公司的名稱。
 
@@ -117,7 +117,7 @@ ht-degree: 1%
 
 ## 所有共用層級的財務許可權
 
-下表顯示當您將物件的「檢視」、「貢獻」或「管理」許可權授與使用者時，他們可獲得的財務許可權： 
+下表顯示當您將物件的「檢視」、「貢獻」或「管理」許可權授與使用者時，他們可獲得的財務許可權：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -136,26 +136,26 @@ ht-degree: 1%
   <tr> 
    <td>管理付費記錄</td> 
    <td>✓</td> 
-   <td> <p> </p> </td> 
-   <td> </td> 
+   <td> <p>  </p> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>管理/檢視角色帳單與成本費率</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>管理/檢視使用者帳單與成本費率</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>檢視財務</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> ✓</td> 
+   <td>  ✓</td> 
   </tr> 
   <tr> 
    <td>在資源計畫工具中依成本檢視資訊</td> 
@@ -166,8 +166,8 @@ ht-degree: 1%
   <tr> 
    <td>資源規劃工具中的預算資源*</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>在「資源規劃」工具中檢視資源*</td> 

@@ -6,10 +6,10 @@ description: 基於安全理由，請務必定期登出 [!DNL Adobe Workfront] �
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 3b457a44-53a1-44c5-99ce-445ab1463303
-source-git-commit: c6272c7631941720e3ab1e1c80ed7d304a67d34b
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 0%
+source-wordcount: '206'
+ht-degree: 7%
 
 ---
 
@@ -33,16 +33,16 @@ ht-degree: 0%
 >
 > 如果您的組織已上線到[!DNL Adobe Experience Cloud]，您將會登出，方法是按一下頂端導覽列中的個人資料圖片，然後從功能表選取&#x200B;[!UICONTROL **登出**]。 如需詳細資訊，請參閱[[!DNL Adobe Unified Experience] 的 [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  </col>
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
+   <td>Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -60,5 +60,7 @@ ht-degree: 0%
 
 ## 登出您的[!DNL Workfront]帳戶
 
-1. 按一下&#x200B;**[!UICONTROL 右上角的]**&#x200B;主功能表![圖示](assets/main-menu-icon.png)主功能表圖示[!DNL Adobe Workfront]，然後按一下&#x200B;**[!UICONTROL 登出]** ![登出圖示](assets/logout-icon.png)。
+{{step1-click-main-menu}}
+
+1. 按一下&#x200B;**[!UICONTROL 登出]** ![登出圖示](assets/logout-icon.png)。
 1. 這會將您帶回登入頁面，您可以在其中重新輸入使用者名稱和密碼。

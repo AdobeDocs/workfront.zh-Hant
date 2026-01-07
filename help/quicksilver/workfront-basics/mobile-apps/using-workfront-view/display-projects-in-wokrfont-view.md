@@ -7,10 +7,10 @@ description: 依預設， [!DNL Adobe Workfront] 檢視中顯示的專案清單�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 76db4ed0-a411-49aa-8acd-f149df1f38a4
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '360'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 根據預設，[!DNL Adobe Workfront View]中顯示的專案清單會顯示最近100個使用中的專案。 專案清單未依任何條件分組。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -29,7 +29,7 @@ ht-degree: 1%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront套件</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront 封裝</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -80,4 +80,4 @@ ht-degree: 1%
 
 1. 從右向左撥動，在清單中顯示下列專案。\
    捲動每個專案時，會顯示相同的Widget。\
-   ![Image-1__6__copy.jpg](assets/image-1--6--copy-350x262.jpg) 
+   ![Image-1__6__copy.jpg](assets/image-1--6--copy-350x262.jpg)

@@ -8,10 +8,10 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: 72f955e9-75ff-4ff7-b434-7a2b2d5ee0e8
-source-git-commit: 1d7d094a682a02b09651023f94e81ee0b330163c
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 0%
+source-wordcount: '199'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 為您的[!DNL Workfront]環境啟用增強式驗證(eAuth)時，[!DNL Workfront]管理員無法重設其他使用者的登入認證。 這與沒有eAuth或啟用單一登入(SSO)的[!DNL Workfront]環境不同。
 
-## 存取需求
+## 存取權要求
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -35,7 +35,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
-   <td> <p>[!UICONTROL 計畫]</p> </td> 
+   <td> <p>[！UICONTROL計畫]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>存取層級設定*</strong></td> 
@@ -48,14 +48,12 @@ ht-degree: 0%
 
 ## 在啟用eAuth的環境中重設使用者密碼
 
-1. 按一下[!DNL Workfront]右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 使用者]** ![使用者圖示](assets/users-icon-in-main-menu.png)。
-
-
+{{step-1-to-users}}
 
 1. 選取需要重設密碼的&#x200B;**[!UICONTROL 使用者]**。
    ![選取使用者](assets/100520classicnweselectuser-350x105.png)
 
-1. 在您選擇想要的&#x200B;**[!UICONTROL 使用者]**&#x200B;後，請按一下顯示的&#x200B;**[!UICONTROL 更多]按鈕**，然後從下拉式功能表中選取&#x200B;**[!UICONTROL 傳送忘記密碼電子郵件]**&#x200B;選項。
+1. 在您選擇想要的&#x200B;**[!UICONTROL 使用者]後，請按一下顯示的**&#x200B;更多&#x200B;**[!UICONTROL 按鈕]**，然後從下拉式功能表中選取&#x200B;**[!UICONTROL 傳送忘記密碼電子郵件]**&#x200B;選項。
 
    ![傳送忘記密碼電子郵件](assets/100520classicnwesendemail-350x134.png)
 

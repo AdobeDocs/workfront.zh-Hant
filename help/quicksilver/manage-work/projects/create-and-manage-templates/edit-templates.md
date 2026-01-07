@@ -6,7 +6,7 @@ description: 您可以編輯專案範本，以反映未來專案的程式與設�
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '5672'
 ht-degree: 2%
@@ -39,7 +39,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 您可以一次編輯一個範本，也可以大量編輯範本。
 
-## 存取需求
+## 存取權要求
 
 +++ 展開以檢視存取需求。
 
@@ -48,11 +48,11 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
+   <td role="rowheader">Adobe Workfront 授權</td> 
    <td>
       <p>標準</p>
       <p>規劃</p>
@@ -140,7 +140,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    * [工作設定](#task-settings)
    * [問題設定](#issue-settings)
    * [存取](#access-preview)
-   * [評論](#comment)
+   * [註解](#comment)
    <!--* [Linked folders](#linked-folders-conditional-availability) -->
 
 ### 範本名稱{#template-name}
@@ -212,7 +212,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
       </tr>
 
    <tr> 
-      <td role="rowheader"><strong>產品組合</strong></td> 
+      <td role="rowheader"><strong>專案組合</strong></td> 
       <td><p>針對從此範本建立的專案指定Portfolio。 您必須先建立Portfolio，才能讓其出現在下拉式清單中。 </p><p>只有作用中的投資組合會顯示在清單中。 如需關於建立投資組合的詳細資訊，請參閱<a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">建立投資組合</a>。</p></td> 
       </tr> 
       <tr> 
@@ -317,7 +317,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
       </tr>
 
    <tr> 
-      <td role="rowheader"><strong>產品組合</strong></td> 
+      <td role="rowheader"><strong>專案組合</strong></td> 
       <td><p>針對從此範本建立的專案指定Portfolio。 您必須先建立Portfolio，才能讓其出現在下拉式清單中。 </p><p>只有作用中的投資組合會顯示在清單中。 如需關於建立投資組合的詳細資訊，請參閱<a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">建立投資組合</a>。</p></td> 
       </tr> 
       <tr> 
@@ -383,7 +383,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 1. （選用）更新自訂表單上任何欄位中的資訊。 此資訊將會傳輸至將使用範本建立的專案。
 
-1. （選擇性）按一下自訂表單名稱右邊的&#x200B;**x**&#x200B;圖示，然後按一下[移除]&#x200B;**&#x200B;**&#x200B;以從範本中移除它。
+1. （選擇性）按一下自訂表單名稱右邊的&#x200B;**x**&#x200B;圖示，然後按一下[移除]****&#x200B;以從範本中移除它。
 
 1. （選擇性）根據您要修改的資訊，繼續編輯下列區段。
 
@@ -587,7 +587,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    按一下「**儲存**」。
 
-### 存取 {#access-preview}
+### 存取權 {#access-preview}
 
 1. 如上所述開始編輯您的範本。
 1. 在&#x200B;**編輯範本**&#x200B;方塊中，按一下&#x200B;**存取**。
@@ -664,13 +664,13 @@ For instructions on editing Linked folders, see [Edit workflow values in a proje
 
 -->
 
-### 評論
+### 註解
 
 1. 如上所述開始編輯您的範本。
 1. 在&#x200B;**編輯範本**&#x200B;方塊中，按一下&#x200B;**註解**。
 
    ![編輯範本方塊註解區段](assets/edit-template-box-comment-section.png)
-1. 新增您正在進行之更新的相關註解、標籤其他使用者，或選取&#x200B;**我的公司私有**&#x200B;方塊，讓貴公司的使用者無法存取更新，然後按一下[儲存]。**&#x200B;**
+1. 新增您正在進行之更新的相關註解、標籤其他使用者，或選取&#x200B;**我的公司私有**&#x200B;方塊，讓貴公司的使用者無法存取更新，然後按一下[儲存]。****
 
    >[!TIP]
    >
@@ -708,8 +708,8 @@ Editing templates in bulk differs depending on which environment you are using.
    * 範本設定
    * 任務設定
    * 問題設定
-   * 存取
-   * 評論
+   * 存取權
+   * 註解
 
 1. 按一下「**儲存**」。
 
@@ -1258,7 +1258,7 @@ For information about how these settings affect creating new tasks, see [Create 
 
 1. In the **Task Default Approval Process** box, select the Approval Process you want to associate with all new tasks when you add them to a project created from this template. You must create an Approval Process for tasks before you can associate it with tasks. Only active approval processes display in the list. For more information about creating Approval Processes, see [Creating Approval Processes](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 1. In the **Task Default Custom Forms** box, select the custom form or forms that you want to associate with all new tasks when you add them to a project created from this template. You must build the custom forms before they are available to select in this field. Only active custom forms display in the list. You can associate up to ten custom forms with a task.
-1. (Optional) **Select Use Work Effort to automatically calculate task Planned Hours** if you want to enable managing task effort by using&nbsp;Work Effort instead of Planned Hours in the project created from the template.
+1. (Optional) **Select Use Work Effort to automatically calculate task Planned Hours** if you want to enable managing task effort by using Work Effort instead of Planned Hours in the project created from the template.
 1. (Conditional and optional) If you selected Use Work Effort to automatically calculate task Planned Hours, click the drop-down menu to update the percentage for each level of Work Effort. The following percentage values are the defaults:
  
    | Work Effort level |Percentage value|

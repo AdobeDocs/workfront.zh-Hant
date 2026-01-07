@@ -6,10 +6,10 @@ description: 根據預設，您在 [!DNL Workfront] 網頁應用程式中看到�
 author: Becky and Lisa
 feature: Get Started with Workfront
 exl-id: 68f4b83b-a8b4-4304-930f-62551cb06a92
-source-git-commit: fb555df123701c62e9a0f2d451ad6dcd16586595
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '638'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -28,30 +28,30 @@ ht-degree: 1%
 | **[!DNL Workfront]區域或物件** | **預設系統區段** | **儀表板** |
 |---|---|---|
 | [!UICONTROL 專案]區域 | ✓ | ✓ |
-| [!UICONTROL 團隊] | ✓ |   |
-| [!UICONTROL 要求]區域 | ✓ |   |
-| [!UICONTROL 時程表]區域 | ✓ |   |
+| [!UICONTROL 團隊] | ✓ |    |
+| [!UICONTROL 要求]區域 | ✓ |    |
+| [!UICONTROL 時程表]區域 | ✓ |    |
 | [!UICONTROL Portfolio] | ✓ | ✓ |
 | [!UICONTROL 程式] | ✓ | ✓ |
 | [!UICONTROL 專案] | ✓ | ✓ |
-| [!UICONTROL 任務] | ✓ |  ✓ |
-| [!UICONTROL 問題] |  ✓ |  ✓ |
-| [!UICONTROL 使用者] |  ✓ |  ✓ |
-| [!UICONTROL 檔案] |  ✓ |  ✓ |
+| [!UICONTROL 任務] | ✓ | ✓ |
+| [!UICONTROL 問題] | ✓ | ✓ |
+| [!UICONTROL 使用者] | ✓ | ✓ |
+| [!UICONTROL 檔案] | ✓ | ✓ |
 | [!UICONTROL 資源]區域 | ✓ | ✓ |
 
 {style="table-layout:auto"}
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto">
  <col> 
  <col>
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
+   <td>Adobe Workfront 封裝</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 

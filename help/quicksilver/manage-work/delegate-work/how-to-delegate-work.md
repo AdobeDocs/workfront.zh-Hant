@@ -6,10 +6,10 @@ description: 您不在辦公室時，可以暫時委派指派給您的工作。 
 author: Becky
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1547'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -30,9 +30,9 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 
 如需委派工作的一般資訊，請參閱[委派工作概覽](../../manage-work/delegate-work/delegate-work-overview.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 >[!IMPORTANT]
 >
@@ -55,7 +55,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -85,7 +85,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 +++
 
 <!--note from the table for Object permissions:
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Contribute or higher permissions to the projects where you are designated as the Project&nbsp;Owner (NOTE:&nbsp;you cannot delegate projects yet)</p>
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Contribute or higher permissions to the projects where you are designated as the Project Owner (NOTE: you cannot delegate projects yet)</p>
     -->
 
 ## 先決條件
@@ -154,7 +154,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
    * [!UICONTROL **首頁**]&#x200B;區域中的&#x200B;[!UICONTROL **委派**]&#x200B;按鈕變更為&#x200B;[!UICONTROL **編輯委派**]，表示已有委派。
      <!--
       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-      (NOTE: is this shot correct?&nbsp;See UI - this is a mock)
+      (NOTE: is this shot correct? See UI - this is a mock)
       </MadCap:conditionalText>
       -->
 
@@ -172,7 +172,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 
 1. 移至&#x200B;[!UICONTROL **首頁**]&#x200B;區域，然後按一下下列任一Widget中的&#x200B;[!UICONTROL **編輯委派**]： **我的工作**、**我的任務**&#x200B;或&#x200B;**我的問題**。
 1. 在[!UICONTROL 停止委派任務和問題]方塊中，執行下列任一項作業：
-   * 修改開始日期&#x200B;[!UICONTROL **或**]&#x200B;結束日期&#x200B;[!UICONTROL **&#x200B;**]
+   * 修改開始日期&#x200B;[!UICONTROL **或**]&#x200B;結束日期&#x200B;[!UICONTROL ****]
    * 按一下&#x200B;[!UICONTROL **停止委派**]
 
    >[!TIP]

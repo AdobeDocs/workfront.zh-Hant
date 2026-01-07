@@ -7,7 +7,7 @@ description: 身為專案經理，您可以使用收費率來擷取專案的收�
 author: Lisa
 feature: Work Management
 exl-id: 400abcde-e368-4a70-89a9-05027900ab81
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '3691'
 ht-degree: 0%
@@ -176,7 +176,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td> <p>固定收入</p> </td> 
-   <td> <p>此型別可用於專案和任務。 </p> <p>將範本附加至專案時，範本的「固定收入」會新增至專案的「固定收入」。 如需詳細資訊，請參閱<a href="../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md" class="MCXref xref">將範本附加到專案的總覽</a>。 </p> <p>對於任務，無論任務指派為何，都會使用任務上指定的固定金額來計算任務上的收入。 </p> <p>子系任務的「固定收入」會累計至父系任務的收入，然後再累計至專案的收入。 如果在父系任務和/或專案上定義了固定金額，則會將該金額新增到從任何子系任務累計的計畫收入中。</p> <p>任務的固定收入金額可以包含在專案的記帳記錄中。</p> </td> 
+   <td> <p>此型別可用於專案和任務。 </p> <p>將範本附加至專案時，範本的「固定收入」會新增至專案的「固定收入」。 如需詳細資訊，請參閱<a href="../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md" class="MCXref xref">將範本附加到專案的總覽</a>。 </p> <p>對於任務，無論任務指派為何，都會使用任務上指定的固定金額來計算任務上的收入。 </p> <p>子系任務的「固定收入」會累計至父系任務的收入，然後再累計至專案的收入。 如果在父系任務和/或專案上定義了固定金額，則會將該金額新增到從任何子系任務累計的計畫收入中。</p> <p>任務的固定收入金額可以包含在專案的記帳記錄中。</p> </td> 
   </tr> 
   <tr> 
    <td> <p>使用者每小時</p> </td> 

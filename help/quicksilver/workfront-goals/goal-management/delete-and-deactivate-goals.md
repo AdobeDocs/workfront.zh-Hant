@@ -6,10 +6,10 @@ description: 當您開始處理目標且它在您的組織中變得無關時，�
 author: Alina
 feature: Workfront Goals
 exl-id: 3089adeb-3e56-492a-82fe-536f57079b73
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 0%
+source-wordcount: '590'
+ht-degree: 3%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 當您開始處理目標且它在您的組織中變得無關時，我們建議您將其停用，而非刪除。 停用目標會保留其歷史資訊，並讓您有機會稍後重新啟用。 但是，有時候刪除目標可能很合理，為了保持您的目標清單準確。
 
-## 存取需求
+## 存取權要求
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 0%
 >
 >Adobe Workfront目標不再提供購買。
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto">
 <col>
@@ -36,7 +36,7 @@ ht-degree: 0%
 </col>
 <tbody>
  <tr>
-  <td> <p>Adobe Workfront套件</p> </td> 
+  <td> <p>Adobe Workfront 封裝</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
    </td> 
@@ -178,12 +178,10 @@ Deactivating goals differs depending on which environment you use.
 1. Click the **X** icon in the upper-right to close Goal Details.
 -->
 
-1. 按一下右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**目標**。
+{{step1-to-goals}}
 
-   目標清單隨即顯示。
+目標清單隨即顯示。
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
 
 1. （可選）修改您的篩選器以僅顯示作用中的目標。
 
@@ -235,12 +233,10 @@ Deleting  goals differs depending on which environment you use.
    The goal is removed from the Goal List and cannot be recovered.
 -->
 
-1. 按一下右上角的「主要功能表」圖示![主要功能表圖示](assets/main-menu-icon.png)，然後按一下「**目標**」。
+{{step1-to-goals}}
 
-   目標清單隨即顯示。
+目標清單隨即顯示。
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
 1. 按一下目標的名稱。 如此將可開啟目標頁面。
 1. 按一下目標名稱右側的&#x200B;**更多**&#x200B;功能表![更多圖示](assets/more-icon.png)，然後按一下&#x200B;**刪除目標**，然後&#x200B;**刪除**。
 

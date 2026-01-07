@@ -6,10 +6,10 @@ description: 本文說明如何在Adobe Workfront中尋找和管理目標。
 author: Alina
 feature: Workfront Goals
 exl-id: a729f334-6ca4-4cf5-a3ef-01a7effb7153
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 0%
+source-wordcount: '363'
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 本文說明如何在Adobe Workfront中尋找和管理策略目標。
 
 
-## 存取需求
+## 存取權要求
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ ht-degree: 0%
 >
 >Adobe Workfront目標不再提供購買。
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,7 +37,7 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr>
-  <td> <p>Adobe Workfront套件</p> </td> 
+  <td> <p>Adobe Workfront 封裝</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
    </td> 
@@ -128,19 +128,16 @@ ht-degree: 0%
 
 ## 存取Workfront目標
 
-1. 按一下右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**目標**。
+{{step1-to-goals}}
 
-   <!-- drafted for Shell release: Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
-
-   目標清單隨即顯示。
+目標清單隨即顯示。
 
 
-   >[!IMPORTANT]
-   >
-   >   當您擁有Workfront目標的正確存取權時，預設情況下，您可以檢視自己或其他任何人在目標清單中建立的目標。
+>[!IMPORTANT]
+>
+>   當您擁有Workfront目標的正確存取權時，預設情況下，您可以檢視自己或其他任何人在目標清單中建立的目標。
 
-   <!--   
+<!--   
    (NOTE: This might change when sharing is in place; right now, with sharing in place, they can VIEW all goals in the system but they cannot EDIT the ones others created!)
    -->
 
@@ -196,9 +193,12 @@ To access an individual goal in the Production environment:
 
 若要存取個別目標：
 
-1. 按一下Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示，然後按一下&#x200B;**目標** 。
+{{step1-to-goals}}
+
 預設會顯示「目標清單」。
-   ![目標清單](assets/goal-list-unshimmed.png)
+
+![目標清單](assets/goal-list-unshimmed.png)
+
 1. 按一下清單中目標的名稱。
 目標的頁面隨即顯示。
    ![目標頁面](assets/goal-page-unshimmed.png)

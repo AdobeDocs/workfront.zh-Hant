@@ -6,7 +6,7 @@ description: 您可以檢閱和解決校訂上的現有評論，並將新評論�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c38f0d80-11e0-4d5a-9591-602543177fe6
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '819'
 ht-degree: 0%

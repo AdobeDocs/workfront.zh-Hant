@@ -6,10 +6,10 @@ description: 您可以設定專案，讓使用者能透過電子郵件將問題�
 author: Becky
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '789'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -18,21 +18,21 @@ ht-degree: 0%
 <!-- Audited: 4/2025 -->
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;When updating POP account information here, also update information in these articles: Allowing users to reply to email notifications, Configuring Email Notifications, Understanding the Queue Details Tab in a Project )</p>
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: When updating POP account information here, also update information in these articles: Allowing users to reply to email notifications, Configuring Email Notifications, Understanding the Queue Details Tab in a Project )</p>
 -->
 
 您可以設定專案，讓使用者能透過電子郵件將問題新增至專案。 您只能允許在專案指定為「請求佇列」時，將問題以電子郵件傳送至專案。 如需有關建立請求佇列專案的詳細資訊，請參閱[建立請求佇列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
@@ -76,7 +76,7 @@ ht-degree: 0%
 >* Workfront允許所有叢集的每個請求佇列都有一個唯一的電子郵件。 如果您選擇停用您的要求佇列，只要您建立的電子郵件地址仍在錄取電子郵件地址方塊中，就會保留該地址。 如果您選擇停止使用錄取電子郵件，您必須從錄取電子郵件欄位中刪除它，以便將來可以使用。
 >
 >* 如果請求佇列有多個佇列主題或主題群組，Workfront會隨機選取要傳送電子郵件請求的佇列主題，使電子郵件請求難以管理。
->  &#x200B;>我們建議您設定為透過電子郵件接收請求的專案不應有多個佇列主題。 如果提交的請求是針對不同的資源或專案，您應該在提交後手動路由或移動這些請求。
+>我們建議您設定為透過電子郵件接收請求的專案不應有多個佇列主題。 如果提交的請求是針對不同的資源或專案，您應該在提交後手動路由或移動這些請求。
 
 1. 前往您要啟用的專案，透過電子郵件接收問題。
 1. 按一下左側面板中的&#x200B;**佇列詳細資料**。
@@ -94,7 +94,7 @@ ht-degree: 0%
    >
    >* 由於此電子郵件地址必須是唯一的，因此若將其刪除，未來可能無法使用。
    <!--
-   >This was the case previously, but it's not working this way anymore, since August 2022: * Emails forwarded to this email address are not added as issues to the project in&nbsp;Workfront. Only emails created from this email address are added as issues.
+   >This was the case previously, but it's not working this way anymore, since August 2022: * Emails forwarded to this email address are not added as issues to the project in Workfront. Only emails created from this email address are added as issues.
    -->
 
 1. （選擇性）選取&#x200B;**轉寄所有無法透過電子郵件提交的問題**，然後在下列方塊中輸入轉寄電子郵件地址。

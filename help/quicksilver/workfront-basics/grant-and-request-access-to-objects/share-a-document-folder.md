@@ -6,10 +6,10 @@ description: 您可以從「檔案」區域共用資料夾及其內容。
 author: Alina
 feature: Get Started with Workfront
 exl-id: c0d318a8-b1cf-4522-b478-acf092687658
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 0%
+source-wordcount: '839'
+ht-degree: 2%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 >* 如果您為工作專案中的檔案資料夾設定共用選項，然後複製工作專案，則您的共用設定不會轉移到新工作專案中的檔案資料夾。
 >
 
-## 存取需求
+## 存取權要求
 
 <!--drafted for P&P
 (I am putting Contributor and higher here because this is what I found in testing. Normally, Review equals Light but I found out that Contributor can also have manage rights to documents and can share them.)
@@ -61,14 +61,14 @@ ht-degree: 0%
  </tbody> 
 </table>
 -->
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -94,11 +94,11 @@ ht-degree: 0%
 
 ## 共用資料夾
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**檔案**。
+{{step1-to-documents}}
 
-   或
+或
 
-   開啟Workfront物件後，按一下左側面板中的&#x200B;**檔案**。
+開啟Workfront物件後，按一下左側面板中的&#x200B;**檔案**。
 
 1. 選取資料夾，然後按一下工具列中的「共用」圖示![](assets/share-icon.png)。
 
@@ -139,7 +139,7 @@ ht-degree: 0%
 ## 使用者如何存取共用給他們的資料夾內容
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Delete these 2 paragraphs when the story &nbsp;<a href="https://hub.workfront.com/task/622f8d6f000897c9a4a11bdfd9b2cf34/overview">Handle email notification content when a folder is shared</a> goes to Preview:</p>
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Delete these 2 paragraphs when the story   <a href="https://hub.workfront.com/task/622f8d6f000897c9a4a11bdfd9b2cf34/overview">Handle email notification content when a folder is shared</a> goes to Preview:</p>
 -->
 
 目前，當您共用資料夾時，收件者在其「檔案」區域中看不到該資料夾。 但是，他們可以透過執行檔案報告來存取其檔案。

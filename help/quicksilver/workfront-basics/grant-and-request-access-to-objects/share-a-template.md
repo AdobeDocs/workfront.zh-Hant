@@ -6,10 +6,10 @@ description: 作為 Adobe Workfront 管理員，您可以在指派使用者的�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '584'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
 
@@ -42,13 +42,13 @@ ht-degree: 14%
       * 檢視
       * 管理
 
-   * 使用範本建立的未來專案。 您可以對使用範本建立的專案賦予與個別專案相同的許可權層級。 
+   * 使用範本建立的未來專案。 您可以對使用範本建立的專案賦予與個別專案相同的許可權層級。
 
      若要瞭解如何在範本層級共用範本中的專案，請參閱[共用專案範本](../../manage-work/projects/create-and-manage-templates/share-project-template.md)。
 
 * 當您共用範本或從範本建立的專案時，使用者預設會繼承與範本或專案相關聯的所有子物件的相同許可權。
 
-  如需Workfront中物件階層的詳細資訊，請參閱  [瞭解Adobe Workfront中的物件](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)。
+  如需Workfront中物件階層的詳細資訊，請參閱   [瞭解Adobe Workfront中的物件](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)。
 
 * 當您共用範本時，除非另有指定，所有範本任務和檔案，以及使用該範本建立的未來專案上的問題都將繼承相同的許可權。
 
@@ -61,7 +61,7 @@ ht-degree: 14%
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Share a template</h2>
-<p>(NOTE: drafted because this is also linked above: Share project templates >> which is an article in the Manage Work section>> Templates)&nbsp;</p>
+<p>(NOTE: drafted because this is also linked above: Share project templates >> which is an article in the Manage Work section>> Templates)  </p>
 <ol>
 <li value="1"> <p>Go to the template you want to share with other entities, click <strong>Template Actions</strong>, then <strong>Template Sharing</strong>.<br>Or</p> <p>Navigate to a list of templates, and select multiple templates from the list, then click <strong>Share Template</strong>.</p> <note type="note">
 If you select multiple templates, you cannot view who already has permissions to the individual templates.
@@ -90,9 +90,9 @@ You can share an object only with active users, teams,
 </note> </li>
 <li value="3">From the drop-down menu, select which level of permissions you want to grant.<br>Select from the following:<br>
 <ul>
-<li><strong>No access</strong>: You can specify which users will not have any access to the template.<br>This option is available only when bulk sharing projects from templates.&nbsp;</li>
+<li><strong>No access</strong>: You can specify which users will not have any access to the template.<br>This option is available only when bulk sharing projects from templates.  </li>
 <li><strong>View</strong>: Users with these permissions can view projects created from the template.</li>
-<li><strong>Contribute</strong>: Users with these permissions can contribute to projects created from the template&nbsp;</li>
+<li><strong>Contribute</strong>: Users with these permissions can contribute to projects created from the template  </li>
 <li><strong>Manage</strong>: Users with these permissions can manage or delete projects created from this template.<br><img src="assets/share-project-from-template-350x268.png" alt="share_project_from_template.png" style="width: 350;height: 268;"></li>
 </ul></li>
 <li value="4">(Optional) Click <strong>Advanced Settings</strong> to fine-tune your settings for each level of permissions. </li>
@@ -120,17 +120,17 @@ You can share an object only with active users, teams,
   <tr> 
    <td>複製</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>刪除</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>編輯範本詳細資訊</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>檢視範本</td> 
@@ -144,12 +144,12 @@ You can share an object only with active users, teams,
   </tr> 
   <tr> 
    <td>全系統共用</td> 
-   <td> </td> 
+   <td>  </td> 
    <td>✓</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>新增文件</p> <p>秘訣：有時候，人們會將檔案新增至專案範本，認為自己要新增至專案。 您可以停用此設定來防止收件者發生這種情況。</p> </td> 
-   <td> </td> 
+   <td>  </td> 
    <td>✓</td> 
   </tr> 
  </tbody> 

@@ -6,7 +6,7 @@ description: 您可以共用或移除您所建立之物件或與您共用之物�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 1%
@@ -52,7 +52,7 @@ ht-degree: 1%
 
 * **校訂**：如需詳細資訊，請參閱[在Workfront中共用校訂](/help/quicksilver/review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)。
 
-* **報告、儀表板和行事曆**：如需詳細資訊，請參閱[共用報告、儀表板和行事曆](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)。 此外，請參閱下列文章：
+* **報告、儀表板和行事曆**：如需詳細資訊，請參閱[共用報告、儀表板和行事曆](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)。  此外，請參閱下列文章：
 
    * [在Adobe Workfront中共用報表](../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)
    * [共用儀表板](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
@@ -160,17 +160,17 @@ Workfront中的許可權是階層式繼承的。 這表示如果您授予使用�
 
 例如，如果您授予使用者「貢獻專案」的許可權，則使用者對於與該專案相關聯的所有任務和問題（子物件）都具有「貢獻專案」許可權。
 
-繼續上述範例，您無法將許可權限制在子物件。 如果您不希望使用者擁有與專案相關聯之子物件的「貢獻」許可權，您必須手動從物件移除「繼承的許可權」，然後調整個別使用者的許可權，包括任何「進階設定」。 
+繼續上述範例，您無法將許可權限制在子物件。 如果您不希望使用者擁有與專案相關聯之子物件的「貢獻」許可權，您必須手動從物件移除「繼承的許可權」，然後調整個別使用者的許可權，包括任何「進階設定」。
 
 如需Workfront中物件的階層與相依性的詳細資訊，請參閱[Adobe Workfront物件概觀](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#interdependency-and-hierarchy-of-objects)一文中的[物件相依性和階層](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)一節。
 
 >[!NOTE]
 >
->您的Workfront管理員可以停用存取層級中檔案的繼承許可權。 如需有關停用存取層級中檔案的繼承許可權的詳細資訊，請參閱[建立或修改自訂存取層級](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
+>您的Workfront管理員可以停用存取層級中檔案的繼承許可權。  如需有關停用存取層級中檔案的繼承許可權的詳細資訊，請參閱[建立或修改自訂存取層級](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
-### 透過組織成員資格取得的許可權  {#permissions-acquired-through-organizational-memberships}
+### 透過組織成員資格取得的許可權   {#permissions-acquired-through-organizational-memberships}
 
-如果您將「管理」許可權授與物件的使用者群組，並將「檢視」許可權授與相同物件之該群組中的個別使用者，則使用者會透過物件的群組成員資格獲得最高層級的許可權（管理）。 
+如果您將「管理」許可權授與物件的使用者群組，並將「檢視」許可權授與相同物件之該群組中的個別使用者，則使用者會透過物件的群組成員資格獲得最高層級的許可權（管理）。
 
 如果您想要將較低許可權授予已經屬於具有較高許可權層級之組織單位（群組、團隊、工作角色或公司）的使用者，您必須從組織單位中移除許可權，並個別新增具有較低許可權層級的使用者。
 
@@ -179,10 +179,10 @@ Workfront中的許可權是階層式繼承的。 這表示如果您授予使用�
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Remove permissions from objects</h2>
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">AL: draft/ hide this div when Becky makes Remove permissions from objects live and replace with the drafted content with the link at the top of this section</p>
-<p>You can remove permissions from objects you have access to Share. Removing permissions from objects is identical for all objects that can be shared.&nbsp;</p> <note type="note">
-&nbsp;You cannot remove permissions when you share items in bulk. You can remove permissions only when selecting individual items.&nbsp;
+<p>You can remove permissions from objects you have access to Share. Removing permissions from objects is identical for all objects that can be shared.  </p> <note type="note">
+  You cannot remove permissions when you share items in bulk. You can remove permissions only when selecting individual items.  
 </note>
-<p>To remove permissions from objects consider the following:&nbsp;</p>
+<p>To remove permissions from objects consider the following:  </p>
 <ul>
 <li><a href="#remove-entities-from-the-sharing-list-of-an-object" class="MCXref xref">Remove entities from the sharing list of an object</a> </li>
 <li><a href="#remove-inherited-permissions" class="MCXref xref">Remove inherited permissions</a> </li>
@@ -190,38 +190,38 @@ Workfront中的許可權是階層式繼承的。 這表示如果您授予使用�
 </ul>
 <p><strong>Remove entities from the sharing list of an object</strong></p>
 <p>You can remove entities from the sharing list of an object to remove their permissions from the object.</p>
-<p>To remove permissions from objects:&nbsp;</p>
+<p>To remove permissions from objects:  </p>
 <ol>
 <li value="1">Navigate to an object on which you want to modify the permissions.</li>
-<li value="2">Click the <strong>Actions</strong> menu, then click <strong>Sharing</strong>.<br>For example, on a project, click <strong>Project Actions</strong>, then <strong>Sharing</strong>.&nbsp;</li>
+<li value="2">Click the <strong>Actions</strong> menu, then click <strong>Sharing</strong>.<br>For example, on a project, click <strong>Project Actions</strong>, then <strong>Sharing</strong>.  </li>
 <li value="3">Click the <strong>x</strong> next to the name of a user, team, group, company, job role to remove them.<br></li>
 <li value="4">In the <strong><User Name>'s Workfront access will be removed from this</strong> drop-down menu, select whether you want their access to be removed just from the object you have selected, or from all children objects associated with it.<br>The following scenarios exist:
 <ul>
-<li>If you remove the entity only from the object, that entity loses their permissions on the object, and their inherited permissions to the children objects. If they are granted permissions to the children items individually, they retain the same permissions on all children objects associated with it when you select this option.&nbsp;</li>
-<li>If you remove the entity from the object and all the children objects, that entity loses their permissions to the object as well as all children objects, even when they have been given individual permission on each child object.&nbsp;</li>
+<li>If you remove the entity only from the object, that entity loses their permissions on the object, and their inherited permissions to the children objects. If they are granted permissions to the children items individually, they retain the same permissions on all children objects associated with it when you select this option.  </li>
+<li>If you remove the entity from the object and all the children objects, that entity loses their permissions to the object as well as all children objects, even when they have been given individual permission on each child object.  </li>
 </ul></li>
 <li value="5">Click <strong>Save</strong>.</li>
 </ol>
 <p> <p><strong>Remove inherited permissions</strong></p> </p>
-<p>Inherited permissions can be removed from objects allowing for owners to specifically&nbsp;identify who will get access to children objects regardless of the access of a user to a parent object. Only users with Manage permission are able to remove inherited permissions.</p>
+<p>Inherited permissions can be removed from objects allowing for owners to specifically  identify who will get access to children objects regardless of the access of a user to a parent object. Only users with Manage permission are able to remove inherited permissions.</p>
 <p>To remove inherited permissions:</p>
 <ol>
 <li value="1">Navigate to an object to which you have Manage permissions. <br>For example, navigate to a task.</li>
 <li value="2">Go to the sharing list as described in the <a href="#Share" class="MCXref xref">Overview of sharing permissions on objects</a> section in this article. </li>
-<li value="3">Select the <strong>X</strong>&nbsp;mark next to <strong>Inherited Permission</strong>&nbsp;on the sharing box to remove&nbsp;anyone listed there.<br><br>This ensures that no one who is granted permissions to the parent object (for example, the project) has permissions to this task by default. You must list&nbsp; individual entities in the sharing list of the task to grant permissions on the task.<br><note type="note">
+<li value="3">Select the <strong>X</strong>  mark next to <strong>Inherited Permission</strong>  on the sharing box to remove  anyone listed there.<br><br>This ensures that no one who is granted permissions to the parent object (for example, the project) has permissions to this task by default. You must list   individual entities in the sharing list of the task to grant permissions on the task.<br><note type="note">
 You cannot remove individual entities from the Inherited Permissions list. You can only disable the Inherited Permissions for all entities listed.
 </note></li>
-<li value="4">Click <strong>Save</strong>.&nbsp;</li>
+<li value="4">Click <strong>Save</strong>.  </li>
 </ol>
 <p><strong>Make an object private</strong></p>
-<p>If you have shared an object system-wide, or you have shared it with external uses by making it public, you can make it private again by removing the system-wide or public permissions.&nbsp;</p>
+<p>If you have shared an object system-wide, or you have shared it with external uses by making it public, you can make it private again by removing the system-wide or public permissions.  </p>
 <p>For more information about making an object available system-wide, or publicly, see the section <a href="#Share" class="MCXref xref">Overview of sharing permissions on objects</a> in this article.</p>
 <p>To make an object private:</p>
 <ol>
 <li value="1">Go to the object you want to make private.<br>For example, navigate to a report.</li>
 <li value="2">Click <strong>Report Actions</strong>, then <strong>Sharing</strong>.<br><br></li>
 <li value="3">Click <strong>Remove public access</strong> to remove the access of external users to viewing the report.</li>
-<li value="4">Click <strong>Remove system-wide access</strong> to stop sharing it with all Workfront users.&nbsp;</li>
+<li value="4">Click <strong>Remove system-wide access</strong> to stop sharing it with all Workfront users.  </li>
 <li value="5">Click <strong>Save</strong>.</li>
 </ol>
 </div>
@@ -237,8 +237,8 @@ You cannot remove individual entities from the Inherited Permissions list. You c
 
 ## 要求物件的許可權
 
-當有人將您無權檢視的物件的連結傳送給您時，或當您對物件有較低許可權而您想要請求更高層級的許可權時，您可以請求物件的許可權。 
+當有人將您無權檢視的物件的連結傳送給您時，或當您對物件有較低許可權而您想要請求更高層級的許可權時，您可以請求物件的許可權。
 
-您可以向擁有物件「共用」許可權的任何人請求物件的存取權。 
+您可以向擁有物件「共用」許可權的任何人請求物件的存取權。
 
 如需有關要求物件許可權的詳細資訊，請參閱[要求存取物件](../../workfront-basics/grant-and-request-access-to-objects/request-access.md)。

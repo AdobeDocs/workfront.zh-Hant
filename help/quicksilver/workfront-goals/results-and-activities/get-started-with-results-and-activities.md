@@ -7,7 +7,7 @@ description: 您必須將結果、活動或校準的目標新增至目標，才�
 author: Alina
 feature: Workfront Goals
 exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 3%
@@ -145,7 +145,7 @@ This will have additional types in the future - add another section for types?
    <td><b><p>功能</p></b></td> 
    <td><b><p>結果</p></b></td> 
    <td><b><p>活動</p></b></td> 
-   <td> <p><strong>專案</strong> </p> <p> </p> </td> 
+   <td> <p><strong>專案</strong> </p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td><span style="font-weight: normal;">您可以在Workfront介面中自訂物件名稱</span> </td> 
@@ -167,8 +167,8 @@ This will have additional types in the future - add another section for types?
   </tr> 
   <tr> 
    <td>您可以將其中一個與多個目標建立關聯。</td> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>✔</td> 
   </tr> 
   <tr> 
@@ -181,13 +181,13 @@ This will have additional types in the future - add another section for types?
    <td>必須在Workfront目標中手動更新</td> 
    <td>✔</td> 
    <td>✔</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>他們應在目標的結束日期完成</td> 
    <td>✔</td> 
    <td>✔</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>只能將其指派給使用者，而不能指派給團隊、群組或公司。 </td> 
@@ -201,7 +201,7 @@ This will have additional types in the future - add another section for types?
    <td>✔</td> 
    <td>✔</td> 
   </tr> 
-  <tr> **&#x200B;**
+  <tr> ****
    <td>它們提供介於開始值和結束值之間的值範圍，以說明您距離達到這些值的距離有多近。 接近結束值會計算目標的進度值。 </td> 
    <td>✔</td> 
    <td>✔</td> 

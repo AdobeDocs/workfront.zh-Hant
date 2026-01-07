@@ -7,7 +7,7 @@ description: 「儘快」是一種任務限制，可讓任務的開始時間儘�
 author: Alina
 feature: Work Management
 exl-id: 9cb232fe-bc74-4433-afac-88be69514c88
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 0%
@@ -45,7 +45,7 @@ ht-degree: 0%
 ## 最早可用時間與儘快可用時間之間的差異
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: [! This section is duplicated in "Earliest Available Time"])&nbsp;</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: [! This section is duplicated in "Earliest Available Time"]) </p>
 -->
 
 當以下所有條件存在時，「最早可用時間」限制與「儘快」限制會有所不同：

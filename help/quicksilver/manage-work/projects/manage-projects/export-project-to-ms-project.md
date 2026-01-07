@@ -6,34 +6,34 @@ description: 您可以將Adobe Workfront專案匯出至Microsoft專案。
 author: Alina
 feature: Work Management
 exl-id: 3f0f3644-a763-4b72-a93a-85af8626b5b3
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
 # 將專案匯出至Microsoft專案
 
-您可以將Adobe Workfront專案匯出至Microsoft專案。 
+您可以將Adobe Workfront專案匯出至Microsoft專案。
 
 >[!IMPORTANT]
 >
 >* 並非所有Workfront欄位都在Microsoft專案檔案中轉移。\
 >  如需有關Workfront與Microsoft專案之間欄位相容性的詳細資訊，請參閱文章[將Microsoft專案欄位對應到Adobe Workfront專案](../../../manage-work/projects/manage-projects/map-ms-project-fields-to-workfront.md)。
->* 我們建議您限制將專案從一個應用程式傳輸到另一個應用程式的次數。 
+>* 我們建議您限制將專案從一個應用程式傳輸到另一個應用程式的次數。
 >
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -101,4 +101,4 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**匯出MS Project**。
 
-   專案會下載為XML檔案至您的電腦，且已準備好匯入Microsoft專案。 
+   專案會下載為XML檔案至您的電腦，且已準備好匯入Microsoft專案。

@@ -6,10 +6,10 @@ description: 您可以在Adobe Workfront目標的圖表區段中，檢視目標�
 author: Alina
 feature: Workfront Goals
 exl-id: 8d5f3617-c7bf-44ce-99b0-d4ebda106f25
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '912'
-ht-degree: 0%
+source-wordcount: '899'
+ht-degree: 2%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->您可以在圖表區段中檢視所選期間的目標總數。 不過，Workfront目標在計算整體目標進度狀態和完成百分比時，只會考慮狀態為「作用中」和「已關閉」的目標。
+>您可以在圖表區段中檢視所選期間的目標總數。 不過，Workfront目標在計算整體目標進度狀態和完成百分比時，只會考慮狀態為「作用中」和「已關閉」的目標。
 
-## 存取需求
+## 存取權要求
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ ht-degree: 0%
 >
 >Adobe Workfront目標不再提供購買。
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto">
 <col>
@@ -40,7 +40,7 @@ ht-degree: 0%
 </col>
 <tbody>
  <tr>
-  <td> <p>Adobe Workfront套件</p> </td> 
+  <td> <p>Adobe Workfront 封裝</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
    </td> 
@@ -157,12 +157,9 @@ ht-degree: 0%
 
 ## 以圖表檢閱目標進度
 
-1. 按一下右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png) > **目標**。
+{{step1-to-goals}}
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
-
-   如此將可開啟Workfront目標區域。
+如此將可開啟Workfront目標區域。
 
 1. 按一下左側面板中的&#x200B;**圖形**。
 
@@ -224,4 +221,4 @@ ht-degree: 0%
 
    按一下進度圖底部的&#x200B;**基準線**，從圖表中移除預期的進度。
 
- 
+

@@ -7,7 +7,7 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '7642'
 ht-degree: 1%
@@ -38,16 +38,16 @@ ht-degree: 1%
 
 理想情況下，當專案處於「計畫」狀態時，您應該編輯專案。 如需有關專案團隊的資訊，請參閱[專案團隊概述](../../../manage-work/projects/planning-a-project/project-team-overview.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -198,8 +198,8 @@ ht-degree: 1%
    * [專案設定](#project-settings)
    * [工作設定](#task-settings)
    * [問題設定](#issue-settings)
-   * [存取](#access)
-   * [評論](#comment)
+   * [存取權](#access)
+   * [註解](#comment)
 
 
    >[!NOTE]
@@ -275,7 +275,7 @@ ht-degree: 1%
          <td> <p>指定選取<strong>從完成日期</strong>排程的日期。 </p> <p>當您選取<strong>從開始日期</strong>排程，此為唯讀欄位。<br></p> </td> 
       </tr> 
       <tr> 
-         <td role="rowheader"><strong>產品組合</strong></td> 
+         <td role="rowheader"><strong>專案組合</strong></td> 
          <td>指出專案所屬的Portfolio。 您必須先建立Portfolio，才能讓其出現在下拉式清單中。 只有作用中的專案組合可以與專案相關聯。 如需關於建立投資組合的詳細資訊，請參閱<a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">建立投資組合</a>。
          <p><b>附註</b></p>
          <p>您必須擁有投資組合的管理許可權，才能在專案中新增或移除投資組合。</p>
@@ -651,7 +651,7 @@ ht-degree: 1%
 
    按一下「**儲存**」。
 
-### 存取 {#access}
+### 存取權 {#access}
 
 1. 如上所述開始編輯您的專案。
 1. 按一下左側面板中的&#x200B;**存取**。
@@ -690,7 +690,7 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>某人獲得此專案的存取權時：表示預設的存取權……</strong></td> 
-      <td><p>選取您希望使用者在專案上擁有的存取選項（如果專案已與他們共用）。 如果使用者在與他們共用專案時，被指定為<strong>檢視者</strong>、<strong>貢獻者</strong>或<strong>經理</strong>，請選取這些使用者存取的特定選項。 </p><p><strong>管理</strong>許可權層級中的<strong>刪除</strong>存取權決定使用者是否可以刪除專案本身。 擁有<strong>管理</strong>專案存取許可權的使用者如果擁有這些任務和問題的<strong>管理</strong>許可權，則無論是否選取此選項，都可以刪除專案中的任務和問題。 </p></td> 
+      <td><p>選取您希望使用者在專案上擁有的存取選項（如果專案已與他們共用）。 如果使用者在與他們共用專案時，被指定為<strong>檢視者</strong>、<strong>貢獻者</strong>或<strong>經理</strong>，請選取這些使用者存取的特定選項。 </p><p><strong>管理</strong>許可權層級中的<strong>刪除</strong>存取權決定使用者是否可以刪除專案本身。 擁有<strong>管理</strong>專案存取許可權的使用者如果擁有這些任務和問題的<strong>管理</strong>許可權，則無論是否選取此選項，都可以刪除專案中的任務和問題。 </p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -698,7 +698,7 @@ ht-degree: 1%
 1. 按一下「**儲存**」。
 
 
-### 評論
+### 註解
 
 1. 如上所述開始編輯您的專案。
 1. 按一下左側面板中的&#x200B;**註解**。
@@ -814,7 +814,7 @@ ht-degree: 1%
 
    當自訂表單已附加到某些所選專案時，表單名稱旁邊會顯示新增表單時已附加表單的專案數量。
 
-1. （選擇性）按一下自訂表單名稱右邊的&#x200B;**x**&#x200B;圖示，然後按一下[移除]&#x200B;**&#x200B;**，將其從所有選取的專案中移除。
+1. （選擇性）按一下自訂表單名稱右邊的&#x200B;**x**&#x200B;圖示，然後按一下[移除]****，將其從所有選取的專案中移除。
 
    >[!CAUTION]
    >
@@ -824,13 +824,13 @@ ht-degree: 1%
 
 1. 按一下&#x200B;**財務**，編輯所有選取專案的財務資訊。
 如需有關編輯財務區域的詳細資訊，請參閱本文章的[財務](#finance)小節。
-1. 按一下&#x200B;**專案設定**&#x200B;以編輯所有選取專案的設定。
+1. 按一下&#x200B;**專案設定**以編輯所有選取專案的設定。
 如需有關編輯[專案設定]區域的詳細資訊，請參閱本文中的[專案設定](#project-settings)小節。
 1. 按一下「**任務設定**」以編輯所有選定專案的任務設定。
 如需有關編輯[工作設定]區域的詳細資訊，請參閱本文中的[工作設定](#task-settings)小節。
-1. 按一下&#x200B;**問題設定**&#x200B;以編輯所有選定專案的問題設定。
+1. 按一下&#x200B;**問題設定**以編輯所有選定專案的問題設定。
 如需有關編輯問題設定區域的詳細資訊，請參閱本文中的[問題設定](#issue-settings)小節。
-1. 按一下&#x200B;**存取**&#x200B;以編輯所有選取專案的存取設定。
+1. 按一下&#x200B;**存取**以編輯所有選取專案的存取設定。
 如需有關編輯[存取]區域的詳細資訊，請參閱本文中的[存取](#access)一節。
 1. 按一下&#x200B;**註解**，然後在提供的空間新增註解。 Workfront在每個專案的&#x200B;**更新**&#x200B;區域新增註解。 如需更新工作的相關資訊，請參閱[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 1. （選擇性）若要移除您在「編輯專案」方塊中新增的任何資訊，請將游標移至已編輯的欄位上，然後按一下欄位右上角的&#x200B;**x**&#x200B;捨棄圖示。
@@ -884,7 +884,7 @@ To edit projects in bulk:
      For information, continue with step 7 below.
 
      <!--   
-     <p>(NOTE:&nbsp;make sure this stays accurate)</p>   
+     <p>(NOTE: make sure this stays accurate)</p>   
      
 
    * **Tasks**

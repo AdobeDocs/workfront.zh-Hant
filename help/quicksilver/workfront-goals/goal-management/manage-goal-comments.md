@@ -6,10 +6,10 @@ description: 您可以將註解新增至可在Adobe Workfront目標中檢視的�
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 0%
+source-wordcount: '209'
+ht-degree: 8%
 
 ---
 
@@ -32,7 +32,7 @@ After the monthly releases to Production, the same features are also available i
 
 您可以將註解新增至可在Adobe Workfront目標中檢視的所有目標。
 
-## 存取需求
+## 存取權要求
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ After the monthly releases to Production, the same features are also available i
 >
 >Adobe Workfront目標不再提供購買。
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto">
 <col>
@@ -49,7 +49,7 @@ After the monthly releases to Production, the same features are also available i
 </col>
 <tbody>
  <tr>
-  <td> <p>Adobe Workfront套件</p> </td> 
+  <td> <p>Adobe Workfront 封裝</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
    </td> 
@@ -138,8 +138,10 @@ After the monthly releases to Production, the same features are also available i
 
 您可以在目標頁面的「更新」區段中，將註解新增至目標。
 
-1. 按一下右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，或左上角的&#x200B;**主功能表**&#x200B;圖示![主功能表行](assets/lines-main-menu.png) （如果有的話），然後按一下&#x200B;**目標**。
+{{step1-to-goals}}
+
 如此將可開啟目標清單。
+
 1. 找到您要新增註解的目標，然後按一下其名稱以開啟目標頁面。
 1. 按一下左側面板中的&#x200B;**更新**。
 

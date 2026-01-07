@@ -6,10 +6,10 @@ description: 您可以更新附加至一個物件的自訂表單的顯示順序�
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1054'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -19,16 +19,16 @@ ht-degree: 0%
 
 您可以更新附加至一個物件的自訂表單的顯示順序、移除它們，或是大量編輯自訂表單在多個物件上的顯示方式。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
@@ -180,6 +180,6 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 
    或
 
-   按一下&#x200B;**展開Forms**&#x200B;以同時展開所有表單。 
+   按一下&#x200B;**展開Forms**&#x200B;以同時展開所有表單。
 
 1. 按一下「**儲存變更**」。

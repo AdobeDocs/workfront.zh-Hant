@@ -7,10 +7,10 @@ description: 活動會測量目標的進度。 若無關聯的結果、活動或
 author: Alina
 feature: Workfront Goals
 exl-id: 4d6ef324-4b5c-402b-b64d-b1a2a7d2ab57
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '389'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 活動會測量目標的進度。 如果不關聯結果、活動、專案或校準的目標，您就無法啟動目標，也無法記錄其進度。
 
-## 存取需求
+## 存取權要求
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ ht-degree: 2%
 >
 >Adobe Workfront目標不再提供購買。
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto">
 <col>
@@ -37,7 +37,7 @@ ht-degree: 2%
 </col>
 <tbody>
  <tr>
-  <td> <p>Adobe Workfront套件</p> </td> 
+  <td> <p>Adobe Workfront 封裝</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
    </td> 
@@ -152,7 +152,7 @@ Adding activities to goals differs depending on which environment you use.
 
    ![Add activity inside goal](assets/add-activity-inside-goal-details-highlighted-350x152.png)
 
-1. From the **Activity Type** drop-down menu, select the type of activity you want to associate with your goal.&nbsp;Select **Manual progress bar** or **Project**. Manual progress bar is the default selection. 
+1. From the **Activity Type** drop-down menu, select the type of activity you want to associate with your goal. Select **Manual progress bar** or **Project**. Manual progress bar is the default selection. 
 1. (Conditional) Depending on which activity type you selected, do the following:
 
    1. If you selected **Manual progress bar**:
@@ -196,7 +196,7 @@ Adding activities to goals differs depending on which environment you use.
 1. 按一下&#x200B;**主功能表** ![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**目標**。
 1. 從目標清單中，按一下目標的名稱以開啟目標的頁面。
 1. 按一下左側面板中的&#x200B;**進度指示器**。
-1. 從[新增進度指示器]下拉式功能表，按一下[建立活動] **&#x200B;**。
+1. 從[新增進度指示器]下拉式功能表，按一下[建立活動] ****。
 
    「新增活動」方塊開啟。
 

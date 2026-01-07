@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6113bc62-18f2-4558-bc2f-986b1e7d1a83
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1404'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -23,16 +23,16 @@ ht-degree: 3%
 
 您可以存取專案詳細資訊區段的概觀區域來檢視或編輯專案的資訊。 您可以在此區域中檢視或編輯的欄位數量有限。 如需有關編輯專案所有資訊的資訊，請參閱[編輯專案](../../../manage-work/projects/manage-projects/edit-projects.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -134,12 +134,12 @@ ht-degree: 3%
       <td> <p>專案狀態。 </p> <p>提示：除非已完成所有任務和問題，否則您無法完成專案。 如果專案的「完成模式」設定為「自動」，您將無法手動完成專案。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">條件型別</td> 
-      <td>判斷管理員是否設定專案條件，或Workfront是否設定。 如需有關專案條件的資訊，請參閱文章<a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">專案條件和條件型別概觀</a>。</td> 
+      <td role="rowheader">狀況類型</td> 
+      <td>判斷管理員是否設定專案條件，或Workfront是否設定。 如需有關專案條件的資訊，請參閱文章<a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">專案條件和條件型別概觀</a>。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">排程模式</td> 
-      <td>設定專案的排程方式。 例如，專案是從「開始日期」排程，還是從「完成日期」排程。 </td> 
+      <td>設定專案的排程方式。 例如，專案是從「開始日期」排程，還是從「完成日期」排程。 </td> 
      </tr> 
      <tr> 
       <td role="rowheader">計劃開始日期和時間</td> 
@@ -150,7 +150,7 @@ ht-degree: 3%
       <td> 專案計畫完成的時間。 當專案從「完成日期」開始排程時，這由專案經理手動設定。 當專案從開始日期排程時，Workfront會根據專案中任務的持續時間自動設定此日期。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">產品組合</td> 
+      <td role="rowheader">專案組合</td> 
       <td>與專案相關聯的投資組合。 您必須先建立投資組合，才能將其新增至專案。 </td> 
      </tr> 
      <tr> 
@@ -209,7 +209,7 @@ ht-degree: 3%
    | 輸入者 | 建立專案的使用者名稱。 |
    | 上次更新日期 | 專案上次更新的日期與時間。 |
    | 上次更新者 | 上次更新專案的使用者名稱。 |
-   | 範本 |   |
+   | 範本 |  |
 
 
 1. 如果您的公司已購買Adobe Workfront Scenario Planner的額外授權，並且專案具有從連結的方案發佈的資訊，請在Scenario Planner區域中檢閱以下方案資訊：
@@ -236,15 +236,15 @@ ht-degree: 3%
      </tr> 
      <tr> 
       <td role="rowheader"><span>方案結束日期</span> </td> 
-      <td><span>專案連結至方案時，方案結束月份的最後一天。 </span> </td> 
+      <td><span>專案連結至方案時，方案結束月份的最後一天。</span> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">FTE和時數中的<span>方案工作角色</span> </td> 
-      <td> <p>方案之相關職務角色及其時間配置的相關資訊。 其中包括：</p> 
+      <td> <p>方案之相關職務角色及其時間配置的相關資訊。 其中包括：</p> 
        <ul> 
         <li>工作角色名稱</li> 
         <li>FTE數量</li> 
-        <li> <p>所有FTE的小時數</p> <p>您可以使用時數或FTE來預估計畫或方案所需的工作角色數量。 </p> <p>如需詳細資訊，請參閱<a href="../../../scenario-planner/create-and-edit-plans.md" class="MCXref xref">在Scenario Planner</a>中建立和編輯計畫。 </p> </li> 
+        <li> <p>所有FTE的小時數</p> <p>您可以使用時數或FTE來預估計畫或方案所需的工作角色數量。 </p> <p>如需詳細資訊，請參閱<a href="../../../scenario-planner/create-and-edit-plans.md" class="MCXref xref">在Scenario Planner</a>中建立和編輯計畫。 </p> </li> 
        </ul> <p>提示： <span>如果方案中的每個月工作角色數目不同，此欄位會顯示方案所需的最大角色數量。 例如，如果您在1月需要1名顧問，在2月需要2名顧問，則欄會顯示2FTE以及所有月份中2個FTE的對應時數金額。</span> </p> </td> 
      </tr> 
     </tbody> 

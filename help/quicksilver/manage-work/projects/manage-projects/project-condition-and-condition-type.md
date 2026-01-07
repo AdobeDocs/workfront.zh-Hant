@@ -7,7 +7,7 @@ description: 專案狀態是專案進度方式的視覺化表示。 這是可報
 author: Alina
 feature: Work Management
 exl-id: 0c847b26-b0cb-49bb-84be-32534c72d5b6
-source-git-commit: e4de185f172b173dcc3ad966afa69ffb3bc479eb
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 1%
@@ -78,25 +78,25 @@ ht-degree: 1%
    <td><strong>專案狀況</strong></td> 
    <td><strong>專案進度狀態</strong></td> 
    <td><strong>Workfront條件指示器</strong></td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>達成目標</td> 
-   <td>當專案的進度狀態為準時時，專案的狀態為目標</strong>上的<strong>。 </td> 
+   <td>當專案的進度狀態為準時時，專案的狀態為目標<strong>上的</strong>。 </td> 
    <td> <img src="assets/on-target-condition-icon.png"> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>有風險</td> 
    <td>當專案的進度狀態為<strong>落後</strong>或<strong>有風險</strong>時，則專案的狀況為<strong>有風險</strong>。</td> 
    <td> <img src="assets/at-risk-project-condition-icon.png"> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>陷入困境</td> 
    <td>當專案的進度狀態為<strong>延遲</strong>時，則專案的狀況為<strong>發生問題</strong>。 </td> 
    <td> <img src="assets/in-trouble-project-condition-icon.png"> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>

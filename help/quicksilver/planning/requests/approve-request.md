@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1072'
 ht-degree: 1%
 
 ---
@@ -138,11 +138,11 @@ ht-degree: 1%
 
 ### 核准來自首頁我的核准Widget的請求
 
-1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
+{{step1-to-home}}
 
-   或
+或
 
-   按一下Adobe Workfront左上角的[!UICONTROL 首頁]圖示![首頁圖示](/help/_includes/assets/home-icon-30x29.png)，然後找到「我的核准」Widget。
+按一下Adobe Workfront左上角的[!UICONTROL 首頁]圖示![首頁圖示](/help/_includes/assets/home-icon-30x29.png)，然後找到「我的核准」Widget。
 
 1. 找到您要核准或拒絕的物件。
 

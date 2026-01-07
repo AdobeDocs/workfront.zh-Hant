@@ -7,10 +7,10 @@ description: 排程績效指數(SPI)說明計畫排程與實際排程之間的�
 author: Lisa
 feature: Work Management
 exl-id: 38259774-f22b-4b69-9e22-5b541118a7de
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '396'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -22,16 +22,16 @@ ht-degree: 0%
 
 排程績效指數(SPI)說明計畫排程與實際排程之間的關係。 Adobe Workfront會計算專案與任務層級的SPI。 專案經理會檢閱此量度，以識別任務或專案目前追蹤的時間是否比排程提前或落後。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
+   <td>Adobe Workfront 封裝</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 ### SPI值顯示內容 {#what-the-spi-value-shows}
 
-專案經理瞭解，SPI值為1表示專案符合計畫或準時。  值大於1表示專案比排程提前，值小於1表示專案比排程落後。  從1越遠，與計畫的偏差越大。
+專案經理瞭解，SPI值為1表示專案符合計畫或準時。  值大於1表示專案比排程提前，值小於1表示專案比排程落後。  從1越遠，與計畫的偏差越大。
 
 | **SPI值** | **「依排程」的指示** |
 |---|---|
@@ -82,9 +82,9 @@ SPI = (Total Planned Hours x % Complete) / Planned Hours Scheduled to Date*
 
 *&#42;如果計畫時數排程為日期= 0，SPI = 1*。
 
-計畫時數排程至今會在您執行計算的分鐘計算。 它顯示到目前日期的計畫時數。 當您變更財務資料以取得準確資料時，系統會自動重新計算。 Workfront中沒有指出此值的欄位。
+計畫時數排程至今會在您執行計算的分鐘計算。 它顯示到目前日期的計畫時數。 當您變更財務資料以取得準確資料時，系統會自動重新計算。 Workfront中沒有指出此值的欄位。
 
-例如，如果您有一個具有1個任務的專案，而該任務具有10個計畫時數和10天期間，則計畫時數排程至第5天的日期為5。 
+例如，如果您有一個具有1個任務的專案，而該任務具有10個計畫時數和10天期間，則計畫時數排程至第5天的日期為5。
 
 ## 在專案或任務中尋找SPI
 

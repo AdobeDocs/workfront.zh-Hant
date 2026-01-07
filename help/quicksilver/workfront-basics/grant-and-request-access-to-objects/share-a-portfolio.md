@@ -4,10 +4,10 @@ description: 如果您有存取投資組合的許可權，可以與其他使用�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 79643202-2d91-4028-b673-c3443b50d898
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '870'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -20,22 +20,22 @@ ht-degree: 0%
 許可權專屬於Workfront中的一個專案，可定義使用者可對該專案執行的動作。
 
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td> <p>標準</p> 
-   <p>工作或更高</p> 
+   <p>工作或更高層級</p> 
    </td> 
   </tr> 
   <tr> 
@@ -146,19 +146,19 @@ ht-degree: 0%
 
 | **動作** | **管理** | **檢視** |
 |---|---|---|
-| 編輯Portfolio詳細資料 | ✓ |   |
+| 編輯Portfolio詳細資料 | ✓ |   |
 | 檢視Portfolio | ✓ | ✓ |
-| 刪除Portfolio | ✓ |   |
-| 附加自訂表格 | ✓ |   |
-| 編輯自訂欄位 | ✓ |   |
-| 新增或移除程式&#42; | ✓ |   |
-| 新增或移除專案&#42; | ✓ |   |
-| 核准專案 | ✓ |   |
-| Portfolio最佳化&#42; | ✓ |   |
+| 刪除Portfolio | ✓ |   |
+| 附加自訂表格 | ✓ |   |
+| 編輯自訂欄位 | ✓ |   |
+| 新增或移除程式&#42; | ✓ |   |
+| 新增或移除專案&#42; | ✓ |   |
+| 核准專案 | ✓ |   |
+| Portfolio最佳化&#42; | ✓ |   |
 | 新增檔案資料夾&#42; | ✓ | ✓ |
 | 新增檔案 | ✓ | ✓ |
 | 更新/評論 | ✓ | ✓ |
 | 共用 | ✓ | ✓ |
-| 共用系統範圍 |   | ✓ |
+| 共用系統範圍 |   | ✓ |
 
 *這些許可權是由其他物件（如專案、方案、檔案）的存取層級和許可權所控制。

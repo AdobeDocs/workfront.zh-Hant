@@ -6,10 +6,10 @@ description: 您可以先請求核准專案，然後再開始處理。 我們建
 author: Alina
 feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '557'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
@@ -32,16 +32,16 @@ ht-degree: 2%
 * 在計畫的專案區域中
 * 當您是群組管理員時，位於專案群組的「群組」區域中。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -101,7 +101,7 @@ ht-degree: 2%
 
 1. 執行下列其中一項：
 
-   * 按一下右上角的&#x200B;**主功能表** ![主功能表圖示](assets/main-menu-icon.png)，或左上角的&#x200B;**主功能表** ![主功能表行](assets/lines-main-menu.png)。如果可用，請按一下&#x200B;**專案**，然後展開&#x200B;**新專案**。
+   * 按一下左上角的&#x200B;**主功能表**&#x200B;圖示![主功能表行](assets/lines-main-menu.png)，或按一下右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，按一下&#x200B;**專案**，然後展開&#x200B;**新專案**。
    * 移至投資組合，然後展開&#x200B;**新專案**。
    * 前往方案，然後展開&#x200B;**新專案**。
    * 如果您是群組管理員，您也可以在您管理之群組的專案區段中建立專案。 如需詳細資訊，請參閱[建立和修改群組的專案](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md)。

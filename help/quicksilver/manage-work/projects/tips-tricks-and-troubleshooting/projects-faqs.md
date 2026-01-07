@@ -4,7 +4,7 @@ description: 本文包含有關Adobe Workfront中專案最常見的常見問題�
 author: Alina
 feature: Work Management
 exl-id: be262d72-f4e4-4426-a6bc-23499667fc97
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '636'
 ht-degree: 1%

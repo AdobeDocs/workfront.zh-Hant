@@ -7,7 +7,7 @@ description: 與任務、問題或專案相關的計畫時數代表指派的使�
 author: Alina
 feature: Work Management
 exl-id: 0b86c760-691a-436e-9beb-31e9ac36440a
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '2815'
 ht-degree: 0%
@@ -159,7 +159,7 @@ The daily hour amount represents one of the following:
 
 您可以在工作負載平衡器中檢視指派給任務或問題的每個使用者的每日規劃時數分配。
 
-計畫時數的每日小時量代表下列其中一項： 
+計畫時數的每日小時量代表下列其中一項：
 
 * Workfront在任務、問題或專案期間每天均分的預設金額
 * 資源管理員管理的調整每日配置
@@ -195,7 +195,7 @@ The daily hour amount represents one of the following:
 
 >[!IMPORTANT]
 >
->請注意，「使用率」報表中的「計畫時數」與指派相關聯，而非與任務和問題本身相關聯。 使用率報告中的計畫時數並不總是與專案任務和問題的計畫時數相符。 但是，計畫時數不符合與任務和問題上的指派相關聯的時數。
+>請注意，「使用率」報表中的「計畫時數」與指派相關聯，而非與任務和問題本身相關聯。 使用率報告中的計畫時數並不總是與專案任務和問題的計畫時數相符。 但是，計畫時數不符合與任務和問題上的指派相關聯的時數。
 
 您可以在「使用率」報表中檢視下列計畫時數型態：
 
@@ -280,7 +280,7 @@ The daily hour amount represents one of the following:
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>Anna Asatryan</p>
 <p>3/22/2022 At 3:16 PM</p>
-<p>&nbsp;</p>
+<p> </p>
 <p>to Mark Paul, Corrie Butler, Arman Simonyan, Gagik Khalatyan, Alina Wilson, Artur Sargsyan, Vazgen Babayan, Anna Asatryan</p>
 <p>I have done some rough calculations on what the planned hours/revenues should look like Book.xlsx . And if we look, for example at the 2 users highlighted in one of the screenshots their planned hours look way off from what the calculation looks like in the spreadsheet (i.e. equally distributed allocation). When looking at the Workload balancer (the second screenshot), as an example for the user Yashas Mitta, I can see that the allocation has been modified. Obviously the utilization report calculates the allocations based on the modified contouring using the new work per day calculation. The project financial report uses the old, equal distribution of allocation along the full duration of the task. Hence. there is a difference when grouping per periods.</p>
 <p>Vazgen Babayan</p>

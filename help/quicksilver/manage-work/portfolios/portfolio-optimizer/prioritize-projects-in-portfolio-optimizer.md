@@ -6,10 +6,10 @@ description: 您可以在Portfolio Optimizer中排定專案的優先順序，以
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 54e33746-5995-49de-8e21-bf973f0694a6
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 714e6e09f1429f0382c36d17d3f2aca95edcfbc6
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 0%
+source-wordcount: '491'
+ht-degree: 2%
 
 ---
 
@@ -30,9 +30,9 @@ ht-degree: 0%
 
 * **[!UICONTROL Portfolio最佳化工具]**&#x200B;的[!UICONTROL 專案優先順序]區域依預設會以[!UICONTROL 計劃開始日期]和[!UICONTROL 淨值]的順序顯示專案。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -46,16 +46,16 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>[!UICONTROL 標準]</p>
-   <p>[!UICONTROL 計畫]</p> </td> 
+   <td> <p>[！UICONTROL標準]</p>
+   <p>[！UICONTROL計畫]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[!UICONTROL Edit]對[!UICONTROL Portfolios]和[!UICONTROL Projects]的存取權</p>  </td>
+   <td> <p>[！UICONTROL Edit]對[！UICONTROL Portfolios]和[！UICONTROL Projects]的存取權</p>  </td>
 </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>投資組合的[!UICONTROL Manage]許可權</p>  </td> 
+   <td> <p>投資組合的[！UICONTROL Manage]許可權</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -94,9 +94,8 @@ ht-degree: 0%
 
 ## 變更[!UICONTROL Portfolio Optimizer]中專案的優先順序
 
-1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)。
+{{step1-to-portfolios}}
 
-1. 按一下&#x200B;**[!UICONTROL 投資組合]**。
 1. （選擇性）在&#x200B;**[!UICONTROL 篩選器]**&#x200B;下拉式選單中選取正確的篩選器，以檢視正確的投資組合清單。
 1. 按一下投資組合的名稱以開啟。
 1. 按一下左側面板中的&#x200B;**[!UICONTROL Portfolio最佳化]**。

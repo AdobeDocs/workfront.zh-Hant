@@ -7,7 +7,7 @@ description: 「完成時間不早於(FNET)」是「作業限制」，可排定�
 author: Alina
 feature: Work Management
 exl-id: b1dbf5c9-34b6-4c25-b582-ce9454501e03
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 0%
@@ -45,7 +45,7 @@ ht-degree: 0%
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Use the Finish No Earlier Than constraint</h2>
-<p>(NOTE: replaced with new article linked above)&nbsp;</p>
+<p>(NOTE: replaced with new article linked above) </p>
 <p>To update the Task Constraint to Finish No Earlier Than:</p>
 <ol>
 <li value="1">Go to a task whose Task Constraint you want to update.</li>

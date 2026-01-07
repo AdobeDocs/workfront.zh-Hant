@@ -6,10 +6,10 @@ description: 您可以編輯工作清單中顯示的欄位，以編輯工作清�
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '2851'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -29,22 +29,22 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 您可以編輯工作清單中顯示的欄位，以編輯工作清單中的工作資訊。 如需有關編輯工作的其他方式的資訊，請參閱[編輯工作](../../../manage-work/tasks/manage-tasks/edit-tasks.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td> <p>標準<p>
-   <p>工作或更高</p>
+   <p>工作或更高層級</p>
     </td> 
   </tr> 
   <tr> 
@@ -79,7 +79,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>Edit access to Tasks and&nbsp;Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Tasks and Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -342,7 +342,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    </table>
 
 1. 當您變更任務的時間表時，Workfront會更新所有專案內和跨專案相依性。
-1. 當您想要永久保留工作變更並儲存專案的時間表時，請按一下[儲存]。**&#x200B;**
+1. 當您想要永久保留工作變更並儲存專案的時間表時，請按一下[儲存]。****
 
 #### 當您選取「手動儲存時程表計畫」選項時，手動儲存工作清單中的變更 {#save-changes-in-a-task-list-manually-when-you-select-the-manual-save-timeline-planning-option}
 
@@ -450,7 +450,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    </table>
 
 1. 當您變更任務的時間表時，Workfront會更新所有專案內和跨專案相依性。
-1. 當您想要永久保留工作變更並儲存專案的時間表時，請按一下[儲存]。**&#x200B;**
+1. 當您想要永久保留工作變更並儲存專案的時間表時，請按一下[儲存]。****
 
 ## 使用「摘要」編輯清單中的任務
 
@@ -526,7 +526,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
       * 財務
       * 設定
       * 設定
-      * 評論
+      * 註解
 
       >[!NOTE]
       >
@@ -547,7 +547,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
       * 設定
       * 指派
       * 自訂表單
-      * 評論
+      * 註解
 
    1. （選擇性）在&#x200B;**自訂Forms**&#x200B;區段中，選取&#x200B;**重新計算自訂運算式**&#x200B;選項，以確保附加到所選工作的自訂表單上的所有計算自訂欄位都是最新的。
    1. 按一下&#x200B;**儲存變更**。 您所做的所有變更現在會顯示在所有選取的任務中。

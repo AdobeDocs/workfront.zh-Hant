@@ -6,10 +6,10 @@ description: 您可以為單一專案排程資源，以指出每項資源被指�
 author: Alina, Lisa
 feature: Work Management
 exl-id: d59f6083-49d3-4fe6-ac60-656f992363d9
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '228'
-ht-degree: 3%
+ht-degree: 10%
 
 ---
 
@@ -19,16 +19,16 @@ ht-degree: 3%
 
 您可以為單一專案排程資源，以指出每項資源被指派的工作，以及完成工作所花費的時間。 您可以為專案排程資源，並在專案級別使用工作負載平衡器為每個資源分配時數。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -75,7 +75,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
-   <td> <p>Edit access to&nbsp;the following:</p> 
+   <td> <p>Edit access to the following:</p> 
     <ul> 
      <li> <p>Resource Management</p> </li> 
      <li> <p>Projects</p> </li> 

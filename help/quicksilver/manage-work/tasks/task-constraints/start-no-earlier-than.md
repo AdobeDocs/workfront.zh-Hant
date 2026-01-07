@@ -7,7 +7,7 @@ description: 使用「開始時間不早於(SNET)作業限制」將作業排定�
 author: Alina
 feature: Work Management
 exl-id: 857859fb-87ee-4397-b292-239ed9dc8281
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 0%
@@ -48,7 +48,7 @@ ht-degree: 0%
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Use the Start No Earlier Than Task Constraint</h2>
-<p>(NOTE:&nbsp;replaced with new article linked above)&nbsp;</p>
+<p>(NOTE: replaced with new article linked above) </p>
 <p>To update the Task Constraint to Start No Later Than:</p>
 <ol>
 <li value="1">Go to a task whose Task Constraint you want to update.</li>

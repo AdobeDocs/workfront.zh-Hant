@@ -6,10 +6,10 @@ description: 您可以從任何時段和任何狀態編輯現有目標。
 author: Alina
 feature: Workfront Goals
 exl-id: 74db534c-6897-40c2-bea9-a9d30a40f61c
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 1%
+source-wordcount: '563'
+ht-degree: 3%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 您可以從任何時段和任何狀態編輯現有目標。
 
-## 存取需求
+## 存取權要求
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 1%
 >
 >Adobe Workfront目標不再提供購買。
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto">
 <col>
@@ -36,7 +36,7 @@ ht-degree: 1%
 </col>
 <tbody>
  <tr>
-  <td> <p>Adobe Workfront套件</p> </td> 
+  <td> <p>Adobe Workfront 封裝</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
    </td> 
@@ -132,7 +132,7 @@ ht-degree: 1%
 
   您可以編輯過去目標的下列資訊：
 
-   * 姓名
+   * 名稱
    * 時段
    * 狀態
 
@@ -191,8 +191,10 @@ Editing goals differs depending on what environment you use.
 
 -->
 
-1. 按一下&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**目標**。\
-   隨即顯示目標清單。
+{{step1-to-goals}}
+
+隨即顯示目標清單。
+
 1. 按一下目標。\
    目標頁面隨即顯示。
 
@@ -212,7 +214,7 @@ Editing goals differs depending on what environment you use.
    * 更新目標標題中的下列資訊，然後按Enter儲存變更：
       * **目標名稱**：按一下目標的名稱，然後開始輸入新名稱。
       * **擁有者**：按一下擁有者的名稱，然後開始輸入使用者、團隊、群組或您公司的名稱，然後在清單中顯示時選取該名稱。 一個目標只能有一個擁有者。
-   * 在[編輯目標]方塊中更新下列資訊，然後按一下[儲存] **&#x200B;**：
+   * 在[編輯目標]方塊中更新下列資訊，然後按一下[儲存] ****：
       * **目標名稱**
       * **期間**：按一下以更新目標的期間\
         或\

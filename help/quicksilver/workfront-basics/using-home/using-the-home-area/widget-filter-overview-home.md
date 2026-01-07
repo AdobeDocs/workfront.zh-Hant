@@ -6,7 +6,7 @@ description: 您可以從多個Widget中進行選擇，以自訂首頁上顯示�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
-source-git-commit: 884ade1102e685ec01af2790b17acb50c2114ca7
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1092'
 ht-degree: 11%
@@ -276,7 +276,7 @@ ht-degree: 11%
       <td> <p>顯示請求 
       <ul>
       <li>您已提交但尚未完成的專案。 </li> 
-      <li>沒有實際完成日期或其解析物件沒有實際完成日期則會列在「我的未結請求」子頁標中。 </li> 
+      <li>沒有實際完成日期或其解析物件沒有實際完成日期則會列在「我的未結請求」子頁標中。  </li> 
       </ul>
       <p><b>附註</b> 
       未處於已關閉狀態的請求會視為未完成。</p> </td> 

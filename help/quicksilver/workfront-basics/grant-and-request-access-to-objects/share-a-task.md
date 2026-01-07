@@ -6,10 +6,10 @@ description: 當您的Adobe Workfront管理員指派存取層級時，可以授�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 45da15cb-8880-41f7-a0de-939882c1f154
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1196'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
@@ -22,22 +22,22 @@ ht-degree: 1%
 許可權專屬於Workfront中的一個專案，可定義使用者可對該專案執行的動作。
 
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td> <p>標準</p> 
-   <p>工作或更高</p> 
+   <p>工作或更高層級</p> 
    </td> 
   </tr> 
   <tr> 
@@ -63,18 +63,18 @@ ht-degree: 1%
 * 您可以個別共用工作，也可以一次大量共用數個工作。\
   共用工作與共用其他物件相同。 如需在Workfront中共用專案的詳細資訊，請參閱[共用物件](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)。
 
-* 您可以將下列許可權授與工作： 
+* 您可以將下列許可權授與工作：
 
    * 檢視
    * 管理
    * 參與
 * 當您共用任務時，使用者預設會繼承與任務相關的所有子物件的相同許可權。 例如，他們會對附加到任務的子任務、問題和檔案繼承相同許可權。\
-  如需Workfront中物件階層的詳細資訊，請參閱  [瞭解Adobe Workfront中的物件](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)。
+  如需Workfront中物件階層的詳細資訊，請參閱   [瞭解Adobe Workfront中的物件](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)。
 
   Workfront管理員可以指定檔案是否應該繼承使用者存取層級中較高物件的許可權。 如需有關限制檔案繼承許可權的詳細資訊，請參閱[建立或修改自訂存取層級](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
 * 您可以從任務中移除繼承的許可權。\
-  如需有關從物件移除繼承許可權的詳細資訊，請參閱  [從物件移除許可權](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)。
+  如需有關從物件移除繼承許可權的詳細資訊，請參閱   [從物件移除許可權](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)。
 
 ## 共用任務的方法
 
@@ -87,7 +87,7 @@ ht-degree: 1%
    * 指定任務之任何父系物件的許可權：專案、方案或投資組合。 任務會從其父物件繼承許可權。 如需有關檢視物件繼承許可權的資訊，請參閱[檢視物件的繼承許可權](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)。
    * 在用來建立任務所在專案的範本上，將實體新增至專案共用。 如需從範本共用專案的詳細資訊，請參閱[共用範本](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)。
 
-   * 編輯專案時，請指定專案中所有任務的許可權。 如需有關根據使用者對專案的許可權管理專案上任務存取許可權的資訊，請參閱文章[&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access)編輯專案[中的](../../manage-work/projects/manage-projects/edit-projects.md)區段。
+   * 編輯專案時，請指定專案中所有任務的許可權。  如需有關根據使用者對專案的許可權管理專案上任務存取許可權的資訊，請參閱文章[](../../manage-work/projects/manage-projects/edit-projects.md#access)編輯專案[中的](../../manage-work/projects/manage-projects/edit-projects.md)區段。
 
   >[!TIP]
   >
@@ -185,13 +185,13 @@ ht-degree: 1%
    <td scope="row">新增任務</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">新增前置任務</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">新增問題</td> 
@@ -202,26 +202,26 @@ ht-degree: 1%
   <tr> 
    <td scope="row">刪除任務</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row"> <p>一般任務編輯<br></p> </td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">變更任務狀態</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">編輯任務限制</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">檢視任務</td> 
@@ -244,50 +244,50 @@ ht-degree: 1%
   <tr> 
    <td scope="row">移動任務*</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">記錄時數</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">修改計畫日期</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">接受指派</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">進行指派</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">附加自訂表單</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">編輯自訂欄位</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">建立核准流程</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">核准任務</td> 
@@ -298,14 +298,14 @@ ht-degree: 1%
   <tr> 
    <td scope="row">編輯財務*</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">新增/編輯費用</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">檢視財務</td> 
@@ -327,8 +327,8 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td scope="row">全系統共用</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
    <td>✓</td> 
   </tr> 
  </tbody> 

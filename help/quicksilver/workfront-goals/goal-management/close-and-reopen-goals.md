@@ -6,10 +6,10 @@ description: 當您想要指出您已完成目標或由於目標已過時而不�
 author: Alina
 feature: Workfront Goals
 exl-id: bbb549c1-aea6-4f5e-8a6b-01fc04cf06ef
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 0%
+source-wordcount: '860'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 您可以重新開啟已關閉的目標（當這些目標再次變得相關時）。
 
-## 存取需求
+## 存取權要求
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ ht-degree: 0%
 >
 >Adobe Workfront目標不再提供購買。
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto">
 <col>
@@ -41,7 +41,7 @@ ht-degree: 0%
 </col>
 <tbody>
  <tr>
-  <td> <p>Adobe Workfront套件</p> </td> 
+  <td> <p>Adobe Workfront 封裝</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
    </td> 
@@ -189,12 +189,9 @@ Closing goals differs depending on what environment you use.
 1. (Optional) Modify your filters again to display only closed goals. The goals you closed display on the screen.
 -->
 
-1. 按一下右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png) > **目標**。
+{{step1-to-goals}}
 
-   目標清單隨即開啟。
-
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
+目標清單隨即開啟。
 
 1. （可選）修改您的篩選器以僅顯示作用中的目標。
 
@@ -255,12 +252,9 @@ Reopening goals differs depending on what environment you use.
 
 -->
 
-1. 按一下右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)> **目標**。
+{{step1-to-goals}}
 
-   目標清單隨即開啟。
-
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
+目標清單隨即開啟。
 
 1. （可選）修改您的篩選器以僅顯示已關閉的目標。
 

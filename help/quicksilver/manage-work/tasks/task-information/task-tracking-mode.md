@@ -7,7 +7,7 @@ description: 建立或編輯任務時，您可以調整任務的「追蹤模式�
 author: Alina
 feature: Work Management
 exl-id: 397b5593-ac01-40cf-b683-fcf671a53d26
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 3%
@@ -29,9 +29,9 @@ ht-degree: 3%
 <p>To set the tracking mode:</p>
 <ol>
 <li value="1">Go to the task you want to set the tracking mode for.</li>
-<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <strong>More</strong> icon <img src="assets/qs-more-icon-on-an-object.png">next to the name of the task, then click&nbsp;<strong>Edit</strong>.</p> <p>The Edit Task dialog box opens. </p> </li>
-<li value="3"> <p>In the&nbsp;<strong>Settings</strong> section, use the&nbsp;<strong>Tracking Mode</strong> drop-down menu to select the Tracking Mode for the task.</p> <p>For more information about the tracking mode options, see the <a href="#tracking-mode-options" class="MCXref xref" xrefformat="{para}">Tracking Mode options</a> section in this article. </p> </li>
-<li value="4">Click&nbsp;<strong>Save Changes.</strong></li>
+<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <strong>More</strong> icon <img src="assets/qs-more-icon-on-an-object.png">next to the name of the task, then click <strong>Edit</strong>.</p> <p>The Edit Task dialog box opens. </p> </li>
+<li value="3"> <p>In the <strong>Settings</strong> section, use the <strong>Tracking Mode</strong> drop-down menu to select the Tracking Mode for the task.</p> <p>For more information about the tracking mode options, see the <a href="#tracking-mode-options" class="MCXref xref" xrefformat="{para}">Tracking Mode options</a> section in this article. </p> </li>
+<li value="4">Click <strong>Save Changes.</strong></li>
 </ol>
 </div>
 -->

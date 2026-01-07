@@ -6,10 +6,10 @@ description: 當專案中的任務需要比您原本計畫更大的工作量完�
 author: Alina
 feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1142'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -25,16 +25,16 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 當專案中的任務需要比您原本計畫更大的工作量完成時，您可以將其轉換為專案。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -73,7 +73,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks and&nbsp;Projects</p> <p>View or higher access to&nbsp;Templates, when converting to a project using a template</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Tasks and Projects</p> <p>View or higher access to Templates, when converting to a project using a template</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -144,7 +144,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
       </ul> </td> 
     </tr> 
     <tr> 
-    <td>產品組合</td> 
+    <td>專案組合</td> 
     <td>從範本傳輸。 否則，此欄位為空白。</td> 
     </tr> 
     <tr> 
@@ -185,7 +185,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
     <td>從範本轉移。 </td> 
     </tr> 
     <tr> 
-    <td>存取</td> 
+    <td>存取權</td> 
     <td> <p>從範本的「存取」區段轉移。 </p> </td> 
     </tr> 
     <tr> 

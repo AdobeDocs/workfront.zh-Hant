@@ -5,10 +5,10 @@ author: Becky
 draft: Probably
 feature: Work Management
 exl-id: 91e456ae-a192-4f3a-afff-b3c48854e295
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '288'
-ht-degree: 4%
+ht-degree: 10%
 
 ---
 
@@ -20,16 +20,16 @@ ht-degree: 4%
 
 提交請求時，您可以共用請求佇列、主題群組或佇列主題的連結。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 

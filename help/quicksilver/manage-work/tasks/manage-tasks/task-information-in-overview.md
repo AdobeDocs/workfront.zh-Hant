@@ -6,10 +6,10 @@ description: 您可以存取「任務詳細資訊」區段的「概觀」區域�
 author: Alina
 feature: Work Management
 exl-id: 4980b28f-914d-4cf9-813f-14983aac660b
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '2102'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -29,22 +29,22 @@ ht-degree: 4%
 * [新增自訂表單至物件](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)
 * [管理附加到物件的自訂表單](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront套件</p> </td> 
+   <td> <p>Adobe Workfront 封裝</p> </td> 
    <td>任何</td> 
   </tr> 
   <tr> 
    <td> <p>Adobe Workfront授權 </p> </td> 
    <td><p>標準</p> 
-   <p>工作或更高</p> </td> 
+   <p>工作或更高層級</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>存取層級設定</td> 
@@ -122,7 +122,7 @@ ht-degree: 4%
 1. 編輯任何可編輯的欄位，方法是按一下該欄位或按一下&#x200B;**+新增**&#x200B;將資訊新增至空白欄位。
 1. 檢視或編輯下列任何欄位。
 
-   並非所有欄位都可以編輯。  
+   並非所有欄位都可以編輯。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -199,7 +199,7 @@ ht-degree: 4%
             <td>H</td> 
            </tr> 
            <tr> 
-            <td>天。 這是預設值。 </td> 
+            <td>天。 這是預設值。 </td> 
             <td>D</td> 
            </tr> 
            <tr> 
@@ -248,7 +248,7 @@ ht-degree: 4%
       <td> <p>實際開始日期與實際完成日期之間的天數差異。 這是實際完成工作所需的時間。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">計畫時數</td> 
+      <td role="rowheader">規劃時數</td> 
       <td> <p>指定任務的計畫時數（以時數為單位）。 這是工作的受指派人完成工作所需的實際時間。 當「期間型別」設定為「計算的指定任務」時，您只能指定任務的計畫時數。 如需有關期間型別的詳細資訊，請參閱<a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">工作期間與期間型別概觀</a>。</p> </td> 
      </tr> 
      <tr> 
@@ -313,7 +313,7 @@ ht-degree: 4%
       <td> <p>指定作業的實際開始日期。 當您將任務的狀態變更為進行中時，通常會自動填入預設值。 專案經理或任務擁有者也可以手動修改實際開始日期。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">計畫完成日期</td> 
+      <td role="rowheader">規劃完成日期</td> 
       <td> <p>計畫的任務時顯示的預計完成日期。 計畫完成日期可由許多因素設定：</p> 
        <ul> 
         <li>從計劃開始日期通過將任務的期間新增到計劃開始日期來計算計畫完成日期。 當專案經理或Workfront指定任務的期間時，這會觸發計畫完成日期的更新。 如果計畫日期變更，通常是因為期間已更新。</li> 
@@ -365,7 +365,7 @@ ht-degree: 4%
    -->
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Custom Forms</strong> to add or forms or edit information on the existing custom forms.&nbsp;</p>
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Custom Forms</strong> to add or forms or edit information on the existing custom forms. </p>
    -->
 
    <!--
@@ -385,7 +385,7 @@ ht-degree: 4%
      -->
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click&nbsp;<strong>Finance</strong>, then <strong>Edit Finance</strong> to view or edit financial information for the task. </p>
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Finance</strong>, then <strong>Edit Finance</strong> to view or edit financial information for the task. </p>
    -->
 
    <!--

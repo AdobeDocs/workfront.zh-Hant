@@ -6,10 +6,10 @@ description: 存在問題中進度的Oals有無法實現的危險，在Adobe Wor
 author: Alina
 feature: Workfront Goals
 exl-id: df2cdc12-9102-4759-9daa-1f8ae68f110b
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 0%
+source-wordcount: '748'
+ht-degree: 2%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 出現問題的進度目標有無法實現的危險，在Adobe Workfront目標中有紅色進度列表示。 您應該經常檢閱您的目標，並瞭解進度滯後的原因。 如需目標進度的相關資訊，請參閱[Adobe Workfront目標中的目標進度和條件總覽](../../workfront-goals/goal-management/calculate-goal-progress.md)。
 
-## 存取需求
+## 存取權要求
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ ht-degree: 0%
 >
 >Adobe Workfront目標不再提供購買。
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto">
 <col>
@@ -40,7 +40,7 @@ ht-degree: 0%
 </col>
 <tbody>
  <tr>
-  <td> <p>Adobe Workfront套件</p> </td> 
+  <td> <p>Adobe Workfront 封裝</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
    </td> 
@@ -130,7 +130,7 @@ ht-degree: 0%
 
 ## 防止目標達成有問題進度的建議
 
-在目標達到「存在問題」的進度之前，您可以經常監控目標，並在目標達到「有風險」的進度時調整進度。 有風險的目標有陷入麻煩的危險。 如需目標進度的詳細資訊，請參閱[Adobe Workfront目標中的目標進度和條件總覽](../../workfront-goals/goal-management/calculate-goal-progress.md)
+在目標達到「存在問題」的進度之前，您可以經常監控目標，並在目標達到「有風險」的進度時調整進度。 有風險的目標有陷入麻煩的危險。 如需目標進度的詳細資訊，請參閱[Adobe Workfront目標中的目標進度和條件總覽](../../workfront-goals/goal-management/calculate-goal-progress.md)
 
 在您的目標達到「存在問題」的進度之前，我們建議執行以下操作：
 
@@ -139,16 +139,13 @@ ht-degree: 0%
 
 ## 檢閱目標清單中的問題中目標
 
-您可以在Workfront目標的任何區段中檢閱目標。 如需Workfront目標區段的詳細資訊，請參閱[Adobe Workfront目標區段概覽](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md)。
+您可以在Workfront目標的任何區段中檢閱目標。 如需Workfront目標區段的詳細資訊，請參閱[Adobe Workfront目標區段概覽](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md)。
 
 本文說明如何檢閱目標清單中的目標。
 
-1. 按一下右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png) > **目標**。
+{{step1-to-goals}}
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
-
-   如此將可開啟Workfront目標區域，且預設會顯示目標清單區段。
+如此將可開啟Workfront目標區域，且預設會顯示目標清單區段。
 
 1. （建議）針對「目標清單」區域調整下列篩選器，以檢閱有風險的目標：
 

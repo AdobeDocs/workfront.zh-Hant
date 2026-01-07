@@ -7,10 +7,10 @@ author: Alina
 feature: Projects, Work Management
 role: User
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '712'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
@@ -50,9 +50,9 @@ ht-degree: 5%
 >
 > 原始專案任務的日期將複製到新專案。 您必須變更專案的開始或完成日期（視其排程模式而定）以更新作業日期。 任務限制可能會阻止您變更專案日期。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
@@ -60,7 +60,7 @@ ht-degree: 5%
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront套件</p> </td>  
+   <td> <p>Adobe Workfront 封裝</p> </td>  
    <td>任何</td> 
   </tr> 
   <tr> 

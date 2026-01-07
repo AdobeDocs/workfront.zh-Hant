@@ -7,7 +7,7 @@ description: 將前置任務關係新增至任務時，您可能會遇到相依�
 author: Alina
 feature: Work Management
 exl-id: 142e9637-841c-43d1-b297-e42c28a9e010
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 相依性回圈概述
 
-當有兩個或多個任務彼此相依而需要完成時，就會發生相依性回圈。 如果Adobe Workfront建立相依性回圈，則不允許您在任務之間建立前置任務關係。
+當有兩個或多個任務彼此相依而需要完成時，就會發生相依性回圈。 如果Adobe Workfront建立相依性回圈，則不允許您在任務之間建立前置任務關係。
 
 **範例：**&#x200B;任務2是任務1的前置任務，這表示您必須先完成任務2，才能開始處理任務1。
 
@@ -36,4 +36,4 @@ ht-degree: 0%
 * 如果您嘗試讓父項成為子項的前置項，也會發生相依性回圈。
 * 在相依性回圈的情況下，您無法儲存任務或專案。 為了修正相依性回圈，您必須重新評估錯誤訊息中所列任務之間的前置任務關係，並移除衝突，然後才能儲存任務或專案。
 
- 
+

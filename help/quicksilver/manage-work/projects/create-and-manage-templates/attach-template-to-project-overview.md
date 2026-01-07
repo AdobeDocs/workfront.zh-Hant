@@ -8,10 +8,10 @@ description: 將範本附加到現有專案時，您會根據範本修改專案�
 author: Alina
 feature: Work Management
 exl-id: 7f0137b6-ce8e-4b66-ad55-e6dc2aae09d9
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1258'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
@@ -55,236 +55,236 @@ ht-degree: 5%
   <tr> 
    <td>說明</td> 
    <td>專案資訊會保留</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p>狀態</p> </td> 
    <td>專案資訊會保留</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>URL</td> 
    <td>已從範本傳輸，如果專案上的欄位為空</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>優先順序</td> 
    <td>專案資訊會保留</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
-   <td>條件型別</td> 
+   <td>狀況類型</td> 
    <td>專案資訊會保留</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>排程模式</td> 
    <td>專案資訊會保留</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>計畫日期</td> 
    <td>可能會根據新增的任務而變更</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>實際日期</td> 
    <td>可能會根據新增的任務而變更</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>專案組合</td> 
    <td>專案資訊會保留</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>方案</td> 
    <td>專案資訊會保留</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>群組</td> 
    <td>專案資訊會保留</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>公司</td> 
    <td>已從範本傳輸，如果專案上的欄位為空</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>規劃時數</td> 
    <td>可能會根據新增的任務而變更</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>專案所有者</td> 
    <td>已從範本傳輸，如果專案上的欄位為空</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>專案贊助者</td> 
    <td>已從範本傳輸，如果專案上的欄位為空</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>資源管理員</td> 
    <td>已新增至專案中現有的資源管理員清單</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
-   <td>自訂Forms</td> 
+   <td>自訂表單</td> 
    <td>除了已新增至專案中的表單外，還新增至專案</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>預算</td> 
    <td>專案資訊會保留</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>貨幣</td> 
    <td>專案資訊會保留</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>績效指數方法</td> 
    <td>專案資訊會保留</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>EAC</td> 
    <td>專案資訊會保留</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>規劃收益</td> 
    <td>專案資訊會保留</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>實際收益</td> 
    <td>專案資訊會保留</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>里程碑路徑</td> 
    <td>已從範本傳輸，如果專案上的欄位為空</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>完成模式</td> 
    <td>專案資訊會保留</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>摘要完成模式</td> 
    <td>專案資訊會保留</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>更新類型</td> 
    <td>專案資訊會保留</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>排程</td> 
    <td>專案資訊會保留</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>使用者休假</td> 
    <td>專案資訊會保留</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>資源平準模式</td> 
    <td>專案資訊會保留</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>風險（專案欄位）</td> 
    <td>專案資訊會保留</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>資源集區</td> 
    <td>已新增至專案上現有資源集區的清單</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
-   <td>小時類型</td> 
+   <td>時數類型</td> 
    <td> <p>如果在附件程式期間取消選取，專案上的「時數型別」設定將保持不變。 </p> <p>如果選取，範本設定會轉移至專案。 如果專案和範本上的「時數型別」篩選都設為「是」，則範本中的時數型別會新增至專案中的時數型別。</p> </td> 
-   <td> <p> </p> <p> </p> <p> </p> <p>✓ (A)</p> </td> 
+   <td> <p> </p> <p> </p> <p> </p> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td>提醒通知</td> 
    <td> <p>已新增至專案現有提醒的清單。 </p> <p>如果在附件程式期間取消選取，專案提醒通知將維持不變。 </p> </td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>任務預設核准流程</td> 
    <td>專案資訊會保留</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
-   <td>任務預設自訂Forms</td> 
+   <td>任務預設自訂表格</td> 
    <td>專案資訊會保留</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
-   <td>工作量</td> 
+   <td>工作投入</td> 
    <td>專案資訊會保留</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td><span>允許使用者新增內嵌問題</span> </td> 
    <td><span>專案資訊已保留</span> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>所有設定</td> 
    <td>範本設定會覆寫專案的範本設定</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>任務</td> 
    <td>在現有專案任務之外，新增到任務清單底部</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>文件</td> 
    <td>除了現有專案檔案外，已新增至專案</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>風險（專案風險區域中的物件）</td> 
    <td>除了現有的專案風險外，已新增至專案 </td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>核准流程</td> 
    <td>已從範本轉移</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
-   <td>收費率</td> 
+   <td>計費費率</td> 
    <td> <p>除了專案上現有的收費率之外，已從範本傳輸。 </p> <p>如果專案和範本上相同職務角色有不同的費率，專案上的費率會保持不變。 </p> </td> 
-   <td> <p> </p> <p>✓ (A)</p> </td> 
+   <td> <p> </p> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td>付費記錄</td> 
    <td>專案資訊會保留</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>費用</td> 
    <td>除了專案上的現有費用外，已從範本轉移</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>財務資訊</td> 
-   <td> <p>在附件程式中選取此專案時，會將下列欄位轉移或新增至專案： </p> 
+   <td> <p>在附件程式中選取此專案時，會將下列欄位轉移或新增至專案： </p> 
     <ul> 
      <li> <p>固定成本</p> <p>選取此選項時，會使用下列公式計算更新的專案固定成本：</p> <p><code>Updated Project Fixed Cost = Original Project Fixed Cost + Template Fixed Cost</code> </p> </li> 
      <li> <p>固定收入</p> <p>選取此選項時，會使用下列公式計算更新的專案固定收入：</p> <p><code>Updated Project Fixed Revenue = Original Project Fixed Revenue + Template Fixed Revenue </code> </p> </li> 
@@ -295,37 +295,37 @@ ht-degree: 5%
      <li> <p>專案上的固定成本和固定收入會保留。</p> </li> 
      <li> <p>從範本新增之任務的「成本」與「收入型態」設定為「無成本」與「不可開立帳單」</p> </li> 
     </ul> </td> 
-   <td> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p>✓ (A)</p> </td> 
+   <td> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td>時數</td> 
    <td>專案資訊會保留</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>佇列詳細資訊、主題群組、佇列主題、路由規則</td> 
    <td> <p>已從範本轉移</p> <p>如果您在附件程式期間選取<strong>佇列屬性和問題設定</strong>選項，範本的佇列詳細資料會覆寫專案的佇列詳細資訊。 在這種情況下，範本的路由規則、佇列主題和主題群組會新增至專案的路由規則、佇列主題和主題群組。 <br>如果專案設定為請求佇列，而您附加至專案的範本未設定為請求佇列，則若您保留<strong>佇列屬性和問題設定</strong>核取方塊，則會移除專案的佇列資訊。 <br>如果您取消選取<strong>佇列屬性和問題設定</strong>方塊，則會保留專案的所有佇列設定設定，且不會附加範本中的佇列設定設定。</p> </td> 
-   <td> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p>✓ (A)</p> </td> 
+   <td> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td>任務限制</td> 
    <td> <p>已從範本轉移 </p> <p>如果在附件處理期間取消選取，則視專案「排程起始日期」設定而定，作業限制會設定為「儘可能早」或「儘可能晚」。 </p> </td> 
-   <td> <p> </p> <p> </p> <p style="text-align: center;">✓ (A)</p> </td> 
+   <td> <p> </p> <p> </p> <p style="text-align: center;">✓</p> </td> 
   </tr> 
   <tr> 
    <td>前置任務</td> 
    <td> <p>已從範本轉移</p> <p>如果在附件程式期間取消選取，則會移除範本任務之間的所有前置任務連線。</p> </td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>共用選項</td> 
    <td> <p>如果在附加程式期間取消選取，專案許可權將維持不變。</p> <p>如果在附加程式期間選取範本許可權，範本許可權會新增至專案或覆寫專案的許可權。 </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span>如果使用者A擁有專案的檢視許可權，但他們擁有範本的管理許可權，在附加範本後，使用者A將獲得專案的管理存取許可權。</p> </td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
   </tr> 
  </tbody> 
 </table>
 
- 
+
 
 <!--WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -368,17 +368,17 @@ Attaching a template to a project is not the same as creating a project from a t
 <li> <p><b>Access settings</b> </p> </li>
 </ul>
 <ul>
-<li> <p><b>Custom&nbsp;Forms</b>:&nbsp;Template custom forms are added to the project, in addition to existing project custom forms. If the fields from the template custom forms already exist on the project and contain information, they preserve the information already on the project. You cannot edit them during attaching the template. </p> </li>
+<li> <p><b>Custom Forms</b>: Template custom forms are added to the project, in addition to existing project custom forms. If the fields from the template custom forms already exist on the project and contain information, they preserve the information already on the project. You cannot edit them during attaching the template. </p> </li>
 </ul>
 <ul>
-<li> <p><b>Start&nbsp;From</b> </p> </li>
+<li> <p><b>Start From</b> </p> </li>
 </ul>
 <p><strong>Project fields that are populated and they remain unchanged after attaching the template</strong></p>
 <p>The following fields remain unchanged on the project, even if they are also populated on the template, and they cannot be managed during attaching the template: </p>
 <ul>
 <li> <p style="font-weight: bold;">URL</p> </li>
 <li> <p style="font-weight: bold;">Project Owner</p> </li>
-<li> <p style="font-weight: bold;">Project&nbsp;Sponsor</p> </li>
+<li> <p style="font-weight: bold;">Project Sponsor</p> </li>
 <li> <p style="font-weight: bold;">Group</p> </li>
 <li> <p style="font-weight: bold;">Company</p> </li>
 <li> <p style="font-weight: bold;">Currency</p> </li>
@@ -389,8 +389,8 @@ Attaching a template to a project is not the same as creating a project from a t
 <li class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p style="font-weight: bold;">Issue Settings fields</p> </li>
 </ul>
 </div>
-<p>&nbsp;</p>
+<p> </p>
 </div>
 -->
 
- 
+

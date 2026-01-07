@@ -7,7 +7,7 @@ description: Adobe Workfront目標隨附一組預先定義的事件通知，您�
 author: Alina
 feature: Workfront Goals
 exl-id: 40f9b9a3-c829-480b-9897-099b68389cd4
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 0%
@@ -74,7 +74,7 @@ Adobe Workfront目標隨附一組事件通知，您可以為您的帳戶啟用�
 </tr>
 <tr>
 <td role="rowheader">Access level*</td>
-<td> <p>View or higher access to&nbsp;Goals</p> <note type="note">
+<td> <p>View or higher access to Goals</p> <note type="note">
 <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p>
 <ul>
 <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li>
@@ -96,7 +96,7 @@ Adobe Workfront目標隨附一組事件通知，您可以為您的帳戶啟用�
 <h2>Prerequisites: </h2>
 <p>You must have the following before you can start:</p>
 <ul>
-<li> <p>A Layout Template that includes the Goals area in the Main&nbsp;Menu.</p> </li>
+<li> <p>A Layout Template that includes the Goals area in the Main Menu.</p> </li>
 </ul>
 <h2>Understand Workfront Goals notifications settings</h2>
 <p>Consider the following when configuring and receiving Workfront Goals notifications:</p>
@@ -109,7 +109,7 @@ Adobe Workfront目標隨附一組事件通知，您可以為您的帳戶啟用�
 </ul>
 <h2>Configure email notifications for Workfront Goals</h2>
 <ol>
-<li value="1"> <p>Log in to Workfront and ensure that your Workfront administrator gave you access to&nbsp;Workfront Goals.</p> <p>For information about access to&nbsp;Workfront Goals, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>.</p> </li>
+<li value="1"> <p>Log in to Workfront and ensure that your Workfront administrator gave you access to Workfront Goals.</p> <p>For information about access to Workfront Goals, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>.</p> </li>
 <li value="2"> <p> <p>Click the <strong>Main Menu icon</strong> <img src="assets/main-menu-icon.png"> in the upper-right corner of your screen, then click <strong>Goals</strong>.</p> <p>This opens the Workfront Goals area. </p> </p> </li>
 <li value="3"> <p>Click <strong>Goal Settings</strong> in the left panel.</p> <p> <img src="assets/notifications-settings-list-highlighted-350x124.png" style="width: 350;height: 124;"> </p> </li>
 <li value="4"> <p>Select any of the check boxes below to enable notifications for the following events:</p>

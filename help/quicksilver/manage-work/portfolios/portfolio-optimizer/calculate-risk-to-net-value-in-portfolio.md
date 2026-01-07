@@ -2,11 +2,11 @@
 product-area: portfolios
 navigation-topic: portfolio-optimizer
 title: 計算投資組合中淨值的風險
-description: 在Portfolio最佳化工具中，[!UICONTROL 淨值的風險]指標會考量潛在風險，並計及Portfolio最佳化工具中顯示的所有專案所提供的淨值。
+description: 在Portfolio Optimizer中，[!UICONTROL 淨值的風險]指標會考量由Portfolio Optimizer中顯示的所有專案所提供的淨值的潛在風險。
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 9e86f6eb-dd82-4731-aebb-ce8da1df5614
-source-git-commit: b6defd7dba91a06feb365ead74bd9c48f5165c77
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 0%
@@ -15,9 +15,9 @@ ht-degree: 0%
 
 # 計算投資組合中[!UICONTROL 淨值的風險]
 
-在[!UICONTROL Portfolio最佳化工具]中，[!UICONTROL 淨值的風險]指標會考量由[!UICONTROL Portfolio最佳化工具]中顯示的所有專案所提供的[!UICONTROL 淨值]的潛在風險。 
+在[!UICONTROL Portfolio Optimizer]中，[!UICONTROL 淨值的風險]指標會考量由[!UICONTROL Portfolio Optimizer]中顯示的所有專案所提供的[!UICONTROL 淨值]的潛在風險。
 
-若要在投資組合中達成最高效率，您想要看到[!UICONTROL 風險]指標低，[!UICONTROL 淨值]指標高。 
+若要在投資組合中達成最高效率，您想要看到[!UICONTROL 風險]指標低，[!UICONTROL 淨值]指標高。
 
 [!UICONTROL 風險]和[!UICONTROL 淨值]指標是從它們相互關係的角度來表示的。
 
@@ -43,4 +43,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!UICONTROL 淨值的風險]指標是根據您在[!UICONTROL Portfolio最佳化工具]中顯示的專案計算的，而不是根據與投資組合關聯的所有專案計算。 
+>[!UICONTROL 淨值的風險]指標是根據您在[!UICONTROL Portfolio Optimizer]中顯示的專案計算的，而不是根據與投資組合關聯的所有專案計算。

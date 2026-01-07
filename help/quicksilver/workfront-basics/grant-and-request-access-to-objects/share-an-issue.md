@@ -6,10 +6,10 @@ description: 當使用者指派存取層級時，您的Adobe Workfront管理員�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 91ee72e0-20a9-4b06-9f80-a343dd4fbe06
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1237'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -22,22 +22,22 @@ ht-degree: 2%
 許可權專屬於Workfront中的一個專案，可定義使用者可對該專案執行的動作。
 
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td> <p>標準</p> 
-   <p>工作或更高</p> 
+   <p>工作或更高層級</p> 
    </td> 
   </tr> 
   <tr> 
@@ -65,7 +65,7 @@ ht-degree: 2%
 
 * 問題的建立者預設擁有其「管理」許可權。
 * 您可以個別共用問題，也可以一次共用數個問題。 共用問題等同於在Workfront中共用其他專案。 如需在Workfront中共用專案的詳細資訊，請參閱[共用物件](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)。
-* 您可以向問題授予下列許可權： 
+* 您可以向問題授予下列許可權：
 
    * 檢視
    * 參與
@@ -85,7 +85,7 @@ ht-degree: 2%
    * 指定問題之任何父系物件的許可權：專案、方案或投資組合。 問題會繼承其父物件的許可權。 如需有關檢視物件繼承許可權的資訊，請參閱[檢視物件的繼承許可權](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)。
    * 在用來建立問題所在專案的範本上，將實體新增到專案共用。 如需從範本共用專案的詳細資訊，請參閱[共用範本](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)。
 
-   * 指定編輯專案時專案中所有問題的許可權。 如需有關根據使用者對專案的許可權來管理專案上問題或請求的存取許可權的資訊，請參閱文章[&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access)編輯專案[中的](../../manage-work/projects/manage-projects/edit-projects.md)區段。
+   * 指定編輯專案時專案中所有問題的許可權。 如需有關根據使用者對專案的許可權來管理專案上問題或請求的存取許可權的資訊，請參閱文章[](../../manage-work/projects/manage-projects/edit-projects.md#access)編輯專案[中的](../../manage-work/projects/manage-projects/edit-projects.md)區段。
 
      >[!TIP]
      >
@@ -107,7 +107,7 @@ ht-degree: 2%
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Automatically share an issue at the project level</h2>
-<p>(NOTE: this info duplicates in Edit projects - linked there instead (above).)&nbsp;</p>
+<p>(NOTE: this info duplicates in Edit projects - linked there instead (above).)  </p>
 <p>As the Project Owner, you can grant permissions automatically to users as the issues are added to a project.</p>
 <ol>
 <li value="1">Go to the project whose issues you want to share automatically.</li>
@@ -117,7 +117,7 @@ ht-degree: 2%
 <ul>
 <li><strong>View</strong></li>
 <li><strong>Contribute</strong></li>
-<li><strong>Manage</strong><br>Now, when someone is assigned to an issue on the selected project, they are granted the specified permissions to the issue.&nbsp;</li>
+<li><strong>Manage</strong><br>Now, when someone is assigned to an issue on the selected project, they are granted the specified permissions to the issue.  </li>
 </ul></li>
 <li value="5">(Optional) Select the <strong>Also grant ... access to the project</strong> field to also grant View, Contribute, or Manage permissions to the projects to the user assigned to the issue</li>
 <li value="6">In the <strong>When someone submits a REQUEST ...</strong> field, select from the following permissions levels:
@@ -132,7 +132,7 @@ ht-degree: 2%
 </ul>
 </note></li>
 </ul></li>
-<li value="7"> <p>(Optional) Select the <strong>People from the same company will inherit the same permissions for all requests</strong> field.</p> <p>People from the same company as the user submitting the request are granted the same permissions on the requests as the user.&nbsp;</p> </li>
+<li value="7"> <p>(Optional) Select the <strong>People from the same company will inherit the same permissions for all requests</strong> field.</p> <p>People from the same company as the user submitting the request are granted the same permissions on the requests as the user.  </p> </li>
 <li value="8">Click <strong>Save Changes</strong>.</li>
 </ol>
 </div>
@@ -141,7 +141,7 @@ ht-degree: 2%
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Automatically share an issue in request queues</h2>
-<p>(NOTE: drafted because it's duplicated from Create a Request Queue which is linked above)&nbsp;</p>
+<p>(NOTE: drafted because it's duplicated from Create a Request Queue which is linked above)  </p>
 <p>As the Project Owner, you can grant permissions automatically to users as the issues are submitted to a request queue.</p>
 <ol>
 <li value="1">Go to the project whose issues you want to share automatically.</li>
@@ -153,7 +153,7 @@ ht-degree: 2%
 <li><strong>Contribute Access</strong> </li>
 <li> <p><strong>Manage Access</strong> </p> </li>
 </ul> <p>Now, when someone submits a request to the selected project, they are granted the specified permissions to the request.</p> </li>
-<li value="5"> <p>(Optional) Select the <strong>People from the same company will inherit the same permissions for all requests</strong>.</p> <p>People from the same company as the user submitting the request are granted the same permissions on the requests as the user.&nbsp;</p> </li>
+<li value="5"> <p>(Optional) Select the <strong>People from the same company will inherit the same permissions for all requests</strong>.</p> <p>People from the same company as the user submitting the request are granted the same permissions on the requests as the user.  </p> </li>
 <li value="6">Click <strong>Save</strong>.</li>
 </ol>
 </div>
@@ -245,26 +245,26 @@ ht-degree: 2%
   <tr> 
    <td> <p>新增問題</p> </td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
-   <td>刪除 </td> 
+   <td>刪除  </td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>附加自訂表單</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>編輯自訂欄位</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>核准問題</td> 
@@ -275,8 +275,8 @@ ht-degree: 2%
   <tr> 
    <td>新增核准流程</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>新增文件</td> 
@@ -293,26 +293,26 @@ ht-degree: 2%
   <tr> 
    <td>移動問題</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>記錄時數</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>轉換為專案*</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>接受指派</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>更新/評論</td> 
@@ -323,14 +323,14 @@ ht-degree: 2%
   <tr> 
    <td>修改計畫日期</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>進行任務指派</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>共用</td> 
@@ -340,8 +340,8 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>全系統共用</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
    <td>✓</td> 
   </tr> 
  </tbody> 

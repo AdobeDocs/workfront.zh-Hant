@@ -6,10 +6,10 @@ description: 您可以存取「任務詳細資訊」區段的「概觀」區域�
 author: Alina
 feature: Work Management
 exl-id: 54ae48e5-bc8c-4e90-8fa1-0015523df4e6
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '830'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
@@ -23,22 +23,22 @@ ht-degree: 5%
 
 如需有關編輯工作之所有財務資訊的資訊，請參閱[編輯工作](../../../manage-work/tasks/manage-tasks/edit-tasks.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td><p>標準</p> 
-   <p>工作或更高</p> </td> 
+   <p>工作或更高層級</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -70,7 +70,7 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects and Tasks</p> <p>View access to&nbsp;Financial&nbsp;Data or higher</p> <p>You must have Edit access to&nbsp;Financial Data to edit financial information on tasks</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Projects and Tasks</p> <p>View access to Financial Data or higher</p> <p>You must have Edit access to Financial Data to edit financial information on tasks</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -166,4 +166,4 @@ ht-degree: 5%
     </tbody> 
    </table>
 
-1. （視條件而定）如果您正在編輯財務區段中的欄位，請按一下&#x200B;**儲存**&#x200B;**變更**。
+1. （視條件而定）如果您正在編輯財務區段中的欄位，請按一下&#x200B;**儲存****變更**。

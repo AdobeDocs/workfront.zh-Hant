@@ -6,10 +6,10 @@ description: 指派存取層級時，您的Adobe Workfront管理員可授予您�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1574'
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
@@ -24,22 +24,22 @@ ht-degree: 2%
 許可權專屬於Workfront中的一個專案，可定義使用者可對該專案執行的動作。
 
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td> <p>標準</p> 
-   <p>工作或更高</p> 
+   <p>工作或更高層級</p> 
    </td> 
   </tr> 
   <tr> 
@@ -74,7 +74,7 @@ ht-degree: 2%
 
 * 共用專案時，除非另有指定，否則所有任務、問題和檔案都會繼承相同的許可權。
 
-  如需有關根據使用者對專案的許可權管理專案上任務和問題的存取許可權的資訊，請參閱文章[&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access)編輯專案[中的](../../manage-work/projects/manage-projects/edit-projects.md)區段。
+  如需有關根據使用者對專案的許可權管理專案上任務和問題的存取許可權的資訊，請參閱文章[](../../manage-work/projects/manage-projects/edit-projects.md#access)編輯專案[中的](../../manage-work/projects/manage-projects/edit-projects.md)區段。
 
   Workfront管理員可以指定檔案是否應該繼承使用者存取層級中較高物件的許可權。 如需有關限制檔案繼承許可權的詳細資訊，請參閱[建立或修改自訂存取層級](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
@@ -111,7 +111,7 @@ ht-degree: 2%
      >
      >附加或儲存範本時，您可以清除範本專案共用規則。
 
-   * 編輯專案並定義&#x200B;**當某人獲得此專案的存取權時**&#x200B;設定。 如需詳細資訊，請參閱[編輯專案](../../manage-work/projects/manage-projects/edit-projects.md)。
+   * 編輯專案並定義&#x200B;**當某人獲得此專案的存取權時**&#x200B;設定。  如需詳細資訊，請參閱[編輯專案](../../manage-work/projects/manage-projects/edit-projects.md)。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -127,7 +127,7 @@ ht-degree: 2%
 
 <!--
 <ol data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<li value="1">Go to a project whose sharing permissions you want for all projects you create from scratch. (NOTE: drafted because linked above)&nbsp;</li>
+<li value="1">Go to a project whose sharing permissions you want for all projects you create from scratch. (NOTE: drafted because linked above)  </li>
 <li value="2"> Click the More menu, then click <strong>Sharing</strong>. </li>
 <li value="3"> <p>In the Project Access box that displays, near the upper-right corner, click the gear icon <img src="assets/gear-icon-settings.png">, then click <strong>Set as my project access template</strong>.</p> <p>The entities that are granted permissions on the selected project have the same permissions for all the projects you create from scratch in the future.</p> <p> The project access template overrides the sharing defaults granted to you by the Workfront administrator in your Access Level.<br>For more information about specifying sharing defaults for projects in the Access Level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Grant access to projects</a>.</p> </li>
 <li value="4">Click <strong>Save</strong>.</li>
@@ -220,18 +220,18 @@ ht-degree: 2%
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Configure default permissions for a project</h2>
 <p>(NOTE: drafted because I added one more way to automatically share the project above in the bullet list and linked it to Edit Projects) </p>
-<p>As a project owner, you can configure the default permissions for View, Manage, and Contribute access that are used when sharing&nbsp;the project with others. When users share a project, the default permissions are used. Users can then adjust the default permissions when sharing the project, as described in <a title="Project Permissions" href="#ways-to-share-a-project" class="MCXref xref">Ways to share a project</a>. </p>
+<p>As a project owner, you can configure the default permissions for View, Manage, and Contribute access that are used when sharing  the project with others. When users share a project, the default permissions are used. Users can then adjust the default permissions when sharing the project, as described in <a title="Project Permissions" href="#ways-to-share-a-project" class="MCXref xref">Ways to share a project</a>. </p>
 <p>To configure the default permissions that are included with each access level:</p>
 <ol>
 <li value="1">Go to the project where you want to set the default permissions.</li>
 <li value="2"> <p>Click the More menu <img src="assets/more-icon.png">, then click <strong>Edit</strong>. <img src="assets/edit-icon.png"></p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li>
 <li value="3">Click <strong>Access</strong> in the list on the left.</li>
-<li value="4"> <p>In the <strong>When someone is given access to this PROJECT</strong> section, select permissions that you want to be available when users are given access to the project via sharing.</p> <p>Ensure that any permissions that you want to include in the selected access level are selected and deselect any permissions that you do not want to include in the selected permissions level.</p> <p>To view which permissions are available for each level, see&nbsp;<a title="Project Permissions" href="#Understanding_Project_Permissions" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <note type="note">
+<li value="4"> <p>In the <strong>When someone is given access to this PROJECT</strong> section, select permissions that you want to be available when users are given access to the project via sharing.</p> <p>Ensure that any permissions that you want to include in the selected access level are selected and deselect any permissions that you do not want to include in the selected permissions level.</p> <p>To view which permissions are available for each level, see  <a title="Project Permissions" href="#Understanding_Project_Permissions" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <note type="note">
 The
 <strong>Delete</strong> access in the
-<strong>Manage</strong> permission level determines whether users can&nbsp;delete the project itself. Users with
+<strong>Manage</strong> permission level determines whether users can  delete the project itself. Users with
 <strong>Manage</strong> access to the project can delete tasks and issues within the project regardless of whether this option is selected, if they have
-<strong>Manage</strong> permissions to the tasks and issues.&nbsp;
+<strong>Manage</strong> permissions to the tasks and issues.  
 </note> </li>
 <li value="5">Click <strong>Save Changes</strong>.</li>
 </ol>
@@ -259,20 +259,20 @@ The
   <tr> 
    <td> <p>新增自訂表格</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>更新自訂欄位</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>新增核准流程</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>核准專案</p> </td> 
@@ -283,14 +283,14 @@ The
   <tr> 
    <td> <p>核准小時</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p>✓ </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>✓  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>建立專案</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>新增檔案</p> </td> 
@@ -308,25 +308,25 @@ The
    <td> <p>新增任務</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>複製專案</p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>刪除專案</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>修改計畫日期</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>共用專案</p> </td> 
@@ -336,8 +336,8 @@ The
   </tr> 
   <tr> 
    <td> <p>全系統共用</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
@@ -355,44 +355,44 @@ The
   <tr> 
    <td> <p>變更狀態</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>記錄時數</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>編輯指派</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>管理基準線</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>管理風險*</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>管理財務*</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>新增/編輯費用*</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>檢視財務*</p> </td> 
@@ -403,8 +403,8 @@ The
   <tr> 
    <td> <p>附加範本</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>另存為範本</p> </td> 
@@ -415,20 +415,20 @@ The
   <tr> 
    <td> <p>新增/編輯業務案例</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>編輯專案詳細資訊</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>編輯人員配置</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>匯出到 MS Project</p> </td> 
@@ -439,20 +439,20 @@ The
   <tr> 
    <td> <p>重新計算財務/時間表*</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>設定佇列屬性</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>    </p> </td> 
   </tr> 
   <tr> 
    <td> <p>在清單中大量編輯專案</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
  </tbody> 
 </table>

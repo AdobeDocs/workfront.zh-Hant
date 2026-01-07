@@ -6,9 +6,9 @@ description: 您可以調整瀏覽器上的語言偏好設定和Adobe Workfront�
 feature: Get Started with Workfront
 author: Becky
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 5304f25ecb198f45c024b71185747f47fa8307d4
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1137'
 ht-degree: 1%
 
 ---
@@ -92,7 +92,7 @@ Workfront中的Web Proof Viewer支援Workfront支援的大部分語言。
 * Workfront Fusion不支援在使用者輸入的欄位中使用非英文文字字元。
 
 貴公司必須購買Workfront Fusion授權才能存取Workfront Fusion。\
-如需Workfront Fusion的詳細資訊，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+如需Workfront Fusion的詳細資訊，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 
 ## 變更語言
 
@@ -146,7 +146,8 @@ Workfront中的Web Proof Viewer支援Workfront支援的大部分語言。
 若要變更預設的Workfront電子郵件地區設定：
 
 1. 以Workfront管理員身分登入Workfront。
-1. 按一下Adobe Workfront右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
+
+{{step-1-to-setup}}
 
 1. 按一下&#x200B;**系統** > **客戶資訊。**
 
@@ -164,9 +165,11 @@ Workfront中的Web Proof Viewer支援Workfront支援的大部分語言。
 
 若要變更您的使用者電子郵件地區設定：
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下您的使用者設定檔圖片。
+{{step1-click-main-menu}}
 
-1. 按一下[更多]功能表![](assets/more-icon.png)，然後按一下[編輯]&#x200B;**&#x200B;**。
+1. 按一下您的使用者個人資料圖片。
+
+1. 按一下[更多]功能表![](assets/more-icon.png)，然後按一下[編輯]****。
 
 1. 在&#x200B;**偏好設定**&#x200B;區段中，按一下&#x200B;**電子郵件地區設定**&#x200B;下拉式清單，以選取您希望Workfront電子郵件顯示的語言。
 

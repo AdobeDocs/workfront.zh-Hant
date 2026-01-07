@@ -7,10 +7,10 @@ description: Adobe Workfront中的專案、任務和問題有實際開始日期�
 author: Alina
 feature: Work Management
 exl-id: 4357b072-24f6-4f89-b624-f066f8af0722
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 0%
+source-wordcount: '525'
+ht-degree: 3%
 
 ---
 
@@ -18,16 +18,16 @@ ht-degree: 0%
 
 Adobe Workfront中的專案、任務和問題有實際開始日期。 對於任務和問題，這是標籤為進行中的日期。 對於專案而言，這是將專案上的第一個任務標示為進行中或完成的日期。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -77,7 +77,7 @@ Adobe Workfront中的專案、任務和問題有實際開始日期。 對於任�
 
 ## Workfront中實際開始日期的相關考量事項
 
-* 實際開始日期位於專案、任務和問題的詳細資訊區段。 
+* 實際開始日期位於專案、任務和問題的詳細資訊區段。
 * 建立專案、任務或問題時，系統不會填入這些專案的實際開始日期。
 * 實際開始日期會在專案、任務或問題上的工作實際開始時填入。
 * 如果專案上的工作尚未開始，則實際開始日期不會顯示在專案詳細資訊標籤上。
@@ -96,7 +96,7 @@ Adobe Workfront中的專案、任務和問題有實際開始日期。 對於任�
 
      >[!IMPORTANT]
      >
-     >將專案標籤為目前時，不會填入專案實際開始日期。 實際工作必須在填入專案的實際開始日期之前開始專案任務。
+     >將專案標籤為目前時，不會填入專案實際開始日期。 實際工作必須在填入專案的實際開始日期之前開始專案任務。
 
      在這些情況下，專案的「實際開始日期」會設定為專案上最早任務發生這些動作的日期和時間。 這表示專案實際在此日期和時間開始。
 
@@ -111,7 +111,8 @@ Adobe Workfront中的專案、任務和問題有實際開始日期。 對於任�
 
 若要在專案的詳細資訊區段中找出實際開始日期：
 
-1. 按一下Workfront右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**專案**。
+{{step1-to-projects}}
+
 1. 按一下您要檢視其實際開始日期的專案。
 1. 按一下左側面板中的&#x200B;**專案詳細資料**，然後移至&#x200B;**概觀**&#x200B;區段。
 

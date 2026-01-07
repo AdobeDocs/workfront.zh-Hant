@@ -6,9 +6,9 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: bc7312a10f1851b9f85b2c1ceac5b01dba078f32
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '1606'
+source-wordcount: '1539'
 ht-degree: 3%
 
 ---
@@ -141,7 +141,7 @@ ht-degree: 3%
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>主旨</strong> </td> 
-      <td>顯示原始請求的名稱。 如有需要，請更新。 否則，Workfront會將複製的請求命名為<b> &lt;原始請求的名稱&gt;</b>的副本。 此為必填欄位。</td> 
+      <td>顯示原始請求的名稱。 如有需要，請更新。 否則，Workfront會將複製的請求命名為<b> &lt;原始請求的名稱&gt;</b>的副本。 此為必填欄位。</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>說明</strong> </td> 
@@ -230,11 +230,12 @@ ht-degree: 3%
 
 您可以在Workfront的「請求」區域中，或從「首頁」的「我的請求」小工具中複製並提交請求。
 
-1. 若要存取「要求」清單，請按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 要求]**。
+{{step1-to-requests}}
 
 1. 若要存取「首頁」中的「我的請求」Widget：
 
-   1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
+   {{step1-to-home}}
+
    1. 找出「我的請求」Widget。
 
       如需有關「我的請求」Widget的詳細資訊，請參閱[使用「我的請求」Widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)。

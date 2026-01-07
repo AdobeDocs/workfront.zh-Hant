@@ -7,7 +7,7 @@ description: 專案的更新型別會指示Adobe Workfront計算專案時間表�
 author: Alina
 feature: Work Management
 exl-id: a6394961-2ac8-4b95-aa1b-dba8108c612f
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 >
 >如果專案的時間表超過15年，Workfront不會自動計算或於變更時計算時間表。 超過15年的專案更新型別一律為手動。
 
-* **自動與變更時：**&#x200B;這是預設設定。 每次在專案中或時間表所依存的其他專案中發生變更時，專案時間表都會更新。 專案時間表也會每晚更新。 \
+* **自動與變更時：**&#x200B;這是預設設定。 每次在專案中或時間表所依存的其他專案中發生變更時，專案時間表都會更新。 專案時間表也會每晚更新。\
   這是建議的設定，可確保專案時間表隨時保持最新。
 
   當您更新任務或專案並觸發時間表重新計算時，所有可用日期會立即顯示，允許您繼續工作。 在擁有超過100個任務的專案中，需要更長計算的日期會變暗。

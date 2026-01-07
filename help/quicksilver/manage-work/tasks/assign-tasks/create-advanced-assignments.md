@@ -7,10 +7,10 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 01a80f6140650ca12aaee14115f79449dcfa2a18
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1118'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -54,22 +54,22 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 * 在任務或問題標題中，在指派區域中。
 * 在工作負載平衡器中。 如需詳細資訊，請參閱[使用工作負載平衡器](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md)手動指派工作。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
+   <td>Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront授權</td> 
    <td> <p>標準</p>
-   <p>工作或更高</p>
+   <p>工作或更高層級</p>
    </td> 
   </tr> 
   <tr> 

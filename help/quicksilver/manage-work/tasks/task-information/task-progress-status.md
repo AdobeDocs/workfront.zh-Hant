@@ -7,7 +7,7 @@ description: Adobe Workfront會透過檢視任務在時間表中的進度來確�
 author: Alina
 feature: Work Management
 exl-id: 38e5f89e-bdfa-433c-9371-3c3003ada3a3
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Adobe Workfront會透過檢視任務在時間表中的進度來確定任務的�
  </thead> 
  <tbody> 
   <tr valign="top"> 
-   <td scope="col"> <p> </p> <p><strong>開啟時間</strong> </p> </td> 
+   <td scope="col"> <p> </p> <p><strong>開啟時間</strong> </p> </td> 
    <td scope="col"> <p>當所有計畫日期符合預計日期時，任務視為<strong>時間</strong>。 此進度狀態也表示專案比排程提前，且預計日期可能比計畫日期早。</p> <p>如需有關預計日期的詳細資訊，請參閱<a href="../../../manage-work/projects/planning-a-project/project-projected-completion-date.md" class="MCXref xref">專案、任務和問題的預計完成日期總覽</a>。</p> <p>如需有關任務計畫完成日期的詳細資訊，請參閱下列文章：</p> 
     <ul> 
      <li> <p><a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">任務計劃開始日期總覽</a> </p> </li> 

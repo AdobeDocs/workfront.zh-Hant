@@ -6,10 +6,10 @@ description: 您可以在專案的「角色配置」面板中，檢視指派給�
 author: Alina, Lisa
 feature: Work Management
 exl-id: 76f70cb6-f707-4a73-bc81-e755e2d0a33d
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 1%
+source-wordcount: '458'
+ht-degree: 5%
 
 ---
 
@@ -28,16 +28,16 @@ ht-degree: 1%
 >
 >如果您的公司過去曾購買Adobe Scenario Planner，則該公司已受保護。 Scenario Planner已無法購買。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>Adobe Workfront Ultimate</p>
    <p>Adobe工作流程Ultimate</p>
     </td> 
@@ -104,8 +104,9 @@ able style="table-layout:auto">
 
 ## 在角色分配面板中檢視專案計畫時數
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**專案**。
-1. 按一下專案名稱以存取。 如此將可開啟「專案」頁面。
+{{step1-to-projects}}
+
+1. 按一下專案名稱以存取。 如此將可開啟「專案」頁面。
 1. 在左側面板中按一下下列其中一項：
 
    * **任務**

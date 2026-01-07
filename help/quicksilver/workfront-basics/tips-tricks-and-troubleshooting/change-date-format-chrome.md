@@ -7,7 +7,7 @@ description: 若要變更 [!DNL Adobe Workfront] 中日期的日期格式，您�
 feature: Get Started with Workfront
 author: Becky
 exl-id: 9fac92fb-e3d1-4537-b324-4b35447cef28
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
@@ -65,7 +65,7 @@ To change your language settings in Chrome:
 1. Click the 3-dots in the top right corner of your Chrome interface, then click **Settings**.
 1. On the left area of the Settings page, expand **Advanced**, then click **Languages**.  
    Or  
-   Search for *language*&nbsp;at the top of the Settings page, then click **Languages**.
+   Search for *language*  at the top of the Settings page, then click **Languages**.
 
 1. In the **Language** list, locate the language and region that use your preferred date format.
 
