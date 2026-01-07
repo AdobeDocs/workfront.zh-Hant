@@ -172,7 +172,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 
 1. 移至&#x200B;[!UICONTROL **首頁**]&#x200B;區域，然後按一下下列任一Widget中的&#x200B;[!UICONTROL **編輯委派**]： **我的工作**、**我的任務**&#x200B;或&#x200B;**我的問題**。
 1. 在[!UICONTROL 停止委派任務和問題]方塊中，執行下列任一項作業：
-   * 修改開始日期&#x200B;[!UICONTROL **或**]&#x200B;結束日期&#x200B;[!UICONTROL ****]
+   * 修改開始日期&#x200B;[!UICONTROL **或**]&#x200B;結束日期&#x200B;[!UICONTROL **&#x200B;**]
    * 按一下&#x200B;[!UICONTROL **停止委派**]
 
    >[!TIP]

@@ -201,7 +201,7 @@ This will have additional types in the future - add another section for types?
    <td>✔</td> 
    <td>✔</td> 
   </tr> 
-  <tr> ****
+  <tr> **&#x200B;**
    <td>它們提供介於開始值和結束值之間的值範圍，以說明您距離達到這些值的距離有多近。 接近結束值會計算目標的進度值。 </td> 
    <td>✔</td> 
    <td>✔</td> 

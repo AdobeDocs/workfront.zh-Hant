@@ -45,16 +45,16 @@ Adobe Workfront任務清單的[!UICONTROL 甘特圖]顯示專案或範本上任�
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>[！UICONTROL標準]</p>
-   <p>[！UICONTROL計畫]</p> </td> 
+   <td> <p>[!UICONTROL 標準]</p>
+   <p>[!UICONTROL 計畫]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[！UICONTROL Edit]對專案和任務的存取權</p> </td> 
+   <td> <p>[!UICONTROL Edit]對專案和任務的存取權</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>[！UICONTROL Manage]專案和任務的存取權</p> </td> 
+   <td> <p>[!UICONTROL Manage]專案和任務的存取權</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -172,11 +172,11 @@ Adobe Workfront任務清單的[!UICONTROL 甘特圖]顯示專案或範本上任�
 
    ![Change_start_end_date.png](assets/change-start-end-date.png)
 
-1. 如果您以影響任務限制的方式變更任務日期，請按一下[接受] ****&#x200B;認可任務限制變更。
+1. 如果您以影響任務限制的方式變更任務日期，請按一下[接受] **&#x200B;**&#x200B;認可任務限制變更。
 
    >[!NOTE]
    >
-   >如果任務有下列其中一個限制，則系統會將任務限制[!UICONTROL 更新為]開始時間不早於[!UICONTROL  （如果專案是從]開始日期[!UICONTROL 排程）或是]完成時間不晚於[!UICONTROL  （如果專案是從]完成日期[!UICONTROL 排程）：]
+   >如果任務有下列其中一個限制，則系統會將任務限制[!UICONTROL 更新為]開始時間不早於[!UICONTROL &#x200B; （如果專案是從]開始日期[!UICONTROL 排程）或是]完成時間不晚於[!UICONTROL &#x200B; （如果專案是從]完成日期[!UICONTROL 排程）：]
    >
    >   
    >   
