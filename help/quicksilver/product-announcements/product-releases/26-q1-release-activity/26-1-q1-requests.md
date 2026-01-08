@@ -4,9 +4,9 @@ description: 2026年第一季要求增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 319c45bc6617269f358af1e7b5f6132a8694710b
+source-git-commit: 4061163b8b761bc3922bfb95da6c0110b6ee5871
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '859'
 ht-degree: 0%
 
 ---
@@ -59,8 +59,6 @@ For more information on creating views for the Request list and My Requests widg
 >適用於所有人的生產： 2026年1月15日
 
 為了更方便確保可檢視您所需的資訊，我們已新增將檢視分享至新請求體驗的功能。 現在，您可以與其他使用者、團隊或群組共用檢視。
-
-您可以從Workfront的要求區域和首頁的我的要求Widget共用要求清單檢視。 兩個位置的共用功能相同，且在我的請求Widget和請求區域之間移動時會保留檢視設定（包括共用）。
 
 如需請求檢視的詳細資訊，包括共用，請參閱[在請求區域](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)建立和管理檢視。
 

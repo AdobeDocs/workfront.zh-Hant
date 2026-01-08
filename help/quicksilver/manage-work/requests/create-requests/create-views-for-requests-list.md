@@ -5,10 +5,10 @@ title: 在請求區域中建立和管理檢視
 description: 如果您使用新的請求體驗，您可以建立和儲存請求區域的檢視。
 author: Becky
 feature: Work Management
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 4061163b8b761bc3922bfb95da6c0110b6ee5871
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 2%
+source-wordcount: '706'
+ht-degree: 3%
 
 ---
 
@@ -18,11 +18,12 @@ ht-degree: 2%
 
 如果您使用新的請求體驗，您可以建立和儲存請求區域的檢視。 這些檢視包括篩選器和欄排列。
 
-檢視可以在Workfront的要求區域以及首頁的我的要求Widget中建立和管理檢視。 檢視設定會保留在「請求」區域與Widget之間。
+您可以在Workfront的要求區域中建立和管理檢視。
 
 >[!IMPORTANT]
 >
->此功能僅在新的請求體驗中可用。
+>* 此功能僅在新的請求體驗中可用。
+>* 檢視設定無法在首頁的我的請求Widget中使用。
 
 ## 存取權要求
 
@@ -61,25 +62,17 @@ ht-degree: 2%
 
 ## 在請求區域中建立檢視
 
-您可以在Workfront的「請求」區域或「首頁」的「我的請求」小工具中建立檢視。
+您可以在Workfront的要求區域中建立檢視。
 
 1. 若要存取「請求」清單：
 
    {{step1-to-requests}}
 
-1. 若要存取「首頁」中的「我的請求」Widget：
-
-   {{step1-to-home}}
-
-   1. 找出「我的請求」Widget。
-
-      如需有關「我的請求」Widget的詳細資訊，請參閱[使用「我的請求」Widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)。
-
-1. 在「要求」清單或「我的要求」Widget中，按一下&#x200B;**檢視**&#x200B;下拉式清單![檢視下拉式清單](assets/view-icon-requests.png)並選取&#x200B;**新檢視**。
+1. 在要求清單中，按一下&#x200B;**檢視**&#x200B;下拉式清單![檢視下拉式清單](assets/view-icon-requests.png)，然後選取&#x200B;**新檢視**。
 
    ![新檢視](assets/create-new-view.png)
 
-1. 輸入新檢視的名稱，然後按一下[建立]。**&#x200B;**
+1. 輸入新檢視的名稱，然後按一下[建立]。****
 1. 繼續[在要求區域](#edit-a-view-in-the-requests-area)編輯檢視。
 
 ## 在請求區域中編輯檢視
@@ -89,16 +82,7 @@ ht-degree: 2%
 1. 若要存取「請求」清單：
 
    {{step1-to-requests}}
-
-1. 若要存取「首頁」中的「我的請求」Widget：
-
-   {{step1-to-home}}
-
-   1. 找出「我的請求」Widget。
-
-      如需有關「我的請求」Widget的詳細資訊，請參閱[使用「我的請求」Widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)。
-
-1. 在「請求」清單或「我的請求」Widget中，找出您要編輯的檢視。
+1. 在「請求」清單中，找出您要編輯的檢視。
 
 1. （選擇性）若要重新命名檢視，請按一下&#x200B;**檢視**&#x200B;下拉式清單![檢視下拉式清單](assets/view-icon-requests.png)，然後按一下檢視旁邊的三個點功能表，選取&#x200B;**重新命名**，然後輸入檢視的新名稱。
 1. 按一下&#x200B;**檢視**&#x200B;下拉式清單![檢視下拉式清單](assets/view-icon-requests.png)，然後選取您要編輯的檢視。
@@ -132,7 +116,7 @@ ht-degree: 2%
 
    <span class="preview">在預覽環境中，您也可以依已新增至檢視的任何自訂欄位進行篩選。</span>
 
-   您可以有多個&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;加入的篩選器。
+   您可以有多個&#x200B;**And**&#x200B;或&#x200B;**Or**加入的篩選器。
 當您新增篩選條件時，要求清單會自動篩選。
 
 
@@ -156,15 +140,7 @@ Workfront管理員可以將新檢視新增至版面配置範本。
 
    {{step1-to-requests}}
 
-1. 若要存取「首頁」中的「我的請求」Widget：
-
-   {{step1-to-home}}
-
-   1. 找出「我的請求」Widget。
-
-      如需有關「我的請求」Widget的詳細資訊，請參閱[使用「我的請求」Widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)。
-
-1. 在「請求」清單或「我的請求」Widget中，找出您要共用的檢視。
+1. 在「要求」清單中，找到您要共用的檢視。
 1. 將滑鼠停留在您要共用的檢視上，然後在三點功能表出現時按一下。
 1. 選取「**分享**」。
 1. 在開啟的對話方塊中，輸入您要與其共用檢視的使用者、專案團隊或群組名稱，然後在它們出現時從清單中選取它們。
