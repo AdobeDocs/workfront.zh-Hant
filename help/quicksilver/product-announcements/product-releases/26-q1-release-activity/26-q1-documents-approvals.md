@@ -4,9 +4,9 @@ description: 2026年第一季檔案和核准增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: bde12a27b918fc98c7596d16b78b46d465c9e90a
+source-git-commit: 8d177d1081590f6a6733f29e0d615828394394c7
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
@@ -17,17 +17,17 @@ ht-degree: 0%
 
 如需2026年第一季發行週期目前可用的所有變更清單，請參閱[2026年第一季發行概觀](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
 
-## 在Workfront中設定AI檢閱者的品牌
+<!--## Set up brands for the AI reviewer in Workfront
 
 >[!NOTE]
 >
->預覽： 2026年1月8日
->生產快速發行： 2026年1月8日\
->適用於所有人的生產： 2026年1月8日
+>Preview: January 8, 2026 
+>Production fast release: January 8, 2026  
+>Production for everyone: January 8, 2026  
 
-您現在可以在Workfront設定區域中設定AI稽核者的品牌。 這可讓您根據貴組織的品牌指導方針自訂AI檢閱程式。
+You can now set up brands for the AI reviewer in the Workfront Setup area. This allows you to customize the AI review process based on your organization's branding guidelines.
 
-AI檢閱者目前處於Beta版。
+The AI reviewer is currently in beta.-->
 
 ## 在Adobe Express中傳送稽核時選擇Workfront專案
 
