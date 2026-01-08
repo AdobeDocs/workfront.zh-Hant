@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: f6e0329ec63038b33006325701007c564c4126cc
+source-git-commit: f2c3abc4e47e004faf7ce2a5e7a3bf4edfdaa566
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 1%
+source-wordcount: '400'
+ht-degree: 5%
 
 ---
 
@@ -25,20 +25,24 @@ ht-degree: 1%
 
 <span class="preview">將自訂欄位設定為非使用中會將其從報表、篩選器和檢視中排除，並且該欄位在自訂表單欄位庫中不再可用。 依預設，所有新欄位都會設為「作用中」。</span>
 
+>[!NOTE]
+>
+>從報表、篩選器、檢視和分組中排除的動作會在欄位停用後發生。 當欄位標示為非使用中時，使用欄位的現有報表元素不會變更或移除。
+
 如果您從自訂表單中移除自訂欄位，則該欄位仍然存在於其他所有新增至的表單中，並且您可以在表單上或欄位區域中編輯它。 如需有關刪除欄位的資訊，請參閱[從系統刪除自訂欄位或Widget](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)。
 
 如需自訂表單中自訂欄位和Widget的相關資訊，請參閱[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
+   <td>Adobe Workfront 封裝</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -81,5 +85,5 @@ ht-degree: 1%
 
    如需詳細資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
-1. 完成時，按一下[編輯]。**&#x200B;**
+1. 完成時，按一下[編輯]。****
 
