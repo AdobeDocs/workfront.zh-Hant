@@ -4,9 +4,9 @@ description: 2026年第一季度管理員增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a49c8f2ad345f0ea8cdfd38ad79c6c0a5f636e95
+source-git-commit: 5a1af10b7e3e59eb203c0507aeea15db5689e24b
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '685'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
+>此功能在預覽環境中暫時不可用
 >預覽： 2025年12月2日
 >生產環境快速發行： 2026年1月14日
 >適用於所有人的生產： 2026年1月15日
+
 
 您現在可以在版面配置範本中啟用或停用特定使用者的優先順序。 如果您先前已針對組織停用「優先順序」，則進行此變更後，其配置範本仍會停用。
 
