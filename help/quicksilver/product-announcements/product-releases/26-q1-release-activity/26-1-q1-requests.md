@@ -4,9 +4,9 @@ description: 2026年第一季要求增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4061163b8b761bc3922bfb95da6c0110b6ee5871
+source-git-commit: ab0721e11415f4c41b8020a2678c3a483f108cb3
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '900'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 0%
 >適用於所有人的生產： 2026年1月15日
 
 為了讓您更輕鬆地前往由特定請求建立的物件，我們已新增連結至「已建立的物件」欄。 現在，您可以按一下此欄中的連結，直接前往已建立物件的頁面。
+
+此連結僅在請求本身建立物件時可用。 如果要求轉換為專案或其他物件，新要求體驗的要求清單中就無法取得轉換後物件的連結。
 
 以前，此欄只包含物件的名稱，不包含其連結。
 
