@@ -6,14 +6,16 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
+source-git-commit: 4e3c2e50bb3dc1c49939a4c2064e6d89d20e4c24
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 2%
+source-wordcount: '1017'
+ht-degree: 3%
 
 ---
 
-# 開始使用[!DNL Priorities]
+# 開始使用 [!DNL Priorities]
+
+{{preview-fast-release-general}}
 
 優先順序是為任務所有者量身打造的簡化且直覺式體驗。 優先順序將分階段推出，從工作清單開始。
 
@@ -24,6 +26,8 @@ ht-degree: 2%
 * 個人化功能：受益於專為任務所有者設計的功能
 
 「優先順序工作清單」與「工作歷」會顯示指派給您的工作專案。 您看不到指派給團隊的工作專案。
+
+<span class="preview">Workfront管理員可以在版面配置範本中為您的使用者啟用優先順序。 如需詳細資訊，請參閱[使用配置範本自訂主功能表](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)。</span>
 
 ## 尋找並組織您的工作
 
@@ -202,7 +206,8 @@ ht-degree: 2%
 
 您可以在任務或問題的詳細資訊頁面上檢視即時更新。 您也可以檢視其他人是否與您同時檢視頁面，並透過即時狀態指標。
 
-## 考量事項
 
-* Workfront管理員目前無法透過版面配置範本自訂優先順序。
-* 在優先順序中存取任務會跨越標籤。 我們計畫在未來新增其他標籤，例如檔案、子任務、核准等。 使用&#x200B;**提供意見反應**&#x200B;按鈕提交意見反應，讓我們知道您需要這些專案。
+<!--
+## Considerations
+
+* Accessing tasks in Priorities is across tabs. We plan to add additional tabs, like Documents, Subtasks, Approvals, etc, in the future. Let us know you need these items by submitting feedback using the **Give Feedback** button.-->

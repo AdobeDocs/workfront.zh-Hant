@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
+source-git-commit: 4fdfa1107034a48e149a5414475fbc0d7ce97564
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '698'
 ht-degree: 6%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 6%
 >
 >使用者看到的主要功能表選項取決於其授權型別以及在其存取層級中設定的設定。 某些將使用此配置範本的使用者可能不會看見您在這裡選擇的所有選項。 如需詳細資訊，請參閱[存取層級和許可權如何搭配運作](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)以及[每個物件型別可設定的功能存取權](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)。
 >
->如果您的組織已上線Adobe Workfront Unified Experience，您可能會在主要功能表中看到不同的選項。 如需詳細資訊，請參閱[Workfront的Adobe Unified Experience &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
+>如果您的組織已上線Adobe Workfront Unified Experience，您可能會在主要功能表中看到不同的選項。 如需詳細資訊，請參閱[Workfront的Adobe Unified Experience ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 
 如需有關建立版面配置範本的資訊，請參閱[建立和管理版面配置範本](../use-layout-templates/create-and-manage-layout-templates.md)。
 
@@ -35,16 +35,16 @@ ht-degree: 6%
 
 配置版面範本後，您必須將其指派給使用者，才能讓其他人看到您所做的變更。 如需將配置範本指派給使用者的詳細資訊，請參閱[將使用者指派給配置範本](../use-layout-templates/assign-users-to-layout-template.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以查看此文章中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront 套件</td> 
+   <td>Adobe Workfront 封裝</td> 
    <td><p>任何</p>
        <p>將自訂應用程式新增至主功能表僅適用於授權Adobe App Builder的組織。</p></td> 
   </tr> 
@@ -78,6 +78,8 @@ ht-degree: 6%
      >
      >依預設，主功能表中的「首頁」圖示會顯示「我的更新」區域給檢閱授權使用者（在目前的授權計畫中），除非他們有一個與其設定檔相關聯的版面範本，其中除了「首頁」區域外，還包括主功能表中的「我的更新」區域。
 
+
+   * <span class="preview">優先順序</span>
    * 專案組合
    * 計劃
    * 專案
@@ -85,7 +87,7 @@ ht-degree: 6%
    * 儀表板
    * 行事曆
    * 資源分配
-   * 方案
+   * 情境
 
      >[!NOTE]
      >
@@ -147,6 +149,6 @@ ht-degree: 6%
 
    >[!TIP]
    >
-   >您可以隨時按一下[儲存]來儲存進度，然後再繼續修改範本。**&#x200B;**
+   >您可以隨時按一下[儲存]來儲存進度，然後再繼續修改範本。****
 
 如需配置範本的詳細資訊，請參閱[建立和管理配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)。
