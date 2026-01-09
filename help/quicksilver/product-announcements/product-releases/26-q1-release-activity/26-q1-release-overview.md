@@ -4,9 +4,9 @@ description: 本頁提供2026年第一季度版本中包含的功能相關資訊
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8d177d1081590f6a6733f29e0d615828394394c7
+source-git-commit: d3f58a1d25b353b45e68e4910a4340052a49c4d4
 workflow-type: tm+mt
-source-wordcount: '2886'
+source-wordcount: '2885'
 ht-degree: 1%
 
 ---
@@ -78,7 +78,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>  
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">輸入日期及自訂物件上儲存的識別碼</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">輸入日期及自訂物件上儲存的識別碼</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
             <p>輸入日期和由ID輸入的內容現在儲存在自訂表格、欄位和區段中。 您可以在報表中將這些資料選項作為篩選器、檢視或分組使用。 若要在「設定」中的自訂表單、欄位或區段清單中顯示它們，請新增「輸入日期」和「輸入者：名稱」作為新檢視或現有檢視中的欄。</p>
         </td>
         <td>2025年11月13日</td>
@@ -130,7 +130,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
        <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">在Adobe Express中傳送評論時選擇Workfront專案<p>[!BADGE Off Schedule]{type=Neutral}</p> </a>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">在Adobe Express中傳送評論時選擇Workfront專案<p>[！BADGE Off Schedule]{type=Neutral}</p> </a>
             <p>您可以選擇要將校樣傳送至的Workfront專案。 這有助於將所有相關的資產和校樣整理在同一個專案中。</p>
         </td>
         <td>2025年12月15日</td>
@@ -139,7 +139,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr> 
      <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">具有Workfront校訂的Adobe Express跨組織支援<p>[!BADGE Off Schedule]{type=Neutral}</p> </a>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">具有Workfront校訂的Adobe Express跨組織支援<p>[！BADGE Off Schedule]{type=Neutral}</p> </a>
             <p>我們將推出具有Workfront校訂的Adobe Express跨組織支援。 此增強功能可讓跨多個IMS組織運作的客戶順暢地使用和管理校訂工作流程。</p>
         </td>
         <td>2025年11月13日</td>
@@ -148,7 +148,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>   
      <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager現在可與Frame.io整合搭配使用 <p>[!BADGE Off Schedule]{type=Neutral}</p> </a>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager現在可與Frame.io整合搭配使用 <p>[！BADGE Off Schedule]{type=Neutral}</p> </a>
             <p>現在，您可以使用Experience Manager Assets​來管理和儲存已通過檢閱和核准週期的數位資產。 此整合可讓您運用Adobe Experience Manager、Frame.io和Workfront的功能，簡化您的內容管理和共同作業程式。 </p>
         </td>
         <td>2025年10月30日</td>
@@ -196,7 +196,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
          <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">在Creative Cloud Express中傳送評論時選擇Workfront專案</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">在Creative Cloud Express中傳送評論時選擇Workfront專案</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
             <p>您可以選擇要將校樣傳送至的Workfront專案。 這有助於將所有相關的資產和校樣整理在同一個專案中。 </p>
         </td>
         <td>2025年12月15日</td>
@@ -324,7 +324,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>   
      <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">在畫布儀表板中複製報告</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">在畫布儀表板中複製報告</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
             <p>KPI、表格或圖表報表建立後，您現在可以在畫布控制面板中複製該報表。 複製後，您可在儲存前視需要編輯報表。</p>
         </td>
         <td>2025年10月23日</td>
@@ -379,7 +379,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">要求區域與我的要求Widget中現在有已建立的物件連結</a>
-            <p>為了讓您更輕鬆地前往由特定請求建立的物件，我們已新增連結至「已建立的物件」欄。 現在，您可以按一下此欄中的連結，直接前往已建立物件的頁面。/p&gt;
+            <p>為了讓您更輕鬆地前往由特定請求建立的物件，我們已新增連結至「已建立的物件」欄。 現在，您可以按一下此欄中的連結，直接前往已建立物件的頁面。</p>
         </td>
         <td>2025年12月18日</td>
         <td>2026年1月14日</td>
@@ -424,7 +424,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">在[要求]區域與[我的要求]介面工具集共用檢視</a>
-            <p>為了更方便確保可檢視您所需的資訊，我們已新增將檢視共用至新報告體驗的功能。 現在，您可以與其他使用者、團隊或群組共用檢視。 </p>
+            <p>為了更方便確保可檢視您所需的資訊，我們已新增將檢視分享至新請求體驗的功能。 現在，您可以與其他使用者、團隊或群組共用檢視。 </p>
         </td>
         <td>2025年12月4日</td>
         <td>2026年1月14日</td>
@@ -570,7 +570,7 @@ Workfront API版本21已於2025年10月23日發行。 針對API 21版，我們�
 >
 > 對於多選欄位，事件訂閱版本2一律會以陣列形式傳送。 如果選取多個值，第1版會傳送陣列。 如果只選取一個值，則會傳送字串。
 
-如需新增和更新的詳細資訊，請參閱[&#x200B; API 21](/help/quicksilver/wf-api/api/new-api-version-21.md)版的新增功能。
+如需新增和更新的詳細資訊，請參閱[ API 21](/help/quicksilver/wf-api/api/new-api-version-21.md)版的新增功能。
 
 如需API版本的資訊，請參閱[API版本設定與支援排程](/help/quicksilver/wf-api/api/api-version-support-schedule.md)。
 
@@ -597,13 +597,13 @@ Workfront API版本21已於2025年10月23日發行。 針對API 21版，我們�
 * 適用於Salesforce的Workfront。
 
 為了滿足貴組織與Google Workspace的整合需求，我們建議您使用Workfront自動化和整合。
-如需Workfront自動化與整合的概觀，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+如需Workfront自動化與整合的概觀，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 
 
 ### Workfront 維護更新
 
-如需2025年第一季度期間所進行維護更新的相關資訊，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=zh-Hant)。
+如需2025年第一季度期間所進行維護更新的相關資訊，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)。
 
 ### 訓練更新
 
-探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[Workfront教學課程頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=zh-Hant)的「新增功能」一節。
+探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[Workfront教學課程頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的「新增功能」一節。
