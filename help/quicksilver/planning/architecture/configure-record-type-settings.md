@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 40891b0e960e38c4fca55eec428a4e3a6397b316
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '483'
 ht-degree: 3%
 
 ---
@@ -53,8 +53,18 @@ ht-degree: 3%
    <td> 
 <p>任何Workfront和Planning套件</p>
 <p>任何工作流程和Planning套件</p>
-<div class="preview">
+
 <p><b>附註</b></p>
+
+<p>若要設定可連線的記錄型別：</p>
+
+<ul> 
+<li><p>任何Workfront和Planning套件</p></li>
+或
+<li><p>任何Workflow套件和Planning Prime或Ultimate套件</p></li></ul>
+
+<div class="preview">
+
 <p>若要設定全域記錄型別，請執行下列動作：</p>
 
 <ul> 

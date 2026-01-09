@@ -6,15 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 40891b0e960e38c4fca55eec428a4e3a6397b316
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
 
 
 # 記錄型別概觀
+
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -47,6 +51,7 @@ Workfront Planning物件型別稱為「記錄型別」，只有在使用者建�
 * 當您建立記錄型別時，只有您和您授予存取工作區許可權的人可以檢視記錄型別。
 * 您必須先建立工作區，才能為工作區建立記錄型別。
 * 如需一個工作區或Workfront執行個體中可以擁有多少記錄型別的限制，請參閱[Adobe Workfront Planning物件限制概觀](/help/quicksilver/planning/general/limitations-overview.md)。
+* <span class="preview">您可以將記錄型別指定為全域。 您可以將全域記錄型別作為現有記錄型別新增到其他工作區。 如需詳細資訊，請參閱[ConfConfigure記錄typesigure](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)的跨工作區功能。</span>
 
 
 <!--

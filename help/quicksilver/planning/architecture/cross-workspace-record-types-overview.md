@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 0c890cc535c61c5402a334e43ed45b3ec3f9f748
+source-git-commit: 40891b0e960e38c4fca55eec428a4e3a6397b316
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1646'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,23 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->有增強的Workfront套件需求，以便能夠為系統中的記錄型別啟用跨工作區功能。 如需詳細資訊，請參閱[Adobe Workfront Planning存取總覽](/help/quicksilver/planning/access/access-overview.md)。
+>您的組織必須購買以下套件，才能為記錄型別啟用跨工作區功能：
+>
+>* 若要設定可連線的記錄型別：
+>
+>   * 任何Workfront套件和任何Planning套件
+>
+>     或
+>
+>   * 任何工作流程和Planning Prime或Ultimate套件
+>* <span class="preview">若要設定全域記錄型別：</span>
+>  * <span class="preview">任何Workfront套件和Planning Plus套件</span>
+>     
+>    或
+>
+>  * <span class="preview">任何工作流程和Planning Prime或Ultimate套件</span>
+>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。
+>如需詳細資訊，請參閱[Adobe Workfront Planning存取總覽](/help/quicksilver/planning/access/access-overview.md)。
 
 
 以下是記錄型別的跨工作區功能：
@@ -45,7 +61,7 @@ ht-degree: 0%
 
 針對具有通用工作流程的多團隊組織實作Workfront Planning時，您可能需要為關鍵記錄型別（例如行銷活動或交付專案）定義一致結構和中繼資料，這些記錄型別可以新增到每個團隊的工作區，以擷取和管理其工作。
 
-此外，您可能需要每個團隊的工作彙總到中央層級。
+您可能還需要每個團隊的工作彙總到中央層級。
 
 在此類工作流程中，您可以確保團隊在解鎖跨團隊可見度的同時一致地擷取其工作，而不需要將所有內容新增至一個工作區，或組織中的每個人都新增至每個工作區。 您可以使用全域記錄型別來達成此目的。
 
