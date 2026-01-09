@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: f2c3abc4e47e004faf7ce2a5e7a3bf4edfdaa566
+source-git-commit: 2f7b5c9d3a934708f3128ed9e4efa76b12619913
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 5%
+source-wordcount: '409'
+ht-degree: 4%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->從報表、篩選器、檢視和分組中排除的動作會在欄位停用後發生。 當欄位標示為非使用中時，使用欄位的現有報表元素不會變更或移除。
+>若將現有欄位標示為非使用中，此後就無法用於報表元素和自訂表單。 如果報表或表單中目前正在使用非作用中欄位，則欄位及其歷史資料會維持原位。
 
 如果您從自訂表單中移除自訂欄位，則該欄位仍然存在於其他所有新增至的表單中，並且您可以在表單上或欄位區域中編輯它。 如需有關刪除欄位的資訊，請參閱[從系統刪除自訂欄位或Widget](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)。
 
@@ -85,5 +85,5 @@ ht-degree: 5%
 
    如需詳細資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
-1. 完成時，按一下[編輯]。**&#x200B;**
+1. 完成時，按一下[編輯]。****
 
