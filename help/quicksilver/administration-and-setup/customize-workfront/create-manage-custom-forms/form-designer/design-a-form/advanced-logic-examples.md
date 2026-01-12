@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: caf889d6-08a3-4186-9d9c-3cea3a0e4548
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+source-git-commit: 2e8801d08e3cf14f08435389c128068e2d38caba
 workflow-type: tm+mt
 source-wordcount: '735'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -23,16 +23,16 @@ ht-degree: 0%
 
 如需新增邏輯至自訂表單的詳細資訊，請參閱[新增邏輯規則至自訂表單和欄位](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
+   <td>Adobe Workfront 封裝</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -80,7 +80,11 @@ IF({ownerID}!=$$USER&&{DE:DV - Dropdown - Control Dates}="2",CONCAT("Only ",{own
 驗證運算式：
 
 ```
-IF({DE:DV - Date - Dropdown SLA}<ADDDAYS($$TODAY,{DE:DV - Dropdown - Control Dates}),CONCAT("Earliest: ",ADDDAYS($$TODAY,{DE:DV - Dropdown - Control Dates})))
+IF(
+    DATEDIFF({DE:DV - Date - Dropdown SLA}, 
+        ADDDAYS($$TODAY,{DE:DV - Dropdown - Control Dates})) < 0, 
+    CONCAT("Earliest: ", 
+        ADDDAYS($$TODAY,{DE:DV - Dropdown - Control Dates})))
 ```
 
 如果使用者選取的日期早於允許的日期，則訊息會顯示他們可以選取的最早日期：
