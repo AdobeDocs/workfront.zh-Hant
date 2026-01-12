@@ -8,10 +8,10 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: b0060470156728a7ad98838378a7d963e2b5fd01
+source-git-commit: 3fe7e6f530e15ebdb4a658de89b77c1bf39671fe
 workflow-type: tm+mt
-source-wordcount: '1406'
-ht-degree: 3%
+source-wordcount: '1512'
+ht-degree: 2%
 
 ---
 
@@ -83,7 +83,7 @@ ht-degree: 3%
 
 ### 在新的請求體驗中檢視已提交的請求
 
-您可以在[要求]區域中檢視已提交的要求，<span class="preview">其中包含這些要求所建立之物件的連結。</span>
+您可以在[要求]區域中<span class="preview">檢視已提交的要求，其中包含Planning要求所建立之物件的連結。</span>
 
 若要檢視您或其他使用者在新請求體驗中提交的請求：
 
@@ -105,7 +105,7 @@ ht-degree: 3%
    * **狀態**：要求的狀態。
    * **輸入者**：新增請求的使用者名稱。 如果要求是由Workfront外部的人員加入，則&#x200B;**輸入者**&#x200B;欄位會顯示`N/A`。
 
-   您可以有多個&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;加入的篩選器。
+   您可以有多個&#x200B;**And**&#x200B;或&#x200B;**Or**加入的篩選器。
 當您新增篩選條件時，要求清單會自動篩選。
 1. （選用）使用檢視來著重於您要顯示的請求。
 
@@ -113,11 +113,15 @@ ht-degree: 3%
 1. （選擇性）核取狀態列以檢查要求的狀態。 新的請求體驗中有以下狀態：
 
    * 草稿：此請求尚未提交。
-   * 待處理的評論
-   * 稽核中
-   * 已拒絕
-   * 進行中
-   * 完成
+   * 暫緩複查：（僅限Planning）此請求具有核准者，且核准者皆未開啟該請求。
+   * 複查中：（僅限Planning）此請求具有核准者，且至少有一位核准者已開啟請求，但尚未做出任何決定。
+   * 已拒絕：（僅限Planning）此請求具有核准者且已被拒絕。
+   * 進行中：
+      * Workfront工作流程：請求已轉換，工作正在進行。
+      * Workfront計畫：請求完成會對應至特定的「計畫」欄位，而該欄位值尚未與完成值相符。
+
+        如需詳細資訊，請參閱在Adobe Workfront Planning中建立和管理要求表單一文中的[設定設定詳細資料](/help/quicksilver/planning/requests/create-request-form.md#set-up-configuration-details)。
+   * 完成：要求已完成。
 
 >[!NOTE]
 >

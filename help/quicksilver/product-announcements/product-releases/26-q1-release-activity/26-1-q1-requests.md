@@ -4,9 +4,9 @@ description: 2026年第一季要求增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ab0721e11415f4c41b8020a2678c3a483f108cb3
+source-git-commit: 3fe7e6f530e15ebdb4a658de89b77c1bf39671fe
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '906'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 為了讓您更輕鬆地前往由特定請求建立的物件，我們已新增連結至「已建立的物件」欄。 現在，您可以按一下此欄中的連結，直接前往已建立物件的頁面。
 
-此連結僅在請求本身建立物件時可用。 如果要求轉換為專案或其他物件，新要求體驗的要求清單中就無法取得轉換後物件的連結。
+此連結僅適用於Planning請求，當請求本身已建立物件時。 如果Workfront請求轉換為專案或其他物件，則指向該轉換物件的連結在新請求體驗的請求清單中無法使用。
 
 以前，此欄只包含物件的名稱，不包含其連結。
 
