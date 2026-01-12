@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 40891b0e960e38c4fca55eec428a4e3a6397b316
+source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
 workflow-type: tm+mt
-source-wordcount: '1646'
+source-wordcount: '1663'
 ht-degree: 0%
 
 ---
@@ -28,19 +28,23 @@ ht-degree: 0%
 >
 >您的組織必須購買以下套件，才能為記錄型別啟用跨工作區功能：
 >
->* 若要設定可連線的記錄型別：
+>若要設定可連線的記錄型別：
 >
->   * 任何Workfront套件和任何Planning套件
 >
->     或
+>* 任何Workfront套件和任何Planning套件
 >
->   * 任何工作流程和Planning Prime或Ultimate套件
->* <span class="preview">若要設定全域記錄型別：</span>
->  * <span class="preview">任何Workfront套件和Planning Plus套件</span>
+>   或
+>
+>* 任何工作流程和Planning Prime或Ultimate套件
+>
+><span class="preview">若要設定全域記錄型別：</span>
+>
+>* <span class="preview">任何Workfront套件和Planning Plus套件</span>
 >     
->    或
+>   或
 >
->  * <span class="preview">任何工作流程和Planning Prime或Ultimate套件</span>
+>* <span class="preview">任何工作流程和Planning Prime或Ultimate套件</span>
+>
 >如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。
 >如需詳細資訊，請參閱[Adobe Workfront Planning存取總覽](/help/quicksilver/planning/access/access-overview.md)。
 
@@ -96,23 +100,36 @@ ht-degree: 0%
    * 編輯它
 
      編輯全域記錄型別包括編輯其外觀、跨工作區功能以及在原始工作區中建立的所有欄位。
+   * 共用
+
+     共用記錄型別會將使用者新增至工作區，也會與這些使用者共用記錄。
+   * 刪除它
+
+     只有在從新增全域記錄型別的所有次要工作區刪除if的所有例項之後，您才能從其原始工作區刪除全域記錄型別。
+
+     如需詳細資訊，請參閱[刪除記錄型別](/help/quicksilver/planning/architecture/delete-record-types.md)。
+   * 使其可從其他工作區連線
    * 建立及管理申請表單
    * 建立及管理自動化
 
-* 只有在全域記錄型別尚未新增至次要工作區時，您才可以將其刪除。 您必須先從次要工作區移除它（透過刪除它），才能從原始工作區刪除它。
-
-  如需詳細資訊，請參閱[刪除記錄型別](/help/quicksilver/planning/architecture/delete-record-types.md)。
-* 您新增至全域記錄型別的記錄只會顯示給對其新增所在工作區具有檢視許可權的使用者。
+* 您新增至全域記錄型別的記錄只會顯示給對其新增所在工作區具有檢視許可權的使用者。<!-- this needs to be more specific: what does "o the workspace where they were added" mean? - added in which kind of workspaces? secondary or primary; asking Lilit-->
 * 您從次要工作區新增的記錄會累計，並顯示在原始工作區中。 原始工作區的所有成員都會獲得其檢視許可權。
 * 將原始全域記錄型別新增至多個次要工作區時，會出現下列情況：
 
    * 原始工作區的成員會自動取得從任何工作區新增之所有記錄的「檢視」許可權，即使他們不是這些工作區的成員。
-   * 次要工作區成員只能檢視其所屬工作區的記錄。
-* 全域記錄型別的已連線記錄型別將可用於從新增此記錄型別的工作區進行連線。
+   * 次要工作區成員只能檢視其所屬工作區的記錄。<!--change this to: Secondary workspace members can view only records from the workspace the records were added and where they have at least permissions to view the record workspace and the record type.-->
+
+* 連線至全域記錄型別的記錄型別將可用於從新增此記錄型別的工作區進行連線。
 
   例如，如果您的Campaign全域記錄型別與Regions記錄型別有連線，而您將Campaign記錄型別新增至次要工作區，則Regions將變為可從次要工作區連線至跨工作區。 次要工作區成員現在可以建立行銷活動，並將其連結至區域。
 
-* 從原始工作區為全域記錄型別建立的欄位，會從新增記錄型別的所有工作區中顯示。 您只能從原始工作區編輯欄位設定。 在原始工作區中建立的欄位設定在所有成員的次要工作區中是唯讀的，無論其在次要工作區上的許可權為何。 次要工作區管理員無法修改原始工作區中設定的欄位設定。 只有原始工作區的工作區管理員才能修改原始工作區中的欄位設定。
+* 從原始工作區為全域記錄型別建立的欄位，會從新增記錄型別的所有工作區中顯示。
+
+  您只能從原始工作區編輯欄位設定。
+
+  在原始工作區中建立的欄位設定在所有成員的次要工作區中是唯讀的，無論其在次要工作區上的許可權為何。
+
+  次要工作區管理員無法修改原始工作區中設定的欄位設定。 只有原始工作區的工作區管理員才能修改原始工作區中的欄位設定。
 
 ### 關於次要工作區中全域記錄型別的考量事項
 
@@ -133,23 +150,28 @@ ht-degree: 0%
 
      如需詳細資訊，請參閱[共用檢視](/help/quicksilver/planning/access/share-views.md)。
 
+<!--Uncomment this at prod on Jan 15: * Share it-->
 
-     <!-- when they will be able to add fields to the secondary space, this bullet will need this extra information: 
-         After adding fields to the global record type in the secondary workspace, shared views might not open for other users in workspaces. The fields exist only in the secondary workspace and they would not be visible in any other workspace. Only fields created in the primary workspace are visible in all secondary workspaces where there the record type is added. -->
+<!--You can share a global record type added to a secondary workspace from the secondary space. By sharing a global record type in a secondary workspace, the following also occur:
 
-  <!--These two capabilities will come later - and edit some of the bullets below after these capabilities are released:
-    * Add new fields
-        Fields added to a global record from a secondary workspace are visible only from the secondary workspace. 
-    * Share it
-    * Add request forms to it
-    * Add automations to it-->
+    * Users are added to the workspace with View permissions.
+    * Users receive the same permissions to all the records of the global record type in the secondary workspace.-->
+
+<!--when they will be able to add fields to the secondary space, this bullet will need this extra information: 
+    After adding fields to the global record type in the secondary workspace, shared views might not open for other users in workspaces. The fields exist only in the secondary workspace and they would not be visible in any other workspace. Only fields created in the primary workspace are visible in all secondary workspaces where there the record type is added.-->
+
+<!--These two capabilities will come later - and edit some of the bullets below after these capabilities are released:
+* Add new fields
+    Fields added to a global record from a secondary workspace are visible only from the secondary workspace. 
+* Add request forms to it
+* Add automations to it-->
 
 * 任何使用者都無法在次要工作區中對全域記錄型別執行下列動作：
 
    * 編輯它
 
      您無法編輯其外觀、跨工作區功能或從原始工作區新增的欄位。
-   * 共用
+   * 共用<!-- remove this at Prod on Jan 15-->
    * 建立及管理申請表單
    * 建立及管理自動化
 
@@ -159,11 +181,17 @@ ht-degree: 0%
    * 全域記錄型別的原始工作區。
    * 新增全域工作區的所有其他工作區。
 
+  <!--replace he above bullet with this: 
+        * Records added in a secondary workspace are visible from the following workspaces, only if you have View or higher permissions to these workspaces:
+        * The secondary place where they were added
+        * The global record type's original workspace
+    -->
+
 * 在次要工作區中建立的記錄存在下列情況：
 
    * 如果您對原始工作區具有「管理」許可權，而對次要工作區沒有許可權，則可以從原始工作區中的次要工作區檢視新增的記錄，但無法從原始工作區管理這些記錄。
    * 如果您對次要工作區具有管理許可權，則可以從全域記錄型別的原始工作區以及新增記錄的次要工作區來管理記錄。
-   * 只有在您擁有其他次要工作區的「檢視」許可權時，才能檢視這些工作區中的記錄，在這些工作區中新增了全域記錄型別。
+   * 只有在您擁有其他次要工作區的「檢視」許可權時，才能檢視這些工作區中的記錄，在這些工作區中新增了全域記錄型別。<!-- take this bullet out when we change this functionality on Jan 15-->
 
 ### 存取全域記錄型別的連線
 

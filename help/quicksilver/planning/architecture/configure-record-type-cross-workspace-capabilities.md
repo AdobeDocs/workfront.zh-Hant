@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 40891b0e960e38c4fca55eec428a4e3a6397b316
+source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '1677'
 ht-degree: 1%
 
 ---
@@ -212,9 +212,10 @@ And
 
    從次要工作區中的全域記錄型別新增的記錄型別也顯示&#x200B;**全域記錄型別**&#x200B;圖示![全域記錄型別圖示](assets/global-icon.png)。
 1. （選擇性）返回您建立全域記錄型別的原始工作區，並按照<!--ensure this stays accurate-->上方的步驟1-4編輯記錄型別
-1. （選擇性）檢閱已在使用此記錄型別的&#x200B;**工作區區段**&#x200B;中新增全域記錄的工作區清單。 工作區擁有者也會列在工作區名稱旁。
+1. （選擇性）檢閱已在使用此記錄型別的&#x200B;**工作區中新增全域記錄的工作區清單**&#x200B;區段。 工作區擁有者也會列在工作區名稱旁。
 
    ![使用此記錄型別的工作區](assets/workspaces-where-this-record-type-is-used.png)
+1. （選擇性）按一下&#x200B;**工作區中列出的其中一個工作區名稱（此記錄型別在此工作區中）**&#x200B;區段以開啟該工作區。
 
 </div>
 

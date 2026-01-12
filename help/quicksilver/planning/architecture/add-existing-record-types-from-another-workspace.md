@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 0c890cc535c61c5402a334e43ed45b3ec3f9f748
+source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 1%
@@ -138,7 +138,7 @@ And
 
       * 所有原始欄位
       * 所有記錄連線
-   * 您至少擁有這些工作區的「檢視」許可權時，才能檢視使用相同全域記錄型別之其他工作區新增的記錄。
+   * 您至少擁有這些工作區的「檢視」許可權時，才能檢視使用相同全域記錄型別之其他工作區新增的記錄。<!--replace this bullet by this with Jan 15 release: You can view records added from the original workspace of the global record type only when you have at least View permissions to that workspace.-->
    * 唯讀&#x200B;**Workspace**&#x200B;欄位已新增至新記錄型別資料表檢視。 欄位會顯示建立每個記錄的工作區。
 
      >[!NOTE]
