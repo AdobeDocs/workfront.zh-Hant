@@ -1,13 +1,13 @@
 ---
 title: 階層與階層連結概觀
-description: 在連線記錄型別之後，您可以在工作區中的記錄型別之間建立多個工作區階層。
+description: 身為工作區管理員，您可以在Adobe Workfront Planning中的連線記錄型別與其他物件型別之間，定義彈性但結構化的階層。 階層是記錄型別之間的連線，或記錄型別與Workfront專案之間的連線。
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 98ef4a4f0a30dc90956132cb715393a29170d715
+source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1001'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # 階層與階層連結概觀
 
-<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 身為工作區管理員，您可以在Adobe Workfront Planning中的連線記錄型別與其他物件型別之間，定義彈性但結構化的階層。
 

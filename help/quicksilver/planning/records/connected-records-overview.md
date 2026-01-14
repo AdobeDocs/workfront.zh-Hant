@@ -6,18 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: 98ef4a4f0a30dc90956132cb715393a29170d715
+source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
 
 # 連線記錄概觀
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
 
 {{planning-important-intro}}
 
@@ -44,8 +44,8 @@ ht-degree: 0%
 * 有權存取Workfront Planning和「檢視」或對工作區和記錄型別擁有更高許可權的每個人，都可以看到您在記錄之間或記錄與其他應用程式物件之間建立的連線。 無論連線至應用程式的許可權為何，使用者都可以檢視連線的記錄和物件。
 * 如果您擁有工作區的「管理」許可權以及連線記錄的記錄型別，則可以檢視及編輯其他人的連線。
 * 您可以將一個記錄連線到另一個應用程式的一或多個物件。視您在連線記錄型別時選取的連線型別而定。 如需詳細資訊，請參閱文章[連線記錄型別概觀](/help/quicksilver/planning/architecture/connect-record-types-overview.md)中的「連線型別」一節。
-* <span class="preview">如果連線的記錄型別是階層的一部分，您可以從記錄的頁面存取階層內的任何物件型別。 如需詳細資訊，請參閱[階層與階層連結概觀](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)。</span>
-* <span class="preview">*當連線的記錄型別屬於階層時，您可以從子記錄型別連線一條記錄，到從父記錄型別連線最多10條記錄。 如需詳細資訊，請參閱[階層與階層連結概觀](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)。</span>
+* 當連線的記錄型別屬於階層的一部分時，您可以從記錄的頁面存取階層內的任何物件型別。 如需詳細資訊，請參閱[階層與階層連結概觀](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)。
+* 當連線的記錄型別是階層的一部分時，您可以從子記錄型別連線一個記錄，到從父記錄型別連線最多10個記錄。 如需詳細資訊，請參閱[階層與階層連結概觀](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)。
 
 ## 您可以連線記錄的區域
 

@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
+source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
 workflow-type: tm+mt
 source-wordcount: '2066'
 ht-degree: 1%
@@ -40,7 +40,7 @@ ht-degree: 1%
 
 關於連線記錄型別，請考量下列事項：
 
-* <span class="preview">在Workfront Planning中，一個記錄型別最多可以有30個連線的欄位。</span>
+* 在Workfront Planning中，一個記錄型別最多可以有30個連線欄位。
 
 * 您可以在Adobe Workfront Planning中連線下列實體：
 
@@ -99,7 +99,7 @@ ht-degree: 1%
       * 無法從Workfront物件存取規劃記錄欄位。
       * Planning記錄會顯示於Workfront物件的Planning區段。 如需詳細資訊，請參閱[管理來自Workfront物件的記錄連線](/help/quicksilver/planning/records/manage-records-in-planning-section.md)。
       * 您可以建立Planning連線自訂欄位，並將其附加至Workfront物件的自訂表單。 如需詳細資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
-      * 當您的Experience Manager管理員透過Workfront與Adobe Experience Manager Assets之間的整合設定中繼資料對應時，可從Workfront資產存取規劃記錄欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
+      * 當您的Experience Manager管理員透過Workfront與Adobe Experience Manager Assets之間的整合設定中繼資料對應時，可從Workfront資產存取規劃記錄欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
       * 無法從GenStudio for Performance Marketing中的「品牌」存取計畫記錄欄位。
 
    * **當您從您連線的記錄或物件加入查閱欄位時**：除了建立連結的記錄欄位之外，您還可以從連線的記錄或物件型別連線到稱為查閱欄位的欄位。 連結（或查詢欄位）的資訊，來自於您所連線的記錄，顯示在您所連線的記錄上。
@@ -126,7 +126,7 @@ ht-degree: 1%
      >
      >例如，如果專案的計劃開始日期在Workfront中顯示為3:00下午，則在匯入的查詢欄位中，它將在Workfront Planning中顯示為15:00。
 
-   * <span class="preview">您必須連線記錄型別，才能在Workfront Planning中建立階層。 當記錄型別連線不存在時，會在您建立階層時自動建立連線。 如需詳細資訊，請參閱[建立工作區階層](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)。</span>
+   * 您必須連線記錄型別，才能在Workfront Planning中建立階層。 當記錄型別連線不存在時，會在您建立階層時自動建立連線。 如需詳細資訊，請參閱[建立工作區階層](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)。
 
 
 ## 連線型別

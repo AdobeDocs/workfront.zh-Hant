@@ -6,10 +6,10 @@ description: 修改清單中多個問題的使用者指派
 author: Lisa
 feature: Work Management
 exl-id: e1e75027-1847-44cf-afeb-b19394dc3ea5
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+source-git-commit: 8f7249e08268a8cb784d4c0ecc8c534542fa80cf
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 1%
+source-wordcount: '523'
+ht-degree: 4%
 
 ---
 
@@ -39,21 +39,21 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 >
 >您必須至少擁有問題的「貢獻者」許可權，才能為問題指派作業。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
+   <td>Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront授權</td> 
-   <td> <p>標準</p>
+   <td> <p>投稿人或以上</p>
    <p>要求或更高版本</p> </td> 
   </tr> 
   <tr> 

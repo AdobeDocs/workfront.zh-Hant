@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 98ef4a4f0a30dc90956132cb715393a29170d715
+source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
 workflow-type: tm+mt
-source-wordcount: '2853'
+source-wordcount: '2877'
 ht-degree: 1%
 
 ---
@@ -38,7 +38,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
 >[!NOTE]
 >
-><span class="preview">一個記錄型別最多可以有30個連線欄位。</span>
+>一個記錄型別最多可以有30個連線欄位。
 
 本文說明如何將兩個Workfront Planning記錄型別或Workfront Planning記錄型別與其他應用程式的物件連線。
 
@@ -89,7 +89,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    <ul><li><p>Adobe Experience Manager Assets授權及AEM Assets與Workfront之間的整合，用於連結AEM資產與Planning記錄型別。</p>
    <p>如需詳細資訊，請參閱<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">適用於Experience Manager Assets和Assets Essentials的Adobe Workfront：文章索引</a>。 </p></li>
    <li><p> 連線記錄型別與GenStudio Brands的Adobe GenStudio for Performance Marketing授權</p>
-   <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/get-started">開始使用Adobe GenStudio for Performance Marketing</a>。</p></li></ul>
+   <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">開始使用Adobe GenStudio for Performance Marketing</a>。</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -204,7 +204,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
      >[!TIP]
      >
-     >必須針對&#x200B;**進階設定** **或**&#x200B;編輯記錄型別<span class="preview">方塊的&#x200B;**跨工作區設定**</span>&#x200B;索引標籤中的記錄型別，啟用&#x200B;**允許連線至其他工作區中的此記錄型別**&#x200B;設定，才能從其他工作區存取記錄型別。 如果沒有記錄型別被設定為從其他工作區連線，則工作區區段不會顯示。
+     >必須在&#x200B;**進階設定**&#x200B;或&#x200B;**編輯記錄型別**&#x200B;方塊的&#x200B;**跨工作區設定**&#x200B;索引標籤中，為記錄型別啟用&#x200B;**允許連線至其他工作區中的此記錄型別**&#x200B;設定，才能從其他工作區存取記錄型別。 如果沒有記錄型別被設定為從其他工作區連線，則工作區區段不會顯示。
      >
      >如需詳細資訊，請參閱[設定記錄型別的跨工作區功能](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)。<!--update screen shot at production-->
      >
@@ -252,9 +252,9 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
    >[!TIP]
    >
-   >* 除了<span class="preview">一個記錄型別</span>有30個連線欄位的限制外，一個記錄型別有500個欄位的限制。 建議將此設定設為關閉（尤其是分類記錄型別），以避免達到此限制。
+   >* 除了單一記錄型別的30個連線欄位限制外，單一記錄型別還存在500個欄位的限制。 建議將此設定設為關閉（尤其是分類記錄型別），以避免達到此限制。
    >
-   >* <span class="preview">選取&#x200B;**在連結的記錄型別上建立對應的欄位**&#x200B;是建立階層的先決條件。</span>
+   >* 在連結的記錄型別&#x200B;**上選取**&#x200B;建立對應欄位是建立階層的先決條件。
 
 1. （視條件而定）如果您已啟用&#x200B;**在連結的記錄型別**&#x200B;上建立對應的欄位，請從下列選項中選擇，以指出使用者可連線到多少筆記錄，以及可從多少筆記錄連線：
 
@@ -279,7 +279,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
    >[!NOTE]
    >
-   >您的Workfront管理員可以透過Workfront中的中繼資料對應，將Workfront Planning欄位對應至Experience Manager Assets欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
+   >您的Workfront管理員可以透過Workfront中的中繼資料對應，將Workfront Planning欄位對應至Experience Manager Assets欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
 
 
 1. （視條件而定）當您選取連線至Experience Manager Assets、Workfront Planning記錄型別或GenStudio Brand時，請在&#x200B;**記錄外觀**&#x200B;區域中選擇下列其中一個選項：
@@ -309,6 +309,8 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    >* Workfront物件的日期欄位資訊在Workfront Planning中會以24小時格式顯示，無論其在Workfront中的顯示方式為何。
    >
    >   例如，如果專案的計劃開始日期在Workfront中顯示為3:00下午，則在匯入的查詢欄位中，它將在Workfront Planning中顯示為15:00。
+   >* 在生產環境中，您無法新增人物欄位做為查詢欄位。 <span class="preview">您可以在預覽環境中新增人物欄位做為查閱欄位。</span>
+   >
 
 1. 按一下「**建立**」。
 
@@ -407,7 +409,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
      >[!TIP]
      >
      > 連結的記錄欄位不會為來自另一個應用程式的物件在其各自的應用程式中建立。
-     >我們建議您不要建立分類記錄型別的連結，因為每個記錄型別有500個欄位的限制，<span class="preview">加上連線欄位30個的限制</span>。
+     >除了每個記錄型別有30個連線欄位的限制外，我們建議不要建立分類記錄型別的連結，因為有500個欄位的限制。
 
    <!--see the span preview text in the TIP above; it might not show up in green-->
 

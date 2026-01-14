@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 98ef4a4f0a30dc90956132cb715393a29170d715
+source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 3%
+source-wordcount: '464'
+ht-degree: 4%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 3%
 
 # Adobe Workfront Planning物件限制總覽
 
-<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行到生產環境後，為啟用快速發行的客戶在生產環境中也提供相同的功能。</span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases.</span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -49,13 +49,13 @@ Adobe Workfront Planning限制您可在執行個體中建立的物件數目。 �
 | 您可以匯入CSV或Excel檔案以建立記錄型別的列數 | 25,000 |
 | 您可以匯入CSV或Excel檔案以建立記錄型別的欄數 | 500 |
 | 一種記錄型別的公式欄位數 | 20 |
-| <span class="preview">單一記錄型別的連線欄位數目</span> | <span class="preview">30</span> |
+| 一種記錄型別的連線欄位數 | 30 |
 | 公式欄位運算式中的字元數 | 50,000 |
 | 可與Planning物件共用的實體（使用者、角色、團隊、公司、群組）數目 | 100 |
-| <span class="preview">階層中的記錄型別數目</span> | 4 |
-| <span class="preview">工作區中的階層數目</span> | 5 |
-| <span class="preview">階層內父記錄型別的記錄數（從子記錄型別連線至一個記錄）</span> | 10 |
-| 連線到多重選取連線型別中一個記錄的記錄數，<span class="preview">沒有在記錄之間設定階層</span> | 500 |
+| 階層中的記錄型別數 | 4 |
+| 工作區中的階層數 | 5 |
+| 階層內從父記錄型別連線到子記錄型別的一個記錄的父記錄數 | 10 |
+| 多重選取連線型別中連線至一個記錄的記錄數，這些記錄之間未設定階層 | 500 |
 
 *我們建議您不要有太多工作區，因為這些工作區可能會變得難以管理，而且您的工作流程可能太分散。
 
