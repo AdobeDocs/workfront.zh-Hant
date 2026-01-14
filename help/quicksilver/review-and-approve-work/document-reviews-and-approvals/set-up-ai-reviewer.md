@@ -2,15 +2,15 @@
 product-area: documents
 navigation-topic: approvals
 title: 建立AI檢閱者
-description: 在GenStudio Foundation中設定至少一個品牌後，您可以建立多個AI稽核者，然後將其指派給核准範本和個別稽核及核准請求。
+description: 在Workfront中設定至少一個品牌後，您可以建立多個AI稽核者，然後將其指派給核准範本和個別稽核及核准請求。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 4673049e-119e-4315-95f0-f10d8b286856
-source-git-commit: 7572dd64a7f23d6f8dcae374a327d67f2d6738c5
+source-git-commit: de5f5d709ace99b7794ff2eaeb4ee7849cff8182
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 3%
+source-wordcount: '246'
+ht-degree: 9%
 
 ---
 
@@ -20,22 +20,19 @@ ht-degree: 3%
 >
 >此功能目前處於Beta測試階段。
 
-在GenStudio Foundation中設定至少一個品牌後，您可以建立多個AI稽核者，然後將其指派給核准範本和個別稽核及核准請求。
+在Workfront中設定至少一個品牌後，您可以建立多個AI稽核者，然後將其指派給核准範本和個別稽核及核准請求。
 
->[!NOTE]
->
->AI檢閱者並非設計成檢閱和核准工作流程中的決策者。 它只會提供分數和建議，以讓資產符合指定的品牌需求。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -55,11 +52,15 @@ ht-degree: 3%
 
 ## 先決條件
 
-開始之前，您必須在GenStudio Foundation中設定影像品牌指導方針。
-
-若要深入瞭解影像品牌准則，請參閱[開始使用Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/get-started)。
+開始之前，您必須在Workfront中設定影像品牌指導方針。 如需詳細資訊，請參閱[為AI檢閱者設定品牌](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)。
 
 ## 新增AI檢閱者
+
+>[!NOTE]
+>
+>AI檢閱者並非設計成檢閱和核准工作流程中的決策者。 它只會提供分數和建議，以讓資產符合指定的品牌需求。
+
+新增AI檢閱者：
 
 {{step-1-to-setup}}
 

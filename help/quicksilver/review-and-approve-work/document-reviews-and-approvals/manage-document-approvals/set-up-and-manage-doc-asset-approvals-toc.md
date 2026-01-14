@@ -8,9 +8,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 242910b9-f251-49c3-a6ad-de3039bdd2f5
-source-git-commit: 9cdd3f9b46b36728a8825713fe50f3f2fe1ef90b
+source-git-commit: 582c799fe43f0a7e7dbd4fec680d5873e0e193e7
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 
 本節包含下列文章：
 
+* [建立AI檢閱者](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
+* [設定AI檢閱者的品牌](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
 * [建立檔案稽核或核准請求](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
 * [將其他檢閱者或核准者新增至資產或檔案](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
 * [從資產或檔案中移除核准者或稽核者](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)

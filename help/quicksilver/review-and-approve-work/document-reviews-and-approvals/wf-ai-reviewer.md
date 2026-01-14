@@ -7,33 +7,33 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: 0a6e94c285cc5aaea97d840d644dc9b3ceea305e
+source-git-commit: cf1d4bfeedb94e8607dad47177d804169254ee85
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 4%
+source-wordcount: '657'
+ht-degree: 5%
 
 ---
 
 # 開始使用Workfront AI Reviewer
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >此功能目前處於Beta測試階段。
 
+
 有了Workfront AI Reviewer，您可以加快內容速度，並在稽核和核准工作流程中最佳化品牌合規性。 您可以在Workfront中將AI稽核者新增至核准範本或個別稽核和核准請求。
 
-## 存取需求
+## 存取權要求
 
 若要在Workfront中設定AI檢閱者，您必須是系統管理員。
 
 任何使用者都可以將AI稽核者新增至稽核和核准請求。
 
-
 ## 先決條件
 
 * 貴組織必須已移轉至Adobe IMS (Identity Management系統)。
 * 您的Workfront執行個體必須已啟用統一核准。
-* 您的組織必須有GenStudio Foundation。
+  <!--* Your organization must have GenStudio Foundation.-->
 * Adobe必須有已簽署的Adobe Gen AI合約檔案。
 如需簽署合約的詳細資訊，請參閱[簽署Adobe Gen AI合約](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)。
 
@@ -60,12 +60,14 @@ AI檢閱者可檢閱下列檔案型別：
 
 ## 設定品牌指南
 
-Workfront AI檢閱者在檢閱內容時，會使用Genstudio Foundation中設定的品牌准則。 目前，您只能設定影像的品牌指南。 如需詳細資訊，請參閱[開始使用Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/get-started)。
+Workfront AI Reviewer在檢閱內容時會使用品牌指引。 Workfront管理員可以在Workfront設定區域中設定品牌指南。 &lt;！ — 在GenStudio Foundation中建立的品牌也可在Workfront中使用。
+
+如需詳細資訊，請參閱[為AI檢閱者設定品牌](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)。
 
 
 ## 建立AI檢閱者
 
-在GenStudio Foundation中設定至少一個品牌後，Workfront管理員就可以開始在「設定」區域中建立AI檢閱者。 然後可以將這些AI稽核者指派給核准範本和個別稽核與核准請求。 目前，AI檢閱者只能根據影像品牌准則進行檢閱。
+設定至少一個品牌後，Workfront管理員即可在設定區域中開始建立AI檢閱者。 然後可以將這些AI稽核者指派給核准範本和個別稽核與核准請求。 目前，AI檢閱者只能根據影像品牌准則進行檢閱。
 
 如需詳細資訊，請參閱[建立AI檢閱者](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)。
 
@@ -110,6 +112,6 @@ AI檢閱者並非設計成檢閱和核准工作流程中的決策者。 它只�
 ![AI檢閱者意見](assets/ai-reviewer-feedback.png)
 
 
-## 影片逐步解說
+<!--## Video Walkthrough
 
->[!VIDEO](https://video.tv.adobe.com/v/3470847/)
+>[!VIDEO](https://video.tv.adobe.com/v/3470847/)-->
