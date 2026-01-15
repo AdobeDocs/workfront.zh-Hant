@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1075'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 # 刪除記錄型別
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -52,12 +52,12 @@ ht-degree: 1%
 <li><p>任何Workfront和任何Planning套件</p></li>
 或
 <li><p>任何工作流程與任何Planning套件</p></li></ul>
-<div class="preview">
+
 <p>若要刪除全域記錄型別，請執行下列動作：</p>
 <ul><li><p>任何Workfront套件和Planning Plus套件</p></li>
 或
 <li><p>任何工作流程和Planning Prime或Ultimate套件</p></li></ul>
-</div>
+
 <p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
    </td> 
   <tr> 
@@ -150,13 +150,9 @@ ht-degree: 1%
 * 您無法復原已刪除的記錄型別或其資訊。
 * 建議您先在其他記錄型別上重新建立與您要刪除之記錄型別相關的欄位和記錄，然後再刪除它們。
 
-<div class="preview">
-
 * 您無法刪除已新增至其他工作區的全域記錄型別。
 
   如需詳細資訊，請參閱本文中的[刪除全域記錄型別](#delete-global-record-types)一節。
-
-</div>
 
 ## 刪除記錄型別
 
@@ -174,14 +170,16 @@ ht-degree: 1%
    * 將游標停留在記錄型別卡片上，按一下&#x200B;**更多**&#x200B;功能表，然後&#x200B;**刪除**。
    * 按一下您要刪除之記錄型別的卡片，然後在記錄型別頁面中，按一下記錄型別名稱右側的&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下&#x200B;**刪除**。
 
-   ![永久刪除記錄型別確認](assets/permanently-delete-record-type-confirmation.png)
+     >[!TIP]
+     >
+     >您無法從從記錄型別頁面新增全域記錄型別的次要工作區中刪除該記錄型別。 您只能從工作區中的記錄型別卡中刪除它。
+
+     ![永久刪除記錄型別確認](assets/permanently-delete-record-type-confirmation.png)
 
 
 1. 在確認方塊中輸入&#x200B;**刪除**，然後按一下&#x200B;**永久刪除**。 不區分大小寫。
 
    所選的記錄型別及其欄位、關聯的記錄和檢視都會被刪除並且無法復原。
-
-<div class="preview">
 
 ## 刪除全域記錄型別
 
@@ -194,6 +192,8 @@ ht-degree: 1%
 ### 從原始工作區中刪除全域記錄型別
 
 如果記錄型別不再相關，您可以將其從原始工作區中刪除。
+
+所有記錄和欄位也會一併刪除，且無法復原。
 
 1. 移至原始工作區中的全域記錄型別。
 
@@ -209,7 +209,7 @@ ht-degree: 1%
    會發生下列情況：
 
    * 全域記錄型別會從原始工作區中移除，且無法復原記錄型別、其記錄和欄位。
-   * 次要工作區中的所有全域記錄型別及其記錄也會被移除。
+   * 次要工作區中的所有全域記錄及其記錄也會從此工作區中移除。
 
 ### 從次要工作區刪除全域記錄型別
 
@@ -217,11 +217,13 @@ ht-degree: 1%
 
 請考量下列事項：
 
-* 從次要工作區刪除全域記錄型別只會將其從次要工作區中移除， 記錄型別會保留在原始工作區中。
+* 當您從次要工作區中刪除全域記錄型別時，該記錄型別會保留在原始工作區中。
 
 * 當您從次要工作區中刪除全域記錄型別時，也會刪除下列專案：
 
-   * 從次要工作區新增的記錄。
+   * 從次要工作區新增的記錄會從次要工作區刪除，且無法復原。
+
+     新增至次要工作區的記錄會保留在全域記錄型別的主要工作區中。 全域記錄型別之主要工作區中，這些記錄的&#x200B;**Workspace**&#x200B;欄位是空的。<!--checking on this with Lilit-->
 
   <!--Coming later: * The fields added from the secondary workspace.-->
 
@@ -233,16 +235,16 @@ ht-degree: 1%
 
 1. 移至其次要工作區中的全域記錄型別。
 
-1. （選擇性）按一下記錄型別卡片上的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，或在其頁面上的記錄型別名稱右側，然後按一下&#x200B;**刪除**。
+1. （選擇性）按一下記錄型別卡片上的&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下&#x200B;**刪除**。
 1. （視條件而定）在提供的欄位中輸入&#x200B;**刪除**，然後按一下&#x200B;**永久刪除**。
 
    ![刪除次要全域記錄型別確認方塊](assets/delete-secondary-global-record-type.png)
 
    會發生下列情況：
 
-   * 從全域記錄型別建立的記錄型別會從選取的工作區中移除。
+   * 從全域記錄型別建立的記錄型別會從選取的次要工作區中移除。
    * 原始記錄型別及其欄位會保留在其原始工作區中。
    * 記錄型別會保留在已新增它的所有其他工作區中。
-   * 刪除從目前工作區新增到記錄型別的記錄<!--and fields-->。 從已新增全域記錄型別的其他工作區新增的所有其他記錄都會保留在各自的工作區和原始工作區中。 &lt;！ — 欄位會保留在加入它們的工作區中。
+   * 從次要工作區新增至記錄型別的記錄<!--and fields-->已刪除。 從已新增全域記錄型別的其他工作區新增的所有其他記錄都會保留在各自的工作區和原始工作區中。 &lt;！ — 欄位會保留在加入它們的工作區中。
 
-</div>
+

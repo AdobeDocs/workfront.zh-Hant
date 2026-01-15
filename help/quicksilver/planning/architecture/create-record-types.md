@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '1199'
+source-wordcount: '1136'
 ht-degree: 2%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 2%
 
 # 建立記錄型別
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -55,7 +55,6 @@ ht-degree: 2%
 或
 <li><p>任何工作流程和Planning Prime或Ultimate套件</p></li></ul>
 
-<div class="preview">
 <p>若要設定全域記錄型別，請執行下列動作：</p>
 
 <ul> 
@@ -64,8 +63,7 @@ ht-degree: 2%
 <li><p>任何工作流程和Planning Prime或Ultimate套件</p></li></ul>
 <p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p>
 
-</div>
-   </td> </tr>
+</td> </tr>
   <tr> 
    <td role="rowheader"><p>Adobe Workfront授權</p></td> 
    <td><p>標準</p>
@@ -163,8 +161,8 @@ ht-degree: 2%
 
         本文說明如何從頭開始建立記錄型別。
 
-      * <span class="preview">透過從另一個工作區新增它們</span>
-        <span class="preview">如需詳細資訊，請參閱[從另一個工作區新增現有記錄型別](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)。</span>
+      * 透過從另一個工作區新增它們
+如需詳細資訊，請參閱[從其他工作區新增現有記錄型別](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)。
 
 
 * 您可以在區段內以及工作區一個區段之間移動記錄型別。 您無法將記錄型別從一個工作區移動到另一個工作區。
@@ -208,9 +206,9 @@ ht-degree: 2%
       * 選取顏色以識別您的新記錄型別。 這是記錄型別圖示的顏色。 預設會選取「灰色」。
       * 從清單中選取圖示，或在搜尋欄位中開始輸入圖示名稱以說明其代表內容，然後在顯示時選取它。 這是記錄型別的圖示。 依預設，會選取檔案圖示。
 
-1. （選擇性和條件性）如果您是系統管理員，請按一下&#x200B;**進階設定** <span class="preview">或&#x200B;**跨工作區設定**</span>&#x200B;索引標籤和<span class="preview">更新有關記錄型別的跨工作區功能的資訊。
+1. （選擇性和條件性）如果您是系統管理員，請按一下&#x200B;**跨工作區設定**&#x200B;索引標籤，並更新有關記錄型別的跨工作區功能的資訊。
 
-   ![使用進階設定索引標籤編輯記錄型別方塊](assets/edit-record-type-box-advanced-settings-tab.png) </span>
+   ![使用跨工作區設定索引標籤編輯記錄型別方塊](assets/edit-record-type-box-advanced-settings-tab.png) </span>
 
    如需詳細資訊，請參閱[設定記錄型別的跨工作區功能](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)。
 
@@ -223,9 +221,9 @@ ht-degree: 2%
 
    如果您選擇從其他工作區連線此記錄，記錄卡上會顯示&#x200B;**可連線的記錄**&#x200B;圖示![從其他工作區連線圖示](assets/connect-from-other-workspaces-icon.png)。
 
-   <span class="preview">如果您選取允許將此記錄新增至其他工作區，記錄卡上會顯示&#x200B;**全域記錄**&#x200B;圖示![全域記錄型別圖示](assets/global-icon.png)。</span>
+   如果您選取允許將此記錄新增至其他工作區，記錄卡上會顯示&#x200B;**全域記錄**&#x200B;圖示![全域記錄型別圖示](assets/global-icon.png)。
 
-1. （選擇性）將滑鼠停留在記錄型別卡片上，按一下右上角的&#x200B;**更多**&#x200B;圖示![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**編輯**&#x200B;或&#x200B;<span class="preview">**設定**</span>&#x200B;以修改記錄型別的相關資訊。
+1. （選擇性）將滑鼠停留在記錄型別卡片上，按一下右上角的&#x200B;**更多**&#x200B;圖示![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**編輯**&#x200B;或&#x200B;**設定**&#x200B;以修改記錄型別的相關資訊。
 
    如需詳細資訊，請參閱[編輯記錄型別](/help/quicksilver/planning/architecture/edit-record-types.md)。
 
@@ -277,12 +275,8 @@ ht-degree: 2%
 
 如需詳細資訊，請參閱[從CSV或Excel檔案匯入資訊，以建立記錄型別](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md)。
 
-<div class="preview">
-
 ## 從另一個工作區新增現有記錄型別，以建立記錄型別
 
 您可以透過從另一個工作區新增現有記錄型別來將記錄型別新增到工作區。 您只能新增已設定為全域記錄型別的記錄型別。
 
 如需詳細資訊，請參閱[從其他工作區新增現有記錄型別](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)。
-
-</div>

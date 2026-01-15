@@ -6,15 +6,17 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '2877'
+source-wordcount: '2873'
 ht-degree: 1%
 
 ---
 
 
 <!--keep the 30 fields limit in yellow till Jan 2026; also the global record type cross-workspace capability information-->
+
+<!--take production and preview references out at prod-->
 
 # 連線記錄型別
 
@@ -89,7 +91,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    <ul><li><p>Adobe Experience Manager Assets授權及AEM Assets與Workfront之間的整合，用於連結AEM資產與Planning記錄型別。</p>
    <p>如需詳細資訊，請參閱<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">適用於Experience Manager Assets和Assets Essentials的Adobe Workfront：文章索引</a>。 </p></li>
    <li><p> 連線記錄型別與GenStudio Brands的Adobe GenStudio for Performance Marketing授權</p>
-   <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/get-started">開始使用Adobe GenStudio for Performance Marketing</a>。</p></li></ul>
+   <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">開始使用Adobe GenStudio for Performance Marketing</a>。</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -204,11 +206,11 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
      >[!TIP]
      >
-     >必須在&#x200B;**進階設定**&#x200B;或&#x200B;**編輯記錄型別**&#x200B;方塊的&#x200B;**跨工作區設定**&#x200B;索引標籤中，為記錄型別啟用&#x200B;**允許連線至其他工作區中的此記錄型別**&#x200B;設定，才能從其他工作區存取記錄型別。 如果沒有記錄型別被設定為從其他工作區連線，則工作區區段不會顯示。
+     >必須針對&#x200B;**編輯記錄型別**&#x200B;方塊的&#x200B;**跨工作區設定**&#x200B;索引標籤中的記錄型別，啟用&#x200B;**允許連線至其他工作區中的此記錄型別**&#x200B;設定，才能從其他工作區存取記錄型別。 如果沒有記錄型別被設定為從其他工作區連線，則工作區區段不會顯示。
      >
      >如需詳細資訊，請參閱[設定記錄型別的跨工作區功能](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)。<!--update screen shot at production-->
      >
-     >![編輯記錄型別方塊進階設定索引標籤](assets/edit-record-type-box-advanced-settings-tab.png)
+     >![編輯記錄型別方塊跨工作區設定索引標籤](assets/edit-record-type-box-advanced-settings-tab.png)
 
      <!--Old:
         [!TIP]
@@ -239,7 +241,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    >您可以有多個連線連線到相同的記錄或物件型別。 如果您不編輯已連線的欄位名稱，Workfront會在已連線記錄的名稱后新增一個數字，以表示相同名稱的已連線記錄型別數目。
 
 1. 新增連線記錄欄位的相關資訊，以更新&#x200B;**描述**&#x200B;欄位。 當您將滑鼠游標停留在表格中的欄位欄位上時，會顯示欄位說明。
-1. （視條件而定）當您從兩個不同的工作區連線記錄型別時，即記錄型別和Adobe Experience Manager資產物件，或記錄型別和GenStudio品牌，請選取&#x200B;**允許多筆記錄**。 透過選取它，您表示當連線的記錄型別欄位顯示在原始記錄上時，您可以允許使用者新增多個記錄。 依預設會選取此選項。
+1. （視條件而定）當您從兩個不同的工作區連線記錄型別，即記錄型別和Adobe Experience Manager資產物件，或記錄型別和GenStudio品牌時，請選取&#x200B;**允許多筆記錄**。 透過選取它，您表示當連線的記錄型別欄位顯示在原始記錄上時，您可以允許使用者新增多個記錄。 依預設會選取此選項。
 
    ![從另一個工作區新增記錄型別的連線](assets/new-connection-allow-multiple-records-box.png)
 
@@ -279,7 +281,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
    >[!NOTE]
    >
-   >您的Workfront管理員可以透過Workfront中的中繼資料對應，將Workfront Planning欄位對應至Experience Manager Assets欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
+   >您的Workfront管理員可以透過Workfront中的中繼資料對應，將Workfront Planning欄位對應至Experience Manager Assets欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
 
 
 1. （視條件而定）當您選取連線至Experience Manager Assets、Workfront Planning記錄型別或GenStudio Brand時，請在&#x200B;**記錄外觀**&#x200B;區域中選擇下列其中一個選項：
@@ -409,9 +411,8 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
      >[!TIP]
      >
      > 連結的記錄欄位不會為來自另一個應用程式的物件在其各自的應用程式中建立。
-     >除了每個記錄型別有30個連線欄位的限制外，我們建議不要建立分類記錄型別的連結，因為有500個欄位的限制。
+     > 除了每個記錄型別有30個連線欄位的限制外，我們建議不要建立分類記錄型別的連結，因為有500個欄位的限制。
 
-   <!--see the span preview text in the TIP above; it might not show up in green-->
 
 1. （選擇性和條件性）在原始記錄型別或連結記錄型別表格檢視中，按一下連結記錄欄位標題中的向下箭頭，然後按一下下列其中一項：
 

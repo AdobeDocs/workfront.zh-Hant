@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 0c890cc535c61c5402a334e43ed45b3ec3f9f748
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '1901'
+source-wordcount: '1841'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 <!--there are several mentions on how to share public links for global record types in secondary workspaces in this articel; you have to update all of these mentions when something changes-->
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -171,7 +171,7 @@ This article describes how you can share a view with others. For information abo
 
   >[!NOTE]
   >
-  ><span class="preview">您無法在次要工作區中，從全域記錄型別公開共用檢視。 如需詳細資訊，請參閱[從另一個工作區新增現有記錄型別](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)。</span>
+  >您無法在次要工作區中，透過全域記錄型別公開共用檢視。 如需詳細資訊，請參閱[從另一個工作區新增現有記錄型別](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)。
 
 
 * 您組織外有權存取檢視的人員無法在檢視中建立其他檢視、編輯共用檢視，或新增、刪除或編輯記錄資訊。
@@ -243,7 +243,7 @@ This article describes how you can share a view with others. For information abo
 
 您可以將建立的檢視或您擁有管理許可權的檢視共用給沒有Workfront授權以及可能屬於您組織外部的人員。
 
-<span class="preview">您無法在其次要工作區中，從全域記錄型別公開共用檢視。</span>
+您無法在其次要工作區中，從全域記錄型別公開共用檢視。
 
 >[!IMPORTANT]
 >
@@ -277,7 +277,7 @@ This article describes how you can share a view with others. For information abo
 
    >[!TIP]
    >
-   ><span class="preview">已在其次要工作區中移除全域記錄型別的&#x200B;**公用共用**&#x200B;索引標籤。</span>
+   >已在其次要工作區中移除全域記錄型別的&#x200B;**公用共用**&#x200B;索引標籤。
 
 
 1. 按一下&#x200B;**複製連結**&#x200B;圖示![複製連結檢視](assets/copy-link-view.png)，將連結複製到剪貼簿。
@@ -335,7 +335,7 @@ This article describes how you can share a view with others. For information abo
      ![檢視](assets/in-app-notification-for-access-request-for-view.png)存取要求的應用程式內通知
 1. （視條件而定）從Workfront的通知區域，按一下應用程式內通知
 或
-在電子郵件通知中，按一下&#x200B;**檢視所有通知**，然後按一下清單中的通知。
+在電子郵件通知中，按一下**檢視所有通知**，然後按一下清單中的通知。
 
    顯示&#x200B;**擱置中的存取要求**&#x200B;方塊。
 

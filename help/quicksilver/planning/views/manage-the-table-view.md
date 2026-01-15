@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '3500'
+source-wordcount: '3418'
 ht-degree: 2%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 2%
 # 管理表格檢視
 
 
-<span class="preview">本頁標示的資訊是指尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -33,7 +33,7 @@ ht-degree: 2%
 
 如需將表格檢視匯出為Excel或CSV檔案的相關資訊，請參閱[從表格檢視匯出記錄](/help/quicksilver/planning/records/export-records-from-the-table-view.md)。
 
-## 存取需求
+## 存取權要求
 
 +++ 展開以檢視本文中功能的存取需求。 
 
@@ -47,7 +47,7 @@ ht-degree: 2%
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront套件</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
 <p>任何Workfront和任何Planning套件</p>
 <p>任何工作流程與任何Planning套件</p>
@@ -191,7 +191,7 @@ ht-degree: 2%
 
    您新增的欄對存取記錄型別的所有使用者可見，並作為記錄頁面的新欄位新增。
 
-1. （選擇性）按一下工具列中的&#x200B;**欄位**&#x200B;圖示![欄點陣圖示](assets/fields-icon.png)，尋找清單中的欄位或<span class="preview">搜尋欄位</span>，然後取消選取欄位名稱右側的切換以隱藏欄位。
+1. （選擇性）按一下工具列中的&#x200B;**欄位**&#x200B;圖示![欄點陣圖示](assets/fields-icon.png)，搜尋欄位，然後取消選取欄位名稱右側的切換以隱藏欄位。
 
 1. 執行下列任一項作業，重新排序表格中的欄：
 
@@ -311,7 +311,7 @@ ht-degree: 2%
 1. 選取表格檢視，然後按一下表格右上角的&#x200B;**篩選器**。
 1. 按一下&#x200B;**新增條件**&#x200B;並新增下列資訊：
 
-   * <span class="preview">搜尋欄位或</span>按一下下拉式功能表，以顯示欄位清單並從清單中選取它。
+   * 搜尋欄位，並在欄位在清單中顯示時選取它。
 
    * **選取選項** （或篩選修飾元）以定義欄位必須符合何種條件
 
@@ -542,7 +542,7 @@ To sort grouped records:
 
 1. （選擇性）按一下&#x200B;**列色彩**&#x200B;以定義條件並選擇為表格列設定不同的色彩。
 
-1. 按一下&#x200B;**新增色彩**，然後<span class="preview">搜尋欄位，或者</span>按一下下拉式功能表，以顯示欄位清單並從清單中選取它。 這是您要決定列顏色的欄位。
+1. 按一下&#x200B;**新增色彩**，然後搜尋欄位，然後在欄位顯示在清單中時選取它。 這是您要決定列顏色的欄位。
 
    例如，若要以綠色顯示狀態為「作用中」的行銷活動，請選取「**狀態**」，然後為該欄位選擇修飾元和值。
 

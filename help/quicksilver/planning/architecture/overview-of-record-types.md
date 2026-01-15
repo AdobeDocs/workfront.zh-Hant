@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 40891b0e960e38c4fca55eec428a4e3a6397b316
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # 記錄型別概觀
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -45,13 +45,19 @@ Workfront Planning物件型別稱為「記錄型別」，只有在使用者建�
    * **作業記錄型別**：代表策略性計畫、方案或計畫工作的記錄型別。 例如，行銷活動、活動、策略、機會是營運記錄型別。
    * **分類**：擷取有關作業記錄型別的屬性的記錄型別。 例如，地區、地址、對象是分類。
 
-  您可以重新命名或刪除這些區段或建立更多區段。
+  您可以重新命名或刪除區段和記錄型別，或建立更多區段。
 
 * 當您在從頭開始建立的工作區中建立記錄型別時，可以將記錄型別置於您在工作區中建立的任何區段中。
-* 當您建立記錄型別時，只有您和您授予存取工作區許可權的人可以檢視記錄型別。
+* 當您建立記錄型別時，只有您和您授予存取工作區和記錄型別許可權的人可以存取它。
 * 您必須先建立工作區，才能為工作區建立記錄型別。
-* 如需一個工作區或Workfront執行個體中可以擁有多少記錄型別的限制，請參閱[Adobe Workfront Planning物件限制概觀](/help/quicksilver/planning/general/limitations-overview.md)。
-* <span class="preview">您可以將記錄型別指定為全域。 您可以將全域記錄型別作為現有記錄型別新增到其他工作區。 如需詳細資訊，請參閱[ConfConfigure記錄typesigure](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)的跨工作區功能。</span>
+
+  如需一個工作區或Workfront執行個體中可以擁有多少記錄型別的限制，請參閱[Adobe Workfront Planning物件限制概觀](/help/quicksilver/planning/general/limitations-overview.md)。
+* 若要在多個工作區中使用記錄型別，您可以將記錄型別指定為全域或可連線。
+
+   * 您可以將全域記錄型別作為現有記錄型別新增到其他工作區。
+   * 可連線的記錄型別可以從其他工作區連線到。
+
+  如需詳細資訊，請參閱[設定記錄型別的跨工作區功能](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)。
 
 
 <!--

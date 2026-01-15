@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '1663'
+source-wordcount: '1674'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # 跨工作區記錄型別總覽
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span> -->
 
 {{planning-important-intro}}
 
@@ -37,27 +37,24 @@ ht-degree: 0%
 >
 >* 任何工作流程和Planning Prime或Ultimate套件
 >
-><span class="preview">若要設定全域記錄型別：</span>
+>若要設定全域記錄型別，請執行下列動作：
 >
->* <span class="preview">任何Workfront套件和Planning Plus套件</span>
+>* 任何Workfront套件和Planning Plus套件
 >     
 >   或
 >
->* <span class="preview">任何工作流程和Planning Prime或Ultimate套件</span>
+>* 任何工作流程和Planning Prime或Ultimate套件
 >
 >如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。
 >如需詳細資訊，請參閱[Adobe Workfront Planning存取總覽](/help/quicksilver/planning/access/access-overview.md)。
 
-
 以下是記錄型別的跨工作區功能：
 
-* <span class="preview">**全域記錄型別**：使用者可以將全域記錄型別新增至他們管理的其他工作區。</span>
+* **全域記錄型別**：使用者可以將全域記錄型別新增到他們管理的其他工作區。
 
 * **可連線的記錄型別**：使用者可以從其他工作區連線到此記錄型別。
 
 本文提供跨工作區記錄型別的概觀。 如需有關定義記錄型別的跨工作區功能的資訊，請參閱[設定記錄型別的跨工作區功能](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)。
-
-<div class="preview">
 
 ## 全域記錄型別概觀
 
@@ -141,21 +138,22 @@ ht-degree: 0%
 
    * 刪除它。
 
-     從次要工作區中刪除記錄型別只會將其從次要工作區中移除， 也會刪除從次要工作區新增至此的記錄和欄位。 這不會從其原始工作區或已新增記錄型別的任何其他次要工作區中刪除記錄型別。
+     從次要工作區中刪除記錄型別只會將其從次要工作區中移除， 從次要工作區新增至此的記錄和欄位也會從次要空間刪除。 新增至次要空間的記錄會保留在主要工作區中。 這不會從其原始工作區或已新增記錄型別的任何其他次要工作區中刪除記錄型別。
 
      如需詳細資訊，請參閱[刪除記錄型別](/help/quicksilver/planning/architecture/delete-record-types.md)。
+
+   * 共用
+
+     在次要工作區中共用全域記錄型別，也會發生下列情況：
+
+      * 使用者會新增至具有檢視許可權的工作區。
+      * 使用者會獲得次要工作區中所有全域記錄型別的相同許可權。
    * 共用記錄型別的檢視。
 
      您無法在次要工作區中，透過全域記錄型別公開共用檢視。 您只能從次要工作區內部共用檢視。 您可以在原始工作區中，針對全域記錄型別在內部和公開共用檢視。
 
      如需詳細資訊，請參閱[共用檢視](/help/quicksilver/planning/access/share-views.md)。
 
-<!--Uncomment this at prod on Jan 15: * Share it-->
-
-<!--You can share a global record type added to a secondary workspace from the secondary space. By sharing a global record type in a secondary workspace, the following also occur:
-
-    * Users are added to the workspace with View permissions.
-    * Users receive the same permissions to all the records of the global record type in the secondary workspace.-->
 
 <!--when they will be able to add fields to the secondary space, this bullet will need this extra information: 
     After adding fields to the global record type in the secondary workspace, shared views might not open for other users in workspaces. The fields exist only in the secondary workspace and they would not be visible in any other workspace. Only fields created in the primary workspace are visible in all secondary workspaces where there the record type is added.-->
@@ -171,7 +169,6 @@ ht-degree: 0%
    * 編輯它
 
      您無法編輯其外觀、跨工作區功能或從原始工作區新增的欄位。
-   * 共用<!-- remove this at Prod on Jan 15-->
    * 建立及管理申請表單
    * 建立及管理自動化
 
@@ -192,6 +189,7 @@ ht-degree: 0%
    * 如果您對原始工作區具有「管理」許可權，而對次要工作區沒有許可權，則可以從原始工作區中的次要工作區檢視新增的記錄，但無法從原始工作區管理這些記錄。
    * 如果您對次要工作區具有管理許可權，則可以從全域記錄型別的原始工作區以及新增記錄的次要工作區來管理記錄。
    * 只有在您擁有其他次要工作區的「檢視」許可權時，才能檢視這些工作區中的記錄，在這些工作區中新增了全域記錄型別。<!-- take this bullet out when we change this functionality on Jan 15-->
+* 您無法在次要工作區中公開共用全域記錄型別的檢視。
 
 ### 存取全域記錄型別的連線
 
@@ -206,8 +204,6 @@ ht-degree: 0%
 * 如果使用者具有存取權，則會在全域記錄型別的原始工作區中建立記錄。
 
 * 如果使用者沒有存取權，使用者會收到錯誤，表明他們無權存取全域記錄型別的原始工作區，他們需要提供他們有權建立記錄的工作區ID。
-
-</div>
 
 ## 可連線記錄型別的概觀
 

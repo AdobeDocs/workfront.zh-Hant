@@ -6,9 +6,9 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 author: Alina
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '584'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 1%
 
 # 刪除欄位
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -50,10 +50,10 @@ ht-degree: 1%
 或
 <li><p>任何工作流程與任何Planning套件</p></li></ul>
 
-<p><span class="preview">若要從全域記錄型別中刪除欄位，請執行下列動作：</span></p>
-<ul><li><p><span class="preview">任何Workfront套件和Planning Plus套件</span></p></li>
+<p>若要從全域記錄型別中刪除欄位，請執行下列動作：</p>
+<ul><li><p>任何Workfront套件和Planning Plus套件</p></li>
 或
-<li><p><span class="preview">任何工作流程及計畫Prime和Ultimate套件</span></p></li></ul>
+<li><p>任何工作流程及計畫Prime和Ultimate套件</p></li></ul>
 
 <p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
    </td> 
@@ -149,7 +149,7 @@ ht-degree: 1%
 
 <!-- this is not possible yet, since fields cannot be shared yet; maybe move this up a bit, in this bullet list: * When you delete a field, it is deleted from all records associated with the field.-->
 
-* <span class="preview">您無法從已新增至次要工作區的全域記錄刪除欄位。</span>
+* 您無法從已新增至次要工作區的全域記錄刪除欄位。
 
 ## 刪除欄位
 
@@ -184,4 +184,4 @@ ht-degree: 1%
    * 如果您刪除屬於所選記錄的欄位，則該欄位會遭到刪除，且無法再與任何記錄相關聯。 如果此欄位新增為其他記錄上的查閱欄位，這些欄位也會一併刪除。
    * 如果您刪除連線欄位，該欄位將會從您選取的記錄中刪除。 此外，也會刪除其原始記錄中的對應連線欄位。
    * 如果您刪除從連線記錄新增的查閱欄位，該欄位會從您選取的記錄型別中刪除，但會保留在其原始記錄型別中。
-   * <span class="preview">如果您從主要工作區的全域記錄型別中刪除欄位，則會從已新增該記錄型別的所有工作區中刪除該欄位。 您無法從全域記錄型別的次要工作區中刪除欄位。</span>
+   * 如果您從主要工作區中的全域記錄型別刪除欄位，則會從已新增該記錄型別的所有工作區中刪除該欄位。 您無法從全域記錄型別的次要工作區中刪除欄位。
