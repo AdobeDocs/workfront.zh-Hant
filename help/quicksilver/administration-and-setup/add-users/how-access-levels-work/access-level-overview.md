@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 091d343b5c36ab6bca09aecfc8cba248adcd11e3
 workflow-type: tm+mt
-source-wordcount: '1720'
+source-wordcount: '1749'
 ht-degree: 6%
 
 ---
@@ -117,7 +117,7 @@ Workfront有5個新的內建存取層級：
 * 檢視與工作相關聯的所有專案和更新
 * 核准專案、任務和問題
 * 檢視控制面板和報表
-* 追蹤任務和問題的時間並核準時程表
+* 追蹤專案、任務和問題的時間，並核準時程表
 * 建立和管理問題
 
 具有輕度存取層級的使用者：
@@ -125,6 +125,7 @@ Workfront有5個新的內建存取層級：
 * 可以指派工作專案，但無法完成它們。
 * 可在主功能表中存取請求和檔案。
 * 建立物件的能力有限 — 他們無法建立專案、投資組合、計畫或報告。
+* 啟用「編輯」存取權時，只能在專案層級記錄時間。 他們無法建立、編輯、刪除或共用專案。
 
 >[!NOTE]
 >
@@ -151,8 +152,8 @@ Workfront有5個新的內建存取層級：
   <tr> 
    <td>專案</td> 
    <td> </td> 
-   <td>✓</td> 
    <td> </td> 
+   <td>✓ （用於專案層級的記錄時間）</td> 
   </tr> 
   <tr> 
    <td>任務</td> 

@@ -7,16 +7,14 @@ author: Lisa
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 3ebff5f28d4142203c6ce5486ce40484d88f0a5d
+source-git-commit: a23708b2534330cf942c5f950c4bee1a90583ea7
 workflow-type: tm+mt
-source-wordcount: '4145'
+source-wordcount: '4139'
 ht-degree: 1%
 
 ---
 
 # 記錄時間
-
-{{highlighted-preview}}
 
 <!--Audited: 5/2025-->
 
@@ -42,8 +40,7 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td> 
-   <ul><li><p>在任務、問題、<span class="preview">專案</span>或時程表的一般時數上記錄小時數的輕度或更高</p></li>
-   <li><p>在專案上記錄時數的標準</p></li></ul>
+   <p>將專案、任務、問題或一般時數記錄到時程表上的小時數精簡或更高</p>
 
 <p>或： </p>
 
@@ -132,7 +129,7 @@ ht-degree: 1%
 
 1. （選擇性）展開篩選、檢視或群組下拉式功能表，以套用或自訂其中一個功能表，並檢視您想要的專案資訊。
 
-1. 在清單中選取一或多個專案，然後按一下[新增]。**&#x200B;**
+1. 在清單中選取一或多個專案，然後按一下[新增]。****
 
    如果您一次新增的專案少於50個，這些專案會新增到時程表中。 任務和問題會列在專案名稱下。
 
@@ -143,9 +140,9 @@ ht-degree: 1%
 
 1. （視條件而定）如果您一次新增50個或更多專案，會顯示一則確認訊息，顯示新增至時程表的專案數量。
 
-   按一下&#x200B;**全部新增**&#x200B;以新增所有專案
+   按一下&#x200B;**全部新增**以新增所有專案
 或
-按一下&#x200B;**取消**&#x200B;停止新增選取的專案，然後按一下&#x200B;**取消**&#x200B;關閉專案清單。
+按一下**取消**&#x200B;停止新增選取的專案，然後按一下&#x200B;**取消**&#x200B;關閉專案清單。
 
    任務和問題會列在專案名稱下。
 
@@ -390,7 +387,7 @@ ht-degree: 1%
 
 若要在專案、任務或問題的更新區段中記錄時間，您必須具備下列條件：
 
-* 正確的存取和許可權，如本文的[存取需求](#access-requirements)一節中所述。 <span class="preview">如果您的存取層級為輕量級，而且您正在記錄專案的時間，您也必須擁有專案的「貢獻」或更高許可權才能存取「記錄時數」。 如需有關授與專案許可權的詳細資訊，請參閱[共用專案](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-project.md)。</span>
+* 正確的存取和許可權，如本文的[存取需求](#access-requirements)一節中所述。 如果您的存取層級為輕量級，且您正在記錄專案的時間，您也必須擁有專案的「貢獻」或更高許可權以及記錄時數的存取權。 如需有關授與專案許可權的詳細資訊，請參閱[共用專案](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-project.md)。
 
 * 如果您想要直接將時間記錄到專案，您的Workfront管理員必須在系統區域的&#x200B;[!UICONTROL **時程表和時數**]> [!UICONTROL **偏好設定**]&#x200B;下直接啟用專案上的記錄時間。
 
@@ -436,7 +433,7 @@ ht-degree: 1%
 
 您必須具備下列所有條件：
 
-* 具有時程表和時數之系統管理存取權的標準或計畫授權，<span class="preview">或具有專案編輯存取權</span>的輕度授權。 如需授與時程表和時數之管理存取權的詳細資訊，請參閱[授與使用者對特定區域的管理存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)。 <span class="preview">對時程表和時數的系統管理存取權不適用於輕度授權。</span>
+* 具有時程表和時數管理存取權的標準或計畫授權，或具有專案編輯存取權的簡易授權。 如需授與時程表和時數之管理存取權的詳細資訊，請參閱[授與使用者對特定區域的管理存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)。 對時程表和時數的管理員存取不適用於輕度授權。
 * 貢獻或更高的許可權給存取記錄時數的專案。 如需有關授與專案許可權的詳細資訊，請參閱[在Adobe Workfront中共用專案](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)。
 * 如果您想要直接將時間記錄到專案，您的Workfront管理員必須在設定區域的&#x200B;**時程表和時數>偏好設定**&#x200B;區段中，直接啟用專案上的記錄時間設定。 如需允許使用者直接將時數記錄到專案的詳細資訊，請參閱[設定時程表和時數偏好設定](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)。
 
