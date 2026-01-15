@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: edc83693ef068e50aed06324f006cd8aa70ac019
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '532'
 ht-degree: 3%
 
 ---
 
 # 使用版面配置範本自訂物件標頭
-
-{{preview-fast-release-general}}
 
 身為Adobe Workfront管理員或群組管理員，您可以使用版面配置範本來設定使用者在開啟物件頁面時，在物件標題中看到的欄位。
 
@@ -33,16 +31,16 @@ ht-degree: 3%
 
 配置版面範本後，您必須將其指派給使用者，才能讓其他人看到您所做的變更。 如需將配置範本指派給使用者的詳細資訊，請參閱[將使用者指派給配置範本](../use-layout-templates/assign-users-to-layout-template.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以查看此文章中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront 套件</td> 
+   <td>Adobe Workfront 封裝</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -97,18 +95,9 @@ ht-degree: 3%
 
 1. （選用）以不同順序拖放欄位。
 
-1. <span class="preview">在預覽環境中：繼續自訂版面範本。 您可以隨時按一下&#x200B;**套用**&#x200B;以儲存進度。</span>
-
-   <span class="preview">或</span>
-
-   <span class="preview">如果您已完成自訂，請按一下&#x200B;**儲存並關閉**。</span>
-
-1. 在生產環境中：繼續自訂版面範本。
+1. 繼續自訂版面範本。 您可以隨時按一下&#x200B;**套用**&#x200B;以儲存進度。
 
    或
 
-   如果您已完成自訂，請按一下&#x200B;**儲存**。
+   如果您已完成自訂，請按一下&#x200B;**儲存並關閉**。
 
-   >[!TIP]
-   >
-   >您可以隨時按一下[儲存]來儲存進度，然後再繼續修改範本。**&#x200B;**

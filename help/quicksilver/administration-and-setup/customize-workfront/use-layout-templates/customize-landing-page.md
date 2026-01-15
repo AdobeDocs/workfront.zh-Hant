@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 57a1046a-434a-4453-a101-c5f0a16e079e
-source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 8%
+source-wordcount: '395'
+ht-degree: 9%
 
 ---
 
 # 使用版面配置範本自訂登入頁面
-
-{{preview-fast-release-general}}
 
 身為Adobe Workfront管理員，您可以使用版面配置範本來指定使用者每次登入Workfront時想要看到的區域。
 
@@ -36,16 +34,16 @@ ht-degree: 8%
 >
 >當請求設定為登入頁面時，指派給版面配置範本的貢獻者或請求者使用者會改為檢視首頁作為登入頁面。 除了針對投稿人或請求者使用者的版面配置範本請求外，建議選擇登陸頁面。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以查看此文章中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront 套件</td> 
+   <td>Adobe Workfront 封裝</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -85,7 +83,7 @@ ht-degree: 8%
    * 報告
    * 請求
    * 資源分配
-   * 方案
+   * 情境
    * 團隊
    * 範本
    * 時程表
@@ -103,18 +101,8 @@ ht-degree: 8%
    >
    >* 如需Workfront Planning的相關資訊，請參閱[開始使用Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)。
 
-1. <span class="preview">在預覽環境中：繼續自訂版面範本。 您可以隨時按一下&#x200B;**套用**&#x200B;以儲存進度。</span>
-
-   <span class="preview">或</span>
-
-   <span class="preview">如果您已完成自訂，請按一下&#x200B;**儲存並關閉**。</span>
-
-1. 在生產環境中：繼續自訂版面範本。
+1. 繼續自訂版面範本。 您可以隨時按一下&#x200B;**套用**&#x200B;以儲存進度。
 
    或
 
-   如果您已完成自訂，請按一下&#x200B;**儲存**。
-
-   >[!TIP]
-   >
-   >您可以隨時按一下[儲存]來儲存進度，然後再繼續修改範本。**&#x200B;**
+   如果您已完成自訂，請按一下&#x200B;**儲存並關閉**。

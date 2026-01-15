@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 4fdfa1107034a48e149a5414475fbc0d7ce97564
+source-git-commit: 0f96a4d941eb4595ac60302b579cff31461272a7
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '659'
 ht-degree: 6%
 
 ---
 
 # 使用版面配置範本自訂主功能表
-
-{{preview-fast-release-general}}
 
 <!--Audited: 01/2024-->
 
@@ -27,7 +25,7 @@ ht-degree: 6%
 >
 >使用者看到的主要功能表選項取決於其授權型別以及在其存取層級中設定的設定。 某些將使用此配置範本的使用者可能不會看見您在這裡選擇的所有選項。 如需詳細資訊，請參閱[存取層級和許可權如何搭配運作](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)以及[每個物件型別可設定的功能存取權](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)。
 >
->如果您的組織已上線Adobe Workfront Unified Experience，您可能會在主要功能表中看到不同的選項。 如需詳細資訊，請參閱[Workfront的Adobe Unified Experience &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
+>如果您的組織已上線Adobe Workfront Unified Experience，您可能會在主要功能表中看到不同的選項。 如需詳細資訊，請參閱[Workfront的Adobe Unified Experience ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 
 如需有關建立版面配置範本的資訊，請參閱[建立和管理版面配置範本](../use-layout-templates/create-and-manage-layout-templates.md)。
 
@@ -78,8 +76,7 @@ ht-degree: 6%
      >
      >依預設，主功能表中的「首頁」圖示會顯示「我的更新」區域給檢閱授權使用者（在目前的授權計畫中），除非他們有一個與其設定檔相關聯的版面範本，其中除了「首頁」區域外，還包括主功能表中的「我的更新」區域。
 
-
-   * <span class="preview">優先順序</span>
+   * 優先順序
    * 專案組合
    * 計劃
    * 專案
@@ -135,20 +132,10 @@ ht-degree: 6%
 
    如果您要捨棄變更，也可以隨時按一下&#x200B;**取消**。
 
-1. <span class="preview">在預覽環境中：繼續自訂版面範本。 您可以隨時按一下&#x200B;**套用**&#x200B;以儲存進度。</span>
-
-   <span class="preview">或</span>
-
-   <span class="preview">如果您已完成自訂，請按一下&#x200B;**儲存並關閉**。</span>
-
-1. 在生產環境中：繼續自訂版面範本。
+1. 繼續自訂版面範本。 您可以隨時按一下&#x200B;**套用**&#x200B;以儲存進度。
 
    或
 
-   如果您已完成自訂，請按一下&#x200B;**儲存**。
-
-   >[!TIP]
-   >
-   >您可以隨時按一下[儲存]來儲存進度，然後再繼續修改範本。**&#x200B;**
+   如果您已完成自訂，請按一下&#x200B;**儲存並關閉**。
 
 如需配置範本的詳細資訊，請參閱[建立和管理配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)。

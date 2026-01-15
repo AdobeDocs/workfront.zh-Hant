@@ -8,18 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '806'
-ht-degree: 2%
+source-wordcount: '767'
+ht-degree: 4%
 
 ---
 
 # 使用版面配置範本自訂摘要面板
 
 <!--Audited: 11/2024-->
-
-{{preview-fast-release-general}}
 
 您可以使用版面配置範本來設定使用者按一下任務或問題時可在摘要面板中看到的內容。 您使用下列步驟進行的每個設定都會影響「摘要」面板。 這些自訂不適用於「檔案摘要」面板。
 
@@ -38,16 +36,16 @@ ht-degree: 2%
 
 配置版面範本後，您必須將其指派給使用者，才能讓其他人看到您所做的變更。 如需將配置範本指派給使用者的詳細資訊，請參閱[將使用者指派給配置範本](../use-layout-templates/assign-users-to-layout-template.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
+   <td>Adobe Workfront 封裝</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -168,20 +166,10 @@ ht-degree: 2%
     </tbody> 
    </table>
 
-1. <span class="preview">在預覽環境中：繼續自訂版面範本。 您可以隨時按一下&#x200B;**套用**&#x200B;以儲存進度。</span>
-
-   <span class="preview">或</span>
-
-   <span class="preview">如果您已完成自訂，請按一下&#x200B;**儲存並關閉**。</span>
-
-1. 在生產環境中：繼續自訂版面範本。
+1. 繼續自訂版面範本。 您可以隨時按一下&#x200B;**套用**&#x200B;以儲存進度。
 
    或
 
-   如果您已完成自訂，請按一下&#x200B;**儲存**。
-
-   >[!TIP]
-   >
-   >您可以隨時按一下[儲存]來儲存進度，然後再繼續修改範本。**&#x200B;**
+   如果您已完成自訂，請按一下&#x200B;**儲存並關閉**。
 
 如需配置範本的詳細資訊，請參閱[建立和管理配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)。

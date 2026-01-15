@@ -8,16 +8,14 @@ author: Lisa and Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 1%
+source-wordcount: '837'
+ht-degree: 3%
 
 ---
 
 # 使用版面範本自訂首頁
-
-{{preview-fast-release-general}}
 
 您可以使用版面配置範本來設定使用者第一次開啟「首頁」時看到的內容。
 
@@ -41,16 +39,16 @@ ht-degree: 1%
 
 配置版面範本後，您必須將其指派給使用者，才能讓其他人看到您所做的變更。 如需將配置範本指派給使用者的詳細資訊，請參閱[將使用者指派給配置範本](../use-layout-templates/assign-users-to-layout-template.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
+   <td>Adobe Workfront 封裝</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -136,11 +134,11 @@ ht-degree: 1%
    >
    >* 「篩選」、「欄」和「群組」選項連結到「版面配置範本」中的清單自訂選項。 此處所做的變更也將套用至這些設定。
    >* 使用者必須至少具有對檢視的建立存取權，管理員資料行設定才能正確套用至其首頁。
-   ></p>
-   >   <li><p>將游標移至選項上，然後按一下<b>設定為預設</b>，以設定Widget的預設篩選或群組。 目前的預設在其右側顯示藍色<b>預設</b>徽章。</p></li>
-   >   <li><p>按一下每個清單底部的加號按鈕，將現有的篩選、欄或群組新增至可用選項清單，即可將選項新增至該清單。 請注意，只有現有的篩選器、欄位（用於欄）或群組可以這種方式新增。</p></li>
-   >   </ul>
-   >   <p>
+   </p>
+      <li><p>將游標移至選項上，然後按一下<b>設定為預設</b>，以設定Widget的預設篩選或群組。 目前的預設在其右側顯示藍色<b>預設</b>徽章。</p></li>
+      <li><p>按一下每個清單底部的加號按鈕，將現有的篩選、欄或群組新增至可用選項清單，即可將選項新增至該清單。 請注意，只有現有的篩選器、欄位（用於欄）或群組可以這種方式新增。</p></li>
+      </ul>
+      <p>
 
    >[!NOTE]
    >
@@ -152,18 +150,12 @@ ht-degree: 1%
       </tbody> 
       </table>
 
-1. <span class="preview">在預覽環境中：繼續自訂版面範本。 您可以隨時按一下&#x200B;**套用**&#x200B;以儲存進度。</span>
-
-   <span class="preview">或</span>
-
-   <span class="preview">如果您已完成自訂，請按一下&#x200B;**儲存並關閉**。</span>
-
-1. 在生產環境中：繼續自訂版面範本。
+1. 繼續自訂版面範本。 您可以隨時按一下&#x200B;**套用**&#x200B;以儲存進度。
 
    或
 
-   如果您已完成自訂，請按一下左下角的&#x200B;**儲存**。
+   如果您已完成自訂，請按一下&#x200B;**儲存並關閉**。
 
    >[!IMPORTANT]
    >
-   >使用者必須重新整理首頁，才能檢視版面配置範本中的自訂專案。
+   >使用者必須重新整理首頁，才能檢視版面配置範本的自訂專案。

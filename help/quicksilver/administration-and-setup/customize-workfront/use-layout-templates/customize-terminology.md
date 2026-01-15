@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
-source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 2%
+source-wordcount: '638'
+ht-degree: 5%
 
 ---
 
 # 使用版面配置範本自訂使用者介面術語
-
-{{preview-fast-release-general}}
 
 身為Adobe Workfront管理員，您可以使用版面配置範本來變更某些物件的標籤，這些標籤會顯示在Workfront中，以符合組織中使用的辭彙。
 
@@ -45,16 +43,16 @@ ht-degree: 2%
 
 配置版面範本後，您必須將其指派給使用者，才能讓其他人看到您所做的變更。 如需將配置範本指派給使用者的詳細資訊，請參閱[將使用者指派給配置範本](../use-layout-templates/assign-users-to-layout-template.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
+   <td>Adobe Workfront 封裝</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -99,7 +97,7 @@ ht-degree: 2%
        <tr>
         <td role="rowheader"><p>Workfront物件</p></td>
         <td>
-          <p>產品組合</p>
+          <p>專案組合</p>
           <p>方案</p>
           <p>專案</p>
           <p>任務</p>
@@ -139,17 +137,11 @@ ht-degree: 2%
    >
    >在您按一下「完成」（甚至在儲存版面配置範本後）後，您隨時可以返回「設定術語」設定，然後按一下任何自訂術語旁的「重設」(Reset)，以將其恢復為預設狀態。
 
-1. <span class="preview">在預覽環境中：繼續自訂版面範本。 您可以隨時按一下&#x200B;**套用**&#x200B;以儲存進度。</span>
-
-   <span class="preview">或</span>
-
-   <span class="preview">如果您已完成自訂，請按一下&#x200B;**儲存並關閉**。</span>
-
-1. 在生產環境中：繼續自訂版面範本。
+1. 繼續自訂版面範本。 您可以隨時按一下&#x200B;**套用**&#x200B;以儲存進度。
 
    或
 
-   如果您已完成自訂，請按一下&#x200B;**儲存**。
+   如果您已完成自訂，請按一下&#x200B;**儲存並關閉**。
 
 1. 若要檢視術語變更：
 

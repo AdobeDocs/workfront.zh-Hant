@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
-source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 0%
+source-wordcount: '859'
+ht-degree: 2%
 
 ---
 
 # 將使用者指派至版面配置範本
-
-{{preview-fast-release-general}}
 
 您可以將已建立的版面配置範本指派給任何需要使用的使用者、工作角色、團隊或群組。
 
@@ -31,16 +29,16 @@ ht-degree: 0%
 
 如需有關群組配置範本的資訊，請參閱[建立和修改群組的配置範本](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
+   <td>Adobe Workfront 封裝</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -80,7 +78,7 @@ ht-degree: 0%
 
    您一次最多可以指派100個使用者。
 
-1. 按一下&#x200B;**完成**，然後按一下左下角的&#x200B;**儲存**&#x200B;或&#x200B;<span class="preview">**儲存並關閉**</span>。
+1. 按一下&#x200B;**完成**，然後按一下左下角的&#x200B;**儲存並關閉**。
 
    此步驟會完成建立及指派配置圖範本的程式。
 

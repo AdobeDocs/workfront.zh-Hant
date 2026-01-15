@@ -8,22 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: e5416fab4f4ad1f2c31edf962554ddd6a4c2f1e5
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 0%
+source-wordcount: '575'
+ht-degree: 3%
 
 ---
 
 # 使用版面配置範本自訂詳細資料檢視
 
-{{preview-fast-release-general}}
-
 作為Adobe Workfront管理員，您可以使用版面配置範本來決定當使用者在檢視任務、問題、檔案、方案或投資組合時，按一下左側面板中的詳細資訊圖示![詳細資訊圖示](assets/project-details-icon.png)時會出現哪些資訊。
-
-<!--
-or billing record
--->
 
 您也可以變更此資訊顯示的順序。 例如，對於您的使用者所看到的所有任務，您可以針對您的使用者所看到的所有任務，將自訂Forms資訊移至詳細資訊檢視的頂端。
 
@@ -65,16 +59,16 @@ or billing record
 
 如需有關群組配置範本的資訊，請參閱[建立和修改群組的配置範本](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
+   <td>Adobe Workfront 封裝</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -108,24 +102,11 @@ or billing record
 
      預設會啟用所有欄位。 您可以選取或清除區域中的&#x200B;**全選**&#x200B;核取方塊，以顯示或隱藏該區域中的所有欄位。
 
-   <span class="preview">預覽環境中的範例影像：</span>
-   ![配置範本中的詳細資料檢視](assets/layout-template-details-view-updated-save-buttons.png)
+     ![配置範本中的詳細資料檢視](assets/layout-template-details-view-updated-save-buttons.png)
 
-   生產環境中的影像範例：
-   ![配置範本中的詳細資料檢視](assets/layout-template-details-view.png)
-
-1. <span class="preview">在預覽環境中：繼續自訂版面範本。 您可以隨時按一下&#x200B;**套用**&#x200B;以儲存進度。</span>
-
-   <span class="preview">或</span>
-
-   <span class="preview">如果您已完成自訂，請按一下&#x200B;**儲存並關閉**。</span>
-
-1. 在生產環境中：繼續自訂版面範本。
+1. 繼續自訂版面範本。 您可以隨時按一下&#x200B;**套用**&#x200B;以儲存進度。
 
    或
 
-   如果您已完成自訂，請按一下&#x200B;**儲存**。
+   如果您已完成自訂，請按一下&#x200B;**儲存並關閉**。
 
-   >[!TIP]
-   >
-   >您可以隨時按一下[儲存]來儲存進度，然後再繼續修改範本。**&#x200B;**
