@@ -156,7 +156,7 @@ Workfront API版本21已於2025年10月23日發行。 針對API 21版，我們�
 >
 > 對於多選欄位，事件訂閱版本2一律會以陣列形式傳送。 如果選取多個值，第1版會傳送陣列。 如果只選取一個值，則會傳送字串。
 
-如需新增和更新的詳細資訊，請參閱[ API 21](/help/quicksilver/wf-api/api/new-api-version-21.md)版的新增功能。
+如需新增和更新的詳細資訊，請參閱[&#x200B; API 21](/help/quicksilver/wf-api/api/new-api-version-21.md)版的新增功能。
 
 如需API版本的資訊，請參閱[API版本設定與支援排程](/help/quicksilver/wf-api/api/api-version-support-schedule.md)。
 
