@@ -5,9 +5,9 @@ title: 在請求區域中建立和管理檢視
 description: 如果您使用新的請求體驗，您可以建立和儲存請求區域的檢視。
 author: Becky
 feature: Work Management
-source-git-commit: d8e5e6d313eb39c9ac26e7cb60113beac5637890
+source-git-commit: 9e7b94201705ce96dbc38fc6d9246461e4d4d7ea
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '693'
 ht-degree: 3%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 3%
 
    ![新檢視](assets/create-new-view.png)
 
-1. 輸入新檢視的名稱，然後按一下[建立]。**&#x200B;**
+1. 輸入新檢視的名稱，然後按一下[建立]。****
 1. 繼續[在要求區域](#edit-a-view-in-the-requests-area)編輯檢視。
 
 ## 在請求區域中編輯檢視
@@ -93,15 +93,7 @@ ht-degree: 3%
    >您目前無法在生產環境中新增欄。
 1. （選擇性）按一下&#x200B;**欄**，然後隱藏、顯示或重新排列要求清單中的欄。
 
-   ![資料行方塊](assets/columns-editing-box-in-requests-planning-tab.png)
-
-   >[!TIP]
-   >
-   >您目前無法在生產環境中新增更多欄。
-
-1. （選擇性）按一下&#x200B;**篩選器**，開始新增條件以決定您要在Planning標籤中檢視哪些請求。
-
-   ![在Planning要求索引標籤中編輯篩選器](assets/filters-editing-box-in-requests-planning-tab.png)
+1. （選擇性）按一下&#x200B;**篩選器**，然後開始為您要檢視的請求新增條件。
 
    您可以依下列欄位進行篩選：
 
@@ -114,7 +106,7 @@ ht-degree: 3%
 
    您也可以依已新增至檢視的任何自訂欄位進行篩選。
 
-   您可以有多個&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;加入的篩選器。
+   您可以有多個&#x200B;**And**&#x200B;或&#x200B;**Or**加入的篩選器。
 當您新增篩選條件時，要求清單會自動篩選。
 
 

@@ -8,9 +8,9 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
+source-git-commit: 9e7b94201705ce96dbc38fc6d9246461e4d4d7ea
 workflow-type: tm+mt
-source-wordcount: '1544'
+source-wordcount: '1440'
 ht-degree: 2%
 
 ---
@@ -19,21 +19,14 @@ ht-degree: 2%
 
 您可以檢視您或其他人提交的請求，或檢視您已開始但從未完成提交的請求。 您可以在Adobe Workfront的下列區域中找到這些請求：
 
-* Workfront中「請求」區域的&#x200B;**Workfront**&#x200B;標籤：檢視提交至Workfront請求佇列的請求，其位於下列區段中：
-   * **已提交區段**：您或其他人已提交且您至少有權存取檢視的所有要求。
-   * **草稿區段** ：所有您已開始但您未完成且您未提交的請求。 如需草稿要求的詳細資訊，請參閱[建立並提交Adobe Workfront要求](../../../manage-work/requests/create-requests/create-submit-requests.md)。
+* Workfront的要求區域
+* 首頁中的我的請求Widget
 
   >[!NOTE]
   >
   >* 您只能檢視自己的草稿要求。
   >* 在新的請求體驗中，提交的請求和草稿可在相同清單中找到。
   >* 在舊版體驗中建立的草稿不會出現在新的請求體驗中。
-
-* Workfront中請求區域的&#x200B;**規劃**&#x200B;標籤：檢視提交至Workfront規劃請求表單的請求。 貴組織必須購買Workfront Planning套件。 如需詳細資訊，請參閱下列文章：
-
-   * [在Adobe Workfront Planning中建立和管理請求表單](/help/quicksilver/planning/requests/create-request-form.md)
-   * [提交Adobe Workfront Planning請求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)
-
 
 ## 存取權要求
 
@@ -107,7 +100,7 @@ ht-degree: 2%
    * **狀態**：要求的狀態。
    * **輸入者**：新增請求的使用者名稱。 如果要求是由Workfront外部的人員加入，則&#x200B;**輸入者**&#x200B;欄位會顯示`N/A`。
 
-   您可以有多個&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;加入的篩選器。
+   您可以有多個&#x200B;**And**&#x200B;或&#x200B;**Or**加入的篩選器。
 當您新增篩選條件時，要求清單會自動篩選。
 1. （選用）使用檢視來著重於您要顯示的請求。
 
