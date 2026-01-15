@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: e95701bdce2388f7f2b249b1fbf5b27d0ded08af
+source-git-commit: 6dce5e15a41587cd9febf82ffc0a62d3b7e121d1
 workflow-type: tm+mt
 source-wordcount: '2506'
 ht-degree: 1%
@@ -16,8 +16,6 @@ ht-degree: 1%
 ---
 
 # 新增計算欄位至表單
-
-{{preview-fast-release-general}}
 
 <!-- Audited: 5/2025 -->
 
@@ -95,10 +93,6 @@ ht-degree: 1%
 
 1. 在左側面板中，按一下&#x200B;**自訂Forms**，然後按&#x200B;**Forms**。
 
-   <!-- >[!TIP]
-    >
-    >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
-
 1. 按一下&#x200B;**新增自訂表格**。
 
 1. 在&#x200B;**新增自訂表單**&#x200B;對話方塊中，選取您要附加自訂表單的物件型別，然後按一下&#x200B;**繼續**。
@@ -108,9 +102,9 @@ ht-degree: 1%
 
 1. 使用搜尋方塊或展開&#x200B;**計算**&#x200B;區段以找出所需的計算欄位，然後拖曳您要顯示在自訂表單中的欄位。
 
-1. <span class="preview"> （條件式）按一下&#x200B;**檢查衝突**&#x200B;以檢閱所有可能受變更此計算欄位上的公式影響的物件。</span>
+1. （視條件而定）按一下&#x200B;**檢查衝突**&#x200B;以檢閱所有可能受此計算欄位公式影響的物件。
 
-   <span class="preview">若將包含相同計算欄位的兩個或多個表單附加至物件，則所有表單上的公式必須相同。 如果變更可能導致衝突，則不允許編輯公式。</span>
+   如果將包含相同計算欄位的兩個或更多表單附加至物件，則所有表單上的公式必須相同。 如果變更可能導致衝突，則不允許編輯公式。
 
 1. （可選）重複上一步驟以新增任何其他欄位。
 
@@ -121,7 +115,7 @@ ht-degree: 1%
    >
    >複雜表單的範例包括含有階層式引數的表單、計算的自訂資料欄位，以及單一欄位中的多個值選項。
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -138,10 +132,6 @@ ht-degree: 1%
 1. 在左側面板中，按一下&#x200B;**自訂Forms**，然後按&#x200B;**Forms**。
 
 1. 按一下&#x200B;**新增自訂表格**。
-
-   <!-- >[!TIP]
-    >
-    >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
 
 1. 在&#x200B;**新增自訂表單**&#x200B;對話方塊中，選取您要附加自訂表單的物件型別，然後按一下&#x200B;**繼續**。
 
@@ -176,8 +166,8 @@ ht-degree: 1%
       <p><strong>注意</strong>：使用<strong>貨幣</strong>格式的計算欄位不應該包含引號。 （例如，使用800.00而非「800.00」。） 使用引號可能會由於貨幣型別的語言格式細微差別而造成非預期的後果。</p></td>
      </tr> 
      <tr>
-      <td><span class="preview">作用中</span></td>
-      <td><span class="preview"><p>此選項預設為開啟。<p><p>將欄位設為「非使用中」時，該欄位會從報表、篩選器和檢視中排除，並且無法再用於自訂表單欄位程式庫。</p></span></td>
+      <td>作用中</td>
+      <td><p>此選項預設為開啟。<p><p>將欄位設為「非使用中」時，該欄位會從報表、篩選器和檢視中排除，並且無法再用於自訂表單欄位程式庫。</p></td>
      </tr>
     </tbody> 
    </table>
@@ -288,7 +278,7 @@ ht-degree: 1%
            >
            ><div>在附加到物件的自訂表單中，計算自訂欄位中的日期和時間陳述式會由世界協調時間(UTC)計算和儲存，而不是由針對您的組織執行個體和您的使用者設定檔設定的時區設定計算和儲存。 自訂表單中的計算是根據每位使用者的個別時區產生。</div>
 
-      +++
+        +++
 
    1. 按一下大型文字方塊，然後按一下&#x200B;**運算式**&#x200B;和&#x200B;**欄位**，這些欄位可用來新增至您的計算。
 
@@ -339,7 +329,7 @@ ht-degree: 1%
     </tbody> 
    </table>
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 

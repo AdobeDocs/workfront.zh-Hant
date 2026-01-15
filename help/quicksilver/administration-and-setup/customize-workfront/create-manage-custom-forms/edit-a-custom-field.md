@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: 2f7b5c9d3a934708f3128ed9e4efa76b12619913
+source-git-commit: 45bc1820e4f6416e3d47139bbcf1a2156c5900dc
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 4%
@@ -17,13 +17,11 @@ ht-degree: 4%
 
 # 新增或編輯自訂欄位、分割槽符號或Widget
 
-{{preview-fast-release-general}}
-
 您可以直接從Workfront中的欄位區域新增新的自訂欄位或Widget，而無需開啟自訂表單來建立欄位。
 
 您也可以編輯自訂表單中使用的自訂欄位、分割槽符號或Widget的屬性。 其中包括專案的標籤、名稱、指示等。
 
-<span class="preview">將自訂欄位設定為非使用中會將其從報表、篩選器和檢視中排除，並且該欄位在自訂表單欄位庫中不再可用。 依預設，所有新欄位都會設為「作用中」。</span>
+將自訂欄位設定為非使用中會將其從報表、篩選器和檢視中排除，並且此欄位在自訂表單欄位庫中不再可用。 依預設，所有新欄位都會設為「作用中」。
 
 >[!NOTE]
 >
@@ -85,5 +83,5 @@ ht-degree: 4%
 
    如需詳細資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
-1. 完成時，按一下[編輯]。**&#x200B;**
+1. 完成時，按一下[編輯]。****
 

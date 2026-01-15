@@ -7,31 +7,29 @@ description: 將表單附加到物件後，您可以編輯自訂表單上的資�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+source-git-commit: 6dce5e15a41587cd9febf82ffc0a62d3b7e121d1
 workflow-type: tm+mt
 source-wordcount: '1207'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
 # 編輯自訂表單欄位中的資訊
 
-{{preview-fast-release-general}}
-
 <!--Audited: 10/2025-->
 
 將表單附加到物件後，您可以編輯自訂表單上的資訊。 如需將自訂表單新增至物件的相關資訊，請參閱[將自訂表單新增至物件](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>Adobe Workfront套件</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront 封裝</p> </td> 
    <td>任何</td> 
   </tr> 
   <tr> 
@@ -122,7 +120,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   ><span class="preview">允許多重選取的欄位可能會限制您可以選取的選項數目。 核取方塊和多選下拉式清單限製為5000個選項。</span>
+   >允許多重選擇的欄位可能會限制您可以選擇的選項數量。 核取方塊和多選下拉選單限製為5000個選項。
 
    如需有關所有欄位型別的資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
@@ -175,7 +173,7 @@ ht-degree: 1%
    * 專案
    * 任務
    * 問題
-   * 產品組合
+   * 專案組合
    * 方案
    * 文件
 
@@ -204,7 +202,7 @@ ht-degree: 1%
 
 1. 選取要更新其計算自訂欄位的物件。
 1. 按一下&#x200B;**編輯圖示**。
-1. 按一下左側功能表中的[自訂Forms]&#x200B;**&#x200B;**，然後選取[重新計算自訂運算式]&#x200B;**&#x200B;**。
+1. 按一下左側功能表中的[自訂Forms]****，然後選取[重新計算自訂運算式]****。
 1. 按一下&#x200B;**儲存**&#x200B;或&#x200B;**儲存變更**。
 
    Workfront會為所有選取的物件計算所有自訂欄位。
