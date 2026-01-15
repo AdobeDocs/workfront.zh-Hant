@@ -4,9 +4,9 @@ description: 2026年第一季要求增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 3fe7e6f530e15ebdb4a658de89b77c1bf39671fe
+source-git-commit: d8f563bdbde76ae86b5e130a07d2dc66c8d2e034
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '900'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 以前，此欄只包含物件的名稱，不包含其連結。
 
-如需有關尋找這些連結的資訊，請參閱有關新增欄的說明，請參閱：
+如需尋找這些連結的詳細資訊，請參閱：
 
 * [找出已提交的請求](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md)
 * [使用我的請求Widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)

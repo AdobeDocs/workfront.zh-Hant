@@ -8,16 +8,14 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 3fe7e6f530e15ebdb4a658de89b77c1bf39671fe
+source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1544'
 ht-degree: 2%
 
 ---
 
 # 檢視已提交的請求
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽Sandbox」環境中使用。</span>
 
 您可以檢視您或其他人提交的請求，或檢視您已開始但從未完成提交的請求。 您可以在Adobe Workfront的下列區域中找到這些請求：
 
@@ -28,8 +26,8 @@ ht-degree: 2%
   >[!NOTE]
   >
   >* 您只能檢視自己的草稿要求。
-  >* <span class="preview">在新請求體驗中，提交的請求和草稿可在相同清單中找到。</span>
-  >* <span class="preview">在舊版體驗中建立的草稿未出現在新的請求體驗中。</span>
+  >* 在新的請求體驗中，提交的請求和草稿可在相同清單中找到。
+  >* 在舊版體驗中建立的草稿不會出現在新的請求體驗中。
 
 * Workfront中請求區域的&#x200B;**規劃**&#x200B;標籤：檢視提交至Workfront規劃請求表單的請求。 貴組織必須購買Workfront Planning套件。 如需詳細資訊，請參閱下列文章：
 
@@ -83,7 +81,11 @@ ht-degree: 2%
 
 ### 在新的請求體驗中檢視已提交的請求
 
-您可以在[要求]區域中<span class="preview">檢視已提交的要求，其中包含Planning要求所建立之物件的連結。</span>
+您可以在「請求」區域中檢視已提交的請求，其中包含至Planning請求所建立之物件的連結。
+
+>[!NOTE]
+>
+>建立物件的連結僅適用於Planning請求的新請求體驗，當請求本身建立了物件時。 如果Workfront請求轉換為專案或其他物件，則指向該轉換物件的連結在新請求體驗的請求清單中無法使用。
 
 若要檢視您或其他使用者在新請求體驗中提交的請求：
 
@@ -105,7 +107,7 @@ ht-degree: 2%
    * **狀態**：要求的狀態。
    * **輸入者**：新增請求的使用者名稱。 如果要求是由Workfront外部的人員加入，則&#x200B;**輸入者**&#x200B;欄位會顯示`N/A`。
 
-   您可以有多個&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;加入的篩選器。
+   您可以有多個&#x200B;**And**&#x200B;或&#x200B;**Or**加入的篩選器。
 當您新增篩選條件時，要求清單會自動篩選。
 1. （選用）使用檢視來著重於您要顯示的請求。
 

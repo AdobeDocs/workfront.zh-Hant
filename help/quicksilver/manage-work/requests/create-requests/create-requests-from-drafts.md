@@ -6,16 +6,14 @@ description: 除了使用Workfront在您輸入新請求時向您建議的可用�
 author: Becky
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 319c45bc6617269f358af1e7b5f6132a8694710b
+source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '814'
 ht-degree: 3%
 
 ---
 
 # 從草稿建立請求
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽Sandbox」環境中使用。</span>
 
 除了使用Workfront在您輸入新請求時向您建議的可用草稿之外，您還可以從「草稿」區段存取草稿請求並從那裡完成提交。
 
@@ -64,15 +62,10 @@ ht-degree: 3%
 
 從草稿建立請求的程式在新的請求體驗和舊版體驗之間有所不同。
 
-* <span class="preview">[從新請求體驗中的草稿建立請求](#create-requests-from-drafts-in-the-new-requesting-experience)</span>
+* [從新請求體驗中的草稿建立請求](#create-requests-from-drafts-in-the-new-requesting-experience)
 * [從舊版請求體驗中的草稿建立請求](#create-requests-from-drafts-in-the-legacy-requesting-experience)
 
-<div class="preview">
-
 ### 從新請求體驗中的草稿建立請求
-
-
-
 
 1. 開啟草稿。
 
@@ -98,8 +91,6 @@ ht-degree: 3%
 1. 完成要求的資訊後，請按一下&#x200B;**提交**。
 
    當您提交請求時，草稿會被刪除且無法還原。
-
-</div>
 
 ### 從舊版請求體驗中的草稿建立請求
 

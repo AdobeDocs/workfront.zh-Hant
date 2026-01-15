@@ -6,16 +6,14 @@ description: 計畫工作在Adobe Workfront中以專案和任務表示。 不過
 author: Becky
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 684f7fc62fe341a59b1b7f7ae6c7118a5e511513
+source-git-commit: 2b4c13babecd3675f82699282c3dd42191c73df1
 workflow-type: tm+mt
-source-wordcount: '2546'
+source-wordcount: '2532'
 ht-degree: 2%
 
 ---
 
 # 建立及提交請求
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽Sandbox」環境中使用。</span>
 
 <!--Audited: 12/2023-->
 
@@ -109,7 +107,10 @@ Workfront管理員必須建立「請求佇列」的下列元件：
 
 當您在Workfront網頁應用程式中建立請求時，Workfront會先將請求儲存為草稿，然後再提交。 當您選取請求佇列並開始輸入資訊時，Workfront會立即建立草稿。
 
-您可以繼續提交請求，也可以儘可能填寫可用資訊，並離開請求以稍後完成。 Workfront會將您啟動的草擬請求儲存在「草稿」資料夾<span class="preview">或請求清單中。</span>
+您可以繼續提交請求，也可以儘可能填寫可用資訊，並離開請求以稍後完成。 Workfront會儲存您啟動的草擬請求。 您可以在下列位置找到它們：
+
+* 新的請求體驗：請求清單
+* 舊版請求體驗：「草稿」資料夾
 
 >[!IMPORTANT]
 >
@@ -145,7 +146,7 @@ Workfront管理員必須建立「請求佇列」的下列元件：
    >有關新的請求體驗，請考慮以下事項：
    >* 此清單包含Workfront請求佇列和Workfront Planning請求表單。
    >* 您可以依物件型別篩選清單。
-   >* <span class="preview">在新的請求體驗中，在與已提交請求相同的清單中找到草稿</span>。
+   >* 在新的請求體驗中，可在與已提交請求相同的清單中找到草稿。
 
 1. （視條件而定）如果您切換至新體驗，請選取主題群組和佇列主題，並繼續更新表單。
 

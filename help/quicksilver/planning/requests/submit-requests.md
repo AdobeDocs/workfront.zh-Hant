@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
 workflow-type: tm+mt
-source-wordcount: '1875'
+source-wordcount: '1815'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 1%
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 <!--take Preview and Prod references out when releasing to Prod all-->
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -119,8 +119,8 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
 
 {{step1-to-requests}}
 
-1. 啟用熒幕右上角的&#x200B;**切換至新的體驗**&#x200B;設定。
-啟用此設定可讓Workfront Planning請求表單出現在Workfront的&#x200B;**請求**&#x200B;區域中。
+1. 啟用熒幕右上角的&#x200B;**切換至新的體驗**設定。
+啟用此設定可讓Workfront Planning請求表單出現在Workfront的**請求**&#x200B;區域中。
 
    >[!TIP]
    >
@@ -175,7 +175,7 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
       * **狀態**：要求的狀態。
       * **輸入者**：新增請求的使用者名稱。 如果要求是由Workfront外部的人員加入，則&#x200B;**輸入者**&#x200B;欄位會顯示`N/A`。
 
-        您可以有多個&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;加入的篩選器。
+        您可以有多個&#x200B;**And**&#x200B;或&#x200B;**Or**加入的篩選器。
 當您新增篩選條件時，要求清單會自動篩選。
 
    * 按一下&#x200B;**欄**&#x200B;並隱藏、顯示或重新排列請求清單中的欄。
@@ -272,8 +272,6 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
 
    記錄型別頁面會在Workfront Planning中開啟。
 
-<div class="preview">
-
 ## 複製現有請求以建立請求
 
 您可以在Workfront中複製請求清單中的請求，然後編輯詳細資料並將其作為新請求提交。
@@ -290,6 +288,5 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別並
 
 如需指示，請參閱[從草稿建立請求](/help/quicksilver/manage-work/requests/create-requests/create-requests-from-drafts.md)。
 
-</div>
 
 

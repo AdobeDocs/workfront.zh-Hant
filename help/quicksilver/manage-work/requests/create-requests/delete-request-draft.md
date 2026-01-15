@@ -6,16 +6,14 @@ description: 您可以刪除已提交的請求或請求草稿。
 author: Becky
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '618'
 ht-degree: 3%
 
 ---
 
 # 刪除提交的請求或請求草稿
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽」環境中供所有客戶使用，或在「生產」環境中供啟用快速發行的客戶使用。</span>
 
 您可以刪除已提交的請求，或是您在新的請求體驗中建立的請求草稿。 Workfront管理員和Planning工作區管理員也可以刪除請求。
 
@@ -63,16 +61,13 @@ ht-degree: 3%
 
 +++
 
-
-<div class="preview">
-
-## 刪除新請求體驗中的請求<!--or request drafts -->
+## 刪除新請求體驗中的請求或請求草稿
 
 您可以在Workfront的「請求」區域或「首頁」的「我的請求」Widget中刪除請求。
 
-* Workfront管理員可以刪除其組織中的請求<!-- and drafts-->。
-* Workfront Planning工作區管理員可以刪除他們所管理的Planning工作區中的請求<!--and drafts-->。
-* 使用者可以刪除他們提交的要求<!--and drafts-->。
+* Workfront管理員可以刪除組織內的請求和草稿。
+* Workfront Planning工作區管理員可以刪除Planning工作區中他們所管理的請求和草稿。
+* 使用者可以刪除他們提交的請求和草稿。
 
 ### 從三點選單刪除請求
 
@@ -86,12 +81,12 @@ ht-degree: 3%
 
       如需有關「我的請求」Widget的詳細資訊，請參閱[使用「我的請求」Widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)。
 
-1. 在「請求」清單或「我的請求」Widget中，暫留在您要刪除的請求<!--or draft -->上。
+1. 在「請求」清單或「我的請求」Widget中，暫留在您要刪除的請求或草稿上。
 
    出現「更多」三點選單。
    ![](assets/more-menu.png)
 
-1. 按一下要求&#x200B;**名稱右側的**&#x200B;更多<!--or draft-->功能表，然後按一下&#x200B;**刪除**。
+1. 按一下請求或草稿名稱右側的&#x200B;**更多**&#x200B;功能表，然後按一下&#x200B;**刪除**。
 
    或
 
@@ -103,7 +98,7 @@ ht-degree: 3%
 
 1. 在開啟的對話方塊中，按一下&#x200B;**刪除**。
 
-   已刪除要求<!--or draft-->。
+   已刪除請求或草稿。
 
 ### 大量刪除請求
 

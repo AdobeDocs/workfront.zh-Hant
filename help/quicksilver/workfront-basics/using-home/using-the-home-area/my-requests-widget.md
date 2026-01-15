@@ -6,16 +6,14 @@ description: 您可以在「我的請求」Widget中提交請求。 您也可以
 author: Becky
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-source-git-commit: 9e4f67b4f5b03e1fc4f8e1a9ab00cc42b9796325
+source-git-commit: cdb1c365d8fc8f90a8a3488b3c641c97457c8c8d
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '982'
 ht-degree: 4%
 
 ---
 
 # 使用我的請求Widget
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽Sandbox」環境中使用。</span>
 
 >[!IMPORTANT]
 >
@@ -55,7 +53,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>[!UICONTROL 檢視]對您在對話中被標籤或需要解決核准的專案、任務、問題和檔案的許可權或更高</p> </td> 
+   <td> <p>[！UICONTROL檢視]對您在對話中被標籤或需要解決核准的專案、任務、問題和檔案的許可權或更高</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -70,15 +68,11 @@ ht-degree: 4%
 
 如需指示，請參閱從首頁區域建立工作專案和專案一文中的[建立請求](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-request)。
 
-<div class="preview">
-
 ## 複製請求
 
 您可以複製我的請求Widget中的請求、編輯請求，然後將其作為新請求提交。
 
 如需相關指示，請參閱文章複製和提交請求中的[在新的請求體驗](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md#copy-and-submit-requests-in-the-new-requesting-experience)中複製和提交請求。
-
-</div>
 
 ## 篩選要求
 
@@ -98,11 +92,11 @@ ht-degree: 4%
    * 狀態
    * 輸入者
 
-   <span class="preview">在「預覽」環境中，您也可以依據任何已新增為欄的自訂欄位進行篩選      至檢視。</span>
+   您也可以依據任何已新增為檢視欄的自訂欄位進行篩選。
 
 1. 在下一個欄位中，選取您要用於此篩選條件的運運算元。 可用的運運算元取決於所選的欄位。
 1. （視條件而定）如果運運算元右側出現欄位，請選取您要作為篩選依據的值。
-1. （選擇性）若要新增其他篩選條件，請按一下[新增條件] **&#x200B;**&#x200B;並重複步驟4-6。
+1. （選擇性）若要新增其他篩選條件，請按一下[新增條件] ****&#x200B;並重複步驟4-6。
 1. （選擇性和條件式）如果您有多個條件，請按一下條件左邊的&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;來切換And或Or值。
 
 篩選器會自動儲存。
@@ -135,9 +129,9 @@ ht-degree: 4%
 1. 在「我的請求」Widget中，按一下&#x200B;**欄**。
 1. （選擇性）若要重新排序欄，請按一下您要移動之欄的拖曳控點![拖曳控點](assets/drag-handle.png)，然後將其拖曳到所要的位置。 清單頂端的欄會在「我的請求」Widget中顯示為最左側的欄。
 1. （可選）使用切換可控制欄是否顯示在我的請求Widget中。
-1. <span class="preview">若要將自訂欄位新增為欄，請按一下熒幕右側附近的&#x200B;**新增欄**&#x200B;圖示![新增欄](assets/add-column.png)，然後按一下您想要新增為欄位至Widget的自訂表單欄位旁的加號圖示。</span>
+1. 若要將自訂欄位新增為欄，請按一下熒幕右邊附近的&#x200B;**新增欄**&#x200B;圖示![新增欄](assets/add-column.png)，然後按一下您想要新增為欄位至Widget的自訂表單欄位旁的加號圖示。
 
-   <span class="preview">附加至清單中物件的表單上的自訂欄位可以新增為欄。</span>
+   附加到清單中物件的表單上的自訂欄位可作為欄新增。
 
 欄偏好設定會自動儲存。
 
@@ -153,11 +147,13 @@ ht-degree: 4%
 
 1. （可選）若要跳至醒目提示的請求，請按一下搜尋列中的向上或向下箭頭。
 
-<div class="preview">
-
 ## 移至請求建立的物件
 
 您可以在「我的請求」Widget中找到請求建立的物件。
+
+>[!NOTE]
+>
+>建立物件的連結僅適用於Planning請求的新請求體驗，當請求本身建立了物件時。 如果Workfront請求轉換為專案或其他物件，則指向該轉換物件的連結在新請求體驗的請求清單中無法使用。
 
 1. 按一下右上角的&#x200B;**[!UICONTROL 主功能表]** ![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
 1. （視條件而定）將&#x200B;**我的請求** Widget新增至您的主畫面。 按一下&#x200B;**自訂**，找到&#x200B;**我的要求**。
@@ -166,4 +162,3 @@ ht-degree: 4%
 
    物件的頁面隨即開啟。
 
-</div>

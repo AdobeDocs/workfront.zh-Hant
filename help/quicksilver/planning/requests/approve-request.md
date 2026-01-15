@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ec72e2af00bb5010288eaae725b67ad7dad55486
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 1%
@@ -97,7 +97,7 @@ ht-degree: 1%
 >
 >您組織的Workfront執行個體必須上線至Adobe統一體驗，使用者才能接收電子郵件和應用程式內通知。
 
-您可以從要求本身、<span class="preview">或首頁的[我的核准]介面工具集核准建立記錄的要求。</span>
+您可以核准請求，以從請求本身或從「首頁」中的「我的核准」Widget建立記錄。
 
 * [在Workfront Planning中核准來自請求的要求](#approve-a-request-from-the-request-in-workfront-planning)
 * [核准來自首頁我的核准Widget的請求](#approve-a-request-from-the-my-approvals-widget-in-home)
@@ -134,8 +134,6 @@ ht-degree: 1%
 
    此請求會保留在Workfront的請求區域中。
 
-<div class="preview">
-
 ### 核准來自首頁我的核准Widget的請求
 
 {{step1-to-home}}
@@ -160,4 +158,3 @@ ht-degree: 1%
    * **已完成**：要求已核准。
    * **已拒絕**：要求已拒絕。
 
-</div>

@@ -6,17 +6,15 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: '1517'
 ht-degree: 3%
 
 ---
 
 # 複製並提交請求
 
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽Sandbox」環境中使用。</span>
 
 當您經常提交類似的請求時，可以複製現有的已提交請求。 在這種情況下，您可以複製現有請求、對請求進行最低限度的變更，然後將其作為新請求重新提交。
 
@@ -224,8 +222,6 @@ ht-degree: 3%
 
    複製的請求會在您指定的請求佇列中作為新請求提交。
 
-<div class="preview">
-
 ## 在新的請求體驗中複製並提交請求
 
 您可以在Workfront的「請求」區域中，或從「首頁」的「我的請求」小工具中複製並提交請求。
@@ -263,5 +259,4 @@ ht-degree: 3%
 
    複製的請求會以新請求的形式提交。
 
-</div>
 
