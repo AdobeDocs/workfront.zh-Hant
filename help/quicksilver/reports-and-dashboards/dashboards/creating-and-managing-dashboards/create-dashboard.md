@@ -6,19 +6,16 @@ description: 您可以建立控制面板，以快速存取Adobe Workfront中的�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: 39a8d670baa19aa37e29b0312e6c9a296569f44c
+source-git-commit: 507cb64eb21c2798cdafe184794c0d9ed7ebc0c6
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 4%
+source-wordcount: '494'
+ht-degree: 5%
 
 ---
 
 # 建立儀表板
 
 <!--Audited: 01/2025-->
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅適用於所有客戶的預覽環境。</span>
-
 
 您可以建立控制面板，以快速存取Adobe Workfront中的資訊。 儀表板最多可以新增25個報告、行事曆和外部頁面，您可與其他人共用這些儀表板以獲得最佳共同作業。
 
@@ -88,11 +85,6 @@ ht-degree: 4%
      <tr>
       <td role="rowheader"><strong>說明 (選擇性)</strong></td>
       <td>這是您控制面板的說明。</td>
-     </tr>
-      <tr>
-      <td role="rowheader"><strong>貨幣</strong></td>
-      <td><span class="preview">這是儀表板的預設貨幣型別。 <br>
-      <br>使用者可在篩選儀表板時切換不同的貨幣型別。 如需詳細資訊，請參閱<a href="/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md">依貨幣型別</a>篩選儀表板。</span></td>
      </tr>
     </tbody>
    </table>

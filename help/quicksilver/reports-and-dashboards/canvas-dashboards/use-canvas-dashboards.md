@@ -6,7 +6,7 @@ description: 使用畫布控制面板
 author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
-source-git-commit: f49197b1d49437cd3b1b981d093ae2a357d13072
+source-git-commit: 41e283ceccd0a95daae005d998a2ed8050a1ab0b
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 1%
@@ -72,7 +72,14 @@ Once you open a Canvas Dashboard, you can interact with the reports displayed on
    >
    >這些變更只會套用至您目前的作業階段，不會影響原始報表設定。 若要永久保留這些變更，您必須編輯報表。
 
-<!--### Use drilldowns
+
+<!--
+
+### Quick Search 
+
+### Filter
+### Use drilldowns
+
 
 You can use drilldowns in Canvas Dashboards to sort and group data within reports.
 

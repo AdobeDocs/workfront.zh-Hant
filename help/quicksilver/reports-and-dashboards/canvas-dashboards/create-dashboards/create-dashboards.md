@@ -6,10 +6,10 @@ description: 有了畫布控制面板，您可以建立報表並新增至可自�
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: bd31e426-7c4a-4ff8-9432-c95dc8ee3743
-source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
+source-git-commit: 507cb64eb21c2798cdafe184794c0d9ed7ebc0c6
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 1%
+source-wordcount: '480'
+ht-degree: 5%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >畫布儀表板功能目前僅適用於參與Beta階段的使用者。 在此階段中，部分功能可能無法完成或如預期般運作。 請依照「畫布控制面板」測試版概觀文章中[提供意見回饋](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)一節的指示，提交有關您體驗的任何意見回饋。<br>
->&#x200B;>如果您對可能的錯誤或技術問題有回饋，請向Workfront支援提交票證。 如需詳細資訊，請參閱[聯絡客戶支援](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。<br>
->&#x200B;>請注意，以下雲端服務供應商未提供此測試版：
+>如果您對可能的錯誤或技術問題有回饋，請向Workfront支援提交票證。 如需詳細資訊，請參閱[聯絡客戶支援](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。<br>
+>請注意，以下雲端服務供應商未提供此測試版：
 >
 >* 自備Amazon Web Services金鑰
 >* Azure
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -38,7 +38,7 @@ ht-degree: 1%
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront套件</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
 <p>任何 </p> 
    </td> 
@@ -76,7 +76,29 @@ ht-degree: 1%
 
 1. 按一下右上角的&#x200B;**新儀表板**。
 
-1. 在&#x200B;**建立儀表板**&#x200B;方塊中，輸入儀表板的&#x200B;**名稱**&#x200B;和&#x200B;**描述**。
+1. 在&#x200B;**建立儀表板**&#x200B;方塊中，
+
+1. 指定下列專案：
+
+   <table style="table-layout:auto">
+    <col>
+    <col>
+    <tbody>
+     <tr>
+      <td role="rowheader"><strong>名稱</strong></td>
+      <td><p>輸入儀表板的名稱。 我們建議僅使用UTF-8字元以避免相容性問題。</p></td>
+     </tr>
+     <tr>
+      <td role="rowheader"><strong>說明 (選擇性)</strong></td>
+      <td>輸入控制面板的說明。</td>
+     </tr>
+      <tr>
+      <td role="rowheader"><strong>貨幣</strong></td>
+      <td>選擇儀表板的預設貨幣型別。 <br>
+      <br>使用者可在篩選儀表板時切換不同的貨幣型別。 如需詳細資訊，請參閱<a href="/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md">依貨幣型別</a>篩選儀表板。</td>
+     </tr>
+    </tbody>
+   </table>
 
 1. 按一下 **建立**。**新增報告方塊**&#x200B;開啟。 從這裡，您可以建立新報告或新增現有報告到儀表板。
 
