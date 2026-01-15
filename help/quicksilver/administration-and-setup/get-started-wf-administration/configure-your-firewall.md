@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: d890d467dfdade676a5c93f061a5cbeda53556b6
+source-git-commit: 3c680b39685e650dd442adbb49e4091d558d1410
 workflow-type: tm+mt
-source-wordcount: '1609'
+source-wordcount: '1603'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 >
 >本頁所述的程式僅適用於尚未加入Admin Console的組織。 如果您的組織已加入Adobe Admin Console，您必須透過Adobe Admin Console執行此動作。
 >
->若要在貴組織已加入Adobe Admin Console的情況下設定允許清單，請參閱[允許Adobe應用程式和服務使用的網域](https://helpx.adobe.com/tw/enterprise/kb/network-endpoints.html)。
+>若要在貴組織已加入Adobe Admin Console的情況下設定允許清單，請參閱[允許Adobe應用程式和服務使用的網域](https://helpx.adobe.com/enterprise/kb/network-endpoints.html)。
 >
 >如需根據貴組織是否已加入Adobe Admin Console而有所差異的程式清單，請參閱[以平台為基礎的管理差異(Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 
@@ -124,13 +124,16 @@ ht-degree: 0%
      <li>35.161.82.137</li> 
      <li>52.14.70.114</li> 
      <li>52.15.230.220</li> 
-     <li>54.71.252.65</li> 
-    </ul> <p>如需有關下列IP位址的資訊，請參閱<a href="../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md" class="MCXref xref">21.1版的Adobe Workfront電子郵件新IP位址</a></p> 
-    <ul> 
+     <li>54.71.252.65</li>
      <li>23.251.237.107</li> 
      <li>23.251.237.108</li> 
      <li>23.251.237.109</li> 
      <li>23.251.237.106</li> 
+     <li>206.55.149.212</li>
+     <li>206.55.149.214</li>
+     <li>206.55.149.215</li>
+     <li>206.55.149.213</li>
+     <li>206.55.149.211</li>
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -161,11 +164,10 @@ ht-degree: 0%
 * 34.242.62.80/32
 * 46.51.194.192/32
 * 54.229.129.66/32
-
-如需有關下列IP位址的資訊，請參閱[21.1版的Adobe Workfront電子郵件新IP位址](../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md)
-
 * 23.251.239.98
 * 23.251.239.99
+* 24.110.76.224
+* 24.110.76.223
 
 ### 允許叢集6使用的IP位址 {#ip-addresses-to-allow-for-cluster-6}
 
@@ -187,6 +189,11 @@ ht-degree: 0%
      <li>34.66.82.65</li> 
      <li>34.66.82.66</li> 
      <li>34.66.82.67</li> 
+    <li>206.55.149.212</li>
+   <li>206.55.149.214</li>
+   <li>206.55.149.215</li>
+   <li>206.55.149.213</li>
+   <li>206.55.149.211</li>
     </ul> </td> 
   </tr> 
   <tr> 
@@ -220,6 +227,13 @@ ht-degree: 0%
 * 20.36.133.48/28
 * 20.81.156.240/28
 * 172.172.84.48/28
+
+### 允許叢集11使用的IP位址
+
+若要從叢集11上的Workfront應用程式接收電子郵件，請新增下列IP位址：
+
+* 24.110.76.224
+* 24.110.76.223
 
 ### 允許測試磁碟機使用的IP位址
 
