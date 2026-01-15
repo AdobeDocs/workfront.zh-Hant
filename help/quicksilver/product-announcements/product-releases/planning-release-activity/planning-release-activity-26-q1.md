@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: d956671b535d5c7a11d0fb17dc003a665a4f0597
+source-git-commit: bbb0399787938033886807d0372e9958ce2fcc00
 workflow-type: tm+mt
-source-wordcount: '1798'
+source-wordcount: '2003'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,40 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 如需針對Adobe Workfront Planning發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+
+## 可以從次要工作區共用全域記錄型別
+
+>[!NOTE]
+>
+>預覽： 2026年1月15日
+>生產快速發行： 2026年1月15日
+>適用於所有人的生產： 2026年1月15日
+>[!BADGE 不在排程]{type=Neutral}內
+
+您現在可以共用從該工作區新增到次要工作區的全域記錄型別。 使用者也將收到與您共用的次要工作區中所有記錄的相同許可權。
+
+>[!NOTE]
+>
+>使用者對於新增記錄型別的主要工作區或任何其他次要工作區中的相同全域記錄型別，可以擁有不同的許可權。 Workspace和記錄型別許可權轉移至記錄。
+
+在此變更之前，您只能從其原始的主要工作區共用全域記錄型別。
+
+如需詳細資訊，請參閱[跨工作區記錄型別概觀](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)。
+
+
+## 新增至次要工作區中全域記錄型別的記錄不會從其他次要工作區中顯示
+
+>[!NOTE]
+>
+>預覽： 2026年1月15日
+>生產快速發行： 2026年1月15日
+>適用於所有人的生產： 2026年1月15日
+>[!BADGE 不在排程]{type=Neutral}內
+
+新增至次要工作區中全域記錄型別的記錄只會從該工作區或記錄型別的原始主要工作區中可見。 在此更新之前，新增到次要工作區的記錄也可從您可能擁有檢視許可權的其他次要工作區中看到。
+
+如需詳細資訊，請參閱[跨工作區記錄型別概觀](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)。
 
 ## 在工作區中建立記錄型別階層
 
