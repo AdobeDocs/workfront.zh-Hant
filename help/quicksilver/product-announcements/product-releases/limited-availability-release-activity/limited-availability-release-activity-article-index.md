@@ -8,10 +8,10 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: 387a84c4bf511424a0c15bd65748987c1611cee5
+source-git-commit: 7dca87a4f73fed9597f2a623b969569aa03cf5b3
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 0%
+source-wordcount: '93'
+ht-degree: 1%
 
 ---
 
@@ -24,15 +24,15 @@ ht-degree: 0%
 
 如需有關目前Workfront有限可用功能發行活動的資訊，請參閱下列文章：
 
-* [Adobe Workfront的2026年第一季度發行活動可用性限制](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q1.md)
+* [Adobe Workfront2026年第二季發行活動可用性限制功能](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q2.md)
 
 >[!ENDSHADEBOX]
 
 <!-- for every new release, add the new release page in the first bullet (above) and move that first note to the list below; update the date of the most recent release in the statement below-->
 
-<!--For information about earlier feature releases, see the following articles:
+如需有關舊版功能的資訊，請參閱下列文章：
 
 * 2026
-    * [First Quarter 2026 release activity for Adobe Workfront limited availability features](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q1.md)-->
+   * [Adobe Workfront的2026年第一季度發行活動可用性限制](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q1.md)
 
 
