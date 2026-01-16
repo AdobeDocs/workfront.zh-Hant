@@ -8,9 +8,9 @@ author: Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: a31b6f9af4682c64da9e5a887f2bd2e13f259ce3
+source-git-commit: 08305c9e82b7ba56a1a03fa351e643916bbfe44e
 workflow-type: tm+mt
-source-wordcount: '2145'
+source-wordcount: '2143'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 系統管理員可以安裝下列[!DNL Adobe Workfront]個Blueprint。 如需藍圖的詳細資訊，請參閱[藍圖概觀](/help/quicksilver/administration-and-setup/blueprints/blueprints-overview.md)。
 
-[!BADGE 新增！]{type=Informative} **[!UICONTROL 作用中的使用者分析報告]**
+**[!UICONTROL 作用中的使用者分析報告]**
 此藍圖包含控制面板，可協助管理員驗證使用者設定、識別對齊錯誤，並確保設定支援預期應用程式用途&#x200B;。
 
 **[!UICONTROL 新增員工IT檢查清單]**
@@ -30,7 +30,7 @@ ht-degree: 0%
 **[!UICONTROL 年度預算計畫]**
 此Blueprint包含一個[!DNL Workfront]專業服務組織在與財務團隊進行實作合約期間已使用多年的範本，以組織有關年度預算規劃的活動。 範本有助於業務單位負責人設定期望值，並引導他們完成在年度計畫流程中請求和預留預算的流程。
 
-[!BADGE 新增！]{type=Informative} **[!UICONTROL 基準線儀表板]**
+**[!UICONTROL 基準線儀表板]**
 此藍圖包含控制面板，可幫助您做出更聰明、更快速的專案決策。 基準線可讓您比較計畫內容與已發生內容，讓您一目瞭然地找出問題任務、範圍潛移和專案趨勢。 「基準線控制面板」包含下列報表：基準線 | 進行中的專案，比較基準 | 已完成專案，比較基準 | 進行中的任務和基準線 | 已完成的工作。
 
 **[!UICONTROL 合約服務傳遞計畫]**

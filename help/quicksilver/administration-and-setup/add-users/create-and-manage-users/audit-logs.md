@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+source-git-commit: 85c6985d27ef0806e9152ecf2cbd90ca63a588c6
 workflow-type: tm+mt
-source-wordcount: '1522'
+source-wordcount: '1523'
 ht-degree: 3%
 
 ---
@@ -236,7 +236,7 @@ Business Rules僅適用於已購買Ultimate Workfront計畫的客戶。 如需�
    * 新增或移除使用者
    * 新增或移除子群組
 
-### s {#job-role}
+### 職務角色 {#job-role}
 
 當使用者執行下列其中一個動作時，系統會產生「工作角色」稽核記錄專案：
 
