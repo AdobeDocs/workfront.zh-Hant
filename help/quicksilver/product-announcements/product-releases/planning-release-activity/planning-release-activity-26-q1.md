@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: bbb0399787938033886807d0372e9958ce2fcc00
+source-git-commit: d60123df6e18025a886809fa390137bdf9287e6e
 workflow-type: tm+mt
-source-wordcount: '2003'
+source-wordcount: '2014'
 ht-degree: 0%
 
 ---
@@ -143,6 +143,10 @@ ht-degree: 0%
 
 
 ## Workspace主要頁面改善
+
+>[!IMPORTANT]
+>
+>這暫時從預覽和生產環境中移除。
 
 >[!NOTE]
 >
