@@ -7,9 +7,9 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
+source-git-commit: 1158a49fc0b39ef49f23326935d4635530501687
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '718'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Adobe Workfront目前提供60天免費試用的Adobe Workfront Planning。
 
-此試用版將於以下日期提供：2026年3月1日至5月1日。
+此試用版將於以下日期提供： 2026年3月2日至5月1日。
 
 >[!NOTE]
 >
@@ -52,13 +52,13 @@ Planning可集中顯示您的行銷生命週期，實現跨團隊的更佳共同
 
 在您組織中的所有人收到Workfront Planning免費試用版的存取權之前，您其中的Workfront管理員必須檢閱並簽署法律協定。
 
-在2026年3月1日審判開始前，您將能夠檢閱並簽署合約。
+在2026年3月2日審判開始前，您將能夠檢閱並簽署合約。
 
 <!--check the steps here at release-->
 
 1. 若要檢閱並接受法律協定，請執行下列任一項作業：
 
-   1. 在2026年3月1日之前，請執行以下動作：
+   1. 在2026年3月2日之前，請執行以下動作：
       1. 以系統管理員身分登入Adobe Workfront。
       1. 請遵循包含&#x200B;**Workfront Planning試用版**&#x200B;相關資訊的應用程式內橫幅
 
@@ -68,7 +68,7 @@ Planning可集中顯示您的行銷生命週期，實現跨團隊的更佳共同
       1. 按一下&#x200B;**檢閱試用合約**。<!--not sure if this will be available in the email/ banner, or if they can go to System Preferences to do this - might need to adjust the steps here-->
       1. 檢閱合約後，按一下&#x200B;**接受**。
 
-   1. 在2026年3月1日試用版啟動後，請執行以下作業：
+   1. 在2026年3月2日試用版啟動後，請執行以下作業：
 
       1. 以系統管理員身分登入Adobe Workfront。
       1. 請遵循包含&#x200B;**Workfront Planning試用版**&#x200B;相關資訊的應用程式內橫幅
@@ -85,11 +85,11 @@ Planning可集中顯示您的行銷生命週期，實現跨團隊的更佳共同
 
          貴組織現已註冊Workfront Planning試用版，直到2026年5月1日為止。
 
-         在2026年3月1日之後，下列許可權將授與&#x200B;**計畫試用版**&#x200B;區域的&#x200B;**最佳實務工作區**&#x200B;索引標籤中可用的資料：
+         在2026年3月2日之後，下列許可權將授與&#x200B;**計畫試用版**&#x200B;區域的&#x200B;**最佳實務工作區**&#x200B;索引標籤中可用的資料：
 
          * 所有系統管理員都有管理許可權。
          * 所有其他使用者均具有檢視許可權。
-      1. （視條件而定）在2026年3月1日之後，開始探索&#x200B;**最佳實務工作區**&#x200B;索引標籤，並與他人共用工作區或其物件。
+      1. （視條件而定）在2026年3月2日之後，開始探索&#x200B;**最佳實務工作區**&#x200B;索引標籤，並與他人共用工作區或其物件。
 
          如需使用Workfront Planning的詳細資訊，請參閱[開始使用Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)。
 
@@ -101,9 +101,10 @@ Planning可集中顯示您的行銷生命週期，實現跨團隊的更佳共同
 
 以下是與Adobe Workfront Planning免費試用方案相關的一些重要日期：
 
-* **2026年3月1日** - Workfront計畫試用版啟動。
+* **2026年3月2日** - Workfront計畫試用版啟動。
 * **2026年5月1日** - Workfront Planning試用期已關閉，而您對Planning的存取權已移除。 Workfront會在試用期結束後保護您的資料，直到2026年11月30日為止。 如果您在此期間購買Workfront Planning，則會重新取得Planning和資料的存取權。
-* **2026年11月30日** - Workfront在此日期之後不再提供您的資料。 您仍可購買Workfront Planning，但您的資料會在此日期之後移除。
+<!--Lauren wanted this out: 
+* **November 30, 2026** - Workfront no longer makes your data available after this date. You can still purchase Workfront Planning, but your data is removed after this date. -->
 
 <!--## Overview of the access to Workfront Planning -->
 
