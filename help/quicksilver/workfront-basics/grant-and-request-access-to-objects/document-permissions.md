@@ -7,10 +7,10 @@ description: 當使用者指派存取層級時，您的Adobe Workfront管理員�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: 7f8c9b9f63770d6364f0eb1b9c23e4648dacaf93
 workflow-type: tm+mt
 source-wordcount: '1387'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -26,26 +26,26 @@ Workfront管理員可控制誰可以在「設定」的「存取層級」區域�
 
 >[!NOTE]
 >
->如果您的Workfront執行個體使用Adobe企業儲存空間，則無法共用個別檔案。 而是您要授予專案層級的存取權。 請記住，共用專案可授予對敏感專案資訊的存取權，例如財務資訊，這取決於選擇的許可權級別。
+>如果您的Workfront執行個體使用Adobe企業儲存空間，則無法共用個別檔案。 而是要授予專案層級的存取權。 請記住，共用專案可授予對敏感專案資訊（如財務）的存取權，具體取決於選擇的許可權等級。
 
 
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
+   <td role="rowheader">Adobe Workfront 授權</td> 
    <td> <p>標準</p> 
-   <p>工作或更高</p>
+   <p>工作或更高層級</p>
    </td> 
   </tr> 
   <tr> 
@@ -53,8 +53,8 @@ Workfront管理員可控制誰可以在「設定」的「存取層級」區域�
    <td> <p>檢視您要共用之物件的存取許可權或以上許可權</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件許可權</td> 
-   <td> <p>檢視您要共用之物件的許可權或更高的許可權</p></td> 
+   <td role="rowheader">物件權限</td> 
+   <td> <p>檢視你想分享物件的權限或更高權限</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -88,23 +88,23 @@ Workfront管理員可控制誰可以在「設定」的「存取層級」區域�
 
 1. （選擇性）選取&#x200B;**誰有存取權**&#x200B;下拉式清單，並選取檔案的存取層級：
 
-   * **只有受邀者才能存取：**&#x200B;只有受邀加入檔案的使用者才能存取（預設）。
-   * **系統中的每個人都可以檢視**：系統中的所有使用者都可以在沒有邀請的情況下檢視檔案。
+   * **只有受邀者才能存取：** 只有被邀請進入文件的使用者才能存取（預設）。
+   * **系統中的每個人都可以查看**：系統中的所有使用者都可以在無需邀請的情況下查看該文件。
 
-1. （選擇性）若要公開檔案，請按一下齒輪圖示![選取齒輪圖示](assets/gear-icon.png)，然後按一下與&#x200B;**內嵌的方塊**。 **複製公開連結**&#x200B;按鈕會出現在對話方塊底部。
+1. （可選）要將文件公開，請點擊齒輪圖示![，選擇齒輪圖示](assets/gear-icon.png)，然後點選與「公開給外部使用者&#x200B;**」相關的**&#x200B;方框。**「複製公開連結**」按鈕會出現在對話框底部。
 
-1. 按一下使用者名稱右側的下拉式清單，並選取他們對於此檔案的許可權層級：
+1. 點擊使用者名稱右側的下拉選單，選擇他們在此文件中的權限等級：
 
    * **檢視**：使用者可以檢閱和共用檔案。
    * **管理**：使用者擁有檔案的完整存取權，但沒有管理許可權，這些許可權是在存取層級授予的（也包含所有檢視許可權）。
 
-1. （選擇性）按一下您已授與的許可權層級旁的進階選項圖示，以設定檔案的特定許可權。
+1. （可選）點選你已授權權限等級旁的進階選項圖示，以設定文件中的特定權限。
 
-   ![已設定的進階許可權選項](assets/advanced-options-icon.png)
+   ![已設定進階權限選項](assets/advanced-options-icon.png)
 
-1. （選擇性）若要關閉檔案子物件的繼承許可權，請按一下&#x200B;**關閉**&#x200B;內嵌&#x200B;**繼承許可權**。
+1. （可選）要關閉文件子物件的繼承權限，請點擊&#x200B;**「**&#x200B;以繼承權限&#x200B;**內頁關閉**」。
 
-1. （視條件而定）若要複製可讓您與外部使用者共用檔案的公用連結，請按一下&#x200B;**複製公用連結**。
+1. （條件）若要複製允許你與外部使用者分享文件的公開連結，請點擊 **「複製公開連結**」。
 
    >[!CAUTION]
    >
@@ -120,28 +120,28 @@ Workfront管理員可控制誰可以在「設定」的「存取層級」區域�
 
 1. 在頁面頂端按一下&#x200B;**共用**&#x200B;圖示![共用圖示](assets/share-icon.png)。 共用強制回應視窗隨即開啟。
 
-   ![共用圖示](assets/share-documents-in-bulk.png)
+   ![分享圖示](assets/share-documents-in-bulk.png)
 
-1. 在&#x200B;**授與檔案存取權**&#x200B;欄位中，開始輸入您要共用檔案的使用者、團隊、角色、群組或公司的名稱，然後當名稱出現在下拉式清單中時按一下該名稱。
+1. 在 **「授權文件存取** 」欄位，開始輸入你想分享文件的使用者、團隊、角色、團體或公司的名稱，然後在下拉選單中出現名稱時點擊。
 
    >[!TIP]
    >
-   >您只能與作用中使用者、團隊、角色或公司共用檔案。
+   >你只能與活躍使用者、團隊、角色或公司分享文件。
 
 
-1. （選擇性）選取&#x200B;**誰有存取權**&#x200B;下拉式清單，並選取檔案的存取層級：
+1. （可選）選擇 **「誰擁有存取** 權」下拉選單，並選擇文件的存取層級：
 
-   * **只有受邀者才能存取：**&#x200B;只有受邀加入檔案的使用者才能存取（預設）。
-   * **系統中的每個人都可以檢視**：系統中的所有使用者都可以在沒有邀請的情況下檢視檔案。
+   * **只有受邀者才能存取：** 只有被邀請進入文件的使用者才能存取（預設）。
+   * **系統中的所有人都可以查看**：系統中的所有使用者都可以在無需邀請的情況下查看這些文件。
 
-1. 按一下使用者名稱右側的下拉式清單，然後選取他們對檔案的許可權層級：
+1. 點擊使用者名稱右側的下拉選單，選擇他們文件的權限等級：
 
-   * **檢視**：使用者可以檢閱和共用檔案。
-   * **管理**：使用者擁有無管理許可權之檔案的完整存取權，這些許可權是在存取層級授與的（也包含所有檢視許可權）。
+   * **檢視**：使用者可檢視並分享文件。
+   * **管理**：使用者擁有文件的完整存取權，無需管理權限，這些權限在存取層級授予（同時包含所有檢視權限）。
 
-1. （可選）按一下您已授與的許可權層級旁的進階選項圖示，以設定檔案的特定許可權。
+1. （可選）點選你已授權權限等級旁的進階選項圖示，以設定文件的特定權限。
 
-   ![已設定的進階許可權選項](assets/advanced-options-icon.png)
+   ![已設定進階權限選項](assets/advanced-options-icon.png)
 
 1. 按一下「**儲存**」。
 
@@ -169,7 +169,7 @@ Workfront正轉換至Adobe企業儲存解決方案，以提供與Adobe Creative 
  <col> 
  <thead> 
   <tr> 
-   <th> <p><strong>動作</strong> </p> </th> 
+   <th> <p><strong>行動</strong> </p> </th> 
    <th> <p><strong>管理</strong> </p> </th> 
    <th> <p><strong>檢視</strong> </p> </th> 
   </tr> 
@@ -221,7 +221,7 @@ Workfront正轉換至Adobe企業儲存解決方案，以提供與Adobe Creative 
    <td> </td> 
   </tr> 
   <tr> 
-   <td scope="row">移動至（物件）</td> 
+   <td scope="row">移動到（物件）</td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
@@ -231,7 +231,7 @@ Workfront正轉換至Adobe企業儲存解決方案，以提供與Adobe Creative 
    <td> </td> 
   </tr> 
   <tr> 
-   <td scope="row">更新/評論</td> 
+   <td scope="row">更新/留言</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -266,12 +266,12 @@ Workfront正轉換至Adobe企業儲存解決方案，以提供與Adobe Creative 
    <td> </td> 
   </tr> 
   <tr> 
-   <td scope="row">移除校訂**</td> 
+   <td scope="row">移除證據**</td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td scope="row">共用*</td> 
+   <td scope="row">分享*</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -301,12 +301,12 @@ Workfront正轉換至Adobe企業儲存解決方案，以提供與Adobe Creative 
    <td> </td> 
   </tr> 
   <tr> 
-   <td scope="row">連結（與整合）</td> 
+   <td scope="row">連結（含整合）</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td scope="row">取消連結（與整合）</td> 
+   <td scope="row">解除連結（含整合）</td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
@@ -315,11 +315,11 @@ Workfront正轉換至Adobe企業儲存解決方案，以提供與Adobe Creative 
 
 &#42;動作由檔案和檔案資料夾共用。
 
-&#42;&#42;您必須擁有與您的Workfront帳戶相關聯的個別校訂授權，才能校訂檔案。 請聯絡您的客戶經理，瞭解如何取得校訂授權。 如需Workfront中校訂的詳細資訊，請參閱[校訂](../../review-and-approve-work/proofing/proofing.md)。
+&#42;&#42;您必須擁有與您的Workfront帳戶相關聯的個別校訂授權，才能校訂檔案。 請聯絡您的客戶經理，瞭解如何取得校訂授權。 欲了解更多關於 Workfront 校樣的資訊，請參閱 [校對](../../review-and-approve-work/proofing/proofing.md)。
 
-## 關於共用檔案的考量事項
+## 關於文件共享的考量
 
-除了下列考量事項外，另請參閱[物件共用許可權概觀](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。
+除了以下的考量外，也請參見 [物件](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)共享權限概述。
 
 >[!NOTE]
 >
@@ -335,13 +335,13 @@ Workfront正轉換至Adobe企業儲存解決方案，以提供與Adobe Creative 
 
   >[!CAUTION]
   >
-  >建議您將包含機密資訊的物件與外部使用者共用時務必謹慎。 這可讓他們檢視資訊，而不需要身為Workfront使用者或屬於您的組織。
+  >建議您將包含機密資訊的物件與外部使用者共用時務必謹慎。 這讓他們能在不需成為 Workfront 用戶或組織成員的情況下查看資訊。
 
-* 如果某人沒有Workfront帳戶，您可以在「將檔案存取權授予」欄位中新增其電子郵件地址，以與他共用檔案。
-* 當您共用檔案時，使用者對所有檔案版本和所有檔案校訂都擁有相同的存取權。\
-  如需Workfront中校訂的詳細資訊，請參閱[校訂](../../review-and-approve-work/proofing/proofing.md)區段。
+* 你可以在「給予文件存取權」欄位輸入他們的電子郵件地址，與沒有 Workfront 帳號的人分享文件。
+* 當你分享文件時，使用者擁有相同的存取權，所有文件版本和所有文件校樣。\
+  欲了解更多關於 Workfront 校樣的資訊，請參閱 [校樣](../../review-and-approve-work/proofing/proofing.md) 部分。
 
-* 您可以從檔案相關聯的物件繼承檔案的許可權。 您的Workfront管理員可以限制存取層級中檔案的許可權繼承。
+* 你可以從文件所關聯的物件中繼承權限。 你的 Workfront 管理員可以限制你存取層級文件的權限繼承。
 
   如需有關限制檔案繼承許可權的詳細資訊，請參閱[建立或修改自訂存取層級](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
