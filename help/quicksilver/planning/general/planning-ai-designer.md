@@ -80,7 +80,7 @@ role: User, Admin -->
 
 * 若要使用Planning Designer，您的組織必須符合使用Workfront AI Assistant的需求。
 
-  如需詳細資訊，請參閱[ AI助理的必要條件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
+  如需詳細資訊，請參閱[&#x200B; AI助理的必要條件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
 
 * 若要使用Planning Designer，系統管理員必須在設定的「系統偏好設定」區域中將其啟用。
 
