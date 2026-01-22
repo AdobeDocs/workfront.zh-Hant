@@ -1,31 +1,41 @@
 ---
 title: 開始使用Adobe Workfront Planning Designer
-description: 使用Adobe Planning Designer，您可以產生新的工作區、完成Workfront Planning中的記錄型別和欄位，或將物件新增至工作區，或檢視記錄的變更歷史記錄。
-author: Alina, Becky
-feature: Workfront Planning
-role: User, Admin
+description: 使用Adobe Planning Designer，您可以產生新的工作區、完成Workfront Planning中的記錄型別和欄位、將物件新增至工作區，或檢視記錄的變更歷史記錄。
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: bf34bfa2059d227eca3faa3d719adcf4d711e457
+source-git-commit: 866b237db5d109b0a435145119a6412e41d960ab
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: '1020'
 ht-degree: 1%
 
 ---
 
 
+<!--add these at release to the metadata:
+
+author: Alina, Becky
+feature: Workfront Planning
+role: User, Admin -->
+
 # 開始使用Adobe Workfront Planning Designer
 
 {{planning-important-intro}}
 
-使用Adobe Planning Designer，您可以產生新的工作區、完成Workfront Planning中的記錄型別和欄位，或將物件新增至工作區，或檢視記錄的變更歷史記錄。
+您可以使用由AI支援的Adobe Planning Designer來產生新工作區、將物件新增至工作區（記錄型別、記錄、檢視或欄位），或檢視記錄的變更歷史記錄。
 
 >[!IMPORTANT]
 >
->Planning Designer目前僅適用於參與封閉Beta階段的使用者。
+>Planning Designer目前僅適用於參與「已關閉的Beta」計畫的使用者。
 
-## 存取需求<!--edit theses-->
+如需Workfront Planning的相關資訊，請參閱下列文章：
+
+* [Adobe Workfront Planning的一般資訊](/help/quicksilver/planning/planning-information.md)
+* [開始使用Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
+* [Adobe Workfront Planning存取權概觀](/help/quicksilver/planning/access/access-overview.md)
+
+
+## 存取權要求
 
 +++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
@@ -68,54 +78,30 @@ ht-degree: 1%
 
 ## Planning Designer的相關考量事項
 
-<!--these are from the AI Assistant - edit these-->
+* 若要使用Planning Designer，您的組織必須符合使用Workfront AI Assistant的需求。
 
-* 若要使用Planning Designer，您必須先為組織啟用AI助理。 必須啟用下列專案，AI助理才能供組織中的每個人使用：
-
-   * AI助理必須先為貴組織啟用，才能供貴公司的使用者使用。 如需詳細資訊，請參閱[AI助理概述](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)。
-   * Workfront為貴組織啟用AI助理後，即可供Workfront主要管理員使用。 如需詳細資訊，請參閱[設定您系統的基本資訊](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md)。
-
-   * Workfront管理員必須為所有其他使用者啟用AI助理。 如需詳細資訊，請參閱[啟用或停用AI助理](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)。
-
-   * AI助理會在每個頁面的內容中運作。 您為AI助理提交的請求必須參考您開啟的頁面中可用的功能。
+  如需詳細資訊，請參閱[ AI助理的必要條件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
 
 * 若要使用Planning Designer，系統管理員必須在設定的「系統偏好設定」區域中將其啟用。
 
-* AI助理在「計畫」區域中執行的動作會根據您的Workfront Planning許可權和Workfront存取層級來設定。 如需詳細資訊，請參閱下列文章：
+* 您可以使用提示來建置Planning物件，方法是從Planning區域使用Workfront AI Assistant，或使用Planning Designer。
+
+* AI助理在「計畫」區域中執行的動作或Planning Designer執行的動作會與Workfront Planning許可權和Workfront存取層級相關。
+
+  如需詳細資訊，請參閱下列文章：
 
    * [在Adobe Workfront Planning中共用許可權的概觀](/help/quicksilver/planning/access/sharing-permissions-overview.md)
    * [使用Adobe Workfront Planning時的授權型別概觀](/help/quicksilver/planning/access/license-type-overview.md)
 
-* AI助理員代表使用者所做的變更會在紀錄的紀錄面板中進行追蹤。
+* Planning Designer代表使用者所做的變更會在紀錄的紀錄面板中進行追蹤。
 
 * 您可以使用命令來復原動作。 例如，您可以輸入「復原上次變更」來回覆變更。
 
-* 透過AI助理建立、更新或刪除物件時，AI助理會顯示預期的動作並要求確認。 之後，您可以確認或取消動作。
+* 透過Planning Designer建立、更新或刪除物件時，會顯示預期動作並要求確認。 之後，您可以確認或取消動作。
 
-—>
+* 當您使用Planning Designer建立工作區和記錄型別時，也會自動建立檢視和欄位。
 
 ## 目前適用於Planning Designer的功能
-
-<!--edit these- they are from the Ai Assistant: 
-
-Currently, the AI Assistant is available in the Planning area of Workfront for the following pages:
-
-* Workspace page
-* Record type page
-* Record page
-
-You can use the AI Assistant to perform the following actions, at this time:
-
-* Search for records. You can search by information contained in any record fields. 
-* Create records. An ID with a link to the new record displays after the record is created. You can specify the fields you want to update during the creation process, like dates or description. 
-* Create records based on a document that you upload. Workfront supports the following document formats for the AI Assistant:
-
-    PPTX, PDF, DOCX, XLSX, PPT, DOC, TXT, and most image formats
-* Update fields for the records you see on the screen
-* Delete records
-* Restore records that you just deleted
-
--->
 
 您可以使用Planning Designer或AI助理來執行下列任一動作：
 
@@ -135,17 +121,13 @@ You can use the AI Assistant to perform the following actions, at this time:
 
 * 建置自訂檢視
 
-* 匯入檔案以建立記錄。 從匯入的檔案建立記錄只能在Planning Designer中使用，不能在AI助理中使用。<!--add information about supported files-->
+* 匯入檔案以建立記錄。
+
+  從匯入的檔案建立記錄只能在Planning Designer中使用，不能在AI助理中使用。
+
+  如需有關接受的檔案型別和大小的資訊，請參閱文章[使用AI支援的表單填寫功能來使用提示或檔案填寫請求](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)中的「檔案護欄」一節。
 
   <!--* Generate thumbnail and over image for a record (not available yet, maybe Q2) -->
-
-## 在Workfront Planning中找到Planning Designer
-
-您可以從Workfront Planning首頁面存取Planning Designer。
-
-<!--add screen shot-->
-
-您也可以使用AI助理來利用Planning Designer所提供的相同功能。
 
 ## 為您的組織啟用Planing Designer
 
@@ -153,15 +135,36 @@ You can use the AI Assistant to perform the following actions, at this time:
 
 <!--add steps here-->
 
+1. 以系統管理員身分登入Workfront。
+1. 按一下熒幕左上角的&#x200B;**主功能表** ![主功能表圖示](assets/main-menu-shell.png)，然後按一下&#x200B;**設定**。
+1. 按一下左側面板中的&#x200B;**系統** >，然後移至&#x200B;**AI偏好設定**&#x200B;區域。
+1. 開啟下列設定：
+   * **啟用AI**
+   * **選擇加入AI Betas**
+   * **規劃Designer**
+
+   系統偏好設定中的![規劃Designer設定](assets/planning-designer-toggle-in-system-preferences.png)
+1. 按一下「**儲存**」。
+
+   系統中所有擁有Standard授權的使用者現在可以在Planning區域的Workspaces首頁面上看到&#x200B;**使用AI設計**&#x200B;按鈕。<!--check screen shot-->
+
+   ![在Workspaces頁面上使用AI設計按鈕](assets/design-with-ai-button-on-workspaces-page.png)
+
+   所有使用者現在都可以啟動並使用Planning Designer來建立和更新Workfront Planning物件。
+
 ## 使用Planning Designer建立或更新物件
 
 除非另有指定，否則您可以使用Planning Designer或AI助理在Workfront Planning中建立或更新物件。
 
-1. 登入Workfront，然後按一下熒幕右上角的&#x200B;**主功能表**&#x200B;圖示![點主功能表](assets/dots-main-menu.png)，或左上角的&#x200B;**主功能表**&#x200B;圖示![行主功能表](assets/lines-main-menu.png) （若有）。
+1. 登入Workfront，然後按一下左上角的&#x200B;**主功能表**&#x200B;圖示![行主功能表](assets/lines-main-menu.png)。
 
 1. 按一下&#x200B;**計畫**。 「規劃」區域隨即開啟。
 
 1. 按一下&#x200B;**使用AI設計**。
+
+   **計畫Designer**&#x200B;視窗隨即開啟。
+
+   ![規劃Designer視窗](assets/planning-designer-window.png)
 
 1. 在提供的空間中，開始輸入AI助理的命令，然後在完成時按一下Enter。
 
@@ -189,9 +192,16 @@ You can use the AI Assistant to perform the following actions, at this time:
 
    <!--* Generate thumbnail and over image for a record (not available yet, maybe Q2) -->
 
-   視覺預覽會顯示助理可以建置的專案範例。
+1. 在收到成功的回應後，請依照提示區中提供的連結建立、更新或檢閱請求的物件。
 
-1. 在收到成功的回應後，請依照命令列中提供的連結來建立、更新或檢閱請求的物件。
+   當您同意建立物件時，您的變更會顯示在提示區域的右側。
+
+   您可以在提示右側的預覽區域中檢閱工作區、記錄型別、欄位、檢視和記錄。
+1. （選擇性）輸入其他提示以進一步編輯物件。
+1. （選擇性）按一下&#x200B;**切換AI工作區預覽畫面**&#x200B;圖示![隱藏或顯示預覽畫面圖示](assets/hide-show-preview-screen-in-planning-designer.png)以開啟或關閉右側的預覽畫面。
+1. 按一下&#x200B;**在新標籤中開啟工作區** ![在新標籤中開啟工作區](assets/open-workspace-on-new-tab-icon.png)，以在新標籤中開啟您正在更新的工作區。
+1. 按一下&#x200B;**關閉**&#x200B;圖示&#x200B;**X**&#x200B;以關閉Planning Designer並開啟「工作區」區域。
+1. 開啟您使用Planning Designer編輯的工作區，然後對其物件進行進一步的變更。
 
 
 
