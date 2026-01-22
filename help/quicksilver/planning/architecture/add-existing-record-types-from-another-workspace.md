@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 5bccad02f90fd99135b50c5a929913b16cc5b809
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '657'
 ht-degree: 1%
 
 ---
@@ -138,7 +138,8 @@ And
 
       * 所有原始欄位
       * 所有記錄連線
-   * 您至少擁有這些工作區的「檢視」許可權時，才能檢視使用相同全域記錄型別之其他工作區新增的記錄。<!--replace this bullet by this with Jan 15 release: You can view records added from the original workspace of the global record type only when you have at least View permissions to that workspace.-->
+   * 您無法從次要工作區檢視從記錄型別的原始工作區新增的記錄。
+   * 您至少擁有該工作區的「檢視」許可權時，才能檢視從該工作區中記錄型別的原始工作區新增的記錄。
    * 唯讀&#x200B;**Workspace**&#x200B;欄位已新增至新記錄型別資料表檢視。 欄位會顯示建立每個記錄的工作區。
 
      >[!NOTE]
@@ -147,7 +148,12 @@ And
      >
 
 1. （可選）按一下，然後將新新增的記錄型別拖放至工作區內的任何區段。
-1. （選擇性）按一下新記錄型別卡片上的&#x200B;**更多**&#x200B;功能表，或其頁面上的記錄型別名稱右側，然後按一下&#x200B;**刪除**。
+1. （選擇性）按一下新記錄型別卡片上的&#x200B;**更多**&#x200B;功能表或其頁面上的記錄型別名稱右側，然後按一下下列其中一項：
+
+   * **共用**&#x200B;以共用次要工作區的記錄型別。
+   * **刪除**&#x200B;以從次要工作區刪除記錄型別。 從次要工作區刪除記錄型別也會刪除從次要工作區新增的記錄。
+
+     不會刪除從次要工作區新增的檢視。<!--checking with Lilit - not sure if this is by design??-->
 
    如需詳細資訊，請參閱文章[刪除記錄型別](/help/quicksilver/planning/architecture/delete-record-types.md)中的「刪除全域記錄型別」一節。
 

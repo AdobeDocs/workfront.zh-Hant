@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 5bccad02f90fd99135b50c5a929913b16cc5b809
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1071'
 ht-degree: 1%
 
 ---
@@ -221,15 +221,15 @@ ht-degree: 1%
 
 * 當您從次要工作區中刪除全域記錄型別時，也會刪除下列專案：
 
-   * 從次要工作區新增的記錄會從次要工作區刪除，且無法復原。
-
-     新增至次要工作區的記錄會保留在全域記錄型別的主要工作區中。 全域記錄型別之主要工作區中，這些記錄的&#x200B;**Workspace**&#x200B;欄位是空的。<!--checking on this with Lilit-->
+   * 從次要工作區新增的記錄會從次要工作區和原始工作區中刪除，且無法復原。
 
   <!--Coming later: * The fields added from the secondary workspace.-->
 
 * 從次要工作區中刪除的全域記錄型別無法復原。
 
 * 原始記錄型別會保留在其原始工作區中，也會保留在其已加入的其他工作區中。
+
+* 加入至次要工作區中記錄型別的檢視會被保留，且如果它們與您共用，則可在其他工作區中看到。
 
 若要從次要工作區刪除全域記錄型別，請執行下列動作：
 

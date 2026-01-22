@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 5bccad02f90fd99135b50c5a929913b16cc5b809
 workflow-type: tm+mt
-source-wordcount: '1674'
+source-wordcount: '1640'
 ht-degree: 0%
 
 ---
@@ -109,12 +109,12 @@ ht-degree: 0%
    * 建立及管理申請表單
    * 建立及管理自動化
 
-* 您新增至全域記錄型別的記錄只會顯示給對其新增所在工作區具有檢視許可權的使用者。<!-- this needs to be more specific: what does "o the workspace where they were added" mean? - added in which kind of workspaces? secondary or primary; asking Lilit-->
+* 您新增至全域記錄型別的記錄只會顯示給對其新增所在工作區具有檢視許可權的使用者。
 * 您從次要工作區新增的記錄會累計，並顯示在原始工作區中。 原始工作區的所有成員都會獲得其檢視許可權。
 * 將原始全域記錄型別新增至多個次要工作區時，會出現下列情況：
 
    * 原始工作區的成員會自動取得從任何工作區新增之所有記錄的「檢視」許可權，即使他們不是這些工作區的成員。
-   * 次要工作區成員只能檢視其所屬工作區的記錄。<!--change this to: Secondary workspace members can view only records from the workspace the records were added and where they have at least permissions to view the record workspace and the record type.-->
+   * 次要工作區成員只能檢視其所屬工作區的記錄。
 
 * 連線至全域記錄型別的記錄型別將可用於從新增此記錄型別的工作區進行連線。
 
@@ -172,23 +172,16 @@ ht-degree: 0%
    * 建立及管理申請表單
    * 建立及管理自動化
 
-* 只有在您擁有下列工作區的「檢視」或更高許可權時，才可從這些工作區看見新增至次要工作區的記錄：
+* 如果您擁有下列工作區的「檢視」或更高許可權，則可從這些工作區看見新增至次要工作區的記錄：
 
-   * 要新增工作區的次要工作區。
-   * 全域記錄型別的原始工作區。
-   * 新增全域工作區的所有其他工作區。
-
-  <!--replace he above bullet with this: 
-        * Records added in a secondary workspace are visible from the following workspaces, only if you have View or higher permissions to these workspaces:
-        * The secondary place where they were added
-        * The global record type's original workspace
-    -->
+   * 新增的次要位置
+   * 全域記錄型別的原始工作區
 
 * 在次要工作區中建立的記錄存在下列情況：
 
    * 如果您對原始工作區具有「管理」許可權，而對次要工作區沒有許可權，則可以從原始工作區中的次要工作區檢視新增的記錄，但無法從原始工作區管理這些記錄。
    * 如果您對次要工作區具有管理許可權，則可以從全域記錄型別的原始工作區以及新增記錄的次要工作區來管理記錄。
-   * 只有在您擁有其他次要工作區的「檢視」許可權時，才能檢視這些工作區中的記錄，在這些工作區中新增了全域記錄型別。<!-- take this bullet out when we change this functionality on Jan 15-->
+     <!--not anymore: * You can view the records in additional secondary workspaces where the global record type is added only if you have View permissions to those workspaces-->
 * 您無法在次要工作區中公開共用全域記錄型別的檢視。
 
 ### 存取全域記錄型別的連線

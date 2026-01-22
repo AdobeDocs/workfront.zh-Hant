@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
+source-git-commit: 5bccad02f90fd99135b50c5a929913b16cc5b809
 workflow-type: tm+mt
-source-wordcount: '3165'
+source-wordcount: '3240'
 ht-degree: 0%
 
 ---
@@ -148,12 +148,11 @@ ht-degree: 0%
 
 ## 建立記錄時的注意事項
 
-<!--
-* Depending which workspace they are added from, records added to global record types are visible by the following types of users:
+* 根據新增記錄的工作區來源，下列使用者型別會顯示新增至全域記錄型別的記錄：
 
-    * Records added to the original workspace of a global record type are visible from the original workspace and all secondary workspaces where the record type is added. (***************check with Lilit on this one*************)
-    * Records added to a secondary workspace of a global record type are visible only from the workspace they were created and the original workspace of the global record type. 
-    For more information, see [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md). -->
+   * 新增至全域記錄型別之原始工作區的記錄可從原始工作區中看到。
+   * 新增至全域記錄型別之次要工作區的記錄，只會從建立它們的工作區和全域記錄型別的原始工作區中顯示。
+如需詳細資訊，請參閱[跨工作區記錄型別概觀](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)。
 
 * 根據使用者對工作區和記錄型別的許可權，使用者可以透過下列方式建立記錄：
 
@@ -188,7 +187,7 @@ ht-degree: 0%
 
 1. （視條件而定）如果您按一下&#x200B;**新記錄**，請執行下列動作：
 
-   1. 按一下下列其中一個方式來建立記錄，然後按一下[繼續]&#x200B;**&#x200B;**：
+   1. 按一下下列其中一個方式來建立記錄，然後按一下[繼續]****：
 
       * **手動新增**。 記錄的預覽方塊開啟。\
         從步驟6開始，新增記錄的相關資訊，如[從本文中的記錄型別資料表檢視](#create-records-by-adding-them-inline-from-the-record-type-table-view)區段內嵌新增記錄，以建立記錄中所述。<!--insure this stays accurate-->
@@ -519,7 +518,7 @@ You can import records from other applications by linking them to existing recor
 1. （視條件而定）如果嘗試連線時找不到記錄，請按一下[新增] **+ [新增]**
 
    或
-開始輸入名稱，然後按一下&#x200B;**+新增**。 **+新增**&#x200B;按鈕後面接著您連線的記錄型別名稱。 例如，將品牌新增至現有行銷活動時，「新增品牌」。 您輸入的名稱也會跟著新增按鈕。
+開始輸入名稱，然後按一下**+新增**。 **+新增**&#x200B;按鈕後面接著您連線的記錄型別名稱。 例如，將品牌新增至現有行銷活動時，「新增品牌」。 您輸入的名稱也會跟著新增按鈕。
 
    ![新增按鈕以在醒目提示的內容中建立記錄](assets/add-button-to-create-records-in-context-highlighted.png)
 

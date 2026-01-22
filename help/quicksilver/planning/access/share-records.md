@@ -7,9 +7,9 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
+source-git-commit: 54a6e633e903c73a78b36e90fb27edb445dc8d47
 workflow-type: tm+mt
-source-wordcount: '1838'
+source-wordcount: '1883'
 ht-degree: 2%
 
 ---
@@ -198,7 +198,7 @@ If the inherited permissions are disabled, the user gets the maximum of wildcard
 
    >[!TIP]
    >
-   >您無法從繼承的許可權清單中移除個別實體。
+   >您無法從繼承的許可權清單中移除個別實體。<!--test this!-->
 
 1. （選擇性和條件性）如果您想要與特定實體共用記錄，並授予他們不同於工作區現有記錄型別的不同存取權，請執行以下操作：
 
@@ -224,6 +224,7 @@ If the inherited permissions are disabled, the user gets the maximum of wildcard
    >* 如果使用者擁有工作區和記錄型別的「貢獻」或「管理」許可權，他們將保留記錄的「管理」許可權。 檢視許可權會變暗。<!--this is not dimmed at this time, Lilit to check-->
    >* 如果使用者擁有記錄型別的Contribute或更高許可權，則您無法授予他們較低許可權存取記錄。
    > 如需詳細資訊，請參閱[在Adobe Workfront Planning中共用許可權的總覽](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
+   >* 當您與使用者共用記錄時，其主要工作角色<span class="preview">及其電子郵件</span>也會顯示在欄位中。 您必須在存取層級中為使用者物件啟用「檢視連絡人資訊」設定，才能檢視使用者的電子郵件。
 
 1. 若要為沒有工作區存取許可權的使用者提供檢視記錄的存取許可權，請在&#x200B;**授予此檢視的存取許可權**&#x200B;欄位中，開始輸入使用者、群組、團隊、公司或工作角色的名稱，然後當它顯示在清單中時按一下它。
 
