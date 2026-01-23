@@ -6,9 +6,9 @@ description: 設定AI檢閱者的品牌
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: cf1d4bfeedb94e8607dad47177d804169254ee85
+source-git-commit: cd2a5560fdf446e8e971afcb640af38b4d301d40
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '410'
 ht-degree: 5%
 
 ---
@@ -57,7 +57,7 @@ AI稽核者在稽核程式期間使用品牌指南來評估內容。 您可以�
 
 * 貴組織必須已移轉至Adobe IMS (Identity Management系統)。
 * 您的Workfront執行個體必須已啟用統一核准。
-  <!--* Your organization must have GenStudio Foundation.-->
+* 您的組織必須有GenStudio Foundation。
 * Adobe必須有已簽署的Adobe Gen AI合約檔案。
 如需簽署合約的詳細資訊，請參閱[簽署Adobe Gen AI合約](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)。
 
@@ -71,7 +71,7 @@ AI稽核者在稽核程式期間使用品牌指南來評估內容。 您可以�
 1. 按一下「上傳PDF」以上傳品牌檔案。
    ![上傳品牌PDF](assets/upload-PDF.png)
 1. 按一下「**繼續**」。
-1. 上傳一或多個包含品牌准則的PDF檔案，然後按一下[新增品牌]。**&#x200B;**
+1. 上傳一或多個包含品牌准則的PDF檔案，然後按一下[新增品牌]。****
 1. 上傳檔案後，請檢閱擷取的品牌元素，以確保其符合您的品牌方針。
 
    >[!IMPORTANT]
