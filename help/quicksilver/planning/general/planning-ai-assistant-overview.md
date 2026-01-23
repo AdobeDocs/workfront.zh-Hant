@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 179a20f1ae6ab723963cc78e9573560968500ac5
 workflow-type: tm+mt
-source-wordcount: '784'
-ht-degree: 0%
+source-wordcount: '797'
+ht-degree: 1%
 
 ---
 
@@ -27,9 +27,9 @@ ht-degree: 0%
 
 使用者的命令和AI對這些命令的執行會共同運作，以確保AI所做的變更正確地反映在您的環境中。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 * AI助理員代表使用者所做的變更會在紀錄的紀錄面板中進行追蹤。
 
-* 您可以使用命令來復原動作。 例如，您可以輸入「復原上次變更」來回覆變更。
+* AI助理完成的動作是永久性的，且無法復原。 例如，刪除欄位後便無法還原。 在接受之前，請先檢閱AI助理建議的所有動作。
 
 * 透過AI助理建立、更新或刪除物件時，AI助理會顯示預期的動作並要求確認。 之後，您可以確認或取消動作。
 
