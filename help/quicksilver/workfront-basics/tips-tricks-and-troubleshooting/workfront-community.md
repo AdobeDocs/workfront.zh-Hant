@@ -54,7 +54,7 @@ Adobe [!DNL Workfront]社群是超過10,000個[!DNL Workfront]使用者的線上
 
 ### [!DNL Workfront]社群的URL為何？
 
-[!DNL Workfront]社群可在[!DNL Adobe Experience League]網站上取得，網址如下： [[!DNL Workfront] 社群](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)。
+[!DNL Workfront]社群可在[!DNL Adobe Experience League]網站上取得，網址如下： [[!DNL Workfront] 社群](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=zh-Hant)。
 
 ### 我的子網域是什麼？ {#what-s-my-subdomain}
 

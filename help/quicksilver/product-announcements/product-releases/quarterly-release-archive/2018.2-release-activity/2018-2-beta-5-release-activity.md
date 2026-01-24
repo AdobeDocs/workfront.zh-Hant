@@ -155,7 +155,7 @@ ht-degree: 1%
 
 如需有關重新排序清單中資料行大小的資訊，請參閱[修改資料行寬度和順序](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)。
 
-若要參與我們目前的清單改進測試計畫，請參閱[新清單研究。](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront) （需要登入）
+若要參與我們目前的清單改進測試計畫，請參閱[新清單研究。](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=zh-Hant) （需要登入）
 
 ## 新專案清單的圖示支援 {#icon-support-for-the-new-project-lists}
 

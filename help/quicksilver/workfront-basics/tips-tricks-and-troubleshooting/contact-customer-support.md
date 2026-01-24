@@ -137,7 +137,7 @@ ht-degree: 0%
 1. （選擇性）若要關閉案例，請按一下&#x200B;**[!UICONTROL 關閉案例]**&#x200B;按鈕。
 
 
-<!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737)
+<!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737?profile.language=zh-Hant)
 
 - this is the information that was there before - pointing to WorkfrontOne: 
 

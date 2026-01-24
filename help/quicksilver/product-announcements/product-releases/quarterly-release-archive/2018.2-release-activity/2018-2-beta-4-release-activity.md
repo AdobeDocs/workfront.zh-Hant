@@ -145,7 +145,7 @@ ht-degree: 0%
 
 如需將資源規劃工具資料匯出至Excel的詳細資訊，請參閱[資源規劃工具導覽概觀](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md)中的「匯出選項」一節。
 
-若要參與我們目前資源規劃工具的Beta版計畫，請參閱[資源規劃工具績效Beta。](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)
+若要參與我們目前資源規劃工具的Beta版計畫，請參閱[資源規劃工具績效Beta。](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=zh-Hant)
 
 ## 系統設定：外部頁面中的工作階段資訊 {#system-setting-session-information-in-external-pages}
 

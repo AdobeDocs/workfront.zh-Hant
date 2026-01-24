@@ -257,4 +257,4 @@ Workfront Fusion使用事件訂閱來監視Workfront中的變更以觸發情境�
 
 如需使用此模組的說明，請參閱Workfront Fusion檔案中的[Workfront模組](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules)。
 
-如需在事件訂閱升級期間保留Workfront Fusion案例的資源，包括網路研討會影片，請參閱[在事件訂閱V2升級期間保留Fusion案例](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182)。
+如需在事件訂閱升級期間保留Workfront Fusion案例的資源，包括網路研討會影片，請參閱[在事件訂閱V2升級期間保留Fusion案例](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182?profile.language=zh-Hant)。
