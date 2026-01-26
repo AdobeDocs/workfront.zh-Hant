@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d2b63508-1943-4f9e-888e-8f1bfb54c33e
-source-git-commit: 17aaf70977aa6ce0276676c6a30fd6c951be956c
+source-git-commit: 5fac387d598e2959566547df5d2d11078ec25154
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 4%
+source-wordcount: '254'
+ht-degree: 12%
 
 ---
 
@@ -19,22 +19,22 @@ ht-degree: 4%
 
 如果您建立自訂內部說明網站，其中包含有關您的組織如何使用Workfront的資訊，您可以設定主要功能表說明圖示移至該網站。
 
-![自訂說明按鈕](assets/custom-help-button.png)
+![自訂說明按鈕](assets/custom-help-with-left-menu.png)
 
 這不會影響整個Workfront中的內容相關說明連結，其會將使用者帶往Workfront說明網站。
 
 若要瞭解使用者如何存取您在Workfront中設定的自訂說明URL和一般Workfront說明網站，請參閱[存取Adobe Workfront說明](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
+   <td>Adobe Workfront 封裝</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -53,7 +53,7 @@ ht-degree: 4%
 
 +++
 
-## 設定自訂說明URL
+## 設定自訂說明 URL
 
 {{step-1-to-setup}}
 
@@ -64,4 +64,4 @@ ht-degree: 4%
 
 1. 按一下「**儲存**」。
 
-   儲存自訂說明URL後，您可以刪除自訂URL並按一下「儲存」**&#x200B;**，返回預設的Workfront說明網站。
+   儲存自訂說明URL後，您可以刪除自訂URL並按一下&#x200B;**儲存**，以使用預設的Workfront說明網站返回。
