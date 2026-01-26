@@ -1,32 +1,33 @@
 ---
 title: 開始使用Adobe Workfront Planning Designer
-description: 使用Adobe Planning Designer，您可以產生新的工作區、完成Workfront Planning中的記錄型別和欄位、將物件新增至工作區，或檢視記錄的變更歷史記錄。
+description: 您可以使用由AI支援的Adobe Planning Designer，輕鬆設定工作區和資料結構。 Planning Designer支援從建立和設定工作區到定義欄位和公式、管理記錄、檢閱變更記錄和建立自訂檢視的所有功能。 不論是直接使用或透過AI Assistant使用，Planning Designer都能提供彈性、強大的環境，用於建立及維護結構化、連線的資訊。
 recommendations: noDisplay, noCatalog
-hidefromtoc: true
-hide: true
-source-git-commit: bd3dde54d986416af847b2f3b2a1e8570d5ce3f2
+author: Alina, Becky
+feature: Workfront Planning
+role: User, Admin
+source-git-commit: b52c188d767ee37699ead71ed90642458d9889fa
 workflow-type: tm+mt
-source-wordcount: '1278'
-ht-degree: 1%
+source-wordcount: '1480'
+ht-degree: 0%
 
 ---
 
 
-<!--add these at release to the metadata:
-
-author: Alina, Becky
-feature: Workfront Planning
-role: User, Admin -->
-
 # 開始使用Adobe Workfront Planning Designer
-
-{{planning-important-intro}}
-
-您可以使用由AI支援的Adobe Planning Designer來產生新工作區、將物件新增至工作區（記錄型別、記錄、檢視或欄位），或檢視記錄的變更歷史記錄。
 
 >[!IMPORTANT]
 >
 >Planning Designer目前僅適用於參與「已關閉的Beta」計畫的使用者。
+>
+>本文資訊說明Adobe Workfront的額外功能Adobe Workfront Planning。
+>
+>如需存取Workfront Planning的需求清單，請參閱[Adobe Workfront Planning存取總覽](/help/quicksilver/planning/access/access-overview.md)。
+> 
+>如需Workfront Planning的一般資訊，請參閱[開始使用Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)。
+
+您可以使用由AI支援的Adobe Planning Designer，輕鬆設定工作區和資料結構。 Planning Designer支援從建立和設定工作區到定義欄位和公式、管理記錄、檢閱變更記錄和建立自訂檢視的所有功能。
+
+不論是直接使用或透過AI Assistant使用，Planning Designer都能提供彈性、強大的環境，用於建立及維護結構化、連線的資訊。
 
 如需Workfront Planning的相關資訊，請參閱下列文章：
 
@@ -70,7 +71,7 @@ role: User, Admin -->
 
 +++
 
-## 為Planning Designer註冊Closed Beta方案
+## 針對Planning Designer註冊「已關閉的Beta」計畫
 
 目前，您可以傳送電子郵件至sargism@adobe.com，申請參與Planning Designer的封閉Beta計畫。
 
@@ -80,20 +81,36 @@ role: User, Admin -->
 >
 >您的公司必須先接受AI Assistant合約，系統才能使用Planning Designer。
 
+## 提交有關Planning Designer的意見回饋
+
+您可以在測試版計畫期間提交有關Planning Designer的意見回饋。
+
+1. 登入Workfront，然後按一下左上角的&#x200B;**主功能表**&#x200B;圖示![行主功能表](assets/lines-main-menu.png)，然後按一下&#x200B;**規劃**。
+
+   **規劃**&#x200B;區域隨即開啟。
+
+1. 按一下&#x200B;**使用AI建立**。<!--update this tag name when they change it-->
+
+   **計畫Designer**&#x200B;視窗的&#x200B;**Workspace設定**&#x200B;區域隨即開啟。<!--replace shot below when they rename the area to Planning Designer-->
+
+1. 按一下頁面底部的&#x200B;**在此提交意見反應**。
+1. 在提供的分享空間加入您的意見反應，然後按一下&#x200B;**提交**。
+您的意見回饋會提交至工程和產品團隊。
+
 ## Planning Designer的相關考量事項
 
 * 若要使用Planning Designer，您必須先為組織開啟AI助理。 AI助理必須具備下列條件，組織中的所有人都能使用：
 
    * Workfront必須將AI助理提供給您的組織使用。
 
-     如需詳細資訊，請參閱[&#x200B; AI助理的必要條件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
+     如需詳細資訊，請參閱[ AI助理的必要條件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
    * Workfront讓您的AI助理可以使用後，Workfront的主要管理員就可以存取它。
 
      如需詳細資訊，請參閱[設定您系統的基本資訊](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md)。
    * Workfront管理員必須接受AI助理合約，然後為所有其他使用者開啟AI助理。
 
      如需詳細資訊，請參閱[啟用或停用AI助理](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)。
-* 系統管理員為您的組織開啟AI助理之後，如果已經為您的組織提供Planning助理，預設情況下，所有使用者都可以使用。
+* 系統管理員為您的組織開啟AI助理後，如果貴組織已可使用Planning Designer，則預設情況下，所有使用者都可使用。
 * 當您在Planning區域使用Planning Designer時，AI助理也可以執行由Planning助理執行的動作。
 * AI助理在「計畫」區域中執行的動作或Planning Designer執行的動作會與Workfront Planning許可權和Workfront存取層級相關。
 
@@ -155,13 +172,13 @@ role: User, Admin -->
 
 1. 登入Workfront，然後按一下左上角的&#x200B;**主功能表**&#x200B;圖示![行主功能表](assets/lines-main-menu.png)，然後按一下&#x200B;**規劃**。
 
-   **規劃**&#x200B;區域隨即開啟。
+   **規劃**&#x200B;區域隨即開啟。<!--update screen shot when they change the name of the button-->
 
    ![Design with AI按鈕（在Workspaces頁面上）](assets/design-with-ai-button-on-workspaces-page.png)
 
-1. 按一下&#x200B;**使用AI設計**。
+1. 按一下&#x200B;**使用AI建立**。<!--update this when they change it-->
 
-   **計畫Designer**&#x200B;視窗隨即開啟。
+   **計畫Designer**&#x200B;視窗的&#x200B;**Workspace設定**&#x200B;區域隨即開啟。<!--replace shot below when they rename the area to Planning Designer-->
 
    ![規劃Designer視窗](assets/planning-designer-window.png)
 
@@ -216,7 +233,7 @@ role: User, Admin -->
 1. 以系統管理員身分登入Workfront。
 1. 按一下熒幕左上角的&#x200B;**主功能表** ![主功能表圖示](assets/main-menu-shell.png)，然後按一下&#x200B;**設定**。
 1. 按一下左側面板中的&#x200B;**系統** >，然後移至&#x200B;**AI偏好設定**&#x200B;區域。
-1. 關閉&#x200B;**規劃Designer**&#x200B;設定。<!--add new screen shot with info icon-->
+1. 關閉&#x200B;**規劃上線**&#x200B;設定。<!--add new screen shot with info icon and new name of the toggle; ensure you don't show the AI Reviewer if it is not in Prod yet-->
 
    系統偏好設定中的![規劃Designer設定](assets/planning-designer-toggle-in-system-preferences.png)
 1. 按一下「**儲存**」。
