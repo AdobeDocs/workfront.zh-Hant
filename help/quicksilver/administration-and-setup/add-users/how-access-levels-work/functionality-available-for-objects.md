@@ -4,20 +4,20 @@ content-type: reference
 product-area: system-administration
 keywords: 存取，模型，funnel，圖表，層級，許可權
 navigation-topic: access-levels
-title: 新存取層級中每種物件型別的可用功能
+title: 每種物件型別可用的功能
 description: 下表列出各種存取層級中每種物件型別的可用功能。
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: eec482dceb9a35225cb28cccc13811a91536cc83
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '1334'
+source-wordcount: '1326'
 ht-degree: 14%
 
 ---
 
-# 可用於新存取層級之每種物件型別的功能
+# 適用於每種物件型別的功能
 
 {{highlighted-preview}}
 
@@ -32,7 +32,7 @@ ht-degree: 14%
 >[!NOTE]
 >
 >* 本文說明新Workfront套件模型中可用於存取層級的功能。 若要檢視目前封裝模型中可用的功能，請參閱[各種存取層級中每種物件型別的可用功能](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)。
->* 如需最新模式中不同套件可用的功能清單，請參閱[Adobe Workfront定價與封裝](https://business.adobe.com/tw/products/workfront/pricing.html)。
+>* 如需最新模式中不同套件可用的功能清單，請參閱[Adobe Workfront定價與封裝](https://business.adobe.com/products/workfront/pricing.html)。
 
 ## 專案
 

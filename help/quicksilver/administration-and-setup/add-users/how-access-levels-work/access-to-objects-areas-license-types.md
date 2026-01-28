@@ -3,20 +3,20 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: access-levels
-title: 透過新授權存取物件與區域
+title: 按授權存取物件與區域
 description: 下表告訴您每個Adobe Workfront授權對於Workfront中的物件與區域允許的最高存取層級（編輯或檢視）。
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
-source-git-commit: 091d343b5c36ab6bca09aecfc8cba248adcd11e3
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '468'
 ht-degree: 20%
 
 ---
 
-# 透過新授權存取物件和區域
+# 依授權存取物件和區域
 
 <!-- Audited: 2/2024 -->
 

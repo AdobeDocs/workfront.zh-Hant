@@ -1,18 +1,18 @@
 ---
-title: 每個物件型別可設定的功能存取權
+title: 可設定的每種物件型別功能存取權（舊版）
 description: 本文說明您可以允許作為Adobe Workfront管理員，在每個存取層級中用於每個物件型別的內容。 本檔案也會說明每種存取層級型別的預設設定。
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 94e0b205-140c-41c9-bb5a-f89b4c3aaea0
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '3508'
+source-wordcount: '3510'
 ht-degree: 10%
 
 ---
 
-# 可設定的每種物件型別功能存取權
+# 可設定的每種物件型別功能存取權（舊版）
 
 >[!NOTE]
 >

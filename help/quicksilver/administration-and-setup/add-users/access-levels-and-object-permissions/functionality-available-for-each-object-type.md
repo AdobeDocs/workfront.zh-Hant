@@ -4,20 +4,20 @@ content-type: reference
 product-area: system-administration
 keywords: 存取，模型，funnel，圖表，層級，許可權
 navigation-topic: access-levels
-title: 各種存取層級中每種物件型別的可用功能
+title: 適用於各種存取層級（舊版）之每種物件型別的功能
 description: 下表列出各種存取層級中每種物件型別的可用功能。
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1588'
 ht-degree: 14%
 
 ---
 
-# 適用於各種存取層級之每種物件型別的功能
+# 適用於各種存取層級之每種物件型別的功能（舊版）
 
 {{highlighted-preview}}
 

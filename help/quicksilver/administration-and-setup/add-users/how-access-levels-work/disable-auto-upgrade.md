@@ -1,5 +1,5 @@
 ---
-title: 停用新授權計畫上未付費使用者的自動升級選項
+title: 停用非付費使用者的自動升級選項
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -10,14 +10,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 58c76187-fc74-4ab4-80e8-c3e296a84f27
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 2%
+source-wordcount: '188'
+ht-degree: 10%
 
 ---
 
-# 停用新授權計畫上未付費使用者的自動升級選項
+# 停用非付費使用者的自動升級選項
 
 新計畫的所有未付費Workfront授權校訂和檔案決定受限。 當使用者達到其分配數量的決定時，他們會依預設升級至輕度授權。
 
@@ -27,16 +27,16 @@ ht-degree: 2%
 >
 >一旦停用，任何超過分配數量決定的非付費使用者都不會自動升級。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td>任何</td> 
   </tr> 
   <tr> 

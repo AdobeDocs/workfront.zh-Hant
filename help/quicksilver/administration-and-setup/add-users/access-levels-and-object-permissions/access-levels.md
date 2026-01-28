@@ -1,5 +1,5 @@
 ---
-title: 存取層級的運作方式
+title: 舊版存取層級的運作方式
 content-type: administrator
 product-area: system-administration
 navigation-topic: add-users-to-workfront
@@ -9,14 +9,14 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 14cf53be-e8b5-4508-b0df-c024f1e4f3a7
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '196'
 ht-degree: 1%
 
 ---
 
-# 存取層級的運作方式
+# 舊版存取層級的運作方式
 
 >[!NOTE]
 >
@@ -24,13 +24,13 @@ ht-degree: 1%
 
 身為Adobe Workfront管理員，您可以授予使用者存取權，以指派存取層級給使用者檢視或編輯物件。 以下文章說明存取層級的運作方式。
 
-* [存取層級概觀](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
-* [授權總覽](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
-* [內建存取層級](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
-* [存取層級和許可權如何搭配運作](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
-* [列出您使用者的存取層級和授權](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
-* [依照授權型別存取物件和區域](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
-* [每個物件型別可用的功能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
+* [舊版存取層級概觀](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
+* [舊版授權總覽](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
+* [內建舊版存取層級](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
+* [舊版存取層級與許可權如何搭配運作](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
+* [列出您使用者的存取層級和授權（舊版）](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
+* [依授權型別（舊版）存取物件和區域](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
+* [每種物件型別（舊版存取層級）可用的功能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
 
 ## 另請參閱
 

@@ -1,5 +1,5 @@
 ---
-title: 新存取層級的運作方式
+title: 存取層級的運作方式
 content-type: administrator
 product-area: system-administration
 navigation-topic: add-users-to-workfront
@@ -9,14 +9,14 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 05f575d0-bf42-430b-8648-dbdd9297ca08
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '162'
 ht-degree: 1%
 
 ---
 
-# 新存取層級的運作方式
+# 存取層級的運作方式
 
 >[!NOTE]
 >
@@ -24,11 +24,11 @@ ht-degree: 1%
 
 身為Adobe Workfront管理員，您可以授予使用者存取權，以指派存取層級給使用者檢視或編輯物件。 以下文章將說明新存取層級的運作方式。
 
-* [新存取層級概觀](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
-* [新授權總覽](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
-* [透過存取物件和區域，以取得新授權](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
+* [存取層級概觀](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
+* [授權總覽](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
+* [依授權存取物件和區域](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
 * [每個物件型別可用的功能](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
-* [停用新授權計畫上未付費使用者的自動升級選項](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
+* [停用非付費使用者的自動升級選項](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
 * [比較不同授權模式的功能](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/comparing-old-and-new-license-models.md)
 
 ## 另請參閱

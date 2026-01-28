@@ -1,5 +1,5 @@
 ---
-title: 存取層級概觀
+title: 舊版存取層級概觀
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -10,14 +10,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '330'
 ht-degree: 3%
 
 ---
 
-# 存取層級概觀
+# 舊版存取層級概觀
 
 <!-- Audited: 12/2023 -->
 

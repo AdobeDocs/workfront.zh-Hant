@@ -1,5 +1,5 @@
 ---
-title: 授權總覽
+title: 舊版授權概觀
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -10,14 +10,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f30e2d8-f5c3-4811-b780-49a2b0d058e7
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '372'
 ht-degree: 2%
 
 ---
 
-# 授權總覽
+# 舊版授權概觀
 
 <!-- Audited: 12/2023 -->
 

@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: bf34bfa2059d227eca3faa3d719adcf4d711e457
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '13724'
+source-wordcount: '13721'
 ht-degree: 2%
 
 ---
@@ -516,25 +516,25 @@ ht-degree: 2%
          * [檢視和匯出稽核記錄](administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
          * [檢視使用者登入資訊](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
          * [在Adobe Admin Console中管理使用者](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
-      * 新存取層級的運作方式 {#access-levels}
-         * [新存取層級的運作方式](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
-         * [新存取層級概觀](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
-         * [新授權總覽](administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
-         * [透過新授權存取物件和區域](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
-         * [可用於新存取層級之每種物件型別的功能](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
-         * [停用新授權計畫上未付費使用者的自動升級選項](administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
+      * 存取層級的運作方式 {#access-levels}
+         * [存取層級的運作方式](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
+         * [存取層級概觀](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
+         * [授權總覽](administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
+         * [依授權存取物件和區域](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
+         * [適用於每種物件型別的功能](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
+         * [停用非付費使用者的自動升級選項](administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
          * [比較不同授權模式的功能](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/comparing-old-and-new-license-models.md)
          * [Workfront檔案中的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
-      * 存取層級的運作方式 {#legacy-access-levels}
-         * [存取層級的運作方式](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
-         * [存取權總覽](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
-         * [授權總覽](administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
-         * [存取層級和許可權](administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
-         * [依授權型別存取物件和區域](administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
-         * [每種物件型別的功能](administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
-         * [每個物件型別的可設定存取權](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
-         * [內建存取層級](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
-         * [列出使用者的存取層級和授權](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
+      * 舊版存取層級的運作方式 {#legacy-access-levels}
+         * [舊版存取層級的運作方式](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
+         * [舊版存取層級概觀](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
+         * [舊版授權概觀](administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
+         * [舊版存取層級和許可權](administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
+         * [依許可證型別存取物件和區域（舊版）](administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
+         * [每種物件型別的功能（舊版）](administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
+         * [每種物件型別的可設定存取權（舊版）](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
+         * [內建存取層級（舊版）](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
+         * [列出使用者的存取層級和授權（舊版）](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
       * 設定Workfront的存取權 {#configure-access}
          * [設定存取權](administration-and-setup/add-users/configure-and-grant-access/configure-access.md)
          * [建立或修改自訂存取層級](administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)
@@ -2543,9 +2543,9 @@ ht-degree: 2%
       * [使用JWT流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-jwt-flow.md)
       * [使用PKCE流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-pkce-flow.md)
       * [棄用API — 內部](wf-api/api/deprecation-api-internal.md)
-      * [&#x200B; API 21版的新增功能](/help/quicksilver/wf-api/api/new-api-version-21.md)
-      * [&#x200B; API 20版的新增功能](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [&#x200B; API 19版的新增功能](wf-api/api/new-api-version-19.md)
+      * [ API 21](/help/quicksilver/wf-api/api/new-api-version-21.md)版的新增功能
+      * [ API 20](/help/quicksilver/wf-api/api/new-api-version-20.md)版的新增功能
+      * [ API 19](wf-api/api/new-api-version-19.md)版的新增功能
       * [API 18版的新增功能](wf-api/api/new-api-version-18.md)
       * [API 17版的新增功能](wf-api/api/new-api-version-17.md)
       * [API 16版的新增功能](wf-api/api/new-api-version-16.md)
