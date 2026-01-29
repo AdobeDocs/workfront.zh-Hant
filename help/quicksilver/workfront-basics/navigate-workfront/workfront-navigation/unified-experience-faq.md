@@ -59,7 +59,7 @@ ht-degree: 0%
 
 ### 身為客戶，我需要做什麼來促進移轉？
 
-將會聯絡現有客戶以排程移轉。 移轉團隊支援同事將引導客戶完成程式、建議[!DNL Admin Console]設定，並提供必要的檔案連結，讓移轉過程儘可能簡單且輕鬆自在。 檢閱[[!DNL Adobe Business Platform] 和 [!DNL Admin Console] 常見問題集](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/workfront/faq)以取得詳細資訊。
+將會聯絡現有客戶以排程移轉。 移轉團隊支援同事將引導客戶完成程式、建議[!DNL Admin Console]設定，並提供必要的檔案連結，讓移轉過程儘可能簡單且輕鬆自在。 檢閱[[!DNL Adobe Business Platform] 和 [!DNL Admin Console] 常見問題集](https://experienceleague.adobe.com/zh-hant/docs/support-resources/adobe-support-tools-guide/workfront/faq)以取得詳細資訊。
 
 ### 對於已為Federated ID啟用此功能與已設定[!DNL Adobe Admin Console] SSO不同功能的公司，您如何處理[!DNL Workfront]？
 
