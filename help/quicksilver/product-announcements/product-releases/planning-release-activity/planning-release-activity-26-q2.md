@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: e14f0e19dfda3ebaf7d5452b51aa56b5924400a3
+source-git-commit: 03142ce47e7b123eea63b409749346469f5feb14
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,50 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 如需針對Adobe Workfront Planning發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## 設定記錄之詳細資訊頁面中顯示的欄位
+
+>[!NOTE]
+>
+>預覽： 2026年1月29日
+>生產快速發行： 2026年2月12日
+>每個人都能使用生產： 2026年4月16日
+
+我們匯入了設定，可讓您根據表格檢視中顯示的欄位，在詳細資訊預覽和頁面區域中顯示或隱藏記錄欄位。
+
+您可以選擇從記錄的詳細資訊區域包含或排除表格檢視中隱藏的欄位。 關閉此設定時，隱藏的欄位不會顯示在詳細資訊區域中。
+
+如需詳細資訊，請參閱[管理記錄頁面配置](/help/quicksilver/planning/records/manage-the-record-page.md)。
+
+## 新增原始請求的Planning連線欄位
+
+>[!NOTE]
+>
+>預覽： 2026年1月29日
+>生產快速發行： 2026年2月12日
+>每個人都能使用生產： 2026年4月16日
+
+您現在可以將「原始請求」連線欄位新增至記錄型別。 透過提交Planning請求表單來建立記錄時，原始請求的名稱會填入「已連線的原始請求」欄位。
+
+在此增強功能之前，您只能從請求區域檢視和存取建立記錄的原始請求。
+
+如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
+
+## 在Workfront Planning中建立請求的核准規則
+
+>[!NOTE]
+>
+>預覽： 2026年1月29日
+>生產快速發行： 2026年2月12日
+>每個人都能使用生產： 2026年4月16日
+
+為了讓請求核准更具動態與彈性，我們新增了建立核准規則的功能。 這些規則允許根據請求中的欄位值，將請求路由給不同的核准者。
+
+例如，如果請求表單有「Campaign type」欄位，則可建立規則，當欄位值為「Digital」時傳送請求給一個人，當值為「Print」時傳送請求給另一個人。
+
+核准規則是在請求表單上建立的。
+
+如需相關資訊與指示，請參閱在Adobe Workfront Planning中將核准新增至請求表單一文中的[將核准規則新增至請求表單](/help/quicksilver/planning/requests/add-approval-to-request-form.md#add-approval-rules-to-a-request-form)。
 
 ## 在Workfront Planning的使用者預先輸入欄位中顯示電子郵件
 
