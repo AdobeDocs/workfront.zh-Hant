@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: 2ffd06f2f50d14b6d33bc79c92616ebed1d58fed
 workflow-type: tm+mt
-source-wordcount: '2670'
+source-wordcount: '3518'
 ht-degree: 1%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 1%
 
 <!--take Preview and Production references at Production time-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 
 {{planning-important-intro}}
@@ -131,7 +131,7 @@ ht-degree: 1%
 1. 按一下「**建立**」。
 
    所選記錄型別的請求表單會在「表單」標籤中開啟。
-1. 繼續[設定表單](#configure-the-form)。
+1. 繼續[設定要求表單](#set-up-details-for-the-request-form)的詳細資料。
 
 <!--
 
@@ -166,7 +166,11 @@ ht-degree: 1%
 表單詳細資料會分為幾個索引標籤。
 
 * **表單**&#x200B;索引標籤可讓您新增欄位和內容元素至表單
-* **組態**&#x200B;索引標籤可讓您設定表單的核准程式，以及設定要求完成選項&lt;。
+* **組態**&#x200B;索引標籤可讓您設定表單的核准程式，以及設定要求完成選項。
+
+  >[!NOTE]
+  >
+  ><span class="preview">在[預覽]環境中，[設定]索引標籤會取代[設定]索引標籤。</span>
   <!--* <span class="preview">The **Automations** tab allows you to automate what will occur based on features of the request made with the form.</span>-->
 
 #### 設定表單詳細資料
@@ -175,7 +179,7 @@ ht-degree: 1%
 
    或
 
-   在[要求表單]清單上找出要求表單，按一下表單名稱旁的方塊，然後按一下畫面底部藍色列中的[編輯表單]。**&#x200B;**
+   在[要求表單]清單上找出要求表單，按一下表單名稱旁的方塊，然後按一下畫面底部藍色列中的[編輯表單]。****
 
    所選記錄型別的請求表單會在「表單」標籤中開啟。
 
@@ -226,9 +230,17 @@ ht-degree: 1%
    如需建立自訂表單的詳細資訊，請參閱[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 1. （選擇性）按一下&#x200B;**預覽**&#x200B;以檢視其他使用者使用表單提交新記錄時表單的顯示方式。
-1. 如果您想要設定表單的詳細資訊，請繼續[設定詳細資訊](#set-up-configuration-details)，或前往[完成建立請求表單](#complete-request-form-creation)。
+1. 繼續下列其中一項：
+
+   * [設定組態詳細資料](#set-up-configuration-details)如果您想要為生產環境中的表單設定更多詳細資料
+   * <span class="preview">[設定設定](#configure-settings)如果您想要為生產環境中的表單設定更多詳細資料</span>
+   * 如果您不想進一步設定，請[完成請求表單建立](#complete-request-form-creation)。
 
 #### 設定組態詳細資料
+
+>[!NOTE]
+>
+>此標籤僅在生產環境中可用。
 
 在設定索引標籤上，您可以設定核准流程，並設定從此表單建立的請求何時將標示為「已完成」。
 
@@ -255,6 +267,82 @@ ht-degree: 1%
 1. 選擇您是否希望在建立要求的物件時，或是當要求的物件完成時，將從此表單建立的要求標籤為完成。
 1. （視條件而定）如果您已選取在要求的物件完成時將要求標籤為完成的欄位，請選取指示物件完成時間的欄位和值。 例如，當建立的物件狀態設為「完成」時，您可以選取「狀態」欄位和值「完成」以完成請求。
 1. 繼續<!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[完成請求表單建立](#complete-request-form-creation)。
+
+<div class="preview">
+
+### 進行設定
+
+>[!NOTE]
+>
+>此標籤僅在預覽環境中可用。
+
+在「設定」索引標籤上，您可以設定核准規則，並設定從此表單建立的請求何時將標示為「已完成」。
+
+#### 設定核准規則
+
+核准規則會根據已提交請求中的欄位值來定義核准流程。
+
+例如，如果請求表單有「Campaign type」欄位，則可建立規則，當欄位值為「Digital」時傳送請求給一個人，當值為「Print」時傳送請求給另一個人。
+
+新增核准規則時，請考量下列事項：
+
+* 規則會依順序排列優先順序。 如果滿足第一個規則條件，則會套用該規則，即使清單下方規則的條件也滿足。
+* 若不符合任何條件，則會套用預設規則。
+* 您可以將一或多個核准者新增至核准規則。
+* 如果至少有一位核准者拒絕請求，則請求會遭到拒絕，且不會建立記錄。 此請求會保留在Workfront的請求區域中。
+* 如果您新增多個核准者，但未啟用「只有一個決定是必要的」選項，則所有核准者必須在核准或拒絕請求之前做出決定。
+* 如果團隊被設定為核准者，則只需從團隊中做出一個決定。
+
+如需新增核准的詳細資訊，請參閱[新增核准至要求表單](/help/quicksilver/planning/requests/add-approval-to-request-form.md)。
+
+若要設定請求表單的核准規則：
+
+1. 開始建立或編輯要求表單，如[開始建立要求表單](#begin-creating-a-request-form)一節中所述。
+
+   所選記錄型別的請求表單會在「表單」標籤中開啟。
+1. （選擇性）設定任何表單詳細資料，如[設定表單詳細資料](#set-up-form-details)中所述。
+
+1. 若要開始設定核准規則，請按一下左側導覽中的核准![核准圖示](assets/approvals-icon-on-form.png)。
+
+1. （選擇性）如果您想要設定預設核准程式，請在[預設核准規則]區域的&#x200B;**核准者**&#x200B;欄位中新增至少一位使用者或團隊，然後按一下&#x200B;**僅需要一個決定**&#x200B;核取方塊（如果您想要在任何一位預設核准者核准記錄後建立記錄）。
+
+   ![預設核准規則區域](assets/default-approvers.png)
+
+   <!--below bullet list is duplicated in the Add approval to a request form article-->
+
+1. （選用）請針對每個額外的核准規則，執行下列作業：
+
+   1. 按一下&#x200B;**新增核准規則**
+   1. 按一下預留位置標題「未命名的核准規則」，然後輸入核准規則的名稱。
+   1. 按一下&#x200B;**選取欄位**&#x200B;並選取啟用規則的欄位。
+   1. 選取規則的運運算元。 運運算元會依欄位型別而異。
+   1. 如果選取的運運算元需要值，請按一下加號圖示並新增一或多個值。
+   1. （選用）按一下「新增條件」並設定其他條件，以使用AND或OR新增更多條件。
+   1. 在核准規則的「動作」區域中，在&#x200B;**核准者**&#x200B;欄位中，新增至少一位當符合條件時要在核准者處設定的使用者或團隊。
+   1. （視條件而定）如果要在任何核准者核准記錄後建立記錄，請核取&#x200B;**僅需要一個決定**&#x200B;核取方塊。
+
+1. （可選）若要重新排序路由規則，請按一下規則左側的拖曳控點，並將規則拖曳到所要的位置。
+
+   無法重新排序預設規則。
+
+1. （選擇性）若要刪除路由規則，請按一下規則右側的&#x200B;**X**。
+1. 按一下[儲存]儲存核准規則。****
+1. 繼續[設定要求完成選項](#set-request-completion-options)
+
+#### 設定請求完成選項
+
+完成選項可讓您設定在建立要求的物件時，或是建立物件完成時，是否將要求標籤為完成。 您可以根據指定的條件定義物件的完成時間。
+
+1. 開始建立或編輯要求表單，如[開始建立要求表單](#begin-creating-a-request-form)一節中所述。
+
+   所選記錄型別的請求表單會在「表單」標籤中開啟。
+1. （選擇性）設定任何表單詳細資料，如[設定表單詳細資料](#set-up-form-details)中所述。
+
+1. 選擇您是否希望在建立要求的物件時，或是當要求的物件完成時，將從此表單建立的要求標籤為完成。
+1. （視條件而定）如果您已選取在要求的物件完成時將要求標籤為完成的欄位，請選取指示物件完成時間的欄位和值。 例如，當建立的物件狀態設為「完成」時，您可以選取「狀態」欄位和值「完成」以完成請求。
+1. 繼續<!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[完成請求表單建立](#complete-request-form-creation)。
+
+</div>
 
 <!--
  
