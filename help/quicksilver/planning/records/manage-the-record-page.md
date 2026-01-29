@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 665e753880be59cf07062d75c66a7be5f2056aa1
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: '1545'
 ht-degree: 0%
 
 ---
@@ -16,10 +16,9 @@ ht-degree: 0%
 
 # 管理記錄頁面配置
 
-<!--
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">本頁標示的資訊是指尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -172,7 +171,7 @@ ht-degree: 0%
 
 * 一個頁面上可以擁有的區段數沒有限制。
 * 不能有空白區段。 區段中必須至少有一個欄位。
-* 您可以將欄位從一個區段拖放至另一個區段。 如需詳細資訊，請參閱本文中[重新排列記錄預覽或詳細資訊頁面](#rearrange-fields-in-the-record-preview-or-details-page)中的欄位。
+* 您可以將欄位從一個區段拖放至另一個區段。 如需詳細資訊，請參閱本文中記錄預覽或詳細資訊頁面[中的](#manage-fields-in-the-records-details-tab)管理欄位一節。
 * 當您從區段移除所有欄位時，該區段會自動刪除且無法復原。
 
 若要將區段新增至記錄預覽或頁面：
@@ -205,7 +204,7 @@ ht-degree: 0%
 
 1. 在記錄預覽或頁面的&#x200B;**詳細資料**&#x200B;索引標籤中，將滑鼠移至欄位左側的空白區域，然後按一下&#x200B;**新增區段**&#x200B;圖示![新增區段圖示](assets/add-section-icon.png)以新增區段。
 1. 按一下區段名稱內部，將&#x200B;**未命名的區段**&#x200B;取代為名稱，然後按一下[輸入]。 在區段下顯示的欄位會自動成為新區段的一部分。
-1. 開始將欄位拖放至新區段，如本文中記錄預覽或詳細資訊頁面[中的區段](#rearrange-fields-in-the-record-preview-or-details-page)重新排列欄位中所述。
+1. 開始將欄位拖放至新區段，如本文中記錄預覽或詳細資訊頁面[中的](#manage-fields-in-the-records-details-tab)管理欄位區段所述。
 
 1. （選擇性）將滑鼠停留在區段名稱上，然後按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)。
 
@@ -222,7 +221,7 @@ ht-degree: 0%
 
      或
 
-     按一下&#x200B;**下移**&#x200B;將區段下移一個位置。
+     按一下&#x200B;**下移**將區段下移一個位置。
 區段中的所有欄位會隨著區段移動。
 
    * 按一下&#x200B;**刪除**&#x200B;以刪除區段。 該區段已刪除且無法復原。 所有存取此型別記錄的使用者將不再檢視已刪除的區段。
@@ -254,7 +253,7 @@ ht-degree: 0%
    * Workfront物件也會從Workfront Planning的記錄連線欄位中移除。
    * 連線至Planning記錄的Workfront查閱欄位值也會一併刪除。
 
-## 重新排列記錄詳細資訊索引標籤中的欄位
+## 管理記錄詳細資訊標籤中的欄位
 
 {{step1-to-planning}}
 
@@ -281,6 +280,20 @@ ht-degree: 0%
    記錄的&#x200B;**詳細資料**&#x200B;索引標籤預設會開啟。
 
    ![詳細資料頁面](assets/details-page.png)
+
+1. <span class="preview"> （選擇性和條件性）根據您要在詳細資訊頁面中顯示的欄位，請執行下列其中一項作業：</span>
+
+   <div class="preview">
+
+   * 選取&#x200B;**顯示表格欄位**&#x200B;設定，以僅檢視未在記錄的表格檢視中隱藏的欄位。 這是預設設定
+   * 取消選取&#x200B;**顯示表格欄位**&#x200B;設定，以檢視記錄表格檢視中的所有欄位，包括隱藏的欄位。
+
+   <!--replace with this when they fix the UI text:
+   * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
+   * Deselect the **Show all fields** setting to exclude the record's fields that are hidden in the table view of the record from the **Details** page.
+   -->
+
+   </div>
 
 1. 在記錄&#x200B;**詳細資料**&#x200B;索引標籤中，按一下欄位名稱左側的&#x200B;**抓取**&#x200B;圖示![抓取圖示](assets/grab-icon.png)，然後將其拖放到所要的位置。
 

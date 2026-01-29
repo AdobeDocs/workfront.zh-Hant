@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
+source-git-commit: 11d856aeee3bd9edcdc1dbca3964f37bdf83bd00
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '748'
 ht-degree: 0%
 
 ---
@@ -23,14 +23,23 @@ ht-degree: 0%
 
 您可以將Adobe Workfront Planning記錄彼此連線，或從其他應用程式連線至物件。
 
-本文說明在Adobe Workfront Planning中連線記錄時，您必須考慮的事項。
+本文說明在Workfront Planning中連線記錄時，您必須考慮的事項。
 
 如需如何將記錄連結至彼此或另一個物件的詳細資訊，請參閱[連結記錄](/help/quicksilver/planning/records/connect-records.md)。
+
+## 先決條件
+
+您必須先連線下列專案，才能在Workfront Planning中連線記錄：
+
+* 兩種記錄型別
+* 含有來自其他應用程式的物件的記錄型別
+
+如需詳細資訊，請參閱[連線記錄型別概觀](/help/quicksilver/planning/architecture/connect-record-types-overview.md)。
 
 
 ## 有關連線記錄的考量事項
 
-* 在您連線記錄型別之後，連線的記錄型別會在它們所連結的記錄型別表格中，以及在記錄的頁面上，顯示為連結的記錄欄位。
+* 在您連線記錄型別之後，連線的記錄型別會以連線欄位的形式顯示在它們連結的記錄型別表格中，以及記錄頁面上。
 * 您可以從連結記錄欄位中瀏覽並新增連結記錄的記錄和物件以及物件型別。
 * 您可以在連結的記錄型別表格中，新增連結的記錄型別的欄位（查詢欄位）。
 
@@ -49,14 +58,17 @@ ht-degree: 0%
 
 ## 您可以連線記錄的區域
 
-您可以在下列區域將記錄連線到其他記錄，或從其他應用程式連線到物件：
+您可以在Workfront中手動或自動連線記錄。
+
+### 手動連線記錄
+
+您可以在下列區域中，手動將記錄連線到其他記錄，或從其他應用程式連線到物件：
 
 * 您可以在Workfront Planning記錄的下列區域中，將記錄連結至Workfront物件、Experience Manager Assets物件或GenStudio Brands：
 
    * Planning中記錄型別的表格檢視中的已連線記錄欄位。
-   * 記錄的預覽或詳細資訊頁面在詳細資訊索引標籤的已連線記錄欄位中。
-   * 記錄的預覽或詳細資訊頁面（在連線索引標籤上）。
-   * 已連線記錄之「已連線記錄」頁面索引標籤中的記錄頁面。
+   * 記錄的預覽或詳細資訊頁面中的已連線記錄欄位。
+   * 記錄的「連線記錄」頁面上的記錄預覽或詳細資訊頁面。
 
 * 您可以在Workfront的下列區域中，將Workfront物件連結至Workfront Planning記錄：
 
@@ -64,3 +76,25 @@ ht-degree: 0%
    * Workfront物件自訂表單上的Planning連線欄位。
 
   如需詳細資訊，請參閱[管理來自Workfront物件的記錄連線](/help/quicksilver/planning/records/manage-records-in-planning-section.md)。
+
+### 自動連線記錄
+
+將記錄型別連線到另一個或記錄型別連線到另一個應用程式的物件型別之後，您可以以下列方式自動連線記錄和物件：
+
+* 使用自動化
+
+  您可以從設定自動化的Planning記錄中建立記錄或Workfront物件。
+
+  當您定義的條件符合時，系統就會建立記錄或物件，並自動連線至您觸發自動處理的記錄。
+
+  如需詳細資訊，請參閱[設定Adobe Workfront規劃自動化](/help/quicksilver/planning/records/configure-automations-to-create-records.md)。
+
+* 使用請求表單建立記錄
+
+  您可以在提交Planning請求時建立記錄。 請求和記錄會自動連線。
+
+  >[!NOTE]
+  >
+  >您無法中斷記錄與其原始請求的連線。
+
+  如需詳細資訊，請參閱[提交Adobe Workfront Planning要求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)。
