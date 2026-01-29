@@ -7,10 +7,10 @@ author: Lisa
 feature: Work Management, Tasks, Resource Management
 role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: 4167910f36921e04351190f722ea1e7fac9641c7
+source-git-commit: b1d5122dd66d84a0e2a21f24eeb01fd3298374ad
 workflow-type: tm+mt
-source-wordcount: '1496'
-ht-degree: 2%
+source-wordcount: '1551'
+ht-degree: 1%
 
 ---
 
@@ -24,13 +24,13 @@ ht-degree: 2%
 this article is similar and updates on this one might need to be repeated here: help/quicksilver/manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md</p>
 -->
 
-<!--<div class="preview"> 
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
+本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 從預覽版開始的一週起，生產環境中也將提供相同功能給所有客戶。
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+如需詳細資訊，請參閱[2026年第二季版本總覽](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)。
 
-</div>-->
+</div>
 
 管理任務指派時，您可以使用任務清單中的大量編輯功能，一次為多個任務同時修改它們。
 
@@ -208,61 +208,60 @@ When assigning users to work, their availability according to their schedules af
       1. 按一下&#x200B;**儲存變更。**
 
 
+1. <span class="preview">（條件式）如果您使用預覽環境來指派任務，**編輯任務**&#x200B;方塊會開啟。 在預覽環境中執行下列動作： </span>
 
-   1. <span class="preview">（條件式）如果您使用預覽環境來指派任務，**編輯任務**&#x200B;方塊會開啟。 在預覽環境中執行下列動作： </span>
+   <div class="preview">
 
-      <div class="preview">
+   1. 若要新增或移除受指派人，請執行下列任一項作業：
 
-      1. 若要新增或移除受指派人，請執行下列任一項作業：
+      * 若要新增受指派人，請在&#x200B;**搜尋人員、角色或團隊**&#x200B;欄位中開始輸入受指派人名稱，然後在他們顯示在清單中時選取他們。
 
-         * 若要新增受指派人，請在&#x200B;**搜尋人員、角色或團隊**&#x200B;欄位中開始輸入受指派人名稱，然後在他們顯示在清單中時選取他們。
+        新的被指定者會新增至所選任務上的現有受指定者。
+      * 若要移除被指定者，請在&#x200B;**移除被指定者**&#x200B;方塊中按一下被指定者的名稱
 
-           新的被指定者會新增至所選任務上的現有受指定者。
-         * 若要移除被指定者，請在&#x200B;**移除被指定者**&#x200B;方塊中按一下被指定者的名稱
+        或
 
-           或
+        按一下&#x200B;**移除所有現有的受指派人**。
 
-           按一下&#x200B;**移除所有現有的受指派人**。
+        受指派人會從所有選取的任務中移除。
 
-           受指派人會從所有選取的任務中移除。
+        從任務中移除使用者可能會影響任務時數和分配百分比。
 
-           從任務中移除使用者可能會影響任務時數和分配百分比。
-
-           如需詳細資訊，請參閱[修改任務指派的概觀](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)。
-
-
-           >[!TIP]
-           >
-           >* 您可以指派多個使用者、工作角色或團隊。 您只能指派作用中的使用者、工作角色和團隊。
-           >   
-           >* 新增使用者指派時，請注意頭像、使用者的主要角色或其電子郵件地址，以區分具有相同名稱的使用者。 使用者必須至少與一個工作角色相關聯，才能在您新增時檢視該角色。 您必須在存取層級中啟用檢視聯絡資訊設定，使用者才能檢視使用者的電子郵件。 如需詳細資訊，請參閱[授予使用者存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)。
-           > 
-           >   如果使用者、工作角色或團隊在停用之前已被指派，則他們仍被指派給工作專案。 在此情況下，我們建議採取下列步驟：
-           >   
-           >* 將工作專案重新指派給作用中的資源。
-           >* 將已停用團隊中的使用者與作用中團隊建立關聯，並將工作專案重新指派給作用中團隊。
+        如需詳細資訊，請參閱[修改任務指派的概觀](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)。
 
 
-      1. （選擇性）修改受指派人的下列任一選項：
+        >[!TIP]
+        >
+        >* 您可以指派多個使用者、工作角色或團隊。 您只能指派作用中的使用者、工作角色和團隊。
+        >   
+        >* 新增使用者指派時，請注意頭像、使用者的主要角色或其電子郵件地址，以區分具有相同名稱的使用者。 使用者必須至少與一個工作角色相關聯，才能在您新增時檢視該角色。 您必須在存取層級中啟用檢視聯絡資訊設定，使用者才能檢視使用者的電子郵件。 如需詳細資訊，請參閱[授予使用者存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)。
+        > 
+        >   如果使用者、工作角色或團隊在停用之前已被指派，則他們仍被指派給工作專案。 在此情況下，我們建議採取下列步驟：
+        >   
+        >* 將工作專案重新指派給作用中的資源。
+        >* 將已停用團隊中的使用者與作用中團隊建立關聯，並將工作專案重新指派給作用中團隊。
 
-         * （視條件而定） **配置%或時數**：指定新的配置百分比或時數。
 
-         >[!NOTE]
-         >
-         >只有在正在編輯的所有任務中，持續時間型別都相同的情況下，才能修改此選項。 當持續時間型別已計算工作或投入比導向時，您可以更新配置%。 當持續時間型別簡單時，您可以更新小時。 如需有關期間型別的資訊，請參閱[任務期間與期間型別的概觀](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)。
-         >
-         >
-         >如果欄位為空白，表示值在各任務間有所不同；不過，您仍可加以修改。
+   1. （選擇性）修改受指派人的下列任一選項：
 
-         * **設為主要任務**：將滑鼠指標暫留在選取的任務上，並選取此選項，讓受指派人成為正在編輯之所有任務的所有者。
-         * **受指派人的角色**：從下拉式清單中選取一個角色。 如果保持未選取，Adobe Workfront會自動選取使用者的主要角色。
-         * **期間類型**
-         * **期間**
-         * **規劃時數**
+      * （視條件而定） **配置%或時數**：指定新的配置百分比或時數。
 
-      1. 按一下「**儲存**」。
+      >[!NOTE]
+      >
+      >只有在正在編輯的所有任務中，持續時間型別都相同的情況下，才能修改此選項。 當持續時間型別已計算工作或投入比導向時，您可以更新配置%。 當持續時間型別簡單時，您可以更新小時。 如需有關期間型別的資訊，請參閱[任務期間與期間型別的概觀](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)。
+      >
+      >
+      >如果欄位為空白，表示值在各任務間有所不同；不過，您仍可加以修改。
 
-         </div>
+      * **設為主要任務**：將滑鼠指標暫留在選取的任務上，並選取此選項，讓受指派人成為正在編輯之所有任務的所有者。
+      * **受指派人的角色**：從下拉式清單中選取一個角色。 如果保持未選取，Adobe Workfront會自動選取使用者的主要角色。
+      * **期間類型**
+      * **期間**
+      * **規劃時數**
+
+   1. 按一下「**儲存**」。
+
+      </div>
 
 
 

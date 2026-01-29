@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 665e753880be59cf07062d75c66a7be5f2056aa1
+source-git-commit: b1d5122dd66d84a0e2a21f24eeb01fd3298374ad
 workflow-type: tm+mt
-source-wordcount: '5366'
+source-wordcount: '5369'
 ht-degree: 4%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 4%
 
 本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 從預覽版開始的一週起，生產環境中也將提供相同功能給所有客戶。
 
-如需詳細資訊，請參閱[介面現代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。
+如需詳細資訊，請參閱[2026年第二季版本總覽](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)。
 
 </div>
 
@@ -540,7 +540,7 @@ ht-degree: 4%
       >* 將工作專案重新指派給作用中的資源。
       >* 將已停用團隊中的使用者與作用中團隊建立關聯，並將工作專案重新指派給作用中團隊。
 
-   1. （選擇性）暫留在受指派人名稱上，然後按一下「設為主要受指派人」**&#x200B;**，以指出受指派人是主要受指派人還是工作的擁有者。 團隊不能是任務的主要受指派人。
+   1. （選擇性）暫留在受指派人名稱上，然後按一下「設為主要受指派人」****，以指出受指派人是主要受指派人還是工作的擁有者。 團隊不能是任務的主要受指派人。
    1. （選用）更新下列欄位：
 
       <table style="table-layout:auto"> 
@@ -701,7 +701,7 @@ ht-degree: 4%
    >* 將工作專案重新指派給作用中的資源。
    >* 將已停用團隊中的使用者與作用中團隊建立關聯，並將工作專案重新指派給作用中團隊。
 
-1. （選擇性）暫留在受指派人名稱上，然後按一下「設為主要受指派人」**&#x200B;**，以指出受指派人是主要受指派人還是工作的擁有者。 團隊不能是任務的主要受指派人。
+1. （選擇性）暫留在受指派人名稱上，然後按一下「設為主要受指派人」****，以指出受指派人是主要受指派人還是工作的擁有者。 團隊不能是任務的主要受指派人。
 1. （選用）更新下列欄位：
 
    <table style="table-layout:auto"> 

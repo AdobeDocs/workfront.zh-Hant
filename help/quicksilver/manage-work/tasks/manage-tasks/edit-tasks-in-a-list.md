@@ -6,9 +6,9 @@ description: 您可以編輯工作清單中顯示的欄位，以編輯工作清�
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: 665e753880be59cf07062d75c66a7be5f2056aa1
+source-git-commit: b1d5122dd66d84a0e2a21f24eeb01fd3298374ad
 workflow-type: tm+mt
-source-wordcount: '3233'
+source-wordcount: '3236'
 ht-degree: 3%
 
 ---
@@ -21,8 +21,7 @@ ht-degree: 3%
 
 本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 從預覽版開始的一週起，生產環境中也將提供相同功能給所有客戶。
 
-如需詳細資訊，請參閱[介面現代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。
-
+如需詳細資訊，請參閱[2026年第二季版本總覽](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)。
 </div>
 
 您可以編輯工作清單中顯示的欄位，以編輯工作清單中的工作資訊。 如需有關編輯工作的其他方式的資訊，請參閱[編輯工作](../../../manage-work/tasks/manage-tasks/edit-tasks.md)。
@@ -340,7 +339,7 @@ ht-degree: 3%
    </table>
 
 1. 當您變更任務的時間表時，Workfront會更新所有專案內和跨專案相依性。
-1. 當您想要永久保留工作變更並儲存專案的時間表時，請按一下[儲存]。**&#x200B;**
+1. 當您想要永久保留工作變更並儲存專案的時間表時，請按一下[儲存]。****
 
 #### 當您選取「手動儲存時程表計畫」選項時，手動儲存工作清單中的變更 {#save-changes-in-a-task-list-manually-when-you-select-the-manual-save-timeline-planning-option}
 
@@ -448,7 +447,7 @@ ht-degree: 3%
    </table>
 
 1. 當您變更任務的時間表時，Workfront會更新所有專案內和跨專案相依性。
-1. 當您想要永久保留工作變更並儲存專案的時間表時，請按一下[儲存]。**&#x200B;**
+1. 當您想要永久保留工作變更並儲存專案的時間表時，請按一下[儲存]。****
 
 ## 使用「摘要」編輯清單中的任務
 

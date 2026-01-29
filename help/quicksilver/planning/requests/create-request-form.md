@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 2ffd06f2f50d14b6d33bc79c92616ebed1d58fed
+source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
 workflow-type: tm+mt
 source-wordcount: '3518'
 ht-degree: 1%
@@ -121,7 +121,7 @@ ht-degree: 1%
 1. 按一下頁面標頭中記錄型別名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**建立請求表單**&#x200B;或&#x200B;**管理請求表單** （如果您已經有表單，而且想要建立其他表單）。
 1. （視條件而定）若要新增其他表單，請按一下&#x200B;**新增請求表單**。
 
-   「建立請求表單」方塊隨即開啟。
+   **建立請求表單**&#x200B;方塊開啟。
 
 1. 在「建立請求表單」方塊中，更新請求表單的名稱。 依預設，表單的名稱為&#x200B;**未命名表單**。<!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. （選用）為要求表單新增&#x200B;**描述**。
@@ -170,7 +170,7 @@ ht-degree: 1%
 
   >[!NOTE]
   >
-  ><span class="preview">在[預覽]環境中，[設定]索引標籤會取代[設定]索引標籤。</span>
+  ><span class="preview">在[預覽]環境中，[設定]索引標籤取代了[設定]索引標籤。</span>
   <!--* <span class="preview">The **Automations** tab allows you to automate what will occur based on features of the request made with the form.</span>-->
 
 #### 設定表單詳細資料
@@ -179,7 +179,7 @@ ht-degree: 1%
 
    或
 
-   在[要求表單]清單上找出要求表單，按一下表單名稱旁的方塊，然後按一下畫面底部藍色列中的[編輯表單]。**&#x200B;**
+   在[要求表單]清單上找出要求表單，按一下表單名稱旁的方塊，然後按一下畫面底部藍色列中的[編輯表單]。****
 
    所選記錄型別的請求表單會在「表單」標籤中開啟。
 
@@ -326,7 +326,7 @@ ht-degree: 1%
    無法重新排序預設規則。
 
 1. （選擇性）若要刪除路由規則，請按一下規則右側的&#x200B;**X**。
-1. 按一下[儲存]儲存核准規則。**&#x200B;**
+1. 按一下[儲存]儲存核准規則。****
 1. 繼續[設定要求完成選項](#set-request-completion-options)
 
 #### 設定請求完成選項

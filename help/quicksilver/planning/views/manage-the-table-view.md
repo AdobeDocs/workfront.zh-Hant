@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 4167910f36921e04351190f722ea1e7fac9641c7
+source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
 workflow-type: tm+mt
-source-wordcount: '3440'
+source-wordcount: '3499'
 ht-degree: 2%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 2%
 # 管理表格檢視
 
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">本頁標示的資訊是指尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -237,7 +237,7 @@ ht-degree: 2%
    >
    >隱藏欄位數會顯示在工具列的「欄位」圖示左側。
    >
-   ><span class="preview">根據預設，隱藏的欄位不會顯示在記錄的&#x200B;**詳細資料**&#x200B;頁面中。 如需詳細資訊，請參閱[管理記錄頁面配置](/help/quicksilver/planning/records/manage-the-record-page.md)</span>
+   ><span class="preview">依預設，隱藏的欄位不會顯示在記錄的&#x200B;**詳細資料**&#x200B;預覽方塊中。 如需詳細資訊，請參閱[管理記錄頁面配置](/help/quicksilver/planning/records/manage-the-record-page.md)</span>
 
 
 1. 按一下&#x200B;**欄位**&#x200B;圖示，並啟用與您要顯示在表格欄位中的欄位相關聯的切換。 預設會顯示所有欄位。

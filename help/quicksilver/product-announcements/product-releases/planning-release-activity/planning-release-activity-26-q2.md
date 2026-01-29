@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 03142ce47e7b123eea63b409749346469f5feb14
+source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 如需針對Adobe Workfront Planning發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
 
-## 設定記錄之詳細資訊頁面中顯示的欄位
+## 設定記錄詳細資料預覽方塊中顯示的欄位
 
 >[!NOTE]
 >
@@ -29,9 +29,9 @@ ht-degree: 0%
 >生產快速發行： 2026年2月12日
 >每個人都能使用生產： 2026年4月16日
 
-我們匯入了設定，可讓您根據表格檢視中顯示的欄位，在詳細資訊預覽和頁面區域中顯示或隱藏記錄欄位。
+我們匯入了設定，可讓您根據表格檢視中顯示的欄位，在記錄的「詳細資訊」預覽方塊中顯示或隱藏記錄欄位。 
 
-您可以選擇從記錄的詳細資訊區域包含或排除表格檢視中隱藏的欄位。 關閉此設定時，隱藏的欄位不會顯示在詳細資訊區域中。
+有了這個新的設定，您可以選擇是否從記錄的詳細資訊預覽區域包括或排除表格檢視中隱藏的欄位。
 
 如需詳細資訊，請參閱[管理記錄頁面配置](/help/quicksilver/planning/records/manage-the-record-page.md)。
 

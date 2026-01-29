@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 665e753880be59cf07062d75c66a7be5f2056aa1
+source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
 workflow-type: tm+mt
-source-wordcount: '1545'
+source-wordcount: '1568'
 ht-degree: 0%
 
 ---
@@ -221,7 +221,7 @@ ht-degree: 0%
 
      或
 
-     按一下&#x200B;**下移**&#x200B;將區段下移一個位置。
+     按一下&#x200B;**下移**將區段下移一個位置。
 區段中的所有欄位會隨著區段移動。
 
    * 按一下&#x200B;**刪除**&#x200B;以刪除區段。 該區段已刪除且無法復原。 所有存取此型別記錄的使用者將不再檢視已刪除的區段。
@@ -275,12 +275,6 @@ ht-degree: 0%
 
    ![詳細資訊方塊](assets/details-box.png)
 
-1. （選擇性）按一下記錄預覽右上角的&#x200B;**在新索引標籤中開啟**&#x200B;圖示![在新索引標籤圖示中開啟詳細資訊方塊](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->，以在新索引標籤中開啟記錄的頁面。
-
-   記錄的&#x200B;**詳細資料**&#x200B;索引標籤預設會開啟。
-
-   ![詳細資料頁面](assets/details-page.png)
-
 1. <span class="preview"> （選擇性和條件性）根據您要在詳細資訊頁面中顯示的欄位，請執行下列其中一項作業：</span>
 
    <div class="preview">
@@ -288,12 +282,23 @@ ht-degree: 0%
    * 選取&#x200B;**顯示表格欄位**&#x200B;設定，以僅檢視未在記錄的表格檢視中隱藏的欄位。 這是預設設定
    * 取消選取&#x200B;**顯示表格欄位**&#x200B;設定，以檢視記錄表格檢視中的所有欄位，包括隱藏的欄位。
 
+   >[!TIP]
+   >
+   >**顯示資料表欄位**&#x200B;設定只能在記錄的[詳細資料]預覽方塊中使用。 在記錄的「詳細資訊」頁面中無法使用。
+
+
    <!--replace with this when they fix the UI text:
    * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
    * Deselect the **Show all fields** setting to exclude the record's fields that are hidden in the table view of the record from the **Details** page.
    -->
 
    </div>
+
+1. （選擇性）按一下記錄預覽右上角的&#x200B;**在新索引標籤中開啟**&#x200B;圖示![在新索引標籤圖示中開啟詳細資訊方塊](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->，以在新索引標籤中開啟記錄的頁面。
+
+   記錄的&#x200B;**詳細資料**&#x200B;索引標籤預設會開啟。
+
+   ![詳細資料頁面](assets/details-page.png)
 
 1. 在記錄&#x200B;**詳細資料**&#x200B;索引標籤中，按一下欄位名稱左側的&#x200B;**抓取**&#x200B;圖示![抓取圖示](assets/grab-icon.png)，然後將其拖放到所要的位置。
 

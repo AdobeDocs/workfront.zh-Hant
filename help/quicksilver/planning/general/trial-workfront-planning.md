@@ -3,9 +3,9 @@ title: 開始使用Adobe Workfront Planning免費試用版
 description: Adobe Workfront提供60天的Adobe Workfront Planning免費試用。 此試用版是您瞭解Planning如何將大局策略與日常工作聯絡起來的機會，讓這項工作得以實現。 Planning可集中顯示您的行銷生命週期，實現跨團隊的更佳共同作業、行銷活動的即時追蹤以及自動化工作流程。 您可以建立自訂工作區，並使用互動式時間表和行事曆將工作視覺化。 透過此試用版，您將會親眼看到Planning如何協助讓日常工作符合策略目標、簡化執行，以及為貴組織帶來可衡量的結果。
 hidefromtoc: true
 hide: true
-source-git-commit: b52c188d767ee37699ead71ed90642458d9889fa
+source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1148'
 ht-degree: 1%
 
 ---
@@ -144,10 +144,11 @@ Adobe Workfront Planning可集中顯示您的行銷生命週期，實現跨團�
 
 * **2026年3月2日至5月1日期間**：
 
-  您被授予&#x200B;**計畫試用版**&#x200B;區域&#x200B;**最佳實務工作區**&#x200B;索引標籤中可用資料的下列許可權：
+  在免費試用期間，您被授予對Planning區域中工作區的下列許可權：
 
-   * 所有系統管理員都擁有Planning區域中Best Practice Workspaces索引標籤的管理許可權。
-   * 所有其他使用者皆擁有檢視「規劃」區域中「最佳實務工作區」標籤的「檢視」許可權。
+   * 所有系統管理員都有Workspaces標籤的管理許可權。
+   * 所有其他使用者都擁有工作區索引標籤的檢視許可權，但系統管理員可以向他們授予工作區的「管理」許可權。
+   * 所有使用者（包括系統管理員）都擁有在Planning區域中「最佳作法工作區」標籤的「檢視」許可權。
 
 * **在2026年5月1日之後：**
 
