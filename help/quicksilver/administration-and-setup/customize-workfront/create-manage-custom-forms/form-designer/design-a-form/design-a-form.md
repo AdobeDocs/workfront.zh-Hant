@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 45bc1820e4f6416e3d47139bbcf1a2156c5900dc
+source-git-commit: 9fcfea189bfc8827e41098823402f5e392b36d1b
 workflow-type: tm+mt
-source-wordcount: '6941'
+source-wordcount: '7040'
 ht-degree: 5%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 5%
 # 建立自訂表格
 
 <!-- Audited: 6/2025 -->
+
+{{preview-fast-release-general}}
 
 您可以使用Adobe Workfront中的表單設計工具來設計自訂表單。 您可以將自訂表單附加至不同的Workfront物件，以擷取這些物件的相關資料。
 
@@ -56,7 +58,7 @@ ht-degree: 5%
 1. 在左側面板中，按一下&#x200B;**自訂Forms**，然後選取&#x200B;**Forms**。
 
 1. 按一下&#x200B;**新增自訂表格。**
-1. 選取您要附加自訂表單的物件型別，然後按一下[繼續]。**&#x200B;**
+1. 選取您要附加自訂表單的物件型別，然後按一下[繼續]。****
 
    ![選擇物件型別](assets/new-custom-form-select-objects.png)
 
@@ -108,7 +110,7 @@ ht-degree: 5%
    >
    >若將現有欄位標示為非使用中，此後就無法用於報表元素和自訂表單。 如果報表或表單中目前正在使用非作用中欄位，則欄位及其歷史資料會維持原位。
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -157,11 +159,15 @@ ht-degree: 5%
 
 * **單行文字欄位**：允許使用者在欄位中輸入單行文字。
 * **段落欄位**：允許使用者在欄位中輸入多行文字。
+* <span class="preview">**RTF文字**：可讓使用者在欄位中輸入多行文字，並以粗體、斜體、底線、專案符號、編號、下標與上標、超連結、區塊引號、標題與表格來格式化文字。 15,000的字元限製為文字和格式設定提供了很大的空間。</span>
+
+  <span class="preview"> RTF文字欄位型別正在以格式欄位型別取代文字。 您可以按一下右側欄位選項中的&#x200B;**轉換為RTF文字**&#x200B;按鈕，快速將包含格式欄位的現有文字轉換為RTF文字。</span>
+
 * **含格式的文字欄位**：可讓使用者在欄位中輸入多行文字，並以粗體、斜體、底線、專案符號、編號、超連結和區塊引號來格式化文字。 15,000的字元限制可提供大量的文字和格式。
 
   清單和報告上的篩選器不支援此自訂欄位型別。
 
-  如需有關透過API存取此欄位的資訊，請參閱[&#x200B; API中的RTF文字欄位儲存體](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md)。
+  如需有關透過API存取此欄位的資訊，請參閱[ API中的RTF文字欄位儲存體](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md)。
 
   >[!NOTE]
   >
@@ -177,6 +183,7 @@ ht-degree: 5%
 
    * 單行文字
    * 段落
+   * <span class="preview">RTF文字</span>
    * 含格式的文字
    * 描述文字
 
@@ -197,6 +204,7 @@ ht-degree: 5%
     <td><ul>
     <li>單行文字</li>
     <li>段落</li>
+    <li><span class="preview">豐富文字</span></li>
     <li>含格式的文字</li>
     <li>描述文字</li>
     </ul></td>
@@ -208,6 +216,7 @@ ht-degree: 5%
     <td><ul>
     <li>單行文字</li>
     <li>段落</li>
+    <li><span class="preview">豐富文字</span></li>
     <li>含格式的文字</li>
     </ul></td>
     </tr>
@@ -219,6 +228,7 @@ ht-degree: 5%
     <td><ul>
     <li>單行文字</li>
     <li>段落</li>
+    <li><span class="preview">豐富文字</span></li>
     <li>含格式的文字</li>
     <li>描述文字</li>
     </ul></td>
@@ -231,6 +241,7 @@ ht-degree: 5%
     <td><ul>
     <li>單行文字</li>
     <li>段落</li>
+    <li><span class="preview">豐富文字</span></li>
     <li>含格式的文字</li>
     </ul></td>
     </tr>
@@ -266,15 +277,17 @@ ht-degree: 5%
      <td><ul>
      <li>單行文字</li>
      <li>段落</li>
+     <li><span class="preview">豐富文字</span></li>
      <li>含格式的文字</li>
      <li>描述文字</li></ul></td>
     </tr>
     <tr> 
-      <td role="rowheader">設為必要欄位</td>
+      <td>設為必要欄位</td>
       <td><p>如果您希望欄位是使用者完成自訂表單的必要欄位，請選取此選項。</p></td>
     <td><ul>
     <li>單行文字</li>
     <li>段落</li>
+    <li><span class="preview">豐富文字</span></li>
     <li>含格式的文字</li>
     </ul></td> 
     </tr> 
@@ -288,7 +301,7 @@ ht-degree: 5%
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -449,7 +462,7 @@ ht-degree: 5%
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -585,7 +598,7 @@ ht-degree: 5%
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -653,12 +666,12 @@ ht-degree: 5%
       <td role="rowheader">JSON 路徑</td>
       <td><p>輸入或貼上API的JSON路徑。</p> <p>此選項允許從API URL傳回的JSON擷取資料。 這可當作選取要讓JSON內的哪些值會出現在下拉式選項中的方式。</p><p>例如，如果您的API URL以下列格式傳回JSON，則您可以使用「$.data[*].name」選取美國和加拿大作為下拉式選項：</br>
       <pre>
-      &lbrace;
-       資料： &lbrace;
+      {
+       資料： {
          { name： "USA"}，
          { name： "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>如需有關JSON路徑並確保您撰寫正確JSON路徑的詳細資訊，請參閱<a href="https://jsonpath.com/">https://jsonpath.com/</a>。</p></td>
@@ -682,7 +695,7 @@ ht-degree: 5%
     </tbody>
    </table>
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -783,7 +796,7 @@ The Workfront Mobile app -->
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -799,7 +812,7 @@ The Workfront Mobile app -->
 1. 開啟校訂。
 1. 以滑鼠右鍵按一下視訊上的任何位置，然後選取&#x200B;**複製視訊位址**。
 1. 在您新增視訊Widget的自訂表單中，將複製的地址貼到&#x200B;**URL**&#x200B;方塊中。
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -912,7 +925,7 @@ The Workfront Mobile app -->
     </tbody> 
    </table>
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -973,7 +986,7 @@ The Workfront Mobile app -->
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -1069,7 +1082,7 @@ The Workfront Mobile app -->
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
