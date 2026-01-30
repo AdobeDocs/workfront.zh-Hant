@@ -6,10 +6,10 @@ description: 在專案層級將專案儲存為templateSave as template （範本
 author: Alina
 feature: Work Management
 exl-id: 4b5dfe12-f984-47c6-8e19-78b549f19159
-source-git-commit: 87bf2a4485d3b0c29fcfe8e00dcca57874cdec04
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
 source-wordcount: '485'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -33,16 +33,16 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 如果您決定某個專案將在未來再次發生，則可以從現有專案建立範本。 然後，您可以再次使用範本來建立未來專案，這些專案可能包含類似的資訊，或與現有專案共用相同的時間表或工作分派。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -135,17 +135,17 @@ Saving a project as a template differs in the Production and the Preview environ
 
 1. Click **Manage Forms** to remove or reorder the forms. For information about how to remove and reorder custom forms on the template, see [Custom forms](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
 
-   ![](assets/save-as-template-first-step-350x159.png)
+   ![Save as template first step](assets/save-as-template-first-step-350x159.png)
 
 1. Click **Next Step.**
 1. In the **Options** section, select the checkbox beside any information you want to clear from the template.
 
-   ![](assets/save-as-template-options-step-350x109.png)
+   ![Save as template options step](assets/save-as-template-options-step-350x109.png)
 
 1. Click **Next Step.**
 1. In the **Exclude** section, select any tasks that you want to exclude from the project.
 
-   ![](assets/save-as-template-exclude-350x205.png)
+   ![Save as template exclude](assets/save-as-template-exclude-350x205.png)
 
 1. Click **Finish and Save Template.**
 
@@ -189,10 +189,10 @@ Saving a project as a template differs in the Production and the Preview environ
     </tbody> 
    </table>
 
-1. 按一下左側面板中的「自訂Forms」**&#x200B;**，移除或重新排序表單。
+1. 按一下左側面板中的「自訂Forms」****，移除或重新排序表單。
 
    若要重新排序表單，請以正確順序拖放表單。
-若要移除表單，請選取該表單，然後按一下[移除]。**&#x200B;** 按一下&#x200B;**取消**&#x200B;以移除選取的表單。
+若要移除表單，請選取該表單，然後按一下[移除]。**** 按一下&#x200B;**取消**&#x200B;以移除選取的表單。
 
    ![儲存為範本方塊中的自訂表單區域](assets/custom-forms-ara-in-save-as-template-box.png)
 
@@ -202,7 +202,7 @@ Saving a project as a template differs in the Production and the Preview environ
 
    另存為範本方塊中的![選項區域](assets/options-area-in-save-as-template-box.png)
 
-1. 按一下左側面板中的「排除&#x200B;**&#x200B;**」，然後選取您要從專案排除的任何工作。 預設會取消選取所有工作。
+1. 按一下左側面板中的「排除&#x200B;****」，然後選取您要從專案排除的任何工作。 預設會取消選取所有工作。
 
    ![另存為範本方塊中的排除區域](assets/exclude-area-save-as-template-box.png)
 

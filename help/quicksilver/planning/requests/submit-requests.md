@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '2176'
+source-wordcount: '2200'
 ht-degree: 0%
 
 ---
@@ -106,15 +106,22 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別。
 
   如需詳細資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md)。
 * 透過提交請求表單建立的記錄會連線至原始請求。 無法移除此連線。
-* 您可以在下列區域中檢視建立的記錄和請求：
+* 您可以在下列區域中檢視建立的記錄和用來建立這些記錄的請求：
    * Workfront中的請求區域
 
   <div class="preview">
 
-   * 「原始請求連線」欄位中任何記錄型別頁面中的記錄
-   * 原始請求連線欄位中的記錄詳細資料預覽方塊
+   * Workfront Planning中的記錄型別頁面
+   * Workfront Planning中記錄的詳細資訊區域
 
   </div>
+
+  >[!TIP]
+  >
+  ><span class="preview">您可以在Workfront的「要求」區域或Workfront Planning的「原始要求連線」欄位的「主旨」欄位中，檢視要求的名稱。</span>
+
+
+
 * 已提交的請求會顯示在Workfront的請求區域中。
 * 已提交的Planning請求僅會顯示在新的請求體驗中。 您無法在舊版請求體驗中看見Planning請求。
 如需詳細資訊，請參閱[建立及提交要求](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)。
@@ -129,8 +136,8 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別。
 
 {{step1-to-requests}}
 
-1. 啟用熒幕右上角的&#x200B;**切換至新的體驗**&#x200B;設定。
-啟用此設定可讓Workfront Planning請求表單出現在Workfront的&#x200B;**請求**&#x200B;區域中。
+1. 啟用熒幕右上角的&#x200B;**切換至新的體驗**設定。
+啟用此設定可讓Workfront Planning請求表單出現在Workfront的**請求**&#x200B;區域中。
 
    >[!TIP]
    >
@@ -167,7 +174,7 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別。
 
      如需詳細資訊，請參閱[新增核准至要求表單](/help/quicksilver/planning/requests/add-approval-to-request-form.md)。
 
-   * <span class="preview">您可以在Planning中將原始請求連線欄位新增至顯示原始請求名稱的記錄型別。 如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。</span>
+   * <span class="preview">您可以在Planning中將原始要求連線欄位新增至記錄型別，以顯示建立記錄的原始要求名稱。 如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。</span>
    * 只有擁有者、核准者及至少擁有工作區檢視許可權的使用者可看見要求。 Workfront管理員可檢視提交至系統中任何工作區的所有請求。
 
    * 您會收到應用程式內及電子郵件通知，告知您請求已成功提交或已傳送以供檢閱。
@@ -196,7 +203,7 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別。
       * **輸入者**：新增請求的使用者名稱。 如果要求是由Workfront外部的人員加入，則&#x200B;**輸入者**&#x200B;欄位會顯示`N/A`。
       * **已建立的物件狀態**：已建立記錄的狀態。
 
-     您可以有多個&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;加入的篩選器。
+     您可以有多個&#x200B;**And**&#x200B;或&#x200B;**Or**加入的篩選器。
 當您新增篩選條件時，要求清單會自動篩選。
 
    * 按一下&#x200B;**欄**&#x200B;以開啟&#x200B;**欄位可見性和順序**&#x200B;方塊，然後隱藏、顯示或重新排列要求清單中的欄。

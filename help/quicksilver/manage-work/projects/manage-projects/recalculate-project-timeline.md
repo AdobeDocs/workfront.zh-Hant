@@ -6,9 +6,9 @@ description: 重新計算時間表可讓經理檢視與專案相關的不同因�
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1077'
 ht-degree: 2%
 
 ---
@@ -96,7 +96,7 @@ ht-degree: 2%
 > 複雜專案的範例可能是具有多個相依性、大量任務、多個跨專案前置任務或多個任務縮排的專案。
 > Workfront會在專案頁面上的專案名稱右側放置警告，以建議使用者必須手動重新計算專案時間表。 只有具有專案管理許可權的使用者才能手動重新計算時間表。
 >
->   ![](assets/project-warning-to-manually-recalculate-timeline.png)
+>   ![要重新計算時間表的](assets/project-warning-to-manually-recalculate-timeline.png)專案警告
 >
 
 * [自動重新計算專案時間表](#automatic-recalculation-of-project-timelines)
@@ -183,7 +183,7 @@ If the timeline of a project is longer than 15 years, the automatic recalculatio
 
    前往專案清單或報告，選取一或多個專案，然後按一下清單頂端的&#x200B;**更多**&#x200B;圖示![更多](assets/qs-more-menu.png)。
 
-   ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![使用財務下拉式清單重新計算運算式時間表](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
    >[!TIP]
    >
@@ -204,7 +204,7 @@ If the timeline of a project is longer than 15 years, the automatic recalculatio
 >根據您專案的複雜性，我們建議不要在大量編輯專案時選取大量專案，以確保最佳效能。 某些因素會導致專案過於複雜，例如依賴關係或指派過多，或是自訂欄位過多。
 
 1. 前往專案清單。
-1. 選取清單中的多個專案，然後按一下[編輯]。**&#x200B;**
+1. 選取清單中的多個專案，然後按一下[編輯]。****
 1. 按一下&#x200B;**設定**，然後選取&#x200B;**重新計算時間表**。
 
 1. 按一下「**儲存變更**」。

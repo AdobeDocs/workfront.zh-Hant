@@ -6,10 +6,10 @@ description: 您可以設定專案，要求專案擁有者核准針對專案記�
 author: Alina
 feature: Work Management
 exl-id: e4a27640-9f5c-4a9f-82cc-3384694594af
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '785'
-ht-degree: 0%
+source-wordcount: '790'
+ht-degree: 2%
 
 ---
 
@@ -24,16 +24,16 @@ ht-degree: 0%
 >
 >啟用此選項不會移除時程表核准者核準時程表上時間的能力。 如果專案所有者未核准或拒絕時間，時程表核准者仍可核準時程表上的時間。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -152,12 +152,12 @@ ht-degree: 0%
 1. 為問題、任務和專案顯示所記錄的時數，其狀態應為&#x200B;**已提交**。\
    按一下小時專案左側的方塊，以選取您要核准的小時。
 
-1. 按一下小時清單頂端的&#x200B;**核准**&#x200B;圖示![](assets/approve-hours-icon.png)。\
+1. 按一下時數清單頂端的&#x200B;**核准**&#x200B;圖示![核准圖示](assets/approve-hours-icon.png)。\
    時數的狀態變更為&#x200B;**已核准**。\
    如果您稍後拒絕核准的時數，時數的狀態會變更為&#x200B;**未核准**。\
    當您在付費記錄中包含核准的時數時，時數的狀態會變更為&#x200B;**已付費和已核准**。 無法刪除新增到計費記錄的時數。 如需有關建立付費記錄的詳細資訊，請參閱文章[建立付費記錄](../../../manage-work/projects/project-finances/create-billing-records.md)
 
-1. （選擇性）按一下&#x200B;**拒絕**&#x200B;圖示![](assets/reject-hours-icon.png)以拒絕專案上的時間專案。\
+1. （選擇性）按一下&#x200B;**拒絕**&#x200B;圖示![拒絕時數圖示](assets/reject-hours-icon.png)以拒絕專案上的時間專案。\
    時數的狀態變更為&#x200B;**已拒絕**。
 
    >[!NOTE]

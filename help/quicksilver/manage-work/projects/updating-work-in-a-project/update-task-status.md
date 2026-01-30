@@ -6,10 +6,10 @@ description: 您可以更新任務的狀態，以通知其他人該任務在何�
 author: Alina
 feature: Work Management
 exl-id: e1efc676-e110-486e-91dc-f521421575e8
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 1%
+source-wordcount: '635'
+ht-degree: 4%
 
 ---
 
@@ -23,22 +23,22 @@ ht-degree: 1%
 
 您可以手動更新任務狀態，也可以讓Workfront在某些動作發生時自動更新。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td> <p>標準</p> 
-   <p>工作或更高</p>
+   <p>工作或更高層級</p>
    </td> 
   </tr> 
   <tr> 
@@ -113,7 +113,7 @@ ht-degree: 1%
 
    在&#x200B;**完成百分比**&#x200B;泡泡內按兩下，以手動輸入新百分比。
 
-   ![](assets/percent-complete-status-widgets-task-header.png)
+   ![完成百分比狀態Widget任務標題](assets/percent-complete-status-widgets-task-header.png)
 
 1. （可選）執行下列任一項作業，以提供有關更新的其他資訊：
 
@@ -142,7 +142,7 @@ ht-degree: 1%
    
    * To update the Commit Date of the task, expand the **Commit Date** drop-down calendar, and select a new Commit Date. 
    * To provide a visual indication of task completion, drag the bubble under Percent Complete or double-click it to enter a percent value.   
-     ![](assets/drag-the-progress-bar-350x155.png)-->
+     ![Drag the progress bar]](assets/drag-the-progress-bar-350x155.png)-->
 
 ## 自動更新任務狀態
 

@@ -6,10 +6,10 @@ description: 身為專案管理員，您可以更新專案的「狀態型別」�
 author: Alina
 feature: Work Management
 exl-id: e6b99c48-5ccc-4956-8465-6f22f14468ef
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 2%
+source-wordcount: '304'
+ht-degree: 7%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 2%
 
 身為專案管理員，您可以更新專案的「狀態型別」，以決定如何計算專案的「狀態」。 專案狀態是專案進度方式的視覺化表示。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 
 <table style="table-layout:auto"> 
@@ -27,7 +27,7 @@ ht-degree: 2%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -91,7 +91,7 @@ ht-degree: 2%
    * 按一下專案名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/qs-more-menu.png)，然後按一下&#x200B;**編輯**。
    * 按一下左側面板中的&#x200B;**專案詳細資料**。
 
-   ![](assets/update-condition-type-nwe-350x108.png)
+   ![更新條件型別](assets/update-condition-type-nwe-350x108.png)
 
 1. 在&#x200B;**條件型別**&#x200B;欄位中，選擇下列其中一項：
 

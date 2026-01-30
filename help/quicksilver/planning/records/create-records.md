@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 5bccad02f90fd99135b50c5a929913b16cc5b809
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '3240'
+source-wordcount: '3265'
 ht-degree: 0%
 
 ---
@@ -187,7 +187,7 @@ ht-degree: 0%
 
 1. （視條件而定）如果您按一下&#x200B;**新記錄**，請執行下列動作：
 
-   1. 按一下下列其中一個方式來建立記錄，然後按一下[繼續]&#x200B;**&#x200B;**：
+   1. 按一下下列其中一個方式來建立記錄，然後按一下[繼續]****：
 
       * **手動新增**。 記錄的預覽方塊開啟。\
         從步驟6開始，新增記錄的相關資訊，如[從本文中的記錄型別資料表檢視](#create-records-by-adding-them-inline-from-the-record-type-table-view)區段內嵌新增記錄，以建立記錄中所述。<!--insure this stays accurate-->
@@ -518,7 +518,7 @@ You can import records from other applications by linking them to existing recor
 1. （視條件而定）如果嘗試連線時找不到記錄，請按一下[新增] **+ [新增]**
 
    或
-開始輸入名稱，然後按一下&#x200B;**+新增**。 **+新增**&#x200B;按鈕後面接著您連線的記錄型別名稱。 例如，將品牌新增至現有行銷活動時，「新增品牌」。 您輸入的名稱也會跟著新增按鈕。
+開始輸入名稱，然後按一下**+新增**。 **+新增**&#x200B;按鈕後面接著您連線的記錄型別名稱。 例如，將品牌新增至現有行銷活動時，「新增品牌」。 您輸入的名稱也會跟著新增按鈕。
 
    ![新增按鈕以在醒目提示的內容中建立記錄](assets/add-button-to-create-records-in-context-highlighted.png)
 
@@ -538,11 +538,13 @@ You can import records from other applications by linking them to existing recor
 
 ## 透過向記錄型別提交請求表單來建立記錄
 
-當有人建立記錄型別的請求表單並與您共用連結後，您可以提交建立該記錄型別記錄的請求。
+有人為記錄型別建立請求表單，並將它發佈到「請求」區域或與您共用請求表單的連結後，您可以提交建立該記錄型別記錄的請求。
 
 如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
 
 如果您的Workfront使用者與組織外部的使用者具有請求表單的連結，則他們皆可提交請求給Planning記錄型別並建立記錄。
+
+只有Workfront使用者可以從Workfront的請求區域新增建立記錄的請求。
 
 如需詳細資訊，請參閱[提交Adobe Workfront Planning要求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)。
 

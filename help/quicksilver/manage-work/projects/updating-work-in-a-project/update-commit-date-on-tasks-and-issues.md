@@ -6,10 +6,10 @@ description: 您可以手動更新指派給您的任務或問題的認可日期�
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 0%
+source-wordcount: '599'
+ht-degree: 3%
 
 ---
 
@@ -26,18 +26,18 @@ ht-degree: 0%
 
 您可以手動更新指派給您的任務或問題的認可日期。 如需Adobe Workfront中認可日期的詳細資訊，請參閱[認可日期總覽](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)。
 
-## 存取需求
+## 存取權要求
 
 <!--Audited: 01/2024-->
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -143,13 +143,13 @@ ht-degree: 0%
 
 1. （條件式與選擇性）如果您的Workfront或群組管理員將認可日期新增到您的任務或問題標題，請按一下標題中的&#x200B;**認可日期**&#x200B;欄位，然後從日曆中選取日期。 如果「認可日期」不在標題中，請繼續下列步驟。
 
-   ![](assets/commit-date-task-header.png)
+   任務標題![中的](assets/commit-date-task-header.png)認可日期
 
 1. 按一下左側面板中的&#x200B;**任務詳細資料**&#x200B;或&#x200B;**問題詳細資料**。
 1. 按一下「**概觀**」以展開它。
 1. 更新&#x200B;**認可日期**&#x200B;欄位。
 
-   ![](assets/task-commit-date-edit-highlighted-details-page.png)
+   ![在詳細資訊頁面中醒目提示任務認可日期編輯](assets/task-commit-date-edit-highlighted-details-page.png)
 
 1. 按一下「**儲存變更**」。
 
@@ -159,15 +159,15 @@ ht-degree: 0%
 
      相反，任務或問題的認可日期和預計完成日期變為相同。
 
-     ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
+     ![強調的任務預計完成日期詳細資料](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
    * Workfront應用程式內通知會通知專案所有者，您已建議任務或問題的新認可日期。
    * 更新區段會通知專案所有者，您已建議新的認可日期，他們現在可以更新任務或問題的規劃完成日期，以符合您建議的認可日期。
 
-     ![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
+     ![更新流中認可日期影響專案時間表的](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)專案所有者通知
 
 
-     <!--![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)-->
+     <!--![Project owner notification in update stream that commit date affects the project timeline](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)-->
 
      如需有關此變更所觸發的通知和更新的資訊，請參閱文章[認可日期概觀](/help/quicksilver/manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)中的「變更認可日期所觸發的通知和更新」一節。
 

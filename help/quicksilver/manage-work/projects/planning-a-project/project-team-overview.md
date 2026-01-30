@@ -7,9 +7,9 @@ description: 以某種容量與專案相關聯的使用者組成專案團隊。 
 author: Alina
 feature: Work Management
 exl-id: ceb25fb1-57fc-476c-b92c-fc41aadc0b5b
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '479'
 ht-degree: 1%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 1%
 
 您可以檢視我所在的專案篩選器是否選取在專案區域標頭中。 您可以從「篩選器」面板或標題套用它。
 
-![](assets/nwe-project-list-buttons-350x187.png)
+![專案篩選按鈕](assets/nwe-project-list-buttons-350x187.png)
 
 >[!NOTE]
 >

@@ -7,9 +7,9 @@ description: 專案的更新型別會指示Adobe Workfront計算專案時間表�
 author: Alina
 feature: Work Management
 exl-id: a6394961-2ac8-4b95-aa1b-dba8108c612f
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
   當您更新任務或專案並觸發時間表重新計算時，所有可用日期會立即顯示，允許您繼續工作。 在擁有超過100個任務的專案中，需要更長計算的日期會變暗。
 
-  ![](assets/dates-dimmed-when-insline-editing-350x146.png)
+  內聯編輯時變暗的![日期](assets/dates-dimmed-when-insline-editing-350x146.png)
 
   這表示重新計算尚未完成，日期可能會變更。
 

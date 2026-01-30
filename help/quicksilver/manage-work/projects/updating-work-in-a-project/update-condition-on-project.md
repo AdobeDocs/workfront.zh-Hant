@@ -6,9 +6,9 @@ description: 專案的狀態是放在專案上的旗標，以指出與其相關�
 author: Alina
 feature: Work Management
 exl-id: 1f46386e-e1ae-4845-8cc4-09dd7d39076f
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '531'
 ht-degree: 3%
 
 ---
@@ -110,7 +110,7 @@ Adobe Workfront管理員可以為您的環境建立自訂條件，如[建立或�
 
 1. 確定&#x200B;**條件型別**&#x200B;欄位已設定為&#x200B;**手動**。
 
-   ![](assets/project-details-overview-select-condition.png)
+   ![專案詳細資料總覽選取條件](assets/project-details-overview-select-condition.png)
 
 1. 在&#x200B;**條件**&#x200B;欄位中，從下列選項中選取符合您對相關工作是否順利進行或是否有任何延遲的理解的選項：
 

@@ -6,9 +6,9 @@ description: 透過為專案選取更新型別，您可以控制您對專案時�
 author: Alina
 feature: Work Management
 exl-id: ffdfffec-d217-4daa-9849-cb0c794992c0
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '664'
 ht-degree: 3%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 3%
 
 1. 按一下&#x200B;**專案** **設定**。
 
-   ![](assets/update-type-field-on-project-edit-box-nwe-350x378.png)
+   ![更新專案編輯方塊上的型別欄位](assets/update-type-field-on-project-edit-box-nwe-350x378.png)
 
 1. 在&#x200B;**更新型別**&#x200B;欄位中，選取您是否希望Workfront每天自動計算專案的時間表、當有變更時，或是希望專案經理手動計算。
 
@@ -81,7 +81,7 @@ ht-degree: 3%
 
      當您更新任務或專案並觸發時間表重新計算時，所有可用日期會立即顯示，允許您繼續工作。 在擁有超過100個任務的專案中，需要更長計算的日期會變暗。
 
-     ![](assets/dates-dimmed-when-insline-editing-350x146.png)
+     內聯編輯時變暗的![日期](assets/dates-dimmed-when-insline-editing-350x146.png)
 
      這表示重新計算尚未完成，日期可能會變更。
 

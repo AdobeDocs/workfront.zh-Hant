@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '3518'
+source-wordcount: '3550'
 ht-degree: 1%
 
 ---
@@ -179,7 +179,7 @@ ht-degree: 1%
 
    或
 
-   在[要求表單]清單上找出要求表單，按一下表單名稱旁的方塊，然後按一下畫面底部藍色列中的[編輯表單]。**&#x200B;**
+   在[要求表單]清單上找出要求表單，按一下表單名稱旁的方塊，然後按一下畫面底部藍色列中的[編輯表單]。****
 
    所選記錄型別的請求表單會在「表單」標籤中開啟。
 
@@ -190,13 +190,14 @@ ht-degree: 1%
    * 所選記錄型別的表格檢視中可用的記錄欄位。<!--they are working on removing the limitation below-->
 
    * **預設的分節**：這是Workfront套用至要求表單的預設分割槽符號。 所有記錄欄位都顯示在&#x200B;**預設區段**&#x200B;區域。
-   * **主旨**&#x200B;欄位：將在Workfront中識別要求的欄位。 主旨欄位的設定和值無法編輯。
+   * **主旨**&#x200B;欄位：將在Workfront中識別要求的欄位。 **主旨**&#x200B;欄位的設定和值不可編輯。
 
      >[!NOTE]
      >
      >* **Subject**&#x200B;欄位在要求表單上可見時需要值。 不過，您可以視需要移除&#x200B;**主旨**&#x200B;欄位，要求者提交要求時不會在表單上看到該欄位。
-     >* 當請求表單上缺少「主旨」欄位，但未來記錄的名稱有「名稱」欄位時，會自動將請求名稱指派給與所建立記錄相同的名稱。
-     >* 當要求表單上同時遺漏[主旨]和[名稱]欄位時，要求會以下列模式命名： `< Record name > request form < Entry date of the request >`；記錄命名為&#x200B;**未命名**。
+     >* 當請求表單上缺少&#x200B;**主旨**&#x200B;欄位，但未來記錄的名稱有「名稱」欄位時，會自動將請求的名稱指派給與已建立記錄相同的名稱。
+     >* 當請求表單中同時缺少&#x200B;**主旨**&#x200B;和&#x200B;**名稱**&#x200B;欄位時，請求會以下列模式命名： `< Request form name > < Entry date of the request >`；記錄命名為&#x200B;**未命名**。
+     >* <span class="preview">若要在Workfront Planning中檢視&#x200B;**主旨**&#x200B;欄位的資訊，您可以將&#x200B;**原始要求**&#x200B;連線欄位新增至與要求表單相關聯的記錄型別。 如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md).</span>
 
    * 與記錄型別關聯的所有欄位。
 
@@ -326,7 +327,7 @@ ht-degree: 1%
    無法重新排序預設規則。
 
 1. （選擇性）若要刪除路由規則，請按一下規則右側的&#x200B;**X**。
-1. 按一下[儲存]儲存核准規則。**&#x200B;**
+1. 按一下[儲存]儲存核准規則。****
 1. 繼續[設定要求完成選項](#set-request-completion-options)
 
 #### 設定請求完成選項

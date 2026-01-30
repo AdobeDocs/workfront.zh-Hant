@@ -7,9 +7,9 @@ description: 認可日期是指使用者指派給任務或問題認可完成任�
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ ht-degree: 0%
 >If you want to see how the timeline of the project is affected by accepting to change the Planned Completion Date of the task, click **Project Timeline**. This opens the task list where you can evaluate the date changes and the project timeline.
 >
 >
->![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)  >
+>![Project owner notification update stream about commit date change](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)  >
 >
 -->
 
@@ -107,7 +107,7 @@ ht-degree: 0%
 
   如需詳細資訊，請參閱[專案、任務和問題的預計完成日期總覽](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md)。
 
-  ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
+  ![強調的任務預計完成日期（以詳細資料表示）](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
 * 在「通知」區域中通知專案所有者，任務或問題的認可日期已變更。
 
