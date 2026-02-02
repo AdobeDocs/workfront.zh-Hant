@@ -6,9 +6,9 @@ description: 計畫工作在Adobe Workfront中以專案和任務表示。 不過
 author: Becky
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 2b4c13babecd3675f82699282c3dd42191c73df1
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '2532'
+source-wordcount: '2575'
 ht-degree: 2%
 
 ---
@@ -158,7 +158,7 @@ Workfront管理員必須建立「請求佇列」的下列元件：
      >
      >Workfront只會在您實際提交請求時才儲存路徑。 它不會為草擬的請求建立路徑。
 
-     ![](assets/list-of-recent-paths-and-request-queues-when-entering-new-request-nwe-350x295.png)
+     ![輸入新請求時最近的路徑和請求佇列清單](assets/list-of-recent-paths-and-request-queues-when-entering-new-request-nwe-350x295.png)
 
    * 從&#x200B;**要求佇列**&#x200B;區段中，選取要求佇列。
    * 輸入屬於先前存取路徑的關鍵字，以搜尋請求佇列。
@@ -169,7 +169,7 @@ Workfront管理員必須建立「請求佇列」的下列元件：
      >
      >當您輸入包含特殊字元的名稱時，即使您省略輸入字元，也會顯示請求佇列、佇列主題或主題群組。
 
-     ![](assets/request-queue-search-findings-with-highlighted-results-350x210.png)
+     ![要求佇列搜尋結果，結果醒目提示](assets/request-queue-search-findings-with-highlighted-results-350x210.png)
 
      可用請求佇列和最近路徑清單會動態更新，以僅包含結果中反白顯示之關鍵字的路徑。
 
@@ -206,7 +206,7 @@ Workfront管理員必須建立「請求佇列」的下列元件：
 
      預設會顯示三個不同佇列主題的最近三個草稿。
 
-     ![](assets/new-drafts-after-new-request-area-was-removed-350x162.png)
+     ![新要求區域移除後的新草稿](assets/new-drafts-after-new-request-area-was-removed-350x162.png)
 
    * 開始在選取的佇列中輸入新請求。
 
@@ -219,7 +219,7 @@ Workfront管理員必須建立「請求佇列」的下列元件：
    >當您將滑鼠游標停留在「主題群組」或「佇列主題」上時，「說明」欄位就會顯示在右側。 這包含有關主題群組或佇列主題的其他資訊。
    >
    >
-   >![](assets/show-description-on-queue-topic-when-submitting-request-nwe-350x81.png)
+   >提交請求時![顯示佇列主題的描述](assets/show-description-on-queue-topic-when-submitting-request-nwe-350x81.png)
    >
 
    您的請求佇列中最多可包含10層主題群組。\
@@ -327,7 +327,7 @@ Workfront管理員必須建立「請求佇列」的下列元件：
 
      如果您尚未準備好提交，請按一下&#x200B;**關閉**，稍後可能會回來完成它。 您的請求會儲存在「草稿」區段，當您下次提交此請求佇列的請求時，即可使用此請求。
 
-     ![](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
+     ![新要求上的提交、關閉、捨棄草稿按鈕](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
 
    當您提交請求時，草稿會自動刪除且無法還原。
 

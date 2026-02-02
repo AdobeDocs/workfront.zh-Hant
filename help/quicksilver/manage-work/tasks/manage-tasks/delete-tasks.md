@@ -6,9 +6,9 @@ description: 您可以刪除重複或建立有誤的任務。
 author: Alina
 feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '790'
 ht-degree: 5%
 
 ---
@@ -161,9 +161,9 @@ ht-degree: 5%
 
       1. 選取您要刪除的任務。
       1. 按一下&#x200B;**刪除**。
-      1. （選擇性）按一下[復原] **&#x200B;**&#x200B;以復原您的變更，並且不刪除工作。
-      1. 如果要保留變更並刪除工作，請按一下[重做] **&#x200B;**。
-      1. 按一下[儲存]刪除工作。**&#x200B;**
+      1. （選擇性）按一下[復原] ****&#x200B;以復原您的變更，並且不刪除工作。
+      1. 如果要保留變更並刪除工作，請按一下[重做] ****。
+      1. 按一下[儲存]刪除工作。****
 
          只有在您儲存變更後，才會刪除任務。
 
@@ -174,9 +174,9 @@ ht-degree: 5%
 1. 按一下包含您要刪除之任務的專案名稱。
 1. 按一下左側面板中的&#x200B;**工作**。
 1. 按一下要刪除的工作名稱。
-1. 按一下右上角的&#x200B;**更多**&#x200B;圖示![](assets/qs-more-menu.png)。
+1. 按一下右上角的&#x200B;**更多**&#x200B;圖示![更多](assets/qs-more-menu.png)。
 
-   ![](assets/delete-tasks-task-level-nwe-350x225.png)
+   ![刪除工作層級的工作](assets/delete-tasks-task-level-nwe-350x225.png)
 
 1. 按一下&#x200B;**刪除工作**。
 1. 如果允許刪除，請按一下&#x200B;**刪除**。

@@ -6,10 +6,10 @@ description: 您可以在Adobe Workfront中將任務移動到不同的專案或�
 author: Alina
 feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1371'
-ht-degree: 2%
+source-wordcount: '1377'
+ht-degree: 3%
 
 ---
 
@@ -34,22 +34,22 @@ ht-degree: 2%
 
 您可以移動單一任務，也可以從任務清單中一次移動數個任務。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td> <p>標準 </p> 
- <p>工作或更高</p> </td> 
+ <p>工作或更高層級</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -133,7 +133,7 @@ ht-degree: 2%
 
    * 按一下工作清單頂端的&#x200B;**更多**&#x200B;功能表![更多圖示](assets/main-more-icon.png)，然後按一下&#x200B;**移至**。
    * 以滑鼠右鍵按一下選取的工作，然後按一下&#x200B;**移至**。
-   * 選取一個任務時，按一下清單中任務名稱旁的&#x200B;**更多**&#x200B;功能表![](assets/more-icon-task-list.png)，然後按一下&#x200B;**移至**。
+   * 選取一個任務時，按一下清單中任務名稱旁的工作清單&#x200B;**上的**&#x200B;更多![功能表](assets/more-icon-task-list.png)更多圖示，然後按一下&#x200B;**移至**。
 
    顯示&#x200B;**移動工作**&#x200B;方塊。
 

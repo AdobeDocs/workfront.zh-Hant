@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: b1d5122dd66d84a0e2a21f24eeb01fd3298374ad
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '5369'
+source-wordcount: '5428'
 ht-degree: 4%
 
 ---
@@ -162,7 +162,7 @@ ht-degree: 4%
 1. 按一下您要編輯的工作。
 1. （視條件而定）若要編輯任務的有限資訊，請按一下左側面板中的&#x200B;**任務詳細資料**。
 
-   ![](assets/nwe-task-details-expanded-350x273.png)
+   ![已展開任務詳細資料](assets/nwe-task-details-expanded-350x273.png)
 
    請考慮編輯「工作詳細資訊」段落中下列區域的資訊：
 
@@ -184,15 +184,15 @@ ht-degree: 4%
 
    若要編輯「詳細資訊」段落中的資訊，請執行下列動作：
 
-   1. （選擇性）按一下右上角的&#x200B;**全部收合**&#x200B;圖示![](assets/collapse-all-icon.png)以收合所有區域。
-   1. （選擇性和條件性）當區域摺疊時，按一下每個區域旁的&#x200B;**向右箭頭** ![](assets/right-pointing-arrow.png)以展開您要編輯的區域。
+   1. （選擇性）按一下右上角的&#x200B;**全部收合**&#x200B;圖示![全部收合圖示](assets/collapse-all-icon.png)以收合所有區域。
+   1. （選擇性和條件性）當區域收合時，按一下每個區域旁的&#x200B;**向右箭頭** ![向右箭頭](assets/right-pointing-arrow.png)，展開您要編輯的區域。
    1. 如需在「工作詳細資訊」標籤中編輯資訊的詳細資訊，請參閱下列文章：
 
       * [在任務詳細資訊總覽區域中管理任務資訊](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md)
       * [在任務詳細資訊區段中管理任務財務](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
 
    1. （選擇性）如果沒有自訂表單附加到工作，請在&#x200B;**新增自訂表單**&#x200B;欄位中開始輸入表單的名稱，然後在清單中顯示時選取它，然後按一下&#x200B;**儲存變更**。
-   1. （選擇性）按一下&#x200B;**匯出**&#x200B;圖示![](assets/export.png)，將概述和自訂表單資訊匯出至PDF檔案，然後按一下&#x200B;**匯出**。 從下列選項中選取：
+   1. （選擇性）按一下&#x200B;**匯出**&#x200B;圖示![匯出圖示](assets/export.png)，將概述和自訂表單資訊匯出至PDF檔案，然後按一下&#x200B;**匯出**。 從下列選項中選取：
 
       * 全選（至少附加一個自訂表單時顯示）
       * 概觀
@@ -200,15 +200,15 @@ ht-degree: 4%
 
       PDF檔案會下載至您的電腦。
 
-      ![](assets/export-issue-details-selection-box-with-export-button-350x418.png)
+      ![使用[匯出]按鈕匯出問題詳細資料選取方塊](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
       如需詳細資訊，請參閱[匯出自訂表單和物件詳細資料](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md)。
 
-1. （視條件而定）若要編輯有關工作的所有資訊，請以具有工作管理許可權的使用者身分，按一下工作名稱旁的&#x200B;**更多**&#x200B;功能表![](assets/more-icon.png)，然後按一下&#x200B;**編輯**。
+1. （視條件而定）若要編輯有關工作的所有資訊，請以具有工作管理許可權的使用者身分，按一下工作名稱旁的&#x200B;**更多**&#x200B;功能表![更多圖示](assets/more-icon.png)，然後按一下&#x200B;**編輯**。
 
    或
 
-   從工作清單中選取工作，然後按一下清單頂端的&#x200B;**編輯**&#x200B;圖示![](assets/edit-icon.png)。
+   從工作清單中選取工作，然後按一下清單頂端的&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)。
 
    「編輯任務」方塊開啟。
 
@@ -241,7 +241,7 @@ ht-degree: 4%
 1. 如上所述開始編輯您的工作。
 1. 按一下左側面板中的&#x200B;**工作名稱**。
 
-   ![](assets/nwe-task-name-section-edit-task-box-350x122.png)
+   編輯任務方塊中的![任務名稱區段](assets/nwe-task-name-section-edit-task-box-350x122.png)
 
 1. 更新工作的名稱。
 
@@ -252,7 +252,7 @@ ht-degree: 4%
 1. 如上所述開始編輯您的工作。
 1. 按一下左側面板中的&#x200B;**概觀**。
 
-   ![](assets/nwe-overview-section-edit-task-box-350x257.png)
+   ![概觀區段編輯任務方塊](assets/nwe-overview-section-edit-task-box-350x257.png)
 
 1. 更新下列有關工作的資訊：
 
@@ -540,7 +540,7 @@ ht-degree: 4%
       >* 將工作專案重新指派給作用中的資源。
       >* 將已停用團隊中的使用者與作用中團隊建立關聯，並將工作專案重新指派給作用中團隊。
 
-   1. （選擇性）暫留在受指派人名稱上，然後按一下「設為主要受指派人」**&#x200B;**，以指出受指派人是主要受指派人還是工作的擁有者。 團隊不能是任務的主要受指派人。
+   1. （選擇性）暫留在受指派人名稱上，然後按一下「設為主要受指派人」****，以指出受指派人是主要受指派人還是工作的擁有者。 團隊不能是任務的主要受指派人。
    1. （選用）更新下列欄位：
 
       <table style="table-layout:auto"> 
@@ -701,7 +701,7 @@ ht-degree: 4%
    >* 將工作專案重新指派給作用中的資源。
    >* 將已停用團隊中的使用者與作用中團隊建立關聯，並將工作專案重新指派給作用中團隊。
 
-1. （選擇性）暫留在受指派人名稱上，然後按一下「設為主要受指派人」**&#x200B;**，以指出受指派人是主要受指派人還是工作的擁有者。 團隊不能是任務的主要受指派人。
+1. （選擇性）暫留在受指派人名稱上，然後按一下「設為主要受指派人」****，以指出受指派人是主要受指派人還是工作的擁有者。 團隊不能是任務的主要受指派人。
 1. （選用）更新下列欄位：
 
    <table style="table-layout:auto"> 
@@ -843,7 +843,7 @@ ht-degree: 4%
 1. 如上所述開始編輯工作。
 1. 按一下左側面板中的&#x200B;**自訂Forms**，或按一下已附加的自訂表單的名稱。
 
-   ![](assets/nwe-custom-forms-section-edit-task-box-350x127.png)
+   ![自訂表單區段編輯工作方塊](assets/nwe-custom-forms-section-edit-task-box-350x127.png)
 
 1. 按一下&#x200B;**新增自訂表單**，然後選取要與工作建立關聯的一或多個自訂表單。 您必須先建置自訂表單，才能在此欄位中選取它們。 清單中只會顯示作用中的自訂表單。
 
@@ -862,7 +862,7 @@ ht-degree: 4%
 1. 依照本文[編輯任務](#Edit2)一節中的說明開始編輯您的任務。
 1. 按一下左側面板中的&#x200B;**財務**。
 
-   ![](assets/nwe-finance-section-edit-task-box-350x298.png)
+   ![財務區段編輯工作方塊](assets/nwe-finance-section-edit-task-box-350x298.png)
 
 1. 更新下列欄位：
 
@@ -905,7 +905,7 @@ ht-degree: 4%
 1. 依照本文[編輯任務](#Edit2)一節中的說明開始編輯您的任務。
 1. 按一下左側面板中的&#x200B;**設定**。
 
-   ![](assets/nwe-settings-section-edit-task-box-350x304.png)
+   編輯工作方塊上的![設定區段](assets/nwe-settings-section-edit-task-box-350x304.png)
 
 1. 更新下列欄位：
 
@@ -992,7 +992,7 @@ ht-degree: 4%
 您的系統或群組管理員可以自訂您在任務標題中看到的欄位。 如需詳細資訊，請參閱[使用配置範本自訂物件標頭](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)。
 
 
-![](assets/qs-task-header-without-approvals-and-with-dependecies-350x17.png)
+![沒有核准且有相依性的任務標題](assets/qs-task-header-without-approvals-and-with-dependecies-350x17.png)
 
 預設情況下，以下欄位包含在任務標題中：
 

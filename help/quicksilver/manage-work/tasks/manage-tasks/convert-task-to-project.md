@@ -6,9 +6,9 @@ description: 當專案中的任務需要比您原本計畫更大的工作量完�
 author: Alina
 feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1142'
+source-wordcount: '1152'
 ht-degree: 4%
 
 ---
@@ -199,13 +199,13 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 ## 將任務轉換為專案
 
 1. 移至您要轉換為專案的工作。
-1. 按一下&#x200B;**更多**&#x200B;圖示![](assets/more-icon.png)，然後按一下&#x200B;**轉換為專案**。
+1. 按一下&#x200B;**更多**&#x200B;圖示![更多圖示](assets/more-icon.png)，然後按一下&#x200B;**轉換為專案**。
 1. 選擇下列任一選項：
 
    * **新增專案**，以不使用範本建立專案
    * **從範本中選取**&#x200B;區段中的範本
 
-     ![](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
+     ![將任務轉換為專案範本選項下拉式功能表](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
 
 1. 在出現的通知上按一下&#x200B;**繼續**。
 1. 在&#x200B;**轉換成專案**&#x200B;方塊中，指定下列專案：

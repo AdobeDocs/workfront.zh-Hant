@@ -6,10 +6,10 @@ description: 依預設，Adobe Workfront會根據計畫時數的數量，以簡�
 author: Alina
 feature: Work Management
 exl-id: 47a9b095-2b7d-4ed0-8cb6-e6bd5e37ce9c
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 1%
+source-wordcount: '450'
+ht-degree: 5%
 
 ---
 
@@ -23,22 +23,22 @@ ht-degree: 1%
 
 本文說明如何在任務層級的「工作總攬」區域中，以「簡單期間型別」更新任務的計畫時數與期間。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td><p>標準或更高</p> 
-   <p>工作或更高</p> </td> 
+   <p>工作或更高層級</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -91,13 +91,13 @@ ht-degree: 1%
 1. 在任務清單中，按一下您要變更持續時間型別的工作名稱。
 1. 執行下列其中一項：
 
-   * 按一下工作名稱旁的&#x200B;**更多**&#x200B;圖示![](assets/qs-more-icon-on-an-object.png)，按一下&#x200B;**編輯**，然後按一下&#x200B;**指派**。
+   * 按一下工作名稱旁的物件上的&#x200B;**更多**&#x200B;圖示![更多](assets/qs-more-icon-on-an-object.png)，按一下&#x200B;**編輯**，然後按一下&#x200B;**指派**。
    * 按一下指派給&#x200B;**的**&#x200B;或任務標題工作分派區域的名稱，然後按一下&#x200B;**進階**。
 
 1. 為所有指派輸入&#x200B;**計畫時數**&#x200B;的總值，例如10小時。 計畫時數總計平均分配給指派給任務的所有資源。
 1. （選擇性）手動調整指派給任務的每個資源的計畫時數。 任務更新的計畫時數總數，以反映個別指派給您資源的新時數。
 1. 輸入工作&#x200B;**工期**&#x200B;的值，例如2天。
 
-   ![](assets/advanced-assignments-simple-duration-multiple-resources-nwe-350x198.png)
+   ![進階指派簡單期間多個資源](assets/advanced-assignments-simple-duration-multiple-resources-nwe-350x198.png)
 
 1. 按一下「**儲存**」。

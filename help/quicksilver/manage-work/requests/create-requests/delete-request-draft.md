@@ -6,9 +6,9 @@ description: 您可以刪除已提交的請求或請求草稿。
 author: Becky
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
-source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '608'
 ht-degree: 3%
 
 ---
@@ -81,12 +81,9 @@ ht-degree: 3%
 
       如需有關「我的請求」Widget的詳細資訊，請參閱[使用「我的請求」Widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)。
 
-1. 在「請求」清單或「我的請求」Widget中，暫留在您要刪除的請求或草稿上。
+1. 在&#x200B;**要求**&#x200B;清單或首頁的&#x200B;**我的要求** Widget中，將滑鼠移至您要刪除的要求或草稿上，然後按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)
 
-   出現「更多」三點選單。
-   ![](assets/more-menu.png)
-
-1. 按一下請求或草稿名稱右側的&#x200B;**更多**&#x200B;功能表，然後按一下&#x200B;**刪除**。
+1. 按一下&#x200B;**刪除**
 
    或
 

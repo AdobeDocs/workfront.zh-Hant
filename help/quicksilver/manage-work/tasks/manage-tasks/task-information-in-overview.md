@@ -6,9 +6,9 @@ description: 您可以存取「任務詳細資訊」區段的「概觀」區域�
 author: Alina
 feature: Work Management
 exl-id: 4980b28f-914d-4cf9-813f-14983aac660b
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '2102'
+source-wordcount: '2104'
 ht-degree: 5%
 
 ---
@@ -113,7 +113,7 @@ ht-degree: 5%
    >
    >視您的Workfront管理員或群組管理員設定版面配置範本的方式而定，可能會重新排列或不顯示任務詳細資訊區段中的欄位。 如需詳細資訊，請參閱[使用配置範本自訂詳細資料檢視](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)。
 
-1. 按一下[詳細資料]區段右上角的&#x200B;**編輯**&#x200B;圖示![](assets/edit-icon.png)，然後按一下&#x200B;**概述**。
+1. 按一下[詳細資料]區段右上角的&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)，然後按一下&#x200B;**概述**。
 
    >[!TIP]
    >

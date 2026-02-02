@@ -6,10 +6,10 @@ description: 作業的「計畫成本」與「實際成本」及其人工成本�
 author: Alina
 feature: Work Management
 exl-id: bc30ecab-7347-4dff-8e06-e8ea3f50d5b3
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 12%
+source-wordcount: '223'
+ht-degree: 11%
 
 ---
 
@@ -84,7 +84,7 @@ ht-degree: 12%
 1. 按一下左側面板中的&#x200B;**工作詳細資料**，然後展開&#x200B;**財務**&#x200B;區域。
 1. 連按兩下&#x200B;**成本型別**，然後選取您要套用至工作的成本型別。
 
-   ![](assets/task-cost-type-options-in-tasks-details-nwe-350x233.png)
+   ![任務詳細資料中的任務成本型別選項](assets/task-cost-type-options-in-tasks-details-nwe-350x233.png)
 
    從下列選項中選取：
 

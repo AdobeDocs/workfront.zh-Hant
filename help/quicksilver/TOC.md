@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 8164cce259c48ccd92d3cb73a9fcc0ca1907b612
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '13726'
+source-wordcount: '13750'
 ht-degree: 2%
 
 ---
@@ -2111,6 +2111,9 @@ ht-degree: 2%
       * [Adobe Workfront最佳作法：文章索引](planning/best-practices.md/best-practices-article-index.md)
       * [30天啟動台：推出您的策略首頁](planning/best-practices.md/30-day-launchpad.md)
       * [成功的架構：為您的行銷活動階層建立模型](planning/best-practices.md/model-campaign-hierarchy.md)
+      * [您錯過的行銷行事曆：沒有案頭，只要清楚就能了](planning/best-practices.md/marketing-calendar.md)
+      * [行動手冊：首次獲勝後受管理的規模調整](planning/best-practices.md/playbook-how-to-scale.md)
+      * [橋接器：將策略意圖連線到專案](planning/best-practices.md/the-bridge-connect-strategy-with-projects.md)
    * Adobe Workfront規劃架構 {#adobe-workfront-planning-architecture}
       * [架構：文章索引](planning/architecture/architecture-information.md)
       * [工作區概觀](planning/architecture/workspaces-overview.md)
@@ -2544,9 +2547,9 @@ ht-degree: 2%
       * [使用JWT流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-jwt-flow.md)
       * [使用PKCE流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-pkce-flow.md)
       * [棄用API — 內部](wf-api/api/deprecation-api-internal.md)
-      * [&#x200B; API 21版的新增功能](/help/quicksilver/wf-api/api/new-api-version-21.md)
-      * [&#x200B; API 20版的新增功能](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [&#x200B; API 19版的新增功能](wf-api/api/new-api-version-19.md)
+      * [ API 21](/help/quicksilver/wf-api/api/new-api-version-21.md)版的新增功能
+      * [ API 20](/help/quicksilver/wf-api/api/new-api-version-20.md)版的新增功能
+      * [ API 19](wf-api/api/new-api-version-19.md)版的新增功能
       * [API 18版的新增功能](wf-api/api/new-api-version-18.md)
       * [API 17版的新增功能](wf-api/api/new-api-version-17.md)
       * [API 16版的新增功能](wf-api/api/new-api-version-16.md)

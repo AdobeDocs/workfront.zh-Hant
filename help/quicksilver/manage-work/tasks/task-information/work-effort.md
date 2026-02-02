@@ -7,10 +7,10 @@ description: 工作投入概觀
 author: Alina
 feature: Work Management
 exl-id: 70f51e4b-43cc-427a-99e4-ebb056bb1070
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1474'
-ht-degree: 0%
+source-wordcount: '1488'
+ht-degree: 1%
 
 ---
 
@@ -57,16 +57,16 @@ ht-degree: 0%
 >
 >計畫時數與工作量會相互影響。 更新計畫時數可以更新工作量，更新工作量可以更新任務的計畫時數。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -130,15 +130,15 @@ ht-degree: 0%
 
 ## 啟用使用工作量而非計畫時數
 
-1. 前往專案，按一下&#x200B;**更多**&#x200B;功能表![](assets/more-icon.png)，然後按一下&#x200B;**編輯**。
+1. 前往專案，按一下&#x200B;**更多**&#x200B;功能表![更多圖示](assets/more-icon.png)，然後按一下&#x200B;**編輯**。
 1. 按一下&#x200B;**工作設定**，然後選取選項&#x200B;**使用工作量自動計算工作計畫時數**。 預設會取消選取此選項。
 
-   ![](assets/nwe-work-effort-on-projects-350x182.png)
+   ![專案上的工作量](assets/nwe-work-effort-on-projects-350x182.png)
 
    如需有關啟用專案上工作投入的詳細資訊，請參閱[編輯專案](../../../manage-work/projects/manage-projects/edit-projects.md)文章中的「任務設定」一節。
 
 1. 按一下左側面板上的&#x200B;**任務**，然後按一下任務的名稱以存取它。
-1. 按一下&#x200B;**更多**&#x200B;功能表![](assets/more-icon.png)，然後按一下&#x200B;**編輯**。 確保任務具有簡單期間型別。
+1. 按一下&#x200B;**更多**&#x200B;功能表![更多圖示](assets/more-icon.png)，然後按一下&#x200B;**編輯**。 確保任務具有簡單期間型別。
 
    >[!TIP]
    >
@@ -146,7 +146,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**總覽**&#x200B;區域中，按一下工作量下拉式功能表，以更正完成工作所需的工作量大小。
 
-   ![](assets/work-effort-on-edit-task-page-350x239.png)
+   ![在編輯任務頁面上的工作量](assets/work-effort-on-edit-task-page-350x239.png)
 
    如需有關更新任務的「工作量」欄位的詳細資訊，請參閱下列文章：
 

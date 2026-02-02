@@ -6,9 +6,9 @@ description: 有時候，專案上的任務排程之間可能會發生衝突。 
 author: Alina
 feature: Work Management
 exl-id: 6695448c-76ce-460c-aa59-63a3d5e2e18d
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '391'
 ht-degree: 9%
 
 ---
@@ -85,7 +85,7 @@ ht-degree: 9%
 
 1. 按一下&#x200B;**設定**。
 
-   ![](assets/leveling-delay-edit-task-nwe-350x345.png)
+   ![編輯任務時平準延遲](assets/leveling-delay-edit-task-nwe-350x345.png)
 
 1. 指定&#x200B;**平準延遲** （以小時為單位），然後選擇時間單位。\
    這是資源因資源衝突而延遲啟動工作的時間。

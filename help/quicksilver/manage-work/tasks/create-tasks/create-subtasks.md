@@ -6,10 +6,10 @@ description: 在Adobe Workfront中，任務可以有父子關係。 子任務稱
 author: Alina
 feature: Work Management
 exl-id: 3d970794-b5ea-422f-bc92-51846cb7db35
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 0%
+source-wordcount: '578'
+ht-degree: 3%
 
 ---
 
@@ -19,22 +19,22 @@ ht-degree: 0%
 
 在Adobe Workfront中，任務可以有父子關係。 子任務稱為子任務。 您可以將主要任務設為其他任務的子任務，以在任務清單中建立子任務。 您也可以將子任務設為主要任務。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td> <p>標準</p> 
-   <p>工作或更高</p> </td> 
+   <p>工作或更高層級</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -96,12 +96,12 @@ ht-degree: 0%
 1. （視條件而定）如果您要建立子項工作的工作尚未直接位於要建立父項工作的正下方，請將其拖放至工作清單中的適當位置。
 1. 選取要建立子任務的工作，並執行下列任一項作業：
 
-   * 按一下&#x200B;**縮排**&#x200B;圖示![](assets/indent-icon-nwe-33x29.png)，將選取的工作設為其正上方的子工作。
+   * 按一下&#x200B;**縮排**&#x200B;圖示![縮排圖示](assets/indent-icon-nwe-33x29.png)，將選取的工作設為其正上方的子工作。
    * 使用標準英文QWERTY鍵盤時，在鍵盤上按Option + > (Mac)或Alt + > (Windows)。 其他語言可能會使用命令Option + 、 (Mac)或Alt + 、 (Windows)來縮排。
 
      >[!TIP]
      >
-     >當您在內嵌編輯中編輯任務時，鍵盤快速鍵無法運作。 在此情況下，請使用縮排圖示![](assets/indent-icon-nwe-33x29.png)來建立子任務。
+     >當您在內嵌編輯中編輯任務時，鍵盤快速鍵無法運作。 在此情況下，請使用縮排圖示![縮排圖示](assets/indent-icon-nwe-33x29.png)來建立子工作。
 
    * 將任務拖放到要指定為父系任務的任務上。
 
@@ -132,7 +132,7 @@ ht-degree: 0%
 1. 移至您想要將子任務設為主要任務的專案。
 1. 按一下左側面板中的&#x200B;**任務**&#x200B;區段。
 1. 選取您想要成為主要任務的子任務。
-1. 按一下&#x200B;**減少縮排**&#x200B;圖示![](assets/outdent-icon-nwe-31x29.png)，將子工作設為主要工作。
+1. 按一下&#x200B;**減少縮排**&#x200B;圖示![減少縮排圖示](assets/outdent-icon-nwe-31x29.png)，將子工作變成主要工作。
 
    或
 

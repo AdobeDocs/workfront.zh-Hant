@@ -6,10 +6,10 @@ description: 您可以將一個專案中的任務複製到另一個專案，也�
 author: Alina
 feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1679'
-ht-degree: 1%
+source-wordcount: '1744'
+ht-degree: 2%
 
 ---
 
@@ -19,22 +19,22 @@ ht-degree: 1%
 
 您可以一次複製或複製一或多個任務或父系任務。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td> <p>標準</p> 
-   <p>工作或更高</p> </td> 
+   <p>工作或更高層級</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -108,9 +108,9 @@ ht-degree: 1%
    前往任務報告。
 
 1. （視條件而定）如果您開啟包含任務的專案，請按一下左側面板中的&#x200B;**任務**。
-1. 按一下&#x200B;**計畫模式**&#x200B;圖示![](assets/qs-list-mode-or-save-mode-icon-small.png)，並確認已啟用&#x200B;**自動儲存**&#x200B;選項。
+1. 按一下&#x200B;**計畫模式**&#x200B;圖示![清單模式或儲存模式圖示](assets/qs-list-mode-or-save-mode-icon-small.png)，並確認已啟用&#x200B;**自動儲存**&#x200B;選項。
 
-   ![](assets/autosave-icon-on-highlighted-350x202.png)
+   ![自動儲存圖示開啟並反白顯示](assets/autosave-icon-on-highlighted-350x202.png)
 
    >[!IMPORTANT]
    >
@@ -120,9 +120,9 @@ ht-degree: 1%
 
    * 按一下工作清單頂端的&#x200B;**更多功能表**，然後按一下&#x200B;**複製到**。
    * 以滑鼠右鍵按一下選取的工作，然後按一下&#x200B;**複製到**。
-   * 選取一個任務時，按一下清單中任務名稱旁的&#x200B;**更多**&#x200B;功能表![](assets/more-icon-task-list.png)，然後按一下&#x200B;**複製到**。
+   * 選取一個任務時，按一下清單中任務名稱旁的工作清單&#x200B;**上的**&#x200B;更多![功能表](assets/more-icon-task-list.png)更多圖示，然後按一下&#x200B;**複製到**。
 
-   ![](assets/copy-task-in-list-nwe-350x131.png)
+   ![在清單中複製任務](assets/copy-task-in-list-nwe-350x131.png)
 
 1. 繼續複製工作，如從步驟4開始的[複製工作層級](#copy-a-task-at-the-task-level)的工作一節中所述。
 
@@ -136,9 +136,9 @@ ht-degree: 1%
 
 1. 透過搜尋來尋找Workfront系統中的任務。
 1. 按一下工作名稱以開啟。
-1. 按一下工作名稱旁的&#x200B;**更多**&#x200B;下拉式功能表![](assets/qs-more-menu.png)，然後按一下&#x200B;**複製到**。
+1. 按一下工作名稱旁的&#x200B;**更多**&#x200B;下拉式功能表![更多功能表](assets/qs-more-menu.png)，然後按一下&#x200B;**複製到**。
 
-   ![](assets/taskcopy-to-at-the-task-level-nwe-350x200.png)
+   ![工作層級的](assets/taskcopy-to-at-the-task-level-nwe-350x200.png)工作復本至選項
 
    「複製工作」方塊隨即顯示。
 
@@ -148,7 +148,7 @@ ht-degree: 1%
    >
    >選擇複製清單中的多個任務時，此欄位會變暗且無法編輯。 您可以將滑鼠游標停留在「任務名稱」欄位上，所有選取的任務清單隨即顯示。
    >
-   >![](assets/copy-task-multiple-tasks-box-with-list-of-task-names-nwe-350x130.png)
+   >![在多個任務方塊中複製任務](assets/copy-task-multiple-tasks-box-with-list-of-task-names-nwe-350x130.png)
 
 1. 在&#x200B;**選取目的地專案**&#x200B;欄位中，輸入您要複製任務的&#x200B;**目的地專案**&#x200B;的名稱。
 
@@ -163,7 +163,7 @@ ht-degree: 1%
 1. （視條件而定）如果您沒有選取專案的存取權，請按一下&#x200B;**要求存取權**&#x200B;以要求存取專案。
 1. （視條件而定）如果您有權將任務新增至目標專案上的任務之一，請繼續將任務複製到所選的目標專案，而不要求存取權。
 
-   ![](assets/copy-task-request-access-from-project-nwe-350x125.png)
+   ![從專案複製任務要求存取權](assets/copy-task-request-access-from-project-nwe-350x125.png)
 
    >[!TIP]
    >
@@ -290,16 +290,16 @@ ht-degree: 1%
 1. 按一下左側面板中的&#x200B;**工作**。
 1. 執行下列其中一項：
 
-   * （視條件而定）按一下&#x200B;**計畫模式**&#x200B;圖示![](assets/qs-list-mode-or-save-mode-icon-small.png)並確認已啟用&#x200B;**自動儲存**&#x200B;選項，選取您要複製的工作，然後按一下&#x200B;**其他功能表** ![](assets/qs-more-menu-29x11.png) > **複製**。
+   * （視條件而定）按一下&#x200B;**計畫模式**&#x200B;圖示![清單模式或儲存模式小型圖示](assets/qs-list-mode-or-save-mode-icon-small.png)並確認已啟用&#x200B;**自動儲存**&#x200B;選項，選取您要複製的工作，然後按一下&#x200B;**更多功能表** ![更多功能表](assets/qs-more-menu-29x11.png) > **複製**。
 
-     ![](assets/duplicate-tasks-in-list-nwe-350x196.png)
+     ![清單功能表專案中的重複工作](assets/duplicate-tasks-in-list-nwe-350x196.png)
 
-   * （視條件而定）按一下&#x200B;**計畫模式**&#x200B;圖示![](assets/qs-list-mode-or-save-mode-icon-small.png) > **手動儲存** > **標準**&#x200B;或&#x200B;**時間表計畫**，然後執行下列動作：
+   * （視條件而定）按一下&#x200B;**計畫模式**&#x200B;圖示![清單模式或儲存模式小型圖示](assets/qs-list-mode-or-save-mode-icon-small.png) > **手動儲存** > **標準**&#x200B;或&#x200B;**時間表計畫**，然後執行下列動作：
 
-      1. 選取要複製的一個或多個任務，然後按一下[複製]。**&#x200B;**
+      1. 選取要複製的一個或多個任務，然後按一下[複製]。****
       1. （選擇性）按一下&#x200B;**還原**&#x200B;以迴轉您的變更，並且不複製工作。
       1. （選擇性和條件性）如果您先前已按一下&#x200B;**復原**，請按一下&#x200B;**重做**&#x200B;以保留變更並複製工作。
 
-      1. 按一下[儲存]儲存變更。**&#x200B;**
+      1. 按一下[儲存]儲存變更。****
 
          任務會重複，並新增到與原始任務相同的專案。

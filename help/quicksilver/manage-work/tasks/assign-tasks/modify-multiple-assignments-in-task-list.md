@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Tasks, Resource Management
 role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: b1d5122dd66d84a0e2a21f24eeb01fd3298374ad
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1553'
 ht-degree: 1%
 
 ---
@@ -125,7 +125,7 @@ When assigning users to work, their availability according to their schedules af
    >
    >請勿使用&#x200B;**指派至**&#x200B;欄位。 這只會尋找任務的主要所有者，而非可指派給他們的任何使用者。
 
-1. 選取您要修改指派的任務，然後按一下&#x200B;**編輯**&#x200B;圖示![](assets/edit-icon.png)。
+1. 選取您要修改指派的任務，然後按一下&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)。
 
    根據您選擇的環境，編輯任務的指派會有所不同。
 

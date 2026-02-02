@@ -7,9 +7,9 @@ description: 將前置任務關係新增至任務時，您可能會遇到相依�
 author: Alina
 feature: Work Management
 exl-id: 142e9637-841c-43d1-b297-e42c28a9e010
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,9 @@ ht-degree: 0%
 
 如果您嘗試將任務1變為任務2的前置任務，您會收到相依性回圈錯誤，因為您無法在任務2完成之前啟動任務1，但在任務1完成之前無法啟動任務2。
 
-![](assets/dependency-loop-error-message-350x209.png)
+![相依性回圈錯誤訊息](assets/dependency-loop-error-message-350x209.png)
 
-![](assets/dependency-loop-in-task-list-nwe-350x97.png)
+![工作清單中的相依性回圈](assets/dependency-loop-in-task-list-nwe-350x97.png)
 
 ## 關於相依性回圈的考量事項
 

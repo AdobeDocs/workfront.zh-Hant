@@ -8,9 +8,9 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1483'
+source-wordcount: '1506'
 ht-degree: 2%
 
 ---
@@ -107,7 +107,7 @@ ht-degree: 2%
    * **狀態**：要求的狀態。
    * **輸入者**：新增請求的使用者名稱。 如果要求是由Workfront外部的人員加入，則&#x200B;**輸入者**&#x200B;欄位會顯示`N/A`。
 
-   您可以有多個&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;加入的篩選器。
+   您可以有多個&#x200B;**And**&#x200B;或&#x200B;**Or**加入的篩選器。
 當您新增篩選條件時，要求清單會自動篩選。
 1. （選用）使用檢視來著重於您要顯示的請求。
 
@@ -145,7 +145,7 @@ ht-degree: 2%
    >
    >您無法自訂已提交請求清單中的欄。
 
-   ![](assets/nwe-submitted-requests-new-list-350x57.png)
+   ![已提交要求新清單](assets/nwe-submitted-requests-new-list-350x57.png)
 
 
 1. 預設會顯示下列欄：
@@ -189,17 +189,17 @@ ht-degree: 2%
    >
    >當您離開提交的請求清單時，所選的排序選項會保留。
 
-1. （選擇性）在清單中選取要求，然後按一下&#x200B;**開啟摘要**&#x200B;圖示![](assets/open-summary-with-text-nwe.png)以開啟「摘要」面板，並顯示要求、新增註解、檔案或指派的其他相關資訊。 如需「摘要」面板的相關資訊，請參閱[摘要概觀](../../../workfront-basics/the-new-workfront-experience/summary-overview.md)。
+1. （選擇性）在清單中選取要求，然後按一下&#x200B;**開啟摘要**&#x200B;圖示![開啟摘要及文字](assets/open-summary-with-text-nwe.png)，以開啟「摘要」面板並顯示要求、新增註解、檔案或指派的其他相關資訊。 如需「摘要」面板的相關資訊，請參閱[摘要概觀](../../../workfront-basics/the-new-workfront-experience/summary-overview.md)。
 
    >[!TIP]
    >
    >如果「摘要」面板已經開啟，則「開啟摘要」圖示會變更為「關閉摘要」。
 
-1. （選擇性和條件性）按一下右上角的&#x200B;**X**&#x200B;圖示或&#x200B;**關閉摘要**&#x200B;圖示![](assets/close-summary-with-text-nwe.png)以關閉摘要面板。
+1. （選擇性和條件性）按一下右上角的&#x200B;**X**&#x200B;圖示或&#x200B;**關閉摘要**&#x200B;圖示![關閉摘要及文字](assets/close-summary-with-text-nwe.png)以關閉摘要面板。
 
    如果問題轉換為任務或專案，且在轉換過程中已刪除問題，則「摘要」面板為空白。 如需轉換問題的相關資訊，請參閱[在Adobe Workfront中轉換問題的概述](../../../manage-work/issues/convert-issues/convert-issues.md)。
 
-1. 從清單右上方的&#x200B;**篩選器圖示** ![](assets/filter-nwepng.png)中，選取下表所列的任何篩選器。
+1. 從清單右上角的&#x200B;**篩選圖示** ![篩選圖示](assets/filter-nwepng.png)中，選取下表所列的任何篩選。
 
    >[!TIP]
    >
@@ -232,7 +232,7 @@ ht-degree: 2%
     </tbody> 
    </table>
 
-1. （選擇性）按一下清單頂端的&#x200B;**篩選頁面**&#x200B;圖示![](assets/search-icon.png)，依名稱搜尋請求。 清單會以符合搜尋條件的結果更新。
+1. （選擇性）按一下清單頂端的&#x200B;**篩選頁面**&#x200B;圖示![搜尋圖示](assets/search-icon.png)，依名稱搜尋請求。 清單會以符合搜尋條件的結果更新。
 
 1. （條件式）若要只顯示Workfront要求佇列，請搜尋或篩選`Issue`物件型別。</span>
 
@@ -266,7 +266,7 @@ ht-degree: 2%
 
    使用&#x200B;**篩選器**&#x200B;和&#x200B;**資料行**&#x200B;來更新Planning要求清單中的資訊。
 
-   ![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
+   在請求區域![中的](assets/workfront-planning-tab-submitted-section-in-requests-area.png)已提交規劃索引標籤區段
 
    如需詳細資訊，請參閱[提交Adobe Workfront Planning要求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)。
 

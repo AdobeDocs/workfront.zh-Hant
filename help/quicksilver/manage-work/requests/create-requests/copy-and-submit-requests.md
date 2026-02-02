@@ -6,9 +6,9 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1517'
+source-wordcount: '1520'
 ht-degree: 3%
 
 ---
@@ -104,19 +104,19 @@ ht-degree: 3%
 
 1. 找到您要複製並提交為新內容的請求，然後執行下列任一項作業：
 
-   * 選取它，然後按一下[已提交請求]清單左上角的&#x200B;**複製** ![](assets/copy-and-submit-as-new-requests-area-nwe.png)。
+   * 選取它，然後按一下「已提交請求」清單左上角的&#x200B;**複製** ![複製並提交圖示](assets/copy-and-submit-as-new-requests-area-nwe.png)。
 
    >[!TIP]
    >
    > 如果您未先選取請求，復製圖示會變暗。
 
-   * 按一下要求名稱右側的&#x200B;**更多**&#x200B;功能表![](assets/more-icon.png)，然後按一下&#x200B;**複製並送出為新專案**
+   * 按一下要求名稱右側的&#x200B;**更多**&#x200B;功能表![更多圖示](assets/more-icon.png)，然後按一下&#x200B;**複製並送出為新專案**
 
      或
 
      在選取的請求上按一下滑鼠右鍵，然後按一下[複製]並送出為新請求&#x200B;**。**
 
-     ![](assets/request-selected-more-menu-options-nwe-350x191.png)
+     ![要求選取更多功能表選項](assets/request-selected-more-menu-options-nwe-350x191.png)
 
      >[!TIP]
      >
@@ -236,12 +236,9 @@ ht-degree: 3%
 
       如需有關「我的請求」Widget的詳細資訊，請參閱[使用「我的請求」Widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)。
 
-1. 在「請求」清單或「我的請求」Widget中，暫留在您要複製的請求上。
+1. 在&#x200B;**要求**&#x200B;清單或首頁的&#x200B;**我的要求** Widget中，將游標移至您要複製的要求上，然後按一下&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)。
 
-   出現「更多」三點選單。
-   ![](assets/more-menu.png)
-
-1. 按一下要求名稱右側的&#x200B;**更多**&#x200B;功能表，然後按一下&#x200B;**複製**。
+1. 按一下&#x200B;**複製**
 
    或
 

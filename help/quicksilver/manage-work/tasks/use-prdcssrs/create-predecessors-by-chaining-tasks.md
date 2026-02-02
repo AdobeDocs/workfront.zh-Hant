@@ -6,10 +6,10 @@ description: 您可以在Adobe Workfront中以多種方式建立前置任務關�
 author: Alina
 feature: Work Management
 exl-id: 38ea13a5-ab95-4617-a47f-9dde5f752fb4
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 0%
+source-wordcount: '282'
+ht-degree: 6%
 
 ---
 
@@ -21,16 +21,16 @@ ht-degree: 0%
 
 透過鏈結任務，您可以允許系統在所選任務上自動建立前置任務關係，而不是在自己手動建立每個任務上的關係。 任務之間仍然可以使用不同的前置任務關係型別。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -85,7 +85,7 @@ ht-degree: 0%
 1. 按一下左側面板中的&#x200B;**工作**。
 1. （視條件而定）選取工作清單右上角的&#x200B;**自動儲存**，然後選取您要鏈結的工作。
 
-   ![](assets/nwe-autosave-icon-on-highlighted-350x295.png)
+   反白顯示![自動儲存圖示](assets/nwe-autosave-icon-on-highlighted-350x295.png)
 
    >[!IMPORTANT]
    >

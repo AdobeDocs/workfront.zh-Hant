@@ -7,10 +7,10 @@ description: 您可以定義任務的優先順序，以指出任務的重要性�
 author: Alina
 feature: Work Management
 exl-id: 653b62fe-6195-4288-ac05-f89e4a6113fd
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 4%
+source-wordcount: '277'
+ht-degree: 10%
 
 ---
 
@@ -18,22 +18,22 @@ ht-degree: 4%
 
 您可以定義任務的優先順序，以指出任務的重要性。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td><p>標準</p> 
-   <p>工作或更高</p> </td> 
+   <p>工作或更高層級</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -102,5 +102,5 @@ ht-degree: 4%
 
 1. 移至您要修改其優先順序的工作。
 1. 按一下左側面板中的&#x200B;**工作詳細資料**。
-1. 按一下&#x200B;**編輯**&#x200B;圖示![](assets/qs-edit-icon.png)，然後在&#x200B;**概述**&#x200B;區域中，選取&#x200B;**優先順序**&#x200B;欄位的值。
+1. 按一下&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/qs-edit-icon.png)，然後在&#x200B;**概述**&#x200B;區域中，選取&#x200B;**優先順序**&#x200B;欄位的值。
 1. 按一下&#x200B;**儲存** **變更**。

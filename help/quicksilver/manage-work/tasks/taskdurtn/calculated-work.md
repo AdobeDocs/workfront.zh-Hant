@@ -7,10 +7,10 @@ description: 「計算的工作量」是一種期間型別，您可以在Adobe W
 author: Alina
 feature: Work Management
 exl-id: f521c2f5-8d58-44c0-af18-6940ad0950ea
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 1%
+source-wordcount: '568'
+ht-degree: 2%
 
 ---
 
@@ -68,7 +68,7 @@ Work Required (Planned Hours) = SUM[(Duration of the task in hours) x (Percent a
   <tr> 
    <td> <p>2</p> </td> 
    <td> <p>1天</p> </td> 
-   <td> <p>16小時</p> <p>（1天x每個工作天8小時x 2受指派人= 16計畫小時）</p> </td> 
+   <td> <p>16 小時</p> <p>（1天x每個工作天8小時x 2受指派人= 16計畫小時）</p> </td> 
   </tr> 
   <tr> 
    <td> <p>3</p> </td> 
@@ -80,7 +80,7 @@ Work Required (Planned Hours) = SUM[(Duration of the task in hours) x (Percent a
 
 在此情況下，每個受指派人都會100%地分配到已計算的工作任務。
 
-![](assets/calcwork-350x71.png)
+![已計算的工作期間型別](assets/calcwork-350x71.png)
 
 ## 將任務的期間型別變更為計算的工作量
 

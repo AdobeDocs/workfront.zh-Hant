@@ -7,9 +7,9 @@ description: 專案的完成百分比值是根據專案中任務的規劃期間�
 author: Alina
 feature: Work Management
 exl-id: d2395569-9fe5-42e7-a392-cff49eb519d9
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '819'
 ht-degree: 0%
 
 ---
@@ -54,13 +54,13 @@ Workfront使用個別任務的完成百分比來計算其上層任務的完成�
 
   父系的計畫時數總計表示每個子系的所有計畫時數總和。
 
-  ![](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
+  ![具有任務完成百分比和計畫時數的專案](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
 
 * 如果系統根據「工期」計算完成百分比，則使用下列公式計算父級任務完成百分比：
 
   `Parent Task Percent Complete = (((Task 1 Duration * Task 1 Percent Complete) + (Task 2 Duration * Task 2 Percent Complete))/ Total Duration of Parent)*100`
 
-  ![](assets/project-with-tasks-percent-complete-duration-calculation.png)
+  ![具有任務完成百分比和持續時間計算的專案](assets/project-with-tasks-percent-complete-duration-calculation.png)
 
   >[!IMPORTANT]
   >
@@ -77,7 +77,7 @@ Workfront使用個別任務的完成百分比來計算其上層任務的完成�
 
   專案的總計畫時數是專案上所有主要任務的計畫時數總和。
 
-  ![](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
+  ![具有任務完成百分比和計畫時數計算的專案](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
 
   >[!NOTE]
   >
@@ -91,7 +91,7 @@ Workfront使用個別任務的完成百分比來計算其上層任務的完成�
   >
   >專案期間是顯示完成百分比之主要任務的所有期間總數。 例如，如果專案具有持續時間為2天的獨立任務，以及持續時間為5天的父任務，且已完成其工作，則專案的總持續時間為7天，即使這兩個任務可以在同一天開始。
 
-  ![](assets/project-with-tasks-percent-complete-duration-calculation.png)
+  ![具有任務完成百分比和持續時間計算的專案](assets/project-with-tasks-percent-complete-duration-calculation.png)
 
   >[!NOTE]
   >
@@ -101,7 +101,7 @@ Workfront使用個別任務的完成百分比來計算其上層任務的完成�
 
 使用任務的期間來計算專案完成百分比時，請考慮以下範例：
 
-![](assets/project-with-tasks-percent-complete-duration-calculation.png)
+![具有任務完成百分比和持續時間計算的專案](assets/project-with-tasks-percent-complete-duration-calculation.png)
 
 下列資訊可用來計算專案的完成百分比
 

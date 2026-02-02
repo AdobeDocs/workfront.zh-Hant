@@ -7,10 +7,10 @@ description: 決定專案的關鍵路徑是Adobe Workfront標籤專案中可能�
 author: Alina
 feature: Work Management
 exl-id: 9cbc84bf-d02b-4bb7-8d5d-922554d1262e
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 0%
+source-wordcount: '689'
+ht-degree: 3%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 0%
      >當任務的後續任務日期未直接影響其相依任務的日期或專案日期時，後續任務不會在「關鍵路徑」上。
      >
      >
-     >![](assets/successor-not-on-critical-path-350x150.png)     >
+     >![後置任務不在關鍵路徑上](assets/successor-not-on-critical-path-350x150.png)     >
      >
 
    * 當將子任務識別為「關鍵路徑」任務時，如果「預計開始日期」和父任務的時間與子任務的時間相同，則父任務也會識別為「關鍵路徑」任務。
@@ -47,23 +47,23 @@ ht-degree: 0%
 
 關鍵路徑上任務活動的任何延遲會直接影響專案的預計完成日期（關鍵路徑上沒有浮點）。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td> 
    <p>標準<p>
-   <p>工作或更高</p>
+   <p>工作或更高層級</p>
     </td> 
   </tr> 
   <tr> 

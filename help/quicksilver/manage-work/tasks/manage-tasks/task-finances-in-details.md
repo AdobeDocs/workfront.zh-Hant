@@ -6,9 +6,9 @@ description: 您可以存取「任務詳細資訊」區段的「概觀」區域�
 author: Alina
 feature: Work Management
 exl-id: 54ae48e5-bc8c-4e90-8fa1-0015523df4e6
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '838'
 ht-degree: 7%
 
 ---
@@ -92,7 +92,7 @@ ht-degree: 7%
 1. 按一下&#x200B;**工作詳細資料**。
 1. （選擇性）按一下「工作詳細資訊」頁面右上角的&#x200B;**全部收合**&#x200B;圖示。
 
-   ![](assets/collapse-all-icon-on-details-page.png)
+   ![摺疊詳細資訊頁面上的所有圖示](assets/collapse-all-icon-on-details-page.png)
 
    >[!NOTE]
    >
@@ -100,7 +100,7 @@ ht-degree: 7%
 
 1. 按一下&#x200B;**財務**&#x200B;以展開並檢視工作的財務資訊。
 
-   按一下[詳細資料]區段右上角的&#x200B;**編輯**&#x200B;圖示![](assets/edit-icon.png)，然後按一下&#x200B;**財務**。
+   按一下[詳細資料]區段右上角的&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)，然後按一下&#x200B;**財務**。
 
 1. 編輯任何可編輯的欄位，方法是按一下該欄位或按一下&#x200B;**+新增**&#x200B;將資訊新增至空白欄位。
 1. 檢閱或編輯&#x200B;**財務**&#x200B;區域中的下列資訊：
@@ -166,4 +166,4 @@ ht-degree: 7%
     </tbody> 
    </table>
 
-1. （視條件而定）如果您正在編輯財務區段中的欄位，請按一下&#x200B;**儲存**&#x200B;**變更**。
+1. （視條件而定）如果您正在編輯財務區段中的欄位，請按一下&#x200B;**儲存****變更**。

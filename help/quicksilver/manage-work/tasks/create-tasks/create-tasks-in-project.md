@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1061'
 ht-degree: 2%
 
 ---
@@ -116,8 +116,8 @@ ht-degree: 2%
 
 1. 前往您要建立任務的專案。
 1. 按一下左側面板中的&#x200B;**工作**。
-1. （視條件而定）如果您目前正在敏捷檢視中檢視工作清單，請按一下右上角的&#x200B;**清單檢視**&#x200B;圖示![](assets/list-view-in-agile-view-for-tasks.png)以顯示工作清單。
-1. （選擇性）按一下&#x200B;**計畫模式**&#x200B;圖示![](assets/nwe-plan-mode-icon-task-list.png)並選取&#x200B;**手動儲存**，然後選取&#x200B;**標準**&#x200B;或&#x200B;**時間表計畫**。 這會停用預設啟用的&#x200B;**自動儲存**&#x200B;選項。
+1. （視條件而定）如果您目前正在敏捷檢視中檢視任務清單，請按一下右上角敏捷檢視中任務的&#x200B;**清單檢視**&#x200B;圖示![清單檢視](assets/list-view-in-agile-view-for-tasks.png)以顯示任務清單。
+1. （選擇性）按一下工作清單的&#x200B;**計畫模式**&#x200B;圖示![計畫模式圖示](assets/nwe-plan-mode-icon-task-list.png)並選取&#x200B;**手動儲存**，然後選取&#x200B;**標準**&#x200B;或&#x200B;**時間表計畫**。 這會停用預設啟用的&#x200B;**自動儲存**&#x200B;選項。
 
    ![選取手動儲存](assets/manual-save-option.png)
 
@@ -130,7 +130,7 @@ ht-degree: 2%
    * 按一下工作清單頂端的&#x200B;**新增工作**。
    * 按一下工作清單底部的&#x200B;**新增更多工作**。
 
-   ![](assets/qs-new-task-or-add-task-buttons-in-list-highlighted-350x242.png)
+   ![在反白顯示的清單中新增任務或新增任務按鈕](assets/qs-new-task-or-add-task-buttons-in-list-highlighted-350x242.png)
 
 1. （視條件而定）如果您按一下&#x200B;**新增工作**，請執行下列動作：
 
@@ -138,13 +138,13 @@ ht-degree: 2%
 
       或
 
-      若要更新工作的所有欄位，請按一下[其他選項] **&#x200B;**&#x200B;以開啟[建立工作] **方塊**。
+      若要更新工作的所有欄位，請按一下[其他選項] ****&#x200B;以開啟[建立工作] **方塊**。
 
-      ![](assets/nwe-create-task-small-screen-350x272.png)
+      ![建立任務小方塊](assets/nwe-create-task-small-screen-350x272.png)
 
       **建立任務**&#x200B;方塊開啟。
 
-      ![](assets/create-task-larger-box-nwe-350x244.png)
+      ![建立任務大型方塊](assets/create-task-larger-box-nwe-350x244.png)
 
 
       >[!NOTE]
@@ -173,7 +173,7 @@ ht-degree: 2%
 
    我們建議使用此選項，尤其是在將多個任務新增至清單時。
 
-   ![](assets/add-more-tasks-inline.png)
+   ![新增更多內嵌任務](assets/add-more-tasks-inline.png)
 
 1. （視條件而定）執行下列任一項作業：
 
@@ -213,11 +213,11 @@ ht-degree: 2%
 
    如需詳細資訊，請參閱[篩選：個人工作](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md)。
 
-   ![](assets/personal-tasks-report.png)
+   ![個人工作報告](assets/personal-tasks-report.png)
 1. 按一下個人工作報告中的工作名稱以開啟它。
 
    Workfront會將個人任務儲存在未列出的個人專案中，此專案一律根據以下模式命名：「&lt;使用者的全名>的任務」。 例如，個人專案可以命名為「Rick&#39;s Tasks」。
 
-1. 從工作頁面，按一下&#x200B;**更多功能表** ![](assets/more-icon.png)，然後按一下&#x200B;**移動**。 如需關於移動任務的詳細資訊，請參閱[移動任務](/help/quicksilver/manage-work/tasks/manage-tasks/move-tasks.md)。
+1. 從工作頁面，按一下&#x200B;**更多功能表** ![更多圖示](assets/more-icon.png)，然後按一下&#x200B;**移動**。 如需關於移動任務的詳細資訊，請參閱[移動任務](/help/quicksilver/manage-work/tasks/manage-tasks/move-tasks.md)。
 
    在您移動完任務後，該任務會顯示在您選取的專案上。 專案時間表可能受新任務的時間表影響。

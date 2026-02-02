@@ -6,10 +6,10 @@ description: 任務的工期型別可識別指派給任務的資源數量、總�
 author: Alina
 feature: Work Management
 exl-id: 2f01566c-c3e0-4f59-bf53-2a67806a205c
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 6%
+source-wordcount: '292'
+ht-degree: 12%
 
 ---
 
@@ -17,22 +17,22 @@ ht-degree: 6%
 
 任務的工期型別可識別指派給任務的資源數量、總工作量及任務工期總計之間的關係。 如需詳細資訊，請參閱[任務期間與期間型別概觀](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td><p>標準或更高</p> 
-   <p>工作或更高</p> </td> 
+   <p>工作或更高層級</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -87,7 +87,7 @@ ht-degree: 6%
 1. 按一下左側面板中的&#x200B;**任務**&#x200B;區段。
 1. 按一下左側面板中的&#x200B;**工作詳細資料**，然後在總覽區域中按一下&#x200B;**期間型別**。
 
-   ![](assets/duration-type-all-options-on-overview-350x155.png)
+   ![期間在總覽上輸入所有選項](assets/duration-type-all-options-on-overview-350x155.png)
 
 1. 選取下列選項
 

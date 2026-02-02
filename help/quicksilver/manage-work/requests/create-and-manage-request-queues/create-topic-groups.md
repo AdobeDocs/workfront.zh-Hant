@@ -8,10 +8,10 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 7c5959f4-f33f-4f5e-b031-748dbe1a24a5
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
 source-wordcount: '463'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -21,16 +21,16 @@ ht-degree: 0%
 
 主題群組與請求佇列相關聯。 您可以使用主題群組，根據請求的性質，將請求佇列分為多個類別。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
@@ -80,7 +80,7 @@ ht-degree: 0%
 1. 按一下左側面板中的&#x200B;**主題群組**。
 1. 按一下&#x200B;**新增主題群組**。
 
-   <!--   ![](assets/new-topic-group-box-nwe-350x306.png) -->
+   <!--   ![New topic group box](assets/new-topic-group-box-nwe-350x306.png) -->
 
 1. 指定下列資訊：
 
@@ -91,4 +91,4 @@ ht-degree: 0%
 1. 按一下「**儲存**」。\
    這會在您的請求佇列中建立新的主題群組。 您現在可以從「請求佇列」下的第一個下拉式功能表中選取其他類別。\
    如需有關提交請求的詳細資訊，請參閱[建立並提交Adobe Workfront請求](../../../manage-work/requests/create-requests/create-submit-requests.md)。
-1. 若要編輯現有的主題群組，請從「主題群組」清單中選取「主題群組」，然後在開啟的視窗中編輯詳細資訊。 按一下[儲存]儲存變更。**&#x200B;**
+1. 若要編輯現有的主題群組，請從「主題群組」清單中選取「主題群組」，然後在開啟的視窗中編輯詳細資訊。 按一下[儲存]儲存變更。****

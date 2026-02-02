@@ -6,9 +6,9 @@ description: 任務限制決定任務在專案上何時開始和結束。 如需
 author: Alina
 feature: Work Management
 exl-id: 54b54892-f8b3-4704-8221-03bbb9f07917
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '304'
 ht-degree: 19%
 
 ---
@@ -80,7 +80,7 @@ ht-degree: 19%
 1. 按一下左側面板中的&#x200B;**任務**&#x200B;區段。
 1. 按一下左側面板中的&#x200B;**任務詳細資料**，然後在總覽區域中按一下&#x200B;**任務限制**。
 
-   ![](assets/task-constraint-all-options-in-overview-350x254.png)
+   ![任務限制總覽](assets/task-constraint-all-options-in-overview-350x254.png)中的所有選項
 
 1. 選取下列選項
 

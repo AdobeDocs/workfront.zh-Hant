@@ -1,5 +1,5 @@
 ---
-title: 成功架構：為您的行銷活動階層建立模型
+title: 成功架構：為您的行銷活動階層建模
 description: 瞭解如何使用「重心」和多工作區架構，將複雜的業務流程轉換為可擴充、受管理的行銷活動階層。
 feature: Workfront Planning
 role: User, Admin
@@ -7,7 +7,7 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 54a6e633e903c73a78b36e90fb27edb445dc8d47
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# 成功的架構：為您的行銷活動階層建立模型
+# 成功架構：為您的行銷活動階層建模
 
 <!--see the file again for additional comments from Seth and others-->
 

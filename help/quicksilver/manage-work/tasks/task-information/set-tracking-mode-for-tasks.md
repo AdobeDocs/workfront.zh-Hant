@@ -6,10 +6,10 @@ description: 任務的追蹤模式會決定如何在Adobe Workfront中更新任�
 author: Alina
 feature: Work Management
 exl-id: 751071b4-3716-4153-97fe-4fe0ebc7cbb0
-source-git-commit: 87bf2a4485d3b0c29fcfe8e00dcca57874cdec04
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 6%
+source-wordcount: '207'
+ht-degree: 14%
 
 ---
 
@@ -21,23 +21,23 @@ ht-degree: 6%
 
 如需有關工作的追蹤模式資訊，請參閱[工作追蹤模式概觀](../../../manage-work/tasks/task-information/task-tracking-mode.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td> <p>標準</p>
 
-<p>工作或更高</p> 
+<p>工作或更高層級</p> 
    </td> 
   </tr> 
   <tr> 
@@ -87,13 +87,13 @@ ht-degree: 6%
 ## 設定任務的追蹤模式
 
 1. 前往您要設定追蹤模式的工作。
-1. 按一下工作名稱旁的&#x200B;**更多**&#x200B;圖示![](assets/qs-more-icon-on-an-object.png)，然後按一下&#x200B;**編輯**。
+1. 按一下工作名稱旁的物件&#x200B;**上的**&#x200B;更多![圖示](assets/qs-more-icon-on-an-object.png)更多，然後按一下&#x200B;**編輯**。
 
    「編輯任務」對話方塊開啟。
 
 1. 在&#x200B;**設定**&#x200B;區段中，使用&#x200B;**追蹤模式**&#x200B;下拉式功能表來選取工作的追蹤模式。
 
-   ![](assets/tracking-mode-field-in-edit-task-settings-nwe-350x233.png)
+   編輯任務設定區段![中的](assets/tracking-mode-field-in-edit-task-settings-nwe-350x233.png)追蹤模式欄位
 
 1. 從下列選項中選取：
 

@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: dbde5419-02ce-456b-a430-b2825d81fb87
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '875'
-ht-degree: 0%
+source-wordcount: '890'
+ht-degree: 2%
 
 ---
 
@@ -22,22 +22,22 @@ ht-degree: 0%
 
 如需週期性任務的一般資訊，包括編輯現有週期性任務的影響，請參閱[週期性任務概觀](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td> <p>標準</p> 
-   <p>工作或更高</p> </td> 
+   <p>工作或更高層級</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -97,7 +97,7 @@ ht-degree: 0%
 
    「新增工作」對話方塊隨即顯示。
 
-   ![](assets/nwe-create-task-small-screen-350x272.png)
+   ![建立任務小熒幕](assets/nwe-create-task-small-screen-350x272.png)
 
 1. 按一下&#x200B;**其他選項**，然後在&#x200B;**工作名稱**&#x200B;欄位中輸入工作的名稱。
 1. 以新增任務時的相同方式繼續更新任務。 如需新增任務的詳細資訊，請參閱[在專案中建立任務](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)。
@@ -109,7 +109,7 @@ ht-degree: 0%
 1. 按一下左側面板中的&#x200B;**概觀**。
 1. 向下捲動至&#x200B;**遞回排程**&#x200B;區段，然後選取&#x200B;**將此工作設為遞回工作**&#x200B;選項。
 
-   ![](assets/recurrence-schedule-section-new-recurring-tasks-nwe-350x351.png)
+   ![週期性排程選取新的週期性工作](assets/recurrence-schedule-section-new-recurring-tasks-nwe-350x351.png)
 
 1. 在&#x200B;**頻率**&#x200B;下拉式清單中，選取您想要工作發生的時間單位數以及時間單位型別。 從下列選項中選取：
 
@@ -163,7 +163,7 @@ ht-degree: 0%
 
    如需從父遞回任務自動填寫哪些欄位的詳細資訊，請參閱[遞回任務總覽](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md)。
 
-   ![](assets/recurring-tasks-in-task-list-nwe-350x87.png)
+   ![重新組織工作清單中的工作](assets/recurring-tasks-in-task-list-nwe-350x87.png)
 
 1. （選用）修改每個週期性任務，就像修改專案中任何其他任務一樣。
 

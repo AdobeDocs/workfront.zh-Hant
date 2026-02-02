@@ -7,9 +7,9 @@ description: 儘可能延遲(ALAP)是Adobe Workfront任務限制，可將任務�
 author: Alina
 feature: Work Management
 exl-id: 475427d0-020b-4851-a614-c9931659e07d
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
@@ -61,13 +61,13 @@ ht-degree: 0%
 
   **範例：**&#x200B;例如，任務A是任務B的前置任務。任務A具有最新的可用時間限制，而任務B具有「儘快」限制。 在此情況下，任務A會儘可能安排在接近專案開始的時間。
 
-  ![](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
+  ![最新的可用時間任務限制](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
 
 * **儘可能遲：**&#x200B;在此案例中，在前置任務上使用儘可能晚限制會將優先順序給予前置任務。
 
   **範例：**&#x200B;例如，任務A是任務B的前置任務。任務A具有儘可能晚的限制，而任務B具有儘可能早的限制。 在此情況下，任務A會排程儘可能接近專案結尾。
 
-  ![](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
+  ![在任務清單中儘可能晚的任務限制](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
 
 
 

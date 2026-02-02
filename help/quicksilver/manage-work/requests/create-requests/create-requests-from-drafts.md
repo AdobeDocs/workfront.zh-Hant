@@ -6,9 +6,9 @@ description: 除了使用Workfront在您輸入新請求時向您建議的可用�
 author: Becky
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '827'
 ht-degree: 3%
 
 ---
@@ -100,7 +100,7 @@ ht-degree: 3%
 
    此清單中會顯示每個請求佇列之每個佇列主題的草稿。
 
-   ![](assets/nwe-drafts-section-with-list-of-drafts-350x169.png)
+   ![草稿區段包含草稿清單](assets/nwe-drafts-section-with-list-of-drafts-350x169.png)
 
 1. （選擇性）按一下欄標題，依該欄排序清單。
 
@@ -133,7 +133,7 @@ ht-degree: 3%
 
      如果您尚未準備好提交，請按一下&#x200B;**關閉**，稍後可能會回來完成它。 您的請求會儲存在「草稿」區段，當您下次提交此請求佇列的請求時，即可使用此請求。
 
-     ![](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
+     ![新要求上的提交、關閉、捨棄按鈕](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
 
      當您提交請求時，草稿會被刪除且無法還原。
 

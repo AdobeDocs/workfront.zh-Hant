@@ -7,9 +7,9 @@ description: 「計算的任務指派」是一種期間型別，您可以在Adob
 author: Alina
 feature: Work Management
 exl-id: 5f1f6109-5d54-4c3f-9aa5-dc6ce165a1cd
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Planned Hours / Duration / Number of Resources = Allocation Percentage for each 
 
 例如，在下面概述的案例中，每個任務的工期為3天。 專案經理手動輸入「持續時間」（3天或24小時）和「計畫時數」，因此會計算配置百分比（或指定百分比）：
 
-![](assets/calcassign-350x80.png)
+![已計算的指派持續時間型別](assets/calcassign-350x80.png)
 
 ## 將任務的期間型別變更為計算的任務指派
 
