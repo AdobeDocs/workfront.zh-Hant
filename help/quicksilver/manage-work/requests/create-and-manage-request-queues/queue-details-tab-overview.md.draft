@@ -118,7 +118,7 @@ You can adjust various aspects of how the embedded form is displayed, as follows
  </tbody> 
 </table>
 
-![](assets/queue-type-350x246.png)
+![Queue type](assets/queue-type-350x246.png)
 
 ### Queue Properties {#queue-properties}
 
@@ -156,7 +156,7 @@ When an organization uses approval processes with incoming work, the user can as
 **Default Route**
 
 It comes from Routing Rules that have already been setup on the project. Use this field to attach a Routing Rule or change the route when necessary. Choosing a Routing Rule here applies the same routing to all the issues submitted on this project. For information about creating Routing Rules, see [Create Routing Rules](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).  
-![](assets/queue-properties-350x315.png)
+![Queue properties](assets/queue-properties-350x315.png)
 
 ### New Issue Fields {#new-issue-fields}
 
@@ -181,7 +181,7 @@ You can give the following sets of users access to view the fields you selected:
 **Custom****Forms**
 
 The drop-down list for the custom forms displays all available custom forms for projects and issues.  You must create a custom form before you can select it in this list. If there are no custom forms in Workfront, nothing displays in the drop-down list. To learn how to create custom forms, please refer to [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).  
-![](assets/queueproperties-details2-350x174.png)
+![Queue properties details](assets/queueproperties-details2-350x174.png)
 
 ### Email Settings {#email-settings}
 
@@ -216,6 +216,6 @@ To set up the email account associated with a Request Queue, specify the followi
   If **Enforce SSL/TLS** is unselected, leave this field blank.
 
 * Click **Test Configuration** and ensure that you get a message stating that the configuration was successful.  
-  ![](assets/screen-shot-2013-08-22-at-9.56.10-am-350x408.png)
+  ![Test configuration screen shot](assets/screen-shot-2013-08-22-at-9.56.10-am-350x408.png)
 
 For more information about setting up the POP account, including specific information to the POP configuration settings, see [Enable users to email an issue into a Request Queue project](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md).
