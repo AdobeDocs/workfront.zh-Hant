@@ -2,10 +2,9 @@
 title: 開始使用案例規劃工具
 description: 您可以使用Adobe Workfront情境規劃工具，建立概括貴公司整體策略成果的企業層級計畫。 您可以為計畫定義數個方案，並將其置於各種情境中，以找出執行計畫的最佳解決方案。
 author: Alina
-draft: Probably
 feature: Workfront Scenario Planner
 exl-id: a6afe39f-1663-493d-a582-0a396ce138c2
-source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
 source-wordcount: '774'
 ht-degree: 0%
@@ -16,7 +15,7 @@ ht-degree: 0%
 
 您可以使用[!DNL Adobe Workfront Scenario Planner]來建置概括貴公司整體策略成果的企業層級計畫。 您可以為計畫定義數個方案，並將其置於各種情境中，以找出執行計畫的最佳解決方案。
 
-如需[!DNL Workfront Scenario Planner]的高階概觀，請參閱[&#x200B; [!DNL Scenario Planner] 概觀](../scenario-planner/scenario-planner-overview.md)。
+如需[!DNL Workfront Scenario Planner]的高階概觀，請參閱[ [!DNL Scenario Planner] 概觀](../scenario-planner/scenario-planner-overview.md)。
 
 
 ## 使用[!DNL Workfront Scenario Planner]的方法
@@ -69,5 +68,5 @@ ht-degree: 0%
 | 物件名稱 | 說明 |
 |---|---|
 | [!UICONTROL 計畫] | 父物件，可讓您為貴組織在未來1年、3年或5年的高層級、即將到來的策略制定藍圖。 您可以設定預算以及執行計畫至完成時可使用的人員數量。 |
-| [!UICONTROL 案例] | 相同計畫的版本。 您可以建立相同計畫的多個復本或版本，以針對每個計畫繪製不同的方案，並檢視哪些方案最適合成為最終的方案。 |
+| [!UICONTROL 情境] | 相同計畫的版本。 您可以建立相同計畫的多個復本或版本，以針對每個計畫繪製不同的方案，並檢視哪些方案最適合成為最終的方案。 |
 | [!UICONTROL 方案] | 計畫的子物件，它仍在高階定義需要完成的實際工作，以達成計畫所定義的策略。 您可以手動新增方案，或從現有專案匯入方案。 您可以新增完成方案所需的可能成本和人員數量。 在您定義所有方案，並將它們與成本和資源數量產生關聯後，如果方案與計畫可用的預算之間發生衝突，您可以重新計畫它們，以更好地彼此和計畫保持一致。 |

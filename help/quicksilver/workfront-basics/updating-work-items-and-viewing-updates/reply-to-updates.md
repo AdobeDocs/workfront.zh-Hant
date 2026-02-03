@@ -8,10 +8,10 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
 source-wordcount: '705'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -51,16 +51,16 @@ ht-degree: 0%
 
 本文說明如何回覆Workfront中大部分物件的註解。 如需各種物件之「更新」區段之間的差異，請參閱[更新區段概觀](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront套件</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront 封裝</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -158,14 +158,14 @@ ht-degree: 0%
 
 1. (Optional) To view an image in the existing update do one of the following:
 
-   * Click the **Preview** icon ![](assets/previewimageicon-31x31.png) on the image thumbnail to open the full-size image in a new browser tab.
-   * Click the **Download** icon ![](assets/downloadimageicon.png) on the image thumbnail to download the image.
+   * Click the **Preview** icon ![Preview image icon](assets/previewimageicon-31x31.png) on the image thumbnail to open the full-size image in a new browser tab.
+   * Click the **Download** icon ![Download image icon](assets/downloadimageicon.png) on the image thumbnail to download the image.
 
 1. Click **Reply** on the update, then type a reply in the box that appears.
 
    You can see the users who are actively engaged in the conversation or tagged in each reply at the top of that update thread. These users, along with any users subscribed to the object, receive a notification whenever an update or reply is made on the object. You can also tag more users to include them in your reply.  To tag more users, see [Tag others on updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
-   ![](assets/tagging-transparency-350x192.png)
+   ![Tagging transparency](assets/tagging-transparency-350x192.png)
    
 1. (Optional) To include text from a previous update in your reply, click the **More** menu next to the update or reply you want to quote, then click **Quote Reply**. Text from the previous update appears in the input area, marked with a vertical gray line.
 1. (Optional) Use formatting, emojis, include links, or images as explained in the section "Use Rich Text in a Workfront update" in the article [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).

@@ -7,9 +7,9 @@ description: 將表單附加到物件後，您可以編輯自訂表單上的資�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 6dce5e15a41587cd9febf82ffc0a62d3b7e121d1
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1222'
 ht-degree: 3%
 
 ---
@@ -130,7 +130,7 @@ ht-degree: 3%
    >
    >您必須先完成表單上的所有必填欄位，然後才能儲存表單。 必要欄位的名稱后面會加上星號。
    >
-   >![](assets/nwe-required-custom-field.png)
+   >![必要的自訂欄位](assets/nwe-required-custom-field.png)
 
    當有人變更物件中由計算自訂欄位參考的其他物件資料時，變更不會自動反映在您的物件中。 如需有關手動更新物件中所有計算自訂欄位的資訊，請參閱本文中的[重新計算物件的所有計算自訂欄位](#recalculate-all-calculated-custom-fields-for-an-object)。
 
@@ -177,7 +177,7 @@ ht-degree: 3%
    * 方案
    * 文件
 
-1. 按一下物件名稱右邊的&#x200B;**更多**&#x200B;功能表![](assets/more-icon.png)，然後按一下&#x200B;**重新計算運算式**。
+1. 按一下物件名稱右邊的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-icon.png)，然後按一下&#x200B;**重新計算運算式**。
 
    這會重新計算物件表單上的所有自訂欄位。
 
@@ -202,7 +202,7 @@ ht-degree: 3%
 
 1. 選取要更新其計算自訂欄位的物件。
 1. 按一下&#x200B;**編輯圖示**。
-1. 按一下左側功能表中的[自訂Forms]&#x200B;**&#x200B;**，然後選取[重新計算自訂運算式]&#x200B;**&#x200B;**。
+1. 按一下左側功能表中的[自訂Forms]****，然後選取[重新計算自訂運算式]****。
 1. 按一下&#x200B;**儲存**&#x200B;或&#x200B;**儲存變更**。
 
    Workfront會為所有選取的物件計算所有自訂欄位。
@@ -217,9 +217,9 @@ ht-degree: 3%
    * 專案組合
    * 計劃
    * 費用
-1. 按一下&#x200B;**更多**&#x200B;功能表![](assets/more-icon.png)，然後按一下&#x200B;**重新計算自訂運算式**。
+1. 按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-icon.png)，然後按一下&#x200B;**重新計算自訂運算式**。
 
-![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+![重新計算專案清單中的運算式時間表財務下拉式清單](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
 Workfront會立即計算所有選定專案的所有自訂欄位。
 並非所有物件的清單都有此功能。

@@ -5,9 +5,9 @@ description: 您可以使用「摘要」面板，直接從任務問題、檔案�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: d7b8d7285d23d14f5390c9de1001de553c2b796f
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '908'
 ht-degree: 2%
 
 ---
@@ -54,10 +54,10 @@ ht-degree: 2%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 工作負載平衡器]的[!UICONTROL 未指派]和[!UICONTROL 已指派]工作區域中的任務</td> 
+   <td>[！UICONTROL工作負載平衡器]的[！UICONTROL未指派]和[！UICONTROL已指派]工作區域中的任務</td> 
   </tr> 
    <tr> 
-   <td>[!UICONTROL 時程表]中的任務</td> 
+   <td>[！UICONTROL時程表]中的任務</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><b>問題</b></td> 
@@ -71,24 +71,24 @@ ht-degree: 2%
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 工作負載平衡器]的[!UICONTROL 指派的工作]區域發生問題</td> 
+   <td>[！UICONTROL工作負載平衡器]的[！UICONTROL指派的工作]區域發生問題</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 請求]區域的[!UICONTROL 已提交]區段中的問題</td> 
+   <td>[！UICONTROL請求]區域的[！UICONTROL已提交]區段中的問題</td> 
   </tr> 
 </tr> 
    <tr> 
-   <td>[!UICONTROL 時程表]中的問題</td> 
+   <td>[！UICONTROL時程表]中的問題</td> 
   </tr>
 
 <tr data-mc-conditions=""> 
    <td><b>文件</b></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 檔案]區域</td> 
+   <td>[！UICONTROL檔案]區域</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>任何物件（專案、任務、問題、方案、投資組合、範本、範本任務、使用者）的[!UICONTROL 檔案]區段</td> 
+   <td>任何物件（專案、任務、問題、方案、投資組合、範本、範本任務、使用者）的[！UICONTROL檔案]區段</td> 
   </tr> 
  </tbody> 
 </table>
@@ -107,11 +107,11 @@ ht-degree: 2%
 ## 檢視任務或問題清單中的[!UICONTROL 摘要]面板
 
 1. 前往任務或問題，然後在清單中選取專案。
-1. 按一下&#x200B;**[!UICONTROL 摘要]**&#x200B;圖示![](assets/qs-summary-in-new-toolbar-small.png)
+1. 按一下新工具列中的&#x200B;**[!UICONTROL 摘要]**&#x200B;圖示![摘要](assets/qs-summary-in-new-toolbar-small.png)
 
    或
 
-   在&#x200B;**[!UICONTROL 要求]**&#x200B;區域的![](assets/open-summary-with-text-nwe.png)已提交[!UICONTROL 區段中，按一下]開啟摘要[!UICONTROL 圖示]。
+   在&#x200B;**[!UICONTROL 要求]**&#x200B;區域的![已提交](assets/open-summary-with-text-nwe.png)區段中，按一下[!UICONTROL 開啟摘要]圖示[!UICONTROL 開啟摘要及文字]。
 
    開啟「摘要」後，當您按一下或選取其他任務或問題時，摘要會保持開啟狀態，直到您手動關閉摘要為止。
 
@@ -123,13 +123,13 @@ ht-degree: 2%
 
 1. （選擇性）若要關閉[!UICONTROL 摘要]面板，請執行下列其中一項操作：
 
-   * 在工作或問題清單中，按一下&#x200B;**[!UICONTROL 開啟摘要]**&#x200B;圖示![](assets/summary-panel-icon.png)
+   * 在工作或問題清單中，按一下&#x200B;**[!UICONTROL 開啟摘要]**&#x200B;圖示![摘要面板圖示](assets/summary-panel-icon.png)
 
      或
 
      按一下&#x200B;**摘要**&#x200B;面板右上角的[!UICONTROL X]圖示。
 
-   * 在[!UICONTROL 要求]區域的[!UICONTROL 已提交]區段中，按一下&#x200B;**[!UICONTROL 關閉摘要]**&#x200B;圖示![](assets/close-summary-with-text-nwe.png)
+   * 在[!UICONTROL 要求]區域的[!UICONTROL 已提交]區段中，按一下&#x200B;**[!UICONTROL 關閉摘要]**&#x200B;圖示![包含文字的關閉摘要](assets/close-summary-with-text-nwe.png)
 
      或
 

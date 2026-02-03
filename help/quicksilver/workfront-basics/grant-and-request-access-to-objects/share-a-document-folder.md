@@ -6,9 +6,9 @@ description: 您可以從「檔案」區域共用資料夾及其內容。
 author: Alina
 feature: Get Started with Workfront
 exl-id: c0d318a8-b1cf-4522-b478-acf092687658
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '847'
 ht-degree: 2%
 
 ---
@@ -100,7 +100,7 @@ ht-degree: 2%
 
 開啟Workfront物件後，按一下左側面板中的&#x200B;**檔案**。
 
-1. 選取資料夾，然後按一下工具列中的「共用」圖示![](assets/share-icon.png)。
+1. 選取資料夾，然後按一下工具列中的「共用」圖示![共用圖示](assets/share-icon.png)。
 
    資料夾必須位於物件上資料夾階層的前五個層級，而且不能是智慧型資料夾。
 
@@ -132,7 +132,7 @@ ht-degree: 2%
    </table>
 
 1. （可選）重複步驟3至4，將其他名稱新增至清單並設定其選項。
-1. （選擇性）如果您希望系統中的每個人都能檢視資料夾及其內容，請按一下共用方塊右上角的齒輪圖示![](assets/gear-icon-settings-with-dn-arrow.jpg)，然後按一下&#x200B;**讓此內容在整個系統內可見。**
+1. （選擇性）如果您希望系統中的每個人都能檢視資料夾及其內容，請按一下共用方塊右上角的齒輪圖示![齒輪圖示設定（含向下箭頭](assets/gear-icon-settings-with-dn-arrow.jpg)），然後按一下&#x200B;**讓此專案在整個系統內可見。**
 
    如果您改變心意，可以按一下&#x200B;**移除系統範圍存取權** （預設選項）。
 

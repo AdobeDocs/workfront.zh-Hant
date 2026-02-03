@@ -6,9 +6,9 @@ description: 若要檢視任何使用者為物件輸入的所有更新，您可�
 author: Alina
 feature: Get Started with Workfront
 exl-id: fa5b91e4-b88c-42f0-860c-6864105b4652
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '380'
 ht-degree: 4%
 
 ---
@@ -115,7 +115,7 @@ ht-degree: 4%
 1. （選擇性）按一下&#x200B;**篩選器**，然後&#x200B;**新增篩選器規則**。
 1. 為&#x200B;**記事** > **記事文字** > **不是空白的**。
 
-   ![](assets/note-note-text-not-blank-filter.png)
+   ![附註文字欄位不是空白篩選器](assets/note-note-text-not-blank-filter.png)
 
    >[!TIP]
    >

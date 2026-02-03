@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '2004'
+source-wordcount: '2020'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ ht-degree: 0%
    <ul><li><p>Adobe Experience Manager Assets授權及AEM Assets與Workfront之間的整合，用於連結AEM資產與Planning記錄型別。</p>
    <p>如需詳細資訊，請參閱<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">適用於Experience Manager Assets和Assets Essentials的Adobe Workfront：文章索引</a>。 </p></li>
    <li><p> 連線記錄型別與GenStudio Brands的Adobe GenStudio for Performance Marketing授權</p>
-   <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/get-started">開始使用Adobe GenStudio for Performance Marketing</a>。</p></li></ul>
+   <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">開始使用Adobe GenStudio for Performance Marketing</a>。</p></li></ul>
    </td> 
   </tr>
 
@@ -151,7 +151,7 @@ ht-degree: 0%
 
    或
 
-   暫留在索引標簽名稱上，然後按一下[其他] **&#x200B;**&#x200B;![&#x200B; [其他]功能表](assets/more-menu.png)，然後按一下[重新命名] **以重新命名為新的連線記錄頁面索引標籤。**
+   暫留在索引標簽名稱上，然後按一下[其他] **** ![ [其他]功能表](assets/more-menu.png)，然後按一下[重新命名] **以重新命名為新的連線記錄頁面索引標籤。**
 
 1. （選擇性）將游標暫留在連線記錄頁面索引標簽名稱上，按一下&#x200B;**更多** ![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**刪除**&#x200B;以移除至索引標籤。
 
@@ -287,7 +287,7 @@ When you create a connected records page for connected Planning records in the P
       * **刪除**
 如需詳細資訊，請參閱[刪除記錄檢視](/help/quicksilver/planning/views/delete-record-views.md)。
 
-        ![](assets/view-more-menu-projects-connected-records-page.png)
+        ![檢視專案連線記錄頁面上的更多功能表](assets/view-more-menu-projects-connected-records-page.png)
 
         >[!NOTE]
         >
@@ -327,7 +327,7 @@ When you create a connected records page for connected Planning records in the P
    1. 新增&#x200B;**檢視名稱**。
    1. 從&#x200B;**檢視型別**&#x200B;區域選取&#x200B;**清單**。
    1. 按一下&#x200B;**建立**。
-新的清單檢視已新增至&#x200B;**我的檢視**&#x200B;區域中的檢視下拉式功能表。
+新的清單檢視已新增至**我的檢視**&#x200B;區域中的檢視下拉式功能表。
 
       如需詳細資訊，請參閱本文中的[從連線的記錄頁面](#manage-multiple-views-from-the-connected-records-page)管理多個檢視一節。
 
@@ -340,7 +340,7 @@ When you create a connected records page for connected Planning records in the P
       * **刪除**
 如需詳細資訊，請參閱[刪除記錄檢視](/help/quicksilver/planning/views/delete-record-views.md)。
 
-        ![](assets/view-more-menu-projects-connected-records-page.png)
+        ![檢視專案連線記錄頁面上的更多功能表](assets/view-more-menu-projects-connected-records-page.png)
 
         >[!NOTE]
         >

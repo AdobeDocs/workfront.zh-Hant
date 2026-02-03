@@ -6,10 +6,10 @@ description: 在Adobe Workfront物件上提供更新註解時，專案上的所�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '955'
-ht-degree: 0%
+source-wordcount: '960'
+ht-degree: 1%
 
 ---
 
@@ -53,16 +53,16 @@ ht-degree: 0%
 
 * 當問題轉換為專案或任務時，更新會複製到新專案或任務，但標籤的使用者不會。 若要繼續交談，您必須再次標籤參與者。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront套件</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront 封裝</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -167,13 +167,13 @@ ht-degree: 0%
 
    標籤實體的名稱會顯示在其頭像旁，最多兩個實體。 如果標籤了兩個以上的實體，除了會標籤多少個其他實體外，還會顯示第一個實體的名稱。
 
-   ![](assets/members-icons-expanded-unshimmed.png)
+   已展開![個成員圖示](assets/members-icons-expanded-unshimmed.png)
 
    當您在註解文字中被標籤時，您的名稱會在這些註解中反白顯示。
 
    如需有關更新工作專案時可用的其他功能的資訊，請參閱[更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
-1. （選擇性）按一下評論右上角的&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，然後按一下&#x200B;**編輯**。 移除所有已標籤的使用者，然後按一下&#x200B;**提交**。
+1. （選擇性）按一下評論右上角的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**編輯**。 移除所有已標籤的使用者，然後按一下&#x200B;**提交**。
 
    >[!IMPORTANT]
    >
@@ -206,7 +206,7 @@ You can manually tag users in the legacy Updates section.
    >
    >You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
-   ![](assets/tag-users-in-update.png)
+   ![Tag users in update](assets/tag-users-in-update.png)
 
 1. (Optional) To make the update private, enable **Private to my company** in the lower-right corner of the update box. This makes the update visible just to users in your company. The **Private to my company** option is available only when a Company is specified in your Workfront profile. 
 
@@ -225,7 +225,7 @@ You can manually tag users in the legacy Updates section.
 
    You can see who has been tagged in each reply at the top of the update thread. These users, along with any users subscribed to the object, receive a notification whenever an update or reply is made on the object.
 
-   ![](assets/tagging-transparency-350x192.png)
+   ![Tagging transparency](assets/tagging-transparency-350x192.png)
 -->
 
 如需有關更新工作專案時可用的其他功能的資訊，請參閱[更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。

@@ -7,10 +7,10 @@ description: 您可以將您在Adobe Workfront情境規劃工具中建立的計�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: b8bbb533-4384-414c-8574-4e137962b8ca
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '880'
-ht-degree: 0%
+source-wordcount: '882'
+ht-degree: 4%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 0%
 >
 >如果您將計畫的連結傳送給其他人，您也必須與他們共用計畫，他們才能檢視它。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,16 +42,16 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 授權</p> </td> 
-   <td> <p>[!UICONTROL Light]或更高</p> 
-   <p>[!UICONTROL Review]或更高版本</p> </td> 
+   <td> <p>[！UICONTROL Light]或更高</p> 
+   <p>[！UICONTROL Review]或更高版本</p> </td> 
   </tr> 
     <tr> 
    <td>存取層級設定</td> 
-   <td> <p>[!UICONTROL Edit]對的存取權 [!DNL Scenario Planner]</p> </td> 
+   <td> <p>[！UICONTROL Edit]對的存取權 [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr> 
    <td> <p>物件許可權 </p> </td> 
-   <td> <p>[!UICONTROL Manage]計畫的許可權</p> </td> 
+   <td> <p>[！UICONTROL Manage]計畫的許可權</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -132,8 +132,8 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th> <p><strong>動作</strong> </p> </th> 
-   <th> <p><strong>[!UICONTROL 管理]</strong> </p> </th> 
-   <th> <p><strong>[!UICONTROL 檢視]</strong> </p> </th> 
+   <th> <p><strong>[！UICONTROL管理]</strong> </p> </th> 
+   <th> <p><strong>[！UICONTROL檢視]</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -173,7 +173,7 @@ ht-degree: 0%
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>建立案例</p> </td> 
+   <td> <p>建立情境</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
@@ -221,7 +221,7 @@ ht-degree: 0%
 
    或
 
-   如果您選取多個計畫來大量共用它們，請按一下計劃清單頂端的&#x200B;**[!UICONTROL 共用]**&#x200B;圖示![](assets/share-icon-26x26.png)以開啟[!UICONTROL 計畫]存取方塊。
+   如果您選取多個要大量共用的計畫，請按一下計劃清單頂端的&#x200B;**[!UICONTROL 共用]**&#x200B;圖示![共用圖示](assets/share-icon-26x26.png)以開啟[!UICONTROL 計畫]存取方塊。
 
    >[!TIP]
    >
@@ -237,11 +237,11 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 檢視]</td> 
+      <td role="rowheader">[！UICONTROL檢視]</td> 
       <td>您共用計畫的使用者將擁有檢視計畫的許可權。 他們無法編輯計畫、新增方案、案例或發佈案例的相關資訊。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 管理]</td> 
+      <td role="rowheader">[！UICONTROL管理]</td> 
       <td> <p>您共用計畫的使用者具有管理計畫的許可權，包括編輯資訊、新增方案、情境和發佈計畫。 </p> </td> 
      </tr> 
     </tbody> 

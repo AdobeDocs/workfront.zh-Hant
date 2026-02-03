@@ -1,14 +1,13 @@
 ---
-title: 匯出自訂表單和物件詳細資料
-description: 匯出自訂表單和物件詳細資料
+title: 匯出自訂Forms和物件詳細資料
+description: 您可以將物件之「詳細資訊」區段中的「概述」和自訂表單資訊匯出至PDF檔案。 接著，您就可以列印或與其他使用者共用PDF。
 author: Alina
-draft: Probably
 feature: Get Started with Workfront
 exl-id: 4dc32da0-9680-4b7f-a959-d4a0652618c5
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 1%
+source-wordcount: '579'
+ht-degree: 3%
 
 ---
 
@@ -23,7 +22,7 @@ ht-degree: 1%
 * 專案
 * 任務
 * 問題
-* 產品組合
+* 專案組合
 * 計劃
 
 <!--
@@ -34,16 +33,16 @@ ht-degree: 1%
 >
 >您的Workfront或群組管理員使用版面配置範本移除的「詳細資訊」區段中的欄位不會顯示。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>Adobe Workfront套件</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront 封裝</p> </td> 
    <td>任何</td> 
   </tr> 
   <tr> 
@@ -120,12 +119,12 @@ ht-degree: 1%
 
    您最多可以新增10個表單。
 
-1. （選擇性）更新[詳細資料]區段中的資訊，然後按一下[儲存變更]。**&#x200B;**
+1. （選擇性）更新[詳細資料]區段中的資訊，然後按一下[儲存變更]。****
 1. 按一下右上角的&#x200B;**匯出**&#x200B;下拉式功能表，選取&#x200B;**概述**&#x200B;或您要匯出的表單，然後按一下&#x200B;**匯出**。
 
    如果您要匯出[概述]區域與所有自訂表格，您也可以選取&#x200B;**全選**。
 
-   ![](assets/export-custom-form-button-menu.png)
+   ![匯出自訂表單按鈕](assets/export-custom-form-button-menu.png)
 
    >[!TIP]
    >

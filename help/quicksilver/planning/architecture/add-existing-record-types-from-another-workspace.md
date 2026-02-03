@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 5bccad02f90fd99135b50c5a929913b16cc5b809
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '662'
 ht-degree: 1%
 
 ---
@@ -130,7 +130,7 @@ And
 1. 按一下「**繼續**」。
 1. 在「**選擇記錄型別**」方塊中，按一下您要從現有工作區新增之記錄型別的卡片，然後按一下「**新增**」。
 
-   記錄型別已新增至您選取的次要工作區，且&#x200B;**全域記錄型別**&#x200B;圖示![](assets/global-icon.png)會顯示在記錄型別的卡片上。
+   記錄型別已新增至您選取的次要工作區，**全域記錄型別**&#x200B;圖示![全域記錄圖示主要工作區](assets/global-icon.png)會顯示在記錄型別的卡片上。
 
    會發生下列情況：
 
@@ -162,7 +162,7 @@ And
 1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) in the new record type's card, or to the right of the record type's name on its page, then click **Share** to share it with other users in the same workspace, or adjust their permissions to the record type.
 -->
 
-&lt;！ — 若我們可以新增自動化或請求表單至次要全域RT，請向Lilit核取?? — 若可以，請新增包含這些文章連結的步驟 — >
+&lt;! — 若我們可以新增自動化或請求表單至次要全域RT，請向Lilit核取?? — 若可以，請新增包含這些文章連結的步驟 — >
 
 
 

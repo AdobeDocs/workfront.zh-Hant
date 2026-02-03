@@ -2,11 +2,10 @@
 title: 專案的秘訣、技巧和疑難排解：文章索引
 description: 本文提供在Adobe Workfront中處理專案時如何疑難排解常見問題的提示。
 author: Alina
-draft: Probably
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: dd849f4e-aa48-4e27-80b7-af321f730708
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
 source-wordcount: '68'
 ht-degree: 0%

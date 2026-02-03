@@ -6,9 +6,9 @@ description: 您可以更新附加至一個物件的自訂表單的顯示順序�
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1064'
 ht-degree: 2%
 
 ---
@@ -86,10 +86,10 @@ ht-degree: 2%
 
 1. 前往您要變更新增自訂表單順序的物件，然後開始編輯物件。
 
-   **範例：**&#x200B;例如，若要管理專案的自訂表單，請移至專案，按一下&#x200B;**更多**&#x200B;功能表![](assets/more-icon.png)，然後按一下&#x200B;**編輯** 。
+   **範例：**&#x200B;例如，若要管理專案的自訂表單，請移至專案，按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-icon.png)，然後按一下&#x200B;**編輯** 。
 
-1. 在專案、任務和問題的&#x200B;**自訂Forms**&#x200B;區段中，按一下自訂表單名稱旁的![](assets/move-icon---dots.png)圖示。 針對所有其他物件，按一下&#x200B;**管理Forms**。 只有在物件上附加了至少一個自訂表單時，才會顯示此選項。
-1. 將表單![](assets/move-icon---dots.png)拖曳到清單中的新位置。
+1. 在專案、任務和問題的&#x200B;**自訂Forms**&#x200B;區段中，按一下自訂表單名稱旁的![移動圖示](assets/move-icon---dots.png)圖示。 針對所有其他物件，按一下&#x200B;**管理Forms**。 只有在物件上附加了至少一個自訂表單時，才會顯示此選項。
+1. 將表單![移動圖示](assets/move-icon---dots.png)拖曳到清單中的新位置。
 1. 針對專案、任務和問題自訂表單，按一下&#x200B;**儲存**。
 
    針對所有其他物件，按一下&#x200B;**我已完成管理** > **儲存變更**。
@@ -105,7 +105,7 @@ ht-degree: 2%
    例如，前往專案，按一下&#x200B;**專案詳細資料**&#x200B;區段。
 
 1. 按一下物件頁面右上角的&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)，然後按一下&#x200B;**全部編輯**。
-1. 按一下自訂表單名稱右側的&#x200B;**刪除**&#x200B;圖示![](assets/delete-icon.png)，然後按一下&#x200B;**刪除**&#x200B;以確認並從物件移除表單，或按一下&#x200B;**取消**&#x200B;以防止移除。
+1. 按一下自訂表單名稱右邊的&#x200B;**刪除**&#x200B;圖示![刪除圖示](assets/delete-icon.png)，然後按一下&#x200B;**刪除**&#x200B;以確認並從物件移除表單，或按一下&#x200B;**取消**&#x200B;以防止移除。
 1. 按一下「**儲存變更**」。
 
 ## 管理包含相同自訂欄位的多個自訂表單
@@ -135,7 +135,7 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 
 若要在大量編輯物件時編輯多個自訂表單：
 
-1. 在清單物件中，選取已附加自訂表單的物件，然後按一下&#x200B;**編輯**&#x200B;圖示![](assets/edit-icon.png)。
+1. 在清單物件中，選取已附加自訂表單的物件，然後按一下&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)。
 1. 按一下&#x200B;**自訂Forms**。
 
    您只能編輯附加到所有所選物件的自訂表單。
