@@ -80,13 +80,13 @@ The icons you can find in an updated toolbar depend on the type of list that you
 
 In Adobe Workfront Classic, a combination of menus, icons, and links existed in the toolbar of a task list:
 
-![](assets/qs-classic-toolbar-on-task-lists-350x25.png)
+![Classic toolbar on task list](assets/qs-classic-toolbar-on-task-lists-350x25.png)
 
 ### Task list toolbar in the new Adobe Workfront experience {#task-list-toolbar-in-the-new-adobe-workfront-experience}
 
 In the new Adobe Workfront experience, most menus and links have been replaced with icons, for a more streamlined and modern look:
 
-![](assets/qs-new-toolbar-on-task-lists-350x14.png)
+![New toolbar on task list](assets/qs-new-toolbar-on-task-lists-350x14.png)
 
 ## Overview of the new toolbar
 
@@ -219,19 +219,19 @@ This experience is identical between managing a filter, a view, or a grouping.
 For example, to manage a filter:
 
 1. Go to a list of projects, tasks, issues, portfolios, or programs.
-1. Find the **Filters** drop-down menu or the Filter icon ![](assets/qs-filter-in-new-toolbar-with-blue-dot---small.png) at the top of the list.
+1. Find the **Filters** drop-down menu or the Filter icon ![Filter in new toolbar with blue dot](assets/qs-filter-in-new-toolbar-with-blue-dot---small.png) at the top of the list.
 
    If it has a blue dot in the upper-right corner, it indicates that a filter other than "All" is selected for the list.
 
-   When viewing a list on a smaller screen, mouse over the Filter icon ![](assets/qs-filter-in-new-toolbar-with-blue-dot---small.png) to view the name of the filter currently applied to the list in the tooltip.
+   When viewing a list on a smaller screen, mouse over the Filter icon ![Filter in new toolbar with blue dot](assets/qs-filter-in-new-toolbar-with-blue-dot---small.png) to view the name of the filter currently applied to the list in the tooltip.
 
-   ![](assets/qs-filter-in-new-toolbar-with-mouse-over-tooltip.png)
+   ![Filter in new toolbar with mouse over tooltip](assets/qs-filter-in-new-toolbar-with-mouse-over-tooltip.png)
 
-1. Click the name of the filter or click the Filter icon ![](assets/qs-filter-in-new-toolbar-with-blue-dot---small.png).
+1. Click the name of the filter or click the Filter icon ![Filter in new toolbar with bue dot](assets/qs-filter-in-new-toolbar-with-blue-dot---small.png).
 
    The **Filters** box displays.
 
-   ![](assets/qs-manage-filters-in-the-new-toolbar-350x293.png)
+   ![Manage filters in the new toolbar](assets/qs-manage-filters-in-the-new-toolbar-350x293.png)
 
    A check mark appears to the left of a filter that is currently applied to the list.
 
@@ -241,11 +241,11 @@ For example, to manage a filter:
 
      The New Filter builder opens. For information about creating filters, see [Filters overview](../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
    
-   * Mouse over any of the filters listed and click the **Edit icon** ![](assets/edit-icon.png).
+   * Mouse over any of the filters listed and click the **Edit icon** ![Edit icon](assets/edit-icon.png).
 
      The **Customize Filter** builder opens. Customizing filters is identical to creating them.
    
-   * Mouse over any of the filters listed and click the **More menu** ![](assets/more-icon.png), then click **Remove**.
+   * Mouse over any of the filters listed and click the **More menu** ![More icon](assets/more-icon.png), then click **Remove**.
 
      The filter is removed from the list.
 
