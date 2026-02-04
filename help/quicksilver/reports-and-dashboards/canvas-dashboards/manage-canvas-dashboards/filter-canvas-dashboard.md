@@ -6,9 +6,9 @@ description: 建立畫布控制面板後，您就可以將篩選器套用至控�
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
-source-git-commit: c6458d777726092d74e8b031f5c14dfd58710e11
+source-git-commit: f8c41105607e972d3395cf8d89fb1fdf29f0da85
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '892'
 ht-degree: 2%
 
 ---
@@ -173,23 +173,9 @@ ht-degree: 2%
 
 1. 在儀表板詳細資訊頁面的左上角，按一下&#x200B;**篩選器**。 篩選器側面板隨即開啟。
 
-1. 在&#x200B;**顯示記錄位置……**&#x200B;區段中，選擇一個或所有顯示的提示的條件。 已套用提示，且已套用&#x200B;**控制面板篩選器**&#x200B;標籤會顯示在報表Widget的角落。
+1. 在&#x200B;**顯示記錄位置……**&#x200B;區段中，選擇一個或所有顯示的提示的條件。 已套用提示，且已套用&#x200B;**控制面板篩選器**標籤會顯示在報表Widget的角落。
    ![選取條件](assets/prompts-list.png)
 
 1. 按一下右上角的&#x200B;**關閉**&#x200B;圖示![關閉圖示](assets/close-icon.png)以隱藏面板。
 
 
-## 依貨幣型別篩選儀表板
-
-您可以在控制面板層級切換不同的貨幣型別。 包含貨幣欄位的報表將更新以反映所選的貨幣型別。
-
->[!NOTE]
->
->貨幣欄位可在報表層級鎖定。 如果貨幣欄位已鎖定，當您變更儀表板的貨幣型別時，該報表的貨幣型別將不會變更。
-
-若要變更儀表板的貨幣型別，
-
-1. 按一下控制面板詳細資訊頁面右上角的貨幣下拉式功能表。
-1. 從清單中選取所需的貨幣型別。
-
-   ![變更貨幣下拉式清單](assets/filter-by-currency.png)

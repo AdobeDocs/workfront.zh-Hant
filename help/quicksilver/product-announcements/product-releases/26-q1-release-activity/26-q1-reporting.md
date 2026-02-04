@@ -4,9 +4,9 @@ description: 2026年第一季度報告增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ad16dfe737f33a7d1025d8cef00605595d0476c2
+source-git-commit: f8c41105607e972d3395cf8d89fb1fdf29f0da85
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '934'
 ht-degree: 0%
 
 ---
@@ -27,13 +27,14 @@ ht-degree: 0%
 >生產環境快速發行： 2026年1月14日
 >適用於所有人的生產： 2026年1月15日
 
-我們已進行下列貨幣欄位更新：
+我們已針對原生貨幣欄位進行下列更新：
 
 * 在Workfront中定義多種貨幣時，您現在可以在建立期間為儀表板選擇預設貨幣。
 
 * 建立報表時，您可以鎖定貨幣欄位。 這可確保儀表板層級的貨幣偏好設定不會影響這些值的顯示。
 
 * 檢視控制面板時，使用者可以在Workfront中定義的任何貨幣之間切換。 這些變更會套用至整個儀表板，但鎖定的貨幣欄位除外。
+
 
 
 ## 畫布儀表板中的快速搜尋表格結果
