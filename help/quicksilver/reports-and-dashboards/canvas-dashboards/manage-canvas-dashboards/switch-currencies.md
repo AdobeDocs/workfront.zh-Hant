@@ -5,10 +5,10 @@ title: 在畫布儀表板中使用貨幣欄位
 description: 您可以在畫布控制面板中使用貨幣欄位。
 author: Courtney
 feature: Reports and Dashboards
-source-git-commit: f8c41105607e972d3395cf8d89fb1fdf29f0da85
+source-git-commit: 3e4ab2dfc66efd262c0c2ad30a9c62758084f8ce
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 3%
+source-wordcount: '622'
+ht-degree: 4%
 
 ---
 
@@ -73,7 +73,7 @@ ht-degree: 3%
 
    >[!IMPORTANT]
    >
-   >本文所述的功能僅適用於原生貨幣欄位。 如果您已設定貨幣匯率，即將支援自訂貨幣欄位。
+   >本文所述的功能僅適用於原生貨幣欄位。 即將支援自訂貨幣欄位。
 
 
 ## 設定畫布控制面板的預設貨幣
