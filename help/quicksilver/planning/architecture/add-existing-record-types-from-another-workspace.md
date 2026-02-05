@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
+source-git-commit: c9fa6d97607990710e6c2a74f3b373d06201d721
 workflow-type: tm+mt
 source-wordcount: '784'
 ht-degree: 1%
@@ -147,6 +147,7 @@ And
      >
      >您無法編輯新記錄型別的外觀、其他設定或原始欄位。 您只能從原始工作區編輯記錄型別及其所有原始欄位和設定。
      >
+
 1. <span class="preview"> （選擇性）將滑鼠停留在次要工作區上的全域記錄型別圖示![全域記錄圖示](assets/global-icon-secondary-workspace.png)上，以檢視從中新增記錄型別的原始工作區的名稱。</span>
 1. （可選）按一下，然後將新新增的記錄型別拖放至工作區內的任何區段。
 1. （選擇性）按一下新記錄型別卡片上的&#x200B;**更多**&#x200B;功能表或其頁面上的記錄型別名稱右側，然後按一下下列其中一項：
