@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
+source-git-commit: f722940bd7222ebec85aad143378f8f849357e5a
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,22 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 如需針對Adobe Workfront Planning發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## 改善次要工作區中的全域記錄型別
+
+>[!NOTE]
+>
+>預覽： 2026年2月5日
+>生產快速發行： 2026年3月12日
+>每個人都能使用生產： 2026年4月16日
+
+我們已改善從主要工作區新增到次要工作區的全域記錄型別的可見度。 改善專案包括：
+
+* 稍微修改過的全域圖示，表示該記錄型別是從另一個工作區新增的。
+
+* 新圖示的工具提示已改善，可清楚識別建立記錄型別的工作區。
+
+如需詳細資訊，請參閱[從其他工作區新增現有記錄型別](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)。
 
 ## 設定記錄詳細資料預覽方塊中顯示的欄位
 
