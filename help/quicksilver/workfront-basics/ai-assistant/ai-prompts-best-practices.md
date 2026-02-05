@@ -1,18 +1,18 @@
 ---
-title: AI助理提示最佳實務
+title: AI助理提示和最佳實務
 content-type: reference
 description: 瞭解使用AI助理的最佳實務，並檢視提示範例清單。
 author: Jenny
 feature: Get Started with Workfront
 exl-id: 34a60482-e060-49f9-bbaf-8aed85845e26
-source-git-commit: 4bab0129d694d7134a5dae90474678226368ca78
+source-git-commit: dc472e93541641ee1c960ec7246365200f522a17
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '743'
 ht-degree: 4%
 
 ---
 
-# AI助理提示最佳實務
+# AI助理提示和最佳實務
 
 Workfront的AI Assistant是一款功能強大的工具，可協助您提供關於帳戶資料和特定物件型別的有用資訊，以更有效完成工作。
 
