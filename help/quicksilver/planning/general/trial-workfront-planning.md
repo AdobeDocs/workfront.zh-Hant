@@ -3,9 +3,9 @@ title: 開始使用Adobe Workfront Planning免費試用版
 description: Adobe Workfront提供60天的Adobe Workfront Planning免費試用。 此試用版是您瞭解Planning如何將大局策略與日常工作聯絡起來的機會，讓這項工作得以實現。 Planning可集中顯示您的行銷生命週期，實現跨團隊的更佳共同作業、行銷活動的即時追蹤以及自動化工作流程。 您可以建立自訂工作區，並使用互動式時間表和行事曆將工作視覺化。 透過此試用版，您將會親眼看到Planning如何協助讓日常工作符合策略目標、簡化執行，以及為貴組織帶來可衡量的結果。
 hidefromtoc: true
 hide: true
-source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
+source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1255'
 ht-degree: 1%
 
 ---
@@ -71,15 +71,29 @@ Adobe Workfront Planning可集中顯示您的行銷生命週期，實現跨團�
    * 試用合約接受視窗。 只有Workfront管理員可以接受合約。 從此日期開始，您隨時可以接受試用合約。
 * **2026年3月2日**： Workfront計畫試用版啟動。
 
+  下列專案已新增至您的Workfront執行個體：
+
+   * Workfront Planning橫幅仍會顯示給所有使用者。
+   * **檢閱試用合約**&#x200B;偏好設定已新增至&#x200B;**設定**&#x200B;區域。
+
   存在下列情況：
 
    * 如果您的Workfront管理員在此日期之前已接受合約，您可以在主要功能表中找到「計畫」區域，並開始使用Workfront Planning。
    * 如果您的Workfront管理員在此日期之前尚未接受合約，則必須先接受合約才能存取Workfront Planning。
+* **2026年4月1日**：您無法再註冊試用版。
+
+  下列專案將從您的Workfront執行個體中移除：
+
+   * Workfront Planning試用橫幅。
+   * **檢閱試用合約**&#x200B;偏好設定已從&#x200B;**設定**&#x200B;區域移除。
+
 * **2026年5月1日**： Workfront Planning試用期已關閉，而您對Planning的存取權已移除。
 
-  Workfront會在試用期結束後保護您的資料，但您再也無法存取這些資料。
+  如果您參與測試，Workfront會在測試結束後保護您的資料。 不過，在此日期之後，您便無法再存取該網站。
 
   無論何時接受協定，您對此日期的Planning存取權都會停止。
+
+  所有Workfront Planning試用版
 * **2026年11月30日**： Workfront在此日期後不再保護您的資料。 如果您在此日期之前購買Workfront Planning，則會重新取得Planning和資料的存取權。
 
 <!--Lauren wanted this out: 
@@ -144,7 +158,9 @@ Adobe Workfront Planning可集中顯示您的行銷生命週期，實現跨團�
 
 * **2026年3月2日至5月1日期間**：
 
-  在免費試用期間，您被授予對Planning區域中工作區的下列許可權：
+  無論您的Workfront或工作流程授權存取層級為何，當您接受參與Workfront Planning試用方案時，都會收到Workfront Planning Prime授權。
+
+  在免費試用期間，您系統中的使用者會獲得下列對Planning區域中工作區的許可權：
 
    * 所有系統管理員都有Workspaces標籤的管理許可權。
    * 所有其他使用者都擁有工作區索引標籤的檢視許可權，但系統管理員可以向他們授予工作區的「管理」許可權。

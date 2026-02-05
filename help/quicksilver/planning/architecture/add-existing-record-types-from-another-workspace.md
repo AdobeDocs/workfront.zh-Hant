@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '784'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 身為工作區管理員，您可以將存在於另一個工作區的記錄型別新增至您在Adobe Workfront Planning中管理的工作區。
 
@@ -130,7 +130,8 @@ And
 1. 按一下「**繼續**」。
 1. 在「**選擇記錄型別**」方塊中，按一下您要從現有工作區新增之記錄型別的卡片，然後按一下「**新增**」。
 
-   記錄型別已新增至您選取的次要工作區，**全域記錄型別**&#x200B;圖示![全域記錄圖示主要工作區](assets/global-icon.png)會顯示在記錄型別的卡片上。
+   <span class="preview">記錄型別已新增至您選取的次要工作區，且次要工作區上的&#x200B;**全域記錄型別**&#x200B;圖示![全域記錄圖示](assets/global-icon-secondary-workspace.png)會顯示在記錄型別的卡片上。</span>
+   <span class="preview">當顯示在次要工作區的記錄型別上時，全域記錄型別圖示會包含箭頭，表示該記錄型別是從現有的記錄型別新增的。</span>
 
    會發生下列情況：
 
@@ -146,7 +147,7 @@ And
      >
      >您無法編輯新記錄型別的外觀、其他設定或原始欄位。 您只能從原始工作區編輯記錄型別及其所有原始欄位和設定。
      >
-
+1. <span class="preview"> （選擇性）將滑鼠停留在次要工作區上的全域記錄型別圖示![全域記錄圖示](assets/global-icon-secondary-workspace.png)上，以檢視從中新增記錄型別的原始工作區的名稱。</span>
 1. （可選）按一下，然後將新新增的記錄型別拖放至工作區內的任何區段。
 1. （選擇性）按一下新記錄型別卡片上的&#x200B;**更多**&#x200B;功能表或其頁面上的記錄型別名稱右側，然後按一下下列其中一項：
 

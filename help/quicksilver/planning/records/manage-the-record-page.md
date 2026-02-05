@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
 workflow-type: tm+mt
 source-wordcount: '1568'
 ht-degree: 0%
@@ -192,7 +192,7 @@ ht-degree: 0%
 
    從表格檢視中，按一下第一欄中的&#x200B;**開啟詳細資料**&#x200B;圖示![在表格名稱欄位中開啟詳細資料圖示](assets/open-details-icon-in-table-name-field.png)。
 
-   記錄的預覽會在檢視中開啟。
+   <span class="preview">記錄的預覽在檢視中開啟。</span>
 
    ![詳細資訊方塊](assets/details-box.png)
 
@@ -221,7 +221,7 @@ ht-degree: 0%
 
      或
 
-     按一下&#x200B;**下移**&#x200B;將區段下移一個位置。
+     按一下&#x200B;**下移**將區段下移一個位置。
 區段中的所有欄位會隨著區段移動。
 
    * 按一下&#x200B;**刪除**&#x200B;以刪除區段。 該區段已刪除且無法復原。 所有存取此型別記錄的使用者將不再檢視已刪除的區段。
@@ -271,7 +271,7 @@ ht-degree: 0%
 
    從表格檢視中，按一下第一欄中的&#x200B;**開啟詳細資料**&#x200B;圖示![在表格名稱欄位中開啟詳細資料圖示](assets/open-details-icon-in-table-name-field.png)。
 
-   記錄的預覽會在檢視中開啟。
+   <span class="preview">記錄的預覽在檢視中開啟。</span>
 
    ![詳細資訊方塊](assets/details-box.png)
 

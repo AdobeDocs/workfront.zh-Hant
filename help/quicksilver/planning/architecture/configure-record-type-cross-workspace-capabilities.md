@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1411'
 ht-degree: 1%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">本頁標示的資訊是指尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 您可以在Adobe Workfront Planning中設定要在多個工作區中運作的記錄型別。
 
@@ -198,7 +198,7 @@ And
    >
    >您只能從其原始工作區編輯記錄型別的外觀和設定及其原始欄位。
 
-   * 記錄型別卡片會顯示&#x200B;**全域記錄型別**&#x200B;圖示![全域記錄型別圖示](assets/global-icon.png)，以表示該記錄型別可新增至其他工作區。
+   * 記錄型別卡片顯示&#x200B;**全域記錄型別**&#x200B;圖示![全域記錄型別圖示主要工作區](assets/global-icon.png)，表示該記錄型別可以新增到其他工作區。
    * 系統產生的&#x200B;**Workspace**&#x200B;欄位已新增至記錄型別及其記錄詳細資料的資料表檢視。
 
      Workspace欄位會顯示建立每個記錄的工作區。
@@ -214,7 +214,7 @@ And
 
    如需詳細資訊，請參閱[從其他工作區新增現有記錄型別](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)。
 
-   從次要工作區中的全域記錄型別新增的記錄型別也顯示&#x200B;**全域記錄型別**&#x200B;圖示![全域記錄型別圖示](assets/global-icon.png)。
+   從次要工作區中的全域記錄型別新增的記錄型別在次要工作區上顯示<span class="preview">類似的&#x200B;**全域記錄型別**&#x200B;圖示![全域記錄型別圖示](assets/global-icon-secondary-workspace.png)，其中包含箭頭，表示該記錄型別是從其他工作區匯入。 當您將滑鼠停留在次要工作區全域圖示上時，您可以瞭解原始工作區的名稱。</span>
 1. （選擇性）返回您建立全域記錄型別的原始工作區，並按照<!--ensure this stays accurate-->上方的步驟1-4編輯記錄型別
 1. （選擇性）檢閱已在使用此記錄型別的&#x200B;**工作區中新增全域記錄的工作區清單**&#x200B;區段。 工作區擁有者也會列在工作區名稱旁。
 
