@@ -4,9 +4,9 @@ description: 此頁面提供2026年第二季度版本中包含的功能相關資
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 03142ce47e7b123eea63b409749346469f5feb14
+source-git-commit: c4ec10bde03404befd75464841f8d3c90421dde8
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '854'
 ht-degree: 3%
 
 ---
@@ -104,7 +104,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>每季</strong></td>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-projects.md" class="MCXref xref" xrefformat="{para}">單一或大量指派任務時更新體驗</a><p>[!BADGE Off Schedule]{type=Neutral}</p><p> 編輯單一任務或大量編輯任務時，我們已更新「編輯任務」方塊中的「工作總攬」區段。 </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-projects.md" class="MCXref xref" xrefformat="{para}">當和單一或大量指派範本任務時更新體驗</a><p>[！BADGE Off Schedule]{type=Neutral}</p><p> 編輯單一範本任務或大量編輯範本任務時，我們已更新「編輯範本任務」方塊中的「工作總攬」區段。  </p>
+        </td>
+        <td><p>2026年2月5</p></td>
+        <td><p>自2026年2月5日起</p></td>
+        <td><p>自2026年2月5日起</p></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-projects.md" class="MCXref xref" xrefformat="{para}">單一或大量指派任務時更新體驗</a><p>[！BADGE Off Schedule]{type=Neutral}</p><p> 編輯單一任務或大量編輯任務時，我們已更新「編輯任務」方塊中的「工作總攬」區段。 </p>
         </td>
         <td><p>2026年1月26日</p></td>
         <td><p>自2026年2月5日起</p></td>
@@ -188,7 +196,7 @@ Workfront API版本21已於2025年10月23日發行。 針對API 21版，我們�
 >
 > 對於多選欄位，事件訂閱版本2一律會以陣列形式傳送。 如果選取多個值，第1版會傳送陣列。 如果只選取一個值，則會傳送字串。
 
-如需新增和更新的詳細資訊，請參閱[&#x200B; API 21](/help/quicksilver/wf-api/api/new-api-version-21.md)版的新增功能。
+如需新增和更新的詳細資訊，請參閱[ API 21](/help/quicksilver/wf-api/api/new-api-version-21.md)版的新增功能。
 
 如需API版本的資訊，請參閱[API版本設定與支援排程](/help/quicksilver/wf-api/api/api-version-support-schedule.md)。
 
@@ -201,13 +209,13 @@ Workfront API版本21已於2025年10月23日發行。 針對API 21版，我們�
 * 適用於Salesforce的Workfront。
 
 為了滿足貴組織與Google Workspace的整合需求，我們建議您使用Workfront自動化和整合。
-如需Workfront自動化與整合的概觀，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+如需Workfront自動化與整合的概觀，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 
 
 ### Workfront 維護更新
 
-如需2025年第二季期間所進行維護更新的相關資訊，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=zh-Hant)。
+如需2025年第二季期間所進行維護更新的相關資訊，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)。
 
 ### 訓練更新
 
-探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[Workfront教學課程頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=zh-Hant)的「新增功能」一節。
+探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[Workfront教學課程頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的「新增功能」一節。
