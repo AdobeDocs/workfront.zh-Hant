@@ -7,56 +7,50 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 1158a49fc0b39ef49f23326935d4635530501687
+exl-id: 90b0e019-1b42-4ab2-8b4c-69f85e4c4d78
+source-git-commit: b2f1bbfbbec23a5400552eb0f989e0a0dc58413c
 workflow-type: tm+mt
-source-wordcount: '975'
+source-wordcount: '1027'
 ht-degree: 0%
 
 ---
 
-
 # 30天啟動台：推出您的策略首頁
 
+{{planning-important-intro}}
 
-## 目標
+使用本指南瞭解如何展開Adobe Workfront規劃，以設計優先處理心理安全、將干擾降至最低並快速獲勝的策略。
 
-瞭解如何使用優先處理心理安全、將干擾減至最低並快速獲勝的策略，推出Workfront Planning。
+## 如何快速啟動並擴充智慧型應用程式概述
 
+成功推出的最常見障礙並非技術。 這是「技術責任」。 當團隊遇到挑戰，需要同時與新人員、新流程和新工具合作時，該工具就會成為挫折的目標。
 
+30天啟動平台採用「團隊優先」的採用模式。 我們專注於分散式、團隊主導的方式，讓特定職能單位立即實現ROI，而不是嘗試通常需要數月協調才能在企業範圍內推出。
 
-## 概覽：快速入門，智慧型擴展
+## 引導式自主性的分階段轉換
 
-成功推出的最常見障礙不是技術，而是「技術方面的責任」。 當團隊同時面對新人員、新流程和新工具時，該工具會成為挫折的目標。
+產品的成功推出使用引導式自主權。 這表示管理員會定義專案團隊在控管預設值和範本的結構化系統中應如何運作。 它們定義了「道路上的通道」（控管的預設值和範本），同時允許團隊靈活選擇在它們內進行自己的冒險。
 
+最重要的是，引導式自主是進化式的。 管理員不會在第一天強制實施完整的企業分類法，而是根據第一個試驗團隊的需求，以最低限度的全域定義開始。
 
+隨著更多團隊上線，管理員會觀察通用模式並在全域標準上進行反複運算。
 
-30天啟動板是建置在&#x200B;**「團隊優先」採用模式**&#x200B;上。 我們不嘗試通常需要幾個月協調的&#x200B;**全企業範圍**&#x200B;轉出，而是專注於分散式、團隊導向的方法，在特定職能單位內提供立即的ROI。
+身為管理員，您不會放棄控制權，而是會根據實際運作的情況聰明地調整控制權的比例。
 
+若要啟動此進化轉換，請執行下列動作：
 
+1. 選擇準備且願意創新的試驗團隊。
+2. 使用您啟動的前15天，透過兩個高動量路徑之一來證明模型：
 
-## 分階段轉變：引導式自主權
+   * **平行路徑（或雙追蹤方法）：**&#x200B;團隊維持目前的工作流程，同時在Workfront Planning中建立下一個規劃週期的模型。
 
-成功的轉出使用&#x200B;**引導式自主權**。 這表示管理員會定義「馬路」（控管的預設值和範本），同時允許團隊靈活選擇在裡面進行自己的冒險。
+     這可以建立肌肉記憶力和自信，不會發生單點故障。
 
+   * **乾淨的插播：**&#x200B;使用範例資料進行初始設計練習以驗證模型後，團隊會將其即時起始點直接移入Workfront Planning進行下一個週期。
 
+   在這兩個路徑中，目標是儘快超越理論並進入實際應用程式，確保該工具用於實際策略工作，而不是僅僅停留在沙箱練習中。
 
-重要的是，引導式自主是&#x200B;**進化**。 管理員不會在第1天強制實施完整的企業分類法，而是根據第一個試點團隊的需求，以最小的全球定義開始。 隨著更多團隊上線，管理員會觀察共同模式並反複使用全球標準。 您不會放棄控制項，而是會根據實際運作情況，聰明地縮放控制項。
-
-
-
-若要啟動這種進化式轉變，請選擇一個準備且願意創新的試驗團隊。 使用前15天透過兩個高動量路徑之一來證明模型：
-
-
-
-* **平行路徑（雙追蹤）：**&#x200B;團隊維持目前的工作流程，同時在Workfront Planning中建立下一個規劃週期的模型。 這可以建立「肌肉記憶體」和信心，而不會發生單點故障。
-
-* **清潔中斷：**&#x200B;使用範例資料進行初始設計練習以驗證模型後，團隊會將其「即時」規劃起始點直接移至Workfront Planning中，以供其下一個週期使用。
-
-
-
-在這兩個路徑中，目標都是為了儘快超越理論並進入實際應用中，確保該工具用於實際策略工作而不是停留在「沙箱」練習。
-
-
+<!--left here-->
 
 ## 30天時間表：您的「閃電時刻」
 
@@ -155,3 +149,151 @@ ht-degree: 0%
 * **請勿忽略[原因]。**&#x200B;確保每位團隊成員都瞭解策略對話串如何讓他們的工作更顯眼。
 
 * **不要等待完美。**&#x200B;您的分類法將會演化。 從最佳猜測開始，並視需要調整。
+
+<!--
+
+Andy's original:
+
+## The 30-Day Launchpad: Rolling Out Your Strategic Home 
+
+ 
+
+## Goal 
+
+Learn how to roll out Workfront Planning (WFP) using a strategy that prioritizes psychological safety, minimizes disruption, and delivers quick wins. 
+
+ 
+
+## Overview: Start Fast, Scale Smart 
+
+The most common obstacle to a successful rollout isn't technology—it's "technology-blame." When teams face new people, new processes, and new tools at once, the tool becomes a target for frustration. 
+
+ 
+
+The 30-day launchpad is built on the **"Team-First" adoption model**. Instead of attempting an **Enterprise-Wide** rollout that usually requires months of coordination, we focus on a decentralized, team-led approach that delivers immediate ROI within a specific functional unit. 
+
+ 
+
+## The phased transition: Guided Autonomy 
+
+Successful rollouts use **Guided Autonomy**. This means the Admin defines the "lanes on the road" (governed defaults and templates) while allowing teams the flexibility to choose their own adventure within them.  
+
+ 
+
+Crucially, Guided Autonomy is **evolutionary**. Instead of enforcing a complete enterprise taxonomy on Day 1, the Admin starts with minimal global definitions based on the needs of the first pilot team. As more teams are onboarded, the Admin observes common patterns and iterates on the global standards. You aren't surrendering control; you are scaling it intelligently based on what actually works. 
+
+ 
+
+To activate this evolutionary shift, choose a pilot team that is ready and willing to innovate. Use the first 15 days to prove the model through one of two high-momentum paths: 
+
+ 
+
+*   **The Parallel Path (Dual-Tracking):** The team maintains their current workflow while simultaneously modeling their next planning cycle in WFP. This builds "muscle memory" and confidence without the risk of a single point of failure. 
+
+*   **The Clean Break:** After an initial design exercise using sample data to validate the model, the team moves their "live" planning start point directly into WFP for their next cycle. 
+
+ 
+
+In both paths, the goal is to move beyond theory and into real-world application as quickly as possible, ensuring the tool is used for actual strategic work rather than remaining a "sandbox" exercise. 
+
+ 
+
+## The 30-day timeline: Your "lightning moment" 
+
+A successful rollout is powered by momentum. This 30-day schedule moves you from configuration to your first automated win. 
+
+ 
+
+### Days 1-10: The team foundation 
+
+Build a strategic foundation by establishing a **lightweight Hub-and-Spoke architecture** from Day 1. While a complex enterprise-wide taxonomy is not required yet, you should immediately create two environments: a **Global Classification Workspace** (the Hub) and your first **Team Workspace** (the Spoke). 
+
+ 
+
+This **Team-First** architecture allows you to: 
+
+ 
+
+*   **Design the Hub to support the Spoke:** Focus the global classification workspace specifically on the objects that matter most to your pilot team (e.g., their specific Brands or Products). This firms up the **collaborative handshake between enterprise governance and team autonomy** while keeping the design effort manageable. 
+
+*   **Act as an Enabler, not a Guardian:** Shift your role from rule-setting to capability-building. Partner with the team to structure their planning environment. 
+
+*   **Collaborate on design:** Work directly with your pilot team to define the record types and fields that reflect their real-world needs, not an abstract corporate ideal. 
+
+*   **Connect strategy to work:** Enable the link between your planning records and the workflow module. 
+
+*   **Mirror current data:** Use the team's existing tools (Excel/Core) to populate WFP, ensuring the data feels familiar and relevant. 
+
+*   **Built for flexibility:** Remember that Workfront Planning is designed to evolve. You can start with team-level processes and easily elevate or migrate them to enterprise-level governance when the business is ready. 
+
+ 
+
+### Day 15: The first "lightning moment" 
+
+Aim for your first major win by Day 15: **automated project creation**. 
+
+*   Configure a native automation that detects a "Ready to Execute" status. 
+
+*   Trigger the creation of a linked project in the workflow module. 
+
+*   **The value:** Your team sees their strategic intent automatically trigger execution work. This "lightning moment" proves the value of the bridge and builds buy-in. 
+
+ 
+
+### Days 16-30: Gradual transition toward Enterprise Scale 
+
+With the "lightning moment" achieved, move the team's start point into WFP. As this **Team-First** model succeeds, you begin the path toward **Enterprise Scale** by identifying patterns that work. 
+
+ 
+
+*   **Introduce the intake form:** Use the form as the new gateway for strategic requests to ensure data integrity. 
+
+*   **Observe and standardize:** Use the Primary Workspace to observe how the pilot team uses the tool. These real-world examples will shape your eventual enterprise design. 
+
+*   **Decommission legacy spreadsheets:** Move fully into WFP as the process matures. 
+
+*   **Shift power users:** Use the **table view** for direct, high-velocity plan management. 
+
+ 
+
+## Success metrics for the launchpad 
+
+Look for these early indicators of health: 
+
+*   **Adoption:** The first 5-10 strategic records successfully link to execution projects. 
+
+*   **Advocacy:** The pilot team begins evangelizing the tool to adjacent teams. 
+
+*   **Efficiency:** Automation reduces the time from strategic approval to project start. 
+
+*   **Trust:** Stakeholders use WFP timelines rather than manual status decks for reviews. 
+
+ 
+
+## Best practices and tips 
+
+ 
+
+### Do: 
+
+*   **Start with an excited pilot team.** Acknowledge that a global rollout is a significant lift. Focus on a POC with a team that is eager to innovate and can provide a blueprint for others. 
+
+*   **Define lanes, not walls.** Use Guided Autonomy to provide structure without killing exploration. 
+
+*   **Prioritize psychological safety.** Let teams know that legacy tools stay until they are comfortable with the new flow. 
+
+*   **Celebrate the quick wins.** Highlight the first automated project creation to the entire team. 
+
+*   **Establish a champion.** Identify a power user in each team to lead the transition. 
+
+ 
+
+### Don't: 
+
+*   **Don't mandate "big bang" changes.** Forcing everyone to switch on Day 1 causes technology-blame. 
+
+*   **Don't ignore the "why."** Ensure every team member understands how the strategic thread makes their work more visible. 
+
+*   **Don't wait for perfection.** Your taxonomy will evolve. Start with your best guess and refine as you go. 
+
+-->

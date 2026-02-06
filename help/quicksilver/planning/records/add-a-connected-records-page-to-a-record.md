@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+exl-id: 5e0be9d9-efa5-4b16-bd56-f9c85bc57ced
+source-git-commit: b2f1bbfbbec23a5400552eb0f989e0a0dc58413c
 workflow-type: tm+mt
-source-wordcount: '2020'
+source-wordcount: '1843'
 ht-degree: 0%
 
 ---
-
 
 # 將「連線的記錄」頁面新增至記錄
 
@@ -76,7 +76,7 @@ ht-degree: 0%
    <ul><li><p>Adobe Experience Manager Assets授權及AEM Assets與Workfront之間的整合，用於連結AEM資產與Planning記錄型別。</p>
    <p>如需詳細資訊，請參閱<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">適用於Experience Manager Assets和Assets Essentials的Adobe Workfront：文章索引</a>。 </p></li>
    <li><p> 連線記錄型別與GenStudio Brands的Adobe GenStudio for Performance Marketing授權</p>
-   <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/get-started">開始使用Adobe GenStudio for Performance Marketing</a>。</p></li></ul>
+   <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">開始使用Adobe GenStudio for Performance Marketing</a>。</p></li></ul>
    </td> 
   </tr>
 
@@ -151,7 +151,7 @@ ht-degree: 0%
 
    或
 
-   暫留在索引標簽名稱上，然後按一下[其他] **&#x200B;**&#x200B;![&#x200B; [其他]功能表](assets/more-menu.png)，然後按一下[重新命名] **以重新命名為新的連線記錄頁面索引標籤。**
+   暫留在索引標簽名稱上，然後按一下[其他] **** ![ [其他]功能表](assets/more-menu.png)，然後按一下[重新命名] **以重新命名為新的連線記錄頁面索引標籤。**
 
 1. （選擇性）將游標暫留在連線記錄頁面索引標簽名稱上，按一下&#x200B;**更多** ![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**刪除**&#x200B;以移除至索引標籤。
 
@@ -295,76 +295,42 @@ When you create a connected records page for connected Planning records in the P
 
 ### 管理Workfront專案的連線記錄頁面
 
-當您為連線的Workfront專案建立連線記錄頁面時，請執行下列動作：
+當您為連線的Workfront專案建立連線記錄頁面時，請執行以下操作以管理頁面：
 
 1. 移至記錄型別頁面，然後按一下記錄名稱。 這會開啟記錄的預覽頁面。
-1. 按一下顯示Workfront專案的已連線記錄頁面標籤。
+1. 按一下顯示Workfront專案的已連線記錄頁面的標籤。
 與您選取的記錄連線的專案會顯示在清單檢視中。
 1. 按一下連線記錄頁面右上角的&#x200B;**連線記錄**&#x200B;以連線現有的專案。
 
    如需詳細資訊，請參閱[連線記錄](/help/quicksilver/planning/records/connect-records.md)。
-1. 在表格中內聯編輯專案資訊。
-1. 按一下&#x200B;**新增列**&#x200B;以建立沒有範本的專案。 新專案會自動連線到目前的記錄。
+1. 在清單檢視的儲存格內連按兩下以編輯專案的欄位。 有些欄位是唯讀的。
+1. 執行下列任一項作業來編輯清單檢視：
 
-   如需詳細資訊，請參閱[當您將Workfront物件連線至記錄時，從Workfront Planning建立物件](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)。
+   * 按一下&#x200B;**新增列**&#x200B;以建立沒有範本的專案。 新專案會自動連線到目前的記錄。
 
-1. 將滑鼠停留在清單中的專案名稱上，然後按一下&#x200B;**更多**&#x200B;功能表[更多](assets/more-menu.png)
+     如需詳細資訊，請參閱[當您將Workfront物件連線至記錄時，從Workfront Planning建立物件](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)。
+   * 按一下檢視右上角的**建立記錄**以新增現有專案。 專案會立即連線至選取的記錄。
 
-   或
+   * 將滑鼠懸停在清單中的專案名稱上，然後按一下&#x200B;**更多**&#x200B;功能表[更多](assets/more-menu.png)，然後按一下&#x200B;**檢視**&#x200B;以在另一個索引標籤中開啟專案
 
-   選取一或多個專案，並注意清單底部的藍色列，然後按一下下列其中一項：
+     或
 
-   * **刪除**&#x200B;以刪除專案。 刪除專案會中斷專案與記錄的連線，並將其移至Workfront的「資源回收筒」。 Workfront管理員可在刪除已刪除的專案後30天內復原這些專案。
-   * **中斷連線**&#x200B;以中斷專案與記錄的連線。 中斷專案的連線會從目前記錄中移除該專案及其查閱欄位的所有值。
+     選取一或多個專案，然後在清單底部的動作列按一下&#x200B;**刪除**&#x200B;或&#x200B;**中斷連線**，將專案從清單中移除。
 
-     >[!TIP]
-     >
-     >您可以選取多個專案來中斷連線或予以刪除。
-     >
 
-1. 按一下[檢視]下拉式功能表，然後按一下[新檢視] **，為頁面新增檢視，然後執行下列動作：**
+   * 按一下[檢視]下拉式功能表，然後按一下[新檢視]，為頁面新增檢視，然後執行下列動作，或按一下新名稱右邊的[其他] {3] **[更多]功能表**，然後[重新命名] ****、[共用] ![或[刪除] ](assets/more-menu.png)**檢視。**********
 
-   1. 新增&#x200B;**檢視名稱**。
-   1. 從&#x200B;**檢視型別**&#x200B;區域選取&#x200B;**清單**。
-   1. 按一下&#x200B;**建立**。
-新的清單檢視已新增至&#x200B;**我的檢視**&#x200B;區域中的檢視下拉式功能表。
+     您無法重新命名、共用或刪除您沒有管理許可權的系統檢視或檢視。
 
-      如需詳細資訊，請參閱本文中的[從連線的記錄頁面](#manage-multiple-views-from-the-connected-records-page)管理多個檢視一節。
+     ![檢視專案連線記錄頁面上的更多功能表](assets/view-more-menu-projects-connected-records-page.png)
 
-   1. （選擇性）將游標停留在您建立的檢視名稱上，按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下下列其中一個選項：
-      * **重新命名**，以新增檢視的名稱。
-      * **共用**
+   * 按一下下列其中一項，以更新檢視元素：
 
-        如需詳細資訊，請參閱[共用檢視](/help/quicksilver/planning/access/share-views.md)。
+      * **篩選**&#x200B;以限制清單中的資訊量
+      * **欄**&#x200B;以隱藏欄或變更其順序
+      * 表格檢視右上角的&#x200B;**+**&#x200B;圖示可將現有欄位新增至清單。 欄位必須先存在，您才能新增它們。
 
-      * **刪除**
-如需詳細資訊，請參閱[刪除記錄檢視](/help/quicksilver/planning/views/delete-record-views.md)。
-
-        ![檢視專案連線記錄頁面上的更多功能表](assets/view-more-menu-projects-connected-records-page.png)
-
-        >[!NOTE]
-        >
-        >您無法重新命名、共用或刪除Workfront建立的系統檢視。
-
-   1. 按一下&#x200B;**篩選器**&#x200B;圖示![篩選器圖示](assets/filter-icon.png)，然後使用該篩選器來顯示特定專案。
-
-      >[!TIP]
-      >
-      >針對人員型別欄位（如&#x200B;**所有者**&#x200B;或&#x200B;**贊助者**），您可以使用萬用字元來顯示將登入使用者指派給這些角色的專案。
-      >
-      >![使用使用者萬用字元篩選專案連線記錄頁面](assets/filter-with-user-wildcard-project-connected-records-page.png)
-      >
-
-   1. 按一下&#x200B;**欄**&#x200B;圖示![欄圖示](assets/columns-icon.png)以隱藏或顯示清單中的欄。
-   1. 按一下表格檢視右上角的&#x200B;**+**&#x200B;圖示，將現有欄位新增至表格。 欄位必須先存在，您才能新增它們。
-
-      **資料行管理員**&#x200B;方塊開啟。 請執行下列動作：
-
-      1. 搜尋&#x200B;**可用**&#x200B;欄位中的現有物件欄位，然後按一下欄位名稱右側的&#x200B;**+**，將其新增至&#x200B;**已選取**&#x200B;欄。
-
-         您選取的欄位會新增至連線記錄頁面的表格檢視中。
-      1. 按一下&#x200B;**已選取**&#x200B;資料行中欄位右側的&#x200B;**-**，將其從資料表檢視中移除。
-      1. 按一下&#x200B;**儲存**&#x200B;以儲存連線的記錄頁面資料表檢視。
+   如需有關管理清單檢視中物件的詳細資訊，請參閱[管理清單檢視](/help/quicksilver/planning/views/manage-the-list-view.md)。
 
 <!-- this is repetitive from an earlier section above: 
 
