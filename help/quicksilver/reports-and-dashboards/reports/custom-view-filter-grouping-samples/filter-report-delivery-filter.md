@@ -7,10 +7,10 @@ description: 此報告篩選器會顯示所有排程在Adobe Workfront中自動�
 author: Lisa and Jenny
 feature: Reports and Dashboards
 exl-id: 7b937384-80c9-4bc7-94be-5573cf86b35b
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: be102fd5f490b12837a231774253c030973c1c4f
 workflow-type: tm+mt
 source-wordcount: '179'
-ht-degree: 1%
+ht-degree: 10%
 
 ---
 
@@ -20,16 +20,16 @@ ht-degree: 1%
 
 此報告篩選器會顯示所有排程在Adobe Workfront中自動傳送的報告。 最好搭配標準檢視使用。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -66,8 +66,7 @@ ht-degree: 1%
 1. 在&#x200B;**設定報表**&#x200B;的篩選規則區域中，複製並貼上下列程式碼：
 
    ```
-   scheduledReportID=0
-   scheduledReportID_Mod=notnull
+    scheduledReportsOM:ID_Mod=notblank
    ```
 
 1. 按一下「**儲存篩選器**」。
