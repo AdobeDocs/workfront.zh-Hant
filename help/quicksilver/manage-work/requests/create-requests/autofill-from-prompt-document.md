@@ -5,9 +5,9 @@ description: 您可以使用AI輸入提示或提供檔案來自動填寫請求�
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: b34d7f48a51acf4bd6ddfa203c9e0024b2e8c280
+source-git-commit: 8e04117c08985f3ad5de86e4a08cb4aa53ac7706
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1416'
 ht-degree: 3%
 
 ---
@@ -16,13 +16,9 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->若要使用此功能，您的組織必須符合使用Workfront AI Assistant的需求。 如需詳細資訊，請參閱[&#x200B; AI助理的必要條件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
+>若要使用此功能，您的組織必須符合使用Workfront AI Assistant的需求。 如需詳細資訊，請參閱[ AI助理的必要條件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
 
 AI表單填寫可協助您根據輸入的提示自動填寫請求欄位。 它也可以根據文字（例如電子郵件和已上傳的檔案）填寫欄位。 您可以在提交請求之前核准或拒絕這些建議。
-
-AI表單填寫不會覆寫您已填寫的任何欄位。
-
-使用者不會收到他們無法存取的資料建議。
 
 ## 存取權要求
 
@@ -59,7 +55,7 @@ AI表單填寫不會覆寫您已填寫的任何欄位。
 
 ## 先決條件
 
-若要使用AI表單填寫來使用提示或檔案填寫請求，必須套用下列&#x200B;**所有**：
+若要使用AI支援的表單填寫功能來使用提示或檔案填寫請求，必須套用下列的&#x200B;**所有**：
 
 * 貴組織必須已移轉至Adobe IMS (Identity Management系統)
 * 必須啟用Adobe Unified Experience
@@ -70,6 +66,15 @@ AI表單填寫不會覆寫您已填寫的任何欄位。
 * AI助理必須在您組織的系統設定中啟用。 這項工作由Workfront管理員管理。
 
   如需有關在系統設定中啟用AI助理的詳細資訊，請參閱[啟用或停用AI助理](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)。
+
+## 使用由AI提供支援的表單填寫時的注意事項
+
+使用由AI提供支援的表單填寫時，請考慮下列事項
+
+* AI表單填寫不會覆寫您已填寫的任何欄位。
+* 使用者不會收到他們無法存取的資料建議。
+* 您在由AI提供支援的表單填寫中使用的檔案會上傳至Azure儲存空間24小時。 這是處理檔案的必要步驟。
+* 所有上傳至Azure的檔案目前都儲存在US Azure叢集中，24小時儲存期間。
 
 ## 從文字提示取得建議
 
