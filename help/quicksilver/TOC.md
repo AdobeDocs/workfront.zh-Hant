@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: f8c41105607e972d3395cf8d89fb1fdf29f0da85
+source-git-commit: 23f651b55b45db73baa67900ce868d9b692c958c
 workflow-type: tm+mt
-source-wordcount: '13765'
+source-wordcount: '13769'
 ht-degree: 2%
 
 ---
@@ -1719,6 +1719,7 @@ ht-degree: 2%
       * 報表使用情況概觀 {#report-usage-overview}
          * [報表使用情況概觀](reports-and-dashboards/reports/report-usage/report-usage-overview.md)
          * [存取及組織報告](reports-and-dashboards/reports/report-usage/access-organize-reports.md)
+         * [使用可共用的報告資料夾](/help/quicksilver/reports-and-dashboards/reports/report-usage/use-sharable-report-folders.md)
          * [建立報告活動的報告](reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md)
          * [瞭解如何在控制面板上組織報表](reports-and-dashboards/reports/report-usage/understand-how-organize-reports-dashboard.md)
          * [檢視報表使用情形](reports-and-dashboards/reports/report-usage/view-report-usage.md)
@@ -2549,9 +2550,9 @@ ht-degree: 2%
       * [使用JWT流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-jwt-flow.md)
       * [使用PKCE流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-pkce-flow.md)
       * [棄用API — 內部](wf-api/api/deprecation-api-internal.md)
-      * [&#x200B; API 21版的新增功能](/help/quicksilver/wf-api/api/new-api-version-21.md)
-      * [&#x200B; API 20版的新增功能](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [&#x200B; API 19版的新增功能](wf-api/api/new-api-version-19.md)
+      * [ API 21](/help/quicksilver/wf-api/api/new-api-version-21.md)版的新增功能
+      * [ API 20](/help/quicksilver/wf-api/api/new-api-version-20.md)版的新增功能
+      * [ API 19](wf-api/api/new-api-version-19.md)版的新增功能
       * [API 18版的新增功能](wf-api/api/new-api-version-18.md)
       * [API 17版的新增功能](wf-api/api/new-api-version-17.md)
       * [API 16版的新增功能](wf-api/api/new-api-version-16.md)
