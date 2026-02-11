@@ -1,186 +1,365 @@
 ---
-title: 成功架構：為您的行銷活動階層建模
+title: 架構您的成功：模型化您的行銷活動階層
 description: 瞭解如何使用「重心」和多工作區架構，將複雜的業務流程轉換為可擴充、受管理的行銷活動階層。
 feature: Workfront Planning
-role: User, Admin
+role: Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+exl-id: 02e3b55f-9188-42bf-8d0b-c9fed86c63c4
+source-git-commit: 52bf41e146a11a4af4fbebfe5bb20a9765f2bc7b
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1471'
 ht-degree: 0%
 
 ---
 
-
-# 成功架構：為您的行銷活動階層建模
+# 架構您的成功：模型化您的行銷活動階層
 
 <!--see the file again for additional comments from Seth and others-->
 
-## 目標
+{{planning-important-intro}}
 
-瞭解如何使用「重心」和多工作區架構，將複雜的業務流程轉換為可擴充、受管理的行銷活動階層。
+瞭解如何在Adobe Workfront Planning中使用重心和多工作區架構，將複雜的業務流程轉換為可擴充、受管理的行銷活動階層。
+
+本指南適用於Workfront管理員和進階使用者，協助他們在Workfront Planning中實作及設計您的環境架構。
+
+## 成功架構概觀
+
+隨著您的行銷作業日漸成熟，您資料的複雜度也會隨之提升。 如果沒有清晰的藍圖，您的行銷記錄系統可能會很快變成垃圾桶，裡面會棧滿中斷連線的記錄、衝突的術語和報告孤島。
+
+當您建置成功的架構時，您會在Workfront Planning中建立架構，用於模型化您的行銷活動階層。 它將您從試算表混亂轉移到受控制的物件導向模型，確保每個團隊都說著相同的語言，同時保持他們執行所需的靈活性。
+
+## 建立階層以定義意圖層級
+
+為了保持清晰度和擴充性，我們建議您在使用Workfront Planning設計工作流程時，從經驗證的核心路徑開始。
+
+從那裡，您可以透過新增更多層級到您的架構來擴展您的策略。
+
+### 核心路徑：如何從策略邁向行動
+
+雖然組織可以隨著其營運需求的發展而擴大此階層，但從以下各節所述的三個層級開始，可確保策略與執行之間架起穩固的橋樑。
+
+從我們的發現中，我們注意到Workfront Planning最成功的實作是在橫跨Planning和Workfront的乾淨、三層架構模型上取得成果。
+
+以下是成功的Planning實作層級，以及您可能會考慮建立以在此過程中支援您的成品：
+
+* **第1級：行銷活動(Workfront規劃)**
+
+   * **焦點：**&#x200B;定義長期策略支柱與年度計畫。 例如，為您的組織定義名為「FY26全球品牌認知度」的計畫。 這是指定時間範圍的焦點。 建立行銷活動以支援此計畫。
+
+   * **角色：**&#x200B;此層級的利害關係人可以是行銷人員、行銷副總或其他策略性潛在客戶。
+
+  如需詳細資訊，請參閱[建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md)。
+
+* **第2級：通路策略(Workfront規劃)**
+
+   * **焦點：**&#x200B;定義概述特定管道之「內容」的營運簡介。 這是工作開始前策略性意圖的最後一層。 例如，建立「第1季社群媒體閃爍」策略。 然後，您就可以將其與行銷活動配對。
+
+   * **角色：**&#x200B;主要利害關係人是行銷營運負責人、頻道負責人或行銷活動經理。
+
+* **第3級：專案(規劃與Workfront)**
+
+   * **焦點：**&#x200B;在將會最終完成您方案的確切體驗或活動上執行。 有些交付專案是特定的，例如社交貼文、電子郵件、網頁。
+
+   * **實作：**&#x200B;您可以在Planning中建立策略，並將其直接連結至Workfront中的&#x200B;**專案**，其中個別交付專案會作為任務和問題管理。
+
+   * **角色：**&#x200B;這裡的主要利害關係人是創意人員、個人貢獻者，以及負責為支援此計畫而工作的所有人。
+
+### 策略性擴充：如何新增更多層級
+
+建立核心路徑後，在仔細考慮特定業務複雜度後，您可以選擇新增其他圖層。
+
+您可能會發現建立下列其他專案很有用：
+
+* **頻道計畫：**&#x200B;促銷活動與戰術之間的圖層，可將跨職能策略分組。 例如，名為「數位策略」的計畫。
+
+* **活動：**&#x200B;如果您在低容量環境中工作（您每年可能有5,000個或更少的交付專案），某些團隊在成為Workfront專案之前，可能偏好追蹤個別體驗作為Workfront Planning記錄。
+
+>[!IMPORTANT]
+>
+>如果您的組織每年產生超過5,000個活動，您應該將個別交付專案追蹤移至Workfront。
+>
+>在Planning中管理大量體驗記錄，可能會導致資料累積，使您的策略可見性變得模糊。
+>我們建議您遵循這項廣泛的指引，以發揮最大效率：
+>
+>* 使用Planning瞭解「原因」和「內容」
+>* 將Workfront用於高容量的「做法」。
+
+## 瞭解重心以建置您的架構
+
+企業級行銷記錄系統並非建置在單一工作區中。 它使用「軸輻式」架構，在自然的重心中管理記錄型別。
+
+如需詳細資訊，請參閱[推出您的策略首頁：30天啟動台](/help/quicksilver/planning/best-practices.md/30-day-launchpad.md)。
+
+若要使用軸輻式方法建置架構，您必須建立下列專案：
+
+* 分類中心
+* 策略規劃工作區
+* 功能輻條
+
+### 將分類中樞建置為您的分類
+
+您必須先為全域分類建立一個集中式工作區，以定義組織中的每個人必須瞭解的主要概念。 例如，在中央工作區中建立以下記錄型別：品牌、地區、產品、角色。
+
+如需詳細資訊，請參閱[建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md)。
+
+在建立分類時建立下列專案：
+
+* **主要位置：**&#x200B;請選擇主要工作區。 此工作區應該是您建立之記錄型別的真實來源。
+
+* **優點：**&#x200B;藉由將這些定義整合到其他企業中，您便可釐清像「地區：歐洲、中東及非洲」這樣的概念對每個團隊來說都是相同意義。
+
+### 將策略規劃工作區建立為您的執行中心
+
+執行中心是高階行銷活動（以及任何管道計畫）的舉辦地。
+
+* **主要位置：**&#x200B;這是執行重心，為策略決策提供無雜訊環境。
+
+* **優點：**&#x200B;領導階層無需聆聽日常戰術雜訊，即可管理行銷活動組合。
+
+### 將功能輻條定義為團隊的工作區
+
+功能單位(社交、Creative、電子郵件)有各自的工作區來管理其策略。
+
+* **主要位置：**&#x200B;這些工作區是本機專案團隊執行的個別重心。
+
+* **優點：**&#x200B;團隊使用來自中樞的全域行銷活動和分類，同時維護自己的本機物件。
+
+  例如，團隊可從中央工作區將行銷活動記錄型別新增至團隊的工作區，但建立僅與團隊工作區相關的行銷活動。 行銷活動的範例為「Media outlets」或「Usage rights」。
+
+## 使用名詞式治理方法
+
+若要確保您的架構承受壓力，請遵循名詞式治理的原則。
+
+在Workfront Planning中建立實體時，我們建議採取下列步驟：
+
+* **使用名詞，而非動詞：**&#x200B;在追蹤的事情之後命名記錄型別（將其命名為「Campaign」或「Tague」），而不是要完成的動作（不要將其命名為「Campaigning」或「Planning」）。
+
+* **標準化命名法：**&#x200B;在所有工作區中使用相同的名稱。 這可讓您彙總整個投資組合的資料，以利執行報告。
+
+## 現有的投資組合和計畫呢？
+
+成熟組織的一個常見問題是如何處理已在Workfront中建立的投資組合和計畫。 過去，這些物件經常用來模擬策略規劃。
+
+現在，我們建議您將此方法轉移至Workfront Planning，自然而然地適合策略性的規劃方法。
+
+### 以記錄型別取代投資組合和計畫
+
+在許多組織中，產品組合用於代表高階品牌或業務單位，而計畫則代表策略主題。
+
+在Workfront Planning中，這些最好在您的分類中樞中模組化為「記錄型別」。
+
+通過將品牌或業務單位視為記錄型別，您可以將它們連結到整個企業的促銷活動或策略，提供比靜態Portfolio （計畫結構）更靈活的報告。
+
+### 使用報告橋接策略
+
+雖然Workfront Planning是策略性意圖的未來，但其透過畫布控制面板的原生報表仍日趨成熟。
+
+許多組織仍仰賴Workfront中與其舊版Portfolio和方案結構繫結的強大報表功能。
+
+我們建議嘗試以下解決方法：
+
+* 請勿刪除您的投資組合和計畫。
+* 使用Planning自動化在您的記錄型別與投資組合和計畫之間建立橋樑。
+
+  在Workfront Planning中建立策略或行銷活動時，該記錄可在Workfront中產生相對應的Portfolio或方案。
+
+  如需詳細資訊，請參閱[使用Adobe Workfront Planning記錄自動化建立物件](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)。
+
+這可讓您：
+
+* 使用時間軸和行事曆，享受Workfront Planning卓越的策略視覺效果。
+
+* 針對尚未準備好移至畫布的利害關係人，維護您在Workfront中的舊版報告。
+
+## 最佳作法和秘訣
+
+### 待辦事項
+
+* **堅持核心路徑優先方法：**&#x200B;先建立您的行銷活動對策略對專案流程，再增加更多複雜性。
+
+* **指定主要工作區：**&#x200B;請確定每個記錄型別都有一個主工作區（請考量其重心）做為報告的彙總。
+
+* **為擷取程式排定要求表單的優先順序：**&#x200B;在Workfront Planning中使用較不複雜的群組記錄表單，以確保中繼資料的完整性。
+
+  >[!CAUTION]
+  >
+  >雖然進階使用者可從表格檢視中的直接資料輸入中獲益，但應謹慎行事。
+  >表格中的大量變更可以輕鬆為其他利害關係人建立資料難題。
+
+### 不要
+
+* **請勿使用一般化：**&#x200B;例如，在談論執行時，不要談論「核心」環境，而是要特別提到Workfront和專案物件。
+
+* **不要過於複雜：**&#x200B;每個額外的階層層級都會增加管理稅。 僅新增回答目前無法回答之業務問題的層級。
+
+* **不要建立獨立單位：**&#x200B;請確認您的記錄型別是跨工作區共用的，因此團隊不會重新輸入相同的資料。
 
 
-
-## 概觀
-
-隨著您的行銷作業規模不斷擴大，您資料的複雜性也隨之增加。 如果沒有清晰的藍圖，您的行銷記錄系統(MSOR)可能會很快變成內含中斷連線記錄、衝突術語和報告獨立單位的「垃圾桶」。
+<!--original content:
 
 
+## Goal 
 
-「成功的藍圖」是在Workfront Planning中建立行銷活動階層模型的架構。 它將您從「試算表混亂」轉變為受控制的物件導向模型，確保每個團隊都說著相同的語言，同時保持他們執行所需的靈活性。
+Learn how to translate your complex business processes into a scalable, governed campaign hierarchy using "Centers of Gravity" and a multi-workspace architecture. 
 
+ 
 
+## Overview 
 
-## 階層：尋找意向層次
+As your marketing operations scale, so does the complexity of your data. Without a clear blueprint, your Marketing System of Record (MSOR) can quickly become a "junk drawer" of disconnected records, conflicting terminology, and reporting silos. 
 
-為了保持清晰度和擴充性，建議您從經驗證的&#x200B;**核心路徑**&#x200B;開始。 雖然組織可以隨著其營運需求的發展而擴充此階層，但從這三個層級開始，可確保策略與執行之間架起穩固的橋樑。
+ 
 
+The "Blueprint of Success" is a framework for modeling your campaign hierarchy in Workfront Planning. It moves you from "spreadsheet chaos" to a governed, object-oriented model that ensures every team speaks the same language while maintaining the agility they need to execute. 
 
+ 
 
-### 核心路徑：行動策略
+## The Hierarchy: Finding Your Levels of Intent 
 
-最成功的實作是在橫跨計畫與工作流程的乾淨、三層模型上取得成果：
+To maintain clarity and scalability, we recommend starting with a proven **Core Path**. While organizations can expand this hierarchy as their operational needs evolve, beginning with these three levels ensures a strong bridge between strategy and execution. 
 
+ 
 
+### The Core Path: Strategy to Action 
 
-1. **第1級：行銷活動（規劃模組）**
+Most successful implementations thrive on a clean, three-tier model that spans both Planning and Workflow: 
 
-   * **焦點：**&#x200B;長期策略支柱與年度計畫（例如「FY26全球品牌認知度」）。
+ 
 
-   * **角色：** CMO、行銷副總裁、策略銷售機會。
+1. **Level 1: Campaigns (Planning Module)** 
 
-2. **第2級：通路策略（計畫模組）**
+    * **Focus:** Long-term strategic pillars and annual initiatives (e.g., "FY26 Global Brand Awareness").  
 
-   * **焦點：**&#x200B;定義特定頻道（例如「第1季社群媒體閃爍」）之「內容」的營運簡介。 這是工作開始前策略性意圖的最後一層。
+    * **Persona:** CMO, VP of Marketing, Strategic Leads. 
 
-   * **角色：**&#x200B;行銷操作、通路銷售機會、行銷活動經理。
+2. **Level 2: Channel Tactics (Planning Module)** 
 
-3. **第3級：工作流程專案（工作流程模組）**
+    * **Focus:** The operational briefs defining the "what" for specific channels (e.g., "Q1 Social Media Blitz"). This is the final layer of strategic intent before work begins. 
 
-   * **焦點：** 「體驗」或「活動」的實際執行（例如，特定的社交貼文、電子郵件、網頁）。
+    * **Persona:** Marketing Ops, Channel Leads, Campaign Managers. 
 
-   * **實作：** Planning中的戰術直接連結到Workflow模組中的&#x200B;**專案**，其中個別交付專案被管理為任務和問題。
+3. **Level 3: Workflow Projects (Workflow Module)** 
 
-   * **角色：**&#x200B;創意人員、個人貢獻者。
+    * **Focus:** The actual execution of "Experiences" or "Activities" (e.g., specific social posts, emails, web pages).  
 
+    * **Implementation:** Tactics in Planning link directly to **Projects** in the Workflow module, where individual deliverables are managed as tasks and issues. 
 
+    * **Persona:** Creatives, Individual Contributors. 
 
-### 策略性擴充：新增更多層級
+ 
 
-建立核心路徑後，組織可考慮其特定業務複雜度後，選擇新增其他階層：
+### Strategic Expansion: Adding More Levels 
 
+Once the core path is established, organizations may choose to add additional layers after careful consideration of their specific business complexity: 
 
+ 
 
-* **頻道計畫：**&#x200B;介於&#x200B;*行銷活動*&#x200B;和&#x200B;*戰術*&#x200B;之間的圖層，可將跨職能策略分組（例如「數位策略」）。
+* **Channel Plans:** A layer between *Campaigns* and *Tactics* to group cross-functional strategies (e.g., "Digital Strategy"). 
 
-* **Workfront規劃活動：**&#x200B;在低容量環境（通常少於5,000個交付專案/年）中，某些團隊偏好在成為專案之前追蹤個別「體驗」作為Workfront規劃記錄。
+* **Workfront Planning Activities:** In lower-volume environments (typically <5,000 deliverables/year), some teams prefer to track individual "Experiences" as Workfront Planning records before they become projects. 
 
 
 >[!TIP]
 >
->**重要提示：5,000可傳遞臨界值**
+>**Crucial Tip: The 5,000 Deliverable Threshold** 
 >
->如果您的組織每年產生超過5,000個活動，您應該&#x200B;**一律**&#x200B;將個別交付專案追蹤解除安裝至&#x200B;**工作流程模組**。 在Planning中管理大量的「體驗」記錄，可能會導致資料累積而模糊您的策略可見性。 針對「原因」和「內容」使用「計畫」，針對大量「做法」使用「工作流程」模組。
+>If your organization produces more than 5,000 activities per year, you should **always** offload individual deliverable tracking to the **Workflow module**. Managing high-volume "Experience" records in Planning can lead to data accumulation that obscures your strategic visibility. Use Planning for the "Why" and "What," and the Workflow module for the high-volume "How." 
 
+ 
 
+## Architecture: Centers of Gravity 
 
-## 架構：重心
+An enterprise-grade MSOR isn't built in a single workspace. It uses a "Hub-and-Spoke" architecture where record types are managed in their natural **Centers of Gravity**. 
 
-企業級MSOR並非建置在單一工作區中。 它使用「軸輻式」架構，在它們的自然&#x200B;**重心**&#x200B;中管理記錄型別。
+ 
 
+### 1. The Taxonomy Hub (Classifications) 
 
+Establish one centralized workspace for your "Global Classifications" (e.g., Brands, Regions, Products, Personas). 
 
-### 1.分類中心（分類）
+* **Primary Location:** This workspace is the "Source of Truth" for these objects. 
 
-為您的「全域分類」（例如品牌、地區、產品、角色）建立一個集中式工作區。
+* **The Benefit:** By syndicating these definitions to the rest of the business, you solve "Semantic Drift"—ensuring that "Region: EMEA" means the same thing to every team. 
 
-* **主要位置：**&#x200B;此工作區是這些物件的「真相Source」。
+ 
 
-* **優點：**&#x200B;透過將這些定義整合到其他企業中，您可以解決「語意漂移」 — 確保「地區：歐洲、中東和非洲地區」對每個團隊的意義相同。
+### 2. The Strategic Planning Workspace (Executive Center) 
 
+This is where high-level **Campaigns** (and any **Channel Plans**) live.  
 
+* **Primary Location:** This is the executive center of gravity, providing a noise-free environment for strategic decision-making. 
 
-### 2.策略規劃Workspace （執行中心）
+* **The Benefit:** Leadership can manage the portfolio without seeing the day-to-day tactical mess. 
 
-這是高階&#x200B;**行銷活動** （以及任何&#x200B;**頻道計畫**）的上線位置。
+ 
 
-* **主要位置：**&#x200B;這是執行重心，為策略決策提供無雜訊環境。
+### 3. Functional Spokes (Team Workspaces) 
 
-* **優點：**&#x200B;領導階層可以管理投資組合，而不需要看到日常的戰術混亂。
+Functional units (Social, Creative, Email) have their own workspaces to manage their **Tactics**. 
 
+* **Primary Location:** These workspaces are the center of gravity for local team execution.  
 
+* **The Benefit:** Teams "consume" the global campaigns and classifications from the hubs, while maintaining their own local objects (like *Media Outlets* or *Usage Rights*). 
 
-### 3.功能輻條（小組工作區）
+ 
 
-功能單位(社交、Creative、電子郵件)有各自的工作區來管理其&#x200B;**策略**。
+## Noun-Based Governance: Speak One Language 
 
-* **主要位置：**&#x200B;這些工作區是本機專案團隊執行的重心。
+To ensure your blueprint holds up under pressure, follow the principle of **Noun-Based Governance**.  
 
-* **優點：**&#x200B;團隊從中心「使用」全域行銷活動和分類，同時維護他們自己的本機物件（例如&#x200B;*Media Outlets*&#x200B;或&#x200B;*使用許可權*）。
+ 
 
+* **Use Nouns, Not Verbs:** Name your record types after the "things" you are tracking (`Campaign`, `Tactic`), not the "actions" (`Campaigning`, `Planning`). 
 
+* **Standardize Nomenclature:** Use the same names across all workspaces. This allows you to aggregate data across the entire portfolio for executive reporting. 
 
-## 名詞式治理：只說一種語言
+ 
 
-若要確保您的Blueprint承受壓力，請遵循&#x200B;**名詞式治理**&#x200B;的原則。
+## What About Existing Portfolios and Programs? 
 
+A common question for mature organizations is how to handle the Portfolios and Programs they've already built in the **Workflow module**. In the past, these objects were often used to mimic strategic planning. 
 
+ 
 
-* **使用名詞，而非動詞：**&#x200B;在您追蹤的「專案」(`Campaign`、`Tactic`)之後命名您的記錄型別，而不是「動作」(`Campaigning`、`Planning`)。
+### 1. Portfolios & Programs → Record Types 
 
-* **標準化命名法：**&#x200B;在所有工作區中使用相同的名稱。 這可讓您彙總整個投資組合的資料，以利執行報告。
+In many organizations, **Portfolios** are used to represent high-level Brands or Business Units (BUs), while **Programs** represent strategic themes. 
 
+* **The Shift:** These are best modeled as **Record Types** in your **Taxonomy Hub**. By treating "Brand" or "Business Unit" as a record type, you can link them to any campaign or tactic across the entire enterprise, providing much more flexible reporting than a static Portfolio/Program structure. 
 
+ 
 
-## 現有的投資組合和計畫呢？
+### 2. The "Reporting Bridge" Strategy 
 
-成熟組織的一個常見問題是如何處理已在&#x200B;**工作流程模組**&#x200B;中建立的投資組合和程式。 過去，這些物件經常用來模擬策略規劃。
+While Workfront Planning is the future of strategic intent, its native reporting via **Canvas Dashboards** is still maturing. Many organizations still rely on the robust reporting capabilities tied to their legacy Portfolio and Program structures in the Workflow module. 
 
+* **The Recommendation:** Don't delete your Portfolios and Programs yet. Instead, use **Fusion automations** to create a bridge.  
 
+* **How it Works:** When a Tactic or Campaign is created in Workfront Planning, Fusion can automatically mirror that record into a corresponding Portfolio or Program in the Workflow module. This allows you to: 
 
-### 1.產品組合與計畫→記錄型別
+    1. Enjoy Workfront Planning's superior **strategic visualization** (Timelines/Calendars). 
 
-在許多組織中，**產品組合**&#x200B;用於代表高階品牌或業務單位(BU)，而&#x200B;**計畫**&#x200B;則代表策略主題。
+    2. Maintain your **legacy reporting** in the Workflow module for stakeholders who aren't yet ready to move to Canvas. 
 
-* **班次：**&#x200B;這些最好是模型化為&#x200B;**分類中心**&#x200B;中的&#x200B;**記錄型別**。 將「品牌」或「業務單位」視為記錄型別，即可將其連結至整個企業內的任何促銷活動或策略，提供比靜態Portfolio/方案結構更彈性的報表。
+## Best Practices & Tips 
 
+### Do: 
 
+* **Stick to the Core Path first.** Establish your Campaign-to-Tactic-to-Project flow before adding more complexity. 
 
-### &#x200B;2. 「報告Bridge」策略
+* **Designate Primary Workspaces.** Ensure each record type has one "home" workspace (its center of gravity) that acts as the aggregator for reporting. 
 
-雖然Workfront Planning是策略性意圖的未來，但其透過&#x200B;**畫布控制面板**&#x200B;的原生報表仍會日趨成熟。 許多組織仍仰賴與其舊式Portfolio和工作流程模組中的方案結構相連結的強大報告功能。
+* **Prioritize Forms for Intake.** Use record forms for groups with less sophistication in Workfront Planning to ensure metadata integrity. While Power Users may benefit from direct data entry in Table views, this should be approached with caution—bulk changes in a table can easily create data headaches for other stakeholders. 
+ 
 
-* **建議：**&#x200B;請勿刪除您的投資組合和計畫。 請改用&#x200B;**Fusion automations**&#x200B;來建立橋接器。
+### Don't: 
 
-* **運作方式：**&#x200B;在Workfront Planning中建立策略或行銷活動時，Fusion會自動將該記錄映象至工作流程模組中的對應Portfolio或方案。 這可讓您：
+* **Don't say "Core".** Refer specifically to the **Workflow module** and the **Project** objects when talking about execution. 
 
-   1. 享受Workfront Planning的優秀&#x200B;**策略視覺效果** （時間表/行事曆）。
+* **Don't over-complicate.** Every additional level of hierarchy adds a "management tax." Only add levels that answer a business question you can't currently answer. 
 
-   2. 針對尚未準備好移至畫布的利害關係人，在工作流程模組中維護您的&#x200B;**舊版報告**。
-
-## 最佳作法和秘訣
-
-### 執行：
-
-* **先固定到核心路徑。**&#x200B;先建立您的行銷活動對策略對專案流程，再增加更多複雜性。
-
-* **指定主要工作區。**&#x200B;確定每個記錄型別都有一個「首頁」工作區（其重心）做為報告的彙總。
-
-* **排定Forms的錄取優先順序。**&#x200B;針對Workfront Planning中較不複雜的群組使用記錄表單，以確保中繼資料的完整性。 雖然超級使用者可從在表格檢視中直接輸入資料受益，但應謹慎行事，因為表格中的大量變更可輕鬆為其他利害關係人建立資料難題。
-
-
-### 請勿：
-
-* **不要說「核心」。**&#x200B;在談論執行時，特別參考&#x200B;**工作流程模組**&#x200B;和&#x200B;**專案**&#x200B;物件。
-
-* **不要過於複雜。**&#x200B;每個額外的階層層級都會新增「管理稅」。 僅新增可回答您目前無法回答之業務問題的層級。
-
-* **不要建立獨立單位。**&#x200B;請確認您的記錄型別已跨工作區共用，因此團隊不會重新輸入相同的資料。
-
-
-
-
+* **Don't create silos.** Ensure your record types are shared across workspaces so teams aren't re-typing the same data.
+-->

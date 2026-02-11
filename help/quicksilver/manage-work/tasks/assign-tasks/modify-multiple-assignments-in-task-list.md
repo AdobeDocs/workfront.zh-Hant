@@ -7,10 +7,10 @@ author: Lisa
 feature: Work Management, Tasks, Resource Management
 role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
 workflow-type: tm+mt
-source-wordcount: '1553'
-ht-degree: 1%
+source-wordcount: '762'
+ht-degree: 3%
 
 ---
 
@@ -24,13 +24,13 @@ ht-degree: 1%
 this article is similar and updates on this one might need to be repeated here: help/quicksilver/manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md</p>
 -->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 從預覽版開始的一週起，生產環境中也將提供相同功能給所有客戶。
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
-如需詳細資訊，請參閱[2026年第二季版本總覽](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)。
+For more information, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md).  
 
-</div>
+</div>-->
 
 管理任務指派時，您可以使用任務清單中的大量編輯功能，一次為多個任務同時修改它們。
 
@@ -127,91 +127,6 @@ When assigning users to work, their availability according to their schedules af
 
 1. 選取您要修改指派的任務，然後按一下&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)。
 
-   根據您選擇的環境，編輯任務的指派會有所不同。
-
-1. （視條件而定）如果您使用生產環境來指派任務，**編輯任務**&#x200B;方塊會在新體驗中開啟。 在生產環境中：
-
-   1. 若要新增或移除受指派人，請執行下列任一項作業：
-
-      * 若要新增受指派人，請在&#x200B;**搜尋人員、角色或團隊**&#x200B;欄位中開始輸入受指派人名稱，然後在他們顯示在清單中時選取他們。
-      * 若要移除受指派人，請按一下其名稱右側的&#x200B;**x**&#x200B;圖示。 只有所有工作通用的受指派者才會顯示在清單中。
-      * 按一下「指派給我」 ，將選取的任務指派給您自己。
-
-   1. （視條件而定）使用新體驗時，請按一下&#x200B;**儲存**。
-
-   1. （選擇性）按一下&#x200B;**編輯工作**&#x200B;方塊底部的&#x200B;**切換到舊體驗**。
-
-      **編輯任務**&#x200B;方塊會在舊體驗中開啟。
-
-   1. （視條件而定）在舊體驗中，執行下列操作以修改受指派人：
-
-      1. 移至&#x200B;**指派**&#x200B;區段。
-
-         >[!IMPORTANT]
-         >
-         >移除被指定者可能會影響任務時數和分配百分比。 如需詳細資訊，請參閱本文章的[移除受指派人如何影響任務時數及配置百分比](#how-removing-assignees-affects-task-hours-and-allocation-percentages)一節。
-
-      1. 執行下列任一項作業，以新增或移除受指派人：
-
-         * 若要新增受指派人：
-
-            1. 在&#x200B;**工作分派**&#x200B;區段中，選取&#x200B;**受指派人**。
-
-               所有選定任務中通用的資訊隨即顯示。 例如，如果將同一個使用者指派給所有任務，則該使用者會顯示在&#x200B;**受指派人**&#x200B;欄中。 如果選取的任務間資訊不常見，則不會顯示任何資訊。
-
-            1. 開始輸入使用者、角色或團隊的名稱，然後在其顯示在清單中時選取它。 指派會新增，而不會取代所選任務上的目前指派。
-
-           >[!TIP]
-           >
-           > * 您可以指派多個使用者、工作角色或團隊。 您只能指派作用中的使用者、工作角色和團隊。
-           >   
-           > * 新增使用者指派時，請注意頭像、使用者的主要角色或其電子郵件地址，以區分具有相同名稱的使用者。 使用者必須至少與一個工作角色相關聯，才能在您新增時檢視該角色。 您必須在存取層級中啟用檢視聯絡資訊設定，使用者才能檢視使用者的電子郵件。 如需詳細資訊，請參閱[授予使用者存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)。
-           > 
-           >   如果使用者、工作角色或團隊在停用之前已被指派，則他們仍被指派給工作專案。 在此情況下，我們建議採取下列步驟：
-           >   
-           >     * 將工作專案重新指派給作用中的資源。
-           >     * 將已停用團隊中的使用者與作用中團隊建立關聯，並將工作專案重新指派給作用中團隊。
-
-
-         * 若要移除個別受指派人，請執行下列動作：
-
-            1. 如果受指派人顯示在「工作總攬」清單中，則按一下您要移除之受指派人名稱旁的&#x200B;**X圖示**。
-
-               或
-
-               （視條件而定）如果您要移除的受指派人未顯示在「工作分派」區段中，因為受指派人僅被指派給您選取的部分工作，請按一下&#x200B;**移除受指派人**，並開始輸入您要移除的受指派人名稱，然後在其出現在下拉式清單中時按一下該名稱。
-
-         * 若要移除所有現有的被指定者：
-
-            1. 按一下&#x200B;**移除所有現有的受指派人**，然後按一下&#x200B;**是，刪除所有受指派人**。
-
-               這不僅會移除常見的被指定者（顯示在「編輯」對話方塊中的被指定者），也會移除所有選定任務中的所有被指定者。
-
-           從任務中移除使用者可能會影響任務時數和分配百分比。
-
-           如需詳細資訊，請參閱[修改任務指派的概觀](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)。
-
-      1. （選擇性）修改受指派人的下列任一選項：
-
-         * （視條件而定） **配置%或時數**：指定新的配置百分比或時數。
-
-         >[!NOTE]
-         >
-         >只有在正在編輯的所有任務中，持續時間型別都相同的情況下，才能修改此選項。 當持續時間型別已計算工作或投入比導向時，您可以更新配置%。 當持續時間型別簡單時，您可以更新小時。 如需有關期間型別的資訊，請參閱[任務期間與期間型別的概觀](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)。
-         >
-         >
-         >如果欄位為空白，表示值在各任務間有所不同；不過，您仍可加以修改。
-
-         * **任務擁有者**：選取此選項，可讓受指派者成為正在編輯之所有任務的所有者。
-         * **受指派人的角色**：從下拉式清單中選取一個角色。 如果保持未選取，Adobe Workfront會自動選取使用者的主要角色。
-
-      1. 按一下&#x200B;**儲存變更。**
-
-
-1. <span class="preview">（條件式）如果您使用預覽環境來指派任務，**編輯任務**&#x200B;方塊會開啟。 在預覽環境中執行下列動作： </span>
-
-   <div class="preview">
-
    1. 若要新增或移除受指派人，請執行下列任一項作業：
 
       * 若要新增受指派人，請在&#x200B;**搜尋人員、角色或團隊**&#x200B;欄位中開始輸入受指派人名稱，然後在他們顯示在清單中時選取他們。
@@ -261,7 +176,92 @@ When assigning users to work, their availability according to their schedules af
 
    1. 按一下「**儲存**」。
 
-      </div>
+<!-- temporary content - for Assignments redesign:
+
+Editing assignments on tasks differs depending on which environment you choose. 
+
+1. (Conditional) If you are using the Production environment to assign tasks, the **Edit Tasks** box opens in the new experience. Do the following in the Production environment: 
+
+   1. To add or remove assignees, do one of the following:
+
+      * To add assignees, start typing the name of an assignee in the **Search people, roles, or teams** field, then select them when they display in the list. 
+      * To remove assignees, click the **x** icon to the right of their name. Only assignees that are common to all tasks display in the list. 
+      * Click Assign to me to assign the selected tasks to yourself.
+
+   1. (Conditional) When using the new experience, click **Save**.
+
+   1. (Optional) Click **Switch to old experience** at the bottom of the **Edit Tasks** box.
+      
+      The **Edit Tasks** box opens in the old experience.
+
+   1. (Conditional) In the old experience, do the following to modify the assignees:
+
+      1. Go to the **Assignments** section.
+
+         >[!IMPORTANT]
+         >
+         >Removing assignees can affect the task hours and allocation percentages. For more information, see the section [How removing assignees affects task hours and allocation percentages](#how-removing-assignees-affects-task-hours-and-allocation-percentages) in this article.
+
+      1. Do one of the following to add or remove assignees:
+
+         * To add a new assignee:
+
+            1. In the **Assignments** section, select **Assignee**.
+
+               Information that is common across all tasks selected displays. For example, if the same user is assigned to all tasks, that user displays in the **Assignee** column. If information is not common across the tasks selected, no information displays.
+            
+            1. Start typing the name of a user, role, or team, then select it when it displays in the list. The assignment is added and does not replace the current assignments on the selected tasks.
+
+            >[!TIP]
+            >
+            > * You can assign multiple users, job roles, or teams. You can assign only active users, job roles, and teams.
+            >   
+            > * When adding a user assignment, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them. You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+            > 
+            >   If a user, job role, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:
+            >   
+            >     * Reassign the work item to active resources.
+            >     * Associate the users in a deactivated team with an active team and reassign the work item to the active team.
+
+
+         * To remove individual assignees:
+
+            1. Click the **X icon** next to the name of the assignee that you want to remove if the assignee displays in the Assignments list.
+
+               Or
+
+               (Conditional) If the assignee that you want to remove does not display in the Assignments section because the assignee is assigned to only some of the tasks that you have selected, click **Remove Assignee** and start typing the name of the assignee that you want to remove, then click the name when it appears in the drop-down list.
+
+         * To remove all existing assignees:
+
+            1. Click **Remove All Existing Assignees**, then click **Yes, Delete All Assignees**.
+
+               This removes not only common assignees (assignees that are displayed in the edit dialog box), but also all assignees on all the selected tasks.
+
+            Removing users from tasks can affect task hours and allocation percentages.
+            
+            For more information, see [Overview of modifying task assignments](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
+
+      1. (Optional) Modify any of the following options for assignees:
+
+         * (Conditional) **Allocation % or Hours**: Specify a new allocation percentage or hours.
+
+         >[!NOTE]
+         >
+         >This option can be modified only if the Duration Type is the same across all tasks that are being edited. When the Duration Type is Calculated Work or Effort Driven you can update the Allocation %. When the Duration Type is Simple you can update the Hours. For information about Duration Type, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+         >
+         >
+         >If the field is blank, this means that the value is different across tasks; however, you are still able to modify it.
+
+         * **Task Owner**: Select this option to make the assignee the owner of the task for all tasks being edited.
+         * **Assignee's Role**: Select a role from the drop-down list. If left unselected, Adobe Workfront automatically selects the Primary Role of the user. 
+
+      1. Click **Save Changes.**
+        
+
+1. <span class="preview">(Conditional) If you are using the Preview environment to assign tasks, the **Edit Tasks** box opens. Do the following in the Preview environment: </span>
+
+   <div class="preview">-->
 
 
 

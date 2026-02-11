@@ -7,10 +7,10 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
 workflow-type: tm+mt
-source-wordcount: '2479'
-ht-degree: 2%
+source-wordcount: '1617'
+ht-degree: 3%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 2%
 
 <!--remove production/ preview and old/ new experience references at prod-->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 從預覽版開始的一週起，生產環境中也將提供相同功能給所有客戶。
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-如需詳細資訊，請參閱[2026年第二季版本總覽](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)。
+For more information, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md). 
 
-</div>
+</div>-->
 
 您可以將任務指派給使用者、工作角色或專案團隊，以指出負責完成任務的人員。 您可以一次將任務指派給多個資源。
 
@@ -224,102 +224,6 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 
 ## 從清單大量指派多個任務
 
-根據您選擇的環境，從清單中大量指派多個任務會有所不同。
-
-### 從生產環境中的清單大量指派多個任務
-
-1. 移至您要大量指派的工作清單。
-1. （視條件而定）如果您在專案下的任務清單中，請確定已選取&#x200B;**自動儲存**&#x200B;選項。
-
-   >[!IMPORTANT]
-   >
-   >在專案上手動儲存任務時，您無法大量編輯任務。
-
-1. 在任務清單中選取數個任務。
-1. 按一下&#x200B;**編輯**。
-
-   **編輯任務**&#x200B;對話方塊會在新體驗中開啟。
-
-1. 繼續使用新體驗指派任務。
-
-   如需詳細資訊，請參閱本文章節[從新體驗的清單中大量指派多個任務](#assign-multiple-tasks-in-bulk-from-a-list-in-the-new-experience)。
-
-1. （選擇性）按一下&#x200B;**編輯工作**&#x200B;方塊底部的&#x200B;**切換回舊體驗**&#x200B;以開啟舊體驗。
-
-1. （視條件而定）使用舊體驗，在&#x200B;**指派**&#x200B;區域中，選取&#x200B;**受指派人**&#x200B;方塊，然後開始輸入您要指派給所有工作的使用者、工作角色或團隊名稱。
-
-   >[!IMPORTANT]
-   >
-   >如果有任何任務已指派，您在此處指定的資源會新增到任務中，而不是取代任務上的現有資源。
-
-1. （選擇性）當您指派多個資源給任務時，選取&#x200B;**任務擁有者**&#x200B;欄中的圓鈕，以指出哪個資源是任務的主要受指派人或擁有者。 這不適用於團隊。
-1. （視條件而定）如果您選取的所有任務的「期間型別」皆為「投入比導向」或「計算的指定任務」，請為指派給任務的每個資源指定&#x200B;**配置%**。 這表示這些資源應該花費多少時間完成任務。 這僅適用於使用者和職位角色。
-
-   或
-
-   如果您選取的所有任務的「期間型別」都為「簡單」，請為指派給任務的每個資源指定&#x200B;**小時**&#x200B;的數量。 所有資源的所有時數總計應等於任務的計畫時數。
-
-   >[!IMPORTANT]
-   >
-   >如果您選取的任務具有不同的期間型別或您選取的任務具有不同的期間型別，則無法指定每個資源的配置百分比或時數。
-
-   如需有關工作的期間型別資訊，請參閱[工作期間與期間型別概觀](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)。
-
-1. （選擇性）將使用者指派給任務時，從&#x200B;**受指派人的角色**&#x200B;欄中的&#x200B;**挑選角色**&#x200B;下拉式功能表中，選取使用者應完成之任務的角色。 如果您未選取角色，Workfront會自動選取使用者的主要角色。
-
-1. （選擇性）如果要從所有工作移除現有的受指派人，請執行下列任一項作業：
-
-   1. 開始輸入您要從任務中移除的使用者、角色或團隊名稱，然後當名稱出現在清單中時選取名稱，並按一下&#x200B;**移除受指派人**&#x200B;以移除更多受指派人。
-   1. 按一下「移除所有現有受指派人」**&#x200B;**，從所有選取的工作中移除所有受指派人。
-
-1. 按一下「**儲存變更**」。
-1. （選擇性和條件性）當「指派至」或「工作總攬」欄位顯示在您的任務清單中時，按一下這些欄中的一個以取得任務，然後按一下受指派人名稱旁的&#x200B;**X圖示**，以將其從任務中移除。
-
-
-#### 從新體驗中的清單大量指派多個任務
-
-1. 移至您要大量指派的工作清單。
-1. （視條件而定）如果您在專案下的任務清單中，請確定已選取&#x200B;**自動儲存**&#x200B;選項。
-
-   >[!IMPORTANT]
-   >
-   >在專案上手動儲存任務時，您無法大量編輯任務。
-
-1. 在任務清單中選取數個任務。
-1. 按一下&#x200B;**編輯**。
-
-   **編輯工作**&#x200B;對話方塊開啟。
-
-1. 在&#x200B;**工作總攬**&#x200B;區域中，開始在提供的&#x200B;**搜尋人員、角色或團隊**&#x200B;欄位中輸入使用者、團隊或角色的名稱，然後當他們顯示在清單中時按一下他們
-
-   或
-
-   按一下&#x200B;**指派給我**&#x200B;以指派給您自己。
-
-   >[!IMPORTANT]
-   >
-   >如果有任何任務已指派，您在此處指定的資源會新增到任務中，而不是取代任務上的現有資源。
-
-1. 在&#x200B;**期間型別**&#x200B;欄位內按一下，然後選擇期間型別。
-
-   如需有關工作的期間型別資訊，請參閱[工作期間與期間型別概觀](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)。
-
-1. （視條件而定）根據您選取的&#x200B;**期間型別**，更新下列欄位：
-
-   * 期間
-   * 規劃時數
-
-     如需詳細資訊，請參閱[編輯工作](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md)。
-
-1. （選擇性）如果您想要從所有任務中移除現有的受指派人，請在&#x200B;**搜尋人員、角色或團隊**&#x200B;欄位中按一下其名稱旁的&#x200B;**x**。
-
-1. 按一下「**儲存**」。
-1. （選擇性和條件性）當工作清單中顯示&#x200B;**指派給**&#x200B;或&#x200B;**工作總攬**&#x200B;欄位時，按一下這些欄位之一內的工作總攬，然後按一下受指派人名稱旁的&#x200B;**X圖示**，即可將其從工作移除。
-
-<div class="preview">
-
-### 從預覽環境中的清單大量指派多個任務
-
 1. 移至您要大量指派的工作清單。
 1. （視條件而定）如果您在專案下的任務清單中，請確定已選取&#x200B;**自動儲存**&#x200B;選項。
 
@@ -340,7 +244,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 
 1. 為選取的任務指定下列欄位：
 
-   * 將游標暫留在指派名稱上，然後按一下[設為主要]，指出哪個受指派人是工作的擁有者。**&#x200B;**
+   * 將游標暫留在指派名稱上，然後按一下[設為主要]，指出哪個受指派人是工作的擁有者。****
    * **期間類型**
 
      如需有關工作的期間型別資訊，請參閱[工作期間與期間型別概觀](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)。
@@ -355,7 +259,6 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 1. 按一下「**儲存**」。
 1. （選擇性和條件性）當工作清單中顯示&#x200B;**指派給**&#x200B;或&#x200B;**工作總攬**&#x200B;欄位時，按一下這些欄位之一內的工作總攬，然後按一下受指派人名稱旁的&#x200B;**X圖示**，即可將其從工作移除。
 
-</div>
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -372,3 +275,98 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 -->
 
 
+<!--Assigning multiple tasks in bulk from a list differs depending on which environment you choose. 
+
+### Assign multiple tasks in bulk from a list in the Production environment
+
+1. Go to a list of tasks that you want to assign in bulk. 
+1. (Conditional) Ensure that the **Autosave** option is selected if you are on a list of tasks under a project.
+
+   >[!IMPORTANT]
+   >
+   >You cannot edit tasks in bulk when saving tasks manually on a project.
+
+1. Select several tasks in the tasks list. 
+1. Click **Edit**.
+
+   The **Edit Tasks** dialog box opens in the new experience.
+
+1. Continue assigning the tasks using the new experience.
+
+   For more information, see the section [Assign multiple tasks in bulk from a list in the new experience](#assign-multiple-tasks-in-bulk-from-a-list-in-the-new-experience) in this article.
+
+1. (Optional) Click **Switch back to old experience** at the bottom of the **Edit Tasks** box to open the old experience.
+
+1. (Conditional) Using the old experience, in the **Assignments** area, select the **Assignee** box, then start typing the name of a user, job role, or team that you want to assign to all the tasks.
+
+   >[!IMPORTANT]
+   >
+   >If any of the tasks is already assigned, the resources you indicate here are added to the tasks instead of replacing the existing resources on the tasks. 
+
+1. (Optional) Select the radio button in the **Task Owner** column to indicate which resource is the primary assignee or the Owner of the task, when you assign more than one resource to the task. This is not available for teams. 
+1. (Conditional) Specify the **Allocation %** for each resource assigned to the task if all the tasks you selected have a Duration Type of Effort Driven or Calculated Assignment. This indicates how much of their time these resources should spend on completing the task. This is only available for users and job roles.
+
+   Or
+
+   Specify the amount of **Hours** for each resource assigned to the task if all the tasks you selected have a Duration Type of Simple. The total of all hours for all resources should equal the number of Planned Hours for the task.
+
+   >[!IMPORTANT]
+   >
+   >You cannot specify the allocation percentage or the number of hours per resource if the tasks you selected have different Duration Types or of the tasks you selected have different Duration Types.
+
+   For information about Duration Type on tasks, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+
+1. (Optional) Select a role that the user should fulfill on the task from the **Pick a role** drop-down menu in the **Assignee's Role** column when you assign users to tasks. If you do not select a role, Workfront automatically selects the user's Primary Role. 
+
+1. (Optional) If you want to remove existing assignees from all tasks do one of the following:
+
+   1. Start typing the name of a user, role, or team you want to remove from the task, then select it when it appears on the list and click **Remove Assignee** to remove more assignees.
+   1. Click **Remove All Existing Assignees** to remove all assignees from all selected tasks.
+
+1. Click **Save Changes**.
+1. (Optional and conditional) When the Assigned to or the Assignments fields display in your list of tasks, click inside one of these columns for a task, then click the **X icon** next to the name of an assignee to remove it from the task.
+
+
+#### Assign multiple tasks in bulk from a list in the new experience
+
+1. Go to a list of tasks that you want to assign in bulk.
+1. (Conditional) Ensure that the **Autosave** option is selected if you are on a list of tasks under a project.
+
+   >[!IMPORTANT]
+   >
+   >You cannot edit tasks in bulk when saving tasks manually on a project.
+
+1. Select several tasks in the tasks list. 
+1. Click **Edit**.
+
+   The **Edit Tasks** dialog box opens.
+
+1. In the **Assignments** area, start typing the name of users, teams, or roles in the **Search people, roles, or teams** field provided, then click them when they display in the list
+
+   Or 
+
+   Click **Assign to me** to assign it to yourself.
+
+   >[!IMPORTANT]
+   >
+   >If any of the tasks is already assigned, the resources you indicate here are added to the tasks instead of replacing the existing resources on the tasks.
+
+1. Click inside the **Duration Type** field and choose a Duration Type. 
+
+   For information about Duration Type on tasks, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+
+1. (Conditional) Depending on what **Duration Type** you selected, update the following fields: 
+
+   * Duration
+   * Planned Hours
+
+      For more information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md). 
+
+1. (Optional) If you want to remove existing assignees from all tasks, click the **x** next to their name in the **Search people, roles, or teams** field.
+
+1. Click **Save**.
+1. (Optional and conditional) When the **Assigned to** or the **Assignments** fields display in your list of tasks, click inside one of these columns for a task, then click the **X icon** next to the name of an assignee to remove it from the task.
+
+<div class="preview">
+### Assign multiple tasks in bulk from a list in the Preview environment
+-->

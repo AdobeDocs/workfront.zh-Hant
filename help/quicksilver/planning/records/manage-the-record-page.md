@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
+source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
 workflow-type: tm+mt
-source-wordcount: '1568'
+source-wordcount: '1567'
 ht-degree: 0%
 
 ---
@@ -221,7 +221,7 @@ ht-degree: 0%
 
      或
 
-     按一下&#x200B;**下移**&#x200B;將區段下移一個位置。
+     按一下&#x200B;**下移**將區段下移一個位置。
 區段中的所有欄位會隨著區段移動。
 
    * 按一下&#x200B;**刪除**&#x200B;以刪除區段。 該區段已刪除且無法復原。 所有存取此型別記錄的使用者將不再檢視已刪除的區段。
@@ -279,14 +279,14 @@ ht-degree: 0%
 
    <div class="preview">
 
-   * 選取&#x200B;**顯示表格欄位**&#x200B;設定，以僅檢視未在記錄的表格檢視中隱藏的欄位。 這是預設設定
-   * 取消選取&#x200B;**顯示表格欄位**&#x200B;設定，以檢視記錄表格檢視中的所有欄位，包括隱藏的欄位。
+   * 選取&#x200B;**顯示所有欄位**&#x200B;設定，以檢視記錄表格檢視中的所有欄位，包括隱藏的欄位。
+   * 取消選取「**顯示所有欄位**」設定，以僅檢視未在記錄的資料表檢視中隱藏的欄位。 這是預設設定
 
    </div>
 
    >[!TIP]
    >
-   ><span class="preview"> **顯示資料表欄位**&#x200B;設定僅在記錄的[詳細資料]預覽方塊中可用。 在記錄的[詳細資料]頁面中無法使用。</span>
+   ><span class="preview"> **顯示所有欄位**&#x200B;設定僅在記錄的[詳細資料]預覽方塊中可用。 在記錄的[詳細資料]頁面中無法使用。</span>
 
 
    <!--replace with this when they fix the UI text:
