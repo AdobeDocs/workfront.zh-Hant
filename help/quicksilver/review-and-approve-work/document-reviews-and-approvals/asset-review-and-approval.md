@@ -1,21 +1,21 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: 整合式檔案核准的可用功能
+title: 檔案核准的可用功能
 description: Workfront中可供檢閱和核准的系統概觀。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: f4dc0d28f7565b9dbc3c9ff4ee388eb8cf748b7f
+source-git-commit: aa3645e2ed8c36a3b07caad72083a43467889fce
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
 
-# 整合式檔案核准的可用功能
+# 檔案核准的可用功能
 
-Workfront中目前有3種不同的系統可用於統一檔案核准：
+Workfront中目前有3種不同的系統可供檔案核准：
 
 * [舊版檔案核准](#legacy-document-approvals)
 
@@ -25,7 +25,7 @@ Workfront中目前有3種不同的系統可用於統一檔案核准：
 
 ## 舊版檔案核准
 
-舊版檔案核准將於2025年從Workfront中移除。 統一核准系統旨在取代舊版檔案核准。
+未來會從Workfront移除舊版檔案核准。 統一核准系統旨在取代舊版檔案核准。
 
 舊版檔案核准可用的主要功能：
 

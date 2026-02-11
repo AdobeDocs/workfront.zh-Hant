@@ -6,10 +6,10 @@ description: 您可以接收來自 [!DNL Adobe Workfront] 的通知，內容有�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-source-git-commit: 4cf780aa1b1221cd6ff8e6ce58fbb7d3621f7fa9
+source-git-commit: 7720d51864428e6d7cf493f88bbee13b5203774b
 workflow-type: tm+mt
-source-wordcount: '1434'
-ht-degree: 0%
+source-wordcount: '1466'
+ht-degree: 5%
 
 ---
 
@@ -32,22 +32,22 @@ ht-degree: 0%
 
 
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td> <p>標準</p>
-   <p>工作或更高</p> </td> 
+   <p>工作或更高層級</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -140,11 +140,11 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th>通知</th> 
-   <th>[!UICONTROL 核准]</th> 
-   <th>[!UICONTROL 拒絕]</th> 
-   <th> <p>[!UICONTROL 變更]</p> </th> 
-   <th> <p>[!UICONTROL 前往校訂] </p> </th> 
-   <th>[!UICONTROL 註解]</th> 
+   <th>[！UICONTROL核准]</th> 
+   <th>[！UICONTROL拒絕]</th> 
+   <th> <p>[！UICONTROL變更]</p> </th> 
+   <th> <p>[！UICONTROL前往校訂] </p> </th> 
+   <th>[！UICONTROL註解]</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -221,7 +221,7 @@ ht-degree: 0%
    <td> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">您請求的檔案核准請求已核准</td> 
+   <td role="rowheader">您請求的檔案核准請求已核准*</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -229,7 +229,7 @@ ht-degree: 0%
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">您請求的檔案核准請求已核准，但有變更</td> 
+   <td role="rowheader">您請求的檔案核准請求已核准變更*</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -237,7 +237,7 @@ ht-degree: 0%
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">您請求的檔案核准請求被拒絕</td> 
+   <td role="rowheader">您請求的檔案核准請求被拒絕*</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -254,6 +254,8 @@ ht-degree: 0%
   </tr> 
  </tbody> 
 </table>
+
+*這些通知指舊版檔案核准。 [!DNL Microsoft Teams]目前不支援整合檔案核准通知。 如需Workfront中不同核准系統的詳細資訊，請參閱[檔案核准的可用功能](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)。
 
 ### 指派通知 {#assignment-notifications}
 
@@ -275,9 +277,9 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th>通知</th> 
-   <th>[!UICONTROL 開始]</th> 
-   <th>[!UICONTROL 註解]</th> 
-   <th> <p>[!UICONTROL 狀態]</p> </th> 
+   <th>[！UICONTROL開始]</th> 
+   <th>[！UICONTROL註解]</th> 
+   <th> <p>[！UICONTROL狀態]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -325,8 +327,8 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th>通知</th> 
-   <th>[!UICONTROL 回覆]</th> 
-   <th> <p>[!UICONTROL 狀態]</p> </th> 
+   <th>[！UICONTROL回覆]</th> 
+   <th> <p>[！UICONTROL狀態]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -390,8 +392,8 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th>通知</th> 
-   <th>[!UICONTROL 回覆]</th> 
-   <th> <p>[!UICONTROL 狀態]</p> </th> 
+   <th>[！UICONTROL回覆]</th> 
+   <th> <p>[！UICONTROL狀態]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -406,7 +408,7 @@ ht-degree: 0%
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">有人將您的團隊加入[!UICONTROL 導向更新]</td> 
+   <td role="rowheader">有人將您的團隊加入[！UICONTROL導向更新]</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -427,8 +429,8 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th>通知</th> 
-   <th> <p>[!UICONTROL 註解]</p> </th> 
-   <th> <p>[!UICONTROL 狀態]</p> </th> 
+   <th> <p>[！UICONTROL註解]</p> </th> 
+   <th> <p>[！UICONTROL狀態]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
