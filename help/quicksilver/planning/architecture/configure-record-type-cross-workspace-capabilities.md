@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
+source-git-commit: 5a725e747e8776a867cb0dc4129544f6a28ce8e0
 workflow-type: tm+mt
-source-wordcount: '1411'
+source-wordcount: '1420'
 ht-degree: 1%
 
 ---
@@ -139,7 +139,7 @@ And
 
 工作區管理員可以將全域記錄型別新增到他們管理的工作區。 記錄型別的原始欄位也會新增至次要工作區。
 
-使用者可以從他們擁有「貢獻」許可權且已新增全域記錄型別（包括其原始工作區）的任何工作區，將記錄新增至全域記錄型別。 他們可以從只擁有檢視許可權的工作區檢視記錄。
+使用者可以從他們擁有「貢獻」許可權且已新增全域記錄型別（包括其原始工作區）的任何工作區，將記錄新增至全域記錄型別。 他們可以從全域記錄型別的主要工作區中檢視其僅擁有檢視許可權的工作區中的記錄。
 
 如需詳細資訊，請參閱[跨工作區記錄型別總覽](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)。
 
@@ -252,7 +252,7 @@ And
 
    啟用時，記錄型別可供存取，且可從其他工作區連線到。
 
-1. 選擇可存取記錄型別的工作區。 從下列選項中選擇：
+1. 選擇可存取記錄型別的工作區。 從下列選項中選擇:
 
    <!--check names of the setting: System wide?? OR All workspaces??-->
 

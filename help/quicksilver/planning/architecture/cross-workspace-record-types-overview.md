@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 5bccad02f90fd99135b50c5a929913b16cc5b809
+source-git-commit: 5a725e747e8776a867cb0dc4129544f6a28ce8e0
 workflow-type: tm+mt
-source-wordcount: '1640'
+source-wordcount: '1709'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ ht-degree: 0%
 
    以下各節將說明全域記錄型別的相關考量事項，以及這些記錄在其原始或次要工作區中的運作方式。
 
-### 有關其原始工作區中全域記錄型別的考量事項
+### 有關其原始主要工作區中全域記錄型別的考量事項
 
 設定為全域的記錄型別具有以下屬性：
 
@@ -109,12 +109,24 @@ ht-degree: 0%
    * 建立及管理申請表單
    * 建立及管理自動化
 
-* 您新增至全域記錄型別的記錄只會顯示給對其新增所在工作區具有檢視許可權的使用者。
-* 您從次要工作區新增的記錄會累計，並顯示在原始工作區中。 原始工作區的所有成員都會獲得其檢視許可權。
-* 將原始全域記錄型別新增至多個次要工作區時，會出現下列情況：
+* 下列記錄會顯示在全域記錄型別的「主要」工作區中：
 
-   * 原始工作區的成員會自動取得從任何工作區新增之所有記錄的「檢視」許可權，即使他們不是這些工作區的成員。
-   * 次要工作區成員只能檢視其所屬工作區的記錄。
+   * 從主要工作區中的全域記錄型別新增的記錄
+   * 在新增記錄的次要工作區中，從全域記錄型別新增記錄
+
+     您從次要工作區新增的記錄會彙總並顯示在主要工作區中。 原始主要工作區的所有成員都會獲得其檢視許可權，且即使他們沒有次要工作區的許可權，也只能從主要工作區看見記錄。
+* 根據記錄從何處新增，您對主要工作區中顯示的記錄具有的許可權種類如下：
+
+   * 您對在主要工作區中建立的記錄擁有與對工作區和原始全域記錄型別相同的許可權。
+   * 您對在次要工作區中建立的記錄擁有與對次要工作區以及該工作區中的全域記錄型別相同的許可權。
+
+<!--Removed this as this was too confusing: 
+
+* When the original global record type is added to multiple secondary workspaces, users gain the following visibility to the records added to the global record types: 
+
+    * Members of the original workspace automatically gain View permissions to all records added from any workspace, even if they are  not members of those workspaces. They can view these records in the following workspaces, only if they are a member of these following workspaces: 
+        * The primary workspace
+        * The secondary workspace where the records were added. Secondary workspace members can view only records from workspaces where they are a member.-->
 
 * 連線至全域記錄型別的記錄型別將可用於從新增此記錄型別的工作區進行連線。
 
@@ -172,15 +184,15 @@ ht-degree: 0%
    * 建立及管理申請表單
    * 建立及管理自動化
 
-* 如果您擁有下列工作區的「檢視」或更高許可權，則可從這些工作區看見新增至次要工作區的記錄：
+* 當您擁有下列工作區的「檢視」或更高許可權時，您可從這些工作區看見新增至次要工作區的記錄：
 
    * 新增的次要位置
-   * 全域記錄型別的原始工作區
+   * 全域記錄型別的原始主要工作區
 
-* 在次要工作區中建立的記錄存在下列情況：
+* 下列情況適用於存取在次要工作區中建立的記錄：
 
    * 如果您對原始工作區具有「管理」許可權，而對次要工作區沒有許可權，則可以從原始工作區中的次要工作區檢視新增的記錄，但無法從原始工作區管理這些記錄。
-   * 如果您對次要工作區具有管理許可權，則可以從全域記錄型別的原始工作區以及新增記錄的次要工作區來管理記錄。
+   * 如果您擁有原始和次要工作區的「管理」許可權，則可以從全域記錄型別的原始工作區以及新增記錄的次要工作區管理記錄。
      <!--not anymore: * You can view the records in additional secondary workspaces where the global record type is added only if you have View permissions to those workspaces-->
 * 您無法在次要工作區中公開共用全域記錄型別的檢視。
 

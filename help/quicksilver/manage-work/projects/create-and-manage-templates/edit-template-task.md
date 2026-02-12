@@ -7,7 +7,7 @@ description: 建立範本後，您可以編輯有關範本任務的資訊。 使
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: e812338b1f20c6f8dc8679afe3215dbecc8ffc60
+source-git-commit: e186b4aa0b5c229015cf8f3dcd8993f8f0443c44
 workflow-type: tm+mt
 source-wordcount: '2958'
 ht-degree: 5%
@@ -165,7 +165,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 
 1. 如上所述，開始編輯範本任務。
-1. 在[編輯範本任務]方塊中，按一下[範本任務名稱] **&#x200B;**&#x200B;並新增範本任務的名稱。
+1. 在[編輯範本任務]方塊中，按一下[範本任務名稱] ****&#x200B;並新增範本任務的名稱。
 
    大量編輯範本任務時，此檢視不可用。
 
@@ -404,7 +404,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    </tr> 
    </tbody> 
    </table>
-1. 將滑鼠停留在受指派人名稱上，然後按一下設為主要。 這將是未來專案任務的擁有者。
+1. 將滑鼠停留在受指派人名稱上，然後按一下&#x200B;**設為主要**。 這將是未來專案任務的&#x200B;**所有者**。
 
    >[!TIP]
    >
