@@ -8,13 +8,13 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: 7dca87a4f73fed9597f2a623b969569aa03cf5b3
+exl-id: 32c616b2-5bba-434e-9918-c27f6518693d
+source-git-commit: 56e5af94e0e98cf680db182f10143f5503e4260b
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 0%
+source-wordcount: '192'
+ht-degree: 1%
 
 ---
-
 
 # Adobe Workfront2026年第二季發行活動可用性限制功能
 
@@ -27,6 +27,22 @@ ht-degree: 0%
 ## 有限可用性功能的發行說明
 
 本節包含新功能的發行說明。
+
+### 更新單一或大量指派任務時的體驗
+
+>[!NOTE]
+>
+>生產發行日期： 2026年2月12日
+
+編輯單一任務或大量編輯任務時，我們已更新「編輯任務」方塊中的「工作總攬」區段。
+
+指派資源給任務有全新的體驗。 現在，在編輯一個任務或編輯多個任務時均可使用此功能。 我們在「工作總攬」區段中新增了下列欄位：
+
+* 配置
+* 所有者或任務所有者
+* 受指派人角色
+
+如需詳細資訊，請參閱[編輯工作](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md)。
 
 <!--### Title
 
@@ -41,19 +57,19 @@ text
 
 本節說明每週Workfront更新中針對有限可用性功能所修正的問題。
 
-<!--### Maintenance Updates week of January 18-24, 2026
+<!--### Maintenance Updates week of February 8-14, 2026
 
 **Title**
 
 text
 
-### Maintenance Updates week of January 25-31, 2026
+### Maintenance Updates week of February 15-21, 2026
 
 **Title**
 
 text
 
-### Maintenance Updates week of February 1-7, 2026
+### Maintenance Updates week of February 22-28, 2026
 
 **Title**
 
