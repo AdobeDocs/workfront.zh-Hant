@@ -6,9 +6,9 @@ description: 您可以共用或移除您所建立之物件或與您共用之物�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 97f5adc8811a3be7be23137a82d10d45b76ec605
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '1332'
 ht-degree: 1%
 
 ---
@@ -99,7 +99,9 @@ ht-degree: 1%
 
 ## 共用限制
 
-您最多可以與100個實體（使用者、團隊、群組、工作角色、公司）共用物件。 建議您與群組、團隊或公司共用物件，而非與個別使用者共用，以避免此限制。
+* 您最多可以與100個實體（使用者、團隊、群組、工作角色、公司）共用物件。 建議您與群組、團隊或公司共用物件，而非與個別使用者共用，以避免此限制。
+* 存取層級不允許存取財務資料的使用者，無法授與允許其他人檢視財務資料的存取權。 這包括提供顯示財務資料的專案存取權，或修改存取層級以允許檢視財務資料。
+
 
 ## 共用物件的許可權
 

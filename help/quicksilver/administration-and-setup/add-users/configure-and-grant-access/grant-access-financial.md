@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: bf4a37ee-9435-4c1c-b18c-a7338a548ab7
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+source-git-commit: 97f5adc8811a3be7be23137a82d10d45b76ec605
 workflow-type: tm+mt
-source-wordcount: '780'
-ht-degree: 0%
+source-wordcount: '823'
+ht-degree: 2%
 
 ---
 
@@ -24,16 +24,16 @@ ht-degree: 0%
 * Workfront中專案的財務資訊
 * 資源規劃工具中的資源預算資訊
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
@@ -58,6 +58,7 @@ ht-degree: 0%
 
 授與使用者存取Workfront中財務資料之許可權時，請考量下列事項：
 
+* 存取層級不允許存取財務資料的使用者，無法授與允許其他人檢視財務資料的存取權。 這包括提供顯示財務資料的專案存取權，或修改存取層級以允許檢視財務資料。
 * 存取層級不允許存取財務資料的使用者無法為專案建立風險。 如需詳細資訊，請參閱[建立與編輯專案風險](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)。
 * 您也可以使用存取層次來決定使用者可採用哪些「資源管理」活動來編列預算或檢視資源配置。 如需詳細資訊，請參閱[授與資源管理的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)。
 
