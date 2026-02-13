@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
-source-git-commit: f55ab45a7c11a4f0e4cdbe65ea890ba452b9bbba
+source-git-commit: 9160a68653999c35de32dd417b18ea8197ef446f
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -25,8 +25,10 @@ ht-degree: 0%
 >[!NOTE]
 >
 >預覽： 2026年1月29日
->生產快速發行： 2026年2月12日\
+>生產快速發行： 2026年2月12日
 >每個人都能使用生產： 2026年4月16日
+>
+>此功能已於2026年2月13日暫時從生產環境中移除。
 
 自訂表單中的新&#x200B;**RTF**&#x200B;欄位型別是強大的文字編輯器，除了粗體、斜體、底線、專案符號、編號、超連結和區塊引號等傳統選項外，還有上標和下標、標題和表格等格式選項。 字元限制仍為15,000。
 
