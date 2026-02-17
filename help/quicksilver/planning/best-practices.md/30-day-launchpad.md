@@ -5,12 +5,10 @@ feature: Workfront Planning
 role: Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-hidefromtoc: true
-hide: true
 exl-id: 90b0e019-1b42-4ab2-8b4c-69f85e4c4d78
-source-git-commit: 52bf41e146a11a4af4fbebfe5bb20a9765f2bc7b
+source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
 workflow-type: tm+mt
-source-wordcount: '1236'
+source-wordcount: '1237'
 ht-degree: 0%
 
 ---
@@ -122,7 +120,7 @@ ht-degree: 0%
 
 ## 啟動板的成功量度概觀
 
-我們建議您持續尋找成功標籤，並根據發現結果進行調整。
+建議您持續尋找成功標籤，並根據您的發現進行調整。
 
 尋找這些運作狀況的早期指標：
 

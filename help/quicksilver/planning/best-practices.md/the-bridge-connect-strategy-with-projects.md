@@ -5,10 +5,8 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-hidefromtoc: true
-hide: true
 exl-id: 567ab223-b282-4b98-9655-7b9766fba869
-source-git-commit: 52bf41e146a11a4af4fbebfe5bb20a9765f2bc7b
+source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
 workflow-type: tm+mt
 source-wordcount: '1090'
 ht-degree: 0%
@@ -97,7 +95,7 @@ ht-degree: 0%
 
 此方法需要Adobe Workfront Fusion的授權。
 
-如需詳細資訊，請參閱[設定和管理Workfront Fusion：文章索引](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc)。
+如需詳細資訊，請參閱[設定和管理Workfront Fusion：文章索引](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc)。
 
 * **使用提交觸發程式：**&#x200B;由於表單提供單一、乾淨的提交事件，因此可將其用作Fusion自動化的觸發程式。 Fusion案例可以偵測表單提交，並立即在Workfront中產生連結專案。
 

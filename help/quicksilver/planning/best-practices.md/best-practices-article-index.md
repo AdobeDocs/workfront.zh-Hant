@@ -5,22 +5,20 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-hidefromtoc: true
-hide: true
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+exl-id: 699bc34b-98c8-4620-9fdc-992d1ab9f501
+source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Workfront規劃最佳作法：文章索引
 
 在下列文章中，瞭解如何在您的組織中推出Adobe Workfront計畫的秘訣，其使用策略會優先考慮安全性、將干擾減至最少，並讓您快速獲勝。
 
-* [30天啟動台：推出您的策略首頁](/help/quicksilver/planning/best-practices.md/30-day-launchpad.md)
-* [成功架構：為您的行銷活動階層建模](/help/quicksilver/planning/best-practices.md/model-campaign-hierarchy.md)
-* [您錯過的行銷行事曆：沒有案頭，只要清楚就能了](/help/quicksilver/planning/best-practices.md/marketing-calendar.md)
-* [行動手冊：首次獲勝後受管理的規模調整](/help/quicksilver/planning/best-practices.md/playbook-how-to-scale.md)
-* [橋接器：將策略意圖連線到專案](/help/quicksilver/planning/best-practices.md/the-bridge-connect-strategy-with-projects.md)
+* [推出您的策略首頁：30天啟動台](/help/quicksilver/planning/best-practices.md/30-day-launchpad.md)
+* [架構您的成功：模型化您的行銷活動階層](/help/quicksilver/planning/best-practices.md/model-campaign-hierarchy.md)
+* [建立您的行銷行事曆：無平台，只需清晰明瞭](/help/quicksilver/planning/best-practices.md/marketing-calendar.md)
+* [建置橋樑：將策略意圖連結至專案](/help/quicksilver/planning/best-practices.md/the-bridge-connect-strategy-with-projects.md)
+* [將您的首次成功轉化為永續的動力：管理式擴展的行動手冊](/help/quicksilver/planning/best-practices.md/playbook-how-to-scale.md)
