@@ -6,9 +6,10 @@ description: 設定AI檢閱者的品牌
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: cd2a5560fdf446e8e971afcb640af38b4d301d40
+exl-id: b2788f3f-43d2-46f3-8502-bb833f8a0970
+source-git-commit: 07b401c70dfd209d13c34cf62844f334f3260af1
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '429'
 ht-degree: 5%
 
 ---
@@ -42,11 +43,17 @@ AI稽核者在稽核程式期間使用品牌指南來評估內容。 您可以�
    <td> <p>您必須是系統管理員。</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Admin Console許可權</td> 
-   <td> <p>您必須使用GenStudio Brand Manager。</p></td> 
+   <td role="rowheader">Admin Console許可權*</td> 
+   <td> <p>您必須使用GenStudio Brand Manager。</p>
+    <p>注意：若要選取GenStudio Brand Manager，您必須遵循<a href="https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/intro/configure-brand-permissions">指派品牌許可權</a>中概述的步驟。</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
+
+
+
+
 
 如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
@@ -61,6 +68,7 @@ AI稽核者在稽核程式期間使用品牌指南來評估內容。 您可以�
 * Adobe必須有已簽署的Adobe Gen AI合約檔案。
 如需簽署合約的詳細資訊，請參閱[簽署Adobe Gen AI合約](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)。
 
+
 ## 使用PDF建立品牌
 
 {{step-1-to-setup}}
@@ -71,7 +79,7 @@ AI稽核者在稽核程式期間使用品牌指南來評估內容。 您可以�
 1. 按一下「上傳PDF」以上傳品牌檔案。
    ![上傳品牌PDF](assets/upload-PDF.png)
 1. 按一下「**繼續**」。
-1. 上傳一或多個包含品牌准則的PDF檔案，然後按一下[新增品牌]。**&#x200B;**
+1. 上傳一或多個包含品牌准則的PDF檔案，然後按一下[新增品牌]。****
 1. 上傳檔案後，請檢閱擷取的品牌元素，以確保其符合您的品牌方針。
 
    >[!IMPORTANT]
