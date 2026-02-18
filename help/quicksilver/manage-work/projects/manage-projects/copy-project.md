@@ -7,9 +7,9 @@ author: Alina
 feature: Projects, Work Management
 role: User
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 93db334537b5ec12dc0c77d51f8b2d83d8348f3d
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '751'
 ht-degree: 7%
 
 ---
@@ -111,6 +111,10 @@ ht-degree: 7%
   </tr> 
  </tbody> 
 </table>-->
+
+## 考量事項
+
+* 複製專案時有5分鐘的處理限制。 如果專案附加了大量檔案且無法複製，則您可能需要移除一些檔案，然後重試。
 
 ## 複製單一專案
 
