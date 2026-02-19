@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 567ab223-b282-4b98-9655-7b9766fba869
-source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
+source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1156'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,15 @@ ht-degree: 0%
 
 # 建置橋樑：將策略意圖連結至專案
 
-{{planning-important-intro}}
+>[!IMPORTANT]
+>
+>本文資訊說明Adobe Workfront的額外功能Adobe Workfront Planning。
+>
+>貴組織必須有Workfront Planning Prime或更新版本的套件，才能支援本文建議的功能。
+>
+>如需存取Workfront Planning的需求清單，請參閱[Adobe Workfront Planning存取總覽](/help/quicksilver/planning/access/access-overview.md)。
+> 
+>如需Workfront Planning的一般資訊，請參閱[開始使用Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)。
 
 瞭解如何在Adobe Workfront Planning中的高層級計畫與Workfront中的日常執行之間建立策略對話串。 您可以使用連線，在策略和執行之間架設橋樑。
 
@@ -95,7 +103,7 @@ ht-degree: 0%
 
 此方法需要Adobe Workfront Fusion的授權。
 
-如需詳細資訊，請參閱[設定和管理Workfront Fusion：文章索引](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc)。
+如需詳細資訊，請參閱[設定和管理Workfront Fusion：文章索引](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc)。
 
 * **使用提交觸發程式：**&#x200B;由於表單提供單一、乾淨的提交事件，因此可將其用作Fusion自動化的觸發程式。 Fusion案例可以偵測表單提交，並立即在Workfront中產生連結專案。
 

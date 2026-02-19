@@ -6,14 +6,24 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 699bc34b-98c8-4620-9fdc-992d1ab9f501
-source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
+source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
 
 # Adobe Workfront規劃最佳作法：文章索引
+
+>[!IMPORTANT]
+>
+>本文資訊說明Adobe Workfront的額外功能Adobe Workfront Planning。
+>
+>貴組織必須有Workfront Planning Prime或更新版本的套件，才能支援本文建議的功能。
+>
+>如需存取Workfront Planning的需求清單，請參閱[Adobe Workfront Planning存取總覽](/help/quicksilver/planning/access/access-overview.md)。
+> 
+>如需Workfront Planning的一般資訊，請參閱[開始使用Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)。
 
 在下列文章中，瞭解如何在您的組織中推出Adobe Workfront計畫的秘訣，其使用策略會優先考慮安全性、將干擾減至最少，並讓您快速獲勝。
 

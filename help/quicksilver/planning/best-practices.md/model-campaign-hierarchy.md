@@ -6,9 +6,9 @@ role: Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 02e3b55f-9188-42bf-8d0b-c9fed86c63c4
-source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
+source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1537'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,15 @@ ht-degree: 0%
 
 <!--see the file again for additional comments from Seth and others-->
 
-{{planning-important-intro}}
+>[!IMPORTANT]
+>
+>本文資訊說明Adobe Workfront的額外功能Adobe Workfront Planning。
+>
+>貴組織必須有Workfront Planning Prime或更新版本的套件，才能支援本文建議的功能。
+>
+>如需存取Workfront Planning的需求清單，請參閱[Adobe Workfront Planning存取總覽](/help/quicksilver/planning/access/access-overview.md)。
+> 
+>如需Workfront Planning的一般資訊，請參閱[開始使用Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)。
 
 瞭解如何在Adobe Workfront Planning中使用重心和多工作區架構，將複雜的業務流程轉換為可擴充、受管理的行銷活動階層。
 

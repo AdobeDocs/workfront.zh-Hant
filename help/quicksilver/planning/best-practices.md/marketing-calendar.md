@@ -6,16 +6,24 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: e95ca8a2-6261-4f04-8c7c-1a0bfb1925f3
-source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
+source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1080'
 ht-degree: 0%
 
 ---
 
 # 建立您的行銷行事曆：無平台，只需清晰明瞭
 
-{{planning-important-intro}}
+>[!IMPORTANT]
+>
+>本文資訊說明Adobe Workfront的額外功能Adobe Workfront Planning。
+>
+>貴組織必須有Workfront Planning Prime或更新版本的套件，才能支援本文建議的功能。
+>
+>如需存取Workfront Planning的需求清單，請參閱[Adobe Workfront Planning存取總覽](/help/quicksilver/planning/access/access-overview.md)。
+> 
+>如需Workfront Planning的一般資訊，請參閱[開始使用Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)。
 
 每週，行銷團隊都會損失一整天的報表時間，而不是策略或創意工作。
 

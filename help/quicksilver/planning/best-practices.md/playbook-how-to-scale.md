@@ -6,16 +6,24 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 54df36b3-01a3-4fd3-b2d3-64ffb2fe5918
-source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
+source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
 workflow-type: tm+mt
-source-wordcount: '2483'
+source-wordcount: '2549'
 ht-degree: 0%
 
 ---
 
 # 將您的首次成功轉化為永續的動力：管理式擴展的行動手冊
 
-{{planning-important-intro}}
+>[!IMPORTANT]
+>
+>本文資訊說明Adobe Workfront的額外功能Adobe Workfront Planning。
+>
+>貴組織必須有Workfront Planning Prime或更新版本的套件，才能支援本文建議的功能。
+>
+>如需存取Workfront Planning的需求清單，請參閱[Adobe Workfront Planning存取總覽](/help/quicksilver/planning/access/access-overview.md)。
+> 
+>如需Workfront Planning的一般資訊，請參閱[開始使用Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)。
 
 
 成功確立您的Adobe Workfront Planning使用案例是突破性時刻：需求激增、新團隊想要存取權，而領導階層看到了整個企業可見度的潛力。
