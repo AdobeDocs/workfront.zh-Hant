@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
-source-git-commit: b2f1bbfbbec23a5400552eb0f989e0a0dc58413c
+source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 0%
@@ -93,6 +93,8 @@ ht-degree: 0%
 
    「連線的記錄」頁面會顯示清單檢視中連線至記錄的專案。
 
+   <!--add new screen shot when they release Row colors/ special formatting for rows-->
+
    在清單檢視中![連線記錄頁面上的專案](assets/projects-on-connected-records-page-list-view.png)
 
 1. （選擇性）執行下列任一項作業來修改清單檢視：
@@ -108,10 +110,12 @@ ht-degree: 0%
 
       >[!NOTE]
       >
-      >您必須擁有檢視的管理許可權才能編輯、共用或刪除檢視。
+      >* 您必須擁有檢視的管理許可權才能編輯、共用或刪除檢視。
       >
-      >您無法修改系統檢視。
+      >* 您無法修改系統檢視。
       >
+      <!--* <span class="preview">You can reset a view that was shared with you after you modified it to restore its original preferences, or you can copy it with your changes and share the copy. For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
+        -->
    1. 按一下&#x200B;**篩選器**&#x200B;圖示![篩選器圖示](assets/filter-icon.png)將篩選器新增至檢視。 結果會立即在清單中篩選。 您無法儲存並命名篩選器。 日後存取頁面時會記住篩選器，這些篩選器也是共用檢視的一部分。
    1. 按一下&#x200B;**欄**&#x200B;圖示![欄圖示](assets/columns-icon.png)以選取要在檢視中顯示或隱藏的欄。
    1. 暫留在欄名稱上，然後按一下欄名稱左側的向下箭頭，然後按一下下列其中一項：
@@ -123,7 +127,30 @@ ht-degree: 0%
 
       您只能將現有欄位新增到清單檢視。
 您不能移除在第一欄顯示的清單檢視中的主要欄位。
+
+
+   <!--
+    1. <span class="preview">Click **Row colors** <!-insert icon and edit the name of the icon if they changed it->. The **Format** box opens. <!-change the name of the box when they update it-></span>
+        <span class="preview">Do the following: </span>
+        <div class="preview">
+        1. Define the formatting conditions in the **If** area by clicking **Add condition**, then select a field you want to format by and choose a field value. 
+            >[!TIP]
+            >
+            >Only field visible in the list view are available for conditional formatting.
+        1. (Optional) Click **Add condition** in the If area to add more conditions. 
+        1. Click the **Or** connector between conditions to change to **And**. **Or** is the default connector.  
+        1. In the **Format** area, select a field to indicate which column will be formatted. <!-edit this area, if it changes names???->
+        1. Click on the color circle to expand and choose another color.
+        1. Turn on the **Apply to row** setting to apply the formatting to the entire row that meets the conditions. 
+        1. (Optional) Click **Clear all** to remove all formatting.
+            The formatting is applies immediately.
+        1. Click outside the **Format** box to close it. 
+            This returns you to the list view. There is a blue dot next to the **Row colors** icon to indicate that the view has special formatting applied. <!-might need to edit the icon name and get a screen shot of the icon with the dot and insert it here->
+        </div>
+    -->
+
 1. （可選）在清單右上角的搜尋方塊中新增關鍵字，以搜尋專案。
+
 
    符合搜尋字詞的專案會在清單中反白顯示。
 1. （選擇性）若要新增更多專案至清單，並自動將其連線至選取的記錄，請執行下列其中一項作業：

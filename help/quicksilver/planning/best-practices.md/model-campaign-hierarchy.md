@@ -6,9 +6,9 @@ role: Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 02e3b55f-9188-42bf-8d0b-c9fed86c63c4
-source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
+source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
 workflow-type: tm+mt
-source-wordcount: '1537'
+source-wordcount: '1541'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,11 @@ ht-degree: 0%
 
 您必須先為全域分類建立一個集中式工作區，以定義組織中的每個人必須瞭解的主要概念。 例如，在中央工作區中建立以下記錄型別：品牌、地區、產品、角色。
 
-如需詳細資訊，請參閱[建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md)。
+如需詳細資訊，請參閱：
+
+* [建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md)
+
+* [跨工作區記錄型別總覽](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
 
 在建立分類時建立下列專案：
 

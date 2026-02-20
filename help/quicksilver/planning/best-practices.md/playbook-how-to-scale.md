@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 54df36b3-01a3-4fd3-b2d3-64ffb2fe5918
-source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
+source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
 workflow-type: tm+mt
-source-wordcount: '2549'
+source-wordcount: '2574'
 ht-degree: 0%
 
 ---
@@ -91,6 +91,8 @@ ht-degree: 0%
 
 * **規則**：這些欄位是共用且強制的。
 
+如需詳細資訊，請參閱[跨工作區記錄型別概觀](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)。
+
 ### 當地遊樂場（或「輻條」）
 
 以下是當地遊樂場的特點
@@ -171,6 +173,8 @@ Managed Scaling的目標是透過標準化程度足以提供可見度，但不�
 * **等級2：模式識別**：管理員通知團隊B和C正在使用或要求類似的欄位。
 
 * **第3級：企業標準化**：管理員會建立該欄位的單一標準化版本，作為全域分類Workspace中的記錄型別，並將其聯合發佈給團隊。
+
+  如需詳細資訊，請參閱[跨工作區記錄型別概觀](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)。
 
 ### 如何淘汰欄位
 
@@ -334,6 +338,8 @@ Managed Scaling的目標是透過標準化程度足以提供可見度，但不�
 * [ ] **授予全域可見性**：在第1天授予他們相關主要工作區和全域分類工作區的唯讀存取權。
 
 * [ ] **建立移交**：其工作如何饋送相關的主要工作區？ 例如，他們的工作可能會透過全域記錄型別或特定查詢欄位，注入到相關的主要工作區。
+
+  如需全域記錄型別的相關資訊，請參閱[跨工作區記錄型別概觀](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)。
 
 <!--original content: 
 

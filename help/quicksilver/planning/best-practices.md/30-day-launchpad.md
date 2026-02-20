@@ -6,9 +6,9 @@ role: Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 90b0e019-1b42-4ab2-8b4c-69f85e4c4d78
-source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
+source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1310'
 ht-degree: 0%
 
 ---
@@ -79,6 +79,8 @@ ht-degree: 0%
 透過這種團隊優先的架構，您可以：
 
 * **設計中心以支援輻條：**&#x200B;您可以將全域分類工作區專注在對您的試驗團隊最重要的物件（其特定的品牌或產品）上。 這鞏固了企業治理和團隊自治之間的合作握手，同時使設計工作保持在可控範圍內。
+
+  如需詳細資訊，請參閱[跨工作區記錄型別概觀](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)。
 
 * **充當啟用者，而不是守護者：**&#x200B;將您的角色從規則設定轉換為功能建置。 與團隊合作以建構規劃環境。
 
