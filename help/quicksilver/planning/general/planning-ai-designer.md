@@ -6,7 +6,7 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 exl-id: ba7a4b04-5faa-41b6-86d0-4d0ce946ad1e
-source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
+source-git-commit: 11b72c797203dcf364281665bc60cf67d25c8b5d
 workflow-type: tm+mt
 source-wordcount: '1470'
 ht-degree: 0%
@@ -105,7 +105,7 @@ ht-degree: 0%
 
    * Workfront必須將AI助理提供給您的組織使用。
 
-     如需詳細資訊，請參閱[&#x200B; AI助理的必要條件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
+     如需詳細資訊，請參閱[ AI助理的必要條件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
    * Workfront讓您的AI助理可以使用後，Workfront的主要管理員就可以存取它。
 
      如需詳細資訊，請參閱[設定您系統的基本資訊](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md)。
@@ -136,6 +136,8 @@ ht-degree: 0%
 您可以使用Planning Designer或AI助理來執行下列任一動作：
 
 * 建立及設定工作區
+
+<!--On March 2: * Edit workspaces-->
 
 * 建立記錄型別，包括定義及新增全域記錄型別至工作區
 
@@ -178,7 +180,7 @@ ht-degree: 0%
 
    ![Design with AI按鈕（在Workspaces頁面上）](assets/design-with-ai-button-on-workspaces-page.png)
 
-1. 按一下&#x200B;**使用AI建立**。<!--update this when they change it-->
+1. 按一下&#x200B;**使用AI建立**。<!--update this when they change it to Generate with AI-->
 
    **計畫Designer**&#x200B;視窗隨即開啟。<!--remove the Beta tag here when this removes from Beta-->
 
@@ -225,6 +227,12 @@ ht-degree: 0%
 1. 按一下&#x200B;**在新標籤中開啟工作區** ![在新標籤中開啟工作區](assets/open-workspace-on-new-tab-icon.png)，以在新標籤中開啟您正在更新的工作區。
 1. 按一下&#x200B;**關閉**&#x200B;圖示&#x200B;**X**&#x200B;以關閉Planning Designer並開啟「工作區」區域。
 1. 開啟您使用Planning Designer編輯的工作區，然後對其物件進行進一步的變更。
+
+<!-- for March 2 -- replace the last step with this: 
+1. (Optional) To edit a workspace, do one of the following:
+
+    * Open the workspace and manually make changes to it. For information, see [Edit workspaces](/help/quicksilver/planning/architecture/edit-workspaces.md). 
+    * Click **Edit with AI**. This opens the Planning Designer. Repeat the steps above to use AI and make further changes to the workspace.-->
 
 ## 關閉貴組織的Planing Designer
 

@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
-source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
+source-git-commit: 11b72c797203dcf364281665bc60cf67d25c8b5d
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 0%
@@ -93,7 +93,7 @@ ht-degree: 0%
 
    「連線的記錄」頁面會顯示清單檢視中連線至記錄的專案。
 
-   <!--add new screen shot when they release Row colors/ special formatting for rows-->
+   <!--add new screen shot when they release Conditional formatting MVP -->
 
    在清單檢視中![連線記錄頁面上的專案](assets/projects-on-connected-records-page-list-view.png)
 
@@ -114,7 +114,7 @@ ht-degree: 0%
       >
       >* 您無法修改系統檢視。
       >
-      <!--* <span class="preview">You can reset a view that was shared with you after you modified it to restore its original preferences, or you can copy it with your changes and share the copy. For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
+      <!--For Feb 26 and add the Preview disclaimer at the top: * <span class="preview">You can reset a view that was shared with you after you modified it to restore its original preferences, or you can copy it with your changes and share the copy. For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
         -->
    1. 按一下&#x200B;**篩選器**&#x200B;圖示![篩選器圖示](assets/filter-icon.png)將篩選器新增至檢視。 結果會立即在清單中篩選。 您無法儲存並命名篩選器。 日後存取頁面時會記住篩選器，這些篩選器也是共用檢視的一部分。
    1. 按一下&#x200B;**欄**&#x200B;圖示![欄圖示](assets/columns-icon.png)以選取要在檢視中顯示或隱藏的欄。
@@ -129,23 +129,28 @@ ht-degree: 0%
 您不能移除在第一欄顯示的清單檢視中的主要欄位。
 
 
-   <!--
-    1. <span class="preview">Click **Row colors** <!-insert icon and edit the name of the icon if they changed it->. The **Format** box opens. <!-change the name of the box when they update it-></span>
+   <!--For Feb 26: make available at release and fix the formatting - this will be broken, if not: 
+    1. <span class="preview">Click the **Format cells** icon ![Format cells icon](assets/format-cells-icon.png). The **Format** box opens. (*********change the name of the box when they update it***********)</span>
         <span class="preview">Do the following: </span>
         <div class="preview">
-        1. Define the formatting conditions in the **If** area by clicking **Add condition**, then select a field you want to format by and choose a field value. 
+        1. In the **If** line, click **Add condition**, then select a field you want to format by and choose a field value. 
             >[!TIP]
             >
-            >Only field visible in the list view are available for conditional formatting.
-        1. (Optional) Click **Add condition** in the If area to add more conditions. 
-        1. Click the **Or** connector between conditions to change to **And**. **Or** is the default connector.  
-        1. In the **Format** area, select a field to indicate which column will be formatted. <!-edit this area, if it changes names???->
-        1. Click on the color circle to expand and choose another color.
-        1. Turn on the **Apply to row** setting to apply the formatting to the entire row that meets the conditions. 
+            >Only fields visible in the list view are available for conditional formatting.
+        1. (Optional) Click **Add condition** in the **If** line to add more conditions to same rule. 
+            >[!TIP]
+            >
+            >You can add up to 10 conditions in a conditioning rule and you can have up to 20 rules for a field.
+        1. Click the **Or** connector between conditions to change to **And** and to indicate that multiple conditions must be met at the same time. **Or** is the default connector.  
+        1. In the **Format** line, select a field to indicate which column will be formatted. (*******edit this area, if it changes names??***********)
+        1. (Optional) Click the **color circle** icon ![Color circle icon](assets/color-circle.png) next to the field selected, to expand it and choose another color.
+        1. Turn on the **Apply to row** setting to apply the formatting to the entire row of the field that meets the conditions. 
+        1. (Optional) Click **Add condition** in the **Format** box to add another rule for another field and the repeat the steps above. 
         1. (Optional) Click **Clear all** to remove all formatting.
-            The formatting is applies immediately.
         1. Click outside the **Format** box to close it. 
-            This returns you to the list view. There is a blue dot next to the **Row colors** icon to indicate that the view has special formatting applied. <!-might need to edit the icon name and get a screen shot of the icon with the dot and insert it here->
+            This returns you to the list view. 
+            The formatting is applied immediately to the list view.
+            There is a blue dot next to the **Format cells** icon to indicate that the view has special formatting applied.
         </div>
     -->
 
