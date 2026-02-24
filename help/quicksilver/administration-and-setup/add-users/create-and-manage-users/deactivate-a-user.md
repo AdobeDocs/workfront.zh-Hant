@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 793419db3e9552e2e425aec26300b8c2b4ab8583
 workflow-type: tm+mt
-source-wordcount: '1081'
-ht-degree: 2%
+source-wordcount: '1133'
+ht-degree: 4%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 2%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/tw/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -49,18 +49,20 @@ ht-degree: 2%
 >* 在Workfront中停用使用者時，會移除使用者對Workfront和數位校訂的授權。 此外，無法再為該使用者指派工作。 當使用者停用時，該使用者的Workfront授權和校訂授權將可供其他使用者使用。 已停用使用者設定檔中的所有其他資訊維持不變。
 >
 >* 在Workfront中停用使用者時，不會從Adobe Admin Console的Workfront產品設定檔中移除該使用者。 如需詳細資訊，請參閱[刪除使用者](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)。
+>
+>* 如果使用者屬於Admin Console使用者群組，且產品設定檔已新增至一或多個這些使用者群組，則從Workfront停用使用者並不會實際將他們從產品中移除。 必須從Admin Console的使用者群組中移除使用者。
 
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
+   <td>Adobe Workfront 封裝</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
