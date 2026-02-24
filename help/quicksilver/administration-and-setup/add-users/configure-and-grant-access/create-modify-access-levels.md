@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+source-git-commit: 0f2923851230e830eb647d422f2862a0c5d5472b
 workflow-type: tm+mt
-source-wordcount: '1505'
-ht-degree: 6%
+source-wordcount: '1468'
+ht-degree: 7%
 
 ---
 
@@ -30,16 +30,16 @@ ht-degree: 6%
 >
 >我們強烈建議您維持內建的存取層級不變，以便在設定使用者後參考。 若要自訂存取層級，請複製預設存取層級並修改副本。 您可以對每個存取層級（系統管理員和外部使用者除外）執行此操作。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
@@ -63,21 +63,11 @@ ht-degree: 6%
 {{step-1-to-setup}}
 
 1. 按一下左側面板中的&#x200B;**存取層級**。
-1. &#x200B;
-   * 在生產環境中：
-選取您要複製及自訂的存取層級，然後按一下[複製]。**&#x200B;**
+1. 選取您要複製與自訂的存取層級，然後按一下&#x200B;**複製**&#x200B;圖示![復製圖示](assets/copy-icon.png)。
 
-     或
+   或
 
-     如果您正在編輯現有的存取層級（您先前複製過的），請按一下其名稱。
-
-   * <span class="preview">在預覽環境中：</span>
-
-     <span class="preview">選取您要複製與自訂的存取層級，然後按一下&#x200B;**複製**&#x200B;圖示![復製圖示](assets/copy-icon.png)。</span>
-
-     <span class="preview">或</span>
-
-     <span class="preview">如果您正在編輯現有的存取層級，請按一下該存取層級左側的方塊來選取存取層級，然後按一下&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)。</span>
+   如果您正在編輯現有的存取層級，請按一下該存取層級左側的方塊來選取存取層級，然後按一下&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)。
 
 1. 在顯示的方塊中，執行下列任一項作業以開始設定自訂存取層級：
 
@@ -86,7 +76,7 @@ ht-degree: 6%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">姓名</td> 
+      <td role="rowheader">名稱</td> 
       <td> <p>輸入存取層級的名稱。 </p> <p>如果您剛複製存取層級來建立新存取層級，預設名稱為存取層級名稱（複製），其中存取層級名稱是您複製的存取層級。</p> <p><strong>提示</strong>：建議您在副本名稱中加入存取層級的原始名稱。 例如，在ACME公司，「標準」存取層級的復本可能命名為ACME Standard。</p> </td> 
      </tr> 
      <tr> 
