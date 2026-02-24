@@ -5,16 +5,24 @@ title: 在請求區域中建立和管理檢視
 description: 如果您使用新的請求體驗，您可以建立和儲存請求區域的檢視。
 author: Becky
 feature: Work Management
-source-git-commit: 9e7b94201705ce96dbc38fc6d9246461e4d4d7ea
+exl-id: ed066075-6411-4350-8b39-f21dc4fa96c9
+source-git-commit: 8db8382d63d06c23f93a74a326ddb0e1227f44c8
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '689'
 ht-degree: 3%
 
 ---
 
+
 # 在請求區域中建立和管理檢視
 
-如果您使用新的請求體驗，您可以建立和儲存請求區域的檢視。 這些檢視包括篩選器和欄排列。
+<!--
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+
+-->
+
+如果您使用新的請求體驗，您可以建立和儲存請求區域的檢視。 這些檢視包括篩選器和欄排列。<!--<span class="preview"> and groupings.</span> -->
 
 您可以在Workfront的要求區域中建立和管理檢視。
 
@@ -58,7 +66,7 @@ ht-degree: 3%
 
 +++
 
-## 在請求區域中建立檢視
+## 建立請求檢視
 
 您可以在Workfront的要求區域中建立檢視。
 
@@ -70,10 +78,10 @@ ht-degree: 3%
 
    ![新檢視](assets/create-new-view.png)
 
-1. 輸入新檢視的名稱，然後按一下[建立]。**&#x200B;**
+1. 輸入新檢視的名稱，然後按一下[建立]。****
 1. 繼續[在要求區域](#edit-a-view-in-the-requests-area)編輯檢視。
 
-## 在請求區域中編輯檢視
+## 編輯請求的檢視
 
 您可以編輯現有檢視，包括您剛建立的檢視。
 
@@ -106,10 +114,14 @@ ht-degree: 3%
 
    您也可以依已新增至檢視的任何自訂欄位進行篩選。
 
-   您可以有多個&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;加入的篩選器。
+   您可以有多個&#x200B;**And**&#x200B;或&#x200B;**Or**加入的篩選器。
 當您新增篩選條件時，要求清單會自動篩選。
 
 
+<!--
+1. <Span class="preview">(Optional) Click **Group** and select the column that you want to group by.</span>
+
+-->
 
 >[!IMPORTANT]
 >
@@ -136,4 +148,3 @@ Workfront管理員可以將新檢視新增至版面配置範本。
 1. 選取「**分享**」。
 1. 在開啟的對話方塊中，輸入您要與其共用檢視的使用者、專案團隊或群組名稱，然後在它們出現時從清單中選取它們。
 1. 按一下「**儲存**」。
-
