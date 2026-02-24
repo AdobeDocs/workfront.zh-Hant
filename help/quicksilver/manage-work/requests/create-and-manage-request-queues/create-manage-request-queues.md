@@ -10,7 +10,7 @@ topic: Collaboration
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0aaa54e2-c887-425e-bdd6-6bbc60d21319
-source-git-commit: 4a0cb96f5888819747f63472712f91c685621cf1
+source-git-commit: a5827c25cf3a10a8664cabbd2f23bdc635ab8041
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 0%
@@ -28,6 +28,4 @@ ht-degree: 0%
 * [建立佇列主題](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
 * [建立路由規則](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
 
-  <!--
-  <li><a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref" xrefformat="{para}">Overview of the Queue Details tab in a project</a> </li>
-  -->
+
