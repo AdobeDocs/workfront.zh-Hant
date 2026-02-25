@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 0fd415767680d877c9dd1de448f7903e6616d155
+source-git-commit: 159c3b4a3627e29123afd96115e965d3bba8329c
 workflow-type: tm+mt
-source-wordcount: '3097'
-ht-degree: 3%
+source-wordcount: '3387'
+ht-degree: 5%
 
 ---
 
@@ -58,21 +58,21 @@ ht-degree: 3%
 * 核准階段參與者
 * 指派
 * 公司
-* 控制面板
+* 儀表板
 * 文件
 * 文件版本
 * 費用
 * 欄位
-* Hour
+* 時數
 * 問題
 * 備註
-* 產品組合
+* 專案組合
 * 方案
 * 專案
-* 校樣核准
+* 校訂核准
 * 記錄
 * 記錄類型
-* 報表
+* 報告
 * 人員配置計劃
 * 人員配置計畫引數值
 * 人員配置計劃資源
@@ -100,7 +100,7 @@ ht-degree: 3%
 
 ## 避免讓事件訂閱超載
 
-事件訂閱服務旨在為所有使用者提供可靠的事件傳送。 為確保此，已實施保護措施，以防止單一使用者產生過多事件，進而導致所有使用者出現潛在的服務品質問題。 因此，在短時間內以高頻率產生過多事件的使用者可能會遇到沙箱和事件傳送延遲。
+事件訂閱服務旨在為所有使用者提供可靠的事件傳送。 為了確保這一點，已經實施了防護措施，以防止單一使用者產生過多的事件，從而可能對所有使用者造成服務品質問題。因此，在短時間內以高頻率產生過多事件的使用者，可能會經歷沙箱化和事件傳遞延遲的情況。
 
 ## 形成訂閱資源
 
@@ -145,7 +145,7 @@ ht-degree: 3%
         <td scope="col"><p>CMPY</p></td> 
        </tr> 
        <tr> 
-        <td scope="col">控制面板</td> 
+        <td scope="col">儀表板</td> 
         <td scope="col">PTLTAB</td> 
        </tr> 
        <tr> 
@@ -165,7 +165,7 @@ ht-degree: 3%
         <td scope="col"><p>欄位</p></td> 
        </tr> 
       <tr> 
-        <td scope="col"><p>Hour</p></td> 
+        <td scope="col"><p>時數</p></td> 
         <td scope="col">HOUR</td> 
        </tr> 
        <tr> 
@@ -177,7 +177,7 @@ ht-degree: 3%
         <td scope="col">附註</td> 
        </tr> 
        <tr> 
-        <td scope="col"><p>產品組合</p></td> 
+        <td scope="col"><p>專案組合</p></td> 
         <td scope="col"><p>連線埠</p></td> 
        </tr> 
        <tr> 
@@ -189,7 +189,7 @@ ht-degree: 3%
         <td scope="col"><p>專案</p></td> 
        </tr> 
        <tr> 
-        <td scope="col"><p>校樣核准</p></td> 
+        <td scope="col"><p>校訂核准</p></td> 
         <td scope="col"><p>預設</p></td> 
        </tr> 
        <tr> 
@@ -201,7 +201,7 @@ ht-degree: 3%
         <td scope="col"><p>RECORD_TYPE</p></td> 
        </tr> 
        <tr> 
-        <td scope="col"><p>報表</p></td> 
+        <td scope="col"><p>報告</p></td> 
         <td scope="col"><p>PTLSEC</p></td> 
        </tr> 
        <tr> 
@@ -287,7 +287,7 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
  <col> 
  <thead> 
   <tr> 
-   <th> <p>頁首名稱</p> </th> 
+   <th> <p>標頭名稱</p> </th> 
    <th> <p>標頭值</p> </th> 
   </tr> 
  </thead> 
@@ -375,7 +375,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
  <col> 
  <thead> 
   <tr> 
-   <th> <p>頁首名稱</p> </th> 
+   <th> <p>標頭名稱</p> </th> 
    <th> <p>標頭值</p> </th> 
   </tr> 
  </thead> 
@@ -457,7 +457,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
  <col> 
  <thead> 
   <tr> 
-   <th> <p>頁首名稱</p> </th> 
+   <th> <p>標頭名稱</p> </th> 
    <th> <p>標頭值</p> </th> 
   </tr> 
  </thead> 
@@ -877,7 +877,7 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 
 ### 使用巢狀篩選器
 
-事件訂閱支援使用巢狀欄位名稱來篩選事件的巢狀欄位。 例如，若要篩選`newState.data.customField1 = 'myCustomeFieldValue'`的訊息，可以建立下列具有篩選器的訂閱：
+事件訂閱支援使用巢狀欄位名稱來篩選事件的巢狀欄位。 例如，若要篩選`newState.data.customField1 = 'myCustomFieldValue'`的訊息，可以建立下列具有篩選器的訂閱：
 
 ```
 {
@@ -918,6 +918,103 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 ],
 "filterConnector": 'AND'
 ```
+
+### 使用篩選器群組（組合篩選器）
+
+事件訂閱支援篩選器群組以及標準篩選器，以支援巢狀邏輯條件。
+
+篩選群組可讓您在事件訂閱篩選器中建立巢狀邏輯條件(AND/OR)。
+
+每個篩選器群組可以有：
+
+* 自己的聯結器： `AND`或`OR`
+* 多個篩選器，每個篩選器遵循與獨立篩選器相同的語法和行為
+
+群組內的所有篩選器都支援：
+
+* 比較運運算元： `eq`、`ne`、`gt`、`gte`、`lt`、`lte`、`contains`、`notContains`、`containsOnly`、`changed`
+* 狀態選項： `newState`， `oldState`
+* 欄位目標定位：任何有效的物件欄位名稱
+
+群組必須至少包含2個篩選器
+
+```
+{
+  "objCode": "TASK",
+  "eventType": "UPDATE",
+  "authToken": "token",
+  "url": "https://domain-for-subscription.com/API/endpoint/UpdatedTasks",
+  "filters": [
+    {
+      "fieldName": "percentComplete",
+      "fieldValue": "100",
+      "comparison": "lt"
+    },
+    {
+      "type": "group",
+      "connector": "OR",
+      "filters": [
+        {
+          "fieldName": "status",
+          "fieldValue": "CUR",
+          "comparison": "eq"
+        },
+        {
+          "fieldName": "priority",
+          "fieldValue": "1",
+          "comparison": "eq"
+        }
+      ]
+    }
+  ],
+  "filterConnector": "AND"
+}
+```
+
+此範例顯示：
+
+
+* 最上層篩選（群組之外）：
+
+  { &quot;`fieldName`&quot;： &quot;`percentComplete`&quot;， &quot;`fieldValue`&quot;： &quot;`100`&quot;， &quot;`comparison`&quot;： &quot;`lt`&quot; }
+
+  此篩選器會檢查更新任務的percentComplete欄位是否小於100。
+
+* 篩選器群組（具有`OR`的巢狀篩選器）：
+
+  { &quot;`type`&quot;： &quot;`group`&quot;， &quot;`connector`&quot;： &quot;`OR`&quot;， &quot;`filters`&quot;： [{ &quot;`fieldName`&quot;： &quot;`status`&quot;， &quot;`fieldValue`&quot;： &quot;`CUR`&quot;， &quot;`comparison`&quot;： &quot;`eq`&quot; }， { &quot;`fieldName`&quot;： &quot;`priority`&quot;， &quot;`fieldValue`&quot;： &quot;`1`&quot;， &quot;`comparison`&quot;： &quot;`eq`&quot; }] }
+
+  此群組會評估兩個內部篩選器：
+
+   * 第一個檢查任務狀態是否等於「CUR」（目前）。
+
+   * 第二個會檢查優先順序是否等於「1」（高優先順序）。
+
+  由於聯結器為「OR」，因此如果任一條件為true，則此群組會通過。
+
+* 頂層聯結器(filterConnector： `AND`)：
+
+  最上層篩選器之間的最外層聯結器為`AND`。
+
+  這表示最上層篩選器和群組都必須通過，事件才能相符。
+
+* 訂閱會在下列情況觸發：
+
+  percentComplete小於100
+
+  且
+
+  狀態是「CUR」或優先順序等於「1」。
+
+#### 效能與限制
+
+為確保一致的效能與可維護性：
+
+* 每個訂閱最多可支援10個篩選器群組（每個群組包含多個篩選器）。
+* 每個篩選器群組最多可包含5個篩選器，以防止在事件處理期間發生潛在效能降低情形。
+* 雖然支援最多10個篩選器群組（每個都有5個篩選器），但請注意，具有複雜篩選器邏輯的大量作用中訂閱可能會導致事件評估期間的延遲。
+
+如果您發現自己超越了這些限制，請考慮簡化您的邏輯或將訂閱分割成多個較小的邏輯。
 
 ### 使用聯結器欄位
 
@@ -1048,7 +1145,7 @@ DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRI
  <col> 
  <thead> 
   <tr> 
-   <th> <p>頁首名稱</p> </th> 
+   <th> <p>標頭名稱</p> </th> 
    <th> <p>標頭值</p> </th> 
   </tr> 
  </thead> 
@@ -1295,7 +1392,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
  <col> 
  <thead> 
   <tr> 
-   <th> <p>頁首名稱</p> </th> 
+   <th> <p>標頭名稱</p> </th> 
    <th> <p>標頭值</p> </th> 
   </tr> 
  </thead> 

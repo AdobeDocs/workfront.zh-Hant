@@ -5,16 +5,18 @@ description: 您可以控制組織中哪些存取層級有權存取AI助理。
 author: Becky
 feature: Get Started with Workfront
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e8e10f02f77f6c1df9f0af380eb16cc6bbc3b5d1
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 9%
+source-wordcount: '308'
+ht-degree: 6%
 
 ---
 
 # 啟用或停用AI助理
 
 身為Workfront管理員，您可以控制組織中哪些使用者已啟用AI助理。 這項作業可透過存取層級來管理。
+
+您必須先為組織啟用AI助理，才能為存取層級啟用。
 
 ## 存取權要求
 
@@ -44,7 +46,22 @@ ht-degree: 9%
 
 +++
 
-## 啟用或停用Workfront中的AI助理
+## 為您的組織啟用或停用AI助理
+
+若要為貴組織啟用AI助理：
+
+{{step-1-to-setup}}
+
+1. 在左側導覽中選取&#x200B;**系統**，然後選取&#x200B;**偏好設定**。
+1. 向下捲動至&#x200B;**AI偏好設定**&#x200B;區段。
+1. 開啟&#x200B;**啟用AI**&#x200B;切換開關。
+
+>[!IMPORTANT]
+>
+>在使用AI Assistant之前，您必須與Adobe就檔案問題簽署了Gen AI合約。
+>如需Gen AI合約的詳細資訊，請參閱Workfront的AI助理一文中的[簽署Adobe Gen AI合約](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)。
+
+## 啟用或停用存取層級的AI助理
 
 若要為指定的存取層級啟用AI助理：
 
