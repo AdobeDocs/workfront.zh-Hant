@@ -4,9 +4,10 @@ description: 2026年第一季度發行時間範圍內的其他增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d3db97d2b36bdba955d8cbf6a9bd784dff5a440c
+exl-id: 42fe3f53-6f83-4769-aaa6-953875cdfb7d
+source-git-commit: 58a04a3c2eb9d0db195f89391e607c3061f2d784
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
@@ -16,6 +17,12 @@ ht-degree: 0%
 本頁說明了2026年第一季度版本對預覽環境所做的增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2026年第一季發行週期目前可用的所有變更清單，請參閱[2026年第一季發行概觀](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
+
+## 活動訂閱現在支援篩選失敗
+
+事件訂閱現在支援篩選器群組以及獨立篩選器，以支援巢狀邏輯條件。 公用檔案需要更新以反映新的變更。
+
+如需詳細資訊，請參閱文章事件訂閱API中的[使用篩選器群組](/help/quicksilver/wf-api/general/event-subs-api.md#using-filter-groups)。
 
 
 ## 多選欄位的選擇限制

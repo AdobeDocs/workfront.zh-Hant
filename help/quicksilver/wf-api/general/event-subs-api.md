@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 159c3b4a3627e29123afd96115e965d3bba8329c
+source-git-commit: 3afa0fbfb8a82a7dc1a2e9c65d04aa1be7b6f1f8
 workflow-type: tm+mt
-source-wordcount: '3387'
+source-wordcount: '3190'
 ht-degree: 5%
 
 ---
@@ -919,92 +919,6 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 "filterConnector": 'AND'
 ```
 
-### 使用篩選器群組（組合篩選器）
-
-事件訂閱支援篩選器群組以及標準篩選器，以支援巢狀邏輯條件。
-
-篩選群組可讓您在事件訂閱篩選器中建立巢狀邏輯條件(AND/OR)。
-
-每個篩選器群組可以有：
-
-* 自己的聯結器： `AND`或`OR`
-* 多個篩選器，每個篩選器遵循與獨立篩選器相同的語法和行為
-
-群組內的所有篩選器都支援：
-
-* 比較運運算元： `eq`、`ne`、`gt`、`gte`、`lt`、`lte`、`contains`、`notContains`、`containsOnly`、`changed`
-* 狀態選項： `newState`， `oldState`
-* 欄位目標定位：任何有效的物件欄位名稱
-
-群組必須至少包含2個篩選器
-
-```
-{
-  "objCode": "TASK",
-  "eventType": "UPDATE",
-  "authToken": "token",
-  "url": "https://domain-for-subscription.com/API/endpoint/UpdatedTasks",
-  "filters": [
-    {
-      "fieldName": "percentComplete",
-      "fieldValue": "100",
-      "comparison": "lt"
-    },
-    {
-      "type": "group",
-      "connector": "OR",
-      "filters": [
-        {
-          "fieldName": "status",
-          "fieldValue": "CUR",
-          "comparison": "eq"
-        },
-        {
-          "fieldName": "priority",
-          "fieldValue": "1",
-          "comparison": "eq"
-        }
-      ]
-    }
-  ],
-  "filterConnector": "AND"
-}
-```
-
-此範例顯示：
-
-
-* 最上層篩選（群組之外）：
-
-  { &quot;`fieldName`&quot;： &quot;`percentComplete`&quot;， &quot;`fieldValue`&quot;： &quot;`100`&quot;， &quot;`comparison`&quot;： &quot;`lt`&quot; }
-
-  此篩選器會檢查更新任務的percentComplete欄位是否小於100。
-
-* 篩選器群組（具有`OR`的巢狀篩選器）：
-
-  { &quot;`type`&quot;： &quot;`group`&quot;， &quot;`connector`&quot;： &quot;`OR`&quot;， &quot;`filters`&quot;： [{ &quot;`fieldName`&quot;： &quot;`status`&quot;， &quot;`fieldValue`&quot;： &quot;`CUR`&quot;， &quot;`comparison`&quot;： &quot;`eq`&quot; }， { &quot;`fieldName`&quot;： &quot;`priority`&quot;， &quot;`fieldValue`&quot;： &quot;`1`&quot;， &quot;`comparison`&quot;： &quot;`eq`&quot; }] }
-
-  此群組會評估兩個內部篩選器：
-
-   * 第一個檢查任務狀態是否等於「CUR」（目前）。
-
-   * 第二個會檢查優先順序是否等於「1」（高優先順序）。
-
-  由於聯結器為「OR」，因此如果任一條件為true，則此群組會通過。
-
-* 頂層聯結器(filterConnector： `AND`)：
-
-  最上層篩選器之間的最外層聯結器為`AND`。
-
-  這表示最上層篩選器和群組都必須通過，事件才能相符。
-
-* 訂閱會在下列情況觸發：
-
-  percentComplete小於100
-
-  且
-
-  狀態是「CUR」或優先順序等於「1」。
 
 #### 效能與限制
 
