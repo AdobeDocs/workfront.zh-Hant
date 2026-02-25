@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 11b72c797203dcf364281665bc60cf67d25c8b5d
+source-git-commit: bddf24f667f0538786caf0b19af75d0adf99da91
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 2%
@@ -151,18 +151,20 @@ This article describes how you can share a view with others. For information abo
 
    工作區右上方的![共用按鈕](assets/share-button-on-workspace-top-right.png)
 
+   <!--only for March 4: * <span class="preview">(Conditional) Depending on your access level, the following scenarios exist: </span>-->
 
-   <!--For Feb 26:1. <span class="preview">(Conditional) Depending on your access level, the following scenarios exist: </span>
-
-      * <span class="preview">If you are a System Administrator, select from the following options:</span>
+   <!--For Feb 26:
+   1. <span class="preview">(Conditional) If you are a System Administrator, select from the following options:</span>
 
          <div class="preview">
 
          * **Only invited people can access**: You must select entities in the sharing box and choose their access to the workspace. This is the default selection. 
          * **Everyone in the system can view**: Everyone in the system with access to Planning can view the workspace in their **Workspaces** area in Planning.
          
-         </div> 
-         
+         </div> -->
+
+   <!--only  for March 4:
+
       * <span class="preview">If you are a workspace manager with a Standard license, you can see one of the following selections but you cannot change them:</span>
 
          <div class="preview">
@@ -206,7 +208,7 @@ This article describes how you can share a view with others. For information abo
      ![存取要求的電子郵件通知](assets/email-notification-for-access-request.png)
 1. （視條件而定）從Workfront的通知區域，按一下應用程式內通知
 或
-在電子郵件通知中，按一下&#x200B;**檢視所有通知**，然後按一下清單中的通知。
+在電子郵件通知中，按一下**檢視所有通知**，然後按一下清單中的通知。
 
    顯示&#x200B;**擱置中的存取要求**&#x200B;方塊。
 

@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: cde20e5a-15a2-413a-8de4-ccf6eeb4395f
-source-git-commit: 11b72c797203dcf364281665bc60cf67d25c8b5d
+source-git-commit: bddf24f667f0538786caf0b19af75d0adf99da91
 workflow-type: tm+mt
 source-wordcount: '1600'
 ht-degree: 3%
@@ -169,7 +169,21 @@ ht-degree: 3%
       1. <span class="preview">Choose a field from the drop-down menu. These are fields associated with the record type you selected.</span> 
       1. <span class="preview">Continue defining conditions for the selected field.</span>
       1. <span class="preview">Click **Add condition** to add up to 5 fields and define their condition.</span>
+
+         <span class="preview">You can add any of the following types of fields:</span> 
+
+         <div class="preview">
+
+         * Single-select
+         * Multi-select
+         * Single-line text
+         * Paragraph
+         * Number
+         * Checkbox
+         * Date
          
+         </div>
+
          <span class="preview">Workfront Planning will create objects automatically when the conditions are met. </span>
 
          ![Field value change trigger selected](assets/field-value-change-trigger-selected.png)
@@ -177,6 +191,8 @@ ht-degree: 3%
          >[!TIP]
          >
          ><span class="preview">The modifier in each condition changes with the type of fields you select.</span>
+         >
+         
    
    -->
 
@@ -236,7 +252,7 @@ ht-degree: 3%
         這是必填欄位。
 
         <!--submitted a change in functionality and UI text for this - revise??-->
-在&#x200B;**對應欄位**&#x200B;區域中，更新下列資訊：
+在**對應欄位**&#x200B;區域中，更新下列資訊：
 
          * **傳輸自**：從建立自動化的記錄型別中選取欄位，以將它們對應到連線記錄型別的欄位。
          * **傳輸至**：從新建立的記錄中選取欄位，這些欄位會填入您執行自動化之記錄中的資訊。
