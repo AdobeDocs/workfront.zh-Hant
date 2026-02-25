@@ -5,10 +5,10 @@ author: Alina, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
+source-git-commit: bb9ccfa61fa1a8ef41b0e873d5aa6313803c636d
 workflow-type: tm+mt
-source-wordcount: '1209'
-ht-degree: 2%
+source-wordcount: '1216'
+ht-degree: 3%
 
 ---
 
@@ -31,16 +31,16 @@ An example of how this can be used would be helpful here and/or in the section <
 
 -->
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
@@ -100,7 +100,8 @@ An example of how this can be used would be helpful here and/or in the section <
         <ul> 
          <li> <p>提醒通知會在指定日期後24小時開始，並在符合所有條件後開始。</p> </li> 
          <li> <p>美國山區時間每天午夜觸發專案、任務和問題的提醒通知。 當天起符合提醒通知資格的所有物件會在當天不久之後觸發通知給指定的使用者。</p> </li> 
-         <li> <p>時程表的提醒通知會根據您的時區與時程表的結束日期、開始日期或上次更新日期，在指定時間傳送。</p> </li> 
+         <li> <p>時程表提醒是以您組織的時區以及時程表的結束日期、開始日期或上次更新日期為基礎。 個別使用者時區不會影響提醒通知的時機。</p> 
+      </li> 
         </ul> </p> </td> 
      </tr> 
      <tr> 
