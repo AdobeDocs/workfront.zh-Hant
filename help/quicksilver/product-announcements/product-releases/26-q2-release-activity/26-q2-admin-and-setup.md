@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
-source-git-commit: e716869407ff88b090b223708c688c7ed0da3e8e
+source-git-commit: 860bd4bef75a90f4e1c5a21f38de95962804c00c
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '358'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,12 @@ ht-degree: 0%
 
 ## 依預設摺疊自訂表單區段
 
+>[!NOTE]
+>
+>預覽： 2026年2月26日
+>生產快速發行： 2026年3月12日
+>每個人都能使用生產： 2026年4月16日
+
 依預設，當表單本身展開時，自訂表單上的所有區段都會展開。 自訂表單設計工具上的新選項可讓您在使用者開啟表單時，將區段標示為預設摺疊。 此選項適用於區段層級，而非欄位。
 
 如需詳細資訊，請參閱[整理並預覽表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)。
@@ -29,7 +35,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >預覽： 2026年1月29日
->生產快速發佈：待定
+>生產快速發行： 2026年2月12日
 >適用於所有人的生產環境：待定
 >
 >此功能已於2026年2月13日暫時從生產環境中移除。

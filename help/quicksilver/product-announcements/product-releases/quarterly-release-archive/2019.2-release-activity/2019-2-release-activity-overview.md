@@ -7,16 +7,16 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: baa50860-e23a-4be8-8192-f0400099294f
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 255b4b83b6d1d37bb6ffff975f1b1f44130170bc
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1066'
 ht-degree: 1%
 
 ---
 
 # 2019.2版本活動概覽
 
-本頁提供2019.2版所含功能的相關資訊。 若要以PDF格式下載此內容，請移至[這裡](https://documentation.my.workfront.com/library/a/6626eb71-16b2-4460-bd81-9adcd4953eb5)。
+此頁面提供2019.2發行版本所含功能的相關資訊。<!-- To download this content in PDF format, go [here](https://documentation.my.workfront.com/library/a/6626eb71-16b2-4460-bd81-9adcd4953eb5).-->
 
 >[!NOTE]
 >
@@ -98,9 +98,9 @@ ht-degree: 1%
 
   適用於Adobe Creative Cloud的Workfront擴充功能現在包含與Workfront程式庫的整合。
 
-* [Workfront的Microsoft Teams改善功能](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-integration-enhancements.md#workfron)
+* [Workfront的Microsoft Teams改良](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-integration-enhancements.md#workfron)
 
-  使用Workfront進行Microsoft Teams時，您現在可以提交工作請求並管理Workfront通知。
+  使用適用於Microsoft Teams的Workfront時，您現在可以提交工作請求並管理Workfront通知。
 
 ### 校訂增強功能
 
@@ -151,13 +151,13 @@ Workfront Library是企業數位內容中樞，可用來管理組織數位資產
 
 為了提供最佳安全性，Workfront要求所有使用TLS 1.0或較舊版本的整合和網頁流量，都必須升級為使用TLS 1.1或更新版本。 此變更已在預覽環境中生效。
 
-如需詳細資訊，請參閱Adobe Workfront[&#128279;](../../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md)中所需的TLS 1.2。
+如需詳細資訊，請參閱Adobe Workfront[中所需的](../../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md)TLS 1.2。
 
 ### Flash應用程式移除 {#flash-application-removal}
 
-自2018.3發行版本以來，Workfront已移除所有依賴Flash技術的功能，並更換為新解決方案。
+自2018.3發行版本以來，Workfront已移除所有依賴Flash技術的功能，並以新解決方案取代。
 
-如需有關舊版Flash工具及其取代的詳細資訊，請參閱[在Adobe Workfront中取代Flash工具](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)。
+如需有關舊版Flash工具及其取代的詳細資訊，請參閱[Adobe Workfront中Flash工具的取代](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)。
 
 ### 各種要移除的單一登入選項 {#various-single-sign-on-options-to-be-removed}
 
