@@ -6,10 +6,11 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: f722940bd7222ebec85aad143378f8f849357e5a
+exl-id: 79d4ad4a-1dd0-431e-92cd-582b5a1b7ec8
+source-git-commit: f0ded5d6b71ea99b7fad5b7c199838ef175b18cc
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 0%
+source-wordcount: '1095'
+ht-degree: 1%
 
 ---
 
@@ -20,6 +21,105 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 如需針對Adobe Workfront Planning發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## 觸發式自動化
+
+>[!NOTE]
+>
+>預覽： 2026年2月26日
+>生產快速發行： 2026年3月12日
+>每個人都能使用生產： 2026年4月16日
+
+您現在可以使用Planning自動化，根據記錄欄位變更自動建立Planning記錄或Workfront物件。
+
+在此增強功能之前，只有當您按一下預先設定的按鈕時，才能自動建立Planning記錄或Workfront物件。
+
+如需詳細資訊，請參閱[設定Adobe Workfront規劃自動化](/help/quicksilver/planning/records/configure-automations-to-create-records.md)。
+
+## 只有系統管理員可以在系統範圍內共用工作區
+
+>[!NOTE]
+>
+>預覽： 2026年2月26日
+>生產快速發行： 2026年3月12日
+>每個人都能使用生產： 2026年4月16日
+
+共用工作區時，我們現在只允許系統管理員在下列選項之間進行選擇：
+
+* 系統中的所有人都可以檢視
+* 只有受邀人員才能存取
+
+工作區預設設為「只有受邀人士才能存取」許可權。
+
+在此變更之前，選擇這些工作區共用許可權的功能未結束。
+
+如需詳細資訊，請參閱共用工作區(help/quicksilver/planning/access/share-workspaces.md)。
+
+## 在時間軸檢視中排序群組
+
+>[!NOTE]
+>
+>預覽： 2026年2月26日
+>生產快速發行： 2026年3月12日
+>每個人都能使用生產： 2026年4月16日
+
+您現在可以在時間軸檢視中排序群組。 如需詳細資訊，請參閱[管理時間表檢視](/help/quicksilver/planning/views/manage-the-timeline-view.md)。
+
+## 支援已連線欄位的使用者參考
+
+>[!NOTE]
+>
+>預覽： 2026年2月26日
+>生產快速發行： 2026年3月12日
+>每個人都能使用生產： 2026年4月16日
+
+您現在可以在Workfront物件與Workfront Planning記錄型別之間新增連線，藉此將Workfront使用者欄位連結至Workfront Planning記錄型別。
+
+例如，現在新增連線至專案或投資組合時，您可以將專案贊助者或Portfolio擁有者新增為Workfront Planning中的查閱欄位。
+
+如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
+
+
+## 即時狀態指標現在會在表格檢視中顯示使用者
+
+>[!NOTE]
+>
+>預覽： 2026年2月26日
+>生產快速發行： 2026年3月12日
+>每個人都能使用生產： 2026年4月16日
+
+您現在可以按一下表格檢視中儲存格右上角的即時顯示狀態指示器，在檢視更新記錄欄位的同時檢視使用者。 記錄表格檢視右上角列出的使用者是開啟相同檢視的使用者。
+
+您必須開啟表格檢視標題中的顯示共同作業人員設定。 其他使用者可以在表格檢視或記錄的詳細資訊區域中更新欄位。
+
+如需詳細資訊，請參閱[管理資料表檢視](/help/quicksilver/planning/views/manage-the-table-view.md)。
+
+
+## 已更新清單檢視的共用體驗
+
+>[!NOTE]
+>
+>預覽： 2026年2月26日
+>生產快速發行： 2026年3月12日
+>每個人都能使用生產： 2026年4月16日
+
+當您在具有「檢視」許可權的記錄的專案已連線記錄頁面中共用清單檢視時，共用檢視的使用者可以修改檢視元素，並且這些變更會儲存到使用者的個人偏好設定中。 他們現在可以選擇儲存包含其變更的檢視復本，或將共用檢視重設為原始設定。 他們可以進一步與他人共用複製的檢視。
+
+此更新僅在清單檢視中可用，適用於顯示專案時記錄的已連線記錄頁面。
+
+如需詳細資訊，請參閱[管理清單檢視](/help/quicksilver/planning/views/manage-the-list-view.md)。
+
+## 套用條件式格式至清單檢視
+
+>[!NOTE]
+>
+>預覽： 2026年2月26日
+>生產快速發行： 2026年3月12日
+>每個人都能使用生產： 2026年4月16日
+
+您現在可以將條件式格式套用至記錄之「連線記錄」頁面中清單檢視的專案。 在此增強功能之前，清單檢視中不存在此功能。
+
+如需詳細資訊，請參閱[管理清單檢視](/help/quicksilver/planning/views/manage-the-list-view.md)。
 
 ## 改善次要工作區中的全域記錄型別
 
@@ -111,5 +211,3 @@ ht-degree: 0%
 現在，當連線兩個Planning記錄型別時，您可以將「人員」欄位新增到查閱欄位。
 
 如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
-
-
