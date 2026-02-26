@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 11b72c797203dcf364281665bc60cf67d25c8b5d
+source-git-commit: 973a095e8ff08e382010247d9ed38e48d4b2c564
 workflow-type: tm+mt
-source-wordcount: '3508'
+source-wordcount: '3588'
 ht-degree: 2%
 
 ---
@@ -504,9 +504,7 @@ ht-degree: 2%
 
    ![在資料表檢視中套用群組](assets/grouping-applied-in-table-view.png)
 
-   <!--For Feb 26, and change indent to the left:
-    1. <span class="preview">(Optional) Choose A-Z or Z-A from the sorting drop-down menu to the right of a selected field. This sorts the groupings in the timeline, accordingly.</span>
-    -->
+1. <span class="preview"> （選擇性）從選取欄位右側的排序下拉式功能表中選擇A-Z或Z-A。 這會相應地排序時間軸中的群組。</span>
 
 1. （選擇性）在&#x200B;**群組記錄依據**&#x200B;方塊中，按一下選取要移除分組的欄位右邊的&#x200B;**x**&#x200B;圖示
 
@@ -600,15 +598,13 @@ To sort grouped records:
 
 <!--maybe include a screen shot after release if they update the UI text in this list of users-->
 
-<!--For Feb 26: 
 
-1. <span class="preview">(Optional) Click the triangle in the upper-right corner of the cell that contains the field edited by others. A list of users currently editing the field displays.</span> 
+1. <span class="preview"> （選擇性）按一下包含其他人編輯之欄位之儲存格右上角的三角形。 目前編輯欄位的使用者清單隨即顯示。</span>
 
 >[!TIP]
 >
-><span class="preview">Real-time presence indicators display users that are currently editing a field anywhere in Workfront Planning. This includes either the table view or the Details area of the record.</span>
+><span class="preview">即時狀態指標會顯示目前在Workfront Planning中任何位置編輯欄位的使用者。 這包括資料表檢視或記錄的詳細資訊區域。</span>
 
--->
 
 
 

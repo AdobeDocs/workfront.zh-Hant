@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
-source-git-commit: 11b72c797203dcf364281665bc60cf67d25c8b5d
+source-git-commit: 973a095e8ff08e382010247d9ed38e48d4b2c564
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1342'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # 在Adobe Workfront Planning中管理清單檢視
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">本頁標示的資訊是指尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -114,8 +114,8 @@ ht-degree: 0%
       >
       >* 您無法修改系統檢視。
       >
-      <!--For Feb 26 and add the Preview disclaimer at the top: * <span class="preview">You can reset a view that was shared with you after you modified it to restore its original preferences, or you can copy it with your changes and share the copy. For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
-        -->
+      >* <span class="preview">您可以在修改檢視後重設與您共用的檢視，以還原其原始偏好設定，或者您可以複製檢視與您的變更並共用復本。 如需詳細資訊，請參閱[使用增強型清單](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。</span>
+
    1. 按一下&#x200B;**篩選器**&#x200B;圖示![篩選器圖示](assets/filter-icon.png)將篩選器新增至檢視。 結果會立即在清單中篩選。 您無法儲存並命名篩選器。 日後存取頁面時會記住篩選器，這些篩選器也是共用檢視的一部分。
    1. 按一下&#x200B;**欄**&#x200B;圖示![欄圖示](assets/columns-icon.png)以選取要在檢視中顯示或隱藏的欄。
    1. 暫留在欄名稱上，然後按一下欄名稱左側的向下箭頭，然後按一下下列其中一項：
@@ -129,35 +129,41 @@ ht-degree: 0%
 您不能移除在第一欄顯示的清單檢視中的主要欄位。
 
 
-   <!--For Feb 26: make available at release and fix the formatting - this will be broken, if not: 
-    1. <span class="preview">Click the **Format cells** icon ![Format cells icon](assets/format-cells-icon.png). The **Format** box opens. (*********change the name of the box when they update it***********)</span>
-        <span class="preview">Do the following: </span>
-        <div class="preview">
-        1. In the **If** line, click **Add condition**, then select a field you want to format by and choose a field value. 
-            >[!TIP]
-            >
-            >Only fields visible in the list view are available for conditional formatting.
-        1. (Optional) Click **Add condition** in the **If** line to add more conditions to same rule. 
-            >[!TIP]
-            >
-            >You can add up to 10 conditions in a conditioning rule and you can have up to 20 rules for a field.
-        1. Click the **Or** connector between conditions to change to **And** and to indicate that multiple conditions must be met at the same time. **Or** is the default connector.  
-        1. In the **Format** line, select a field to indicate which column will be formatted. (*******edit this area, if it changes names??***********)
-        1. (Optional) Click the **color circle** icon ![Color circle icon](assets/color-circle.png) next to the field selected, to expand it and choose another color.
-        1. Turn on the **Apply to row** setting to apply the formatting to the entire row of the field that meets the conditions. 
-        1. (Optional) Click **Add condition** in the **Format** box to add another rule for another field and the repeat the steps above. 
-        1. (Optional) Click **Clear all** to remove all formatting.
-        1. Click outside the **Format** box to close it. 
-            This returns you to the list view. 
-            The formatting is applied immediately to the list view.
-            There is a blue dot next to the **Format cells** icon to indicate that the view has special formatting applied.
-        </div>
-    -->
+   1. <span class="preview">按一下&#x200B;**格式化儲存格**&#x200B;圖示![格式化儲存格圖示](assets/format-cells-icon.png)。 **格式**&#x200B;方塊開啟。</span> <!--change the name of the box when they update it-->
+      <span class="preview">執行下列動作： </span>
+
+      <div class="preview">
+
+      1. 在&#x200B;**If**&#x200B;行中，按一下&#x200B;**新增條件**，然後選取要格式化依據的欄位並選擇欄位值。
+
+         >[!TIP]
+         >
+         >只有清單檢視中顯示的欄位才適用於條件式格式。
+
+      1. （選擇性）按一下&#x200B;**If**&#x200B;行中的「**新增條件**」，將更多條件新增至相同規則。
+
+         >[!TIP]
+         >
+         >您可以在條件規則中新增最多10個條件，而且一個欄位最多可以有20個規則。
+
+      1. 按一下條件之間的&#x200B;**Or**&#x200B;聯結器，變更為&#x200B;**和**，並指示必須同時符合多個條件。 **或**&#x200B;是預設聯結器。
+      1. 在&#x200B;**格式**&#x200B;行中，選取欄位以指示要格式化的欄。<!--edit this area, if it changes names??-->
+      1. （選擇性）按一下所選欄位旁的&#x200B;**顏色圓形**&#x200B;圖示![顏色圓形圖示](assets/color-circle.png)，以展開並選擇其他顏色。
+      1. 開啟&#x200B;**套用至列**&#x200B;設定，將格式套用至符合條件的欄位整列。
+      1. （選擇性）在&#x200B;**格式**&#x200B;方塊中按一下&#x200B;**新增條件**，為其他欄位新增另一個規則，並重複上述步驟。
+      1. （選擇性）按一下「全部清除&#x200B;**」**&#x200B;以移除所有格式設定。
+      1. 按一下&#x200B;**格式**&#x200B;方塊外部以關閉它。
+
+         這會將您帶回清單檢視。
+格式會立即套用至清單檢視。
+**格式化儲存格**&#x200B;圖示旁有一個藍點，表示檢視已套用特殊格式。
+
+      </div>
 
 1. （可選）在清單右上角的搜尋方塊中新增關鍵字，以搜尋專案。
 
-
    符合搜尋字詞的專案會在清單中反白顯示。
+
 1. （選擇性）若要新增更多專案至清單，並自動將其連線至選取的記錄，請執行下列其中一項作業：
 
    * 按一下清單右上角的&#x200B;**連線記錄**&#x200B;以新增現有專案。
