@@ -8,27 +8,29 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+source-git-commit: 796c7e0a15a7a26c5cd3f0115d72946f0f28bcf2
 workflow-type: tm+mt
-source-wordcount: '1318'
-ht-degree: 0%
+source-wordcount: '1353'
+ht-degree: 2%
 
 ---
 
 # 組織和預覽表單
 
+{{preview-fast-release-general}}
+
 您可以使用表單設計工具來組織自訂表單，並預覽以確認其設定正確。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
+   <td>Adobe Workfront 封裝</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -81,6 +83,10 @@ ht-degree: 0%
       <td role="rowheader">說明</td> 
       <td>如果要向使用者說明此區段的用途，請鍵入文字。 這會顯示在自訂表單上區段的標籤下方。</td> 
      </tr> 
+      <td><span class="preview">預設為摺疊</span></td>
+      <td><span class="preview">依預設，當表單本身展開時，自訂表單上的所有區段都會展開。 選取此選項，可在使用者開啟表單時，預設摺疊區段。</span></td>
+     <tr>
+     </tr>
      <tr> 
       <td role="rowheader"> <p>授予存取權</p> </td> 
       <td> <p> 選取使用者在已附加自訂表單的物件上所需的許可權，以便檢視此區段並編輯其欄位值。 
@@ -158,7 +164,7 @@ ht-degree: 0%
 
    ![將欄位移至區段](assets/move-field-to-section.png)
 
-1. 若要儲存變更，請按一下[套用] **&#x200B;**
+1. 若要儲存變更，請按一下[套用] ****
 
    或
 
