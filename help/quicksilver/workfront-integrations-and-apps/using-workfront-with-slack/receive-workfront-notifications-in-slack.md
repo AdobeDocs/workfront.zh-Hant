@@ -6,10 +6,10 @@ description: 接收 [!DNL Adobe Workfront] 中的 [!DNL Slack]通知
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: bc1ce4ea-58be-4cd7-ab59-7dddb82949b9
-source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
+source-git-commit: e6f61cdde9e8ad14a9226de4cc61fbcdcb6f839b
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 1%
+source-wordcount: '614'
+ht-degree: 4%
 
 ---
 
@@ -27,16 +27,16 @@ ht-degree: 1%
 電子郵件通知與[!DNL Workfront]介面通知獨立運作。 您或您的[!DNL Workfront]管理員可以停用電子郵件通知，而介面通知無法在[!DNL Workfront]中停用。\
 但是，如果您只想在[!DNL Workfront]介面中關注這些通知，您可以停用可能會在[!DNL Slack]中收到的[!DNL Workfront]通知。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -76,6 +76,12 @@ ht-degree: 1%
    * [!UICONTROL 我被指派到一個新任務或問題]
    * [!UICONTROL 我的團隊已指派給新任務或問題]
    * [!UICONTROL 我收到新的核准或存取要求]
+
+     >[!NOTE]
+     >
+     >核准是指舊版檔案核准。 [!DNL Slack]目前不支援整合檔案核准。 如需Workfront中不同核准系統的詳細資訊，請參閱[檔案核准的可用功能](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)。
+
+
    * [!UICONTROL 有人將我加入定向更新]
    * [!UICONTROL 有人對我所在的執行緒發表評論]
    * [!UICONTROL 我訂閱的任務、問題或專案已更新]
