@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+source-git-commit: b55cb2df33ebba0d61d4254f17a49f92b7d6553e
 workflow-type: tm+mt
-source-wordcount: '2200'
+source-wordcount: '2252'
 ht-degree: 0%
 
 ---
@@ -136,8 +136,8 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別。
 
 {{step1-to-requests}}
 
-1. 啟用熒幕右上角的&#x200B;**切換至新的體驗**&#x200B;設定。
-啟用此設定可讓Workfront Planning請求表單出現在Workfront的&#x200B;**請求**&#x200B;區域中。
+1. 啟用熒幕右上角的&#x200B;**切換至新的體驗**設定。
+啟用此設定可讓Workfront Planning請求表單出現在Workfront的**請求**&#x200B;區域中。
 
    >[!TIP]
    >
@@ -154,6 +154,9 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別。
 
    隨即開啟一個視窗，頂端會顯示請求表單名稱。
 1. 更新請求表單中可用的欄位。 需要紅色星號的欄位。
+1. （視條件而定）如果您的組織允許由AI支援的表單填寫，您可以上傳檔案作為提示。 AI使用這些檔案填寫表單，並且您可以接受或拒絕AI建議。
+
+   如需指示，請參閱[使用AI支援的表單填入功能，使用提示或檔案填入請求](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)。
 1. 按一下&#x200B;**提交**。
 
    要求表單關閉，您返回&#x200B;**要求**&#x200B;區域。
@@ -203,7 +206,7 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別。
       * **輸入者**：新增請求的使用者名稱。 如果要求是由Workfront外部的人員加入，則&#x200B;**輸入者**&#x200B;欄位會顯示`N/A`。
       * **已建立的物件狀態**：已建立記錄的狀態。
 
-     您可以有多個&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;加入的篩選器。
+     您可以有多個&#x200B;**And**&#x200B;或&#x200B;**Or**加入的篩選器。
 當您新增篩選條件時，要求清單會自動篩選。
 
    * 按一下&#x200B;**欄**&#x200B;以開啟&#x200B;**欄位可見性和順序**&#x200B;方塊，然後隱藏、顯示或重新排列要求清單中的欄。
