@@ -4,10 +4,11 @@ description: 2026年第二季報表增強功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8bcea5cec9f68deacc5f89ca7703303a1b00769f
+exl-id: 4bc2fee9-fa86-41c7-80e7-44bf3e8077d8
+source-git-commit: aceb9f7bd6c62036838b15d74ee2a9b7843e5c11
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 1%
+source-wordcount: '428'
+ht-degree: 0%
 
 ---
 
@@ -31,29 +32,25 @@ ht-degree: 1%
 
 如需詳細資訊，請參閱[建立自訂報表](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
-<!--
-
-## Shareable Report Folders
+## 可共用的報表資料夾
 
 >[!NOTE]
 >
->Preview: February 26, 2026
->Production fast release: March 12, 2026
->Production for everyone: April 16, 2026
+>預覽： 2026年2月26日
+>生產快速發行： 2026年3月12日
+>每個人都能使用生產： 2026年4月16日
 
-You can now organize and share reports using shareable report folders. This new feature helps teams that manage large volumes of reports maintain scalable and consistent access control:
+您現在可以使用共用報告資料夾來整理和共用報告。 這項新功能可協助管理大量報表的團隊維持可擴充且一致的存取控制：
 
-* **Create organized folder structures**: System administrators can create top-level folders, and users with manage access can create subfolders up to 4 levels deep.
-* **Granular permission controls**: Share folders with two permission levels:
-   * View: Users can open reports and share folders
-   * Manage: Users can edit folder details, add/remove items, and automatically receive manage access to all reports within the folder
-* **Inherited permissions**: Permissions cascade from parent folders to all subfolders and reports within the folder tree
-* **Enhanced list experience**: When you enable sharable folders, you will have access to the enhanced list experience. For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+* **建立有組織的資料夾結構**：系統管理員可以建立最上層資料夾，而具有管理存取許可權的使用者可以建立最深4層的子資料夾。
+* **精細的許可權控制項**：共用兩個許可權層級的資料夾：
+   * 檢視：使用者可以開啟報表並共用資料夾
+   * 管理：使用者可以編輯資料夾詳細資訊、新增/移除專案，並自動獲得資料夾中所有報告的管理存取權
+* **繼承的許可權**：許可權從父資料夾級聯到資料夾樹狀結構中的所有子資料夾和報告
+* **增強型清單體驗**：當您啟用可共用的資料夾時，您將可存取增強型清單體驗。 如需詳細資訊，請參閱[使用增強型清單](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
 
 
-For more information, see [Use shareable report folders](/help/quicksilver/reports-and-dashboards/reports/report-usage/use-sharable-report-folders.md).
-
--->
+如需詳細資訊，請參閱[使用可共用的報表資料夾](/help/quicksilver/reports-and-dashboards/reports/report-usage/use-sharable-report-folders.md)。
 
 ## 改善畫布儀表板中圖表分組的日期標籤
 
@@ -63,10 +60,12 @@ For more information, see [Use shareable report folders](/help/quicksilver/repor
 >生產快速發行： 2026年3月12日
 >每個人都能使用生產： 2026年4月16日
 
+>[!NOTE]
+>
+>畫布儀表板目前是測試版。
+
 按日期分組資料的圖表現在會顯示更清晰、更易讀取的日期標籤。 透過此更新，日期標籤會根據選取的「分組依據」選項（例如日、周、月或年）動態調整，使圖表更易於快速閱讀和理解：
 
 <table> <tbody> <tr> <td>Day</td> <td>顯示完整日期。 範例： 2026年3月12日</td> </tr> <tr> <td>週</td> <td>顯示已格式化的周開始日期。 範例：2026年3月8日</td> </tr> <tr> <td>Month</td> <td>顯示月份和年份。 範例：2026年3月</td> </tr> <tr> <td>Year</td> <td>僅顯示年份。 範例：2026</td> </tr> </tbody> </table>
 
 以前，圖表分組一律以數值格式顯示所選時段的開始日期。
-
-
