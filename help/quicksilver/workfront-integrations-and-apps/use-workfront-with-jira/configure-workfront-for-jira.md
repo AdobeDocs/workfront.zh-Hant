@@ -6,10 +6,10 @@ description: 您可以使用 [!DNL Adobe Workfront for Jira] 整合 [!DNL Jira] 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 959adc88-5201-4945-96c4-ea890f0bd371
-source-git-commit: e06713b8871ba5e7bfae58f67ee246c9c1163a63
+source-git-commit: 204324d5a5aaffbe47d31709096e739b62acecb8
 workflow-type: tm+mt
-source-wordcount: '2454'
-ht-degree: 1%
+source-wordcount: '94'
+ht-degree: 0%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->為了提供更穩定且更可擴充的整合，我們改用現代、彈性的整合方法，即使用Workfront自動化與整合(Fusion)。 在此轉換過程中，Jira整合的Workfront在&#x200B;**2026年2月28日**&#x200B;後將無法使用。
+>為了提供更穩定且更可擴充的整合，我們已改用使用Workfront自動化與整合(Fusion)的現代、彈性整合方法。 在此轉換程式中，不再提供Jira整合&#x200B;**的Workfront**。
 >
 >根據貴組織與Jira的整合需求，我們建議使用Workfront自動化和整合。
 >
->如需Workfront自動化與整合的概觀，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+>如需Workfront自動化與整合的概觀，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 >
->如需Jira的Workfront自動化與整合模組特定功能的相關資訊，請參閱[Jira軟體模組](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-modules-new)。
+>如需Jira的Workfront自動化與整合模組特定功能的相關資訊，請參閱[Jira軟體模組](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-modules-new)。
 
 <!--
 
@@ -38,226 +38,228 @@ ht-degree: 1%
 >
 >Eight ready-to-use Workfront Automation and Integration templates for Jira will be available by August to help replicate common workflows and accelerate implementation. Templates are fully customizable to meet specific business needs and can be extended as requirements evolve. 
 > 
->For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
+>For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
 >
->For information about the specific capabilities of the Workfront Automation and Integration modules for Jira, see [Jira Software modules](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules). 
+>For information about the specific capabilities of the Workfront Automation and Integration modules for Jira, see [Jira Software modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules). 
 
 -->
 
-您可以使用[!DNL Adobe Workfront for Jira]來整合您的[!DNL Jira]和[!DNL Workfront]系統。
+<!--
 
-安裝附加元件後，您可以在建立[!DNL Jira]個工作專案時，定義自動建立[!DNL Workfront]問題的工作流程。 兩個應用程式中的專案會變成連結，而且其部分資訊會在兩個系統中自動更新。
+You can use [!DNL Adobe Workfront for Jira] to integrate your [!DNL Jira] and [!DNL Workfront] systems.
 
-[!DNL Workfront]和[!DNL Jira]中的所有使用者都可以受益於這項整合。 他們只需要最常使用的系統授權，而不需要兩個系統的授權。
+After installing the add-on, you can define workflows that create [!DNL Jira] issues automatically when [!DNL Workfront] work items are created. The items in both applications become linked, and some of their information automatically updates in both systems.
 
-此附加元件適用於[!UICONTROL 軟體的]伺服器[!UICONTROL 和]OnDemand[!UICONTROL &#x200B; （或]雲端[!DNL Jira]）版本。
+All users in [!DNL Workfront] and [!DNL Jira] can benefit from this integration. They only need a license for the system in which they work the most, and not for both systems. 
 
-如需[!DNL Jira]目前支援的[!DNL Workfront for Jira]版本清單，請參閱[[!DNL Workfront for Jira]的](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview) [!DNL Atlassian Marketplace]。
+This add-on is available for both the [!UICONTROL Server] and [!UICONTROL OnDemand] (or [!UICONTROL Cloud]) versions of [!DNL Jira] Software.
 
-## 存取權要求
+For a list of [!DNL Jira] versions that [!DNL Workfront for Jira] currently supports, see [[!DNL Workfront for Jira]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview) at the [!DNL Atlassian Marketplace].
 
-+++ 展開以檢視這篇文章中所述功能的存取權要求。
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 封裝</td> 
-   <td><p>任何</p>
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td><p>Any</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td><p>標準 </p>
-       <p>規劃 </p>
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>Standard </p>
+       <p>Plan </p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Jira存取</td> 
-   <td> <p>系統管理員存取權</p> <p>重要：建議您在Jira和Workfront中建立個別系統管理員帳戶，以專門用於此整合，而不使用可能附加至使用者的現有帳戶。</p> </td> 
+   <td role="rowheader">Jira access</td> 
+   <td> <p>System administrator access</p> <p>Important:  We recommend that you create separate system administrator accounts in Jira and Workfront to dedicate to this integration, rather than using existing ones that might be attached to users.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
-   <td> <p>您必須是Workfront管理員。</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must be a Workfront administrator.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## 先決條件
+## Prerequisites
 
-設定[!DNL Workfront for Jira]之前，您必須：
+Before you can configure [!DNL Workfront for Jira], you must:
 
-* 安裝[!DNL Workfront for Jira]。
-如需安裝[!DNL Workfront for Jira]的說明，請參閱[安裝 [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md)。
+* Install [!DNL Workfront for Jira].
+   For instructions on installing [!DNL Workfront for Jira], see [Install [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md).
 
-## 設定[!DNL Workfront for Jira]
+## Configure [!DNL Workfront for Jira]
 
-透過設定[!DNL Workfront for Jira]，您可以：
+By configuring [!DNL Workfront for Jira], you can:
 
-* 定義將在建立[!DNL Jira]個專案時建立[!DNL Workfront]個專案的觸發器。
-* 指定在[!DNL Jira]和[!DNL Workfront]之間連結的專案之間應同步處理哪些欄位。
-
->[!NOTE]
->
->* 在您的[!DNL Workfront for Jira]環境中設定[!DNL Jira]後，所有[!DNL Jira]使用者都會在所有[!DNL Workfront]專案上看到[!DNL Jira]右側面板。 面板包含可能從[!DNL Workfront]連結之專案的相關資訊，或指定沒有[!DNL Workfront]專案連結至[!DNL Jira]專案。
->* 使用[!DNL Jira Server]安裝時，只有與識別為Workfront整合觸發器的專案關聯的問題才會顯示Workfront面板。 如需為[!DNL Workfront to Jira]工作流程設定觸發程式的詳細資訊，請參閱[設定觸發程式，以自動連結 [!DNL Jira] 與 [!DNL Workfront]](#configure-triggers-for-automatically-linking-items-between-jira-and-workfront)之間的專案。
->
-
-若要設定[!DNL Workfront for Jira]：
-
-1. 以[!DNL Jira]管理員身分登入[!DNL Jira]。
-1. 在主&#x200B;**[!UICONTROL 功能表中按一下]**&#x200B;設定[!DNL Jira]。
-1. 按一下&#x200B;**[!UICONTROL 附加元件]**，然後按一下&#x200B;**[!UICONTROL 管理附加元件]**。
-
-1. 展開&#x200B;**[!DNL Workfront]**&#x200B;附加元件。
-1. 按一下&#x200B;**[!UICONTROL 設定]**。
-1. 依照提示登入[!DNL Workfront]。
-
-   >[!NOTE]
-   >
-   >使用者必須在`apiKey`Workfront[!UICONTROL 中擁有有效的]，才能建立成功的連線。
-
-   您必須以[!DNL Workfront]管理員身分登入[!DNL Workfront]才能繼續設定。
-
-   >[!NOTE]
-   >
-   >* [!UICONTROL Workfront]使用OAuth 2.0連線至[!DNL Jira]，這是大部分的網頁式整合所使用的標準，用於驗證及授權使用者。
-   >* 當系統提示您輸入[!DNL Workfront]帳戶的網域時，請使用此格式輸入它： *yourCompany&#39;sDomain.my.workfront.com*。 您公司的網域通常是您公司的名稱。
-   >* 增強式驗證必須由[!DNL Workfront]系統管理員針對這項整合啟用才能使用。
-
-1. 在Jira中，選取&#x200B;**[!UICONTROL 觸發器]**&#x200B;索引標籤，當建立新的[!DNL Jira]專案時，設定自動建立[!DNL Workfront]專案。
-
-   如需設定Workfront至[!DNL Jira]工作流程觸發程式的詳細資訊，請參閱[設定自動連結 [!DNL Jira] 與 [!DNL Workfront]](#configure-triggers-for-automatically-linking-items-between-jira-and-workfront)之間專案的觸發程式。
-
-1. 選取「**[!UICONTROL 設定]**」標籤，以設定連結[!DNL Jira]與[!DNL Workfront]專案之間的欄位同步化。
-
-   如需設定[!DNL Jira]與[!DNL Workfront]之間欄位同步化的詳細資訊，請參閱[設定 [!DNL Jira] 與 [!DNL Workfront] 專案之間的欄位同步化](#configure-field-synchronization-between-jira-and-workfront-items)。
-
-   >[!NOTE]
-   >
-   >定義兩個應用程式之間的觸發器和欄位同步之後，任何可以建立任務或問題的[!DNL Workfront]使用者都可能觸發在[!DNL Jira]中建立專案。 如果使用者建立專案的條件符合[!DNL Jira]中的觸發程式，即使使用者沒有[!DNL Jira]授權，使用者也可以建立專案。 此外，任何[!DNL Jira]使用者都可以立即開始處理[!DNL Jira]專案，且可在[!DNL Workfront]中看到其更新，而無需擁有[!DNL Workfront]授權。 [!DNL Workfront]中的任何更新也會顯示在[!DNL Jira]個專案上。
-
-1. （選擇性）選取&#x200B;**[!UICONTROL 活動記錄]**&#x200B;標籤，以檢閱整合期間可能發生的任何錯誤。
-
-   如需[!UICONTROL 活動記錄]的詳細資訊，請參閱[檢視 [!DNL Jira] [!UICONTROL 活動記錄]](../../workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md)。
-
-## 設定在[!DNL Jira]和[!DNL Workfront]之間自動連結專案的觸發程式
-
-作為[!DNL Jira]系統管理員，您可以定義在[!DNL Jira]中的專案符合特定條件時，在[!DNL Workfront]中自動建立問題的觸發程式。
+* Define triggers that will create [!DNL Jira] items when [!DNL Workfront] items are created.
+* Specify which fields should synchronize between items linked between [!DNL Jira] and [!DNL Workfront].
 
 >[!NOTE]
 >
->整合最多可能需要10分鐘的時間才能在[!DNL Jira]中建立新問題。
+>* After you configure [!DNL Workfront for Jira] on your [!DNL Jira] environment, all [!DNL Jira] users see a [!DNL Workfront] right panel on all [!DNL Jira] items. The panel contains information about the items that might be linked from [!DNL Workfront] or specifies that no [!DNL Workfront] items are linked to [!DNL Jira] items. 
+>* When using the [!DNL Jira Server] installation, only the issues that are associated with projects identified as triggers for the Workfront integration display the Workfront panel. For more information about setting up triggers for the [!DNL Workfront to Jira] workflow, see [Configure triggers for automatically linking items between [!DNL Jira] and [!DNL Workfront]](#configure-triggers-for-automatically-linking-items-between-jira-and-workfront).
+>
 
-當已建立[!DNL Jira]個專案，在設定觸發建立[!DNL Workfront]專案時，請考量下列事項：
+To configure [!DNL Workfront for Jira]:
 
-* 整合是單向的：您只能觸發您在[!DNL Workfront]中建立的專案，使其自動在[!DNL Jira]中建立。 您無法觸發您在[!DNL Jira]中建立的專案，使其自動在[!DNL Workfront]中建立。
-* 您可以使用的觸發器數量沒有限制。
-* 如果您在[!DNL Workfront]中建立的專案符合多個觸發程式，則在[!DNL Jira]中只會建立一個專案。 專案是根據第一個觸發程式在[!DNL Jira]中建立（按照它們在[!DNL Jira]中定義的順序）。 忽略所有其他觸發程式。
-* 在[!DNL Workfront]中只有一個專案可以連結到Jira中的一個專案。 您永遠無法將一個[!DNL Workfront]專案連結至多個[!DNL Jira]問題，或一個[!DNL Jira]問題連結至多個[!DNL Workfront]專案。
+1. Log in to [!DNL Jira] as a [!DNL Jira] administrator.
+1. Click **[!UICONTROL Settings]** in the main [!DNL Jira] menu.
+1. Click **[!UICONTROL Add-ons]**, then click **[!UICONTROL Manage add-ons]**.
 
-若要設定在[!DNL Jira]中自動建立專案的觸發程式：
-
-1. 以系統管理員身分登入[!DNL Jira]。
-1. 在主&#x200B;**[!UICONTROL 功能表中按一下]**&#x200B;設定[!DNL Jira]。
-1. 按一下&#x200B;**[!UICONTROL 附加元件]**，然後按一下&#x200B;**[!UICONTROL 管理附加元件]**。
-1. 展開&#x200B;**[!DNL Workfront]**&#x200B;附加元件。
-1. 按一下&#x200B;**[!UICONTROL 設定]**。
-1. 以系統管理員身分登入[!DNL Workfront]。
-
-   Jira預設會選取&#x200B;**[!UICONTROL 觸發器]**&#x200B;標籤。
-
-1. 按一下&#x200B;**[!UICONTROL 新增觸發器]**&#x200B;以新增觸發器。
-1. 在&#x200B;**[!UICONTROL Workfront團隊/使用者/角色]**&#x200B;欄位中，指定[!DNL Workfront]團隊、使用者或工作角色的名稱，然後按一下以在清單中顯示時選取它。
+1. Expand the **[!DNL Workfront]** add-on.
+1. Click **[!UICONTROL Configure]**.
+1. Follow the prompts to log in to [!DNL Workfront].
 
    >[!NOTE]
    >
-   >同一個團隊、使用者或角色不能有多個觸發程式。
+   >The user must have a valid `apiKey` in [!UICONTROL Workfront] to create a successful connection.
 
-   當有人建立任務或問題並將其指派給其中一個實體時，問題會自動在[!DNL [!DNL Jira]]中建立。
+   You must log in to [!DNL Workfront] as a [!DNL Workfront] administrator to continue the configuration.
 
-1. 在&#x200B;**[!UICONTROL [!DNL Jira]專案]**&#x200B;欄位中，開始輸入[!DNL Jira]專案的名稱，然後按一下以在清單中顯示時選取它。
+   >[!NOTE]
+   >
+   >* [!UICONTROL Workfront] connects to [!DNL Jira] using OAuth 2.0, a standard used by most web-based integrations for the authentication and authorization of users.
+   >* When you are prompted to enter the domain of your [!DNL Workfront] account, type it using this format: *yourCompany'sDomain.my.workfront.com*. Your company's domain is usually the name of your company.
+   >* Enhanced Authentication is not available until a [!DNL Workfront] administrator enables it for this integration.
 
-   建立[!DNL Jira]問題時，它會放置在您在此處選擇的專案上。
+1. In Jira, select the **[!UICONTROL Triggers]** tab to configure the automatic creation of [!DNL Jira] items as new [!DNL Workfront] items are created.
 
-1. 從下拉式功能表中選取&#x200B;**I[!UICONTROL 問題型別]**。
+   For more information about setting up triggers for the Workfront to [!DNL Jira] workflow, see [Configure triggers for automatically linking items between [!DNL Jira] and [!DNL Workfront]](#configure-triggers-for-automatically-linking-items-between-jira-and-workfront).
 
-   這表示當符合此觸發器的條件時，根據[!DNL Jira]中該特定專案的設定，在[!DNL Jira]中建立的問題型別。
+1. Select the **[!UICONTROL Setup]** tab to configure the synchronization of fields between linked [!DNL Jira] and [!DNL Workfront] items.
 
-1. 按一下「**[!UICONTROL 儲存]**」。
+   For more information about setting up the synchronization of fields between [!DNL Jira] and [!DNL Workfront], see [Configure field synchronization between [!DNL Jira] and [!DNL Workfront] Items](#configure-field-synchronization-between-jira-and-workfront-items).
 
-   使用此設定，每當[!DNL Workfront]使用者建立符合指定觸發器的專案時，[!DNL Jira]中就會建立新問題。
+   >[!NOTE]
+   >
+   >After you define the triggers and the synchronization of fields between the two applications, any [!DNL Workfront] user who can create tasks or issues could potentially trigger the creation of an item in [!DNL Jira]. The user can create an item if the criteria on the item they create match the triggers in [!DNL Jira], even if the user does not have a [!DNL Jira] license. Also, any [!DNL Jira] user can immediately start working on the [!DNL Jira] item, and their updates are visible in [!DNL Workfront], without them having a [!DNL Workfront] license. Any updates in [!DNL Workfront] are also visible on the [!DNL Jira] items. 
 
-## 設定[!DNL Jira]和[!DNL Workfront]專案之間的欄位同步處理
+1. (Optional) Select the **[!UICONTROL Activity Log]** tab to review any errors that might have occurred during the integration.
 
-作為[!DNL Jira]管理員，您可以定義哪些欄位應該自動同步處理[!DNL Workfront]和Jira之間連結的專案。 某些欄位可以從[!DNL Workfront]同步到[!DNL Jira]專案，而其他欄位則可以從Jira同步到Workfront。
+   For more information about the [!UICONTROL Activity Log], see [View the [!DNL Jira] [!UICONTROL Activity Log]](../../workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md).
 
-若要定義應在兩個應用程式之間連結的專案上自動同步化的欄位：
+## Configure triggers for automatically linking items between [!DNL Jira] and [!DNL Workfront] 
 
-1. 以Jira管理員身分登入[!DNL Jira]。
-1. 在主&#x200B;**[!UICONTROL 功能表中按一下]**&#x200B;設定[!DNL Jira]。
-1. 按一下&#x200B;**[!UICONTROL 附加元件]**，然後按一下&#x200B;**[!UICONTROL 管理附加元件]**。
-1. 展開&#x200B;**[!DNL Workfront]**&#x200B;附加元件。
-1. 按一下&#x200B;**[!UICONTROL 設定]**。
-1. 以Workfront管理員身分登入[!DNL Workfront]。
-1. 在Jira中，按一下&#x200B;**[!UICONTROL 設定]**&#x200B;標籤。
-1. 在&#x200B;**[!UICONTROL 從Workfront同步到Jira]**&#x200B;區段中，選取在Workfront中更新欄位時，您要在[!DNL Jira]中更新的欄位。
+As the [!DNL Jira] system administrator, you can define triggers that would automatically create issues in [!DNL Jira] when an item in [!DNL Workfront] meets certain criteria.
 
-   1. 選取下列任何與欄位同步化的頻率：
+>[!NOTE]
+>
+>It could take up to 10 minutes for the integration to create new issues in [!DNL Jira].
+
+Consider the following when configuring triggering the creation of [!DNL Jira] items as [!DNL Workfront] items are created:
+
+* The integration is unidirectional: You can only trigger items that you create in [!DNL Workfront] to be automatically created in [!DNL Jira]. You cannot trigger items that you create in [!DNL Jira] to automatically be created in [!DNL Workfront]. 
+* There is no limit to how many triggers you can have. 
+* If an item that you create in [!DNL Workfront] matches more than one of the triggers, only one item is created in [!DNL Jira]. The item is created in [!DNL Jira] according to the first trigger (in the order that they have been defined in [!DNL Jira]). All other triggers are ignored. 
+* Only one item in [!DNL Workfront] can be linked to one item in Jira. You can never link one [!DNL Workfront] item to multiple [!DNL Jira] issues, or one [!DNL Jira] issue to multiple [!DNL Workfront] items. 
+
+To configure triggers for automatically creating items in [!DNL Jira]: 
+
+1. Log in to [!DNL Jira] as a system administrator.
+1. Click **[!UICONTROL Settings]** in the main [!DNL Jira] menu.
+1. Click **[!UICONTROL Add-ons]**, then **[!UICONTROL Manage add-ons]**.
+1. Expand the **[!DNL Workfront]** add-on.
+1. Click **[!UICONTROL Configure]**.
+1. Log in to [!DNL Workfront] as a system administrator.
+
+   The **[!UICONTROL Triggers]** tab is selected by default in Jira.
+
+1. Click **[!UICONTROL Add trigger]** to add a new trigger.
+1. In the **[!UICONTROL Workfront team/user/role]** field, specify the name of a [!DNL Workfront] team, user, or job role, then click to select it when it displays in the list. 
+
+   >[!NOTE]
+   >
+   >You cannot have multiple triggers for the same team, user, or role.
+
+   When someone creates a task or an issue and assigns it to one of these entities, an issue is automatically created in [!DNL [!DNL Jira]].
+
+1. In the **[!UICONTROL [!DNL Jira] project]** field, start typing the name of a [!DNL Jira] project, then click to select it when it displays in the list.
+
+   When the [!DNL Jira] issue is created, it is placed on the project you chose here.
+
+1. Select an **I[!UICONTROL ssue type]** from the drop-down menu.
+
+   This indicates the issue type that is created in [!DNL Jira] when the conditions of this trigger are met, based on your settings for that specific project in [!DNL Jira].
+
+1. Click **[!UICONTROL Save]**. 
+
+   With this configuration, every time a [!DNL Workfront] user creates an item that matches the specified triggers, a new issue is created in [!DNL Jira].
+
+## Configure field synchronization between [!DNL Jira] and [!DNL Workfront] Items 
+
+As the [!DNL Jira] administrator, you can define which fields should automatically synchronize on items that are linked between [!DNL Workfront] and Jira. Certain fields can synchronize from the [!DNL Workfront] to the [!DNL Jira] item, and others synchronize from Jira to Workfront. 
+
+To define what fields should automatically synchronize on items linked between the two applications:
+
+1. Log in to [!DNL Jira] as a Jira administrator.
+1. Click **[!UICONTROL Settings]** in the main [!DNL Jira] menu.
+1. Click **[!UICONTROL Add-ons]**, then **[!UICONTROL Manage add-ons]**.
+1. Expand the **[!DNL Workfront]** add-on.
+1. Click **[!UICONTROL Configure]**.
+1. Log in to [!DNL Workfront] as a Workfront administrator.
+1. In Jira, click the **[!UICONTROL Setup]** tab.
+1. In the **[!UICONTROL Synchronize from Workfront to Jira]** section, select the fields that you want to update in [!DNL Jira] when they are updated in Workfront. 
+
+   1. Select any of the following frequencies with which the fields are synchronized:
 
       <table style="table-layout:auto">
          <tr>
-              <td>[!UICONTROL 建立時]</td>
-              <td>在Workfront中建立專案時，您指定的欄位會在連結的Workfront和[!DNL Jira]專案之間同步。</td>
+              <td>[!UICONTROL On Creation]</td>
+              <td>The fields you specify are synchronized between the linked Workfront and [!DNL Jira] items when the item is created in Workfront.</td>
           </tr>
           <tr>
               <td>[!UICONTROL Always]</td>
-              <td>在Workfront中更新欄位時，您指定的欄位會在連結的Workfront和[!DNL Jira]專案之間同步。 </td>
+              <td>The fields you specify are synchronized between the linked Workfront and [!DNL Jira] items when the fields are updated in Workfront. </td>
           </tr>
           <tr>
-              <td>[!UICONTROL 從不]</td>
-              <td>您指定的欄位永遠不會在連結的[!DNL Workfront]和[!DNL Jira]專案之間同步。 [!DNL Jira]中沒有表示欄位已在[!DNL Workfront]中更新。 </td>
+              <td>[!UICONTROL Never]</td>
+              <td>The fields you specify are never synchronized between the linked [!DNL Workfront] and [!DNL Jira] items. There is no indication in [!DNL Jira] that the field was updated in [!DNL Workfront]. </td>
           </tr>
       </table>
 
-   1. 選取下列任一項，同步處理從[!DNL Workfront]到[!DNL Jira]的欄位：
+   1. Select any of the following to synchronize the fields from [!DNL Workfront] to [!DNL Jira]: 
 
       <table style="table-layout:auto">
        <col>
        <col>
        <tbody>
         <tr>
-         <td role="rowheader">[!UICONTROL 名稱]</td>
-         <td><p>[!DNL Workfront]中任務或問題的名稱會變成[!DNL Jira]中連結問題的名稱。</p><p>注意：在[!DNL Jira]中自動建立新專案時，[!DNL Workfront]名稱一律會在[!DNL Jira]專案上更新，無論此處是否啟用此欄位。 當[!DNL Jira]專案手動連結至[!DNL Workfront]專案時，當您選取[!DNL Workfront]一律同步[!DNL Jira]此欄位時，<strong>專案的名稱只會在</strong>中更新。 如需手動或自動連結專案的詳細資訊，請參閱<a href="../../workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md" class="MCXref xref">在[!DNL Adobe Workfront]和[!DNL Jira]</a>之間連結專案。</p></td>
+         <td role="rowheader">[!UICONTROL Name]</td>
+         <td><p>The name of a task or an issue in [!DNL Workfront] becomes the name of the issue to which it is linked in [!DNL Jira].</p><p>Note: When new items are created in [!DNL Jira] automatically, the [!DNL Workfront] Name always updates on the [!DNL Jira] item, regardless of whether this field is enabled here or not. When a [!DNL Jira] item is manually linked to a [!DNL Workfront] item, the Name of the [!DNL Workfront] item only updates in [!DNL Jira] when you select to <strong>Always</strong> synchronize this field. For more information about linking items manually or automatically, see <a href="../../workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md" class="MCXref xref">Link items between [!DNL Adobe Workfront] and [!DNL Jira]</a>.</p></td>
         </tr>
         <tr>
-         <td role="rowheader">[!UICONTROL 說明]</td>
-         <td>[!DNL Workfront]中任務或問題的描述會變成它在[!DNL Jira]中連結到的問題的描述。</td>
+         <td role="rowheader">[!UICONTROL Description]</td>
+         <td>The description of a task or an issue in [!DNL Workfront] becomes the description of the issue to which it is linked in [!DNL Jira].</td>
         </tr>
         <tr>
-         <td role="rowheader">文件</td>
-         <td><p>附加至[!DNL Workfront]中之任務或問題的檔案也會附加至Jira中連結的問題。 來自[!DNL Workfront]的新檔案版本會新增為個別檔案至Jira，並附加<i>_v&lt;version number&gt;</i>以表示Workfront中的編號版本。 </p><p>例如，如果[!DNL Workfront]中檔案的名稱是<strong>Main Ad</strong>，而您在[!DNL Workfront]中新增新版本，則新版本會以名稱為[!DNL Jira]Main Ad_v2<strong>的新檔案形式傳輸至</strong>。</p><p>重要： <p>同步檔案時，請考量下列事項：</p>
+         <td role="rowheader">Documents</td>
+         <td><p>Documents attached to a task or an issue in [!DNL Workfront] are also attached to the issue to which it is linked in Jira. New document versions from [!DNL Workfront] are added as separate documents to Jira and are appended with <i>_v&lt;version number></i> to indicate the numbered version in Workfront. </p><p>For example, if the name of a document in [!DNL Workfront] is <strong>Main Ad</strong>, and you add a new version to it in [!DNL Workfront], the new version is transferred to [!DNL Jira] as a new document with the name <strong>Main Ad_v2</strong>.</p><p>Important: <p>Consider the following when syncing documents:</p>
            <ul>
-            <li><p>大於5MB的檔案不會同步。 如果檔案同步因為檔案太大而失敗，活動記錄中會記錄一個錯誤。 </p><p>如需活動記錄檔的詳細資訊，請參閱<a href="../../workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md" class="MCXref xref">檢視Jira活動記錄檔</a>。</p></li>
-            <li><p>連結到外部伺服器之任務和問題的檔案未傳輸到[!DNL Jira]專案。 只有直接在任務上上傳的檔案或[!DNL Workfront]中的問題才會傳輸到[!DNL Jira]中的連結問題。</p></li>
-            <li><p>若要從檔案建立校訂，您必須在[!DNL Workfront]中產生校訂。 </p><p>如需有關產生校訂的詳細資訊，請參閱<a href="../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md#create-a-proof-for-an-existing-document" class="MCXref xref">建立檔案的校訂</a>中的<a href="../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md" class="MCXref xref">為現有的檔案</a>建立校訂。<br></p></li>
+            <li><p>Documents larger than 5MB do not sync. If a document sync fails because the document is too large, an error is logged in the activity log. </p><p>For more information on the activity log, see <a href="../../workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md" class="MCXref xref">View the Jira Activity Log</a>.</p></li>
+            <li><p>Documents that are linked to tasks and issues from external servers are not transferred to the [!DNL Jira] items. Only documents uploaded directly on the task or the issue in [!DNL Workfront] are transferred to the linked issue in [!DNL Jira].</p></li>
+            <li><p>To create a proof from a document, you must generate the proof in [!DNL Workfront]. </p><p>For more information on generating a proof, see <a href="../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md#create-a-proof-for-an-existing-document" class="MCXref xref">Create a proof for an existing document </a>in <a href="../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md" class="MCXref xref">Create a proof for a document</a>.<br></p></li>
            </ul></p></td>
         </tr>
         <tr>
-         <td role="rowheader">[!UICONTROL 計畫完成日期]</td>
-         <td><p>[!DNL Workfront]中任務或問題的[!UICONTROL 規劃完成日期]成為[!DNL Jira]中連結之問題的[!UICONTROL 到期日]。</p><p>注意：請確定您在<strong>個問題上顯示</strong>[!UICONTROL 到期日]&#x200B;[!DNL Jira]，以便同步處理此值。</p></td>
+         <td role="rowheader">[!UICONTROL Planned Completion Date]</td>
+         <td><p>The [!UICONTROL Planned Completion Date] of a task or an issue in [!DNL Workfront] becomes the [!UICONTROL Due Date] of the issue to which it is linked in [!DNL Jira].</p><p>Note: Ensure that you display <strong>[!UICONTROL Due Date]</strong> on [!DNL Jira] issues, for this value to synchronize.</p></td>
         </tr>
        </tbody>
       </table>
 
-1. 在&#x200B;**[!UICONTROL 從[!DNL Jira]同步至[!DNL Workfront]]**&#x200B;區段中，選取在[!DNL Workfront]中更新欄位時，您要在[!DNL Jira]中更新的欄位。
+1. In the **[!UICONTROL Synchronize from [!DNL Jira] to [!DNL Workfront]]** section, select the fields that you want to update in [!DNL Workfront] when they are updated in [!DNL Jira]. 
 
-   1. 選取下列任何與欄位同步化的頻率：
+   1. Select any of the following frequencies with which the fields are synchronized:
 
       <table style="table-layout:auto">
        <col>
@@ -265,102 +267,104 @@ ht-degree: 1%
        <tbody>
         <tr>
          <td role="rowheader">[!UICONTROL Always]</td>
-         <td>在[!DNL Workfront]中更新欄位時，您指定的欄位一律會在連結的[!DNL Jira]和[!DNL Jira]專案之間同步。 </td>
+         <td>The fields you specify are always synchronized between the linked [!DNL Workfront] and [!DNL Jira] items when the fields are updated in [!DNL Jira]. </td>
         </tr>
         <tr>
-         <td role="rowheader">[!UICONTROL 從不]</td>
-         <td><p>您指定的欄位永遠不會在連結的[!DNL Workfront]和[!DNL Jira]專案之間同步。 [!DNL Workfront]中沒有表示欄位已在[!DNL Jira]中更新。 </p><p>注意：當您選取[永不]時，仍可以從[!DNL Workfront]問題左側[!DNL Jira]面板的[!DNL Workfront]手動更新[!DNL Jira]欄位。 這些更新只會顯示在[!DNL Workfront]和[!DNL Jira]中的[!DNL Workfront]個專案上，不會顯示在[!DNL Jira]個專案上。</p></td>
+         <td role="rowheader">[!UICONTROL Never]</td>
+         <td><p>The fields you specify are never synchronized between the linked [!DNL Workfront] and [!DNL Jira] items. There is no indication in [!DNL Workfront] that the field was updated in [!DNL Jira]. </p><p>Note: When you select Never, [!DNL Workfront] fields can still be manually updated from [!DNL Jira] in the left [!DNL Workfront] panel of the [!DNL Jira] issue. Those updates appear only on [!DNL Workfront] items in [!DNL Jira] and [!DNL Workfront] and not on [!DNL Jira] items.</p></td>
         </tr>
        </tbody>
       </table>
 
-   1. 選取以同步處理從[!DNL Jira]到[!DNL Workfront]的下列任何欄位：
+   1. Select to synchronize any of the following fields from [!DNL Jira] to [!DNL Workfront]:
 
       <table style="table-layout:auto">
        <col>
        <col>
        <tbody>
         <tr>
-         <td role="rowheader">[!UICONTROL 狀態]</td>
-         <td>[!DNL Jira]中問題的[!UICONTROL 狀態]會變成[!DNL Workfront]中連結至的任務或問題的[!UICONTROL 狀態]。<br>如需[!DNL Workfront]狀態的詳細資訊，請參閱<a href="../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">建立或編輯狀態</a>。</td>
+         <td role="rowheader">[!UICONTROL Status]</td>
+         <td>The [!UICONTROL Status] of an issue in [!DNL Jira] becomes the [!UICONTROL Status] of the task or issue to which it is linked in [!DNL Workfront].<br>For more information about [!DNL Workfront] statuses, see <a href="../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">Create or edit a status</a>.</td>
         </tr>
         <tr>
-         <td role="rowheader">[!UICONTROL 受託人]</td>
-         <td><p>[!DNL Jira]中問題的[!UICONTROL 受指派人]會成為[!DNL Workfront]中連結至該問題或任務的[!UICONTROL 受指派人]。</p><p>重要：當您將[!DNL Jira]中的專案指派給沒有[!DNL Workfront]帳戶的使用者時，整合僅當[!DNL Workfront]使用者沒有<strong>帳戶[!DNL Workfront]設定為[!DNL Jira]&#x200B;[!UICONTROL Always]&#x200B;[!DNL Workfront]時，</strong>在<strong>中自動建立使用者時，才會在</strong>中建立新的作用中使用者。 此使用者未佔用[!DNL Workfront]授權。 可將作用中的使用者指派給[!DNL Workfront]中的工作專案，但不能包含在更新中。 </p></td>
+         <td role="rowheader">[!UICONTROL Assignee]</td>
+         <td><p>The [!UICONTROL Assignee] of an issue in [!DNL Jira] becomes the [!UICONTROL Assignee] of the task or issue to which it is linked in [!DNL Workfront].</p><p>Important: When you assign an item in [!DNL Jira] to a user who does not have a [!DNL Workfront] account, the integration creates a new active user in [!DNL Workfront] only when <strong>Automatically create a user in [!DNL Workfront] if the [!DNL Jira] user does not have a [!DNL Workfront] account</strong> is set to <strong>[!UICONTROL Always]</strong>. This user does not occupy a [!DNL Workfront] license. Active users can be assigned to work items in [!DNL Workfront], but cannot be included in updates. </p></td>
         </tr>
         <tr>
-         <td role="rowheader">[!UICONTROL 附件]</td>
-         <td>[!DNL Jira]中問題的附件也附加至它在[!DNL Workfront]中連結的任務或問題。 </td>
+         <td role="rowheader">[!UICONTROL Attachments]</td>
+         <td>Attachments of an issue in [!DNL Jira] are also attached to the task or issue to which it is linked in [!DNL Workfront]. </td>
         </tr>
         <tr>
-         <td role="rowheader">[!UICONTROL 註解]</td>
-         <td><p>[!DNL Jira]問題的註解也會張貼在[!UICONTROL 更新]區域中連結的[!DNL Workfront]專案上。 相反地，針對[!DNL Workfront]任務或問題在[!UICONTROL 更新]區域張貼的註解，會同步至[!DNL Jira]的連結問題原生註解流。 </p><p>預設會設為<strong>[!UICONTROL 一直]</strong>。 如果您在這裡選取<strong>[!UICONTROL Never]</strong>，您仍可在[!DNL Workfront]或[!DNL Jira]中手動在連結專案上張貼註解。</p></td>
+         <td role="rowheader">[!UICONTROL Comments]</td>
+         <td><p>A comment on a [!DNL Jira] issue is also posted on the linked [!DNL Workfront] item in the [!UICONTROL Updates] area. Conversely, a comment posted in the [!UICONTROL Updates] area for a [!DNL Workfront] task or issue syncs to [!DNL Jira]'s native comment stream for the linked issue. </p><p>This is set to <strong>[!UICONTROL Always]</strong> by default. If you select <strong>[!UICONTROL Never]</strong> here, you can still post comments manually on a linked item either in [!DNL Workfront] or in [!DNL Jira].</p></td>
         </tr>
        </tbody>
       </table>
 
-1. 在&#x200B;**[!UICONTROL OTHER]**&#x200B;區段中，選取連結專案之間應更新的其他欄位。
+1. In the **[!UICONTROL OTHER]** section, select which additional fields should be updated between linked items. 
 
-   1. 選取選項，以決定您指定的欄位在修改時，是在&#x200B;**[!UICONTROL 或]**&#x200B;中的&#x200B;**[!UICONTROL 一律]**&#x200B;或[!DNL Jira]永不[!DNL Workfront]更新。
+   1. Select an option to determine whether the fields you specify **[!UICONTROL Always]** or **[!UICONTROL Never]** update in [!DNL Jira] or [!DNL Workfront] when they are modified.
 
-   1. 從下列欄位和更新中選取：
+   1. Select from the following fields and updates:
 
       <table style="table-layout:auto">
        <col>
        <col>
        <tbody>
         <tr>
-         <td role="rowheader">&lbrack;！UICONTROL複製[!DNL Workfront]中右側面板中的[!DNL Jira]自訂資料</td>
-         <td><p>顯示[!DNL Workfront]右側面板中專案的[!DNL Workfront]自訂資料。</p><p>注意：自訂表單區段會顯示在具有[!DNL Workfront]系統管理員存取層級的[!DNL Workfront]右側面板中。</p></td>
+         <td role="rowheader">[!UICONTROL Copy [!DNL Workfront] Custom Data in the right panel in [!DNL Jira]]</td>
+         <td><p>Displays the [!DNL Workfront] Custom Data of an item in the [!DNL Workfront] right panel.</p><p>Note:  Custom Form sections are displayed in the [!DNL Workfront] right panel with the access level of the [!DNL Workfront] System Administrator.</p></td>
         </tr>
         <tr>
-         <td role="rowheader">&lbrack;！UICONTROL複製[!DNL Workfront]中右側面板的[!DNL Jira]優先順序</td>
-         <td>顯示[!DNL Workfront]右側面板中專案的[!DNL Workfront]優先順序。</td>
+         <td role="rowheader">[!UICONTROL Copy [!DNL Workfront] Priority in the right panel in [!DNL Jira]]</td>
+         <td>Displays the [!DNL Workfront] Priority of an item in the [!DNL Workfront] right panel.</td>
         </tr>
         <tr>
-         <td role="rowheader">&lbrack;！UICONTROL在「[!DNL Workfront] Updates」索引標籤中新增有關「[!DNL Jira]」中到期日變更的更新</td>
-         <td>當連結的[!DNL Workfront]專案中的[!UICONTROL 到期日]變更時，在[!DNL Jira]專案的[!UICONTROL Update]索引標籤中新增註解。</td>
+         <td role="rowheader">[!UICONTROL Add an update in the [!DNL Workfront] Updates tab about Due Date changes in [!DNL Jira]]</td>
+         <td>Adds a comment in the [!UICONTROL Update] tab of the [!DNL Workfront] item when the [!UICONTROL Due Date] changes in linked [!DNL Jira] item.</td>
         </tr>
         <tr>
-         <td role="rowheader">[!UICONTROL 如果[!DNL Workfront]使用者沒有[!DNL Jira]帳戶，則在[!DNL Workfront]中自動建立使用者]</td>
-         <td><p>存在下列情況：</p>
+         <td role="rowheader">[!UICONTROL Automatically create a user in [!DNL Workfront] if the [!DNL Jira] user does not have a [!DNL Workfront] account]</td>
+         <td><p>The following scenarios exist:</p>
           <ul>
-           <li>當您選取<strong>[!UICONTROL Always]</strong>時，您啟用整合，以便在每次沒有[!DNL Jira]帳戶的[!DNL Workfront]使用者對連結的[!DNL Jira]問題執行下列動作時，建立新的Workfront使用者：
+           <li>When you select <strong>[!UICONTROL Always]</strong>, you enable the integration to create a new Workfront user every time a [!DNL Jira] user without a [!DNL Workfront] account performs the following actions on a linked [!DNL Jira] issue:
             <ul>
-             <li>已指派給[!DNL Jira]問題</li>
-             <li><p>將時間記錄到[!DNL Jira]問題</p><p>此新使用者未佔用[!DNL Workfront]授權。 預設設定為「一律」。 在[!DNL Workfront]中以此方式建立的使用者已將「[!UICONTROL Jira]」新增至其名稱。</p></li>
+             <li>Is assigned to a [!DNL Jira] issue</li>
+             <li><p>Logs time to a [!DNL Jira] issue</p><p>This new user does not occupy a [!DNL Workfront] license. The default setting is Always. The user created this way in [!DNL Workfront] has "[!UICONTROL Jira]" added to their name.</p></li>
             </ul></li>
-           <li>當您選取<strong>[!UICONTROL Never]</strong>時，會發生下列情況：
+           <li>When you select <strong>[!UICONTROL Never]</strong>, the following things happen:
             <ul>
-             <li>您無法在[!DNL Jira]個專案上看到任何[!DNL Workfront]指派。 在此情況下，只有在[!DNL Workfront]中完成的指派會顯示在[!DNL Workfront]個專案上。</li>
-             <li>沒有[!DNL Jira]帳戶的使用者登入已連結[!DNL Workfront]問題的時間不會自動傳輸至已連結的[!DNL Workfront]專案。 您仍然可以在[!DNL Workfront]問題的右側面板中的[!DNL Jira]專案上記錄時間。</li>
+             <li>You are not able to see any [!DNL Jira] assignments on the [!DNL Workfront] items. In this case, only assignments made in [!DNL Workfront] display on the [!DNL Workfront] items.</li>
+             <li>The time logged to a linked [!DNL Jira] issue by a user without a [!DNL Workfront] account does not automatically transfer to the linked [!DNL Workfront] item. You can still log time on the [!DNL Workfront] item in the right panel of the [!DNL Jira] issue.</li>
             </ul></li>
           </ul></td>
         </tr>
        </tbody>
       </table>
 
-1. 按一下「**[!UICONTROL 儲存]**」。
+1. Click **[!UICONTROL Save]**.
 
-   現在，每當使用者更新此設定中在[!DNL Jira]或[!DNL Workfront]中專案上指定的任何欄位時，其他應用程式中的連結專案也會更新。
+   Now, every time a user updates any of the fields specified in this configuration on an item in either [!DNL Jira] or [!DNL Workfront], the linked item in the other application is updated as well. 
 
-## 疑難排解
+## Troubleshooting
 
-### 無法在[!DNL Jira]中建立專案，因為找不到標示為&quot;&quot;的觸發欄位
+### Items cannot be created in [!DNL Jira] because of trigger fields marked "[!UICONTROL Couldn't be found]"
 
-#### 問題
+#### Problem
 
-當[!DNL Workfront for Jira]應用程式發生錯誤時，[!DNL Workfront]會停用觸發程式以避免進一步的複雜性。 當這些觸發程式停用時，會顯示為&quot;[!UICONTROL 找不到]&quot;。
+When an error occurs with the [!DNL Workfront for Jira] application, [!DNL Workfront] disables the triggers to prevent further complications. When those triggers are disabled, they display as "[!UICONTROL Couldn't be found]."
 
-#### 解決方案
+#### Solution
 
-找出停用觸發程式的錯誤。 您可以在[!DNL Workfront for Jira] [!UICONTROL 活動記錄]中找到錯誤。
+Locate the error that disabled the triggers. You can find the error in the [!DNL Workfront for Jira] [!UICONTROL Activity Log].
 
-發生此行為的最常見原因是錯誤&#39;&#39;[!UICONTROL 無法設定&#39;duedate&#39;欄位。 不在適當的熒幕上，或未知。]」
+The most common cause of this behavior is the error "[!UICONTROL Field 'duedate' cannot be set. It is not on the appropriate screen, or unknown.]"
 
-此錯誤表示您正嘗試將&quot;[!UICONTROL 規劃完成日期]&quot;從[!DNL Workfront]同步至[!DNL Jira]。 若要這麼做，您必須確定您的[!DNL Jira]物件有一個名為&quot;[!UICONTROL 到期日]&quot;的欄位。 如果他們沒有此欄位，[!DNL Workfront]將無法從[!DNL Workfront]同步計畫完成日期，並停用您的觸發器。
+This error means that you are attempting to sync the "[!UICONTROL Planned Completion Date]" from [!DNL Workfront] to [!DNL Jira]. In order to do this, you must ensure that your [!DNL Jira] objects have a field called "[!UICONTROL Due Date]." If they do not have this field, [!DNL Workfront] is unable to sync the planned completion date from [!DNL Workfront] and disables your triggers.
 
-若要解決此錯誤，請嘗試下列方法之一：
+To resolve this error, try one of the following:
 
-* 請要求您的[!DNL Jira]管理員更新受影響的[!DNL Jira]物件，以確保它們有到期日欄位。
-* 在Workfront [!DNL Workfront]安裝程式[!UICONTROL 頁面中停用]計畫完成日期的同步處理。
+* Ask your [!DNL Jira] administrator to update the affected [!DNL Jira] objects to ensure that they have a due date field.
+* Disable the synchronization of [!DNL Workfront]'s planned completion date in the Workfront [!UICONTROL Setup] page.
+
+-->

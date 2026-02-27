@@ -7,9 +7,9 @@ description: 適用於Google Workspace的Workfront中的隱私權與許可權
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: abb8ffa1-1da6-46dd-a929-18b17014839a
-source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
+source-git-commit: 228fd22f1894689c0d256270350cc82954901641
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->為了提供更穩定且更可擴充的整合，我們改用現代、彈性的整合方法，即使用Workfront自動化與整合(Fusion)。 在此轉換過程中，下列Google Workspace適用的Workfront功能在&#x200B;**2026年2月28日**&#x200B;後將無法使用：
+>為了提供更穩定且更可擴充的整合，我們已改用使用Workfront自動化與整合(Fusion)的現代、彈性整合方法。 在此轉換過程中，下列Google Workspace的Workfront功能&#x200B;**已不再提供**：
 >
 >* 從Workfront存取Google Workspace功能
 >
@@ -26,20 +26,24 @@ ht-degree: 0%
 >
 >為了滿足貴組織與Google Workspace的整合需求，我們建議您使用Workfront自動化和整合。
 >
->如需Workfront自動化與整合的概觀，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+>如需Workfront自動化與整合的概觀，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 >
->如需Google Workspace之Workfront自動化與整合模組的特定功能相關資訊，請參閱[Gmail模組](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)和[Google行事曆模組](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)。
+>如需Google Workspace之Workfront自動化與整合模組的特定功能相關資訊，請參閱[Gmail模組](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)和[Google行事曆模組](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)。
 
-由於客戶隱私權很重要，Adobe Workfront不會儲存或收集任何因Google外掛程式應用程式的第三方授權而產生的識別客戶資料。 Google Workspace的Workfront使用從Google API收到的資訊並傳輸到任何其他應用程式時，將遵守[Google API服務使用者資料原則](https://developers.google.com/terms/api-services-user-data-policy)，包括有限使用要求。
+<!--
 
-我們需要下列許可權，才能讓適用於Google Workspace的Workfront外掛程式提供最大價值：
+Because customer privacy is important, Adobe Workfront does not store or collect any identifying customer data that results from third-party authorization of a Google plug-in app. Workfront for Google Workspace's use and transfer of information received from Google APIs to any other app will adhere with the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), including the Limited Use requirements.
 
-* **當附加元件執行時，檢視您的電子郵件訊息**： Google適用的Workfront Workspace外掛程式可將電子郵件轉換為Workfront中的新工作，並自動將電子郵件的主旨與內文填入工作的標題與說明，讓使用者省下無數小時的重複工作。 此外掛程式也可讓您將電子郵件作為新評論發佈至Workfront。 外掛程式必須在執行附加元件時檢視您的電子郵件訊息，才能傳遞此值。
-* **以Gmail附加元件執行/不敏感**： Workfront需要許可權，Google Workspace附加元件才能在Gmail環境中運作。 外掛程式需要Gmail環境才能運作，因此需要`Run as a Gmail add-on / non-sensitive`許可權。
-* **當附加元件執行時，檢視您的電子郵件訊息中繼資料**：為了改善工作流程，Google Workspace的Workfront外掛程式會確認電子郵件是否為Workfront通知，並識別Workfront通知的型別（新工作要求、核准要求、新註解等）。 外掛程式需要`View your email message metadata when the add-on is running`許可權才能傳遞此值。
-* **外掛程式必須以Calendar附加元件執行/不敏感**：適用於Google Workspace的Workfront外掛程式會連線至您的行事曆，以便您以視覺效果呈現工作對排程的影響。 外掛程式需要`Run as a Calendar add-on / non-sensitive`許可權才能執行此操作。
-* **連線到外部服務許可權：**&#x200B;外掛程式最終需要連線到Workfront API，這是外掛程式值的骨幹。 Workfront API是Google外部的服務，所以外掛程式需要`Connect to an external service permission`才能讓外掛程式運作。
+We require the following permissions so the Workfront for Google Workspace plug-in can deliver its maximum value:
 
-如需有關Adobe Workfront致力於客戶隱私權的詳細資訊，請參閱[Workfront的隱私權通知](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Privacy-Notice-and-Privacy-Shield-Statement-Adobe-Workfront.pdf)。
+* **View your email messages when the add-on is running**: The Workfront for Google Workspace plug-in can save users countless hours of duplicative work by converting emails to new tasks in Workfront and automatically populating the task's title and description with email's subject and body. The plug-in also allows to post your emails to Workfront as new comments. The plug-in needs to view your email messages when the add-on is running to deliver this value.
+* **Run as a Gmail add-on / non-sensitive**: Permissions are needed for the Workfront for Google Workspace add-on to function in Gmail environment. The plug-in requires a Gmail environment to work, so it requires the `Run as a Gmail add-on / non-sensitive` permission.
+* **View your email message metadata when the add-on is running**: To improve workflows, the Workfront for Google Workspace plug-in confirms if an email is a Workfront notification, and identifies the type of Workfront notification (new work request, approval request, new comment etc.). The plug-in requires the `View your email message metadata when the add-on is running` permission to deliver this value.
+* **Plug-in needs to Run as a Calendar add-on / non-sensitive**: The Workfront for Google Workspace plug-in connects to your calendar, so you can visualize how tasks impact schedules. The plug-in needs the `Run as a Calendar add-on / non-sensitive` permission to do this.
+* **Connect to an external service permission:** Ultimately, the plug-in needs to connect to the Workfront API, which is the backbone of the plug-in value. The Workfront API is a service external to Google, so the plug-in requires the `Connect to an external service permission` to make the plug-in work.
 
-如需詳細資訊，請參閱[Google API服務使用者資料原則](https://developers.google.com/terms/api-services-user-data-policy)。
+For more information on Adobe Workfront's dedication to customer privacy, see [Workfront's Privacy Notice](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Privacy-Notice-and-Privacy-Shield-Statement-Adobe-Workfront.pdf).
+
+For more information, see [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy).
+
+-->

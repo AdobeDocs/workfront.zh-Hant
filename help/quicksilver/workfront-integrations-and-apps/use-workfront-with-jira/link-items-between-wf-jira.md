@@ -6,10 +6,10 @@ description: 您可以自動或手動將 [!DNL Jira] 問題連結至 [!DNL Adobe
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 1c37f361-e866-4ac6-b672-408848a80ed6
-source-git-commit: e06713b8871ba5e7bfae58f67ee246c9c1163a63
+source-git-commit: 204324d5a5aaffbe47d31709096e739b62acecb8
 workflow-type: tm+mt
-source-wordcount: '1378'
-ht-degree: 1%
+source-wordcount: '104'
+ht-degree: 0%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->為了提供更穩定且更可擴充的整合，我們改用現代、彈性的整合方法，即使用Workfront自動化與整合(Fusion)。 在此轉換過程中，Jira整合的Workfront在&#x200B;**2026年2月28日**&#x200B;後將無法使用。
+>為了提供更穩定且更可擴充的整合，我們已改用使用Workfront自動化與整合(Fusion)的現代、彈性整合方法。 在此轉換程式中，不再提供Jira整合&#x200B;**的Workfront**。
 >
 >根據貴組織與Jira的整合需求，我們建議使用Workfront自動化和整合。
 >
->如需Workfront自動化與整合的概觀，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+>如需Workfront自動化與整合的概觀，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 >
->如需Jira的Workfront自動化與整合模組特定功能的相關資訊，請參閱[Jira軟體模組](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-modules-new)。
+>如需Jira的Workfront自動化與整合模組特定功能的相關資訊，請參閱[Jira軟體模組](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-modules-new)。
 
 <!--
 
@@ -37,204 +37,208 @@ ht-degree: 1%
 >
 >Eight ready-to-use Workfront Automation and Integration templates for Jira will be available by August to help replicate common workflows and accelerate implementation. Templates are fully customizable to meet specific business needs and can be extended as requirements evolve. 
 > 
->For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
+>For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
 >
->For information about the specific capabilities of the Workfront Automation and Integration modules for Jira, see [Jira Software modules](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules). 
+>For information about the specific capabilities of the Workfront Automation and Integration modules for Jira, see [Jira Software modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules). 
 
 -->
 
-您可以自動或手動將[!DNL Jira]問題連結至[!DNL Adobe Workfront]個任務或問題。
+<!--
 
-[!DNL Workfront]中只有一個專案可以連結到[!DNL Jira]中的一個專案。 您永遠無法將一個[!DNL Workfront]專案連結至多個[!DNL Jira]問題，也無法將一個[!DNL Jira]問題連結至多個[!DNL Workfront]專案。
+You can link [!DNL Jira] issues to [!DNL Adobe Workfront] tasks or issues either automatically or manually.
 
-## 存取權要求
+Only one item in [!DNL Workfront] can be linked to one item in [!DNL Jira]. You can never link one [!DNL Workfront] item to multiple [!DNL Jira] issues, nor one [!DNL Jira] issue to multiple [!DNL Workfront] items.
 
-+++ 展開以檢視這篇文章中所述功能的存取權要求。
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 封裝</td> 
-   <td><p>任何</p>
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td><p>Any</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td><p>標準 </p>
-       <p>規劃 </p>
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>Standard </p>
+       <p>Plan </p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Jira存取</td> 
-   <td> <p>系統管理員存取權</p> <p>重要：建議您在Jira和Workfront中建立個別系統管理員帳戶，以專門用於此整合，而不使用可能附加至使用者的現有帳戶。</p> </td> 
+   <td role="rowheader">Jira access</td> 
+   <td> <p>System administrator access</p> <p>Important:  We recommend that you create separate system administrator accounts in Jira and Workfront to dedicate to this integration, rather than using existing ones that might be attached to users.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
-   <td> <p>您必須是Workfront管理員。</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must be a Workfront administrator.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## 安裝[!DNL Workfront]的[!DNL Jira]
+## Install [!DNL Workfront] for [!DNL Jira]
 
-為[!DNL Workfront] OnDemand安裝[!DNL Jira]與在[!DNL Jira]伺服器執行個體上安裝它相同。
+Installing [!DNL Workfront] for [!DNL Jira] OnDemand is identical to installing it on a [!DNL Jira] Server instance.
 
-您必須是[!DNL Jira]管理員才能安裝[!DNL Workfront]附加元件。
+You must be a [!DNL Jira] administrator to install the [!DNL Workfront] add-on.
 
-如果您不是[!DNL Jira]管理員，可以瀏覽[!DNL Workfront]附加元件並要求安裝。 您的要求已傳送給[!DNL Jira]管理員進行核准和安裝。
+If you are not a [!DNL Jira] administrator, you can browse for the [!DNL Workfront] add-on and request it to be installed. Your request is sent to the [!DNL Jira] administrator for approval and installation. 
 
-如需有關要求在[!DNL Jira]應用程式上安裝附加元件的詳細資訊，請參閱[管理附加元件的使用者要求。](https://confluence.atlassian.com/upm/managing-user-requests-for-add-ons-781394968.html)
+For more information about requesting an add-on to be installed on your [!DNL Jira] application, see [Managing user requests for add-ons.](https://confluence.atlassian.com/upm/managing-user-requests-for-add-ons-781394968.html)
 
-若要安裝[!DNL Workfront for Jira]：
+To install [!DNL Workfront for Jira]:
 
-1. 以[!DNL Jira]管理員身分登入[!DNL Jira]。
-1. 在&#x200B;**[!DNL Workfront for Jira]**&#x200B;[[!DNL Atlassian Marketplace]&#x200B;中尋找](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview)附加元件。
+1. Log in to [!DNL Jira] as a [!DNL Jira] administrator.
+1. Find the **[!DNL Workfront for Jira]** add-on in the [[!DNL Atlassian Marketplace]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview).
 
-1. 按一下&#x200B;**[!UICONTROL 立即取得]**&#x200B;以進行安裝。
+1. Click **[!UICONTROL Get it now]** to install it.
 
-   安裝完成後，您可以從[!DNL Workfront]登入[!DNL Jira]並設定整合。
+   After the installation completes, you can log in to [!DNL Workfront] from [!DNL Jira] and configure your integration.
 
-   如需詳細資訊，請參閱[設定Jira的Adobe Workfront](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md)。
+   For more information, see [Configure Adobe Workfront for Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
 
-## 先決條件
+## Prerequisites
 
-您必須先執行下列動作，才可連結[!DNL Workfront]與[!DNL Jira]之間的專案：
+Before you can link items between [!DNL Workfront] and [!DNL Jira], you must do the following:
 
-* 安裝[!DNL Workfront]的[!DNL Jira]。
+* Install [!DNL Workfront] for [!DNL Jira].
 
-  如需指示，請參閱[安裝Jira適用的Adobe Workfront](../../workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md)。
+   For instructions, see [Install Adobe Workfront for Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md).
 
-* 設定Jira的[!DNL Workfront]。
+* Configure [!DNL Workfront] for Jira.
 
-  如需指示，請參閱[設定Jira的Adobe Workfront](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md)。
+   For instructions, see [Configure Adobe Workfront for Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
 
-## 自動將[!DNL Workfront]個專案連結至[!DNL Jira]個問題
+## Automatically link [!DNL Workfront] items to [!DNL Jira] issues 
 
-作為[!DNL Workfront]管理員，您可以定義觸發器，每次在任務或[!DNL Jira]中的問題符合特定條件時，這些觸發器都會在[!DNL Workfront]中自動建立問題。 Workfront和[!DNL Jira]專案會變成連結。
+As a [!DNL Workfront] administrator, you can define triggers that will automatically create an issue in [!DNL Jira] every time certain conditions are met on a task or an issue in [!DNL Workfront]. The Workfront and [!DNL Jira] items become linked.
 
-在您完成Jira的[!DNL Workfront]設定後，在[!DNL Workfront]中建立或更新專案以符合您的觸發程式時，就會在[!DNL Jira]中自動建立新專案。
+After you have completed the configuration of [!DNL Workfront] for Jira, when an item is either created or updated in [!DNL Workfront] to match your triggers, a new item is automatically created in [!DNL Jira].
 
-建立和更新Workfront專案的Workfront使用者不需要[!DNL Jira]授權即可觸發在[!DNL Jira]中建立專案。
+Workfront users that create and update Workfront items do not need a [!DNL Jira] license to trigger the creation of items in [!DNL Jira].
 
-如需詳細資訊，請參閱[為Jira [!DNL Adobe Workfront] 設定](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md)。
+For more information, see  [Configure [!DNL Adobe Workfront] for Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
 
 >[!NOTE]
 >
->您可以將範本附加至專案以自動建立[!DNL Jira]專案。 如果範本包含的工作分派符合[!DNL Jira]個觸發程式，則新工作會產生新的[!DNL Jira]個問題。
+>You can create [!DNL Jira] items automatically by attaching a template to a project. If the template contains tasks with assignments that meet the [!DNL Jira] triggers, the new tasks generate new [!DNL Jira] issues.
 
-自動將[!DNL Workfront]問題連結至[!DNL Jira]問題等同於自動將[!DNL Workfront]任務連結至[!DNL Jira]問題。
+Automatically linking a [!DNL Workfront] issue to a [!DNL Jira] issue is identical to automatically linking a [!DNL Workfront] task to a [!DNL Jira] issue.
 
-若要自動將[!DNL Workfront]任務連結至[!DNL Jira]問題：
+To automatically link a [!DNL Workfront] task to a [!DNL Jira] issue:
 
-1. 確保您的[!DNL Jira]系統管理員已設定在指派[!DNL Jira]專案時自動建立[!DNL Workfront]問題的觸發器，然後以可讓您建立任務的存取層級登入[!DNL Workfront]。
+1. Ensure that your [!DNL Jira] system administrator has configured triggers for automatically creating [!DNL Jira] issues when [!DNL Workfront] items are assigned, then log in to [!DNL Workfront] with an access level that allows you to create a task.
 
-   如需存取工作的詳細資訊，請參閱[授與工作存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)。
+   For more information about access to tasks, see [Grant access to tasks](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md).
 
 {{step1-to-projects}}
 
-1. 在&#x200B;**專案**&#x200B;頁面上，選取專案。
+1. On the **Projects** page, select a project.
 
-1. 在專案左側面板中，選取&#x200B;**[!UICONTROL 任務]**。
+1. In the project left panel, select **[!UICONTROL Tasks]**.
 
-1. 按一下&#x200B;**+新工作**。
-
-   >[!NOTE]
-   >
-   >若要將現有Workfront專案連結至Jira問題，請從專案的&#x200B;**更多** **更多圖示**&#x200B;功能表中選取![編輯](assets/more-icon.png)。
-
-1. 指定或更新任何可用於任務的欄位。
-1. 在&#x200B;**[!UICONTROL 指派]**&#x200B;欄位中，搜尋並選取在[!DNL Jira]整合中指定為觸發器的使用者、角色或團隊。
-
-1. 按一下&#x200B;**建立工作**。 任務已在Workfront中建立，且任務的&#x200B;**更新**&#x200B;標籤中出現新註解，表示已在[!DNL Jira]中建立新問題。
-
-1. （選擇性）在任務或問題標題的&#x200B;**[!UICONTROL 詳細資料]**&#x200B;區段的&#x200B;**[!UICONTROL 整合]**&#x200B;區域中，按一下&#x200B;**[!UICONTROL 前往Jira]**&#x200B;連結以在Jira中開啟問題。
-
-   您的系統或群組管理員必須將[!UICONTROL 整合]欄位新增到您的版面配置範本，才能在任務或問題標題中顯示該欄位。 如需詳細資訊，請參閱[使用配置範本自訂物件標頭](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)。
-
-   任何[!DNL Jira]使用者都可以立即開始處理從[!DNL Workfront]自動建立的專案，其更新將轉移到[!DNL Workfront]，而不需要[!DNL Workfront]的授權。
-
-   只有您在[!DNL Workfront]附加元件設定期間設定為[!DNL Workfront]管理員的欄位才會更新。
-
-   如需有關在Workfront和Jira之間同步欄位的詳細資訊，請參閱[為Jira設定Workfront](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md)中的「為Jira設定Adobe Workfront」一節。
+1. Click **+ New Task**.
 
    >[!NOTE]
    >
-   >從Workfront自動建立[!DNL Jira]問題時，未指派給[!DNL Jira]中的任何人。
+   >To link an existing Workfront item to a Jira issue, select **Edit** from the item's **More** ![More icon](assets/more-icon.png) menu.
 
-## 手動將[!DNL Jira]個問題連結至[!DNL Workfront]個專案
+1. Specify or update any of the fields available for the task.
+1. In the **[!UICONTROL Assignments]** field, search for and select the user, role, or team that is specified as a trigger in the [!DNL Jira] integration.
 
-在[!DNL Jira]與[!DNL Workfront]中建立彼此獨立的專案後，您可以手動將[!DNL Jira]問題連結至現有的[!DNL Workfront]任務或問題。
+1. Click **Create Task**. The task is created in Workfront, and a new comment appears in the task's **Updates** tab to indicate that a new issue has also been created in [!DNL Jira].
 
-您無法從[!DNL Workfront]手動將[!DNL Workfront]專案連結至現有的[!DNL Jira]專案。
+1. (Optional) In the **[!UICONTROL Integrations]** area of the **[!UICONTROL Details]** section of the task or issue header, click the **[!UICONTROL Go to Jira]** link to open the issue in Jira.
+
+   Your system or group administrator must add the [!UICONTROL Integrations] field to your layout template to display it in the task or issue header. For information, see [Customize object headers using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+
+   Any [!DNL Jira] user can immediately start working on items automatically created from [!DNL Workfront] and their updates will transfer to [!DNL Workfront] without needing a license for [!DNL Workfront] to do so.
+
+   Only the fields that you as a [!DNL Workfront] administrator configured during the setup of the [!DNL Workfront] add-on are updated.
+
+   For more information about synchronizing fields between Workfront and Jira, see the Configure Workfront for Jira section in  [Configure Adobe Workfront for Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
+
+   >[!NOTE]
+   >
+   >The [!DNL Jira] issue isn't assigned to anyone in [!DNL Jira] when it's automatically created from Workfront.
+
+## Manually link [!DNL Jira] issues to [!DNL Workfront] items
+
+After items have been created in [!DNL Jira] and [!DNL Workfront] independent of each other, you can manually link a [!DNL Jira] issue to an existing [!DNL Workfront] task or issue.
+
+You cannot manually link a [!DNL Workfront] item from [!DNL Workfront] to an existing [!DNL Jira] item.
 
 >[!NOTE]
 >
->如果[!DNL Jira]問題不在未在[!DNL Workfront]整合中識別為觸發器的專案上，則當您使用與[!DNL Jira]內部部署的整合時，無法手動將其連結至Workfront專案。\
->如需設定Workfront至Jira工作流程觸發器的詳細資訊，請參閱[自動將Workfront專案連結至Jira問題](#automatically-link-workfront-items-to-jira-issues)。
+>If the [!DNL Jira] issue is not on a project which is not identified as a trigger in the [!DNL Workfront] Integration you cannot manually link it to a Workfront item when using the integration with [!DNL Jira] On-Premise.\
+>For more information about setting up triggers for the Workfront to Jira workflow, see [Automatically link Workfront items to Jira issues](#automatically-link-workfront-items-to-jira-issues).
 
-連結[!DNL Workfront]和[!DNL Jira]專案時，其中一個專案的某些欄位會自動更新另一個專案。\
-如需有關更新連結專案的詳細資訊，請參閱[更新Jira和Adobe Workfront之間的連結專案](../../workfront-integrations-and-apps/use-workfront-with-jira/update-linked-items-between-jira-wf.md)。
+When [!DNL Workfront] and [!DNL Jira] items are linked, certain fields from one item can be automatically updated on the other.\
+For more information about updating linked items, see [Update linked items between Jira and Adobe Workfront](../../workfront-integrations-and-apps/use-workfront-with-jira/update-linked-items-between-jira-wf.md).
 
-若要手動將[!DNL Jira]個問題連結至[!DNL Workfront]個專案：
+To manually link [!DNL Jira] issues to [!DNL Workfront] items:
 
-1. （視條件而定）登入[!DNL Workfront]並尋找您要連結至[!DNL Jira]問題的問題或任務。
-1. （視條件而定）在&#x200B;**任務詳細資料**&#x200B;或&#x200B;**問題詳細資料**&#x200B;索引標籤的&#x200B;**基本資訊**&#x200B;區段中，複製Workfront中專案的&#x200B;**[!UICONTROL 參考號碼]**。
+1. (Conditional) Log in to [!DNL Workfront] and find an issue or a task that you want to link to a [!DNL Jira] issue.
+1. (Conditional) In the **Basic information** section in the **Task Details** or **Issue Details** tab, copy the **[!UICONTROL Reference Number]** of the item in Workfront.
+   
+   Or
 
-   或
-
-   從專案的位址列，複製Workfront中專案的&#x200B;**URL**。
+   From the address bar of the item, copy the **URL** of the item in Workfront.
 
    >[!IMPORTANT]
    >
-   >如果您的組織已加入Adobe統一體驗，您必須使用&#x200B;**參考編號**&#x200B;將Workfront專案連結至Jira。 （URL選項可供使用，但如果您使用它，則會傳回錯誤。） 如需Unified Experience的相關資訊，請參閱[Workfront的Adobe Unified Experience &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
+   >If your organization has been onboarded to the Adobe Unified Experience, you must use the **Reference Number** for linking Workfront items to Jira. (The URL option is available, but it will return an error if you use it.) For information about the Unified Experience, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
    >
-   >對於不在Adobe Unified Experience上的組織，不建議使用URL選項，因為URL可能會變更。
+   >For organizations not on the Adobe Unified Experience, it's not recommended to use the URL option because URLs can change.
 
    >[!NOTE]
    >
-   >您必須擁有[!DNL Workfront]授權才能登入[!DNL Workfront]。 否則，[!DNL Workfront]使用者必須提供此資訊給您。
+   >You must have a [!DNL Workfront] license to log in to [!DNL Workfront]. Otherwise, a [!DNL Workfront] user must supply this information to you.
 
-1. 在[!DNL Jira]中，瀏覽至您要手動連結至[!DNL Workfront]專案的問題。
-1. 在[!DNL Workfront]右側面板中，貼上您要連結它的&#x200B;**[!UICONTROL 專案的]**&#x200B;參考號碼&#x200B;**或** URL[!DNL Workfront]。
+1. In [!DNL Jira], navigate to an issue that you want to manually link to the [!DNL Workfront] item.
+1. In the [!DNL Workfront] right panel, paste the **[!UICONTROL Reference Number]** or the **URL** of the [!DNL Workfront] item that you want to link it to.
 
-1. 按一下&#x200B;**[!UICONTROL 連結]**。 這兩個專案會連結，[!DNL Workfront]右側面板會填入[!DNL Workfront]專案的資訊。
+1. Click **[!UICONTROL Link]**. The two items become linked and the [!DNL Workfront] right panel is populated with information from the [!DNL Workfront] item.
 
-   依預設，下列[!DNL Workfront]欄位會顯示在[!DNL Jira]右側面板的[!DNL Workfront]中：
+   By default, the following [!DNL Workfront] fields are visible in [!DNL Jira] in the [!DNL Workfront] right panel:
 
-   * 專案的&#x200B;**[!UICONTROL 名稱]**。 您可以按一下面板中的名稱來存取[!DNL Workfront]專案。
-   * **[!UICONTROL 專案名稱]**。
-   * 專案的&#x200B;**[!UICONTROL 狀態]**。
-   * 專案的&#x200B;**[!UICONTROL 優先順序]**。
-   * 建立日期為[!DNL Workfront]。
-   * 專案的&#x200B;**[!UICONTROL 計畫時數]**。
-   * **[!UICONTROL 參考號碼]**。 您可以按一下面板中的[!DNL Workfront]參考號碼&#x200B;**來存取**&#x200B;專案。
+   * The **[!UICONTROL Name]** of the item. You can access the [!DNL Workfront] item by clicking the name in the panel. 
+   * The **[!UICONTROL Project Name]**.
+   * The **[!UICONTROL Status]** of the item.
+   * The **[!UICONTROL Priority]** of the item.
+   * The date that it was created in [!DNL Workfront].
+   * The **[!UICONTROL Planned Hours]** of the item.
+   * The **[!UICONTROL Reference Number]**. You can access the [!DNL Workfront] item by clicking the **Reference Number** in the panel.
 
-   如需有關啟用其他欄位顯示在右側面板的詳細資訊，請參閱[!DNL Jira]設定[!DNL Workfront]中的[設定[與 [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md)專案之間的欄位同步]區段。 來自與整合相關聯之[!DNL Workfront]管理員的註解已發佈在&#x200B;**[!DNL Workfront]**&#x200B;問題的[!DNL Jira]標籤中，以確認已建立新的[!DNL Jira]專案。 註解包含[!DNL Jira]問題的連結。
+   For more information about enabling additional fields to display in the right panel, see the Configure field synchronization between [!DNL Jira] and [!DNL Workfront] Items section in [Configure [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md). A comment from the [!DNL Workfront] administrator associated with the integration is posted in the **[!DNL Workfront]** tab of the [!DNL Jira] issue to confirm that a new [!DNL Jira] item has been created. The comment contains a link to the [!DNL Jira] issue.
 
-## 取消連結[!DNL Jira]和[!DNL Workfront]之間的專案
+## Unlink items between [!DNL Jira] and [!DNL Workfront]
 
-在[!DNL Jira]中可以手動取消連結[!DNL Workfront]和[!DNL Jira]之間的連結專案。 您無法從[!DNL Workfront]中相對應的[!DNL Jira]專案取消連結[!DNL Workfront]專案。
+Linked items between [!DNL Jira] and [!DNL Workfront] can be manually unlinked in [!DNL Jira]. You cannot unlink a [!DNL Workfront] item from their [!DNL Jira] counterpart in [!DNL Workfront]. 
 
-您需要以下存取權來取消手動連結的專案的連結：
+You need the following access to unlink manually linked item:
 
-* 您是手動連結專案的使用者。
-* 您是[!DNL Jira]系統管理員。
+* You are the user who manually linked the items.
+* You are the [!DNL Jira] system administrator.
 
 >[!NOTE]
 >
->只有[!DNL Workfront]管理員可以取消連結已自動連結的專案。
+>Only a [!DNL Workfront] administrator can unlink items that were automatically linked. 
 
-若要從[!DNL Jira]專案取消連結[!DNL Workfront]問題：
+To unlink a [!DNL Jira] issue from a [!DNL Workfront] item:
 
-1. 登入Jira。
-1. 導覽至連結至[!DNL Workfront]任務或問題的問題。
-1. 前往&#x200B;**Workfront**&#x200B;右側面板。
-1. 按一下&#x200B;**[!UICONTROL 取消連結]**&#x200B;圖示，然後按一下&#x200B;**[!UICONTROL 取消連結]**。 先前連結的[!DNL Jira]和[!DNL Workfront]專案已取消連結。
+1. Log in to Jira.
+1. Navigate to the issue that is linked to a [!DNL Workfront] task or issue.
+1. Go to the **Workfront** right panel.
+1. Click the **[!UICONTROL Unlink]** icon, then click **[!UICONTROL Unlink]**. The previously linked [!DNL Jira] and [!DNL Workfront] items unlink. 
 
-   未來更新的任何欄位、註解或檔案都不會在其他應用程式中更新為先前的對應專案。
+   Any of their fields, comments, or documents that are updated in the future are not updated on their previous counterpart in the other application. 
+
+-->

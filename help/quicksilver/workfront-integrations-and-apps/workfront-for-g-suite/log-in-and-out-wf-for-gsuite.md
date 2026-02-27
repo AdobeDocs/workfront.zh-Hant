@@ -7,9 +7,9 @@ description: 本文說明如何登入或登出 [!DNL Adobe Workfront for] Google
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 8a91f1d9-bc67-4c27-a6c0-2482488c670b
-source-git-commit: 1e5b3c7d087c34870ccb0f4e65021358f08b81bf
+source-git-commit: c36b716663af8079894cc69a24f49b8078ddf196
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '140'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->為了提供更穩定且更可擴充的整合，我們改用現代、彈性的整合方法，即使用Workfront自動化與整合(Fusion)。 在此轉換過程中，下列Google Workspace適用的Workfront功能在&#x200B;**2026年2月28日**&#x200B;後將無法使用：
+>為了提供更穩定且更可擴充的整合，我們已改用使用Workfront自動化與整合(Fusion)的現代、彈性整合方法。 在此轉換過程中，下列Google Workspace的Workfront功能&#x200B;**已不再提供**：
 >
 >* 從Workfront存取Google Workspace功能
 >
@@ -26,61 +26,65 @@ ht-degree: 0%
 >
 >為了滿足貴組織與Google Workspace的整合需求，我們建議您使用Workfront自動化和整合。
 >
->如需Workfront自動化與整合的概觀，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+>如需Workfront自動化與整合的概觀，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 >
->如需Google Workspace之Workfront自動化與整合模組的特定功能相關資訊，請參閱[Gmail模組](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)和[Google行事曆模組](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)。
+>如需Google Workspace之Workfront自動化與整合模組的特定功能相關資訊，請參閱[Gmail模組](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)和[Google行事曆模組](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)。
 
-## 存取需求
+<!--
 
-+++ 展開以檢視本文中功能的存取需求。
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>標準</p><p>工作或更高</p>
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p><p>Work or higher</p>
   </tr> 
  </tbody> 
 </table>
 
-如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## 先決條件
+## Prerequisites
 
-您必須先登入或登出[!DNL Workfront for Google Workspace]
+Before you can log in or out of [!DNL Workfront for Google Workspace], you must
 
-* 安裝[!DNL Workfront for Google Workspace]\
-   如需指示，請參閱[安裝 [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)。
+* Install [!DNL Workfront for Google Workspace]\
+   For instructions, see [Install [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
-## 登入[!DNL Adobe Workfront for Google Workspace]
+## Log into [!DNL Adobe Workfront for Google Workspace]
 
-1. 按一下[!DNL Workfront]、![或](assets/wf-lion-icon.png)最右側[!DNL Google Workspace]附加元件側邊欄中的[!DNL Gmail]圖示[!DNL Google Calendar]Workfront圖示[!DNL Google Drive]。
+1. Click the [!DNL Workfront] icon ![Workfront icon](assets/wf-lion-icon.png) in the [!DNL Google Workspace] add-ons sidebar at the far-right of [!DNL Gmail], [!DNL Google Calendar], or [!DNL Google Drive].
 
-   如果您剛安裝[!DNL Workfront for Google Workspace]附加元件，但看不到此圖示，請嘗試重新整理瀏覽器頁面。
+   If you have just installed the [!DNL Workfront for Google Workspace] add-on and you cannot see this icon, try refreshing the browser page.
 
-1. 在&#x200B;**[!UICONTROL 附加元件中按一下]**&#x200B;登入[!DNL Workfront for Google Workspace]。
-1. 輸入您的[!DNL Workfront]網域位址，例如&#x200B;*companyname.my.workfront.com*。
-1. 依照提示登入[!DNL Workfront]。
+1. Click **[!UICONTROL Log In]** in the [!DNL Workfront for Google Workspace] add-on.
+1. Type your [!DNL Workfront] domain address, such as *companyname.my.workfront.com*.
+1. Follow the prompts to log in to [!DNL Workfront].
 
    >[!NOTE]
    >
-   >* [!DNL Workfront]使用OAuth 2.0連線至[!DNL Google Workspace]，這是大部分網頁式整合所使用的安全標準，用於驗證及授權使用者。
-   >* 當系統提示您輸入[帳戶的]網域或主機[!DNL Workfront]時，請使用下列格式輸入它： *yourCompany&#39;sDomain.my.workfront.com*。 您公司的網域通常是您公司的名稱。
+   >* [!DNL Workfront] connects to [!DNL Google Workspace] using OAuth 2.0, a secure standard used by most web-based integrations for the authentication and authorization of users.
+   >* When you are prompted to enter the [domain or host] of your [!DNL Workfront] account, type it using this format: *yourCompany'sDomain.my.workfront.com*. Your company's domain is usually the name of your company.
 
 
-## 登出[!DNL Workfront for Google Workspace]
+## Log out of [!DNL Workfront for Google Workspace]
 
-1. 如果未顯示Google Workspace[!UICONTROL 的]Workfront面板，請按一下頁面最右側[!DNL Workfront]附加元件側邊欄中的![圖示](assets/wf-lion-icon.png)Workfront圖示[!DNL Google Workspace]。
-1. 按一下&#x200B;**[!UICONTROL 面板頂端的]**&#x200B;更多動作[!DNL Workfront for Google Workspace]圖示。
+1. If the [!UICONTROL Workfront for Google Workspace] panel is not displayed, click the [!DNL Workfront] icon ![Workfront icon](assets/wf-lion-icon.png) in the [!DNL Google Workspace] add-ons sidebar at the far-right of the page.
+1. Click the **[!UICONTROL More actions]** icon at the top of the [!DNL Workfront for Google Workspace] panel.
 
-1. 在出現的功能表中按一下&#x200B;**[!UICONTROL 登出]**。
+1. Click **[!UICONTROL Logout]** in the menu that appears.
 
-   這不會將您登出[!DNL Google Workspace]。
+   This does not log you out of [!DNL Google Workspace].
+
+   -->

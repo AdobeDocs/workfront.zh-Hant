@@ -6,10 +6,10 @@ description: 為Salesforce安裝 [!DNL Adobe Workfront] 之後，您可以定義
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: b38c91ae-342b-4002-a947-7a0ab1aaca93
-source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
+source-git-commit: 6af620284ed9c710196d8976a9f6cac1b3b36cf1
 workflow-type: tm+mt
-source-wordcount: '1573'
-ht-degree: 3%
+source-wordcount: '111'
+ht-degree: 0%
 
 ---
 
@@ -17,231 +17,235 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->為了提供更穩定且更可擴充的整合，我們改用現代、彈性的整合方法，即使用Workfront自動化與整合(Fusion)。 在此轉換過程中，Salesforce整合的Workfront在&#x200B;**2026年2月28日**&#x200B;後將無法使用。
+>為了提供更穩定且更可擴充的整合，我們已改用使用Workfront自動化與整合(Fusion)的現代、彈性整合方法。 在此轉換過程中，Salesforce整合&#x200B;**的Workfront已不再可用**。
 >
 >為了滿足貴組織與Salesforce的整合需求，我們建議您使用Workfront自動化和整合。
 >
->如需Workfront自動化與整合的概觀，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+>如需Workfront自動化與整合的概觀，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 >
->如需Salesforce之Workfront自動化與整合模組的特定功能相關資訊，請參閱[Salesforce模組](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules)。
+>如需Salesforce之Workfront自動化與整合模組的特定功能相關資訊，請參閱[Salesforce模組](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules)。
 
-安裝Salesforce的[!DNL Adobe Workfront]之後，您可以定義在[!DNL Workfront] [!DNL Salesforce]機會[!UICONTROL 和]帳戶[!UICONTROL 上符合某些條件時，建立]專案的觸發器。
+<!--
 
-## 存取需求
+After installing [!DNL Adobe Workfront] for Salesforce, you can define triggers that create [!DNL Workfront] projects when certain criteria are met on [!DNL Salesforce] [!UICONTROL Opportunities] and [!UICONTROL Accounts].
 
-+++ 展開以檢視本文中功能的存取需求。
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>標準</p>
-   <p>規劃</p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p>
+   <p>Plan</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## 先決條件
+## Prerequisites
 
-若要提交來自[!DNL Workfront] [!DNL Salesforce]機會[!UICONTROL 或帳戶的]要求
-確保您的環境中有以下專案：
+To submit a [!DNL Workfront] request from a [!DNL Salesforce] [!UICONTROL Opportunity] or Account
+ ensure that you have the following in your environment:
 
-* 您的[!DNL Workfront]系統管理員已安裝[!DNL Workfront for Salesforce]。\
-   如需有關安裝[!DNL Workfront for Salesforce]的詳細資訊，請參閱[安裝 [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md)
+* Your [!DNL Workfront] administrator has installed [!DNL Workfront for Salesforce].\
+   For more information about installing [!DNL Workfront for Salesforce], see [Install [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md)
 
-* 您的[!DNL Workfront]管理員已將[!DNL Workfront]區段新增至您的[!UICONTROL 機會]和帳戶
-頁面配置。\
-   如需有關將[!DNL Workfront]區段新增至版面配置的詳細資訊，請參閱[為 [!DNL Adobe Workfront] 使用者設定 [!DNL Salesforce] 區段](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md)。
+* Your [!DNL Workfront] administrator has added the [!DNL Workfront] section to your [!UICONTROL Opportunity] and Account
+ page layouts.\
+   For more information about adding the [!DNL Workfront] section to a page layout, see [Configure the [!DNL Adobe Workfront] section for [!DNL Salesforce] users](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
 
-* 您有[!DNL Workfront]帳戶，可以從[!DNL Workfront]機會[!UICONTROL 或帳戶內的]區段登入該帳戶
+* You have a [!DNL Workfront] account and you can log in to it from the [!DNL Workfront] section inside your [!UICONTROL Opportunity] or Account
 .
 
-## 正在設定從[!DNL Workfront]建立[!DNL Salesforce]個專案
+## Configuring the Creation of [!DNL Workfront] Projects from [!DNL Salesforce]
 
-* [瞭解專案的自動建立](#understanding-the-automatic-creation-of-projects-understanding-the-automatic-creation-of-projects)
-* [設定觸發程式](#configuring-triggers-configuring-triggers)
-* [瞭解專案名稱](#understanding-project-names-understanding-project-names)
+* [Understanding the Automatic Creation of Projects](#understanding-the-automatic-creation-of-projects-understanding-the-automatic-creation-of-projects)
+* [Configuring Triggers](#configuring-triggers-configuring-triggers)
+* [Understanding Project Names](#understanding-project-names-understanding-project-names)
 
-### 瞭解專案的自動建立 {#understanding-the-automatic-creation-of-projects}
+### Understanding the Automatic Creation of Projects {#understanding-the-automatic-creation-of-projects}
 
-作為[!DNL Salesforce]系統管理員，您可以定義在[!DNL Workfront]中發生下列情況時，可在[!DNL Salesforce]中自動建立專案的觸發器：
+As the [!DNL Salesforce] system administrator, you can define triggers that can automatically create projects in [!DNL Workfront] when the following things happen in [!DNL Salesforce]:
 
-* [!UICONTROL 商機]的[!UICONTROL 階段]已更新。
-* 帳戶的[!UICONTROL 型別]
-已更新。
+* The [!UICONTROL Stage] of an [!UICONTROL Opportunity] is updated.
+* The [!UICONTROL Type] of an Account
+ is updated.  
 
-只有在您已安裝[!DNL Workfront for Salesforce]之後，才能設定觸發程式。  \
-如需有關安裝[!DNL Workfront for Salesforce]的資訊，請參閱[安裝 [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md)。
+Triggers can be configured only after you have installed [!DNL Workfront for Salesforce].  \
+For information about installing [!DNL Workfront for Salesforce], see [Install [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md).
 
-在建立或更新[!DNL Workfront]專案時，在設定觸發程式以自動建立[!DNL Salesforce]專案時，請考慮下列事項：
+Consider the following when configuring triggers to automatically create [!DNL Workfront] projects when [!DNL Salesforce] items are created or updated:
 
-* 您必須是[!DNL Salesforce]和[!DNL Workfront]系統管理員才能設定觸發器。
-* 在您設定觸發程式後，任何更新[!UICONTROL 機會]的[!UICONTROL 階段]或帳戶的[!UICONTROL 型別]的人
-可觸發建立[!DNL Workfront]專案。 這包含沒有[!DNL Salesforce]帳戶的[!DNL Workfront]位使用者。
-* 您可以使用的觸發器數量沒有限制。
-* 您無法根據相同條件建立多個觸發器。 依預設，觸發器是唯一的。
-* 專案建立後，就會自動連結至機會或產生專案的帳戶。 建立後，此連結便無法中斷。
-* 當在機會或帳戶的生命週期中多次符合觸發的條件時，一個機會或帳戶可以連結到[!DNL Workfront]中的多個專案。
+* You must be a [!DNL Salesforce] and a [!DNL Workfront] system administrator to configure triggers. 
+* After you configure the triggers, anyone who updates the [!UICONTROL Stage] of an [!UICONTROL Opportunity] or the [!UICONTROL Type] of an Account
+ can trigger the creation of a [!DNL Workfront] project. This includes [!DNL Salesforce] users who do not have a [!DNL Workfront] account. 
+* There is no limit to how many triggers you can have.
+* You cannot create multiple triggers based on the same conditions. Triggers are unique by default.
+* Once the project is created it is automatically linked to the opportunity or the account where it was generated. Once established, this link cannot be broken.
+* One opportunity or account can be linked to multiple projects in [!DNL Workfront] when a triggered condition has been met multiple times in the life of the opportunity or the account.
 
-  例如，如果您為[!UICONTROL 商機]定義一個以上的[!UICONTROL 階段]以觸發專案，則會針對該商機所達到的每個已定義階段，在該商機的生命週期內建立專案。 此外，如果您將[!UICONTROL 商機]的[!UICONTROL 階段]從一個已定義的階段更新至另一個階段，然後更新回已定義的階段，則會在您第二次將[!UICONTROL 階段]欄位更新至相同的已定義階段時，建立第二個專案。
+   For example, if you define more then one [!UICONTROL Stage] for an [!UICONTROL Opportunity] to trigger a Project, a project is created for every defined stage that the opportunity reaches, for the life of that opportunity. Also, if you update the [!UICONTROL Stage] of an [!UICONTROL Opportunity] from one defined stage to another, and then update it back to the defined stage, a second project is created for the second time you update the [!UICONTROL Stage] field to the same defined stage. 
 
-* [!DNL Workfront]中的一個專案在任何指定時間只能連結到[!DNL Salesforce]中的一個機會或一個帳戶，但不能同時連結到兩者。
+* One project in [!DNL Workfront] can be linked only to one opportunity or one account in [!DNL Salesforce] at any given time, but not to both at the same time. 
 
-### 設定觸發程式 {#configuring-triggers}
+### Configuring Triggers {#configuring-triggers}
 
-一旦您設定觸發程式，[!DNL Workfront]Salesforce Classic[!UICONTROL 或]架構就會啟用建立[!DNL Lightning Experience]專案的程式。
+Once you configure the triggers, the process of creating [!DNL Workfront] projects is enabled for both [!UICONTROL Salesforce Classic] or [!DNL Lightning Experience] frameworks.
 
-若要在[!UICONTROL Salesforce]中設定觸發程式：
+To configure triggers in [!UICONTROL Salesforce]:
 
-1. 以系統管理員身分登入[!DNL Salesforce]。
-1. （條件式）在[!DNL Salesforce Classic]中，按一下&#x200B;**[!UICONTROL 設定]**，然後在&#x200B;**[!UICONTROL 建置]**&#x200B;區段下，展開&#x200B;**[!UICONTROL 閃電]**。
+1. Log in to [!DNL Salesforce] as the system administrator. 
+1. (Conditional) In [!DNL Salesforce Classic], click **[!UICONTROL Setup]**, and under the **[!UICONTROL Build]** section, expand **[!UICONTROL Lightning Bolt]**.
 
-   或
+   Or
 
-   在[!DNL Salesforce] Lightning Experience中，按一下&#x200B;**[!UICONTROL 設定]圖示**，然後按一下&#x200B;**[!UICONTROL 設定]**，並在&#x200B;**[!UICONTROL 平台工具]**&#x200B;下方展開&#x200B;**[!UICONTROL 應用程式]**。
+   In [!DNL Salesforce] Lightning Experience, click the **[!UICONTROL Setup] icon**, then **[!UICONTROL Setup]**, and under **[!UICONTROL PLATFORM TOOLS]** expand **[!UICONTROL Apps]**.
 
-1. 按一下&#x200B;**[!UICONTROL 已安裝的封裝]**。
+1. Click **[!UICONTROL Installed Packages]**.
 
-   請注意，**[!DNL Workfront]**&#x200B;套件已經安裝。
+   Notice that the **[!DNL Workfront]** package has been installed.
 
-1. 按一下&#x200B;**[!UICONTROL 旁的]**&#x200B;設定&#x200B;**[!DNL Workfront]**。
+1. Click **[!UICONTROL Configure]** next to **[!DNL Workfront]**.
 
-1. 以系統管理員身分登入[!DNL Workfront]。
+1. Log in to [!DNL Workfront] as a system administrator.
 
-   顯示&#x200B;**[!UICONTROL Triggers]**&#x200B;頁面。
+   The **[!UICONTROL Triggers]** page displays.
 
    ![salesforce_triggers_page_empty.png](assets/salesforce-triggers-page-empty-350x134.png)
 
-1. 按一下&#x200B;**[!UICONTROL 新增觸發器]**。
-1. 從&#x200B;**[!UICONTROL [!DNL Salesforce]物件]**&#x200B;下拉式功能表中，選取&#x200B;**[!UICONTROL 機會]**。
+1. Click **[!UICONTROL New Trigger]**. 
+1. From the **[!UICONTROL [!DNL Salesforce] Object]** drop-down menu, select **[!UICONTROL Opportunity]**.
 
-   這是必填欄位。
+   This is a required field.
 
-1. （視條件而定）指定下列專案：
+1. (Conditional) Specify the following:
 
-   1. 從&#x200B;**[!UICONTROL 階段]**&#x200B;下拉式功能表中，選取&#x200B;**[!UICONTROL 階段]**。\
+   1. From the **[!UICONTROL Stage]** drop-down menu, select a **[!UICONTROL Stage]**.\
 
-      當機會到達此處指定的[!UICONTROL 階段]時，會在[!DNL Workfront]中建立專案。 這是必填欄位。
+      When an opportunity reaches the [!UICONTROL Stage] specified here, a project is created in [!DNL Workfront]. This is a required field.
 
-   1. 在&#x200B;**[!UICONTROL Portfolio或方案]**&#x200B;欄位中，開始輸入您要將專案放置在[!DNL Workfront]中的Portfolio或方案名稱，然後在其出現在清單中時選取它。\
+   1. In the **[!UICONTROL Portfolio or Program]** field, start typing the name of a Portfolio or Program where you want the project to be placed in [!DNL Workfront], then select it when it appears in the list.\
 
-      如果您未指定Portfolio或程式，則會建立新專案，並在設定觸發程式時將其新增至登入[!UICONTROL 之使用者的]我擁有的專案[!DNL Workfront]清單。 該使用者也是新專案的專案所有者。
+      If you do not specify a Portfolio or a Program, the new project is created and added to the [!UICONTROL Projects I Own] list of the user logged in to [!DNL Workfront] when configuring the triggers. That user is also the Project Owner for the new project.
 
-   1. 開始輸入您要與新[!DNL Workfront]專案關聯的範本名稱，然後在其出現在清單中時選取它。\
+   1. Start typing the name of a Template that you want to associate with the new [!DNL Workfront] project, then select it when it appears in the list.\
 
-      這是必填欄位。
+      This is a required field. 
 
 
       >[!NOTE]
       >
-      >如果您已在您計畫用於此整合的範本上指定範本所有者，則該範本所有者會成為新專案的專案所有者。 根據範本，新專案會顯示在新專案擁有者的使用者[!UICONTROL 我擁有的專案]清單下。
+      >If you have specified a Template Owner on the template that you are planning to use for this integration, that becomes the Project Owner of the new project. The new projects appear under the [!UICONTROL Projects I Own] list of the user who is the owner of the new project, according to the template.
 
-   1. （選擇性）如果您想要為任何一個銷售機會下銷售的每種產品型別建立新專案，請選取&#x200B;**[!UICONTROL 為每個銷售的產品型別建立新專案]欄位**。
-   1. （視條件而定）在&#x200B;**[!UICONTROL 產品]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 產品]**。
+   1. (Optional) Select the **[!UICONTROL Create a new project for each sold product type] field**, if you want to create a new project for every type of product that is sold under any one opportunity. 
+   1. (Conditional) Select a **[!UICONTROL Product]** in the **[!UICONTROL Product]** drop-down menu.
 
-      這是必填欄位。
+      This is a required field.
 
-   1. （視條件而定）如果指定的產品位於&#x200B;**[!UICONTROL 機會]**&#x200B;上，請開始輸入您要與新[!DNL Workfront]專案關聯的[!UICONTROL 範本]名稱。 當它出現在清單中時選取它。
+   1. (Conditional) Start typing the name of a **[!UICONTROL Template]** that you want to associate with the new [!DNL Workfront] project if the specified Product is on the [!UICONTROL Opportunity]. Select it when it appears in the list.
 
-      這是必填欄位。
+      This is a required field.
 
-      將新產品新增至[!DNL Salesforce]機會時所建立的專案放在為該機會選取的相同Portfolio或方案中。
+      The project created when a new product is added to the [!DNL Salesforce] opportunity is placed in the same Portfolio or Program selected for the opportunity.
 
       >[!IMPORTANT]
       >
-      >專案只有在[!UICONTROL 機會]上更新階段時才會建立。 為更新「階段」欄位時指定的每個產品建立唯一的專案，而不是因為產品已新增到[!UICONTROL 機會]。
+      >The project is created only when the Stage is updated on the [!UICONTROL Opportunity]. A unique project is created for each product specified when the Stage field is updated, and not as the products are added to [!UICONTROL Opportunities].
 
-1. （選擇性）按一下&#x200B;**[!UICONTROL 新增觸發器]**。
-1. （選擇性）從&#x200B;**[!UICONTROL [!DNL Salesforce]物件]**&#x200B;下拉式功能表中，選取**帳戶
-**。
+1. (Optional) Click **[!UICONTROL New Trigger]**. 
+1. (Optional) From the **[!UICONTROL [!DNL Salesforce] Object]** drop-down menu, select **Account
+**.
 
-   這是必填欄位。
-1. （視條件而定）指定下列專案：
+   This is a required field. 
+1. (Conditional) Specify the following: 
 
-   1. 從&#x200B;**[!UICONTROL 型別]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 型別]**。
+   1. Select a **[!UICONTROL Type]** from the **[!UICONTROL Type]** drop-down menu.
 
-      任何**Account時
-**被指定為**&#x200B;[!UICONTROL 中在此指定的]&#x200B;**&#x200B;型別[!DNL Salesforce]，在&#x200B;**&#x200B;[!UICONTROL 中建立了一個]**&#x200B;專案[!DNL Workfront]。
+      When any **Account
+** is designated as the **[!UICONTROL Type]** specified here in [!DNL Salesforce], a **[!UICONTROL Project]** is created in [!DNL Workfront].
 
-      這是必填欄位。
+      This is a required field. 
 
-   1. （選擇性）開始輸入&#x200B;**[!UICONTROL Portfolio]**&#x200B;或&#x200B;**[!UICONTROL 方案]**&#x200B;的名稱，您要將專案放置在[!DNL Workfront]Portfolio或方案&#x200B;**[!UICONTROL 欄位的]**&#x200B;中，然後當專案出現在清單中時選取它。
+   1. (Optional) Start typing the name of a **[!UICONTROL Portfolio]** or **[!UICONTROL Program]** where you want the project to be placed in [!DNL Workfront] in the **[!UICONTROL Portfolio or Program]** field, then select it when it appears in the list.
 
-      若您未指定Portfolio或程式，則會建立新專案並將其新增至從&#x200B;**[!UICONTROL 登入]**&#x200B;之使用者的[!DNL Workfront]我擁有的專案[!DNL Salesforce]清單中。 使用者也是新專案的專案所有者。
+      If you do not specify a Portfolio or a Program, the new project is created and added to the **[!UICONTROL Projects I Own]** list of the user logged in to [!DNL Workfront] from [!DNL Salesforce]. The user is also the Project Owner for the new project. 
 
-   1. 開始輸入您想要與新&#x200B;**[!UICONTROL 專案關聯的]**&#x200B;範本[!DNL Workfront]名稱，然後在其出現在清單中時選取它。
+   1. Start typing the name of a **[!UICONTROL Template]** that you want to associate with the new [!DNL Workfront] project, then select it when it appears in the list.
 
-      這是必填欄位。
+      This is a required field. 
 
       >[!NOTE]
       >
-      >如果您已在您計畫用於此整合的範本上指定範本所有者，則該範本所有者會成為新專案的專案所有者。 根據範本，新專案會顯示在新專案擁有者的使用者&#x200B;**[!UICONTROL 我擁有的專案]**&#x200B;清單下。
+      >If you have specified a Template Owner on the template that you are planning to use for this integration, that becomes the Project Owner of the new project. The new projects appear under the **[!UICONTROL Projects I Own]** list of the user who is the owner of the new project, according to the template.
 
    ![salesforce_triggers_page_with_cleaned_up_template_names.png](assets/salesforce-triggers-page-with-cleaned-up-template-names-350x157.png)
 
-1. 按一下「**[!UICONTROL 儲存]**」。
+1. Click **[!UICONTROL Save]**.
 
-   現在會在每次符合觸發程式時產生[!DNL Workfront]個專案。
+   [!DNL Workfront] projects are now generated every time any of the triggers are met.
 
-### 瞭解專案名稱 {#understanding-project-names}
+### Understanding Project Names {#understanding-project-names}
 
-根據產生專案的觸發器，[!DNL Workfront]中的專案名稱可能會遵循下列其中一種模式：
+Depending on which trigger generated the projects, the names of the projects in [!DNL Workfront] could follow either one of these patterns:
 
-* 如果專案是根據商機或帳戶觸發程式所建立，則專案名稱為： *`<Salesforce object name>`： `<Project template name>` （透過[!DNL Salesforce]）*。
-* 如果專案是根據同時包含新增「產品」的機會觸發程式所建立，則專案名稱為： *`<Salesforce object name>`： `<Salesforce product name>` （透過[!DNL Salesforce]）*。
+* If the project is created based on an opportunity or account trigger, the name of the project is: *`<Salesforce object name>`: `<Project template name>` (via [!DNL Salesforce])*.
+* If the project is created based on an opportunity trigger that also includes the addition of a new Product, the name of the project is: *`<Salesforce object name>`: `<Salesforce product name>` (via [!DNL Salesforce])*.
 
-## 檢視[!DNL Workfront]個專案
+## View [!DNL Workfront] projects
 
-若您的[!DNL Workfront]管理員已將[!DNL Workfront]區段新增至您的[!UICONTROL 商機]或帳戶
-頁面配置，您可以看到在此區段的[!UICONTROL 專案]索引標籤中自動建立的專案。\
-如需將[!DNL Workfront]區段新增至[!UICONTROL 機會]或帳戶的頁面配置的詳細資訊
-，請參閱[設定 [!DNL Adobe Workfront] 使用者的 [!DNL Salesforce] 區段](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md)。
+If your [!DNL Workfront] administrator added the [!DNL Workfront] section to your [!UICONTROL Opportunity] or Account
+ page layout, you can see the projects automatically created in the [!UICONTROL Projects] tab of this section.\
+For more information about adding the [!DNL Workfront] section to the page layout of an [!UICONTROL Opportunity] or Account
+, see [Configure the [!DNL Adobe Workfront] section for [!DNL Salesforce] users](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
 
-您必須擁有[!DNL Workfront]帳戶並登入[!DNL Workfront]，才能檢視[!UICONTROL 專案]索引標籤。
+You must have a [!DNL Workfront] account and be logged in to [!DNL Workfront] to view the [!UICONTROL Projects] tab.
 
-若要檢視從[!UICONTROL 商機]或帳戶建立的專案
-：
+To view projects created from an [!UICONTROL Opportunity] or Account
+: 
 
-1. 移至[!UICONTROL 商機]或帳戶
+1. Go to an [!UICONTROL Opportunity] or Account
 .
-1. 移至&#x200B;**[!DNL Workfront]**&#x200B;區段。
+1. Go to the **[!DNL Workfront]** section.
 
    >[!NOTE]
    >
-   >根據您的[!DNL Workfront]管理員設定此區段的方式，它可能有不同的名稱。
+   >Depending on how your [!DNL Workfront] administrator configured this section, it might have a different name.
 
-1. 選取&#x200B;**[!UICONTROL 專案]**&#x200B;索引標籤。
+1. Select the **[!UICONTROL Projects]** tab.
 
-   此標籤會列出所有由已定義觸發器建立的專案。 任何在[!DNL Salesforce]中同時擁有[!DNL Workfront]帳戶且可能有權在[!DNL Workfront]中檢視這些專案的使用者，也可以在[!DNL Salesforce]機會[!UICONTROL 或帳戶的]中檢視它們
-產生這些事件的人。
+   All projects created by defined triggers are listed in this tab. Any user in [!DNL Salesforce] who also has a [!DNL Workfront] account and who might have permissions to see these projects in [!DNL Workfront] can also see them in [!DNL Salesforce] for the [!UICONTROL Opportunity] or the Account
+ that generated them.
 
-   您可以檢視下列整合所建立專案的相關資訊：
+   You can view the following information about the projects created by the integration:
 
-   * 專案名稱
-   * 參考號碼
-   * 輸入日期
-   * 擁有者的名稱
-   * 狀態
-   * 條件
-   * 規劃完成日期
-   * 完成百分比
+   * Project Name 
+   * Reference Number
+   * Entry Date
+   * Name of the Owner
+   * Status
+   * Condition
+   * Planned Completion Date
+   * Percent Complete
 
-     在[!DNL Workfront]中更新此資訊時，您可以看到此清單中已更新的欄位。
+      When this information is updated in [!DNL Workfront], you can see the fields updated in this list. 
 
-1. （選用）按一下專案名稱，以在Workfront中開啟。
-1. （選擇性）按一下[!UICONTROL **[!UICONTROL 專案詳細資料]**]區域或專案標題中的[!UICONTROL 前往Salesforce]以存取[!UICONTROL 機會]或帳戶
-專案的來源。 您的系統或群組管理員必須新增[!UICONTROL 整合]欄位至您的版面配置範本，才能在專案標題中找到。
+1. (Optional) Click the name of a project to open it in Workfront.
+1. (Optional) Click [!UICONTROL **[!UICONTROL Go to Salesforce]**] in the [!UICONTROL Project Details] area or the project header to access the [!UICONTROL Opportunity] or the Account
+ where the project originated. Your system or group administrator must add the [!UICONTROL Integrations] field to your layout template to find it in the project header.
 
    >[!NOTE]
    >
-   >所有可以檢視專案的[!UICONTROL 使用者皆可看到]前往Salesforce[!DNL Workfront]連結。 您必須有[!DNL Salesforce]帳戶才能前往產生專案的[!DNL Salesforce]商機或帳戶。
+   >The [!UICONTROL Go to Salesforce] link is visible to all [!DNL Workfront] users who can view the project. You must have a [!DNL Salesforce] account to be able to go to the [!DNL Salesforce] Opportunity or Account from where the project was generated.
+
+   -->

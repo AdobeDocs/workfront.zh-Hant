@@ -7,9 +7,9 @@ description: 您無需離開Google Workspace，即可檢視及管理與 [!DNL Ad
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 20c9e1a6-fce0-44a2-a4c3-f89c94db6635
-source-git-commit: 1e5b3c7d087c34870ccb0f4e65021358f08b81bf
+source-git-commit: 228fd22f1894689c0d256270350cc82954901641
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '139'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->為了提供更穩定且更可擴充的整合，我們改用現代、彈性的整合方法，即使用Workfront自動化與整合(Fusion)。 在此轉換過程中，下列Google Workspace適用的Workfront功能在&#x200B;**2026年2月28日**&#x200B;後將無法使用：
+>為了提供更穩定且更可擴充的整合，我們已改用使用Workfront自動化與整合(Fusion)的現代、彈性整合方法。 在此轉換過程中，下列Google Workspace的Workfront功能&#x200B;**已不再提供**：
 >
 >* 從Workfront存取Google Workspace功能
 >
@@ -26,69 +26,73 @@ ht-degree: 0%
 >
 >為了滿足貴組織與Google Workspace的整合需求，我們建議您使用Workfront自動化和整合。
 >
->如需Workfront自動化與整合的概觀，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+>如需Workfront自動化與整合的概觀，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 >
->如需Google Workspace之Workfront自動化與整合模組的特定功能相關資訊，請參閱[Gmail模組](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)和[Google行事曆模組](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)。
+>如需Google Workspace之Workfront自動化與整合模組的特定功能相關資訊，請參閱[Gmail模組](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)和[Google行事曆模組](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)。
 
-您可以檢視和管理與[!DNL Adobe Workfront]物件相關聯的檔案，而不需離開[!DNL Google Workspace]。
+<!--
 
-## 存取需求
+You can view and manage documents associated with a [!DNL Adobe Workfront] object without leaving [!DNL Google Workspace].
 
-+++ 展開以檢視本文中功能的存取需求。
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>標準</p><p>工作或更高</p>
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p><p>Work or higher</p>
   </tr> 
  </tbody> 
 </table>
 
-如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## 先決條件
+## Prerequisites
 
-您必須先檢視或管理[!DNL Workfront]中的[!DNL Google Workspace]份檔案，然後才能進行檢視
+Before you can view or manage [!DNL Workfront] documents in [!DNL Google Workspace], you must
 
-* 安裝[!DNL Workfront for Google Workspace]\
-   如需指示，請參閱[安裝 [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)。
+* Install [!DNL Workfront for Google Workspace]\
+   For instructions, see [Install [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
-## 檢視及管理[!DNL Workfront]中的[!DNL Google Workspace]檔案
+## View and manage [!DNL Workfront] documents in [!DNL Google Workspace]
 
-1. 如果未顯示Google Workspace[!UICONTROL 的]Workfront面板，請按一下頁面最右側[!DNL Workfront]附加元件側邊欄中的![圖示](assets/wf-lion-icon.png)Workfront圖示[!DNL Google Workspace]。
-1. 移至[!DNL Workfront]內的[!DNL Google Workspace]任務或問題，如[存取 [!DNL Adobe Workfront] [!UICONTROL 首頁]來自 [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md)的內容中所述。
-1. 按一下&#x200B;**[!UICONTROL 檔案]**。
+1. If the [!UICONTROL Workfront for Google Workspace] panel is not displayed, click the [!DNL Workfront] icon ![Workfront icon](assets/wf-lion-icon.png) in the [!DNL Google Workspace] add-ons sidebar at the far-right of the page.
+1. Go to the [!DNL Workfront] task or issue within [!DNL Google Workspace], as described in [Access [!DNL Adobe Workfront] [!UICONTROL Home] content from [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md).
+1. Click **[!UICONTROL Documents]**.
 
-   數字表示有多少檔案已上傳到任務或問題，包括附加檔案和儲存在雲端的共用檔案。
+   The number indicates how many documents have been uploaded to the task or issue, both as attached files and as shared files stored in the cloud.
 
-   上傳至任務和問題的資料夾和檔案會出現在清單中。 您可以按一下任何資料夾以列出其中的檔案。
+   Folders and documents uploaded to the task and issue appear in a list. You can click any folder to list the documents inside.
 
-1. （選擇性）按一下檔案的名稱以檢視其相關資訊。
+1. (Optional) Click the name of a document to view information about it.
 
-   當您檢視檔案的相關資訊時，[!DNL Workfront for Google Workspace]頂端的資訊會顯示檔案的父物件及檔名稱。 在底下，您可以檢視檔案的其他資訊，例如擁有者、加入物件的日期及其大小。
+   When you are viewing information about a document, the information at the top of [!DNL Workfront for Google Workspace] displays the parent object of the document and the name of the document. Below, you can view additional information about the document, such as the owner, the date when it was added to the object, and its size.
 
-1. （選擇性）按一下&#x200B;**[!UICONTROL 更新]**&#x200B;以檢視或張貼檔案的任何更新，然後按一下&#x200B;**[!UICONTROL 詳細資料]**&#x200B;以返回檢視檔案的資訊。
+1. (Optional) Click **[!UICONTROL Updates]** to view or post any updates about the document, then click **[!UICONTROL Details]** to return to viewing information about the document.
 
-   如果您需要張貼更新或回覆的相關資訊，請參閱[從 [!DNL Adobe Workfront] 更新a [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md)物件。
+   If you need information about posting updates or replies, see [Update a [!DNL Adobe Workfront] object from [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md).
 
-1. （選擇性）按一下&#x200B;**[!UICONTROL 下載]**&#x200B;圖示![下載圖示](assets/download-icon.png)來下載清單中的檔案。
+1. (Optional) Click the **[!UICONTROL Download]** icon ![Download icon](assets/download-icon.png) to download a document in the list.
 
-   或
+   Or
 
-   如果檔案儲存在雲端磁碟機上，請按一下&#x200B;**[!UICONTROL 開啟]**&#x200B;圖示![開啟圖示](assets/open-icon.png) 。
+   If the document is saved on a cloud drive, click the **[!UICONTROL Open]** icon ![Open icon](assets/open-icon.png) .
 
-1. 按一下&#x200B;**[!UICONTROL 在Workfront中檢視]**，即可移至[!DNL Workfront]中檔案的檔案詳細資訊頁面。
+1. Click **[!UICONTROL View in Workfront]** to go to the Document Details page for the document in [!DNL Workfront].
 
-當您收到有關物件的[!DNL Workfront]通知電子郵件時，您還可以檢視和管理[!DNL Google Workspace]中與[!DNL Workfront]物件相關的檔案（和其他詳細資料）。 如需詳細資訊，請參閱[管理 [!DNL Adobe Workfront] 來自 [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/manage-wf-email-notification-details-in-gsuite.md)的通知詳細資料。
+You can also view and manage documents (and other details) associated with a [!DNL Workfront] object in [!DNL Google Workspace] when you receive a [!DNL Workfront] notification email about the object. For more information, see [Manage [!DNL Adobe Workfront] notification details from [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/manage-wf-email-notification-details-in-gsuite.md).
 
-* 如需有關在[!UICONTROL 中使用]詳細資料[!DNL Workfront for Google Workspace]索引標籤的資訊，請參閱[從 [!DNL Adobe Workfront] 檢視及管理 [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md)物件詳細資料。
-* 如需有關在[!UICONTROL 中使用]更新[!DNL Workfront for Google Workspace]索引標籤的資訊，請參閱[從 [!DNL Adobe Workfront] 更新 [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md)物件。
+* For information about using the [!UICONTROL Details] tab in [!DNL Workfront for Google Workspace], see [View and manage [!DNL Adobe Workfront] object details from [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md).
+* For information about using the [!UICONTROL Updates] tab in [!DNL Workfront for Google Workspace], see [Update an [!DNL Adobe Workfront] object from [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md).
+
+-->
