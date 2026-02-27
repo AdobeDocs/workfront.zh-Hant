@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ba6a9e68-68a1-4152-b024-cd39e06d556f
-source-git-commit: 97f5adc8811a3be7be23137a82d10d45b76ec605
+source-git-commit: f6aa8519748d98ba135fb0f572b7daade716c50f
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '674'
 ht-degree: 2%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 2%
    >* 擁有「檢閱」授權的使用者擁有轉換問題專案的檢視許可權，但他們的檢視許可權有限。
    >* 如需使用者與他人共用專案時可授與的許可權相關資訊，請參閱[在Adobe Workfront中共用專案](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)。
    >* 當您為特定型別的物件設定存取層級設定時，該設定不會影響使用者存取排名較低的物件。 例如，您可以限制使用者刪除其存取層級的專案，但這不會限制他們刪除等級低於專案的工作。如需物件階層的詳細資訊，請參閱[瞭解Adobe Workfront中的物件](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects)一文中的[相互依存性和物件階層](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)一節。
-   >* 存取層級不允許存取財務資料的使用者，無法授與允許其他人檢視財務資料的存取權。 這包括提供顯示財務資料的專案存取權，或修改存取層級以允許檢視財務資料。
+   * 存取層級不允許存取財務資料的使用者，無法授與允許其他人檢視財務資料的存取權。 這包括提供顯示財務資料的專案存取權，或修改存取層級以允許檢視財務資料。
 
 
 1. （選擇性）按一下[建立]選項右側的&#x200B;**設定共用預設值**，然後&#x200B;**新增規則**&#x200B;以新增新專案的共用規則。
@@ -93,9 +93,9 @@ ht-degree: 2%
 
    建立存取層級後，您可以將其指派給使用者。 如需詳細資訊，請參閱[編輯使用者的設定檔](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
 
-## 依授權型別存取報告、儀表板和行事曆
+## 依授權型別存取專案
 
-如需有關每個存取層級中的使用者可以對問題執行的資訊，請參閱文章[每個物件型別可用的功能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#projects)中的[專案](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)小節。
+如需有關每個存取層級中的使用者可以對專案執行的資訊，請參閱文章[每個物件型別可用的功能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#projects)中的[專案](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)小節。
 
 ## 共用專案的存取權
 

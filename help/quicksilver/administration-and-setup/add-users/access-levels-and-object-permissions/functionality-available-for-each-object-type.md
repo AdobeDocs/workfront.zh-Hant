@@ -10,16 +10,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
+source-git-commit: 57632f1949e849aca3f26874382f1101b9b0cf89
 workflow-type: tm+mt
-source-wordcount: '1588'
+source-wordcount: '1585'
 ht-degree: 14%
 
 ---
 
 # 適用於各種存取層級之每種物件型別的功能（舊版）
-
-{{highlighted-preview}}
 
 >[!NOTE]
 >
@@ -506,7 +504,6 @@ ht-degree: 14%
 | 管理計費記錄 | ✓ |  |  |
 | 管理費用 | ✓ | ✓ |  |
 | 檢視財務資料 | ✓&#42; | ✓&#42; | ✓&#42; |
-| <span class="preview">管理費率卡</span> | ✓ |  |  |
 | 在資源計畫工具中依成本檢視資訊 | ✓ |  |  |
 | 資源規劃工具中的預算資源&#42;&#42; | ✓ |  |  |
 | 檢視資源規劃工具中的資源配置&#42; | ✓ | ✓ | ✓ |
