@@ -1,7 +1,7 @@
 ---
-source-git-commit: 8fe1b2dc00c7b64b47717a17a51c0124da26d238
+source-git-commit: 703d2bb511109a68d2917fd83fd1b7f7a562f5a9
 workflow-type: tm+mt
-source-wordcount: '2644'
+source-wordcount: '2670'
 ht-degree: 1%
 
 ---
@@ -69,6 +69,8 @@ ht-degree: 1%
 
 1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，然後按一下個人資料圖片旁的使用者名稱。 或者（如果有的話），在頂端導覽區域中按一下您的個人資料圖片，然後按一下&#x200B;**[!UICONTROL Workfront個人資料]**。
 
+<!-- Notes for Workflow packaging -->
+
 ## Ultimate工作流程注意事項 {#ultimate-package}
 
 >[!IMPORTANT]
@@ -80,6 +82,12 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >您必須有Workflow Prime或Workflow Ultimate套件才能使用此功能。
+
+## 成本/帳單分割的工作流程封裝備註 {#workflow-package-for-cost-billing}
+
+>[!IMPORTANT]
+>
+>您必須有Workflow Select、Prime或Ultimate套件，才能檢視個別的計費和成本許可權。
 
 <!-- Admin and Setup -->
 
