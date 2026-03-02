@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: f28d2eef57f63cede3a08b06053e8dc6431f21d4
+source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
 workflow-type: tm+mt
-source-wordcount: '3588'
+source-wordcount: '3563'
 ht-degree: 2%
 
 ---
@@ -504,8 +504,6 @@ ht-degree: 2%
 
    ![在資料表檢視中套用群組](assets/grouping-applied-in-table-view.png)
 
-1. <span class="preview"> （選擇性）從選取欄位右側的排序下拉式功能表中選擇A-Z或Z-A。 這會相應地排序時間軸中的群組。</span>
-
 1. （選擇性）在&#x200B;**群組記錄依據**&#x200B;方塊中，按一下選取要移除分組的欄位右邊的&#x200B;**x**&#x200B;圖示
 
    或
@@ -596,7 +594,7 @@ To sort grouped records:
 
    ![即時指標表格欄位和顯示圖片連線](assets/real-time-indicator-table-field-and-avatar-connection.png)
 
-<!--maybe include a screen shot after release if they update the UI text in this list of users-->
+   <!--maybe include a screen shot after release if they update the UI text in this list of users-->
 
 1. <span class="preview"> （選擇性）按一下包含其他人編輯之欄位之儲存格右上角的三角形。 目前編輯欄位的使用者清單隨即顯示。</span>
 

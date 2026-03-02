@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
-source-git-commit: 973a095e8ff08e382010247d9ed38e48d4b2c564
+source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
 workflow-type: tm+mt
-source-wordcount: '1342'
+source-wordcount: '1341'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-在Adobe Workfront Planning中，存取記錄之「連線記錄」頁面中的物件時，您可以在清單檢視中顯示物件及其欄位。
+在Adobe Workfront Planning中，於記錄的「連線記錄」頁面中存取專案時，您可以在清單檢視中顯示專案及其欄位。<!--change 'projects' to other objects when they become available and the location of the list view-->
 
-本文說明如何在記錄的「連線記錄」頁面中建立或編輯清單檢視，以及如何編輯檢視中的物件。
+本文說明如何建立或編輯清單檢視，該檢視在記錄的「連線記錄」頁面中顯示專案，以及如何在檢視中編輯專案。<!--change 'projects' to other objects when they become available and the location of the list view-->
 
 ## 存取權要求
 
@@ -72,18 +72,19 @@ ht-degree: 0%
 
 ## 關於清單檢視的考量事項
 
-* 您無法在清單檢視中檢視記錄型別頁面中的記錄。 當您在記錄的「連線的記錄」頁面中檢視下列物件時，只能在清單檢視中顯示這些物件：
+* 您無法在清單檢視中檢視記錄型別頁面中的所有物件型別。
+
+  當您在記錄的「連線的記錄」頁面中檢視下列物件時，只能在清單檢視中顯示這些物件：
 
    * Workfront專案
 
   如需有關建立連線記錄頁面的資訊，請參閱[新增連線記錄頁面至記錄](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)。
 * 您必須先將Workfront專案與Planning記錄型別連線，才能在記錄的已連線記錄頁面中檢視清單檢視。 如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
-* 清單檢視類似於增強型清單。 如需詳細資訊，請參閱[使用增強型清單](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
 
 
 ## 管理清單檢視 {#manage-a-list-view}
 
-如需在Workfront中管理清單檢視的詳細資訊，請參閱[使用增強型清單](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
+清單檢視類似於增強型清單。 如需詳細資訊，請參閱[使用增強型清單](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
 
 {{step1-to-planning}}
 
@@ -114,7 +115,7 @@ ht-degree: 0%
       >
       >* 您無法修改系統檢視。
       >
-      >* <span class="preview">您可以在修改檢視後重設與您共用的檢視，以還原其原始偏好設定，或者您可以複製檢視與您的變更並共用復本。 如需詳細資訊，請參閱[使用增強型清單](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。</span>
+      >* <span class="preview">您可以在修改檢視以還原其原始偏好設定後，重設與您共用的檢視（您只有[檢視]的許可權），也可以複製檢視並共用復本。 如需詳細資訊，請參閱[使用增強型清單](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。</span>
 
    1. 按一下&#x200B;**篩選器**&#x200B;圖示![篩選器圖示](assets/filter-icon.png)將篩選器新增至檢視。 結果會立即在清單中篩選。 您無法儲存並命名篩選器。 日後存取頁面時會記住篩選器，這些篩選器也是共用檢視的一部分。
    1. 按一下&#x200B;**欄**&#x200B;圖示![欄圖示](assets/columns-icon.png)以選取要在檢視中顯示或隱藏的欄。
@@ -128,23 +129,23 @@ ht-degree: 0%
       您只能將現有欄位新增到清單檢視。
 您不能移除在第一欄顯示的清單檢視中的主要欄位。
 
-
    1. <span class="preview">按一下&#x200B;**格式化儲存格**&#x200B;圖示![格式化儲存格圖示](assets/format-cells-icon.png)。 **格式**&#x200B;方塊開啟。</span> <!--change the name of the box when they update it-->
       <span class="preview">執行下列動作： </span>
 
+      1. 按一下&#x200B;**新增條件**。
+      1. <span class="preview">在&#x200B;**If**&#x200B;行中，選取欄位並選擇欄位值，然後按一下&#x200B;**新增條件**。</span>
+
+         >[!TIP]
+         >
+         ><span class="preview">只有清單檢視中可見的欄位才可用於條件式格式。</span>
+
+      1. <span class="preview">（選擇性）按一下&#x200B;**If**&#x200B;行中的&#x200B;**新增條件**，將更多條件新增至相同規則。</span>
+
+         >[!TIP]
+         >
+         ><span class="preview">您可以在條件規則中新增最多10個條件，而且一個欄位最多可以有20個規則。</span>
+
       <div class="preview">
-
-      1. 在&#x200B;**If**&#x200B;行中，按一下&#x200B;**新增條件**，然後選取要格式化依據的欄位並選擇欄位值。
-
-         >[!TIP]
-         >
-         >只有清單檢視中顯示的欄位才適用於條件式格式。
-
-      1. （選擇性）按一下&#x200B;**If**&#x200B;行中的「**新增條件**」，將更多條件新增至相同規則。
-
-         >[!TIP]
-         >
-         >您可以在條件規則中新增最多10個條件，而且一個欄位最多可以有20個規則。
 
       1. 按一下條件之間的&#x200B;**Or**&#x200B;聯結器，變更為&#x200B;**和**，並指示必須同時符合多個條件。 **或**&#x200B;是預設聯結器。
       1. 在&#x200B;**格式**&#x200B;行中，選取欄位以指示要格式化的欄。<!--edit this area, if it changes names??-->

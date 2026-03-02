@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
+source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
 workflow-type: tm+mt
-source-wordcount: '3421'
+source-wordcount: '3499'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # 連接記錄
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 
 {{planning-important-intro}}
@@ -85,7 +85,7 @@ ht-degree: 1%
    <ul><li><p>Adobe Experience Manager Assets授權及AEM Assets與Workfront之間的整合，用於連結AEM資產與Planning型別。</p>
    <p>如需詳細資訊，請參閱<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">適用於Experience Manager Assets和Assets Essentials的Adobe Workfront：文章索引</a>。 </p></li>
    <li><p> 連線記錄型別與GenStudio Brands的Adobe GenStudio for Performance Marketing授權</p>
-   <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/get-started">開始使用Adobe GenStudio for Performance Marketing</a>。</p></li></ul>
+   <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">開始使用Adobe GenStudio for Performance Marketing</a>。</p></li></ul>
    </td> 
   </tr>   
 <tr> 
@@ -258,7 +258,7 @@ ht-degree: 1%
 
    或
 
-   在方塊中選取一或多個記錄的名稱，然後按一下[連線物件]。**&#x200B;**
+   在方塊中選取一或多個記錄的名稱，然後按一下[連線物件]。****
 
    新增下列專案：
 
@@ -272,7 +272,7 @@ ht-degree: 1%
    >* 我們會交替使用「連結欄位」和「查詢欄位」。
    >
    >* 當您選擇在連線記錄型別時連線多個記錄時，來自多個物件的欄位值會以逗號分隔顯示，或根據您在連線記錄型別時選擇的彙總進行彙總。
-   >* 您無法將Workfront預先輸入欄位（包括專案所有者或專案贊助者之類的欄位）新增為查詢欄位。
+   >* 您無法將Workfront預先輸入欄位新增為查詢欄位。 在生產環境中，這包括人員型別欄位，例如專案所有者或專案贊助者。 <span class="preview">您可以在預覽環境中新增人物型別欄位做為查閱欄位。</span>
    >
    >* Workfront物件的日期欄位資訊在Workfront Planning中會以24小時格式顯示，無論其在Workfront中的顯示方式為何。
    >
@@ -339,7 +339,7 @@ ht-degree: 1%
 
    或
 
-   在方塊中選取一或多個物件的名稱，然後按一下[連線物件]。**&#x200B;**
+   在方塊中選取一或多個物件的名稱，然後按一下[連線物件]。****
 
    >[!IMPORTANT]
    >
@@ -389,7 +389,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->當您的Experience Manager Assets管理員透過Workfront與Workfront之間的整合設定中繼資料對應時，可從Adobe Experience Manager Assets存取Planning記錄及其欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
+>當您的Experience Manager Assets管理員透過Workfront與Workfront之間的整合設定中繼資料對應時，可從Adobe Experience Manager Assets存取Planning記錄及其欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
 
 若要將記錄與Experience Manager資產連線：
 
@@ -487,7 +487,7 @@ ht-degree: 1%
    >
    >    依預設，只會顯示已連線個別記錄的已連線記錄。
 
-1. （選擇性）按一下[顯示所有連線]&#x200B;**&#x200B;**&#x200B;以顯示所有連線的記錄型別，包括沒有連線記錄的記錄型別。
+1. （選擇性）按一下[顯示所有連線]****&#x200B;以顯示所有連線的記錄型別，包括沒有連線記錄的記錄型別。
 
 1. （選擇性）按一下區段左側的向下箭頭以收合區段。
 

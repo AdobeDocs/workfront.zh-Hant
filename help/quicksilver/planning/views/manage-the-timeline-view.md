@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
 workflow-type: tm+mt
-source-wordcount: '3912'
+source-wordcount: '4014'
 ht-degree: 2%
 
 ---
 
 # 管理時間表檢視
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 
 {{planning-important-intro}}
@@ -138,7 +138,7 @@ ht-degree: 2%
 
 建立時間表檢視時，所選記錄型別的所有記錄都會以時間順序時間表顯示。
 
-請考量下列事項：
+考慮以下事項：
 
 * 您至少有兩個日期欄位與記錄型別相關聯時，才能建立時間表檢視。 當您有一個或沒有與記錄型別相關聯的日期欄位時，時間軸檢視選項會變暗。
 
@@ -190,7 +190,7 @@ ht-degree: 2%
    >在「設定」區域中設定自訂季度後，時間軸檢視會顯示自訂季度，而非傳統季度。
    >如需詳細資訊，請參閱[啟用自訂季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
 
-1. （視條件而定）如果您是Workfront管理員，請按一下&#x200B;**前往設定**&#x200B;設定您的季度。 如果沒有，請按一下[確定] **&#x200B;**，並要求Workfront管理員設定自訂季度。
+1. （視條件而定）如果您是Workfront管理員，請按一下&#x200B;**前往設定**&#x200B;設定您的季度。 如果沒有，請按一下[確定] ****，並要求Workfront管理員設定自訂季度。
 
    >[!TIP]
    >
@@ -406,7 +406,7 @@ ht-degree: 2%
 1. 按一下其中一個建議的欄位，或按一下&#x200B;**選擇其他欄位**，並搜尋其他欄位，然後在欄位顯示在清單中時按一下它。
 
    分組會自動套用至時間軸，且記錄會顯示在分組方塊內。
-
+1. <span class="preview">（選擇性）按一下所選欄位名稱旁的&#x200B;**A -> Z**&#x200B;或&#x200B;**Z -> A**&#x200B;下拉式功能表，以選取分組的遞增或遞減排序順序。 群組會以您在時間軸檢視中選取的字母順序顯示。</span>
 1. （可選）重複上述步驟以新增最多3個群組。
 
    為分組選取的欄位數會顯示在「分組」圖示旁。

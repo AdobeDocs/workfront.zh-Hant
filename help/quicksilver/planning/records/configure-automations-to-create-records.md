@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: cde20e5a-15a2-413a-8de4-ccf6eeb4395f
-source-git-commit: f28d2eef57f63cede3a08b06053e8dc6431f21d4
+source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
 workflow-type: tm+mt
 source-wordcount: '1777'
 ht-degree: 3%
@@ -161,7 +161,7 @@ ht-degree: 3%
       * 按鈕點按
       * <span class="preview">欄位值變更</span>
 
-   1. （視條件而定）如果您已選取&#x200B;**按一下**，請移至以下說明&#x200B;**動作**&#x200B;區域的步驟。
+   1. （視條件而定）如果您已選取&#x200B;**按一下**，請移至下列描述&#x200B;**動作**&#x200B;區域的步驟9。<!--ensure this number stays accurate-->
 
    1. <span class="preview">（條件式）若您選取&#x200B;**欄位值變更**，請在&#x200B;**設定**&#x200B;區段中執行下列動作： </span>
 
@@ -247,7 +247,7 @@ ht-degree: 3%
         這是必填欄位。
 
         <!--submitted a change in functionality and UI text for this - revise??-->
-在&#x200B;**對應欄位**&#x200B;區域中，更新下列資訊：
+在**對應欄位**&#x200B;區域中，更新下列資訊：
 
          * **傳輸自**：從建立自動化的記錄型別中選取欄位，以將它們對應到連線記錄型別的欄位。
          * **傳輸至**：從新建立的記錄中選取欄位，這些欄位會填入您執行自動化之記錄中的資訊。

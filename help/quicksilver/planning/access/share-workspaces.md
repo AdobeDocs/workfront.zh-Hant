@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 973a095e8ff08e382010247d9ed38e48d4b2c564
+source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '1025'
 ht-degree: 2%
 
 ---
@@ -151,31 +151,23 @@ This article describes how you can share a view with others. For information abo
 
    工作區右上方的![共用按鈕](assets/share-button-on-workspace-top-right.png)
 
-   <!--only for March 4: * <span class="preview">(Conditional) Depending on your access level, the following scenarios exist: </span>-->
+1. <span class="preview">（條件式）根據您擁有的存取層級，執行下列任一項作業：
 
-1. <span class="preview">（條件式）如果您是系統管理員，請從下列選項中選取：</span>
+   * 如果您是系統管理員，請從下列選項中選取：</span>
 
-   <div class="preview">
+      * <span class="preview">**只有受邀者才能存取**：您必須選取共用方塊中的實體，並選擇其工作區存取權。 這是預設選取範圍。</span>
+      * <span class="preview">**系統中的每個人都可以檢視**：系統中有權存取Planning的所有人都可以在Planning的&#x200B;**工作區**&#x200B;區域中檢視工作區。</span>
 
-   * **只有受邀者才能存取**：您必須選取共用方塊中的實體，並選擇其工作區存取權。 這是預設選取範圍。
-   * **系統中的每個人都可以檢視**：系統中有權存取Planning的所有人都可以在Planning的&#x200B;**工作區**&#x200B;區域中檢視工作區。
+   * <span class="preview">（條件式）如果您是具有Standard授權的工作區管理員，您可以看到下列其中一個選項，但無法變更它們：</span>
 
-   </div>
+      * <span class="preview">**只有受邀者可以存取**。 這是預設設定。</span>
+      * <span class="preview">**系統中的每個人都可以檢視**</span>
 
-   <!--only  for March 4:
+     <span class="preview">您必須要求系統管理員變更工作區的全域許可權。</span>
 
-      * <span class="preview">If you are a workspace manager with a Standard license, you can see one of the following selections but you cannot change them:</span>
+1. 在&#x200B;**授與此工作區的存取權**&#x200B;欄位中，開始輸入使用者、群組、團隊、公司或工作角色的名稱，然後當它顯示在清單中時按一下它。
 
-         <div class="preview">
-         
-         * **Only invited people can access**
-         * **Everyone in the system can view**
-         
-         </div>-->
-
-1. 在&#x200B;**授與此工作區的存取權**&#x200B;欄位中，開始輸入使用者、群組、團隊、公司或工作角色的名稱，然後當它顯示在清單中時按一下它。<!--update screen shot at the release of system-wide permissions for workspaces-->
-
-   ![與群組共用UI](assets/sharing-ui-with-groups.png)
+   <span class="preview">![與群組共用UI](assets/sharing-ui-with-groups.png)</span>
 
    >[!NOTE]
    >
@@ -207,7 +199,7 @@ This article describes how you can share a view with others. For information abo
      ![存取要求的電子郵件通知](assets/email-notification-for-access-request.png)
 1. （視條件而定）從Workfront的通知區域，按一下應用程式內通知
 或
-在電子郵件通知中，按一下&#x200B;**檢視所有通知**，然後按一下清單中的通知。
+在電子郵件通知中，按一下**檢視所有通知**，然後按一下清單中的通知。
 
    顯示&#x200B;**擱置中的存取要求**&#x200B;方塊。
 
