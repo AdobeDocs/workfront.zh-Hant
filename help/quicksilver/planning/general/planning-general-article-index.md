@@ -1,15 +1,15 @@
 ---
 title: Adobe Workfront規劃一般資訊：文章索引
-description: 身為行銷營運領導者，您可以使用Adobe Workfront Planning來組織所有團隊在行銷生命週期中的工作。 本節中的文章會說明Workfront Planning的一般概念、實施最佳作法，並提供目前可用功能的概觀。
+description: 做為行銷營運領導者，您可以使用 Adobe Workfront Planning 組織所有團隊在行銷生命週期中的工作。本節中的文章會說明Workfront Planning的一般概念、實施最佳作法，並提供目前可用功能的概觀。
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8c4e4fbb-2f21-43a1-bfb0-d23ac1a33705
-source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
+source-git-commit: 61c6bc0770416e02390f4e3de869d9e2565897d4
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 0%
+source-wordcount: '187'
+ht-degree: 23%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-身為行銷營運領導者，您可以使用Adobe Workfront Planning來組織所有團隊在行銷生命週期中的工作。 本節中的文章會說明Workfront Planning的一般概念、實施最佳作法，並提供目前可用功能的概觀。
+做為行銷營運領導者，您可以使用 Adobe Workfront Planning 組織所有團隊在行銷生命週期中的工作。本節中的文章會說明Workfront Planning的一般概念、實施最佳作法，並提供目前可用功能的概觀。
 
 檢閱下列文章：
 
@@ -31,6 +31,6 @@ ht-degree: 0%
 * [Adobe Workfront Planning物件限制總覽](/help/quicksilver/planning/general/limitations-overview.md)
 * [Adobe Workfront規劃實作建議](/help/quicksilver/planning/general/planning-best-practices.md)
 * [開始使用Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md)
-  <!--* [Get started with the Adobe Workfront Planning free trial](/help/quicksilver/planning/general/trial-workfront-planning.md)-->
+* [開始使用Adobe Workfront Planning免費試用版](/help/quicksilver/planning/general/trial-workfront-planning.md)
 
 
