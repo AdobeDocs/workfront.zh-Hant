@@ -6,8 +6,9 @@ title: 從Google Workspace管理 [!DNL Adobe Workfront] 通知詳細資料
 description: 在Google Workspace中，當您開啟Adobe [!DNL Workfront] 已傳送的通知電子郵件時，可以檢視相關工作專案詳細資訊，並在不離開收件匣的情況下回應。 如果有可用動作（例如核准請求），您可以直接從適用於Google Workspace的Workfront執行這些動作。
 author: Becky
 feature: Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: d5ca31d8-3667-4405-a523-3dc248a94746
-source-git-commit: 228fd22f1894689c0d256270350cc82954901641
+source-git-commit: ddd1c964c4c885f71dfa30d1790cfbc6e26d6781
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 0%
@@ -26,9 +27,9 @@ ht-degree: 0%
 >
 >為了滿足貴組織與Google Workspace的整合需求，我們建議您使用Workfront自動化和整合。
 >
->如需Workfront自動化與整合的概觀，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+>如需Workfront自動化與整合的概觀，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 >
->如需Google Workspace之Workfront自動化與整合模組的特定功能相關資訊，請參閱[Gmail模組](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)和[Google行事曆模組](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)。
+>如需Google Workspace之Workfront自動化與整合模組的特定功能相關資訊，請參閱[Gmail模組](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)和[Google行事曆模組](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)。
 
 <!--
 

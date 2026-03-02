@@ -6,8 +6,9 @@ title: 適用於Salesforce的Adobe Workfront概觀
 description: 您可以為Salesforce安裝 [!DNL Adobe Workfront] ，以允許Salesforce使用者提交 [!DNL Workfront] 請求並自動建立專案，而不需要離開Salesforce。
 author: Becky
 feature: Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: 65d4cdae-1d34-4a8a-a1c0-706cd41fc75e
-source-git-commit: 6af620284ed9c710196d8976a9f6cac1b3b36cf1
+source-git-commit: ddd1c964c4c885f71dfa30d1790cfbc6e26d6781
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%
@@ -24,9 +25,9 @@ ht-degree: 0%
 >
 >為了滿足貴組織與Salesforce的整合需求，我們建議您使用Workfront自動化和整合。
 >
->如需Workfront自動化與整合的概觀，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+>如需Workfront自動化與整合的概觀，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 >
->如需Salesforce之Workfront自動化與整合模組的特定功能相關資訊，請參閱[Salesforce模組](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules)。
+>如需Salesforce之Workfront自動化與整合模組的特定功能相關資訊，請參閱[Salesforce模組](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules)。
 
 <!--
 
