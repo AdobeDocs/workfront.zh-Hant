@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
+source-git-commit: 892a86f053fb170872b0b4b6126b67974129d372
 workflow-type: tm+mt
-source-wordcount: '4014'
+source-wordcount: '4067'
 ht-degree: 2%
 
 ---
@@ -190,7 +190,7 @@ ht-degree: 2%
    >在「設定」區域中設定自訂季度後，時間軸檢視會顯示自訂季度，而非傳統季度。
    >如需詳細資訊，請參閱[啟用自訂季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
 
-1. （視條件而定）如果您是Workfront管理員，請按一下&#x200B;**前往設定**&#x200B;設定您的季度。 如果沒有，請按一下[確定] **&#x200B;**，並要求Workfront管理員設定自訂季度。
+1. （視條件而定）如果您是Workfront管理員，請按一下&#x200B;**前往設定**&#x200B;設定您的季度。 如果沒有，請按一下[確定] ****，並要求Workfront管理員設定自訂季度。
 
    >[!TIP]
    >
@@ -401,12 +401,23 @@ ht-degree: 2%
 1. 如文章[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)中所述，建立記錄型別的時間表檢視。
 1. 按一下時間軸檢視右上角的&#x200B;**群組**。
 
-   ![使用連結欄位將UI時間表檢視分組](assets/grouping-ui-timeline-view-with-linked-fields.png)
+   <span class="preview">![使用連結欄位將UI時間表檢視分組](assets/grouping-ui-timeline-view-with-linked-fields.png)</span>
 
 1. 按一下其中一個建議的欄位，或按一下&#x200B;**選擇其他欄位**，並搜尋其他欄位，然後在欄位顯示在清單中時按一下它。
 
    分組會自動套用至時間軸，且記錄會顯示在分組方塊內。
-1. <span class="preview">（選擇性）按一下所選欄位名稱旁的&#x200B;**A -> Z**&#x200B;或&#x200B;**Z -> A**&#x200B;下拉式功能表，以選取分組的遞增或遞減排序順序。 群組會以您在時間軸檢視中選取的字母順序顯示。</span>
+1. <span class="preview"> （選擇性和條件性）根據您選取作為群組依據的欄位型別，選取下列其中一個排序選項來依遞增或遞減順序排序群組： </span>
+
+   <div class="preview">
+
+   * **A -> Z**&#x200B;或&#x200B;**Z -> A** （針對選取欄位、文字欄位、段落欄位、連線的記錄或物件、人員欄位）
+   * 數字、貨幣或百分比欄位的&#x200B;**0 -> 9**&#x200B;或&#x200B;**9 -> 0**。
+   * 日期欄位的&#x200B;**earliest -> latest**&#x200B;或&#x200B;**latest -> earliest**
+
+   </div>
+
+   <span class="preview">時間軸檢視中的群組會依此排序。 群組內的記錄會依照預設排序的&#x200B;**開始日期**&#x200B;的順序排序。</span>
+
 1. （可選）重複上述步驟以新增最多3個群組。
 
    為分組選取的欄位數會顯示在「分組」圖示旁。
