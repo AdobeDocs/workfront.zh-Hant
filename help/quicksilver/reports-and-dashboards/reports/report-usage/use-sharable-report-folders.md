@@ -6,9 +6,9 @@ description: 使用可共用報表資料夾來組織您建立的報表，並與A
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 65831f2e-9092-4e99-a86b-40df42c713bf
-source-git-commit: 650d24c36c3ccee810b8918ccdf456f607b055e9
+source-git-commit: 6a56485ef5a36aac92fbed73bd6749ed63796a58
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '771'
 ht-degree: 2%
 
 ---
@@ -93,7 +93,7 @@ ht-degree: 2%
 
 ## 與其他使用者共用報表資料夾
 
-當您與使用者共用資料夾時，他們將會繼承該資料夾樹狀結構中所有子資料夾的存取權。 使用者也必須擁有每個報告的存取權，可透過檔案夾許可權或直接報告共用。
+當您與使用者共用資料夾時，他們將會繼承該資料夾樹狀結構中所有子資料夾的存取權。
 
 {{step1-to-reports}}
 
@@ -115,7 +115,7 @@ ht-degree: 2%
 
 1. 選取您要移動之報告旁的核取方塊。
 1. 在熒幕底部的動作列中按一下&#x200B;**[移至資料夾**]。
-1. 找到您要移動報告的資料夾，然後按一下[移動]。**&#x200B;** 報表樹依預設會摺疊，因此您可能需要展開資料夾以尋找目的地資料夾。
+1. 找到您要移動報告的資料夾，然後按一下[移動]。**** 報表樹依預設會摺疊，因此您可能需要展開資料夾以尋找目的地資料夾。
 
    ![將報告移至可共用的資料夾](assets/move-to-folder.png)
 
@@ -135,3 +135,7 @@ ht-degree: 2%
 ## 可共用資料夾的新清單體驗
 
 當您在報告區域中存取可共用的資料夾時，您將看到新的清單體驗，可讓您輕鬆檢視和管理您的資料夾和報告。 如需新清單體驗的詳細資訊，請參閱[使用增強型清單](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
+
+>[!NOTE]
+>
+>增強型清單體驗不支援進階欄位。 若要使用這些欄位，您可以建立報告。
