@@ -1,7 +1,7 @@
 ---
-source-git-commit: 703d2bb511109a68d2917fd83fd1b7f7a562f5a9
+source-git-commit: 550a4e94ce340083937ad89f5dad9e151abe9075
 workflow-type: tm+mt
-source-wordcount: '2670'
+source-wordcount: '2688'
 ht-degree: 1%
 
 ---
@@ -60,6 +60,10 @@ ht-degree: 1%
 ## 步驟1 — 僅按一下主功能表 {#step1-click-main-menu}
 
 1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果可用）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)。
+
+## 步驟1 — 僅按一下主功能錶殼層 {#step1-click-main-menu-shell-only}
+
+1. 按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)。
 
 ## 步驟1 — 按一下主要功能表，然後按一下 —  {#step1-click-mm-then-click}
 
