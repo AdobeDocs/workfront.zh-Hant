@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
-source-git-commit: 860bd4bef75a90f4e1c5a21f38de95962804c00c
+source-git-commit: d3a7c3c03b6be87f3adf2fd67b9136bc2be9c24b
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,23 @@ ht-degree: 0%
 本頁說明管理員在2026年第二季度版本中針對預覽環境所做的增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2026年第二季發行週期目前可用的所有變更清單，請參閱[2026年第二季發行概觀](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
+
+## 自訂季度現在在設定中作為單獨頁面提供
+
+>[!NOTE]
+>
+>預覽： 2026年3月5日
+>生產快速發行： 2026年4月15日
+>每個人都能使用生產： 2026年4月16日
+
+我們已將「自訂季度」區域從「專案偏好設定」區段移出。 它現在是「設定」中的獨立區段。 
+此更新包含下列專案：
+
+* 自訂宿舍區域會從設定的專案偏好設定區段中移除
+* 「自訂季度」區段會新增至「設定」左側面板。 功能保持不變。 
+* 「自訂季度」區段已從群組的專案偏好設定區段中移除。 群組管理員無法再檢視自訂季度設定。 
+
+如需詳細資訊，請參閱[啟用自訂季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
 
 ## 依預設摺疊自訂表單區段
 
