@@ -9,10 +9,10 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 32c616b2-5bba-434e-9918-c27f6518693d
-source-git-commit: 56e5af94e0e98cf680db182f10143f5503e4260b
+source-git-commit: caad1c709da790e28df39a4a6092ef1ebfa42357
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 1%
+source-wordcount: '367'
+ht-degree: 0%
 
 ---
 
@@ -44,6 +44,26 @@ ht-degree: 1%
 
 如需詳細資訊，請參閱[編輯工作](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md)。
 
+### 保留人員配置計畫的收費率
+
+>[!NOTE]
+>
+>生產發行日期： 2026年3月5日
+
+我們已將&#x200B;**保留帳單**&#x200B;欄位新增至[人員配置計畫詳細資料]頁面的[財務]區段。
+
+當此旗標設為False （關閉）時，不會保留計費費率，並使用費率階層來計算計費費率。
+
+當此標幟設定為True （開啟）時：
+
+* 人員配置計畫上指定資源的目前收費率會保留，階層中費率的任何變更都不會反映在人員配置計畫的「資源」區域中。
+* 如果您將新資料列新增至「資源」表格，則會保留來自計費費率階層的初始計費費率。
+* 如果使用者在標幟開啟之前手動覆寫了計費費率值，則會保留覆寫費率。 旗標開啟後，即不允許手動覆寫帳單費率。
+
+一旦啟用保留，就無法關閉。
+
+當您複製已開啟旗標的人員配備計畫時，旗標會自動關閉複製功能。 如果新人員配置計畫需要此旗標，資源管理員必須將其開啟。
+
 <!--### Title
 
 >[!NOTE]
@@ -53,23 +73,27 @@ ht-degree: 1%
 text
 -->
 
-## 針對有限可用性功能的維護更新
+<!--
 
-本節說明每週Workfront更新中針對有限可用性功能所修正的問題。
+## Maintenance Updates for limited availability features
 
-<!--### Maintenance Updates week of February 8-14, 2026
+This section describes the issues fixed in the weekly Workfront updates for limited availability features.
 
-**Title**
 
-text
 
-### Maintenance Updates week of February 15-21, 2026
+### Maintenance Updates week of March 1-7, 2026
 
 **Title**
 
 text
 
-### Maintenance Updates week of February 22-28, 2026
+### Maintenance Updates week of March 8-14, 2026
+
+**Title**
+
+text
+
+### Maintenance Updates week of March 15-21, 2026
 
 **Title**
 
