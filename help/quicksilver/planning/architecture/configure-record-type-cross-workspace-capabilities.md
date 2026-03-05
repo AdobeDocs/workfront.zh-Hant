@@ -270,7 +270,7 @@ And
 
    啟用時，記錄型別可供存取，且可從其他工作區連線到。
 
-1. <!--<span class="preview">(Conditional) Depending on which license you have,</span>--> 選擇可存取記錄型別的工作區。 從下列選項中選擇:
+1. &#x200B;<!--<span class="preview">(Conditional) Depending on which license you have,</span>--> 選擇可存取記錄型別的工作區。 從下列選項中選擇:
 
    <!--check names of the setting: System wide?? OR All workspaces??-->
 
