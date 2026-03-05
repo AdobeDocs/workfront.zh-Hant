@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: c69097fb-99e4-441b-9599-fd8af2dd7116
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 20ea292d49c691335e98459ff3eb00051a78577d
 workflow-type: tm+mt
-source-wordcount: '2742'
+source-wordcount: '2839'
 ht-degree: 2%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 2%
 # 設定群組的專案偏好設定
 
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 如果您是群組管理員且Adobe Workfront管理員為系統中的所有群組解除鎖定專案偏好設定，您可以為群組設定該偏好設定，以影響您的群組建立的所有後續專案。
 
@@ -39,16 +39,16 @@ ht-degree: 2%
 
 如需Workfront管理員如何解除鎖定專案偏好設定的相關資訊，請參閱[鎖定或解除鎖定系統中所有群組的專案偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
+   <td>Adobe Workfront 封裝</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -113,7 +113,7 @@ ht-degree: 2%
 </td></tr>
   <tr> 
    <td role="rowheader">將新專案狀態設為</td> 
-   <td> <p>決定新專案的狀態。</p> <p><b>附註</b>   
+   <td> <p>決定新專案的狀態。</p> <p><b>注意</b>   
      <ul> 
       <li>如果您或其他Workfront管理員隱藏此處選取的狀態，預設狀態會變更為狀態清單中的第一個狀態。</li> 
      </ul> 
@@ -166,7 +166,7 @@ ht-degree: 2%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">排程開始時間</td> 
+   <td role="rowheader"><b>排程開始時間</b></td> 
    <td> <p>決定新專案是從開始日期排程，還是從建立專案時的完成日期排程。</p> 
     <ul> 
      <li><strong>開始日期</strong>：新任務預設為「儘可能早」的任務限制，並且會提示專案經理提供專案的計劃開始日期。</li> 
@@ -174,7 +174,7 @@ ht-degree: 2%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">使用者休假</td> 
+   <td role="rowheader"><b>使用者休假</b></td> 
    <td> <p>決定任務的主要受指派人的休假是否調整專案上該任務的計畫日期。</p> 
     <ul> 
      <li> <p><strong>考量使用者在任務持續期間的休假</strong>：如果休假發生在任務持續期間，則為任務的主要受指派人排定的任何休假都會調整任務的計畫日期。 這是預設設定。 </p> <p>例如，如果一項限製為「儘快」的任務排程在6月1日開始並在6月3日完成，而主要受指派人將6月2日標籤為休假，則任務的計畫日期將調整為6月1日到6月4日。</p> <p><b>重要</b>：當您選取此設定時，工作的期間不會變更。 根據任務限制，只有計畫日期會變更。</p> </li> 
@@ -215,14 +215,14 @@ ht-degree: 2%
    <td role="rowheader"> <p><strong>將一位使用者指派給任務時，請使用……</strong>的排程 </p> </td> 
    <td> <p>如果專案未指派排程，或指派給其任務的使用者未指派排程，[!DNL Workfront]會使用系統預設排程來計算任務的時間表。</p>
 
-<p>如果您將一位使用者指派至專案中的任務，且專案與使用者都有相關的排程，則[!UICONTROL Workfront]會使用下列排程：</p> 
+<p>如果您將一位使用者指派至專案中的任務，且專案與使用者都有相關的排程，則[！UICONTROL Workfront]會使用下列排程：</p> 
     <ul> 
-     <li><strong>[!UICONTROL User]</strong>：指派的使用者計算時間表的工作排程。</li> 
-     <li><strong>[!UICONTROL 專案]</strong>：計算任務時間表之專案的排程。</li> 
+     <li><strong>[！UICONTROL User]</strong>：指派的使用者計算時間表的工作排程。</li> 
+     <li><strong>[！UICONTROL專案]</strong>：計算任務時間表之專案的排程。</li> 
     </ul> <p>如需排程的詳細資訊，請參閱<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">建立排程</a>。</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>時間表計算 </p> </td> 
+   <td role="rowheader"> <p><b>時間表計算</b></p> </td> 
    <td> 
     <ul> 
      <li><strong>每個工作日一般小時數</strong>：為將處理專案的使用者設定一般工作日內的小時數。 預設值為8小時。</li> 
@@ -233,7 +233,12 @@ ht-degree: 2%
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p><strong>自訂季度</strong> </p> </td> 
-   <td> <p>為將處理專案的使用者設定自訂每年季度。 自訂季度通常是不符合日曆年度中傳統季度劃分的季度。 您可以新增多個自訂季度。 如需詳細資訊，請參閱<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">啟用自訂季度</a>。</p> <p><b>注意</b>： Workfront管理員無法解除鎖定自訂季度偏好設定。</p> </td> 
+   <td> 
+   <span class="preview">自訂季度區域已從預覽環境中的群組專案偏好設定區段中移除。</span>
+   <p>自訂季度通常是不符合日曆年度中傳統季度劃分的季度。 Workfront管理員可以在<b>設定</b>區域中新增多個自訂季度。 如需詳細資訊，請參閱<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">啟用自訂季度</a>。</p>  
+   <p><b>重要<b></p>
+   <p>您無法以群組管理員的身分變更「自訂季度」設定。 <p>Workfront管理員無法解鎖「自訂季度」偏好設定，讓群組管理員可以管理。</p> <p>群組管理員的「自訂季度」區域是唯讀的。</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>

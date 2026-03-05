@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 5a725e747e8776a867cb0dc4129544f6a28ce8e0
+source-git-commit: 4713864c21d23b507f4d19d7a7955128768e077d
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: '1434'
 ht-degree: 1%
 
 ---
@@ -76,8 +76,26 @@ ht-degree: 1%
 </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront授權</p></td> 
-   <td><p>標準</p>
-   </td> 
+   <td>
+   <p>若要將記錄設為全域，請執行下列動作：</p>
+   <ul><li>標準或更高</li></ul>
+   <p>若要讓記錄可連線：</p>
+   <ul><li>系統管理員</li></ul>
+
+<!--replace the above with this at release:
+   <p>To make a record global:</p>
+   <ul><li>Standard or higher</li></ul>
+   <p>To make a record connectable:</p>
+   <ul><li>In the Production environment:</li>
+   <ul><li>System Administrator</li></ul></ul>
+
+   <div class="preview">
+   <ul><li>In the Preview environment:</li>
+   <ul><li>Standard to make a record connectable from specific workspaces</li>
+   <li>System Administrator to make a record connectable from all workspaces</li></ul></ul>
+   </div>-->
+
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
@@ -252,12 +270,13 @@ And
 
    啟用時，記錄型別可供存取，且可從其他工作區連線到。
 
-1. 選擇可存取記錄型別的工作區。 從下列選項中選擇:
+1. <!--<span class="preview">(Conditional) Depending on which license you have,</span>--> 選擇可存取記錄型別的工作區。 從下列選項中選擇:
 
    <!--check names of the setting: System wide?? OR All workspaces??-->
 
-   * **所有工作區**：使用者可以從他們擁有管理許可權的所有工作區連線到此記錄型別。
+   * **所有工作區**：使用者可以從他們擁有管理許可權的所有工作區連線到此記錄型別。<!--<span class="preview">This option is dimmed for workspace managers with a Standard license. Only System Administrators can turn on connecting record types from all workspaces.</span>-->
    * **特定工作區**：從下拉式功能表，新增工作區管理員可連線至此記錄型別的工作區名稱。
+
 1. （視條件而定）在&#x200B;**編輯記錄型別**&#x200B;方塊中按一下&#x200B;**儲存**，或按一下頁面標頭中&#x200B;**設定**&#x200B;左側的返回箭頭，以儲存您的變更。
 
    會發生下列情況：
