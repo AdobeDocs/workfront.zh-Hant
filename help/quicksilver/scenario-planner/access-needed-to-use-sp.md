@@ -24,7 +24,7 @@ ht-degree: 0%
 might need to add information about the permissions to plans/ initiatives if those will be coming later?
 -->
 
-若沒有正確的存取或許可權，您可能無法檢視[!UICONTROL 的]案例[!DNL  Adobe Workfront]區域，也無法管理組織的計畫或方案。 管理計畫和方案包括建立、編輯和刪除它們。
+若沒有正確的存取或許可權，您可能無法檢視[!UICONTROL 的]案例[!DNL &#x200B; Adobe Workfront]區域，也無法管理組織的計畫或方案。 管理計畫和方案包括建立、編輯和刪除它們。
 
 ## 需要存取權才能檢視及使用[!DNL Adobe Workfront Scenario Planner]
 

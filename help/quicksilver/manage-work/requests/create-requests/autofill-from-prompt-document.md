@@ -16,7 +16,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->若要使用此功能，您的組織必須符合使用Workfront AI Assistant的需求。 如需詳細資訊，請參閱[ AI助理的必要條件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
+>若要使用此功能，您的組織必須符合使用Workfront AI Assistant的需求。 如需詳細資訊，請參閱[&#x200B; AI助理的必要條件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
 
 AI表單填寫可協助您根據輸入的提示自動填寫請求欄位。 它也可以根據文字（例如電子郵件和已上傳的檔案）填寫欄位。 您可以在提交請求之前核准或拒絕這些建議。
 
