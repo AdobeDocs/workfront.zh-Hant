@@ -1,5 +1,5 @@
 ---
-source-git-commit: 550a4e94ce340083937ad89f5dad9e151abe9075
+source-git-commit: c13d893ba3f8748666c8c2d36d66367a6ec4e855
 workflow-type: tm+mt
 source-wordcount: '2688'
 ht-degree: 1%
@@ -7,7 +7,8 @@ ht-degree: 1%
 ---
 # 程式碼片段
 
-<!-- Add snippets within the section that the snippet is used. Snippets that are used throughout the Workfront documentation set should be added to the "General" section. -->
+<!-- 
+Add snippets within the section that the snippet is used. Snippets that are used throughout the Workfront documentation set should be added to the "General" section. -->
 
 <!-- General -->
 
@@ -220,78 +221,66 @@ ht-degree: 1%
 1. （可選）調整自動校樣工作流程設定
 
    <table>
-      <tr>
-         <td colspan="2" ><strong>校訂階段</strong>
-         </td>
-      </tr>
-      <tr>
-         <td>停用階段
-         </td>
-         <td>
+   <tr>
+      <td colspan="2" ><strong>校訂階段</strong>
+      </td>
+   </tr>
+   <tr>
+      <td>停用階段
+      </td>
+      <td>
       <ol>
-
-   <li>切換全選以停用所有階段。 
+      <li>切換全選以停用所有階段。 
       <p>或</p></li>
       <li>切換個別階段。</li>
-
-   </ol>
-         </td>
-      </tr>
-      <tr>
-         <td>新增收件者
-         </td>
-         <td>
+      </ol>
+      </td>
+   </tr>
+   <tr>
+      <td>新增收件者
+      </td>
+      <td>
       <ol>
-
-   <li>在「新增收件者」方塊中，開始輸入使用者的名稱。
-
-   <li>指定校訂角色。
-
-   <li>選擇收件者的電子郵件警示型別。 
+      <li>在「新增收件者」方塊中，開始輸入使用者的名稱。</li>
+      <li>指定校訂角色。</li>
+      <li>選擇收件者的電子郵件警示型別。</li>
+      </ol>
+      </td>
+   </tr>
+   <tr>
+      <td>設定截止日期
+      </td>
+      <td>
+      <ol>
+      <li>選擇截止日期。</li>
+      </ol>
+      </td>
+   </tr>
+   <tr>
+      <td colspan="2" ><strong>電子郵件通知</strong>
+      </td>
+   </tr>
+   <tr>
+      <td>將校樣通知收件者
+      </td>
+      <td>
+      <ol>
+      <li>啟用核取方塊以在建立校訂時通知使用者。</li>
+      </ol>
+      </td>
+   </tr>
+   <tr>
+      <td>新增自訂訊息
+      </td>
+      <td>
+      <ol>
+      <li>輸入主旨。
+      <li>輸入自訂訊息。
       </li>
       </ol>
-         </td>
+      </td>
       </tr>
-      <tr>
-         <td>設定截止日期
-         </td>
-         <td>
-      <ol>
-
-   <li>選擇截止日期。
-      </li>
-      </ol>
-         </td>
-      </tr>
-      <tr>
-         <td colspan="2" ><strong>電子郵件通知</strong>
-         </td>
-      </tr>
-      <tr>
-         <td>將校樣通知收件者
-         </td>
-         <td>
-      <ol>
-
-   <li>啟用核取方塊以在建立校訂時通知使用者。
-      </li>
-      </ol>
-         </td>
-      </tr>
-      <tr>
-         <td>新增自訂訊息
-         </td>
-         <td>
-      <ol>
-
-   <li>輸入主旨。
-
-   <li>輸入自訂訊息。
-      </li>
-      </ol>
-         </td>
-      </tr>
-      </table>
+   </table>
 
 <!-- Workfront Planning -->
 
@@ -318,7 +307,8 @@ ht-degree: 1%
 > 
 >如需Workfront Planning的一般資訊，請參閱[開始使用Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)。
 
-<!--Old - before Oct. 15, 2025:
+<!--
+Old - before Oct. 15, 2025:
 >[!IMPORTANT]
 >
 >The information in this article refers to Adobe Workfront Planning, an additional capability from Adobe Workfront. 
@@ -331,9 +321,11 @@ ht-degree: 1%
 >
 > For a complete list of requirements to access Workfront Planning, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
 > 
->For more information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).-->
+>For more information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+-->
 
-<!--OLD: 
+<!--
+OLD: 
 >[!IMPORTANT]
 >
 >The information in this article refers to Adobe Workfront Planning, a new offering from Adobe Workfront. 
@@ -464,11 +456,11 @@ ht-degree: 1%
    >* 問題型別可自訂，其名稱可能與您的環境中下列清單不同。\
    >  以下是預設任務和問題型別：
    >     
-   >   * 任務
-   >   * 問題
-   >   * 請求
-   >   * 變更順序
-   >   * 錯誤報告
+   >  * 任務
+   >  * 問題
+   >  * 請求
+   >  * 變更順序
+   >  * 錯誤報告
 
    如果任務或問題指派給多個使用者，除了為您的團隊選擇的多個狀態外，您會在下拉式選單中看到「完成我的部分」選項。
 
@@ -530,5 +522,4 @@ For each snippets, create a head 2 section and add an anchor, such as
 In any .md file, add {{classic-note}} where you want that shared snippet content to appear.
 
 -->
-
 
