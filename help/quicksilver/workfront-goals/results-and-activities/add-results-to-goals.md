@@ -7,10 +7,10 @@ description: 結果會衡量目標的進度。 若未將結果、活動或校準
 author: Alina
 feature: Workfront Goals
 exl-id: 30e22482-22e2-432d-bb73-7f9a9160aba2
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 3%
+source-wordcount: '540'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 3%
 
 結果會衡量目標的進度。 若未將結果、活動或校準的目標與目標建立關聯，您就無法啟動目標，也無法記錄其進度。
 
-## 存取需求
+## 存取權要求
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ ht-degree: 3%
 >
 >Adobe Workfront目標不再提供購買。
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto">
 <col>
@@ -37,9 +37,10 @@ ht-degree: 3%
 </col>
 <tbody>
  <tr>
-  <td> <p>Adobe Workfront套件</p> </td> 
+  <td> <p>Adobe Workfront 封裝</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>附註</b></p>
+<p>如果您有不同的Workfront套件，請洽詢您的Workfront代表。</p>
    </td> 
   </tr>
  <tr>

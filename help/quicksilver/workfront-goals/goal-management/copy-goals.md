@@ -6,10 +6,10 @@ description: 您可以複製Adobe Workfront目標中的目標來建立目標。 
 author: Alina
 feature: Workfront Goals
 exl-id: 690a6030-ee29-4e50-869f-cd014050b364
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 4%
+source-wordcount: '747'
+ht-degree: 6%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 4%
 
 您可以複製Adobe Workfront目標中的目標來建立目標。 部分原始目標資訊會轉移至新目標。
 
-## 存取需求
+## 存取權要求
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 4%
 >
 >Adobe Workfront目標不再提供購買。
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto">
 <col>
@@ -36,9 +36,10 @@ ht-degree: 4%
 </col>
 <tbody>
  <tr>
-  <td> <p>Adobe Workfront套件</p> </td> 
+  <td> <p>Adobe Workfront 封裝</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>附註</b></p>
+<p>如果您有不同的Workfront套件，請洽詢您的Workfront代表。</p>
    </td> 
   </tr> 
  <tr>

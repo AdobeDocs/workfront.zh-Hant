@@ -3,12 +3,12 @@ product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: 建立專案輸入Forms
 description: 您可以使用專案錄取表單來簡化在Workfront中建立專案的流程
-author: Becky
+author: Alina
 feature: Work Management, Requests
 role: User, Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 5ff71313c550d949079e7426b657a0a4e19a656c
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '1329'
 ht-degree: 2%

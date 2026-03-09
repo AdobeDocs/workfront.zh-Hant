@@ -3,10 +3,10 @@ product-area: requests
 navigation-topic: create-requests
 title: 讓使用者透過電子郵件將問題傳送到請求佇列專案
 description: 您可以設定專案，讓使用者能透過電子郵件將問題新增至專案。
-author: Becky
+author: Alina
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 2%

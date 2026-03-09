@@ -1,10 +1,10 @@
 ---
 title: 分享請求佇列的連結
 description: 提交請求時，您可以共用請求佇列、主題群組或佇列主題的連結。
-author: Becky
+author: Alina
 feature: Work Management
 exl-id: 91e456ae-a192-4f3a-afff-b3c48854e295
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 10%

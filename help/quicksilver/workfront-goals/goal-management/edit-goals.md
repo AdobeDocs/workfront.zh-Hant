@@ -6,9 +6,9 @@ description: 您可以從任何時段和任何狀態編輯現有目標。
 author: Alina
 feature: Workfront Goals
 exl-id: 74db534c-6897-40c2-bea9-a9d30a40f61c
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '576'
 ht-degree: 3%
 
 ---
@@ -38,7 +38,8 @@ ht-degree: 3%
  <tr>
   <td> <p>Adobe Workfront 封裝</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>附註</b></p>
+<p>如果您有不同的Workfront套件，請洽詢您的Workfront代表。</p>
    </td> 
   </tr>
  <tr>
@@ -214,7 +215,7 @@ Editing goals differs depending on what environment you use.
    * 更新目標標題中的下列資訊，然後按Enter儲存變更：
       * **目標名稱**：按一下目標的名稱，然後開始輸入新名稱。
       * **擁有者**：按一下擁有者的名稱，然後開始輸入使用者、團隊、群組或您公司的名稱，然後在清單中顯示時選取該名稱。 一個目標只能有一個擁有者。
-   * 在[編輯目標]方塊中更新下列資訊，然後按一下[儲存] **&#x200B;**：
+   * 在[編輯目標]方塊中更新下列資訊，然後按一下[儲存] ****：
       * **目標名稱**
       * **期間**：按一下以更新目標的期間\
         或\

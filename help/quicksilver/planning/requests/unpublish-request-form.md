@@ -3,10 +3,10 @@ title: 在Adobe Workfront Planning中取消發佈請求表單
 description: 如果您不再需要或不相關的請求表單，您可以取消發佈該表單。 取消發佈後，您就會移除每個人存取表單的許可權。
 feature: Workfront Planning
 role: User, Admin
-author: Alina, Becky
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '676'
 ht-degree: 5%

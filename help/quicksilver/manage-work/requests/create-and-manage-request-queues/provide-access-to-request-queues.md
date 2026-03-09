@@ -3,13 +3,13 @@ product-area: requests;user-management
 navigation-topic: create-and-manage-request-queues
 title: 提供請求佇列的存取權
 description: 提供請求佇列的存取權時，您可決定組織中的哪個人員可以在Adobe Workfront的「請求」區域中檢視請求佇列。
-author: Becky
+author: Alina
 feature: Work Management
 exl-id: eb88c32a-f8b8-42d3-9a3a-72c62fd1dc3a
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '474'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -23,16 +23,16 @@ ht-degree: 1%
 
 這在邀請外部利害關係人進入Workfront並希望限制使用者對特定區域的存取的組織中很有用。 在此情況下，請求佇列只會開放給與專案公司或群組相關聯的使用者，這會限制外部利害關係人的可見度。 將存取權授與任何人，會讓內部和外部利害關係人都看到請求。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 

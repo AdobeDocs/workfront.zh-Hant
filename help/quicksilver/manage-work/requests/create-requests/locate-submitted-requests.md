@@ -3,14 +3,14 @@ product-area: requests
 navigation-topic: create-requests
 title: 檢視已提交的請求
 description: 瞭解Adobe Workfront的區域，您可在此檢視您或其他人提交的請求，或您從未提交且已儲存為草稿的請求。
-author: Becky
+author: Alina
 feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '1506'
+source-wordcount: '1363'
 ht-degree: 2%
 
 ---
@@ -85,39 +85,32 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->建立物件的連結僅適用於Planning請求的新請求體驗，當請求本身建立了物件時。 如果Workfront請求轉換為專案或其他物件，則指向該轉換物件的連結在新請求體驗的請求清單中無法使用。
+>建立物件的連結只有在請求本身建立記錄時，才能用於新請求體驗，以進行Planning請求。
+>
+>如果Workfront請求轉換為專案或其他物件，則指向該轉換物件的連結在新請求體驗的請求清單中無法使用。
 
 若要檢視您或其他使用者在新請求體驗中提交的請求：
 
 {{step1-to-requests}}
 
-1. 確定熒幕右上角的&#x200B;**使用新體驗**&#x200B;切換功能已啟用。
+1. 請確定熒幕右上角的&#x200B;**使用新體驗**&#x200B;設定已開啟。
 
-   此時會出現「要求」清單。
+   此時會顯示請求清單。
 
 1. （選用）若要搜尋請求，請開始在清單右上角的搜尋列中輸入。 搜尋結果會在您輸入時顯示。
 1. （選擇性）按一下&#x200B;**篩選器**，然後開始為您要顯示的要求新增條件。
 
-   您可以依下列欄位進行篩選：
+   如需篩選的詳細資訊，請參閱[在要求區域](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)中建立和管理檢視。
 
-   * **Workspace**：與請求表單相關聯的工作區。
-   * **記錄型別**：與要求表單關聯的記錄型別。
-   * **輸入日期**：提交要求的日期。
-   * **要求表單**：用來提交要求的要求表單名稱。
-   * **狀態**：要求的狀態。
-   * **輸入者**：新增請求的使用者名稱。 如果要求是由Workfront外部的人員加入，則&#x200B;**輸入者**&#x200B;欄位會顯示`N/A`。
+1. （選擇性）按一下&#x200B;**檢視**&#x200B;下拉式功能表以更新您的檢視或與其他人共用。
 
-   您可以有多個&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;加入的篩選器。
-當您新增篩選條件時，要求清單會自動篩選。
-1. （選用）使用檢視來著重於您要顯示的請求。
-
-   如需指示，請參閱[在要求區域](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)中建立或編輯檢視。
-1. （選擇性）核取狀態列以檢查要求的狀態。 新的請求體驗中有以下狀態：
+   如需詳細資訊，請參閱[在要求區域](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)中建立或編輯檢視。
+1. （選擇性）檢查&#x200B;**狀態**&#x200B;資料行，以檢查要求的狀態。 新的請求體驗中有以下狀態：
 
    * **草稿**：此要求尚未提交。
    * **擱置檢閱**： （僅限Planning）此要求有核准者，而且沒有核准者開啟該要求。
    * **稽核中**： （僅限Planning）此要求有核准者，且至少有一個核准者已開啟要求，但尚未做出任何決定。
-   * **已拒絕**： （僅限Planning）此要求有核准者且已被拒絕。
+   * **已拒絕**： （僅限Planning）此要求有核准者且已被拒絕。 此請求將不會建立記錄。
    * **進行中**：
       * Workfront請求：請求已轉換，工作正在進行。
       * Workfront計畫請求：請求完成會對應至特定的「計畫」欄位，而該欄位值尚未與完成值相符。
@@ -127,8 +120,8 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->* 如果您有Workfront Planning，您的Workfront和Planning請求會出現在相同的清單中。 Workfront要求會在「物件型別」欄中顯示值`Issue`。
->* 此時會顯示「請求」清單，其中顯示50個請求。 若要檢視更多請求，請捲動至清單底部。
+>* 如果您有Workfront Planning，您的Workfront和Planning請求會出現在相同的清單中。 Workfront要求會在`Issue`物件型別&#x200B;**欄中顯示值**。
+>* 依預設，在請求區域的清單中會顯示最多50個請求。 若要檢視更多請求，請捲動至清單底部。
 
 ### 在舊版請求體驗中檢視已提交的請求
 
@@ -234,15 +227,17 @@ ht-degree: 2%
 
 1. （選擇性）按一下清單頂端的&#x200B;**篩選頁面**&#x200B;圖示![搜尋圖示](assets/search-icon.png)，依名稱搜尋請求。 清單會以符合搜尋條件的結果更新。
 
-1. （條件式）若要只顯示Workfront要求佇列，請搜尋或篩選`Issue`物件型別。</span>
-
-
    <!--
-   <li value="9" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Click the <strong>Complete</strong> subtab to view requests that have been completed.</p> <p>(NOTE: this step will stay drafted even after release. We can't see Completed at this time!) <br>Requests with an Actual Completion Date or whose resolving object has an Actual Completion Date are listed in the Complete subtab.<br>Once a request receives an Actual Completion Date, it stays in the Recently Completed area for 10 business days. After that, it is moved to the Completed area. <br>For information about resolving and resolvable objects, see the article <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>.</p> </li>
+
+   1. (Conditional) To display only Workfront Request queues, search or filter for `Issue` object types.</span>
    -->
 
    <!--
-   <li value="10" data-mc-conditions="QuicksilverOrClassic.Draft mode">(Optional) Select an option from the <strong>Sort by</strong> drop-down menu to sort the requests by the following criteria:   (NOTE: this step will stay drafted even after release. We can't see Completed at this time!)  
+   <li> <p>Click the <strong>Complete</strong> subtab to view requests that have been completed.</p> <p>(NOTE: this step will stay drafted even after release. We can't see Completed at this time!) <br>Requests with an Actual Completion Date or whose resolving object has an Actual Completion Date are listed in the Complete subtab.<br>Once a request receives an Actual Completion Date, it stays in the Recently Completed area for 10 business days. After that, it is moved to the Completed area. <br>For information about resolving and resolvable objects, see the article <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>.</p> </li>
+   -->
+
+   <!--
+   <li>(Optional) Select an option from the <strong>Sort by</strong> drop-down menu to sort the requests by the following criteria:   (NOTE: this step will stay drafted even after release. We can't see Completed at this time!)  
    <ul>
    <li><strong>Assigned To</strong>: Requests are sorted alphabetically by the name of the assignee using the following criteria: 
    <ul>
@@ -262,19 +257,18 @@ ht-degree: 2%
 
 1. 按一下&#x200B;**草稿**&#x200B;以檢視所有草擬的請求。 Workfront會針對此資料夾中的每個請求佇列儲存不限數量的草稿。 當您為已有草稿的佇列主題輸入新請求時，系統會提示您使用現有的草稿。 如需詳細資訊，請參閱[從草稿建立請求](../../../manage-work/requests/create-requests/create-requests-from-drafts.md)。
 
-1. （選擇性和條件性）如果您的組織購買了Workfront計畫套件，請按一下&#x200B;**計畫**&#x200B;標籤，然後按一下左側面板中的&#x200B;**已提交**，以檢視Workfront計畫請求。
+   <!--Planning tab has been removed and no longer visible in legacy Requests area: 
+   (Optional and conditional) If your organization purchased a Workfront Planning package, click the **Planning** tab, then click **Submitted** in the left panel to view Workfront Planning requests. 
+      Use **Filters** and **Columns** to update the information in the Planning request list. 
+      ![Planning tab submitted section in Requests area](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
+      For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).
+   -->
 
-   使用&#x200B;**篩選器**&#x200B;和&#x200B;**資料行**&#x200B;來更新Planning要求清單中的資訊。
 
-   在請求區域![中的](assets/workfront-planning-tab-submitted-section-in-requests-area.png)已提交規劃索引標籤區段
+1. （選擇性）檢查&#x200B;**狀態**&#x200B;資料行，以檢查要求的狀態。 新的請求體驗中有以下狀態：
 
-   如需詳細資訊，請參閱[提交Adobe Workfront Planning要求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)。
-
-
-1. （選擇性）核取狀態列以檢查要求的狀態。 新的請求體驗中有以下狀態：
-
-   * 草稿：此請求尚未提交。
-   * 進行中
-   * 完成
+   * **草稿**：此要求尚未提交。
+   * **進行中**
+   * **完成**
 
 

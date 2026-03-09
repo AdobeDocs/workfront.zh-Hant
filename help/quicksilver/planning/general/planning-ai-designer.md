@@ -6,9 +6,9 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 exl-id: ba7a4b04-5faa-41b6-86d0-4d0ce946ad1e
-source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '1501'
+source-wordcount: '1504'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 如需Workfront Planning的相關資訊，請參閱下列文章：
 
-* [Adobe Workfront Planning的一般資訊](/help/quicksilver/planning/planning-information.md)
+* [Adobe Workfront Planning的一般資訊和文章索引](/help/quicksilver/planning/planning-information.md)
 * [開始使用Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
 * [Adobe Workfront Planning存取權概觀](/help/quicksilver/planning/access/access-overview.md)
 
@@ -105,7 +105,7 @@ ht-degree: 0%
 
    * Workfront必須將AI助理提供給您的組織使用。
 
-     如需詳細資訊，請參閱[&#x200B; AI助理的必要條件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
+     如需詳細資訊，請參閱[ AI助理的必要條件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
    * Workfront讓您的AI助理可以使用後，Workfront的主要管理員就可以存取它。
 
      如需詳細資訊，請參閱[設定您系統的基本資訊](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md)。

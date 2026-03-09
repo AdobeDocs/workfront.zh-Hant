@@ -3,12 +3,12 @@ title: 在Adobe Workfront Planning中新增核准至請求表單
 description: 您可以在Adobe Workfront Planning請求表單中新增核准流程，以便對每個提交的請求啟動核准，然後再建立記錄。
 feature: Workfront Planning
 role: User, Admin
-author: Alina, Becky
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1210'
 ht-degree: 1%
 
 ---
@@ -111,7 +111,7 @@ ht-degree: 1%
 
    或
 
-   按一下[共用]以共用表單，然後按[複製]連結&#x200B;**。**&#x200B;**&#x200B;**
+   按一下[共用]以共用表單，然後按[複製]連結&#x200B;**。******
 1. （選用）使用者使用您共用的連結並提交請求後，Workfront Planning會傳送核准應用程式內通知及電子郵件給核准者。
 
    >[!NOTE]
@@ -123,17 +123,15 @@ ht-degree: 1%
 
 <div class="preview">
 
-## 將核准規則新增至請求表單
-
->[!NOTE]
->
->此功能僅在預覽環境中可用。
+## 在預覽環境中將核准規則新增到請求表單
 
 核准規則會根據已提交請求中的欄位值來定義核准流程。
 
 例如，如果請求表單有「Campaign type」欄位，則可建立規則，當欄位值為「Digital」時傳送請求給一個人，當值為「Print」時傳送請求給另一個人。
 
 新增核准規則時，請考量下列事項：
+
+<!--below bullet list is duplicated in the Add approval to a request form in the Production environment section above-->
 
 * 您可以將一或多個核准者新增至核准規則。
 * 如果至少有一位核准者拒絕請求，則請求會遭到拒絕，且不會建立記錄。 此請求會保留在Workfront的請求區域中。
@@ -142,18 +140,16 @@ ht-degree: 1%
 
 若要設定請求表單的核准規則：
 
-1. 開始建立記錄型別的要求表單，如[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)中所述。
-1. 按一下&#x200B;**設定**。
+1. 開始建立記錄型別的要求表單，如文章[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)中所述。
+1. 當要求表單開啟時，按一下&#x200B;**設定**。
 
-   「設定」標籤隨即顯示。
+   **設定**&#x200B;索引標籤開啟。
 
 1. 若要開始設定核准規則，請按一下左側面板中的&#x200B;**核准** ![核准圖示](assets/approvals-icon-on-form.png)。
 
 1. （選擇性）如果您想要設定預設核准程式，請在&#x200B;**預設核准規則**&#x200B;區域的&#x200B;**核准者**&#x200B;欄位中新增至少一位使用者或團隊，然後按一下&#x200B;**僅需要一個決定**&#x200B;核取方塊（如果您想要在任何一位預設核准者核准記錄後建立記錄）。
 
    ![預設核准規則區域](assets/default-approvers.png)
-
-   <!--below bullet list is duplicated in the Add approval to a request form article-->
 
 1. （選用）開始新增核准規則。 針對每個核准規則，執行下列動作：
 
@@ -163,10 +159,10 @@ ht-degree: 1%
    1. 選取規則的運運算元。 運運算元會依欄位型別而異。
    1. 如果選取的運運算元需要值，請按一下加號圖示並新增一或多個值。
    1. （選擇性）按一下&#x200B;**新增條件**&#x200B;以新增更多條件，並透過步驟C-E中設定其他條件來透過&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;陳述式連線這些條件。
-   1. 在核准規則的&#x200B;**動作**&#x200B;區域中、在&#x200B;**核准者**&#x200B;欄位中，新增至少一位當條件符合時要設定在核准者身分上的使用者或團隊。
-   1. （視條件而定）如果要在任何核准者核准記錄後建立記錄，請核取&#x200B;**僅需要一個決定**&#x200B;核取方塊。
+   1. 在核准規則的&#x200B;**動作**&#x200B;區域中、在&#x200B;**核准者**&#x200B;欄位中，新增當符合條件時要在核准者處設定的至少一個使用者或團隊。
+   1. （條件式與選擇性）如果您想要在任何核准者核准記錄後建立記錄，請核取&#x200B;**僅需要一個決定**&#x200B;核取方塊。 否則，在接受或拒絕請求之前，所有核准者都必須決定核准。
 
-1. 按一下[儲存]儲存核准規則。**&#x200B;**
+1. 按一下[儲存]儲存核准規則。****
 1. （選擇性）如果您之前從未共用過請求表單，請按一下&#x200B;**發佈**。
 
 </div>

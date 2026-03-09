@@ -3,10 +3,10 @@ product-area: requests
 navigation-topic: create-requests
 title: 建立並提交請求
 description: 計畫工作在Adobe Workfront中以專案和任務表示。 不過，您可能會在一個環境中工作，其中未計畫的工作（以隨機請求的形式）可以隨時進入。 Workfront透過使用請求佇列提供可容納這種環境型別的工作流程。
-author: Becky
+author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '2575'
 ht-degree: 2%
