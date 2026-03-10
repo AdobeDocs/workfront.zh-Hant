@@ -7,7 +7,7 @@ description: Scenario Planner需要Adobe Workfront的單獨授權和額外存取
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d7f3c7fa-81aa-40c9-b506-fe1fe346e9ea
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: 68dee7bc9643b7b9446ff4737ff70f4b850e7bbb
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 might need to add information about the permissions to plans/ initiatives if those will be coming later?
 -->
 
-若沒有正確的存取或許可權，您可能無法檢視[!UICONTROL 的]案例[!DNL &#x200B; Adobe Workfront]區域，也無法管理組織的計畫或方案。 管理計畫和方案包括建立、編輯和刪除它們。
+若沒有正確的存取或許可權，您可能無法檢視[!UICONTROL 的]案例[!DNL  Adobe Workfront]區域，也無法管理組織的計畫或方案。 管理計畫和方案包括建立、編輯和刪除它們。
 
 ## 需要存取權才能檢視及使用[!DNL Adobe Workfront Scenario Planner]
 
@@ -56,6 +56,7 @@ might need to add information about the permissions to plans/ initiatives if tho
         * [!UICONTROL Plan]
         * [!UICONTROL Work]
         * [!UICONTROL Review]-->
+
   <!--Old: 
       >[!NOTE]
       > 
