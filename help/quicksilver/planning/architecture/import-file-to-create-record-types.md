@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
 workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 1%
@@ -141,6 +141,7 @@ ht-degree: 1%
    * 上次修改日期，上次修改者：
    * 核准日期，核准者
    * 人員
+     <!--* <span class="preview">Record ID</span>-->
 
 若要使用Excel或CSV檔案匯入記錄型別：
 
@@ -194,7 +195,7 @@ ht-degree: 1%
 
 1. （視條件而定）更新欄位相關資訊後，按一下&#x200B;**儲存**。
 
-1. 當您準備好匯入您的檔案時，請按一下[匯入]。**&#x200B;**
+1. 當您準備好匯入您的檔案時，請按一下[匯入]。****
 
    下列資訊會匯入Workfront Planning中：
 

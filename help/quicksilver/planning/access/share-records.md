@@ -7,28 +7,34 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 54a6e633e903c73a78b36e90fb27edb445dc8d47
+exl-id: 9ffad1aa-3c96-40fa-9c62-7a3e00699f18
+source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
 workflow-type: tm+mt
-source-wordcount: '1883'
+source-wordcount: '1886'
 ht-degree: 2%
 
 ---
-
 
 <!--update metadata with real information at release-->
 
 # 共用記錄
 
-<!--this will NOT be available in Preview ever - find a way to add this in this article that is prominent-->
+<!--
+this will NOT be available in Preview ever - find a way to add this in this article that is prominent
+-->
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
-
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
-您可以調整人員對記錄型別中個別記錄的許可權。
+您可以在Adobe Workfront Planning中調整人員對記錄型別中個別記錄的許可權。
+
+>[!WARNING]
+>
+>本文中說明的資訊在預覽環境中無法使用。 它僅適用於生產環境中的所有Workfront Planning客戶。
 
 您可以透過下列方式共用Adobe Workfront Planning記錄：
 
@@ -44,23 +50,24 @@ ht-degree: 2%
 
    * [共用記錄型別](/help/quicksilver/planning/access/share-record-types.md)
 
-* 使用&#x200B;**共用**&#x200B;選項共用記錄。
+* 使用&#x200B;**共用**&#x200B;選項，共用個別記錄或大量共用多個記錄。
 
   本文說明如何使用&#x200B;**共用**&#x200B;選項與其他人共用記錄。
 
 >[!IMPORTANT]
 >
->有權存取工作區的使用者至少會自動取得對工作區中所有記錄的檢視許可權。
->共用檢視不會提供使用者記錄許可權。 只有共用工作區才能授予使用者記錄型別和記錄的許可權。
+>* 有權存取工作區的使用者至少會自動取得對工作區中所有記錄的檢視許可權。
+>* 共用檢視不會提供使用者記錄許可權。 只有共用工作區才能授予使用者記錄型別和記錄的許可權。
 >
 >如需在Workfront Planning中共用物件的一般資訊，另請參閱[在Adobe Workfront Planning中共用許可權概觀](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
-
 
 ## 存取權要求
 
 +++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
-<!--at GA, check that the Workfront plans article linked below has Planning info-->
+<!--
+at GA, check that the Workfront plans article linked below has Planning info
+-->
 
 <table style="table-layout:auto"> 
 <col> 
@@ -112,13 +119,14 @@ ht-degree: 2%
 
 ## 共用記錄時的注意事項
 
-<!--maybe use the Share record types as example here and touch on the same points: help/quicksilver/planning/access/share-record-types.md; in addition to using Lilit's information-->
+<!--
+maybe use the Share record types as example here and touch on the same points: help/quicksilver/planning/access/share-record-types.md; in addition to using Lilit's information
+-->
 
 <!--checking on the below with Lilit-->
 
 * 您可以與下列實體共用記錄：人員、群組、團隊、公司或職務角色。
-* 當您共用記錄時，使用者無論在系統中出現該記錄的任何位置，都可擁有相同的存取權。
-* 如果您限制記錄的許可權，則使用者不會再在系統中任何新增該記錄的地方檢視該記錄及其查閱欄位的值。
+* 如果您限制記錄的許可權，則使用者不會再在顯示該記錄的系統中的任何位置檢視該記錄及其查閱欄位的值。
 * Workfront會檢查最多5筆記錄深層連線的記錄許可權，確保使用者只會看到與他們共用的記錄。
 * 您可以授予記錄的下列許可權層級：
 
@@ -140,7 +148,6 @@ ht-degree: 2%
      >
      >如果您選擇授予&#x200B;**工作區中的所有人都可以檢視記錄型別或記錄的許可權**，則工作區許可權共用清單中所列的所有人都將擁有記錄型別和記錄的相同許可權，即使繼承的許可權已停用。
 
-
 * 當您與使用者共用記錄時，預設會以與記錄型別相同的許可權新增使用者。
 
   例如：
@@ -148,13 +155,24 @@ ht-degree: 2%
    * 如果他們擁有記錄型別的檢視許可權，他們將獲得記錄的檢視許可權
    * 如果他們擁有記錄型別的「貢獻」或「管理」許可權，他們將獲得記錄的「管理」許可權
 
-* 身為工作區管理員，您可以與沒有記錄型別或工作區許可權的使用者共用記錄。 在這種情況下，新增的實體旁邊會出現警告，通知他們無權存取工作區或記錄型別。 <!--ensure this is this way, because in devtest the warning only shows record type, but logged a bug to add "workspace" to the warning too-->您可以繼續將使用者新增至記錄，這也會將使用者新增至記錄型別和工作區，或取消共用。
+* 身為工作區管理員，您可以與沒有記錄型別或工作區許可權的使用者共用記錄。 在這種情況下，新增的實體旁邊會出現警告，通知您他們無權存取工作區或記錄型別。  您可以繼續將使用者新增至記錄，這也會將使用者新增至記錄型別和工作區，或取消共用。
 
-* 當使用者具有工作區的「管理」或「貢獻」許可權以及記錄型別，並且您將其新增到記錄許可權時，檢視許可權將暗顯。 他們保留對記錄的相同許可權，就像對記錄型別一樣，並且您不能授予他們較低的記錄許可權。<!--Lilit is checking on this, it is not working correctly-->
+<!--
+ensure this is this way, because in devtest the warning only shows record type, but logged a bug to add "workspace" to the warning too
+-->
 
-  當他們擁有工作區或記錄型別的檢視許可權時，他們保留記錄的檢視許可權。 您可以透過停用繼承許可權並選取「只有受邀者可以存取」設定，將記錄的管理許可權授予他們。<!-- I think this is right, but because of the above not working, I can't test-->
+* 當使用者具有工作區的「管理」或「貢獻」許可權以及記錄型別，並且您將其新增到記錄許可權時，檢視許可權將暗顯。 他們保留對記錄的相同許可權，就像對記錄型別一樣，並且您不能授予他們較低的記錄許可權。
+<!--
+Lilit is checking on this, it is not working correctly
+-->
 
-<!-- not sure what this means, confusing, hiding for now: * If you don't have permissions to add people to the workspace, you will only see and add users, teams, groups, roles, and companies that are already added to the workspace. You cannot add any other entity that is not already part of the workspace.-->
+<!--
+   check on this: I cannot disable inherited permissions when this setting is ON and this documented in a TIP below: When they have View permissions to the workspace or the record type, they retain View permissions to the records. You can grant them Manage permissions to the record by disabling Inherited permissions and selecting the Only invited people can access setting.
+   -->
+
+<!-- 
+   not sure what this means, confusing, hiding for now: * If you don't have permissions to add people to the workspace, you will only see and add users, teams, groups, roles, and companies that are already added to the workspace. You cannot add any other entity that is not already part of the workspace.
+   -->
 
 * 您可以停用單一記錄的繼承許可權，在這種情況下，您可以授予他們個別記錄的許可權，或者如果他們屬於&#x200B;**工作區中的每個人都可以檢視**&#x200B;選項，則他們可以取得許可權。
 
@@ -162,16 +180,17 @@ ht-degree: 2%
 
   例如，如果記錄與具有檢視許可權的使用者共用，並且其群組具有管理存取權，則他們可獲得該記錄的管理許可權。
 
-<!--Too granular??
-
-If the inheritance has not been disabled, the user gets the maximum of inherited+individual+wildcard access 
-
-If the inherited permissions are disabled, the user gets the maximum of wildcard+individual permissions -->
+  <!--
+   Too granular??
+   If the inheritance has not been disabled, the user gets the maximum of inherited+individual+wildcard access 
+   If the inherited permissions are disabled, the user gets the maximum of wildcard+individual permissions 
+   -->
 
 * 如果所連線記錄的公式欄位或查閱欄位是以您沒有許可權的記錄欄位為基礎的，您將看到正確的計算，其中哪些是您無法以其他方式存取的記錄因素。
 
-<!-- not sure if any of the Share record types points might match here - ask Lilit??-->
-
+  <!--
+   not sure if any of the Share record types points might match here - ask Lilit??
+   -->
 
 ## 共用記錄許可權
 
@@ -208,7 +227,12 @@ If the inherited permissions are disabled, the user gets the maximum of wildcard
    >
    >Workspace管理員繼續擁有記錄型別和記錄的管理許可權。
 
-   1. （選擇性）選取&#x200B;**只有受邀者才能從**&#x200B;誰有存取權&#x200B;**區域存取**。
+   1. （選擇性）選取&#x200B;**只有受邀者才能從**&#x200B;誰有存取權&#x200B;**區域存取**。 您必須指明要與其共用記錄的個別使用者、群組、團隊或公司。
+
+      >[!TIP]
+      >
+      >選取此設定時，您無法停用或啟用繼承許可權。
+
 
    1. 在&#x200B;**授與此記錄型別**&#x200B;的存取權欄位中，新增您要授與不同於工作區或記錄型別之許可權等級的使用者、團隊、群組、公司或工作角色。
    1. 選擇下列其中一個許可權層級：
