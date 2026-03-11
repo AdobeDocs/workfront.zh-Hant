@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
-source-git-commit: 8bcea5cec9f68deacc5f89ca7703303a1b00769f
+source-git-commit: 995de2bc4ea3284d9411b0e9f624cb7611774b95
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '66'
 ht-degree: 0%
 
 ---
@@ -42,21 +42,25 @@ For more information, see [Create a document approval workflow](/help/quicksilve
 
 -->
 
-## 設定及使用多階段核准工作流程範本
+<!--
+
+## Set up and use multi-stage approval workflow templates
 
 >[!NOTE]
 >
->預覽： 2026年2月26日
->生產快速發行： 2026年3月12日
->每個人都能使用生產： 2026年4月16日
+>Preview: February 26, 2026
+>Production fast release: March 12, 2026
+>Production for everyone: April 16, 2026
 
-您現在可以設定並重複使用多階段核准工作流程範本，讓您更輕鬆地在重複核准工作流程之間套用一致的控管。
+You can now configure and reuse multi-stage approval workflow templates, making it easier to apply consistent governance across repeatable approval workflows. 
 
-使用核准工作流程範本，您可以：
+With approval workflow templates, you can: 
 
-* 建立具有唯一參與者和截止日期的循序核准階段
-* 縮短啟動核准期間的手動設定時間
-* 確保必要的利害關係人在正確的階段參與
+* Create sequential approval stages with unique participants and deadlines
+* Reduce manual setup time during approval initiation
+* Ensure required stakeholders are engaged at the right stage
 
-如需詳細資訊，請參閱[建立檔案的核准工作流程範本](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)。
+For more information, see [Create an approval workflow template for documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
+
+-->
