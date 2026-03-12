@@ -7,8 +7,10 @@ description: 開始使用GenStudio for Performance Marketing和Frame.io整合
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
+hide: true
+hidefromtoc: true
 exl-id: 4d0c0542-3383-4907-b573-e2ef56117681
-source-git-commit: 8b8f638f089ff967fe7d4fb641b23f5836ac86b5
+source-git-commit: 2b4230acf01f62b53b8e2efe4c21cabbdef28701
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 4%
@@ -88,7 +90,7 @@ ht-degree: 4%
 
 當使用者在GenStudio for Performance Marketing中啟動稽核時，他們只需選擇所需的範本。 使用者可隨時輕鬆變更任何統一的核准核准工作流程範本、新增或移除稽核者與階段。
 
-如需詳細資訊，請參閱[要求檢閱與核准](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/approve/request-review)。
+如需詳細資訊，請參閱[要求檢閱與核准](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/request-review)。
 
 ## 在Frame.io檢視器中檢閱及核准GenStudio for Performance Marketing草稿內容
 
@@ -107,4 +109,4 @@ ht-degree: 4%
 
 當資產通過稽核和核准程式後，您可以直接從GenStudio for Performance Marketing檢視稽核決定並發佈內容。
 
-如需詳細資訊，請參閱[發佈核准的內容](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content)。
+如需詳細資訊，請參閱[發佈核准的內容](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content)。
