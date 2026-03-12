@@ -8,10 +8,10 @@ author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: e8badce6-86f5-416c-a238-f9b7f19cdd2d
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 0%
+source-wordcount: '905'
+ht-degree: 2%
 
 ---
 
@@ -36,14 +36,14 @@ ht-degree: 0%
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p> 任何</p> </td> 
   </tr> 
   <tr> 
@@ -66,7 +66,9 @@ ht-degree: 0%
 
 +++
 
-## 大量編輯檔案
+## 在舊版檔案區域中大量編輯檔案
+
+如果您的組織位於舊版Workfront儲存空間，當您存取Workfront中的檔案時，將會看到舊版檔案區域。 如需Workfront儲存體的詳細資訊，請參閱[Adobe企業儲存體與舊版Workfront儲存體之間的差異](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage)。
 
 若要大量編輯檔案：
 
@@ -93,6 +95,31 @@ ht-degree: 0%
     </table>
 1. 按一下「**儲存**」。
 
+## 在新檔案區域中大量編輯檔案
+
+
+如果您的組織使用企業儲存空間，當您存取Workfront中的檔案時，將會看到新檔案區域。 如需企業儲存的詳細資訊，請參閱[Adobe企業儲存概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+
+若要大量編輯檔案：
+
+1. 前往包含檔案的專案、任務或問題，然後選取「**檔案**」。
+1. 在鍵盤上按ctrl或cmd，然後選取要編輯的檔案。
+1. 按一下頁面底部的「編輯」 。
+   ![編輯多份檔案](assets/bulk-edit-documents.png)
+1. （選用）新增或編輯&#x200B;**描述**。 如果每個檔案的描述不同，您會在描述方塊中看到&#x200B;_多個值_。 您可以為所有檔案新增相同的說明，但當您大量編輯時，無法編輯個別檔案說明。
+1. 使用自訂表單進行下列變更：
+
+   <table>
+    <tr>
+    <td><strong>新增表單</strong></td>
+    <td>在<strong>自訂表單</strong>區段中，您可以將新的自訂表單新增至所選檔案。 附加到所有選定檔案的自訂表單會顯示在通用<strong>區段的</strong>自訂表單中。  </td>
+    </tr>
+    <tr>
+    <td><strong>編輯表單</strong></td>
+    <td>編輯任何附加的自訂表單。 您變更的資訊會覆寫個別檔案的現有資訊。 跨檔案具有不同值的欄位會顯示為「多個值」。 </td>
+    </tr>
+    </table>
+1. 按一下「**儲存**」。
 
 ## 在檔案報告中大量編輯檔案
 
@@ -101,7 +128,6 @@ ht-degree: 0%
 建立檔案報告，如[建立自訂報告](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)中所述。
 1. 選取您要編輯的檔案。
 1. 按一下「編輯」圖示![編輯圖示](assets/edit-icon.png)。
-   ![編輯頁面](assets/edit-multiple-documents.png)上的圖示位置
 1. （選用）新增或編輯&#x200B;**描述**。 如果每個檔案的描述不同，您會在描述方塊中看到&#x200B;_多個值_。 您可以為所有檔案新增相同的說明，但當您大量編輯時，無法編輯個別檔案說明。
 1. 使用自訂表單進行下列變更：
 

@@ -6,9 +6,9 @@ description: Workfront中可供檢閱和核准的系統概觀。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: aa3645e2ed8c36a3b07caad72083a43467889fce
+source-git-commit: e93f8662acb95029e4997ec270b23511d3e880dd
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
@@ -58,9 +58,11 @@ Workfront中目前有3種不同的系統可供檔案核准：
 * 使用目前處於Beta版的畫布儀表板來檢視有關統一核准的報告詳細資訊
 如需報告的詳細資訊，請參閱[建立報告儀表板以供檢閱和核准](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)。
 
-* 建立多個階段核准[!BADGE 即將推出]{type=Informative}
+* 建立多個階段核准
 
 * 首頁區域中的我的核准Widget中的存取檢閱和核准請求
+
+* 使用Frame.io整合來檢閱和核准檔案。 如需詳細資訊，請參閱[開始使用Frame.io整合](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md)。
 
 * 使用AI檢閱者來自動進行品牌法規遵循檢閱。 如需詳細資訊，請參閱[開始使用Workfront AI檢閱者](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)。
 
@@ -88,7 +90,3 @@ Workfront中目前有3種不同的系統可供檔案核准：
 * 使用基本或自動化工作流程
 
 * 首頁區域中的我的核准Widget中的存取核准請求
-
-<!--
-## Upcoming deprecations
--->

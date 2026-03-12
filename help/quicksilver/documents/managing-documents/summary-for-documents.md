@@ -7,10 +7,10 @@ description: 「摘要」可讓您直接從檔案清單與重要資訊互動。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 2%
+source-wordcount: '695'
+ht-degree: 5%
 
 ---
 
@@ -21,10 +21,10 @@ ht-degree: 2%
 您可以使用「摘要」面板，直接從檔案清單存取和更新重要資訊。
 
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 
-## 存取需求
+## 存取權要求
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -35,11 +35,11 @@ ht-degree: 2%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p> 任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
+   <td role="rowheader">Adobe Workfront 授權</td> 
    <td> <p>投稿人或以上</p> 
    <p>要求或更高版本</p>
    </td> 
@@ -59,7 +59,11 @@ ht-degree: 2%
 
 +++
 
-## 開啟摘要檢視
+## 舊版檔案體驗中的檔案摘要
+
+如果您的組織位於舊版Workfront儲存空間，當您存取Workfront中的檔案時，將會看到舊版檔案區域。 如需有關舊版Workfront儲存體的詳細資訊，請參閱[舊版Workfront儲存體與Adobe企業儲存體之間的差異](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+
+### 開啟舊版檔案體驗中的摘要檢視
 
 {{step1-to-documents}}
 
@@ -72,32 +76,32 @@ ht-degree: 2%
    開啟「摘要」後，它仍會在此頁面上保持開啟狀態（即使您按一下其他檔案），直到您手動關閉它為止。
 
 
-## 詳細資料
+### 詳細資料
 
 使用詳細資訊區段檢視高階總覽資訊並與自訂表單互動。 按一下區段頂端的詳細資訊，即可移至完整的檔案詳細資訊頁面。
 
 * [概觀](#overview)
 * [自訂表單](#custom-forms)
 
-### 概觀 {#overview}
+#### 概觀 {#overview}
 
 展開「概觀」區段以檢視或下載影像縮圖、開啟校樣、更新基本說明、取出檔案等等。
 
 ![檔案摘要概觀](assets/details-section.png)
 
-### 自訂表單 {#custom-forms}
+#### 自訂表單 {#custom-forms}
 
 使用自訂Forms區段來新增、編輯或檢視與檔案相關聯的任何自訂表單。 開始輸入自訂表單的名稱，以將其新增到檔案。 如需詳細資訊，請參閱[新增或編輯檔案的自訂表單](../../documents/managing-documents/add-custom-form-documents.md)。
 
 ![在檔案摘要中新增自訂表格](assets/custom-forms-section.png)
 
-## 更新
+### 更新
 
 使用更新區段來檢視某人對該檔案或校訂進行的更新。 摘要會顯示前2個註解。 如需更新的詳細資訊，請參閱[對校訂的註解](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)。
 
 摘要面板中的![更新區段](assets/updates-section.png)
 
-## 核准
+### 核准
 
 使用核准區段來要求檔案核准。 您也可以提醒某人有關核准的資訊、重新提交核准並取消先前的決定，或刪除核准。 檔案核准者可使用摘要來做出決定。
 
@@ -108,7 +112,7 @@ ht-degree: 2%
 
 ![檔案摘要核准](assets/approvals-section.png)
 
-## 版本
+### 版本
 
 使用「版本」區段可檢視針對特定檔案建立的版本數目。 按一下「更多」圖示![「更多」圖示](assets/more-icon.png)以執行下列動作：
 
@@ -119,3 +123,48 @@ ht-degree: 2%
 * 刪除校訂或檔案。
 
 ![檔案摘要版本](assets/versions-section.png)
+
+## 新檔案體驗中的檔案摘要
+
+如果您的組織使用企業儲存空間，當您存取Workfront中的檔案時，將會看到新檔案區域。 如需企業儲存的詳細資訊，請參閱[Adobe企業儲存概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+
+### 詳細資料
+
+使用詳細資訊區段檢視高階總覽資訊並與自訂表單互動。
+
+![新檔案中的檔案摘要詳細資訊](assets/summary-details.png)
+
+### 核准
+
+使用核准區段來建立核准工作流程。 您也可以提醒參與者核准或刪除核准。 檔案核准者可以存取Frame.io檢視器或使用「摘要」做出決定。
+
+如需有關核准和Frame.io的詳細資訊，請參閱
+
+* [開始使用Frame.io整合](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md)
+* [建立檔案檢閱或核准要求](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)。
+
+![新檔案中的檔案摘要核准](assets/summary-approvals.png)
+
+
+<!-- resubmit the approval and cancel the previous decision, or delete the approval. Document approvers can use the Summary to make a decision.-->
+
+
+### 版本
+
+使用「版本」區段可檢視針對特定檔案建立的版本數目。 按一下「更多」圖示以執行下列動作：
+
+* 重新命名版本
+* 檢視檔案詳細資訊
+* 請求核准特定版本
+* 在 Frame.io 中開啟
+* 下載版本
+* 共用版本
+* 刪除版本
+
+![新檔案中的檔案摘要版本體驗](assets/summary-versions.png)
+
+### 歷史記錄
+
+使用「歷史記錄」區段可檢視與檔案相關的所有活動清單。
+
+![新檔案中的檔案摘要歷程記錄體驗](assets/summary-history.png)

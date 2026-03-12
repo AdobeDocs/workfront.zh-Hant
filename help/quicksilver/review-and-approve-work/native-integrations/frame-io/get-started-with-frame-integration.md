@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b9a83bc2-4dd8-4c77-a2e7-385baa809b3b
-source-git-commit: 8233bcad8409b6f293d365fe871338e643a410dc
+source-git-commit: e93f8662acb95029e4997ec270b23511d3e880dd
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '960'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Workfront與Frame.io整合可讓創意人員、行銷人員和利害關係人透
 
 如果您的組織有Frame.io Enterprise授權，在Workfront中建立的專案也會顯示在Frame.io中，讓使用者可在任一產品中互動和上傳資產。
 
-如需Adobe Enterprise Storage或Frame.io中專案的詳細資訊，請參閱
+如需Adobe企業儲存空間或Frame.io中專案的詳細資訊，請參閱
 
 * [Workspace總覽：專案](https://help.frame.io/en/articles/9101001-workspace-overview#h_d9f8654895)
 * [Adobe企業儲存空間概覽](/help/quicksilver/review-and-approve-work/esm-overview.md)
@@ -56,7 +56,7 @@ Workfront與Frame.io整合可讓創意人員、行銷人員和利害關係人透
 
 ### 在Workfront中啟動正式稽核和核准
 
-專案專員可建立一次性稽核和核准或可再次核准的範本。 他們可以指派稽核者、核准者，或兩者的組合：
+專案專員可建立一次性稽核和核准或可重複使用的核准範本。 他們可以指派稽核者、核准者，或兩者的組合：
 
 * **檢閱者**&#x200B;可以新增註解及標籤資產。 完成後，他們可以將其稽核標籤為完成。 資產不需要將稽核標籤為完成，才能在核准程式中前進。
 * **核准者**&#x200B;可以新增註解及標籤資產。 他們必須決定推進核准程式。
@@ -67,13 +67,13 @@ Workfront與Frame.io整合可讓創意人員、行銷人員和利害關係人透
 
 * **單次使用核准**：在資產所在的專案或任務中，專案協調員可以指派稽核者和核准者，並設定完成期限。 系統會透過電子郵件提醒檢閱者和核准者：截止日期前72小時、截止日期前24小時，然後於截止日期本身。
 
-  如需詳細資訊，請參閱[建立檔案檢閱或核准要求](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)。
+  如需詳細資訊，請參閱[建立檔案核准工作流程](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)。
 
-* **核准範本**：在Workfront設定區域中，專案專員可以建立可繼續使用的核准範本。 在範本中，使用者可以新增稽核者和核准者，並指定完成時間範圍。 將核准範本套用至資產時，截止日期是從指定的時間範圍計算。
+* **核准範本**：在Workfront設定區域中，專案專員可以建立可重複使用的核准範本。 在範本中，使用者可以新增稽核者和核准者，並指定完成時間範圍。 將核准範本套用至資產時，截止日期是從指定的時間範圍計算。
 
   建立範本後，可將其套用至資產，以在Workfront中開始正式的稽核和核准流程。
 
-  如需詳細資訊，請參閱[建立核准範本](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)。
+  如需詳細資訊，請參閱[建立檔案的核准工作流程範本](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)。
 
 
   ![指派範本](assets/assign-template.png)
@@ -106,6 +106,7 @@ Workfront與Frame.io整合可讓創意人員、行銷人員和利害關係人透
 所有複查活動完成後，核准者必須執行下列其中一項決定：
 
 * **核准**：資產不需要變更，而且已可供使用。
+* **已核准變更**：資產大致完成，但需要小幅變更才能使用。 完成指定的變更後，資產就會準備就緒，不需要再進行一輪核准。
 * **需要工作**：資產需要變更，而且尚未準備好使用。 完成指定的變更後，必須將資產上傳為新版本，並經過另一輪核准。<!--is the same approval workflow automatically applied? Does the coordinator have to do anything to get the approval going? -->
 
 檢閱者可在Workfront內將其檢閱標籤為完成，但這並非資產在核准程式中前進的必要條件。

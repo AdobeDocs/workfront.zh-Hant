@@ -6,10 +6,10 @@ description: 您可以請求任何支援「檔案」之物件的檔案。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 228b53ba-4a87-4edd-b478-501b216c4a1d
-source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 0%
+source-wordcount: '399'
+ht-degree: 5%
 
 ---
 
@@ -17,16 +17,21 @@ ht-degree: 0%
 
 您可以請求任何支援「檔案」之物件的檔案。
 
-## 存取需求
+>[!NOTE]
+>
+>新檔案區域沒有此功能。<br>
+>如果您的組織使用企業儲存空間，當您存取Workfront中的檔案時，將會看到新檔案區域。 如需企業儲存的詳細資訊，請參閱[Adobe企業儲存概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
-+++ 展開以檢視本文中功能的存取需求。
+## 存取權要求
+
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p> 任何</p> </td> 
   </tr> 
   <tr> 

@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b5f0150b-40b5-4386-98bc-374e7ca65b74
-source-git-commit: 07fa7207960f424cc8580eb46fe13bd5af4e56a8
+source-git-commit: e93f8662acb95029e4997ec270b23511d3e880dd
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '859'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Workfront和Frame.io整合可讓專案專員在Workfront中管理專案和計畫
 
 ## 內建於Adobe企業儲存空間
 
-這項整合的核心是Adobe企業儲存體：雲端型儲存體解決方案，可作為Adobe企業產品(包括Workfront和Frame.io)資產的中央存放庫。<!--, and Creative Cloud.-->
+這項整合的核心是Adobe企業儲存體：雲端型儲存體解決方案，可作為Adobe企業產品（包括Workfront和Frame.io）資產的中央存放庫。<!--, and Creative Cloud.-->
 
 Adobe企業儲存的主要優點包括：
 
@@ -95,13 +95,13 @@ Frame.io檢視器是所有Workfront檢閱和核准工作流程的預設檢視器
 
 ### 強制的結構與命名慣例
 
-由於此整合是使用Adobe Enterprise Storage所建置，因此在管理專案和檔案時，應注意一些強制性的結構和命名慣例。
+由於此整合是使用Adobe企業儲存空間建立的，因此在管理專案和檔案時，應注意一些強制的結構與命名慣例。
 
 * 物件名稱必須是唯一的，而且不能重複
-* 「Adobe企業儲存體」在階層樹狀結構中具有相同父項的對等物件需要唯一的名稱
+* 對於階層樹狀結構中具有相同父級的對等物件，Adobe企業儲存體必須有唯一的名稱
 * 如果檔案屬於相同專案，則不能使用相同名稱
-* 檔名稱不能包含下列任何特殊字元： \ / ： * ？ &quot; | &lt; >
-* 檔名稱的上限為255個字元
+* 檔名稱不能包含下列任何特殊字元： \ / ： * ？ 「 | &lt; >
+* 檔名稱上限為255個字元
 
 考慮到這些限制，Workfront會視需要自動重新命名物件或檔案，以避免衝突。
 
@@ -134,9 +134,7 @@ Frame.io檢視器是所有Workfront檢閱和核准工作流程的預設檢視器
 
 ### Workfront的檔案管理
 
-檔案透過此整合在專案層級進行管理，目前無法上傳到任務或問題。
-
-檔案存取也可在專案層級進行管理。 如果使用者擁有專案的存取權，他們可以存取與該專案相關聯的所有檔案。
+上傳至Workfront的檔案會儲存在Adobe企業儲存空間中，並可在Workfront和Frame.io中存取。 當您將檔案上傳到Workfront中的任務或問題時，系統會在Adobe企業儲存空間中建立一個系統產生的檔案夾，該檔案夾會繼承任務或問題的許可權。 上傳至該任務或問題的所有檔案都會儲存在該資料夾中，並繼承其許可權。 如需Workfront中檔案的詳細資訊，請參閱[新檔案區域概觀](/help/quicksilver/documents/managing-documents/documents-area.md)和[Adobe企業儲存模型的物件許可權和存取層級概觀](/help/quicksilver/review-and-approve-work/esm-access-permissions.md)。
 
 ### 檔案體驗限制
 
@@ -151,13 +149,3 @@ Frame.io檢視器是所有Workfront檢閱和核准工作流程的預設檢視器
 * Workfront中的檔案檢視器
 * 我的最愛檔案
 * 要求檔案
-
-
-<!--#### Temporary limitations
-
-For now, the following capabilities are not available:
-
-* Send documents to Adobe Experience Manager Assets
-* Multi-stage approvals
-* Upload documents to comments or updates in Workfront
-* Upload documents to tasks or issues in Workfront-->

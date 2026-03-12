@@ -2,31 +2,36 @@
 product-area: documents
 navigation-topic: manage-documents
 title: 簽出檔案
-description: 您可以出庫檔案，以防止其他使用者刪除檔案或上傳檔案的新版本。 一次只能有一個使用者出庫檔案。 您可以簽出已上傳至Adobe Workfront的任何檔案，以及連結至協力廠商檔案提供者(Box、Dropbox、Google Drive、Webdam、Workfront DAM、SharePoint或任何其他自訂提供者)的檔案。
+description: 您可以出庫檔案，以防止其他使用者刪除檔案或上傳檔案的新版本。 一次只能有一個使用者出庫檔案。 您可以簽出已上傳至Adobe Workfront的任何檔案，以及連結至協力廠商檔案提供者（Box、Dropbox、Google Drive、Webdam、Workfront DAM、SharePoint或任何其他自訂提供者）的檔案。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 15d9ea43-1cee-4cb1-9365-4374a291c090
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 0%
+source-wordcount: '674'
+ht-degree: 2%
 
 ---
 
 # 簽出檔案
 
-您可以出庫檔案，以防止其他使用者刪除檔案或上傳檔案的新版本。 一次只能有一個使用者出庫檔案。 您可以簽出已上傳至Adobe Workfront的任何檔案，以及連結至協力廠商檔案提供者(Box、Dropbox、Google Drive、Webdam、Workfront DAM、SharePoint或任何其他自訂提供者)的檔案。 
+您可以出庫檔案，以防止其他使用者刪除檔案或上傳檔案的新版本。 一次只能有一個使用者出庫檔案。 您可以簽出已上傳至Adobe Workfront的任何檔案，以及連結至協力廠商檔案提供者（Box、Dropbox、Google Drive、Webdam、Workfront DAM、SharePoint或任何其他自訂提供者）的檔案。 
 
-## 存取需求
+>[!NOTE]
+>
+>新檔案區域沒有此功能。<br>
+>如果您的組織使用企業儲存空間，當您存取Workfront中的檔案時，將會看到新檔案區域。 如需企業儲存的詳細資訊，請參閱[Adobe企業儲存概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
-+++ 展開以檢視本文中功能的存取需求。
+## 存取權要求
+
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
