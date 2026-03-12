@@ -4,12 +4,12 @@ product-area: reports and dashboards
 navigation-topic: data connect
 title: 建立Snowflake的讀者帳戶
 description: 若要存取Data Connect資料，您必須先建立Snowflake讀取器帳戶。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
-source-git-commit: 9cf221bda04614856a6a3670100742340fb73aee
+source-git-commit: b6267718fd76a643395c850b97352095a0fe12fc
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '906'
 ht-degree: 1%
 
 ---
@@ -75,17 +75,31 @@ ht-degree: 1%
 
 ## 建立連線
 
+>[!IMPORTANT]
+>
+>在2026年6月，使用多重驗證(MFA)將需要使用者名稱/密碼認證。 對於用來將資料從Data Connect載入到第三方視覺化工具、資料處理器和指令碼的服務使用者帳戶，我們建議轉換成RSA或PAT式驗證，這些在驗證過程中不適用於MFA。
+
+
 1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**設定**。
 
 1. 在左側面板中，按一下&#x200B;**系統** > **資料連線**。
 
-1. 按一下&#x200B;**建立新連線**
+1. 按一下&#x200B;**建立新連線**。
 
 1. 在出現的視窗中，在&#x200B;**連線參考描述**&#x200B;中輸入連線的名稱，並在&#x200B;**連線使用者**&#x200B;中輸入使用者名稱，然後按一下&#x200B;**產生連線**。
 
    ![建立新連線](/help/quicksilver/reports-and-dashboards/data-lake/assets/new-reader-connection.png) {width="500"}
 
-1. 將會產生&#x200B;**預設密碼**，以及可透過Snowflake檢視您資料的URL。 您將需要使用密碼搭配您選擇用來首次登入Snowflake的使用者名稱，因此請務必將其與URL一起記錄。 核取宣告您已完成此作業的方塊，然後按一下&#x200B;**關閉**。
+1. 選擇連線的驗證方法：
+   * [密碼驗證](#password-authentication)
+   * [程式化存取Token驗證](#programmatic-access-token-authentication)
+   * [RSA金鑰驗證](#rsa-key-authentication)
+
+### 密碼驗證
+
+1. 按一下&#x200B;**密碼**，然後按&#x200B;**產生連線**。
+
+1. 已產生&#x200B;**預設密碼**，以及可透過Snowflake檢視您資料的URL。 您需要使用密碼搭配您選擇用來首次登入Snowflake的使用者名稱，因此請務必將其記錄以及URL。 核取宣告您已完成此作業的方塊，然後按一下&#x200B;**關閉**。
 
    ![預設帳戶密碼](/help/quicksilver/reports-and-dashboards/data-lake/assets/default-password-reader-account.png) {width="500"}
 
@@ -97,6 +111,35 @@ ht-degree: 1%
 
 1. 您現在可以使用使用者名稱和新密碼，存取Snowflake中的Data Connect Data Lake或您選擇的商業視覺化工具。
 
+### 程式化存取Token驗證
+
+1. 按一下&#x200B;**程式化存取Token**。
+
+1. 在&#x200B;**到期日**&#x200B;欄位中輸入權杖的到期日。 您可選擇未來最多365天的到期日。
+
+1. 按一下&#x200B;**產生連線**。
+
+1. 系統會產生可用於驗證的PAT權杖，並提供您的Snowflake環境URL。 您可以使用提供的PAT和使用者名稱，從協力廠商視覺化工具或資料處理者連線至Snowflake。 請確定您同時保留記錄和URL。 核取宣告您已完成此作業的方塊，然後按一下&#x200B;**關閉**。
+
+   ![程式化存取權杖對話方塊](/help/quicksilver/reports-and-dashboards/data-lake/assets/pat-test.png)
+
+
+### RSA金鑰驗證
+
+1. 按一下&#x200B;**RSA金鑰**。
+
+1. 在&#x200B;**RSA公開金鑰**&#x200B;欄位中輸入RSA公開金鑰。
+
+1. 按一下&#x200B;**產生連線**。
+
+1. 會產生連線，並會提供您的Snowflake環境URL。 您可以使用提供的RSA金鑰和使用者名稱，從協力廠商視覺化工具或資料處理者連線至Snowflake。
+
+
+
+您需要將RSA金鑰搭配您選擇用來登入Snowflake的使用者名稱使用，因此請務必將其記錄以及URL。 核取宣告您已完成此作業的方塊，然後按一下&#x200B;**關閉**。
+
+    ！[RSA金鑰對話方塊](Assets/rsa-test.png)
+
 ## 撤銷Reader帳戶
 
 1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**設定**。
@@ -105,4 +148,4 @@ ht-degree: 1%
 
 1. 按一下您要撤銷之帳戶右側的垃圾桶圖示![刪除圖示](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png)。
 
-1. 在出現的視窗中，核取方塊以確認，然後按一下[刪除]。**&#x200B;**
+1. 在出現的視窗中，核取方塊以確認，然後按一下[刪除]。****
