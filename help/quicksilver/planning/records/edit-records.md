@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
+source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
 workflow-type: tm+mt
-source-wordcount: '2899'
+source-wordcount: '2961'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # 編輯記錄
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 
 {{planning-important-intro}}
@@ -139,10 +139,10 @@ ht-degree: 0%
 * 下列型別的欄位會自動更新，您無法手動編輯其值：
    * 從其他記錄連結的欄位
    * 公式型別欄位
-   * 系統欄位（「建立者」、「建立日期」、「上次修改者」、「上次修改日期」、「核准日期」、「核准者」<!--, <span class="preview">Record ID</span>-->）
+   * 系統欄位（「建立者」、「建立日期」、「上次修改者」、「上次修改日期」、「核准日期」、「核准者」、<span class="preview">記錄ID</span>）
 * 如果顯示的記錄連結到其他記錄，則您正在編輯的記錄的新資訊會反映在連結該記錄的所有工作區中的連結記錄上。
 * 您無法大量編輯記錄。<!--this will probably change-->
-* URL只有以下列專案開頭時，才會被識別為單行文字欄位型別中的連結： http://、https://、ftp://或www。.
+* URL的開頭必須是： http://、https://、ftp://或www. ，才能辨識為單行文字欄位型別中的連結。
 * 您可以將封面影像新增到每張記錄中。 每個記錄的影像都是唯一的，不會套用至同一時間的所有記錄。 如需詳細資訊，請參閱[新增封面影像至記錄](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)。
 * 您可以編輯記錄詳細資訊頁面中的欄位順序。 如需詳細資訊，請參閱[管理記錄頁面配置](/help/quicksilver/planning/records/manage-the-record-page.md)。
 * 您可以在時間軸和行事曆檢視中調整記錄大小或重新定位記錄，以編輯記錄的「開始」和「結束」日期。
@@ -236,7 +236,7 @@ ht-degree: 0%
    >考慮以下事項：
    >
    >* 使用下列鍵盤快速鍵來複製和貼上資訊：
-   >   * 複製： CTRL + C (⌘ + C (適用於Mac)
+   >   * 複製： CTRL + C (⌘ + C （適用於Mac）
    >   * 貼上： CTRL + V (⌘ + V for Mac)
    >
    >* 您無法複製和貼上記錄頁面中的欄位值。 只有在記錄型別的表格檢視中才支援此功能。
@@ -247,8 +247,8 @@ ht-degree: 0%
 
 1. （可選）使用下列鍵盤快速鍵來復原或重做編輯或複製和貼上記錄資訊：
 
-   * CTRL + Z (⌘ + Z代表Mac)可復原變更
-   * 按CTRL + Shift + Z (⌘ + Shift + Z代表Mac)以重做變更
+   * CTRL + Z （⌘ + Z代表Mac）可復原變更
+   * 按CTRL + Shift + Z （⌘ + Shift + Z代表Mac）以重做變更
 
    >[!TIP]
    >
@@ -436,7 +436,7 @@ ht-degree: 0%
 1. 移至記錄型別頁面並開啟表格檢視。
 1. 新增您要在表格檢視中新增選擇的單一或多重選取欄位作為新欄。 如需詳細資訊，請參閱[建立欄位](/help/quicksilver/planning/fields/create-fields.md)。
 1. 連按兩下欄位的儲存格，開始內嵌編輯欄位。
-1. 輸入您要新增的選擇名稱，然後按一下[新增選擇]。**&#x200B;**
+1. 輸入您要新增的選擇名稱，然後按一下[新增選擇]。****
 
    ![在表格檢視中的單一選取欄位中新增選項](assets/add-choice-in-table-view-for-single-select-field.png)
 

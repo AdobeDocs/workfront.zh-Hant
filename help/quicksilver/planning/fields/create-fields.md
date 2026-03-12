@@ -6,16 +6,16 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
+source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
 workflow-type: tm+mt
-source-wordcount: '5510'
+source-wordcount: '5686'
 ht-degree: 1%
 
 ---
 
 
 <!--
-Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=zh-Hant ??
+Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??
 -->
 
 <!--
@@ -250,7 +250,7 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
    * [上次修改日期](#last-modified-date)
    * [核准日期](#approved-date)
    * [核准者](#approved-by)
-     <!--* <span class="preview">[Record ID](#record-id)</span>-->
+   * <span class="preview">[記錄ID](#record-id)</span>
      <!--* [Object](#object-field-type)-->
 
    >[!IMPORTANT]
@@ -810,33 +810,32 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 
    新的「已核准的副檔型別」欄位會新增為記錄型別的欄，其值會預先填入上次修改每筆記錄的使用者名稱。
 
-<!--
 <span class="preview">
 
-## Record ID
+## 記錄 ID
 
-You can use the Record ID field type to reveal a system-generated, read-only identifier for each record. 
+您可以使用記錄ID欄位型別，顯示每個記錄的系統產生唯讀識別碼。
 
-When created, the Record ID field auto-populates with an alpha-numeric value. You can use it in formula fields and in API integrations to uniquely identify each record. 
+建立後，「記錄ID」欄位會自動填入英數字元。 您可以在公式欄位和API整合中加以使用，以唯一識別每筆記錄。
 
-You cannot manually modify the value of a Record ID field. 
- 
-1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Record ID** field type.
- 
-   ![Record ID field type](assets/record-id-field-type.png)
+您無法手動修改記錄ID欄位的值。
 
-1. Add the following information in the **New field** tab:
+1. 依照本文章節[從頭開始建立欄位](#create-fields-from-scratch)中的說明，開始建立欄位，然後選取&#x200B;**記錄ID**&#x200B;欄位型別。
 
-     * **Name**: The name of the field, as it will appear in a table or the record page. 
-     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
-    
-1. Click **Create**.
+   ![記錄ID欄位型別](assets/record-id-field-type.png)
 
-    The new Record ID-type field is added as a column to the record type and its values are prefilled with an alpha-numeric value.  
+1. 在&#x200B;**新欄位**&#x200B;索引標籤中新增下列資訊：
+
+   * **名稱**：欄位名稱，它將顯示在資料表或記錄頁面中。
+   * **描述**：有關欄位的額外資訊。 當您將滑鼠游標停留在表格中的欄位欄位上，或當您在記錄的詳細資訊頁面中按一下欄位名稱旁的資訊圖示時，會顯示欄位說明。
+
+1. 按一下「**建立**」。
+
+   新的「記錄ID — 型別」欄位會新增為記錄型別的欄，其值會預先填入英數字元。
 
 </span>
 
--->
+
 <!--
 
 ## Object field type

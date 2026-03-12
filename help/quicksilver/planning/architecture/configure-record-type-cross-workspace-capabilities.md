@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
+source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '1504'
 ht-degree: 1%
 
 ---
@@ -81,26 +81,23 @@ this article is linked to the UI in the Advanced settings/ Cross-workspace setti
   <tr> 
    <td role="rowheader"><p>Adobe Workfront授權</p></td> 
    <td>
+   <p>在生產環境中： </p>
    <p>若要將記錄設為全域，請執行下列動作：</p>
    <ul><li>標準或更高</li></ul>
    <p>若要讓記錄可連線：</p>
    <ul><li>系統管理員</li></ul>
 
-<!--
-   replace the above with this at release:
-   <p>To make a record global:</p>
-   <ul><li>Standard or higher</li></ul>
-   <p>To make a record connectable:</p>
-   <ul><li>In the Production environment:</li>
-   <ul><li>System Administrator</li></ul></ul>
-   -->
-<!--
-   <div class="preview">
-   <ul><li>In the Preview environment:</li>
-   <ul><li>Standard to make a record connectable from specific workspaces</li>
-   <li>System Administrator to make a record connectable from all workspaces</li></ul></ul>
+<div class="preview">
+
+<p>在預覽環境中：</p>
+   <p>若要將記錄設為全域，請執行下列動作：</p>
+   <ul><li>標準或更高</li></ul>
+   <p>若要讓記錄可連線：</p>
+
+<ul><li>使記錄可從特定工作區連線的標準</li>
+   <li>系統管理員，讓記錄可從所有工作區連線</li></ul>
    </div>
-   -->
+
 
 </td> 
   </tr> 
@@ -273,17 +270,13 @@ this is a UI term; don't change the title of this section
 
 1. 啟用&#x200B;**允許連線到其他工作區中的這個記錄型別**&#x200B;設定。
 
-   <!-- add new screen shot with new tab name-->
-
    ![編輯記錄型別跨工作區設定索引標籤，並啟用從其他工作區的連線](assets/edit-record-type-box-cross-workspace-settings-connectable-record-type-enabled.png)
 
    啟用時，記錄型別可供存取，且可從其他工作區連線到。
 
-1. &#x200B;<!--<span class="preview">(Conditional) Depending on which license you have,</span>--> 選擇可存取記錄型別的工作區。 從下列選項中選擇:
+1. <span class="preview">（視條件而定）根據您擁有的授權，</span>從哪些工作區選擇可存取記錄型別。 從下列選項中選擇:
 
-   <!--check names of the setting: System wide?? OR All workspaces??-->
-
-   * **所有工作區**：使用者可以從他們擁有管理許可權的所有工作區連線到此記錄型別。<!--<span class="preview">This option is dimmed for workspace managers with a Standard license. Only System Administrators can turn on connecting record types from all workspaces.</span>-->
+   * **所有工作區**：使用者可以從他們擁有管理許可權的所有工作區連線到此記錄型別。 <span class="preview">此選項對於具有Standard授權的工作區管理員是暗色的。 只有系統管理員可以開啟連線所有工作區的記錄型別。</span>
    * **特定工作區**：從下拉式功能表，新增工作區管理員可連線至此記錄型別的工作區名稱。
 
 1. （視條件而定）在&#x200B;**編輯記錄型別**&#x200B;方塊中按一下&#x200B;**儲存**，或按一下頁面標頭中&#x200B;**設定**&#x200B;左側的返回箭頭，以儲存您的變更。
