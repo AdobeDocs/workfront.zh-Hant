@@ -200,7 +200,7 @@ link to documentation about creating schema - waiting on response from Anuj abou
 1. 在[!DNL Experience Manager Assets]欄位中，搜尋預先填入的類別，或在搜尋欄位中輸入至少兩個字母以存取其他類別。
 1. 視需要重複步驟2和3。
    ![中繼資料欄位](assets/metadata-no-asset-toggle.png)
-1. 按一下[儲存][!UICONTROL ****]&#x200B;或移至本文中的[物件中繼資料同步][區段。](#object-metadata-sync)
+1. 按一下[儲存]&#x200B;[!UICONTROL **&#x200B;**]&#x200B;或移至本文中的[物件中繼資料同步][區段。](#object-metadata-sync)
 
 
 
@@ -242,7 +242,7 @@ link to documentation about creating schema - waiting on response from Anuj abou
 1. 前往Workfront中的&#x200B;**檔案**&#x200B;區域，並選取您要傳送的檔案。
 1. 在熒幕底部的列中，按一下&#x200B;**傳送至**。
 
-1. 選擇系統管理員設定的Experience Manager整合，然後按一下[傳送]。****
+1. 選擇系統管理員設定的Experience Manager整合，然後按一下[傳送]。**&#x200B;**
 
    >[!NOTE]
    >
