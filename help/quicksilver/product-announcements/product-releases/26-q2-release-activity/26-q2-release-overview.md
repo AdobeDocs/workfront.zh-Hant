@@ -1,22 +1,22 @@
 ---
-title: 2026年第二季版本總覽
-description: 此頁面提供2026年第二季度版本中包含的功能相關資訊。 這些增強功能預計會在整個季度內於生產環境中提供。
+title: 2026年第二季度發佈概述
+description: 本頁提供有關2026年第二季度版本中包含的功能的資訊。 這些增強功能計畫在整個季度的生產環境中提供。
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
-source-git-commit: d721f04259046f271e9f420e445af6e87d67a5c0
+source-git-commit: 93c22854ccc405c442331ac392d919d63b8a8aa8
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1505'
 ht-degree: 2%
 
 ---
 
-# 2026年第二季版本總覽
+# 2026年第二季度發佈概述
 
-本頁提供預定於2026年4月發行的2026年第二季度中所包含功能的相關資訊。
+本頁提供有關計畫於2026年4月發佈的2026年第二季度產品中包含的功能的資訊。
 
-此頁面上的增強功能可在預覽環境中取得。 此頁面將在2026年第二季版本接近其計畫生產版本時以其他增強功能更新。
+此頁上的增強功能可在預覽環境中使用。 隨著2026年第二季度的生產計畫發佈接近，本頁將隨之更新，並附帶更多增強功能。
 
 
 <!-- Keep commented until Final Preview release.
@@ -26,26 +26,26 @@ The <add release> release webinar will be held on <date>. You can [register for 
 >[!IMPORTANT]
 >
 >
->除非另有指定，否則每月和每季發行計畫於每月第二整週的星期四提供。
+>除非另有說明，每月和每季度的稿件計畫在本月第二完整周的星期四提供。
 >
->| 每月發行 | 每季發行 |
+>| 每月發佈 | 季度發佈 |
 >|----|----|
->| <ul><li>26.2 （2026年2月12日）</li><li>26.3 （2026年3月12日）</li><li>26.4 （2026年4月15日）</li></ul> | <ul><li>26.1 （2026年4月16日）</li></ul> |
+>| <ul><li>26.2（2026年2月12日）</li><li>26.3（2026年3月12日）</li><li>26.4（2026年4月15日）</li></ul> | <ul><li>26.1（2026年4月16日）</li></ul> |
 >
->請注意，對於每季的最終發行（本季26.4版），快速發行排程中的使用者將提前一天收到發行（2026年4月15日）。
+>請注意，對於每個季度（本季度為26.4）的最終版本，快速發佈計畫的用戶將提前一天（2026年4月15日）收到該版本。
 >
->如需快速發行程式的詳細資訊，請參閱[啟用或停用快速發行程式](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。
+>有關快速發佈進程的詳細資訊，請參閱[啟用或禁用快速發佈進程](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。
 
-## Adobe Workfront增強功能
+## Adobe Workfront增強
 
-* [管理員增強功能](#administrator-enhancements)
-* [檔案增強功能](#document-enhancements)
-* [專案增強功能](#project-enhancements)
+* [管理員增強](#administrator-enhancements)
+* [文檔增強](#document-enhancements)
+* [項目增強](#project-enhancements)
 * [報告增強功能](#reporting-enhancements)
-* [請求增強功能](#requesting-enhancements)
+* [請求增強](#requesting-enhancements)
 * [其他增強功能](#other-enhancements)
 
-### 管理員增強功能
+### 管理員增強
 
 <table>
             <col style="width: 50%;" />
@@ -55,38 +55,38 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>功能</strong>
         </td>
         <td><strong>預覽</strong></td>
-        <td><strong>快速發行</strong></td>
+        <td><strong>快速發佈</strong></td>
         <td><strong>每季</strong></td>
         </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">自訂季度已從專案偏好設定中移除</a><p>我們已將「自訂季度」區域從「專案偏好設定」區段移出。 它現在是「設定」中的獨立區段。</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">從項目首選項中刪除的自定義季度</a><p>我們已將「自訂季度」區域從「專案偏好設定」區段移出。 它現在是「設定」中的獨立區段。</p>
         </td>
-        <td><p>2025年3月5日</p></td>
+        <td><p>2026年3月5日</p></td>
         <td><p>2026年4月15日</p></td>
         <td><p>2026年4月16日</p></td>
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">預設摺疊自訂表單區段</a><p>依預設，當表單本身展開時，自訂表單上的所有區段都會展開。 自訂表單設計工具上的新選項可讓您在使用者開啟表單時，將區段標示為預設摺疊。 此選項適用於區段層級，而非欄位。</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">預設情況下折疊自定義表單節</a><p>預設情況下，在展開表單本身時，會展開自定義表單上的所有節。 自定義表單設計器上的一個新選項允許您在用戶開啟表單時標籤要預設折疊的節。 此選項在節級別應用，而不是在欄位上應用。</p>
         </td>
-        <td><p>2025年2月26日</p></td>
+        <td><p>2026年2月26日</p></td>
         <td><p>2026年3月12日</p></td>
         <td><p>2026年4月16日</p></td>
     </tr>
      <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> RTF文字欄位型別現在可用於自訂表單</a><p>自訂表單中的新<b>RTF</b>欄位型別是強大的文字編輯器，除了粗體、斜體、底線、專案符號、編號、超連結和區塊引號等傳統選項外，還有上標和下標、標題和表格等格式選項。 字元限制仍為15,000。</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> RTF文字欄位型別現在可用於自訂表單</a><p>自定義表單中新的<b>富格文本</b>欄位類型是強健的文本編輯器，除了粗體、斜體、下划線、項目符號、編號、超連結和塊引號等傳統選項外，還具有上標和下標、標題和表格等格式選項。 字元限制仍為15,000。</p>
         </td>
         <td><p>2026年1月29日</p></td>
         <td><p>2026年2月12日</p>
-            <p>此功能已於2026年2月13日暫時從生產環境中移除。</p></td>
+            <p>此功能已於2026年2月13日從生產環境中暫時刪除。</p></td>
         <td><p>待定</p></td>
     </tr>
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Workfront電子郵件通知的新IP位址</a><p></p>
-            <p>我們正在更新用來從Workfront傳送電子郵件通知的IP位址。 如果您的組織維護電子郵件或防火牆允許清單，您<b>必須</b>在下面新增新的IP位址，以確保繼續傳送Workfront通知。</p><p>這些更新套用至Workfront應用程式產生的所有傳出電子郵件，包括核准、提醒、校樣通知和其他系統訊息。</p>
+            <p>我們正在更新用來從Workfront傳送電子郵件通知的IP位址。 如果您的組織維護電子郵件或防火牆允許清單，您<b>必須</b>在下面新增新的IP位址，以確保繼續傳送Workfront通知。</p><p>這些更新適用於Workfront應用程式生成的所有出站電子郵件，包括批准、提醒、證明通知和其他系統消息。</p>
             <ul>
             <li>美國：
             <ul>
@@ -105,51 +105,14 @@ The <add release> release webinar will be held on <date>. You can [register for 
             </li>
             </ul> </p>
         </td>
-        <td><p>2026年1月15日</p></td>
-        <td><p>2026年1月15日</p></td>
-        <td><p>2026年1月15日</p></td>
+        <td><p>2026年1月15</p></td>
+        <td><p>2026年1月15</p></td>
+        <td><p>2026年1月15</p></td>
     <tr>
             </tbody>
         </table>
 
-<!--
-
-### Document enhancements
-
-<table>
-            <col style="width: 50%;" />
-            <col style="width: 25%;" />
-            <tbody>
-               <tr>
-        <td><strong>Feature</strong>
-        </td>
-        <td><strong>Preview</strong></td>
-        <td><strong>Fast release</strong></td>
-        <td><strong>Quarterly</strong></td>
-    <tr>
-        <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">Multi‑stage approval workflows available for unified approvals</a><p></p>
-            <p>Multi‑stage approval workflows are now available in unified approvals, helping organizations enforce structured, repeatable approval processes that reflect how work is reviewed in the real world. </p>
-        </td>
-        <td><p>February 26, 2025</p></td>
-        <td><p>March 12, 2026</p></td>
-        <td><p>April 16, 2026</p></td>
-    </tr>
-    <tr>
-        <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">Set up and use multi-stage approval workflow templates</a><p></p>
-            <p>You can now configure and reuse multi-stage approval workflow templates, making it easier to apply consistent governance across repeatable approval workflows. </p>
-        </td>
-        <td><p>February 26, 2025</p></td>
-        <td><p>March 12, 2026</p></td>
-        <td><p>April 16, 2026</p></td>
-    </tr>
-             </tbody>
-        </table>   
-
--->
-
-### 專案增強功能
+### 文檔增強
 
 <table>
             <col style="width: 50%;" />
@@ -159,23 +122,67 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>功能</strong>
         </td>
         <td><strong>預覽</strong></td>
-        <td><strong>快速發行</strong></td>
+        <td><strong>快速發佈</strong></td>
         <td><strong>每季</strong></td>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-projects.md" class="MCXref xref" xrefformat="{para}">當和單一或大量指派範本任務時更新體驗</a><p>[!BADGE Off Schedule]{type=Neutral}</p><p> 編輯單一範本任務或大量編輯範本任務時，我們已更新「編輯範本任務」方塊中的「工作總攬」區段。  </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">由Workfront和Frame.io支援的統一審查和批准</a><p></p>
+            <p>我們很高興能推出由Workfront和Frame.io支援的統一審查和批准，這是一種簡化的審查和批准體驗，將規劃、校對和協作集中到一個連接的工作流中。
+ </p>
         </td>
-        <td><p>2026年2月5</p></td>
-        <td><p>自2026年2月5日起</p></td>
-        <td><p>自2026年2月5日起</p></td>
+        <td><p>2026年3月12日</p></td>
+        <td><p>2026年4月15日</p></td>
+        <td><p>2026年4月16日</p></td>
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">單一或大量指派任務時更新體驗</a><p>[!BADGE Off Schedule]{type=Neutral}</p><p> 編輯單一任務或大量編輯任務時，我們已更新「編輯任務」方塊中的「工作總攬」區段。 </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">可用於統一審批的多階段審批工作流</a><p></p>
+            <p>現在，多階段審批工作流可用於統一審批，幫助組織實施結構化、可重複的審批流程，以反映在真實世界中如何審查工作。 </p>
+        </td>
+        <td><p>2026年3月12日</p></td>
+        <td><p>2026年4月15日</p></td>
+        <td><p>2026年4月16日</p></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">設定和使用多階段審批工作流模板</a><p></p>
+            <p>您現在可以配置和重新使用多階段審批工作流模板，從而更輕鬆地跨可重複審批工作流應用一致的治理。 </p>
+        </td>
+        <td><p>2026年3月12日</p></td>
+        <td><p>2026年4月15日</p></td>
+        <td><p>2026年4月16日</p></td>
+    </tr>
+             </tbody>
+        </table>
+
+
+### 項目增強
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 25%;" />
+            <tbody>
+               <tr>
+        <td><strong>功能</strong>
+        </td>
+        <td><strong>預覽</strong></td>
+        <td><strong>快速發佈</strong></td>
+        <td><strong>每季</strong></td>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-projects.md" class="MCXref xref" xrefformat="{para}">更新的時間和單個或批量分配模板任務的體驗</a><p>[!BADGE關閉計畫]{type=Netral}</p><p> 在編輯單個模板任務或批量編輯這些任務時，我們已更新了「編輯模板任務」(Edit Template Tasks)框中的「工作總攬」(Assignments)部分。  </p>
+        </td>
+        <td><p>2026年2月5</p></td>
+        <td><p>2026年2月5日起</p></td>
+        <td><p>2026年2月5日起</p></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">單次或批量分配任務時更新的體驗</a><p>[!BADGE關閉計畫]{type=Netral}</p><p> 在編輯單個任務或批量編輯任務時，我們已更新了「編輯任務」(Edit Tasks)框中的「工作總攬」(Assignments)部分。 </p>
         </td>
         <td><p>2026年1月26日</p></td>
-        <td><p>自2026年2月5日起</p></td>
-        <td><p>自2026年2月5日起</p></td>
+        <td><p>2026年2月5日起</p></td>
+        <td><p>2026年2月5日起</p></td>
     </tr>
             </tbody>
         </table>
@@ -190,14 +197,24 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>功能</strong>
         </td>
         <td><strong>預覽</strong></td>
-        <td><strong>快速發行</strong></td>
+        <td><strong>快速發佈</strong></td>
         <td><strong>每季</strong></td>
+        </tr>
     <tr>
         <td>
-            建立報表時顯示<a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">自訂欄位標籤</a><p></p>
-            <p>自訂欄位標籤現在顯示在報告建置工具中的欄位名稱和物件之前，可幫助您更輕鬆地找到欄位。 定義清單中的篩選器、檢視和分組時，也會顯示欄位標籤。</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">資料連接連接的新身份驗證選項</a><p></p>
+            <p>現在，您可以使用RSA密鑰或寫程式訪問令牌(PAT)連接對資料連接進行身份驗證，從而為傳統的用戶名/密碼憑據添加了更安全、更靈活的替代方案。 </p>
         </td>
-        <td><p>2025年2月26日</p></td>
+        <td><p>2026年3月12日</p></td>
+        <td><p>2026年3月12日</p></td>
+        <td><p>2026年4月16日</p></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">生成報告時顯示的自定義欄位標籤</a><p></p>
+            <p>自定義欄位標籤現在顯示在報表生成工具中的欄位名稱和對象之前，從而幫助您更輕鬆地查找欄位。 在清單中定義篩選器、視圖和分組時，也會顯示欄位標籤。</p>
+        </td>
+        <td><p>2026年2月26日</p></td>
         <td><p>2026年3月12日</p></td>
         <td><p>2026年4月16日</p></td>
     </tr>
@@ -206,23 +223,23 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">可共用的報告資料夾</a><p></p>
             <p>您現在可以使用共用報告資料夾來整理和共用報告。 這項新功能可協助管理大量報表的團隊維持可擴充且一致的存取控制。</p>
         </td>
-        <td><p>2025年2月26日</p></td>
+        <td><p>2026年2月26日</p></td>
         <td><p>2026年3月12日</p></td>
         <td><p>2026年4月16日</p></td>
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">已改善畫布儀表板中圖表群組的日期標籤</a><p></p>
-            <p>按日期分組資料的圖表現在會顯示更清晰、更易讀取的日期標籤。 透過此更新，日期標籤會根據選取的「分組依據」選項（例如日、周、月或年）動態調整，使圖表更易於快速閱讀和理解。</p><p>注意：畫布儀表板目前是測試版。</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">畫布儀表板中圖表分組的改進日期標籤</a><p></p>
+            <p>按日期分組資料的圖表現在顯示更清晰、更易讀的日期標籤。 通過此更新，日期標籤會根據選定的「分組依據」選項（如日、周、月或年）動態調整，使圖表更易於一目瞭然地閱讀和解釋。</p><p>注：畫布儀表板當前位於Beta中。</p>
         </td>
-        <td><p>2025年2月26日</p></td>
+        <td><p>2026年2月26日</p></td>
         <td><p>2026年3月12日</p></td>
         <td><p>2026年4月16日</p></td>
     </tr>
              </tbody>
         </table>
 
-### 請求增強功能
+### 請求增強
 
 <table>
             <col style="width: 50%;" />
@@ -232,14 +249,14 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>功能</strong>
         </td>
         <td><strong>預覽</strong></td>
-        <td><strong>快速發行</strong></td>
+        <td><strong>快速發佈</strong></td>
         <td><strong>每季</strong></td>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-requests.md" class="MCXref xref" xrefformat="{para}">已更新增強型檢視的共用體驗</a><p></p>
-            <p>在新請求區域，當您與使用者共用增強型檢視並授予他們檢視許可權時，使用者可以修改檢視元素並將這些變更儲存到使用者的個人偏好設定。 他們現在可以選擇儲存包含其變更的檢視復本，或將共用檢視重設為原始設定。 他們可以進一步與他人共用複製的檢視。 </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-requests.md" class="MCXref xref" xrefformat="{para}">已更新增強視圖的共用體驗</a><p></p>
+            <p>在「新建請求」區域中，當您與用戶共用增強視圖並授予其「查看」權限時，用戶可以修改視圖元素，這些更改將保存到用戶的個人首選項中。 現在，他們可以選擇保存包含更改的視圖副本或將共用視圖重置為其原始設定。 它們可以進一步與他人共用複製的視圖。 </p>
         </td>
-           <td><p>2025年2月26日</p></td>
+           <td><p>2026年2月26日</p></td>
         <td><p>2026年3月12日</p></td>
         <td><p>2026年4月16日</p></td>
  </tr>
@@ -256,12 +273,12 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>功能</strong>
         </td>
         <td><strong>預覽</strong></td>
-        <td><strong>快速發行</strong></td>
+        <td><strong>快速發佈</strong></td>
         <td><strong>每季</strong></td>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-other.md" class="MCXref xref" xrefformat="{para}">Adobe Unified Experience現在可供更多Workfront組織使用</a><p></p>
-            <p>為了讓組織能夠存取Adobe Unified Experience的優點，我們繼續將其提供給現有的Workfront客戶。</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-other.md" class="MCXref xref" xrefformat="{para}">Adobe統一體驗現已可供更多Workfront組織使用</a><p></p>
+            <p>為了讓組織能夠獲得Adobe統一體驗的好處，我們將繼續將它提供給現有的Workfront客戶。</p>
         </td>
         <td><p>2025年12月11日</p></td>
         <td><p>2026年2月11日</p></td>
@@ -281,90 +298,90 @@ We are updating the interface throughout Adobe Workfront to improve the user exp
 
 -->
 
-## 其他區域發行說明
+## 發佈其他領域的說明
 
-### Workfront Fusion增強功能
+### Workfront融合增強
 
-Workfront Fusion的新功能可在標準發行排程以外的生產環境中使用。 如需最新功能的詳細資訊，請參閱[Adobe Workfront Fusion發行活動](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
+WorkfrontFusion的新功能在生產部門在標準發佈時間表之外的地方提供。 有關最新功能的詳細資訊，請參閱[Adobe WorkfrontFusion發行活動](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
 
-### Workfront規劃增強功能
+### Workfront規劃功能增強
 
-Workfront Planning的新功能可在生產環境中使用。 如需最新功能的詳細資訊，請參閱[Adobe Workfront Planning的2026年第二季度發行活動](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md)。
+Workfront規劃的新功能可在生產中提供。 有關最新功能的詳細資訊，請參閱[Adobe Workfront規劃](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md)的2026年第二季度發佈活動。
 
-此版本尚無下列專案的更新：
+此時在發行版中沒有以下內容的更新：
 
 * 情境規劃工具
 * 校樣
 * 目標
 
-## 案頭校訂檢視器更新
+## 案頭校對查看器更新
 
 ### 2.1.54 版
 
 **所有客戶的生產版本： 2025年12月11日**
 
-案頭校訂檢視器已從2.1.52更新至2.1.54。此更新包含內部工具更新，不會影響一般使用者功能。
+案頭校對查看器已更新為2.1.52至2.1.54。此更新包括內部工具更新，不影響最終用戶功能。
 
-2.1.53版也包含內部工具變更。
+2.1.53版還包括內部工具更改。
 
-此更新同時適用於Mac和Windows。
+此更新適用於Mac和Windows。
 
 ## 公告
 
-### Workfront規劃試用版現已推出
+### Workfront計畫試用現已推出
 
-[!BADGE 關閉排程]{type=Neutral}
+[!BADGE 關閉計畫]{type=Neutral}
 
 >[!NOTE]
 >
 >* 所有人的預覽和生產： 2026年3月2日
 >* 您必須接受環境中可用的試用合約，才能存取Planning試用環境。
->* 您不需要簽署Adobe AI代理程式合約，就能在試用期間使用Planning Designer。
+>* 在試用期內，您無需簽署Adobe AI代理協定即可使用計畫Designer。
 
-Workfront規劃試用版現在可供所有Workfront客戶使用。
+Workfront規劃試驗現已面向所有Workfront客戶。
 
-自2026年3月2日起，免費試用版將為Workfront客戶提供存取Workfront Planning的60天Prime授權。 試用期將於2026年5月1日結束。
+免費試用將從2026年3月2日起為Workfront客戶提供60天Prime許可證訪問Workfront規劃。 審判期於2026年5月1日結束。
 
-免費的Workfront Planning試用版提供下列功能：
+免費的Workfront規劃試驗提供以下內容：
 
-* 經組織的多工作區規劃環境
+* 管理的多工作區規劃環境
 * 範例資料，讓您瞭解從何處開始
 * 產品內培訓和指導
 * 在設定期間針對特定角色量身打造明確里程碑。
 * Planning Designer — 由AI支援的助手，可幫助您建置您想要的環境
 
-如需詳細資訊，請參閱[開始使用Adobe Workfront Planning免費試用](/help/quicksilver/planning/general/trial-workfront-planning.md)。
+有關詳細資訊，請參閱[開始使用Adobe Workfront計畫免費試用版](/help/quicksilver/planning/general/trial-workfront-planning.md)。
 
-### API 21版
+### API版本21
 
-Workfront API版本21已於2025年10月23日發行。 針對API 21版，我們已修改一些資源和端點。 有些變更支援新功能，有些則讓您更輕鬆地透過API使用可用資訊。
+WorkfrontAPI第21版於2025年10月23日發行。 對於API版本21，我們修改了一些資源和端點。 某些更改支援新功能，而其他更改則使您能夠更輕鬆地使用通過API提供的資訊。
 
 >[!IMPORTANT]
 >
->此API版本變更包含重大變更，可能會影響您現有的API呼叫。 這是因為API版本21使用事件訂閱版本2。
+>此API版本更改具有中斷更改的功能，可能會影響您現有的API調用。 這是由於API版本21使用事件訂閱版本2。
 >
-> 若為多選欄位，事件訂閱版本2一律會以陣列形式傳送。 如果選取多個值，第1版會傳送陣列。 如果只選取一個值，則會傳送字串。
+> 對於多選欄位，事件訂閱版本2始終作為陣列發送。 如果選擇了多個值，則版本1發送了一個陣列。 如果只選擇了一個值，則它發送了一個字串。
 
-如需新增和更新的詳細資訊，請參閱[&#x200B; API 21](/help/quicksilver/wf-api/api/new-api-version-21.md)版的新增功能。
+有關新增和更新內容的資訊，請參閱[API版本21](/help/quicksilver/wf-api/api/new-api-version-21.md)中的新增內容。
 
-如需API版本的資訊，請參閱[API版本設定與支援排程](/help/quicksilver/wf-api/api/api-version-support-schedule.md)。
+有關API版本的資訊，請參閱[API版本控制和支援計畫](/help/quicksilver/wf-api/api/api-version-support-schedule.md)。
 
-### 其他Workfront整合轉換
+### 其他Workfront一體化過渡
 
-為了提供更穩定且更可擴充的整合，我們改用現代、彈性的整合方法，即使用Workfront自動化與整合(Fusion)。 在此轉換過程中，下列整合功能在&#x200B;**2026年2月28日**&#x200B;之後將無法使用：
+為了提供更穩定、更可擴展的整合，我們正在轉向使用Workfront自動化和整合(Fusion)的現代、靈活的整合方法。 作為此過渡過程的一部分，以下整合在2026年2月28日&#x200B;**之後將不可用：**
 
 * 適用於 G Suite 的 Workfront
 * 適用於 Jira 的 Workfront
-* 適用於Salesforce的Workfront。
+* Workfront為Salesforce。
 
-為了滿足貴組織與Google Workspace的整合需求，我們建議您使用Workfront自動化和整合。
-如需Workfront自動化與整合的概觀，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+我們建議使用Workfront自動化和整合來滿足您組織與Google工作區的整合需求。
+有關Workfront自動化和整合的概述，請參閱[Adobe Workfront融合概述](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 
 
 ### Workfront 維護更新
 
-如需2025年第二季期間所進行維護更新的相關資訊，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=zh-Hant)。
+有關在2026年第二季度發佈期間進行的維護更新的資訊，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)。
 
-### 訓練更新
+### 培訓更新
 
-探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[Workfront教學課程頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=zh-Hant)的「新增功能」一節。
+瀏覽每個Adobe Workfront產品版本對學習計畫、學習路徑、視頻和指南的最新更新。 有關詳細資訊，請參閱[WorkfrontTutorials頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的「新內容」部分。
