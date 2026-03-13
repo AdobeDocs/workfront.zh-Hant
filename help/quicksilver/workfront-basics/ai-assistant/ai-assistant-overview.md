@@ -5,9 +5,9 @@ description: 了解 Adobe Workfront 中的 AI 助理
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 2619aa432a8c0b12d0d910df8eb05447fa50f387
+source-git-commit: 418ea6e9728cb0e8d178fa201ece35328547eedb
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '856'
 ht-degree: 4%
 
 ---
@@ -140,7 +140,8 @@ AI助理目前提供下列功能：
 
    >[!NOTE]
    >
-   >請在簽署及傳回合約後1-3個工作天，讓Adobe檢閱及啟用AI助理。
+   >* 請在簽署及傳回合約後1-3個工作天，讓Adobe檢閱及啟用AI助理。
+   >* 如果您在組織執行個體啟用後，沒有看到AI助理可用選項，請聯絡Workfront客戶支援。
 
 ## 在AI助理中建立提示的提示
 
