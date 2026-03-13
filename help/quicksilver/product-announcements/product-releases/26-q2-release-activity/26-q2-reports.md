@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4bc2fee9-fa86-41c7-80e7-44bf3e8077d8
-source-git-commit: aceb9f7bd6c62036838b15d74ee2a9b7843e5c11
+source-git-commit: ed4b03429a479797854a0cae08f9191a25eebc13
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,22 @@ ht-degree: 0%
 本頁說明2026年第二季度版本中針對「預覽」環境所進行的報告增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2026年第二季發行週期目前可用的所有變更清單，請參閱[2026年第二季發行概觀](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
+
+## 資料連線連線的新驗證選項
+
+>[!NOTE]
+>
+>預覽： 2026年3月12日
+>生產快速發行： 2026年3月12日
+>每個人都能使用生產： 2026年4月16日
+
+您現在可以使用RSA金鑰或程式化存取權杖(PAT)連線來驗證資料連線，為傳統使用者名稱/密碼認證新增更安全和彈性的替代方案。
+
+這些新選項可讓組織維持來自Power BI、Tableau和其他第三方BI工具的穩定連線，而不需依賴使用者型登入方法。
+
+>[!IMPORTANT]
+>
+>在2026年6月，使用多重驗證(MFA)將需要使用者名稱/密碼認證。 對於用來將資料從Data Connect載入到第三方視覺化工具、資料處理器和指令碼的服務使用者帳戶，我們建議轉換成RSA或PAT式驗證，這些在驗證過程中不適用於MFA。
 
 ## 建立報表時顯示的自訂欄位標籤
 

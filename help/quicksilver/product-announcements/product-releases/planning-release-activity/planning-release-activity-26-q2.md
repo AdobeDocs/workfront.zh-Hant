@@ -7,10 +7,10 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 79d4ad4a-1dd0-431e-92cd-582b5a1b7ec8
-source-git-commit: e23cd8613a54ce54ae93ea1a4ea14c022fbd1ae2
+source-git-commit: 1e05945e24770848da9d2c77b81b9475e43797ea
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 1%
+source-wordcount: '1180'
+ht-degree: 0%
 
 ---
 
@@ -24,21 +24,33 @@ ht-degree: 1%
 
 <!--
 
-## Allow non-admin users to make a record type connectable 
+## New field type for Record ID  
 
 >[!NOTE]
 >
->Preview: March 5, 2026
+>Preview: March 12, 2026
 >Production fast release: April 15, 2026
 >Production for everyone: April 16, 2026
 
-We are now allowing non-administrators who are workspace managers to make a record type connectable from specific workspaces.  
+We have added a new field type for Record ID. This is a system-generated alpha-numeric indicator which uniquely identifies each record. The field displays in any record view as well as the record details area.  
 
-Before this update, non-administrators could not enable record types to be connectable. Now, they can enable the record types to be connectable from specific workspaces. They cannot enable record types to be connectable from all workspaces in the system. 
-
-For information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
+For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).
 
 -->
+
+## 允許非管理員使用者將記錄型別設為可連線
+
+>[!NOTE]
+>
+>預覽： 2026年3月12日
+>生產快速發行： 2026年4月15日
+>每個人都能使用生產： 2026年4月16日
+
+現在，我們允許身為工作區管理員的非管理員將記錄型別設為可從特定工作區連線。
+
+在此更新之前，非管理員無法啟用可連線的記錄型別。 現在，它們可以使記錄型別從特定工作區連線。 它們無法讓記錄型別與系統中的所有工作區連線。
+
+如需詳細資訊，請參閱[設定記錄型別的跨工作區功能](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)。
 
 ## 觸發式自動化
 
