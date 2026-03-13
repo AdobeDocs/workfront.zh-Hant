@@ -8,9 +8,9 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: 78ad910e8d121dda38c9a7da27b0b338e0e1dcda
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1360'
 ht-degree: 2%
 
 ---
@@ -31,9 +31,9 @@ ht-degree: 2%
 
   >[!NOTE]
   >
-  >* 您只能檢視自己的草稿要求。
-  >* 在新的請求體驗中，提交的請求和草稿可在相同清單中找到。
-  >* 在舊版體驗中建立的草稿不會出現在新的請求體驗中。
+  >* 您只能查看自己的草稿請求。
+  >* 在新的請求經驗中，提交的請求和草稿在同一清單中找到。
+  >* 在舊式體驗中建立的草稿不會顯示在新的請求體驗中。
 
 ## 存取權要求
 
@@ -45,12 +45,14 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 封裝</td> 
-   <td> <p>任何 </p> </td> 
+   <td> <p>任何Adobe Workfront或Adobe Workflow套件</p> 
+   <p>任何Adobe Workfront Planning套件</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td> <p>投稿人或以上</p>
-   <p>要求或更高版本</p>
+   <p>請求或更高</p>
     </td> 
   </tr> 
   <tr> 
@@ -61,10 +63,12 @@ ht-degree: 2%
    <td role="rowheader">物件許可權</td> 
    <td><p>檢視請求上的許可權或更高的許可權</p></td> 
   </tr> 
-  <tr> 
-   <td role="rowheader"> 產品</td> 
-   <td> <ul><li>Adobe Workfront</li><li>您必須安裝Adobe Workfront Planning才能檢視Planning請求或請求表單</td> 
+  <!--
+  tr> 
+   <td role="rowheader"> Product</td> 
+   <td> <ul><li>Adobe Workfront</li><li>You must have Adobe Workfront Planning to view Planning requests or request forms</td> 
   </tr> 
+  -->
  </tbody> 
 </table>
 
@@ -81,7 +85,7 @@ ht-degree: 2%
 
 ### 在新的請求體驗中檢視已提交的請求
 
-您可以在「請求」區域中檢視已提交的請求，其中包含至Planning請求所建立之物件的連結。
+您可以在「請求」區域中檢視已提交的請求，其中包含指向Adobe Workfront Planning請求所建立之物件的連結。
 
 >[!NOTE]
 >
@@ -155,11 +159,11 @@ ht-degree: 2%
    </tr> 
       <tr> 
          <td role="rowheader">轉換為</td> 
-         <td> <p>解析物件的名稱，可以是請求已轉換為的任務或專案。 </p> <p>按一下任務或專案的名稱以開啟。 </p> <p>如果未轉換請求，則此欄位為空白。 </p> </td> 
+         <td> <p>解析對象的名稱，該對象可以是將請求轉換為的任務或項目。 </p> <p>按一下任務或項目的名稱以開啟它們。 </p> <p>如果未轉換請求，則此欄位為空。 </p> </td> 
       </tr> 
       <tr> 
          <td role="rowheader">路徑</td> 
-         <td>最初提交請求的請求佇列、主題群組和佇列主題的名稱。 </td> 
+         <td>請求隊列、主題組和最初提交請求的隊列主題的名稱。 </td> 
       </tr> 
       <tr> 
          <td role="rowheader">狀態</td> 
@@ -167,7 +171,7 @@ ht-degree: 2%
       </tr> 
       <tr> 
          <td role="rowheader">輸入日期</td> 
-         <td>提交請求的日期或解析物件的建立日期（如果請求在轉換時被刪除）。 </td> 
+         <td>請求提交日期或轉換請求時刪除時建立解析對象的日期。 </td> 
       </tr> 
       <tr> 
          <td role="rowheader">上次更新日期</td> 

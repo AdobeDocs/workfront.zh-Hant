@@ -1,30 +1,30 @@
 ---
 product-area: projects
 navigation-topic: use-the-home-area
-title: 使用我的請求Widget
-description: 您可以在「我的請求」Widget中提交請求。 您也可以使用篩選器和欄來自訂Widget。
-author: Becky
+title: 使用「我的請求」小部件
+description: 您可以在「我的請求」構件中提交請求。 還可以使用篩選器和列自定義小部件。
+author: Alina, Courtney
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-source-git-commit: cdb1c365d8fc8f90a8a3488b3c641c97457c8c8d
+source-git-commit: 3893a57fb7ae31a1649b20beccc1f0b79f2421fb
 workflow-type: tm+mt
-source-wordcount: '982'
-ht-degree: 4%
+source-wordcount: '1118'
+ht-degree: 3%
 
 ---
 
-# 使用我的請求Widget
+# 使用「我的請求」小部件
 
 >[!IMPORTANT]
 >
->本文會說明新的「我的請求」Widget。 您必須啟用新的請求體驗才能檢視新的Widget。
->您可以在請求區域中啟用新的請求體驗。
+>本文介紹新的「我的請求」小部件。 必須啟用新的請求體驗才能查看新小部件。
+>您可以在「請求」區域啟用新的請求體驗。
 
-「我的請求」Widget會顯示您已提交的請求。 您可以篩選請求、搜尋特定請求，或調整欄順序和可見度。 您也可以從「我的請求」Widget建立新請求。
+「我的請求」小部件顯示您已提交的請求。 您可以篩選請求、搜索特定請求或調整列順序和可見性。 您也可以從「我的請求」小部件建立新請求。
 
 >[!NOTE]
 >
->* 當「我的請求」Widget載入時，最多會顯示50個請求。 若要顯示更多請求，請向下捲動清單。
+>* 載入「我的請求」小部件時，它最多顯示50個請求。 要顯示更多請求，請向下滾動清單。
 
 ## 存取權要求
 
@@ -36,24 +36,28 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
-   <td> <p>任何</p> </td> 
+   <td> <p>任何Workfront或Workflow套件</p>
+   <p>用於存取Workfront Planning請求及其建立物件的任何Workfront Planning套件</p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權</strong></td> 
-   <td> <p>投稿人或以上</p>
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 許可證</strong></td> 
+   <td> <p>貢獻者或更高</p>
    <p>要求或更高版本</p> </td> 
   </tr> 
   <tr> 
-    <tr> 
-   <td role="rowheader"><strong>其他產品</strong></td> 
-   <td> 您必須安裝Adobe Workfront Planning才能檢視Planning請求或請求表單</td> 
-  </tr> 
+   <!--
+   <tr> 
+   <td role="rowheader"><strong>Additional products</strong></td> 
+   <td> You must have Adobe Workfront Planning to view Planning requests or request forms</td> 
+   </tr> 
+   -->
    <td role="rowheader"><strong>存取層級設定</strong></td> 
-   <td> <p>檢視您在對話中被標籤或需要解決核准（專案、任務、問題、檔案）之任何物件的存取權或以上許可權</p> </td> 
+   <td> <p>檢視或更高的存取權以存取您在對話中被標籤或需要解決核准的任何物件（專案、任務、問題、檔案）</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>[!UICONTROL 檢視]對您在對話中被標籤或需要解決核准的專案、任務、問題和檔案的許可權或更高</p> </td> 
+   <td> <p>[！UICONTROL檢視]對您在對話中被標籤或需要解決核准的專案、任務、問題和檔案的許可權或更高</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,28 +66,28 @@ ht-degree: 4%
 
 +++
 
-## 建立新請求
+## 建立請求
 
-您可以直接從「我的請求」Widget建立請求。
+您可以直接從「我的請求」構件建立請求。
 
-如需指示，請參閱從首頁區域建立工作專案和專案一文中的[建立請求](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-request)。
+有關說明，請參閱文章[從「首頁」區域](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md/#create-a-request)建立工作項和項目[建立請求](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)部分。
 
 ## 複製請求
 
-您可以複製我的請求Widget中的請求、編輯請求，然後將其作為新請求提交。
+您可以在「我的請求」小部件中複製請求，對其進行編輯，然後將其作為新請求提交。
 
-如需相關指示，請參閱文章複製和提交請求中的[在新的請求體驗](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md#copy-and-submit-requests-in-the-new-requesting-experience)中複製和提交請求。
+有關說明，請參閱[複製和提交請求](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md)。
 
-## 篩選要求
+## 篩選請求
 
-我的請求Widget具備可自訂的篩選器，可讓您控制哪些請求會出現在Widget中。 您可以為不同的欄位和值設定此篩選器，也可以使用AND和OR棧疊條件。
+「我的請求」小部件具有可自定義的篩選器，可讓您控制小部件中顯示的請求。 您可以為不同的欄位和值配置此篩選器，並可以使用AND和OR運算子來堆疊條件。
 
-若要在「我的請求」Widget中設定篩選器：
+要在「我的請求」小部件中配置篩選器，請執行以下操作：
 
-1. 按一下右上角的&#x200B;**[!UICONTROL 主功能表]** ![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
-1. （視條件而定）將&#x200B;**我的請求** Widget新增至您的主畫面。 按一下&#x200B;**自訂**，找到&#x200B;**我的要求**。
-1. 在「我的請求」Widget中，按一下&#x200B;**篩選器**。
-1. 在最左側的欄位中，選取您要作為篩選依據的專案。 可選擇下列選項：
+1. 按一下右上角的&#x200B;**[!UICONTROL 主菜單]** ![主菜單表徵圖](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
+1. （視條件而定）將&#x200B;**我的請求** Widget新增至您的主畫面。 按一下&#x200B;**自訂**，找到&#x200B;**我的要求**，然後按一下它以將其新增到&#x200B;**首頁**。
+1. 在&#x200B;**我的請求** Widget中，按一下&#x200B;**篩選器**。
+1. 選擇要篩選依據的欄位。 可選擇下列選項：
 
    * 工作區
    * 物件類型
@@ -91,28 +95,27 @@ ht-degree: 4%
    * 請求表單
    * 狀態
    * 輸入者
+   * 請求或建立物件的自訂欄位
 
-   您也可以依據任何已新增為檢視欄的自訂欄位進行篩選。
+1. 在下一個欄位中，選擇要用於此篩選條件的運算子。 可用運算子取決於所選欄位。
+1. （條件）如果運算子右側出現欄位，請選擇要篩選的值。
+1. （可選）要添加其他篩選條件，請按一下&#x200B;**添加條件**，然後重複步驟4-6。
+1. （可選和條件）如果您有多個條件，請通過按一下條件左側的&#x200B;**和**&#x200B;或&#x200B;**或**&#x200B;來切換和或值。
 
-1. 在下一個欄位中，選取您要用於此篩選條件的運運算元。 可用的運運算元取決於所選的欄位。
-1. （視條件而定）如果運運算元右側出現欄位，請選取您要作為篩選依據的值。
-1. （選擇性）若要新增其他篩選條件，請按一下[新增條件] **&#x200B;**&#x200B;並重複步驟4-6。
-1. （選擇性和條件式）如果您有多個條件，請按一下條件左邊的&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;來切換And或Or值。
-
-篩選器會自動儲存。
+過濾器會自動保存。
 
 >[!TIP]
 >
->如果您的組織已購買Workfront Planning，「我的請求」Widget將會同時包含Workfront和Workfront Planning請求。
+>如果您的組織除了購買Adobe Workfront之外還購買了Workfront規劃，「我的請求」小部件將同時包括Workfront和Workfront規劃請求。
 > 
 >* 若要僅篩選Workfront請求，請將篩選設定為&#x200B;**物件型別** > **具有任何** > **問題**。
 >* 若要僅篩選Workfront Planning請求，請將篩選設定為&#x200B;**物件型別** > **沒有** > **問題**。
 
-## 調整或新增欄
+## 調整或添加列
 
-您可以選擇哪些可用欄出現在「我的請求」Widget上，並設定其順序。
+您可以選擇「我的請求」構件上顯示哪些可用列，並設定其順序。
 
-可用的欄包括：
+可用列包括：
 
 * 主旨
 * 已建立的物件
@@ -122,43 +125,56 @@ ht-degree: 4%
 * 輸入日期
 * 輸入者
 
-若要調整「我的請求」小工具上的欄：
+要調整「我的請求」小部件上的列，請執行以下操作：
 
-1. 按一下右上角的&#x200B;**[!UICONTROL 主功能表]** ![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
-1. （視條件而定）將&#x200B;**我的請求** Widget新增至您的主畫面。 按一下&#x200B;**自訂**，找到&#x200B;**我的要求**。
-1. 在「我的請求」Widget中，按一下&#x200B;**欄**。
-1. （選擇性）若要重新排序欄，請按一下您要移動之欄的拖曳控點![拖曳控點](assets/drag-handle.png)，然後將其拖曳到所要的位置。 清單頂端的欄會在「我的請求」Widget中顯示為最左側的欄。
-1. （可選）使用切換可控制欄是否顯示在我的請求Widget中。
-1. 若要將自訂欄位新增為欄，請按一下熒幕右邊附近的&#x200B;**新增欄**&#x200B;圖示![新增欄](assets/add-column.png)，然後按一下您想要新增為欄位至Widget的自訂表單欄位旁的加號圖示。
+1. 按一下右上角的&#x200B;**[!UICONTROL 主菜單]** ![主菜單表徵圖](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
+1. （條件）將&#x200B;**我的請求**&#x200B;小部件添加到您的主螢幕。 按一下&#x200B;**自定義**，找到&#x200B;**我的請求**，然後按一下將其添加到&#x200B;**首頁**。
+1. 在&#x200B;**我的請求**&#x200B;小部件中，按一下&#x200B;**列**。
+1. （可選）要重新排序列，請按一下要移動的列的拖動句柄![拖動句柄](assets/drag-handle.png)，並將其拖動到所需位置。 清單頂部的列作為第一列顯示在「我的請求」構件中。
+1. （可選）使用切換可隱藏或顯示請求清單中的列。
+1. 若要將自定義欄位添加為列，請按一下清單右上角的&#x200B;**添加列**&#x200B;表徵圖![添加列](assets/add-column.png)，然後按一下要作為列添加到小部件的自定義欄位旁邊的加號表徵圖。
 
-   附加到清單中物件的表單上的自訂欄位可作為欄新增。
+   清單中附加到對象的表單上的自定義欄位可作為列添加。
 
 欄偏好設定會自動儲存。
 
+## 建立檢視
+
+您可以在「我的請求」小部件中建立視圖，以更改資訊在請求清單中的顯示方式。
+
+在「我的請求」小部件中處理視圖時，請考慮以下事項：
+
+* 「我的請求」小部件中的視圖包含應用於該視圖的列和篩選器。
+* 您可以建立視圖，並與他人共用它們。 在您共用檢視之前，您為檢視選取的篩選器和欄會包含在您共用的檢視中。
+* 下列是您無法編輯、共用或刪除的系統檢視：
+
+   * Widget整合請求預設檢視
+* 在「我的請求」Widget中建立和編輯檢視類似於增強型清單。 如需詳細資訊，請參閱[使用增強型清單](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
+
 ## 搜尋請求
 
-若要在「我的請求」小工具中搜尋特定請求：
+要在「我的請求」構件中搜索特定請求，請執行以下操作：
 
-1. 按一下右上角的&#x200B;**[!UICONTROL 主功能表]** ![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
-1. （視條件而定）將&#x200B;**我的請求** Widget新增至您的主畫面。 按一下&#x200B;**自訂**，找到&#x200B;**我的要求**。
-1. 在「我的請求」Widget右上角附近的搜尋列中，輸入您要搜尋的字詞。
+1. 按一下右上角的&#x200B;**[!UICONTROL 主菜單]** ![主菜單表徵圖](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
+1. （條件）將&#x200B;**我的請求**&#x200B;小部件添加到您的主螢幕。 按一下&#x200B;**自定義**，找到&#x200B;**我的請求**，然後按一下將其添加到&#x200B;**首頁**。
+1. 在「我的請求」小部件右上角的搜索欄中，輸入要搜索的術語。
 
    包含辭彙的請求會以橘色醒目提示。
 
-1. （可選）若要跳至醒目提示的請求，請按一下搜尋列中的向上或向下箭頭。
+1. （可選）要跳轉到突出顯示的請求，請按一下搜索欄中的上箭頭或下箭頭。
 
-## 移至請求建立的物件
+## 轉到由請求建立的對象
 
-您可以在「我的請求」Widget中找到請求建立的物件。
+您可以在「我的請求」小部件中查找由請求建立的對象。
 
 >[!NOTE]
 >
->建立物件的連結僅適用於Planning請求的新請求體驗，當請求本身建立了物件時。 如果Workfront請求轉換為專案或其他物件，則指向該轉換物件的連結在新請求體驗的請求清單中無法使用。
+>在新請求體驗中，僅對Planning請求提供指向已建立對象的連結，在請求本身已建立對象的情況下。 如果將Workfront請求轉換為項目或其他對象，則到該轉換對象的連結在新請求體驗中的請求清單中不可用。
 
-1. 按一下右上角的&#x200B;**[!UICONTROL 主功能表]** ![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
-1. （視條件而定）將&#x200B;**我的請求** Widget新增至您的主畫面。 按一下&#x200B;**自訂**，找到&#x200B;**我的要求**。
-1. 找出建立物件的請求。
-1. 按一下該要求的&#x200B;**已建立物件**&#x200B;欄中的物件名稱。
+1. 按一下右上角的&#x200B;**[!UICONTROL 主菜單]** ![主菜單表徵圖](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
+1. （視條件而定）將&#x200B;**我的請求** Widget新增至您的主畫面。 按一下&#x200B;**自訂**，找到&#x200B;**我的要求**，然後按一下它以將其新增到&#x200B;**首頁**。
+1. 找到建立對象的請求。
+1. 按一下該請求的&#x200B;**已建立對象**&#x200B;列中的對象名稱。
 
-   物件的頁面隨即開啟。
+   對象的頁面隨即開啟。
 
