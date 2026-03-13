@@ -170,7 +170,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>每季</strong></td>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-projects.md" class="MCXref xref" xrefformat="{para}">更新的時間和單個或批量分配模板任務的體驗</a><p>[!BADGE關閉計畫]{type=Netral}</p><p> 在編輯單個模板任務或批量編輯這些任務時，我們已更新了「編輯模板任務」(Edit Template Tasks)框中的「工作總攬」(Assignments)部分。  </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-projects.md" class="MCXref xref" xrefformat="{para}">更新的時間和單個或批量分配模板任務的體驗</a><p>[!BADGE 關閉計畫]{type=Netral}</p><p> 在編輯單個模板任務或批量編輯這些任務時，我們已更新了「編輯模板任務」(Edit Template Tasks)框中的「工作總攬」(Assignments)部分。  </p>
         </td>
         <td><p>2026年2月5</p></td>
         <td><p>2026年2月5日起</p></td>
@@ -178,7 +178,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">單次或批量分配任務時更新的體驗</a><p>[!BADGE關閉計畫]{type=Netral}</p><p> 在編輯單個任務或批量編輯任務時，我們已更新了「編輯任務」(Edit Tasks)框中的「工作總攬」(Assignments)部分。 </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">單次或批量分配任務時更新的體驗</a><p>[!BADGE 關閉計畫]{type=Netral}</p><p> 在編輯單個任務或批量編輯任務時，我們已更新了「編輯任務」(Edit Tasks)框中的「工作總攬」(Assignments)部分。 </p>
         </td>
         <td><p>2026年1月26日</p></td>
         <td><p>2026年2月5日起</p></td>
