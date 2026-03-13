@@ -3,63 +3,55 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: 從Adobe Workfront匯出歷史資料：優缺點
-description: 本文說明可用來從Workfront匯出歷史資料的4個選項的優缺點。
+title: 從Adobe Workfront導出歷史資料：利弊
+description: 本文說明了可用於導出Workfront歷史資料的4個選項的利弊。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ed40984f-602a-46e9-a72b-141936de8fcb
-source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
+source-git-commit: bbd00374a6b291582cd03b9d0471d8547eb6ab7f
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
 
-# 從[!DNL Adobe Workfront]匯出歷史資料：優點與缺點
+# 從[!DNL Adobe Workfront]導出歷史資料：利弊
 
 <!-- Audited: 5/2025 -->
 
-本文說明可用來從Adobe Workfront匯出歷史資料的4個選項的優缺點。
+本文說明了可用於導出Adobe Workfront歷史資料的4個選項的利弊。
 
-## 使用我們的其中一個合作夥伴
+## 使用我們的合作夥伴之一
 
-[!DNL AtAppStore] ([www.atappstore.com](https://www.atappstore.com))有一個簡單易用的應用程式(其[Workfront快照](https://store.atappstore.com/product/workfront-snapshot/)解決方案)，可讓您自行下載資料。 選用的檢視器(其[Workfront Snapshot Viewer](https://store.atappstore.com/product/workfront-snapshot-viewer/)解決方案)可讓您輕鬆離線檢視資料。
+[!DNL AtAppStore]&#x200B;([www.atappstore.com](https://www.atappstore.com))有一個易於使用的應用(其[Workfront快照](https://store.atappstore.com/product/workfront-snapshot/)解決方案)，允許您自己下載資料。 可選查看器(其[Workfront快照查看器](https://store.atappstore.com/product/workfront-snapshot-viewer/)解決方案)允許您輕鬆離線查看資料。
 
-* **優點：**&#x200B;所有核心[!DNL Workfront]物件均已匯出，包括自訂欄位和備註，並儲存在容易存取的[!DNL MS Access]資料庫中。 檢視器的介面易於使用和讀取。 「擷取檔案」也可單獨作為服務使用，輸出會整理到邏輯資料夾結構中，以對應到每個檔案及其先前版本。
+* **Pros:**&#x200B;所有核心[!DNL Workfront]對象都已導出，包括自定義欄位和注釋，並儲存在易於訪問的[!DNL MS Access]資料庫中。 查看器的介面易於使用和閱讀。 「提取文檔」也可單獨作為服務使用，其輸出將組織為邏輯資料夾結構，該結構映射到每個文檔及其早期版本。
 
-* **缺點：**&#x200B;技術限製為2GB的資料，但AtAppStore允許您只購買您需要的資料。
+* **缺點：**&#x200B;有2GB資料的技術限制，但AtAppStore允許您僅購買所需的資料。
 
-* **費用：**&#x200B;如需詳細資訊，請移至[https://store.atappstore.com/product/workfront-snapshot/](https://store.atappstore.com/product/workfront-snapshot/)。
+* **成本：**&#x200B;有關詳細資訊，請訪問[https://store.atappstore.com/product/workfront-snapshot/](https://store.atappstore.com/product/workfront-snapshot/)。
 
-## 向我們的資料庫團隊要求[!DNL Postgres]資料傾印檔案
 
-您必須向我們的客戶支援團隊提交請求，然後客戶支援團隊會向我們的資料庫團隊提交請求，以匯出包含您資料的資料庫傾印檔案（.dmp [!DNL Postgres]檔案）。 我們將會向我們的NOC團隊提出其他要求，以擷取您所有儲存的檔案。
 
-* **優點**：您可獲得整個資料載入，包括自訂欄位，以及儲存在系統中的檔案。
+## 通過[!UICONTROL 啟動]導出
 
-* **缺點**：無法讀取此檔案，除非您將其上傳至[!DNL Postgres]資料庫並重新建立資料表之間的關係。 檔案儲存在單獨的檔案伺服器上，必須由NOC小組使用單獨的程式來分別擷取。 這樣做時，檔案沒有組織，且全部由其GUID參考。
+無論您是否有遠程咨詢小時數，您都可以使用我們的顧問之一以報告或[!UICONTROL 啟動]的形式導出資料，或者您可以自己運行這些報告：
 
-* **成本**：此下載會產生成本，視團隊建立檔案所需的時間而定。 請洽詢您的AE/CAE以取得詳細資訊，或開始此程式。
+* **Pros**：報告易於讀取，可以在多種應用程式中導入。 可以定制它們，以包括您想要的任何分組和視圖。
 
-## 透過[!UICONTROL Kick-Starts]匯出
+* **Cons**：文檔必須單獨下載。
 
-無論您是否擁有遠端諮詢時間，您都可以使用我們的其中一位顧問，以報表或[!UICONTROL kick-starts]的形式匯出您的資料，或者您可以自行執行這些報表：
+* **成本**：如果您可以自行運行報告（您只需要系統管理員登錄），或者您可以使用剩餘的遠程咨詢時間，則免費。 如果您對購買遠程咨詢感興趣，請與您的AE/CAE聯繫。
 
-* **優點**：報告容易閱讀，而且可以在各種應用程式中匯入。 這些區段可自訂為包含您想要的任何群組和檢視。
-
-* **問題**：檔案必須單獨下載。
-
-* **費用**：如果您可以自行執行報告（只需要系統管理員登入），或可以使用剩餘的遠端諮詢時間，則完全免費。 如果您有興趣為此購買遠端諮詢，請洽詢您的AE/CAE。
-
-  如需使用Kick-Starts匯出資料的詳細資訊，請參閱[透過[!UICONTROL Kick-Starts]](../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)從 [!DNL Adobe Workfront] 匯出資料。
+  有關使用Kick-Starts導出資料的詳細資訊，請參閱[通過 [!DNL Adobe Workfront] Kick-Starts[!UICONTROL 從]](../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)導出資料。
 
 ## 使用我們的開放API
 
-如果貴組織中擁有正確的資源，這些資源可以建立自訂API，從Workfront擷取您的所有資料：
+如果您在組織中擁有適當的資源，則他們可以構建自定義API以從Workfront檢索您的所有資料：
 
-* **優點**：您控制著從系統匯出的專案。
+* **Pros**：您控制從系統導出的內容。
 
-* **缺點**：時間花在您身邊，您必須尋找資源來編寫API的程式碼並執行匯出。
+* **Cons**：時間花在您身邊，您將必須查找資源來編碼API並執行導出。
 
-* **成本**：這是您組織的內部專案。
+* **成本**：它是您的組織的內部。
