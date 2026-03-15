@@ -1,13 +1,13 @@
 ---
 title: 從設定區域編輯團隊的設定
 description: 作為Adobe Workfront管理員，您可以從設定區域編輯團隊設定。 您可以將使用者新增至專案團隊、設定專案團隊的版面配置範本，以及設定當專案團隊完成工作專案時如何記錄狀態。
-author: Jenny
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 648a36ce-5793-472f-9fee-9dedf71991ef
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 963a7099aa673d6ac96b7058b9fcb745f325d21e
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '595'
 ht-degree: 6%
 
 ---
@@ -40,14 +40,13 @@ ht-degree: 6%
   <tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td><p>新增：標準</p>
-       <p>或</p>
-       <p>目前：計畫</p></td>
+   <td><p>標準</p>
+       <p>規劃</p></td>
   </tr> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td>
+   <td>[！UICONTROL系統管理員]</td>
   </tr> 
  </tbody> 
 </table>
