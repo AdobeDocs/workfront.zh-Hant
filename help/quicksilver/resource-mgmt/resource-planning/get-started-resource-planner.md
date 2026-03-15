@@ -258,7 +258,7 @@ You can only add a resource pool in the Resource Budgeting area of the Business 
 
 您可以在「資源規劃工具」中顯示時數、約當全職人數或成本的可用性、配置及計畫值。
 
-如需有關變更您在「資源規劃工具」中顯示的資訊的詳細資訊，請參閱文章[使用Adobe Workfront資源規劃工具](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md)檢閱資源可用性與配置[按小時、約當全職人數或成本檢視資訊](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md#display-by-hour-or-fte-menu)一節。
+如需有關變更您在「資源規劃工具」中顯示的資訊的詳細資訊，請參閱文章[使用Adobe Workfront資源規劃工具](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md#display-by-hour-or-fte-menu)檢閱資源可用性與配置[按小時、約當全職人數或成本檢視資訊](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md)一節。
 
 如需有關如何在Workfront中計算使用者和角色的時數和FTE的詳細資訊，請參閱文章[計算資源規劃工具中使用者和角色的時數和FTE的概觀](../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md)。
 
@@ -299,4 +299,4 @@ You can only add a resource pool in the Resource Budgeting area of the Business 
 ## 在資源規劃工具中篩選資訊
 
 您可以透過建立篩選器來減少顯示在資源規劃工具中的專案、角色或使用者的數量。\
-如需詳細資訊，請參閱資源規劃工具[&#128279;](../../resource-mgmt/resource-planning/filter-resource-planner.md)中的文章篩選資訊。
+如需詳細資訊，請參閱資源規劃工具[中的文章](../../resource-mgmt/resource-planning/filter-resource-planner.md)篩選資訊。

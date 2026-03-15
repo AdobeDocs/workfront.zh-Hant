@@ -9,7 +9,7 @@ exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
 source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
 source-wordcount: '546'
-ht-degree: 9%
+ht-degree: 12%
 
 ---
 
@@ -22,16 +22,16 @@ ht-degree: 9%
 
 資源集區是使用者的集合，可協助您更輕鬆地在Adobe Workfront中管理資源。 如需資源集區的詳細資訊，請參閱[資源集區概觀](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
+   <td>Adobe Workfront 封裝</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -70,7 +70,7 @@ ht-degree: 9%
     <col>
     <tbody>
      <tr>
-      <td role="rowheader"><strong>姓名</strong></td>
+      <td role="rowheader"><strong>名稱</strong></td>
       <td>這是資源集區的名稱。</td>
      </tr>
      <tr>

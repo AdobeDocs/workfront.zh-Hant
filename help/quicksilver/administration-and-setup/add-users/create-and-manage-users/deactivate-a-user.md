@@ -30,7 +30,7 @@ ht-degree: 4%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/tw/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -157,9 +157,9 @@ Deactivated users lose access to their assigned Frame.io accounts as well as ass
 
 ### 重新啟用使用者時的校訂影響
 
-已停用的使用者會失去其獲指派的預設校訂角色及其校訂授權(如果您位於Workfront Premium舊版計畫)。 如果您選擇重新啟用使用者，您必須：
+已停用的使用者會失去其獲指派的預設校訂角色及其校訂授權（如果您位於Workfront Premium舊版計畫）。 如果您選擇重新啟用使用者，您必須：
 
-* 重新指派授權(如果您使用Workfront Premium舊版計畫)。 如需Workfront校訂計畫的詳細資訊，請參閱[存取Workfront中的校訂功能](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md)。
+* 重新指派授權（如果您使用Workfront Premium舊版計畫）。 如需Workfront校訂計畫的詳細資訊，請參閱[存取Workfront中的校訂功能](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md)。
 * 確認他們具有正確的校訂角色。 重新啟用的校訂使用者會被指派任何指定為新使用者預設校訂角色的角色。 如需詳細資訊，請參閱[設定預設校訂角色](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md)。
 
 ## 關於停用Workfront管理員和Standard或Plan授權使用者
