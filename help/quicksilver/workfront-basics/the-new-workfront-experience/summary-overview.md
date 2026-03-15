@@ -54,10 +54,10 @@ ht-degree: 2%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL工作負載平衡器]的[！UICONTROL未指派]和[！UICONTROL已指派]工作區域中的任務</td> 
+   <td>[!UICONTROL 工作負載平衡器]的[!UICONTROL 未指派]和[!UICONTROL 已指派]工作區域中的任務</td> 
   </tr> 
    <tr> 
-   <td>[！UICONTROL時程表]中的任務</td> 
+   <td>[!UICONTROL 時程表]中的任務</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><b>問題</b></td> 
@@ -71,24 +71,24 @@ ht-degree: 2%
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[！UICONTROL工作負載平衡器]的[！UICONTROL指派的工作]區域發生問題</td> 
+   <td>[!UICONTROL 工作負載平衡器]的[!UICONTROL 指派的工作]區域發生問題</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[！UICONTROL請求]區域的[！UICONTROL已提交]區段中的問題</td> 
+   <td>[!UICONTROL 請求]區域的[!UICONTROL 已提交]區段中的問題</td> 
   </tr> 
 </tr> 
    <tr> 
-   <td>[！UICONTROL時程表]中的問題</td> 
+   <td>[!UICONTROL 時程表]中的問題</td> 
   </tr>
 
 <tr data-mc-conditions=""> 
    <td><b>文件</b></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[！UICONTROL檔案]區域</td> 
+   <td>[!UICONTROL 檔案]區域</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>任何物件（專案、任務、問題、方案、投資組合、範本、範本任務、使用者）的[！UICONTROL檔案]區段</td> 
+   <td>任何物件（專案、任務、問題、方案、投資組合、範本、範本任務、使用者）的[!UICONTROL 檔案]區段</td> 
   </tr> 
  </tbody> 
 </table>

@@ -58,12 +58,12 @@ ht-degree: 0%
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt="為燒毀的工作製作綠點"> </td> 
    <td> <p>每次工作燒毀時，實際燒毀率都會顯示綠色或紅點。 （當當天的實際待執行工作速率是紅色時，點代表紅色；噹噹噹天的實際待執行工作速率是綠色時，點代表綠色。）</p> <p>發生下列任一情況時，工作就會被燒毀：</p> 
     <ul> 
-     <li> [！UICONTROL完成百分比]會增加到劇本上。<br>[！UICONTROL完成百分比]在下列情況下會增加： 
+     <li> [!UICONTROL 完成百分比]會增加到劇本上。<br>[!UICONTROL 完成百分比]在下列情況下會增加： 
       <ul> 
        <li> <p>手動變更</p> </li> 
        <li> <p>內文上的點數或小時數已更新</p> </li> 
       </ul></li>  
-     <li>內文的狀態已變更為[！UICONTROL完成]</li> 
+     <li>內文的狀態已變更為[!UICONTROL 完成]</li> 
     </ul> </td> 
   </tr> 
  </tbody> 

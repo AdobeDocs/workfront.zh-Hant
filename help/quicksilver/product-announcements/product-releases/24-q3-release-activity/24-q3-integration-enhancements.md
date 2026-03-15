@@ -26,6 +26,6 @@ ht-degree: 0%
 
 我們針對用於Experience Manager Assets和Assets Essentials整合的Workfront進行了以下改進：
 
-* 整合現在支援GCP作為雲端服務提供者。 先前支援AWS和Azure。 如需詳細資訊，請參閱[ Adobe Experience Manager Assets整合概述](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)。
+* 整合現在支援GCP作為雲端服務提供者。 先前支援AWS和Azure。 如需詳細資訊，請參閱[&#x200B; Adobe Experience Manager Assets整合概述](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)。
 
 * 透過整合傳送至Experience Manager的檔案大小限制已提高至30 GB。 先前的限製為5 GB。 如需詳細資訊，請參閱[傳送檔案至Experience Manager Assets或Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)。

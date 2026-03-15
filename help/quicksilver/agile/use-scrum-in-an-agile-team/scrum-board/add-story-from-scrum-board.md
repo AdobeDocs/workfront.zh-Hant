@@ -35,13 +35,13 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>新增：[！UICONTROL Standard]</p> 
+   <td> <p>新增：[!UICONTROL Standard]</p> 
    或
-   <p>目前： [！UICONTROL Work]或更高版本</p> </td> 
+   <p>目前： [!UICONTROL Work]或更高版本</p> </td> 
   </tr>
    <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td>[！UICONTROL管理]任務或問題所在專案的存取權 </td> 
+   <td>[!UICONTROL 管理]任務或問題所在專案的存取權 </td> 
   </tr>
  </tbody> 
 </table>
@@ -69,11 +69,11 @@ ht-degree: 4%
         <td>專案的說明。</td>
     </tr>
     <tr>
-        <td><strong>[！UICONTROL估計]</strong></td>
+        <td><strong>[!UICONTROL 估計]</strong></td>
         <td>預估專案小時數或點數。</td>
     </tr>
     <tr>
-        <td><strong>[！UICONTROL父專案]</strong></td>
+        <td><strong>[!UICONTROL 父專案]</strong></td>
         <td>（必要）儲存新內文或問題的專案。 開始輸入專案名稱，然後在其顯示在清單中時選取它。</td>
     </tr>
    </table>

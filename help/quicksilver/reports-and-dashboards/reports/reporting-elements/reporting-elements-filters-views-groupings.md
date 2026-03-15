@@ -66,7 +66,7 @@ ht-degree: 0%
 * 您可在執行報表後，從「檢視」下拉式欄位套用其他檢視。
 * 其他檢視會暫時取代建立報告時定義的檢視；不過，下次您返回報告時會顯示預設檢視。
 
-  如需檢視的詳細資訊，請參閱文章[ Adobe Workfront中的檢視總覽](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)。
+  如需檢視的詳細資訊，請參閱文章[&#x200B; Adobe Workfront中的檢視總覽](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)。
 
 ## 群組
 

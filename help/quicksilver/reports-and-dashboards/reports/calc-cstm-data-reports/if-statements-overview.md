@@ -57,7 +57,7 @@ ht-degree: 0%
 
 * **條件運運算元** =這是協助您建置「IF」陳述式條件的運運算元。 例如，「等於」或「大於」是條件運運算元。 如需可在陳述式中使用的條件運運算元清單，請參閱計算自訂運算式中的[條件運運算元](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md)。
 
-* **True****Expression** =這是「True」變數，它告訴方程式當滿足條件的條件時，要顯示哪個指標（true指標）。
+* **True**&#x200B;**Expression** =這是「True」變數，它告訴方程式當滿足條件的條件時，要顯示哪個指標（true指標）。
 
 * **False運算式** =這是「False」變數，它告訴方程式當條件條件條件不符時要顯示哪個指標（false指標）。
 

@@ -65,11 +65,11 @@ ht-degree: 11%
         <td>專案的說明。</td>
     </tr>
     <tr>
-        <td><strong>[！UICONTROL估計]</strong></td>
+        <td><strong>[!UICONTROL 估計]</strong></td>
         <td>預估專案小時數或點數。</td>
     </tr>
     <tr>
-        <td><strong>[！UICONTROL父專案]</strong></td>
+        <td><strong>[!UICONTROL 父專案]</strong></td>
         <td>（必要）儲存新內文或問題的專案。 開始輸入專案名稱，然後在其顯示在清單中時選取它。</td>
     </tr>
    </table>
