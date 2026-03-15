@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 篩選：當狀態與不同群組相關聯時，依相同名稱狀態顯示專案
 description: 您可以將具有3個字母鍵NST的任務狀態指派給群組A （已命名的新狀態）。 您可能有另一個任務狀態指派給群組B，也命名為New Status ，帶有3個字母的索引鍵NES。 雖然2個狀態的名稱可以相同，但3個字母的程式碼永遠都是唯一的。 如需群組狀態的詳細資訊，請參閱建立或編輯群組狀態。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 8ddcd8b1-44a9-4341-80c7-76ba70d2953b
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '472'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -24,16 +24,16 @@ ht-degree: 0%
 
 使用篩選產生器，您無法識別具有相同名稱的2個狀態。 您必須在自訂篩選器中使用文字模式，以區分2種狀態。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 

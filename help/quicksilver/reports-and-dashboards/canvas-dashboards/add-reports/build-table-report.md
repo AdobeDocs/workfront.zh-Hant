@@ -3,13 +3,13 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: 在畫布儀表板中建立表格報告
 description: 您可以將表格報表新增至畫布控制面板，以使用表格格式視覺化您的資料。
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
-source-git-commit: d7caaa0871263fb8ef4224a9c298778f3ee2454a
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '1199'
-ht-degree: 2%
+ht-degree: 8%
 
 ---
 
@@ -208,9 +208,9 @@ ht-degree: 2%
 
 在存取層級中具有「檢視」或「編輯」財務資料存取許可權的使用者，仍可在「畫布控制面板」視覺效果中看到財務資料 — 即使已在任務或專案層級移除「檢視財務」許可權。
 
-* 在存取層級沒有財務資料許可權的使用者將不會在報表中看到財務資料。
-* 確實看到財務資料的使用者僅限於他們已有許可權檢視的記錄（專案、任務、問題等）。 他們看不到無法存取之記錄的財務值。
-* 報表建立者在將財務資料納入儀表板時務必謹慎，並注意他們與誰共用儀表板，以防止無意中存取。
+* 在存取層級未具備財務資料權限的使用者，將無法在報告中看到財務資料。
+* 能看到財務資料的使用者，僅限於他們已經有權限查看的記錄 (專案、任務、問題等)。他們無法看到無法存取的記錄的財務數值。
+* 報告建立者在將財務資料納入儀表板時應謹慎，並注意與誰分享儀表板，以防止未經授權的存取。
 
 這是已知的限制，我們計畫儘快解決它。
 

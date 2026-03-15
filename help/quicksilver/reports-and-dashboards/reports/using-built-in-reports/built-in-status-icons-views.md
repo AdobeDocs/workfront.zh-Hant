@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: using-built-in-reports
 title: 檢視中的內建狀態圖示
 description: 您可以將內建的狀態圖示欄位新增為檢視中的欄，以增進物件關鍵點的可見度。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 7831d5c1-e982-4780-a5a8-54dc6decb3a1
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1205'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 3%
 * 任務在關鍵路徑上
 * 使用者屬於公司、團隊或位於不同時區的個人
 
-請考量下列事項：
+考慮以下事項：
 
 * 「狀態圖示」欄位中的大多數指示器都是快速連結，可快速連結到實際物件或它們所代表的物件區域。
 
@@ -43,16 +43,16 @@ ht-degree: 3%
 
 * 您無法編輯狀態圖示欄位中的圖示數。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -112,7 +112,7 @@ ht-degree: 3%
    檔案檢視包含&#x200B;**檢檢視示**&#x200B;欄位。
 
 1. 按一下「**儲存視圖**」。
-1. （選擇性）指定檢視的新名稱，然後按一下[儲存檢視]。**&#x200B;**\
+1. （選擇性）指定檢視的新名稱，然後按一下[儲存檢視]。****\
    這會將&#x200B;**狀態圖示**&#x200B;欄新增至您的檢視。
 1. （選用）將滑鼠移至圖示上方，瞭解其代表的意義。
 1. （選擇性）按一下圖示，移至該圖示所代表的物件區域。\

@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: create-and-manage-reports
 title: 新增提示至報表
 description: 篩選器和提示很類似，因為它們都會限制您在報表中顯示的資訊量。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: b4058fb3-7360-474f-8be1-1c6b584749b0
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1361'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -37,16 +37,16 @@ ht-degree: 0%
 
 篩選器可告知Adobe Workfront只顯示今年6月至8月之間輸入的小時。 不過，每次執行報表時（例如，在一月和二月之間，或十月和十二月之間），透過提示字元，您可以使用不同的時間範圍。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 

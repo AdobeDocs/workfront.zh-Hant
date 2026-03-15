@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: 使用EXISTS陳述式建立複雜的文字模式篩選器
 description: 您可以使用EXISTS陳述式來建立複雜的文字模式篩選器。 本文需要透徹瞭解Adobe Workfront API和文字模式報表介面。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 106f7c9d-46cc-46c5-ae34-93fd13a36c14
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '2668'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -88,16 +88,16 @@ ht-degree: 0%
 
 * EXISTS陳述式唯一支援的修飾詞是NOTEXISTS。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 

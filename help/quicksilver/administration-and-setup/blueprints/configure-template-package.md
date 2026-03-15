@@ -4,14 +4,14 @@ product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: 設定Blueprint
 description: 您可以在安裝Blueprint之前設定專案範本或組織結構的詳細資訊。
-author: Jenny
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: df10bc8f-b980-4c61-ae6d-bcea03103738
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '1841'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -19,16 +19,16 @@ ht-degree: 0%
 
 您可以在安裝Blueprint之前設定其詳細資訊。 專案範本和組織結構Blueprint型別通常需要設定一些偏好設定並對應一些屬性。 其他Blueprint型別可能不需要設定，您將依原樣安裝。 如需安裝的詳細資訊，請參閱[安裝Blueprint](/help/quicksilver/administration-and-setup/blueprints/blueprints-install.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
@@ -89,19 +89,19 @@ ht-degree: 0%
 
    <table style="table-layout:auto">
     <tr>
-        <td><strong>[!UICONTROL 範本所有者]<strong></td>
-        <td>此人會收到範本的[!UICONTROL Manage]許可權，並將在使用範本建立專案時成為專案所有者。</td>
+        <td><strong>[！UICONTROL範本所有者]<strong></td>
+        <td>此人會收到範本的[！UICONTROL Manage]許可權，並將在使用範本建立專案時成為專案所有者。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 範本贊助者]</strong></td>
+        <td><strong>[！UICONTROL範本贊助者]</strong></td>
         <td>此人通常是需要瞭解專案情況的經理、執行或利害關係人。 專案贊助者未取得專案的任何額外存取權，但會新增到專案的電子郵件通知中。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL Portfolio]</strong></td>
+        <td><strong>[！UICONTROL Portfolio]</strong></td>
         <td>這是專案建立時屬於的投資組合。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL Program]</strong></td>
+        <td><strong>[!UICONTROL 方案]</strong></td>
         <td>這是專案建立時所屬的計畫。</td>
     </tr>
    </table>
@@ -132,7 +132,7 @@ ht-degree: 0%
 
    >[!INFO]
    >
-   >**範例：**&#x200B;此Blueprint中的新問題偏好設定提供四個佇列主題。 使用者在建立問題時選取以下主題之一。 （因為只有一個主題群組存在，所以會自動套用，使用者不必加以選取。） 當使用者完成並提交問題時，路由規則會決定將其指派給哪個職務角色或團隊。
+   >**範例：**此Blueprint中的新問題偏好設定提供四個佇列主題。 使用者在建立問題時選取以下主題之一。 （因為只有一個主題群組存在，所以會自動套用，使用者不必加以選取。） 當使用者完成並提交問題時，路由規則會決定將其指派給哪個職務角色或團隊。
    >![新問題偏好設定範例](assets/Blueprints_IssuePrefsDetails.png)
    >新問題的![佇列主題](assets/blueprints-newissueqtopicsexample-350x204.png)
    >![問題已路由至工作角色](assets/Blueprints_ProjectShowsIssueAssignment.png)

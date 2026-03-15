@@ -4,14 +4,14 @@ product-area: dashboards
 navigation-topic: dashboards-navigation-topic
 title: 建立和管理報告面板
 description: 請檢閱這些文章，瞭解如何在Adobe Workfront中建立控制面板。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: a7f29a8e-1aa8-4c6c-adeb-e6177291999a
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '78'
-ht-degree: 10%
+ht-degree: 14%
 
 ---
 

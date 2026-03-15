@@ -4,35 +4,35 @@ product-area: reporting;calendars
 navigation-topic: tips-tricks-and-troubleshooting-reports
 title: 行事曆上的錯誤訊息：「此行事曆擁有已停用使用者的檢視許可權。」
 description: 瞭解「此行事曆擁有已停用使用者的檢視許可權」錯誤訊息。
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: ba1e25f2-4960-47f7-ac7d-6f6b0f59cfe2
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '258'
-ht-degree: 1%
+ht-degree: 8%
 
 ---
 
 # 行事曆上的錯誤訊息：「此行事曆擁有已停用使用者的檢視許可權。」
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td> 
      <p>標準</p>
-     <p>工作或更高</p>
+     <p>工作或更高層級</p>
    </td> 
   </tr> 
   <tr> 

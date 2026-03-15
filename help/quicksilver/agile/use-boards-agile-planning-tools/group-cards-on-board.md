@@ -4,13 +4,13 @@ content-type: reference
 navigation-topic: boards
 title: 在展示板上使用群組
 description: 您可以依受指派人或標籤將看板上的卡片分組。 當您選取群組依據的選項時，卡片會以泳道格式顯示。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 6f57a20e-0e47-4457-8605-9bce55c013ec
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '324'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -22,16 +22,16 @@ ht-degree: 0%
 >
 >攝入欄中的任何卡片都不會包含在群組中，而且在套用群組時攝入欄會隱藏。 如需輸入資料行的詳細資訊，請參閱[將輸入資料行新增到展示板](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 

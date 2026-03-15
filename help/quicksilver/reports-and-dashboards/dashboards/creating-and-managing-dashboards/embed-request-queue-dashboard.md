@@ -3,13 +3,13 @@ product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: 將請求佇列內嵌在控制面板中
 description: 您可以將新請求佇列內嵌在儀表板中，讓使用者直接存取請求佇列，不必前往請求區域。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 2d129095-c7ee-45b1-94ce-055d1d91e2fe
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1143'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -23,16 +23,16 @@ ht-degree: 1%
 
 首先，您需要取得請求佇列的URL。 其次，您可以新增外部頁面，將URL內嵌於控制面板中。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 

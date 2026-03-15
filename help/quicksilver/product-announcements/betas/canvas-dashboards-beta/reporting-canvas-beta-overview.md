@@ -3,12 +3,12 @@ content-type: reference
 navigation-topic: betas
 title: 報告畫布Beta版：概觀
 description: 即將推出的Adobe Workfront報告畫布工具的Beta版計畫相關資訊
-author: Nolan
+author: Courtney
 feature: Product Announcements
 hidefromtoc: true
 hide: true
 exl-id: 5767ef7d-1bc3-40d8-abeb-02b15166a0a3
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1061'
 ht-degree: 1%
@@ -86,7 +86,7 @@ ht-degree: 1%
    1. 讓您能夠匯出系統中所有報表和控制面板的CSV以及任何相關的追蹤資訊（檢視次數、檢視時間和檢視者）。
    1. 提供設定了排程傳送與收件者的報告匯出。
 
-1. 選取您要移轉的報告和儀表板，然後按一下[移轉] **&#x200B;**
+1. 選取您要移轉的報告和儀表板，然後按一下[移轉] ****
 
    這是單向移轉。 它會建立選定報表和儀表板的副本至報表畫布，讓舊式報表或儀表板完整保留在目前的報表工具中。
 
@@ -103,7 +103,7 @@ ht-degree: 1%
 * 文件
 * 文件核准
 * 費用
-* 小時
+* 時數
 * 問題
 * 備註
 * 專案組合
@@ -119,7 +119,7 @@ ht-degree: 1%
 否。測試版使用填入報告畫布的組織資料副本。 這表示您可以在Beta版期間安全地實驗，而不會影響重要資料，也表示在正式推出之前，將無法在Reporting Canvas中線上編輯資料。
 +++
 
-+++我加入後可以退出Beta版嗎？
++++加入Beta版後我可以選擇退出嗎？
 
 Workfront管理員無法選擇退出Beta版，但可透過下列方式移除非系統管理員：
 

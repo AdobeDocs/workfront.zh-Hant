@@ -4,13 +4,13 @@ content-type: reference
 navigation-topic: boards
 title: 設定工作流程展示板上的待處理專案
 description: 您可以選擇在工作流程中的展示板上顯示待處理資料欄，並為從工作流程卡片清單提取到展示板待處理資料中的卡片定義查詢。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: fd2f6eeb-a565-4461-a153-0504ad3c07d7
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -28,16 +28,16 @@ ht-degree: 0%
 
 待處理專案欄和查詢在獨立面板上無法使用。 如需將輸入資料行新增至獨立展示板的資訊，請參閱[將輸入資料行新增至展示板](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 {{step1-to-boards}}
 
-1. 開啟您要使用的工作流。 若要開啟工作流程，請按一下[檢視工作流程]。[!UICONTROL **&#x200B;**]
+1. 開啟您要使用的工作流。 若要開啟工作流程，請按一下[檢視工作流程]。[!UICONTROL ****]
 1. 按一下工作流程中的任何展示板以開啟。
 1. 按一下主機板右側的&#x200B;[!UICONTROL **[設定]**]&#x200B;以開啟[設定]面板。
 1. 開啟&#x200B;[!UICONTROL **在此展示板上包含待處理專案欄**]。

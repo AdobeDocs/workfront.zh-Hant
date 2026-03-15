@@ -5,11 +5,11 @@ product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: 藍圖概觀
 description: 藍圖是一組Workfront物件，可處理Workfront中的常見使用案例。 您可以下載並安裝Blueprint，然後針對您的特定使用案例來設定物件。
-author: Jenny
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 4c487598-2066-4507-8dfe-1a54d38f5eea
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '834'
 ht-degree: 0%
@@ -36,7 +36,7 @@ ht-degree: 0%
 >
 >   此Blueprint包含可組織新員工上線活動的範本。 使用此範本可讓IT團隊有效率地運作，提供積極的新員工體驗，並加快追蹤生產力。
 >
->* **繼承的執行個體基本知識 | 檢查清單**
+>* **繼承的執行個體基本知識|檢查清單**
 >
 >    此Blueprint包含專案範本（或檢查清單），您可以利用問題、資源和連結的簡短清單進行檢視，以清楚瞭解Workfront執行個體的設定方式。 當您最近繼承Workfront執行個體並需要有關從何處開始的指引時，請使用此專案。
 >

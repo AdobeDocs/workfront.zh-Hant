@@ -6,12 +6,12 @@ title: 設定 JumpSeat 整合
 description: 您可以整合 [!DNL JumpSeat] 與 [!DNL Workfront] 以建立自訂的產品內指南。
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
-author: Nolan, Becky
+author: Courtney, Becky
 exl-id: 23edb48b-8cad-47be-8ace-5238a5869677
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '257'
-ht-degree: 6%
+ht-degree: 14%
 
 ---
 
@@ -19,20 +19,20 @@ ht-degree: 6%
 
 您可以整合[!DNL JumpSeat]與[!DNL Workfront]，以建立自訂的產品內指南。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table>
   <tr>
-   <td>Adobe Workfront套件
+   <td>Adobe Workfront 封裝
    </td>
     <p>Workflow Ultimate</p>
    <td> <p>Prime或Ultimate</p>
    </td>
   </tr>
     <tr>
-   <td>Adobe Workfront授權
+   <td>Adobe Workfront 授權
    </td>
    <td>標準
    <p>規劃</p>
@@ -90,7 +90,7 @@ ht-degree: 6%
 
 https://{mycompanyname}.jumpseat.io
 
-&#x200B;>>
+>>
 
 >[!ENDSHADEBOX]
 

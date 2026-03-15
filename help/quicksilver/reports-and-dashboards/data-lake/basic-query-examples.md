@@ -4,10 +4,10 @@ product-area: reports and dashboards
 navigation-topic: data connect
 title: Data Connect查詢範例
 description: 您可以使用查詢範例來熟悉特定型別查詢的語法和結構。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: f2da081c-bdce-4012-9797-75be317079ef
-source-git-commit: c8a25bcc8c9b56a649ca7764918c86f9cdd5b3e2
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '923'
 ht-degree: 0%
@@ -182,10 +182,10 @@ FROM
 >[!NOTE]
 >
 >建議您在PowerBI或Tableau中使用此查詢作為自己的「檢視」。  如果您要從`<object>_event view`引進其他欄位，請將此查詢的輸出連線回`<object>_event view`。  加入欄位會如下所示： <br>
->&#x200B;>若為projects_event： 
->&#x200B;>`From projects_event p`
->&#x200B;>`Join <above query> c on c.projectid = p.projectid  `
->&#x200B;>`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
+>若為projects_event： 
+>`From projects_event p`
+>`Join <above query> c on c.projectid = p.projectid  `
+>`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
 
 
 

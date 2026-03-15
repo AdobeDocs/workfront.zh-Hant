@@ -1,11 +1,11 @@
 ---
 title: 2025年第二季度發行時間範圍內的其他增強功能
 description: 2025年第二季度發行時間範圍內的其他增強功能
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 214f0e67-1da4-4abd-b942-09889e8bd92b
-source-git-commit: d603edee0099b6ce3e4f8d3414d1b31f94209196
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 0%

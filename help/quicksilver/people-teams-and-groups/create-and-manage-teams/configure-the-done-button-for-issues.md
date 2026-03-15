@@ -3,13 +3,13 @@ product-area: agile-and-teams;setup
 navigation-topic: create-and-manage-teams
 title: 設定問題的完成按鈕
 description: 完成按鈕可以自動設定任務或問題的狀態。 依預設，當受指派人在工作專案上按一下「完成」時，Adobe Workfront會將問題標示為「已解決」。
-author: Jenny
+author: Courtney
 feature: People Teams and Groups
 exl-id: 2e72854a-2d49-4665-b307-b88f660b141e
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '1167'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -30,16 +30,16 @@ ht-degree: 1%
 * 如果使用者未指派[!UICONTROL 主團隊]，則問題的[!UICONTROL Done]按鈕會繫結至系統產生的[!UICONTROL Resolved]狀態，該狀態具有三個字母的代碼[!UICONTROL RLV]。 此情境中沒有可用的設定選項。 [!UICONTROL Done]按鈕會自動預設為此狀態。
 * 如果刪除[!UICONTROL 已解決] ([!UICONTROL RLV])狀態，且將問題標示為[!UICONTROL 完成]的使用者沒有[!UICONTROL 主團隊]，則預設問題狀態會繫結至指派給問題所屬專案之群組的[!UICONTROL 已關閉]預設值。 Workfront管理員可為群組設定系統範圍的預設設定。 請參閱本文[已解決[!UICONTROL 狀態被刪除時]設定[!UICONTROL 完成]按鈕](#configure-the-uicontrol-done-button-when-the-uicontrol-resolved-status-has-been-deleted)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront套件</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront 封裝</p> </td> 
    <td>任何</td> 
   </tr> 
   <tr> 

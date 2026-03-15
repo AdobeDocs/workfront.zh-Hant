@@ -3,11 +3,11 @@ product-area: Canvas Dashboards
 navigation-topic: manage-reports
 title: 管理報告：文章索引
 description: 檢視本節中的文章。
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 2ed58b15-098a-4937-86e6-2a8444389c00
-source-git-commit: 7e14f7224b5383f94c330a1543b9e01b651ed821
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '70'
 ht-degree: 0%

@@ -1,10 +1,11 @@
 ---
 title: 2024年第三季校訂增強功能
 description: 2024年第三季校訂增強功能
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: abc172f312d9b6695fa57598c2c0396d30ff2a95
+exl-id: ae93f709-2942-4649-a535-ecf279fe34cb
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%

@@ -3,13 +3,13 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: 建立或編輯展示板
 description: 您可以從[!UICONTROL 展示板]儀表板建立新展示板或編輯現有展示板。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '845'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -19,16 +19,16 @@ ht-degree: 1%
 
 您可以從[!UICONTROL 展示板]儀表板建立新展示板或編輯現有展示板。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -56,7 +56,7 @@ ht-degree: 1%
    | 範本 | 說明 |
    |---------|----------|
    | 基本展示板 | 展示板上提供三個預設欄。 您可以新增欄，以及重新命名或刪除預設欄。 <p>展示板上提供三個預設欄。 您可以新增欄，以及重新命名或刪除預設欄。 |
-   | Kanban 展示板 | 展示板上提供下列欄：「待處理專案」、「新增」、「進行中」、「完成」和「保留」。 您可以新增欄，以及重新命名或刪除預設欄。<p>若要使用待處理專案，您必須為輸入欄設定篩選器。 如需詳細資訊，請參閱[將輸入資料行新增到展示板](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)。 <p>若要檢閱每個欄的預設原則，請按一下欄上的&#x200B;[!UICONTROL **更多**&#x200B;功能表]，然後選取&#x200B;[!UICONTROL **編輯**]。 您可以變更這些預先設定原則中的任何一項。 如需詳細資訊，請參閱[管理展示板資料行](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)。 |
+   | 看板展示板 | 展示板上提供下列欄：「待處理專案」、「新增」、「進行中」、「完成」和「保留」。 您可以新增欄，以及重新命名或刪除預設欄。<p>若要使用待處理專案，您必須為輸入欄設定篩選器。 如需詳細資訊，請參閱[將輸入資料行新增到展示板](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)。 <p>若要檢閱每個欄的預設原則，請按一下欄上的&#x200B;[!UICONTROL **更多**&#x200B;功能表]，然後選取&#x200B;[!UICONTROL **編輯**]。 您可以變更這些預先設定原則中的任何一項。 如需詳細資訊，請參閱[管理展示板資料行](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)。 |
    | 追溯展示板 | 展示板上提供下列欄：哪些方面進展順利？ 有哪些可改善？ 我們應該為誰慶祝？ 我們可以做些什麼來加快進度？ 您可以新增欄，以及重新命名或刪除預設欄。 <p>不會套用任何欄原則。 |
    | 動態展示板 | 展示板上提供下列欄：「未選取」、「新增」、「進行中」、「保留」和「完成」。 您可以新增欄，以及重新命名或刪除預設欄。 (未選取欄可以重新命名，但不能刪除。 此欄會保留狀態不符合任何其他欄狀態的所有卡片。) <p>預設欄原則會根據欄的狀態為欄指派卡片。 如需詳細資訊，請參閱[管理展示板資料行](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)。 |
 

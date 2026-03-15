@@ -1,11 +1,11 @@
 ---
 title: 2025年第二季度報告增強功能
 description: 2025年第二季度報告增強功能
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 50639b81-d4d0-4702-98ba-2d5ec29575dc
-source-git-commit: f9de87b7b874910cb986cbf6d57e998afe602bb8
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 0%

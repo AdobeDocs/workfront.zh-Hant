@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: 共用篩選、檢視或分組
 description: 您可以與其他使用者共用您有權檢視的篩選器、檢視和群組。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1170'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -34,16 +34,16 @@ ht-degree: 2%
 * 在Adobe Workfront中[檢視總覽](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
 * [Adobe Workfront中的群組概觀](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 

@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 依據多選自訂欄位繪製報表圖表
 description: 只有在您建立其他計算欄位(擷取多選自訂欄位中所選的選項後，才能根據多選自訂欄位繪製報表的圖表。
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: ce986a912c2ee231b9dc2e1c7a3e9587b20aa0ba
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '947'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -39,16 +39,16 @@ ht-degree: 0%
 >
 >已選取選項1的任務不會顯示在已選取選項1和選項2的任務所在的圖表元素中。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -124,7 +124,7 @@ ht-degree: 0%
 
    這可確保新的計算欄位自動填入多選自訂欄位的值，因為該值會新增到已附加到物件的表單中。
 
-1. 按一下&#x200B;**套用**。
+1. 按一下「**套用**」。
 1. 按一下&#x200B;**儲存並關閉**。
 
    計算出的自訂欄位會新增至自訂表單，如果表單目前已附加至物件，則會使用多選自訂欄位的資訊填入該欄位。
@@ -148,7 +148,7 @@ ht-degree: 0%
 1. 新增您建立的<strong>計算多重選取欄位</strong>作為您的群組。
 1. 選取<strong>圖表</strong>索引標籤，然後將圖表新增至您的報表。
 
-   例如，選擇&#x200B;**資料行**&#x200B;圖表。
+   例如，選擇&#x200B;**資料行**圖表。
    <br>如需有關將圖表新增至報表的資訊，請參閱文章<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md#add-a-chart" class="MCXref xref">建立自訂報表</a>中的<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">將圖表新增至報表</a>小節。
 1. 在&#x200B;**底部(X)軸**&#x200B;欄位中，選取要在圖表中顯示的<strong>計算多重選取欄位</strong>。
 1. 按一下「<strong>儲存並關閉</strong>」。

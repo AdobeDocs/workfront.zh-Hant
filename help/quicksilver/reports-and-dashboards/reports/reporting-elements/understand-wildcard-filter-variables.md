@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: 萬用字元篩選器變數
 description: 若在篩選中使用萬用字元，您可以參照一般使用者或日期，而非特定使用者或日期。 如此一來，您建置的元素就會是動態的，而結果會隨著使用元素的前後關聯而改變。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1439'
 ht-degree: 1%
@@ -39,7 +39,7 @@ AssignedToID Equals $$USER.roleIDs.)-->
     </tr>
     <tr>
         <td>進階搜尋</td>
-        <td>如需進階搜尋的相關資訊，請參閱<a href="../../../workfront-basics/navigate-workfront/search/search-workfront.md">搜尋Adobe Workfront</a>一文中的<a href="../../../workfront-basics/navigate-workfront/search/search-workfront.md#using-advanced-search">使用進階搜尋</a>一節。
+        <td>如需進階搜尋的相關資訊，請參閱<a href="../../../workfront-basics/navigate-workfront/search/search-workfront.md#using-advanced-search">搜尋Adobe Workfront</a>一文中的<a href="../../../workfront-basics/navigate-workfront/search/search-workfront.md">使用進階搜尋</a>一節。
     </tr>
     <tr>
         <td>檢視中的已計算欄</td>

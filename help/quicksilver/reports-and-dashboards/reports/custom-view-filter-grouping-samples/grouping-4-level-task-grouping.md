@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 群組：針對Portfolio擁有者、方案擁有者、專案擁有者和專案狀態的4層級作業群組
 description: 此作業「群組」提供4個層次的「群組」。 在此情況下，任務會依Portfolio所有者、方案所有者、專案所有者和專案狀態分組。 使用標準介面，您最多只能有3個層級的「群組」。 若要新增第四個層級，您必須使用文字模式。 您無法同時依照超過4個准則將報表分組。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: a1780a57-b94c-4d3a-b526-9bf45dba21f1
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '365'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -22,16 +22,16 @@ ht-degree: 0%
 
 ![four_tier_grouping_for_tasks.png](assets/four-tier-grouping-for-tasks-350x239.png)
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 

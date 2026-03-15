@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: 報表中的參考集合
 description: 報表中的參考集合
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '2615'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -21,16 +21,16 @@ ht-degree: 0%
 
 如需在Workfront中建立報表的詳細資訊，請參閱[建立自訂報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -266,7 +266,7 @@ Workfront中的物件之間有下列兩種關係：
   </tr> 
   <tr> 
    <td><code>listdelimiter=&lt;p&gt;</code> </td> 
-   <td> <p>這是用來分隔清單中值的分隔字元。<br>我們建議使用<code>&lt;p&gt;</code>，在值之間新增分行符號。</p> <p>您也可以使用下列專案：</p> <p><code>&zwj;</code> （零寬度聯結器）。 集合的值之間沒有分隔符號。<br><strong>，</strong> =逗號分隔符號。 集合的值以逗號分隔，後跟空格。<br><strong>/</strong> =斜線分隔符號。 集合的值以斜線分隔。<br><strong>-</strong> =破折號分隔符號。 集合的值以破折號分隔。<br>依照預設，將此行留空會在集合的值之間加上逗號，後面跟著空格。</p> </td> 
+   <td> <p>這是用來分隔清單中值的分隔字元。<br>我們建議使用<code>&lt;p&gt;</code>，在值之間新增分行符號。</p> <p>您也可以使用下列專案：</p> <p><code>&amp;zwj;</code> （零寬度聯結器）。 集合的值之間沒有分隔符號。<br><strong>，</strong> =逗號分隔符號。 集合的值以逗號分隔，後跟空格。<br><strong>/</strong> =斜線分隔符號。 集合的值以斜線分隔。<br><strong>-</strong> =破折號分隔符號。 集合的值以破折號分隔。<br>依照預設，將此行留空會在集合的值之間加上逗號，後面跟著空格。</p> </td> 
   </tr> 
   <tr> 
    <td><code>displayname=</code><em>資料行名稱</em> </td> 
@@ -395,7 +395,7 @@ Workfront中的物件之間有下列兩種關係：
 1. 按一下&#x200B;**報告提示**。
 1. 按一下&#x200B;**新增提示**。
 1. 按一下&#x200B;**自訂提示**。
-1. 在&#x200B;**欄位**&#x200B;**名稱**&#x200B;欄位中指定提示的名稱。
+1. 在&#x200B;**欄位****名稱**&#x200B;欄位中指定提示的名稱。
 
 1. 指定&#x200B;**下拉式清單專案標籤**。
 1. 在&#x200B;**條件**&#x200B;欄位中指定下列專案：

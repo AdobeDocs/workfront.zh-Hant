@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: 計算自訂欄位範例：在自訂表單中顯示狀態時間戳記
 description: 下列計算欄位會顯示物件狀態標示為進行中(INP)的日期。 您可以對問題、任務或專案的計算自訂欄位使用相同的資訊。
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 55817a68-3655-4288-8cc7-48547829c46e
-source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '341'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -22,16 +22,16 @@ ht-degree: 0%
 >
 >如果物件的狀態變更為INP，接著又變更為其他狀態，然後變回INP，Adobe Workfront只會擷取第一次變更為INP的時間戳記。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront套件</p> </td> 
+   <td> <p>Adobe Workfront 封裝</p> </td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 

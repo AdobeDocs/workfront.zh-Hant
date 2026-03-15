@@ -4,14 +4,14 @@ product-area: reporting
 navigation-topic: reports
 title: 報表使用情況概觀
 description: 瞭解報告使用情況。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: cacac66d-371a-42b0-891d-2e26bb4af326
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '47'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 

@@ -4,10 +4,10 @@ product-area: user-management;agile-and-teams
 navigation-topic: work-with-groups-and-teams
 title: Workfront中的群組與團隊
 description: 群組與團隊是Adobe Workfront中的使用者集合。 瞭解群組與團隊之間的差異和相似性。
-author: Jenny and Becky
+author: Courtney and Becky
 feature: People Teams and Groups
 exl-id: 28eb1967-390b-4500-abfc-8ed68ff14a16
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 1%

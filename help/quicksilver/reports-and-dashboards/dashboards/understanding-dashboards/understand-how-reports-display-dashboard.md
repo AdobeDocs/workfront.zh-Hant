@@ -4,10 +4,10 @@ product-area: dashboards
 navigation-topic: understand-dashboards
 title: 瞭解報表在儀表板上的顯示方式
 description: 您可以管理新增到控制面板的報表的顯示方式。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 5ec2380e-e4fc-42f5-a553-b61c11573b9b
-source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 0%

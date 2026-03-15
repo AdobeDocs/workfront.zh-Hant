@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 檢視：前置任務詳細資訊
 description: 此任務檢視使用集合檢視顯示任務前置任務的詳細資訊。 在集合檢視中，您可以顯示有關處於「一對多」關係中的物件的資訊。 在這種情況下，每個任務（一個）可以有多個前置任務（多個）。 該檢視顯示任務名稱，以及其前置任務名稱、前置任務專案名稱、前置任務計畫完成日期及前置任務狀態。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 0187da94-4895-47b1-914f-284fed9e0fd0
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '297'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -24,16 +24,16 @@ ht-degree: 0%
 
 ![前置任務_詳細資料_任務_檢視.png](assets/predecessor-details-task-view-350x34.png)
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 

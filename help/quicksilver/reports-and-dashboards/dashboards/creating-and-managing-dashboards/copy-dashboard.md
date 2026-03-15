@@ -3,13 +3,13 @@ product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: 複製控制面板
 description: 您可以複製控制面板及其所有內容（報告、行事曆和外部頁面）。 當您複製儀表板內容時，您可以選擇保留它們在原始儀表板上的顯示方式，或者建立新專案，這些專案是原始儀表板上的副本。 您也可以選擇不轉移或複製新儀表板上的專案。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: a88cc171-2bb1-40f0-a778-8dac7eecb718
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '889'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -19,16 +19,16 @@ ht-degree: 0%
 
 您可以複製控制面板及其所有內容（報告、行事曆和外部頁面）。 當您複製儀表板內容時，您可以選擇保留它們在原始儀表板上的顯示方式，或者建立新專案，這些專案是原始儀表板上的副本。 您也可以選擇不轉移或複製新儀表板上的專案。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 

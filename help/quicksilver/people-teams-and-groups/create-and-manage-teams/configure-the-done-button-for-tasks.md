@@ -3,13 +3,13 @@ product-area: agile-and-teams;setup
 navigation-topic: create-and-manage-teams
 title: 設定任務的「完成」按鈕
 description: 完成按鈕可以自動設定任務或問題的狀態。 依預設，當受指派人按一下其工作專案上的「完成」時，Adobe Workfront會將任務標示為「已完成」。
-author: Jenny
+author: Courtney
 feature: People Teams and Groups
 exl-id: 55cc5562-13d5-4089-8937-f33d0cde3cac
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '759'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -29,16 +29,16 @@ ht-degree: 2%
 * 如果使用者沒有[!UICONTROL 主團隊]，但他們的設定檔中有[!UICONTROL 其他團隊]，Workfront會搜尋與使用者相關聯之任何團隊上的[!UICONTROL 完成]按鈕設定。 選擇是隨機的，與任何團隊關聯的狀態用於任務。
 * 如果使用者沒有指派主團隊，則任務的[!UICONTROL 完成]按鈕會繫結到完成狀態。 此情境中沒有可用的設定選項。 [!UICONTROL Done]按鈕會自動預設為此狀態。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront套件</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront 封裝</p> </td> 
    <td>任何</td> 
   </tr> 
   <tr> 

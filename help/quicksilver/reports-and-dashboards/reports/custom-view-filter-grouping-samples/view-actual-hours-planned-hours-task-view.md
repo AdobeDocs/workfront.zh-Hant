@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 檢視：在任務檢視的相同欄中，計畫時數內的實際時數
 description: 在此任務檢視中，任務上記錄的實際時數會顯示在針對每個任務計畫的時數中。 計畫時數與實際時數之間的時數差異也會顯示在單獨的欄中。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: c1179283-dc2e-40d3-b8e0-4b1b79f83ad3
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '269'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -20,18 +20,18 @@ ht-degree: 0%
 
 ![actual_vs_planned_in_task_report.png](assets/actual-vs-planned-in-task-report-350x58.png)
 
-## 存取需求
+## 存取權要求
 
 <!--Audited: 10/2024-->
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 

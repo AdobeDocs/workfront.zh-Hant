@@ -4,13 +4,13 @@ product-area: dashboards
 navigation-topic: understand-dashboards
 title: 開始使用儀表板
 description: 控制面板的目的是提供資訊的快速存取。 您可以在報表中收集資訊，然後將其放在控制面板上，以便更輕鬆存取資訊。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '693'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 0%
 
 控制面板的用途是提供對來自多個報表之資訊的快速存取。 首先，您可以收集報表中的資訊，然後將多個報表放在控制面板上，以便更輕鬆存取資訊。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 
 <table style="table-layout:auto"> 
@@ -30,7 +30,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 

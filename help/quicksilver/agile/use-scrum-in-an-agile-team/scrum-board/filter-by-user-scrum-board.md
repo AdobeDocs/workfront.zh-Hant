@@ -3,13 +3,13 @@ product-area: agile-and-teams;projects;user-management
 navigation-topic: scrum-board
 title: 在Scrum板上依使用者篩選
 description: 您可以使用Scrum展示板上的篩選器來檢視哪些工作專案與其他使用者相關聯，以及哪些工作專案已取消指派。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: ccb1dc6e-b6c0-4897-9278-7410f10d40ae
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '201'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 您可以使用Scrum展示板上的篩選器來檢視哪些工作專案與其他使用者相關聯，以及哪些工作專案已取消指派。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -31,9 +31,9 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>新增：[!UICONTROL Standard]</p> 
+   <td> <p>新增：[！UICONTROL Standard]</p> 
    或
-   <p>目前： [!UICONTROL Work]或更高版本</p> </td> 
+   <p>目前： [！UICONTROL Work]或更高版本</p> </td> 
   </tr>
  </tbody> 
 </table>

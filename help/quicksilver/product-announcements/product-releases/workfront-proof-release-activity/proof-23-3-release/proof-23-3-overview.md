@@ -4,11 +4,11 @@ content-type: release-notes
 navigation-topic: proof-release-activity
 title: 23.3版的Adobe Workfront校訂
 description: 本頁提供在23.3版中發佈到生產環境的新Adobe Workfront體驗中Adobe Workfront Proof功能的相關資訊。
-author: Nolan
+author: Courtney
 feature: Product Announcements, Workfront Proof
 recommendations: noDisplay, noCatalog
 exl-id: b4e3f45f-b687-40e5-93f9-a7c3b58d55bd
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 0%

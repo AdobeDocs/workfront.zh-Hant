@@ -3,13 +3,13 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: 刪除行事曆報告
 description: 您可以刪除自己所擁有的行事曆或其他人與您共用的行事曆。 刪除行事曆後，您已與其共用行事曆的使用者將無法存取。
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 6208442e-21af-4cd1-ad55-52215bd4d959
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '188'
-ht-degree: 2%
+ht-degree: 11%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 2%
 
 除非現有替代行事曆，否則無法刪除預設行事曆。 如果您嘗試刪除所有的行事曆，系統會自動為您建立預設行事曆。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -30,7 +30,7 @@ ht-degree: 2%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -57,7 +57,7 @@ ht-degree: 2%
 ## 刪除行事曆報告
 
 1. 移至您要刪除的行事曆。
-1. 按一下[行事曆]下拉式功能表旁的&#x200B;**更多**&#x200B;功能表。
+1. 按一下[行事曆]下拉式功能表旁的&#x200B;**更多**功能表。
    ![行事曆更多功能表](assets/more-menu-calendar.png)
 
 1. 從下拉式清單中選取&#x200B;**[!UICONTROL 刪除]**。

@@ -4,14 +4,14 @@ product-area: system-administration
 navigation-topic: start-with-workfront-administration
 title: 傳送宣告
 description: 身為Adobe Workfront管理員，您可以使用公告頁面將公告傳送給使用者。
-author: Nolan
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 413e3051-fcb5-44d7-b6bd-6b05d39935e8
-source-git-commit: 15ea03bf586054f7ef421f8cacede6f42835a6e4
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '566'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 0%
 
 如需有關檢視公告的資訊，請參閱[檢視和管理應用程式內通知](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 

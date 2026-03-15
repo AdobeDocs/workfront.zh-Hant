@@ -1,10 +1,11 @@
 ---
 title: 2024年第四季檔案管理增強功能
 description: 2024年第四季檔案管理增強功能
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8bd7f0b7ed864bf8aa07dbd9ce1104b8da1edb4a
+exl-id: 2af72926-a46a-4265-aa01-064436b93622
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%

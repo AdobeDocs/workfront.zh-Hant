@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: 使用文字模式編輯篩選器
 description: 您可以使用文字模式在清單或報告中編輯篩選器，以存取標準介面中無法使用的欄位，並建立更複雜的篩選器。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1044'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -21,16 +21,16 @@ ht-degree: 1%
 
 如需建立篩選時的更多文字模式範例，另請參閱文章[自訂檢視、篩選和群組範例：文章索引](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md#samples-of-custom-filters)中的[自訂篩選範例](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)一節。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 

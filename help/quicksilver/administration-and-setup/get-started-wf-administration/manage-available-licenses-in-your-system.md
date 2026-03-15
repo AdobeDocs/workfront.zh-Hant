@@ -4,14 +4,14 @@ product-area: system-administration;user-management
 navigation-topic: start-with-workfront-administration
 title: 管理系統中的可用授權
 description: 身為Adobe Workfront管理員，您可以存取有關Workfront帳戶的資訊，包括已為您的組織購買的授權數量，以及目前使用的授權數量。
-author: Lisa, Jenny
+author: Lisa, Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: 01a80f6140650ca12aaee14115f79449dcfa2a18
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '1180'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 0%
 
 身為Adobe Workfront管理員，您可以存取有關Workfront帳戶的資訊，包括已為您的組織購買的授權數量，以及目前使用的授權數量。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 

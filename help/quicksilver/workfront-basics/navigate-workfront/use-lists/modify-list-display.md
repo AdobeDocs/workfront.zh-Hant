@@ -3,12 +3,12 @@ navigation-topic: use-lists
 title: 修改清單的顯示方式
 description: 在 [!DNL Adobe Workfront]中，您可以自訂清單的顯示方式。 其他檢視清單的使用者看不到您的變更。
 feature: Get Started with Workfront
-author: Nolan
+author: Courtney
 exl-id: 3ef7ff03-7293-4b56-9481-e89e1a47a904
-source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '706'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -32,16 +32,16 @@ ht-degree: 0%
 
 如需修改清單中所顯示資訊的詳細資訊，請參閱[報告元素：篩選器、檢視和群組](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -53,11 +53,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[!UICONTROL 檢視]清單所在區域的存取權</p> <p>例如，若要修改專案的檢視，您需要[!UICONTROL 檢視]專案的存取權。</p></td> 
+   <td> <p>[！UICONTROL檢視]清單所在區域的存取權</p> <p>例如，若要修改專案的檢視，您需要[！UICONTROL檢視]專案的存取權。</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>[!UICONTROL 檢視]或套用至清單之檢視的更高許可權</p>  </td> 
+   <td> <p>[！UICONTROL檢視]或套用至清單之檢視的更高許可權</p>  </td> 
   </tr> 
  </tbody> 
 </table>

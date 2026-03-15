@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: create-and-manage-reports
 title: 在Adobe Workfront中共用報表
 description: 當使用者指派存取層級時，您的Adobe Workfront管理員會授予他們檢視或編輯報告的存取權。 如需授與問題存取權的詳細資訊，請參閱授與報告、控制面板和行事曆的存取權。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 225e815a-0354-493d-bbcf-59304ef77570
-source-git-commit: c8a25bcc8c9b56a649ca7764918c86f9cdd5b3e2
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '826'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -27,16 +27,16 @@ ht-degree: 0%
 >
 >Workfront管理員可以新增或移除系統中所有使用者的任何專案許可權，而無需擁有這些專案。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 

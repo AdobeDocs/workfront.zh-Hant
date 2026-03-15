@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 檢視：計算時間和日期差異
 description: 瞭解如何計算時間和日期差異。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '599'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -31,16 +31,16 @@ ht-degree: 0%
 >
 >這些計算會顯示兩個日期之間的天數。 結果以天為單位顯示。 日期欄位上的時間戳記也會納入考量，如果時間戳記不符，天數可能會後跟小數。 如果任務延遲完成，天數會顯示為負值。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 

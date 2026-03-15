@@ -3,9 +3,10 @@ product-area: reports and dashboards
 navigation-topic: data-connect
 title: 在Data Connect中使用監控資料重新整理檢視
 description: 透過Data Connect，Workfront管理員可存取最近重新整理期間對Data Lake日期進行之最近更新的詳細記錄。
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
-source-git-commit: 1bcb64fbcdf2cb8b40cb50e5a7d4f5768f3a712f
+exl-id: 230d1a30-2af9-4d2c-9ec1-34c3d4c080d4
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 2%
@@ -87,4 +88,3 @@ ht-degree: 2%
         <br><b>注意</b>：這與受CREATE、UPDATE或DELETE事件影響的記錄總數不同，因為相同的記錄可能會在重新整理的間隔內多次CREATE和UPDATE。  </td>
     </tr>
    </table>
-

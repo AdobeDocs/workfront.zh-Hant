@@ -3,13 +3,13 @@ product-area: agile-and-teams
 navigation-topic: iterations
 title: 刪除反複專案
 description: 如果您不再需要敏捷團隊的疊代，您可以將其刪除。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: db7fbafd-9d22-4035-a130-60ec2e4ad347
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '175'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 

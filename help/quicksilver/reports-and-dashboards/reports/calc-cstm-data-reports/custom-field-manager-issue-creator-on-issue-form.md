@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: 計算自訂欄位範例：在問題自訂表單上顯示問題建立者的管理員
 description: 使用計算自訂欄位，您可以在附加到問題的自訂表單上顯示問題建立者的經理名稱。 使用相同的陳述式，您可以為專案、問題和其他物件建置類似的計算欄位。
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: f501ce1a-7a80-458b-9b30-2292426c9262
-source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -24,16 +24,16 @@ ht-degree: 0%
 >For information about additional custom text mode examples from other customers, follow the [Text Mode Reporting](https://one.workfront.com/s/topic/0TO0z000000cdHmGAI/text-mode-reporting?tabset-21363=3) topic on our Community site.
 -->
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront套件</p> </td> 
+   <td> <p>Adobe Workfront 封裝</p> </td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 

@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: 在Adobe Workfront中建立或編輯篩選器
 description: 您可以透過篩選條件限制在專案清單中熒幕顯示的資訊量。 您可以根據物件的特定資訊來定義特定條件，並僅顯示符合這些條件的物件。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '2375'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -31,16 +31,16 @@ ht-degree: 1%
 
   如需Workfront中所有篩選器的清單，以及可套用篩選器的區域，請參閱[篩選器概觀](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -318,7 +318,7 @@ ht-degree: 1%
 
    或
 
-   將滑鼠懸停在篩選器抽屜中的任何篩選器上，按一下[更多]功能表![[更多]功能表](assets/more-icon-spectrum.png)，然後按一下[我的最愛]&#x200B;**&#x200B;**。
+   將滑鼠懸停在篩選器抽屜中的任何篩選器上，按一下[更多]功能表![[更多]功能表](assets/more-icon-spectrum.png)，然後按一下[我的最愛]****。
 
 1. （選擇性）按一下&#x200B;**棧疊篩選器**&#x200B;按鈕以啟用棧疊篩選器。 此選項可讓您套用多個已儲存的篩選器。 篩選規則會依照您選取它們的順序套用。
 

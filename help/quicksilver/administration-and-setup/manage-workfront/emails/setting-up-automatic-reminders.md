@@ -4,14 +4,14 @@ product-area: system-administration
 navigation-topic: emails-administration
 title: 設定自動提醒
 description: 您可以設定自動提醒，以在所有任務或問題到期、延遲或接近計畫完成日期時觸發電子郵件通知。
-author: Nolan
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 37ad04a1-d3c8-48b2-aed8-fe40456196ec
-source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '625'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -33,16 +33,16 @@ ht-degree: 3%
 >
 >您無法變更自動提醒所觸發之電子郵件的內容或主旨列。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td>任何</td> 
   </tr> 
   <tr> 

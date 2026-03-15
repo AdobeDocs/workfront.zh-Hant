@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: scrum-board
 title: Scrum板概述
 description: Scrum敏捷故事板會與完成狀態和待執行工作圖表一起顯示。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 584288bb-2d98-4b69-8deb-d3b8e54d328c
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 0%

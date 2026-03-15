@@ -1,11 +1,11 @@
 ---
 title: 2025年第一季度發行時間範圍內的其他增強功能
 description: 2025年第一季度發行時間範圍內的其他增強功能
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 67ec1535-d374-4133-9395-626fa7ae4072
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 >
 >預覽版本： 2024年11月21日；適用於所有客戶的生產版本： 2024年12月5日
 
-我們已變更使用Adobe Workfront與Experience Manager Assets和Assets Essentials整合時移動和刪除資產的處理方式：
+當使用Adobe Workfront與Experience Manager Assets和Assets Essentials整合時，我們已變更處理移動和刪除資產的方式：
 
 * 已刪除的資產：當資產在Assets或Assets Essentials中的連結資料夾內刪除時，已刪除的資產將保留在專案檔案區域。
 * 移動的資產：當資產移出Assets或Assets Essentials中的連結資料夾時，移動的資產將保留在專案檔案區域中。

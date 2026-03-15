@@ -4,14 +4,14 @@ product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: 設定對藍圖的存取權
 description: 作為系統管理員，您可以透過設定請求佇列來儲存請求，從而為使用者啟用請求安裝藍圖的存取權。 在那裡，您只有一個位置可追蹤和更新請求。
-author: Jenny
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d85f363f-2ab4-45cb-b851-a7f33e1ca905
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '512'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -32,16 +32,16 @@ ht-degree: 0%
 * 透過設定要求佇列以儲存要求，來啟用使用者要求安裝藍圖的存取權。 在那裡，您只有一個位置可追蹤和更新請求。 如需詳細資訊，請遵循下列程式。
 * 安裝Blueprint。 如需詳細資訊，請參閱[安裝Blueprint](../../administration-and-setup/blueprints/blueprints-install.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td>任何</td> 
   </tr> 
   <tr> 

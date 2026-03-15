@@ -1,11 +1,11 @@
 ---
 title: 2025年第一季度專案增強功能
 description: 2025年第一季度專案增強功能
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 998f3508-623e-471b-9ab7-bded5add6b5b
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 0%

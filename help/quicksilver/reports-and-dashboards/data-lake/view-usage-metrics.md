@@ -4,13 +4,13 @@ product-area: reports and dashboards
 navigation-topic: data connect
 title: 檢視Workfront Data Connect使用度量
 description: 使用Workfront Data Connect Metrics索引標籤，您可以根據每月使用的計算小時數和執行的查詢數來檢視組織的使用量度。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 29185bd1-e058-4b42-a508-53406fb9ddd2
-source-git-commit: 7764e512a3fb30a89e6645a4d8544a5fcffee231
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '309'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 使用[!DNL Workfront Data Connect] [!UICONTROL 量度]標籤，您可以根據使用的計算時數與執行的查詢數目，檢視組織的使用量度。 組織根據其授權型別和Data Connect附加元件購買提供的每月運算時數有限。 [!UICONTROL 量度]索引標籤會顯示與已使用專案相關的可用每月運算時數資訊。
 
-## 存取需求
+## 存取權要求
 
 +++ 展開以檢視存取需求。 
 
@@ -27,7 +27,7 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td><p>Ultimate</p>
     <p>Workflow Ultimate</p>
    </td>

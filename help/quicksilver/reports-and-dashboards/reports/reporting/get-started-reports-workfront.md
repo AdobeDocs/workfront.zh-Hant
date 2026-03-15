@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: reporting-navigation-topic
 title: 開始使用報告
 description: 報表可讓您檢視使用者和工作的最新狀況。 使用報表，您可以在Adobe Workfront中顯示物件的相關資訊。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 478512af-a47c-4488-878a-581e238e0064
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '3292'
 ht-degree: 1%
@@ -310,7 +310,7 @@ Workfront提供數個系統報告，預設會載入您的系統。\
      <li>欄</li> 
      <li>長條圖</li> 
      <li>圓形</li> 
-     <li>折線</li> 
+     <li>折線圖</li> 
      <li>量測計</li> 
      <li>泡泡</li> 
     </ul> <p>如需有關將圖表新增至報表的詳細資訊，請參閱文章<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md" class="MCXref xref">將圖表新增至報表</a>。</p> </td> 
@@ -365,7 +365,7 @@ Workfront提供數個系統報告，預設會載入您的系統。\
     </ul> <p>例如，當為「計畫完成日期」為「今天」的任務建立篩選器時，您可在「辨識符號」欄位中選取<strong>等於</strong>，並在「日期」欄位中選取今天的日期：</p> <p><em>任務&gt;計畫完成日期&gt;等於&gt; （今天的日期）</em> </p> <p>在此案例中，限定詞是<strong>等於</strong>。<br>如需限定詞的詳細資訊，請參閱文章<a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">篩選和條件修飾詞</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>報表 </td> 
+   <td>報告 </td> 
    <td>檢視、篩選和（有時）分組的組合。 報告的目的是跨介面一致地顯示資料、分發資訊，並免除定期執行相同搜尋或查詢的需求。</td> 
   </tr> 
   <tr> 

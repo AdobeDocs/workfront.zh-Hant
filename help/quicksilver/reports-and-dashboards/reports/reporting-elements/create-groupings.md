@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: 在Adobe Workfront中建立群組
 description: 您可以從頭開始建立自訂分組，或自訂現有分組。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 64cc52b7-d97b-4b41-9101-530e7db2d26e
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '446'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -23,16 +23,16 @@ ht-degree: 1%
 
 您可以從頭開始建立自訂分組，或自訂現有分組。 請依照下列步驟，從頭開始建立群組。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 

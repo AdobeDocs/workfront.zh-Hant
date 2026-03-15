@@ -3,11 +3,11 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: 文字模式語法概觀
 description: 您可以使用文字模式介面在清單和報告中建立更複雜的檢視、篩選器、分組和自訂提示。 使用文字模式，您可以存取在標準模式介面中無法使用的欄位及其屬性。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1862'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 如需所有可報告欄位及其屬性的完整清單，請參閱[API總管](../../../wf-api/general/api-explorer.md)。
 
-如需使用文字模式建立報表的詳細資訊，包括類別、影片和教學課程，請造訪Adobe Experience League網站上的「學習」區段。
+如需使用文字模式建立報告的詳細資訊，包括類別、影片和教學課程，請造訪Adobe Experience League網站上的「學習」區段。
 
 ## 有關文字模式語法的考量事項
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
   `project:portfolio:ownerID=5808f4bc00790b270a9629dd128e63fa`
 
-  在這些範例中，Portfolio擁有者ID是三個物件，與清單的物件不同。
+  在這些範例中，Portfolio擁有者ID是三個物件，與清單的物件相距。
 
   如需Workfront中物件階層的相關資訊，請參閱：
 
@@ -259,7 +259,7 @@ ht-degree: 0%
 
 如需有關建立篩選和自訂提示的資訊，請參閱：
 
-* [篩選器總覽](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* [篩選器概觀](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
 * [新增提示至報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 
 如需有關以文字模式建立篩選的資訊，請參閱[使用文字模式編輯篩選](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)。

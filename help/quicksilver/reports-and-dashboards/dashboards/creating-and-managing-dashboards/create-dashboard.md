@@ -3,10 +3,10 @@ product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: 建立儀表板
 description: 您可以建立控制面板，以快速存取Adobe Workfront中的資訊。 您可以將報告、行事曆和外部頁面新增到控制面板，與他人共用以進行最佳共同作業。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: 507cb64eb21c2798cdafe184794c0d9ed7ebc0c6
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 5%

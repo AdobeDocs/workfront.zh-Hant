@@ -4,13 +4,13 @@ product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: 將輸入欄新增到展示板
 description: 您可以選擇將輸入欄新增到您的展示板，在任務與問題新增到Workfront時，根據您定義的篩選器自動提取作為連線卡片。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '1033'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -48,16 +48,16 @@ ht-degree: 3%
 
 如需欄的詳細資訊，請參閱[管理面板欄](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)。 如需有關已連線卡片的資訊，請參閱[使用主機板上的已連線卡片](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -87,7 +87,7 @@ ht-degree: 3%
 
 1. （選擇性）搜尋並選取[!DNL Workfront] [!UICONTROL **專案**]。
 1. （選擇性）搜尋並選取使用者或團隊&#x200B;[!UICONTROL **指派**]。
-1. 按一下&#x200B;**套用**。 物件會在看板輸入欄中顯示為已連線的卡片。
+1. 按一下「**套用**」。 物件會在看板輸入欄中顯示為已連線的卡片。
 
    ![輸入資料行](assets/intake-column-added3.png)
 
@@ -126,7 +126,7 @@ ht-degree: 3%
 
    如需建立篩選的詳細資訊，請參閱文章[在 [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md)中建立或編輯篩選中，標準產生器中的建立或編輯篩選區段。
 
-1. 為篩選器命名，然後按一下[儲存]。**&#x200B;** 該篩選器會出現在您儲存的篩選器清單中，並自動套用至輸入欄。
+1. 為篩選器命名，然後按一下[儲存]。**** 該篩選器會出現在您儲存的篩選器清單中，並自動套用至輸入欄。
 
    ![正在輸入新的篩選器名稱](assets/save-as-modal.png)
 

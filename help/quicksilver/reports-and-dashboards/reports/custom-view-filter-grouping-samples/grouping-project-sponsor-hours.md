@@ -4,13 +4,13 @@ product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 分組：時數的專案贊助者
 description: 此小時分組按記錄小時數的專案贊助者組織小時。 時數分組的標準Report Builder介面不提供專案贊助者欄位的對應。 您必須使用文字模式介面才能存取此欄位。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 6b35b0ef-18b7-4121-ae39-d7957d76c04b
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '234'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -22,16 +22,16 @@ ht-degree: 0%
 
 ![hour_report_grouped_by_sponner.png](assets/hour-report-grouped-by-sponsor-350x39.png)
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -74,4 +74,4 @@ ht-degree: 0%
 ```
 
 1. 按一下「**完成**」。
-1. 更新群組名稱，然後按一下[儲存群組]。**&#x200B;**
+1. 更新群組名稱，然後按一下[儲存群組]。****

@@ -3,11 +3,11 @@ product-area: Canvas Dashboards
 navigation-topic: manage-canvas-dashboards
 title: 管理畫布控制面板：文章索引
 description: 檢視本節中的文章。
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 3e36ddc8-2552-4449-9c3a-3720e0af590b
-source-git-commit: f8c41105607e972d3395cf8d89fb1fdf29f0da85
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 0%

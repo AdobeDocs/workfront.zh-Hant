@@ -4,11 +4,11 @@ product-area: reporting
 navigation-topic: reports
 title: 自訂檢視、篩選和分組範例：文章索引
 description: 本節提供您可以在Adobe Workfront帳戶中使用的自訂檢視、篩選器和群組的範例。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: beac1ea6-a983-4d12-8972-91150914f731
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 0%
@@ -109,7 +109,7 @@ ht-degree: 0%
 
 * [依多重選取的自訂欄位將報表分組](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-by-multi-select-custom-field.md)
 * [群組：時數清單中專案所有者的主群組](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-home-group-project-owner-list-hours.md)
-* [群組：Portfolio擁有者、方案擁有者、專案擁有者和專案狀態的4層級任務群組](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-4-level-task-grouping.md)
+* [群組：針對Portfolio擁有者、方案擁有者、專案擁有者和專案狀態的4層級任務群組](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-4-level-task-grouping.md)
 * [群組：新增第四個群組至清單](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-add-fourth-grouping.md)
 * [群組：依照群組中所有物件通用的計算值來組織清單結果](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-by-calculated-common-values.md)
 * [群組：顯示群組中多個計算值的彙總結果](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md)

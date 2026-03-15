@@ -3,13 +3,13 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: 將現有任務或問題新增到Workfront展示板
 description: 您可以從清單或報告檢視將任何任務或問題新增到Adobe Workfront中的展示板。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 5e6fd681-8068-4091-9f42-0364b17e0465
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '585'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -21,23 +21,23 @@ ht-degree: 0%
 
 您可以從清單或報告檢視，或物件詳細資訊，將任何任務或問題新增到[!DNL Adobe Workfront]中的展示板或工作流程。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto">
  <col>
  <col>
  <tbody>
   <tr>
-   <td role="rowheader">Adobe Workfront套件</td>
+   <td role="rowheader">Adobe Workfront 封裝</td>
    <td> <p>任何</p> </td>
   </tr>
   <tr>
    <td role="rowheader">Adobe Workfront授權</td>
    <td>
    <p>標準</p> 
-   <p>工作或更高</p>
+   <p>工作或更高層級</p>
    </td>
   </tr>
   <tr>
@@ -99,7 +99,7 @@ ht-degree: 0%
 1. 移至專案、報告或儀表板，其中包含您要檢視其面板資訊的任務或問題。
 1. 選取包含「面板」欄的檢視，或使用「面板」欄建立新檢視。
 如需檢視的資訊，請參閱[在Adobe Workfront中建立或編輯檢視](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md)。
-1. 按一下欄中的[顯示&#x200B;[!UICONTROL **&#x200B;**]]以顯示任務或問題所在面板的清單。
+1. 按一下欄中的[顯示&#x200B;[!UICONTROL ****]]以顯示任務或問題所在面板的清單。
 
    ![顯示欄](assets/show-boards-in-column.png)中的面板
 

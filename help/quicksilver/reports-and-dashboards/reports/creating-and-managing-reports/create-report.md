@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: create-and-manage-reports
 title: 建立報告
 description: 本文資訊已移動。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 076ee364-6ee7-4b50-ad38-54aebaf56036
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '82'
 ht-degree: 0%

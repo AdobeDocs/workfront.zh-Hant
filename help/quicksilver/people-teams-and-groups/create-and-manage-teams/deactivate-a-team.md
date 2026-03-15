@@ -3,13 +3,13 @@ product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
 title: 停用或刪除團隊
 description: 您可以停用不再使用的團隊，同時保留關聯的歷史資料。 Adobe Workfront管理員可隨時從設定中的團隊區域重新啟用團隊。
-author: Jenny
+author: Courtney
 feature: People Teams and Groups
 exl-id: 634e4c0f-aa1d-4197-92e3-54f414344ac0
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '444'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -28,13 +28,13 @@ ht-degree: 0%
     </ul> 
     <ul> 
      <li> <p>物件的共用對話方塊</p> </li> 
-     <li> <p>[!UICONTROL 使用者設定檔]*</p> </li> 
+     <li> <p>[！UICONTROL使用者設定檔]*</p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL 團隊]區域中的主要選取下拉式功能表</p> </li> 
-     <li> <p>[!UICONTROL 指派]自動提示</p> </li> 
-     <li> <p>專案中的[!UICONTROL 新增到Kanban]展示板對話方塊</p> </li> 
+     <li> <p>[！UICONTROL團隊]區域中的主要選取下拉式功能表</p> </li> 
+     <li> <p>[！UICONTROL指派]自動提示</p> </li> 
+     <li> <p>專案中的[！UICONTROL新增到Kanban]展示板對話方塊</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -42,16 +42,16 @@ ht-degree: 0%
 
 當您搜尋團隊時，已停用的團隊不會出現，但如果使用者在停用前已指派給團隊，則仍會顯示在[!UICONTROL 主團隊]和其他團隊中。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront套件</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront 封裝</p> </td> 
    <td>任何</td> 
   </tr> 
   <tr> 

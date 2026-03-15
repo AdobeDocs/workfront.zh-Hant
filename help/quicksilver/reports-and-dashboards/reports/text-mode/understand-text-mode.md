@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: 文字模式概觀
 description: 建立構成報告或清單的元素時，您可以使用標準或文字模式介面，在Adobe Workfront中建立報告或清單。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 8be8cbd0-da1b-4e90-a52e-dc352f646d18
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 0%
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 使用文字模式，您可以參考在標準模式下可能不可用，但在Workfront資料庫中可用的欄位和屬性。
 
-如需使用文字模式建立報表的詳細資訊，包括類別、影片和教學課程，請參閱Adobe Experience League網站上的「瞭解」一節。
+如需使用文字模式建立報告的詳細資訊，包括類別、影片和教學課程，請參閱Adobe Experience League網站上的「學習」一節。
 
 ## 使用文字模式之前的考量事項
 

@@ -4,13 +4,13 @@ product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 檢視：使用者工作角色可用FTE的百分比
 description: 您可以在使用者清單的檢視中新增欄位，以顯示使用者相關聯的「工作角色」清單，以及每個工作角色的FTE可用性百分比（如使用者設定檔中所定義）。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: d479b0b1-8ad5-47d6-8ef8-80261b46ecea
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -24,16 +24,16 @@ ht-degree: 0%
 
 ![user_with_percent_availability_per_role.png](assets/user-with-percent-avialbility-per-role-350x138.png)
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 

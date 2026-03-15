@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: report-usage
 title: 存取及組織報告
 description: 您可以使用Adobe Workfront中的報表來檢閱或編輯系統中物件的相關資訊。 您可以建立自己的報表、組織您建立的報表，以及檢視與您共用或公開共用的報表。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: a444d863-12a8-43d0-ae84-ee24863ad87b
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '469'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -17,16 +17,16 @@ ht-degree: 1%
 
 您可以使用Adobe Workfront中的報表來檢閱或編輯系統中物件的相關資訊。 您可以建立自己的報表、組織您建立的報表，以及檢視與您共用或公開共用的報表。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -59,7 +59,7 @@ ht-degree: 1%
 1. 根據您要檢視的報表，按一下下列任一選項：
 
    * 按一下&#x200B;**我的報告**&#x200B;以檢視您已建立的報告。
-   * 按一下「與我共用」**&#x200B;**&#x200B;以檢視其他人與您共用的報告。
+   * 按一下「與我共用」****&#x200B;以檢視其他人與您共用的報告。
    * 按一下&#x200B;**所有報告**&#x200B;以檢視您已建立的報告以及與您共用或公開共用的報告。
 
 ## 組織您建立的報告

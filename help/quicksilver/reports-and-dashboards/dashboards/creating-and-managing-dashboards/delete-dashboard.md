@@ -3,13 +3,13 @@ product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: 刪除儀表板
 description: 如果您不再使用儀表板，可以將其從Adobe Workfront中移除。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 706a3e16-34d7-49d8-9688-109ce4f95c2f
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '281'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -19,16 +19,16 @@ ht-degree: 0%
 
 如果您不再使用儀表板，可以將其從Adobe Workfront中移除。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -67,7 +67,7 @@ ht-degree: 0%
 
    ![刪除儀表板](assets/unshimmed-delete-dashboard.png)
 
-1. 若要確認您要刪除儀表板，請按一下[是，刪除]。**&#x200B;**
+1. 若要確認您要刪除儀表板，請按一下[是，刪除]。****
 儀表板會從Workfront中移除。
 
 ## 從儀表板區域刪除儀表板 {#delete-a-dashboard-from-the-dashboards-area}
@@ -81,5 +81,5 @@ ht-degree: 0%
 
    ![刪除儀表板](assets/unshimmed-delete-dashboard-list.png)
 
-1. 若要確認您要刪除儀表板，請按一下[是，刪除]。**&#x200B;**
+1. 若要確認您要刪除儀表板，請按一下[是，刪除]。****
 儀表板會從Workfront中移除。

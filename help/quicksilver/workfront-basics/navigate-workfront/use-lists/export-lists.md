@@ -3,12 +3,12 @@ navigation-topic: use-lists
 title: 匯出清單
 description: 您可以從Adobe Workfront匯出物件清單。 當Workfront中的物件清單包含超過2000個專案時，匯出清單是檢閱單一頁面上清單中所有專案的唯一方法。
 feature: Get Started with Workfront
-author: Nolan
+author: Courtney
 exl-id: 31159d6d-f03a-4f84-a454-25a232971441
-source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '336'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -20,16 +20,16 @@ ht-degree: 0%
 
 如需匯出格式和限制的資訊，請參閱[匯出資料](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -45,7 +45,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>清單所在物件的[!UICONTROL View]許可權</p>  </td> 
+   <td> <p>清單所在物件的[！UICONTROL View]許可權</p>  </td> 
   </tr> 
  </tbody> 
 </table>

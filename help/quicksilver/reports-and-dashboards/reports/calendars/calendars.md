@@ -4,11 +4,11 @@ product-area: calendars
 navigation-topic: reports
 title: 行事曆：文章索引
 description: 行事曆報告是一種動態報告，可提供工作的視覺化呈現。 您可以在行事曆報告中顯示專案、任務和問題的日期資訊。 請參閱這些文章以瞭解Adobe Workfront中的行事曆報告。
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: b46834db-358e-4ee2-9512-f7419351de30
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 0%

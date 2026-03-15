@@ -3,13 +3,13 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: 在行事曆報告中使用自訂日期欄位
 description: 行事曆報告是一種動態報告，可提供工作的視覺化呈現。 您可以在行事曆報告中將自訂日期欄位用於任務、問題和專案。
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 40cc8628-7641-41ce-b8e5-7f5ed5ad36c7
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '630'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 1%
 * 問題
 * 專案
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,7 +32,7 @@ ht-degree: 1%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -68,7 +68,7 @@ ht-degree: 1%
 
 1. 選取您要新增一組專案的行事曆，按一下[更多]功能表，然後按一下&#x200B;**編輯**。
 或
-按一下&#x200B;**[!UICONTROL +新行事曆]**，輸入專案名稱，然後按一下&#x200B;**[!UICONTROL 新增進階專案]**。
+按一下**[!UICONTROL +新行事曆]**，輸入專案名稱，然後按一下&#x200B;**[!UICONTROL 新增進階專案]**。
 
    >[!NOTE]
    >
@@ -81,27 +81,27 @@ ht-degree: 1%
     <col>
     <tbody>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 命名此專案群組]</strong></td>
+      <td role="rowheader"><strong>[！UICONTROL命名此專案群組]</strong></td>
       <td>輸入專案群組的名稱。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 色彩]</strong></td>
+      <td role="rowheader"><strong>[！UICONTROL色彩]</strong></td>
       <td>選取專案群組的顏色。 所有專案都會以選取的顏色顯示在行事曆報告中。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 日期欄位]</strong></td>
-      <td>選擇<strong>[!UICONTROL 自訂日期]</strong>。<br></td>
+      <td role="rowheader"><strong>[！UICONTROL日期欄位]</strong></td>
+      <td>選擇<strong>[！UICONTROL自訂日期]</strong>。<br></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 在行事曆上，顯示]</strong></td>
+      <td role="rowheader"><strong>[！UICONTROL在行事曆上，顯示]</strong></td>
       <td><p>選擇日期的顯示方式：</p>
        <ul>
-        <li><strong>[!UICONTROL 單一日期]</strong>：行事曆會在單一日期顯示物件。</li>
-        <li><strong>[!UICONTROL Duration] （開始至結束）</strong>：行事曆顯示物件超過天數。<br><p>注意：如果您選擇<strong>[!UICONTROL Duration]</strong>，則指定的結束日期必須晚於開始日期，否則行事曆上不會顯示該專案。</p></li>
+        <li><strong>[！UICONTROL單一日期]</strong>：行事曆會在單一日期顯示物件。</li>
+        <li><strong>[！UICONTROL Duration] （開始至結束）</strong>：行事曆顯示物件超過天數。<br><p>注意：如果您選擇<strong>[！UICONTROL Duration]</strong>，則指定的結束日期必須晚於開始日期，否則行事曆上不會顯示該專案。</p></li>
        </ul></td>
      </tr>
      <tr data-mc-conditions="">
-      <td role="rowheader"><strong>[!UICONTROL 自訂日期]</strong></td>
+      <td role="rowheader"><strong>[！UICONTROL自訂日期]</strong></td>
       <td><p>輸入附加到您要追蹤之物件的自訂日期名稱。</p><p><strong>注意：</strong>自訂日期名稱的搜尋限製為50個結果，以避免效能問題。</td>
      </tr>
     </tbody>

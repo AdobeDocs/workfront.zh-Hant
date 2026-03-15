@@ -3,13 +3,13 @@ product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: 列印儀表板
 description: 您可以列印儀表板或將儀表板匯出到。PDF檔案。 若要列印儀表板，您必須擁有檢視許可權。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 30f3481b-23b6-4dc9-be0d-9cffd5d4dfed
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '460'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -23,23 +23,23 @@ ht-degree: 0%
 >
 >此功能僅供標準「儀表板」檢視使用。 它不適用於內嵌於專案區域或設定為自訂標籤的控制面板。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td> 
       <p>標準</p>
-      <p>工作或更高</p>
+      <p>工作或更高層級</p>
    </td> 
   </tr> 
   <tr> 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 ## 瞭解列印儀表板時列印了哪些資訊
 
-列印儀表板或將其儲存為。PDF檔案時，儀表板的某些資訊(如顯示在Adobe Workfront Web應用程式中的資訊)可能不會顯示在列印或匯出的檔案中。
+列印儀表板或將其儲存為。PDF檔案時，儀表板的某些資訊（如顯示在Adobe Workfront Web應用程式中的資訊）可能不會顯示在列印或匯出的檔案中。
 
 * [顯示什麼？](#what-is-displayed)
 * [不會顯示哪些內容？](#what-is-not-displayed)
@@ -78,7 +78,7 @@ ht-degree: 0%
 * 報告標題
 * 上次產生報表的時間戳記
 * 控制面板上的所有物件，包括清單檢視、外部網頁、報告和行事曆
-* 貴公司的標誌(如果您的Workfront管理員已在您的全域導覽列中自訂該標誌)。 如需品牌化Workfront網站的詳細資訊，請參閱[品牌化Adobe Workfront執行個體](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)。
+* 貴公司的標誌（如果您的Workfront管理員已在您的全域導覽列中自訂該標誌）。 如需品牌化Workfront網站的詳細資訊，請參閱[品牌化Adobe Workfront執行個體](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)。
 
 ### 不會顯示哪些內容？ {#what-is-not-displayed}
 
@@ -95,7 +95,7 @@ ht-degree: 0%
 
    * 按一下&#x200B;**儀表板動作** > **列印預覽**
 
-   * 按&#x200B;**Ctrl+P** （在Windows上）或&#x200B;**Command+P** (在Mac上)
+   * 按&#x200B;**Ctrl+P** （在Windows上）或&#x200B;**Command+P** （在Mac上）
 
      >[!IMPORTANT]
      >
@@ -105,7 +105,7 @@ ht-degree: 0%
 1. 在&#x200B;**目的地**&#x200B;欄位中，從各種可用的列印選項中選取。\
    列印選項會依您使用的瀏覽器和瀏覽器版本而有所不同。
 
-1. （選擇性）將儀表板儲存為。PDF檔案，然後按一下[儲存] **&#x200B;**&#x200B;以儲存。PDF。\
+1. （選擇性）將儀表板儲存為。PDF檔案，然後按一下[儲存] ****&#x200B;以儲存。PDF。\
    若要瞭解如何將儀表板儲存為。PDF檔案，請參閱[匯出儀表板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md)。
 
 1. 按一下&#x200B;**列印**。

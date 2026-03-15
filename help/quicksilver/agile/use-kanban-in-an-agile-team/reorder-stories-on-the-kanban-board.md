@@ -3,13 +3,13 @@ product-area: agile-and-teams
 navigation-topic: use-kanban-in-an-agile-team
 title: 在Kanban面板上重新排序劇本
 description: 您可能想要變更內文在Kanban面板的狀態列中的顯示順序。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 7d6142d2-4e6e-4f9f-81a8-bcc666757bad
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '253'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -27,9 +27,9 @@ ht-degree: 0%
 
 當您重新排序[!DNL Kanban]展示板上的欄時，將會儲存您所做的任何變更，因此下次您或其他使用者檢視[!UICONTROL Kanban]展示板時，變更將會保留。 （清除瀏覽器快取時，您所做的變更不會還原。）
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,13 +38,13 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td> <p>標準</p> 
-   <p>工作或更高</p> </td> 
+   <p>工作或更高層級</p> </td> 
   </tr>
  </tbody> 
 </table>

@@ -1,11 +1,11 @@
 ---
 title: 2024年第二季發行時間範圍內的外觀和感覺更新
 description: 2024年第二季發行時間範圍內的外觀和感覺更新
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: be398d7f-7bc3-4a27-bc17-ffa4054d81ac
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 >
 >所有客戶適用的版本：第24.2版本（2024年2月15日）
 
-用於將核准者新增至資產和用於將使用者新增至展示板的電子郵件範本已更新，以便更好地匹配其他Adobe電子郵件範本，並提高清晰度和可用性。
+用於將核准者新增至資產以及將使用者新增至展示板的電子郵件範本已更新，以更符合其他Adobe電子郵件範本，並提高清晰度和可用性。
 
 ## 「自訂Forms」區域中索引標籤的新外觀更新
 

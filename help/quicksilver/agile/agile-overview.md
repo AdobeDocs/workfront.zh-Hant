@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: 敏捷概覽
 description: 敏捷是一種工作方法，可讓團隊以一致的步調完成少量可管理的工作量。 在敏捷中，團隊管理待處理專案或故事板上的故事，而不是專案中的任務。 [!DNL Adobe Workfront] 提供的工具可協助團隊以敏捷方式運作。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 35b329e5-f360-416c-adbb-ec39ab7a50cc
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 0%

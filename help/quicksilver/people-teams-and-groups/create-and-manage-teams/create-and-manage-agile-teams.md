@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
 title: 建立及管理敏捷團隊
 description: 有關如何建立和管理敏捷團隊的資訊，請參閱建立敏捷團隊。
-author: Jenny
+author: Courtney
 feature: People Teams and Groups
 exl-id: 86d115cf-0931-453f-aa0f-c96b31eb61d5
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '40'
 ht-degree: 0%

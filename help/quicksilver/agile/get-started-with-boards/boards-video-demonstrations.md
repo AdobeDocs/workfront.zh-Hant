@@ -4,10 +4,10 @@ content-type: reference
 navigation-topic: boards
 title: Workfront主機板影片示範
 description: 這些影片會向您介紹Adobe Workfront中可用的各種版面，並示範如何在日常工作中使用版面。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 54a5fe37-7a0a-45b1-a0bb-c5e345d3f34d
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 1%
@@ -28,7 +28,7 @@ ht-degree: 1%
 
 [檢視基本主機板的視訊示範。](https://video.tv.adobe.com/v/3416382/){target=_blank}
 
-### Kanban 展示板
+### 看板展示板
 
 看板可包含待處理專案或輸入欄，該欄已設定篩選器，以將來自Workfront的任務和問題帶入看板。
 

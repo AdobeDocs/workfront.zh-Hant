@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: 在檢視中使用條件式格式
 description: 當您在Adobe Workfront中與其他使用者共用報表時，請考慮自訂報表檢視，讓某些資訊更易於閱讀或突顯出來。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 0ea65b3f-fbcf-40f4-a4d1-4dd91619c349
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1146'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -35,16 +35,16 @@ ht-degree: 3%
 
 您在報表檢視中所做的變更只有在報表的詳細資訊標籤中才會生效。 這些變更不會影響報告的「摘要」、「矩陣」或「圖表」標籤。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 

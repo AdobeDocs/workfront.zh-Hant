@@ -3,13 +3,13 @@ product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: 共用儀表板
 description: 當使用者指派存取層級時，您的Adobe Workfront管理員會授予他們檢視或編輯儀表板的存取權。 除了授予使用者的存取層級外，您還可以授予他們檢視或管理您有權共用之特定儀表板的許可權。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 21bd531f-8732-4d6c-b91f-990887285447
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '501'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -27,16 +27,16 @@ ht-degree: 0%
 >
 >Workfront管理員可以新增或移除系統中所有使用者的任何專案許可權，而無需擁有這些專案。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 從清單共用一個或數個控制面板的功能相同。
 
-1. 前往儀表板清單，選取一或多個儀表板，然後按一下[共用] **&#x200B;**&#x200B;![](assets/share-icon.png)。
+1. 前往儀表板清單，選取一或多個儀表板，然後按一下[共用] **** ![](assets/share-icon.png)。
 
    或
 

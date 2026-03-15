@@ -1,11 +1,11 @@
 ---
 title: 2024年第四季報表與控制面板增強功能
 description: 2024年第四季報表與控制面板增強功能
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d4b7b926-f747-4aee-b983-fe6b5f2e0dfd
-source-git-commit: 1f33ef44b8e5d703c5407cdd2fc8ca24fba48bb1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 0%

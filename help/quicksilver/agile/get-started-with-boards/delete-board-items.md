@@ -3,13 +3,13 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: 從展示板中刪除或封存卡片
 description: 當您從展示板中刪除卡片時，該卡片將會永久刪除且無法還原。 封存卡片會將卡片傳送至封存，您稍後可以將其還原至展示板。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 68b7d2e5-92f0-462d-8122-eaecb1e6b87c
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '516'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -25,16 +25,16 @@ ht-degree: 1%
 
 封存的卡片不會同步至Workfront任務和問題。 如果您還原卡片，它將再次同步。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 

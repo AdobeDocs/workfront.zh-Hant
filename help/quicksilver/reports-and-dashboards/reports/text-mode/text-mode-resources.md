@@ -4,11 +4,11 @@ product-area: reporting
 navigation-topic: reports
 title: 文字模式資源：文章索引
 description: 文字模式資源
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 892f1746-b9c6-4414-bfa1-24f68a3be6fb
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 0%

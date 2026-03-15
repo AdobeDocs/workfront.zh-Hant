@@ -3,10 +3,10 @@ product-area: reporting;user-management
 navigation-topic: create-and-manage-reports
 title: 變更報告的所有者
 description: 您無法變更報表的擁有者。 不過，當您複製報表時，您會自動成為所複製報表的所有者。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 8089cbeb-4258-48b8-b13a-dfbd739c526a
-source-git-commit: 9396cd2ac073a57b7d99618cdf09e54ddcf95130
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 0%

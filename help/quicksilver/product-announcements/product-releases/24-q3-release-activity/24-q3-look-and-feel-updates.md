@@ -1,11 +1,11 @@
 ---
 title: 2024年第三季度發行時間範圍內的外觀與感覺更新
 description: 2024年第三季度發行時間範圍內的外觀與感覺更新
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6ad93735-652f-4a94-bc24-6c22bb2c8826
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 0%

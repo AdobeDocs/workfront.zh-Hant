@@ -3,10 +3,11 @@ product-area: reports and dashboards
 navigation-topic: data-connect
 title: 在Data Connect中使用工作歷史記錄檢視
 description: 透過Data Connect，Workfront管理員可以存取「工作歷史記錄」檢視中每個資料重新整理工作的詳細記錄。
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
-source-git-commit: 05cf34fe6659c50da76d2478c6e79352346dc9a5
+exl-id: d658c3df-5fa5-4756-ac42-71d9aed481df
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 0%

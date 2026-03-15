@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: 在文字模式中使用條件式格式
 description: 在文字模式中使用條件式格式
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1734'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -22,16 +22,16 @@ ht-degree: 1%
 您可以使用標準介面，在檢視中套用條件式格式。\
 如需將條件式格式套用至檢視的詳細資訊，請參閱[在檢視中使用條件式格式](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -416,4 +416,4 @@ image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/em
 
 `aggregator.function=SUM` （這是指示您要如何彙總欄的強制行，在此例中，您要將所有個別計畫時數新增到分組行中的一個數字）
 
-`aggregator.displayformat=minutesAsHoursString` (因為時數是以分鐘數儲存在Workfront中，我們想要在時數以分鐘數儲存時指出`displayformat`)
+`aggregator.displayformat=minutesAsHoursString` （因為時數是以分鐘數儲存在Workfront中，我們想要在時數以分鐘數儲存時指出`displayformat`）

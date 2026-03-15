@@ -4,11 +4,11 @@ content-type: release-notes
 navigation-topic: proof-release-activity
 title: Adobe Workfront proof 23.3發行活動2023年5月8日當週
 description: 本頁說明預覽環境的Adobe Workfront Proof 23.3版本所做的所有增強功能。 這些增強功能將在2023年5月8日當週的生產環境中提供。
-author: Nolan
+author: Courtney
 feature: Product Announcements, Workfront Proof
 recommendations: noDisplay, noCatalog
 exl-id: 22fb9fd0-eb03-4390-9285-43b95b7925ed
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 0%

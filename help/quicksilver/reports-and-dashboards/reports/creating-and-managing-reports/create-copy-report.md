@@ -4,13 +4,13 @@ keywords: 儲存，新增，報表，複製
 navigation-topic: create-and-manage-reports
 title: 建立報告副本
 description: 您可以建立您有權存取的任何報表的復本。 您可以建立自訂報表的精確副本，也可以儲存預設報表的新版本。 複製報表後，您成為所複製報表的所有者，該報表會顯示在「我的報表」區段中。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 84737f48-efc5-45f1-acd1-b9f5d353f80f
-source-git-commit: 0841594c855c39fedf4eab5492994ff4f7acfbdf
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '641'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -20,16 +20,16 @@ ht-degree: 0%
 
 您可以建立您有權存取的任何報表的復本。 您可以建立自訂報表的精確副本，也可以儲存預設報表的新版本。 複製報表後，您成為所複製報表的所有者，該報表會顯示在「我的報表」區段中。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 

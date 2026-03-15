@@ -4,11 +4,11 @@ product-area: reporting
 navigation-topic: reports
 title: 報告的提示、技巧和疑難排解
 description: 瞭解如何疑難排解報表。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 76ca4656-79a6-43da-a6d5-56a30f542d1e
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 0%

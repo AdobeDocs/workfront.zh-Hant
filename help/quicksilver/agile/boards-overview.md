@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: 展示板概述
 description: Adobe Workfront展示板是彈性的工具，可讓團隊透過提供對包含欄和卡片的共用展示板的存取權進行共同作業。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 7382e338-3e4c-4a93-a0d4-87ef52f69f36
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 0%

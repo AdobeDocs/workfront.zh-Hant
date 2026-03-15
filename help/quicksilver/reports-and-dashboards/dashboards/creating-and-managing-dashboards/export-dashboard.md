@@ -3,13 +3,13 @@ product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: 匯出控制面板
 description: 您可以使用網頁瀏覽器中可用的列印選項，將儀表板匯出為.pdf檔案。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 6c8dc5be-6adb-400a-b86a-a7f7e84d0ba7
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '375'
-ht-degree: 6%
+ht-degree: 12%
 
 ---
 
@@ -24,23 +24,23 @@ ht-degree: 6%
 >當您從網頁列印內容時，內容的格式設定可能會受到影響。\
 >例如，控制面板中報表的標題可能會從報表清單的列上剪下。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td> 
       <p>標準</p>
-      <p>工作或更高</p>
+      <p>工作或更高層級</p>
    </td> 
   </tr> 
   <tr> 

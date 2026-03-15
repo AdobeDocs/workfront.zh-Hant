@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: 計算資料運算式的概觀
 description: 您可以使用資料運算式，在Adobe Workfront中定義計算的自訂資料欄位。 計算運算式會連線產生新欄位的陳述式中的現有Workfront欄位。
-author: Jenny, Lisa
+author: Courtney, Lisa
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '2551'
 ht-degree: 2%
@@ -386,7 +386,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td><strong>陣列</strong> </td> 
-   <td> <p>將字串轉換為陣列。delimiter 可以是任何字串。</p> 
+   <td> <p>將字串轉換為陣列。分隔符號可以是任何字串。</p> 
    <p>運算式的格式如下：</p>
    <p><code>ARRAY(string1, "delimiter")</code></p> 
    </td> 

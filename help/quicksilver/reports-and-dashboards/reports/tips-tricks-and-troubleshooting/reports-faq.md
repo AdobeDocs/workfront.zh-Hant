@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: tips-tricks-and-troubleshooting-reports
 title: 報表常見問題集
 description: 報表常見問題集
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1500'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 以下是關於報告的常見問題。
 
-## 存取需求
+## 存取權要求
 
 +++ 展開以檢視存取需求。 
 
@@ -35,13 +35,13 @@ ht-degree: 1%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td><p>標準</p> 
-   <p>工作或更高</p> </td> 
+   <p>工作或更高層級</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 

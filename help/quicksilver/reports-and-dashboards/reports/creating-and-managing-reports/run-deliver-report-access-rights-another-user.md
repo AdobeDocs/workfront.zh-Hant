@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: create-and-manage-reports
 title: 執行並傳遞具有其他使用者存取許可權的報告
 description: 依預設，使用者只能在他們有權檢視的報告中檢視物件。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: e5e2b683-876c-45b4-ab61-07b1ad0b5650
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1185'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -21,23 +21,23 @@ ht-degree: 1%
 
 您可以允許所有使用者在報表中看到與其他使用者相同的結果，無論他們對於報表中物件的存取層級或許可權層級為何。
 
-如果您透過其他擁有較高存取許可權的使用者的存取許可權(例如，Adobe Workfront管理員的存取許可權)來執行報表，則所有擁有檢視報表許可權的使用者，都可以以Report Builder中指定的使用者身分，檢視報表中的資訊。 您可以為使用者在Workfront介面中找到的兩個報表，或是以電子郵件附件形式傳遞給使用者的報表，設定此專案。
+如果您透過其他擁有較高存取許可權的使用者的存取許可權（例如，Adobe Workfront管理員的存取許可權）來執行報表，則所有擁有檢視報表許可權的使用者，都可以以Report Builder中指定的使用者身分，檢視報表中的資訊。 您可以為使用者在Workfront介面中找到的兩個報表，或是以電子郵件附件形式傳遞給使用者的報表，設定此專案。
 
 >[!TIP]
 >
 >您應該將&#x200B;**以：**&#x200B;的存取許可權執行此報告欄位取代為作用中使用者，但前提是您想要以該使用者的存取許可權顯示報告。 例如，工作授權使用者可能沒有許可權檢視計畫授權使用者或系統管理員建立的報告中的所有專案，除非報告顯示時具有供需規劃員或系統管理員的存取許可權。\
 >如果報告與具有類似存取許可權的使用者共用，該存取許可權在&#x200B;**執行此報告時具有：**&#x200B;欄位，您可以將此欄位保留空白。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 

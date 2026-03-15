@@ -1,11 +1,11 @@
 ---
 title: 2025年第二季專案增強功能
 description: 2025年第二季專案增強功能
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 32c0df18-2093-42c2-810a-015345d2fa7c
-source-git-commit: beb3c8052264036c455288327a20acad66d27570
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 0%

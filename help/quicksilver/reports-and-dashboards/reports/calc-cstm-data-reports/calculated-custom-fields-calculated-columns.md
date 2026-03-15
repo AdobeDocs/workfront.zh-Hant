@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: 計算自訂欄位與計算欄的比較
 description: 若要彙總Adobe Workfront中的多個欄位並在新欄位中顯示彙總值，您可以在自訂表單中建立計算自訂欄位，或在檢視中建立計算欄。
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
-source-git-commit: ce986a912c2ee231b9dc2e1c7a3e9587b20aa0ba
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '844'
 ht-degree: 0%

@@ -3,13 +3,13 @@ product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
 title: 用開始按鈕取代處理它按鈕
 description: Adobe Workfront的預設設定包含處理它的一個按鈕，用於顯示已指派給您的專案的任務和問題。
-author: Jenny
+author: Courtney
 feature: People Teams and Groups
 exl-id: 9387c5ae-2835-4d8f-80ec-22fcd16c5b6e
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '778'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -23,16 +23,16 @@ ht-degree: 0%
 >
 >按一下[!UICONTROL 開始]按鈕會變更專案的狀態和[!UICONTROL 實際開始日期]。 如果其他人已開始處理任務或問題（將狀態變更為[!UICONTROL 進行中]並填入[!UICONTROL 實際開始日期]），即使您所屬的團隊已將該按鈕取代為[!UICONTROL 開始]按鈕，專案的按鈕仍會顯示為[!UICONTROL 處理它]。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront套件</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront 封裝</p> </td> 
    <td>任何</td> 
   </tr> 
   <tr> 

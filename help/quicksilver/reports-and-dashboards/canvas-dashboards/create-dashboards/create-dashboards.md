@@ -3,10 +3,10 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: 建立畫布控制面板
 description: 有了畫布控制面板，您可以建立報表並新增至可自訂的控制面板，以便快速將您的帳戶資料視覺化。
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: bd31e426-7c4a-4ff8-9432-c95dc8ee3743
-source-git-commit: 507cb64eb21c2798cdafe184794c0d9ed7ebc0c6
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 5%

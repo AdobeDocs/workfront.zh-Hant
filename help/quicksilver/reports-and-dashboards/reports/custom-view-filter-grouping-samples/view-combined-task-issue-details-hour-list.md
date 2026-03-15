@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 檢視：以時數清單合併任務和問題詳細資訊
 description: 此時數檢視結合了「任務」和「問題名稱」欄，以及使用sharecol標籤的「任務」和「問題計畫時數」。 由於小時條目只能屬於任務或問題，因此兩個物件不能同時出現在同一欄中。 檢視的每一行都會填入任務或問題的資訊。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: cf1137fd-c26a-4907-afe9-2373d3434631
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '326'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -24,16 +24,16 @@ ht-degree: 0%
 
 ![custom_view_hours_with_task_and_issue_information.png](assets/custom-view-hours-with-350x48.png)
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 

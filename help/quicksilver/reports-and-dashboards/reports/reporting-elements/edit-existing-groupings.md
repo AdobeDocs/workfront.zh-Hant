@@ -1,13 +1,13 @@
 ---
 title: 編輯現有群組
 description: 編輯現有群組
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: bd9e6794-3196-4a73-a86a-9ba6048e613b
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '439'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -19,16 +19,16 @@ ht-degree: 0%
 
 您可以自訂您最初建立或與您共用的現有群組。 然後，您就可以將其儲存為新群組。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -89,4 +89,4 @@ ht-degree: 0%
 1. 重複步驟4、5和6以定義其他群組。\
    您最多可以定義三個群組來組織資訊。 您可以建立矩陣報表，將資訊進一步組織為最多四個群組。 如需矩陣報表的詳細資訊，請參閱[建立矩陣報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)。
 
-1. 按一下「儲存群組」**&#x200B;**，以變更取代目前的群組。
+1. 按一下「儲存群組」****，以變更取代目前的群組。

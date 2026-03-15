@@ -4,13 +4,13 @@ content-type: reference
 navigation-topic: boards
 title: 面板電子郵件通知和偏好設定
 description: Adobe Workfront展示板會在您將您新增至展示板以及將卡片指派給您時傳送電子郵件給您。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '207'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -20,16 +20,16 @@ ht-degree: 0%
 
 根據您的電子郵件通知設定，當您在已連線卡片上的評論中被標籤時，也會收到電子郵件。 如需詳細資訊，請參閱[修改您自己的電子郵件通知](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)。 目前，在臨時資訊卡上標籤為評論的使用者不會收到電子郵件通知。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 

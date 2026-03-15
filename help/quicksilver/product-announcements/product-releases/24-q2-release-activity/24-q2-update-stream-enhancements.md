@@ -1,11 +1,11 @@
 ---
 title: 2024年第二季度更新流和通知增強功能
 description: 2024年第二季度更新流和通知增強功能
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 29d8b581-27c9-4215-8147-8044b3e2bc5e
-source-git-commit: 145dd86575951d837e66e18ceb235dc3694571cc
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
-[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3427992/){target=_blank} （關於此特定功能的討論在2:47開始）
+[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3427992/){target=_blank} （此特定功能的討論從2:47開始）
 
 ## 新評論體驗上的系統活動標籤支援唯讀評論
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[更新區段總覽](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)。
 
-[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3427992/){target=_blank} （此特定功能的討論在2:00開始）
+[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3427992/){target=_blank} （此特定功能的討論從2:00開始）
 
 ## 新的更新流索引標籤可擷取評論和系統活動專案
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[更新區段總覽](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)。
 
-[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3427992/){target=_blank} （關於此特定功能的討論在0:31開始）
+[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3427992/){target=_blank} （此特定功能的討論從0:31開始）
 
 ## 摘要面板中現在提供新的評論資料流
 

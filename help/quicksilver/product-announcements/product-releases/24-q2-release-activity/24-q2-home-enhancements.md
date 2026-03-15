@@ -1,11 +1,11 @@
 ---
 title: 2024年第二季首頁增強功能
 description: 2024年第二季首頁增強功能
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: df78f09c-7855-4538-abda-421a7a4bc225
-source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 0%

@@ -4,13 +4,13 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: 刪除或封存展示板
 description: 您可以在Workfront中刪除或封存展示板。 刪除展示板會將其從Workfront中永久移除，而封存展示板會保留所有卡片，並容許日後還原。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -20,16 +20,16 @@ ht-degree: 0%
 
 只有展示板擁有者可以刪除展示板。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 

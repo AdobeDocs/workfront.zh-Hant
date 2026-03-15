@@ -3,13 +3,13 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: 將子任務新增至Kanban面板上的現有劇本
 description: 請檢閱本文，瞭解如何為Kanban面板上的現有內文建立子任務。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: c6610616-80e5-4ded-9d23-63f15536e45c
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '312'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -27,9 +27,9 @@ ht-degree: 0%
 * 您無法將父內文移到其他地方。 若要更新內文的[!UICONTROL 完成百分比]，您必須更新任何子任務的[!UICONTROL 完成百分比]。 內文的[!UICONTROL 完成百分比]是根據所有子工作的[!UICONTROL 完成百分比]計算的。
 * 將具有子任務的父本文移動到[!UICONTROL 完成]會將父本文更新為100%，並將[!UICONTROL 狀態]更新為[!UICONTROL 完成]。 子任務也更新為100%，且[!UICONTROL 狀態]更新為[!UICONTROL 完成]。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,13 +38,13 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td> <p>標準</p> 
-   <p>工作或更高</p> </td> 
+   <p>工作或更高層級</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">物件許可權</td> 

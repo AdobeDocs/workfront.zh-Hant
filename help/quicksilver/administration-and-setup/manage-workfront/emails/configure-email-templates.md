@@ -4,14 +4,14 @@ product-area: system-administration;templates;setup
 navigation-topic: emails-administration
 title: 設定電子郵件範本
 description: 作為Adobe Workfront管理員，您可以設定電子郵件範本以支援提醒通知。
-author: Nolan
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '808'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -28,16 +28,16 @@ ht-degree: 3%
 
 電子郵件範本可與問題、任務、專案和時程表的提醒通知相關聯。 建立電子郵件範本時，您的Workfront管理員可提供電子郵件內容及主旨列。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
@@ -74,7 +74,7 @@ ht-degree: 3%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">姓名</td> 
+      <td role="rowheader">名稱</td> 
       <td>新增電子郵件範本的標題。 這是必填欄位。</td> 
      </tr> 
      <tr> 
@@ -98,7 +98,7 @@ ht-degree: 3%
       <td>當範本產生的電子郵件訊息傳送時，新增顯示在電子郵件主旨列中的文字。 這是必填欄位。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">內文 </td> 
+      <td role="rowheader">正文 </td> 
       <td> <p>新增電子郵件訊息內容的文字。</p> <p>您可以對電子郵件內容使用HTML格式，如本文中<a href="#add-html-formatting-to-an-email-template" class="MCXref xref">將HTML格式新增至電子郵件範本</a>一節所述。</p> </td> 
      </tr> 
     </tbody> 

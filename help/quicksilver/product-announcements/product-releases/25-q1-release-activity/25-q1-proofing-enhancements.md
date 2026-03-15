@@ -1,11 +1,11 @@
 ---
 title: 2025年第一季度校訂增強功能
 description: 2025年第一季度校訂增強功能
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 41eff095-ff9b-4791-81c3-758e101b3e88
-source-git-commit: f5eb5165183986f55919bdf2c59a31c12a1c64fe
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 0%
@@ -37,4 +37,4 @@ ht-degree: 0%
 
 新的Adobe Workfront檢閱工具支援檢閱所有常見瀏覽器的ZIP內容。 除了ZIP內容，新的擴充功能也支援檢閱URL內容，目前是測試版。
 
-若要安裝新的擴充功能，請參閱[使用Adobe Workfront檢閱工具檢閱互動式內容](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md)中的[安裝擴充功能](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md#install-the-extension)區段。
+若要安裝新的擴充功能，請參閱[使用Adobe Workfront檢閱工具檢閱互動式內容](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md#install-the-extension)中的[安裝擴充功能](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md)區段。

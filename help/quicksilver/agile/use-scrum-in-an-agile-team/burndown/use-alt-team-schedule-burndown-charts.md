@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: burndown
 title: 使用待執行工作圖表的替代小組排程
 description: 在 [!DNL Adobe Workfront] 中定義的排程會透過從待執行工作排除休假（週末和假日）來影響待執行工作圖表。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 72650c19-434d-463a-8924-49219604ff01
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 7%

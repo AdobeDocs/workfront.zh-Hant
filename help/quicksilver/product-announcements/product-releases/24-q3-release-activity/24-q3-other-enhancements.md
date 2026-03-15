@@ -1,11 +1,11 @@
 ---
 title: 2024年第三季度發行時間範圍內的其他增強功能
 description: 2024年第三季度發行時間範圍內的其他增強功能
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8fde6efe-dcf7-47f0-bf85-c66550191066
-source-git-commit: 0dd0230fd0a986276f775a00f1f23332373daf6f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 0%
@@ -26,14 +26,14 @@ ht-degree: 0%
 
 我們將在未來幾週針對產品內指南實施技術變更。 雖然我們已嘗試將此轉換的影響降至最低，但有些使用者可能會遇到先前看過的指南。
 
-## 更多Workfront組織現在可使用Adobe統一體驗
+## Adobe Unified Experience現在可供更多Workfront組織使用
 
 >[!NOTE]
 >
->* AdobeUnified Shell正在分階段推出。 其他組織將加入AdobeUnified Shell 24.10和25.1版本。
+>* Adobe Unified Shell正在分階段推出。 其他組織將加入Adobe Unified Shell 24.10和25.1版。
 >* 預覽版本： 2024年6月20日；指定客戶的生產版本：搭配24.7版（2024年7月18日）
 
-為了讓組織能夠存取Adobe統一體驗的各項優點，我們已經開始為現有的Workfront客戶提供這項功能。
+為了讓組織能夠存取Adobe Unified Experience的優點，我們已開始將其提供給現有的Workfront客戶。
 
 Adobe Unified Experience包括：
 
@@ -41,11 +41,11 @@ Adobe Unified Experience包括：
 * 可在Workfront組織和環境之間移動的「組織切換器」
 * 包含Workfront頁面、Adobe Experience Cloud偏好設定和您的Workfront設定檔選項的導覽
 
-如果您的組織正移至24.7版的Adobe統一體驗，您的Workfront管理員已收到有關變更的公告中心訊息。
+如果您的組織正移至24.7版的Adobe Unified Experience，您的Workfront管理員已收到有關變更的Announcement Center訊息。
 
 過去，Adobe Unified Experience僅適用於新的Workfront客戶。
 
-如需詳細資訊，請參閱[Workfront的Adobe統一體驗](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
+如需詳細資訊，請參閱[適用於Workfront的Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 
 [觀看此功能的影片示範。](https://video.tv.adobe.com/v/3412388/){target=_blank}
 
@@ -63,4 +63,4 @@ Adobe Unified Experience包括：
 
 團隊和使用者不在此變更內。 使用者仍可檢視團隊和使用者名稱。
 
-如需詳細資訊，請參閱[!DNL Adobe Workfront]物件概觀文章中的[限制存取物件](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#restricted-access-to-objects)一節。
+如需詳細資訊，請參閱[物件概觀文章中的](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#restricted-access-to-objects)限制存取物件[!DNL Adobe Workfront]一節。

@@ -4,11 +4,11 @@ product-area: reporting
 navigation-topic: reports
 title: 報表中計算的自訂資料
 description: 瞭解報表中的自訂資料。
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 673792b6-7369-47ce-b0df-9bda4254781c
-source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 0%

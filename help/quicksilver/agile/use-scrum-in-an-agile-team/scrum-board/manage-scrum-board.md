@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects;user-management
 navigation-topic: scrum-board
 title: 管理Scrum展示板上的劇本和問題
 description: 您可以將劇本或問題從Scrum展示板移動至另一個反複專案或待處理專案，或從Scrum展示板將其刪除。 當您刪除內文或問題時，內文或問題會移至資源回收筒並保留30天，且只有系統管理員才能復原。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 72990251-0264-4e68-83ef-1a9cde5b685c
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 3%
@@ -33,13 +33,13 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>新增：[!UICONTROL Standard]</p> 
+   <td> <p>新增：[！UICONTROL Standard]</p> 
    或
-   <p>目前： [!UICONTROL Work]或更高版本</p> </td> 
+   <p>目前： [！UICONTROL Work]或更高版本</p> </td> 
   </tr>
    <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td>[!UICONTROL Manage]任務或問題的存取權 </td> 
+   <td>[！UICONTROL Manage]任務或問題的存取權 </td> 
   </tr>
  </tbody> 
 </table>
@@ -62,11 +62,11 @@ ht-degree: 3%
 
    <table style="table-layout:auto">
     <tr>
-        <td><strong>[!UICONTROL 其他反複專案]</strong></td>
+        <td><strong>[！UICONTROL其他反複專案]</strong></td>
         <td>選取將專案移至另一個反複專案，然後選擇內文或問題將移至哪個反複專案。 如果未定義未來的版序，則無法移動專案。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 待處理專案]</strong></td>
+        <td><strong>[！UICONTROL待處理專案]</strong></td>
         <td>選取將劇本或問題移至團隊的待辦專案。</td>
     </tr>
    </table>

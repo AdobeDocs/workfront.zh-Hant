@@ -5,15 +5,15 @@ product-area: system-administration
 navigation-topic: manage-workfront
 title: 電子郵件
 description: Adobe Workfront中的電子郵件包含通知、提醒和使用者邀請。 系統管理員負責建立許多電子郵件設定；但是，其他使用者（視存取層級而定）可以受益於使用電子郵件功能來管理他們自己的工作相關通訊。
-author: Nolan
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: cdc0a2bb-f125-42b2-acab-c869bc71250c
-source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '261'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 

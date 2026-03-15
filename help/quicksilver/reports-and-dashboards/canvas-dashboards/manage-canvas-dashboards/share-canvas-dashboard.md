@@ -3,13 +3,13 @@ product-area: Canvas Dashboards
 navigation-topic: manage-canvas-dashboards
 title: 共用畫布控制面板
 description: 您可以與其他Adobe Workfront使用者共用畫布控制面板，讓使用者可以檢視或編輯。
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
-source-git-commit: ed5a8725442a0b3de993a4e8f47280bfc7d88160
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '547'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -37,7 +37,7 @@ ht-degree: 0%
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront套件</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
 <p>任何 </p> 
    </td> 

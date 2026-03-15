@@ -4,13 +4,13 @@ product-area: agile-and-teams
 navigation-topic: boards
 title: 管理工作串流
 description: 工作流程是一組可設定的展示板和卡片，用於共同處理工作。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: c46c42e8-e14d-414d-b883-c4d885338e42
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '934'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -26,16 +26,16 @@ ht-degree: 1%
 
 工作串流會與您可以存取的個別面板（不屬於工作串流的一部分）一起顯示在控制面板上。 如需面板儀表板的詳細資訊，請參閱[使用面板儀表板](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md)。 您可以按一下圖示板上的任何電路板名稱來開啟它。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -63,14 +63,14 @@ ht-degree: 1%
 
 ## 在工作串流中建立新展示板
 
-1. 如果您不在工作流程中，請按一下儀表板上的[檢視工作流程] [!UICONTROL **&#x200B;**]&#x200B;以開啟現有的工作流程。
+1. 如果您不在工作流程中，請按一下儀表板上的[檢視工作流程] [!UICONTROL ****]&#x200B;以開啟現有的工作流程。
 1. 在工作流的&#x200B;**[!UICONTROL 面板]**&#x200B;索引標籤上按一下[!UICONTROL 新增面板]。
 1. 選取展示板的範本。
 
 | 範本 | 說明 |
 |---------|----------|
 | 基本展示板 | 展示板上提供三個預設欄。 您可以新增欄，以及重新命名或刪除預設欄。 <p>不會套用任何欄原則。 |
-| Kanban 展示板 | 展示板上提供下列欄：「待處理專案」、「新增」、「進行中」、「完成」和「保留」。 您可以新增欄，以及重新命名或刪除預設欄。<p>若要使用待處理專案，您必須為輸入欄設定篩選器。 如需詳細資訊，請參閱[將輸入資料行新增到展示板](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)。 <p>若要檢閱每個欄的預設原則，請按一下欄上的&#x200B;[!UICONTROL **更多**&#x200B;功能表]，然後選取&#x200B;[!UICONTROL **編輯**]。 您可以變更這些預先設定原則中的任何一項。 如需詳細資訊，請參閱[管理展示板資料行](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)。 |
+| 看板展示板 | 展示板上提供下列欄：「待處理專案」、「新增」、「進行中」、「完成」和「保留」。 您可以新增欄，以及重新命名或刪除預設欄。<p>若要使用待處理專案，您必須為輸入欄設定篩選器。 如需詳細資訊，請參閱[將輸入資料行新增到展示板](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)。 <p>若要檢閱每個欄的預設原則，請按一下欄上的&#x200B;[!UICONTROL **更多**&#x200B;功能表]，然後選取&#x200B;[!UICONTROL **編輯**]。 您可以變更這些預先設定原則中的任何一項。 如需詳細資訊，請參閱[管理展示板資料行](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)。 |
 | 追溯展示板 | 展示板上提供下列欄：哪些方面進展順利？ 有哪些可改善？ 我們應該為誰慶祝？ 我們可以做些什麼來加快進度？ 您可以新增欄，以及重新命名或刪除預設欄。 <p>不會套用任何欄原則。 |
 | 疊代程序 | 這是用來定義和執行反複專案的展示板。 <p>展示板上提供下列欄：「待處理專案」、「新增」、「進行中」、「完成」和「保留」。 您無法新增任何欄到展示板。 <p>若要檢閱每個欄的預設原則，請按一下欄上的&#x200B;[!UICONTROL **更多**]&#x200B;功能表，然後選取&#x200B;[!UICONTROL **編輯**]。 您可以變更這些預先設定原則中的任何一項。 如需詳細資訊，請參閱[管理展示板資料行](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)。 |
 
@@ -78,7 +78,7 @@ ht-degree: 1%
 
 ## 篩選工作流程上的展示板清單
 
-將預設值以外的篩選器套用至展示板清單時，篩選器圖示![已套用篩選器](assets/boards-filterapplied-30x30.png)上會顯示指示器。 按一下[全部清除]&#x200B;[!UICONTROL **以移除所有篩選器，然後按一下[隱藏篩選器]**]&#x200B;以關閉篩選器面板。[!UICONTROL **&#x200B;**]
+將預設值以外的篩選器套用至展示板清單時，篩選器圖示![已套用篩選器](assets/boards-filterapplied-30x30.png)上會顯示指示器。 按一下[全部清除][!UICONTROL **以移除所有篩選器，然後按一下[隱藏篩選器]**]&#x200B;以關閉篩選器面板。[!UICONTROL ****]
 
 {{step1-to-boards}}
 

@@ -4,11 +4,11 @@ product-area: agile-and-teams
 navigation-topic: use-scrum-in-an-agile-team
 title: 疊代
 description: 以下文章說明在Scrum環境中工作時如何使用反複專案。
-author: Jenny
+author: Courtney
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: 474ab807-fd6c-4248-9567-121e5d4b7b5b
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '59'
 ht-degree: 3%

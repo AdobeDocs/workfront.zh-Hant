@@ -4,10 +4,10 @@ content-type: overview
 product-area: agile-and-teams;projects
 navigation-topic: agile-in-projects
 description: 您可以針對您的專案利用敏捷功能，而不會遇到敏捷實務通常伴隨的管理挑戰（例如管理團隊待辦專案、建立反複專案等）。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 5961a2d8-87c9-48f0-9075-828d19cbd5ad
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 0%

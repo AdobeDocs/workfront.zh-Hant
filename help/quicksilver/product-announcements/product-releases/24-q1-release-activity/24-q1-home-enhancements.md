@@ -1,10 +1,11 @@
 ---
 title: 2024年第一季度首頁增強功能
 description: 2024年第一季度首頁增強功能
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 145dd86575951d837e66e18ceb235dc3694571cc
+exl-id: 30867b75-ec33-486e-acfa-b8bab6ccf23c
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 0%

@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 檢視：在任務或專案清單上顯示原始問題資訊
 description: 當問題已轉換為清單中的任務和專案後，您可以在任務和專案清單的檢視上顯示原始問題的資訊。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 235156b6-a9b6-484e-b126-54874da705c8
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 5%

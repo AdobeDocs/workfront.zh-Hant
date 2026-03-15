@@ -3,10 +3,10 @@ product-area: reporting;setup
 navigation-topic: create-and-manage-reports
 title: 報表傳送概覽
 description: 報表傳送概覽
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 1637df59-ca1d-4cf6-b83d-2b27936cdb96
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1534'
 ht-degree: 0%
@@ -93,7 +93,7 @@ ht-degree: 0%
 
 以電子郵件接收報表時，如果您要在傳送報表的同時在Workfront中檢視報表，則報表上的時間戳記和時間格式可能會不符合Workfront中的時間戳記和時間格式。
 
-請考量下列事項：
+考慮以下事項：
 
 * 在瀏覽器中檢視報表時，報表上的時間戳記和格式會符合瀏覽器的地區設定和時區，如瀏覽器的設定中所定義。
 * 以電子郵件傳送報表時，報表會傳送具有時間戳記和格式的報告，且符合在Workfront設定檔中指定的使用者地區設定和時區。\

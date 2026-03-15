@@ -1,11 +1,11 @@
 ---
 title: 2024年第四季發行時間範圍內的其他增強功能
 description: 2024年第四季發行時間範圍內的其他增強功能
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 13208dca-afc9-419a-bb08-e063c6d9b480
-source-git-commit: 4f7e664123785235179418faa2a630e3c4c1c4d0
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 0%
@@ -28,11 +28,11 @@ ht-degree: 0%
 
 之前，使用者可以開啟AI助理並輸入提示以建立專案摘要或更新資料流。
 
-您的Workfront管理員可以為您的組織啟用或停用AI助理。 AI Assistant適用於Select、Prime和Ultimate計畫的例項。
+您的Workfront管理員可以為您的組織啟用或停用AI助理。 AI助理可用於具有Select、Prime和Ultimate計畫的執行個體。
 
 如需詳細資訊，請參閱[使用AI助理摘要](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md)。
 
-## Workfront中可用的Adobe AI助理
+## Workfront中提供的Adobe AI小幫手
 
 >[!NOTE]
 >
@@ -41,9 +41,9 @@ ht-degree: 0%
 為了讓您更輕鬆地完成工作，我們已將Adobe的AI助理新增至Workfront。 AI助理可以透過以下方式協助您：
 
 * 摘要工作專案和檔案，讓您快速大致瞭解任務、專案和資產。
-* 提供Experience League檔案中的資訊、將指示和參考資料帶入Workfront，同時連結至更深入的檔案。
+* 提供來自Experience League檔案的資訊，將指示和參考資料帶入Workfront，同時連結到更深入的檔案。
 * 建立和修訂已計算自訂表單欄位的公式、從文字提示產生公式，或尋找現有公式中的錯誤。
 
-您的Workfront管理員可以為您的組織啟用或停用AI助理。 AI Assistant適用於Select、Prime和Ultimate計畫的例項。
+您的Workfront管理員可以為您的組織啟用或停用AI助理。 AI助理可用於具有Select、Prime和Ultimate計畫的執行個體。
 
 如需Workfront中AI助理的詳細資訊，請參閱[AI助理：文章索引](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)。

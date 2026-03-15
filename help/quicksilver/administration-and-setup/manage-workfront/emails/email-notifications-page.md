@@ -4,11 +4,11 @@ product-area: system-administration
 navigation-topic: emails-administration
 title: 電子郵件通知：文章索引
 description: Adobe Workfront管理員可設定使用者的事件通知、提醒通知和電子郵件範本。
-author: Nolan
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 94b07085-8e3d-4137-9820-38aaa257a3ed
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%

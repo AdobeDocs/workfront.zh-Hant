@@ -4,13 +4,13 @@ product-area: agile-and-teams
 navigation-topic: boards
 title: 檢閱反複專案量度
 description: 量度可用於工作流程中的每個反複專案，位於反複專案程式板上。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 09743566-161d-4850-9a1a-b96da6d537a7
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '230'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
@@ -22,16 +22,16 @@ ht-degree: 0%
 
 量度可用於工作流程中的每個反複專案，位於反複專案程式板和控制面板上。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 {{step1-to-boards}}
 
-1. 若要開啟工作流程，請按一下[檢視工作流程]。[!UICONTROL **&#x200B;**]
+1. 若要開啟工作流程，請按一下[檢視工作流程]。[!UICONTROL ****]
 1. 選取[!UICONTROL 反複專案程式]展示板。
 1. 檢閱右上角展示板上方的量度區域。 按一下向上和向下箭頭可在版序之間移動。
 

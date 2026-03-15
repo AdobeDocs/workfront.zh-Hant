@@ -3,12 +3,12 @@ navigation-topic: use-lists
 title: 將快速篩選套用至清單
 description: 您可以使用物件清單中的快速篩選來協助您僅找出對您而言重要的專案，以便快速檢閱、更新或與他人共用這些專案。
 feature: Get Started with Workfront
-author: Nolan
+author: Courtney
 exl-id: 363f7ad1-f4f8-4cb1-a631-ee4e5ea28e5a
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '843'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -49,9 +49,9 @@ ht-degree: 0%
 * 如果清單中有多個群組，且快速篩選器僅在一個群組中找到專案，則只有該群組會與找到的專案一起顯示。 所有其他群組都已隱藏。
 * 在任務或子任務清單中，當快速篩選的結果顯示時，會移除任務階層。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -66,7 +66,7 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
    <td> 
-    <p>新增：</p>
+    <p>新增:</p>
    <ul><li><p>投稿人或以上 </p></li>
    </ul>
 
@@ -80,7 +80,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>清單所在物件的[!UICONTROL View]許可權</p>  </td> 
+   <td> <p>清單所在物件的[！UICONTROL View]許可權</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -129,6 +129,6 @@ ht-degree: 0%
    >只有您在快速篩選搜尋中找到的專案會匯出至您選取的檔案。 如果您在匯出清單之前未選取任何專案，則會匯出完整、未篩選的清單。\
    >如需詳細資訊，請參閱[匯出清單](../../../workfront-basics/navigate-workfront/use-lists/export-lists.md)。
 
-1. （選擇性）若要清除篩選的結果，請按一下視窗右上角的&#x200B;**[!UICONTROL 快速篩選]**&#x200B;圖示。
+1. （選擇性）若要清除篩選的結果，請按一下視窗右上角的&#x200B;**[!UICONTROL 快速篩選]**圖示。
 或
 重新整理頁面。

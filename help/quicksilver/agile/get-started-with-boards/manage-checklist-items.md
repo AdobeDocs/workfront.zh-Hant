@@ -3,13 +3,13 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: 管理卡片上的檢查清單專案
 description: 在卡片上使用檢查清單可讓您將工作細分成較小的增量，或在卡片上新增附註。 檢查清單專案在隨選卡和已連線卡上都可用。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 60e47a0a-36fb-4a86-8ec7-b135f9725b79
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '423'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -19,16 +19,16 @@ ht-degree: 0%
 
 如需卡片的相關資訊，請參閱[將臨機卡片新增至展示板](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md)、[在展示板上使用連線的卡片](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)和[管理卡片](/help/quicksilver/agile/get-started-with-boards/move-board-items.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 

@@ -5,13 +5,13 @@ keywords: 稽核，追蹤，自訂，欄位
 navigation-topic: calculate-custom-data-reports
 title: 計算自訂欄位範例：顯示欄位的編輯歷史記錄
 description: 如果使用者定期更新自訂欄位，而您想要擷取對欄位進行的所有變更的記錄以及變更發生的日期，則可以在計算的自訂欄位中擷取此資訊。
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: e233ef28-c95a-42a1-b2eb-448dad5feddb
-source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '612'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -33,18 +33,18 @@ ht-degree: 0%
    * 如果兩者相符，則會將「指示編輯歷史記錄」維持原狀；
    * 如果兩者不符，則會以「指示」欄位中的最新值取代「指示編輯歷史記錄」，後面接著括弧中的目前日期、垂直列，以及先前的「指示編輯歷史記錄」，這會保留先前值和輸入時的日期。
 
-## 存取需求
+## 存取權要求
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront套件</p> </td> 
+   <td> <p>Adobe Workfront 封裝</p> </td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -83,7 +83,7 @@ ht-degree: 0%
 
    1. 按一下&#x200B;**單行文字**。
    1. 指定自訂欄位的&#x200B;**標籤**。 例如，您可以將它命名為「Instructions」。
-   1. 按一下&#x200B;**套用**。
+   1. 按一下「**套用**」。
 
 1. 按一下&#x200B;**計算**&#x200B;將計算自訂欄位新增至表單。
 1. 指定計算自訂欄位的&#x200B;**標籤**。 例如，您可以將其命名為「Instructions Edit History」。

@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: 使用文字模式編輯群組
 description: 您可以使用文字模式編輯清單或報表中的分組，以存取標準介面中無法使用的欄位，並建立更複雜的分組。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 2eeecc16-ea6d-4a56-8ea3-e213706e89bf
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1539'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -23,16 +23,16 @@ ht-degree: 1%
 >
 >建議您在標準模式中建立儘可能多的群組，然後將其轉換為文字模式以進行編輯。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 

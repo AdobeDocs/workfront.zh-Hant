@@ -4,12 +4,12 @@ navigation-topic: use-lists
 title: 在 [!DNL Adobe Workfront]中內嵌編輯清單中的專案
 description: 當物件顯示在清單或報表中時，您可以內嵌編輯物件。 當您編輯清單或報表中顯示的物件資訊時，物件會立即更新。
 feature: Get Started with Workfront
-author: Nolan
+author: Courtney
 exl-id: a94b5aaf-71de-4fcd-946b-459ca3edf7e4
-source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '696'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -35,16 +35,16 @@ ht-degree: 0%
 * 您無法編輯清單中顯示的旗標和圖示。
 * 您無法內聯編輯源自其他報表的報表欄位。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -56,11 +56,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[!UICONTROL Edit]清單所在區域的存取權</p> <p>例如，若要內聯編輯專案中的任務，您需要[!UICONTROL Edit]專案存取權。</p></td> 
+   <td> <p>[！UICONTROL Edit]清單所在區域的存取權</p> <p>例如，若要內聯編輯專案中的任務，您需要[！UICONTROL Edit]專案存取權。</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>[!UICONTROL 管理]</p> <p>您也必須有權編輯特定欄位，例如自訂欄位、狀態等。</p>  </td> 
+   <td> <p>[！UICONTROL管理]</p> <p>您也必須有權編輯特定欄位，例如自訂欄位、狀態等。</p>  </td> 
   </tr> 
  </tbody> 
 </table>

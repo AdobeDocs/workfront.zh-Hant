@@ -3,14 +3,14 @@ product-area: reporting
 navigation-topic: reports
 title: 使用內建報告
 description: 瞭解如何使用內建報告。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 478747bc-82b4-45c5-bd64-57e370c86567
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '44'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 

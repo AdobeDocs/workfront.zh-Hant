@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: report-usage
 title: 檢視報表使用情形
 description: 檢視報表使用情形
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 51d9067c-8c55-433e-b560-7da241ef33ae
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '960'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -37,16 +37,16 @@ ht-degree: 1%
 您可以依這些欄位中的部分來篩選報表清單。\
 如需您可以依哪些欄位篩選報告的詳細資訊，請參閱文章[依使用情況資訊篩選報告清單](#filter-a-report-list-by-usage-information)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 

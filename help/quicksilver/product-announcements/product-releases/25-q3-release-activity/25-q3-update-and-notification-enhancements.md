@@ -1,10 +1,11 @@
 ---
 title: 2025年第三季度更新與通知增強功能
 description: 2025年第三季度專案增強功能
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: da73dc4e060e018e7a9254319bbaab6d333ce056
+exl-id: 26ed0bee-2fd4-480d-b55c-3c5a289d25b0
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 0%
@@ -30,5 +31,3 @@ ht-degree: 0%
 為了改善效能，我們在新增評論人員時引進了修改後的體驗。 現在，在您開始將使用者或團隊新增到評論後，「標籤人員或團隊」連結在「評論」方塊中持續存在。 在此變更之前，開始將人員或團隊新增到評論後，「標籤人員或團隊」連結已移除。 此變更已匯入所有Workfront物件，您可在其中新增註解。
 
 如需詳細資訊，請參閱[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
-
-

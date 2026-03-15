@@ -3,10 +3,10 @@ product-area: projects
 navigation-topic: approvals
 title: 在Workfront中檢閱檔案
 description: 身為稽核者，您可以預覽已提交您稽核的檔案。
-author: Nolan
+author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
-source-git-commit: 3fd4d18e1be14cc27b3b39d4abf399ec26ddcd51
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 3%

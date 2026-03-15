@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: 使用以使用者為基礎的萬用字元來歸納報表
 description: 您可以在建立特定報表元素時，使用萬用字元而非特定資訊來泛化報表。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 216e2869-b4f8-4cc7-9497-a12ebe00fe49
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '448'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -25,16 +25,16 @@ ht-degree: 2%
 * 自訂提示
 * 為欄新增規則時的檢視
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 

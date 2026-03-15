@@ -3,13 +3,13 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: 回覆電子郵件通知
 description: 您可以回應根據對專案、任務、問題和其他物件的評論所產生的Workfront電子郵件通知，將回覆新增至Adobe Workfront應用程式中所做的原始評論。
-author: Nolan and Alina
+author: Courtney and Alina
 feature: Get Started with Workfront
 exl-id: fea88410-8f37-49d0-9f5d-9fbac4ab5de6
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '555'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -37,21 +37,21 @@ ht-degree: 1%
 * 問題
 * 文件
 * 範本和範本任務
-* 產品組合
+* 專案組合
 * 方案
 * 疊代
 * 時程表
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront套件</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront 封裝</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 

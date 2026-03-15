@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: create-and-manage-reports
 title: 建立自訂報表
 description: 您可以透過建立報告，提供貴組織在Adobe Workfront中所需資訊的存取權。 您可以使用Workfront中提供的任何內建報表，或從頭開始建立自訂報表。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1816'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -26,16 +26,16 @@ ht-degree: 1%
 
 如需建立和管理報告的詳細資訊，包括課程、影片和教學課程，請參閱Adobe Experience League網站上的「學習」一節。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -122,7 +122,7 @@ ht-degree: 1%
 
 1. （選擇性）若要移除現有的欄，請按一下您要移除的欄，然後按一下欄標題中目前名稱旁的&#x200B;**x**。
 
-1. 若要新增欄，請按一下[新增欄]。**&#x200B;**
+1. 若要新增欄，請按一下[新增欄]。****
 
    或
 
@@ -190,7 +190,7 @@ ht-degree: 1%
 
 1. 按一下&#x200B;**套用**&#x200B;以套用您目前的變更，並使用下列選項繼續編輯報告。
 
-   如果您已完成編輯報表中的欄，而且想要儲存報表，請按一下[儲存+關閉]。**&#x200B;**
+   如果您已完成編輯報表中的欄，而且想要儲存報表，請按一下[儲存+關閉]。****
 
 ### 新增群組至報表 {#add-groupings-to-a-report}
 
@@ -260,4 +260,4 @@ ht-degree: 1%
 
 1. 按一下&#x200B;**套用**&#x200B;以套用您目前的變更，並使用下列選項繼續編輯報告。
 
-   如果您已完成編輯報告並想要儲存報告，請按一下[儲存+關閉]。**&#x200B;**
+   如果您已完成編輯報告並想要儲存報告，請按一下[儲存+關閉]。****

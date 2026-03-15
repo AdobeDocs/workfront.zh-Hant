@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: 在文字模式篩選器中建立「OR」陳述式
 description: 當您在清單和報告中建立篩選器時，可以包含多個陳述式。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: be145e22-d66c-4a74-af0e-8bb0598b4d67
-source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 如需建立篩選的詳細資訊，請參閱下列文章：
 
-* [篩選器總覽](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* [篩選器概觀](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md)
 * [使用文字模式編輯篩選器](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
 
 ## 文字模式篩選器運運算元

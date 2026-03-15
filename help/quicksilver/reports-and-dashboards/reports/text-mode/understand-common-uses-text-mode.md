@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: 文字模式的常見用途概觀
 description: 文字模式的常見用途概觀
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 81512837-1ec4-4dbc-ace4-bdf08fe667ce
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '762'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 * [自訂檢視、篩選和群組範例：發行項索引](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 * [報表中計算的自訂資料](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
 
-如需使用文字模式建立報表的詳細資訊，包括類別、影片和教學課程，請參閱Adobe Experience League網站上的「瞭解」一節。
+如需使用文字模式建立報告的詳細資訊，包括類別、影片和教學課程，請參閱Adobe Experience League網站上的「學習」一節。
 
 ## 您可能在清單和報告中使用文字模式的例項
 
@@ -85,8 +85,8 @@ ht-degree: 0%
 * [篩選器：僅顯示核准狀態的專案](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-for-items-in-approval-status.md)
 * [篩選器：當狀態與不同群組相關聯時，依相同名稱狀態顯示專案](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-same-name-statuses-from-different-groups.md)
 * [篩選器：比較兩個欄位來排除清單中的專案](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-items-by-comparing-two-fields.md)
-* 在發行項[使用EXISTS陳述式建立複雜文字模式篩選器](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md)中，橫跨物件階層[&#128279;](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md#examples)多個層級的文字模式篩選器範例
-* 區段[&#128279;](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md#missing-object-filters)為發行項[使用EXISTS陳述式建立複雜文字模式篩選器](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md)中的遺失物件建立複雜文字模式篩選器
+* 在發行項[使用EXISTS陳述式建立複雜文字模式篩選器](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md#examples)中，橫跨物件階層[多個層級的文字模式篩選器範例](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md)
+* 區段[為發行項](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md#missing-object-filters)使用EXISTS陳述式建立複雜文字模式篩選器[中的遺失物件建立複雜文字模式篩選器](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md)
 
 ## 在分組中使用文字模式 {#use-text-mode-in-groupings}
 

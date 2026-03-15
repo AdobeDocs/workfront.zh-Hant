@@ -4,13 +4,13 @@ product-area: user-management;agile-and-teams
 navigation-topic: people-teams-and-groups
 title: 管理工作和團隊請求
 description: 請求代表擱置任務或問題指派。 工作請求會向個人發出，而團隊請求則會向團隊發出。
-author: Jenny
+author: Courtney
 feature: People Teams and Groups, Work Management
 exl-id: ef96e520-0d5f-4180-a27a-1fbbffff8f2b
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '486'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -22,16 +22,16 @@ ht-degree: 0%
 >
 >敏捷團隊沒有團隊請求。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
@@ -42,7 +42,7 @@ ht-degree: 0%
   <p>評論或以上</p>
    <p>若要重新指派請求，請執行下列步驟：
    <p>標準</p>
-   <p>工作或更高</p></td>
+   <p>工作或更高層級</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -92,5 +92,5 @@ ht-degree: 0%
 1. 在左側導覽面板中，選取&#x200B;**[!UICONTROL 團隊要求]**。
 1. 按一下&#x200B;**[!UICONTROL 重新指派]**&#x200B;圖示。
 
-1. 開始輸入您要重新指派請求的使用者、群組或團隊名稱，然後按一下[指派]。**&#x200B;**\
+1. 開始輸入您要重新指派請求的使用者、群組或團隊名稱，然後按一下[指派]。****\
    請求已重新指派。

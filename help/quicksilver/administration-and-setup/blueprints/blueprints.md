@@ -4,12 +4,12 @@ product-area: system-administration;workfront-integrations
 navigation-topic: administration-and-setup
 title: 藍圖
 description: 檢閱這些文章以瞭解如何使用Adobe Workfront中的藍圖。
-author: Jenny
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 03a23bb6-f30d-4f4d-9e17-069e37ec474a
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '43'
 ht-degree: 4%

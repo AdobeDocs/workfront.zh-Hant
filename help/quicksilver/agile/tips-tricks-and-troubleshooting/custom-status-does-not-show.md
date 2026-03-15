@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: tips-tricks-and-troubleshooting-agile
 title: 自訂狀態未顯示在敏捷故事板上
 description: 如果您想要在敏捷故事板上使用自訂狀態，您的 [!DNL Adobe Workfront] 管理員必須先將該自訂狀態建立為全系統狀態。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: dcf71cd0-da56-48e7-85bf-393f5cec3ae3
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '82'
 ht-degree: 0%
