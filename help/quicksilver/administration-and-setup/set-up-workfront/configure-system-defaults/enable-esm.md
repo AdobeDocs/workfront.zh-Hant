@@ -7,10 +7,11 @@ description: 您可以為貴組織啟用Adobe企業儲存，以便針對所有Ad
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 97c351ca38a8b6075634b2f755f2330562bc8b52
+exl-id: 48b581c7-a21a-45de-95c5-eafb0713b42e
+source-git-commit: e70a65447fe508d055809271edad399d823f66dd
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 7%
+source-wordcount: '320'
+ht-degree: 5%
 
 ---
 
@@ -65,5 +66,10 @@ Adobe企業儲存是適用於所有Adobe產品的統一儲存解決方案。 這
    >啟用此選項可讓使用者在建立新專案時選取儲存提供者。 企業儲存體標示為「新專案」，因為它是預設的儲存提供者。 舊版Workfront儲存空間標示為「舊版專案」。
    >
    >![新專案和舊版專案選項](assets/new-esm-project.png)
+
+1. 在「套用至」下拉式功能表中，選擇下列其中一個選項：
+
+   - **整個組織**：此選項會將預設儲存提供者套用至您的整個Workfront環境。 每當使用者建立新專案時，都會使用預設的儲存提供者。
+   - **特定群組**：此選項只會將預設儲存提供者套用至您組織內的特定群組。 每當指定群組中的使用者建立新專案時，都會使用預設的儲存提供者
 
 1. 按一下「**儲存**」。
