@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
+source-git-commit: 4f6909c2862f120c14798c089de52ac6679e7fd9
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '657'
 ht-degree: 1%
 
 ---
@@ -180,6 +180,13 @@ OLD:
 在您提交請求之後，或您提交的請求已核准或拒絕之後。 電子郵件的寄件者為Adobe Workfront。
 
 1. （選擇性）按一下&#x200B;**開啟請求**。 這會在Workfront Planning中開啟請求。
+
+1. 在請求的右上角，按一下&#x200B;**檢閱和核准**&#x200B;按鈕，然後按一下下列其中一項：
+
+   * **核准**&#x200B;以核准要求。 當您核准Planning請求時，會建立記錄。
+   * **拒絕**&#x200B;以拒絕要求。 當您在Workfront Planning中拒絕請求時，不會建立任何記錄。 此要求儲存在[要求]區域中，其狀態為&#x200B;**已拒絕**。
+
+   計畫請求上的![檢閱和核准按鈕](assets/review-approval-button-with-drop-down-expanded.png)
 
 1. 按一下畫面右上角的&#x200B;**通知**&#x200B;圖示![通知區域圖示Unified Shell](assets/notifications-area-icon-unified-shell.png)以存取&#x200B;**通知**&#x200B;頁面。
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
+source-git-commit: 4f6909c2862f120c14798c089de52ac6679e7fd9
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '416'
 ht-degree: 1%
 
 ---
@@ -155,8 +155,16 @@ OLD:
 
 ## 請求和授與許可權時管理應用程式內通知
 
-有人要求或授予您檢視或工作區的許可權時，您會收到應用程式內通知。<!--<span class="preview">or record</span>-->
+有人要求或授予您檢視、工作區或記錄型別的許可權時，您會收到應用程式內通知。<!--<span class="preview">or record</span>-->
 
 如需關於要求、授與或拒絕許可權的資訊，請參閱[要求檢視或工作區的許可權](/help/quicksilver/planning/access/request-permissions.md)。
 
 如需有關管理Workfront Planning通知的資訊，請參閱[管理Adobe Workfront Planning通知偏好設定](/help/quicksilver/planning/notifications/manage-notification-preferences.md)。
+
+## 核准或拒絕Planning請求時管理應用程式內通知
+
+有人提交請求以供核准，或有人核准您提交的請求時，您會收到應用程式內通知。
+
+如需有關提交請求的資訊，請參閱[提交Adobe Workfront Planning請求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)。
+
+如需核准請求的詳細資訊，請參閱[在Adobe Workfront規劃中核准請求](/help/quicksilver/planning/requests/approve-request.md)。
