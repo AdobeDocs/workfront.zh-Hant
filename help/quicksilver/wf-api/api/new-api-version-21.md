@@ -6,9 +6,10 @@ description: Adobe Workfront於2025年10月23日發行API版本21。 API版本21
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 7166a6b51a45b744a33df697c2bc8080427908a8
+exl-id: 7fb9131a-b815-4990-acba-cc75a24f389f
+source-git-commit: ec696c0ffa6a25cd274d494c9c1b475f99f661e2
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '929'
 ht-degree: 3%
 
 ---
@@ -483,7 +484,7 @@ Parameter物件是自訂欄位。
             <p>已新增下列可能值：</p>
              <ul>
               <li>
-                <p><code>RICHLX</code> （辭彙RTF文字）</p>
+                <p><code>HTML</code> </p>
               </li>
             </ul>
          </li>
@@ -983,5 +984,3 @@ Work物件是Task和OpTask都繼承的公用介面，並在兩者之間共用公
     </tr>
   </tbody>
 </table>
-
-
