@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b9a83bc2-4dd8-4c77-a2e7-385baa809b3b
-source-git-commit: e93f8662acb95029e4997ec270b23511d3e880dd
+source-git-commit: 990af6c3e0f026de495b666a108a8bbce5118c1b
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '958'
 ht-degree: 0%
 
 ---
@@ -67,16 +67,13 @@ Workfront與Frame.io整合可讓創意人員、行銷人員和利害關係人透
 
 * **單次使用核准**：在資產所在的專案或任務中，專案協調員可以指派稽核者和核准者，並設定完成期限。 系統會透過電子郵件提醒檢閱者和核准者：截止日期前72小時、截止日期前24小時，然後於截止日期本身。
 
-  如需詳細資訊，請參閱[建立檔案核准工作流程](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)。
+  如需詳細資訊，請參閱[建立檔案核准工作流程](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md#create-an-approval-workflow-from-the-summary-panel-in-the-new-document-area)。
 
 * **核准範本**：在Workfront設定區域中，專案專員可以建立可重複使用的核准範本。 在範本中，使用者可以新增稽核者和核准者，並指定完成時間範圍。 將核准範本套用至資產時，截止日期是從指定的時間範圍計算。
 
   建立範本後，可將其套用至資產，以在Workfront中開始正式的稽核和核准流程。
 
   如需詳細資訊，請參閱[建立檔案的核准工作流程範本](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)。
-
-
-  ![指派範本](assets/assign-template.png)
 
 ### 在Frame.io檢視器中檢閱和核准資產
 
