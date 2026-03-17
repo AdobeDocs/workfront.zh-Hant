@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: 11fe205b9590b6f8330e0923bbe47d2ed693cf16
+source-git-commit: 9a3b04a40cf871661ba5451c0dc611057f7e4f5d
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1051'
 ht-degree: 11%
 
 ---
@@ -382,7 +382,7 @@ ht-degree: 11%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>workPerDate <p>[!BADGE 已移除]{type=negative tooltip="此欄位已於2023年10月26日移除。"}</span></td> 
+   <td>workPerDate <p>[！BADGE已移除]{type=negative tooltip="此欄位已於2023年10月26日移除。"}</span></td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2889,6 +2889,11 @@ ht-degree: 11%
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>canstart</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>categoryID</td> 
   </tr> 
   <tr> 
@@ -3109,12 +3114,12 @@ ht-degree: 11%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>deliverablescorecardID</td> 
+   <td>customerID</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>customerID</td> 
+   <td>deliverablescorecardID</td> 
   </tr> 
   <tr> 
    <td> </td> 
