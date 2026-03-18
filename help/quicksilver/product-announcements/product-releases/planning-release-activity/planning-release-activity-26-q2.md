@@ -7,7 +7,7 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 79d4ad4a-1dd0-431e-92cd-582b5a1b7ec8
-source-git-commit: 1e05945e24770848da9d2c77b81b9475e43797ea
+source-git-commit: 50ee9ac593e230e6f869f4158a67e4c3113aed45
 workflow-type: tm+mt
 source-wordcount: '1180'
 ht-degree: 0%
@@ -81,7 +81,7 @@ For information, see [Create fields](/help/quicksilver/planning/fields/create-fi
 
 工作區預設設為「只有受邀人士才能存取」許可權。
 
-在此變更之前，選擇這些工作區共用許可權的功能未結束。
+在此變更之前，選擇這些工作區共用許可權的能力不存在。
 
 如需詳細資訊，請參閱共用工作區(help/quicksilver/planning/access/share-workspaces.md)。
 
