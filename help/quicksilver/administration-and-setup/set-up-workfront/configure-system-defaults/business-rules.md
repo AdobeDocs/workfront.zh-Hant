@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: b6731b9877237916259a862863b30c8ef65ad343
+source-git-commit: 061694c7db64d3f4957903ae21e436f52c77a07e
 workflow-type: tm+mt
-source-wordcount: '1318'
-ht-degree: 2%
+source-wordcount: '1326'
+ht-degree: 3%
 
 ---
 
@@ -31,16 +31,16 @@ ht-degree: 2%
 >
 >由於商業規則會封鎖某些動作，因此您應該一律先在沙箱或預覽環境中設定商業規則，並在生產環境中啟用前對其進行徹底測試。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr>
-   <td>Adobe Workfront套件
+   <td>Adobe Workfront 封裝
    </td>
    <td> <p>Ultimate</p>
     <p>Workflow Ultimate</p>
@@ -123,7 +123,7 @@ IF(
 
 1. 按一下左側面板中的&#x200B;**商業規則**。
 1. 按一下&#x200B;**新商業規則**。
-1. 選取要指派商業規則的物件型別，然後按一下[繼續]。**&#x200B;**
+1. 選取要指派商業規則的物件型別，然後按一下[繼續]。****
 
    ![選取物件](assets/object-for-business-rule3.png)
 
@@ -132,7 +132,7 @@ IF(
    * 專案
    * 任務
    * 問題/請求
-   * 產品組合
+   * 專案組合
    * 文件
    * 方案
    * 費用
@@ -144,6 +144,12 @@ IF(
    * 風險
    * 費率卡
    * 指派
+   * 使用者
+   * 角色
+   * 時數
+   * 範本
+   * 休假
+   * 資源集區
 
 1. 在規則產生器對話方塊中輸入商業規則的&#x200B;**名稱**。
 1. 在&#x200B;**為使用中**&#x200B;欄位中，選取儲存規則時是否應該使用中。
@@ -184,7 +190,7 @@ IF(
 
    可用欄位清單僅限於與商業規則物件型別相關的欄位。
 
-1. 當您完成建立商業規則時，請按一下[儲存]。**&#x200B;**
+1. 當您完成建立商業規則時，請按一下[儲存]。****
 
 >[!NOTE]
 >
