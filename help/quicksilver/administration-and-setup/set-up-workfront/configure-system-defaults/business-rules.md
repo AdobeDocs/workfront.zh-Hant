@@ -8,16 +8,32 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 061694c7db64d3f4957903ae21e436f52c77a07e
+source-git-commit: c16d107d8162f77436337d0b08ea5826d5c25d83
 workflow-type: tm+mt
-source-wordcount: '1326'
+source-wordcount: '1417'
 ht-degree: 3%
 
 ---
 
 # 建立和編輯業務規則
 
-商業規則可讓您套用驗證至Workfront物件，並防止使用者在滿足某些條件時建立、編輯或刪除物件。 商業規則可防止可能影響資料完整性的動作，有助於改善資料品質和營運效率。
+<!--
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+-->
+
+商業規則可讓您套用驗證至Workfront物件，並防止使用者在滿足某些條件時建立、編輯或刪除物件。 商業規則驗證可防止可能影響資料完整性的動作，有助於改善資料品質和營運效率。
+
+<!--
+
+<div class="preview">
+
+Organizations that have the Workflow Ultimate package can also configure business rules to automate actions for the created, edited, or modified object when certain conditions are met. Available actions include sharing the object, notifying a user, or attaching a custom form to the object.  
+
+</div>
+
+-->
 
 單一商業規則只能指派給一個物件。 例如，如果您建立在特定條件下不編輯專案的業務規則，則無法將相同的規則套用至任務。 您必須使用相同的任務條件來建立個別的商業規則。
 
@@ -42,8 +58,9 @@ ht-degree: 3%
   <tr>
    <td>Adobe Workfront 封裝
    </td>
-   <td> <p>Ultimate</p>
-    <p>Workflow Ultimate</p>
+   <td> <p>商業規則驗證：<ul><li><p>Ultimate</p></li><li>
+    <p>Workflow Ultimate</p></li></ul></p><p>商業規則自動化：<ul><li>
+    <p>Workflow Ultimate</p></li><ul></p>
    </td>
   </tr> 
   <tr> 
@@ -63,7 +80,12 @@ ht-degree: 3%
 
 ## 商業規則的案例
 
-商業規則的格式為「如果符合定義的條件，則會阻止使用者對物件執行動作，且會顯示訊息。」
+* [商業規則驗證的案例](#scenarios-for-business-rule-validation)
+* [商業規則自動化的案例](#scenarios-for-business-rule-automation)
+
+### 商業規則驗證的案例
+
+商業規則驗證的格式為「如果符合定義的條件，則會阻止使用者對物件執行動作，且會顯示訊息。」
 
 商業規則中屬性和其他函式的語法與自訂表單中計算欄位的語法相同。 如需有關語法的詳細資訊，請參閱[使用表單設計工具新增計算欄位](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)。
 
@@ -117,15 +139,53 @@ IF(
 )
 ```
 
+
+<!--
+
+## Scenarios for business rule automation
+
+>[!NOTE]
+>
+>Your organization must have a Workflow Ultimate package to use business rule automation.
+
+The format of a business rule automation is "IF the defined condition is met, then the selected automation is triggered."
+
+Business rule automation formulas do not require an error message
+
+To ensure that an automation runs whenever the selected object and action occurs, such as when a project is created, use the following formula:
+
+```
+IF(true, true)
+```
+
+To share a project only if that's project has been approved, use a formula like the following:
+
+```
+IF({status} = "APR", true)
+```
+
+You can use wildcards in business rule actions, as described in the section [Scenarios for business rule validation](#scenarios-for-business-rule-validation).
+
+-->
+
 ## 新增商業規則
 
 {{step-1-to-setup}}
 
 1. 按一下左側面板中的&#x200B;**商業規則**。
 1. 按一下&#x200B;**新商業規則**。
-1. 選取要指派商業規則的物件型別，然後按一下[繼續]。**&#x200B;**
 
-   ![選取物件](assets/object-for-business-rule3.png)
+1. 在規則產生器對話方塊中輸入商業規則的&#x200B;**名稱**。
+1. 在&#x200B;**為使用中**&#x200B;欄位中，選取儲存規則時是否應該使用中。
+
+   如果您選取&#x200B;**否**，規則會儲存為非使用中，您可稍後再加以啟用。
+
+1. （選擇性）輸入商業規則的&#x200B;**描述**，以及套用時會發生什麼情況。
+
+
+1. 選取要指派商業規則的物件型別。
+
+   ![選取物件](assets/object-for-business-rule4.png)
 
    您可以將商業規則套用至下列物件：
 
@@ -150,6 +210,17 @@ IF(
    * 範本
    * 休假
    * 資源集區
+<!--
+   * <span class="preview">Job role</span>
+   * <span class="preview">Non-labor resource category</span>
+   * <span class="preview">Resource Pool</span>
+   * <span class="preview">Time Off</span>
+   * <span class="preview">Hour</span>
+   * <span class="preview">Staffing Plan</span>
+   * <span class="preview">Template</span>
+   * <span class="preview">Staffing Plan Resource</span>
+   * <span class="preview">Team</span>
+-->
 
 1. 在規則產生器對話方塊中輸入商業規則的&#x200B;**名稱**。
 1. 在&#x200B;**為使用中**&#x200B;欄位中，選取儲存規則時是否應該使用中。
@@ -158,11 +229,10 @@ IF(
 
 1. 選取商業規則的&#x200B;**觸發器**。 選項包括：
 
-   * **建立物件時：**&#x200B;當使用者嘗試建立物件時，會套用規則。
-   * **在物件編輯時：**&#x200B;當使用者嘗試編輯物件時，會套用規則。
-   * **在物件刪除時：**&#x200B;當使用者嘗試刪除物件時，會套用規則。
+   * **已建立**&#x200B;當使用者嘗試建立物件時，會套用規則。
+   * **已編輯**&#x200B;當使用者嘗試編輯物件時，會套用規則。
+   * **已刪除**&#x200B;當使用者嘗試刪除物件時，會套用規則。
 
-1. （選擇性）輸入商業規則的&#x200B;**描述**，以及套用時會發生什麼情況。
 1. 在商業規則對話方塊中央的公式編輯器中建立公式。
 
    商業規則的格式為「如果符合定義的條件，則會阻止使用者對物件執行動作，且會顯示訊息。」
@@ -172,13 +242,13 @@ IF(
    * 「物件」是您在建立商業規則時選取的物件型別。 它顯示在對話方塊的標題中。
    * 「動作」是您為規則選取的觸發程式：建立、編輯或刪除物件。
    * 由於物件和動作已定義，因此您不會將它們納入公式中。
-   * 當使用者觸發商業規則時，就會向使用者顯示自訂錯誤訊息。 它應該提供明確的指示，說明哪裡出錯了，以及如何更正問題。
+   * 當使用者觸發商業規則時，將會顯示自訂錯誤訊息<!--<span class="preview">is included only if the rule is for validation, and </span>-->。 它應該提供明確的指示，說明哪裡出錯了，以及如何更正問題。
 
      您可以在錯誤訊息中加入靜態URL，以連結至檔案或其他實用頁面，引導使用者如何在規則的限制內修改其動作。
 
      在此範例中，「瞭解更多」將連結至URL。 `"You are not allowed to add a new project in November.[Learn more](http://url)"` URL必須位於括弧中，但不需要括弧中的連結文字。 您可以顯示完整URL，它將是可點按的連結。
 
-   ![新增商業規則對話方塊](assets/add-business-rule-dialog-no-ai-button.png)
+   ![新增商業規則對話方塊](assets/add-business-rule-dialog-no-ai-button.png) <!--UPDATE ME-->
 
    此範例是專案的業務規則。 如果目前月份是11月，則不允許使用者建立新專案，且訊息會說明此情況。
 
@@ -190,11 +260,46 @@ IF(
 
    可用欄位清單僅限於與商業規則物件型別相關的欄位。
 
-1. 當您完成建立商業規則時，請按一下[儲存]。**&#x200B;**
+1. （視條件而定）如果您要驗證動作，如果您的組織位於Workfront Ultimate套件上，請在「然後」區域中，選取&#x200B;**驗證物件**。
+
+   對於其他套件，會預先選取此選項。
+
+<!--
+
+1. (Conditional) To automate another action,, select the action. 
+
+   For details on these actions, see the section [Business rule automation options](#business-rule-automation-options) in this article.
+
+   >[!NOTE]
+   >
+   >Your organization must be on the Workflow Ultimate package to use actions besides validation. If you do not see these other options, your organization is not on the Workflow Ultimate package.
+
+   -->
+
+1. 當您完成建立商業規則時，請按一下[儲存]。****
 
 >[!NOTE]
 >
 >新增商業規則後，您應該透過新增、編輯或刪除關聯的物件來測試它，以確保規則已正確套用。
+
+<!--
+
+<div class="preview">
+
+### Business rule automation options
+
+   >[!NOTE]
+   >
+   >Your organization must be on the Workflow Ultimate package to use actions besides validation. If you do not see these other options, your organization is not on the Workflow Ultimate package.
+
+You can set these actions to automate when the business rule is triggered. Available actions depend on the selected object type.
+
+|Automation|Further configuration|
+|---|---|
+|Attach a custom form|Select the custom form that you want to add|
+|Share the object|Select the people, roles, groups, companies, or access levels that you want to share the object with.|
+
+-->
 
 ## 啟用商業規則
 
