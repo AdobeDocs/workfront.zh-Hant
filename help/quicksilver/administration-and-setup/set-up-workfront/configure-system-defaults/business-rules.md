@@ -276,7 +276,7 @@ You can use wildcards in business rule actions, as described in the section [Sce
 
    -->
 
-1. 當您完成建立商業規則時，請按一下[儲存]。****
+1. 當您完成建立商業規則時，請按一下[儲存]。**&#x200B;**
 
 >[!NOTE]
 >
