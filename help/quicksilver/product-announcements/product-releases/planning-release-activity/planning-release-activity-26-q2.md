@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 79d4ad4a-1dd0-431e-92cd-582b5a1b7ec8
-source-git-commit: 50ee9ac593e230e6f869f4158a67e4c3113aed45
+source-git-commit: fa4d8132cecd51b93f26c28803535a84bebad137
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1248'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,18 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 如需針對Adobe Workfront Planning發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## 階層連結重新設計
+
+>[!NOTE]
+>
+>預覽： 2026年3月26日
+>生產快速發行： 2026年4月15日
+>每個人都能使用生產： 2026年4月16日
+
+我們已重新設計跨記錄型別和記錄的階層連結顯示方式。 現在，當您按一下階層連結行中的「更多」時，記錄和物件的名稱會顯示在多行上。 在此增強功能之前，按一下「更多」會在下拉式選單中顯示記錄和物件的名稱。
+
+如需詳細資訊，請參閱[階層與階層連結概觀](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)。
 
 <!--
 
