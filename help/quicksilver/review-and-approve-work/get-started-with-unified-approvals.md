@@ -5,21 +5,26 @@ title: 開始使用統一檢閱和核准
 description: 深入瞭解由Workfront和Frame.io支援的統一檢閱和核准。
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 18821ee34bb44b38fa3bb260434d7db986d2706e
+exl-id: 10962d59-284e-4c41-8523-18ea4ed78362
+source-git-commit: 9dc15e8f50b91dde3536902bb57229cfbe164317
 workflow-type: tm+mt
-source-wordcount: '969'
+source-wordcount: '994'
 ht-degree: 0%
 
 ---
 
-
 # 開始使用統一檢閱和核准
 
-由Workfront和Frame.io提供支援的統一稽核和核准，可讓創意人員、行銷人員和利害關係人透過順暢的工作流程保持一致。 存取即時更新、避免重複工作，並確保資產在啟動前獲得核准。
+
+統一的稽核和核准將Adobe Workfront和Adobe Frame.io整合為單一、深度連結的體驗，縮短行銷管理、創意稽核和內容傳送之間的差距。 專案專員在Workfront中管理工作，而創意人員、行銷人員和利害關係人則在專業級Frame.io檢視器中稽核及核准資產，所有這一切都無需在中斷連線的工具之間移動檔案。
 
 如需Frame.io的詳細資訊，請參閱[開始使用Frame.io](https://support.frame.io/en/collections/49298-getting-started)。
 
 您必須在Workfront執行個體中設定Workfront和Frame.io整合。 如需詳細資訊，請參閱[整合式檢閱與核准總覽](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md#integration-requirements)。
+
+## 概述影片
+
+>[!VIDEO](https://video.tv.adobe.com/v/3471078)
 
 ## 整合需求
 
@@ -124,3 +129,4 @@ ht-degree: 0%
 您可以使用&#x200B;[!DNL Experience Manager Assets]來管理和儲存&#x200B;經過檢閱和核准週期的數位資產。 此整合可讓您運用Adobe Experience Manager、Frame.io和Workfront的功能，簡化您的內容管理和共同作業程式。
 
 如需詳細資訊，請參閱[使用Adobe Experience Manager與Frame.io整合](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)。
+
