@@ -7,9 +7,9 @@ description: 「摘要」可讓您直接從檔案清單與重要資訊互動。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
+source-git-commit: d35e6c33479ed051aaa87b07ddf38811fffc0cc0
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '696'
 ht-degree: 5%
 
 ---
@@ -140,7 +140,7 @@ ht-degree: 5%
 
 如需有關核准和Frame.io的詳細資訊，請參閱
 
-* [開始使用Frame.io整合](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md)
+* [開始使用統一檢閱和核准](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
 * [建立檔案檢閱或核准要求](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)。
 
 ![新檔案中的檔案摘要核准](assets/summary-approvals.png)

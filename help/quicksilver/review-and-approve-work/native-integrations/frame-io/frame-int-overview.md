@@ -1,22 +1,24 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Frame.io整合概述
-description: Frame.io整合概述
+title: 統一檢閱和核准總覽
+description: 深入瞭解由Workfront和Frame.io支援的統一檢閱和核准。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
+hide: true
+hidefromtoc: true
 exl-id: b5f0150b-40b5-4386-98bc-374e7ca65b74
-source-git-commit: e93f8662acb95029e4997ec270b23511d3e880dd
+source-git-commit: d35e6c33479ed051aaa87b07ddf38811fffc0cc0
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '838'
 ht-degree: 0%
 
 ---
 
-# Frame.io整合概述
+# 統一檢閱和核准總覽
 
-Workfront和Frame.io整合可讓專案專員在Workfront中管理專案和計畫工作，而創意人員、行銷人員和利害關係人則可以在Frame.io中檢閱和核准資產。
+由Workfront和Frame.io提供支援的統一檢閱和核准，讓專案專員能夠在Workfront中管理專案和計畫工作，而創意人員、行銷人員和利害關係人則可以在Frame.io中檢閱和核准資產。
 
 ## 整合需求
 
@@ -31,7 +33,7 @@ Workfront和Frame.io整合可讓專案專員在Workfront中管理專案和計畫
 
 ## 內建於Adobe企業儲存空間
 
-這項整合的核心是Adobe企業儲存體：雲端型儲存體解決方案，可作為Adobe企業產品（包括Workfront和Frame.io）資產的中央存放庫。<!--, and Creative Cloud.-->
+整合式檢閱和核准是以Adobe企業儲存體為基礎，這是一種雲端式儲存體解決方案，可作為Adobe企業產品（包括Workfront和Frame.io）中的資產中央存放庫。<!--, and Creative Cloud.-->
 
 Adobe企業儲存的主要優點包括：
 
@@ -44,7 +46,7 @@ Adobe企業儲存的主要優點包括：
 
 ## 統一的稽核和核准
 
-Workfront和Frame.io整合使用Workfront的統一核准功能來管理檢閱和核准。 透過統一核准，您可以：
+透過統一的稽核和核准，您可以：
 
 * 直接從Workfront建立和管理稽核與核准
 * 即時追蹤稽核和核准的狀態
@@ -58,14 +60,14 @@ Workfront和Frame.io整合使用Workfront的統一核准功能來管理檢閱和
 
 ### 使用Frame.io檢視器
 
-整合也會連線至Frame.io檢視器。 Frame.io檢視器提供
+使用Frame.io檢視器檢閱及核准資產。 Frame.io檢視器提供
 
 * 標籤和註解工具
 * 版本記錄與比較
 * 視訊評論的時間戳記評論
 * 行動存取以進行行動稽核和核准
 
-如需詳細資訊，請參閱[開始使用Frame.io整合](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md)。
+如需詳細資訊，請參閱[開始進行統一檢閱和核准](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)。
 
 #### 影片檢閱限制
 
@@ -89,13 +91,13 @@ Frame.io檢視器是所有Workfront檢閱和核准工作流程的預設檢視器
 
 ## Workfront強大的專案管理
 
-透過Workfront和Frame.io整合，專案專員可以利用Workfront強大的專案管理功能，來規劃、追蹤和管理工作。
+專案專員可善用Workfront強大的專案管理功能來規劃、追蹤及管理工作。
 
 如需有關在Workfront中管理專案的詳細資訊，請參閱[專案：文章索引](/help/quicksilver/manage-work/projects/create-projects/create-project.md)。
 
 ### 強制的結構與命名慣例
 
-由於此整合是使用Adobe企業儲存空間建立的，因此在管理專案和檔案時，應注意一些強制的結構與命名慣例。
+由於統一稽核和核准是使用Adobe企業儲存空間建立的，因此在管理專案和檔案時，有一些需要注意的強制結構和命名慣例。
 
 * 物件名稱必須是唯一的，而且不能重複
 * 對於階層樹狀結構中具有相同父級的對等物件，Adobe企業儲存體必須有唯一的名稱
@@ -138,11 +140,7 @@ Frame.io檢視器是所有Workfront檢閱和核准工作流程的預設檢視器
 
 ### 檔案體驗限制
 
-由於此整合是使用Adobe企業儲存空間建立的，因此Workfront中的原始檔案體驗有一些限制：
-
-#### 限制
-
-下列功能不會納入這項整合：
+下列檔案功能不包括在內：
 
 <!--* External document providers-->
 * 在Workfront中存取校訂

@@ -8,9 +8,9 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 author: Courtney
 exl-id: b5fed2b5-aa58-4cf1-b7d8-2573216b79f5
-source-git-commit: 2b4230acf01f62b53b8e2efe4c21cabbdef28701
+source-git-commit: d35e6c33479ed051aaa87b07ddf38811fffc0cc0
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,5 @@ ht-degree: 0%
 <!--* [Get started with the GenStudio for Performance Marketing and Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/genstudio/wf-frame-and-genstudio.md)-->
 * [開始使用校訂和GenStudio for Performance Marketing整合](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
 * [開始使用校訂和Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
-* [開始使用校訂和Frame.io整合](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md)
-* [Frame.io整合概述](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)
+* [統一檢閱和核准總覽](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
 * [使用Adobe Experience Manager與Frame.io整合](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)
