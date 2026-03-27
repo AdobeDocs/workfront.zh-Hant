@@ -6,9 +6,9 @@ description: 身為稽核者，您可以預覽已提交您稽核的檔案。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+source-git-commit: 86d5ed6f91bca0b68748a43476710028d34d6ad2
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '562'
 ht-degree: 3%
 
 ---
@@ -111,4 +111,4 @@ Add once functionality is added
 
 ## 從Frame.io檢視器檢視檔案
 
-若要從Frame.io檢視器檢閱檔案，您的Workfront執行個體必須與Frame.io整合。 如需詳細資訊，請參閱[Frame.io整合總覽](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)。
+若要從Frame.io檢視器檢閱檔案，您的Workfront執行個體必須與Frame.io整合。 如需詳細資訊，請參閱[統一檢閱和核准總覽](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)。

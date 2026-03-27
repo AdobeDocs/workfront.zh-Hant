@@ -6,9 +6,9 @@ description: 您可以要求使用者核准您上傳至Workfront的檔案。 如
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f8b25cfa-02d9-4c5a-88c1-924a283cdffb
-source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
+source-git-commit: 86d5ed6f91bca0b68748a43476710028d34d6ad2
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
@@ -24,4 +24,4 @@ ht-degree: 0%
 >如果您的組織位於企業儲存空間，則無法使用校訂。 反之，您可以搭配Frame.io整合使用Workfront稽核和核准。 如需有關企業儲存或Frame.io整合的詳細資訊，請參閱
 >
 >* [Adobe企業儲存空間概覽](/help/quicksilver/review-and-approve-work/esm-overview.md)
->* [Frame.io整合總覽](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)
+>* [統一檢閱和核准總覽](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
