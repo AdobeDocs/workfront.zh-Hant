@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 4f6909c2862f120c14798c089de52ac6679e7fd9
+source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
 workflow-type: tm+mt
-source-wordcount: '2252'
-ht-degree: 0%
+source-wordcount: '2026'
+ht-degree: 1%
 
 ---
 
@@ -28,13 +28,13 @@ ht-degree: 0%
 
 您可以從下列區域提交Workfront Planning請求：
 
-* 從Workfront的要求區域。
+* 從Workfront的請求區域或首頁中的我的請求Widget 。
 * 從已共用之請求表單的直接連結。
-* 從記錄型別頁面，當您新增或請求新記錄時。 如需詳細資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md)。
+* 從記錄型別頁面，當您透過提交請求來新增記錄時。 如需詳細資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md)。
 
 本文說明如何從Workfront的「請求」區域或共用連結提交請求，以將新記錄新增至記錄型別。
 
-Workfront使用者與外部使用者可以提交請求給Planning記錄型別。 請求會為與請求表單關聯的記錄型別建立記錄。<!--double check on the external users-->
+Workspace管理員可建立請求表單，您能以使用者或外部人員身分，將請求提交至Planning記錄型別。 請求會為與請求表單關聯的記錄型別建立記錄。
 
 如需工作區管理員如何建立請求表單並將其與記錄型別關聯的資訊，請參閱[在Adobe Workfront Planning中建立和管理請求表單](/help/quicksilver/planning/requests/create-request-form.md)。
 
@@ -107,12 +107,12 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別。
   如需詳細資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md)。
 * 透過提交請求表單建立的記錄會連線至原始請求。 無法移除此連線。
 * 您可以在下列區域中檢視建立的記錄和用來建立這些記錄的請求：
-   * Workfront中的請求區域
+   * Workfront中的請求區域。
 
   <div class="preview">
 
-   * Workfront Planning中的記錄型別頁面
-   * Workfront Planning中記錄的詳細資訊區域
+   * 將請求新增為連線記錄時，在Workfront Planning中記錄型別頁面的連線欄位中。
+   * 將請求新增為連線記錄時，在Workfront Planning中記錄詳細資訊區域的連線欄位中。
 
   </div>
 
@@ -120,11 +120,9 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別。
   >
   ><span class="preview">您可以在Workfront的「要求」區域或Workfront Planning的「原始要求連線」欄位的「主旨」欄位中，檢視要求的名稱。</span>
 
-
-
-* 已提交的請求會顯示在Workfront的請求區域中。
 * 已提交的Planning請求僅會顯示在新的請求體驗中。 您無法在舊版請求體驗中看見Planning請求。
-如需詳細資訊，請參閱[建立及提交要求](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)。
+
+  如需詳細資訊，請參閱[建立及提交要求](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)。
 * 在提交表單後，某些欄位型別在請求表單或請求詳細資訊頁面中的顯示方式會受到限制。
 
   如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
@@ -136,8 +134,8 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別。
 
 {{step1-to-requests}}
 
-1. 啟用熒幕右上角的&#x200B;**切換至新的體驗**&#x200B;設定。
-啟用此設定可讓Workfront Planning請求表單出現在Workfront的&#x200B;**請求**&#x200B;區域中。
+1. 開啟熒幕右上角的&#x200B;**使用新體驗**設定。
+開啟此設定後，Workfront的**要求**&#x200B;區域即可使用Workfront規劃要求表單。
 
    >[!TIP]
    >
@@ -149,12 +147,25 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別。
    >
    >* 您至少可以檢視一個工作區。
 
-1. 按一下&#x200B;**您要提交什麼請求**&#x200B;列，開啟請求表單清單。
+1. 按一下&#x200B;**您要提交什麼請求？**&#x200B;列以開啟請求表單清單。
 1. 從清單中選取請求表單，或開始輸入請求表單名稱，然後在其出現在清單中時選取它。
 
    隨即開啟一個視窗，頂端會顯示請求表單名稱。
-1. 更新請求表單中可用的欄位。 需要紅色星號的欄位。
-1. （視條件而定）如果您的組織允許由AI支援的表單填寫，您可以上傳檔案作為提示。 AI使用這些檔案填寫表單，並且您可以接受或拒絕AI建議。
+
+   >[!TIP]
+   >
+   >Workfront請求佇列包含請求清單中的佇列名稱和表單名稱。 Planning請求表單只會在請求清單中顯示表單名稱。
+
+1. 更新&#x200B;**主旨**&#x200B;欄位。 這是請求名稱。 這是必填欄位。
+1. 更新&#x200B;**名稱**&#x200B;欄位。 這是未來記錄的名稱。
+
+   >[!TIP]
+   >
+   >**Name**&#x200B;欄位是您組織專屬的欄位，可能會在您的Workfront執行個體中顯示不同的標籤。 欄位是記錄的主要欄位。
+
+1. 更新請求表單中的其餘欄位。 需要紅色星號的欄位。
+1. （視條件而定）如果您的組織允許AI支援的&#x200B;**表單填寫**，您可以上傳檔案作為提示。 AI使用這些檔案填寫表單，您可以在提交請求之前接受或拒絕AI建議。
+
 
    如需指示，請參閱[使用AI支援的表單填入功能，使用提示或檔案填入請求](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)。
 1. 按一下&#x200B;**提交**。
@@ -172,14 +183,14 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別。
       * **物件型別**：從Planning中的要求建立記錄的工作區和記錄型別的名稱。
       * **狀態**：要求物件的狀態。
       * **要求表單**：與Planning中的記錄型別相關聯的要求表單名稱。
+     <!--* <span class="preview"**Created object status**: The status of the created record.</span> -->
 
-   * 如果請求表單與核准相關聯，則該請求會新增至Workfront請求區域中的請求清單中，以及我的請求Widget的狀態為未決檢閱。 新記錄只有在核准者核准後才新增到記錄型別頁面。
+   * 如果要求表單與核准相關聯，則會將要求新增至「Workfront要求」區域和「我的要求」Widget中的「要求」清單，且狀態為&#x200B;**擱置稽核**。 新記錄只有在核准者核准後才新增到記錄型別頁面。
 
      如需詳細資訊，請參閱[新增核准至要求表單](/help/quicksilver/planning/requests/add-approval-to-request-form.md)。
 
-   * <span class="preview">您可以在Planning中將原始要求連線欄位新增至記錄型別，以顯示建立記錄的原始要求名稱。 如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。</span>
+   * <span class="preview">您可以將&#x200B;**原始要求**&#x200B;連線欄位新增至Planning中的記錄型別，以顯示建立記錄的原始要求名稱。 如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。</span>
    * 只有擁有者、核准者及至少擁有工作區檢視許可權的使用者可看見要求。 Workfront管理員可檢視提交至系統中任何工作區的所有請求。
-
    * 您會收到應用程式內及電子郵件通知，告知您請求已成功提交或已傳送以供檢閱。
    * 如果請求表單與核准相關聯，核准者會收到應用程式內和電子郵件通知，以檢閱和核准請求。
 
@@ -190,33 +201,42 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別。
      >電子郵件確認或核准通知中會有請求的連結。
 
 1. （選擇性）按一下確認訊息中的&#x200B;**檢視您的要求**&#x200B;以開啟要求，或按一下&#x200B;**X**&#x200B;圖示以關閉確認。
-1. （選用）從請求清單中，執行下列任一項作業：
+1. （選擇性）若要管理資訊在請求清單中的顯示方式，請更新清單的下列檢視元素：
 
-   * 按一下&#x200B;**篩選器**，然後開始新增條件，讓您在要求清單中檢視哪些要求。
+   * 檢視
+   * 篩選器
+   * 欄
 
-     ![在要求區域中編輯篩選器](assets/filters-editing-box-in-requests-planning-tab.png)
+   <!--
+   <div class="preview">
+      * Group
+   * Format cells
+   * Row height
+      </div>
+   -->
 
-     您可以依下列欄位進行篩選：
+   如需詳細資訊，請參閱[在要求區域](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)中建立和管理檢視。
 
-      * **Workspace**：與請求表單相關聯的工作區。
-      * **記錄型別**：與要求表單關聯的記錄型別。
-      * **輸入日期**：提交要求的日期。
-      * **要求表單**：用來提交要求的要求表單名稱。
-      * **狀態**：要求的狀態。
-      * **輸入者**：新增請求的使用者名稱。 如果要求是由Workfront外部的人員加入，則&#x200B;**輸入者**&#x200B;欄位會顯示`N/A`。
-      * **已建立的物件狀態**：已建立記錄的狀態。
-
-     您可以有多個&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;加入的篩選器。
-當您新增篩選條件時，要求清單會自動篩選。
-
-   * 按一下&#x200B;**欄**&#x200B;以開啟&#x200B;**欄位可見性和順序**&#x200B;方塊，然後隱藏、顯示或重新排列要求清單中的欄。
-
-     >[!TIP]
-     >
-     >您無法再新增任何欄。
-
-     ![資料行編輯方塊在要求區域](assets/columns-editing-box-in-requests-planning-tab.png)
-   * 按一下要求清單右上角的&#x200B;**+**&#x200B;圖示，開啟&#x200B;**資料行管理員**&#x200B;並在要求清單中新增或移除資料行。
+   <!--   
+   1. (Optional) From the requests list, do any of the following:
+      * Click **Filters** and start adding conditions for what requests you want to view in the Requests list. 
+         ![Editing filters in the Requests area](assets/filters-editing-box-in-requests-planning-tab.png)
+         You can filter by the following fields:  
+         * **Workspace**: The workspace the request form is associated with.
+         * **Object type**: The record type the request form is associated with.
+         * **Entry date**: The date when the request was submitted.
+         * **Request form**: The name of the request form used to submit the request.
+         * **Status**: The status of the request.
+         * **Entered by**: The name of the user who added the request. If the request was added by someone outside of Workfront, the **Entered by** field shows `N/A`.
+        You can have multiple filters joined by either **And** or **Or**.
+         The request list is filtered automatically, as you add the filter conditions. 
+      * Click **Columns** to open the **Fields visibility and order** box, then hide, show, or rearrange the columns in the request list. 
+         >[!TIP]
+         >
+         >You cannot add any more columns. 
+         ![Columns editing box in Requests area](assets/columns-editing-box-in-requests-planning-tab.png)
+      * Click the **+** icon in the upper-right corner of the request list to open the **Column manager** and add or remove columns in the requests list. 
+   -->
 
 1. 按一下清單中要求的名稱。
 
@@ -233,7 +253,7 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別。
    >
    >* 如果要求表單中未更新記錄的主要欄位，則要求之記錄欄位中的記錄名稱會顯示為&#x200B;**未命名**。
    >
-   >* 如果請求表單與核准相關聯，則必須先授權核准，然後才能從請求頁面存取記錄。
+   >* 如果請求表單與核准相關聯，則必須先授權核准，然後才能從請求頁面存取記錄。 在授予核准之前，不會建立記錄。
 
 1. （選擇性）按一下&#x200B;**記錄型別**&#x200B;的名稱。
 
@@ -241,7 +261,9 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別。
 
 ## 從共用連結提交要求至Workfront Planning至要求表單
 
-本節中的資訊僅適用於從共用連結提交請求的Workfront使用者。 外部人員無法存取Workfront內部區域，例如要求或首頁。
+本節中的資訊僅適用於從共用連結提交請求的人，以及可能沒有Workfront帳戶的人。
+
+外部人員無法存取Workfront內部區域，例如&#x200B;**請求**&#x200B;或&#x200B;**首頁**。
 
 1. 從Workfront Planning記錄型別移至與您共用的連結。
 
@@ -255,53 +277,60 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別。
 
 1. 按一下&#x200B;**提交**。
 
-   您的表單已提交，且發生下列情況：
+   您的表單已提交，您將獲得確認。
 
-   * 如果要求表單未與核准建立關聯，要求會新增至Workfront要求區域中的要求清單和首頁中的我的要求Widget，新記錄會新增至與表單建立關聯的記錄型別。
+   如果表單與核准相關聯，則必須先核准該表單，才能建立記錄。
 
-   * 如果請求表單與核准相關聯，則會將請求新增至「Workfront請求」區域和「我的請求」Widget中的「請求」清單。 只有在所有核准者核准記錄型別後，才會將新記錄新增到該記錄型別頁面。
+1. （選擇性）按一下&#x200B;**提交其他要求**，將其他要求新增至相同的共用連結。
 
-     如需詳細資訊，請參閱[新增核准至要求表單](/help/quicksilver/planning/requests/add-approval-to-request-form.md)。
+<!--
+   * If the request form was not associated with an approval, the request is added to the Requests list in the Workfront Requests area and My Requests widget in Home, and a new record is added to the record type associated with the form. This is available only when you log in to Workfront.
+   
+   * If the request form was associated with an approval, the request is added to the Requests list in the Workfront Requests area and My Requests widget. A new record is added to the record type page only after all the approvers have approved it. This is available only when you log in to Workfront.
+   
+      For information, see [Add an approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
-     >[!IMPORTANT]
-     >
-     >您只能檢視您或其他人提交至您至少擁有檢視許可權之工作區的請求。 Workfront管理員可檢視提交至系統中任何工作區的所有請求。<!--ensure this is correct; asking team in slack-->
+      >[!IMPORTANT]
+      >
+      >You can view only the requests submitted by you or anyone else to the workspaces that you have at least permissions to View. Workfront administrators can view all requests submitted to any workspace in the system. <!--ensure this is correct; asking team in slack
+   
+   
+   * You receive an in-app and an email notification that the request has either been submitted successfully or has been sent for review.
+   * If the request form was associated with an approval, the approvers receive an in-app and an email notification to review and approve the request.
+      >[!NOTE]
+      >
+      >The email and in-app notification are visible only when your organization's instance of Workfront is onboarded to the Adobe Unified Experience.
+   
+   <span class="preview"> After the request was approved and the record was created, the Approved by and Approved date fields display information about the approval on the record.</span>
 
-   * 您會收到應用程式內及電子郵件通知，告知您請求已成功提交或已傳送以供檢閱。
-   * 如果請求表單與核准相關聯，核准者會收到應用程式內和電子郵件通知，以檢閱和核准請求。
 
-     >[!NOTE]
-     >
-     >只有當貴組織的Workfront執行個體上線至Adobe Unified Experience時，才會顯示電子郵件和應用程式內通知。
+1. (Optional) Click **View your request** to open the request in Workfront.
 
-   <!-- <span class="preview"> After the request was approved and the record was created, the Approved by and Approved date fields display information about the approval on the record.</span>-->
 
-1. （選擇性）按一下&#x200B;**檢視您的要求**，在Workfront中開啟要求。
+Or
 
-   <!--Or-->
+Click [Submit another request](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) to open the request form and add a new request.
 
-   <!--Click [Submit another request](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) to open the request form and add a new request.-->
+   The request details page opens. 
 
-1. （選擇性）按一下&#x200B;**主功能表** > **要求**&#x200B;以檢視您的要求，然後按一下要求的名稱。
+   ![Request page with comment](assets/new-request-page-with-comment.png)
 
-   請求詳細資訊頁面隨即開啟。
+1. (Optional) Enter a comment in the **Comments** area.
+1. (Conditional) If the request form is not associated with an approval, or if the request has been approved, click the name of the request, then click the name of the record in the **Created object** field. 
 
-   ![含有註解的請求頁面](assets/new-request-page-with-comment.png)
-
-1. （選擇性）在「註解」(Comments)區域中輸入註解。
-1. （視條件而定）如果要求表單未與核准建立關聯，或要求已核准，請按一下要求名稱，然後在&#x200B;**建立的物件**&#x200B;欄位中按一下記錄名稱。
-
-   記錄的頁面會在Workfront Planning中開啟。
+   The record's page opens in Workfront Planning. 
 
    >[!TIP]
    >
-   >* 如果未將記錄名稱新增至請求表單，則請求之「記錄」欄位中的記錄名稱會顯示為&#x200B;**未命名**。
+   >* If the record name was not added to the request form, the name of the record in the Record field of the request displays as **Untitled**. 
    >
-   >* 如果請求表單與核准相關聯，則必須先授權核准，然後才能從請求頁面存取記錄。
+   >* If the request form is associated with an approval, the approval must be granted before you can access the record from the request page. 
 
-1. （選擇性）按一下&#x200B;**物件型別**&#x200B;的名稱。
+1. (Optional) Click the name of the **Object type**. 
 
-   記錄型別頁面會在Workfront Planning中開啟。
+   The record type page opens in Workfront Planning. 
+
+-->
 
 ## 複製現有請求以建立請求
 
@@ -309,15 +338,35 @@ Workfront使用者與外部使用者可以提交請求給Planning記錄型別。
 
 這僅在新的請求體驗中可用。
 
-如需指示，請參閱[複製並提交要求](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md)。
+複製現有Planning請求並將其提交為新請求與複製現有Workfront請求類似。
+
+如需詳細資訊，請參閱[複製並提交請求](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md)。
 
 ## 從現有草稿建立草稿與請求
 
 您可以建立請求的草稿，然後返回草稿並於稍後提交作為請求。
 
-這僅在新的請求體驗中可用。
+這僅在新的請求體驗中可用。 在Workfront Planning中從現有草稿建立草稿與請求，與從Adobe Workfront建立草稿與請求相同。
 
-如需指示，請參閱[從草稿建立請求](/help/quicksilver/manage-work/requests/create-requests/create-requests-from-drafts.md)。
+如需詳細資訊，請參閱[從草稿建立請求](/help/quicksilver/manage-work/requests/create-requests/create-requests-from-drafts.md)。
+
+## 刪除草稿或已提交的請求
+
+使用新請求體驗時，您可以刪除已提交的請求或其草稿。
+
+刪除Planning請求時，會發生下列情況：
+
+* 無法復原要求。
+* 不會刪除從請求建立的記錄。
+* 已刪除的草稿無法復原。 沒有與草稿關聯的記錄。
+
+刪除Planning請求與刪除Workfront請求類似。
+
+如需詳細資訊，請參閱[刪除提交的請求或請求草稿](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md)。
+
+
+
+
 
 
 

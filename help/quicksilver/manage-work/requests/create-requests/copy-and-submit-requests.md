@@ -6,9 +6,9 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
 workflow-type: tm+mt
-source-wordcount: '1520'
+source-wordcount: '1529'
 ht-degree: 3%
 
 ---
@@ -139,7 +139,7 @@ ht-degree: 3%
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>主旨</strong> </td> 
-      <td>顯示原始請求的名稱。 如有需要，請更新。 否則，Workfront會將複製的請求命名為<b> &lt;原始請求的名稱&gt;</b>的副本。 此為必填欄位。</td> 
+      <td>顯示原始請求的名稱。 如有需要，請更新。 否則，Workfront會將複製的請求命名為<b>&lt;Name of original request&gt;</b>副本。 此為必填欄位。</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>說明</strong> </td> 
@@ -226,17 +226,21 @@ ht-degree: 3%
 
 您可以在Workfront的「請求」區域中，或從「首頁」的「我的請求」小工具中複製並提交請求。
 
-{{step1-to-requests}}
+1. 執行下列其中一項：
 
-1. 若要存取「首頁」中的「我的請求」Widget：
+   {{step1-to-requests}}
+
+   1. 若要存取&#x200B;**首頁**&#x200B;中的&#x200B;**我的請求** Widget：
 
    {{step1-to-home}}
 
-   1. 找出「我的請求」Widget。
+   1. 找到&#x200B;**我的請求** Widget。
 
       如需有關「我的請求」Widget的詳細資訊，請參閱[使用「我的請求」Widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)。
 
-1. 在&#x200B;**要求**&#x200B;清單或首頁的&#x200B;**我的要求** Widget中，將游標移至您要複製的要求上，然後按一下&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)。
+1. 在&#x200B;**請求**&#x200B;清單或首頁的&#x200B;**我的請求** Widget中，將游標移至您要複製的請求上，然後按一下其名稱旁邊的&#x200B;**更多**&#x200B;功能表。
+
+   ![更多功能表](assets/more-menu.png)
 
 1. 按一下&#x200B;**複製**
 

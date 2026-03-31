@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 2f1c3d4311f54f7f273b2304e39e6fbfc0f4b657
+source-git-commit: 8252e3456e26de3352ebcfd2d66f3d2e63b46428
 workflow-type: tm+mt
 source-wordcount: '1648'
 ht-degree: 0%
@@ -221,7 +221,7 @@ ht-degree: 0%
 
      或
 
-     按一下&#x200B;**下移**&#x200B;將區段下移一個位置。
+     按一下&#x200B;**下移**將區段下移一個位置。
 區段中的所有欄位會隨著區段移動。
 
    * 按一下&#x200B;**刪除**&#x200B;以刪除區段。 該區段已刪除且無法復原。 所有存取此型別記錄的使用者將不再檢視已刪除的區段。
@@ -282,23 +282,25 @@ ht-degree: 0%
    * 選取&#x200B;**顯示所有欄位**&#x200B;設定，以檢視記錄表格檢視中的所有欄位，包括隱藏的欄位。
    * 取消選取「**顯示所有欄位**」設定，以僅檢視未在記錄的資料表檢視中隱藏的欄位。 這是預設設定
 
-     <!--
+   </div>
+
+   <!--
       replace with this when they fix the UI text:
       * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
       * Deselect the **Show all fields** setting to exclude the record's fields that are hidden in the table view of the record from the **Details** page.
       -->
 
-   </div>
-
    >[!TIP]
    >
    ><span class="preview"> **顯示所有欄位**&#x200B;設定僅在記錄的[詳細資料]預覽方塊中可用。 在記錄的[詳細資料]頁面中無法使用。</span>
-1. （選擇性）如果您要導覽至已連線的記錄，請在詳細資訊頁面頂端的階層連結中按一下該記錄的名稱。 <span class="preview">如果您在階層連結中看不到記錄名稱，請按一下&#x200B;**更多**。 這會在多個列上顯示階層連結。 按一下&#x200B;**減**&#x200B;縮短階層連結，並將它顯示在一列。</span>
+
+1. （選擇性）如果您要導覽至已連線的記錄，請在詳細資訊頁面頂端的階層連結中按一下該記錄的名稱。<span class="preview">
+
+   如果您在階層連結中看不到記錄名稱，請按一下&#x200B;**更多**。 這會在多個列上顯示階層連結。 按一下&#x200B;**減**&#x200B;縮短階層連結，並將它顯示在一列。</span>
 
    >[!TIP]
    >
    >您必須在工作區中擁有已連線的記錄型別、記錄和階層，才能在記錄的詳細資訊頁面中檢視階層連結。
-
 
 1. （選擇性）按一下記錄預覽右上角的&#x200B;**在新索引標籤中開啟**&#x200B;圖示![在新索引標籤圖示中開啟詳細資訊方塊](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->，以在新索引標籤中開啟記錄的頁面。
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
+source-git-commit: ddf10844646a79c43accaffa1789caf24290cc8a
 workflow-type: tm+mt
-source-wordcount: '3552'
+source-wordcount: '3568'
 ht-degree: 1%
 
 ---
@@ -120,6 +120,11 @@ ht-degree: 1%
    記錄型別頁面會在您上次存取的檢視中開啟。 依預設，會在表格檢視中開啟記錄型別頁面。
 
 1. 按一下頁面標頭中記錄型別名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**建立請求表單**&#x200B;或&#x200B;**管理請求表單** （如果您已經有表單，而且想要建立其他表單）。
+
+   **請求表單**&#x200B;頁面會開啟，且請求會顯示在清單檢視中。
+
+   ![要求表單頁面](assets/request-forms-in-list-view.png)
+
 1. （視條件而定）若要新增其他表單，請按一下&#x200B;**新增請求表單**。
 
    **建立請求表單**&#x200B;方塊開啟。
@@ -180,7 +185,7 @@ ht-degree: 1%
 
    或
 
-   在[要求表單]清單上找出要求表單，按一下表單名稱旁的方塊，然後按一下畫面底部藍色列中的[編輯表單]。**&#x200B;**
+   在[要求表單]清單上找出要求表單，按一下表單名稱旁的方塊，然後按一下畫面底部藍色列中的[編輯表單]。****
 
    所選記錄型別的請求表單會在「表單」標籤中開啟。
 
@@ -328,7 +333,7 @@ ht-degree: 1%
    無法重新排序預設規則。
 
 1. （選擇性）若要刪除路由規則，請按一下規則右側的&#x200B;**X**。
-1. 按一下[儲存]儲存核准規則。**&#x200B;**
+1. 按一下[儲存]儲存核准規則。****
 1. 繼續[設定要求完成選項](#set-request-completion-options)
 
 #### 設定請求完成選項

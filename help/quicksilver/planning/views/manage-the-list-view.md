@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
-source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
+source-git-commit: ddf10844646a79c43accaffa1789caf24290cc8a
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1490'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,17 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-在Adobe Workfront Planning中，於記錄的「連線記錄」頁面中存取專案時，您可以在清單檢視中顯示專案及其欄位。<!--change 'projects' to other objects when they become available and the location of the list view-->
+您可以在Workfront Planning的下列區域中檢視清單檢視中的物件：
 
-本文說明如何建立或編輯清單檢視，該檢視在記錄的「連線記錄」頁面中顯示專案，以及如何在檢視中編輯專案。<!--change 'projects' to other objects when they become available and the location of the list view-->
+* 記錄的詳細資訊區域中專案的已連線記錄頁面
+
+  在清單檢視中![連線記錄頁面上的專案](assets/projects-on-connected-records-page-list-view.png)
+
+* 記錄型別層級的請求表單清單
+
+  ![在清單檢視中要求表單](assets/request-forms-in-list-view.png)
+
+本文說明如何導覽、建立或編輯在Workfront Planning中顯示物件的清單檢視。<!--change 'projects' to other objects when they become available and the location of the list view-->
 
 ## 存取權要求
 
@@ -72,35 +80,62 @@ ht-degree: 0%
 
 ## 關於清單檢視的考量事項
 
-* 您無法在清單檢視中檢視記錄型別頁面中的所有物件型別。
+* 對於連線的記錄頁面清單檢視，請考量下列事項：
 
-  當您在記錄的「連線的記錄」頁面中檢視下列物件時，只能在清單檢視中顯示這些物件：
-
-   * Workfront專案
+   * 您只能在記錄的已連線記錄頁面中檢視清單檢視中的專案。 清單檢視不適用於已連線記錄頁面中的任何其他物件或記錄型別。
 
   如需有關建立連線記錄頁面的資訊，請參閱[新增連線記錄頁面至記錄](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)。
-* 您必須先將Workfront專案與Planning記錄型別連線，才能在記錄的已連線記錄頁面中檢視清單檢視。 如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
+   * 您必須先將Workfront專案與Planning記錄型別連線，才能在記錄的已連線記錄頁面中檢視清單檢視。 如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
+   * 您可以在記錄的連線記錄頁面中建立專案的多個清單檢視。
+
+* 對於請求表單清單檢視，請考慮下列事項：
+
+   * 您無法為Planning請求表單建立或編輯其他清單檢視。 Workfront會為請求表單建立一個清單檢視。<!--this will change-->
+
+     如需請求表單的相關資訊，請參閱[在Adobe Workfront Planning中建立和管理請求表單](/help/quicksilver/planning/requests/create-request-form.md)。
+* 並非每個清單檢視都有本文所述的所有相同元素，端視其顯示位置而定。
 
 
 ## 管理清單檢視 {#manage-a-list-view}
 
-清單檢視類似於增強型清單。 如需詳細資訊，請參閱[使用增強型清單](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
+清單檢視類似於增強型清單。 增強型檢視的大部分元素也存在於清單檢視的Workfront Planning中。
 
+如需詳細資訊，請參閱[使用增強型清單](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
+
+<!--
 {{step1-to-planning}}
 
-1. 按一下工作區卡片，然後按一下記錄型別卡片。
-1. 從任何檢視中，按一下記錄名稱以開啟記錄的預覽或詳細資訊頁面。
-1. 依照文章&#x200B;**新增連線的記錄頁面**&#x200B;中的說明，為連線的專案新增[連線的記錄頁面](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)。
+1. (Conditional) To access a projects connected page, do the following: 
 
-   「連線的記錄」頁面會顯示清單檢視中連線至記錄的專案。
+    1. Click a workspace card, then click a record type card. 
+    1. From any view, click the name of a record to open the record's preview or details page. 
+    1. Add a **Connected records page** for connected projects as described in the article [Add a Connected records page to a record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
 
-   <!--add new screen shot when they release Conditional formatting MVP -->
+    The Connected records page displays projects connected to the record in the list view. 
 
-   在清單檢視中![連線記錄頁面上的專案](assets/projects-on-connected-records-page-list-view.png)
+    ![Projects on connected records page in list view](assets/projects-on-connected-records-page-list-view.png)
 
-1. （選擇性）執行下列任一項作業來修改清單檢視：
+1. (Conditional) To access a list of request forms, do the following: 
 
-   1. 展開清單右上角的下拉式檢視功能表，以選取其他檢視，或按一下&#x200B;**新增檢視**&#x200B;並建立另一個檢視。
+    1. {{step1-to-planning}}
+
+    1. (Conditional) To access a projects connected page, do the following: 
+
+    1. Click a workspace card, then click a record type card.
+    1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record name in the header, then click **Manage request forms**.
+
+        A list of request forms displays.
+
+-->
+
+1. 移至下列其中一個區域的清單檢視：
+
+   * 記錄的詳細資訊區域中的「連線記錄」頁面
+   * 記錄的「請求表單」頁面
+
+1. （視條件而定）可用時，請執行下列任一項作業來修改清單檢視：
+
+   1. 展開清單左上角的下拉式檢視功能表，以選取其他檢視，或按一下&#x200B;**新增檢視**&#x200B;並建立另一個檢視。
 
       檢視會在整個系統中共用。 如果您為一個記錄型別建立「專案」檢視，則可以在顯示已連線專案的其他記錄型別上檢視它。
 
@@ -116,6 +151,17 @@ ht-degree: 0%
       >* 您無法修改系統檢視。
       >
       >* <span class="preview">您可以在修改檢視以還原其原始偏好設定後，重設與您共用的檢視（您只有[檢視]的許可權），也可以複製檢視並共用復本。 如需詳細資訊，請參閱[使用增強型清單](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。</span>
+
+      <!--
+        And hide everything else below for these elements, after moving it to the Use enhanced lists article: 
+        1. <span class="preview">To update one of the following view elements, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md):</span>
+            <div class="preview">
+            * Filter
+            * Columns
+            * Format cells
+            * Row height
+            </div>
+        -->
 
    1. 按一下&#x200B;**篩選器**&#x200B;圖示![篩選器圖示](assets/filter-icon.png)將篩選器新增至檢視。 結果會立即在清單中篩選。 您無法儲存並命名篩選器。 日後存取頁面時會記住篩選器，這些篩選器也是共用檢視的一部分。
    1. 按一下&#x200B;**欄**&#x200B;圖示![欄圖示](assets/columns-icon.png)以選取要在檢視中顯示或隱藏的欄。
@@ -133,7 +179,13 @@ ht-degree: 0%
       <span class="preview">執行下列動作： </span>
 
       1. 按一下&#x200B;**新增條件**。
-      1. <span class="preview">在&#x200B;**If**&#x200B;行中，選取欄位並選擇欄位值，然後按一下&#x200B;**新增條件**。</span>
+      1. <span class="preview">在&#x200B;**If**&#x200B;行中，選取欄位並選擇欄位值並新增修飾元。 修正因子會根據您選擇的欄位型別而變更。</span>
+
+         >[!TIP]
+         >
+         ><span class="preview">只有清單檢視中可見的欄位才可用於條件式格式。</span>
+
+      1. <span class="preview">（選擇性）不要新增欄位值，請按一下&#x200B;**與另一個欄位比較**&#x200B;圖示![與另一個欄位比較](assets/compare-to-another-field-icon.png)，並選擇要與所選欄位值進行比較的欄位。 例如，您可以篩選專案所有者符合專案贊助者的專案。</span>
 
          >[!TIP]
          >
@@ -149,7 +201,7 @@ ht-degree: 0%
 
       1. 按一下條件之間的&#x200B;**Or**&#x200B;聯結器，變更為&#x200B;**和**，並指示必須同時符合多個條件。 **或**&#x200B;是預設聯結器。
       1. 在&#x200B;**格式**&#x200B;行中，選取欄位以指示要格式化的欄。<!--edit this area, if it changes names??-->
-      1. （選擇性）按一下所選欄位旁的&#x200B;**顏色圓形**&#x200B;圖示![顏色圓形圖示](assets/color-circle.png)，以展開並選擇其他顏色。
+      1. （選擇性）按一下所選欄位旁的&#x200B;**顏色圓圈**&#x200B;圖示![顏色圓圈圖示](assets/color-circle.png)，以展開並選擇其他顏色<!--for a cell or the text of the cell that matches your criteria-->。<!--is this where the bold, italic is? I had no UI for this when I wrote it-->
       1. 開啟&#x200B;**套用至列**&#x200B;設定，將格式套用至符合條件的欄位整列。
       1. （選擇性）在&#x200B;**格式**&#x200B;方塊中按一下&#x200B;**新增條件**，為其他欄位新增另一個規則，並重複上述步驟。
       1. （選擇性）按一下「全部清除&#x200B;**」**&#x200B;以移除所有格式設定。
@@ -160,6 +212,8 @@ ht-degree: 0%
 **格式化儲存格**&#x200B;圖示旁有一個藍點，表示檢視已套用特殊格式。
 
       </div>
+
+   <!--leave these here-->
 
 1. （可選）在清單右上角的搜尋方塊中新增關鍵字，以搜尋專案。
 
@@ -178,9 +232,9 @@ ht-degree: 0%
 
    或
 
-   選取一或多個專案，並注意清單底部的動作列，然後按一下下列其中一項：
+   選取一或多個專案，並注意清單底部的動作列，然後按一下下列其中一項（如果可用）：
 
-   * **刪除**&#x200B;以刪除專案。 刪除專案會中斷專案與記錄的連線，並將其移至Workfront的「資源回收筒」。 Workfront管理員可在刪除已刪除的專案後30天內復原這些專案。
+   * **刪除**&#x200B;以刪除專案。 刪除專案會中斷專案與記錄的連線，並將其移至Workfront的「資源回收筒」。 Workfront管理員可在刪除已刪除的專案後30天內復原這些專案。 刪除表單不會刪除提交表單時建立的請求或記錄。
    * **中斷連線**&#x200B;以中斷專案與記錄的連線。 中斷專案的連線會從目前記錄中移除該專案及其查閱欄位的所有值。
 
    連線記錄頁面清單檢視中的![動作列](assets/actions-bar-connected-records-page-list-view.png)
