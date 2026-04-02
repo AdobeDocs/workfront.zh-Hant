@@ -6,9 +6,11 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: b2f1bbfbbec23a5400552eb0f989e0a0dc58413c
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
 workflow-type: tm+mt
-source-wordcount: '1343'
+source-wordcount: '1375'
 ht-degree: 2%
 
 ---
@@ -115,7 +117,8 @@ ht-degree: 2%
 +++
 
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -177,7 +180,8 @@ ht-degree: 2%
 </td>
   </tr>
 </tbody> 
-</table>-->
+</table>
+-->
 
 ## 使用記錄檢視時的注意事項
 
@@ -267,7 +271,7 @@ ht-degree: 2%
    * 時間軸
    * 行事曆
 
-1. 選擇檢視型別，然後按一下[建立]。**&#x200B;** 新檢視會新增至下拉式功能表。
+1. 選擇檢視型別，然後按一下[建立]。**** 新檢視會新增至下拉式功能表。
 
    >[!TIP]
    >
@@ -281,6 +285,16 @@ ht-degree: 2%
    ![建立檢視方塊](assets/create-view-box.png)
 
 1. （選擇性）若要編輯現有檢視，請按一下目前檢視名稱右側的下拉式功能表，然後在&#x200B;**搜尋**&#x200B;欄位中輸入檢視名稱，然後在鍵盤上按Enter鍵。
+
+   >[!TIP]
+   >
+   ><span class="preview">您可以使用下列鍵盤組合，從任何Workfront Planning頁面開啟全域搜尋方塊並搜尋檢視：</span>
+   >
+   >* <span class="preview">CTRL+K for Windows</span>
+   >* 適用於Mac<span class="preview">⌘的</span>+K
+   >
+   >![全域搜尋方塊](assets/global-search-box.png)
+
 1. （可選）從檢視下拉式功能表中，依您的偏好順序拖放檢視。
 
    ![記錄型別清單中的檢視型別下拉式清單](assets/view-types-drop-down-from-record-type-list.png)
@@ -301,7 +315,7 @@ ht-degree: 2%
    >
    >    您可以從記錄日期欄位中選取，或從連線的記錄或物件型別中查詢日期欄位。
    >
-   >連線記錄型別時，當您選取查閱欄位時，必須為日期欄位使用彙總(MAX或MIN)。 僅新增彙總可讓您使用連線的日期作為時間軸和行事曆檢視的開始和結束日期。
+   >連線記錄型別時，當您選取查閱欄位時，必須為日期欄位使用彙總（MAX或MIN）。 僅新增彙總可讓您使用連線的日期作為時間軸和行事曆檢視的開始和結束日期。
    >
    >如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
 

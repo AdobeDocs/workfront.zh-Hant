@@ -6,9 +6,11 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 54a6e633e903c73a78b36e90fb27edb445dc8d47
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
 workflow-type: tm+mt
-source-wordcount: '1547'
+source-wordcount: '1586'
 ht-degree: 1%
 
 ---
@@ -89,7 +91,8 @@ ht-degree: 1%
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -147,7 +150,8 @@ ht-degree: 1%
   </tr> 
  
 </tbody> 
-</table>-->
+</table>
+-->
 
 ## 共用記錄型別時的注意事項
 
@@ -215,11 +219,15 @@ ht-degree: 1%
 
    1. 從&#x200B;**繼承許可權**&#x200B;下拉式功能表中選取&#x200B;**停用**。
 
-   >[!TIP]
-   >
-   >Workspace管理員繼續擁有該記錄型別的管理許可權。
+      >[!TIP]
+      >
+      >Workspace管理員繼續擁有該記錄型別的管理許可權。
 
    1. 在&#x200B;**授與此記錄型別**&#x200B;的存取權欄位中，新增您想要授與不同於工作區之許可權等級的使用者、團隊、群組、公司或工作角色。
+   1. <span class="preview"> （選擇性）當您與群組、團隊、角色或公司共用時，將滑鼠游標停留在實體的名稱上，然後按一下向右箭頭，以展開正在接收許可權的使用者清單。</span>
+
+      ![與群組](assets/share-record-type-with-group-expanding-arrow-highlighted.png)共用記錄型別
+
    1. 選擇許可權層級。
 
    >[!IMPORTANT]
@@ -270,7 +278,8 @@ ht-degree: 1%
 
    對於已從存取記錄型別中移除的使用者，不會通知他們不再擁有這些許可權。
 
-<!-- This is not working yet: *************************** edit this before publishing, because this was not tested with record types - this section came from sharing views *******************: 
+<!--
+ This is not working yet: *************************** edit this before publishing, because this was not tested with record types - this section came from sharing views *******************: 
 
 ## Grant permissions to a record type from a permission request
 
@@ -295,5 +304,8 @@ Users who access a link to a record type to which they do not have permissions c
 1. Select the user for whom you want to approve or deny the permission, then click **Approve all** or **Deny all**. 
 1. Click the left-pointing arrow to the left of **Pending access requests**, then click **Save**.
 
-   If you approved the request, the users are added to the sharing box of the view. The user requesting the permission receives an email confirmation that their request was approved. <!--will they also get an in-app notification??-->
+   If you approved the request, the users are added to the sharing box of the view. The user requesting the permission receives an email confirmation that their request was approved. 
+   
+   will they also get an in-app notification??
+-->
 

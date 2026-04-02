@@ -6,19 +6,23 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 1%
+source-wordcount: '811'
+ht-degree: 0%
 
 ---
 
 
 # 編輯工作區
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 
 {{planning-important-intro}}
 
@@ -29,6 +33,16 @@ ht-degree: 1%
 如需有關建立工作區的資訊，請參閱[建立工作區](/help/quicksilver/planning/architecture/create-workspaces.md)。
 
 您對工作區所做的所有變更，對至少擁有工作區檢視許可權的所有使用者都是可見的。
+
+您可以透過下列方式編輯工作區：
+
+* 手動。
+
+  本文介紹如何手動編輯工作區。
+
+* 使用AI支援的Planning Designer。 此功能目前僅在有限的Beta程式中提供。
+
+  如需詳細資訊，請參閱[開始使用Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md)。
 
 ## 存取權要求
 
@@ -69,7 +83,8 @@ ht-degree: 1%
 
 +++   
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -123,7 +138,8 @@ ht-degree: 1%
    <td>  <p>Manage permissions to the workspace </p>   </td> 
   </tr> 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## 編輯工作區
 
@@ -141,6 +157,16 @@ ht-degree: 1%
    * 將滑鼠停留在工作區卡片上，然後按一下卡片右上角的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)
 或
    * 按一下[工作區]頁面右上角的&#x200B;**搜尋**&#x200B;圖示![搜尋圖示](assets/search-icon.png)，依名稱搜尋工作區，然後按一下工作區卡片以開啟工作區，再按一下工作區名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)。
+
+   >[!TIP]
+   >
+   ><span class="preview">您可以使用下列鍵盤組合，從任何Workfront Planning頁面開啟全域搜尋方塊並搜尋工作區：</span>
+   >
+   >* <span class="preview">CTRL+K for Windows</span>
+   >* 適用於Mac<span class="preview">⌘的</span>+K
+   >
+   >![全域搜尋方塊](assets/global-search-box.png)
+
 1. 按一下&#x200B;**編輯**。
 
    會顯示&#x200B;**編輯工作區**&#x200B;方塊。

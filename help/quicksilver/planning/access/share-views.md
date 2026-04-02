@@ -6,9 +6,11 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 54a6e633e903c73a78b36e90fb27edb445dc8d47
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
 workflow-type: tm+mt
-source-wordcount: '1946'
+source-wordcount: '2016'
 ht-degree: 1%
 
 ---
@@ -37,7 +39,8 @@ ht-degree: 1%
 
 
 <!--
-This article describes how you can share a view with others. For information about requesting, granting, or denying permissions to a view, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md). -->
+This article describes how you can share a view with others. For information about requesting, granting, or denying permissions to a view, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md).
+-->
 
 ## 存取權要求
 
@@ -91,7 +94,8 @@ This article describes how you can share a view with others. For information abo
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -149,7 +153,8 @@ This article describes how you can share a view with others. For information abo
   </tr> 
 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## 共用檢視時的注意事項
 
@@ -214,12 +219,15 @@ This article describes how you can share a view with others. For information abo
    >
    >* 當您和使用者共用檢視時，其主要工作角色<span class="preview">和他們的電子郵件</span>也會顯示在欄位中。 您必須在存取層級中為使用者物件啟用「檢視連絡人資訊」設定，才能檢視使用者的電子郵件。
 
-
    * **工作區中的所有人都可以檢視**：所有對工作區具有「檢視」或更高許可權的使用者都可以存取檢視。
 
 1. 在&#x200B;**授與此檢視的存取權**&#x200B;欄位中，開始輸入使用者、群組、團隊、公司或工作角色的名稱，然後當它顯示在清單中時按一下它。
 
    ![與群組共用檢視](assets/sharing-a-view-ui-with-groups.png)
+
+1. <span class="preview"> （選擇性）當您與群組、團隊、角色或公司共用時，將滑鼠游標停留在實體的名稱上，然後按一下向右箭頭，以展開正在接收許可權的使用者清單。</span>
+
+   ![與團隊共用檢視](assets/share-view-with-team-expanding-arrow-highlighted.png)
 
 1. 從下拉式功能表中選取下列其中一個許可權等級：
    * 檢視
@@ -294,8 +302,16 @@ This article describes how you can share a view with others. For information abo
    >
    >沒有人員或全域圖示的檢視是您建立的檢視，不會與他人共用。 非共用檢視僅對您可見。
 
-
 1. （可選）將您複製的連結貼到電子郵件、聊天訊息、檔案，或貼到Workfront註解中，以便與其他人共用。
+
+   <div class="preview">
+
+   當其他人開啟公開檢視時，他們會在標題中看到有關檢視的下列資訊：
+
+   * 檢視名稱和圖示
+   * 檢視顯示的記錄型別名稱
+
+   </div>
 
 ## 複製檢視的連結
 
@@ -337,7 +353,7 @@ This article describes how you can share a view with others. For information abo
      ![檢視](assets/in-app-notification-for-access-request-for-view.png)存取要求的應用程式內通知
 1. （視條件而定）從Workfront的通知區域，按一下應用程式內通知
 或
-在電子郵件通知中，按一下&#x200B;**檢視所有通知**，然後按一下清單中的通知。
+在電子郵件通知中，按一下**檢視所有通知**，然後按一下清單中的通知。
 
    顯示&#x200B;**擱置中的存取要求**&#x200B;方塊。
 

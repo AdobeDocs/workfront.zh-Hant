@@ -6,9 +6,11 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1064'
 ht-degree: 2%
 
 ---
@@ -24,7 +26,8 @@ ht-degree: 2%
 您可以與其他人共用工作區，以確保在Adobe Workfront Planning中工作時，進行共同作業。
 
 <!--
-This article describes how you can share a view with others. For information about requesting, granting, or denying permissions to a view, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md). -->
+This article describes how you can share a view with others. For information about requesting, granting, or denying permissions to a view, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md).
+-->
 
 >[!NOTE]
 >
@@ -67,7 +70,8 @@ This article describes how you can share a view with others. For information abo
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -124,7 +128,8 @@ This article describes how you can share a view with others. For information abo
   </tr> 
 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## 關於共用工作區的考量事項
 
@@ -175,6 +180,10 @@ This article describes how you can share a view with others. For information abo
    >
    >* 當您與使用者共用工作區時，其主要工作角色<span class="preview">及其電子郵件</span>也會顯示在欄位中。 您必須在存取層級中為使用者物件啟用「檢視連絡人資訊」設定，才能檢視使用者的電子郵件。
 
+1. <span class="preview"> （選擇性）當您與群組、團隊、角色或公司共用時，將滑鼠游標停留在實體的名稱上，然後按一下向右箭頭，以展開正在接收許可權的使用者清單。</span>
+
+   ![與群組共用工作區](assets/share-workspace-role-expanding-arrow-highlighted.png)
+
 1. 從下拉式功能表中選取下列其中一個許可權等級：
    * 檢視
    * 參與
@@ -199,7 +208,7 @@ This article describes how you can share a view with others. For information abo
      ![存取要求的電子郵件通知](assets/email-notification-for-access-request.png)
 1. （視條件而定）從Workfront的通知區域，按一下應用程式內通知
 或
-在電子郵件通知中，按一下&#x200B;**檢視所有通知**，然後按一下清單中的通知。
+在電子郵件通知中，按一下**檢視所有通知**，然後按一下清單中的通知。
 
    顯示&#x200B;**擱置中的存取要求**&#x200B;方塊。
 
