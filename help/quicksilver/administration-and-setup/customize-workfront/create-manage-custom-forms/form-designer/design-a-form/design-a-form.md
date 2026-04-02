@@ -8,9 +8,11 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 9fcfea189bfc8827e41098823402f5e392b36d1b
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '7040'
+source-wordcount: '7439'
 ht-degree: 5%
 
 ---
@@ -33,8 +35,9 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td>Adobe Workfront 封裝</td> 
-   <td><p>任何</p></td> 
-  </tr> 
+   <td> <p>若要建立工作角色、費率卡和指派的自訂表單：工作流程Ultimate</p>
+      <p>為所有其他支援的物件建立自訂表單：任何Workfront或Workflow封裝</p> </td> 
+  </tr>  
   <tr> 
    <td>Adobe Workfront授權</td> 
    <td><p>標準</p>
@@ -42,7 +45,7 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
-   <td> <p>管理自訂表單的存取權</p> </td> 
+   <td>管理自訂表單的存取權</td> 
   </tr>  
  </tbody> 
 </table>
@@ -58,11 +61,50 @@ ht-degree: 5%
 1. 在左側面板中，按一下&#x200B;**自訂Forms**，然後選取&#x200B;**Forms**。
 
 1. 按一下&#x200B;**新增自訂表格。**
-1. 選取您要附加自訂表單的物件型別，然後按一下[繼續]。**&#x200B;**
+1. 選取您要附加自訂表單的物件型別，然後按一下[繼續]。****
 
-   ![選擇物件型別](assets/new-custom-form-select-objects.png)
+<div class="preview">
+
+預覽環境中的範例影像：
+
+![選擇物件型別](assets/new-custom-form-select-objects-032526.png)
+
+</div>
+
+生產環境中的影像範例：
+
+![選擇物件型別](assets/new-custom-form-select-objects.png)
+
++++ 展開以檢視支援自訂表單的物件清單。
+
+* 專案
+* 任務
+* 問題/請求
+* 專案組合
+* 文件
+* 方案
+* 費用
+* 使用者
+* 公司
+* 疊代
+* 計費記錄
+* 群組
+* <span class="preview">團隊</span>
+
+<div class="preview">
+
+如果您在Workflow Ultimate套件中，也可以建立這些物件的自訂表單：
+
+* 職務角色
+* 費率卡
+* 指派
+
+</div>
+
++++
 
 1. 在&#x200B;**新增表單名稱**&#x200B;區域中，輸入自訂表單標題。
+1. <span class="preview">（選擇性）如果您想要新增更多物件型別至表單，以便附加至更多物件，請按一下表單設計工具標題中的&#x200B;**物件型別**。 選取您要新增的物件型別，並取消選取您要從表單中刪除的任何物件型別。</span>
 1. （選擇性）如果您想要新增更多物件型別至表單，以便將其附加到更多物件，請按一下&#x200B;**物件型別**&#x200B;旁的![新增](assets/add-objects-icon.png)圖示&#x200B;**新增物件圖示**，然後在顯示的功能表中選取您想要的型別。 您可以重複此步驟，新增任意數目的物件型別。
 
    將多個物件新增至表單後，您可以按一下物件型別上的X以將其從表單中刪除。
@@ -110,7 +152,7 @@ ht-degree: 5%
    >
    >若將現有欄位標示為非使用中，此後就無法用於報表元素和自訂表單。 如果報表或表單中目前正在使用非作用中欄位，則欄位及其歷史資料會維持原位。
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -167,7 +209,7 @@ ht-degree: 5%
 
   清單和報告上的篩選器不支援此自訂欄位型別。
 
-  如需有關透過API存取此欄位的資訊，請參閱[&#x200B; API中的RTF文字欄位儲存體](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md)。
+  如需有關透過API存取此欄位的資訊，請參閱[ API中的RTF文字欄位儲存體](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md)。
 
   >[!NOTE]
   >
@@ -259,6 +301,22 @@ ht-degree: 5%
     </ul></td>
     </tr>
     <tr>
+      <td><span class="preview">財務權限類型</span></td>
+      <td><p><span class="preview">選取使用者必須具備的財務許可權型別，才能檢視或編輯此自訂欄位。 計算欄位允許任何格式。</span></p>
+      <ul span class="preview">
+      <li><p><strong>不需要許可權：</strong>所有使用者都可以看到此欄位</p></li>
+      <li><p><strong>一般：</strong>使用者必須具有編輯或檢視一般財務的許可權</p></li>
+      <li><p><strong>帳單：</strong>使用者必須擁有編輯或檢視收費率的許可權</p></li>
+      <li><p><strong>成本：</strong>使用者必須擁有編輯或檢視成本費率的許可權</p></li>
+      </ul>
+      <p><span class="preview">如需詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">限制存取自訂欄位中的財務資料</a>。</span></p>
+      </td>
+      <td><ul span class="preview">
+       <li>單行文字</li>
+       <li>段落</li>
+       </ul></td>
+    </tr>
+    <tr>
     <td>顯示類型</td>
     <td>在單行與段落文字欄位之間切換。</td>
     <td><ul>
@@ -301,7 +359,7 @@ ht-degree: 5%
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -398,6 +456,24 @@ ht-degree: 5%
     <li>多選下拉式清單</li>
     </ul></td>
     </tr> 
+    <tr>
+      <td><span class="preview">財務權限類型</span></td>
+      <td><p><span class="preview">選取使用者必須具備的財務許可權型別，才能檢視或編輯此自訂欄位。 計算欄位允許任何格式。</span></p>
+      <ul span class="preview">
+      <li><p><strong>不需要許可權：</strong>所有使用者都可以看到此欄位</p></li>
+      <li><p><strong>一般：</strong>使用者必須具有編輯或檢視一般財務的許可權</p></li>
+      <li><p><strong>帳單：</strong>使用者必須擁有編輯或檢視收費率的許可權</p></li>
+      <li><p><strong>成本：</strong>使用者必須擁有編輯或檢視成本費率的許可權</p></li>
+      </ul>
+      <p><span class="preview">如需詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">限制存取自訂欄位中的財務資料</a>。</span></p>
+      </td>
+      <td><ul span class="preview">
+       <li>選項按鈕</li>
+       <li>核取方塊群組</li>
+       <li>單選下拉式清單</li>
+       <li>多選下拉式清單</li>
+       </ul></td>
+    </tr>
     <tr> 
      <td role="rowheader">顯示類型</td> 
     <td>在欄位的選項按鈕、核取方塊群組、單選下拉式清單或多選下拉式清單之間切換。</td> 
@@ -462,7 +538,7 @@ ht-degree: 5%
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -598,7 +674,7 @@ ht-degree: 5%
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -645,6 +721,18 @@ ht-degree: 5%
       <li>數字欄位的字元限製為16。 您也可以使用文字欄位來輸入數字並避免限制。</li>
       </ul></td>
      </tr> 
+     <tr>
+      <td><span class="preview">財務權限類型</span></td>
+      <td><p><span class="preview">選取使用者必須具備的財務許可權型別，才能檢視或編輯此自訂欄位。 計算欄位允許任何格式。</span></p>
+      <ul span class="preview">
+      <li><p><strong>不需要許可權：</strong>所有使用者都可以看到此欄位</p></li>
+      <li><p><strong>一般：</strong>使用者必須具有編輯或檢視一般財務的許可權</p></li>
+      <li><p><strong>帳單：</strong>使用者必須擁有編輯或檢視收費率的許可權</p></li>
+      <li><p><strong>成本：</strong>使用者必須擁有編輯或檢視成本費率的許可權</p></li>
+      </ul>
+      <p><span class="preview">如需詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">限制存取自訂欄位中的財務資料</a>。</span></p>
+      </td>
+     </tr>
      <tr> 
       <td role="rowheader">基底 API URL</td> 
       <td><p>輸入或貼上API的URL。</p><p>API URL必須傳回您要在下拉式清單中顯示的選項的JSON內容。 您可以使用JSON路徑欄位，從傳回的JSON中選取特定值作為下拉式選項。</p><p>輸入API URL時，您可以選擇在URL中傳遞下列值：</p>
@@ -666,12 +754,12 @@ ht-degree: 5%
       <td role="rowheader">JSON 路徑</td>
       <td><p>輸入或貼上API的JSON路徑。</p> <p>此選項允許從API URL傳回的JSON擷取資料。 這可當作選取要讓JSON內的哪些值會出現在下拉式選項中的方式。</p><p>例如，如果您的API URL以下列格式傳回JSON，則您可以使用「$.data[*].name」選取美國和加拿大作為下拉式選項：</br>
       <pre>
-      &lbrace;
-       資料： &lbrace;
+      {
+       資料： {
          { name： "USA"}，
          { name： "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>如需有關JSON路徑並確保您撰寫正確JSON路徑的詳細資訊，請參閱<a href="https://jsonpath.com/">https://jsonpath.com/</a>。</p></td>
@@ -695,7 +783,7 @@ ht-degree: 5%
     </tbody>
    </table>
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -716,14 +804,16 @@ ht-degree: 5%
 您可以將影像、PDF和視訊新增至自訂表單。 使用自訂表單附加至之物件的使用者只能在下列區域檢視影像、PDF或影片：
 
 * 物件的「詳細資訊」區域（例如，針對專案，則為「專案詳細資訊」區域）。
-* 物件的「編輯」方塊(如果它具有新的Adobe Workfront體驗外觀) （例如「編輯專案」和「編輯任務」方塊）。
+* 物件的「編輯」方塊（如果它具有新的Adobe Workfront體驗外觀） （例如「編輯專案」和「編輯任務」方塊）。
 
-<!-- Do we need to tell them where they can't see it if we tell them where they can see it?
+<!--
+ Do we need to tell them where they can't see it if we tell them where they can see it?
 Currently, users cannot see the widget in the following areas:​
 Lists and reports
 Home and Summary
 The Edit box for the object, if it doesn't have the new Adobe Workfront experience look and feel (for example, the Edit Expense box)
-The Workfront Mobile app -->
+The Workfront Mobile app
+-->
 
 +++ 展開以檢視可用欄位的說明。
 
@@ -796,7 +886,7 @@ The Workfront Mobile app -->
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -812,7 +902,7 @@ The Workfront Mobile app -->
 1. 開啟校訂。
 1. 以滑鼠右鍵按一下視訊上的任何位置，然後選取&#x200B;**複製視訊位址**。
 1. 在您新增視訊Widget的自訂表單中，將複製的地址貼到&#x200B;**URL**&#x200B;方塊中。
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -925,7 +1015,7 @@ The Workfront Mobile app -->
     </tbody> 
    </table>
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -936,7 +1026,7 @@ The Workfront Mobile app -->
 您可以將Adobe XD原型直接新增至自訂表單。 使用自訂表單附加至之物件的使用者只能在下列區域中看到Adobe XD檔案：
 
 * 物件的「詳細資訊」區域（例如，專案的「詳細資訊」區域）
-* 物件的「編輯」方塊(如果它具有新的Adobe Workfront體驗外觀) （例如「編輯專案」和「編輯任務」方塊）
+* 物件的「編輯」方塊（如果它具有新的Adobe Workfront體驗外觀） （例如「編輯專案」和「編輯任務」方塊）
 
 新增Adobe XD檔案：
 
@@ -986,7 +1076,7 @@ The Workfront Mobile app -->
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -1006,7 +1096,7 @@ The Workfront Mobile app -->
 
 您可以將Workfront連線自訂欄位新增至物件的自訂表單，在Workfront物件的自訂欄位中檢視從Planning連線的記錄。
 
-您可以將Planning連線欄位新增至所有物件的自訂表單。 不過，您只能在與Workfront物件(可從Workfront Planning連線)相關聯的自訂表單上顯示連線的記錄。
+您可以將Planning連線欄位新增至所有物件的自訂表單。 不過，您只能在與Workfront物件（可從Workfront Planning連線）相關聯的自訂表單上顯示連線的記錄。
 
 >[!NOTE]
 >
@@ -1082,7 +1172,7 @@ The Workfront Mobile app -->
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 

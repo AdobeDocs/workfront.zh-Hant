@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ee60987e-78b5-4853-9a4f-e44aa7a81c05
-source-git-commit: 15063d937a5ba9b5285c66a0987e8deea6cc6d74
+source-git-commit: 8f6f14d4b36a9eee499111b1a37912f641c9f2ba
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 0%
+source-wordcount: '436'
+ht-degree: 3%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 0%
 
 在專案層次，您可以啟用允許公司層次收費率覆寫專案層次費率的選項。 如需詳細資訊，請參閱[以公司層級的收費率覆寫專案層級的收費率](../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,8 +35,8 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td><p>[!UICONTROL 標準]</p>
-       <p>[!UICONTROL 計畫]</p></td>
+   <td><p>[！UICONTROL標準]</p>
+       <p>[！UICONTROL計畫]</p></td>
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
    ![新收費率對話方塊](assets/date-effective-billing-rates-for-company.png)
 
-1. 在&#x200B;[!DNL **收費率1**]&#x200B;欄位中，輸入收費率。 然後，按一下[儲存]&#x200B;[!UICONTROL **一次覆寫收費率。**]
+1. 在&#x200B;[!DNL **收費率1**]&#x200B;欄位中，輸入收費率。 然後，按一下[儲存][!UICONTROL **一次覆寫收費率。**]
 
    或
 
@@ -83,4 +83,4 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >專案上工作角色費率變更只會影響該專案。 公司層級變更的費率將影響所有專案。 如需詳細資訊，請參閱[覆寫工作角色收費率以及計算專案收入的總覽](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)。
+   >專案上工作角色費率變更只會影響該專案。 公司層級變更的費率將影響所有專案。 如需詳細資訊，請參閱[覆寫帳單費率與計算專案收入的總覽](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)。

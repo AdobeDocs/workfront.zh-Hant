@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: dead6081-dfd2-4b1a-8be2-32a0ba813bc3
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 1dd0faae822310616e2ca3d067169d5620846736
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 3%
@@ -61,6 +61,6 @@ ht-degree: 3%
   >如果將配置範本指派給使用者的使用者設定檔，該範本會優先於指派給其主要工作角色的範本。 如需詳細資訊，請參閱[將使用者指派給配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)。
 
 * 您可以使用[!DNL Adobe Workfront Scenario Planner]將職位角色指派給計畫和方案，以管理資源的可用性。 這需要[!DNL Scenario Planner]的額外授權。 如需詳細資訊，請參閱[開始使用 [!DNL Scenario Planner]](../../../scenario-planner/get-started-with-scenario-planning.md)。
-* 處理不同國家的資源時，您可以根據不同貨幣覆寫職務角色費率。 這可讓您為工作專案取得更準確的成本與收入金額。
+* 使用不同國家/地區的資源時，您可以變更有效日期職務角色費率的幣別。 這可讓您為工作專案取得更準確的成本與收入金額。
 
   如需詳細資訊，請參閱[建立和管理職位角色](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)。

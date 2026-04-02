@@ -8,14 +8,18 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
-source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '859'
-ht-degree: 2%
+source-wordcount: '960'
+ht-degree: 1%
 
 ---
 
 # 將使用者指派至版面配置範本
+
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽Sandbox」環境中使用。</span>
 
 您可以將已建立的版面配置範本指派給任何需要使用的使用者、工作角色、團隊或群組。
 
@@ -28,6 +32,8 @@ ht-degree: 2%
 如需配置範本的詳細資訊，請參閱[配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md)。
 
 如需有關群組配置範本的資訊，請參閱[建立和修改群組的配置範本](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)。
+
+<span class="preview">如需配置範本與企業設定檔的相關資訊，請參閱[企業設定檔概述](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)。</span>
 
 ## 存取權要求
 
@@ -68,13 +74,13 @@ ht-degree: 2%
    >當您滿意您的版面配置範本時，建議您進行測試，如[測試新的版面配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)中所述。
 
 1. 按一下頁面頂端區段中的&#x200B;**將此指派給**。
-1. 在出現的方塊中，按一下&#x200B;**新增使用者、工作角色、團隊或群組**，開始輸入使用者、工作角色、團隊或群組的名稱，然後在其出現在下拉式清單中時按一下該名稱。
+1. 在出現的方塊中，按一下&#x200B;**新增使用者、工作角色、團隊、群組、<span class="preview">或存取層級</span>**，開始輸入使用者、工作角色、團隊、群組、<span class="preview">或存取層級</span>的名稱，然後在其出現在下拉式清單中時按一下該名稱。
 
    最近新增的名稱會以藍色背景顯示。 當您編輯現有版面配置範本時，這會很有幫助，因為您可以區分您剛才新增的名稱與清單中已有的名稱。
 
-   資訊圖示![資訊圖示](assets/info-icon.png)會顯示在已指派給其他配置範本的任何使用者、工作角色、團隊或群組名稱的右側。 您可以將滑鼠停留在圖示上以檢視該配置範本的名稱，並決定是否要覆寫現有的指派。
+   資訊圖示![資訊圖示](assets/info-icon.png)會顯示在已指派給其他配置範本的任何使用者、工作角色、團隊、群組、<span class="preview">或存取層級</span>名稱的右側。 您可以將滑鼠停留在圖示上以檢視該配置範本的名稱，並決定是否要覆寫現有的指派。
 
-1. 視需要重複前兩個步驟，將版面配置範本指派給其他使用者、工作角色、團隊或群組。
+1. 視需要重複前兩個步驟，將配置範本指派給其他使用者、工作角色、團隊、群組、<span class="preview">或存取層級</span>。
 
    您一次最多可以指派100個使用者。
 
@@ -90,6 +96,7 @@ ht-degree: 2%
 * 至使用者擁有的特定工作角色
 * 使用者所在的特定團隊
 * 至使用者所在的特定群組
+* <span class="preview">將使用者指派給特定存取層級</span>
 
 但是，使用者在任何給定時間都只能看到一個版面範本。 可見的範本由以下優先順序階層決定：
 
@@ -106,9 +113,12 @@ ht-degree: 2%
 
   使用者只會看見指派給使用者「首頁」群組的範本。 指定給其他群組的範本不可見。
 
+* <span class="preview">存取層級：如果人員未被指派為個別使用者、具有主要工作角色的使用者、主團隊的成員，或主群組的成員，他們將會看到指派給其存取層級的範本。</span>
+
 ## 指派給版面配置範本的大量使用者
 
-<!--If you edit a layout template which is assigned to more than 2000 users and make changes to it, only the first 2000 users will be retained on the layout template and will see the changes you made. The layout template is removed from all others.
+<!--
+If you edit a layout template which is assigned to more than 2000 users and make changes to it, only the first 2000 users will be retained on the layout template and will see the changes you made. The layout template is removed from all others.
 -->
 如果要將超過2000名使用者指派給版面配置範本，建議您執行下列任一項作業：
 

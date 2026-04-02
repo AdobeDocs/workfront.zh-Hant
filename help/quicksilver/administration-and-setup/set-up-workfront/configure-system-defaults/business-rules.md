@@ -8,10 +8,12 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: c16d107d8162f77436337d0b08ea5826d5c25d83
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '1417'
-ht-degree: 3%
+source-wordcount: '1823'
+ht-degree: 4%
 
 ---
 
@@ -29,7 +31,7 @@ ht-degree: 3%
 
 <div class="preview">
 
-Organizations that have the Workflow Ultimate package can also configure business rules to automate actions for the created, edited, or modified object when certain conditions are met. Available actions include sharing the object, notifying a user, or attaching a custom form to the object.  
+Organizations that have the Workflow Ultimate package can also configure business rules to automate actions for the created, edited, or modified object when certain conditions are met. Available actions include sharing the object or attaching a custom form to the object.  
 
 </div>
 
@@ -139,34 +141,51 @@ IF(
 )
 ```
 
+### 在商業規則中啟用本地化
 
-<!--
+如果您的組織使用自訂本地化，則必須在商業規則中啟用商業規則訊息的翻譯。 如果未啟用翻譯，即使訊息文字在本地化清單中，且使用者的瀏覽器設定為適當的語言，訊息仍會以英文顯示給讀者。
 
-## Scenarios for business rule automation
+設定規則時，請在訊息前插入TRANSLATE這個字，並將訊息括在括弧中。
+
+>[!BEGINSHADEBOX]
+
+範例：
+
+此範例假設訊息「您無法編輯已完成的專案」包含在「設定」的本地化區域中，且使用者的瀏覽器設定為當地語系化語言。
+
+* `IF({status} = "CPL", "You cannot edit completed projects.") `
+訊息會以英文顯示。
+* `IF({status} = "CPL", TRANSLATE("You cannot edit completed projects."))`
+訊息會以當地語系化語言顯示。
+
+>[!ENDSHADEBOX]
+
+如需自訂本地化的詳細資訊，請參閱[設定自訂本地化](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)。
+
+## 商業規則自動化的案例
 
 >[!NOTE]
 >
->Your organization must have a Workflow Ultimate package to use business rule automation.
+>貴組織必須擁有Workflow Ultimate套件才能使用商業規則自動化。
 
-The format of a business rule automation is "IF the defined condition is met, then the selected automation is triggered."
+商業規則自動化的格式為「如果符合定義的條件，則會觸發所選的自動化」。
 
-Business rule automation formulas do not require an error message
+商業規則自動化公式不需要錯誤訊息
 
-To ensure that an automation runs whenever the selected object and action occurs, such as when a project is created, use the following formula:
+若要確保每當選取的物件與動作（例如建立專案時）發生時，自動化都會執行，請使用下列公式：
 
 ```
 IF(true, true)
 ```
 
-To share a project only if that's project has been approved, use a formula like the following:
+若要在專案已核准後才共用該專案，請使用如下的公式：
 
 ```
 IF({status} = "APR", true)
 ```
 
-You can use wildcards in business rule actions, as described in the section [Scenarios for business rule validation](#scenarios-for-business-rule-validation).
+您可以在商業規則動作中使用萬用字元，如[商業規則驗證的案例](#scenarios-for-business-rule-validation)一節中所述。
 
--->
 
 ## 新增商業規則
 
@@ -210,15 +229,15 @@ You can use wildcards in business rule actions, as described in the section [Sce
    * 範本
    * 休假
    * 資源集區
+   * 職務角色
+   * 非勞動力資源類別
+   * 資源集區
+   * 休假
+   * 時數
+   * 人員配置計劃
+   * 範本
+   * 人員配置計劃資源
 <!--
-   * <span class="preview">Job role</span>
-   * <span class="preview">Non-labor resource category</span>
-   * <span class="preview">Resource Pool</span>
-   * <span class="preview">Time Off</span>
-   * <span class="preview">Hour</span>
-   * <span class="preview">Staffing Plan</span>
-   * <span class="preview">Template</span>
-   * <span class="preview">Staffing Plan Resource</span>
    * <span class="preview">Team</span>
 -->
 
@@ -242,13 +261,13 @@ You can use wildcards in business rule actions, as described in the section [Sce
    * 「物件」是您在建立商業規則時選取的物件型別。 它顯示在對話方塊的標題中。
    * 「動作」是您為規則選取的觸發程式：建立、編輯或刪除物件。
    * 由於物件和動作已定義，因此您不會將它們納入公式中。
-   * 當使用者觸發商業規則時，將會顯示自訂錯誤訊息<!--<span class="preview">is included only if the rule is for validation, and </span>-->。 它應該提供明確的指示，說明哪裡出錯了，以及如何更正問題。
+   * 只有在規則用於驗證時才會包含自訂錯誤訊息<span class="preview">，而且當使用者觸發商業規則時，會向使用者顯示</span>。 它應該提供明確的指示，說明哪裡出錯了，以及如何更正問題。
 
      您可以在錯誤訊息中加入靜態URL，以連結至檔案或其他實用頁面，引導使用者如何在規則的限制內修改其動作。
 
      在此範例中，「瞭解更多」將連結至URL。 `"You are not allowed to add a new project in November.[Learn more](http://url)"` URL必須位於括弧中，但不需要括弧中的連結文字。 您可以顯示完整URL，它將是可點按的連結。
 
-   ![新增商業規則對話方塊](assets/add-business-rule-dialog-no-ai-button.png) <!--UPDATE ME-->
+   ![新增商業規則對話方塊](assets/add-business-rule-new.png)
 
    此範例是專案的業務規則。 如果目前月份是11月，則不允許使用者建立新專案，且訊息會說明此情況。
 
@@ -264,42 +283,36 @@ You can use wildcards in business rule actions, as described in the section [Sce
 
    對於其他套件，會預先選取此選項。
 
-<!--
+1. <span class="preview">（條件式）若要自動執行其他動作，請選取動作。</span>
 
-1. (Conditional) To automate another action,, select the action. 
-
-   For details on these actions, see the section [Business rule automation options](#business-rule-automation-options) in this article.
+   <span class="preview">如需這些動作的詳細資訊，請參閱本文章的[商業規則自動化選項](#business-rule-automation-options)一節。</span>
 
    >[!NOTE]
    >
-   >Your organization must be on the Workflow Ultimate package to use actions besides validation. If you do not see these other options, your organization is not on the Workflow Ultimate package.
+   ><span class="preview">您的組織必須在工作流程Ultimate封裝上，才能使用驗證以外的動作。 如果您沒有看到這些其他選項，表示您的組織不在Workflow Ultimate封裝上。</span>
 
-   -->
-
-1. 當您完成建立商業規則時，請按一下[儲存]。**&#x200B;**
+1. 當您完成建立商業規則時，請按一下[儲存]。****
 
 >[!NOTE]
 >
 >新增商業規則後，您應該透過新增、編輯或刪除關聯的物件來測試它，以確保規則已正確套用。
 
-<!--
-
 <div class="preview">
 
-### Business rule automation options
+### 商業規則自動化選項
 
-   >[!NOTE]
-   >
-   >Your organization must be on the Workflow Ultimate package to use actions besides validation. If you do not see these other options, your organization is not on the Workflow Ultimate package.
+>[!NOTE]
+>
+>您的組織必須在工作流程Ultimate套件上，才能使用驗證以外的動作。 如果您沒有看到這些其他選項，表示您的組織不在Workflow Ultimate套件中。
 
-You can set these actions to automate when the business rule is triggered. Available actions depend on the selected object type.
+您可以設定這些動作，以便在觸發商業規則時自動執行。 可用的動作取決於選取的物件型別。
 
-|Automation|Further configuration|
+| 自動完成 | 進一步設定 |
 |---|---|
-|Attach a custom form|Select the custom form that you want to add|
-|Share the object|Select the people, roles, groups, companies, or access levels that you want to share the object with.|
+| 附加自訂表單 | 選取您要新增的自訂表單 |
+| 共用此物件 | 選取您要共用物件的使用者、角色、群組、公司或存取層級。 |
 
--->
+</div>
 
 ## 啟用商業規則
 
@@ -310,3 +323,4 @@ You can set these actions to automate when the business rule is triggered. Avail
 1. 在規則清單中選取商業規則，然後按一下「編輯」圖示。
 1. 在商業規則對話方塊中，選取&#x200B;**Is Active**&#x200B;的&#x200B;**是**。
 1. 按一下「**儲存**」。
+

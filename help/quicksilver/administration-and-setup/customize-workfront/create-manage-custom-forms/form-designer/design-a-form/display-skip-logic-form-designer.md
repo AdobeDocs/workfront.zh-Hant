@@ -3,19 +3,21 @@ title: 新增邏輯規則至自訂Forms和欄位
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: 您可以根據使用者在填寫自訂表單時所做的選擇，決定應顯示或略過哪些區段。
+description: 邏輯規則可讓您進一步自訂表單上的欄位。
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+source-git-commit: a060b0023d6ea04f0eb1210c61b7add37a943842
 workflow-type: tm+mt
-source-wordcount: '1682'
-ht-degree: 0%
+source-wordcount: '3485'
+ht-degree: 1%
 
 ---
 
 # 新增邏輯規則至自訂表單和欄位
+
+{{highlighted-preview}}
 
 邏輯規則可讓您進一步自訂表單上的欄位。
 
@@ -25,17 +27,18 @@ ht-degree: 0%
 >
 >邏輯僅適用於一個表單，且不能以來自不同表單的選擇為基礎。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
-   <td><p>任何</p></td> 
+   <td>Adobe Workfront 封裝</td> 
+   <td> <p>若要套用進階顯示、預設值、條件式格式或可編輯性邏輯：工作流程Prime或更高版本</p>
+         <p>若要套用所有其他邏輯型別：任何Workfront或Workflow套件</p> </td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront授權</td> 
@@ -53,20 +56,30 @@ ht-degree: 0%
 
 +++
 
-## 顯示和略過邏輯圖示
+## 邏輯指標圖示
 
-自訂表單顯示圖示以指示顯示或略過邏輯何時套用至特定欄位。 表單設計工具中欄位上的圖示表示邏輯已套用至欄位。
+自訂表單會顯示圖示來指示邏輯何時套用至欄位。
 
-| 圖示 | 表單設計工具中欄位的位置 | 定義 |
-|--- |--- |--- |
-| ![目標欄位的顯示邏輯](assets/display-logic-bottom-left.png) | 左下方 | 欄位是顯示邏輯的目標欄位。 如果在表單上做了特定選擇，則會顯示此欄位。 |
-| ![定義顯示邏輯圖示](assets/display-logic-bottom-right.png) | 右下方 | 欄位會定義顯示邏輯。 此欄位中的特定選取範圍或值會顯示目標欄位。 |
-| 目標欄位![的](assets/skip-logic-bottom-left.png)略過邏輯 | 左下方 | 欄位是略過邏輯的目標欄位。 如果對表單進行了特定選擇，則表單會前進到此欄位，並且之間的欄位會隱藏。 |
-| ![定義略過邏輯圖示](assets/skip-logic-bottom-right.png) | 右下方 | 此欄位會定義略過邏輯。 此欄位上的特定選取範圍或值會略過其他欄位，並直接移至目標欄位。 |
+<span class="preview">按一下表單設計工具標題中的&#x200B;**顯示邏輯**，以顯示或隱藏不同欄位邏輯型別的圖示。</span>
 
-![邏輯圖示](assets/logic-icons-3.png)
+| 圖示 | 定義 |
+| --- | --- |
+| ![目標欄位的顯示邏輯](assets/display-logic-bottom-right.png) | 欄位是套用顯示邏輯的目標欄位。 如果在表單上做了特定選擇，則會顯示此欄位。 |
+| ![顯示參考欄位的邏輯圖示](assets/display-logic-bottom-left.png) | 此欄位是顯示邏輯的參考欄位。 此欄位中的特定選取範圍或值會顯示目標欄位。 |
+| 目標欄位![的](assets/skip-logic-bottom-right.png)略過邏輯 | 欄位是套用略過邏輯的目標欄位。 此欄位上的特定選取範圍或值會略過其他欄位，並直接移至參考欄位。 |
+| 參考欄位![的](assets/skip-logic-bottom-left.png)略過邏輯圖示 | 此欄位是略過邏輯的參考欄位。 如果在目標欄位上做了特定選擇，則表單會前進到此欄位，並且之間的欄位會隱藏。 |
+| 目標欄位![的](assets/validation-logic-icon.png)驗證邏輯 | 欄位是套用驗證邏輯的目標欄位。 參考欄位上的特定選取範圍或值會決定驗證是否失敗。 驗證邏輯的目標欄位和參考欄位可以相同。 |
+| 參考欄位![的](assets/validation-logic-reference-field.png)驗證邏輯 | 欄位是驗證邏輯的參考欄位。 此欄位上的特定選取範圍或值會決定目標欄位上的驗證是否失敗。 驗證邏輯的目標欄位和參考欄位可以相同。 |
+| ![目標欄位的預設值邏輯](assets/default-value-logic-icon.png) | <span class="preview">此欄位是套用預設值邏輯的目標欄位。 參考欄位上的特定選取範圍或值會決定預設值。 預設值邏輯的目標欄位和參考欄位可以相同。</span> |
+| ![參考欄位的預設值邏輯](assets/default-value-logic-reference-field.png) | <span class="preview">此欄位是預設值邏輯的參考欄位。 此欄位上的特定選取範圍或值會決定目標欄位的預設值。 預設值邏輯的目標欄位和參考欄位可以相同。</span> |
+| ![目標欄位的格式化邏輯](assets/formatting-logic-icon.png) | <span class="preview">此欄位是套用格式邏輯的目標欄位。 參考欄位上的特定選取範圍或值會決定格式。 格式化邏輯的目標欄位和參考欄位可以相同。</span> |
+| ![參考欄位的格式化邏輯](assets/formatting-logic-reference-field.png) | <span class="preview">此欄位是格式邏輯的參考欄位。 此欄位上的特定選取範圍或值會決定目標欄位的格式。 格式化邏輯的目標欄位和參考欄位可以相同。</span> |
+| 目標欄位![的](assets/editability-logic-icon.png)可編輯性邏輯 | <span class="preview">此欄位是套用可編輯性邏輯的目標欄位。 當滿足定義的條件時，該欄位可以編輯或唯讀。 可編輯性邏輯的目標欄位和參考欄位可以相同。</span> |
+| 參考欄位![的](assets/editability-logic-reference-field.png)可編輯性邏輯 | <span class="preview">此欄位是可編輯性邏輯的參考欄位。 當此欄位符合定義的條件時，邏輯會套用至目標欄位。 可編輯性邏輯的目標欄位和參考欄位可以相同。</span> |
 
-選取已套用邏輯的欄位，以在欄位設定中顯示現有的邏輯規則。
+<!-- ![Logic icons](assets/logic-icons-3.png) -->
+
+若僅針對顯示和略過邏輯，請選取欄位以在欄位設定中顯示現有的邏輯規則。
 
 ![邏輯規則](assets/form-designer-view-only-logic.png)
 
@@ -94,11 +107,9 @@ ht-degree: 0%
 
 顯示邏輯定義當使用者在多重選擇欄位中選擇特定值時，要在表單上顯示的自訂欄位。 此邏輯會新增至目標欄位，並僅在選取值時顯示。
 
-<!--
 >[!NOTE]
 >
-><span class="preview">This procedure describes the basic mode for display logic. Advanced display logic is also available. For more information, see [Add advanced display logic to a custom form](#add-advanced-display-logic-to-a-custom-form), in this article.</span>
--->
+><span class="preview">此程式說明顯示邏輯的基本模式。 進階顯示邏輯也可使用。 如需詳細資訊，請參閱本文[新增進階顯示邏輯至自訂表單](#add-advanced-display-logic-to-a-custom-form)。</span>
 
 {{step-1-to-setup}}
 
@@ -116,7 +127,7 @@ ht-degree: 0%
    1. 第一個選項是選擇定義欄位。 此欄位具有顯示目標的選取值。 它必須是多選欄位。
    1. 第二個選項是選擇選取值。 只有已為該欄位定義的值才可使用。
    1. 第三個選項是&#x200B;**已選取**&#x200B;或&#x200B;**未選取**。 選擇&#x200B;**已選取**&#x200B;表示選取值時，會顯示目標欄位。 選擇&#x200B;**未選取**&#x200B;表示在定義欄位中選取任何其他值時，會顯示目標欄位。
-   1. 若要將&#x200B;**And**&#x200B;規則新增至邏輯陳述式，請按一下您剛建立之規則下方的[新增規則]。 **&#x200B;**&#x200B;依照相同的提示來建置規則。 必須符合所有的And規則，目標欄位才會顯示。
+   1. 若要將&#x200B;**And**&#x200B;規則新增至邏輯陳述式，請按一下您剛建立之規則下方的[新增規則]。 ****&#x200B;依照相同的提示來建置規則。 必須符合所有的And規則，目標欄位才會顯示。
 
       ![顯示邏輯產生器](assets/simple-display-logic2.png)
 
@@ -126,60 +137,66 @@ ht-degree: 0%
 
    顯示邏輯圖示會新增至表單設計工具的目標欄位和定義欄位。
 
-<!--
 <div class="preview">
 
-## Add advanced display logic to a custom form
+## 新增進階顯示邏輯至自訂表單
 
-The advanced display logic for custom form fields allows you to build complex logic using formulas. You can apply this logic to the following field types: drop-down, radio button, checkbox, typeahead, single line text, paragraph text, date field, text with formatting, and calculated fields.
+自訂表單欄位的進階顯示邏輯可讓您使用公式來建立複雜的邏輯。 您可以將此邏輯套用至下列欄位型別：單行文字、段落、含格式的文字、單選下拉式清單、多選下拉式清單、外部查閱、多選外部查閱、原生欄位參考、預先輸入、計算、日期、核取方塊群組，以及選項按鈕。
 
-### Examples
+>[!NOTE]
+>
+>此程式說明顯示邏輯的進階模式。 也提供基本顯示邏輯。 如需詳細資訊，請參閱本文中的[新增顯示邏輯至自訂表單](#add-display-logic-to-a-custom-form)。
 
-You can use advanced display logic to control the visibility of custom form sections based on user roles and the visibility of a field based on another field's status.
+### 範例
 
-No logic is applied to the default section on the form, so it is always visible to all users.
+您可以使用進階顯示邏輯，根據使用者角色控制自訂表單區段的可見度，以及根據其他欄位狀態控制欄位的可見度。
 
-Using the following condition, the Resources Required section is only displayed when a user with the job role of Resource Manager views the form.
+表單上的預設區段不會套用任何邏輯，因此所有使用者一律可以看到它。
+
+使用下列條件時，只有當具有Resource Manager工作角色的使用者檢視表單時，才會顯示「需要資源」區段。
 
 ```IF($$USER.{roleID}="123abc", true)```
 
-Note that ```123abc``` represents the role ID of the Resource Manager.
+請注意，```123abc```代表資源管理員的角色ID。
 
-![Form section displayed for role](assets/advanced-display-on-form1.png)
+針對角色![顯示的](assets/advanced-display-on-form1.png)表單區段
 
-The same condition with a different role ID is applied to the Project Financial KPIs section to define that  only the Financial Advisor role can view the section.
+具有不同角色ID的相同條件會套用至「專案財務KPI」區段，以定義只有「財務建議程式」角色才能檢視區段。
 
-Using the following condition, the Sold KPI field only becomes visible when the project is complete. This logic is applied directly to the field instead of to a form section. There is no need to specify which role can view the field, because that is already defined in the section that the field is in.
+使用下列條件時，「售出的KPI」欄位只有在專案完成時才會顯示。 此邏輯會直接套用至欄位，而非表單區段。 不需要指定哪個角色可以檢視欄位，因為欄位所在的區段中已定義該角色。
 
 ```IF({status}="CPL", true)```
 
-![Field is visible on complete project](assets/advanced-display-on-form2.png)
+![欄位在完整專案中可見](assets/advanced-display-on-form2.png)
 
-### Define advanced display logic
+### 定義進階顯示邏輯
 
 {{step-1-to-setup}}
 
-1. Click **Custom Forms**.
-1. Create a new custom form or open an existing form. See [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) for details.
-1. Add fields to the form as needed.
-1. Select the field to apply logic to, and click **Add Logic**.
-1. Select the **Display** tab on the logic builder.
-1. Turn on **Advanced mode**.
-   
-   This option might be turned on automatically, for fields that do not support the simple mode of display logic.
+1. 按一下&#x200B;**自訂Forms**。
+1. 建立新的自訂表單或開啟現有的表單。 如需詳細資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+1. 視需要新增欄位至表單。
+1. 選取要套用邏輯的欄位，然後按一下&#x200B;**新增邏輯**。
+1. 選取邏輯產生器上的&#x200B;**顯示**&#x200B;標籤。
+1. 開啟&#x200B;**進階模式**。
 
-   ![Advanced mode for display logic](assets/advanced-display-logic-blank-editor.png)
+   此選項可針對不支援簡單顯示邏輯模式的欄位自動開啟。
 
-1. Build the display condition in the editor.
+   顯示邏輯的![進階模式](assets/advanced-display-logic-blank-editor.png)
 
-   For more information about calculations and expressions, see [Add calculated fields to a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) and [Overview of calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+1. 在編輯器中建立顯示條件。
 
-1. Click **Apply**.
-   
-   The logic is applied to the field and the display logic icon is added in the form designer.
+   如需有關計算和運算式的詳細資訊，請參閱[新增計算欄位至表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)和[計算資料運算式概觀](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)。
+
+1. 按一下「**套用**」。
+
+   邏輯會套用至欄位，而顯示邏輯圖示會新增至表單設計器中。
+
+   >[!NOTE]
+   >
+   >表單設計工具預覽模式不支援進階顯示邏輯。
 
 </div>
--->
 
 ## 將跳過邏輯新增至自訂表單
 
@@ -211,13 +228,63 @@ Using the following condition, the Sold KPI field only becomes visible when the 
 
    略過邏輯圖示會新增至表單設計工具中的目標欄位和定義欄位。
 
+<div class="preview">
+
+## 新增預設值邏輯至自訂表單
+
+預設值邏輯可讓您使用公式來設定自訂表單欄位的預設值。 當滿足定義的條件時，會顯示預設值。 預設值可以是參考物件內其他欄位的靜態值或動態值。 雖然預設值可參考其他欄位，但不會隨著表單上的其他欄位變更而變更。
+
+您可以將進階預設值邏輯套用至下列欄位型別：單行文字、段落、單選下拉式清單、多選下拉式清單、外部查閱、多選外部查閱。 原生欄位參考、預先輸入、核取方塊群組和選項按鈕。
+
+>[!TIP]
+>
+>當自訂表單附加至物件時，預設值僅會套用至自訂欄位一次。 如果預設值公式相依於另一個欄位的值，則在附加自訂表單時，另一個欄位中的值必須已存在。
+
+>[!NOTE]
+>
+>表單設計器中的標準預設值邏輯仍然存在。 如果兩個型別都套用至相同欄位，則進階邏輯優先。 如需有關標準預設值邏輯的資訊，請參閱[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkbox-groups-and-drop-downs)中的[新增選項按鈕、核取方塊群組和下拉清單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+
+### 範例
+
+使用下列公式，當專案狀態為「計畫管理系統」時，套用邏輯的多重選取下拉式欄位會從專案摘要提取其預設值。
+
+```
+IF({status} = 'PLN', ARRAY({description}, ','))
+```
+
+當自訂表單附加至專案且專案狀態為「計畫」時，則會使用專案說明欄位值作為多選欄位中的預設值。 由於是多選欄位，當值符合說明時，可以提取多個值。 如果說明值不符合任何多重選取值選項，則多重選取欄位將不會有預設值，使用者可以從下拉式清單中選取值。
+
+### 定義預設值邏輯
+
+1. 按一下&#x200B;**自訂Forms**。
+1. 建立新的自訂表單或開啟現有的表單。 如需詳細資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+1. 視需要新增欄位至表單。
+1. 選取要套用邏輯的欄位，然後按一下&#x200B;**新增邏輯**。
+1. 選取邏輯產生器上的&#x200B;**預設值**&#x200B;標籤。
+
+   ![預設值邏輯產生器](assets/default-value-blank-editor.png)
+
+1. 在編輯器中建立預設值條件。
+
+   如需有關計算和運算式的詳細資訊，請參閱[新增計算欄位至表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)和[計算資料運算式概觀](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)。
+
+1. 按一下「**套用**」。
+
+   此邏輯會套用至表單設計器中的欄位。
+
+   >[!NOTE]
+   >
+   >表單設計工具預覽模式不支援預設值邏輯。
+
+</div>
+
 ## 新增驗證邏輯至自訂表單
 
 驗證邏輯是使用公式建立的，您可以讓邏輯變得簡單或複雜。 驗證可以基於其他欄位的值或物件的狀態，並且您可以在驗證失敗時提供錯誤訊息。
 
 如果套用了邏輯的欄位在使用者填寫自訂表單時符合定義的驗證條件，則該欄位會醒目提示並顯示錯誤訊息。
 
-您可以將驗證邏輯套用至下列欄位型別：單行文字、段落、單選下拉式清單、多選下拉式清單、外部查閱、預先輸入、日期、核取方塊群組，以及選項按鈕。
+您可以將驗證邏輯套用至下列欄位型別：單行文字、段落、單選下拉式清單、多選下拉式清單、外部查閱、多選外部查閱、預先輸入、日期、核取方塊群組，以及選項按鈕。
 
 ### 範例
 
@@ -252,7 +319,7 @@ IF({DE:Budget Field} < 0,
 
    如需有關計算和運算式的詳細資訊，請參閱[新增計算欄位至表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)和[計算資料運算式概觀](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)。
 
-1. 按一下&#x200B;**套用**。
+1. 按一下「**套用**」。
 
    此邏輯會套用至表單設計器中的欄位。
 
@@ -260,22 +327,21 @@ IF({DE:Budget Field} < 0,
    >
    >表單設計工具預覽模式不支援驗證邏輯。
 
-<!--
 <div class="preview">
 
-## Add formatting logic to a custom form
+## 新增格式邏輯至自訂表單
 
-Formatting logic highlights a field value when it meets the defined conditions. The applied formatting will work on multiple fields at once.
+格式化邏輯會在欄位值符合定義的條件時反白標示欄位值。 套用的格式一次可在多個欄位上運作。
 
-You can apply formatting logic to the following field types: single line text, paragraph, single-select dropdown, multi-select dropdown, external lookup, typeahead, calculated, date, checkbox group, and radio buttons.
+您可以將格式邏輯套用至下列欄位型別：單行文字、段落、單選下拉式清單、多選下拉式清單、外部查閱、多選外部查閱、預先輸入、計算、日期、核取方塊群組，以及選項按鈕。
 
-Formatting applied to custom forms is separate from formatting applied to lists and reports. For information on report formatting, see [Use conditional formatting in views](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+套用至自訂表單的格式與套用至清單和報表的格式不同。 如需報表格式化的資訊，請參閱[在檢視中使用條件式格式](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)。
 
-### Example
+### 範例
 
-Using the following condition, the Budget field appears red when the user enters a value of 1000 or more. The field appears yellow when the user enters a value of 500 or more.
+若使用以下條件，當使用者輸入1000或以上的值時，「預算」欄位會顯示為紅色。 當使用者輸入500或更多值時，欄位會顯示為黃色。
 
-To add a hover-over definition of the formatting, use the Instructions field in the custom form. For example, a message on the Budget field could say "Please enter a budget within a reasonable range. Values over 500 are a warning notice, and above 1000 is considered too high."
+若要新增格式的暫留定義，請使用自訂表單中的「指示」欄位。 例如，「預算」欄位上的訊息可能會顯示「請輸入合理範圍內的預算。 超過500的值是警告通知，超過1000則被視為太高。」
 
 ```
 IF(
@@ -285,42 +351,99 @@ IF(
 )
 ```
 
-### Define formatting logic
+### 定義格式邏輯
 
 {{step-1-to-setup}}
 
-1. Click **Custom Forms**.
-1. Create a new custom form or open an existing form. See [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) for details.
-1. Add fields to the form as needed.
-1. Select the field to apply logic to, and click **Add Logic**.
-1. Select the **Formatting** tab on the logic builder.
+1. 按一下&#x200B;**自訂Forms**。
+1. 建立新的自訂表單或開啟現有的表單。 如需詳細資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+1. 視需要新增欄位至表單。
+1. 選取要套用邏輯的欄位，然後按一下&#x200B;**新增邏輯**。
+1. 選取邏輯產生器上的&#x200B;**格式化**&#x200B;索引標籤。
 
-   ![Formatting logic builder](assets/formatting-logic-blank-editor.png)
+   ![正在格式化邏輯產生器](assets/formatting-logic-blank-editor.png)
 
-1. Build the formatting condition in the editor.
+1. 在編輯器中建立格式條件。
 
-   You can add up to five formatting rules per field.
+   每個欄位最多可以新增5個格式規則。
 
-   The field highlighting color options are:
+   醒目提示色彩選項的欄位包括：
 
    * `$$POSITIVE (green)`
    * `$$INFORMATIVE (blue)`
    * `$$NEGATIVE (red)`
    * `$$NOTICE (orange)`
-   
-   The text formatting options are:
-   
+
+   文字格式設定選項為：
+
    * `$$BOLD`
    * `$$ITALIC`
    * `$$UNDERLINE`
 
-   Only one color option may be used per function, along with up to three additional text formatting options. If no color option is specified, the system's default color is applied.
+   每個函式只能使用一個顏色選項，以及最多三個額外的文字格式選項。 如果未指定顏色選項，則會套用系統的預設顏色。
 
-   For more information about calculations and expressions, see [Add calculated fields to a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) and [Overview of calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   如需有關計算和運算式的詳細資訊，請參閱[新增計算欄位至表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)和[計算資料運算式概觀](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)。
 
-1. Click **Apply**.
-   
-   The logic is applied to the field in the form designer.
+1. 按一下「**套用**」。
+
+   此邏輯會套用至表單設計器中的欄位。
+
+   >[!NOTE]
+   >
+   >表單設計工具預覽模式不支援格式邏輯。
 
 </div>
--->
+
+<div class="preview">
+
+## 新增可編輯性邏輯至自訂表單
+
+可編輯性邏輯會決定是否可編輯自訂表單欄位，或是唯讀欄位。 此邏輯是使用公式建立的，當欄位符合定義的條件時，可將其設定為可編輯或唯讀。
+
+您可以將可編輯性邏輯套用至下列欄位型別：單行文字、段落、含格式的文字、單選下拉式清單、多選下拉式清單、外部查閱、多選外部查閱、預先輸入、日期、核取方塊群組，以及選項按鈕。
+
+### 範例
+
+使用下列公式時，只有在名稱為Radio的另一個欄位已選取啟用選擇時，才可編輯已套用邏輯的欄位。
+
+```
+IF({DE:Radio} = "Enabled", true)
+```
+
+使用下列公式，「說明」欄位只有在空白時才能編輯。 輸入值之後，它就會變成唯讀。
+
+```
+IF(ISBLANK({DE:Description}), true)
+```
+
+使用下列公式，只有在具有Resource Manager工作角色的使用者檢視表單時，才可編輯已套用邏輯的欄位。
+
+```
+IF($$USER.{role}.{name}="Resource Manager", true)
+```
+
+### 定義可編輯性邏輯
+
+{{step-1-to-setup}}
+
+1. 按一下&#x200B;**自訂Forms**。
+1. 建立新的自訂表單或開啟現有的表單。 如需詳細資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+1. 視需要新增欄位至表單。
+1. 選取要套用邏輯的欄位，然後按一下&#x200B;**新增邏輯**。
+1. 選取邏輯產生器上的&#x200B;**可編輯性**&#x200B;標籤。
+
+   ![可編輯性邏輯產生器](assets/editability-blank-editor.png)
+
+1. 在編輯器中建立可編輯性條件。
+
+   如需有關計算和運算式的詳細資訊，請參閱[新增計算欄位至表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)和[計算資料運算式概觀](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)。
+
+1. 按一下「**套用**」。
+
+   此邏輯會套用至表單設計器中的欄位。
+
+   >[!NOTE]
+   >
+   >表單設計工具預覽模式不支援可編輯性邏輯。
+
+</div>

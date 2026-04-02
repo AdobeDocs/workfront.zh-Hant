@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: e5ac8fde409b960aacd3cf7daa0532e9bc3e8121
 workflow-type: tm+mt
-source-wordcount: '3403'
+source-wordcount: '3478'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/tw/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 -->
@@ -34,17 +34,18 @@ ht-degree: 0%
 
 如需使用者更新自己設定檔的詳細資訊，請參閱[設定我的設定](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
-   <td><p>任何</p></td> 
+   <td>Adobe Workfront 封裝</td> 
+   <td><p>若要編輯使用者的設定檔：任何Workfront或Workflow套件</p>
+       <p>若要設定費率屬性與成本費率修訂，請執行下列步驟：工作流程Ultimate</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront授權</td> 
@@ -105,7 +106,7 @@ ht-degree: 0%
   您無法重設Workfront管理員的密碼。
 
 * **&lt;SSO設定>使用者名稱**：如果您的Workfront管理員已啟用Workfront的SSO整合，則SSO使用者名稱會顯示在此欄位中。 此欄位會顯示為您的Workfront執行個體啟用的SSO設定型別。
-* **OnlyAllow &lt;SSO Configuration>驗證**：如果您的Workfront管理員已啟用Workfront的SSO整合，並已更新所有SSO使用者，則預設會選取此欄位。 此欄位會顯示為您的Workfront執行個體啟用的SSO設定型別。
+* **OnlyAllow &lt;SSO設定>驗證**：如果您的Workfront管理員已啟用與Workfront的SSO整合，並已更新所有SSO使用者，則預設會選取此欄位。 此欄位會顯示為您的Workfront執行個體啟用的SSO設定型別。
 
   選取此欄位時，使用者必須使用其SSO憑證登入Workfront。 取消核取此專案將允許他們使用其Workfront憑證登入Workfront。
 
@@ -138,7 +139,7 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >當您的組織使用Adobe統一體驗時，使用者的語言偏好設定會儲存在其Adobe設定檔中，而不使用電子郵件地區設定。 如需有關存取這些偏好設定的資訊，請參閱[Workfront的Adobe Unified Experience &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
+  >當您的組織使用Adobe統一體驗時，使用者的語言偏好設定會儲存在其Adobe設定檔中，而不使用電子郵件地區設定。 如需有關存取這些偏好設定的資訊，請參閱[Workfront的Adobe Unified Experience ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 
 * **接收來自此測試環境的電子郵件**：如果您要接收來自目前登入之環境的電子郵件通知，請核取此選項。
 
@@ -158,7 +159,7 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[設定系統中每個人的事件通知](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)。
 
-### 存取
+### 存取權
 
 * **使用者處於作用中狀態**：啟用此選項以表示使用者處於作用中狀態。 作用中使用者使用Workfront授權。 停用欄位會停用使用者並防止他們登入Workfront。
 
@@ -264,9 +265,11 @@ ht-degree: 0%
 
   如需有關設定資源管理偏好設定的資訊，請參閱[設定資源管理偏好設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)。
 
-  <span class="preview"> （選擇性）如果使用者在專案期間的工作角色變更，則財務計算中會使用生效日期的工作角色指派。</span>
+<!--
+<span class="preview">(Optional) Date effective job role assignments are used in financial calculations if the user's job role changes during a project.</span>
 
-  <span class="preview">按一下&#x200B;**依日期定義角色**，選取&#x200B;**主要角色**&#x200B;和&#x200B;**其他角色**，然後輸入每個角色的配置百分比。 這些角色可能與現有角色（使用不同的百分比）或新角色相同。 選取這些角色生效時的「開始」日期。 這可以是未來的日期。 當最新的角色作用中時，您可以按一下[顯示先前的角色]&#x200B;**&#x200B;**，檢視先前的非作用中角色。</span>
+  <span class="preview">Click **Define roles by date**, select the **Primary Role** and **Other Roles**, and enter the allocation percentage for each role. The roles could be the same as the existing roles (using different percentages), or new roles. Select the Start date when these roles become active. This can be a future date. When the newest roles become active, you can click **Show previous roles** to see the previous, inactive roles.</span>
+-->
 
 * **排程**：將排程與使用者建立關聯。 使用者的排程會計算指派給使用者的任務的時間表。
 
@@ -312,13 +315,15 @@ ht-degree: 0%
 * **資源集區**：將使用者與資源集區建立關聯。 如需詳細資訊，請參閱[將資源集區與使用者關聯](/help/quicksilver/resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)。
 * **成本費率**：使用者每小時的成本金額。
 
-  若要取得日期有效成本費率，請按一下[新增費率]。**&#x200B;** 輸入時間期間的成本費率值，並視需要指定「開始日期」與「結束日期」。 成本費率1不會有開始日期，而最後的成本費率不會有結束日期。
+  若要取得日期有效成本費率，請按一下[新增費率]。**** 輸入時間期間的成本費率值，並視需要指定「開始日期」與「結束日期」。 成本費率1不會有開始日期，而最後的成本費率不會有結束日期。
 
   部分日期會自動新增。 例如，如果「成本費率1」沒有結束日期，而您新增了開始日期為2023年5月1日的「成本費率2」，則會將結束日期為2023年4月30日的成本費率新增至「成本費率1」，因此不會出現間隙。
 
+* <span class="preview">**允許成本費率覆寫**：開啟此選項以允許專案上此使用者的成本費率覆寫。 如需詳細資訊，請參閱[覆寫專案層級](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md)的使用者成本費率。</span>
+
 * **收費率**：使用者每小時的收費金額。
 
-  若要取得日期有效收費率，請按一下[新增費率]。**&#x200B;** 輸入時間期間的帳單費率值，並視需要指定「開始日期」與「結束日期」。 帳單費率1不會有開始日期，而最後的帳單費率不會有結束日期。
+  若要取得日期有效收費率，請按一下[新增費率]。**** 輸入時間期間的帳單費率值，並視需要指定「開始日期」與「結束日期」。 帳單費率1不會有開始日期，而最後的帳單費率不會有結束日期。
 
   部分日期會自動新增。 例如，如果「收費率1」沒有結束日期，而您新增了開始日期為2023年5月1日的第二個日期，則結束日期為2023年4月30日的日期會新增至「收費率1」，因此不存在間隔。
 
@@ -330,11 +335,33 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->進階自訂表單功能(例如外部查詢欄位和Workfront原生欄位)只有在您於詳細資訊頁面上開啟使用者記錄時才可用，無法在「編輯使用者」對話方塊中開啟。 （從使用者清單中，按一下使用者名稱以開啟詳細資訊。）
+>進階自訂表單功能（例如外部查詢欄位和Workfront原生欄位）只有在您於詳細資訊頁面上開啟使用者記錄時才可用，無法在「編輯使用者」對話方塊中開啟。 （從使用者清單中，按一下使用者名稱以開啟詳細資訊。）
 
 如需建立自訂表單的相關資訊，請參閱[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
-### 評論
+<div class="preview">
+
+### 屬性
+
+在費率存在的Workfront區域中（例如工作角色和使用者），可支援費率屬性。 在使用者的設定檔上套用屬性時，其指派會自動解析為正確的費率。
+
+1. 按一下&#x200B;**新增集合**。
+1. 選取屬性值。
+
+   您的Workfront管理員會設定可用的屬性。 這些可能包括機構、地點、成本中心、客戶或貴組織所需的其他屬性。
+
+1. （選擇性）若要新增另一組具有有效日期的屬性，請執行下列動作：
+
+   1. 按一下&#x200B;**新增集合**。
+   1. 選取目前屬性集的&#x200B;**結束日期**。
+
+      系統會自動新增下一組的&#x200B;**開始日期**。
+
+   1. 新增下一個屬性集的屬性值。 這些值會在開始日期生效。
+
+</div>
+
+### 註解
 
 輸入您要傳送給使用者的註解，以及使用者設定檔的更新區域。
 

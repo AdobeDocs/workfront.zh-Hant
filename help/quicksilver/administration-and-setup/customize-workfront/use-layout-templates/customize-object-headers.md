@@ -8,20 +8,22 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
+source-git-commit: 106ff601a4a19dbbf50cb3329675928ad7087b21
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '548'
 ht-degree: 3%
 
 ---
 
 # 使用版面配置範本自訂物件標頭
 
+{{highlighted-preview}}
+
 身為Adobe Workfront管理員或群組管理員，您可以使用版面配置範本來設定使用者在開啟物件頁面時，在物件標題中看到的欄位。
 
 >[!IMPORTANT]
 >
->自訂物件標題目前可用於專案、任務和問題。
+>自訂物件標題目前可用於專案、任務、問題、<span class="preview">產品組合、方案、範本、計費記錄、團隊、群組、使用者、公司、群組和費率卡。</span>
 
 ![物件標頭欄位](assets/object-header-fields.png)
 
@@ -64,10 +66,7 @@ ht-degree: 3%
 ## 自訂物件標頭
 
 1. 開始使用版面配置範本，如[建立和管理版面配置範本](../../customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)中所述。
-1. 在&#x200B;**自訂使用者看到的內容**&#x200B;下拉式功能表中，選取&#x200B;**專案**、**任務**&#x200B;或&#x200B;**問題**。
-
-   <!--when this will be possible for more than 3 objects, at production, make this more general: update the sentence above to say "select an object you want to customize in the Customize what users see drop-down menu). -->
-
+1. 在&#x200B;**自訂使用者看到的內容**&#x200B;下拉式功能表中，選取您要自訂其標頭的物件。
 1. 在[!UICONTROL 標頭欄位]區段中，將滑鼠移至目前欄位上，然後執行下列任一項作業：
    * 按一下&#x200B;**x**&#x200B;圖示以移除欄位
 
@@ -75,12 +74,12 @@ ht-degree: 3%
 
    * 按一下並按住&#x200B;**抓取**&#x200B;圖示，將欄位拖放到新位置。
 
-   <!--(NOTE: make sure the default names of these fields have not changed; otherwise, update screen shot)-->
-
    ![物件標題欄位隱藏和移動圖示](assets/object-header-field-x-and-grab-icons-in-lt.png)
 
 1. 一個物件的標頭中最多可以有五個欄位。
-如果您已選取五個欄位，則必須先移除欄位，才能新增欄位。
+
+   如果您已選取五個欄位，則必須先移除欄位，才能新增欄位。
+
 1. 在&#x200B;**新增欄位**&#x200B;方塊中，開始輸入您要新增的自訂欄位或原生Workfront欄位的名稱，然後在其顯示在清單中時選取它。 欄位會新增至「新增欄位」方塊的右上角，並顯示為物件標頭右上角的第一個欄位。
 
    >[!TIP]

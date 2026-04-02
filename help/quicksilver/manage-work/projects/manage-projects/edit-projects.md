@@ -7,9 +7,11 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '7726'
+source-wordcount: '7855'
 ht-degree: 1%
 
 ---
@@ -18,9 +20,11 @@ ht-degree: 1%
 
 <!--Audited: 07/2024-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 <!--
 <p>***Linked to many articles,</p>
@@ -48,7 +52,8 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 封裝</td> 
-   <td> <p>任何</p> </td> 
+   <td> <p>若要設定專案的系統層級匯率並保留專案帳單匯率：工作流程Ultimate</p>
+      <p>編輯所有其他設定：任何Workfront或Workflow套件</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
@@ -72,7 +77,8 @@ ht-degree: 1%
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -101,7 +107,8 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
+*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 ## 編輯專案的限制
 
@@ -399,11 +406,12 @@ ht-degree: 1%
 
 若要編輯「財務」區域中的欄位：
 
-
 1. 如上所述開始編輯您的專案。
 1. 按一下左側面板中的&#x200B;**財務**。
 
    專案編輯方塊中的![財務區域](assets/nwe-finance-in-edit-project-box-350x183.png)
+
+   <!--![Finance area in the project edit box](assets/edit-project-finance-section.png)-->
 
 1. 更新專案的下列財務資訊：
 
@@ -411,9 +419,17 @@ ht-degree: 1%
     <col> 
     <col> 
     <tbody> 
+     <tr>
+      <td><strong><span class="preview">使用系統中的生效日期匯率</span></strong></td>
+      <td><p><span class="preview">選取此選項時，一律會使用系統層級的日期有效匯率，且專案上不允許匯率覆寫。</span></p> <p><span class="preview">選取選項時，您也必須選取要開始的<strong>匯率日期</strong>。</span></p></td> 
+     </tr>
+     <tr>
+      <td><strong><span class="preview">保留專案計費費率資訊</span></strong></td>
+      <td><p><span class="preview">當您啟用此選項時，所有指定帳單費率會永久凍結為帳單階層的最高適用費率。 這是一次性選擇，一旦專案具有指派或小時，您就無法停用選項。 保留後，無法在專案上的任何位置變更、編輯或覆寫指派收費率。</span></p></td>
+     </tr>
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>貨幣</strong> </td> 
-      <td> <p> <p>如果專案的貨幣與系統的預設貨幣不同，請指定專案的貨幣。 如果專案已經有財務資訊，則您無法變更專案的貨幣。 如果系統中只有預設貨幣，則不會顯示此欄位。 </p> <p>如需貨幣詳細資訊，請參閱<a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">設定匯率</a>。<br></p> </p> </td> 
+      <td> <p>如果專案的貨幣與系統的預設貨幣不同，請指定專案的貨幣。 如果專案已經有財務資訊，則您無法變更專案的貨幣。 如果系統中只有預設貨幣，則不會顯示此欄位。 </p> <p>如需貨幣詳細資訊，請參閱<a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">設定匯率</a>。 </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>預算</strong> </td> 
@@ -823,7 +839,7 @@ ht-degree: 1%
 
    當自訂表單已附加到某些所選專案時，表單名稱旁邊會顯示新增表單時已附加表單的專案數量。
 
-1. （選擇性）按一下自訂表單名稱右邊的&#x200B;**x**&#x200B;圖示，然後按一下[移除]&#x200B;**&#x200B;**，將其從所有選取的專案中移除。
+1. （選擇性）按一下自訂表單名稱右邊的&#x200B;**x**&#x200B;圖示，然後按一下[移除]****，將其從所有選取的專案中移除。
 
    >[!CAUTION]
    >
@@ -833,13 +849,13 @@ ht-degree: 1%
 
 1. 按一下&#x200B;**財務**，編輯所有選取專案的財務資訊。
 如需有關編輯財務區域的詳細資訊，請參閱本文章的[財務](#finance)小節。
-1. 按一下&#x200B;**專案設定**&#x200B;以編輯所有選取專案的設定。
+1. 按一下&#x200B;**專案設定**以編輯所有選取專案的設定。
 如需有關編輯[專案設定]區域的詳細資訊，請參閱本文中的[專案設定](#project-settings)小節。
 1. 按一下「**任務設定**」以編輯所有選定專案的任務設定。
 如需有關編輯[工作設定]區域的詳細資訊，請參閱本文中的[工作設定](#task-settings)小節。
-1. 按一下&#x200B;**問題設定**&#x200B;以編輯所有選定專案的問題設定。
+1. 按一下&#x200B;**問題設定**以編輯所有選定專案的問題設定。
 如需有關編輯問題設定區域的詳細資訊，請參閱本文中的[問題設定](#issue-settings)小節。
-1. 按一下&#x200B;**存取**&#x200B;以編輯所有選取專案的存取設定。
+1. 按一下&#x200B;**存取**以編輯所有選取專案的存取設定。
 如需有關編輯[存取]區域的詳細資訊，請參閱本文中的[存取](#access)一節。
 1. 按一下&#x200B;**註解**，然後在提供的空間新增註解。 Workfront在每個專案的&#x200B;**更新**&#x200B;區域新增註解。 如需更新工作的相關資訊，請參閱[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 1. （選擇性）若要移除您在「編輯專案」方塊中新增的任何資訊，請將游標移至已編輯的欄位上，然後按一下欄位右上角的&#x200B;**x**&#x200B;捨棄圖示。
@@ -850,7 +866,8 @@ ht-degree: 1%
 1. 按一下「**儲存**」。
 
 
-<!-- Old information for how to bulk edit in classic/ before project bulk edit redesign: 
+<!--
+ Old information for how to bulk edit in classic/ before project bulk edit redesign: 
 
 ### Edit projects in bulk in the Production environment
 

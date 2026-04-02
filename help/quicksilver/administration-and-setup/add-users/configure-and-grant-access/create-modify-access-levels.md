@@ -8,9 +8,11 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 0f2923851230e830eb647d422f2862a0c5d5472b
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '1468'
+source-wordcount: '1612'
 ht-degree: 7%
 
 ---
@@ -20,6 +22,8 @@ ht-degree: 7%
 <!--Audited: 12/2023-->
 
 <!--Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help. -->
+
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽Sandbox」環境中使用。</span>
 
 身為Adobe Workfront管理員，您可以建立自訂存取層級並套用至使用者。 當您使用存取層級時，請務必瞭解它們如何與使用者在共用物件時授與的物件許可權搭配使用。 如需存取層級的詳細資訊，請參閱：
 
@@ -191,8 +195,21 @@ ht-degree: 7%
       <td role="rowheader">永不允許使用者刪除宣告</td> 
       <td>防止使用者刪除公告中心中的公告。 如需詳細資訊，請參閱<a href="../../../administration-and-setup/get-started-wf-administration/view-send-announcements.md" class="MCXref xref">傳送宣告</a>。</td> 
      </tr> 
+     <tr>
+      <td role="rowheader">允許使用者存取品牌</td> 
+      <td>允許使用者存取和管理Workfront中的GenStudio品牌。 如需詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md" class="MCXref xref">授予品牌許可權的存取權</a>。</td> 
+     </tr>
     </tbody> 
    </table>
+
+
+1. <span class="preview">（選擇性）若要限制具有此存取層級的使用者看見特定欄位，請在[新增受限制的欄位]區段中新增欄位。</span>
+
+   <span class="preview">您可以在此區段中搜尋原生和自訂欄位。 限製為20個受限欄位。</span>
+
+   <span class="preview">當存取層級指派給使用者作為其主要存取層級，或透過企業設定檔指派時，欄位會受到限制。 如需企業檔案的詳細資訊，請參閱[企業檔案總覽](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)。</span>
+
+   <span class="preview">系統中的使用者仍可看到受限欄位，但會顯示為空白或顯示N/A而非實際資料。</span>
 
 1. （條件式與選擇性）如果您的Workfront系統設定給屬於多個公司的使用者，請根據其他使用者在&#x200B;**區段中屬於哪個公司來限制其他使用者的可見度。其他公司的人員應該僅檢視來自**&#x200B;的使用者。
 

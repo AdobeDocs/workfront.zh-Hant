@@ -7,9 +7,9 @@ description: 追蹤專案財務是管理專案的關鍵。
 author: Lisa
 feature: Work Management
 exl-id: a5e69dea-d0aa-47cd-9b59-6199cec56fe4
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 8f6f14d4b36a9eee499111b1a37912f641c9f2ba
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '592'
 ht-degree: 7%
 
 ---
@@ -95,7 +95,7 @@ ht-degree: 7%
   </tr> 
   <tr> 
    <td>計費費率</td> 
-   <td> <p>您可以為使用者或工作角色建立收費率。</p> <p>如需將使用者與計費率建立關聯的資訊，請參閱<a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">編輯使用者的設定檔</a>。</p> <p>如需將工作角色與收費率建立關聯的資訊，請參閱<a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">建立及管理工作角色</a>。</p> <p>記帳費率會計算您的專案與任務的收入。 您可以覆寫專案或公司的角色收費率。 </p> <p>如需有關覆寫專案收費率的資訊，請參閱<a href="../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md" class="MCXref xref">覆寫工作角色收費率和計算專案收入的概觀</a>。</p> <p>如需有關覆寫公司收費率的資訊，請參閱<a href="../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md" class="MCXref xref">以公司層級的收費率覆寫專案層級的收費率</a>。</p> </td> 
+   <td> <p>您可以為使用者或工作角色建立收費率。</p> <p>如需將使用者與計費率建立關聯的資訊，請參閱<a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">編輯使用者的設定檔</a>。</p> <p>如需將工作角色與收費率建立關聯的資訊，請參閱<a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">建立及管理工作角色</a>。</p> <p>記帳費率會計算您的專案與任務的收入。 您可以覆寫專案或公司的角色收費率。 </p> <p>如需有關覆寫專案收費率的資訊，請參閱<a href="../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md" class="MCXref xref">覆寫收費率以及計算專案收入的總覽</a>。</p> <p>如需有關覆寫公司收費率的資訊，請參閱<a href="../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md" class="MCXref xref">以公司層級的收費率覆寫專案層級的收費率</a>。</p> </td> 
    <td>✔</td> 
    <td>✔</td> 
    <td> </td> 
@@ -115,7 +115,7 @@ ht-degree: 7%
    <td> </td> 
   </tr> 
   <tr> 
-   <td>績效計量</td> 
+   <td>績效量度</td> 
    <td> <p>績效量度會顯示您的專案或任務在指定時間的執行情形。 績效量度是Workfront對任務和專案執行的自動計算。 您可以在Workfront中計算的效能度量會列在下列各列。 績效量度的計算會因您使用的績效指數方法型別而異。 </p> <p>如需選取哪個PIM用於系統的詳細資訊，請參閱<a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">設定績效指數方法(PIM)</a>。</p> </td> 
    <td>✔</td> 
    <td>✔</td> 

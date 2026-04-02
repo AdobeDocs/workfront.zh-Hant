@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 34c63e1b7d6323a4cf25514aaff9f923010d8958
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 12%
+source-wordcount: '397'
+ht-degree: 11%
 
 ---
 
 # 自訂表單概觀
+
+{{highlighted-preview}}
 
 <!--Audited: 12/2023-->
 
@@ -30,6 +32,16 @@ ht-degree: 12%
 表單設計工具有一個畫布樣式的工作區，可讓您同時檢視欄位、畫布和欄位設定。 它也可讓您在設計表單時拖放區段內的欄位。 您可以調整畫面右側的大小，為欄位選項提供更多空間。
 
 如需詳細資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+
+<div class="preview">
+
+預覽環境中的範例影像：
+
+![範例表單設計工具](assets/form-designer-example-032526.png)
+
+</div>
+
+生產環境中的影像範例：
 
 ![範例表單設計工具](assets/form-designer-example.png)
 
@@ -52,7 +64,7 @@ Workfront為每種物件型別提供許多內建欄位。
 * 已計算
 * 日期
 * 核取方塊群組
-* 單選按鈕
+* 選項按鈕
 * 描述文字
 * 分區符號
 * Adobe XD

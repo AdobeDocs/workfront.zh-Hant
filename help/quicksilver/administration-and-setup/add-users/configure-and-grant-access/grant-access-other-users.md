@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+source-git-commit: d45c34b1f48a7ffcae29556d34558bb4d1d8a016
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 2%
+source-wordcount: '738'
+ht-degree: 4%
 
 ---
 
@@ -17,16 +17,16 @@ ht-degree: 2%
 
 身為Adobe Workfront管理員，您可以使用存取層級來定義使用者對Workfront中其他使用者的存取權，如[存取層級概觀](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)中所述。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
@@ -47,21 +47,21 @@ ht-degree: 2%
 
 ## 設定使用者的存取權
 
-您可以使用預設存取層級或您建立的自訂存取層級，來管理使用者可以檢視和編輯的其他使用者資訊。 具有預設「計畫」和「工作」授權的使用者可以檢視其他使用者的聯絡資訊。 下列任一使用者都可以建立及編輯其他使用者：
+您可以使用預設存取層級或您建立的自訂存取層級，來管理使用者可以檢視和編輯的其他使用者資訊。 具有預設「標準」、「計畫」和「工作」授權的使用者可以檢視其他使用者的聯絡資訊。 下列任一使用者都可以建立及編輯其他使用者：
 
 * Workfront管理員。
 
   如需詳細資訊，請參閱[授予使用者完整管理存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)。
 
-* 具有預設Plan授權且有權存取使用者的使用者，如本文所述。
+* 具有預設Standard或Plan授權的使用者，也可以存取使用者，如本文所述。
 
   僅限於檢視其公司或主要公司使用者的使用者，只能編輯其可看到的使用者。 如需詳細資訊，請參閱[建立或修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
-* 具有預設Plan授權的使用者，同時也被指定為其他使用者的管理員。
+* 具有預設Standard或Plan授權的使用者，也指定為其他使用者的管理員。
 
   在存取層級中授予使用者「編輯」存取許可權的使用者可以管理向其報告的使用者。 如需有關管理使用者的資訊，請參閱[檢視組織圖](../../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md)。
 
-* 具有預設Plan授權的使用者建立使用者後，可以停用、刪除或編輯他們建立的使用者。 如需有關建立新使用者的資訊，請參閱[新增使用者](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md)。
+* 具有預設Standard或Plan授權的使用者建立使用者時，可以停用、刪除或編輯他們建立的使用者。 如需有關建立新使用者的資訊，請參閱[新增使用者](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md)。
 
 ## 設定使用者的存取權，以使用自訂存取層級編輯使用者
 

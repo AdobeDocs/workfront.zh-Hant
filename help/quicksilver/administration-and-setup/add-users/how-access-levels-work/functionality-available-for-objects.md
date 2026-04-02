@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
+source-git-commit: 1721d6d4c2059fa32d0fd2ae80af4bd26a8f06a7
 workflow-type: tm+mt
-source-wordcount: '1326'
-ht-degree: 14%
+source-wordcount: '1555'
+ht-degree: 16%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 14%
 >[!NOTE]
 >
 >* 本文說明新Workfront套件模型中可用於存取層級的功能。 若要檢視目前封裝模型中可用的功能，請參閱[各種存取層級中每種物件型別的可用功能](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)。
->* 如需最新模式中不同套件可用的功能清單，請參閱[Adobe Workfront定價與封裝](https://business.adobe.com/tw/products/workfront/pricing.html)。
+>* 如需最新模式中不同套件可用的功能清單，請參閱[Adobe Workfront定價與封裝](https://business.adobe.com/products/workfront/pricing.html)。
 
 ## 專案
 
@@ -59,6 +59,7 @@ ht-degree: 14%
 | 管理風險 | ✓ |   |   |   |
 | 管理財務 | ✓ |   |   |   |
 | 新增/編輯費用 | ✓ |   |   |   |
+| <span class="preview">附加費率卡</span> | ✓ |   |   |   |
 | 附加範本 | ✓ |   |   |   |
 | 另存為範本 | ✓ |   |   |   |
 | 新增/編輯業務案例 | ✓ |   |   |   |
@@ -256,6 +257,36 @@ ht-degree: 14%
 
 ## 使用者
 
+<div class="preview">
+
+預覽環境中提供以下選項：
+
+| 動作 | 標準 | 精簡 | 貢獻者 | 外部使用者** |
+|----------------------------------------------------------------------------------------------------|----------|--------|-------------|-----------------|
+| 建立 | ✓* |   |   |   |
+| 刪除 | ✓* |   |   |   |
+| 編輯計費費率 | ✓* |   |   |   |
+| 編輯聯絡人資訊 | ✓* |   |   |   |
+| 編輯成本費率 | ✓* |   |   |   |
+| 編輯一般財務 | ✓* |   |   |   |
+| 編輯、刪除、停用、登入身份或重設任何使用者的密碼 | ✓* |   |   |   |
+| 編輯、刪除、停用、登入身份或重設其管理的群組之任何使用者的密碼 | ✓* |   |   |   |
+| 檢視使用者 | ✓ | ✓ | ✓ |   |
+| 檢視聯絡資訊 | ✓ | ✓ | ✓ |   |
+| 檢視計費率 | ✓* |   |   |   |
+| 檢視成本率 | ✓* |   |   |   |
+| 檢視一般財務 | ✓* |   |   |   |
+
+{style="table-layout:auto"}
+
+&#42;使用存取層級，Workfront管理員可以停用或啟用此功能。
+
+&#42;&#42;外部使用者只能搜尋其他使用者。
+
+</div>
+
+生產環境中提供下列選項：
+
 | 動作 | 標準 | 精簡 | 貢獻者 | 外部使用者** |
 |----------------------------------------------------------------------------------------------------|----------|--------|-------------|-----------------|
 | 建立 | ✓* |   |   |   |
@@ -270,6 +301,63 @@ ht-degree: 14%
 &#42;使用存取層級，Workfront管理員可以停用或啟用此功能。
 
 &#42;&#42;外部使用者只能搜尋其他使用者。
+
+<!--
+
+<div class="preview">
+
+## Job Roles
+
+|  Action           |  Standard  |  Light  |  Contributor  | External user |
+|-------------------|------------|---------|---------------|---------------|
+| View              | ✓          | ✓       | ✓             | &nbsp;        |
+| Edit              | ✓          | &nbsp;  | &nbsp;        | &nbsp;        |
+| Create            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Delete            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Edit Billing Rates | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Edit Cost Rates   | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Edit General Finance | ✓*      | &nbsp;  | &nbsp;        | &nbsp;        |
+| View Billing Rates | ✓         | &nbsp;  | &nbsp;        | &nbsp;        |
+| View Cost Rates    | ✓         | &nbsp;  | &nbsp;        | &nbsp;        |
+| View General Finance | ✓       | &nbsp;  | &nbsp;        | &nbsp;        |
+
+{style="table-layout:auto"}
+
+&#42; Using an access level, Workfront administrators can disable or enable this functionality.
+
+</div>
+
+## Companies
+
+|  Action           |  Standard  |  Light  |  Contributor  | External user |
+|-------------------|------------|---------|---------------|---------------|
+| View              | ✓          | ✓       | ✓             | &nbsp;        |
+| Edit              | ✓          | &nbsp;  | &nbsp;        | &nbsp;        |
+| Create            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Delete            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Edit Billing Rates | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Edit Cost Rates   | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Edit General Finance | ✓*      | &nbsp;  | &nbsp;        | &nbsp;        |
+| View Billing Rates | ✓         | &nbsp;  | &nbsp;        | &nbsp;        |
+| View Cost Rates    | ✓         | &nbsp;  | &nbsp;        | &nbsp;        |
+| View General Finance | ✓       | &nbsp;  | &nbsp;        | &nbsp;        |
+
+{style="table-layout:auto"}
+
+&#42; Using an access level, Workfront administrators can disable or enable this functionality.
+
+## Groups
+
+|  Action           |  Standard  |  Light  |  Contributor  | External user |
+|-------------------|------------|---------|---------------|---------------|
+| Share             | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| View              | ✓          | ✓       | ✓             | &nbsp;        |
+
+{style="table-layout:auto"}
+
+&#42; Using an access level, Workfront administrators can disable or enable this functionality.
+
+-->
 
 ## 團隊
 
@@ -306,6 +394,34 @@ ht-degree: 14%
 
 只有具有Standard授權的使用者才能完整存取財務資料。
 
+<div class="preview">
+
+預覽環境中提供以下選項：
+
+| 動作 | 標準 | 精簡 | 貢獻者 | 外部使用者 |
+|--------------------------------------------------------------|----------|--------|-------------|---------------|
+| 編輯計費費率 | ✓&#42; |   |   |   |
+| 編輯成本費率 | ✓&#42; |   |   |   |
+| 編輯一般財務 | ✓&#42; |   |   |   |
+| 檢視計費率 | ✓&#42; | ✓&#42; |   |   |
+| 檢視成本率 | ✓&#42; | ✓&#42; |   |   |
+| 檢視一般財務 | ✓&#42; | ✓&#42; |   |   |
+| 管理計費記錄 | ✓ |   |   |   |
+| 管理費用 | ✓ |   |   |   |
+| 在資源計畫工具中依成本檢視資訊 | ✓ |   |   |   |
+| 資源規劃工具中的預算資源&#42;&#42; | ✓ |   |   |   |
+| 檢視資源規劃工具中的資源配置&#42; | ✓ | ✓ |   |   |
+| 建立專案風險 | ✓ |   |   |   |
+| 檢視專案風險 | ✓ | ✓ |   |   |
+
+{style="table-layout:auto"}
+
+&#42;使用存取層級，Workfront管理員可以停用或啟用此功能。
+
+</div>
+
+生產環境中提供下列選項：
+
 | 動作 | 標準 | 精簡 | 貢獻者 | 外部使用者 |
 |--------------------------------------------------------------|----------|--------|-------------|---------------|
 | 編輯角色帳單和成本費率 | ✓&#42; |   |   |   |
@@ -315,7 +431,6 @@ ht-degree: 14%
 | 管理計費記錄 | ✓ |   |   |   |
 | 管理費用 | ✓ |   |   |   |
 | 檢視財務資料 | ✓&#42; | ✓&#42; |   |   |
-| <span class="preview">管理費率卡</span> | ✓ |   |   |   |
 | 在資源計畫工具中依成本檢視資訊 | ✓ |   |   |   |
 | 資源規劃工具中的預算資源&#42;&#42; | ✓ |   |   |   |
 | 檢視資源規劃工具中的資源配置&#42; | ✓ | ✓ |   |   |
@@ -367,6 +482,26 @@ ht-degree: 14%
 >只有當計畫的連結與其共用時，使用者才能檢視其他使用者建立的計畫。
 
 &#42;若要讓使用者檢視計畫或方案中的財務資料，他們需要財務資料的存取權。 如需詳細資訊，請參閱[授予財務資料的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)。
+
+<div class="preview">
+
+## 費率卡
+
+只有擁有標準授權的使用者才能完整存取費率卡。
+
+| 動作 | 標準 | 精簡 | 貢獻者 | 外部使用者 |
+|-------------------|------------|---------|---------------|---------------|
+| 檢視 | ✓ | ✓ |   |   |
+| 編輯 | ✓ |   |   |   |
+| 建立 | ✓* |   |   |   |
+| 刪除 | ✓* |   |   |   |
+| 共用 | ✓* | ✓* |   |   |
+
+{style="table-layout:auto"}
+
+&#42;使用存取層級，Workfront管理員可以停用或啟用此功能。
+
+</div>
 
 ## Workfront目標區域
 

@@ -9,16 +9,18 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
-source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
+source-git-commit: 09bbb257a80c3f85abea9d238900d63c493fea2e
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 20%
+source-wordcount: '488'
+ht-degree: 22%
 
 ---
 
 # 依授權存取物件和區域
 
 <!-- Audited: 2/2024 -->
+
+{{highlighted-preview}}
 
 >[!NOTE]
 >
@@ -105,6 +107,13 @@ ht-degree: 20%
         <td>檢視</td>
     </tr>
     <tr>
+        <td><span class="preview">職務角色</span></td>
+        <td>編輯</td>
+        <td>檢視</td>
+        <td>檢視</td>
+        <td>無存取權</td>
+    </tr>
+    <tr>
         <td>團隊</td>
         <td>編輯</td>
         <td>檢視</td>
@@ -134,6 +143,13 @@ ht-degree: 20%
     </tr>
     <tr>
         <td>情境規劃工具</td>
+        <td>編輯</td>
+        <td>檢視</td>
+        <td>無存取權</td>
+        <td>無存取權</td>
+    </tr>
+    <tr>
+        <td><span class="preview">費率卡</span></td>
         <td>編輯</td>
         <td>檢視</td>
         <td>無存取權</td>
@@ -176,4 +192,5 @@ ht-degree: 20%
 * [授予財務資料的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)
 * [授與資源管理的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
 * [授與Scenario Planner](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)的存取權
+* [授與費率卡的存取權](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-rate-cards.md)
 * [授予Adobe Workfront目標的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)

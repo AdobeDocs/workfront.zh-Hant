@@ -9,10 +9,10 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: f80bb267-be96-41d4-98c5-398bde66499e
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: 3fe3313bd545d51be7aa0fb021dd0bb0f91b4321
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 18%
+source-wordcount: '76'
+ht-degree: 17%
 
 ---
 
@@ -32,6 +32,7 @@ ht-degree: 18%
 * [自訂Adobe Workfront](../administration-and-setup/customize-workfront/customize-workfront.md)
 * [管理Adobe Workfront](../administration-and-setup/manage-workfront/manage-workfront.md)
 * [管理群組](../administration-and-setup/manage-groups/manage-groups.md)
+* [管理企業作業：文章索引](/help/quicksilver/administration-and-setup/manage-enterprise-operations/enterprise-operations-index.md)
 * [設定整合](../administration-and-setup/configure-integrations/workfront-integrations.md)
 * [藍圖](../administration-and-setup/blueprints/blueprints.md)
 * [管理和設定的秘訣、技巧和疑難排解](../administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)
